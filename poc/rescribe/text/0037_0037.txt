@@ -1,0 +1,32 @@
+ELEMIENS  DEVCLIDI,
+PROPOSITIONIX.
+Si vne ligne droicte eſt couppee en deux pieces egales , & en
+deux pieces incgales: les quarreſ des fe inegales de la
+toute, ſeront doubles aux quarre?q de a moitié & de la ſe-
+clion entre- moyenne.
+GQi laligne droicte H B couppec en deurx s
+eglement au point C, & inegalement au VÆS -
+oint N. ſoit eſſeuec en angles droicts CS, & f
+ſate egale à CH, & ſoient menees H S & b S. EM
+D'autant que les deux triangles H C S & B CS CN B
+ſont Iſoſceles, ils auront les angles ſur la baſe e-
+gaux. Or H C S eſt droict, comme auſſi B CS, donc par la 32.
+dn 1. ſangle CH S, vaudra vn demy droict, comme auſſi
+H S C, SBCX BSC. Celuy-cy ioint à H S C fera vn angle
+droit H S B. Soit auſſi eſſeuec en angles droicts NF, & du point
+F ſoit tiree F G parallele & egale à N C: ll eſt cuident que NF
+eſt egale à N B (Pangle FN Keſtant droict & NB F demy droit,
+comme auſſi NF Bjj par la 6. du premier, Semblablement F G ſera
+egale à6 S. Soit tree H F. D'autant que par la 47. du premier
+les quarreæ de HN& NBſou NF) ſont egaux au quarré HF,
+& que ceſtuy-cy eſt egal aux quarrez de FS & S H, & que le
+quarré de S H eſt double au quarré de H C, & le quarré de S F
+double au quarré de GF (ou EN) l s'enſuyura que les quarrez
+des deux picces inegales H N & NB ſcront doubles aux quarreæ
+de la moitie H C & de la ligne entre les deux ſections CN.
+PROPOSITIONX.
+si vne ligne droicte, eſt couppec-en deux pieces cgales, & on
+luy adiouſte directement, quelque ligne droicte; le quarrè
+de la toute auec ladioustee & le quarre de V'adiouſstee, sont
+doubles aux quarrex de la moitie, & de celle qui eſt faicte
+de la moitié & de Padioustee,omme drune.

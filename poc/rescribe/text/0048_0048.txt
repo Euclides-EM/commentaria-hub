@@ -1,0 +1,38 @@
+LIVRE TROIYSIESME 19
+PROPOSITION IjI X.
+Si on prent quelque point au cercle, & d'iceluy point en la cir-
+conference tombent plus de deux lignes droites egales, le point
+pris eſt le centre diceluy cercle.
+1.
+gQi pris vn point O dans le cercle duquel
+trois lignes O H, O B, O C, tirees à la cir-
+conference ſoient egales. Soit menee B C, &
+couppee en F en deux egalement, & ſoit auſſi æ
+menee FON. Deautant que les deux triãgles
+OF B, & OFC ſont equiangles & rectangles,
+la ligne NFeſt en angles droicts ſur BC: en N
+icelle NF ſera donc le centre du cercle par la 3, de ce liure. Sem-
+blablement B H couppee en deux egalement en I, & tirce 10G,
+ſe demontrera en celle-cy eſtre le centre du cercle, puis donc ue
+
+la ſection O eſt commune aF N& I G, ils'enſuyura que O ſera
+le centre du cercle.
+PROPOSITIONX
+Vne circonference ne couppe point vne autre circonference
+en plus de deux poinis.
+G deux circonferences ſe couppent en trois
+points H, B, G, ſoient menees les lignes
+droictes H B, B G, & icelles couppees en deux ut-
+egalement en K& L. ſoient de K& L menees
+en angles droicts deux lignes droites KC, LM. .
+Il eſt euident que la commune ſection O ſera c
+le centre des deux circonferences, ce qui ne peut aſtre contre la s.
+propoſition de ce liure. Si donc vne circonference, &c.
+
+
+PROPOSITIONXI.
+Si deux circonferences ſe touchent bune Pautre dedans, & l'on
+prent les centres d'icelles: ayant menè vne ligne droicte à
+iceux centres & produite, elle paſſera par l'atouchement des
+circonferences. I
+C iij

@@ -1,0 +1,4093 @@
+
+
+I
+⸗
+3389550
+&
+n
+-
+
+
+
+
+
+
+LE S SIX
+PREMIER S
+LIVRES DES ELEMENS
+DEVCLIDE: TRADVICTS
+& commentexz
+PAR
+I. ERRARD de Bar- le-duc, Ingenieur du Treſ-
+chreſtien ROY de Erance & de Nauarre.
+Dediezæ 3ſa MAIESTE.
+
+A PARIS,
+Cheæ G VILLAVME AVVRAY, au haut de la
+ruë ſainct Iean de Beauuais au Bellero-
+phon couronné
+
+M. D.XCVIII.
+Auec Priuilege du Roy.
+
+
+
+
+
+9 IRÆ,
+R Le fauerable accueil qu'il a pleu à voſtre Ma-
+&8iestè faire àmes premieres œuures Mathema-
+tiques, m'oblige & aſſeure tout enſemble de
+luy preſenter ce recent labeur, qui apportera
+peut eſtre quelque clarté à ces sciences, &
+quelque deſir à usre Nobleſſe d'aimer & honorer ce qu'elle
+void fauorise & chery de ſon souuerain Prince. Et ſi au gouuer-
+nement du monde Dieu vſe touſiours de quelque trait de Geo-
+metrie (comme diſoit le diuin Platon:) C'eſt bien raison, que ce-
+luy auquel par vne certaine communication de ſa puisſance en
+terre, il a commis ladminitratian du plus beau Royaume qui
+yſoit, ſe monstre amateur d'vne ſcience dont l'ſage ſe remarque
+au Ciel, & que le Createur meſme de P'Vniuers na point deſ-
+daignee, puis que (comme dict le Sage) il a creé toutes choſes par
+
+poids, nombre & meſure. Et certes l eſt plus difficile de me-
+Jurer, comme il appartient, les choſes grandes, la science qui hap-
+prend eſt treſ- neceſſaire à ceux que Dieu a eſleueX au ſupreme
+degrè de grandeur. Ie le prie, I . I
+S I RE, de vouloir de plus en plus agrandir & affermir
+voſtre throne, & de vous dntletde toutes ſes benedictions.
+A PARIS au mois  Avouſt 1598.
+De voſtre M A 1ESTH,
+Tres humble, tres obeiſſant, & tres-
+fidele ſeruiteur. 1. ERRARD
+de Bar-le- duc.
+H
+
+ADVERTISSEMENT.
+RENM Autant que les Elemens se doiuent lire de ſuite, &
+SIEIK que la demonſtration d'vne propoſition depend des
+i choſes precedentes, i'ay euitè tant qu'l in'a estè poßi-
+ble les vaines redites d'ucelles, craignant que le trop grand amas
+de telles repetitions n' empeſchast la lumiere que ie tasche y ap-
+porter. Quand donc le Le:feur trouuera que ie dy quelque choſe
+cfre ain;i ou ainsi , ſans autre preuue, qu'il scache que cela aura
+eſtè demonstré & repeté pluſieurs fois. le le prie donc de prendre
+ceſte briefuetè en bonne part, comme außi certains mots (qui
+ſont plus Latins que Erancois) deſquels 'ay eſtè contraint vſer,
+n'en trouuant point de plus brefs ne plus significatifi.
+
+FAVTES A CORRIGER.
+F Veuillet 1. ligne 10 F G: liſez F C. ibidem, lig. 29. H C: liſeæ
+H B. lig. 30. B P:liſ P C. f. 5. b lig.3. NB: lil. N8: le point N.
+f. 9.b,l. 22. dans lequel: liſez, dans lequel, ou dans ſon egal f. 10.
+l. 16. egale:liſ. egal. f 13. b l. 2 B N: liſ. C N. f 18. b, l. 30. ON:
+liſ. OL. f. 20. l. 3: liſeæ eequi ne se peus faire contre la 4 definition &
+contre la deſcription. f. 21. b,l. 15. poſſible: liſ. impoſſible. ibid. l.27
+HIC. liſ. FIC. f.22. l. penultieme, & la lign. droite B C: liſ, & les
+lignes droictes BC, BO. f. 24. b,, 15. eſt la: hif. eſt en la. f 25. l.
+26. GI, IE. liſ. GI, Gf: l. 31. pieccs liſ. lignes. l. 32. inegalemẽt cc ſera
+en angles droits & icelle: liſ. inegalemét en angles droicts, icelle.
+f. 28. l. 11. 32 du 1. liure: liſ. 22 du 3liure. f. 36. l. 21. O G:liſ. CG.
+ibi. l. 30. em: liſ.4. f. 37.l.27: O à P.: liſ. O à F.f. 39.l. 25. par la 11.1
+liſ. par la37. du 1. ibid. l. 29 liſez, par la, precedente: ils'enſuyura
+Adonc par la 7. du 5. que H. f. 40 I. 35. D I. liſeæ FI. f. aib, l. 25.
+H GaF liſ. H GàGF. f 42. b, l. 9. H B D liſeæ G B H. f. 43.
+.29. CDI. liſ. D .
+Ily a autres fautes non importãtes quele Lectcur pourra facil-
+lement recognoistre & ſuppleer, comme quelques lignes droites
+qui manquent e figures de la 41 du premier. de la 15 du3. de
+la 10 & de la dernicre du 4. i
+
+-
+
+
+DEMONSTRATIONS.
+DES ELEMENS
+AdEuclidce
+LIVRE I.
+DEFINIEION PREMIERE.
+
+I. XE poinct eſt ce qui n'a aucunes
+parties. ſ48
+2. ♎ò) La ligne eſt vne longueur ſans
+AZR largeus, ſculemaat. Eli
+3. v9 Les extremiteæ des lignes ſont
+poincts. H
+4. Ligne droicte eſt celle qui eſt egalement com-
+priſe entie ſes poincts.
+5. Superficie eſt qui a longucur & largeur tant ſeu-
+Ilement.
+6. Les fins des ſuperficies ſont ligne ou lignes.
+7. Superficie plane eſt qui demeure egalement en-
+tre ſes lignes. I
+8. Angle plan eſt le concours de deux lignes qui
+S'entretouchent en vn point, & leſquelles conti-
+nuces ſe couppent au meſme poinct.
+9. Angle rectiligne, eſt celluy qui eſt faict de deuxx
+. H 11
+lignes droictes.
+10. Quand vne ligne droicte, tombant ſur vne ligne
+droicte, faict les angles a'vne par & d'autre
+H a iijij
+-
+
+egaulx enſemble: l'vn & l'autre des angles egaulx
+ſe nomme droict: & la ligne droicte tombant ſe
+nomme perpediculaire, ſur la ligne ſur laquelle
+elle tombe.
+i. Et Pangle plus grand qu'vn droict, ſe nomme
+Obtus.
+n. Et l'angle  plus petit qu'vn droict ſe nomme
+aigu.
+13. Terme eſt la fin de quelque choſe.
+14. Figure eſt, qui eſt cõtenuë de terme ou termes.
+a5. Cercle, eſt vne figure plaine contenue d'vne li-
+gne qui ſe nomme circonference: en icelle y a vn
+point, duquel toutes les lignes droictes mences à
+Ia circonference ſont egales entr'elles
+16. Et ce poinct I3, ſ-appelle centre du cercle.
+17. Diametre du cercle, eſt la ligne droicte paſſant
+par le centre, finie d'vne part & d'aultre à la cir-
+conference, laquelle diuiſe le cercle en deux
+egalement.
+18. Moictie de cercle eſt vne figure contenuë du
+diametre & de la circonference compriſe par
+icelluy diametre.
+19. Section de cercle eſt vne figure contenuë d'vne
+ligne droicte & d'vne partie de la circonference.
+20. Les figures plaines rectilignes ſont celles con-
+tenuës de lignes droictes.
+21. Les figures de trois coſtez ſont celles contenuës
+de trois lignes droictes.
+22. Les figures de quatre coſteæ ſont celles compri-
+ſes de quatre lignes droictes.
+23. Les figures de pluſicurs coſtez ſont celles com-
+priſes de plus de quatre lignes droictes.
+24, Des figures de trois coſteæ, celle ſe nomme
+
+ſ
+triangle equilateral qui eſt contenuc de trois
+coſteæ egaulx.
+25. Iſoſcele, qui eſt conteniie de deux coſtez e-
+gaux ſeulement.
+26. Scalene, qui eit contenùe de trois coſteæ ine-
+gaulx.
+27. Encor des figures de trois coſtez, celle ſe nom-
+me triangle rectangle, qui a vn angle droict.
+28. Ambligone, qui a vn angle obtus,
+29. Oxigone, qui a trois angles aigus.
+30. Mais des figures de quatre coſtez, celle qui a les
+coſtez egaux & les angles droicts, ſe nomme
+a
+uarré.
+31 Celle qui a les angles droicts, mais les coſtezæ
+inegaux, ſe nomme quarrèé long. :
+32. Celle qui a les coſtez egaulx, mais non les an-
+gles droicts, ſe nomme Rhombe.
+33. Mais celle qui a les coſteæ oppoſez & les angles
+oppoſez egaulx, mais n'a pas les coſteæ egaulx en-
+ſemble ny les angles droicts, ſe nomme Rhom-
+boide. .
+34. Excepté celles-cy, les figures de quatre coſtexæ ſe
+nomment tablettes ou trapeſes.
+35. Lignes droictes patalleſes ſont celles, leſquel-
+les eſtans en vn meſme plan & mences de part &
+d'autre ne concourrent point enſemble. :
+36. Parallelogramme, eſt vne figure plane conte-
+niie de quatre lignes droictes, deſquelles les op-
+poſces ſont paralleles entr'elles.
+SENSVIVENT LES DEMANDES,
+ou poſitions simples.
+Demande I.
+1.
+A
+
+D. poinct à vn autre poinct menet vne ligne
+droicte.
+2. Continuer vne ligne drojicte finic tant qu'il en
+ſera beſoin.
+3. Deſcrire vn cercle à lentour d'vn poinct, &
+d'vne telle diſtance qu'on voudra.
+COMMVNES SENTENCES.
+Premiere.
+Es choſes egales à vne, ſont egales entre elles.
+2. Et ſi à choſes egales s'adiouſtent choſes ega-
+les, les toutes ſeront egales.
+3. Et ſi de choſes egales, ſe leuent choſes egales,
+les reſtes ſeront egales. i
+4. Et ſi à choſes inegales sadiouſtent choſes egales,
+les toutes ſeront inegales.
+5. Et ſi de choſes inegales, ſe leuent choſes ega-
+les, les reſtes ſeront inegalles.
+6. Les choſes qui ſont doubles à vn meſme, ſont
+egales entr'elles.
+7. Et les choſes qui ſont moictic d'vne meſine,
+ſont egales entr'elles.
+8. Et les choſes qui conuiennent enſemble & entre
+elles, ſont egales entrelles.
+9. Le tout eſt pluſgrand que ſa partie.
+10. Tous angles droicts ſont egaulx entr'eulx-
+11. Si deſſus deux lignes droictes tombe vne ligne
+droicte, faiſant les angles dedans d'vne meſme
+part, plus petis que deux droicts, icelles eſtans
+prolongees infinimẽct ſe rencontreront de la part
+en laquelle les angles ſent plus petis que deux
+droicts.
+n. Deus lignes droictes ne comprennent pas vn
+eſpace.
+LE PREMIER
+
+
+ELEMENS DEVCLIDE,
+PROPOSITION PREMIERE. .
+Deſſus vne ligne droicte donnee &finie deſcrire un
+triangle equilateral.
+OIT Ia ligne droicte finie & e
+︎ donnee H 8. & du point H àla
+diſtance H B ſoit deſcrit vn oer-
+ecle: par la troiſiéme demande & de n ] B
+rautre point B àla meſme diſtan-
+ſõ) ce ſoit deſcrit vn autre cercle, iceux cercles ſerõt
+egaux: & ſoient tirees les ignes H C & B CÆ la
+ſection des deux cercles C par la premiere demande: drautant que
+H Ceſt egale à H B & B Cà la meſme H B par la definition
+du cercle: ils'enſuyura, par la premiere commune ſentence que H C
+& CB ſeront egales & que le triangle ſera equilateral, ce qu'ũl
+falloit demonſtrer.
+
+PRODPOSITION II.
+Dun point donné mener vne ligne droite egale à vne
+ligne droicte dounce.
+LAbcgne propoſce G B, le point donné H,
+ſoit tirce BH & ſur icclle ſoit fait le triangle D
+equilateral BH D, par la premiere propoſition. Soit
+prolõgee D B vers C par la ſeconde demande & fait
+le cercle du centre B à la diſtance B G , par la
+Iroſieme demande, icelles B 6 , & B C ſcront
+
+
+ELEMENS DEVCLIDE,
+egalles. Apres ſoit prolongee D H vers I & faict
+le cercle du centre D àla diſtance D C, les E
+deux lignes, D C & D I ſerõt egalles: deſquelles t
+faut oſter D B , D H egales: reſteront B C, Hu n
+egalles, par la eroisieme commune ſentence. Or G B ,
+eſt auſſi egalle à B C, icelles G B & H I ſeront
+donc cgalles. far la premiere conmune ſentence.
+PROPOSITION  III.
+De deux lignes droites inegalles donnees, oſter de la plus gran-
+de vne ligne droicte egalle à la plus petite.
+S Oit la plus grande H B & la pluſpetite C, ſoit paurt
+la precedent e du point H tirec vne ligne egalle à C H
+comme H D & jfaitle cercle du centre H aà la
+X*.
+D
+
+diſtance H D: Il ſera- euident que H L eſtant e-
+galle à H D ſera auſſi egale à C. -b
+PROPOSITIONIIII.
+si de deux triangles, les deux costex de l'un ſont egaulx aux
+deux coſteq de Pautre un chacun au ſien, & l'a ngle de P'un
+contenu des deux coſteſ egaulx,eſt egal à Langl e de l'autre:
+Ils auront la baſe egalle à la baſe, & le rriang e ſera cgul ai
+triangle & les autres angles aux autres angles, vn chacun
+au ſien, ceux qui ſont oppoſeX aux coſteſegaux.
+Oict les deux coſtex H B, H Ce-
+H p
+SQqu aux deux coſteæ DL, D F&
+les angles qu'ils comprennent egaux:
+ſi la baſe B C eſt pluſgrande que la
+baſe LE, ſoit de BC couppec BI egal- & Het F
+le à LF par la troisiéme de ce liure:&ſoit
+tiree HI. Maintenant ſi les deux co-
+ſtez H B & HI ſont eſtimeæ egaux aux deux coſtez DL, DF &
+la baſe egalle à la baſc, Il eſt cuident que hangle BHI n'eſt point
+egal à langle LDF eſtant moindre que le poſé BH C de la quãtité
+,
+nnnng
+
+-
+S
+III
+a
+
+.3.
+comprennent ſont egaux, la ba
+EC Ala baſe &8, & le triangle H B C au triangleP C B, & les autres
+LIVREPREMIER. 2
+de l'angle IHC: ce qui eſt abſurde. Semblablement ſe demon-
+ſtrera LF n'eſtre point plus grande que B C. Si donc de deux
+triangles, &c.
+PROPOSITIONVY.
+En tout triangle Iſoſcele, les angles qui ſont en la baſe ſont egaun
+entreux: & ayant mene les lignes droictes egalles, les angles
+qui ſont ſoubs la baſe, ſeront egaux entreux.
+D V triangle Iſoſcele ſoient les deux coſtex H B & H C pro-
+longez en ſorte que H F, H G ſoient cgaux, & tirces ſes li-
+nes F G, B G. Dautant que FH, H C ſont egaux aux deux co-
+ſte2 GH, H B, & que langle H eſt commnn, la baſe F C ſera e-
+galle à la baſe G B par la precedente Pangle F à Pangle G: langle
+F C H àa Pangle G BH, & langle F CB à langle GB C: ces
+deux oſteæz de FC H & G B H reſteront H B C& H CB ſurla
+baſe egaux: & puis que BF, F C ſont deux coſtezæ
+eganyaſt deux coſteæ C G, GB & que rangle F
+eſt exat angle G, la baſe ſera egale à la balſe, &
+les autres angles aux autres angles. Dont ſenſuy- 5ꝓ
+ura que les angles ſoubs la baſe FB C & GCHB .
+l
+ſeront auſſi egaux.
+PROPOSITIONVI.
+X
+
+
+
+Si deux angles dwn triangle ſon entreux , außi les co-
+ſteT oppoſeX aux angles egaux ſont egaux entr'eux.
+S du triangle H B Cles deux angles H B C &
+H C B ſont egaus, il faudra que HE & H C ſoient
+auſſi egaux. Autrement ſoit H B plus grand que *
+H C & ſoit couppè BP egal à H C. dautant que H C
+& CB ſont egaux à B P, B C, & que les angles quils.
+h HE ſera egalle c
+angles aux autres angles, par la quatriéme, cequi eſt faux, eſtant
+lun des triangles contenu en autre, & pareõſequent las petit.
+& l'angle PCB moindre que l'angle H CB. 5i donc dun angles
+d'ya triangle &e. HE
+Ajj
+
+11
+bDbaſe LF conſtitu vn autre triangle ayât LG
+&GF egaux aux deux coſtez B H & H C & &
+cgal ſeulement à HP G: Il eſt donc manife
+eſt veritable.
+I SHù eſt autrement, ſoꝶnt des deu triangles
+gaux aux deux coſteæ & la baſe egale à la
+A I
+ELEMENS DEVCLIDI,
+PROPOSITIONVII.
+Si des extremiteſ de quelque ligne droicte deux autres lignes
+droictes concourrent en vn poinct : deux autres lignes ro3.
+ctes egalles à celles-cy l'une à lautre stauoir celles poſſedant
+meſmes termes & d'vne meſme part ne se pourront tirer ſur
+vn plan à un autre poinct.
+Oient des extremitez H B les deux li- cCp
+gnes tirees au point C, H C, BC, & /
+ſoięnt encor en vn autre point P tirees H P
+& B P egalles(s'il eſt poſſible) ſcauoir H P
+à H C & B P à B C poſſedans meſmes ter- & .
+mes: drautant que par la s. propoßiian les angles H CP& H P C
+ſont egaux, comme auſſi BP CÆ B CP,i senſuiura que la par-
+tic ſera egalle à quelque choſe plus grande que le tout, comme
+
+Eangle BCP (partie de H C P) ſeroit plus grande gon ſeule-
+ment que CP H (comme il a eſté poſc) mais auſſi qu 5 : ce
+qui ne peut eſtre: tellement que si des extremitex &c.
+ue ſi le point tombe dans le triangle comme G& les deur li-
+gnes B G, B P ſont eſtimees egalles, comme auſſi H G, H P, il
+Senſuyura que les angles ſoubs la baſe ſeront egaux par la 5. ſa-
+uUoir FP G & LGPP,ce qui eſt faux, car HG, HP ſont auſſipoſces
+egales, & font les angles H G P & H P G egaux,tellement quil
+faudroit que l'angle l GP fuſt plus giad que FP G, mais il eſt
+PROPOSITIONVIII.
+5i deux tria ngles ont deux costeſ egaux aux deux co stexVPon à
+Tautre, & la baſe egalle à la baſe, ils auront außgi Pangle
+egal à lungle, ſrauoir celuy contenus de lignes droictes q te.
+4 2
+H B C & P LF ayans les deux coſtez e- .
+baſe, 'angle H inegal à Pangle P- & ſoit ſurla
+
+c que la propoſition
+
+TIVRE PREM  I ER, 3
+Tangle G egalâ l'angle H, ils'enſuyura que la ligne L G ſera ega-
+le aLP & F GAF Poontre la precedente & les autres angles egaux
+aux autres angles par la quatrieſmt, ce qui eſt faux, n'eſtant Fangle
+GL F que partie de PLF. Tellement que si deux triangles &c.
+PROPOSITIONIX.
+Coupper vn an gle rectil igne en deux egallemen t.
+G ſirſangie donné B H C, & ſoient HP & 2
+H L faictes egales & tiree P L, ſurlaquelle /
+ſoit faicte le triangle equilateral P LE, & tiree æ ︎
+HF. Deautant que les deux coſtex LH, H F: N
+ſont egaux aux deux coſteæ PH, H F & la baſe 8 C
+LF egale à la baſe P F, il s'enſuyura par la pre- F
+cedente que l'gle LHF, ſera egal à langle PHF
+par ainſi ſangſe donné B H C ſera couppé en deux egalement.
+PROPOSITIONNX.
+Coupper en deux egalement vne ligne droicte don-
+nee terminee.
+S Oit la ligne droicte finie HB, ſur laquelle ſoit fait c
+le triangle equilateral H B C, & ſoit couppé ban-
+gle H CB en deux egalement de la ligne CD par
+a precedente. Deautant que CH, CD lont egaux à
+CB, C D& les angles quiils comprennent egaux, laũt D à
+baſe H D ſera egalle à la baſe D B: par la quatrieſme.
+Tellement que H B eſt couppee en deux egalement.
+PROPOSITIONXI.
+Sur vne ligne droicte, & d'vn point donneè en icelle eſteuer vne
+autre ligne droicte en angles droicts.
+N la ligne propoſce H B ſoit le point x
+donné C, & faictes C P, CL egales: &
+ſur PL ſoit deſcrit le triãgle equilateral PFL, N
+& menee la ligne FC. D'autant que les deux
+triangles ſont compris de lignes egales ils ſe-
+4Aiij
+r
+Il
+C
+
+ELEMENS DEVCLIDY,
+ront equiangles tant par la 4. que 8. propoſ. L'angle F CL ſera
+donc egal à langle F CP, & tous deux ſcront angles droicts, &
+la ligne F C perpendiculaire parla definition.
+PROPOSITIONXII.
+Sur vne ligne droicte infinie donnee & d'vn point donnè qui
+n'est.pas en icelle mener vne ligne droicte perpendiculaire.
+Gitia ligne propoſce H B & le point donné C
+C, duquel ſoit tiré vn cercle en ſorte qu'il
+couppe la propoſee, comme en G, L: ſorent me- H- tæ
+nees C G, CL egalles & couppé l'angle G CL
+en deux egallement par C I. d'autant que les deux triangles ſont
+equiangles, fangle C IL ſera egal à C I G, & iccux ſeront droits,
+& C I perpendiculaire par la definition.
+PROPOSITIONXIII.
+Si une ligne droicte tombante ſur vne autre ligne droicte, faict
+deux angles ,iiceux ſeront droicts, ou egauxâ deux droicts.
+Oit la ligne droicte LB tombante ſur P C, elle u
+fera deux angles droicts ou egaux à deux droicts.
+Que s ils ſont droicts nous auons ce que deſirons:
+s'ils ne ſont droicts, ſoit eſſeuee la perpendiculaire ꝑ 8V C
+B H du point B. Dautant que les trois angles H
+BP, & HBL&LBC valent deux droicts, ils'enſuyura que le
+compoſé P B L & le ſimple L B C vaudront auſſi deux droicts:
+carl'excés de un eſt la diminution de Fautre.
+PROPOSITIONXIIII.
+Si en vn point qui eſt en vne ligne droicte deux autres lignes
+Adroictes concourent de coſté & doautre en un plan, & font
+deux angles droicts non d'vne meſme part, icelles deux li-
+gnes seront directement enſc mble.
+
+]]
+SESS
+-
+I
+LIVRE PREMIER. 4
+V point donné B de la ligne droicte H B H
+ſoient concurrentes deux lignes droictes
+C B DB faiſans les deux angles HB D & .
+H B C egaux à deux droicts, il faudra quicelles CP
+deux ligiresoient poſees directement comme .
+vne ſeule ligne. Si non, ſoit poſee L B directement auec B C: il
+ſenſuyura, par la precedente que H B C, & H B L ſeront egaux à
+deux droicts: mais ilz ſont plus petits de la quãtité de F'angle LBD:
+la propoſition demeurera donc veritable.
+i
+PROPOSITION XV.
+Si deux higne droictes se couppet Pune l autre, elles feront les an-
+gleso pposerſ vn contre l'autre au sſommet egaux.
+Doutant ue les angles H L C & H L O ſont
+egaux à deux droicts par la 13 H LO& O L B
+auſſi egaux à deux droicts, le commun H L O eſtãt
+oſté, reſteront H L C & O L B egaux. Semblable-
+ment ſe demonſtera H L O eſtre egal  CLB.
+
+
+PROPOSITIONXVI.
+De tout triangle ayant prolongé Pun des coſtet ban igle exterieur
+ſsera plus grand que Pun & lautre des interieurs oppoſex.
+ꝗſn coſté B Cprolongé vers N, & couppé x
+H Cen deux egallemẽt en P,& tire BPveis
+F, en ſorte que BP, PF ſoient egalles, ſoit auſſi
+tiree CF, d'autant que FP, PC ſont egaux aux e &
+deux coſtez BP, PH, & les angles quilæ conm-
+prennct oppoſeæ au sõmet P egaux par la prece-
+dente, les deux triangles ſeront equiangles, tel-
+lement que P CF ſera egal àlangle PH B. Aplus forte raiſon
+PCNſera plus grand que PHEB. Semblablement ſe demonſtrera
+Fautre angle H B L moindre que Pexterieur HCN.
+j PROPOSITION XVII.
+De tout triangle les deux angles pris en quelque ſo rte que ce ſoit
+ſont plus petits que deux droicis.
+:  nij
+
+
+
+
+ELEMENS DEvCLIDS,
+Oit prolongè BC vers P. dautant que les an-
+nt
+gles HCP, & HCB ſont egaux à deux droicts
+& que langle exterieur, C eſt plus grãd que ſ'an-
+gle H ou l'angle B:il ſenſuyura quæ tangle HBC
+& rangle H CB enſemble ne vaudront pas deux
+droicts, nonplus 'angle CH B, auec rangle
+H CB.
+PROPOSITIONXVIII.
+En tout triangle le plus grãd coſte soustient le plusgrand angle.
+Oit le plus grand coſté H C.ſi 'angle H B C
+H
+neeſt le plus grand angle du triãgle, ſoit coup- P
+pec HL egale à H B, les angles ſur ſa baſc ſcront L
+egaux, ſcauoir HL B & H B L. Mais H L B eſt
+B C
+pluſgrand que L CB interieur & oppoſé: a
+plus forte raiſon H B C qui eſt pluſgrand que
+H L B ſera auſſi plus grand que LCB. Semblableméẽt ſe demon-
+ſtrera lautre angle. De cecy on poura recuillir que le plus petus coſté
+ſoustiedra le plus petit angle.
+PROPOSITIONXIX.
+En tout triangle le H grand angle est ſcustenu du
+plus grand coſte. j
+So1f le plusgrand angle B,ſi le pluſgrand coſté n'eſt 4
+H C ſoit vn autre,comme H B, il fenſuyura, par la
+precedente, que l'angle C ſera le plus grand co ntre Phy-
+potheſe: Semblablement ſe demonſtrera de l'autre
+coſté BC. De cecy reſulte que le plus petit angle eſt ſouſtenu
+dis plus petis coſte. P
+TROPOSITION XX.
+En tout triangle les deux costex pris en fuelqus ſorte que ce ſoit,
+ſont plus grands que l'autre.
+Oit le triangle H B C, & prolongé le coſtée  -
+vers P en ſorte que H P ſoit egal à H C& ioĩnis
+PCles angle HPC & H C Pſeront egaux. Mais l'an-
+gle PCB eſt plus grand que l'angle P. Il fenſuyura
+donc que la ligue B P egale à BH, H C ſcra plus
+n
+&
+C B
+
+
+LIVRE PREMIER.
+5
+I gpde que CB, comme on peut recuillir des precedentes. Semblablemet
+c demonſtrera le ſurplus de la propofition.
+PROPOSITIONXXI.
+si des extermitet e P'un des coſteX d'vn triangle on mene deux
+lignes droites dedans iceluy ? elles ſeront bien plus petites que
+les deux autres coſteX du triangle imais elles contiendront un
+plus grand angle.
+Oient des extremitez B, C, tirees B P. CP dans x
+le triangle H B C: & ſoit prolongee B P enL:
+dautãt que B H, H L ſont plus grandes que B L par E
+la precedente, ſoit adiouſtée la commune LC. Il ſera
+cuident que BH, H L, LC ſeront pluſgrandes Æ N
+que B L, L C. Semblablement LP, L C ſont plus . c
+grandes que P C: ſoit adjouſté la commune P B: lors CL, LP,
+P B ſeront pluſgrandes que B P & P C. A plus forte raiſon donc
+B H, H C ſeront pluſgrandes que BP, P C. Pour la ſeco nde par-
+tie 'angle C PB eſt plus grand que PLC, & PL C plus grand que
+LHB. Aplus forte raiſon C P B eſt pluſgrand que L H B.
+PROPOSITION XXII.
+Deſcrire un triangle de trois lignes droictes egalis à trois lignes
+droictes donnees & deſquelles les deux priſes en quelque sor-
+te que ce ſoit oient plus grandes que l'autre.
+Oient les trois lignes C, 8, H, & ſoit ︎ ,
+S faicte F G egale à H. au point G ︎
+ſoit tiree vne ligne egale à C, par la r f c ſ
+deuxiéme, & du point G ſoit seſtri vn ) nec
+cerdle à egale diſtance de C comme NA ii
+Aaæ
+KNL.: apres du point F ſoit menee
+vne ligne droicte egale à B, & du meſme point & à egalle diſtan-
+ce de B ſoit d'eſcript vn autre cercle comme K P L, & ſoient me-
+nees à la ſection K, FK, GK, egalles à B & C, Il ſera mani-
+feſte que le triangle ſera fait des trois lignes propoſces.
+PROPOSITION XXIII.
+
+pAN
+LLEMENS DEVCLIDPE,
+Mettre au coſtè d'une ligne droite donnee a un point donné en
+icelle, un angle rectiligne egal a vn angle rectiligne donne.
+Goitla ligne donnee NB & ſ'angle propoſé N
+P C H : ſoit faicte CL egalle â CP & iointe
+PL. apres ſoit NG faite egalle à C L, & ſur NG
+comme ſur la baſe ſoit conſtitué vn triangle par Pc
+H n
+le moyen de deux lignes egalles a LD, VPC par
+la precedente, & ſoit iceluy triangle GEN. I
+ſenſuyura que les deux triangles ſeront egaux &
+equiangles par les 4. & S. propeſ. & par conſequent l'angle au point
+donné R, egal à l'angle Cpiopoſc
+PROPOSITIONXXIIII.
+Si deux triangles ont les deux costeſ egaux aux deux costet
+Pon à Pautre,mais l'angle plus grad quel angle,ſtauoir celuy
+compris de lignes droictes i ils auront außi la baſe
+plus grande que la baſc.
+T Es deux coſtex HC, HBſoient egaux P H
+aux deux coſteæ PF, & PL, & ſoit l'a-
+gle CHB plus grand que FPL, il faut que
+la baſe B C ſoit plus grande que LF. Au- n
+trement ſoit par la precedente, fait 'angle G & I L c
+PL egal à C H B, &le coſté G P egal au
+coſtè FP & ioinctes L G, F G. les deux angles P G F & P F G ſe-
+ront egaux: 'angle dõc L FG ſera plus grand que langle P G F&
+. par conſequent que la partie ſcauoir LGF: dont fenſuyura par la
+19, que LG (c'eſt à dite C B) ſera plus grande que L F ſubten-
+dente l'angle LGF.
+PROPOSITIONXXV.
+Si deux triangles ont les deux coſte1 egaux aux deux coſtex
+l'um à l'autre & la baſe plus grande que la baſe, ils auront
+außi llingle contenu d'iceux coſtex plus grand que Pangle.
+Oient les deux coſtex HB, HC egaux auxr p ir
+Sõu coſteæ PL, PF & la baſe B C plus gran- :
+de que la baſe LF. Silangle BH C n'eſt plus
+grand que l'angle L PF, poſons iccux eſtre
+ng,ux, Ilſenſuyura que la baſe ſera egale àla V F ũ
+
+
+LIVRE PREMIER. 6
+baſe par la 4. contre la poſition. Si l'angle B H C eſt plus petit
+que EPF la baſe BC ſera pluſpetite que la baſe LF par la preceden-
+ie (ce qui eſt auſſi contre la poſition) d'ont s'enſuyt que l'angle
+BWC Reſtant point egal  L P F n'y pluspetit, il ſera par neceſſité
+plus grand.
+PROPOSITIONXXVI.
+Si deux triangles ont deux angles egaux aux deux; angles vn
+chacun aussien, & le coſptè egaluie coſtè , ou hien celuy au
+long duquel ſont les angles egaux ou celuy qui ſoustient l'un
+des angles egaux I ls auront außi les autres coſter ggui
+aux autres costeX vn chacun ais sicn, & hautre angle egal
+àlautre angle.
+Oient les deux angles H B C &H C B n r
+egaux aux deux angles PLF & PFL 6 s
+I'vn à ſautre, & le coſté B C egal au coſté‘6 N I
+LF. Si premierement BH eſt plus gmnd / l l
+que L F, ſoit d'iceluy couppee B G egalleâ - 7r
+LP, & ſoit tiree G C. D'autant que GE,
+B C ſont egalles à P L, LF & comprennent angles egaus, ils'en-
+ſuyura par la quatrieſme que la baſe ſera egale àla bale, & les au-
+tres angles egaux aux autres angles, ceſt à ſ;auoir B C GàLFP
+(ceſt à dire B C H) & par conſequent la partie egalle au tour,
+ce qui eſt abſurde & faux. Semblablement ſe fera la demon-
+ſtration des autres coſtez & angles. .
+
+PROPOSITIONXXVII.
+Si vne ligne droicte trauerſant deux lignes droictes, faict les an-
+gles alternes gaux Pvn à l'autre,icelles lignes droictes ſeront
+paralleles entre elles.
+Oit la ligne droite L F trauersãt les deux I p
+lignes H E, CP & faiſant les an les al- H -
+ternes H L F, & L F P egaux- Si les feux li- 6
+gnes ne ſont paralleles, clles ſe pourront FP
+ioindre, & poſons que ce ſoit en Gpour faire
+le triangle L F G. Mais l'angle exterieur H L F eſt plus grand
+
+LLEMENS DEVCLIDE,
+ue Pinterieur oppoſé L F G par la 16 contre la poſition: icelles
+deux lignes ne ſe rencontreront point donc de ce costé. Sembla-
+blement ſe demonſtrera ne ſe pouuoir Pencontrer de l'autre.
+Tellement qu'elles ſeront donc paralleles. :
+PROPOSITIONXXVIII.
+Si vne ligne droicte trauersant deuxl ignes droictes faict l'angle
+extericur egal à l'angle interieur oppoſe d'vne meſme part:
+ote bien les angles interieurs dvne meſme part egaux à deux
+droicſs: icelles deux lignes droictes ſeront piralleles entre
+elles.
+Oict les angles L GP & G IN egaux. HGI 1
+ſera egalâ L G P par la i5. c'eſt a dirc à GIN yp
+Tellement que par læ precedeute HP, & C N ſerõt
+paralleles. Pour le ſecond ſoient PGI, & GIN N
+cgaux à deux droicts:la ligne F G tombante ſur
+Hp fait deux angles egaux à deux droits H GI,
+& PGI: ſile commun PGI eſt oſté, reſteront HGI, GIN(alter-
+nes) egaux. Les lignes donc HP, C N ſeront parallelespar la pre-
+sedente.
+PROPOSITIONXXIX.
+:
+Si deux lignes droictes paralleles ſont trauersees d'une ligne
+droicte, icelle fera les angles alternes egaux entre eux, &
+l'exterieur à Pinterieur oppoſé d'vne meſme part, & les in-
+terieurs d'une meſme part egaux à deux droicts.
+I les angles alternes H GI, GIN ne ſont L
+Semun bit G I Nplus petit, la ligne F G ſur 5~ Ve
+HP fait deux angles egaux à deux droicts, tel-
+lement que P G Iæ G IN ſont moindres que c
+deux droicts: dont s'enſuyura par la I1. commune F
+sentence que les deux H P, & CNſe ioindront
+du meſme coſté ol les deux angles ſont moindres que deux
+droicts: & ne ſeront paralleles (contre la ſuppoſition) ce qui eſt
+abſurde: Par ſemblable demonſtration ſe trouuera H G In'eſtre
+P
+
+N
+
+ &
+LIVREPREMIER. r
+plus petit que GIN, dont senſuyura qui'ils ſeront egaux. Ena-
+pres d'autant que L G P eſt egal à H G I, ilſera auſſi egala GIN
+arla premicre commune ſentence. Finalement, d'autant que GIN
+a eſté monſtré egal à H G I& que HG I, &PGI nt egaux
+à deux droicts, ils'enſuyura (le commun H G Ieſtant oſté) que
+PGI,& GIN ſeront egaux à deux droicts.
+PROPOSITIONXXX.
+Les lignes qui ſont paralleles à vne meſme ſont paralleles en-
+tre elles, ou poſees directement.
+Oient H P, & CN paralleles àL F& non ſi- r
+tuees directement. D'autant que HG I, eſt
+egalâ GIF & ceſtuy alKN interieur oppoſé & I v
+d'vne meſme part gar la precedente, il s'enſuyura c x I
+que H G I, & IK Nalternes ſeront egaux par la
+I. C. s. tellement que H P, C N ſeront paralleles. Pour le ſecõd,
+poſons1e. deux lignes CK, KN paralleles à LF & non l'vne à
+autre, il faudra qu'icelles deux lignes ſe 'encontrent, comme
+pour exemple au point K. D'autant que les angles KIF, IKN
+vallent deux droicts par la precedente, comme auſi KIL, IKC,
+& que les angles alternes LIK, IKN ſont egaux, ils enſuyura.
+gue IKNE& IK C vaudront auſſi deux droicts, & que Ch, N
+eront poſces directement par la 14. propoſition.
+PROPOSITIONXXXI.
+D'un point donné mener vne ligne droicte parallele à vne li-
+U .
+gne droi e donnee.
+S laligne donne PC & lepoint hors icelle H, 1 1:p5
+duquel ſoit tiree vne ligne droite ſur P C, com--7 -
+me HN, & ſoit auſſi au point H & ſur la meſme
+NH fait ſangle LHN egala l'angle HN C parla Æ Xi C
+23. D'autant que les angles alternes LHN &
+HNC ſont egaus, les lignes L H, P C ſcront paralleles par la 27
+propoſition. .
+
+ELEMENS DEVCLIDE,
+PROPOSITION XXXII.
+De tout triangle ayant prolonge lun des coſtex, P'angle de de-
+hors est egal aux deux angles de dedans qui luy ſont oppo-
+ſeX Et les trois angles interieurs du triangle ſont egaux à
+deux droicts. . j
+g91 prolongé P.C en L, & au poinct C faite H X
+CN parallele à H P: D'autant que HC tom-
+be ſur deux paralleles, elle fera les angles alter-
+nes P H C, H C N egaux par la 29. comme auſſi
+P C tombante ſur les meſmes, fera l'exterie ur
+NCL egal àl'interieur oppoſé HP C. Dont eſt cuident que Pex-
+terieur H C L eſt egal aux deux interieurs oppoſez dutriangle
+HPC. Et pour ce que H C L, & H CP ſont egaux à deux droicts
+par la13. II s'enſuyura que les trois angles du triangle ſeront e-
+gaux à deux droicts. .
+I
+PROPOSITION XXXIII. .
+Les lignes droictes qui ioignent deux lignes droictes paralleles
+ſa . H
+egalles, ſont außi cgalles & paralleles.
+GRisneles deuxparalleles egales H P, C N, con- n
+ioinctes par les deux lignes, ſcauoir H C de meſ-
+me part & P N de l'autre, & ſoit tirce P. C, laquel-
+le tombera ſur les deux paralleles, & fera les angles T c
+alternes HP C, & P C N egaux par la 29. tellement
+que les deux triangles H P C & PCN auront deux coſtez egaux
+aux deux coſtez, & les angles compris diceux coſteæ egaux, &
+par conſequent la baſe O H àla baſe PN, & les autres angles
+Aux autres angles ſcauo it N P C à angle P C Halternement.
+Donts'enſuyura auſſi quicelles H C, P N ſeront paralleles.
+PROPOSITIONXXXIIII.
+De tous eſpaces parallele grammes les costex& les angles oppe-
+. .
+ſex ſo nt egaux entPeux, & le dimetient les conppe en deux
+NII .
+egillement .
+
+ce que les deux triangles ont deux angles egaux
+Ia diagonalle P C couppera le parallelogramme
+ſoienttirees PL, CI qui ſeront paralleles par la 338.
+LIVRE PREMIER. 8
+Oit au parallelogramme tirce la ligne droicte 9
+S⸗ C qui faict les angles alternes egaux, HP C
+àP CN, & C PNâ PCH. il eſt euident que e
+tout H CN eſt egal au tout HP N. Apres, pour I
+aux deux angles, & le coſté P C commun, les autres angles ſeront
+egaux l'vn à l'autre, & les coſtez aux coſteæ par la 26. Dont s'en-
+ſuyura que H P ſera egal aCN, HCàPN, & l'angle PH C2
+à l'angle PN C, & que les deux triãgles eſtans egaux par la meſme
+en deux egal-
+lement.
+PROPOSITIONXXXV.
+Les parallelogrammes eſtans ſur vne meſme baſe & entre meſ]-
+: mes paralleles ſont egaux entreux. :
+Vr la baſe P C ſoient les deux parallelo-1t ︎Lv
+
+grammes H P CN, & L P CF. Puis que HP]P? b7
+& N C ſont egalles, comme auſſi LP, FC & / ſ
+ſemblablement HN, PC& PC, LF, parla
+precedente les deux triangles H P L, & NCF P. C
+ſeront equiangles & egaux, deſquels ſoit oſté le, triangle com-
+mun N L G, reſteront les trapeſes egaux HNGP & FLG C.
+Auſquels ſi on adjo uſte le triangle commun P G C, ilſera eui-
+dent que le parallelogramme PrE ſera egal à 'autre H C, eſtans H
+i
+les deux conſtitueæ ſur vne meſme baſe PC.
+PROPOSITIONXXXVI.
+Les parallelogrammes eſtans ſur baſes egalles & entre meſises H
+paralleles ſont egaux entre eux.
+
+
+rallellogrammes H C, L G ſur baſes egalles, w..
+& feront le parallelogramme I P egal àH C par j : .
+Iæ precedente & à Tautre IF: Dont eſt cuident que æ &
+par la premiere commune ſentence.
+ſ'e parallelogramme H C eſt egal au parallelogramme LG
+1
+o
+S8in deus paralleles H I, BG, & deux pa- H ︎ i - -
+
+ELEMENS DE VCLIDS,
+PROPOSITION XXXVII.
+Les triangles eſtans ſur vne meſme baſe & entre meſmes paral -
+leles, ſont egaux entre eux.
+Vr la baſe P C ſoient deux triangles H P C, L. n N V
+& NP C entre deux paralleles ſcauoir PC
+& L F. Soit du point P tirce P L parallele à CH
+& CF parallele à PN. Il eſt cuident par la 35
+que le parallelogramme L C eſt egal au paral- PC
+lelogramme FP. mais le triangle HUC eſtla moitié de l'vn,com-
+me NP C la moitié de Fautre. II fenſuyura donc que les deux
+triangles ſeront egaux par la 7. C. S.
+PRODPOSITION XXXVIII.
+Les triangles estans sur baſes egalles & entre meſmes paralle-
+les, ſont egaux entreux.
+90 -
+egales & entre meſmes paralleles ſcauoir PF,
+GII& ſoit faite C H parallele à P G, comme auſſi
+LNAFI. Dautant que les parallelogrammes :
+H P & NF ſont egaux par la 36. les triangles qui PCL
+ſont moitieæ ſeront egaur.
+Oicnt les deux triangles G P C, ILF ſurbaſeso w NT1I
+PROPOSITION XXXIX.
+Les triangles egaux conſtituez sſur vne meſme baſe & vne
+meſme part, ſont entre meſmes paralleles.
+I les deur triãgles ſur la baſe P C (ſsauoir H P C 33
+ODXx BPC) ſont egaux, & que H B ne ſoit paral- .
+lele à P C, poſons vne parallele HI, & ſoit tiree i-
+IC. Les deux triangles HP C, I P C ſeront egaux :
+par la 37. & s'enſuyura que la partic ſera egalle c
+au tout (ſçauoir IP C à BP C) ce quinc peut
+eſtre, ayant b P. C eſté poſé egal à H P C.
+PROPO-
+
+
+ſinsmSiunu
+II::: b
+9 le triangle dõné H P C, & l'angle don-u v
+-
+LIVRE  PREMIER. l
+PROPOSITIONXI.
+Les triangles egaux qui ſont ſur baſes cgales & d'vne meſme
+part, ſont entre meſmes paralleles.
+Oient deux triangles H P.C & N C L egaux, con- n 7
+stitueæ ſur baſes egales P C, CL. SiH N n'eſt ♈/
+parallele à P L, ſoit H F parallele à la meſme, & ti- W
+ree la ligne L f. Lors les deux triangles H P C & /
+F C L ſeront egaux par la38. dont s'enſuyura que la p
+partie F C L ſcra egale au tout N CL, ce quine
+peut eſtre, ayant N C L eſté poſé egal àa H PC.
+PROPOSITIONXLI.
+S; vun parallelo gramme & vn triangle ont vne meſme baſe &
+ſont entre meſmes paralleles, le parallelogrammie ſera double
+au triangle.
+Oit le parallelogramme H P CN & le triangle Xx ♈ I-
+Sꝶ P C ſur vne meſme baſe P C, & entre meſmes 4
+paralleles P C, H L, & ſoit tirée le dimetient H C, /
+les deux triangles H P C & L P C ſeront egaux par
+la 37. mais le triangle H P C eſt la moitié du paral- æ C
+lelogramme H P C N: le triangle L P C ſera donc la moitie du
+parallelogramme.
+PROPOSITIONXLII.
+Faire vn parallelogramme egal à vn triangle donnè, & ayant
+vn angle egal à un angle rectiligne donne.
+r
+1
+né N, auquel angle & au point donné CV,
+ſoit faict ſon egal P C G: & ſoit couppee P C ︎
+en deux egalement au point L, duquel ſoit ti- A
+ree L F parallele à C G, & du point H ſoit tiree , L &
+H G parallele à P C. D'autant que les deux
+triangles H P L, HL C ſont egaux par la 38. & que H L C eſt la
+moitie du parallelogramme G L par la precedente. II ſenſuyura
+que ce meſme parallelogramme ſera egal aux deux triangles,
+(c'eſt à dire) au tout propoſé H P C.
+G
+B
+
+︎s , ︎︎iiii----r
+ELEMENS DEVCLIDE,
+PROPOSITIONXLIII.
+En to:t arallelo &itila les i lemenis des arallelo ram-
+li 8 iſh P §
+o
+mes qui ſont ſur le diametre nt egaux entr'cux.
+ꝗQile parallelogramme HP CN, ſa diago- 311 n1
+nale ou dimetient H C qui couppe le paral- f l
+I
+lelogramme en deux egalement, à 'entour de
+laquelle diagonale ſoient les autres parallelo- N
+grammes L I, GF, & les ſupplements P K, KN. ꝑ9 O c
+d'autant que le trangle H LX eſt egal au trian-
+gle H IK, comme auſſi KG CaKFC, ſi dvn coſté on oſte les
+deux triangles H LK, K G C, reſtera le ſupplement L G. Et ſi
+de l'autre coſté on oſte HIK& KF C reſtera le ſupplement IF
+qui ſera egala Yautre L G par la. C. s. I
+PROPOSITIONXILIIII. .
+Sur vne ligne droicte donnee deſcrire un parallelogramme egal
+à vne figure rectiligne donnee, ayant vn angle egal à un
+angle rectiligne donné.
+Oit le tnangle donné C. L'angle pro-
+vI N
+poſéN, la ligne donnee I P. ſoit pro- tl
+longee I P vers L, & ſur icelle au point PIV
+ſoit fait vn angle egal àaN(comme IPG) u
+7
+H I 0
+
+dans lequelh.r la 42. ſoit conſtitué vn pa-
+rallelogramme egalà C comme LF G b:
+& ſoit acheué le parallelogrãme PGHI, :
+& tiree la diagonale H P vers N, & ſoit prolongee F L pour ſe
+joindre en N: ſoit auſſi menee HIO, & GP M, & NM O-icel-
+les FLN, GPM& HIO ſcront paralleles par la ;0. comme-
+auſſi H GF, IP L& O MN. Tellement que H F, NO ſera vn
+parallclogramme, cõme auſſi IG, & M L: les ſupplements donc-
+OP, L G ſeront egaux par la precedente. Mais L G a eſte fait egal
+à C. Il ſenſuyura donc que P O parallelogramme ſur la ligne
+donnce I P ſera egal au triangle C, & aura 'angle donné eſtant
+langle I P G egal a ſangle O MP par la 29.& ceſtuy egalâ Npar
+la conſtruction. .
+PROPOSITIONXLV.
+
+A
+LIVRE PREMIERE 1090
+Deſcrire vn parallelogramme, egal à vne tgure rectiligne
+. \ 7
+donnee, ayant un angle egal à un angle rectiligne donne.
+Oit la figure rectiligne donnee ꝓa o
+HPCN reduicte en triangles N canda
+H PN, NPC(comme toutes autres /.
+figures rectilignes de pluſicurs co-s ſ
+ſteæ peuuent eſtro reduites. Soit: &KIA
+langle donné L, & la ligne propoſee
+b , & P P :
+KF, ſur laquelle & au point K ſoit faict vn angle egal àl, & ſur
+la meſme ſoit appliqué par la precedente vn parallelogramme egal
+au triangle H PN comme KF G I, & ſemblablement ſoit ſur IG
+(egale à KF) aplicquèé vn autre parallelogramme egal au trian-
+gle PCN, comme I G OM. Dautant que KF eſt parallele &
+cgale à IG, & celle-cy à MO, Il fenſuyura que KM& FO ſer6t
+egales & paralleles: pas la 33. & que la figure entiere F M ſera
+vn parallelogramme ayant l'angle donnè & la ligne dõnee egaſ
+àe àla figure rectiligne propoſce H P CN.
+PROPOSITIONXLVI.
+D'vne ligne droicte donnee d eſcrire vn quarre.
+S Vr la ligne donnee H P ſoit eſſeuec la perpendi-
+culaire du point H comme H L., par la 11. & ſoit, V
+faicte HN egale à H P. Apres ſoit du point N tiree
+NF parallele à H P, & du point P ſoit tiree PF paral- -
+lele à HN. II eſt cuident que la figure eſt equilate- p1 P
+rale & parallelogramme, & que l'angle H eſt egal
+àloppoſé. par la 34. Mais les deux angles H & P valent deux
+droicts par la 29. Il ſenſuyt donc que P eſt droict, comme auſſi
+ſoppoſé N. tellement que H PF Neſt vn quarrè.
+PROPOSITIONXLVII.
+Aux triangles rectangles le quarrè qui eſt faict dis costeé qui
+ſo ustient Pangle droict, eſt egal aux quarrez qui ſont faicts
+des co ſteX qui comprennent P'an igle droict. :
+Oit le triangle rectangleH P C ayant Fangle H droit: ſoĩent
+auſſi les trois quarrez d'eſcrits ſur ſes coſteæ b S L N, HIKC,
+& HG Z P. Pour monſtrer que le quarré CN (oppoſc alangle
+droict H)eſt egal aux deux autres, ſoit tiree ſur NI. la perpendi-
+B ij
+
+]]]]]]
+T Binũ
+ELEMENS DEVCLIDI,
+culaire H Oſqui ſera parallele à P N par la
+23. Soit auſſitirec HN & CZ.d'autant que
+D O eſt vn parallclogramme, le tnãgle HpP
+N qui eſt ſur meſme baſc PN entre meſ- 2
+mes paralleles P N, H O ſcra la moitic p
+diiceluy. Maintenant le triangleZ P C alles
+deux coſtez Zp, C egaux auxdeur coſtez
+HP,P N(comme il ne ſe peut faire autre-
+mentpar la conſtruction) & l'angle Z P C
+eſt compoſé de 'angle droit Z P H & de
+ſ'angle H P C: comme en ſemblable 'angle N P H eſt compoſè
+de langle droict N P C & du meſme H P C, qui eſt commun. ll
+ſenſuit donc que Pangle Z P C eſt egal â 'angle NTH, & par
+conſequent ia baſe Z2C egale à la baſe H N, & les autres angles
+aux autres angles: & le triangle egal au triangle par laa Mas le
+quarré H G ZP & le triãgle ZP C ſont ſur meſme baſe Z P & en
+
+
+
+.
+eſt la moitie du quarré H G Z P parla 41. & que ce quarré eſt e-
+gal au parallelogramme P O par la 6.commune ſent. Semblablemẽt
+ſe monſtrera P'autre quarré KH eſtre egal au rectangle CO.
+PROPOSITIONXLVIII.
+Si le quarrè qui eſt deſcrit de Pun des coſtes dvn rriangle eſt
+meſmes paralleles ZP,  C. lisenſuitdonc que letriangle ZPC
+H cegal aux quarreq des autres coſtex dus triangle: L'ang e con-
+tenu des autres deux costex du triangle ſera droict.
+j go- le triangle H P C duquel le coſté P C faic ︎
+vn quarré egal aux quarrez de HC & H P. Soit
+I en apres ſur la ligne C'H au point H eſleuee vne H
+perpendiculaire HN egale àH P, ſoit tiree NC.
+Drautant que les quarrez de NH, H C, (ceſt àc
+P
+
+dire de H P, H C) ſont egaux au quarré de CN par la precedente.
+Iisenſuyura que le quarté de CN ſera egal au quarré de CP, &
+. E conſcquentla ligne N C egale à la ligne CP, & le triangle
+H C egal & equiangle au triangle C H P, & particulieremẽt
+H Tangle CHP egala 'angle N H C,ceſt à dire droict. ce quil fa-
+Ioit demonſtrer.
+FIN DYV PREMIER LIVRE.
+3 4-
+
+]-
+ſtres.
+/ i II
+
+AMONSEIGNEVR HENRY
+VICONTE DE ROHAN,
+Prince de Leon, Comte de
+Porroet, &c.
+20NSEIGNEVR:  S achãt qu entre plu-
+& ſieurs loiables exercices dont vous cultiuex
+voſtre bel eſprit en ce printemps de voſtre à ige,
+) vous ne metteſau dernier rang les ſciences
+Mathematiques :Poſe vous offrir ce mien la-
+beur pour eſſiyer d'en faciliter le vostre quæe
+vousy employet, me perſuadant puis que les armes commencent
+à faire place aux lettres, que tels Seigneurs comme vous n'ap-
+porteront moins d'affection à celles-cy, quordinairement ils ac-
+uierent de perfection en celles. là; afin de paroistre auec meſme
+Gneur ſur P'un & lautre Theatre, & de nauoir moins d'hon-
+neſtes recreations pour beſprit en temps de paix , qu ils ont de
+penibles occupations pour le corps durant la guerre. Receue
+donc, M onſeigneur, ce petit eſcrit, & s'il ne peut donner la lu-
+miere qulal promet aux suſdictes sciences: permetteſ qu'il en re-
+goine de voſtre illuſtre Nom, puis que pluſieurs choſes ne ſont
+eſtimees que pour auoir eſtè dediees aux temples & lieux illu-
+
+
+Voſtre tres-humble & tres-obeiſſant
+ſcruiteur I. ERRARD.
+I I n iij
+
+-
+LE SECOND LIVRE DES
+ELEMENTS DEVCLIDE.
+DEFINITION PREMIERE.
+NOMR826 OVT parallelogramme rectangle eſt
+3 ſ dict eſtre contenu de deux lignes
+droictes qui comprennent l'angle
+droict
+
+ii- vn chacun d'iccux parallelogrammes
+qnui ſont ſur le diametre ayant vn angle commun,
+aucc les deux ſupplements ſe nomme gnomon.
+PROPOSITION I.
+S'ily a deux lignes droictes, dont P'une soit couppee en autant de
+parties qu'on voudra, le rectangle contenis des deux lignes
+droictes eft egal aux rectangles contenus de la non-couppee,
+& d'vne chacune piece de l a couppee.
+Sßientles deux lignes H & G 1, deſquelles G ÆH.
+ſoit couppee en K, O, ſoit au point G eſſeuce ♈︎
+Ilaperpendiculaire G B & faicte egale à H. Soit
+en apres tirce B C parallele à I G, & CI a BG,
+
+icelles ſeront egales aux oppoſces, & feront vn re- &︎7︎︎︎
+ctangle B I. ſoient auſſi tirees K N& OL paral-
+Ieles à B G, & par conſequent egales: Il eſt euident que les trois
+parallelogrammes, BK, NO, L I ſeront rectangles par la 29.
+& compris de la ligne non couppee B G (ceſt à dire H) & de
+chacune piece de la couppee GK, KO, O I: & pource qu'ils
+compoſent le tout B I, ils luy ſeront donc egaux.
+PROPOSITION II.
+Si vne ligne droicte eſt couppee comme on voudra, les rectangles
+contenus de toute la ligne, & d'vne chacune piece, ſonte-
+gaux au quarré de toute la ligne.
+2. En tout eſpace parallelogramme,
+
+
+LIVRE  S ECOND. 12
+Oit la ligne N L couppec en F, & ſoit faitle quarré ; C 3
+NH BL & tiree en angles droits F C pour eſtre
+egale & parallele à NH, & faire les deux rectangles,
+HF, C L, qui compoſſent le tout H L, & ſont compris
+de la toute N H ou F C & de chacune des parties § F 1.
+comme NF, FL. Il eſt cuident qu'iccux rectangles
+ſeront egaux àleur tout.
+PROPOSITION III.
+Si une ligne droicte eſt couppee comme on voudra : le rectangle
+contenus de la toute & de l'une des pieces, eſt egal aio rectan-
+gle contenis des pieces, & au quarrè de ladite piece.
+ꝗQir la ligne F L couppee en N, & ſoit FHip c B
+perpendiculaire & egale à NI, & ſoit faict
+le rectangle H L, & eſleuee la ligne N C pour
+eſtre parallele & egale à F H. ll eſt euident que
+CL ſera quarré & H N rectangle long faict de 7 I
+la ligne H F. (C'eſt à dire NL V'vne des pieces)
+& de l'autre piece F N. Et pour ce que ces deux figures compo-
+ſentle tout H L, elles luy ſeront egales.
+PROPOSITION IIII.
+Si vne ligne droite eſt couppee comme on voudra, le quarrẽ de la
+toute, eſt egal & aux quarreX des pieces, & au rectangle
+l .
+deux fois contenus des pieces.
+S Oit NL couppee en F, & ſoit ſur icelle NL faict 11 C 9
+le quarré NH B L: & ſoit eſſeuee en angles A.
+drouts F C pour eſtre parallele & egale à N H. Soit 15
+auſſi trec la diagonale BN, & par la ſection G
+ſoit menee I K parallele & egale à N L. Il eſt cui-
+dent que le quarr ſur la partie N F (ceſt à ſcauoirN *L
+IF) & ſautre quarré ſur la partie F L. (ceſt à ſcauoir C K) auec
+le rectangle deux fois de NF, F L, (ceſt à dire H G & G L) font
+tout le quarré H L, & par conſequent luy ſeront egaux.
+E iij
+
+ELIEIMENS  PEVCLIDS,
+PROPOSITION V.
+Si une ligne droite eſt diuisee en deux pieces egales, & en deux
+inegales, le rectangle contenus des pieces inegales de la toute,
+auec le quarré de ſa ſection entre- moyenne, est egal au'quarrè
+de la moytie.
+go- la ligne droicte H B couppee egale-1 C X
+ment en C, & inegalement en N. ſoit faict 7
+le rectangle des picces inegales HN, NB 11Xu
+(c'eſt à dire le rectangle H I.) Soit auſſi faictx / li
+le quatré de la moytie C B (ceſt à dire le quar- O GPF
+ré CF) & ſoyent tirees NIG, & LI M. D'au-
+tant que B M eeſt egale aN1I, & MF egale à C N (Cceſt à dire à
+LI ou l G) il fenſuyura oe L G ſera vn quarré, lequel joint au
+rectangle H I, ſeront enſemble egaux au quarré C F, parce que
+le rectangle N F eſt egal au rectangle H L, eſtant compris de li-
+gnes egales par la conſtruction.
+PROPOSITION VI.
+Si vne ligne droicte eſt couppee en deux pieces egales, & on luy
+adiouſte directement quelque ligne droite: le rectangle con-
+tenu de la toute auec l'adioustec; & de Padioustee , auec le
+quarre de la moitiè eſst egal au quarré qui eſt faict de la
+moitié & de l'adiousſtee comme d'une.
+]Qu ligne H B couppee en deux egale- I B N
+ment en C, à laquelle ſoit appoſec dire- : ol 7
+ctemẽt B N. Soit fait le rectangle de la toute c 1. ii
+& de l'appoſee, ceſt à ſcauoir H N & de Fap- l a
+poſce BN (c'eſt à dire N M.) Et ſoit ce re- r
+ctangle H M: puis ſoit de C N faict le quarré C F, & ſoit tirec
+B G parallele & egale à N F. Dautant que par la conſteuction C B
+eſt egale à M F (ceſt àdirc à O Gou Li)il s enſuyura que L G
+ſera vn quarrè, lequel auec le rectangle H M ſera egal au quarré
+CF, par ce que le rectangle G M eſt egal au rectangle CO(ceſt
+à dire CK) par la construttion.
+
+LIVRE SECOND 13
+PROPOSITIONVII.
+Si vne ligne droicte eſt couppee comme on voudra, le quarrèé de
+la toute, & le quàrrè de Pune des pieces , iceux deux quar-
+reX enſemble ſont: egaux, au rectangle contenis deux fois de
+la toute & de ladicte piece, & au quarreé de Pautre piece.
+ꝗòicda ugne B H couppee comme on voudra B C n
+en C: & ſur B H ſoit faict le quarré BHOL:
+ſoit B F faicte egale à B C, & ſoit ree C N paral- F t
+lele & egale à B L & F Ià B H. Soit encor ictle
+quarré N S de la ligne B C ou LN. D'autant que,
+les deux rectangles FH, & F Z qui ſont compris S
+de la toute B H (ou F S) & de la piece B C (ouò -
+BF, ou F G) enſemble le quarré IN faict de Fautre piece C H,
+compoſent & le quarré de la toute (ceſt à ſcauoi HL) & le
+quarré de ladicte piece B C (c'eſt à ſcauoir N S) il eſt certain
+qu'ils ſeront egaux auſdicts quarreæ HL &N S comme toutes
+les parties au tout.
+O
+PROPOSITIONVIII.
+Si vne ligne droicte eſt couppec comme on voudra, le rectangle
+contenu quatre fois de la toute, & d'vne des pieces, auec le
+quarrèé de Pautre piece, eſt egal au quarrè de la teute, & de
+ladicte piece.
+691 la ligne S B couppee en G, & ſoitappoſee s o . 7
+B T egale à S G. Soit ſur la compoſee ST fait H n
+le.quarré S T D C & tirees G R, B Z paralleles l ſ
+& egales à S C. Soient auſſi TL, D P egales à
+
+B T (ceſt àâ dire S O) & tirces LF, PM paralle- N-OP
+les & egales à S T. Il eſt euident que les quatre
+rectangles S K, BP, DN, & RF ſont faicts due
+la toute S B & de la piece S G, & que le quarré IX O N eſt fait
+de l'autre piece G B, & compoſent le quarré faict de la toute &
+de lappocce B T, laquelle B T eſt egale à T'vne des pieces ſca-
+uoir S G. Il eſt donc cuident que le quarré S D faict ſur la com-
+poſee S T ſera egal à iceux quàtre rectangles & au quarré I0
+faict de Fautre piece G B.
+
+
+ELEMIENS  DEVCLIDI,
+PROPOSITIONIX.
+Si vne ligne droicte eſt couppee en deux pieces egales , & en
+deux pieces incgales: les quarreſ des fe inegales de la
+toute, ſeront doubles aux quarre?q de a moitié & de la ſe-
+clion entre- moyenne.
+GQi laligne droicte H B couppec en deurx s
+eglement au point C, & inegalement au VÆS -
+oint N. ſoit eſſeuec en angles droicts CS, & f
+ſate egale à CH, & ſoient menees H S & b S. EM
+D'autant que les deux triangles H C S & B CS CN B
+ſont Iſoſceles, ils auront les angles ſur la baſe e-
+gaux. Or H C S eſt droict, comme auſſi B CS, donc par la 32.
+dn 1. ſangle CH S, vaudra vn demy droict, comme auſſi
+H S C, SBCX BSC. Celuy-cy ioint à H S C fera vn angle
+droit H S B. Soit auſſi eſſeuec en angles droicts NF, & du point
+F ſoit tiree F G parallele & egale à N C: ll eſt cuident que NF
+eſt egale à N B (Pangle FN Keſtant droict & NB F demy droit,
+comme auſſi NF Bjj par la 6. du premier, Semblablement F G ſera
+egale à6 S. Soit tree H F. D'autant que par la 47. du premier
+les quarreæ de HN& NBſou NF) ſont egaux au quarré HF,
+& que ceſtuy-cy eſt egal aux quarrez de FS & S H, & que le
+quarré de S H eſt double au quarré de H C, & le quarré de S F
+double au quarré de GF (ou EN) l s'enſuyura que les quarrez
+des deux picces inegales H N & NB ſcront doubles aux quarreæ
+de la moitie H C & de la ligne entre les deux ſections CN.
+PROPOSITIONX.
+si vne ligne droicte, eſt couppec-en deux pieces cgales, & on
+luy adiouſte directement, quelque ligne droicte; le quarrè
+de la toute auec ladioustee & le quarre de V'adiouſstee, sont
+doubles aux quarrex de la moitie, & de celle qui eſt faicte
+de la moitié & de Padioustee,omme drune.
+
+]]]]
+--
+LIVRE SECOND. 14
+- droicte S B couppee en deux e- r
+angles droicts C P qui ſoit egale à CS. Soit
+aulſi faict le rectangſe C PFN, ſoient mences
+SP, PB. il eſt cuident que l'angle S P B ſera
+droict (eſtant compoſc de deux demy droicts) comme enla
+precedente. Soit prolongee F Nvers G, & I' B vers G. Le trian-
+gle BN G ſera rectanule & iſoſcele, d'autant que angle P BC
+eſt demy droict par la construction, & egal à l'angle du ſommet
+NB G, comme par conſequent NGB eſt auiſi demy droict
+(ſ'angle BN G eſtant egalà BN F, & par conſequent droict) par
+la 13. du premies Dont appert que F G eſt egale à FP. Soit finale-
+ment mence S G. D'autant que par la 47. du premir le quarré
+de S G eſt egal aux quarrez de S N & NG, (ouù NB) & que ce
+meſme quarces C elt egal aux quarrezde S P, & P G, & que le
+quarré de SP eſt double au quarré de la moitié S C, & le
+quarré de P G double au quarré de PE (ceſt à dire CN qui
+eſt la moiti auec appoſec)ils enſuiura que le quarré de la toute
+& de l'appoſee S N, auec le quarré de 'appoſee B N (ou N G)
+ſera double aux quarreæ de la moitié S C, & del'autre moitiè
+auec l'appoſece CN.
+S
+galement au point C, à laquelle ſoit directe- ſ v
+ment appoſee BN. Soit du point C eſſeuee en c .
+ntti
+SS
+?
+5
+6
+PROPOSITIONXI.
+Coupper vne ligne droicte donnee, tellement, que le rectangle
+contenu de § toute & de l'une des pieces ſoit egal au quarrè
+faict de l'autre piece.
+Oit la ligne droicte propoſee HIB, ſur la- N
+quelle ſoit deſcrit vn quarré H B N C, ſoit o 1p
+couppcé en deux egalement H C en L. ſoit me- I S
+nec LB, & prolongee CHvers F, en ſorte que I
+L F ſoit egale à L B. Sur la ligne H F ſoit deſcrit F H I.
+le quarré H F G I, & ſoit meneæ G IK. D'autant que le rectan-
+gle compris de la toute & de l'appoſce comme d'vne ligne(ceſt
+à ſcauoir CF) & de l'appoſce F H ou F G (ceſt à dire le rectan-
+gle FK) anec le quarré de la moitié H L, eſt egal au quarré de
+L F par la s. de ce liur, c'eſt à dire de L B ſon egale, & que le quar-
+ré de L B eſt egal aux quatreæ de H 8, H L: ils enſuyura (le com-
+mun H L eſtant oſte) que le quarré de HB ſera egal aurectangle
+
+i
+A
+
+
+
+AHAA  A AAAAA ︎AA2
+
+ELEMENS DPDEVCLIDE.
+FK, & deſquels finalement ſi le rectãgle commun HX eſt oſtè,
+le rectangle IN demeurera egal au quarrè FI. La ligne H B eſt
+donc couppee ſuyuant la propoſition.
+PROPOSITIONXII.
+Aux triangles ambligones, le quarré qui eſt fuict du costé qui
+ſouſtientſ. angle obtus, eſt plus grand que les quameſ.ui
+ſont faicts des costex qui contiennent angle tus, de la
+quantitè du rectangle contenis deux fois de l'un des coßte
+quii ſont à l'entour de l angle obeus, deſſus lequel eſtant ment,
+tombe la perpendiculaire, & de la ligne priſe dehors entre
+la perpendiculaire & Vangle obtus.
+Oit le triangle ambligone B CS ayant l'an-
+gle S obtus. ſoit proſonge e coſté CS vers Wam
+O, & faicte la perpendiculaite B O. D'autant c
+que le quarré de B C eſt egal aux quarreæ BM ,
+SOL, & le quarré de B S egal aux quarrez H I
+BM &S I, par la 47. du 1. Il ſera cuident1 N
+que le quarré de B C mexcedera le quarré de
+Ii S, (ceſt à dire les quarrex BM & S I) ny le quarré de CS
+ſqui eſt S H que des deux rectangles IK, & KH. Or ſoit faict
+le quatré C O N L, & tirec la perpendiculaire SK, & faicts les
+quarrezæ S H & S I. Ileſt mantteſte que IN eſt egale à CS, &
+HILAs O. Tellemét que le rectangſe IK eſt compris de lignes
+egales à CS, S O, comme auſſi 'autre rectangle H K. Donc
+aux triangles ambligones, &c.
+PROPOSITIONXIII.
+Aux triangles oxigones, le quarrè du coſte qui ſoustient lan-
+gle pointu, eſt plus petit que les quarro ſe font des c-
+ſſtex qui contiennent langle pointu de la quantitè du re-
+ftangle contenu deux fois de lun des coſtex, qui ſont à l.en-
+H tour de l'angle pointu, auquel tombe la perpendiculaire, &&
+de la ligne priſe dedans entre la perpendiculaire & lngle
+I pointu.
+
+LIVRE SECOND.
+Oit le triangle oxygone S B C, S B ſubten-
+dent l'angle aigu C. Soit tiree la perpendicu-
+laire S O ſur le coſté au long de Rangic aigu
+B C.Soit fait le quarré B C L F. Soit prolongee
+S O veirs G, & fait le quarré O I. Il eſt cuident
+par la 47 du 1. que le quarré de S B ne vaut que
+les quarrez de S O, & OB. Or le quarré de B C
+(Ceſt à dire B L) eſt plus grand que le quarré de B O ceſt OI)
+du gnomon C GI. Et le quarié de S C eſt plus grand que le
+quarré de S O, du quarré de O C (ceſt à dire FNH I que nous
+poſons eſtre deſcrit ſur IF egale à O C.) Mais le rectangle
+OL eſt compris de C L ſou BC) & de C O qui eſt entre 'angle
+aigu CX la perpendiculaire. Et Pautre rectangle H G eſt de meſs-
+me, eſtant GF egale aBOKENaFI. &F I à O C, par la con-
+ſtruction. Tellement que G N eſt egale à B C, & HNàOC. Le
+quarré donc de S B eſt plus petit que les quarreæ de B C & de
+S C des deux rectangles O L & GH.
+
+PROPOSITIONXIIII.
+Faire un quarrè egal àvn rectiligne donnẽ.
+Oiit la figure rectiligne donnee S, à la-
+quelle ſoit fait dans vn angle droit donné
+vn parallelogrãme rectangle egal par la 45. 4
+dis premier, & ſoit iceluy rectangle BINC. l
+Soit prolongee B I vers L, en ſorte que IL - si
+ſoit egale à IN. ſoit couppée BL en deux
+egalement, comme en G, & fait du centre G le demi cercle BHI,
+& prolongee NI iuſques à la circonference,comme en H, &
+mence G H. D'autant que B L eſt couppec en deux egalement
+en G, & inegalement en I, le rectangle compiis ſoubs B I, IL
+auec le quarré de G I ſera egal au quarré de G L (ou de
+ſon egale) par la s. de ce liure, mais le quarré de G H eſt egal aux
+quarrez de GI & IH (langle GIH eſtant droit dvn coſteé de
+la perpendiculaire H I (par læ construction) il fenſuyura donc que
+le rectangle de BI, IL'(ceſt àdire B N) auec le quarré de 6 I
+ſera egal aux quarrez de H I, & I G. Mais le quarré commun de
+I G eſtant oſtè, le rectangle BN& le quaré de IH demeure-
+ront egaux.
+n
+
+
+.
+A 5 m a AGM ſ34a1︎
+r
+A MONSEIGNEVR GWY
+COMTE DE LAVAI, HAÆ-
+court, Montfort & Quintin,
+Baron de Vitré, &c.
+
+
+
+ONSEIGNE VR, ceſte louable affe-
+
+
+
+I
+G V &ction qui vous faict embraſſer auec tant
+ſ s , ex  Bde soin les ſciences Mathematiques, a ſer-
+1 n 3 uy deaiguillon à la mienne pour m'esforcer
+2 VÆ 8 7ya soulager voſtre peine : comme ie ſay
+MA §qul'elle ſeruira d'exemple à la Nobleſe
+
+'7 ntiiũn
+Cm& SEπ︎?t Frangoiſse peur imiter voſtre vertu, qui
+n'eſtime pas qu'en choſes ſi excellentes, lagrandeur de la diffi-
+calte doiue eſteindre ou refioidir l'amour de la beautè: Augßi
+n'eſt-ce pas sans raiſon qu'vn ancien accompare ceſte science à
+Uuamour : pource que tous deux donnent des tourmens au com-
+mencement:mais il nẽ demeure ny en l'un ny en b'autre, quand
+apres l'amertume des racines on vient à ſauourer la douceur des
+fpuicts. Si ceux que vous cueilleX maintenant de voſtre labeur
+employe en ceſt estude, ſont deſia ſi meurs & ſi bien forme,
+comme ie croy quils nont de beſoin de mon industrie pour ve-
+unir en maturitè; au moins approuuere vous, comme ieſpere, la
+IAdexnote volontè que par Posfre de ceſt eſerit vous faict paroistre,
+H H Voſre tres-humble & tres-obeiſſant ſer-
+Il uitcur I. ERRARD.
+
+16
+LE TROISIESME LIVRE
+DES ELEMENS DEVCLIDE.
+DEFINITION PREMIERE.
+a ESs cercles egaux ſont ccux deſ-
+V§ quels les diametres ſont egaux:ou
+) deſquele le lignes menees du cẽ-
+tre ſont egales.
+Vne ligne droicte eſt dicte u
+cher vn cercle, laquelle touchant
+
+le cercle, ſi elle eſt prolongec, ne couppe point le
+cercle.
+3 Les cercles ſont dicts ſe toucher enscéble, quãd ſe
+touchãs l'vn l'autre ne ſe couppent point enſemble.
+4 Les lignes droictes en vn cercle ſont dictes eſtre
+egalement diſtantes du centre, quãd les perpendi-
+culaires tirees du centre ſur icelles ſont egales. Mais
+celle ſe dict plus diſtante ſur laquelle tombe la plus
+grande perpendiculaire.
+5 Section de cercle eſt vne figure compriſe d'vne
+ligne droicte & de la circonference du cercle.
+G Mais l'angle de la ſection eſt celuy qui eſt com-
+pris d'vne ligne droicte & de la circonference du
+cercle.
+7 Mais vn angle ſe dict eſtre en la ſection, celuy
+compris de deux lignes droictes menees des extre-
+mitez de la ligne droicte couppante, & leſquelles
+concurrent en vn point qui eſt en la circonference.
+8 Mais quand les lignes droictes comprenant l'an-
+gle, prennent quelque circonference, en icelle eſt
+la ſhandeur de l'ungle qui ſe dict eitre appuyè ſur
+icelle.
+l
+
+ELEMENS DEVCLIDIE,
+9 Secteur de cercle eſt vne figure contenue de deux
+demi diametres faiſans angle au centre, & dvne par-
+tic de circonference priſe par iccux.
+10 Semblables ſections de cercle ſont celles qui re-
+coiuent les angles egaux, ou bien eſquelles ſes an-
+gles ſont egaux entr'eux.
+PROPOSITIONPREMIERE.
+Trouuer le centre dvn cercle donné.
+Oit dans le cercle tiree vne ligne contin-
+gente H B laquelle ſoit diuiſee en deux e-
+galement e n O, duquel point ſoit tirec la per-
+pendiculaire de coſté & drautre iuſques à la
+circonference comme CI, & icelle ſoit diuiſee H
+en deux egalement comme en F. Si le point F
+n'eſt le centre du cercle, ſoit ſuppoſé vn autre pointG, & ſoient
+menees GH, G B, G O. Lors G B ſera egale à G H, & l'angle H
+ſera egal à l'angle B, & les deux triangles compris de lignes ega-
+S
+les ſeront egaux & equiangles. L'angle donc GOB ſera egalà
+
+l'angle GOH, & par conſequent tous deux droits:il faudra donc
+que l'angle droit G OB ſoit moindre que l'angle droit FOB, &
+Tangle droit G OH plus grand que le droit FO H. contre la 10.
+commune ſentence, ce qui eſt abſurde. Parquoy le centre ne ſera
+oint hors la ligne C I. que ſi en icelle on ſuppoſe vn autre point,
+ſe lignes tirees d'iceluy à C & I ſeront inegales contre la 15.
+definition. .
+PROPOSITIONII.
+Si en la circonference d'wn cercle, Pon prent deux tels points
+won voudra,la ligne droite menee de point à autre, tom.
+era dedans le cercle.
+Oit en vne circõference de cèrcle deux points
+comme H B, & ſoit menee la ligne H B, &
+
+9
+icelle couppec en deux egalement en I, & me-l
+nee la perpendiculaire IO, & ſoit le point O lex I B
+ecntre a cercle par la precedente. Soicnt auſſi S5
+mences
+
+ ATT(E—
+-l
+LIVRE TROISTESME. 17
+mences H O, O B qui ſeront egales. D'autant que 'angle O IB
+eſt droict, ils'enſuit qu'il eſt plus grand que OBI, ou IO B, &
+que par conſequent la ligne O B eſt plus grãde que O I. Dont
+eſt manifeſte que la ligne H B eſt dans le cercle: car ſi elle eſtoit
+hors iceluy, O I ſeroit plus grand que O B, & ſi elle eſtoit en la
+meſme circonference, la meſme O B ſcroit egale à O I par lade-
+flnition du cerele.
+PROPOSITIONIII.
+Si au cercle quelque ligne droicte paſſant par le centre, couppe
+uelque ligne droicte ne paſſant pas par le centre, en deux
+egalement elle la couppera jugià droicts angles; & ß elle
+H à droicts angles, elle la couppera außi en deux ega-
+lement.
+V cercle C H O B ſoit la ligne CO eſtenduë
+par le centre I couppant en deux egalement
+H B, qui ne paſſe point par le centre, ſoient me-
+nees I H, I B. D'autant que les deux triangles ſont
+equiangles, il s'enſuyura que les angles I'F B, & SA
+IF H ſeront egaux, & par conſequent droicts.
+Pour le ſecond, ſoit H B couppee par C O en angles droicts.
+Drautant que les angles ſur la baſe H & B ſont egaux, & I F B,
+IF H auſſi egaux par Phy potheſe, & les coſteæ HI, ĩB egaux,ſ'au-
+tre angle ſera egal à l'autre angle, & les autres coſtez aux autres
+coſtez par la 26. du premicr. Dont s'enſuit que HF eſt egal & B.
+PROPOSITION IIII.
+Si au cercle deux lignes droictes ſe couppent enſemble n'estans
+pas menees par lecentre: elles ne ſe coupperont point enſemble
+en deux parties egales.
+GQient deux lignes H C, B O au cercle, ſe coup-
+panten I, & ſoit du centre F tiree F I. Si elles
+ſe couppent en deux egalement Fangle FIO ſera
+droict par la precedenie, & par conſequent egal a
+FIB, & senſuyuroit auſſi que 'angle droict IB ︎
+
+
+t
+.
+
+ELEMENS  DEVCLIDE,
+ſcroit egal à Fangle droict FIH. Ce qui ne peut eſtre n'eſtant
+FI H que partie de FIB. Et quand meſme vne de ces lignes ſe-
+roit couppec en deux egalement, il ſe demonſtrera par meſmes
+raiſons l'autre eſtre couppec inegalement. Tellement donc. 5.
+au cercle, &c.
+PROPOSITIONV.
+Sideux circonferences ſe couppent enſemble, elles n auront pas
+vn meſme centre.
+ggin deux circonferences ſe couppant en c
+C& B Si I eſt le centre des deux, ſoient me
+nees  C, IF & IG, ils'enſuyura par la defini- IN
+tion du cercle que les trois lignes I C, IF, I C ſc-
+ront egales (c'eſt à ſcauoir la plus grande à la
+plus petite) ce qui ne peut eſtre contre la pre-
+micre commune ſentence. si donc deux circonferences, &c.
+PROPOSITION VI.
+Si deux circonferences se touchent dedans, elles n'auront
+pas un meſme centre.
+Oict deur circonferences ſe touchãs au point 1 .
+C, ſi F eſt le centre des deux, ſoientmenees
+IC,FI, & F B. lls'enſuiura ꝗ les trois lignes F C,
+F I & FB ſeront egales, c'eſt à ſcauoir la partie au
+tout, cc qui ne peut eſtre. Si donc deu circonfe-
+rences, &c.
+PROPOSITION  VII.
+Si au diamettre de cercle ſe prent quelque point qui ne ſoit pas
+Ie centre du cercle, & deiceluy point tombent quelques li-
+pes droictes en la circonference: la plus grande ſera celle en
+aquelle est le centre , & la plus petite celle qui reſte: Mais
+des autres tousiours la plus prochaine de celle qui eſt menee
+par le tentre, est plus grande que la plus loin. Et deux li-
+gnes droictes egales tant ſeulement tombent d'iceluy point au
+cercle, des deux parts de la plus petite.
+
+LIVRE TROISIESME. 1S
+Oit le diam etre H O, le centre I, & quelque x*x
+point au diametre qui ne ſoit point le centre E
+du cercle comme F. Duquel point F ſoient ti-
+rees pluſicurs lignes à la circonference comme c RXK-z E
+F B,FC, FG, FO. Soient en apres tirez les de- 5
+mydiametres, I B, IC, I G. d'autant que les deux o &§
+coſtez B I& IF ſont plus grands que F Bjar laæ o
+20. du 1. & que H F leur eſt egale, H F ſera donc plus grãde que
+BF, & ſemblableinent plus grande que CF, GF, & OF, & à
+toutes autres lignes qui pourront eſtre tirees de F, car elle ſera
+touſiours egale aux deux coſtez. du triangle. Et d'autant que
+BI, I Fſont egaux â Cl, IF, & que l'angle B IF eſt plus grand
+que l'angle CTF, la baſe B F ſera plus grande que la baſe CF.
+Semblableme nt des autres. Et pource que le coſté G I eſt moin-
+dre que les deux coſtez GF , Fl, & que OlI eſt egale à G l, icelle
+O I ſera donc moindre que les deux GF, FI. La commune FI
+eſtant oſtee, senſuyura FO eſtre plus petite que quelconque
+autre ligne tiree de F à la circonference,. La ligne donc ui paſſe
+par le centre eſt la plus grande, ſguor FH & lautre reſtee plus
+petite ſcauoir FO. Des autres, celles qui ſont plus proches du cen-
+tre ſont plus grandes que les plus eſloignees. Pour le dernier ſoit
+ſur la ligne F I faict vn angle en I egal à GIF, & ſoit F IN, ſoit
+menee F N qui ſera egale à FG. Ileſt euident qu'on ne pourra
+tirer du point F vne autre ligne à la circonference de ceſte meſ-
+me part qui ne s'approche du centre, & qui ne ſoit par conſequæet
+plus grande, ou qui ne s'en eſloigne, & ſoit plus petite que FN
+parla demòstration de la premiere & seconde partie de ccste propoſition.
+PROPOSITIONVIII.
+si dehors le cerdle ſe prent quelque point, & diceluy point en læ
+c irconference ſe menent quelques lignes digictes, deſquelles
+l vne paſſe par le centre & les autres où l'on voudra: des li-
+nes droictes menees en la circonference caue, la plus grande
+eſt celle qui paſſe par le centre: Et des autres touſiours la plus
+pres de celle qui paſſe par le centre, est plus grande que la
+plus loin. ais des lignes droictes tombant en la circonfe-
+rence conuexe, celle eſt la plus petite qui eſt interpoſce entre
+le point & lo diametre: & des autres celle qui ejt plus pres
+c
+
+r ELEMENS DEVCLIDSE,
+de la ſtus petite, eſt tousiours plus petite que celle qui en eſt
+plus loin. Et deux lignes droictes egales tant ſeulement tom-
+bent du meſme point à iceluy cercle des deux pars de la plus
+petite.
+ggſl point donné hors du cercle O, duquel o
+ſoit tirce vne ligne par le centre iuſques à la
+circonference caue O G M Z, ſoient auſſi plu- n 3
+ſieurs autres lignes tirees du meſme point à la
+meſme circonference caue, comme O 1, OF,
+O C, & autres lignes tirees du meſme point à t
+la circo nference conuexe, comme O H, O I,
+OK, O G: Soient menees MI, MF, M, *-
+M H. ML, MX. D'autant que O Z eſt egale
+qux deux OM, Mielle ſera done plus grande que O Ipar lae 20.
+u 1n.
+Dauantage pource que OM, MI ſont egales à0 M, MFE &
+& que l'angle O M I eſt plus grand que l'angle O MF, ils'en-
+ſuyura que la baſe O  ſera plus grande que la baſe O F, ainſi des
+autres la plus proche du centre ſcra plus grande que la plus eſſoi-
+gnee.
+Au n- glus grandes que
+OM, ſoient oſtees les egales MK, MG, ils enſuyura que la par-
+tie exterieure de la ligne qui paſſe par lc centre ſſçauoir G O)
+ſera plus courte que OK.
+Semblablement elle ſe demonſtrera moindre que OL, O H.
+Et pource qu'au triangle O L M deux lignes droictes prouien-
+nent des extremitez delun des coſteæ OM, & ſcjoignent envn
+point dans le triangle, icelles ſeront moindres que les autres par
+
+a 21. du 1. Or MX eſt egale à M L. La ligne donc OK ſera
+moindre que O ù, C'eſt à ſcauoir touſiours la plus proche de
+O G ſera plus courte que la plus eſſ oignee. Pour le dernier ſoit
+ſur O M & au point M faict vn angle egal à O MK, ceſt àſa-
+uoir O M B, ſoit jointe O B. Les deux coſteæ O M, MB ſont e-
+gaux aux deux coſter O M, MX & l'angle egal à Pangle, la baſe
+donc O B ſera egale à O K de chacun coſté de ZO & ne ſe
+pourra donner aucune autre egale: car la plus eſſoignee ſera plus
+gtande, & la plus proche plus courte comme il a eſté demontré.
+ſ
+
+LIVRE TROIYSIESME 19
+PROPOSITION IjI X.
+Si on prent quelque point au cercle, & d'iceluy point en la cir-
+conference tombent plus de deux lignes droites egales, le point
+pris eſt le centre diceluy cercle.
+1.
+gQi pris vn point O dans le cercle duquel
+trois lignes O H, O B, O C, tirees à la cir-
+conference ſoient egales. Soit menee B C, &
+couppee en F en deux egalement, & ſoit auſſi æ
+menee FON. Deautant que les deux triãgles
+OF B, & OFC ſont equiangles & rectangles,
+la ligne NFeſt en angles droicts ſur BC: en N
+icelle NF ſera donc le centre du cercle par la 3, de ce liure. Sem-
+blablement B H couppee en deux egalement en I, & tirce 10G,
+ſe demontrera en celle-cy eſtre le centre du cercle, puis donc ue
+
+la ſection O eſt commune aF N& I G, ils'enſuyura que O ſera
+le centre du cercle.
+PROPOSITIONX
+Vne circonference ne couppe point vne autre circonference
+en plus de deux poinis.
+G deux circonferences ſe couppent en trois
+points H, B, G, ſoient menees les lignes
+droictes H B, B G, & icelles couppees en deux ut-
+egalement en K& L. ſoient de K& L menees
+en angles droicts deux lignes droites KC, LM. .
+Il eſt euident que la commune ſection O ſera c
+le centre des deux circonferences, ce qui ne peut aſtre contre la s.
+propoſition de ce liure. Si donc vne circonference, &c.
+
+
+PROPOSITIONXI.
+Si deux circonferences ſe touchent bune Pautre dedans, & l'on
+prent les centres d'icelles: ayant menè vne ligne droicte à
+iceux centres & produite, elle paſſera par l'atouchement des
+circonferences. I
+C iij
+
+
+ares ne paſſe par H, ſoit icelle Feo ,
+en deux points C, B (sll eſt
+1, O, la ligne droicte LO
+ELEMSNG DEVCLIDI,
+Oient deux circonferences ſe touchans inte-
+rieurement au point Z,ſoit le centre de la plus
+rande F, & menee ZF. Si le centre de la plus pe-
+tite eſt hors ZF, poſons eſtre en G, & ſoit me-
+nee FGOH, lors GO, & GZ ſeront egales:ZG W
+& GF ſeront donc egales à OG & GF. Mais ZG,
+GF ſont plus grands que Z F, la ligne O F ſera z
+donc plus grande que F Z. ce'qui eſt faux, n'eſtant FO que partie
+de F H, laquelleF H, eſt egale àF Z procedant d'vn meſme cen-
+tre F& tombant ſur vne meſme circonference Z HE, par la con-
+ſtruction. Si donc deux circonferences &c.
+PROPOSITION XII.
+Si deux circonferences ſe touchent Pune Pautre dehors, en me-
+nant vne ligne droicte depuis les centres diceux ælle paſſera
+par iceluy atouchement.
+- i . ! -
+Oient deux circonferences ſe tou-
+chant exterieurement en H, ſi la
+ligne droicte qui conjoint leurs cen
+
+& menees FH, & G H: ces deux ſont
+plus grandes que F G. Mais F & G ſont les centres, H & F C
+ſeront donc egales, comme auſſi GH, GO. Il senſuyura donc
+que F C & GO ſeront plus grandes que la toute FG. Ce qui
+eſt notoirement faux (icelles eſtant moindres du reſidu C O)
+§i donc deux circonference s, &c.
+PROPOSITION XIII.
+Vne circonference ne touche point vne circonference en plus de
+points quvn, ſoit qu'elle la touche dehors ou dedans.
+Oient deux circonferen-
+ces ſe touchãs au dehors ſ
+poſſible) ſi leurs centres ſont
+
+paſſera par Patouchement C,
+,-
+
+LIVRE TROISIESME. 20
+elle paſſera auſſi par B, par la precedente, tellement que L C O ne
+ſera quvne ligne droicte egale à L O contre la 20 du 1. & pas
+ainſi de point à autre ſur vn plan ſeroient menees deux ligner
+droictes (nire la 4. difinition & contre la des- ce qui ne se peut faire co
+cription de Ia ligne drorte qui eſt La plus courte tiree de point àa utre.)
+§siles deux erreonferences ſe touchent par dedãs en deux points
+K, I. Icelles n'auront point vn meſme centre par la s. de ce liure.
+Soient donc les centres G, H, & menee GH, laque lle prolon-
+gee tõbera au point de 'atouchement K par la 1n. ib ce liurc. Soit
+auſſi tiree G I, laquelle ſera egale à GK, & H I ſera egale à HK
+procedant d'vn meſme centre. Or GH, HK ſont egales à GH,
+H I. Il s'enſuyura donc que celles-cy ſeront egales à G Icontrela
+10. propoſition du premies. Tellement donc que vne circonference ne
+touche point vne circonference, &c.
+PROPOSITIONXIIII.
+En vne circonference les lignes droictes egales, ſont egalement
+distantesdu centre, & celles qui ſont egalement distantes du
+centre ſont egales entre elles.
+Oient en la circonference deux lignes egales H C
+H B, CO, &le centre de la circonference 1I,
+auquel ſoienttirees les perpendiculaires 1G, IF
+ſur chacune: icelles H B, C O ſeront couppees
+en deux egalement comme il a eſte monſtré. Soient
+auſſi menees I H, I C qui ſeront egales. Or par la s &
+47. dis premier les quarrez de I C, I H ſont, egaux aux quarrez de
+HE F I, & de CG, G I. Les deux egaux C G & HF eſtans oſtez
+reſteront les quarrez de I G, & IF egaux, & par conſequent au-
+ront leurs coſtex1 F, I G egaux Ils enſuit donc par la 4. defini-
+tion de ce liure que H B, C O ſont egalement diſtantes du centre.
+G
+PROPOSITIONXV.
+Au cercle la plus grande ligne eſt le diametre: mais des autres
+tousiours la plus pres dis centre, est plus grande que la plus
+eſloingntee.
+C iij
+
+ELEMENS DEVCLIDE,
+g Oit le diametre du cercle H O, & le centre Il. 4u B
+duquel B C ſoit plus proche que F G. Soient ti- ,
+rees les perpendiculaires IN, IK. Et d'autant que
+IK eſt plus grande que IN par la 4. aefition dnce LN
+liure. Soit de celle li oſtec vne ligne egale à celle
+cy comme I L, & au point L ſoit faicte ſa perpen-
+diculaire M L P, ſoient conjointes IM, IF, IP, CPõC
+I G. D'autant que IN, IL ſont egales, MP, & B C ſeront e-
+gales par la precedent. Et pource que les deux coſteæ M1, IP
+ſont plus grands que M P, ils'enſuyura que le diametre H O (e-
+gal aux deux coſtez) ſera plus grand que quelconque autre li-
+gne donnee dans le cercle Et veu que les triangles MIP & FIG
+ont deux coſteæ M I, I P egaux aux deux coſtez F1, I G, & l'an-
+gle MI P plus grand que FI G, la baſe M P, ſera plus grande que
+6. Or M Da eſté monſtree egale à B C: Icelle donc B C flus
+proche du centre ſera plus granũæ que la plus eſloingnee F G.
+PROPOSITIONXVI.
+La ligne droicte menee à droicts angles à l'extremiteé di diame-
+metre de quelque cercle, tombera dehors iceluy cercle, & au
+lieu contenu entre icelle ligne droicte, & la cuconference ne
+tombera pas vn autre ligne droicte, & bangle du demy cer-
+cercle est plus rand que tout angle rectiligne aigu, & ce-
+luy qui reſte plus petit.
+Oit le demy diametre du cercle O H, & du
+point H ſoit eſſeuee en angles droits NHF.
+Sila ligne FH tombe dans le cercle comme la
+ligne droicte C H. Soit du centre O menee,
+OC, le triangle C O H ſera iſoſcele & aura les
+angles ſur la baſe egaux. Mais l'angle H eſt
+poſé droict, ils enſuiura donc que l'angle C ſera
+droict contre la 17. du premier. F H ne tombera donc point dans le
+cercle. Pour le ſecond ſi entre la ligne FH, & la circonference
+pouuoit tomber vne ligne droicte comme G H, ſoit ſur icelle du
+centre O tiree vne perpendiculaire O I, Fangle O I H ſera droit
+& par cõſequent la ligne O H plus grande que Ol par la 19. du 1.
+Mais O I penetre la citconference, & O H la touche ſeulement
+
+
+la 19. du premier, mais elle eſt plus petite dure- N
+l LIVRE TROISIESME. 21
+O Iſera donc plus grande què O H. Or ellea eſté dite plus
+rande (ce qui ne peut eſtre.) Il ne tombera donc aucune ligne
+Eroicte enere F H & la circonference. Dela s enſuyura que l'an-
+le (ſi ainſi ſc doit appeller) compris par la circonference, & par
+a diametre ſera plus grand ou plus ouuert que aucun angle re-
+ctiligne aigu: & que sautre entre la circonference & la ligne de
+ſratouchement V H ſera moindre. On peut de cecy recueillir que
+la ligne droicte FH N touche le cercle en vn ſcul point.
+PROPOSITIONXIVII.
+Du point dinne mener une ligne droicte, qui touche
+le cercle donné.
+S Oit le point donné H, le cercle donnée BOC,
+du centre I ſoit tirec IH couppant la circon-
+ference en O. ſoit deſcrit vn cercle du centre I,
+& de ſinterualle IH comme HG F:& du point
+O ſoit menee en angles droicts O F ſaſques à
+la circonference, & ſoit jointe IF, B H. D'au-
+tant que les deux coſteæ H I, IB ſont egaux
+aux deux coſter F I, 10, & 'angle I commun, la baſe H B ſera
+egale à la baſe F O par la 4. du premier, & les autres angles aux
+
+autres angles, ſcauoirt IO Fa IB H. Mais I OF eſt droit & la li-
+gne O F touche le cercle donné au point O par ce quireſulte de la
+precedente. Dont S'enſuit que Pangle H B I ſera droict, & la ligne
+droicte H B touchera le cèrcle donn ſuyuant la propoſition-
+PROPOSITIONXVIII.
+Vne ligne droicte touche vn cercle, & dus centre à l'atouche-
+chement eſt menee vne ligne droicte, la menee ſera perpen-
+diculaire à Patouchante.
+Oit la ligne droicte N O touchantle cercle
+au point C du cẽtre F ſoit tiree F C, ſi FCN
+n'eſt angle droict, ſoit tirec vne autre ligne en
+angles dtoicts ſur N O comme F G. D'autant
+que FG Ceſt droict, ils'enſuyura que la ligne
+F C ſubtendente ſera plus grande que F G par
+I
+
+
+4
+ELEMIENS  DEVCLIDE,
+ſidu B G (eſtant ſeulement egale à F B) il ne ſe pourra donc ti-
+rer du centre aucune autre ligne en angles droicts ſur NO que
+F C, ſur le point de 'atouchement C.
+PROPOSITIONXIX.
+Si vne ligne droicte touche vn cercle, & on mene de Patouche-
+ment vne ligne droicte à droicts angles ſur la touthante, le
+centre dis cercle ſera en la menee.
+SQitha ligne droicte O I, touchant le cer-
+cle en & du point C ſoit eſſeuee en an-
+gles droicts C H. Si le centre du cercle n'eſt
+en laligne CH, ſoit s'il eſt poſſible en F, &
+ſoit tiree FC, celle-cy ſera en angles droicts
+ſur O I par la precedente: FCI ſera fonc droict. o X
+Mais il eſt moindre que l'angle H C I quia c
+eſté faict droict (ce qui eſtpoſſible) le centre du cercle ne ſera
+donc point hors la ligne H C.
+PROPOSITION XX.
+Ali cercle l'angle du centre est double à langle qui eſten la cir-
+conference, quant iceux angles ont pour baſe vne meſme cir-
+conference.
+Oit ſur la baſe B Cſangle au centre BIC, H
+& l'angle en la circonference B H C, & ſoit
+meénee HF : le triangle H I B ſera iſoſcele, &
+ſaſgle exterieur BIF eſt egal aux angles HBIN
+& BH I, par lag2. du premier: BIF fera donc VW
+*
+F
+double à B H I. Semblablement ſe demon-
+trera de ÆI C. Mais ſile centre eſt hors des
+lignes, comme pour exemple de Fangle B O C, ſoit tiree O IN.
+L'angle exterieur NI C eſt egal aux interieurs I O C, & ICO,
+& par conſequent double àl O C. Comme auſſi NIB eſt egal
+ANOB&IB O, & par conſquent double à I O B. Si doncle
+double NIB eſt oſté du double NIC, &le ſimple I O B du
+ſimple I O C, le reſtant B I C ſera double au reſtant B O C.
+Dececy reſulte que ji la baſe subrendente les angles, excede la moitié de
+s
+
+a
+480
+LIXVRE TROISINESME. 22
+la circonserence, elle ſe pourra diuisſer en plusieurs pieces pour faire plu-
+ſicurs angles au centre qui ſe demonſtre ront doubles à ceux de la circonfe-
+rence.
+PROPOSITION XXI. :
+Aua cercle les angles qui ſont en vne meſme ſection,
+ſont egaux entreux.
+Oit la ſection du cercle B C O fermee de la li-
+gne droicte B O, & les angles ſur icelle BH O
+& B IO. Soit le centre du cercle F, & menee FB,
+F O. Dautant que sar laprecedente Pangle BH O
+eſtla moitié ae langſe B FO, comme auſſi BIO
+eſt la moitié du meſme B F O, il s enſuyura par laB o
+7. commune ſentence que iceux angles BH O & C
+B IO ſeront egaux.
+PROPOSITION XXII. :
+Les angles oppoſex des fi igures de quatre co ſteX deſcrites aux
+cercles, ſont egaux à deux droicts.
+6ę au cercle le quadrilatere HB CO, & HE
+mences H C, O B les angles HBO & H CO
+ſont egaux & O,B, C & O F C eſtans ſur meſ-
+mes ſections par la precedente: tout l'angle donc
+H B C ſera egal aux deux CH O & O CH. - c
+Tellement que tout Pangle H O C, & l'angle
+H B C enſemble ſeront egaux à deux droicts
+par lag. du . Semblablement ſe demontreront les angles BHO
+& B C O egaux à deux droicts. I
+o
+PROPOSITIONXXIII.
+Deſſus vune meſme ligne droicte, deux ſections de cercles ſem-
+blables & inegales ne se mettront pas d'vne meſme part.
+Oit la ligne droicte H B ſur laquelle s'il eſt
+poſſible ſoient d'vne meſme part mences 0
+deux ſectiõs de cercles ſemblables & inegales.
+comme H C B & H O B. Soittiree la ligne
+droicte H C inſques à O, & luslignes droictes
+B &D'autant que les ſections ſont ſemblablesH B
+
+ELEMENS  DEVCLIDE.
+& inegales, 'angle H C b ſera egal a 'angle H O B par lan0. de-
+finition de ce liure (c'eſt à dire Fextericur à l'interieur contre la 16.
+du 1.) ſur vne meſme ligne donc, &c.
+PROPOSITION XXIIII.
+Les ſemblables sections de cercles deſſus lignes droictes
+cgales, ſent egales entrelles.
+Oiẽt ſur deux lignes droi- I F
+ctes egales H B, O C deux S
+ſections de cercles e ales, ſa-
+uoit HIB & O F C, les angles ? B O c
+HIB & OF C ſeront egaux
+par la 21. de ce liure. Et ſoit, ſi faire ſe peut, vne autre ſection ſur
+O C comme O L C ſemb lable, mais inegale à B I H. Soit me-
+nee CL au point L où la circonference eſt couppee par la ligne
+droicte O F. D'autant que les ſections ſont ſomblables, langle
+O LC ſera egal àlangle H IB, & par conſequent à0 F C ſon
+egal, ceſt à dire P'ext ericur à linterieur oppoſé contre la 16. du 1.
+Zes sections donc sur lignes egales, &c.
+PROPOSITION XXV.
+Ayant donné la section du cercle, deſcrire le cercle
+duquel elle est la section.
+geit la ſection donnee B C N, en laquelle C
+ſoient menees comme on voudra deux
+lignes droictes non paralleles comme B C,
+CN, leſquelles ſoient couppees en deux e-B &
+pglement comme en O, F, & ſoienttirees
+es perpendiculaires O I, F I, ils enſuyura (comme on peut re-
+cucillir de la premiere de ce liure) que le centre du cercle ſera es
+deux perpendiculai res, c eſt à ſcauoir au point commun I. Tel-
+lement donc que du centre I, & de l'interuale IN on pourra par-
+faire le cercle duquel B CN eſt la ſection donnee.
+PROPOSITION XXVI.
+Aux cercles egaux , les angles egaux srappuyent deſſus les cir-
+conferences egalles, ſoit quals ſappuyent eſtans constituex
+aux centres, ou aux circonferences.
+
+-4
+
+LIVRE TROIXSIESME. 23535
+Oict deux cercles egaux HBC, .
+O ID, & les angles du centre B
+GG, IND, egaux, cõme auſſi ceux
+de la circonference BH C, IOD, les
+lignes B G, G C ſont egales aux li-)
+gnes IN, ND qui comprennét an-
+gles egaux:la ligne droite doneBC x
+ſera egale àla ligne droite I D, ceſta dire la baſe à labaſe par læ
+4dæ.3. Or dautant que les angles H & O ſont egaux eſtans
+moities des angles du centre G, N, par la 20. de ce liure. les
+ſections des cercles ſeront ſemblables par la 10. diffinition de ce
+liure, Ceſt aſauoir B H C, & DOI. Mais les ſections B H C, &
+DOI, ſur les lignes droictes egales BC, ID, ſeront egales par la
+24. de ce liure. Les ſections doncreſtees comme auſſi les circon-
+ferences B K C, & DLI ſeront egales.
+
+PROPOSITIONXXVII.
+Aux cercles egaux, les angles qui fappuyent deſſus les circonfe-
+rences egales, ſont egaux entreux , ſsoit qu'ils fappuyent
+eſtans constitueT aux centres, ou aux circonferences.
+S aux deux cercles egaux N
+HEC, FON & ſur deux circon-
+ferences egales BC, NFles angles
+de la circonference H & O. Pre- Il
+mierement ſi s'angle I n'eſt egal :
+o
+a BGC, qu'il ſoit eſtimé moindre, H :
+& ſur la ligne B G & au point G ſoit deſcrit vn angle egalà l,
+comme B GK par la 23. du 1. La circonference donc B K ſera
+egale àla circõference NF par la precedente. Mais par 'nypotheſe
+B C eſt auſſi egale àN F. La plus courte donc BX ſera egale àla
+plus grande B C: ce qui eſt abſurde & faux. Les angles donc du
+centre B G C, N IF ne ſont point inegaux. Et partant les angles
+H, & O qui ſont moities des angles du centre ſeront auſſi e-
+gaux par la 7. C. s. : I ii
+PROPOSITIONXXVIII.
+Adux cercles egaux, les lignes droictes egales, prennent les cir-
+conferences egales, la plus grande à la plus grande ,& la
+plas petite à la plus petitt.
+
+
+ELEMENS DEVCLIDS,
+Oient en cercles egaux deux li-
+0 it
+gnes droictes egales IF, B C:
+ſoient les centres L, K & menees
+IL,LF, BK K C:les deux triangles
+ſeront egaux & equiangles par Ras. ?
+du 1. L'angle L ſera donc egal àr F E u
+N
+l'angle K, & conſiſteront iceux en
+circonferences egales par laz 6. de ce liur e, c'eſt à ſ;cauoir en 10 F,
+& B H C plus grandes: par ainſi les reſtes, ceſt à ſcauoir INF,
+& B G Cplus petites ſeront egales par la 3. C. S. eſtãs les deux cer-
+cles egaux par I'nypotheſc.
+PROPOSITIONXXIX.
+Adux cercles egaux, les circonferences igeles ſont
+priſes de lignes droictes egales.
+SQient en cercles egaux & en
+H
+circonferences egales deux li-
+gnes droictes ſubtenduës, comme x
+BC, IF. Soient les centres K& I,
+& menees BX,KC, IL, LF. Dau-, c
+tant que les circonferences B H C ẽ 5
+&F NI ſont poſees egales, les re-
+ſtes B G C, &F O I ſeront auſſi egales: les angles K & L ſeront
+donc egaux par la 27. de ce liure. t par la 4. du 1 la baſe ſera e-
+gale àla baſe (c'eſt à ſcauoir la ligne droicte B C à la ligne droi
+cteIF.
+PROPOSITIONXXIX.
+Coupper vne circonference en deux egalement. i
+Oitla circonference donnee H O B. & ſoit me- 9
+nce la ſubtendente H B, ſur laquelle eſtant cou-
+pee en deux egalement au point C, & ſur le meſme
+point C ſoit eſſeuee C O en angles droicts & join-l C B
+tes H O, O B. Drautant que les coſtex H C, CO
+Aont egaux aux deux coſtez B C, CO, & comprennent angles
+egaux, la baſe H O ſera egale à la baſe B O, leſquelles baſes com-
+prendront circonferences egales, ceſt à ſcauoir l'are H O, &
+l'arc O B le plus petit au plus petit par la 28. de ce liure.
+
+LIVRE TROISIESME 84
+PROPOSITION XXXI.
+Au cercle, Pangle qui eſt aius demy cercle, eſt droict: & celuy
+qui eſt en la plus grande ſection, eſt plus petit quvn droict-
+mais celuy qui eſt en la plus petite section, eſt plus grand
+qu'vn droict. Et d'auantage langle de la plus grande ſe-
+ction, eſt bien plus grand qu' vn droict : mais V'angle de la
+plus petite ſection, eſ plus petit qu'vn droict,
+
+AVcercle H O B C duquel le centre I ſoit 4
+Alge C H B dans le demy cercle. Soit o
+mené le diumetre BI C. & en la plus grande
+ſection ſoit 'angle H CB, & en la moindre ſoits
+l'angle H O B. L'angle mixte de la plus grande
+ſection ſoit compris de la ligne droicte B H &
+de l'arc H C, & l'angle mixte de la moindre
+ſoit compris de la meſme B H & del'arc H O. Soit prolongee
+C Hen Z & menee IH. D'autant que les angles I CH, IH C
+ſont egaux, comme auſſi I BH, B H I, tout l'angle B H C ſera
+egal aux angles H BI, H CI: & à ces deux cy eſt egal l'angle
+exterieur Z H B par la 32. du t. Ils'enſuyura donc que Z H B, &
+B H C ſeront egaux, & par conſequent droicts par la 10 definition
+du I. & par la 13. propoſition. L'angle donc qui eſt au demy cercle
+eſt droict. IM.
+Pour le ſecond l'angle de la plus grande ſection, ſcauoit H CB
+a eſté moindre qu'vn droict: mais aux figures quadrilateres deſ-
+crites en vn cercle les angles oppoſeæ ſont egaux à deux droicts
+par la 22. de celiure. Langle BO H ſera donc plus grand qu'vn
+droict. Pour le dernier 'angle mixte B H C comprenant l'angte
+droict ſera plus grand que le droict: & l'angle mixte de la plus pe-
+tite ſection B HO moindre que Z H B quia eſté monſtré droit.
+PROPOSITIONXXXII.
+Si quelque ligne droicte touche le cercle, & de l'atouchemeni
+on meine quelque ligne droicte couppant le cercle: les angles
+quelle faict à a touchante, ſont egaux à ceux qui conſistent
+aux ſections alternes du cercle..
+..
+
+ELEMENS DEVCLIDIE,
+ꝗò la ligne droicte IF touchant le cercle au H
+point B, duquel point ſoit tiree la ligne droite
+B O couppant le cercle. Soit auſſi eſſeuee en an- o
+gles droicts B H & menee H O. D'autant que
+HOB eſt droict eſtant au demy cercle les angles c
+OH B& O B H ſcront egaux à vn droict (ceſt, rF
+à dire à F BH:) ſoit oſté ſe commun OBH, il æ
+s enſuiura que OHB ſqui eſt en la plus grande ſection) & OBF
+ſeront egaux. Maintenant ſoient menees O C, C B. D'autant
+qu'aux quadrilateres inſcripts au cercle les angles oppoſeæ ſont
+egaux à deux droicts par la 22. de ce liure, les angles OH B, & O
+CB oppoſez & qui conſiſtent és ſections alternes ſeront egaux
+aux angles O B I, & O B F qui valent deux droicts. Mais OBF
+a eſté monſtré egalà O H B. Ils'enſuyura donc que O CB qui
+eſt la plus petite ſection ſera egal aO BI.
+PROPOSITIONXXXIII.
+Deſſus vne ligne droicte donnee deſcrire la section dvn cercle,
+prenant vn angle egal àwn angle rectiligne donne.
+Oitla ligne droicte donnee B H, & langle I
+donné C. Sur B H au point H ſoit deſcrit
+vn angle egalà C comme O H B. Soit pro-
+longee O H vers I. Du point H ſoit menee
+enangles droicts ſur O Ila ligne H G L. Soit B. c
+H B couppee en deux egalement en F. Du oE
+point F ſoit menee en angles droicts F G, & tiree G B. D'autant
+ue les deux triãgles H F G, & B F G ont deux coſtez egaux aux
+deux coſtez & l'angle à 'angle, la baſe H G ſera egale à la baſe
+G B. Soit maintenant ſur le centre G àlla diſtance G B deſcrit le
+cercle H BL & menee B L. Il ſera cuident que H L ſera le dia-
+metre,lequel eſtant en angles droicts ſur O, laligne O I tou-
+chera ſeulement le cercle au point H. Or par la precedente l'an-
+gle O H B eſt egal à 'angle H LB: la plus grande ſection donc
+H L B compredra l'angle L egal à langle donné C. Que ſil'an-
+gle eſtoit obtus comme B H I. Nſgroit demontré egal à l'angle
+de ſautre ſection HKB. S'il eſtoit droict, faudro it ſculemænt
+deſcrire vn demy cercle ſur la ligne donneec H B. Lequel com-
+prendroit 'angle droict comme ila e ſté monſtré.
+PROP O-
+
+F N couppent les lignes H C& OB &ẽ
+LIVRE TROISIESME g 25
+PROPOSITIONXXXIIII.
+Coupper la ſection du cercle donneè, prenant vn angle egal
+à vn angle rectiligne donneé. .
+ggi le cercle donnè H B C, & langle donnè
+O, & la ligne touchant le cercle I F au point
+B par la 17. de ce liure. ſur la ligne I B au point
+B ſbit deſcrit l'angle H BI egalà O:iceluy meſ-o
+me ſera egal à 'angle dela ſection plus grande
+H CB, c'eſt à ſcauoir à langle rectiligne Cfar æ
+la 32. de ce liure. De meſme ſi Fangle donné eſt egalà CBI ſe
+demonſtrera l'angle de la ſection CB luy eſtre egal.
+e
+
+p
+PROPOSITIONXXXV.
+Si au cercle deux lignes droictes ſe couppent l'vne l'autre, le re-
+ctangle contenu des deux pieces de l'une, eſt egal au rectan-
+.gle contenu des deux pieces de l'autre.
+Oient deux lignes droictes en vn u.
+cercle H C, OB ſe couppant en I.
+Soit du centreF tirees les perpendicu-
+laires F G, FN, & mences les lignes
+FB, F C, FI. D'autant que F G, &
+
+egalement par la 3. de ce liure & F I les coupe inegalement, le
+rectangle compris de H I, I C auec le quarré de  G ſera egal
+au quarré de G C. Or pource que ar la 47. du 1. les quarrezæ de
+C G& GF ſont egaux au quarré de FC, il s'enſuyura que le re-
+ctangle ſous H I, I C enſemble les quarrezæ de GI GF (ceſt à
+dire le quarré de F I) ſeront egaux au quarré de F C. Ainſi ſe de-
+monſtrera que le rectangle Ous O I, IB auec le quarré de F I
+ſera egal au quarré de F B. Si donc le commun EFT eſt oſté, il
+Scenſuyura le rectagle des pieces de Ivne eſtre egal au rectangle
+des pieces de ſ'autre. Secondement ſi lvne des piæces ſeulement
+eſt couppee inegaleme nt, amſann en angles droicts, æ icelle ſera
+le diametre du cercle. Æt comme on peus recutillir par la derniere du
+second, le rectangle compris des pieces inegales ſera egal au
+quarré de la moitie de F'autre qui eſt couppee egalement. kt ſile
+D
+
+
+ggi- pris hors le cercle vn point comme O duquel 30
+OB, & lautre qui le coupe premieremet par le cen- 2
+tre comme OL C. D'autant que par las. du 2. le
+H ſuyura le commun B Lou LI e
+ELEMENS DEVCLIDS,
+diametre & l'autre ligne ſe couppent inegalement comme HBE,
+C O au point I, le rectangle de HI, I B auec le quarré de I L ſera
+egal au quarré de L B ou L O. Etle rectangle de Cl, 1 O auec
+le quarré de I G ſera egal au quarré de G O. Mais les quarrez de
+L G, G I ſont egaux auù quarré de L I. IIs enſuyura donc que le
+rectangle de C I, I O auec le quarré de L I ſera egal aux quarrezæ
+de G O, G L, ceſtà dire au quarré de L O egale à L B. Si donc
+le quarré commun de L Ieſt oſté, les deux rectangles de H I,
+IB, & de C I, I O demeureront egaux.
+PROPOSITION XXXVI.
+Si dehors le cercle Pon prent quelque point, & diceluy au cercle
+tombent deux lignes droictes, Pune deſquelles couppe le cer-
+cle, & bautre t. touche: Le rectangle contenu de toute la
+coupante & de sa partie dehors priſe entre le point & la cir-
+conference conuexe, eſt egal au quarré qui eſt deſcrit de la
+touchante.- i
+procedent deux lignes, 'vne qui touche le cercle
+rectangle compris de la toute auec F'appoſee, ſcauoir
+O C& de l'appoſce O I, auec le quarré de la moitie
+
+LI(ou L B ſon egale) eſt egal au quarré de la moi- H
+tie & de l'appoſec comme d'vne, ſçau oir LO, & que les quarrezæ
+de OB & de 8 L ſont egaux au quarré de la meſme O L:il s'en-
+ant oſté que le quarré de B O
+ſera egal au rectangle de C O, O 1.
+Poute le ſecond fi la lig ne ne coupe le cercle par le centre com
+me O GH, à laquelle ſoit du centre tiree vne perpendiculaire
+LZ. Il eſt cuident que H G ſera couppee egalement, & ſoit me-
+nee L G. D'autant que par la 6. du 2 le rectangle ſous H O, O G
+aucc le quarré de G Z eſt egal au quarré de O Z, Icur ſoit ad-
+iouſté vn quarré commun Z I. Loisle contenu ſous H O, OG
+auec les quarrez de GZ, ZL (c'eſt à dire le quarré de GL)
+ſera egal aux quarrez de O Z & de Z L (ceſt à dire au quarré de
+O L.) Mais les quarrexz de O B & de B L ſont cgaux au melme
+quarié de O L. Ilsenſuyura donc que les quarrez de O B, & de
+
+]]--
+LIVRE TROISIESM. 26
+B L ſeront egaux au rectangle de H O, O G & au quarré de GI.
+ou B L. Le commun donc eſtant oſté reſterõ: le quarré de OB,
+& le rectangle de H O, O G egaus.
+PROPOSITION XXXVII.
+si dehors le cercle P'on prent quelque point, & dliceluy poins
+tombent deux lignes droites au cercle, deſquelles 'une couppe
+le cercle, & l'autre se repoſe: & ſoit le rectangle contenu de
+toute la couppante, & de la piece prise entre f point & la
+circonference conuexe egal au quarrè deſcrit de celle qui se
+repoſe, celle qui ſe repoſe touchera le cercle.
+Oit le point hors du cercle O duquel procedent o
+deux lignes droites, dontl'vne le coupe comme
+OG H, & ſautre t0be ſeulement ſus iccluy comme
+OB. Soit pris le centre Z, & menees Z B, Z20, &
+du point O ſoit menee la ligne droicte OL qui tou-
+che ſeulement le cercle par la 17. de ce liure, & ſoit
+menee Z L. Dautant que par Phypotheſe le rectangle
+compris ſous H O, OG eſt egal au quarré de O B, & que par la
+precedenie le meſme rectangle eſt egal au quarré de O L icelles
+O B, O L ſeront egales. Et pour ce que les deux coſtez OB, B Z
+ſont egaux aux deux coſteæ O L, LZ & que la baſe eſt com-
+mune, l'angle O B Z ſera egal à ſ'angle droict O L Z pai la S. du
+1.ls. & ſera par cõſe quent droit, & pourtant la ligne OB tombera
+en angles droicts ſur 'extremité du diametre, & touchera ſeule-
+ment le cercle comme on peut recueillir par la16, de ce liure.
+FIN DY TROISIESME LIVRE.
+
+
+A MONSEIGNEVR HENRY
+COMTE DE COLIGNY, BARON
+de Chaſtillon, Admiral de
+Guyenne, &&&
+
+
+
+
+i ONSEIGNEVR, puis que vous n'eſtes
+: . P!.
+è q & moins recognus pour heritier des belles vertus
+ Pere, que pour ſucceſſeur en ſon eſtat  Ami-
+ral de Guyenne: Ie ne dois pas craindre, que
+eſtè agreable: Ceſt pourquoy r'oſe vous dedier ceſte partie de
+mes 'exercices Mathematiques , dont la cognoiſſance eſt außi
+tion, que laffection dont vous les embraſſex eſt louable.
+HonoreXx done s'il vous plaist, Monſeigneur, de voſtre prote-
+qui reluiſoient en deffunct Moſeigneur voſtre
+Q1
+reiettie ce que ie scay luy usir touſiours
+neceſſaire, & Pvtilitè außi euidente au faict de la nauiga-
+ction, & l'eſcrit & l'autheur: Que Ji Pun eſt peu propre à
+vous aider aux suſdites sciences, au moins croyeX que Vautre eſt
+tres. deſireux de vous teſmoigner, quil ſera à iamais,
+MONSEIGNEYR,
+Voſtre tres- humble, & affectionnné
+ſcruiteur. I. ERRARD.
+
+. ⸗ 27
+LE QVATRIESME LIVRE
+DES ELEMENS DEVCLIDE.
+DEFINITIONS.
+Ne figure rectiligne ſe dict eſtre
+inſcripte en vne figure rectiligne,
+quand vn chacun des angles de la
+figure inſcripte touche vn chacun
+coſté de la figure en laquelle elle
+eſt inſcripte.
+
+2. Semblablement auſſi la figure ſe dict eſtre circon-
+ſcripte à la figure, quand vn chacun coſté de la cir-
+conſcripte touche vn chacun angle de l'inſcripte.
+3. La figure rectiligne ſe dict eſtre inſcripte au cer-
+cle, quand vn chacun angle de la figure inſcripte
+touche la circonference du cercle.
+4. Mais la figure rectiligne ſe dict eſtre circõſcripte
+au cercle, quand vn chacun des coſteæ de la figure
+circonſcripte touche la circonference du cercle.
+5. Semblablemet auſſi le cercle ſe dict eſtre inſcript
+en vne figure rectiligne, quand la circonference du
+cércle touche vn chacun coſté de la figure en la-
+quelle il eſt inſcript.
+6. Mais le cercle ſe dict eſtre circonſcript à vne fi-
+gure, quand la circonference du cercle touche vn
+chacun des angles de la figure à 'entour de laquelle
+il eſt deſcript.
+7. Vnc ligne droicte ſe dict eſtre accommodee ou
+enfermee au cercle, quand les extremiteæ d'icelle
+ſont en la circonference du cercle.
+D iij
+
+ELEMENS DEVCLIDIS,
+PROPOSITIONI.
+Aucercle donne, accommoder vne ligne droicte egaleà vne li-
+gne droicte donnee, qui ne soit pas plus grande que le diame-
+tre du cercle.
+Gßirla lin e droicte donnee O moin-
+dre que le diametre du cercle C B. de
+la ligne C B ſoit oſtee vne ligne egale
+à  par l1a 3. du 1. liure & ſoit C L. du
+centre C à la d'iſtance C L ſoit d'eſcript
+vn cercle qui couppera le cercle donnẽ,
+comme aupoint H: ſoit menee CH.
+d'autant que celle cy eſt egale à C L, & C L egale àla meſme O
+par, I'by poihese,  fenſuiura que O ſera egale à CH, laquelle CH
+eſt par ce moyen accommodee au cercle donné. que ſi la ligne
+donnece eſt egale au diametre du cercle donn, nous auons ce
+qui eſt requis.
+PROPOSITIONII.
+
+Dans vn cercle donnè, deſcrire un triangle equiangle ais trian-
+gle donnè.
+Oit le cercle donné N B C& le triangle 6 N H
+donné O L F. ſoit menee la ligne droite
+G N H, en ſorte quelle touche ſeulement le
+cercle, comme au point N: duquel & ſur la
+ligne G N ſoit Qesbric vn angle egal à L, cõ-
+me G NB. ſoit auſſi fait l'angle H N C 3
+egal à angle F, & ſoit menee B C. d'autant que les trois angles I
+d'vn triangle ſont egauls à deux droits, Pangle B N C ſera egal
+à Fangle O. mais l'angle Cen la plus grãde ſection, eſt egal àal'an-
+gle G N B par la3 2 du 3. liure il ſenſuiura donc que l'angle B
+ſera egal à H N C (ceſt à dire à F ſon egal) ainſi donc le trian-
+gle NBC dans le cercle donnè, eſt equiangle au triangle donné.
+PROPOSITION III.
+A lentour Qvn cercle donnè, deſcrire vn triangle equiangle
+au triangl e donneé.
+
+LIVRE QVATRIESME. 25
+Oit le triangle do nné O G F, pour en
+deſcrire vn equiangle a 'entour du cer- à a l H
+cle donné, duquel le centre ſoit K: auquel2 :
+K, ſoit faict vn angle comme NK B,
+egalâ ſ'angle exterieur L G O, & l'angle
+B K C egal à Fautre angle exterieur du
+triangle H F O. ſoient aux trois extremi- A 3 P
+teæ N, B, C, tirees trois lignes touchantes ſeulement le cercle
+MI, IB,P M. dautant que le quadrilatere M NX B peut
+eſtre inſcript en vn cercle aiant deux angles N & B, droits (comme
+on peu recuillir de la 32. du 2. li.) les angſes opoſeæ ſcront egaux à
+deux droits. mais N K B a eſté fait egal al G O: il ſenſuit
+donc que l'angle M eſt egal alangle FG O eſtant ceſtuy auec
+Pexterieur egal à deux droits, nar la 13du. 1. liu. Par ſemblable
+argument nous demonſtrerons les autres angles egaux aux au-
+tres angles: tellement que le triangle I P Meeſt equiangle à O
+GF, & eſt circonſcrit aù cercle donné.
+PROPOSITIONIIII.
+Dans vun triangle donnè deſcrire un cercle.
+: 2
+
+Oit le triangle H B C duquel les deux an-
+gles B & C ſont couppez en deux egalle- N c
+ment par deux lignes qui ſe r encontreront c6- 1
+me en O, duquel point O ſoint tirees les N
+perpendiculaires ſur chacun coſté comme O s
+F, & G, O , icelles ſeront egales par la 4 du 1.8 ︎ c
+luu e eſtant les baſes des quatres triangles, egaux & equiangles.
+ſi donc du centre O à la diſtance O F ontire vn cnde, il tou-
+chera ſeulement les trois coſteæ du triangle comme on peus recueilir
+de la16 du3. liure. .
+PROPOSITIONV.
+Al'entour d'un triangle donnè d'eſcrire un cercle.
+Oit premierement le triangle oxigone H B C, 4
+duquel les deux coſtez (qui ne comprennent
+point l'angle plus aigu) ſoient couppez en deux e t
+egalement cõme en O, L: & d'iceux points ſoient AX
+tirees les perpendiculaires O F, L F & menees F an .
+B, F C. il eſt euident que les deux triangles rectan- -t
+D iii
+
+ELEMENS  DEVCLIDE.
+gles H LE, C L F ſont egaux & equiangles gar la 4 du premier
+liure. H F ſera donc egale à F C, mais H F eſt auſſi cõomune au
+triangle H O F, & ce triangle eſt egal & equiangle au triangle
+B O F. il ſenſuit donc que B F eſt egale à F H, & par conſe-
+quent à F C. ſi donc du centre F, àla diſtance F H on deſcript
+vn cercle, la circonference paſſera par les po ints H B C a l'en-
+tour du triangle. Par ſemblables arguments ſe demonſtreront les
+cercles pouuoir eſtre circunſcrits à l'entour des triangles, ſoit
+rectangles, ambligones ou oxigones.
+PROPOSITIONVI.
+Dans vn cercle donnẽ deſcrire vn quarrè.
+Oicnt tirex les deux diametres du cercle H n
+C, B O ſe coupans en angles droits au cen-
+tre L, & ſoient menees H B, B C, C O, O
+H. les quatre triangles ſont rectangles lſoſceles. O
+egaux & equiangles, & ont leurs baſes egales A
+par la 4 du 3. li. la figure donc H B, C O ſera
+equilatere. mais chacun angle ſur la baſe vault vn demy droit
+comme B C L par la conſtruttion , comme auſſi O C L:il fen-
+ſuiura donc que tout l'angle B C O ſera droit. ſemblable de-
+monſtration ſe fera des autres angles: dont ſenſuiura que H B
+C O ſera vn quarré inſcrit au cerele donn.
+PROPOSITIONVII.
+A bentour dun cercle donne deſcrire un quarrè.
+Ggict les deux diametres H C, B D ſc coup-6  7p4
+pans enangles droits au centre L, du point B 7 N
+ſoit menee en angles droits ſur O B, la ligne G B
+N (ceſt à dire parallele à C H) ſoit auſſi du pointꝰ
+O menee lautre parallele F O K: & des points W
+H & C les autres G H F & N CK paralleles à x
+B O. dutant que les angles qui ſont en L ſont dro its, comme
+auſſi ceux qui ſont en H, 8, C, O, il ſenſuiura que les quatre
+angles G, N, K, F ſeront auſſi droicts par lag 4 du1. Or eſt la
+figure equilatere ayant vn chacun coſté egal au diametre, elle
+ſera donc quarrée deſcrite à Fentour du cercle.
+
+f
+LIVRE QOVATRIESMI. 29
+PROPOSITIONVVIII.
+,) .
+Dans vn quarré donnẽ deſcrire un cercle.
+ꝗ quarré donné a les quatre coſtez coupperz  1 1
+egalem ent, & nienees les deux lignes L H, 7
+F S, elles ſe couperont en G en angles droits &
+ũ
+egalement: car L H eſt parallele & egale al O, F
+OU M B, & F § parallele & egale à M I ou B
+O par la 34 du u.linfes angles rectilignes donc qui ꝑ ,
+ſont en L, F, H, S ſont droits:tellement que ſi on deſcrit ſur le
+centre G vn cercle à Finterualle G L, il touchera ſculement les
+uatre coſtex du quarré ex points L, F, H. S conme on peut enten-
+re par la 16 du 3. ainſi ſera le cercle inſcript au quarré donné.
+PROPOSITIONIX.
+Alentour d'un quarrè donnè deſcrire un cercle.
+
+
+
+ꝗòun. tirex les deux diametres ou' diago-
+0
+nales H C, O E, dautant que les deux tri-
+angles O H E, & O CE ſont iſoſceles, egaux
+& equiangles par la 4du 1.liu, chacun des angles 7 C
+E
+rectilignes qui ſont ſur les baſes vaudra vnd emi
+droit & les angles du centre ſcront droits par la
+32 du I. & les lignes LO, LH, LE, L C
+egales. ſi donc du centre L à l'interualle L O on deſcript vn
+cercle il paiſera parles points O, H, E, C, & ſera circonſcript
+au quarré donné.
+PROPOSITIONX.
+Faire un triangle Iſoſcele, ayant un chacun des angles qui ſont
+en la baſe double à l'autre.
+ge: ropoſee vne ligne droite B H laquelle
+: 9
+parla 1I du 2. li.ſoit tellement coupee en C N .
+que le rectãgle fait dela toute HB & de l'vne -
+m-
+piece H C. & du centre H, à Pinteruale H
+B ſoit deſcript vn cercle B O L, auquel par
+la 1.de ce li. Bir applicquee vnc ligne droite
+l
+387  ︎A
+.
+
+ELEMENS DEVCLIDE,
+egale à C H, comme B O & ſoit menees C O, H O. du trian-
+glſe H C O ſoit deſcript le cercle H C O L par las de ce li. puis
+que du point B hors le cercle, la ligne droite BH le coupe & BO
+tombe ſur iceluy, & que le rectangle de H B, B C eſt egal au
+quarré de C H (ou B O ſon egaleil ſenſuiura que la ligne droite
+B O touchera ſeulemẽt le cercſe H C O L par la37 du 3li. 'angle
+donc C O B ſur la ligne touchante le cercle, ſera egal à l'angle
+O HC quiet en la ſection alterne par la32. du3. li. ſoit main-
+tenant adiouſté le commun C O H: les deux B O C & C O
+H ſeront egaux aux d eux C H O & C OH. mais l angle exteri-
+cur O CB eſt egal aux interieurs C H O & C O H par la 312.
+du 1. li. il ſera donc auſſi egal au tout B O H, & par conſequet
+àl'angle H B O qui luy eſt egal, eſtant le triangle H B O iſoſcele,
+& les lignes C O, O B ſeront egales comme ſubtendentes an-
+gles egaux, mais B O a eſté poſee egale à C H C O ſera donc
+auſſi egale àla meſme, & le triangle H C O ſera iſoſcele, telle-
+ment que l'angle ſur la baſe, ſcauoir B O H ſera double àl'angle
+B H O, comme auſſi ſera l'autre angle O B H.
+PROPOSITIONXI.
+Dans vn cercle donne, deſcrire un pentagone equilateral
+& equiangl e.
+Ggit inſcript au cercle vn triangle N C
+N
+O comme il a eſté deſcrit en la prece- P
+deẽte, & ſoict les angles de la baſe coupez B L
+en deux egalement par lignes finiſlans en
+la circonferenee comme C L, OB, &
+menees NB, B, C, CO, OL, LN,il ︎2 b
+eſt cuident que les angles O C L, L CN, 6
+NOB, B OC, CNO eſtans egaux conſiſteront ſur ſections
+decirconferẽces egales, cõne on gust recucilir tant de la 21. que 26. du
+3. li. Or ces cinq angles ſont ſur ſections qui cõprennent toute
+la circonference, le pentagone donc N B CO L ſera equilateral
+& cquiangle. . :
+PROPOSITIONXII.
+Alentour d'un cercle donnè deſcrire un pentagone equilateral
+& equian gle.
+
+LIVRE QVATRIEM 30
+O3ct au cercle donne pris cinq points deſi-
+gnans les angles du pentagone NEM L
+cercle par la preceaẽte, & du cẽtre ſoict tirez les, -
+ſemidtametres à chacun point cõme FN, F I
+B, F C, F O, F L. ſoict a chacun d'ceux points b
+tirees en angles droits & touchans le cercle
+ſur les demidiametres les lignes, comme H B K611
+K.XCI, IOM MLG, GNH, & menees auſſi FK, FI.
+d'autant que le coſté F B eſt egal au coſté F C, & que l'angle
+F BK eſt egal aF CK Ceſt à dire droit par la construction) le
+quarré de F K eſt egal au iwarté de F B & B K, cõme auſſi aux
+quarrez de F C, CK: par la 47 du 1. li. rl'angſe B F C eſt egal
+à C F O (car il comprent circõference egale par la cõſtruction)
+Ie quadrilatere donc B FC K ſera equiangle & egal au quadrila-
+tere C F O I, & la moitie à la moitie, & les lignes au lignes.
+ſenſuyura que K C ſera egale à C I& C I a IO. & ainſi Tem-
+blablement des autres, tellemẽt que le pentagone ainſi circonſcrit
+ſera equilatetal & equiangle.
+PROPOSITIONXIII.
+Dans vn pentagone equilateral & equiangle donné,
+deſcrire un cercle.
+99ule pentagone donnè N B C O L deſ-
+crit cõme en la precedente. & ſoict dluiſex
+les angles en deux egalement par lign es qui ſe v
+rencõtreront au centre F, duquel ſoict tirces les
+perpendiculaires ſur chacun coſté qui ſeront
+egales comme ll a eſté monſtré. il ſera euidẽt
+que le cercle deſcrit ſur ce centre, à la diſtance
+de F G paſſera par les extremitez des perpendiculaires, & tou-
+chera ſculement les coſtéæ du pentagone donne comme on peut re-
+cueillir de lais. du3, liure.
+PROPOSITIONXIIII.
+Abentour dvn pentagone equilateral & equiangle
+donnè, deſerire vn cercle.
+X
+
+
+
+K
+S clbſ cue  eentn B C D L cquilatere & equiangle,
+du quel ſoit trouue ſe centre comme a eſté dit en la precedente,
+A
+
+ELEMENS DEVCLIDE
+& diceluy tirces les lignes ſur chacun angle
+qui ſerõt egales comme il a eſté monſtié en la 12 de
+ce li, (car tous pentagones equilateres & equi- E
+angles ſont ſemblables & cquiangles entr'eux)
+& loit du cẽtre à P'interualle de P'vne des lignes
+r; D
+cuident qu'il paſſera par des extremitez d'icelles lignes. & par
+conſequent par F'extremité des angles dup entagone, & ainſi il
+ſera circonſcrit à iceluy pentagone.
+
+PROPOSITION XV.
+Dans vn cercle donnè, deſcrire un hexagone quilaterale
+& equiangle.
+ggitle cercle donnè B O D L H, duquel b
+le centre ſoit G. ſoit mené le diametre H
+G D. du point D aàl'interualle D G ſoit deſ-
+crit vn cercle (qui ſera egal à Fautre eſtant ſur
+meſme interualle ) ſoiẽt menees O G iuſques
+àla circonference F, & L G iuſques à la cir- p ij
+cõference B, & mences auſſi H B, B O, OD, DL, LE, FH.
+O par la. 1. du premier liure les deux triangles G O D, GD L ſont
+egaux equiangles & equilateraux, & tous les ſix triangles ſont
+iſoſceles, ayãs leurs coſteæ egaux enſemble par la definition du cercle
+& les trois angles de chacun triangle ſont egaux à de ux droits.
+mais la ligne L G tombe ſur la ligne F O & fait les angles L G
+O, F G L egaux à deux droits, & l'angle L G O vaut les deux
+angles du triangle L G D. il ſenſuyura donc que F G L ſera egal
+au troiſieſme. Et le triangle F G Layant les deux coſtex egaux
+aux deux coſtez, & angle cõpris d'iceux egalà l'angle de ſautre,
+aura la baſe egale à la baſe par la 4. du 1.lh. Semblablement ſe de-
+monſtreront les autres coſtez eſtre egaux enſemble.
+
+PROPOSITION XVI.
+Dans vn cercle donneé deſcrire vn quindecagone
+equilateral & equiangl e.
+n
+
+. LIVRE QVATRYES ME it
+Oit au cercle donné inſcrit vn pentagone u
+H B LF G par la 1n. de ce liure.& vn triangle
+cquilateral H C O par la 2. du meſm. Ayans - o
+tous deux leur angle:en vn meſme point H.
+d'autant que la ligne droire H C ſubtend la
+troiſieſme partie de toute la circõference (ceſt c o
+à dire les cinq quinzieſmes) & les deux coſter 2 .
+HB, B L du pentagone en ſubtendet ſix quin-
+zieſmes: ileſt euident que l'arc C L, entre l'angle du triangle &
+l'angle du pentagone, ſera vne des quinzieſmes parties de toute
+la circonference. Soit donc tiree la ſigne droite C L, & adaptecs
+ar la I. de ce liure, au cercle autres quatorze lignes droictes, dont
+chacune ſoit egale à CL: puis que les lignes droites egales ſub-
+tendent circonferences egales par la 28. du 3. lls'enſuyura que la
+figure du quinzangle equilatere & equiangle ſera inſcrite au
+cercle donné.
+FINDV QVATRIESME LIVRE.
+
+-
+︎
+.
+.
+-
+aA
+
+
+&Æ P..] -
+A MESSIRE ODET DELA
+NOVE, GENTILHOMME
+ordinaire de la chambre du Roy,
+Capitaine de cinquante hommes
+d'armes de ſes ordonnances, Gou-
+uerneur de Montelimart, &c.
+0NSIEV R, Si ie n'eſtoye aſſeurè que vous
+︎ ẽ cognoiſſex V'utilite, & aimeẽ la beautẽ des
+a 9 ſciences Mathematiques , ie mefforceroye à
+
+
+vous repreſenter l'un, & à vous louër l'au-
+tre, mais voyant par la peine que vous y em-
+.ployeX, qu'il n'eſt beſoin de vous y encoura-
+ger dauantage, Paime mieux vous en procurer P'acquiſition par
+mon ſeruice, que de vous en recommander la perfection par
+mon langage. Et ceſt à quoy ie viſe par l'offre que ie vous fay
+de ceſt eſcrit, ou à vous donner adreſſe en ceſt eſtude, ou à vous
+rendre teſmoignage de loaffection que i'ay a vous demeurer,
+MONSIEVA,
+Tres-humble, & aſfectionnné ſeruiteur.
+LERRARD.
+
+LIVRE CINQVIESME DES
+: ELEMENS DEVCLIDE.
+DEFINITION PREMIERE.
+
+52ſ&︎ Artie eſt vne grandeur moindre
+& W qui eſt priſe de la plus grande.
+6 W Multiplice eſt vne grandeur plus
+à ︎V413p99 grande que la moindre quand elle
+l 166 eſt meſuree de la plus petite.
+3. Raiſon eſt vne habitude de deux
+grandeurs de meſme genre l'vne à Pautre ſelon la
+quantité.
+4. Les grandeurs ſont dites auoir raiſon 'vne à Pau-
+tre quand multiplices elles ſe peuuent exceder l'vne
+l'autre.
+5. Les grandeurs ſont dites eſtre en meſme raiſon
+quand la premiere à la ſeconde eſt comme la troiſieſ-
+me à la quatrieſme, & quand les equemultiplices de
+la premiere & troiſieſme excedent, ſont egaux, ou
+deffaillent aux equemultiplices de la ſeconde & qua-
+trieſme en quelque multiplication que ce ſoit priſe
+I'vn apres l'uutre. IE
+6. Proportion eſt vne ſimilitude de raiſons.
+7. Les grandeurs qui ont meſme raiſonſont pro-
+portionnelles.
+S. Quand des equemultiplices, celui du premier ex-
+cede celuy du ſecond, & que le multiplice du troi-
+ſieſme(quelque multiplication que puiſſe eſtre) n'ex-
+cede le multiplice du quatrieſme, lors le premier aun
+ſecond eſt dict auoir plus grande raiſon que le tiers
+au quart.
+
+a EB
+9. Proportion eſt conſtituce en trois quantitez pour
+le moins.
+10. Quand trois grandeurs ſont proportionnelles,
+la premiere eſt dite auoir à la troiſieſme la raiſon
+doublee de celle de la ſecõde. Quand il y ena quatre,
+la premiere à la-quatrieſme eſt dite auoir la raiſon
+triplec de celle de la ſeconde: Et touſiours d'vn meſ-
+me ordre vne plus iuſques à ce que le nombre des
+choſes proportionnecs ſoit acheué.
+1I. Les grandeurs de ſemblable raiſon ſont dites
+quand les antecedens ſont aux antecedẽs comme les
+conſequents aux conſequents.
+12. Raiſon changee eſt l'âcception de l'antecedent à
+lantecedent comme du conſequent au conſequent.
+13. Raiſon conuertie eſt l'acception du conſcquent
+comme de l'antecedent, à 'antecedent comme con-
+ſequent.
+14. Raiſon compoſee eſt l'acception de l'antecedẽt
+auec le conſequent, comme vne meſme choſe au
+meſme conſequent.
+15. Diuiſion de raiſon eſt P'acception de l'exceæ (du-
+quel l'antecedent excede le conſequent) aumeſme
+conſequent.
+16. Cõuerſion de raiſõ eſt l'acceptiõ de l'antecedent,
+à l'excez duquel 'antecedent excede le conſequent.
+17. Raiſon egale eſt, pluſicurs grandeurs eſtans d'vn
+coſté & autãt de Pautre en multitude, priſes de deux
+en deux en meſme raiſon, quant aux premieres gran-
+deurs la premiere grandeur eſt à la derniere comme
+anx ſecondes grandeurs la premiere grandeur eſt à
+la derniere: ol autrement eſt l'acception des extre-
+mes par ſubſtraction des moyennes.
+H H Proportion
+
+LIVRE CINQVIESME. 33
+18. Proportion ordonnee ou ſelon ordre, eſt quand
+Pantecedent eſt au conſequent d'vn coſté comme
+l'antecedent eſt au conſequent de l'autre, & que l'vn
+des conſequents eſt à quelque autre choſe comme
+l'autre conſequent à quelque autre choſe.
+19. Proportion meſſee ou ſans ordre eſt quand trois
+grandeurs ſont d'vn coſtéè, & autant d'autres gran-
+deurs en nombre, de autre, & que aux premieres
+l'antecedent eſt au conſequent, comme aux ſecondes
+l'antecedent eſt au conſequent: & que au premieres
+le conſequent eſt à quel que autre choſc, ainſi aux ſe-
+cõdes vne autre choſe ſoit de meſme à l'antecedent.
+Dautant que les douTe propoſitions suyuantes ſont aſſex co-
+gneuẽs d'elles meſmes, & qu'elles Jont pluſtoſt principes &
+communes ſentences que theoremes, ray penſc ſuffire de les in-
+terpreter, & non demonſtrer, craignant que trop long diſceurs
+n app ortaſst de l'obscurite pluſtoſt que de la facilitè
+PROPOSITION I.
+S'ibya tant de grandeurs qu'on voudra qui soient equemultipli-
+ce d' autant de grandeurs vne chacune à vne chacune, com-
+me l'une ſera multiplice de l'vne, ainſi les toutes seront mul-
+tiplices tes toutes.
+Odient les grandeurs propoſees B, C, O & C, & que
+S premiere contienne en elle trois fois la toiſteſ-
+me, &la ſecõde contienne trois fois la quatrieſme. Les
+deux premieres jointes con tiendront autãt de fois les
+troiſieſme & quatrieſme jointes, & ſeront comme trois
+à vne.
+a
+oOov
+B G
+PROPOSITION II.
+sila premiere eſt equemultiplice de la seconde comme la troi-
+ſieſme de la quatrieſme, & que la cinquieſme seit de meſme
+I.
+
+ELEMENS DLVCLIDI.
+equemultiplice de la ſeconde comme la ſixieſme de la qua-
+trieſme, la compoſee de la premiere & cinquieſme sera eque-
+multiplice de la ſeconde, comme la troiſieſme auec la sixieſ-
+me de la quatrieſme.
+GQut la premiere B C contenant la ſeconde G autantꝰ
+de fois comme la troiſieſme H K contient de fois la 7r
+quatrie ſme Z. Et que la cinquieſme C O contienne au--
+tãt de fois la ſeconde G cõme la ſixieſme KT cõtient de
+fois la quatrieſme Z. La compoſee BO de la premiere e -
+& cinquieſme contiendra autant de fois la ſeconde G, r
+comme la compoſee H T de la troiſieſme & ſixieſme . : [
+contiendra de fois la quatrieſme Z.  6 Hæ
+PROPOSITION III.
+si le premier eſt equemultiplice du ſecond comme le troiſieme
+du quatrieſme, & sfoiet pris des equemultiplices du premier
+& dis troiſieme: de ceux là ainſi pris Pun ſera equemulti-
+plice à bautre, ceſt à ſoauoir Pun au ſecond & l'autre au
+quatrieſme.
+Ila premiere grandeur G contient autant de
+fois la ſeconde B, que la troiſieſme O contient
+a]
+de fois la quatrieſme H: & que C Z contienne
+autant de fois la premiere G comme P T contient r
+de fois la troiſieſme O, C Z contiendra auſſi au- - i t
+CG B PONH
+tant de fois la ſe onde B, comme P T contiendra
+de fois la quatrieſme H-
+PROPOSITIONIIII.
+Si le premier à meſme raiſon au ſecond que le troiſicſme au qua-
+trieſme, les equemul tiplices du premier & troificſme aux
+equemultiplices dis second & quatrieſme ( quelque muilti-
+3sicattan que puiſſe eſtre) auront vne meſme raiſon l'vn à
+autre.
+
+LIVRE CINQVIESME.
+3
+Ila premiere grandeur Ceſt àla ſeconde B
+Sete la3G àla a O, & que H contiennc au-
+tant de fois C, comme T contient de fois G, & I
+PTGOT
+que P contienne autant de fois B cõme Z con-
+tient de fois O: H ſera à Pcomme T à2.
+PROPOSITION ii
+Si vne grand eur eſt equemultipli ice a vne autre grandeur com-
+l
+me la retranchae de la retranchee,la reſeec ſera equemultipli-
+ce à la reſtee comme la toute à la toute.
+i CB contient autant de fois G O, comme l'oſtee CH c .
+Signc de fo is Poſtee 6æ: La reſtec H B contiendra
+autant de fois 'autre reſtee Z O, comme la toute conte-
+noit la toute.
+PROPOSITION VI. ꝰ
+o
+Si deux grandeurs ſant equemultiplices de deu grand curs, -
+quelques retranchees equemalt ipl ces des tac mes : li s reſes
+außi ou ſcront cgales aux meſmes ou ſeront euemultiplices
+des meſmes.
+S. C B contient autant de fois H comme GO con-c
+tient de fois Z, & l'oſtee CT contient autant de fois l
+BI
+H, comme lautre oſtee G P contient de fois Z: Les re-
+tiendront pluſicurs fo is cgalem ent. m
+ſtes TB& P O, ou ſeront egales à H & Z, ou les con-
+I.
+PROPOSITIONVII.
+Les grandeurs egales ont vnie meſme raiſon à une, & vnc a Une
+meſme raiſon à deux egales grandeurs. -
+i O eſt cgale à B, O aura meſine raiſon à C, comme
+B à la meline C. Et auſſi C aura meſme raiſon à que
+àb.
+E ij 6 C b
+
+ELEMENS DEVCLIDE,
+PROPOSITIONVIII
+De deux grandeurs inegales, la plus grande a plus grande rai-
+ſin à vne meſme que la plus petite: & vne meſine a plus
+grande raiſon à la plus petite que la plus grande.
+D e deux grãdeurs inegales C & G, ſoit C la plus gran-
+de, & ſoit vne tierce comme O. C aura plus de raiſon
+à0 queGa la meſme O. Ceſt à dire que C ſera plus gran-
+de au regard de O que G au regard de la meſme O.
+C GO
+PROPOSITIONIX.
+Les grandeurs qui ont une meſme raiſo à ine meſme grandear,
+ſont egales entre elles: & les grãdeurs auſquelles vne meſme
+a maſòe raiſon, ſont egales.
+G O eſt à C comme B âàla meſme C, O & B ſcront
+egales. Et ſi Ceſtà O comme la meſme C eſt à B, iccl- J
+les O & B ſeront egales.
+CH
+PROPOSITIONNX. 8
+Des grandeurs qui ont raiſon à vne meſme grandeur, celle qui a
+plus gijne raiſon eſt la plus grande. Et la grandeur à la-
+quelle la meſme aurâ plus grande raison ſera la plu petite.
+g O eſt plus grande au regard de C que B au regard
+de la meſme C, O ſera plus grande que B. Et ſi la meſ-
+me C eſt plus grande au regard de B que au regard de
+O, B ſcra plus petite que O
+PROPOSITIONXI. 6 C b
+Les raiſons qui ſont de meſme à une, sont de meſme entre elles.
+I la raiſon de H à B eſt comme celle de C à2
+& ſi celle de G à O eſt comme la meſme de Cà .
+0
+Z.Les raiſons de Hà B, & de Gà O ſeront de
+meſme. i
+ B G 6 Cu
+
+LIVRE CINQVIEME. 35
+PROPOSITIONXII.
+Si tant de grandeurs qu'on voudra ont proportion , comnte bPvne
+des antecedentes ſera à l'une des conſequentes,
+ainſi seront toutes les antecedentes à toutes les
+conſequentes.
+I la raiſon de B à F eſt comme de C à G, & O à
+H, les trois antecedentes conjoinctement B CO B C O FG H
+ſeront aux conſequentes conjoinctement comm B F.
+PROPOSITIONXIII.
+Si la premiere à la ſeconde a meſme raison que la troisieſme à la
+quatrieſme, & la troiſieſme à plus grande raison à la qua-
+trieſme, que la cinquieſme à la ſixieſme: la premiere außi au-
+ra plus grande raifon à la seconde que la cinquieſme à la si-
+xieſme.
+gGę- G premiere à la ſeconde B cõme la troiſieſme
+C à la quatrieſme D, & que la raiſon de Cà D
+ſoit plus grande que celle de la cinquieſme H àla ſi-
+xieſme F. Dautãt que les raſons de G B, & C D ſont
+de meſme, & que la raiſon de C à D eſt plus grande
+que celle de H f, ils'enſuiura que la raiſon de Gà6 EB CDH F
+E ſera auſſi plus grande que la meſme de H à F par la 11. de ce liure.
+PROPOSITIONXIIII.
+Si la premiere a meſme raiſon à la ſeconde que la troisieſme à la
+quatrieſme, & que la premiere ſoit plus grande que la troi-
+ſieſme, la ſeconde außi sera plus grande quie la quatriesme:&
+ſi egale, egale; & ſi plus petite, plus petite.
+GeQuq à B comme Caà D. Si Geſt plus grande que :
+C; 8 ſera plus grande que D: Car puis que G eſt plus
+grande que C elle aura donc plus grande raiſon aB
+que la meſme C par la 8. de ce liure. Mais comme G à B
+amſi Cà D: C aura donc plus grande raiſon à D que à
+B. Dont S'enſuyura que B ſera Plus grande que D, par la ę B C
+E il
+ . Sm I
+E M
+49
+94-
+.
+-A
+
+ELEM NS DEVCLIDE.
+2 pattiede la 10 ce ce liure Etſi la premiere eſt plus petite, la qua
+trieſme ſera auſſi plus pet.ite, & ſi cgale, egale par les meſmes rai-
+ſons.
+PROPOSITIONXV.
+Les grandeurs qui ſont meſmes parties des leurs equemultiplices,
+ont vne meſme raiſon priſes comme elles ſe reſpondent mutuel-
+lement.
+ꝗgi-t K L partie deK O& B H partie de BC & que OK c6- x
+tienne autant de fois K. ,comme : B contient de fois B
+B H. Dautant quilſe pent dirc ainſi, comme KL I'vne des.
+antecedentes eſt à B H l'vne des conſequentes, ainſi ſont H
+toutes les antecedentes, ſſauoir OK a toutes les conſe-
+quentes C B, par la 12. de cestuy. Ils'enſuyura que comme
+OKaà CB,ainſi LKà HB. 58
+RPOPOSITIONXVI.
+S1 quatre grand eurs ſont proportionnelles, elles le ſeront außi
+entre elles l'vne apres P'autre.
+COit O à B comme  à C. Dautant que par la 12. de
+UJce liure toutes les antecedentes ſont à toutes les conſe-
+quentes comme l'vne des antecedentes à l'vne des conſe-
+quentes: ſoit changé l'ordre en ceſte ſorte: comme O pre-
+miere eſt à B 3.ainſi G 2. eſt à C 4. Lors O & G ſeront an  b &.
+tecedentes & B C conſequentes. Les antecedentes en-
+ſemble O G ſeront aux conſequentes enſemble B C comme O eſt
+à B ou G à C. O ſera donc à G comme B à C, Et par conſequent
+ſeront ſpar raiſon changee) proportionnelles en ceſte ſorte, cõme
+O eſt à B, ainſi G à C, & comme O eſt à G ainſi B à C.
+PROPOSITIONXVII.
+Si les grandeurs compoſces ſont proportionnelles , icelles diuisces ſe-
+ront auſp proportionnelles.
+GRundee grandeurs compoſées ſcauoir H B compoſce de HK,
+KB, & CO compoſee de CZ, ZO, & ſoit comme la toute
+Hb a ſa partie BK, ainſi la toute C O a ſa partie O Z. Ie dy que HK
+
+LIVRIE CINQVIESME 36
+eſtàK B comme CZà ZO. Car ſi la ligne C O n'eſt b
+coupec au point Z en meſme proportion que H B, ſoit 0
+en vn autre s'il eſt poſſible cõme en Gilors les deux ante-,
+cedentes conjointementſceſt à dire H B) auront telle z
+raiſon aux conſequentes conjoinctement(C O) comme G
+B K à O G. Mais la toute H B eſt poſce à B K comme la
+toute C O à O Z: & par la precedente, comme H 8a O ſ.
+Cainſi B K à O Z: dont s'enſuyura que O Z ſera egale
+à O G (ceit à dire la partie au tout) ce qui eſt abſurde. si donc
+les grandeurs compoſ ees, &c.
+PROPOSITIONXVIII.
+Si les grandeurs diuisces ſont proporcionnelles, icelles cum-
+poſees ſeront außi proportionnelles.
+Oient quelques grandeurs diuiſees & proportion- n
+i comme H , & CO diuiſecs en P, K: & ſoit
+comme H V à P B, ainſi CK à KO. Ie dy que icelles
+compoſees ſont comme H B à H P, ainſi C O à CK. S'i Æ
+n'eſt ainſi, ſoit s'il eſt poſſible H B à H P comme C O 4
+vne plus grande que UK, c'eſt à ſcauoir C G. D'autant
+ue les grandeurs cõpoſees H 8 à HP ſont comme C O B6
+à CG: icelles par la precedent eſtant diuiſces H BAH
+ſeront comme C O à CG. Mais comme H 8 à H P ainſi a eſte
+ſuppoſee C O à CK: il senſuyuroit donc que comme C o a C
+K ainſi C O à CG, & que la partie C K ſeroit egale au tout C
+G, ce qui eſt abſurde. Si don, &c.
+PROPOSITIONXIX.
+Si le tout eſt au tout comme le retranchè au retranche , le reſte
+ſera außi au reſte comme le tout au tout.
+GQſin deux grandeurs H B, CO. & comme H B 1
+eſt & C O, ainſi ſoit la retranchee HP à la retrãchec
+CXK. Ie dy que la reſtee P B eſt à la reſtee Ko comme p
+H B à C O. Dautant que les quatre lignes H B, CO,
+HP, CK, ſont proportionnelles, il ſera comme H B à
+HP ainſi CO à CK par la i6, de ce liure. Parla 17. de ce
+meſme ces meſmes grandeurs ainſi compoſces & pro- B
+porionnelles ſeront de meſme eſtant diuiſees. Comme
+c tout H B eſt au tout C o, ainſi donc ſera Poſtee à loſtee, &
+la reſtee à la reſtec.
+O
+E iiij
+
+ELEMENS DEVCLIDI,
+PROPOSITIONXX.
+silya tant de grandeurs quwon voudra, & autres grandeurs
+en meſme numbre, les deux priſes en meſme raiſon: & que
+en raiſon cgale aux premieres la premiere ſoit plus grande
+que la derniere: aux ſecondes grandeurs außi la premiere ſe-
+ra plus grande que la dermiere; & ſi egale, egale; & ſi
+mondre, moindre.
+Oent trois grandeurs H B C, & antres trois
+grandeurs G O F ayans raiſonl vne a l'autre de
+deux en deux, ſſauoir comme H eſtàâ B, ainſi Gà
+O, & comme B à C amſi Oà F. Dautant que par
+la 8. de ce liure H à plus grande raiſon à 8 que C
+à la meſme B (H eſtant ſuppoſee plus grande que i B  6 F
+C) & aue par la raiſon conuertie comme Ceſt à
+B, ainſi F à O, & comme B à H, ainſi O à G: il s'enſuyura que
+G ſera plus grande que F. Et ſi H eſt egale à C, G ſera egale à E,
+& ſi plus petite, plus petite.
+PROPOSITIONXXI. -
+I'ilya trois grandeurs, & autant d'autres priſes de deux en
+deux en m.ſme raison, & que leur proportion ſoit ſans ordre,
+& que en raiſon egale la premiere ſoit plus grande que la
+tro ſieſme, la quatrieſme außi ſera plus grande que la ſi-
+xieſme: & ſi egale, egals, 9 mo:indre, moindre.
+C gient trois grandeurs H B G, & autres trois
+grandeurs CF7., & ſoit comme Ha B, ainſi
+FàZ2, & commen à G ainſi C à T piiſes de deux
+en deux, Sila premiere H est plus grande que la
+troiſieſme G, la quatiieſme C ſera auſſi plus gran-
+de que la ſixieſme Z. Dautant que G eſt plus pe-
+tite que H elle aura moindre raiſon à B que H à
+la meſme B. Or par la raiſon conuertie, comme G à B ainſi F à
+C, La raiſon donc de Fà C ſera moindre que de Fà Z (eſtant
+celle- cy de meſme à la raiſon de Hà  B. Dont s'enſuyura que la
+4. C ſera plus grãde que la 6. Z. var meſmes raiſons on demon-
+ſtrera ſila . eſt egale ou plus petite, l'autre eſtre de meſme.
+)
+H B G C F2
+IQ.M
+
+LIVRE  CINQVIESMI. 37
+PROPOSITIONXXII.
+sil ya tant de grandeurs qu'on voudra & autant doautres,
+priſes de deux en deux en meſme raiſen, & que la propor-
+tion d'icelles soit ſelon ordre, icelles en raiſon egale ſeront
+proportionnelles.
+Oient quelques grandeurs H B G, & autant
+drautres grandeurs O FZ proportionnelles
+de deux en deux, comine H à B ainſi Oà F, ſf
+comme B à G ainſi f à Z. Si H n'eſt à G com-
+me O à Z. ſoit aux antecedentes adjouſtee vne L
+quatrieſme l, & ſoit comme H à B ainſi GàI. æ8 G I ò PæÆL
+Lors les quatre ſeront proportionnelles, & meſme en raiſon
+changéc par la 16. de ce liure H ſera donc à G comme R à I. Soit
+maintenant aux conſequentes adjouſtee L, & ſoit comme O à
+F,ainſi Zà L par la meſme 16 O ſera à Z cõme F à L: or les quatre
+anteccedentes ſont en meſme ordre & proportion que les con-
+ſequentes par 'hypotheſe: H ſera doncâà G comme O42.
+PROPOSITIONXXIII.
+s'il y a trois grandeurs & autant dautres grandeurs priſes de
+deux en deux en meſme raison, & que la proportion d'ucel-
+les ß ſans ordre, icelles en raison egale ſeront proportion-
+nelles.
+Qient trois grandeurs O P F & trois autres i
+grandeurs KH B, & ſoit leur proportion
+perturbee ou meſſlee, ſcauoir, comme :
+O à Painſi Hà B, & comme PàF, ainſi Kà
+H. Si K n'eſt à B comme O à F ſoit poſee la i
+grandeurC, & ſoit comme Paà F ainſi B à C. K
+ſera donc à H comme B à C, & ces quatre ſerõtò PF KHB C
+proportionneles, & par conſequent comme Kaà8B, ainſi H à C
+par I. 16. de ce liure, Or H eſt à C comme Oà Fjar la conſtruction.
+K ſera donc à Rcomme OàF.
+
+ELEMENS DEVCLIDI,
+PROPOSITION XXIIII.
+Si le premier au second a meſme raiſon que le troiſicſme au qua-
+trieſme, & que le cinquieſme ait meſme raiſon au ſecond,
+que le sixieſme au quatrieſmne, außi le premier & cinquieſ-
+me enſemble auront meſme raiſon au ſecond, que le trorſicſme
+& ſixieſme enſemble au quatrieſme.
+g9 la premie re grandeur CO iala ſeconde . P
+B, comme la troiſſieſme L N a la quatrieſme
+S, & la cinquieſme O F à la meſme B, commæ l
+la ſixieſme N P à la quatrieſme s: Ie dy que la
+compoſee de la : & 5. ſ5auoir C F elt à la .
+B comme la 3. & 6. ſçauoir L Pà la 4. S. Ce
+qui ſe cognoiſtra en adjouſtant aux anteceden- C IBG IÆ
+tes la grandeur G egale à O F, & aux conſequentes H egale à
+NP. Car comme COaà B, ainſi INà S, & comme Bàn ipar
+conuerſi on de raiſon) ainſi S à H. Maintenant C aà G ſera
+comme L N à H par la2. dccc liure. Mais pa⸗ la 18. eſtans com-
+poſees elles ſeront comme F C à C O, ainſi PLà L N. Soit de-
+rechefadjouſtec I (egale à C O)cntre la premiere & ſeconde, &
+entre la 3 & 4. K egaſe à LN. Lors comme F Cal, ainſi P Là
+àK, & comme I à B,ainſi K à S. Et par la 22. la compoſce F C
+ſera à B comme la compoſec P L à S.
+PROPOSITION XXV.
+Si quatre grandeurs ſont proportionnelles, la plus grande & la
+plus petite sont plus grandes que les deux autres.
+: Sient quatre grandeurs proportionnelles comme E
+H Bà G D ainſi p à Z.Soit H B la plus grande, de
+laquelle ſoit oſtée H T egale à P, & de G D ſoit,
+oſtè G I egale à Z. Il ſera comme H B àH T, ainſi
+GD à GI: & par la 19. de csſliure la reſtée T B àl I
+Diſera de meſme. T B ſcera done plus grande que l [
+D. Soit de T B couppee T C egale à I D. Mainte-  & b .
+nant H C contient P & I D: les grandeurs donc
+H C & Z ſont egales à P& G D. Que ſi CB eſt adjouſtee,
+la grandeur H B & 2 ſeront plus grandes que GD&P.
+Orvv
+à
+FIN DV CINQVIESME LIVRE.
+
+
+POTIER, CHEVAL IER,
+Baron de Treſmes, &c.
+
+
+
+
+ORSIEVR, ne me voyãt autre moyen
+en main pour accomplir la promeſſe
+Vdont ie vous ſuis oblige: 'ame micux
+aduouër la debte par ce petit eſcrit que
+ã ie vous offre, que den differer la re-
+Veognoiſſance tant que ie ſois si heureux
+S
+it -mn que de m'en pouuoir acquitter par vn
+4W
+
+W
+n
+meilleur ſeruice: Ie scay außi que les eſprits genereux comme le
+voſtre, eſtiment qu'il n'eſt moins ſeant de receuoir ioyeuſement
+choſes petites, que d'en donner liberalement de bien grandes.
+Receue? donc ce liuret, ſi ce neſt pour ſon merite, au moins pour
+le suiet qu'tl traite, dont vous n'eſtes moins curieux que ie ſuis
+& ſeray toute ma vie deſireux demeurer,
+1..
+MONSIEVR,,.
+Voſtre humble & affectionnè ſeruiteur
+I. ERRARDP.
+i
+
+LE SIXIESME LIVRE DES
+ELEMENS DEVCLIDE.
+DEFINITIONS.
+Es figures rectilignes ſemblables
+sot celles qui ont les angles egaux
+aux angles vn chacun au ſien, & les
+coſtez au long des angles egaux
+proportionnaux.
+Les figures reciproques ſont cel-
+les quand en l'vne & en Pautre les antecedents &
+conſequents ſont en certaine raiſon.
+3. Vnc ligne droicte eſt diuiſee entre les deux ex-
+tremes, c'cſt à dire par la moyenne & extreme raiſon,
+quand la toute eſt au plus grand ſegment , Comme le
+plus grand ſegment au moindre.
+4. La hauteur d'vnę chacune figure, eſt la perpendi-
+culaire brocedant du ſommet de la figure iut la baſe.
+5. La raiſon des raiſons ſe dit eſtre, quand les quan-
+titeæ des raiſons multiplices entre elles produiſent
+quelque raiſon.
+G. Vn parallelogramme eſt dit deffaillit & manquer
+d'eſpece à vn parallelogramme ſemblable donné,
+quand il eſt appliquèé à quelque ligne droicte qu'il
+ne la peut ocuper entierement, & sy trouue de defaut
+vn parallelogramme ſemblabled vn parallelogrãme
+donné: Et exceder d'eſpece eſt quand 1l excede la li-
+gne devn parallelogramme ſemblable a celuy donnè.
+
+PROPOSITION I.
+res rriangles & parallelogrammes qui ſont sous vne meſme
+hanteur, ſont l'un à Pautre comme leurs haſes.
+
+LIVRE SIXIRSME
+]ꝗien premierement les triongles C GD &
+D G H ſur les baſes C D, D H & en meſme
+hauteur D G. ic dy que l'vn des triangles H G
+D eſt àl'autre C G D cõme la baſe H D àla ba-
+ſe CD. Car ſoient les deux baſes coupées ega-
+lement enK, I& tirées G K, G I. cõme la baſe
+D Ieſt àla baſeD H (ſcauoir lamoitic au tout) & Æ* D IX
+ainſi D Keſt à D C, par la 18.5. Or cõme D Iàl
+H & D KaKo, ainſi le triangle IGDaIGH& KGD àKG
+Cpar la 38. 1. & compoſez, cõme le triangle H G D au triangle I
+G D, ainſi le triangle C G D au triangle K G Dparla 13. 5. qu eſt
+la meſme raiſon de la baſe H D àlla baſe D I, ou C Dà DK. tel-
+lement donc que par la 12 & 16. 5. cõme le premier triangle ou
+grandeur H G D à l'autre triangle ou grandeur C G D, ainſi I
+GDKGD, qu'ſt la meſme raiſon des baſes H D à C D, cõme
+il à eſté monſtré. il ſera de meſme des parallelo grãmesL. GD H
+& B G D C doubles aux triangles. Rejulte que les iriangles & paral-
+lelogrames ſur baſes egales ſont l'un allautre comme leur hauteur.
+ROPOSITION II.
+Si en un triangle on faict vne ligne droicte parallele à Pun des
+coſteq elle ccuppera les costex du triangle proportiõnellement.
+Et ſi les costexd'vn triangle ſont coupex proportiõnellement,
+Ia ligne droicte menie par les ſections ſera parallele à l'autre
+coſtè du triangle
+
+Oit au triangle H GF tirce la ligne B D paralleleâ 1
+GFE, & ſoient iointes D G, B F: les deux triangles
+BDGS DBF ſcront egaux eſtans ſur meſme baſe
+B D, & entre meſmes paralleles par la 37. 1. commey
+donc le triangle H D B au triangle D F B ainſi la baſe
+H D, à la baſe DF (cat ils ſont en meſme hauteur. o6
+& comme le triangle H B D au triangle B G D ainſi H B à BG
+par la precedente. il s'enſuiura donc par la 7.5. que H D ſera àD
+Fcomme H BàB G.
+Pour la ſeconde partie, ſoient ſuppoſcæ les coſteæ H F, H G
+couppez en B & D proportionnellement. d'autant que le triãgle
+H B D a meſme raiſon au triangle B D G que au triangle DB F
+(laquelle eſt comme H BAB G, ou H DaDEF, il s'ecuſuyura
+par la 9.5. que les triangles B D G & D B F ſcrõt egaux. & pource
+qu'ils ſont ſur vne meſme baſc, ils ſeront auſſi enire meſmes pa-
+ralleles pra la 39.1. B D ſera donc parcllele àGF.
+
+
+
+ELEMENS  PEVCLIDS,-
+PROPOSITIONIII.
+Si hangle d'vn triangle æſt couppc en deux egalement par vne
+ligne droicte laquelle couppe arßi la baſe ? les ſegnents de la
+Daſc auront raison loun à V'autre comme les deux autres co-
+tthi triangle: & ſi les pieces de la baſe ont telle raiſon
+layne à l'autre conme les coſtex, la ligne droicte qui tombe
+du sommet à la ſection de la baſe couppe l'angle en deux ega-
+lement.
+S2 le triangle H B G duquel P'angle H ſoit i A
+en deux egalementpar la 9.du 1. par la ligne droi- :
+c&e H D, laquelle coupe la baſe en D. Ie dy que B D
+a telle raiſon à Dõ que le coſté B H au coſté H G.
+Soit mence du point G la ligne G FF paralleleâ D H
+& iointe H F. dautant que la ligne droicte B F tombe B D
+ſur deux paralleles, elle fera rangle B H D egal à ſ'angle B FG.
+Comme auſſi la ligne H G tombant ſur les meſme fera les
+angles alternes H GF, & D H G egaux par la 29. I. Les deux dõc
+H  G & F G H ſeront egaux aux deux B H D & D HG, & par
+conſequent Pvn àbautre (car BH D & DH G ſont egaux par
+Thypotheſe) le triangle H F G ſera donc iſoſcele par la 6. 1. dont
+s enſuyura par la precedente (d'autant quau triangle E B G la
+ligne H D eſt parallele à FG) comme ſcra la ligne B HàHF
+(ou H G ſon egale) ainſi ſcra la partie de la baſe B D àlautre
+partie D G.
+Pour la ſeconde partie de ceſte pro poſition. SiIBDeſtàaDG
+comme B H à H G, ſoient diſpoſées B F & F G comme ila eſté
+dict. Dautant que comme B D àDC ainſi BH  H F par la pre-
+cedente & BH à H G par Phypotheſe. Is enſuyura que HF& HG
+ſeront egales par la 7,5. & que les angles H F G & H G F ſe-
+ront egaux par la 5. Mais par la 29. I.les angles BH D & D H G
+ſont egaux aux deux HF G, H GF vn chacun au ſien, ceux-la
+donc ſeront egaux enſemble. & par ainſi angle H du triangle
+B H G ſera coupé en deux egalement.
+PROPOSITION IIII.
+Des triangles equiangles les coſteX ui ſont au long des angles
+egaux ſont proportionnaux , & ceux qui ſont ſubtendus
+aux angles egaux ſont en meſme raiſon.
+
+
+
+II
+LIVRE SIXIESME. 4
+Oient les triangles equiangles HRG & DGE F
+ayans les angles egaux ſcauoir HEGADGE,8H
+Ga DE,& OGE PG. :e dy que leurs coſtez H
+à DG
+ſont proportionnaux , ſcauoir comme B B  D
+ainſi BG à G E, & comme H Gà D F qui ſont ſub-
+tendus aux angles egaux- soit du tnangle DF G (ou F G BE
+&yn ſemblablement deſcrit) mis le co CFG directement au
+bout de la ligne B G. D'autant que les angles DGE, HE G
+ſont egaux, les lignes D ẽ-, H B ſeront paralleles par la 2 81. com-
+me auſii ſeront * D, G H (eſtans les angles DFEG, HG B cgaux
+Soit parfaict le parallelogramme CDZ, les lignes FD,
+Z,ſcront ioinctes directement jar la 30. 1 comme ſeront au
+BH, H Z. Or d'autant quau triangle F2. 8 la ligne D G eſt
+B. il senſuyura par laba. de ce liure que comme
+ GH ſon egale ainſa FG à68. Semblable-
+ment pource queG H eſt parallele - ſera à G Fcomme
+BH A H Z (ou DG ſon egale) & comme B GaG F ainſi 2D ou
+HG ſon egale) à DF. IM
+PROPOSITION v.
+si deux triangles ont les coſtex proportianaux ils ſeront equian-
+les, & auront les angles egaux ſous lesquels les coſter de
+meſme raiſon ſeront ſubtendus.
+Oient deux triangles H D G, D FZ ayans les æ DP
+coſteæ proportionnaux ſcauoit comme B à A
+EEAR , & comme H Ga o 3ainſi O
+a n;, & comme H B à H G ainſi DFA D2.Siùs F
+ne ſont equiangles ſoit ſur la ligne 2 F au poin
+
+F deſcrit vn angle cgal 8, & au point æ deſcrit vu B 6 :21
+angle egal 36: ileſt euident que le troiſicſme angle I ſera e-
+A & n . 4
+gal'â H come on peus recucillis de la 32 du1. Les triangles dõc HBG &
+YF æ ſont equiangles & par la precedente les coſteæ aũ long des ,
+angles egaux H &1 ſeront proportionnaur HBEMH GCõm.I
+412,& H ꝓ 28 G comme IF3FZ, & HGE GE comme IZ à2
+2 F. Mais les coſtez du triangle D F 2 ſont poſez de meſme:
+D 5 ſeta donc egale 2 Lpar lag s. & Dæ à 21. Es s'enſuyura
+rar la 8. du premicv que les deux triangles D FZ& IF2 ſeront
+cgaur & equiang
+lI
+par la I. C. S. Si donc deux triangles, &t.
+
+Fi
+gles, & par conſequent D Fæcquiangle H BG.
+
+ELEMENS DEVCLIDI,
+PROPOSITION  VI.
+Si deu triangles ont vne angle egal à l'angle, & les costez au
+long des angles egaux proportionnaux, iceux triangle. ſe-
+ront equiangles, & auront les an gles egaux ſous leſquels les
+oſterde meſme raiſon ſont ſubt endus.
+uient ceux triangles HBG, DF Z ayans les
+angles H & D egaux, & les coſteæ2 H B à H G
+egal àG, ileſt cuident que l'autre angle I ſcra
+egal â H cõme on peut recucillir de la 32 1.& que le
+triangle F2I ſera equiangle au triangle H BG, & auront les co-
+ſteæ proportionnaux par la 4. de ce liure, comme H B . B G ainſi
+IEFEF Z, & comme H Gà GB ainſi 1Z à 2F. Mais I- triangle
+D F 2 ales deux coſtez poſeæ de meſme, ſſauoir comme D Fa
+D Z ainſi H B à H G(ou FIà I 2il s'enſuyura donc par la 7. du
+5. que DF, D 2z ſcront egales àl F& I2: & la baſe F 2 eſtant
+commune les triangles ſeront equiangles par la 8. 1.
+PROPOSITION VII.
+si deux triangles ont vn angle egal à l'angle, & les coſteſa
+long des autres angl es proportionnaux: & Pvn de ces autres
+angles moindre ou non moindre qu'vn droit: iceux triang los
+ſseront equiangles, & auront les angles egaux, au long deſ-
+quels les costeſ seront proportionnaux.
+DOient deux triangles H BG& D F 2 ayans Pan-
+D
+gle H egal à 'angle D, & les coſteæ proportion- n
+naux qui ſont au long des autres angles B & F, ceſt
+à ſcauoir H B à B G comme D Fà F Z. Et des autres iI
+7 -
+H D
+comme D Fà DZ. le dy que P'angle B eſt egal à
+F & G a Z. Car ſoit ſur la ligne FZau pointF r Z
+deſcrit vn angle egal àn, & au point Zvn angle
+ 6
+angles G & 2 ſoit 'vn ou lautre premicrement
+moindre qu'vn droict. Siles deux triangles ne ſont
+equiangles & mont les angles (au long des coſteæ F
+pioportionnaux) egaux, ſoit faict au point B ſur la ligne H B (U
+cas que B ſoit ſupoſeé plus grand que F) vangle egalà Fcomme
+HBI. Dautant que l'angle Hesſt egal angle D & l'angle H
+BI F, il s'enſuyura que le troiſieſme H IB ſera egal à Z comme
+ea1p.us resucillir de la 32 1. comme done D F à Fæ2,ainſi ſera H Bà
+H B I pur
+IASS
+
+.
+LIVRE SIXIESME. At
+B I par la 4. de ce liure. Mais comme D FàF 2, ainſi a eſté H Bà
+B G, & apres comme H B àB I ainſi a eſté HBBG. Les lignes
+donc BI, B G ſont egales par la 9 du 5. & auront les angles
+ſur la baſe egaux par la 5du 1. & moindres que deux droicts par
+la 17 du 1. & B 1'G eſtant moindre quon droict, l'autre angle
+H I B ſera plus grand qu'vn droict par la 13 dui Mais ila eſté
+monſtré egal à7 poſe moindre quvn droict, ce qui ne ſe peut
+faire: H BG ne ſera donc ny plus grand ny plus petit quæ D F2
+& ſeront par conſequent egaux. Second: mnt ſoit poſlévn ou
+ſautre d. G & 2 n'eſtre moindre quvn droit, ſi langle HEG veſt
+egal à F ſoit ſuppoſé B plus grand, & comme de uant ſoit H I
+egal a F. L'autre angl. BI H ſera egal. Z. & final: ment les an-
+gles BG& B GI ſeront: gaux: mais B G n'eſt point moindie
+quvn droict par la ſupoſition: Les deux ang es dõc du triangle
+ne ſeront moindres que deux droicts, contr. ce qui a eſté mon-
+ſtré en la 17. 1. ce qui eſt abſurde. En quælque fagon qu' c. ſoit
+doncls angles B & F (au long acſque ſont les coſte2 propor-
+tionnaux) ſont gaux:& par conſequent ls triangles  quiangles.
+PROPOSITION VIII.
+si de Pangle droict d'un triangle rectangle on tire vne perpen-
+diculaire ſur la baſe, les triangles au long de la perpendicu-
+laire ſont ſemblables au tout & entr'eux.
+Oit le triangle rectangle H B G ayant langle H
+H droict, duquel ſoit tiree la perpendiculaire .
+HD ſur la baſe B G. Dautant que du SWM
+H BD les deux angles HB D & H DE ſont gaux 3
+aux deux angles BG& BH G du grand triangle B D
+propoſè, ilſ. nſuyura que le troiſieſme angle B H D ſ: ra agal au
+troiſieſme angle G. & par ainſi le triangle BHD ſcra equiangle &
+ſemblable au tout BH G. S. mblableny. nt ſe demonſtrera le mes-
+me de l autre triangle H D G. ſidons de angle, ære.
+PROPOSITIONIX.
+D'une ligne droite propoſee couper vne certaine partie ordonee.
+Oit la ligne droicte propoſce, HB de laquelle X
+il faut couper vne certaine partie cõome pour D ,
+exẽple vue troi ſie ſme partie, ſoit iointe vne au- 7
+tre ligne droit au point H cõ me , G ſur laquelle
+ſoiet marquées autaãt de pardes quon de ſir, ſ5a-
+uoir trois, Pvne deſquelles parties ſoit H D: an G B
+point D ſoit mence D 2 parallele à GB. icclle D  couppera les
+: 8
+
+Adeux lignes droites donces trouucr la moy ne proportiõnelle.
+rallele Z F par la 2. de celiure comme D T (Ceſt
+ELEMENS DPEVCIIDE,
+coſtez propotionnellemẽt par la 2 de ce li tellem nt que comme
+GD à DHainſi BZàZ H, & compoſees comme GH  H D ainſi
+B Haà H 2 par la 8 5. il ſenſuyura donc que H Z ſera la troſieſ-
+me partie de la ligne H B.
+PROPOSITIONX. .
+Coupper ſemblablement vne ligne droicte non couppee comme
+vne igne droicte couppee pro poſec.
+Goit a ligne non coupee H B, & laligne coun- n︎ 1
+pece propoſee L C. & ſoit H D egale à la pre- ꝓÆ
+miere piecc, D F a la ſeconde, F G à la troiſieſ-
+me Soient tirees GB, & F I, D Z paralleles àa
+I. ſoit encor menee D K parallele à H B qui
+fermera les parallelogrammes DI. TB. Or6 XnB:2
+cõme G Fà FDainſiKTaT D par lan. de ce liure (C'eſt à dire
+B I à I12 leurs egales par la 34 du 1.) Et puis que D Z eſt parallele
+à GB comme eſt G Daà D H,ainſi BZ à Z H. par ain i la ligne
+HB eſt cou ppec en meſme raiſon que H Gou L.C propoſee.
+PROPOSITIONXI.
+
+Adeux lignes droites dõnees trouuer la troiſieme pportiõnelle.
+ꝗZicaties denx lignes donneȩs HB, H G diſpoſces æ
+enl'angle H. ſoit tiree G B, & prolongee H b en D
+en ſorte,que B D ſoit egale à H G. au pointD ſoit me- 6.
+neeD F parallele àB G & faite la ligne H GF. Il eſt
+euident par la 2.de ce liure que comme H B B D ainſi D
+HGAF. Mais H G& B D ſont egales: il ſera donc
+comme HBHG, ainſi H Gà 6F 3. ligne proportionnelle.
+H PROPOSIT IONX II.
+A trois lignes droictes donnees trouuer la quatrieſme
+: proportionnelle.
+COient les trois lignes donnees H G B Soict. p
+deux lignes droictes D F, & D Z faiſans vn
+angle en D, & ſoit D T egale à H, T æ egale àB,
+& D I egale à G. ſoit tiree TI & menece la pa- T x
+PHG
+àdire H) à T Z (ceſt à dire By ainſi D I (ou G 2
+ſon egale) à IV, laquelle ſera par ce moyen la
+quatrieſme ligne proportionnelle.
+PROPOSITION  XIII.
+s
+T BE
+a
+
+LIVREE SIXIEME. 42
+3Oient les deux lignes droictes propoſees D
+H SB, B G miſes directement, & ſur la toute
+H G ſoit deſcrit vn demy cercle H D G, & au N
+po int B ſoit faicte la perpendiculaire B D, & k
+ioinctes H D, D G: Le triangle H D G ſera 8 6
+rectangle ar la31. du; Et puis que de l'angle droict D tombe
+ſur la baſe la perpendiculaire D B, ic ll faict d ux triangles e-
+quiangles par la 8 de ce liure. Et par conſcquent proportionnaux
+fæa la â ium ſme, Tellement donc'que comme H B a BD ainſi la
+meſme.B D(qui eſt c&munc ax dcùx tria ngles)a B G. donts en-
+ſuyura que D B ſera moy nne proportionnelle entre H B & B G.
+PROPOSITIONXIIII.
+Des parallelo grammes egaux qui ont un angle egal à l'angle,
+Les coſteau long des angles egaux ſont reciproques. Et les
+arallelogranimes qui ont vn angle egal à l'angle, & les co-
+ſſteſau long des angles egaux reciproques ſont außi egaux.
+COicht les parallelogrammes cgaux HF, BG Dſ
+Dapyants langle egal à 'angle ſſauoir D B Z à
+IBE, ie dy que le coſté D B au coſté B F eſt re L B.2
+ciproquement comme I B à Z. Soit mis I B di-
+rectement auec B Z. lautre D B ſera auſſi directe- 1
+m ntauec B F(car les angles ſont au ſommet.)ſoit
+faict l. parallelogramme Z F. comm: le parallelogrammꝰ H B
+3
+mGUM
+5. Mais cõme H B a 2F ainſi la lign droicte D BYBF par la 3.
+du 6. Et comme B G. 2F ainſi I Bà B Æ par la meſmò carils ſont
+Pvn à Fautre comme leurs baſes. Donc par la 11. dus comme
+les coſteæ D B  BF, ainſi reciproquemẽt I à B Z. t:ement quæ
+ſuyuant la 2 definition du 6. I.s paralldogrammes ſont recipro-
+ques & leurs coſtez.
+Semblablement ſe demonſtrera la ſeconde partie, cleſt à ſa-
+uoir ſi les coſteæ D B à BF ſont reciproquement comme I B à
+B Z, les parallelogrammes H B, B G ſeront egaux. Dautant que
+(par. 'nypotheſe) c'eſt vne meſme raiſon DBABE, que BI
+à B Z,éelle ſcra de meſme des parallelogrammes H R à ZF, que
+B G au meſme Z F par la I du 6. Iceux donc H B & B G ſeront
+cgaux par la 9lus.
+PROPOSITIONXV.
+Des triangles egaux ayans vn angle egal à l'angle, ldes costex
+ass long des angles egaux ſont reciproques. Et o triangles
+1)
+
+s
+ELEMENS DEVCLIDE,
+ayans un angle egal à langle, & les coſteſau long des an-
+gles egaux reciproques, ſont außi egaux.
+GQient deux triangles egaux HBG  H DF . D
+ayãs les angles B H G & D HF egaux au ſom-
+met H. Ie dy que leurs coſtez au long des angles I
+egaux ſont reciproques comme GH à HD,
+ainſi FH à H B. Puis que les angles ſ nt diſpoſez . F
+au ſommet. B H, H F ſcront dicectement enſemble, comme auſſi
+G H D.: les tiiangles donc U BH, & D B H eſtans en vne meſ-
+n;
+Semblablement les triangles FD H, & le meſme D B H eſtans
+en meſme hauteur ſerontſ'vn à Tautre comme leurs baſes F H a
+HB par la 1. du 6. Mais par hblyypotheſe H G B & HED ſont egaux
+& ont vne meſme raiſon à vn meſme B D H parla 7. 5. les li-
+gnes droictes donc GH à H D & FH à B ayans vne meſme
+raiſon que les triãgles aurõt auſſi la meſme entr elles par la 115.
+Alternement donc les lignes ſeront pro ortionnelles G Hà H
+D, comme F H à H B par la 2 defini tion de celiure. I
+Pour la ſeconde partic ſoient les triangles predits ayans 'angle
+egalâ l'angle, & les coſteæ reciproques, ic dy iceux triangles eſ-
+tre egaux. Dautant que ceſt vne meſme faion GH  H D que
+FHàH R, & cõme G H à H D, ainſi le triangle H B G au trian-
+gle H BD, & comme F H à H B, ainſi ſemblablement le triangle
+H D F au meſme triangle H D B, ce ſera vne meſme raiſon du
+triangle H B G au triangle H D B, que du meſme H DF au meſ-
+me H D B. Les triangles donc ainſi propoſex ſeront egaux par
+lda . du 5. .
+fav. us PROPOSITIONXVI.
+Si quatre lignes ſont propriiannele , le rectangle compris des.
+deux extremes eſt egal à celuy compris des moyennes. Et ſi le
+rectangle compris des deiix extremes eſt egal à celuy compris
+des moyennes, les quatre lignes ſeront proportionnelles.
+C Oient quatre lignes prõportionnelles HAàG, cõme
+DBD. Ic dy que le rectangle compris ſous les plus
+grâde & plus petite qui sõt les extremes R & G, eſt egallj6
+au rectangle compris des moyennes H & D. Soit faict s
+de B & G vn rectangle, & de H & D vn autre rectãgle.
+Dautant que de ces deux parallelogrammes les coſtez
+ſont reciproques H à G cõme B à D iceux ſont egaur pa- la 14.6.
+Four la ſeconde partie ſi les parallelogrammes ſont cgaus iis
+1
+
+DCL
+LIVRE SIXIESME. 43
+D. par la meſme 14 du s.
+KOPOSITIONXVII.
+Si trois lignes ſont proportionnelles, le rectangle compris des ex-
+tremes eſt egal au quarré faict de la moyenne. Et ſi lere-
+ctangle compris des extremes eſt egal au quarrè de la moyen-
+ne, icelles trois lignes ſeront proportionnelles.
+ilis trois lignes proportionnelles propoſees
+H, B, D, ſcauoir comme HM à B,ainſi lſ à D:& de
+H & D ſoit faict vn rectangle, & de B vn quarré.
+Ie dy que le rectangle eſt egal au quarré. Car puis
+que Ceſt egal à B, il ſera comme t à B, ainſi Cà
+D:les quatre ſeront donc proportionnelles Hi 8, C,
+D: mais le rectangle des extremes eſt egal au rectangle des
+moyennes, par la pre edenie, qui eſt le quarré de B moyenne.
+Et ſi le rectangle H D eſt egal au quarré de la moyenne B:les
+lignes H, B, C, D ſeront proportionnelles par la precedente. Mais
+dautant que B & C ſont egales, H ſera à Bcomme B a D.
+PROPOSITION XVIII.
+Sur vne ligne droicte donnee deſerire vne figure rectiligne ſem-
+blablement poſee à une autre figure rectiligne donnee.
+gQ la ligne droicte donnee H B, ſur laquelle il n E
+faut ſemblablement deſcrire vne figure recti-
+ligne ſemblablement poſee àMa figure donnee C
+DF L. Soient premierement ſubtendus tous les
+angles par quelques lignes droictes, ſ;auo ir en re- c D
+ſoluant la figure en triãgles, comme CD L, CLF.
+Au point H ſur la ligne ri B ſoit faict vn angle egal F
+à &- , cõme BH G par la 13. du 1. & au point Bb vn angle egal à
+D comme B. Le troiſieſme H I B ſera egal au troiſieſme C L D
+comme on peut recucillir de la 32 du 1. Le triangle dõ c HB I ſera
+equiangle an triangle C D L & ſemblablemét deſcrit: & comme
+CD Laà n I,ainſi CDàuE. par la 4 lu 6. Maintenant ſur la ligne
+droicte H I ſoit ſemblablement deſcrit le triangle H G I equian-
+gle à C EL: dautãt que les deux angles BH I, & IH G ſont egaux
+aur deux angles D CL& L CF, le tout ſera egal au tout BH G
+àD C F.ſemblablement B IG à D LF comme auſſi GàF. CL
+ſera donc anH I comme DLABI:mais C L à H leſt cõme D C
+àB H. D CàB H ſera donc comme D L à8 Tau long des angles
+egaux. Semblablement ſe demonſtreront les autres coſtez eſtre
+F iij
+
+I
+U
+ri-
+- . -
+
+ELEMENS DEVCLIDS,
+de meſme l'vn àl'autre par ainſi toute la figure rectiligne H B I
+G ſera ſemblable a C DLE, & ſemblablement deſcrite ſur la li-
+gne donnee. :
+: PROPOSITION XIX.
+Les triangles ſemblables sont lum à lautre en raiſon double de
+leurs coſteX de ſemblable raiſon.
+S ientles deux triangles equiangles H BG D
+plus grãd & D F 2Z plus petit, ayansles co-
+ſte proportionnaux rla 4 6. ſſauoir cõme
+HB DF,ainſi B G à FZ. ſoit auſſi comme B
+GàFZ, ainſi FZà B I parla 11 S6. par ainſi ces 7
+trois lignes ſeront proportionnelles, & la pre- F
+miere BGa la troiſiéme BI aura la raisõ double BT6
+de F Z par la 10. definition du 5. La raiſon doncde HBSOF ſera
+de meſme reciproquement par la 2. desnition du s. Parquoy les
+triangles H B I& DF 4 ſeront egaux(pir la ſeconde partie de la 15
+de ce tns:) les angles F & B ayans eſtè poſé egaux. Mais B G
+eſt àla baſe B I, comme le triangle H B G au triangle H B I
+par la 1. 6. La baſe donc B G ſera a B I commelle triangle HBG
+au triangle D F Zſqui eſt egal à H B Iymais B  à B l ala raiſon
+doublee du coſté BG au coſté F2. 1i s'enſuyura donc que le
+triangle H B G aura au triangle D F Z la raiſon double du coſte
+B Gà B I, ou des autres coſtez de ſemblable raiſon. Les trian-
+gles done, &c.
+PROPOSITION XX.
+Les polygones ſemblables, se peuuent diuiser en triangles ſem-
+lables, egaux en nombre ,& proport ionnaux à leur tout.
+Muis le polygone a au polygone la raiſon double dis coſte de
+ſsemblable raiſon au coſtè de ſemblable raiſon.
+NOient les polygones ſemblables ZLKT I, & æ
+H ED G B: dautant que par Phypotheſe l'an- Q I
+gle B H F eſt egal à l'angle IZ L, & les coſteæ au E
+long des angles egaux proportionnaux, ſcauoir-
+comme BH à HF, ainſi I Z à Z L. Soict mences . 3
+les lignes droictes BF, IL, les triangles H FB, &
+Z L lſerõt equiangles par la 6. de ce liure, & angle E
+HDB F ſera egalà l'angle Z I L. Mais par la conſtruction tout
+Pangle H B G elt egal à tout langle ZIT:oſtant donc H B F&
+ZIL, l'autre angle re bPant F B Gleta egal à lautre LIT parla
+1-
+
+1
+SEE
+LIVRE SIXIESME. 44
+1 du 5. Ioin ctes maintenant F G & L T: F B ſera àH B comme
+L I a2Z Iaulong des angles egaux. Et comme H B à B G, ainſi
+ZI4IT en raiſon egale pavla 22. 5. il ſera comme FBà B G,
+ainſi LIa I T. Mais d'autant que langle F B G a eſté monſtré
+egal à L I T, les triangles F B G & LIT ſeront ſemblables &
+cquiangles ar le dAe ce liure. Et pource que tout langle BGD
+eſt poſc egal a 'angle I TK, par ſemblables argumés ſe demon-
+ſtrera F'angle E G D eſtre egal à angle LTK, & les autres an-
+gles aux autres angles: & par ainſi par la . de ce liure le triangle
+F G D ſe trouuera equiangle au triangle L T K. Voila donc les
+polygones diuiſex en triangles ſemblables, & egaux en nombre.
+Outre plus, dautant que chaque triangle eſt ſemblable à ſon
+triangle, & ont vne meſme raiſon Pyn àlautre, & que les parties
+ſont egales à leur tout, le polygone H B G DF au polygone Z1I
+TK Lſera en raiſon double de H B à Z I par la precedente.
+PROPOSITION XXI. .
+Les figures ſemblables à une figure rectiligne, ſont
+ſemblables entre elles.
+Gylient les figures rectilignes H & B ſem-
+blables à C. Dautant qu'elles ont leurs an- A
+gles egaux aux angles de C par lar. defnition 6.
+Ils auront auſſ leurs angles egaux entr'eux par
+la premiere commune sentence, & auront les coſtex Æ A
+de meſme raiſon proportionnaux au long des
+angles egaux: dont s'ecnſuyura que H & B ſeront ſemblables &
+equiang es.
+PROPOSITIONXXII.
+s1 uatie lignes droictes ſont ropurtionnele , les figures recti-
+ignes ſemblables, & ſemblablement deſcrites ſur icelles ſe-
+ront proportionnelles. Et ſi les figures rectilignes ſemblables
+& ſemblablement deſcrites ſur quatre lignes droictes ſont
+proportionnelles, icelles lignes ſeront proportionnelles.
+GVient quatre lignes droictes proportion- i
+nelles H Bà G D comme FZ àl T. Soict / I
+faites les figures H L, GK ſemblables & ſem- i v 2u hi
+blablement deſcrites: ſoient auſſi les deux an- ID&- L
+tres FZM & I T N ſemblables & ſemblable-
+Æ!
+ment deſcrites. Soit auſſi aux lignes H B & G
+D trouuce la troiſieſme proporcionnelle X par 8
+F iiij
+
+
+?7 ], ︎ ︎
+⸗
+ELEMENS DEVCLIDS,
+lati. du 6. & aux lignes F2,& I T la troiſieſme proportionnelle
+O. Comme la ligne H B ctt àx, ainſi eſt la figure H Là la figu-
+re G K (c'eſt à dire en raiſon double) & comme F Z à O, ainli la
+ſigure FZMâ I TN par la 19 li6. Mais comme H B à GD,
+ainſi FZàl T, & cõome GD à X,iainſi I T àO. Donc par la 12.
+du 5. en raiſun egale, comme H B àX, ainſi FZ à O. par ainſi
+comme la figure H L eſt àla figure GK, anſi FZM al TN,
+ar la 1I.5. & ſont proportionnelles. Pour la ſeconde partie: ſoiet
+es meſmes fſigures proportionnelles ſemblables & ſemblable-
+ment deſcrites. Ie dy que les quatre lignes ſur leſquelles elles
+ſont deſcrites ſont proportionnelles: car comme on peut recueillir de
+la 19. & a60. de ce liure la raiſon de l'vne à Pautre ſera cõme celle
+de leurs coſteæ doubleec. La raiſon donc de leurs coſteæ ſera vne
+meſme par la 7. C. S. ſcauoir comme H B à D G, ainſi FZa IT:
+iccux coſtezæ ſeront donc proportionnausx.
+PROPOSITION XXIII.
+Les parallelogrammes equian les ont raiſon Pun à Pautre
+compoſee de leurs coſteſ.
+4 Lpiant à part les diuerſes opinions de plu- 1 ︎ T P
+-
+︎
+àdre comme elle eſt diffinic en la 14 du 5. Ie diray
+ſieurs qui ont gloſé ſur ceſte propoſition, &
+auſſi que la raiſon compoſce ne ſe peut ici enten- ẽ .
+ſeulement que la raiſon des rectangles equiãgles
+de I'vn àlautre deped de la raiſon des coſtez d'i- Z
+ceux: mais voicy ce qui ſe peut plus facillement demonſtrer.
+Soient les rectangles equiangles H G, G Z diſpoſez en ſorte que
+B G I ſoient directement, comme auſſi L G F par la conucrse de la
+15. 1. Ainſi qu'eſt le parallelogramme H G à ſautre L I, ainſi
+la ligne B G à GI: & comme le rectangle L I à G Z, ainſi la li-
+gne L Gà G F pat la premiere du 6. Si donc la ligne L I eſt tirec
+vers C, & acheueæ les parallelogrammes Z CN., NP T, les ſu-
+plements I P & IF ſeront egaux par la 43. 1. Dont s enſuyura
+que comme le parallelogramme H G à G Z, ainſi le meſme HG
+à4T N, & aiunſi la ligne BG àla ligne IN (puis qu'ils ſont en
+meſme hauteur.) Et par conſequent cõme L Gà GF, ainſi G I
+à1IN. Voila donc les raiſons des coſteæ dont depend la cognoiſ-
+ſance de la raiſon d'vn parallelogramme à Fautre. Et cecy veut
+dire que comme le produict de B G par G L au produit de GF
+parc I, ainſi le prallelogramme H G au parallelogramme G 2-
+i PROPOSITION XXIIII.
+De tout
+.
+II
+ſ
+
+. LIVRE SIXIESME. 43
+De tout parallelogramme les parallelogrammes qui ſont au long
+du diametre ayans un angle commun auec le meſme, ſont
+ſemblables au tout & l'un à bautre.
+Oit le parallelogramme H B G D & ſon diametre ;1 p
+S H G, au long duqul ſoient les parallelogrammes
+FX, T I ayãs chacun vn angle conmun auec le tout
+ſcauoir H'& G. Dautant que X zZ T eſt parallele à
+HE, & FZI à H D, & que sa ligne H G les rrauerſe
+au point commun , ils'enſuyura que les angles - H ,︎x
+Z, HZX, & TZG, 2 G Iſeront egaux, comme auſſi
+XHEZ,H ZF I2ZG, ZG T ſeront egaux par la 29. 1. & que les
+quatre triangles ſcront cquiangles , & par conſequent auront
+leurs coſtez proportionnaus par la 4. 6. comme donc ſera H Fà
+F2, ainſiæ Tà T G, & comme HX àX 32, ainſi Z IàI G. Par
+ainſi les parallelogrammes propoſeæ ſont equiãgles, ſemblables
+& ſemblablement deſcrits entreux & au tout.
+PROPOSITION XXV.
+Deſerire vne figure rectiligne ſemblable à vne ſigure rectiligne
+onnee & egale à vne autre rectiligne fropoſee.
+ꝗ81 la figure rectiligne pro poſee n
+
+
+H B I, à laquelle il conuienne faire u .
+vne ſemblable figure & egale à D.
+Sur la ligne droicte B I ſoit fait vn re- u b
+ctangle par la 45. 1. qui ſoit egal à2]] ili
+H I B comme BF. ſoit prolongee BI l L
+vers Z, & ſur la ligne I F à l'angle 21 r
+F ſoit deſcrit vn rectangle Z F egal à D. Et ſoit par la 13.de ce liure
+trouuee la moyenne proportiõnelle entre BI& I Zlaquelle ſoit
+IT. Sur icelle ſoit ſemb lablement deſcrite vne figure ſemblable
+à H I B par la 18. 6. comme I TK. Maintenant comme B I  I
+T, ainſi IT àl 2, & comme la figure H IB 4la figure ITK,
+ainſi la ligne B I à I Z en raiſon double par la 19& 26. de cc hure.
+Mais comme la ligne R I à12, ainſi le rectangle B F(ſou H I B
+ſon egal) au rectangle IM par la premiere de ce liurc,car ils sent en
+meſir e hauteur. Il senſuyura donc que la figure I TK ſcra egale.
+au rectangle IIM par la 14 dus.
+PROPOSIVTION XXVI.
+Si d'un parallelogiãme on oſte un parallelogrãme ſemblable æs
+tout & ſimblablement poſt,ayas vn angle ccmmun auec l-
+tout: lesoubstraict ſera aticc le tout ſur tn meſme diamcire.
+i G
+-
+-
+
+‘4. 2
+ELEMENS DPEVCLIDI,
+i d'vn parallelogrãme H D G B oſté le pa- ,, æ b
+rallelogramme HKZF ſemblable au tout &
+ſemblablement poſé, ai int Pangle commun H. Ie FMe
+dy que le diametre H Z G de 'vn & de l'autre eſt c
+vne meſme ligne droicte. Car ſoit diuiſéle coſté l
+DB G en deux egalement en P, comme auſſi HB B Æ &
+en C & tiree CP, ceſte ligne ſera parallele à H Z G (car le trian-
+gle CP B ales coſteæ proportionnaux aux coſtez du triangle H
+G B, & par conſequent eſt equiangle par la 5. de ceſtuy) Dont
+s'enſuiura ꝗ l'angle CPS eſtãt egal à angle HGB & PCBZHEF,
+la ligne H 2 G ne ſera qu'vne, parallele à C Pæuur la 18. & 30. 1.
+dont eſt euident que le parallelogramme ſouſtrait eſt ſur vn
+meſme diametre auec le tout.
+PROPOSITIONXXVII.
+tã
+De jous parallcogrammie- quæon peut apliquer ſur vne ligne
+droicte, deffaillans de la ligne droicte de la quantité des pa-
+rallelogrammes ſemblables à celuy deſerit ſur la moitie &
+ſemblablement poſet. le plus grand eſt celuy qui eſt apliquè
+ſur la moitie de la ligne, & qui eſt semblable à celuy par
+lequel il eſt deffaillant.
+ꝗ uh ligne droite H B couppee au point
+G en deux egalement, & ſur G B ſoit deſ- æ
+crit vn parallelogramme G L duquel le di-
+metient ſoit D B: dautant que le parallelo- 5
+gramme de la quantité duquel vn autre pa-
+rallelogramme apliqué doit manquer de la  0 6 b
+ligne, eſt ſemblable & ſemblablement poſé à G L qui eſt faict de
+la moitie, le meſme parallelogramme ſera ſur le dimetient sar la
+
+precedente & auront langle B commun. Parquoy afin que l'apli-
+ué ſur la ligne H B deffaille dicelle par vn parallelogramme
+Siblable àG L. il faudra qu'il ſoit deſcrit du point H iuſques
+au dimetient. Soit donc apliquè H I deffaillant de la ligne, de la
+quantité de I B ſemblable à G L. Ie dy que de tous les paralle-
+Iogrammes ainſi apliquez ſur H B entre H& le dimetièt, le plus
+grand eſt celuy qui eſt apliqué ſur la moitie de la ligne, c'eſt à
+ſcauoit H D ou G L ſon egal. Premierement H I ſeta demon-
+ré moindre. Dautãt que les ſupplements G I I L ſont egaux
+par la 43.1. comme auili FD & DC parbi 30.1. & que F D eit
+plus grand el L Cou I G ſon egal) de la quantité D I, le com-
+mun FGel
+ant adjouſté, H D ſou G L ſon egal) ſera plus grad
+que H I de la quantité du parallclogramme D I. Qus ſi le pa-
+I
+
+]]]]]----]
+VSHSH-
+. .
+LIVRE SIXIESMIE. 4c
+rallelogramme eſt mis comme H M ſurpaſſant D, ilſera deffail-
+lant de la quanuté O N ſemblable à G L. or les ſuplements DN,
+D O ſont egaux, comme auſſi PD &DN. & PS eſt moindre
+que D N de la quantité de M D: ſi donc on adjouſte le cõmun
+H S,le tout H D (ou GL ſon egal) ſera plus grand que H M
+de la quantité de M D. De tous parallelogrammes donc, & c. Ceey
+veut dire qu'en vn triangle ne ſe peus inſcrire aucun parallelogramme
+plus grand que celuy qui couppe les erois coſtex en deux egalemens, &
+qui a bangie conmun auec le itsangle.
+PROPOSITION XXVIII.
+Sur vne ligne droicte donnee apliquer vn parallelogramme de-
+faillã1 en eſpece de la quantitè du parallelogrãme ſemblable
+donnè, & qu'iceluy apliqué soit egal à vne figure rectiligne
+dõnee nõ pl grãde ue le parallelogrãme apliquè ſur la moi-
+tie de la ligne int à celuy duquel il doit eftre defaillant.
+Siita ligne droite donnee H B ſur laquelle
+ faut apliquer vn parallelogramme egal à ſ
+F& defailiat d'vn parallelograme ſemblable à - El
+a
+D. Soit donc ſur la moitie LB deſcrit vn ſem- r :
+blable àb par la 18 de celi, cõme Lã,& ſoit ache- DE
+ué T B & tirce la ligne IB. Si F eſt egale AH I 9q NeE
+(ou à L æſon egal) nous auons la choſe deſirée: v i
+§i clle eſt moindre, poſons que ce ſoit de certain eſpace que nous
+reduiſons en ſemblable figure cõme D par la 25 de ceſtuy. Lequel
+eſpace ſoit ON, qui ſera ſur le dimetict par la 26. 6. Dautãt qu'en
+la precedente ila eſté mõſtré que H P'eſt moindre que HI du
+parallelogrime N O, & que F eſt moindre que H I par la poſition
+du meſme NO: il enſuiura qH P ſera egal  F par laz & 1n. 6.&
+ſera defaillãt de la ligne HB, de Peſpace SR seblable à LZ ou àD.
+PROPOSITION XXIX.
+Sur vne ligne droicte donnee comparer un parall elogrãme egal
+à vne figure rectiligne donnee & excedent en eſpece cun
+parallelogrumme ſemblable à un autre propoſe.
+fera la cõparaisõ ſoitG, & le paralle logrãme sẽ-
+blable àl'exces ſoit D. maitenatſoit fait PLsebla-
+ble à D, & dâs Pangle Z ſoit deſcrit vn parallelo- ] N
+grãme egal aPL& à G, & scblable à PL(ou â D) x)7V
+G ij
+- ligne droite dõnee HB coupee enPen b I
+deux egalemeẽt, la figure rectiligne à laꝗlle ſe b N
+C
+-
+u
+
+Aux triangles rectangles la ſi
+ELEMENS  DEVCLIDI,
+par la 25. 6. & ſoit NM. il eſt cuident que le cõmun PL eſtant o-
+ſté le gnomon L OP ſera egalà G. si donc le parallelograme
+N Heeſt faict de l'autre moitie H P, le parallelogramme H O
+ſera egal au gnomon L O P, & par conſequent a G, & excedera
+laligne H B du parallelogramme R C qui eſt ſemblable àa PL.
+ou a D. Si donc sur vne ligne droicte, esc.
+PRODOSITIONXXX.
+Couper vne ligne droite terminec dõnee, ëtre les deux extremes.
+- droicte H B couppec en Cpar la 1n. n
+1. Le rectangle compris ſous H B, B C ſcra e-
+gal au quané de H C. Voicy donc trois lignes
+roportionnelles par la 17. 6. comme la toute H 8 I
+à la plus grande partie H C, ainſi celle- cy à la plus 7
+petite C B. donts'enſuyt que H B eſt coupec en Centre les deux
+extremes par la 3. definition de ce liure.
+PROPOSITIONXXXI.
+gure de quelconque eſpece que ce
+ſoit qui eſt deſcrite sur le cote qui soustient l'angle droict, eſt
+egale aux figures de meſme eſpece qui ſont ſemblables& ſem-
+
+
+BRlablemẽr eſcrites ſur les coſtex qui cõprenent l'angle droit.
+Oirt le triangle rectãgle H B G duquel Fangle
+droict ſoit H, Ie dy que tous polygones ſem-æ
+blables & ſemblablement deſcrits des coſteæ qui
+comprennent l'angle droict comme F H B & Z
+G ſont egaux au polygone ſemblable & ſem-
+blablement deſcrit ſur BG, ceſt à ſ5auoir BG C. Dautant que
+es polygones ſont ſemblables & equiangles, is auront l'vn àl au-
+tre la raiſon double de leurs coſteæ, comme auròt aulli les quar-
+rez deſcrits ſur les meſines coſteæ2 par la 19. & 29. de ce liure. Il
+s'enſuyura dõc que comme les deux quarrez ſont egaux au troi-
+ſime par la47. 1. ainſi les deux polvgones ſerõt egaux au troi-
+ſieſme puis qu'ils ont vne meſine raiſon entreux.
+PROPOSITIONXXXIII.
+Si entre deux triangles le coſte de l'un & le costè de l'autre
+compoſent un angle, & que ces deux coſte ſoient recipro-
+ues à deux autres, & paralleles, les autres deux coſten di-
+ceux triangles ſeront en vne ſcule ligne droicte.
+Oilcnt les deux triangles ioints en ſorte que les coſtez HG&
+D G facent vn angle entre les deux triãgles, ceſt àſcanoir H
+GD. & ſoict iceuxparalleles & reciproques aux deux autres co-
+
+
+C
+
+4
+︎-
+LIVRE SIXIESME. 47
+æ ſtez, cõme H Gà DF, & D Gà H B. Dautant que
+H B& D G ſont paralicles, & que H G tõbe ſur icel-
+2 c les,bangle B H G ſera egal hangle H G D, & puiſ-
+aue HG & D p ſont paralleles, & que D G tombe
+Ur icelles,l'angle HGD ſeraegal à GDE par la 29. 1.
+Les angles dõc H & D ſcront egaux & les triangles
+equiangles parla 6. de ceſtuy;, & angle H G F egal aux deux H &
+B parla 32 1. Et par ainſi les deux angles H G F, & H G B egaux
+3 deux droicts. Puis donc que à la ligne H G deux autres lignes
+concourent, ſ5auoir B G F G, & qu'clles font deux angles
+egaux à deux droits, icelles ſont poſees directemet par la 14. du 1.
+PROPOSITION XXXIII.
+Aux cercles egaux les angles ont meſme raison que les circon-
+ferẽces ſur eſquielles ils ſont, ſiit que les angles ſoiet en la cir-
+cõference,ou au centre& les ſecteurs ont ausßi meſme raiſon.
+I. a eſté monſtré par la 27. 3. que
+1I I C. .æ
+aux cercles egaux les angles qui ♈ 64
+ſont ſur circonferences egales ſont e- .
+aux: maintenant ſi en cercles egaux S ISE.
+fe angles inegaux n'ont vne meſme , s1 Æ &
+c &
+raiſon que leurs circõferences ſur leſ- :
+eles ls ſont deſcrits comme ſur leurs baſes: Soient propoſeæ
+cux angles inegaux C H B plus grãd & G D F plus petit, & que
+I'angle G D Fſoit vn demy droict, & que Parc C B ait plus de rai-
+ſon â l'are G F que langle C H Bàl'angle GDFE. Par meſme
+raiſon ou ſuppo ſition larc plus grand IB aura plus de raiſon à
+B C plus petit que langle 'H B à BH C: & conjoinctement les
+deux arcs (Ceſt à dire la moitie de la cir conference) auront plus
+de raiſon à lare G F que les deux angles I HB & B H C (ceſt à
+dire deux droicts) à 'angle G DF. Maintenant ſoit faict Pangle
+KDFegalAGDF, &KDN&ND L de meſme: il eſt euident
+par la 26, 3. que les ares F K K N, & NL ſerõt egaux & les qua-
+tre angles vaudront deux droicts: dont s'enſuyura que la moitie
+de la drcõference I B C aura plus de raiſon à la moitic de la cir-
+E
+droicts, cc qui eſt faux & contre la poſition qui met les cercles e-
+gaux. Semblablement ſe monſtrera 'arc CB nauoir moindre
+fraiſon àſarc G F que 'angle C H B àhangle G D F. Tellement.
+donc que aux rerches egaux, &c. Pour le regard des angles en la
+circonference qui ſont moitie de ccux qui ſont au centre. puis
+G ij
+A
+
+
+21r.
+10. 6. & faict vn demy cercle ſur H B, & H
+circonference, & ſoient menees H F& FB
+I ELEMIENS DEVCLIDE,
+que ceſt vne meſme raiſon des moities aux moities que du tout
+au tout il n'y aura aucune difficulté.
+Et quant aux ſecteurs s'ils ſont egaux, ils auront les angles du
+centre egaux & leur baſe droite egale à la baſe droicte par la 4.1.
+Et. par la 28. 3 les lignes droictes egales leuent circonferences e-
+gales, les ſecteurs egaux auront donc meſme raiſon l'vn à l'autre
+que l'arc à ſ'arc. Que s'ils ſont inegaux, posõs sil eſt poſſible que
+le plus grand ſecteur C H B a moindre raiſon au plus petit G
+D F que harc C B àl'arc GF. ll senſuyura de ceſte poſition que
+Ie ſecteur I H B aura moins de raiſon au plus petit ſecteur CH B
+dlu meſme cercle, que l'arc I B àlarc C B, & par conſequent que
+tous les deux ſecteurs (c'eſt à dire la moitie du cercle) auront
+moins de raiſon au ſecteur G DF que l'are I B Câl'arc GF. Or
+les quatre angles qui ſont en Dſont egaux & leurs arcs egaux par
+l'ypotheſe: les deux ſecteurs donc IH B & B H C (c'eſt le demy
+cercle) auront moins de raiſon aux quatre ſecteurs de Pautre cer-
+cle D (qu'eſt le demy cercle) que la moitie de la circonference à
+la moitie de la circonference de; meſmes cercles, ce qui eſt faux
+eſtans les cercles poſex egaux. Semblablemẽt ſe pourra demon-
+ſtrer que le plus grand ſecteur n'aura pas plus de raiſon au plus
+etit que Farc à larc, d ont s'enſuyura qu'ils auront meſine raiſon
+Pn àl'autre que l arc à rare.
+PROPOSITION XXXIIII.
+Deſcrire deux figures rectilignes qui aient l'une à lautre la rai-
+ſon donnee, & qui soieni egales, ſemblables & ſemblablemẽt
+deſcrites à une autre figure rectiligne donnee.
+Oit la figure rectiligne donnee H BN
+& la raiſon donnee ſoit G C à CD. Soit
+H B couppee en meſme raiſon en L par la
+
+eſſeuee la perpendiculaire LF iuſques à la
+ui comprẽdront vn angle droict par la 31.
+j. La ligne LF ſera moyenne proportionel-
+ſe entre H L & L B parla 13. 6.& les deux triangles HFL & F
+B L ſont equiangles & ſemblables l'vn à hautre & au tout H FE
+arle 8 6. Ainſi donc comme HF eſt à F B,ainſi H Là LF, &
+FLALB. Orles figures ſemblablement deſcrites ſur H F& F B
+ſont P'vne à Fautre comme H LAL B ceſt à dire en raiſon dou-
+blæ par la 20, 6. ll senſuyura donc, icclles figures eſtans ſembla-
+A
+I
+
+LIVRE SIXIESMI. 418
+blement deſcrites commeH B N, eſtre l'vne à l'autre ſelon la rai-
+ſon de H LALSB, ceſt à dire G C à CD. Mais par la 31. 6. les
+deux figures HKF, FIB ſont egales  H NB: il senſuit done
+ni-
+blables à la propoſce & ayans l'vn eà l'autre la raiſon donnee.
+PROPOSITION XXXV.
+Si deux lignes droictes ſe couppent en angle obtus, & des extre-
+miteXd'icelles on tire sur vne chacune vne perpendiculaire,
+les lignes entre les extremiteX & les perpendiculaires se cou-
+pent l'une bautre reciproquement.
+Oient deux lignes H B, G D ſe coupans en
+angles obtus en F, & ſoient tire es les per-
+pendiculaires HD, G B. dautãt que les angles
+D & B ſont droicts, & D FH, BF G egaux par
+lai5. 1. ils enſuyura que Pangle D H F ſera e-ã ︎
+alà B G F comme on peut recutilliv de la 32. 1. & par conſequent
+js triangles H D F& G B F equiangles qui auront leurs coſteæ
+proportionnaux par la 4. 6. laligne H F ſera doncâ F D comme
+G F à F B, ſuyuant la propoſition.
+PROPOSITION XXXVI.
+Si deux lignes droictes comprennent vn angle aigu, & des ex-
+tremitex d'icelles on tire ſur icelles meſber des perpẽdiculai-
+res qui ſe coupent, icelles deux lignes ſeront reciproquement
+proportionnelles comme les ſegments qui ſont au long de
+Vl'angle.
+Rie- deux lignes H B & G B faiſans l'angle
+aigu B, & ſoient tirces les perpendiculaires H
+C, GF. dautant que l'angle H CB eſt droict, &
+egald Pangle G F B &que l'angle B eſt commun,
+les deux angles H & G ſeront egaux par la 32. 1.
+Et les triangles H CB & G F B ſeront equiangles,
+& par conſequent proportionnaux. H B ſera doncâ B C com:
+
+
+
+meG B à BF, & de meſme ſuite comme H B à B G, ainſi F BA
+B C par la 16 dus. i
+PROPOSITIONXXXVII.
+Si deux lignes droittes se coupent l- vne lautre en wn cercle,les
+ſections de l'vne aux ſections de Pautre seront reciproque-
+ment proportionnelles.
+6 ilij
+) .
+
+
+H
+H ]]b]]j[]
+ELEMENS DEVCLIDE,
+Oient deux lignes droictes au cercle ſe coupãs
+l'vne lautre en F. Dautãt que par la35 du 3. le f
+rectangle cõpris de HF, F B eſt egal au rectãgle
+de GF, ID, & que les coſtez des parallelogram-
+mes ſont proportionnaux, ſcauoir ceux au long
+des angles egaux par la 14. 6. lls'enſuyura que
+cõme H F à ID,ainſi GF à EB reciproquemet ; ar la 2 desinition 6
+PROPOSITION XXXVIII.
+Si d'un point donne hors le cercle deux lignes droictes tombent
+dans la circonference caue, icelles seront retiproquement pro-
+portionnelles à leurs parties qui ſont hors le cercle: & entre
+la toute & le ſegment hors dis cercle la moyenne proportion-
+nelle eſt celle quũ eſt inenee du meſme point & touche ſeu-
+lement le cercle.
+ꝗ81t le point donné hors le cercle G, duquel G n
+ſoient menees deus lignes droictes à la cir-
+conference caue G B, G D, & du meſme ſoit me- c
+nee G H qui touchæ ſeulement le cercle en H. B
+Dautant que le rectangle compris de GS8, GF
+eſt egal au rectangle de G D, G C comme on peut o
+recueillir de la 35. 3. lIs'enſuyura que les coltes diceux rectãgles
+ſeront proportionnaux par la 14. 6. il ſera donc 6 B à G D reci-
+proquement comme leurs parties hors du cercle G C à GF. Da-
+uantage dautant que par la meſme 36. le quarré de G H eſt egal
+au rectangle de G B, G F, ou de GD, G q, il senſuyura par la ſe-
+B
+conde partie de la 17. 6. que la ligne G H ſera moyenne propor-
+tionnelle entre G B & GF, ou entre G D & G C.
+: PROPOSITION XXXIX.
+Si deux ligne droictes ſint coupees par deux paralleles droictes,
+elles ſont coupees des meſmes en meſmes raiſcns.
+Gòiemtles deùx lignes droites H B, C D cou- 55 c
+pees par deux paralleles H C, F G. ſoit menee
+CB coupãt en l la ligne F G par la 2. 6. comme 2 G
+HF à F B, ainſi CI IB, & comme CI IB,
+ainſi C Gà G D. Voila donc comme H F eſt à
+F B, ainſi C Gà GD par la 11. dus. u p
+I . /
+FIN DV SIXIE SME LIVRE
+
+AAA
+
+
+
+
+
+
+
+i ]
+
+Il
+lI
+.
+I
+3
+l
+:
+-
+.
+
+
+
+
+
+

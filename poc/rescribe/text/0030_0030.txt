@@ -1,0 +1,41 @@
+A
+LIVRE PREMIERE 1090
+Deſcrire vn parallelogramme, egal à vne tgure rectiligne
+. \ 7
+donnee, ayant un angle egal à un angle rectiligne donne.
+Oit la figure rectiligne donnee ꝓa o
+HPCN reduicte en triangles N canda
+H PN, NPC(comme toutes autres /.
+figures rectilignes de pluſicurs co-s ſ
+ſteæ peuuent eſtro reduites. Soit: &KIA
+langle donné L, & la ligne propoſee
+b , & P P :
+KF, ſur laquelle & au point K ſoit faict vn angle egal àl, & ſur
+la meſme ſoit appliqué par la precedente vn parallelogramme egal
+au triangle H PN comme KF G I, & ſemblablement ſoit ſur IG
+(egale à KF) aplicquèé vn autre parallelogramme egal au trian-
+gle PCN, comme I G OM. Dautant que KF eſt parallele &
+cgale à IG, & celle-cy à MO, Il fenſuyura que KM& FO ſer6t
+egales & paralleles: pas la 33. & que la figure entiere F M ſera
+vn parallelogramme ayant l'angle donnè & la ligne dõnee egaſ
+àe àla figure rectiligne propoſce H P CN.
+PROPOSITIONXLVI.
+D'vne ligne droicte donnee d eſcrire vn quarre.
+S Vr la ligne donnee H P ſoit eſſeuec la perpendi-
+culaire du point H comme H L., par la 11. & ſoit, V
+faicte HN egale à H P. Apres ſoit du point N tiree
+NF parallele à H P, & du point P ſoit tiree PF paral- -
+lele à HN. II eſt cuident que la figure eſt equilate- p1 P
+rale & parallelogramme, & que l'angle H eſt egal
+àloppoſé. par la 34. Mais les deux angles H & P valent deux
+droicts par la 29. Il ſenſuyt donc que P eſt droict, comme auſſi
+ſoppoſé N. tellement que H PF Neſt vn quarrè.
+PROPOSITIONXLVII.
+Aux triangles rectangles le quarrè qui eſt faict dis costeé qui
+ſo ustient Pangle droict, eſt egal aux quarrez qui ſont faicts
+des co ſteX qui comprennent P'an igle droict. :
+Oit le triangle rectangleH P C ayant Fangle H droit: ſoĩent
+auſſi les trois quarrez d'eſcrits ſur ſes coſteæ b S L N, HIKC,
+& HG Z P. Pour monſtrer que le quarré CN (oppoſc alangle
+droict H)eſt egal aux deux autres, ſoit tiree ſur NI. la perpendi-
+B ij

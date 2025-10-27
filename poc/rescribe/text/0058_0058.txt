@@ -1,0 +1,37 @@
+LIVRE TROISIESME 84
+PROPOSITION XXXI.
+Au cercle, Pangle qui eſt aius demy cercle, eſt droict: & celuy
+qui eſt en la plus grande ſection, eſt plus petit quvn droict-
+mais celuy qui eſt en la plus petite section, eſt plus grand
+qu'vn droict. Et d'auantage langle de la plus grande ſe-
+ction, eſt bien plus grand qu' vn droict : mais V'angle de la
+plus petite ſection, eſ plus petit qu'vn droict,
+
+AVcercle H O B C duquel le centre I ſoit 4
+Alge C H B dans le demy cercle. Soit o
+mené le diumetre BI C. & en la plus grande
+ſection ſoit 'angle H CB, & en la moindre ſoits
+l'angle H O B. L'angle mixte de la plus grande
+ſection ſoit compris de la ligne droicte B H &
+de l'arc H C, & l'angle mixte de la moindre
+ſoit compris de la meſme B H & del'arc H O. Soit prolongee
+C Hen Z & menee IH. D'autant que les angles I CH, IH C
+ſont egaux, comme auſſi I BH, B H I, tout l'angle B H C ſera
+egal aux angles H BI, H CI: & à ces deux cy eſt egal l'angle
+exterieur Z H B par la 32. du t. Ils'enſuyura donc que Z H B, &
+B H C ſeront egaux, & par conſequent droicts par la 10 definition
+du I. & par la 13. propoſition. L'angle donc qui eſt au demy cercle
+eſt droict. IM.
+Pour le ſecond l'angle de la plus grande ſection, ſcauoit H CB
+a eſté moindre qu'vn droict: mais aux figures quadrilateres deſ-
+crites en vn cercle les angles oppoſeæ ſont egaux à deux droicts
+par la 22. de celiure. Langle BO H ſera donc plus grand qu'vn
+droict. Pour le dernier 'angle mixte B H C comprenant l'angte
+droict ſera plus grand que le droict: & l'angle mixte de la plus pe-
+tite ſection B HO moindre que Z H B quia eſté monſtré droit.
+PROPOSITIONXXXII.
+Si quelque ligne droicte touche le cercle, & de l'atouchemeni
+on meine quelque ligne droicte couppant le cercle: les angles
+quelle faict à a touchante, ſont egaux à ceux qui conſistent
+aux ſections alternes du cercle..
+..

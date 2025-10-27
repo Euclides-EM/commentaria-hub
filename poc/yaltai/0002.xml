@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+    xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-3.xsd">
+    <Description>
+        <MeasurementUnit>pixel</MeasurementUnit>
+        <sourceImageInformation>
+            <fileName>/Users/mia/Downloads/ocr_test_8oct/1598_ERRARD_LessixpremiersliuresdeselemensdEuclidetraduictsc_bW9q_TRw0mcC/0002.jpg</fileName>
+        </sourceImageInformation>
+        <Processing ID="OCR_">
+            <processingCategory>contentGeneration</processingCategory>
+            <processingStepDescription>Baseline and region segmentation</processingStepDescription>
+            <processingStepSettings>model: blla.mlmodel; text_direction: horizontal-lr</processingStepSettings>
+            <processingSoftware>
+                <softwareName>kraken</softwareName>
+                <softwareVersion>5.3.0</softwareVersion>
+            </processingSoftware>
+        </Processing>
+        <Processing ID="OCR_f8cedf72-4659-4f15-85ea-f50c1851e846">
+            <processingCategory>contentGeneration</processingCategory>
+            <processingStepDescription>Text line recognition</processingStepDescription>
+            <processingStepSettings>text_direction: horizontal-tb; models: Gallicorpor.mlmodel; pad: 16; bidi_reordering: True</processingStepSettings>
+            <processingSoftware>
+                <softwareName>kraken</softwareName>
+                <softwareVersion>5.3.0</softwareVersion>
+            </processingSoftware>
+        </Processing>
+    </Description>
+    <Tags>
+        <OtherTag DESCRIPTION="line type" ID="LINE_TYPE_1" TYPE="type" LABEL="default"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_1" TYPE="region" LABEL="MainZone-Entry"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_2" TYPE="region" LABEL="MarginTextZone-Notes-Continued"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_3" TYPE="region" LABEL="DigitizationArtefactZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_4" TYPE="region" LABEL="MainZone-Sp-Continued"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_5" TYPE="region" LABEL="MainZone-Lg"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_6" TYPE="region" LABEL="GraphicZone-Decoration"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_7" TYPE="region" LABEL="MainZone-Form"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_8" TYPE="region" LABEL="MainZone-Head"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_9" TYPE="region" LABEL="GraphicZone-Part"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_10" TYPE="region" LABEL="StampZone-Sticker"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_11" TYPE="region" LABEL="MainZone-List"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_12" TYPE="region" LABEL="TitlePageZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_13" TYPE="region" LABEL="TableZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_14" TYPE="region" LABEL="AdvertisementZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_15" TYPE="region" LABEL="RunningTitleZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_16" TYPE="region" LABEL="GraphicZone-TextualContent"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_17" TYPE="region" LABEL="MainZone-Lg-Continued"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_18" TYPE="region" LABEL="GraphicZone-FigDesc"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_19" TYPE="region" LABEL="MainZone-Entry-Continued"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_20" TYPE="region" LABEL="GraphicZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_21" TYPE="region" LABEL="MainZone-List-Continued"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_22" TYPE="region" LABEL="GraphicZone-Maths"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_23" TYPE="region" LABEL="MainZone-Signature"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_24" TYPE="region" LABEL="StampZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_25" TYPE="region" LABEL="MainZone-P-Continued"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_26" TYPE="region" LABEL="MainZone-Sp"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_27" TYPE="region" LABEL="FigureZone-Head"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_28" TYPE="region" LABEL="MainZone-Date"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_29" TYPE="region" LABEL="TableZone-Continued"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_30" TYPE="region" LABEL="MarginTextZone-ManuscriptAddendum"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_31" TYPE="region" LABEL="NumberingZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_32" TYPE="region" LABEL="GraphicZone-Head"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_33" TYPE="region" LABEL="TitlePageZone-Index"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_34" TYPE="region" LABEL="QuireMarksZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_35" TYPE="region" LABEL="FigureZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_36" TYPE="region" LABEL="MarginTextZone-Notes"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_37" TYPE="region" LABEL="DropCapitalZone"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_38" TYPE="region" LABEL="MainZone-Other"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_39" TYPE="region" LABEL="MainZone-P"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_40" TYPE="region" LABEL="FigureZone-FigDesc"/>
+        <OtherTag DESCRIPTION="region type" ID="REGION_TYPE_41" TYPE="region" LABEL="TableZone-Head"/>
+    </Tags>
+    <Layout>
+        <Page WIDTH="1605" HEIGHT="2500" PHYSICAL_IMG_NR="0" ID="page_0">
+            <PrintSpace HPOS="0" VPOS="0" WIDTH="1605" HEIGHT="2500">
+                <TextBlock ID="textblock_1">
+                    
+                    <TextLine ID="a292fac8-034b-4ba7-84aa-7b5141ed7f28" HPOS="215" VPOS="997" WIDTH="260" HEIGHT="108" BASELINE="218 1068 473 1056" TAGREFS="LINE_TYPE_1">
+                        <Shape>
+                            <Polygon POINTS="218 1068 218 1094 247 1105 248 1105 250 1105 307 1102 308 1102 309 1102 309 1101 325 1084 377 1083 411 1083 429 1097 430 1097 432 1097 433 1097 475 1094 473 1056 468 1000 423 1006 400 997 398 997 397 997 396 997 394 997 377 1009 258 1002 257 1002 255 1002 254 1002 254 1004 243 1015 215 1016 218 1068"/>
+                        </Shape>
+                        <String ID="segment_0" CONTENT="On444." HPOS="218" VPOS="1002" WIDTH="257" HEIGHT="102" WC="0.8308">
+                            <Shape>
+                                <Polygon POINTS="218 1068 218 1068 475 1094 473 1056"/>
+                            </Shape>
+                            <Glyph ID="char_0" CONTENT="O" HPOS="218" VPOS="1068" WIDTH="0" HEIGHT="0" GC="0.9981">
+                                <Shape>
+                                    <Polygon POINTS="218 1068 218 1068 218 1068 218 1068"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_1" CONTENT="n" HPOS="264" VPOS="1002" WIDTH="12" HEIGHT="102" GC="0.9958">
+                                <Shape>
+                                    <Polygon POINTS="264 1002 269 1104 276 1104 271 1003"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_2" CONTENT="4" HPOS="313" VPOS="1005" WIDTH="4" HEIGHT="87" GC="0.2774">
+                                <Shape>
+                                    <Polygon POINTS="313 1005 317 1092 317 1092 313 1005"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_3" CONTENT="4" HPOS="375" VPOS="1009" WIDTH="4" HEIGHT="74" GC="0.9999">
+                                <Shape>
+                                    <Polygon POINTS="375 1009 379 1083 379 1083 375 1009"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_4" CONTENT="4" HPOS="431" VPOS="1005" WIDTH="5" HEIGHT="92" GC="0.9995">
+                                <Shape>
+                                    <Polygon POINTS="431 1005 436 1097 436 1097 431 1005"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_5" CONTENT="." HPOS="473" VPOS="1056" WIDTH="2" HEIGHT="38" GC="0.7142">
+                                <Shape>
+                                    <Polygon POINTS="473 1056 475 1094 475 1094 473 1056"/>
+                                </Shape>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+
+                    
+                    <TextLine ID="9c69cb69-0694-4846-9e23-e23cdc6eff21" HPOS="528" VPOS="941" WIDTH="462" HEIGHT="140" BASELINE="530 1058 796 1044 990 1047" TAGREFS="LINE_TYPE_1">
+                        <Shape>
+                            <Polygon POINTS="530 1058 530 1075 585 1081 586 1081 587 1081 615 1072 636 1079 637 1079 639 1079 640 1079 642 1079 657 1065 719 1063 768 1075 769 1075 771 1075 772 1075 772 1073 785 1062 803 1075 804 1075 805 1075 807 1075 808 1075 810 1075 810 1073 822 1063 989 1072 990 1047 988 969 906 963 904 963 903 963 901 963 890 970 830 941 829 941 799 941 797 941 757 943 755 943 754 943 708 975 667 947 665 947 664 947 662 947 661 947 660 947 647 955 632 951 630 951 629 951 628 951 626 951 598 969 569 968 568 968 566 968 565 968 565 969 551 981 528 981 530 1058"/>
+                        </Shape>
+                        <String ID="segment_1" CONTENT="edccfaoles" HPOS="553" VPOS="941" WIDTH="402" HEIGHT="137" WC="0.925">
+                            <Shape>
+                                <Polygon POINTS="553 979 558 1078 953 1070 955 967"/>
+                            </Shape>
+                            <Glyph ID="char_6" CONTENT="e" HPOS="553" VPOS="979" WIDTH="5" HEIGHT="99" GC="0.9999">
+                                <Shape>
+                                    <Polygon POINTS="553 979 558 1078 558 1078 553 979"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_7" CONTENT="d" HPOS="597" VPOS="964" WIDTH="15" HEIGHT="112" GC="1.0">
+                                <Shape>
+                                    <Polygon POINTS="597 969 603 1076 612 1073 606 964"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_8" CONTENT="c" HPOS="678" VPOS="954" WIDTH="6" HEIGHT="110" GC="0.9999">
+                                <Shape>
+                                    <Polygon POINTS="678 954 684 1064 684 1064 678 954"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_9" CONTENT="c" HPOS="706" VPOS="973" WIDTH="5" HEIGHT="90" GC="0.9987">
+                                <Shape>
+                                    <Polygon POINTS="706 973 711 1063 711 1063 706 973"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_10" CONTENT="f" HPOS="759" VPOS="943" WIDTH="7" HEIGHT="132" GC="0.9998">
+                                <Shape>
+                                    <Polygon POINTS="759 943 766 1075 766 1075 759 943"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_11" CONTENT="a" HPOS="786" VPOS="941" WIDTH="16" HEIGHT="132" GC="0.9999">
+                                <Shape>
+                                    <Polygon POINTS="786 942 793 1068 800 1073 802 941"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_12" CONTENT="o" HPOS="836" VPOS="945" WIDTH="2" HEIGHT="119" GC="0.9657">
+                                <Shape>
+                                    <Polygon POINTS="838 945 836 1064 836 1064 838 945"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_13" CONTENT="l" HPOS="872" VPOS="962" WIDTH="2" HEIGHT="104" GC="1.0">
+                                <Shape>
+                                    <Polygon POINTS="874 962 872 1066 872 1066 874 962"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_14" CONTENT="e" HPOS="908" VPOS="963" WIDTH="2" HEIGHT="105" GC="0.9151">
+                                <Shape>
+                                    <Polygon POINTS="910 963 908 1068 908 1068 910 963"/>
+                                </Shape>
+                            </Glyph>
+                            <Glyph ID="char_15" CONTENT="s" HPOS="953" VPOS="967" WIDTH="2" HEIGHT="103" GC="0.3714">
+                                <Shape>
+                                    <Polygon POINTS="955 967 953 1070 953 1070 955 967"/>
+                                </Shape>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+
+                    
+                    <TextLine ID="3d7d5a5e-88be-4e2f-9d26-1a3242bc5182" HPOS="992" VPOS="987" WIDTH="215" HEIGHT="90" BASELINE="993 1047 1207 1044" TAGREFS="LINE_TYPE_1">
+                        <Shape>
+                            <Polygon POINTS="993 1047 993 1077 1051 1068 1095 1070 1096 1070 1097 1070 1099 1070 1108 1062 1151 1072 1153 1072 1207 1065 1207 1044 1202 988 1179 995 1093 987 1092 987 1090 987 1089 987 1089 988 1058 1019 992 1019 993 1047"/>
+                        </Shape>
+                        <String ID="segment_2" CONTENT="Z" HPOS="993" VPOS="1047" WIDTH="0" HEIGHT="0" WC="0.9991">
+                            <Shape>
+                                <Polygon POINTS="993 1047 993 1047 993 1047 993 1047"/>
+                            </Shape>
+                            <Glyph ID="char_16" CONTENT="Z" HPOS="993" VPOS="1047" WIDTH="0" HEIGHT="0" GC="0.9991">
+                                <Shape>
+                                    <Polygon POINTS="993 1047 993 1047 993 1047 993 1047"/>
+                                </Shape>
+                            </Glyph>
+                        </String>
+                    </TextLine>
+
+                </TextBlock>
+                <TextBlock ID="d116258a-b123-48af-bcea-d372684cbe87" HPOS="859" VPOS="71" WIDTH="249" HEIGHT="187" TAGREFS="REGION_TYPE_30">
+<Shape>
+                        <Polygon POINTS="859 71 1108 71 1108 258 859 258 859 71"/>
+                    </Shape></TextBlock>
+                <TextBlock ID="dd0678a1-9e83-41d1-a676-b75bf627b5b5" HPOS="426" VPOS="67" WIDTH="685" HEIGHT="197" TAGREFS="REGION_TYPE_30">
+<Shape>
+                        <Polygon POINTS="426 67 1111 67 1111 264 426 264 426 67"/>
+                    </Shape></TextBlock>
+                <TextBlock ID="39933e97-7b7e-4ae4-b942-447374e6b716" HPOS="202" VPOS="68" WIDTH="913" HEIGHT="217" TAGREFS="REGION_TYPE_30">
+<Shape>
+                        <Polygon POINTS="202 68 1115 68 1115 285 202 285 202 68"/>
+                    </Shape></TextBlock>
+            </PrintSpace>
+        </Page>
+    </Layout>
+</alto>

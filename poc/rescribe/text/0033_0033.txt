@@ -1,0 +1,34 @@
+-
+LE SECOND LIVRE DES
+ELEMENTS DEVCLIDE.
+DEFINITION PREMIERE.
+NOMR826 OVT parallelogramme rectangle eſt
+3 ſ dict eſtre contenu de deux lignes
+droictes qui comprennent l'angle
+droict
+
+ii- vn chacun d'iccux parallelogrammes
+qnui ſont ſur le diametre ayant vn angle commun,
+aucc les deux ſupplements ſe nomme gnomon.
+PROPOSITION I.
+S'ily a deux lignes droictes, dont P'une soit couppee en autant de
+parties qu'on voudra, le rectangle contenis des deux lignes
+droictes eft egal aux rectangles contenus de la non-couppee,
+& d'vne chacune piece de l a couppee.
+Sßientles deux lignes H & G 1, deſquelles G ÆH.
+ſoit couppee en K, O, ſoit au point G eſſeuce ♈︎
+Ilaperpendiculaire G B & faicte egale à H. Soit
+en apres tirce B C parallele à I G, & CI a BG,
+
+icelles ſeront egales aux oppoſces, & feront vn re- &︎7︎︎︎
+ctangle B I. ſoient auſſi tirees K N& OL paral-
+Ieles à B G, & par conſequent egales: Il eſt euident que les trois
+parallelogrammes, BK, NO, L I ſeront rectangles par la 29.
+& compris de la ligne non couppee B G (ceſt à dire H) & de
+chacune piece de la couppee GK, KO, O I: & pource qu'ils
+compoſent le tout B I, ils luy ſeront donc egaux.
+PROPOSITION II.
+Si vne ligne droicte eſt couppee comme on voudra, les rectangles
+contenus de toute la ligne, & d'vne chacune piece, ſonte-
+gaux au quarré de toute la ligne.
+2. En tout eſpace parallelogramme,

@@ -1,0 +1,39 @@
+4
+ELEMIENS  DEVCLIDE,
+ſidu B G (eſtant ſeulement egale à F B) il ne ſe pourra donc ti-
+rer du centre aucune autre ligne en angles droicts ſur NO que
+F C, ſur le point de 'atouchement C.
+PROPOSITIONXIX.
+Si vne ligne droicte touche vn cercle, & on mene de Patouche-
+ment vne ligne droicte à droicts angles ſur la touthante, le
+centre dis cercle ſera en la menee.
+SQitha ligne droicte O I, touchant le cer-
+cle en & du point C ſoit eſſeuee en an-
+gles droicts C H. Si le centre du cercle n'eſt
+en laligne CH, ſoit s'il eſt poſſible en F, &
+ſoit tiree FC, celle-cy ſera en angles droicts
+ſur O I par la precedente: FCI ſera fonc droict. o X
+Mais il eſt moindre que l'angle H C I quia c
+eſté faict droict (ce qui eſtpoſſible) le centre du cercle ne ſera
+donc point hors la ligne H C.
+PROPOSITION XX.
+Ali cercle l'angle du centre est double à langle qui eſten la cir-
+conference, quant iceux angles ont pour baſe vne meſme cir-
+conference.
+Oit ſur la baſe B Cſangle au centre BIC, H
+& l'angle en la circonference B H C, & ſoit
+meénee HF : le triangle H I B ſera iſoſcele, &
+ſaſgle exterieur BIF eſt egal aux angles HBIN
+& BH I, par lag2. du premier: BIF fera donc VW
+*
+F
+double à B H I. Semblablement ſe demon-
+trera de ÆI C. Mais ſile centre eſt hors des
+lignes, comme pour exemple de Fangle B O C, ſoit tiree O IN.
+L'angle exterieur NI C eſt egal aux interieurs I O C, & ICO,
+& par conſequent double àl O C. Comme auſſi NIB eſt egal
+ANOB&IB O, & par conſquent double à I O B. Si doncle
+double NIB eſt oſté du double NIC, &le ſimple I O B du
+ſimple I O C, le reſtant B I C ſera double au reſtant B O C.
+Dececy reſulte que ji la baſe subrendente les angles, excede la moitié de
+s

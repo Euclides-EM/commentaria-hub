@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='tesseract 4.1.1' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf'/>
+ </head>
+ <body>
+  <div class='ocr_page' id='page_1' title='image "/var/folders/41/w2d5q5w563s7zkmlm_2698180000gn/T/1598_ERRARD_LessixpremiersliuresdeselemensdEuclidetraduictsc_bW9q_TRw0mcC/0108_0108_bin0.1.png"; bbox 0 0 1527 2500; ppageno 0'>
+   <div class='ocr_carea' id='block_1_1' title="bbox 0 0 1527 2500">
+    <p class='ocr_par' id='par_1_1' lang='rescribev9_fast' title="bbox 0 0 1527 2500">
+     <span class='ocr_line' id='line_1_1' title="bbox 0 0 1527 2500; baseline 0 0; x_size 1250; x_descenders -625; x_ascenders 625">
+      <span class='ocrx_word' id='word_1_1' title='bbox 0 0 1527 2500; x_wconf 95'> </span>
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

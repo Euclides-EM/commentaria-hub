@@ -1,0 +1,41 @@
+ELEMENS DEVCLIDS,
+de meſme l'vn àl'autre par ainſi toute la figure rectiligne H B I
+G ſera ſemblable a C DLE, & ſemblablement deſcrite ſur la li-
+gne donnee. :
+: PROPOSITION XIX.
+Les triangles ſemblables sont lum à lautre en raiſon double de
+leurs coſteX de ſemblable raiſon.
+S ientles deux triangles equiangles H BG D
+plus grãd & D F 2Z plus petit, ayansles co-
+ſte proportionnaux rla 4 6. ſſauoir cõme
+HB DF,ainſi B G à FZ. ſoit auſſi comme B
+GàFZ, ainſi FZà B I parla 11 S6. par ainſi ces 7
+trois lignes ſeront proportionnelles, & la pre- F
+miere BGa la troiſiéme BI aura la raisõ double BT6
+de F Z par la 10. definition du 5. La raiſon doncde HBSOF ſera
+de meſme reciproquement par la 2. desnition du s. Parquoy les
+triangles H B I& DF 4 ſeront egaux(pir la ſeconde partie de la 15
+de ce tns:) les angles F & B ayans eſtè poſé egaux. Mais B G
+eſt àla baſe B I, comme le triangle H B G au triangle H B I
+par la 1. 6. La baſe donc B G ſera a B I commelle triangle HBG
+au triangle D F Zſqui eſt egal à H B Iymais B  à B l ala raiſon
+doublee du coſté BG au coſté F2. 1i s'enſuyura donc que le
+triangle H B G aura au triangle D F Z la raiſon double du coſte
+B Gà B I, ou des autres coſtez de ſemblable raiſon. Les trian-
+gles done, &c.
+PROPOSITION XX.
+Les polygones ſemblables, se peuuent diuiser en triangles ſem-
+lables, egaux en nombre ,& proport ionnaux à leur tout.
+Muis le polygone a au polygone la raiſon double dis coſte de
+ſsemblable raiſon au coſtè de ſemblable raiſon.
+NOient les polygones ſemblables ZLKT I, & æ
+H ED G B: dautant que par Phypotheſe l'an- Q I
+gle B H F eſt egal à l'angle IZ L, & les coſteæ au E
+long des angles egaux proportionnaux, ſcauoir-
+comme BH à HF, ainſi I Z à Z L. Soict mences . 3
+les lignes droictes BF, IL, les triangles H FB, &
+Z L lſerõt equiangles par la 6. de ce liure, & angle E
+HDB F ſera egalà l'angle Z I L. Mais par la conſtruction tout
+Pangle H B G elt egal à tout langle ZIT:oſtant donc H B F&
+ZIL, l'autre angle re bPant F B Gleta egal à lautre LIT parla
+1-

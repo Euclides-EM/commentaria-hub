@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='tesseract 4.1.1' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf'/>
+ </head>
+ <body>
+  <div class='ocr_page' id='page_1' title='image "/var/folders/41/w2d5q5w563s7zkmlm_2698180000gn/T/1598_ERRARD_LessixpremiersliuresdeselemensdEuclidetraduictsc_bW9q_TRw0mcC/0001_0001_bin0.1.png"; bbox 0 0 1575 2500; ppageno 0'>
+   <div class='ocr_carea' id='block_1_1' title="bbox 1195 832 1198 842">
+    <p class='ocr_par' id='par_1_1' lang='rescribev9_fast' title="bbox 1195 832 1198 842">
+     <span class='ocr_line' id='line_1_1' title="bbox 1195 832 1198 842; baseline 0 0; x_size 20; x_descenders 5; x_ascenders 5">
+      <span class='ocrx_word' id='word_1_1' title='bbox 1195 832 1198 842; x_wconf 76'>I</span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_2' title="bbox 924 738 957 753">
+    <p class='ocr_par' id='par_1_2' lang='rescribev9_fast' title="bbox 924 738 957 753">
+     <span class='ocr_line' id='line_1_2' title="bbox 924 738 957 753; baseline -0.03 0; x_size 20; x_descenders 5; x_ascenders 5">
+      <span class='ocrx_word' id='word_1_2' title='bbox 924 738 957 753; x_wconf 0'>⸗</span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_3' title="bbox 937 740 1151 795">
+    <p class='ocr_par' id='par_1_3' lang='rescribev9_fast' title="bbox 937 740 1151 795">
+     <span class='ocr_line' id='line_1_3' title="bbox 937 740 1151 795; baseline 0.005 -22; x_size 61.75; x_descenders 11.5; x_ascenders 16.75">
+      <span class='ocrx_word' id='word_1_3' title='bbox 937 740 1151 795; x_wconf 34'>3389550</span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_4' title="bbox 923 759 956 776">
+    <p class='ocr_par' id='par_1_4' lang='rescribev9_fast' title="bbox 923 759 956 776">
+     <span class='ocr_line' id='line_1_4' title="bbox 923 759 956 776; baseline 0 -6; x_size 25; x_descenders 7; x_ascenders 6">
+      <span class='ocrx_word' id='word_1_4' title='bbox 923 759 956 776; x_wconf 86'>&amp;</span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_5' title="bbox 504 736 581 810">
+    <p class='ocr_par' id='par_1_5' lang='rescribev9_fast' title="bbox 504 736 581 810">
+     <span class='ocr_caption' id='line_1_5' title="bbox 504 736 581 810; x_size 104.5; x_descenders 22; x_ascenders 27.5">
+      <span class='ocrx_word' id='word_1_5' title='bbox 504 736 581 769; x_wconf 25'>n</span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_6' title="bbox 517 709 588 718">
+    <p class='ocr_par' id='par_1_6' lang='rescribev9_fast' title="bbox 517 709 588 718">
+     <span class='ocr_line' id='line_1_6' title="bbox 517 709 588 718; baseline 0 -4; x_size 20; x_descenders 5; x_ascenders 5">
+      <span class='ocrx_word' id='word_1_6' title='bbox 517 709 588 718; x_wconf 49'>-</span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_7' title="bbox 0 0 1575 2500">
+    <p class='ocr_par' id='par_1_7' lang='rescribev9_fast' title="bbox 0 0 1575 2500">
+     <span class='ocr_line' id='line_1_7' title="bbox 0 0 1575 2500; x_size 787.5; x_descenders -393.75; x_ascenders 393.75">
+      <span class='ocrx_word' id='word_1_7' title='bbox 0 0 1575 2500; x_wconf 95'> </span>
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
