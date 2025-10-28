@@ -28,3 +28,6 @@ python scripts/pdf_to_jpg.py datasets/test/pdfs/full/Clavius_1574.pdf datasets/t
 
 # Test Dataset
 
+```bash
+yaltai kraken --device cpu -I "/Users/mia/dev/personal/elements-dh/datasets/test/jpgs/book2/Clavius_1574/*.jpg" --alto --suffix ".xml" segment --yolo /Users/mia/.asdf/runs/detect/train3/weights/last.pt ocr -m /Users/mia/dev/personal/elements-dh/tmp/Gallicorpor.mlmodel
+```
