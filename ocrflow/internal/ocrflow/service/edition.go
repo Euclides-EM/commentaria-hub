@@ -1,30 +1,23 @@
 package service
 
 import (
-	"encoding/json"
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/models"
-	"io"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"log"
-	"net/http"
-	"net/url"
-	"os"
-	"path"
-	"path/filepath"
-	"strings"
 )
 
 // todo: add interfaces to all services
 
 type Edition struct {
-	m             map[string]*models.Edition
-	FacsimilesDir string
+	m                map[string]*models.Edition
+	GithubDownloader *ghwrapper.Downloader
+	FacsimilesDir    string
 }
 
-func NewEditionService(facsimilesDir string) *Edition {
+func NewEditionService(facsimilesDir string, githubDownloader *ghwrapper.Downloader) *Edition {
 	// todo: load from DB, not hardcoded + make sure to not create sync issues with the metadata csvs
 	return &Edition{
-		FacsimilesDir: facsimilesDir,
 		m: map[string]*models.Edition{
 			"Paris_1615": {
 				Key: "Paris_1615",
@@ -36,6 +29,8 @@ func NewEditionService(facsimilesDir string) *Edition {
 				},
 			},
 		},
+		GithubDownloader: githubDownloader,
+		FacsimilesDir:    facsimilesDir,
 	}
 }
 
@@ -98,89 +93,16 @@ func (e *Edition) DownloadFacsimile(editionKey, facsimileID string, forceRedownl
 		return fmt.Errorf("facsimile has no scan URL")
 	}
 
-	googleBookKey := extractGoogleBookKey(targetFacsimile.ScanURL)
-	if googleBookKey == "" {
-		return fmt.Errorf("unsupported scan URL format")
+	if !ghwrapper.IsGitHubTreeURL(targetFacsimile.ScanURL) {
+		return fmt.Errorf("only GitHub tree URLs are supported currently")
 	}
 
-	httpClient := http.Client{}
-	metaRes, err := httpClient.Get(
-		fmt.Sprintf("https://www.googleapis.com/books/v1/volumes/%s", googleBookKey),
-	)
-	if err != nil {
-		return fmt.Errorf("failed to fetch book metadata from Google Books API: %w", err)
-	}
-	defer metaRes.Body.Close()
-
-	if metaRes.StatusCode != http.StatusOK {
-		return fmt.Errorf("invalid response from Google Books API: %s", metaRes.Status)
-	}
-
-	var volume struct {
-		AccessInfo struct {
-			PDF struct {
-				IsAvailable  bool   `json:"isAvailable"`
-				DownloadLink string `json:"downloadLink"`
-			} `json:"pdf"`
-		} `json:"accessInfo"`
-	}
-	if err := json.NewDecoder(metaRes.Body).Decode(&volume); err != nil {
-		return fmt.Errorf("failed to decode Google Books response: %w", err)
-	}
-
-	if !volume.AccessInfo.PDF.IsAvailable {
-		return fmt.Errorf("pdf is not available for this volume")
-	}
-
-	if volume.AccessInfo.PDF.DownloadLink == "" {
-		return fmt.Errorf("pdf marked as available but download link is empty")
-	}
-
-	pdfRes, err := httpClient.Get(volume.AccessInfo.PDF.DownloadLink)
-	if err != nil {
-		return fmt.Errorf("failed to download pdf: %w", err)
-	}
-	defer pdfRes.Body.Close()
-
-	if pdfRes.StatusCode != http.StatusOK {
-		return fmt.Errorf("failed to download pdf, status: %s", pdfRes.Status)
-	}
-
-	if err := os.MkdirAll(path.Join(e.FacsimilesDir, "pdfs", editionKey), 0o755); err != nil {
-		return fmt.Errorf("failed to create facsimiles dir: %w", err)
-	}
-
-	destPath := filepath.Join(e.FacsimilesDir, "pdfs", editionKey, fmt.Sprintf("%s.pdf", facsimileID))
-
-	out, err := os.Create(destPath)
-	if err != nil {
-		return fmt.Errorf("failed to create pdf file: %w", err)
-	}
-	defer out.Close()
-
-	if _, err := io.Copy(out, pdfRes.Body); err != nil {
-		return fmt.Errorf("failed to write pdf to disk: %w", err)
+	localPath := fmt.Sprintf("%s/%s/%s.pdf", e.FacsimilesDir, editionKey, facsimileID)
+	if err := e.GithubDownloader.DownloadGitHubTree(targetFacsimile.ScanURL, localPath); err != nil {
+		return fmt.Errorf("failed to download facsimile: %w", err)
 	}
 
 	// todo: update DB with local path, currently it just happens implicitly in memory cause I use pointers
+	targetFacsimile.LocalPath = localPath
 	return nil
 }
-
-func extractGoogleBookKey(s string) string {
-	u, err := url.Parse(s)
-	if err != nil {
-		return ""
-	}
-	if u.Hostname() != "www.google.com" {
-		return ""
-	}
-	if !strings.Contains(u.Path, "/books/") {
-		return ""
-	}
-	parts := strings.Split(u.Path, "/")
-	return parts[len(parts)-1]
-}
-
-// https://www.googleapis.com/books/v1/volumes/XIhmAAAAcAAJ
-// https://www.google.com/books/edition/Euclidis_elementorum_libri_XV/jEoRPuxe_pcC
-// https://developers.google.com/books/docs/v1/using#request_1

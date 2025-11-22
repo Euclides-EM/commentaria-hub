@@ -7,6 +7,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/httpapi"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/service"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"net/http"
 )
 
@@ -27,10 +28,12 @@ func NewHTTPApp() (*App, error) {
 		return nil, fmt.Errorf("init db: %w", err)
 	}
 
+	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
+
 	deps := &httpapi.Dependencies{
 		Env:            env,
 		HealthService:  service.NewHealthService(sqlDB),
-		EditionService: service.NewEditionService(env.FacsimilesDir),
+		EditionService: service.NewEditionService(env.FacsimilesDir, ghDownloader),
 	}
 
 	router := httpapi.NewRouter(deps)
