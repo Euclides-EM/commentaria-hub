@@ -5,8 +5,10 @@ import (
 )
 
 type EnvConfig struct {
-	DBPath        string `env:"DB_PATH"`
+	DBPath string `env:"DB_PATH"`
+	// todo: change to embedded migrations ?
 	MigrationsDir string `env:"MIGRATIONS_DIR"`
+	FacsimilesDir string `env:"FACSIMILES_DIR"`
 	HTTPAddr      string `env:"HTTP_ADDR" envDefault:":8080"`
 }
 

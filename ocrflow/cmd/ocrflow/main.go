@@ -30,17 +30,4 @@ func main() {
 	if err := http.ListenAndServe(addr, a.Router); err != nil {
 		log.Fatalf("server error: %v", err)
 	}
-
-	//config, err := config.InitEnv()
-	//if err != nil {
-	//	log.Fatalf("Error initializing env: %v", err)
-	//}
-	//
-	//if err := db.InitDB(config.DBPath, config.MigrationsDir); err != nil {
-	//	log.Fatalf("Error initializing DB: %v", err)
-	//}
-}
-
-func AvailableEditions() []string {
-	return []string{"community", "enterprise"}
 }

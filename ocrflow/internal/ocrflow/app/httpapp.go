@@ -30,7 +30,7 @@ func NewHTTPApp() (*App, error) {
 	deps := &httpapi.Dependencies{
 		Env:            env,
 		HealthService:  service.NewHealthService(sqlDB),
-		EditionService: service.NewEditionService(),
+		EditionService: service.NewEditionService(env.FacsimilesDir),
 	}
 
 	router := httpapi.NewRouter(deps)
