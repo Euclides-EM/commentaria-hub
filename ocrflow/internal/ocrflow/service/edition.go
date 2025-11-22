@@ -5,6 +5,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/models"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"log"
+	"slices"
 )
 
 // todo: add interfaces to all services
@@ -37,13 +38,13 @@ func NewEditionService(facsimilesDir string, githubDownloader *ghwrapper.Downloa
 
 // ListEditions returns a list of editions.
 // For now, it returns a hardcoded edition with an optional facsimile.
-func (e *Edition) ListEditions(includeFacsimiles bool) ([]*models.Edition, error) {
+func (e *Edition) ListEditions(expand []models.EditionExpandOptions, orderBy []models.EditionOrderByOptions) ([]*models.Edition, error) {
 	eds := make([]*models.Edition, 0)
 	for _, edition := range e.m {
 		ed := &models.Edition{
 			Key: edition.Key,
 		}
-		if includeFacsimiles {
+		if slices.Contains(expand, models.EditionExpandFacsimiles) {
 			facs := make([]*models.Facsimile, len(edition.Facsimiles))
 			for i, fac := range edition.Facsimiles {
 				facs[i] = &models.Facsimile{
@@ -60,7 +61,7 @@ func (e *Edition) ListEditions(includeFacsimiles bool) ([]*models.Edition, error
 }
 
 func (e *Edition) DownloadFacsimile(editionKey, facsimileID string, forceRedownload bool) error {
-	allEditions, err := e.ListEditions(true)
+	allEditions, err := e.ListEditions([]models.EditionExpandOptions{models.EditionExpandFacsimiles}, nil)
 	if err != nil {
 		return fmt.Errorf("failed to list editions: %w", err)
 	}
