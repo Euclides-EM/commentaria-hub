@@ -25,11 +25,7 @@ func NewEditionService(facsimilesDir string, githubDownloader *ghwrapper.Downloa
 					{
 						ID:      "1",
 						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1516.pdf",
-						// https://github.com/OCR-D/gt_structure_text/tree/main/data/alberti_pictura_1540
-						// /repos/ReallyLiri/elements-facsimile/contents/docs/Paris_1516.pdf
-						// download_url
-						// https://api.github.com/repos/ReallyLiri/elements-facsimile/contents/docs/Paris_1516.pdf
-						//ScanURL: "https://www.google.com/books/edition/Les_quinze_livres_des_Elements_d_Euclide/XIhmAAAAcAAJ",
+						//ScanURL: "https://github.com/OCR-D/gt_structure_text/tree/main/data/alberti_pictura_1540",
 					},
 				},
 			},
@@ -103,11 +99,24 @@ func (e *Edition) DownloadFacsimile(editionKey, facsimileID string, forceRedownl
 	}
 
 	localPath := fmt.Sprintf("%s/%s/%s.pdf", e.FacsimilesDir, editionKey, facsimileID)
-	if err := e.GithubDownloader.DownloadGitHubTree(targetFacsimile.ScanURL, localPath); err != nil {
+	if err := e.GithubDownloader.DownloadRecursive(targetFacsimile.ScanURL, localPath); err != nil {
 		return fmt.Errorf("failed to download facsimile: %w", err)
 	}
 
 	// todo: update DB with local path, currently it just happens implicitly in memory cause I use pointers
-	targetFacsimile.LocalPath = localPath
+	e.UpdateFacsimile(editionKey, facsimileID, localPath)
 	return nil
+}
+
+func (e *Edition) UpdateFacsimile(key string, id string, path string) {
+	edition, ok := e.m[key]
+	if !ok {
+		return
+	}
+	for _, fac := range edition.Facsimiles {
+		if fac.ID == id {
+			fac.LocalPath = path
+			return
+		}
+	}
 }
