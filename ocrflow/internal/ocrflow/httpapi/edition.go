@@ -3,6 +3,7 @@ package httpapi
 import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/models"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
 	"net/http"
 )
 
@@ -40,4 +41,25 @@ func (h *Handlers) DownloadFacsimile(r *http.Request) error {
 	forceRedownload := r.URL.Query().Get("force_redownload")
 
 	return h.deps.EditionService.DownloadFacsimile(editionKey, facsimileID, forceRedownload != "")
+}
+
+// ListDatasets godoc
+// @Summary      List Datasets
+// @Description  Get a list of datasets with optional filtering and sorting.
+// @Tags         Datasets
+// @Param        filter  query     string  false  "Filter conditions"
+// @Param        sort    query     string  false  "Sort conditions"
+// @Produce      json
+// @Success      200  {array}   models.Dataset
+// @Router       /datasets [get]
+func (h *Handlers) ListDatasets(r *http.Request) ([]*models.Dataset, error) {
+	filter, err := querylang.ParseFilter(r.URL.Query().Get("filter"))
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse filter: %w", err)
+	}
+	sort, err := querylang.ParseSort(r.URL.Query().Get("sort"))
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse sort: %w", err)
+	}
+	return h.deps.DatasetService.ListDatasets(filter, sort)
 }
