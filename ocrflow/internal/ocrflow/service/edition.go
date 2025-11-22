@@ -24,7 +24,12 @@ func NewEditionService(facsimilesDir string, githubDownloader *ghwrapper.Downloa
 				Facsimiles: []*models.Facsimile{
 					{
 						ID:      "1",
-						ScanURL: "https://www.google.com/books/edition/Les_quinze_livres_des_Elements_d_Euclide/XIhmAAAAcAAJ",
+						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1516.pdf",
+						// https://github.com/OCR-D/gt_structure_text/tree/main/data/alberti_pictura_1540
+						// /repos/ReallyLiri/elements-facsimile/contents/docs/Paris_1516.pdf
+						// download_url
+						// https://api.github.com/repos/ReallyLiri/elements-facsimile/contents/docs/Paris_1516.pdf
+						//ScanURL: "https://www.google.com/books/edition/Les_quinze_livres_des_Elements_d_Euclide/XIhmAAAAcAAJ",
 					},
 				},
 			},

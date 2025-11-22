@@ -14,13 +14,17 @@ import (
 // @description     HTTP API for the OCR pipeline.
 // @BasePath        /
 func main() {
-	err := godotenv.Load()
+	err := godotenv.Load(".env")
 	if err != nil {
-		log.Fatal("Error loading .env file", err)
+		log.Fatalf("error loading .env file: %v", err)
+	}
+	err = godotenv.Load(".env_private")
+	if err != nil {
+		log.Printf("failed to load the optional .env_private file, continuing without it: %v", err)
 	}
 	a, err := app.NewHTTPApp()
 	if err != nil {
-		log.Fatalf("Error initializing app: %v", err)
+		log.Fatalf("error initializing app: %v", err)
 	}
 
 	defer a.Close()

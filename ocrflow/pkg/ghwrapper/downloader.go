@@ -46,9 +46,6 @@ func (d *Downloader) DownloadGitHubTree(treeURL, destRoot string) error {
 	if err != nil {
 		return fmt.Errorf("failed to resolve dest: %w", err)
 	}
-	if err := os.MkdirAll(destRootAbs, 0o755); err != nil {
-		return fmt.Errorf("failed to create dest dir: %w", err)
-	}
 
 	return d.recurseDownload(pu, destRootAbs, "")
 }

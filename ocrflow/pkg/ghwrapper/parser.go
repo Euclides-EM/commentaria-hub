@@ -22,17 +22,41 @@ func parseGitHubTreeURL(raw string) (*ghURLTree, error) {
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse url: %w", err)
 	}
-	if !strings.EqualFold(u.Host, githubHostname) {
-		return nil, fmt.Errorf("not a %s url", githubHostname)
+	switch u.Hostname() {
+	case "raw.githubusercontent.com":
+		parts := strings.Split(strings.Trim(u.Path, "/"), "/")
+		if len(parts) < 3 {
+			return nil, fmt.Errorf("URL must look like https://raw.githubusercontent.com/<owner>/<repo>/<ref>/<path>")
+		}
+		return &ghURLTree{
+			owner: parts[0],
+			repo:  parts[1],
+			ref:   parts[2],
+			path:  strings.Join(parts[3:], "/"),
+		}, nil
+	case "api.github.com":
+		parts := strings.Split(strings.Trim(u.Path, "/"), "/")
+		if len(parts) < 5 || parts[0] != "repos" || parts[3] != "contents" {
+			return nil, fmt.Errorf("URL must look like https://api.github.com/repos/<owner>/<repo>/contents/<path>?ref=<ref>")
+		}
+		ref := u.Query().Get("ref")
+		return &ghURLTree{
+			owner: parts[1],
+			repo:  parts[2],
+			ref:   ref,
+			path:  strings.Join(parts[4:], "/"),
+		}, nil
+	case "github.com":
+		parts := strings.Split(strings.Trim(u.Path, "/"), "/")
+		if len(parts) < 5 || (parts[2] != "tree" && parts[2] != "blob") {
+			return nil, fmt.Errorf("URL must look like https://github.com/<owner>/<repo>/<tree|blob>/<ref>>/<path>")
+		}
+		return &ghURLTree{
+			owner: parts[0],
+			repo:  parts[1],
+			ref:   parts[3],
+			path:  strings.Join(parts[4:], "/"),
+		}, nil
 	}
-	parts := strings.Split(strings.Trim(u.Path, "/"), "/")
-	if len(parts) < 5 || parts[2] != "tree" {
-		return nil, fmt.Errorf("URL must look like https://%s/<owner>/<repo>/tree/<ref>/<path>", githubHostname)
-	}
-	return &ghURLTree{
-		owner: parts[0],
-		repo:  parts[1],
-		ref:   parts[3],
-		path:  strings.Join(parts[4:], "/"),
-	}, nil
+	return nil, fmt.Errorf("invalid hostname: %s", u.Hostname())
 }
