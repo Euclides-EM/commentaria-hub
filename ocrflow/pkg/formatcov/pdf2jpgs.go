@@ -26,7 +26,7 @@ func PDF2JPGs(pdfPath, outDir string) error {
 			return fmt.Errorf("failed to render page %d: %w", i+1, err)
 		}
 
-		outPath := filepath.Join(outDir, fmt.Sprintf("page-%04d.jpg", i+1))
+		outPath := filepath.Join(outDir, fmt.Sprintf("%04d.jpg", i+1))
 		outFile, err := os.Create(outPath)
 		if err != nil {
 			return fmt.Errorf("failed to create image file: %w", err)

@@ -1,10 +1,7 @@
 package httpapi
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/models"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"net/http"
 )
 
@@ -15,95 +12,8 @@ import (
 // @Param        expand  query     string  false  "Include related entities"  Enums(facsimiles)
 // @Param        orderBy query     string  false  "Order by field"            Enums(suggested)
 // @Produce      json
-// @Success      200  {array}   models.Edition
+// @Success      200  {array}   model.Edition
 // @Router       /editions [get]
-func (h *Handlers) ListEditions(r *http.Request) ([]*models.Edition, error) {
-	return h.deps.EditionService.ListEditions(models.ToEditionExpandOptions(r.URL.Query().Get("expand")), models.ToEditionOrderByOptions("orderBy"))
-}
-
-// DownloadFacsimile godoc
-// @Summary      Download Facsimile
-// @Description  Download a facsimile for a given edition.
-// @Tags         Editions
-// @Param        editionKey      path      string  true  "Edition Key"
-// @Param        id              path      string  true  "Facsimile ID"
-// @Param        force_redownload  query     string  false  "Force redownload if already exists"
-// @Produce      json
-// @Success      200  {object}   map[string]string
-// @Router       /editions/{editionKey}/facsimiles/{id}/download [post]
-func (h *Handlers) DownloadFacsimile(r *http.Request) (*models.Facsimile, error) {
-	editionKey := r.PathValue("editionKey")
-	facsimileID := r.PathValue("id")
-
-	if editionKey == "" || facsimileID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	forceRedownload := r.URL.Query().Get("force_redownload")
-
-	return h.deps.EditionService.DownloadFacsimile(editionKey, facsimileID, forceRedownload != "")
-}
-
-// PreProcessFacsimile godoc
-// @Summary      Pre-process Facsimile
-// @Description  Pre-process a facsimile for a given edition.
-// @Tags         Editions
-// @Param        editionKey      path      string  true  "Edition Key"
-// @Param        id              path      string  true  "Facsimile ID"
-// @Param        force_overwrite  query     string  false  "Force overwrite if already pre-processed"
-// @Produce      json
-// @Success      200  {object}   map[string]string
-// @Router       /editions/{editionKey}/facsimiles/{id}/preprocess [post]
-func (h *Handlers) PreProcessFacsimile(r *http.Request) (*models.Facsimile, error) {
-	editionKey := r.PathValue("editionKey")
-	facsimileID := r.PathValue("id")
-
-	if editionKey == "" || facsimileID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	forceOverwrite := r.URL.Query().Get("force_overwrite")
-	facsimile, err := h.deps.EditionService.PreProcessFacsimile(editionKey, facsimileID, forceOverwrite != "")
-	if err != nil {
-		return nil, fmt.Errorf("failed to get facsimile: %w", err)
-	}
-	return facsimile, nil
-}
-
-func (h *Handlers) AnnotateFacsimile(r *http.Request) (*models.Annotation, error) {
-	editionKey := r.PathValue("editionKey")
-	facsimileID := r.PathValue("id")
-
-	if editionKey == "" || facsimileID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
-	var a models.Annotation
-	if err := decoder.Decode(&a); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation: %w", err)
-	}
-
-	return h.deps.EditionService.AnnotateFacsimile(&a)
-}
-
-// ListDatasets godoc
-// @Summary      List Datasets
-// @Description  Get a list of datasets with optional filtering and sorting.
-// @Tags         Datasets
-// @Param        filter  query     string  false  "Filter conditions"
-// @Param        sort    query     string  false  "Sort conditions"
-// @Produce      json
-// @Success      200  {array}   models.Dataset
-// @Router       /datasets [get]
-func (h *Handlers) ListDatasets(r *http.Request) ([]*models.Dataset, error) {
-	filter, err := querylang.ParseFilter(r.URL.Query().Get("filter"))
-	if err != nil {
-		return nil, fmt.Errorf("failed to parse filter: %w", err)
-	}
-	sort, err := querylang.ParseSort(r.URL.Query().Get("sort"))
-	if err != nil {
-		return nil, fmt.Errorf("failed to parse sort: %w", err)
-	}
-	return h.deps.DatasetService.ListDatasets(filter, sort)
+func (h *Handlers) ListEditions(r *http.Request) (any, error) {
+	return h.deps.EditionSvc.ListEditions(model.ToEditionExpandOptions(r.URL.Query().Get("expand")), model.ToEditionOrderByOptions("orderBy"))
 }

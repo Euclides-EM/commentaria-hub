@@ -1,11 +1,11 @@
-package models
+package model
 
 import (
 	"strings"
 )
 
 type Edition struct {
-	Key        string       `json:"key"`
+	Meta
 	Facsimiles []*Facsimile `json:"facsimiles,omitempty"`
 }
 

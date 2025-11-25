@@ -10,9 +10,11 @@ import (
 
 type Dependencies struct {
 	Env            *config.EnvConfig
-	HealthService  *service.Health
-	EditionService *service.Edition
-	DatasetService *service.Dataset
+	HealthSvc      *service.Health
+	EditionSvc     *service.Edition
+	DatasetSvc     *service.Dataset
+	AnnotationsSvc *service.Annotations
+	ModelSvc       *service.Model
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -20,11 +22,14 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	h := NewHandlers(deps)
 
-	mux.HandleFunc("/health", httpwrapper.Get(h.Health))
-	mux.HandleFunc("/editions", httpwrapper.Get(h.ListEditions))
-	mux.HandleFunc("/editions/{editionKey}/facsimiles/{id}/download", httpwrapper.Upsert(h.DownloadFacsimile))
-	mux.HandleFunc("/editions/{editionKey}/facsimiles/{id}/preprocess", httpwrapper.Upsert(h.PreProcessFacsimile))
-	mux.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets))
+	mux.HandleFunc("/health", httpwrapper.Get(h.Health).Build())
+
+	mux.HandleFunc("/editions", httpwrapper.Get(h.ListEditions).Build())
+
+	mux.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
+	mux.HandleFunc("/datasets/{id}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
+
+	mux.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
 
 	mux.Handle("/swagger/", httpSwagger.WrapHandler)
 	return mux

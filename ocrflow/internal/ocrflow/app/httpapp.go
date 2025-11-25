@@ -30,10 +30,19 @@ func NewHTTPApp() (*App, error) {
 
 	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
 
+	heathSvc := service.NewHealthService(sqlDB)
+	modelSvc := service.NewModelService()
+	editionSvc := service.NewEditionService()
+	datasetSvc := service.NewDatasetService(ghDownloader, editionSvc, env.DataDir)
+	annotationsSvc := service.NewAnnotationsService(datasetSvc, modelSvc)
+
 	deps := &httpapi.Dependencies{
 		Env:            env,
-		HealthService:  service.NewHealthService(sqlDB),
-		EditionService: service.NewEditionService(env.FacsimilesDir, ghDownloader),
+		HealthSvc:      heathSvc,
+		EditionSvc:     editionSvc,
+		DatasetSvc:     datasetSvc,
+		AnnotationsSvc: annotationsSvc,
+		ModelSvc:       modelSvc,
 	}
 
 	router := httpapi.NewRouter(deps)
