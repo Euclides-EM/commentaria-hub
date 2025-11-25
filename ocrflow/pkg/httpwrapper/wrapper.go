@@ -27,13 +27,13 @@ func Get[T any](f func(*http.Request) (T, error)) func(w http.ResponseWriter, r 
 	}
 }
 
-func Upsert(f func(*http.Request) error) func(w http.ResponseWriter, r *http.Request) {
+func Upsert[T any](f func(*http.Request) (T, error)) func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
-		err := f(r)
+		resp, err := f(r)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 			return
 		}
-		w.WriteHeader(http.StatusOK)
+		writeJSON(w, http.StatusOK, resp)
 	}
 }

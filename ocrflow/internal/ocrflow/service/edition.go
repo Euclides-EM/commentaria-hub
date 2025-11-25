@@ -3,8 +3,14 @@ package service
 import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/models"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"log"
+	"os"
+	"path"
 	"slices"
 )
 
@@ -12,6 +18,7 @@ import (
 
 type Edition struct {
 	m                map[string]*models.Edition
+	annotationsM     map[string]*models.Annotation
 	GithubDownloader *ghwrapper.Downloader
 	FacsimilesDir    string
 }
@@ -24,8 +31,9 @@ func NewEditionService(facsimilesDir string, githubDownloader *ghwrapper.Downloa
 				Key: "Paris_1615",
 				Facsimiles: []*models.Facsimile{
 					{
-						ID:      "1",
-						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1516.pdf",
+						ID:           "1",
+						ScanURL:      "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1615.pdf",
+						PDFLocalPath: "./facsimiles/Paris_1615/1.pdf",
 						//ScanURL: "https://github.com/OCR-D/gt_structure_text/tree/main/data/alberti_pictura_1540",
 					},
 				},
@@ -47,11 +55,7 @@ func (e *Edition) ListEditions(expand []models.EditionExpandOptions, orderBy []m
 		if slices.Contains(expand, models.EditionExpandFacsimiles) {
 			facs := make([]*models.Facsimile, len(edition.Facsimiles))
 			for i, fac := range edition.Facsimiles {
-				facs[i] = &models.Facsimile{
-					ID:        fac.ID,
-					ScanURL:   fac.ScanURL,
-					LocalPath: fac.LocalPath,
-				}
+				facs[i] = fac.DeepCopy()
 			}
 			ed.Facsimiles = facs
 		}
@@ -60,10 +64,10 @@ func (e *Edition) ListEditions(expand []models.EditionExpandOptions, orderBy []m
 	return eds, nil
 }
 
-func (e *Edition) DownloadFacsimile(editionKey, facsimileID string, forceRedownload bool) error {
+func (e *Edition) GetFacsimile(editionKey, facsimileID string) (*models.Edition, *models.Facsimile, error) {
 	allEditions, err := e.ListEditions([]models.EditionExpandOptions{models.EditionExpandFacsimiles}, nil)
 	if err != nil {
-		return fmt.Errorf("failed to list editions: %w", err)
+		return nil, nil, fmt.Errorf("failed to list editions: %w", err)
 	}
 
 	var targetEdition *models.Edition
@@ -83,41 +87,110 @@ func (e *Edition) DownloadFacsimile(editionKey, facsimileID string, forceRedownl
 
 	if targetEdition == nil || targetFacsimile == nil {
 		// todo: add error handler with 404 response (currently returns 500)
-		return fmt.Errorf("edition or facsimile not found")
+		return nil, nil, fmt.Errorf("edition or facsimile not found")
+	}
+	return targetEdition, targetFacsimile, nil
+}
+
+func (e *Edition) DownloadFacsimile(editionKey, facsimileID string, forceRedownload bool) (*models.Facsimile, error) {
+	_, targetFacsimile, err := e.GetFacsimile(editionKey, facsimileID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get facsimile: %w", err)
 	}
 
-	if !forceRedownload && targetFacsimile.LocalPath != "" {
-		log.Printf("facsimile already downloaded at %s, skipping", targetFacsimile.LocalPath)
-		return nil
+	if !forceRedownload && targetFacsimile.PDFLocalPath != "" {
+		log.Printf("facsimile already downloaded at %s, skipping", targetFacsimile.PDFLocalPath)
+		return targetFacsimile, nil
 	}
 
 	if targetFacsimile.ScanURL == "" {
-		return fmt.Errorf("facsimile has no scan URL")
+		return nil, fmt.Errorf("facsimile has no scan URL")
 	}
 
 	if !ghwrapper.IsGitHubTreeURL(targetFacsimile.ScanURL) {
-		return fmt.Errorf("only GitHub tree URLs are supported currently")
+		return nil, fmt.Errorf("only GitHub tree URLs are supported currently")
 	}
 
 	localPath := fmt.Sprintf("%s/%s/%s.pdf", e.FacsimilesDir, editionKey, facsimileID)
 	if err := e.GithubDownloader.DownloadRecursive(targetFacsimile.ScanURL, localPath); err != nil {
-		return fmt.Errorf("failed to download facsimile: %w", err)
+		return nil, fmt.Errorf("failed to download facsimile: %w", err)
 	}
 
 	// todo: update DB with local path, currently it just happens implicitly in memory cause I use pointers
-	e.UpdateFacsimile(editionKey, facsimileID, localPath)
-	return nil
+	return e.UpdateFacsimile(editionKey, facsimileID, &models.Facsimile{
+		ID:           targetFacsimile.ID,
+		ScanURL:      targetFacsimile.ScanURL,
+		PDFLocalPath: localPath,
+	})
 }
 
-func (e *Edition) UpdateFacsimile(key string, id string, path string) {
+func (e *Edition) PreProcessFacsimile(editionKey, facsimileID string, force bool) (*models.Facsimile, error) {
+	_, targetFacsimile, err := e.GetFacsimile(editionKey, facsimileID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get facsimile: %w", err)
+	}
+	if !force && targetFacsimile.JPGsLocalDir != "" {
+		log.Printf("facsimile already pre-processed at %s, skipping", targetFacsimile.JPGsLocalDir)
+		return targetFacsimile, nil
+	}
+	if targetFacsimile.PDFLocalPath == "" {
+		return nil, fmt.Errorf("facsimile has no local PDF path, download it first")
+	}
+	jpgsDir := fmt.Sprintf("%s/%s/%s_jpgs", e.FacsimilesDir, editionKey, facsimileID)
+	if err := formatcov.PDF2JPGs(targetFacsimile.PDFLocalPath, jpgsDir); err != nil {
+		return nil, fmt.Errorf("failed to pre-process facsimile: %w", err)
+	}
+	f := targetFacsimile.DeepCopy()
+	f.JPGsLocalDir = jpgsDir
+	return e.UpdateFacsimile(editionKey, facsimileID, f)
+}
+
+func (e *Edition) AnnotateFacsimile(a *models.Annotation) (*models.Annotation, error) {
+	_, targetFacsimile, err := e.GetFacsimile(a.EditionKey, a.FacsimileId)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get facsimile: %w", err)
+	}
+	if targetFacsimile.JPGsLocalDir == "" {
+		return nil, fmt.Errorf("facsimile has not been pre-processed yet")
+	}
+	a.ID = idgen.GenerateID()
+	outDir := fmt.Sprintf("%s/%s/%s_annotations/%s", e.FacsimilesDir, a.EditionKey, a.FacsimileId, a.ID)
+	filenames := []string{}
+	pages, err := pagesparser.Parse(a.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse pages: %w", err)
+	}
+	for _, page := range pages {
+		filename := fmt.Sprintf("page-%04d.jpg", page)
+		if _, err := os.Stat(path.Join(outDir, filename)); err != nil {
+			return nil, fmt.Errorf("no such file %s in existing dataset", filename)
+		}
+		filenames = append(filenames, filename)
+	}
+	// inputDir string, outputDir string, krakenModel string, filenames []string
+	if err := krakenwrapper.Recognize(targetFacsimile.JPGsLocalDir, outDir, a.Model, filenames); err != nil {
+		return nil, fmt.Errorf("failed to annotate facsimile: %w", err)
+	}
+	a.AnnotatedLocalDir = outDir
+	return e.UpdateAnnotation(a)
+}
+
+func (e *Edition) UpdateFacsimile(key string, id string, f *models.Facsimile) (*models.Facsimile, error) {
 	edition, ok := e.m[key]
 	if !ok {
-		return
+		return nil, fmt.Errorf("edition not found")
 	}
-	for _, fac := range edition.Facsimiles {
+	for i, fac := range edition.Facsimiles {
 		if fac.ID == id {
-			fac.LocalPath = path
-			return
+			fac = f.DeepCopy()
+			e.m[key].Facsimiles[i] = fac
+			return fac, nil
 		}
 	}
+	return nil, fmt.Errorf("facsimile not found")
+}
+
+func (e *Edition) UpdateAnnotation(a *models.Annotation) (*models.Annotation, error) {
+	e.annotationsM[a.ID] = a.DeepCopy()
+	return a, nil
 }

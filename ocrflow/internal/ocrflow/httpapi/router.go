@@ -23,6 +23,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	mux.HandleFunc("/health", httpwrapper.Get(h.Health))
 	mux.HandleFunc("/editions", httpwrapper.Get(h.ListEditions))
 	mux.HandleFunc("/editions/{editionKey}/facsimiles/{id}/download", httpwrapper.Upsert(h.DownloadFacsimile))
+	mux.HandleFunc("/editions/{editionKey}/facsimiles/{id}/preprocess", httpwrapper.Upsert(h.PreProcessFacsimile))
 	mux.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets))
 
 	mux.Handle("/swagger/", httpSwagger.WrapHandler)

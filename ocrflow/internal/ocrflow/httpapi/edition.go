@@ -1,6 +1,7 @@
 package httpapi
 
 import (
+	"encoding/json"
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/models"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
@@ -30,17 +31,60 @@ func (h *Handlers) ListEditions(r *http.Request) ([]*models.Edition, error) {
 // @Produce      json
 // @Success      200  {object}   map[string]string
 // @Router       /editions/{editionKey}/facsimiles/{id}/download [post]
-func (h *Handlers) DownloadFacsimile(r *http.Request) error {
+func (h *Handlers) DownloadFacsimile(r *http.Request) (*models.Facsimile, error) {
 	editionKey := r.PathValue("editionKey")
 	facsimileID := r.PathValue("id")
 
 	if editionKey == "" || facsimileID == "" {
-		return fmt.Errorf("missing parameters")
+		return nil, fmt.Errorf("missing parameters")
 	}
 
 	forceRedownload := r.URL.Query().Get("force_redownload")
 
 	return h.deps.EditionService.DownloadFacsimile(editionKey, facsimileID, forceRedownload != "")
+}
+
+// PreProcessFacsimile godoc
+// @Summary      Pre-process Facsimile
+// @Description  Pre-process a facsimile for a given edition.
+// @Tags         Editions
+// @Param        editionKey      path      string  true  "Edition Key"
+// @Param        id              path      string  true  "Facsimile ID"
+// @Param        force_overwrite  query     string  false  "Force overwrite if already pre-processed"
+// @Produce      json
+// @Success      200  {object}   map[string]string
+// @Router       /editions/{editionKey}/facsimiles/{id}/preprocess [post]
+func (h *Handlers) PreProcessFacsimile(r *http.Request) (*models.Facsimile, error) {
+	editionKey := r.PathValue("editionKey")
+	facsimileID := r.PathValue("id")
+
+	if editionKey == "" || facsimileID == "" {
+		return nil, fmt.Errorf("missing parameters")
+	}
+
+	forceOverwrite := r.URL.Query().Get("force_overwrite")
+	facsimile, err := h.deps.EditionService.PreProcessFacsimile(editionKey, facsimileID, forceOverwrite != "")
+	if err != nil {
+		return nil, fmt.Errorf("failed to get facsimile: %w", err)
+	}
+	return facsimile, nil
+}
+
+func (h *Handlers) AnnotateFacsimile(r *http.Request) (*models.Annotation, error) {
+	editionKey := r.PathValue("editionKey")
+	facsimileID := r.PathValue("id")
+
+	if editionKey == "" || facsimileID == "" {
+		return nil, fmt.Errorf("missing parameters")
+	}
+
+	decoder := json.NewDecoder(r.Body)
+	var a models.Annotation
+	if err := decoder.Decode(&a); err != nil {
+		return nil, fmt.Errorf("failed to decode annotation: %w", err)
+	}
+
+	return h.deps.EditionService.AnnotateFacsimile(&a)
 }
 
 // ListDatasets godoc
