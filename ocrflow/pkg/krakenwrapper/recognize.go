@@ -1,6 +1,7 @@
 package krakenwrapper
 
 import (
+	"bufio"
 	"fmt"
 	"log"
 	"os"
@@ -46,43 +47,88 @@ func Recognize(inputDir, outputDir, segmentationModel, ocrModel string, filename
 
 // processImages iterates over the list of images and runs the Kraken command for each.
 func processImages(images []string, outputDir, segmentationModel, ocrModel string) error {
+	err, inputOutputPairs, err2 := toInputOutputPairs(images, outputDir)
+	if err2 != nil {
+		return err2
+	}
+	args := []string{
+		"kraken",
+		"--device", "cpu",
+		"--alto",
+	}
+
+	for _, pair := range inputOutputPairs {
+		inputPath := pair[0]
+		outputPath := pair[1]
+		args = append(args, "-i", inputPath, outputPath)
+	}
+
+	args = append(args,
+		"segment",
+		"--yolo", segmentationModel,
+		"ocr",
+		"--model", ocrModel)
+
+	cmd := exec.Command("yaltai", args...)
+
+	stdout, err := cmd.StdoutPipe()
+	if err != nil {
+		return fmt.Errorf("failed to get stdout pipe: %w", err)
+	}
+
+	stderr, err := cmd.StderrPipe()
+	if err != nil {
+		return fmt.Errorf("failed to get stderr pipe: %w", err)
+	}
+
+	// Start process
+	if err := cmd.Start(); err != nil {
+		return fmt.Errorf("failed to start yaltai: %w", err)
+	}
+
+	// Stream stdout
+	go func() {
+		scanner := bufio.NewScanner(stdout)
+		for scanner.Scan() {
+			log.Printf("[yaltai stdout] %s", scanner.Text())
+		}
+	}()
+
+	// Stream stderr
+	go func() {
+		scanner := bufio.NewScanner(stderr)
+		for scanner.Scan() {
+			log.Printf("[yaltai stderr] %s", scanner.Text())
+		}
+	}()
+
+	// Wait for exit
+	if err := cmd.Wait(); err != nil {
+		return fmt.Errorf("yaltai command failed: %w", err)
+	}
+
+	log.Printf("Yaltai command succeeded. Args: %v", args)
+	return nil
+}
+
+// toInputOutputPairs converts a list of image paths to input-output pairs for processing.
+// It is used to prepare the arguments for the Kraken command.
+func toInputOutputPairs(images []string, outputDir string) (error, [][2]string, error) {
 	outputDir, err := filepath.Abs(outputDir)
 	if err != nil {
-		return fmt.Errorf("could not determine absolute path of output directory: %w", err)
+		return nil, nil, fmt.Errorf("could not determine absolute path of output directory: %w", err)
 	}
-	for i, inputPath := range images {
+	inputOutputPairs := make([][2]string, 0, len(images))
+	for _, inputPath := range images {
 		inputPath, err = filepath.Abs(inputPath)
 		if err != nil {
-			return fmt.Errorf("could not determine absolute path of input image %s: %w", inputPath, err)
+			return nil, nil, fmt.Errorf("could not determine absolute path of input image %s: %w", inputPath, err)
 		}
 		base := filepath.Base(inputPath)
 		nameWithoutExt := strings.TrimSuffix(base, filepath.Ext(base))
 		outputPath := filepath.Join(outputDir, nameWithoutExt+".xml")
 
-		log.Printf("[%d/%d] Running OCR on: %s", i+1, len(images), inputPath)
-
-		args := []string{
-			"kraken",
-			"--device", "cpu",
-			"--input", inputPath, outputPath,
-			"--alto",
-			"segment",
-			"--yolo", segmentationModel,
-			"ocr",
-			"--model", ocrModel,
-		}
-
-		cmd := exec.Command("yaltai", args...)
-
-		output, err := cmd.CombinedOutput()
-
-		if err != nil {
-			log.Printf("!!! ERROR processing %s:", inputPath)
-			log.Printf(string(output))
-			return fmt.Errorf("kraken command failed for %s: %w", inputPath, err)
-		}
-
-		log.Printf("   -> Successfully saved result to: %s", outputPath)
+		inputOutputPairs = append(inputOutputPairs, [2]string{inputPath, outputPath})
 	}
-	return nil
+	return err, inputOutputPairs, nil
 }
