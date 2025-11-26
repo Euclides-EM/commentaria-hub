@@ -31,10 +31,10 @@ func NewHTTPApp() (*App, error) {
 	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
 
 	heathSvc := service.NewHealthService(sqlDB)
-	modelSvc := service.NewModelService()
+	modelSvc := service.NewModelService(env.ModelsDir)
 	editionSvc := service.NewEditionService()
 	datasetSvc := service.NewDatasetService(ghDownloader, editionSvc, env.DataDir)
-	annotationsSvc := service.NewAnnotationsService(datasetSvc, modelSvc)
+	annotationsSvc := service.NewAnnotationsService(env.PythonExecutable, datasetSvc, modelSvc)
 
 	deps := &httpapi.Dependencies{
 		Env:            env,

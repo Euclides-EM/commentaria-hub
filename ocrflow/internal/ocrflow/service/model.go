@@ -3,18 +3,26 @@ package service
 import (
 	"errors"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"path"
 )
 
 type Model struct {
-	m map[string]*model.Model
+	m         map[string]*model.Model
+	modelsDir string
 }
 
-func NewModelService() *Model {
+func NewModelService(modelsDir string) *Model {
 	return &Model{
 		m: map[string]*model.Model{
-			"1": {
-				Meta:      model.NewMeta("1"),
-				KrakenRef: "10.5281/zenodo.10592716",
+			"CapricciosaM": {
+				Meta:      model.NewMeta("CapricciosaM"),
+				LocalPath: path.Join(modelsDir, "CapricciosaM.pt"),
+				Type:      model.OCRModelTypeSegment,
+			},
+			"Gallicorpor": {
+				Meta:      model.NewMeta("Gallicorpor"),
+				LocalPath: path.Join(modelsDir, "Gallicorpor.mlmodel"),
+				Type:      model.OCRModelTypeOCR,
 			},
 		},
 	}

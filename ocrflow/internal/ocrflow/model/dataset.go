@@ -6,6 +6,7 @@ type Dataset struct {
 	Edition    Reference `json:"edition"`
 	PDFPath    string    `json:"pdf_path" readonly:"true"`
 	ImagesPath string    `json:"img_path" readonly:"true"`
+	DPI        float64   `json:"dpi" default:"300"`
 }
 
 func (d *Dataset) FacsimileID() string {

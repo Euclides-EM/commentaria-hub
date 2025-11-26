@@ -8,15 +8,30 @@ import (
 
 // Dataset storage layout:
 //
-// <baseDir>
-// └─ <dataset_id>
+// <baseDir>/
+// └─ <dataset_id>/
 //    ├─ <edition_id>_<facsimile_id>.pdf
-//    ├─ imgs
-//    │  ├─ 0001.jpg
-//    │  ├─ 0002.jpg
+//    ├─ imgs/
+//    │  ├─ page-0001.png
+//    │  ├─ page-0002.png
 //    │  └─ ...
-//    └─ annotations
-//       └─ <annotation_id>
+//    └─ annotations/
+//       └─ <annotation_id>/
+//          ├─ alto/
+//          │  ├─ page-0001.xml
+//          │  ├─ page-0002.xml
+//          │  └─ ...
+//          └─ yolo/
+//             ├─ images/
+//             │  ├─ page-0001.jpg
+//             │  ├─ page-0002.jpg
+//             │  └─ ...
+//             ├─ labels/
+//             │  ├─ page-0001.txt
+//             │  ├─ page-0002.txt
+//             │  └─ ...
+//             ├─ config.yml
+//             └─ labelmap.txt
 
 func DatasetPDFPath(ds *model.Dataset, baseDir string) string {
 	return path.Join(baseDir, ds.ID, fmt.Sprintf("%s_%s.pdf", ds.EditionID(), ds.FacsimileID()))
@@ -26,6 +41,14 @@ func DatasetImagesDir(ds *model.Dataset, baseDir string) string {
 	return path.Join(baseDir, ds.ID, "imgs")
 }
 
-func DatasetAnnotationsPath(ann *model.Annotation, baseDir string) string {
+func datasetAnnotationsPath(ann *model.Annotation, baseDir string) string {
 	return path.Join(baseDir, ann.DatasetID(), "annotations", ann.ID)
+}
+
+func DatasetAnnotationAltoDir(ann *model.Annotation, baseDir string) string {
+	return path.Join(datasetAnnotationsPath(ann, baseDir), "alto")
+}
+
+func DatasetAnnotationYoloDir(ann *model.Annotation, baseDir string) string {
+	return path.Join(datasetAnnotationsPath(ann, baseDir), "yolo")
 }

@@ -1,8 +1,16 @@
 package model
 
+type OCRModelType string
+
+const (
+	OCRModelTypeSegment OCRModelType = "segment"
+	OCRModelTypeOCR     OCRModelType = "text"
+)
+
 type Model struct {
 	Meta      `json:",inline"`
-	KrakenRef string `json:"kraken_ref"`
+	LocalPath string       `json:"local_path" readonly:"true"`
+	Type      OCRModelType `json:"type"`
 }
 
 func (m *Model) DeepCopy() *Model {
@@ -11,6 +19,6 @@ func (m *Model) DeepCopy() *Model {
 	}
 	return &Model{
 		Meta:      m.Meta.DeepCopy(),
-		KrakenRef: m.KrakenRef,
+		LocalPath: m.LocalPath,
 	}
 }

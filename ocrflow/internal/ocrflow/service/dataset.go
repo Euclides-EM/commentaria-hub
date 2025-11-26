@@ -22,12 +22,13 @@ type Dataset struct {
 func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Edition, datasetsDir string) *Dataset {
 	return &Dataset{
 		m: map[string]*model.Dataset{
-			"68kywp": {
-				Meta:       model.NewMeta("68kywp"),
+			"rrpbnk": {
+				Meta:       model.NewMeta("rrpbnk"),
 				Facsimile:  model.Reference{ID: "1"},
 				Edition:    model.Reference{ID: "Paris_1615"},
-				PDFPath:    "data/68kywp/Paris_1615_1.pdf",
-				ImagesPath: "data/68kywp/imgs",
+				PDFPath:    "store/data/rrpbnk/Paris_1615_1.pdf",
+				ImagesPath: "store/data/rrpbnk/imgs",
+				DPI:        300.0,
 			},
 		},
 		githubDownloader: githubDownloader,
@@ -64,7 +65,7 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite bool) (*model.Dataset
 		return nil, fmt.Errorf("only GitHub tree URLs are supported currently")
 	}
 
-	if forceOverwrite {
+	if !forceOverwrite {
 		dss, err := d.List(nil, nil)
 		if err != nil {
 			return nil, fmt.Errorf("failed to list datasets: %w", err)
@@ -79,13 +80,17 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite bool) (*model.Dataset
 	ds.PDFPath = store.DatasetPDFPath(ds, d.datasetsDir)
 	ds.ImagesPath = store.DatasetImagesDir(ds, d.datasetsDir)
 
+	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
+		ds.DPI = 300.0
+	}
+
 	log.Printf("Downloading facsimile from %s to %s", targetFacsimile.ScanURL, ds.PDFPath)
 	if err := d.githubDownloader.DownloadRecursive(targetFacsimile.ScanURL, ds.PDFPath); err != nil {
 		return nil, fmt.Errorf("failed to download facsimile: %w", err)
 	}
 
 	log.Printf("Converting facsimile PDF %s to JPGs in %s", ds.PDFPath, ds.ImagesPath)
-	if err := formatcov.PDF2JPGs(ds.PDFPath, ds.ImagesPath); err != nil {
+	if err := formatcov.PDF2PNGs(ds.PDFPath, ds.ImagesPath, ds.DPI); err != nil {
 		return nil, fmt.Errorf("failed to pre-process facsimile: %w", err)
 	}
 
