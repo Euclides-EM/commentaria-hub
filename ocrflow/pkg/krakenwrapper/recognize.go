@@ -13,40 +13,55 @@ import (
 
 var imageFormats = []string{".tif", ".tiff", ".png"}
 
-func Recognize(inputDir, outputDir, segmentationModel, ocrModel string, filenames []string) error {
+func Recognize(inputDir, outputDir, segmentationModel, ocrModel string, filenames []string) (<-chan error, error) {
 	if len(filenames) == 0 {
 		log.Println("No filenames provided for OCR processing.")
-		return nil
+		ch := make(chan error, 1)
+		ch <- nil
+		close(ch)
+		return ch, nil
 	}
+
 	if _, err := os.Stat(inputDir); err != nil {
-		return fmt.Errorf("input directory does not exist: %w", err)
+		return nil, fmt.Errorf("input directory does not exist: %w", err)
 	}
+
 	files := make([]string, 0)
 	for _, filename := range filenames {
-		if !slices.Contains(imageFormats, strings.ToLower(filepath.Ext(filename))) {
-			return fmt.Errorf("input file %s is not a supported image format (TIFF/PNG)", filename)
+		ext := strings.ToLower(filepath.Ext(filename))
+		if !slices.Contains(imageFormats, ext) {
+			return nil, fmt.Errorf("input file %s is not a supported image format (TIFF/PNG)", filename)
 		}
 		inputPath := filepath.Join(inputDir, filename)
 		if _, err := os.Stat(inputPath); err != nil {
-			return fmt.Errorf("input file %s does not exist: %w", inputPath, err)
-		}
-		if strings.ToLower(filepath.Ext(filename)) != ".tif" && strings.ToLower(filepath.Ext(filename)) != ".tiff" && strings.ToLower(filepath.Ext(filename)) != ".png" {
-			return fmt.Errorf("input file %s is not a supported image format (TIFF/PNG)", filename)
+			return nil, fmt.Errorf("input file %s does not exist: %w", inputPath, err)
 		}
 		files = append(files, inputPath)
 	}
+
 	if err := os.RemoveAll(outputDir); err != nil {
-		return fmt.Errorf("could not clean old output directory: %w", err)
+		return nil, fmt.Errorf("could not clean old output directory: %w", err)
 	}
 	if err := os.MkdirAll(outputDir, 0755); err != nil {
-		return fmt.Errorf("could not create output directory: %w", err)
+		return nil, fmt.Errorf("could not create output directory: %w", err)
 	}
 
-	return processImages(files, outputDir, segmentationModel, ocrModel)
+	errCh := processImages(files, outputDir, segmentationModel, ocrModel)
+	return errCh, nil
 }
 
-// processImages iterates over the list of images and runs the Kraken command for each.
-func processImages(images []string, outputDir, segmentationModel, ocrModel string) error {
+func processImages(images []string, outputDir, segmentationModel, ocrModel string) <-chan error {
+	errCh := make(chan error, 1)
+
+	go func() {
+		defer close(errCh)
+		errCh <- runProcessImages(images, outputDir, segmentationModel, ocrModel)
+	}()
+
+	return errCh
+}
+
+func runProcessImages(images []string, outputDir, segmentationModel, ocrModel string) error {
 	err, inputOutputPairs, err2 := toInputOutputPairs(images, outputDir)
 	if err2 != nil {
 		return err2

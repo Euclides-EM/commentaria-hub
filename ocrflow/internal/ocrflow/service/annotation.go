@@ -9,6 +9,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
+	"log"
 	"os"
 	"path"
 )
@@ -41,7 +42,7 @@ func (a *Annotations) ListAnnotations(id string) ([]*model.Annotation, error) {
 	return annotations, nil
 }
 
-func (a *Annotations) Create(datasetID string, ann *model.Annotation) (*model.Annotation, error) {
+func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool) (*model.Annotation, error) {
 	// todo: this must be async with job status tracking
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
@@ -77,9 +78,38 @@ func (a *Annotations) Create(datasetID string, ann *model.Annotation) (*model.An
 		filenames = append(filenames, filename)
 	}
 
-	if err := krakenwrapper.Recognize(ds.ImagesPath, ann.AltoDir, segM.LocalPath, ocrM.LocalPath, filenames); err != nil {
-		return nil, fmt.Errorf("failed to annotate facsimile: %w", err)
+	errCh, err := krakenwrapper.Recognize(
+		ds.ImagesPath,
+		ann.AltoDir,
+		segM.LocalPath,
+		ocrM.LocalPath,
+		filenames,
+	)
+	if err != nil {
+		return nil, fmt.Errorf("failed to start annotation for facsimile: %w", err)
 	}
+
+	if async {
+		toUpdate := ann.DeepCopy()
+
+		go func() {
+			if recErr := <-errCh; recErr != nil {
+				log.Printf("async annotation failed for %s: %v", toUpdate.ID, recErr)
+				return
+			}
+			log.Printf("async annotation completed for %s", toUpdate.ID)
+
+			a.m[toUpdate.ID] = toUpdate
+		}()
+
+		return nil, nil
+	}
+
+	// Synchronous path: wait for OCR to finish
+	if recErr := <-errCh; recErr != nil {
+		return nil, fmt.Errorf("failed to annotate facsimile: %w", recErr)
+	}
+
 	a.m[ann.ID] = ann.DeepCopy()
 	return a.m[ann.ID], nil
 }
@@ -96,6 +126,9 @@ func (a *Annotations) Convert(datasetID string, id string, annc *model.Annotatio
 		return nil, fmt.Errorf("no ALTO annotations found for conversion")
 	}
 	ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.datasetsDir)
+	if err := os.RemoveAll(ann.YoloDir); err != nil {
+		return nil, fmt.Errorf("failed to clear YOLO annotations dir: %w", err)
+	}
 	if err := formatcov.Alto2Yolo(ann.AltoDir, ann.YoloDir, annc.Shuffle, string(annc.SegmontoGranularity)); err != nil {
 		return nil, fmt.Errorf("failed to convert annotations: %w", err)
 	}

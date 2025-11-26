@@ -28,6 +28,7 @@ func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
 // @Description  Create a new annotation for a specific dataset.
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        async	  	 query     bool    false "Process annotation asynchronously"
 // @Param        annotation  body      model.Annotation  true  "Annotation to create"
 // @Produce      json
 // @Success      200  {object}   model.Annotation
@@ -45,7 +46,7 @@ func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
 		return nil, fmt.Errorf("failed to decode annotation: %w", err)
 	}
 
-	return h.deps.AnnotationsSvc.Create(datasetID, &a)
+	return h.deps.AnnotationsSvc.Create(datasetID, &a, r.URL.Query().Get("async") == "true")
 }
 
 // ConvertAnnotations godoc

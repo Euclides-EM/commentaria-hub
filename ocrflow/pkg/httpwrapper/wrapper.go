@@ -56,6 +56,10 @@ func (wb *wrapperBuilder) Create(f func(*http.Request) (any, error)) *wrapperBui
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 			return
 		}
+		if resp == nil {
+			w.WriteHeader(http.StatusAccepted)
+			return
+		}
 		writeJSON(w, http.StatusCreated, resp)
 	}
 	return wb
