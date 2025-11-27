@@ -28,6 +28,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	mux.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
+	mux.HandleFunc("/datasets/{dataSetId}/annotations/upload", httpwrapper.CreateFile(h.UploadAnnotation).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/convert", httpwrapper.Update(h.ConvertAnnotations).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/rbupload", httpwrapper.Update(h.UploadToRoboflow).Build())
 

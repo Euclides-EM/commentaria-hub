@@ -6,6 +6,34 @@ import (
 	"strings"
 )
 
+func ToString(pages []int) string {
+	var parts []string
+	if len(pages) == 0 {
+		return ""
+	}
+	start := pages[0]
+	prev := pages[0]
+	for i := 1; i < len(pages); i++ {
+		if pages[i] == prev+1 {
+			prev = pages[i]
+			continue
+		}
+		if start == prev {
+			parts = append(parts, fmt.Sprintf("%d", start))
+		} else {
+			parts = append(parts, fmt.Sprintf("%d-%d", start, prev))
+		}
+		start = pages[i]
+		prev = pages[i]
+	}
+	if start == prev {
+		parts = append(parts, fmt.Sprintf("%d", start))
+	} else {
+		parts = append(parts, fmt.Sprintf("%d-%d", start, prev))
+	}
+	return strings.Join(parts, ",")
+}
+
 func Parse(pageStr string) ([]int, error) {
 	ranges := strings.Split(pageStr, ",")
 	var pages []int

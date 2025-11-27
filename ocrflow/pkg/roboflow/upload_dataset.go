@@ -64,7 +64,6 @@ func UploadDataset(pythonExecutable string, p *UploadDatasetParams) error {
 	}
 	defer os.Remove(tmp.Name())
 
-	println(script)
 	tmp.WriteString(script)
 	tmp.Close()
 

@@ -155,3 +155,38 @@ func (a *Annotations) UploadToRoboflow(datasetID string, id string, rbu *model.A
 	}
 	return ann.DeepCopy(), nil
 }
+
+func (a *Annotations) CreateFromZip(datasetID string, format model.AnnotationFormat, save func(dstPath string) error) (*model.Annotation, error) {
+	_, err := a.datasetSvc.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	ann := &model.Annotation{
+		Meta: model.NewMeta(idgen.GenerateID()),
+		//Pages             string    `json:"pages"`
+		//AltoDir           string    `json:"alto_dir" readonly:"true"`
+		//YoloDir           string    `json:"yolo_dir" readonly:"true"`
+		Dataset: model.Reference{ID: datasetID},
+		//SegmentationModel Reference `json:"segmentation_model"`
+		//OCRModel          Reference `json:"ocr_model"`
+	}
+	var dstPath string
+	switch format {
+	case model.AnnotationFormatAlto:
+		dstPath = store.DatasetAnnotationAltoDir(&model.Annotation{Meta: model.NewMeta(ann.ID)}, a.datasetSvc.datasetsDir)
+		ann.AltoDir = dstPath
+	case model.AnnotationFormatYolo:
+		dstPath = store.DatasetAnnotationYoloDir(&model.Annotation{Meta: model.NewMeta(ann.ID)}, a.datasetSvc.datasetsDir)
+		ann.YoloDir = dstPath
+	}
+	if err := save(dstPath); err != nil {
+		return nil, fmt.Errorf("failed to store uploaded annotations: %w", err)
+	}
+	pages, err := store.InferPages(dstPath, format)
+	if err != nil {
+		return nil, fmt.Errorf("failed to infer pages from uploaded annotations: %w", err)
+	}
+	ann.Pages = pagesparser.ToString(pages)
+	a.m[ann.ID] = ann.DeepCopy()
+	return a.m[ann.ID], nil
+}

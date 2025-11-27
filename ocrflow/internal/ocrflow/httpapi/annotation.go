@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
 	"net/http"
 )
 
@@ -100,4 +101,26 @@ func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 		return nil, fmt.Errorf("failed to decode annotation roboflow upload: %w", err)
 	}
 	return h.deps.AnnotationsSvc.UploadToRoboflow(datasetID, annotationID, &urb)
+}
+
+// UploadAnnotation godoc
+// @Summary      Upload ZIP File
+// @Description  Upload a ZIP file containing annotations.
+// @Tags         Annotations
+// @Accept       multipart/form-data
+// @Param        file  formData  file  true  "ZIP file to upload"
+// @Param        format  formData  string  true  "Annotation format (ALTO or YOLO)"
+// @Produce      json
+// @Success      201  {object}   model.Annotation
+// @Router       /datasets/{dataSetId}/annotations/upload [post]
+func (h *Handlers) UploadAnnotation(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	if datasetID == "" {
+		return nil, fmt.Errorf("missing dataset ID")
+	}
+	format := model.AnnotationFormat(r.FormValue("format"))
+	if format != model.AnnotationFormatAlto && format != model.AnnotationFormatYolo {
+		return nil, fmt.Errorf("unsupported annotation format: %s", format)
+	}
+	return h.deps.AnnotationsSvc.CreateFromZip(datasetID, format, func(dstPath string) error { return httpwrapper.StoreUncompressedDir(dstPath, r) })
 }

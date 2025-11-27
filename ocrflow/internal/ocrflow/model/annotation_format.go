@@ -1,5 +1,7 @@
 package model
 
+import "strings"
+
 type AnnotationFormat string
 
 const (
@@ -8,7 +10,7 @@ const (
 )
 
 func ToAnnotationFormat(format string) AnnotationFormat {
-	switch format {
+	switch strings.ToLower(format) {
 	case "alto":
 		return AnnotationFormatAlto
 	case "yolo":

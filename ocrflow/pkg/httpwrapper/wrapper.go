@@ -33,6 +33,11 @@ func Create(f func(*http.Request) (any, error)) *wrapperBuilder {
 	return wb.Create(f)
 }
 
+func CreateFile(f func(*http.Request) (any, error)) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.CreateFile(f)
+}
+
 func Update(f func(*http.Request) (any, error)) *wrapperBuilder {
 	wb := &wrapperBuilder{}
 	return wb.Update(f)
@@ -58,6 +63,19 @@ func (wb *wrapperBuilder) Create(f func(*http.Request) (any, error)) *wrapperBui
 		}
 		if resp == nil {
 			w.WriteHeader(http.StatusAccepted)
+			return
+		}
+		writeJSON(w, http.StatusCreated, resp)
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) CreateFile(f func(*http.Request) (any, error)) *wrapperBuilder {
+	wb.post = func(w http.ResponseWriter, r *http.Request) {
+		r.Body = http.MaxBytesReader(w, r.Body, MaxUploadSize)
+		resp, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
 			return
 		}
 		writeJSON(w, http.StatusCreated, resp)
