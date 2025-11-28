@@ -9,6 +9,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
+	"github.com/samber/lo"
 	"log"
 	"os"
 	"path"
@@ -21,14 +22,16 @@ type Annotations struct {
 	m                map[string]*model.Annotation
 	datasetSvc       *Dataset
 	modelSvc         *Model
+	roboflowAPIKey   string
 }
 
-func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSvc *Model) *Annotations {
+func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSvc *Model, roboflowAPIKey string) *Annotations {
 	return &Annotations{
 		pythonExecutable: pythonExecutable,
 		m:                make(map[string]*model.Annotation),
 		datasetSvc:       datasetSvc,
 		modelSvc:         modelSvc,
+		roboflowAPIKey:   roboflowAPIKey,
 	}
 }
 
@@ -57,14 +60,16 @@ func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool
 		return nil, fmt.Errorf("failed to get kraken model: %w", err)
 	}
 
-	ocrM, err := a.modelSvc.Get(ann.OCRModelID())
-	if err != nil {
-		return nil, fmt.Errorf("failed to get ocr model: %w", err)
+	var ocrM *model.Model
+	if ann.OCRModelID() != "" {
+		ocrM, err = a.modelSvc.Get(ann.OCRModelID())
+		if err != nil {
+			return nil, fmt.Errorf("failed to get ocr model: %w", err)
+		}
 	}
 
 	ann.ID = idgen.GenerateID()
 	ann.Dataset = model.Reference{ID: datasetID}
-	ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.datasetsDir)
 	var filenames []string
 	pages, err := pagesparser.Parse(ann.Pages)
 	if err != nil {
@@ -78,15 +83,9 @@ func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool
 		filenames = append(filenames, filename)
 	}
 
-	errCh, err := krakenwrapper.Recognize(
-		ds.ImagesPath,
-		ann.AltoDir,
-		segM.LocalPath,
-		ocrM.LocalPath,
-		filenames,
-	)
+	errCh, err := a.execModel(ds, ann, segM, ocrM, filenames)
 	if err != nil {
-		return nil, fmt.Errorf("failed to start annotation for facsimile: %w", err)
+		return nil, err
 	}
 
 	if async {
@@ -112,6 +111,30 @@ func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool
 
 	a.m[ann.ID] = ann.DeepCopy()
 	return a.m[ann.ID], nil
+}
+
+func (a *Annotations) execModel(ds *model.Dataset, ann *model.Annotation, segM *model.Model, ocrM *model.Model, filenames []string) (<-chan error, error) {
+	switch segM.RunWith {
+	case "kraken":
+		ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.datasetsDir)
+		return krakenwrapper.Recognize(
+			ds.ImagesPath,
+			ann.AltoDir,
+			segM.LocalPath,
+			lo.Ternary(ocrM == nil, "", ocrM.LocalPath),
+			filenames,
+		)
+	case "roboflow":
+		ann.RoboflowDir = store.DatasetAnnotationRoboflowDir(ann, a.datasetSvc.datasetsDir)
+		return roboflow.Recognize(
+			ds.ImagesPath,
+			ann.RoboflowDir,
+			segM.Name,
+			filenames,
+			a.roboflowAPIKey,
+		), nil
+	}
+	return nil, fmt.Errorf("unsupported model runtime: %s", segM.RunWith)
 }
 
 func (a *Annotations) Convert(datasetID string, id string, annc *model.AnnotationConvert) (*model.Annotation, error) {
@@ -140,16 +163,21 @@ func (a *Annotations) UploadToRoboflow(datasetID string, id string, rbu *model.A
 	if !ok || ann.DatasetID() != datasetID {
 		return nil, fmt.Errorf("annotation not found")
 	}
-	if ann.YoloDir == "" {
-		return nil, fmt.Errorf("no YOLO annotations found for upload")
-	}
-	err := roboflow.UploadDataset(a.pythonExecutable, roboflow.NewUploadDatasetParams().
-		SetAPIKey(rbu.APIKey).
+	params := roboflow.NewUploadDatasetParams().
+		SetAPIKey(lo.Ternary(rbu.APIKey == "", a.roboflowAPIKey, rbu.APIKey)).
 		SetWorkspaceID(rbu.WorkspaceID).
 		SetDatasetPath(ann.YoloDir).
 		SetProjectID(rbu.ProjectID).
-		SetIsNotGroundTruth(rbu.IsNotGroundTruth),
-	)
+		SetIsNotGroundTruth(rbu.IsNotGroundTruth)
+	switch {
+	case ann.YoloDir != "":
+		params = params.SetDatasetPath(ann.YoloDir)
+	case ann.RoboflowDir != "":
+		params = params.SetDatasetPath(ann.RoboflowDir)
+	default:
+		return nil, fmt.Errorf("no annotations found for upload to roboflow")
+	}
+	err := roboflow.UploadDataset(a.pythonExecutable, params)
 	if err != nil {
 		return nil, fmt.Errorf("failed to upload to roboflow: %w", err)
 	}

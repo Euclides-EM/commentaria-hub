@@ -1,0 +1,136 @@
+package formatcov
+
+import (
+	"encoding/json"
+	"fmt"
+	"sort"
+	"strings"
+	"time"
+)
+
+type roboflowResult struct {
+	InferenceID string  `json:"inference_id"`
+	Time        float64 `json:"time"`
+	Image       struct {
+		Width  int `json:"width"`
+		Height int `json:"height"`
+	} `json:"image"`
+	Predictions []struct {
+		X          float64 `json:"x"`
+		Y          float64 `json:"y"`
+		Width      float64 `json:"width"`
+		Height     float64 `json:"height"`
+		Confidence float64 `json:"confidence"`
+		Class      string  `json:"class"`
+		ClassID    int     `json:"class_id"`
+		DetectID   string  `json:"detection_id"`
+	} `json:"predictions"`
+}
+
+// Roboflow2Coco converts one or more Roboflow JSON strings into a COCO JSON string.
+func Roboflow2Coco(imageNameToRB map[string]string) (string, error) {
+	var coco cocoRoot
+
+	catMap := make(map[int]cocoCategory) // class_id -> category
+	nextImageID := 1
+	nextAnnID := 1
+
+	coco.Info = cocoInfo{
+		Description: fmt.Sprintf("Converted from Roboflow format with %d images", len(imageNameToRB)),
+		Version:     "1.0",
+		Year:        2025,
+		Contributor: "ocrflow",
+		DateCreated: time.Now().Format("2006/01/02"),
+	}
+
+	coco.Licenses = []cocoLicense{
+		{
+			URL:  "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+			ID:   1,
+			Name: "Attribution-NonCommercial-ShareAlike License",
+		},
+		{
+			URL:  "http://creativecommons.org/licenses/by-nc/2.0/",
+			ID:   2,
+			Name: "Attribution-NonCommercial License",
+		},
+	}
+
+	for imgFile, js := range imageNameToRB {
+		if strings.TrimSpace(js) == "" {
+			continue
+		}
+
+		var rf roboflowResult
+		if err := json.Unmarshal([]byte(js), &rf); err != nil {
+			return "", fmt.Errorf("decode roboflow json: %w", err)
+		}
+
+		imageID := nextImageID
+		nextImageID++
+
+		fileName := imgFile
+		if rf.InferenceID == "" {
+			fileName = fmt.Sprintf("image_%d.jpg", imageID)
+		}
+
+		coco.Images = append(coco.Images, cocoImage{
+			ID:       imageID,
+			FileName: fileName,
+			Width:    rf.Image.Width,
+			Height:   rf.Image.Height,
+		})
+
+		for _, p := range rf.Predictions {
+			// Register category if new
+			if _, ok := catMap[p.ClassID]; !ok {
+				catMap[p.ClassID] = cocoCategory{
+					ID:   p.ClassID,
+					Name: p.Class,
+				}
+			}
+
+			// Roboflow gives center-based boxes, COCO wants top-left
+			xMin := p.X - p.Width/2.0
+			yMin := p.Y - p.Height/2.0
+			if xMin < 0 {
+				xMin = 0
+			}
+			if yMin < 0 {
+				yMin = 0
+			}
+
+			area := p.Width * p.Height
+
+			coco.Annotations = append(coco.Annotations, cocoAnnotation{
+				ID:         nextAnnID,
+				ImageID:    imageID,
+				CategoryID: p.ClassID,
+				BBox:       []float64{xMin, yMin, p.Width, p.Height},
+				Area:       area,
+				IsCrowd:    0,
+				Score:      p.Confidence,
+			})
+			nextAnnID++
+		}
+	}
+
+	// Flatten categories in stable order
+	if len(catMap) > 0 {
+		var ids []int
+		for id := range catMap {
+			ids = append(ids, id)
+		}
+		sort.Ints(ids)
+		for _, id := range ids {
+			coco.Categories = append(coco.Categories, catMap[id])
+		}
+	}
+
+	out, err := json.MarshalIndent(coco, "", "  ")
+	if err != nil {
+		return "", fmt.Errorf("marshal coco json: %w", err)
+	}
+
+	return string(out), nil
+}

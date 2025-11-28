@@ -18,11 +18,21 @@ func NewModelService(modelsDir string) *Model {
 				Meta:      model.NewMeta("CapricciosaM"),
 				LocalPath: path.Join(modelsDir, "CapricciosaM.pt"),
 				Type:      model.OCRModelTypeSegment,
+				RunWith:   "kraken",
+				Name:      "CapricciosaM",
 			},
 			"Gallicorpor": {
 				Meta:      model.NewMeta("Gallicorpor"),
 				LocalPath: path.Join(modelsDir, "Gallicorpor.mlmodel"),
 				Type:      model.OCRModelTypeOCR,
+				RunWith:   "kraken",
+				Name:      "Gallicorpor",
+			},
+			"segmontoRB": {
+				Meta:    model.NewMeta("segmontoRB"),
+				Type:    model.OCRModelTypeSegment,
+				RunWith: "roboflow",
+				Name:    "segmonto/31",
 			},
 		},
 	}

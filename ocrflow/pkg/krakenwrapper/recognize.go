@@ -78,11 +78,11 @@ func runProcessImages(images []string, outputDir, segmentationModel, ocrModel st
 		args = append(args, "-i", inputPath, outputPath)
 	}
 
-	args = append(args,
-		"segment",
-		"--yolo", segmentationModel,
-		"ocr",
-		"--model", ocrModel)
+	args = append(args, "segment", "--yolo", segmentationModel)
+
+	if ocrModel != "" {
+		args = append(args, "ocr", "--model", ocrModel)
+	}
 
 	cmd := exec.Command("yaltai", args...)
 

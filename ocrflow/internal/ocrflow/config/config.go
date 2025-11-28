@@ -15,6 +15,7 @@ type EnvConfig struct {
 	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"30s"`
 	ModelsDir               string        `env:"MODELS_DIR" envDefault:"./store/models"`
 	PythonExecutable        string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
+	RoboflowAPIKey          string        `env:"ROBOFLOW_API_KEY"`
 }
 
 func InitEnv() (*EnvConfig, error) {

@@ -5,6 +5,7 @@ type Annotation struct {
 	Pages             string    `json:"pages"`
 	AltoDir           string    `json:"alto_dir" readonly:"true"`
 	YoloDir           string    `json:"yolo_dir" readonly:"true"`
+	RoboflowDir       string    `json:"roboflow_dir" readonly:"true"`
 	Dataset           Reference `json:"dataset" readonly:"true"`
 	SegmentationModel Reference `json:"segmentation_model"`
 	OCRModel          Reference `json:"ocr_model"`
@@ -31,6 +32,7 @@ func (a *Annotation) DeepCopy() *Annotation {
 		Pages:             a.Pages,
 		AltoDir:           a.AltoDir,
 		YoloDir:           a.YoloDir,
+		RoboflowDir:       a.RoboflowDir,
 		Dataset:           a.Dataset.DeepCopy(),
 		SegmentationModel: a.SegmentationModel.DeepCopy(),
 		OCRModel:          a.OCRModel.DeepCopy(),
