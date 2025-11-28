@@ -121,7 +121,7 @@ func (a *Annotations) execModel(ds *model.Dataset, ann *model.Annotation, segM *
 			ds.ImagesPath,
 			ann.AltoDir,
 			segM.LocalPath,
-			lo.Ternary(ocrM == nil, "", ocrM.LocalPath),
+			lo.TernaryF(ocrM == nil, func() string { return "" }, func() string { return ocrM.LocalPath }),
 			filenames,
 		)
 	case "roboflow":
@@ -130,6 +130,7 @@ func (a *Annotations) execModel(ds *model.Dataset, ann *model.Annotation, segM *
 			ds.ImagesPath,
 			ann.RoboflowDir,
 			segM.Name,
+			segM.Categories,
 			filenames,
 			a.roboflowAPIKey,
 		), nil

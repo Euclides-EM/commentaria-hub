@@ -28,7 +28,7 @@ type roboflowResult struct {
 }
 
 // Roboflow2Coco converts one or more Roboflow JSON strings into a COCO JSON string.
-func Roboflow2Coco(imageNameToRB map[string]string) (string, error) {
+func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string, error) {
 	var coco cocoRoot
 
 	catMap := make(map[int]cocoCategory) // class_id -> category
@@ -45,13 +45,8 @@ func Roboflow2Coco(imageNameToRB map[string]string) (string, error) {
 
 	coco.Licenses = []cocoLicense{
 		{
-			URL:  "http://creativecommons.org/licenses/by-nc-sa/2.0/",
-			ID:   1,
-			Name: "Attribution-NonCommercial-ShareAlike License",
-		},
-		{
 			URL:  "http://creativecommons.org/licenses/by-nc/2.0/",
-			ID:   2,
+			ID:   1,
 			Name: "Attribution-NonCommercial License",
 		},
 	}
@@ -115,6 +110,27 @@ func Roboflow2Coco(imageNameToRB map[string]string) (string, error) {
 		}
 	}
 
+	// if categories are provided, make sure they are included in catMap
+	if len(categories) > 0 {
+		for id, name := range categories {
+			found := false
+			for _, cat := range catMap {
+				if cat.Name == name {
+					found = true
+					if cat.ID != id {
+						return "", fmt.Errorf("category ID/name mismatch: ID %d is '%s' but existing ID %d is '%s'", id+1, name, cat.ID, cat.Name)
+					}
+					break
+				}
+			}
+			if !found {
+				catMap[id] = cocoCategory{
+					ID:   id,
+					Name: name,
+				}
+			}
+		}
+	}
 	// Flatten categories in stable order
 	if len(catMap) > 0 {
 		var ids []int

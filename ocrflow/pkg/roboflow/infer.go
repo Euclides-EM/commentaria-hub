@@ -7,28 +7,30 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 )
 
-func Recognize(imgPath string, outPath string, modelName string, filenames []string, apiKey string) <-chan error {
+func Recognize(imgPath string, outPath string, modelName string, modelCategories []string, filenames []string, apiKey string) <-chan error {
 	errCh := make(chan error, 1)
 
 	go func() {
 		defer close(errCh)
-		errCh <- infer(imgPath, outPath, modelName, filenames, apiKey)
+		errCh <- infer(imgPath, outPath, modelName, modelCategories, filenames, apiKey)
 	}()
 
 	return errCh
 }
 
-func infer(imgPath string, outPath string, modelName string, filenames []string, apiKey string) error {
+func infer(imgPath string, outPath string, modelName string, modelCategories []string, filenames []string, apiKey string) error {
 	if err := os.MkdirAll(filepath.Join(outPath, "test"), 0o755); err != nil {
 		return err
 	}
 
 	jsonStrs := make(map[string]string)
+	log.Printf("Starting inference on %d images using model %s", len(filenames), modelName)
 	for _, filename := range filenames {
 		inputFile, err := futils.SafeJoin(imgPath, filename)
 		if err != nil {
@@ -78,9 +80,11 @@ func infer(imgPath string, outPath string, modelName string, filenames []string,
 		//└── test/
 		//    ├── image5.jpg
 		//    └── _annotations.coco.json
+		log.Printf("Processed image %s, saved to %s", filename, outImgPath)
 	}
 
-	asCoco, err := formatcov.Roboflow2Coco(jsonStrs)
+	log.Printf("Converting Roboflow results to COCO format")
+	asCoco, err := formatcov.Roboflow2Coco(jsonStrs, modelCategories)
 	if err != nil {
 		return err
 	}
@@ -89,5 +93,6 @@ func infer(imgPath string, outPath string, modelName string, filenames []string,
 	if err != nil {
 		return err
 	}
+	log.Printf("Saved COCO annotations to %s", outputPath)
 	return nil
 }
