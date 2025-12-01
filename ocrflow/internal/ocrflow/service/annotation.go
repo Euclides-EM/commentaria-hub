@@ -26,7 +26,8 @@ type Annotations struct {
 }
 
 func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSvc *Model, roboflowAPIKey string) *Annotations {
-	annotations := map[string]*model.Annotation{
+	annotations := map[string]*model.Annotation{}
+	manuallyAnnotated := map[string]*model.Annotation{
 		// Manually annotated
 
 		// Only one big MainZone, without any subtype like paragraph, enunciation, etc.
@@ -56,7 +57,14 @@ func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSv
 			Dataset: model.Reference{ID: "rrpbnk"},
 			YoloDir: "store/data/annotations/idim36/yolo",
 		},
+	}
 
+	for k, v := range manuallyAnnotated {
+		annotations[k] = v
+		annotations[k].YoloDir = store.DatasetAnnotationYoloDir(annotations[k], datasetSvc.datasetsDir)
+	}
+
+	inferredAnnotations := map[string]*model.Annotation{
 		// inferred annotations
 
 		// full annotation using the Paris1615Polygons1 model
@@ -91,8 +99,12 @@ func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSv
 			SegmentationModel: model.Reference{ID: "Paris1615PolygonsAndMainZone"},
 		},
 	}
-	annotations["3j2xr7"].RoboflowDir = store.DatasetAnnotationRoboflowDir(annotations["3j2xr7"], datasetSvc.datasetsDir)
-	annotations["4afrrf"].RoboflowDir = store.DatasetAnnotationRoboflowDir(annotations["4afrrf"], datasetSvc.datasetsDir)
+
+	for k, v := range inferredAnnotations {
+		annotations[k] = v
+		annotations[k].RoboflowDir = store.DatasetAnnotationRoboflowDir(annotations[k], datasetSvc.datasetsDir)
+	}
+
 	return &Annotations{
 		pythonExecutable: pythonExecutable,
 		m:                annotations,
@@ -278,10 +290,10 @@ func (a *Annotations) CreateFromZip(datasetID string, format model.AnnotationFor
 	var dstPath string
 	switch format {
 	case model.AnnotationFormatAlto:
-		dstPath = store.DatasetAnnotationAltoDir(&model.Annotation{Meta: model.NewMeta(ann.ID)}, a.datasetSvc.datasetsDir)
+		dstPath = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.datasetsDir)
 		ann.AltoDir = dstPath
 	case model.AnnotationFormatYolo:
-		dstPath = store.DatasetAnnotationYoloDir(&model.Annotation{Meta: model.NewMeta(ann.ID)}, a.datasetSvc.datasetsDir)
+		dstPath = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.datasetsDir)
 		ann.YoloDir = dstPath
 	}
 	if err := save(dstPath); err != nil {
