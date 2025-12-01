@@ -2,7 +2,10 @@ package service
 
 import (
 	"errors"
+	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"path"
 )
 
@@ -14,26 +17,62 @@ type Model struct {
 func NewModelService(modelsDir string) *Model {
 	return &Model{
 		m: map[string]*model.Model{
+			"paris1615trained_2811": {
+				Meta:      model.NewMeta("paris1615trained_2811"),
+				LocalPath: path.Join(modelsDir, "paris1615trained_2811.pt"),
+				Type:      model.OCRModelTypeOCR,
+				Location:  model.OCRModelLocationLocal,
+				Name:      "paris1615trained_2811",
+			},
 			"CapricciosaM": {
 				Meta:      model.NewMeta("CapricciosaM"),
 				LocalPath: path.Join(modelsDir, "CapricciosaM.pt"),
 				Type:      model.OCRModelTypeSegment,
-				RunWith:   "kraken",
+				Location:  model.OCRModelLocationLocal,
 				Name:      "CapricciosaM",
 			},
 			"Gallicorpor": {
 				Meta:      model.NewMeta("Gallicorpor"),
 				LocalPath: path.Join(modelsDir, "Gallicorpor.mlmodel"),
 				Type:      model.OCRModelTypeOCR,
-				RunWith:   "kraken",
+				Location:  model.OCRModelLocationLocal,
 				Name:      "Gallicorpor",
 				// todo: add categories
 			},
+			"Paris1615NoContinuedPNoMainZone3": {
+				Meta:            model.NewMeta("Paris1615NoContinuedPNoMainZone3"),
+				Type:            model.OCRModelTypeSegment,
+				Location:        model.OCRModelLocationRoboflow,
+				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
+				Name:            "paris-1615-nocontinuedpnomainzone-dbxgq/3",
+			},
+			"Paris1615Polygons1": {
+				Meta:            model.NewMeta("Paris1615Polygons1"),
+				Type:            model.OCRModelTypeSegment,
+				Location:        model.OCRModelLocationRoboflow,
+				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
+				Name:            "paris-1615-polygons-h4cad/1",
+			},
+			"Paris1615PolygonsAndMainZone": {
+				Meta:            model.NewMeta("Paris1615PolygonsAndMainZone"),
+				Type:            model.OCRModelTypeSegment,
+				Location:        model.OCRModelLocationRoboflow,
+				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
+				Name:            "paris-1615-polygonswithmz-wsrge/1",
+			},
+			"Paris1615NoMainZoneSubtypes": {
+				Meta:            model.NewMeta("Paris1615NoMainZoneSubtypes"),
+				Type:            model.OCRModelTypeSegment,
+				Location:        model.OCRModelLocationRoboflow,
+				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
+				Name:            "paris-1615-withmznosubtypes-tkgii/1",
+			},
 			"segmontoRB": {
-				Meta:    model.NewMeta("segmontoRB"),
-				Type:    model.OCRModelTypeSegment,
-				RunWith: "roboflow",
-				Name:    "segmonto/31",
+				Meta:            model.NewMeta("segmontoRB"),
+				Type:            model.OCRModelTypeSegment,
+				Location:        model.OCRModelLocationRoboflow,
+				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
+				Name:            "segmonto/31",
 				Categories: []string{
 					"AdvertisementZone",
 					"DigitizationArtefactZone",
@@ -102,4 +141,16 @@ func (m *Model) Get(id string) (*model.Model, error) {
 		return nil, errors.New("model not found")
 	}
 	return retrieved.DeepCopy(), nil
+}
+
+func (m *Model) Upsert(mo *model.Model, modelPath string) error {
+	n := mo.DeepCopy()
+	n.ID = idgen.GenerateID()
+	n.Location = model.OCRModelLocationLocal
+	n.LocalPath = path.Join(m.modelsDir, fmt.Sprintf("%s.pt", n.ID))
+	if err := futils.CopyFile(modelPath, n.LocalPath); err != nil {
+		return fmt.Errorf("failed to copy model from %s to %s: %w", modelPath, n.LocalPath, err)
+	}
+	m.m[n.ID] = n.DeepCopy()
+	return nil
 }

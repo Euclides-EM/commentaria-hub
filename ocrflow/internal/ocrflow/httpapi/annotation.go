@@ -108,6 +108,7 @@ func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 // @Description  Upload a ZIP file containing annotations.
 // @Tags         Annotations
 // @Accept       multipart/form-data
+// @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        file  formData  file  true  "ZIP file to upload"
 // @Param        format  formData  string  true  "Annotation format (ALTO or YOLO)"
 // @Produce      json

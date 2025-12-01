@@ -35,6 +35,7 @@ func NewHTTPApp() (*App, error) {
 	editionSvc := service.NewEditionService()
 	datasetSvc := service.NewDatasetService(ghDownloader, editionSvc, env.DataDir)
 	annotationsSvc := service.NewAnnotationsService(env.PythonExecutable, datasetSvc, modelSvc, env.RoboflowAPIKey)
+	trainSvc := service.NewTrainService(annotationsSvc, modelSvc, env.TrainingDir)
 
 	deps := &httpapi.Dependencies{
 		Env:            env,
@@ -43,6 +44,7 @@ func NewHTTPApp() (*App, error) {
 		DatasetSvc:     datasetSvc,
 		AnnotationsSvc: annotationsSvc,
 		ModelSvc:       modelSvc,
+		TrainSvc:       trainSvc,
 	}
 
 	router := httpapi.NewRouter(deps)

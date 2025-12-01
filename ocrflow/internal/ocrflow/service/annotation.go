@@ -26,13 +26,81 @@ type Annotations struct {
 }
 
 func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSvc *Model, roboflowAPIKey string) *Annotations {
+	annotations := map[string]*model.Annotation{
+		// Manually annotated
+
+		// Only one big MainZone, without any subtype like paragraph, enunciation, etc.
+		// In Robolflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-withmznosubtypes-tkgii/1
+		"gog80x": {
+			Meta:    model.NewMeta("gog80x"),
+			Pages:   "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
+			Dataset: model.Reference{ID: "rrpbnk"},
+			YoloDir: "store/data/annotations/gog80x/yolo",
+		},
+
+		// Polygons for subtypes like paragraph, enunciation and main zones.
+		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-polygonswithmz-wsrge/1
+		"f0k3ks": {
+			Meta:    model.NewMeta("f0k3ks"),
+			Pages:   "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
+			Dataset: model.Reference{ID: "rrpbnk"},
+			YoloDir: "store/data/annotations/f0k3ks/yolo",
+		},
+
+		// Includes a big MainZone, in addition to subtypes like paragraph, enunciation, etc.
+		// In some cases, instead of boxes polygons were drawn to better fit the text areas.
+		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-polygonswithmz-wsrge/1
+		"idim36": {
+			Meta:    model.NewMeta("idim36"),
+			Pages:   "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
+			Dataset: model.Reference{ID: "rrpbnk"},
+			YoloDir: "store/data/annotations/idim36/yolo",
+		},
+
+		// inferred annotations
+
+		// full annotation using the Paris1615Polygons1 model
+		"3j2xr7": {
+			Meta:              model.NewMeta("3j2xr7"),
+			Pages:             "15-655",
+			Dataset:           model.Reference{ID: "rrpbnk"},
+			SegmentationModel: model.Reference{ID: "Paris1615Polygons1"},
+		},
+
+		// full annotation using the Paris1615NoContinuedPNoMainZone3 model
+		"4afrrf": {
+			Meta:              model.NewMeta("4afrrf"),
+			Pages:             "15-655",
+			Dataset:           model.Reference{ID: "rrpbnk"},
+			SegmentationModel: model.Reference{ID: "Paris1615NoContinuedPNoMainZone3"},
+		},
+
+		// full annotation using the Paris1615NoMainZoneSubtypes model
+		"h3y0bj": {
+			Meta:              model.NewMeta("h3y0bj"),
+			Pages:             "15-655",
+			Dataset:           model.Reference{ID: "rrpbnk"},
+			SegmentationModel: model.Reference{ID: "Paris1615NoMainZoneSubtypes"},
+		},
+
+		// full annotation using the Paris1615PolygonsAndMainZone model
+		"xu3fkx": {
+			Meta:              model.NewMeta("xu3fkx"),
+			Pages:             "15-655",
+			Dataset:           model.Reference{ID: "rrpbnk"},
+			SegmentationModel: model.Reference{ID: "Paris1615PolygonsAndMainZone"},
+		},
+	}
+	annotations["3j2xr7"].RoboflowDir = store.DatasetAnnotationRoboflowDir(annotations["3j2xr7"], datasetSvc.datasetsDir)
+	annotations["4afrrf"].RoboflowDir = store.DatasetAnnotationRoboflowDir(annotations["4afrrf"], datasetSvc.datasetsDir)
 	return &Annotations{
 		pythonExecutable: pythonExecutable,
-		m:                make(map[string]*model.Annotation),
+		m:                annotations,
 		datasetSvc:       datasetSvc,
 		modelSvc:         modelSvc,
 		roboflowAPIKey:   roboflowAPIKey,
 	}
+
 }
 
 func (a *Annotations) ListAnnotations(id string) ([]*model.Annotation, error) {
@@ -43,6 +111,14 @@ func (a *Annotations) ListAnnotations(id string) ([]*model.Annotation, error) {
 		}
 	}
 	return annotations, nil
+}
+
+func (a *Annotations) Get(datasetId, id string) (*model.Annotation, error) {
+	annotation, ok := a.m[id]
+	if !ok || annotation.DatasetID() != datasetId {
+		return nil, fmt.Errorf("annotation not found")
+	}
+	return annotation.DeepCopy(), nil
 }
 
 func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool) (*model.Annotation, error) {
@@ -114,8 +190,8 @@ func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool
 }
 
 func (a *Annotations) execModel(ds *model.Dataset, ann *model.Annotation, segM *model.Model, ocrM *model.Model, filenames []string) (<-chan error, error) {
-	switch segM.RunWith {
-	case "kraken":
+	switch segM.Location {
+	case model.OCRModelLocationLocal:
 		ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.datasetsDir)
 		return krakenwrapper.Recognize(
 			ds.ImagesPath,
@@ -124,7 +200,7 @@ func (a *Annotations) execModel(ds *model.Dataset, ann *model.Annotation, segM *
 			lo.TernaryF(ocrM == nil, func() string { return "" }, func() string { return ocrM.LocalPath }),
 			filenames,
 		)
-	case "roboflow":
+	case model.OCRModelLocationRoboflow:
 		ann.RoboflowDir = store.DatasetAnnotationRoboflowDir(ann, a.datasetSvc.datasetsDir)
 		return roboflow.Recognize(
 			ds.ImagesPath,
@@ -135,7 +211,7 @@ func (a *Annotations) execModel(ds *model.Dataset, ann *model.Annotation, segM *
 			a.roboflowAPIKey,
 		), nil
 	}
-	return nil, fmt.Errorf("unsupported model runtime: %s", segM.RunWith)
+	return nil, fmt.Errorf("unsupported model runtime: %s", segM.Location)
 }
 
 func (a *Annotations) Convert(datasetID string, id string, annc *model.AnnotationConvert) (*model.Annotation, error) {

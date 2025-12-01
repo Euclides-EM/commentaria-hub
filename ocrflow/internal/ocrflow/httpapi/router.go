@@ -15,6 +15,7 @@ type Dependencies struct {
 	DatasetSvc     *service.Dataset
 	AnnotationsSvc *service.Annotations
 	ModelSvc       *service.Model
+	TrainSvc       *service.Train
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -33,6 +34,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/rbupload", httpwrapper.Update(h.UploadToRoboflow).Build())
 
 	mux.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
+	mux.HandleFunc("/train", httpwrapper.Create(h.TrainModel).Build())
 
 	mux.Handle("/swagger/", httpSwagger.WrapHandler)
 	return mux

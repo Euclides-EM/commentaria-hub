@@ -16,6 +16,7 @@ type EnvConfig struct {
 	ModelsDir               string        `env:"MODELS_DIR" envDefault:"./store/models"`
 	PythonExecutable        string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
 	RoboflowAPIKey          string        `env:"ROBOFLOW_API_KEY"`
+	TrainingDir             string        `env:"TRAINING_DIR" envDefault:"./store/training"`
 }
 
 func InitEnv() (*EnvConfig, error) {

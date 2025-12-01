@@ -6,6 +6,8 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
+	"strconv"
 )
 
 func InferPages(dstPath string, format model.AnnotationFormat) ([]int, error) {
@@ -58,10 +60,16 @@ func inferPagesFromYoloInnerDir(path string) ([]int, error) {
 
 	for _, f := range files {
 		var pageNum int
-		_, err := fmt.Sscanf(f.Name(), "page-%04d.txt", &pageNum)
-		if err != nil {
-			log.Printf("could not parse file %s, expected format page-0001.txt, skipping: %v", f.Name(), err)
+
+		re := regexp.MustCompile(`^page-(\d{4})`)
+		m := re.FindStringSubmatch(f.Name())
+		if len(m) != 2 {
+			log.Printf("could not parse file %s, expected format page-0001.txt, skipping", f.Name())
 			continue
+		}
+		pageNum, err = strconv.Atoi(m[1])
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse file name %s: %w", f.Name(), err)
 		}
 		res = append(res, pageNum)
 	}
