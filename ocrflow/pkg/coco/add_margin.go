@@ -96,19 +96,23 @@ func ApplyAddMargin(c *Root, am *AddMargin) error {
 
 		newX, newY, newW, newH := x, y, w, h
 
-		switch am.Side {
-		case SideLeft:
+		if am.Side == SideLeft || am.Side == SideRight {
+			newW = w + am.Margin
+		}
+		if am.Side == SideHorizontal || am.Side == SideAll {
+			newW = w + 2*am.Margin
+		}
+		if am.Side == SideTop || am.Side == SideBottom {
+			newH = h + am.Margin
+		}
+		if am.Side == SideVertical || am.Side == SideAll {
+			newH = h + 2*am.Margin
+		}
+		if am.Side == SideLeft || am.Side == SideHorizontal || am.Side == SideAll {
 			newX = x - am.Margin
-			newW = w + am.Margin
-		case SideRight:
-			newW = w + am.Margin
-		case SideTop:
+		}
+		if am.Side == SideTop || am.Side == SideVertical || am.Side == SideAll {
 			newY = y - am.Margin
-			newH = h + am.Margin
-		case SideBottom:
-			newH = h + am.Margin
-		default:
-			return errors.New("unsupported side: " + string(am.Side))
 		}
 
 		// Clamp to image bounds if we know them

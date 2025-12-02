@@ -22,10 +22,13 @@ const (
 type AnnotationRuleContactSide string
 
 const (
-	AnnotationRuleContactSideLeft   AnnotationRuleContactSide = "left"
-	AnnotationRuleContactSideRight  AnnotationRuleContactSide = "right"
-	AnnotationRuleContactSideTop    AnnotationRuleContactSide = "top"
-	AnnotationRuleContactSideBottom AnnotationRuleContactSide = "bottom"
+	AnnotationRuleContactSideLeft       AnnotationRuleContactSide = "left"
+	AnnotationRuleContactSideRight      AnnotationRuleContactSide = "right"
+	AnnotationRuleContactSideTop        AnnotationRuleContactSide = "top"
+	AnnotationRuleContactSideBottom     AnnotationRuleContactSide = "bottom"
+	AnnotationRuleContactSideHorizontal AnnotationRuleContactSide = "horizontal"
+	AnnotationRuleContactSideVertical   AnnotationRuleContactSide = "vertical"
+	AnnotationRuleContactSideAll        AnnotationRuleContactSide = "all"
 )
 
 type AnnotationRuleType string

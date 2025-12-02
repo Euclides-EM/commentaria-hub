@@ -19,16 +19,25 @@ func SideFromString(s string) Side {
 		return SideTop
 	case "bottom":
 		return SideBottom
+	case "horizontal":
+		return SideHorizontal
+	case "vertical":
+		return SideVertical
+	case "all":
+		return SideAll
 	default:
 		return ""
 	}
 }
 
 const (
-	SideLeft   Side = "left"
-	SideRight  Side = "right"
-	SideTop    Side = "top"
-	SideBottom Side = "bottom"
+	SideLeft       Side = "left"
+	SideRight      Side = "right"
+	SideTop        Side = "top"
+	SideBottom     Side = "bottom"
+	SideHorizontal Side = "horizontal"
+	SideVertical   Side = "vertical"
+	SideAll        Side = "all"
 )
 
 func ContactTypeFromString(s string) ContactType {

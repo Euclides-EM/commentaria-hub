@@ -1,0 +1,89 @@
+{
+  "action": "create_new",
+  "base_annotation_id": {
+    "id": "xu3fkx"
+  },
+  "rules": [
+    {
+      "type": "slice_pages",
+      "pages": "15-17,70-75,100-105,200-205,300-305,400-405,500-505"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "GraphicZone-Decoration",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "GraphicZone-Diagram",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "MainZone-Head--Book",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "MainZone-Head--ItalicsSection",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "MainZone-Head--Section",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "MainZone-P--Enunciation",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "MainZone-P--Italics",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "MainZone-P--Normal",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "MainZone-P",
+      "contact_type": "inner",
+      "contact_side": "all"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "RunningTitleZone",
+      "contact_type": "inner",
+      "contact_side": "horizontal"
+    },
+    {
+      "type": "stretch",
+      "stretch_category": "MainZone",
+      "towards": "CatchWord",
+      "contact_type": "inner",
+      "contact_side": "horizontal"
+    }
+  ]
+}
