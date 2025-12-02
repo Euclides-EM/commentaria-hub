@@ -1,14 +1,15 @@
 package model
 
 type Annotation struct {
-	Meta              `json:",inline"`
-	Pages             string    `json:"pages"`
-	AltoDir           string    `json:"alto_dir" readonly:"true"`
-	YoloDir           string    `json:"yolo_dir" readonly:"true"`
-	RoboflowDir       string    `json:"roboflow_dir" readonly:"true"`
-	Dataset           Reference `json:"dataset" readonly:"true"`
-	SegmentationModel Reference `json:"segmentation_model"`
-	OCRModel          Reference `json:"ocr_model"`
+	Meta                     `json:",inline"`
+	Pages                    string                  `json:"pages"`
+	AltoDir                  string                  `json:"alto_dir" readonly:"true"`
+	YoloDir                  string                  `json:"yolo_dir" readonly:"true"`
+	RoboflowDir              string                  `json:"roboflow_dir" readonly:"true"`
+	Dataset                  Reference               `json:"dataset" readonly:"true"`
+	SegmentationModel        Reference               `json:"segmentation_model"`
+	OCRModel                 Reference               `json:"ocr_model"`
+	SegmentationAppliedRules []*AnnotationApplyRules `json:"segmentation_applied_rules" readonly:"true"`
 }
 
 func (a *Annotation) DatasetID() string {
@@ -36,5 +37,17 @@ func (a *Annotation) DeepCopy() *Annotation {
 		Dataset:           a.Dataset.DeepCopy(),
 		SegmentationModel: a.SegmentationModel.DeepCopy(),
 		OCRModel:          a.OCRModel.DeepCopy(),
+		SegmentationAppliedRules: func() []*AnnotationApplyRules {
+			if a.SegmentationAppliedRules == nil {
+				return nil
+			}
+			copied := make([]*AnnotationApplyRules, len(a.SegmentationAppliedRules))
+			for i, v := range a.SegmentationAppliedRules {
+				if v != nil {
+					copied[i] = v.DeepCopy()
+				}
+			}
+			return copied
+		}(),
 	}
 }

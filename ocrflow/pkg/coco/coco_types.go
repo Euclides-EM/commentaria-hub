@@ -1,8 +1,8 @@
-package formatcov
+package coco
 
 // COCO types
 
-type cocoImage struct {
+type Image struct {
 	ID       int    `json:"id"`
 	FileName string `json:"file_name"`
 	Width    int    `json:"width"`
@@ -10,7 +10,7 @@ type cocoImage struct {
 	File     string `json:"file,omitempty"`
 }
 
-type cocoAnnotation struct {
+type Annotation struct {
 	ID           int         `json:"id"`
 	ImageID      int         `json:"image_id"`
 	CategoryID   int         `json:"category_id"`
@@ -21,12 +21,12 @@ type cocoAnnotation struct {
 	Segmentation [][]float64 `json:"segmentation,omitempty"`
 }
 
-type cocoCategory struct {
+type Category struct {
 	ID   int    `json:"id"`
 	Name string `json:"name"`
 }
 
-type cocoInfo struct {
+type Info struct {
 	Description string `json:"description"`
 	URL         string `json:"url"`
 	Version     string `json:"version"`
@@ -35,16 +35,16 @@ type cocoInfo struct {
 	DateCreated string `json:"date_created"`
 }
 
-type cocoLicense struct {
+type License struct {
 	URL  string `json:"url"`
 	ID   int    `json:"id"`
 	Name string `json:"name"`
 }
 
-type cocoRoot struct {
-	Images      []cocoImage      `json:"images"`
-	Annotations []cocoAnnotation `json:"annotations"`
-	Categories  []cocoCategory   `json:"categories"`
-	Info        cocoInfo         `json:"info"`
-	Licenses    []cocoLicense    `json:"licenses"`
+type Root struct {
+	Images      []Image      `json:"images"`
+	Annotations []Annotation `json:"annotations"`
+	Categories  []Category   `json:"categories"`
+	Info        Info         `json:"info"`
+	Licenses    []License    `json:"licenses"`
 }

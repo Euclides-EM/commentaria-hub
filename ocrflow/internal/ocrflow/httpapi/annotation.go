@@ -77,6 +77,33 @@ func (h *Handlers) ConvertAnnotations(r *http.Request) (any, error) {
 	return h.deps.AnnotationsSvc.Convert(datasetID, annotationID, &a)
 }
 
+// ApplyRules godoc
+// @Summary      Apply Rules to Annotation
+// @Description  Apply specific rules to an annotation.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        annotationApplyRules  body      model.AnnotationApplyRules  true  "Annotation apply rules details"
+// @Produce      json
+// @Success      200  {object}   model.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply [put]
+func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	annotationID := r.PathValue("id")
+
+	if datasetID == "" || annotationID == "" {
+		return nil, fmt.Errorf("missing parameters")
+	}
+
+	decoder := json.NewDecoder(r.Body)
+	var a model.AnnotationApplyRules
+	if err := decoder.Decode(&a); err != nil {
+		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	}
+
+	return h.deps.AnnotationsSvc.ApplyRules(datasetID, annotationID, &a)
+}
+
 // UploadToRoboflow godoc
 // @Summary      Upload Annotation to Roboflow
 // @Description  Upload an annotation to Roboflow for a specific dataset.

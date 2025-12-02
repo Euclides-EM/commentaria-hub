@@ -5,6 +5,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
@@ -23,6 +24,7 @@ type Annotations struct {
 	datasetSvc       *Dataset
 	modelSvc         *Model
 	roboflowAPIKey   string
+	ruleApplier      *AnnotationRuleApplier
 }
 
 func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSvc *Model, roboflowAPIKey string) *Annotations {
@@ -305,5 +307,39 @@ func (a *Annotations) CreateFromZip(datasetID string, format model.AnnotationFor
 	}
 	ann.Pages = pagesparser.ToString(pages)
 	a.m[ann.ID] = ann.DeepCopy()
+	return a.m[ann.ID], nil
+}
+
+func (a *Annotations) ApplyRules(datasetID string, id string, aar *model.AnnotationApplyRules) (*model.Annotation, error) {
+	fromDB, ok := a.m[id]
+	if !ok || fromDB.DatasetID() != datasetID {
+		return nil, fmt.Errorf("annotation not found")
+	}
+
+	ann := fromDB.DeepCopy()
+
+	if ann.RoboflowDir == "" {
+		return nil, fmt.Errorf("currently only Roboflow annotations are supported for rule application")
+	}
+
+	ann.YoloDir = ""
+	ann.AltoDir = ""
+
+	if aar.Action == model.AnnotationApplyRulesActionCreateNew {
+		ann.ID = idgen.GenerateID()
+		ann.RoboflowDir = store.DatasetAnnotationRoboflowDir(ann, a.datasetSvc.datasetsDir)
+		if err := futils.CopyDir(store.DatasetAnnotationRoboflowDir(fromDB, a.datasetSvc.datasetsDir), ann.RoboflowDir); err != nil {
+			return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+		}
+		a.m[ann.ID] = ann.DeepCopy()
+	}
+
+	// apply rules...
+	if err := a.ruleApplier.ApplyRules(ann, aar.Rules); err != nil {
+		return nil, fmt.Errorf("failed to apply annotation rules: %w", err)
+	}
+
+	a.m[ann.ID] = ann.DeepCopy()
+
 	return a.m[ann.ID], nil
 }

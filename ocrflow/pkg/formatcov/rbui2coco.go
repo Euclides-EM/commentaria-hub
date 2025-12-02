@@ -3,6 +3,7 @@ package formatcov
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/coco"
 	"strconv"
 )
 
@@ -26,7 +27,7 @@ type rfInput struct {
 }
 
 func RoboflowUI2Coco(jsonStrs ...string) (string, error) {
-	var result cocoRoot
+	var result coco.Root
 
 	// Track unique categories
 	categoryIndex := map[string]int{}
@@ -42,7 +43,7 @@ func RoboflowUI2Coco(jsonStrs ...string) (string, error) {
 		}
 
 		// Add image entry
-		result.Images = append(result.Images, cocoImage{
+		result.Images = append(result.Images, coco.Image{
 			ID:     imageID,
 			File:   rf.Key,
 			Width:  rf.Width,
@@ -57,7 +58,7 @@ func RoboflowUI2Coco(jsonStrs ...string) (string, error) {
 				catID = nextCategoryID
 				nextCategoryID++
 				categoryIndex[b.Label] = catID
-				result.Categories = append(result.Categories, cocoCategory{
+				result.Categories = append(result.Categories, coco.Category{
 					ID:   catID,
 					Name: b.Label,
 				})
@@ -69,7 +70,7 @@ func RoboflowUI2Coco(jsonStrs ...string) (string, error) {
 			w, _ := strconv.ParseFloat(b.Width, 64)
 			h, _ := strconv.ParseFloat(b.Height, 64)
 
-			annot := cocoAnnotation{
+			annot := coco.Annotation{
 				ID:         annotationID,
 				ImageID:    imageID,
 				CategoryID: catID,

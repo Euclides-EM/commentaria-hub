@@ -3,6 +3,7 @@ package formatcov
 import (
 	"encoding/json"
 	"fmt"
+	coco2 "github.com/MiaMish/elements-dh/ocrflow/pkg/coco"
 	"sort"
 	"strings"
 	"time"
@@ -29,13 +30,13 @@ type roboflowResult struct {
 
 // Roboflow2Coco converts one or more Roboflow JSON strings into a COCO JSON string.
 func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string, error) {
-	var coco cocoRoot
+	var coco coco2.Root
 
-	catMap := make(map[int]cocoCategory) // class_id -> category
+	catMap := make(map[int]coco2.Category) // class_id -> category
 	nextImageID := 1
 	nextAnnID := 1
 
-	coco.Info = cocoInfo{
+	coco.Info = coco2.Info{
 		Description: fmt.Sprintf("Converted from Roboflow format with %d images", len(imageNameToRB)),
 		Version:     "1.0",
 		Year:        2025,
@@ -43,7 +44,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 		DateCreated: time.Now().Format("2006/01/02"),
 	}
 
-	coco.Licenses = []cocoLicense{
+	coco.Licenses = []coco2.License{
 		{
 			URL:  "http://creativecommons.org/licenses/by-nc/2.0/",
 			ID:   1,
@@ -69,7 +70,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 			fileName = fmt.Sprintf("image_%d.jpg", imageID)
 		}
 
-		coco.Images = append(coco.Images, cocoImage{
+		coco.Images = append(coco.Images, coco2.Image{
 			ID:       imageID,
 			FileName: fileName,
 			Width:    rf.Image.Width,
@@ -79,7 +80,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 		for _, p := range rf.Predictions {
 			// Register category if new
 			if _, ok := catMap[p.ClassID]; !ok {
-				catMap[p.ClassID] = cocoCategory{
+				catMap[p.ClassID] = coco2.Category{
 					ID:   p.ClassID,
 					Name: p.Class,
 				}
@@ -97,7 +98,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 
 			area := p.Width * p.Height
 
-			coco.Annotations = append(coco.Annotations, cocoAnnotation{
+			coco.Annotations = append(coco.Annotations, coco2.Annotation{
 				ID:         nextAnnID,
 				ImageID:    imageID,
 				CategoryID: p.ClassID,
@@ -124,7 +125,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 				}
 			}
 			if !found {
-				catMap[id] = cocoCategory{
+				catMap[id] = coco2.Category{
 					ID:   id,
 					Name: name,
 				}
