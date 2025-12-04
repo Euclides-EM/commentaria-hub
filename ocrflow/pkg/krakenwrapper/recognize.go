@@ -1,11 +1,10 @@
 package krakenwrapper
 
 import (
-	"bufio"
 	"fmt"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 	"log"
 	"os"
-	"os/exec"
 	"path/filepath"
 	"slices"
 	"strings"
@@ -51,6 +50,11 @@ func Recognize(inputDir, outputDir, segmentationModel, ocrModel string, filename
 }
 
 func processImages(images []string, outputDir, segmentationModel, ocrModel string) <-chan error {
+
+	// todo: as opposed to the flow that converts from yolo to alto, here we do not copy the images to the output dir
+	//  Moreover, the filename in the ALTO result might match the input image full path,
+	//  which can be problematic later on, for example, in the Escriptorium upload.
+
 	errCh := make(chan error, 1)
 
 	go func() {
@@ -62,9 +66,9 @@ func processImages(images []string, outputDir, segmentationModel, ocrModel strin
 }
 
 func runProcessImages(images []string, outputDir, segmentationModel, ocrModel string) error {
-	err, inputOutputPairs, err2 := toInputOutputPairs(images, outputDir)
-	if err2 != nil {
-		return err2
+	inputOutputPairs, err := toInputOutputPairs(images, outputDir)
+	if err != nil {
+		return err
 	}
 	args := []string{
 		"kraken",
@@ -84,60 +88,21 @@ func runProcessImages(images []string, outputDir, segmentationModel, ocrModel st
 		args = append(args, "ocr", "--model", ocrModel)
 	}
 
-	cmd := exec.Command("yaltai", args...)
-
-	stdout, err := cmd.StdoutPipe()
-	if err != nil {
-		return fmt.Errorf("failed to get stdout pipe: %w", err)
-	}
-
-	stderr, err := cmd.StderrPipe()
-	if err != nil {
-		return fmt.Errorf("failed to get stderr pipe: %w", err)
-	}
-
-	// Start process
-	if err := cmd.Start(); err != nil {
-		return fmt.Errorf("failed to start yaltai: %w", err)
-	}
-
-	// Stream stdout
-	go func() {
-		scanner := bufio.NewScanner(stdout)
-		for scanner.Scan() {
-			log.Printf("[yaltai stdout] %s", scanner.Text())
-		}
-	}()
-
-	// Stream stderr
-	go func() {
-		scanner := bufio.NewScanner(stderr)
-		for scanner.Scan() {
-			log.Printf("[yaltai stderr] %s", scanner.Text())
-		}
-	}()
-
-	// Wait for exit
-	if err := cmd.Wait(); err != nil {
-		return fmt.Errorf("yaltai command failed: %w", err)
-	}
-
-	log.Printf("Yaltai command succeeded. Args: %v", args)
-	return nil
+	return envexec.Cmd("yaltai", args...)
 }
 
 // toInputOutputPairs converts a list of image paths to input-output pairs for processing.
 // It is used to prepare the arguments for the Kraken command.
-func toInputOutputPairs(images []string, outputDir string) (error, [][2]string, error) {
+func toInputOutputPairs(images []string, outputDir string) ([][2]string, error) {
 	outputDir, err := filepath.Abs(outputDir)
 	if err != nil {
-		return nil, nil, fmt.Errorf("could not determine absolute path of output directory: %w", err)
+		return nil, fmt.Errorf("could not determine absolute path of output directory: %w", err)
 	}
 	inputOutputPairs := make([][2]string, 0, len(images))
 	for _, inputPath := range images {
 		inputPath, err = filepath.Abs(inputPath)
 		if err != nil {
-			return nil, nil, fmt.Errorf("could not determine absolute path of input image %s: %w", inputPath, err)
+			return nil, fmt.Errorf("could not determine absolute path of input image %s: %w", inputPath, err)
 		}
 		base := filepath.Base(inputPath)
 		nameWithoutExt := strings.TrimSuffix(base, filepath.Ext(base))
@@ -145,5 +110,5 @@ func toInputOutputPairs(images []string, outputDir string) (error, [][2]string, 
 
 		inputOutputPairs = append(inputOutputPairs, [2]string{inputPath, outputPath})
 	}
-	return err, inputOutputPairs, nil
+	return inputOutputPairs, nil
 }

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/coco"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
 	"github.com/samber/lo"
@@ -11,6 +12,13 @@ import (
 )
 
 type AnnotationRuleApplier struct {
+	pythonExecutable string
+}
+
+func NewAnnotationRuleApplier(pythonExecutable string) *AnnotationRuleApplier {
+	return &AnnotationRuleApplier{
+		pythonExecutable: pythonExecutable,
+	}
 }
 
 func (a *AnnotationRuleApplier) ApplyRules(ann *model.Annotation, rules []model.AnnotationRule) error {
@@ -35,6 +43,8 @@ func (a *AnnotationRuleApplier) ApplyRule(ann *model.Annotation, rule model.Anno
 		return a.applyStretchRule(ann, t)
 	case *model.AnnotationRuleAddMargin:
 		return a.applyAddMarginRule(ann, t)
+	case *model.AnnotationRuleLinesDetect:
+		return a.applyLinesDetectRule(ann, t)
 	default:
 		log.Printf("Unknown rule type: %s", rule.GetType())
 	}
@@ -93,6 +103,13 @@ func (a *AnnotationRuleApplier) applyAddMarginRule(ann *model.Annotation, t *mod
 	}
 	if err := roboflow.AddMargin(ann.RoboflowDir, toApply); err != nil {
 		return nil, fmt.Errorf("failed to apply add margin operation %+v to annotation %s: %w", toApply, ann.ID, err)
+	}
+	return ann, nil
+}
+
+func (a *AnnotationRuleApplier) applyLinesDetectRule(ann *model.Annotation, t *model.AnnotationRuleLinesDetect) (*model.Annotation, error) {
+	if err := krakenwrapper.DetectLines(ann.AltoDir, ann.AltoDir); err != nil {
+		return nil, fmt.Errorf("failed to apply lines detect to annotation %s: %w", ann.ID, err)
 	}
 	return ann, nil
 }

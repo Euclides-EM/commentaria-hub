@@ -17,8 +17,27 @@ func InferPages(dstPath string, format model.AnnotationFormat) ([]int, error) {
 	case model.AnnotationFormatYolo:
 		return inferPagesFromYoloDir(dstPath)
 	default:
-		return nil, nil
+		return inferPagesFromImgDir(dstPath)
 	}
+}
+
+func inferPagesFromImgDir(path string) ([]int, error) {
+	files, err := os.ReadDir(path)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read directory: %w", err)
+	}
+
+	res := make([]int, 0)
+	for _, f := range files {
+		var pageNum int
+		_, err := fmt.Sscanf(f.Name(), "page-%04d.", &pageNum)
+		if err != nil {
+			log.Printf("could not parse file %s, expected format page-0001.<ext>, skipping: %v", f.Name(), err)
+			continue
+		}
+		res = append(res, pageNum)
+	}
+	return res, nil
 }
 
 func inferPagesFromYoloDir(path string) ([]int, error) {

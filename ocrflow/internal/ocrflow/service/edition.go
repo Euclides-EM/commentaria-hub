@@ -22,7 +22,19 @@ func NewEditionService() *Edition {
 					{
 						Meta:    model.Meta{ID: "1"},
 						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1615.pdf",
-						//ScanURL: "https://github.com/OCR-D/gt_structure_text/tree/main/data/alberti_pictura_1540",
+					},
+					{
+						Meta:    model.Meta{ID: "2"},
+						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1615.pdf",
+					},
+				},
+			},
+			"London_1570": {
+				Meta: model.Meta{ID: "London_1570"},
+				Facsimiles: []*model.Facsimile{
+					{
+						Meta:    model.Meta{ID: "1"},
+						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/London_1570.pdf",
 					},
 				},
 			},

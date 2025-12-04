@@ -10,13 +10,16 @@ type EnvConfig struct {
 	// todo: change to embedded migrations ?
 	MigrationsDir           string        `env:"MIGRATIONS_DIR" envDefault:"./migrations/ocrflow"`
 	DataDir                 string        `env:"DATA_DIR" envDefault:"./store/data"`
-	HTTPAddr                string        `env:"HTTP_ADDR" envDefault:":8080"`
+	HTTPAddr                string        `env:"HTTP_ADDR" envDefault:":8085"`
 	GithubToken             string        `env:"GITHUB_TOKEN"`
 	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"30s"`
 	ModelsDir               string        `env:"MODELS_DIR" envDefault:"./store/models"`
 	PythonExecutable        string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
 	RoboflowAPIKey          string        `env:"ROBOFLOW_API_KEY"`
 	TrainingDir             string        `env:"TRAINING_DIR" envDefault:"./store/training"`
+	EscriptoriumBasePath    string        `env:"ESCRIPTORIUM_BASE_PATH" envDefault:"http://localhost:8080/"`
+	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
+	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
 }
 
 func InitEnv() (*EnvConfig, error) {

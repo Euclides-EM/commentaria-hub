@@ -31,6 +31,26 @@ func NewModelService(modelsDir string) *Model {
 				Location:  model.OCRModelLocationLocal,
 				Name:      "CapricciosaM",
 			},
+			// Fine-tuned model based on:
+			// The CapricciosaM model, further fine-tuned on pages from the London 1570 facsimile
+			// Annotations in https://app.roboflow.com/mia-workplace/1570-english/2
+			"1570FineTuned_0312": {
+				Meta:      model.NewMeta("1570FineTuned_0312"),
+				LocalPath: path.Join(modelsDir, "1570FineTunedCapricciosaM_0312.pt"),
+				Type:      model.OCRModelTypeSegment,
+				Location:  model.OCRModelLocationLocal,
+				Name:      "CapricciosaM",
+			},
+			// Fine-tuned model based on:
+			// The CapricciosaM model, further fine-tuned on pages from the Paris 1615 facsimile
+			// Annotations in https://app.roboflow.com/mia-workplace/0212-xcfg/2
+			"1615FineTunedCapricciosaM_0312": {
+				Meta:      model.NewMeta("1615FineTunedCapricciosaM_0312"),
+				LocalPath: path.Join(modelsDir, "1615FineTunedCapricciosaM_0312.pt"),
+				Type:      model.OCRModelTypeSegment,
+				Location:  model.OCRModelLocationLocal,
+				Name:      "CapricciosaM",
+			},
 			"Gallicorpor": {
 				Meta:      model.NewMeta("Gallicorpor"),
 				LocalPath: path.Join(modelsDir, "Gallicorpor.mlmodel"),
@@ -66,6 +86,23 @@ func NewModelService(modelsDir string) *Model {
 				Location:        model.OCRModelLocationRoboflow,
 				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
 				Name:            "paris-1615-withmznosubtypes-tkgii/1",
+			},
+			// With a main zone, subtypes, based on the data set after skewing
+			"0212-xcfg/2": {
+				Meta:            model.NewMeta("0212-xcfg-2"),
+				Type:            model.OCRModelTypeSegment,
+				Location:        model.OCRModelLocationRoboflow,
+				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
+				Name:            "0212-xcfg/2",
+			},
+			// Model trained on London 1570 facsimile, with main zone and heading (no additional subtypes)
+			// Can be found here: https://app.roboflow.com/mia-workplace/1570-english/models/1570-english/2
+			"1570-english/2": {
+				Meta:            model.NewMeta("1570-english-2"),
+				Type:            model.OCRModelTypeSegment,
+				Location:        model.OCRModelLocationRoboflow,
+				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
+				Name:            "1570-english/2",
 			},
 			"segmontoRB": {
 				Meta:            model.NewMeta("segmontoRB"),

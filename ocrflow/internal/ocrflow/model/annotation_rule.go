@@ -34,15 +34,15 @@ const (
 type AnnotationRuleType string
 
 const (
-	AnnotationRuleTypeSlicePages AnnotationRuleType = "slice_pages"
-	AnnotationRuleTypeStretch    AnnotationRuleType = "stretch"
-	AnnotationRuleTypeAddMargin  AnnotationRuleType = "add_margin"
+	AnnotationRuleTypeSlicePages  AnnotationRuleType = "slice_pages"
+	AnnotationRuleTypeStretch     AnnotationRuleType = "stretch"
+	AnnotationRuleTypeAddMargin   AnnotationRuleType = "add_margin"
+	AnnotationRuleTypeLinesDetect AnnotationRuleType = "lines_detect"
 )
 
 type AnnotationApplyRules struct {
-	BaseAnnotationID Reference                  `json:"base_annotation_id"`
-	Rules            []AnnotationRule           `json:"rules"`
-	Action           AnnotationApplyRulesAction `json:"action"`
+	Rules  []AnnotationRule           `json:"rules"`
+	Action AnnotationApplyRulesAction `json:"action"`
 }
 
 type AnnotationRule interface {
@@ -70,6 +70,23 @@ func (t *AnnotationRuleSlicePages) DeepCopy() AnnotationRule {
 	return &AnnotationRuleSlicePages{
 		AnnotationRuleBase: AnnotationRuleBase{Type: t.Type},
 		Pages:              t.Pages,
+	}
+}
+
+type AnnotationRuleLinesDetect struct {
+	AnnotationRuleBase `json:",inline"`
+}
+
+func (t *AnnotationRuleLinesDetect) GetType() AnnotationRuleType {
+	return AnnotationRuleTypeLinesDetect
+}
+
+func (t *AnnotationRuleLinesDetect) DeepCopy() AnnotationRule {
+	if t == nil {
+		return nil
+	}
+	return &AnnotationRuleLinesDetect{
+		AnnotationRuleBase: AnnotationRuleBase{Type: t.Type},
 	}
 }
 
@@ -146,11 +163,16 @@ func NewAnnotationRuleAddMargin(margin float64, side AnnotationRuleContactSide) 
 	}
 }
 
+func NewAnnotationRuleLinesDetect(detect bool) *AnnotationRuleLinesDetect {
+	return &AnnotationRuleLinesDetect{
+		AnnotationRuleBase: AnnotationRuleBase{Type: AnnotationRuleTypeLinesDetect},
+	}
+}
+
 // Internal helper for UnmarshalJSON
 type annotationApplyRulesRaw struct {
-	BaseAnnotationID Reference                  `json:"base_annotation_id"`
-	Action           AnnotationApplyRulesAction `json:"action"`
-	Rules            []json.RawMessage          `json:"rules"`
+	Action AnnotationApplyRulesAction `json:"action"`
+	Rules  []json.RawMessage          `json:"rules"`
 }
 
 func (a *AnnotationApplyRules) UnmarshalJSON(data []byte) error {
@@ -159,7 +181,6 @@ func (a *AnnotationApplyRules) UnmarshalJSON(data []byte) error {
 		return err
 	}
 
-	a.BaseAnnotationID = raw.BaseAnnotationID
 	a.Action = raw.Action
 	a.Rules = make([]AnnotationRule, 0, len(raw.Rules))
 
@@ -193,6 +214,13 @@ func (a *AnnotationApplyRules) UnmarshalJSON(data []byte) error {
 			}
 			rule = &v
 
+		case AnnotationRuleTypeLinesDetect:
+			var v AnnotationRuleLinesDetect
+			if err := json.Unmarshal(r, &v); err != nil {
+				return fmt.Errorf("unmarshal lines_detect rule: %w", err)
+			}
+			rule = &v
+
 		default:
 			return fmt.Errorf("unknown annotation rule type %q", base.Type)
 		}
@@ -208,9 +236,8 @@ func (a *AnnotationApplyRules) DeepCopy() *AnnotationApplyRules {
 		return nil
 	}
 	copied := &AnnotationApplyRules{
-		BaseAnnotationID: a.BaseAnnotationID.DeepCopy(),
-		Action:           a.Action,
-		Rules:            make([]AnnotationRule, len(a.Rules)),
+		Action: a.Action,
+		Rules:  make([]AnnotationRule, len(a.Rules)),
 	}
 	for i, r := range a.Rules {
 		copied.Rules[i] = r.DeepCopy()

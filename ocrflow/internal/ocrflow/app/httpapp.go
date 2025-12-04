@@ -30,11 +30,22 @@ func NewHTTPApp() (*App, error) {
 
 	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
 
+	ruleApplier := service.NewAnnotationRuleApplier(env.PythonExecutable)
+
 	heathSvc := service.NewHealthService(sqlDB)
 	modelSvc := service.NewModelService(env.ModelsDir)
 	editionSvc := service.NewEditionService()
 	datasetSvc := service.NewDatasetService(ghDownloader, editionSvc, env.DataDir)
-	annotationsSvc := service.NewAnnotationsService(env.PythonExecutable, datasetSvc, modelSvc, env.RoboflowAPIKey)
+	annotationsSvc := service.NewAnnotationsService(
+		env.PythonExecutable,
+		datasetSvc,
+		modelSvc,
+		env.RoboflowAPIKey,
+		ruleApplier,
+		env.EscriptoriumBasePath,
+		env.EscriptoriumUsername,
+		env.EscriptoriumPassword,
+	)
 	trainSvc := service.NewTrainService(annotationsSvc, modelSvc, env.TrainingDir)
 
 	deps := &httpapi.Dependencies{

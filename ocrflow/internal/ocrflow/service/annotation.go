@@ -12,6 +12,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
 	"github.com/samber/lo"
 	"log"
+	"math/rand"
 	"os"
 	"path"
 )
@@ -19,15 +20,27 @@ import (
 // todo: add interfaces to all services
 
 type Annotations struct {
-	pythonExecutable string
-	m                map[string]*model.Annotation
-	datasetSvc       *Dataset
-	modelSvc         *Model
-	roboflowAPIKey   string
-	ruleApplier      *AnnotationRuleApplier
+	pythonExecutable     string
+	m                    map[string]*model.Annotation
+	datasetSvc           *Dataset
+	modelSvc             *Model
+	roboflowAPIKey       string
+	ruleApplier          *AnnotationRuleApplier
+	escriptoriumBasePath string
+	escriptoriumUsername string
+	escriptoriumPassword string
 }
 
-func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSvc *Model, roboflowAPIKey string) *Annotations {
+func NewAnnotationsService(
+	pythonExecutable string,
+	datasetSvc *Dataset,
+	modelSvc *Model,
+	roboflowAPIKey string,
+	ruleApplier *AnnotationRuleApplier,
+	escriptoriumBasePath string,
+	escriptoriumUsername string,
+	escriptoriumPassword string,
+) *Annotations {
 	annotations := map[string]*model.Annotation{}
 	manuallyAnnotated := map[string]*model.Annotation{
 		// Manually annotated
@@ -108,11 +121,15 @@ func NewAnnotationsService(pythonExecutable string, datasetSvc *Dataset, modelSv
 	}
 
 	return &Annotations{
-		pythonExecutable: pythonExecutable,
-		m:                annotations,
-		datasetSvc:       datasetSvc,
-		modelSvc:         modelSvc,
-		roboflowAPIKey:   roboflowAPIKey,
+		pythonExecutable:     pythonExecutable,
+		m:                    annotations,
+		datasetSvc:           datasetSvc,
+		modelSvc:             modelSvc,
+		ruleApplier:          ruleApplier,
+		roboflowAPIKey:       roboflowAPIKey,
+		escriptoriumBasePath: escriptoriumBasePath,
+		escriptoriumUsername: escriptoriumUsername,
+		escriptoriumPassword: escriptoriumPassword,
 	}
 
 }
@@ -135,7 +152,7 @@ func (a *Annotations) Get(datasetId, id string) (*model.Annotation, error) {
 	return annotation.DeepCopy(), nil
 }
 
-func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool) (*model.Annotation, error) {
+func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool, randomPages int) (*model.Annotation, error) {
 	// todo: this must be async with job status tracking
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
@@ -160,11 +177,25 @@ func (a *Annotations) Create(datasetID string, ann *model.Annotation, async bool
 
 	ann.ID = idgen.GenerateID()
 	ann.Dataset = model.Reference{ID: datasetID}
-	var filenames []string
-	pages, err := pagesparser.Parse(ann.Pages)
-	if err != nil {
-		return nil, fmt.Errorf("failed to parse pages: %w", err)
+
+	var pages []int
+	if ann.Pages == "" && randomPages > 0 {
+		allPages, err := store.InferPages(ds.ImagesPath, "")
+		if err != nil {
+			return nil, fmt.Errorf("failed to count dataset pages: %w", err)
+		}
+		for i := 0; i < randomPages; i++ {
+			pages = append(pages, allPages[rand.Intn(len(allPages))])
+		}
+
+	} else {
+		pages, err = pagesparser.Parse(ann.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse pages: %w", err)
+		}
 	}
+
+	var filenames []string
 	for _, page := range pages {
 		filename := fmt.Sprintf("page-%04d.png", page)
 		if _, err := os.Stat(path.Join(ds.ImagesPath, filename)); err != nil {
@@ -229,50 +260,39 @@ func (a *Annotations) execModel(ds *model.Dataset, ann *model.Annotation, segM *
 }
 
 func (a *Annotations) Convert(datasetID string, id string, annc *model.AnnotationConvert) (*model.Annotation, error) {
-	if annc.From != model.AnnotationFormatAlto || annc.To != model.AnnotationFormatYolo {
-		return nil, fmt.Errorf("unsupported annotation format for conversion %s -> %s", annc.From, annc.To)
-	}
 	ann, ok := a.m[id]
 	if !ok || ann.DatasetID() != datasetID {
 		return nil, fmt.Errorf("annotation not found")
 	}
-	if ann.AltoDir == "" {
-		return nil, fmt.Errorf("no ALTO annotations found for conversion")
-	}
-	ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.datasetsDir)
-	if err := os.RemoveAll(ann.YoloDir); err != nil {
-		return nil, fmt.Errorf("failed to clear YOLO annotations dir: %w", err)
-	}
-	if err := formatcov.Alto2Yolo(ann.AltoDir, ann.YoloDir, annc.Shuffle, string(annc.SegmontoGranularity)); err != nil {
-		return nil, fmt.Errorf("failed to convert annotations: %w", err)
-	}
-	return ann.DeepCopy(), nil
-}
 
-func (a *Annotations) UploadToRoboflow(datasetID string, id string, rbu *model.AnnotationRoboflowUpload) (*model.Annotation, error) {
-	ann, ok := a.m[id]
-	if !ok || ann.DatasetID() != datasetID {
-		return nil, fmt.Errorf("annotation not found")
+	if annc.From == model.AnnotationFormatAlto && annc.To == model.AnnotationFormatYolo {
+		if ann.AltoDir == "" {
+			return nil, fmt.Errorf("no ALTO annotations found for conversion")
+		}
+		ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.datasetsDir)
+		if err := os.RemoveAll(ann.YoloDir); err != nil {
+			return nil, fmt.Errorf("failed to clear YOLO annotations dir: %w", err)
+		}
+		if err := formatcov.Alto2Yolo(ann.AltoDir, ann.YoloDir, annc.Shuffle, string(annc.SegmontoGranularity)); err != nil {
+			return nil, fmt.Errorf("failed to convert annotations: %w", err)
+		}
+		return ann.DeepCopy(), nil
 	}
-	params := roboflow.NewUploadDatasetParams().
-		SetAPIKey(lo.Ternary(rbu.APIKey == "", a.roboflowAPIKey, rbu.APIKey)).
-		SetWorkspaceID(rbu.WorkspaceID).
-		SetDatasetPath(ann.YoloDir).
-		SetProjectID(rbu.ProjectID).
-		SetIsNotGroundTruth(rbu.IsNotGroundTruth)
-	switch {
-	case ann.YoloDir != "":
-		params = params.SetDatasetPath(ann.YoloDir)
-	case ann.RoboflowDir != "":
-		params = params.SetDatasetPath(ann.RoboflowDir)
-	default:
-		return nil, fmt.Errorf("no annotations found for upload to roboflow")
+
+	if annc.From == model.AnnotationFormatYolo && annc.To == model.AnnotationFormatAlto {
+		if ann.YoloDir == "" {
+			return nil, fmt.Errorf("no YOLO annotations found for conversion")
+		}
+		ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.datasetsDir)
+		if err := os.RemoveAll(ann.AltoDir); err != nil {
+			return nil, fmt.Errorf("failed to clear ALTO annotations dir: %w", err)
+		}
+		if err := formatcov.Yolo2Alto(ann.YoloDir, ann.AltoDir); err != nil {
+			return nil, fmt.Errorf("failed to convert annotations: %w", err)
+		}
+		return ann.DeepCopy(), nil
 	}
-	err := roboflow.UploadDataset(a.pythonExecutable, params)
-	if err != nil {
-		return nil, fmt.Errorf("failed to upload to roboflow: %w", err)
-	}
-	return ann.DeepCopy(), nil
+	return nil, fmt.Errorf("unsupported annotation format for conversion %s -> %s", annc.From, annc.To)
 }
 
 func (a *Annotations) CreateFromZip(datasetID string, format model.AnnotationFormat, save func(dstPath string) error) (*model.Annotation, error) {
@@ -318,18 +338,43 @@ func (a *Annotations) ApplyRules(datasetID string, id string, aar *model.Annotat
 
 	ann := fromDB.DeepCopy()
 
-	if ann.RoboflowDir == "" {
-		return nil, fmt.Errorf("currently only Roboflow annotations are supported for rule application")
+	//if ann.RoboflowDir == "" {
+	//	return nil, fmt.Errorf("currently only Roboflow annotations are supported for rule application")
+	//}
+
+	//ann.YoloDir = ""
+	//ann.AltoDir = ""
+
+	if ann.YoloDir != "" && ann.RoboflowDir == "" && ann.AltoDir == "" {
+		log.Printf("only YOLO annotations found, converting to ALTO for rule application")
+		var err error
+		ann, err = a.Convert(ann.DatasetID(), ann.ID, &model.AnnotationConvert{
+			From: model.AnnotationFormatYolo,
+			To:   model.AnnotationFormatAlto,
+		})
+		if err != nil {
+			return nil, fmt.Errorf("failed to convert YOLO to ALTO for rule application: %w", err)
+		}
 	}
-
-	ann.YoloDir = ""
-	ann.AltoDir = ""
-
 	if aar.Action == model.AnnotationApplyRulesActionCreateNew {
 		ann.ID = idgen.GenerateID()
-		ann.RoboflowDir = store.DatasetAnnotationRoboflowDir(ann, a.datasetSvc.datasetsDir)
-		if err := futils.CopyDir(store.DatasetAnnotationRoboflowDir(fromDB, a.datasetSvc.datasetsDir), ann.RoboflowDir); err != nil {
-			return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+		if fromDB.RoboflowDir != "" {
+			ann.RoboflowDir = store.DatasetAnnotationRoboflowDir(ann, a.datasetSvc.datasetsDir)
+			if err := futils.CopyDir(store.DatasetAnnotationRoboflowDir(fromDB, a.datasetSvc.datasetsDir), ann.RoboflowDir); err != nil {
+				return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+			}
+		}
+		if fromDB.YoloDir != "" {
+			ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.datasetsDir)
+			if err := futils.CopyDir(store.DatasetAnnotationYoloDir(fromDB, a.datasetSvc.datasetsDir), ann.YoloDir); err != nil {
+				return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+			}
+		}
+		if fromDB.AltoDir != "" {
+			ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.datasetsDir)
+			if err := futils.CopyDir(store.DatasetAnnotationAltoDir(fromDB, a.datasetSvc.datasetsDir), ann.AltoDir); err != nil {
+				return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+			}
 		}
 		a.m[ann.ID] = ann.DeepCopy()
 	}

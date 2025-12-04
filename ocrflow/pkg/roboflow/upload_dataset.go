@@ -2,11 +2,8 @@ package roboflow
 
 import (
 	_ "embed"
-	"fmt"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/python"
 	"github.com/samber/lo"
-	"log"
-	"os"
-	"os/exec"
 	"strings"
 )
 
@@ -58,24 +55,5 @@ func UploadDataset(pythonExecutable string, p *UploadDatasetParams) error {
 	script = strings.ReplaceAll(script, "PROJECT_ID", p.ProjectID)
 	script = strings.ReplaceAll(script, "IS_NOT_GROUND_TRUTH", lo.Ternary(p.IsNotGroundTruth, "True", "False"))
 
-	tmp, err := os.CreateTemp("", "script-*.py")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer os.Remove(tmp.Name())
-
-	tmp.WriteString(script)
-	tmp.Close()
-
-	cmd := exec.Command(pythonExecutable, tmp.Name())
-
-	cmd.Stdin = strings.NewReader(script)
-
-	out, err := cmd.CombinedOutput()
-	if err != nil {
-		return fmt.Errorf("python error: %v\n%s", err, out)
-	}
-
-	log.Printf("Python output:\n%s", out)
-	return nil
+	return python.RunScript(pythonExecutable, script)
 }

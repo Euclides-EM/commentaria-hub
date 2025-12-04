@@ -29,10 +29,12 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	mux.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
-	mux.HandleFunc("/datasets/{dataSetId}/annotations/upload", httpwrapper.CreateFile(h.UploadAnnotation).Build())
+	mux.HandleFunc("/datasets/{dataSetId}/annotations/fromzip", httpwrapper.CreateFile(h.GetAnnotationZipFile).Build())
+	mux.HandleFunc("/datasets/{dataSetId}/annotations/fromurl", httpwrapper.CreateFile(h.GetAnnotationURL).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/convert", httpwrapper.Update(h.ConvertAnnotations).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply", httpwrapper.Update(h.ApplyRules).Build())
-	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/rbupload", httpwrapper.Update(h.UploadToRoboflow).Build())
+	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/upload/roboflow", httpwrapper.Update(h.UploadToRoboflow).Build())
+	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/upload/escriptorium", httpwrapper.Update(h.UploadToEscriptorium).Build())
 
 	mux.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
 	mux.HandleFunc("/train", httpwrapper.Create(h.TrainModel).Build())

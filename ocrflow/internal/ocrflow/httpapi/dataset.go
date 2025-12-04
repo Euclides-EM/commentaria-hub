@@ -34,6 +34,7 @@ func (h *Handlers) ListDatasets(r *http.Request) (any, error) {
 // @Description  Create a new dataset.
 // @Tags         Datasets
 // @Param        force_overwrite  query     string  false  "Force overwrite if dataset already exists"
+// @Param        skip_deskew      query     string  false  "Skip deskewing of images"
 // @Param        dataset  body      model.Dataset  true  "Dataset to create"
 // @Produce      json
 // @Success      200  {object}   model.Dataset
@@ -44,5 +45,5 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	if err := decoder.Decode(&d); err != nil {
 		return nil, fmt.Errorf("failed to decode request body: %w", err)
 	}
-	return h.deps.DatasetSvc.Create(&d, r.URL.Query().Get("force_overwrite") != "")
+	return h.deps.DatasetSvc.Create(&d, r.URL.Query().Get("force_overwrite") != "", r.URL.Query().Get("skip_deskew") != "")
 }
