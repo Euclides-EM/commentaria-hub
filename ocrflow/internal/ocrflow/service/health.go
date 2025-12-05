@@ -7,18 +7,18 @@ import (
 )
 
 type Health struct {
-	DB *sql.DB
+	db *sql.DB
 	// todo: add check for github downloader (token valid etc.)
 }
 
 func NewHealthService(db *sql.DB) *Health {
-	return &Health{DB: db}
+	return &Health{db: db}
 }
 
 func (h *Health) Check(ctx context.Context) model.HealthStatus {
 	dbOK := false
-	if h.DB != nil {
-		if err := h.DB.PingContext(ctx); err == nil {
+	if h.db != nil {
+		if err := h.db.PingContext(ctx); err == nil {
 			dbOK = true
 		}
 	}

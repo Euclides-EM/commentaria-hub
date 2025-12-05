@@ -228,10 +228,6 @@ func convertSingleYoloFile(yoloPath string, dstDir string, otherTags string) err
 		return fmt.Errorf("write xml %s: %w", xmlPath, err)
 	}
 
-	// copy image to dstDir
-	if err := JPGToPNG(imgPath, filepath.Join(dstDir, outputBase+".png")); err != nil {
-		return fmt.Errorf("convert jpg to png for %s: %w", imgPath, err)
-	}
 	return nil
 }
 

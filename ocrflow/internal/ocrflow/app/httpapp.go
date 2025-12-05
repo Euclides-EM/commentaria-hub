@@ -30,42 +30,44 @@ func NewHTTPApp() (*App, error) {
 
 	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
 
-	ruleApplier := service.NewAnnotationRuleApplier(env.PythonExecutable)
-
-	// datasetSvc *Dataset, annotationsSvc *Annotations, modelSvc *Model, modelDir, dataDir string
 	heathSvc := service.NewHealthService(sqlDB)
 	modelSvc := service.NewModelService(env.ModelsDir)
+	ruleApplier := service.NewAnnotationRuleApplier(env.DataDir, env.RoboflowAPIKey, modelSvc)
 	editionSvc := service.NewEditionService()
 	datasetSvc := service.NewDatasetService(ghDownloader, editionSvc, env.DataDir)
-	annotationsSvc := service.NewAnnotationsService(
-		env.PythonExecutable,
+	annotationSvc := service.NewAnnotationsService(
 		datasetSvc,
-		modelSvc,
-		env.RoboflowAPIKey,
 		ruleApplier,
-		env.EscriptoriumBasePath,
+	)
+	annotationUploader := service.NewAnnotationsUploader(
+		annotationSvc,
+		datasetSvc,
+		env.RoboflowAPIKey,
+		env.PythonExecutable,
 		env.EscriptoriumUsername,
 		env.EscriptoriumPassword,
+		env.EscriptoriumBasePath,
 	)
 
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,
-		annotationsSvc,
+		annotationSvc,
 		modelSvc,
 		env.ModelsDir,
 		env.DataDir,
 	)
-	trainSvc := service.NewTrainService(annotationsSvc, modelSvc, env.TrainingDir)
+	trainSvc := service.NewTrainService(annotationSvc, modelSvc, env.TrainingDir)
 
 	deps := &httpapi.Dependencies{
-		Env:              env,
-		HealthSvc:        heathSvc,
-		EditionSvc:       editionSvc,
-		DatasetSvc:       datasetSvc,
-		AnnotationsSvc:   annotationsSvc,
-		ModelSvc:         modelSvc,
-		TrainSvc:         trainSvc,
-		MetaStoreManager: metaStoreManager,
+		Env:                 env,
+		HealthSvc:           heathSvc,
+		EditionSvc:          editionSvc,
+		DatasetSvc:          datasetSvc,
+		AnnotationSvc:       annotationSvc,
+		ModelSvc:            modelSvc,
+		TrainSvc:            trainSvc,
+		MetaStoreManager:    metaStoreManager,
+		AnnotationsUploader: annotationUploader,
 	}
 
 	router := httpapi.NewRouter(deps)

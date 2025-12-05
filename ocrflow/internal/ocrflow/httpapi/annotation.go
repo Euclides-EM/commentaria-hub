@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
 	"io"
@@ -25,7 +26,7 @@ func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
 	if datasetID == "" {
 		return nil, fmt.Errorf("missing dataset ID")
 	}
-	return h.deps.AnnotationsSvc.ListAnnotations(datasetID)
+	return h.deps.AnnotationSvc.ListAnnotations(datasetID)
 }
 
 // CreateAnnotation godoc
@@ -33,7 +34,6 @@ func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
 // @Description  Create a new annotation for a specific dataset.
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
-// @Param        async	  	 query     bool    false "Process annotation asynchronously"
 // @Param        random_pages query    number  false "Number of random pages to annotate, only applicable if explicit page list is not provided"
 // @Param        annotation  body      model.Annotation  true  "Annotation to create"
 // @Produce      json
@@ -58,7 +58,7 @@ func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
 	if err != nil && rawRandomPages != "" {
 		return nil, fmt.Errorf("invalid random_pages parameter: %w", err)
 	}
-	return h.deps.AnnotationsSvc.Create(datasetID, &a, r.URL.Query().Get("async") == "true", randomPages)
+	return h.deps.AnnotationSvc.Create(datasetID, &a, randomPages)
 }
 
 // ConvertAnnotations godoc
@@ -85,7 +85,7 @@ func (h *Handlers) ConvertAnnotations(r *http.Request) (any, error) {
 		return nil, fmt.Errorf("failed to decode annotation convert: %w", err)
 	}
 
-	return h.deps.AnnotationsSvc.Convert(datasetID, annotationID, &a)
+	return h.deps.AnnotationSvc.Convert(datasetID, annotationID, &a)
 }
 
 // ApplyRules godoc
@@ -94,7 +94,7 @@ func (h *Handlers) ConvertAnnotations(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
-// @Param        annotationApplyRules  body      model.AnnotationApplyRules  true  "Annotation apply rules details"
+// @Param        annotationApplyRules  body 	annotationrule.ApplyRules  true  "Annotation apply rules"
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply [put]
@@ -107,12 +107,12 @@ func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 	}
 
 	decoder := json.NewDecoder(r.Body)
-	var a model.AnnotationApplyRules
+	var a annotationrule.ApplyRules
 	if err := decoder.Decode(&a); err != nil {
 		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
 	}
 
-	return h.deps.AnnotationsSvc.ApplyRules(datasetID, annotationID, &a)
+	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, &a)
 }
 
 // UploadToRoboflow godoc
@@ -138,7 +138,7 @@ func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 	if err := decoder.Decode(&urb); err != nil {
 		return nil, fmt.Errorf("failed to decode annotation roboflow upload: %w", err)
 	}
-	return h.deps.AnnotationsSvc.UploadToRoboflow(datasetID, annotationID, &urb)
+	return h.deps.AnnotationsUploader.UploadToRoboflow(datasetID, annotationID, &urb)
 }
 
 // UploadToEscriptorium godoc
@@ -164,7 +164,7 @@ func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
 	if err := decoder.Decode(&aue); err != nil {
 		return nil, fmt.Errorf("failed to decode annotation escriptorium upload: %w", err)
 	}
-	return h.deps.AnnotationsSvc.UploadToEscriptorium(datasetID, annotationID, &aue)
+	return h.deps.AnnotationsUploader.UploadToEscriptorium(datasetID, annotationID, &aue)
 }
 
 // GetAnnotationZipFile godoc
@@ -187,7 +187,7 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 	if format != model.AnnotationFormatAlto && format != model.AnnotationFormatYolo {
 		return nil, fmt.Errorf("unsupported annotation format: %s", format)
 	}
-	return h.deps.AnnotationsSvc.CreateFromZip(datasetID, format, func(dstPath string) error { return httpwrapper.StoreUncompressedDir(dstPath, r) })
+	return h.deps.AnnotationSvc.CreateFromZip(datasetID, format, func(dstPath string) error { return httpwrapper.StoreUncompressedDir(dstPath, r) })
 }
 
 // GetAnnotationURL godoc
@@ -214,7 +214,7 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 		return nil, fmt.Errorf("missing URL")
 	}
 
-	return h.deps.AnnotationsSvc.CreateFromZip(datasetID, format, func(dstPath string) error {
+	return h.deps.AnnotationSvc.CreateFromZip(datasetID, format, func(dstPath string) error {
 		resp, err := http.Get(downloadZipURL)
 		if err != nil {
 			return fmt.Errorf("failed to download zip from %s: %w", downloadZipURL, err)

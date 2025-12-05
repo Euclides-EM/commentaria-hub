@@ -13,11 +13,3 @@ func NewMeta(id string) Meta {
 		ID: id,
 	}
 }
-
-func (m Meta) DeepCopy() Meta {
-	return Meta{
-		ID:        m.ID,
-		CreatedAt: m.CreatedAt,
-		UpdatedAt: m.UpdatedAt,
-	}
-}

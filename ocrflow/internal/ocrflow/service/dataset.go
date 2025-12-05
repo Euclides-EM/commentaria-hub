@@ -17,42 +17,44 @@ type Dataset struct {
 	m                map[string]*model.Dataset
 	githubDownloader *ghwrapper.Downloader
 	editionSvc       *Edition
-	datasetsDir      string
+	dataDir          string
 }
 
-func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Edition, datasetsDir string) *Dataset {
+func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Edition, dataDir string) *Dataset {
 	return &Dataset{
 		m: map[string]*model.Dataset{
 			// No deskewing
 			"rrpbnk": {
-				Meta:       model.NewMeta("rrpbnk"),
-				Facsimile:  model.Reference{ID: "2"},
-				Edition:    model.Reference{ID: "Paris_1615"},
-				PDFPath:    "store/data/rrpbnk/Paris_1615_1.pdf",
-				ImagesPath: "store/data/rrpbnk/imgs",
-				DPI:        300.0,
+				Meta:        model.NewMeta("rrpbnk"),
+				Description: "Dataset without deskewing applied",
+				FacsimileID: "2",
+				EditionID:   "Paris_1615",
+				PDFPath:     "store/data/rrpbnk/Paris_1615_1.pdf",
+				ImagesPath:  "store/data/rrpbnk/imgs",
+				DPI:         300.0,
 			},
 			// After deskewing
 			"uk5wbj": {
-				Meta:       model.NewMeta("uk5wbj"),
-				Facsimile:  model.Reference{ID: "1"},
-				Edition:    model.Reference{ID: "Paris_1615"},
-				PDFPath:    "store/data/uk5wbj/Paris_1615_1.pdf",
-				ImagesPath: "store/data/uk5wbj/imgs",
-				DPI:        300.0,
+				Meta:        model.NewMeta("uk5wbj"),
+				Description: "Dataset with deskewing applied",
+				FacsimileID: "1",
+				EditionID:   "Paris_1615",
+				PDFPath:     "store/data/uk5wbj/Paris_1615_1.pdf",
+				ImagesPath:  "store/data/uk5wbj/imgs",
+				DPI:         300.0,
 			},
 			"aiqcec": {
-				Meta:       model.NewMeta("aiqcec"),
-				Facsimile:  model.Reference{ID: "1"},
-				Edition:    model.Reference{ID: "London_1570"},
-				PDFPath:    "store/data/aiqcec/London_1570_1.pdf",
-				ImagesPath: "store/data/aiqcec/imgs",
-				DPI:        300.0,
+				Meta:        model.NewMeta("aiqcec"),
+				FacsimileID: "1",
+				EditionID:   "London_1570",
+				PDFPath:     "store/data/aiqcec/London_1570_1.pdf",
+				ImagesPath:  "store/data/aiqcec/imgs",
+				DPI:         300.0,
 			},
 		},
 		githubDownloader: githubDownloader,
 		editionSvc:       editionSvc,
-		datasetsDir:      datasetsDir,
+		dataDir:          dataDir,
 	}
 }
 
@@ -70,10 +72,10 @@ func (d *Dataset) Get(id string) (*model.Dataset, error) {
 }
 
 func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*model.Dataset, error) {
-	if ds.FacsimileID() == "" || ds.EditionID() == "" {
+	if ds.FacsimileID == "" || ds.EditionID == "" {
 		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
 	}
-	_, targetFacsimile, err := d.editionSvc.GetFacsimile(ds.EditionID(), ds.FacsimileID())
+	_, targetFacsimile, err := d.editionSvc.GetFacsimile(ds.EditionID, ds.FacsimileID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get facsimile: %w", err)
 	}
@@ -90,14 +92,14 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 			return nil, fmt.Errorf("failed to list datasets: %w", err)
 		}
 		for _, existingDS := range dss {
-			if existingDS.FacsimileID() == ds.FacsimileID() && existingDS.EditionID() == ds.EditionID() {
-				return nil, fmt.Errorf("dataset for facsimile %s in edition %s already exists", ds.FacsimileID(), ds.EditionID())
+			if existingDS.FacsimileID == ds.FacsimileID && existingDS.EditionID == ds.EditionID {
+				return nil, fmt.Errorf("dataset for facsimile %s in edition %s already exists", ds.FacsimileID, ds.EditionID)
 			}
 		}
 	}
 	ds.ID = idgen.GenerateID()
-	ds.PDFPath = store.DatasetPDFPath(ds, d.datasetsDir)
-	ds.ImagesPath = store.DatasetImagesDir(ds, d.datasetsDir)
+	ds.PDFPath = store.DatasetPDFPath(ds, d.dataDir)
+	ds.ImagesPath = store.DatasetImagesDir(ds, d.dataDir)
 
 	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
 		ds.DPI = 300.0

@@ -3,7 +3,6 @@ package krakenwrapper
 import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
-	"log"
 	"os"
 	"path/filepath"
 	"slices"
@@ -12,15 +11,7 @@ import (
 
 var imageFormats = []string{".tif", ".tiff", ".png"}
 
-func Recognize(inputDir, outputDir, segmentationModel, ocrModel string, filenames []string) (<-chan error, error) {
-	if len(filenames) == 0 {
-		log.Println("No filenames provided for OCR processing.")
-		ch := make(chan error, 1)
-		ch <- nil
-		close(ch)
-		return ch, nil
-	}
-
+func Recognize(inputDir, outputDir, segmentationModel string, filenames []string) (<-chan error, error) {
 	if _, err := os.Stat(inputDir); err != nil {
 		return nil, fmt.Errorf("input directory does not exist: %w", err)
 	}
@@ -45,11 +36,11 @@ func Recognize(inputDir, outputDir, segmentationModel, ocrModel string, filename
 		return nil, fmt.Errorf("could not create output directory: %w", err)
 	}
 
-	errCh := processImages(files, outputDir, segmentationModel, ocrModel)
+	errCh := processImages(files, outputDir, segmentationModel)
 	return errCh, nil
 }
 
-func processImages(images []string, outputDir, segmentationModel, ocrModel string) <-chan error {
+func processImages(images []string, outputDir, segmentationModel string) <-chan error {
 
 	// todo: as opposed to the flow that converts from yolo to alto, here we do not copy the images to the output dir
 	//  Moreover, the filename in the ALTO result might match the input image full path,
@@ -59,13 +50,13 @@ func processImages(images []string, outputDir, segmentationModel, ocrModel strin
 
 	go func() {
 		defer close(errCh)
-		errCh <- runProcessImages(images, outputDir, segmentationModel, ocrModel)
+		errCh <- runProcessImages(images, outputDir, segmentationModel)
 	}()
 
 	return errCh
 }
 
-func runProcessImages(images []string, outputDir, segmentationModel, ocrModel string) error {
+func runProcessImages(images []string, outputDir, segmentationModel string) error {
 	inputOutputPairs, err := toInputOutputPairs(images, outputDir)
 	if err != nil {
 		return err
@@ -84,11 +75,22 @@ func runProcessImages(images []string, outputDir, segmentationModel, ocrModel st
 
 	args = append(args, "segment", "--yolo", segmentationModel)
 
-	if ocrModel != "" {
-		args = append(args, "ocr", "--model", ocrModel)
+	//if ocrModel != "" {
+	//	args = append(args, "ocr", "--model", ocrModel)
+	//}
+
+	if err := envexec.Cmd("yaltai", args...); err != nil {
+		return fmt.Errorf("kraken recognition failed: %w", err)
 	}
 
-	return envexec.Cmd("yaltai", args...)
+	// go over all output files and fix the fileName element in the ALTO XML
+	for _, pair := range inputOutputPairs {
+		outputPath := pair[1]
+		if err := FixAltoFileName(outputPath, outputPath); err != nil {
+			return fmt.Errorf("could not fix ALTO file name in %s: %w", outputPath, err)
+		}
+	}
+	return nil
 }
 
 // toInputOutputPairs converts a list of image paths to input-output pairs for processing.

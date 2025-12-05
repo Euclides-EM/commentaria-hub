@@ -79,3 +79,24 @@ func parsePageNumber(pageStr string) (int, error) {
 	}
 	return p, nil
 }
+
+func PageToPNGFilename(p int) string {
+	return PageToFilename(p, "png")
+}
+
+func PageToXMLFilename(p int) string {
+	return PageToFilename(p, "xml")
+}
+
+func PageToFilename(p int, ext string) string {
+	return fmt.Sprintf("page-%04d.%s", p, ext)
+}
+
+func FileNameToPage(filename string) (int, error) {
+	var pageNum int
+	_, err := fmt.Sscanf(filename, "page-%04d.", &pageNum)
+	if err != nil {
+		return -1, fmt.Errorf("invalid page filename: %s", filename)
+	}
+	return pageNum, nil
+}

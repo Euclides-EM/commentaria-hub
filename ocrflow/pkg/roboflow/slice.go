@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/coco"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"os"
 	"path/filepath"
 )
@@ -36,10 +37,10 @@ func slicePages(dir string, pages []int) error {
 		return fmt.Errorf("unmarshal coco: %w", err)
 	}
 
-	// build set of filenames to keep: "page-%04d.png"
+	// build set of filenames to keep
 	keepFileNames := make(map[string]struct{}, len(pages))
 	for _, p := range pages {
-		name := fmt.Sprintf("page-%04d.png", p)
+		name := pagesparser.PageToPNGFilename(p)
 		keepFileNames[name] = struct{}{}
 	}
 

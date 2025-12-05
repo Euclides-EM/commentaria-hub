@@ -11,29 +11,29 @@ import (
 )
 
 type MetaStoreManager struct {
-	DatasetSvc     *Dataset
-	AnnotationsSvc *Annotations
-	ModelSvc       *Model
+	datasetSvc    *Dataset
+	annotationSvc *Annotation
+	modelSvc      *Model
 
-	ModelDir string
-	DataDir  string
+	modelDir string
+	dataDir  string
 }
 
-func NewMetaStoreManager(datasetSvc *Dataset, annotationsSvc *Annotations, modelSvc *Model, modelDir, dataDir string) *MetaStoreManager {
+func NewMetaStoreManager(datasetSvc *Dataset, annotationSvc *Annotation, modelSvc *Model, modelDir, dataDir string) *MetaStoreManager {
 	return &MetaStoreManager{
-		DatasetSvc:     datasetSvc,
-		AnnotationsSvc: annotationsSvc,
-		ModelSvc:       modelSvc,
+		datasetSvc:    datasetSvc,
+		annotationSvc: annotationSvc,
+		modelSvc:      modelSvc,
 
-		ModelDir: modelDir,
-		DataDir:  dataDir,
+		modelDir: modelDir,
+		dataDir:  dataDir,
 	}
 }
 
 func (m *MetaStoreManager) CleanupLocalStore(dryRun bool) ([]string, error) {
 	var toDelete []string
 
-	dataDir, err := filepath.Abs(m.DataDir)
+	dataDir, err := filepath.Abs(m.dataDir)
 	if err != nil {
 		return nil, fmt.Errorf("could not get abs path for data dir: %v", err)
 	}
@@ -49,7 +49,7 @@ func (m *MetaStoreManager) CleanupLocalStore(dryRun bool) ([]string, error) {
 			toDelete = append(toDelete, p)
 		}
 		dsID := de.Name()
-		if _, err := m.DatasetSvc.Get(dsID); err != nil {
+		if _, err := m.datasetSvc.Get(dsID); err != nil {
 			p := filepath.Join(dataDir, dsID)
 			toDelete = append(toDelete, p)
 			continue
@@ -73,7 +73,7 @@ func (m *MetaStoreManager) CleanupLocalStore(dryRun bool) ([]string, error) {
 			}
 		}
 
-		anns, err := m.AnnotationsSvc.ListAnnotations(dsID)
+		anns, err := m.annotationSvc.ListAnnotations(dsID)
 		if err != nil {
 			return nil, fmt.Errorf("cannot list annotations for dataset %s: %w", dsID, err)
 		}

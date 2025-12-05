@@ -3,6 +3,7 @@ package store
 import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"log"
 	"os"
 	"path/filepath"
@@ -29,8 +30,10 @@ func inferPagesFromImgDir(path string) ([]int, error) {
 
 	res := make([]int, 0)
 	for _, f := range files {
-		var pageNum int
-		_, err := fmt.Sscanf(f.Name(), "page-%04d.", &pageNum)
+		if f.IsDir() && f.Name() == ".DS_Store" {
+			continue
+		}
+		pageNum, err := pagesparser.FileNameToPage(f.Name())
 		if err != nil {
 			log.Printf("could not parse file %s, expected format page-0001.<ext>, skipping: %v", f.Name(), err)
 			continue
@@ -103,8 +106,7 @@ func inferPagesFromAltoDir(p string) ([]int, error) {
 
 	res := make([]int, 0)
 	for _, f := range files {
-		var pageNum int
-		_, err := fmt.Sscanf(f.Name(), "page-%04d.xml", &pageNum)
+		pageNum, err := pagesparser.FileNameToPage(f.Name())
 		if err != nil {
 			log.Printf("could not parse file %s, expected format page-0001.xml, skipping: %v", f.Name(), err)
 			continue

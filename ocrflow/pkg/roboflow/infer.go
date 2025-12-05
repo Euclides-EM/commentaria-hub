@@ -6,25 +6,25 @@ import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 )
 
-func Recognize(imgPath string, outPath string, modelName string, modelCategories []string, filenames []string, apiKey string) <-chan error {
+func Recognize(imgPath string, outPath string, modelName string, modelCategories []string, apiKey string, filenames []string) <-chan error {
 	errCh := make(chan error, 1)
 
 	go func() {
 		defer close(errCh)
-		errCh <- infer(imgPath, outPath, modelName, modelCategories, filenames, apiKey)
+		errCh <- infer(imgPath, outPath, modelName, modelCategories, apiKey, filenames)
 	}()
 
 	return errCh
 }
 
-func infer(imgPath string, outPath string, modelName string, modelCategories []string, filenames []string, apiKey string) error {
+func infer(imgPath string, outPath string, modelName string, modelCategories []string, apiKey string, filenames []string) error {
 	if err := os.MkdirAll(filepath.Join(outPath, "test"), 0o755); err != nil {
 		return err
 	}
@@ -57,7 +57,7 @@ func infer(imgPath string, outPath string, modelName string, modelCategories []s
 		}
 		defer resp.Body.Close()
 
-		body, err := ioutil.ReadAll(resp.Body)
+		body, err := io.ReadAll(resp.Body)
 		if err != nil {
 			return err
 		}

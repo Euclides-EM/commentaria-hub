@@ -34,7 +34,7 @@ import (
 //             └─ labelmap.txt
 
 func DatasetPDFPath(ds *model.Dataset, baseDir string) string {
-	return path.Join(baseDir, ds.ID, fmt.Sprintf("%s_%s.pdf", ds.EditionID(), ds.FacsimileID()))
+	return path.Join(baseDir, ds.ID, fmt.Sprintf("%s_%s.pdf", ds.EditionID, ds.FacsimileID))
 }
 
 func DatasetImagesDir(ds *model.Dataset, baseDir string) string {
@@ -42,7 +42,7 @@ func DatasetImagesDir(ds *model.Dataset, baseDir string) string {
 }
 
 func datasetAnnotationsPath(ann *model.Annotation, baseDir string) string {
-	return path.Join(baseDir, ann.DatasetID(), "annotations", ann.ID)
+	return path.Join(baseDir, ann.DatasetID, "annotations", ann.ID)
 }
 
 func DatasetAnnotationAltoDir(ann *model.Annotation, baseDir string) string {

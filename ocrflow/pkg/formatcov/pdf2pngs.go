@@ -2,6 +2,7 @@ package formatcov
 
 import (
 	"fmt"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"image/png"
 	"log"
 	"os"
@@ -32,7 +33,7 @@ func PDF2PNGs(pdfPath, outDir string, dpi float64) error {
 			return fmt.Errorf("failed to render page %d: %w", i+1, err)
 		}
 
-		filename := fmt.Sprintf("page-%04d.png", i+1)
+		filename := pagesparser.PageToPNGFilename(i + 1)
 		outPath := filepath.Join(outDir, filename)
 
 		f, err := os.Create(outPath)

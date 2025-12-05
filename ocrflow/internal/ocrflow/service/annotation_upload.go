@@ -7,13 +7,44 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
 	"github.com/samber/lo"
+	"github.com/tiendc/go-deepcopy"
 	"path"
 )
 
-func (a *Annotations) UploadToRoboflow(datasetID string, id string, rbu *model.AnnotationUploadRoboflow) (*model.Annotation, error) {
-	ann, ok := a.m[id]
-	if !ok || ann.DatasetID() != datasetID {
-		return nil, fmt.Errorf("annotation not found")
+type AnnotationsUploader struct {
+	annotationSvc        *Annotation
+	datasetSvc           *Dataset
+	roboflowAPIKey       string
+	pythonExecutable     string
+	escriptoriumPassword string
+	escriptoriumUsername string
+	escriptoriumBasePath string
+}
+
+func NewAnnotationsUploader(
+	annotationSvc *Annotation,
+	datasetSvc *Dataset,
+	roboflowAPIKey string,
+	pythonExecutable string,
+	escriptoriumUsername string,
+	escriptoriumPassword string,
+	escriptoriumBasePath string,
+) *AnnotationsUploader {
+	return &AnnotationsUploader{
+		annotationSvc:        annotationSvc,
+		datasetSvc:           datasetSvc,
+		roboflowAPIKey:       roboflowAPIKey,
+		pythonExecutable:     pythonExecutable,
+		escriptoriumPassword: escriptoriumPassword,
+		escriptoriumUsername: escriptoriumUsername,
+		escriptoriumBasePath: escriptoriumBasePath,
+	}
+}
+
+func (a *AnnotationsUploader) UploadToRoboflow(datasetID string, id string, rbu *model.AnnotationUploadRoboflow) (*model.Annotation, error) {
+	ann, err := a.annotationSvc.Get(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("annotation not found: %w", err)
 	}
 	params := roboflow.NewUploadDatasetParams().
 		SetAPIKey(lo.Ternary(rbu.APIKey == "", a.roboflowAPIKey, rbu.APIKey)).
@@ -29,10 +60,14 @@ func (a *Annotations) UploadToRoboflow(datasetID string, id string, rbu *model.A
 	if err = roboflow.UploadDataset(a.pythonExecutable, params); err != nil {
 		return nil, fmt.Errorf("failed to upload to roboflow: %w", err)
 	}
-	return ann.DeepCopy(), nil
+	var dst *model.Annotation
+	if err = deepcopy.Copy(&dst, &ann); err != nil {
+		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	}
+	return dst, nil
 }
 
-func (a *Annotations) annotationDirForRoboflowUpload(ann *model.Annotation) (string, error) {
+func (a *AnnotationsUploader) annotationDirForRoboflowUpload(ann *model.Annotation) (string, error) {
 	if ann.YoloDir != "" {
 		return ann.YoloDir, nil
 	}
@@ -42,7 +77,7 @@ func (a *Annotations) annotationDirForRoboflowUpload(ann *model.Annotation) (str
 	if ann.AltoDir == "" {
 		return "", fmt.Errorf("no annotations found for roboflow upload")
 	}
-	_, err := a.Convert(ann.DatasetID(), ann.ID, &model.AnnotationConvert{
+	_, err := a.annotationSvc.Convert(ann.DatasetID, ann.ID, &model.AnnotationConvert{
 		From: model.AnnotationFormatAlto,
 		To:   model.AnnotationFormatYolo,
 	})
@@ -52,10 +87,14 @@ func (a *Annotations) annotationDirForRoboflowUpload(ann *model.Annotation) (str
 	return ann.YoloDir, nil
 }
 
-func (a *Annotations) UploadToEscriptorium(datasetID string, id string, aue *model.AnnotationUploadEscriptorium) (*model.Annotation, error) {
-	ann, ok := a.m[id]
-	if !ok || ann.DatasetID() != datasetID {
-		return nil, fmt.Errorf("annotation not found")
+func (a *AnnotationsUploader) UploadToEscriptorium(datasetID string, id string, aue *model.AnnotationUploadEscriptorium) (*model.Annotation, error) {
+	ann, err := a.annotationSvc.Get(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("annotation not found: %w", err)
+	}
+	ds, err := a.datasetSvc.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset for escriptorium upload: %w", err)
 	}
 
 	client := escriptorium.NewClient(
@@ -71,7 +110,7 @@ func (a *Annotations) UploadToEscriptorium(datasetID string, id string, aue *mod
 	if ann.AltoDir == "" {
 		if ann.YoloDir != "" {
 			var err error
-			ann, err = a.Convert(ann.DatasetID(), ann.ID, &model.AnnotationConvert{
+			ann, err = a.annotationSvc.Convert(ann.DatasetID, ann.ID, &model.AnnotationConvert{
 				From: model.AnnotationFormatYolo,
 				To:   model.AnnotationFormatAlto,
 			})
@@ -86,26 +125,30 @@ func (a *Annotations) UploadToEscriptorium(datasetID string, id string, aue *mod
 		return nil, fmt.Errorf("failed to parse pages for escriptorium upload: %w", err)
 	}
 	for _, page := range pages {
-		imgPath := path.Join(ann.AltoDir, fmt.Sprintf("page-%04d.png", page))
+		imgPath := path.Join(ds.ImagesPath, pagesparser.PageToPNGFilename(page))
 		if err := client.UploadImage(aue.Document, imgPath); err != nil {
 			return nil, fmt.Errorf("failed to upload image to escriptorium for page %d: %w", page, err)
 		}
-		altoPath := path.Join(ann.AltoDir, fmt.Sprintf("page-%04d.xml", page))
+		altoPath := path.Join(ann.AltoDir, pagesparser.PageToXMLFilename(page))
 		if err := client.UploadAnnotation(aue.Document, altoPath); err != nil {
 			return nil, fmt.Errorf("failed to upload ALTO to escriptorium for page %d: %w", page, err)
 		}
 	}
-	return ann.DeepCopy(), nil
+	var dst *model.Annotation
+	if err := deepcopy.Copy(&dst, &ann); err != nil {
+		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	}
+	return dst, nil
 }
 
-func (a *Annotations) annotationDirForEscriptoriumUpload(ann *model.Annotation) (string, error) {
+func (a *AnnotationsUploader) annotationDirForEscriptoriumUpload(ann *model.Annotation) (string, error) {
 	if ann.AltoDir != "" {
 		return ann.AltoDir, nil
 	}
 	if ann.YoloDir == "" {
 		return "", fmt.Errorf("no annotations found for escriptorium upload")
 	}
-	_, err := a.Convert(ann.DatasetID(), ann.ID, &model.AnnotationConvert{
+	_, err := a.annotationSvc.Convert(ann.DatasetID, ann.ID, &model.AnnotationConvert{
 		From: model.AnnotationFormatYolo,
 		To:   model.AnnotationFormatAlto,
 	})

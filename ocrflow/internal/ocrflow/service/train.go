@@ -8,18 +8,19 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
+	"github.com/tiendc/go-deepcopy"
 	"log"
 	"path"
 )
 
 type Train struct {
-	annotationSvc *Annotations
+	annotationSvc *Annotation
 	modelSvc      *Model
 	trainingDir   string
 	m             map[string]*model.Training
 }
 
-func NewTrainService(annotationSvc *Annotations, modelSvc *Model, trainingDir string) *Train {
+func NewTrainService(annotationSvc *Annotation, modelSvc *Model, trainingDir string) *Train {
 	return &Train{
 		annotationSvc: annotationSvc,
 		modelSvc:      modelSvc,
@@ -44,7 +45,7 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 
 	var datsetPaths []string
 	for _, annSetRef := range t.AnnotationSets {
-		annSet, err := tm.annotationSvc.Get(annSetRef.DatasetId, annSetRef.ID)
+		annSet, err := tm.annotationSvc.Get(annSetRef.DatasetID, annSetRef.ID)
 		if err != nil {
 			return nil, err
 		}
@@ -68,20 +69,33 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 
 	t.Status = model.TrainingStatusRunning
 	tm.m[t.ID] = t
-	toUpdate := t.DeepCopy()
+	var toUpdate *model.Training
+	if err := deepcopy.Copy(&toUpdate, &t); err != nil {
+		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	}
 	oPath := outputPath
 
 	go func() {
 		if recErr := <-errCh; recErr != nil {
 			log.Printf("async annotation failed for %s: %v", toUpdate.ID, recErr)
 			toUpdate.Status = model.TrainingStatusFailed
-			tm.m[toUpdate.ID] = toUpdate.DeepCopy()
+			var dst *model.Training
+			err := deepcopy.Copy(&dst, &toUpdate)
+			if err != nil {
+				log.Printf("ERROR failed to deepcopy training model %s: %v", toUpdate.ID, err)
+			}
+			tm.m[toUpdate.ID] = dst
 			return
 		}
 		log.Printf("async annotation completed for %s", toUpdate.ID)
 
 		toUpdate.Status = model.TrainingStatusCompleted
-		tm.m[toUpdate.ID] = toUpdate.DeepCopy()
+		var dst *model.Training
+		err = deepcopy.Copy(&dst, &toUpdate)
+		tm.m[toUpdate.ID] = dst
+		if err != nil {
+			log.Printf("ERROR failed to deepcopy training model %s: %v", toUpdate.ID, err)
+		}
 		m := &model.Model{
 			Type:            model.OCRModelTypeSegment,
 			AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,

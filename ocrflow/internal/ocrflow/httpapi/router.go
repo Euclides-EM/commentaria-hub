@@ -9,14 +9,15 @@ import (
 )
 
 type Dependencies struct {
-	Env              *config.EnvConfig
-	HealthSvc        *service.Health
-	EditionSvc       *service.Edition
-	DatasetSvc       *service.Dataset
-	AnnotationsSvc   *service.Annotations
-	ModelSvc         *service.Model
-	TrainSvc         *service.Train
-	MetaStoreManager *service.MetaStoreManager
+	Env                 *config.EnvConfig
+	HealthSvc           *service.Health
+	EditionSvc          *service.Edition
+	DatasetSvc          *service.Dataset
+	AnnotationSvc       *service.Annotation
+	ModelSvc            *service.Model
+	TrainSvc            *service.Train
+	MetaStoreManager    *service.MetaStoreManager
+	AnnotationsUploader *service.AnnotationsUploader
 }
 
 func NewRouter(deps *Dependencies) http.Handler {

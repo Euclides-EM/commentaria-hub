@@ -3,6 +3,7 @@ package service
 import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/tiendc/go-deepcopy"
 	"slices"
 )
 
@@ -53,7 +54,11 @@ func (e *Edition) ListEditions(expand []model.EditionExpandOptions, orderBy []mo
 		if slices.Contains(expand, model.EditionExpandFacsimiles) {
 			facs := make([]*model.Facsimile, len(edition.Facsimiles))
 			for i, fac := range edition.Facsimiles {
-				facs[i] = fac.DeepCopy()
+				var dst *model.Facsimile
+				if err := deepcopy.Copy(&dst, &fac); err != nil {
+					return nil, fmt.Errorf("failed to copy annotation: %w", err)
+				}
+				facs[i] = dst
 			}
 			ed.Facsimiles = facs
 		}
@@ -97,7 +102,11 @@ func (e *Edition) UpdateFacsimile(key string, id string, f *model.Facsimile) (*m
 	}
 	for i, fac := range edition.Facsimiles {
 		if fac.ID == id {
-			fac = f.DeepCopy()
+			var dst *model.Facsimile
+			if err := deepcopy.Copy(&dst, &f); err != nil {
+				return nil, fmt.Errorf("failed to copy annotation: %w", err)
+			}
+			fac = dst
 			e.m[key].Facsimiles[i] = fac
 			return fac, nil
 		}

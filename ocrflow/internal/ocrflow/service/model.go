@@ -6,6 +6,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/tiendc/go-deepcopy"
 	"path"
 )
 
@@ -167,7 +168,11 @@ func NewModelService(modelsDir string) *Model {
 func (m *Model) List() ([]*model.Model, error) {
 	modelsList := make([]*model.Model, 0, len(m.m))
 	for _, retrieved := range m.m {
-		modelsList = append(modelsList, retrieved.DeepCopy())
+		var dst *model.Model
+		if err := deepcopy.Copy(&dst, &retrieved); err != nil {
+			return nil, fmt.Errorf("failed to copy annotation: %w", err)
+		}
+		modelsList = append(modelsList, dst)
 	}
 	return modelsList, nil
 }
@@ -177,17 +182,28 @@ func (m *Model) Get(id string) (*model.Model, error) {
 	if !ok {
 		return nil, errors.New("model not found")
 	}
-	return retrieved.DeepCopy(), nil
+	var dst *model.Model
+	if err := deepcopy.Copy(&dst, &retrieved); err != nil {
+		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	}
+	return dst, nil
 }
 
 func (m *Model) Upsert(mo *model.Model, modelPath string) error {
-	n := mo.DeepCopy()
+	var n *model.Model
+	if err := deepcopy.Copy(&n, &mo); err != nil {
+		return fmt.Errorf("failed to copy annotation: %w", err)
+	}
 	n.ID = idgen.GenerateID()
 	n.Location = model.OCRModelLocationLocal
 	n.LocalPath = path.Join(m.modelsDir, fmt.Sprintf("%s.pt", n.ID))
 	if err := futils.CopyFile(modelPath, n.LocalPath); err != nil {
 		return fmt.Errorf("failed to copy model from %s to %s: %w", modelPath, n.LocalPath, err)
 	}
-	m.m[n.ID] = n.DeepCopy()
+	var dst *model.Model
+	if err := deepcopy.Copy(&dst, &n); err != nil {
+		return fmt.Errorf("failed to copy annotation: %w", err)
+	}
+	m.m[n.ID] = dst
 	return nil
 }
