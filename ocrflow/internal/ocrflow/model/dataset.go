@@ -2,12 +2,11 @@ package model
 
 type Dataset struct {
 	Meta
-	Facsimile     Reference `json:"facsimile"`
-	Edition       Reference `json:"edition"`
-	PDFPath       string    `json:"pdf_path" readonly:"true"`
-	RawImagesPath string    `json:"raw_img_path" readonly:"true"`
-	ImagesPath    string    `json:"img_path" readonly:"true"`
-	DPI           float64   `json:"dpi" default:"300"`
+	Facsimile  Reference `json:"facsimile"`
+	Edition    Reference `json:"edition"`
+	PDFPath    string    `json:"pdf_path" readonly:"true"`
+	ImagesPath string    `json:"img_path" readonly:"true"`
+	DPI        float64   `json:"dpi" default:"300"`
 }
 
 func (d *Dataset) FacsimileID() string {

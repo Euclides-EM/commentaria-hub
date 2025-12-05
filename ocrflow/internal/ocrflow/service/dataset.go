@@ -5,12 +5,12 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
 	"github.com/samber/lo"
 	"log"
+	"os"
 )
 
 type Dataset struct {
@@ -34,22 +34,20 @@ func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Editi
 			},
 			// After deskewing
 			"uk5wbj": {
-				Meta:          model.NewMeta("uk5wbj"),
-				Facsimile:     model.Reference{ID: "1"},
-				Edition:       model.Reference{ID: "Paris_1615"},
-				PDFPath:       "store/data/uk5wbj/Paris_1615_1.pdf",
-				RawImagesPath: "store/data/uk5wbj/raw_imgs",
-				ImagesPath:    "store/data/uk5wbj/imgs",
-				DPI:           300.0,
+				Meta:       model.NewMeta("uk5wbj"),
+				Facsimile:  model.Reference{ID: "1"},
+				Edition:    model.Reference{ID: "Paris_1615"},
+				PDFPath:    "store/data/uk5wbj/Paris_1615_1.pdf",
+				ImagesPath: "store/data/uk5wbj/imgs",
+				DPI:        300.0,
 			},
 			"aiqcec": {
-				Meta:          model.NewMeta("aiqcec"),
-				Facsimile:     model.Reference{ID: "1"},
-				Edition:       model.Reference{ID: "London_1570"},
-				PDFPath:       "store/data/aiqcec/London_1570_1.pdf",
-				RawImagesPath: "store/data/aiqcec/raw_imgs",
-				ImagesPath:    "store/data/aiqcec/imgs",
-				DPI:           300.0,
+				Meta:       model.NewMeta("aiqcec"),
+				Facsimile:  model.Reference{ID: "1"},
+				Edition:    model.Reference{ID: "London_1570"},
+				PDFPath:    "store/data/aiqcec/London_1570_1.pdf",
+				ImagesPath: "store/data/aiqcec/imgs",
+				DPI:        300.0,
 			},
 		},
 		githubDownloader: githubDownloader,
@@ -99,7 +97,6 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 	}
 	ds.ID = idgen.GenerateID()
 	ds.PDFPath = store.DatasetPDFPath(ds, d.datasetsDir)
-	ds.RawImagesPath = store.DatasetRawImagesDir(ds, d.datasetsDir)
 	ds.ImagesPath = store.DatasetImagesDir(ds, d.datasetsDir)
 
 	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
@@ -111,20 +108,24 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 		return nil, fmt.Errorf("failed to download facsimile: %w", err)
 	}
 
-	log.Printf("Converting facsimile PDF %s to PNGs in %s", ds.PDFPath, ds.RawImagesPath)
-	if err := formatcov.PDF2PNGs(ds.PDFPath, ds.RawImagesPath, ds.DPI); err != nil {
+	convertedPNGsDir := ds.ImagesPath
+	if !skipDeskew {
+		convertedPNGsDir, err = os.MkdirTemp("", "ocrflow-dataset-rawimgs-*")
+		if err != nil {
+			return nil, fmt.Errorf("failed to create temp dir for raw images: %w", err)
+		}
+		defer os.RemoveAll(convertedPNGsDir)
+	}
+
+	log.Printf("Converting facsimile PDF %s to PNGs in %s", ds.PDFPath, convertedPNGsDir)
+	if err := formatcov.PDF2PNGs(ds.PDFPath, convertedPNGsDir, ds.DPI); err != nil {
 		return nil, fmt.Errorf("failed to pre-process facsimile: %w", err)
 	}
 
 	if !skipDeskew {
-		log.Printf("Deskewing images from %s into %s", ds.RawImagesPath, ds.ImagesPath)
-		if err := formatcov.DeskewPNGs(ds.RawImagesPath, ds.ImagesPath); err != nil {
+		log.Printf("Deskewing images from %s into %s", convertedPNGsDir, ds.ImagesPath)
+		if err := formatcov.DeskewPNGs(convertedPNGsDir, ds.ImagesPath); err != nil {
 			return nil, fmt.Errorf("failed to deskew images: %w", err)
-		}
-	} else {
-		log.Printf("Skipping deskewing, copying images from %s into %s", ds.RawImagesPath, ds.ImagesPath)
-		if err := futils.CopyDir(ds.RawImagesPath, ds.ImagesPath); err != nil {
-			return nil, fmt.Errorf("failed to copy images: %w", err)
 		}
 	}
 

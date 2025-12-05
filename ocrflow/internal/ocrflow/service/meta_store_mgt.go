@@ -67,7 +67,7 @@ func (m *MetaStoreManager) CleanupLocalStore(dryRun bool) ([]string, error) {
 				toDelete = append(toDelete, dde.Name())
 				continue
 			}
-			if !slices.Contains([]string{"imgs", "raw_imgs", "annotations"}, dde.Name()) {
+			if !slices.Contains([]string{"imgs", "annotations"}, dde.Name()) {
 				p := filepath.Join(dataDir, dsID, dde.Name())
 				toDelete = append(toDelete, p)
 			}

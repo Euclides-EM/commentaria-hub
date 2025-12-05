@@ -11,7 +11,6 @@ import (
 // <baseDir>/
 // └─ <dataset_id>/
 //    ├─ <edition_id>_<facsimile_id>.pdf
-//    ├─ raw_imgs/
 //    ├─ imgs/
 //    │  ├─ page-0001.png
 //    │  ├─ page-0002.png
@@ -36,10 +35,6 @@ import (
 
 func DatasetPDFPath(ds *model.Dataset, baseDir string) string {
 	return path.Join(baseDir, ds.ID, fmt.Sprintf("%s_%s.pdf", ds.EditionID(), ds.FacsimileID()))
-}
-
-func DatasetRawImagesDir(ds *model.Dataset, dir string) string {
-	return path.Join(dir, ds.ID, "raw_imgs")
 }
 
 func DatasetImagesDir(ds *model.Dataset, baseDir string) string {
