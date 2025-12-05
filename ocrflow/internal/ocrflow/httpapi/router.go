@@ -9,13 +9,14 @@ import (
 )
 
 type Dependencies struct {
-	Env            *config.EnvConfig
-	HealthSvc      *service.Health
-	EditionSvc     *service.Edition
-	DatasetSvc     *service.Dataset
-	AnnotationsSvc *service.Annotations
-	ModelSvc       *service.Model
-	TrainSvc       *service.Train
+	Env              *config.EnvConfig
+	HealthSvc        *service.Health
+	EditionSvc       *service.Edition
+	DatasetSvc       *service.Dataset
+	AnnotationsSvc   *service.Annotations
+	ModelSvc         *service.Model
+	TrainSvc         *service.Train
+	MetaStoreManager *service.MetaStoreManager
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -38,6 +39,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	mux.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
 	mux.HandleFunc("/train", httpwrapper.Create(h.TrainModel).Build())
+
+	mux.HandleFunc("/store/cleanup/local", httpwrapper.Delete(h.CleanupLocalStore).Build())
 
 	mux.Handle("/swagger/", httpSwagger.WrapHandler)
 	return mux

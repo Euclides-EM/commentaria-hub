@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func DetectLines(imgDir, altoDir string) error {
+func DetectLines(imgDir, altoDir string, detectInCategories, ignoreCategories []string) error {
 	des, err := os.ReadDir(altoDir)
 	if err != nil {
 		return err
@@ -21,7 +21,7 @@ func DetectLines(imgDir, altoDir string) error {
 			imgPath := path.Join(imgDir, strings.TrimSuffix(de.Name(), ".xml")+".png")
 			altoPath := path.Join(altoDir, de.Name())
 
-			err2 := detectLinesInFile(imgPath, altoPath)
+			err2 := detectLinesInFile(imgPath, altoPath, detectInCategories, ignoreCategories)
 			if err2 != nil {
 				return err2
 			}
@@ -30,7 +30,7 @@ func DetectLines(imgDir, altoDir string) error {
 	return nil
 }
 
-func detectLinesInFile(imgPath string, altoPath string) error {
+func detectLinesInFile(imgPath string, altoPath string, detectInCategories, ignoreCategories []string) error {
 	if _, err := os.Stat(imgPath); os.IsNotExist(err) {
 		return fmt.Errorf("the image for ALTO file does not exist in path %s", imgPath)
 	}
@@ -43,7 +43,9 @@ func detectLinesInFile(imgPath string, altoPath string) error {
 	maskFile.Close()
 	defer os.Remove(maskFile.Name())
 
-	if err := CreateMaskFromALTO(altoPath, maskFile.Name(), []string{"MainZone"}, []string{"DigitizationArtefactZone", "GraphicZone-Diagram"}); err != nil {
+	if err := CreateMaskFromALTO(altoPath, maskFile.Name(),
+		detectInCategories,
+		ignoreCategories); err != nil {
 		return fmt.Errorf("create mask from ALTO %s: %w", altoPath, err)
 	}
 
@@ -54,7 +56,13 @@ func detectLinesInFile(imgPath string, altoPath string) error {
 	baselineJsonFile.Close()
 	defer os.Remove(baselineJsonFile.Name())
 
-	if err := envexec.Cmd("kraken", "-i", imgPath, baselineJsonFile.Name(), "segment", "-bl", "--mask", maskFile.Name()); err != nil {
+	if err := envexec.Cmd("kraken",
+		"-i", imgPath,
+		baselineJsonFile.Name(),
+		"segment",
+		"-bl",
+		"--mask", maskFile.Name(),
+		"--pad", "2", "2"); err != nil {
 		return fmt.Errorf("kraken segmentation failed for image %s: %w", imgPath, err)
 	}
 

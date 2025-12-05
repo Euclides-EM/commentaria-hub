@@ -18,9 +18,10 @@ func writeJSON(w http.ResponseWriter, status int, v any) {
 }
 
 type wrapperBuilder struct {
-	get  func(w http.ResponseWriter, r *http.Request)
-	post func(w http.ResponseWriter, r *http.Request)
-	put  func(w http.ResponseWriter, r *http.Request)
+	get    func(w http.ResponseWriter, r *http.Request)
+	post   func(w http.ResponseWriter, r *http.Request)
+	put    func(w http.ResponseWriter, r *http.Request)
+	delete func(w http.ResponseWriter, r *http.Request)
 }
 
 func Get(f func(*http.Request) (any, error)) *wrapperBuilder {
@@ -41,6 +42,11 @@ func CreateFile(f func(*http.Request) (any, error)) *wrapperBuilder {
 func Update(f func(*http.Request) (any, error)) *wrapperBuilder {
 	wb := &wrapperBuilder{}
 	return wb.Update(f)
+}
+
+func Delete(f func(*http.Request) (any, error)) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.Delete(f)
 }
 
 func (wb *wrapperBuilder) Get(f func(*http.Request) (any, error)) *wrapperBuilder {
@@ -95,6 +101,22 @@ func (wb *wrapperBuilder) Update(f func(*http.Request) (any, error)) *wrapperBui
 	return wb
 }
 
+func (wb *wrapperBuilder) Delete(f func(*http.Request) (any, error)) *wrapperBuilder {
+	wb.delete = func(w http.ResponseWriter, r *http.Request) {
+		resp, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+		if resp != nil {
+			writeJSON(w, http.StatusOK, resp)
+			return
+		}
+		w.WriteHeader(http.StatusNoContent)
+	}
+	return wb
+}
+
 func (wb *wrapperBuilder) Build() func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		switch r.Method {
@@ -111,6 +133,11 @@ func (wb *wrapperBuilder) Build() func(w http.ResponseWriter, r *http.Request) {
 		case http.MethodPut:
 			if wb.put != nil {
 				wb.put(w, r)
+				return
+			}
+		case http.MethodDelete:
+			if wb.delete != nil {
+				wb.delete(w, r)
 				return
 			}
 		}

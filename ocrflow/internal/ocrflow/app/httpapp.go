@@ -32,6 +32,7 @@ func NewHTTPApp() (*App, error) {
 
 	ruleApplier := service.NewAnnotationRuleApplier(env.PythonExecutable)
 
+	// datasetSvc *Dataset, annotationsSvc *Annotations, modelSvc *Model, modelDir, dataDir string
 	heathSvc := service.NewHealthService(sqlDB)
 	modelSvc := service.NewModelService(env.ModelsDir)
 	editionSvc := service.NewEditionService()
@@ -46,16 +47,25 @@ func NewHTTPApp() (*App, error) {
 		env.EscriptoriumUsername,
 		env.EscriptoriumPassword,
 	)
+
+	metaStoreManager := service.NewMetaStoreManager(
+		datasetSvc,
+		annotationsSvc,
+		modelSvc,
+		env.ModelsDir,
+		env.DataDir,
+	)
 	trainSvc := service.NewTrainService(annotationsSvc, modelSvc, env.TrainingDir)
 
 	deps := &httpapi.Dependencies{
-		Env:            env,
-		HealthSvc:      heathSvc,
-		EditionSvc:     editionSvc,
-		DatasetSvc:     datasetSvc,
-		AnnotationsSvc: annotationsSvc,
-		ModelSvc:       modelSvc,
-		TrainSvc:       trainSvc,
+		Env:              env,
+		HealthSvc:        heathSvc,
+		EditionSvc:       editionSvc,
+		DatasetSvc:       datasetSvc,
+		AnnotationsSvc:   annotationsSvc,
+		ModelSvc:         modelSvc,
+		TrainSvc:         trainSvc,
+		MetaStoreManager: metaStoreManager,
 	}
 
 	router := httpapi.NewRouter(deps)

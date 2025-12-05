@@ -6,7 +6,12 @@ import (
 
 func TestCreateMaskFromALTO(t *testing.T) {
 
-	if err := DetectLines("/Users/mia/dev/personal/elements-dh/ocrflow/pkg/krakenwrapper/testdata", "/Users/mia/dev/personal/elements-dh/ocrflow/pkg/krakenwrapper/testdata"); err != nil {
+	if err := DetectLines(
+		"/Users/mia/dev/personal/elements-dh/ocrflow/pkg/krakenwrapper/testdata",
+		"/Users/mia/dev/personal/elements-dh/ocrflow/pkg/krakenwrapper/testdata",
+		[]string{"MainZone"},
+		[]string{"DigitizationArtefactZone", "GraphicZone-Diagram", "CatchWord", "DropCapitalZone", "GraphicZone-Decoration", "RunningTitleZone", "QuireMarksZone", "NumberingZone"},
+	); err != nil {
 		t.Fatal("error:", err)
 	}
 

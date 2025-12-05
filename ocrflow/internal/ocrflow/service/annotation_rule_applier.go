@@ -108,7 +108,7 @@ func (a *AnnotationRuleApplier) applyAddMarginRule(ann *model.Annotation, t *mod
 }
 
 func (a *AnnotationRuleApplier) applyLinesDetectRule(ann *model.Annotation, t *model.AnnotationRuleLinesDetect) (*model.Annotation, error) {
-	if err := krakenwrapper.DetectLines(ann.AltoDir, ann.AltoDir); err != nil {
+	if err := krakenwrapper.DetectLines(ann.AltoDir, ann.AltoDir, t.IncludeCategories, t.IgnoreCategories); err != nil {
 		return nil, fmt.Errorf("failed to apply lines detect to annotation %s: %w", ann.ID, err)
 	}
 	return ann, nil

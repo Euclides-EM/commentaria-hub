@@ -75,6 +75,10 @@ func (t *AnnotationRuleSlicePages) DeepCopy() AnnotationRule {
 
 type AnnotationRuleLinesDetect struct {
 	AnnotationRuleBase `json:",inline"`
+	// IncludeCategories specifies which categories to run line detection on. For example, "MainZone".
+	IncludeCategories []string `json:"include_categories,omitempty"`
+	// IgnoreCategories specifies which categories to ignore when running line detection. For example, "GraphicZone", "DigitizationArtefactZone", ...
+	IgnoreCategories []string `json:"ignore_categories,omitempty"`
 }
 
 func (t *AnnotationRuleLinesDetect) GetType() AnnotationRuleType {
@@ -87,6 +91,8 @@ func (t *AnnotationRuleLinesDetect) DeepCopy() AnnotationRule {
 	}
 	return &AnnotationRuleLinesDetect{
 		AnnotationRuleBase: AnnotationRuleBase{Type: t.Type},
+		IncludeCategories:  append([]string{}, t.IncludeCategories...),
+		IgnoreCategories:   append([]string{}, t.IgnoreCategories...),
 	}
 }
 

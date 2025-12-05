@@ -13,9 +13,9 @@ import (
 
 // ---- Mask creation ----
 
-// CreateMaskFromALTO reads an ALTO XML and writes a black/white mask PNG.
-// mainLabels: labels treated as "main zones", painted white
-// ignoreLabels: labels that should always be black, overriding main zones
+// CreateMaskFromALTO reads an ALTO XML and writes an inverse black/white mask PNG.
+// mainLabels: labels treated as "main zones", painted black
+// ignoreLabels: labels that should always be white, overriding main zones
 func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []string) error {
 	// read ALTO XML
 	data, err := os.ReadFile(altoPath)
@@ -50,8 +50,11 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 		ignoreSet[l] = struct{}{}
 	}
 
-	// create a grayscale image; NewGray initializes it with zero (black)
+	// create a grayscale image
 	img := image.NewGray(image.Rect(0, 0, page.Width, page.Height))
+
+	// NEW: make background white instead of default black
+	paintRect(img, 0, 0, page.Width, page.Height, color.Gray{Y: 255})
 
 	// helper to check if any of the tagrefs matches a label in a set
 	hasLabelInSet := func(tagRefs string, set map[string]struct{}) bool {
@@ -69,18 +72,17 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 		return false
 	}
 
-	// first pass: paint all main zones white
+	// first pass: paint all main zones black (inverse of original white)
 	for _, tb := range page.PrintSpace.TextBlocks {
-		// ignored zones will be handled in a second pass
 		if hasLabelInSet(tb.TagRefs, mainSet) && !hasLabelInSet(tb.TagRefs, ignoreSet) {
-			paintRect(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, color.Gray{Y: 255})
+			paintRect(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, color.Gray{Y: 0})
 		}
 	}
 
-	// second pass: cut out ignored zones as black
+	// second pass: ignored zones become white (inverse of original black)
 	for _, tb := range page.PrintSpace.TextBlocks {
 		if hasLabelInSet(tb.TagRefs, ignoreSet) {
-			paintRect(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, color.Gray{Y: 0})
+			paintRect(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, color.Gray{Y: 255})
 		}
 	}
 
