@@ -11,25 +11,24 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
-func Recognize(imgPath string, outPath string, modelName string, modelCategories []string, apiKey string, filenames []string) <-chan error {
+func Recognize(imgPath string, outPath string, modelName string, apiKey string, filenames []string) <-chan error {
 	errCh := make(chan error, 1)
 
 	go func() {
 		defer close(errCh)
-		errCh <- infer(imgPath, outPath, modelName, modelCategories, apiKey, filenames)
+		errCh <- infer(imgPath, outPath, modelName, apiKey, filenames)
 	}()
 
 	return errCh
 }
 
-func infer(imgPath string, outPath string, modelName string, modelCategories []string, apiKey string, filenames []string) error {
-	if err := os.MkdirAll(filepath.Join(outPath, "test"), 0o755); err != nil {
+func infer(imgPath string, outPath string, modelName string, apiKey string, filenames []string) error {
+	if err := os.MkdirAll(outPath, 0o755); err != nil {
 		return err
 	}
-
-	jsonStrs := make(map[string]string)
 	log.Printf("Starting inference on %d images using model %s", len(filenames), modelName)
 	for _, filename := range filenames {
 		inputFile, err := futils.SafeJoin(imgPath, filename)
@@ -61,38 +60,19 @@ func infer(imgPath string, outPath string, modelName string, modelCategories []s
 		if err != nil {
 			return err
 		}
-		jsonStrs[filename] = string(body)
 
-		// Write response to output file
-		outImgPath := filepath.Join(outPath, "test", filename)
+		altoFile, err := formatcov.Roboflow2ALTO(string(body), filepath.Base(filename), "eSc_dummypage_")
+		if err != nil {
+			return fmt.Errorf("failed to convert to ALTO: %v", err)
+		}
 
-		// copy the img
-		futils.CopyFile(inputFile, outImgPath)
-		// my_dataset/
-		//├── train/
-		//│   ├── image1.jpg
-		//│   ├── image2.jpg
-		//│   ├── image3.jpg
-		//│   └── _annotations.coco.json
-		//├── valid/
-		//│   ├── image4.jpg
-		//│   └── _annotations.coco.json
-		//└── test/
-		//    ├── image5.jpg
-		//    └── _annotations.coco.json
-		log.Printf("Processed image %s, saved to %s", filename, outImgPath)
+		altoPath := filepath.Join(outPath, strings.TrimSuffix(filepath.Base(filename), ".png")+".xml")
+		if err = os.WriteFile(altoPath, altoFile, 0o644); err != nil {
+			return fmt.Errorf("write alto file failed: %v", err)
+		}
+
+		log.Printf("Processed image %s, saved to %s", filename, altoPath)
 	}
 
-	log.Printf("Converting Roboflow results to COCO format")
-	asCoco, err := formatcov.Roboflow2Coco(jsonStrs, modelCategories)
-	if err != nil {
-		return err
-	}
-	outputPath := filepath.Join(outPath, "test", "_annotations.coco.json")
-	err = os.WriteFile(outputPath, []byte(asCoco), 0o644)
-	if err != nil {
-		return err
-	}
-	log.Printf("Saved COCO annotations to %s", outputPath)
 	return nil
 }

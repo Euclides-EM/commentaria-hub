@@ -30,6 +30,7 @@ type roboflowResult struct {
 
 // Roboflow2Coco converts one or more Roboflow JSON strings into a COCO JSON string.
 func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string, error) {
+
 	var coco coco2.Root
 
 	catMap := make(map[int]coco2.Category) // class_id -> category

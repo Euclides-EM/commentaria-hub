@@ -71,9 +71,6 @@ func (a *AnnotationsUploader) annotationDirForRoboflowUpload(ann *model.Annotati
 	if ann.YoloDir != "" {
 		return ann.YoloDir, nil
 	}
-	if ann.RoboflowDir != "" {
-		return ann.RoboflowDir, nil
-	}
 	if ann.AltoDir == "" {
 		return "", fmt.Errorf("no annotations found for roboflow upload")
 	}

@@ -223,6 +223,10 @@ func (a *Annotation) Convert(datasetID string, id string, annc *model.Annotation
 	if !ok || ann.DatasetID != datasetID {
 		return nil, fmt.Errorf("annotation not found")
 	}
+	ds, err := a.datasetSvc.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
 
 	if annc.From == model.AnnotationFormatAlto && annc.To == model.AnnotationFormatYolo {
 		if ann.AltoDir == "" {
@@ -232,7 +236,7 @@ func (a *Annotation) Convert(datasetID string, id string, annc *model.Annotation
 		if err := os.RemoveAll(ann.YoloDir); err != nil {
 			return nil, fmt.Errorf("failed to clear YOLO annotations dir: %w", err)
 		}
-		if err := formatcov.Alto2Yolo(ann.AltoDir, ann.YoloDir, annc.Shuffle, string(annc.SegmontoGranularity)); err != nil {
+		if err := formatcov.Alto2Yolo(ds.ImagesPath, ann.AltoDir, ann.YoloDir, annc.Shuffle, string(annc.SegmontoGranularity)); err != nil {
 			return nil, fmt.Errorf("failed to convert annotations: %w", err)
 		}
 		var dst *model.Annotation
@@ -269,7 +273,7 @@ func (a *Annotation) CreateFromZip(datasetID string, format model.AnnotationForm
 	}
 	ann := &model.Annotation{
 		Meta: model.NewMeta(idgen.GenerateID()),
-		//Pages             string    `json:"pages"`
+		//Page             string    `json:"pages"`
 		//AltoDir           string    `json:"alto_dir" readonly:"true"`
 		//YoloDir           string    `json:"yolo_dir" readonly:"true"`
 		DatasetID: datasetID,

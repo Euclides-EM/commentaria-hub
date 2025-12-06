@@ -147,13 +147,12 @@ func (a *AnnotationRuleApplier) applySegment(imgPath string, ann *model.Annotati
 			)
 		}
 	case model.OCRModelLocationRoboflow:
-		ann.RoboflowDir = store.DatasetAnnotationRoboflowDir(ann, a.dataDir)
+		ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.dataDir)
 		f = func() (<-chan error, error) {
 			return roboflow.Recognize(
 				imgPath,
-				ann.RoboflowDir,
+				ann.AltoDir,
 				segM.Name,
-				segM.Categories,
 				a.roboflowAPIKey,
 				filenames,
 			), nil

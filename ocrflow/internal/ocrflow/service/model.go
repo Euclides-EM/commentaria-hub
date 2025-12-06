@@ -67,13 +67,6 @@ func NewModelService(modelsDir string) *Model {
 				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
 				Name:            "paris-1615-nocontinuedpnomainzone-dbxgq/3",
 			},
-			"Paris1615Polygons1": {
-				Meta:            model.NewMeta("Paris1615Polygons1"),
-				Type:            model.OCRModelTypeSegment,
-				Location:        model.OCRModelLocationRoboflow,
-				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-				Name:            "paris-1615-polygons-h4cad/1",
-			},
 			"Paris1615PolygonsAndMainZone": {
 				Meta:            model.NewMeta("Paris1615PolygonsAndMainZone"),
 				Type:            model.OCRModelTypeSegment,

@@ -28,11 +28,11 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 		return fmt.Errorf("unmarshal ALTO: %w", err)
 	}
 
-	if len(a.Layout.Pages) == 0 {
+	if len(a.Layout.Page) == 0 {
 		return fmt.Errorf("no pages in ALTO")
 	}
 	// here we just take the first page; adapt if you have multi-page handling
-	page := a.Layout.Pages[0]
+	page := a.Layout.Page[0]
 
 	// build ID -> LABEL map
 	idToLabel := make(map[string]string)
