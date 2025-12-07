@@ -5,12 +5,12 @@ import (
 )
 
 type Annotation struct {
-	Meta        `json:",inline"`
-	Description string                     `json:"description"`
-	Pages       string                     `json:"pages"`
-	AltoDir     string                     `json:"alto_dir" readonly:"true"`
-	YoloDir     string                     `json:"yolo_dir" readonly:"true"`
-	RoboflowDir string                     `json:"roboflow_dir" readonly:"true"`
-	DatasetID   string                     `json:"dataset_id" readonly:"true"`
-	ApplyRules  *annotationrule.ApplyRules `json:"apply_rules" readonly:"true"`
+	Meta               `json:",inline"`
+	Description        string                          `json:"description"`
+	Pages              string                          `json:"pages"`
+	AltoDir            string                          `json:"alto_dir" readonly:"true"`
+	YoloDir            string                          `json:"yolo_dir" readonly:"true"`
+	DatasetID          string                          `json:"dataset_id" readonly:"true"`
+	AppliedRules       []annotationrule.AnnotationRule `json:"applied_rules" readonly:"true"`
+	OriginAnnotationID string                          `json:"origin_annotation_id,omitempty" readonly:"true"`
 }

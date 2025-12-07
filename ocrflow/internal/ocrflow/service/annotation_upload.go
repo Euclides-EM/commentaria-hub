@@ -3,11 +3,14 @@ package service
 import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/escriptorium"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
 	"github.com/samber/lo"
 	"github.com/tiendc/go-deepcopy"
+	"os"
 	"path"
 )
 
@@ -46,17 +49,22 @@ func (a *AnnotationsUploader) UploadToRoboflow(datasetID string, id string, rbu 
 	if err != nil {
 		return nil, fmt.Errorf("annotation not found: %w", err)
 	}
+	if ann.AltoDir == "" {
+		return nil, fmt.Errorf("no annotations found for roboflow upload")
+	}
+	if ann.YoloDir == "" {
+		ann, err = a.convertAlto2Yolo(ann.DatasetID, ann.ID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to convert ALTO to YOLO for roboflow upload: %w", err)
+		}
+	}
+
 	params := roboflow.NewUploadDatasetParams().
 		SetAPIKey(lo.Ternary(rbu.APIKey == "", a.roboflowAPIKey, rbu.APIKey)).
 		SetWorkspaceID(rbu.WorkspaceID).
 		SetDatasetPath(ann.YoloDir).
 		SetProjectID(rbu.ProjectID).
 		SetIsNotGroundTruth(rbu.IsNotGroundTruth)
-	annotationDirToUpload, err := a.annotationDirForRoboflowUpload(ann)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get annotation dir for roboflow upload: %w", err)
-	}
-	params = params.SetDatasetPath(annotationDirToUpload)
 	if err = roboflow.UploadDataset(a.pythonExecutable, params); err != nil {
 		return nil, fmt.Errorf("failed to upload to roboflow: %w", err)
 	}
@@ -65,23 +73,6 @@ func (a *AnnotationsUploader) UploadToRoboflow(datasetID string, id string, rbu 
 		return nil, fmt.Errorf("failed to copy annotation: %w", err)
 	}
 	return dst, nil
-}
-
-func (a *AnnotationsUploader) annotationDirForRoboflowUpload(ann *model.Annotation) (string, error) {
-	if ann.YoloDir != "" {
-		return ann.YoloDir, nil
-	}
-	if ann.AltoDir == "" {
-		return "", fmt.Errorf("no annotations found for roboflow upload")
-	}
-	_, err := a.annotationSvc.Convert(ann.DatasetID, ann.ID, &model.AnnotationConvert{
-		From: model.AnnotationFormatAlto,
-		To:   model.AnnotationFormatYolo,
-	})
-	if err != nil {
-		return "", fmt.Errorf("failed to convert ALTO to YOLO for roboflow upload: %w", err)
-	}
-	return ann.YoloDir, nil
 }
 
 func (a *AnnotationsUploader) UploadToEscriptorium(datasetID string, id string, aue *model.AnnotationUploadEscriptorium) (*model.Annotation, error) {
@@ -105,16 +96,7 @@ func (a *AnnotationsUploader) UploadToEscriptorium(datasetID string, id string, 
 	}
 
 	if ann.AltoDir == "" {
-		if ann.YoloDir != "" {
-			var err error
-			ann, err = a.annotationSvc.Convert(ann.DatasetID, ann.ID, &model.AnnotationConvert{
-				From: model.AnnotationFormatYolo,
-				To:   model.AnnotationFormatAlto,
-			})
-			if err != nil {
-				return nil, fmt.Errorf("failed to convert YOLO to ALTO for escriptorium upload: %w", err)
-			}
-		}
+		return nil, fmt.Errorf("no ALTO annotations found for escriptorium upload")
 	}
 
 	pages, err := pagesparser.Parse(ann.Pages)
@@ -138,19 +120,30 @@ func (a *AnnotationsUploader) UploadToEscriptorium(datasetID string, id string, 
 	return dst, nil
 }
 
-func (a *AnnotationsUploader) annotationDirForEscriptoriumUpload(ann *model.Annotation) (string, error) {
-	if ann.AltoDir != "" {
-		return ann.AltoDir, nil
-	}
-	if ann.YoloDir == "" {
-		return "", fmt.Errorf("no annotations found for escriptorium upload")
-	}
-	_, err := a.annotationSvc.Convert(ann.DatasetID, ann.ID, &model.AnnotationConvert{
-		From: model.AnnotationFormatYolo,
-		To:   model.AnnotationFormatAlto,
-	})
+func (a *AnnotationsUploader) convertAlto2Yolo(datasetID string, id string) (*model.Annotation, error) {
+	ann, err := a.annotationSvc.Get(datasetID, id)
 	if err != nil {
-		return "", fmt.Errorf("failed to convert YOLO to ALTO for escriptorium upload: %w", err)
+		return nil, fmt.Errorf("annotation not found: %w", err)
 	}
-	return ann.AltoDir, nil
+	ds, err := a.datasetSvc.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	if ann.AltoDir == "" {
+		return nil, fmt.Errorf("no ALTO annotations found for conversion")
+	}
+	ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.dataDir)
+	if err := os.RemoveAll(ann.YoloDir); err != nil {
+		return nil, fmt.Errorf("failed to clear YOLO annotations dir: %w", err)
+	}
+	// we could use other segmonto granularities here, the options are: region, subtype, full
+	// I didn't notice any difference in the output for different granularities, so I chose "full"...
+	if err := formatcov.Alto2Yolo(ds.ImagesPath, ann.AltoDir, ann.YoloDir, 0, "full"); err != nil {
+		return nil, fmt.Errorf("failed to convert annotations: %w", err)
+	}
+	var dst *model.Annotation
+	if err := deepcopy.Copy(&dst, &ann); err != nil {
+		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	}
+	return dst, nil
 }

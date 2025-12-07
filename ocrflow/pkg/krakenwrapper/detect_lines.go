@@ -49,6 +49,11 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 		return fmt.Errorf("create mask from ALTO %s: %w", altoPath, err)
 	}
 
+	// delete existing lines in the ALTO file
+	if err := DeleteLines(altoPath, altoPath); err != nil {
+		return fmt.Errorf("delete lines from ALTO %s: %w", altoPath, err)
+	}
+
 	baselineJsonFile, err := os.CreateTemp("", "segmentation-*.json")
 	if err != nil {
 		return err
@@ -66,7 +71,7 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 		return fmt.Errorf("kraken segmentation failed for image %s: %w", imgPath, err)
 	}
 
-	if err := GlueLinesToAlto(altoPath, baselineJsonFile.Name(), strings.TrimSuffix(altoPath, ".xml")+"_lines.xml"); err != nil {
+	if err := GlueLinesToAlto(altoPath, baselineJsonFile.Name(), altoPath); err != nil {
 		return fmt.Errorf("glue lines to ALTO %s: %w", altoPath, err)
 	}
 	return nil

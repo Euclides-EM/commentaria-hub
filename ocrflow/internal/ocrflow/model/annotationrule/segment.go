@@ -2,7 +2,7 @@ package annotationrule
 
 type Segment struct {
 	Base  `json:",inline"`
-	Model string `json:"model"`
+	Model string `json:"model" example:"1615FineTunedCapricciosaM_0312"`
 }
 
 func (t *Segment) GetType() Type {

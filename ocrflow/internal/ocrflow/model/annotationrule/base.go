@@ -34,11 +34,13 @@ const (
 type Type string
 
 const (
-	TypeSegment     Type = "segment"
-	TypeSlicePages  Type = "slice_pages"
-	TypeStretch     Type = "stretch"
-	TypeAddMargin   Type = "add_margin"
-	TypeLinesDetect Type = "lines_detect"
+	TypeSegment          Type = "segment"
+	TypeSlicePages       Type = "slice_pages"
+	TypeStretch          Type = "stretch"
+	TypeAddMargin        Type = "add_margin"
+	TypeLinesDetect      Type = "lines_detect"
+	TypeRemoveCategories Type = "remove_categories"
+	TypeRemoveOverlap    Type = "remove_overlap"
 )
 
 type ApplyRules struct {
@@ -51,7 +53,7 @@ type AnnotationRule interface {
 }
 
 type Base struct {
-	Type Type `json:"type"`
+	Type Type `json:"type" example:""`
 }
 
 // -- Internal helper for UnmarshalJSON --
@@ -112,7 +114,18 @@ func (a *ApplyRules) UnmarshalJSON(data []byte) error {
 				return fmt.Errorf("unmarshal segment rule: %w", err)
 			}
 			rule = &v
-
+		case TypeRemoveCategories:
+			var v RemoveCategories
+			if err := json.Unmarshal(r, &v); err != nil {
+				return fmt.Errorf("unmarshal remove_categories rule: %w", err)
+			}
+			rule = &v
+		case TypeRemoveOverlap:
+			var v RemoveOverlap
+			if err := json.Unmarshal(r, &v); err != nil {
+				return fmt.Errorf("unmarshal remove_overlap rule: %w", err)
+			}
+			rule = &v
 		default:
 			return fmt.Errorf("unknown annotation rule type %q", base.Type)
 		}

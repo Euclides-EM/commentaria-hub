@@ -53,10 +53,6 @@ func DatasetAnnotationYoloDir(ann *model.Annotation, baseDir string) string {
 	return path.Join(datasetAnnotationsPath(ann, baseDir), "yolo")
 }
 
-func DatasetAnnotationRoboflowDir(ann *model.Annotation, baseDir string) string {
-	return path.Join(datasetAnnotationsPath(ann, baseDir), "roboflow")
-}
-
 func TrainingDir(t *model.Training, dir string) string {
 	return path.Join(dir, t.ID)
 }

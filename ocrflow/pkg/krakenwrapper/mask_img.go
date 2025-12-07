@@ -1,7 +1,6 @@
 package krakenwrapper
 
 import (
-	"encoding/xml"
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"image"
@@ -18,16 +17,10 @@ import (
 // ignoreLabels: labels that should always be white, overriding main zones
 func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []string) error {
 	// read ALTO XML
-	data, err := os.ReadFile(altoPath)
+	a, err := alto.LoadFromFile(altoPath)
 	if err != nil {
-		return fmt.Errorf("read ALTO: %w", err)
+		return fmt.Errorf("load ALTO: %w", err)
 	}
-
-	var a alto.Alto
-	if err := xml.Unmarshal(data, &a); err != nil {
-		return fmt.Errorf("unmarshal ALTO: %w", err)
-	}
-
 	if len(a.Layout.Page) == 0 {
 		return fmt.Errorf("no pages in ALTO")
 	}

@@ -47,3 +47,16 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	}
 	return h.deps.DatasetSvc.Create(&d, r.URL.Query().Get("force_overwrite") != "", r.URL.Query().Get("skip_deskew") != "")
 }
+
+// ListSuggestedRulesForDataset godoc
+// @Summary      List Suggested Annotation Rules for Dataset
+// @Description  Get a list of suggested annotation rules for a specific dataset.
+// @Tags         Datasets
+// @Param        dataSetId  path      string  true  "Dataset ID"
+// @Produce      json
+// @Success      200  {array}   []annotationrule.AnnotationRule
+// @Router       /datasets/{dataSetId}/suggested_rules [get]
+func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	return h.deps.DatasetSvc.ListSuggestedAnnotationRules(datasetID)
+}

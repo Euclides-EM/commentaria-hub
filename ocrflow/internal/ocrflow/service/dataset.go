@@ -3,6 +3,7 @@ package service
 import (
 	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
@@ -134,4 +135,15 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 	log.Printf("Dataset %s fully created", ds.ID)
 	d.m[ds.ID] = ds
 	return ds, nil
+}
+
+func (d *Dataset) ListSuggestedAnnotationRules(id string) ([]annotationrule.AnnotationRule, error) {
+	return []annotationrule.AnnotationRule{
+		annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
+		// pages 321-387 are algebra summary - impossible to detect... todo: Vincenzo
+		annotationrule.NewSlicePages("15-320,388-655"),
+		annotationrule.NewRemoveCategories([]string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}),
+		annotationrule.NewRemoveOverlap([]string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}, 1000),
+		annotationrule.NewLinesDetect([]string{"MainZone"}, []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}),
+	}, nil
 }

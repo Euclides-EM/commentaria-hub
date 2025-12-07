@@ -4,9 +4,9 @@ import "encoding/xml"
 
 type Alto struct {
 	XMLName        xml.Name    `xml:"alto"`
-	Xmlns          string      `xml:"xmlns,attr"`
-	XmlnsXsi       string      `xml:"xmlns:xsi,attr"`
-	SchemaLocation string      `xml:"xsi:schemaLocation,attr"`
+	Xmlns          string      `xml:"xmlns,attr,omitempty"`
+	XmlnsXsi       string      `xml:"xmlns:xsi,attr,omitempty"`
+	SchemaLocation string      `xml:"xsi:schemaLocation,attr,omitempty"`
 	Description    Description `xml:"Description"`
 	Tags           Tags        `xml:"Tags"`
 	Layout         Layout      `xml:"Layout"`

@@ -1,4 +1,4 @@
-package coco
+package annotationrules
 
 type ContactType string
 

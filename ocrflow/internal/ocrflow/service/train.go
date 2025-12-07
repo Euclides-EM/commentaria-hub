@@ -50,6 +50,7 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 			return nil, err
 		}
 		if annSet.YoloDir == "" {
+			// todo: convert alto to yolo here...
 			return nil, errors.New("annotation set has no YOLO data")
 		}
 		datsetPaths = append(datsetPaths, annSet.YoloDir)
