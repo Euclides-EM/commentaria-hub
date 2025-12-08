@@ -74,6 +74,88 @@ func NewAnnotationsService(
 				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
 			},
 		},
+		"ucxw7g": {
+			Meta: model.NewMeta("ucxw7g"),
+			Description: "Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers). " +
+				"Based on the YALTAi model (CapricciosaM) after it was fine tuned on manually annotated data (id=f0k3ks). " +
+				"The manual annotations included subtypes like paragraphs and enunciations.",
+			Pages:     "15-320,388-655",
+			DatasetID: "uk5wbj",
+			AltoDir:   "store/data/uk5wbj/annotations/ucxw7g/alto",
+			AppliedRules: []annotationrule.AnnotationRule{
+				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
+				annotationrule.NewSlicePages("15-320,388-655"),
+				annotationrule.NewRemoveCategories([]string{
+					"MainZone-P--Italics",
+					"MainZone-P--Enunciation",
+					"MainZone-P",
+				}),
+				annotationrule.NewRemoveOverlap([]string{
+					"DigitizationArtefactZone",
+					"GraphicZone-Decoration",
+					"GraphicZone-Diagram",
+					"MainZone",
+					"MainZone-Head--Book",
+					"MainZone-Head--Section",
+					"NumberingZone",
+					"QuireMarksZone",
+					"RunningTitleZone",
+				}, 1000),
+				annotationrule.NewLinesDetect(
+					[]string{"MainZone"},
+					[]string{
+						"CatchWord",
+						"DigitizationArtefactZone",
+						"DropCapitalZone",
+						"GraphicZone-Decoration",
+						"GraphicZone-Diagram",
+						"NumberingZone",
+						"QuireMarksZone",
+						"RunningTitleZone",
+					},
+				),
+			},
+		},
+		"9yvgi8": {
+			Meta: model.NewMeta("9yvgi8"),
+			Description: "Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers AND enunciations). " +
+				"Very similar to the ucxw7g annotation, but here the 'enunciation' subtype is NOT removed. ",
+			Pages:     "15-320,388-655",
+			DatasetID: "uk5wbj",
+			AltoDir:   "store/data/uk5wbj/annotations/9yvgi8/alto",
+			AppliedRules: []annotationrule.AnnotationRule{
+				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
+				annotationrule.NewSlicePages("15-320,388-655"),
+				annotationrule.NewRemoveCategories([]string{
+					"MainZone-P--Italics",
+					"MainZone-P",
+				}),
+				annotationrule.NewRemoveOverlap([]string{
+					"DigitizationArtefactZone",
+					"GraphicZone-Decoration",
+					"GraphicZone-Diagram",
+					"MainZone",
+					"MainZone-Head--Book",
+					"MainZone-Head--Section",
+					"NumberingZone",
+					"QuireMarksZone",
+					"RunningTitleZone",
+				}, 1000),
+				annotationrule.NewLinesDetect(
+					[]string{"MainZone"},
+					[]string{
+						"CatchWord",
+						"DigitizationArtefactZone",
+						"DropCapitalZone",
+						"GraphicZone-Decoration",
+						"GraphicZone-Diagram",
+						"NumberingZone",
+						"QuireMarksZone",
+						"RunningTitleZone",
+					},
+				),
+			},
+		},
 	}
 
 	for k, v := range manuallyAnnotated {

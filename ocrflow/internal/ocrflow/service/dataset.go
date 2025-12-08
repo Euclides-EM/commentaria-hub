@@ -137,13 +137,22 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 	return ds, nil
 }
 
-func (d *Dataset) ListSuggestedAnnotationRules(id string) ([]annotationrule.AnnotationRule, error) {
-	return []annotationrule.AnnotationRule{
-		annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-		// pages 321-387 are algebra summary - impossible to detect... todo: Vincenzo
-		annotationrule.NewSlicePages("15-320,388-655"),
-		annotationrule.NewRemoveCategories([]string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}),
-		annotationrule.NewRemoveOverlap([]string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}, 1000),
-		annotationrule.NewLinesDetect([]string{"MainZone"}, []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}),
+func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.AnnotationRule, error) {
+	return [][]annotationrule.AnnotationRule{
+		{
+			annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
+			// pages 321-387 are algebra summary - impossible to detect... todo: Vincenzo
+			annotationrule.NewSlicePages("15-320,388-655"),
+			annotationrule.NewRemoveCategories([]string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}),
+			annotationrule.NewRemoveOverlap([]string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}, 1000),
+			annotationrule.NewLinesDetect([]string{"MainZone"}, []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}),
+		},
+		{
+			annotationrule.NewSegment("1615FineTunedCapricciosaM_0812"),
+			annotationrule.NewSlicePages("15-320,388-655"),
+			annotationrule.NewRemoveCategories([]string{"MainZone-P--Italics", "MainZone-P"}),
+			annotationrule.NewRemoveOverlap([]string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone", "MainZone-P--Enunciation"}, 1000),
+			annotationrule.NewLinesDetect([]string{"MainZone"}, []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}),
+		},
 	}, nil
 }

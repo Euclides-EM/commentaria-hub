@@ -54,7 +54,7 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 // @Tags         Datasets
 // @Param        dataSetId  path      string  true  "Dataset ID"
 // @Produce      json
-// @Success      200  {array}   []annotationrule.AnnotationRule
+// @Success      200  {array}   [][]annotationrule.AnnotationRule
 // @Router       /datasets/{dataSetId}/suggested_rules [get]
 func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
 	datasetID := r.PathValue("dataSetId")

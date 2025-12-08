@@ -23,24 +23,22 @@ func NewModelService(modelsDir string) *Model {
 				LocalPath: path.Join(modelsDir, "paris1615trained_2811.pt"),
 				Type:      model.OCRModelTypeOCR,
 				Location:  model.OCRModelLocationLocal,
-				Name:      "paris1615trained_2811",
 			},
 			"CapricciosaM": {
 				Meta:      model.NewMeta("CapricciosaM"),
 				LocalPath: path.Join(modelsDir, "CapricciosaM.pt"),
 				Type:      model.OCRModelTypeSegment,
 				Location:  model.OCRModelLocationLocal,
-				Name:      "CapricciosaM",
+				Description: "The YALTAi CapricciosaM model, without any fine tuning, downloaded from " +
+					"https://zenodo.org/records/10972956/files/CapricciosaM.pt",
 			},
-			// Fine-tuned model based on:
-			// The CapricciosaM model, further fine-tuned on pages from the London 1570 facsimile
-			// Annotations in https://app.roboflow.com/mia-workplace/1570-english/2
 			"1570FineTuned_0312": {
 				Meta:      model.NewMeta("1570FineTuned_0312"),
 				LocalPath: path.Join(modelsDir, "1570FineTunedCapricciosaM_0312.pt"),
 				Type:      model.OCRModelTypeSegment,
 				Location:  model.OCRModelLocationLocal,
-				Name:      "CapricciosaM",
+				Description: "CapricciosaM fine tuned on 50 pages from London 1570. " +
+					"Annotations in https://app.roboflow.com/mia-workplace/1570-english/2",
 			},
 			// Fine-tuned model based on:
 			// The CapricciosaM model, further fine-tuned on pages from the Paris 1615 facsimile
@@ -50,7 +48,19 @@ func NewModelService(modelsDir string) *Model {
 				LocalPath: path.Join(modelsDir, "1615FineTunedCapricciosaM_0312.pt"),
 				Type:      model.OCRModelTypeSegment,
 				Location:  model.OCRModelLocationLocal,
-				Name:      "CapricciosaM",
+				Description: "CapricciosaM fine tuned on 50 pages from Paris 1615. " +
+					"Annotations in https://app.roboflow.com/mia-workplace/0212-xcfg/2",
+			},
+			"1615FineTunedCapricciosaM_0812": {
+				Meta:      model.NewMeta("1615FineTunedCapricciosaM_0812"),
+				LocalPath: path.Join(modelsDir, "1615FineTunedCapricciosaM_0812.pt"),
+				Type:      model.OCRModelTypeSegment,
+				Location:  model.OCRModelLocationLocal,
+				Description: "CapricciosaM fine tuned on 50 pages from Paris 1615. " +
+					"It is based on pages that were automatically segmented with 1615FineTunedCapricciosaM_0312, " +
+					"and then multiple rules were applied on then, to fix various segmentation issues. " +
+					"The full specification is noted in the annotation ID ucxw7g. " +
+					"Then, the corrected annotations were manually corrected further in the Roboflow platform.",
 			},
 			"Gallicorpor": {
 				Meta:      model.NewMeta("Gallicorpor"),

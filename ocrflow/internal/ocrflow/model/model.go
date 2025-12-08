@@ -23,10 +23,12 @@ const (
 type Model struct {
 	Meta            `json:",inline"`
 	Description     string                  `json:"description"`
-	LocalPath       string                  `json:"local_path" readonly:"true"`
 	Type            OCRModelType            `json:"type"`
 	Location        OCRModelLocation        `json:"location"`
 	AlgorithmFamily OCRModelAlgorithmFamily `json:"algorithm_family,omitempty"`
-	Name            string                  `json:"name"`
-	Categories      []string                `json:"categories,omitempty"`
+	// Name is essential only for Roboflow models, there it represents the Roboflow model name in the Roboflow platform.
+	Name string `json:"name"`
+	// LocalPath is the path to the model file on the local filesystem. It is relevant only for local models.
+	LocalPath  string   `json:"local_path" readonly:"true"`
+	Categories []string `json:"categories,omitempty"`
 }
