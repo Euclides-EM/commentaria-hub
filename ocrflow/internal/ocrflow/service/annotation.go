@@ -2,6 +2,9 @@ package service
 
 import (
 	"fmt"
+	"os"
+	"path"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
@@ -10,9 +13,6 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/tiendc/go-deepcopy"
-	"math/rand"
-	"os"
-	"path"
 )
 
 // todo: add interfaces to all services
@@ -84,7 +84,7 @@ func NewAnnotationsService(
 			AltoDir:   "store/data/uk5wbj/annotations/ucxw7g/alto",
 			AppliedRules: []annotationrule.AnnotationRule{
 				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-				annotationrule.NewSlicePages("15-320,388-655"),
+				annotationrule.NewSlicePagesFixed("15-320,388-655"),
 				annotationrule.NewRemoveCategories([]string{
 					"MainZone-P--Italics",
 					"MainZone-P--Enunciation",
@@ -125,7 +125,7 @@ func NewAnnotationsService(
 			AltoDir:   "store/data/uk5wbj/annotations/9yvgi8/alto",
 			AppliedRules: []annotationrule.AnnotationRule{
 				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-				annotationrule.NewSlicePages("15-320,388-655"),
+				annotationrule.NewSlicePagesFixed("15-320,388-655"),
 				annotationrule.NewRemoveCategories([]string{
 					"MainZone-P--Italics",
 					"MainZone-P",
@@ -155,6 +155,33 @@ func NewAnnotationsService(
 					},
 				),
 			},
+		},
+		"s0lik6": {
+			Meta:      model.NewMeta("s0lik6"),
+			Pages:     "9-110",
+			DatasetID: "nu3e82",
+			AltoDir:   "store/data/nu3e82/annotations/s0lik6/alto",
+			AppliedRules: []annotationrule.AnnotationRule{
+				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
+				annotationrule.NewSlicePagesFixed("9-110"),
+				annotationrule.NewRemoveCategories([]string{
+					"MainZone-P--Italics",
+					"MainZone-P--Enunciation",
+					"MainZone-P",
+				}),
+				annotationrule.NewRemoveOverlap([]string{
+					"DigitizationArtefactZone",
+					"GraphicZone-Decoration",
+					"GraphicZone-Diagram",
+					"MainZone",
+					"MainZone-Head--Book",
+					"MainZone-Head--Section",
+					"NumberingZone",
+					"QuireMarksZone",
+					"RunningTitleZone",
+				}, 1000),
+			},
+			OriginAnnotationID: "o5iqhv",
 		},
 	}
 
@@ -197,7 +224,7 @@ func (a *Annotation) Get(datasetId, id string) (*model.Annotation, error) {
 	return dst, nil
 }
 
-func (a *Annotation) Create(datasetID string, ann *model.Annotation, randomPages int) (*model.Annotation, error) {
+func (a *Annotation) Create(datasetID string, ann *model.Annotation) (*model.Annotation, error) {
 	// validate dataset exists
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
@@ -210,21 +237,6 @@ func (a *Annotation) Create(datasetID string, ann *model.Annotation, randomPages
 	// assign basic fields
 	ann.ID = idgen.GenerateID()
 	ann.DatasetID = datasetID
-
-	// select random pages if requested
-	if ann.Pages == "" && randomPages > 0 {
-		allPages, err := store.InferPages(ds.ImagesPath, "")
-		if err != nil {
-			return nil, fmt.Errorf("failed to count dataset pages: %w", err)
-		}
-		if len(allPages) < randomPages {
-			return nil, fmt.Errorf("requested random pages %d exceeds total pages %d", randomPages, len(allPages))
-		}
-		rand.Shuffle(len(allPages), func(i, j int) {
-			allPages[i], allPages[j] = allPages[j], allPages[i]
-		})
-		ann.Pages = pagesparser.ToString(allPages[:randomPages])
-	}
 
 	// verify page images exist for all specified pages
 	pages, err := pagesparser.Parse(ann.Pages)
@@ -306,6 +318,12 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 			ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.dataDir)
 			if err := futils.CopyDir(store.DatasetAnnotationAltoDir(fromDB, a.datasetSvc.dataDir), ann.AltoDir); err != nil {
 				return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+			}
+		}
+		if fromDB.YoloDir != "" {
+			ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.dataDir)
+			if err := futils.CopyDir(store.DatasetAnnotationYoloDir(fromDB, a.datasetSvc.dataDir), ann.YoloDir); err != nil {
+				return nil, fmt.Errorf("failed to copy YOLO annotations for new annotation: %w", err)
 			}
 		}
 		ann.OriginAnnotationID = id

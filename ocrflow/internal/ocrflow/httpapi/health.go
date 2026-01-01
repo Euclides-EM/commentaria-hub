@@ -10,7 +10,7 @@ import (
 // Health godoc
 // @Summary			Health check
 // @Description  	Returns service and DB status
-// @Tags         	health
+// @Tags         	Health
 // @Produce      	json
 // @Success      	200 {object} model.HealthStatus
 // @Router       	/health [get]

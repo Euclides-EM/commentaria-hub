@@ -2,9 +2,10 @@ package service
 
 import (
 	"fmt"
+	"slices"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/tiendc/go-deepcopy"
-	"slices"
 )
 
 // todo: add interfaces to all services
@@ -27,6 +28,15 @@ func NewEditionService() *Edition {
 					{
 						Meta:    model.Meta{ID: "2"},
 						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1615.pdf",
+					},
+				},
+			},
+			"Paris_1598a": {
+				Meta: model.Meta{ID: "Paris_1598a"},
+				Facsimiles: []*model.Facsimile{
+					{
+						Meta:    model.Meta{ID: "1"},
+						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1598a.pdf",
 					},
 				},
 			},

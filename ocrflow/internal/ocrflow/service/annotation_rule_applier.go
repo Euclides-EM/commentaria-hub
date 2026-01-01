@@ -2,6 +2,11 @@ package service
 
 import (
 	"fmt"
+	"log"
+	"math/rand/v2"
+	"os"
+	"path/filepath"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
@@ -11,9 +16,6 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/roboflow"
 	"github.com/samber/lo"
-	"log"
-	"os"
-	"path/filepath"
 )
 
 type AnnotationRuleApplier struct {
@@ -118,6 +120,20 @@ func (a *AnnotationRuleApplier) applySlicePagesRule(ann *model.Annotation, t *an
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse original pages: %w", err)
 	}
+
+	if t.Pages == "" && t.RandomPages > 0 {
+		selectPages := make([]int, len(originalPages))
+		copy(selectPages, originalPages)
+		if len(selectPages) < t.RandomPages {
+			return nil, fmt.Errorf("requested random pages %d exceeds total pages %d", t.RandomPages, len(originalPages))
+		}
+		rand.Shuffle(len(selectPages), func(i, j int) {
+			selectPages[i], selectPages[j] = selectPages[j], selectPages[i]
+		})
+		t.Pages = pagesparser.ToString(selectPages[:t.RandomPages])
+		t.RandomPages = 0
+	}
+
 	slicedPages, err := pagesparser.Parse(t.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse sliced pages: %w", err)
@@ -150,6 +166,13 @@ func (a *AnnotationRuleApplier) applySlicePagesRule(ann *model.Annotation, t *an
 				return nil, fmt.Errorf("failed to remove alto file %s: %w", de.Name(), err)
 			}
 		}
+	}
+
+	if ann.YoloDir != "" {
+		if err := os.RemoveAll(ann.YoloDir); err != nil {
+			return nil, fmt.Errorf("failed to remove YOLO dir after slicing pages: %w", err)
+		}
+		ann.YoloDir = ""
 	}
 
 	return ann, nil

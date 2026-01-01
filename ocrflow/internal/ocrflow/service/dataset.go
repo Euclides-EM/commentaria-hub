@@ -2,6 +2,9 @@ package service
 
 import (
 	"fmt"
+	"log"
+	"os"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
@@ -10,8 +13,6 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
 	"github.com/samber/lo"
-	"log"
-	"os"
 )
 
 type Dataset struct {
@@ -50,6 +51,15 @@ func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Editi
 				EditionID:   "London_1570",
 				PDFPath:     "store/data/aiqcec/London_1570_1.pdf",
 				ImagesPath:  "store/data/aiqcec/imgs",
+				DPI:         300.0,
+			},
+			"nu3e82": {
+				Meta:        model.NewMeta("nu3e82"),
+				Description: "Dataset without deskewing applied",
+				FacsimileID: "1",
+				EditionID:   "Paris_1598a",
+				PDFPath:     "store/data/nu3e82/Paris_1598a_1.pdf",
+				ImagesPath:  "store/data/nu3e82/imgs",
 				DPI:         300.0,
 			},
 		},
@@ -142,14 +152,14 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		{
 			annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
 			// pages 321-387 are algebra summary - impossible to detect... todo: Vincenzo
-			annotationrule.NewSlicePages("15-320,388-655"),
+			annotationrule.NewSlicePagesFixed("15-320,388-655"),
 			annotationrule.NewRemoveCategories([]string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}),
 			annotationrule.NewRemoveOverlap([]string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}, 1000),
 			annotationrule.NewLinesDetect([]string{"MainZone"}, []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}),
 		},
 		{
 			annotationrule.NewSegment("1615FineTunedCapricciosaM_0812"),
-			annotationrule.NewSlicePages("15-320,388-655"),
+			annotationrule.NewSlicePagesFixed("15-320,388-655"),
 			annotationrule.NewRemoveCategories([]string{"MainZone-P--Italics", "MainZone-P"}),
 			annotationrule.NewRemoveOverlap([]string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone", "MainZone-P--Enunciation"}, 1000),
 			annotationrule.NewLinesDetect([]string{"MainZone"}, []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}),
