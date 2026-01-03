@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>PNG + TEI text viewer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="/ui/viewer/viewer.css">
+</head>
+<body>
+
+<div class="wrap">
+    <div class="panel">
+        <div class="header">
+            <div>Image</div>
+            <div class="hint" id="imgStatus"></div>
+        </div>
+        <div class="content">
+            <div class="controls">
+                <div class="field wide">
+                    <label for="baseUrl">Base URL</label>
+                    <input id="baseUrl" value="http://localhost:8085" />
+                </div>
+
+                <div class="field">
+                    <label for="datasetId">Dataset ID</label>
+                    <input id="datasetId" value="uk5wbj" />
+                </div>
+
+                <div class="field">
+                    <label for="annotationId">Annotation ID</label>
+                    <input id="annotationId" value="7plb84" />
+                </div>
+
+                <div class="field">
+                    <label for="pageNum">Page</label>
+                    <input id="pageNum" type="number" min="0" value="89" />
+                </div>
+
+                <div class="field">
+                    <label>&nbsp;</label>
+                    <button id="loadBtn">Load</button>
+                </div>
+            </div>
+
+            <img id="pageImg" alt="Page image" />
+            <div class="statusLine" id="reqSummary"></div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="header">
+            <div>TEI → Text</div>
+            <div class="hint" id="teiStatus"></div>
+        </div>
+        <div class="content">
+            <textarea id="teiInput" placeholder="TEI XML will load here…" spellcheck="false"></textarea>
+
+            <div class="toolbar">
+                <button id="renderBtn">Render</button>
+                <button id="clearBtn">Clear</button>
+
+                <label class="hint">
+                    <input type="checkbox" id="showPB" checked />
+                    show page breaks
+                </label>
+
+                <label class="hint">
+                    <input type="checkbox" id="keepEmptyP" />
+                    keep empty paragraphs
+                </label>
+            </div>
+
+            <div id="out" class="renderBox">
+                <div class="empty">Click Load.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/ui/viewer/viewer.js"></script>
+</body>
+</html>

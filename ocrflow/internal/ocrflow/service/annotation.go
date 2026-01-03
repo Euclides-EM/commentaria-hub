@@ -139,6 +139,13 @@ func NewAnnotationsService(
 				),
 			},
 		},
+		"7plb84": {
+			Meta:        model.NewMeta("7plb84"),
+			Description: "Same as ucxw7g, after transcribing with the 1615FineTunedGallicorpor_0301.mlmodel OCR model.",
+			Pages:       "15-320,388-655",
+			DatasetID:   "uk5wbj",
+			AltoDir:     "store/data/uk5wbj/annotations/7plb84/alto",
+		},
 		"9yvgi8": {
 			Meta: model.NewMeta("9yvgi8"),
 			Description: "Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers AND enunciations). " +
