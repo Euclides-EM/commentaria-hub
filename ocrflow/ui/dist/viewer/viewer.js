@@ -3,7 +3,10 @@ const datasetId = document.getElementById("datasetId");
 const annotationId = document.getElementById("annotationId");
 const pageNum = document.getElementById("pageNum");
 
-const loadBtn = document.getElementById("loadBtn");
+const pageInput = document.getElementById("pageNum");
+const loadBtn   = document.getElementById("loadBtn");
+const prevBtn   = document.getElementById("prevPage");
+const nextBtn   = document.getElementById("nextPage");
 
 const pageImg = document.getElementById("pageImg");
 const teiInput = document.getElementById("teiInput");
@@ -157,6 +160,19 @@ async function loadFromApi() {
 }
 
 loadBtn.addEventListener("click", loadFromApi);
+
+prevBtn.addEventListener("click", () => changePage(-1));
+nextBtn.addEventListener("click", () => changePage(1));
+function changePage(delta) {
+    const current = parseInt(pageInput.value, 10) || 0;
+    pageInput.value = Math.max(0, current + delta);
+    loadBtn.click();
+}
+
+// optional: allow Enter in page field
+pageInput.addEventListener("keydown", e => {
+    if (e.key === "Enter") loadBtn.click();
+});
 
 document.getElementById("renderBtn").addEventListener("click", renderTeiText);
 document.getElementById("clearBtn").addEventListener("click", () => {

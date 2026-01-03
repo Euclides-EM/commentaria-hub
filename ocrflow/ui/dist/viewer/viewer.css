@@ -149,6 +149,23 @@ button:active {
     opacity: 0.8;
 }
 
+.pageNav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.pageNav button {
+    padding: 2px 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.pageNav input {
+    width: 70px;
+    text-align: center;
+}
+
 @media (max-width: 900px) {
     .wrap { grid-template-columns: 1fr; }
     .controls { grid-template-columns: 1fr 1fr; }
