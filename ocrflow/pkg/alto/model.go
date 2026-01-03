@@ -34,22 +34,55 @@ type Page struct {
 }
 
 type PrintSpace struct {
-	HPOS       int         `xml:"HPOS,attr"`
-	VPOS       int         `xml:"VPOS,attr"`
-	Width      int         `xml:"WIDTH,attr"`
-	Height     int         `xml:"HEIGHT,attr"`
+	HPOS       float64     `xml:"HPOS,attr"`
+	VPOS       float64     `xml:"VPOS,attr"`
+	Width      float64     `xml:"WIDTH,attr"`
+	Height     float64     `xml:"HEIGHT,attr"`
 	TextBlocks []TextBlock `xml:"TextBlock"`
 }
 
 type TextBlock struct {
-	ID      string `xml:"ID,attr"`
-	TagRefs string `xml:"TAGREFS,attr"`
+	ID      string     `xml:"ID,attr"`
+	TagRefs string     `xml:"TAGREFS,attr"`
+	HPOS    float64    `xml:"HPOS,attr"`
+	VPOS    float64    `xml:"VPOS,attr"`
+	Width   float64    `xml:"WIDTH,attr"`
+	Height  float64    `xml:"HEIGHT,attr"`
+	Shape   Shape      `xml:"Shape"`
+	Lines   []TextLine `xml:"TextLine"`
+}
 
-	HPOS   int   `xml:"HPOS,attr"`
-	VPOS   int   `xml:"VPOS,attr"`
-	Width  int   `xml:"WIDTH,attr"`
-	Height int   `xml:"HEIGHT,attr"`
-	Shape  Shape `xml:"Shape"`
+type TextLine struct {
+	ID     string  `xml:"ID,attr"`
+	HPOS   float64 `xml:"HPOS,attr"`
+	VPOS   float64 `xml:"VPOS,attr"`
+	Width  float64 `xml:"WIDTH,attr"`
+	Height float64 `xml:"HEIGHT,attr"`
+	// child elements
+	Strings []AltoString `xml:"http://www.loc.gov/standards/alto/ns-v4# String"`
+}
+
+type AltoString struct {
+	// Change this tag to match the XML exactly
+	Content string  `xml:"CONTENT,attr"`
+	HPOS    float64 `xml:"HPOS,attr,omitempty"`
+	VPOS    float64 `xml:"VPOS,attr,omitempty"`
+	Width   float64 `xml:"WIDTH,attr,omitempty"`
+	Height  float64 `xml:"HEIGHT,attr,omitempty"`
+	WC      float64 `xml:"WC,attr,omitempty"`
+}
+
+type Line struct {
+	BlockID  string
+	TagRefs  string
+	HPOS     float64
+	VPOS     float64
+	Height   float64
+	Text     string
+	LineID   string
+	BlockVP  float64
+	BlockHP  float64
+	BlockHgt float64
 }
 
 type Description struct {

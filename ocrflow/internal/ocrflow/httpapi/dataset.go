@@ -3,9 +3,11 @@ package httpapi
 import (
 	"encoding/json"
 	"fmt"
+	"net/http"
+	"strings"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
-	"net/http"
 )
 
 // ListDatasets godoc
@@ -45,7 +47,10 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	if err := decoder.Decode(&d); err != nil {
 		return nil, fmt.Errorf("failed to decode request body: %w", err)
 	}
-	return h.deps.DatasetSvc.Create(&d, r.URL.Query().Get("force_overwrite") != "", r.URL.Query().Get("skip_deskew") != "")
+	return h.deps.DatasetSvc.Create(&d,
+		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("force_overwrite"))) == "true",
+		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("skip_deskew"))) == "true",
+	)
 }
 
 // ListSuggestedRulesForDataset godoc

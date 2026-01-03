@@ -3,11 +3,12 @@ package service
 import (
 	"errors"
 	"fmt"
+	"path"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/tiendc/go-deepcopy"
-	"path"
 )
 
 type Model struct {
@@ -61,6 +62,20 @@ func NewModelService(modelsDir string) *Model {
 					"and then multiple rules were applied on then, to fix various segmentation issues. " +
 					"The full specification is noted in the annotation ID ucxw7g. " +
 					"Then, the corrected annotations were manually corrected further in the Roboflow platform.",
+			},
+			"1598FineTuned16150312_0101": {
+				Meta:      model.NewMeta("1598FineTuned16150312_0101"),
+				LocalPath: path.Join(modelsDir, "1598FineTuned16150312_0101.pt"),
+				Type:      model.OCRModelTypeSegment,
+				Location:  model.OCRModelLocationLocal,
+				Description: "1615FineTunedCapricciosaM_0312 fine tuned on 20 pages from Paris 1598a. " +
+					"The dataset was de-skewed before 1615FineTunedCapricciosaM_0312 was applied to it. " +
+					"After applying the segmentation, I also did some post processing: \n" +
+					"(1) Remove categories: \"MainZone-P--Italics\", \"MainZone-P--Enunciation\", \"MainZone-P\"\n" +
+					"(2) Remove overlap with 1000 precision: \"DigitizationArtefactZone\", \"GraphicZone-Decoration\", \"GraphicZone-Diagram\", \"MainZone\", \"MainZone-Head--Book\", \"MainZone-Head--Section\", \"NumberingZone\", \"QuireMarksZone\", \"RunningTitleZone\"\n" +
+					"When I annotated in Roboflow, I further added a new category, that was not in the original model: \"DropCapitalZone-Plane\". " +
+					"This category was used for drop capitals that were not decorated. \n" +
+					"The ground truth annotations ID ht01bz",
 			},
 			"Gallicorpor": {
 				Meta:      model.NewMeta("Gallicorpor"),

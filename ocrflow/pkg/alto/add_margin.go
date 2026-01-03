@@ -2,9 +2,10 @@ package alto
 
 import (
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
 	"math"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
 )
 
 // ApplyAddMarginALTO adds a margin on the given side(s) of all TextBlocks
@@ -98,10 +99,10 @@ func ApplyAddMarginALTO(doc *Alto, cfg *annotationrules.AddMargin) error {
 			}
 
 			// Commit back to ints
-			tb.HPOS = int(math.Round(x))
-			tb.VPOS = int(math.Round(y))
-			tb.Width = int(math.Round(w))
-			tb.Height = int(math.Round(h))
+			tb.HPOS = math.Round(x)
+			tb.VPOS = math.Round(y)
+			tb.Width = math.Round(w)
+			tb.Height = math.Round(h)
 
 			// Keep polygon in sync with the rectangle
 			updateTextBlockPolygon(tb)

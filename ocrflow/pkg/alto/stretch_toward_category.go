@@ -2,9 +2,10 @@ package alto
 
 import (
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
 	"math"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
 )
 
 // ApplyStretchTowardsCategoryALTO applies StretchTowardsCategory logic to an ALTO document.
@@ -145,10 +146,10 @@ func ApplyStretchTowardsCategoryALTO(doc *Alto, stc *annotationrules.StretchTowa
 				}
 
 				// Commit back to ints
-				src.HPOS = int(math.Round(newX))
-				src.VPOS = int(math.Round(newY))
-				src.Width = int(math.Round(newW))
-				src.Height = int(math.Round(newH))
+				src.HPOS = math.Round(newX)
+				src.VPOS = math.Round(newY)
+				src.Width = math.Round(newW)
+				src.Height = math.Round(newH)
 
 				// Also update polygon to remain a rectangle that matches HPOS/VPOS/WIDTH/HEIGHT.
 				updateTextBlockPolygon(src)

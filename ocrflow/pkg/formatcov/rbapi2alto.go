@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/rbmodel"
 	"math"
 	"sort"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/rbmodel"
 )
 
 func Roboflow2ALTO(jsonStr string, imageFileName, pageID string) ([]byte, error) {
@@ -65,10 +66,10 @@ func Roboflow2ALTO(jsonStr string, imageFileName, pageID string) ([]byte, error)
 		)
 
 		tb := alto.TextBlock{
-			HPOS:    left,
-			VPOS:    top,
-			Width:   right - left,
-			Height:  bottom - top,
+			HPOS:    float64(left),
+			VPOS:    float64(top),
+			Width:   float64(right - left),
+			Height:  float64(bottom - top),
 			ID:      fmt.Sprintf("blck%03d", i),
 			TagRefs: classToBT[p.Class],
 			Shape: alto.Shape{
@@ -103,8 +104,8 @@ func Roboflow2ALTO(jsonStr string, imageFileName, pageID string) ([]byte, error)
 					PrintSpace: alto.PrintSpace{
 						HPOS:       0,
 						VPOS:       0,
-						Width:      det.Image.Width,
-						Height:     det.Image.Height,
+						Width:      float64(det.Image.Width),
+						Height:     float64(det.Image.Height),
 						TextBlocks: textBlocks,
 					},
 				},

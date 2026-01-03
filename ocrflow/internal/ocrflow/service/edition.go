@@ -38,6 +38,10 @@ func NewEditionService() *Edition {
 						Meta:    model.Meta{ID: "1"},
 						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1598a.pdf",
 					},
+					{
+						Meta:    model.Meta{ID: "2"},
+						ScanURL: "https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1598a.pdf",
+					},
 				},
 			},
 			"London_1570": {

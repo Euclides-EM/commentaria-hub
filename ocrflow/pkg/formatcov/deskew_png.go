@@ -2,11 +2,12 @@ package formatcov
 
 import (
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 	"log"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 )
 
 func DeskewPNGs(src string, dst string) error {
@@ -35,7 +36,9 @@ func DeskewPNGs(src string, dst string) error {
 
 		log.Printf("[%d/%d] Deskewing %q -> %q", i+1, len(entries), inPath, outPath)
 		// todo: use embedded python script + probably batch is possible...
-		return envexec.Cmd("deskew", "--output", outPath, inPath)
+		if err := envexec.Cmd("deskew", "--output", outPath, inPath); err != nil {
+			return fmt.Errorf("deskew image %q: %w", inPath, err)
+		}
 	}
 
 	return nil

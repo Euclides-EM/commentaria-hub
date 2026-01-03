@@ -62,6 +62,20 @@ func NewAnnotationsService(
 			YoloDir:     "store/data/annotations/idim36/yolo",
 		},
 
+		// Manually annotated including a new category for drop capitals.
+		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1598a-errard/1
+		// Based on the 1615FineTunedCapricciosaM_0312 model.
+		"ht01bz": {
+			Meta: model.NewMeta("ht01bz"),
+			Description: "Manually segmented (ground truth); " +
+				"I applied the 1615FineTunedCapricciosaM_0312 model, then manually corrected the annotations in Roboflow. " +
+				"I added a new category 'DropCapitalZone-Plane' for drop capitals.",
+			Pages:     "33-34,64,20-21,25-26,35,37,45,53,60,66,69-70,74-77,92,94,103,107,38,50,57,61,104,106",
+			DatasetID: "mq9w7q",
+			AltoDir:   "store/data/mq9w7q/annotations/ht01bz/alto",
+			YoloDir:   "store/data/mq9w7q/annotations/ht01bz/yolo",
+		},
+
 		// Inferred Annotations
 
 		"4s48pk": {
@@ -157,10 +171,11 @@ func NewAnnotationsService(
 			},
 		},
 		"s0lik6": {
-			Meta:      model.NewMeta("s0lik6"),
-			Pages:     "9-110",
-			DatasetID: "nu3e82",
-			AltoDir:   "store/data/nu3e82/annotations/s0lik6/alto",
+			Meta:        model.NewMeta("s0lik6"),
+			Description: "Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, no skewing applied.",
+			Pages:       "9-110",
+			DatasetID:   "nu3e82",
+			AltoDir:     "store/data/nu3e82/annotations/s0lik6/alto",
 			AppliedRules: []annotationrule.AnnotationRule{
 				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
 				annotationrule.NewSlicePagesFixed("9-110"),
@@ -182,6 +197,60 @@ func NewAnnotationsService(
 				}, 1000),
 			},
 			OriginAnnotationID: "o5iqhv",
+		},
+		"toq5ip": {
+			Meta:        model.NewMeta("toq5ip"),
+			Description: "Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, after skewing was applied.",
+			Pages:       "9-110",
+			DatasetID:   "mq9w7q",
+			AltoDir:     "store/data/mq9w7q/annotations/toq5ip/alto",
+			AppliedRules: []annotationrule.AnnotationRule{
+				annotationrule.NewSlicePagesFixed("9-110"),
+				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
+				annotationrule.NewRemoveCategories([]string{
+					"MainZone-P--Italics",
+					"MainZone-P--Enunciation",
+					"MainZone-P",
+				}),
+				annotationrule.NewRemoveOverlap([]string{
+					"DigitizationArtefactZone",
+					"GraphicZone-Decoration",
+					"GraphicZone-Diagram",
+					"MainZone",
+					"MainZone-Head--Book",
+					"MainZone-Head--Section",
+					"NumberingZone",
+					"QuireMarksZone",
+					"RunningTitleZone",
+				}, 1000),
+			},
+		},
+		"j31d9m": {
+			Meta:        model.NewMeta("j31d9m"),
+			Description: "Inferred annotations for 1598 Paris edition from the 1598FineTuned16150312_0101 model, after skewing was applied.",
+			Pages:       "9-110",
+			DatasetID:   "mq9w7q",
+			AltoDir:     "store/data/mq9w7q/annotations/j31d9m/alto",
+			AppliedRules: []annotationrule.AnnotationRule{
+				annotationrule.NewSlicePagesFixed("9-110"),
+				annotationrule.NewSegment("1598FineTuned16150312_0101"),
+				annotationrule.NewRemoveCategories([]string{
+					"MainZone-P--Italics",
+					"MainZone-P--Enunciation",
+					"MainZone-P",
+				}),
+				annotationrule.NewRemoveOverlap([]string{
+					"DigitizationArtefactZone",
+					"GraphicZone-Decoration",
+					"GraphicZone-Diagram",
+					"MainZone",
+					"MainZone-Head--Book",
+					"MainZone-Head--Section",
+					"NumberingZone",
+					"QuireMarksZone",
+					"RunningTitleZone",
+				}, 1000),
+			},
 		},
 	}
 
@@ -321,9 +390,13 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 			}
 		}
 		if fromDB.YoloDir != "" {
-			ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.dataDir)
-			if err := futils.CopyDir(store.DatasetAnnotationYoloDir(fromDB, a.datasetSvc.dataDir), ann.YoloDir); err != nil {
-				return nil, fmt.Errorf("failed to copy YOLO annotations for new annotation: %w", err)
+			if _, err := os.Stat(fromDB.YoloDir); err != nil && !os.IsNotExist(err) {
+				return nil, fmt.Errorf("failed to check YOLO annotations for new annotation: %w", err)
+			} else if err == nil {
+				ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.dataDir)
+				if err := futils.CopyDir(store.DatasetAnnotationYoloDir(fromDB, a.datasetSvc.dataDir), ann.YoloDir); err != nil {
+					return nil, fmt.Errorf("failed to copy YOLO annotations for new annotation: %w", err)
+				}
 			}
 		}
 		ann.OriginAnnotationID = id

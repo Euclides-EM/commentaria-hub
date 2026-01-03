@@ -17,7 +17,7 @@ import (
 //	boundingBoxArea - unionArea <= precision
 //
 // then the group is replaced by one big block, otherwise by several disjoint blocks.
-func FixNoOverlap(a *Alto, categories []string, precision int) error {
+func FixNoOverlap(a *Alto, categories []string, precision float64) error {
 	if a == nil || len(categories) == 0 {
 		return nil
 	}
@@ -218,14 +218,14 @@ func rectsOverlapNoTol(a, b rect) bool {
 // decomposeRectUnion decomposes the union of axis-aligned rectangles into a set of
 // disjoint rectangles that cover exactly the union. It returns those rectangles
 // and the total area of the union.
-func decomposeRectUnion(in []rect) (out []rect, area int) {
+func decomposeRectUnion(in []rect) (out []rect, area float64) {
 	if len(in) == 0 {
 		return nil, 0
 	}
 
 	// Collect unique vertical edges
-	var xs []int
-	xSeen := make(map[int]struct{})
+	var xs []float64
+	xSeen := make(map[float64]struct{})
 	for _, r := range in {
 		x1 := r.x
 		x2 := r.x + r.w
@@ -248,7 +248,7 @@ func decomposeRectUnion(in []rect) (out []rect, area int) {
 	}
 
 	var res []rect
-	totalArea := 0
+	totalArea := 0.0
 
 	// Sweep vertical strips between consecutive x-coordinates
 	for i := 0; i < len(xs)-1; i++ {
@@ -260,7 +260,7 @@ func decomposeRectUnion(in []rect) (out []rect, area int) {
 
 		// Collect y-intervals of rects that intersect this strip
 		type interval struct {
-			y1, y2 int
+			y1, y2 float64
 		}
 		var intervals []interval
 		for _, r := range in {
@@ -332,7 +332,7 @@ func decomposeRectUnion(in []rect) (out []rect, area int) {
 	return out, totalArea
 }
 
-func bboxOfRects(rs []rect) (minX, minY, maxX, maxY int) {
+func bboxOfRects(rs []rect) (minX, minY, maxX, maxY float64) {
 	if len(rs) == 0 {
 		return 0, 0, 0, 0
 	}
@@ -357,9 +357,9 @@ func bboxOfRects(rs []rect) (minX, minY, maxX, maxY int) {
 	return
 }
 
-func rectToPolygonPoints(minX, minY, maxX, maxY int) string {
+func rectToPolygonPoints(minX, minY, maxX, maxY float64) string {
 	return fmt.Sprintf(
-		"%d %d %d %d %d %d %d %d %d %d",
+		"%.3f %.3f %.3f %.3f %.3f %.3f %.3f %.3f %.3f %.3f",
 		minX, minY,
 		maxX, minY,
 		maxX, maxY,
@@ -380,6 +380,6 @@ func countTrue(bs []bool) int {
 
 type rect struct {
 	blockIdx int
-	x, y     int
-	w, h     int
+	x, y     float64
+	w, h     float64
 }
