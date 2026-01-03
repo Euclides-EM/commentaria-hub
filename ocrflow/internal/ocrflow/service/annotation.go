@@ -29,7 +29,7 @@ func NewAnnotationsService(
 ) *Annotation {
 	annotations := map[string]*model.Annotation{}
 	manuallyAnnotated := map[string]*model.Annotation{
-		// Manually annotated
+		// Manually annotated (segmented) ground truth datasets
 
 		// Only one big MainZone, without any subtype like paragraph, enunciation, etc.
 		// In Robolflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-withmznosubtypes-tkgii/1
@@ -76,6 +76,15 @@ func NewAnnotationsService(
 			YoloDir:   "store/data/mq9w7q/annotations/ht01bz/yolo",
 		},
 
+		// Manually annotated (transcribed) ground truth dataset for OCR evaluation
+		"05awr4": {
+			Meta:  model.NewMeta("05awr4"),
+			Pages: "85,129,246-247,249,443,509,512,515,517",
+			Description: "Manually transcribed (ground truth), using the Galiccorpor OCR model as a base. " +
+				"This transcription is the base of the 1615FineTunedGallicorpor_0301 OCR model.",
+			DatasetID: "uk5wbj",
+			AltoDir:   "store/data/uk5wbj/annotations/05awr4/alto",
+		},
 		// Inferred Annotations
 
 		"4s48pk": {

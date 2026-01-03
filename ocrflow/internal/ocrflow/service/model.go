@@ -85,6 +85,15 @@ func NewModelService(modelsDir string) *Model {
 				Name:      "Gallicorpor",
 				// todo: add categories
 			},
+			"1615FineTunedGallicorpor_0301": {
+				Meta:      model.NewMeta("1615FineTunedGallicorpor_0301"),
+				LocalPath: path.Join(modelsDir, "1615FineTunedGallicorpor_0301.mlmodel"),
+				Type:      model.OCRModelTypeOCR,
+				Location:  model.OCRModelLocationLocal,
+				Name:      "1615FineTunedGallicorpor_0301",
+				Description: "Gallicorpor fine tuned on 10 pages from Paris 1615. " +
+					"Annotations in...",
+			},
 			"Paris1615NoContinuedPNoMainZone3": {
 				Meta:            model.NewMeta("Paris1615NoContinuedPNoMainZone3"),
 				Type:            model.OCRModelTypeSegment,
