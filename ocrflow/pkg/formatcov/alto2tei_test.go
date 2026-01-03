@@ -23,7 +23,7 @@ func TestConvertALTOToTEI(t *testing.T) {
 		return
 	}
 
-	tei, err := ConvertALTOToTEI(&a, Options{
+	tei, err := ConvertALTOToTEI(&a, ALTOToTEIOptions{
 		RowTolPx:     6,
 		ParaGapPx:    28,
 		KeepEmpty:    false,

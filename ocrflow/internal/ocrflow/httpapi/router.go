@@ -1,11 +1,12 @@
 package httpapi
 
 import (
+	"net/http"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/config"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/service"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
 	httpSwagger "github.com/swaggo/http-swagger"
-	"net/http"
 )
 
 type Dependencies struct {
@@ -18,6 +19,7 @@ type Dependencies struct {
 	TrainSvc            *service.Train
 	MetaStoreManager    *service.MetaStoreManager
 	AnnotationsUploader *service.AnnotationsUploader
+	AnnotationTEI       *service.AnnotationTEI
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -31,6 +33,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	mux.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/suggested_rules", httpwrapper.Get(h.ListSuggestedRulesForDataset).Build())
+	mux.HandleFunc("/datasets/{dataSetId}/images/{pageNum}", httpwrapper.GetPNG(h.GetPageImage).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/fromzip", httpwrapper.CreateFile(h.GetAnnotationZipFile).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/fromurl", httpwrapper.CreateFile(h.GetAnnotationURL).Build())
@@ -45,11 +48,17 @@ func NewRouter(deps *Dependencies) http.Handler {
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/detect_lines", httpwrapper.Update(h.ApplyRuleDetectLines).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_categories", httpwrapper.Update(h.ApplyRuleRemoveCategories).Build())
 
+	mux.HandleFunc("/datasets/{dataSetId}/annotations/{annotationId}/tei/{pageNum}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
+
 	mux.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
 	mux.HandleFunc("/train", httpwrapper.Create(h.TrainModel).Build())
 
 	mux.HandleFunc("/store/cleanup/local", httpwrapper.Delete(h.CleanupLocalStore).Build())
 
 	mux.Handle("/swagger/", httpSwagger.WrapHandler)
+	mux.Handle("/ui/", http.StripPrefix(
+		"/ui/",
+		http.FileServer(http.Dir(deps.Env.UI_DIR)),
+	))
 	return mux
 }

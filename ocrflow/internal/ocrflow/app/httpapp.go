@@ -3,12 +3,13 @@ package app
 import (
 	"database/sql"
 	"fmt"
+	"net/http"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/config"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/httpapi"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/service"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
-	"net/http"
 )
 
 type App struct {
@@ -48,6 +49,7 @@ func NewHTTPApp() (*App, error) {
 		env.EscriptoriumPassword,
 		env.EscriptoriumBasePath,
 	)
+	anntoationTEI := service.NewAnnotationTEI(annotationSvc, datasetSvc)
 
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,
@@ -68,6 +70,7 @@ func NewHTTPApp() (*App, error) {
 		TrainSvc:            trainSvc,
 		MetaStoreManager:    metaStoreManager,
 		AnnotationsUploader: annotationUploader,
+		AnnotationTEI:       anntoationTEI,
 	}
 
 	router := httpapi.NewRouter(deps)

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
@@ -11,6 +12,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
 	"github.com/samber/lo"
 )
@@ -174,4 +176,20 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 			annotationrule.NewLinesDetect([]string{"MainZone"}, []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}),
 		},
 	}, nil
+}
+
+func (d *Dataset) GetPageImage(datasetID string, page int) ([]byte, error) {
+	ds, err := d.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	filename := pagesparser.PageToPNGFilename(page)
+	if _, err := os.Stat(path.Join(ds.ImagesPath, filename)); err != nil {
+		return nil, fmt.Errorf("no such file %s in existing dataset", filename)
+	}
+	data, err := os.ReadFile(path.Join(ds.ImagesPath, filename))
+	if err != nil {
+		return nil, fmt.Errorf("failed to read page image file: %w", err)
+	}
+	return data, nil
 }

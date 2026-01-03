@@ -29,6 +29,16 @@ func Get(f func(*http.Request) (any, error)) *wrapperBuilder {
 	return wb.Get(f)
 }
 
+func GetXML(f func(*http.Request) ([]byte, error)) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.GetXML(f)
+}
+
+func GetPNG(f func(*http.Request) ([]byte, error)) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.GetPNG(f)
+}
+
 func Create(f func(*http.Request) (any, error)) *wrapperBuilder {
 	wb := &wrapperBuilder{}
 	return wb.Create(f)
@@ -56,6 +66,32 @@ func (wb *wrapperBuilder) Get(f func(*http.Request) (any, error)) *wrapperBuilde
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 		}
 		writeJSON(w, http.StatusOK, resp)
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) GetXML(f func(*http.Request) ([]byte, error)) *wrapperBuilder {
+	wb.get = func(w http.ResponseWriter, r *http.Request) {
+		resp, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+		}
+		w.Header().Set("Content-Type", "application/xml; charset=utf-8")
+		w.WriteHeader(http.StatusOK)
+		w.Write(resp)
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) GetPNG(f func(*http.Request) ([]byte, error)) *wrapperBuilder {
+	wb.get = func(w http.ResponseWriter, r *http.Request) {
+		resp, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+		}
+		w.Header().Set("Content-Type", "image/png")
+		w.WriteHeader(http.StatusOK)
+		w.Write(resp)
 	}
 	return wb
 }

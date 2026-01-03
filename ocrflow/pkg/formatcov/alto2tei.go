@@ -11,7 +11,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 )
 
-type Options struct {
+type ALTOToTEIOptions struct {
 	RowTolPx     float64 // lines within this VPOS distance are treated as same row
 	ParaGapPx    float64 // effective vertical gap that starts a new paragraph
 	KeepEmpty    bool
@@ -20,7 +20,7 @@ type Options struct {
 }
 
 // ConvertALTOToTEI converts an ALTO document to TEI XML (as bytes).
-func ConvertALTOToTEI(a *alto.Alto, opts Options) ([]byte, error) {
+func ConvertALTOToTEI(a *alto.Alto, opts ALTOToTEIOptions) ([]byte, error) {
 	if opts.RowTolPx <= 0 {
 		opts.RowTolPx = 6
 	}

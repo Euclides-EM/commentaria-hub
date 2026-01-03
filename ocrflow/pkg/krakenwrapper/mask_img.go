@@ -2,12 +2,13 @@ package krakenwrapper
 
 import (
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"image"
 	"image/color"
 	"image/png"
 	"os"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 )
 
 // ---- Mask creation ----
@@ -47,7 +48,7 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 	img := image.NewGray(image.Rect(0, 0, page.Width, page.Height))
 
 	// NEW: make background white instead of default black
-	paintRect(img, 0, 0, page.Width, page.Height, color.Gray{Y: 255})
+	paintRect(img, 0, 0, float64(page.Width), float64(page.Height), color.Gray{Y: 255})
 
 	// helper to check if any of the tagrefs matches a label in a set
 	hasLabelInSet := func(tagRefs string, set map[string]struct{}) bool {
@@ -95,7 +96,7 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 
 // paintRect fills a rectangle (x,y,width,height) in img with the given gray color.
 // Coordinates are assumed to match the ALTO page coordinate system (origin top-left).
-func paintRect(img *image.Gray, x, y, w, h int, col color.Gray) {
+func paintRect(img *image.Gray, x, y, w, h float64, col color.Gray) {
 	maxX := x + w
 	maxY := y + h
 
@@ -106,16 +107,16 @@ func paintRect(img *image.Gray, x, y, w, h int, col color.Gray) {
 	if y < 0 {
 		y = 0
 	}
-	if maxX > img.Bounds().Max.X {
-		maxX = img.Bounds().Max.X
+	if int(maxX) > img.Bounds().Max.X {
+		maxX = float64(img.Bounds().Max.X)
 	}
-	if maxY > img.Bounds().Max.Y {
-		maxY = img.Bounds().Max.Y
+	if int(maxY) > img.Bounds().Max.Y {
+		maxY = float64(img.Bounds().Max.Y)
 	}
 
 	for yy := y; yy < maxY; yy++ {
 		for xx := x; xx < maxX; xx++ {
-			img.SetGray(xx, yy, col)
+			img.SetGray(int(xx), int(yy), col)
 		}
 	}
 }

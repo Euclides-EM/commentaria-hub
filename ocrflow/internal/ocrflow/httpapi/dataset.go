@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"strconv"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
@@ -64,4 +65,29 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
 	datasetID := r.PathValue("dataSetId")
 	return h.deps.DatasetSvc.ListSuggestedAnnotationRules(datasetID)
+}
+
+// GetPageImage godoc
+// @Summary      Get Page Image
+// @Description  Get the image for a specific page in a dataset.
+// @Tags         Datasets
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        pageNum   path      string  true  "Page Number"
+// @Produce      image/png
+// @Success      200  {file}   string "PNG image content"
+// @Router       /datasets/{dataSetId}/pages/{pageNum}/image [get]
+func (h *Handlers) GetPageImage(r *http.Request) ([]byte, error) {
+	datasetID := r.PathValue("dataSetId")
+	if datasetID == "" {
+		return nil, fmt.Errorf("missing dataset ID")
+	}
+	pageNum := r.PathValue("pageNum")
+	if pageNum == "" {
+		return nil, fmt.Errorf("missing page number")
+	}
+	page, err := strconv.Atoi(pageNum)
+	if err != nil {
+		return nil, fmt.Errorf("invalid page number: %w", err)
+	}
+	return h.deps.DatasetSvc.GetPageImage(datasetID, page)
 }

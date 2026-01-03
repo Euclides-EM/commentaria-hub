@@ -1,8 +1,9 @@
 package config
 
 import (
-	"github.com/caarlos0/env"
 	"time"
+
+	"github.com/caarlos0/env"
 )
 
 type EnvConfig struct {
@@ -10,6 +11,7 @@ type EnvConfig struct {
 	// todo: change to embedded migrations ?
 	MigrationsDir           string        `env:"MIGRATIONS_DIR" envDefault:"./migrations/ocrflow"`
 	DataDir                 string        `env:"DATA_DIR" envDefault:"./store/data"`
+	UI_DIR                  string        `env:"UI_DIR" envDefault:"./ui/dist"`
 	HTTPAddr                string        `env:"HTTP_ADDR" envDefault:":8085"`
 	GithubToken             string        `env:"GITHUB_TOKEN"`
 	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"30s"`
