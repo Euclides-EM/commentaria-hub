@@ -4,10 +4,12 @@ import (
 	"fmt"
 	"os"
 	"path"
+	"path/filepath"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
@@ -437,4 +439,51 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 	a.m[ann.ID] = dst2
 
 	return a.m[ann.ID], nil
+}
+
+func (a *Annotation) GetAnnotationIndex(datasetID, id string) (*model.AnnotationCategoryContents, error) {
+	ann, err := a.Get(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotation: %w", err)
+	}
+	if ann.AltoDir == "" {
+		return nil, fmt.Errorf("no ALTO directory found for annotation %s", ann.ID)
+	}
+	pages, err := pagesparser.Parse(ann.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+	}
+	if len(pages) == 0 {
+		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
+	}
+
+	result := make(map[int][]string)
+	for _, page := range pages {
+		pageAltoPath := filepath.Join(ann.AltoDir, pagesparser.PageToXMLFilename(page))
+		if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
+			return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
+		}
+
+		af, err := alto.LoadFromFile(pageAltoPath)
+		if err != nil {
+			return nil, fmt.Errorf("load ALTO: %w", err)
+		}
+
+		headers, err := alto.ExtractCategoryContents(af, "MainZone-Head--Section", " / ")
+		if err != nil {
+			return nil, fmt.Errorf("failed to extract headers from ALTO page %s: %w", pageAltoPath, err)
+		}
+
+		if len(headers) != 0 {
+			result[page] = headers
+		}
+	}
+
+	return &model.AnnotationCategoryContents{
+		DatasetID:    ann.DatasetID,
+		AnnotationID: ann.ID,
+		// todo: add other categories
+		Category:       "MainZone-Head--Section",
+		ContentsByPage: result,
+	}, nil
 }

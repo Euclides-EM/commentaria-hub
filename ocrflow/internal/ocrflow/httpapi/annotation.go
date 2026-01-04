@@ -182,3 +182,24 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 		return nil
 	})
 }
+
+// GetAnnotationIndex godoc
+// @Summary      Get Annotation Index
+// @Description  Get the index of a specific annotation for a specific dataset.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Produce      json
+// @Success      200  {object}   model.AnnotationCategoryContents
+// @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
+func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	if datasetID == "" {
+		return nil, fmt.Errorf("missing dataset ID")
+	}
+	annotationID := r.PathValue("id")
+	if annotationID == "" {
+		return nil, fmt.Errorf("missing annotation ID")
+	}
+	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID)
+}
