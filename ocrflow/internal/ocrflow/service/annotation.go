@@ -441,7 +441,7 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 	return a.m[ann.ID], nil
 }
 
-func (a *Annotation) GetAnnotationIndex(datasetID, id string) (*model.AnnotationCategoryContents, error) {
+func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []string) (*model.AnnotationIndex, error) {
 	ann, err := a.Get(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
@@ -457,7 +457,8 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string) (*model.Annotation
 		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
 	}
 
-	result := make(map[int][]string)
+	allLocs := make([]categoryPageContent, 0)
+
 	for _, page := range pages {
 		pageAltoPath := filepath.Join(ann.AltoDir, pagesparser.PageToXMLFilename(page))
 		if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
@@ -469,21 +470,70 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string) (*model.Annotation
 			return nil, fmt.Errorf("load ALTO: %w", err)
 		}
 
-		headers, err := alto.ExtractCategoryContents(af, "MainZone-Head--Section", " / ")
+		headers, err := alto.ExtractCategoryContents(af, categories, " / ")
 		if err != nil {
 			return nil, fmt.Errorf("failed to extract headers from ALTO page %s: %w", pageAltoPath, err)
 		}
 
-		if len(headers) != 0 {
-			result[page] = headers
+		for _, h := range headers {
+			allLocs = append(allLocs, categoryPageContent{
+				page:     page,
+				category: h.Category,
+				content:  h.Content,
+			})
 		}
 	}
 
-	return &model.AnnotationCategoryContents{
-		DatasetID:    ann.DatasetID,
-		AnnotationID: ann.ID,
-		// todo: add other categories
-		Category:       "MainZone-Head--Section",
-		ContentsByPage: result,
+	return &model.AnnotationIndex{
+		DatasetID:    datasetID,
+		AnnotationID: id,
+		Nodes:        buildNodes(categories, allLocs),
 	}, nil
+}
+
+func buildNodes(remainingCats []string, data []categoryPageContent) []*model.AnnotationIndexNode {
+	// Base case: if no more categories to nest or no data left
+	if len(remainingCats) == 0 || len(data) == 0 {
+		return nil
+	}
+
+	currentCat := remainingCats[0]
+	nextCats := remainingCats[1:]
+
+	var nodes []*model.AnnotationIndexNode
+
+	var wipNode *model.AnnotationIndexNode
+	var wipNodeFirstChildIndex int
+
+	for i, item := range data {
+		if item.category == currentCat {
+			if wipNode != nil {
+				if wipNodeFirstChildIndex != i {
+					wipNode.Children = buildNodes(nextCats, data[wipNodeFirstChildIndex:i])
+				}
+				nodes = append(nodes, wipNode)
+			}
+			wipNode = &model.AnnotationIndexNode{
+				Category: item.category,
+				Content:  item.content,
+				Location: model.AnnotationIndexLocation{Page: item.page},
+			}
+			wipNodeFirstChildIndex = i + 1
+		}
+	}
+	// Handle the last wipNode if exists
+	if wipNode != nil {
+		if wipNodeFirstChildIndex != len(data) {
+			wipNode.Children = buildNodes(nextCats, data[wipNodeFirstChildIndex:])
+		}
+		nodes = append(nodes, wipNode)
+	}
+
+	return nodes
+}
+
+type categoryPageContent struct {
+	page     int
+	category string
+	content  string
 }

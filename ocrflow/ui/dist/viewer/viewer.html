@@ -6,16 +6,35 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="/ui/viewer/viewer.css">
 </head>
-<body>
 
-<div class="wrap">
-    <div class="panel">
-        <div class="header">
-            <div>Image</div>
-            <div class="hint" id="imgStatus"></div>
+<body>
+<div class="app">
+    <!-- LEFT: Index sidebar -->
+    <aside class="sidebar" id="indexSidebar">
+        <div class="sidebarHeader">
+            <div class="sidebarTitle">Index</div>
+
+            <button class="iconBtn" id="toggleIndexBtn" type="button" title="Minimize index" aria-label="Minimize index">
+                ⟨
+            </button>
         </div>
-        <div class="content">
-            <div class="controls">
+
+        <div class="sidebarControls">
+            <div class="row">
+                <input id="indexFilter" class="input" placeholder="Filter…" />
+                <button id="reloadIndexBtn" class="btn" type="button">Reload</button>
+            </div>
+            <div class="hint" id="indexStatus"></div>
+        </div>
+
+        <div id="indexTree" class="indexTree"></div>
+    </aside>
+
+    <!-- RIGHT: Main area -->
+    <main class="main">
+        <!-- Top controls -->
+        <div class="topbar">
+            <div class="topbarGrid">
                 <div class="field wide">
                     <label for="baseUrl">Base URL</label>
                     <input id="baseUrl" value="http://localhost:8085" />
@@ -28,62 +47,63 @@
 
                 <div class="field">
                     <label for="annotationId">Annotation ID</label>
-                    <input id="annotationId" value="7plb84" />
+                    <input id="annotationId" value="default" />
                 </div>
 
                 <div class="field">
                     <label for="pageNum">Page</label>
-                    <div class="field">
-                        <label for="pageNum">Page</label>
-                        <div class="pageNav">
-                            <button id="prevPage" title="Previous page">◀</button>
-                            <input id="pageNum" type="number" min="0" value="89" />
-                            <button id="nextPage" title="Next page">▶</button>
-                        </div>
+                    <input id="pageNum" type="number" min="0" value="0" />
+                </div>
+
+                <div class="actions">
+                    <button id="prevPage" class="btn" type="button">←</button>
+                    <button id="loadBtn" class="btn primary" type="button">Load</button>
+                    <button id="nextPage" class="btn" type="button">→</button>
+                </div>
+            </div>
+
+            <div class="topbarMeta">
+                <div class="hint mono" id="reqSummary"></div>
+            </div>
+        </div>
+
+        <!-- Split view: Image left, TEI right -->
+        <div class="split">
+            <!-- Image pane -->
+            <section class="pane">
+                <div class="paneHeader">
+                    <div>Image</div>
+                    <div class="hint" id="imgStatus"></div>
+                </div>
+
+                <div class="paneBody imageBody">
+                    <img id="pageImg" alt="Page image" />
+                </div>
+            </section>
+
+            <!-- TEI pane -->
+            <section class="pane">
+                <div class="paneHeader">
+                    <div>TEI</div>
+                    <div class="hint" id="teiStatus"></div>
+                </div>
+
+                <div class="paneBody">
+                    <div class="teiTools">
+                        <button id="renderBtn" class="btn" type="button">Render</button>
+                    </div>
+
+                    <textarea id="teiInput" class="teiInput" spellcheck="false" placeholder="TEI XML loads here…"></textarea>
+
+                    <div id="out" class="renderBox">
+                        <div class="empty">Click Load.</div>
                     </div>
                 </div>
-
-                <div class="field">
-                    <label>&nbsp;</label>
-                    <button id="loadBtn">Load</button>
-                </div>
-            </div>
-
-            <img id="pageImg" alt="Page image" />
-            <div class="statusLine" id="reqSummary"></div>
+            </section>
         </div>
-    </div>
-
-    <div class="panel">
-        <div class="header">
-            <div>TEI → Text</div>
-            <div class="hint" id="teiStatus"></div>
-        </div>
-        <div class="content">
-            <textarea id="teiInput" placeholder="TEI XML will load here…" spellcheck="false"></textarea>
-
-            <div class="toolbar">
-                <button id="renderBtn">Render</button>
-                <button id="clearBtn">Clear</button>
-
-                <label class="hint">
-                    <input type="checkbox" id="showPB" checked />
-                    show page breaks
-                </label>
-
-                <label class="hint">
-                    <input type="checkbox" id="keepEmptyP" />
-                    keep empty paragraphs
-                </label>
-            </div>
-
-            <div id="out" class="renderBox">
-                <div class="empty">Click Load.</div>
-            </div>
-        </div>
-    </div>
+    </main>
 </div>
 
-<script src="/ui/viewer/viewer.js"></script>
+<script type="module" src="/ui/viewer/viewer.js"></script>
 </body>
 </html>

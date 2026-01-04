@@ -4,21 +4,35 @@ import (
 	"strings"
 )
 
-func ExtractCategoryContents(a *Alto, category string, lineBreakSeperator string) ([]string, error) {
-	catTagIDs := findTagIDsByLabel(a, category)
-	if len(catTagIDs) == 0 {
-		return nil, nil
+type CategoryAndContent struct {
+	Category string
+	Content  string
+}
+
+func NewCategoryAndContent(category, content string) *CategoryAndContent {
+	return &CategoryAndContent{
+		Category: category,
+		Content:  content,
+	}
+}
+
+func ExtractCategoryContents(a *Alto, categories []string, lineBreakSeperator string) ([]*CategoryAndContent, error) {
+	catToTagIDs := make(map[string]map[string]bool)
+	for _, category := range categories {
+		catToTagIDs[category] = findTagIDsByLabel(a, category)
 	}
 
-	var contents []string
+	var contents []*CategoryAndContent
 	for _, page := range a.Layout.Page {
 		for _, block := range page.PrintSpace.TextBlocks {
-			if !tagrefsContainsAny(block.TagRefs, catTagIDs) {
-				continue
-			}
-			h := buildContentFromBlock(block, lineBreakSeperator)
-			if h != "" {
-				contents = append(contents, h)
+			for cat, catTagIDs := range catToTagIDs {
+				if !tagrefsContainsAny(block.TagRefs, catTagIDs) {
+					continue
+				}
+				h := buildContentFromBlock(block, lineBreakSeperator)
+				if h != "" {
+					contents = append(contents, NewCategoryAndContent(cat, h))
+				}
 			}
 		}
 	}

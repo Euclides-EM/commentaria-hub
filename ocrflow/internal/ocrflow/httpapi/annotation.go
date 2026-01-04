@@ -6,10 +6,12 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
+	"github.com/samber/lo"
 )
 
 // ListAnnotations godoc
@@ -189,8 +191,9 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        categories  query     string  true  "Categories for the index"
 // @Produce      json
-// @Success      200  {object}   model.AnnotationCategoryContents
+// @Success      200  {object}   model.AnnotationIndex
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
 func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	datasetID := r.PathValue("dataSetId")
@@ -201,5 +204,11 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	if annotationID == "" {
 		return nil, fmt.Errorf("missing annotation ID")
 	}
-	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID)
+	categoriesStr := r.FormValue("categories")
+	if categoriesStr == "" {
+		categoriesStr = "MainZone-Head--Book,MainZone-Head--Section"
+	}
+	categories := strings.Split(strings.TrimSpace(categoriesStr), ",")
+	categories = lo.Map(categories, func(s string, _ int) string { return strings.TrimSpace(s) })
+	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories)
 }

@@ -1,8 +1,18 @@
 package model
 
-type AnnotationCategoryContents struct {
-	DatasetID      string           `json:"dataset_id" readonly:"true"`
-	AnnotationID   string           `json:"annotation_id" readonly:"true"`
-	Category       string           `json:"category" readonly:"true"`
-	ContentsByPage map[int][]string `json:"contents" readonly:"true"`
+type AnnotationIndex struct {
+	DatasetID    string                 `json:"dataset_id" readonly:"true"`
+	AnnotationID string                 `json:"annotation_id" readonly:"true"`
+	Nodes        []*AnnotationIndexNode `json:"nodes"`
+}
+
+type AnnotationIndexNode struct {
+	Category string                  `json:"category"`
+	Content  string                  `json:"content"`
+	Location AnnotationIndexLocation `json:"location"`
+	Children []*AnnotationIndexNode  `json:"children"`
+}
+
+type AnnotationIndexLocation struct {
+	Page int `json:"page"`
 }
