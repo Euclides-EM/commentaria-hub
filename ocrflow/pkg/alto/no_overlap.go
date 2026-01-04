@@ -2,7 +2,10 @@ package alto
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/geo"
 )
 
 // FixNoOverlap ensures that for the given category labels, regions from the same category
@@ -86,11 +89,8 @@ func FixNoOverlap(a *Alto, categories []string, precision float64) error {
 			for i, bi := range idxs {
 				b := blocks[bi]
 				rects[i] = rect{
-					blockIdx: bi,
-					x:        b.HPOS,
-					y:        b.VPOS,
-					w:        b.Width,
-					h:        b.Height,
+					blockIdx:  bi,
+					Rectangle: *geo.RectangleFromLeftBottomCorner(b.HPOS, b.VPOS, b.Width, b.Height),
 				}
 			}
 
@@ -158,11 +158,11 @@ func FixNoOverlap(a *Alto, categories []string, precision float64) error {
 					// Use several disjoint rectangles
 					for idx, r := range unionRects {
 						nb := rep
-						nb.HPOS = r.x
-						nb.VPOS = r.y
-						nb.Width = r.w
-						nb.Height = r.h
-						nb.Shape.Polygon.Points = rectToPolygonPoints(r.x, r.y, r.x+r.w, r.y+r.h)
+						nb.HPOS = r.MinX
+						nb.VPOS = r.MinY
+						nb.Width = r.MaxX - r.MinX
+						nb.Height = r.MaxY - r.MinY
+						nb.Shape.Polygon.Points = rectToPolygonPoints(r.MinX, r.MinY, r.MaxX, r.MaxY)
 						if idx > 0 {
 							nb.ID = fmt.Sprintf("%s_%d", rep.ID, idx)
 						}
@@ -202,15 +202,15 @@ func hasAnyTagRef(tagRefs string, ids map[string]struct{}) bool {
 }
 
 func rectsOverlapNoTol(a, b rect) bool {
-	ax1 := a.x
-	ay1 := a.y
-	ax2 := a.x + a.w
-	ay2 := a.y + a.h
+	ax1 := a.MinX
+	ay1 := a.MinY
+	ax2 := a.MaxX
+	ay2 := a.MaxY
 
-	bx1 := b.x
-	by1 := b.y
-	bx2 := b.x + b.w
-	by2 := b.y + b.h
+	bx1 := b.MinX
+	by1 := b.MinY
+	bx2 := b.MaxX
+	by2 := b.MaxY
 
 	return ax1 < bx2 && ax2 > bx1 && ay1 < by2 && ay2 > by1
 }
@@ -227,8 +227,8 @@ func decomposeRectUnion(in []rect) (out []rect, area float64) {
 	var xs []float64
 	xSeen := make(map[float64]struct{})
 	for _, r := range in {
-		x1 := r.x
-		x2 := r.x + r.w
+		x1 := r.MinX
+		x2 := r.MaxX
 		if _, ok := xSeen[x1]; !ok {
 			xSeen[x1] = struct{}{}
 			xs = append(xs, x1)
@@ -264,13 +264,13 @@ func decomposeRectUnion(in []rect) (out []rect, area float64) {
 		}
 		var intervals []interval
 		for _, r := range in {
-			rx1 := r.x
-			rx2 := r.x + r.w
+			rx1 := r.MinX
+			rx2 := r.MaxX
 			if rx1 >= x2 || rx2 <= x1 {
 				continue
 			}
-			y1 := r.y
-			y2 := r.y + r.h
+			y1 := r.MinY
+			y2 := r.MaxY
 			intervals = append(intervals, interval{y1: y1, y2: y2})
 		}
 		if len(intervals) == 0 {
@@ -307,14 +307,17 @@ func decomposeRectUnion(in []rect) (out []rect, area float64) {
 			if w <= 0 || h <= 0 {
 				continue
 			}
-			res = append(res, rect{
+			r := rect{
 				blockIdx: -1,
-				x:        x1,
-				y:        iv.y1,
-				w:        w,
-				h:        h,
-			})
-			totalArea += w * h
+				Rectangle: geo.Rectangle{
+					MinX: x1,
+					MinY: iv.y1,
+					MaxX: x2,
+					MaxY: iv.y2,
+				},
+			}
+			res = append(res, r)
+			totalArea += r.Area()
 		}
 	}
 
@@ -322,10 +325,12 @@ func decomposeRectUnion(in []rect) (out []rect, area float64) {
 	for i, r := range res {
 		out[i] = rect{
 			blockIdx: r.blockIdx,
-			x:        r.x,
-			y:        r.y,
-			w:        r.w,
-			h:        r.h,
+			Rectangle: geo.Rectangle{
+				MinX: r.MinX,
+				MinY: r.MinY,
+				MaxX: r.MaxX,
+				MaxY: r.MaxY,
+			},
 		}
 	}
 
@@ -336,22 +341,22 @@ func bboxOfRects(rs []rect) (minX, minY, maxX, maxY float64) {
 	if len(rs) == 0 {
 		return 0, 0, 0, 0
 	}
-	minX = rs[0].x
-	minY = rs[0].y
-	maxX = rs[0].x + rs[0].w
-	maxY = rs[0].y + rs[0].h
+	minX = rs[0].MinX
+	minY = rs[0].MinY
+	maxX = rs[0].MaxX
+	maxY = rs[0].MaxY
 	for _, r := range rs[1:] {
-		if r.x < minX {
-			minX = r.x
+		if r.MinX < minX {
+			minX = r.MinX
 		}
-		if r.y < minY {
-			minY = r.y
+		if r.MinY < minY {
+			minY = r.MinY
 		}
-		if r.x+r.w > maxX {
-			maxX = r.x + r.w
+		if r.MaxX > maxX {
+			maxX = r.MaxX
 		}
-		if r.y+r.h > maxY {
-			maxY = r.y + r.h
+		if r.MaxY > maxY {
+			maxY = r.MaxY
 		}
 	}
 	return
@@ -359,13 +364,54 @@ func bboxOfRects(rs []rect) (minX, minY, maxX, maxY float64) {
 
 func rectToPolygonPoints(minX, minY, maxX, maxY float64) string {
 	return fmt.Sprintf(
-		"%.3f %.3f %.3f %.3f %.3f %.3f %.3f %.3f %.3f %.3f",
-		minX, minY,
-		maxX, minY,
-		maxX, maxY,
-		minX, maxY,
-		minX, minY,
+		"%d %d %d %d %d %d %d %d %d %d",
+		int(minX), int(minY),
+		int(maxX), int(minY),
+		int(maxX), int(maxY),
+		int(minX), int(maxY),
+		int(minX), int(minY),
 	)
+}
+
+func polygonPointsToRect(polygonPoints string) (*geo.Rectangle, error) {
+	fields := strings.Fields(polygonPoints)
+	if len(fields) != 10 {
+		return nil, fmt.Errorf("expected 10 coordinates in polygon points, got %d", len(fields))
+	}
+
+	minX := float64(0)
+	minY := float64(0)
+	maxX := float64(0)
+	maxY := float64(0)
+
+	for i := 0; i < len(fields); i += 2 {
+		x, err1 := strconv.ParseFloat(fields[i], 64)
+		y, err2 := strconv.ParseFloat(fields[i+1], 64)
+		if err1 != nil || err2 != nil {
+			return nil, fmt.Errorf("invalid coordinate in polygon points: %v, %v", err1, err2)
+		}
+		if i == 0 {
+			minX = x
+			maxX = x
+			minY = y
+			maxY = y
+		} else {
+			if x < minX {
+				minX = x
+			}
+			if x > maxX {
+				maxX = x
+			}
+			if y < minY {
+				minY = y
+			}
+			if y > maxY {
+				maxY = y
+			}
+		}
+	}
+
+	return &geo.Rectangle{MinX: minX, MinY: minY, MaxX: maxX, MaxY: maxY}, nil
 }
 
 func countTrue(bs []bool) int {
@@ -380,6 +426,5 @@ func countTrue(bs []bool) int {
 
 type rect struct {
 	blockIdx int
-	x, y     float64
-	w, h     float64
+	geo.Rectangle
 }

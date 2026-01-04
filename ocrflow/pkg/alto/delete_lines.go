@@ -1,4 +1,4 @@
-package krakenwrapper
+package alto
 
 import (
 	"encoding/xml"

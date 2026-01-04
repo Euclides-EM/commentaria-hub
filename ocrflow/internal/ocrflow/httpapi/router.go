@@ -49,6 +49,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/add_margin", httpwrapper.Update(h.ApplyRuleAddMargin).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/detect_lines", httpwrapper.Update(h.ApplyRuleDetectLines).Build())
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_categories", httpwrapper.Update(h.ApplyRuleRemoveCategories).Build())
+	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_overlap", httpwrapper.Update(h.ApplyRuleRemoveOverlap).Build())
+	mux.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance", httpwrapper.Update(h.ApplyRuleReassignTextLinesByTolerance).Build())
 
 	mux.HandleFunc("/datasets/{dataSetId}/annotations/{annotationId}/tei/{pageNum}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
 

@@ -3,11 +3,13 @@ package krakenwrapper
 import (
 	_ "embed"
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 	"os"
 	"path"
 	"path/filepath"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 )
 
 func DetectLines(imgDir, altoDir string, detectInCategories, ignoreCategories []string) error {
@@ -50,7 +52,7 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 	}
 
 	// delete existing lines in the ALTO file
-	if err := DeleteLines(altoPath, altoPath); err != nil {
+	if err := alto.DeleteLines(altoPath, altoPath); err != nil {
 		return fmt.Errorf("delete lines from ALTO %s: %w", altoPath, err)
 	}
 

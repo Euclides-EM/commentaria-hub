@@ -99,6 +99,8 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *model.Annotation,
 			f = func() error { return a.applyRemoveCategories(af, t) }
 		case *annotationrule.RemoveOverlap:
 			f = func() error { return a.applyRemoveOverlap(af, t) }
+		case *annotationrule.ReassignTextLinesByTolerance:
+			f = func() error { return a.applyReassignTextLinesByTolerance(af, t) }
 		default:
 			return nil, fmt.Errorf("unknown rule type: %s", rule.GetType())
 		}
@@ -218,6 +220,15 @@ func (a *AnnotationRuleApplier) applyRemoveOverlap(af *alto.Alto, t *annotationr
 	if err := alto.FixNoOverlap(af, t.Categories, t.Precision); err != nil {
 		return fmt.Errorf("failed to apply remove overlap operation %+v: %w", t, err)
 	}
+	return nil
+}
+
+func (a *AnnotationRuleApplier) applyReassignTextLinesByTolerance(af *alto.Alto, t *annotationrule.ReassignTextLinesByTolerance) error {
+	moved, err := alto.ReassignTextLinesByTolerance(af, t.FromCategory, t.ToCategory, t.PrecisionPx, t.MinOverlap)
+	if err != nil {
+		return fmt.Errorf("failed to apply reassign text lines by tolerance %+v: %w", t, err)
+	}
+	log.Printf("[DEBUG] Reassigned %d text lines from category %s to %s", moved, t.FromCategory, t.ToCategory)
 	return nil
 }
 

@@ -3,8 +3,9 @@ package httpapi
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"net/http"
+
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 )
 
 // ApplyRules godoc
@@ -257,6 +258,40 @@ func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 
 	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.RemoveOverlap
+	if err := decoder.Decode(&rule); err != nil {
+		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	}
+	rule.Type = rule.GetType()
+
+	rules := &annotationrule.ApplyRules{
+		Action: annotationrule.ApplyRulesActionOverwrite,
+		Rules: []annotationrule.AnnotationRule{
+			&rule,
+		},
+	}
+
+	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+}
+
+// ApplyRuleReassignTextLinesByTolerance godoc
+// @Summary      Reassign Text Lines by Tolerance in Annotation
+// @Description  Reassign text lines by tolerance in an annotation.
+// @Tags         Annotations Apply Rules
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        annotationSegmentRule  body 	annotationrule.ReassignTextLinesByTolerance  true  "Reassign text lines by tolerance rule"
+// @Produce      json
+// @Success      200  {object}   model.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance [put]
+func (h *Handlers) ApplyRuleReassignTextLinesByTolerance(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	annotationID := r.PathValue("id")
+	if datasetID == "" || annotationID == "" {
+		return nil, fmt.Errorf("missing parameters")
+	}
+
+	decoder := json.NewDecoder(r.Body)
+	var rule annotationrule.ReassignTextLinesByTolerance
 	if err := decoder.Decode(&rule); err != nil {
 		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
 	}

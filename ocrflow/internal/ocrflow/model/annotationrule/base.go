@@ -34,13 +34,14 @@ const (
 type Type string
 
 const (
-	TypeSegment          Type = "segment"
-	TypeSlicePages       Type = "slice_pages"
-	TypeStretch          Type = "stretch"
-	TypeAddMargin        Type = "add_margin"
-	TypeLinesDetect      Type = "lines_detect"
-	TypeRemoveCategories Type = "remove_categories"
-	TypeRemoveOverlap    Type = "remove_overlap"
+	TypeSegment                      Type = "segment"
+	TypeSlicePages                   Type = "slice_pages"
+	TypeStretch                      Type = "stretch"
+	TypeAddMargin                    Type = "add_margin"
+	TypeLinesDetect                  Type = "lines_detect"
+	TypeRemoveCategories             Type = "remove_categories"
+	TypeRemoveOverlap                Type = "remove_overlap"
+	TypeReassignTextLinesByTolerance Type = "reassign_text_lines_by_tolerance"
 )
 
 type ApplyRules struct {
@@ -124,6 +125,12 @@ func (a *ApplyRules) UnmarshalJSON(data []byte) error {
 			var v RemoveOverlap
 			if err := json.Unmarshal(r, &v); err != nil {
 				return fmt.Errorf("unmarshal remove_overlap rule: %w", err)
+			}
+			rule = &v
+		case TypeReassignTextLinesByTolerance:
+			var v ReassignTextLinesByTolerance
+			if err := json.Unmarshal(r, &v); err != nil {
+				return fmt.Errorf("unmarshal reassign_text_lines_by_tolerance rule: %w", err)
 			}
 			rule = &v
 		default:
