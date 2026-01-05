@@ -1,3 +1,8 @@
+
+-----
+**DO NOT USE THIS FILE ANYMORE. IT'S JUST HERE FOR ARCHIVAL PURPOSES.**
+-----
+
 To set git on the Huma-Num server I followed these steps, as specified in [Github deploy leys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys):
 After SSHing into the server, I ran:
 ```bash
