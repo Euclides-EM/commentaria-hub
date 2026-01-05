@@ -184,7 +184,7 @@ WorkingDirectory=/srv/euclides/projects/elements-resource-box
 Environment=HOST=127.0.0.1
 Environment=PORT=5173
 EnvironmentFile=-/etc/euclides/elements-resource-box.env
-ExecStart=/bin/bash -c "source ~/.bashrc && yarn dev --host ${HOST} --port ${PORT}"
+ExecStart=/bin/bash -c "source ~/.bashrc && yarn euclides --host ${HOST} --port ${PORT}"
 Restart=always
 RestartSec=2
 
@@ -301,6 +301,7 @@ sudo systemctl restart elements-resource-box
 sudo -iu euclides
 cd /srv/euclides/projects/elements-resource-box
 git pull
+source ~/.bashrc 
 yarn install
 exit
 
