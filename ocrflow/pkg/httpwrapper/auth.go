@@ -6,12 +6,23 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jellydator/ttlcache/v3"
 	"github.com/samber/lo"
 )
 
 var allowList = map[string]struct{}{
 	"reallyliri": {},
 	"miamish":    {},
+}
+
+var cache *ttlcache.Cache[string, bool]
+
+func init() {
+	cache = ttlcache.New[string, bool](
+		ttlcache.WithTTL[string, bool](30 * time.Minute),
+	)
+
+	go cache.Start()
 }
 
 type githubUser struct {
@@ -30,6 +41,16 @@ func (wb *wrapperBuilder) authorized(r *http.Request) bool {
 	}
 	token = strings.TrimSpace(token)
 
+	if cache.Get(token) != nil && cache.Get(token).Value() {
+		return true
+	}
+
+	allowed := authInGit(token)
+	cache.Set(token, allowed, ttlcache.DefaultTTL)
+	return allowed
+}
+
+func authInGit(token string) bool {
 	req, err := http.NewRequest(
 		http.MethodGet,
 		"https://api.github.com/user",
