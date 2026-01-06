@@ -3,14 +3,15 @@ package service
 import (
 	"errors"
 	"fmt"
+	"log"
+	"path"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
 	"github.com/tiendc/go-deepcopy"
-	"log"
-	"path"
 )
 
 type Train struct {
@@ -100,8 +101,8 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 		m := &model.Model{
 			Type:            model.OCRModelTypeSegment,
 			AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-			Name:            t.Name,
-			//	Categories...
+			Meta:            model.NewMeta(idgen.GenerateID()).WithName(t.Name).WithDescription(t.Description),
+			// todo Categories...
 		}
 		if err := tm.modelSvc.Upsert(m, path.Join(oPath, "weights", "best.pt")); err != nil {
 			log.Printf("failed to upsert trained model %s: %v", toUpdate.ID, err)

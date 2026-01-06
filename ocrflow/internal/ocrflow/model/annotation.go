@@ -6,7 +6,6 @@ import (
 
 type Annotation struct {
 	Meta               `json:",inline"`
-	Description        string                          `json:"description"`
 	Pages              string                          `json:"pages"`
 	AltoDir            string                          `json:"alto_dir" readonly:"true"`
 	YoloDir            string                          `json:"yolo_dir" readonly:"true"`

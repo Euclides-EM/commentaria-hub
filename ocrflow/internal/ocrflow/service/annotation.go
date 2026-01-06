@@ -36,42 +36,38 @@ func NewAnnotationsService(
 		// Only one big MainZone, without any subtype like paragraph, enunciation, etc.
 		// In Robolflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-withmznosubtypes-tkgii/1
 		"gog80x": {
-			Meta:        model.NewMeta("gog80x"),
-			Description: "Manually annotated (ground truth); Only one big MainZone, without any subtype like paragraph, enunciation, etc.",
-			Pages:       "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
-			DatasetID:   "rrpbnk",
-			YoloDir:     "store/data/annotations/gog80x/yolo",
+			Meta:      model.NewMeta("gog80x").WithDescription("Manually annotated (ground truth); Only one big MainZone, without any subtype like paragraph, enunciation, etc."),
+			Pages:     "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
+			DatasetID: "rrpbnk",
+			YoloDir:   "store/data/annotations/gog80x/yolo",
 		},
 
 		// Polygons for subtypes like paragraph, enunciation and main zones.
 		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-polygonswithmz-wsrge/1
 		"f0k3ks": {
-			Meta:        model.NewMeta("f0k3ks"),
-			Description: "Manually annotated (ground truth); Polygons for subtypes like paragraph, enunciation and main zones.",
-			Pages:       "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
-			DatasetID:   "rrpbnk",
-			YoloDir:     "store/data/annotations/f0k3ks/yolo",
+			Meta:      model.NewMeta("f0k3ks").WithDescription("Manually annotated (ground truth); Polygons for subtypes like paragraph, enunciation and main zones."),
+			Pages:     "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
+			DatasetID: "rrpbnk",
+			YoloDir:   "store/data/annotations/f0k3ks/yolo",
 		},
 
 		// Includes a big MainZone, in addition to subtypes like paragraph, enunciation, etc.
 		// In some cases, instead of boxes polygons were drawn to better fit the text areas.
 		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-polygonswithmz-wsrge/1
 		"idim36": {
-			Meta:        model.NewMeta("idim36"),
-			Description: "Manually annotated (ground truth); Includes a big MainZone, in addition to subtypes like paragraph, enunciation, etc. In some cases, instead of boxes polygons were drawn to better fit the text areas.",
-			Pages:       "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
-			DatasetID:   "rrpbnk",
-			YoloDir:     "store/data/annotations/idim36/yolo",
+			Meta:      model.NewMeta("idim36").WithDescription("Manually annotated (ground truth); Includes a big MainZone, in addition to subtypes like paragraph, enunciation, etc. In some cases, instead of boxes polygons were drawn to better fit the text areas."),
+			Pages:     "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
+			DatasetID: "rrpbnk",
+			YoloDir:   "store/data/annotations/idim36/yolo",
 		},
 
 		// Manually annotated including a new category for drop capitals.
 		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1598a-errard/1
 		// Based on the 1615FineTunedCapricciosaM_0312 model.
 		"ht01bz": {
-			Meta: model.NewMeta("ht01bz"),
-			Description: "Manually segmented (ground truth); " +
+			Meta: model.NewMeta("ht01bz").WithDescription("Manually segmented (ground truth); " +
 				"I applied the 1615FineTunedCapricciosaM_0312 model, then manually corrected the annotations in Roboflow. " +
-				"I added a new category 'DropCapitalZone-Plane' for drop capitals.",
+				"I added a new category 'DropCapitalZone-Plane' for drop capitals."),
 			Pages:     "33-34,64,20-21,25-26,35,37,45,53,60,66,69-70,74-77,92,94,103,107,38,50,57,61,104,106",
 			DatasetID: "mq9w7q",
 			AltoDir:   "store/data/mq9w7q/annotations/ht01bz/alto",
@@ -80,30 +76,27 @@ func NewAnnotationsService(
 
 		// Manually annotated (transcribed) ground truth dataset for OCR evaluation
 		"05awr4": {
-			Meta:  model.NewMeta("05awr4"),
-			Pages: "85,129,246-247,249,443,509,512,515,517",
-			Description: "Manually transcribed (ground truth), using the Galiccorpor OCR model as a base. " +
-				"This transcription is the base of the 1615FineTunedGallicorpor_0301 OCR model.",
+			Meta: model.NewMeta("05awr4").WithDescription("Manually transcribed (ground truth), using the Galiccorpor OCR model as a base. " +
+				"This transcription is the base of the 1615FineTunedGallicorpor_0301 OCR model."),
+			Pages:     "85,129,246-247,249,443,509,512,515,517",
 			DatasetID: "uk5wbj",
 			AltoDir:   "store/data/uk5wbj/annotations/05awr4/alto",
 		},
 		// Inferred Annotations
 
 		"4s48pk": {
-			Meta:        model.NewMeta("4s48pk"),
-			Description: "Inferred annotations from Kraken on the same pages as above",
-			Pages:       "15-655",
-			DatasetID:   "uk5wbj",
-			AltoDir:     "store/data/uk5wbj/annotations/4s48pk/alto",
+			Meta:      model.NewMeta("4s48pk").WithDescription("Inferred annotations from Kraken on the same pages as above"),
+			Pages:     "15-655",
+			DatasetID: "uk5wbj",
+			AltoDir:   "store/data/uk5wbj/annotations/4s48pk/alto",
 			AppliedRules: []annotationrule.AnnotationRule{
 				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
 			},
 		},
 		"ucxw7g": {
-			Meta: model.NewMeta("ucxw7g"),
-			Description: "Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers). " +
+			Meta: model.NewMeta("ucxw7g").WithDescription("Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers). " +
 				"Based on the YALTAi model (CapricciosaM) after it was fine tuned on manually annotated data (id=f0k3ks). " +
-				"The manual annotations included subtypes like paragraphs and enunciations.",
+				"The manual annotations included subtypes like paragraphs and enunciations."),
 			Pages:     "15-320,388-655",
 			DatasetID: "uk5wbj",
 			AltoDir:   "store/data/uk5wbj/annotations/ucxw7g/alto",
@@ -142,16 +135,14 @@ func NewAnnotationsService(
 			},
 		},
 		"7plb84": {
-			Meta:        model.NewMeta("7plb84"),
-			Description: "Same as ucxw7g, after transcribing with the 1615FineTunedGallicorpor_0301.mlmodel OCR model.",
-			Pages:       "15-320,388-655",
-			DatasetID:   "uk5wbj",
-			AltoDir:     "store/data/uk5wbj/annotations/7plb84/alto",
+			Meta:      model.NewMeta("7plb84").WithDescription("Same as ucxw7g, after transcribing with the 1615FineTunedGallicorpor_0301.mlmodel OCR model."),
+			Pages:     "15-320,388-655",
+			DatasetID: "uk5wbj",
+			AltoDir:   "store/data/uk5wbj/annotations/7plb84/alto",
 		},
 		"9yvgi8": {
-			Meta: model.NewMeta("9yvgi8"),
-			Description: "Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers AND enunciations). " +
-				"Very similar to the ucxw7g annotation, but here the 'enunciation' subtype is NOT removed. ",
+			Meta: model.NewMeta("9yvgi8").WithDescription("Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers AND enunciations). " +
+				"Very similar to the ucxw7g annotation, but here the 'enunciation' subtype is NOT removed."),
 			Pages:     "15-320,388-655",
 			DatasetID: "uk5wbj",
 			AltoDir:   "store/data/uk5wbj/annotations/9yvgi8/alto",
@@ -189,11 +180,10 @@ func NewAnnotationsService(
 			},
 		},
 		"s0lik6": {
-			Meta:        model.NewMeta("s0lik6"),
-			Description: "Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, no skewing applied.",
-			Pages:       "9-110",
-			DatasetID:   "nu3e82",
-			AltoDir:     "store/data/nu3e82/annotations/s0lik6/alto",
+			Meta:      model.NewMeta("s0lik6").WithDescription("Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, no skewing applied."),
+			Pages:     "9-110",
+			DatasetID: "nu3e82",
+			AltoDir:   "store/data/nu3e82/annotations/s0lik6/alto",
 			AppliedRules: []annotationrule.AnnotationRule{
 				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
 				annotationrule.NewSlicePagesFixed("9-110"),
@@ -217,11 +207,10 @@ func NewAnnotationsService(
 			OriginAnnotationID: "o5iqhv",
 		},
 		"toq5ip": {
-			Meta:        model.NewMeta("toq5ip"),
-			Description: "Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, after skewing was applied.",
-			Pages:       "9-110",
-			DatasetID:   "mq9w7q",
-			AltoDir:     "store/data/mq9w7q/annotations/toq5ip/alto",
+			Meta:      model.NewMeta("toq5ip").WithDescription("Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, after skewing was applied."),
+			Pages:     "9-110",
+			DatasetID: "mq9w7q",
+			AltoDir:   "store/data/mq9w7q/annotations/toq5ip/alto",
 			AppliedRules: []annotationrule.AnnotationRule{
 				annotationrule.NewSlicePagesFixed("9-110"),
 				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
@@ -244,11 +233,10 @@ func NewAnnotationsService(
 			},
 		},
 		"j31d9m": {
-			Meta:        model.NewMeta("j31d9m"),
-			Description: "Inferred annotations for 1598 Paris edition from the 1598FineTuned16150312_0101 model, after skewing was applied.",
-			Pages:       "9-110",
-			DatasetID:   "mq9w7q",
-			AltoDir:     "store/data/mq9w7q/annotations/j31d9m/alto",
+			Meta:      model.NewMeta("j31d9m").WithDescription("Inferred annotations for 1598 Paris edition from the 1598FineTuned16150312_0101 model, after skewing was applied."),
+			Pages:     "9-110",
+			DatasetID: "mq9w7q",
+			AltoDir:   "store/data/mq9w7q/annotations/j31d9m/alto",
 			AppliedRules: []annotationrule.AnnotationRule{
 				annotationrule.NewSlicePagesFixed("9-110"),
 				annotationrule.NewSegment("1598FineTuned16150312_0101"),

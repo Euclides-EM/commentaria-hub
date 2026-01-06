@@ -29,8 +29,7 @@ func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Editi
 		m: map[string]*model.Dataset{
 			// No deskewing
 			"rrpbnk": {
-				Meta:        model.NewMeta("rrpbnk"),
-				Description: "Dataset without deskewing applied",
+				Meta:        model.NewMeta("rrpbnk").WithDescription("Dataset without deskewing applied"),
 				FacsimileID: "2",
 				EditionID:   "Paris_1615",
 				PDFPath:     "store/data/rrpbnk/Paris_1615_1.pdf",
@@ -39,8 +38,7 @@ func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Editi
 			},
 			// After deskewing
 			"uk5wbj": {
-				Meta:        model.NewMeta("uk5wbj"),
-				Description: "Dataset with deskewing applied",
+				Meta:        model.NewMeta("uk5wbj").WithDescription("Dataset with deskewing applied"),
 				FacsimileID: "1",
 				EditionID:   "Paris_1615",
 				PDFPath:     "store/data/uk5wbj/Paris_1615_1.pdf",
@@ -56,8 +54,7 @@ func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Editi
 				DPI:         300.0,
 			},
 			"nu3e82": {
-				Meta:        model.NewMeta("nu3e82"),
-				Description: "Dataset without deskewing applied",
+				Meta:        model.NewMeta("nu3e82").WithDescription("Dataset without deskewing applied"),
 				FacsimileID: "1",
 				EditionID:   "Paris_1598a",
 				PDFPath:     "store/data/nu3e82/Paris_1598a_1.pdf",
@@ -65,8 +62,7 @@ func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Editi
 				DPI:         300.0,
 			},
 			"mq9w7q": {
-				Meta:        model.NewMeta("mq9w7q"),
-				Description: "Dataset with deskewing applied",
+				Meta:        model.NewMeta("mq9w7q").WithDescription("Dataset with deskewing applied"),
 				FacsimileID: "2",
 				EditionID:   "Paris_1598a",
 				PDFPath:     "store/data/mq9w7q/Paris_1598a_2.pdf",

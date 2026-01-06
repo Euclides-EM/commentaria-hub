@@ -2,7 +2,6 @@ package model
 
 type Dataset struct {
 	Meta
-	Description string  `json:"description"`
 	FacsimileID string  `json:"facsimile_id"`
 	EditionID   string  `json:"edition_id"`
 	PDFPath     string  `json:"pdf_path" readonly:"true"`

@@ -26,118 +26,104 @@ func NewModelService(modelsDir string) *Model {
 				Location:  model.OCRModelLocationLocal,
 			},
 			"CapricciosaM": {
-				Meta:      model.NewMeta("CapricciosaM"),
+				Meta: model.NewMeta("CapricciosaM").WithDescription("The YALTAi CapricciosaM model, without any fine tuning, downloaded from " +
+					"https://zenodo.org/records/10972956/files/CapricciosaM.pt"),
 				LocalPath: path.Join(modelsDir, "CapricciosaM.pt"),
 				Type:      model.OCRModelTypeSegment,
 				Location:  model.OCRModelLocationLocal,
-				Description: "The YALTAi CapricciosaM model, without any fine tuning, downloaded from " +
-					"https://zenodo.org/records/10972956/files/CapricciosaM.pt",
 			},
 			"1570FineTuned_0312": {
-				Meta:      model.NewMeta("1570FineTuned_0312"),
+				Meta: model.NewMeta("1570FineTuned_0312").WithDescription("CapricciosaM fine tuned on 50 pages from London 1570. " +
+					"Annotations in https://app.roboflow.com/mia-workplace/1570-english/2"),
 				LocalPath: path.Join(modelsDir, "1570FineTunedCapricciosaM_0312.pt"),
 				Type:      model.OCRModelTypeSegment,
 				Location:  model.OCRModelLocationLocal,
-				Description: "CapricciosaM fine tuned on 50 pages from London 1570. " +
-					"Annotations in https://app.roboflow.com/mia-workplace/1570-english/2",
 			},
 			// Fine-tuned model based on:
 			// The CapricciosaM model, further fine-tuned on pages from the Paris 1615 facsimile
 			// Annotations in https://app.roboflow.com/mia-workplace/0212-xcfg/2
 			"1615FineTunedCapricciosaM_0312": {
-				Meta:      model.NewMeta("1615FineTunedCapricciosaM_0312"),
+				Meta: model.NewMeta("1615FineTunedCapricciosaM_0312").WithDescription("CapricciosaM fine tuned on 50 pages from Paris 1615. " +
+					"Annotations in https://app.roboflow.com/mia-workplace/0212-xcfg/2"),
 				LocalPath: path.Join(modelsDir, "1615FineTunedCapricciosaM_0312.pt"),
 				Type:      model.OCRModelTypeSegment,
 				Location:  model.OCRModelLocationLocal,
-				Description: "CapricciosaM fine tuned on 50 pages from Paris 1615. " +
-					"Annotations in https://app.roboflow.com/mia-workplace/0212-xcfg/2",
 			},
 			"1615FineTunedCapricciosaM_0812": {
-				Meta:      model.NewMeta("1615FineTunedCapricciosaM_0812"),
-				LocalPath: path.Join(modelsDir, "1615FineTunedCapricciosaM_0812.pt"),
-				Type:      model.OCRModelTypeSegment,
-				Location:  model.OCRModelLocationLocal,
-				Description: "CapricciosaM fine tuned on 50 pages from Paris 1615. " +
+				Meta: model.NewMeta("1615FineTunedCapricciosaM_0812").WithDescription("CapricciosaM fine tuned on 50 pages from Paris 1615. " +
 					"It is based on pages that were automatically segmented with 1615FineTunedCapricciosaM_0312, " +
 					"and then multiple rules were applied on then, to fix various segmentation issues. " +
 					"The full specification is noted in the annotation ID ucxw7g. " +
-					"Then, the corrected annotations were manually corrected further in the Roboflow platform.",
-			},
-			"1598FineTuned16150312_0101": {
-				Meta:      model.NewMeta("1598FineTuned16150312_0101"),
-				LocalPath: path.Join(modelsDir, "1598FineTuned16150312_0101.pt"),
+					"Then, the corrected annotations were manually corrected further in the Roboflow platform."),
+				LocalPath: path.Join(modelsDir, "1615FineTunedCapricciosaM_0812.pt"),
 				Type:      model.OCRModelTypeSegment,
 				Location:  model.OCRModelLocationLocal,
-				Description: "1615FineTunedCapricciosaM_0312 fine tuned on 20 pages from Paris 1598a. " +
+			},
+			"1598FineTuned16150312_0101": {
+				Meta: model.NewMeta("1598FineTuned16150312_0101").WithDescription("1615FineTunedCapricciosaM_0312 fine tuned on 20 pages from Paris 1598a. " +
 					"The dataset was de-skewed before 1615FineTunedCapricciosaM_0312 was applied to it. " +
 					"After applying the segmentation, I also did some post processing: \n" +
 					"(1) Remove categories: \"MainZone-P--Italics\", \"MainZone-P--Enunciation\", \"MainZone-P\"\n" +
 					"(2) Remove overlap with 1000 precision: \"DigitizationArtefactZone\", \"GraphicZone-Decoration\", \"GraphicZone-Diagram\", \"MainZone\", \"MainZone-Head--Book\", \"MainZone-Head--Section\", \"NumberingZone\", \"QuireMarksZone\", \"RunningTitleZone\"\n" +
 					"When I annotated in Roboflow, I further added a new category, that was not in the original model: \"DropCapitalZone-Plane\". " +
 					"This category was used for drop capitals that were not decorated. \n" +
-					"The ground truth annotations ID ht01bz",
+					"The ground truth annotations ID ht01bz"),
+				LocalPath: path.Join(modelsDir, "1598FineTuned16150312_0101.pt"),
+				Type:      model.OCRModelTypeSegment,
+				Location:  model.OCRModelLocationLocal,
 			},
 			"Gallicorpor": {
-				Meta:      model.NewMeta("Gallicorpor"),
+				Meta:      model.NewMeta("Gallicorpor").WithName("Gallicorpor"),
 				LocalPath: path.Join(modelsDir, "Gallicorpor.mlmodel"),
 				Type:      model.OCRModelTypeOCR,
 				Location:  model.OCRModelLocationLocal,
-				Name:      "Gallicorpor",
-				// todo: add categories
 			},
 			"1615FineTunedGallicorpor_0301": {
-				Meta:      model.NewMeta("1615FineTunedGallicorpor_0301"),
+				Meta: model.NewMeta("1615FineTunedGallicorpor_0301").
+					WithName("1615FineTunedGallicorpor_0301").WithDescription("Gallicorpor fine tuned on 10 pages from Paris 1615. " +
+					"Annotations in..."),
 				LocalPath: path.Join(modelsDir, "1615FineTunedGallicorpor_0301.mlmodel"),
 				Type:      model.OCRModelTypeOCR,
 				Location:  model.OCRModelLocationLocal,
-				Name:      "1615FineTunedGallicorpor_0301",
-				Description: "Gallicorpor fine tuned on 10 pages from Paris 1615. " +
-					"Annotations in...",
 			},
 			"Paris1615NoContinuedPNoMainZone3": {
-				Meta:            model.NewMeta("Paris1615NoContinuedPNoMainZone3"),
+				Meta:            model.NewMeta("Paris1615NoContinuedPNoMainZone3").WithName("paris-1615-nocontinuedpnomainzone-dbxgq/3"),
 				Type:            model.OCRModelTypeSegment,
 				Location:        model.OCRModelLocationRoboflow,
 				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-				Name:            "paris-1615-nocontinuedpnomainzone-dbxgq/3",
 			},
 			"Paris1615PolygonsAndMainZone": {
-				Meta:            model.NewMeta("Paris1615PolygonsAndMainZone"),
+				Meta:            model.NewMeta("Paris1615PolygonsAndMainZone").WithName("paris-1615-polygonswithmz-wsrge/1"),
 				Type:            model.OCRModelTypeSegment,
 				Location:        model.OCRModelLocationRoboflow,
 				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-				Name:            "paris-1615-polygonswithmz-wsrge/1",
 			},
 			"Paris1615NoMainZoneSubtypes": {
-				Meta:            model.NewMeta("Paris1615NoMainZoneSubtypes"),
+				Meta:            model.NewMeta("Paris1615NoMainZoneSubtypes").WithName("paris-1615-withmznosubtypes-tkgii/1"),
 				Type:            model.OCRModelTypeSegment,
 				Location:        model.OCRModelLocationRoboflow,
 				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-				Name:            "paris-1615-withmznosubtypes-tkgii/1",
 			},
 			// With a main zone, subtypes, based on the data set after skewing
 			"0212-xcfg/2": {
-				Meta:            model.NewMeta("0212-xcfg-2"),
+				Meta:            model.NewMeta("0212-xcfg-2").WithName("0212-xcfg/2"),
 				Type:            model.OCRModelTypeSegment,
 				Location:        model.OCRModelLocationRoboflow,
 				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-				Name:            "0212-xcfg/2",
 			},
 			// Model trained on London 1570 facsimile, with main zone and heading (no additional subtypes)
 			// Can be found here: https://app.roboflow.com/mia-workplace/1570-english/models/1570-english/2
 			"1570-english/2": {
-				Meta:            model.NewMeta("1570-english-2"),
+				Meta:            model.NewMeta("1570-english-2").WithName("1570-english/2"),
 				Type:            model.OCRModelTypeSegment,
 				Location:        model.OCRModelLocationRoboflow,
 				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-				Name:            "1570-english/2",
 			},
 			"segmontoRB": {
-				Meta:            model.NewMeta("segmontoRB"),
+				Meta:            model.NewMeta("segmontoRB").WithName("segmonto/31"),
 				Type:            model.OCRModelTypeSegment,
 				Location:        model.OCRModelLocationRoboflow,
 				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-				Name:            "segmonto/31",
 				Categories: []string{
 					"AdvertisementZone",
 					"DigitizationArtefactZone",

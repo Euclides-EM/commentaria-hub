@@ -8,6 +8,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/config"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/httpapi"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/service"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 )
@@ -28,13 +29,15 @@ func NewHTTPApp() (*App, error) {
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
 	}
+	editionStore := store.NewEditionSQL(sqlDB)
+	facsimileStore := store.NewFacsimileSql(sqlDB)
 
 	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
 
 	heathSvc := service.NewHealthService(sqlDB)
 	modelSvc := service.NewModelService(env.ModelsDir)
 	ruleApplier := service.NewAnnotationRuleApplier(env.DataDir, env.RoboflowAPIKey, modelSvc)
-	editionSvc := service.NewEditionService()
+	editionSvc := service.NewEditionService(editionStore, facsimileStore)
 	datasetSvc := service.NewDatasetService(ghDownloader, editionSvc, env.DataDir)
 	annotationSvc := service.NewAnnotationsService(
 		datasetSvc,

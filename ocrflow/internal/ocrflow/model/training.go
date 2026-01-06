@@ -13,7 +13,6 @@ type Training struct {
 	OriginModel    *Model                 `json:"origin_model"`
 	AnnotationSets []*AnnotationReference `json:"annotation_sets"`
 	Status         TrainingStatus         `json:"status"`
-	Name           string                 `json:"name"`
 }
 
 type AnnotationReference struct {
