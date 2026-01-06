@@ -13,6 +13,10 @@ export function dom() {
         prevBtn: $("prevPage"),
         nextBtn: $("nextPage"),
         renderBtn: $("renderBtn"),
+        toggleTeiSourceBtn: $("toggleTeiSourceBtn"),
+
+        // TEI source container (new)
+        teiSourceTools: $("teiSourceTools"),
 
         // image + tei
         pageImg: $("pageImg"),

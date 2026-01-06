@@ -13,7 +13,6 @@ import (
 
 type AnnotationTEI struct {
 	annotationSvc *Annotation
-	datasetSvc    *Dataset
 }
 
 func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNum string) ([]byte, error) {
@@ -58,9 +57,8 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNum st
 	return teiData, nil
 }
 
-func NewAnnotationTEI(annotationSvc *Annotation, datasetSvc *Dataset) *AnnotationTEI {
+func NewAnnotationTEI(annotationSvc *Annotation) *AnnotationTEI {
 	return &AnnotationTEI{
 		annotationSvc: annotationSvc,
-		datasetSvc:    datasetSvc,
 	}
 }

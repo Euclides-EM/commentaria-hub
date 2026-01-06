@@ -456,6 +456,9 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	if len(pages) == 0 {
 		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
 	}
+	if len(categories) == 0 {
+		categories = []string{"MainZone-Head--Book", "MainZone-Head--Section"}
+	}
 
 	allLocs := make([]categoryPageContent, 0)
 

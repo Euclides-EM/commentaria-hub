@@ -223,7 +223,7 @@ Paste:
 ```nginx
 server {
     listen 80;
-    server_name elements.example.org;
+    server_name euclides.huma-num.fr;
 
     location / {
         proxy_pass http://127.0.0.1:5173;

@@ -12,6 +12,31 @@ document.addEventListener("DOMContentLoaded", async () => {
     // sidebar collapse
     wireSidebarToggle(els.toggleIndexBtn);
 
+    // --- TEI source toggle (new) ---
+    // Default: source hidden, render box visible
+    let teiSourceVisible = false;
+
+    const setTeiSourceVisible = (visible) => {
+        teiSourceVisible = !!visible;
+
+        // textarea
+        els.teiInput?.classList.toggle("hidden", !teiSourceVisible);
+
+        // toolbar section that contains Render/Clear/toggles
+        els.teiSourceTools?.classList.toggle("hidden", !teiSourceVisible);
+
+        // optional visual state on the toggle button
+        els.toggleTeiSourceBtn?.classList.toggle("active", teiSourceVisible);
+    };
+
+    // Apply default state on load
+    setTeiSourceVisible(false);
+
+    // Wire the toggle button
+    els.toggleTeiSourceBtn?.addEventListener("click", () => {
+        setTeiSourceVisible(!teiSourceVisible);
+    });
+
     // TEI rendering helpers
     const doRender = () =>
         renderTeiText({
@@ -35,9 +60,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Index controller
     const getIndexUrl = () => {
-        const b = (els.baseUrl.value || "").trim().replace(/\/+$/, "");
-        const d = (els.datasetId.value || "").trim();
-        const a = (els.annotationId.value || "").trim();
+        const b = (els.baseUrl?.value || "").trim().replace(/\/+$/, "");
+        const d = (els.datasetId?.value || "").trim();
+        const a = (els.annotationId?.value || "").trim();
         if (!b || !d || !a) return "";
         return `${b}/datasets/${encodeURIComponent(d)}/annotations/${encodeURIComponent(a)}/index`;
     };

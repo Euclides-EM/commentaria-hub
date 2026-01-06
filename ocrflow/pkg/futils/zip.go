@@ -56,3 +56,49 @@ func Unzip(srcZip, destDir string) error {
 	}
 	return nil
 }
+
+func Zip(srcDir, destZip string) error {
+	outFile, err := os.Create(destZip)
+	if err != nil {
+		return err
+	}
+	defer outFile.Close()
+
+	zipWriter := zip.NewWriter(outFile)
+	defer zipWriter.Close()
+
+	err = filepath.Walk(srcDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		relPath, err := filepath.Rel(srcDir, path)
+		if err != nil {
+			return err
+		}
+		if info.IsDir() {
+			return nil
+		}
+		file, err := os.Open(path)
+		if err != nil {
+			return err
+		}
+		defer file.Close()
+
+		fh, err := zip.FileInfoHeader(info)
+		if err != nil {
+			return err
+		}
+		fh.Name = relPath
+		fh.Method = zip.Deflate
+
+		writer, err := zipWriter.CreateHeader(fh)
+		if err != nil {
+			return err
+		}
+
+		_, err = io.Copy(writer, file)
+		return err
+	})
+
+	return err
+}

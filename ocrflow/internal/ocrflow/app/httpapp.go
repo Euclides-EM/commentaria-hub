@@ -49,7 +49,7 @@ func NewHTTPApp() (*App, error) {
 		env.EscriptoriumPassword,
 		env.EscriptoriumBasePath,
 	)
-	anntoationTEI := service.NewAnnotationTEI(annotationSvc, datasetSvc)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc)
 
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,
@@ -59,7 +59,7 @@ func NewHTTPApp() (*App, error) {
 		env.DataDir,
 	)
 	trainSvc := service.NewTrainService(annotationSvc, modelSvc, env.TrainingDir)
-
+	assetGen := service.NewAssetGen(datasetSvc, annotationTEI, annotationSvc)
 	deps := &httpapi.Dependencies{
 		Env:                 env,
 		HealthSvc:           heathSvc,
@@ -70,7 +70,8 @@ func NewHTTPApp() (*App, error) {
 		TrainSvc:            trainSvc,
 		MetaStoreManager:    metaStoreManager,
 		AnnotationsUploader: annotationUploader,
-		AnnotationTEI:       anntoationTEI,
+		AnnotationTEI:       annotationTEI,
+		AssetGen:            assetGen,
 	}
 
 	router := httpapi.NewRouter(deps)

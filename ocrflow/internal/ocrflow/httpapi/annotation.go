@@ -205,10 +205,9 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 		return nil, fmt.Errorf("missing annotation ID")
 	}
 	categoriesStr := r.FormValue("categories")
-	if categoriesStr == "" {
-		categoriesStr = "MainZone-Head--Book,MainZone-Head--Section"
+	var categories []string
+	if categoriesStr != "" {
+		categories = lo.Map(strings.Split(strings.TrimSpace(categoriesStr), ","), func(s string, _ int) string { return strings.TrimSpace(s) })
 	}
-	categories := strings.Split(strings.TrimSpace(categoriesStr), ",")
-	categories = lo.Map(categories, func(s string, _ int) string { return strings.TrimSpace(s) })
 	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories)
 }

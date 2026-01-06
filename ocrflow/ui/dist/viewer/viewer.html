@@ -37,7 +37,7 @@
             <div class="topbarGrid">
                 <div class="field wide">
                     <label for="baseUrl">Base URL</label>
-                    <input id="baseUrl" value="http://localhost:8085" />
+                    <input id="baseUrl" value="/api/v1" />
                 </div>
 
                 <div class="field">
@@ -47,12 +47,12 @@
 
                 <div class="field">
                     <label for="annotationId">Annotation ID</label>
-                    <input id="annotationId" value="default" />
+                    <input id="annotationId" value="7plb84" />
                 </div>
 
                 <div class="field">
                     <label for="pageNum">Page</label>
-                    <input id="pageNum" type="number" min="0" value="0" />
+                    <input id="pageNum" type="number" min="0" value="89" />
                 </div>
 
                 <div class="actions">
@@ -90,11 +90,21 @@
 
                 <div class="paneBody">
                     <div class="teiTools">
-                        <button id="renderBtn" class="btn" type="button">Render</button>
+                        <button id="toggleTeiSourceBtn" class="btn" type="button">
+                            TEI source code
+                        </button>
+
+                        <div class="teiSourceTools hidden" id="teiSourceTools">
+                            <button id="renderBtn" class="btn" type="button">Render</button>
+                        </div>
                     </div>
 
-                    <textarea id="teiInput" class="teiInput" spellcheck="false" placeholder="TEI XML loads here…"></textarea>
-
+                    <textarea
+                            id="teiInput"
+                            class="teiInput hidden"
+                            spellcheck="false"
+                            placeholder="TEI XML…">
+                    </textarea>
                     <div id="out" class="renderBox">
                         <div class="empty">Click Load.</div>
                     </div>

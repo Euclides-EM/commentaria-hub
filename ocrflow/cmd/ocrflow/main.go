@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/app"
-	"github.com/joho/godotenv"
 	"log"
 	"net/http"
+
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/app"
+	"github.com/joho/godotenv"
 )
 
 //go:generate swag init -g main.go -d .,../../internal/ocrflow --parseInternal -o ../../internal/ocrflow/docs
@@ -12,7 +13,7 @@ import (
 // @title          	OCR Flow API
 // @version         1.0
 // @description     HTTP API for the OCR pipeline.
-// @BasePath        /
+// @BasePath        /api/v1/
 func main() {
 	err := godotenv.Load(".env")
 	if err != nil {
