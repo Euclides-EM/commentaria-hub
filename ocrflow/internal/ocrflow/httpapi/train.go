@@ -3,8 +3,9 @@ package httpapi
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"net/http"
+
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 )
 
 // TrainModel godoc
@@ -14,6 +15,7 @@ import (
 // @Accept       json
 // @Produce      json
 // @Param        model  body      model.Training  true  "Training Configuration"
+// @Security 	 BearerAuth
 // @Success      200    {object}  model.Training
 // @Router       /train [post]
 func (h *Handlers) TrainModel(r *http.Request) (any, error) {

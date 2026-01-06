@@ -7,6 +7,7 @@ import "net/http"
 // @Description  Cleans up the local store by removing temporary files and unused data.
 // @Tags         Store
 // @Param        dry_run  query     string  false  "If true, performs a dry run without deleting files"  Enums(true, false)
+// @Security 	 BearerAuth
 // @Success      204  "No Content"
 // @Router       /store/cleanup/local [delete]
 func (h *Handlers) CleanupLocalStore(r *http.Request) (any, error) {

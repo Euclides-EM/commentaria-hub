@@ -39,6 +39,7 @@ func (h *Handlers) ListDatasets(r *http.Request) (any, error) {
 // @Param        force_overwrite  query     string  false  "Force overwrite if dataset already exists"
 // @Param        skip_deskew      query     string  false  "Skip deskewing of images"
 // @Param        dataset  body      model.Dataset  true  "Dataset to create"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Dataset
 // @Router       /datasets [post]

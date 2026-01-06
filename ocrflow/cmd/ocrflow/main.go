@@ -14,6 +14,10 @@ import (
 // @version         1.0
 // @description     HTTP API for the OCR pipeline.
 // @BasePath        /api/v1/
+// @securityDefinitions.apikey BearerAuth
+// @in header
+// @name Authorization
+// @description Provide your Bearer token in the format: Bearer {token}
 func main() {
 	err := godotenv.Load(".env")
 	if err != nil {

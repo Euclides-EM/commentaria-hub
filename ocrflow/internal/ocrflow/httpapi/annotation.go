@@ -36,6 +36,7 @@ func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        annotation  body      model.Annotation  true  "Annotation to create"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations [post]
@@ -62,6 +63,7 @@ func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationRoboflowUpload  body      model.AnnotationUploadRoboflow  true  "Annotation Roboflow upload details"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/upload/roboflow [put]
@@ -88,6 +90,7 @@ func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationEscriptoriumUpload  body      model.AnnotationUploadEscriptorium  true  "Annotation Escriptorium upload details"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/upload/escriptorium [put]

@@ -15,6 +15,7 @@ import (
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationApplyRules  body 	annotationrule.ApplyRules  true  "Annotation apply rules"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply [put]
@@ -42,6 +43,7 @@ func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationSegmentRule  body 	annotationrule.Segment  true  "Annotation segment rule"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/segment [put]
@@ -76,6 +78,7 @@ func (h *Handlers) ApplyRuleSegment(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationSegmentRule  body 	annotationrule.SlicePages  true  "Annotation slice pages rule"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/slice_pages [put]
@@ -110,6 +113,7 @@ func (h *Handlers) ApplyRuleSlicePages(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationSegmentRule  body 	annotationrule.Stretch  true  "Annotation stretch rule"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/stretch [put]
@@ -144,6 +148,7 @@ func (h *Handlers) ApplyRuleStretch(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationSegmentRule  body 	annotationrule.AddMargin  true  "Annotation add margin rule"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/add_margin [put]
@@ -178,6 +183,7 @@ func (h *Handlers) ApplyRuleAddMargin(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationSegmentRule  body 	annotationrule.LinesDetect  true  "Annotation detect lines rule"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/detect_lines [put]
@@ -212,6 +218,7 @@ func (h *Handlers) ApplyRuleDetectLines(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationSegmentRule  body 	annotationrule.RemoveCategories  true  "Remove categories rule"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/remove_categories [put]
@@ -246,6 +253,7 @@ func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationSegmentRule  body 	annotationrule.RemoveOverlap  true  "Remove overlap rule"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/remove_overlap [put]
@@ -280,6 +288,7 @@ func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        annotationSegmentRule  body 	annotationrule.ReassignTextLinesByTolerance  true  "Reassign text lines by tolerance rule"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance [put]
