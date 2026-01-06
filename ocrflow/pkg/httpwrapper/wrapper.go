@@ -178,7 +178,7 @@ func (wb *wrapperBuilder) Delete(f func(*http.Request) (any, error)) *wrapperBui
 
 func (wb *wrapperBuilder) Build() func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
-		if !wb.authorized(r) {
+		if !authorized(r) {
 			http.Error(w, "Unauthorized", http.StatusUnauthorized)
 			return
 		}

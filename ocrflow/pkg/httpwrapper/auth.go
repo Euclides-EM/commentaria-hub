@@ -29,7 +29,7 @@ type githubUser struct {
 	Login string `json:"login"`
 }
 
-func (wb *wrapperBuilder) authorized(r *http.Request) bool {
+func authorized(r *http.Request) bool {
 	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) {
 		return true
 	}
