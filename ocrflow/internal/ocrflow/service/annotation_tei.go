@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 	"strconv"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
@@ -13,6 +14,14 @@ import (
 
 type AnnotationTEI struct {
 	annotationSvc *Annotation
+	fileSysMgt    *store.FileSystemManager
+}
+
+func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *store.FileSystemManager) *AnnotationTEI {
+	return &AnnotationTEI{
+		annotationSvc: annotationSvc,
+		fileSysMgt:    fileSysMgt,
+	}
 }
 
 func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNum string) ([]byte, error) {
@@ -21,7 +30,7 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNum st
 		return nil, err
 	}
 
-	if ann.AltoDir == "" {
+	if !ann.Segmented {
 		return nil, fmt.Errorf("no ALTO annotations found for annotation %s", ann.ID)
 	}
 
@@ -31,7 +40,7 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNum st
 		return nil, fmt.Errorf("invalid page number %s: %w", pageNum, err)
 	}
 
-	pageAltoPath := filepath.Join(ann.AltoDir, pagesparser.PageToXMLFilename(page))
+	pageAltoPath := filepath.Join(t.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
 	if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
 		return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
 	}
@@ -55,10 +64,4 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNum st
 	}
 
 	return teiData, nil
-}
-
-func NewAnnotationTEI(annotationSvc *Annotation) *AnnotationTEI {
-	return &AnnotationTEI{
-		annotationSvc: annotationSvc,
-	}
 }

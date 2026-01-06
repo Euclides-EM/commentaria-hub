@@ -5,5 +5,5 @@ import (
 )
 
 type BaseSQL struct {
-	DB *sql.DB
+	db *sql.DB
 }

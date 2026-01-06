@@ -31,38 +31,40 @@ func NewHTTPApp() (*App, error) {
 	}
 	editionStore := store.NewEditionSQL(sqlDB)
 	facsimileStore := store.NewFacsimileSql(sqlDB)
+	datasetStore := store.NewDatasetSQL(sqlDB)
+	annotationStore := store.NewAnnotationSQL(sqlDB)
+	modelStore := store.NewModelSQL(sqlDB)
+
+	fileSystemManager := store.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir)
 
 	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
 
 	heathSvc := service.NewHealthService(sqlDB)
-	modelSvc := service.NewModelService(env.ModelsDir)
-	ruleApplier := service.NewAnnotationRuleApplier(env.DataDir, env.RoboflowAPIKey, modelSvc)
+	modelSvc := service.NewModelService(modelStore, fileSystemManager)
+	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
-	datasetSvc := service.NewDatasetService(ghDownloader, editionSvc, env.DataDir)
-	annotationSvc := service.NewAnnotationsService(
-		datasetSvc,
-		ruleApplier,
-	)
+	datasetSvc := service.NewDatasetService(editionSvc, datasetStore, fileSystemManager, ghDownloader)
+	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
+		fileSystemManager,
 		env.RoboflowAPIKey,
 		env.PythonExecutable,
 		env.EscriptoriumUsername,
 		env.EscriptoriumPassword,
 		env.EscriptoriumBasePath,
 	)
-	annotationTEI := service.NewAnnotationTEI(annotationSvc)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager)
 
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,
 		annotationSvc,
 		modelSvc,
-		env.ModelsDir,
-		env.DataDir,
+		fileSystemManager,
 	)
-	trainSvc := service.NewTrainService(annotationSvc, modelSvc, env.TrainingDir)
-	assetGen := service.NewAssetGen(datasetSvc, annotationTEI, annotationSvc)
+	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir)
+	assetGen := service.NewAssetGen(datasetSvc, annotationTEI, annotationSvc, fileSystemManager)
 	deps := &httpapi.Dependencies{
 		Env:                 env,
 		HealthSvc:           heathSvc,

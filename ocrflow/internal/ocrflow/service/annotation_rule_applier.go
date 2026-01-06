@@ -19,17 +19,16 @@ import (
 )
 
 type AnnotationRuleApplier struct {
-	dataDir        string
+	modelSvc       *Model
+	fileSysMgt     *store.FileSystemManager
 	roboflowAPIKey string
-
-	modelSvc *Model
 }
 
-func NewAnnotationRuleApplier(dataDir, roboflowAPIKey string, modelSvc *Model) *AnnotationRuleApplier {
+func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *store.FileSystemManager, roboflowAPIKey string) *AnnotationRuleApplier {
 	return &AnnotationRuleApplier{
-		dataDir:        dataDir,
-		roboflowAPIKey: roboflowAPIKey,
 		modelSvc:       modelSvc,
+		fileSysMgt:     fileSysMgt,
+		roboflowAPIKey: roboflowAPIKey,
 	}
 }
 
@@ -48,21 +47,15 @@ func (a *AnnotationRuleApplier) ApplyRules(imgPath string, ann *model.Annotation
 }
 
 func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *model.Annotation, rule annotationrule.AnnotationRule) (*model.Annotation, error) {
-	// rules that do not change ALTO files:
-	if rule.GetType() == annotationrule.TypeSlicePages {
-		return a.applySlicePagesRule(ann, rule.(*annotationrule.SlicePages))
-	}
-
 	// delete YOLO dir if exists, as it will be invalid after ALTO modification
-	if ann.YoloDir != "" {
-		if err := os.RemoveAll(ann.YoloDir); err != nil {
-			return nil, fmt.Errorf("failed to remove YOLO dir after ALTO modification: %w", err)
-		}
-		ann.YoloDir = ""
+	if err := os.RemoveAll(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
+		return nil, fmt.Errorf("failed to remove YOLO dir after ALTO modification: %w", err)
 	}
 
 	// rules that modify ALTO files in a batch:
 	switch t := rule.(type) {
+	case *annotationrule.SlicePages:
+		return a.applySlicePagesRule(ann, t)
 	case *annotationrule.LinesDetect:
 		return a.applyLinesDetectRule(imgPath, ann, t)
 	case *annotationrule.Segment:
@@ -79,7 +72,7 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *model.Annotation,
 		if _, err := os.Stat(pageImgPath); os.IsNotExist(err) {
 			return nil, fmt.Errorf("page image %s does not exist for annotation %s", pageImgPath, ann.ID)
 		}
-		pageAltoPath := filepath.Join(ann.AltoDir, pagesparser.PageToXMLFilename(page))
+		pageAltoPath := filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
 		if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
 			return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
 		}
@@ -147,11 +140,11 @@ func (a *AnnotationRuleApplier) applySlicePagesRule(ann *model.Annotation, t *an
 	}
 	ann.Pages = t.Pages
 
-	if ann.AltoDir == "" {
+	if !ann.Segmented {
 		return ann, nil
 	}
 
-	des, err := os.ReadDir(ann.AltoDir)
+	des, err := os.ReadDir(a.fileSysMgt.DatasetAnnotationAltoDir(ann))
 	if err != nil {
 		return nil, fmt.Errorf("failed to read alto dir: %w", err)
 	}
@@ -164,17 +157,10 @@ func (a *AnnotationRuleApplier) applySlicePagesRule(ann *model.Annotation, t *an
 			return nil, fmt.Errorf("failed to get page number from filename %s: %w", de.Name(), err)
 		}
 		if !lo.Contains(slicedPages, pageNum) {
-			if err := os.Remove(filepath.Join(ann.AltoDir, de.Name())); err != nil {
+			if err := os.Remove(filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), de.Name())); err != nil {
 				return nil, fmt.Errorf("failed to remove alto file %s: %w", de.Name(), err)
 			}
 		}
-	}
-
-	if ann.YoloDir != "" {
-		if err := os.RemoveAll(ann.YoloDir); err != nil {
-			return nil, fmt.Errorf("failed to remove YOLO dir after slicing pages: %w", err)
-		}
-		ann.YoloDir = ""
 	}
 
 	return ann, nil
@@ -233,7 +219,7 @@ func (a *AnnotationRuleApplier) applyReassignTextLinesByTolerance(af *alto.Alto,
 }
 
 func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *model.Annotation, t *annotationrule.LinesDetect) (*model.Annotation, error) {
-	if err := krakenwrapper.DetectLines(imgPath, ann.AltoDir, t.IncludeCategories, t.IgnoreCategories); err != nil {
+	if err := krakenwrapper.DetectLines(imgPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann), t.IncludeCategories, t.IgnoreCategories); err != nil {
 		return nil, fmt.Errorf("failed to apply lines detect to annotation %s: %w", ann.ID, err)
 	}
 	return ann, nil
@@ -257,21 +243,19 @@ func (a *AnnotationRuleApplier) applySegment(imgPath string, ann *model.Annotati
 	var f func() (<-chan error, error)
 	switch segM.Location {
 	case model.OCRModelLocationLocal:
-		ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.dataDir)
 		f = func() (<-chan error, error) {
 			return krakenwrapper.Recognize(
 				imgPath,
-				ann.AltoDir,
-				segM.LocalPath,
+				a.fileSysMgt.DatasetAnnotationAltoDir(ann),
+				a.fileSysMgt.ModelPath(segM),
 				filenames,
 			)
 		}
 	case model.OCRModelLocationRoboflow:
-		ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.dataDir)
 		f = func() (<-chan error, error) {
 			return roboflow.Recognize(
 				imgPath,
-				ann.AltoDir,
+				a.fileSysMgt.DatasetAnnotationAltoDir(ann),
 				segM.Name,
 				a.roboflowAPIKey,
 				filenames,
@@ -285,5 +269,6 @@ func (a *AnnotationRuleApplier) applySegment(imgPath string, ann *model.Annotati
 	if recErr := <-errCh; recErr != nil {
 		return nil, fmt.Errorf("failed to annotate facsimile: %w", recErr)
 	}
+	ann.Segmented = true
 	return ann, nil
 }

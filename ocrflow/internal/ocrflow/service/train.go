@@ -4,6 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"log"
+	"os"
 	"path"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
@@ -17,14 +18,16 @@ import (
 type Train struct {
 	annotationSvc *Annotation
 	modelSvc      *Model
+	fileSysMgt    *store.FileSystemManager
 	trainingDir   string
 	m             map[string]*model.Training
 }
 
-func NewTrainService(annotationSvc *Annotation, modelSvc *Model, trainingDir string) *Train {
+func NewTrainService(annotationSvc *Annotation, modelSvc *Model, fileSystemMgt *store.FileSystemManager, trainingDir string) *Train {
 	return &Train{
 		annotationSvc: annotationSvc,
 		modelSvc:      modelSvc,
+		fileSysMgt:    fileSystemMgt,
 		trainingDir:   trainingDir,
 		m:             make(map[string]*model.Training),
 	}
@@ -36,7 +39,7 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 		if originModel.LocalPath == "" {
 			return nil, errors.New("origin model has no local path")
 		}
-		originModelLocalPath = originModel.LocalPath
+		originModelLocalPath = tm.fileSysMgt.ModelPath(t.OriginModel)
 	}
 
 	// todo: support multiple annotation sets merging
@@ -50,11 +53,12 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 		if err != nil {
 			return nil, err
 		}
-		if annSet.YoloDir == "" {
-			// todo: convert alto to yolo here...
-			return nil, errors.New("annotation set has no YOLO data")
+
+		if _, err := os.Stat(tm.fileSysMgt.DatasetAnnotationYoloDir(annSet)); err != nil {
+			return nil, fmt.Errorf("annotation set YOLO data not found: %w", err)
 		}
-		datsetPaths = append(datsetPaths, annSet.YoloDir)
+
+		datsetPaths = append(datsetPaths, tm.fileSysMgt.DatasetAnnotationYoloDir(annSet))
 	}
 
 	datsetYmlPath, err := futils.FindFileByExtension(datsetPaths[0], ".yml", ".yaml")
@@ -63,7 +67,7 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 	}
 
 	t.ID = idgen.GenerateID()
-	outputPath := store.TrainingDir(t, tm.trainingDir)
+	outputPath := tm.fileSysMgt.TrainingDir(t)
 	errCh, err := krakenwrapper.TrainYOLOModel(originModelLocalPath, datsetYmlPath, outputPath)
 	if err != nil {
 		return nil, err
@@ -104,7 +108,7 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 			Meta:            model.NewMeta(idgen.GenerateID()).WithName(t.Name).WithDescription(t.Description),
 			// todo Categories...
 		}
-		if err := tm.modelSvc.Upsert(m, path.Join(oPath, "weights", "best.pt")); err != nil {
+		if err := tm.modelSvc.Create(m, path.Join(oPath, "weights", "best.pt")); err != nil {
 			log.Printf("failed to upsert trained model %s: %v", toUpdate.ID, err)
 			return
 		}

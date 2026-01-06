@@ -8,31 +8,34 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
 
 type AssetGen struct {
-	Dataset       *Dataset
-	AnnotationTEI *AnnotationTEI
-	Annotation    *Annotation
+	dataset       *Dataset
+	annotationTEI *AnnotationTEI
+	annotation    *Annotation
+	fileSysMgt    *store.FileSystemManager
 }
 
-func NewAssetGen(dataset *Dataset, annotationTEI *AnnotationTEI, annotation *Annotation) *AssetGen {
+func NewAssetGen(dataset *Dataset, annotationTEI *AnnotationTEI, annotation *Annotation, fileSysMgt *store.FileSystemManager) *AssetGen {
 	return &AssetGen{
-		Dataset:       dataset,
-		AnnotationTEI: annotationTEI,
-		Annotation:    annotation,
+		dataset:       dataset,
+		annotationTEI: annotationTEI,
+		annotation:    annotation,
+		fileSysMgt:    fileSysMgt,
 	}
 }
 
 func (ag *AssetGen) GenerateAssets(datasetId, annotationId string, pages []int) (zipPath string, err error) {
-	ds, err := ag.Dataset.Get(datasetId)
+	ds, err := ag.dataset.Get(datasetId)
 	if err != nil {
 		return "", err
 	}
 
-	ann, err := ag.Annotation.Get(datasetId, annotationId)
+	ann, err := ag.annotation.Get(datasetId, annotationId)
 	if err != nil {
 		return "", err
 	}
@@ -72,7 +75,7 @@ func (ag *AssetGen) generateAssetsForPages(ds *model.Dataset, datasetId, annotat
 	}
 
 	for _, pageNum := range pages {
-		tei, err := ag.AnnotationTEI.GetTEI(datasetId, annotationId, fmt.Sprintf("%d", pageNum))
+		tei, err := ag.annotationTEI.GetTEI(datasetId, annotationId, fmt.Sprintf("%d", pageNum))
 		if err != nil {
 			return err
 		}
@@ -80,12 +83,12 @@ func (ag *AssetGen) generateAssetsForPages(ds *model.Dataset, datasetId, annotat
 		if err := os.WriteFile(teiOutPath, tei, 0644); err != nil {
 			return err
 		}
-		if err := futils.CopyFile(path.Join(ds.ImagesPath, pagesparser.PageToPNGFilename(pageNum)), path.Join(outDir, "imgs", pagesparser.PageToPNGFilename(pageNum))); err != nil {
+		if err := futils.CopyFile(path.Join(ag.fileSysMgt.DatasetImagesDir(ds), pagesparser.PageToPNGFilename(pageNum)), path.Join(outDir, "imgs", pagesparser.PageToPNGFilename(pageNum))); err != nil {
 			return err
 		}
 	}
 
-	index, err := ag.Annotation.GetAnnotationIndex(datasetId, annotationId, nil)
+	index, err := ag.annotation.GetAnnotationIndex(datasetId, annotationId, nil)
 	if err != nil {
 		return err
 	}

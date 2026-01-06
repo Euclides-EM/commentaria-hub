@@ -74,71 +74,81 @@ func (a *ApplyRules) UnmarshalJSON(data []byte) error {
 	a.Rules = make([]AnnotationRule, 0, len(raw.Rules))
 
 	for _, r := range raw.Rules {
-		// Peek at the "type" field
-		var base Base
-		if err := json.Unmarshal(r, &base); err != nil {
-			return fmt.Errorf("read rule type: %w", err)
+		rule, err := UnmarshalRuleJSON(r)
+		if err != nil {
+			return err
 		}
-
-		var rule AnnotationRule
-		switch base.Type {
-		case TypeSlicePages:
-			var v SlicePages
-			if err := json.Unmarshal(r, &v); err != nil {
-				return fmt.Errorf("unmarshal slice_pages rule: %w", err)
-			}
-			rule = &v
-
-		case TypeStretch:
-			var v Stretch
-			if err := json.Unmarshal(r, &v); err != nil {
-				return fmt.Errorf("unmarshal stretch rule: %w", err)
-			}
-			rule = &v
-
-		case TypeAddMargin:
-			var v AddMargin
-			if err := json.Unmarshal(r, &v); err != nil {
-				return fmt.Errorf("unmarshal add_margin rule: %w", err)
-			}
-			rule = &v
-
-		case TypeLinesDetect:
-			var v LinesDetect
-			if err := json.Unmarshal(r, &v); err != nil {
-				return fmt.Errorf("unmarshal lines_detect rule: %w", err)
-			}
-			rule = &v
-		case TypeSegment:
-			var v Segment
-			if err := json.Unmarshal(r, &v); err != nil {
-				return fmt.Errorf("unmarshal segment rule: %w", err)
-			}
-			rule = &v
-		case TypeRemoveCategories:
-			var v RemoveCategories
-			if err := json.Unmarshal(r, &v); err != nil {
-				return fmt.Errorf("unmarshal remove_categories rule: %w", err)
-			}
-			rule = &v
-		case TypeRemoveOverlap:
-			var v RemoveOverlap
-			if err := json.Unmarshal(r, &v); err != nil {
-				return fmt.Errorf("unmarshal remove_overlap rule: %w", err)
-			}
-			rule = &v
-		case TypeReassignTextLinesByTolerance:
-			var v ReassignTextLinesByTolerance
-			if err := json.Unmarshal(r, &v); err != nil {
-				return fmt.Errorf("unmarshal reassign_text_lines_by_tolerance rule: %w", err)
-			}
-			rule = &v
-		default:
-			return fmt.Errorf("unknown annotation rule type %q", base.Type)
-		}
-
 		a.Rules = append(a.Rules, rule)
 	}
 
 	return nil
+}
+
+func UnmarshalRuleJSON(data []byte) (AnnotationRule, error) {
+	// Peek at the "type" field
+	var base Base
+	if err := json.Unmarshal(data, &base); err != nil {
+		return nil, fmt.Errorf("read rule type: %w", err)
+	}
+
+	switch base.Type {
+	case TypeSlicePages:
+		var v SlicePages
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal slice_pages rule: %w", err)
+		}
+		return &v, nil
+
+	case TypeStretch:
+		var v Stretch
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal stretch rule: %w", err)
+		}
+		return &v, nil
+
+	case TypeAddMargin:
+		var v AddMargin
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal add_margin rule: %w", err)
+		}
+		return &v, nil
+
+	case TypeLinesDetect:
+		var v LinesDetect
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal lines_detect rule: %w", err)
+		}
+		return &v, nil
+
+	case TypeSegment:
+		var v Segment
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal segment rule: %w", err)
+		}
+		return &v, nil
+
+	case TypeRemoveCategories:
+		var v RemoveCategories
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal remove_categories rule: %w", err)
+		}
+		return &v, nil
+
+	case TypeRemoveOverlap:
+		var v RemoveOverlap
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal remove_overlap rule: %w", err)
+		}
+		return &v, nil
+
+	case TypeReassignTextLinesByTolerance:
+		var v ReassignTextLinesByTolerance
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal reassign_text_lines_by_tolerance rule: %w", err)
+		}
+		return &v, nil
+
+	default:
+		return nil, fmt.Errorf("unknown annotation rule type %q", base.Type)
+	}
 }

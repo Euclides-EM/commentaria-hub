@@ -14,79 +14,38 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
-	"github.com/samber/lo"
 )
 
 type Dataset struct {
-	m                map[string]*model.Dataset
-	githubDownloader *ghwrapper.Downloader
 	editionSvc       *Edition
-	dataDir          string
+	datasetStore     *store.DatasetSQL
+	fileSysMgt       *store.FileSystemManager
+	githubDownloader *ghwrapper.Downloader
 }
 
-func NewDatasetService(githubDownloader *ghwrapper.Downloader, editionSvc *Edition, dataDir string) *Dataset {
+func NewDatasetService(editionSvc *Edition, datasetStore *store.DatasetSQL, fileSystemMgt *store.FileSystemManager, githubDownloader *ghwrapper.Downloader) *Dataset {
 	return &Dataset{
-		m: map[string]*model.Dataset{
-			// No deskewing
-			"rrpbnk": {
-				Meta:        model.NewMeta("rrpbnk").WithDescription("Dataset without deskewing applied"),
-				FacsimileID: "2",
-				EditionID:   "Paris_1615",
-				PDFPath:     "store/data/rrpbnk/Paris_1615_1.pdf",
-				ImagesPath:  "store/data/rrpbnk/imgs",
-				DPI:         300.0,
-			},
-			// After deskewing
-			"uk5wbj": {
-				Meta:        model.NewMeta("uk5wbj").WithDescription("Dataset with deskewing applied"),
-				FacsimileID: "1",
-				EditionID:   "Paris_1615",
-				PDFPath:     "store/data/uk5wbj/Paris_1615_1.pdf",
-				ImagesPath:  "store/data/uk5wbj/imgs",
-				DPI:         300.0,
-			},
-			"aiqcec": {
-				Meta:        model.NewMeta("aiqcec"),
-				FacsimileID: "1",
-				EditionID:   "London_1570",
-				PDFPath:     "store/data/aiqcec/London_1570_1.pdf",
-				ImagesPath:  "store/data/aiqcec/imgs",
-				DPI:         300.0,
-			},
-			"nu3e82": {
-				Meta:        model.NewMeta("nu3e82").WithDescription("Dataset without deskewing applied"),
-				FacsimileID: "1",
-				EditionID:   "Paris_1598a",
-				PDFPath:     "store/data/nu3e82/Paris_1598a_1.pdf",
-				ImagesPath:  "store/data/nu3e82/imgs",
-				DPI:         300.0,
-			},
-			"mq9w7q": {
-				Meta:        model.NewMeta("mq9w7q").WithDescription("Dataset with deskewing applied"),
-				FacsimileID: "2",
-				EditionID:   "Paris_1598a",
-				PDFPath:     "store/data/mq9w7q/Paris_1598a_2.pdf",
-				ImagesPath:  "store/data/mq9w7q/imgs",
-				DPI:         300.0,
-			},
-		},
-		githubDownloader: githubDownloader,
 		editionSvc:       editionSvc,
-		dataDir:          dataDir,
+		datasetStore:     datasetStore,
+		fileSysMgt:       fileSystemMgt,
+		githubDownloader: githubDownloader,
 	}
 }
 
 func (d *Dataset) List(filter *querylang.Filter, sort querylang.Sort) ([]*model.Dataset, error) {
 	// todo: add filtering and sorting and make sure to use it in internal uses in this function
-	return lo.Values(d.m), nil
+	return d.datasetStore.ListDatasets()
 }
 
 func (d *Dataset) Get(id string) (*model.Dataset, error) {
-	if ds, ok := d.m[id]; ok {
-		return ds, nil
-	} else {
-		return nil, fmt.Errorf("dataset not found")
+	ds, err := d.datasetStore.GetDataset(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset from store: %w", err)
 	}
+	if ds == nil {
+		return nil, fmt.Errorf("dataset with id %s not found", id)
+	}
+	return ds, nil
 }
 
 func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*model.Dataset, error) {
@@ -116,19 +75,19 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 		}
 	}
 	ds.ID = idgen.GenerateID()
-	ds.PDFPath = store.DatasetPDFPath(ds, d.dataDir)
-	ds.ImagesPath = store.DatasetImagesDir(ds, d.dataDir)
 
 	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
 		ds.DPI = 300.0
 	}
 
-	log.Printf("Downloading facsimile from %s to %s", targetFacsimile.ScanURL, ds.PDFPath)
-	if err := d.githubDownloader.DownloadRecursive(targetFacsimile.ScanURL, ds.PDFPath); err != nil {
+	pdfPath := d.fileSysMgt.DatasetPDFPath(ds)
+	log.Printf("Downloading facsimile from %s to %s", targetFacsimile.ScanURL, pdfPath)
+	if err := d.githubDownloader.DownloadRecursive(targetFacsimile.ScanURL, pdfPath); err != nil {
 		return nil, fmt.Errorf("failed to download facsimile: %w", err)
 	}
 
-	convertedPNGsDir := ds.ImagesPath
+	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
+	convertedPNGsDir := imgPath
 	if !skipDeskew {
 		convertedPNGsDir, err = os.MkdirTemp("", "ocrflow-dataset-rawimgs-*")
 		if err != nil {
@@ -137,20 +96,22 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 		defer os.RemoveAll(convertedPNGsDir)
 	}
 
-	log.Printf("Converting facsimile PDF %s to PNGs in %s", ds.PDFPath, convertedPNGsDir)
-	if err := formatcov.PDF2PNGs(ds.PDFPath, convertedPNGsDir, ds.DPI); err != nil {
+	log.Printf("Converting facsimile PDF %s to PNGs in %s", pdfPath, convertedPNGsDir)
+	if err := formatcov.PDF2PNGs(pdfPath, convertedPNGsDir, ds.DPI); err != nil {
 		return nil, fmt.Errorf("failed to pre-process facsimile: %w", err)
 	}
 
 	if !skipDeskew {
-		log.Printf("Deskewing images from %s into %s", convertedPNGsDir, ds.ImagesPath)
-		if err := formatcov.DeskewPNGs(convertedPNGsDir, ds.ImagesPath); err != nil {
+		log.Printf("Deskewing images from %s into %s", convertedPNGsDir, imgPath)
+		if err := formatcov.DeskewPNGs(convertedPNGsDir, imgPath); err != nil {
 			return nil, fmt.Errorf("failed to deskew images: %w", err)
 		}
 	}
 
 	log.Printf("Dataset %s fully created", ds.ID)
-	d.m[ds.ID] = ds
+	if err := d.datasetStore.InsertDataset(ds); err != nil {
+		return nil, fmt.Errorf("failed to insert dataset into store: %w", err)
+	}
 	return ds, nil
 }
 
@@ -179,11 +140,12 @@ func (d *Dataset) GetPageImage(datasetID string, page int) ([]byte, error) {
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
+	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
 	filename := pagesparser.PageToPNGFilename(page)
-	if _, err := os.Stat(path.Join(ds.ImagesPath, filename)); err != nil {
+	if _, err := os.Stat(path.Join(imgPath, filename)); err != nil {
 		return nil, fmt.Errorf("no such file %s in existing dataset", filename)
 	}
-	data, err := os.ReadFile(path.Join(ds.ImagesPath, filename))
+	data, err := os.ReadFile(path.Join(imgPath, filename))
 	if err != nil {
 		return nil, fmt.Errorf("failed to read page image file: %w", err)
 	}

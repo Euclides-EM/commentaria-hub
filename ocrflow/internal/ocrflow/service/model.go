@@ -3,220 +3,58 @@ package service
 import (
 	"errors"
 	"fmt"
-	"path"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/tiendc/go-deepcopy"
 )
 
 type Model struct {
-	m         map[string]*model.Model
-	modelsDir string
+	modelStore *store.ModelSQL
+	fileSysMgt *store.FileSystemManager
 }
 
-func NewModelService(modelsDir string) *Model {
+func NewModelService(modelStore *store.ModelSQL, fileSysMgt *store.FileSystemManager) *Model {
 	return &Model{
-		m: map[string]*model.Model{
-			"paris1615trained_2811": {
-				Meta:      model.NewMeta("paris1615trained_2811"),
-				LocalPath: path.Join(modelsDir, "paris1615trained_2811.pt"),
-				Type:      model.OCRModelTypeOCR,
-				Location:  model.OCRModelLocationLocal,
-			},
-			"CapricciosaM": {
-				Meta: model.NewMeta("CapricciosaM").WithDescription("The YALTAi CapricciosaM model, without any fine tuning, downloaded from " +
-					"https://zenodo.org/records/10972956/files/CapricciosaM.pt"),
-				LocalPath: path.Join(modelsDir, "CapricciosaM.pt"),
-				Type:      model.OCRModelTypeSegment,
-				Location:  model.OCRModelLocationLocal,
-			},
-			"1570FineTuned_0312": {
-				Meta: model.NewMeta("1570FineTuned_0312").WithDescription("CapricciosaM fine tuned on 50 pages from London 1570. " +
-					"Annotations in https://app.roboflow.com/mia-workplace/1570-english/2"),
-				LocalPath: path.Join(modelsDir, "1570FineTunedCapricciosaM_0312.pt"),
-				Type:      model.OCRModelTypeSegment,
-				Location:  model.OCRModelLocationLocal,
-			},
-			// Fine-tuned model based on:
-			// The CapricciosaM model, further fine-tuned on pages from the Paris 1615 facsimile
-			// Annotations in https://app.roboflow.com/mia-workplace/0212-xcfg/2
-			"1615FineTunedCapricciosaM_0312": {
-				Meta: model.NewMeta("1615FineTunedCapricciosaM_0312").WithDescription("CapricciosaM fine tuned on 50 pages from Paris 1615. " +
-					"Annotations in https://app.roboflow.com/mia-workplace/0212-xcfg/2"),
-				LocalPath: path.Join(modelsDir, "1615FineTunedCapricciosaM_0312.pt"),
-				Type:      model.OCRModelTypeSegment,
-				Location:  model.OCRModelLocationLocal,
-			},
-			"1615FineTunedCapricciosaM_0812": {
-				Meta: model.NewMeta("1615FineTunedCapricciosaM_0812").WithDescription("CapricciosaM fine tuned on 50 pages from Paris 1615. " +
-					"It is based on pages that were automatically segmented with 1615FineTunedCapricciosaM_0312, " +
-					"and then multiple rules were applied on then, to fix various segmentation issues. " +
-					"The full specification is noted in the annotation ID ucxw7g. " +
-					"Then, the corrected annotations were manually corrected further in the Roboflow platform."),
-				LocalPath: path.Join(modelsDir, "1615FineTunedCapricciosaM_0812.pt"),
-				Type:      model.OCRModelTypeSegment,
-				Location:  model.OCRModelLocationLocal,
-			},
-			"1598FineTuned16150312_0101": {
-				Meta: model.NewMeta("1598FineTuned16150312_0101").WithDescription("1615FineTunedCapricciosaM_0312 fine tuned on 20 pages from Paris 1598a. " +
-					"The dataset was de-skewed before 1615FineTunedCapricciosaM_0312 was applied to it. " +
-					"After applying the segmentation, I also did some post processing: \n" +
-					"(1) Remove categories: \"MainZone-P--Italics\", \"MainZone-P--Enunciation\", \"MainZone-P\"\n" +
-					"(2) Remove overlap with 1000 precision: \"DigitizationArtefactZone\", \"GraphicZone-Decoration\", \"GraphicZone-Diagram\", \"MainZone\", \"MainZone-Head--Book\", \"MainZone-Head--Section\", \"NumberingZone\", \"QuireMarksZone\", \"RunningTitleZone\"\n" +
-					"When I annotated in Roboflow, I further added a new category, that was not in the original model: \"DropCapitalZone-Plane\". " +
-					"This category was used for drop capitals that were not decorated. \n" +
-					"The ground truth annotations ID ht01bz"),
-				LocalPath: path.Join(modelsDir, "1598FineTuned16150312_0101.pt"),
-				Type:      model.OCRModelTypeSegment,
-				Location:  model.OCRModelLocationLocal,
-			},
-			"Gallicorpor": {
-				Meta:      model.NewMeta("Gallicorpor").WithName("Gallicorpor"),
-				LocalPath: path.Join(modelsDir, "Gallicorpor.mlmodel"),
-				Type:      model.OCRModelTypeOCR,
-				Location:  model.OCRModelLocationLocal,
-			},
-			"1615FineTunedGallicorpor_0301": {
-				Meta: model.NewMeta("1615FineTunedGallicorpor_0301").
-					WithName("1615FineTunedGallicorpor_0301").WithDescription("Gallicorpor fine tuned on 10 pages from Paris 1615. " +
-					"Annotations in..."),
-				LocalPath: path.Join(modelsDir, "1615FineTunedGallicorpor_0301.mlmodel"),
-				Type:      model.OCRModelTypeOCR,
-				Location:  model.OCRModelLocationLocal,
-			},
-			"Paris1615NoContinuedPNoMainZone3": {
-				Meta:            model.NewMeta("Paris1615NoContinuedPNoMainZone3").WithName("paris-1615-nocontinuedpnomainzone-dbxgq/3"),
-				Type:            model.OCRModelTypeSegment,
-				Location:        model.OCRModelLocationRoboflow,
-				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-			},
-			"Paris1615PolygonsAndMainZone": {
-				Meta:            model.NewMeta("Paris1615PolygonsAndMainZone").WithName("paris-1615-polygonswithmz-wsrge/1"),
-				Type:            model.OCRModelTypeSegment,
-				Location:        model.OCRModelLocationRoboflow,
-				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-			},
-			"Paris1615NoMainZoneSubtypes": {
-				Meta:            model.NewMeta("Paris1615NoMainZoneSubtypes").WithName("paris-1615-withmznosubtypes-tkgii/1"),
-				Type:            model.OCRModelTypeSegment,
-				Location:        model.OCRModelLocationRoboflow,
-				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-			},
-			// With a main zone, subtypes, based on the data set after skewing
-			"0212-xcfg/2": {
-				Meta:            model.NewMeta("0212-xcfg-2").WithName("0212-xcfg/2"),
-				Type:            model.OCRModelTypeSegment,
-				Location:        model.OCRModelLocationRoboflow,
-				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-			},
-			// Model trained on London 1570 facsimile, with main zone and heading (no additional subtypes)
-			// Can be found here: https://app.roboflow.com/mia-workplace/1570-english/models/1570-english/2
-			"1570-english/2": {
-				Meta:            model.NewMeta("1570-english-2").WithName("1570-english/2"),
-				Type:            model.OCRModelTypeSegment,
-				Location:        model.OCRModelLocationRoboflow,
-				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-			},
-			"segmontoRB": {
-				Meta:            model.NewMeta("segmontoRB").WithName("segmonto/31"),
-				Type:            model.OCRModelTypeSegment,
-				Location:        model.OCRModelLocationRoboflow,
-				AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-				Categories: []string{
-					"AdvertisementZone",
-					"DigitizationArtefactZone",
-					"DropCapitalZone",
-					"FigureZone",
-					"FigureZone-FigDesc",
-					"FigureZone-Head",
-					"FormZone",
-					"GraphicZone",
-					"GraphicZone-Decoration",
-					"GraphicZone-FigDesc",
-					"GraphicZone-Head",
-					"GraphicZone-Maths",
-					"GraphicZone-Part",
-					"GraphicZone-TextualContent",
-					"MainZone-Continued",
-					"MainZone-Date",
-					"MainZone-Entry",
-					"MainZone-Entry-Continued",
-					"MainZone-Head",
-					"MainZone-Lg",
-					"MainZone-Lg-Continued",
-					"MainZone-List-Continued",
-					"MainZone-ListItem",
-					"MainZone-Maths",
-					"MainZone-Other",
-					"MainZone-P",
-					"MainZone-P-Continued",
-					"MainZone-Signature",
-					"MainZone-Sp",
-					"MainZone-Sp-Continued",
-					"MarginTextZone-ContinuedNotes",
-					"MarginTextZone-ManuscriptAddendum",
-					"MarginTextZone-Notes",
-					"MarginTextZone-Notes-Continued",
-					"MusicZone",
-					"NumberingZone",
-					"PageTitleZone",
-					"PageTitleZone-Index",
-					"QuireMarksZone",
-					"RunningTitleZone",
-					"StampZone",
-					"StampZone-Sticker",
-					"TableZone",
-					"TableZone-Continued",
-					"TableZone-Head",
-					"TitlePageZone",
-					"TitlePageZone-Index",
-				},
-			},
-		},
+		modelStore: modelStore,
+		fileSysMgt: fileSysMgt,
 	}
 }
 
 func (m *Model) List() ([]*model.Model, error) {
-	modelsList := make([]*model.Model, 0, len(m.m))
-	for _, retrieved := range m.m {
-		var dst *model.Model
-		if err := deepcopy.Copy(&dst, &retrieved); err != nil {
-			return nil, fmt.Errorf("failed to copy annotation: %w", err)
-		}
-		modelsList = append(modelsList, dst)
+	modelsList, err := m.modelStore.ListModels()
+	if err != nil {
+		return nil, fmt.Errorf("failed to list models from store: %w", err)
 	}
 	return modelsList, nil
 }
 
 func (m *Model) Get(id string) (*model.Model, error) {
-	retrieved, ok := m.m[id]
-	if !ok {
+	retrieved, err := m.modelStore.GetModelByID(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get model from store: %w", err)
+	}
+	if retrieved == nil {
 		return nil, errors.New("model not found")
 	}
-	var dst *model.Model
-	if err := deepcopy.Copy(&dst, &retrieved); err != nil {
-		return nil, fmt.Errorf("failed to copy annotation: %w", err)
-	}
-	return dst, nil
+	return retrieved, nil
 }
 
-func (m *Model) Upsert(mo *model.Model, modelPath string) error {
+func (m *Model) Create(mo *model.Model, modelPath string) error {
 	var n *model.Model
 	if err := deepcopy.Copy(&n, &mo); err != nil {
 		return fmt.Errorf("failed to copy annotation: %w", err)
 	}
 	n.ID = idgen.GenerateID()
 	n.Location = model.OCRModelLocationLocal
-	n.LocalPath = path.Join(m.modelsDir, fmt.Sprintf("%s.pt", n.ID))
-	if err := futils.CopyFile(modelPath, n.LocalPath); err != nil {
-		return fmt.Errorf("failed to copy model from %s to %s: %w", modelPath, n.LocalPath, err)
+	n.LocalPath = fmt.Sprintf("%s.pt", n.ID)
+	if err := futils.CopyFile(modelPath, m.fileSysMgt.ModelPath(n)); err != nil {
+		return fmt.Errorf("failed to copy model from %s to %s: %w", modelPath, m.fileSysMgt.ModelPath(n), err)
 	}
-	var dst *model.Model
-	if err := deepcopy.Copy(&dst, &n); err != nil {
-		return fmt.Errorf("failed to copy annotation: %w", err)
+	if err := m.modelStore.InsertModel(n); err != nil {
+		return fmt.Errorf("failed to upsert model to store: %w", err)
 	}
-	m.m[n.ID] = dst
 	return nil
 }

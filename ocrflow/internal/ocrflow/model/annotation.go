@@ -7,8 +7,7 @@ import (
 type Annotation struct {
 	Meta               `json:",inline"`
 	Pages              string                          `json:"pages"`
-	AltoDir            string                          `json:"alto_dir" readonly:"true"`
-	YoloDir            string                          `json:"yolo_dir" readonly:"true"`
+	Segmented          bool                            `json:"segmented" readonly:"true"`
 	DatasetID          string                          `json:"dataset_id" readonly:"true"`
 	AppliedRules       []annotationrule.AnnotationRule `json:"applied_rules" readonly:"true"`
 	OriginAnnotationID string                          `json:"origin_annotation_id,omitempty" readonly:"true"`

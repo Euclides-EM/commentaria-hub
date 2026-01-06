@@ -4,13 +4,15 @@ import (
 	"database/sql"
 	_ "embed"
 	"fmt"
-	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"os"
 	"path"
 	"slices"
 	"strconv"
 	"strings"
+	"time"
+
+	_ "github.com/mattn/go-sqlite3"
 )
 
 //go:embed schema_mig.sql
@@ -21,12 +23,23 @@ func InitDB(dbPath, migrationsDir string) (*sql.DB, error) {
 		return nil, fmt.Errorf("failed to init DB file: %w", err)
 	}
 
-	db, err := sql.Open("sqlite3", dbPath)
+	dsn := fmt.Sprintf("file:%s?_foreign_keys=on&_busy_timeout=5000", dbPath)
+	db, err := sql.Open("sqlite3", dsn)
 	if err != nil {
 		return nil, fmt.Errorf("failed to open DB: %w", err)
 	}
+	// Verify connection early
+	if err = db.Ping(); err != nil {
+		db.Close()
+		return nil, err
+	}
 
-	if err := migrateDB(db, migrationsDir); err != nil {
+	// Sensible defaults
+	db.SetMaxOpenConns(10)
+	db.SetMaxIdleConns(5)
+	db.SetConnMaxLifetime(30 * time.Minute)
+
+	if err = migrateDB(db, migrationsDir); err != nil {
 		defer db.Close()
 		return nil, fmt.Errorf("failed to migrate DB: %w", err)
 	}

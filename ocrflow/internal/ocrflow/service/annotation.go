@@ -20,283 +20,38 @@ import (
 // todo: add interfaces to all services
 
 type Annotation struct {
-	m           map[string]*model.Annotation
-	datasetSvc  *Dataset
-	ruleApplier *AnnotationRuleApplier
+	datasetSvc      *Dataset
+	ruleApplier     *AnnotationRuleApplier
+	fileSysMgt      *store.FileSystemManager
+	annotationStore *store.AnnotationSQL
 }
 
-func NewAnnotationsService(
-	datasetSvc *Dataset,
-	ruleApplier *AnnotationRuleApplier,
-) *Annotation {
-	annotations := map[string]*model.Annotation{}
-	manuallyAnnotated := map[string]*model.Annotation{
-		// Manually annotated (segmented) ground truth datasets
-
-		// Only one big MainZone, without any subtype like paragraph, enunciation, etc.
-		// In Robolflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-withmznosubtypes-tkgii/1
-		"gog80x": {
-			Meta:      model.NewMeta("gog80x").WithDescription("Manually annotated (ground truth); Only one big MainZone, without any subtype like paragraph, enunciation, etc."),
-			Pages:     "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
-			DatasetID: "rrpbnk",
-			YoloDir:   "store/data/annotations/gog80x/yolo",
-		},
-
-		// Polygons for subtypes like paragraph, enunciation and main zones.
-		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-polygonswithmz-wsrge/1
-		"f0k3ks": {
-			Meta:      model.NewMeta("f0k3ks").WithDescription("Manually annotated (ground truth); Polygons for subtypes like paragraph, enunciation and main zones."),
-			Pages:     "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
-			DatasetID: "rrpbnk",
-			YoloDir:   "store/data/annotations/f0k3ks/yolo",
-		},
-
-		// Includes a big MainZone, in addition to subtypes like paragraph, enunciation, etc.
-		// In some cases, instead of boxes polygons were drawn to better fit the text areas.
-		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1615-polygonswithmz-wsrge/1
-		"idim36": {
-			Meta:      model.NewMeta("idim36").WithDescription("Manually annotated (ground truth); Includes a big MainZone, in addition to subtypes like paragraph, enunciation, etc. In some cases, instead of boxes polygons were drawn to better fit the text areas."),
-			Pages:     "66,160,197,303,497,20,49,91,95-97,148-149,153,183,195-196,255,257,295-297,315,388,395-397,450-465,495-496,508,596,603,624,256,339,387,595,597,609",
-			DatasetID: "rrpbnk",
-			YoloDir:   "store/data/annotations/idim36/yolo",
-		},
-
-		// Manually annotated including a new category for drop capitals.
-		// In Roboflow it's here: https://app.roboflow.com/mia-workplace/paris-1598a-errard/1
-		// Based on the 1615FineTunedCapricciosaM_0312 model.
-		"ht01bz": {
-			Meta: model.NewMeta("ht01bz").WithDescription("Manually segmented (ground truth); " +
-				"I applied the 1615FineTunedCapricciosaM_0312 model, then manually corrected the annotations in Roboflow. " +
-				"I added a new category 'DropCapitalZone-Plane' for drop capitals."),
-			Pages:     "33-34,64,20-21,25-26,35,37,45,53,60,66,69-70,74-77,92,94,103,107,38,50,57,61,104,106",
-			DatasetID: "mq9w7q",
-			AltoDir:   "store/data/mq9w7q/annotations/ht01bz/alto",
-			YoloDir:   "store/data/mq9w7q/annotations/ht01bz/yolo",
-		},
-
-		// Manually annotated (transcribed) ground truth dataset for OCR evaluation
-		"05awr4": {
-			Meta: model.NewMeta("05awr4").WithDescription("Manually transcribed (ground truth), using the Galiccorpor OCR model as a base. " +
-				"This transcription is the base of the 1615FineTunedGallicorpor_0301 OCR model."),
-			Pages:     "85,129,246-247,249,443,509,512,515,517",
-			DatasetID: "uk5wbj",
-			AltoDir:   "store/data/uk5wbj/annotations/05awr4/alto",
-		},
-		// Inferred Annotations
-
-		"4s48pk": {
-			Meta:      model.NewMeta("4s48pk").WithDescription("Inferred annotations from Kraken on the same pages as above"),
-			Pages:     "15-655",
-			DatasetID: "uk5wbj",
-			AltoDir:   "store/data/uk5wbj/annotations/4s48pk/alto",
-			AppliedRules: []annotationrule.AnnotationRule{
-				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-			},
-		},
-		"ucxw7g": {
-			Meta: model.NewMeta("ucxw7g").WithDescription("Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers). " +
-				"Based on the YALTAi model (CapricciosaM) after it was fine tuned on manually annotated data (id=f0k3ks). " +
-				"The manual annotations included subtypes like paragraphs and enunciations."),
-			Pages:     "15-320,388-655",
-			DatasetID: "uk5wbj",
-			AltoDir:   "store/data/uk5wbj/annotations/ucxw7g/alto",
-			AppliedRules: []annotationrule.AnnotationRule{
-				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-				annotationrule.NewSlicePagesFixed("15-320,388-655"),
-				annotationrule.NewRemoveCategories([]string{
-					"MainZone-P--Italics",
-					"MainZone-P--Enunciation",
-					"MainZone-P",
-				}),
-				annotationrule.NewRemoveOverlap([]string{
-					"DigitizationArtefactZone",
-					"GraphicZone-Decoration",
-					"GraphicZone-Diagram",
-					"MainZone",
-					"MainZone-Head--Book",
-					"MainZone-Head--Section",
-					"NumberingZone",
-					"QuireMarksZone",
-					"RunningTitleZone",
-				}, 1000),
-				annotationrule.NewLinesDetect(
-					[]string{"MainZone"},
-					[]string{
-						"CatchWord",
-						"DigitizationArtefactZone",
-						"DropCapitalZone",
-						"GraphicZone-Decoration",
-						"GraphicZone-Diagram",
-						"NumberingZone",
-						"QuireMarksZone",
-						"RunningTitleZone",
-					},
-				),
-			},
-		},
-		"7plb84": {
-			Meta:      model.NewMeta("7plb84").WithDescription("Same as ucxw7g, after transcribing with the 1615FineTunedGallicorpor_0301.mlmodel OCR model."),
-			Pages:     "15-320,388-655",
-			DatasetID: "uk5wbj",
-			AltoDir:   "store/data/uk5wbj/annotations/7plb84/alto",
-		},
-		"9yvgi8": {
-			Meta: model.NewMeta("9yvgi8").WithDescription("Inferred annotations from the 1615FineTunedCapricciosaM_0312 model without subtypes of the main zone (except headers AND enunciations). " +
-				"Very similar to the ucxw7g annotation, but here the 'enunciation' subtype is NOT removed."),
-			Pages:     "15-320,388-655",
-			DatasetID: "uk5wbj",
-			AltoDir:   "store/data/uk5wbj/annotations/9yvgi8/alto",
-			AppliedRules: []annotationrule.AnnotationRule{
-				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-				annotationrule.NewSlicePagesFixed("15-320,388-655"),
-				annotationrule.NewRemoveCategories([]string{
-					"MainZone-P--Italics",
-					"MainZone-P",
-				}),
-				annotationrule.NewRemoveOverlap([]string{
-					"DigitizationArtefactZone",
-					"GraphicZone-Decoration",
-					"GraphicZone-Diagram",
-					"MainZone",
-					"MainZone-Head--Book",
-					"MainZone-Head--Section",
-					"NumberingZone",
-					"QuireMarksZone",
-					"RunningTitleZone",
-				}, 1000),
-				annotationrule.NewLinesDetect(
-					[]string{"MainZone"},
-					[]string{
-						"CatchWord",
-						"DigitizationArtefactZone",
-						"DropCapitalZone",
-						"GraphicZone-Decoration",
-						"GraphicZone-Diagram",
-						"NumberingZone",
-						"QuireMarksZone",
-						"RunningTitleZone",
-					},
-				),
-			},
-		},
-		"s0lik6": {
-			Meta:      model.NewMeta("s0lik6").WithDescription("Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, no skewing applied."),
-			Pages:     "9-110",
-			DatasetID: "nu3e82",
-			AltoDir:   "store/data/nu3e82/annotations/s0lik6/alto",
-			AppliedRules: []annotationrule.AnnotationRule{
-				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-				annotationrule.NewSlicePagesFixed("9-110"),
-				annotationrule.NewRemoveCategories([]string{
-					"MainZone-P--Italics",
-					"MainZone-P--Enunciation",
-					"MainZone-P",
-				}),
-				annotationrule.NewRemoveOverlap([]string{
-					"DigitizationArtefactZone",
-					"GraphicZone-Decoration",
-					"GraphicZone-Diagram",
-					"MainZone",
-					"MainZone-Head--Book",
-					"MainZone-Head--Section",
-					"NumberingZone",
-					"QuireMarksZone",
-					"RunningTitleZone",
-				}, 1000),
-			},
-			OriginAnnotationID: "o5iqhv",
-		},
-		"toq5ip": {
-			Meta:      model.NewMeta("toq5ip").WithDescription("Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, after skewing was applied."),
-			Pages:     "9-110",
-			DatasetID: "mq9w7q",
-			AltoDir:   "store/data/mq9w7q/annotations/toq5ip/alto",
-			AppliedRules: []annotationrule.AnnotationRule{
-				annotationrule.NewSlicePagesFixed("9-110"),
-				annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-				annotationrule.NewRemoveCategories([]string{
-					"MainZone-P--Italics",
-					"MainZone-P--Enunciation",
-					"MainZone-P",
-				}),
-				annotationrule.NewRemoveOverlap([]string{
-					"DigitizationArtefactZone",
-					"GraphicZone-Decoration",
-					"GraphicZone-Diagram",
-					"MainZone",
-					"MainZone-Head--Book",
-					"MainZone-Head--Section",
-					"NumberingZone",
-					"QuireMarksZone",
-					"RunningTitleZone",
-				}, 1000),
-			},
-		},
-		"j31d9m": {
-			Meta:      model.NewMeta("j31d9m").WithDescription("Inferred annotations for 1598 Paris edition from the 1598FineTuned16150312_0101 model, after skewing was applied."),
-			Pages:     "9-110",
-			DatasetID: "mq9w7q",
-			AltoDir:   "store/data/mq9w7q/annotations/j31d9m/alto",
-			AppliedRules: []annotationrule.AnnotationRule{
-				annotationrule.NewSlicePagesFixed("9-110"),
-				annotationrule.NewSegment("1598FineTuned16150312_0101"),
-				annotationrule.NewRemoveCategories([]string{
-					"MainZone-P--Italics",
-					"MainZone-P--Enunciation",
-					"MainZone-P",
-				}),
-				annotationrule.NewRemoveOverlap([]string{
-					"DigitizationArtefactZone",
-					"GraphicZone-Decoration",
-					"GraphicZone-Diagram",
-					"MainZone",
-					"MainZone-Head--Book",
-					"MainZone-Head--Section",
-					"NumberingZone",
-					"QuireMarksZone",
-					"RunningTitleZone",
-				}, 1000),
-			},
-		},
-	}
-
-	for k, v := range manuallyAnnotated {
-		annotations[k] = v
-		annotations[k].YoloDir = store.DatasetAnnotationYoloDir(annotations[k], datasetSvc.dataDir)
-	}
-
+func NewAnnotationsService(datasetSvc *Dataset, ruleApplier *AnnotationRuleApplier, fileSysMgt *store.FileSystemManager, annotationStore *store.AnnotationSQL) *Annotation {
 	return &Annotation{
-		m:           annotations,
-		datasetSvc:  datasetSvc,
-		ruleApplier: ruleApplier,
+		datasetSvc:      datasetSvc,
+		ruleApplier:     ruleApplier,
+		fileSysMgt:      fileSysMgt,
+		annotationStore: annotationStore,
 	}
-
 }
 
 func (a *Annotation) ListAnnotations(id string) ([]*model.Annotation, error) {
-	annotations := make([]*model.Annotation, 0)
-	for _, annotation := range a.m {
-		if annotation.DatasetID == id {
-			var dst *model.Annotation
-			if err := deepcopy.Copy(&dst, &annotation); err != nil {
-				return nil, fmt.Errorf("failed to copy annotation: %w", err)
-			}
-			annotations = append(annotations, dst)
-		}
+	annotations, err := a.annotationStore.ListAnnotationsByDatasetID(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
 	return annotations, nil
 }
 
 func (a *Annotation) Get(datasetId, id string) (*model.Annotation, error) {
-	annotation, ok := a.m[id]
-	if !ok || annotation.DatasetID != datasetId {
+	annotation, err := a.annotationStore.GetAnnotation(datasetId, id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
+	}
+	if annotation == nil || annotation.DatasetID != datasetId {
 		return nil, fmt.Errorf("annotation not found")
 	}
-	var dst *model.Annotation
-	if err := deepcopy.Copy(&dst, &annotation); err != nil {
-		return nil, fmt.Errorf("failed to copy annotation: %w", err)
-	}
-	return dst, nil
+	return annotation, nil
 }
 
 func (a *Annotation) Create(datasetID string, ann *model.Annotation) (*model.Annotation, error) {
@@ -305,8 +60,9 @@ func (a *Annotation) Create(datasetID string, ann *model.Annotation) (*model.Ann
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
-	if ds.ImagesPath == "" {
-		return nil, fmt.Errorf("no JPGs path found for dataset")
+	imgPath := a.fileSysMgt.DatasetImagesDir(ds)
+	if _, err := os.Stat(imgPath); os.IsNotExist(err) {
+		return nil, fmt.Errorf("no images found for dataset %s", datasetID)
 	}
 
 	// assign basic fields
@@ -321,17 +77,14 @@ func (a *Annotation) Create(datasetID string, ann *model.Annotation) (*model.Ann
 
 	for _, p := range pages {
 		filename := pagesparser.PageToPNGFilename(p)
-		if _, err := os.Stat(path.Join(ds.ImagesPath, filename)); err != nil {
+		if _, err := os.Stat(path.Join(imgPath, filename)); err != nil {
 			return nil, fmt.Errorf("no such file %s in existing dataset", filename)
 		}
 	}
-
-	var dst *model.Annotation
-	if err := deepcopy.Copy(&dst, &ann); err != nil {
-		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
+		return nil, fmt.Errorf("failed to insert annotation to store: %w", err)
 	}
-	a.m[ann.ID] = dst
-	return a.m[ann.ID], nil
+	return ann, nil
 }
 
 func (a *Annotation) CreateFromZip(datasetID string, format model.AnnotationFormat, save func(dstPath string) error) (*model.Annotation, error) {
@@ -342,40 +95,38 @@ func (a *Annotation) CreateFromZip(datasetID string, format model.AnnotationForm
 	ann := &model.Annotation{
 		Meta:      model.NewMeta(idgen.GenerateID()),
 		DatasetID: datasetID,
+		Segmented: true,
 	}
-	ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.dataDir)
-	dstPath := ann.AltoDir
+	dstPath := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
 	if format == model.AnnotationFormatYolo {
-		dstPath = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.dataDir)
-		ann.YoloDir = dstPath
+		dstPath = a.fileSysMgt.DatasetAnnotationYoloDir(ann)
 	}
 	if err := save(dstPath); err != nil {
 		return nil, fmt.Errorf("failed to store uploaded annotations: %w", err)
 	}
 	if format == model.AnnotationFormatYolo {
-		if err := formatcov.Yolo2Alto(ann.YoloDir, ann.AltoDir); err != nil {
+		if err := formatcov.Yolo2Alto(dstPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
 			return nil, fmt.Errorf("failed to convert YOLO annotations to ALTO: %w", err)
 		}
 	}
 
+	dstPath = a.fileSysMgt.DatasetAnnotationAltoDir(ann)
 	pages, err := store.InferPages(dstPath, format)
 	if err != nil {
 		return nil, fmt.Errorf("failed to infer pages from uploaded annotations: %w", err)
 	}
 	ann.Pages = pagesparser.ToString(pages)
 
-	var dst *model.Annotation
-	if err := deepcopy.Copy(&dst, &ann); err != nil {
-		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
+		return nil, fmt.Errorf("failed to insert annotation to store: %w", err)
 	}
-	a.m[ann.ID] = dst
-	return a.m[ann.ID], nil
+	return ann, nil
 }
 
 func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule.ApplyRules) (*model.Annotation, error) {
-	fromDB, ok := a.m[id]
-	if !ok || fromDB.DatasetID != datasetID {
-		return nil, fmt.Errorf("annotation not found")
+	fromDB, err := a.annotationStore.GetAnnotation(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
 	}
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
@@ -389,44 +140,29 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 
 	if aar.Action == annotationrule.ApplyRulesActionCreateNew {
 		ann.ID = idgen.GenerateID()
-		if fromDB.AltoDir != "" {
-			ann.AltoDir = store.DatasetAnnotationAltoDir(ann, a.datasetSvc.dataDir)
-			if err := futils.CopyDir(store.DatasetAnnotationAltoDir(fromDB, a.datasetSvc.dataDir), ann.AltoDir); err != nil {
+		if fromDB.Segmented {
+			if err := futils.CopyDir(a.fileSysMgt.DatasetAnnotationAltoDir(fromDB), a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
 				return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
 			}
 		}
-		if fromDB.YoloDir != "" {
-			if _, err := os.Stat(fromDB.YoloDir); err != nil && !os.IsNotExist(err) {
-				return nil, fmt.Errorf("failed to check YOLO annotations for new annotation: %w", err)
-			} else if err == nil {
-				ann.YoloDir = store.DatasetAnnotationYoloDir(ann, a.datasetSvc.dataDir)
-				if err := futils.CopyDir(store.DatasetAnnotationYoloDir(fromDB, a.datasetSvc.dataDir), ann.YoloDir); err != nil {
-					return nil, fmt.Errorf("failed to copy YOLO annotations for new annotation: %w", err)
-				}
-			}
-		}
 		ann.OriginAnnotationID = id
-		var dst2 *model.Annotation
-		if err := deepcopy.Copy(&dst2, &ann); err != nil {
-			return nil, fmt.Errorf("failed to copy annotation: %w", err)
+		if err := a.annotationStore.InsertAnnotation(ann); err != nil {
+			return nil, fmt.Errorf("failed to insert new annotation to store: %w", err)
 		}
-		a.m[ann.ID] = dst2
 	}
 
 	// apply rules...
-	if err := a.ruleApplier.ApplyRules(ds.ImagesPath, ann, aar.Rules); err != nil {
+	if err := a.ruleApplier.ApplyRules(a.fileSysMgt.DatasetImagesDir(ds), ann, aar.Rules); err != nil {
 		return nil, fmt.Errorf("failed to apply annotation rules: %w", err)
 	}
 
 	ann.AppliedRules = append(ann.AppliedRules, aar.Rules...)
 
-	var dst2 *model.Annotation
-	if err := deepcopy.Copy(&dst2, &ann); err != nil {
-		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	if err := a.annotationStore.UpdateAnnotation(ann); err != nil {
+		return nil, fmt.Errorf("failed to update annotation in store: %w", err)
 	}
-	a.m[ann.ID] = dst2
 
-	return a.m[ann.ID], nil
+	return ann, nil
 }
 
 func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []string) (*model.AnnotationIndex, error) {
@@ -434,7 +170,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
-	if ann.AltoDir == "" {
+	if !ann.Segmented {
 		return nil, fmt.Errorf("no ALTO directory found for annotation %s", ann.ID)
 	}
 	pages, err := pagesparser.Parse(ann.Pages)
@@ -451,7 +187,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	allLocs := make([]categoryPageContent, 0)
 
 	for _, page := range pages {
-		pageAltoPath := filepath.Join(ann.AltoDir, pagesparser.PageToXMLFilename(page))
+		pageAltoPath := filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
 		if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
 			return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
 		}

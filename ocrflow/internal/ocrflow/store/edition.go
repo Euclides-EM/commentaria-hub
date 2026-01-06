@@ -9,11 +9,11 @@ import (
 )
 
 type EditionSQL struct {
-	Base BaseSQL
+	BaseSQL
 }
 
 func (s *EditionSQL) ListEditions() ([]*model.Edition, error) {
-	rows, err := s.Base.DB.Query(`
+	rows, err := s.db.Query(`
 		SELECT id, name, description, created_at, updated_at
 		FROM editions
 	`)
@@ -48,7 +48,7 @@ func (s *EditionSQL) ListEditions() ([]*model.Edition, error) {
 func (s *EditionSQL) GetEditionByID(id string) (*model.Edition, error) {
 	e := &model.Edition{}
 
-	err := s.Base.DB.QueryRow(`
+	err := s.db.QueryRow(`
 		SELECT id, name, description, created_at, updated_at
 		FROM editions
 		WHERE id = ?
@@ -76,7 +76,7 @@ func (s *EditionSQL) InsertEdition(edition *model.Edition) error {
 	edition.CreatedAt = now
 	edition.UpdatedAt = now
 
-	_, err := s.Base.DB.Exec(`
+	_, err := s.db.Exec(`
 		INSERT INTO editions (id, name, description, created_at, updated_at)
 		VALUES (?, ?, ?, ?, ?)
 	`,
@@ -93,7 +93,7 @@ func (s *EditionSQL) InsertEdition(edition *model.Edition) error {
 func (s *EditionSQL) UpdateEdition(edition *model.Edition) error {
 	edition.UpdatedAt = time.Now().UTC()
 
-	_, err := s.Base.DB.Exec(`
+	_, err := s.db.Exec(`
 		UPDATE editions
 		SET name = ?, description = ?, updated_at = ?
 		WHERE id = ?
@@ -109,6 +109,6 @@ func (s *EditionSQL) UpdateEdition(edition *model.Edition) error {
 
 func NewEditionSQL(db *sql.DB) *EditionSQL {
 	return &EditionSQL{
-		Base: BaseSQL{DB: db},
+		BaseSQL{db: db},
 	}
 }

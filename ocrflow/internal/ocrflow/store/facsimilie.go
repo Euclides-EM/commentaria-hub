@@ -7,11 +7,11 @@ import (
 )
 
 type FacsimileSQL struct {
-	Base BaseSQL
+	BaseSQL
 }
 
 func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*model.Facsimile, error) {
-	rows, err := s.Base.DB.Query(`
+	rows, err := s.db.Query(`
 		SELECT id, url, created_at, updated_at, name, description
 		FROM facsimiles
 		WHERE edition_id = ?
@@ -48,7 +48,7 @@ func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*model.Fac
 func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (*model.Facsimile, error) {
 	f := &model.Facsimile{}
 
-	err := s.Base.DB.QueryRow(`
+	err := s.db.QueryRow(`
 		SELECT id, url, created_at, updated_at, name, description
 		FROM facsimiles
 		WHERE edition_id = ? AND id = ?
@@ -72,6 +72,6 @@ func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (
 
 func NewFacsimileSql(db *sql.DB) *FacsimileSQL {
 	return &FacsimileSQL{
-		Base: BaseSQL{DB: db},
+		BaseSQL{db: db},
 	}
 }
