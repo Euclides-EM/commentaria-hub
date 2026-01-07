@@ -68,14 +68,29 @@ func ConvertALTOToTEI(a *alto.Alto, opts ALTOToTEIOptions) ([]byte, error) {
 			writeString(w, `      <p>`)
 			for _, ln := range para {
 				lbID := xml.SanitizeXMLID(ln.LineID)
-
 				if lbID != "" {
 					writeString(w, fmt.Sprintf(`<lb xml:id="%s"/>`, xmlEscapeAttr(lbID)))
 				} else {
 					writeString(w, `<lb/>`)
 				}
 
-				writeString(w, xmlEscapeText(ln.Text))
+				for ti, tok := range ln.Strings {
+					if ti > 0 {
+						writeString(w, " ")
+					}
+
+					writeString(w, fmt.Sprintf(`<seg>`))
+					writeString(w, xmlEscapeText(tok.Content))
+
+					if tok.WC > 0 {
+						writeString(w, fmt.Sprintf(
+							`<certainty locus="content" degree="%.3f"/>`,
+							math.Max(math.Min(tok.WC, 1.0), 0.0),
+						))
+					}
+
+					writeString(w, `</seg>`)
+				}
 			}
 			writeString(w, `</p>`+"\n")
 		}
@@ -94,23 +109,31 @@ func flattenLines(p *alto.Page) []alto.Line {
 
 	for _, b := range p.PrintSpace.TextBlocks {
 		for _, tl := range b.Lines {
-			txt := joinStrings(tl.Strings)
-			txt = normalizeSpaces(txt)
+			toks := make([]alto.AltoString, 0, len(tl.Strings))
+			for _, s := range tl.Strings {
+				txt := normalizeSpaces(s.Content)
+				if txt == "" {
+					continue
+				}
+				toks = append(toks, alto.AltoString{
+					Content: txt,
+					WC:      s.WC,
+				})
+			}
 
 			out = append(out, alto.Line{
-				BlockID:  b.ID,
-				TagRefs:  b.TagRefs,
-				HPOS:     tl.HPOS,
-				VPOS:     tl.VPOS,
-				Height:   tl.Height,
-				Text:     txt,
-				LineID:   tl.ID,
-				BlockVP:  float64(b.VPOS),
-				BlockHP:  float64(b.HPOS),
-				BlockHgt: float64(b.Height),
+				LineID:  tl.ID,
+				Strings: toks,
+				HPOS:    tl.HPOS,
+				VPOS:    tl.VPOS,
+				Height:  tl.Height,
+				BlockID: b.ID,
+				BlockVP: float64(b.VPOS),
+				BlockHP: float64(b.HPOS),
 			})
 		}
 	}
+
 	return out
 }
 
@@ -150,7 +173,7 @@ func groupIntoParas(lines []alto.Line, paraGap float64, keepEmpty bool) [][]alto
 		if !keepEmpty {
 			allEmpty := true
 			for _, ln := range cur {
-				if strings.TrimSpace(ln.Text) != "" {
+				if strings.TrimSpace(ln.Text()) != "" {
 					allEmpty = false
 					break
 				}
@@ -167,7 +190,7 @@ func groupIntoParas(lines []alto.Line, paraGap float64, keepEmpty bool) [][]alto
 	var prev *alto.Line
 	for i := range lines {
 		ln := lines[i]
-		if !keepEmpty && strings.TrimSpace(ln.Text) == "" {
+		if !keepEmpty && strings.TrimSpace(ln.Text()) == "" {
 			continue
 		}
 

@@ -372,3 +372,18 @@ select option:disabled {
     color: #999;
     background: #f7f7f7;
 }
+
+.certCtl {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 6px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.certCtl input[type="range"] {
+    width: 160px;
+}
+

@@ -77,12 +77,20 @@ type Line struct {
 	TagRefs  string
 	HPOS     float64
 	VPOS     float64
+	Strings  []AltoString
 	Height   float64
-	Text     string
 	LineID   string
 	BlockVP  float64
 	BlockHP  float64
 	BlockHgt float64
+}
+
+func (s *Line) Text() string {
+	text := ""
+	for _, str := range s.Strings {
+		text += str.Content
+	}
+	return text
 }
 
 type Description struct {

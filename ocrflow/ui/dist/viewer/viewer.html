@@ -106,6 +106,19 @@
                         <div class="teiSourceTools hidden" id="teiSourceTools">
                             <button id="renderBtn" class="btn" type="button">Render</button>
                         </div>
+
+                        <div class="certCtl" title="Hide tokens below certainty threshold">
+                            <label for="minCert" class="hint">Min certainty</label>
+                            <input
+                                    id="minCert"
+                                    type="range"
+                                    min="0.800"
+                                    max="1.000"
+                                    step="0.001"
+                                    value="0.800"
+                            />
+                            <span id="minCertVal" class="hint mono">0.800</span>
+                        </div>
                     </div>
 
                     <textarea id="teiInput" class="teiInput hidden" spellcheck="false" placeholder="TEI XML…"></textarea>

@@ -18,12 +18,27 @@ document.addEventListener("DOMContentLoaded", async () => {
     wireSidebarToggle(els.toggleIndexBtn);
 
     // TEI rendering helpers
-    const doRender = () =>
+    const getMinCert = () => {
+        const v = parseFloat(els.minCert?.value || "0.8");
+        return Number.isFinite(v) ? v : 0.8;
+    };
+
+    const updateMinCertUI = () => {
+        if (els.minCertVal) {
+            els.minCertVal.textContent = getMinCert().toFixed(3);
+        }
+    };
+
+    const doRender = () => {
+        updateMinCertUI();
         renderTeiText({
             teiInput: els.teiInput,
             out: els.out,
             teiStatus: els.teiStatus,
+            minCert: getMinCert(),
+            maskChar: "@",
         });
+    };
 
     // Load API wrapper
     const doLoad = () => loadFromApi({ els, renderTeiText: doRender });
@@ -107,6 +122,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Default: rendered TEI
     applyView();
+    if (els.minCert) {
+        const saved = localStorage.getItem("teiMinCert");
+        if (saved != null && saved !== "" && Number.isFinite(Number(saved))) {
+            els.minCert.value = saved;
+        }
+        updateMinCertUI();
+
+        els.minCert.addEventListener("input", () => {
+            localStorage.setItem("teiMinCert", els.minCert.value);
+            // rerender only if TEI output is visible
+            if (!showAnnotation) doRender();
+        });
+    }
+
 
     // TEI source toggle (like before)
     els.toggleTeiSourceBtn?.addEventListener("click", () => {

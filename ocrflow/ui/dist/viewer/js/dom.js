@@ -8,6 +8,10 @@ export function dom() {
         annotationId: $("annotationId"),
         pageNum: $("pageNum"),
 
+        // slider
+        minCert: $("minCert"),
+        minCertVal: $("minCertVal"),
+
         // buttons
         loadBtn: $("loadBtn"),
         prevBtn: $("prevPage"),
