@@ -337,6 +337,12 @@ textarea,
     border-color: #111;
 }
 
+#toggleAnnotationBtn.active {
+    background: #111;
+    color: #fff;
+    border-color: #111;
+}
+
 /* Responsive */
 @media (max-width: 1100px) {
     .topbarGrid {

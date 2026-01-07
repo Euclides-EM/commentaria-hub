@@ -14,9 +14,13 @@ export function dom() {
         nextBtn: $("nextPage"),
         renderBtn: $("renderBtn"),
         toggleTeiSourceBtn: $("toggleTeiSourceBtn"),
+        toggleAnnotationBtn: $("toggleAnnotationBtn"),
 
         // TEI source container (new)
         teiSourceTools: $("teiSourceTools"),
+
+        // Annotation info
+        annotationDetails: $("annotationDetails"),
 
         // image + tei
         pageImg: $("pageImg"),

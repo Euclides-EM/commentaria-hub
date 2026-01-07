@@ -94,6 +94,11 @@
 
                 <div class="paneBody">
                     <div class="teiTools">
+
+                        <button id="toggleAnnotationBtn" class="btn" type="button">
+                            Annotation details
+                        </button>
+
                         <button id="toggleTeiSourceBtn" class="btn" type="button">
                             TEI source code
                         </button>
@@ -103,15 +108,14 @@
                         </div>
                     </div>
 
-                    <textarea
-                            id="teiInput"
-                            class="teiInput hidden"
-                            spellcheck="false"
-                            placeholder="TEI XML…">
-                    </textarea>
+                    <textarea id="teiInput" class="teiInput hidden" spellcheck="false" placeholder="TEI XML…"></textarea>
+
+                    <div id="annotationDetails" class="renderBox hidden"></div>
+
                     <div id="out" class="renderBox">
                         <div class="empty">Click Load.</div>
                     </div>
+
                 </div>
             </section>
         </div>

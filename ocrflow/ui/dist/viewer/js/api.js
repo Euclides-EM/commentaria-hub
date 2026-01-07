@@ -103,6 +103,14 @@ export async function loadFromApi(ctx) {
     }
 }
 
+// NEW: simple in-memory cache keyed by dataset id
+const annotationsCache = new Map(); // datasetId -> annotations[]
+
+export function getCachedAnnotations(datasetId) {
+    const key = String(datasetId || "").trim();
+    return annotationsCache.get(key) || [];
+}
+
 export async function fetchAnnotations(baseUrlEl, datasetId) {
     const b = normalizeBaseUrl(baseUrlEl.value);
     const d = encodeURIComponent(String(datasetId || "").trim());
@@ -114,6 +122,10 @@ export async function fetchAnnotations(baseUrlEl, datasetId) {
     const data = await res.json();
     if (data === null) return [];
     if (!Array.isArray(data)) throw new Error("Annotations response is not an array");
+
+    // NEW: store in cache
+    annotationsCache.set(String(datasetId || "").trim(), data);
+
     return data;
 }
 
@@ -122,8 +134,6 @@ export async function populateAnnotationSelect(els, opts = {}) {
     if (!els.annotationId) return;
 
     const datasetId = (els.datasetId?.value || "").trim();
-
-    // Remember current selection
     const keepId = (preferredId || els.annotationId.value || "").trim();
 
     if (!datasetId) {
@@ -138,7 +148,6 @@ export async function populateAnnotationSelect(els, opts = {}) {
     try {
         const annotations = await fetchAnnotations(els.baseUrl, datasetId);
 
-        // Sort: name then id
         annotations.sort((a, b) => (a?.name || a?.id || "").localeCompare(b?.name || b?.id || ""));
 
         const optionsHtml = annotations
@@ -153,11 +162,8 @@ export async function populateAnnotationSelect(els, opts = {}) {
         els.annotationId.disabled = false;
 
         const hasKeep = keepId && [...els.annotationId.options].some((o) => o.value === keepId);
-        if (hasKeep) {
-            els.annotationId.value = keepId;
-        } else if (els.annotationId.options.length > 0) {
-            els.annotationId.selectedIndex = 0;
-        }
+        if (hasKeep) els.annotationId.value = keepId;
+        else if (els.annotationId.options.length > 0) els.annotationId.selectedIndex = 0;
     } catch (e) {
         els.annotationId.innerHTML = `<option value="">Error loading annotations</option>`;
         els.annotationId.disabled = false;
@@ -167,4 +173,3 @@ export async function populateAnnotationSelect(els, opts = {}) {
         }
     }
 }
-
