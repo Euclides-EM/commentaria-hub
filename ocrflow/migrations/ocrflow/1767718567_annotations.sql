@@ -26,8 +26,8 @@ CREATE TABLE IF NOT EXISTS annotation_rules
 
 CREATE TABLE IF NOT EXISTS annotation_applied_rules
 (
-    annotation_id TEXT NOT NULL,
-    rule_id       TEXT NOT NULL,
+    annotation_id TEXT NOT NULL REFERENCES annotations(id) ON DELETE CASCADE,
+    rule_id       TEXT NOT NULL REFERENCES annotation_rules(id) ON DELETE CASCADE,
     PRIMARY KEY (annotation_id, rule_id),
     FOREIGN KEY (annotation_id) REFERENCES annotations (id),
     FOREIGN KEY (rule_id) REFERENCES annotation_rules (id)

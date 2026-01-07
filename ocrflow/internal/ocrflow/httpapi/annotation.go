@@ -56,6 +56,101 @@ func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
 	return h.deps.AnnotationSvc.Create(datasetID, &a)
 }
 
+// GetAnnotation godoc
+// @Summary      Get Annotation
+// @Description  Get a specific annotation for a specific dataset.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Produce      json
+// @Success      200  {object}   model.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id} [get]
+func (h *Handlers) GetAnnotation(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	annotationID := r.PathValue("id")
+
+	if datasetID == "" || annotationID == "" {
+		return nil, fmt.Errorf("missing parameters")
+	}
+	return h.deps.AnnotationSvc.Get(datasetID, annotationID)
+}
+
+// DeleteAnnotation godoc
+// @Summary      Delete Annotation
+// @Description  Delete a specific annotation for a specific dataset.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        deep		 query     string  false "Whether to perform a deep delete, which removes all associated files" Enums(true, false)
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   map[string]string
+// @Router       /datasets/{dataSetId}/annotations/{id} [delete]
+func (h *Handlers) DeleteAnnotation(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	annotationID := r.PathValue("id")
+	if datasetID == "" || annotationID == "" {
+		return nil, fmt.Errorf("missing parameters")
+	}
+	fsClean := strings.ToLower(strings.TrimSpace(r.FormValue("deep"))) == "true"
+	if err := h.deps.AnnotationSvc.Delete(datasetID, annotationID, fsClean); err != nil {
+		return nil, fmt.Errorf("failed to delete annotation: %w", err)
+	}
+	return map[string]string{"status": "deleted"}, nil
+}
+
+// UpdateAnnotation godoc
+// @Summary      Update Annotation
+// @Description  Update a specific annotation for a specific dataset.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        annotation  body      model.Annotation  true  "Annotation to update"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   model.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id} [put]
+func (h *Handlers) UpdateAnnotation(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	annotationID := r.PathValue("id")
+
+	if datasetID == "" || annotationID == "" {
+		return nil, fmt.Errorf("missing parameters")
+	}
+
+	decoder := json.NewDecoder(r.Body)
+	var a model.Annotation
+	if err := decoder.Decode(&a); err != nil {
+		return nil, fmt.Errorf("failed to decode annotation: %w", err)
+	}
+	return h.deps.AnnotationSvc.Update(datasetID, annotationID, &a)
+}
+
+// DuplicateAnnotation godoc
+// @Summary      Duplicate Annotation
+// @Description  Duplicate an existing annotation for a specific dataset.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        annotationDuplicateRequest  body      model.AnnotationDuplicateRequest  true  "Annotation duplication details"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   model.Annotation
+// @Router       /datasets/{dataSetId}/annotations/duplicate [post]
+func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	if datasetID == "" {
+		return nil, fmt.Errorf("missing dataset ID")
+	}
+
+	decoder := json.NewDecoder(r.Body)
+	var req model.AnnotationDuplicateRequest
+	if err := decoder.Decode(&req); err != nil {
+		return nil, fmt.Errorf("failed to decode duplicate annotation request: %w", err)
+	}
+
+	return h.deps.AnnotationSvc.Duplicate(datasetID, req.SourceAnnotationID, req.Name, req.Description)
+}
+
 // UploadToRoboflow godoc
 // @Summary      Upload Annotation to Roboflow
 // @Description  Upload an annotation to Roboflow for a specific dataset.
@@ -118,13 +213,13 @@ func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        file  formData  file  true  "ZIP file to upload"
 // @Param       format                  query  string true  "Annotation format" Enums(ALTO, YOLO)
-// @Param       url                     query  string true  "URL of the ZIP file to download"
 // @Param       name                    query  string false "Name of the annotation"
 // @Param       description             query  string false "Description of the annotation"
 // @Param       segmented               query  string false "Whether the annotations are segmented" Enums(true, false)
 // @Param       ocred                   query  string false "Whether the annotations are OCRed" Enums(true, false)
 // @Param       ground_truth            query  string false "Whether the annotations are ground truth" Enums(true, false)
 // @Param       origin_annotation_id    query  string false "Origin annotation ID to copy applied rules from"
+// @Security 	 BearerAuth
 // @Produce      json
 // @Success      201  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/fromzip [post]
@@ -133,7 +228,7 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 	if datasetID == "" {
 		return nil, fmt.Errorf("missing dataset ID")
 	}
-	format := model.AnnotationFormat(r.FormValue("format"))
+	format := model.AnnotationFormat(strings.ToLower(strings.TrimSpace(r.FormValue("format"))))
 	if format != model.AnnotationFormatAlto && format != model.AnnotationFormatYolo {
 		return nil, fmt.Errorf("unsupported annotation format: %s", format)
 	}
@@ -163,6 +258,7 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 // @Param       ocred                   query  string false "Whether the annotations are OCRed" Enums(true, false)
 // @Param       ground_truth            query  string false "Whether the annotations are ground truth" Enums(true, false)
 // @Param       origin_annotation_id    query  string false "Origin annotation ID to copy applied rules from"
+// @Security 	 BearerAuth
 // @Produce     json
 // @Success     201 {object} model.Annotation
 // @Router      /datasets/{dataSetId}/annotations/fromurl [post]

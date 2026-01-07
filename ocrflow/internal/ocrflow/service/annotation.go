@@ -93,7 +93,7 @@ func (a *Annotation) CreateFromZip(aum *model.AnnotationUploadMetadata, save fun
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
 	ann := &model.Annotation{
-		Meta:               model.NewMeta(idgen.GenerateID()).WithName(aum.DatasetID).WithDescription(aum.Description),
+		Meta:               model.NewMeta(idgen.GenerateID()).WithName(aum.Name).WithDescription(aum.Description),
 		DatasetID:          aum.DatasetID,
 		Segmented:          aum.Segmented,
 		GroundTruth:        aum.GroundTruth,
@@ -136,30 +136,22 @@ func (a *Annotation) CreateFromZip(aum *model.AnnotationUploadMetadata, save fun
 }
 
 func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule.ApplyRules) (*model.Annotation, error) {
-	fromDB, err := a.annotationStore.GetAnnotation(datasetID, id)
+	ann, err := a.annotationStore.GetAnnotation(datasetID, id)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
+	}
+	if ann == nil {
+		return nil, fmt.Errorf("annotation not found")
 	}
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
 
-	var ann *model.Annotation
-	if err := deepcopy.Copy(&ann, &fromDB); err != nil {
-		return nil, fmt.Errorf("failed to copy annotation: %w", err)
-	}
-
 	if aar.Action == annotationrule.ApplyRulesActionCreateNew {
-		ann.ID = idgen.GenerateID()
-		if fromDB.Segmented {
-			if err := futils.CopyDir(a.fileSysMgt.DatasetAnnotationAltoDir(fromDB), a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
-				return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
-			}
-		}
-		ann.OriginAnnotationID = id
-		if err := a.annotationStore.InsertAnnotation(ann); err != nil {
-			return nil, fmt.Errorf("failed to insert new annotation to store: %w", err)
+		ann, err = a.Duplicate(datasetID, id, "", "")
+		if err != nil {
+			return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
 		}
 	}
 
@@ -228,6 +220,89 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 		AnnotationID: id,
 		Nodes:        buildNodes(categories, allLocs),
 	}, nil
+}
+
+func (a *Annotation) Delete(datasetID string, annotationID string, fileSysClean bool) error {
+	ann, err := a.Get(datasetID, annotationID)
+	if err != nil {
+		return fmt.Errorf("failed to get annotation: %w", err)
+	}
+	if ann == nil {
+		return fmt.Errorf("annotation not found")
+	}
+	if err := a.annotationStore.DeleteAnnotation(datasetID, annotationID); err != nil {
+		return fmt.Errorf("failed to delete annotation from store: %w", err)
+	}
+	if fileSysClean {
+		annoDir := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
+		if err := os.RemoveAll(annoDir); err != nil {
+			return fmt.Errorf("failed to delete annotation files: %w", err)
+		}
+	}
+
+	return nil
+}
+
+func (a *Annotation) Update(datasetID string, annotationID string, ann *model.Annotation) (*model.Annotation, error) {
+	fromDB, err := a.annotationStore.GetAnnotation(datasetID, annotationID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
+	}
+	if fromDB == nil {
+		return nil, fmt.Errorf("annotation not found")
+	}
+
+	// only allow updating certain fields
+	fromDB.Meta.Name = ann.Meta.Name
+	fromDB.Meta.Description = ann.Meta.Description
+	fromDB.Segmented = ann.Segmented
+	fromDB.GroundTruth = ann.GroundTruth
+	fromDB.Ocred = ann.Ocred
+
+	if err := a.annotationStore.UpdateAnnotation(fromDB); err != nil {
+		return nil, fmt.Errorf("failed to update annotation in store: %w", err)
+	}
+
+	return fromDB, nil
+}
+
+func (a *Annotation) Duplicate(datasetID string, annotationID string, name string, description string) (*model.Annotation, error) {
+	origAnn, err := a.Get(datasetID, annotationID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get original annotation: %w", err)
+	}
+	if origAnn == nil {
+		return nil, fmt.Errorf("original annotation not found")
+	}
+
+	var ann *model.Annotation
+	if err := deepcopy.Copy(&ann, &origAnn); err != nil {
+		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	}
+
+	ann.ID = idgen.GenerateID()
+	ann.Meta.Name = name
+	ann.Meta.Description = description
+
+	if ann.Meta.Name == "" {
+		ann.Meta.Name = "Copy of " + origAnn.Meta.Name + " " + ann.ID
+	}
+
+	if ann.Meta.Description != "" {
+		ann.Meta.Description = "Copy of " + origAnn.Meta.Name + " [original description: " + origAnn.Meta.Description + "]"
+	}
+
+	if origAnn.Segmented {
+		if err := futils.CopyDir(a.fileSysMgt.DatasetAnnotationAltoDir(origAnn), a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
+			return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+		}
+	}
+	ann.OriginAnnotationID = origAnn.ID
+	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
+		return nil, fmt.Errorf("failed to insert new annotation to store: %w", err)
+	}
+
+	return ann, nil
 }
 
 func buildNodes(remainingCats []string, data []categoryPageContent) []*model.AnnotationIndexNode {

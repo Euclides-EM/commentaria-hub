@@ -61,16 +61,16 @@ func (m *FileSystemManager) DatasetImagesDir(ds *model.Dataset) string {
 	return path.Join(m.baseDir, ds.ID, "imgs")
 }
 
-func (m *FileSystemManager) datasetAnnotationsPath(ann *model.Annotation) string {
+func (m *FileSystemManager) baseAnnotationPath(ann *model.Annotation) string {
 	return path.Join(m.baseDir, ann.DatasetID, "annotations", ann.ID)
 }
 
 func (m *FileSystemManager) DatasetAnnotationAltoDir(ann *model.Annotation) string {
-	return path.Join(m.datasetAnnotationsPath(ann), "alto")
+	return path.Join(m.baseAnnotationPath(ann), "alto")
 }
 
 func (m *FileSystemManager) DatasetAnnotationYoloDir(ann *model.Annotation) string {
-	return path.Join(m.datasetAnnotationsPath(ann), "yolo")
+	return path.Join(m.baseAnnotationPath(ann), "yolo")
 }
 
 func (m *FileSystemManager) ModelPath(model *model.Model) string {

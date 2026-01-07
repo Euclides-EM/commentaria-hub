@@ -12,6 +12,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 )
 
 type AnnotationSQL struct {
@@ -291,20 +292,17 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 	if a == nil {
 		return fmt.Errorf("annotation is nil")
 	}
-	if a.ID == "" {
-		return fmt.Errorf("annotation id is empty")
-	}
 	if a.DatasetID == "" {
 		return fmt.Errorf("annotation dataset_id is empty")
 	}
 
+	if a.ID == "" {
+		a.ID = idgen.GenerateID()
+	}
+
 	now := time.Now()
-	if a.CreatedAt.IsZero() {
-		a.CreatedAt = now
-	}
-	if a.UpdatedAt.IsZero() {
-		a.UpdatedAt = now
-	}
+	a.CreatedAt = now
+	a.UpdatedAt = now
 
 	tx, err := s.db.Begin()
 	if err != nil {
@@ -370,4 +368,12 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 	}
 
 	return nil
+}
+
+func (s *AnnotationSQL) DeleteAnnotation(datasetID string, annotationID string) error {
+	_, err := s.db.Exec(`
+		DELETE FROM annotations
+		WHERE dataset_id = ? AND id = ?
+	`, datasetID, annotationID)
+	return err
 }

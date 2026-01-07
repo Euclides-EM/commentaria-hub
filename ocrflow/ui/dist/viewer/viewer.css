@@ -161,7 +161,7 @@ html.index-collapsed #toggleIndexBtn {
 /* Image */
 .imageBody {
     padding: 0;
-    overflow: auto;
+    overflow: hidden;            /* important */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,7 +169,10 @@ html.index-collapsed #toggleIndexBtn {
 
 #pageImg {
     max-width: 100%;
+    max-height: 100%;            /* add this */
+    width: auto;
     height: auto;
+    object-fit: contain;         /* add this */
     display: block;
 }
 
