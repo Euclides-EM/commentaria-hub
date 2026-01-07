@@ -125,12 +125,23 @@ func upload(c *Client, urlPath string, fileFieldName, filePath string, additiona
 		return fmt.Errorf("unable to create url: %w", err)
 	}
 
+	// quick sanity
+	st, err := os.Stat(filePath)
+	if err != nil {
+		return fmt.Errorf("unable to stat file: %w", err)
+	}
+	if st.Size() == 0 {
+		return fmt.Errorf("file is empty: %s", filePath)
+	}
+
 	var buf bytes.Buffer
 	writer := multipart.NewWriter(&buf)
 
 	if additionalParams != nil {
-		for key, val := range additionalParams {
-			_ = writer.WriteField(key, val)
+		for k, v := range additionalParams {
+			if err := writer.WriteField(k, v); err != nil {
+				return fmt.Errorf("unable to write field %s: %w", k, err)
+			}
 		}
 	}
 
@@ -145,17 +156,24 @@ func upload(c *Client, urlPath string, fileFieldName, filePath string, additiona
 	}
 	defer f.Close()
 
-	_, err = io.Copy(fw, f)
-	if err != nil {
+	if _, err := io.Copy(fw, f); err != nil {
 		return fmt.Errorf("unable to copy file: %w", err)
 	}
 
-	writer.Close()
-
-	req, err := http.NewRequest(http.MethodPost, u, &buf)
-	if err != nil {
-		panic(err)
+	if err := writer.Close(); err != nil {
+		return fmt.Errorf("unable to close multipart writer: %w", err)
 	}
+
+	payload := buf.Bytes()
+	req, err := http.NewRequest(http.MethodPost, u, bytes.NewReader(payload))
+	if err != nil {
+		return fmt.Errorf("unable to create request: %w", err)
+	}
+	req.GetBody = func() (io.ReadCloser, error) {
+		return io.NopCloser(bytes.NewReader(payload)), nil
+	}
+	req.ContentLength = int64(len(payload))
+
 	req.Header.Set("Content-Type", writer.FormDataContentType())
 	req.Header.Set("Accept", "application/json")
 	req.Header.Set("X-Requested-With", "XMLHttpRequest")
@@ -166,10 +184,16 @@ func upload(c *Client, urlPath string, fileFieldName, filePath string, additiona
 	}
 	defer res.Body.Close()
 
-	if res.StatusCode != http.StatusCreated && res.StatusCode != http.StatusOK {
-		return fmt.Errorf("unexpected status code: %d", res.StatusCode)
-	}
 	body, _ := io.ReadAll(res.Body)
+
+	if res.StatusCode < 200 || res.StatusCode >= 300 {
+		loc := res.Header.Get("Location")
+		if loc != "" {
+			return fmt.Errorf("status %d redirect/location %q body: %s", res.StatusCode, loc, string(body))
+		}
+		return fmt.Errorf("unexpected status code: %d, body: %s", res.StatusCode, string(body))
+	}
+
 	fmt.Println("Status:", res.Status)
 	fmt.Println(string(body))
 	return nil

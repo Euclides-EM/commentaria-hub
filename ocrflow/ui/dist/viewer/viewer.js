@@ -140,13 +140,17 @@ document.addEventListener("DOMContentLoaded", async () => {
         await index.reload();
 
         if (showAnnotation) renderAnnotationDetails();
+        await doLoad();
     });
 
     // Annotation change
     els.annotationId?.addEventListener("change", async () => {
+        const opt = els.annotationId.selectedOptions?.[0];
+        if (opt?.disabled) return;
+
         await index.reload();
         if (showAnnotation) renderAnnotationDetails();
-        // doLoad(); // optional
+        await doLoad();
     });
 
     // TEI toolbar

@@ -26,7 +26,7 @@ func NewAnnotationSQL(db *sql.DB) *AnnotationSQL {
 
 func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*model.Annotation, error) {
 	row := s.db.QueryRow(`
-		SELECT id, name, description, created_at, updated_at, pages, segmented, dataset_id, origin_annotation_id
+		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id
 		FROM annotations
 		WHERE dataset_id = ? AND id = ?
 		LIMIT 1
@@ -41,6 +41,8 @@ func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*model.Annotation, 
 		&a.UpdatedAt,
 		&a.Pages,
 		&a.Segmented,
+		&a.GroundTruth,
+		&a.Ocred,
 		&a.DatasetID,
 		&a.OriginAnnotationID,
 	)
@@ -62,7 +64,7 @@ func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*model.Annotation, 
 
 func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*model.Annotation, error) {
 	rows, err := s.db.Query(`
-		SELECT id, name, description, created_at, updated_at, pages, segmented, dataset_id, origin_annotation_id
+		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id
 		FROM annotations
 		WHERE dataset_id = ?
 		ORDER BY created_at ASC
@@ -83,6 +85,8 @@ func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*model.A
 			&a.UpdatedAt,
 			&a.Pages,
 			&a.Segmented,
+			&a.GroundTruth,
+			&a.Ocred,
 			&a.DatasetID,
 			&a.OriginAnnotationID,
 		); err != nil {
@@ -190,9 +194,9 @@ func (s *AnnotationSQL) UpdateAnnotation(a *model.Annotation) error {
 	// 1) update annotations row
 	res, err := tx.Exec(`
 		UPDATE annotations
-		SET name = ?, description = ?, updated_at = ?, pages = ?, segmented = ?, origin_annotation_id = ?
+		SET name = ?, description = ?, updated_at = ?, pages = ?, segmented = ?, ground_truth = ?, ocred = ?, origin_annotation_id = ?
 		WHERE dataset_id = ? AND id = ?
-	`, a.Name, a.Description, a.UpdatedAt, a.Pages, a.Segmented, a.OriginAnnotationID, a.DatasetID, a.ID)
+	`, a.Name, a.Description, a.UpdatedAt, a.Pages, a.Segmented, a.GroundTruth, a.Ocred, a.OriginAnnotationID, a.DatasetID, a.ID)
 	if err != nil {
 		return err
 	}
@@ -313,9 +317,9 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 	// 1) annotations
 	if _, err := tx.Exec(`
 		INSERT INTO annotations (
-			id, name, description, created_at, updated_at, pages, segmented, dataset_id, origin_annotation_id
-		) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`, a.ID, a.Name, a.Description, a.CreatedAt, a.UpdatedAt, a.Pages, a.Segmented, a.DatasetID, a.OriginAnnotationID); err != nil {
+			id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id
+		) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	`, a.ID, a.Name, a.Description, a.CreatedAt, a.UpdatedAt, a.Pages, a.Segmented, a.GroundTruth, a.Ocred, a.DatasetID, a.OriginAnnotationID); err != nil {
 		return err
 	}
 

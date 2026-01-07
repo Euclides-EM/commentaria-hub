@@ -63,8 +63,11 @@ export async function populateDatasetSelect(els, opts = {}) {
         const hasKeep = keepId && [...els.datasetId.options].some((o) => o.value === keepId);
         if (hasKeep) {
             els.datasetId.value = keepId;
-        } else if (els.datasetId.options.length > 0) {
-            els.datasetId.selectedIndex = 0;
+        } else {
+            const firstEnabled = [...els.annotationId.options].find((o) => !o.disabled);
+            if (firstEnabled) {
+                els.annotationId.value = firstEnabled.value;
+            }
         }
     } catch (e) {
         els.datasetId.innerHTML = `<option value="">Error loading datasets</option>`;
@@ -150,20 +153,40 @@ export async function populateAnnotationSelect(els, opts = {}) {
 
         annotations.sort((a, b) => (a?.name || a?.id || "").localeCompare(b?.name || b?.id || ""));
 
+        const placeholderHtml = `<option value="" disabled selected>Select annotation…</option>`;
+
         const optionsHtml = annotations
             .map((a) => {
                 const id = String(a?.id || "").trim();
                 const label = annotationLabel(a);
-                return `<option value="${escapeHtml(id)}">${escapeHtml(label)}</option>`;
+                const disabled = a?.ocred === false;
+
+                return `<option value="${escapeHtml(id)}" ${disabled ? "disabled" : ""}>
+                ${escapeHtml(label)}
+            </option>`;
             })
             .join("");
 
-        els.annotationId.innerHTML = optionsHtml || `<option value="">No annotations found</option>`;
+        els.annotationId.innerHTML =
+            placeholderHtml + (optionsHtml || `<option value="" disabled>No annotations found</option>`);
         els.annotationId.disabled = false;
 
-        const hasKeep = keepId && [...els.annotationId.options].some((o) => o.value === keepId);
-        if (hasKeep) els.annotationId.value = keepId;
-        else if (els.annotationId.options.length > 0) els.annotationId.selectedIndex = 0;
+        const options = [...els.annotationId.options];
+
+        const keepOpt =
+            keepId ? options.find((o) => o.value === keepId && !o.disabled) : null;
+
+        const firstEnabled =
+            options.find((o) => o.value !== "" && !o.disabled) || null;
+
+        // IMPORTANT: set select value explicitly (more reliable than option.selected)
+        if (keepOpt) {
+            els.annotationId.value = keepOpt.value;
+        } else if (firstEnabled) {
+            els.annotationId.value = firstEnabled.value;
+        } else {
+            els.annotationId.value = "";
+        }
     } catch (e) {
         els.annotationId.innerHTML = `<option value="">Error loading annotations</option>`;
         els.annotationId.disabled = false;

@@ -87,31 +87,43 @@ func (a *Annotation) Create(datasetID string, ann *model.Annotation) (*model.Ann
 	return ann, nil
 }
 
-func (a *Annotation) CreateFromZip(datasetID string, format model.AnnotationFormat, save func(dstPath string) error) (*model.Annotation, error) {
-	_, err := a.datasetSvc.Get(datasetID)
+func (a *Annotation) CreateFromZip(aum *model.AnnotationUploadMetadata, save func(dstPath string) error) (*model.Annotation, error) {
+	_, err := a.datasetSvc.Get(aum.DatasetID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
 	ann := &model.Annotation{
-		Meta:      model.NewMeta(idgen.GenerateID()),
-		DatasetID: datasetID,
-		Segmented: true,
+		Meta:               model.NewMeta(idgen.GenerateID()).WithName(aum.DatasetID).WithDescription(aum.Description),
+		DatasetID:          aum.DatasetID,
+		Segmented:          aum.Segmented,
+		GroundTruth:        aum.GroundTruth,
+		Ocred:              aum.Ocred,
+		OriginAnnotationID: aum.OriginAnnotationID,
+	}
+	if aum.OriginAnnotationID != "" {
+		originAnn, err := a.annotationStore.GetAnnotation(aum.DatasetID, aum.OriginAnnotationID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get origin annotation from store: %w", err)
+		}
+		if originAnn != nil {
+			ann.AppliedRules = originAnn.AppliedRules
+		}
 	}
 	dstPath := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
-	if format == model.AnnotationFormatYolo {
+	if aum.Format == model.AnnotationFormatYolo {
 		dstPath = a.fileSysMgt.DatasetAnnotationYoloDir(ann)
 	}
 	if err := save(dstPath); err != nil {
 		return nil, fmt.Errorf("failed to store uploaded annotations: %w", err)
 	}
-	if format == model.AnnotationFormatYolo {
+	if aum.Format == model.AnnotationFormatYolo {
 		if err := formatcov.Yolo2Alto(dstPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
 			return nil, fmt.Errorf("failed to convert YOLO annotations to ALTO: %w", err)
 		}
 	}
 
 	dstPath = a.fileSysMgt.DatasetAnnotationAltoDir(ann)
-	pages, err := store.InferPages(dstPath, format)
+	pages, err := store.InferPages(dstPath, aum.Format)
 	if err != nil {
 		return nil, fmt.Errorf("failed to infer pages from uploaded annotations: %w", err)
 	}

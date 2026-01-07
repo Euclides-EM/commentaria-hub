@@ -30,8 +30,8 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNum st
 		return nil, err
 	}
 
-	if !ann.Segmented {
-		return nil, fmt.Errorf("no ALTO annotations found for annotation %s", ann.ID)
+	if !ann.Ocred {
+		return nil, fmt.Errorf("no OCR data for annotation %s", ann.ID)
 	}
 
 	// convert pageNum to int

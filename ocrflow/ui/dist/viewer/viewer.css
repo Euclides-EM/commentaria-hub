@@ -364,3 +364,8 @@ textarea,
         min-width: 260px;
     }
 }
+
+select option:disabled {
+    color: #999;
+    background: #f7f7f7;
+}

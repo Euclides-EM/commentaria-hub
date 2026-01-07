@@ -103,7 +103,7 @@ func (a *AnnotationsUploader) UploadToEscriptorium(datasetID string, id string, 
 		return nil, fmt.Errorf("failed to authenticate to escriptorium: %w", err)
 	}
 
-	if ann.Segmented {
+	if !ann.Segmented {
 		return nil, fmt.Errorf("no ALTO annotations found for escriptorium upload")
 	}
 
