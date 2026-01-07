@@ -1,7 +1,7 @@
 import { dom } from "./js/dom.js";
 import { onEnter } from "./js/utils.js";
 import { renderTeiText } from "./js/tei.js";
-import { loadFromApi } from "./js/api.js";
+import { loadFromApi, populateDatasetSelect, populateAnnotationSelect } from "./js/api.js";
 import { wirePaging } from "./js/paging.js";
 import { createIndexController } from "./js/index.js";
 import { wireSidebarToggle } from "./js/sidebar.js";
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // sidebar collapse
     wireSidebarToggle(els.toggleIndexBtn);
 
-    // --- TEI source toggle (new) ---
+    // --- TEI source toggle ---
     // Default: source hidden, render box visible
     let teiSourceVisible = false;
 
@@ -52,22 +52,49 @@ document.addEventListener("DOMContentLoaded", async () => {
     els.loadBtn?.addEventListener("click", doLoad);
     const { jumpToPage } = wirePaging({ els, loadFromApi: doLoad });
 
-    // TEI toolbar
-    els.renderBtn?.addEventListener("click", doRender);
-
-    // Enter to load in key fields
-    [els.baseUrl, els.datasetId, els.annotationId, els.pageNum].forEach((el) => onEnter(el, doLoad));
-
-    // Index controller
+    // Index controller (create early so listeners can use it)
     const getIndexUrl = () => {
         const b = (els.baseUrl?.value || "").trim().replace(/\/+$/, "");
         const d = (els.datasetId?.value || "").trim();
         const a = (els.annotationId?.value || "").trim();
         if (!b || !d || !a) return "";
-        return `${b}/datasets/${encodeURIComponent(d)}/annotations/${encodeURIComponent(a)}/index`;
+        return `${b}/datasets/${encodeURIComponent(d)}/annotations/${encodeURIComponent(
+            a
+        )}/index`;
     };
 
     const index = createIndexController({ els, getIndexUrl, jumpToPage });
     index.wire();
+
+    // Populate datasets, then annotations for the selected dataset
+    await populateDatasetSelect(els);
+    await populateAnnotationSelect(els);
+
+    // Base URL change: reload datasets, then annotations, then index
+    els.baseUrl?.addEventListener("change", async () => {
+        await populateDatasetSelect(els);
+        await populateAnnotationSelect(els);
+        await index.reload();
+    });
+
+    // Dataset change: reload annotations, then index
+    els.datasetId?.addEventListener("change", async () => {
+        await populateAnnotationSelect(els, { preferredId: "" });
+        await index.reload();
+    });
+
+    // Annotation change: refresh index (and optionally auto-load)
+    els.annotationId?.addEventListener("change", async () => {
+        await index.reload();
+        // doLoad(); // uncomment if selecting annotation should auto-load the page
+    });
+
+    // TEI toolbar
+    els.renderBtn?.addEventListener("click", doRender);
+
+    // Enter to load in key fields (annotationId is now a select)
+    [els.baseUrl, els.pageNum].forEach((el) => onEnter(el, doLoad));
+
+    // Initial index load
     await index.reload();
 });
