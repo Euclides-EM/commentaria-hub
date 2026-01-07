@@ -169,6 +169,48 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 	return ann, nil
 }
 
+func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, error) {
+	ann, err := a.Get(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotation: %w", err)
+	}
+	if !ann.Segmented {
+		return nil, fmt.Errorf("no ALTO directory found for annotation %s", ann.ID)
+	}
+	pages, err := pagesparser.Parse(ann.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+	}
+	if len(pages) == 0 {
+		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
+	}
+
+	categorySet := make(map[string]struct{})
+
+	for _, page := range pages {
+		pageAltoPath := filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
+		if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
+			return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
+		}
+
+		af, err := alto.LoadFromFile(pageAltoPath)
+		if err != nil {
+			return nil, fmt.Errorf("load ALTO: %w", err)
+		}
+
+		for _, ot := range af.Tags.OtherTags {
+			categorySet[ot.Label] = struct{}{}
+		}
+	}
+
+	categories := make([]string, 0, len(categorySet))
+	for cat := range categorySet {
+		categories = append(categories, cat)
+	}
+
+	return categories, nil
+}
+
 func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []string) (*model.AnnotationIndex, error) {
 	ann, err := a.Get(datasetID, id)
 	if err != nil {

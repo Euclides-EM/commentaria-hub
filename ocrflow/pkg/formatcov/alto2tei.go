@@ -9,6 +9,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/xml"
 )
 
 type ALTOToTEIOptions struct {
@@ -65,10 +66,15 @@ func ConvertALTOToTEI(a *alto.Alto, opts ALTOToTEIOptions) ([]byte, error) {
 		paras := groupIntoParas(lines, opts.ParaGapPx, opts.KeepEmpty)
 		for _, para := range paras {
 			writeString(w, `      <p>`)
-			for i, ln := range para {
-				if i > 0 {
+			for _, ln := range para {
+				lbID := xml.SanitizeXMLID(ln.LineID)
+
+				if lbID != "" {
+					writeString(w, fmt.Sprintf(`<lb xml:id="%s"/>`, xmlEscapeAttr(lbID)))
+				} else {
 					writeString(w, `<lb/>`)
 				}
+
 				writeString(w, xmlEscapeText(ln.Text))
 			}
 			writeString(w, `</p>`+"\n")

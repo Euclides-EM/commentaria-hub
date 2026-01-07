@@ -344,3 +344,24 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	}
 	return h.deps.AnnotationSvc.GetAnnotationIndex(datasetID, annotationID, categories)
 }
+
+// ListAnnotationCategories godoc
+// @Summary      Get Available Categories
+// @Description  Get the available categories for a specific annotation in a specific dataset.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Produce      json
+// @Success      200  {array}   []string
+// @Router       /datasets/{dataSetId}/annotations/{id}/categories [get]
+func (h *Handlers) ListAnnotationCategories(r *http.Request) (any, error) {
+	datasetID := r.PathValue("dataSetId")
+	if datasetID == "" {
+		return nil, fmt.Errorf("missing dataset ID")
+	}
+	annotationID := r.PathValue("id")
+	if annotationID == "" {
+		return nil, fmt.Errorf("missing annotation ID")
+	}
+	return h.deps.AnnotationSvc.GetAvailableCategories(datasetID, annotationID)
+}
