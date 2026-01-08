@@ -51,23 +51,24 @@ export async function populateDatasetSelect(els, opts = {}) {
             .map((ds) => {
                 const id = String(ds?.id || "").trim();
                 const label = datasetLabel(ds);
-                const safeLabel = escapeHtml(label);
-                return `<option value="${escapeHtml(id)}">${safeLabel}</option>`;
+                return `<option value="${escapeHtml(id)}">${escapeHtml(label)}</option>`;
             })
             .join("");
 
         els.datasetId.innerHTML = optionsHtml || `<option value="">No datasets found</option>`;
         els.datasetId.disabled = false;
 
-        // Restore selection if possible, else pick first option
-        const hasKeep = keepId && [...els.datasetId.options].some((o) => o.value === keepId);
-        if (hasKeep) {
-            els.datasetId.value = keepId;
+        // Restore selection if possible, else pick first dataset option
+        const options = [...els.datasetId.options];
+        const keepOpt = keepId ? options.find((o) => o.value === keepId) : null;
+        const firstDataset = options.find((o) => o.value) || null;
+
+        if (keepOpt) {
+            els.datasetId.value = keepOpt.value;
+        } else if (firstDataset) {
+            els.datasetId.value = firstDataset.value;
         } else {
-            const firstEnabled = [...els.annotationId.options].find((o) => !o.disabled);
-            if (firstEnabled) {
-                els.annotationId.value = firstEnabled.value;
-            }
+            els.datasetId.value = "";
         }
     } catch (e) {
         els.datasetId.innerHTML = `<option value="">Error loading datasets</option>`;
@@ -106,7 +107,7 @@ export async function loadFromApi(ctx) {
     }
 }
 
-// NEW: simple in-memory cache keyed by dataset id
+// simple in-memory cache keyed by dataset id
 const annotationsCache = new Map(); // datasetId -> annotations[]
 
 export function getCachedAnnotations(datasetId) {
@@ -126,7 +127,7 @@ export async function fetchAnnotations(baseUrlEl, datasetId) {
     if (data === null) return [];
     if (!Array.isArray(data)) throw new Error("Annotations response is not an array");
 
-    // NEW: store in cache
+    // store in cache
     annotationsCache.set(String(datasetId || "").trim(), data);
 
     return data;
@@ -150,20 +151,20 @@ export async function populateAnnotationSelect(els, opts = {}) {
 
     try {
         const annotations = await fetchAnnotations(els.baseUrl, datasetId);
-
         annotations.sort((a, b) => (a?.name || a?.id || "").localeCompare(b?.name || b?.id || ""));
 
+        const only = !!els.onlyTranscribed && els.onlyTranscribed.checked;
         const placeholderHtml = `<option value="" disabled selected>Select annotation…</option>`;
 
         const optionsHtml = annotations
             .map((a) => {
                 const id = String(a?.id || "").trim();
                 const label = annotationLabel(a);
-                const disabled = a?.ocred === false;
+                const disabled = only && a?.ocred === false;
 
-                return `<option value="${escapeHtml(id)}" ${disabled ? "disabled" : ""}>
-                ${escapeHtml(label)}
-            </option>`;
+                return `<option value="${escapeHtml(id)}" ${disabled ? "disabled" : ""}>${escapeHtml(
+                    label
+                )}</option>`;
             })
             .join("");
 
@@ -172,14 +173,9 @@ export async function populateAnnotationSelect(els, opts = {}) {
         els.annotationId.disabled = false;
 
         const options = [...els.annotationId.options];
+        const keepOpt = keepId ? options.find((o) => o.value === keepId && !o.disabled) : null;
+        const firstEnabled = options.find((o) => o.value !== "" && !o.disabled) || null;
 
-        const keepOpt =
-            keepId ? options.find((o) => o.value === keepId && !o.disabled) : null;
-
-        const firstEnabled =
-            options.find((o) => o.value !== "" && !o.disabled) || null;
-
-        // IMPORTANT: set select value explicitly (more reliable than option.selected)
         if (keepOpt) {
             els.annotationId.value = keepOpt.value;
         } else if (firstEnabled) {

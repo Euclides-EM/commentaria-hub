@@ -387,3 +387,11 @@ select option:disabled {
     width: 160px;
 }
 
+.annoFilter {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    opacity: 0.9;
+    user-select: none;
+}

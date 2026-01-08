@@ -182,6 +182,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         await doLoad();
     });
 
+    // Only transcribed change
+    els.onlyTranscribed?.addEventListener("change", async () => {
+        const keep = (els.annotationId?.value || "").trim();
+        await populateAnnotationSelect(els, { preferredId: keep });
+        await index.reload();
+        if (showAnnotation) renderAnnotationDetails();
+    });
+
+
     // TEI toolbar
     els.renderBtn?.addEventListener("click", doRender);
 

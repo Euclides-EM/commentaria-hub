@@ -12,6 +12,9 @@ export function dom() {
         minCert: $("minCert"),
         minCertVal: $("minCertVal"),
 
+        // checkboxes
+        onlyTranscribed: $("onlyTranscribed"),
+
         // buttons
         loadBtn: $("loadBtn"),
         prevBtn: $("prevPage"),
