@@ -79,9 +79,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             return;
         }
 
-        const appliedRules = ann.applied_rules
+        const appliedRulesPretty = ann.applied_rules
             ? JSON.stringify(ann.applied_rules, null, 2)
-            : "null";
+            : null;
 
         els.annotationDetails.innerHTML = `
             <div class="kv">
@@ -95,7 +95,10 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <div class="k">Created</div><div class="v mono">${escapeHtml(String(ann.created_at || ""))}</div>
                 <div class="k">Updated</div><div class="v mono">${escapeHtml(String(ann.updated_at || ""))}</div>
                 <div class="k">Description</div><div class="v">${escapeHtml(String(ann.description || ""))}</div>
-                <div class="k">Applied rules</div><div class="v"><div class="pre">${escapeHtml(appliedRules)}</div></div>
+                <div class="k">Applied rules</div>
+                <div class="v">
+                    ${appliedRulesPretty ? `<pre class="json">${escapeHtml(appliedRulesPretty)}</pre>` : `<span class="hint">None</span>`}
+                </div>
             </div>
         `;
     };

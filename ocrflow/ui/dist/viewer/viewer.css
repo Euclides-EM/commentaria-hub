@@ -395,3 +395,13 @@ select option:disabled {
     opacity: 0.9;
     user-select: none;
 }
+
+pre.json {
+    margin: 0;
+    padding: 10px;
+    border-radius: 6px;
+    background: #f7f7f7;
+    font-size: 12px;
+    line-height: 1.4;
+    overflow: auto;
+}
