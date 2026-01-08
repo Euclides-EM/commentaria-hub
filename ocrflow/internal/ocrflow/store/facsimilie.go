@@ -70,6 +70,17 @@ func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (
 	return f, nil
 }
 
+func (s *FacsimileSQL) InsertFacsimile(editionId string, f *model.Facsimile) (*model.Facsimile, error) {
+	_, err := s.db.Exec(`
+		INSERT INTO facsimiles (id, edition_id, url, created_at, updated_at, name, description, url)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+	`, f.ID, editionId, f.ScanURL, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, f.ScanURL)
+	if err != nil {
+		return nil, err
+	}
+	return f, nil
+}
+
 func NewFacsimileSql(db *sql.DB) *FacsimileSQL {
 	return &FacsimileSQL{
 		BaseSQL{db: db},

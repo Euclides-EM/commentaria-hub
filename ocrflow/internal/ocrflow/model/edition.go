@@ -6,7 +6,7 @@ import (
 
 type Edition struct {
 	Meta
-	Facsimiles []*Facsimile `json:"facsimiles,omitempty"`
+	Facsimiles []*Facsimile `json:"facsimiles,omitempty" readonly:"true"`
 }
 
 type EditionExpandOptions string

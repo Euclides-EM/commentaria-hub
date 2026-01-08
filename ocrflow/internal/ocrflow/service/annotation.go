@@ -70,6 +70,15 @@ func (a *Annotation) Create(datasetID string, ann *model.Annotation) (*model.Ann
 	ann.ID = idgen.GenerateID()
 	ann.DatasetID = datasetID
 
+	if ann.Pages == "" {
+		// infer pages from existing images
+		pages, err := store.InferPages(imgPath, model.AnnotationFormatAlto)
+		if err != nil {
+			return nil, fmt.Errorf("failed to infer pages from existing dataset images: %w", err)
+		}
+		ann.Pages = pagesparser.ToString(pages)
+	}
+
 	// verify page images exist for all specified pages
 	pages, err := pagesparser.Parse(ann.Pages)
 	if err != nil {
@@ -434,7 +443,7 @@ func buildNodes(remainingCats []string, data []categoryPageContent) []*model.Ann
 			wipNode = &model.AnnotationIndexNode{
 				Category: item.category,
 				Content:  item.content,
-				Location: model.AnnotationIndexLocation{Page: item.page},
+				Location: model.AnnotationLocation{Page: item.page},
 			}
 			wipNodeFirstChildIndex = i + 1
 		}

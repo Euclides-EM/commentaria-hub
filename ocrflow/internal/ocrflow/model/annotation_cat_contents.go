@@ -7,12 +7,8 @@ type AnnotationIndex struct {
 }
 
 type AnnotationIndexNode struct {
-	Category string                  `json:"category"`
-	Content  string                  `json:"content"`
-	Location AnnotationIndexLocation `json:"location"`
-	Children []*AnnotationIndexNode  `json:"children"`
-}
-
-type AnnotationIndexLocation struct {
-	Page int `json:"page"`
+	Category string                 `json:"category"`
+	Content  string                 `json:"content"`
+	Location AnnotationLocation     `json:"location"`
+	Children []*AnnotationIndexNode `json:"children"`
 }

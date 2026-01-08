@@ -21,6 +21,7 @@ type Dependencies struct {
 	AnnotationsUploader *service.AnnotationsUploader
 	AnnotationTEI       *service.AnnotationTEI
 	AssetGen            *service.AssetGen
+	AnnotationSearch    *service.AnnotationSearch
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -31,7 +32,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/health", httpwrapper.Get(h.Health).Build())
 
-	api.HandleFunc("/editions", httpwrapper.Get(h.ListEditions).Build())
+	api.HandleFunc("/editions", httpwrapper.Get(h.ListEditions).Create(h.CreateEdition).Build())
+	api.HandleFunc("/editions/{editionId}/facsimilies", httpwrapper.Create(h.CreateFacsimile).Build())
 
 	api.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_rules", httpwrapper.Get(h.ListSuggestedRulesForDataset).Build())
@@ -61,6 +63,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/text_block_corrections", httpwrapper.Update(h.ApplyRuleTextBlockCorrections).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/review", httpwrapper.Create(h.CreateAnnotationReview).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/search", httpwrapper.Get(h.SearchAnnotation).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNum}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
 

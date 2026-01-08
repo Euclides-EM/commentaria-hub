@@ -66,6 +66,7 @@ func NewHTTPApp() (*App, error) {
 	)
 	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir)
 	assetGen := service.NewAssetGen(datasetSvc, annotationTEI, annotationSvc, fileSystemManager)
+	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager)
 	deps := &httpapi.Dependencies{
 		Env:                 env,
 		HealthSvc:           heathSvc,
@@ -78,6 +79,7 @@ func NewHTTPApp() (*App, error) {
 		AnnotationsUploader: annotationUploader,
 		AnnotationTEI:       annotationTEI,
 		AssetGen:            assetGen,
+		AnnotationSearch:    annotationSearch,
 	}
 
 	router := httpapi.NewRouter(deps)

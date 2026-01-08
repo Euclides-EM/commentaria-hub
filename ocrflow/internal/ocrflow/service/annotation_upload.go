@@ -137,7 +137,7 @@ func (a *AnnotationsUploader) convertAlto2Yolo(datasetID string, id string) (*mo
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
-	if ann.Segmented {
+	if !ann.Segmented {
 		return nil, fmt.Errorf("no ALTO annotations found for conversion")
 	}
 	if err := os.RemoveAll(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {

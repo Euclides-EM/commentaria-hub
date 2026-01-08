@@ -6,6 +6,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 )
 
 // todo: add interfaces to all services
@@ -42,6 +43,11 @@ func (e *Edition) ListEditions(expand []model.EditionExpandOptions, orderBy []mo
 	return eds, nil
 }
 
+func (e *Edition) CreateEdition(ed *model.Edition) error {
+	ed.ID = ed.Name // for now, set name to ID
+	return e.editionStore.InsertEdition(ed)
+}
+
 func (e *Edition) GetFacsimile(editionKey, facsimileID string) (*model.Edition, *model.Facsimile, error) {
 	ed, err := e.editionStore.GetEditionByID(editionKey)
 	if err != nil {
@@ -58,4 +64,9 @@ func (e *Edition) GetFacsimile(editionKey, facsimileID string) (*model.Edition, 
 		return nil, nil, fmt.Errorf("facsimile with id %s not found", facsimileID)
 	}
 	return ed, fac, nil
+}
+
+func (e *Edition) CreateFacsimile(editionId string, f *model.Facsimile) (*model.Facsimile, error) {
+	f.ID = idgen.GenerateID()
+	return e.facsimileStore.InsertFacsimile(editionId, f)
 }
