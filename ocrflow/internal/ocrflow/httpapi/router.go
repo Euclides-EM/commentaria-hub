@@ -35,6 +35,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_rules", httpwrapper.Get(h.ListSuggestedRulesForDataset).Build())
+	api.HandleFunc("/datasets/{dataSetId}/suggested_reviews", httpwrapper.Get(h.ListSuggestedReviewForDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/images/{pageNum}", httpwrapper.GetPNG(h.GetPageImage).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}", httpwrapper.Delete(h.DeleteAnnotation).Update(h.UpdateAnnotation).Get(h.GetAnnotation).Build())
@@ -57,6 +58,9 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_categories", httpwrapper.Update(h.ApplyRuleRemoveCategories).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_overlap", httpwrapper.Update(h.ApplyRuleRemoveOverlap).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance", httpwrapper.Update(h.ApplyRuleReassignTextLinesByTolerance).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/text_block_corrections", httpwrapper.Update(h.ApplyRuleTextBlockCorrections).Build())
+
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/review", httpwrapper.Create(h.CreateAnnotationReview).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNum}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
 
@@ -69,7 +73,9 @@ func NewRouter(deps *Dependencies) http.Handler {
 	root.Handle("/api/v1/", http.StripPrefix("/api/v1", api))
 
 	// ---------- Swagger ----------
-	root.Handle("/swagger/", httpSwagger.WrapHandler)
+	root.Handle("/swagger/", httpSwagger.Handler(
+		httpSwagger.PersistAuthorization(true),
+	))
 
 	// ---------- Viewer UI ----------
 	root.Handle("/ui/",

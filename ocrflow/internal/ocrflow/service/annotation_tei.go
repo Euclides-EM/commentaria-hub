@@ -2,22 +2,18 @@ package service
 
 import (
 	"fmt"
-	"os"
-	"path/filepath"
 	"strconv"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
 
 type AnnotationTEI struct {
 	annotationSvc *Annotation
-	fileSysMgt    *store.FileSystemManager
+	fileSysMgt    *filesys.Manager
 }
 
-func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *store.FileSystemManager) *AnnotationTEI {
+func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *filesys.Manager) *AnnotationTEI {
 	return &AnnotationTEI{
 		annotationSvc: annotationSvc,
 		fileSysMgt:    fileSysMgt,
@@ -40,14 +36,9 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNum st
 		return nil, fmt.Errorf("invalid page number %s: %w", pageNum, err)
 	}
 
-	pageAltoPath := filepath.Join(t.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
-	if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
-		return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
-	}
-
-	a, err := alto.LoadFromFile(pageAltoPath)
+	a, _, err := t.fileSysMgt.RetrieveAltoPage(ann, page)
 	if err != nil {
-		return nil, fmt.Errorf("load ALTO: %w", err)
+		return nil, err
 	}
 
 	opts := formatcov.ALTOToTEIOptions{

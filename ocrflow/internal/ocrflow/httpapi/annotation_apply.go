@@ -1,8 +1,6 @@
 package httpapi
 
 import (
-	"encoding/json"
-	"fmt"
 	"net/http"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
@@ -20,17 +18,14 @@ import (
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply [put]
 func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
 	}
 
-	decoder := json.NewDecoder(r.Body)
 	var a annotationrule.ApplyRules
-	if err := decoder.Decode(&a); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err = decodeBody(r, &a); err != nil {
+		return nil, err
 	}
 
 	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, &a)
@@ -42,33 +37,20 @@ func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
 // @Param        annotationSegmentRule  body 	annotationrule.Segment  true  "Annotation segment rule"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/segment [put]
 func (h *Handlers) ApplyRuleSegment(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.Segment
-	if err := decoder.Decode(&rule); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
 	}
 	rule.Type = rule.GetType()
 
-	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ApplyRulesActionOverwrite,
-		Rules: []annotationrule.AnnotationRule{
-			&rule,
-		},
-	}
-
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+	return h.applyRuleGeneric(r, &rule)
 }
 
 // ApplyRuleSlicePages godoc
@@ -77,33 +59,20 @@ func (h *Handlers) ApplyRuleSegment(r *http.Request) (any, error) {
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
 // @Param        annotationSegmentRule  body 	annotationrule.SlicePages  true  "Annotation slice pages rule"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/slice_pages [put]
 func (h *Handlers) ApplyRuleSlicePages(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.SlicePages
-	if err := decoder.Decode(&rule); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
 	}
 	rule.Type = rule.GetType()
 
-	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ApplyRulesActionOverwrite,
-		Rules: []annotationrule.AnnotationRule{
-			&rule,
-		},
-	}
-
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+	return h.applyRuleGeneric(r, &rule)
 }
 
 // ApplyRuleStretch godoc
@@ -112,33 +81,20 @@ func (h *Handlers) ApplyRuleSlicePages(r *http.Request) (any, error) {
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
 // @Param        annotationSegmentRule  body 	annotationrule.Stretch  true  "Annotation stretch rule"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/stretch [put]
 func (h *Handlers) ApplyRuleStretch(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.Stretch
-	if err := decoder.Decode(&rule); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
 	}
 	rule.Type = rule.GetType()
 
-	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ApplyRulesActionOverwrite,
-		Rules: []annotationrule.AnnotationRule{
-			&rule,
-		},
-	}
-
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+	return h.applyRuleGeneric(r, &rule)
 }
 
 // ApplyRuleAddMargin godoc
@@ -147,33 +103,20 @@ func (h *Handlers) ApplyRuleStretch(r *http.Request) (any, error) {
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
 // @Param        annotationSegmentRule  body 	annotationrule.AddMargin  true  "Annotation add margin rule"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/add_margin [put]
 func (h *Handlers) ApplyRuleAddMargin(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.AddMargin
-	if err := decoder.Decode(&rule); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
 	}
 	rule.Type = rule.GetType()
 
-	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ApplyRulesActionOverwrite,
-		Rules: []annotationrule.AnnotationRule{
-			&rule,
-		},
-	}
-
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+	return h.applyRuleGeneric(r, &rule)
 }
 
 // ApplyRuleDetectLines godoc
@@ -182,33 +125,20 @@ func (h *Handlers) ApplyRuleAddMargin(r *http.Request) (any, error) {
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
 // @Param        annotationSegmentRule  body 	annotationrule.LinesDetect  true  "Annotation detect lines rule"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/detect_lines [put]
 func (h *Handlers) ApplyRuleDetectLines(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.LinesDetect
-	if err := decoder.Decode(&rule); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
 	}
 	rule.Type = rule.GetType()
 
-	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ApplyRulesActionOverwrite,
-		Rules: []annotationrule.AnnotationRule{
-			&rule,
-		},
-	}
-
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+	return h.applyRuleGeneric(r, &rule)
 }
 
 // ApplyRuleRemoveCategories godoc
@@ -217,33 +147,20 @@ func (h *Handlers) ApplyRuleDetectLines(r *http.Request) (any, error) {
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
 // @Param        annotationSegmentRule  body 	annotationrule.RemoveCategories  true  "Remove categories rule"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/remove_categories [put]
 func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.RemoveCategories
-	if err := decoder.Decode(&rule); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
 	}
 	rule.Type = rule.GetType()
 
-	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ApplyRulesActionOverwrite,
-		Rules: []annotationrule.AnnotationRule{
-			&rule,
-		},
-	}
-
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+	return h.applyRuleGeneric(r, &rule)
 }
 
 // ApplyRuleRemoveOverlap godoc
@@ -252,33 +169,20 @@ func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
 // @Param        annotationSegmentRule  body 	annotationrule.RemoveOverlap  true  "Remove overlap rule"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/remove_overlap [put]
 func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.RemoveOverlap
-	if err := decoder.Decode(&rule); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
 	}
 	rule.Type = rule.GetType()
 
-	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ApplyRulesActionOverwrite,
-		Rules: []annotationrule.AnnotationRule{
-			&rule,
-		},
-	}
-
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+	return h.applyRuleGeneric(r, &rule)
 }
 
 // ApplyRuleReassignTextLinesByTolerance godoc
@@ -287,29 +191,54 @@ func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 // @Tags         Annotations Apply Rules
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
 // @Param        annotationSegmentRule  body 	annotationrule.ReassignTextLinesByTolerance  true  "Reassign text lines by tolerance rule"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance [put]
 func (h *Handlers) ApplyRuleReassignTextLinesByTolerance(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
-	}
-
-	decoder := json.NewDecoder(r.Body)
 	var rule annotationrule.ReassignTextLinesByTolerance
-	if err := decoder.Decode(&rule); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation apply rules: %w", err)
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
 	}
 	rule.Type = rule.GetType()
 
+	return h.applyRuleGeneric(r, &rule)
+}
+
+// ApplyRuleTextBlockCorrections godoc
+// @Summary      Apply Text Block Corrections to Annotation
+// @Description  Apply text block corrections to an annotation.
+// @Tags         Annotations Apply Rules
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        annotationTextBlockCorrections  body 	annotationrule.TextBlockCorrections  true  "Text block corrections rule"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   model.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply/text_block_corrections [put]
+func (h *Handlers) ApplyRuleTextBlockCorrections(r *http.Request) (any, error) {
+	var rule annotationrule.TextBlockCorrections
+	if err := decodeBody(r, &rule); err != nil {
+		return nil, err
+	}
+	rule.Type = rule.GetType()
+
+	return h.applyRuleGeneric(r, &rule)
+}
+
+func (h *Handlers) applyRuleGeneric(r *http.Request, rule annotationrule.AnnotationRule) (any, error) {
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
+	}
+
 	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ApplyRulesActionOverwrite,
+		Action: annotationrule.ToApplyRulesAction(r.FormValue("action"), annotationrule.ApplyRulesActionOverwrite),
 		Rules: []annotationrule.AnnotationRule{
-			&rule,
+			rule,
 		},
 	}
 

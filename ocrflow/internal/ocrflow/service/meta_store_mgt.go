@@ -4,17 +4,17 @@ import (
 	"fmt"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 )
 
 type MetaStoreManager struct {
 	datasetSvc    *Dataset
 	annotationSvc *Annotation
 	modelSvc      *Model
-	fileSysMgt    *store.FileSystemManager
+	fileSysMgt    *filesys.Manager
 }
 
-func NewMetaStoreManager(datasetSvc *Dataset, annotationSvc *Annotation, modelSvc *Model, fileSystemMgt *store.FileSystemManager) *MetaStoreManager {
+func NewMetaStoreManager(datasetSvc *Dataset, annotationSvc *Annotation, modelSvc *Model, fileSystemMgt *filesys.Manager) *MetaStoreManager {
 	return &MetaStoreManager{
 		datasetSvc:    datasetSvc,
 		annotationSvc: annotationSvc,

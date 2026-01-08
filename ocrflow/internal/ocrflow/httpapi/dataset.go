@@ -1,7 +1,6 @@
 package httpapi
 
 import (
-	"encoding/json"
 	"fmt"
 	"net/http"
 	"strconv"
@@ -44,28 +43,14 @@ func (h *Handlers) ListDatasets(r *http.Request) (any, error) {
 // @Success      200  {object}   model.Dataset
 // @Router       /datasets [post]
 func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
-	decoder := json.NewDecoder(r.Body)
 	var d model.Dataset
-	if err := decoder.Decode(&d); err != nil {
-		return nil, fmt.Errorf("failed to decode request body: %w", err)
+	if err := decodeBody(r, &d); err != nil {
+		return nil, err
 	}
 	return h.deps.DatasetSvc.Create(&d,
 		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("force_overwrite"))) == "true",
 		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("skip_deskew"))) == "true",
 	)
-}
-
-// ListSuggestedRulesForDataset godoc
-// @Summary      List Suggested Annotation Rules for Dataset
-// @Description  Get a list of suggested annotation rules for a specific dataset.
-// @Tags         Datasets
-// @Param        dataSetId  path      string  true  "Dataset ID"
-// @Produce      json
-// @Success      200  {array}   [][]annotationrule.AnnotationRule
-// @Router       /datasets/{dataSetId}/suggested_rules [get]
-func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	return h.deps.DatasetSvc.ListSuggestedAnnotationRules(datasetID)
 }
 
 // GetPageImage godoc
@@ -78,10 +63,11 @@ func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
 // @Success      200  {file}   string "PNG image content"
 // @Router       /datasets/{dataSetId}/pages/{pageNum}/image [get]
 func (h *Handlers) GetPageImage(r *http.Request) ([]byte, error) {
-	datasetID := r.PathValue("dataSetId")
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing dataset ID")
+	datasetID, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
 	}
+
 	pageNum := r.PathValue("pageNum")
 	if pageNum == "" {
 		return nil, fmt.Errorf("missing page number")

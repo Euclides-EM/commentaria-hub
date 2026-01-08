@@ -16,14 +16,11 @@ import (
 // @Success      200  {string}   string "TEI XML content"
 // @Router       /datasets/{dataSetId}/annotations/{id}/tei/{pageNum} [get]
 func (h *Handlers) GetAnnotationTEI(r *http.Request) ([]byte, error) {
-	datasetID := r.PathValue("dataSetId")
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing dataset ID")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
 	}
-	annotationID := r.PathValue("id")
-	if annotationID == "" {
-		return nil, fmt.Errorf("missing annotation ID")
-	}
+
 	pageNum := r.PathValue("pageNum")
 	if pageNum == "" {
 		return nil, fmt.Errorf("missing page number")

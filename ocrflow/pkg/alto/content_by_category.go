@@ -40,6 +40,41 @@ func ExtractCategoryContents(a *Alto, categories []string, lineBreakSeperator st
 	return contents, nil
 }
 
+func ExtractTextContentsFromBlock(b *TextBlock) []string {
+	var contents []string
+	for _, ln := range b.Lines {
+		// A TextLine may contain multiple <String/> nodes. Join them with spaces.
+		var chunks []string
+		for _, s := range ln.Strings {
+			txt := strings.TrimSpace(s.Content)
+			if txt != "" {
+				chunks = append(chunks, txt)
+			}
+		}
+		lineText := strings.TrimSpace(strings.Join(chunks, " "))
+		if lineText != "" {
+			contents = append(contents, lineText)
+		}
+	}
+
+	return contents
+}
+
+func ExtractBlocksByCategory(a *Alto, category string) ([]*TextBlock, error) {
+	tagID := findTagIDsByLabel(a, category)
+	var tbs []*TextBlock
+	for _, page := range a.Layout.Page {
+		for _, block := range page.PrintSpace.TextBlocks {
+			if !tagrefsContainsAny(block.TagRefs, tagID) {
+				continue
+			}
+			tbs = append(tbs, &block)
+		}
+	}
+
+	return tbs, nil
+}
+
 func findTagIDsByLabel(a *Alto, label string) map[string]bool {
 	ids := make(map[string]bool)
 	for _, t := range a.Tags.OtherTags {

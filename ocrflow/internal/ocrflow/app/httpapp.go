@@ -9,6 +9,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/httpapi"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/service"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 )
@@ -35,7 +36,7 @@ func NewHTTPApp() (*App, error) {
 	annotationStore := store.NewAnnotationSQL(sqlDB)
 	modelStore := store.NewModelSQL(sqlDB)
 
-	fileSystemManager := store.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir)
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir)
 
 	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
 

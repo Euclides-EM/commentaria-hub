@@ -9,7 +9,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
@@ -20,11 +20,11 @@ import (
 
 type AnnotationRuleApplier struct {
 	modelSvc       *Model
-	fileSysMgt     *store.FileSystemManager
+	fileSysMgt     *filesys.Manager
 	roboflowAPIKey string
 }
 
-func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *store.FileSystemManager, roboflowAPIKey string) *AnnotationRuleApplier {
+func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, roboflowAPIKey string) *AnnotationRuleApplier {
 	return &AnnotationRuleApplier{
 		modelSvc:       modelSvc,
 		fileSysMgt:     fileSysMgt,
@@ -60,6 +60,8 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *model.Annotation,
 		return a.applyLinesDetectRule(imgPath, ann, t)
 	case *annotationrule.Segment:
 		return a.applySegment(imgPath, ann, t)
+	case *annotationrule.TextBlockCorrections:
+		return a.applyTextBlockCorrection(ann, t)
 	}
 
 	// rules that require per-page ALTO processing
@@ -68,42 +70,29 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *model.Annotation,
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
 	for _, page := range pages {
-		pageImgPath := filepath.Join(imgPath, pagesparser.PageToPNGFilename(page))
-		if _, err := os.Stat(pageImgPath); os.IsNotExist(err) {
-			return nil, fmt.Errorf("page image %s does not exist for annotation %s", pageImgPath, ann.ID)
-		}
-		pageAltoPath := filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
-		if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
-			return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
-		}
+		if err := a.fileSysMgt.ApplyToAltoPage(ann, page, func(af *alto.Alto) error {
+			var f func() error
+			switch t := rule.(type) {
+			case *annotationrule.Stretch:
+				f = func() error { return a.applyStretchRule(af, t) }
+			case *annotationrule.AddMargin:
+				f = func() error { return a.applyAddMarginRule(af, t) }
+			case *annotationrule.RemoveCategories:
+				f = func() error { return a.applyRemoveCategories(af, t) }
+			case *annotationrule.RemoveOverlap:
+				f = func() error { return a.applyRemoveOverlap(af, t) }
+			case *annotationrule.ReassignTextLinesByTolerance:
+				f = func() error { return a.applyReassignTextLinesByTolerance(af, t) }
+			default:
+				return fmt.Errorf("unknown rule type: %s", rule.GetType())
+			}
 
-		af, err := alto.LoadFromFile(pageAltoPath)
-		if err != nil {
-			return nil, fmt.Errorf("load ALTO: %w", err)
-		}
-
-		var f func() error
-		switch t := rule.(type) {
-		case *annotationrule.Stretch:
-			f = func() error { return a.applyStretchRule(af, t) }
-		case *annotationrule.AddMargin:
-			f = func() error { return a.applyAddMarginRule(af, t) }
-		case *annotationrule.RemoveCategories:
-			f = func() error { return a.applyRemoveCategories(af, t) }
-		case *annotationrule.RemoveOverlap:
-			f = func() error { return a.applyRemoveOverlap(af, t) }
-		case *annotationrule.ReassignTextLinesByTolerance:
-			f = func() error { return a.applyReassignTextLinesByTolerance(af, t) }
-		default:
-			return nil, fmt.Errorf("unknown rule type: %s", rule.GetType())
-		}
-
-		if err := f(); err != nil {
-			return nil, fmt.Errorf("apply rule to ALTO: %w", err)
-		}
-
-		if err := alto.SaveToFile(af, pageAltoPath); err != nil {
-			return nil, fmt.Errorf("save ALTO: %w", err)
+			if err := f(); err != nil {
+				return fmt.Errorf("apply rule to ALTO: %w", err)
+			}
+			return nil
+		}); err != nil {
+			return nil, fmt.Errorf("failed to apply rule to page %d: %w", page, err)
 		}
 	}
 
@@ -193,6 +182,36 @@ func (a *AnnotationRuleApplier) applyAddMarginRule(af *alto.Alto, t *annotationr
 		return fmt.Errorf("failed to apply add margin operation %+v: %w", toApply, err)
 	}
 	return nil
+}
+
+func (a *AnnotationRuleApplier) applyTextBlockCorrection(ann *model.Annotation, t *annotationrule.TextBlockCorrections) (*model.Annotation, error) {
+	correctionByPage := make(map[int][]*annotationrule.TextBlockCorrection)
+	for _, c := range t.Corrections {
+		correctionByPage[c.Page] = append(correctionByPage[c.Page], c)
+	}
+
+	pages, err := pagesparser.Parse(ann.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+	}
+
+	for _, page := range pages {
+		corrections, ok := correctionByPage[page]
+		if !ok {
+			continue
+		}
+		if err := a.fileSysMgt.ApplyToAltoPage(ann, page, func(af *alto.Alto) error {
+			for _, c := range corrections {
+				if err := alto.ApplyTextBlockCorrectionALTO(af, c.TextBlockID, c.Correction); err != nil {
+					return fmt.Errorf("failed to apply text block correction %+v: %w", c, err)
+				}
+			}
+			return nil
+		}); err != nil {
+			return nil, fmt.Errorf("failed to apply text block corrections to page %d: %w", page, err)
+		}
+	}
+	return ann, nil
 }
 
 func (a *AnnotationRuleApplier) applyRemoveCategories(af *alto.Alto, t *annotationrule.RemoveCategories) error {

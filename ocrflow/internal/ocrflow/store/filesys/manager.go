@@ -1,10 +1,9 @@
-package store
+package filesys
 
 import (
 	"fmt"
 	"log"
 	"os"
-	"path"
 	"path/filepath"
 	"slices"
 
@@ -12,76 +11,21 @@ import (
 	"github.com/samber/lo"
 )
 
-// Dataset storage layout:
-//
-// <baseDir>/
-// └─ <dataset_id>/
-//    ├─ <edition_id>_<facsimile_id>.pdf
-//    ├─ imgs/
-//    │  ├─ page-0001.png
-//    │  ├─ page-0002.png
-//    │  └─ ...
-//    └─ annotations/
-//       └─ <annotation_id>/
-//          ├─ alto/
-//          │  ├─ page-0001.xml
-//          │  ├─ page-0002.xml
-//          │  └─ ...
-//          └─ yolo/
-//             ├─ images/
-//             │  ├─ page-0001.jpg
-//             │  ├─ page-0002.jpg
-//             │  └─ ...
-//             ├─ labels/
-//             │  ├─ page-0001.txt
-//             │  ├─ page-0002.txt
-//             │  └─ ...
-//             ├─ config.yml
-//             └─ labelmap.txt
-
-type FileSystemManager struct {
+type Manager struct {
 	baseDir     string
 	trainingDir string
 	modelsDir   string
 }
 
-func NewFileSystemManager(baseDir, trainingDir, modelsDir string) *FileSystemManager {
-	return &FileSystemManager{
+func NewFileSystemManager(baseDir, trainingDir, modelsDir string) *Manager {
+	return &Manager{
 		baseDir:     baseDir,
 		trainingDir: trainingDir,
 		modelsDir:   modelsDir,
 	}
 }
 
-func (m *FileSystemManager) DatasetPDFPath(ds *model.Dataset) string {
-	return path.Join(m.baseDir, ds.ID, fmt.Sprintf("%s_%s.pdf", ds.EditionID, ds.FacsimileID))
-}
-
-func (m *FileSystemManager) DatasetImagesDir(ds *model.Dataset) string {
-	return path.Join(m.baseDir, ds.ID, "imgs")
-}
-
-func (m *FileSystemManager) baseAnnotationPath(ann *model.Annotation) string {
-	return path.Join(m.baseDir, ann.DatasetID, "annotations", ann.ID)
-}
-
-func (m *FileSystemManager) DatasetAnnotationAltoDir(ann *model.Annotation) string {
-	return path.Join(m.baseAnnotationPath(ann), "alto")
-}
-
-func (m *FileSystemManager) DatasetAnnotationYoloDir(ann *model.Annotation) string {
-	return path.Join(m.baseAnnotationPath(ann), "yolo")
-}
-
-func (m *FileSystemManager) ModelPath(model *model.Model) string {
-	return path.Join(m.modelsDir, model.LocalPath)
-}
-
-func (m *FileSystemManager) TrainingDir(t *model.Training) string {
-	return path.Join(m.trainingDir, t.ID)
-}
-
-func (m *FileSystemManager) CleanupLocalStore(dryRun bool, annsMap map[string][]*model.Annotation, dss []*model.Dataset) ([]string, error) {
+func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*model.Annotation, dss []*model.Dataset) ([]string, error) {
 	var toDelete []string
 
 	dataDir, err := filepath.Abs(m.baseDir)

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
@@ -17,10 +17,10 @@ type AssetGen struct {
 	dataset       *Dataset
 	annotationTEI *AnnotationTEI
 	annotation    *Annotation
-	fileSysMgt    *store.FileSystemManager
+	fileSysMgt    *filesys.Manager
 }
 
-func NewAssetGen(dataset *Dataset, annotationTEI *AnnotationTEI, annotation *Annotation, fileSysMgt *store.FileSystemManager) *AssetGen {
+func NewAssetGen(dataset *Dataset, annotationTEI *AnnotationTEI, annotation *Annotation, fileSysMgt *filesys.Manager) *AssetGen {
 	return &AssetGen{
 		dataset:       dataset,
 		annotationTEI: annotationTEI,
@@ -104,6 +104,7 @@ func (ag *AssetGen) generateAssetsForPages(ds *model.Dataset, datasetId, annotat
 		return err
 	}
 
+	now := time.Now()
 	metadata := struct {
 		DatasetID    string `json:"dataset_id"`
 		AnnotationID string `json:"annotation_id"`
@@ -113,7 +114,7 @@ func (ag *AssetGen) generateAssetsForPages(ds *model.Dataset, datasetId, annotat
 		DatasetID:    datasetId,
 		AnnotationID: annotationId,
 		TotalPages:   len(pages),
-		Date:         fmt.Sprintf(time.Now().Format(time.RFC3339)),
+		Date:         now.Format(time.RFC3339),
 	}
 
 	metadataOutPath := path.Join(outDir, "metadata.json")

@@ -6,7 +6,7 @@ import (
 	"path"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/escriptorium"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
@@ -18,7 +18,7 @@ import (
 type AnnotationsUploader struct {
 	annotationSvc        *Annotation
 	datasetSvc           *Dataset
-	fileSysMgt           *store.FileSystemManager
+	fileSysMgt           *filesys.Manager
 	roboflowAPIKey       string
 	pythonExecutable     string
 	escriptoriumPassword string
@@ -29,7 +29,7 @@ type AnnotationsUploader struct {
 func NewAnnotationsUploader(
 	annotationSvc *Annotation,
 	datasetSvc *Dataset,
-	fileSystemMgt *store.FileSystemManager,
+	fileSystemMgt *filesys.Manager,
 	roboflowAPIKey string,
 	pythonExecutable string,
 	escriptoriumUsername string,

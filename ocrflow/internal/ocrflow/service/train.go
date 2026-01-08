@@ -8,7 +8,7 @@ import (
 	"path"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/krakenwrapper"
@@ -18,12 +18,12 @@ import (
 type Train struct {
 	annotationSvc *Annotation
 	modelSvc      *Model
-	fileSysMgt    *store.FileSystemManager
+	fileSysMgt    *filesys.Manager
 	trainingDir   string
 	m             map[string]*model.Training
 }
 
-func NewTrainService(annotationSvc *Annotation, modelSvc *Model, fileSystemMgt *store.FileSystemManager, trainingDir string) *Train {
+func NewTrainService(annotationSvc *Annotation, modelSvc *Model, fileSystemMgt *filesys.Manager, trainingDir string) *Train {
 	return &Train{
 		annotationSvc: annotationSvc,
 		modelSvc:      modelSvc,

@@ -4,11 +4,12 @@ import (
 	"fmt"
 	"os"
 	"path"
-	"path/filepath"
+	"slices"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
@@ -22,11 +23,11 @@ import (
 type Annotation struct {
 	datasetSvc      *Dataset
 	ruleApplier     *AnnotationRuleApplier
-	fileSysMgt      *store.FileSystemManager
+	fileSysMgt      *filesys.Manager
 	annotationStore *store.AnnotationSQL
 }
 
-func NewAnnotationsService(datasetSvc *Dataset, ruleApplier *AnnotationRuleApplier, fileSysMgt *store.FileSystemManager, annotationStore *store.AnnotationSQL) *Annotation {
+func NewAnnotationsService(datasetSvc *Dataset, ruleApplier *AnnotationRuleApplier, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
 	return &Annotation{
 		datasetSvc:      datasetSvc,
 		ruleApplier:     ruleApplier,
@@ -117,17 +118,27 @@ func (a *Annotation) CreateFromZip(aum *model.AnnotationUploadMetadata, save fun
 		return nil, fmt.Errorf("failed to store uploaded annotations: %w", err)
 	}
 	if aum.Format == model.AnnotationFormatYolo {
-		if err := formatcov.Yolo2Alto(dstPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
+		if err := formatcov.Yolo2Alto(a.fileSysMgt.DatasetAnnotationYoloDir(ann), a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
 			return nil, fmt.Errorf("failed to convert YOLO annotations to ALTO: %w", err)
 		}
 	}
 
-	dstPath = a.fileSysMgt.DatasetAnnotationAltoDir(ann)
-	pages, err := store.InferPages(dstPath, aum.Format)
+	pages, err := store.InferPages(a.fileSysMgt.DatasetAnnotationAltoDir(ann), aum.Format)
 	if err != nil {
 		return nil, fmt.Errorf("failed to infer pages from uploaded annotations: %w", err)
 	}
 	ann.Pages = pagesparser.ToString(pages)
+
+	if ann.GroundTruth {
+		for _, p := range ann.Pages {
+			if err := a.fileSysMgt.ApplyToAltoPage(ann, int(p), func(a *alto.Alto) error {
+				alto.ApplyFullCertainty(a)
+				return nil
+			}); err != nil {
+				return nil, fmt.Errorf("apply full certainty to ALTO: %w", err)
+			}
+		}
+	}
 
 	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
 		return nil, fmt.Errorf("failed to insert annotation to store: %w", err)
@@ -188,14 +199,9 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	categorySet := make(map[string]struct{})
 
 	for _, page := range pages {
-		pageAltoPath := filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
-		if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
-			return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
-		}
-
-		af, err := alto.LoadFromFile(pageAltoPath)
+		af, _, err := a.fileSysMgt.RetrieveAltoPage(ann, page)
 		if err != nil {
-			return nil, fmt.Errorf("load ALTO: %w", err)
+			return nil, err
 		}
 
 		for _, ot := range af.Tags.OtherTags {
@@ -233,19 +239,14 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	allLocs := make([]categoryPageContent, 0)
 
 	for _, page := range pages {
-		pageAltoPath := filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
-		if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
-			return nil, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
-		}
-
-		af, err := alto.LoadFromFile(pageAltoPath)
+		af, _, err := a.fileSysMgt.RetrieveAltoPage(ann, page)
 		if err != nil {
 			return nil, fmt.Errorf("load ALTO: %w", err)
 		}
 
 		headers, err := alto.ExtractCategoryContents(af, categories, " / ")
 		if err != nil {
-			return nil, fmt.Errorf("failed to extract headers from ALTO page %s: %w", pageAltoPath, err)
+			return nil, fmt.Errorf("failed to extract headers from ALTO page %d: %w", page, err)
 		}
 
 		for _, h := range headers {
@@ -297,9 +298,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *model.An
 	// only allow updating certain fields
 	fromDB.Meta.Name = ann.Meta.Name
 	fromDB.Meta.Description = ann.Meta.Description
-	fromDB.Segmented = ann.Segmented
 	fromDB.GroundTruth = ann.GroundTruth
-	fromDB.Ocred = ann.Ocred
 
 	if err := a.annotationStore.UpdateAnnotation(fromDB); err != nil {
 		return nil, fmt.Errorf("failed to update annotation in store: %w", err)
@@ -345,6 +344,69 @@ func (a *Annotation) Duplicate(datasetID string, annotationID string, name strin
 	}
 
 	return ann, nil
+}
+
+func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toReview *model.AnnotationExpectedBlocks) (*model.AnnotationExpectedBlocks, error) {
+	ann, err := a.Get(datasetID, annotationID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotation: %w", err)
+	}
+
+	pages, err := pagesparser.Parse(ann.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+	}
+	if len(pages) == 0 {
+		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
+	}
+
+	var diffs []*model.SuggestedDiff
+	for _, page := range pages {
+		af, pageAltoPath, err := a.fileSysMgt.RetrieveAltoPage(ann, page)
+		if err != nil {
+			return nil, fmt.Errorf("load ALTO: %w", err)
+		}
+
+		bp, err := alto.ExtractBlocksByCategory(af, toReview.Category)
+		if err != nil {
+			return nil, fmt.Errorf("failed to extract headers from ALTO page %s: %w", pageAltoPath, err)
+		}
+		for _, block := range bp {
+			contents := alto.ExtractTextContentsFromBlock(block)
+			if len(contents) == 0 {
+				continue
+			}
+			diff := &model.SuggestedDiff{
+				Page:        page,
+				TextBlockID: block.ID,
+				Old:         contents,
+			}
+			diffs = append(diffs, diff)
+		}
+	}
+
+	if slices.Contains(toReview.SanityChecks, model.AnnotationExpectedBlocksSanityTypeExact) {
+		if len(diffs) != len(toReview.ExpectedBlocks) {
+			toReview.FailedChecks = append(toReview.FailedChecks, model.AnnotationExpectedBlocksSanityTypeExact)
+		}
+	}
+	if len(toReview.FailedChecks) > 0 {
+		return toReview, nil
+	}
+
+	for i, diff := range diffs {
+		if i >= len(toReview.ExpectedBlocks) {
+			break
+		}
+		diff.Correction = toReview.ExpectedBlocks[i]
+	}
+
+	for _, diff := range diffs {
+		if !slices.Equal(diff.Old, diff.Correction) {
+			toReview.SuggestedDiffs = append(toReview.SuggestedDiffs, diff)
+		}
+	}
+	return toReview, nil
 }
 
 func buildNodes(remainingCats []string, data []categoryPageContent) []*model.AnnotationIndexNode {

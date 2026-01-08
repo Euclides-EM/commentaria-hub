@@ -6,6 +6,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/tiendc/go-deepcopy"
@@ -13,10 +14,10 @@ import (
 
 type Model struct {
 	modelStore *store.ModelSQL
-	fileSysMgt *store.FileSystemManager
+	fileSysMgt *filesys.Manager
 }
 
-func NewModelService(modelStore *store.ModelSQL, fileSysMgt *store.FileSystemManager) *Model {
+func NewModelService(modelStore *store.ModelSQL, fileSysMgt *filesys.Manager) *Model {
 	return &Model{
 		modelStore: modelStore,
 		fileSysMgt: fileSysMgt,

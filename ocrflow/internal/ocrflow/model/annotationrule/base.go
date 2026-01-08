@@ -3,6 +3,7 @@ package annotationrule
 import (
 	"encoding/json"
 	"fmt"
+	"strings"
 )
 
 type ApplyRulesAction string
@@ -42,6 +43,7 @@ const (
 	TypeRemoveCategories             Type = "remove_categories"
 	TypeRemoveOverlap                Type = "remove_overlap"
 	TypeReassignTextLinesByTolerance Type = "reassign_text_lines_by_tolerance"
+	TypeTextBlocksCorrections        Type = "text_blocks_corrections"
 )
 
 type ApplyRules struct {
@@ -148,7 +150,24 @@ func UnmarshalRuleJSON(data []byte) (AnnotationRule, error) {
 		}
 		return &v, nil
 
+	case TypeTextBlocksCorrections:
+		var v TextBlockCorrections
+		if err := json.Unmarshal(data, &v); err != nil {
+			return nil, fmt.Errorf("unmarshal text_blocks_corrections rule: %w", err)
+		}
+		return &v, nil
 	default:
 		return nil, fmt.Errorf("unknown annotation rule type %q", base.Type)
+	}
+}
+
+func ToApplyRulesAction(value string, defaultVal ApplyRulesAction) ApplyRulesAction {
+	switch ApplyRulesAction(strings.ToLower(strings.TrimSpace(value))) {
+	case ApplyRulesActionCreateNew:
+		return ApplyRulesActionCreateNew
+	case ApplyRulesActionOverwrite:
+		return ApplyRulesActionOverwrite
+	default:
+		return defaultVal
 	}
 }

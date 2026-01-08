@@ -9,6 +9,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
@@ -19,11 +20,11 @@ import (
 type Dataset struct {
 	editionSvc       *Edition
 	datasetStore     *store.DatasetSQL
-	fileSysMgt       *store.FileSystemManager
+	fileSysMgt       *filesys.Manager
 	githubDownloader *ghwrapper.Downloader
 }
 
-func NewDatasetService(editionSvc *Edition, datasetStore *store.DatasetSQL, fileSystemMgt *store.FileSystemManager, githubDownloader *ghwrapper.Downloader) *Dataset {
+func NewDatasetService(editionSvc *Edition, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Downloader) *Dataset {
 	return &Dataset{
 		editionSvc:       editionSvc,
 		datasetStore:     datasetStore,
@@ -145,4 +146,36 @@ func (d *Dataset) GetPageImage(datasetID string, page int) ([]byte, error) {
 		return nil, fmt.Errorf("failed to read page image file: %w", err)
 	}
 	return data, nil
+}
+
+func (d *Dataset) ListSuggestedAnnotationReview(id string) ([][]*model.AnnotationExpectedBlocks, error) {
+	return [][]*model.AnnotationExpectedBlocks{
+		{
+			{
+				Category: "MainZone-Head--Book",
+				SanityChecks: []model.AnnotationExpectedBlocksSanityType{
+					model.AnnotationExpectedBlocksSanityTypeExact,
+				},
+				ExpectedBlocks: [][]string{
+					{"D. HENRION.", "AV LECTEVR."},
+					{"ELEMENT", "PREMIER."},
+					{"ELEMENT", "PREMIER."},
+					{"ELEMENT", "SECOND."},
+					{"ELEMENT", "TROISIESME."},
+					{"ELEMENT", "QVATRIESME."},
+					{"ELEMENT", "CINQVIESME."},
+					{"ELEMENT", "SIXIESME."},
+					{"ELEMENT", "SEPTIESME."},
+					{"ELEMENT", "HVITIESME."},
+					{"ELEMENT", "NEVFIESME."},
+					{"ELEMENT", "DIXIESME."},
+					{"ELEMENT", "VNZIESME."},
+					{"ELEMENT", "DOVZIESME."},
+					{"ELEMENT", "TREIZIESME."},
+					{"ELEMENT", "QVATORZIESME."},
+					{"ELEMENT", "QVINZIESME."},
+				},
+			},
+		}, nil,
+	}, nil
 }

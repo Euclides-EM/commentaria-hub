@@ -1,7 +1,6 @@
 package httpapi
 
 import (
-	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
@@ -23,9 +22,9 @@ import (
 // @Success      200  {array}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations [get]
 func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing dataset ID")
+	datasetID, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
 	}
 	return h.deps.AnnotationSvc.ListAnnotations(datasetID)
 }
@@ -41,16 +40,14 @@ func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations [post]
 func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing parameters")
+	datasetID, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
 	}
 
-	decoder := json.NewDecoder(r.Body)
 	var a model.Annotation
-	if err := decoder.Decode(&a); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation: %w", err)
+	if err = decodeBody(r, &a); err != nil {
+		return nil, err
 	}
 
 	return h.deps.AnnotationSvc.Create(datasetID, &a)
@@ -66,8 +63,10 @@ func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id} [get]
 func (h *Handlers) GetAnnotation(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
+	}
 
 	if datasetID == "" || annotationID == "" {
 		return nil, fmt.Errorf("missing parameters")
@@ -87,10 +86,9 @@ func (h *Handlers) GetAnnotation(r *http.Request) (any, error) {
 // @Success      200  {object}   map[string]string
 // @Router       /datasets/{dataSetId}/annotations/{id} [delete]
 func (h *Handlers) DeleteAnnotation(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
 	}
 	fsClean := strings.ToLower(strings.TrimSpace(r.FormValue("deep"))) == "true"
 	if err := h.deps.AnnotationSvc.Delete(datasetID, annotationID, fsClean); err != nil {
@@ -111,18 +109,16 @@ func (h *Handlers) DeleteAnnotation(r *http.Request) (any, error) {
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id} [put]
 func (h *Handlers) UpdateAnnotation(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
 	}
 
-	decoder := json.NewDecoder(r.Body)
 	var a model.Annotation
-	if err := decoder.Decode(&a); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation: %w", err)
+	if err = decodeBody(r, &a); err != nil {
+		return nil, err
 	}
+
 	return h.deps.AnnotationSvc.Update(datasetID, annotationID, &a)
 }
 
@@ -137,15 +133,14 @@ func (h *Handlers) UpdateAnnotation(r *http.Request) (any, error) {
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/duplicate [post]
 func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing dataset ID")
+	datasetID, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
 	}
 
-	decoder := json.NewDecoder(r.Body)
 	var req model.AnnotationDuplicateRequest
-	if err := decoder.Decode(&req); err != nil {
-		return nil, fmt.Errorf("failed to decode duplicate annotation request: %w", err)
+	if err = decodeBody(r, &req); err != nil {
+		return nil, err
 	}
 
 	return h.deps.AnnotationSvc.Duplicate(datasetID, req.SourceAnnotationID, req.Name, req.Description)
@@ -163,18 +158,16 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/upload/roboflow [put]
 func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
 	}
 
-	decoder := json.NewDecoder(r.Body)
 	var urb model.AnnotationUploadRoboflow
-	if err := decoder.Decode(&urb); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation roboflow upload: %w", err)
+	if err = decodeBody(r, &urb); err != nil {
+		return nil, err
 	}
+
 	return h.deps.AnnotationsUploader.UploadToRoboflow(datasetID, annotationID, &urb)
 }
 
@@ -190,17 +183,14 @@ func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 // @Success      200  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/upload/escriptorium [put]
 func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	annotationID := r.PathValue("id")
-
-	if datasetID == "" || annotationID == "" {
-		return nil, fmt.Errorf("missing parameters")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
 	}
 
-	decoder := json.NewDecoder(r.Body)
 	var aue model.AnnotationUploadEscriptorium
-	if err := decoder.Decode(&aue); err != nil {
-		return nil, fmt.Errorf("failed to decode annotation escriptorium upload: %w", err)
+	if err = decodeBody(r, &aue); err != nil {
+		return nil, err
 	}
 	return h.deps.AnnotationsUploader.UploadToEscriptorium(datasetID, annotationID, &aue)
 }
@@ -224,10 +214,11 @@ func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
 // @Success      201  {object}   model.Annotation
 // @Router       /datasets/{dataSetId}/annotations/fromzip [post]
 func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing dataset ID")
+	datasetID, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
 	}
+
 	format := model.AnnotationFormat(strings.ToLower(strings.TrimSpace(r.FormValue("format"))))
 	if format != model.AnnotationFormatAlto && format != model.AnnotationFormatYolo {
 		return nil, fmt.Errorf("unsupported annotation format: %s", format)
@@ -263,10 +254,11 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 // @Success     201 {object} model.Annotation
 // @Router      /datasets/{dataSetId}/annotations/fromurl [post]
 func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing dataset ID")
+	datasetID, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
 	}
+
 	format := model.AnnotationFormat(r.FormValue("format"))
 	if format != model.AnnotationFormatAlto && format != model.AnnotationFormatYolo {
 		return nil, fmt.Errorf("unsupported annotation format: %s", format)
@@ -329,14 +321,11 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Success      200  {object}   model.AnnotationIndex
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
 func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing dataset ID")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
 	}
-	annotationID := r.PathValue("id")
-	if annotationID == "" {
-		return nil, fmt.Errorf("missing annotation ID")
-	}
+
 	categoriesStr := r.FormValue("categories")
 	var categories []string
 	if categoriesStr != "" {
@@ -355,13 +344,10 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 // @Success      200  {array}   []string
 // @Router       /datasets/{dataSetId}/annotations/{id}/categories [get]
 func (h *Handlers) ListAnnotationCategories(r *http.Request) (any, error) {
-	datasetID := r.PathValue("dataSetId")
-	if datasetID == "" {
-		return nil, fmt.Errorf("missing dataset ID")
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
 	}
-	annotationID := r.PathValue("id")
-	if annotationID == "" {
-		return nil, fmt.Errorf("missing annotation ID")
-	}
+
 	return h.deps.AnnotationSvc.GetAvailableCategories(datasetID, annotationID)
 }
