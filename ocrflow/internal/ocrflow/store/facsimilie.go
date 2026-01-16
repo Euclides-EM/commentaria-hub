@@ -12,7 +12,7 @@ type FacsimileSQL struct {
 
 func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*model.Facsimile, error) {
 	rows, err := s.db.Query(`
-		SELECT id, url, created_at, updated_at, name, description
+		SELECT id, url, main_text_pages, created_at, updated_at, name, description
 		FROM facsimiles
 		WHERE edition_id = ?
 	`, editionID)
@@ -28,6 +28,7 @@ func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*model.Fac
 		if err := rows.Scan(
 			&f.ID,
 			&f.ScanURL,
+			&f.MainTextPages,
 			&f.CreatedAt,
 			&f.UpdatedAt,
 			&f.Name,
@@ -49,12 +50,13 @@ func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (
 	f := &model.Facsimile{}
 
 	err := s.db.QueryRow(`
-		SELECT id, url, created_at, updated_at, name, description
+		SELECT id, url, main_text_pages, created_at, updated_at, name, description
 		FROM facsimiles
 		WHERE edition_id = ? AND id = ?
 	`, editionKey, facsimileID).Scan(
 		&f.ID,
 		&f.ScanURL,
+		&f.MainTextPages,
 		&f.CreatedAt,
 		&f.UpdatedAt,
 		&f.Name,
@@ -72,9 +74,9 @@ func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (
 
 func (s *FacsimileSQL) InsertFacsimile(editionId string, f *model.Facsimile) (*model.Facsimile, error) {
 	_, err := s.db.Exec(`
-		INSERT INTO facsimiles (id, edition_id, url, created_at, updated_at, name, description, url)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-	`, f.ID, editionId, f.ScanURL, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, f.ScanURL)
+		INSERT INTO facsimiles (id, edition_id, url, main_text_pages, created_at, updated_at, name, description, url)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	`, f.ID, editionId, f.ScanURL, f.MainTextPages, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, f.ScanURL)
 	if err != nil {
 		return nil, err
 	}

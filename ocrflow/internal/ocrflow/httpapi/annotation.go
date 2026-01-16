@@ -259,7 +259,7 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 		return nil, err
 	}
 
-	format := model.AnnotationFormat(r.FormValue("format"))
+	format := model.AnnotationFormat(strings.ToLower(strings.TrimSpace(r.FormValue("format"))))
 	if format != model.AnnotationFormatAlto && format != model.AnnotationFormatYolo {
 		return nil, fmt.Errorf("unsupported annotation format: %s", format)
 	}

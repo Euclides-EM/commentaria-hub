@@ -36,6 +36,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions/{editionId}/facsimilies", httpwrapper.Create(h.CreateFacsimile).Build())
 
 	api.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
+	api.HandleFunc("/datasets/{dataSetId}", httpwrapper.Delete(h.DeleteDataset).Update(h.UpdateDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_rules", httpwrapper.Get(h.ListSuggestedRulesForDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_reviews", httpwrapper.Get(h.ListSuggestedReviewForDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/images/{pageNum}", httpwrapper.GetPNG(h.GetPageImage).Build())
@@ -43,7 +44,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}", httpwrapper.Delete(h.DeleteAnnotation).Update(h.UpdateAnnotation).Get(h.GetAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/fromzip", httpwrapper.CreateFile(h.GetAnnotationZipFile).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/fromurl", httpwrapper.CreateFile(h.GetAnnotationURL).Build())
-	api.HandleFunc("/datasets/{dataSetId}/annotations/duplicate", httpwrapper.CreateFile(h.DuplicateAnnotation).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/duplicate", httpwrapper.Create(h.DuplicateAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/upload/roboflow", httpwrapper.Update(h.UploadToRoboflow).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/upload/escriptorium", httpwrapper.Update(h.UploadToEscriptorium).Build())
 
@@ -67,7 +68,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNum}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
 
-	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
+	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).CreateFile(h.UploadModel).Build())
+	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Build())
 	api.HandleFunc("/train", httpwrapper.Create(h.TrainModel).Build())
 
 	api.HandleFunc("/store/cleanup/local", httpwrapper.Delete(h.CleanupLocalStore).Build())

@@ -115,3 +115,14 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*model.Ann
 
 	return toDelete, nil
 }
+
+func (m *Manager) DeleteDatasetFiles(ds *model.Dataset) error {
+	dsPath := m.DatasetDir(ds.ID)
+	if _, err := os.Stat(dsPath); os.IsNotExist(err) {
+		return nil
+	}
+	if err := os.RemoveAll(dsPath); err != nil {
+		return fmt.Errorf("failed to delete dataset files at %s: %w", dsPath, err)
+	}
+	return nil
+}

@@ -2,11 +2,12 @@ package formatcov
 
 import (
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 )
 
 func Alto2Yolo(imgDir, altoDir, outputDir string, shuffle float64, segmontoGranularity string) error {
@@ -16,7 +17,7 @@ func Alto2Yolo(imgDir, altoDir, outputDir string, shuffle float64, segmontoGranu
 		return fmt.Errorf("failed to read ALTO dir: %w", err)
 	}
 	for _, file := range altoFiles {
-		if !file.IsDir() && filepath.Ext(file.Name()) == ".xml" {
+		if !file.IsDir() && filepath.Ext(file.Name()) == ".xml" && file.Name() != "METS.xml" {
 			imagesInAlto = append(imagesInAlto, filepath.Join(imgDir, strings.TrimSuffix(file.Name(), ".xml")+".png"))
 		}
 	}

@@ -132,14 +132,14 @@ func (a *Annotation) CreateFromZip(aum *model.AnnotationUploadMetadata, save fun
 		}
 	}
 
-	pages, err := store.InferPages(a.fileSysMgt.DatasetAnnotationAltoDir(ann), aum.Format)
+	pages, err := store.InferPages(a.fileSysMgt.DatasetAnnotationAltoDir(ann), model.AnnotationFormatAlto)
 	if err != nil {
 		return nil, fmt.Errorf("failed to infer pages from uploaded annotations: %w", err)
 	}
 	ann.Pages = pagesparser.ToString(pages)
 
 	if ann.GroundTruth {
-		for _, p := range ann.Pages {
+		for _, p := range pages {
 			if err := a.fileSysMgt.ApplyToAltoPage(ann, int(p), func(a *alto.Alto) error {
 				alto.ApplyFullCertainty(a)
 				return nil

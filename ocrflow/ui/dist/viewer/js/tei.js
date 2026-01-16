@@ -121,7 +121,7 @@ export function renderTeiText({ teiInput, out, teiStatus, minCert = 0, maskChar 
         }
 
         out.innerHTML = parts.join("");
-        teiStatus.textContent = `Rendered ${parts.length} paragraph(s).`;
+        teiStatus.textContent = `Rendered ${parts.length} text part(s).`;
     } catch (e) {
         out.innerHTML = `<div class="empty"><span class="mono">${escapeHtml(String(e.message || e))}</span></div>`;
         teiStatus.textContent = "Error";

@@ -253,7 +253,7 @@
             }
 
             out.innerHTML = parts.join("");
-            status.textContent = `Rendered ${parts.length} paragraph(s).`;
+            status.textContent = `Rendered ${parts.length} text part(s).`;
         } catch (e) {
             out.innerHTML = `<div class="empty"><span class="mono">${escapeHtml(String(e.message || e))}</span></div>`;
             status.textContent = "Error";

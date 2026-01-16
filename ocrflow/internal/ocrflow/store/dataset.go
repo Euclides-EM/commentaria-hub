@@ -3,6 +3,7 @@ package store
 import (
 	"database/sql"
 	"errors"
+	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 )
@@ -102,5 +103,24 @@ func (s *DatasetSQL) DeleteDataset(id string) error {
 		DELETE FROM datasets
 		WHERE id = ?
 	`, id)
+	return err
+}
+
+func (s *DatasetSQL) UpdateDataset(ds *model.Dataset) error {
+	ds.UpdatedAt = time.Now()
+	_, err := s.db.Exec(`
+		UPDATE datasets
+		SET name = ?, description = ?, updated_at = ?, edition_id = ?, facsimile_id = ?, dpi = ?, deskewed = ?
+		WHERE id = ?
+	`,
+		ds.Name,
+		ds.Description,
+		ds.UpdatedAt,
+		ds.EditionID,
+		ds.FacsimileID,
+		ds.DPI,
+		ds.Deskewed,
+		ds.ID,
+	)
 	return err
 }

@@ -53,6 +53,48 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	)
 }
 
+// DeleteDataset godoc
+// @Summary      Delete Dataset
+// @Description  Delete a dataset by its ID.
+// @Tags         Datasets
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   map[string]string
+// @Router       /datasets/{dataSetId} [delete]
+func (h *Handlers) DeleteDataset(r *http.Request) (any, error) {
+	datasetID, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
+	}
+	if err = h.deps.DatasetSvc.Delete(datasetID); err != nil {
+		return nil, err
+	}
+	return map[string]string{"status": "deleted"}, nil
+}
+
+// UpdateDataset godoc
+// @Summary      Update Dataset
+// @Description  Update an existing dataset.
+// @Tags         Datasets
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        dataset  body      model.Dataset  true  "Updated dataset"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   model.Dataset
+// @Router       /datasets/{dataSetId} [put]
+func (h *Handlers) UpdateDataset(request *http.Request) (any, error) {
+	datasetID, err := extractDatasetID(request)
+	if err != nil {
+		return nil, err
+	}
+	var d model.Dataset
+	if err := decodeBody(request, &d); err != nil {
+		return nil, err
+	}
+	return h.deps.DatasetSvc.Update(datasetID, &d)
+}
+
 // GetPageImage godoc
 // @Summary      Get Page Image
 // @Description  Get the image for a specific page in a dataset.

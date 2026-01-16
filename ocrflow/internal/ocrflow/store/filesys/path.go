@@ -34,16 +34,20 @@ import (
 //             ├─ config.yml
 //             └─ labelmap.txt
 
+func (m *Manager) DatasetDir(dsID string) string {
+	return path.Join(m.baseDir, dsID)
+}
+
 func (m *Manager) DatasetPDFPath(ds *model.Dataset) string {
-	return path.Join(m.baseDir, ds.ID, fmt.Sprintf("%s_%s.pdf", ds.EditionID, ds.FacsimileID))
+	return path.Join(m.DatasetDir(ds.ID), fmt.Sprintf("%s_%s.pdf", ds.EditionID, ds.FacsimileID))
 }
 
 func (m *Manager) DatasetImagesDir(ds *model.Dataset) string {
-	return path.Join(m.baseDir, ds.ID, "imgs")
+	return path.Join(m.DatasetDir(ds.ID), "imgs")
 }
 
 func (m *Manager) baseAnnotationPath(ann *model.Annotation) string {
-	return path.Join(m.baseDir, ann.DatasetID, "annotations", ann.ID)
+	return path.Join(m.DatasetDir(ann.DatasetID), "annotations", ann.ID)
 }
 
 func (m *Manager) DatasetAnnotationAltoDir(ann *model.Annotation) string {

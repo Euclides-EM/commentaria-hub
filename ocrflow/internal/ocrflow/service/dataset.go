@@ -117,14 +117,36 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 }
 
 func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.AnnotationRule, error) {
+	ds, err := d.Get(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	ed, fac, err := d.editionSvc.GetFacsimile(ds.EditionID, ds.FacsimileID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get facsimile: %w", err)
+	}
+	if fac == nil {
+		return nil, fmt.Errorf("facsimile with id %s not found in edition %s", ds.FacsimileID, ds.EditionID)
+	}
+
+	segmentationModelID := "1615FineTunedCapricciosaM_0312"
+	categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
+	categoriesForOverlapRemove := []string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
+	categoriesToExcludeFromLineDetection := []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
+	switch ed.ID {
+	case "Paris_1598a":
+		segmentationModelID = "1598FineTuned16150312_0101"
+	case "Paris_1667":
+		segmentationModelID = "1667_ft_rvkwc5"
+	}
+
 	return [][]annotationrule.AnnotationRule{
 		{
-			// pages 321-387 are algebra summary - impossible to detect... todo: Vincenzo
-			annotationrule.NewSlicePagesFixed("15-320,388-655"),
-			annotationrule.NewSegment("1615FineTunedCapricciosaM_0312"),
-			annotationrule.NewRemoveCategories([]string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}),
-			annotationrule.NewRemoveOverlap([]string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}, 1000),
-			annotationrule.NewLinesDetect([]string{"MainZone"}, []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}),
+			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
+			annotationrule.NewSegment(segmentationModelID),
+			annotationrule.NewRemoveCategories(categoriesToRemove),
+			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
+			annotationrule.NewLinesDetect([]string{"MainZone"}, categoriesToExcludeFromLineDetection),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
 		},
@@ -178,4 +200,31 @@ func (d *Dataset) ListSuggestedAnnotationReview(id string) ([][]*model.Annotatio
 			},
 		}, nil,
 	}, nil
+}
+
+func (d *Dataset) Delete(id string) error {
+	ds, err := d.Get(id)
+	if err != nil {
+		return fmt.Errorf("failed to get dataset: %w", err)
+	}
+	if err := d.datasetStore.DeleteDataset(id); err != nil {
+		return fmt.Errorf("failed to delete dataset from store: %w", err)
+	}
+	if err := d.fileSysMgt.DeleteDatasetFiles(ds); err != nil {
+		return fmt.Errorf("failed to delete dataset files: %w", err)
+	}
+	return nil
+}
+
+func (d *Dataset) Update(id string, m *model.Dataset) (*model.Dataset, error) {
+	existingDS, err := d.Get(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	existingDS.Name = m.Name
+	existingDS.Description = m.Description
+	if err := d.datasetStore.UpdateDataset(existingDS); err != nil {
+		return nil, fmt.Errorf("failed to update dataset in store: %w", err)
+	}
+	return existingDS, nil
 }
