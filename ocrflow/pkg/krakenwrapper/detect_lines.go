@@ -63,7 +63,7 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 	baselineJsonFile.Close()
 	defer os.Remove(baselineJsonFile.Name())
 
-	if err := envexec.Cmd("kraken",
+	if err := envexec.PythonCmd("kraken",
 		"-i", imgPath,
 		baselineJsonFile.Name(),
 		"segment",

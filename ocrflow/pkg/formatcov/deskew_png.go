@@ -35,8 +35,7 @@ func DeskewPNGs(src string, dst string) error {
 		outPath := filepath.Join(dst, name)
 
 		log.Printf("[%d/%d] Deskewing %q -> %q", i+1, len(entries), inPath, outPath)
-		// todo: use embedded python script + probably batch is possible...
-		if err := envexec.Cmd("deskew", "--output", outPath, inPath); err != nil {
+		if err := envexec.PythonCmd("deskew", "--output", outPath, inPath); err != nil {
 			return fmt.Errorf("deskew image %q: %w", inPath, err)
 		}
 	}

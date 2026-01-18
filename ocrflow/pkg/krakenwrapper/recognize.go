@@ -2,11 +2,12 @@ package krakenwrapper
 
 import (
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 	"os"
 	"path/filepath"
 	"slices"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 )
 
 var imageFormats = []string{".tif", ".tiff", ".png"}
@@ -79,7 +80,7 @@ func runProcessImages(images []string, outputDir, segmentationModel string) erro
 	//	args = append(args, "ocr", "--model", ocrModel)
 	//}
 
-	if err := envexec.Cmd("yaltai", args...); err != nil {
+	if err := envexec.PythonCmd("yaltai", args...); err != nil {
 		return fmt.Errorf("kraken recognition failed: %w", err)
 	}
 

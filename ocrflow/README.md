@@ -1,3 +1,19 @@
+# App setup
+
+```shell
+cd app
+yarn
+```
+
+# Python setup
+
+```shell
+cd python-tools
+uv sync
+```
+
+# Go setup
+
 Add a file named `.env_private` in the `ocrflow` root directory with the following content:
 ```
 GITHUB_TOKEN=github_pat_1***5

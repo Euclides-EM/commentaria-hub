@@ -45,5 +45,5 @@ func Alto2Yolo(imgDir, altoDir, outputDir string, shuffle float64, segmontoGranu
 		c += " --segmonto " + segmontoGranularity
 	}
 
-	return envexec.Cmd("bash", "-c", c)
+	return envexec.PythonBashCmd(c)
 }
