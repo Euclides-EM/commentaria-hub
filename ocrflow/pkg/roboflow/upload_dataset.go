@@ -1,16 +1,11 @@
 package roboflow
 
 import (
-	_ "embed"
-	"fmt"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 	"github.com/samber/lo"
-	"os"
-	"strings"
+	"path/filepath"
+	"runtime"
 )
-
-//go:embed upload_dataset.py
-var pythonScriptUploadDataset string
 
 type UploadDatasetParams struct {
 	APIKey           string
@@ -50,24 +45,17 @@ func (p *UploadDatasetParams) SetIsNotGroundTruth(isNotGroundTruth bool) *Upload
 }
 
 func UploadDataset(pythonExecutable string, p *UploadDatasetParams) error {
-	script := pythonScriptUploadDataset
-	script = strings.ReplaceAll(script, "API_KEY", p.APIKey)
-	script = strings.ReplaceAll(script, "WORKSPACE_ID", p.WorkspaceID)
-	script = strings.ReplaceAll(script, "DATASET_PATH", p.DatasetPath)
-	script = strings.ReplaceAll(script, "PROJECT_ID", p.ProjectID)
-	script = strings.ReplaceAll(script, "IS_NOT_GROUND_TRUTH", lo.Ternary(p.IsNotGroundTruth, "True", "False"))
+	_, filename, _, _ := runtime.Caller(0)
+	rootDir := filepath.Join(filepath.Dir(filename), "..", "..", "..")
+	scriptPath := filepath.Join(rootDir, "python-tools", "roboflow_upload_dataset.py")
 
-	tmp, err := os.CreateTemp("", "upload-dataset-*.py")
-	if err != nil {
-		return fmt.Errorf("create temp file: %w", err)
+	env := map[string]string{
+		"ROBOFLOW_API_KEY":           p.APIKey,
+		"ROBOFLOW_WORKSPACE_ID":      p.WorkspaceID,
+		"ROBOFLOW_DATASET_PATH":      p.DatasetPath,
+		"ROBOFLOW_PROJECT_ID":        p.ProjectID,
+		"ROBOFLOW_IS_NOT_GROUND_TRUTH": lo.Ternary(p.IsNotGroundTruth, "True", "False"),
 	}
-	defer os.Remove(tmp.Name())
 
-	if _, err := tmp.WriteString(script); err != nil {
-		tmp.Close()
-		return fmt.Errorf("write script: %w", err)
-	}
-	tmp.Close()
-
-	return envexec.PythonCmd("python", tmp.Name())
+	return envexec.PythonCmdWithEnv(env, "python", scriptPath)
 }
