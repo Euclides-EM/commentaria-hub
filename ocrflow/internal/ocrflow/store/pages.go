@@ -2,13 +2,14 @@ package store
 
 import (
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"log"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strconv"
+
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
 
 func InferPages(dstPath string, format model.AnnotationFormat) ([]int, error) {
@@ -106,6 +107,9 @@ func inferPagesFromAltoDir(p string) ([]int, error) {
 
 	res := make([]int, 0)
 	for _, f := range files {
+		if f.IsDir() || f.Name() == "METS.xml" {
+			continue
+		}
 		pageNum, err := pagesparser.FileNameToPage(f.Name())
 		if err != nil {
 			log.Printf("could not parse file %s, expected format page-0001.xml, skipping: %v", f.Name(), err)
