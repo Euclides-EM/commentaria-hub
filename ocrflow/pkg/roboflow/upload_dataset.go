@@ -2,7 +2,9 @@ package roboflow
 
 import (
 	_ "embed"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/python"
+	"fmt"
+	"os"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 	"github.com/samber/lo"
 	"strings"
 )
@@ -55,5 +57,17 @@ func UploadDataset(pythonExecutable string, p *UploadDatasetParams) error {
 	script = strings.ReplaceAll(script, "PROJECT_ID", p.ProjectID)
 	script = strings.ReplaceAll(script, "IS_NOT_GROUND_TRUTH", lo.Ternary(p.IsNotGroundTruth, "True", "False"))
 
-	return python.RunScript(pythonExecutable, script)
+	tmp, err := os.CreateTemp("", "upload-dataset-*.py")
+	if err != nil {
+		return fmt.Errorf("create temp file: %w", err)
+	}
+	defer os.Remove(tmp.Name())
+
+	if _, err := tmp.WriteString(script); err != nil {
+		tmp.Close()
+		return fmt.Errorf("write script: %w", err)
+	}
+	tmp.Close()
+
+	return envexec.PythonCmd("python", tmp.Name())
 }
