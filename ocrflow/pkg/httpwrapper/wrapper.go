@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"os"
+	"strings"
 )
 
 func writeJSON(w http.ResponseWriter, status int, v any) {
@@ -178,10 +179,37 @@ func (wb *wrapperBuilder) Delete(f func(*http.Request) (any, error)) *wrapperBui
 
 func (wb *wrapperBuilder) Build() func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
-		if !authorized(r) {
+		origin := r.Header.Get("Origin")
+		httpAddr := os.Getenv("HTTP_ADDR")
+		if httpAddr == "" {
+			httpAddr = ":8085"
+		}
+		serverPort := strings.TrimPrefix(httpAddr, ":")
+		allowedOrigins := []string{
+			"http://localhost:5173",
+			"http://localhost:" + serverPort,
+		}
+
+		for _, allowedOrigin := range allowedOrigins {
+			if origin == allowedOrigin {
+				w.Header().Set("Access-Control-Allow-Origin", origin)
+				w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+				w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
+				break
+			}
+		}
+
+		if r.Method == http.MethodOptions {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+
+		authedReq, isAuthorized := authorized(r)
+		if !isAuthorized {
 			http.Error(w, "Unauthorized", http.StatusUnauthorized)
 			return
 		}
+		r = authedReq
 		switch r.Method {
 		case http.MethodGet:
 			if wb.get != nil {

@@ -2,6 +2,7 @@ package ghwrapper
 
 import (
 	"bytes"
+	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -63,7 +64,7 @@ func parseLfsPointer(data []byte) (*lfsPointer, error) {
 }
 
 // getLFSDownloadLink uses the LFS Batch API to exchange an OID for a direct download URL.
-func (d *Downloader) getLFSDownloadLink(owner, repo, oid string, size int64) (string, error) {
+func (d *Downloader) getLFSDownloadLink(ctx context.Context, owner, repo, oid string, size int64) (string, error) {
 	// LFS API endpoint follows the format: https://github.com/<owner>/<repo>.git/info/lfs/objects/batch
 	lfsApiUrl := fmt.Sprintf("https://%s/%s/%s.git/info/lfs/objects/batch", githubHostname, owner, repo)
 
@@ -85,7 +86,7 @@ func (d *Downloader) getLFSDownloadLink(owner, repo, oid string, size int64) (st
 	}
 
 	// LFS API uses a different Accept header
-	req.Header = d.httpHeaders()
+	req.Header = d.httpHeaders(ctx)
 	req.Header.Set("Accept", "application/vnd.git-lfs+json")
 	req.Header.Set("Content-Type", "application/vnd.git-lfs+json")
 
@@ -119,12 +120,12 @@ func (d *Downloader) getLFSDownloadLink(owner, repo, oid string, size int64) (st
 	return batchResp.Objects[0].Actions.Download.Href, nil
 }
 
-func (d *Downloader) downloadLFS(finalURL, destPath string) error {
+func (d *Downloader) downloadLFS(ctx context.Context, finalURL, destPath string) error {
 	req, err := http.NewRequest(http.MethodGet, finalURL, nil)
 	if err != nil {
 		return err
 	}
-	req.Header = d.httpHeaders()
+	req.Header = d.httpHeaders(ctx)
 
 	resp, err := d.httpClient.Do(req)
 	if err != nil {

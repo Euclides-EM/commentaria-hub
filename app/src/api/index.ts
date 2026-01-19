@@ -22,6 +22,7 @@ export type { annotationrule_Stretch } from './models/annotationrule_Stretch';
 export type { annotationrule_TextBlockCorrection } from './models/annotationrule_TextBlockCorrection';
 export type { annotationrule_TextBlockCorrections } from './models/annotationrule_TextBlockCorrections';
 export type { annotationrule_Type } from './models/annotationrule_Type';
+export type { httpapi_AuthValidateResponse } from './models/httpapi_AuthValidateResponse';
 export type { model_Annotation } from './models/model_Annotation';
 export type { model_AnnotationDuplicateRequest } from './models/model_AnnotationDuplicateRequest';
 export type { model_AnnotationExpectedBlocks } from './models/model_AnnotationExpectedBlocks';
@@ -48,6 +49,7 @@ export type { model_TrainingStatus } from './models/model_TrainingStatus';
 
 export { AnnotationsService } from './services/AnnotationsService';
 export { AnnotationsApplyRulesService } from './services/AnnotationsApplyRulesService';
+export { AuthenticationService } from './services/AuthenticationService';
 export { DatasetsService } from './services/DatasetsService';
 export { EditionsService } from './services/EditionsService';
 export { FacsimilesService } from './services/FacsimilesService';

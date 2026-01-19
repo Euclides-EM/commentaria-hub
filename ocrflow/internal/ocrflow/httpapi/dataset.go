@@ -47,7 +47,7 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	if err := decodeBody(r, &d); err != nil {
 		return nil, err
 	}
-	return h.deps.DatasetSvc.Create(&d,
+	return h.deps.DatasetSvc.Create(r.Context(), &d,
 		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("force_overwrite"))) == "true",
 		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("skip_deskew"))) == "true",
 	)

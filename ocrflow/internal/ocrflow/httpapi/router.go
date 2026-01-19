@@ -32,6 +32,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/health", httpwrapper.Get(h.Health).Build())
 
+	api.HandleFunc("/auth/validate", httpwrapper.Get(h.ValidateAuth).Build())
+
 	api.HandleFunc("/editions", httpwrapper.Get(h.ListEditions).Create(h.CreateEdition).Build())
 	api.HandleFunc("/editions/{editionId}/facsimilies", httpwrapper.Create(h.CreateFacsimile).Build())
 

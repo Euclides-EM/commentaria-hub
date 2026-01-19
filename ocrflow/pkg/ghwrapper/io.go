@@ -1,18 +1,21 @@
 package ghwrapper
 
 import (
+	"context"
 	"fmt"
 	"io"
 	"net/http"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
 )
 
-func (d *Downloader) fetchRawContent(url string) (content []byte, err error) {
+func (d *Downloader) fetchRawContent(ctx context.Context, url string) (content []byte, err error) {
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return
 	}
-	h := d.httpHeaders()
+	h := d.httpHeaders(ctx)
 	// Ask for raw content directly
 	h.Set("Accept", "application/vnd.github.v3.raw")
 	req.Header = h
@@ -38,13 +41,16 @@ func (d *Downloader) fetchRawContent(url string) (content []byte, err error) {
 	return data, nil
 }
 
-func (d *Downloader) httpHeaders() http.Header {
+func (d *Downloader) httpHeaders(ctx context.Context) http.Header {
 	h := http.Header{}
 	// Use standard media type for contents API and downloads
 	h.Set("Accept", "application/vnd.github+json")
 	h.Set("User-Agent", "gh-folder-downloader-go")
 
-	if d.GitToken != "" {
+	// Check if token is in context first
+	if token, ok := ctx.Value(httpwrapper.GitHubTokenKey).(string); ok && token != "" {
+		h.Set("Authorization", fmt.Sprintf("Bearer %s", token))
+	} else if d.GitToken != "" {
 		h.Set("Authorization", fmt.Sprintf("Bearer %s", d.GitToken))
 	}
 	return h

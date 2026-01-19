@@ -2,11 +2,10 @@ package ghwrapper
 
 import (
 	"bytes"
+	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/avast/retry-go"
 	"io"
 	"log"
 	"net/http"
@@ -15,6 +14,9 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/avast/retry-go"
 )
 
 const apiBase = "https://api.github.com"
@@ -35,8 +37,8 @@ func NewDownloader(token string, timeout time.Duration) *Downloader {
 	}
 }
 
-// DownloadRecursive downloads all files under the GitHub tree URL into destRoot.
-func (d *Downloader) DownloadRecursive(treeURL, destRoot string) error {
+// DownloadRecursive downloads all files under the GitHub tree URL into destRoot with context.
+func (d *Downloader) DownloadRecursive(ctx context.Context, treeURL, destRoot string) error {
 	pu, err := parseGitHubTreeURL(treeURL)
 	if err != nil {
 		return err
@@ -47,7 +49,7 @@ func (d *Downloader) DownloadRecursive(treeURL, destRoot string) error {
 		return fmt.Errorf("failed to resolve dest: %w", err)
 	}
 
-	return d.recurseDownload(pu, destRootAbs, "")
+	return d.recurseDownload(ctx, pu, destRootAbs, "")
 }
 
 type ghEntry struct {
@@ -66,7 +68,7 @@ func (e httpError) Error() string {
 	return e.msg
 }
 
-func (d *Downloader) listDir(owner, repo, path, ref string) ([]ghEntry, *ghEntry, error) {
+func (d *Downloader) listDir(ctx context.Context, owner, repo, path, ref string) ([]ghEntry, *ghEntry, error) {
 	apiPath := strings.TrimLeft(path, "/")
 	u := fmt.Sprintf("%s/repos/%s/%s/contents/%s?ref=%s",
 		apiBase, owner, repo, url.PathEscape(apiPath), url.QueryEscape(ref))
@@ -75,7 +77,7 @@ func (d *Downloader) listDir(owner, repo, path, ref string) ([]ghEntry, *ghEntry
 	if err != nil {
 		return nil, nil, err
 	}
-	req.Header = d.httpHeaders()
+	req.Header = d.httpHeaders(ctx)
 
 	resp, err := d.httpClient.Do(req)
 	if err != nil {
@@ -130,15 +132,15 @@ func writeToFile(destPath string, reader io.Reader) error {
 }
 
 // downloadFile attempts to download the file, handling LFS pointers and CDN 404 fallbacks.
-func (d *Downloader) downloadFile(owner, repo, finalURL, sha, destPath string) error {
+func (d *Downloader) downloadFile(ctx context.Context, owner, repo, finalURL, sha, destPath string) error {
 	if err := retry.Do(func() error {
 		// First, get the file content
-		contentData, err := d.fetchRawContent(finalURL)
+		contentData, err := d.fetchRawContent(ctx, finalURL)
 
 		// If 404, try Git blob API as fallback (handles CDN cases)
 		var httperr *httpError
 		if err != nil && errors.As(err, &httperr) && httperr != nil && httperr.statusCode == http.StatusNotFound {
-			contentData, err = d.fetchRawContent(fmt.Sprintf("%s/repos/%s/%s/git/blobs/%s", apiBase, owner, repo, sha))
+			contentData, err = d.fetchRawContent(ctx, fmt.Sprintf("%s/repos/%s/%s/git/blobs/%s", apiBase, owner, repo, sha))
 		}
 
 		if err != nil {
@@ -153,11 +155,11 @@ func (d *Downloader) downloadFile(owner, repo, finalURL, sha, destPath string) e
 		}
 
 		// It's an LFS pointer, handle LFS download
-		lfsLink, err := d.getLFSDownloadLink(owner, repo, lfsPtr.Oid, lfsPtr.Size)
+		lfsLink, err := d.getLFSDownloadLink(ctx, owner, repo, lfsPtr.Oid, lfsPtr.Size)
 		if err != nil {
 			return fmt.Errorf("failed to get LFS download link for %s: %w", destPath, err)
 		}
-		return d.downloadLFS(lfsLink, destPath)
+		return d.downloadLFS(ctx, lfsLink, destPath)
 	}, retry.RetryIf(func(err error) bool {
 		var httperr *httpError
 		return err != nil && errors.As(err, &httperr) && (httperr.statusCode == 429 || httperr.statusCode == 502 || httperr.statusCode == 503 || httperr.statusCode == 504)
@@ -169,10 +171,10 @@ func (d *Downloader) downloadFile(owner, repo, finalURL, sha, destPath string) e
 	return nil
 }
 
-func (d *Downloader) recurseDownload(gt *ghURLTree, destRoot, relPath string) error {
+func (d *Downloader) recurseDownload(ctx context.Context, gt *ghURLTree, destRoot, relPath string) error {
 	apiPath := strings.Trim(strings.Trim(gt.path+"/"+relPath, "/"), "/")
 
-	entries, singleFile, err := d.listDir(gt.owner, gt.repo, apiPath, gt.ref)
+	entries, singleFile, err := d.listDir(ctx, gt.owner, gt.repo, apiPath, gt.ref)
 	if err != nil {
 		return err
 	}
@@ -186,7 +188,7 @@ func (d *Downloader) recurseDownload(gt *ghURLTree, destRoot, relPath string) er
 			return err
 		}
 		// PASS SHA to downloadFile
-		return d.downloadFile(gt.owner, gt.repo, singleFile.DownloadURL, singleFile.SHA, dest)
+		return d.downloadFile(ctx, gt.owner, gt.repo, singleFile.DownloadURL, singleFile.SHA, dest)
 	}
 
 	for _, e := range entries {
@@ -199,13 +201,13 @@ func (d *Downloader) recurseDownload(gt *ghURLTree, destRoot, relPath string) er
 				return err
 			}
 			// PASS SHA to downloadFile
-			if err := d.downloadFile(gt.owner, gt.repo, e.DownloadURL, e.SHA, dest); err != nil {
+			if err := d.downloadFile(ctx, gt.owner, gt.repo, e.DownloadURL, e.SHA, dest); err != nil {
 				return err
 			}
 		case "dir":
 			subRel := strings.TrimPrefix(e.Path, gt.path)
 			subRel = strings.TrimPrefix(subRel, "/")
-			if err := d.recurseDownload(gt, destRoot, subRel); err != nil {
+			if err := d.recurseDownload(ctx, gt, destRoot, subRel); err != nil {
 				return err
 			}
 		default:

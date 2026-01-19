@@ -1,6 +1,7 @@
 package httpwrapper
 
 import (
+	"context"
 	"encoding/json"
 	"net/http"
 	"strings"
@@ -15,49 +16,64 @@ var allowList = map[string]struct{}{
 	"miamish":    {},
 }
 
-var cache *ttlcache.Cache[string, bool]
+var cache *ttlcache.Cache[string, *GitHubUser]
 
 func init() {
-	cache = ttlcache.New[string, bool](
-		ttlcache.WithTTL[string, bool](30 * time.Minute),
+	cache = ttlcache.New[string, *GitHubUser](
+		ttlcache.WithTTL[string, *GitHubUser](30 * time.Minute),
 	)
 
 	go cache.Start()
 }
 
-type githubUser struct {
+type GitHubUser struct {
 	Login string `json:"login"`
+	Email string `json:"email"`
 }
 
-func authorized(r *http.Request) bool {
-	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) {
-		return true
-	}
+type contextKey string
 
+const GitHubTokenKey contextKey = "github_token"
+const GitHubUserKey contextKey = "github_user"
+
+func authorized(r *http.Request) (*http.Request, bool) {
 	auth := r.Header.Get("Authorization")
-	token, ok := strings.CutPrefix(auth, "Bearer ")
-	if !ok || strings.TrimSpace(token) == "" {
-		return false
+	token, hasToken := strings.CutPrefix(auth, "Bearer ")
+	if !hasToken || strings.TrimSpace(token) == "" {
+		if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) {
+			return r, true
+		}
+		return r, false
 	}
 	token = strings.TrimSpace(token)
 
-	if cache.Get(token) != nil && cache.Get(token).Value() {
-		return true
+	if cacheItem := cache.Get(token); cacheItem != nil {
+		user := cacheItem.Value()
+		if user != nil {
+			ctx := context.WithValue(r.Context(), GitHubTokenKey, token)
+			ctx = context.WithValue(ctx, GitHubUserKey, user)
+			return r.WithContext(ctx), true
+		}
 	}
 
-	allowed := authInGit(token)
-	cache.Set(token, allowed, ttlcache.DefaultTTL)
-	return allowed
+	user, allowed := authInGithub(token)
+	if allowed {
+		cache.Set(token, user, ttlcache.DefaultTTL)
+		ctx := context.WithValue(r.Context(), GitHubTokenKey, token)
+		ctx = context.WithValue(ctx, GitHubUserKey, user)
+		return r.WithContext(ctx), true
+	}
+	return r, false
 }
 
-func authInGit(token string) bool {
+func authInGithub(token string) (*GitHubUser, bool) {
 	req, err := http.NewRequest(
 		http.MethodGet,
 		"https://api.github.com/user",
 		nil,
 	)
 	if err != nil {
-		return false
+		return nil, false
 	}
 
 	req.Header.Set("Authorization", "Bearer "+token)
@@ -70,23 +86,23 @@ func authInGit(token string) bool {
 
 	resp, err := client.Do(req)
 	if err != nil {
-		return false
+		return nil, false
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return false
+		return nil, false
 	}
 
-	var user githubUser
+	var user GitHubUser
 	if err := json.NewDecoder(resp.Body).Decode(&user); err != nil {
-		return false
+		return nil, false
 	}
 
 	if user.Login == "" {
-		return false
+		return nil, false
 	}
 
 	_, allowed := allowList[strings.ToLower(user.Login)]
-	return allowed
+	return &user, allowed
 }

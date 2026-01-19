@@ -50,10 +50,10 @@ func UploadDataset(pythonExecutable string, p *UploadDatasetParams) error {
 	scriptPath := filepath.Join(rootDir, "python-tools", "roboflow_upload_dataset.py")
 
 	env := map[string]string{
-		"ROBOFLOW_API_KEY":           p.APIKey,
-		"ROBOFLOW_WORKSPACE_ID":      p.WorkspaceID,
-		"ROBOFLOW_DATASET_PATH":      p.DatasetPath,
-		"ROBOFLOW_PROJECT_ID":        p.ProjectID,
+		"ROBOFLOW_API_KEY":             p.APIKey,
+		"ROBOFLOW_WORKSPACE_ID":        p.WorkspaceID,
+		"ROBOFLOW_DATASET_PATH":        p.DatasetPath,
+		"ROBOFLOW_PROJECT_ID":          p.ProjectID,
 		"ROBOFLOW_IS_NOT_GROUND_TRUTH": lo.Ternary(p.IsNotGroundTruth, "True", "False"),
 	}
 

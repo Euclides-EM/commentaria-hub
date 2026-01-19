@@ -1,6 +1,7 @@
 package service
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"os"
@@ -49,7 +50,7 @@ func (d *Dataset) Get(id string) (*model.Dataset, error) {
 	return ds, nil
 }
 
-func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*model.Dataset, error) {
+func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite, skipDeskew bool) (*model.Dataset, error) {
 	if ds.FacsimileID == "" || ds.EditionID == "" {
 		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
 	}
@@ -83,7 +84,7 @@ func (d *Dataset) Create(ds *model.Dataset, forceOverwrite, skipDeskew bool) (*m
 
 	pdfPath := d.fileSysMgt.DatasetPDFPath(ds)
 	log.Printf("Downloading facsimile from %s to %s", targetFacsimile.ScanURL, pdfPath)
-	if err := d.githubDownloader.DownloadRecursive(targetFacsimile.ScanURL, pdfPath); err != nil {
+	if err := d.githubDownloader.DownloadRecursive(ctx, targetFacsimile.ScanURL, pdfPath); err != nil {
 		return nil, fmt.Errorf("failed to download facsimile: %w", err)
 	}
 
