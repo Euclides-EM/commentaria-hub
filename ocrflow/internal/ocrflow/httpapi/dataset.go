@@ -103,7 +103,7 @@ func (h *Handlers) UpdateDataset(request *http.Request) (any, error) {
 // @Param        pageNum   path      string  true  "Page Number"
 // @Produce      image/png
 // @Success      200  {file}   string "PNG image content"
-// @Router       /datasets/{dataSetId}/pages/{pageNum}/image [get]
+// @Router       /datasets/{dataSetId}/images/{pageNum} [get]
 func (h *Handlers) GetPageImage(r *http.Request) ([]byte, error) {
 	datasetID, err := extractDatasetID(r)
 	if err != nil {

@@ -126,7 +126,7 @@ export class DatasetsService {
      * @returns binary PNG image content
      * @throws ApiError
      */
-    public static getDatasetsPagesImage({
+    public static getDatasetsImages({
         dataSetId,
         pageNum,
     }: {
@@ -141,7 +141,7 @@ export class DatasetsService {
     }): CancelablePromise<Blob> {
         return __request(OpenAPI, {
             method: 'GET',
-            url: '/datasets/{dataSetId}/pages/{pageNum}/image',
+            url: '/datasets/{dataSetId}/images/{pageNum}',
             path: {
                 'dataSetId': dataSetId,
                 'pageNum': pageNum,

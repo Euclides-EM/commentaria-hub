@@ -17,7 +17,7 @@ export function useDatasetPageImageQuery(datasetId: string, pageNum: number) {
   return useQuery({
     queryKey: datasetPageImageQueryKey(datasetId, pageNum),
     queryFn: () =>
-      DatasetsService.getDatasetsPagesImage({
+      DatasetsService.getDatasetsImages({
         dataSetId: datasetId,
         pageNum: pageNum.toString(),
       }),

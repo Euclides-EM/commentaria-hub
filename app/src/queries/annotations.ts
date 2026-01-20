@@ -15,6 +15,9 @@ export function useAnnotationsQuery(
   return useQuery({
     queryKey: annotationsQueryKey(datasetId, filters),
     queryFn: async () => {
+      if (!datasetId) {
+        return []
+      }
       const data = await AnnotationsService.getDatasetsAnnotations({
         dataSetId: datasetId,
       })
@@ -74,6 +77,7 @@ export function useAnnotationTeiQuery(
   datasetId: string,
   annotationId: string,
   pageNum: number,
+  enabled: boolean,
 ) {
   return useQuery({
     queryKey: annotationTeiQueryKey(datasetId, annotationId, pageNum),
@@ -83,6 +87,6 @@ export function useAnnotationTeiQuery(
         id: annotationId,
         pageNum: pageNum.toString(),
       }),
-    enabled: !!datasetId && !!annotationId,
+    enabled: !!datasetId && !!annotationId && enabled,
   })
 }

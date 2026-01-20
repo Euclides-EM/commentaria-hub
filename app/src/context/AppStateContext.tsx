@@ -1,38 +1,31 @@
-import { createContext, useContext, ReactNode } from 'react'
-import {
-  parseAsBoolean,
-  parseAsFloat,
-  parseAsInteger,
-  parseAsString,
-  parseAsArrayOf,
-  useQueryStates,
-} from 'nuqs'
+import { createContext, type ReactNode, useContext } from 'react'
 import { type AnnotationFilter } from '../components/AnnotationFilterDropdown'
+import type { model_Annotation, model_Dataset } from '../api'
+import { useDatasetsQuery } from '../queries/datasets.ts'
+import { useAnnotationsQuery } from '../queries/annotations.ts'
+import { parseAsArrayOf, parseAsInteger, parseAsString, useQueryStates, } from 'nuqs'
 
 export interface AppState {
-  dataset: string
-  annotation: string
-  annotationFilters: string[]
-  page: number
-  showDetails: boolean
-  showSource: boolean
-  minCert: number
+  datasetId: string
+  annotationId: string
+  annotationFilters: AnnotationFilter[]
+  currentPage: number
 }
 
 interface AppStateContextType {
+  dataset: model_Dataset | null
+  annotation: model_Annotation | null
   state: AppState
   setState: (updates: Partial<AppState>) => void
   toggleFilter: (filter: AnnotationFilter) => void
-  jumpToPage: (newPage: number) => void
-  toggleAnnotationDetails: () => void
-  toggleTeiSource: () => void
+  jumpToPage: (nextPage: number) => void
 }
 
 const AppStateContext = createContext<AppStateContextType | undefined>(
   undefined,
 )
 
-export function useAppState() {
+export const useAppState = () => {
   const context = useContext(AppStateContext)
   if (context === undefined) {
     throw new Error('useAppState must be used within an AppStateProvider')
@@ -46,14 +39,16 @@ interface AppStateProviderProps {
 
 export function AppStateProvider({ children }: AppStateProviderProps) {
   const [state, setState] = useQueryStates({
-    dataset: parseAsString.withDefault(''),
-    annotation: parseAsString.withDefault(''),
+    datasetId: parseAsString.withDefault(''),
+    annotationId: parseAsString.withDefault(''),
     annotationFilters: parseAsArrayOf(parseAsString).withDefault([]),
-    page: parseAsInteger.withDefault(89),
-    showDetails: parseAsBoolean.withDefault(false),
-    showSource: parseAsBoolean.withDefault(false),
-    minCert: parseAsFloat.withDefault(0.8),
+    currentPage: parseAsInteger.withDefault(89),
   })
+  const { data: datasets } = useDatasetsQuery()
+  const { data: annotations } = useAnnotationsQuery(
+    state.datasetId,
+    state.annotationFilters as AnnotationFilter[],
+  )
 
   const toggleFilter = (filter: AnnotationFilter) => {
     const currentFilters = state.annotationFilters as AnnotationFilter[]
@@ -67,38 +62,24 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   }
 
   const jumpToPage = (newPage: number) => {
-    setState({ page: Math.max(0, newPage) })
-  }
-
-  const toggleAnnotationDetails = () => {
-    setState({
-      showDetails: !state.showDetails,
-      showSource: false,
-    })
-  }
-
-  const toggleTeiSource = () => {
-    setState({
-      showSource: !state.showSource,
-      showDetails: false,
-    })
+    setState({ currentPage: Math.max(0, newPage) })
   }
 
   const contextValue: AppStateContextType = {
     state: {
-      dataset: state.dataset,
-      annotation: state.annotation,
-      annotationFilters: state.annotationFilters,
-      page: state.page,
-      showDetails: state.showDetails,
-      showSource: state.showSource,
-      minCert: state.minCert,
+      ...state,
+      annotationFilters: state.annotationFilters as AnnotationFilter[],
     },
     setState,
+    dataset:
+      datasets?.find((d) => state.datasetId && d.id === state.datasetId) ||
+      null,
+    annotation:
+      annotations?.find(
+        (a) => state.annotationId && a.id === state.annotationId,
+      ) || null,
     toggleFilter,
     jumpToPage,
-    toggleAnnotationDetails,
-    toggleTeiSource,
   }
 
   return (

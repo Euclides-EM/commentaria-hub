@@ -11,7 +11,7 @@ export function ErrorFallback({ error, onRetry, message }: ErrorFallbackProps) {
       <h3 className="text-lg font-semibold text-gray-900 mb-2">
         {message || 'Something went wrong'}
       </h3>
-      <p className="text-sm text-gray-600 mb-4">{error.message}</p>
+      <p className="text-sm text-gray-600 mb-4">Error: {error.message}</p>
       {onRetry && (
         <button
           onClick={onRetry}

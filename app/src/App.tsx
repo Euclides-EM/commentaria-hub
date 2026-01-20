@@ -9,7 +9,7 @@ function App() {
 
   return (
     <AppStateProvider>
-      <div className="h-screen flex flex-col overflow-hidden">
+      <div className="h-screen flex flex-col overflow-hidden overscroll-none">
         <Header onShowLogin={() => setShowLoginModal(true)} />
 
         <div className="flex-1 overflow-hidden">

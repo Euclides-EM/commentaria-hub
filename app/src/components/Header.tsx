@@ -10,11 +10,16 @@ export function Header({ onShowLogin }: HeaderProps) {
 
   return (
     <header className="bg-white border-b border-gray-200 px-4 py-3">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap">
         <div className="flex items-center gap-3">
-          <h1 className="text-xl font-semibold text-gray-800">
-            Commentaria Hub
-          </h1>
+          <div className="flex flex-col gap-1 justify-center items-center">
+            <h1 className="text-sm font-semibold text-gray-500">
+              Commentaria in Eucliedem
+            </h1>
+            <h1 className="text-xl font-semibold text-gray-800 tracking-widest">
+              Annotations Hub
+            </h1>
+          </div>
           <BreadcrumbNav />
         </div>
 

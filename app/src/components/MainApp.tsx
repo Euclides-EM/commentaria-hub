@@ -1,105 +1,32 @@
-import { useMemo, useState } from 'react'
-import { usePageDataQuery } from '../queries/pageData'
 import { useAppState } from '../context/AppStateContext'
-import { Sidebar } from './Sidebar'
-import { TopBar } from './TopBar'
+import { IndexMenu } from './IndexMenu.tsx'
+import { PageNavigation } from './PageNavigation.tsx'
 import { ImagePane } from './ImagePane'
-import { TeiPaneWrapper } from './TeiPaneWrapper'
+import { AnnotationDetailsPane } from './AnnotationDetailsPane.tsx'
+import { TeiPane } from './TeiPane.tsx'
 
 export function MainApp() {
-  const {
-    state,
-    setState,
-    jumpToPage,
-    toggleAnnotationDetails,
-    toggleTeiSource,
-  } = useAppState()
-  const [teiInput, setTeiInput] = useState<string | null>(null)
+  const { annotation, state } = useAppState()
 
-  const { pageData, isLoading, error, refetch } = usePageDataQuery(
-    state.dataset,
-    state.annotation,
-    state.page,
-  )
-
-  const reqSummary = useMemo(() => {
-    if (!state.dataset || !state.annotation) {
-      return ''
-    }
-    if (isLoading) {
-      return `Loading dataset ${state.dataset}, annotation ${state.annotation}, page ${state.page}...`
-    }
-    if (error) {
-      return `Error loading page ${state.page}`
-    }
-    if (pageData.imgStatus === 'Loaded' && pageData.teiStatus === 'Loaded') {
-      return `Loaded page ${state.page}`
-    }
-    return ''
-  }, [
-    error,
-    isLoading,
-    pageData.imgStatus,
-    pageData.teiStatus,
-    state.annotation,
-    state.dataset,
-    state.page,
-  ])
-
-  if (
-    teiInput === null &&
-    state.dataset &&
-    state.annotation &&
-    !isLoading &&
-    !error &&
-    pageData.imgStatus === 'Loaded' &&
-    pageData.teiStatus === 'Loaded'
-  ) {
-    setTeiInput(pageData.teiData)
-  }
-
-  const handleLoadPage = () => {
-    refetch()
+  if (!state.datasetId || !state.annotationId) {
+    return (
+      <div className="w-full m-10 font-medium text-center">
+        Please select dataset and annotation
+      </div>
+    )
   }
 
   return (
     <div className="h-full flex overflow-hidden">
-      <Sidebar
-        datasetId={state.dataset}
-        annotationId={state.annotation}
-        onPageJump={jumpToPage}
-      />
+      {annotation?.ocred && <IndexMenu />}
 
       <main className="flex-1 flex flex-col overflow-hidden min-w-0">
-        <TopBar
-          pageNum={state.page}
-          onPageNumChange={(page) => setState({ page })}
-          onPrevPage={() => jumpToPage(state.page - 1)}
-          onNextPage={() => jumpToPage(state.page + 1)}
-          onLoad={handleLoadPage}
-          reqSummary={reqSummary}
-        />
+        <PageNavigation />
 
         <div className="flex-1 min-h-0 grid grid-cols-2 gap-3 p-3 box-border overflow-hidden">
-          <ImagePane
-            imageUrl={pageData.imageUrl}
-            imgStatus={pageData.imgStatus}
-          />
-
-          <TeiPaneWrapper
-            datasetId={state.dataset}
-            onlyTranscribed={false}
-            teiStatus={pageData.teiStatus}
-            showAnnotationDetails={state.showDetails}
-            onToggleAnnotationDetails={toggleAnnotationDetails}
-            showTeiSource={state.showSource}
-            onToggleTeiSource={toggleTeiSource}
-            minCert={state.minCert}
-            onMinCertChange={(value) => setState({ minCert: value })}
-            teiInput={teiInput || ''}
-            onTeiInputChange={setTeiInput}
-            selectedAnnotationId={state.annotation}
-          />
+          <ImagePane />
+          <TeiPane />
+          <AnnotationDetailsPane />
         </div>
       </main>
     </div>

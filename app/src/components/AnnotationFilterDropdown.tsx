@@ -22,7 +22,7 @@ export function AnnotationFilterDropdown({
   }
 
   return (
-    <div className="relative" style={{ minWidth: '120px' }}>
+    <div className="relative" style={{ minWidth: '160px' }}>
       <button
         className="flex items-center justify-between w-full px-2 py-1 text-sm bg-white border border-gray-400 rounded-md hover:border-gray-500 focus:border-blue-500 focus:outline-none focus:ring-3 focus:ring-blue-100 transition-colors"
         style={{ height: '32px' }}

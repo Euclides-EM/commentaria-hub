@@ -5,9 +5,11 @@ import { useAnnotationsQuery } from '../queries/annotations'
 import { selectStyles } from '../styles/selectStyles'
 import { useAppState } from '../context/AppStateContext'
 import {
-  AnnotationFilterDropdown,
   type AnnotationFilter,
+  AnnotationFilterDropdown,
 } from './AnnotationFilterDropdown'
+
+const Separator = () => <span className="bg-gray-600 w-[1px] h-fill mx-2" />
 
 export function BreadcrumbNav() {
   const { state, setState, toggleFilter } = useAppState()
@@ -15,7 +17,7 @@ export function BreadcrumbNav() {
 
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { data: annotations, isLoading: annotationsLoading } =
-    useAnnotationsQuery(state.dataset, annotationFilters)
+    useAnnotationsQuery(state.datasetId, annotationFilters)
 
   const datasetOptions = useMemo(() => {
     if (!datasets) return []
@@ -34,23 +36,24 @@ export function BreadcrumbNav() {
   }, [annotations])
 
   const selectedDataset =
-    datasetOptions.find((d) => d.value === state.dataset) || null
+    datasetOptions.find((d) => d.value === state.datasetId) || null
   const selectedAnnotation =
-    annotationOptions.find((a) => a.value === state.annotation) || null
+    annotationOptions.find((a) => a.value === state.annotationId) || null
 
   const handleDatasetChange = (value: string) => {
-    setState({ dataset: value, annotation: '' })
+    setState({ datasetId: value, annotationId: '' })
   }
 
   const handleAnnotationChange = (value: string) => {
-    setState({ annotation: value })
+    setState({ annotationId: value })
   }
 
   return (
-    <div className="flex items-center text-sm">
-      <span className="text-gray-400">/</span>
+    <div className="flex items-center text-sm gap-2 flex-wrap">
+      <Separator />
 
-      <div className="ml-2" style={{ minWidth: '200px' }}>
+      <div className="text-shadow-gray-800 font-semibold">Dataset</div>
+      <div style={{ minWidth: '200px' }}>
         <Select
           value={selectedDataset}
           onChange={(option) => handleDatasetChange(option?.value || '')}
@@ -62,17 +65,11 @@ export function BreadcrumbNav() {
         />
       </div>
 
-      {state.dataset && (
+      {state.datasetId && (
         <>
-          <span className="text-gray-400 mx-2">/</span>
+          <Separator />
 
-          <AnnotationFilterDropdown
-            filters={annotationFilters}
-            onToggleFilter={toggleFilter}
-          />
-
-          <span className="text-gray-400 mx-2">/</span>
-
+          <div className="text-shadow-gray-800 font-semibold">Annotation</div>
           <div style={{ minWidth: '200px' }}>
             <Select
               value={selectedAnnotation}
@@ -82,9 +79,14 @@ export function BreadcrumbNav() {
               isLoading={annotationsLoading}
               styles={selectStyles}
               isClearable
-              isDisabled={!state.dataset}
+              isDisabled={!state.datasetId}
             />
           </div>
+
+          <AnnotationFilterDropdown
+            filters={annotationFilters}
+            onToggleFilter={toggleFilter}
+          />
         </>
       )}
     </div>

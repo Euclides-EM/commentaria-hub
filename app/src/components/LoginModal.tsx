@@ -1,9 +1,20 @@
 import { useState } from 'react'
 import { useAuthStore } from '../store/authStore'
+import { OpenAPI } from '../api'
 
 interface LoginModalProps {
   onClose: () => void
   onSuccess: () => void
+}
+
+const withTempToken = async <T,>(token: string, fn: () => Promise<T>) => {
+  const originalToken = OpenAPI.TOKEN
+  OpenAPI.TOKEN = token
+  try {
+    return await fn()
+  } finally {
+    OpenAPI.TOKEN = originalToken
+  }
 }
 
 export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
@@ -14,7 +25,9 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (!token.trim()) return
+    if (!token) {
+      return
+    }
 
     setIsLoading(true)
     setError('')
@@ -22,11 +35,12 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
     try {
       const { AuthenticationService } =
         await import('../api/services/AuthenticationService')
-      const userInfo = await AuthenticationService.postAuthValidate({
-        requestBody: { token: token.trim() },
-      })
+      const userInfo = await withTempToken(
+        token,
+        async () => await AuthenticationService.postAuthValidate(),
+      )
       const displayName = userInfo.username || userInfo.email || 'Unknown User'
-      setAuth(token.trim(), displayName)
+      setAuth(token, displayName)
       onSuccess()
     } catch (error) {
       console.error('Authentication failed:', error)
@@ -63,6 +77,11 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
+            <img
+              src="/diagram.png"
+              alt="Diagram"
+              className="mx-auto h-64 w-auto mb-4"
+            />
             <label
               htmlFor="modal-token"
               className="block text-sm font-medium text-gray-700 mb-2"
@@ -77,7 +96,7 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
               value={token}
-              onChange={(e) => setToken(e.target.value)}
+              onChange={(e) => setToken(e.target.value.trim())}
               disabled={isLoading}
             />
           </div>
