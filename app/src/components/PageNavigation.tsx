@@ -33,40 +33,38 @@ export function PageNavigation() {
   }
 
   return (
-    <div className="p-3 border-b border-gray-200 bg-white">
-      <div className="flex gap-4 items-center">
-        <div className="flex gap-2">
-          <button
-            className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
-            onClick={onPrevPage}
-          >
-            ←
-          </button>
+    <div className="flex gap-4 items-center">
+      <div className="flex gap-2">
+        <button
+          className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
+          onClick={onPrevPage}
+        >
+          ←
+        </button>
 
-          <div className="flex items-center gap-2">
-            <label htmlFor="pageNum" className="text-xs opacity-80">
-              Page
-            </label>
-            <Select
-              value={state.currentPage}
-              onChange={(option) => onPageNumChange(option || 1)}
-              options={availablePages.map((p) => ({
-                value: p,
-                label: String(p),
-              }))}
-              placeholder="Select page..."
-              styles={selectStyles}
-              isClearable
-            />
-          </div>
-
-          <button
-            className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
-            onClick={onNextPage}
-          >
-            →
-          </button>
+        <div className="flex items-center gap-2">
+          <label htmlFor="pageNum" className="text-xs opacity-80">
+            Page
+          </label>
+          <Select
+            value={state.currentPage}
+            onChange={(option) => onPageNumChange(option || 1)}
+            options={availablePages.map((p) => ({
+              value: p,
+              label: String(p),
+            }))}
+            placeholder="Select page..."
+            styles={selectStyles}
+            isClearable
+          />
         </div>
+
+        <button
+          className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
+          onClick={onNextPage}
+        >
+          →
+        </button>
       </div>
     </div>
   )

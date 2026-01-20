@@ -76,7 +76,7 @@ export function AnnotationDetailsPane() {
   const { annotation } = useAppState()
 
   return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white">
+    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white m-3 mb-0">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
         <div>Annotation Details</div>
       </div>
