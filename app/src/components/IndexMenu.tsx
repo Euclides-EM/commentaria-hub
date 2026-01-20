@@ -3,6 +3,7 @@ import { useAnnotationIndexQuery } from '../queries/annotations'
 import { LoadingSpinner } from './LoadingSpinner'
 import type { model_AnnotationIndexNode } from '../api'
 import { useAppState } from '../context/AppStateContext.tsx'
+import { useState } from 'react'
 
 const matchToFilter = (
   search: string,
@@ -24,20 +25,47 @@ const Node = ({
   node: model_AnnotationIndexNode
   jumpToPage: (page: number) => void
   level: number
-}) => (
-  <div
-    className={`cursor-pointer py-1 px-0 border-b border-gray-200 text-xs hover:bg-black/5 transition-colors ml-[${level * 12}px]`}
-  >
-    <button
-      onClick={() => node.location?.page && jumpToPage(node.location.page)}
-    >
-      {node.content} {node.location?.page && `(p. ${node.location.page})`}
-    </button>
-    {node.children?.map((child) => (
-      <Node node={child} jumpToPage={jumpToPage} level={level + 1} />
-    ))}
-  </div>
-)
+}) => {
+  const [isExpanded, setIsExpanded] = useState(false)
+  const hasChildren = node.children && node.children.length > 0
+
+  return (
+    <div>
+      <div
+        className="py-1 px-0 border-b border-gray-200 text-xs hover:bg-black/5 transition-colors flex items-center"
+        style={{ marginLeft: `${level * 16}px` }}
+      >
+        {hasChildren && (
+          <button
+            title={isExpanded ? 'Collapse' : 'Expand'}
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="px-1 mr-2 hover:bg-gray-200 rounded cursor-pointer"
+          >
+            {isExpanded ? '▼' : '▶'}
+          </button>
+        )}
+        <button
+          onClick={() => node.location?.page && jumpToPage(node.location.page)}
+          className="flex-1 text-left cursor-pointer"
+        >
+          {node.content} {node.location?.page && `(p. ${node.location.page})`}
+        </button>
+      </div>
+      {hasChildren && isExpanded && (
+        <div>
+          {node.children.map((child, idx) => (
+            <Node
+              node={child}
+              jumpToPage={jumpToPage}
+              level={level + 1}
+              key={idx}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 
 export function IndexMenu() {
   const { state, jumpToPage } = useAppState()
@@ -80,7 +108,7 @@ export function IndexMenu() {
           <div className="w-full m-10 font-medium text-center text-red-800">
             {error.message}
           </div>
-        ) : !annotationIndex.nodes ? (
+        ) : !annotationIndex?.nodes ? (
           <div className="text-gray-500 text-sm italic text-center p-5">
             No index available
           </div>

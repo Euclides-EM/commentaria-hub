@@ -9,18 +9,3 @@ export function useDatasetsQuery() {
     queryFn: () => DatasetsService.getDatasets({}),
   })
 }
-
-export const datasetPageImageQueryKey = (datasetId: string, pageNum: number) =>
-  ['datasets', datasetId, 'pages', pageNum, 'image'] as const
-
-export function useDatasetPageImageQuery(datasetId: string, pageNum: number) {
-  return useQuery({
-    queryKey: datasetPageImageQueryKey(datasetId, pageNum),
-    queryFn: () =>
-      DatasetsService.getDatasetsImages({
-        dataSetId: datasetId,
-        pageNum: pageNum.toString(),
-      }),
-    enabled: !!datasetId,
-  })
-}

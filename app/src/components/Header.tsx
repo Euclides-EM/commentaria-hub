@@ -23,7 +23,7 @@ export function Header({ onShowLogin }: HeaderProps) {
           <BreadcrumbNav />
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 ml-auto">
           {token && username ? (
             <>
               <span className="text-sm text-gray-600">
