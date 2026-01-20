@@ -16,9 +16,3 @@ export function initializeAPI() {
 
   console.log('API initialized with base URL:', API_BASE_URL)
 }
-
-export const getApiConfig = () => ({
-  backendUrl: BACKEND_URL,
-  basePath: BACKEND_BASE_URL,
-  fullUrl: API_BASE_URL,
-})

@@ -37,12 +37,13 @@ const GitHubTokenKey contextKey = "github_token"
 const GitHubUserKey contextKey = "github_user"
 
 func authorized(r *http.Request) (*http.Request, bool) {
+	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) {
+		return r, true
+	}
+
 	auth := r.Header.Get("Authorization")
-	token, hasToken := strings.CutPrefix(auth, "Bearer ")
-	if !hasToken || strings.TrimSpace(token) == "" {
-		if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) {
-			return r, true
-		}
+	token, ok := strings.CutPrefix(auth, "Bearer ")
+	if !ok || strings.TrimSpace(token) == "" {
 		return r, false
 	}
 	token = strings.TrimSpace(token)

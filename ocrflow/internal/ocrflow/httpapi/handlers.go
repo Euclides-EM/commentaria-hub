@@ -59,7 +59,7 @@ type AuthValidateResponse struct {
 // @Success 200 {object} AuthValidateResponse
 // @Failure 401 {string} string "Unauthorized"
 // @Failure 500 {string} string "Internal Server Error"
-// @Router /auth/validate [get]
+// @Router /auth/validate [post]
 func (h *Handlers) ValidateAuth(r *http.Request) (any, error) {
 	userInfo := r.Context().Value(httpwrapper.GitHubUserKey)
 	if userInfo == nil {

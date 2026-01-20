@@ -15,9 +15,7 @@ interface TeiPaneWrapperProps {
   onMinCertChange: (value: number) => void
   teiInput: string
   onTeiInputChange: (value: string) => void
-  onRenderTei: () => void
   selectedAnnotationId: string
-  renderedTei: string
 }
 
 export function TeiPaneWrapper({

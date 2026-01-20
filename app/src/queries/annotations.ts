@@ -1,22 +1,43 @@
 import { useQuery } from '@tanstack/react-query'
 import { AnnotationsService } from '../api'
 
+type AnnotationFilter = 'transcribed' | 'ground_truth'
+
 export const annotationsQueryKey = (
   datasetId: string,
-  onlyTranscribed?: boolean,
-) => ['annotations', datasetId, { onlyTranscribed }] as const
+  filters?: AnnotationFilter[],
+) => ['annotations', datasetId, { filters }] as const
 
 export function useAnnotationsQuery(
   datasetId: string,
-  onlyTranscribed: boolean = false,
+  filters: AnnotationFilter[] = [],
 ) {
   return useQuery({
-    queryKey: annotationsQueryKey(datasetId, onlyTranscribed),
+    queryKey: annotationsQueryKey(datasetId, filters),
     queryFn: async () => {
       const data = await AnnotationsService.getDatasetsAnnotations({
         dataSetId: datasetId,
       })
-      return onlyTranscribed ? data.filter((ann) => ann.ocred) : data
+
+      if (filters.length === 0) {
+        return data
+      }
+
+      return data.filter((ann) => {
+        if (
+          filters.includes('transcribed') &&
+          filters.includes('ground_truth')
+        ) {
+          return ann.ocred && ann.ground_truth
+        }
+        if (filters.includes('transcribed')) {
+          return ann.ocred
+        }
+        if (filters.includes('ground_truth')) {
+          return ann.ground_truth
+        }
+        return true
+      })
     },
     enabled: !!datasetId,
   })

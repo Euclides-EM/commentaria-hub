@@ -1,4 +1,5 @@
 import type { model_Annotation } from '../api'
+import { Tei } from './Tei.tsx'
 
 interface TeiPaneProps {
   teiStatus: string
@@ -10,10 +11,8 @@ interface TeiPaneProps {
   onMinCertChange: (value: number) => void
   teiInput: string
   onTeiInputChange: (value: string) => void
-  onRenderTei: () => void
   annotations: model_Annotation[]
   selectedAnnotationId: string
-  renderedTei: string
 }
 
 export function TeiPane({
@@ -26,17 +25,9 @@ export function TeiPane({
   onMinCertChange,
   teiInput,
   onTeiInputChange,
-  onRenderTei,
   annotations,
   selectedAnnotationId,
-  renderedTei,
 }: TeiPaneProps) {
-  const escapeHtml = (text: string) => {
-    const div = document.createElement('div')
-    div.textContent = text
-    return div.innerHTML
-  }
-
   const getAnnotationDetails = () => {
     if (!selectedAnnotationId || !annotations.length) {
       return '<div class="text-gray-500 text-sm italic text-center p-5">Select a dataset and an annotation.</div>'
@@ -55,19 +46,19 @@ export function TeiPane({
 
     return `
       <div class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 items-start">
-        <div class="font-semibold text-xs opacity-80 pt-0.5">Name</div><div class="text-sm leading-tight break-all">${escapeHtml(String(annotation.name || ''))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">ID</div><div class="text-sm leading-tight break-all font-mono">${escapeHtml(String(annotation.id || ''))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">Dataset</div><div class="text-sm leading-tight break-all font-mono">${escapeHtml(String(annotation.dataset_id || ''))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">Pages</div><div class="text-sm leading-tight break-all">${escapeHtml(String(annotation.pages || ''))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">Segmented</div><div class="text-sm leading-tight break-all">${escapeHtml(String(!!annotation.segmented))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">Ground truth</div><div class="text-sm leading-tight break-all">${escapeHtml(String(!!annotation.ground_truth))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">OCRed</div><div class="text-sm leading-tight break-all">${escapeHtml(String(!!annotation.ocred))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">Created</div><div class="text-sm leading-tight break-all font-mono">${escapeHtml(String(annotation.created_at || ''))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">Updated</div><div class="text-sm leading-tight break-all font-mono">${escapeHtml(String(annotation.updated_at || ''))}</div>
-        <div class="font-semibold text-xs opacity-80 pt-0.5">Description</div><div class="text-sm leading-tight break-all">${escapeHtml(String(annotation.description || ''))}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">Name</div><div class="text-sm leading-tight break-all">{annotation.name}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">ID</div><div class="text-sm leading-tight break-all font-mono">{annotation.id}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">Dataset</div><div class="text-sm leading-tight break-all font-mono">{annotation.dataset_id}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">Pages</div><div class="text-sm leading-tight break-all">{annotation.pages}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">Segmented</div><div class="text-sm leading-tight break-all">{!!annotation.segmented))}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">Ground truth</div><div class="text-sm leading-tight break-all">{!!annotation.ground_truth))}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">OCRed</div><div class="text-sm leading-tight break-all">{!!annotation.ocred))}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">Created</div><div class="text-sm leading-tight break-all font-mono">{annotation.created_at}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">Updated</div><div class="text-sm leading-tight break-all font-mono">{annotation.updated_at}</div>
+        <div class="font-semibold text-xs opacity-80 pt-0.5">Description</div><div class="text-sm leading-tight break-all">{annotation.description}</div>
         <div class="font-semibold text-xs opacity-80 pt-0.5">Applied rules</div>
         <div class="text-sm leading-tight">
-          ${appliedRulesPretty ? `<pre class="m-0 p-2.5 rounded bg-gray-100 text-xs leading-normal overflow-auto font-mono">${escapeHtml(appliedRulesPretty)}</pre>` : `<span class="text-gray-500">None</span>`}
+          ${appliedRulesPretty ? `<pre class="m-0 p-2.5 rounded bg-gray-100 text-xs leading-normal overflow-auto font-mono">${appliedRulesPretty}</pre>` : `<span class="text-gray-500">None</span>`}
         </div>
       </div>
     `
@@ -103,15 +94,6 @@ export function TeiPane({
           >
             TEI source code
           </button>
-
-          <div className={`${!showTeiSource ? 'hidden' : ''}`}>
-            <button
-              className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
-              onClick={onRenderTei}
-            >
-              Render
-            </button>
-          </div>
 
           <div
             className="flex items-center gap-2 px-1.5 py-1 border border-gray-200 rounded-lg bg-white"
@@ -151,8 +133,8 @@ export function TeiPane({
 
         <div
           className={`mt-2.5 border border-gray-200 rounded-lg bg-gray-50 p-3.5 overflow-auto leading-normal text-base box-border ${showAnnotationDetails ? 'hidden' : ''}`}
-          dangerouslySetInnerHTML={{ __html: renderedTei }}
         />
+        <Tei data={teiInput} />
       </div>
     </section>
   )

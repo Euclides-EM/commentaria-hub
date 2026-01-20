@@ -13,9 +13,9 @@ export class AuthenticationService {
      * @returns httpapi_AuthValidateResponse OK
      * @throws ApiError
      */
-    public static getAuthValidate(): CancelablePromise<httpapi_AuthValidateResponse> {
+    public static postAuthValidate(): CancelablePromise<httpapi_AuthValidateResponse> {
         return __request(OpenAPI, {
-            method: 'GET',
+            method: 'POST',
             url: '/auth/validate',
             errors: {
                 401: `Unauthorized`,
