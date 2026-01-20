@@ -31,6 +31,7 @@ interface RuleEditModalProps {
   ) => void
   initialPayload: AnnotationRule
   ruleType: AnnotationRule['type'] | undefined
+  isLoading?: boolean
 }
 
 export function RuleEditModal({
@@ -39,6 +40,7 @@ export function RuleEditModal({
   onSubmit,
   initialPayload,
   ruleType,
+  isLoading = false,
 }: RuleEditModalProps) {
   const [payload, setPayload] = useState('')
   const [action, setAction] = useState<'overwrite' | 'create_new'>('overwrite')
@@ -68,8 +70,14 @@ export function RuleEditModal({
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center z-50">
-      <div className="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] flex flex-col m-4">
+    <div
+      className="fixed inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center z-50"
+      onClick={isLoading ? undefined : onClose}
+    >
+      <div
+        className="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] flex flex-col m-4"
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="px-6 py-4 border-b border-gray-200">
           <h2 className="text-lg font-semibold">
             Edit Rule:{' '}
@@ -94,6 +102,7 @@ export function RuleEditModal({
                 }}
                 className="w-full h-64 p-3 border border-gray-300 rounded-md font-mono text-sm focus:ring-blue-500 focus:border-blue-500"
                 spellCheck={false}
+                disabled={isLoading}
               />
               {error && (
                 <div className="mt-2 text-sm text-red-600">{error}</div>
@@ -112,6 +121,7 @@ export function RuleEditModal({
                     checked={action === 'overwrite'}
                     onChange={() => setAction('overwrite')}
                     className="mr-2"
+                    disabled={isLoading}
                   />
                   <span className="text-sm">
                     <span className="font-medium">Overwrite</span> - Replace
@@ -125,6 +135,7 @@ export function RuleEditModal({
                     checked={action === 'create_new'}
                     onChange={() => setAction('create_new')}
                     className="mr-2"
+                    disabled={isLoading}
                   />
                   <span className="text-sm">
                     <span className="font-medium">Create New</span> - Create a
@@ -137,18 +148,27 @@ export function RuleEditModal({
         </div>
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-3">
-          <button
-            onClick={onClose}
-            className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
-          >
-            Cancel
-          </button>
-          <button
-            onClick={handleSubmit}
-            className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700"
-          >
-            Run Rule
-          </button>
+          {isLoading ? (
+            <div className="flex items-center gap-3">
+              <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
+              <span className="text-sm text-gray-600">Applying rule...</span>
+            </div>
+          ) : (
+            <>
+              <button
+                onClick={onClose}
+                className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={handleSubmit}
+                className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700"
+              >
+                Run Rule
+              </button>
+            </>
+          )}
         </div>
       </div>
     </div>

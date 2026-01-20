@@ -15,7 +15,7 @@ export function useAuthValidateMutation() {
     mutationFn: async ({ token }) => {
       try {
         setAuth(token, '')
-        const res = await AuthenticationService.getAuthValidate()
+        const res = await AuthenticationService.postAuthValidate()
         setAuth(token, res.username || res.email || '')
         return true
       } catch (error) {
