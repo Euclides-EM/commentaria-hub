@@ -47,8 +47,12 @@ export function PageNavigation() {
             Page
           </label>
           <Select
-            value={state.currentPage}
-            onChange={(option) => onPageNumChange(option || 1)}
+            value={
+              availablePages.find((p) => p === state.currentPage)
+                ? { value: state.currentPage, label: String(state.currentPage) }
+                : null
+            }
+            onChange={(option) => onPageNumChange(option?.value || 1)}
             options={availablePages.map((p) => ({
               value: p,
               label: String(p),
