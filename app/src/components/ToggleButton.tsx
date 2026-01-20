@@ -9,6 +9,6 @@ export const ToggleButton = ({ title, isOn, toggle }: Props) => (
     className="text-sm cursor-pointer rounded-md px-2 py-1 border border-gray-300 bg-gray-100"
     onClick={() => toggle()}
   >
-    {isOn ? '▼' : '▶'} {isOn ? 'Hide' : 'Show'} {title}
+    {isOn ? '▼' : '▶'} {title}
   </button>
 )

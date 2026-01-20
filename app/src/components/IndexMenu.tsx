@@ -53,7 +53,7 @@ const Node = ({
       </div>
       {hasChildren && isExpanded && (
         <div>
-          {node.children.map((child, idx) => (
+          {node.children?.map((child, idx) => (
             <Node
               node={child}
               jumpToPage={jumpToPage}

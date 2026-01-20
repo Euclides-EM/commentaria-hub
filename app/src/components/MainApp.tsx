@@ -6,6 +6,7 @@ import { AnnotationDetailsPane } from './AnnotationDetailsPane.tsx'
 import { TeiPane } from './TeiPane.tsx'
 import { useState } from 'react'
 import { ToggleButton } from './ToggleButton.tsx'
+import { SuggestedRulesPane } from './SuggestedRulesPane.tsx'
 
 export function MainApp() {
   const { annotation, state } = useAppState()
@@ -29,17 +30,18 @@ export function MainApp() {
         <div className="flex w-full gap-4 p-3 border-b border-gray-200 bg-white">
           <PageNavigation />
           <ToggleButton
-            title="annotation details"
+            title="Annotation details"
             isOn={showAnnotationDetails}
             toggle={() => setShowAnnotationDetails((b) => !b)}
           />
           <ToggleButton
-            title="suggested rules"
+            title="Suggested rules"
             isOn={showRules}
             toggle={() => setShowRules((b) => !b)}
           />
         </div>
         {showAnnotationDetails && <AnnotationDetailsPane />}
+        {showRules && <SuggestedRulesPane />}
 
         <div className="flex-1 min-h-0 grid grid-cols-2 gap-3 p-3 box-border overflow-hidden">
           <ImagePane />

@@ -1,6 +1,6 @@
 import { Tei } from './Tei.tsx'
 import { useAppState } from '../context/AppStateContext.tsx'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useAnnotationTeiQuery } from '../queries/annotations.ts'
 import { parseAsBoolean, parseAsFloat, useQueryState } from 'nuqs'
 
@@ -26,9 +26,10 @@ export function TeiPane() {
   )
   const [teiContents, setTeiContents] = useState<string | null>(null)
 
-  if (teiContents === null && data) {
-    setTeiContents(data)
-  }
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setTeiContents(data || '')
+  }, [data])
 
   if (!hasTei) {
     return

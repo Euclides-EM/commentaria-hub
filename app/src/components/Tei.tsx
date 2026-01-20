@@ -106,7 +106,7 @@ function toReadingHtml(
       continue
     }
 
-    html += toReadingHtml(child, opts)
+    html += toReadingHtml(child as Element, opts)
   }
 
   return html
