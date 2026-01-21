@@ -25,3 +25,7 @@ body {
   height: -moz-available;
   height: -webkit-fill-available;
 }
+
+button {
+  cursor: pointer;
+}

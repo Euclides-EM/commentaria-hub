@@ -3,7 +3,12 @@ import { type AnnotationFilter } from '../components/AnnotationFilterDropdown'
 import type { model_Annotation, model_Dataset } from '../api'
 import { useDatasetsQuery } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
-import { parseAsArrayOf, parseAsInteger, parseAsString, useQueryStates, } from 'nuqs'
+import {
+  parseAsArrayOf,
+  parseAsInteger,
+  parseAsString,
+  useQueryStates,
+} from 'nuqs'
 
 export interface AppState {
   datasetId: string

@@ -1,8 +1,3 @@
-interface OptionType {
-  value: string
-  label: string
-}
-
 export const selectStyles = {
   control: (base, state) => ({
     ...base,
