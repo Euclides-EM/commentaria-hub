@@ -9,3 +9,14 @@ export function useDatasetsQuery() {
     queryFn: () => DatasetsService.getDatasets({}),
   })
 }
+
+export function useDatasetSuggestedRules(datasetId: string) {
+  return useQuery({
+    queryKey: ['datasets', datasetId, 'suggestedRules'],
+    queryFn: () =>
+      DatasetsService.getDatasetsSuggestedRules({
+        dataSetId: datasetId,
+      }),
+    enabled: !!datasetId,
+  })
+}

@@ -1,9 +1,9 @@
-import { parseAsBoolean, parseAsString, useQueryState } from 'nuqs'
 import { useAnnotationIndexQuery } from '../queries/annotations'
 import { LoadingSpinner } from './LoadingSpinner'
 import type { model_AnnotationIndexNode } from '../api'
 import { useAppState } from '../context/AppStateContext.tsx'
 import { useState } from 'react'
+import useLocalStorageState from 'use-local-storage-state'
 
 const matchToFilter = (
   search: string,
@@ -69,16 +69,12 @@ const Node = ({
 
 export function IndexMenu() {
   const { state, jumpToPage } = useAppState()
-
-  // TODO - to local storage instead of query
-  const [searchTerm, setSearchTerm] = useQueryState(
-    'indexSearch',
-    parseAsString.withDefault(''),
-  )
-  const [collapsed, setCollapsed] = useQueryState(
-    'sidebarCollapsed',
-    parseAsBoolean.withDefault(false),
-  )
+  const [searchTerm, setSearchTerm] = useLocalStorageState('indexSearch', {
+    defaultValue: '',
+  })
+  const [collapsed, setCollapsed] = useLocalStorageState('sidebarCollapsed', {
+    defaultValue: false,
+  })
   const {
     data: annotationIndex,
     isLoading,

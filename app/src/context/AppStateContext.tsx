@@ -3,12 +3,7 @@ import { type AnnotationFilter } from '../components/AnnotationFilterDropdown'
 import type { model_Annotation, model_Dataset } from '../api'
 import { useDatasetsQuery } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
-import {
-  parseAsArrayOf,
-  parseAsInteger,
-  parseAsString,
-  useQueryStates,
-} from 'nuqs'
+import { parseAsArrayOf, parseAsInteger, parseAsString, useQueryStates, } from 'nuqs'
 
 export interface AppState {
   datasetId: string
@@ -24,6 +19,7 @@ interface AppStateContextType {
   setState: (updates: Partial<AppState>) => void
   toggleFilter: (filter: AnnotationFilter) => void
   jumpToPage: (nextPage: number) => void
+  refetch: () => void
 }
 
 const AppStateContext = createContext<AppStateContextType | undefined>(
@@ -49,11 +45,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     annotationFilters: parseAsArrayOf(parseAsString).withDefault([]),
     currentPage: parseAsInteger.withDefault(89),
   })
-  const { data: datasets } = useDatasetsQuery()
-  const { data: annotations } = useAnnotationsQuery(
-    state.datasetId,
-    state.annotationFilters as AnnotationFilter[],
-  )
+  const { data: datasets, refetch: refetchDatasets } = useDatasetsQuery()
+  const { data: annotations, refetch: refetchAnnotations } =
+    useAnnotationsQuery(
+      state.datasetId,
+      state.annotationFilters as AnnotationFilter[],
+    )
 
   const toggleFilter = (filter: AnnotationFilter) => {
     const currentFilters = state.annotationFilters as AnnotationFilter[]
@@ -85,6 +82,10 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       ) || null,
     toggleFilter,
     jumpToPage,
+    refetch: () => {
+      refetchDatasets()
+      refetchAnnotations()
+    },
   }
 
   return (

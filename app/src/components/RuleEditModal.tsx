@@ -1,14 +1,15 @@
-import { useState, useEffect } from 'react'
-import type {
-  annotationrule_Segment,
-  annotationrule_SlicePages,
-  annotationrule_Stretch,
-  annotationrule_AddMargin,
-  annotationrule_LinesDetect,
-  annotationrule_RemoveCategories,
-  annotationrule_RemoveOverlap,
-  annotationrule_ReassignTextLinesByTolerance,
-  annotationrule_TextBlockCorrections,
+import { useEffect, useState } from 'react'
+import {
+  type annotationrule_AddMargin,
+  type annotationrule_LinesDetect,
+  type annotationrule_ReassignTextLinesByTolerance,
+  type annotationrule_RemoveCategories,
+  type annotationrule_RemoveOverlap,
+  type annotationrule_Segment,
+  type annotationrule_SlicePages,
+  type annotationrule_Stretch,
+  type annotationrule_TextBlockCorrections,
+  ApiError,
 } from '../api'
 
 type AnnotationRule =
@@ -28,10 +29,8 @@ interface RuleEditModalProps {
   onSubmit: (
     payload: AnnotationRule,
     action: 'overwrite' | 'create_new',
-  ) => void
+  ) => Promise<void>
   initialPayload: AnnotationRule
-  ruleType: AnnotationRule['type'] | undefined
-  isLoading?: boolean
 }
 
 export function RuleEditModal({
@@ -39,40 +38,48 @@ export function RuleEditModal({
   onClose,
   onSubmit,
   initialPayload,
-  ruleType,
-  isLoading = false,
 }: RuleEditModalProps) {
   const [payload, setPayload] = useState('')
   const [action, setAction] = useState<'overwrite' | 'create_new'>('overwrite')
   const [error, setError] = useState<string | null>(null)
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     if (isOpen && initialPayload) {
-      // Remove _index from the payload and keep type non-editable
-      const { _index, type, ...editablePayload } = initialPayload as any
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const { type, ...editablePayload } = initialPayload
       setPayload(JSON.stringify(editablePayload, null, 2))
       setError(null)
     }
   }, [isOpen, initialPayload])
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     try {
+      setError(null)
+      setLoading(true)
       const parsedPayload = JSON.parse(payload)
-      // Add the type back to the payload
-      const fullPayload = { ...parsedPayload, type: ruleType } as AnnotationRule
-      onSubmit(fullPayload, action)
+      const fullPayload = {
+        ...parsedPayload,
+        type: initialPayload.type,
+      } as AnnotationRule
+      await onSubmit(fullPayload, action)
       onClose()
     } catch (e) {
-      setError('Invalid JSON format')
+      console.error('Failed to run rule:', e)
+      setError(e instanceof ApiError ? e.body : String(e))
+    } finally {
+      setLoading(false)
     }
   }
 
-  if (!isOpen) return null
+  if (!isOpen) {
+    return null
+  }
 
   return (
     <div
       className="fixed inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center z-50"
-      onClick={isLoading ? undefined : onClose}
+      onClick={loading ? undefined : onClose}
     >
       <div
         className="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] flex flex-col m-4"
@@ -80,8 +87,8 @@ export function RuleEditModal({
       >
         <div className="px-6 py-4 border-b border-gray-200">
           <h2 className="text-lg font-semibold">
-            Edit Rule:{' '}
-            {ruleType
+            Rule to run:{' '}
+            {initialPayload.type
               ?.split('_')
               .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
               .join(' ')}
@@ -92,7 +99,7 @@ export function RuleEditModal({
           <div className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Rule Parameters (type: {ruleType})
+                Parameters (type: {initialPayload.type})
               </label>
               <textarea
                 value={payload}
@@ -102,7 +109,7 @@ export function RuleEditModal({
                 }}
                 className="w-full h-64 p-3 border border-gray-300 rounded-md font-mono text-sm focus:ring-blue-500 focus:border-blue-500"
                 spellCheck={false}
-                disabled={isLoading}
+                disabled={loading}
               />
               {error && (
                 <div className="mt-2 text-sm text-red-600">{error}</div>
@@ -121,7 +128,7 @@ export function RuleEditModal({
                     checked={action === 'overwrite'}
                     onChange={() => setAction('overwrite')}
                     className="mr-2"
-                    disabled={isLoading}
+                    disabled={loading}
                   />
                   <span className="text-sm">
                     <span className="font-medium">Overwrite</span> - Replace
@@ -135,7 +142,7 @@ export function RuleEditModal({
                     checked={action === 'create_new'}
                     onChange={() => setAction('create_new')}
                     className="mr-2"
-                    disabled={isLoading}
+                    disabled={loading}
                   />
                   <span className="text-sm">
                     <span className="font-medium">Create New</span> - Create a
@@ -148,7 +155,7 @@ export function RuleEditModal({
         </div>
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-3">
-          {isLoading ? (
+          {loading ? (
             <div className="flex items-center gap-3">
               <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
               <span className="text-sm text-gray-600">Applying rule...</span>
