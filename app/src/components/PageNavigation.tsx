@@ -80,16 +80,21 @@ export function PageNavigation() {
           <Select
             value={
               availablePages.find((p) => p === state.currentPage)
-                ? { value: state.currentPage, label: String(state.currentPage) }
+                ? {
+                    value: state.currentPage,
+                    label: String(state.currentPage),
+                  }
                 : null
             }
-            onChange={(option) => onPageNumChange(option?.value || 1)}
+            onChange={(option: { value: number; label: string } | null) =>
+              onPageNumChange(option?.value || 1)
+            }
             options={availablePages.map((p) => ({
               value: p,
               label: String(p),
             }))}
             placeholder="Select page..."
-            styles={selectStyles}
+            styles={selectStyles<{ value: number; label: string }>()}
             isClearable
           />
         </div>

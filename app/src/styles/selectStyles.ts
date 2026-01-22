@@ -1,4 +1,8 @@
-export const selectStyles = {
+import type { StylesConfig } from 'react-select'
+
+export const selectStyles = <
+  OptionType extends { value: unknown; label: string },
+>(): StylesConfig<OptionType, false> => ({
   control: (base, state) => ({
     ...base,
     minHeight: 32,
@@ -81,4 +85,4 @@ export const selectStyles = {
     lineHeight: '1.5',
     margin: 0,
   }),
-}
+})

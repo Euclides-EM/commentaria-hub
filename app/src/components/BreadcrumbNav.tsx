@@ -21,18 +21,22 @@ export function BreadcrumbNav() {
 
   const datasetOptions = useMemo(() => {
     if (!datasets) return []
-    return datasets.map((d) => ({
-      value: d.id,
-      label: d.name || d.id,
-    }))
+    return datasets
+      .filter((d) => !!d.id)
+      .map((d) => ({
+        value: d.id as string,
+        label: d.name || (d.id as string),
+      }))
   }, [datasets])
 
   const annotationOptions = useMemo(() => {
     if (!annotations) return []
-    return annotations.map((a) => ({
-      value: a.id,
-      label: a.name || a.id,
-    }))
+    return annotations
+      .filter((a) => !!a.id)
+      .map((a) => ({
+        value: a.id as string,
+        label: a.name || (a.id as string),
+      }))
   }, [annotations])
 
   const selectedDataset =
@@ -56,11 +60,13 @@ export function BreadcrumbNav() {
       <div style={{ minWidth: '200px' }}>
         <Select
           value={selectedDataset}
-          onChange={(option) => handleDatasetChange(option?.value || '')}
+          onChange={(option: { value: string; label: string } | null) =>
+            handleDatasetChange(option?.value || '')
+          }
           options={datasetOptions}
           placeholder="Select dataset..."
           isLoading={datasetsLoading}
-          styles={selectStyles}
+          styles={selectStyles<{ value: string; label: string }>()}
           isClearable
         />
       </div>
@@ -73,11 +79,13 @@ export function BreadcrumbNav() {
           <div style={{ minWidth: '200px' }}>
             <Select
               value={selectedAnnotation}
-              onChange={(option) => handleAnnotationChange(option?.value || '')}
+              onChange={(option: { value: string; label: string } | null) =>
+                handleAnnotationChange(option?.value || '')
+              }
               options={annotationOptions}
               placeholder="Select annotation..."
               isLoading={annotationsLoading}
-              styles={selectStyles}
+              styles={selectStyles<{ value: string; label: string }>()}
               isClearable
               isDisabled={!state.datasetId}
             />
