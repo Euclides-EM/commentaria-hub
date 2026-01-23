@@ -62,18 +62,25 @@ export function TeiPane() {
               Min certainty
             </label>
             <input
-              id="minCert"
               type="range"
               min="0.800"
               max="1.000"
               step="0.001"
               className="w-40"
               value={minCert}
+              onChange={(e) =>
+                setMinCert(Math.round(parseFloat(e.target.value) * 1000) / 1000)
+              }
+            />
+            <input
+              type="number"
+              min="0.800"
+              max="1.000"
+              step="0.001"
+              className="text-xs opacity-75 font-mono p-1 rounded-lg border border-gray-300"
+              value={minCert}
               onChange={(e) => setMinCert(parseFloat(e.target.value))}
             />
-            <span className="text-xs opacity-75 font-mono">
-              {minCert.toFixed(3)}
-            </span>
           </div>
         </div>
 
