@@ -274,7 +274,7 @@ export function SuggestedRulesPane() {
                         </div>
                         <details className="text-xs">
                           <summary className="cursor-pointer text-gray-600 hover:text-gray-800">
-                            View raw rule data
+                            Suggested payload
                           </summary>
                           <pre className="mt-2 p-2 bg-white rounded border border-gray-200 font-mono overflow-auto whitespace-pre-wrap break-all">
                             {JSON.stringify(rule, null, 2)}

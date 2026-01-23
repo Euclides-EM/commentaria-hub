@@ -61,7 +61,7 @@ export function PageNavigation() {
   }
 
   return (
-    <div className="flex gap-4 items-center">
+    <div className="flex w-full p-2 gap-4 items-center justify-center">
       <div className="flex gap-2">
         {!isFirstPage && (
           <button

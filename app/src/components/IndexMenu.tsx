@@ -72,73 +72,46 @@ export function IndexMenu() {
   const [searchTerm, setSearchTerm] = useLocalStorageState('indexSearch', {
     defaultValue: '',
   })
-  const [collapsed, setCollapsed] = useLocalStorageState('sidebarCollapsed', {
-    defaultValue: false,
-  })
   const {
     data: annotationIndex,
     isLoading,
     error,
   } = useAnnotationIndexQuery(state.datasetId, state.annotationId)
 
-  return (
-    <aside
-      className={`${collapsed ? 'w-11 min-w-11 max-w-11' : 'w-80 min-w-80 max-w-80'} border-r border-gray-200 flex flex-col overflow-hidden bg-white transition-all duration-200`}
-    >
-      <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
-        {!collapsed && <div className="font-semibold">Index</div>}
-        <button
-          className={`px-2.5 py-1.5 cursor-pointer ${collapsed ? 'rotate-180' : ''} transition-transform`}
-          onClick={() => setCollapsed(!collapsed)}
-          title={collapsed ? 'Expand index' : 'Minimize index'}
-          aria-label={collapsed ? 'Expand index' : 'Minimize index'}
-        >
-          ⟨
-        </button>
+  return isLoading ? (
+    <LoadingSpinner size="sm" message="Loading index..." />
+  ) : error ? (
+    <div className="w-full m-10 font-medium text-center text-red-800">
+      {error.message}
+    </div>
+  ) : !annotationIndex?.nodes ? (
+    <div className="text-gray-500 text-sm italic text-center p-5">
+      No index available
+    </div>
+  ) : (
+    <>
+      <div className="p-2.5 border-b border-gray-200">
+        <div className="flex gap-2 items-center">
+          <input
+            className="flex-1 min-w-0 border border-gray-300 rounded-lg px-2.5 py-2 font-mono text-xs"
+            placeholder="Filter…"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
       </div>
 
-      {!collapsed &&
-        (isLoading ? (
-          <LoadingSpinner size="sm" message="Loading index..." />
-        ) : error ? (
-          <div className="w-full m-10 font-medium text-center text-red-800">
-            {error.message}
-          </div>
-        ) : !annotationIndex?.nodes ? (
-          <div className="text-gray-500 text-sm italic text-center p-5">
-            No index available
-          </div>
-        ) : (
-          <>
-            <div className="p-2.5 border-b border-gray-200">
-              <div className="flex gap-2 items-center">
-                <input
-                  className="flex-1 min-w-0 border border-gray-300 rounded-lg px-2.5 py-2 font-mono text-xs"
-                  placeholder="Filter…"
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                />
-              </div>
-            </div>
-
-            <div className="overflow-auto p-2.5 pr-1.5 flex-1 min-h-0">
-              <div>
-                {annotationIndex.nodes
-                  .filter((node: model_AnnotationIndexNode) =>
-                    matchToFilter(searchTerm, node),
-                  )
-                  .map((item: model_AnnotationIndexNode, idx: number) => (
-                    <Node
-                      node={item}
-                      jumpToPage={jumpToPage}
-                      key={idx}
-                      level={0}
-                    />
-                  ))}
-              </div>
-            </div>
-          </>
-        ))}
-    </aside>
+      <div className="overflow-auto p-2.5 pr-1.5 flex-1 min-h-0">
+        <div>
+          {annotationIndex.nodes
+            .filter((node: model_AnnotationIndexNode) =>
+              matchToFilter(searchTerm, node),
+            )
+            .map((item: model_AnnotationIndexNode, idx: number) => (
+              <Node node={item} jumpToPage={jumpToPage} key={idx} level={0} />
+            ))}
+        </div>
+      </div>
+    </>
   )
 }
