@@ -8,6 +8,8 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 )
 
+const DatasetIDPrefix = "ds"
+
 type DatasetSQL struct {
 	BaseSQL
 }

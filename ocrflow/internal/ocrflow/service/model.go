@@ -52,7 +52,7 @@ func (m *Model) Create(mo *model.Model, modelPath string) error {
 	if err := deepcopy.Copy(&n, &mo); err != nil {
 		return fmt.Errorf("failed to copy annotation: %w", err)
 	}
-	n.ID = idgen.GenerateID()
+	n.ID = idgen.GenerateID(store.ModelIDPrefix)
 	n.Location = model.OCRModelLocationLocal
 	n.LocalPath = fmt.Sprintf("%s.pt", n.ID)
 	if err := futils.CopyFile(modelPath, m.fileSysMgt.ModelPath(n)); err != nil {
@@ -77,7 +77,7 @@ func (m *Model) Upload(file multipart.File, filename, name, description string, 
 	if name == "" {
 		name = strings.TrimSuffix(filename, ext)
 	}
-	id := idgen.Name2ID(name)
+	id := idgen.Name2ID(store.ModelIDPrefix, name)
 	dstFilename := fmt.Sprintf("%s%s", id, ext)
 
 	mo := &model.Model{

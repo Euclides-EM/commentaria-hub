@@ -6,6 +6,8 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
 )
 
+const FacsimileIDPrefix = "fac"
+
 type FacsimileSQL struct {
 	BaseSQL
 }

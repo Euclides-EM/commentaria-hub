@@ -67,6 +67,6 @@ func (e *Edition) GetFacsimile(editionKey, facsimileID string) (*model.Edition, 
 }
 
 func (e *Edition) CreateFacsimile(editionId string, f *model.Facsimile) (*model.Facsimile, error) {
-	f.ID = idgen.GenerateID()
+	f.ID = idgen.GenerateID(store.FacsimileIDPrefix)
 	return e.facsimileStore.InsertFacsimile(editionId, f)
 }

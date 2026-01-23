@@ -8,6 +8,7 @@ import (
 	"path"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
@@ -66,7 +67,7 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 		return nil, fmt.Errorf("failed to find datset: %w", err)
 	}
 
-	t.ID = idgen.GenerateID()
+	t.ID = idgen.GenerateID(store.ModelIDPrefix)
 	outputPath := tm.fileSysMgt.TrainingDir(t)
 	errCh, err := krakenwrapper.TrainYOLOModel(originModelLocalPath, datsetYmlPath, outputPath)
 	if err != nil {
@@ -105,7 +106,7 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 		m := &model.Model{
 			Type:            model.OCRModelTypeSegment,
 			AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
-			Meta:            model.NewMeta(idgen.GenerateID()).WithName(t.Name).WithDescription(t.Description),
+			Meta:            model.NewMeta(idgen.GenerateID(store.ModelIDPrefix)).WithName(t.Name).WithDescription(t.Description),
 			// todo Categories...
 		}
 		if err := tm.modelSvc.Create(m, path.Join(oPath, "weights", "best.pt")); err != nil {

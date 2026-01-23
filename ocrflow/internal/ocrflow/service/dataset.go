@@ -76,7 +76,7 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite,
 			}
 		}
 	}
-	ds.ID = idgen.GenerateID()
+	ds.ID = idgen.GenerateID(store.DatasetIDPrefix)
 
 	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
 		ds.DPI = 300.0

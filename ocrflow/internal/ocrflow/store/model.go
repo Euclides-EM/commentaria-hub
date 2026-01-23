@@ -9,6 +9,8 @@ import (
 	"github.com/samber/lo"
 )
 
+const ModelIDPrefix = "mod"
+
 type ModelSQL struct {
 	BaseSQL
 }
