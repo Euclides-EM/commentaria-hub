@@ -382,6 +382,12 @@ func (s *AnnotationSQL) DeleteAnnotation(datasetID string, annotationID string) 
 
 func calculatePipelineStage(a *model.Annotation) annotationrule.PipelineStage {
 	s := annotationrule.PipelineStageRaw
+	if a.Ocred {
+		s = annotationrule.PipelineStageOCR
+	}
+	if a.Segmented {
+		s = annotationrule.PipelineStageTextLineSegmentation
+	}
 	for _, rule := range a.AppliedRules {
 		if rule == nil {
 			continue
