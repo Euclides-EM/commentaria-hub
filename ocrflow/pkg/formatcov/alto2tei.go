@@ -9,7 +9,6 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/xml"
 )
 
 type ALTOToTEIOptions struct {
@@ -66,12 +65,45 @@ func ConvertALTOToTEI(a *alto.Alto, opts ALTOToTEIOptions) ([]byte, error) {
 		paras := groupIntoParas(lines, opts.ParaGapPx, opts.KeepEmpty)
 		for _, para := range paras {
 			writeString(w, `      <p>`)
+
+			var curBlock string
 			for _, ln := range para {
-				lbID := xml.SanitizeXMLID(ln.LineID)
+				// If block changed, emit a milestone for the new block
+				if ln.BlockID != curBlock {
+					curBlock = ln.BlockID
+
+					bid := blockXMLID(curBlock)
+					if bid != "" {
+						// n keeps the original ALTO block id as-is
+						writeString(w, fmt.Sprintf(
+							`<milestone unit="block" xml:id="%s" n="%s"/>`,
+							xmlEscapeAttr(bid),
+							xmlEscapeAttr(curBlock),
+						))
+					} else {
+						writeString(w, `<milestone unit="block"/>`)
+					}
+				}
+
+				lbID := lineXMLID(ln.LineID)
+				bid := blockXMLID(ln.BlockID)
+
 				if lbID != "" {
-					writeString(w, fmt.Sprintf(`<lb xml:id="%s"/>`, xmlEscapeAttr(lbID)))
+					if bid != "" {
+						writeString(w, fmt.Sprintf(
+							`<lb xml:id="%s" corresp="#%s"/>`,
+							xmlEscapeAttr(lbID),
+							xmlEscapeAttr(bid),
+						))
+					} else {
+						writeString(w, fmt.Sprintf(`<lb xml:id="%s"/>`, xmlEscapeAttr(lbID)))
+					}
 				} else {
-					writeString(w, `<lb/>`)
+					if bid != "" {
+						writeString(w, fmt.Sprintf(`<lb corresp="#%s"/>`, xmlEscapeAttr(bid)))
+					} else {
+						writeString(w, `<lb/>`)
+					}
 				}
 
 				for ti, tok := range ln.Strings {
@@ -79,7 +111,7 @@ func ConvertALTOToTEI(a *alto.Alto, opts ALTOToTEIOptions) ([]byte, error) {
 						writeString(w, " ")
 					}
 
-					writeString(w, fmt.Sprintf(`<seg>`))
+					writeString(w, `<seg>`)
 					writeString(w, xmlEscapeText(tok.Content))
 
 					if tok.WC > 0 {
@@ -92,6 +124,7 @@ func ConvertALTOToTEI(a *alto.Alto, opts ALTOToTEIOptions) ([]byte, error) {
 					writeString(w, `</seg>`)
 				}
 			}
+
 			writeString(w, `</p>`+"\n")
 		}
 	}
@@ -189,32 +222,28 @@ func groupIntoParas(lines []alto.Line, paraGap float64, keepEmpty bool) [][]alto
 
 	var prev *alto.Line
 	for i := range lines {
-		ln := lines[i]
+		ln := &lines[i]
+
 		if !keepEmpty && strings.TrimSpace(ln.Text()) == "" {
 			continue
 		}
 
 		if prev == nil {
-			cur = append(cur, ln)
-			prev = &ln
+			cur = append(cur, *ln)
+			prev = ln
 			continue
 		}
 
-		// Effective gap accounts for line height
 		dy := ln.VPOS - prev.VPOS
 		effectiveGap := dy - prev.Height
-
 		blockChanged := ln.BlockID != prev.BlockID
 
-		// Paragraph break heuristics:
-		// - clear vertical gap
-		// - or block change with a moderate gap
 		if effectiveGap > paraGap || (blockChanged && effectiveGap > paraGap/2) {
 			flush()
 		}
 
-		cur = append(cur, ln)
-		prev = &ln
+		cur = append(cur, *ln)
+		prev = ln
 	}
 
 	flush()
@@ -265,4 +294,12 @@ func xmlEscapeAttr(s string) string {
 	s = strings.ReplaceAll(s, `"`, "&quot;")
 	s = strings.ReplaceAll(s, `'`, "&apos;")
 	return s
+}
+
+func blockXMLID(raw string) string {
+	return "b_" + raw
+}
+
+func lineXMLID(raw string) string {
+	return "l_" + raw
 }

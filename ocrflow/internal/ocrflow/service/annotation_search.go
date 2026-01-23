@@ -63,9 +63,11 @@ func (s *AnnotationSearch) Search(as *model.AnnotationSearch) (*model.Annotation
 				}
 				combined = strings.TrimSpace(combined)
 				if rg.MatchString(combined) {
+					highlighted := rg.ReplaceAllString(combined, "<em>$0</em>")
+
 					as.Results = append(as.Results, &model.AnnotationPart{
 						Category: cat,
-						Content:  combined,
+						Content:  highlighted,
 						Location: model.AnnotationLocation{
 							Page:        page,
 							TextBlockID: bl.ID,
