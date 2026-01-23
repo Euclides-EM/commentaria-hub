@@ -17,6 +17,7 @@ type Dependencies struct {
 	AnnotationSvc       *service.Annotation
 	ModelSvc            *service.Model
 	TrainSvc            *service.Train
+	MetadataDetailsSvc  *service.MetadataDetails
 	MetaStoreManager    *service.MetaStoreManager
 	AnnotationsUploader *service.AnnotationsUploader
 	AnnotationTEI       *service.AnnotationTEI
@@ -86,6 +87,9 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).CreateFile(h.UploadModel).Build())
 	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Build())
 	api.HandleFunc("/train", httpwrapper.Create(h.TrainModel).Build())
+
+	api.HandleFunc("/annotation_rules", httpwrapper.Get(h.ListAnnotationRules).Build())
+	api.HandleFunc("/pipeline_stages", httpwrapper.Get(h.ListPipelineStages).Build())
 
 	api.HandleFunc("/store/cleanup/local", httpwrapper.Delete(h.CleanupLocalStore).Build())
 

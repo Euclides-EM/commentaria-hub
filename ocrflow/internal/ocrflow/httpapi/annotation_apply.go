@@ -49,6 +49,7 @@ func (h *Handlers) ApplyRuleSegment(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -71,6 +72,7 @@ func (h *Handlers) ApplyRuleSlicePages(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -93,6 +95,7 @@ func (h *Handlers) ApplyRuleStretch(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -115,6 +118,7 @@ func (h *Handlers) ApplyRuleAddMargin(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -137,6 +141,7 @@ func (h *Handlers) ApplyRuleDetectLines(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -159,6 +164,7 @@ func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -181,6 +187,7 @@ func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -203,6 +210,7 @@ func (h *Handlers) ApplyRuleReassignTextLinesByTolerance(r *http.Request) (any, 
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }
@@ -225,6 +233,7 @@ func (h *Handlers) ApplyRuleTextBlockCorrections(r *http.Request) (any, error) {
 		return nil, err
 	}
 	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
 
 	return h.applyRuleGeneric(r, &rule)
 }

@@ -14,9 +14,14 @@ func (t *LinesDetect) GetType() Type {
 	return TypeLinesDetect
 }
 
+func (t *LinesDetect) SetDefaultValues() {
+	t.IncludeCategories = []string{"MainZone"}
+	t.IgnoreCategories = []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
+}
+
 func NewLinesDetect(includeCategories, ignoreCategories []string) *LinesDetect {
 	return &LinesDetect{
-		Base:              Base{Type: TypeLinesDetect},
+		Base:              Base{Type: TypeLinesDetect, ApplicableStages: GetApplicableStages(TypeLinesDetect)},
 		IncludeCategories: includeCategories,
 		IgnoreCategories:  ignoreCategories,
 	}

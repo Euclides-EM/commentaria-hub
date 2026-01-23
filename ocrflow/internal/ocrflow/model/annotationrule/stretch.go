@@ -12,12 +12,24 @@ func (t *Stretch) GetType() Type {
 	return TypeStretch
 }
 
-func NewStretch(cat, towards string, ct ContactType, side ContactSide) *Stretch {
+func (t *Stretch) SetDefaultValues() {
+	t.StretchCategory = "MainZone-P"
+	t.Towards = "bottom"
+	t.ContactType = ContactTypeOuter
+	t.ContactSide = ContactSideAll
+}
+
+func NewZeroStretch() *Stretch {
 	return &Stretch{
-		Base:            Base{Type: TypeStretch},
-		StretchCategory: cat,
-		Towards:         towards,
-		ContactType:     ct,
-		ContactSide:     side,
+		Base: Base{Type: TypeStretch, ApplicableStages: GetApplicableStages(TypeStretch)},
 	}
+}
+
+func NewStretch(cat, towards string, ct ContactType, side ContactSide) *Stretch {
+	s := NewZeroStretch()
+	s.StretchCategory = cat
+	s.Towards = towards
+	s.ContactType = ct
+	s.ContactSide = side
+	return s
 }

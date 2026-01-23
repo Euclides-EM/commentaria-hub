@@ -13,4 +13,5 @@ type Annotation struct {
 	DatasetID          string                          `json:"dataset_id" readonly:"true"`
 	AppliedRules       []annotationrule.AnnotationRule `json:"applied_rules" readonly:"true"`
 	OriginAnnotationID string                          `json:"origin_annotation_id,omitempty" readonly:"true"`
+	PipelineStage      annotationrule.PipelineStage    `json:"pipeline_stage,omitempty" readonly:"true"`
 }

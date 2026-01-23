@@ -59,6 +59,7 @@ func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*model.Annotation, 
 		return nil, err
 	}
 	a.AppliedRules = rules
+	a.PipelineStage = calculatePipelineStage(a)
 
 	return a, nil
 }
@@ -99,6 +100,7 @@ func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*model.A
 			return nil, err
 		}
 		a.AppliedRules = rules
+		a.PipelineStage = calculatePipelineStage(a)
 
 		annotations = append(annotations, a)
 	}
@@ -376,4 +378,18 @@ func (s *AnnotationSQL) DeleteAnnotation(datasetID string, annotationID string) 
 		WHERE dataset_id = ? AND id = ?
 	`, datasetID, annotationID)
 	return err
+}
+
+func calculatePipelineStage(a *model.Annotation) annotationrule.PipelineStage {
+	s := annotationrule.PipelineStageRaw
+	for _, rule := range a.AppliedRules {
+		if rule == nil {
+			continue
+		}
+		minEnsured := annotationrule.MinEnsuredStage(rule.GetType())
+		if minEnsured.After(s) {
+			s = minEnsured
+		}
+	}
+	return s
 }
