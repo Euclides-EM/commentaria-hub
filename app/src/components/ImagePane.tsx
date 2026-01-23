@@ -1,5 +1,6 @@
 import { useAppState } from '../context/AppStateContext.tsx'
 import { OpenAPI } from '../api'
+import ImageZoom from 'react-image-zooom'
 
 export function ImagePane() {
   const {
@@ -12,11 +13,12 @@ export function ImagePane() {
       </div>
 
       <div className="flex-1 min-h-0 overflow-hidden flex items-center justify-center p-0">
-        <img
-          id="pageImg"
-          alt="Page image"
-          className="max-w-full max-h-full w-auto h-auto object-contain block"
+        <ImageZoom
           src={`${OpenAPI.BASE}/datasets/${datasetId}/images/${currentPage}`}
+          alt="Page image"
+          zoom="250"
+          width="100%"
+          height="auto"
         />
       </div>
     </section>
