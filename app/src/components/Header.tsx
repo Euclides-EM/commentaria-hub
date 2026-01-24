@@ -1,5 +1,6 @@
 import { useAuthStore } from '../store/authStore'
 import { BreadcrumbNav } from './BreadcrumbNav'
+import { Button } from './Button'
 
 interface HeaderProps {
   onShowLogin: () => void
@@ -37,12 +38,13 @@ export function Header({ onShowLogin }: HeaderProps) {
               </button>
             </>
           ) : (
-            <button
+            <Button
               onClick={onShowLogin}
-              className="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors"
+              variant="primary"
+              className="px-4 py-2 text-sm"
             >
               Login
-            </button>
+            </Button>
           )}
         </div>
       </div>

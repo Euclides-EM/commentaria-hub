@@ -1,6 +1,6 @@
 import { AnnotationDetailsTab } from './AnnotationDetailsTab.tsx'
 import { AnnotationTextTab } from './AnnotationTextTab.tsx'
-import { useAppState } from '../context/AppStateContext.tsx'
+import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
 
 type Tab = 'details' | 'text'

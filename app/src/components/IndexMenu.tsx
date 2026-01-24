@@ -1,7 +1,7 @@
 import { useAnnotationIndexQuery } from '../queries/annotations'
 import { LoadingSpinner } from './LoadingSpinner'
 import type { model_AnnotationIndexNode } from '../api'
-import { useAppState } from '../context/AppStateContext.tsx'
+import { useAppState } from '../context/useAppState'
 import { useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { SearchInput } from './SearchInput'

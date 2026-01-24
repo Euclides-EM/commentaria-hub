@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { AppStateProvider } from './context/AppStateContext.tsx'
+import { AppStateProvider } from './context/AppStateProvider'
 import { Header } from './components/Header'
 import { LoginModal } from './components/LoginModal'
 import { MainApp } from './components/MainApp'

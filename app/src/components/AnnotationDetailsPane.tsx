@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useAppState } from '../context/AppStateContext.tsx'
+import { useAppState } from '../context/useAppState'
 import { AnnotationsService, ApiError, type model_Annotation } from '../api'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
@@ -8,6 +8,8 @@ import { type AnnotationRule, getStageDisplayName } from '../utils/rules.ts'
 import { useAuthStore } from '../store/authStore.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useDatasetsQuery } from '../queries/datasets.ts'
+import { DeleteAnnotationModal } from './DeleteAnnotationModal.tsx'
+import { Button } from './Button'
 
 TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')
@@ -159,18 +161,19 @@ const AnnotationDetailsContent = ({
       {error && <div className="mt-4 text-sm text-red-600">{error}</div>}
       {isEditing && (
         <div className="flex justify-end gap-2 mt-4">
-          <button
+          <Button
             onClick={onCancel}
-            className="px-3 py-1.5 text-sm font-semibold text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="px-3 py-1.5 text-sm font-semibold"
           >
             Cancel
-          </button>
-          <button
+          </Button>
+          <Button
             onClick={onSave}
-            className="px-3 py-1.5 text-sm font-semibold text-white bg-indigo-600 rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            variant="primary"
+            className="px-3 py-1.5 text-sm font-semibold"
           >
             Save
-          </button>
+          </Button>
         </div>
       )}
     </div>
@@ -178,15 +181,16 @@ const AnnotationDetailsContent = ({
 }
 
 export function AnnotationDetailsPane() {
-  const { annotation, refetch } = useAppState()
+  const { annotation, refetch, setState } = useAppState()
   const [isEditing, setIsEditing] = useState(false)
   const [editedName, setEditedName] = useState('')
   const [editedDescription, setEditedDescription] = useState('')
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const [error, setError] = useState<string | null>(null)
+  const [isDeleteOpen, setIsDeleteOpen] = useState(false)
+  const [isDeleting, setIsDeleting] = useState(false)
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setError(null)
   }, [annotation?.id])
 
@@ -230,17 +234,53 @@ export function AnnotationDetailsPane() {
     }
   }
 
+  const handleDeleteClick = () => {
+    if (!annotation) {
+      return
+    }
+    setError(null)
+    setIsDeleteOpen(true)
+  }
+
+  const handleDeleteConfirm = async () => {
+    if (!annotation) {
+      return
+    }
+    try {
+      setError(null)
+      setIsDeleting(true)
+      await AnnotationsService.deleteDatasetsAnnotations({
+        dataSetId: annotation.dataset_id!,
+        id: annotation.id!,
+      })
+      setIsDeleteOpen(false)
+      setState({ annotationId: '' })
+      refetch()
+    } catch (e) {
+      console.error('Failed to delete annotation:', e)
+      setError(e instanceof ApiError ? e.body : String(e))
+    } finally {
+      setIsDeleting(false)
+    }
+  }
+
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white m-3 mb-0">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
         <div>Annotation Details</div>
         {isAuthenticated && !isEditing && annotation && (
-          <button
-            onClick={handleEditClick}
-            className="px-2 py-1 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          >
-            Edit
-          </button>
+          <div className="flex items-center gap-2">
+            <Button onClick={handleEditClick} className="px-2 py-1 text-xs">
+              Edit
+            </Button>
+            <Button
+              onClick={handleDeleteClick}
+              variant="danger"
+              className="px-2 py-1 text-xs"
+            >
+              Delete
+            </Button>
+          </div>
         )}
       </div>
 
@@ -258,6 +298,17 @@ export function AnnotationDetailsPane() {
             error={error}
           />
         </div>
+      )}
+
+      {annotation && (
+        <DeleteAnnotationModal
+          isOpen={isDeleteOpen}
+          annotationLabel={annotation.name || annotation.id || ''}
+          error={error}
+          isDeleting={isDeleting}
+          onCancel={() => setIsDeleteOpen(false)}
+          onConfirm={handleDeleteConfirm}
+        />
       )}
     </section>
   )

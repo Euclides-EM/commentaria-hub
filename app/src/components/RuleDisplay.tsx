@@ -5,6 +5,7 @@ import {
 } from '../utils/rules.ts'
 import type { annotationrule_PipelineStage } from '../api/models/annotationrule_PipelineStage.ts'
 import { Fragment } from 'react'
+import { Button } from './Button'
 
 interface RuleDisplayProps {
   rule: AnnotationRule
@@ -63,13 +64,14 @@ export function RuleDisplay({
             </span>
           )}
           {onRun && (
-            <button
+            <Button
               onClick={onRun}
-              className="inline-flex items-center px-3 py-1 text-xs font-medium text-white bg-blue-600 rounded hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              variant="primary"
+              className="px-3 py-1 text-xs"
               disabled={disabled}
             >
               Run
-            </button>
+            </Button>
           )}
         </div>
       </div>

@@ -77,24 +77,26 @@ export const isRuleApplied = (
     const typedAppliedRule = appliedRule as AnnotationRule
     if (suggestedRule.type === typedAppliedRule.type) {
       switch (suggestedRule.type) {
-        case 'slice_pages':
+        case 'slice_pages': {
           const sliceSuggested = suggestedRule as annotationrule_SlicePages
           const sliceApplied = typedAppliedRule as annotationrule_SlicePages
           return (
             sliceSuggested.pages === sliceApplied.pages ||
             sliceSuggested.random_pages === sliceApplied.random_pages
           )
-        case 'segment':
+        }
+        case 'segment': {
           const segmentSuggested = suggestedRule as annotationrule_Segment
           const segmentApplied = typedAppliedRule as annotationrule_Segment
           return segmentSuggested.model === segmentApplied.model
+        }
         case 'stretch':
         case 'add_margin':
         case 'lines_detect':
         case 'remove_categories':
         case 'remove_overlap':
         case 'reassign_text_lines_by_tolerance':
-        case 'text_blocks_corrections':
+        case 'text_blocks_corrections': {
           const suggestedKeys = Object.keys(suggestedRule).filter(
             (k) => k !== 'type',
           )
@@ -111,6 +113,7 @@ export const isRuleApplied = (
               (suggestedRule as Record<string, unknown>)[key] ===
               (typedAppliedRule as Record<string, unknown>)[key],
           )
+        }
         default:
           return (
             JSON.stringify(suggestedRule) === JSON.stringify(typedAppliedRule)

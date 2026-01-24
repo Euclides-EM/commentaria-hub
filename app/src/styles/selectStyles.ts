@@ -1,12 +1,19 @@
 import type { StylesConfig } from 'react-select'
 
+type SelectStylesConfig = {
+  controlWidth: number
+}
+
 export const selectStyles = <
   OptionType extends { value: unknown; label: string },
->(): StylesConfig<OptionType, false> => ({
+>(
+  config: Partial<SelectStylesConfig> = {},
+): StylesConfig<OptionType, false> => ({
   control: (base, state) => ({
     ...base,
     minHeight: 32,
     height: 32,
+    width: config.controlWidth,
     fontSize: '14px',
     border: `1px solid ${state.isFocused ? '#3b82f6' : '#9ca3af'}`,
     borderRadius: '6px',

@@ -6,6 +6,8 @@ import {
   ApiError,
 } from '../api'
 import Select from 'react-select'
+import { Button } from './Button'
+import { selectStyles } from '../styles/selectStyles.ts'
 
 interface RuleEditModalProps {
   isOpen: boolean
@@ -122,13 +124,11 @@ export function RuleEditModal({
         onClick={(e) => e.stopPropagation()}
       >
         <div className="px-6 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold">
-            {initialPayload ? 'Edit Rule' : 'Run Manual Rule'}
-          </h2>
+          <h2 className="text-lg font-semibold">Run Rule</h2>
           {!initialPayload && ruleMetadata && (
-            <div className="mt-2">
+            <div className="mt-2 w-full flex flex-row gap-2 items-center">
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Select Rule Type
+                Rule type:
               </label>
               <Select
                 options={ruleOptions}
@@ -138,6 +138,10 @@ export function RuleEditModal({
                 onChange={(option) => setSelectedRuleType(option?.value)}
                 isDisabled={loading}
                 className="text-sm"
+                styles={selectStyles<{
+                  value: annotationrule_Type | undefined
+                  label: string
+                }>({ controlWidth: 256 })}
               />
             </div>
           )}
@@ -219,18 +223,16 @@ export function RuleEditModal({
             </div>
           ) : (
             <>
-              <button
-                onClick={onClose}
-                className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
-              >
+              <Button onClick={onClose} className="px-4 py-2 text-sm">
                 Cancel
-              </button>
-              <button
+              </Button>
+              <Button
                 onClick={handleSubmit}
-                className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700"
+                variant="primary"
+                className="px-4 py-2 text-sm"
               >
                 Run Rule
-              </button>
+              </Button>
             </>
           )}
         </div>

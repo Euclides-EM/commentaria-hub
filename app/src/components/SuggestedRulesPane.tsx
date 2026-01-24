@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useAppState } from '../context/AppStateContext.tsx'
+import { useAppState } from '../context/useAppState'
 import type {
   annotationrule_AddMargin,
   annotationrule_LinesDetect,
@@ -20,6 +20,7 @@ import { useDatasetSuggestedRules } from '../queries/datasets.ts'
 import { type AnnotationRule, isRuleApplied } from '../utils/rules.ts'
 import { RuleDisplay } from './RuleDisplay.tsx'
 import { useAnnotationRules } from '../queries/metadata.ts'
+import { useAuthStore } from '../store/authStore.ts'
 
 type BaseRunRuleParams = {
   dataSetId: string
@@ -96,6 +97,7 @@ export function SuggestedRulesPane() {
   const [editingRule, setEditingRule] = useState<AnnotationRule | null>(null)
   const [isManualModalOpen, setIsManualModalOpen] = useState(false)
   const { data: allRules } = useAnnotationRules()
+  const isAuthenticated = !!useAuthStore((store) => store.token)
 
   const {
     data: rules,
@@ -168,7 +170,7 @@ export function SuggestedRulesPane() {
               / {suggestedRules.length} applied
             </div>
           )}
-          {annotation && (
+          {annotation && isAuthenticated && (
             <button
               onClick={() => setIsManualModalOpen(true)}
               className="ml-auto px-2 py-1 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -227,6 +229,7 @@ export function SuggestedRulesPane() {
                     rule={rule}
                     isApplied={applied}
                     onRun={
+                      isAuthenticated &&
                       annotation &&
                       !isFutureRuleApplied &&
                       !applied &&

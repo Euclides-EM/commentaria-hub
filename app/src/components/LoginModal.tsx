@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useAuthStore } from '../store/authStore'
 import { OpenAPI } from '../api'
+import { Button } from './Button'
 
 interface LoginModalProps {
   onClose: () => void
@@ -104,20 +105,21 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
           {error && <div className="text-red-600 text-sm">{error}</div>}
 
           <div className="flex gap-3">
-            <button
+            <Button
               type="button"
               onClick={onClose}
-              className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-50 transition-colors"
+              className="flex-1 px-4 py-2"
             >
               Cancel
-            </button>
-            <button
+            </Button>
+            <Button
               type="submit"
               disabled={isLoading || !token.trim()}
-              className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              variant="primary"
+              className="flex-1 px-4 py-2"
             >
               {isLoading ? 'Validating...' : 'Sign In'}
-            </button>
+            </Button>
           </div>
         </form>
       </div>

@@ -4,7 +4,7 @@ import {
   useAnnotationCategories,
   useAnnotationSearch,
 } from '../queries/annotations'
-import { useAppState } from '../context/AppStateContext.tsx'
+import { useAppState } from '../context/useAppState'
 import { MultiSelectDropdown } from './MultiSelectDropdown'
 import type { model_AnnotationPart } from '../api'
 import { SearchInput } from './SearchInput'
@@ -169,7 +169,9 @@ export function AnnotationSearchMenu() {
                   if (result.location?.page) {
                     jumpToPage(result.location.page)
                   }
-                  setSearchResultHighlight(result.content || null)
+                  setSearchResultHighlight(
+                    result.location?.text_block_id ?? null,
+                  )
                 }}
               >
                 <div className="flex items-center justify-between text-[11px] text-gray-500 mb-1">

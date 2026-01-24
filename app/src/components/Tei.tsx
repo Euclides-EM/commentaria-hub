@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { useAppState } from '../context/AppStateContext.tsx'
+import { useAppState } from '../context/useAppState'
 
 type Props = {
   data: string
