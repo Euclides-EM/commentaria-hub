@@ -67,7 +67,7 @@ func (a *Annotation) Create(datasetID string, ann *model.Annotation) (*model.Ann
 	}
 
 	// assign basic fields
-	ann.ID = idgen.GenerateID()
+	ann.ID = idgen.GenerateID(store.AnnotationIDPrefix)
 	ann.DatasetID = datasetID
 
 	if ann.Pages == "" {
@@ -103,7 +103,7 @@ func (a *Annotation) CreateFromZip(aum *model.AnnotationUploadMetadata, save fun
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
 	ann := &model.Annotation{
-		Meta:               model.NewMeta(idgen.GenerateID()).WithName(aum.Name).WithDescription(aum.Description),
+		Meta:               model.NewMeta(idgen.GenerateID(store.AnnotationIDPrefix)).WithName(aum.Name).WithDescription(aum.Description),
 		DatasetID:          aum.DatasetID,
 		Segmented:          aum.Segmented,
 		GroundTruth:        aum.GroundTruth,
@@ -330,7 +330,7 @@ func (a *Annotation) Duplicate(datasetID string, annotationID string, name strin
 		return nil, fmt.Errorf("failed to copy annotation: %w", err)
 	}
 
-	ann.ID = idgen.GenerateID()
+	ann.ID = idgen.GenerateID(store.AnnotationIDPrefix)
 	ann.Meta.Name = name
 	ann.Meta.Description = description
 

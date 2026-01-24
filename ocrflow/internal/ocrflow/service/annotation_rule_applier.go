@@ -138,7 +138,7 @@ func (a *AnnotationRuleApplier) applySlicePagesRule(ann *model.Annotation, t *an
 		return nil, fmt.Errorf("failed to read alto dir: %w", err)
 	}
 	for _, de := range des {
-		if de.IsDir() || filepath.Ext(de.Name()) != ".xml" {
+		if de.IsDir() || filepath.Ext(de.Name()) != ".xml" || filepath.Base(de.Name()) == "METS.xml" {
 			continue
 		}
 		pageNum, err := pagesparser.FileNameToPage(de.Name())

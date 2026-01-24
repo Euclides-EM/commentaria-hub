@@ -14,9 +14,16 @@ func (t *ReassignTextLinesByTolerance) GetType() Type {
 	return TypeReassignTextLinesByTolerance
 }
 
+func (t *ReassignTextLinesByTolerance) SetDefaultValues() {
+	t.FromCategory = "MainZone"
+	t.ToCategory = "MainZone-Head--Section"
+	t.PrecisionPx = 5.0
+	t.MinOverlap = 0.8
+}
+
 func NewReassignTextLinesByTolerance(fromCategory, toCategory string, precisionPx, minOverlap float64) *ReassignTextLinesByTolerance {
 	return &ReassignTextLinesByTolerance{
-		Base:         Base{Type: TypeReassignTextLinesByTolerance},
+		Base:         Base{Type: TypeReassignTextLinesByTolerance, ApplicableStages: GetApplicableStages(TypeReassignTextLinesByTolerance)},
 		FromCategory: fromCategory,
 		ToCategory:   toCategory,
 		PrecisionPx:  precisionPx,

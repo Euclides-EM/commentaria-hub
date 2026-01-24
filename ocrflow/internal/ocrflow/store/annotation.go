@@ -15,6 +15,8 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 )
 
+const AnnotationIDPrefix = "ann"
+
 type AnnotationSQL struct {
 	BaseSQL
 }
@@ -59,6 +61,7 @@ func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*model.Annotation, 
 		return nil, err
 	}
 	a.AppliedRules = rules
+	a.PipelineStage = calculatePipelineStage(a)
 
 	return a, nil
 }
@@ -99,6 +102,7 @@ func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*model.A
 			return nil, err
 		}
 		a.AppliedRules = rules
+		a.PipelineStage = calculatePipelineStage(a)
 
 		annotations = append(annotations, a)
 	}
@@ -116,7 +120,7 @@ func (s *AnnotationSQL) listAppliedRules(annotationID string) ([]annotationrule.
 		FROM annotation_applied_rules ar
 		JOIN annotation_rules r ON r.id = ar.rule_id
 		WHERE ar.annotation_id = ?
-		ORDER BY r.created_at ASC
+		ORDER BY ar.applied_index ASC
 	`, annotationID)
 	if err != nil {
 		return nil, err
@@ -171,7 +175,7 @@ func (s *AnnotationSQL) UpdateAnnotation(a *model.Annotation) error {
 	var oldRuleIDs []string
 	{
 		rows, err := tx.Query(`
-			SELECT rule_id
+			SELECT DISTINCT rule_id
 			FROM annotation_applied_rules
 			WHERE annotation_id = ?
 		`, a.ID)
@@ -218,8 +222,8 @@ func (s *AnnotationSQL) UpdateAnnotation(a *model.Annotation) error {
 		return err
 	}
 
-	// 3) re-add applied rules (and upsert rules table)
-	for _, rule := range a.AppliedRules {
+	// 3) re-add applied rules (and upsert rules table), preserving order
+	for i, rule := range a.AppliedRules {
 		if rule == nil {
 			continue
 		}
@@ -249,9 +253,9 @@ func (s *AnnotationSQL) UpdateAnnotation(a *model.Annotation) error {
 		}
 
 		if _, err := tx.Exec(`
-			INSERT INTO annotation_applied_rules (annotation_id, rule_id)
-			VALUES (?, ?)
-		`, a.ID, ruleID); err != nil {
+			INSERT INTO annotation_applied_rules (annotation_id, rule_id, applied_index)
+			VALUES (?, ?, ?)
+		`, a.ID, ruleID, i); err != nil {
 			return err
 		}
 	}
@@ -284,7 +288,6 @@ func (s *AnnotationSQL) UpdateAnnotation(a *model.Annotation) error {
 	if err := tx.Commit(); err != nil {
 		return err
 	}
-
 	return nil
 }
 
@@ -297,7 +300,7 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 	}
 
 	if a.ID == "" {
-		a.ID = idgen.GenerateID()
+		a.ID = idgen.GenerateID(AnnotationIDPrefix)
 	}
 
 	now := time.Now()
@@ -308,9 +311,7 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 	if err != nil {
 		return err
 	}
-	defer func() {
-		_ = tx.Rollback()
-	}()
+	defer func() { _ = tx.Rollback() }()
 
 	// 1) annotations
 	if _, err := tx.Exec(`
@@ -321,8 +322,8 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 		return err
 	}
 
-	// 2) annotation_rules + annotation_applied_rules
-	for _, rule := range a.AppliedRules {
+	// 2) annotation_rules + annotation_applied_rules (preserving order)
+	for i, rule := range a.AppliedRules {
 		if rule == nil {
 			continue
 		}
@@ -332,11 +333,9 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 			return fmt.Errorf("marshal rule: %w", err)
 		}
 
-		// Deterministic ID so identical rule definitions converge to the same DB row.
 		sum := sha1.Sum(b)
 		ruleID := "rule_" + hex.EncodeToString(sum[:])
 
-		// Optional: set a readable name from the "type" field.
 		ruleName := "rule"
 		{
 			var base annotationrule.Base
@@ -345,7 +344,6 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 			}
 		}
 
-		// Insert rule row if missing
 		if _, err := tx.Exec(`
 			INSERT OR IGNORE INTO annotation_rules (
 				id, name, description, created_at, updated_at, rule_definition
@@ -354,11 +352,10 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 			return err
 		}
 
-		// Link rule to annotation
 		if _, err := tx.Exec(`
-			INSERT INTO annotation_applied_rules (annotation_id, rule_id)
-			VALUES (?, ?)
-		`, a.ID, ruleID); err != nil {
+			INSERT INTO annotation_applied_rules (annotation_id, rule_id, applied_index)
+			VALUES (?, ?, ?)
+		`, a.ID, ruleID, i); err != nil {
 			return err
 		}
 	}
@@ -366,7 +363,6 @@ func (s *AnnotationSQL) InsertAnnotation(a *model.Annotation) error {
 	if err := tx.Commit(); err != nil {
 		return err
 	}
-
 	return nil
 }
 
@@ -376,4 +372,24 @@ func (s *AnnotationSQL) DeleteAnnotation(datasetID string, annotationID string) 
 		WHERE dataset_id = ? AND id = ?
 	`, datasetID, annotationID)
 	return err
+}
+
+func calculatePipelineStage(a *model.Annotation) annotationrule.PipelineStage {
+	s := annotationrule.PipelineStageRaw
+	if a.Ocred {
+		s = annotationrule.PipelineStageOCR
+	}
+	if a.Segmented {
+		s = annotationrule.PipelineStageTextLineSegmentation
+	}
+	for _, rule := range a.AppliedRules {
+		if rule == nil {
+			continue
+		}
+		minEnsured := annotationrule.MinEnsuredStage(rule.GetType())
+		if minEnsured.After(s) {
+			s = minEnsured
+		}
+	}
+	return s
 }

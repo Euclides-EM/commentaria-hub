@@ -46,6 +46,7 @@ func NewHTTPApp() (*App, error) {
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
 	datasetSvc := service.NewDatasetService(editionSvc, datasetStore, fileSystemManager, ghDownloader)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
+	metadataDetailsSvc := service.NewMetadataDetails()
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
@@ -75,6 +76,7 @@ func NewHTTPApp() (*App, error) {
 		AnnotationSvc:       annotationSvc,
 		ModelSvc:            modelSvc,
 		TrainSvc:            trainSvc,
+		MetadataDetailsSvc:  metadataDetailsSvc,
 		MetaStoreManager:    metaStoreManager,
 		AnnotationsUploader: annotationUploader,
 		AnnotationTEI:       annotationTEI,
