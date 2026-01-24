@@ -2,6 +2,8 @@ import { type FormEvent, useEffect, useState } from 'react'
 import { AnnotationsService, ApiError } from '../../api'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'
+import Select from 'react-select'
+import { selectStyles } from '../../styles/selectStyles.ts'
 
 type ImportMode = 'url' | 'zip'
 
@@ -135,18 +137,18 @@ export function ImportAnnotationsModal({
             <label className="block text-sm font-medium text-gray-700">
               Format
             </label>
-            <select
-              value={format}
-              onChange={(e) => setFormat(e.target.value as 'ALTO' | 'YOLO')}
-              className="w-32 p-2 border border-gray-300 rounded-md"
-              disabled={loading}
-            >
-              {formatOptions.map((option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
+            <Select
+              options={formatOptions}
+              value={formatOptions.find((option) => option.value === format)}
+              onChange={(option) =>
+                setFormat((option?.value as 'ALTO' | 'YOLO') || 'ALTO')
+              }
+              isDisabled={loading}
+              className="text-sm"
+              styles={selectStyles<{ value: 'ALTO' | 'YOLO'; label: string }>({
+                controlWidth: 160,
+              })}
+            />
           </div>
 
           {mode === 'url' ? (

@@ -24,16 +24,16 @@ export function Header({ onShowLogin }: HeaderProps) {
           <BreadcrumbNav />
         </div>
 
-        <div className="flex items-center gap-4 ml-auto">
+        <div className="flex items-center gap-3 ml-auto">
           {token && username ? (
             <>
-              <span className="text-sm text-gray-600">
-                Logged in as: <strong>{username}</strong>
+              <span className="text-xs text-gray-600">
+                Logged in as: <strong className="text-sm">{username}</strong>
               </span>
               <Button
                 variant="danger"
                 onClick={clearAuth}
-                className="px-3 py-1 text-sm transition-colors"
+                className="px-2 py-1 text-xs transition-colors"
               >
                 Logout
               </Button>

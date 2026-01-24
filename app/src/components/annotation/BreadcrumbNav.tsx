@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import Select from 'react-select'
 import { useDatasetsQuery } from '../../queries/datasets'
 import { useAnnotationsQuery } from '../../queries/annotations'
@@ -15,8 +15,6 @@ const Separator = () => <span className="bg-gray-600 w-[1px] h-fill mx-2" />
 
 export function BreadcrumbNav() {
   const { state, setState } = useAppState()
-  const [datasetPulse, setDatasetPulse] = useState(false)
-  const [annotationPulse, setAnnotationPulse] = useState(false)
 
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { data: annotations, isLoading: annotationsLoading } =
@@ -72,36 +70,15 @@ export function BreadcrumbNav() {
     setState({ annotationId: value })
   }
 
-  useEffect(() => {
-    if (state.datasetId) {
-      setDatasetPulse(false)
-      return
-    }
-    setDatasetPulse(true)
-    const intervalId = window.setInterval(() => {
-      setDatasetPulse((prev) => !prev)
-    }, 1200)
-    return () => window.clearInterval(intervalId)
-  }, [state.datasetId])
-
-  useEffect(() => {
-    if (!state.datasetId || state.annotationId) {
-      setAnnotationPulse(false)
-      return
-    }
-    setAnnotationPulse(true)
-    const intervalId = window.setInterval(() => {
-      setAnnotationPulse((prev) => !prev)
-    }, 1200)
-    return () => window.clearInterval(intervalId)
-  }, [state.annotationId, state.datasetId])
+  const highlightDataset = !state.datasetId
+  const highlightAnnotation = !!state.datasetId && !state.annotationId
 
   return (
     <div className="flex items-center text-sm gap-2 flex-wrap">
       <Separator />
 
       <div
-        className={`text-shadow-gray-800 font-semibold px-1 rounded transition-all duration-700 ${datasetPulse ? 'text-teal-800 shadow-[0_0_0_6px_rgba(20,184,166,0.18)]' : 'shadow-[0_0_0_0_rgba(20,184,166,0)]'}`}
+        className={`text-shadow-gray-800 font-semibold px-1 rounded ${highlightDataset ? 'label-glow text-teal-800' : ''}`}
       >
         Dataset
       </div>
@@ -124,7 +101,7 @@ export function BreadcrumbNav() {
           <Separator />
 
           <div
-            className={`text-shadow-gray-800 font-semibold px-1 rounded transition-all duration-700 ${annotationPulse ? 'text-teal-800 shadow-[0_0_0_6px_rgba(20,184,166,0.18)]' : 'shadow-[0_0_0_0_rgba(20,184,166,0)]'}`}
+            className={`text-shadow-gray-800 font-semibold px-1 rounded ${highlightAnnotation ? 'label-glow text-teal-800' : ''}`}
           >
             Annotation
           </div>

@@ -15,12 +15,12 @@ export const selectStyles = <
     height: 32,
     width: config.controlWidth,
     fontSize: '14px',
-    border: `1px solid ${state.isFocused ? '#3b82f6' : '#9ca3af'}`,
+    border: `1px solid ${state.isFocused ? '#14b8a6' : '#9ca3af'}`,
     borderRadius: '6px',
     backgroundColor: 'white',
-    boxShadow: state.isFocused ? '0 0 0 3px rgba(59, 130, 246, 0.1)' : 'none',
+    boxShadow: state.isFocused ? '0 0 0 3px rgba(20, 184, 166, 0.15)' : 'none',
     '&:hover': {
-      borderColor: state.isFocused ? '#3b82f6' : '#6b7280',
+      borderColor: state.isFocused ? '#14b8a6' : '#6b7280',
     },
   }),
   valueContainer: (base) => ({
@@ -67,6 +67,8 @@ export const selectStyles = <
   }),
   menu: (base) => ({
     ...base,
+    minWidth: config.controlWidth || '200px',
+    width: 'max-content',
     fontSize: '14px',
     border: '1px solid #d1d5db',
     boxShadow:
@@ -77,13 +79,13 @@ export const selectStyles = <
     fontSize: '14px',
     padding: '8px 12px',
     backgroundColor: state.isSelected
-      ? '#3b82f6'
+      ? '#14b8a6'
       : state.isFocused
         ? '#f3f4f6'
         : 'white',
     color: state.isSelected ? 'white' : '#374151',
     '&:hover': {
-      backgroundColor: state.isSelected ? '#3b82f6' : '#f3f4f6',
+      backgroundColor: state.isSelected ? '#14b8a6' : '#f3f4f6',
     },
   }),
   placeholder: (base) => ({
