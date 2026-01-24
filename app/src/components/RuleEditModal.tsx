@@ -1,27 +1,14 @@
 import { useEffect, useState } from 'react'
 import {
-  type annotationrule_AddMargin,
-  type annotationrule_LinesDetect,
-  type annotationrule_ReassignTextLinesByTolerance,
-  type annotationrule_RemoveCategories,
-  type annotationrule_RemoveOverlap,
-  type annotationrule_Segment,
-  type annotationrule_SlicePages,
-  type annotationrule_Stretch,
-  type annotationrule_TextBlockCorrections,
+  type AnnotationRule,
+} from '../utils/rules.ts'
+import {
   ApiError,
+  type annotationrule_MetadataDetails,
+  type annotationrule_Type,
 } from '../api'
+import Select from 'react-select'
 
-type AnnotationRule =
-  | annotationrule_Segment
-  | annotationrule_SlicePages
-  | annotationrule_Stretch
-  | annotationrule_AddMargin
-  | annotationrule_LinesDetect
-  | annotationrule_RemoveCategories
-  | annotationrule_RemoveOverlap
-  | annotationrule_ReassignTextLinesByTolerance
-  | annotationrule_TextBlockCorrections
 
 interface RuleEditModalProps {
   isOpen: boolean
@@ -30,7 +17,8 @@ interface RuleEditModalProps {
     payload: AnnotationRule,
     action: 'overwrite' | 'create_new',
   ) => Promise<void>
-  initialPayload: AnnotationRule
+  initialPayload?: AnnotationRule // Make optional for manual creation
+  ruleMetadata?: annotationrule_MetadataDetails[] // Add for manual creation
 }
 
 export function RuleEditModal({
@@ -38,29 +26,51 @@ export function RuleEditModal({
   onClose,
   onSubmit,
   initialPayload,
+  ruleMetadata,
 }: RuleEditModalProps) {
   const [payload, setPayload] = useState('')
   const [action, setAction] = useState<'overwrite' | 'create_new'>('overwrite')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [selectedRuleType, setSelectedRuleType] = useState<annotationrule_Type | undefined>(
+    initialPayload?.type || ruleMetadata?.[0]?.type,
+  )
 
   useEffect(() => {
-    if (isOpen && initialPayload) {
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const { type, ...editablePayload } = initialPayload
-      setPayload(JSON.stringify(editablePayload, null, 2))
+    if (isOpen) {
       setError(null)
+      let currentPayload: AnnotationRule | object = {}
+
+      if (initialPayload) {
+        // Editing an existing suggested rule
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        const { type, ...editablePayload } = initialPayload
+        currentPayload = editablePayload
+        setSelectedRuleType(initialPayload.type)
+      } else if (selectedRuleType && ruleMetadata) {
+        // Creating a new manual rule, use default payload from metadata
+        const metadata = ruleMetadata.find(meta => meta.type === selectedRuleType);
+        if (metadata?.default) {
+          currentPayload = metadata.default;
+        }
+      }
+      setPayload(JSON.stringify(currentPayload, null, 2))
     }
-  }, [isOpen, initialPayload])
+  }, [isOpen, initialPayload, selectedRuleType, ruleMetadata])
 
   const handleSubmit = async () => {
+    if (!selectedRuleType) {
+      setError('Please select a rule type.')
+      return;
+    }
+
     try {
       setError(null)
       setLoading(true)
       const parsedPayload = JSON.parse(payload)
       const fullPayload = {
         ...parsedPayload,
-        type: initialPayload.type,
+        type: selectedRuleType,
       } as AnnotationRule
       await onSubmit(fullPayload, action)
       onClose()
@@ -71,6 +81,14 @@ export function RuleEditModal({
       setLoading(false)
     }
   }
+
+  const ruleOptions = ruleMetadata?.map(meta => ({
+    value: meta.type,
+    label: meta.type
+      ?.split('_')
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(' ') || String(meta.type),
+  })) || [];
 
   if (!isOpen) {
     return null
@@ -87,19 +105,38 @@ export function RuleEditModal({
       >
         <div className="px-6 py-4 border-b border-gray-200">
           <h2 className="text-lg font-semibold">
-            Rule to run:{' '}
-            {initialPayload.type
-              ?.split('_')
-              .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-              .join(' ')}
+            {initialPayload ? 'Edit Rule' : 'Run Manual Rule'}
           </h2>
+          {!initialPayload && ruleMetadata && (
+            <div className="mt-2">
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                Select Rule Type
+              </label>
+              <Select
+                options={ruleOptions}
+                value={ruleOptions.find(option => option.value === selectedRuleType)}
+                onChange={(option) => setSelectedRuleType(option?.value)}
+                isDisabled={loading}
+                className="text-sm"
+              />
+            </div>
+          )}
+           {initialPayload && (
+            <p className="text-sm text-gray-600 mt-1">
+              Type:{' '}
+              {initialPayload.type
+                ?.split('_')
+                .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+                .join(' ')}
+            </p>
+          )}
         </div>
 
         <div className="flex-1 overflow-auto p-6">
           <div className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Parameters (type: {initialPayload.type})
+                Parameters (type: {selectedRuleType})
               </label>
               <textarea
                 value={payload}

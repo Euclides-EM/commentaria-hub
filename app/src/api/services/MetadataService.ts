@@ -14,7 +14,7 @@ export class MetadataService {
      * @returns annotationrule_MetadataDetails OK
      * @throws ApiError
      */
-    public static getAnnotationRules(): CancelablePromise<Array<Array<annotationrule_MetadataDetails>>> {
+    public static getAnnotationRules(): CancelablePromise<Array<annotationrule_MetadataDetails>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/annotation_rules',
@@ -26,7 +26,7 @@ export class MetadataService {
      * @returns annotationrule_PipelineStage OK
      * @throws ApiError
      */
-    public static getPipelineStages(): CancelablePromise<Array<Array<annotationrule_PipelineStage>>> {
+    public static getPipelineStages(): CancelablePromise<Array<annotationrule_PipelineStage>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/pipeline_stages',

@@ -7,7 +7,7 @@ import "net/http"
 // @Description  Lists all available annotation rules with their default configurations.
 // @Tags         Metadata
 // @Produce      json
-// @Success      200  {array}   []annotationrule.MetadataDetails
+// @Success      200  {array}   annotationrule.MetadataDetails
 // @Router       /annotation_rules [get]
 func (h *Handlers) ListAnnotationRules(r *http.Request) (any, error) {
 	return h.deps.MetadataDetailsSvc.ListAnnotationRules()
@@ -18,7 +18,7 @@ func (h *Handlers) ListAnnotationRules(r *http.Request) (any, error) {
 // @Description  Lists all defined pipeline stages for annotations.
 // @Tags         Metadata
 // @Produce      json
-// @Success      200  {array}   []annotationrule.PipelineStage
+// @Success      200  {array}   annotationrule.PipelineStage
 // @Router       /pipeline_stages [get]
 func (h *Handlers) ListPipelineStages(r *http.Request) (any, error) {
 	return h.deps.MetadataDetailsSvc.ListPipelineStages()

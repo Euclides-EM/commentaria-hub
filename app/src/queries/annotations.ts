@@ -1,55 +1,22 @@
 import { useQuery } from '@tanstack/react-query'
 import { AnnotationsService } from '../api'
 
-type AnnotationFilter = 'transcribed' | 'ground_truth'
+const annotationsQueryKey = (datasetId: string) =>
+  ['annotations', datasetId] as const
 
-export const annotationsQueryKey = (
-  datasetId: string,
-  filters?: AnnotationFilter[],
-) => ['annotations', datasetId, { filters }] as const
-
-export function useAnnotationsQuery(
-  datasetId: string,
-  filters: AnnotationFilter[] = [],
-) {
+export function useAnnotationsQuery(datasetId: string) {
   return useQuery({
-    queryKey: annotationsQueryKey(datasetId, filters),
-    queryFn: async () => {
-      if (!datasetId) {
-        return []
-      }
-      const data = await AnnotationsService.getDatasetsAnnotations({
+    queryKey: annotationsQueryKey(datasetId),
+    queryFn: async () =>
+      AnnotationsService.getDatasetsAnnotations({
         dataSetId: datasetId,
-      })
-
-      if (filters.length === 0) {
-        return data
-      }
-
-      return data.filter((ann) => {
-        if (
-          filters.includes('transcribed') &&
-          filters.includes('ground_truth')
-        ) {
-          return ann.ocred && ann.ground_truth
-        }
-        if (filters.includes('transcribed')) {
-          return ann.ocred
-        }
-        if (filters.includes('ground_truth')) {
-          return ann.ground_truth
-        }
-        return true
-      })
-    },
+      }),
     enabled: !!datasetId,
   })
 }
 
-export const annotationIndexQueryKey = (
-  datasetId: string,
-  annotationId: string,
-) => ['annotations', datasetId, annotationId, 'index'] as const
+const annotationIndexQueryKey = (datasetId: string, annotationId: string) =>
+  ['annotations', datasetId, annotationId, 'index'] as const
 
 export function useAnnotationIndexQuery(
   datasetId: string,
@@ -88,5 +55,28 @@ export function useAnnotationTeiQuery(
         pageNum: pageNum.toString(),
       }),
     enabled: !!datasetId && !!annotationId && enabled,
+  })
+}
+
+export function useAnnotationSearch(
+  datasetId: string,
+  annotationId: string,
+  regex: string,
+) {
+  return useQuery({
+    queryKey: [
+      'annotations',
+      datasetId,
+      annotationId,
+      'search',
+      { regex },
+    ] as const,
+    queryFn: () =>
+      AnnotationsService.getDatasetsAnnotationsSearch({
+        dataSetId: datasetId,
+        id: annotationId,
+        regex,
+      }),
+    enabled: !!datasetId && !!annotationId && regex.length > 0,
   })
 }

@@ -4,10 +4,9 @@ import { AnnotationsService, ApiError, type model_Annotation } from '../api'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
 import { RuleDisplay } from './RuleDisplay.tsx'
-import type { AnnotationRule } from '../utils/rules.ts'
+import { type AnnotationRule, getStageDisplayName } from '../utils/rules.ts'
 import { useAuthStore } from '../store/authStore.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
-import type { AnnotationFilter } from './AnnotationFilterDropdown.tsx'
 import { useDatasetsQuery } from '../queries/datasets.ts'
 
 TimeAgo.addDefaultLocale(en)
@@ -50,10 +49,7 @@ const AnnotationDetailsContent = ({
   error,
 }: AnnotationDetailsContentProps) => {
   const { setState } = useAppState()
-  const { data: annotations } = useAnnotationsQuery(
-    annotation.dataset_id!,
-    [] as AnnotationFilter[],
-  )
+  const { data: annotations } = useAnnotationsQuery(annotation.dataset_id!)
   const { data: datasets } = useDatasetsQuery()
   const appliedRules = (annotation.applied_rules || []) as AnnotationRule[]
 
@@ -105,7 +101,8 @@ const AnnotationDetailsContent = ({
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Stage</div>
         <div className="text-sm leading-tight break-all">
-          {annotation.pipeline_stage}
+          {annotation.pipeline_stage &&
+            getStageDisplayName(annotation.pipeline_stage)}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Segmented</div>
         <div className="text-sm leading-tight break-all">

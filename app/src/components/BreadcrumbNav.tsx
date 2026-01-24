@@ -4,20 +4,37 @@ import { useDatasetsQuery } from '../queries/datasets'
 import { useAnnotationsQuery } from '../queries/annotations'
 import { selectStyles } from '../styles/selectStyles'
 import { useAppState } from '../context/AppStateContext'
-import {
-  type AnnotationFilter,
-  AnnotationFilterDropdown,
-} from './AnnotationFilterDropdown'
+import { AnnotationFilterDropdown } from './AnnotationFilterDropdown'
+import { usePipelineStages } from '../queries/metadata.ts'
+import useLocalStorageState from 'use-local-storage-state'
+import type { annotationrule_PipelineStage } from '../api'
 
 const Separator = () => <span className="bg-gray-600 w-[1px] h-fill mx-2" />
 
 export function BreadcrumbNav() {
-  const { state, setState, toggleFilter } = useAppState()
-  const annotationFilters = state.annotationFilters as AnnotationFilter[]
+  const { state, setState } = useAppState()
 
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { data: annotations, isLoading: annotationsLoading } =
-    useAnnotationsQuery(state.datasetId, annotationFilters)
+    useAnnotationsQuery(state.datasetId)
+  const { data: stages } = usePipelineStages()
+  const [selectedStages, setSelectedStages] = useLocalStorageState<
+    annotationrule_PipelineStage[]
+  >('annotationFilterStages', {
+    defaultValue: [],
+  })
+
+  const filteredAnnotations = useMemo(() => {
+    if (!annotations) {
+      return []
+    }
+    return annotations.filter(
+      (a) =>
+        selectedStages.length === 0 ||
+        !a.pipeline_stage ||
+        selectedStages.includes(a.pipeline_stage),
+    )
+  }, [annotations, selectedStages])
 
   const datasetOptions = useMemo(() => {
     if (!datasets) return []
@@ -30,14 +47,13 @@ export function BreadcrumbNav() {
   }, [datasets])
 
   const annotationOptions = useMemo(() => {
-    if (!annotations) return []
-    return annotations
+    return filteredAnnotations
       .filter((a) => !!a.id)
       .map((a) => ({
         value: a.id as string,
         label: a.name || (a.id as string),
       }))
-  }, [annotations])
+  }, [filteredAnnotations])
 
   const selectedDataset =
     datasetOptions.find((d) => d.value === state.datasetId) || null
@@ -91,10 +107,30 @@ export function BreadcrumbNav() {
             />
           </div>
 
-          <AnnotationFilterDropdown
-            filters={annotationFilters}
-            onToggleFilter={toggleFilter}
-          />
+          {stages && (
+            <AnnotationFilterDropdown
+              allStages={stages}
+              selectedStages={selectedStages}
+              onToggleStage={(stage) => {
+                if (
+                  selectedStages.length === 0 ||
+                  selectedStages.includes(stage)
+                ) {
+                  setSelectedStages(
+                    (selectedStages.length === 0
+                      ? stages
+                      : selectedStages
+                    ).filter((s) => s !== stage),
+                  )
+                } else {
+                  const nextStages = [...selectedStages, stage]
+                  setSelectedStages(
+                    nextStages.length === stages.length ? [] : nextStages,
+                  )
+                }
+              }}
+            />
+          )}
         </>
       )}
     </div>

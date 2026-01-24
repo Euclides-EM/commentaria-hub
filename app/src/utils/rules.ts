@@ -8,6 +8,7 @@ import type {
   annotationrule_SlicePages,
   annotationrule_Stretch,
   annotationrule_TextBlockCorrections,
+  annotationrule_PipelineStage, // Added this import
   model_Annotation,
 } from '../api'
 
@@ -21,6 +22,17 @@ export type AnnotationRule =
   | annotationrule_RemoveOverlap
   | annotationrule_ReassignTextLinesByTolerance
   | (annotationrule_TextBlockCorrections & { type: string })
+
+const stageDisplayNames: Record<annotationrule_PipelineStage, string> = {
+  raw: 'Raw',
+  zone_segmentation: 'Zone Segmentation',
+  text_line_segmentation: 'Text Line Segmentation',
+  ocr: 'OCR',
+}
+
+export const getStageDisplayName = (stage: annotationrule_PipelineStage): string => {
+  return stageDisplayNames[stage]
+}
 
 export const getRuleDisplayName = (rule: AnnotationRule): string => {
   if (!rule.type) return 'Unknown Rule'

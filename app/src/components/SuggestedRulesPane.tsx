@@ -5,10 +5,13 @@ import { RuleEditModal } from './RuleEditModal.tsx'
 import { useDatasetSuggestedRules } from '../queries/datasets.ts'
 import { type AnnotationRule, isRuleApplied } from '../utils/rules.ts'
 import { RuleDisplay } from './RuleDisplay.tsx'
+import type { annotationrule_PipelineStage } from '../api/models/annotationrule_PipelineStage.ts'
+import { useAnnotationRules } from '../queries/metadata.ts'
 
 export function SuggestedRulesPane() {
   const { dataset, annotation, refetch: refetchAnnotation } = useAppState()
   const [editingRule, setEditingRule] = useState<AnnotationRule | null>(null)
+  const { data: allRules } = useAnnotationRules()
 
   const {
     data: rules,
@@ -160,12 +163,47 @@ export function SuggestedRulesPane() {
                 const applied = annotation
                   ? isRuleApplied(rule, annotation)
                   : false
+                const isFutureRuleApplied = annotation
+                  ? suggestedRules
+                      .slice(index + 1)
+                      .some((futureRule) =>
+                        isRuleApplied(futureRule, annotation),
+                      )
+                  : false
+
+                let canRunRuleBasedOnStage = true
+                if (
+                  annotation?.pipeline_stage &&
+                  (rule as AnnotationRule).applicable_stages
+                ) {
+                  const ruleApplicableStages = (rule as AnnotationRule)
+                    .applicable_stages as annotationrule_PipelineStage[]
+                  const currentAnnotationStage = annotation.pipeline_stage
+
+                  canRunRuleBasedOnStage = ruleApplicableStages.includes(
+                    currentAnnotationStage,
+                  )
+                }
+
                 return (
                   <RuleDisplay
                     key={index}
                     rule={rule}
                     isApplied={applied}
-                    onRun={annotation ? () => handleEditRule(rule) : undefined}
+                    onRun={
+                      annotation &&
+                      !isFutureRuleApplied &&
+                      !applied &&
+                      canRunRuleBasedOnStage
+                        ? () => handleEditRule(rule)
+                        : undefined
+                    }
+                    disabled={
+                      isFutureRuleApplied || applied || !canRunRuleBasedOnStage
+                    }
+                    applicableStages={
+                      (rule as AnnotationRule).applicable_stages
+                    }
                   />
                 )
               })}

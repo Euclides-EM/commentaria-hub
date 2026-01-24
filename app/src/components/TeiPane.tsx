@@ -89,7 +89,7 @@ export function TeiPane() {
             <textarea
               className={`w-full mt-4 h-36 box-border resize-y border border-gray-300 rounded-lg p-2.5 outline-none font-mono text-xs leading-snug ${!showTeiSource ? 'hidden' : ''}`}
               spellCheck={false}
-              placeholder="TEI XML…"
+              placeholder="TEI XML..."
               value={teiContents || ''}
               onChange={(e) => setTeiContents(e.target.value)}
             />

@@ -1,12 +1,26 @@
-import { type AnnotationRule, getRuleDisplayName } from '../utils/rules.ts'
+import {
+  type AnnotationRule,
+  getRuleDisplayName,
+  getStageDisplayName,
+} from '../utils/rules.ts'
+import type { annotationrule_PipelineStage } from '../api/models/annotationrule_PipelineStage.ts'
+import { Fragment } from 'react'
 
 interface RuleDisplayProps {
   rule: AnnotationRule
   isApplied?: boolean
   onRun?: () => void
+  disabled?: boolean
+  applicableStages?: annotationrule_PipelineStage[]
 }
 
-export function RuleDisplay({ rule, isApplied, onRun }: RuleDisplayProps) {
+export function RuleDisplay({
+  rule,
+  isApplied,
+  onRun,
+  disabled,
+  applicableStages,
+}: RuleDisplayProps) {
   return (
     <div
       className={`p-3 border rounded-lg transition-colors ${
@@ -20,6 +34,19 @@ export function RuleDisplay({ rule, isApplied, onRun }: RuleDisplayProps) {
           <div className="font-medium text-sm mb-1">
             {getRuleDisplayName(rule)}
           </div>
+          {applicableStages && applicableStages.length > 0 && (
+            <div className="text-xs text-gray-500 mb-1">
+              Applicable Stages:{' '}
+              {applicableStages.map((s, i) => (
+                <Fragment key={s}>
+                  <span className="font-semibold">
+                    {getStageDisplayName(s)}
+                  </span>
+                  {i < applicableStages.length - 1 ? ', ' : ''}
+                </Fragment>
+              ))}
+            </div>
+          )}
           <details className="text-xs">
             <summary className="cursor-pointer text-gray-600 hover:text-gray-800">
               Payload
@@ -39,6 +66,7 @@ export function RuleDisplay({ rule, isApplied, onRun }: RuleDisplayProps) {
             <button
               onClick={onRun}
               className="inline-flex items-center px-3 py-1 text-xs font-medium text-white bg-blue-600 rounded hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={disabled}
             >
               Run
             </button>

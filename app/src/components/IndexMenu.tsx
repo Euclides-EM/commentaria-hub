@@ -17,22 +17,47 @@ const matchToFilter = (
   )
 }
 
+const getNextSiblingPage = (
+  nodes: model_AnnotationIndexNode[],
+  startIndex: number,
+  currentNodePage: number | undefined,
+): number | undefined => {
+  if (currentNodePage === undefined || currentNodePage === null) return undefined
+  for (let i = startIndex + 1; i < nodes.length; i += 1) {
+    const page = nodes[i].location?.page
+    if (page !== undefined && page !== null && page > currentNodePage) {
+      return page
+    }
+  }
+  return undefined
+}
+
 const Node = ({
   node,
   jumpToPage,
   level,
+  currentPage,
+  nextSiblingPage,
 }: {
   node: model_AnnotationIndexNode
   jumpToPage: (page: number) => void
   level: number
+  currentPage: number
+  nextSiblingPage?: number
 }) => {
   const [isExpanded, setIsExpanded] = useState(false)
   const hasChildren = node.children && node.children.length > 0
+  const nodePage = node.location?.page
+  const isActive =
+    nodePage !== undefined &&
+    nodePage !== null &&
+    currentPage >= nodePage &&
+    (nextSiblingPage === undefined || currentPage < nextSiblingPage)
 
   return (
     <div>
       <div
-        className="py-1 px-0 border-b border-gray-200 text-xs hover:bg-black/5 transition-colors flex items-center"
+        className={`py-1 px-0 border-b border-gray-200 text-xs hover:bg-black/5 transition-colors flex items-center ${isActive ? 'bg-black/5 font-semibold' : ''}`}
         style={{ marginLeft: `${level * 16}px` }}
       >
         {hasChildren && (
@@ -58,6 +83,12 @@ const Node = ({
               node={child}
               jumpToPage={jumpToPage}
               level={level + 1}
+              currentPage={currentPage}
+              nextSiblingPage={
+                node.children
+                  ? getNextSiblingPage(node.children, idx, child.location?.page)
+                  : undefined
+              }
               key={idx}
             />
           ))}
@@ -67,7 +98,11 @@ const Node = ({
   )
 }
 
-export function IndexMenu() {
+export function IndexMenu({
+  hideHeader = false,
+}: {
+  hideHeader?: boolean
+} = {}) {
   const { state, jumpToPage } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState('indexSearch', {
     defaultValue: '',
@@ -79,10 +114,12 @@ export function IndexMenu() {
   } = useAnnotationIndexQuery(state.datasetId, state.annotationId)
 
   return (
-    <>
-      <div className="font-semibold text-sm px-3 pt-4 border-t border-gray-300">
-        Index
-      </div>
+    <div className="flex flex-col min-h-0 h-full">
+      {!hideHeader && (
+        <div className="font-semibold text-sm px-3 pt-4 border-t border-gray-300">
+          Index
+        </div>
+      )}
       {isLoading ? (
         <LoadingSpinner size="sm" message="Loading index..." />
       ) : error ? (
@@ -95,11 +132,11 @@ export function IndexMenu() {
         </div>
       ) : (
         <>
-          <div className="p-3 border-b border-gray-200">
+          <div className="p-3 pt-0 border-b border-gray-200">
             <div className="flex gap-2 items-center">
               <input
                 className="flex-1 min-w-0 border border-gray-300 rounded-lg px-3 py-2 font-mono text-xs"
-                placeholder="Filter…"
+                placeholder="Filter..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
@@ -118,12 +155,18 @@ export function IndexMenu() {
                     jumpToPage={jumpToPage}
                     key={idx}
                     level={0}
+                    currentPage={state.currentPage}
+                    nextSiblingPage={getNextSiblingPage(
+                      annotationIndex.nodes,
+                      idx,
+                      item.location?.page,
+                    )}
                   />
                 ))}
             </div>
           </div>
         </>
       )}
-    </>
+    </div>
   )
 }

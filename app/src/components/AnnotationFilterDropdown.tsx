@@ -1,24 +1,30 @@
 import { useState } from 'react'
-
-export type AnnotationFilter = 'transcribed' | 'ground_truth'
+import type { annotationrule_PipelineStage } from '../api'
+import { getStageDisplayName } from '../utils/rules.ts'
 
 interface AnnotationFilterDropdownProps {
-  filters: AnnotationFilter[]
-  onToggleFilter: (filter: AnnotationFilter) => void
+  allStages: annotationrule_PipelineStage[]
+  selectedStages: annotationrule_PipelineStage[]
+  onToggleStage: (filter: annotationrule_PipelineStage) => void
 }
 
 export function AnnotationFilterDropdown({
-  filters,
-  onToggleFilter,
+  allStages,
+  selectedStages,
+  onToggleStage,
 }: AnnotationFilterDropdownProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   const getLabel = () => {
-    if (filters.length === 0) return 'All'
-    if (filters.length === 1) {
-      return filters[0] === 'transcribed' ? 'Transcribed' : 'Ground Truth'
+    if (
+      selectedStages.length === 0 ||
+      selectedStages.length === allStages.length
+    )
+      return 'All stages'
+    if (selectedStages.length === 1) {
+      return getStageDisplayName(selectedStages[0])
     }
-    return `${filters.length} filters`
+    return `${selectedStages.length} stages`
   }
 
   return (
@@ -50,25 +56,26 @@ export function AnnotationFilterDropdown({
             className="fixed inset-0 z-10"
             onClick={() => setIsOpen(false)}
           />
-          <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-300 rounded-md shadow-lg z-20">
-            <label className="flex items-center gap-2 px-3 py-2 hover:bg-gray-50 cursor-pointer text-sm">
-              <input
-                type="checkbox"
-                checked={filters.includes('transcribed')}
-                onChange={() => onToggleFilter('transcribed')}
-                className="text-blue-600"
-              />
-              <span className="text-gray-700">Transcribed</span>
-            </label>
-            <label className="flex items-center gap-2 px-3 py-2 hover:bg-gray-50 cursor-pointer text-sm">
-              <input
-                type="checkbox"
-                checked={filters.includes('ground_truth')}
-                onChange={() => onToggleFilter('ground_truth')}
-                className="text-blue-600"
-              />
-              <span className="text-gray-700">Ground Truth</span>
-            </label>
+          <div className="absolute top-full left-0 mt-1 w-max bg-white border border-gray-300 rounded-md shadow-lg z-20">
+            {allStages.map((stage) => (
+              <label
+                key={stage}
+                className="flex items-center gap-2 px-3 py-2 hover:bg-gray-50 cursor-pointer text-sm"
+              >
+                <input
+                  type="checkbox"
+                  checked={
+                    selectedStages.length === 0 ||
+                    selectedStages.includes(stage)
+                  }
+                  onChange={() => onToggleStage(stage)}
+                  className="text-blue-600"
+                />
+                <span className="text-gray-700">
+                  {getStageDisplayName(stage)}
+                </span>
+              </label>
+            ))}
           </div>
         </>
       )}

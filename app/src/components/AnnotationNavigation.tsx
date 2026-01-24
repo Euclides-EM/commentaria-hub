@@ -1,5 +1,4 @@
 import useLocalStorageState from 'use-local-storage-state'
-import { IndexMenu } from './IndexMenu.tsx'
 import { PageNavigation } from './PageNavigation.tsx'
 
 export const AnnotationNavigation = () => {
@@ -25,7 +24,6 @@ export const AnnotationNavigation = () => {
       {!collapsed && (
         <>
           <PageNavigation />
-          <IndexMenu />
         </>
       )}
     </aside>
