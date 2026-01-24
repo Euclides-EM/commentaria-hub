@@ -2,8 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { annotationrule_PipelineStage } from './annotationrule_PipelineStage';
 import type { annotationrule_Type } from './annotationrule_Type';
 export type annotationrule_LinesDetect = {
+    applicable_stages?: Array<annotationrule_PipelineStage>;
     /**
      * IgnoreCategories specifies which categories to ignore when running line detection. For example, "GraphicZone", "DigitizationArtefactZone", ...
      * Example: ["CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"]

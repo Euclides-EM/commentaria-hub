@@ -2,6 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { annotationrule_PipelineStage } from './annotationrule_PipelineStage';
 export type model_Annotation = {
     readonly applied_rules?: Array<any>;
     readonly created_at?: string;
@@ -13,6 +14,7 @@ export type model_Annotation = {
     readonly ocred?: boolean;
     readonly origin_annotation_id?: string;
     pages?: string;
+    readonly pipeline_stage?: annotationrule_PipelineStage;
     readonly segmented?: boolean;
     readonly updated_at?: string;
 };

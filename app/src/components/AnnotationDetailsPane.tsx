@@ -73,20 +73,19 @@ const AnnotationDescriptor = ({
         <div className="text-sm leading-tight break-all ">
           <Timestamp date={annotation.updated_at} />
         </div>
-        <div className="font-semibold text-xs opacity-80 pt-0.5">
-          Applied rules
-        </div>
-        <div className="text-sm leading-tight">
-          {appliedRules.length > 0 ? (
-            <div className="space-y-2">
-              {appliedRules.map((rule, index) => (
-                <RuleDisplay key={index} rule={rule} isApplied={true} />
-              ))}
-            </div>
-          ) : (
-            <span className="text-gray-500">None</span>
-          )}
-        </div>
+      </div>
+
+      <div className="font-semibold text-xs opacity-80 py-2">Applied rules</div>
+      <div className="text-sm leading-tight">
+        {appliedRules.length > 0 ? (
+          <div className="space-y-2">
+            {appliedRules.map((rule, index) => (
+              <RuleDisplay key={index} rule={rule} />
+            ))}
+          </div>
+        ) : (
+          <span className="text-gray-500">None</span>
+        )}
       </div>
     </div>
   )

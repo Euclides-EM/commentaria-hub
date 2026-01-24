@@ -13,6 +13,8 @@ export type { annotationrule_ApplyRulesAction } from './models/annotationrule_Ap
 export type { annotationrule_ContactSide } from './models/annotationrule_ContactSide';
 export type { annotationrule_ContactType } from './models/annotationrule_ContactType';
 export type { annotationrule_LinesDetect } from './models/annotationrule_LinesDetect';
+export type { annotationrule_MetadataDetails } from './models/annotationrule_MetadataDetails';
+export type { annotationrule_PipelineStage } from './models/annotationrule_PipelineStage';
 export type { annotationrule_ReassignTextLinesByTolerance } from './models/annotationrule_ReassignTextLinesByTolerance';
 export type { annotationrule_RemoveCategories } from './models/annotationrule_RemoveCategories';
 export type { annotationrule_RemoveOverlap } from './models/annotationrule_RemoveOverlap';
@@ -54,6 +56,7 @@ export { DatasetsService } from './services/DatasetsService';
 export { EditionsService } from './services/EditionsService';
 export { FacsimilesService } from './services/FacsimilesService';
 export { HealthService } from './services/HealthService';
+export { MetadataService } from './services/MetadataService';
 export { ModelsService } from './services/ModelsService';
 export { StoreService } from './services/StoreService';
 export { TrainService } from './services/TrainService';
