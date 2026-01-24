@@ -4,6 +4,7 @@ import type { model_AnnotationIndexNode } from '../api'
 import { useAppState } from '../context/AppStateContext.tsx'
 import { useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
+import { SearchInput } from './SearchInput'
 
 const matchToFilter = (
   search: string,
@@ -125,11 +126,10 @@ export function IndexMenu() {
       ) : (
         <>
           <div className="px-3">
-            <input
-              className="flex-1 w-full border border-gray-300 rounded-lg px-3 py-2 font-mono text-xs"
-              placeholder="Filter..."
+            <SearchInput
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={setSearchTerm}
+              placeholder="Filter..."
             />
           </div>
 

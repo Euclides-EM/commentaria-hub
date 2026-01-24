@@ -7,6 +7,7 @@ import {
 import { useAppState } from '../context/AppStateContext.tsx'
 import { MultiSelectDropdown } from './MultiSelectDropdown'
 import type { model_AnnotationPart } from '../api'
+import { SearchInput } from './SearchInput'
 
 const buildSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)
@@ -50,16 +51,16 @@ const getResultKey = (result: model_AnnotationPart, index: number) =>
   `${result.location?.page ?? 'p'}-${result.category ?? 'c'}-${index}`
 
 export function AnnotationSearchMenu() {
-  const { state, jumpToPage } = useAppState()
+  const { state, jumpToPage, setSearchResultHighlight } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
     'annotationSearchTerm',
     { defaultValue: '' },
   )
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState(searchTerm)
   const [selectedCategories, setSelectedCategories] = useLocalStorageState<
-    string[]
+    string[] | null
   >('annotationSearchCategories', {
-    defaultValue: [],
+    defaultValue: null,
   })
 
   const { data: categories } = useAnnotationCategories(
@@ -83,7 +84,7 @@ export function AnnotationSearchMenu() {
       return []
     }
     if (
-      selectedCategories.length === 0 ||
+      selectedCategories == null ||
       selectedCategories.length === categories.length
     )
       return categories
@@ -108,53 +109,26 @@ export function AnnotationSearchMenu() {
     sortedCategories,
   )
 
-  const getDropdownLabel = () => {
-    if (!categories || categories.length === 0) {
-      return 'No categories'
-    }
-    if (
-      selectedCategories.length === 0 ||
-      selectedCategories.length === categories.length
-    )
-      return 'All categories'
-    if (selectedCategories.length === 1) return selectedCategories[0]
-    return `${selectedCategories.length} categories`
-  }
-
   const results = searchResults?.results ?? []
 
   return (
-    <div className="flex flex-col min-h-0 h-full">
+    <div className="flex flex-col min-h-0 h-full mr-1">
       <div className="px-3 pb-3">
         <div className="flex gap-2 items-center">
-          <input
-            className="flex-1 min-w-0 border border-gray-300 rounded-lg px-3 py-2 font-mono text-xs"
+          <SearchInput
+            className="flex-1 min-w-0"
             placeholder="Search..."
             value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
+            onChange={(t) => {
+              setSearchTerm(t)
+              setSearchResultHighlight(null)
+            }}
           />
           <MultiSelectDropdown
             allItems={categories || []}
             selectedItems={selectedCategories}
-            onToggleItem={(category) => {
-              if (
-                selectedCategories.length === 0 ||
-                selectedCategories.includes(category)
-              ) {
-                setSelectedCategories(
-                  (selectedCategories.length === 0
-                    ? categories || []
-                    : selectedCategories
-                  ).filter((item) => item !== category),
-                )
-              } else {
-                const next = [...selectedCategories, category]
-                setSelectedCategories(
-                  next.length === (categories || []).length ? [] : next,
-                )
-              }
-            }}
-            getButtonLabel={() => getDropdownLabel()}
+            setSelectedItems={setSelectedCategories}
+            itemsLabel="categories"
             getItemLabel={(category) => category}
             disabled={!categories || categories.length === 0}
           />
@@ -184,13 +158,19 @@ export function AnnotationSearchMenu() {
         )}
         {normalizedSearch && !isLoading && !error && results.length > 0 && (
           <div className="space-y-2">
+            <div className="text-xs text-gray-500">
+              Listing {results.length} results
+            </div>
             {results.map((result, index) => (
               <div
                 key={getResultKey(result, index)}
                 className="border border-gray-200 rounded-lg p-2 text-xs bg-white hover:bg-gray-50 transition-colors cursor-pointer"
-                onClick={() =>
-                  result.location?.page && jumpToPage(result.location.page)
-                }
+                onClick={() => {
+                  if (result.location?.page) {
+                    jumpToPage(result.location.page)
+                  }
+                  setSearchResultHighlight(result.content || null)
+                }}
               >
                 <div className="flex items-center justify-between text-[11px] text-gray-500 mb-1">
                   <span>{result.category || 'Uncategorized'}</span>
@@ -198,7 +178,7 @@ export function AnnotationSearchMenu() {
                     <span>p. {result.location.page}</span>
                   )}
                 </div>
-                <div className="text-gray-800 leading-snug [&_em]:not-italic [&_em]:bg-yellow-200/70 [&_em]:text-gray-900 [&_em]:rounded-sm [&_em]:px-0.5">
+                <div className="text-gray-800 leading-snug">
                   {result.content ? (
                     <span
                       dangerouslySetInnerHTML={{

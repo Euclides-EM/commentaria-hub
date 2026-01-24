@@ -2,21 +2,20 @@ import { Tei } from './Tei.tsx'
 import { useAppState } from '../context/AppStateContext.tsx'
 import { useEffect, useState } from 'react'
 import { useAnnotationTeiQuery } from '../queries/annotations.ts'
-import { parseAsBoolean, parseAsFloat, useQueryState } from 'nuqs'
+import useLocalStorageState from 'use-local-storage-state'
 
 export function TeiPane() {
   const {
     annotation,
     state: { datasetId, annotationId, currentPage },
   } = useAppState()
-  const [showTeiSource, setShowTeiSource] = useQueryState(
+  const [showTeiSource, setShowTeiSource] = useLocalStorageState(
     'showTeiSource',
-    parseAsBoolean.withDefault(false),
+    { defaultValue: false },
   )
-  const [minCert, setMinCert] = useQueryState(
-    'minCert',
-    parseAsFloat.withDefault(0.8),
-  )
+  const [minCert, setMinCert] = useLocalStorageState('minCert', {
+    defaultValue: 0.8,
+  })
   const hasTei = !!annotation?.ocred
   const { data } = useAnnotationTeiQuery(
     datasetId,

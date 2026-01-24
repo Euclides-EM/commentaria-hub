@@ -29,3 +29,12 @@ body {
 button {
   cursor: pointer;
 }
+
+em {
+  font-style: normal;
+  background-color: rgba(254, 240, 138, 0.7);
+  color: #111827;
+  border-radius: 0.125rem;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+}

@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { useAppState } from '../context/AppStateContext.tsx'
 
 type Props = {
   data: string
@@ -64,7 +65,11 @@ function maskText(s: string, maskChar: string) {
 
 function toReadingHtml(
   node: Element,
-  opts: { showPB: boolean; minCert: number; maskChar: string },
+  opts: {
+    showPB: boolean
+    minCert: number
+    maskChar: string
+  },
 ) {
   let html = ''
 
@@ -106,13 +111,19 @@ function toReadingHtml(
       continue
     }
 
-    html += toReadingHtml(child as Element, opts)
+    const inner = toReadingHtml(child as Element, opts)
+    html += inner
   }
 
   return html
 }
 
-const teiToHtml = (tei: string, minCert: number, maskChar: string = '@') => {
+const teiToHtml = (
+  tei: string,
+  minCert: number,
+  searchResultHighlight: string | null,
+  maskChar: string = '@',
+) => {
   const doc = parseXml(tei.trim())
 
   const body =
@@ -128,22 +139,37 @@ const teiToHtml = (tei: string, minCert: number, maskChar: string = '@') => {
   if (ps.length) {
     for (const p of ps) {
       const inner = toReadingHtml(p, opts).trim()
-      if (!inner) continue
+      if (!inner) {
+        continue
+      }
       parts.push(`<p>${inner || '&nbsp;'}</p>`)
     }
   } else {
     const inner = toReadingHtml(body, opts).trim()
     parts.push(`<p>${inner || '&nbsp;'}</p>`)
   }
+  let joined = parts.join('')
 
-  return parts.join('')
+  const highlights = searchResultHighlight
+    ? [...searchResultHighlight.matchAll(/<em>(.*?)<\/em>/g)].map(
+        (match) => match[1],
+      )
+    : []
+  for (const highlight of highlights) {
+    joined = joined.replaceAll(highlight, `<em>${highlight}</em>`)
+  }
+  return joined
 }
 
 export const Tei = ({ minCert, data }: Props) => {
-  const html = useMemo(() => teiToHtml(data, minCert), [data, minCert])
+  const { searchResultHighlight } = useAppState()
+  const html = useMemo(
+    () => teiToHtml(data, minCert, searchResultHighlight),
+    [data, minCert, searchResultHighlight],
+  )
   return (
     <pre
-      className="font-mono w-fit mt-4 text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2"
+      className="font-mono w-fit mt-4 text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5"
       dangerouslySetInnerHTML={{ __html: html }}
     />
   )

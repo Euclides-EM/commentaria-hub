@@ -3,9 +3,9 @@ import { createPortal } from 'react-dom'
 
 interface MultiSelectDropdownProps<T> {
   allItems: T[]
-  selectedItems: T[]
-  onToggleItem: (item: T) => void
-  getButtonLabel: (selectedItems: T[], allItems: T[]) => string
+  selectedItems: T[] | null
+  setSelectedItems: (items: T[] | null) => void
+  itemsLabel: string
   getItemLabel: (item: T) => string
   getItemKey?: (item: T) => string
   minWidth?: string
@@ -15,8 +15,8 @@ interface MultiSelectDropdownProps<T> {
 export function MultiSelectDropdown<T>({
   allItems,
   selectedItems,
-  onToggleItem,
-  getButtonLabel,
+  setSelectedItems,
+  itemsLabel,
   getItemLabel,
   getItemKey,
   minWidth = '160px',
@@ -58,6 +58,32 @@ export function MultiSelectDropdown<T>({
     }
   }, [menuRect])
 
+  const getPickerLabel = () => {
+    if (selectedItems == null || selectedItems.length === allItems.length) {
+      return `All ${itemsLabel}`
+    }
+    if (selectedItems.length === 0) {
+      return 'None'
+    }
+    if (selectedItems.length === 1) {
+      return getItemLabel(selectedItems[0])
+    }
+    return `${selectedItems.length} ${itemsLabel}`
+  }
+
+  const toggleItem = (item: T) => {
+    if (selectedItems == null || selectedItems.includes(item)) {
+      setSelectedItems(
+        (selectedItems == null ? allItems : selectedItems).filter(
+          (s) => s !== item,
+        ),
+      )
+    } else {
+      const nextStages = [...selectedItems, item]
+      setSelectedItems(nextStages.length === allItems.length ? [] : nextStages)
+    }
+  }
+
   return (
     <div className="relative" style={{ minWidth }}>
       <button
@@ -70,9 +96,7 @@ export function MultiSelectDropdown<T>({
         ref={buttonRef}
         disabled={isDisabled}
       >
-        <span className="text-gray-700">
-          {getButtonLabel(selectedItems, allItems)}
-        </span>
+        <span className="text-gray-700">{getPickerLabel()}</span>
         <svg
           className={`w-4 h-4 text-gray-600 transition-transform ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
@@ -106,25 +130,38 @@ export function MultiSelectDropdown<T>({
                   No options
                 </div>
               ) : (
-                allItems.map((item) => (
-                  <label
-                    key={getItemKey ? getItemKey(item) : String(item)}
-                    className="flex items-start gap-2 px-3 py-2 hover:bg-gray-50 cursor-pointer text-sm"
+                <>
+                  <button
+                    className="pl-[32px] w-full px-3 py-2 text-gray-600 break-words hover:bg-gray-50 cursor-pointer text-sm text-start"
+                    onClick={() => setSelectedItems(allItems)}
                   >
-                    <input
-                      type="checkbox"
-                      checked={
-                        selectedItems.length === 0 ||
-                        selectedItems.includes(item)
-                      }
-                      onChange={() => onToggleItem(item)}
-                      className="text-blue-600"
-                    />
-                    <span className="text-gray-700 break-words">
-                      {getItemLabel(item)}
-                    </span>
-                  </label>
-                ))
+                    Select all
+                  </button>
+                  <button
+                    className="pl-[32px] w-full px-3 py-2 text-gray-600 break-words hover:bg-gray-50 cursor-pointer text-sm text-start"
+                    onClick={() => setSelectedItems([])}
+                  >
+                    Clear all
+                  </button>
+                  {allItems.map((item) => (
+                    <label
+                      key={getItemKey ? getItemKey(item) : String(item)}
+                      className="flex items-center gap-2 px-3 py-2 hover:bg-gray-50 cursor-pointer text-sm"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={
+                          selectedItems == null || selectedItems.includes(item)
+                        }
+                        onChange={() => toggleItem(item)}
+                        className="text-blue-600"
+                      />
+                      <span className="text-gray-700 break-words">
+                        {getItemLabel(item)}
+                      </span>
+                    </label>
+                  ))}
+                </>
               )}
             </div>
           </>,

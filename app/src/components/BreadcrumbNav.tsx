@@ -3,11 +3,12 @@ import Select from 'react-select'
 import { useDatasetsQuery } from '../queries/datasets'
 import { useAnnotationsQuery } from '../queries/annotations'
 import { selectStyles } from '../styles/selectStyles'
-import { useAppState } from '../context/AppStateContext'
-import { AnnotationFilterDropdown } from './AnnotationFilterDropdown'
+import { useAppState } from '../context/AppStateContext.tsx'
 import { usePipelineStages } from '../queries/metadata.ts'
 import useLocalStorageState from 'use-local-storage-state'
 import type { annotationrule_PipelineStage } from '../api'
+import { MultiSelectDropdown } from './MultiSelectDropdown.tsx'
+import { getStageDisplayName } from '../utils/rules.ts'
 
 const Separator = () => <span className="bg-gray-600 w-[1px] h-fill mx-2" />
 
@@ -19,9 +20,9 @@ export function BreadcrumbNav() {
     useAnnotationsQuery(state.datasetId)
   const { data: stages } = usePipelineStages()
   const [selectedStages, setSelectedStages] = useLocalStorageState<
-    annotationrule_PipelineStage[]
+    annotationrule_PipelineStage[] | null
   >('annotationFilterStages', {
-    defaultValue: [],
+    defaultValue: null,
   })
 
   const filteredAnnotations = useMemo(() => {
@@ -30,7 +31,7 @@ export function BreadcrumbNav() {
     }
     return annotations.filter(
       (a) =>
-        selectedStages.length === 0 ||
+        selectedStages == null ||
         !a.pipeline_stage ||
         selectedStages.includes(a.pipeline_stage),
     )
@@ -108,27 +109,12 @@ export function BreadcrumbNav() {
           </div>
 
           {stages && (
-            <AnnotationFilterDropdown
-              allStages={stages}
-              selectedStages={selectedStages}
-              onToggleStage={(stage) => {
-                if (
-                  selectedStages.length === 0 ||
-                  selectedStages.includes(stage)
-                ) {
-                  setSelectedStages(
-                    (selectedStages.length === 0
-                      ? stages
-                      : selectedStages
-                    ).filter((s) => s !== stage),
-                  )
-                } else {
-                  const nextStages = [...selectedStages, stage]
-                  setSelectedStages(
-                    nextStages.length === stages.length ? [] : nextStages,
-                  )
-                }
-              }}
+            <MultiSelectDropdown
+              allItems={stages}
+              selectedItems={selectedStages}
+              setSelectedItems={setSelectedStages}
+              itemsLabel="stages"
+              getItemLabel={(stage) => getStageDisplayName(stage)}
             />
           )}
         </>
