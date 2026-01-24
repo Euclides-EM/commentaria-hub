@@ -35,6 +35,10 @@ const (
 type ApplyRules struct {
 	Rules  []AnnotationRule `json:"rules"`
 	Action ApplyRulesAction `json:"action"`
+	// Name is used only if the action is ApplyRulesActionCreateNew
+	Name string `json:"name"`
+	// Description is used only if the action is ApplyRulesActionCreateNew
+	Description string `json:"description"`
 }
 
 type AnnotationRule interface {

@@ -169,7 +169,7 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 	}
 
 	if aar.Action == annotationrule.ApplyRulesActionCreateNew {
-		ann, err = a.Duplicate(datasetID, id, "", "")
+		ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description)
 		if err != nil {
 			return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
 		}
