@@ -1,7 +1,7 @@
 import type { StylesConfig } from 'react-select'
 
 type SelectStylesConfig = {
-  controlWidth: number
+  controlWidth: number | string
 }
 
 export const selectStyles = <

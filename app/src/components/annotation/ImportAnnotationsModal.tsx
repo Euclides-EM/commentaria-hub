@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { type FormEvent, useEffect, useState } from 'react'
 import { AnnotationsService, ApiError } from '../../api'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'
@@ -53,7 +53,7 @@ export function ImportAnnotationsModal({
     }
   }, [isOpen])
 
-  const handleSubmit = async (event?: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault()
     try {
       setError(null)
@@ -269,7 +269,11 @@ export function ImportAnnotationsModal({
             <LoadingSpinner size="sm" message="Importing annotations..." />
           ) : (
             <>
-              <Button onClick={onClose} className="px-3 py-1.5 text-sm">
+              <Button
+                type="button"
+                onClick={onClose}
+                className="px-3 py-1.5 text-sm"
+              >
                 Cancel
               </Button>
               <Button

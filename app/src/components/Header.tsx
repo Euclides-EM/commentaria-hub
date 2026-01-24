@@ -30,12 +30,13 @@ export function Header({ onShowLogin }: HeaderProps) {
               <span className="text-sm text-gray-600">
                 Logged in as: <strong>{username}</strong>
               </span>
-              <button
+              <Button
+                variant="danger"
                 onClick={clearAuth}
-                className="px-3 py-1 text-sm bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition-colors"
+                className="px-3 py-1 text-sm transition-colors"
               >
                 Logout
-              </button>
+              </Button>
             </>
           ) : (
             <Button

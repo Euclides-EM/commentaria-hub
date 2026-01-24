@@ -15,6 +15,7 @@ import { useDatasetsQuery } from '../../../queries/datasets.ts'
 import { DeleteAnnotationModal } from '../../modal/DeleteAnnotationModal.tsx'
 import { Button } from '../../core/Button.tsx'
 import { getStageDisplayName } from '../../../utils/stages.ts'
+import { ExportAnnotationModal } from './ExportAnnotationModal.tsx'
 
 TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')
@@ -194,6 +195,7 @@ export function AnnotationDetailsPane() {
   const [error, setError] = useState<string | null>(null)
   const [isDeleteOpen, setIsDeleteOpen] = useState(false)
   const [isDeleting, setIsDeleting] = useState(false)
+  const [isExportOpen, setIsExportOpen] = useState(false)
 
   useEffect(() => {
     setError(null)
@@ -278,6 +280,14 @@ export function AnnotationDetailsPane() {
             <Button onClick={handleEditClick} className="px-2 py-1 text-xs">
               Edit
             </Button>
+            {annotation.ocred && (
+              <Button
+                onClick={() => setIsExportOpen(true)}
+                className="px-2 py-1 text-xs"
+              >
+                Export
+              </Button>
+            )}
             <Button
               onClick={handleDeleteClick}
               variant="danger"
@@ -313,6 +323,12 @@ export function AnnotationDetailsPane() {
           isDeleting={isDeleting}
           onCancel={() => setIsDeleteOpen(false)}
           onConfirm={handleDeleteConfirm}
+        />
+      )}
+      {annotation && annotation.dataset_id && (
+        <ExportAnnotationModal
+          isOpen={isExportOpen}
+          onClose={() => setIsExportOpen(false)}
         />
       )}
     </section>
