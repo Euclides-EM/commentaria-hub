@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react'
-import { type AnnotationRule, type RuleRequestPayload } from '../../utils/rules.ts'
+import {
+  type AnnotationRule,
+  type RuleRequestPayload,
+} from '../../utils/rules.ts'
 import {
   type annotationrule_MetadataDetails,
   type annotationrule_Type,
