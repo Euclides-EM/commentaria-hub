@@ -1,11 +1,8 @@
-import {
-  type AnnotationRule,
-  getRuleDisplayName,
-  getStageDisplayName,
-} from '../../utils/rules.ts'
+import { type AnnotationRule, getRuleDisplayName } from '../../utils/rules.ts'
 import type { annotationrule_PipelineStage } from '../../api/models/annotationrule_PipelineStage.ts'
 import { Fragment } from 'react'
 import { Button } from '../core/Button'
+import { getStageDisplayName } from '../../utils/stages.ts'
 
 interface RuleDisplayProps {
   rule: AnnotationRule

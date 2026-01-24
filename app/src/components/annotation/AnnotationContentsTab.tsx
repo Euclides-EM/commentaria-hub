@@ -1,14 +1,16 @@
 import { ImagePane } from './ImagePane'
 import { TeiPane } from './TeiPane.tsx'
 import { AnnotationNavigation } from './AnnotationNavigation.tsx'
+import { useAppState } from '../../context/useAppState.ts'
 
-export function AnnotationTextTab() {
+export function AnnotationContentsTab() {
+  const { annotation } = useAppState()
   return (
     <div className="h-full flex overflow-hidden">
       <AnnotationNavigation />
       <div className="flex-1 min-h-0 grid grid-cols-2 gap-3 p-3 box-border overflow-hidden">
         <ImagePane />
-        <TeiPane />
+        {annotation?.ocred && <TeiPane />}
       </div>
     </div>
   )

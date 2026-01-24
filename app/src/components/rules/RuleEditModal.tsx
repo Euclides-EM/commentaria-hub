@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { type AnnotationRule } from '../../utils/rules.ts'
+import { type AnnotationRule, type RuleRequestPayload } from '../../utils/rules.ts'
 import {
   type annotationrule_MetadataDetails,
   type annotationrule_Type,
@@ -13,7 +13,7 @@ interface RuleEditModalProps {
   isOpen: boolean
   onClose: () => void
   onSubmit: (
-    payload: AnnotationRule,
+    payload: RuleRequestPayload,
     action: 'overwrite' | 'create_new',
   ) => Promise<void>
   initialPayload?: AnnotationRule
@@ -99,7 +99,7 @@ export function RuleEditModal({
         ...(action === 'create_new' && newAnnotationDescription
           ? { description: newAnnotationDescription }
           : {}),
-      } as AnnotationRule
+      } as RuleRequestPayload
       await onSubmit(fullPayload, action)
       onClose()
     } catch (e) {

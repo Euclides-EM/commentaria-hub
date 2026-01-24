@@ -4,12 +4,13 @@ import { AnnotationsService, ApiError, type model_Annotation } from '../../api'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
 import { RuleDisplay } from '../rules/RuleDisplay.tsx'
-import { type AnnotationRule, getStageDisplayName } from '../../utils/rules.ts'
+import { type AnnotationRule } from '../../utils/rules.ts'
 import { useAuthStore } from '../../store/authStore.ts'
 import { useAnnotationsQuery } from '../../queries/annotations.ts'
 import { useDatasetsQuery } from '../../queries/datasets.ts'
 import { DeleteAnnotationModal } from '../modal/DeleteAnnotationModal.tsx'
 import { Button } from '../core/Button'
+import { getStageDisplayName } from '../../utils/stages.ts'
 
 TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')

@@ -8,7 +8,8 @@ import { usePipelineStages } from '../../queries/metadata.ts'
 import useLocalStorageState from 'use-local-storage-state'
 import type { annotationrule_PipelineStage } from '../../api'
 import { MultiSelectDropdown } from '../core/MultiSelectDropdown.tsx'
-import { getStageDisplayName } from '../../utils/rules.ts'
+
+import { getStageDisplayName } from '../../utils/stages.ts'
 
 const Separator = () => <span className="bg-gray-600 w-[1px] h-fill mx-2" />
 

@@ -1,5 +1,5 @@
 import { AnnotationDetailsTab } from './annotation/AnnotationDetailsTab.tsx'
-import { AnnotationTextTab } from './annotation/AnnotationTextTab.tsx'
+import { AnnotationContentsTab } from './annotation/AnnotationContentsTab.tsx'
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
 
@@ -34,7 +34,7 @@ export function MainApp() {
     'annotation-tab',
     { defaultValue: 'details' },
   )
-  const { annotation, state } = useAppState()
+  const { state } = useAppState()
 
   if (!state.datasetId || !state.annotationId) {
     return (
@@ -42,9 +42,6 @@ export function MainApp() {
         Please select dataset and annotation
       </div>
     )
-  }
-  if (!annotation?.ocred) {
-    return <AnnotationDetailsTab />
   }
 
   return (
@@ -57,13 +54,13 @@ export function MainApp() {
         />
         <TabButton
           onSelected={() => setActiveTab('text')}
-          title="Annotation Text"
+          title="Annotation Contents"
           isActive={activeTab === 'text'}
         />
       </div>
       <div className="flex-1 overflow-auto">
         {activeTab === 'details' && <AnnotationDetailsTab />}
-        {activeTab === 'text' && <AnnotationTextTab />}
+        {activeTab === 'text' && <AnnotationContentsTab />}
       </div>
     </div>
   )
