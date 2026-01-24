@@ -161,7 +161,7 @@ export class DatasetsService {
          * Dataset ID
          */
         dataSetId: string,
-    }): CancelablePromise<Array<Array<Array<model_AnnotationExpectedBlocks>>>> {
+    }): CancelablePromise<Array<Array<model_AnnotationExpectedBlocks>>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/suggested_reviews',
@@ -183,7 +183,7 @@ export class DatasetsService {
          * Dataset ID
          */
         dataSetId: string,
-    }): CancelablePromise<Array<Array<Array<any>>>> {
+    }): CancelablePromise<Array<Array<any>>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/suggested_rules',

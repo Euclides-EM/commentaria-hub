@@ -22,7 +22,8 @@ const getNextSiblingPage = (
   startIndex: number,
   currentNodePage: number | undefined,
 ): number | undefined => {
-  if (currentNodePage === undefined || currentNodePage === null) return undefined
+  if (currentNodePage === undefined || currentNodePage === null)
+    return undefined
   for (let i = startIndex + 1; i < nodes.length; i += 1) {
     const page = nodes[i].location?.page
     if (page !== undefined && page !== null && page > currentNodePage) {
@@ -98,11 +99,7 @@ const Node = ({
   )
 }
 
-export function IndexMenu({
-  hideHeader = false,
-}: {
-  hideHeader?: boolean
-} = {}) {
+export function IndexMenu() {
   const { state, jumpToPage } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState('indexSearch', {
     defaultValue: '',
@@ -115,11 +112,6 @@ export function IndexMenu({
 
   return (
     <div className="flex flex-col min-h-0 h-full">
-      {!hideHeader && (
-        <div className="font-semibold text-sm px-3 pt-4 border-t border-gray-300">
-          Index
-        </div>
-      )}
       {isLoading ? (
         <LoadingSpinner size="sm" message="Loading index..." />
       ) : error ? (
@@ -132,18 +124,16 @@ export function IndexMenu({
         </div>
       ) : (
         <>
-          <div className="p-3 pt-0 border-b border-gray-200">
-            <div className="flex gap-2 items-center">
-              <input
-                className="flex-1 min-w-0 border border-gray-300 rounded-lg px-3 py-2 font-mono text-xs"
-                placeholder="Filter..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-              />
-            </div>
+          <div className="px-3">
+            <input
+              className="flex-1 w-full border border-gray-300 rounded-lg px-3 py-2 font-mono text-xs"
+              placeholder="Filter..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
           </div>
 
-          <div className="overflow-auto p-3 pr-1.5 flex-1 min-h-0">
+          <div className="overflow-auto p-3 flex-1 min-h-0">
             <div>
               {annotationIndex.nodes
                 .filter((node: model_AnnotationIndexNode) =>
@@ -157,7 +147,7 @@ export function IndexMenu({
                     level={0}
                     currentPage={state.currentPage}
                     nextSiblingPage={getNextSiblingPage(
-                      annotationIndex.nodes,
+                      annotationIndex.nodes || [],
                       idx,
                       item.location?.page,
                     )}

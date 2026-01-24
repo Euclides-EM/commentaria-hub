@@ -1,16 +1,100 @@
 import { useState } from 'react'
 import { useAppState } from '../context/AppStateContext.tsx'
+import type {
+  annotationrule_AddMargin,
+  annotationrule_LinesDetect,
+  annotationrule_PipelineStage,
+  annotationrule_ReassignTextLinesByTolerance,
+  annotationrule_RemoveCategories,
+  annotationrule_RemoveOverlap,
+  annotationrule_Segment,
+  annotationrule_SlicePages,
+  annotationrule_Stretch,
+  annotationrule_TextBlockCorrections,
+  annotationrule_Type,
+  model_Annotation,
+} from '../api'
 import { AnnotationsApplyRulesService } from '../api'
 import { RuleEditModal } from './RuleEditModal.tsx'
 import { useDatasetSuggestedRules } from '../queries/datasets.ts'
 import { type AnnotationRule, isRuleApplied } from '../utils/rules.ts'
 import { RuleDisplay } from './RuleDisplay.tsx'
-import type { annotationrule_PipelineStage } from '../api/models/annotationrule_PipelineStage.ts'
 import { useAnnotationRules } from '../queries/metadata.ts'
 
+type BaseRunRuleParams = {
+  dataSetId: string
+  id: string
+  action: 'overwrite' | 'create_new'
+}
+
+type RuleRunner = (
+  baseParams: BaseRunRuleParams,
+  rule: AnnotationRule,
+) => Promise<model_Annotation>
+
+const ruleRunnerMap: Record<annotationrule_Type, RuleRunner> = {
+  segment: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplySegment({
+      ...baseParams,
+      annotationSegmentRule: rule as annotationrule_Segment,
+    }),
+  slice_pages: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplySlicePages({
+      ...baseParams,
+      annotationSegmentRule: rule as annotationrule_SlicePages,
+    }),
+  stretch: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplyStretch({
+      ...baseParams,
+      annotationSegmentRule: rule as annotationrule_Stretch,
+    }),
+  add_margin: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplyAddMargin({
+      ...baseParams,
+      annotationSegmentRule: rule as annotationrule_AddMargin,
+    }),
+  lines_detect: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplyDetectLines({
+      ...baseParams,
+      annotationSegmentRule: rule as annotationrule_LinesDetect,
+    }),
+  remove_categories: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplyRemoveCategories({
+      ...baseParams,
+      annotationSegmentRule: rule as annotationrule_RemoveCategories,
+    }),
+  remove_overlap: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplyRemoveOverlap({
+      ...baseParams,
+      annotationSegmentRule: rule as annotationrule_RemoveOverlap,
+    }),
+  reassign_text_lines_by_tolerance: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplyReassignTextLinesByTolerance(
+      {
+        ...baseParams,
+        annotationSegmentRule:
+          rule as annotationrule_ReassignTextLinesByTolerance,
+      },
+    ),
+  text_blocks_corrections: (baseParams, rule) =>
+    AnnotationsApplyRulesService.putDatasetsAnnotationsApplyTextBlockCorrections(
+      {
+        ...baseParams,
+        annotationTextBlockCorrections:
+          rule as annotationrule_TextBlockCorrections,
+      },
+    ),
+}
+
 export function SuggestedRulesPane() {
-  const { dataset, annotation, refetch: refetchAnnotation } = useAppState()
+  const {
+    dataset,
+    annotation,
+    refetch: refetchAnnotation,
+    setState,
+  } = useAppState()
   const [editingRule, setEditingRule] = useState<AnnotationRule | null>(null)
+  const [isManualModalOpen, setIsManualModalOpen] = useState(false)
   const { data: allRules } = useAnnotationRules()
 
   const {
@@ -29,100 +113,44 @@ export function SuggestedRulesPane() {
       return
     }
 
-    const params = {
+    const baseParams: BaseRunRuleParams = {
       dataSetId: dataset.id,
       id: annotation.id,
       action,
     }
 
-    switch (rule.type) {
-      case 'segment':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplySegment({
-          ...params,
-          annotationSegmentRule: rule,
-        })
-        break
-      case 'slice_pages':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplySlicePages(
-          {
-            ...params,
-            annotationSegmentRule: rule,
-          },
-        )
-        break
-      case 'stretch':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplyStretch({
-          ...params,
-          annotationSegmentRule: rule,
-        })
-        break
-      case 'add_margin':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplyAddMargin(
-          {
-            ...params,
-            annotationSegmentRule: rule,
-          },
-        )
-        break
-      case 'lines_detect':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplyDetectLines(
-          {
-            ...params,
-            annotationSegmentRule: rule,
-          },
-        )
-        break
-      case 'remove_categories':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplyRemoveCategories(
-          {
-            ...params,
-            annotationSegmentRule: rule,
-          },
-        )
-        break
-      case 'remove_overlap':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplyRemoveOverlap(
-          {
-            ...params,
-            annotationSegmentRule: rule,
-          },
-        )
-        break
-      case 'reassign_text_lines_by_tolerance':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplyReassignTextLinesByTolerance(
-          {
-            ...params,
-            annotationSegmentRule: rule,
-          },
-        )
-        break
-      case 'text_blocks_corrections':
-        await AnnotationsApplyRulesService.putDatasetsAnnotationsApplyTextBlockCorrections(
-          {
-            ...params,
-            annotationTextBlockCorrections: rule,
-          },
-        )
-        break
-      default:
-        throw new Error(`Unsupported rule type: ${rule.type}`)
+    const runner = ruleRunnerMap[rule.type!]
+
+    if (!runner) {
+      throw new Error(`Unsupported rule type: ${rule.type}`)
     }
+
+    const annotationResult = await runner(baseParams, rule)
 
     refetchRules()
     refetchAnnotation()
+    if (annotationResult.id !== annotation.id) {
+      setState({ annotationId: annotationResult.id })
+    }
   }
 
   const handleEditRule = (rule: AnnotationRule) => {
     setEditingRule(rule)
   }
 
-  const handleModalSubmit = async (
+  const handleManualRuleSubmit = async (
     payload: AnnotationRule,
     action: 'overwrite' | 'create_new',
   ) => {
-    if (editingRule) {
-      await handleRunRule(payload, action)
-    }
+    await handleRunRule(payload, action)
+    setIsManualModalOpen(false)
+  }
+
+  const handleEditRuleSubmit = async (
+    payload: AnnotationRule,
+    action: 'overwrite' | 'create_new',
+  ) => {
+    await handleRunRule(payload, action)
     setEditingRule(null)
   }
 
@@ -139,6 +167,14 @@ export function SuggestedRulesPane() {
               }{' '}
               / {suggestedRules.length} applied
             </div>
+          )}
+          {annotation && (
+            <button
+              onClick={() => setIsManualModalOpen(true)}
+              className="ml-auto px-2 py-1 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              Run Manually
+            </button>
           )}
         </div>
 
@@ -215,8 +251,16 @@ export function SuggestedRulesPane() {
       <RuleEditModal
         isOpen={!!editingRule}
         onClose={() => setEditingRule(null)}
-        onSubmit={handleModalSubmit}
+        onSubmit={handleEditRuleSubmit}
         initialPayload={editingRule as AnnotationRule}
+        ruleMetadata={undefined}
+      />
+
+      <RuleEditModal
+        isOpen={isManualModalOpen}
+        onClose={() => setIsManualModalOpen(false)}
+        onSubmit={handleManualRuleSubmit}
+        ruleMetadata={allRules}
       />
     </>
   )

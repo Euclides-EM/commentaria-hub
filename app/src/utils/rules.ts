@@ -30,7 +30,9 @@ const stageDisplayNames: Record<annotationrule_PipelineStage, string> = {
   ocr: 'OCR',
 }
 
-export const getStageDisplayName = (stage: annotationrule_PipelineStage): string => {
+export const getStageDisplayName = (
+  stage: annotationrule_PipelineStage,
+): string => {
   return stageDisplayNames[stage]
 }
 

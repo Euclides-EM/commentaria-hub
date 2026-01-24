@@ -62,6 +62,7 @@ export function useAnnotationSearch(
   datasetId: string,
   annotationId: string,
   regex: string,
+  categories: string[] = [],
 ) {
   return useQuery({
     queryKey: [
@@ -69,14 +70,30 @@ export function useAnnotationSearch(
       datasetId,
       annotationId,
       'search',
-      { regex },
+      { regex, categories },
     ] as const,
     queryFn: () =>
       AnnotationsService.getDatasetsAnnotationsSearch({
         dataSetId: datasetId,
         id: annotationId,
         regex,
+        category: categories.length > 0 ? categories : undefined,
       }),
     enabled: !!datasetId && !!annotationId && regex.length > 0,
+  })
+}
+
+export function useAnnotationCategories(
+  datasetId: string,
+  annotationId: string,
+) {
+  return useQuery({
+    queryKey: ['annotations', datasetId, annotationId, 'categories'] as const,
+    queryFn: () =>
+      AnnotationsService.getDatasetsAnnotationsCategories({
+        dataSetId: datasetId,
+        id: annotationId,
+      }),
+    enabled: !!datasetId && !!annotationId,
   })
 }

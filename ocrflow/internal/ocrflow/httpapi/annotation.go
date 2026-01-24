@@ -341,7 +341,7 @@ func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Produce      json
-// @Success      200  {array}   []string
+// @Success      200  {array}   string
 // @Router       /datasets/{dataSetId}/annotations/{id}/categories [get]
 func (h *Handlers) ListAnnotationCategories(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)

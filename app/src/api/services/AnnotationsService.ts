@@ -353,7 +353,7 @@ export class AnnotationsService {
          * Annotation ID
          */
         id: string,
-    }): CancelablePromise<Array<Array<string>>> {
+    }): CancelablePromise<Array<string>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/annotations/{id}/categories',

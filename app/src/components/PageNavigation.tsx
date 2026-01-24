@@ -2,9 +2,10 @@ import { useAppState } from '../context/AppStateContext.tsx'
 import type { model_Annotation } from '../api'
 import { selectStyles } from '../styles/selectStyles.ts'
 import Select from 'react-select'
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { IndexMenu } from './IndexMenu.tsx'
+import { AnnotationSearchMenu } from './AnnotationSearchMenu'
 
 const expandRange = (range: string): number[] => {
   const parts = range.trim().split('-')
@@ -42,6 +43,14 @@ export function PageNavigation() {
       defaultValue: true,
     },
   )
+  const [splitRatio, setSplitRatio] = useLocalStorageState(
+    'indexSearchSplitRatio',
+    {
+      defaultValue: 0.5,
+    },
+  )
+  const [isResizing, setIsResizing] = useState(false)
+  const splitRef = useRef<HTMLDivElement | null>(null)
 
   const onPageNumChange = (page: number) => setState({ currentPage: page })
   const availablePages = useMemo(
@@ -70,12 +79,40 @@ export function PageNavigation() {
     }
   }, [availablePages, setState, state.currentPage])
 
+  useEffect(() => {
+    if (!isResizing) {
+      return
+    }
+
+    const onPointerMove = (event: PointerEvent) => {
+      const container = splitRef.current
+      if (!container) {
+        return
+      }
+      const rect = container.getBoundingClientRect()
+      const raw = (event.clientY - rect.top) / rect.height
+      const clamped = Math.min(0.8, Math.max(0.2, raw))
+      setSplitRatio(clamped)
+    }
+
+    const onPointerUp = () => {
+      setIsResizing(false)
+    }
+
+    window.addEventListener('pointermove', onPointerMove)
+    window.addEventListener('pointerup', onPointerUp)
+    return () => {
+      window.removeEventListener('pointermove', onPointerMove)
+      window.removeEventListener('pointerup', onPointerUp)
+    }
+  }, [isResizing, setSplitRatio])
+
   if (!annotation) {
     return
   }
 
   return (
-    <div className="flex flex-col flex-1 min-h-0">
+    <div className="flex flex-col flex-1 min-h-0 mr-1">
       <div className="flex w-full px-2 py-4 gap-4 items-center justify-center">
         <div className="flex gap-2">
           {!isFirstPage && (
@@ -125,8 +162,11 @@ export function PageNavigation() {
           )}
         </div>
       </div>
-      <div className="flex flex-col flex-1 min-h-0">
-        <div className="flex flex-col flex-[0_0_50%] min-h-0 border-t border-gray-300 overflow-hidden">
+      <div className="flex flex-col flex-1 min-h-0" ref={splitRef}>
+        <div
+          className="flex flex-col min-h-0 border-t border-gray-300 overflow-hidden flex-none"
+          style={{ flexBasis: `calc(${splitRatio * 100}% - 4px)` }}
+        >
           <button
             title={isIndexCollapsed ? 'Expand index' : 'Collapse index'}
             aria-label={isIndexCollapsed ? 'Expand index' : 'Collapse index'}
@@ -140,7 +180,21 @@ export function PageNavigation() {
             {!isIndexCollapsed && <IndexMenu />}
           </div>
         </div>
-        <div className="flex flex-col flex-[0_0_50%] min-h-0 border-t border-gray-300">
+        <div
+          role="separator"
+          aria-label="Resize index and search"
+          className="h-2 cursor-row-resize bg-gray-100 hover:bg-gray-200 transition-colors flex items-center justify-center"
+          onPointerDown={(event) => {
+            event.preventDefault()
+            setIsResizing(true)
+          }}
+        >
+          <div className="h-0.5 w-10 rounded-full bg-gray-300" />
+        </div>
+        <div
+          className="flex flex-col min-h-0 flex-none"
+          style={{ flexBasis: `calc(${(1 - splitRatio) * 100}% - 4px)` }}
+        >
           <button
             title={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
             aria-label={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
@@ -151,7 +205,7 @@ export function PageNavigation() {
             <span className="font-semibold text-sm">Search</span>
           </button>
           <div className="flex-1 min-h-0 overflow-hidden">
-            {!isSearchCollapsed && <div>TODO</div>}
+            {!isSearchCollapsed && <AnnotationSearchMenu />}
           </div>
         </div>
       </div>

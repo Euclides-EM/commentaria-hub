@@ -8,7 +8,7 @@ import "net/http"
 // @Tags         Datasets
 // @Param        dataSetId  path      string  true  "Dataset ID"
 // @Produce      json
-// @Success      200  {array}   [][]annotationrule.AnnotationRule
+// @Success      200  {array}   []annotationrule.AnnotationRule
 // @Router       /datasets/{dataSetId}/suggested_rules [get]
 func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(r)
@@ -25,7 +25,7 @@ func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
 // @Tags         Datasets
 // @Param        dataSetId  path      string  true  "Dataset ID"
 // @Produce      json
-// @Success      200  {array}   [][]model.AnnotationExpectedBlocks
+// @Success      200  {array}   []model.AnnotationExpectedBlocks
 // @Router       /datasets/{dataSetId}/suggested_reviews [get]
 func (h *Handlers) ListSuggestedReviewForDataset(r *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(r)
