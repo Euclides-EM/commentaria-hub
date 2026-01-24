@@ -2,6 +2,8 @@ import { useAppState } from '../context/AppStateContext.tsx'
 import type { model_Annotation } from '../api'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
+import { RuleDisplay } from './RuleDisplay.tsx'
+import type { AnnotationRule } from '../utils/rules.ts'
 
 TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')
@@ -24,9 +26,7 @@ const AnnotationDescriptor = ({
 }: {
   annotation: model_Annotation
 }) => {
-  const appliedRulesPretty = annotation.applied_rules
-    ? JSON.stringify(annotation.applied_rules, null, 2)
-    : null
+  const appliedRules = (annotation.applied_rules || []) as AnnotationRule[]
 
   return (
     <div className="mt-2.5 border border-gray-200 rounded-lg bg-gray-50 p-3.5 overflow-auto leading-normal text-base box-border">
@@ -77,10 +77,12 @@ const AnnotationDescriptor = ({
           Applied rules
         </div>
         <div className="text-sm leading-tight">
-          {appliedRulesPretty ? (
-            <pre className="m-0 p-2.5 rounded bg-gray-100 text-xs leading-normal overflow-auto font-mono">
-              {appliedRulesPretty}
-            </pre>
+          {appliedRules.length > 0 ? (
+            <div className="space-y-2">
+              {appliedRules.map((rule, index) => (
+                <RuleDisplay key={index} rule={rule} isApplied={true} />
+              ))}
+            </div>
           ) : (
             <span className="text-gray-500">None</span>
           )}
