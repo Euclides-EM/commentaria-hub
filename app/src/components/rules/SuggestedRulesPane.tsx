@@ -12,6 +12,7 @@ import {
 import { RuleDisplay } from './RuleDisplay.tsx'
 import { useAnnotationRules } from '../../queries/metadata.ts'
 import { useAuthStore } from '../../store/authStore.ts'
+import { ErrorMessage } from '../core/ErrorMessage'
 
 export function SuggestedRulesPane() {
   const {
@@ -113,9 +114,7 @@ export function SuggestedRulesPane() {
             <div className="text-gray-500 text-sm p-2">Loading rules...</div>
           )}
 
-          {error && (
-            <div className="text-red-500 text-sm p-2">{error.message}</div>
-          )}
+          {error && <ErrorMessage error={error} variant="compact" />}
 
           {!isLoading && !error && suggestedRules.length === 0 && (
             <div className="text-gray-500 text-sm p-2">

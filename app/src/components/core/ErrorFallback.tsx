@@ -1,3 +1,5 @@
+import { ErrorMessage } from './ErrorMessage'
+
 interface ErrorFallbackProps {
   error: Error
   onRetry?: () => void
@@ -11,7 +13,9 @@ export function ErrorFallback({ error, onRetry, message }: ErrorFallbackProps) {
       <h3 className="text-lg font-semibold text-gray-900 mb-2">
         {message || 'Something went wrong'}
       </h3>
-      <p className="text-sm text-gray-600 mb-4">Error: {error.message}</p>
+      <div className="mb-4">
+        <ErrorMessage error={error} variant="muted" />
+      </div>
       {onRetry && (
         <button
           onClick={onRetry}

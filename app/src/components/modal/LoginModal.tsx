@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { useAuthStore } from '../../store/authStore'
-import { OpenAPI } from '../../api'
+import { ApiError, OpenAPI } from '../../api'
 import { Button } from '../core/Button'
+import { ErrorMessage } from '../core/ErrorMessage'
 
 interface LoginModalProps {
   onClose: () => void
@@ -45,7 +46,17 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
       onSuccess()
     } catch (error) {
       console.error('Authentication failed:', error)
-      setError('Invalid token. Please check your GitHub PAT and try again.')
+      if (error instanceof ApiError) {
+        setError(
+          typeof error.body === 'string'
+            ? error.body
+            : error.body
+              ? JSON.stringify(error.body)
+              : error.message,
+        )
+      } else {
+        setError('Invalid token. Please check your GitHub PAT and try again.')
+      }
     } finally {
       setIsLoading(false)
     }
@@ -102,7 +113,7 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
             />
           </div>
 
-          {error && <div className="text-red-600 text-sm">{error}</div>}
+          <ErrorMessage message={error} />
 
           <div className="flex gap-3">
             <Button

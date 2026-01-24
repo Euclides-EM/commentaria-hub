@@ -10,6 +10,7 @@ import { LoadingSpinner } from '../../core/LoadingSpinner.tsx'
 import { useAppState } from '../../../context/useAppState.ts'
 import Select from 'react-select'
 import { selectStyles } from '../../../styles/selectStyles.ts'
+import { ErrorMessage } from '../../core/ErrorMessage'
 
 type ExportMode = 'zip' | 'roboflow' | 'escriptorium'
 
@@ -357,7 +358,7 @@ export function ExportAnnotationModal({
             </div>
           )}
 
-          {error && <div className="text-sm text-red-600">{error}</div>}
+          <ErrorMessage message={error} />
         </div>
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-2">

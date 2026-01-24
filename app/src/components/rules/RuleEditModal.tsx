@@ -10,6 +10,7 @@ import {
 } from '../../api'
 import Select from 'react-select'
 import { Button } from '../core/Button'
+import { ErrorMessage } from '../core/ErrorMessage'
 import { selectStyles } from '../../styles/selectStyles.ts'
 
 interface RuleEditModalProps {
@@ -185,9 +186,9 @@ export function RuleEditModal({
                 spellCheck={false}
                 disabled={loading}
               />
-              {error && (
-                <div className="mt-2 text-sm text-red-600">{error}</div>
-              )}
+              <div className="mt-2">
+                <ErrorMessage message={error} />
+              </div>
             </div>
 
             <div>

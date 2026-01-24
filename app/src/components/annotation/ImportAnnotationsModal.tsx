@@ -4,6 +4,7 @@ import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'
 import Select from 'react-select'
 import { selectStyles } from '../../styles/selectStyles.ts'
+import { ErrorMessage } from '../core/ErrorMessage'
 
 type ImportMode = 'url' | 'zip'
 
@@ -145,7 +146,7 @@ export function ImportAnnotationsModal({
               }
               isDisabled={loading}
               className="text-sm"
-              styles={selectStyles<{ value: 'ALTO' | 'YOLO'; label: string }>({
+              styles={selectStyles<{ value: string; label: string }>({
                 controlWidth: 160,
               })}
             />
@@ -263,7 +264,7 @@ export function ImportAnnotationsModal({
             </label>
           </div>
 
-          {error && <div className="text-sm text-red-600">{error}</div>}
+          <ErrorMessage message={error} />
         </div>
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-2">

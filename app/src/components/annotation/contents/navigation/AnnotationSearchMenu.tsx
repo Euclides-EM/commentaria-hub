@@ -1,13 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
-import {
-  useAnnotationCategories,
-  useAnnotationSearch,
-} from '../../../../queries/annotations.ts'
+import { useAnnotationCategories, useAnnotationSearch, } from '../../../../queries/annotations.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import type { model_AnnotationPart } from '../../../../api'
 import { SearchInput } from '../../../core/SearchInput.tsx'
+import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
+import { ErrorMessage } from '../../../core/ErrorMessage'
 
 const buildSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)
@@ -142,14 +141,10 @@ export function AnnotationSearchMenu() {
           </div>
         )}
         {normalizedSearch && isLoading && (
-          <div className="text-gray-500 text-xs text-center py-6">
-            Searching...
-          </div>
+          <LoadingSpinner size="sm" message="Searching..." />
         )}
         {normalizedSearch && error && (
-          <div className="text-red-600 text-xs text-center py-6">
-            {error.message}
-          </div>
+          <ErrorMessage error={error} variant="centered" />
         )}
         {normalizedSearch && !isLoading && !error && results.length === 0 && (
           <div className="text-gray-500 text-xs italic text-center py-6">

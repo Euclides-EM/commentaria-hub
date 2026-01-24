@@ -2,9 +2,9 @@ import { useState } from 'react'
 import { AppStateProvider } from './context/AppStateProvider'
 import { Header } from './components/Header'
 import { LoginModal } from './components/modal/LoginModal'
-import { MainApp } from './components/MainApp'
+import { Main } from './components/Main.tsx'
 
-function App() {
+export function App() {
   const [showLoginModal, setShowLoginModal] = useState(false)
 
   return (
@@ -13,7 +13,10 @@ function App() {
         <Header onShowLogin={() => setShowLoginModal(true)} />
 
         <div className="flex-1 overflow-hidden">
-          <MainApp />
+          <Main />
+        </div>
+        <div className="px-3 py-2 text-xs text-gray-500 text-center">
+          © {new Date().getFullYear()} Euclides Project. Avec Privilege du Roy.
         </div>
       </div>
 
@@ -26,5 +29,3 @@ function App() {
     </AppStateProvider>
   )
 }
-
-export default App

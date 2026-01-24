@@ -32,7 +32,7 @@ const TabButton = ({
   )
 }
 
-export function MainApp() {
+export function Main() {
   const [isImportUrlOpen, setIsImportUrlOpen] = useState(false)
   const [isImportZipOpen, setIsImportZipOpen] = useState(false)
   const [activeTab, setActiveTab] = useLocalStorageState<Tab>(

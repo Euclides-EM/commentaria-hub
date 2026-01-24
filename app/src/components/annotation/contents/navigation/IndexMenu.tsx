@@ -1,5 +1,6 @@
 import { useAnnotationIndexQuery } from '../../../../queries/annotations.ts'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
+import { ErrorMessage } from '../../../core/ErrorMessage'
 import type { model_AnnotationIndexNode } from '../../../../api'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { useState } from 'react'
@@ -116,9 +117,7 @@ export function IndexMenu() {
       {isLoading ? (
         <LoadingSpinner size="sm" message="Loading index..." />
       ) : error ? (
-        <div className="w-full m-10 font-medium text-center text-red-800">
-          {error.message}
-        </div>
+        <ErrorMessage error={error} variant="empty" />
       ) : !annotationIndex?.nodes ? (
         <div className="text-gray-500 text-sm italic text-center p-5">
           No index available

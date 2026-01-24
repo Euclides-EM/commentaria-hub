@@ -16,6 +16,7 @@ import { DeleteAnnotationModal } from '../../modal/DeleteAnnotationModal.tsx'
 import { Button } from '../../core/Button.tsx'
 import { getStageDisplayName } from '../../../utils/stages.ts'
 import { ExportAnnotationModal } from './ExportAnnotationModal.tsx'
+import { ErrorMessage } from '../../core/ErrorMessage'
 
 TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')
@@ -164,7 +165,9 @@ const AnnotationDetailsContent = ({
         )}
       </div>
 
-      {error && <div className="mt-4 text-sm text-red-600">{error}</div>}
+      <div className="mt-4">
+        <ErrorMessage message={error} />
+      </div>
       {isEditing && (
         <div className="flex justify-end gap-2 mt-4">
           <Button
