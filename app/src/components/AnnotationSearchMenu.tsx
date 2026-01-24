@@ -1,4 +1,4 @@
-import { type JSX, useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import {
   useAnnotationCategories,
@@ -8,35 +8,42 @@ import { useAppState } from '../context/AppStateContext.tsx'
 import { MultiSelectDropdown } from './MultiSelectDropdown'
 import type { model_AnnotationPart } from '../api'
 
-const renderHighlightedContent = (content: string, pattern: string) => {
-  if (!pattern) {
-    return content
+const buildSnippet = (content: string, maxLength = 64) => {
+  const startMatch = content.match(/<em[^>]*>/i)
+  if (!startMatch) {
+    if (content.length <= maxLength) return content
+    return `${content.slice(0, maxLength)}...`
   }
-  try {
-    const regex = new RegExp(pattern, 'gi')
-    const matches = Array.from(content.matchAll(regex))
-    if (matches.length === 0) return content
-    const nodes: Array<string | JSX.Element> = []
-    let lastIndex = 0
-    matches.forEach((match, index) => {
-      const start = match.index ?? 0
-      const end = start + match[0].length
-      if (start > lastIndex) nodes.push(content.slice(lastIndex, start))
-      nodes.push(
-        <mark
-          key={`${start}-${end}-${index}`}
-          className="bg-yellow-200/70 text-gray-900 rounded-sm px-0.5"
-        >
-          {match[0]}
-        </mark>,
-      )
-      lastIndex = end
-    })
-    if (lastIndex < content.length) nodes.push(content.slice(lastIndex))
-    return nodes
-  } catch {
-    return content
+
+  const startTag = startMatch[0]
+  const startIndex = content.indexOf(startTag)
+  const endIndex = content.toLowerCase().indexOf('</em>', startIndex)
+  if (endIndex === -1) return content
+
+  const beforeText = content.slice(0, startIndex)
+  const matchHtml = content.slice(startIndex, endIndex + 5)
+  const afterText = content.slice(endIndex + 5)
+  const matchText = matchHtml.replace(/<[^>]*>/g, '')
+  const remaining = maxLength - matchText.length
+
+  if (remaining <= 0) {
+    const truncated = matchText.slice(0, maxLength)
+    const suffix = matchText.length > maxLength ? '...' : ''
+    return `${startTag}${truncated}${suffix}</em>`
   }
+
+  const beforeLen = Math.floor(remaining / 2)
+  const afterLen = remaining - beforeLen
+  const beforeTrim =
+    beforeText.length > beforeLen
+      ? beforeText.slice(beforeText.length - beforeLen)
+      : beforeText
+  const afterTrim =
+    afterText.length > afterLen ? afterText.slice(0, afterLen) : afterText
+  const prefix = beforeText.length > beforeLen ? '...' : ''
+  const suffix = afterText.length > afterLen ? '...' : ''
+
+  return `${prefix}${beforeTrim}${matchHtml}${afterTrim}${suffix}`
 }
 
 const getResultKey = (result: model_AnnotationPart, index: number) =>
@@ -191,10 +198,16 @@ export function AnnotationSearchMenu() {
                     <span>p. {result.location.page}</span>
                   )}
                 </div>
-                <div className="text-gray-800 leading-snug">
-                  {result.content
-                    ? renderHighlightedContent(result.content, normalizedSearch)
-                    : 'No content'}
+                <div className="text-gray-800 leading-snug [&_em]:not-italic [&_em]:bg-yellow-200/70 [&_em]:text-gray-900 [&_em]:rounded-sm [&_em]:px-0.5">
+                  {result.content ? (
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: buildSnippet(result.content),
+                      }}
+                    />
+                  ) : (
+                    'No content'
+                  )}
                 </div>
               </div>
             ))}

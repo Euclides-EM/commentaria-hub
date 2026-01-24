@@ -33,6 +33,7 @@ func (s *AnnotationSearch) Search(as *model.AnnotationSearch) (*model.Annotation
 		return nil, err
 	}
 
+	as.Regex = "(?mi)" + as.Regex
 	rg, err := regexp.Compile(as.Regex)
 	if err != nil {
 		return nil, err
