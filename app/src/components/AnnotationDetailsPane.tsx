@@ -1,9 +1,14 @@
+import { useEffect, useState } from 'react'
 import { useAppState } from '../context/AppStateContext.tsx'
-import type { model_Annotation } from '../api'
+import { AnnotationsService, ApiError, type model_Annotation } from '../api'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
 import { RuleDisplay } from './RuleDisplay.tsx'
 import type { AnnotationRule } from '../utils/rules.ts'
+import { useAuthStore } from '../store/authStore.ts'
+import { useAnnotationsQuery } from '../queries/annotations.ts'
+import type { AnnotationFilter } from './AnnotationFilterDropdown.tsx'
+import { useDatasetsQuery } from '../queries/datasets.ts'
 
 TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')
@@ -21,13 +26,40 @@ const Timestamp = ({ date }: { date: string | undefined }) => {
   )
 }
 
-const AnnotationDescriptor = ({
-  annotation,
-}: {
+interface AnnotationDetailsContentProps {
   annotation: model_Annotation
-}) => {
+  isEditing: boolean
+  editedName: string
+  editedDescription: string
+  onNameChange: (name: string) => void
+  onDescriptionChange: (description: string) => void
+  onSave: () => void
+  onCancel: () => void
+  error?: string | null
+}
+
+const AnnotationDetailsContent = ({
+  annotation,
+  isEditing,
+  editedName,
+  editedDescription,
+  onNameChange,
+  onDescriptionChange,
+  onSave,
+  onCancel,
+  error,
+}: AnnotationDetailsContentProps) => {
+  const { setState } = useAppState()
+  const { data: annotations } = useAnnotationsQuery(
+    annotation.dataset_id!,
+    [] as AnnotationFilter[],
+  )
+  const { data: datasets } = useDatasetsQuery()
   const appliedRules = (annotation.applied_rules || []) as AnnotationRule[]
 
+  const originAnnotation = annotations?.find(
+    (a) => a.id === annotation.origin_annotation_id,
+  )
   return (
     <div className="mt-2.5 border border-gray-200 rounded-lg bg-gray-50 p-3.5 overflow-auto leading-normal text-base box-border">
       <div className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 items-start">
@@ -36,20 +68,44 @@ const AnnotationDescriptor = ({
           {annotation.id}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Name</div>
-        <div className="text-sm leading-tight break-all">{annotation.name}</div>
+        {isEditing ? (
+          <input
+            type="text"
+            value={editedName}
+            onChange={(e) => onNameChange(e.target.value)}
+            className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full"
+          />
+        ) : (
+          <div className="text-sm leading-tight break-all">
+            {annotation.name}
+          </div>
+        )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Description
         </div>
-        <div className="text-sm leading-tight break-all">
-          {annotation.description}
-        </div>
+        {isEditing ? (
+          <textarea
+            value={editedDescription}
+            onChange={(e) => onDescriptionChange(e.target.value)}
+            className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full"
+            rows={3}
+          />
+        ) : (
+          <div className="text-sm leading-tight break-all">
+            {annotation.description}
+          </div>
+        )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">Dataset</div>
         <div className="text-sm leading-tight break-all font-mono">
-          {annotation.dataset_id}
+          {datasets?.find((d) => d.id === annotation.dataset_id)?.name}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Pages</div>
         <div className="text-sm leading-tight break-all">
           {annotation.pages}
+        </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Stage</div>
+        <div className="text-sm leading-tight break-all">
+          {annotation.pipeline_stage}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Segmented</div>
         <div className="text-sm leading-tight break-all">
@@ -64,6 +120,21 @@ const AnnotationDescriptor = ({
         <div className="font-semibold text-xs opacity-80 pt-0.5">OCRed</div>
         <div className="text-sm leading-tight break-all">
           {String(!!annotation.ocred)}
+        </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">
+          Origin annotation
+        </div>
+        <div className="text-sm leading-tight break-all">
+          {originAnnotation && (
+            <button
+              className="underline text-gray-800 hover:text-gray-500"
+              onClick={() => {
+                setState({ annotationId: originAnnotation.id })
+              }}
+            >
+              {originAnnotation.name}
+            </button>
+          )}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Created</div>
         <div className="text-sm leading-tight break-all ">
@@ -87,22 +158,108 @@ const AnnotationDescriptor = ({
           <span className="text-gray-500">None</span>
         )}
       </div>
+
+      {error && <div className="mt-4 text-sm text-red-600">{error}</div>}
+      {isEditing && (
+        <div className="flex justify-end gap-2 mt-4">
+          <button
+            onClick={onCancel}
+            className="px-3 py-1.5 text-sm font-semibold text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Cancel
+          </button>
+          <button
+            onClick={onSave}
+            className="px-3 py-1.5 text-sm font-semibold text-white bg-indigo-600 rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Save
+          </button>
+        </div>
+      )}
     </div>
   )
 }
 
 export function AnnotationDetailsPane() {
-  const { annotation } = useAppState()
+  const { annotation, refetch } = useAppState()
+  const [isEditing, setIsEditing] = useState(false)
+  const [editedName, setEditedName] = useState('')
+  const [editedDescription, setEditedDescription] = useState('')
+  const isAuthenticated = !!useAuthStore((store) => store.token)
+  const [error, setError] = useState<string | null>(null)
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setError(null)
+  }, [annotation?.id])
+
+  const handleEditClick = () => {
+    setError(null)
+    if (annotation) {
+      setEditedName(annotation.name || '')
+      setEditedDescription(annotation.description || '')
+      setIsEditing(true)
+    }
+  }
+
+  const handleSave = async () => {
+    if (!annotation) {
+      return
+    }
+
+    try {
+      await AnnotationsService.putDatasetsAnnotations({
+        dataSetId: annotation.dataset_id!,
+        id: annotation.id!,
+        annotation: {
+          ...annotation,
+          name: editedName,
+          description: editedDescription,
+        },
+      })
+      refetch()
+      setIsEditing(false)
+    } catch (e) {
+      console.error('Failed to update annotation:', e)
+      setError(e instanceof ApiError ? e.body : String(e))
+    }
+  }
+
+  const handleCancel = () => {
+    setIsEditing(false)
+    if (annotation) {
+      setEditedName(annotation.name || '')
+      setEditedDescription(annotation.description || '')
+    }
+  }
 
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white m-3 mb-0">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
         <div>Annotation Details</div>
+        {isAuthenticated && !isEditing && annotation && (
+          <button
+            onClick={handleEditClick}
+            className="px-2 py-1 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Edit
+          </button>
+        )}
       </div>
 
       {annotation && (
         <div className="flex-1 min-h-0 overflow-auto p-2.5 box-border">
-          <AnnotationDescriptor annotation={annotation} />
+          <AnnotationDetailsContent
+            annotation={annotation}
+            isEditing={isEditing}
+            editedName={editedName}
+            editedDescription={editedDescription}
+            onNameChange={setEditedName}
+            onDescriptionChange={setEditedDescription}
+            onSave={handleSave}
+            onCancel={handleCancel}
+            error={error}
+          />
         </div>
       )}
     </section>
