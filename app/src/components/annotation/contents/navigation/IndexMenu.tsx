@@ -1,10 +1,10 @@
-import { useAnnotationIndexQuery } from '../../queries/annotations'
-import { LoadingSpinner } from '../core/LoadingSpinner'
-import type { model_AnnotationIndexNode } from '../../api'
-import { useAppState } from '../../context/useAppState'
+import { useAnnotationIndexQuery } from '../../../../queries/annotations.ts'
+import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
+import type { model_AnnotationIndexNode } from '../../../../api'
+import { useAppState } from '../../../../context/useAppState.ts'
 import { useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
-import { SearchInput } from '../core/SearchInput'
+import { SearchInput } from '../../../core/SearchInput.tsx'
 
 const matchToFilter = (
   search: string,

@@ -1,11 +1,11 @@
-import { useAppState } from '../../context/useAppState'
-import type { model_Annotation } from '../../api'
-import { selectStyles } from '../../styles/selectStyles.ts'
+import { useAppState } from '../../../../context/useAppState.ts'
+import type { model_Annotation } from '../../../../api'
+import { selectStyles } from '../../../../styles/selectStyles.ts'
 import Select from 'react-select'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { IndexMenu } from './IndexMenu.tsx'
-import { AnnotationSearchMenu } from './AnnotationSearchMenu'
+import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 
 const expandRange = (range: string): number[] => {
   const parts = range.trim().split('-')

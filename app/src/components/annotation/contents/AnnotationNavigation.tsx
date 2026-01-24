@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
-import { PageNavigation } from './PageNavigation.tsx'
+import { PageNavigation } from './navigation/PageNavigation.tsx'
 
 export const AnnotationNavigation = () => {
   const [collapsed, setCollapsed] = useLocalStorageState('sidebarCollapsed', {

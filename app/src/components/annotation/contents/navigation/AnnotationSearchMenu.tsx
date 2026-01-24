@@ -1,13 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
-import {
-  useAnnotationCategories,
-  useAnnotationSearch,
-} from '../../queries/annotations'
-import { useAppState } from '../../context/useAppState'
-import { MultiSelectDropdown } from '../core/MultiSelectDropdown'
-import type { model_AnnotationPart } from '../../api'
-import { SearchInput } from '../core/SearchInput'
+import { useAnnotationCategories, useAnnotationSearch, } from '../../../../queries/annotations.ts'
+import { useAppState } from '../../../../context/useAppState.ts'
+import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
+import type { model_AnnotationPart } from '../../../../api'
+import { SearchInput } from '../../../core/SearchInput.tsx'
 
 const buildSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)

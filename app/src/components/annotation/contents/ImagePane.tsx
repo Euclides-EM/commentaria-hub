@@ -1,15 +1,31 @@
-import { useAppState } from '../../context/useAppState'
-import { OpenAPI } from '../../api'
+import { useState } from 'react'
+import { useAppState } from '../../../context/useAppState.ts'
+import { OpenAPI } from '../../../api'
 import ImageZoom from 'react-image-zooom'
+import { RangeInput } from '../../core/RangeInput.tsx'
 
 export function ImagePane() {
   const {
     state: { datasetId, currentPage },
   } = useAppState()
+  const [zoom, setZoom] = useState(250)
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white">
-      <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
-        <div>Page {currentPage} Facsimile</div>
+      <div className="px-2.5 py-2 border-b border-gray-200  bg-gray-50 flex items-center justify-between gap-2.5">
+        <div className="flex items-center gap-3 flex-wrap">
+          <div className="text-sm font-semibold">
+            Page {currentPage} Facsimile
+          </div>
+          <RangeInput
+            label="Zoom control"
+            value={zoom}
+            min={105}
+            max={1000}
+            step={5}
+            onChange={(value) => setZoom(Math.round(value))}
+            className="bg-transparent border-gray-300"
+          />
+        </div>
         <button
           type="button"
           onClick={() =>
@@ -32,7 +48,7 @@ export function ImagePane() {
           <ImageZoom
             src={`${OpenAPI.BASE}/datasets/${datasetId}/images/${currentPage}`}
             alt="Page image"
-            zoom="250"
+            zoom={String(zoom)}
             width="100%"
             height="100%"
             className="max-h-full max-w-full w-full h-full [&_img]:max-h-full [&_img]:max-w-full [&_img]:h-full [&_img]:w-full [&_img]:object-contain"

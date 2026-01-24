@@ -1,8 +1,9 @@
 import { Tei } from './Tei.tsx'
-import { useAppState } from '../../context/useAppState'
+import { useAppState } from '../../../context/useAppState.ts'
 import { useEffect, useState } from 'react'
-import { useAnnotationTeiQuery } from '../../queries/annotations.ts'
+import { useAnnotationTeiQuery } from '../../../queries/annotations.ts'
 import useLocalStorageState from 'use-local-storage-state'
+import { RangeInput } from '../../core/RangeInput.tsx'
 
 export function TeiPane() {
   const {
@@ -53,34 +54,15 @@ export function TeiPane() {
             TEI source code
           </button>
 
-          <div
-            className="flex items-center gap-2 px-1.5 py-1 border border-gray-200 rounded-lg bg-white"
+          <RangeInput
+            label="Min certainty"
+            value={minCert}
+            min={0.8}
+            max={1}
+            step={0.001}
             title="Hide tokens below certainty threshold"
-          >
-            <label htmlFor="minCert" className="text-xs opacity-75">
-              Min certainty
-            </label>
-            <input
-              type="range"
-              min="0.800"
-              max="1.000"
-              step="0.001"
-              className="w-40"
-              value={minCert}
-              onChange={(e) =>
-                setMinCert(Math.round(parseFloat(e.target.value) * 1000) / 1000)
-              }
-            />
-            <input
-              type="number"
-              min="0.800"
-              max="1.000"
-              step="0.001"
-              className="text-xs opacity-75 font-mono p-1 rounded-lg border border-gray-300"
-              value={minCert}
-              onChange={(e) => setMinCert(parseFloat(e.target.value))}
-            />
-          </div>
+            onChange={(value) => setMinCert(Math.round(value * 1000) / 1000)}
+          />
         </div>
 
         {teiContents && showTeiSource && (

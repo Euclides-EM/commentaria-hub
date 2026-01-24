@@ -1,7 +1,7 @@
-import { ImagePane } from './ImagePane'
+import { ImagePane } from './ImagePane.tsx'
 import { TeiPane } from './TeiPane.tsx'
 import { AnnotationNavigation } from './AnnotationNavigation.tsx'
-import { useAppState } from '../../context/useAppState.ts'
+import { useAppState } from '../../../context/useAppState.ts'
 
 export function AnnotationContentsTab() {
   const { annotation } = useAppState()

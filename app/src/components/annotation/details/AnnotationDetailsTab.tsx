@@ -1,5 +1,5 @@
 import { AnnotationDetailsPane } from './AnnotationDetailsPane.tsx'
-import { SuggestedRulesPane } from '../rules/SuggestedRulesPane.tsx'
+import { SuggestedRulesPane } from '../../rules/SuggestedRulesPane.tsx'
 
 export function AnnotationDetailsTab() {
   return (

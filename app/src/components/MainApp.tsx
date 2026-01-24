@@ -1,7 +1,10 @@
-import { AnnotationDetailsTab } from './annotation/AnnotationDetailsTab.tsx'
-import { AnnotationContentsTab } from './annotation/AnnotationContentsTab.tsx'
+import { AnnotationDetailsTab } from './annotation/details/AnnotationDetailsTab.tsx'
+import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsTab.tsx'
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
+import { ImportAnnotationsModal } from './annotation/ImportAnnotationsModal.tsx'
+import { Button } from './core/Button.tsx'
+import { useState } from 'react'
 
 type Tab = 'details' | 'text'
 
@@ -30,16 +33,69 @@ const TabButton = ({
 }
 
 export function MainApp() {
+  const [isImportUrlOpen, setIsImportUrlOpen] = useState(false)
+  const [isImportZipOpen, setIsImportZipOpen] = useState(false)
   const [activeTab, setActiveTab] = useLocalStorageState<Tab>(
     'annotation-tab',
     { defaultValue: 'details' },
   )
-  const { state } = useAppState()
+  const { state, setState, refetch } = useAppState()
 
-  if (!state.datasetId || !state.annotationId) {
+  if (!state.datasetId) {
     return (
       <div className="w-full m-10 font-medium text-center">
-        Please select dataset and annotation
+        Please select a dataset to get started.
+        <img
+          src="/diagram.png"
+          alt="Diagram"
+          className="mx-auto h-64 w-auto mt-8"
+        />
+      </div>
+    )
+  }
+  if (!state.annotationId) {
+    return (
+      <div className="w-full m-10 font-medium text-center">
+        <p>
+          Please select an annotation or get started with importing new
+          annotations.
+        </p>
+        <div className="mt-4 flex flex-wrap gap-3 justify-center">
+          <Button
+            onClick={() => setIsImportUrlOpen(true)}
+            variant="primary"
+            className="px-3 py-2 text-sm"
+          >
+            Import from URL
+          </Button>
+          <Button
+            onClick={() => setIsImportZipOpen(true)}
+            variant="primary"
+            className="px-3 py-2 text-sm"
+          >
+            Import from ZIP
+          </Button>
+        </div>
+        <ImportAnnotationsModal
+          isOpen={isImportUrlOpen}
+          mode="url"
+          dataSetId={state.datasetId}
+          onClose={() => setIsImportUrlOpen(false)}
+          onImported={(annotationId) => {
+            setState({ annotationId })
+            refetch()
+          }}
+        />
+        <ImportAnnotationsModal
+          isOpen={isImportZipOpen}
+          mode="zip"
+          dataSetId={state.datasetId}
+          onClose={() => setIsImportZipOpen(false)}
+          onImported={(annotationId) => {
+            setState({ annotationId })
+            refetch()
+          }}
+        />
       </div>
     )
   }
