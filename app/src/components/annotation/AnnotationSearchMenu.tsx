@@ -3,11 +3,11 @@ import useLocalStorageState from 'use-local-storage-state'
 import {
   useAnnotationCategories,
   useAnnotationSearch,
-} from '../queries/annotations'
-import { useAppState } from '../context/useAppState'
-import { MultiSelectDropdown } from './MultiSelectDropdown'
-import type { model_AnnotationPart } from '../api'
-import { SearchInput } from './SearchInput'
+} from '../../queries/annotations'
+import { useAppState } from '../../context/useAppState'
+import { MultiSelectDropdown } from '../core/MultiSelectDropdown'
+import type { model_AnnotationPart } from '../../api'
+import { SearchInput } from '../core/SearchInput'
 
 const buildSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)

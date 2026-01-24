@@ -1,6 +1,6 @@
 import { useAuthStore } from '../store/authStore'
-import { BreadcrumbNav } from './BreadcrumbNav'
-import { Button } from './Button'
+import { BreadcrumbNav } from './annotation/BreadcrumbNav'
+import { Button } from './core/Button'
 
 interface HeaderProps {
   onShowLogin: () => void

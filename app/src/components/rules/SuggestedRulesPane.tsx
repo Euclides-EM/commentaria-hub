@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useAppState } from '../context/useAppState'
+import { useAppState } from '../../context/useAppState'
 import type {
   annotationrule_AddMargin,
   annotationrule_LinesDetect,
@@ -13,14 +13,14 @@ import type {
   annotationrule_TextBlockCorrections,
   annotationrule_Type,
   model_Annotation,
-} from '../api'
-import { AnnotationsApplyRulesService } from '../api'
+} from '../../api'
+import { AnnotationsApplyRulesService } from '../../api'
 import { RuleEditModal } from './RuleEditModal.tsx'
-import { useDatasetSuggestedRules } from '../queries/datasets.ts'
-import { type AnnotationRule, isRuleApplied } from '../utils/rules.ts'
+import { useDatasetSuggestedRules } from '../../queries/datasets.ts'
+import { type AnnotationRule, isRuleApplied } from '../../utils/rules.ts'
 import { RuleDisplay } from './RuleDisplay.tsx'
-import { useAnnotationRules } from '../queries/metadata.ts'
-import { useAuthStore } from '../store/authStore.ts'
+import { useAnnotationRules } from '../../queries/metadata.ts'
+import { useAuthStore } from '../../store/authStore.ts'
 
 type BaseRunRuleParams = {
   dataSetId: string

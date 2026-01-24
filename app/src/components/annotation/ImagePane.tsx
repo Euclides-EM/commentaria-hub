@@ -1,5 +1,5 @@
-import { useAppState } from '../context/useAppState'
-import { OpenAPI } from '../api'
+import { useAppState } from '../../context/useAppState'
+import { OpenAPI } from '../../api'
 import ImageZoom from 'react-image-zooom'
 
 export function ImagePane() {

@@ -1,5 +1,5 @@
-import { LoadingSpinner } from './LoadingSpinner.tsx'
-import { Button } from './Button'
+import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
+import { Button } from '../core/Button'
 
 interface DeleteAnnotationModalProps {
   isOpen: boolean

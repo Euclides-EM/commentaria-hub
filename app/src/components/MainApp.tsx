@@ -1,5 +1,5 @@
-import { AnnotationDetailsTab } from './AnnotationDetailsTab.tsx'
-import { AnnotationTextTab } from './AnnotationTextTab.tsx'
+import { AnnotationDetailsTab } from './annotation/AnnotationDetailsTab.tsx'
+import { AnnotationTextTab } from './annotation/AnnotationTextTab.tsx'
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
 

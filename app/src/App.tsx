@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { AppStateProvider } from './context/AppStateProvider'
 import { Header } from './components/Header'
-import { LoginModal } from './components/LoginModal'
+import { LoginModal } from './components/modal/LoginModal'
 import { MainApp } from './components/MainApp'
 
 function App() {

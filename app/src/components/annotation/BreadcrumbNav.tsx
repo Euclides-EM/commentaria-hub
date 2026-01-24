@@ -1,14 +1,14 @@
 import { useMemo } from 'react'
 import Select from 'react-select'
-import { useDatasetsQuery } from '../queries/datasets'
-import { useAnnotationsQuery } from '../queries/annotations'
-import { selectStyles } from '../styles/selectStyles'
-import { useAppState } from '../context/useAppState'
-import { usePipelineStages } from '../queries/metadata.ts'
+import { useDatasetsQuery } from '../../queries/datasets'
+import { useAnnotationsQuery } from '../../queries/annotations'
+import { selectStyles } from '../../styles/selectStyles'
+import { useAppState } from '../../context/useAppState'
+import { usePipelineStages } from '../../queries/metadata.ts'
 import useLocalStorageState from 'use-local-storage-state'
-import type { annotationrule_PipelineStage } from '../api'
-import { MultiSelectDropdown } from './MultiSelectDropdown.tsx'
-import { getStageDisplayName } from '../utils/rules.ts'
+import type { annotationrule_PipelineStage } from '../../api'
+import { MultiSelectDropdown } from '../core/MultiSelectDropdown.tsx'
+import { getStageDisplayName } from '../../utils/rules.ts'
 
 const Separator = () => <span className="bg-gray-600 w-[1px] h-fill mx-2" />
 

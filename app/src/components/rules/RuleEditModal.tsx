@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
-import { type AnnotationRule } from '../utils/rules.ts'
+import { type AnnotationRule } from '../../utils/rules.ts'
 import {
   type annotationrule_MetadataDetails,
   type annotationrule_Type,
   ApiError,
-} from '../api'
+} from '../../api'
 import Select from 'react-select'
-import { Button } from './Button'
-import { selectStyles } from '../styles/selectStyles.ts'
+import { Button } from '../core/Button'
+import { selectStyles } from '../../styles/selectStyles.ts'
 
 interface RuleEditModalProps {
   isOpen: boolean
@@ -31,6 +31,8 @@ export function RuleEditModal({
   const [action, setAction] = useState<'overwrite' | 'create_new'>('overwrite')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [newAnnotationName, setNewAnnotationName] = useState('')
+  const [newAnnotationDescription, setNewAnnotationDescription] = useState('')
   const [selectedRuleType, setSelectedRuleType] = useState<
     annotationrule_Type | undefined
   >(initialPayload?.type || ruleMetadata?.[0]?.type)
@@ -38,6 +40,8 @@ export function RuleEditModal({
   useEffect(() => {
     if (isOpen) {
       setError(null)
+      setNewAnnotationName('')
+      setNewAnnotationDescription('')
       if (initialPayload) {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { type, applicable_stages, ...editablePayload } = initialPayload
@@ -89,6 +93,12 @@ export function RuleEditModal({
       const fullPayload = {
         ...parsedPayload,
         type: selectedRuleType,
+        ...(action === 'create_new' && newAnnotationName
+          ? { name: newAnnotationName }
+          : {}),
+        ...(action === 'create_new' && newAnnotationDescription
+          ? { description: newAnnotationDescription }
+          : {}),
       } as AnnotationRule
       await onSubmit(fullPayload, action)
       onClose()
@@ -212,6 +222,37 @@ export function RuleEditModal({
                 </label>
               </div>
             </div>
+
+            {action === 'create_new' && (
+              <div className="space-y-3">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    New annotation name (optional)
+                  </label>
+                  <input
+                    type="text"
+                    value={newAnnotationName}
+                    onChange={(e) => setNewAnnotationName(e.target.value)}
+                    className="w-full p-2 border border-gray-300 rounded-md text-sm focus:ring-blue-500 focus:border-blue-500"
+                    disabled={loading}
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    New annotation description (optional)
+                  </label>
+                  <textarea
+                    value={newAnnotationDescription}
+                    onChange={(e) =>
+                      setNewAnnotationDescription(e.target.value)
+                    }
+                    className="w-full p-2 border border-gray-300 rounded-md text-sm focus:ring-blue-500 focus:border-blue-500"
+                    rows={3}
+                    disabled={loading}
+                  />
+                </div>
+              </div>
+            )}
           </div>
         </div>
 

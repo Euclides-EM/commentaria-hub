@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { useAuthStore } from '../store/authStore'
-import { OpenAPI } from '../api'
-import { Button } from './Button'
+import { useAuthStore } from '../../store/authStore'
+import { OpenAPI } from '../../api'
+import { Button } from '../core/Button'
 
 interface LoginModalProps {
   onClose: () => void
@@ -35,7 +35,7 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
 
     try {
       const { AuthenticationService } =
-        await import('../api/services/AuthenticationService')
+        await import('../../api/services/AuthenticationService')
       const userInfo = await withTempToken(
         token,
         async () => await AuthenticationService.postAuthValidate(),

@@ -1,7 +1,7 @@
 import { Tei } from './Tei.tsx'
-import { useAppState } from '../context/useAppState'
+import { useAppState } from '../../context/useAppState'
 import { useEffect, useState } from 'react'
-import { useAnnotationTeiQuery } from '../queries/annotations.ts'
+import { useAnnotationTeiQuery } from '../../queries/annotations.ts'
 import useLocalStorageState from 'use-local-storage-state'
 
 export function TeiPane() {
