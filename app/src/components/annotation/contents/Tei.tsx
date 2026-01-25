@@ -163,6 +163,7 @@ const teiToHtml = (
 
 export const Tei = ({ minCert, data }: Props) => {
   const { searchResultHighlight } = useAppState()
+  console.error(searchResultHighlight)
   const html = useMemo(
     () => teiToHtml(data, minCert, searchResultHighlight),
     [data, minCert, searchResultHighlight],

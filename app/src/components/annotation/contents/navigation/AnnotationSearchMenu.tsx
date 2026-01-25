@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
-import { useAnnotationCategories, useAnnotationSearch, } from '../../../../queries/annotations.ts'
+import {
+  useAnnotationCategories,
+  useAnnotationSearch,
+} from '../../../../queries/annotations.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import type { model_AnnotationPart } from '../../../../api'
@@ -164,9 +167,7 @@ export function AnnotationSearchMenu() {
                   if (result.location?.page) {
                     jumpToPage(result.location.page)
                   }
-                  setSearchResultHighlight(
-                    result.location?.text_block_id ?? null,
-                  )
+                  setSearchResultHighlight(result.content || null)
                 }}
               >
                 <div className="flex items-center justify-between text-[11px] text-gray-500 mb-1">
