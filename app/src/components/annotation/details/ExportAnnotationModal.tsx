@@ -11,6 +11,7 @@ import { useAppState } from '../../../context/useAppState.ts'
 import Select from 'react-select'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { ErrorMessage } from '../../core/ErrorMessage'
+import useLocalStorageState from 'use-local-storage-state'
 
 type ExportMode = 'zip' | 'roboflow' | 'escriptorium'
 
@@ -23,34 +24,11 @@ type RoboflowSettings = Required<model_AnnotationUploadRoboflow>
 
 type EscriptoriumSettings = Required<model_AnnotationUploadEscriptorium>
 
-const ROBOFLOW_STORAGE_KEY = 'commentaria.export.roboflow'
-const ESCRIPTORIUM_STORAGE_KEY = 'commentaria.export.escriptorium'
-
 const exportOptions = [
   { value: 'zip', label: 'ZIP file download' },
   { value: 'roboflow', label: 'Upload to Roboflow' },
   { value: 'escriptorium', label: 'Upload to Escriptorium' },
 ] as const
-
-const loadStoredSettings = <T,>(key: string, fallback: T): T => {
-  try {
-    const raw = localStorage.getItem(key)
-    if (!raw) {
-      return fallback
-    }
-    return { ...fallback, ...(JSON.parse(raw) as Partial<T>) }
-  } catch {
-    return fallback
-  }
-}
-
-const saveStoredSettings = <T,>(key: string, value: T) => {
-  try {
-    localStorage.setItem(key, JSON.stringify(value))
-  } catch {
-    // Ignore storage failures (private mode, quota exceeded, etc).
-  }
-}
 
 export function ExportAnnotationModal({
   isOpen,
@@ -61,18 +39,26 @@ export function ExportAnnotationModal({
     state: { datasetId },
   } = useAppState()
   const [mode, setMode] = useState<ExportMode>('zip')
-  const [roboflow, setRoboflow] = useState<RoboflowSettings>({
-    api_key: '',
-    workspace_url: '',
-    project_id: '',
-    is_not_ground_truth: false,
-  })
-  const [escriptorium, setEscriptorium] = useState<EscriptoriumSettings>({
-    base_path: '',
-    document: '',
-    username: '',
-    password: '',
-  })
+  const [roboflow, setRoboflow] = useLocalStorageState<RoboflowSettings>(
+    'export-roboflow',
+    {
+      defaultValue: {
+        api_key: '',
+        workspace_url: '',
+        project_id: '',
+        is_not_ground_truth: false,
+      },
+    },
+  )
+  const [escriptorium, setEscriptorium] =
+    useLocalStorageState<EscriptoriumSettings>('export-escriptorium', {
+      defaultValue: {
+        base_path: '',
+        document: '',
+        username: '',
+        password: '',
+      },
+    })
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
 
@@ -80,23 +66,6 @@ export function ExportAnnotationModal({
     if (isOpen) {
       setError(null)
       setLoading(false)
-      setMode('zip')
-      setRoboflow(
-        loadStoredSettings<RoboflowSettings>(ROBOFLOW_STORAGE_KEY, {
-          api_key: '',
-          workspace_url: '',
-          project_id: '',
-          is_not_ground_truth: false,
-        }),
-      )
-      setEscriptorium(
-        loadStoredSettings<EscriptoriumSettings>(ESCRIPTORIUM_STORAGE_KEY, {
-          base_path: '',
-          document: '',
-          username: '',
-          password: '',
-        }),
-      )
     }
   }, [isOpen])
 
@@ -137,26 +106,14 @@ export function ExportAnnotationModal({
         await AnnotationsService.putDatasetsAnnotationsUploadRoboflow({
           dataSetId: datasetId,
           id: annotation.id!,
-          annotationRoboflowUpload: {
-            api_key: roboflow.api_key,
-            workspace_url: roboflow.workspace_url,
-            project_id: roboflow.project_id,
-            is_not_ground_truth: roboflow.is_not_ground_truth,
-          },
+          annotationRoboflowUpload: roboflow,
         })
-        saveStoredSettings(ROBOFLOW_STORAGE_KEY, roboflow)
       } else {
         await AnnotationsService.putDatasetsAnnotationsUploadEscriptorium({
           dataSetId: datasetId,
           id: annotation.id!,
-          annotationEscriptoriumUpload: {
-            base_path: escriptorium.base_path,
-            document: escriptorium.document,
-            username: escriptorium.username,
-            password: escriptorium.password,
-          },
+          annotationEscriptoriumUpload: escriptorium,
         })
-        saveStoredSettings(ESCRIPTORIUM_STORAGE_KEY, escriptorium)
       }
 
       onClose()

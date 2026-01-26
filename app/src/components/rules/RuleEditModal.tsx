@@ -44,8 +44,6 @@ export function RuleEditModal({
   useEffect(() => {
     if (isOpen) {
       setError(null)
-      setNewAnnotationName('')
-      setNewAnnotationDescription('')
       if (initialPayload) {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { type, applicable_stages, ...editablePayload } = initialPayload
