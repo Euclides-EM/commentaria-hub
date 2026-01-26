@@ -33,7 +33,7 @@ const (
 )
 
 type ApplyRules struct {
-	Rules  []AnnotationRule `json:"rules"`
+	Rules  AnnotationRules  `json:"rules"`
 	Action ApplyRulesAction `json:"action"`
 	// Name is used only if the action is ApplyRulesActionCreateNew
 	Name string `json:"name"`
@@ -56,26 +56,6 @@ type Base struct {
 type annotationApplyRulesRaw struct {
 	Action ApplyRulesAction  `json:"action"`
 	Rules  []json.RawMessage `json:"rules"`
-}
-
-func (a *ApplyRules) UnmarshalJSON(data []byte) error {
-	var raw annotationApplyRulesRaw
-	if err := json.Unmarshal(data, &raw); err != nil {
-		return err
-	}
-
-	a.Action = raw.Action
-	a.Rules = make([]AnnotationRule, 0, len(raw.Rules))
-
-	for _, r := range raw.Rules {
-		rule, err := UnmarshalRuleJSON(r)
-		if err != nil {
-			return err
-		}
-		a.Rules = append(a.Rules, rule)
-	}
-
-	return nil
 }
 
 func UnmarshalRuleJSON(data []byte) (AnnotationRule, error) {
