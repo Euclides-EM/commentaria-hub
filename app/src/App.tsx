@@ -16,7 +16,7 @@ export function App() {
           <Main />
         </div>
         <div className="px-3 py-2 text-xs text-gray-500 text-center">
-          © {new Date().getFullYear()} Euclides Project. Avec Privilege du Roy.
+          © {new Date().getFullYear()} Euclides Project. Avec privilège du Roi.
         </div>
       </div>
 
