@@ -308,6 +308,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *model.An
 	fromDB.Meta.Name = ann.Meta.Name
 	fromDB.Meta.Description = ann.Meta.Description
 	fromDB.GroundTruth = ann.GroundTruth
+	fromDB.OriginAnnotationID = ann.OriginAnnotationID
 
 	if err := a.annotationStore.UpdateAnnotation(fromDB); err != nil {
 		return nil, fmt.Errorf("failed to update annotation in store: %w", err)

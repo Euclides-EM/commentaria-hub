@@ -202,7 +202,7 @@ func (a *AnnotationRuleApplier) applyTextBlockCorrection(ann *model.Annotation, 
 		}
 		if err := a.fileSysMgt.ApplyToAltoPage(ann, page, func(af *alto.Alto) error {
 			for _, c := range corrections {
-				if err := alto.ApplyTextBlockCorrectionALTO(af, c.TextBlockID, c.Correction); err != nil {
+				if err := alto.ApplyTextBlockCorrectionALTO(af, c.TextBlockID, c.Old, c.Correction); err != nil {
 					return fmt.Errorf("failed to apply text block correction %+v: %w", c, err)
 				}
 			}
