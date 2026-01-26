@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useAppState } from '../../../context/useAppState.ts'
 import {
   AnnotationsService,
   ApiError,
   type model_Annotation,
 } from '../../../api'
+import Select from 'react-select'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
 import { RuleDisplay } from '../../rules/RuleDisplay.tsx'
@@ -17,6 +18,7 @@ import { Button } from '../../core/Button.tsx'
 import { getStageDisplayName } from '../../../utils/stages.ts'
 import { ExportAnnotationModal } from './ExportAnnotationModal.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage'
+import { selectStyles } from '../../../styles/selectStyles'
 
 TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')
@@ -39,8 +41,12 @@ interface AnnotationDetailsContentProps {
   isEditing: boolean
   editedName: string
   editedDescription: string
+  editedOriginAnnotationId: string | null
+  editedGroundTruth: boolean
   onNameChange: (name: string) => void
   onDescriptionChange: (description: string) => void
+  onOriginAnnotationChange: (originAnnotationId: string | null) => void
+  onGroundTruthChange: (groundTruth: boolean) => void
   onSave: () => void
   onCancel: () => void
   error?: string | null
@@ -51,8 +57,12 @@ const AnnotationDetailsContent = ({
   isEditing,
   editedName,
   editedDescription,
+  editedOriginAnnotationId,
+  editedGroundTruth,
   onNameChange,
   onDescriptionChange,
+  onOriginAnnotationChange,
+  onGroundTruthChange,
   onSave,
   onCancel,
   error,
@@ -61,6 +71,17 @@ const AnnotationDetailsContent = ({
   const { data: annotations } = useAnnotationsQuery(annotation.dataset_id!)
   const { data: datasets } = useDatasetsQuery()
   const appliedRules = (annotation.applied_rules || []) as AnnotationRule[]
+
+  const originAnnotationOptions = useMemo(() => {
+    return (
+      annotations
+        ?.filter((a) => a.id && a.id !== annotation.id)
+        .map((a) => ({
+          value: a.id as string,
+          label: a.name || (a.id as string),
+        })) || []
+    )
+  }, [annotation.id, annotations])
 
   const originAnnotation = annotations?.find(
     (a) => a.id === annotation.origin_annotation_id,
@@ -78,7 +99,7 @@ const AnnotationDetailsContent = ({
             type="text"
             value={editedName}
             onChange={(e) => onNameChange(e.target.value)}
-            className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full"
+            className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
           />
         ) : (
           <div className="text-sm leading-tight break-all">
@@ -92,7 +113,7 @@ const AnnotationDetailsContent = ({
           <textarea
             value={editedDescription}
             onChange={(e) => onDescriptionChange(e.target.value)}
-            className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full"
+            className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
             rows={3}
           />
         ) : (
@@ -120,9 +141,21 @@ const AnnotationDetailsContent = ({
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Ground truth
         </div>
-        <div className="text-sm leading-tight break-all">
-          {String(!!annotation.ground_truth)}
-        </div>
+        {isEditing ? (
+          <label className="flex items-center gap-2 text-sm leading-tight">
+            <input
+              type="checkbox"
+              checked={editedGroundTruth}
+              onChange={(e) => onGroundTruthChange(e.target.checked)}
+              className="h-4 w-4"
+            />
+            {String(editedGroundTruth)}
+          </label>
+        ) : (
+          <div className="text-sm leading-tight break-all">
+            {String(!!annotation.ground_truth)}
+          </div>
+        )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">OCRed</div>
         <div className="text-sm leading-tight break-all">
           {String(!!annotation.ocred)}
@@ -130,18 +163,41 @@ const AnnotationDetailsContent = ({
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Origin annotation
         </div>
-        <div className="text-sm leading-tight break-all">
-          {originAnnotation && (
-            <button
-              className="underline text-gray-800 hover:text-gray-500"
-              onClick={() => {
-                setState({ annotationId: originAnnotation.id })
-              }}
-            >
-              {originAnnotation.name}
-            </button>
-          )}
-        </div>
+        {isEditing ? (
+          <div className="text-sm leading-tight break-all">
+            <Select
+              value={
+                originAnnotationOptions.find(
+                  (option) => option.value === editedOriginAnnotationId,
+                ) || null
+              }
+              onChange={(option: { value: string; label: string } | null) =>
+                onOriginAnnotationChange(option?.value || null)
+              }
+              options={originAnnotationOptions}
+              placeholder="Select origin annotation..."
+              styles={selectStyles<{ value: string; label: string }>({
+                controlWidth: 260,
+              })}
+              menuPortalTarget={document.body}
+              menuPosition="fixed"
+              isClearable
+            />
+          </div>
+        ) : (
+          <div className="text-sm leading-tight break-all">
+            {originAnnotation && (
+              <button
+                className="underline text-gray-800 hover:text-gray-500"
+                onClick={() => {
+                  setState({ annotationId: originAnnotation.id })
+                }}
+              >
+                {originAnnotation.name}
+              </button>
+            )}
+          </div>
+        )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">Created</div>
         <div className="text-sm leading-tight break-all ">
           <Timestamp date={annotation.created_at} />
@@ -194,6 +250,10 @@ export function AnnotationDetailsPane() {
   const [isEditing, setIsEditing] = useState(false)
   const [editedName, setEditedName] = useState('')
   const [editedDescription, setEditedDescription] = useState('')
+  const [editedOriginAnnotationId, setEditedOriginAnnotationId] = useState<
+    string | null
+  >(null)
+  const [editedGroundTruth, setEditedGroundTruth] = useState(false)
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const [error, setError] = useState<string | null>(null)
   const [isDeleteOpen, setIsDeleteOpen] = useState(false)
@@ -209,6 +269,8 @@ export function AnnotationDetailsPane() {
     if (annotation) {
       setEditedName(annotation.name || '')
       setEditedDescription(annotation.description || '')
+      setEditedOriginAnnotationId(annotation.origin_annotation_id || null)
+      setEditedGroundTruth(!!annotation.ground_truth)
       setIsEditing(true)
     }
   }
@@ -226,6 +288,8 @@ export function AnnotationDetailsPane() {
           ...annotation,
           name: editedName,
           description: editedDescription,
+          origin_annotation_id: editedOriginAnnotationId || undefined,
+          ground_truth: editedGroundTruth,
         },
       })
       refetch()
@@ -241,6 +305,8 @@ export function AnnotationDetailsPane() {
     if (annotation) {
       setEditedName(annotation.name || '')
       setEditedDescription(annotation.description || '')
+      setEditedOriginAnnotationId(annotation.origin_annotation_id || null)
+      setEditedGroundTruth(!!annotation.ground_truth)
     }
   }
 
@@ -309,8 +375,12 @@ export function AnnotationDetailsPane() {
             isEditing={isEditing}
             editedName={editedName}
             editedDescription={editedDescription}
+            editedOriginAnnotationId={editedOriginAnnotationId}
+            editedGroundTruth={editedGroundTruth}
             onNameChange={setEditedName}
             onDescriptionChange={setEditedDescription}
+            onOriginAnnotationChange={setEditedOriginAnnotationId}
+            onGroundTruthChange={setEditedGroundTruth}
             onSave={handleSave}
             onCancel={handleCancel}
             error={error}

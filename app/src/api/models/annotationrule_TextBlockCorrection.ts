@@ -4,6 +4,7 @@
 /* eslint-disable */
 export type annotationrule_TextBlockCorrection = {
     correction?: Array<string>;
+    readonly old?: Array<string>;
     page?: number;
     text_block_id?: string;
 };

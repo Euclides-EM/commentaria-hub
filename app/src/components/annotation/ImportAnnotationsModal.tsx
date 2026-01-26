@@ -1,10 +1,11 @@
-import { type FormEvent, useEffect, useState } from 'react'
+import { type FormEvent, useEffect, useMemo, useState } from 'react'
 import { AnnotationsService, ApiError } from '../../api'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'
 import Select from 'react-select'
 import { selectStyles } from '../../styles/selectStyles.ts'
 import { ErrorMessage } from '../core/ErrorMessage'
+import { useAnnotationsQuery } from '../../queries/annotations'
 
 type ImportMode = 'url' | 'zip'
 
@@ -38,8 +39,23 @@ export function ImportAnnotationsModal({
   const [segmented, setSegmented] = useState(false)
   const [ocred, setOcred] = useState(false)
   const [groundTruth, setGroundTruth] = useState(false)
+  const [originAnnotationId, setOriginAnnotationId] = useState<string | null>(
+    null,
+  )
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const { data: annotations, isLoading: annotationsLoading } =
+    useAnnotationsQuery(dataSetId)
+
+  const originAnnotationOptions = useMemo(() => {
+    if (!annotations) return []
+    return annotations
+      .filter((annotation) => !!annotation.id)
+      .map((annotation) => ({
+        value: annotation.id as string,
+        label: annotation.name || (annotation.id as string),
+      }))
+  }, [annotations])
 
   useEffect(() => {
     if (isOpen) {
@@ -51,6 +67,7 @@ export function ImportAnnotationsModal({
       setSegmented(false)
       setOcred(false)
       setGroundTruth(false)
+      setOriginAnnotationId(null)
       setError(null)
       setLoading(false)
     }
@@ -81,7 +98,7 @@ export function ImportAnnotationsModal({
             segmented: toApiBoolean(segmented),
             ocred: toApiBoolean(ocred),
             groundTruth: toApiBoolean(groundTruth),
-            originAnnotationId: undefined,
+            originAnnotationId: originAnnotationId || undefined,
           })
         onImported(annotation.id!)
       } else {
@@ -100,7 +117,7 @@ export function ImportAnnotationsModal({
             segmented: toApiBoolean(segmented),
             ocred: toApiBoolean(ocred),
             groundTruth: toApiBoolean(groundTruth),
-            originAnnotationId: undefined,
+            originAnnotationId: originAnnotationId || undefined,
           })
         onImported(annotation.id!)
       }
@@ -217,6 +234,32 @@ export function ImportAnnotationsModal({
               onChange={(e) => setName(e.target.value)}
               className="w-full p-2 border border-gray-300 rounded-md"
               disabled={loading}
+            />
+          </div>
+
+          <div className="space-y-2">
+            <label className="block text-sm font-medium text-gray-700">
+              Origin annotation (optional)
+            </label>
+            <Select
+              value={
+                originAnnotationOptions.find(
+                  (option) => option.value === originAnnotationId,
+                ) || null
+              }
+              onChange={(option: { value: string; label: string } | null) =>
+                setOriginAnnotationId(option?.value || null)
+              }
+              options={originAnnotationOptions}
+              placeholder="Select origin annotation..."
+              isLoading={annotationsLoading}
+              isDisabled={loading}
+              styles={selectStyles<{ value: string; label: string }>({
+                controlWidth: 260,
+              })}
+              menuPortalTarget={document.body}
+              menuPosition="fixed"
+              isClearable
             />
           </div>
 
