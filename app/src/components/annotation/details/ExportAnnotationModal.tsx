@@ -202,6 +202,8 @@ export function ExportAnnotationModal({
               styles={selectStyles<{ value: ExportMode; label: string }>({
                 controlWidth: 256,
               })}
+              menuPortalTarget={document.body}
+              menuPosition="fixed"
             />
           </div>
 

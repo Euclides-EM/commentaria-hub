@@ -156,6 +156,8 @@ export function RuleEditModal({
                   value: annotationrule_Type | undefined
                   label: string
                 }>({ controlWidth: 256 })}
+                menuPortalTarget={document.body}
+                menuPosition="fixed"
               />
             </div>
           )}

@@ -147,6 +147,8 @@ export function PageNavigation() {
               }))}
               placeholder="Select page..."
               styles={selectStyles<{ value: number; label: string }>()}
+              menuPortalTarget={document.body}
+              menuPosition="fixed"
               isClearable
             />
           </div>

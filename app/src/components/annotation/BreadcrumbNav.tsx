@@ -92,6 +92,8 @@ export function BreadcrumbNav() {
           placeholder="Select dataset..."
           isLoading={datasetsLoading}
           styles={selectStyles<{ value: string; label: string }>()}
+          menuPortalTarget={document.body}
+          menuPosition="fixed"
           isClearable
         />
       </div>
@@ -115,6 +117,8 @@ export function BreadcrumbNav() {
               placeholder="Select annotation..."
               isLoading={annotationsLoading}
               styles={selectStyles<{ value: string; label: string }>()}
+              menuPortalTarget={document.body}
+              menuPosition="fixed"
               isClearable
               isDisabled={!state.datasetId}
             />

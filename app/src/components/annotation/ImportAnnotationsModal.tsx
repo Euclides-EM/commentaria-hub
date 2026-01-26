@@ -149,6 +149,8 @@ export function ImportAnnotationsModal({
               styles={selectStyles<{ value: string; label: string }>({
                 controlWidth: 160,
               })}
+              menuPortalTarget={document.body}
+              menuPosition="fixed"
             />
           </div>
 
