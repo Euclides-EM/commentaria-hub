@@ -349,14 +349,12 @@ export function AnnotationDetailsPane() {
             <Button onClick={handleEditClick} className="px-2 py-1 text-xs">
               Edit
             </Button>
-            {annotation.ocred && (
               <Button
                 onClick={() => setIsExportOpen(true)}
                 className="px-2 py-1 text-xs"
               >
                 Export
               </Button>
-            )}
             <Button
               onClick={handleDeleteClick}
               variant="danger"
