@@ -44,7 +44,7 @@ export function ExportAnnotationModal({
     {
       defaultValue: {
         api_key: '',
-        workspace_url: '',
+        workspace_url: 'mia-workplace',
         project_id: '',
         is_not_ground_truth: false,
       },
@@ -181,7 +181,6 @@ export function ExportAnnotationModal({
                   }
                   className="w-full p-2 border border-gray-300 rounded-md"
                   disabled={loading}
-                  required
                 />
               </div>
               <div className="space-y-2">
@@ -189,7 +188,7 @@ export function ExportAnnotationModal({
                   Workspace URL
                 </label>
                 <input
-                  type="url"
+                  type="text"
                   value={roboflow.workspace_url}
                   onChange={(e) =>
                     setRoboflow((prev) => ({
@@ -198,7 +197,7 @@ export function ExportAnnotationModal({
                     }))
                   }
                   className="w-full p-2 border border-gray-300 rounded-md"
-                  placeholder="https://app.roboflow.com/your-workspace"
+                  placeholder="your-workspace"
                   disabled={loading}
                   required
                 />
