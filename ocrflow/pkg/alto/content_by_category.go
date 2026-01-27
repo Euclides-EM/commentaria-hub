@@ -5,14 +5,18 @@ import (
 )
 
 type CategoryAndContent struct {
-	Category string
-	Content  string
+	Category           string
+	Content            string
+	VerticalPosition   float64
+	HorizontalPosition float64
 }
 
-func NewCategoryAndContent(category, content string) *CategoryAndContent {
+func NewCategoryAndContent(category, content string, vPos, hPos float64) *CategoryAndContent {
 	return &CategoryAndContent{
-		Category: category,
-		Content:  content,
+		Category:           category,
+		Content:            content,
+		VerticalPosition:   vPos,
+		HorizontalPosition: hPos,
 	}
 }
 
@@ -31,7 +35,7 @@ func ExtractCategoryContents(a *Alto, categories []string, lineBreakSeperator st
 				}
 				h := buildContentFromBlock(block, lineBreakSeperator)
 				if h != "" {
-					contents = append(contents, NewCategoryAndContent(cat, h))
+					contents = append(contents, NewCategoryAndContent(cat, h, block.VPOS, block.HPOS))
 				}
 			}
 		}

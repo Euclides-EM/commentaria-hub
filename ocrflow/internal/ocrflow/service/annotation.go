@@ -258,6 +258,21 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 			return nil, fmt.Errorf("failed to extract headers from ALTO page %d: %w", page, err)
 		}
 
+		slices.SortFunc(headers, func(a, b *alto.CategoryAndContent) int {
+			if a.VerticalPosition < b.VerticalPosition {
+				return -1
+			}
+			if a.VerticalPosition > b.VerticalPosition {
+				return 1
+			}
+			if a.HorizontalPosition < b.HorizontalPosition {
+				return -1
+			}
+			if a.HorizontalPosition > b.HorizontalPosition {
+				return 1
+			}
+			return 0
+		})
 		for _, h := range headers {
 			allLocs = append(allLocs, categoryPageContent{
 				page:     page,
