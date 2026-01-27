@@ -39,6 +39,7 @@ export function RangeInput({
       />
       <input
         type="number"
+        autoComplete="on"
         min={min}
         max={max}
         step={step}

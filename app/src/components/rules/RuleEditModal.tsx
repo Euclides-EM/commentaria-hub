@@ -235,6 +235,7 @@ export function RuleEditModal({
                   </label>
                   <input
                     type="text"
+                    autoComplete="on"
                     value={newAnnotationName}
                     onChange={(e) => setNewAnnotationName(e.target.value)}
                     className="w-full p-2 border border-gray-300 rounded-md text-sm focus:ring-blue-500 focus:border-blue-500"

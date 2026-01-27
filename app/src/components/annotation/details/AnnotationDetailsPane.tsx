@@ -6,8 +6,7 @@ import {
   type model_Annotation,
 } from '../../../api'
 import Select from 'react-select'
-import TimeAgo from 'javascript-time-ago'
-import en from 'javascript-time-ago/locale/en'
+import { Timestamp } from '../../core/Timestamp'
 import { RuleDisplay } from '../../rules/RuleDisplay.tsx'
 import { type AnnotationRule } from '../../../utils/rules.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
@@ -20,22 +19,6 @@ import { ExportAnnotationModal } from './ExportAnnotationModal.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage'
 import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
-
-TimeAgo.addDefaultLocale(en)
-const timeAgo = new TimeAgo('en-US')
-
-const Timestamp = ({ date }: { date: string | undefined }) => {
-  if (!date) {
-    return 'N/A'
-  }
-  const d = new Date(date)
-  return (
-    <div className="flex gap-2 items-center">
-      <span>{timeAgo.format(d)}</span>
-      <span className="text-xs text-gray-500">{d.toLocaleString()}</span>
-    </div>
-  )
-}
 
 interface AnnotationDetailsContentProps {
   annotation: model_Annotation
@@ -98,6 +81,7 @@ const AnnotationDetailsContent = ({
         {isEditing ? (
           <input
             type="text"
+            autoComplete="on"
             value={editedName}
             onChange={(e) => onNameChange(e.target.value)}
             className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"

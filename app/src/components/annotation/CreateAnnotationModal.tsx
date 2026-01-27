@@ -158,6 +158,7 @@ export function CreateAnnotationModal({
             </label>
             <input
               type="text"
+              autoComplete="on"
               value={name}
               required
               onChange={(e) => {

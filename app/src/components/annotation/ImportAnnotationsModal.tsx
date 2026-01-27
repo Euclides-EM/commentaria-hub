@@ -184,6 +184,7 @@ export function ImportAnnotationsModal({
               </label>
               <input
                 type="url"
+                autoComplete="url"
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}
                 className="w-full p-2 border border-gray-300 rounded-md"
@@ -235,6 +236,7 @@ export function ImportAnnotationsModal({
             </label>
             <input
               type="text"
+              autoComplete="on"
               value={name}
               required
               onChange={(e) => setName(e.target.value)}

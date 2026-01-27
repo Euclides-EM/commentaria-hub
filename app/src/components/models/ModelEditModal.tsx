@@ -1,14 +1,7 @@
 import { useEffect, useMemo, useState, type FormEvent } from 'react'
-import Select from 'react-select'
 import type { model_Model } from '../../api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
-import { selectStyles } from '../../styles/selectStyles'
-
-const TYPE_OPTIONS = [
-  { value: 'segment', label: 'segment' },
-  { value: 'text', label: 'text' },
-] as const
 
 interface ModelEditModalProps {
   isOpen: boolean
@@ -33,8 +26,6 @@ export function ModelEditModal({
 }: ModelEditModalProps) {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
-  const [type, setType] = useState<string>('segment')
-  const [algorithmFamily, setAlgorithmFamily] = useState('')
   const [baseModelId, setBaseModelId] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
 
@@ -42,8 +33,6 @@ export function ModelEditModal({
     if (isOpen && model) {
       setName(model.name || '')
       setDescription(model.description || '')
-      setType(model.type || 'segment')
-      setAlgorithmFamily(model.algorithm_family || '')
       setBaseModelId(model.base_model_id || null)
       setError(null)
     }
@@ -64,15 +53,11 @@ export function ModelEditModal({
       setError('Please provide a model name.')
       return
     }
-    if (!type.trim()) {
-      setError('Please select a type.')
-      return
-    }
     onSubmit({
       name: name.trim(),
       description: description.trim() || undefined,
-      type: type.trim(),
-      algorithm_family: algorithmFamily.trim() || undefined,
+      type: model.type || 'segment',
+      algorithm_family: model.algorithm_family || undefined,
       base_model_id: baseModelId || undefined,
     })
   }
@@ -102,6 +87,7 @@ export function ModelEditModal({
             </label>
             <input
               type="text"
+              autoComplete="on"
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full p-2 border border-gray-300 rounded-md"
@@ -118,40 +104,6 @@ export function ModelEditModal({
               onChange={(e) => setDescription(e.target.value)}
               className="w-full p-2 border border-gray-300 rounded-md"
               rows={3}
-            />
-          </div>
-
-          <div className="space-y-2">
-            <label className="block text-sm font-medium text-gray-700">
-              Type
-            </label>
-            <Select
-              value={
-                TYPE_OPTIONS.find((option) => option.value === type) || null
-              }
-              onChange={(option: { value: string; label: string } | null) =>
-                setType(option?.value || '')
-              }
-              options={
-                TYPE_OPTIONS as unknown as { value: string; label: string }[]
-              }
-              placeholder="Select type..."
-              styles={selectStyles<{ value: string; label: string }>()}
-              menuPortalTarget={document.body}
-              menuPosition="fixed"
-            />
-          </div>
-
-          <div className="space-y-2">
-            <label className="block text-sm font-medium text-gray-700">
-              Algorithm (optional)
-            </label>
-            <input
-              type="text"
-              value={algorithmFamily}
-              onChange={(e) => setAlgorithmFamily(e.target.value)}
-              className="w-full p-2 border border-gray-300 rounded-md"
-              placeholder="e.g. yolo"
             />
           </div>
 

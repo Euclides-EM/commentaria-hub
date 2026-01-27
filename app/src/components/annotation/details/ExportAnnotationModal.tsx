@@ -172,6 +172,7 @@ export function ExportAnnotationModal({
                 </label>
                 <input
                   type="password"
+                  autoComplete="current-password"
                   value={roboflow.api_key}
                   onChange={(e) =>
                     setRoboflow((prev) => ({
@@ -189,6 +190,7 @@ export function ExportAnnotationModal({
                 </label>
                 <input
                   type="text"
+                  autoComplete="url"
                   value={roboflow.workspace_url}
                   onChange={(e) =>
                     setRoboflow((prev) => ({
@@ -208,6 +210,7 @@ export function ExportAnnotationModal({
                 </label>
                 <input
                   type="text"
+                  autoComplete="on"
                   value={roboflow.project_id}
                   onChange={(e) =>
                     setRoboflow((prev) => ({
@@ -246,6 +249,7 @@ export function ExportAnnotationModal({
                 </label>
                 <input
                   type="url"
+                  autoComplete="url"
                   value={escriptorium.base_path}
                   onChange={(e) =>
                     setEscriptorium((prev) => ({
@@ -265,6 +269,7 @@ export function ExportAnnotationModal({
                 </label>
                 <input
                   type="text"
+                  autoComplete="on"
                   value={escriptorium.document}
                   onChange={(e) =>
                     setEscriptorium((prev) => ({
@@ -283,6 +288,7 @@ export function ExportAnnotationModal({
                 </label>
                 <input
                   type="text"
+                  autoComplete="username"
                   value={escriptorium.username}
                   onChange={(e) =>
                     setEscriptorium((prev) => ({
@@ -301,6 +307,7 @@ export function ExportAnnotationModal({
                 </label>
                 <input
                   type="password"
+                  autoComplete="current-password"
                   value={escriptorium.password}
                   onChange={(e) =>
                     setEscriptorium((prev) => ({

@@ -12,14 +12,7 @@ import { ModelEditModal } from './ModelEditModal'
 import { useQueryClient } from '@tanstack/react-query'
 import { useAppState } from '../../context/useAppState'
 import { useAuthStore } from '../../store/authStore.ts'
-
-const formatDate = (value?: string) => {
-  if (!value) {
-    return '—'
-  }
-  const date = new Date(value)
-  return date.toLocaleString()
-}
+import { Timestamp } from '../core/Timestamp'
 
 const getDisplayValue = (value?: string) => value?.trim() || '—'
 
@@ -292,7 +285,9 @@ export function ModelsTable() {
                         </span>
                       </td>
                       <td className="px-4 py-3 text-gray-700">
-                        {formatDate(model.updated_at || model.created_at)}
+                        <Timestamp
+                          date={model.updated_at || model.created_at}
+                        />
                       </td>
                       {isAuthenticated && (
                         <td className="px-4 py-3">
