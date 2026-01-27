@@ -1,16 +1,16 @@
-import {useMemo} from 'react'
+import { useMemo } from 'react'
 import Select from 'react-select'
-import {useDatasetsQuery} from '../queries/datasets.ts'
-import {useAnnotationsQuery} from '../queries/annotations.ts'
-import {selectStyles} from '../styles/selectStyles.ts'
-import {useAppState} from '../context/useAppState.ts'
-import {usePipelineStages} from '../queries/metadata.ts'
+import { useDatasetsQuery } from '../queries/datasets.ts'
+import { useAnnotationsQuery } from '../queries/annotations.ts'
+import { selectStyles } from '../styles/selectStyles.ts'
+import { useAppState } from '../context/useAppState.ts'
+import { usePipelineStages } from '../queries/metadata.ts'
 import useLocalStorageState from 'use-local-storage-state'
-import type {annotationrule_PipelineStage} from '../api'
-import {MultiSelectDropdown} from './core/MultiSelectDropdown.tsx'
+import type { annotationrule_PipelineStage } from '../api'
+import { MultiSelectDropdown } from './core/MultiSelectDropdown.tsx'
 
-import {getStageDisplayName} from '../utils/stages.ts'
-import {Button} from "./core/Button.tsx";
+import { getStageDisplayName } from '../utils/stages.ts'
+import { Button } from './core/Button.tsx'
 
 const Separator = () => <span className="bg-gray-600 w-[1px] h-fill mx-2" />
 
@@ -72,12 +72,19 @@ export function BreadcrumbNav() {
   }
 
   const highlightDataset = !state.viewingModels && !state.datasetId
-  const highlightAnnotation = !state.viewingModels && !!state.datasetId && !state.annotationId
+  const highlightAnnotation =
+    !state.viewingModels && !!state.datasetId && !state.annotationId
 
   return (
     <div className="flex items-center text-sm gap-2 flex-wrap">
       <Separator />
-      <Button variant="primary" className={`p-2 ${state.viewingModels && "!bg-teal-100 hover:!bg-white"}`} onClick={() => setState({viewingModels: !state.viewingModels})}>Models</Button>
+      <Button
+        variant="primary"
+        className={`p-2 ${state.viewingModels && '!bg-teal-100 hover:!bg-white'}`}
+        onClick={() => setState({ viewingModels: !state.viewingModels })}
+      >
+        Models
+      </Button>
 
       <Separator />
 
@@ -104,10 +111,10 @@ export function BreadcrumbNav() {
 
       {state.datasetId && (
         <>
-            <div className="h-3 w-3 rotate-[-45deg] border-b border-r border-slate-600"/>
+          <div className="h-3 w-3 rotate-[-45deg] border-b border-r border-slate-600" />
 
-            <div
-                className={`text-shadow-gray-800 font-semibold px-1 rounded ${highlightAnnotation ? 'label-glow text-teal-800' : ''}`}
+          <div
+            className={`text-shadow-gray-800 font-semibold px-1 rounded ${highlightAnnotation ? 'label-glow text-teal-800' : ''}`}
           >
             Annotation
           </div>

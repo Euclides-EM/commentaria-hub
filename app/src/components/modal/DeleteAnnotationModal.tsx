@@ -5,6 +5,8 @@ import { ErrorMessage } from '../core/ErrorMessage'
 interface DeleteAnnotationModalProps {
   isOpen: boolean
   annotationLabel: string
+  title?: string
+  loadingMessage?: string
   error?: string | null
   isDeleting: boolean
   onCancel: () => void
@@ -14,6 +16,8 @@ interface DeleteAnnotationModalProps {
 export function DeleteAnnotationModal({
   isOpen,
   annotationLabel,
+  title = 'Delete annotation',
+  loadingMessage = 'Deleting annotation...',
   error,
   isDeleting,
   onCancel,
@@ -33,13 +37,11 @@ export function DeleteAnnotationModal({
         onClick={(e) => e.stopPropagation()}
       >
         <div className="px-5 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold text-gray-900">
-            Delete annotation
-          </h2>
+          <h2 className="text-lg font-semibold text-gray-900">{title}</h2>
         </div>
         <div className="px-5 py-4 text-sm text-gray-700 space-y-2">
           {isDeleting ? (
-            <LoadingSpinner size="sm" message="Deleting annotation..." />
+            <LoadingSpinner size="sm" message={loadingMessage} />
           ) : (
             <p>
               Are you sure you want to delete{' '}

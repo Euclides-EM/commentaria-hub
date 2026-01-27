@@ -3,6 +3,7 @@ import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsT
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
 import { AnnotationActions } from './annotation/AnnotationActions.tsx'
+import { ModelsTable } from './models/ModelsTable.tsx'
 
 type Tab = 'details' | 'text'
 
@@ -38,7 +39,7 @@ export function Main() {
   const { state } = useAppState()
 
   if (state.viewingModels) {
-      return <div>Viewing models... TODO</div>
+    return <ModelsTable />
   }
 
   if (!state.datasetId) {

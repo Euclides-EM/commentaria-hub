@@ -2,8 +2,8 @@ import { createContext } from 'react'
 import type { model_Annotation, model_Dataset } from '../api'
 
 export interface AppState {
-    viewingModels: boolean
-    datasetId: string
+  viewingModels: boolean
+  datasetId: string
   annotationId: string
   currentPage: number
 }
@@ -16,6 +16,8 @@ export interface AppStateContextType {
   jumpToPage: (nextPage: number) => void
   searchResultHighlight: string | null
   setSearchResultHighlight: (id: string | null) => void
+  modelSearchPrefill: string | null
+  setModelSearchPrefill: (value: string | null) => void
   refetch: () => void
 }
 

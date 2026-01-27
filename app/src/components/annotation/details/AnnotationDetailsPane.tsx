@@ -118,8 +118,8 @@ const AnnotationDetailsContent = ({
             rows={3}
           />
         ) : (
-          <div className="text-sm leading-tight break-all">
-            {annotation.description}
+          <div className="text-sm leading-tight whitespace-pre-wrap break-words">
+            {annotation.description?.replace(/\\n/g, '\n')}
           </div>
         )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">Dataset</div>

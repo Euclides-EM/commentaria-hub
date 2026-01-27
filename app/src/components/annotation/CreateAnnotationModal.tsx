@@ -76,16 +76,16 @@ export function CreateAnnotationModal({
 
   const originAnnotation = useMemo(
     () =>
-      annotations?.find(
-        (annotation) => annotation.id === originAnnotationId,
-      ) || null,
+      annotations?.find((annotation) => annotation.id === originAnnotationId) ||
+      null,
     [annotations, originAnnotationId],
   )
 
   useEffect(() => {
     if (!originAnnotation) return
     if (!nameTouched && !name.trim()) {
-      const baseName = originAnnotation.name || originAnnotation.id || 'Annotation'
+      const baseName =
+        originAnnotation.name || originAnnotation.id || 'Annotation'
       setName(`${baseName} (copy)`)
     }
     if (!descriptionTouched && !description.trim()) {

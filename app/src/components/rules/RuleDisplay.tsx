@@ -3,6 +3,7 @@ import type { annotationrule_PipelineStage } from '../../api/models/annotationru
 import { Fragment } from 'react'
 import { Button } from '../core/Button'
 import { getStageDisplayName } from '../../utils/stages.ts'
+import { useAppState } from '../../context/useAppState'
 
 interface RuleDisplayProps {
   rule: AnnotationRule
@@ -19,6 +20,10 @@ export function RuleDisplay({
   disabled,
   applicableStages,
 }: RuleDisplayProps) {
+  const { setState, setModelSearchPrefill } = useAppState()
+  const modelName =
+    'model' in rule ? (rule as { model?: string }).model : undefined
+
   return (
     <div
       className={`p-3 border rounded-lg transition-colors ${
@@ -28,7 +33,7 @@ export function RuleDisplay({
       }`}
     >
       <div className="flex items-start justify-between gap-3">
-        <div className="flex-1">
+        <div className="flex flex-col gap-1 flex-1">
           <div className="font-medium text-sm mb-1">
             {getRuleDisplayName(rule)}
           </div>
@@ -45,6 +50,21 @@ export function RuleDisplay({
               ))}
             </div>
           )}
+          {modelName && (
+            <div className="text-xs text-gray-500 mb-1">
+              Model:{' '}
+              <button
+                type="button"
+                className="text-teal-700 hover:text-teal-900 underline underline-offset-2"
+                onClick={() => {
+                  setModelSearchPrefill(modelName)
+                  setState({ viewingModels: true })
+                }}
+              >
+                {modelName}
+              </button>
+            </div>
+          )}
           <details className="text-xs">
             <summary className="cursor-pointer text-gray-600 hover:text-gray-800">
               Payload
@@ -56,7 +76,7 @@ export function RuleDisplay({
         </div>
         <div className="flex items-center gap-2">
           {isApplied && (
-            <span className="inline-flex items-center px-2 py-1 text-xs font-medium bg-green-100 text-green-700 rounded-full">
+            <span className="inline-flex items-center px-2 py-1 text-xs font-medium bg-green-100 text-green-700 rounded-md">
               Applied
             </span>
           )}

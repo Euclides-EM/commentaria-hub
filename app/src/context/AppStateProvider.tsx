@@ -5,7 +5,12 @@ import {
   useMemo,
   useState,
 } from 'react'
-import {parseAsBoolean, parseAsInteger, parseAsString, useQueryStates } from 'nuqs'
+import {
+  parseAsBoolean,
+  parseAsInteger,
+  parseAsString,
+  useQueryStates,
+} from 'nuqs'
 import { useDatasetsQuery } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import type { AppState, AppStateContextType } from './AppStateContext'
@@ -17,7 +22,7 @@ interface AppStateProviderProps {
 
 export function AppStateProvider({ children }: AppStateProviderProps) {
   const [state, setState] = useQueryStates({
-      viewingModels: parseAsBoolean.withDefault(false),
+    viewingModels: parseAsBoolean.withDefault(false),
     datasetId: parseAsString.withDefault(''),
     annotationId: parseAsString.withDefault(''),
     currentPage: parseAsInteger.withDefault(89),
@@ -25,6 +30,9 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   const [searchResultHighlight, setSearchResultHighlight] = useState<
     string | null
   >(null)
+  const [modelSearchPrefill, setModelSearchPrefill] = useState<string | null>(
+    null,
+  )
   const { data: datasets, refetch: refetchDatasets } = useDatasetsQuery()
   const { data: annotations, refetch: refetchAnnotations } =
     useAnnotationsQuery(state.datasetId)
@@ -35,7 +43,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
         updates.datasetId !== undefined ||
         updates.annotationId !== undefined
       ) {
-        updates.viewingModels = false;
+        updates.viewingModels = false
         setSearchResultHighlight(null)
       }
       history.pushState(state, '', window.location.href)
@@ -78,6 +86,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       setState: wrappedSetState,
       searchResultHighlight,
       setSearchResultHighlight,
+      modelSearchPrefill,
+      setModelSearchPrefill,
       dataset,
       annotation,
       jumpToPage,
@@ -88,6 +98,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       wrappedSetState,
       searchResultHighlight,
       setSearchResultHighlight,
+      modelSearchPrefill,
+      setModelSearchPrefill,
       dataset,
       annotation,
       jumpToPage,
