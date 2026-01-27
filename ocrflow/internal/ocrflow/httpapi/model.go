@@ -12,11 +12,30 @@ import (
 // @Summary      List Models
 // @Description  Get a list of available models.
 // @Tags         Models
+// @Param        expand  query     string  false  "Include related entities"  Enums(used_in_annotations)
 // @Produce      json
 // @Success      200  {array}   model.Model
 // @Router       /models [get]
 func (h *Handlers) ListModels(r *http.Request) (any, error) {
-	return h.deps.ModelSvc.List()
+	expand := r.URL.Query().Get("expand")
+	models, err := h.deps.ModelSvc.List()
+	if err != nil {
+		return nil, err
+	}
+	if expand == "used_in_annotations" {
+		usedInAnnotations, err := h.deps.AnnotationSvc.ListAnnotationIDsByUsedModels()
+		if err != nil {
+			return nil, err
+		}
+		for _, m := range models {
+			if annIDs, ok := usedInAnnotations[m.ID]; ok {
+				m.UsedInAnnotations = annIDs
+			} else {
+				m.UsedInAnnotations = []*model.AnnotationReference{}
+			}
+		}
+	}
+	return models, nil
 }
 
 // UploadModel godoc
@@ -81,4 +100,24 @@ func (h *Handlers) DeleteModel(r *http.Request) (any, error) {
 		return nil, err
 	}
 	return map[string]string{"status": "deleted"}, nil
+}
+
+// UpdateModel godoc
+// @Summary      Update a Model
+// @Description  Update an existing model.
+// @Tags         Models
+// @Param        id   path      string  true  "Model ID"
+// @Param        model  body      model.Model  true  "Updated model"
+// @Accept       json
+// @Produce      json
+// @Security 	 BearerAuth
+// @Success      200  {object}   model.Model
+// @Router       /models/{id} [put]
+func (h *Handlers) UpdateModel(r *http.Request) (any, error) {
+	id := r.PathValue("id")
+	var toUpdate model.Model
+	if err := decodeBody(r, &toUpdate); err != nil {
+		return nil, err
+	}
+	return h.deps.ModelSvc.Update(id, &toUpdate)
 }
