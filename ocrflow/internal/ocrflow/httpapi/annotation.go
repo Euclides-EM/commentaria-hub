@@ -209,6 +209,8 @@ func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
 // @Param       ocred                   query  string false "Whether the annotations are OCRed" Enums(true, false)
 // @Param       ground_truth            query  string false "Whether the annotations are ground truth" Enums(true, false)
 // @Param       origin_annotation_id    query  string false "Origin annotation ID to copy applied rules from"
+// @Param        ocr_model_id          query     string  false  "Model ID that was used for OCR processing, only relevant if annotations are OCRed"
+// @Param        segment_model_id       query     string  false  "Model ID that was used for segmentation, only relevant if annotations are segmented"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      201  {object}   model.Annotation
@@ -232,6 +234,8 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 		Ocred:              strings.ToLower(strings.TrimSpace(r.FormValue("ocred"))) == "true",
 		GroundTruth:        strings.ToLower(strings.TrimSpace(r.FormValue("ground_truth"))) == "true",
 		OriginAnnotationID: r.FormValue("origin_annotation_id"),
+		OCRModelID:         r.FormValue("ocr_model_id"),
+		SegmentModelID:     r.FormValue("segment_model_id"),
 	}
 	return h.deps.AnnotationSvc.CreateFromZip(aum, func(dstPath string) error { return httpwrapper.StoreUncompressedDir(dstPath, r) })
 }
@@ -249,6 +253,8 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 // @Param       ocred                   query  string false "Whether the annotations are OCRed" Enums(true, false)
 // @Param       ground_truth            query  string false "Whether the annotations are ground truth" Enums(true, false)
 // @Param       origin_annotation_id    query  string false "Origin annotation ID to copy applied rules from"
+// @Param        ocr_model_id          query     string  false  "Model ID that was used for OCR processing, only relevant if annotations are OCRed"
+// @Param        segment_model_id       query     string  false  "Model ID that was used for segmentation, only relevant if annotations are segmented"
 // @Security 	 BearerAuth
 // @Produce     json
 // @Success     201 {object} model.Annotation
@@ -277,6 +283,8 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 		Ocred:              strings.ToLower(strings.TrimSpace(r.FormValue("ocred"))) == "true",
 		GroundTruth:        strings.ToLower(strings.TrimSpace(r.FormValue("ground_truth"))) == "true",
 		OriginAnnotationID: r.FormValue("origin_annotation_id"),
+		OCRModelID:         r.FormValue("ocr_model_id"),
+		SegmentModelID:     r.FormValue("segment_model_id"),
 	}
 
 	return h.deps.AnnotationSvc.CreateFromZip(aum, func(dstPath string) error {

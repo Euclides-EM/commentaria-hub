@@ -9,4 +9,6 @@ type AnnotationUploadMetadata struct {
 	GroundTruth        bool             `json:"ground_truth"`
 	Ocred              bool             `json:"ocred"`
 	OriginAnnotationID string           `json:"origin_annotation_id,omitempty"`
+	OCRModelID         string           `json:"ocr_model_id,omitempty"`
+	SegmentModelID     string           `json:"segment_model_id,omitempty"`
 }

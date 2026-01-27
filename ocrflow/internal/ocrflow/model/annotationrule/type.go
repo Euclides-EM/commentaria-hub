@@ -12,6 +12,7 @@ const (
 	TypeRemoveOverlap                Type = "remove_overlap"
 	TypeReassignTextLinesByTolerance Type = "reassign_text_lines_by_tolerance"
 	TypeTextBlocksCorrections        Type = "text_blocks_corrections"
+	TypeDetectText                   Type = "detect_text"
 )
 
 var ruleFactories = map[Type]func() AnnotationRule{
@@ -24,6 +25,7 @@ var ruleFactories = map[Type]func() AnnotationRule{
 	TypeRemoveOverlap:                func() AnnotationRule { return NewRemoveOverlap(nil, 0.0) },
 	TypeReassignTextLinesByTolerance: func() AnnotationRule { return NewReassignTextLinesByTolerance("", "", 0.0, 0.0) },
 	TypeTextBlocksCorrections:        func() AnnotationRule { return NewTextBlockCorrections(nil) },
+	TypeDetectText:                   func() AnnotationRule { return NewDetectText("") },
 }
 
 var applicableStagesByType = map[Type][]PipelineStage{
@@ -36,6 +38,7 @@ var applicableStagesByType = map[Type][]PipelineStage{
 	TypeRemoveOverlap:                {PipelineStageZoneSegmentation},
 	TypeReassignTextLinesByTolerance: {PipelineStageTextLineSegmentation},
 	TypeTextBlocksCorrections:        {PipelineStageOCR},
+	TypeDetectText:                   {PipelineStageTextLineSegmentation},
 }
 
 var minEnsuredStageByType = map[Type]PipelineStage{
@@ -48,6 +51,7 @@ var minEnsuredStageByType = map[Type]PipelineStage{
 	TypeRemoveOverlap:                PipelineStageZoneSegmentation,
 	TypeReassignTextLinesByTolerance: PipelineStageTextLineSegmentation,
 	TypeTextBlocksCorrections:        PipelineStageOCR,
+	TypeDetectText:                   PipelineStageOCR,
 }
 
 func ZeroFromType(t Type) AnnotationRule {
@@ -67,4 +71,5 @@ var AllAnnotationRuleTypes = []Type{
 	TypeRemoveOverlap,
 	TypeReassignTextLinesByTolerance,
 	TypeTextBlocksCorrections,
+	TypeDetectText,
 }

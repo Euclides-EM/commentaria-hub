@@ -1,23 +1,6 @@
 package model
 
-type OCRModelType string
-
-const (
-	OCRModelTypeSegment OCRModelType = "segment"
-	OCRModelTypeOCR     OCRModelType = "text"
-	OCRModelTypeUnknown OCRModelType = "unknown"
-)
-
-func OCRModelTypeFromExt(ext string) OCRModelType {
-	switch ext {
-	case ".pt":
-		return OCRModelTypeSegment
-	case ".mlmodel":
-		return OCRModelTypeOCR
-	default:
-		return OCRModelTypeUnknown
-	}
-}
+import "github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/common"
 
 type OCRModelLocation string
 
@@ -34,7 +17,7 @@ const (
 
 type Model struct {
 	Meta            `json:",inline"`
-	Type            OCRModelType            `json:"type"`
+	Type            common.OCRModelType     `json:"type"`
 	Location        OCRModelLocation        `json:"location"`
 	AlgorithmFamily OCRModelAlgorithmFamily `json:"algorithm_family,omitempty"`
 	// LocalPath is the path to the model file on the local filesystem. It is relevant only for local models.

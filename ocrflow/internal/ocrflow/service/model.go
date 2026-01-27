@@ -9,6 +9,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
@@ -69,8 +70,8 @@ func (m *Model) Upload(file multipart.File, filename, name, description string, 
 		return nil, fmt.Errorf("empty filename")
 	}
 	ext := filepath.Ext(filename)
-	modelType := model.OCRModelTypeFromExt(ext)
-	if modelType == model.OCRModelTypeUnknown {
+	modelType := common.OCRModelTypeFromExt(ext)
+	if modelType == common.OCRModelTypeUnknown {
 		return nil, fmt.Errorf("unsupported model file extension: %s", ext)
 	}
 

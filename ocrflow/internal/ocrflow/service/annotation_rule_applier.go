@@ -1,6 +1,7 @@
 package service
 
 import (
+	"errors"
 	"fmt"
 	"log"
 	"math/rand/v2"
@@ -62,6 +63,8 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *model.Annotation,
 		return a.applySegment(imgPath, ann, t)
 	case *annotationrule.TextBlockCorrections:
 		return a.applyTextBlockCorrection(ann, t)
+	case *annotationrule.DetectText:
+		return a.applyDetectText(imgPath, ann, t)
 	}
 
 	// rules that require per-page ALTO processing
@@ -290,4 +293,8 @@ func (a *AnnotationRuleApplier) applySegment(imgPath string, ann *model.Annotati
 	}
 	ann.Segmented = true
 	return ann, nil
+}
+
+func (a *AnnotationRuleApplier) applyDetectText(imgPath string, ann *model.Annotation, t *annotationrule.DetectText) (*model.Annotation, error) {
+	return nil, errors.New("detect text rule applier not implemented")
 }

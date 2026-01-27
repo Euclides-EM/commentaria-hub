@@ -8,6 +8,7 @@ import (
 	"path"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/ocrflow/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
@@ -104,7 +105,7 @@ func (tm *Train) TrainYolo(t *model.Training) (*model.Training, error) {
 			log.Printf("ERROR failed to deepcopy training model %s: %v", toUpdate.ID, err)
 		}
 		m := &model.Model{
-			Type:            model.OCRModelTypeSegment,
+			Type:            common.OCRModelTypeSegment,
 			AlgorithmFamily: model.OCRModelAlgorithmFamilyYOLO,
 			Meta:            model.NewMeta(idgen.GenerateID(store.ModelIDPrefix)).WithName(t.Name).WithDescription(t.Description),
 			// todo Categories...

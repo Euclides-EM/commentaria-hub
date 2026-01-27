@@ -119,6 +119,12 @@ func (a *Annotation) CreateFromZip(aum *model.AnnotationUploadMetadata, save fun
 			ann.AppliedRules = originAnn.AppliedRules
 		}
 	}
+	if aum.Segmented && aum.SegmentModelID != "" {
+		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewSegment(aum.SegmentModelID))
+	}
+	if aum.Ocred && aum.OCRModelID != "" {
+		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewDetectText(aum.OCRModelID))
+	}
 	dstPath := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
 	if aum.Format == model.AnnotationFormatYolo {
 		dstPath = a.fileSysMgt.DatasetAnnotationYoloDir(ann)
