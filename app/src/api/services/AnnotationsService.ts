@@ -107,6 +107,8 @@ export class AnnotationsService {
         ocred,
         groundTruth,
         originAnnotationId,
+        ocrModelId,
+        segmentModelId,
     }: {
         /**
          * Dataset ID
@@ -144,6 +146,14 @@ export class AnnotationsService {
          * Origin annotation ID to copy applied rules from
          */
         originAnnotationId?: string,
+        /**
+         * Model ID that was used for OCR processing, only relevant if annotations are OCRed
+         */
+        ocrModelId?: string,
+        /**
+         * Model ID that was used for segmentation, only relevant if annotations are segmented
+         */
+        segmentModelId?: string,
     }): CancelablePromise<model_Annotation> {
         return __request(OpenAPI, {
             method: 'POST',
@@ -160,6 +170,8 @@ export class AnnotationsService {
                 'ocred': ocred,
                 'ground_truth': groundTruth,
                 'origin_annotation_id': originAnnotationId,
+                'ocr_model_id': ocrModelId,
+                'segment_model_id': segmentModelId,
             },
         });
     }
@@ -179,6 +191,8 @@ export class AnnotationsService {
         ocred,
         groundTruth,
         originAnnotationId,
+        ocrModelId,
+        segmentModelId,
     }: {
         /**
          * Dataset ID
@@ -216,6 +230,14 @@ export class AnnotationsService {
          * Origin annotation ID to copy applied rules from
          */
         originAnnotationId?: string,
+        /**
+         * Model ID that was used for OCR processing, only relevant if annotations are OCRed
+         */
+        ocrModelId?: string,
+        /**
+         * Model ID that was used for segmentation, only relevant if annotations are segmented
+         */
+        segmentModelId?: string,
     }): CancelablePromise<model_Annotation> {
         return __request(OpenAPI, {
             method: 'POST',
@@ -231,6 +253,8 @@ export class AnnotationsService {
                 'ocred': ocred,
                 'ground_truth': groundTruth,
                 'origin_annotation_id': originAnnotationId,
+                'ocr_model_id': ocrModelId,
+                'segment_model_id': segmentModelId,
             },
             formData: {
                 'file': file,

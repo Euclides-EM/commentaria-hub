@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_OCRModelType = 'segment' | 'text' | 'unknown';
+export type common_OCRModelType = 'segment' | 'text' | 'unknown';

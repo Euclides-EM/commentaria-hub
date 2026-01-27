@@ -19,6 +19,7 @@ import { getStageDisplayName } from '../../../utils/stages.ts'
 import { ExportAnnotationModal } from './ExportAnnotationModal.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage'
 import { selectStyles } from '../../../styles/selectStyles'
+import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 
 TimeAgo.addDefaultLocale(en)
 const timeAgo = new TimeAgo('en-US')
@@ -259,6 +260,7 @@ export function AnnotationDetailsPane() {
   const [isDeleteOpen, setIsDeleteOpen] = useState(false)
   const [isDeleting, setIsDeleting] = useState(false)
   const [isExportOpen, setIsExportOpen] = useState(false)
+  const [isDuplicateOpen, setIsDuplicateOpen] = useState(false)
 
   useEffect(() => {
     setError(null)
@@ -349,12 +351,18 @@ export function AnnotationDetailsPane() {
             <Button onClick={handleEditClick} className="px-2 py-1 text-xs">
               Edit
             </Button>
-              <Button
-                onClick={() => setIsExportOpen(true)}
-                className="px-2 py-1 text-xs"
-              >
-                Export
-              </Button>
+            <Button
+              onClick={() => setIsDuplicateOpen(true)}
+              className="px-2 py-1 text-xs"
+            >
+              Duplicate
+            </Button>
+            <Button
+              onClick={() => setIsExportOpen(true)}
+              className="px-2 py-1 text-xs"
+            >
+              Export
+            </Button>
             <Button
               onClick={handleDeleteClick}
               variant="danger"
@@ -400,6 +408,21 @@ export function AnnotationDetailsPane() {
         <ExportAnnotationModal
           isOpen={isExportOpen}
           onClose={() => setIsExportOpen(false)}
+        />
+      )}
+      {annotation && annotation.dataset_id && (
+        <CreateAnnotationModal
+          isOpen={isDuplicateOpen}
+          dataSetId={annotation.dataset_id}
+          initialOriginAnnotationId={annotation.id || null}
+          initialName={`${annotation.name || annotation.id} (copy)`}
+          initialDescription={annotation.description || ''}
+          initialGroundTruth={!!annotation.ground_truth}
+          onClose={() => setIsDuplicateOpen(false)}
+          onCreated={(annotationId) => {
+            setState({ annotationId })
+            refetch()
+          }}
         />
       )}
     </section>

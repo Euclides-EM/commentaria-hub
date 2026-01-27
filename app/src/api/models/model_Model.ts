@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { common_OCRModelType } from './common_OCRModelType';
 import type { model_AnnotationReference } from './model_AnnotationReference';
 import type { model_OCRModelAlgorithmFamily } from './model_OCRModelAlgorithmFamily';
 import type { model_OCRModelLocation } from './model_OCRModelLocation';
-import type { model_OCRModelType } from './model_OCRModelType';
 export type model_Model = {
     algorithm_family?: model_OCRModelAlgorithmFamily;
     base_annotations?: Array<model_AnnotationReference>;
@@ -20,7 +20,7 @@ export type model_Model = {
     readonly local_path?: string;
     location?: model_OCRModelLocation;
     name?: string;
-    type?: model_OCRModelType;
+    type?: common_OCRModelType;
     readonly updated_at?: string;
 };
 

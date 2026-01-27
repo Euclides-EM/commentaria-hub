@@ -1,5 +1,5 @@
 import { useAuthStore } from '../store/authStore'
-import { BreadcrumbNav } from './annotation/BreadcrumbNav'
+import { BreadcrumbNav } from './BreadcrumbNav.tsx'
 import { Button } from './core/Button'
 
 interface HeaderProps {

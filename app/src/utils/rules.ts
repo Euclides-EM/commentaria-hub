@@ -61,8 +61,9 @@ export const isRuleApplied = (
   suggestedRule: AnnotationRule,
   annotation: model_Annotation,
 ): boolean => {
-  return (
+    let serializedRule = JSON.stringify(suggestedRule);
+    return (
     !!annotation?.applied_rules &&
-    annotation.applied_rules.some((rule) => rule.type === suggestedRule.type)
+    annotation.applied_rules.some((rule) => JSON.stringify(rule) === serializedRule)
   )
 }

@@ -5,7 +5,7 @@ import {
   useMemo,
   useState,
 } from 'react'
-import { parseAsInteger, parseAsString, useQueryStates } from 'nuqs'
+import {parseAsBoolean, parseAsInteger, parseAsString, useQueryStates } from 'nuqs'
 import { useDatasetsQuery } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import type { AppState, AppStateContextType } from './AppStateContext'
@@ -17,6 +17,7 @@ interface AppStateProviderProps {
 
 export function AppStateProvider({ children }: AppStateProviderProps) {
   const [state, setState] = useQueryStates({
+      viewingModels: parseAsBoolean.withDefault(false),
     datasetId: parseAsString.withDefault(''),
     annotationId: parseAsString.withDefault(''),
     currentPage: parseAsInteger.withDefault(89),
@@ -34,6 +35,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
         updates.datasetId !== undefined ||
         updates.annotationId !== undefined
       ) {
+        updates.viewingModels = false;
         setSearchResultHighlight(null)
       }
       history.pushState(state, '', window.location.href)

@@ -6,6 +6,7 @@ import Select from 'react-select'
 import { selectStyles } from '../../styles/selectStyles.ts'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { useAnnotationsQuery } from '../../queries/annotations'
+import { useAppState } from '../../context/useAppState'
 
 type ImportMode = 'url' | 'zip'
 
@@ -14,7 +15,7 @@ interface ImportAnnotationsModalProps {
   mode: ImportMode
   dataSetId: string
   onClose: () => void
-  onImported: (annotationId: string) => void
+  onImported?: (annotationId: string) => void
 }
 
 const formatOptions = [
@@ -31,6 +32,7 @@ export function ImportAnnotationsModal({
   onClose,
   onImported,
 }: ImportAnnotationsModalProps) {
+  const { setState, refetch } = useAppState()
   const [format, setFormat] = useState<'ALTO' | 'YOLO'>('ALTO')
   const [url, setUrl] = useState('')
   const [file, setFile] = useState<File | null>(null)
@@ -100,7 +102,9 @@ export function ImportAnnotationsModal({
             groundTruth: toApiBoolean(groundTruth),
             originAnnotationId: originAnnotationId || undefined,
           })
-        onImported(annotation.id!)
+        setState({ annotationId: annotation.id! })
+        refetch()
+        onImported?.(annotation.id!)
       } else {
         const zipFile = file
         if (!zipFile) {
@@ -119,7 +123,9 @@ export function ImportAnnotationsModal({
             groundTruth: toApiBoolean(groundTruth),
             originAnnotationId: originAnnotationId || undefined,
           })
-        onImported(annotation.id!)
+        setState({ annotationId: annotation.id! })
+        refetch()
+        onImported?.(annotation.id!)
       }
       onClose()
     } catch (e) {

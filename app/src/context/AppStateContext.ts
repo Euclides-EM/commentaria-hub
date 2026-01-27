@@ -2,7 +2,8 @@ import { createContext } from 'react'
 import type { model_Annotation, model_Dataset } from '../api'
 
 export interface AppState {
-  datasetId: string
+    viewingModels: boolean
+    datasetId: string
   annotationId: string
   currentPage: number
 }
