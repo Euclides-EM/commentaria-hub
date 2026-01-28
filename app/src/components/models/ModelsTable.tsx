@@ -1,11 +1,16 @@
 import { useEffect, useMemo, useState } from 'react'
-import type { model_Model } from '../../api'
-import { ApiError } from '../../api'
+import type {
+  common_OCRModelType,
+  model_Annotation,
+  model_Model,
+} from '../../api'
+import { AnnotationsService, ApiError } from '../../api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
 import { DeleteAnnotationModal } from '../modal/DeleteAnnotationModal'
 import {
+  useCreateModelMutation,
   useDeleteModelMutation,
   useModelsQuery,
   useUpdateModelMutation,
@@ -16,10 +21,18 @@ import { ModelEditModal } from './ModelEditModal'
 import { useAppState } from '../../context/useAppState'
 import { useAuthStore } from '../../store/authStore.ts'
 import { Timestamp } from '../core/Timestamp'
+import { ModelImportModal } from './ModelImportModal'
+import { useQueries } from '@tanstack/react-query'
 
 const getDisplayValue = (value?: string) => value?.trim() || '—'
 
-type SortKey = 'name' | 'type' | 'algorithm' | 'base' | 'updated'
+type SortKey =
+  | 'name'
+  | 'type'
+  | 'algorithm'
+  | 'base'
+  | 'baseAnnotations'
+  | 'updated'
 type SortDirection = 'asc' | 'desc'
 
 type SortConfig = {
@@ -37,6 +50,8 @@ const getSortValue = (model: model_Model, key: SortKey) => {
       return (model.algorithm_family || '').toLowerCase()
     case 'base':
       return (model.base_model_id || '').toLowerCase()
+    case 'baseAnnotations':
+      return model.base_annotations?.length ?? 0
     case 'updated': {
       const raw = model.updated_at || model.created_at
       const time = raw ? new Date(raw).getTime() : 0
@@ -47,12 +62,140 @@ const getSortValue = (model: model_Model, key: SortKey) => {
   }
 }
 
+type BaseAnnotationLookup = Record<string, model_Annotation[]>
+
+function BaseAnnotationsCell({ model }: { model: model_Model }) {
+  const { setState } = useAppState()
+  const [isExpanded, setIsExpanded] = useState(false)
+  const baseAnnotations = useMemo(() => model.base_annotations ?? [], [model.base_annotations])
+  const baseCount = baseAnnotations.length
+  const datasetIds = useMemo(() => {
+    const seen = new Set<string>()
+    baseAnnotations.forEach((ref) => {
+      if (ref.dataset_id) {
+        seen.add(ref.dataset_id)
+      }
+    })
+    return Array.from(seen)
+  }, [baseAnnotations])
+
+  const annotationQueries = useQueries({
+    queries: datasetIds.map((datasetId) => ({
+      queryKey: ['annotations', datasetId] as const,
+      queryFn: () =>
+        AnnotationsService.getDatasetsAnnotations({
+          dataSetId: datasetId,
+        }),
+      enabled: isExpanded,
+    })),
+  })
+
+  const annotationsByDataset = useMemo<BaseAnnotationLookup>(() => {
+    return annotationQueries.reduce<BaseAnnotationLookup>(
+      (acc, query, index) => {
+        const datasetId = datasetIds[index]
+        if (datasetId && query.data) {
+          acc[datasetId] = query.data
+        }
+        return acc
+      },
+      {},
+    )
+  }, [annotationQueries, datasetIds])
+
+  const isLoading =
+    isExpanded && annotationQueries.some((query) => query.isLoading)
+  const hasError =
+    isExpanded && annotationQueries.some((query) => query.isError)
+
+  const handleSelectAnnotation = (
+    datasetId?: string,
+    annotationId?: string,
+  ) => {
+    if (!datasetId || !annotationId) return
+    setState({ datasetId, annotationId })
+  }
+
+  if (baseCount === 0) {
+    return <td className="px-4 py-3 text-center text-xs text-gray-400">0</td>
+  }
+
+  return (
+    <td className="px-4 py-3 align-top">
+      {!isExpanded && (
+        <button
+          type="button"
+          onClick={() => setIsExpanded(true)}
+          className="inline-flex items-center justify-center rounded-full border border-gray-200 px-2 py-0.5 text-xs font-semibold text-gray-600 hover:border-gray-300 hover:text-gray-800"
+        >
+          {baseCount}
+        </button>
+      )}
+      {isExpanded && (
+        <div className="flex flex-col gap-2">
+          <button
+            type="button"
+            onClick={() => setIsExpanded(false)}
+            className="inline-flex w-fit items-center gap-2 rounded-full border border-gray-200 px-2 py-0.5 text-[11px] font-semibold text-gray-600 hover:border-gray-300 hover:text-gray-800"
+          >
+            <span>{baseCount}</span>
+            <span className="text-[10px] uppercase tracking-wide text-gray-400">
+              Hide
+            </span>
+          </button>
+          {isLoading && (
+            <span className="text-xs text-gray-400">Loading annotations…</span>
+          )}
+          {hasError && (
+            <span className="text-xs text-red-500">
+              Unable to load annotations.
+            </span>
+          )}
+          {!isLoading && !hasError && (
+            <div className="flex flex-wrap gap-2">
+              {baseAnnotations.map((ref, index) => {
+                const datasetId = ref.dataset_id
+                const annotationId = ref.id
+                const annotation =
+                  datasetId && annotationId
+                    ? annotationsByDataset[datasetId]?.find(
+                        (item) => item.id === annotationId,
+                      )
+                    : null
+                const label =
+                  annotation?.name ||
+                  annotation?.id ||
+                  annotationId ||
+                  'Annotation'
+                return (
+                  <button
+                    key={`${datasetId || 'dataset'}-${annotationId || index}`}
+                    type="button"
+                    onClick={() =>
+                      handleSelectAnnotation(datasetId, annotationId)
+                    }
+                    className="inline-flex items-center rounded-full bg-teal-50 px-2 py-0.5 text-xs font-medium text-teal-700 hover:bg-teal-100"
+                  >
+                    {label}
+                  </button>
+                )
+              })}
+            </div>
+          )}
+        </div>
+      )}
+    </td>
+  )
+}
+
 export function ModelsTable() {
   const { data: models, isLoading, error } = useModelsQuery()
+  const createMutation = useCreateModelMutation()
   const deleteMutation = useDeleteModelMutation()
   const updateMutation = useUpdateModelMutation()
   const [modelToDelete, setModelToDelete] = useState<model_Model | null>(null)
   const [modelToEdit, setModelToEdit] = useState<model_Model | null>(null)
+  const [isImportOpen, setIsImportOpen] = useState(false)
   const { modelSearchPrefill, setModelSearchPrefill } = useAppState()
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
@@ -82,6 +225,12 @@ export function ModelsTable() {
       ? updateMutation.error.body
       : updateMutation.error
         ? String(updateMutation.error)
+        : null
+  const createErrorMessage =
+    createMutation.error instanceof ApiError
+      ? createMutation.error.body
+      : createMutation.error
+        ? String(createMutation.error)
         : null
 
   const queryErrorMessage =
@@ -174,8 +323,8 @@ export function ModelsTable() {
         model: {
           name: updates.name,
           description: updates.description,
-          type: updates.type,
-          algorithm_family: updates.algorithm_family,
+          type: updates.type as common_OCRModelType,
+          algorithm_family: updates.algorithm_family as 'yolo' | undefined,
           base_model_id: updates.base_model_id,
         },
       },
@@ -185,6 +334,19 @@ export function ModelsTable() {
         },
       },
     )
+  }
+
+  const handleImportSubmit = (payload: {
+    file: File
+    name: string
+    description?: string
+    baseModelId?: string
+  }) => {
+    createMutation.mutate(payload, {
+      onSuccess: () => {
+        setIsImportOpen(false)
+      },
+    })
   }
 
   const handleDelete = () => {
@@ -197,6 +359,11 @@ export function ModelsTable() {
   const handleDeleteCancel = () => {
     deleteMutation.reset()
     setModelToDelete(null)
+  }
+
+  const handleImportClose = () => {
+    setIsImportOpen(false)
+    createMutation.reset()
   }
 
   useEffect(() => {
@@ -233,6 +400,17 @@ export function ModelsTable() {
             className="w-[22rem] max-w-full"
           />
         </div>
+        {isAuthenticated && (
+          <div className="flex items-center gap-2">
+            <Button
+              variant="primary"
+              className="px-3 py-1.5 text-sm font-semibold"
+              onClick={() => setIsImportOpen(true)}
+            >
+              Import model
+            </Button>
+          </div>
+        )}
       </div>
 
       <div className="flex-1 overflow-auto p-6">
@@ -259,6 +437,9 @@ export function ModelsTable() {
               <thead className="bg-gray-50 text-xs uppercase text-gray-500">
                 <tr>
                   <th className="px-4 py-3 text-left">
+                    {renderSortHeader('Base Annotations', 'baseAnnotations')}
+                  </th>
+                  <th className="px-4 py-3 text-left">
                     {renderSortHeader('Model', 'name')}
                   </th>
                   <th className="px-4 py-3 text-left">
@@ -274,7 +455,7 @@ export function ModelsTable() {
                     {renderSortHeader('Updated', 'updated')}
                   </th>
                   {isAuthenticated && (
-                    <th className="px-4 py-3 text-right">Actions</th>
+                    <th className="px-4 py-3 text-right"></th>
                   )}
                 </tr>
               </thead>
@@ -285,6 +466,7 @@ export function ModelsTable() {
                       key={model.id || model.name || `model-${index}`}
                       className="hover:bg-gray-50"
                     >
+                      <BaseAnnotationsCell model={model} />
                       <td className="px-4 py-3">
                         <div>
                           <div className="font-medium text-gray-900">
@@ -354,13 +536,20 @@ export function ModelsTable() {
         onConfirm={handleDelete}
       />
       <ModelEditModal
-        isOpen={!!modelToEdit}
         model={modelToEdit}
         allModels={rows}
         onClose={handleEditClose}
         onSubmit={handleEditSubmit}
         isSaving={updateMutation.isPending}
         errorMessage={updateErrorMessage}
+      />
+      <ModelImportModal
+        isOpen={isImportOpen}
+        models={rows}
+        onClose={handleImportClose}
+        onSubmit={handleImportSubmit}
+        isSaving={createMutation.isPending}
+        errorMessage={createErrorMessage}
       />
     </div>
   )

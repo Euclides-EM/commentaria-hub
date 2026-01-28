@@ -2,6 +2,7 @@ import { type FormEvent, useEffect, useMemo, useState } from 'react'
 import { AnnotationsService, ApiError } from '../../api'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'
+import { FileUpload } from '../core/FileUpload'
 import Select from 'react-select'
 import { selectStyles } from '../../styles/selectStyles.ts'
 import { ErrorMessage } from '../core/ErrorMessage'
@@ -198,35 +199,13 @@ export function ImportAnnotationsModal({
               <label className="block text-sm font-medium text-gray-700">
                 ZIP file
               </label>
-              <div className="flex gap-2 items-center w-fit">
-                <Button
-                  className="p-2"
-                  onClick={(e) => {
-                    e.preventDefault()
-                    e.stopPropagation()
-                    document.getElementById('file-upload')?.click()
-                  }}
-                >
-                  Choose file
-                </Button>
-                <input
-                  id="file-upload"
-                  type="file"
-                  accept=".zip"
-                  onChange={(e) => setFile(e.target.files?.[0] || null)}
-                  className="hidden"
-                  disabled={loading}
-                  required
-                />
-                {file && (
-                  <p className="text-sm text-gray-500">
-                    Selected:{' '}
-                    <span className="font-bold text-black italic">
-                      {file.name}
-                    </span>
-                  </p>
-                )}
-              </div>
+              <FileUpload
+                file={file}
+                onFileChange={setFile}
+                accept=".zip"
+                disabled={loading}
+                required
+              />
             </div>
           )}
 

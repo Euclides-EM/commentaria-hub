@@ -24,6 +24,32 @@ export function useDeleteModelMutation() {
   })
 }
 
+export function useCreateModelMutation() {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: ({
+      file,
+      name,
+      description,
+      baseModelId,
+    }: {
+      file: File
+      name: string
+      description?: string
+      baseModelId?: string
+    }) =>
+      ModelsService.postModels({
+        file,
+        name,
+        description,
+        baseModelId,
+      }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: modelsQueryKey() })
+    },
+  })
+}
+
 export function useUpdateModelMutation() {
   const queryClient = useQueryClient()
   return useMutation({

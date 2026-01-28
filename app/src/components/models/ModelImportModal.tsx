@@ -1,75 +1,89 @@
-import { useEffect, useMemo, useState, type FormEvent } from 'react'
+import { type FormEvent, useEffect, useMemo, useState } from 'react'
+import Select from 'react-select'
 import type { model_Model } from '../../api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
-import Select from 'react-select'
-import { selectStyles } from '../../styles/selectStyles.ts'
+import { FileUpload } from '../core/FileUpload'
+import { LoadingSpinner } from '../core/LoadingSpinner'
+import { selectStyles } from '../../styles/selectStyles'
 
-interface ModelEditModalProps {
-  model: model_Model | null
-  allModels: model_Model[]
+interface ModelImportModalProps {
+  isOpen: boolean
+  models: model_Model[]
   onClose: () => void
-  onSubmit: (updates: {
+  onSubmit: (payload: {
+    file: File
     name: string
     description?: string
-    type: string
-    algorithm_family?: string
-    base_model_id?: string
+    baseModelId?: string
   }) => void
   isSaving?: boolean
   errorMessage?: string | null
 }
 
-export function ModelEditModal({
-  model,
-  allModels,
+export function ModelImportModal({
+  isOpen,
+  models,
   onClose,
   onSubmit,
   isSaving = false,
   errorMessage = null,
-}: ModelEditModalProps) {
+}: ModelImportModalProps) {
+  const [file, setFile] = useState<File | null>(null)
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [baseModelId, setBaseModelId] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    if (model) {
-      setName(model.name || '')
-      setDescription(model.description || '')
-      setBaseModelId(model.base_model_id || null)
+    if (isOpen) {
+      setFile(null)
+      setName('')
+      setDescription('')
+      setBaseModelId(null)
       setError(null)
     }
-  }, [model])
+  }, [isOpen])
 
   const baseModelOptions = useMemo(() => {
-    return allModels
-      .filter((item) => item.id && item.id !== model?.id)
-      .map((item) => ({
-        value: item.id as string,
-        label: item.name || (item.id as string),
+    return models
+      .filter((model) => model.id)
+      .map((model) => ({
+        value: model.id as string,
+        label: model.name || (model.id as string),
       }))
-  }, [allModels, model?.id])
+  }, [models])
 
   const handleSubmit = (event?: FormEvent<HTMLFormElement>) => {
-    if (!model) {
+    event?.preventDefault()
+    if (!file) {
+      setError('Please choose a model file.')
       return
     }
-    event?.preventDefault()
+    setError(null)
     if (!name.trim()) {
       setError('Please provide a model name.')
       return
     }
     onSubmit({
+      file,
       name: name.trim(),
       description: description.trim() || undefined,
-      type: model.type || 'segment',
-      algorithm_family: model.algorithm_family || undefined,
-      base_model_id: baseModelId || undefined,
+      baseModelId: baseModelId || undefined,
     })
   }
 
-  if (!model) {
+  const handleFileChange = (nextFile: File | null) => {
+    setFile(nextFile)
+    if (nextFile && !name.trim()) {
+      const fileName = nextFile.name
+      const lastDot = fileName.lastIndexOf('.')
+      const baseName = lastDot > 0 ? fileName.slice(0, lastDot) : fileName
+      setName(baseName)
+    }
+  }
+
+  if (!isOpen) {
     return null
   }
 
@@ -84,10 +98,22 @@ export function ModelEditModal({
         onSubmit={handleSubmit}
       >
         <div className="px-6 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold">Edit model</h2>
+          <h2 className="text-lg font-semibold">Import model</h2>
         </div>
 
         <div className="flex-1 overflow-auto p-6 space-y-4 text-sm">
+          <div className="space-y-2">
+            <label className="block text-sm font-medium text-gray-700">
+              Model file
+            </label>
+            <FileUpload
+              file={file}
+              onFileChange={handleFileChange}
+              disabled={isSaving}
+              required
+            />
+          </div>
+
           <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-700">
               Name
@@ -98,6 +124,7 @@ export function ModelEditModal({
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full p-2 border border-gray-300 rounded-md"
+              disabled={isSaving}
               required
             />
           </div>
@@ -111,6 +138,7 @@ export function ModelEditModal({
               onChange={(e) => setDescription(e.target.value)}
               className="w-full p-2 border border-gray-300 rounded-md"
               rows={3}
+              disabled={isSaving}
             />
           </div>
 
@@ -129,6 +157,7 @@ export function ModelEditModal({
               }
               options={baseModelOptions}
               placeholder="Select base model..."
+              isDisabled={isSaving}
               styles={selectStyles<{ value: string; label: string }>({
                 controlWidth: 260,
               })}
@@ -143,22 +172,26 @@ export function ModelEditModal({
         </div>
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-2">
-          <Button
-            onClick={onClose}
-            type="button"
-            className="px-3 py-1.5 text-sm font-semibold"
-            disabled={isSaving}
-          >
-            Cancel
-          </Button>
-          <Button
-            type="submit"
-            variant="primary"
-            className="px-3 py-1.5 text-sm font-semibold"
-            disabled={isSaving}
-          >
-            {isSaving ? 'Saving...' : 'Save changes'}
-          </Button>
+          {isSaving ? (
+            <LoadingSpinner size="sm" message="Importing model..." />
+          ) : (
+            <>
+              <Button
+                type="button"
+                onClick={onClose}
+                className="px-3 py-1.5 text-sm"
+              >
+                Cancel
+              </Button>
+              <Button
+                type="submit"
+                variant="primary"
+                className="px-3 py-1.5 text-sm"
+              >
+                Import
+              </Button>
+            </>
+          )}
         </div>
       </form>
     </div>
