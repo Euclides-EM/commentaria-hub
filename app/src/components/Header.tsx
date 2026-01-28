@@ -17,7 +17,7 @@ export function Header({ onShowLogin }: HeaderProps) {
             <h1 className="text-sm font-semibold text-gray-500">
               Commentaria in Eucliedem
             </h1>
-            <h1 className="text-xl font-semibold text-gray-800 tracking-widest">
+            <h1 className="text-xl font-semibold text-gray-800 tracking-widest annotations-shimmer">
               Annotations Hub
             </h1>
           </div>

@@ -139,7 +139,7 @@ function AnnotationsCell({
   }
 
   return (
-    <td className={`px-4 py-3 ${isExpanded ? 'align-top' : 'align-middle'}`}>
+    <td className={`px-2 py-2 ${isExpanded ? 'align-top' : 'align-middle'}`}>
       {!isExpanded && (
         <div className="flex h-full items-center justify-center">
           <button
@@ -191,17 +191,18 @@ function AnnotationsCell({
                   annotationId ||
                   'Annotation'
                 return (
-                  <button
+                  <Button
                     key={`${datasetId || 'dataset'}-${annotationId || index}`}
                     type="button"
                     onClick={() =>
                       handleSelectAnnotation(datasetId, annotationId)
                     }
-                    className="flex w-full items-center justify-start rounded-md border border-teal-200 bg-teal-50 px-3 py-1 text-xs font-medium text-teal-700 hover:bg-teal-100"
+                    variant="primary"
+                    className="flex w-full items-center justify-start px-2 py-1 text-xs"
                   >
                     <span className="text-gray-500">{datasetLabel}</span>
                     <span className="ml-3">{annotationLabel}</span>
-                  </button>
+                  </Button>
                 )
               })}
             </div>
@@ -441,7 +442,7 @@ export function ModelsTable() {
               className="px-3 py-1.5 text-sm font-semibold"
               onClick={() => setIsImportOpen(true)}
             >
-              Import model
+              Import a model
             </Button>
           </div>
         )}
