@@ -15,6 +15,8 @@ interface ModelEditModalProps {
     algorithm_family?: string
     base_model_id?: string
   }) => void
+  isSaving?: boolean
+  errorMessage?: string | null
 }
 
 export function ModelEditModal({
@@ -23,6 +25,8 @@ export function ModelEditModal({
   allModels,
   onClose,
   onSubmit,
+  isSaving = false,
+  errorMessage = null,
 }: ModelEditModalProps) {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
@@ -129,7 +133,8 @@ export function ModelEditModal({
             />
           </div>
 
-          <ErrorMessage message={error} />
+          {error && <ErrorMessage message={error} />}
+          {!error && errorMessage && <ErrorMessage message={errorMessage} />}
         </div>
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-2">
@@ -137,6 +142,7 @@ export function ModelEditModal({
             onClick={onClose}
             type="button"
             className="px-3 py-1.5 text-sm font-semibold"
+            disabled={isSaving}
           >
             Cancel
           </Button>
@@ -144,8 +150,9 @@ export function ModelEditModal({
             type="submit"
             variant="primary"
             className="px-3 py-1.5 text-sm font-semibold"
+            disabled={isSaving}
           >
-            Save changes
+            {isSaving ? 'Saving...' : 'Save changes'}
           </Button>
         </div>
       </form>

@@ -13,10 +13,20 @@ export class ModelsService {
      * @returns model_Model OK
      * @throws ApiError
      */
-    public static getModels(): CancelablePromise<Array<model_Model>> {
+    public static getModels({
+        expand,
+    }: {
+        /**
+         * Include related entities
+         */
+        expand?: 'used_in_annotations',
+    }): CancelablePromise<Array<model_Model>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/models',
+            query: {
+                'expand': expand,
+            },
         });
     }
     /**
@@ -63,6 +73,34 @@ export class ModelsService {
                 'base_annotations': baseAnnotations,
                 'base_model_id': baseModelId,
             },
+        });
+    }
+    /**
+     * Update a Model
+     * Update an existing model.
+     * @returns model_Model OK
+     * @throws ApiError
+     */
+    public static putModels({
+        id,
+        model,
+    }: {
+        /**
+         * Model ID
+         */
+        id: string,
+        /**
+         * Updated model
+         */
+        model: model_Model,
+    }): CancelablePromise<model_Model> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/models/{id}',
+            path: {
+                'id': id,
+            },
+            body: model,
         });
     }
     /**

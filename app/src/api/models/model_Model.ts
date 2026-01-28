@@ -22,5 +22,6 @@ export type model_Model = {
     name?: string;
     type?: common_OCRModelType;
     readonly updated_at?: string;
+    used_in_annotations?: Array<model_AnnotationReference>;
 };
 

@@ -1,12 +1,12 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import { ModelsService } from '../api'
+import { ModelsService, type model_Model } from '../api'
 
-export const modelsQueryKey = () => ['models'] as const
+const modelsQueryKey = () => ['models'] as const
 
 export function useModelsQuery() {
   return useQuery({
     queryKey: modelsQueryKey(),
-    queryFn: () => ModelsService.getModels(),
+    queryFn: () => ModelsService.getModels({ expand: 'used_in_annotations' }),
   })
 }
 
@@ -18,6 +18,17 @@ export function useDeleteModelMutation() {
         id,
         deep: deep ? 'true' : undefined,
       }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: modelsQueryKey() })
+    },
+  })
+}
+
+export function useUpdateModelMutation() {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: ({ id, model }: { id: string; model: model_Model }) =>
+      ModelsService.putModels({ id, model }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: modelsQueryKey() })
     },

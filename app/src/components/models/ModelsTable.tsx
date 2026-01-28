@@ -5,11 +5,14 @@ import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
 import { DeleteAnnotationModal } from '../modal/DeleteAnnotationModal'
-import { useDeleteModelMutation, useModelsQuery } from '../../queries/models'
+import {
+  useDeleteModelMutation,
+  useModelsQuery,
+  useUpdateModelMutation,
+} from '../../queries/models'
 import { SearchInput } from '../core/SearchInput'
 import useLocalStorageState from 'use-local-storage-state'
 import { ModelEditModal } from './ModelEditModal'
-import { useQueryClient } from '@tanstack/react-query'
 import { useAppState } from '../../context/useAppState'
 import { useAuthStore } from '../../store/authStore.ts'
 import { Timestamp } from '../core/Timestamp'
@@ -45,9 +48,9 @@ const getSortValue = (model: model_Model, key: SortKey) => {
 }
 
 export function ModelsTable() {
-  const queryClient = useQueryClient()
   const { data: models, isLoading, error } = useModelsQuery()
   const deleteMutation = useDeleteModelMutation()
+  const updateMutation = useUpdateModelMutation()
   const [modelToDelete, setModelToDelete] = useState<model_Model | null>(null)
   const [modelToEdit, setModelToEdit] = useState<model_Model | null>(null)
   const { modelSearchPrefill, setModelSearchPrefill } = useAppState()
@@ -73,6 +76,12 @@ export function ModelsTable() {
       ? deleteMutation.error.body
       : deleteMutation.error
         ? String(deleteMutation.error)
+        : null
+  const updateErrorMessage =
+    updateMutation.error instanceof ApiError
+      ? updateMutation.error.body
+      : updateMutation.error
+        ? String(updateMutation.error)
         : null
 
   const queryErrorMessage =
@@ -159,9 +168,23 @@ export function ModelsTable() {
     if (!modelToEdit?.id) {
       return
     }
-    setModelToEdit(null)
-    queryClient.invalidateQueries({ queryKey: ['models'] })
-    void updates
+    updateMutation.mutate(
+      {
+        id: modelToEdit.id,
+        model: {
+          name: updates.name,
+          description: updates.description,
+          type: updates.type,
+          algorithm_family: updates.algorithm_family,
+          base_model_id: updates.base_model_id,
+        },
+      },
+      {
+        onSuccess: () => {
+          setModelToEdit(null)
+        },
+      },
+    )
   }
 
   const handleDelete = () => {
@@ -194,19 +217,20 @@ export function ModelsTable() {
   return (
     <div className="w-full h-full flex flex-col">
       <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white gap-4">
-        <div>
-          <h2 className="text-lg font-semibold text-gray-900">Models</h2>
-          <p className="text-xs text-gray-500">
-            {filteredRows.length}
-            {searchQuery && ` of ${rows.length}`}{' '}
-            {rows.length === 1 ? 'model' : 'models'}
-          </p>
-        </div>
-        <div className="w-full max-w-xs">
+        <div className="flex items-center gap-6">
+          <div>
+            <h2 className="text-lg font-semibold text-gray-900">Models</h2>
+            <p className="text-xs text-gray-500">
+              {filteredRows.length}
+              {searchQuery && ` of ${rows.length}`}{' '}
+              {rows.length === 1 ? 'model' : 'models'}
+            </p>
+          </div>
           <SearchInput
             value={searchQuery}
             onChange={setSearchQuery}
             placeholder="Search models..."
+            className="w-[22rem] max-w-full"
           />
         </div>
       </div>
@@ -335,6 +359,8 @@ export function ModelsTable() {
         allModels={rows}
         onClose={handleEditClose}
         onSubmit={handleEditSubmit}
+        isSaving={updateMutation.isPending}
+        errorMessage={updateErrorMessage}
       />
     </div>
   )
