@@ -447,27 +447,29 @@ export function ModelsTable() {
         )}
       </div>
 
-      <div className="flex-1 overflow-auto p-6">
-        {isLoading && <LoadingSpinner message="Loading models..." />}
-        {!isLoading && queryErrorMessage && (
-          <div className="mb-4">
-            <ErrorMessage message={queryErrorMessage} />
-          </div>
-        )}
+      <div className="flex-1 overflow-hidden px-2 py-4">
+        <div className="flex flex-col h-full">
+          {isLoading && <LoadingSpinner message="Loading models..." />}
+          {!isLoading && queryErrorMessage && (
+            <div className="mb-4">
+              <ErrorMessage message={queryErrorMessage} />
+            </div>
+          )}
 
-        {!isLoading && rows.length === 0 && !queryErrorMessage && (
-          <div className="text-sm text-gray-500">No models available.</div>
-        )}
+          {!isLoading && rows.length === 0 && !queryErrorMessage && (
+            <div className="text-sm text-gray-500">No models available.</div>
+          )}
 
-        {!isLoading && rows.length > 0 && filteredRows.length === 0 && (
-          <div className="text-sm text-gray-500">
-            No models match "{searchQuery.trim()}".
-          </div>
-        )}
+          {!isLoading && rows.length > 0 && filteredRows.length === 0 && (
+            <div className="text-sm text-gray-500">
+              No models match "{searchQuery.trim()}".
+            </div>
+          )}
 
-        {!isLoading && sortedRows.length > 0 && (
-          <div className="overflow-x-auto rounded-lg border border-gray-200 bg-white">
-            <table className="min-w-full text-sm">
+          {!isLoading && sortedRows.length > 0 && (
+            <div className="flex-1 min-h-0">
+              <div className="h-full overflow-auto rounded-lg border border-gray-200 bg-white">
+                <table className="min-w-full text-sm">
               <thead className="bg-gray-50 text-xs uppercase text-gray-500">
                 <tr>
                   <th className="px-4 py-3 text-left">
@@ -556,9 +558,11 @@ export function ModelsTable() {
                   )
                 })}
               </tbody>
-            </table>
-          </div>
-        )}
+                </table>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
       <DeleteAnnotationModal
