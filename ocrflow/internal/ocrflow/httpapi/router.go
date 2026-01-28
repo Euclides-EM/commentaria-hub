@@ -85,7 +85,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNum}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
 
 	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).CreateFile(h.UploadModel).Build())
-	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Build())
+	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Update(h.UpdateModel).Build())
 	api.HandleFunc("/train", httpwrapper.Create(h.TrainModel).Build())
 
 	api.HandleFunc("/annotation_rules", httpwrapper.Get(h.ListAnnotationRules).Build())

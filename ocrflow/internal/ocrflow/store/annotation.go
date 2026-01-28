@@ -114,6 +114,44 @@ func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*model.A
 	return annotations, nil
 }
 
+func (s *AnnotationSQL) ListAppliedRulesByAnnotationIDs() (map[string]map[string][]annotationrule.AnnotationRule, error) {
+	rows, err := s.db.Query(`
+		SELECT a.dataset_id, ar.annotation_id, r.rule_definition
+		FROM annotation_applied_rules ar
+		JOIN annotation_rules r ON r.id = ar.rule_id
+		JOIN annotations a ON a.id = ar.annotation_id
+		ORDER BY ar.annotation_id ASC, ar.applied_index ASC
+	`)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	result := make(map[string]map[string][]annotationrule.AnnotationRule)
+	for rows.Next() {
+		var datasetID string
+		var annotationID string
+		var raw string
+		if err := rows.Scan(&datasetID, &annotationID, &raw); err != nil {
+			return nil, err
+		}
+
+		rule, err := annotationrule.UnmarshalRuleJSON([]byte(raw))
+		if err != nil {
+			return nil, err
+		}
+		if _, ok := result[datasetID]; !ok {
+			result[datasetID] = make(map[string][]annotationrule.AnnotationRule)
+		}
+		result[datasetID][annotationID] = append(result[datasetID][annotationID], rule)
+	}
+
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+
+	return result, nil
+}
 func (s *AnnotationSQL) listAppliedRules(annotationID string) ([]annotationrule.AnnotationRule, error) {
 	rows, err := s.db.Query(`
 		SELECT r.rule_definition
@@ -380,7 +418,7 @@ func calculatePipelineStage(a *model.Annotation) annotationrule.PipelineStage {
 		s = annotationrule.PipelineStageOCR
 	}
 	if a.Segmented {
-		s = annotationrule.PipelineStageTextLineSegmentation
+		s = annotationrule.PipelineStageZoneSegmentation
 	}
 	for _, rule := range a.AppliedRules {
 		if rule == nil {

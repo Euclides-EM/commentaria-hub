@@ -123,3 +123,26 @@ func (m *Model) Delete(id string, fsClean bool) error {
 	}
 	return nil
 }
+
+func (m *Model) Update(id string, mo *model.Model) (any, error) {
+	existing, err := m.Get(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get existing model: %w", err)
+	}
+
+	existing.Meta.Name = mo.Meta.Name
+	existing.Meta.Description = mo.Meta.Description
+	existing.BaseAnnotations = mo.BaseAnnotations
+	existing.BaseModelID = mo.BaseModelID
+
+	if err := m.modelStore.UpdateModel(existing); err != nil {
+		return nil, fmt.Errorf("failed to update model in store: %w", err)
+	}
+
+	updatedModel, err := m.Get(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to retrieve updated model: %w", err)
+	}
+
+	return updatedModel, nil
+}
