@@ -470,94 +470,101 @@ export function ModelsTable() {
             <div className="flex-1 min-h-0">
               <div className="h-full overflow-auto rounded-lg border border-gray-200 bg-white">
                 <table className="min-w-full text-sm">
-              <thead className="bg-gray-50 text-xs uppercase text-gray-500">
-                <tr>
-                  <th className="px-4 py-3 text-left">
-                    {renderSortHeader('Base Annotations', 'baseAnnotations')}
-                  </th>
-                  <th className="px-4 py-3 text-left">
-                    {renderSortHeader('Model', 'name')}
-                  </th>
-                  <th className="px-4 py-3 text-left">
-                    {renderSortHeader('Type', 'type')}
-                  </th>
-                  <th className="px-4 py-3 text-left">
-                    {renderSortHeader('Algorithm', 'algorithm')}
-                  </th>
-                  <th className="px-4 py-3 text-left">
-                    {renderSortHeader('Base Model', 'base')}
-                  </th>
-                  <th className="px-4 py-3 text-left">
-                    {renderSortHeader('Used in Annotations', 'usedAnnotations')}
-                  </th>
-                  <th className="px-4 py-3 text-left">
-                    {renderSortHeader('Updated', 'updated')}
-                  </th>
-                  {isAuthenticated && (
-                    <th className="px-4 py-3 text-right"></th>
-                  )}
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {sortedRows.map((model, index) => {
-                  return (
-                    <tr
-                      key={model.id || model.name || `model-${index}`}
-                      className="hover:bg-gray-50"
-                    >
-                      <BaseAnnotationsCell model={model} />
-                      <td className="px-4 py-3">
-                        <div>
-                          <div className="font-medium text-gray-900">
-                            {getDisplayValue(model.name || model.id)}
-                          </div>
-                          {model.description && (
-                            <div className="text-xs text-gray-500 mt-1 max-w-xs whitespace-pre-line">
-                              {model.description.replace(/\\n/g, '\n')}
-                            </div>
-                          )}
-                        </div>
-                      </td>
-                      <td className="px-4 py-3 text-gray-700">
-                        {getDisplayValue(model.type)}
-                      </td>
-                      <td className="px-4 py-3 text-gray-700">
-                        {getDisplayValue(model.algorithm_family)}
-                      </td>
-                      <td className="px-4 py-3 text-gray-700">
-                        <span className="block max-w-[160px] truncate">
-                          {getDisplayValue(model.base_model_id)}
-                        </span>
-                      </td>
-                      <UsedAnnotationsCell model={model} />
-                      <td className="px-4 py-3 text-gray-700">
-                        <Timestamp
-                          date={model.updated_at || model.created_at}
-                        />
-                      </td>
+                  <thead className="bg-gray-50 text-xs uppercase text-gray-500">
+                    <tr>
+                      <th className="px-4 py-3 text-left">
+                        {renderSortHeader(
+                          'Base Annotations',
+                          'baseAnnotations',
+                        )}
+                      </th>
+                      <th className="px-4 py-3 text-left">
+                        {renderSortHeader('Model', 'name')}
+                      </th>
+                      <th className="px-4 py-3 text-left">
+                        {renderSortHeader('Type', 'type')}
+                      </th>
+                      <th className="px-4 py-3 text-left">
+                        {renderSortHeader('Algorithm', 'algorithm')}
+                      </th>
+                      <th className="px-4 py-3 text-left">
+                        {renderSortHeader('Base Model', 'base')}
+                      </th>
+                      <th className="px-4 py-3 text-left">
+                        {renderSortHeader(
+                          'Used in Annotations',
+                          'usedAnnotations',
+                        )}
+                      </th>
+                      <th className="px-4 py-3 text-left">
+                        {renderSortHeader('Updated', 'updated')}
+                      </th>
                       {isAuthenticated && (
-                        <td className="px-4 py-3">
-                          <div className="flex items-center justify-end gap-2">
-                            <Button
-                              className="px-2 py-1 text-xs"
-                              onClick={() => handleEditOpen(model)}
-                            >
-                              Edit
-                            </Button>
-                            <Button
-                              variant="danger"
-                              className="px-2 py-1 text-xs"
-                              onClick={() => setModelToDelete(model)}
-                            >
-                              Delete
-                            </Button>
-                          </div>
-                        </td>
+                        <th className="px-4 py-3 text-right"></th>
                       )}
                     </tr>
-                  )
-                })}
-              </tbody>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    {sortedRows.map((model, index) => {
+                      return (
+                        <tr
+                          key={model.id || model.name || `model-${index}`}
+                          className="hover:bg-gray-50"
+                        >
+                          <BaseAnnotationsCell model={model} />
+                          <td className="px-4 py-3">
+                            <div>
+                              <div className="font-medium text-gray-900">
+                                {getDisplayValue(model.name || model.id)}
+                              </div>
+                              {model.description && (
+                                <div className="text-xs text-gray-500 mt-1 max-w-xs whitespace-pre-line">
+                                  {model.description.replace(/\\n/g, '\n')}
+                                </div>
+                              )}
+                            </div>
+                          </td>
+                          <td className="px-4 py-3 text-gray-700">
+                            {getDisplayValue(model.type)}
+                          </td>
+                          <td className="px-4 py-3 text-gray-700">
+                            {getDisplayValue(model.algorithm_family)}
+                          </td>
+                          <td className="px-4 py-3 text-gray-700">
+                            <span className="block max-w-[160px] truncate">
+                              {getDisplayValue(model.base_model_id)}
+                            </span>
+                          </td>
+                          <UsedAnnotationsCell model={model} />
+                          <td className="px-4 py-3 text-gray-700">
+                            <Timestamp
+                              hideFullDate
+                              date={model.updated_at || model.created_at}
+                            />
+                          </td>
+                          {isAuthenticated && (
+                            <td className="px-4 py-3">
+                              <div className="flex items-center justify-end gap-2">
+                                <Button
+                                  className="px-2 py-1 text-xs"
+                                  onClick={() => handleEditOpen(model)}
+                                >
+                                  Edit
+                                </Button>
+                                <Button
+                                  variant="danger"
+                                  className="px-2 py-1 text-xs"
+                                  onClick={() => setModelToDelete(model)}
+                                >
+                                  Delete
+                                </Button>
+                              </div>
+                            </td>
+                          )}
+                        </tr>
+                      )
+                    })}
+                  </tbody>
                 </table>
               </div>
             </div>
