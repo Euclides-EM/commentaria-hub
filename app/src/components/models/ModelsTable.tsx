@@ -22,6 +22,7 @@ import { useAppState } from '../../context/useAppState'
 import { useAuthStore } from '../../store/authStore.ts'
 import { Timestamp } from '../core/Timestamp'
 import { ModelImportModal } from './ModelImportModal'
+import { useDatasetsQuery } from '../../queries/datasets'
 import { useQueries } from '@tanstack/react-query'
 
 const getDisplayValue = (value?: string) => value?.trim() || '—'
@@ -32,6 +33,7 @@ type SortKey =
   | 'algorithm'
   | 'base'
   | 'baseAnnotations'
+  | 'usedAnnotations'
   | 'updated'
 type SortDirection = 'asc' | 'desc'
 
@@ -52,6 +54,8 @@ const getSortValue = (model: model_Model, key: SortKey) => {
       return (model.base_model_id || '').toLowerCase()
     case 'baseAnnotations':
       return model.base_annotations?.length ?? 0
+    case 'usedAnnotations':
+      return model.used_in_annotations?.length ?? 0
     case 'updated': {
       const raw = model.updated_at || model.created_at
       const time = raw ? new Date(raw).getTime() : 0
@@ -64,20 +68,34 @@ const getSortValue = (model: model_Model, key: SortKey) => {
 
 type BaseAnnotationLookup = Record<string, model_Annotation[]>
 
-function BaseAnnotationsCell({ model }: { model: model_Model }) {
+function AnnotationsCell({
+  references,
+}: {
+  references: model_Model['base_annotations']
+}) {
   const { setState } = useAppState()
   const [isExpanded, setIsExpanded] = useState(false)
-  const baseAnnotations = useMemo(() => model.base_annotations ?? [], [model.base_annotations])
-  const baseCount = baseAnnotations.length
+  const { data: datasets } = useDatasetsQuery()
+  const annotations = useMemo(() => references ?? [], [references])
+  const baseCount = annotations.length
+  const datasetNameById = useMemo(() => {
+    const lookup = new Map<string, string>()
+    datasets?.forEach((dataset) => {
+      if (dataset.id) {
+        lookup.set(dataset.id, dataset.name || dataset.id)
+      }
+    })
+    return lookup
+  }, [datasets])
   const datasetIds = useMemo(() => {
     const seen = new Set<string>()
-    baseAnnotations.forEach((ref) => {
+    annotations.forEach((ref) => {
       if (ref.dataset_id) {
         seen.add(ref.dataset_id)
       }
     })
     return Array.from(seen)
-  }, [baseAnnotations])
+  }, [annotations])
 
   const annotationQueries = useQueries({
     queries: datasetIds.map((datasetId) => ({
@@ -117,22 +135,24 @@ function BaseAnnotationsCell({ model }: { model: model_Model }) {
   }
 
   if (baseCount === 0) {
-    return <td className="px-4 py-3 text-center text-xs text-gray-400">0</td>
+    return <td className="px-4 py-3 text-center text-xs text-gray-400">None</td>
   }
 
   return (
-    <td className="px-4 py-3 align-top">
+    <td className={`px-4 py-3 ${isExpanded ? 'align-top' : 'align-middle'}`}>
       {!isExpanded && (
-        <button
-          type="button"
-          onClick={() => setIsExpanded(true)}
-          className="inline-flex items-center justify-center rounded-full border border-gray-200 px-2 py-0.5 text-xs font-semibold text-gray-600 hover:border-gray-300 hover:text-gray-800"
-        >
-          {baseCount}
-        </button>
+        <div className="flex h-full items-center justify-center">
+          <button
+            type="button"
+            onClick={() => setIsExpanded(true)}
+            className="inline-flex items-center justify-center rounded-full border border-gray-200 px-2 py-0.5 text-xs font-semibold text-gray-600 hover:border-gray-300 hover:text-gray-800"
+          >
+            {baseCount}
+          </button>
+        </div>
       )}
       {isExpanded && (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col items-center gap-2">
           <button
             type="button"
             onClick={() => setIsExpanded(false)}
@@ -152,8 +172,8 @@ function BaseAnnotationsCell({ model }: { model: model_Model }) {
             </span>
           )}
           {!isLoading && !hasError && (
-            <div className="flex flex-wrap gap-2">
-              {baseAnnotations.map((ref, index) => {
+            <div className="flex w-full flex-col gap-2">
+              {annotations.map((ref, index) => {
                 const datasetId = ref.dataset_id
                 const annotationId = ref.id
                 const annotation =
@@ -162,7 +182,10 @@ function BaseAnnotationsCell({ model }: { model: model_Model }) {
                         (item) => item.id === annotationId,
                       )
                     : null
-                const label =
+                const datasetLabel = datasetId
+                  ? datasetNameById.get(datasetId) || datasetId
+                  : 'Dataset'
+                const annotationLabel =
                   annotation?.name ||
                   annotation?.id ||
                   annotationId ||
@@ -174,9 +197,10 @@ function BaseAnnotationsCell({ model }: { model: model_Model }) {
                     onClick={() =>
                       handleSelectAnnotation(datasetId, annotationId)
                     }
-                    className="inline-flex items-center rounded-full bg-teal-50 px-2 py-0.5 text-xs font-medium text-teal-700 hover:bg-teal-100"
+                    className="flex w-full items-center justify-start rounded-md border border-teal-200 bg-teal-50 px-3 py-1 text-xs font-medium text-teal-700 hover:bg-teal-100"
                   >
-                    {label}
+                    <span className="text-gray-500">{datasetLabel}</span>
+                    <span className="ml-3">{annotationLabel}</span>
                   </button>
                 )
               })}
@@ -186,6 +210,14 @@ function BaseAnnotationsCell({ model }: { model: model_Model }) {
       )}
     </td>
   )
+}
+
+function BaseAnnotationsCell({ model }: { model: model_Model }) {
+  return <AnnotationsCell references={model.base_annotations} />
+}
+
+function UsedAnnotationsCell({ model }: { model: model_Model }) {
+  return <AnnotationsCell references={model.used_in_annotations} />
 }
 
 export function ModelsTable() {
@@ -341,6 +373,7 @@ export function ModelsTable() {
     name: string
     description?: string
     baseModelId?: string
+    baseAnnotations?: string
   }) => {
     createMutation.mutate(payload, {
       onSuccess: () => {
@@ -353,7 +386,15 @@ export function ModelsTable() {
     if (!modelToDelete?.id) {
       return
     }
-    deleteMutation.mutate({ id: modelToDelete.id })
+    deleteMutation.mutate(
+      { id: modelToDelete.id },
+      {
+        onSuccess: () => {
+          setModelToDelete(null)
+          deleteMutation.reset()
+        },
+      },
+    )
   }
 
   const handleDeleteCancel = () => {
@@ -365,13 +406,6 @@ export function ModelsTable() {
     setIsImportOpen(false)
     createMutation.reset()
   }
-
-  useEffect(() => {
-    if (deleteMutation.isSuccess) {
-      setModelToDelete(null)
-      deleteMutation.reset()
-    }
-  }, [deleteMutation.isSuccess, deleteMutation.reset])
 
   useEffect(() => {
     if (!modelSearchPrefill) {
@@ -452,6 +486,9 @@ export function ModelsTable() {
                     {renderSortHeader('Base Model', 'base')}
                   </th>
                   <th className="px-4 py-3 text-left">
+                    {renderSortHeader('Used in Annotations', 'usedAnnotations')}
+                  </th>
+                  <th className="px-4 py-3 text-left">
                     {renderSortHeader('Updated', 'updated')}
                   </th>
                   {isAuthenticated && (
@@ -490,6 +527,7 @@ export function ModelsTable() {
                           {getDisplayValue(model.base_model_id)}
                         </span>
                       </td>
+                      <UsedAnnotationsCell model={model} />
                       <td className="px-4 py-3 text-gray-700">
                         <Timestamp
                           date={model.updated_at || model.created_at}
@@ -535,22 +573,26 @@ export function ModelsTable() {
         onCancel={handleDeleteCancel}
         onConfirm={handleDelete}
       />
-      <ModelEditModal
-        model={modelToEdit}
-        allModels={rows}
-        onClose={handleEditClose}
-        onSubmit={handleEditSubmit}
-        isSaving={updateMutation.isPending}
-        errorMessage={updateErrorMessage}
-      />
-      <ModelImportModal
-        isOpen={isImportOpen}
-        models={rows}
-        onClose={handleImportClose}
-        onSubmit={handleImportSubmit}
-        isSaving={createMutation.isPending}
-        errorMessage={createErrorMessage}
-      />
+      {modelToEdit && (
+        <ModelEditModal
+          model={modelToEdit}
+          allModels={rows}
+          onClose={handleEditClose}
+          onSubmit={handleEditSubmit}
+          isSaving={updateMutation.isPending}
+          errorMessage={updateErrorMessage}
+        />
+      )}
+      {isImportOpen && (
+        <ModelImportModal
+          isOpen={isImportOpen}
+          models={rows}
+          onClose={handleImportClose}
+          onSubmit={handleImportSubmit}
+          isSaving={createMutation.isPending}
+          errorMessage={createErrorMessage}
+        />
+      )}
     </div>
   )
 }

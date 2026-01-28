@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type FormEvent } from 'react'
+import { useMemo, useState, type FormEvent } from 'react'
 import type { model_Model } from '../../api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
@@ -28,19 +28,12 @@ export function ModelEditModal({
   isSaving = false,
   errorMessage = null,
 }: ModelEditModalProps) {
-  const [name, setName] = useState('')
-  const [description, setDescription] = useState('')
-  const [baseModelId, setBaseModelId] = useState<string | null>(null)
+  const [name, setName] = useState(() => model?.name || '')
+  const [description, setDescription] = useState(() => model?.description || '')
+  const [baseModelId, setBaseModelId] = useState<string | null>(
+    () => model?.base_model_id || null,
+  )
   const [error, setError] = useState<string | null>(null)
-
-  useEffect(() => {
-    if (model) {
-      setName(model.name || '')
-      setDescription(model.description || '')
-      setBaseModelId(model.base_model_id || null)
-      setError(null)
-    }
-  }, [model])
 
   const baseModelOptions = useMemo(() => {
     return allModels

@@ -42,11 +42,7 @@ export class TopLevelErrorBoundary extends Component<
       return (
         <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6">
           <div className="max-w-lg w-full rounded-xl border border-gray-200 bg-white shadow-sm">
-            <ErrorFallback
-              error={error}
-              onRetry={this.handleRetry}
-              message="The app hit a snag. Give it another try."
-            />
+            <ErrorFallback error={error} onRetry={this.handleRetry} />
           </div>
         </div>
       )

@@ -3,16 +3,20 @@ import { ErrorMessage } from './ErrorMessage'
 interface ErrorFallbackProps {
   error: Error
   onRetry?: () => void
-  message?: string
 }
 
-export function ErrorFallback({ error, onRetry, message }: ErrorFallbackProps) {
+export function ErrorFallback({ error, onRetry }: ErrorFallbackProps) {
   return (
     <div className="flex flex-col items-center justify-center p-6 text-center">
       <div className="text-red-500 text-2xl mb-2">⚠️</div>
       <h3 className="text-lg font-semibold text-gray-900 mb-2">
-        {message || 'Something went wrong'}
+        Q.E.D. (Quite Embarrassing, Dang.)
       </h3>
+      <div className="mb-2">
+        <span className="text-sm pb-2">
+          We’ve hit a point that doesn't follow the axioms:
+        </span>
+      </div>
       <div className="mb-4">
         <ErrorMessage error={error} variant="muted" />
       </div>

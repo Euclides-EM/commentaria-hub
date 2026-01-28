@@ -32,16 +32,19 @@ export function useCreateModelMutation() {
       name,
       description,
       baseModelId,
+      baseAnnotations,
     }: {
       file: File
       name: string
       description?: string
       baseModelId?: string
+      baseAnnotations?: string
     }) =>
       ModelsService.postModels({
         file,
         name,
         description,
+        baseAnnotations,
         baseModelId,
       }),
     onSuccess: () => {
