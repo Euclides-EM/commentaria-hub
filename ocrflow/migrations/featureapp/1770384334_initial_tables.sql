@@ -1,8 +1,8 @@
 -- Feature (ocrflow.Meta + IsRoot, IsDefault)
 CREATE TABLE IF NOT EXISTS features (
     id          TEXT PRIMARY KEY NOT NULL,
-    created_at  TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
-    updated_at  TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
+    created_at  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     name        TEXT NOT NULL DEFAULT '',
     description TEXT NOT NULL DEFAULT '',
     is_root     INTEGER NOT NULL DEFAULT 0,
@@ -15,8 +15,8 @@ CREATE INDEX IF NOT EXISTS idx_features_updated_at ON features(updated_at);
 CREATE TABLE IF NOT EXISTS feature_revisions (
     id                   TEXT PRIMARY KEY NOT NULL,
     feature_id            TEXT NOT NULL,
-    created_at            TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
-    updated_at            TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
+    created_at            TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at            TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     name                  TEXT NOT NULL DEFAULT '',
     description           TEXT NOT NULL DEFAULT '',
     prompt                TEXT NOT NULL DEFAULT '',
@@ -43,8 +43,8 @@ CREATE TABLE IF NOT EXISTS feature_revision_features (
 -- FeatureExecution (ocrflow.Meta + Collection, Keys, Policy, Status)
 CREATE TABLE IF NOT EXISTS feature_executions (
     id             TEXT PRIMARY KEY NOT NULL,
-    created_at     TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
-    updated_at     TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
+    created_at     TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at     TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     name           TEXT NOT NULL DEFAULT '',
     description    TEXT NOT NULL DEFAULT '',
     collection     TEXT NOT NULL,
