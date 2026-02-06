@@ -1,28 +1,29 @@
 package featureplat
 
 import (
-	"encoding/csv"
 	"fmt"
-	"os"
-	"path/filepath"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
+	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
 )
 
 type TEI struct {
-	resultSvc *Result
-	csvPath   string
+	resultSvc              *Result
+	tpsTranscriptionsStore *fpstore.TPSTranscriptions
 }
 
-func NewTEI(resultSvc *Result) *TEI {
+func NewTEI(resultSvc *Result, tpsTranscriptionsStore *fpstore.TPSTranscriptions) *TEI {
 	return &TEI{
-		resultSvc: resultSvc,
-		csvPath:   "internal/store/paratext_transcriptions.csv",
+		resultSvc:              resultSvc,
+		tpsTranscriptionsStore: tpsTranscriptionsStore,
 	}
 }
 
 func (t *TEI) GetTEI(collectionId, key, features string) ([]byte, error) {
+
+	// todo: current impl handles overlaps badly + no normalized + multiple occurrences not really working...
+
 	if collectionId != "tps" {
 		return nil, fmt.Errorf("TEI generation only supported for collection 'tps'")
 	}
@@ -32,9 +33,9 @@ func (t *TEI) GetTEI(collectionId, key, features string) ([]byte, error) {
 	}
 
 	// Read CSV to get title and imprint
-	title, imprint, err := t.readCSVRow(key)
+	title, imprint, err := t.tpsTranscriptionsStore.Get(key)
 	if err != nil {
-		return nil, fmt.Errorf("failed to read CSV: %w", err)
+		return nil, fmt.Errorf("failed to get transcription for key %s: %w", key, err)
 	}
 
 	// Parse features filter
@@ -58,79 +59,6 @@ func (t *TEI) GetTEI(collectionId, key, features string) ([]byte, error) {
 	// Generate TEI XML
 	teiXML := t.generateTEI(key, title, imprint, results)
 	return []byte(teiXML), nil
-}
-
-func (t *TEI) readCSVRow(key string) (string, string, error) {
-	// Try to find the CSV file relative to current working directory or use absolute path
-	var absPath string
-	if filepath.IsAbs(t.csvPath) {
-		absPath = t.csvPath
-	} else {
-		// Try relative to current directory first
-		if _, err := os.Stat(t.csvPath); err == nil {
-			absPath, _ = filepath.Abs(t.csvPath)
-		} else {
-			// Try from project root
-			absPath, err = filepath.Abs(t.csvPath)
-			if err != nil {
-				return "", "", err
-			}
-		}
-	}
-
-	file, err := os.Open(absPath)
-	if err != nil {
-		return "", "", err
-	}
-	defer file.Close()
-
-	reader := csv.NewReader(file)
-	records, err := reader.ReadAll()
-	if err != nil {
-		return "", "", err
-	}
-
-	// Find header row
-	if len(records) == 0 {
-		return "", "", fmt.Errorf("CSV file is empty")
-	}
-
-	headers := records[0]
-	keyIdx := -1
-	titleIdx := -1
-	imprintIdx := -1
-
-	for i, h := range headers {
-		switch strings.ToLower(strings.TrimSpace(h)) {
-		case "key":
-			keyIdx = i
-		case "title":
-			titleIdx = i
-		case "imprint":
-			imprintIdx = i
-		}
-	}
-
-	if keyIdx == -1 || titleIdx == -1 || imprintIdx == -1 {
-		return "", "", fmt.Errorf("CSV missing required columns: key, title, imprint")
-	}
-
-	// Find the row with matching key
-	for _, record := range records[1:] {
-		if len(record) > keyIdx && strings.TrimSpace(record[keyIdx]) == key {
-			title := ""
-			imprint := ""
-			if len(record) > titleIdx {
-				title = record[titleIdx]
-			}
-			if len(record) > imprintIdx {
-				imprint = record[imprintIdx]
-			}
-			return title, imprint, nil
-		}
-	}
-
-	return "", "", fmt.Errorf("key '%s' not found in CSV", key)
 }
 
 func (t *TEI) generateTEI(key, title, imprint string, results []*featureplat.FeatureResult) string {

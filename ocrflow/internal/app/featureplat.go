@@ -36,6 +36,7 @@ func NewFeaturePlatform() (*FeaturePlatform, error) {
 	featureRevisionStore := storefeatureplat.NewFeatureRevisionSQL(sqlDB)
 	featureExecutionStore := storefeatureplat.NewFeatureExecutionSQL(sqlDB)
 	featureResultStore := storefeatureplat.NewFeatureResultSQL(sqlDB)
+	tpsTranscriptionsStore := storefeatureplat.NewTPSTranscriptions()
 
 	featureResultSvc := featureplat.NewResult(featureResultStore)
 	deps := &api.Dependencies{
@@ -45,7 +46,7 @@ func NewFeaturePlatform() (*FeaturePlatform, error) {
 		FeatureRevisionSvc:  featureplat.NewRevision(featureRevisionStore),
 		FeatureResultSvc:    featureResultSvc,
 		FeatureExecutionSvc: featureplat.NewExecution(featureExecutionStore),
-		TEISvc:              featureplat.NewTEI(featureResultSvc),
+		TEISvc:              featureplat.NewTEI(featureResultSvc, tpsTranscriptionsStore),
 	}
 
 	router := api.NewFeatureAppRouter(deps)
