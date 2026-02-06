@@ -21,7 +21,7 @@ func NewFeatureExecutionSQL(db *sql.DB) *FeatureExecutionSQL {
 
 func (s *FeatureExecutionSQL) List(collectionId string, featureIDs []string, statuses []featureplat.FeatureExecutionStatus) ([]*featureplat.FeatureExecution, error) {
 	query := `
-		SELECT id, created_at, updated_at, name, description, keys, policy_skip_if, status
+		SELECT id, created_at, updated_at, name, description, collection, keys, policy_skip_if, status
 		FROM feature_executions
 	`
 	var args []any

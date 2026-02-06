@@ -19,7 +19,6 @@ import (
 // @Param collection query string false "Filter by collection ID"
 // @Param features query string false "Filter by delimited list of feature IDs"
 // @Param statuses query string false "Filter by delimited list of execution statuses" Enums(pending, running, completed, failed)
-// @Security 	 BearerAuth
 // @Router       /executions [get]
 func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
 	collection := r.URL.Query().Get("collection")
@@ -73,7 +72,6 @@ func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
 // @Produce      json
 // @Success      200  {object}  featureplat.FeatureExecution
 // @Param executionId path string true "Execution ID"
-// @Security 	 BearerAuth
 // @Router       /executions/{executionId} [get]
 func (h *Handlers) GetExecution(r *http.Request) (any, error) {
 	executionId, err := extractExecutionID(r)
@@ -113,7 +111,7 @@ func (h *Handlers) CreateExecution(r *http.Request) (any, error) {
 // @Produce      json
 // @Success      200  {object}  map[string]string "status: cancelled"
 // @Security 	 BearerAuth
-// @Router       /executions/{executionId}/cancel [post]
+// @Router       /executions/{executionId}/cancel [put]
 func (h *Handlers) CancelExecution(r *http.Request) (any, error) {
 	executionId, err := extractExecutionID(r)
 	if err != nil {
