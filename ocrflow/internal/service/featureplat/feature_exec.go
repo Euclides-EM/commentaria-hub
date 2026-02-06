@@ -2,6 +2,9 @@ package featureplat
 
 import (
 	"fmt"
+	"math/rand"
+	"sync"
+	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
@@ -10,6 +13,7 @@ import (
 
 type Execution struct {
 	store *fpstore.FeatureExecutionSQL
+	mu    sync.Mutex // Protects status updates in goroutines
 }
 
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionSQL).
@@ -31,6 +35,28 @@ func (fe *Execution) CreateFeatureExecution(exec *featureplat.FeatureExecution) 
 	if err := fe.store.Create(exec); err != nil {
 		return nil, err
 	}
+
+	// Start a goroutine that will update the status after 60 seconds
+	go func(executionID string) {
+		time.Sleep(60 * time.Second)
+		fe.mu.Lock()
+		defer fe.mu.Unlock()
+		// Check current status to avoid overwriting if it was canceled
+		currentExec, err := fe.store.GetByID(executionID)
+		if err != nil {
+			return
+		}
+		// Only update if still in progress
+		if currentExec.Status == featureplat.FeatureExecutionStatusInProgress {
+			// 80% probability of success, 20% probability of failed
+			if rand.Float64() < 0.8 {
+				_ = fe.store.UpdateStatus(executionID, featureplat.FeatureExecutionStatusSuccess)
+			} else {
+				_ = fe.store.UpdateStatus(executionID, featureplat.FeatureExecutionStatusFailed)
+			}
+		}
+	}(exec.ID)
+
 	return exec, nil
 }
 
@@ -46,5 +72,22 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*featureplat.Fe
 		return nil, err
 	}
 	exec.Status = featureplat.FeatureExecutionStatusCanceling
+
+	// Start a goroutine that will update the status from canceling to canceled after 30 seconds
+	go func(executionID string) {
+		time.Sleep(30 * time.Second)
+		fe.mu.Lock()
+		defer fe.mu.Unlock()
+		// Check current status to ensure it's still canceling
+		currentExec, err := fe.store.GetByID(executionID)
+		if err != nil {
+			return
+		}
+		// Only update if still in canceling state
+		if currentExec.Status == featureplat.FeatureExecutionStatusCanceling {
+			_ = fe.store.UpdateStatus(executionID, featureplat.FeatureExecutionStatusCanceled)
+		}
+	}(executionId)
+
 	return exec, nil
 }
