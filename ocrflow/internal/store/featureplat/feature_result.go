@@ -122,8 +122,21 @@ func scanFeatureResult(scanner func(...any) error) (*featureplat.FeatureResult, 
 	}
 
 	if valuesJSON != "" && valuesJSON != "[]" {
-		if err := json.Unmarshal([]byte(valuesJSON), &res.Values); err != nil {
-			return nil, fmt.Errorf("failed to parse values JSON: %w", err)
+		// Try to unmarshal as array of strings first (legacy format)
+		var stringValues []string
+		if err := json.Unmarshal([]byte(valuesJSON), &stringValues); err == nil {
+			// Convert strings to FeatureResultValue objects
+			res.Values = make([]featureplat.FeatureResultValue, len(stringValues))
+			for i, s := range stringValues {
+				res.Values[i] = featureplat.FeatureResultValue{
+					Root: s,
+				}
+			}
+		} else {
+			// Try to unmarshal as array of FeatureResultValue objects
+			if err := json.Unmarshal([]byte(valuesJSON), &res.Values); err != nil {
+				return nil, fmt.Errorf("failed to parse values JSON: %w", err)
+			}
 		}
 	}
 

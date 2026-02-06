@@ -12,7 +12,7 @@ import "net/http"
 // @Produce      xml
 // @Success      200  {string}  string "TEI XML data"
 // @Router       /collections/{id}/tei [get]
-func (h *Handlers) GetTEI(r *http.Request) (any, error) {
+func (h *Handlers) GetTEI(r *http.Request) ([]byte, error) {
 	collectionId, err := extractCollectionID(r)
 	if err != nil {
 		return nil, err

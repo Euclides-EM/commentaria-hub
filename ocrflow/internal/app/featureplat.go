@@ -37,14 +37,15 @@ func NewFeaturePlatform() (*FeaturePlatform, error) {
 	featureExecutionStore := storefeatureplat.NewFeatureExecutionSQL(sqlDB)
 	featureResultStore := storefeatureplat.NewFeatureResultSQL(sqlDB)
 
+	featureResultSvc := featureplat.NewResult(featureResultStore)
 	deps := &api.Dependencies{
 		Env:                 env,
 		HealthSvc:           healthSvc,
 		FeatureSvc:          featureplat.NewFeature(featureStore),
 		FeatureRevisionSvc:  featureplat.NewRevision(featureRevisionStore),
-		FeatureResultSvc:    featureplat.NewResult(featureResultStore),
+		FeatureResultSvc:    featureResultSvc,
 		FeatureExecutionSvc: featureplat.NewExecution(featureExecutionStore),
-		TEISvc:              featureplat.NewTEI(),
+		TEISvc:              featureplat.NewTEI(featureResultSvc),
 	}
 
 	router := api.NewFeatureAppRouter(deps)

@@ -33,7 +33,7 @@ func NewFeatureAppRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/collections/{collectionId}/results", httpwrapper.Get(h.ListResults).Create(h.CreateResult).Build())
 
 	// GET /collections/{id}/tei?key=Paris_1667&features=feature1,feature2
-	api.HandleFunc("/collections/{collectionId}/tei", httpwrapper.Get(h.GetTEI).Build())
+	api.HandleFunc("/collections/{collectionId}/tei", httpwrapper.GetXML(h.GetTEI).Build())
 
 	// mount API under /api/v1
 	root.Handle("/api/v1/", http.StripPrefix("/api/v1", api))
