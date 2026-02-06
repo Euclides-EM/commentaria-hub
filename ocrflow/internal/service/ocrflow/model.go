@@ -82,7 +82,7 @@ func (m *Model) Upload(file multipart.File, filename, name, description string, 
 	dstFilename := fmt.Sprintf("%s%s", id, ext)
 
 	mo := &ocrflow.Model{
-		Meta:            ocrflow.NewMeta(id).WithName(name).WithDescription(description),
+		Meta:            common.NewMeta(id).WithName(name).WithDescription(description),
 		Type:            modelType,
 		Location:        ocrflow.OCRModelLocationLocal,
 		LocalPath:       dstFilename,

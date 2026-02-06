@@ -2,10 +2,11 @@ package ocrflow
 
 import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 )
 
 type Annotation struct {
-	Meta               `json:",inline"`
+	common.Meta        `json:",inline"`
 	Pages              string                         `json:"pages"`
 	Segmented          bool                           `json:"segmented" readonly:"true"`
 	GroundTruth        bool                           `json:"ground_truth"`

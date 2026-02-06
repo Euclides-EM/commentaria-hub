@@ -107,7 +107,7 @@ func (tm *Train) TrainYolo(t *ocrflow.Training) (*ocrflow.Training, error) {
 		m := &ocrflow.Model{
 			Type:            common.OCRModelTypeSegment,
 			AlgorithmFamily: ocrflow.OCRModelAlgorithmFamilyYOLO,
-			Meta:            ocrflow.NewMeta(idgen.GenerateID(store.ModelIDPrefix)).WithName(t.Name).WithDescription(t.Description),
+			Meta:            common.NewMeta(idgen.GenerateID(store.ModelIDPrefix)).WithName(t.Name).WithDescription(t.Description),
 			// todo Categories...
 		}
 		if err := tm.modelSvc.Create(m, path.Join(oPath, "weights", "best.pt")); err != nil {

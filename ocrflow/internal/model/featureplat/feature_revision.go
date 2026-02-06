@@ -1,11 +1,12 @@
 package featureplat
 
 import (
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 )
 
 type FeatureRevision struct {
-	ocrflow.Meta
+	common.Meta
+	CollectionID      string                   `json:"collection_id"`                      // collection scope
 	Prompt            string                   `json:"prompt"`                             // only if execution_strategy=prompt
 	Regex             string                   `json:"regex"`                              // only if execution_strategy=regex
 	ExecutionStrategy FeatureExecutionStrategy `json:"execution_strategy"`                 // "prompt" or "regex"

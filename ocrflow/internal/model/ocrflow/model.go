@@ -16,7 +16,7 @@ const (
 )
 
 type Model struct {
-	Meta            `json:",inline"`
+	common.Meta     `json:",inline"`
 	Type            common.OCRModelType     `json:"type"`
 	Location        OCRModelLocation        `json:"location"`
 	AlgorithmFamily OCRModelAlgorithmFamily `json:"algorithm_family,omitempty"`

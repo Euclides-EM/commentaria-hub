@@ -7,6 +7,7 @@ import (
 	"slices"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
@@ -103,7 +104,7 @@ func (a *Annotation) CreateFromZip(aum *ocrflow.AnnotationUploadMetadata, save f
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
 	ann := &ocrflow.Annotation{
-		Meta:               ocrflow.NewMeta(idgen.GenerateID(store.AnnotationIDPrefix)).WithName(aum.Name).WithDescription(aum.Description),
+		Meta:               common.NewMeta(idgen.GenerateID(store.AnnotationIDPrefix)).WithName(aum.Name).WithDescription(aum.Description),
 		DatasetID:          aum.DatasetID,
 		Segmented:          aum.Segmented,
 		GroundTruth:        aum.GroundTruth,

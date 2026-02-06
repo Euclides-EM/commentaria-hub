@@ -1,11 +1,11 @@
 package featureplat
 
 import (
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 )
 
 type FeatureExecution struct {
-	ocrflow.Meta
+	common.Meta
 	Collection string                      `json:"collection"`
 	Keys       []string                    `json:"keys,omitempty"` // if not provided -> run on all keys.
 	Apply      []FeatureExecutionApplyItem `json:"apply"`

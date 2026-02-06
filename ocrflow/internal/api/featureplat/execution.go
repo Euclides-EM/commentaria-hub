@@ -32,7 +32,7 @@ func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
 
 	var featureIds []string
 	if collection != "" || features == "" {
-		fs, err := h.deps.FeatureSvc.ListFeatures(nil)
+		fs, err := h.deps.FeatureSvc.ListFeatures(collection, nil)
 		if err != nil {
 			return nil, err
 		}

@@ -7,11 +7,11 @@ import (
 
 // FeatureStore is the minimal store interface used by the feature service.
 type FeatureStore interface {
-	List() ([]*featureplat.Feature, error)
-	GetByID(id string) (*featureplat.Feature, error)
+	List(collectionID string) ([]*featureplat.Feature, error)
+	GetByID(collectionID, id string) (*featureplat.Feature, error)
 	Create(f *featureplat.Feature) error
-	Update(id string, f *featureplat.Feature) error
-	Delete(id string) error
+	Update(collectionID, id string, f *featureplat.Feature) error
+	Delete(collectionID, id string) error
 }
 
 type Feature struct {
@@ -23,8 +23,8 @@ func NewFeature(store FeatureStore) *Feature {
 	return &Feature{store: store}
 }
 
-func (f *Feature) ListFeatures(expandOptions []featureplat.FeatureExpandOptions) ([]*featureplat.Feature, error) {
-	fs, err := f.store.List()
+func (f *Feature) ListFeatures(collectionID string, expandOptions []featureplat.FeatureExpandOptions) ([]*featureplat.Feature, error) {
+	fs, err := f.store.List(collectionID)
 	if err != nil {
 		return nil, err
 	}
@@ -33,7 +33,8 @@ func (f *Feature) ListFeatures(expandOptions []featureplat.FeatureExpandOptions)
 	return fs, nil
 }
 
-func (f *Feature) CreateFeature(m *featureplat.Feature) (*featureplat.Feature, error) {
+func (f *Feature) CreateFeature(collectionID string, m *featureplat.Feature) (*featureplat.Feature, error) {
+	m.CollectionID = collectionID
 	m.ID = idgen.GenerateID("fea")
 	if err := f.store.Create(m); err != nil {
 		return nil, err
@@ -45,11 +46,11 @@ func (f *Feature) Delete(collectionId, id string, force bool) error {
 	if _, err := f.GetFeature(collectionId, id, nil); err != nil {
 		return err
 	}
-	return f.store.Delete(id)
+	return f.store.Delete(collectionId, id)
 }
 
 func (f *Feature) GetFeature(collectionId, id string, expandOptions []featureplat.FeatureExpandOptions) (*featureplat.Feature, error) {
-	feat, err := f.store.GetByID(id)
+	feat, err := f.store.GetByID(collectionId, id)
 	if err != nil {
 		return nil, err
 	}
@@ -58,14 +59,14 @@ func (f *Feature) GetFeature(collectionId, id string, expandOptions []featurepla
 }
 
 func (f *Feature) UpdateFeature(collectionId, id string, updated *featureplat.Feature) (*featureplat.Feature, error) {
-	existing, err := f.store.GetByID(id)
+	existing, err := f.store.GetByID(collectionId, id)
 	if err != nil {
 		return nil, err
 	}
 	existing.Name = updated.Name
 	existing.Description = updated.Description
 	existing.IsDefault = updated.IsDefault
-	if err := f.store.Update(id, existing); err != nil {
+	if err := f.store.Update(collectionId, id, existing); err != nil {
 		return nil, err
 	}
 	return existing, nil

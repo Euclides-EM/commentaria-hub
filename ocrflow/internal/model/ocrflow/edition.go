@@ -2,10 +2,12 @@ package ocrflow
 
 import (
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 )
 
 type Edition struct {
-	Meta
+	common.Meta
 	Facsimiles []*Facsimile `json:"facsimiles,omitempty" readonly:"true"`
 }
 

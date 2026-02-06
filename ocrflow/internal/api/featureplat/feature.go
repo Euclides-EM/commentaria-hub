@@ -18,7 +18,11 @@ import (
 // @Success      200  {array}   featureplat.Feature
 // @Router       /collections/{collectionId}/features [get]
 func (h *Handlers) ListFeatures(r *http.Request) (any, error) {
-	return h.deps.FeatureSvc.ListFeatures(featureplat.ToFeatureExpandOptions(r.URL.Query().Get("expand")))
+	collectionId, err := extractCollectionID(r)
+	if err != nil {
+		return nil, err
+	}
+	return h.deps.FeatureSvc.ListFeatures(collectionId, featureplat.ToFeatureExpandOptions(r.URL.Query().Get("expand")))
 }
 
 // CreateFeatures godoc
@@ -32,11 +36,15 @@ func (h *Handlers) ListFeatures(r *http.Request) (any, error) {
 // @Success      200  {object}  featureplat.Feature
 // @Router       /collections/{collectionId}/features [post]
 func (h *Handlers) CreateFeatures(r *http.Request) (any, error) {
+	collectionId, err := extractCollectionID(r)
+	if err != nil {
+		return nil, err
+	}
 	var f featureplat.Feature
 	if err := common.DecodeBody(r, &f); err != nil {
 		return nil, err
 	}
-	created, err := h.deps.FeatureSvc.CreateFeature(&f)
+	created, err := h.deps.FeatureSvc.CreateFeature(collectionId, &f)
 	if err != nil {
 		return nil, err
 	}

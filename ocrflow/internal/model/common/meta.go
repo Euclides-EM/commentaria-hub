@@ -1,4 +1,4 @@
-package ocrflow
+package common
 
 import "time"
 
