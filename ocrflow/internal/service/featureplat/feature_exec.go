@@ -2,63 +2,56 @@ package featureplat
 
 import (
 	"fmt"
-	"slices"
-	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
-	"github.com/samber/lo"
 )
 
-type Execution struct {
-	m map[string]*featureplat.FeatureExecution
+// FeatureExecutionStore is the minimal store interface used by the feature execution service.
+type FeatureExecutionStore interface {
+	List(collectionID string, featureIDs []string, statuses []featureplat.FeatureExecutionStatus) ([]*featureplat.FeatureExecution, error)
+	GetByID(id string) (*featureplat.FeatureExecution, error)
+	Create(exec *featureplat.FeatureExecution) error
+	UpdateStatus(id string, status featureplat.FeatureExecutionStatus) error
 }
 
-func NewExecution() *Execution {
-	mockMap := make(map[string]*featureplat.FeatureExecution)
-	return &Execution{
-		m: mockMap,
-	}
+type Execution struct {
+	store FeatureExecutionStore
+}
+
+// NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionSQL).
+func NewExecution(store FeatureExecutionStore) *Execution {
+	return &Execution{store: store}
 }
 
 func (fe *Execution) ListFeatureExecutions(collectionId string, featureIds []string, statuses []featureplat.FeatureExecutionStatus) ([]*featureplat.FeatureExecution, error) {
-	var executions []*featureplat.FeatureExecution
-	for _, exec := range fe.m {
-		appliedFeatures := lo.Map(exec.Apply, func(item featureplat.FeatureExecutionApplyItem, _ int) string {
-			return item.Feature
-		})
-		if exec.Collection == collectionId && len(lo.Intersect(featureIds, appliedFeatures)) > 0 && slices.Contains(statuses, exec.Status) {
-			executions = append(executions, exec)
-		}
-	}
-	return executions, nil
+	return fe.store.List(collectionId, featureIds, statuses)
 }
 
 func (fe *Execution) GetFeatureExecution(executionId string) (*featureplat.FeatureExecution, error) {
-	if exec, ok := fe.m[executionId]; ok {
-		return exec, nil
-	}
-	return nil, fmt.Errorf("feature execution not found")
+	return fe.store.GetByID(executionId)
 }
 
 func (fe *Execution) CreateFeatureExecution(exec *featureplat.FeatureExecution) (*featureplat.FeatureExecution, error) {
 	exec.ID = idgen.GenerateID("exec")
-	exec.CreatedAt = time.Now()
-	exec.UpdatedAt = time.Now()
 	exec.Status = featureplat.FeatureExecutionStatusInProgress
-	fe.m[exec.ID] = exec
+	if err := fe.store.Create(exec); err != nil {
+		return nil, err
+	}
 	return exec, nil
 }
 
 func (fe *Execution) CancelFeatureExecution(executionId string) (*featureplat.FeatureExecution, error) {
-	exec, ok := fe.m[executionId]
-	if !ok {
-		return nil, fmt.Errorf("feature execution not found")
+	exec, err := fe.store.GetByID(executionId)
+	if err != nil {
+		return nil, err
 	}
 	if exec.Status != featureplat.FeatureExecutionStatusInProgress && exec.Status != featureplat.FeatureExecutionStatusCanceling {
 		return nil, fmt.Errorf("feature execution cannot be canceled as it is not in progress or already canceling")
 	}
+	if err := fe.store.UpdateStatus(executionId, featureplat.FeatureExecutionStatusCanceling); err != nil {
+		return nil, err
+	}
 	exec.Status = featureplat.FeatureExecutionStatusCanceling
-	exec.UpdatedAt = time.Now()
 	return exec, nil
 }

@@ -9,6 +9,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/service/featureplat"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/service/ocrflow"
+	storefeatureplat "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 )
 
@@ -31,13 +32,18 @@ func NewFeaturePlatform() (*FeaturePlatform, error) {
 
 	healthSvc := ocrflow.NewHealthService(sqlDB)
 
+	featureStore := storefeatureplat.NewFeatureSQL(sqlDB)
+	featureRevisionStore := storefeatureplat.NewFeatureRevisionSQL(sqlDB)
+	featureExecutionStore := storefeatureplat.NewFeatureExecutionSQL(sqlDB)
+	featureResultStore := storefeatureplat.NewFeatureResultSQL(sqlDB)
+
 	deps := &api.Dependencies{
 		Env:                 env,
 		HealthSvc:           healthSvc,
-		FeatureSvc:          featureplat.NewFeature(),
-		FeatureRevisionSvc:  featureplat.NewRevision(),
-		FeatureResultSvc:    featureplat.NewResult(),
-		FeatureExecutionSvc: featureplat.NewExecution(),
+		FeatureSvc:          featureplat.NewFeature(featureStore),
+		FeatureRevisionSvc:  featureplat.NewRevision(featureRevisionStore),
+		FeatureResultSvc:    featureplat.NewResult(featureResultStore),
+		FeatureExecutionSvc: featureplat.NewExecution(featureExecutionStore),
 		TEISvc:              featureplat.NewTEI(),
 	}
 

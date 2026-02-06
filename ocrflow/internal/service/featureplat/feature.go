@@ -1,58 +1,43 @@
 package featureplat
 
 import (
-	"fmt"
-	"time"
-
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
-	"github.com/samber/lo"
 )
 
-type Feature struct {
-	m map[string]*featureplat.Feature
+// FeatureStore is the minimal store interface used by the feature service.
+type FeatureStore interface {
+	List() ([]*featureplat.Feature, error)
+	GetByID(id string) (*featureplat.Feature, error)
+	Create(f *featureplat.Feature) error
+	Update(id string, f *featureplat.Feature) error
+	Delete(id string) error
 }
 
-func NewFeature() *Feature {
-	mockMap := make(map[string]*featureplat.Feature)
-	mockMap["fea_ts8621"] = &featureplat.Feature{
-		Meta: ocrflow.Meta{
-			ID:        "fea_ts8621",
-			Name:      "institutions",
-			CreatedAt: time.Now(),
-			UpdatedAt: time.Now(),
-		},
-		IsRoot:    true,
-		IsDefault: true,
-	}
-	mockMap["fea_ts8622"] = &featureplat.Feature{
-		Meta: ocrflow.Meta{
-			ID:        "fea_ts8622",
-			Name:      "normalized institutions",
-			CreatedAt: time.Now(),
-			UpdatedAt: time.Now(),
-		},
-		IsRoot:    false,
-		IsDefault: true,
-	}
+type Feature struct {
+	store FeatureStore
+}
 
-	return &Feature{
-		m: mockMap,
-	}
+// NewFeature returns a new Feature service using the given store (e.g. *storefeatureplat.FeatureSQL).
+func NewFeature(store FeatureStore) *Feature {
+	return &Feature{store: store}
 }
 
 func (f *Feature) ListFeatures(expandOptions []featureplat.FeatureExpandOptions) ([]*featureplat.Feature, error) {
-	fs := lo.Values(f.m)
-	// for _, opt := range expandOptions {...}
+	fs, err := f.store.List()
+	if err != nil {
+		return nil, err
+	}
+	// TODO: apply expandOptions (latest_revision, revisions) when revision store is available
+	_ = expandOptions
 	return fs, nil
 }
 
 func (f *Feature) CreateFeature(m *featureplat.Feature) (*featureplat.Feature, error) {
 	m.ID = idgen.GenerateID("fea")
-	m.CreatedAt = time.Now()
-	m.UpdatedAt = time.Now()
-	f.m[m.ID] = m
+	if err := f.store.Create(m); err != nil {
+		return nil, err
+	}
 	return m, nil
 }
 
@@ -60,25 +45,28 @@ func (f *Feature) Delete(collectionId, id string, force bool) error {
 	if _, err := f.GetFeature(collectionId, id, nil); err != nil {
 		return err
 	}
-	delete(f.m, id)
-	return nil
+	return f.store.Delete(id)
 }
 
 func (f *Feature) GetFeature(collectionId, id string, expandOptions []featureplat.FeatureExpandOptions) (*featureplat.Feature, error) {
-	feat, exists := f.m[id]
-	if !exists {
-		return nil, fmt.Errorf("feature with id %s not found", id)
+	feat, err := f.store.GetByID(id)
+	if err != nil {
+		return nil, err
 	}
+	_ = expandOptions
 	return feat, nil
 }
 
 func (f *Feature) UpdateFeature(collectionId, id string, updated *featureplat.Feature) (*featureplat.Feature, error) {
-	existing, err := f.GetFeature(collectionId, id, nil)
+	existing, err := f.store.GetByID(id)
 	if err != nil {
 		return nil, err
 	}
 	existing.Name = updated.Name
+	existing.Description = updated.Description
 	existing.IsDefault = updated.IsDefault
-	existing.UpdatedAt = time.Now()
+	if err := f.store.Update(id, existing); err != nil {
+		return nil, err
+	}
 	return existing, nil
 }

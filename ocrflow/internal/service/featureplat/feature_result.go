@@ -1,32 +1,31 @@
 package featureplat
 
 import (
-	"slices"
-
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
 )
 
-type Result struct {
-	s []*featureplat.FeatureResult
+// FeatureResultStore is the minimal store interface used by the feature result service.
+type FeatureResultStore interface {
+	List(keys []string, features []string) ([]*featureplat.FeatureResult, error)
+	Create(res *featureplat.FeatureResult) error
 }
 
-func NewResult() *Result {
-	return &Result{
-		s: []*featureplat.FeatureResult{},
-	}
+type Result struct {
+	store FeatureResultStore
+}
+
+// NewResult returns a new Result service using the given store (e.g. *storefeatureplat.FeatureResultSQL).
+func NewResult(store FeatureResultStore) *Result {
+	return &Result{store: store}
 }
 
 func (r *Result) ListResults(keys []string, features []string) ([]*featureplat.FeatureResult, error) {
-	var result []*featureplat.FeatureResult
-	for _, res := range r.s {
-		if (len(keys) == 0 || slices.Contains(keys, res.Key)) && (len(features) == 0 || slices.Contains(features, res.Feature)) {
-			result = append(result, res)
-		}
-	}
-	return result, nil
+	return r.store.List(keys, features)
 }
 
 func (r *Result) CreateResult(m *featureplat.FeatureResult) (*featureplat.FeatureResult, error) {
-	r.s = append(r.s, m)
+	if err := r.store.Create(m); err != nil {
+		return nil, err
+	}
 	return m, nil
 }

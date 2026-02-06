@@ -1,86 +1,63 @@
 package featureplat
 
 import (
-	"fmt"
-	"time"
-
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
-	"github.com/samber/lo"
 )
 
-type Revision struct {
-	m map[string]map[string]*featureplat.FeatureRevision
+// FeatureRevisionStore is the minimal store interface used by the feature revision service.
+type FeatureRevisionStore interface {
+	ListByFeatureID(featureID string) ([]*featureplat.FeatureRevision, error)
+	GetByID(featureID, revisionID string) (*featureplat.FeatureRevision, error)
+	Create(featureID string, rev *featureplat.FeatureRevision) error
+	Update(featureID, revisionID string, rev *featureplat.FeatureRevision) error
+	Delete(featureID, revisionID string) error
 }
 
-func NewRevision() *Revision {
-	mockMap := make(map[string]map[string]*featureplat.FeatureRevision)
-	mockMap["fea_ts8621"] = map[string]*featureplat.FeatureRevision{
-		"fea_rev_001": {
-			Meta: ocrflow.Meta{
-				ID:        "fea_rev_001",
-				Name:      "Initial revision",
-				CreatedAt: time.Now(),
-				UpdatedAt: time.Now(),
-			},
-			Prompt:            "Initial prompt for institutions feature",
-			ExecutionStrategy: featureplat.FeatureExecutionStrategyPrompt,
-			Note:              "This is the initial revision for the institutions feature.",
-			Type:              featureplat.FeatureTypeAnnotation,
-		},
-	}
-	return &Revision{
-		m: mockMap,
-	}
+type Revision struct {
+	store FeatureRevisionStore
+}
+
+// NewRevision returns a new Revision service using the given store (e.g. *storefeatureplat.FeatureRevisionSQL).
+func NewRevision(store FeatureRevisionStore) *Revision {
+	return &Revision{store: store}
 }
 
 func (fr *Revision) ListFeatureRevisions(collectionId, featureId string) ([]*featureplat.FeatureRevision, error) {
-	if featureRevisions, ok := fr.m[featureId]; ok {
-		return lo.Values(featureRevisions), nil
-	}
-	return nil, fmt.Errorf("feature revisions not found for feature ID: %s", featureId)
+	return fr.store.ListByFeatureID(featureId)
 }
 
 func (fr *Revision) CreateFeatureRevision(collectionId, featureId string, m *featureplat.FeatureRevision) (*featureplat.FeatureRevision, error) {
 	m.ID = idgen.GenerateID("rev")
-	m.CreatedAt = time.Now()
-	m.UpdatedAt = time.Now()
-	if _, ok := fr.m[featureId]; !ok {
-		fr.m[featureId] = make(map[string]*featureplat.FeatureRevision)
+	if err := fr.store.Create(featureId, m); err != nil {
+		return nil, err
 	}
-	fr.m[featureId][m.ID] = m
 	return m, nil
 }
 
 func (fr *Revision) GetFeatureRevision(collectionId, featureId, revisionId string) (*featureplat.FeatureRevision, error) {
-	if featureRevisions, ok := fr.m[featureId]; ok {
-		if revision, ok := featureRevisions[revisionId]; ok {
-			return revision, nil
-		}
-	}
-	return nil, fmt.Errorf("feature revision not found for feature ID: %s and revision ID: %s", featureId, revisionId)
+	return fr.store.GetByID(featureId, revisionId)
 }
 
 func (fr *Revision) DeleteFeatureRevision(collectionId, featureId, revisionId string) error {
-	_, err := fr.GetFeatureRevision(collectionId, featureId, revisionId)
-	if err != nil {
-		return err
-	}
-	delete(fr.m[featureId], revisionId)
-	return nil
+	return fr.store.Delete(featureId, revisionId)
 }
 
 func (fr *Revision) UpdateFeatureRevision(collectionId, featureId, revisionId string, m *featureplat.FeatureRevision) (*featureplat.FeatureRevision, error) {
-	existing, err := fr.GetFeatureRevision(collectionId, featureId, revisionId)
+	existing, err := fr.store.GetByID(featureId, revisionId)
 	if err != nil {
 		return nil, err
 	}
 	existing.Name = m.Name
+	existing.Description = m.Description
 	existing.Prompt = m.Prompt
+	existing.Regex = m.Regex
 	existing.ExecutionStrategy = m.ExecutionStrategy
 	existing.Note = m.Note
 	existing.Type = m.Type
-	existing.UpdatedAt = time.Now()
+	existing.Features = m.Features
+	if err := fr.store.Update(featureId, revisionId, existing); err != nil {
+		return nil, err
+	}
 	return existing, nil
 }
