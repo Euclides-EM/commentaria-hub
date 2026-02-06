@@ -29,6 +29,7 @@ func (fr *Revision) ListFeatureRevisions(collectionId, featureId string) ([]*fea
 
 func (fr *Revision) CreateFeatureRevision(collectionId, featureId string, m *featureplat.FeatureRevision) (*featureplat.FeatureRevision, error) {
 	m.CollectionID = collectionId
+	m.FeatureID = featureId
 	m.ID = idgen.GenerateID("rev")
 	if err := fr.store.Create(collectionId, featureId, m); err != nil {
 		return nil, err

@@ -7,6 +7,7 @@ import (
 type FeatureRevision struct {
 	common.Meta
 	CollectionID      string                   `json:"collection_id"`                      // collection scope
+	FeatureID         string                   `json:"feature_id"`                         // parent feature ID
 	Prompt            string                   `json:"prompt"`                             // only if execution_strategy=prompt
 	Regex             string                   `json:"regex"`                              // only if execution_strategy=regex
 	ExecutionStrategy FeatureExecutionStrategy `json:"execution_strategy"`                 // "prompt" or "regex"
