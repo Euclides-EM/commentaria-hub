@@ -58,7 +58,6 @@ CREATE TABLE IF NOT EXISTS feature_executions (
     status         TEXT NOT NULL
 );
 
-CREATE INDEX IF NOT EXISTS idx_feature_executions_collection ON feature_executions(collection);
 CREATE INDEX IF NOT EXISTS idx_feature_executions_status ON feature_executions(status);
 CREATE INDEX IF NOT EXISTS idx_feature_executions_updated_at ON feature_executions(updated_at);
 
