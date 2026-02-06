@@ -2,20 +2,15 @@ package featureplat
 
 import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
+	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
 )
 
-// FeatureResultStore is the minimal store interface used by the feature result service.
-type FeatureResultStore interface {
-	List(collectionID string, keys []string, features []string) ([]*featureplat.FeatureResult, error)
-	Create(res *featureplat.FeatureResult) error
-}
-
 type Result struct {
-	store FeatureResultStore
+	store *fpstore.FeatureResultSQL
 }
 
 // NewResult returns a new Result service using the given store (e.g. *storefeatureplat.FeatureResultSQL).
-func NewResult(store FeatureResultStore) *Result {
+func NewResult(store *fpstore.FeatureResultSQL) *Result {
 	return &Result{store: store}
 }
 

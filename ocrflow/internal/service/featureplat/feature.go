@@ -2,24 +2,16 @@ package featureplat
 
 import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
+	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 )
 
-// FeatureStore is the minimal store interface used by the feature service.
-type FeatureStore interface {
-	List(collectionID string) ([]*featureplat.Feature, error)
-	GetByID(collectionID, id string) (*featureplat.Feature, error)
-	Create(f *featureplat.Feature) error
-	Update(collectionID, id string, f *featureplat.Feature) error
-	Delete(collectionID, id string) error
-}
-
 type Feature struct {
-	store FeatureStore
+	store *fpstore.FeatureSQL
 }
 
 // NewFeature returns a new Feature service using the given store (e.g. *storefeatureplat.FeatureSQL).
-func NewFeature(store FeatureStore) *Feature {
+func NewFeature(store *fpstore.FeatureSQL) *Feature {
 	return &Feature{store: store}
 }
 

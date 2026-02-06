@@ -26,34 +26,41 @@ func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
 	features := r.URL.Query().Get("features")
 	statuses := r.URL.Query().Get("statuses")
 
-	rawFeatureIds := lo.Map(strings.Split(features, ","), func(s string, _ int) string {
-		return strings.TrimSpace(s)
-	})
-
 	var featureIds []string
 	if collection != "" || features == "" {
 		fs, err := h.deps.FeatureSvc.ListFeatures(collection, nil)
 		if err != nil {
 			return nil, err
 		}
-		fsMap := lo.SliceToMap(fs, func(f *mfeatureplat.Feature) (string, *mfeatureplat.Feature) {
-			return f.ID, f
-		})
-		for _, id := range rawFeatureIds {
-			if _, ok := fsMap[id]; !ok {
-				return nil, fmt.Errorf("feature id %s not found in feature list", id)
+		if collection != "" {
+			fs = lo.Filter(fs, func(f *mfeatureplat.Feature, _ int) bool {
+				return f.CollectionID == collection
+			})
+		}
+		if features == "" {
+			for _, f := range fs {
+				featureIds = append(featureIds, f.ID)
 			}
-			featureIds = append(featureIds, id)
+		}
+		if features != "" {
+			rawFeatureIds := lo.Map(strings.Split(features, ","), func(s string, _ int) string {
+				return strings.TrimSpace(s)
+			})
+			fs = lo.Filter(fs, func(f *mfeatureplat.Feature, _ int) bool {
+				return lo.Contains(rawFeatureIds, f.ID)
+			})
 		}
 	}
 
 	var featureExecutionsStatuses []mfeatureplat.FeatureExecutionStatus
-	for _, s := range strings.Split(statuses, ",") {
-		fxs := mfeatureplat.ToFeatureExecutionsStatus(s)
-		if fxs == "" {
-			return nil, fmt.Errorf("invalid execution status: %s", s)
+	if statuses != "" {
+		for _, s := range strings.Split(statuses, ",") {
+			fxs := mfeatureplat.ToFeatureExecutionsStatus(s)
+			if fxs == "" {
+				return nil, fmt.Errorf("invalid execution status: %s", s)
+			}
+			featureExecutionsStatuses = append(featureExecutionsStatuses, fxs)
 		}
-		featureExecutionsStatuses = append(featureExecutionsStatuses, fxs)
 	}
 
 	return h.deps.FeatureExecutionSvc.ListFeatureExecutions(collection, featureIds, featureExecutionsStatuses)

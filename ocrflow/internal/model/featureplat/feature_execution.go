@@ -41,8 +41,9 @@ func ToFeatureExecutionsStatus(s string) FeatureExecutionStatus {
 }
 
 type FeatureExecutionApplyItem struct {
-	Feature  string `json:"feature"`
-	Revision string `json:"revision"`
+	Collection string `json:"collection"`
+	Feature    string `json:"feature"`
+	Revision   string `json:"revision"`
 }
 
 type FeatureExecutionPolicy struct {

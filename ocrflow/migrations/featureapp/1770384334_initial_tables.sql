@@ -53,7 +53,6 @@ CREATE TABLE IF NOT EXISTS feature_executions (
     updated_at     TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     name           TEXT NOT NULL DEFAULT '',
     description    TEXT NOT NULL DEFAULT '',
-    collection     TEXT NOT NULL,
     keys           TEXT NOT NULL DEFAULT '[]',
     policy_skip_if TEXT NOT NULL DEFAULT '',
     status         TEXT NOT NULL

@@ -2,24 +2,16 @@ package featureplat
 
 import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
+	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 )
 
-// FeatureRevisionStore is the minimal store interface used by the feature revision service.
-type FeatureRevisionStore interface {
-	ListByFeatureID(collectionID, featureID string) ([]*featureplat.FeatureRevision, error)
-	GetByID(collectionID, featureID, revisionID string) (*featureplat.FeatureRevision, error)
-	Create(collectionID, featureID string, rev *featureplat.FeatureRevision) error
-	Update(collectionID, featureID, revisionID string, rev *featureplat.FeatureRevision) error
-	Delete(collectionID, featureID, revisionID string) error
-}
-
 type Revision struct {
-	store FeatureRevisionStore
+	store *fpstore.FeatureRevisionSQL
 }
 
 // NewRevision returns a new Revision service using the given store (e.g. *storefeatureplat.FeatureRevisionSQL).
-func NewRevision(store FeatureRevisionStore) *Revision {
+func NewRevision(store *fpstore.FeatureRevisionSQL) *Revision {
 	return &Revision{store: store}
 }
 

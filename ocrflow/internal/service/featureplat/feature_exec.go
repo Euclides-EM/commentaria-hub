@@ -4,23 +4,16 @@ import (
 	"fmt"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
+	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 )
 
-// FeatureExecutionStore is the minimal store interface used by the feature execution service.
-type FeatureExecutionStore interface {
-	List(collectionID string, featureIDs []string, statuses []featureplat.FeatureExecutionStatus) ([]*featureplat.FeatureExecution, error)
-	GetByID(id string) (*featureplat.FeatureExecution, error)
-	Create(exec *featureplat.FeatureExecution) error
-	UpdateStatus(id string, status featureplat.FeatureExecutionStatus) error
-}
-
 type Execution struct {
-	store FeatureExecutionStore
+	store *fpstore.FeatureExecutionSQL
 }
 
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionSQL).
-func NewExecution(store FeatureExecutionStore) *Execution {
+func NewExecution(store *fpstore.FeatureExecutionSQL) *Execution {
 	return &Execution{store: store}
 }
 
