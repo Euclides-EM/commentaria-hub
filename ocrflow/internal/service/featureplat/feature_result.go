@@ -6,7 +6,7 @@ import (
 
 // FeatureResultStore is the minimal store interface used by the feature result service.
 type FeatureResultStore interface {
-	List(keys []string, features []string) ([]*featureplat.FeatureResult, error)
+	List(collectionID string, keys []string, features []string) ([]*featureplat.FeatureResult, error)
 	Create(res *featureplat.FeatureResult) error
 }
 
@@ -19,8 +19,8 @@ func NewResult(store FeatureResultStore) *Result {
 	return &Result{store: store}
 }
 
-func (r *Result) ListResults(keys []string, features []string) ([]*featureplat.FeatureResult, error) {
-	return r.store.List(keys, features)
+func (r *Result) ListResults(collectionID string, keys []string, features []string) ([]*featureplat.FeatureResult, error) {
+	return r.store.List(collectionID, keys, features)
 }
 
 func (r *Result) CreateResult(m *featureplat.FeatureResult) (*featureplat.FeatureResult, error) {

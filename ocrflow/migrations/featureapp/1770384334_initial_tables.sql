@@ -72,6 +72,7 @@ CREATE TABLE IF NOT EXISTS feature_execution_apply (
 -- FeatureResult (Feature, Key, Source, Values, Note; no Meta)
 -- Source and Values stored as JSON (Values is recursive)
 CREATE TABLE IF NOT EXISTS feature_results (
+    collection_id TEXT NOT NULL,
     feature       TEXT NOT NULL,
     key           TEXT NOT NULL,
     note          TEXT NOT NULL DEFAULT '',
@@ -80,8 +81,9 @@ CREATE TABLE IF NOT EXISTS feature_results (
     source_revision TEXT NOT NULL DEFAULT '',
     source_name   TEXT NOT NULL DEFAULT '',
     values_json   TEXT NOT NULL DEFAULT '[]',
-    PRIMARY KEY (feature, key),
+    PRIMARY KEY (collection_id, feature, key),
     FOREIGN KEY (feature) REFERENCES features(id) ON DELETE CASCADE
 );
 
 CREATE INDEX IF NOT EXISTS idx_feature_results_feature ON feature_results(feature);
+CREATE INDEX IF NOT EXISTS idx_feature_results_collection_id ON feature_results(collection_id);

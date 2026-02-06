@@ -1,10 +1,11 @@
 package featureplat
 
 type FeatureResult struct {
-	Feature string               `json:"feature"`
-	Key     string               `json:"key"`
-	Source  FeatureResultSource  `json:"source"`
-	Values  []FeatureResultValue `json:"values"`
+	CollectionID string               `json:"collection_id"`
+	Feature      string               `json:"feature"`
+	Key          string               `json:"key"`
+	Source       FeatureResultSource  `json:"source"`
+	Values       []FeatureResultValue `json:"values"`
 
 	Note string `json:"note,omitempty"`
 }
