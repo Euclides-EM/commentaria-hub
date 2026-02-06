@@ -34,6 +34,7 @@ func (h *Handlers) ListFeatures(r *http.Request) (any, error) {
 // @Param        collectionId  path      string  true  "Collection ID"
 // @Param        feature  body      featureplat.Feature  true  "Feature to create"
 // @Success      200  {object}  featureplat.Feature
+// @Security 	 BearerAuth
 // @Router       /collections/{collectionId}/features [post]
 func (h *Handlers) CreateFeatures(r *http.Request) (any, error) {
 	collectionId, err := extractCollectionID(r)
@@ -59,6 +60,7 @@ func (h *Handlers) CreateFeatures(r *http.Request) (any, error) {
 // @Param        featureId     path      string  true  "Feature ID"
 // @Produce      json
 // @Success      204  "No Content"
+// @Security 	 BearerAuth
 // @Router       /collections/{collectionId}/features/{featureId} [delete]
 func (h *Handlers) DeleteFeature(r *http.Request) (any, error) {
 	collectionId, featureId, err := extractFeatureID(r)
@@ -106,6 +108,7 @@ func (h *Handlers) GetFeature(r *http.Request) (any, error) {
 // @Param        feature       body      featureplat.Feature  true  "Updated feature data"
 // @Produce      json
 // @Success      200  {object}  featureplat.Feature
+// @Security 	 BearerAuth
 // @Router       /collections/{collectionId}/features/{featureId} [put]
 func (h *Handlers) UpdateFeature(r *http.Request) (any, error) {
 	collectionId, featureId, err := extractFeatureID(r)

@@ -33,6 +33,7 @@ func (h *Handlers) ListFeatureRevisions(r *http.Request) (any, error) {
 // @Param        revision      body      featureplat.FeatureRevision  true  "Revision data"
 // @Produce      json
 // @Success      200  {object}  featureplat.FeatureRevision
+// @Security 	 BearerAuth
 // @Router       /collections/{collectionId}/features/{featureId}/revisions [post]
 func (h *Handlers) CreateFeatureRevision(r *http.Request) (any, error) {
 	collectionId, featureId, err := extractFeatureID(r)

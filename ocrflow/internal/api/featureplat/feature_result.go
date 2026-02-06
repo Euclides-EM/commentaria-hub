@@ -44,6 +44,7 @@ func (h *Handlers) ListResults(r *http.Request) (any, error) {
 // @Param collectionId path string true "Collection ID"
 // @Param result body featureplat.FeatureResult true "Feature result data"
 // @Success 200 {object} featureplat.FeatureResult
+// @Security 	 BearerAuth
 // @Router /collections/{collectionId}/results [post]
 func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 	collectionId, err := extractCollectionID(r)
