@@ -8,7 +8,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-//go:generate swag init -g main.go -d .,../../internal/api/common,../../internal/api/ocrflow,../../internal/model/ocrflow,../../internal/model/annotationrule,../../internal/model/common --parseInternal -o ../../internal/docs/ocrflow
+//go:generate swag init -g main.go -d .,../../internal/api/common,../../internal/api/featureplat,../../internal/model,../../internal/model/featureplat --parseInternal --instanceName featureplat -o ../../internal/docs/featureplat
 
 // @title          	OCR Flow API
 // @version         1.0
@@ -27,9 +27,9 @@ func main() {
 	if err != nil {
 		log.Printf("failed to load the optional .env_private file, continuing without it: %v", err)
 	}
-	a, err := app.NewOCRFlowApp()
+	a, err := app.NewFeaturePlatform()
 	if err != nil {
-		log.Fatalf("error initializing ahjkhjkpp: %v", err)
+		log.Fatalf("error initializing app: %v", err)
 	}
 
 	defer a.Close()

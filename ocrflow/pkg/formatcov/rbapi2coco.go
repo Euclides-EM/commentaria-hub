@@ -3,10 +3,11 @@ package formatcov
 import (
 	"encoding/json"
 	"fmt"
-	coco2 "github.com/MiaMish/elements-dh/ocrflow/pkg/coco"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/coco"
 )
 
 type roboflowResult struct {
@@ -31,13 +32,13 @@ type roboflowResult struct {
 // Roboflow2Coco converts one or more Roboflow JSON strings into a COCO JSON string.
 func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string, error) {
 
-	var coco coco2.Root
+	var root coco.Root
 
-	catMap := make(map[int]coco2.Category) // class_id -> category
+	catMap := make(map[int]coco.Category) // class_id -> category
 	nextImageID := 1
 	nextAnnID := 1
 
-	coco.Info = coco2.Info{
+	root.Info = coco.Info{
 		Description: fmt.Sprintf("Converted from Roboflow format with %d images", len(imageNameToRB)),
 		Version:     "1.0",
 		Year:        2025,
@@ -45,7 +46,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 		DateCreated: time.Now().Format("2006/01/02"),
 	}
 
-	coco.Licenses = []coco2.License{
+	root.Licenses = []coco.License{
 		{
 			URL:  "http://creativecommons.org/licenses/by-nc/2.0/",
 			ID:   1,
@@ -71,7 +72,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 			fileName = fmt.Sprintf("image_%d.jpg", imageID)
 		}
 
-		coco.Images = append(coco.Images, coco2.Image{
+		root.Images = append(root.Images, coco.Image{
 			ID:       imageID,
 			FileName: fileName,
 			Width:    rf.Image.Width,
@@ -81,7 +82,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 		for _, p := range rf.Predictions {
 			// Register category if new
 			if _, ok := catMap[p.ClassID]; !ok {
-				catMap[p.ClassID] = coco2.Category{
+				catMap[p.ClassID] = coco.Category{
 					ID:   p.ClassID,
 					Name: p.Class,
 				}
@@ -99,7 +100,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 
 			area := p.Width * p.Height
 
-			coco.Annotations = append(coco.Annotations, coco2.Annotation{
+			root.Annotations = append(root.Annotations, coco.Annotation{
 				ID:         nextAnnID,
 				ImageID:    imageID,
 				CategoryID: p.ClassID,
@@ -126,7 +127,7 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 				}
 			}
 			if !found {
-				catMap[id] = coco2.Category{
+				catMap[id] = coco.Category{
 					ID:   id,
 					Name: name,
 				}
@@ -141,11 +142,11 @@ func Roboflow2Coco(imageNameToRB map[string]string, categories []string) (string
 		}
 		sort.Ints(ids)
 		for _, id := range ids {
-			coco.Categories = append(coco.Categories, catMap[id])
+			root.Categories = append(root.Categories, catMap[id])
 		}
 	}
 
-	out, err := json.MarshalIndent(coco, "", "  ")
+	out, err := json.MarshalIndent(root, "", "  ")
 	if err != nil {
 		return "", fmt.Errorf("marshal coco json: %w", err)
 	}
