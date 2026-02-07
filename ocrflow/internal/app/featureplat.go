@@ -42,7 +42,7 @@ func NewFeaturePlatform() (*FeaturePlatform, error) {
 	deps := &api.Dependencies{
 		Env:                 env,
 		HealthSvc:           healthSvc,
-		FeatureSvc:          featureplat.NewFeature(featureStore),
+		FeatureSvc:          featureplat.NewFeature(featureStore, featureRevisionStore),
 		FeatureRevisionSvc:  featureplat.NewRevision(featureRevisionStore),
 		FeatureResultSvc:    featureResultSvc,
 		FeatureExecutionSvc: featureplat.NewExecution(featureExecutionStore),

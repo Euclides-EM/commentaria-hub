@@ -7,12 +7,12 @@ import (
 )
 
 type Feature struct {
-	store *fpstore.FeatureSQL
+	store         *fpstore.FeatureSQL
+	revisionStore *fpstore.FeatureRevisionSQL
 }
 
-// NewFeature returns a new Feature service using the given store (e.g. *storefeatureplat.FeatureSQL).
-func NewFeature(store *fpstore.FeatureSQL) *Feature {
-	return &Feature{store: store}
+func NewFeature(store *fpstore.FeatureSQL, revisionStore *fpstore.FeatureRevisionSQL) *Feature {
+	return &Feature{store: store, revisionStore: revisionStore}
 }
 
 func (f *Feature) ListFeatures(collectionID string, expandOptions []featureplat.FeatureExpandOptions) ([]*featureplat.Feature, error) {
@@ -20,8 +20,11 @@ func (f *Feature) ListFeatures(collectionID string, expandOptions []featureplat.
 	if err != nil {
 		return nil, err
 	}
-	// TODO: apply expandOptions (latest_revision, revisions) when revision store is available
-	_ = expandOptions
+	for _, feat := range fs {
+		if err := f.applyExpand(feat, expandOptions); err != nil {
+			return nil, err
+		}
+	}
 	return fs, nil
 }
 
@@ -46,8 +49,32 @@ func (f *Feature) GetFeature(collectionId, id string, expandOptions []featurepla
 	if err != nil {
 		return nil, err
 	}
-	_ = expandOptions
+	if err := f.applyExpand(feat, expandOptions); err != nil {
+		return nil, err
+	}
 	return feat, nil
+}
+
+func (f *Feature) applyExpand(feat *featureplat.Feature, expandOptions []featureplat.FeatureExpandOptions) error {
+	for _, opt := range expandOptions {
+		switch opt {
+		case featureplat.FeatureExpandRevisions:
+			revisions, err := f.revisionStore.ListByFeatureID(feat.CollectionID, feat.ID)
+			if err != nil {
+				return err
+			}
+			feat.Revisions = revisions
+		case featureplat.FeatureExpandLatestRevision:
+			revisions, err := f.revisionStore.ListByFeatureID(feat.CollectionID, feat.ID)
+			if err != nil {
+				return err
+			}
+			if len(revisions) > 0 {
+				feat.LatestRevision = revisions[0]
+			}
+		}
+	}
+	return nil
 }
 
 func (f *Feature) UpdateFeature(collectionId, id string, updated *featureplat.Feature) (*featureplat.Feature, error) {

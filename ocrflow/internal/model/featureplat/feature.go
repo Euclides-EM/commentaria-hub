@@ -22,14 +22,16 @@ const (
 	FeatureExpandRevisions      FeatureExpandOptions = "revisions"
 )
 
-func ToFeatureExpandOptions(s string) []FeatureExpandOptions {
+func ToFeatureExpandOptions(values []string) []FeatureExpandOptions {
 	var opts []FeatureExpandOptions
-	for _, candidate := range strings.Split(s, ",") {
-		switch FeatureExpandOptions(candidate) {
-		case FeatureExpandLatestRevision:
-			opts = append(opts, FeatureExpandLatestRevision)
-		case FeatureExpandRevisions:
-			opts = append(opts, FeatureExpandRevisions)
+	for _, v := range values {
+		for _, candidate := range strings.Split(v, ",") {
+			switch FeatureExpandOptions(strings.TrimSpace(candidate)) {
+			case FeatureExpandLatestRevision:
+				opts = append(opts, FeatureExpandLatestRevision)
+			case FeatureExpandRevisions:
+				opts = append(opts, FeatureExpandRevisions)
+			}
 		}
 	}
 	return opts
