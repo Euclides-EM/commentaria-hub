@@ -1,6 +1,8 @@
 package featureplat
 
 import (
+	"fmt"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
@@ -26,6 +28,9 @@ func (f *Feature) ListFeatures(collectionID string, expandOptions []featureplat.
 }
 
 func (f *Feature) CreateFeature(collectionID string, m *featureplat.Feature) (*featureplat.Feature, error) {
+	if m.Color == "" {
+		return nil, fmt.Errorf("feature color is required")
+	}
 	m.CollectionID = collectionID
 	m.ID = idgen.GenerateID("fea")
 	if err := f.store.Create(m); err != nil {
@@ -51,6 +56,9 @@ func (f *Feature) GetFeature(collectionId, id string, expandOptions []featurepla
 }
 
 func (f *Feature) UpdateFeature(collectionId, id string, updated *featureplat.Feature) (*featureplat.Feature, error) {
+	if updated.Color == "" {
+		return nil, fmt.Errorf("feature color is required")
+	}
 	existing, err := f.store.GetByID(collectionId, id)
 	if err != nil {
 		return nil, err
@@ -58,6 +66,7 @@ func (f *Feature) UpdateFeature(collectionId, id string, updated *featureplat.Fe
 	existing.Name = updated.Name
 	existing.Description = updated.Description
 	existing.IsDefault = updated.IsDefault
+	existing.Color = updated.Color
 	if err := f.store.Update(collectionId, id, existing); err != nil {
 		return nil, err
 	}
