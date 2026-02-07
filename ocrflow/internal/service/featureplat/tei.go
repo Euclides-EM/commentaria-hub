@@ -20,7 +20,7 @@ func NewTEI(resultSvc *Result, tpsTranscriptionsStore *fpstore.TPSTranscriptions
 	}
 }
 
-func (t *TEI) GetTEI(collectionId, key, features string) ([]byte, error) {
+func (t *TEI) GetTEI(collectionId, key string, featureParams []string) ([]byte, error) {
 
 	// todo: current impl handles overlaps badly + no normalized + multiple occurrences not really working...
 
@@ -38,10 +38,13 @@ func (t *TEI) GetTEI(collectionId, key, features string) ([]byte, error) {
 		return nil, fmt.Errorf("failed to get transcription for key %s: %w", key, err)
 	}
 
-	// Parse features filter
+	// Parse features filter (supports repeated `features` params and comma-separated lists)
 	var featureFilter []string
-	if features != "" {
-		parts := strings.Split(features, ",")
+	for _, raw := range featureParams {
+		if raw == "" {
+			continue
+		}
+		parts := strings.Split(raw, ",")
 		for _, part := range parts {
 			trimmed := strings.TrimSpace(part)
 			if trimmed != "" {
@@ -148,7 +151,7 @@ func (t *TEI) collectRespStmts(results []*featureplat.FeatureResult) []respStmtI
 	var respStmts []respStmtInfo
 
 	for _, result := range results {
-		key := fmt.Sprintf("%s:%s:%s", result.Source.Resp, result.Source.Name, result.Source.Id)
+		key := fmt.Sprintf("%s:%s:%s:%s:%s", result.Source.Resp, result.Source.Name, result.Source.Id, result.Source.Revision, result.Feature)
 		if !seen[key] {
 			seen[key] = true
 			respStmts = append(respStmts, respStmtInfo{
@@ -279,7 +282,11 @@ func (t *TEI) generateSpanFromAnchor(spanID int, anchorID string, info anchorInf
 	// Find matching respStmt
 	respID := ""
 	for i, rs := range respStmts {
-		if rs.Resp == info.result.Source.Resp && rs.Name == info.result.Source.Name && rs.Id == info.result.Source.Id {
+		if rs.Resp == info.result.Source.Resp &&
+			rs.Name == info.result.Source.Name &&
+			rs.Id == info.result.Source.Id &&
+			rs.Revision == info.result.Source.Revision &&
+			rs.Feature == info.result.Feature {
 			respID = fmt.Sprintf("resp-%d", i+1)
 			break
 		}
