@@ -17,6 +17,7 @@ node_modules
 
 ocrflow/.env_private
 
-ocrflow.db*
-ocrflow/store/
-ocrflow/internal/ocrflow/docs
+*.db*
+*/store/
+*/internal/*/docs
+*/internal/docs

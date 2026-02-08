@@ -18,6 +18,6 @@ func (h *Handlers) GetTEI(r *http.Request) ([]byte, error) {
 		return nil, err
 	}
 	key := r.URL.Query().Get("key")
-	features := r.URL.Query().Get("features")
-	return h.deps.TEISvc.GetTEI(collectionId, key, features)
+	featureParams := r.URL.Query()["features"]
+	return h.deps.TEISvc.GetTEI(collectionId, key, featureParams)
 }

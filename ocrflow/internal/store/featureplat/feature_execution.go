@@ -23,9 +23,9 @@ func (s *FeatureExecutionSQL) List(collectionId string, featureIDs []string, sta
 	query := `
 		SELECT id, created_at, updated_at, name, description, collection, keys, policy_skip_if, status
 		FROM feature_executions
+		WHERE 1=1
 	`
 	var args []any
-	argIdx := 0
 
 	if len(statuses) > 0 {
 		query += ` AND status IN (`
@@ -33,7 +33,6 @@ func (s *FeatureExecutionSQL) List(collectionId string, featureIDs []string, sta
 			if i > 0 {
 				query += `, `
 			}
-			argIdx++
 			query += `?`
 			args = append(args, status)
 		}
