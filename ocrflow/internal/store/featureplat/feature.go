@@ -20,7 +20,7 @@ func NewFeatureSQL(db *sql.DB) *FeatureSQL {
 
 func (s *FeatureSQL) List(collectionID string) ([]*featureplat.Feature, error) {
 	rows, err := s.db.Query(`
-		SELECT collection_id, id, created_at, updated_at, name, description, is_root, is_default
+		SELECT collection_id, id, created_at, updated_at, name, description, is_root, is_default, color
 		FROM features
 		WHERE collection_id = ?
 		ORDER BY updated_at DESC
@@ -48,7 +48,7 @@ func (s *FeatureSQL) GetByID(collectionID, id string) (*featureplat.Feature, err
 	var isRoot, isDefault int
 	var f featureplat.Feature
 	err := s.db.QueryRow(`
-		SELECT collection_id, id, created_at, updated_at, name, description, is_root, is_default
+		SELECT collection_id, id, created_at, updated_at, name, description, is_root, is_default, color
 		FROM features
 		WHERE collection_id = ? AND id = ?
 		LIMIT 1
@@ -98,9 +98,9 @@ func (s *FeatureSQL) Create(f *featureplat.Feature) error {
 		isDefault = 1
 	}
 	_, err := s.db.Exec(`
-		INSERT INTO features (collection_id, id, created_at, updated_at, name, description, is_root, is_default)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-	`, f.CollectionID, f.ID, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, isRoot, isDefault)
+		INSERT INTO features (collection_id, id, created_at, updated_at, name, description, is_root, is_default, color)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	`, f.CollectionID, f.ID, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, isRoot, isDefault, f.Color)
 	return err
 }
 
@@ -115,9 +115,9 @@ func (s *FeatureSQL) Update(collectionID, id string, f *featureplat.Feature) err
 	}
 	res, err := s.db.Exec(`
 		UPDATE features
-		SET name = ?, description = ?, is_default = ?, updated_at = ?
+		SET name = ?, description = ?, is_default = ?, color = ?, updated_at = ?
 		WHERE collection_id = ? AND id = ?
-	`, f.Name, f.Description, isDefault, f.UpdatedAt, collectionID, id)
+	`, f.Name, f.Description, isDefault, f.Color, f.UpdatedAt, collectionID, id)
 	if err != nil {
 		return err
 	}
@@ -153,6 +153,7 @@ func scanFeature(scanner func(...any) error) (*featureplat.Feature, error) {
 		&f.Description,
 		&isRoot,
 		&isDefault,
+		&f.Color,
 	)
 	if err != nil {
 		return nil, err
