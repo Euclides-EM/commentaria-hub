@@ -3,6 +3,8 @@ package featureplat
 import (
 	"fmt"
 	"strings"
+	"unicode"
+	"unicode/utf8"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/featureplat"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store/featureplat"
@@ -189,6 +191,7 @@ func (t *TEI) buildAnnotatedText(text string, results []*featureplat.FeatureResu
 	}
 	var matches []textMatch
 
+	textNormalized, textIndexMap := normalizeForMatch(text)
 	for _, result := range results {
 		for _, value := range result.Values {
 			// Extract text from value (could be Root or from Childrens)
@@ -201,19 +204,22 @@ func (t *TEI) buildAnnotatedText(text string, results []*featureplat.FeatureResu
 				continue
 			}
 
-			// Try to find this text in the combined text (case-insensitive, but preserve original case)
-			textLower := strings.ToLower(text)
-			valueLower := strings.ToLower(valueText)
-			pos := strings.Index(textLower, valueLower)
+			valueNormalized, _ := normalizeForMatch(valueText)
+			if valueNormalized == "" {
+				continue
+			}
+
+			// Try to find this text in the combined text (case-insensitive, ignore whitespace and hyphens)
+			pos := strings.Index(textNormalized, valueNormalized)
 			if pos >= 0 {
-				// Use the actual text from source (not normalized) for matching length
-				actualLength := len(valueText)
+				startPos := textIndexMap[pos]
+				endPos := textIndexMap[pos+len(valueNormalized)-1] + 1
 				matches = append(matches, textMatch{
 					text:     valueText,
 					result:   result,
 					value:    value,
-					startPos: pos,
-					endPos:   pos + actualLength,
+					startPos: startPos,
+					endPos:   endPos,
 				})
 			}
 		}
@@ -324,4 +330,24 @@ func xmlEscape(s string) string {
 	s = strings.ReplaceAll(s, "\"", "&quot;")
 	s = strings.ReplaceAll(s, "'", "&apos;")
 	return s
+}
+
+func normalizeForMatch(s string) (string, []int) {
+	var normalized []byte
+	var indexMap []int
+
+	for i, r := range s {
+		if r == '-' || unicode.IsSpace(r) {
+			continue
+		}
+		r = unicode.ToLower(r)
+		var buf [utf8.UTFMax]byte
+		n := utf8.EncodeRune(buf[:], r)
+		for j := 0; j < n; j++ {
+			normalized = append(normalized, buf[j])
+			indexMap = append(indexMap, i+j)
+		}
+	}
+
+	return string(normalized), indexMap
 }
