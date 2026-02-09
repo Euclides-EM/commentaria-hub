@@ -9,6 +9,8 @@ interface LoginModalProps {
   onSuccess: () => void
 }
 
+const diagramUrl = new URL('../../assets/diagram.png', import.meta.url).href
+
 const withTempToken = async <T,>(token: string, fn: () => Promise<T>) => {
   const originalToken = OpenAPI.TOKEN
   OpenAPI.TOKEN = token
@@ -90,7 +92,7 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <img
-              src="/diagram.png"
+              src={diagramUrl}
               alt="Diagram"
               className="mx-auto h-64 w-auto mb-4"
             />

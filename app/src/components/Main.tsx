@@ -7,6 +7,8 @@ import { ModelsTable } from './models/ModelsTable.tsx'
 
 type Tab = 'details' | 'text'
 
+const diagramUrl = new URL('../assets/diagram.png', import.meta.url).href
+
 const TabButton = ({
   onSelected,
   title,
@@ -47,7 +49,7 @@ export function Main() {
       <div className="w-full m-10 font-medium text-center">
         Please select a dataset to get started.
         <img
-          src="/diagram.png"
+          src={diagramUrl}
           alt="Diagram"
           className="mx-auto h-64 w-auto mt-8"
         />
