@@ -47,7 +47,7 @@ type FeatureExecutionApplyItem struct {
 }
 
 type FeatureExecutionPolicy struct {
-	SkipIf FeatureExecutionSkipIf `json:"skip_if"`
+	SkipIf []FeatureExecutionSkipIf `json:"skip_if"`
 }
 
 type FeatureExecutionSkipIf string // "feature_exist","revision_exist","human_reviewed"
