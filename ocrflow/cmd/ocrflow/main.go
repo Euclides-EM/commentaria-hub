@@ -8,7 +8,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-//go:generate swag init -g main.go -d .,../../internal/api/common,../../internal/api/ocrflow,../../internal/model/ocrflow,../../internal/model/annotationrule,../../internal/model/common --parseInternal -o ../../internal/docs/ocrflow
+//go:generate swag init -g main.go -d .,../../internal --parseInternal -o ../../internal/docs
 
 // @title          	OCR Flow API
 // @version         1.0

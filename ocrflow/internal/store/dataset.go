@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 )
 
 const DatasetIDPrefix = "ds"
@@ -20,7 +20,7 @@ func NewDatasetSQL(db *sql.DB) *DatasetSQL {
 	}
 }
 
-func (s *DatasetSQL) ListDatasets() ([]*ocrflow.Dataset, error) {
+func (s *DatasetSQL) ListDatasets() ([]*model.Dataset, error) {
 	rows, err := s.db.Query(`
 		SELECT id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed 
 		FROM datasets
@@ -30,9 +30,9 @@ func (s *DatasetSQL) ListDatasets() ([]*ocrflow.Dataset, error) {
 	}
 	defer rows.Close()
 
-	var datasets []*ocrflow.Dataset
+	var datasets []*model.Dataset
 	for rows.Next() {
-		d := &ocrflow.Dataset{}
+		d := &model.Dataset{}
 		if err := rows.Scan(
 			&d.ID,
 			&d.Name,
@@ -56,8 +56,8 @@ func (s *DatasetSQL) ListDatasets() ([]*ocrflow.Dataset, error) {
 	return datasets, nil
 }
 
-func (s *DatasetSQL) GetDataset(id string) (*ocrflow.Dataset, error) {
-	d := &ocrflow.Dataset{}
+func (s *DatasetSQL) GetDataset(id string) (*model.Dataset, error) {
+	d := &model.Dataset{}
 	err := s.db.QueryRow(`
 		SELECT id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed
 		FROM datasets
@@ -82,7 +82,7 @@ func (s *DatasetSQL) GetDataset(id string) (*ocrflow.Dataset, error) {
 	return d, nil
 }
 
-func (s *DatasetSQL) InsertDataset(d *ocrflow.Dataset) error {
+func (s *DatasetSQL) InsertDataset(d *model.Dataset) error {
 	_, err := s.db.Exec(`
 		INSERT INTO datasets (id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed)
 		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -108,7 +108,7 @@ func (s *DatasetSQL) DeleteDataset(id string) error {
 	return err
 }
 
-func (s *DatasetSQL) UpdateDataset(ds *ocrflow.Dataset) error {
+func (s *DatasetSQL) UpdateDataset(ds *model.Dataset) error {
 	ds.UpdatedAt = time.Now()
 	_, err := s.db.Exec(`
 		UPDATE datasets

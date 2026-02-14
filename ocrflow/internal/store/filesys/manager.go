@@ -7,7 +7,8 @@ import (
 	"path/filepath"
 	"slices"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/samber/lo"
 )
 
@@ -25,7 +26,7 @@ func NewFileSystemManager(baseDir, trainingDir, modelsDir string) *Manager {
 	}
 }
 
-func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*ocrflow.Annotation, dss []*ocrflow.Dataset) ([]string, error) {
+func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*annotation.Annotation, dss []*model.Dataset) ([]string, error) {
 	var toDelete []string
 
 	dataDir, err := filepath.Abs(m.baseDir)
@@ -73,7 +74,7 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*ocrflow.A
 			}
 		}
 
-		annsIDs := lo.Map(annsMap[dsID], func(ann *ocrflow.Annotation, _ int) string {
+		annsIDs := lo.Map(annsMap[dsID], func(ann *annotation.Annotation, _ int) string {
 			return ann.ID
 		})
 
@@ -116,7 +117,7 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*ocrflow.A
 	return toDelete, nil
 }
 
-func (m *Manager) DeleteDatasetFiles(ds *ocrflow.Dataset) error {
+func (m *Manager) DeleteDatasetFiles(ds *model.Dataset) error {
 	dsPath := m.DatasetDir(ds.ID)
 	if _, err := os.Stat(dsPath); os.IsNotExist(err) {
 		return nil

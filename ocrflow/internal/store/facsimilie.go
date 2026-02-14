@@ -3,7 +3,7 @@ package store
 import (
 	"database/sql"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 )
 
 const FacsimileIDPrefix = "fac"
@@ -12,7 +12,7 @@ type FacsimileSQL struct {
 	BaseSQL
 }
 
-func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*ocrflow.Facsimile, error) {
+func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*model.Facsimile, error) {
 	rows, err := s.db.Query(`
 		SELECT id, url, main_text_pages, created_at, updated_at, name, description
 		FROM facsimiles
@@ -23,10 +23,10 @@ func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*ocrflow.F
 	}
 	defer rows.Close()
 
-	var facsimiles []*ocrflow.Facsimile
+	var facsimiles []*model.Facsimile
 
 	for rows.Next() {
-		f := &ocrflow.Facsimile{}
+		f := &model.Facsimile{}
 		if err := rows.Scan(
 			&f.ID,
 			&f.ScanURL,
@@ -48,8 +48,8 @@ func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*ocrflow.F
 	return facsimiles, nil
 }
 
-func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (*ocrflow.Facsimile, error) {
-	f := &ocrflow.Facsimile{}
+func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (*model.Facsimile, error) {
+	f := &model.Facsimile{}
 
 	err := s.db.QueryRow(`
 		SELECT id, url, main_text_pages, created_at, updated_at, name, description
@@ -74,7 +74,7 @@ func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (
 	return f, nil
 }
 
-func (s *FacsimileSQL) InsertFacsimile(editionId string, f *ocrflow.Facsimile) (*ocrflow.Facsimile, error) {
+func (s *FacsimileSQL) InsertFacsimile(editionId string, f *model.Facsimile) (*model.Facsimile, error) {
 	_, err := s.db.Exec(`
 		INSERT INTO facsimiles (id, edition_id, url, main_text_pages, created_at, updated_at, name, description, url)
 		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)

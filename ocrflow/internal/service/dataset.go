@@ -1,0 +1,232 @@
+package service
+
+import (
+	"context"
+	"fmt"
+	"log"
+	"os"
+	"path"
+
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
+)
+
+type Dataset struct {
+	editionSvc       *Edition
+	datasetStore     *store.DatasetSQL
+	fileSysMgt       *filesys.Manager
+	githubDownloader *ghwrapper.Downloader
+}
+
+func NewDatasetService(editionSvc *Edition, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Downloader) *Dataset {
+	return &Dataset{
+		editionSvc:       editionSvc,
+		datasetStore:     datasetStore,
+		fileSysMgt:       fileSystemMgt,
+		githubDownloader: githubDownloader,
+	}
+}
+
+func (d *Dataset) List(filter *querylang.Filter, sort querylang.Sort) ([]*model.Dataset, error) {
+	// todo: add filtering and sorting and make sure to use it in internal uses in this function
+	return d.datasetStore.ListDatasets()
+}
+
+func (d *Dataset) Get(id string) (*model.Dataset, error) {
+	ds, err := d.datasetStore.GetDataset(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset from store: %w", err)
+	}
+	if ds == nil {
+		return nil, fmt.Errorf("dataset with id %s not found", id)
+	}
+	return ds, nil
+}
+
+func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite, skipDeskew bool) (*model.Dataset, error) {
+	if ds.FacsimileID == "" || ds.EditionID == "" {
+		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
+	}
+	_, targetFacsimile, err := d.editionSvc.GetFacsimile(ds.EditionID, ds.FacsimileID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get facsimile: %w", err)
+	}
+	if targetFacsimile.ScanURL == "" {
+		return nil, fmt.Errorf("facsimile has no scan URL")
+	}
+	if !ghwrapper.IsGitHubTreeURL(targetFacsimile.ScanURL) {
+		return nil, fmt.Errorf("only GitHub tree URLs are supported currently")
+	}
+
+	if !forceOverwrite {
+		dss, err := d.List(nil, nil)
+		if err != nil {
+			return nil, fmt.Errorf("failed to list datasets: %w", err)
+		}
+		for _, existingDS := range dss {
+			if existingDS.FacsimileID == ds.FacsimileID && existingDS.EditionID == ds.EditionID {
+				return nil, fmt.Errorf("dataset for facsimile %s in edition %s already exists", ds.FacsimileID, ds.EditionID)
+			}
+		}
+	}
+	ds.ID = idgen.GenerateID(store.DatasetIDPrefix)
+
+	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
+		ds.DPI = 300.0
+	}
+
+	pdfPath := d.fileSysMgt.DatasetPDFPath(ds)
+	log.Printf("Downloading facsimile from %s to %s", targetFacsimile.ScanURL, pdfPath)
+	if err := d.githubDownloader.DownloadRecursive(ctx, targetFacsimile.ScanURL, pdfPath); err != nil {
+		return nil, fmt.Errorf("failed to download facsimile: %w", err)
+	}
+
+	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
+	convertedPNGsDir := imgPath
+	if !skipDeskew {
+		convertedPNGsDir, err = os.MkdirTemp("", "ocrflow-dataset-rawimgs-*")
+		if err != nil {
+			return nil, fmt.Errorf("failed to create temp dir for raw images: %w", err)
+		}
+		defer os.RemoveAll(convertedPNGsDir)
+	}
+
+	log.Printf("Converting facsimile PDF %s to PNGs in %s", pdfPath, convertedPNGsDir)
+	if err := formatcov.PDF2PNGs(pdfPath, convertedPNGsDir, ds.DPI); err != nil {
+		return nil, fmt.Errorf("failed to pre-process facsimile: %w", err)
+	}
+
+	if !skipDeskew {
+		log.Printf("Deskewing images from %s into %s", convertedPNGsDir, imgPath)
+		if err := formatcov.DeskewPNGs(convertedPNGsDir, imgPath); err != nil {
+			return nil, fmt.Errorf("failed to deskew images: %w", err)
+		}
+	}
+
+	log.Printf("Dataset %s fully created", ds.ID)
+	if err := d.datasetStore.InsertDataset(ds); err != nil {
+		return nil, fmt.Errorf("failed to insert dataset into store: %w", err)
+	}
+	return ds, nil
+}
+
+func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.AnnotationRule, error) {
+	ds, err := d.Get(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	ed, fac, err := d.editionSvc.GetFacsimile(ds.EditionID, ds.FacsimileID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get facsimile: %w", err)
+	}
+	if fac == nil {
+		return nil, fmt.Errorf("facsimile with id %s not found in edition %s", ds.FacsimileID, ds.EditionID)
+	}
+
+	segmentationModelID := "1615FineTunedCapricciosaM_0312"
+	categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
+	categoriesForOverlapRemove := []string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
+	categoriesToExcludeFromLineDetection := []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
+	switch ed.ID {
+	case "Paris_1598a":
+		segmentationModelID = "1598FineTuned16150312_0101"
+	case "Paris_1667":
+		segmentationModelID = "1667_ft_rvkwc5"
+	}
+
+	return [][]annotationrule.AnnotationRule{
+		{
+			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
+			annotationrule.NewSegment(segmentationModelID),
+			annotationrule.NewRemoveCategories(categoriesToRemove),
+			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
+			annotationrule.NewLinesDetect([]string{"MainZone"}, categoriesToExcludeFromLineDetection),
+			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
+			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
+		},
+	}, nil
+}
+
+func (d *Dataset) GetPageImage(datasetID string, page int) ([]byte, error) {
+	ds, err := d.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
+	filename := pagesparser.PageToPNGFilename(page)
+	if _, err := os.Stat(path.Join(imgPath, filename)); err != nil {
+		return nil, fmt.Errorf("no such file %s in existing dataset", filename)
+	}
+	data, err := os.ReadFile(path.Join(imgPath, filename))
+	if err != nil {
+		return nil, fmt.Errorf("failed to read page image file: %w", err)
+	}
+	return data, nil
+}
+
+func (d *Dataset) ListSuggestedAnnotationReview(id string) ([][]*annotation.ExpectedBlocks, error) {
+	return [][]*annotation.ExpectedBlocks{
+		{
+			{
+				Category: "MainZone-Head--Book",
+				SanityChecks: []annotation.ExpectedBlocksSanityType{
+					annotation.ExpectedBlocksSanityTypeExact,
+				},
+				ExpectedBlocks: [][]string{
+					{"D. HENRION.", "AV LECTEVR."},
+					{"ELEMENT", "PREMIER."},
+					{"ELEMENT", "PREMIER."},
+					{"ELEMENT", "SECOND."},
+					{"ELEMENT", "TROISIESME."},
+					{"ELEMENT", "QVATRIESME."},
+					{"ELEMENT", "CINQVIESME."},
+					{"ELEMENT", "SIXIESME."},
+					{"ELEMENT", "SEPTIESME."},
+					{"ELEMENT", "HVITIESME."},
+					{"ELEMENT", "NEVFIESME."},
+					{"ELEMENT", "DIXIESME."},
+					{"ELEMENT", "VNZIESME."},
+					{"ELEMENT", "DOVZIESME."},
+					{"ELEMENT", "TREIZIESME."},
+					{"ELEMENT", "QVATORZIESME."},
+					{"ELEMENT", "QVINZIESME."},
+				},
+			},
+		}, nil,
+	}, nil
+}
+
+func (d *Dataset) Delete(id string) error {
+	ds, err := d.Get(id)
+	if err != nil {
+		return fmt.Errorf("failed to get dataset: %w", err)
+	}
+	if err := d.datasetStore.DeleteDataset(id); err != nil {
+		return fmt.Errorf("failed to delete dataset from store: %w", err)
+	}
+	if err := d.fileSysMgt.DeleteDatasetFiles(ds); err != nil {
+		return fmt.Errorf("failed to delete dataset files: %w", err)
+	}
+	return nil
+}
+
+func (d *Dataset) Update(id string, m *model.Dataset) (*model.Dataset, error) {
+	existingDS, err := d.Get(id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	existingDS.Name = m.Name
+	existingDS.Description = m.Description
+	if err := d.datasetStore.UpdateDataset(existingDS); err != nil {
+		return nil, fmt.Errorf("failed to update dataset in store: %w", err)
+	}
+	return existingDS, nil
+}

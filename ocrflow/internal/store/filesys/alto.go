@@ -5,12 +5,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
 
-func (m *Manager) RetrieveAltoPage(ann *ocrflow.Annotation, page int) (*alto.Alto, string, error) {
+func (m *Manager) RetrieveAltoPage(ann *annotation.Annotation, page int) (*alto.Alto, string, error) {
 	pageAltoPath := filepath.Join(m.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
 	if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
 		return nil, pageAltoPath, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
@@ -23,7 +23,7 @@ func (m *Manager) RetrieveAltoPage(ann *ocrflow.Annotation, page int) (*alto.Alt
 	return af, pageAltoPath, nil
 }
 
-func (m *Manager) ApplyToAltoPage(ann *ocrflow.Annotation, page int, applier func(*alto.Alto) error) error {
+func (m *Manager) ApplyToAltoPage(ann *annotation.Annotation, page int, applier func(*alto.Alto) error) error {
 	a, filePath, err := m.RetrieveAltoPage(ann, page)
 	if err != nil {
 		return err

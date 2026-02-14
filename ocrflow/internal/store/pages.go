@@ -8,15 +8,15 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
 
-func InferPages(dstPath string, format ocrflow.AnnotationFormat) ([]int, error) {
+func InferPages(dstPath string, format annotation.Format) ([]int, error) {
 	switch format {
-	case ocrflow.AnnotationFormatAlto:
+	case annotation.FormatAlto:
 		return inferPagesFromAltoDir(dstPath)
-	case ocrflow.AnnotationFormatYolo:
+	case annotation.FormatYolo:
 		return inferPagesFromYoloDir(dstPath)
 	default:
 		return inferPagesFromImgDir(dstPath)

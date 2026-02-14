@@ -5,14 +5,14 @@ import (
 	"errors"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 )
 
 type EditionSQL struct {
 	BaseSQL
 }
 
-func (s *EditionSQL) ListEditions() ([]*ocrflow.Edition, error) {
+func (s *EditionSQL) ListEditions() ([]*model.Edition, error) {
 	rows, err := s.db.Query(`
 		SELECT id, name, description, created_at, updated_at
 		FROM editions
@@ -22,10 +22,10 @@ func (s *EditionSQL) ListEditions() ([]*ocrflow.Edition, error) {
 	}
 	defer rows.Close()
 
-	var editions []*ocrflow.Edition
+	var editions []*model.Edition
 
 	for rows.Next() {
-		e := &ocrflow.Edition{}
+		e := &model.Edition{}
 		if err := rows.Scan(
 			&e.ID,
 			&e.Name,
@@ -45,8 +45,8 @@ func (s *EditionSQL) ListEditions() ([]*ocrflow.Edition, error) {
 	return editions, nil
 }
 
-func (s *EditionSQL) GetEditionByID(id string) (*ocrflow.Edition, error) {
-	e := &ocrflow.Edition{}
+func (s *EditionSQL) GetEditionByID(id string) (*model.Edition, error) {
+	e := &model.Edition{}
 
 	err := s.db.QueryRow(`
 		SELECT id, name, description, created_at, updated_at
@@ -70,7 +70,7 @@ func (s *EditionSQL) GetEditionByID(id string) (*ocrflow.Edition, error) {
 	return e, nil
 }
 
-func (s *EditionSQL) InsertEdition(edition *ocrflow.Edition) error {
+func (s *EditionSQL) InsertEdition(edition *model.Edition) error {
 	now := time.Now().UTC()
 
 	edition.CreatedAt = now
@@ -90,7 +90,7 @@ func (s *EditionSQL) InsertEdition(edition *ocrflow.Edition) error {
 	return err
 }
 
-func (s *EditionSQL) UpdateEdition(edition *ocrflow.Edition) error {
+func (s *EditionSQL) UpdateEdition(edition *model.Edition) error {
 	edition.UpdatedAt = time.Now().UTC()
 
 	_, err := s.db.Exec(`

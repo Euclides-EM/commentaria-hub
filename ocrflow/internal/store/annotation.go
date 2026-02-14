@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 )
 
@@ -27,7 +27,7 @@ func NewAnnotationSQL(db *sql.DB) *AnnotationSQL {
 	}
 }
 
-func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*ocrflow.Annotation, error) {
+func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*annotation.Annotation, error) {
 	row := s.db.QueryRow(`
 		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id
 		FROM annotations
@@ -35,7 +35,7 @@ func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*ocrflow.Annotation
 		LIMIT 1
 	`, datasetID, id)
 
-	a := &ocrflow.Annotation{}
+	a := &annotation.Annotation{}
 	err := row.Scan(
 		&a.ID,
 		&a.Name,
@@ -66,7 +66,7 @@ func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*ocrflow.Annotation
 	return a, nil
 }
 
-func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*ocrflow.Annotation, error) {
+func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*annotation.Annotation, error) {
 	rows, err := s.db.Query(`
 		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id
 		FROM annotations
@@ -78,9 +78,9 @@ func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*ocrflow
 	}
 	defer rows.Close()
 
-	var annotations []*ocrflow.Annotation
+	var annotations []*annotation.Annotation
 	for rows.Next() {
-		a := &ocrflow.Annotation{}
+		a := &annotation.Annotation{}
 		if err := rows.Scan(
 			&a.ID,
 			&a.Name,
@@ -186,7 +186,7 @@ func (s *AnnotationSQL) listAppliedRules(annotationID string) ([]annotationrule.
 	return rules, nil
 }
 
-func (s *AnnotationSQL) UpdateAnnotation(a *ocrflow.Annotation) error {
+func (s *AnnotationSQL) UpdateAnnotation(a *annotation.Annotation) error {
 	if a == nil {
 		return fmt.Errorf("annotation is nil")
 	}
@@ -329,7 +329,7 @@ func (s *AnnotationSQL) UpdateAnnotation(a *ocrflow.Annotation) error {
 	return nil
 }
 
-func (s *AnnotationSQL) InsertAnnotation(a *ocrflow.Annotation) error {
+func (s *AnnotationSQL) InsertAnnotation(a *annotation.Annotation) error {
 	if a == nil {
 		return fmt.Errorf("annotation is nil")
 	}
@@ -412,7 +412,7 @@ func (s *AnnotationSQL) DeleteAnnotation(datasetID string, annotationID string) 
 	return err
 }
 
-func calculatePipelineStage(a *ocrflow.Annotation) annotationrule.PipelineStage {
+func calculatePipelineStage(a *annotation.Annotation) annotationrule.PipelineStage {
 	s := annotationrule.PipelineStageRaw
 	if a.Ocred {
 		s = annotationrule.PipelineStageOCR

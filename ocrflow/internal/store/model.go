@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/samber/lo"
 )
 
@@ -21,7 +21,7 @@ func NewModelSQL(db *sql.DB) *ModelSQL {
 	}
 }
 
-func (s *ModelSQL) ListModels() ([]*ocrflow.Model, error) {
+func (s *ModelSQL) ListModels() ([]*model.Model, error) {
 	rows, err := s.db.Query(`
 		SELECT id, name, description, created_at, updated_at, type, location, algorithm_family, local_path, base_model_id
 		FROM models
@@ -32,9 +32,9 @@ func (s *ModelSQL) ListModels() ([]*ocrflow.Model, error) {
 	}
 	defer rows.Close()
 
-	var models []*ocrflow.Model
+	var models []*model.Model
 	for rows.Next() {
-		m := &ocrflow.Model{}
+		m := &model.Model{}
 		var algoFamily string
 		var baseModelID sql.NullString
 
@@ -54,7 +54,7 @@ func (s *ModelSQL) ListModels() ([]*ocrflow.Model, error) {
 		}
 
 		// algorithm_family is stored as TEXT DEFAULT '' NOT NULL
-		m.AlgorithmFamily = ocrflow.OCRModelAlgorithmFamily(algoFamily)
+		m.AlgorithmFamily = model.OCRModelAlgorithmFamily(algoFamily)
 
 		cats, err := s.listModelCategories(m.ID)
 		if err != nil {
@@ -81,7 +81,7 @@ func (s *ModelSQL) ListModels() ([]*ocrflow.Model, error) {
 	return models, nil
 }
 
-func (s *ModelSQL) GetModelByID(id string) (*ocrflow.Model, error) {
+func (s *ModelSQL) GetModelByID(id string) (*model.Model, error) {
 	row := s.db.QueryRow(`
 		SELECT id, name, description, created_at, updated_at, type, location, algorithm_family, local_path, base_model_id
 		FROM models
@@ -89,7 +89,7 @@ func (s *ModelSQL) GetModelByID(id string) (*ocrflow.Model, error) {
 		LIMIT 1
 	`, id)
 
-	m := &ocrflow.Model{}
+	m := &model.Model{}
 	var algoFamily string
 	var baseModelID sql.NullString
 	if err := row.Scan(
@@ -106,7 +106,7 @@ func (s *ModelSQL) GetModelByID(id string) (*ocrflow.Model, error) {
 	); err != nil {
 		return nil, err
 	}
-	m.AlgorithmFamily = ocrflow.OCRModelAlgorithmFamily(algoFamily)
+	m.AlgorithmFamily = model.OCRModelAlgorithmFamily(algoFamily)
 
 	cats, err := s.listModelCategories(m.ID)
 	if err != nil {
@@ -126,7 +126,7 @@ func (s *ModelSQL) GetModelByID(id string) (*ocrflow.Model, error) {
 	return m, nil
 }
 
-func (s *ModelSQL) InsertModel(m *ocrflow.Model) error {
+func (s *ModelSQL) InsertModel(m *model.Model) error {
 	if m == nil {
 		return fmt.Errorf("model is nil")
 	}
@@ -171,7 +171,7 @@ func (s *ModelSQL) InsertModel(m *ocrflow.Model) error {
 	return tx.Commit()
 }
 
-func (s *ModelSQL) UpdateModel(m *ocrflow.Model) error {
+func (s *ModelSQL) UpdateModel(m *model.Model) error {
 	if m == nil {
 		return fmt.Errorf("model is nil")
 	}
@@ -305,7 +305,7 @@ func (s *ModelSQL) insertModelCategoriesTx(tx *sql.Tx, modelID string, categorie
 	return nil
 }
 
-func (s *ModelSQL) listModelBaseAnnotations(modelID string) ([]*ocrflow.AnnotationReference, error) {
+func (s *ModelSQL) listModelBaseAnnotations(modelID string) ([]*model.AnnotationReference, error) {
 	rows, err := s.db.Query(`
 		SELECT dataset_id, annotation_id
 		FROM models_base_annotations
@@ -317,9 +317,9 @@ func (s *ModelSQL) listModelBaseAnnotations(modelID string) ([]*ocrflow.Annotati
 	}
 	defer rows.Close()
 
-	var refs []*ocrflow.AnnotationReference
+	var refs []*model.AnnotationReference
 	for rows.Next() {
-		r := &ocrflow.AnnotationReference{}
+		r := &model.AnnotationReference{}
 		if err := rows.Scan(&r.DatasetID, &r.ID); err != nil {
 			return nil, err
 		}
@@ -333,7 +333,7 @@ func (s *ModelSQL) listModelBaseAnnotations(modelID string) ([]*ocrflow.Annotati
 	return refs, nil
 }
 
-func (s *ModelSQL) insertModelBaseAnnotationsTx(tx *sql.Tx, modelID string, refs []*ocrflow.AnnotationReference) error {
+func (s *ModelSQL) insertModelBaseAnnotationsTx(tx *sql.Tx, modelID string, refs []*model.AnnotationReference) error {
 	for _, r := range refs {
 		if r == nil {
 			continue
