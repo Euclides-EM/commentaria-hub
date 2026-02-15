@@ -9,7 +9,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-//go:generate swag init -g main.go -d .,../../internal/api,../../internal/model,../../internal/model/annotation,../../internal/model/annotationrule,../../internal/model/feature,../../internal/model/common --parseInternal -o ../../internal/docs
+//go:generate swag init -g main.go -d .,../../internal/api,../../internal/model,../../internal/model/annotation,../../internal/model/annotationrule,../../internal/model/feature,../../internal/model/common,../../pkg/search --parseInternal -o ../../internal/docs
 
 // @title          	OCR Flow API
 // @version         1.0

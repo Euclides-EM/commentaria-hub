@@ -1,51 +1,45 @@
 package api
 
 import (
+	"encoding/json"
 	"fmt"
 	"net/http"
-	"strconv"
-	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
-	"github.com/samber/lo"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/search"
 )
 
 const (
 	defaultListLimit = 20
-	maxListLimit     = 100
+	maxListLimit     = 5000
 )
 
 // ListEditions godoc
 // @Summary      List Editions
 // @Description  Get a paginated list of editions. Filter by corpus; use offset/limit for paging.
 // @Tags         Editions
-// @Param        orderBy query     string  false  "Order by field"            Enums(suggested)
-// @Param        corpus  query     string  false  "Filter by corpus (comma-separated)"
-// @Param        offset  query     int     false  "Paginated offset"         default(0)
-// @Param        limit   query     int     false  "Page size (max 100)"      default(20)
 // @Produce      json
+// @Accept       json
+// @Param        edition  body  search.Query  false  "Filter, ordering, and pagination options"
 // @Success      200  {object}  model.EditionListResult
-// @Router       /editions [get]
+// @Router       /editions/search [post]
 func (h *Handlers) ListEditions(r *http.Request) (any, error) {
-	corpuses := strings.Split(r.URL.Query().Get("corpus"), ",")
-	corpuses = lo.Filter(lo.Map(corpuses, func(c string, _ int) string {
-		return strings.TrimSpace(c)
-	}), func(c string, _ int) bool {
-		return c != ""
-	})
-	offset, _ := strconv.Atoi(r.URL.Query().Get("offset"))
-	limit, _ := strconv.Atoi(r.URL.Query().Get("limit"))
-	if limit <= 0 {
-		limit = defaultListLimit
+	var query search.Query
+	if err := json.NewDecoder(r.Body).Decode(&query); err != nil {
+		return nil, fmt.Errorf("failed to decode request body: %w", err)
 	}
-	if limit > maxListLimit {
-		limit = maxListLimit
-	}
+	offset := query.Offset
 	if offset < 0 {
 		offset = 0
 	}
-	return h.deps.EditionSvc.ListEditions(corpuses, model.ToEditionOrderByOptions(r.URL.Query().Get("orderBy")), offset, limit)
+	limit := query.Limit
+	if limit <= 0 {
+		limit = defaultListLimit
+	} else if limit > maxListLimit {
+		limit = maxListLimit
+	}
+	return h.deps.EditionSvc.ListEditions(query.FilterFunc(), query.OrderByFunc(), offset, limit)
 }
 
 // GetEdition godoc

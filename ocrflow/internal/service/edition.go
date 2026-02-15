@@ -26,12 +26,11 @@ func NewEditionService(editionStore *store.EditionCSV, facsimileStore *store.Fac
 }
 
 // ListEditions returns a paginated list of editions, optionally filtered by corpus.
-func (e *Edition) ListEditions(corpuses []string, orderBy []model.EditionOrderByOptions, offset, limit int) (*model.EditionListResult, error) {
-	items, total, err := e.editionStore.ListEditions(corpuses, offset, limit)
+func (e *Edition) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any) int, offset, limit int) (any, error) {
+	items, total, err := e.editionStore.ListEditions(filter, orderBy, offset, limit)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list editions from store: %w", err)
 	}
-	_ = orderBy // reserved for future ordering
 	return &model.EditionListResult{Items: items, Total: total, Offset: offset, Limit: limit}, nil
 }
 

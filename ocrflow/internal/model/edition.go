@@ -1,9 +1,5 @@
 package model
 
-import (
-	"strings"
-)
-
 type Edition struct {
 	Key              string                 `json:"key"`
 	ShortTitle       string                 `json:"shortTitle"`
@@ -87,21 +83,4 @@ type EditionListResult struct {
 	Total  int        `json:"total"`
 	Offset int        `json:"offset"`
 	Limit  int        `json:"limit"`
-}
-
-type EditionOrderByOptions string
-
-const (
-	EditionOrderBySuggested EditionOrderByOptions = "suggested"
-)
-
-func ToEditionOrderByOptions(s string) []EditionOrderByOptions {
-	var opts []EditionOrderByOptions
-	for _, candidate := range strings.Split(s, ",") {
-		switch EditionOrderByOptions(candidate) {
-		case EditionOrderBySuggested:
-			opts = append(opts, EditionOrderBySuggested)
-		}
-	}
-	return opts
 }

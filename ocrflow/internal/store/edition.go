@@ -2,6 +2,7 @@ package store
 
 import (
 	"fmt"
+	"log"
 	"math/rand"
 	"mime/multipart"
 	"os"
@@ -12,14 +13,17 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/csv"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/samber/lo"
 )
 
 type EditionCSV struct {
-	docsDir string
-	tpsDir  string
+	docsDir    string
+	tpsDir     string
+	cacheStore *cache.Cache
 }
 
 const (
@@ -42,11 +46,29 @@ const (
 	relLocators         = "locators.csv"
 )
 
+var (
+	cacheWarmupError = fmt.Errorf("try again in a few moments when cache warmup is complete")
+)
+
 func NewEditionCSV(docsPublicDir string) *EditionCSV {
 	return &EditionCSV{
-		docsDir: filepath.Join(docsPublicDir, docsSubdir),
-		tpsDir:  filepath.Join(docsPublicDir, "tps"),
+		// todo fix...
+		docsDir:    filepath.Join(docsPublicDir, docsSubdir),
+		tpsDir:     filepath.Join(docsPublicDir, "tps"),
+		cacheStore: cache.NewCache(),
 	}
+}
+
+func (s *EditionCSV) WarmCache() error {
+	return s.cacheStore.Warmup(func() (map[string]interface{}, error) {
+		m, err := s.LoadAllEditions()
+		if err != nil {
+			return nil, err
+		}
+		return lo.MapValues(m, func(ed *model.Edition, _ string) any {
+			return ed
+		}), nil
+	})
 }
 
 func (s *EditionCSV) csvPath(rel string) string {
@@ -55,6 +77,9 @@ func (s *EditionCSV) csvPath(rel string) string {
 
 // UpdateNotes updates the notes field for the given key in items_print.csv.
 func (s *EditionCSV) UpdateNotes(key, note string) error {
+	if !s.cacheStore.IsWarm() {
+		return cacheWarmupError
+	}
 	header, rows, err := csv.LoadCSVRecords(relItemsPrint)
 	if err != nil {
 		return err
@@ -70,10 +95,21 @@ func (s *EditionCSV) UpdateNotes(key, note string) error {
 	if !found {
 		return fmt.Errorf("item with key %s not found", key)
 	}
-	return csv.SaveCSVRecords(relItemsPrint, header, rows)
+	if err := csv.SaveCSVRecords(relItemsPrint, header, rows); err != nil {
+		return fmt.Errorf("Error saving updated notes: %v\n", err)
+	}
+	loaded, err := s.loadEditionByKey(key)
+	if err != nil {
+		return fmt.Errorf("Error reloading edition after notes update: %v\n", err)
+	}
+	s.cacheStore.Set(key, loaded)
+	return nil
 }
 
 func (s *EditionCSV) UpsertEdition(ed *model.Edition, user string) error {
+	if !s.cacheStore.IsWarm() {
+		return cacheWarmupError
+	}
 	if ed.IsManuscript {
 		if err := s.upsertManuscript(ed); err != nil {
 			return err
@@ -115,6 +151,11 @@ func (s *EditionCSV) UpsertEdition(ed *model.Edition, user string) error {
 			return fmt.Errorf("Error upserting review: %v\n", err)
 		}
 	}
+	loaded, err := s.loadEditionByKey(ed.Key)
+	if err != nil {
+		return fmt.Errorf("Error reloading edition after notes update: %v\n", err)
+	}
+	s.cacheStore.Set(ed.Key, loaded)
 	return nil
 }
 
@@ -374,6 +415,9 @@ func (s *EditionCSV) upsertVisualElements(ed *model.Edition) error {
 }
 
 func (s *EditionCSV) DeleteEdition(key string) error {
+	if !s.cacheStore.IsWarm() {
+		return cacheWarmupError
+	}
 	for _, rel := range []string{
 		relItemsManuscript, relItemsPrint, relMDManuscript, relMDPrint,
 		relReviews, relShelfmarks, relTranscriptions, relTranslations,
@@ -388,14 +432,23 @@ func (s *EditionCSV) DeleteEdition(key string) error {
 	if err := csv.DeleteRows(relClusterItems, "item_key", key); err != nil {
 		return fmt.Errorf("Error deleting edition from cluster items: %v\n", err)
 	}
+	s.cacheStore.Delete(key)
 	return nil
 }
 
 func (s *EditionCSV) UploadImage(key string, typ string, ext string, file multipart.File) (*model.ImageUpload, error) {
+	if !s.cacheStore.IsWarm() {
+		return nil, cacheWarmupError
+	}
 	p := path.Join(s.tpsDir, fmt.Sprintf("%s_%s.%s", key, typ, ext))
 	if err := futils.WriteMultipartFileToPath(file, p); err != nil {
 		return nil, fmt.Errorf("Error saving uploaded image: %v\n", err)
 	}
+	loaded, err := s.loadEditionByKey(key)
+	if err != nil {
+		return nil, fmt.Errorf("Error reloading edition after notes update: %v\n", err)
+	}
+	s.cacheStore.Set(key, loaded)
 	return &model.ImageUpload{
 		Success:  true,
 		Filename: filepath.Base(p),
@@ -404,95 +457,37 @@ func (s *EditionCSV) UploadImage(key string, typ string, ext string, file multip
 }
 
 func (s *EditionCSV) GetEditionByID(key string) (*model.Edition, error) {
-	ed, err := s.loadEditionByKey(key)
-	if err != nil {
-		return nil, err
+	if !s.cacheStore.IsWarm() {
+		return nil, cacheWarmupError
 	}
-	return ed, nil
+	ed, ok := s.cacheStore.Get(key)
+	if !ok {
+		return nil, nil
+	}
+	if edTyped, ok := ed.(*model.Edition); ok {
+		return edTyped, nil
+	}
+	return nil, fmt.Errorf("cache contains non-edition value of type %T for key %s", ed, key)
 }
 
 // ListEditions returns a page of editions and the total count. Pagination is performed
 // in the store: only keys in [offset, offset+limit) are loaded in full; corpus filtering
 // uses corpuses.csv only (no full edition load).
-func (s *EditionCSV) ListEditions(corpuses []string, offset, limit int) ([]*model.Edition, int, error) {
-	keys, err := s.collectEditionKeys()
-	if err != nil {
-		return nil, 0, err
+func (s *EditionCSV) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any) int, offset, limit int) ([]*model.Edition, int, error) {
+	if !s.cacheStore.IsWarm() {
+		return nil, 0, cacheWarmupError
 	}
-	corpusSet := make(map[string]struct{})
-	for _, c := range corpuses {
-		if c != "" {
-			corpusSet[c] = struct{}{}
+	_, editions, total, err := s.cacheStore.GetBulk(filter,
+		func(k1 string, k2 string, v1 any, v2 any) int {
+			return orderBy(v1, v2)
+		}, offset, limit)
+	return lo.Map(editions, func(e any, _ int) *model.Edition {
+		if ed, ok := e.(*model.Edition); ok {
+			return ed
 		}
-	}
-	if len(corpusSet) > 0 {
-		keys, err = s.filterKeysByCorpus(keys, corpusSet)
-		if err != nil {
-			return nil, 0, err
-		}
-	}
-	total := len(keys)
-	if total == 0 {
-		return []*model.Edition{}, 0, nil
-	}
-	if offset < 0 {
-		offset = 0
-	}
-	if limit <= 0 {
-		limit = 20
-	}
-	if offset >= total {
-		return []*model.Edition{}, total, nil
-	}
-	end := offset + limit
-	if end > total {
-		end = total
-	}
-	pageKeys := keys[offset:end]
-	out := make([]*model.Edition, 0, len(pageKeys))
-	for _, key := range pageKeys {
-		ed, err := s.loadEditionByKey(key)
-		if err != nil {
-			return nil, 0, err
-		}
-		if ed != nil {
-			out = append(out, ed)
-		}
-	}
-	return out, total, nil
-}
-
-// filterKeysByCorpus returns only keys that have at least one corpus in corpusSet.
-// Uses corpuses.csv only (no full edition load). If corpusSet is empty, returns keys unchanged.
-func (s *EditionCSV) filterKeysByCorpus(keys []string, corpusSet map[string]struct{}) ([]string, error) {
-	if len(corpusSet) == 0 {
-		return keys, nil
-	}
-	corpRows, err := s.loadCSVRecordsOptional(relCorpuses)
-	if err != nil {
-		return nil, err
-	}
-	if corpRows == nil {
-		return nil, nil
-	}
-	keyCorpora := make(map[string][]string)
-	for _, r := range corpRows {
-		k := r["key"]
-		if k == "" {
-			continue
-		}
-		keyCorpora[k] = splitNonEmpty(r["study"])
-	}
-	var out []string
-	for _, k := range keys {
-		for _, c := range keyCorpora[k] {
-			if _, ok := corpusSet[strings.TrimSpace(c)]; ok {
-				out = append(out, k)
-				break
-			}
-		}
-	}
-	return out, nil
+		log.Printf("ListEditions: cache contains non-edition value of type %T", e)
+		return nil
+	}), total, err
 }
 
 // loadCSVRecordsOptional loads CSV rows from path; if file does not exist returns (nil, nil).
@@ -701,6 +696,211 @@ func (s *EditionCSV) collectEditionKeys() ([]string, error) {
 		}
 	}
 	return keys, nil
+}
+
+// preloadedEditionRows holds all CSV data in memory for one bulk load.
+type preloadedEditionRows struct {
+	msRows         []map[string]string
+	printRows      []map[string]string
+	mdManuscript   []map[string]string
+	mdPrint        []map[string]string
+	transcriptions []map[string]string
+	translations   []map[string]string
+	shelfmarks     []map[string]string
+	corpuses       []map[string]string
+	bibliography   []map[string]string
+	reviews        []map[string]string
+	clusterItems   []map[string]string
+	locators       []map[string]string
+	veRows         []map[string]string
+	exRows         []map[string]string
+}
+
+// loadAllCSVsOnce reads each edition CSV once. Missing files yield nil slices.
+func (s *EditionCSV) loadAllCSVsOnce() (*preloadedEditionRows, error) {
+	p := &preloadedEditionRows{}
+	p.msRows, _ = s.loadCSVRecordsOptional(relItemsManuscript)
+	p.printRows, _ = s.loadCSVRecordsOptional(relItemsPrint)
+	if p.msRows == nil && p.printRows == nil {
+		return p, nil
+	}
+	p.mdManuscript, _ = s.loadCSVRecordsOptional(relMDManuscript)
+	p.mdPrint, _ = s.loadCSVRecordsOptional(relMDPrint)
+	p.transcriptions, _ = s.loadCSVRecordsOptional(relTranscriptions)
+	p.translations, _ = s.loadCSVRecordsOptional(relTranslations)
+	p.shelfmarks, _ = s.loadCSVRecordsOptional(relShelfmarks)
+	p.corpuses, _ = s.loadCSVRecordsOptional(relCorpuses)
+	p.bibliography, _ = s.loadCSVRecordsOptional(relBibliography)
+	p.reviews, _ = s.loadCSVRecordsOptional(relReviews)
+	p.clusterItems, _ = s.loadCSVRecordsOptional(relClusterItems)
+	p.locators, _ = s.loadCSVRecordsOptional(relLocators)
+	p.veRows, _ = s.loadCSVRecordsOptional(relVisualElements)
+	p.exRows, _ = s.loadCSVRecordsOptional(relVisualElementsEx)
+	return p, nil
+}
+
+// LoadAllEditions reads each CSV once and builds all editions in memory. Use for cache warming.
+func (s *EditionCSV) LoadAllEditions() (map[string]*model.Edition, error) {
+	var out = make(map[string]*model.Edition)
+	keys, err := s.collectEditionKeys()
+	if err != nil {
+		return nil, err
+	}
+	if len(keys) == 0 {
+		return out, nil
+	}
+	preloaded, err := s.loadAllCSVsOnce()
+	if err != nil {
+		return nil, err
+	}
+	if preloaded.msRows == nil && preloaded.printRows == nil {
+		return out, nil
+	}
+	for _, key := range keys {
+		ed := s.buildEditionFromPreloaded(key, preloaded)
+		if ed != nil {
+			out[key] = ed
+		}
+	}
+	return out, nil
+}
+
+// buildEditionFromPreloaded constructs one edition from preloaded CSV rows. Returns nil if key not found.
+func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRows) *model.Edition {
+	var itemRow map[string]string
+	isManuscript := false
+	if itemRow = findRowByKey(p.msRows, "key", key); itemRow != nil {
+		isManuscript = true
+	} else if itemRow = findRowByKey(p.printRows, "key", key); itemRow != nil {
+	} else {
+		return nil
+	}
+	ed := &model.Edition{
+		Key:              key,
+		ShortTitle:       itemRow["short_title"],
+		ShortTitleSource: itemRow["short_title_source"],
+		Notes:            itemRow["notes"],
+		IsManuscript:     isManuscript,
+	}
+	if isManuscript {
+		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
+		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
+		if md := findRowByKey(p.mdManuscript, "key", key); md != nil {
+			ed.IsElements = true
+			ed.ManuscriptClass = md["class"]
+			ed.ManuscriptSubclass = formatcov.StrToPtr(md["subclass"])
+			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
+		}
+	} else {
+		ed.Cities = splitNonEmpty(itemRow["city"])
+		ed.Year = formatcov.StrToPtr(itemRow["year"])
+		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["language"]))
+		ed.Editor = splitNonEmpty(itemRow["author_or_editor"])
+		ed.Publisher = splitNonEmpty(itemRow["publisher"])
+		ed.Format = formatcov.IntOpt(itemRow["format"])
+		ed.Volumes = formatcov.IntOpt(itemRow["volumes"])
+		ed.USTCId = formatcov.StrToPtr(itemRow["ustc_id"])
+		if tr := findRowByKey(p.transcriptions, "key", key); tr != nil {
+			ed.Title = formatcov.StrToPtr(tr["title"])
+			ed.Imprint = formatcov.StrToPtr(tr["imprint"])
+			ed.Colophon = formatcov.StrToPtr(tr["colophon"])
+			ed.Frontispiece = formatcov.StrToPtr(tr["frontispiece"])
+		}
+		if md := findRowByKey(p.mdPrint, "key", key); md != nil {
+			ed.IsElements = true
+			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
+			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
+		}
+		for _, r := range p.translations {
+			if r["key"] != key {
+				continue
+			}
+			switch r["field"] {
+			case "title":
+				ed.TitleEN = formatcov.StrToPtr(r["en"])
+			case "imprint":
+				ed.ImprintEN = formatcov.StrToPtr(r["en"])
+			case "colophon":
+				ed.ColophonEN = formatcov.StrToPtr(r["en"])
+			case "frontispiece":
+				ed.FrontispieceEN = formatcov.StrToPtr(r["en"])
+			}
+		}
+	}
+	for _, r := range p.shelfmarks {
+		if r["key"] != key {
+			continue
+		}
+		ed.Shelfmarks = append(ed.Shelfmarks, model.EditionShelfmark{
+			Volume:          formatcov.IntOpt(r["volume"]),
+			Scan:            r["scan"],
+			Shelfmark:       r["shelf_mark"],
+			TitlePageImg:    r["title_page_img"],
+			FrontispieceImg: r["frontispiece_img"],
+			Annotations:     r["annotations"],
+			Copyright:       r["copyright"],
+		})
+	}
+	if cr := findRowByKey(p.corpuses, "key", key); cr != nil && cr["study"] != "" {
+		ed.Corpus = splitNonEmpty(cr["study"])
+	}
+	for _, r := range p.bibliography {
+		if r["key"] == key && r["citation"] != "" {
+			ed.Bibliography = append(ed.Bibliography, r["citation"])
+		}
+	}
+	ed.Verified = findRowByKey(p.reviews, "key", key) != nil
+	for _, r := range p.clusterItems {
+		if r["item_key"] == key && r["cluster_key"] != "" {
+			for _, r2 := range p.clusterItems {
+				if r2["cluster_key"] == r["cluster_key"] && r2["item_key"] != key {
+					ed.ReprintOf = formatcov.StrToPtr(r2["item_key"])
+					break
+				}
+			}
+			break
+		}
+	}
+	locByKey := make(map[string]*model.EditionLocator)
+	for _, r := range p.locators {
+		loc := rowToLocator(r)
+		if loc != nil {
+			locByKey[loc.Key] = loc
+		}
+	}
+	for _, r := range p.veRows {
+		if r["key"] != key {
+			continue
+		}
+		ve := model.EditionVisualElement{
+			VisualElementType: r["visual_element_type"],
+			LocatorType:       r["locator_type"],
+			Notes:             r["notes"],
+		}
+		if locKey := r["locator_key"]; locKey != "" {
+			ve.Locator = locByKey[locKey]
+		}
+		for _, ex := range p.exRows {
+			if ex["key"] != key {
+				continue
+			}
+			exLocKey := ex["locator_key"]
+			if ve.Locator != nil && exLocKey != ve.Locator.Key {
+				continue
+			}
+			if ve.Locator == nil && exLocKey != "" {
+				continue
+			}
+			exItem := model.EditionVisualExample{Img: ex["path"]}
+			if exLocKey != "" {
+				exItem.Locator = locByKey[exLocKey]
+				exItem.HasLocator = true
+			}
+			ve.Examples = append(ve.Examples, exItem)
+		}
+		ed.VisualElements = append(ed.VisualElements, ve)
+	}
+	return ed
 }
 
 func splitNonEmpty(s string) []string {

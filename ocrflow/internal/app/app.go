@@ -3,6 +3,7 @@ package app
 import (
 	"database/sql"
 	"fmt"
+	"log"
 	"net/http"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/api"
@@ -35,6 +36,10 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	datasetStore := store.NewDatasetSQL(sqlDB)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
 	modelStore := store.NewModelSQL(sqlDB)
+	featureRevisionStore := store.NewFeatureRevisionSQL(sqlDB)
+	featureExecutionStore := store.NewFeatureExecutionSQL(sqlDB)
+	featureResultStore := store.NewFeatureResultSQL(sqlDB)
+	tpsTranscriptionsStore := store.NewTPSTranscriptions()
 
 	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir)
 
@@ -70,12 +75,14 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	assetGen := service.NewAssetGen(datasetSvc, annotationTEI, annotationSvc, fileSystemManager)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager)
 	featureStore := store.NewFeatureSQL(sqlDB)
-	featureRevisionStore := store.NewFeatureRevisionSQL(sqlDB)
-	featureExecutionStore := store.NewFeatureExecutionSQL(sqlDB)
-	featureResultStore := store.NewFeatureResultSQL(sqlDB)
-	tpsTranscriptionsStore := store.NewTPSTranscriptions()
-
 	featureResultSvc := service.NewResult(featureResultStore)
+
+	log.Printf("warming edition cache...")
+	if err := editionStore.WarmCache(); err != nil {
+		log.Fatalf("edition cache warm failed: %v", err)
+	}
+	log.Printf("finished warming edition cache")
+
 	deps := &api.Dependencies{
 		Env:                 env,
 		HealthSvc:           healthSvc,
