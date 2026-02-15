@@ -3,9 +3,11 @@ package api
 import (
 	"fmt"
 	"net/http"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
+	"github.com/samber/lo"
 )
 
 // ListEditions godoc
@@ -13,11 +15,18 @@ import (
 // @Description  Get a list of available editions. Optionally include facsimiles.
 // @Tags         Editions
 // @Param        orderBy query     string  false  "Order by field"            Enums(suggested)
+// @Param        corpus  query     string  false  "Filter by corpus"
 // @Produce      json
 // @Success      200  {array}   model.Edition
 // @Router       /editions [get]
 func (h *Handlers) ListEditions(r *http.Request) (any, error) {
-	return h.deps.EditionSvc.ListEditions(model.ToEditionOrderByOptions(r.URL.Query().Get("orderBy")))
+	corpuses := strings.Split(r.URL.Query().Get("corpus"), ",")
+	corpuses = lo.Filter(lo.Map(corpuses, func(c string, _ int) string {
+		return strings.TrimSpace(c)
+	}), func(c string, _ int) bool {
+		return c != ""
+	})
+	return h.deps.EditionSvc.ListEditions(corpuses, model.ToEditionOrderByOptions(r.URL.Query().Get("orderBy")))
 }
 
 // CreateEdition godoc

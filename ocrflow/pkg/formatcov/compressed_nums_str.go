@@ -50,3 +50,36 @@ func IntsToCompressedStr(nums []int) string {
 	}
 	return strings.Join(ranges, ", ")
 }
+
+// CompressedStrToInts parses a compressed string like "1, 2, 5-7" into []int{1, 2, 5, 6, 7}.
+func CompressedStrToInts(s string) []int {
+	if s == "" {
+		return nil
+	}
+	var out []int
+	for _, part := range strings.Split(s, ",") {
+		part = strings.TrimSpace(part)
+		if part == "" {
+			continue
+		}
+		if strings.Contains(part, "-") {
+			idx := strings.Index(part, "-")
+			lo, hi := strings.TrimSpace(part[:idx]), strings.TrimSpace(part[idx+1:])
+			loN, errLo := strconv.Atoi(lo)
+			hiN, errHi := strconv.Atoi(hi)
+			if errLo != nil || errHi != nil || loN > hiN {
+				continue
+			}
+			for i := loN; i <= hiN; i++ {
+				out = append(out, i)
+			}
+		} else {
+			n, err := strconv.Atoi(part)
+			if err != nil {
+				continue
+			}
+			out = append(out, n)
+		}
+	}
+	return out
+}

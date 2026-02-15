@@ -25,10 +25,9 @@ func NewEditionService(editionStore *store.EditionCSV, facsimileStore *store.Fac
 	}
 }
 
-// ListEditions returns a list of editions.
-// For now, it returns a hardcoded edition with an optional facsimile.
-func (e *Edition) ListEditions(orderBy []model.EditionOrderByOptions) ([]*model.Edition, error) {
-	eds, err := e.editionStore.ListEditions()
+// ListEditions returns a list of editions, optionally filtered by corpus and order.
+func (e *Edition) ListEditions(corpuses []string, orderBy []model.EditionOrderByOptions) ([]*model.Edition, error) {
+	eds, err := e.editionStore.ListEditions(corpuses)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list editions from store: %w", err)
 	}

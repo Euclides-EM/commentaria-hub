@@ -2,6 +2,7 @@ package formatcov
 
 import (
 	"strconv"
+	"strings"
 
 	"github.com/samber/lo"
 )
@@ -16,4 +17,15 @@ func StrToPtr(s string) *string {
 
 func IntPtrToStr(x *int) string {
 	return lo.IfF(x != nil, func() string { return strconv.Itoa(*x) }).Else("")
+}
+
+func IntOpt(s string) *int {
+	if s == "" {
+		return nil
+	}
+	n, err := strconv.Atoi(strings.TrimSpace(s))
+	if err != nil {
+		return nil
+	}
+	return &n
 }

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 	"mime/multipart"
+	"os"
 	"path"
 	"path/filepath"
 	"strconv"
@@ -403,13 +404,285 @@ func (s *EditionCSV) UploadImage(key string, typ string, ext string, file multip
 }
 
 func (s *EditionCSV) GetEditionByID(key string) (*model.Edition, error) {
-	// todo impl
-	return nil, fmt.Errorf("GetEditionByID not implemented yet")
+	ed, err := s.loadEditionByKey(key)
+	if err != nil {
+		return nil, err
+	}
+	return ed, nil
 }
 
-func (s *EditionCSV) ListEditions() ([]*model.Edition, error) {
-	// todo impl
-	return nil, fmt.Errorf("ListEditions not implemented yet")
+func (s *EditionCSV) ListEditions(corpuses []string) ([]*model.Edition, error) {
+	keys, err := s.collectEditionKeys()
+	if err != nil {
+		return nil, err
+	}
+	corpusSet := make(map[string]struct{})
+	for _, c := range corpuses {
+		if c != "" {
+			corpusSet[c] = struct{}{}
+		}
+	}
+	var out []*model.Edition
+	for _, key := range keys {
+		ed, err := s.loadEditionByKey(key)
+		if err != nil {
+			return nil, err
+		}
+		if ed == nil {
+			continue
+		}
+		if len(corpusSet) > 0 && !editionMatchesCorpus(ed.Corpus, corpusSet) {
+			continue
+		}
+		out = append(out, ed)
+	}
+	return out, nil
+}
+
+// editionMatchesCorpus returns true if the edition has at least one corpus in the set.
+func editionMatchesCorpus(edCorpus []string, corpusSet map[string]struct{}) bool {
+	for _, c := range edCorpus {
+		if _, ok := corpusSet[strings.TrimSpace(c)]; ok {
+			return true
+		}
+	}
+	return false
+}
+
+// loadCSVRecordsOptional loads CSV rows from path; if file does not exist returns (nil, nil).
+func (s *EditionCSV) loadCSVRecordsOptional(rel string) ([]map[string]string, error) {
+	_, rows, err := csv.LoadCSVRecords(s.csvPath(rel))
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil, nil
+		}
+		return nil, err
+	}
+	return rows, nil
+}
+
+func findRowByKey(rows []map[string]string, keyField, key string) map[string]string {
+	for _, r := range rows {
+		if r[keyField] == key {
+			return r
+		}
+	}
+	return nil
+}
+
+// loadEditionByKey loads one edition by key from CSVs. Returns (nil, nil) if key not found.
+func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
+	msRows, _ := s.loadCSVRecordsOptional(relItemsManuscript)
+	printRows, _ := s.loadCSVRecordsOptional(relItemsPrint)
+	if msRows == nil && printRows == nil {
+		return nil, nil
+	}
+	var itemRow map[string]string
+	isManuscript := false
+	if itemRow = findRowByKey(msRows, "key", key); itemRow != nil {
+		isManuscript = true
+	} else if itemRow = findRowByKey(printRows, "key", key); itemRow != nil {
+		// print
+	} else {
+		return nil, nil
+	}
+
+	ed := &model.Edition{
+		Key:              key,
+		ShortTitle:       itemRow["short_title"],
+		ShortTitleSource: itemRow["short_title_source"],
+		Notes:            itemRow["notes"],
+		IsManuscript:     isManuscript,
+	}
+
+	if isManuscript {
+		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
+		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
+		mdRows, _ := s.loadCSVRecordsOptional(relMDManuscript)
+		if md := findRowByKey(mdRows, "key", key); md != nil {
+			ed.IsElements = true
+			ed.ManuscriptClass = md["class"]
+			ed.ManuscriptSubclass = formatcov.StrToPtr(md["subclass"])
+			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
+		}
+	} else {
+		ed.Cities = splitNonEmpty(itemRow["city"])
+		ed.Year = formatcov.StrToPtr(itemRow["year"])
+		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["language"]))
+		ed.Editor = splitNonEmpty(itemRow["author_or_editor"])
+		ed.Publisher = splitNonEmpty(itemRow["publisher"])
+		ed.Format = formatcov.IntOpt(itemRow["format"])
+		ed.Volumes = formatcov.IntOpt(itemRow["volumes"])
+		ed.USTCId = formatcov.StrToPtr(itemRow["ustc_id"])
+		trRows, _ := s.loadCSVRecordsOptional(relTranscriptions)
+		if tr := findRowByKey(trRows, "key", key); tr != nil {
+			ed.Title = formatcov.StrToPtr(tr["title"])
+			ed.Imprint = formatcov.StrToPtr(tr["imprint"])
+			ed.Colophon = formatcov.StrToPtr(tr["colophon"])
+			ed.Frontispiece = formatcov.StrToPtr(tr["frontispiece"])
+		}
+		mdRows, _ := s.loadCSVRecordsOptional(relMDPrint)
+		if md := findRowByKey(mdRows, "key", key); md != nil {
+			ed.IsElements = true
+			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
+			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
+		}
+		tlRows, _ := s.loadCSVRecordsOptional(relTranslations)
+		for _, r := range tlRows {
+			if r["key"] != key {
+				continue
+			}
+			switch r["field"] {
+			case "title":
+				ed.TitleEN = formatcov.StrToPtr(r["en"])
+			case "imprint":
+				ed.ImprintEN = formatcov.StrToPtr(r["en"])
+			case "colophon":
+				ed.ColophonEN = formatcov.StrToPtr(r["en"])
+			case "frontispiece":
+				ed.FrontispieceEN = formatcov.StrToPtr(r["en"])
+			}
+		}
+	}
+
+	shRows, _ := s.loadCSVRecordsOptional(relShelfmarks)
+	for _, r := range shRows {
+		if r["key"] != key {
+			continue
+		}
+		ed.Shelfmarks = append(ed.Shelfmarks, model.EditionShelfmark{
+			Volume:          formatcov.IntOpt(r["volume"]),
+			Scan:            r["scan"],
+			Shelfmark:       r["shelf_mark"],
+			TitlePageImg:    r["title_page_img"],
+			FrontispieceImg: r["frontispiece_img"],
+			Annotations:     r["annotations"],
+			Copyright:       r["copyright"],
+		})
+	}
+
+	corpRows, _ := s.loadCSVRecordsOptional(relCorpuses)
+	if cr := findRowByKey(corpRows, "key", key); cr != nil && cr["study"] != "" {
+		ed.Corpus = splitNonEmpty(cr["study"])
+	}
+
+	bibRows, _ := s.loadCSVRecordsOptional(relBibliography)
+	for _, r := range bibRows {
+		if r["key"] == key && r["citation"] != "" {
+			ed.Bibliography = append(ed.Bibliography, r["citation"])
+		}
+	}
+
+	revRows, _ := s.loadCSVRecordsOptional(relReviews)
+	ed.Verified = findRowByKey(revRows, "key", key) != nil
+
+	ciRows, _ := s.loadCSVRecordsOptional(relClusterItems)
+	for _, r := range ciRows {
+		if r["item_key"] == key && r["cluster_key"] != "" {
+			// find parent in same cluster
+			for _, r2 := range ciRows {
+				if r2["cluster_key"] == r["cluster_key"] && r2["item_key"] != key {
+					ed.ReprintOf = formatcov.StrToPtr(r2["item_key"])
+					break
+				}
+			}
+			break
+		}
+	}
+
+	locRows, _ := s.loadCSVRecordsOptional(relLocators)
+	locByKey := make(map[string]*model.EditionLocator)
+	for _, r := range locRows {
+		loc := rowToLocator(r)
+		if loc != nil {
+			locByKey[loc.Key] = loc
+		}
+	}
+	veRows, _ := s.loadCSVRecordsOptional(relVisualElements)
+	exRows, _ := s.loadCSVRecordsOptional(relVisualElementsEx)
+	for _, r := range veRows {
+		if r["key"] != key {
+			continue
+		}
+		ve := model.EditionVisualElement{
+			VisualElementType: r["visual_element_type"],
+			LocatorType:       r["locator_type"],
+			Notes:             r["notes"],
+		}
+		if locKey := r["locator_key"]; locKey != "" {
+			ve.Locator = locByKey[locKey]
+		}
+		for _, ex := range exRows {
+			if ex["key"] != key {
+				continue
+			}
+			exLocKey := ex["locator_key"]
+			if ve.Locator != nil && exLocKey != ve.Locator.Key {
+				continue
+			}
+			if ve.Locator == nil && exLocKey != "" {
+				continue
+			}
+			exItem := model.EditionVisualExample{Img: ex["path"]}
+			if exLocKey != "" {
+				exItem.Locator = locByKey[exLocKey]
+				exItem.HasLocator = true
+			}
+			ve.Examples = append(ve.Examples, exItem)
+		}
+		ed.VisualElements = append(ed.VisualElements, ve)
+	}
+
+	return ed, nil
+}
+
+func (s *EditionCSV) collectEditionKeys() ([]string, error) {
+	seen := make(map[string]struct{})
+	var keys []string
+	for _, rel := range []string{relItemsManuscript, relItemsPrint} {
+		rows, err := s.loadCSVRecordsOptional(rel)
+		if err != nil {
+			return nil, err
+		}
+		for _, r := range rows {
+			k := r["key"]
+			if k != "" {
+				if _, ok := seen[k]; !ok {
+					seen[k] = struct{}{}
+					keys = append(keys, k)
+				}
+			}
+		}
+	}
+	return keys, nil
+}
+
+func splitNonEmpty(s string) []string {
+	if s == "" {
+		return nil
+	}
+	var out []string
+	for _, p := range strings.Split(s, ",") {
+		if t := strings.TrimSpace(p); t != "" {
+			out = append(out, t)
+		}
+	}
+	return out
+}
+
+func rowToLocator(r map[string]string) *model.EditionLocator {
+	if r["key"] == "" {
+		return nil
+	}
+	return &model.EditionLocator{
+		Key:             r["key"],
+		Value:           r["value"],
+		PageType:        r["page_type"],
+		PageValue:       formatcov.StrToPtr(r["page_value"]),
+		Type:            formatcov.StrToPtr(r["type"]),
+		FirstOrderType:  formatcov.StrToPtr(r["first_order_type"]),
+		FirstOrderValue: formatcov.StrToPtr(r["first_order_value"]),
+	}
 }
 
 func locatorRow(l *model.EditionLocator) map[string]string {
