@@ -21,14 +21,12 @@ import (
 )
 
 type EditionCSV struct {
-	docsDir    string
-	tpsDir     string
-	cacheStore *cache.Cache
+	itemsMetadataDir string
+	tpsImgDir        string
+	cacheStore       *cache.Cache
 }
 
 const (
-	docsSubdir = "csvs"
-
 	relItemsManuscript  = "items_manuscript.csv"
 	relItemsPrint       = "items_print.csv"
 	relMDManuscript     = "metadata_elements_manuscripts.csv"
@@ -50,12 +48,11 @@ var (
 	cacheWarmupError = fmt.Errorf("try again in a few moments when cache warmup is complete")
 )
 
-func NewEditionCSV(docsPublicDir string) *EditionCSV {
+func NewEditionCSV(itemsMetadataDir, tpsImgDir string) *EditionCSV {
 	return &EditionCSV{
-		// todo fix...
-		docsDir:    filepath.Join(docsPublicDir, docsSubdir),
-		tpsDir:     filepath.Join(docsPublicDir, "tps"),
-		cacheStore: cache.NewCache(),
+		itemsMetadataDir: itemsMetadataDir,
+		tpsImgDir:        tpsImgDir,
+		cacheStore:       cache.NewCache(),
 	}
 }
 
@@ -72,7 +69,7 @@ func (s *EditionCSV) WarmCache() error {
 }
 
 func (s *EditionCSV) csvPath(rel string) string {
-	return filepath.Join(s.docsDir, rel)
+	return filepath.Join(s.itemsMetadataDir, rel)
 }
 
 // UpdateNotes updates the notes field for the given key in items_print.csv.
@@ -440,7 +437,7 @@ func (s *EditionCSV) UploadImage(key string, typ string, ext string, file multip
 	if !s.cacheStore.IsWarm() {
 		return nil, cacheWarmupError
 	}
-	p := path.Join(s.tpsDir, fmt.Sprintf("%s_%s.%s", key, typ, ext))
+	p := path.Join(s.tpsImgDir, fmt.Sprintf("%s_%s.%s", key, typ, ext))
 	if err := futils.WriteMultipartFileToPath(file, p); err != nil {
 		return nil, fmt.Errorf("Error saving uploaded image: %v\n", err)
 	}

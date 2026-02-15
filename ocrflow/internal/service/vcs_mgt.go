@@ -2,39 +2,57 @@ package service
 
 import (
 	"fmt"
+	"log"
 	"path/filepath"
 	"strings"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 )
 
 type VCSMgt struct {
-	repoDir string
+	repoPath              string
+	itemsMetadataStoreDir string
+	titlePageImgDir       string
 }
 
-// NewVCSMgt creates a repo service. repoDir may be empty to disable.
-func NewVCSMgt(repoDir string) *VCSMgt {
-	return &VCSMgt{repoDir: repoDir}
+// NewVCSMgt creates a repo service. itemsMetadataStoreDir may be empty to disable.
+func NewVCSMgt(itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
+	repoPath := futils.SharedParent(itemsMetadataStoreDir, titlePageImgDir)
+	log.Printf("repoPath: %s", repoPath)
+	relIMSD, err := filepath.Rel(repoPath, itemsMetadataStoreDir)
+	if err != nil {
+		log.Fatalf("filepath.Rel(%q, %q): %v", repoPath, itemsMetadataStoreDir, err)
+	}
+	relTPID, err := filepath.Rel(repoPath, titlePageImgDir)
+	if err != nil {
+		log.Fatalf("filepath.Rel(%q, %q): %v", repoPath, titlePageImgDir, err)
+	}
+	log.Printf("relIMSD: %s, relTPID: %s", relIMSD, relTPID)
+	return &VCSMgt{
+		itemsMetadataStoreDir: relIMSD,
+		titlePageImgDir:       relTPID,
+	}
 }
 
 // Pull runs git pull and returns the branch name (after possibly checking out main).
 func (r *VCSMgt) Pull(token string) (*model.VCSStatus, error) {
-	branch, err := ghwrapper.GetCurrentBranch(r.repoDir)
+	branch, err := ghwrapper.GetCurrentBranch(r.repoPath)
 	if err != nil {
 		return nil, fmt.Errorf("get current branch: %w", err)
 	}
 	var prNum int
 	var prURL string
 	if branch != "main" {
-		owner, repo, err := ghwrapper.GetRepoOwnerRepo(r.repoDir)
+		owner, repo, err := ghwrapper.GetRepoOwnerRepo(r.repoPath)
 		if err != nil {
 			return nil, fmt.Errorf("get repo owner/repo: %w", err)
 		}
 		prNum, prURL, _ = ghwrapper.GetExistingPR(owner, repo, branch, token)
 		if prNum == 0 {
-			err = ghwrapper.Checkout(r.repoDir, "main")
+			err = ghwrapper.Checkout(r.repoPath, "main")
 			if err != nil {
 				return nil, fmt.Errorf("checkout main: %w", err)
 			}
@@ -48,7 +66,7 @@ func (r *VCSMgt) Pull(token string) (*model.VCSStatus, error) {
 			URL:    prURL,
 		}
 	}
-	err = ghwrapper.Pull(r.repoDir)
+	err = ghwrapper.Pull(r.repoPath)
 	if err != nil {
 		return nil, fmt.Errorf("git pull: %w", err)
 	}
@@ -64,11 +82,11 @@ func (r *VCSMgt) Push(token string) (*model.VCSStatus, error) {
 	if err != nil {
 		return nil, fmt.Errorf("repo pull: %w", err)
 	}
-	owner, repo, err := ghwrapper.GetRepoOwnerRepo(r.repoDir)
+	owner, repo, err := ghwrapper.GetRepoOwnerRepo(r.repoPath)
 	if err != nil {
 		return nil, err
 	}
-	statusOut, err := ghwrapper.StatusPorcelain(r.repoDir, "public/docs/", "public/tps/")
+	statusOut, err := ghwrapper.StatusPorcelain(r.repoPath, r.itemsMetadataStoreDir, r.titlePageImgDir)
 	if err != nil {
 		return nil, fmt.Errorf("git status: %w", err)
 	}
@@ -80,17 +98,17 @@ func (r *VCSMgt) Push(token string) (*model.VCSStatus, error) {
 		ts := time.Now().UTC().Format("2006-01-02T15:04")
 		ts = strings.ReplaceAll(strings.ReplaceAll(strings.ReplaceAll(ts, "-", ""), ":", ""), "T", "-")
 		status.BranchName = "editor-" + ts
-		if err := ghwrapper.CreateBranch(r.repoDir, status.BranchName); err != nil {
+		if err := ghwrapper.CreateBranch(r.repoPath, status.BranchName); err != nil {
 			return nil, fmt.Errorf("create branch: %w", err)
 		}
-		if err := ghwrapper.PushBranch(r.repoDir, status.BranchName, true); err != nil {
+		if err := ghwrapper.PushBranch(r.repoPath, status.BranchName, true); err != nil {
 			return nil, fmt.Errorf("push branch: %w", err)
 		}
 	}
-	if err := ghwrapper.AddAndCommit(r.repoDir, []string{"csvs/", "tps/"}, "Update documentation files"); err != nil {
+	if err := ghwrapper.AddAndCommit(r.repoPath, []string{r.titlePageImgDir, r.itemsMetadataStoreDir}, "Update documentation files"); err != nil {
 		return nil, fmt.Errorf("commit: %w", err)
 	}
-	if err := ghwrapper.PushBranch(r.repoDir, status.BranchName, false); err != nil {
+	if err := ghwrapper.PushBranch(r.repoPath, status.BranchName, false); err != nil {
 		return nil, fmt.Errorf("push: %w", err)
 	}
 	prNum, prURL, _ := ghwrapper.GetExistingPR(owner, repo, status.BranchName, token)
@@ -108,22 +126,4 @@ func (r *VCSMgt) Push(token string) (*model.VCSStatus, error) {
 	}
 	return status, nil
 
-}
-
-// RepoDirFromDocsPublic returns the repo root when docs public dir is e.g. "public" (repo root is current dir or parent of public).
-// When docsPublicDir is "public", we assume cwd is repo root; when it's "/path/to/repo/public", repo root is filepath.Dir(docsPublicDir).
-func RepoDirFromDocsPublic(docsPublicDir string) string {
-	if docsPublicDir == "" {
-		return ""
-	}
-	abs, err := filepath.Abs(docsPublicDir)
-	if err != nil {
-		return ""
-	}
-	parent := filepath.Dir(abs)
-	// If the dir is named "public", repo root is parent
-	if filepath.Base(abs) == "public" {
-		return parent
-	}
-	return abs
 }

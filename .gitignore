@@ -19,6 +19,7 @@ ocrflow/.env_private
 
 *.db*
 !ocrflow/backups/*.db*
-*/store/
+ocrflow/store/data/*
+!ocrflow/store/data/tps/
 */internal/*/docs
 */internal/docs

@@ -27,11 +27,13 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("init env: %w", err)
 	}
 
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir)
+	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir, fileSystemManager.DatasetImagesDirByID("tps"))
+
 	sqlDB, err := db.InitDB(env.DBPath, env.MigrationsDir)
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
 	}
-	editionStore := store.NewEditionCSV(env.DocsPublicDir)
 	facsimileStore := store.NewFacsimileSql(sqlDB)
 	datasetStore := store.NewDatasetSQL(sqlDB)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
@@ -40,8 +42,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureExecutionStore := store.NewFeatureExecutionSQL(sqlDB)
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
 	tpsTranscriptionsStore := store.NewTPSTranscriptions()
-
-	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir)
 
 	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
 
@@ -104,7 +104,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeatureExecutionSvc: service.NewExecution(featureExecutionStore),
 		TEISvc:              service.NewTEI(featureResultSvc, tpsTranscriptionsStore),
 		USTC:                service.NewUSTC(),
-		VCSMgt:              service.NewVCSMgt(env.DocsPublicDir),
+		VCSMgt:              service.NewVCSMgt(env.ItemsMetadataStoreDir, fileSystemManager.DatasetImagesDirByID("tps")),
 	}
 
 	router := api.NewRouter(deps)

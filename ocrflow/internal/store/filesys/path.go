@@ -47,6 +47,10 @@ func (m *Manager) DatasetImagesDir(ds *model.Dataset) string {
 	return path.Join(m.DatasetDir(ds.ID), "imgs")
 }
 
+func (m *Manager) DatasetImagesDirByID(dsID string) string {
+	return path.Join(m.DatasetDir(dsID), "imgs")
+}
+
 func (m *Manager) baseAnnotationPath(ann *annotation.Annotation) string {
 	return path.Join(m.DatasetDir(ann.DatasetID), "annotations", ann.ID)
 }

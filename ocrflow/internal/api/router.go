@@ -126,6 +126,13 @@ func NewRouter(deps *Dependencies) http.Handler {
 		),
 	)
 
+	// ---------- Static docs/images ----------
+	root.Handle("/store/data/",
+		http.StripPrefix("/store/data/",
+			http.FileServer(http.Dir(deps.Env.DataDir)),
+		),
+	)
+
 	handler := CORSMiddleware(root)
 	return handler
 }
