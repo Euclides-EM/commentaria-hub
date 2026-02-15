@@ -2,12 +2,12 @@ package model
 
 type USTC struct {
 	USTCId        int      `json:"ustc_id"`
-	Authors       []string `json:"authors"`
-	ShortTitle    string   `json:"short_title"`
-	Publishers    []string `json:"publishers"`
-	City          *string  `json:"city"`
-	Year          *int     `json:"year"`
-	Languages     []string `json:"languages"`
-	Digitizations []string `json:"digitizations"`
-	Format        *string  `json:"format"`
+	Authors       []string `json:"authors" readonly:"true"`
+	ShortTitle    string   `json:"short_title" readonly:"true"`
+	Publishers    []string `json:"publishers" readonly:"true"`
+	City          *string  `json:"city" readonly:"true"`
+	Year          *int     `json:"year" readonly:"true"`
+	Languages     []string `json:"languages" readonly:"true"`
+	Digitizations []string `json:"digitizations" readonly:"true"`
+	Format        *string  `json:"format" readonly:"true"`
 }

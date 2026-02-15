@@ -44,7 +44,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
-	datasetSvc := service.NewDatasetService(editionSvc, datasetStore, fileSystemManager, ghDownloader)
+	facsimileSvc := service.NewFacsimileService(facsimileStore)
+	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, datasetStore, fileSystemManager, ghDownloader)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
 	annotationUploader := service.NewAnnotationsUploader(
@@ -75,7 +76,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	tpsTranscriptionsStore := store.NewTPSTranscriptions()
 
 	featureResultSvc := service.NewResult(featureResultStore)
-	facsimileSvc := service.NewFacsimileService(facsimileStore)
 	deps := &api.Dependencies{
 		Env:                 env,
 		HealthSvc:           healthSvc,
