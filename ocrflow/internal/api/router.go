@@ -13,6 +13,7 @@ type Dependencies struct {
 	Env                 *config.EnvConfig
 	HealthSvc           *service.Health
 	EditionSvc          *service.Edition
+	FacsimileSvc        *service.Facsimile
 	DatasetSvc          *service.Dataset
 	AnnotationSvc       *service.Annotation
 	ModelSvc            *service.Model
@@ -28,6 +29,8 @@ type Dependencies struct {
 	FeatureExecutionSvc *service.Execution
 	FeatureResultSvc    *service.Result
 	TEISvc              *service.TEI
+	USTC                *service.USTC
+	VCSMgt              *service.VCSMgt
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -39,9 +42,16 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/health", httpwrapper.Get(h.Health).Build())
 
 	api.HandleFunc("/auth/validate", httpwrapper.Create(h.ValidateAuth).Build())
+	api.HandleFunc("/version_control/pull", httpwrapper.Create(h.VersionControlPull).Build())
+	api.HandleFunc("/version_control/push", httpwrapper.Create(h.VersionControlPush).Build())
+	api.HandleFunc("/catalogs/ustc/lookup", httpwrapper.Create(h.USTCLookup).Build())
 
 	api.HandleFunc("/editions", httpwrapper.Get(h.ListEditions).Create(h.CreateEdition).Build())
-	api.HandleFunc("/editions/{editionId}/facsimilies", httpwrapper.Create(h.CreateFacsimile).Build())
+	api.HandleFunc("/editions/{key}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
+	api.HandleFunc("/editions/{editionId}/upload_image", httpwrapper.CreateFile(h.ImageUpload).Build())
+	api.HandleFunc("/editions/{editionId}", httpwrapper.Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
+
+	api.HandleFunc("/facsimilies", httpwrapper.Create(h.CreateFacsimile).Build())
 
 	api.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}", httpwrapper.Delete(h.DeleteDataset).Update(h.UpdateDataset).Build())

@@ -5,10 +5,11 @@ import (
 	"net/http"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/app"
+	_ "github.com/MiaMish/elements-dh/ocrflow/internal/docs"
 	"github.com/joho/godotenv"
 )
 
-//go:generate swag init -g main.go -d .,../../internal --parseInternal -o ../../internal/docs
+//go:generate swag init -g main.go -d .,../../internal/api,../../internal/model,../../internal/model/annotation,../../internal/model/annotationrule,../../internal/model/feature,../../internal/model/common --parseInternal -o ../../internal/docs
 
 // @title          	OCR Flow API
 // @version         1.0
@@ -29,7 +30,7 @@ func main() {
 	}
 	a, err := app.NewOCRFlowApp()
 	if err != nil {
-		log.Fatalf("error initializing ahjkhjkpp: %v", err)
+		log.Fatalf("error initializing: %v", err)
 	}
 
 	defer a.Close()

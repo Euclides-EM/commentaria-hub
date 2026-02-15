@@ -13,7 +13,7 @@ import (
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        featureId     path      string  true  "Feature ID"
 // @Produce      json
-// @Success      200  {array}   feature.FeatureRevision
+// @Success      200  {array}   feature.Revision
 // @Router        /datasets/{dataSetId}/features/{featureId}/revisions [get]
 func (h *Handlers) ListFeatureRevisions(r *http.Request) (any, error) {
 	datasetId, featureId, err := extractFeatureID(r)
@@ -29,9 +29,9 @@ func (h *Handlers) ListFeatureRevisions(r *http.Request) (any, error) {
 // @Tags         Feature Revisions
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        featureId     path      string  true  "Feature ID"
-// @Param        revision      body      feature.FeatureRevision  true  "Revision data"
+// @Param        revision      body      feature.Revision  true  "Revision data"
 // @Produce      json
-// @Success      200  {object}  feature.FeatureRevision
+// @Success      200  {object}  feature.Revision
 // @Security 	 BearerAuth
 // @Router        /datasets/{dataSetId}/features/{featureId}/revisions [post]
 func (h *Handlers) CreateFeatureRevision(r *http.Request) (any, error) {
@@ -58,7 +58,7 @@ func (h *Handlers) CreateFeatureRevision(r *http.Request) (any, error) {
 // @Param        featureId     path      string  true  "Feature ID"
 // @Param        revisionId    path      string  true  "Revision ID"
 // @Produce      json
-// @Success      200  {object}  feature.FeatureRevision
+// @Success      200  {object}  feature.Revision
 // @Router        /datasets/{dataSetId}/features/{featureId}/revisions/{revisionId} [get]
 func (h *Handlers) GetFeatureRevision(r *http.Request) (any, error) {
 	dataSetId, featureId, revisionId, err := extractFeatureRevisionID(r)

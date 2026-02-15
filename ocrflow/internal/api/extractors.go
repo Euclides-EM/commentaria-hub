@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"strconv"
 )
 
 func extractDatasetAndAnnotationIDs(r *http.Request) (string, string, error) {
@@ -56,6 +57,26 @@ func extractExecutionID(r *http.Request) (string, error) {
 		return "", fmt.Errorf("missing execution ID")
 	}
 	return executionId, nil
+}
+
+func extractKey(r *http.Request) (string, error) {
+	key := r.PathValue("key")
+	if key == "" {
+		return "", fmt.Errorf("missing key")
+	}
+	return key, nil
+}
+
+func extractUSTCID(r *http.Request) (int, error) {
+	s := r.PathValue("ustcId")
+	if s == "" {
+		return 0, fmt.Errorf("USTC ID is required")
+	}
+	id, err := strconv.Atoi(s)
+	if err != nil {
+		return 0, fmt.Errorf("invalid USTC ID format")
+	}
+	return id, nil
 }
 
 func DecodeBody(r *http.Request, dst any) error {

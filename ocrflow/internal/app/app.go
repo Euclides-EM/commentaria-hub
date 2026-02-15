@@ -30,7 +30,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
 	}
-	editionStore := store.NewEditionSQL(sqlDB)
+	editionStore := store.NewEditionCSV(env.DocsPublicDir)
 	facsimileStore := store.NewFacsimileSql(sqlDB)
 	datasetStore := store.NewDatasetSQL(sqlDB)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
@@ -75,10 +75,12 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	tpsTranscriptionsStore := store.NewTPSTranscriptions()
 
 	featureResultSvc := service.NewResult(featureResultStore)
+	facsimileSvc := service.NewFacsimileService(facsimileStore)
 	deps := &api.Dependencies{
 		Env:                 env,
 		HealthSvc:           healthSvc,
 		EditionSvc:          editionSvc,
+		FacsimileSvc:        facsimileSvc,
 		DatasetSvc:          datasetSvc,
 		AnnotationSvc:       annotationSvc,
 		ModelSvc:            modelSvc,
@@ -94,6 +96,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeatureResultSvc:    featureResultSvc,
 		FeatureExecutionSvc: service.NewExecution(featureExecutionStore),
 		TEISvc:              service.NewTEI(featureResultSvc, tpsTranscriptionsStore),
+		USTC:                service.NewUSTC(),
+		VCSMgt:              service.NewVCSMgt(env.DocsPublicDir),
 	}
 
 	router := api.NewRouter(deps)

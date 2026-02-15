@@ -14,7 +14,7 @@ import (
 // @Tags         Models
 // @Param expand query []string false "Include related entities" Enums(used_in_annotations) collectionFormat(multi)
 // @Produce      json
-// @Success      200  {array}   ocrflow.Model
+// @Success      200  {array}   model.Model
 // @Router       /models [get]
 func (h *Handlers) ListModels(r *http.Request) (any, error) {
 	expand := r.URL.Query().Get("expand")
@@ -50,7 +50,7 @@ func (h *Handlers) ListModels(r *http.Request) (any, error) {
 // @Param        base_annotations  formData  string  false  "Comma-separated list of base annotation IDs in the format <dataset_id>:<annotation_id>"
 // @Param        base_model_id  formData  string  false  "ID of the base model this model is derived from"
 // @Security 	 BearerAuth
-// @Success      200   {object}  ocrflow.Model
+// @Success      200   {object}  model.Model
 // @Router       /models [post]
 func (h *Handlers) UploadModel(r *http.Request) (any, error) {
 	name := r.FormValue("name")
@@ -107,11 +107,11 @@ func (h *Handlers) DeleteModel(r *http.Request) (any, error) {
 // @Description  Update an existing model.
 // @Tags         Models
 // @Param        id   path      string  true  "Model ID"
-// @Param        model  body      ocrflow.Model  true  "Updated model"
+// @Param        model  body      model.Model  true  "Updated model"
 // @Accept       json
 // @Produce      json
 // @Security 	 BearerAuth
-// @Success      200  {object}   ocrflow.Model
+// @Success      200  {object}   model.Model
 // @Router       /models/{id} [put]
 func (h *Handlers) UpdateModel(r *http.Request) (any, error) {
 	id := r.PathValue("id")

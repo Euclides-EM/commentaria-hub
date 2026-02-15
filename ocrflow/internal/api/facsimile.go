@@ -1,7 +1,6 @@
 package api
 
 import (
-	"errors"
 	"net/http"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
@@ -13,19 +12,14 @@ import (
 // @Tags         Facsimiles
 // @Accept       json
 // @Produce      json
-// @Param        editionId  path      string          true  "Edition ID"
-// @Param        facsimile  body      ocrflow.Facsimile  true  "Facsimile to create"
+// @Param        facsimile  body      model.Facsimile  true  "Facsimile to create"
 // @Security 	 BearerAuth
-// @Success      200  {object}  ocrflow.Facsimile
-// @Router       /editions/{editionId}/facsimilies [post]
+// @Success      200  {object}  model.Facsimile
+// @Router       /facsimilies [post]
 func (h *Handlers) CreateFacsimile(r *http.Request) (any, error) {
-	editionId := r.PathValue("editionId")
-	if editionId == "" {
-		return nil, errors.New("missing edition ID")
-	}
 	var facsimile model.Facsimile
 	if err := DecodeBody(r, &facsimile); err != nil {
 		return nil, err
 	}
-	return h.deps.EditionSvc.CreateFacsimile(editionId, &facsimile)
+	return h.deps.FacsimileSvc.CreateFacsimile(&facsimile)
 }

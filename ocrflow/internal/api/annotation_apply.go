@@ -4,7 +4,6 @@ import (
 	"net/http"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
-	_ "github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
 )
 
 // ApplyRules godoc
@@ -16,7 +15,7 @@ import (
 // @Param        annotationApplyRules  body 	annotationrule.ApplyRules  true  "Annotation apply rules"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply [put]
 func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
@@ -42,7 +41,7 @@ func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 // @Param        annotationSegmentRule  body 	annotationrule.Segment  true  "Annotation segment rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/segment [put]
 func (h *Handlers) ApplyRuleSegment(r *http.Request) (any, error) {
 	var rule annotationrule.Segment
@@ -65,7 +64,7 @@ func (h *Handlers) ApplyRuleSegment(r *http.Request) (any, error) {
 // @Param        annotationSegmentRule  body 	annotationrule.SlicePages  true  "Annotation slice pages rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/slice_pages [put]
 func (h *Handlers) ApplyRuleSlicePages(r *http.Request) (any, error) {
 	var rule annotationrule.SlicePages
@@ -88,7 +87,7 @@ func (h *Handlers) ApplyRuleSlicePages(r *http.Request) (any, error) {
 // @Param        annotationSegmentRule  body 	annotationrule.Stretch  true  "Annotation stretch rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/stretch [put]
 func (h *Handlers) ApplyRuleStretch(r *http.Request) (any, error) {
 	var rule annotationrule.Stretch
@@ -111,7 +110,7 @@ func (h *Handlers) ApplyRuleStretch(r *http.Request) (any, error) {
 // @Param        annotationSegmentRule  body 	annotationrule.AddMargin  true  "Annotation add margin rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/add_margin [put]
 func (h *Handlers) ApplyRuleAddMargin(r *http.Request) (any, error) {
 	var rule annotationrule.AddMargin
@@ -134,7 +133,7 @@ func (h *Handlers) ApplyRuleAddMargin(r *http.Request) (any, error) {
 // @Param        annotationSegmentRule  body 	annotationrule.LinesDetect  true  "Annotation detect lines rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/detect_lines [put]
 func (h *Handlers) ApplyRuleDetectLines(r *http.Request) (any, error) {
 	var rule annotationrule.LinesDetect
@@ -157,7 +156,7 @@ func (h *Handlers) ApplyRuleDetectLines(r *http.Request) (any, error) {
 // @Param        annotationSegmentRule  body 	annotationrule.RemoveCategories  true  "Remove categories rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/remove_categories [put]
 func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
 	var rule annotationrule.RemoveCategories
@@ -180,7 +179,7 @@ func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
 // @Param        annotationSegmentRule  body 	annotationrule.RemoveOverlap  true  "Remove overlap rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/remove_overlap [put]
 func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 	var rule annotationrule.RemoveOverlap
@@ -203,7 +202,7 @@ func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 // @Param        annotationSegmentRule  body 	annotationrule.ReassignTextLinesByTolerance  true  "Reassign text lines by tolerance rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance [put]
 func (h *Handlers) ApplyRuleReassignTextLinesByTolerance(r *http.Request) (any, error) {
 	var rule annotationrule.ReassignTextLinesByTolerance
@@ -226,7 +225,7 @@ func (h *Handlers) ApplyRuleReassignTextLinesByTolerance(r *http.Request) (any, 
 // @Param        annotationTextBlockCorrections  body 	annotationrule.TextBlockCorrections  true  "Text block corrections rule"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply/text_block_corrections [put]
 func (h *Handlers) ApplyRuleTextBlockCorrections(r *http.Request) (any, error) {
 	var rule annotationrule.TextBlockCorrections

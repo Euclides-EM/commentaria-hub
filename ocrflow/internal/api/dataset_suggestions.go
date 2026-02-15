@@ -27,7 +27,7 @@ func (h *Handlers) ListSuggestedRulesForDataset(r *http.Request) (any, error) {
 // @Tags         Datasets
 // @Param        dataSetId  path      string  true  "Dataset ID"
 // @Produce      json
-// @Success      200  {array}   []ocrflow.AnnotationExpectedBlocks
+// @Success      200  {array}   []annotation.ExpectedBlocks
 // @Router       /datasets/{dataSetId}/suggested_reviews [get]
 func (h *Handlers) ListSuggestedReviewForDataset(r *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(r)

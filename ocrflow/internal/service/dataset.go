@@ -21,6 +21,7 @@ import (
 
 type Dataset struct {
 	editionSvc       *Edition
+	facsimileSvc     *Facsimile
 	datasetStore     *store.DatasetSQL
 	fileSysMgt       *filesys.Manager
 	githubDownloader *ghwrapper.Downloader
@@ -55,7 +56,7 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite,
 	if ds.FacsimileID == "" || ds.EditionID == "" {
 		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
 	}
-	_, targetFacsimile, err := d.editionSvc.GetFacsimile(ds.EditionID, ds.FacsimileID)
+	targetFacsimile, err := d.facsimileSvc.GetFacsimile(ds.FacsimileID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get facsimile: %w", err)
 	}
@@ -123,7 +124,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
-	ed, fac, err := d.editionSvc.GetFacsimile(ds.EditionID, ds.FacsimileID)
+	fac, err := d.facsimileSvc.GetFacsimile(ds.FacsimileID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get facsimile: %w", err)
 	}
@@ -135,7 +136,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
 	categoriesForOverlapRemove := []string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
 	categoriesToExcludeFromLineDetection := []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
-	switch ed.ID {
+	switch ds.EditionID {
 	case "Paris_1598a":
 		segmentationModelID = "1598FineTuned16150312_0101"
 	case "Paris_1667":

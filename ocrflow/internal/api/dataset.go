@@ -17,7 +17,7 @@ import (
 // @Param        filter  query     string  false  "Filter conditions"
 // @Param        sort    query     string  false  "Sort conditions"
 // @Produce      json
-// @Success      200  {array}   ocrflow.Dataset
+// @Success      200  {array}   model.Dataset
 // @Router       /datasets [get]
 func (h *Handlers) ListDatasets(r *http.Request) (any, error) {
 	filter, err := querylang.ParseFilter(r.URL.Query().Get("filter"))
@@ -37,10 +37,10 @@ func (h *Handlers) ListDatasets(r *http.Request) (any, error) {
 // @Tags         Datasets
 // @Param        force_overwrite  query     string  false  "Force overwrite if dataset already exists"
 // @Param        skip_deskew      query     string  false  "Skip deskewing of images"
-// @Param        dataset  body      ocrflow.Dataset  true  "Dataset to create"
+// @Param        dataset  body      model.Dataset  true  "Dataset to create"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Dataset
+// @Success      200  {object}   model.Dataset
 // @Router       /datasets [post]
 func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	var d model.Dataset
@@ -78,10 +78,10 @@ func (h *Handlers) DeleteDataset(r *http.Request) (any, error) {
 // @Description  Update an existing dataset.
 // @Tags         Datasets
 // @Param        dataSetId   path      string  true  "Dataset ID"
-// @Param        dataset  body      ocrflow.Dataset  true  "Updated dataset"
+// @Param        dataset  body      model.Dataset  true  "Updated dataset"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Dataset
+// @Success      200  {object}   model.Dataset
 // @Router       /datasets/{dataSetId} [put]
 func (h *Handlers) UpdateDataset(request *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(request)

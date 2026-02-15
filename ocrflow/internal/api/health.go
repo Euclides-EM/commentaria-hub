@@ -4,8 +4,6 @@ import (
 	"context"
 	"net/http"
 	"time"
-
-	_ "github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 )
 
 // Health godoc

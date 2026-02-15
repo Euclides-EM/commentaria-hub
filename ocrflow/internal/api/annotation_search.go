@@ -16,7 +16,7 @@ import (
 // @Param id path string true "Annotation ID"
 // @Param category query []string false "Categories to search within (can be specified multiple times)"
 // @Param regex query string true "Regular expression pattern to search for"
-// @Success 200 {object} ocrflow.AnnotationSearch
+// @Success 200 {object} annotation.Search
 // @Router /datasets/{dataSetId}/annotations/{id}/search [get]
 func (h *Handlers) SearchAnnotation(r *http.Request) (any, error) {
 	datasetId, annotationId, err := extractDatasetAndAnnotationIDs(r)

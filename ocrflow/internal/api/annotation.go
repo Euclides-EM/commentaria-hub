@@ -19,7 +19,7 @@ import (
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Produce      json
-// @Success      200  {array}   ocrflow.Annotation
+// @Success      200  {array}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations [get]
 func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(r)
@@ -34,10 +34,10 @@ func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
 // @Description  Create a new annotation for a specific dataset.
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
-// @Param        annotation  body      ocrflow.Annotation  true  "Annotation to create"
+// @Param        annotation  body      annotation.Annotation  true  "Annotation to create"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations [post]
 func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(r)
@@ -60,7 +60,7 @@ func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id} [get]
 func (h *Handlers) GetAnnotation(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
@@ -103,10 +103,10 @@ func (h *Handlers) DeleteAnnotation(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
-// @Param        annotation  body      ocrflow.Annotation  true  "Annotation to update"
+// @Param        annotation  body      annotation.Annotation  true  "Annotation to update"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id} [put]
 func (h *Handlers) UpdateAnnotation(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
@@ -127,10 +127,10 @@ func (h *Handlers) UpdateAnnotation(r *http.Request) (any, error) {
 // @Description  Duplicate an existing annotation for a specific dataset.
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
-// @Param        annotationDuplicateRequest  body      ocrflow.AnnotationDuplicateRequest  true  "Annotation duplication details"
+// @Param        annotationDuplicateRequest  body      annotation.DuplicateRequest  true  "Annotation duplication details"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/duplicate [post]
 func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(r)
@@ -152,10 +152,10 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
-// @Param        annotationRoboflowUpload  body      ocrflow.AnnotationUploadRoboflow  true  "Annotation Roboflow upload details"
+// @Param        annotationRoboflowUpload  body      annotation.UploadRoboflow  true  "Annotation Roboflow upload details"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/upload/roboflow [put]
 func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
@@ -177,10 +177,10 @@ func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
-// @Param        annotationEscriptoriumUpload  body      ocrflow.AnnotationUploadEscriptorium  true  "Annotation Escriptorium upload details"
+// @Param        annotationEscriptoriumUpload  body      annotation.UploadEscriptorium  true  "Annotation Escriptorium upload details"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      200  {object}   ocrflow.Annotation
+// @Success      200  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/{id}/upload/escriptorium [put]
 func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
@@ -213,7 +213,7 @@ func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
 // @Param        segment_model_id       query     string  false  "Model ID that was used for segmentation, only relevant if annotations are segmented"
 // @Security 	 BearerAuth
 // @Produce      json
-// @Success      201  {object}   ocrflow.Annotation
+// @Success      201  {object}   annotation.Annotation
 // @Router       /datasets/{dataSetId}/annotations/fromzip [post]
 func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(r)
@@ -257,7 +257,7 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 // @Param        segment_model_id       query     string  false  "Model ID that was used for segmentation, only relevant if annotations are segmented"
 // @Security 	 BearerAuth
 // @Produce     json
-// @Success     201 {object} ocrflow.Annotation
+// @Success     201 {object} annotation.Annotation
 // @Router      /datasets/{dataSetId}/annotations/fromurl [post]
 func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 	datasetID, err := extractDatasetID(r)
@@ -326,7 +326,7 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        categories  query     string  true  "Categories for the index"
 // @Produce      json
-// @Success      200  {object}   ocrflow.AnnotationIndex
+// @Success      200  {object}   annotation.Index
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]
 func (h *Handlers) GetAnnotationIndex(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)

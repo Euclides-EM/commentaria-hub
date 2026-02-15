@@ -14,9 +14,9 @@ import (
 // @Produce json
 // @Param dataSetId path string true "Dataset ID"
 // @Param id path string true "Annotation ID"
-// @Param review body ocrflow.AnnotationExpectedBlocks true "Expected blocks for review"
+// @Param review body annotation.ExpectedBlocks true "Expected blocks for review"
 // @Security 	 BearerAuth
-// @Success 200 {object} ocrflow.AnnotationExpectedBlocks
+// @Success 200 {object} annotation.ExpectedBlocks
 // @Router /datasets/{dataSetId}/annotations/{id}/review [post]
 func (h *Handlers) CreateAnnotationReview(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)

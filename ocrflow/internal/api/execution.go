@@ -14,7 +14,7 @@ import (
 // @Description  Get a list of all executions for a specific edition
 // @Tags         Executions
 // @Produce      json
-// @Success      200  {array}   feature.FeatureExecution
+// @Success      200  {array}   feature.Execution
 // @Param dataset query string false "Filter by dataset ID"
 // @Param features query string false "Filter by delimited list of feature IDs"
 // @Param statuses query string false "Filter by delimited list of execution statuses" Enums(pending, running, completed, failed)
@@ -69,7 +69,7 @@ func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
 // @Description  Get details of a specific execution by ID
 // @Tags         Executions
 // @Produce      json
-// @Success      200  {object}  feature.FeatureExecution
+// @Success      200  {object}  feature.Execution
 // @Param executionId path string true "Execution ID"
 // @Router       /features/executions/{executionId} [get]
 func (h *Handlers) GetExecution(r *http.Request) (any, error) {
@@ -86,9 +86,9 @@ func (h *Handlers) GetExecution(r *http.Request) (any, error) {
 // @Tags         Executions
 // @Accept       json
 // @Produce      json
-// @Param        execution  body      feature.FeatureExecution  true  "Execution to create"
+// @Param        execution  body      feature.Execution  true  "Execution to create"
 // @Security 	 BearerAuth
-// @Success      200  {object}  feature.FeatureExecution
+// @Success      200  {object}  feature.Execution
 // @Router       /features/executions [post]
 func (h *Handlers) CreateExecution(r *http.Request) (any, error) {
 	var exec mfeatureplat.Execution

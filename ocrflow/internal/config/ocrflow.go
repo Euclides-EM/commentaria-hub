@@ -22,6 +22,8 @@ type EnvConfig struct {
 	EscriptoriumBasePath    string        `env:"ESCRIPTORIUM_BASE_PATH" envDefault:"http://localhost:8080/"`
 	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
 	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
+	// DocsPublicDir is the path to the "public" directory used by title-pages (docs + tps). When empty, title-pages endpoints are effectively disabled.
+	DocsPublicDir string `env:"DOCS_PUBLIC_DIR" envDefault:""`
 }
 
 func InitEnv() (*EnvConfig, error) {

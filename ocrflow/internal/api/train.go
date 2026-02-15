@@ -12,9 +12,9 @@ import (
 // @Tags         Train
 // @Accept       json
 // @Produce      json
-// @Param        model  body      ocrflow.Training  true  "Training Configuration"
+// @Param        model  body      model.Training  true  "Training Configuration"
 // @Security 	 BearerAuth
-// @Success      200    {object}  ocrflow.Training
+// @Success      200    {object}  model.Training
 // @Router       /train [post]
 func (h *Handlers) TrainModel(r *http.Request) (any, error) {
 	var m model.Training
