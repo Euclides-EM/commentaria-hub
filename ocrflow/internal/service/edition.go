@@ -2,9 +2,6 @@ package service
 
 import (
 	"fmt"
-	"mime"
-	"mime/multipart"
-	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
@@ -79,14 +76,6 @@ func (e *Edition) GetEditionByID(key string) (*model.Edition, error) {
 		return nil, fmt.Errorf("failed to get edition by ID: %w", err)
 	}
 	return ed, nil
-}
-
-func (e *Edition) UploadImage(key string, typ string, file multipart.File, header *multipart.FileHeader) (*model.ImageUpload, error) {
-	ext := strings.TrimPrefix(strings.ToLower(mime.TypeByExtension(header.Filename)), "image/")
-	if ext == "" {
-		return nil, fmt.Errorf("unable to determine file extension for uploaded image")
-	}
-	return e.editionStore.UploadImage(key, typ, ext, file)
 }
 
 func (e *Edition) DeleteEdition(key string) error {

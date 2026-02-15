@@ -4,9 +4,7 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
-	"mime/multipart"
 	"os"
-	"path"
 	"path/filepath"
 	"strconv"
 	"strings"
@@ -16,13 +14,11 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/csv"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/samber/lo"
 )
 
 type EditionCSV struct {
 	itemsMetadataDir string
-	tpsImgDir        string
 	cacheStore       *cache.Cache
 }
 
@@ -48,10 +44,9 @@ var (
 	cacheWarmupError = fmt.Errorf("try again in a few moments when cache warmup is complete")
 )
 
-func NewEditionCSV(itemsMetadataDir, tpsImgDir string) *EditionCSV {
+func NewEditionCSV(itemsMetadataDir string) *EditionCSV {
 	return &EditionCSV{
 		itemsMetadataDir: itemsMetadataDir,
-		tpsImgDir:        tpsImgDir,
 		cacheStore:       cache.NewCache(),
 	}
 }
@@ -431,26 +426,6 @@ func (s *EditionCSV) DeleteEdition(key string) error {
 	}
 	s.cacheStore.Delete(key)
 	return nil
-}
-
-func (s *EditionCSV) UploadImage(key string, typ string, ext string, file multipart.File) (*model.ImageUpload, error) {
-	if !s.cacheStore.IsWarm() {
-		return nil, cacheWarmupError
-	}
-	p := path.Join(s.tpsImgDir, fmt.Sprintf("%s_%s.%s", key, typ, ext))
-	if err := futils.WriteMultipartFileToPath(file, p); err != nil {
-		return nil, fmt.Errorf("Error saving uploaded image: %v\n", err)
-	}
-	loaded, err := s.loadEditionByKey(key)
-	if err != nil {
-		return nil, fmt.Errorf("Error reloading edition after notes update: %v\n", err)
-	}
-	s.cacheStore.Set(key, loaded)
-	return &model.ImageUpload{
-		Success:  true,
-		Filename: filepath.Base(p),
-		Path:     filepath.Join(filepath.Dir(p), filepath.Base(p)),
-	}, nil
 }
 
 func (s *EditionCSV) GetEditionByID(key string) (*model.Edition, error) {

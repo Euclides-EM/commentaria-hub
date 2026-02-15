@@ -21,7 +21,6 @@ type VCSMgt struct {
 // NewVCSMgt creates a repo service. itemsMetadataStoreDir may be empty to disable.
 func NewVCSMgt(itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
 	repoPath := futils.SharedParent(itemsMetadataStoreDir, titlePageImgDir)
-	log.Printf("repoPath: %s", repoPath)
 	relIMSD, err := filepath.Rel(repoPath, itemsMetadataStoreDir)
 	if err != nil {
 		log.Fatalf("filepath.Rel(%q, %q): %v", repoPath, itemsMetadataStoreDir, err)
@@ -30,7 +29,6 @@ func NewVCSMgt(itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
 	if err != nil {
 		log.Fatalf("filepath.Rel(%q, %q): %v", repoPath, titlePageImgDir, err)
 	}
-	log.Printf("relIMSD: %s, relTPID: %s", relIMSD, relTPID)
 	return &VCSMgt{
 		itemsMetadataStoreDir: relIMSD,
 		titlePageImgDir:       relTPID,

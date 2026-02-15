@@ -3,20 +3,28 @@ package store
 import (
 	"database/sql"
 	"errors"
+	"fmt"
+	"mime/multipart"
+	"path"
+	"path/filepath"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 )
 
 const DatasetIDPrefix = "ds"
 
 type DatasetSQL struct {
 	BaseSQL
+	FilesysManager *filesys.Manager
 }
 
-func NewDatasetSQL(db *sql.DB) *DatasetSQL {
+func NewDatasetSQL(db *sql.DB, filesysManager *filesys.Manager) *DatasetSQL {
 	return &DatasetSQL{
-		BaseSQL: BaseSQL{db: db},
+		BaseSQL:        BaseSQL{db: db},
+		FilesysManager: filesysManager,
 	}
 }
 
@@ -125,4 +133,16 @@ func (s *DatasetSQL) UpdateDataset(ds *model.Dataset) error {
 		ds.ID,
 	)
 	return err
+}
+
+func (s *DatasetSQL) UploadImage(ds *model.Dataset, filename string, file multipart.File) (*model.ImageUpload, error) {
+	p := path.Join(s.FilesysManager.DatasetImagesDir(ds), filename)
+	if err := futils.WriteMultipartFileToPath(file, p); err != nil {
+		return nil, fmt.Errorf("Error saving uploaded image: %v\n", err)
+	}
+	return &model.ImageUpload{
+		Success:  true,
+		Filename: filepath.Base(p),
+		Path:     filepath.Join(filepath.Dir(p), filepath.Base(p)),
+	}, nil
 }

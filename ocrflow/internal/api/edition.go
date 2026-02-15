@@ -153,33 +153,3 @@ func (h *Handlers) DeleteEdition(request *http.Request) (any, error) {
 	}
 	return map[string]any{"success": true, "key": key}, nil
 }
-
-// ImageUpload godoc
-// @Summary      Upload Edition Image
-// @Description  Upload an image for a specific edition identified by key. The image file is provided as multipart form data.
-// @Tags         Editions
-// @Accept       multipart/form-data
-// @Produce      json
-// @Param        key     formData  string  true  "Edition key"
-// @Param        type    formData  string  true  "Type of image (e.g., 'cover', 'facsimile')"
-// @Param        file    formData  file    true  "Image file to upload"
-// @Security 	 BearerAuth
-// @Success      200  {object}  model.ImageUpload
-// @Router       /editions/upload-image [post]
-func (h *Handlers) ImageUpload(r *http.Request) (any, error) {
-	key := r.FormValue("key")
-	if key == "" {
-		return nil, fmt.Errorf("key is required for image upload")
-	}
-	typ := r.FormValue("type")
-	if typ == "" {
-		return nil, fmt.Errorf("type is required for image upload")
-	}
-	file, header, err := r.FormFile("file")
-	if err != nil {
-		return nil, err
-	}
-	defer file.Close()
-
-	return h.deps.EditionSvc.UploadImage(key, typ, file, header)
-}

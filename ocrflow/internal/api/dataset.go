@@ -120,3 +120,37 @@ func (h *Handlers) GetPageImage(r *http.Request) ([]byte, error) {
 	}
 	return h.deps.DatasetSvc.GetPageImage(datasetID, page)
 }
+
+// UploadDatasetImage godoc
+// @Summary      Upload Edition Image
+// @Description  Upload an image for a specific edition identified by key. The image file is provided as multipart form data.
+// @Tags         Editions
+// @Accept       multipart/form-data
+// @Produce      json
+// @Param        key     formData  string  true  "Edition key"
+// @Param        type    formData  string  true  "Type of image (e.g., 'cover', 'facsimile')"
+// @Param        file    formData  file    true  "Image file to upload"
+// @Security 	 BearerAuth
+// @Success      200  {object}  model.ImageUpload
+// @Router       /datasets/{dataSetId}/images/upload [post]
+func (h *Handlers) UploadDatasetImage(r *http.Request) (any, error) {
+	datasetId, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
+	}
+	key := r.FormValue("key")
+	if key == "" {
+		return nil, fmt.Errorf("key is required for image upload")
+	}
+	typ := r.FormValue("type")
+	if typ == "" {
+		return nil, fmt.Errorf("type is required for image upload")
+	}
+	file, header, err := r.FormFile("file")
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	return h.deps.DatasetSvc.UploadImage(file, header, datasetId)
+}

@@ -4,8 +4,11 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"mime"
+	"mime/multipart"
 	"os"
 	"path"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -231,4 +234,19 @@ func (d *Dataset) Update(id string, m *model.Dataset) (*model.Dataset, error) {
 		return nil, fmt.Errorf("failed to update dataset in store: %w", err)
 	}
 	return existingDS, nil
+}
+
+func (d *Dataset) UploadImage(file multipart.File, header *multipart.FileHeader, datasetId string) (*model.ImageUpload, error) {
+	dataset, err := d.Get(datasetId)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	ext := strings.TrimPrefix(strings.ToLower(mime.TypeByExtension(header.Filename)), "image/")
+	if ext == "" {
+		return nil, fmt.Errorf("unable to determine file extension for uploaded image")
+	}
+	if ext != "png" && ext != "jpeg" && ext != "jpg" {
+		return nil, fmt.Errorf("unsupported image format: %s", ext)
+	}
+	return d.datasetStore.UploadImage(dataset, header.Filename, file)
 }

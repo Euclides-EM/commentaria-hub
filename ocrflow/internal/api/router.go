@@ -49,7 +49,6 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
 	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())
 	api.HandleFunc("/editions/{key}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
-	api.HandleFunc("/editions/{editionId}/upload_image", httpwrapper.CreateFile(h.ImageUpload).Build())
 	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
 
 	api.HandleFunc("/facsimilies", httpwrapper.Create(h.CreateFacsimile).Build())
@@ -58,6 +57,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}", httpwrapper.Delete(h.DeleteDataset).Update(h.UpdateDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_rules", httpwrapper.Get(h.ListSuggestedRulesForDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_reviews", httpwrapper.Get(h.ListSuggestedReviewForDataset).Build())
+	api.HandleFunc("/datasets/{dataSetId}/images/upload", httpwrapper.CreateFile(h.UploadDatasetImage).Build())
 	api.HandleFunc("/datasets/{dataSetId}/images/{pageNum}", httpwrapper.GetPNG(h.GetPageImage).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}", httpwrapper.Delete(h.DeleteAnnotation).Update(h.UpdateAnnotation).Get(h.GetAnnotation).Build())

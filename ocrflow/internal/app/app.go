@@ -28,14 +28,14 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 
 	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir)
-	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir, fileSystemManager.DatasetImagesDirByID("tps"))
+	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir)
 
 	sqlDB, err := db.InitDB(env.DBPath, env.MigrationsDir)
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
 	}
 	facsimileStore := store.NewFacsimileSql(sqlDB)
-	datasetStore := store.NewDatasetSQL(sqlDB)
+	datasetStore := store.NewDatasetSQL(sqlDB, fileSystemManager)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
 	modelStore := store.NewModelSQL(sqlDB)
 	featureRevisionStore := store.NewFeatureRevisionSQL(sqlDB)
