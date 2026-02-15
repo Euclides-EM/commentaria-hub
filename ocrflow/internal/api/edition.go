@@ -48,6 +48,30 @@ func (h *Handlers) ListEditions(r *http.Request) (any, error) {
 	return h.deps.EditionSvc.ListEditions(corpuses, model.ToEditionOrderByOptions(r.URL.Query().Get("orderBy")), offset, limit)
 }
 
+// GetEdition godoc
+// @Summary      Get Edition by key
+// @Description  Get a single edition by its key.
+// @Tags         Editions
+// @Param        key  path      string  true  "Edition key"
+// @Produce      json
+// @Success      200  {object}  model.Edition
+// @Failure      404  "Edition not found"
+// @Router       /editions/{key} [get]
+func (h *Handlers) GetEdition(r *http.Request) (any, error) {
+	key, err := extractKey(r)
+	if err != nil {
+		return nil, err
+	}
+	ed, err := h.deps.EditionSvc.GetEditionByID(key)
+	if err != nil {
+		return nil, err
+	}
+	if ed == nil {
+		return nil, fmt.Errorf("edition not found: %s", key)
+	}
+	return ed, nil
+}
+
 // CreateEdition godoc
 // @Summary      Create Edition
 // @Description  Create a new edition

@@ -49,7 +49,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions", httpwrapper.Get(h.ListEditions).Create(h.CreateEdition).Build())
 	api.HandleFunc("/editions/{key}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
 	api.HandleFunc("/editions/{editionId}/upload_image", httpwrapper.CreateFile(h.ImageUpload).Build())
-	api.HandleFunc("/editions/{editionId}", httpwrapper.Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
+	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
 
 	api.HandleFunc("/facsimilies", httpwrapper.Create(h.CreateFacsimile).Build())
 

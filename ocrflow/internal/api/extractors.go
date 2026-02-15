@@ -62,6 +62,9 @@ func extractExecutionID(r *http.Request) (string, error) {
 func extractKey(r *http.Request) (string, error) {
 	key := r.PathValue("key")
 	if key == "" {
+		key = r.PathValue("editionId")
+	}
+	if key == "" {
 		return "", fmt.Errorf("missing key")
 	}
 	return key, nil
