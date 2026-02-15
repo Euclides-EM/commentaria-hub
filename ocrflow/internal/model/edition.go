@@ -81,6 +81,14 @@ type EditionVisualExample struct {
 	Locator    *EditionLocator `json:"locator"`
 }
 
+// EditionListResult is the paginated response for listing editions.
+type EditionListResult struct {
+	Items  []*Edition `json:"items"`
+	Total  int        `json:"total"`
+	Offset int        `json:"offset"`
+	Limit  int        `json:"limit"`
+}
+
 type EditionOrderByOptions string
 
 const (

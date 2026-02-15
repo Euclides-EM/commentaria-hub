@@ -411,10 +411,13 @@ func (s *EditionCSV) GetEditionByID(key string) (*model.Edition, error) {
 	return ed, nil
 }
 
-func (s *EditionCSV) ListEditions(corpuses []string) ([]*model.Edition, error) {
+// ListEditions returns a page of editions and the total count. Pagination is performed
+// in the store: only keys in [offset, offset+limit) are loaded in full; corpus filtering
+// uses corpuses.csv only (no full edition load).
+func (s *EditionCSV) ListEditions(corpuses []string, offset, limit int) ([]*model.Edition, int, error) {
 	keys, err := s.collectEditionKeys()
 	if err != nil {
-		return nil, err
+		return nil, 0, err
 	}
 	corpusSet := make(map[string]struct{})
 	for _, c := range corpuses {
@@ -422,31 +425,74 @@ func (s *EditionCSV) ListEditions(corpuses []string) ([]*model.Edition, error) {
 			corpusSet[c] = struct{}{}
 		}
 	}
-	var out []*model.Edition
-	for _, key := range keys {
+	if len(corpusSet) > 0 {
+		keys, err = s.filterKeysByCorpus(keys, corpusSet)
+		if err != nil {
+			return nil, 0, err
+		}
+	}
+	total := len(keys)
+	if total == 0 {
+		return []*model.Edition{}, 0, nil
+	}
+	if offset < 0 {
+		offset = 0
+	}
+	if limit <= 0 {
+		limit = 20
+	}
+	if offset >= total {
+		return []*model.Edition{}, total, nil
+	}
+	end := offset + limit
+	if end > total {
+		end = total
+	}
+	pageKeys := keys[offset:end]
+	out := make([]*model.Edition, 0, len(pageKeys))
+	for _, key := range pageKeys {
 		ed, err := s.loadEditionByKey(key)
 		if err != nil {
-			return nil, err
+			return nil, 0, err
 		}
-		if ed == nil {
-			continue
+		if ed != nil {
+			out = append(out, ed)
 		}
-		if len(corpusSet) > 0 && !editionMatchesCorpus(ed.Corpus, corpusSet) {
-			continue
-		}
-		out = append(out, ed)
 	}
-	return out, nil
+	return out, total, nil
 }
 
-// editionMatchesCorpus returns true if the edition has at least one corpus in the set.
-func editionMatchesCorpus(edCorpus []string, corpusSet map[string]struct{}) bool {
-	for _, c := range edCorpus {
-		if _, ok := corpusSet[strings.TrimSpace(c)]; ok {
-			return true
+// filterKeysByCorpus returns only keys that have at least one corpus in corpusSet.
+// Uses corpuses.csv only (no full edition load). If corpusSet is empty, returns keys unchanged.
+func (s *EditionCSV) filterKeysByCorpus(keys []string, corpusSet map[string]struct{}) ([]string, error) {
+	if len(corpusSet) == 0 {
+		return keys, nil
+	}
+	corpRows, err := s.loadCSVRecordsOptional(relCorpuses)
+	if err != nil {
+		return nil, err
+	}
+	if corpRows == nil {
+		return nil, nil
+	}
+	keyCorpora := make(map[string][]string)
+	for _, r := range corpRows {
+		k := r["key"]
+		if k == "" {
+			continue
+		}
+		keyCorpora[k] = splitNonEmpty(r["study"])
+	}
+	var out []string
+	for _, k := range keys {
+		for _, c := range keyCorpora[k] {
+			if _, ok := corpusSet[strings.TrimSpace(c)]; ok {
+				out = append(out, k)
+				break
+			}
 		}
 	}
-	return false
+	return out, nil
 }
 
 // loadCSVRecordsOptional loads CSV rows from path; if file does not exist returns (nil, nil).

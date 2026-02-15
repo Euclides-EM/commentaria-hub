@@ -3,6 +3,7 @@ package api
 import (
 	"fmt"
 	"net/http"
+	"strconv"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
@@ -10,14 +11,21 @@ import (
 	"github.com/samber/lo"
 )
 
+const (
+	defaultListLimit = 20
+	maxListLimit     = 100
+)
+
 // ListEditions godoc
 // @Summary      List Editions
-// @Description  Get a list of available editions. Optionally include facsimiles.
+// @Description  Get a paginated list of editions. Filter by corpus; use offset/limit for paging.
 // @Tags         Editions
 // @Param        orderBy query     string  false  "Order by field"            Enums(suggested)
-// @Param        corpus  query     string  false  "Filter by corpus"
+// @Param        corpus  query     string  false  "Filter by corpus (comma-separated)"
+// @Param        offset  query     int     false  "Paginated offset"         default(0)
+// @Param        limit   query     int     false  "Page size (max 100)"      default(20)
 // @Produce      json
-// @Success      200  {array}   model.Edition
+// @Success      200  {object}  model.EditionListResult
 // @Router       /editions [get]
 func (h *Handlers) ListEditions(r *http.Request) (any, error) {
 	corpuses := strings.Split(r.URL.Query().Get("corpus"), ",")
@@ -26,7 +34,18 @@ func (h *Handlers) ListEditions(r *http.Request) (any, error) {
 	}), func(c string, _ int) bool {
 		return c != ""
 	})
-	return h.deps.EditionSvc.ListEditions(corpuses, model.ToEditionOrderByOptions(r.URL.Query().Get("orderBy")))
+	offset, _ := strconv.Atoi(r.URL.Query().Get("offset"))
+	limit, _ := strconv.Atoi(r.URL.Query().Get("limit"))
+	if limit <= 0 {
+		limit = defaultListLimit
+	}
+	if limit > maxListLimit {
+		limit = maxListLimit
+	}
+	if offset < 0 {
+		offset = 0
+	}
+	return h.deps.EditionSvc.ListEditions(corpuses, model.ToEditionOrderByOptions(r.URL.Query().Get("orderBy")), offset, limit)
 }
 
 // CreateEdition godoc
