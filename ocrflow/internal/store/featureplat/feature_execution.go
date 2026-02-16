@@ -120,9 +120,13 @@ func (s *FeatureExecutionSQL) GetByID(id string) (*featureplat.FeatureExecution,
 		}
 	}
 
-	if policySkipIf != "" {
+	if policySkipIf != "" && policySkipIf != "[]" {
+		var skipIf []featureplat.FeatureExecutionSkipIf
+		if err := json.Unmarshal([]byte(policySkipIf), &skipIf); err != nil {
+			return nil, fmt.Errorf("failed to parse skipIf: %w", err)
+		}
 		exec.Policy = &featureplat.FeatureExecutionPolicy{
-			SkipIf: featureplat.FeatureExecutionSkipIf(policySkipIf),
+			SkipIf: skipIf,
 		}
 	}
 
@@ -160,7 +164,11 @@ func (s *FeatureExecutionSQL) Create(exec *featureplat.FeatureExecution) error {
 
 	policySkipIf := ""
 	if exec.Policy != nil {
-		policySkipIf = string(exec.Policy.SkipIf)
+		policySkipIfBytes, err := json.Marshal(exec.Policy.SkipIf)
+		if err != nil {
+			return fmt.Errorf("failed to marshal policy skip_if: %w", err)
+		}
+		policySkipIf = string(policySkipIfBytes)
 	}
 
 	tx, err := s.db.Begin()
@@ -225,9 +233,13 @@ func scanFeatureExecution(scanner func(...any) error) (*featureplat.FeatureExecu
 		}
 	}
 
-	if policySkipIf != "" {
+	if policySkipIf != "" && policySkipIf != "[]" {
+		var skipIf []featureplat.FeatureExecutionSkipIf
+		if err := json.Unmarshal([]byte(policySkipIf), &skipIf); err != nil {
+			return nil, fmt.Errorf("failed to parse skipIf: %w", err)
+		}
 		exec.Policy = &featureplat.FeatureExecutionPolicy{
-			SkipIf: featureplat.FeatureExecutionSkipIf(policySkipIf),
+			SkipIf: skipIf,
 		}
 	}
 
