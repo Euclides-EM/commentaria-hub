@@ -80,7 +80,7 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*annotatio
 
 		annotationsPath := filepath.Join(dataDir, dsID, "annotations")
 		ddes, err = os.ReadDir(annotationsPath)
-		if err != nil {
+		if err != nil && !os.IsNotExist(err) {
 			return nil, fmt.Errorf("cannot read dataset dir %s: %w", dsID, err)
 		}
 

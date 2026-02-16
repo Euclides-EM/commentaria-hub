@@ -7,10 +7,13 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
+	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 )
 
 type lfsPointer struct {
@@ -121,13 +124,20 @@ func (d *Wrapper) getLFSDownloadLink(ctx context.Context, owner, repo, oid strin
 }
 
 func (d *Wrapper) downloadLFS(ctx context.Context, finalURL, destPath string) error {
+	log.Printf("Downloading LFS object to %s", destPath)
 	req, err := http.NewRequest(http.MethodGet, finalURL, nil)
 	if err != nil {
 		return err
 	}
 	req.Header = d.httpHeaders(ctx)
 
-	resp, err := d.httpClient.Do(req)
+	// Long timeout so large files can finish; finite so we don't hang forever if stuck.
+	dlCtx, cancel := context.WithTimeout(ctx, 30*time.Minute)
+	defer cancel()
+	req = req.WithContext(dlCtx)
+
+	client := &http.Client{Timeout: 30 * time.Minute}
+	resp, err := client.Do(req)
 	if err != nil {
 		return err
 	}
@@ -137,5 +147,8 @@ func (d *Wrapper) downloadLFS(ctx context.Context, finalURL, destPath string) er
 		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4<<10))
 		return httpError{fmt.Sprintf("failed to download LFS content %s (HTTP %d): %s", finalURL, resp.StatusCode, strings.TrimSpace(string(body))), resp.StatusCode}
 	}
-	return writeToFile(destPath, resp.Body)
+
+	label := filepath.Base(destPath)
+	body := newProgressReader(resp.Body, resp.ContentLength, label)
+	return writeToFile(destPath, body)
 }

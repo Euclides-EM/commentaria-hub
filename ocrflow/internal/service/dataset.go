@@ -56,7 +56,7 @@ func (d *Dataset) Get(id string) (*model.Dataset, error) {
 	return ds, nil
 }
 
-func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite, skipDeskew bool) (*model.Dataset, error) {
+func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite, skipDeskew, async bool) (*model.Dataset, error) {
 	if ds.FacsimileID == "" || ds.EditionID == "" {
 		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
 	}
@@ -88,15 +88,47 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite,
 		ds.DPI = 300.0
 	}
 
+	if async {
+		ds.Status = model.DatasetStatusCreating
+		if err := d.datasetStore.InsertDataset(ds); err != nil {
+			return nil, fmt.Errorf("failed to insert dataset into store: %w", err)
+		}
+		// Run heavy work in background; copy fields needed in goroutine to avoid races.
+		dsCopy := *ds
+		scanURL := targetFacsimile.ScanURL
+		go d.runDatasetCreation(context.Background(), &dsCopy, scanURL, skipDeskew)
+		return ds, nil
+	}
+
+	return d.doDatasetCreation(ctx, ds, targetFacsimile.ScanURL, skipDeskew)
+}
+
+// runDatasetCreation performs download, PDF→PNG, and optional deskew, then updates dataset status.
+func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string, skipDeskew bool) {
+	_, err := d.doDatasetCreation(ctx, ds, scanURL, skipDeskew)
+	if err != nil {
+		log.Printf("async dataset creation failed for %s: %v", ds.ID, err)
+		_ = d.datasetStore.UpdateDatasetCreationStatus(ds.ID, model.DatasetStatusFailed, err.Error())
+		return
+	}
+	if err := d.datasetStore.UpdateDatasetCreationStatus(ds.ID, model.DatasetStatusReady, ""); err != nil {
+		log.Printf("failed to set dataset %s status to ready: %v", ds.ID, err)
+	}
+	log.Printf("Dataset %s async creation completed", ds.ID)
+}
+
+// doDatasetCreation does download, convert, deskew, and insert (caller sets status when async).
+func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string, skipDeskew bool) (*model.Dataset, error) {
 	pdfPath := d.fileSysMgt.DatasetPDFPath(ds)
-	log.Printf("Downloading facsimile from %s to %s", targetFacsimile.ScanURL, pdfPath)
-	if err := d.githubDownloader.DownloadRecursive(ctx, targetFacsimile.ScanURL, pdfPath); err != nil {
+	log.Printf("Downloading facsimile from %s to %s", scanURL, pdfPath)
+	if err := d.githubDownloader.DownloadRecursive(ctx, scanURL, pdfPath); err != nil {
 		return nil, fmt.Errorf("failed to download facsimile: %w", err)
 	}
 
 	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
 	convertedPNGsDir := imgPath
 	if !skipDeskew {
+		var err error
 		convertedPNGsDir, err = os.MkdirTemp("", "ocrflow-dataset-rawimgs-*")
 		if err != nil {
 			return nil, fmt.Errorf("failed to create temp dir for raw images: %w", err)
@@ -117,8 +149,11 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite,
 	}
 
 	log.Printf("Dataset %s fully created", ds.ID)
-	if err := d.datasetStore.InsertDataset(ds); err != nil {
-		return nil, fmt.Errorf("failed to insert dataset into store: %w", err)
+	// When async, record was already inserted with status "creating"; we only update status in runDatasetCreation.
+	if ds.Status != model.DatasetStatusCreating {
+		if err := d.datasetStore.InsertDataset(ds); err != nil {
+			return nil, fmt.Errorf("failed to insert dataset into store: %w", err)
+		}
 	}
 	return ds, nil
 }

@@ -117,6 +117,37 @@ func (d *Wrapper) listDir(ctx context.Context, owner, repo, path, ref string) ([
 	return nil, &entry, nil
 }
 
+// progressReader wraps io.Reader and logs progress every 10s so long downloads don't appear stuck.
+type progressReader struct {
+	r        io.Reader
+	total    int64
+	label    string
+	written  int64
+	lastLog  time.Time
+	interval time.Duration
+}
+
+func newProgressReader(r io.Reader, total int64, label string) io.Reader {
+	return &progressReader{r: r, total: total, label: label, interval: 10 * time.Second}
+}
+
+func (p *progressReader) Read(b []byte) (int, error) {
+	n, err := p.r.Read(b)
+	if n > 0 {
+		p.written += int64(n)
+		now := time.Now()
+		if p.lastLog.IsZero() || now.Sub(p.lastLog) >= p.interval {
+			p.lastLog = now
+			if p.total > 0 {
+				log.Printf("LFS download %s: %d / %d MB (%.0f%%)", p.label, p.written>>20, p.total>>20, 100*float64(p.written)/float64(p.total))
+			} else {
+				log.Printf("LFS download %s: %d MB", p.label, p.written>>20)
+			}
+		}
+	}
+	return n, err
+}
+
 func writeToFile(destPath string, reader io.Reader) error {
 	if err := os.MkdirAll(filepath.Dir(destPath), 0o755); err != nil {
 		return err
