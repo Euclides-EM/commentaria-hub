@@ -8,6 +8,26 @@ import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class FacsimilesService {
     /**
+     * Create Facsimile
+     * Create a new facsimile
+     * @returns model_Facsimile OK
+     * @throws ApiError
+     */
+    public static postFacsimilies({
+        facsimile,
+    }: {
+        /**
+         * Facsimile to create
+         */
+        facsimile: model_Facsimile,
+    }): CancelablePromise<model_Facsimile> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/facsimilies',
+            body: facsimile,
+        });
+    }
+    /**
      * Get Facsimile by ID
      * Get a single facsimile by its ID.
      * @returns model_Facsimile OK
@@ -25,14 +45,13 @@ export class FacsimilesService {
             method: 'GET',
             url: '/facsimilies/{id}',
             path: {
-                id: id,
+                'id': id,
             },
             errors: {
                 404: `Facsimile not found`,
             },
         });
     }
-
     /**
      * Update Facsimile
      * Update an existing facsimile identified by ID.
@@ -56,29 +75,8 @@ export class FacsimilesService {
             method: 'PUT',
             url: '/facsimilies/{id}',
             path: {
-                id: id,
+                'id': id,
             },
-            body: facsimile,
-        });
-    }
-
-    /**
-     * Create Facsimile
-     * Create a new facsimile
-     * @returns model_Facsimile OK
-     * @throws ApiError
-     */
-    public static postFacsimilies({
-        facsimile,
-    }: {
-        /**
-         * Facsimile to create
-         */
-        facsimile: model_Facsimile,
-    }): CancelablePromise<model_Facsimile> {
-        return __request(OpenAPI, {
-            method: 'POST',
-            url: '/facsimilies',
             body: facsimile,
         });
     }
