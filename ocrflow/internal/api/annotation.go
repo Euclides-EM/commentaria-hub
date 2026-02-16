@@ -148,10 +148,11 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 
 // UploadToRoboflow godoc
 // @Summary      Upload Annotation to Roboflow
-// @Description  Upload an annotation to Roboflow for a specific dataset.
+// @Description  Upload an annotation to Roboflow for a specific dataset. Use async=true to return immediately and run the upload in the background.
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
+// @Param        async       query     string  false "If true, return immediately and perform upload in background"
 // @Param        annotationRoboflowUpload  body      annotation.UploadRoboflow  true  "Annotation Roboflow upload details"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -168,6 +169,9 @@ func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 		return nil, err
 	}
 
+	if strings.ToLower(strings.TrimSpace(r.URL.Query().Get("async"))) == "true" {
+		return h.deps.AnnotationsUploader.UploadToRoboflowAsync(datasetID, annotationID, &urb)
+	}
 	return h.deps.AnnotationsUploader.UploadToRoboflow(datasetID, annotationID, &urb)
 }
 

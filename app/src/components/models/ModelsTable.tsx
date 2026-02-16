@@ -229,6 +229,7 @@ export function ModelsTable() {
   const [modelToDelete, setModelToDelete] = useState<model_Model | null>(null)
   const [modelToEdit, setModelToEdit] = useState<model_Model | null>(null)
   const [isImportOpen, setIsImportOpen] = useState(false)
+  const [copiedId, setCopiedId] = useState<string | null>(null)
   const { modelSearchPrefill, setModelSearchPrefill } = useAppState()
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
@@ -277,6 +278,7 @@ export function ModelsTable() {
     }
     return rows.filter((model) => {
       const haystack = [
+        model.id,
         model.name,
         model.description,
         model.type,
@@ -406,6 +408,14 @@ export function ModelsTable() {
   const handleImportClose = () => {
     setIsImportOpen(false)
     createMutation.reset()
+  }
+
+  const handleCopyId = (id: string | undefined) => {
+    if (!id) return
+    void navigator.clipboard.writeText(id).then(() => {
+      setCopiedId(id)
+      setTimeout(() => setCopiedId(null), 2000)
+    })
   }
 
   useEffect(() => {
@@ -546,6 +556,12 @@ export function ModelsTable() {
                           {isAuthenticated && (
                             <td className="px-4 py-3">
                               <div className="flex items-center justify-end gap-2">
+                                <Button
+                                  className="px-2 py-1 text-xs"
+                                  onClick={() => handleCopyId(model.id)}
+                                >
+                                  {copiedId === model.id ? 'Copied!' : 'Copy ID'}
+                                </Button>
                                 <Button
                                   className="px-2 py-1 text-xs"
                                   onClick={() => handleEditOpen(model)}

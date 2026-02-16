@@ -61,6 +61,7 @@ export function ExportAnnotationModal({
     })
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [roboflowAsync, setRoboflowAsync] = useState(true)
 
   useEffect(() => {
     if (isOpen) {
@@ -107,6 +108,7 @@ export function ExportAnnotationModal({
           dataSetId: datasetId,
           id: annotation.id!,
           annotationRoboflowUpload: roboflow,
+          async: roboflowAsync,
         })
       } else {
         await AnnotationsService.putDatasetsAnnotationsUploadEscriptorium({
@@ -237,6 +239,16 @@ export function ExportAnnotationModal({
                   disabled={loading}
                 />
                 Mark as ground truth
+              </label>
+              <label className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="checkbox"
+                  checked={roboflowAsync}
+                  onChange={(e) => setRoboflowAsync(e.target.checked)}
+                  className="h-4 w-4"
+                  disabled={loading}
+                />
+                Run in background (return immediately; upload continues server-side)
               </label>
             </div>
           )}
