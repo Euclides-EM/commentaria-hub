@@ -56,7 +56,7 @@ func (d *Dataset) Get(id string) (*model.Dataset, error) {
 	return ds, nil
 }
 
-func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite, skipDeskew, async bool) (*model.Dataset, error) {
+func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite, async bool) (*model.Dataset, error) {
 	if ds.FacsimileID == "" || ds.EditionID == "" {
 		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
 	}
@@ -82,6 +82,7 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite,
 			}
 		}
 	}
+
 	ds.ID = idgen.GenerateID(store.DatasetIDPrefix)
 
 	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
@@ -96,11 +97,11 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite,
 		// Run heavy work in background; copy fields needed in goroutine to avoid races.
 		dsCopy := *ds
 		scanURL := targetFacsimile.ScanURL
-		go d.runDatasetCreation(context.Background(), &dsCopy, scanURL, skipDeskew)
+		go d.runDatasetCreation(context.Background(), &dsCopy, scanURL, !ds.Deskewed)
 		return ds, nil
 	}
 
-	return d.doDatasetCreation(ctx, ds, targetFacsimile.ScanURL, skipDeskew)
+	return d.doDatasetCreation(ctx, ds, targetFacsimile.ScanURL, !ds.Deskewed)
 }
 
 // runDatasetCreation performs download, PDF→PNG, and optional deskew, then updates dataset status.

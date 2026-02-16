@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"path"
 
@@ -48,6 +49,32 @@ func NewAnnotationsUploader(
 	}
 }
 
+// ensureYoloDirForUpload ensures the annotation has a YOLO directory (converting from ALTO if needed).
+// Returns the annotation to use for building the upload path.
+func (a *AnnotationsUploader) ensureYoloDirForUpload(ann *annotation.Annotation, datasetID string, id string) (*annotation.Annotation, error) {
+	if _, err := os.Stat(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
+		if !os.IsNotExist(err) {
+			return nil, fmt.Errorf("failed to stat YOLO annotations dir for roboflow upload: %w", err)
+		}
+		converted, err := a.convertAlto2Yolo(datasetID, id)
+		if err != nil {
+			return nil, fmt.Errorf("failed to convert ALTO to YOLO for roboflow upload: %w", err)
+		}
+		return converted, nil
+	}
+	return ann, nil
+}
+
+func (a *AnnotationsUploader) doRoboflowUpload(ann *annotation.Annotation, rbu *annotation.UploadRoboflow) error {
+	params := roboflow.NewUploadDatasetParams().
+		SetAPIKey(lo.Ternary(rbu.APIKey == "", a.roboflowAPIKey, rbu.APIKey)).
+		SetWorkspaceID(rbu.WorkspaceID).
+		SetDatasetPath(a.fileSysMgt.DatasetAnnotationYoloDir(ann)).
+		SetProjectID(rbu.ProjectID).
+		SetIsNotGroundTruth(rbu.IsNotGroundTruth)
+	return roboflow.UploadDataset(a.pythonExecutable, params)
+}
+
 func (a *AnnotationsUploader) UploadToRoboflow(datasetID string, id string, rbu *annotation.UploadRoboflow) (*annotation.Annotation, error) {
 	ann, err := a.annotationSvc.Get(datasetID, id)
 	if err != nil {
@@ -56,24 +83,11 @@ func (a *AnnotationsUploader) UploadToRoboflow(datasetID string, id string, rbu 
 	if !ann.Segmented {
 		return nil, fmt.Errorf("no annotations found for roboflow upload")
 	}
-	if _, err = os.Stat(a.fileSysMgt.DatasetAnnotationYoloDir(ann)); err != nil {
-		if !os.IsNotExist(err) {
-			return nil, fmt.Errorf("failed to stat YOLO annotations dir for roboflow upload: %w", err)
-		}
-		ann, err = a.convertAlto2Yolo(ann.DatasetID, ann.ID)
-		if err != nil {
-			return nil, fmt.Errorf("failed to convert ALTO to YOLO for roboflow upload: %w", err)
-		}
-
+	ann, err = a.ensureYoloDirForUpload(ann, datasetID, id)
+	if err != nil {
+		return nil, err
 	}
-
-	params := roboflow.NewUploadDatasetParams().
-		SetAPIKey(lo.Ternary(rbu.APIKey == "", a.roboflowAPIKey, rbu.APIKey)).
-		SetWorkspaceID(rbu.WorkspaceID).
-		SetDatasetPath(a.fileSysMgt.DatasetAnnotationYoloDir(ann)).
-		SetProjectID(rbu.ProjectID).
-		SetIsNotGroundTruth(rbu.IsNotGroundTruth)
-	if err = roboflow.UploadDataset(a.pythonExecutable, params); err != nil {
+	if err = a.doRoboflowUpload(ann, rbu); err != nil {
 		return nil, fmt.Errorf("failed to upload to roboflow: %w", err)
 	}
 	var dst *annotation.Annotation
@@ -81,6 +95,41 @@ func (a *AnnotationsUploader) UploadToRoboflow(datasetID string, id string, rbu 
 		return nil, fmt.Errorf("failed to copy annotation: %w", err)
 	}
 	return dst, nil
+}
+
+// UploadToRoboflowAsync validates the request, returns the annotation immediately,
+// and performs the upload in a background goroutine. Use with async=true query param.
+func (a *AnnotationsUploader) UploadToRoboflowAsync(datasetID string, id string, rbu *annotation.UploadRoboflow) (*annotation.Annotation, error) {
+	ann, err := a.annotationSvc.Get(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("annotation not found: %w", err)
+	}
+	if !ann.Segmented {
+		return nil, fmt.Errorf("no annotations found for roboflow upload")
+	}
+	var dst annotation.Annotation
+	if err = deepcopy.Copy(&dst, &ann); err != nil {
+		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	}
+	rbuCopy := *rbu
+	go func() {
+		annForUpload, err := a.annotationSvc.Get(datasetID, id)
+		if err != nil {
+			log.Printf("roboflow async upload: get annotation: %v", err)
+			return
+		}
+		annForUpload, err = a.ensureYoloDirForUpload(annForUpload, datasetID, id)
+		if err != nil {
+			log.Printf("roboflow async upload: %v", err)
+			return
+		}
+		if err = a.doRoboflowUpload(annForUpload, &rbuCopy); err != nil {
+			log.Printf("roboflow async upload failed for %s: %v", id, err)
+			return
+		}
+		log.Printf("roboflow async upload completed for annotation %s", id)
+	}()
+	return &dst, nil
 }
 
 func (a *AnnotationsUploader) UploadToEscriptorium(datasetID string, id string, aue *annotation.UploadEscriptorium) (*annotation.Annotation, error) {

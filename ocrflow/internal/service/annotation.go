@@ -203,14 +203,14 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
 	if !ann.Segmented {
-		return nil, fmt.Errorf("no ALTO directory found for annotation %s", ann.ID)
+		return nil, nil
 	}
 	pages, err := pagesparser.Parse(ann.Pages)
 	if err != nil {
-		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
+		return nil, nil
 	}
 	if len(pages) == 0 {
-		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
+		return nil, nil
 	}
 
 	categorySet := make(map[string]struct{})
