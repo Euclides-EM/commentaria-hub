@@ -104,6 +104,16 @@ func baselineToString(points [][]float64) string {
 	return pointsToString(points)
 }
 
+// bboxToPointsString returns POINTS for a closed rectangle (eScriptorium needs a boundary per line).
+func bboxToPointsString(minX, minY, maxX, maxY float64) string {
+	return fmt.Sprintf("%d %d %d %d %d %d %d %d %d %d",
+		int(math.Round(minX)), int(math.Round(minY)),
+		int(math.Round(maxX)), int(math.Round(minY)),
+		int(math.Round(maxX)), int(math.Round(maxY)),
+		int(math.Round(minX)), int(math.Round(maxY)),
+		int(math.Round(minX)), int(math.Round(minY)))
+}
+
 func floatAttr(elem *etree.Element, name string) (float64, error) {
 	attr := elem.SelectAttr(name)
 	if attr == nil {
@@ -205,11 +215,16 @@ func GlueLinesToAlto(altoPath, baselinesJsonPath, outPath string) error {
 		tl.CreateAttr("WIDTH", strconv.Itoa(width))
 		tl.CreateAttr("HEIGHT", strconv.Itoa(height))
 
-		// Shape / Polygon from boundary
-		if len(ln.Boundary) > 0 {
+		// Shape / Polygon: use boundary if present, otherwise bbox so eScriptorium has a line region
+		{
 			shape := etree.NewElement("Shape")
 			poly := etree.NewElement("Polygon")
-			poly.CreateAttr("POINTS", pointsToString(ln.Boundary))
+			if len(ln.Boundary) > 0 {
+				poly.CreateAttr("POINTS", pointsToString(ln.Boundary))
+			} else {
+				// eScriptorium requires a boundary for line extraction; use bbox as polygon
+				poly.CreateAttr("POINTS", bboxToPointsString(minX, minY, maxX, maxY))
+			}
 			shape.AddChild(poly)
 			tl.AddChild(shape)
 		}

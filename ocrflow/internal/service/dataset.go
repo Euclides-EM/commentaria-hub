@@ -173,13 +173,41 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	}
 
 	segmentationModelID := "1615FineTunedCapricciosaM_0312"
-	categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
-	categoriesForOverlapRemove := []string{"DigitizationArtefactZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "MainZone", "MainZone-Head--Book", "MainZone-Head--Section", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
-	categoriesToExcludeFromLineDetection := []string{"CatchWord", "DigitizationArtefactZone", "DropCapitalZone", "GraphicZone-Decoration", "GraphicZone-Diagram", "NumberingZone", "QuireMarksZone", "RunningTitleZone"}
+	//categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
+	categoriesForOverlapRemove := []string{
+		"CatchWord",
+		"DigitizationArtefactZone",
+		"DropCapitalZone",
+		"DropCapitalZone-Plain",
+		"GraphicZone-Decoration",
+		"GraphicZone-Diagram",
+		"GraphicZone-Table",
+		"MainZone",
+		"MainZone-Head--Book",
+		"MainZone-Head--Section",
+		"MarginTextZone-RomanNumerals",
+		"NumberingZone",
+		"QuireMarksZone",
+		"RunningTitleZone",
+	}
+	categoriesToExcludeFromLineDetection := []string{
+		"CatchWord",
+		"DigitizationArtefactZone",
+		//"DropCapitalZone",
+		//""DropCapitalZone-Plain",
+		"GraphicZone-Decoration",
+		"GraphicZone-Diagram",
+		"GraphicZone-Table",
+		"NumberingZone",
+		"QuireMarksZone",
+		"RunningTitleZone",
+	}
 	switch ds.EditionID {
 	case "Paris_1598a":
 		segmentationModelID = "1598FineTuned16150312_0101"
 	case "Paris_1667":
+		segmentationModelID = "1667_ft_rvkwc5"
+	default:
 		segmentationModelID = "1667_ft_rvkwc5"
 	}
 
@@ -187,9 +215,9 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		{
 			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
 			annotationrule.NewSegment(segmentationModelID),
-			annotationrule.NewRemoveCategories(categoriesToRemove),
+			//annotationrule.NewRemoveCategories(categoriesToRemove),
 			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
-			annotationrule.NewLinesDetect([]string{"MainZone"}, categoriesToExcludeFromLineDetection),
+			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone"}, categoriesToExcludeFromLineDetection),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
 		},
