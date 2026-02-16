@@ -27,10 +27,10 @@ type Dataset struct {
 	facsimileSvc     *Facsimile
 	datasetStore     *store.DatasetSQL
 	fileSysMgt       *filesys.Manager
-	githubDownloader *ghwrapper.Downloader
+	githubDownloader *ghwrapper.Wrapper
 }
 
-func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Downloader) *Dataset {
+func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper) *Dataset {
 	return &Dataset{
 		editionSvc:       editionSvc,
 		facsimileSvc:     facsimileSvc,

@@ -43,13 +43,13 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
 	tpsTranscriptionsStore := store.NewTPSTranscriptions()
 
-	ghDownloader := ghwrapper.NewDownloader(env.GithubToken, env.GithubDownloaderTimeout)
+	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
 	healthSvc := service.NewHealthService(sqlDB)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
-	facsimileSvc := service.NewFacsimileService(facsimileStore)
+	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, env.FacsimilesGithubRepoUrl)
 	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, datasetStore, fileSystemManager, ghDownloader)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
@@ -83,6 +83,12 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		log.Fatalf("edition cache warm failed: %v", err)
 	}
 	log.Printf("finished warming edition cache")
+
+	log.Printf("updating facsimiles from github...")
+	if err := facsimileSvc.UpdateFromGithubRepo(); err != nil {
+		log.Printf("warning: failed to update facsimiles from github: %v", err)
+	}
+	log.Printf("finished updating facsimiles from github")
 
 	deps := &api.Dependencies{
 		Env:                 env,

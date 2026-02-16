@@ -11,7 +11,7 @@ type EnvConfig struct {
 	// todo: change to embedded migrations ?
 	MigrationsDir           string        `env:"MIGRATIONS_DIR" envDefault:"./migrations/ocrflow"`
 	DataDir                 string        `env:"DATA_DIR" envDefault:"./store/data"`
-	UI_DIR                  string        `env:"UI_DIR" envDefault:"./ui/dist"`
+	UIDir                   string        `env:"UI_DIR" envDefault:"./ui/dist"`
 	HTTPAddr                string        `env:"HTTP_ADDR" envDefault:":8085"`
 	GithubToken             string        `env:"GITHUB_TOKEN"`
 	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"30s"`
@@ -23,6 +23,7 @@ type EnvConfig struct {
 	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
 	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
 	ItemsMetadataStoreDir   string        `env:"ITEMS_METADATA_STORE_DIR" envDefault:"./store/items_metadata"`
+	FacsimilesGithubRepoUrl string        `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/ReallyLiri/elements-facsimile/blob/main/docs"`
 }
 
 func InitEnv() (*EnvConfig, error) {

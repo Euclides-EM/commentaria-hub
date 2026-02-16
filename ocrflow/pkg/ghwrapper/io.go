@@ -10,7 +10,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
 )
 
-func (d *Downloader) fetchRawContent(ctx context.Context, url string) (content []byte, err error) {
+func (d *Wrapper) fetchRawContent(ctx context.Context, url string) (content []byte, err error) {
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return
@@ -41,7 +41,7 @@ func (d *Downloader) fetchRawContent(ctx context.Context, url string) (content [
 	return data, nil
 }
 
-func (d *Downloader) httpHeaders(ctx context.Context) http.Header {
+func (d *Wrapper) httpHeaders(ctx context.Context) http.Header {
 	h := http.Header{}
 	// Use standard media type for contents API and downloads
 	h.Set("Accept", "application/vnd.github+json")

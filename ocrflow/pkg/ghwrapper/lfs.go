@@ -64,7 +64,7 @@ func parseLfsPointer(data []byte) (*lfsPointer, error) {
 }
 
 // getLFSDownloadLink uses the LFS Batch API to exchange an OID for a direct download URL.
-func (d *Downloader) getLFSDownloadLink(ctx context.Context, owner, repo, oid string, size int64) (string, error) {
+func (d *Wrapper) getLFSDownloadLink(ctx context.Context, owner, repo, oid string, size int64) (string, error) {
 	// LFS API endpoint follows the format: https://github.com/<owner>/<repo>.git/info/lfs/objects/batch
 	lfsApiUrl := fmt.Sprintf("https://%s/%s/%s.git/info/lfs/objects/batch", githubHostname, owner, repo)
 
@@ -120,7 +120,7 @@ func (d *Downloader) getLFSDownloadLink(ctx context.Context, owner, repo, oid st
 	return batchResp.Objects[0].Actions.Download.Href, nil
 }
 
-func (d *Downloader) downloadLFS(ctx context.Context, finalURL, destPath string) error {
+func (d *Wrapper) downloadLFS(ctx context.Context, finalURL, destPath string) error {
 	req, err := http.NewRequest(http.MethodGet, finalURL, nil)
 	if err != nil {
 		return err

@@ -120,7 +120,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	// ---------- Viewer UI ----------
 	root.Handle("/ui/",
 		http.StripPrefix("/ui/",
-			http.FileServer(http.Dir(deps.Env.UI_DIR)),
+			http.FileServer(http.Dir(deps.Env.UIDir)),
 		),
 	)
 
