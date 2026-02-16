@@ -8,6 +8,28 @@ import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class FacsimilesService {
     /**
+     * List Facsimiles (bulk get)
+     * Get facsimiles, optionally filtered by edition ID.
+     * @returns model_Facsimile OK
+     * @throws ApiError
+     */
+    public static getFacsimilies({
+        editionId,
+    }: {
+        /**
+         * Filter by edition ID
+         */
+        editionId?: Array<string>,
+    }): CancelablePromise<Array<model_Facsimile>> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/facsimilies',
+            query: {
+                'edition_id': editionId,
+            },
+        });
+    }
+    /**
      * Create Facsimile
      * Create a new facsimile
      * @returns model_Facsimile OK
@@ -33,7 +55,7 @@ export class FacsimilesService {
      * @returns model_Facsimile OK
      * @throws ApiError
      */
-    public static getFacsimilies({
+    public static getFacsimilies1({
         id,
     }: {
         /**

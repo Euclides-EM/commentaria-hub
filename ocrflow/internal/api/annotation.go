@@ -328,7 +328,7 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
-// @Param        categories  query     string  true  "Categories for the index"
+// @Param        categories  query     string  false  "Categories for the index"
 // @Produce      json
 // @Success      200  {object}   annotation.Index
 // @Router       /datasets/{dataSetId}/annotations/{id}/index [get]

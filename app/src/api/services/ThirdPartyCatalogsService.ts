@@ -15,15 +15,23 @@ export class ThirdPartyCatalogsService {
      */
     public static postCatalogsUstcLookup({
         ustc,
+        ustcId,
     }: {
         /**
          * JSON with ustc_id
          */
-        ustc: model_USTC,
+        ustc?: model_USTC,
+        /**
+         * USTC ID (alternative to body)
+         */
+        ustcId?: number,
     }): CancelablePromise<model_USTC> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/catalogs/ustc/lookup',
+            query: {
+                'ustc_id': ustcId,
+            },
             body: ustc,
         });
     }
