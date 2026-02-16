@@ -7,16 +7,13 @@ import { useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 
-const matchToFilter = (
-  search: string,
-  node: annotation_IndexNode,
-): boolean => {
+const matchToFilter = (search: string, node: annotation_IndexNode): boolean => {
   return (
     !search ||
     node.content?.toLowerCase().includes(search.toLowerCase()) ||
     node.children?.some((child: annotation_IndexNode) =>
-        matchToFilter(search, child),
-      ) ||
+      matchToFilter(search, child),
+    ) ||
     false
   )
 }

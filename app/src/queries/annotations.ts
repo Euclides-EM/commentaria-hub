@@ -52,7 +52,7 @@ export function useAnnotationTeiQuery(
       AnnotationsService.getDatasetsAnnotationsTei({
         dataSetId: datasetId,
         id: annotationId,
-        pageNumOrKey: pageNum.toString(),
+        page: pageNum.toString(),
       }),
     enabled: !!datasetId && !!annotationId && enabled,
   })

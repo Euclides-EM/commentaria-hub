@@ -527,14 +527,61 @@ export class AnnotationsService {
             },
         });
     }
-
+    /**
+     * Get Annotation TEIs
+     * Get the TEI representations of all pages for a specific annotation in a specific dataset.
+     * @returns string TEI XML content for all pages
+     * @throws ApiError
+     */
+    public static getDatasetsAnnotationsTei({
+        dataSetId,
+        id,
+        page,
+        key,
+        feature,
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Page numbers to filter TEI data (can be specified multiple times)
+         */
+        page?: string,
+        /**
+         * Page keys to filter TEI data (can be specified multiple times)
+         */
+        key?: string,
+        /**
+         * Features to include in TEI data (can be specified multiple times)
+         */
+        feature?: string,
+    }): CancelablePromise<string> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/datasets/{dataSetId}/annotations/{id}/tei',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'page': page,
+                'key': key,
+                'feature': feature,
+            },
+        });
+    }
     /**
      * Get Annotation TEI
      * Get the TEI representation of a specific annotation for a specific dataset and page.
      * @returns string TEI XML content
      * @throws ApiError
      */
-    public static getDatasetsAnnotationsTei({
+    public static getDatasetsAnnotationsTei1({
         dataSetId,
         id,
         pageNumOrKey,
