@@ -131,50 +131,67 @@ func valueToFloat64(v reflect.Value) (float64, bool) {
 
 func (q Query) FilterFunc() func(e any) bool {
 	return func(e any) bool {
-		// Field filters
-		// Field filters (case-insensitive for string-like fields)
+		// Field filters (case-insensitive for string-like fields).
+		// When filter_includes is not set for a field, default to true (allow-list: keep only if value matches).
 		for field, allowed := range q.FieldsFilter {
 			v, ok := fieldValue(e, field)
 			if !ok {
 				continue
 			}
 
-			// unwrap pointers once
-			isStringLike := false
+			// unwrap pointer once
 			vv := v
 			if vv.Kind() == reflect.Ptr {
 				if vv.IsNil() {
-					vv = reflect.Value{} // treated as empty below
+					vv = reflect.Value{}
 				} else {
 					vv = vv.Elem()
 				}
 			}
-			if vv.IsValid() && vv.Kind() == reflect.String {
-				isStringLike = true
-			}
-
-			val := valueToString(v)
 
 			match := false
-			if isStringLike {
-				nVal := normalizeValue(val)
-				for _, a := range allowed {
-					if nVal == normalizeValue(a) {
-						match = true
+			if vv.IsValid() && vv.Kind() == reflect.Slice {
+				// Slice (e.g. languages, corpus): match if any element is in allowed list
+				for i := 0; i < vv.Len(); i++ {
+					el := vv.Index(i)
+					elStr := valueToString(el)
+					for _, a := range allowed {
+						if normalizeValue(elStr) == normalizeValue(a) {
+							match = true
+							break
+						}
+					}
+					if match {
 						break
 					}
 				}
 			} else {
-				// exact match for non-string fields
-				for _, a := range allowed {
-					if val == a {
-						match = true
-						break
+				// Single value
+				val := valueToString(v)
+				isStringLike := vv.IsValid() && vv.Kind() == reflect.String
+				if isStringLike {
+					nVal := normalizeValue(val)
+					for _, a := range allowed {
+						if nVal == normalizeValue(a) {
+							match = true
+							break
+						}
+					}
+				} else {
+					for _, a := range allowed {
+						if val == a {
+							match = true
+							break
+						}
 					}
 				}
 			}
 
-			include := q.FilterIncludes[field]
+			// Default to include=true when not specified: fields_filter means "restrict to these values"
+			include := true
+			if got, set := q.FilterIncludes[field]; set {
+				include = got
+			}
 			if include && !match {
 				return false
 			}
