@@ -9,6 +9,7 @@ import Select from 'react-select'
 import { Timestamp } from '../../core/Timestamp'
 import { RuleDisplay } from '../../rules/RuleDisplay.tsx'
 import { type AnnotationRule } from '../../../utils/rules.ts'
+import { countPages } from '../../../utils/pages.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
 import { useAnnotationsQuery } from '../../../queries/annotations.ts'
 import { useDatasetsQuery } from '../../../queries/datasets.ts'
@@ -113,6 +114,11 @@ const AnnotationDetailsContent = ({
         <div className="font-semibold text-xs opacity-80 pt-0.5">Pages</div>
         <div className="text-sm leading-tight break-all">
           {annotation.pages}
+          {annotation.pages != null && annotation.pages !== '' && (
+            <span className="text-gray-600 ml-1">
+              (total: {countPages(annotation.pages)})
+            </span>
+          )}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Stage</div>
         <div className="text-sm leading-tight break-all">

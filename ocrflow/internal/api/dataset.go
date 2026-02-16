@@ -36,7 +36,6 @@ func (h *Handlers) ListDatasets(r *http.Request) (any, error) {
 // @Description  Create a new dataset. Use async=true to return immediately with status "creating"; poll GET /datasets/{id} for status "ready" or "failed".
 // @Tags         Datasets
 // @Param        force_overwrite  query     string  false  "Force overwrite if dataset already exists"
-// @Param        skip_deskew      query     string  false  "Skip deskewing of images"
 // @Param        async            query     string  false  "If true, return immediately and create in background (status creating → ready or failed)"
 // @Param        dataset  body      model.Dataset  true  "Dataset to create"
 // @Security 	 BearerAuth
@@ -50,7 +49,6 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	}
 	return h.deps.DatasetSvc.Create(r.Context(), &d,
 		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("force_overwrite"))) == "true",
-		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("skip_deskew"))) == "true",
 		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("async"))) == "true",
 	)
 }
