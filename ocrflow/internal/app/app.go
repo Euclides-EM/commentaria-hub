@@ -63,7 +63,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		env.EscriptoriumPassword,
 		env.EscriptoriumBasePath,
 	)
-	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager)
+	featureResultSvc := service.NewResult(featureResultStore)
+	titlePageTEI := service.NewTitlePageTEI(featureResultSvc, tpsTranscriptionsStore)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, titlePageTEI)
 
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,
@@ -75,7 +77,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	assetGen := service.NewAssetGen(datasetSvc, annotationTEI, annotationSvc, fileSystemManager)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager)
 	featureStore := store.NewFeatureSQL(sqlDB)
-	featureResultSvc := service.NewResult(featureResultStore)
 
 	log.Printf("warming edition cache...")
 	if err := editionStore.WarmCache(); err != nil {
@@ -102,7 +103,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeatureRevisionSvc:  service.NewRevision(featureRevisionStore),
 		FeatureResultSvc:    featureResultSvc,
 		FeatureExecutionSvc: service.NewExecution(featureExecutionStore),
-		TEISvc:              service.NewTEI(featureResultSvc, tpsTranscriptionsStore),
 		USTC:                service.NewUSTC(),
 		VCSMgt:              service.NewVCSMgt(env.ItemsMetadataStoreDir, fileSystemManager.DatasetImagesDirByID("tps")),
 	}

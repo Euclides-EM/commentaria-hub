@@ -18,9 +18,9 @@ func NewFeatureResultSQL(db *sql.DB) *FeatureResultSQL {
 	return &FeatureResultSQL{db: db}
 }
 
-func (s *FeatureResultSQL) List(datasetID string, keys []string, features []string) ([]*feature.Result, error) {
-	query := `SELECT dataset_id, feature, key, note, source_resp, source_id, source_revision, source_name, values_json FROM feature_results WHERE dataset_id = ?`
-	args := []any{datasetID}
+func (s *FeatureResultSQL) List(datasetID, annotationID string, keys []string, features []string) ([]*feature.Result, error) {
+	query := `SELECT dataset_id, annotation_id, feature, key, note, source_resp, source_id, source_revision, source_name, values_json FROM feature_results WHERE dataset_id = ? AND annotation_id = ?`
+	args := []any{datasetID, annotationID}
 
 	if len(keys) > 0 {
 		query += ` AND key IN (`
@@ -73,6 +73,9 @@ func (s *FeatureResultSQL) Create(res *feature.Result) error {
 	if res.DatasetID == "" {
 		return fmt.Errorf("feature result dataset_id is empty")
 	}
+	if res.AnnotationID == "" {
+		return fmt.Errorf("feature result annotation_id is empty")
+	}
 	if res.Feature == "" {
 		return fmt.Errorf("feature result feature is empty")
 	}
@@ -90,16 +93,16 @@ func (s *FeatureResultSQL) Create(res *feature.Result) error {
 	}
 
 	_, err := s.db.Exec(`
-		INSERT INTO feature_results (dataset_id, feature, key, note, source_resp, source_id, source_revision, source_name, values_json)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-		ON CONFLICT(dataset_id, feature, key) DO UPDATE SET
+		INSERT INTO feature_results (dataset_id, annotation_id, feature, key, note, source_resp, source_id, source_revision, source_name, values_json)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		ON CONFLICT(dataset_id, annotation_id, feature, key) DO UPDATE SET
 			note = excluded.note,
 			source_resp = excluded.source_resp,
 			source_id = excluded.source_id,
 			source_revision = excluded.source_revision,
 			source_name = excluded.source_name,
 			values_json = excluded.values_json
-	`, res.DatasetID, res.Feature, res.Key, res.Note, res.Source.Resp, res.Source.Id, res.Source.Revision, res.Source.Name, valuesJSON)
+	`, res.DatasetID, res.AnnotationID, res.Feature, res.Key, res.Note, res.Source.Resp, res.Source.Id, res.Source.Revision, res.Source.Name, valuesJSON)
 	return err
 }
 
@@ -108,6 +111,7 @@ func scanFeatureResult(scanner func(...any) error) (*feature.Result, error) {
 	var valuesJSON string
 	err := scanner(
 		&res.DatasetID,
+		&res.AnnotationID,
 		&res.Feature,
 		&res.Key,
 		&res.Note,

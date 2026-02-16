@@ -1,11 +1,12 @@
 package feature
 
 type Result struct {
-	DatasetID string        `json:"dataset_id"`
-	Feature   string        `json:"feature"`
-	Key       string        `json:"key"`
-	Source    ResultSource  `json:"source"`
-	Values    []ResultValue `json:"values"`
+	DatasetID    string        `json:"dataset_id"`
+	AnnotationID string        `json:"annotation_id"`
+	Feature      string        `json:"feature"`
+	Key          string        `json:"key"`
+	Source       ResultSource  `json:"source"`
+	Values       []ResultValue `json:"values"`
 
 	Note string `json:"note,omitempty"`
 }

@@ -81,6 +81,7 @@ CREATE TABLE IF NOT EXISTS feature_execution_apply (
 -- Source and Values stored as JSON (Values is recursive)
 CREATE TABLE IF NOT EXISTS feature_results (
     dataset_id           TEXT NOT NULL REFERENCES datasets(id) ON DELETE CASCADE,
+    annotation_id       TEXT NOT NULL REFERENCES annotations(id) ON DELETE CASCADE,
     feature       TEXT NOT NULL,
     key           TEXT NOT NULL,
     note          TEXT NOT NULL DEFAULT '',

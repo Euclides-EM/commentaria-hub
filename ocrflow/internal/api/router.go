@@ -28,7 +28,6 @@ type Dependencies struct {
 	FeatureRevisionSvc  *service.Revision
 	FeatureExecutionSvc *service.Execution
 	FeatureResultSvc    *service.Result
-	TEISvc              *service.TEI
 	USTC                *service.USTC
 	VCSMgt              *service.VCSMgt
 }
@@ -85,7 +84,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/review", httpwrapper.Create(h.CreateAnnotationReview).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/search", httpwrapper.Get(h.SearchAnnotation).Build())
 
-	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNum}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNumOrKey}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei", httpwrapper.GetXML(h.GetAnnotationTEIs).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/features", httpwrapper.Get(h.ListFeatures).Create(h.CreateFeatures).Build())
 	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}", httpwrapper.Delete(h.DeleteFeature).Get(h.GetFeature).Update(h.UpdateFeature).Build())
@@ -97,10 +97,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/features/executions/{executionId}", httpwrapper.Get(h.GetExecution).Build())
 	api.HandleFunc("/features/executions/{executionId}/cancel", httpwrapper.Update(h.CancelExecution).Build())
 
-	api.HandleFunc("/datasets/{dataSetId}/results", httpwrapper.Get(h.ListResults).Create(h.CreateResult).Build())
-
-	// GET /dataSetId/{id}/tei?key=Paris_1667&features=feature1,feature2
-	api.HandleFunc("/dataSetId/{dataSetId}/tei", httpwrapper.GetXML(h.GetTEI).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results", httpwrapper.Get(h.ListResults).Create(h.CreateResult).Build())
 
 	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).CreateFile(h.UploadModel).Build())
 	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Update(h.UpdateModel).Build())

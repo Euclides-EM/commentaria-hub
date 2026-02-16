@@ -14,8 +14,8 @@ func NewResult(store *fpstore.FeatureResultSQL) *Result {
 	return &Result{store: store}
 }
 
-func (r *Result) ListResults(datasetID string, keys []string, features []string) ([]*feature.Result, error) {
-	return r.store.List(datasetID, keys, features)
+func (r *Result) ListResults(datasetID, annotationID string, keys []string, features []string) ([]*feature.Result, error) {
+	return r.store.List(datasetID, annotationID, keys, features)
 }
 
 func (r *Result) CreateResult(m *feature.Result) (*feature.Result, error) {

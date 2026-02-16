@@ -75,7 +75,7 @@ func (ag *AssetGen) generateAssetsForPages(ds *model.Dataset, datasetId, annotat
 	}
 
 	for _, pageNum := range pages {
-		tei, err := ag.annotationTEI.GetTEI(datasetId, annotationId, fmt.Sprintf("%d", pageNum))
+		tei, err := ag.annotationTEI.GetTEI(datasetId, annotationId, fmt.Sprintf("%d", pageNum), nil)
 		if err != nil {
 			return err
 		}

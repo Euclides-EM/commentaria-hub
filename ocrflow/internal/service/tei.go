@@ -10,19 +10,19 @@ import (
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
 )
 
-type TEI struct {
+type TitlePageTEI struct {
 	resultSvc              *Result
 	tpsTranscriptionsStore *fpstore.TPSTranscriptions
 }
 
-func NewTEI(resultSvc *Result, tpsTranscriptionsStore *fpstore.TPSTranscriptions) *TEI {
-	return &TEI{
+func NewTitlePageTEI(resultSvc *Result, tpsTranscriptionsStore *fpstore.TPSTranscriptions) *TitlePageTEI {
+	return &TitlePageTEI{
 		resultSvc:              resultSvc,
 		tpsTranscriptionsStore: tpsTranscriptionsStore,
 	}
 }
 
-func (t *TEI) GetTEI(datasetId, key string, featureParams []string) ([]byte, error) {
+func (t *TitlePageTEI) GetTEI(datasetId, annotationId, key string, featureParams []string) ([]byte, error) {
 
 	// todo: current impl handles overlaps badly + no normalized + multiple occurrences not really working...
 
@@ -56,7 +56,7 @@ func (t *TEI) GetTEI(datasetId, key string, featureParams []string) ([]byte, err
 	}
 
 	// Get feature results for this key
-	results, err := t.resultSvc.ListResults(datasetId, []string{key}, featureFilter)
+	results, err := t.resultSvc.ListResults(datasetId, annotationId, []string{key}, featureFilter)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get feature results: %w", err)
 	}
@@ -66,7 +66,7 @@ func (t *TEI) GetTEI(datasetId, key string, featureParams []string) ([]byte, err
 	return []byte(teiXML), nil
 }
 
-func (t *TEI) generateTEI(key, title, imprint string, results []*feature.Result) string {
+func (t *TitlePageTEI) generateTEI(key, title, imprint string, results []*feature.Result) string {
 	var sb strings.Builder
 	sb.WriteString(`<?xml version="1.0" encoding="UTF-8"?>` + "\n")
 	sb.WriteString(`<TEI xmlns="http://www.tei-c.org/ns/1.0">` + "\n\n")
@@ -148,7 +148,7 @@ type respStmtInfo struct {
 	Id       string
 }
 
-func (t *TEI) collectRespStmts(results []*feature.Result) []respStmtInfo {
+func (t *TitlePageTEI) collectRespStmts(results []*feature.Result) []respStmtInfo {
 	seen := make(map[string]bool)
 	var respStmts []respStmtInfo
 
@@ -177,7 +177,7 @@ type anchorInfo struct {
 	endPos   int
 }
 
-func (t *TEI) buildAnnotatedText(text string, results []*feature.Result) (string, map[string]anchorInfo) {
+func (t *TitlePageTEI) buildAnnotatedText(text string, results []*feature.Result) (string, map[string]anchorInfo) {
 	anchors := make(map[string]anchorInfo)
 	anchorCounter := 1
 
@@ -284,7 +284,7 @@ func (t *TEI) buildAnnotatedText(text string, results []*feature.Result) (string
 	return annotatedText, anchors
 }
 
-func (t *TEI) generateSpanFromAnchor(spanID int, anchorID string, info anchorInfo, respStmts []respStmtInfo) string {
+func (t *TitlePageTEI) generateSpanFromAnchor(spanID int, anchorID string, info anchorInfo, respStmts []respStmtInfo) string {
 	// Find matching respStmt
 	respID := ""
 	for i, rs := range respStmts {
