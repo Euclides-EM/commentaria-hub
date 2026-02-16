@@ -1,7 +1,7 @@
 import { useAnnotationIndexQuery } from '../../../../queries/annotations.ts'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
-import type { model_AnnotationIndexNode } from '../../../../api'
+import type { annotation_IndexNode } from '../../../../api'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
@@ -9,18 +9,20 @@ import { SearchInput } from '../../../core/SearchInput.tsx'
 
 const matchToFilter = (
   search: string,
-  node: model_AnnotationIndexNode,
+  node: annotation_IndexNode,
 ): boolean => {
   return (
     !search ||
     node.content?.toLowerCase().includes(search.toLowerCase()) ||
-    node.children?.some((child) => matchToFilter(search, child)) ||
+    node.children?.some((child: annotation_IndexNode) =>
+        matchToFilter(search, child),
+      ) ||
     false
   )
 }
 
 const getNextSiblingPage = (
-  nodes: model_AnnotationIndexNode[],
+  nodes: annotation_IndexNode[],
   startIndex: number,
   currentNodePage: number | undefined,
 ): number | undefined => {
@@ -42,7 +44,7 @@ const Node = ({
   currentPage,
   nextSiblingPage,
 }: {
-  node: model_AnnotationIndexNode
+  node: annotation_IndexNode
   jumpToPage: (page: number) => void
   level: number
   currentPage: number
@@ -81,7 +83,7 @@ const Node = ({
       </div>
       {hasChildren && isExpanded && (
         <div>
-          {node.children?.map((child, idx) => (
+          {node.children?.map((child: annotation_IndexNode, idx: number) => (
             <Node
               node={child}
               jumpToPage={jumpToPage}
@@ -135,10 +137,10 @@ export function IndexMenu() {
           <div className="overflow-auto p-3 flex-1 min-h-0">
             <div>
               {annotationIndex.nodes
-                .filter((node: model_AnnotationIndexNode) =>
+                .filter((node: annotation_IndexNode) =>
                   matchToFilter(searchTerm, node),
                 )
-                .map((item: model_AnnotationIndexNode, idx: number) => (
+                .map((item: annotation_IndexNode, idx: number) => (
                   <Node
                     node={item}
                     jumpToPage={jumpToPage}

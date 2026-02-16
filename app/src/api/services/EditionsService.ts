@@ -3,35 +3,45 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { model_Edition } from '../models/model_Edition';
+import type { model_EditionListResult } from '../models/model_EditionListResult';
+import type { model_ImageUpload } from '../models/model_ImageUpload';
+import type { model_Note } from '../models/model_Note';
+import type { search_Query } from '../models/search_Query';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class EditionsService {
     /**
-     * List Editions
-     * Get a list of available editions. Optionally include facsimiles.
-     * @returns model_Edition OK
+     * Upload Edition Image
+     * Upload an image for a specific edition identified by key. The image file is provided as multipart form data.
+     * @returns model_ImageUpload OK
      * @throws ApiError
      */
-    public static getEditions({
-        expand,
-        orderBy,
+    public static postDatasetsImagesUpload({
+        key,
+        type,
+        file,
     }: {
         /**
-         * Include related entities
+         * Edition key
          */
-        expand?: 'facsimiles',
+        key: string,
         /**
-         * Order by field
+         * Type of image (e.g., 'cover', 'facsimile')
          */
-        orderBy?: 'suggested',
-    }): CancelablePromise<Array<model_Edition>> {
+        type: string,
+        /**
+         * Image file to upload
+         */
+        file: Blob,
+    }): CancelablePromise<model_ImageUpload> {
         return __request(OpenAPI, {
-            method: 'GET',
-            url: '/editions',
-            query: {
-                'expand': expand,
-                'orderBy': orderBy,
+            method: 'POST',
+            url: '/datasets/{dataSetId}/images/upload',
+            formData: {
+                'key': key,
+                'type': type,
+                'file': file,
             },
         });
     }
@@ -53,6 +63,107 @@ export class EditionsService {
             method: 'POST',
             url: '/editions',
             body: edition,
+        });
+    }
+    /**
+     * List Editions
+     * Get a paginated list of editions. Filter by corpus; use offset/limit for paging.
+     * @returns model_EditionListResult OK
+     * @throws ApiError
+     */
+    public static postEditionsSearch({
+        edition,
+    }: {
+        /**
+         * Filter, ordering, and pagination options
+         */
+        edition?: search_Query,
+    }): CancelablePromise<model_EditionListResult> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/editions/search',
+            body: edition,
+        });
+    }
+    /**
+     * Get Edition by key
+     * Get a single edition by its key.
+     * @returns model_Edition OK
+     * @throws ApiError
+     */
+    public static getEditions({
+        key,
+    }: {
+        /**
+         * Edition key
+         */
+        key: string,
+    }): CancelablePromise<model_Edition> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/editions/{key}',
+            path: {
+                'key': key,
+            },
+            errors: {
+                404: `Edition not found`,
+            },
+        });
+    }
+    /**
+     * Update Edition
+     * Update an existing edition identified by key. The edition data is provided in the JSON body.
+     * @returns model_Edition OK
+     * @throws ApiError
+     */
+    public static putEditions({
+        key,
+        edition,
+    }: {
+        /**
+         * Edition key
+         */
+        key: string,
+        /**
+         * Edition data to update
+         */
+        edition: model_Edition,
+    }): CancelablePromise<model_Edition> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/editions/{key}',
+            path: {
+                'key': key,
+            },
+            body: edition,
+        });
+    }
+    /**
+     * Update Edition Notes
+     * Update the notes for an edition identified by key. The note content is provided in the JSON body.
+     * @returns model_Edition OK
+     * @throws ApiError
+     */
+    public static postEditionsNotes({
+        key,
+        note,
+    }: {
+        /**
+         * Edition key
+         */
+        key: string,
+        /**
+         * Note content
+         */
+        note: model_Note,
+    }): CancelablePromise<model_Edition> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/editions/{key}/notes',
+            path: {
+                'key': key,
+            },
+            body: note,
         });
     }
 }

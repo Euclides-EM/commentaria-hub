@@ -6,7 +6,7 @@ import {
 } from '../../../../queries/annotations.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
-import type { model_AnnotationPart } from '../../../../api'
+import type { annotation_Part } from '../../../../api'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
@@ -49,7 +49,7 @@ const buildSnippet = (content: string, maxLength = 64) => {
   return `${prefix}${beforeTrim}${matchHtml}${afterTrim}${suffix}`
 }
 
-const getResultKey = (result: model_AnnotationPart, index: number) =>
+const getResultKey = (result: annotation_Part, index: number) =>
   `${result.location?.page ?? 'p'}-${result.category ?? 'c'}-${index}`
 
 export function AnnotationSearchMenu() {

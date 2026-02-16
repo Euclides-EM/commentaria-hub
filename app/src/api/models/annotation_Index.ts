@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { model_AnnotationIndexNode } from './model_AnnotationIndexNode';
-export type model_AnnotationIndex = {
+import type { annotation_IndexNode } from './annotation_IndexNode';
+export type annotation_Index = {
     readonly annotation_id?: string;
     readonly dataset_id?: string;
-    nodes?: Array<model_AnnotationIndexNode>;
+    nodes?: Array<annotation_IndexNode>;
 };
 

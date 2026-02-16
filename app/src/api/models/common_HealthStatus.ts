@@ -2,9 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_AnnotationDuplicateRequest = {
-    description?: string;
-    name?: string;
-    source_annotation_id?: string;
+export type common_HealthStatus = {
+    db_ready?: boolean;
 };
 

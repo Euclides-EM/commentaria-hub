@@ -2,7 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { model_AnnotationExpectedBlocks } from '../models/model_AnnotationExpectedBlocks';
+import type { annotation_ExpectedBlocks } from '../models/annotation_ExpectedBlocks';
 import type { model_Dataset } from '../models/model_Dataset';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
@@ -151,7 +151,7 @@ export class DatasetsService {
     /**
      * List Suggested Annotation Reviews for Dataset
      * Get a list of suggested annotation reviews for a specific dataset.
-     * @returns model_AnnotationExpectedBlocks OK
+     * @returns annotation_ExpectedBlocks OK
      * @throws ApiError
      */
     public static getDatasetsSuggestedReviews({
@@ -161,7 +161,7 @@ export class DatasetsService {
          * Dataset ID
          */
         dataSetId: string,
-    }): CancelablePromise<Array<Array<model_AnnotationExpectedBlocks>>> {
+    }): CancelablePromise<Array<Array<annotation_ExpectedBlocks>>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/suggested_reviews',

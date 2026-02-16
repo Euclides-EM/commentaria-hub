@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type {
   common_OCRModelType,
-  model_Annotation,
+  annotation_Annotation,
   model_Model,
 } from '../../api'
 import { AnnotationsService, ApiError } from '../../api'
@@ -66,7 +66,7 @@ const getSortValue = (model: model_Model, key: SortKey) => {
   }
 }
 
-type BaseAnnotationLookup = Record<string, model_Annotation[]>
+type BaseAnnotationLookup = Record<string, annotation_Annotation[]>
 
 function AnnotationsCell({
   references,

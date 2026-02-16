@@ -3,7 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { annotationrule_PipelineStage } from './annotationrule_PipelineStage';
-export type model_Annotation = {
+export type annotation_Annotation = {
     readonly applied_rules?: Array<any>;
     readonly created_at?: string;
     readonly dataset_id?: string;

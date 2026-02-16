@@ -2,8 +2,8 @@ import { type FormEvent, useEffect, useMemo, useState } from 'react'
 import {
   AnnotationsService,
   ApiError,
-  type model_AnnotationUploadEscriptorium,
-  type model_AnnotationUploadRoboflow,
+  type annotation_UploadEscriptorium,
+  type annotation_UploadRoboflow,
 } from '../../../api'
 import { Button } from '../../core/Button.tsx'
 import { LoadingSpinner } from '../../core/LoadingSpinner.tsx'
@@ -20,9 +20,9 @@ interface ExportAnnotationModalProps {
   onClose: () => void
 }
 
-type RoboflowSettings = Required<model_AnnotationUploadRoboflow>
+type RoboflowSettings = Required<annotation_UploadRoboflow>
 
-type EscriptoriumSettings = Required<model_AnnotationUploadEscriptorium>
+type EscriptoriumSettings = Required<annotation_UploadEscriptorium>
 
 const exportOptions = [
   { value: 'zip', label: 'ZIP file download' },

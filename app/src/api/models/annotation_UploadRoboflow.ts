@@ -2,7 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_AnnotationUploadRoboflow = {
+export type annotation_UploadRoboflow = {
     api_key?: string;
     is_not_ground_truth?: boolean;
     project_id?: string;

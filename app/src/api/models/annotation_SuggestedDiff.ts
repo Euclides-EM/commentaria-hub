@@ -2,7 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_SuggestedDiff = {
+export type annotation_SuggestedDiff = {
     correction?: Array<string>;
     old?: Array<string>;
     page?: number;

@@ -2,13 +2,13 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { model_Annotation } from '../models/model_Annotation';
-import type { model_AnnotationDuplicateRequest } from '../models/model_AnnotationDuplicateRequest';
-import type { model_AnnotationExpectedBlocks } from '../models/model_AnnotationExpectedBlocks';
-import type { model_AnnotationIndex } from '../models/model_AnnotationIndex';
-import type { model_AnnotationSearch } from '../models/model_AnnotationSearch';
-import type { model_AnnotationUploadEscriptorium } from '../models/model_AnnotationUploadEscriptorium';
-import type { model_AnnotationUploadRoboflow } from '../models/model_AnnotationUploadRoboflow';
+import type { annotation_Annotation } from '../models/annotation_Annotation';
+import type { annotation_DuplicateRequest } from '../models/annotation_DuplicateRequest';
+import type { annotation_ExpectedBlocks } from '../models/annotation_ExpectedBlocks';
+import type { annotation_Index } from '../models/annotation_Index';
+import type { annotation_Search } from '../models/annotation_Search';
+import type { annotation_UploadEscriptorium } from '../models/annotation_UploadEscriptorium';
+import type { annotation_UploadRoboflow } from '../models/annotation_UploadRoboflow';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -16,7 +16,7 @@ export class AnnotationsService {
     /**
      * List Annotations
      * Get a list of annotations for a specific dataset.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static getDatasetsAnnotations({
@@ -26,7 +26,7 @@ export class AnnotationsService {
          * Dataset ID
          */
         dataSetId: string,
-    }): CancelablePromise<Array<model_Annotation>> {
+    }): CancelablePromise<Array<annotation_Annotation>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/annotations',
@@ -38,7 +38,7 @@ export class AnnotationsService {
     /**
      * Create Annotation
      * Create a new annotation for a specific dataset.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static postDatasetsAnnotations({
@@ -52,8 +52,8 @@ export class AnnotationsService {
         /**
          * Annotation to create
          */
-        annotation: model_Annotation,
-    }): CancelablePromise<model_Annotation> {
+        annotation: annotation_Annotation,
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets/{dataSetId}/annotations',
@@ -66,7 +66,7 @@ export class AnnotationsService {
     /**
      * Duplicate Annotation
      * Duplicate an existing annotation for a specific dataset.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static postDatasetsAnnotationsDuplicate({
@@ -80,8 +80,8 @@ export class AnnotationsService {
         /**
          * Annotation duplication details
          */
-        annotationDuplicateRequest: model_AnnotationDuplicateRequest,
-    }): CancelablePromise<model_Annotation> {
+        annotationDuplicateRequest: annotation_DuplicateRequest,
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets/{dataSetId}/annotations/duplicate',
@@ -94,7 +94,7 @@ export class AnnotationsService {
     /**
      * Upload from URL
      * Upload annotations from a ZIP file located at a URL.
-     * @returns model_Annotation Created
+     * @returns annotation_Annotation Created
      * @throws ApiError
      */
     public static postDatasetsAnnotationsFromurl({
@@ -154,7 +154,7 @@ export class AnnotationsService {
          * Model ID that was used for segmentation, only relevant if annotations are segmented
          */
         segmentModelId?: string,
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets/{dataSetId}/annotations/fromurl',
@@ -178,7 +178,7 @@ export class AnnotationsService {
     /**
      * Upload ZIP File
      * Upload a ZIP file containing annotations.
-     * @returns model_Annotation Created
+     * @returns annotation_Annotation Created
      * @throws ApiError
      */
     public static postDatasetsAnnotationsFromzip({
@@ -238,7 +238,7 @@ export class AnnotationsService {
          * Model ID that was used for segmentation, only relevant if annotations are segmented
          */
         segmentModelId?: string,
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets/{dataSetId}/annotations/fromzip',
@@ -264,7 +264,7 @@ export class AnnotationsService {
     /**
      * Get Annotation
      * Get a specific annotation for a specific dataset.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static getDatasetsAnnotations1({
@@ -279,7 +279,7 @@ export class AnnotationsService {
          * Annotation ID
          */
         id: string,
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/annotations/{id}',
@@ -292,7 +292,7 @@ export class AnnotationsService {
     /**
      * Update Annotation
      * Update a specific annotation for a specific dataset.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotations({
@@ -311,8 +311,8 @@ export class AnnotationsService {
         /**
          * Annotation to update
          */
-        annotation: model_Annotation,
-    }): CancelablePromise<model_Annotation> {
+        annotation: annotation_Annotation,
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}',
@@ -418,7 +418,7 @@ export class AnnotationsService {
     /**
      * Get Annotation Index
      * Get the index of a specific annotation for a specific dataset.
-     * @returns model_AnnotationIndex OK
+     * @returns annotation_Index OK
      * @throws ApiError
      */
     public static getDatasetsAnnotationsIndex({
@@ -438,7 +438,7 @@ export class AnnotationsService {
          * Categories for the index
          */
         categories: string,
-    }): CancelablePromise<model_AnnotationIndex> {
+    }): CancelablePromise<annotation_Index> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/annotations/{id}/index',
@@ -454,7 +454,7 @@ export class AnnotationsService {
     /**
      * Create an annotation review based on expected blocks
      * Create an annotation review by providing expected blocks for comparison
-     * @returns model_AnnotationExpectedBlocks OK
+     * @returns annotation_ExpectedBlocks OK
      * @throws ApiError
      */
     public static postDatasetsAnnotationsReview({
@@ -473,8 +473,8 @@ export class AnnotationsService {
         /**
          * Expected blocks for review
          */
-        review: model_AnnotationExpectedBlocks,
-    }): CancelablePromise<model_AnnotationExpectedBlocks> {
+        review: annotation_ExpectedBlocks,
+    }): CancelablePromise<annotation_ExpectedBlocks> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets/{dataSetId}/annotations/{id}/review',
@@ -488,7 +488,7 @@ export class AnnotationsService {
     /**
      * Search within an annotation's OCR data
      * Search for text patterns within specified categories of an annotation's OCR data
-     * @returns model_AnnotationSearch OK
+     * @returns annotation_Search OK
      * @throws ApiError
      */
     public static getDatasetsAnnotationsSearch({
@@ -513,7 +513,7 @@ export class AnnotationsService {
          * Categories to search within (can be specified multiple times)
          */
         category?: Array<string>,
-    }): CancelablePromise<model_AnnotationSearch> {
+    }): CancelablePromise<annotation_Search> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/annotations/{id}/search',
@@ -527,6 +527,7 @@ export class AnnotationsService {
             },
         });
     }
+
     /**
      * Get Annotation TEI
      * Get the TEI representation of a specific annotation for a specific dataset and page.
@@ -536,7 +537,8 @@ export class AnnotationsService {
     public static getDatasetsAnnotationsTei({
         dataSetId,
         id,
-        pageNum,
+        pageNumOrKey,
+        feature,
     }: {
         /**
          * Dataset ID
@@ -547,24 +549,31 @@ export class AnnotationsService {
          */
         id: string,
         /**
-         * Page Number
+         * Page Number or Key
          */
-        pageNum: string,
+        pageNumOrKey: string,
+        /**
+         * Features to include in TEI data (can be specified multiple times)
+         */
+        feature?: string,
     }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'GET',
-            url: '/datasets/{dataSetId}/annotations/{id}/tei/{pageNum}',
+            url: '/datasets/{dataSetId}/annotations/{id}/tei/{pageNumOrKey}',
             path: {
                 'dataSetId': dataSetId,
                 'id': id,
-                'pageNum': pageNum,
+                'pageNumOrKey': pageNumOrKey,
+            },
+            query: {
+                'feature': feature,
             },
         });
     }
     /**
      * Upload Annotation to Escriptorium
      * Upload an annotation to Escriptorium for a specific dataset.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsUploadEscriptorium({
@@ -583,8 +592,8 @@ export class AnnotationsService {
         /**
          * Annotation Escriptorium upload details
          */
-        annotationEscriptoriumUpload: model_AnnotationUploadEscriptorium,
-    }): CancelablePromise<model_Annotation> {
+        annotationEscriptoriumUpload: annotation_UploadEscriptorium,
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/upload/escriptorium',
@@ -598,7 +607,7 @@ export class AnnotationsService {
     /**
      * Upload Annotation to Roboflow
      * Upload an annotation to Roboflow for a specific dataset.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsUploadRoboflow({
@@ -617,8 +626,8 @@ export class AnnotationsService {
         /**
          * Annotation Roboflow upload details
          */
-        annotationRoboflowUpload: model_AnnotationUploadRoboflow,
-    }): CancelablePromise<model_Annotation> {
+        annotationRoboflowUpload: annotation_UploadRoboflow,
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/upload/roboflow',

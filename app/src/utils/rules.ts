@@ -8,7 +8,7 @@ import type {
   annotationrule_SlicePages,
   annotationrule_Stretch,
   annotationrule_TextBlockCorrections,
-  model_Annotation,
+  annotation_Annotation,
 } from '../api'
 
 export type AnnotationRule = { type: string } & (
@@ -59,7 +59,7 @@ export const getRuleDisplayName = (rule: AnnotationRule): string => {
 
 export const isRuleApplied = (
   suggestedRule: AnnotationRule,
-  annotation: model_Annotation,
+  annotation: annotation_Annotation,
 ): boolean => {
   const serializedRule = JSON.stringify(suggestedRule)
   return (

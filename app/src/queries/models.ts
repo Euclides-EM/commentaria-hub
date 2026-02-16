@@ -6,7 +6,8 @@ const modelsQueryKey = () => ['models'] as const
 export function useModelsQuery() {
   return useQuery({
     queryKey: modelsQueryKey(),
-    queryFn: () => ModelsService.getModels({ expand: 'used_in_annotations' }),
+    queryFn: () =>
+      ModelsService.getModels({ expand: ['used_in_annotations'] }),
   })
 }
 

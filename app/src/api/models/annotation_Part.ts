@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { model_AnnotationLocation } from './model_AnnotationLocation';
-export type model_AnnotationPart = {
+import type { annotation_Location } from './annotation_Location';
+export type annotation_Part = {
     category?: string;
     content?: string;
-    location?: model_AnnotationLocation;
+    location?: annotation_Location;
 };
 

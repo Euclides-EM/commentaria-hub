@@ -19,7 +19,7 @@ export class ModelsService {
         /**
          * Include related entities
          */
-        expand?: 'used_in_annotations',
+        expand?: Array<string>,
     }): CancelablePromise<Array<model_Model>> {
         return __request(OpenAPI, {
             method: 'GET',

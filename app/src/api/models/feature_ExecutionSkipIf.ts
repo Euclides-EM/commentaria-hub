@@ -2,7 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_HealthStatus = {
-    db_ready?: boolean;
-};
-
+export type feature_ExecutionSkipIf = 'feature_exist' | 'revision_exist' | 'human_reviewed';

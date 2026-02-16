@@ -2,8 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_AnnotationLocation = {
-    page?: number;
-    text_block_id?: string;
-};
-
+export type annotation_ExpectedBlocksSanityType = 'exact_block_count';

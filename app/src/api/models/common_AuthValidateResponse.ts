@@ -2,10 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_AnnotationUploadEscriptorium = {
-    base_path?: string;
-    document?: string;
-    password?: string;
+export type common_AuthValidateResponse = {
+    email?: string;
     username?: string;
 };
 

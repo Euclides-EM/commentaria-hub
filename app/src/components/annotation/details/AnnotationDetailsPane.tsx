@@ -3,7 +3,7 @@ import { useAppState } from '../../../context/useAppState.ts'
 import {
   AnnotationsService,
   ApiError,
-  type model_Annotation,
+  type annotation_Annotation,
 } from '../../../api'
 import Select from 'react-select'
 import { Timestamp } from '../../core/Timestamp'
@@ -21,7 +21,7 @@ import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 
 interface AnnotationDetailsContentProps {
-  annotation: model_Annotation
+  annotation: annotation_Annotation
   isEditing: boolean
   editedName: string
   editedDescription: string

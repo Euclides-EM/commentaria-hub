@@ -1,5 +1,5 @@
 import { useAppState } from '../../../../context/useAppState.ts'
-import type { model_Annotation } from '../../../../api'
+import type { annotation_Annotation } from '../../../../api'
 import { selectStyles } from '../../../../styles/selectStyles.ts'
 import Select from 'react-select'
 import { useEffect, useMemo, useRef, useState } from 'react'
@@ -23,7 +23,7 @@ const expandRange = (range: string): number[] => {
   return Array.from({ length: Math.max(0, max - min + 1) }, (_, i) => min + i)
 }
 
-const parseAvailablePages = (annotation: model_Annotation): number[] => {
+const parseAvailablePages = (annotation: annotation_Annotation): number[] => {
   if (!annotation.pages) return []
 
   return annotation.pages.split(',').flatMap((p) => expandRange(p))

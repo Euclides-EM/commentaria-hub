@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_AnnotationExpectedBlocksSanityType = 'exact_block_count';
+export type feature_ExecutionStatus = 'success' | 'failed' | 'in_progress' | 'canceling' | 'canceled';
