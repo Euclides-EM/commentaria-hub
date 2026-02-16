@@ -13,7 +13,7 @@ import (
 // USTCLookup godoc
 // @Summary			Lookup USTC metadata by ID
 // @Description  	Fetches metadata from the USTC catalog based on the provided USTC ID.
-// @Tags            USTC
+// @Tags            Third Party Catalogs
 // @Param			ustc body model.USTC true "JSON with ustc_id"
 // @Produce			json
 // @Success			200 {object} model.USTC
