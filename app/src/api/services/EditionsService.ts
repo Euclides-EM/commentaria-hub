@@ -18,10 +18,15 @@ export class EditionsService {
      * @throws ApiError
      */
     public static postDatasetsImagesUpload({
+        dataSetId,
         key,
         type,
         file,
     }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
         /**
          * Edition key
          */
@@ -38,6 +43,9 @@ export class EditionsService {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets/{dataSetId}/images/upload',
+            path: {
+                'dataSetId': dataSetId,
+            },
             formData: {
                 'key': key,
                 'type': type,

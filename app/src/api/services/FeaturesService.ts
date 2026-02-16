@@ -144,6 +144,7 @@ export class FeaturesService {
     public static deleteDatasetsFeatures({
         dataSetId,
         featureId,
+        force,
     }: {
         /**
          * Dataset ID
@@ -153,6 +154,10 @@ export class FeaturesService {
          * Feature ID
          */
         featureId: string,
+        /**
+         * Force deletion
+         */
+        force?: 'true' | 'false',
     }): CancelablePromise<void> {
         return __request(OpenAPI, {
             method: 'DELETE',
@@ -160,6 +165,9 @@ export class FeaturesService {
             path: {
                 'dataSetId': dataSetId,
                 'featureId': featureId,
+            },
+            query: {
+                'force': force,
             },
         });
     }

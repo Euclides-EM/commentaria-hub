@@ -437,7 +437,7 @@ export class AnnotationsService {
         /**
          * Categories for the index
          */
-        categories: string,
+        categories?: string,
     }): CancelablePromise<annotation_Index> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -559,7 +559,7 @@ export class AnnotationsService {
         /**
          * Features to include in TEI data (can be specified multiple times)
          */
-        feature?: string,
+        feature?: Array<string>,
     }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -602,7 +602,7 @@ export class AnnotationsService {
         /**
          * Features to include in TEI data (can be specified multiple times)
          */
-        feature?: string,
+        feature?: Array<string>,
     }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'GET',

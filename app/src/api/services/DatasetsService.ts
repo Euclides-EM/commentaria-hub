@@ -38,7 +38,7 @@ export class DatasetsService {
     }
     /**
      * Create Dataset
-     * Create a new dataset.
+     * Create a new dataset. Use async=true to return immediately with status "creating"; poll GET /datasets/{id} for status "ready" or "failed".
      * @returns model_Dataset OK
      * @throws ApiError
      */
@@ -46,6 +46,7 @@ export class DatasetsService {
         dataset,
         forceOverwrite,
         skipDeskew,
+        async,
     }: {
         /**
          * Dataset to create
@@ -59,6 +60,10 @@ export class DatasetsService {
          * Skip deskewing of images
          */
         skipDeskew?: string,
+        /**
+         * If true, return immediately and create in background (status creating → ready or failed)
+         */
+        async?: string,
     }): CancelablePromise<model_Dataset> {
         return __request(OpenAPI, {
             method: 'POST',
@@ -66,6 +71,7 @@ export class DatasetsService {
             query: {
                 'force_overwrite': forceOverwrite,
                 'skip_deskew': skipDeskew,
+                'async': async,
             },
             body: dataset,
         });

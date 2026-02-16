@@ -129,6 +129,7 @@ func (h *Handlers) GetPageImage(r *http.Request) ([]byte, error) {
 // @Tags         Editions
 // @Accept       multipart/form-data
 // @Produce      json
+// @Param        dataSetId  path      string  true  "Dataset ID"
 // @Param        key     formData  string  true  "Edition key"
 // @Param        type    formData  string  true  "Type of image (e.g., 'cover', 'facsimile')"
 // @Param        file    formData  file    true  "Image file to upload"

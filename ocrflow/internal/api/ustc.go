@@ -14,7 +14,8 @@ import (
 // @Summary			Lookup USTC metadata by ID
 // @Description  	Fetches metadata from the USTC catalog based on the provided USTC ID.
 // @Tags            Third Party Catalogs
-// @Param			ustc body model.USTC true "JSON with ustc_id"
+// @Param			ustc body model.USTC false "JSON with ustc_id"
+// @Param			ustc_id query int false "USTC ID (alternative to body)"
 // @Produce			json
 // @Success			200 {object} model.USTC
 // @Security 	    BearerAuth
