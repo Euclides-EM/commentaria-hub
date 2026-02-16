@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
@@ -18,6 +19,10 @@ func NewFacsimileService(facsimileStore *store.FacsimileSQL) *Facsimile {
 	}
 }
 
+func (e *Facsimile) ListFacsimiles(editionIDs []string) ([]*model.Facsimile, error) {
+	return e.facsimileStore.ListFacsimiles(editionIDs)
+}
+
 func (e *Facsimile) GetFacsimile(facsimileID string) (*model.Facsimile, error) {
 	fac, err := e.facsimileStore.GetFacsimileByID(facsimileID)
 	if err != nil {
@@ -31,6 +36,8 @@ func (e *Facsimile) GetFacsimile(facsimileID string) (*model.Facsimile, error) {
 
 func (e *Facsimile) CreateFacsimile(f *model.Facsimile) (*model.Facsimile, error) {
 	f.ID = idgen.GenerateID(store.FacsimileIDPrefix)
+	f.CreatedAt = time.Now()
+	f.UpdatedAt = f.CreatedAt
 	return e.facsimileStore.InsertFacsimile(f)
 }
 

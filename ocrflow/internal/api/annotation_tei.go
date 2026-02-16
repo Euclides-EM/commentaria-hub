@@ -15,7 +15,7 @@ import (
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id   path      string  true  "Annotation ID"
 // @Param        pageNumOrKey   path      string  true  "Page Number or Key"
-// @Param        feature   query     string  false "Features to include in TEI data (can be specified multiple times)"
+// @Param        feature   query     string  false "Features to include in TEI data (can be specified multiple times)"  collectionFormat(multi)
 // @Produce      application/xml
 // @Success      200  {string}   string "TEI XML content"
 // @Router       /datasets/{dataSetId}/annotations/{id}/tei/{pageNumOrKey} [get]
@@ -44,7 +44,7 @@ func (h *Handlers) GetAnnotationTEI(r *http.Request) ([]byte, error) {
 // @Param        id   path      string  true  "Annotation ID"
 // @Param        page   query     string  false "Page numbers to filter TEI data (can be specified multiple times)"
 // @Param        key   query     string  false "Page keys to filter TEI data (can be specified multiple times)"
-// @Param        feature   query     string  false "Features to include in TEI data (can be specified multiple times)"
+// @Param        feature   query     string  false "Features to include in TEI data (can be specified multiple times)"  collectionFormat(multi)
 // @Produce      application/xml
 // @Success      200  {string}   string "TEI XML content for all pages"
 // @Router       /datasets/{dataSetId}/annotations/{id}/tei [get]

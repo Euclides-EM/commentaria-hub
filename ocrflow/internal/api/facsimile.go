@@ -7,6 +7,19 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 )
 
+// ListFacsimiles godoc
+// @Summary      List Facsimiles (bulk get)
+// @Description  Get facsimiles, optionally filtered by edition ID.
+// @Tags         Facsimiles
+// @Param        edition_id  query     []string  false  "Filter by edition ID"  collectionFormat(multi)
+// @Produce      json
+// @Success      200  {array}  model.Facsimile
+// @Router       /facsimilies [get]
+func (h *Handlers) ListFacsimiles(r *http.Request) (any, error) {
+	editionIDs := r.URL.Query()["edition_id"]
+	return h.deps.FacsimileSvc.ListFacsimiles(editionIDs)
+}
+
 // CreateFacsimile godoc
 // @Summary      Create Facsimile
 // @Description  Create a new facsimile

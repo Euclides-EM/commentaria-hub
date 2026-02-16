@@ -82,7 +82,7 @@ func (h *Handlers) DeleteFeature(r *http.Request) (any, error) {
 // @Tags         Features
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        featureId     path      string  true  "Feature ID"
-// @Param expand query []string false "Include related entities" Enums(latest_revision,revisions) collectionFormat(multi)
+// @Param        expand query []string false "Include related entities" Enums(latest_revision,revisions) collectionFormat(multi)
 // @Produce      json
 // @Success      200  {object}  feature.Feature
 // @Router        /datasets/{dataSetId}/features/{featureId} [get]

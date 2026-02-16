@@ -88,7 +88,7 @@ func (e *Edition) DeleteEdition(key string) error {
 		return fmt.Errorf("edition with key %s does not exist", key)
 	}
 	// Delete associated facsimiles
-	facs, err := e.facsimileStore.ListFacsimilesByEditionID(key)
+	facs, err := e.facsimileStore.ListFacsimiles([]string{key})
 	if err != nil {
 		return fmt.Errorf("failed to list facsimiles for edition %s: %w", key, err)
 	}

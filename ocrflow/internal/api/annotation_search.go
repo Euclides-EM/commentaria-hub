@@ -14,7 +14,7 @@ import (
 // @Produce json
 // @Param dataSetId path string true "Dataset ID"
 // @Param id path string true "Annotation ID"
-// @Param category query []string false "Categories to search within (can be specified multiple times)"
+// @Param category query []string false "Categories to search within (can be specified multiple times)"  collectionFormat(multi)
 // @Param regex query string true "Regular expression pattern to search for"
 // @Success 200 {object} annotation.Search
 // @Router /datasets/{dataSetId}/annotations/{id}/search [get]

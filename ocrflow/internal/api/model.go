@@ -6,23 +6,24 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/samber/lo"
 )
 
 // ListModels godoc
 // @Summary      List Models
 // @Description  Get a list of available models.
 // @Tags         Models
-// @Param expand query []string false "Include related entities" Enums(used_in_annotations) collectionFormat(multi)
+// @Param        expand query []string false "Include related entities" Enums(used_in_annotations) collectionFormat(multi)
 // @Produce      json
 // @Success      200  {array}   model.Model
 // @Router       /models [get]
 func (h *Handlers) ListModels(r *http.Request) (any, error) {
-	expand := r.URL.Query().Get("expand")
+	expand := r.URL.Query()["expand"]
 	models, err := h.deps.ModelSvc.List()
 	if err != nil {
 		return nil, err
 	}
-	if expand == "used_in_annotations" {
+	if lo.Contains(expand, "used_in_annotations") {
 		usedInAnnotations, err := h.deps.AnnotationSvc.ListAnnotationIDsByUsedModels()
 		if err != nil {
 			return nil, err

@@ -2,9 +2,13 @@ package store
 
 import (
 	"database/sql"
+	"fmt"
+	"slices"
+	"strings"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/samber/lo"
 )
 
 const FacsimileIDPrefix = "fac"
@@ -13,22 +17,21 @@ type FacsimileSQL struct {
 	BaseSQL
 }
 
-func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*model.Facsimile, error) {
-	rows, err := s.db.Query(`
-		SELECT id, edition_id, url, main_text_pages, created_at, updated_at, name, description
-		FROM facsimiles
-		WHERE edition_id = ?
-	`, editionID)
+func (s *FacsimileSQL) ListFacsimiles(editionIDs []string) ([]*model.Facsimile, error) {
+	q := `SELECT id, edition_id, url, main_text_pages, created_at, updated_at, name, description FROM facsimiles`
+	if len(editionIDs) > 0 {
+		q += ` WHERE edition_id IN (%s)`
+		q = fmt.Sprintf(q, strings.Join(slices.Repeat([]string{"?"}, len(editionIDs)), ", "))
+	}
+	rows, err := s.db.Query(q, lo.ToAnySlice(editionIDs)...)
 	if err != nil {
 		return nil, err
 	}
 	defer rows.Close()
-
 	var facsimiles []*model.Facsimile
-
 	for rows.Next() {
 		f := &model.Facsimile{}
-		if err := rows.Scan(
+		if err = rows.Scan(
 			&f.ID,
 			&f.EditionID,
 			&f.ScanURL,
@@ -42,11 +45,9 @@ func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*model.Fac
 		}
 		facsimiles = append(facsimiles, f)
 	}
-
-	if err := rows.Err(); err != nil {
+	if err = rows.Err(); err != nil {
 		return nil, err
 	}
-
 	return facsimiles, nil
 }
 
