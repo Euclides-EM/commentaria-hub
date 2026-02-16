@@ -2,6 +2,7 @@ package store
 
 import (
 	"database/sql"
+	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 )
@@ -85,6 +86,19 @@ func (s *FacsimileSQL) InsertFacsimile(f *model.Facsimile) (*model.Facsimile, er
 		return nil, err
 	}
 	return f, nil
+}
+
+func (s *FacsimileSQL) UpdateFacsimile(f *model.Facsimile) (*model.Facsimile, error) {
+	f.UpdatedAt = time.Now()
+	_, err := s.db.Exec(`
+		UPDATE facsimiles
+		SET edition_id = ?, url = ?, main_text_pages = ?, updated_at = ?, name = ?, description = ?
+		WHERE id = ?
+	`, f.EditionID, f.ScanURL, f.MainTextPages, f.UpdatedAt, f.Name, f.Description, f.ID)
+	if err != nil {
+		return nil, err
+	}
+	return s.GetFacsimileByID(f.ID)
 }
 
 func (s *FacsimileSQL) DeleteFacsimile(id string) error {
