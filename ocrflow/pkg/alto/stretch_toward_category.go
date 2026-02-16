@@ -334,7 +334,7 @@ func updateTextBlockPolygon(tb *TextBlock) {
 	right := x + w
 	bottom := y + h
 
-	tb.Shape.Polygon.Points = fmt.Sprintf("%d %d %d %d %d %d %d %d %d %d",
+	tb.Shape.Polygon.Points = fmt.Sprintf("%.0f %.0f %.0f %.0f %.0f %.0f %.0f %.0f %.0f %.0f",
 		x, y,
 		right, y,
 		right, bottom,

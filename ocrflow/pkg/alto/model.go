@@ -53,12 +53,14 @@ type TextBlock struct {
 }
 
 type TextLine struct {
-	ID     string  `xml:"ID,attr"`
-	HPOS   float64 `xml:"HPOS,attr"`
-	VPOS   float64 `xml:"VPOS,attr"`
-	Width  float64 `xml:"WIDTH,attr"`
-	Height float64 `xml:"HEIGHT,attr"`
+	ID       string  `xml:"ID,attr"`
+	HPOS     float64 `xml:"HPOS,attr"`
+	VPOS     float64 `xml:"VPOS,attr"`
+	Width    float64 `xml:"WIDTH,attr"`
+	Height   float64 `xml:"HEIGHT,attr"`
+	Baseline string  `xml:"BASELINE,attr,omitempty"`
 	// child elements
+	Shape   Shape        `xml:"Shape"`
 	Strings []AltoString `xml:"http://www.loc.gov/standards/alto/ns-v4# String"`
 }
 
