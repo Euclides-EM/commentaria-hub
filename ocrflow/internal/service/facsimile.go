@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"net/url"
 	"path"
 	"path/filepath"
 	"slices"
@@ -87,9 +88,11 @@ func (e *Facsimile) UpdateFromGithubRepo() error {
 	})
 	log.Printf("adding %d new facsimiles from github repo to db", len(facsimilesToAdd))
 	for _, key := range facsimilesToAdd {
+		u, _ := url.Parse(e.facsimileRepoURL)
+		u.Path = path.Join(u.Path, fmt.Sprintf("%s.pdf", key))
 		newFacsimile := &model.Facsimile{
 			EditionID: key,
-			ScanURL:   path.Join(e.facsimileRepoURL, fmt.Sprintf("%s.pdf", key)),
+			ScanURL:   u.String(),
 		}
 		if _, err := e.CreateFacsimile(newFacsimile); err != nil {
 			log.Printf("failed to create facsimile for %s: %v", key, err)
