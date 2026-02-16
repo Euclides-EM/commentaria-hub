@@ -53,10 +53,10 @@ export function PageNavigation() {
   const splitRef = useRef<HTMLDivElement | null>(null)
 
   const onPageNumChange = (page: number) => setState({ currentPage: page })
-  const availablePages = useMemo(
-    () => (annotation ? parseAvailablePages(annotation) : []),
-    [annotation],
-  )
+  const availablePages = useMemo(() => {
+    const pages = annotation ? parseAvailablePages(annotation) : []
+    return [...pages].sort((a, b) => a - b)
+  }, [annotation])
 
   const currentIndex = availablePages.indexOf(state.currentPage)
   const isFirstPage = currentIndex === 0
