@@ -8,6 +8,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -16,12 +17,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
 	"github.com/joho/godotenv"
 )
 
 const (
-	githubAPIBase = "https://api.github.com/repos/Euclides-EM/elements-facsimile/contents"
-	diagramsPath  = "docs/diagrams"
+	diagramsPath = "docs/diagrams"
 )
 
 type githubContent struct {
@@ -46,10 +47,11 @@ type multiVolumeData struct {
 }
 
 type generator struct {
-	client    *http.Client
-	headers   map[string]string
-	outputDir string
-	dryRun    bool
+	client        *http.Client
+	headers       map[string]string
+	outputDir     string
+	githubAPIBase string
+	dryRun        bool
 }
 
 func main() {
@@ -62,16 +64,27 @@ func main() {
 		log.Fatalf("failed to locate repo root: %v", err)
 	}
 
-	githubPAT, err := loadGitHubPAT(repoRoot)
+	envConfig, err := loadEnvConfig(repoRoot)
+	if err != nil {
+		log.Fatalf("failed to load env config: %v", err)
+	}
+
+	githubPAT, err := loadGitHubPAT()
 	if err != nil {
 		log.Fatalf("failed to load github pat: %v", err)
 	}
 
+	githubAPIBase, err := resolveGithubAPIBase(envConfig.FacsimilesGithubRepoUrl)
+	if err != nil {
+		log.Fatalf("failed to resolve github api base: %v", err)
+	}
+
 	g := &generator{
-		client:    &http.Client{Timeout: 20 * time.Second},
-		headers:   buildHeaders(githubPAT),
-		outputDir: filepath.Join(repoRoot, "store", "items_metadata"),
-		dryRun:    dryRun,
+		client:        &http.Client{Timeout: 20 * time.Second},
+		headers:       buildHeaders(githubPAT),
+		outputDir:     filepath.Join(repoRoot, "store", "items_metadata"),
+		githubAPIBase: githubAPIBase,
+		dryRun:        dryRun,
 	}
 
 	directories, err := g.generateDiagramDirectories()
@@ -92,38 +105,86 @@ func buildHeaders(githubPAT string) map[string]string {
 	return headers
 }
 
-func loadGitHubPAT(repoRoot string) (string, error) {
+func loadEnvConfig(repoRoot string) (*config.EnvConfig, error) {
+	envFiles, err := resolveEnvFiles(repoRoot)
+	if err != nil {
+		return nil, err
+	}
+
+	for _, envFile := range envFiles {
+		if err := godotenv.Overload(envFile); err != nil {
+			return nil, fmt.Errorf("failed to load %s: %w", envFile, err)
+		}
+	}
+
+	envConfig, err := config.InitEnv()
+	if err != nil {
+		return nil, err
+	}
+	return envConfig, nil
+}
+
+func loadGitHubPAT() (string, error) {
+	if pat := strings.TrimSpace(os.Getenv("GITHUB_PAT")); pat != "" {
+		return pat, nil
+	}
+	if token := strings.TrimSpace(os.Getenv("GITHUB_TOKEN")); token != "" {
+		return token, nil
+	}
+	return "", errors.New("GITHUB_PAT or GITHUB_TOKEN is required")
+}
+
+func resolveEnvFiles(repoRoot string) ([]string, error) {
 	parentRoot := filepath.Dir(repoRoot)
-	envFiles := uniquePaths([]string{
+	candidates := uniquePaths([]string{
 		filepath.Join(repoRoot, ".env"),
 		filepath.Join(repoRoot, ".env_private"),
 		filepath.Join(parentRoot, ".env"),
 		filepath.Join(parentRoot, ".env_private"),
 	})
 
-	var githubToken string
-	for _, envFile := range envFiles {
-		envMap, err := godotenv.Read(envFile)
+	envFiles := make([]string, 0, len(candidates))
+	for _, envFile := range candidates {
+		_, err := os.Stat(envFile)
 		if err != nil {
 			if errors.Is(err, os.ErrNotExist) {
 				continue
 			}
-			return "", fmt.Errorf("failed to read %s: %w", envFile, err)
+			return nil, fmt.Errorf("failed to stat %s: %w", envFile, err)
 		}
-		if pat := strings.TrimSpace(envMap["GITHUB_PAT"]); pat != "" {
-			githubToken = pat
-			continue
-		}
-		if token := strings.TrimSpace(envMap["GITHUB_TOKEN"]); token != "" {
-			githubToken = token
-		}
+		envFiles = append(envFiles, envFile)
 	}
 
-	if githubToken == "" {
-		return "", fmt.Errorf("GITHUB_PAT or GITHUB_TOKEN is required in one of: %s", strings.Join(envFiles, ", "))
+	return envFiles, nil
+}
+
+func resolveGithubAPIBase(facsimilesRepoURL string) (string, error) {
+	repoURL := strings.TrimSuffix(strings.TrimSpace(facsimilesRepoURL), "/")
+	parsed, err := url.Parse(repoURL)
+	if err != nil {
+		return "", fmt.Errorf("parse facsimiles repo url: %w", err)
 	}
 
-	return githubToken, nil
+	if strings.EqualFold(parsed.Host, "api.github.com") {
+		return repoURL, nil
+	}
+
+	parts := strings.Split(strings.Trim(parsed.Path, "/"), "/")
+	if strings.EqualFold(parsed.Host, "github.com") {
+		if len(parts) < 4 || parts[2] != "blob" {
+			return "", fmt.Errorf("unsupported github URL format: %s", facsimilesRepoURL)
+		}
+		return fmt.Sprintf("https://api.github.com/repos/%s/%s/contents", parts[0], parts[1]), nil
+	}
+
+	if strings.EqualFold(parsed.Host, "raw.githubusercontent.com") {
+		if len(parts) < 3 {
+			return "", fmt.Errorf("unsupported raw github URL format: %s", facsimilesRepoURL)
+		}
+		return fmt.Sprintf("https://api.github.com/repos/%s/%s/contents", parts[0], parts[1]), nil
+	}
+
+	return "", fmt.Errorf("unsupported host for facsimiles repo url: %s", facsimilesRepoURL)
 }
 
 func uniquePaths(paths []string) []string {
@@ -225,8 +286,8 @@ func (g *generator) fetchWithRetry(url string, retries int) ([]byte, error) {
 }
 
 func (g *generator) fetchGithubContents(path string) ([]githubContent, error) {
-	url := fmt.Sprintf("%s/%s", githubAPIBase, path)
-	body, err := g.fetchWithRetry(url, 3)
+	contentURL := fmt.Sprintf("%s/%s", g.githubAPIBase, path)
+	body, err := g.fetchWithRetry(contentURL, 3)
 	if err != nil {
 		return nil, err
 	}
