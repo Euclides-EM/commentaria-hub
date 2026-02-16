@@ -82,7 +82,7 @@ func (s *FacsimileSQL) InsertFacsimile(f *model.Facsimile) (*model.Facsimile, er
 	_, err := s.db.Exec(`
 		INSERT INTO facsimiles (id, edition_id, url, main_text_pages, created_at, updated_at, name, description, url)
 		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`, f.ID, f.ID, f.ScanURL, f.MainTextPages, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, f.ScanURL)
+	`, f.ID, f.EditionID, f.ScanURL, f.MainTextPages, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, f.ScanURL)
 	if err != nil {
 		return nil, err
 	}

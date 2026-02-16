@@ -80,7 +80,7 @@ func (e *Facsimile) UpdateFromGithubRepo() error {
 		return fmt.Errorf("failed to list existing facsimiles: %w", err)
 	}
 	existingFacsimilesKeys := lo.Map(existingFacsimiles, func(f *model.Facsimile, _ int) string {
-		return f.Name
+		return f.EditionID
 	})
 	facsimilesToAdd := lo.Filter(keys, func(key string, _ int) bool {
 		return !slices.Contains(existingFacsimilesKeys, key)
