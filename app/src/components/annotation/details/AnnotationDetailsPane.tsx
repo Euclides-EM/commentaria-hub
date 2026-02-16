@@ -11,7 +11,10 @@ import { RuleDisplay } from '../../rules/RuleDisplay.tsx'
 import { type AnnotationRule } from '../../../utils/rules.ts'
 import { countPages } from '../../../utils/pages.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
-import { useAnnotationsQuery } from '../../../queries/annotations.ts'
+import {
+  useAnnotationCategories,
+  useAnnotationsQuery,
+} from '../../../queries/annotations.ts'
 import { useDatasetsQuery } from '../../../queries/datasets.ts'
 import { DeleteAnnotationModal } from '../../modal/DeleteAnnotationModal.tsx'
 import { Button } from '../../core/Button.tsx'
@@ -55,6 +58,8 @@ const AnnotationDetailsContent = ({
   const { setState } = useAppState()
   const { data: annotations } = useAnnotationsQuery(annotation.dataset_id!)
   const { data: datasets } = useDatasetsQuery()
+  const { data: categories, isLoading: categoriesLoading } =
+    useAnnotationCategories(annotation.dataset_id!, annotation.id!)
   const appliedRules = (annotation.applied_rules || []) as AnnotationRule[]
 
   const originAnnotationOptions = useMemo(() => {
@@ -150,6 +155,27 @@ const AnnotationDetailsContent = ({
         <div className="font-semibold text-xs opacity-80 pt-0.5">OCRed</div>
         <div className="text-sm leading-tight break-all">
           {String(!!annotation.ocred)}
+        </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">
+          Categories
+        </div>
+        <div className="text-sm leading-tight break-all">
+          {categoriesLoading ? (
+            <span className="text-gray-500">Loading…</span>
+          ) : categories && categories.length > 0 ? (
+            <div className="flex flex-wrap gap-1">
+              {categories.map((cat) => (
+                <span
+                  key={cat}
+                  className="inline-flex items-center rounded bg-gray-200 px-1.5 py-0.5 text-xs font-medium text-gray-800"
+                >
+                  {cat}
+                </span>
+              ))}
+            </div>
+          ) : (
+            <span className="text-gray-500">None</span>
+          )}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Origin annotation
