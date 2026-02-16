@@ -159,20 +159,34 @@ const AnnotationDetailsContent = ({
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Categories
         </div>
-        <div className="text-sm leading-tight break-all">
+        <div className="text-sm leading-tight break-all flex flex-wrap items-center gap-2">
           {categoriesLoading ? (
             <span className="text-gray-500">Loading…</span>
           ) : categories && categories.length > 0 ? (
-            <div className="flex flex-wrap gap-1">
-              {categories.map((cat) => (
-                <span
-                  key={cat}
-                  className="inline-flex items-center rounded bg-gray-200 px-1.5 py-0.5 text-xs font-medium text-gray-800"
-                >
-                  {cat}
-                </span>
-              ))}
-            </div>
+            <>
+              <div className="flex flex-wrap gap-1">
+                {[...categories].sort((a, b) => a.localeCompare(b)).map((cat) => (
+                  <span
+                    key={cat}
+                    className="inline-flex items-center rounded bg-gray-200 px-1.5 py-0.5 text-xs font-medium text-gray-800"
+                  >
+                    {cat}
+                  </span>
+                ))}
+              </div>
+              <Button
+                type="button"
+                onClick={() => {
+                  const sorted = [...categories].sort((a, b) =>
+                    a.localeCompare(b),
+                  )
+                  void navigator.clipboard.writeText(sorted.join(', '))
+                }}
+                className="px-2 py-1 text-xs"
+              >
+                Copy
+              </Button>
+            </>
           ) : (
             <span className="text-gray-500">None</span>
           )}
