@@ -27,7 +27,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("init env: %w", err)
 	}
 
-	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir)
+	fileSystemManager := filesys.NewFileSystemManager(env.DiagramsDir, env.TrainingDir, env.ModelsDir)
 	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir)
 
 	sqlDB, err := db.InitDB(env.DBPath, env.MigrationsDir)
@@ -42,6 +42,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureExecutionStore := store.NewFeatureExecutionSQL(sqlDB)
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
 	tpsTranscriptionsStore := store.NewTPSTranscriptions()
+	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl)
 
 	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
@@ -53,6 +54,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, datasetStore, fileSystemManager, ghDownloader)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
+	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
@@ -109,6 +111,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeatureRevisionSvc:  service.NewRevision(featureRevisionStore),
 		FeatureResultSvc:    featureResultSvc,
 		FeatureExecutionSvc: service.NewExecution(featureExecutionStore),
+		DiagramCropsSvc:     diagramCropsSvc,
 		USTC:                service.NewUSTC(),
 		VCSMgt:              service.NewVCSMgt(env.ItemsMetadataStoreDir, fileSystemManager.DatasetImagesDirByID("tps")),
 	}

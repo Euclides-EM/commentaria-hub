@@ -19,6 +19,7 @@ type EnvConfig struct {
 	PythonExecutable        string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
 	RoboflowAPIKey          string        `env:"ROBOFLOW_API_KEY"`
 	TrainingDir             string        `env:"TRAINING_DIR" envDefault:"./store/training"`
+	DiagramsDir             string        `env:"DIAGRAMS_DIR" envDefault:"./store/diagrams"`
 	EscriptoriumBasePath    string        `env:"ESCRIPTORIUM_BASE_PATH" envDefault:"http://localhost:8080/"`
 	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
 	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`

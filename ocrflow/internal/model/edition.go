@@ -1,16 +1,17 @@
 package model
 
 type Edition struct {
-	Key              string                 `json:"key"`
-	ShortTitle       string                 `json:"shortTitle"`
-	ShortTitleSource string                 `json:"shortTitleSource"`
-	Notes            string                 `json:"notes"`
-	Corpus           []string               `json:"corpus"`
-	Shelfmarks       []EditionShelfmark     `json:"shelfmarks"`
-	Verified         bool                   `json:"verified"`
-	Bibliography     []string               `json:"bibliography"`
-	ReprintOf        *string                `json:"reprintOf"`
-	VisualElements   []EditionVisualElement `json:"visualElements"`
+	Key                   string                 `json:"key"`
+	ShortTitle            string                 `json:"shortTitle"`
+	ShortTitleSource      string                 `json:"shortTitleSource"`
+	Notes                 string                 `json:"notes"`
+	Corpus                []string               `json:"corpus"`
+	Shelfmarks            []EditionShelfmark     `json:"shelfmarks"`
+	Verified              bool                   `json:"verified"`
+	Bibliography          []string               `json:"bibliography"`
+	ReprintOf             *string                `json:"reprintOf"`
+	VisualElements        []EditionVisualElement `json:"visualElements"`
+	DiagramCropsAvailable bool                   `json:"diagramCropsAvailable"`
 
 	// Manuscript-only
 	IsManuscript       bool    `json:"isManuscript"`

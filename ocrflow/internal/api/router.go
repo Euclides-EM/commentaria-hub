@@ -28,6 +28,7 @@ type Dependencies struct {
 	FeatureRevisionSvc  *service.Revision
 	FeatureExecutionSvc *service.Execution
 	FeatureResultSvc    *service.Result
+	DiagramCropsSvc     *service.DiagramCrops
 	USTC                *service.USTC
 	VCSMgt              *service.VCSMgt
 }
@@ -47,8 +48,9 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
 	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())
-	api.HandleFunc("/editions/{key}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
+	api.HandleFunc("/editions/{editionId}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
 	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
+	api.HandleFunc("/editions/{editionId}/diagrams", httpwrapper.Get(h.GetEditionDiagramCrops).Build())
 
 	api.HandleFunc("/facsimilies", httpwrapper.Get(h.ListFacsimiles).Create(h.CreateFacsimile).Build())
 	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Build())

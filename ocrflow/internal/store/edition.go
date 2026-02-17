@@ -1,6 +1,7 @@
 package store
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"math/rand"
@@ -38,6 +39,7 @@ const (
 	relVisualElements   = "visual_elements.csv"
 	relVisualElementsEx = "visual_elements_examples.csv"
 	relLocators         = "locators.csv"
+	relDiagramDirs      = "diagram-directories.json"
 )
 
 var (
@@ -646,6 +648,11 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		ed.VisualElements = append(ed.VisualElements, ve)
 	}
 
+	diagramKeys, _ := s.loadDiagramDirectoryKeys()
+	if diagramKeys != nil {
+		_, ed.DiagramCropsAvailable = diagramKeys[key]
+	}
+
 	return ed, nil
 }
 
@@ -686,6 +693,7 @@ type preloadedEditionRows struct {
 	locators       []map[string]string
 	veRows         []map[string]string
 	exRows         []map[string]string
+	diagramDirKeys map[string]struct{}
 }
 
 // loadAllCSVsOnce reads each edition CSV once. Missing files yield nil slices.
@@ -708,7 +716,31 @@ func (s *EditionCSV) loadAllCSVsOnce() (*preloadedEditionRows, error) {
 	p.locators, _ = s.loadCSVRecordsOptional(relLocators)
 	p.veRows, _ = s.loadCSVRecordsOptional(relVisualElements)
 	p.exRows, _ = s.loadCSVRecordsOptional(relVisualElementsEx)
+	p.diagramDirKeys, _ = s.loadDiagramDirectoryKeys()
 	return p, nil
+}
+
+// loadDiagramDirectoryKeys reads diagram-directories.json and returns a set of edition keys.
+func (s *EditionCSV) loadDiagramDirectoryKeys() (map[string]struct{}, error) {
+	path := s.csvPath(relDiagramDirs)
+	data, err := os.ReadFile(path)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil, nil
+		}
+		return nil, err
+	}
+	var keys []string
+	if err := json.Unmarshal(data, &keys); err != nil {
+		return nil, err
+	}
+	out := make(map[string]struct{}, len(keys))
+	for _, k := range keys {
+		if k != "" {
+			out[k] = struct{}{}
+		}
+	}
+	return out, nil
 }
 
 // LoadAllEditions reads each CSV once and builds all editions in memory. Use for cache warming.
@@ -871,6 +903,9 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 			ve.Examples = append(ve.Examples, exItem)
 		}
 		ed.VisualElements = append(ed.VisualElements, ve)
+	}
+	if p.diagramDirKeys != nil {
+		_, ed.DiagramCropsAvailable = p.diagramDirKeys[key]
 	}
 	return ed
 }
