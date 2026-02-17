@@ -14,9 +14,6 @@ type Revision struct {
 	Regex             string            `json:"regex"`
 	ExecutionStrategy ExecutionStrategy `json:"execution_strategy"`
 	Note              string            `json:"note,omitempty"`
-	Type              Type              `json:"type"`
-	// Features is relevant only if the parent feature is root, in which case it lists the features that are part of this revision.
-	Features []common.Reference `json:"features,omitempty" readonly:"true"`
 }
 
 type Type string
