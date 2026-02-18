@@ -13,6 +13,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
@@ -20,20 +21,23 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
+	"github.com/samber/lo"
 )
 
 type Dataset struct {
 	editionSvc       *Edition
 	facsimileSvc     *Facsimile
+	modelSvc         *Model
 	datasetStore     *store.DatasetSQL
 	fileSysMgt       *filesys.Manager
 	githubDownloader *ghwrapper.Wrapper
 }
 
-func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper) *Dataset {
+func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper) *Dataset {
 	return &Dataset{
 		editionSvc:       editionSvc,
 		facsimileSvc:     facsimileSvc,
+		modelSvc:         modelSvc,
 		datasetStore:     datasetStore,
 		fileSysMgt:       fileSystemMgt,
 		githubDownloader: githubDownloader,
@@ -193,7 +197,26 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		return nil, fmt.Errorf("facsimile with id %s not found in edition %s", ds.FacsimileID, ds.EditionID)
 	}
 
-	segmentationModelID := "1615FineTunedCapricciosaM_0312"
+	allModels, err := d.modelSvc.List()
+	if err != nil {
+		return nil, fmt.Errorf("failed to list models: %w", err)
+	}
+	suggestedSegModel := lo.MaxBy(allModels, func(m1, m2 *model.Model) bool {
+		if m2.Type != common.OCRModelTypeSegment {
+			return true
+		}
+		if m1.Type != common.OCRModelTypeSegment {
+			return false
+		}
+		if len(m1.BaseAnnotations) > len(m2.BaseAnnotations) {
+			return true
+		}
+		if len(m1.BaseAnnotations) < len(m2.BaseAnnotations) {
+			return false
+		}
+		return m1.CreatedAt.After(m2.CreatedAt)
+	})
+
 	//categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
 	categoriesForOverlapRemove := []string{
 		"CatchWord",
@@ -223,19 +246,11 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		"QuireMarksZone",
 		"RunningTitleZone",
 	}
-	switch ds.EditionID {
-	case "Paris_1598a":
-		segmentationModelID = "1598FineTuned16150312_0101"
-	case "Paris_1667":
-		segmentationModelID = "1667_ft_rvkwc5"
-	default:
-		segmentationModelID = "1667_ft_rvkwc5"
-	}
 
 	return [][]annotationrule.AnnotationRule{
 		{
 			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
-			annotationrule.NewSegment(segmentationModelID),
+			annotationrule.NewSegment(suggestedSegModel.ID),
 			//annotationrule.NewRemoveCategories(categoriesToRemove),
 			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
 			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone"}, categoriesToExcludeFromLineDetection),

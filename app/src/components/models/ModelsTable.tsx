@@ -348,6 +348,7 @@ export function ModelsTable() {
     type: string
     algorithm_family?: string
     base_model_id?: string
+    base_annotations?: model_Model['base_annotations']
   }) => {
     if (!modelToEdit?.id) {
       return
@@ -361,6 +362,8 @@ export function ModelsTable() {
           type: updates.type as common_OCRModelType,
           algorithm_family: updates.algorithm_family as 'yolo' | undefined,
           base_model_id: updates.base_model_id,
+          base_annotations: updates.base_annotations ?? modelToEdit.base_annotations,
+          categories: modelToEdit.categories,
         },
       },
       {
