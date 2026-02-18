@@ -32,8 +32,8 @@ Freiburg,47.9990,7.8421,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Ho
 Geneva,46.2044,6.1432,Independent,Independent,Independent,Independent,Independent,Switzerland
 Genoa,44.4,8.9167,Republic of Genoa,Republic of Genoa,Republic of Genoa,Republic of Genoa,Republic of Genoa,Italy
 Glasgow,55.8642,-4.2518,Scotland,Scotland,Scotland,Scotland,Scotland,United Kingdom
-Göttingen,51.5333,9.9333,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Graz,47.0707,15.4395,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Austria
+Göttingen,51.5333,9.9333,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Haarlem,52.3874,4.6462,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
 Halle,51.4833,11.9667,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Hamburg,53.55,9.9999,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
@@ -54,9 +54,9 @@ Lisbon,38.7167,-9.1333,Kingdom of Portugal,Kingdom of Portugal,Kingdom of Portug
 Livorno,43.5485,10.3106,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Italy
 London,51.5,0.125,England,England,England,England,England,United Kingdom
 Louvain,50.8798,4.7005,Habsburg Netherlands,Habsburg Netherlands,Habsburg Netherlands,Spanish Netherlands,Spanish Netherlands,Belgium
-Lübeck,53.8659,10.6871,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Lund,55.7047,13.1910,Denmark,Denmark,Denmark,Denmark,Denmark,Sweden
 Lyon,45.75,4.8333,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
+Lübeck,53.8659,10.6871,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Madrid,40.4167,-3.7,Castile,Castile,Spain,Spain,Spain,Spain
 Mainz,49.8929,8.1473,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Messina,38.1833,15.55,Kingdom of Naples,Kingdom of Naples,Kingdom of Naples,Kingdom of Naples,Kingdom of Naples,Italy
@@ -72,6 +72,7 @@ Pesaro,43.7167,12.9167,Papal States,Papal States,Papal States,Papal States,Papal
 Pisa,43.7167,10.4,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Italy
 Poitiers,46.5802,0.3404,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Pont-à-Mousson,48.8833,6.1167,Duchy of Lorraine,Duchy of Lorraine,Duchy of Lorraine,Duchy of Lorraine,Duchy of Lorraine,France
+Rees,51.75,6.15,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Reims,49.2583,4.0317,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Rome,41.8944,12.4833,Papal States,Papal States,Papal States,Papal States,Papal States,Italy
 Rotterdam,51.7225,4.47917,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
@@ -82,6 +83,7 @@ Siena,43.3333,11.3333,Republic of Siena,Republic of Siena,Duchy of Florence,Duch
 Strasbourg,48.5833,7.75,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,France
 The Hague,52.0833,4.0,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
 Toulouse,43.6045,1.4440,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
+Tournon,45.0833,4.8,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Tours,47.3941,0.6848,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Turin,45.0703,7.6869,Duchy of Savoy,Duchy of Savoy,Duchy of Savoy,Duchy of Savoy,Duchy of Savoy,Italy
 Uppsala,59.8586,17.6389,Sweden,Sweden,Sweden,Sweden,Sweden,Sweden
@@ -91,6 +93,7 @@ Valencia,39.4667,-0.375,Kingdom of Valencia,Kingdom of Valencia,Kingdom of Valen
 Venice,45.4219,12.3266,Republic of Venice,Republic of Venice,Republic of Venice,Republic of Venice,Republic of Venice,Italy
 Vicenza,45.5455,11.5470,Republic of Venice,Republic of Venice,Republic of Venice,Republic of Venice,Republic of Venice,Italy
 Vienna,48.2083,16.375,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Austria
+Vlissingen,51.45,3.57,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
 Wittenberg,51.5,12.6667,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
-Würzburg,49.7833,9.8667,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany,
+Würzburg,49.7833,9.8667,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Zurich,47.3769,8.5417,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Switzerland
