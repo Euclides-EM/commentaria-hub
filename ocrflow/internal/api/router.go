@@ -30,6 +30,7 @@ type Dependencies struct {
 	FeatureResultSvc    *service.Result
 	DiagramCropsSvc     *service.DiagramCrops
 	USTC                *service.USTC
+	GeoSvc              *service.Geo
 	VCSMgt              *service.VCSMgt
 }
 

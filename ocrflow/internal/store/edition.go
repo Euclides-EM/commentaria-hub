@@ -26,7 +26,6 @@ type EditionCSV struct {
 const (
 	relItemsManuscript  = "items_manuscript.csv"
 	relItemsPrint       = "items_print.csv"
-	relCities           = "cities.csv"
 	relMDManuscript     = "metadata_elements_manuscripts.csv"
 	relMDPrint          = "metadata_elements_print.csv"
 	relTranscriptions   = "paratext_transcriptions.csv"
@@ -68,36 +67,6 @@ func (s *EditionCSV) WarmCache() error {
 
 func (s *EditionCSV) csvPath(rel string) string {
 	return filepath.Join(s.itemsMetadataDir, rel)
-}
-
-func (s *EditionCSV) ListCities() ([]model.City, error) {
-	rows, err := s.loadCSVRecordsOptional(relCities)
-	if err != nil {
-		return nil, err
-	}
-
-	cities := make([]model.City, 0, len(rows))
-	for _, row := range rows {
-		name := strings.TrimSpace(row["city"])
-		if name == "" {
-			continue
-		}
-		lat, err := strconv.ParseFloat(strings.TrimSpace(row["lat"]), 64)
-		if err != nil {
-			return nil, fmt.Errorf("invalid latitude for city %q: %w", name, err)
-		}
-		lon, err := strconv.ParseFloat(strings.TrimSpace(row["lon"]), 64)
-		if err != nil {
-			return nil, fmt.Errorf("invalid longitude for city %q: %w", name, err)
-		}
-		cities = append(cities, model.City{
-			Name:      name,
-			Longitude: lon,
-			Latitude:  lat,
-		})
-	}
-
-	return cities, nil
 }
 
 // UpdateNotes updates the notes field for the given key in items_print.csv.
