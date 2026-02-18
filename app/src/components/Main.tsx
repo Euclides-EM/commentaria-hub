@@ -4,6 +4,7 @@ import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsT
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
 import { ModelsTable } from './models/ModelsTable.tsx'
+import { GroundTruthsTable } from './groundTruths/GroundTruthsTable.tsx'
 import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
@@ -48,6 +49,9 @@ export function Main() {
 
   if (state.viewingModels) {
     return <ModelsTable />
+  }
+  if (state.viewingGroundTruths) {
+    return <GroundTruthsTable />
   }
 
   if (!state.datasetId) {

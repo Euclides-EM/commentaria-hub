@@ -445,7 +445,7 @@ export function ModelsTable() {
             value={searchQuery}
             onChange={setSearchQuery}
             placeholder="Search models..."
-            className="w-[22rem] max-w-full"
+            className="w-88 max-w-full"
           />
         </div>
         {isAuthenticated && (
@@ -550,14 +550,14 @@ export function ModelsTable() {
                             </span>
                           </td>
                           <UsedAnnotationsCell model={model} />
-                          <td className="px-4 py-3 text-gray-700">
+                          <td className="px-4 py-3 text-gray-700 text-xs whitespace-nowrap">
                             <Timestamp
                               hideFullDate
                               date={model.updated_at || model.created_at}
                             />
                           </td>
                           {isAuthenticated && (
-                            <td className="px-4 py-3">
+                            <td className="px-4 py-3 whitespace-nowrap">
                               <div className="flex items-center justify-end gap-2">
                                 <Button
                                   className="px-2 py-1 text-xs"

@@ -3,6 +3,7 @@ import type { annotation_Annotation, model_Dataset } from '../api'
 
 export interface AppState {
   viewingModels: boolean
+  viewingGroundTruths: boolean
   datasetId: string
   annotationId: string
   currentPage: number
