@@ -39,12 +39,14 @@ export function CreateDatasetModal({
   })
 
   const facsimileOptions = useMemo(() => {
-    if (!facsimiles) return []
+    if (!facsimiles) {
+      return []
+    }
     return facsimiles
       .filter((f) => f.id != null)
       .map((f) => ({
-        value: f.id as string,
-        label: `${f.edition_id ?? ''} (${f.id ?? ''})`,
+        value: `${f.id}/${f.edition_id}`,
+        label: `${f.edition_id ?? ''}${f.id && ` (${f.id})`}`,
       }))
   }, [facsimiles])
 
