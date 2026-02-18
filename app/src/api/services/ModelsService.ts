@@ -120,7 +120,7 @@ export class ModelsService {
         /**
          * If true, also delete the model file from filesystem
          */
-        deep?: string,
+        deep?: boolean,
     }): CancelablePromise<Record<string, string>> {
         return __request(OpenAPI, {
             method: 'DELETE',

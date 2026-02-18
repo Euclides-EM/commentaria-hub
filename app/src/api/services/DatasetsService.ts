@@ -44,7 +44,7 @@ export class DatasetsService {
      */
     public static postDatasets({
         dataset,
-        forceOverwrite,
+        enforceSingleDataset,
         async,
     }: {
         /**
@@ -52,19 +52,19 @@ export class DatasetsService {
          */
         dataset: model_Dataset,
         /**
-         * Force overwrite if dataset already exists
+         * If true, dataset will only be created if no other dataset exists
          */
-        forceOverwrite?: string,
+        enforceSingleDataset?: boolean,
         /**
          * If true, return immediately and create in background (status creating → ready or failed)
          */
-        async?: string,
+        async?: boolean,
     }): CancelablePromise<model_Dataset> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets',
             query: {
-                'force_overwrite': forceOverwrite,
+                'enforce_single_dataset': enforceSingleDataset,
                 'async': async,
             },
             body: dataset,

@@ -57,7 +57,7 @@ func (h *Handlers) CreateFeatures(r *http.Request) (any, error) {
 // @Tags         Features
 // @Param        dataSetId    path      string  true  "Dataset ID"
 // @Param        featureId     path      string  true  "Feature ID"
-// @Param        force         query     string  false "Force deletion" Enums(true, false)
+// @Param        force         query     bool  false "Force deletion"
 // @Produce      json
 // @Success      204  "No Content"
 // @Security 	 BearerAuth

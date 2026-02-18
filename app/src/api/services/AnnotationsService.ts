@@ -133,15 +133,15 @@ export class AnnotationsService {
         /**
          * Whether the annotations are segmented
          */
-        segmented?: 'true' | 'false',
+        segmented?: boolean,
         /**
          * Whether the annotations are OCRed
          */
-        ocred?: 'true' | 'false',
+        ocred?: boolean,
         /**
          * Whether the annotations are ground truth
          */
-        groundTruth?: 'true' | 'false',
+        groundTruth?: boolean,
         /**
          * Origin annotation ID to copy applied rules from
          */
@@ -217,15 +217,15 @@ export class AnnotationsService {
         /**
          * Whether the annotations are segmented
          */
-        segmented?: 'true' | 'false',
+        segmented?: boolean,
         /**
          * Whether the annotations are OCRed
          */
-        ocred?: 'true' | 'false',
+        ocred?: boolean,
         /**
          * Whether the annotations are ground truth
          */
-        groundTruth?: 'true' | 'false',
+        groundTruth?: boolean,
         /**
          * Origin annotation ID to copy applied rules from
          */
@@ -345,7 +345,7 @@ export class AnnotationsService {
         /**
          * Whether to perform a deep delete, which removes all associated files
          */
-        deep?: 'true' | 'false',
+        deep?: boolean,
     }): CancelablePromise<Record<string, string>> {
         return __request(OpenAPI, {
             method: 'DELETE',
@@ -678,7 +678,7 @@ export class AnnotationsService {
         /**
          * If true, return immediately and perform upload in background
          */
-        async?: string,
+        async?: boolean,
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',

@@ -56,8 +56,8 @@ func (d *Dataset) Get(id string) (*model.Dataset, error) {
 	return ds, nil
 }
 
-func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite, async bool) (*model.Dataset, error) {
-	if ds.FacsimileID == "" || ds.EditionID == "" {
+func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDataset, async bool) (*model.Dataset, error) {
+	if ds.FacsimileID == "" {
 		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
 	}
 	targetFacsimile, err := d.facsimileSvc.GetFacsimile(ds.FacsimileID)
@@ -70,8 +70,14 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite,
 	if !ghwrapper.IsGitHubTreeURL(targetFacsimile.ScanURL) {
 		return nil, fmt.Errorf("only GitHub tree URLs are supported currently")
 	}
+	if ds.EditionID != "" && targetFacsimile.EditionID != ds.EditionID {
+		return nil, fmt.Errorf("dataset edition ID %s does not match facsimile edition ID %s", ds.EditionID, targetFacsimile.EditionID)
+	}
+	if ds.EditionID == "" {
+		ds.EditionID = targetFacsimile.EditionID
+	}
 
-	if !forceOverwrite {
+	if enforceSingleDataset {
 		dss, err := d.List(nil, nil)
 		if err != nil {
 			return nil, fmt.Errorf("failed to list datasets: %w", err)

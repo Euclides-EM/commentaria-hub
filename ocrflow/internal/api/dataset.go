@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
-	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
@@ -35,8 +34,8 @@ func (h *Handlers) ListDatasets(r *http.Request) (any, error) {
 // @Summary      Create Dataset
 // @Description  Create a new dataset. Use async=true to return immediately with status "creating"; poll GET /datasets/{id} for status "ready" or "failed".
 // @Tags         Datasets
-// @Param        force_overwrite  query     string  false  "Force overwrite if dataset already exists"
-// @Param        async            query     string  false  "If true, return immediately and create in background (status creating → ready or failed)"
+// @Param		 enforce_single_dataset query bool false "If true, dataset will only be created if no other dataset exists"
+// @Param 		 async query bool false "If true, return immediately and create in background (status creating → ready or failed)"
 // @Param        dataset  body      model.Dataset  true  "Dataset to create"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -47,10 +46,15 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	if err := DecodeBody(r, &d); err != nil {
 		return nil, err
 	}
-	return h.deps.DatasetSvc.Create(r.Context(), &d,
-		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("force_overwrite"))) == "true",
-		strings.ToLower(strings.TrimSpace(r.URL.Query().Get("async"))) == "true",
-	)
+	enforceSingleDS, err := strconv.ParseBool(r.URL.Query().Get("enforce_single_dataset"))
+	if err != nil {
+		enforceSingleDS = false
+	}
+	async, err := strconv.ParseBool(r.URL.Query().Get("async"))
+	if err != nil {
+		async = false
+	}
+	return h.deps.DatasetSvc.Create(r.Context(), &d, enforceSingleDS, async)
 }
 
 // DeleteDataset godoc
