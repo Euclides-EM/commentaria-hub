@@ -94,6 +94,8 @@ func (f *Feature) UpdateFeature(datasetID, id string, updated *feature.Feature) 
 	existing.Description = updated.Description
 	existing.IsDefault = updated.IsDefault
 	existing.Color = updated.Color
+	existing.Type = updated.Type
+	existing.Features = updated.Features
 	if err := f.store.Update(datasetID, id, existing); err != nil {
 		return nil, err
 	}

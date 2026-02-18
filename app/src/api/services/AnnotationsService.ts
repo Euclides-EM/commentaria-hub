@@ -133,15 +133,15 @@ export class AnnotationsService {
         /**
          * Whether the annotations are segmented
          */
-        segmented?: 'true' | 'false',
+        segmented?: boolean,
         /**
          * Whether the annotations are OCRed
          */
-        ocred?: 'true' | 'false',
+        ocred?: boolean,
         /**
          * Whether the annotations are ground truth
          */
-        groundTruth?: 'true' | 'false',
+        groundTruth?: boolean,
         /**
          * Origin annotation ID to copy applied rules from
          */
@@ -217,15 +217,15 @@ export class AnnotationsService {
         /**
          * Whether the annotations are segmented
          */
-        segmented?: 'true' | 'false',
+        segmented?: boolean,
         /**
          * Whether the annotations are OCRed
          */
-        ocred?: 'true' | 'false',
+        ocred?: boolean,
         /**
          * Whether the annotations are ground truth
          */
-        groundTruth?: 'true' | 'false',
+        groundTruth?: boolean,
         /**
          * Origin annotation ID to copy applied rules from
          */
@@ -345,7 +345,7 @@ export class AnnotationsService {
         /**
          * Whether to perform a deep delete, which removes all associated files
          */
-        deep?: 'true' | 'false',
+        deep?: boolean,
     }): CancelablePromise<Record<string, string>> {
         return __request(OpenAPI, {
             method: 'DELETE',
@@ -653,7 +653,7 @@ export class AnnotationsService {
     }
     /**
      * Upload Annotation to Roboflow
-     * Upload an annotation to Roboflow for a specific dataset. Pass async=true to return immediately and run upload in background.
+     * Upload an annotation to Roboflow for a specific dataset. Use async=true to return immediately and run the upload in the background.
      * @returns annotation_Annotation OK
      * @throws ApiError
      */
@@ -661,7 +661,7 @@ export class AnnotationsService {
         dataSetId,
         id,
         annotationRoboflowUpload,
-        async: asyncMode,
+        async,
     }: {
         /**
          * Dataset ID
@@ -687,7 +687,9 @@ export class AnnotationsService {
                 'dataSetId': dataSetId,
                 'id': id,
             },
-            query: asyncMode ? { async: 'true' } : undefined,
+            query: {
+                'async': async,
+            },
             body: annotationRoboflowUpload,
         });
     }

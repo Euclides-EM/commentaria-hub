@@ -54,6 +54,8 @@ export type { feature_Revision } from './models/feature_Revision';
 export type { feature_Type } from './models/feature_Type';
 export type { model_AnnotationReference } from './models/model_AnnotationReference';
 export type { model_Dataset } from './models/model_Dataset';
+export type { model_DiagramCrops } from './models/model_DiagramCrops';
+export type { model_DiagramCropVolume } from './models/model_DiagramCropVolume';
 export type { model_Edition } from './models/model_Edition';
 export type { model_EditionListResult } from './models/model_EditionListResult';
 export type { model_EditionLocator } from './models/model_EditionLocator';

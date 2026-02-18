@@ -16,13 +16,15 @@ type Manager struct {
 	baseDir     string
 	trainingDir string
 	modelsDir   string
+	diagramsDir string
 }
 
-func NewFileSystemManager(baseDir, trainingDir, modelsDir string) *Manager {
+func NewFileSystemManager(baseDir, trainingDir, modelsDir, diagramsDir string) *Manager {
 	return &Manager{
 		baseDir:     baseDir,
 		trainingDir: trainingDir,
 		modelsDir:   modelsDir,
+		diagramsDir: diagramsDir,
 	}
 }
 

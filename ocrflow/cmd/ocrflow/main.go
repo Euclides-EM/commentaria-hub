@@ -10,6 +10,7 @@ import (
 )
 
 //go:generate swag init -g main.go -d .,../../internal/api,../../internal/model,../../internal/model/annotation,../../internal/model/annotationrule,../../internal/model/feature,../../internal/model/common,../../pkg/search --parseInternal -o ../../internal/docs
+//go:generate go run ../../scripts/gen_diagram_crops.go
 
 // @title          	OCR Flow API
 // @version         1.0

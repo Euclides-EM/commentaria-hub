@@ -16,6 +16,10 @@ export type model_Dataset = {
     readonly id?: string;
     name?: string;
     /**
+     * optional page spec e.g. "1,3-5,10"; parsed with pagesparser.Parse
+     */
+    pages?: string;
+    /**
      * "creating" | "ready" | "failed"
      */
     status?: string;

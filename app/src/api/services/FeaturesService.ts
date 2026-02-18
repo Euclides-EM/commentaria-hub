@@ -157,7 +157,7 @@ export class FeaturesService {
         /**
          * Force deletion
          */
-        force?: 'true' | 'false',
+        force?: boolean,
     }): CancelablePromise<void> {
         return __request(OpenAPI, {
             method: 'DELETE',
