@@ -16,6 +16,14 @@ type GroundTruthRow = {
   annotation: annotation_Annotation
 }
 
+type SortKey = 'annotation' | 'dataset' | 'updated'
+type SortDirection = 'asc' | 'desc'
+
+type SortConfig = {
+  key: SortKey
+  direction: SortDirection
+}
+
 export function GroundTruthsTable() {
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { setState } = useAppState()
@@ -23,6 +31,15 @@ export function GroundTruthsTable() {
     'groundTruthsSearch',
     {
       defaultValue: '',
+    },
+  )
+  const [sortConfig, setSortConfig] = useLocalStorageState<SortConfig>(
+    'groundTruthsSort',
+    {
+      defaultValue: {
+        key: 'updated',
+        direction: 'desc',
+      },
     },
   )
 
@@ -107,6 +124,64 @@ export function GroundTruthsTable() {
     [filteredRows],
   )
 
+  const sortedRows = useMemo(() => {
+    const getSortValue = (row: GroundTruthRow, key: SortKey) => {
+      switch (key) {
+        case 'annotation':
+          return (row.annotation.name || row.annotation.id || '').toLowerCase()
+        case 'dataset':
+          return row.datasetName.toLowerCase()
+        case 'updated': {
+          const raw = row.annotation.updated_at || row.annotation.created_at
+          const time = raw ? new Date(raw).getTime() : 0
+          return Number.isNaN(time) ? 0 : time
+        }
+        default:
+          return ''
+      }
+    }
+
+    const data = [...filteredRows]
+    data.sort((a, b) => {
+      const aValue = getSortValue(a, sortConfig.key)
+      const bValue = getSortValue(b, sortConfig.key)
+      if (aValue < bValue) return sortConfig.direction === 'asc' ? -1 : 1
+      if (aValue > bValue) return sortConfig.direction === 'asc' ? 1 : -1
+      return 0
+    })
+    return data
+  }, [filteredRows, sortConfig.direction, sortConfig.key])
+
+  const toggleSort = (key: SortKey) => {
+    setSortConfig((current) => {
+      if (current.key === key) {
+        return {
+          key,
+          direction: current.direction === 'asc' ? 'desc' : 'asc',
+        }
+      }
+      return {
+        key,
+        direction: 'asc',
+      }
+    })
+  }
+
+  const renderSortHeader = (label: string, key: SortKey) => {
+    const isActive = sortConfig.key === key
+    const arrow = isActive ? (sortConfig.direction === 'asc' ? '▲' : '▼') : null
+    return (
+      <button
+        type="button"
+        onClick={() => toggleSort(key)}
+        className={`inline-flex items-center gap-1 ${isActive ? 'text-gray-800' : 'text-gray-500 hover:text-gray-700'}`}
+      >
+        <span>{label}</span>
+        {arrow && <span className="text-[10px]">{arrow}</span>}
+      </button>
+    )
+  }
+
   return (
     <div className="w-full h-full flex flex-col px-8">
       <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white gap-4">
@@ -173,22 +248,22 @@ export function GroundTruthsTable() {
               <div>
                 <div className="overflow-auto rounded-lg border border-gray-200 bg-white">
                   <table className="min-w-full text-sm table-auto">
-                    <thead className="bg-gray-50 text-xs uppercase text-gray-500">
+                    <thead className="bg-gray-50 text-xs text-gray-500">
                       <tr>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
-                          Annotation
+                          {renderSortHeader('Annotation', 'annotation')}
                         </th>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
-                          Dataset
+                          {renderSortHeader('Dataset', 'dataset')}
                         </th>
                         <th className="px-4 py-3 text-left">Pages</th>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
-                          Updated
+                          {renderSortHeader('Updated', 'updated')}
                         </th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
-                      {filteredRows.map((row) => (
+                      {sortedRows.map((row) => (
                         <tr
                           key={`${row.datasetId}:${row.annotation.id}`}
                           className="hover:bg-gray-50"
