@@ -24,7 +24,7 @@ type EnvConfig struct {
 	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
 	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
 	ItemsMetadataStoreDir   string        `env:"ITEMS_METADATA_STORE_DIR" envDefault:"./store/items_metadata"`
-	FacsimilesGithubRepoUrl string        `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/ReallyLiri/elements-facsimile/blob/main/docs"`
+	FacsimilesGithubRepoUrl string        `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
 }
 
 func InitEnv() (*EnvConfig, error) {

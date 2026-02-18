@@ -16,7 +16,7 @@ export function useDeleteModelMutation() {
     mutationFn: ({ id, deep }: { id: string; deep?: boolean }) =>
       ModelsService.deleteModels({
         id,
-        deep: deep ? 'true' : undefined,
+        deep: deep || undefined,
       }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: modelsQueryKey() })

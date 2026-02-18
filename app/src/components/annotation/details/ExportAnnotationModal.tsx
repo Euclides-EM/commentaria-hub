@@ -248,7 +248,8 @@ export function ExportAnnotationModal({
                   className="h-4 w-4"
                   disabled={loading}
                 />
-                Run in background (return immediately; upload continues server-side)
+                Run in background (return immediately; upload continues
+                server-side)
               </label>
             </div>
           )}

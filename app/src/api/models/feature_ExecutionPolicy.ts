@@ -4,6 +4,6 @@
 /* eslint-disable */
 import type { feature_ExecutionSkipIf } from './feature_ExecutionSkipIf';
 export type feature_ExecutionPolicy = {
-    skip_if?: feature_ExecutionSkipIf;
+    skip_if?: Array<feature_ExecutionSkipIf>;
 };
 

@@ -50,7 +50,7 @@ type ExecutionApplyItem struct {
 }
 
 type ExecutionPolicy struct {
-	SkipIf ExecutionSkipIf `json:"skip_if"`
+	SkipIf []ExecutionSkipIf `json:"skip_if"`
 }
 
 type ExecutionSkipIf string

@@ -29,7 +29,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir, env.DiagramsDir)
 	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir)
-
+	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir)
 	sqlDB, err := db.InitDB(env.DBPath, env.MigrationsDir)
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
@@ -47,10 +47,11 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
 	healthSvc := service.NewHealthService(sqlDB)
+	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
-	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, env.FacsimilesGithubRepoUrl)
+	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl))
 	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, datasetStore, fileSystemManager, ghDownloader)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
@@ -80,6 +81,12 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager)
 	featureStore := store.NewFeatureSQL(sqlDB)
 
+	log.Printf("warming geo cache...")
+	if err := geoStore.WarmCache(); err != nil {
+		log.Fatalf("geo cache warm failed: %v", err)
+	}
+	log.Printf("finished warming geo cache")
+
 	log.Printf("warming edition cache...")
 	if err := editionStore.WarmCache(); err != nil {
 		log.Fatalf("edition cache warm failed: %v", err)
@@ -96,6 +103,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		Env:                 env,
 		HealthSvc:           healthSvc,
 		EditionSvc:          editionSvc,
+		GeoSvc:              geoSvc,
 		FacsimileSvc:        facsimileSvc,
 		DatasetSvc:          datasetSvc,
 		AnnotationSvc:       annotationSvc,

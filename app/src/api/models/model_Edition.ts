@@ -20,6 +20,7 @@ export type model_Edition = {
     format?: number;
     frontispiece?: string;
     frontispiece_EN?: string;
+    hasDiagrams?: boolean;
     imprint?: string;
     imprint_EN?: string;
     /**

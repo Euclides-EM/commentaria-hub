@@ -508,6 +508,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		ShortTitleSource: itemRow["short_title_source"],
 		Notes:            itemRow["notes"],
 		IsManuscript:     isManuscript,
+		HasDiagrams:      itemRow["has_diagrams"] == "True",
 	}
 
 	if isManuscript {
@@ -785,6 +786,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		ShortTitleSource: itemRow["short_title_source"],
 		Notes:            itemRow["notes"],
 		IsManuscript:     isManuscript,
+		HasDiagrams:      itemRow["has_diagrams"] == "True",
 	}
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])

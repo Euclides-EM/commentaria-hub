@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"net/url"
 	"os"
-	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
@@ -46,7 +45,6 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 	if err := json.Unmarshal(data, &fileData); err != nil {
 		return nil, fmt.Errorf("decode diagrams for %s: %w", key, err)
 	}
-	diagramsContentBase := resolveDiagramsContentBase(s.facsimilesGithubRepoUrl)
 	response := &model.DiagramCrops{
 		Key:             fileData.Key,
 		HasDiagrams:     fileData.HasDiagrams,
@@ -65,7 +63,7 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 				Key:         fileData.Volumes[i].Key,
 				HasDiagrams: fileData.Volumes[i].HasDiagrams,
 				ImageURLsByName: mapDiagramImageURLsByName(
-					diagramsContentBase,
+					s.facsimilesGithubRepoUrl,
 					volumeKey,
 					fileData.Volumes[i].Images,
 				),
@@ -79,7 +77,7 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 		singleKey = key
 	}
 	response.ImageURLsByName = mapDiagramImageURLsByName(
-		diagramsContentBase,
+		s.facsimilesGithubRepoUrl,
 		singleKey,
 		fileData.Images,
 	)
@@ -95,39 +93,14 @@ func mapDiagramImageURLsByName(baseURL, key string, images []string) map[string]
 }
 
 func buildDiagramImageURL(baseURL, key, imageName string) string {
-	trimmedBase := strings.TrimSuffix(baseURL, "/")
 	return fmt.Sprintf(
-		"%s/%s/%s/%s/%s",
-		trimmedBase,
+		"%s/raw/main/docs/%s/%s/%s/%s",
+		baseURL,
 		diagramsPathBaseInGithubFacsimileRepo,
 		url.PathEscape(key),
 		diagramsCropsDirInGithubFacsimileRepo,
 		url.PathEscape(imageName),
 	)
-}
-
-func resolveDiagramsContentBase(facsimilesRepoURL string) string {
-	repoURL := strings.TrimSuffix(strings.TrimSpace(facsimilesRepoURL), "/")
-	parsed, err := url.Parse(repoURL)
-	if err != nil {
-		return repoURL
-	}
-
-	if strings.EqualFold(parsed.Host, "raw.githubusercontent.com") {
-		return repoURL
-	}
-
-	if !strings.EqualFold(parsed.Host, "github.com") {
-		return repoURL
-	}
-
-	parts := strings.Split(strings.Trim(parsed.Path, "/"), "/")
-	if len(parts) < 4 || parts[2] != "blob" {
-		return repoURL
-	}
-
-	contentPath := append([]string{parts[0], parts[1], parts[3]}, parts[4:]...)
-	return "https://raw.githubusercontent.com/" + strings.Join(contentPath, "/")
 }
 
 type editionDiagramFileVolume struct {
