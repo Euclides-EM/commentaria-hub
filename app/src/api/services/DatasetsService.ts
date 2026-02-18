@@ -45,7 +45,6 @@ export class DatasetsService {
     public static postDatasets({
         dataset,
         forceOverwrite,
-        skipDeskew,
         async,
     }: {
         /**
@@ -57,10 +56,6 @@ export class DatasetsService {
          */
         forceOverwrite?: string,
         /**
-         * Skip deskewing of images
-         */
-        skipDeskew?: string,
-        /**
          * If true, return immediately and create in background (status creating → ready or failed)
          */
         async?: string,
@@ -70,7 +65,6 @@ export class DatasetsService {
             url: '/datasets',
             query: {
                 'force_overwrite': forceOverwrite,
-                'skip_deskew': skipDeskew,
                 'async': async,
             },
             body: dataset,

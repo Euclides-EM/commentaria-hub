@@ -2,6 +2,7 @@ package formatcov
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"image"
 	"image/color"
@@ -16,6 +17,8 @@ import (
 	"gocv.io/x/gocv"
 	"golang.org/x/sync/errgroup"
 )
+
+var errWriteFailed = errors.New("gocv IMWrite failed")
 
 func maxDeskewWorkers() int {
 	n := runtime.NumCPU()
@@ -113,7 +116,7 @@ func DeskewPNGs(src string, dst string) error {
 func deskewOneProjection(inPath, outPath string, p projParams) error {
 	img := gocv.IMRead(inPath, gocv.IMReadColor)
 	if img.Empty() {
-		return fmt.Errorf("failed to read image")
+		return fmt.Errorf("read image %q: empty or unsupported format", inPath)
 	}
 	defer img.Close()
 
@@ -122,11 +125,12 @@ func deskewOneProjection(inPath, outPath string, p projParams) error {
 	defer small.Close()
 
 	if p.DownscaleMax > 0 {
-		small = resizeMaxSide(small, p.DownscaleMax)
-		defer func() {
-			// resizeMaxSide returns a new Mat if resized
-			// so only close if it differs from the previous clone.
-		}()
+		var err error
+		small, err = resizeMaxSide(small, p.DownscaleMax)
+		if err != nil {
+			return fmt.Errorf("downscale for angle estimation: %w", err)
+		}
+		// When resized, resizeMaxSide closed the clone and returned a new Mat; defer above closes current small.
 	}
 
 	angle, err := estimateSkewProjection(small, p)
@@ -137,48 +141,66 @@ func deskewOneProjection(inPath, outPath string, p projParams) error {
 	if math.Abs(angle) < p.MinRotate {
 		// Write original unchanged (still useful for comparison)
 		if ok := gocv.IMWrite(outPath, img); !ok {
-			return fmt.Errorf("failed to write output")
+			return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
 		}
 		return nil
 	}
 
-	rot := rotateKeepAll(img, angle, p.Bg)
+	rot, err := rotateKeepAll(img, angle, p.Bg)
+	if err != nil {
+		return fmt.Errorf("rotate %q: %w", inPath, err)
+	}
 	defer rot.Close()
 
 	if ok := gocv.IMWrite(outPath, rot); !ok {
-		return fmt.Errorf("failed to write output")
+		return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
 	}
 	return nil
 }
 
-func resizeMaxSide(src gocv.Mat, maxSide int) gocv.Mat {
+func resizeMaxSide(src gocv.Mat, maxSide int) (gocv.Mat, error) {
 	h, w := src.Rows(), src.Cols()
 	m := h
 	if w > m {
 		m = w
 	}
 	if m <= maxSide {
-		return src
+		return src, nil
 	}
 
 	scale := float64(maxSide) / float64(m)
 	newW := int(math.Round(float64(w) * scale))
 	newH := int(math.Round(float64(h) * scale))
+	if newW < 1 {
+		newW = 1
+	}
+	if newH < 1 {
+		newH = 1
+	}
 
 	dst := gocv.NewMat()
-	gocv.Resize(src, &dst, image.Pt(newW, newH), 0, 0, gocv.InterpolationArea)
+	err := gocv.Resize(src, &dst, image.Pt(newW, newH), 0, 0, gocv.InterpolationArea)
+	if err != nil {
+		return dst, err
+	}
 	src.Close()
-	return dst
+	return dst, nil
 }
 
 func estimateSkewProjection(img gocv.Mat, p projParams) (float64, error) {
 	gray := gocv.NewMat()
 	defer gray.Close()
-	gocv.CvtColor(img, &gray, gocv.ColorBGRToGray)
+	if err := gocv.CvtColor(img, &gray, gocv.ColorBGRToGray); err != nil {
+		return 0, fmt.Errorf("convert to grayscale: %w", err)
+	}
 
 	// Optional trim: crop to content bbox before scoring
 	if p.TrimBorder {
-		bin := adaptiveBinary(gray)
+		var err error
+		bin, err := adaptiveBinary(gray)
+		if err != nil {
+			return 0, fmt.Errorf("adaptive binary for content bbox: %w", err)
+		}
 		defer bin.Close()
 
 		if rect, ok := contentBBox(bin); ok {
@@ -192,18 +214,26 @@ func estimateSkewProjection(img gocv.Mat, p projParams) (float64, error) {
 	}
 
 	// Prepare inverted binary (ink=255, bg=0) once
-	bin := adaptiveBinary(gray)
+	bin, err := adaptiveBinary(gray)
+	if err != nil {
+		return 0, fmt.Errorf("adaptive binary: %w", err)
+	}
 	defer bin.Close()
 
 	inv := gocv.NewMat()
 	defer inv.Close()
-	gocv.BitwiseNot(bin, &inv)
+	if err := gocv.BitwiseNot(bin, &inv); err != nil {
+		return 0, fmt.Errorf("invert binary: %w", err)
+	}
 
 	bestA := 0.0
 	bestS := -1.0
 
 	for a := -p.AngleLimit; a <= p.AngleLimit+1e-9; a += p.AngleStep {
-		rot := rotateKeepAll(inv, a, 0)
+		rot, err := rotateKeepAll(inv, a, 0)
+		if err != nil {
+			return 0, fmt.Errorf("rotate for angle %.2f: %w", a, err)
+		}
 		s := projectionVariance(rot)
 		rot.Close()
 
@@ -216,13 +246,15 @@ func estimateSkewProjection(img gocv.Mat, p projParams) (float64, error) {
 	return bestA, nil
 }
 
-func adaptiveBinary(gray gocv.Mat) gocv.Mat {
+func adaptiveBinary(gray gocv.Mat) (gocv.Mat, error) {
 	blur := gocv.NewMat()
-	gocv.GaussianBlur(gray, &blur, image.Pt(3, 3), 0, 0, gocv.BorderDefault)
+	if err := gocv.GaussianBlur(gray, &blur, image.Pt(3, 3), 0, 0, gocv.BorderDefault); err != nil {
+		return blur, fmt.Errorf("gaussian blur: %w", err)
+	}
 
 	bin := gocv.NewMat()
 	// THRESH_BINARY: black text becomes 0, background 255 (usually), then we invert later
-	gocv.AdaptiveThreshold(
+	if err := gocv.AdaptiveThreshold(
 		blur,
 		&bin,
 		255,
@@ -230,23 +262,29 @@ func adaptiveBinary(gray gocv.Mat) gocv.Mat {
 		gocv.ThresholdBinary,
 		41,
 		15,
-	)
+	); err != nil {
+		return bin, fmt.Errorf("adaptive threshold: %w", err)
+	}
 
 	blur.Close()
-	return bin
+	return bin, nil
 }
 
 func contentBBox(binary gocv.Mat) (image.Rectangle, bool) {
 	inv := gocv.NewMat()
 	defer inv.Close()
-	gocv.BitwiseNot(binary, &inv)
+	if err := gocv.BitwiseNot(binary, &inv); err != nil {
+		return image.Rectangle{}, false
+	}
 
 	k := gocv.GetStructuringElement(gocv.MorphRect, image.Pt(3, 3))
 	defer k.Close()
 
 	clean := gocv.NewMat()
 	defer clean.Close()
-	gocv.MorphologyEx(inv, &clean, gocv.MorphOpen, k)
+	if err := gocv.MorphologyEx(inv, &clean, gocv.MorphOpen, k); err != nil {
+		return image.Rectangle{}, false
+	}
 
 	contours := gocv.FindContours(clean, gocv.RetrievalExternal, gocv.ChainApproxSimple)
 	defer contours.Close()
@@ -265,9 +303,11 @@ func contentBBox(binary gocv.Mat) (image.Rectangle, bool) {
 		c := contours.At(i)
 		area := gocv.ContourArea(c)
 		if area < minArea {
+			c.Close()
 			continue
 		}
 		r := gocv.BoundingRect(c)
+		c.Close()
 		if r.Min.X < xs {
 			xs = r.Min.X
 		}
@@ -305,9 +345,11 @@ func projectionVariance(invBinary gocv.Mat) float64 {
 	// Score = variance of row sums (peaky rows = better alignment).
 	rows := invBinary.Rows()
 	cols := invBinary.Cols()
+	if rows == 0 || cols == 0 {
+		return 0
+	}
 
-	var sums []float64
-	sums = make([]float64, rows)
+	sums := make([]float64, rows)
 
 	for y := 0; y < rows; y++ {
 		row := invBinary.RowRange(y, y+1)
@@ -332,27 +374,31 @@ func projectionVariance(invBinary gocv.Mat) float64 {
 	return variance
 }
 
-func rotateKeepAll(src gocv.Mat, angleDeg float64, bg uint8) gocv.Mat {
+func rotateKeepAll(src gocv.Mat, angleDeg float64, bg uint8) (gocv.Mat, error) {
 	h, w := src.Rows(), src.Cols()
 	cx := float64(w) / 2.0
 	cy := float64(h) / 2.0
 
 	center := image.Pt(int(math.Round(cx)), int(math.Round(cy)))
 	M := gocv.GetRotationMatrix2D(center, angleDeg, 1.0)
+	defer M.Close()
 
 	cos := math.Abs(M.GetDoubleAt(0, 0))
 	sin := math.Abs(M.GetDoubleAt(0, 1))
 	newW := int(math.Round(float64(h)*sin + float64(w)*cos))
 	newH := int(math.Round(float64(h)*cos + float64(w)*sin))
-
-	// translate to keep centered
-	M.SetDoubleAt(0, 2, M.GetDoubleAt(0, 2)+float64(newW)/2.0-cx)
-	M.SetDoubleAt(1, 2, M.GetDoubleAt(1, 2)+float64(newH)/2.0-cy)
+	if newW < 1 || newH < 1 {
+		return gocv.Mat{}, fmt.Errorf("rotation produced invalid size %dx%d", newW, newH)
+	}
 
 	dst := gocv.NewMat()
 	borderVal := color.RGBA{R: bg, G: bg, B: bg, A: 0}
-	_ = gocv.WarpAffineWithParams(src, &dst, M, image.Point{X: newW, Y: newH}, gocv.InterpolationCubic, gocv.BorderConstant, borderVal)
-
-	M.Close()
-	return dst
+	if err := gocv.WarpAffineWithParams(src, &dst, M, image.Point{X: newW, Y: newH}, gocv.InterpolationCubic, gocv.BorderConstant, borderVal); err != nil {
+		return dst, fmt.Errorf("warp affine: %w", err)
+	}
+	if dst.Empty() {
+		dst.Close()
+		return gocv.Mat{}, errors.New("warp produced empty image")
+	}
+	return dst, nil
 }
