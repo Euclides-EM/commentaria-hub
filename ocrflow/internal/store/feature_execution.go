@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"strings"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
@@ -122,8 +123,12 @@ func (s *FeatureExecutionSQL) GetByID(id string) (*feature.Execution, error) {
 	}
 
 	if policySkipIf != "" {
+		skipIf, err := parsePolicySkipIf(policySkipIf)
+		if err != nil {
+			return nil, err
+		}
 		exec.Policy = &feature.ExecutionPolicy{
-			SkipIf: feature.ExecutionSkipIf(policySkipIf),
+			SkipIf: skipIf,
 		}
 	}
 
@@ -161,7 +166,11 @@ func (s *FeatureExecutionSQL) Create(exec *feature.Execution) error {
 
 	policySkipIf := ""
 	if exec.Policy != nil {
-		policySkipIf = string(exec.Policy.SkipIf)
+		policySkipIfBytes, err := json.Marshal(exec.Policy.SkipIf)
+		if err != nil {
+			return fmt.Errorf("failed to marshal policy skip_if: %w", err)
+		}
+		policySkipIf = string(policySkipIfBytes)
 	}
 
 	tx, err := s.db.Begin()
@@ -228,12 +237,34 @@ func scanFeatureExecution(scanner func(...any) error) (*feature.Execution, error
 	}
 
 	if policySkipIf != "" {
+		skipIf, err := parsePolicySkipIf(policySkipIf)
+		if err != nil {
+			return nil, err
+		}
 		exec.Policy = &feature.ExecutionPolicy{
-			SkipIf: feature.ExecutionSkipIf(policySkipIf),
+			SkipIf: skipIf,
 		}
 	}
 
 	return exec, nil
+}
+
+func parsePolicySkipIf(raw string) ([]feature.ExecutionSkipIf, error) {
+	if raw == "" {
+		return nil, nil
+	}
+	raw = strings.TrimSpace(raw)
+	if raw == "" {
+		return nil, nil
+	}
+	if !strings.HasPrefix(raw, "[") {
+		return []feature.ExecutionSkipIf{feature.ExecutionSkipIf(raw)}, nil
+	}
+	var skipIf []feature.ExecutionSkipIf
+	if err := json.Unmarshal([]byte(raw), &skipIf); err != nil {
+		return nil, fmt.Errorf("failed to parse policy skip_if JSON: %w", err)
+	}
+	return skipIf, nil
 }
 
 func (s *FeatureExecutionSQL) listExecutionApply(executionID string) ([]feature.ExecutionApplyItem, error) {
