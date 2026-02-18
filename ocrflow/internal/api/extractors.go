@@ -59,15 +59,12 @@ func extractExecutionID(r *http.Request) (string, error) {
 	return executionId, nil
 }
 
-func extractKey(r *http.Request) (string, error) {
-	key := r.PathValue("key")
-	if key == "" {
-		key = r.PathValue("editionId")
+func extractEditionId(r *http.Request) (string, error) {
+	editionId := r.PathValue("editionId")
+	if editionId == "" {
+		return "", fmt.Errorf("missing editionId")
 	}
-	if key == "" {
-		return "", fmt.Errorf("missing key")
-	}
-	return key, nil
+	return editionId, nil
 }
 
 func extractUSTCID(r *http.Request) (int, error) {

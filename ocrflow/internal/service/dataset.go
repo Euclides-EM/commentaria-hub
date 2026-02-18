@@ -56,8 +56,8 @@ func (d *Dataset) Get(id string) (*model.Dataset, error) {
 	return ds, nil
 }
 
-func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite, async bool) (*model.Dataset, error) {
-	if ds.FacsimileID == "" || ds.EditionID == "" {
+func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDataset, async bool) (*model.Dataset, error) {
+	if ds.FacsimileID == "" {
 		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
 	}
 	targetFacsimile, err := d.facsimileSvc.GetFacsimile(ds.FacsimileID)
@@ -70,8 +70,14 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, forceOverwrite,
 	if !ghwrapper.IsGitHubTreeURL(targetFacsimile.ScanURL) {
 		return nil, fmt.Errorf("only GitHub tree URLs are supported currently")
 	}
+	if ds.EditionID != "" && targetFacsimile.EditionID != ds.EditionID {
+		return nil, fmt.Errorf("dataset edition ID %s does not match facsimile edition ID %s", ds.EditionID, targetFacsimile.EditionID)
+	}
+	if ds.EditionID == "" {
+		ds.EditionID = targetFacsimile.EditionID
+	}
 
-	if !forceOverwrite {
+	if enforceSingleDataset {
 		dss, err := d.List(nil, nil)
 		if err != nil {
 			return nil, fmt.Errorf("failed to list datasets: %w", err)
@@ -137,9 +143,24 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 		defer os.RemoveAll(convertedPNGsDir)
 	}
 
-	log.Printf("Converting facsimile PDF %s to PNGs in %s", pdfPath, convertedPNGsDir)
-	if err := formatcov.PDF2PNGs(pdfPath, convertedPNGsDir, ds.DPI); err != nil {
-		return nil, fmt.Errorf("failed to pre-process facsimile: %w", err)
+	var pageList []int
+	if strings.TrimSpace(ds.Pages) != "" {
+		var err error
+		pageList, err = pagesparser.Parse(ds.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("invalid pages %q: %w", ds.Pages, err)
+		}
+	}
+	if len(pageList) > 0 {
+		log.Printf("Converting facsimile PDF %s to PNGs (pages %s) in %s", pdfPath, ds.Pages, convertedPNGsDir)
+		if err := formatcov.PDF2PNGsWithPages(pdfPath, convertedPNGsDir, ds.DPI, pageList); err != nil {
+			return nil, fmt.Errorf("failed to pre-process facsimile: %w", err)
+		}
+	} else {
+		log.Printf("Converting facsimile PDF %s to PNGs in %s", pdfPath, convertedPNGsDir)
+		if err := formatcov.PDF2PNGs(pdfPath, convertedPNGsDir, ds.DPI); err != nil {
+			return nil, fmt.Errorf("failed to pre-process facsimile: %w", err)
+		}
 	}
 
 	if !skipDeskew {
@@ -294,6 +315,7 @@ func (d *Dataset) Update(id string, m *model.Dataset) (*model.Dataset, error) {
 	}
 	existingDS.Name = m.Name
 	existingDS.Description = m.Description
+	existingDS.Pages = m.Pages
 	if err := d.datasetStore.UpdateDataset(existingDS); err != nil {
 		return nil, fmt.Errorf("failed to update dataset in store: %w", err)
 	}

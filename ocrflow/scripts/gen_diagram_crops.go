@@ -36,10 +36,10 @@ type volumeInfo struct {
 }
 
 type volumeData struct {
-	Volume        int      `json:"volume,omitempty"`
-	Key           string   `json:"key,omitempty"`
-	Images        []string `json:"images"`
-	HasNoDiagrams bool     `json:"hasNoDiagrams"`
+	Volume      int      `json:"volume,omitempty"`
+	Key         string   `json:"key,omitempty"`
+	Images      []string `json:"images"`
+	HasDiagrams bool     `json:"hasDiagrams"`
 }
 
 type multiVolumeData struct {
@@ -82,7 +82,7 @@ func main() {
 	g := &generator{
 		client:        &http.Client{Timeout: 20 * time.Second},
 		headers:       buildHeaders(githubPAT),
-		outputDir:     filepath.Join(repoRoot, "store", "items_metadata"),
+		outputDir:     filepath.Join(repoRoot, "store"),
 		githubAPIBase: githubAPIBase,
 		dryRun:        dryRun,
 	}
@@ -171,7 +171,7 @@ func resolveGithubAPIBase(facsimilesRepoURL string) (string, error) {
 
 	parts := strings.Split(strings.Trim(parsed.Path, "/"), "/")
 	if strings.EqualFold(parsed.Host, "github.com") {
-		if len(parts) < 2 {
+		if len(parts) < 4 || parts[2] != "blob" {
 			return "", fmt.Errorf("unsupported github URL format: %s", facsimilesRepoURL)
 		}
 		return fmt.Sprintf("https://api.github.com/repos/%s/%s/contents", parts[0], parts[1]), nil
@@ -335,7 +335,7 @@ func (g *generator) generateDiagramDirectories() ([]string, error) {
 
 	slices.Sort(directories)
 
-	outputPath := filepath.Join(g.outputDir, "diagram-directories.json")
+	outputPath := filepath.Join(g.outputDir, "items_metadata", "diagram-directories.json")
 	if err := g.writeJSON(outputPath, directories); err != nil {
 		return nil, err
 	}
@@ -404,16 +404,16 @@ func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo) er
 	for _, v := range volumes {
 		images, err := g.fetchCrops(v.Key)
 		row := volumeData{
-			Key:           v.Key,
-			Images:        images,
-			HasNoDiagrams: len(images) == 0,
+			Key:         v.Key,
+			Images:      images,
+			HasDiagrams: len(images) != 0,
 		}
 		if len(volumes) > 1 {
 			row.Volume = v.Volume
 		}
 		if err != nil {
 			row.Images = []string{}
-			row.HasNoDiagrams = true
+			row.HasDiagrams = false
 		}
 		volumeRows = append(volumeRows, row)
 		time.Sleep(100 * time.Millisecond)
@@ -425,7 +425,7 @@ func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo) er
 	} else if len(volumeRows) > 0 {
 		out = volumeRows[0]
 	} else {
-		out = volumeData{Images: []string{}, HasNoDiagrams: true}
+		out = volumeData{Images: []string{}, HasDiagrams: false}
 	}
 
 	if err := g.writeJSON(outputPath, out); err != nil {

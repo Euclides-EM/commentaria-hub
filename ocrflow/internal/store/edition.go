@@ -40,6 +40,7 @@ const (
 	relVisualElements   = "visual_elements.csv"
 	relVisualElementsEx = "visual_elements_examples.csv"
 	relLocators         = "locators.csv"
+	relDiagramDirs      = "diagram-directories.json"
 )
 
 var (
@@ -538,7 +539,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		ShortTitleSource: itemRow["short_title_source"],
 		Notes:            itemRow["notes"],
 		IsManuscript:     isManuscript,
-		HasDiagrams:      itemRow["has_diagrams"],
+		HasDiagrams:      itemRow["has_diagrams"] == "True",
 	}
 
 	if isManuscript {
@@ -678,20 +679,10 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		}
 		ed.VisualElements = append(ed.VisualElements, ve)
 	}
-	diagramDirs := s.loadDiagramDirectories()
-	if diagramDirs[key] {
-		ed.DiagramsExtracted = "True"
-	} else {
-		ed.DiagramsExtracted = "False"
-	}
-	if len(ed.VisualElements) > 0 {
-		seen := make(map[string]bool)
-		for _, ve := range ed.VisualElements {
-			if ve.VisualElementType != "" && !seen[ve.VisualElementType] {
-				seen[ve.VisualElementType] = true
-				ed.VisualElementsTypes = append(ed.VisualElementsTypes, ve.VisualElementType)
-			}
-		}
+
+	diagramKeys, _ := s.loadDiagramDirectoryKeys()
+	if diagramKeys != nil {
+		_, ed.DiagramCropsAvailable = diagramKeys[key]
 	}
 
 	return ed, nil
@@ -734,7 +725,7 @@ type preloadedEditionRows struct {
 	locators       []map[string]string
 	veRows         []map[string]string
 	exRows         []map[string]string
-	diagramDirs    map[string]bool
+	diagramDirKeys map[string]struct{}
 }
 
 // loadAllCSVsOnce reads each edition CSV once. Missing files yield nil slices.
@@ -757,25 +748,31 @@ func (s *EditionCSV) loadAllCSVsOnce() (*preloadedEditionRows, error) {
 	p.locators, _ = s.loadCSVRecordsOptional(relLocators)
 	p.veRows, _ = s.loadCSVRecordsOptional(relVisualElements)
 	p.exRows, _ = s.loadCSVRecordsOptional(relVisualElementsEx)
-	p.diagramDirs = s.loadDiagramDirectories()
+	p.diagramDirKeys, _ = s.loadDiagramDirectoryKeys()
 	return p, nil
 }
 
-func (s *EditionCSV) loadDiagramDirectories() map[string]bool {
-	path := filepath.Join(s.itemsMetadataDir, "diagram-directories.json")
+// loadDiagramDirectoryKeys reads diagram-directories.json and returns a set of edition keys.
+func (s *EditionCSV) loadDiagramDirectoryKeys() (map[string]struct{}, error) {
+	path := s.csvPath(relDiagramDirs)
 	data, err := os.ReadFile(path)
 	if err != nil {
-		return nil
+		if os.IsNotExist(err) {
+			return nil, nil
+		}
+		return nil, err
 	}
-	var dirs []string
-	if err := json.Unmarshal(data, &dirs); err != nil {
-		return nil
+	var keys []string
+	if err := json.Unmarshal(data, &keys); err != nil {
+		return nil, err
 	}
-	m := make(map[string]bool, len(dirs))
-	for _, d := range dirs {
-		m[d] = true
+	out := make(map[string]struct{}, len(keys))
+	for _, k := range keys {
+		if k != "" {
+			out[k] = struct{}{}
+		}
 	}
-	return m
+	return out, nil
 }
 
 // LoadAllEditions reads each CSV once and builds all editions in memory. Use for cache warming.
@@ -820,7 +817,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		ShortTitleSource: itemRow["short_title_source"],
 		Notes:            itemRow["notes"],
 		IsManuscript:     isManuscript,
-		HasDiagrams:      itemRow["has_diagrams"],
+		HasDiagrams:      itemRow["has_diagrams"] == "True",
 	}
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
@@ -940,19 +937,8 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		}
 		ed.VisualElements = append(ed.VisualElements, ve)
 	}
-	if p.diagramDirs[key] {
-		ed.DiagramsExtracted = "True"
-	} else {
-		ed.DiagramsExtracted = "False"
-	}
-	if len(ed.VisualElements) > 0 {
-		seen := make(map[string]bool)
-		for _, ve := range ed.VisualElements {
-			if ve.VisualElementType != "" && !seen[ve.VisualElementType] {
-				seen[ve.VisualElementType] = true
-				ed.VisualElementsTypes = append(ed.VisualElementsTypes, ve.VisualElementType)
-			}
-		}
+	if p.diagramDirKeys != nil {
+		_, ed.DiagramCropsAvailable = p.diagramDirKeys[key]
 	}
 	return ed
 }

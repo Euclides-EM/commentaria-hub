@@ -5,6 +5,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -80,7 +81,7 @@ func (h *Handlers) GetAnnotation(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
-// @Param        deep		 query     string  false "Whether to perform a deep delete, which removes all associated files" Enums(true, false)
+// @Param        deep		 query     bool    false "Whether to perform a deep delete, which removes all associated files"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   map[string]string
@@ -90,7 +91,10 @@ func (h *Handlers) DeleteAnnotation(r *http.Request) (any, error) {
 	if err != nil {
 		return nil, err
 	}
-	fsClean := strings.ToLower(strings.TrimSpace(r.FormValue("deep"))) == "true"
+	fsClean, err := strconv.ParseBool(r.FormValue("deep"))
+	if err != nil {
+		fsClean = false
+	}
 	if err := h.deps.AnnotationSvc.Delete(datasetID, annotationID, fsClean); err != nil {
 		return nil, fmt.Errorf("failed to delete annotation: %w", err)
 	}
@@ -152,7 +156,7 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
-// @Param        async       query     string  false "If true, return immediately and perform upload in background"
+// @Param        async       query     bool    false "If true, return immediately and perform upload in background"
 // @Param        annotationRoboflowUpload  body      annotation.UploadRoboflow  true  "Annotation Roboflow upload details"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -169,7 +173,7 @@ func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
 		return nil, err
 	}
 
-	if strings.ToLower(strings.TrimSpace(r.URL.Query().Get("async"))) == "true" {
+	if async, err := strconv.ParseBool(r.URL.Query().Get("async")); err == nil && async {
 		return h.deps.AnnotationsUploader.UploadToRoboflowAsync(datasetID, annotationID, &urb)
 	}
 	return h.deps.AnnotationsUploader.UploadToRoboflow(datasetID, annotationID, &urb)
@@ -209,9 +213,9 @@ func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
 // @Param       format                  query  string true  "Annotation format" Enums(ALTO, YOLO)
 // @Param       name                    query  string false "Name of the annotation"
 // @Param       description             query  string false "Description of the annotation"
-// @Param       segmented               query  string false "Whether the annotations are segmented" Enums(true, false)
-// @Param       ocred                   query  string false "Whether the annotations are OCRed" Enums(true, false)
-// @Param       ground_truth            query  string false "Whether the annotations are ground truth" Enums(true, false)
+// @Param       segmented               query   bool false "Whether the annotations are segmented"
+// @Param       ocred                   query   bool false "Whether the annotations are OCRed"
+// @Param       ground_truth            query  bool false "Whether the annotations are ground truth"
 // @Param       origin_annotation_id    query  string false "Origin annotation ID to copy applied rules from"
 // @Param        ocr_model_id          query     string  false  "Model ID that was used for OCR processing, only relevant if annotations are OCRed"
 // @Param        segment_model_id       query     string  false  "Model ID that was used for segmentation, only relevant if annotations are segmented"
@@ -229,14 +233,26 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 	if format != annotation.FormatAlto && format != annotation.FormatYolo {
 		return nil, fmt.Errorf("unsupported annotation format: %s", format)
 	}
+	segmented, err := strconv.ParseBool(r.FormValue("segmented"))
+	if err != nil {
+		segmented = false
+	}
+	ocred, err := strconv.ParseBool(r.FormValue("ocred"))
+	if err != nil {
+		ocred = false
+	}
+	groundTruth, err := strconv.ParseBool(r.FormValue("ground_truth"))
+	if err != nil {
+		groundTruth = false
+	}
 	aum := &annotation.UploadMetadata{
 		DatasetID:          datasetID,
 		Format:             format,
 		Name:               r.FormValue("name"),
 		Description:        r.FormValue("description"),
-		Segmented:          strings.ToLower(strings.TrimSpace(r.FormValue("segmented"))) == "true",
-		Ocred:              strings.ToLower(strings.TrimSpace(r.FormValue("ocred"))) == "true",
-		GroundTruth:        strings.ToLower(strings.TrimSpace(r.FormValue("ground_truth"))) == "true",
+		Segmented:          segmented,
+		Ocred:              ocred,
+		GroundTruth:        groundTruth,
 		OriginAnnotationID: r.FormValue("origin_annotation_id"),
 		OCRModelID:         r.FormValue("ocr_model_id"),
 		SegmentModelID:     r.FormValue("segment_model_id"),
@@ -253,9 +269,9 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 // @Param       url                     query  string true  "URL of the ZIP file to download"
 // @Param       name                    query  string false "Name of the annotation"
 // @Param       description             query  string false "Description of the annotation"
-// @Param       segmented               query  string false "Whether the annotations are segmented" Enums(true, false)
-// @Param       ocred                   query  string false "Whether the annotations are OCRed" Enums(true, false)
-// @Param       ground_truth            query  string false "Whether the annotations are ground truth" Enums(true, false)
+// @Param       segmented               query  bool false "Whether the annotations are segmented"
+// @Param       ocred                   query  bool false "Whether the annotations are OCRed"
+// @Param       ground_truth            query  bool false "Whether the annotations are ground truth"
 // @Param       origin_annotation_id    query  string false "Origin annotation ID to copy applied rules from"
 // @Param        ocr_model_id          query     string  false  "Model ID that was used for OCR processing, only relevant if annotations are OCRed"
 // @Param        segment_model_id       query     string  false  "Model ID that was used for segmentation, only relevant if annotations are segmented"
@@ -278,14 +294,26 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 		return nil, fmt.Errorf("missing URL")
 	}
 
+	segmented, err := strconv.ParseBool(r.FormValue("segmented"))
+	if err != nil {
+		segmented = false
+	}
+	ocred, err := strconv.ParseBool(r.FormValue("ocred"))
+	if err != nil {
+		ocred = false
+	}
+	groundTruth, err := strconv.ParseBool(r.FormValue("ground_truth"))
+	if err != nil {
+		groundTruth = false
+	}
 	aum := &annotation.UploadMetadata{
 		DatasetID:          datasetID,
 		Format:             format,
 		Name:               r.FormValue("name"),
 		Description:        r.FormValue("description"),
-		Segmented:          strings.ToLower(strings.TrimSpace(r.FormValue("segmented"))) == "true",
-		Ocred:              strings.ToLower(strings.TrimSpace(r.FormValue("ocred"))) == "true",
-		GroundTruth:        strings.ToLower(strings.TrimSpace(r.FormValue("ground_truth"))) == "true",
+		Segmented:          segmented,
+		Ocred:              ocred,
+		GroundTruth:        groundTruth,
 		OriginAnnotationID: r.FormValue("origin_annotation_id"),
 		OCRModelID:         r.FormValue("ocr_model_id"),
 		SegmentModelID:     r.FormValue("segment_model_id"),

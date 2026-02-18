@@ -48,8 +48,6 @@ func (fr *Revision) UpdateFeatureRevision(datasetID, featureId, revisionId strin
 	existing.Regex = m.Regex
 	existing.ExecutionStrategy = m.ExecutionStrategy
 	existing.Note = m.Note
-	existing.Type = m.Type
-	existing.Features = m.Features
 	if err := fr.store.Update(datasetID, featureId, revisionId, existing); err != nil {
 		return nil, err
 	}

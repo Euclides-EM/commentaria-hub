@@ -23,5 +23,4 @@ ocrflow/store/data/*
 !ocrflow/store/data/tps/
 */internal/*/docs
 */internal/docs
-ocrflow/store/items_metadata/diagram-directories.json
-ocrflow/store/items_metadata/diagrams/
+ocrflow/store/diagrams/

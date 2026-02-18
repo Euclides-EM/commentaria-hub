@@ -3,6 +3,7 @@ package api
 import (
 	"fmt"
 	"net/http"
+	"strconv"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
@@ -88,14 +89,17 @@ func (h *Handlers) UploadModel(r *http.Request) (any, error) {
 // @Description  Delete a model by its ID.
 // @Tags         Models
 // @Param        id   path      string  true  "Model ID"
-// @Param        deep  query     string  false  "If true, also delete the model file from filesystem"
+// @Param        deep  query     bool  false  "If true, also delete the model file from filesystem"
 // @Accept       json
 // @Produce      json
 // @Security 	 BearerAuth
 // @Success      200  {object}  map[string]string
 // @Router       /models/{id} [delete]
 func (h *Handlers) DeleteModel(r *http.Request) (any, error) {
-	fsClean := strings.ToLower(strings.TrimSpace(r.FormValue("deep"))) == "true"
+	fsClean, err := strconv.ParseBool(r.FormValue("deep"))
+	if err != nil {
+		fsClean = false
+	}
 	id := r.PathValue("id")
 	if err := h.deps.ModelSvc.Delete(id, fsClean); err != nil {
 		return nil, err

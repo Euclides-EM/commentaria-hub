@@ -1,16 +1,18 @@
 package model
 
 type Edition struct {
-	Key              string                 `json:"key"`
-	ShortTitle       string                 `json:"shortTitle"`
-	ShortTitleSource string                 `json:"shortTitleSource"`
-	Notes            string                 `json:"notes"`
-	Corpus           []string               `json:"corpus"`
-	Shelfmarks       []EditionShelfmark     `json:"shelfmarks"`
-	Verified         bool                   `json:"verified"`
-	Bibliography     []string               `json:"bibliography"`
-	ReprintOf        *string                `json:"reprintOf"`
-	VisualElements   []EditionVisualElement `json:"visualElements"`
+	Key                   string                 `json:"key"`
+	ShortTitle            string                 `json:"shortTitle"`
+	ShortTitleSource      string                 `json:"shortTitleSource"`
+	Notes                 string                 `json:"notes"`
+	Corpus                []string               `json:"corpus"`
+	Shelfmarks            []EditionShelfmark     `json:"shelfmarks"`
+	Verified              bool                   `json:"verified"`
+	Bibliography          []string               `json:"bibliography"`
+	ReprintOf             *string                `json:"reprintOf"`
+	VisualElements        []EditionVisualElement `json:"visualElements"`
+	DiagramCropsAvailable bool                   `json:"diagramCropsAvailable"`
+	HasDiagrams           bool                   `json:"HasDiagrams"`
 
 	// Manuscript-only
 	IsManuscript       bool    `json:"isManuscript"`
@@ -41,11 +43,6 @@ type Edition struct {
 	IsElements        bool     `json:"isElements"`
 	Books             []int    `json:"books"`
 	AdditionalContent []string `json:"additionalContent"`
-
-	// Computed
-	VisualElementsTypes []string `json:"visualElementsTypes"`
-	DiagramsExtracted   string   `json:"diagramsExtracted"`
-	HasDiagrams         string   `json:"hasDiagrams"`
 }
 
 type EditionShelfmark struct {

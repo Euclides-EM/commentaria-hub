@@ -18,7 +18,6 @@ import (
 const (
 	defaultListLimit = 20
 	maxListLimit     = 5000
-	diagramsPathBase = "diagrams"
 	diagramsSubDir   = "diagrams"
 	diagramsCropsDir = "crops"
 )
@@ -79,16 +78,16 @@ func (h *Handlers) ListEditions(r *http.Request) (any, error) {
 }
 
 // GetEdition godoc
-// @Summary      Get Edition by key
-// @Description  Get a single edition by its key.
+// @Summary      Get Edition by ID
+// @Description  Get a single edition by its ID.
 // @Tags         Editions
-// @Param        key  path      string  true  "Edition key"
+// @Param        editionId  path      string  true  "Edition ID"
 // @Produce      json
 // @Success      200  {object}  model.Edition
 // @Failure      404  "Edition not found"
-// @Router       /editions/{key} [get]
+// @Router       /editions/{editionId} [get]
 func (h *Handlers) GetEdition(r *http.Request) (any, error) {
-	key, err := extractKey(r)
+	key, err := extractEditionId(r)
 	if err != nil {
 		return nil, err
 	}
@@ -131,13 +130,13 @@ func (h *Handlers) CreateEdition(r *http.Request) (any, error) {
 // @Tags         Editions
 // @Accept       json
 // @Produce      json
-// @Param        key     path      string  true  "Edition key"
+// @Param        editionId     path      string  true  "Edition ID"
 // @Param        edition  body      model.Edition  true  "Edition data to update"
 // @Security 	 BearerAuth
 // @Success      200  {object}  model.Edition
-// @Router       /editions/{key} [put]
+// @Router       /editions/{editionId} [put]
 func (h *Handlers) UpdateEdition(r *http.Request) (any, error) {
-	key, err := extractKey(r)
+	editionId, err := extractEditionId(r)
 	if err != nil {
 		return nil, err
 	}
@@ -145,8 +144,8 @@ func (h *Handlers) UpdateEdition(r *http.Request) (any, error) {
 	if err := DecodeBody(r, &ed); err != nil {
 		return nil, err
 	}
-	if ed.Key != key {
-		return nil, fmt.Errorf("edition key in body (%s) does not match key in path (%s)", ed.Key, key)
+	if ed.Key != editionId {
+		return nil, fmt.Errorf("edition id in body (%s) does not match id in path (%s)", ed.Key, editionId)
 	}
 	user := r.Context().Value(httpwrapper.GitHubUserKey)
 	userLogin := ""
@@ -158,17 +157,17 @@ func (h *Handlers) UpdateEdition(r *http.Request) (any, error) {
 
 // CreateEditionNote godoc
 // @Summary      Update Edition Notes
-// @Description  Update the notes for an edition identified by key. The note content is provided in the JSON body.
+// @Description  Update the notes for an edition identified by id. The note content is provided in the JSON body.
 // @Tags         Editions
 // @Accept       json
 // @Produce      json
-// @Param        key     path      string  true  "Edition key"
+// @Param        editionId     path      string  true  "Edition ID"
 // @Param        note    body      model.Note  true  "Note content"
 // @Security 	 BearerAuth
 // @Success      200  {object}  model.Edition
-// @Router       /editions/{key}/notes [post]
+// @Router       /editions/{editionId}/notes [post]
 func (h *Handlers) CreateEditionNote(r *http.Request) (any, error) {
-	key, err := extractKey(r)
+	key, err := extractEditionId(r)
 	if err != nil {
 		return nil, err
 	}
@@ -181,16 +180,15 @@ func (h *Handlers) CreateEditionNote(r *http.Request) (any, error) {
 
 // DeleteEdition godoc
 // @Summary      Delete Edition
-// @Description  Delete an edition identified by key.
+// @Description  Delete an edition identified by ID.
 // @Tags         Editions
 // @Produce      json
-// @Param        key  path  string  true  "Edition key"
+// @Param        editionId  path  string  true  "Edition ID"
 // @Security 	 BearerAuth
 // @Success      200  {object}  map[string]interface{}
-// @Failure      400  "Missing key"
-// @Router       /editions/{key} [delete]
+// @Router       /editions/{editionId} [delete]
 func (h *Handlers) DeleteEdition(request *http.Request) (any, error) {
-	key, err := extractKey(request)
+	key, err := extractEditionId(request)
 	if err != nil {
 		return nil, err
 	}

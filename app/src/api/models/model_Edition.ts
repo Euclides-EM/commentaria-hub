@@ -15,6 +15,7 @@ export type model_Edition = {
     colophon?: string;
     colophon_EN?: string;
     corpus?: Array<string>;
+    diagramCropsAvailable?: boolean;
     editor?: Array<string>;
     format?: number;
     frontispiece?: string;
