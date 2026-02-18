@@ -27,7 +27,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("init env: %w", err)
 	}
 
-	fileSystemManager := filesys.NewFileSystemManager(env.DiagramsDir, env.TrainingDir, env.ModelsDir)
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir, env.DiagramsDir)
 	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir)
 
 	sqlDB, err := db.InitDB(env.DBPath, env.MigrationsDir)
