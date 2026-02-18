@@ -30,6 +30,10 @@ func Alto2Yolo(imgDir, altoDir, outputDir string, shuffle float64, segmontoGranu
 	if err = futils.CopyDir(altoDir, tmpDir); err != nil {
 		return fmt.Errorf("failed to copy ALTO files to temp dir: %w", err)
 	}
+	// yaltai/kraken only accept ALTO or PAGE XML; METS is a manifest format and must be excluded
+	if err := os.Remove(filepath.Join(tmpDir, "METS.xml")); err != nil && !os.IsNotExist(err) {
+		return fmt.Errorf("failed to remove METS.xml from temp dir: %w", err)
+	}
 	for _, image := range imagesInAlto {
 		destImagePath := filepath.Join(tmpDir, filepath.Base(image))
 		if err = futils.CopyFile(image, destImagePath); err != nil {

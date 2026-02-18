@@ -303,11 +303,9 @@ func contentBBox(binary gocv.Mat) (image.Rectangle, bool) {
 		c := contours.At(i)
 		area := gocv.ContourArea(c)
 		if area < minArea {
-			c.Close()
 			continue
 		}
 		r := gocv.BoundingRect(c)
-		c.Close()
 		if r.Min.X < xs {
 			xs = r.Min.X
 		}
