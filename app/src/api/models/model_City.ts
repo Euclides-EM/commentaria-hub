@@ -3,8 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type model_City = {
-    latitude: number;
-    longitude: number;
-    name: string;
+    latitude?: number;
+    longitude?: number;
+    name?: string;
 };
 

@@ -88,6 +88,7 @@ export { FacsimilesService } from './services/FacsimilesService';
 export { FeatureResultsService } from './services/FeatureResultsService';
 export { FeatureRevisionsService } from './services/FeatureRevisionsService';
 export { FeaturesService } from './services/FeaturesService';
+export { GeoDataService } from './services/GeoDataService';
 export { HealthService } from './services/HealthService';
 export { MetadataService } from './services/MetadataService';
 export { ModelsService } from './services/ModelsService';
