@@ -24,8 +24,6 @@ const formatOptions = [
   { value: 'YOLO', label: 'YOLO' },
 ]
 
-const toApiBoolean = (value: boolean) => (value ? 'true' : 'false')
-
 export function ImportAnnotationsModal({
   isOpen,
   mode,
@@ -98,9 +96,9 @@ export function ImportAnnotationsModal({
             url: url.trim(),
             name: name.trim() || undefined,
             description: description.trim() || undefined,
-            segmented: toApiBoolean(segmented),
-            ocred: toApiBoolean(ocred),
-            groundTruth: toApiBoolean(groundTruth),
+            segmented,
+            ocred,
+            groundTruth,
             originAnnotationId: originAnnotationId || undefined,
           })
         setState({ annotationId: annotation.id! })
@@ -119,9 +117,9 @@ export function ImportAnnotationsModal({
             file: zipFile,
             name: name.trim() || undefined,
             description: description.trim() || undefined,
-            segmented: toApiBoolean(segmented),
-            ocred: toApiBoolean(ocred),
-            groundTruth: toApiBoolean(groundTruth),
+            segmented,
+            ocred,
+            groundTruth,
             originAnnotationId: originAnnotationId || undefined,
           })
         setState({ annotationId: annotation.id! })

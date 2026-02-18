@@ -5,6 +5,7 @@
 import type { model_EditionShelfmark } from './model_EditionShelfmark';
 import type { model_EditionVisualElement } from './model_EditionVisualElement';
 export type model_Edition = {
+    HasDiagrams?: boolean;
     additionalContent?: Array<string>;
     bibliography?: Array<string>;
     books?: Array<number>;

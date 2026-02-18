@@ -84,7 +84,7 @@ export function CreateDatasetModal({
           pages: pages.trim() || undefined,
           deskewed,
         },
-        async: asyncCreate ? 'true' : undefined,
+        async: asyncCreate || undefined,
       })
       setState({ datasetId: dataset.id!, annotationId: '' })
       refetch()

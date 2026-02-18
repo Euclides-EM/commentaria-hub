@@ -560,7 +560,9 @@ export function ModelsTable() {
                                   className="px-2 py-1 text-xs"
                                   onClick={() => handleCopyId(model.id)}
                                 >
-                                  {copiedId === model.id ? 'Copied!' : 'Copy ID'}
+                                  {copiedId === model.id
+                                    ? 'Copied!'
+                                    : 'Copy ID'}
                                 </Button>
                                 <Button
                                   className="px-2 py-1 text-xs"

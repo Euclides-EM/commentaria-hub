@@ -165,14 +165,16 @@ const AnnotationDetailsContent = ({
           ) : categories && categories.length > 0 ? (
             <>
               <div className="flex flex-wrap gap-1">
-                {[...categories].sort((a, b) => a.localeCompare(b)).map((cat) => (
-                  <span
-                    key={cat}
-                    className="inline-flex items-center rounded bg-gray-200 px-1.5 py-0.5 text-xs font-medium text-gray-800"
-                  >
-                    {cat}
-                  </span>
-                ))}
+                {[...categories]
+                  .sort((a, b) => a.localeCompare(b))
+                  .map((cat) => (
+                    <span
+                      key={cat}
+                      className="inline-flex items-center rounded bg-gray-200 px-1.5 py-0.5 text-xs font-medium text-gray-800"
+                    >
+                      {cat}
+                    </span>
+                  ))}
               </div>
               <Button
                 type="button"
