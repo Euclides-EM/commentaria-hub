@@ -221,18 +221,20 @@ def main() -> int:
                 raise RuntimeError("fixed_yaml is None, data.yaml was not found")
 
 
-    # Model download
+    # Model download (use absolute path so fine-tuning always loads this file)
     download_if_missing(args.model_url, model_path, args.dry_run)
+    model_path = model_path.resolve()
+    log(f"Using pretrained weights: {model_path}")
 
     best_pt = None
 
-    # Training
+    # Training (fine-tune: load .pt then train; YOLO keeps weights by default)
     if args.dry_run:
         log("[DRY-RUN] Skipping training")
     else:
         if fixed_yaml is None:
             raise RuntimeError("fixed_yaml is None, cannot train without data.yaml")
-        log("Starting YOLO training")
+        log("Starting YOLO fine-tuning from pretrained model")
         model = YOLO(str(model_path))
 
         model.train(
