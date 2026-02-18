@@ -1,7 +1,7 @@
 import os
 import csv
 
-DOCS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "public", "docs")
+DOCS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "ocrflow", "store", "items_metadata")
 
 ENTRIES_CSVS = [
     os.path.join(DOCS_DIR, 'items_print.csv')
