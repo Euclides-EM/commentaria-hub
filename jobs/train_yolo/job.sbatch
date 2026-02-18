@@ -32,7 +32,7 @@ echo "DATASET_NAME=${DATASET_NAME}"
 
 source .venv/bin/activate
 
-python train_yolo.py \
+python script.py \
   --dataset-url "https://app.roboflow.com/ds/06eW0gCNoL?key=HbRQg7ERhH" \
   --dataset-name "${DATASET_NAME}" \
   --project "${PROJECT}" \

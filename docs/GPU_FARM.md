@@ -173,10 +173,13 @@ squeue -u $USER
 Logs:
 
 ```bash
-tail -f logs/<jobname>_<jobid>.out
+tail -f logs/<jobname>_<jobid>.*
 ```
-And 
+
+Using the `*` wildcard allows you to see both stdout and stderr in the same stream. You can also check them separately if you prefer.
+
 ```bash
+tail -f logs/<jobname>_<jobid>.out
 tail -f logs/<jobname>_<jobid>.err
 ```
 
@@ -248,6 +251,14 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip wheel
 pip install -r requirements.txt
+deactivate
+```
+
+## Test the script (optional but recommended)
+
+```bash
+source .venv/bin/activate
+python script.py --dry-run --dataset-url "https://app.roboflow.com/ds/06eW0gCNoL?key=HbRQg7ERhH"
 deactivate
 ```
 
