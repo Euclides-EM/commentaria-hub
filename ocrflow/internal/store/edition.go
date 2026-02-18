@@ -161,7 +161,7 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 		"year_from":          formatcov.IntPtrToStr(ed.ManuscriptYearFrom),
 		"year_to":            formatcov.IntPtrToStr(ed.ManuscriptYearTo),
 		"notes":              ed.Notes,
-		"has_diagrams":       "",
+		"has_diagrams":       formatcov.BoolPtrToStr(ed.HasDiagrams),
 	}
 	if err := csv.UpsertRow(s.csvPath(relItemsManuscript), "key", ed.Key, row); err != nil {
 		return fmt.Errorf("Error upserting manuscript item: %v\n", err)
@@ -201,7 +201,7 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 		"volumes":            formatcov.IntPtrToStr(ed.Volumes),
 		"ustc_id":            formatcov.PtrToStr(ed.USTCId),
 		"notes":              ed.Notes,
-		"has_diagrams":       "",
+		"has_diagrams":       formatcov.BoolPtrToStr(ed.HasDiagrams),
 	}
 	if err := csv.UpsertRow(relItemsPrint, "key", ed.Key, row); err != nil {
 		return fmt.Errorf("Error upserting print item: %v\n", err)
@@ -508,7 +508,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		ShortTitleSource: itemRow["short_title_source"],
 		Notes:            itemRow["notes"],
 		IsManuscript:     isManuscript,
-		HasDiagrams:      itemRow["has_diagrams"] == "True",
+		HasDiagrams:      formatcov.StrToBoolPtr(itemRow["has_diagrams"]),
 	}
 
 	if isManuscript {
@@ -786,7 +786,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		ShortTitleSource: itemRow["short_title_source"],
 		Notes:            itemRow["notes"],
 		IsManuscript:     isManuscript,
-		HasDiagrams:      itemRow["has_diagrams"] == "True",
+		HasDiagrams:      formatcov.StrToBoolPtr(itemRow["has_diagrams"]),
 	}
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])

@@ -12,7 +12,7 @@ type Edition struct {
 	ReprintOf             *string                `json:"reprintOf"`
 	VisualElements        []EditionVisualElement `json:"visualElements"`
 	DiagramCropsAvailable bool                   `json:"diagramCropsAvailable"`
-	HasDiagrams           bool                   `json:"hasDiagrams"`
+	HasDiagrams           *bool                  `json:"hasDiagrams"`
 
 	// Manuscript-only
 	IsManuscript       bool    `json:"isManuscript"`

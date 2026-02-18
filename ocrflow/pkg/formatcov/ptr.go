@@ -29,3 +29,20 @@ func IntOpt(s string) *int {
 	}
 	return &n
 }
+
+// BoolPtrToStr returns "True", "False", or "" for nil.
+func BoolPtrToStr(x *bool) string {
+	if x == nil {
+		return ""
+	}
+	return lo.If(*x, "True").Else("False")
+}
+
+// StrToBoolPtr returns a *bool from CSV-style "True"/"False", or nil if s is empty.
+func StrToBoolPtr(s string) *bool {
+	if s == "" {
+		return nil
+	}
+	b := strings.TrimSpace(s) == "True"
+	return &b
+}
