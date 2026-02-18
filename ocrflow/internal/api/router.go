@@ -44,6 +44,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/version_control/pull", httpwrapper.Create(h.VersionControlPull).Build())
 	api.HandleFunc("/version_control/push", httpwrapper.Create(h.VersionControlPush).Build())
 	api.HandleFunc("/catalogs/ustc/lookup", httpwrapper.Create(h.USTCLookup).Build())
+	api.HandleFunc("/cities", httpwrapper.Get(h.ListCities).Build())
 
 	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
 	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())

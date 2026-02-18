@@ -171,7 +171,7 @@ func resolveGithubAPIBase(facsimilesRepoURL string) (string, error) {
 
 	parts := strings.Split(strings.Trim(parsed.Path, "/"), "/")
 	if strings.EqualFold(parsed.Host, "github.com") {
-		if len(parts) < 4 || parts[2] != "blob" {
+		if len(parts) < 2 {
 			return "", fmt.Errorf("unsupported github URL format: %s", facsimilesRepoURL)
 		}
 		return fmt.Sprintf("https://api.github.com/repos/%s/%s/contents", parts[0], parts[1]), nil

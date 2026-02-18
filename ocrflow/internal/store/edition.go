@@ -1,6 +1,7 @@
 package store
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"math/rand"
@@ -25,6 +26,7 @@ type EditionCSV struct {
 const (
 	relItemsManuscript  = "items_manuscript.csv"
 	relItemsPrint       = "items_print.csv"
+	relCities           = "cities.csv"
 	relMDManuscript     = "metadata_elements_manuscripts.csv"
 	relMDPrint          = "metadata_elements_print.csv"
 	relTranscriptions   = "paratext_transcriptions.csv"
@@ -65,6 +67,36 @@ func (s *EditionCSV) WarmCache() error {
 
 func (s *EditionCSV) csvPath(rel string) string {
 	return filepath.Join(s.itemsMetadataDir, rel)
+}
+
+func (s *EditionCSV) ListCities() ([]model.City, error) {
+	rows, err := s.loadCSVRecordsOptional(relCities)
+	if err != nil {
+		return nil, err
+	}
+
+	cities := make([]model.City, 0, len(rows))
+	for _, row := range rows {
+		name := strings.TrimSpace(row["city"])
+		if name == "" {
+			continue
+		}
+		lat, err := strconv.ParseFloat(strings.TrimSpace(row["lat"]), 64)
+		if err != nil {
+			return nil, fmt.Errorf("invalid latitude for city %q: %w", name, err)
+		}
+		lon, err := strconv.ParseFloat(strings.TrimSpace(row["lon"]), 64)
+		if err != nil {
+			return nil, fmt.Errorf("invalid longitude for city %q: %w", name, err)
+		}
+		cities = append(cities, model.City{
+			Name:      name,
+			Longitude: lon,
+			Latitude:  lat,
+		})
+	}
+
+	return cities, nil
 }
 
 // UpdateNotes updates the notes field for the given key in items_print.csv.
@@ -506,6 +538,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		ShortTitleSource: itemRow["short_title_source"],
 		Notes:            itemRow["notes"],
 		IsManuscript:     isManuscript,
+		HasDiagrams:      itemRow["has_diagrams"],
 	}
 
 	if isManuscript {
@@ -645,6 +678,21 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		}
 		ed.VisualElements = append(ed.VisualElements, ve)
 	}
+	diagramDirs := s.loadDiagramDirectories()
+	if diagramDirs[key] {
+		ed.DiagramsExtracted = "True"
+	} else {
+		ed.DiagramsExtracted = "False"
+	}
+	if len(ed.VisualElements) > 0 {
+		seen := make(map[string]bool)
+		for _, ve := range ed.VisualElements {
+			if ve.VisualElementType != "" && !seen[ve.VisualElementType] {
+				seen[ve.VisualElementType] = true
+				ed.VisualElementsTypes = append(ed.VisualElementsTypes, ve.VisualElementType)
+			}
+		}
+	}
 
 	return ed, nil
 }
@@ -686,6 +734,7 @@ type preloadedEditionRows struct {
 	locators       []map[string]string
 	veRows         []map[string]string
 	exRows         []map[string]string
+	diagramDirs    map[string]bool
 }
 
 // loadAllCSVsOnce reads each edition CSV once. Missing files yield nil slices.
@@ -708,7 +757,25 @@ func (s *EditionCSV) loadAllCSVsOnce() (*preloadedEditionRows, error) {
 	p.locators, _ = s.loadCSVRecordsOptional(relLocators)
 	p.veRows, _ = s.loadCSVRecordsOptional(relVisualElements)
 	p.exRows, _ = s.loadCSVRecordsOptional(relVisualElementsEx)
+	p.diagramDirs = s.loadDiagramDirectories()
 	return p, nil
+}
+
+func (s *EditionCSV) loadDiagramDirectories() map[string]bool {
+	path := filepath.Join(s.itemsMetadataDir, "diagram-directories.json")
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil
+	}
+	var dirs []string
+	if err := json.Unmarshal(data, &dirs); err != nil {
+		return nil
+	}
+	m := make(map[string]bool, len(dirs))
+	for _, d := range dirs {
+		m[d] = true
+	}
+	return m
 }
 
 // LoadAllEditions reads each CSV once and builds all editions in memory. Use for cache warming.
@@ -753,6 +820,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		ShortTitleSource: itemRow["short_title_source"],
 		Notes:            itemRow["notes"],
 		IsManuscript:     isManuscript,
+		HasDiagrams:      itemRow["has_diagrams"],
 	}
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
@@ -871,6 +939,20 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 			ve.Examples = append(ve.Examples, exItem)
 		}
 		ed.VisualElements = append(ed.VisualElements, ve)
+	}
+	if p.diagramDirs[key] {
+		ed.DiagramsExtracted = "True"
+	} else {
+		ed.DiagramsExtracted = "False"
+	}
+	if len(ed.VisualElements) > 0 {
+		seen := make(map[string]bool)
+		for _, ve := range ed.VisualElements {
+			if ve.VisualElementType != "" && !seen[ve.VisualElementType] {
+				seen[ve.VisualElementType] = true
+				ed.VisualElementsTypes = append(ed.VisualElementsTypes, ve.VisualElementType)
+			}
+		}
 	}
 	return ed
 }

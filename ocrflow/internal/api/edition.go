@@ -288,7 +288,7 @@ func (h *Handlers) GetEditionDiagrams(r *http.Request) (any, error) {
 		singleKey = key
 	}
 	response.ImageURLsByName = mapDiagramImageURLsByName(
-		diagramsContentBase,
+		fmt.Sprintf("%s/raw/main/docs", h.deps.Env.FacsimilesGithubRepoUrl),
 		singleKey,
 		fileData.Images,
 	)
@@ -304,11 +304,9 @@ func mapDiagramImageURLsByName(baseURL, key string, images []string) map[string]
 }
 
 func buildDiagramImageURL(baseURL, key, imageName string) string {
-	trimmedBase := strings.TrimSuffix(baseURL, "/")
 	return fmt.Sprintf(
-		"%s/%s/%s/%s/%s",
-		trimmedBase,
-		diagramsPathBase,
+		"%s/diagrams/%s/%s/%s",
+		baseURL,
 		url.PathEscape(key),
 		diagramsCropsDir,
 		url.PathEscape(imageName),
@@ -331,10 +329,10 @@ func resolveDiagramsContentBase(facsimilesRepoURL string) string {
 	}
 
 	parts := strings.Split(strings.Trim(parsed.Path, "/"), "/")
-	if len(parts) < 4 || parts[2] != "blob" {
+	if len(parts) < 2 {
 		return repoURL
 	}
 
-	contentPath := append([]string{parts[0], parts[1], parts[3]}, parts[4:]...)
+	contentPath := append([]string{parts[0], parts[1], "blob", "main", "docs"})
 	return "https://raw.githubusercontent.com/" + strings.Join(contentPath, "/")
 }

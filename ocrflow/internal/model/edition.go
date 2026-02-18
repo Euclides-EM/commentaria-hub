@@ -41,6 +41,11 @@ type Edition struct {
 	IsElements        bool     `json:"isElements"`
 	Books             []int    `json:"books"`
 	AdditionalContent []string `json:"additionalContent"`
+
+	// Computed
+	VisualElementsTypes []string `json:"visualElementsTypes"`
+	DiagramsExtracted   string   `json:"diagramsExtracted"`
+	HasDiagrams         string   `json:"hasDiagrams"`
 }
 
 type EditionShelfmark struct {

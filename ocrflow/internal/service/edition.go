@@ -31,6 +31,14 @@ func (e *Edition) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any)
 	return &model.EditionListResult{Items: items, Total: total, Offset: offset, Limit: limit}, nil
 }
 
+func (e *Edition) ListCities() ([]model.City, error) {
+	cities, err := e.editionStore.ListCities()
+	if err != nil {
+		return nil, fmt.Errorf("failed to list cities from store: %w", err)
+	}
+	return cities, nil
+}
+
 func (e *Edition) CreateEdition(ed *model.Edition, login string) (*model.Edition, error) {
 	if ed.Key == "" {
 		ed.Key = idgen.GenerateID("ed")

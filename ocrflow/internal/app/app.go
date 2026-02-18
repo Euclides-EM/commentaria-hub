@@ -49,7 +49,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
-	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, env.FacsimilesGithubRepoUrl)
+	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl))
 	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, datasetStore, fileSystemManager, ghDownloader)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
