@@ -167,9 +167,9 @@ export function CreateDatasetModal({
             </label>
             <Select
               value={
-                facsimileOptions.find((o) => o.value === facsimileId) ?? null
+                facsimileOptions.find((o) => o.value.split("/")[0] === facsimileId) ?? null
               }
-              onChange={(opt) => setFacsimileId(opt?.value ?? null)}
+              onChange={(opt) => setFacsimileId(opt?.value.split("/")[0] || null)}
               options={facsimileOptions}
               placeholder="Select facsimile..."
               isLoading={facsimilesLoading}
