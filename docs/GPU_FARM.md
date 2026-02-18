@@ -206,3 +206,111 @@ Then verify it stopped:
 ```bash
 squeue -u $USER
 ```
+
+# Running YOLO training on the GPU farm
+
+## Transfer the job files to the GPU farm
+
+From your **local machine** (not inside SSH):
+
+```bash
+cd <repo-root>
+scp -r jobs/train_yolo mjoskowicz@cca.in2p3.fr:~/jobs/
+```
+
+This will create:
+
+```
+~/jobs/train_yolo/
+  script.py
+  requirements.txt
+  job.sbatch
+```
+
+If the directory already exists and you want to overwrite it:
+
+```bash
+cd <repo-root>
+scp -r jobs/train_yolo/* mjoskowicz@cca.in2p3.fr:~/jobs/train_yolo/
+```
+
+## Go to the job directory on the cluster
+
+```bash
+cd ~/jobs/train_yolo
+mkdir -p logs artifacts
+```
+
+## Create the Python environment (first run only)
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip wheel
+pip install -r requirements.txt
+deactivate
+```
+
+## Running the YOLO training job
+
+Edit `job.sbatch` if needed:
+
+* select GPU partition (`gpu_v100` recommended initially)
+* adjust runtime, CPU, memory if required
+* update dataset URL if necessary
+
+Then submit:
+
+```bash
+sbatch job.sbatch
+```
+
+You can safely disconnect after submission.
+
+## Re-running after code updates
+
+If you modify the code locally:
+
+```bash
+cd <repo-root>
+scp -r jobs/train_yolo/* <user>@<server>:~/jobs/train_yolo/
+```
+
+Then simply resubmit:
+
+```bash
+cd ~/jobs/train_yolo
+sbatch job.sbatch
+```
+
+No need to recreate the virtual environment unless:
+
+* `requirements.txt` changed
+* Python version changed
+* environment was deleted
+
+If dependencies changed:
+
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+deactivate
+```
+
+## Results location
+
+After training finishes:
+
+Model checkpoint:
+
+```
+runs_yolo/<run-id>/weights/best.pt
+```
+
+Job summary:
+
+```bash
+cat artifacts/result.json
+```
+
+This JSON file contains the trained model path and dataset metadata.
