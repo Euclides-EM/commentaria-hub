@@ -2,11 +2,12 @@ package db
 
 import (
 	"database/sql"
+	"embed"
 	_ "embed"
 	"fmt"
+	"io/fs"
 	"log"
 	"os"
-	"path"
 	"slices"
 	"strconv"
 	"strings"
@@ -18,7 +19,7 @@ import (
 //go:embed schema_mig.sql
 var schemaSQL string
 
-func InitDB(dbPath, migrationsDir string) (*sql.DB, error) {
+func InitDB(dbPath string, migrations embed.FS, migrationsSubdir string) (*sql.DB, error) {
 	if err := initDBFile(dbPath); err != nil {
 		return nil, fmt.Errorf("failed to init DB file: %w", err)
 	}
@@ -39,7 +40,7 @@ func InitDB(dbPath, migrationsDir string) (*sql.DB, error) {
 	db.SetMaxIdleConns(5)
 	db.SetConnMaxLifetime(30 * time.Minute)
 
-	if err = migrateDB(db, migrationsDir); err != nil {
+	if err = migrateDB(db, migrations, migrationsSubdir); err != nil {
 		defer db.Close()
 		return nil, fmt.Errorf("failed to migrate DB: %w", err)
 	}
@@ -70,18 +71,26 @@ func initDBFile(dbPath string) error {
 	return nil
 }
 
-func migrateDB(db *sql.DB, migrationsDir string) error {
+func migrateDB(db *sql.DB, migrationsFS fs.FS, migrationsSubdir string) error {
 	log.Printf("initializing schema migrations table...")
 	if _, err := db.Exec(schemaSQL); err != nil {
 		return fmt.Errorf("failed to init schema migrations table: %w", err)
 	}
 
-	migrations, err := os.ReadDir(migrationsDir)
+	entries, err := fs.ReadDir(migrationsFS, migrationsSubdir)
 	if err != nil {
-		return fmt.Errorf("failed to read migrations dir: %w", err)
+		return fmt.Errorf("failed to read embedded migrations: %w", err)
 	}
 
-	slices.SortFunc(migrations, func(a, b os.DirEntry) int {
+	// Filter to .sql files only and sort by timestamp prefix
+	var migrations []fs.DirEntry
+	for _, e := range entries {
+		if e.IsDir() || !strings.HasSuffix(e.Name(), ".sql") {
+			continue
+		}
+		migrations = append(migrations, e)
+	}
+	slices.SortFunc(migrations, func(a, b fs.DirEntry) int {
 		ats, err := migrationFileNameToTimestamp(a.Name())
 		if err != nil {
 			log.Fatalf("invalid migration file name: %s", a.Name())
@@ -105,8 +114,8 @@ func migrateDB(db *sql.DB, migrationsDir string) error {
 		}
 
 		log.Printf("applying migration %s", migration.Name())
-		migrationPath := path.Join(migrationsDir, migration.Name())
-		migrationSQL, err := os.ReadFile(migrationPath)
+		migrationPath := migrationsSubdir + "/" + migration.Name()
+		migrationSQL, err := fs.ReadFile(migrationsFS, migrationPath)
 		if err != nil {
 			return fmt.Errorf("failed to read migration file %s: %w", migrationPath, err)
 		}

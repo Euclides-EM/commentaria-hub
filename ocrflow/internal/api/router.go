@@ -127,17 +127,10 @@ func NewRouter(deps *Dependencies) http.Handler {
 		httpSwagger.PersistAuthorization(true),
 	))
 
-	// ---------- Viewer UI ----------
-	root.Handle("/ui/",
-		http.StripPrefix("/ui/",
-			http.FileServer(http.Dir(deps.Env.UIDir)),
-		),
-	)
-
 	// ---------- Static docs/images ----------
 	root.Handle("/store/data/",
 		http.StripPrefix("/store/data/",
-			http.FileServer(http.Dir(deps.Env.DataDir)),
+			http.FileServer(http.Dir(deps.Env.DataDir())),
 		),
 	)
 

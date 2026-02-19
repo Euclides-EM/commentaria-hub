@@ -8,6 +8,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/api"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/migrations"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
@@ -28,10 +29,10 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("init env: %w", err)
 	}
 
-	fileSystemManager := filesys.NewFileSystemManager(env.DataDir, env.TrainingDir, env.ModelsDir, env.DiagramsDir)
-	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir)
-	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir)
-	sqlDB, err := db.InitDB(env.DBPath, env.MigrationsDir)
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.TrainingDir(), env.ModelsDir(), env.DiagramsDir())
+	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir())
+	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
+	sqlDB, err := db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow")
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
 	}
@@ -77,7 +78,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		modelSvc,
 		fileSystemManager,
 	)
-	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir)
+	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir())
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager)
 	featureStore := store.NewFeatureSQL(sqlDB)
 
@@ -121,7 +122,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DiagramCropsSvc:     diagramCropsSvc,
 		USTC:                service.NewUSTC(),
 		IntegrationJobSvc:   service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
-		VCSMgt:              service.NewVCSMgt(env.ItemsMetadataStoreDir, fileSystemManager.DatasetImagesDirByID("tps")),
+		VCSMgt:              service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID("tps")),
 	}
 
 	router := api.NewRouter(deps)
