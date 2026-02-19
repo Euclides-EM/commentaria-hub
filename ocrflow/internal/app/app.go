@@ -11,6 +11,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 )
@@ -119,6 +120,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeatureExecutionSvc: service.NewExecution(featureExecutionStore),
 		DiagramCropsSvc:     diagramCropsSvc,
 		USTC:                service.NewUSTC(),
+		IntegrationJobSvc:   service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
 		VCSMgt:              service.NewVCSMgt(env.ItemsMetadataStoreDir, fileSystemManager.DatasetImagesDirByID("tps")),
 	}
 

@@ -29,6 +29,7 @@ type Dependencies struct {
 	FeatureResultSvc    *service.Result
 	DiagramCropsSvc     *service.DiagramCrops
 	USTC                *service.USTC
+	IntegrationJobSvc   *service.IntegrationJob
 	GeoSvc              *service.Geo
 	VCSMgt              *service.VCSMgt
 }
@@ -104,6 +105,10 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/features/executions/{executionId}/cancel", httpwrapper.Update(h.CancelExecution).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results", httpwrapper.Get(h.ListResults).Create(h.CreateResult).Build())
+
+	api.HandleFunc("/integrations/platforms", httpwrapper.Get(h.ListIntegrationPlatforms).Build())
+	api.HandleFunc("/integrations/jobs", httpwrapper.Get(h.ListIntegrationJobs).Create(h.CreateIntegrationJobs).Build())
+	api.HandleFunc("/integrations/jobs/{jobId}", httpwrapper.Get(h.GetIntegrationJob).Build())
 
 	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).CreateFile(h.UploadModel).Build())
 	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Update(h.UpdateModel).Build())

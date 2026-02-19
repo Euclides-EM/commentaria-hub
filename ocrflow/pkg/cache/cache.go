@@ -4,32 +4,60 @@ import (
 	"fmt"
 	"sort"
 	"sync"
+	"time"
 
 	"github.com/samber/lo"
 )
 
+type cacheEntry struct {
+	value     interface{}
+	expiresAt time.Time // zero means no expiry
+}
+
+func (e cacheEntry) expired() bool {
+	if e.expiresAt.IsZero() {
+		return false
+	}
+	return time.Now().After(e.expiresAt)
+}
+
 type Cache struct {
 	mu   sync.RWMutex
-	data map[string]interface{}
+	data map[string]cacheEntry
 }
 
 func NewCache() *Cache {
 	return &Cache{
-		data: make(map[string]interface{}),
+		data: make(map[string]cacheEntry),
 	}
 }
 
 func (c *Cache) Get(key string) (interface{}, bool) {
-	c.mu.RLock()
-	defer c.mu.RUnlock()
-	val, ok := c.data[key]
-	return val, ok
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	ent, ok := c.data[key]
+	if !ok {
+		return nil, false
+	}
+	if ent.expired() {
+		delete(c.data, key)
+		return nil, false
+	}
+	return ent.value, true
 }
 
 func (c *Cache) Set(key string, value interface{}) {
+	c.SetWithTTL(key, value, 0)
+}
+
+func (c *Cache) SetWithTTL(key string, value interface{}, ttl time.Duration) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	c.data[key] = value
+	ent := cacheEntry{value: value}
+	if ttl > 0 {
+		ent.expiresAt = time.Now().Add(ttl)
+	}
+	c.data[key] = ent
 }
 
 func (c *Cache) Delete(key string) {
@@ -41,7 +69,16 @@ func (c *Cache) Delete(key string) {
 func (c *Cache) Clear() {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	c.data = make(map[string]interface{})
+	c.data = make(map[string]cacheEntry)
+}
+
+// evictExpiredLocked removes expired entries. Must be called with c.mu held.
+func (c *Cache) evictExpiredLocked() {
+	for k, ent := range c.data {
+		if ent.expired() {
+			delete(c.data, k)
+		}
+	}
 }
 
 func (c *Cache) Warmup(loadFunc func() (map[string]interface{}, error)) error {
@@ -51,13 +88,17 @@ func (c *Cache) Warmup(loadFunc func() (map[string]interface{}, error)) error {
 	}
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	c.data = data
+	c.data = make(map[string]cacheEntry, len(data))
+	for k, v := range data {
+		c.data[k] = cacheEntry{value: v}
+	}
 	return nil
 }
 
 func (c *Cache) IsWarm() bool {
-	c.mu.RLock()
-	defer c.mu.RUnlock()
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	c.evictExpiredLocked()
 	return len(c.data) > 0
 }
 
@@ -74,16 +115,16 @@ func (c *Cache) GetBulk(
 		return nil, nil, 0, fmt.Errorf("limit must be >= 0, got %d", limit)
 	}
 
-	c.mu.RLock()
-	defer c.mu.RUnlock()
-
+	c.mu.Lock()
+	c.evictExpiredLocked()
 	items := make([]lo.Entry[string, any], 0)
-	for k, v := range c.data {
-		if filter != nil && !filter(v) {
+	for k, ent := range c.data {
+		if filter != nil && !filter(ent.value) {
 			continue
 		}
-		items = append(items, lo.Entry[string, any]{Key: k, Value: v})
+		items = append(items, lo.Entry[string, any]{Key: k, Value: ent.value})
 	}
+	c.mu.Unlock()
 
 	// Default ordering: ascending by key
 	if compare == nil {
