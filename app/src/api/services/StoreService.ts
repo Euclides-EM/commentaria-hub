@@ -18,7 +18,7 @@ export class StoreService {
         /**
          * If true, performs a dry run without deleting files
          */
-        dryRun?: 'true' | 'false',
+        dryRun?: boolean,
     }): CancelablePromise<void> {
         return __request(OpenAPI, {
             method: 'DELETE',

@@ -40,6 +40,9 @@ func authorized(r *http.Request) (*http.Request, bool) {
 	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) {
 		return r, true
 	}
+	if strings.HasSuffix(r.URL.Path, "/search") && r.Method == http.MethodPost {
+		return r, true
+	}
 
 	auth := r.Header.Get("Authorization")
 	token, ok := strings.CutPrefix(auth, "Bearer ")

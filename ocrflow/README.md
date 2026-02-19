@@ -25,6 +25,7 @@ To get the `ROBOFLOW_API_KEY`, sign up for a free account at Roboflow (https://r
 Then, from the `ocrflow` root directory, run the following commands to generate necessary files and start the application:
 ```bash
 # First time:
+brew install opencv
 go install github.com/swaggo/swag/cmd/swag@latest
 go get github.com/swaggo/http-swagger
 

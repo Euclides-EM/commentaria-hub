@@ -2,7 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { model_AnnotationExpectedBlocks } from '../models/model_AnnotationExpectedBlocks';
+import type { annotation_ExpectedBlocks } from '../models/annotation_ExpectedBlocks';
 import type { model_Dataset } from '../models/model_Dataset';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
@@ -38,34 +38,34 @@ export class DatasetsService {
     }
     /**
      * Create Dataset
-     * Create a new dataset.
+     * Create a new dataset. Use async=true to return immediately with status "creating"; poll GET /datasets/{id} for status "ready" or "failed".
      * @returns model_Dataset OK
      * @throws ApiError
      */
     public static postDatasets({
         dataset,
-        forceOverwrite,
-        skipDeskew,
+        enforceSingleDataset,
+        async,
     }: {
         /**
          * Dataset to create
          */
         dataset: model_Dataset,
         /**
-         * Force overwrite if dataset already exists
+         * If true, dataset will only be created if no other dataset exists
          */
-        forceOverwrite?: string,
+        enforceSingleDataset?: boolean,
         /**
-         * Skip deskewing of images
+         * If true, return immediately and create in background (status creating → ready or failed)
          */
-        skipDeskew?: string,
+        async?: boolean,
     }): CancelablePromise<model_Dataset> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets',
             query: {
-                'force_overwrite': forceOverwrite,
-                'skip_deskew': skipDeskew,
+                'enforce_single_dataset': enforceSingleDataset,
+                'async': async,
             },
             body: dataset,
         });
@@ -151,7 +151,7 @@ export class DatasetsService {
     /**
      * List Suggested Annotation Reviews for Dataset
      * Get a list of suggested annotation reviews for a specific dataset.
-     * @returns model_AnnotationExpectedBlocks OK
+     * @returns annotation_ExpectedBlocks OK
      * @throws ApiError
      */
     public static getDatasetsSuggestedReviews({
@@ -161,7 +161,7 @@ export class DatasetsService {
          * Dataset ID
          */
         dataSetId: string,
-    }): CancelablePromise<Array<Array<model_AnnotationExpectedBlocks>>> {
+    }): CancelablePromise<Array<Array<annotation_ExpectedBlocks>>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/datasets/{dataSetId}/suggested_reviews',

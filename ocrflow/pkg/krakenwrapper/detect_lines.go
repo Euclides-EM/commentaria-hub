@@ -1,16 +1,31 @@
 package krakenwrapper
 
 import (
+	"context"
 	_ "embed"
 	"fmt"
 	"os"
 	"path"
 	"path/filepath"
+	"runtime"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
+	"golang.org/x/sync/errgroup"
 )
+
+// maxDetectLinesWorkers limits concurrent kraken segment processes (CPU-bound subprocess).
+func maxDetectLinesWorkers() int {
+	n := runtime.NumCPU()
+	if n < 2 {
+		return 2
+	}
+	if n > 8 {
+		return 8
+	}
+	return n
+}
 
 func DetectLines(imgDir, altoDir string, detectInCategories, ignoreCategories []string) error {
 	des, err := os.ReadDir(altoDir)
@@ -18,18 +33,37 @@ func DetectLines(imgDir, altoDir string, detectInCategories, ignoreCategories []
 		return err
 	}
 
+	var jobs []struct{ imgPath, altoPath string }
 	for _, de := range des {
 		if !de.IsDir() && filepath.Ext(de.Name()) == ".xml" {
 			imgPath := path.Join(imgDir, strings.TrimSuffix(de.Name(), ".xml")+".png")
 			altoPath := path.Join(altoDir, de.Name())
-
-			err2 := detectLinesInFile(imgPath, altoPath, detectInCategories, ignoreCategories)
-			if err2 != nil {
-				return err2
-			}
+			jobs = append(jobs, struct{ imgPath, altoPath string }{imgPath, altoPath})
 		}
 	}
-	return nil
+
+	if len(jobs) == 0 {
+		return nil
+	}
+
+	workers := maxDetectLinesWorkers()
+	sem := make(chan struct{}, workers)
+	grp, ctx := errgroup.WithContext(context.Background())
+
+	for _, job := range jobs {
+		job := job
+		grp.Go(func() error {
+			select {
+			case <-ctx.Done():
+				return ctx.Err()
+			case sem <- struct{}{}:
+				defer func() { <-sem }()
+			}
+			return detectLinesInFile(job.imgPath, job.altoPath, detectInCategories, ignoreCategories)
+		})
+	}
+
+	return grp.Wait()
 }
 
 func detectLinesInFile(imgPath string, altoPath string, detectInCategories, ignoreCategories []string) error {

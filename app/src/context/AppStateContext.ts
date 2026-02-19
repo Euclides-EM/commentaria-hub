@@ -1,8 +1,9 @@
 import { createContext } from 'react'
-import type { model_Annotation, model_Dataset } from '../api'
+import type { annotation_Annotation, model_Dataset } from '../api'
 
 export interface AppState {
   viewingModels: boolean
+  viewingGroundTruths: boolean
   datasetId: string
   annotationId: string
   currentPage: number
@@ -10,7 +11,7 @@ export interface AppState {
 
 export interface AppStateContextType {
   dataset: model_Dataset | null
-  annotation: model_Annotation | null
+  annotation: annotation_Annotation | null
   state: AppState
   setState: (updates: Partial<AppState>) => void
   jumpToPage: (nextPage: number) => void

@@ -2,8 +2,13 @@ package store
 
 import (
 	"database/sql"
+	"fmt"
+	"slices"
+	"strings"
+	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/ocrflow"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/samber/lo"
 )
 
 const FacsimileIDPrefix = "fac"
@@ -12,23 +17,23 @@ type FacsimileSQL struct {
 	BaseSQL
 }
 
-func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*ocrflow.Facsimile, error) {
-	rows, err := s.db.Query(`
-		SELECT id, url, main_text_pages, created_at, updated_at, name, description
-		FROM facsimiles
-		WHERE edition_id = ?
-	`, editionID)
+func (s *FacsimileSQL) ListFacsimiles(editionIDs []string) ([]*model.Facsimile, error) {
+	q := `SELECT id, edition_id, url, main_text_pages, created_at, updated_at, name, description FROM facsimiles`
+	if len(editionIDs) > 0 {
+		q += ` WHERE edition_id IN (%s)`
+		q = fmt.Sprintf(q, strings.Join(slices.Repeat([]string{"?"}, len(editionIDs)), ", "))
+	}
+	rows, err := s.db.Query(q, lo.ToAnySlice(editionIDs)...)
 	if err != nil {
 		return nil, err
 	}
 	defer rows.Close()
-
-	var facsimiles []*ocrflow.Facsimile
-
+	var facsimiles []*model.Facsimile
 	for rows.Next() {
-		f := &ocrflow.Facsimile{}
-		if err := rows.Scan(
+		f := &model.Facsimile{}
+		if err = rows.Scan(
 			&f.ID,
+			&f.EditionID,
 			&f.ScanURL,
 			&f.MainTextPages,
 			&f.CreatedAt,
@@ -40,23 +45,22 @@ func (s *FacsimileSQL) ListFacsimilesByEditionID(editionID string) ([]*ocrflow.F
 		}
 		facsimiles = append(facsimiles, f)
 	}
-
-	if err := rows.Err(); err != nil {
+	if err = rows.Err(); err != nil {
 		return nil, err
 	}
-
 	return facsimiles, nil
 }
 
-func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (*ocrflow.Facsimile, error) {
-	f := &ocrflow.Facsimile{}
+func (s *FacsimileSQL) GetFacsimileByID(facsimileID string) (*model.Facsimile, error) {
+	f := &model.Facsimile{}
 
 	err := s.db.QueryRow(`
-		SELECT id, url, main_text_pages, created_at, updated_at, name, description
+		SELECT id, edition_id, url, main_text_pages, created_at, updated_at, name, description
 		FROM facsimiles
-		WHERE edition_id = ? AND id = ?
-	`, editionKey, facsimileID).Scan(
+		WHERE id = ?
+	`, facsimileID).Scan(
 		&f.ID,
+		&f.EditionID,
 		&f.ScanURL,
 		&f.MainTextPages,
 		&f.CreatedAt,
@@ -74,15 +78,36 @@ func (s *FacsimileSQL) GetFacsimileByID(editionKey string, facsimileID string) (
 	return f, nil
 }
 
-func (s *FacsimileSQL) InsertFacsimile(editionId string, f *ocrflow.Facsimile) (*ocrflow.Facsimile, error) {
+func (s *FacsimileSQL) InsertFacsimile(f *model.Facsimile) (*model.Facsimile, error) {
 	_, err := s.db.Exec(`
 		INSERT INTO facsimiles (id, edition_id, url, main_text_pages, created_at, updated_at, name, description, url)
 		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`, f.ID, editionId, f.ScanURL, f.MainTextPages, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, f.ScanURL)
+	`, f.ID, f.EditionID, f.ScanURL, f.MainTextPages, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, f.ScanURL)
 	if err != nil {
 		return nil, err
 	}
 	return f, nil
+}
+
+func (s *FacsimileSQL) UpdateFacsimile(f *model.Facsimile) (*model.Facsimile, error) {
+	f.UpdatedAt = time.Now()
+	_, err := s.db.Exec(`
+		UPDATE facsimiles
+		SET edition_id = ?, url = ?, main_text_pages = ?, updated_at = ?, name = ?, description = ?
+		WHERE id = ?
+	`, f.EditionID, f.ScanURL, f.MainTextPages, f.UpdatedAt, f.Name, f.Description, f.ID)
+	if err != nil {
+		return nil, err
+	}
+	return s.GetFacsimileByID(f.ID)
+}
+
+func (s *FacsimileSQL) DeleteFacsimile(id string) error {
+	_, err := s.db.Exec(`
+		DELETE FROM facsimiles
+		WHERE id = ?
+	`, id)
+	return err
 }
 
 func NewFacsimileSql(db *sql.DB) *FacsimileSQL {

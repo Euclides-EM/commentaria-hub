@@ -4,8 +4,10 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"runtime"
 	"slices"
 	"strings"
+	"sync"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
 )
@@ -45,7 +47,7 @@ func processImages(images []string, outputDir, segmentationModel string) <-chan 
 
 	// todo: as opposed to the flow that converts from yolo to alto, here we do not copy the images to the output dir
 	//  Moreover, the filename in the ALTO result might match the input image full path,
-	//  which can be problematic later on, for example, in the Escriptorium upload.
+	//  which can be problematic later on, for example, in the eScriptorium upload.
 
 	errCh := make(chan error, 1)
 
@@ -57,39 +59,118 @@ func processImages(images []string, outputDir, segmentationModel string) <-chan 
 	return errCh
 }
 
+// maxParallelKraken caps the number of concurrent Kraken processes (memory-heavy).
+const maxParallelKraken = 8
+
 func runProcessImages(images []string, outputDir, segmentationModel string) error {
 	inputOutputPairs, err := toInputOutputPairs(images, outputDir)
 	if err != nil {
 		return err
+	}
+	if len(inputOutputPairs) == 0 {
+		return nil
+	}
+
+	workers := runtime.NumCPU()
+	if workers > maxParallelKraken {
+		workers = maxParallelKraken
+	}
+	if workers > len(inputOutputPairs) {
+		workers = len(inputOutputPairs)
+	}
+	if workers < 1 {
+		workers = 1
+	}
+
+	chunks := chunkPairs(inputOutputPairs, workers)
+	var firstErr error
+	var mu sync.Mutex
+	var wg sync.WaitGroup
+	wg.Add(len(chunks))
+	for _, chunk := range chunks {
+		chunk := chunk
+		go func() {
+			defer wg.Done()
+			if err := runKrakenSegment(chunk, segmentationModel); err != nil {
+				mu.Lock()
+				if firstErr == nil {
+					firstErr = err
+				}
+				mu.Unlock()
+			}
+		}()
+	}
+	wg.Wait()
+	if firstErr != nil {
+		return firstErr
+	}
+
+	// Fix fileName in ALTO XML for all outputs (parallel by file).
+	var fixWg sync.WaitGroup
+	var fixMu sync.Mutex
+	var fixErr error
+	fixWg.Add(len(inputOutputPairs))
+	for _, pair := range inputOutputPairs {
+		outputPath := pair[1]
+		go func() {
+			defer fixWg.Done()
+			if err := FixAltoFileName(outputPath, outputPath); err != nil {
+				fixMu.Lock()
+				if fixErr == nil {
+					fixErr = fmt.Errorf("could not fix ALTO file name in %s: %w", outputPath, err)
+				}
+				fixMu.Unlock()
+			}
+		}()
+	}
+	fixWg.Wait()
+	if fixErr != nil {
+		return fixErr
+	}
+	return nil
+}
+
+// chunkPairs splits pairs into n roughly equal chunks for parallel workers.
+func chunkPairs(pairs [][2]string, n int) [][][2]string {
+	if n <= 0 || len(pairs) == 0 {
+		return nil
+	}
+	if n >= len(pairs) {
+		chunks := make([][][2]string, len(pairs))
+		for i := range pairs {
+			chunks[i] = [][2]string{pairs[i]}
+		}
+		return chunks
+	}
+	chunks := make([][][2]string, n)
+	base, extra := len(pairs)/n, len(pairs)%n
+	idx := 0
+	for i := 0; i < n; i++ {
+		size := base
+		if i < extra {
+			size++
+		}
+		chunks[i] = pairs[idx : idx+size]
+		idx += size
+	}
+	return chunks
+}
+
+func runKrakenSegment(pairs [][2]string, segmentationModel string) error {
+	if len(pairs) == 0 {
+		return nil
 	}
 	args := []string{
 		"kraken",
 		"--device", "cpu",
 		"--alto",
 	}
-
-	for _, pair := range inputOutputPairs {
-		inputPath := pair[0]
-		outputPath := pair[1]
-		args = append(args, "-i", inputPath, outputPath)
+	for _, pair := range pairs {
+		args = append(args, "-i", pair[0], pair[1])
 	}
-
 	args = append(args, "segment", "--yolo", segmentationModel)
-
-	//if ocrModel != "" {
-	//	args = append(args, "ocr", "--model", ocrModel)
-	//}
-
 	if err := envexec.PythonCmd("yaltai", args...); err != nil {
-		return fmt.Errorf("kraken recognition failed: %w", err)
-	}
-
-	// go over all output files and fix the fileName element in the ALTO XML
-	for _, pair := range inputOutputPairs {
-		outputPath := pair[1]
-		if err := FixAltoFileName(outputPath, outputPath); err != nil {
-			return fmt.Errorf("could not fix ALTO file name in %s: %w", outputPath, err)
-		}
+		return fmt.Errorf("kraken segment failed: %w", err)
 	}
 	return nil
 }

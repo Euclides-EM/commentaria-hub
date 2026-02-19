@@ -34,21 +34,23 @@ export function Header({ onShowLogin }: HeaderProps) {
               >
                 {username.charAt(0)}
               </button>
-              <div className="absolute right-0 mt-2 w-48 rounded-md border border-gray-200 bg-white shadow-lg p-2 hidden group-hover:block group-focus-within:block">
-                <div className="px-2 py-2 text-xs text-gray-500">
-                  Signed in as
-                  <div className="text-sm font-semibold text-gray-900 truncate">
-                    {username}
+              <div className="absolute right-0 top-full pt-2 hidden group-hover:block group-focus-within:block">
+                <div className="w-48 rounded-md border border-gray-200 bg-white shadow-lg p-2">
+                  <div className="px-2 py-2 text-xs text-gray-500">
+                    Signed in as
+                    <div className="text-sm font-semibold text-gray-900 truncate">
+                      {username}
+                    </div>
                   </div>
+                  <div className="border-t border-gray-100 my-1" />
+                  <Button
+                    variant="danger"
+                    onClick={clearAuth}
+                    className="w-full px-2 py-1 text-xs transition-colors"
+                  >
+                    Sign out
+                  </Button>
                 </div>
-                <div className="border-t border-gray-100 my-1" />
-                <Button
-                  variant="danger"
-                  onClick={clearAuth}
-                  className="w-full px-2 py-1 text-xs transition-colors"
-                >
-                  Sign out
-                </Button>
               </div>
             </div>
           ) : (

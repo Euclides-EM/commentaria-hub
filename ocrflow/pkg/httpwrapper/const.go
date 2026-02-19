@@ -1,3 +1,3 @@
 package httpwrapper
 
-const MaxUploadSize = 100 << 20 // 100MB
+const MaxUploadSize = 512 << 20 // 512MB (for model .pt uploads and other large files)

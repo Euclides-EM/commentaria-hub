@@ -2,17 +2,20 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { annotation_Annotation } from '../models/annotation_Annotation';
 import type { annotationrule_AddMargin } from '../models/annotationrule_AddMargin';
 import type { annotationrule_ApplyRules } from '../models/annotationrule_ApplyRules';
 import type { annotationrule_LinesDetect } from '../models/annotationrule_LinesDetect';
 import type { annotationrule_ReassignTextLinesByTolerance } from '../models/annotationrule_ReassignTextLinesByTolerance';
 import type { annotationrule_RemoveCategories } from '../models/annotationrule_RemoveCategories';
 import type { annotationrule_RemoveOverlap } from '../models/annotationrule_RemoveOverlap';
+import type { annotationrule_RecategorizeByAlignment } from '../models/annotationrule_RecategorizeByAlignment';
+import type { annotationrule_ResolveOverlapWithPriority } from '../models/annotationrule_ResolveOverlapWithPriority';
+import type { annotationrule_LimitCategoryZones } from '../models/annotationrule_LimitCategoryZones';
 import type { annotationrule_Segment } from '../models/annotationrule_Segment';
 import type { annotationrule_SlicePages } from '../models/annotationrule_SlicePages';
 import type { annotationrule_Stretch } from '../models/annotationrule_Stretch';
 import type { annotationrule_TextBlockCorrections } from '../models/annotationrule_TextBlockCorrections';
-import type { model_Annotation } from '../models/model_Annotation';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -20,7 +23,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Apply Rules to Annotation
      * Apply specific rules to an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApply({
@@ -40,7 +43,7 @@ export class AnnotationsApplyRulesService {
          * Annotation apply rules
          */
         annotationApplyRules: annotationrule_ApplyRules,
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply',
@@ -54,7 +57,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Add Margin Rule to Annotation
      * add margin to an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplyAddMargin({
@@ -79,7 +82,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/add_margin',
@@ -96,7 +99,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Detect Lines in Annotation
      * Detect lines in an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplyDetectLines({
@@ -121,7 +124,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/detect_lines',
@@ -138,7 +141,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Reassign Text Lines by Tolerance in Annotation
      * Reassign text lines by tolerance in an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplyReassignTextLinesByTolerance({
@@ -163,7 +166,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance',
@@ -180,7 +183,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Remove Categories in Annotation
      * Remove categories in an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplyRemoveCategories({
@@ -205,7 +208,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/remove_categories',
@@ -222,7 +225,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Remove Overlap in Annotation
      * Remove overlapping annotations in an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplyRemoveOverlap({
@@ -247,7 +250,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/remove_overlap',
@@ -262,9 +265,99 @@ export class AnnotationsApplyRulesService {
         });
     }
     /**
+     * Resolve Overlap with Priority in Annotation
+     * Remove zones of SuppressedCategory that overlap DominantCategory by at least MinOverlap percent.
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyResolveOverlapWithPriority({
+        dataSetId,
+        id,
+        annotationSegmentRule,
+        action = 'overwrite',
+    }: {
+        dataSetId: string,
+        id: string,
+        annotationSegmentRule: annotationrule_ResolveOverlapWithPriority,
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/resolve_overlap_with_priority',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationSegmentRule,
+        });
+    }
+    /**
+     * Recategorize by Alignment in Annotation
+     * Recategorize zones that are horizontally or vertically aligned with zones of another category (within pixel tolerance).
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyRecategorizeByAlignment({
+        dataSetId,
+        id,
+        annotationSegmentRule,
+        action = 'overwrite',
+    }: {
+        dataSetId: string,
+        id: string,
+        annotationSegmentRule: annotationrule_RecategorizeByAlignment,
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/recategorize_by_alignment',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationSegmentRule,
+        });
+    }
+    /**
+     * Limit Category Zones in Annotation
+     * Keep at most max_count zones of a category per page, keeping those closest to the specified page side (top/bottom/left/right).
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyLimitCategoryZones({
+        dataSetId,
+        id,
+        annotationSegmentRule,
+        action = 'overwrite',
+    }: {
+        dataSetId: string,
+        id: string,
+        annotationSegmentRule: annotationrule_LimitCategoryZones,
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/limit_category_zones',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationSegmentRule,
+        });
+    }
+    /**
      * Apply Segment Rule to Annotation
      * Apply a segment rule to an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplySegment({
@@ -289,7 +382,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/segment',
@@ -306,7 +399,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Apply Slice Pages Rule to Annotation
      * Apply a slice pages rule to an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplySlicePages({
@@ -331,7 +424,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/slice_pages',
@@ -348,7 +441,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Apply Stretch Rule to Annotation
      * Apply a stretch rule to an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplyStretch({
@@ -373,7 +466,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/stretch',
@@ -390,7 +483,7 @@ export class AnnotationsApplyRulesService {
     /**
      * Apply Text Block Corrections to Annotation
      * Apply text block corrections to an annotation.
-     * @returns model_Annotation OK
+     * @returns annotation_Annotation OK
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApplyTextBlockCorrections({
@@ -415,7 +508,7 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<model_Annotation> {
+    }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/text_block_corrections',

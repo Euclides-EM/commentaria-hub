@@ -1,9 +1,14 @@
+import { useState } from 'react'
 import { AnnotationDetailsTab } from './annotation/details/AnnotationDetailsTab.tsx'
 import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsTab.tsx'
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
-import { AnnotationActions } from './annotation/AnnotationActions.tsx'
 import { ModelsTable } from './models/ModelsTable.tsx'
+import { GroundTruthsTable } from './groundTruths/GroundTruthsTable.tsx'
+import { Button } from './core/Button.tsx'
+import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
+import { DatasetDetails } from './dataset/DatasetDetails.tsx'
+import { useAuthStore } from '../store/authStore.ts'
 
 type Tab = 'details' | 'text'
 
@@ -38,26 +43,48 @@ export function Main() {
     'annotation-tab',
     { defaultValue: 'details' },
   )
+  const [isCreateDatasetOpen, setIsCreateDatasetOpen] = useState(false)
+  const isAuthenticated = !!useAuthStore((store) => store.token)
   const { state } = useAppState()
 
   if (state.viewingModels) {
     return <ModelsTable />
   }
+  if (state.viewingGroundTruths) {
+    return <GroundTruthsTable />
+  }
 
   if (!state.datasetId) {
     return (
-      <div className="w-full m-10 font-medium text-center">
-        Please select a dataset to get started.
-        <img
-          src={diagramUrl}
-          alt="Diagram"
-          className="mx-auto h-64 w-auto mt-8"
+      <>
+        <div className="w-full m-10 font-medium text-center">
+          <p>Please select a dataset to get started.</p>
+          {isAuthenticated && (
+            <div className="mt-4 flex flex-wrap gap-3 justify-center">
+              <Button
+                onClick={() => setIsCreateDatasetOpen(true)}
+                variant="primary"
+                className="px-3 py-2 text-sm w-40"
+              >
+                Create dataset
+              </Button>
+            </div>
+          )}
+          <img
+            src={diagramUrl}
+            alt="Diagram"
+            className="mx-auto h-64 w-auto mt-8"
+          />
+        </div>
+        <CreateDatasetModal
+          isOpen={isCreateDatasetOpen}
+          onClose={() => setIsCreateDatasetOpen(false)}
         />
-      </div>
+      </>
     )
   }
   if (!state.annotationId) {
-    return <AnnotationActions dataSetId={state.datasetId} />
+    return <DatasetDetails />
   }
 
   return (

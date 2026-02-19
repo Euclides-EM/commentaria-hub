@@ -7,6 +7,7 @@ export function useDatasetsQuery() {
   return useQuery({
     queryKey: datasetsQueryKey(),
     queryFn: () => DatasetsService.getDatasets({}),
+    refetchInterval: 10 * 1000,
   })
 }
 

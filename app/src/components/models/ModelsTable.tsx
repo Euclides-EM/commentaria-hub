@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type {
   common_OCRModelType,
-  model_Annotation,
+  annotation_Annotation,
   model_Model,
 } from '../../api'
 import { AnnotationsService, ApiError } from '../../api'
@@ -32,8 +32,6 @@ type SortKey =
   | 'type'
   | 'algorithm'
   | 'base'
-  | 'baseAnnotations'
-  | 'usedAnnotations'
   | 'updated'
 type SortDirection = 'asc' | 'desc'
 
@@ -52,10 +50,6 @@ const getSortValue = (model: model_Model, key: SortKey) => {
       return (model.algorithm_family || '').toLowerCase()
     case 'base':
       return (model.base_model_id || '').toLowerCase()
-    case 'baseAnnotations':
-      return model.base_annotations?.length ?? 0
-    case 'usedAnnotations':
-      return model.used_in_annotations?.length ?? 0
     case 'updated': {
       const raw = model.updated_at || model.created_at
       const time = raw ? new Date(raw).getTime() : 0
@@ -66,7 +60,7 @@ const getSortValue = (model: model_Model, key: SortKey) => {
   }
 }
 
-type BaseAnnotationLookup = Record<string, model_Annotation[]>
+type BaseAnnotationLookup = Record<string, annotation_Annotation[]>
 
 function AnnotationsCell({
   references,
@@ -229,6 +223,7 @@ export function ModelsTable() {
   const [modelToDelete, setModelToDelete] = useState<model_Model | null>(null)
   const [modelToEdit, setModelToEdit] = useState<model_Model | null>(null)
   const [isImportOpen, setIsImportOpen] = useState(false)
+  const [copiedId, setCopiedId] = useState<string | null>(null)
   const { modelSearchPrefill, setModelSearchPrefill } = useAppState()
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
@@ -277,6 +272,7 @@ export function ModelsTable() {
     }
     return rows.filter((model) => {
       const haystack = [
+        model.id,
         model.name,
         model.description,
         model.type,
@@ -319,7 +315,7 @@ export function ModelsTable() {
 
   const renderSortHeader = (label: string, key: SortKey) => {
     const isActive = sortConfig.key === key
-    const arrow = isActive ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''
+    const arrow = isActive ? (sortConfig.direction === 'asc' ? '▲' : '▼') : null
     return (
       <button
         type="button"
@@ -327,7 +323,7 @@ export function ModelsTable() {
         className={`inline-flex items-center gap-1 ${isActive ? 'text-gray-800' : 'text-gray-500 hover:text-gray-700'}`}
       >
         <span>{label}</span>
-        <span className="text-[10px]">{arrow}</span>
+        {arrow && <span className="text-[10px]">{arrow}</span>}
       </button>
     )
   }
@@ -346,6 +342,7 @@ export function ModelsTable() {
     type: string
     algorithm_family?: string
     base_model_id?: string
+    base_annotations?: model_Model['base_annotations']
   }) => {
     if (!modelToEdit?.id) {
       return
@@ -359,6 +356,8 @@ export function ModelsTable() {
           type: updates.type as common_OCRModelType,
           algorithm_family: updates.algorithm_family as 'yolo' | undefined,
           base_model_id: updates.base_model_id,
+          base_annotations: updates.base_annotations ?? modelToEdit.base_annotations,
+          categories: modelToEdit.categories,
         },
       },
       {
@@ -408,6 +407,14 @@ export function ModelsTable() {
     createMutation.reset()
   }
 
+  const handleCopyId = (id: string | undefined) => {
+    if (!id) return
+    void navigator.clipboard.writeText(id).then(() => {
+      setCopiedId(id)
+      setTimeout(() => setCopiedId(null), 2000)
+    })
+  }
+
   useEffect(() => {
     if (!modelSearchPrefill) {
       return
@@ -432,7 +439,7 @@ export function ModelsTable() {
             value={searchQuery}
             onChange={setSearchQuery}
             placeholder="Search models..."
-            className="w-[22rem] max-w-full"
+            className="w-88 max-w-full"
           />
         </div>
         {isAuthenticated && (
@@ -471,13 +478,10 @@ export function ModelsTable() {
             <div className="flex-1 min-h-0">
               <div className="h-full overflow-auto rounded-lg border border-gray-200 bg-white">
                 <table className="min-w-full text-sm">
-                  <thead className="bg-gray-50 text-xs uppercase text-gray-500">
+                  <thead className="bg-gray-50 text-xs text-gray-500">
                     <tr>
                       <th className="px-4 py-3 text-left">
-                        {renderSortHeader(
-                          'Base Annotations',
-                          'baseAnnotations',
-                        )}
+                        Base Annotations
                       </th>
                       <th className="px-4 py-3 text-left">
                         {renderSortHeader('Model', 'name')}
@@ -492,10 +496,7 @@ export function ModelsTable() {
                         {renderSortHeader('Base Model', 'base')}
                       </th>
                       <th className="px-4 py-3 text-left">
-                        {renderSortHeader(
-                          'Used in Annotations',
-                          'usedAnnotations',
-                        )}
+                        Used in Annotations
                       </th>
                       <th className="px-4 py-3 text-left">
                         {renderSortHeader('Updated', 'updated')}
@@ -537,15 +538,23 @@ export function ModelsTable() {
                             </span>
                           </td>
                           <UsedAnnotationsCell model={model} />
-                          <td className="px-4 py-3 text-gray-700">
+                          <td className="px-4 py-3 text-gray-700 text-xs whitespace-nowrap">
                             <Timestamp
                               hideFullDate
                               date={model.updated_at || model.created_at}
                             />
                           </td>
                           {isAuthenticated && (
-                            <td className="px-4 py-3">
+                            <td className="px-4 py-3 whitespace-nowrap">
                               <div className="flex items-center justify-end gap-2">
+                                <Button
+                                  className="px-2 py-1 text-xs"
+                                  onClick={() => handleCopyId(model.id)}
+                                >
+                                  {copiedId === model.id
+                                    ? 'Copied!'
+                                    : 'Copy ID'}
+                                </Button>
                                 <Button
                                   className="px-2 py-1 text-xs"
                                   onClick={() => handleEditOpen(model)}

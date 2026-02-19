@@ -1,14 +1,17 @@
 import type {
   annotationrule_AddMargin,
   annotationrule_LinesDetect,
+  annotationrule_LimitCategoryZones,
+  annotationrule_RecategorizeByAlignment,
   annotationrule_ReassignTextLinesByTolerance,
   annotationrule_RemoveCategories,
   annotationrule_RemoveOverlap,
+  annotationrule_ResolveOverlapWithPriority,
   annotationrule_Segment,
   annotationrule_SlicePages,
   annotationrule_Stretch,
   annotationrule_TextBlockCorrections,
-  model_Annotation,
+  annotation_Annotation,
 } from '../api'
 
 export type AnnotationRule = { type: string } & (
@@ -19,6 +22,9 @@ export type AnnotationRule = { type: string } & (
   | annotationrule_LinesDetect
   | annotationrule_RemoveCategories
   | annotationrule_RemoveOverlap
+  | annotationrule_ResolveOverlapWithPriority
+  | annotationrule_RecategorizeByAlignment
+  | annotationrule_LimitCategoryZones
   | annotationrule_ReassignTextLinesByTolerance
   | annotationrule_TextBlockCorrections
 )
@@ -59,7 +65,7 @@ export const getRuleDisplayName = (rule: AnnotationRule): string => {
 
 export const isRuleApplied = (
   suggestedRule: AnnotationRule,
-  annotation: model_Annotation,
+  annotation: annotation_Annotation,
 ): boolean => {
   const serializedRule = JSON.stringify(suggestedRule)
   return (

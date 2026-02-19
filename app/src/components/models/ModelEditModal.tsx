@@ -1,9 +1,38 @@
-import { useMemo, useState, type FormEvent } from 'react'
+import { useEffect, useMemo, useState, type FormEvent } from 'react'
 import type { model_Model } from '../../api'
+import type { model_AnnotationReference } from '../../api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
+import { ListAdder } from '../core/ListAdder'
 import Select from 'react-select'
 import { selectStyles } from '../../styles/selectStyles.ts'
+import { useDatasetsQuery } from '../../queries/datasets'
+import { useAnnotationsQuery } from '../../queries/annotations'
+
+type BaseAnnotationRow = {
+  id: number
+  datasetId: string | null
+  annotationId: string | null
+}
+
+const emptyRow = (id: number): BaseAnnotationRow => ({
+  id,
+  datasetId: null,
+  annotationId: null,
+})
+
+function refsToRows(
+  refs: model_AnnotationReference[] | undefined,
+  startId: number,
+): { rows: BaseAnnotationRow[]; nextId: number } {
+  if (!refs?.length) return { rows: [], nextId: startId }
+  const rows = refs.map((ref, i) => ({
+    id: startId + i,
+    datasetId: ref.dataset_id ?? null,
+    annotationId: ref.id ?? null,
+  }))
+  return { rows, nextId: startId + rows.length }
+}
 
 interface ModelEditModalProps {
   model: model_Model | null
@@ -15,6 +44,7 @@ interface ModelEditModalProps {
     type: string
     algorithm_family?: string
     base_model_id?: string
+    base_annotations?: model_AnnotationReference[]
   }) => void
   isSaving?: boolean
   errorMessage?: string | null
@@ -28,12 +58,26 @@ export function ModelEditModal({
   isSaving = false,
   errorMessage = null,
 }: ModelEditModalProps) {
+  const { rows: initialBaseRows, nextId: initialRowId } = useMemo(
+    () => refsToRows(model?.base_annotations, 0),
+    [model?.base_annotations],
+  )
   const [name, setName] = useState(() => model?.name || '')
   const [description, setDescription] = useState(() => model?.description || '')
   const [baseModelId, setBaseModelId] = useState<string | null>(
     () => model?.base_model_id || null,
   )
+  const [baseAnnotationRows, setBaseAnnotationRows] =
+    useState<BaseAnnotationRow[]>(() => initialBaseRows)
+  const [rowCounter, setRowCounter] = useState(() => initialRowId)
   const [error, setError] = useState<string | null>(null)
+  const { data: datasets } = useDatasetsQuery()
+
+  useEffect(() => {
+    const { rows, nextId } = refsToRows(model?.base_annotations, 0)
+    setBaseAnnotationRows(rows)
+    setRowCounter(nextId)
+  }, [model?.id])
 
   const baseModelOptions = useMemo(() => {
     return allModels
@@ -44,6 +88,24 @@ export function ModelEditModal({
       }))
   }, [allModels, model?.id])
 
+  const handleAddBaseAnnotation = () => {
+    setBaseAnnotationRows((current) => [...current, emptyRow(rowCounter + 1)])
+    setRowCounter((current) => current + 1)
+  }
+
+  const handleRemoveBaseAnnotation = (id: number) => {
+    setBaseAnnotationRows((current) => current.filter((row) => row.id !== id))
+  }
+
+  const handleUpdateBaseAnnotation = (
+    id: number,
+    updates: Partial<BaseAnnotationRow>,
+  ) => {
+    setBaseAnnotationRows((current) =>
+      current.map((row) => (row.id === id ? { ...row, ...updates } : row)),
+    )
+  }
+
   const handleSubmit = (event?: FormEvent<HTMLFormElement>) => {
     if (!model) {
       return
@@ -53,12 +115,18 @@ export function ModelEditModal({
       setError('Please provide a model name.')
       return
     }
+    const base_annotations: model_AnnotationReference[] = baseAnnotationRows
+      .filter((row): row is BaseAnnotationRow & { datasetId: string; annotationId: string } =>
+        !!row.datasetId && !!row.annotationId,
+      )
+      .map((row) => ({ dataset_id: row.datasetId, id: row.annotationId }))
     onSubmit({
       name: name.trim(),
       description: description.trim() || undefined,
       type: model.type || 'segment',
       algorithm_family: model.algorithm_family || undefined,
       base_model_id: baseModelId || undefined,
+      base_annotations,
     })
   }
 
@@ -131,6 +199,25 @@ export function ModelEditModal({
             />
           </div>
 
+          <ListAdder
+            label="Base annotations (optional)"
+            items={baseAnnotationRows}
+            onAdd={handleAddBaseAnnotation}
+            isDisabled={isSaving}
+            emptyLabel="No base annotations selected."
+            renderItem={(row) => (
+              <BaseAnnotationPicker
+                row={row}
+                datasets={datasets ?? []}
+                isSaving={isSaving}
+                onChange={(updates) =>
+                  handleUpdateBaseAnnotation(row.id, updates)
+                }
+                onRemove={() => handleRemoveBaseAnnotation(row.id)}
+              />
+            )}
+          />
+
           {error && <ErrorMessage message={error} />}
           {!error && errorMessage && <ErrorMessage message={errorMessage} />}
         </div>
@@ -154,6 +241,97 @@ export function ModelEditModal({
           </Button>
         </div>
       </form>
+    </div>
+  )
+}
+
+type BaseAnnotationPickerProps = {
+  row: BaseAnnotationRow
+  datasets: Array<{ id?: string; name?: string }>
+  isSaving: boolean
+  onChange: (updates: Partial<BaseAnnotationRow>) => void
+  onRemove: () => void
+}
+
+function BaseAnnotationPicker({
+  row,
+  datasets,
+  isSaving,
+  onChange,
+  onRemove,
+}: BaseAnnotationPickerProps) {
+  const datasetId = row.datasetId || ''
+  const { data: annotations, isLoading: annotationsLoading } =
+    useAnnotationsQuery(datasetId)
+
+  const datasetOptions = useMemo(
+    () =>
+      datasets
+        .filter((dataset) => dataset.id)
+        .map((dataset) => ({
+          value: dataset.id as string,
+          label: dataset.name || (dataset.id as string),
+        })),
+    [datasets],
+  )
+
+  const annotationOptions = useMemo(() => {
+    if (!annotations) return []
+    return annotations
+      .filter((annotation) => annotation.id)
+      .map((annotation) => ({
+        value: annotation.id as string,
+        label: annotation.name || (annotation.id as string),
+      }))
+  }, [annotations])
+
+  return (
+    <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+      <Select
+        value={
+          datasetOptions.find((option) => option.value === row.datasetId) ||
+          null
+        }
+        onChange={(option: { value: string; label: string } | null) =>
+          onChange({ datasetId: option?.value || null, annotationId: null })
+        }
+        options={datasetOptions}
+        placeholder="Select dataset..."
+        isDisabled={isSaving}
+        styles={selectStyles<{ value: string; label: string }>({
+          controlWidth: 220,
+        })}
+        menuPortalTarget={document.body}
+        menuPosition="fixed"
+      />
+      <Select
+        value={
+          annotationOptions.find(
+            (option) => option.value === row.annotationId,
+          ) || null
+        }
+        onChange={(option: { value: string; label: string } | null) =>
+          onChange({ annotationId: option?.value || null })
+        }
+        options={annotationOptions}
+        placeholder="Select annotation..."
+        isLoading={annotationsLoading}
+        isDisabled={isSaving || !row.datasetId}
+        styles={selectStyles<{ value: string; label: string }>({
+          controlWidth: 260,
+        })}
+        menuPortalTarget={document.body}
+        menuPosition="fixed"
+      />
+      <Button
+        type="button"
+        variant="danger"
+        className="px-2 py-1 text-xs"
+        onClick={onRemove}
+        disabled={isSaving}
+      >
+        Remove
+      </Button>
     </div>
   )
 }

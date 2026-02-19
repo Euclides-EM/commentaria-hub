@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --max-warnings 0",
     "format": "prettier --write .",
-    "gen-api": "openapi -i ../ocrflow/internal/ocrflow/docs/swagger.json -c axios -o ./src/api --useOptions --useUnionTypes"
+    "gen-api": "openapi -i ../ocrflow/internal/docs/swagger.json -c axios -o ./src/api --useOptions --useUnionTypes"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",

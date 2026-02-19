@@ -6,7 +6,7 @@ const modelsQueryKey = () => ['models'] as const
 export function useModelsQuery() {
   return useQuery({
     queryKey: modelsQueryKey(),
-    queryFn: () => ModelsService.getModels({ expand: 'used_in_annotations' }),
+    queryFn: () => ModelsService.getModels({ expand: ['used_in_annotations'] }),
   })
 }
 
@@ -16,7 +16,7 @@ export function useDeleteModelMutation() {
     mutationFn: ({ id, deep }: { id: string; deep?: boolean }) =>
       ModelsService.deleteModels({
         id,
-        deep: deep ? 'true' : undefined,
+        deep: deep || undefined,
       }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: modelsQueryKey() })
