@@ -11,6 +11,7 @@ import type { annotationrule_RemoveCategories } from '../models/annotationrule_R
 import type { annotationrule_RemoveOverlap } from '../models/annotationrule_RemoveOverlap';
 import type { annotationrule_RecategorizeByAlignment } from '../models/annotationrule_RecategorizeByAlignment';
 import type { annotationrule_ResolveOverlapWithPriority } from '../models/annotationrule_ResolveOverlapWithPriority';
+import type { annotationrule_LimitCategoryZones } from '../models/annotationrule_LimitCategoryZones';
 import type { annotationrule_Segment } from '../models/annotationrule_Segment';
 import type { annotationrule_SlicePages } from '../models/annotationrule_SlicePages';
 import type { annotationrule_Stretch } from '../models/annotationrule_Stretch';
@@ -313,6 +314,36 @@ export class AnnotationsApplyRulesService {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/recategorize_by_alignment',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationSegmentRule,
+        });
+    }
+    /**
+     * Limit Category Zones in Annotation
+     * Keep at most max_count zones of a category per page, keeping those closest to the specified page side (top/bottom/left/right).
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyLimitCategoryZones({
+        dataSetId,
+        id,
+        annotationSegmentRule,
+        action = 'overwrite',
+    }: {
+        dataSetId: string,
+        id: string,
+        annotationSegmentRule: annotationrule_LimitCategoryZones,
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/limit_category_zones',
             path: {
                 'dataSetId': dataSetId,
                 'id': id,

@@ -89,6 +89,8 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 				f = func() error { return a.applyResolveOverlapWithPriority(af, t) }
 			case *annotationrule.RecategorizeByAlignment:
 				f = func() error { return a.applyRecategorizeByAlignment(af, t) }
+			case *annotationrule.LimitCategoryZones:
+				f = func() error { return a.applyLimitCategoryZones(af, t) }
 			case *annotationrule.ReassignTextLinesByTolerance:
 				f = func() error { return a.applyReassignTextLinesByTolerance(af, t) }
 			default:
@@ -246,6 +248,13 @@ func (a *AnnotationRuleApplier) applyResolveOverlapWithPriority(af *alto.Alto, t
 func (a *AnnotationRuleApplier) applyRecategorizeByAlignment(af *alto.Alto, t *annotationrule.RecategorizeByAlignment) error {
 	if err := alto.RecategorizeByAlignment(af, t.OriginalCategory, t.TargetCategory, t.RelativeTo.Category, string(t.RelativeTo.Alignment), t.TolerancePx); err != nil {
 		return fmt.Errorf("failed to apply recategorize by alignment %+v: %w", t, err)
+	}
+	return nil
+}
+
+func (a *AnnotationRuleApplier) applyLimitCategoryZones(af *alto.Alto, t *annotationrule.LimitCategoryZones) error {
+	if err := alto.LimitCategoryZones(af, t.Category, t.MaxCount, string(t.KeepPosition)); err != nil {
+		return fmt.Errorf("failed to apply limit category zones %+v: %w", t, err)
 	}
 	return nil
 }

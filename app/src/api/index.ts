@@ -33,6 +33,7 @@ export type { annotationrule_RemoveOverlap } from './models/annotationrule_Remov
 export type { annotationrule_RecategorizeByAlignment } from './models/annotationrule_RecategorizeByAlignment';
 export type { annotationrule_RecategorizeByAlignmentRelativeTo } from './models/annotationrule_RecategorizeByAlignment';
 export type { annotationrule_ResolveOverlapWithPriority } from './models/annotationrule_ResolveOverlapWithPriority';
+export type { annotationrule_LimitCategoryZones } from './models/annotationrule_LimitCategoryZones';
 export type { annotationrule_Segment } from './models/annotationrule_Segment';
 export type { annotationrule_SlicePages } from './models/annotationrule_SlicePages';
 export type { annotationrule_Stretch } from './models/annotationrule_Stretch';

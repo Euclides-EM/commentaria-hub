@@ -238,6 +238,29 @@ func (h *Handlers) ApplyRuleRecategorizeByAlignment(r *http.Request) (any, error
 	return h.applyRuleGeneric(r, &rule)
 }
 
+// ApplyRuleLimitCategoryZones godoc
+// @Summary      Limit Category Zones in Annotation
+// @Description  Keep at most max_count zones of a category per page, keeping those closest to the specified page side (top/bottom/left/right).
+// @Tags         Annotations Apply Rules
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        annotationSegmentRule  body 	annotationrule.LimitCategoryZones  true  "Limit category zones rule"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   annotation.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply/limit_category_zones [put]
+func (h *Handlers) ApplyRuleLimitCategoryZones(r *http.Request) (any, error) {
+	var rule annotationrule.LimitCategoryZones
+	if err := DecodeBody(r, &rule); err != nil {
+		return nil, err
+	}
+	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+
+	return h.applyRuleGeneric(r, &rule)
+}
+
 // ApplyRuleReassignTextLinesByTolerance godoc
 // @Summary      Reassign Text Lines by Tolerance in Annotation
 // @Description  Reassign text lines by tolerance in an annotation.
