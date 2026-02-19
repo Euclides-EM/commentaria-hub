@@ -8,6 +8,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/api"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/diagramcrops"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/migrations"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
@@ -99,6 +100,12 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		log.Printf("warning: failed to update facsimiles from github: %v", err)
 	}
 	log.Printf("finished updating facsimiles from github")
+
+	log.Printf("generating diagram crops metadata...")
+	if err := diagramcrops.Generate(env, diagramcrops.Options{}); err != nil {
+		log.Printf("warning: failed to generate diagram crops metadata: %v", err)
+	}
+	log.Printf("finished generating diagram crops metadata")
 
 	deps := &api.Dependencies{
 		Env:                 env,

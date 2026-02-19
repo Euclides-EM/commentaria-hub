@@ -10,6 +10,7 @@ import (
 type EnvConfig struct {
 	HTTPAddr                string        `env:"HTTP_ADDR" envDefault:":8085"`
 	GithubToken             string        `env:"GITHUB_TOKEN"`
+	GithubPAT               string        `env:"GITHUB_PAT"`
 	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"30s"`
 	PythonExecutable        string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
 	RoboflowAPIKey          string        `env:"ROBOFLOW_API_KEY"`
@@ -20,6 +21,7 @@ type EnvConfig struct {
 	StoreDir string `env:"STORE_DIR" envDefault:"./store"`
 
 	FacsimilesGithubRepoUrl string `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
+	FacsimilesDiagramsPath  string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
 }
 
 func InitEnv() (*EnvConfig, error) {

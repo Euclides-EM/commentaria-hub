@@ -1,9 +1,7 @@
-package main
+package diagramcrops
 
 import (
 	"encoding/json"
-	"errors"
-	"flag"
 	"fmt"
 	"io"
 	"log"
@@ -18,11 +16,6 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
-	"github.com/joho/godotenv"
-)
-
-const (
-	diagramsPath = "docs/diagrams"
 )
 
 type githubContent struct {
@@ -46,120 +39,24 @@ type multiVolumeData struct {
 	Volumes []volumeData `json:"volumes"`
 }
 
+// Options configures diagram crops generation.
+type Options struct {
+	DryRun bool
+}
+
 type generator struct {
-	client        *http.Client
-	headers       map[string]string
-	outputDir     string
-	githubAPIBase string
-	dryRun        bool
+	client             *http.Client
+	headers            map[string]string
+	diagramsLocalDir   string
+	itemsMetadataDir   string
+	diagramsRemotePath string
+	githubAPIBase      string
+	opts               Options
 }
 
-func main() {
-	var dryRun bool
-	flag.BoolVar(&dryRun, "dry-run", false, "print actions without writing files")
-	flag.Parse()
-
-	repoRoot, err := findRepoRoot()
-	if err != nil {
-		log.Fatalf("failed to locate repo root: %v", err)
-	}
-
-	envConfig, err := loadEnvConfig(repoRoot)
-	if err != nil {
-		log.Fatalf("failed to load env config: %v", err)
-	}
-
-	githubPAT, err := loadGitHubPAT()
-	if err != nil {
-		log.Fatalf("failed to load github pat: %v", err)
-	}
-
-	githubAPIBase, err := resolveGithubAPIBase(envConfig.FacsimilesGithubRepoUrl)
-	if err != nil {
-		log.Fatalf("failed to resolve github api base: %v", err)
-	}
-
-	g := &generator{
-		client:        &http.Client{Timeout: 20 * time.Second},
-		headers:       buildHeaders(githubPAT),
-		outputDir:     filepath.Join(repoRoot, "store"),
-		githubAPIBase: githubAPIBase,
-		dryRun:        dryRun,
-	}
-
-	directories, err := g.generateDiagramDirectories()
-	if err != nil {
-		log.Fatalf("failed to generate diagram directories: %v", err)
-	}
-
-	if err := g.generateAllDiagramData(directories); err != nil {
-		log.Fatalf("failed to generate diagram data: %v", err)
-	}
-}
-
-func buildHeaders(githubPAT string) map[string]string {
-	headers := map[string]string{
-		"User-Agent":    "elements-title-pages-build",
-		"Authorization": "token " + githubPAT,
-	}
-	return headers
-}
-
-func loadEnvConfig(repoRoot string) (*config.EnvConfig, error) {
-	envFiles, err := resolveEnvFiles(repoRoot)
-	if err != nil {
-		return nil, err
-	}
-
-	for _, envFile := range envFiles {
-		if err := godotenv.Overload(envFile); err != nil {
-			return nil, fmt.Errorf("failed to load %s: %w", envFile, err)
-		}
-	}
-
-	envConfig, err := config.InitEnv()
-	if err != nil {
-		return nil, err
-	}
-	return envConfig, nil
-}
-
-func loadGitHubPAT() (string, error) {
-	if pat := strings.TrimSpace(os.Getenv("GITHUB_PAT")); pat != "" {
-		return pat, nil
-	}
-	if token := strings.TrimSpace(os.Getenv("GITHUB_TOKEN")); token != "" {
-		return token, nil
-	}
-	return "", errors.New("GITHUB_PAT or GITHUB_TOKEN is required")
-}
-
-func resolveEnvFiles(repoRoot string) ([]string, error) {
-	parentRoot := filepath.Dir(repoRoot)
-	candidates := uniquePaths([]string{
-		filepath.Join(repoRoot, ".env"),
-		filepath.Join(repoRoot, ".env_private"),
-		filepath.Join(parentRoot, ".env"),
-		filepath.Join(parentRoot, ".env_private"),
-	})
-
-	envFiles := make([]string, 0, len(candidates))
-	for _, envFile := range candidates {
-		_, err := os.Stat(envFile)
-		if err != nil {
-			if errors.Is(err, os.ErrNotExist) {
-				continue
-			}
-			return nil, fmt.Errorf("failed to stat %s: %w", envFile, err)
-		}
-		envFiles = append(envFiles, envFile)
-	}
-
-	return envFiles, nil
-}
-
-func resolveGithubAPIBase(facsimilesRepoURL string) (string, error) {
-	repoURL := strings.TrimSuffix(strings.TrimSpace(facsimilesRepoURL), "/")
+// ResolveGithubAPIBase converts a repo URL (e.g. https://github.com/org/repo) into the GitHub API contents base URL.
+func ResolveGithubAPIBase(repoURL string) (string, error) {
+	repoURL = strings.TrimSuffix(strings.TrimSpace(repoURL), "/")
 	parsed, err := url.Parse(repoURL)
 	if err != nil {
 		return "", fmt.Errorf("parse facsimiles repo url: %w", err)
@@ -172,51 +69,58 @@ func resolveGithubAPIBase(facsimilesRepoURL string) (string, error) {
 	parts := strings.Split(strings.Trim(parsed.Path, "/"), "/")
 	if strings.EqualFold(parsed.Host, "github.com") {
 		if len(parts) < 2 {
-			return "", fmt.Errorf("unsupported github URL format: %s", facsimilesRepoURL)
+			return "", fmt.Errorf("unsupported github URL format: %s", repoURL)
 		}
 		return fmt.Sprintf("https://api.github.com/repos/%s/%s/contents", parts[0], parts[1]), nil
 	}
 
 	if strings.EqualFold(parsed.Host, "raw.githubusercontent.com") {
 		if len(parts) < 3 {
-			return "", fmt.Errorf("unsupported raw github URL format: %s", facsimilesRepoURL)
+			return "", fmt.Errorf("unsupported raw github URL format: %s", repoURL)
 		}
 		return fmt.Sprintf("https://api.github.com/repos/%s/%s/contents", parts[0], parts[1]), nil
 	}
 
-	return "", fmt.Errorf("unsupported host for facsimiles repo url: %s", facsimilesRepoURL)
+	return "", fmt.Errorf("unsupported host for facsimiles repo url: %s", repoURL)
 }
 
-func uniquePaths(paths []string) []string {
-	seen := make(map[string]struct{}, len(paths))
-	out := make([]string, 0, len(paths))
-	for _, p := range paths {
-		if _, ok := seen[p]; ok {
-			continue
-		}
-		seen[p] = struct{}{}
-		out = append(out, p)
+// Generate fetches diagram directory listing and per-edition diagram data from the facsimiles GitHub repo
+// and writes them under env's store dir. It uses env for diagram path, GitHub token, and store paths.
+// If EffectiveGithubToken is empty, Generate returns nil without doing anything (allows app to start without token).
+func Generate(env *config.EnvConfig, opts Options) error {
+	token := env.GithubToken
+	if token == "" {
+		log.Printf("diagram crops: no GITHUB_TOKEN set, skipping diagram metadata generation")
+		return nil
 	}
-	return out
-}
 
-func findRepoRoot() (string, error) {
-	wd, err := os.Getwd()
+	githubAPIBase, err := ResolveGithubAPIBase(env.FacsimilesGithubRepoUrl)
 	if err != nil {
-		return "", err
+		return fmt.Errorf("resolve github api base: %w", err)
 	}
 
-	current := wd
-	for {
-		if _, err := os.Stat(filepath.Join(current, "go.mod")); err == nil {
-			return current, nil
-		}
+	g := &generator{
+		client:             &http.Client{Timeout: 20 * time.Second},
+		headers:            buildHeaders(token),
+		diagramsLocalDir:   env.DiagramsDir(),
+		itemsMetadataDir:   env.ItemsMetadataStoreDir(),
+		diagramsRemotePath: strings.TrimSuffix(env.FacsimilesDiagramsPath, "/"),
+		githubAPIBase:      githubAPIBase,
+		opts:               opts,
+	}
 
-		next := filepath.Dir(current)
-		if next == current {
-			return "", errors.New("go.mod not found")
-		}
-		current = next
+	directories, err := g.generateDiagramDirectories()
+	if err != nil {
+		return err
+	}
+
+	return g.generateAllDiagramData(directories)
+}
+
+func buildHeaders(githubToken string) map[string]string {
+	return map[string]string{
+		"User-Agent":    "elements-title-pages-build",
+		"Authorization": "token " + githubToken,
 	}
 }
 
@@ -280,7 +184,7 @@ func (g *generator) fetchWithRetry(url string, retries int) ([]byte, error) {
 	}
 
 	if lastErr == nil {
-		lastErr = errors.New("request failed")
+		lastErr = fmt.Errorf("request failed")
 	}
 	return nil, lastErr
 }
@@ -307,7 +211,7 @@ func (g *generator) writeJSON(path string, value any) error {
 	}
 	b = append(b, '\n')
 
-	if g.dryRun {
+	if g.opts.DryRun {
 		log.Printf("dry-run: would write %s (%d bytes)", path, len(b))
 		return nil
 	}
@@ -321,7 +225,7 @@ func (g *generator) writeJSON(path string, value any) error {
 
 func (g *generator) generateDiagramDirectories() ([]string, error) {
 	log.Printf("fetching diagram directories from GitHub API")
-	items, err := g.fetchGithubContents(diagramsPath)
+	items, err := g.fetchGithubContents(g.diagramsRemotePath)
 	if err != nil {
 		return nil, err
 	}
@@ -335,7 +239,7 @@ func (g *generator) generateDiagramDirectories() ([]string, error) {
 
 	slices.Sort(directories)
 
-	outputPath := filepath.Join(g.outputDir, "items_metadata", "diagram-directories.json")
+	outputPath := filepath.Join(g.itemsMetadataDir, "diagram-directories.json")
 	if err := g.writeJSON(outputPath, directories); err != nil {
 		return nil, err
 	}
@@ -344,12 +248,13 @@ func (g *generator) generateDiagramDirectories() ([]string, error) {
 	return directories, nil
 }
 
+var volSuffixRe = regexp.MustCompile(`^(.+)_vol([0-9]+)$`)
+
 func groupDirectoriesByBase(directories []string) map[string][]volumeInfo {
 	grouped := make(map[string][]volumeInfo, len(directories))
-	re := regexp.MustCompile(`^(.+)_vol(\\d+)$`)
 
 	for _, dir := range directories {
-		if matches := re.FindStringSubmatch(dir); len(matches) == 3 {
+		if matches := volSuffixRe.FindStringSubmatch(dir); len(matches) == 3 {
 			baseKey := matches[1]
 			volNum, _ := strconv.Atoi(matches[2])
 			grouped[baseKey] = append(grouped[baseKey], volumeInfo{Key: dir, Volume: volNum})
@@ -370,8 +275,8 @@ func (g *generator) generateAllDiagramData(directories []string) error {
 
 	missing := make([]string, 0, len(grouped))
 	for baseKey := range grouped {
-		outputPath := filepath.Join(g.outputDir, "diagrams", baseKey+".json")
-		if _, err := os.Stat(outputPath); errors.Is(err, os.ErrNotExist) || g.dryRun {
+		outputPath := filepath.Join(g.diagramsLocalDir, baseKey+".json")
+		if _, err := os.Stat(outputPath); os.IsNotExist(err) || g.opts.DryRun {
 			missing = append(missing, baseKey)
 		}
 	}
@@ -395,8 +300,8 @@ func (g *generator) generateAllDiagramData(directories []string) error {
 }
 
 func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo) error {
-	outputPath := filepath.Join(g.outputDir, "diagrams", baseKey+".json")
-	if _, err := os.Stat(outputPath); err == nil && !g.dryRun {
+	outputPath := filepath.Join(g.diagramsLocalDir, baseKey+".json")
+	if _, err := os.Stat(outputPath); err == nil && !g.opts.DryRun {
 		return nil
 	}
 
@@ -442,7 +347,8 @@ func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo) er
 }
 
 func (g *generator) fetchCrops(volumeKey string) ([]string, error) {
-	items, err := g.fetchGithubContents(filepath.Join(diagramsPath, volumeKey, "crops"))
+	path := g.diagramsRemotePath + "/" + volumeKey + "/crops"
+	items, err := g.fetchGithubContents(path)
 	if err != nil {
 		return nil, err
 	}
