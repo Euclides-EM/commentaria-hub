@@ -22,7 +22,7 @@ func (h *Handlers) ListIntegrationPlatforms(r *http.Request) (any, error) {
 // @Description Retrieves a list of all integration jobs
 // @Tags Integration
 // @Produce json
-// @Success 200 {array} service.IntegrationJob
+// @Success 200 {array} integration.Job
 // @Failure 500 {string} string "Internal Server Error"
 // @Router /integrations/jobs [get]
 func (h *Handlers) ListIntegrationJobs(request *http.Request) (any, error) {

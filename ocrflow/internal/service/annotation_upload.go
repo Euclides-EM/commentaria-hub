@@ -81,7 +81,7 @@ func (a *AnnotationsUploader) UploadToRoboflow(datasetID string, id string, rbu 
 		return nil, fmt.Errorf("annotation not found: %w", err)
 	}
 	if !ann.Segmented {
-		return nil, fmt.Errorf("no annotations found for roboflow upload")
+		return nil, fmt.Errorf("annotation is not segmented, cannot upload to roboflow")
 	}
 	ann, err = a.ensureYoloDirForUpload(ann, datasetID, id)
 	if err != nil {
@@ -105,7 +105,7 @@ func (a *AnnotationsUploader) UploadToRoboflowAsync(datasetID string, id string,
 		return nil, fmt.Errorf("annotation not found: %w", err)
 	}
 	if !ann.Segmented {
-		return nil, fmt.Errorf("no annotations found for roboflow upload")
+		return nil, fmt.Errorf("annotation is not segmented, cannot upload to roboflow")
 	}
 	var dst annotation.Annotation
 	if err = deepcopy.Copy(&dst, &ann); err != nil {

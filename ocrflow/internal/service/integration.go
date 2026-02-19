@@ -26,27 +26,49 @@ func (j *IntegrationJob) CreateIntegrationJobs(ij *integration.Jobs) (*integrati
 		job.UpdatedAt = job.CreatedAt
 		job.Status = integration.JobStatusPending
 		j.jobsStore.Create(job)
-		if job.Task == integration.Export && job.Target != nil && job.Target.Platform == integration.PlatformRoboflow && job.Annotation != nil {
-			j.runRoboflowExport(job)
+		if job.Task == integration.Export && job.Target != nil && job.Annotation != nil {
+			switch job.Target.Platform {
+			case integration.PlatformRoboflow:
+				j.runExport(job, j.exportToRoboflow)
+			case integration.PlatformEScripturium:
+				j.runExport(job, j.exportToEScriptorium)
+			}
 		}
 	}
 	return ij, nil
 }
 
-func (j *IntegrationJob) runRoboflowExport(job *integration.Job) {
+func (j *IntegrationJob) exportToRoboflow(job *integration.Job) error {
+	rbu := &annotation.UploadRoboflow{
+		APIKey:           job.Target.APIKey,
+		WorkspaceID:      job.Target.WorkspaceID,
+		ProjectID:        job.Target.ProjectID,
+		IsNotGroundTruth: job.Target.IsNotGroundTruth,
+	}
+	_, err := j.annotationsUpload.UploadToRoboflow(job.Annotation.DatasetID, job.Annotation.ID, rbu)
+	return err
+}
+
+func (j *IntegrationJob) exportToEScriptorium(job *integration.Job) error {
+	ebu := &annotation.UploadEscriptorium{
+		BasePath: job.Target.BasePath,
+		Username: job.Target.Username,
+		Password: job.Target.Password,
+		Document: job.Target.Document,
+	}
+	_, err := j.annotationsUpload.UploadToEscriptorium(job.Annotation.DatasetID, job.ID, ebu)
+	return err
+}
+
+func (j *IntegrationJob) runExport(job *integration.Job, export func(job *integration.Job) error) {
 	go func() {
 		now := time.Now()
 		job.Status = integration.JobStatusRunning
 		job.UpdatedAt = now
 		j.jobsStore.Update(job)
 
-		rbu := &annotation.UploadRoboflow{
-			APIKey:           job.Target.APIKey,
-			WorkspaceID:      job.Target.WorkspaceID,
-			ProjectID:        job.Target.ProjectID,
-			IsNotGroundTruth: job.Target.IsNotGroundTruth,
-		}
-		_, err := j.annotationsUpload.UploadToRoboflow(job.Annotation.DatasetID, job.Annotation.ID, rbu)
+		err := export(job)
+
 		now = time.Now()
 		job.UpdatedAt = now
 		job.FinishedAt = &now

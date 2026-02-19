@@ -9,6 +9,7 @@ import (
 	"os"
 	"path"
 	"strings"
+	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -94,6 +95,8 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDa
 	}
 
 	ds.ID = idgen.GenerateID(store.DatasetIDPrefix)
+	ds.CreatedAt = time.Now()
+	ds.UpdatedAt = ds.CreatedAt
 
 	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
 		ds.DPI = 300.0
