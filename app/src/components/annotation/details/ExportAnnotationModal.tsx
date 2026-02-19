@@ -1,4 +1,4 @@
-import { type FormEvent, useEffect, useMemo, useState } from 'react'
+import { type FormEvent, useEffect, useState } from 'react'
 import {
   AnnotationsService,
   ApiError,
@@ -13,7 +13,7 @@ import { selectStyles } from '../../../styles/selectStyles.ts'
 import { ErrorMessage } from '../../core/ErrorMessage'
 import useLocalStorageState from 'use-local-storage-state'
 
-type ExportMode = 'zip' | 'roboflow' | 'escriptorium'
+type ExportMode = 'roboflow' | 'escriptorium'
 
 interface ExportAnnotationModalProps {
   isOpen: boolean
@@ -25,7 +25,6 @@ type RoboflowSettings = Required<annotation_UploadRoboflow>
 type EscriptoriumSettings = Required<annotation_UploadEscriptorium>
 
 const exportOptions = [
-  { value: 'zip', label: 'ZIP file download' },
   { value: 'roboflow', label: 'Upload to Roboflow' },
   { value: 'escriptorium', label: 'Upload to Escriptorium' },
 ] as const
@@ -38,7 +37,7 @@ export function ExportAnnotationModal({
     annotation,
     state: { datasetId },
   } = useAppState()
-  const [mode, setMode] = useState<ExportMode>('zip')
+  const [mode, setMode] = useState<ExportMode>('roboflow')
   const [roboflow, setRoboflow] = useLocalStorageState<RoboflowSettings>(
     'export-roboflow',
     {
@@ -70,23 +69,6 @@ export function ExportAnnotationModal({
     }
   }, [isOpen])
 
-  const fileName = useMemo(() => {
-    const base = annotation?.name || annotation?.id || 'annotation'
-    const safe = base.replace(/[^a-zA-Z0-9-_]+/g, '_')
-    return `${safe}.zip`
-  }, [annotation])
-
-  const handleDownload = (blob: Blob) => {
-    const url = URL.createObjectURL(blob)
-    const link = document.createElement('a')
-    link.href = url
-    link.download = fileName
-    document.body.appendChild(link)
-    link.click()
-    link.remove()
-    URL.revokeObjectURL(url)
-  }
-
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     if (!annotation) {
       return
@@ -96,14 +78,7 @@ export function ExportAnnotationModal({
       setError(null)
       setLoading(true)
 
-      if (mode === 'zip') {
-        const blob =
-          await AnnotationsService.getDatasetsAnnotationsDownloadAssets({
-            dataSetId: datasetId,
-            id: annotation.id!,
-          })
-        handleDownload(blob)
-      } else if (mode === 'roboflow') {
+      if (mode === 'roboflow') {
         await AnnotationsService.putDatasetsAnnotationsUploadRoboflow({
           dataSetId: datasetId,
           id: annotation.id!,

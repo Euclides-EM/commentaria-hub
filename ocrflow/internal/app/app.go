@@ -77,7 +77,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		fileSystemManager,
 	)
 	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir)
-	assetGen := service.NewAssetGen(datasetSvc, annotationTEI, annotationSvc, fileSystemManager)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager)
 	featureStore := store.NewFeatureSQL(sqlDB)
 
@@ -113,7 +112,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		MetaStoreManager:    metaStoreManager,
 		AnnotationsUploader: annotationUploader,
 		AnnotationTEI:       annotationTEI,
-		AssetGen:            assetGen,
 		AnnotationSearch:    annotationSearch,
 		FeatureSvc:          service.NewFeature(featureStore, featureRevisionStore),
 		FeatureRevisionSvc:  service.NewRevision(featureRevisionStore),

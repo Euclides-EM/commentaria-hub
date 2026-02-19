@@ -22,7 +22,6 @@ type Dependencies struct {
 	MetaStoreManager    *service.MetaStoreManager
 	AnnotationsUploader *service.AnnotationsUploader
 	AnnotationTEI       *service.AnnotationTEI
-	AssetGen            *service.AssetGen
 	AnnotationSearch    *service.AnnotationSearch
 	FeatureSvc          *service.Feature
 	FeatureRevisionSvc  *service.Revision
@@ -73,7 +72,6 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/index", httpwrapper.Get(h.GetAnnotationIndex).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/categories", httpwrapper.Get(h.ListAnnotationCategories).Build())
-	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/download_assets", httpwrapper.GetZip(h.DownloadAnnotationAssets).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply", httpwrapper.Update(h.ApplyRules).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/segment", httpwrapper.Update(h.ApplyRuleSegment).Build())

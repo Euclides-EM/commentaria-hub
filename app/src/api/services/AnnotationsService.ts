@@ -388,34 +388,6 @@ export class AnnotationsService {
         });
     }
     /**
-     * Download annotation assets
-     * Generate and download assets for a specific annotation within a dataset
-     * @returns binary ZIP file containing the annotation assets
-     * @throws ApiError
-     */
-    public static getDatasetsAnnotationsDownloadAssets({
-        dataSetId,
-        id,
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Annotation ID
-         */
-        id: string,
-    }): CancelablePromise<Blob> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/datasets/{dataSetId}/annotations/{id}/download_assets',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-        });
-    }
-    /**
      * Get Annotation Index
      * Get the index of a specific annotation for a specific dataset.
      * @returns annotation_Index OK
