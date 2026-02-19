@@ -1,9 +1,11 @@
 import type {
   annotationrule_AddMargin,
   annotationrule_LinesDetect,
+  annotationrule_RecategorizeByAlignment,
   annotationrule_ReassignTextLinesByTolerance,
   annotationrule_RemoveCategories,
   annotationrule_RemoveOverlap,
+  annotationrule_ResolveOverlapWithPriority,
   annotationrule_Segment,
   annotationrule_SlicePages,
   annotationrule_Stretch,
@@ -19,6 +21,8 @@ export type AnnotationRule = { type: string } & (
   | annotationrule_LinesDetect
   | annotationrule_RemoveCategories
   | annotationrule_RemoveOverlap
+  | annotationrule_ResolveOverlapWithPriority
+  | annotationrule_RecategorizeByAlignment
   | annotationrule_ReassignTextLinesByTolerance
   | annotationrule_TextBlockCorrections
 )

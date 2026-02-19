@@ -192,6 +192,52 @@ func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 	return h.applyRuleGeneric(r, &rule)
 }
 
+// ApplyRuleResolveOverlapWithPriority godoc
+// @Summary      Resolve Overlap with Priority in Annotation
+// @Description  Remove zones of SuppressedCategory that overlap DominantCategory by at least MinOverlap percent.
+// @Tags         Annotations Apply Rules
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        annotationSegmentRule  body 	annotationrule.ResolveOverlapWithPriority  true  "Resolve overlap with priority rule"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   annotation.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply/resolve_overlap_with_priority [put]
+func (h *Handlers) ApplyRuleResolveOverlapWithPriority(r *http.Request) (any, error) {
+	var rule annotationrule.ResolveOverlapWithPriority
+	if err := DecodeBody(r, &rule); err != nil {
+		return nil, err
+	}
+	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+
+	return h.applyRuleGeneric(r, &rule)
+}
+
+// ApplyRuleRecategorizeByAlignment godoc
+// @Summary      Recategorize by Alignment in Annotation
+// @Description  Recategorize zones that are horizontally or vertically aligned with zones of another category (within pixel tolerance).
+// @Tags         Annotations Apply Rules
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        annotationSegmentRule  body 	annotationrule.RecategorizeByAlignment  true  "Recategorize by alignment rule"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   annotation.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply/recategorize_by_alignment [put]
+func (h *Handlers) ApplyRuleRecategorizeByAlignment(r *http.Request) (any, error) {
+	var rule annotationrule.RecategorizeByAlignment
+	if err := DecodeBody(r, &rule); err != nil {
+		return nil, err
+	}
+	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+
+	return h.applyRuleGeneric(r, &rule)
+}
+
 // ApplyRuleReassignTextLinesByTolerance godoc
 // @Summary      Reassign Text Lines by Tolerance in Annotation
 // @Description  Reassign text lines by tolerance in an annotation.

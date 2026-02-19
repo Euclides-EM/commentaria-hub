@@ -10,6 +10,8 @@ const (
 	TypeLinesDetect                  Type = "lines_detect"
 	TypeRemoveCategories             Type = "remove_categories"
 	TypeRemoveOverlap                Type = "remove_overlap"
+	TypeResolveOverlapWithPriority   Type = "resolve_overlap_with_priority"
+	TypeRecategorizeByAlignment      Type = "recategorize_by_alignment"
 	TypeReassignTextLinesByTolerance Type = "reassign_text_lines_by_tolerance"
 	TypeTextBlocksCorrections        Type = "text_blocks_corrections"
 	TypeDetectText                   Type = "detect_text"
@@ -23,6 +25,8 @@ var ruleFactories = map[Type]func() AnnotationRule{
 	TypeSegment:                      func() AnnotationRule { return NewSegment("") },
 	TypeRemoveCategories:             func() AnnotationRule { return NewRemoveCategories(nil) },
 	TypeRemoveOverlap:                func() AnnotationRule { return NewRemoveOverlap(nil, 0.0) },
+	TypeResolveOverlapWithPriority:   func() AnnotationRule { return NewResolveOverlapWithPriority("", "", 0.0) },
+	TypeRecategorizeByAlignment:      func() AnnotationRule { return NewRecategorizeByAlignment("", "", "", AlignmentHorizontal, 0.0) },
 	TypeReassignTextLinesByTolerance: func() AnnotationRule { return NewReassignTextLinesByTolerance("", "", 0.0, 0.0) },
 	TypeTextBlocksCorrections:        func() AnnotationRule { return NewTextBlockCorrections(nil) },
 	TypeDetectText:                   func() AnnotationRule { return NewDetectText("") },
@@ -36,6 +40,8 @@ var applicableStagesByType = map[Type][]PipelineStage{
 	TypeSegment:                      {PipelineStageRaw},
 	TypeRemoveCategories:             {PipelineStageZoneSegmentation},
 	TypeRemoveOverlap:                {PipelineStageZoneSegmentation},
+	TypeResolveOverlapWithPriority:   {PipelineStageZoneSegmentation},
+	TypeRecategorizeByAlignment:      {PipelineStageZoneSegmentation},
 	TypeReassignTextLinesByTolerance: {PipelineStageTextLineSegmentation},
 	TypeTextBlocksCorrections:        {PipelineStageOCR},
 	TypeDetectText:                   {PipelineStageTextLineSegmentation},
@@ -49,6 +55,8 @@ var minEnsuredStageByType = map[Type]PipelineStage{
 	TypeSegment:                      PipelineStageZoneSegmentation,
 	TypeRemoveCategories:             PipelineStageZoneSegmentation,
 	TypeRemoveOverlap:                PipelineStageZoneSegmentation,
+	TypeResolveOverlapWithPriority:   PipelineStageZoneSegmentation,
+	TypeRecategorizeByAlignment:      PipelineStageZoneSegmentation,
 	TypeReassignTextLinesByTolerance: PipelineStageTextLineSegmentation,
 	TypeTextBlocksCorrections:        PipelineStageOCR,
 	TypeDetectText:                   PipelineStageOCR,
@@ -69,6 +77,8 @@ var AllAnnotationRuleTypes = []Type{
 	TypeLinesDetect,
 	TypeRemoveCategories,
 	TypeRemoveOverlap,
+	TypeResolveOverlapWithPriority,
+	TypeRecategorizeByAlignment,
 	TypeReassignTextLinesByTolerance,
 	TypeTextBlocksCorrections,
 	TypeDetectText,

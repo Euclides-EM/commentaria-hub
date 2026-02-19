@@ -85,6 +85,10 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 				f = func() error { return a.applyRemoveCategories(af, t) }
 			case *annotationrule.RemoveOverlap:
 				f = func() error { return a.applyRemoveOverlap(af, t) }
+			case *annotationrule.ResolveOverlapWithPriority:
+				f = func() error { return a.applyResolveOverlapWithPriority(af, t) }
+			case *annotationrule.RecategorizeByAlignment:
+				f = func() error { return a.applyRecategorizeByAlignment(af, t) }
 			case *annotationrule.ReassignTextLinesByTolerance:
 				f = func() error { return a.applyReassignTextLinesByTolerance(af, t) }
 			default:
@@ -228,6 +232,20 @@ func (a *AnnotationRuleApplier) applyRemoveCategories(af *alto.Alto, t *annotati
 func (a *AnnotationRuleApplier) applyRemoveOverlap(af *alto.Alto, t *annotationrule.RemoveOverlap) error {
 	if err := alto.FixNoOverlap(af, t.Categories, t.Precision); err != nil {
 		return fmt.Errorf("failed to apply remove overlap operation %+v: %w", t, err)
+	}
+	return nil
+}
+
+func (a *AnnotationRuleApplier) applyResolveOverlapWithPriority(af *alto.Alto, t *annotationrule.ResolveOverlapWithPriority) error {
+	if err := alto.ResolveOverlapWithPriority(af, t.DominantCategory, t.SuppressedCategory, t.MinOverlap); err != nil {
+		return fmt.Errorf("failed to apply resolve overlap with priority %+v: %w", t, err)
+	}
+	return nil
+}
+
+func (a *AnnotationRuleApplier) applyRecategorizeByAlignment(af *alto.Alto, t *annotationrule.RecategorizeByAlignment) error {
+	if err := alto.RecategorizeByAlignment(af, t.OriginalCategory, t.TargetCategory, t.RelativeTo.Category, string(t.RelativeTo.Alignment), t.TolerancePx); err != nil {
+		return fmt.Errorf("failed to apply recategorize by alignment %+v: %w", t, err)
 	}
 	return nil
 }

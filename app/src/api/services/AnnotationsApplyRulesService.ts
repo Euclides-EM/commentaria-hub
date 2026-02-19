@@ -9,6 +9,8 @@ import type { annotationrule_LinesDetect } from '../models/annotationrule_LinesD
 import type { annotationrule_ReassignTextLinesByTolerance } from '../models/annotationrule_ReassignTextLinesByTolerance';
 import type { annotationrule_RemoveCategories } from '../models/annotationrule_RemoveCategories';
 import type { annotationrule_RemoveOverlap } from '../models/annotationrule_RemoveOverlap';
+import type { annotationrule_RecategorizeByAlignment } from '../models/annotationrule_RecategorizeByAlignment';
+import type { annotationrule_ResolveOverlapWithPriority } from '../models/annotationrule_ResolveOverlapWithPriority';
 import type { annotationrule_Segment } from '../models/annotationrule_Segment';
 import type { annotationrule_SlicePages } from '../models/annotationrule_SlicePages';
 import type { annotationrule_Stretch } from '../models/annotationrule_Stretch';
@@ -251,6 +253,66 @@ export class AnnotationsApplyRulesService {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/remove_overlap',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationSegmentRule,
+        });
+    }
+    /**
+     * Resolve Overlap with Priority in Annotation
+     * Remove zones of SuppressedCategory that overlap DominantCategory by at least MinOverlap percent.
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyResolveOverlapWithPriority({
+        dataSetId,
+        id,
+        annotationSegmentRule,
+        action = 'overwrite',
+    }: {
+        dataSetId: string,
+        id: string,
+        annotationSegmentRule: annotationrule_ResolveOverlapWithPriority,
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/resolve_overlap_with_priority',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationSegmentRule,
+        });
+    }
+    /**
+     * Recategorize by Alignment in Annotation
+     * Recategorize zones that are horizontally or vertically aligned with zones of another category (within pixel tolerance).
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyRecategorizeByAlignment({
+        dataSetId,
+        id,
+        annotationSegmentRule,
+        action = 'overwrite',
+    }: {
+        dataSetId: string,
+        id: string,
+        annotationSegmentRule: annotationrule_RecategorizeByAlignment,
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/recategorize_by_alignment',
             path: {
                 'dataSetId': dataSetId,
                 'id': id,

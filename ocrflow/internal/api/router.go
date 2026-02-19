@@ -83,6 +83,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/detect_lines", httpwrapper.Update(h.ApplyRuleDetectLines).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_categories", httpwrapper.Update(h.ApplyRuleRemoveCategories).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_overlap", httpwrapper.Update(h.ApplyRuleRemoveOverlap).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/resolve_overlap_with_priority", httpwrapper.Update(h.ApplyRuleResolveOverlapWithPriority).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/recategorize_by_alignment", httpwrapper.Update(h.ApplyRuleRecategorizeByAlignment).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance", httpwrapper.Update(h.ApplyRuleReassignTextLinesByTolerance).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/text_block_corrections", httpwrapper.Update(h.ApplyRuleTextBlockCorrections).Build())
 

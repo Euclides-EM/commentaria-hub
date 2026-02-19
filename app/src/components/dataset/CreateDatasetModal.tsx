@@ -31,6 +31,7 @@ export function CreateDatasetModal({
   const [asyncCreate, setAsyncCreate] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [facsimileCopied, setFacsimileCopied] = useState(false)
 
   const { data: facsimiles, isLoading: facsimilesLoading } = useQuery({
     queryKey: ['facsimiles'],
@@ -48,12 +49,24 @@ export function CreateDatasetModal({
       }))
   }, [facsimiles])
 
+  const selectedFacsimileLabel =
+    facsimileOptions.find((o) => o.value === facsimileId)?.label ?? null
+
+  const handleCopyFacsimile = () => {
+    if (!selectedFacsimileLabel) return
+    void navigator.clipboard.writeText(selectedFacsimileLabel).then(() => {
+      setFacsimileCopied(true)
+      setTimeout(() => setFacsimileCopied(false), 2000)
+    })
+  }
+
   useEffect(() => {
     if (isOpen) {
       setName('')
       setDescription('')
       setDpi(DEFAULT_DPI)
       setFacsimileId(null)
+      setFacsimileCopied(false)
       setPages('')
       setDeskewed(false)
       setAsyncCreate(false)
@@ -163,21 +176,36 @@ export function CreateDatasetModal({
             <label className="block text-sm font-medium text-gray-700">
               Facsimile
             </label>
-            <Select
-              value={
-                facsimileOptions.find((o) => o.value === facsimileId) ?? null
-              }
-              onChange={(opt) => setFacsimileId(opt?.value ?? null)}
-              options={facsimileOptions}
-              placeholder="Select facsimile..."
-              isLoading={facsimilesLoading}
-              isDisabled={loading}
-              styles={selectStyles<{ value: string; label: string }>({
-                controlWidth: '100%',
-              })}
-              menuPortalTarget={document.body}
-              menuPosition="fixed"
-            />
+            <div className="flex items-center gap-2">
+              <div className="flex-1 min-w-0">
+                <Select
+                  value={
+                    facsimileOptions.find((o) => o.value === facsimileId) ??
+                    null
+                  }
+                  onChange={(opt) => setFacsimileId(opt?.value ?? null)}
+                  options={facsimileOptions}
+                  placeholder="Select facsimile..."
+                  isLoading={facsimilesLoading}
+                  isDisabled={loading}
+                  styles={selectStyles<{ value: string; label: string }>({
+                    controlWidth: '100%',
+                  })}
+                  menuPortalTarget={document.body}
+                  menuPosition="fixed"
+                />
+              </div>
+              {selectedFacsimileLabel && (
+                <Button
+                  type="button"
+                  className="px-2 py-1.5 text-xs shrink-0"
+                  onClick={handleCopyFacsimile}
+                  disabled={loading}
+                >
+                  {facsimileCopied ? 'Copied!' : 'Copy'}
+                </Button>
+              )}
+            </div>
           </div>
 
           <div className="space-y-2">

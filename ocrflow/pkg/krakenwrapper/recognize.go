@@ -47,7 +47,7 @@ func processImages(images []string, outputDir, segmentationModel string) <-chan 
 
 	// todo: as opposed to the flow that converts from yolo to alto, here we do not copy the images to the output dir
 	//  Moreover, the filename in the ALTO result might match the input image full path,
-	//  which can be problematic later on, for example, in the Escriptorium upload.
+	//  which can be problematic later on, for example, in the eScriptorium upload.
 
 	errCh := make(chan error, 1)
 
@@ -60,7 +60,7 @@ func processImages(images []string, outputDir, segmentationModel string) <-chan 
 }
 
 // maxParallelKraken caps the number of concurrent Kraken processes (memory-heavy).
-const maxParallelKraken = 12
+const maxParallelKraken = 8
 
 func runProcessImages(images []string, outputDir, segmentationModel string) error {
 	inputOutputPairs, err := toInputOutputPairs(images, outputDir)
