@@ -23,6 +23,7 @@ interface AppStateProviderProps {
 export function AppStateProvider({ children }: AppStateProviderProps) {
   const [state, setState] = useQueryStates({
     viewingModels: parseAsBoolean.withDefault(false),
+    viewingGroundTruths: parseAsBoolean.withDefault(false),
     datasetId: parseAsString.withDefault(''),
     annotationId: parseAsString.withDefault(''),
     currentPage: parseAsInteger.withDefault(89),
@@ -44,6 +45,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
         updates.annotationId !== undefined
       ) {
         updates.viewingModels = false
+        updates.viewingGroundTruths = false
         setSearchResultHighlight(null)
       }
       history.pushState(state, '', window.location.href)

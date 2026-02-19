@@ -20,7 +20,9 @@ export const Timestamp = ({ date, hideFullDate = false }: TimestampProps) => {
         {timeAgoFormatted}
       </span>
       {!hideFullDate && (
-        <span className="text-xs text-gray-500">{fullDateFormatted}</span>
+        <span className="text-xs text-gray-500 mt-0.5">
+          {fullDateFormatted}
+        </span>
       )}
     </div>
   )

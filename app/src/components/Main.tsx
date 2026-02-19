@@ -3,12 +3,12 @@ import { AnnotationDetailsTab } from './annotation/details/AnnotationDetailsTab.
 import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsTab.tsx'
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
-import { AnnotationActions } from './annotation/AnnotationActions.tsx'
 import { ModelsTable } from './models/ModelsTable.tsx'
+import { GroundTruthsTable } from './groundTruths/GroundTruthsTable.tsx'
 import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
-import { useDatasetsQuery } from '../queries/datasets'
-import { LoadingSpinner } from './core/LoadingSpinner.tsx'
+import { DatasetDetails } from './dataset/DatasetDetails.tsx'
+import { useAuthStore } from '../store/authStore.ts'
 
 type Tab = 'details' | 'text'
 
@@ -44,11 +44,14 @@ export function Main() {
     { defaultValue: 'details' },
   )
   const [isCreateDatasetOpen, setIsCreateDatasetOpen] = useState(false)
+  const isAuthenticated = !!useAuthStore((store) => store.token)
   const { state } = useAppState()
-  const { data: datasets } = useDatasetsQuery()
 
   if (state.viewingModels) {
     return <ModelsTable />
+  }
+  if (state.viewingGroundTruths) {
+    return <GroundTruthsTable />
   }
 
   if (!state.datasetId) {
@@ -56,15 +59,17 @@ export function Main() {
       <>
         <div className="w-full m-10 font-medium text-center">
           <p>Please select a dataset to get started.</p>
-          <div className="mt-4 flex flex-wrap gap-3 justify-center">
-            <Button
-              onClick={() => setIsCreateDatasetOpen(true)}
-              variant="primary"
-              className="px-3 py-2 text-sm w-40"
-            >
-              Create dataset
-            </Button>
-          </div>
+          {isAuthenticated && (
+            <div className="mt-4 flex flex-wrap gap-3 justify-center">
+              <Button
+                onClick={() => setIsCreateDatasetOpen(true)}
+                variant="primary"
+                className="px-3 py-2 text-sm w-40"
+              >
+                Create dataset
+              </Button>
+            </div>
+          )}
           <img
             src={diagramUrl}
             alt="Diagram"
@@ -79,19 +84,7 @@ export function Main() {
     )
   }
   if (!state.annotationId) {
-    const currentDataset = datasets?.find((d) => d.id === state.datasetId)
-    if (currentDataset?.status === 'creating') {
-      return (
-        <div className="w-full m-10 font-medium text-center">
-          <LoadingSpinner size="md" message="Dataset is being created…" />
-          <p className="mt-4 text-gray-600">
-            You can select another dataset from the sidebar. This one will be
-            ready once creation finishes.
-          </p>
-        </div>
-      )
-    }
-    return <AnnotationActions dataSetId={state.datasetId} />
+    return <DatasetDetails />
   }
 
   return (

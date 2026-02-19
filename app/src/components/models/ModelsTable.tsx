@@ -32,8 +32,6 @@ type SortKey =
   | 'type'
   | 'algorithm'
   | 'base'
-  | 'baseAnnotations'
-  | 'usedAnnotations'
   | 'updated'
 type SortDirection = 'asc' | 'desc'
 
@@ -52,10 +50,6 @@ const getSortValue = (model: model_Model, key: SortKey) => {
       return (model.algorithm_family || '').toLowerCase()
     case 'base':
       return (model.base_model_id || '').toLowerCase()
-    case 'baseAnnotations':
-      return model.base_annotations?.length ?? 0
-    case 'usedAnnotations':
-      return model.used_in_annotations?.length ?? 0
     case 'updated': {
       const raw = model.updated_at || model.created_at
       const time = raw ? new Date(raw).getTime() : 0
@@ -321,7 +315,7 @@ export function ModelsTable() {
 
   const renderSortHeader = (label: string, key: SortKey) => {
     const isActive = sortConfig.key === key
-    const arrow = isActive ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''
+    const arrow = isActive ? (sortConfig.direction === 'asc' ? '▲' : '▼') : null
     return (
       <button
         type="button"
@@ -329,7 +323,7 @@ export function ModelsTable() {
         className={`inline-flex items-center gap-1 ${isActive ? 'text-gray-800' : 'text-gray-500 hover:text-gray-700'}`}
       >
         <span>{label}</span>
-        <span className="text-[10px]">{arrow}</span>
+        {arrow && <span className="text-[10px]">{arrow}</span>}
       </button>
     )
   }
@@ -445,7 +439,7 @@ export function ModelsTable() {
             value={searchQuery}
             onChange={setSearchQuery}
             placeholder="Search models..."
-            className="w-[22rem] max-w-full"
+            className="w-88 max-w-full"
           />
         </div>
         {isAuthenticated && (
@@ -484,13 +478,10 @@ export function ModelsTable() {
             <div className="flex-1 min-h-0">
               <div className="h-full overflow-auto rounded-lg border border-gray-200 bg-white">
                 <table className="min-w-full text-sm">
-                  <thead className="bg-gray-50 text-xs uppercase text-gray-500">
+                  <thead className="bg-gray-50 text-xs text-gray-500">
                     <tr>
                       <th className="px-4 py-3 text-left">
-                        {renderSortHeader(
-                          'Base Annotations',
-                          'baseAnnotations',
-                        )}
+                        Base Annotations
                       </th>
                       <th className="px-4 py-3 text-left">
                         {renderSortHeader('Model', 'name')}
@@ -505,10 +496,7 @@ export function ModelsTable() {
                         {renderSortHeader('Base Model', 'base')}
                       </th>
                       <th className="px-4 py-3 text-left">
-                        {renderSortHeader(
-                          'Used in Annotations',
-                          'usedAnnotations',
-                        )}
+                        Used in Annotations
                       </th>
                       <th className="px-4 py-3 text-left">
                         {renderSortHeader('Updated', 'updated')}
@@ -550,14 +538,14 @@ export function ModelsTable() {
                             </span>
                           </td>
                           <UsedAnnotationsCell model={model} />
-                          <td className="px-4 py-3 text-gray-700">
+                          <td className="px-4 py-3 text-gray-700 text-xs whitespace-nowrap">
                             <Timestamp
                               hideFullDate
                               date={model.updated_at || model.created_at}
                             />
                           </td>
                           {isAuthenticated && (
-                            <td className="px-4 py-3">
+                            <td className="px-4 py-3 whitespace-nowrap">
                               <div className="flex items-center justify-end gap-2">
                                 <Button
                                   className="px-2 py-1 text-xs"

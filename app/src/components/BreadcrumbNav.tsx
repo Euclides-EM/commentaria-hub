@@ -71,19 +71,44 @@ export function BreadcrumbNav() {
     setState({ annotationId: value })
   }
 
-  const highlightDataset = !state.viewingModels && !state.datasetId
+  const highlightDataset =
+    !state.viewingModels && !state.viewingGroundTruths && !state.datasetId
   const highlightAnnotation =
-    !state.viewingModels && !!state.datasetId && !state.annotationId
+    !state.viewingModels &&
+    !state.viewingGroundTruths &&
+    !!state.datasetId &&
+    !state.annotationId
 
   return (
     <div className="flex items-center text-sm gap-2 flex-wrap">
       <Separator />
       <Button
         variant="primary"
-        className={`p-2 ${state.viewingModels && '!bg-teal-100 hover:!bg-white'}`}
-        onClick={() => setState({ viewingModels: !state.viewingModels })}
+        className={`h-12 px-2 ${state.viewingModels && '!bg-teal-100 hover:!bg-white'}`}
+        onClick={() =>
+          setState({
+            viewingModels: !state.viewingModels,
+            viewingGroundTruths: false,
+          })
+        }
       >
         Models
+      </Button>
+      <Button
+        variant="primary"
+        className={`h-12 px-2 ${state.viewingGroundTruths && '!bg-teal-100 hover:!bg-white'}`}
+        onClick={() =>
+          setState({
+            viewingGroundTruths: !state.viewingGroundTruths,
+            viewingModels: false,
+          })
+        }
+      >
+        <span className="leading-tight text-center">
+          Ground
+          <br />
+          Truths
+        </span>
       </Button>
 
       <Separator />
