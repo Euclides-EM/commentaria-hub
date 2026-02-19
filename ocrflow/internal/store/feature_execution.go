@@ -123,7 +123,7 @@ func (s *FeatureExecutionSQL) GetByID(id string) (*feature.Execution, error) {
 	}
 
 	if policySkipIf != "" && policySkipIf != "[]" {
-		var skipIf []featureplat.FeatureExecutionSkipIf
+		var skipIf []feature.ExecutionSkipIf
 		if err := json.Unmarshal([]byte(policySkipIf), &skipIf); err != nil {
 			return nil, fmt.Errorf("failed to parse skipIf: %w", err)
 		}
@@ -241,7 +241,7 @@ func scanFeatureExecution(scanner func(...any) error) (*feature.Execution, error
 	}
 
 	if policySkipIf != "" && policySkipIf != "[]" {
-		var skipIf []featureplat.FeatureExecutionSkipIf
+		var skipIf []feature.ExecutionSkipIf
 		if err := json.Unmarshal([]byte(policySkipIf), &skipIf); err != nil {
 			return nil, fmt.Errorf("failed to parse skipIf: %w", err)
 		}
