@@ -9,9 +9,8 @@ CREATE TABLE IF NOT EXISTS annotations
     segmented            BOOLEAN          NOT NULL DEFAULT FALSE,
     ground_truth         BOOLEAN          NOT NULL DEFAULT FALSE,
     ocred                BOOLEAN          NOT NULL DEFAULT FALSE,
-    dataset_id           TEXT             NOT NULL,
-    origin_annotation_id TEXT DEFAULT ''  NOT NULL,
-    FOREIGN KEY (dataset_id) REFERENCES datasets (id)
+    dataset_id           TEXT             NOT NULL REFERENCES datasets (id) ON DELETE CASCADE,
+    origin_annotation_id TEXT DEFAULT ''  NOT NULL REFERENCES annotations (id) ON DELETE SET NULL
 );
 
 CREATE TABLE IF NOT EXISTS annotation_rules
@@ -24,13 +23,10 @@ CREATE TABLE IF NOT EXISTS annotation_rules
     rule_definition TEXT DEFAULT ''  NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS annotation_applied_rules
-(
+CREATE TABLE IF NOT EXISTS annotation_applied_rules (
     annotation_id TEXT NOT NULL REFERENCES annotations(id) ON DELETE CASCADE,
     rule_id       TEXT NOT NULL REFERENCES annotation_rules(id) ON DELETE CASCADE,
-    PRIMARY KEY (annotation_id, rule_id),
-    FOREIGN KEY (annotation_id) REFERENCES annotations (id),
-    FOREIGN KEY (rule_id) REFERENCES annotation_rules (id)
+    PRIMARY KEY (annotation_id, rule_id)
 );
 
 -- Notes:

@@ -280,3 +280,18 @@ Open:
 http://euclides.huma-num.fr/ --> eScriptorium
 http://euclides.huma-num.fr/commentaria/api/v1/health --> commentaria-hub API
 ```
+# Redeploying
+
+```bash
+sudo -iu euclides
+cd /srv/euclides/projects/commentaria-hub/ocrflow
+source ~/.bashrc
+git pull
+go generate ./...
+go build -tags nogocv -o /srv/euclides/bin/ocrflow-api ./cmd/ocrflow
+exit
+
+sudo systemctl restart commentaria-hub-api
+sudo systemctl status commentaria-hub-api
+sudo journalctl -u commentaria-hub-api -n 200 --no-pager
+```

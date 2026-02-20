@@ -73,8 +73,8 @@ CREATE TABLE IF NOT EXISTS feature_execution_apply (
     sort_order    INTEGER NOT NULL DEFAULT 0,
     PRIMARY KEY (execution_id, sort_order),
     FOREIGN KEY (execution_id) REFERENCES feature_executions(id) ON DELETE CASCADE,
-    FOREIGN KEY (dataset_id, feature_id) REFERENCES features(dataset_id, id),
-    FOREIGN KEY (dataset_id, revision_id) REFERENCES feature_revisions(dataset_id, id)
+    FOREIGN KEY (dataset_id, feature_id) REFERENCES features(dataset_id, id) ON DELETE CASCADE,
+    FOREIGN KEY (dataset_id, revision_id) REFERENCES feature_revisions(dataset_id, id) ON DELETE CASCADE
 );
 
 -- FeatureResult (Feature, Key, Source, Values, Note; no Meta)
