@@ -43,7 +43,7 @@ Quick check that the alias works:
 ssh -T git@github-commentaria
 ```
 
-# Install dependencies and build the frontend
+# Install dependencies and build the backend
 
 ## Install Go
 
@@ -74,28 +74,14 @@ Check that it works:
 go version
 ```
 
-## Build the backend
+## Install swag for API docs
 
-On the server you can **build without OpenCV** (no deskew). The API will run; dataset creation will copy images without deskewing when "deskew" is requested. No need to install `libopencv-dev` or fight OpenCV/gocv version mismatches.
-
-(Optional) If you want deskew on the server you must install **OpenCV 4.7+** (Ubuntu’s `libopencv-dev` is often older and incompatible with gocv’s ArUco bindings). Then remove the `-tags nogocv` build flag below.
-
-As root, run:
-```bash
-sudo mkdir -p /srv/euclides/bin
-sudo chown -R euclides:euclides /srv/euclides/bin
-```
-
-Then login as euclides and build the backend, replace the `GITHUB_TOKEN` value with the one from your `.env_private` file:
 ```bash
 sudo -iu euclides
-cd /srv/euclides/projects/commentaria-hub/ocrflow
 source ~/.bashrc 
 go install github.com/swaggo/swag/cmd/swag@latest
-go generate ./...
-go build -tags nogocv -o /srv/euclides/bin/ocrflow-api ./cmd/ocrflow
-exit
 ```
+
 
 ## Add env file
 
@@ -108,7 +94,7 @@ sudo vim /etc/euclides/commentaria-hub-api.env
 Add (minimally):
 ```dotenv
 HTTP_ADDR=127.0.0.1:8090
-STORE_DIR=/srv/euclides/data/commentaria-hub
+STORE_DIR=/srv/euclides/projects/commentaria-hub/ocrflow/store
 ESCRIPTORIUM_USERNAME=admin
 ESCRIPTORIUM_PASSWORD=
 GITHUB_TOKEN=***
@@ -129,6 +115,31 @@ Create the data directory:
 sudo mkdir -p /srv/euclides/data/commentaria-hub
 sudo chown -R euclides:euclides /srv/euclides/data/commentaria-hub
 ```
+
+## Build the backend
+
+On the server you can **build without OpenCV** (no deskew). The API will run; dataset creation will copy images without deskewing when "deskew" is requested. No need to install `libopencv-dev` or fight OpenCV/gocv version mismatches.
+
+(Optional) If you want deskew on the server you must install **OpenCV 4.7+** (Ubuntu’s `libopencv-dev` is often older and incompatible with gocv’s ArUco bindings). Then remove the `-tags nogocv` build flag below.
+
+As root, run:
+```bash
+sudo mkdir -p /srv/euclides/bin
+sudo chown -R euclides:euclides /srv/euclides/bin
+```
+
+Then login as euclides and build the backend, replace the `GITHUB_TOKEN` value with the one from your `.env_private` file:
+```bash
+sudo -iu euclides
+cd /srv/euclides/projects/commentaria-hub/ocrflow
+source ~/.bashrc 
+git pull
+go generate ./...
+go build -tags nogocv -o /srv/euclides/bin/ocrflow-api ./cmd/ocrflow
+exit
+```
+
+Quick test:
 
 ## Create a systemd service
 
@@ -154,4 +165,118 @@ RestartSec=2
 
 [Install]
 WantedBy=multi-user.target
+```
+
+## Start the service
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable --now commentaria-hub-api
+sudo systemctl status commentaria-hub-api
+sudo journalctl -u commentaria-hub-api -n 200 --no-pager
+```
+
+Quick check that it’s running:
+```bash
+curl -I http://127.0.0.1:8090/ || true
+curl -I http://127.0.0.1:8090/api/v1/ || true
+````
+
+## Configure Nginx Reverse Proxy
+
+Create the nginx site file:
+
+```bash
+sudo vim /etc/nginx/sites-available/commentaria-hub-api
+```
+
+```nginx
+server {
+    listen 80;
+    server_name euclides.huma-num.fr;
+
+    # -----------------------------
+    # commentaria-hub backend routes (strip /commentaria)
+    # -----------------------------
+
+    # Redirects for missing trailing slash
+    location = /commentaria/api/v1 { return 301 /commentaria/api/v1/; }
+    location = /commentaria/store/data { return 301 /commentaria/store/data/; }
+    location = /commentaria/swagger { return 301 /commentaria/swagger/; }
+
+    # /commentaria/api/v1/*  ->  http://127.0.0.1:8090/api/v1/*
+    location ^~ /commentaria/api/v1/ {
+        proxy_pass http://127.0.0.1:8090/api/v1/;
+
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_read_timeout 1800s;
+        proxy_send_timeout 1800s;
+    }
+
+    # /commentaria/store/data/*  ->  http://127.0.0.1:8090/store/data/*
+    location ^~ /commentaria/store/data/ {
+        proxy_pass http://127.0.0.1:8090/store/data/;
+
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_read_timeout 300s;
+        proxy_send_timeout 300s;
+    }
+    
+    # /commentaria/swagger/*  ->  http://127.0.0.1:8090/swagger/*
+    location ^~ /commentaria/swagger/ {
+        proxy_pass http://127.0.0.1:8090/swagger/;
+ 
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_read_timeout 1800s;
+        proxy_send_timeout 1800s;
+    }       
+
+    # -----------------------------
+    # default: eScriptorium on /
+    # -----------------------------
+    location / {
+        proxy_pass http://127.0.0.1:8080;
+
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+}
+```
+
+## Enable the Nginx Site
+
+```bash
+ls -l /etc/nginx/sites-enabled/
+# run `rm -f` on any existing site that conflicts with the new one, e.g. `elements-resource-box`
+sudo rm -f /etc/nginx/sites-enabled/REPLACE_WITH_EXISTING_SITE_IF_ANY
+sudo ln -s /etc/nginx/sites-available/commentaria-hub-api /etc/nginx/sites-enabled/
+
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+## Access from Browser
+
+Open:
+
+```
+http://euclides.huma-num.fr/ --> eScriptorium
+http://euclides.huma-num.fr/commentaria/api/v1/health --> commentaria-hub API
 ```
