@@ -11,20 +11,9 @@ export function ImagePane() {
   const [zoom, setZoom] = useState(250)
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white">
-      <div className="px-2.5 py-2 border-b border-gray-200  bg-gray-50 flex items-center justify-between gap-2.5">
-        <div className="flex items-center gap-3 flex-wrap">
-          <div className="text-sm font-semibold">
-            Page {currentPage} Facsimile
-          </div>
-          <RangeInput
-            label="Zoom control"
-            value={zoom}
-            min={105}
-            max={1000}
-            step={5}
-            onChange={(value) => setZoom(Math.round(value))}
-            className="bg-transparent border-gray-300"
-          />
+      <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
+        <div className="text-sm font-semibold grow min-w-0">
+          Page {currentPage} Facsimile
         </div>
         <button
           type="button"
@@ -35,12 +24,21 @@ export function ImagePane() {
               'noopener,noreferrer',
             )
           }
-          className="h-7 w-7 rounded-md bg-white border border-gray-200 text-gray-600 hover:text-gray-800 hover:bg-white shadow-sm flex items-center justify-center text-sm"
+          className="h-7 w-7 shrink-0 rounded-md bg-white border border-gray-200 text-gray-600 hover:text-gray-800 hover:bg-white shadow-sm flex items-center justify-center text-sm"
           title="Open image in new tab"
           aria-label="Open image in new tab"
         >
           ⤢
         </button>
+        <RangeInput
+          label="Zoom control"
+          value={zoom}
+          min={105}
+          max={1000}
+          step={5}
+          onChange={(value) => setZoom(Math.round(value))}
+          className="bg-transparent border-gray-300 order-3 basis-full min-w-0"
+        />
       </div>
 
       <div className="flex-1 min-h-0 flex items-center justify-center p-2">
