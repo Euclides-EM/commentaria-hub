@@ -5,13 +5,13 @@
 import type { annotation_Annotation } from '../models/annotation_Annotation';
 import type { annotationrule_AddMargin } from '../models/annotationrule_AddMargin';
 import type { annotationrule_ApplyRules } from '../models/annotationrule_ApplyRules';
+import type { annotationrule_LimitCategoryZones } from '../models/annotationrule_LimitCategoryZones';
 import type { annotationrule_LinesDetect } from '../models/annotationrule_LinesDetect';
 import type { annotationrule_ReassignTextLinesByTolerance } from '../models/annotationrule_ReassignTextLinesByTolerance';
+import type { annotationrule_RecategorizeByAlignment } from '../models/annotationrule_RecategorizeByAlignment';
 import type { annotationrule_RemoveCategories } from '../models/annotationrule_RemoveCategories';
 import type { annotationrule_RemoveOverlap } from '../models/annotationrule_RemoveOverlap';
-import type { annotationrule_RecategorizeByAlignment } from '../models/annotationrule_RecategorizeByAlignment';
 import type { annotationrule_ResolveOverlapWithPriority } from '../models/annotationrule_ResolveOverlapWithPriority';
-import type { annotationrule_LimitCategoryZones } from '../models/annotationrule_LimitCategoryZones';
 import type { annotationrule_Segment } from '../models/annotationrule_Segment';
 import type { annotationrule_SlicePages } from '../models/annotationrule_SlicePages';
 import type { annotationrule_Stretch } from '../models/annotationrule_Stretch';
@@ -139,6 +139,48 @@ export class AnnotationsApplyRulesService {
         });
     }
     /**
+     * Limit Category Zones in Annotation
+     * Keep at most max_count zones of a category per page, keeping those closest to the specified page side (top/bottom/left/right).
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyLimitCategoryZones({
+        dataSetId,
+        id,
+        annotationSegmentRule,
+        action = 'overwrite',
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Limit category zones rule
+         */
+        annotationSegmentRule: annotationrule_LimitCategoryZones,
+        /**
+         * Action to take when applying the rule
+         */
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/limit_category_zones',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationSegmentRule,
+        });
+    }
+    /**
      * Reassign Text Lines by Tolerance in Annotation
      * Reassign text lines by tolerance in an annotation.
      * @returns annotation_Annotation OK
@@ -170,6 +212,48 @@ export class AnnotationsApplyRulesService {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationSegmentRule,
+        });
+    }
+    /**
+     * Recategorize by Alignment in Annotation
+     * Recategorize zones that are horizontally or vertically aligned with zones of another category (within pixel tolerance).
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyRecategorizeByAlignment({
+        dataSetId,
+        id,
+        annotationSegmentRule,
+        action = 'overwrite',
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Recategorize by alignment rule
+         */
+        annotationSegmentRule: annotationrule_RecategorizeByAlignment,
+        /**
+         * Action to take when applying the rule
+         */
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/recategorize_by_alignment',
             path: {
                 'dataSetId': dataSetId,
                 'id': id,
@@ -276,74 +360,26 @@ export class AnnotationsApplyRulesService {
         annotationSegmentRule,
         action = 'overwrite',
     }: {
+        /**
+         * Dataset ID
+         */
         dataSetId: string,
+        /**
+         * Annotation ID
+         */
         id: string,
+        /**
+         * Resolve overlap with priority rule
+         */
         annotationSegmentRule: annotationrule_ResolveOverlapWithPriority,
+        /**
+         * Action to take when applying the rule
+         */
         action?: 'overwrite' | 'create_new',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/resolve_overlap_with_priority',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-            query: {
-                'action': action,
-            },
-            body: annotationSegmentRule,
-        });
-    }
-    /**
-     * Recategorize by Alignment in Annotation
-     * Recategorize zones that are horizontally or vertically aligned with zones of another category (within pixel tolerance).
-     * @returns annotation_Annotation OK
-     * @throws ApiError
-     */
-    public static putDatasetsAnnotationsApplyRecategorizeByAlignment({
-        dataSetId,
-        id,
-        annotationSegmentRule,
-        action = 'overwrite',
-    }: {
-        dataSetId: string,
-        id: string,
-        annotationSegmentRule: annotationrule_RecategorizeByAlignment,
-        action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<annotation_Annotation> {
-        return __request(OpenAPI, {
-            method: 'PUT',
-            url: '/datasets/{dataSetId}/annotations/{id}/apply/recategorize_by_alignment',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-            query: {
-                'action': action,
-            },
-            body: annotationSegmentRule,
-        });
-    }
-    /**
-     * Limit Category Zones in Annotation
-     * Keep at most max_count zones of a category per page, keeping those closest to the specified page side (top/bottom/left/right).
-     * @returns annotation_Annotation OK
-     * @throws ApiError
-     */
-    public static putDatasetsAnnotationsApplyLimitCategoryZones({
-        dataSetId,
-        id,
-        annotationSegmentRule,
-        action = 'overwrite',
-    }: {
-        dataSetId: string,
-        id: string,
-        annotationSegmentRule: annotationrule_LimitCategoryZones,
-        action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<annotation_Annotation> {
-        return __request(OpenAPI, {
-            method: 'PUT',
-            url: '/datasets/{dataSetId}/annotations/{id}/apply/limit_category_zones',
             path: {
                 'dataSetId': dataSetId,
                 'id': id,
