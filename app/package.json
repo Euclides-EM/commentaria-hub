@@ -13,7 +13,7 @@
     "build:all": "yarn workspaces foreach -Ap run build",
     "lint:all": "yarn workspaces foreach -Ap run lint",
     "format:all": "yarn workspaces foreach -Ap run format",
-    "gen-api": "yarn workspace hub-api run gen-api",
+    "gen-api": "yarn workspace hub-api run gen-api"
   },
   "packageManager": "yarn@4.12.0"
 }
