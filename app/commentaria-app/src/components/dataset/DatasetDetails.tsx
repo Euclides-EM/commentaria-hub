@@ -136,12 +136,12 @@ export const DatasetDetails = () => {
       <div className="flex w-full gap-4 p-3 border-b border-gray-200 bg-white items-center justify-center">
         <TabButton
           onSelected={() => setActiveTab('details')}
-          title="Dataset details"
+          title="Dataset Details"
           isActive={activeTab === 'details'}
         />
         <TabButton
           onSelected={() => setActiveTab('features')}
-          title="Dataset features"
+          title="Dataset Features"
           isActive={activeTab === 'features'}
         />
       </div>

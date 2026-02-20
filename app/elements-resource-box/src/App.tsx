@@ -16,7 +16,6 @@ import { UpsertEdition } from "./pages/UpsertEdition.tsx";
 import {
   CATALOGUE_ROUTE,
   DIAGRAMS_ROUTE,
-  FEATURES_ROUTE,
   HOME_ROUTE,
   ITEM_EDIT_ROUTE,
   MAP_ROUTE,
@@ -25,14 +24,13 @@ import {
   TRENDS_ROUTE,
 } from "./components/layout/routes.ts";
 import { Catalogue } from "./pages/Catalogue.tsx";
-import { Trends } from "./pages/trends/index.tsx";
+import { Trends } from "./pages/trends/Trends.tsx";
 import { Presentation } from "./pages/Presentation.tsx";
 import { Diagrams } from "./pages/Diagrams.tsx";
 import { useLocalStorage } from "usehooks-ts";
 import { AuthContext } from "./contexts/Auth.ts";
 import { inEuclidesMode } from "./utils/mode.ts";
 import { HomeCommentaria } from "./pages/HomeCommentaria.tsx";
-import { FeaturesPage } from "./pages/features/FeaturesPage";
 import { getRouterBasename } from "./utils/basePath.ts";
 import { configureHubApi } from "./api/hubApiConfig.ts";
 import { NuqsAdapter } from "nuqs/adapters/react-router/v7";
@@ -66,7 +64,6 @@ export function App() {
         <Route path={PRESENTATION_ROUTE} element={<Presentation />} />
         <Route path={DIAGRAMS_ROUTE} element={<Diagrams />} />
         <Route path={ITEM_EDIT_ROUTE} element={<UpsertEdition />} />
-        <Route path={FEATURES_ROUTE} element={<FeaturesPage />} />
         <Route
           path={MAP_ROUTE}
           element={

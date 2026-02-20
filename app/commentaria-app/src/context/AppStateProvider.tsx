@@ -5,10 +5,15 @@ import {
   useMemo,
   useState,
 } from 'react'
-import { parseAsInteger, parseAsString, useQueryStates } from 'nuqs'
+import { parseAsString, useQueryStates } from 'nuqs'
 import { useDatasetsQuery } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
-import type { AppState, AppStateContextType, ViewMode } from './AppStateContext'
+import type {
+  AppState,
+  AppStateContextType,
+  PageOrKey,
+  ViewMode,
+} from './AppStateContext'
 import { AppStateContext } from './AppStateContext'
 
 interface AppStateProviderProps {
@@ -20,7 +25,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     viewMode: parseAsString.withDefault(''),
     datasetId: parseAsString.withDefault(''),
     annotationId: parseAsString.withDefault(''),
-    currentPage: parseAsInteger.withDefault(89),
+    currentPage: parseAsString.withDefault('89'),
   })
   const [searchResultHighlight, setSearchResultHighlight] = useState<
     string | null
@@ -58,7 +63,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
         viewMode?: string
         datasetId?: string
         annotationId?: string
-        currentPage?: number
+        currentPage?: string
       } = {}
 
       if (updates.viewMode !== undefined) {
@@ -71,7 +76,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
         nextUpdates.annotationId = updates.annotationId
       }
       if (updates.currentPageOrKey !== undefined) {
-        nextUpdates.currentPage = updates.currentPageOrKey
+        nextUpdates.currentPage = String(updates.currentPageOrKey)
       }
 
       if (
@@ -88,9 +93,9 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   )
 
   const jumpToPage = useCallback(
-    (newPage: number) => {
+    (newPage: PageOrKey) => {
       setSearchResultHighlight(null)
-      setQueryState({ currentPage: Math.max(0, newPage) })
+      setQueryState({ currentPage: String(newPage) })
     },
     [setQueryState],
   )

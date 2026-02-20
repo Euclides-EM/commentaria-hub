@@ -6,13 +6,14 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
+import { useAnnotationImageKeysQuery } from '../../../../queries/annotations.ts'
 
-const expandRange = (range: string): number[] => {
+const expandRange = (range: string): string[] => {
   const parts = range.trim().split('-')
 
   if (parts.length !== 2) {
     const num = parseInt(range.trim())
-    return isNaN(num) ? [] : [num]
+    return isNaN(num) ? [] : [String(num)]
   }
 
   const min = parseInt(parts[0].trim())
@@ -20,10 +21,12 @@ const expandRange = (range: string): number[] => {
 
   if (isNaN(min) || isNaN(max)) return []
 
-  return Array.from({ length: Math.max(0, max - min + 1) }, (_, i) => min + i)
+  return Array.from({ length: Math.max(0, max - min + 1) }, (_, i) =>
+    String(min + i),
+  )
 }
 
-const parseAvailablePages = (annotation: annotation_Annotation): number[] => {
+const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
   if (!annotation.pages) return []
 
   return annotation.pages.split(',').flatMap((p) => expandRange(p))
@@ -31,6 +34,10 @@ const parseAvailablePages = (annotation: annotation_Annotation): number[] => {
 
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
+  const { data: imageKeys = [] } = useAnnotationImageKeysQuery(
+    annotation && !annotation.pages ? state.datasetId : '',
+  )
+  const currentValue = String(state.currentPageOrKey)
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
     'indexCollapsed',
     {
@@ -52,13 +59,22 @@ export function PageNavigation() {
   const [isResizing, setIsResizing] = useState(false)
   const splitRef = useRef<HTMLDivElement | null>(null)
 
-  const onPageNumChange = (page: number) => setState({ currentPageOrKey: page })
+  const onPageNumChange = (value: string) =>
+    setState({ currentPageOrKey: value })
   const availablePages = useMemo(() => {
-    const pages = annotation ? parseAvailablePages(annotation) : []
-    return [...pages].sort((a, b) => a - b)
-  }, [annotation])
+    if (!annotation) {
+      return []
+    }
+    if (annotation.pages) {
+      const pages = parseAvailablePages(annotation)
+      return [...new Set(pages)].sort((a, b) =>
+        a.localeCompare(b, undefined, { numeric: true }),
+      )
+    }
+    return imageKeys
+  }, [annotation, imageKeys])
 
-  const currentIndex = availablePages.indexOf(state.currentPageOrKey)
+  const currentIndex = availablePages.indexOf(currentValue)
   const isFirstPage = currentIndex === 0
   const isLastPage = currentIndex === availablePages.length - 1
 
@@ -74,10 +90,10 @@ export function PageNavigation() {
   }
 
   useEffect(() => {
-    if (!availablePages.includes(state.currentPageOrKey)) {
+    if (availablePages.length > 0 && !availablePages.includes(currentValue)) {
       setState({ currentPageOrKey: availablePages[0] })
     }
-  }, [availablePages, setState, state.currentPageOrKey])
+  }, [availablePages, currentValue, setState])
 
   useEffect(() => {
     if (!isResizing) {
@@ -127,26 +143,28 @@ export function PageNavigation() {
 
           <div className="flex items-center gap-2">
             <label htmlFor="pageNum" className="text-xs opacity-80">
-              Page
+              {annotation.pages ? 'Page' : 'Key'}
             </label>
             <Select
               value={
-                availablePages.find((p) => p === state.currentPageOrKey)
+                availablePages.find((p) => p === currentValue)
                   ? {
-                      value: state.currentPageOrKey,
-                      label: String(state.currentPageOrKey),
+                      value: currentValue,
+                      label: currentValue,
                     }
                   : null
               }
-              onChange={(option: { value: number; label: string } | null) =>
-                onPageNumChange(option?.value || 1)
+              onChange={(option: { value: string; label: string } | null) =>
+                onPageNumChange(option?.value ?? availablePages[0] ?? '1')
               }
               options={availablePages.map((p) => ({
                 value: p,
                 label: String(p),
               }))}
-              placeholder="Select page..."
-              styles={selectStyles<{ value: number; label: string }>()}
+              placeholder={
+                annotation.pages ? 'Select page...' : 'Select key...'
+              }
+              styles={selectStyles<{ value: string; label: string }>()}
               menuPortalTarget={document.body}
               menuPosition="fixed"
               isClearable

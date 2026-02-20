@@ -13,6 +13,7 @@ import { countPages } from '../../../utils/pages.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
 import {
   useAnnotationCategories,
+  useAnnotationImageKeysQuery,
   useAnnotationsQuery,
 } from '../../../queries/annotations.ts'
 import { useDatasetsQuery } from '../../../queries/datasets.ts'
@@ -27,6 +28,8 @@ import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
+  imageKeysCount: number
+  imageKeysLoading: boolean
   isExporting: boolean
   isEditing: boolean
   editedName: string
@@ -44,6 +47,8 @@ interface AnnotationDetailsContentProps {
 
 const AnnotationDetailsContent = ({
   annotation,
+  imageKeysCount,
+  imageKeysLoading,
   isExporting,
   isEditing,
   editedName,
@@ -75,6 +80,8 @@ const AnnotationDetailsContent = ({
         })) || []
     )
   }, [annotation.id, annotations])
+
+  const hasPages = annotation.pages != null && annotation.pages !== ''
 
   const originAnnotation = annotations?.find(
     (a) => a.id === annotation.origin_annotation_id,
@@ -119,12 +126,18 @@ const AnnotationDetailsContent = ({
         <div className="text-sm leading-tight break-all font-mono">
           {datasets?.find((d) => d.id === annotation.dataset_id)?.name}
         </div>
-        <div className="font-semibold text-xs opacity-80 pt-0.5">Pages</div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">
+          {hasPages ? 'Pages' : 'Keys'}
+        </div>
         <div className="text-sm leading-tight break-all">
-          {annotation.pages}
-          {annotation.pages != null && annotation.pages !== '' && (
+          {hasPages
+            ? annotation.pages || ''
+            : imageKeysLoading
+              ? 'Loading…'
+              : imageKeysCount}
+          {hasPages && (
             <span className="text-gray-600 ml-1">
-              (total: {countPages(annotation.pages)})
+              (total: {countPages(annotation.pages || '')})
             </span>
           )}
         </div>
@@ -301,6 +314,8 @@ export function AnnotationDetailsPane() {
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [isDuplicateOpen, setIsDuplicateOpen] = useState(false)
   const { data: runningJobs } = useRunningIntegrationJobsQuery()
+  const { data: imageKeys = [], isLoading: imageKeysLoading } =
+    useAnnotationImageKeysQuery(annotation?.dataset_id || '')
   const isExporting = !!runningJobs?.some(
     (job) =>
       job.annotation?.dataset_id === annotation?.dataset_id &&
@@ -423,6 +438,8 @@ export function AnnotationDetailsPane() {
         <div className="flex-1 min-h-0 overflow-auto p-2.5 box-border">
           <AnnotationDetailsContent
             annotation={annotation}
+            imageKeysCount={imageKeys.length}
+            imageKeysLoading={imageKeysLoading}
             isExporting={isExporting}
             isEditing={isEditing}
             editedName={editedName}
