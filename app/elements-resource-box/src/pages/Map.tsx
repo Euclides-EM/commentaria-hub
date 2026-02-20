@@ -30,7 +30,7 @@ import { NAVBAR_HEIGHT } from "../components/layout/routes.ts";
 import { useIsMobile } from "../components/layout/isMobile.ts";
 import { useEditFilter } from "../contexts/FilterEditContext.tsx";
 import { FLOATING_CITY_ENTRY, Item } from "../types";
-import { GeoDataService } from '@hub-api';
+import { GeoDataService } from "@hub-api";
 
 const Wrapper = styled.div`
   position: fixed;

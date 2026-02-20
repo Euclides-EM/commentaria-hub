@@ -1,4 +1,4 @@
-import { EditionsService } from '@hub-api';
+import { EditionsService } from "@hub-api";
 
 export const saveNote = async (
   editionId: string,

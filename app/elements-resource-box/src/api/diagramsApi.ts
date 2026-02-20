@@ -1,5 +1,5 @@
-import { EditionsService, model_DiagramCropVolume } from '@hub-api';
-import type { model_DiagramCrops } from '@hub-api';
+import { EditionsService, model_DiagramCropVolume } from "@hub-api";
+import type { model_DiagramCrops } from "@hub-api";
 
 export interface VolumeData {
   volume?: number;

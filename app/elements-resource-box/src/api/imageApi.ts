@@ -1,4 +1,4 @@
-import { EditionsService } from '@hub-api';
+import { EditionsService } from "@hub-api";
 import { TITLE_PAGES_DATASET_ID } from "../constants";
 
 export const uploadImage = async (key: string, file: File, type: string) => {

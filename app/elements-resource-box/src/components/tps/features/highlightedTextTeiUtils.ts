@@ -1,7 +1,7 @@
 import { TITLE_PAGES_DATASET_ID } from "../../../constants";
 import { buildTextHtml } from "./highlightedTextRenderUtils";
 import type { HighlightSpan } from "./highlightedTextTypes";
-import { AnnotationsService } from '@hub-api';
+import { AnnotationsService } from "@hub-api";
 
 const TEI_NS = "http://www.tei-c.org/ns/1.0";
 

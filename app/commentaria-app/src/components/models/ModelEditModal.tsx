@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type FormEvent } from 'react'
+import { useMemo, useState, type FormEvent } from 'react'
 import type { model_Model } from '@hub-api'
 import type { model_AnnotationReference } from '@hub-api'
 import { Button } from '../core/Button'
@@ -58,14 +58,43 @@ export function ModelEditModal({
   isSaving = false,
   errorMessage = null,
 }: ModelEditModalProps) {
-  const { rows: initialBaseRows, nextId: initialRowId } = useMemo(
-    () => refsToRows(model?.base_annotations, 0),
-    [model?.base_annotations],
+  if (!model) {
+    return null
+  }
+
+  return (
+    <ModelEditModalContent
+      key={model.id ?? `${model.name ?? ''}:${model.type ?? ''}`}
+      model={model}
+      allModels={allModels}
+      onClose={onClose}
+      onSubmit={onSubmit}
+      isSaving={isSaving}
+      errorMessage={errorMessage}
+    />
   )
-  const [name, setName] = useState(() => model?.name || '')
-  const [description, setDescription] = useState(() => model?.description || '')
+}
+
+type ModelEditModalContentProps = Omit<ModelEditModalProps, 'model'> & {
+  model: model_Model
+}
+
+function ModelEditModalContent({
+  model,
+  allModels,
+  onClose,
+  onSubmit,
+  isSaving = false,
+  errorMessage = null,
+}: ModelEditModalContentProps) {
+  const { rows: initialBaseRows, nextId: initialRowId } = useMemo(
+    () => refsToRows(model.base_annotations, 0),
+    [model.base_annotations],
+  )
+  const [name, setName] = useState(() => model.name || '')
+  const [description, setDescription] = useState(() => model.description || '')
   const [baseModelId, setBaseModelId] = useState<string | null>(
-    () => model?.base_model_id || null,
+    () => model.base_model_id || null,
   )
   const [baseAnnotationRows, setBaseAnnotationRows] = useState<
     BaseAnnotationRow[]
@@ -74,20 +103,14 @@ export function ModelEditModal({
   const [error, setError] = useState<string | null>(null)
   const { data: datasets } = useDatasetsQuery()
 
-  useEffect(() => {
-    const { rows, nextId } = refsToRows(model?.base_annotations, 0)
-    setBaseAnnotationRows(rows)
-    setRowCounter(nextId)
-  }, [model?.id])
-
   const baseModelOptions = useMemo(() => {
     return allModels
-      .filter((item) => item.id && item.id !== model?.id)
+      .filter((item) => item.id && item.id !== model.id)
       .map((item) => ({
         value: item.id as string,
         label: item.name || (item.id as string),
       }))
-  }, [allModels, model?.id])
+  }, [allModels, model.id])
 
   const handleAddBaseAnnotation = () => {
     setBaseAnnotationRows((current) => [...current, emptyRow(rowCounter + 1)])
@@ -108,9 +131,6 @@ export function ModelEditModal({
   }
 
   const handleSubmit = (event?: FormEvent<HTMLFormElement>) => {
-    if (!model) {
-      return
-    }
     event?.preventDefault()
     if (!name.trim()) {
       setError('Please provide a model name.')
@@ -134,10 +154,6 @@ export function ModelEditModal({
       base_model_id: baseModelId || undefined,
       base_annotations,
     })
-  }
-
-  if (!model) {
-    return null
   }
 
   return (

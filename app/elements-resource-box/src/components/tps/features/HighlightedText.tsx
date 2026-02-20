@@ -21,7 +21,7 @@ import type {
   HighlightSelection,
   HighlightSpan,
 } from "./highlightedTextTypes";
-import { feature_Feature } from '@hub-api';
+import { feature_Feature } from "@hub-api";
 
 export type { HighlightAction, HighlightSelection, HighlightSpan };
 

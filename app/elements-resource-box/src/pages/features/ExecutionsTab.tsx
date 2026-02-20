@@ -47,7 +47,7 @@ import {
   feature_ExecutionStatus,
   feature_Feature,
   FeaturesService,
-} from '@hub-api';
+} from "@hub-api";
 import { MultiSelect } from "../../components/tps/filters/MultiSelect.tsx";
 import { listAllEditions } from "../../api/editionApi";
 

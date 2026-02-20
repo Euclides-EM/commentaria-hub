@@ -1,7 +1,7 @@
 import { FLOATING_CITY_ENTRY, Item } from "../types";
 import { isNil, startCase, uniq } from "lodash";
 import { ItemTypes } from "../constants";
-import type { model_Edition } from '@hub-api';
+import type { model_Edition } from "@hub-api";
 import { toItemImageUrl } from "./util.ts";
 
 const ifEmpty = <T>(arr: T[], defaultValue: T[]): T[] =>

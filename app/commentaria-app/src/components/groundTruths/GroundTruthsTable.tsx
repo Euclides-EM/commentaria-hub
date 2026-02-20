@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useQueries } from '@tanstack/react-query'
 import type { annotation_Annotation } from '@hub-api'
 import { AnnotationsService } from '@hub-api'
@@ -18,6 +18,9 @@ type GroundTruthRow = {
   annotation: annotation_Annotation
 }
 
+type SelectedTarget = { datasetId: string; annotationId: string }
+type SelectedTargets = Record<string, SelectedTarget>
+
 type SortKey = 'annotation' | 'dataset' | 'updated'
 type SortDirection = 'asc' | 'desc'
 
@@ -30,9 +33,7 @@ export function GroundTruthsTable() {
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { setState } = useAppState()
   const [isExportOpen, setIsExportOpen] = useState(false)
-  const [selectedTargets, setSelectedTargets] = useState<
-    Record<string, { datasetId: string; annotationId: string }>
-  >({})
+  const [selectedTargets, setSelectedTargets] = useState<SelectedTargets>({})
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
     'groundTruthsSearch',
     {
@@ -135,6 +136,21 @@ export function GroundTruthsTable() {
   const rowKey = (row: GroundTruthRow) =>
     `${row.datasetId}:${row.annotation.id}`
 
+  const validRowKeys = useMemo(
+    () => new Set(rows.map((row) => rowKey(row))),
+    [rows],
+  )
+
+  const pruneSelectedTargets = (targets: SelectedTargets): SelectedTargets => {
+    const next: SelectedTargets = {}
+    for (const [key, target] of Object.entries(targets)) {
+      if (validRowKeys.has(key)) {
+        next[key] = target
+      }
+    }
+    return next
+  }
+
   const sortedRows = useMemo(() => {
     const getSortValue = (row: GroundTruthRow, key: SortKey) => {
       switch (key) {
@@ -163,28 +179,15 @@ export function GroundTruthsTable() {
     return data
   }, [filteredRows, sortConfig.direction, sortConfig.key])
 
-  useEffect(() => {
-    const validKeys = new Set(rows.map((row) => rowKey(row)))
-    setSelectedTargets((current) => {
-      const next: Record<string, { datasetId: string; annotationId: string }> =
-        {}
-      let changed = false
-      for (const [key, target] of Object.entries(current)) {
-        if (validKeys.has(key)) {
-          next[key] = target
-        } else {
-          changed = true
-        }
-      }
-      return changed ? next : current
-    })
-  }, [rows])
+  const effectiveSelectedTargets = pruneSelectedTargets(selectedTargets)
 
-  const selectedCount = Object.keys(selectedTargets).length
-  const selectedRows = Object.values(selectedTargets)
+  const selectedCount = Object.keys(effectiveSelectedTargets).length
+  const selectedRows = Object.values(effectiveSelectedTargets)
   const allVisibleSelected =
     sortedRows.length > 0 &&
-    sortedRows.every((row) => selectedTargets[rowKey(row)] !== undefined)
+    sortedRows.every(
+      (row) => effectiveSelectedTargets[rowKey(row)] !== undefined,
+    )
 
   const toggleSort = (key: SortKey) => {
     setSortConfig((current) => {
@@ -303,7 +306,7 @@ export function GroundTruthsTable() {
                             onChange={(e) => {
                               if (e.target.checked) {
                                 setSelectedTargets((current) => {
-                                  const next = { ...current }
+                                  const next = pruneSelectedTargets(current)
                                   sortedRows.forEach((row) => {
                                     if (row.annotation.id) {
                                       next[rowKey(row)] = {
@@ -320,17 +323,10 @@ export function GroundTruthsTable() {
                                 sortedRows.map((row) => rowKey(row)),
                               )
                               setSelectedTargets((current) => {
-                                const next: Record<
-                                  string,
-                                  { datasetId: string; annotationId: string }
-                                > = {}
-                                for (const [key, target] of Object.entries(
-                                  current,
-                                )) {
-                                  if (!visibleKeys.has(key)) {
-                                    next[key] = target
-                                  }
-                                }
+                                const next = pruneSelectedTargets(current)
+                                visibleKeys.forEach((key) => {
+                                  delete next[key]
+                                })
                                 return next
                               })
                             }}
@@ -360,7 +356,8 @@ export function GroundTruthsTable() {
                             <input
                               type="checkbox"
                               checked={
-                                selectedTargets[rowKey(row)] !== undefined
+                                effectiveSelectedTargets[rowKey(row)] !==
+                                undefined
                               }
                               onChange={(e) => {
                                 if (!row.annotation.id) {
@@ -368,16 +365,16 @@ export function GroundTruthsTable() {
                                 }
                                 const key = rowKey(row)
                                 setSelectedTargets((current) => {
+                                  const next = pruneSelectedTargets(current)
                                   if (e.target.checked) {
                                     return {
-                                      ...current,
+                                      ...next,
                                       [key]: {
                                         datasetId: row.datasetId,
                                         annotationId: row.annotation.id!,
                                       },
                                     }
                                   }
-                                  const next = { ...current }
                                   delete next[key]
                                   return next
                                 })

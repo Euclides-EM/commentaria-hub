@@ -300,8 +300,9 @@ export const ColorHexInput = styled.input`
   color: black;
   font-size: 0.9rem;
   width: 120px;
-  font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  font-family:
+    "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
 
   &:focus {
     outline: none;

@@ -9,7 +9,7 @@ import { listAllEditions, searchEditionsPage } from "../api/editionApi";
 import { mapEditionsToItems } from "../utils/dataUtils";
 import type { FilterValue } from "../components/map/Filter";
 import type { Item } from "../types";
-import type { search_OrderByOption, search_Query } from '@hub-api';
+import type { search_OrderByOption, search_Query } from "@hub-api";
 
 const ITEM_FIELD_TO_EDITION_FIELD: Record<string, string> = {
   type: "isElements",

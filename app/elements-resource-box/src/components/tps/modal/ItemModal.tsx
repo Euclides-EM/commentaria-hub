@@ -29,7 +29,7 @@ import {
   HighlightSpan,
 } from "../features/highlightedTextTypes.ts";
 import { SingleSelect } from "../filters/SingleSelect.tsx";
-import { feature_Feature, FeatureResultsService } from '@hub-api';
+import { feature_Feature, FeatureResultsService } from "@hub-api";
 
 const HighlightedText = lazy(() =>
   import("../features/HighlightedText.tsx").then((module) => ({

@@ -9,8 +9,8 @@ import {
   upsertEdition,
   ustcLookup,
 } from "../api/editionApi";
-import type { model_Edition } from '@hub-api';
-import type { model_EditionLocator } from '@hub-api';
+import type { model_Edition } from "@hub-api";
+import type { model_EditionLocator } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
 import { isNil, startCase, uniq, uniqueId } from "lodash";

@@ -1,5 +1,5 @@
 import type { HighlightSpan } from "./highlightedTextTypes";
-import { feature_Feature } from '@hub-api';
+import { feature_Feature } from "@hub-api";
 
 const OUTLINE_FEATURES = ["action_verbs"];
 

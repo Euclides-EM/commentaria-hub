@@ -1,5 +1,5 @@
 import { NO_CITY } from "../constants";
-import { feature_Feature, model_City } from '@hub-api';
+import { feature_Feature, model_City } from "@hub-api";
 
 export type Mode = "texts" | "images";
 

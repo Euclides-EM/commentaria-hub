@@ -6,7 +6,7 @@ import {
   feature_Revision,
   FeatureRevisionsService,
   FeaturesService,
-} from '@hub-api';
+} from "@hub-api";
 import { TITLE_PAGES_DATASET_ID } from "../../constants";
 import { defaultRevisionForm } from "./types.ts";
 import { formatDate, getRevisionDefaults } from "./helpers.ts";

@@ -13,7 +13,7 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import styled from "@emotion/styled";
-import type { search_OrderByOption } from '@hub-api';
+import type { search_OrderByOption } from "@hub-api";
 import { SiMaterialdesign } from "react-icons/si";
 import { Item } from "../types";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
