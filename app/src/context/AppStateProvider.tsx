@@ -5,15 +5,10 @@ import {
   useMemo,
   useState,
 } from 'react'
-import {
-  parseAsBoolean,
-  parseAsInteger,
-  parseAsString,
-  useQueryStates,
-} from 'nuqs'
+import { parseAsInteger, parseAsString, useQueryStates } from 'nuqs'
 import { useDatasetsQuery } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
-import type { AppState, AppStateContextType } from './AppStateContext'
+import type { AppState, AppStateContextType, ViewMode } from './AppStateContext'
 import { AppStateContext } from './AppStateContext'
 
 interface AppStateProviderProps {
@@ -21,9 +16,8 @@ interface AppStateProviderProps {
 }
 
 export function AppStateProvider({ children }: AppStateProviderProps) {
-  const [state, setState] = useQueryStates({
-    viewingModels: parseAsBoolean.withDefault(false),
-    viewingGroundTruths: parseAsBoolean.withDefault(false),
+  const [queryState, setQueryState] = useQueryStates({
+    viewMode: parseAsString.withDefault(''),
     datasetId: parseAsString.withDefault(''),
     annotationId: parseAsString.withDefault(''),
     currentPage: parseAsInteger.withDefault(89),
@@ -34,32 +28,71 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   const [modelSearchPrefill, setModelSearchPrefill] = useState<string | null>(
     null,
   )
+  const parsedViewMode: ViewMode | null =
+    queryState.viewMode === 'models' ||
+    queryState.viewMode === 'groundTruths' ||
+    queryState.viewMode === 'jobs'
+      ? queryState.viewMode
+      : null
+  const state = useMemo<AppState>(
+    () => ({
+      viewMode: parsedViewMode,
+      datasetId: queryState.datasetId,
+      annotationId: queryState.annotationId,
+      currentPage: queryState.currentPage,
+    }),
+    [
+      parsedViewMode,
+      queryState.annotationId,
+      queryState.currentPage,
+      queryState.datasetId,
+    ],
+  )
   const { data: datasets, refetch: refetchDatasets } = useDatasetsQuery()
   const { data: annotations, refetch: refetchAnnotations } =
     useAnnotationsQuery(state.datasetId)
 
   const wrappedSetState = useCallback(
     (updates: Partial<AppState>) => {
+      const nextUpdates: {
+        viewMode?: string
+        datasetId?: string
+        annotationId?: string
+        currentPage?: number
+      } = {}
+
+      if (updates.viewMode !== undefined) {
+        nextUpdates.viewMode = updates.viewMode || ''
+      }
+      if (updates.datasetId !== undefined) {
+        nextUpdates.datasetId = updates.datasetId
+      }
+      if (updates.annotationId !== undefined) {
+        nextUpdates.annotationId = updates.annotationId
+      }
+      if (updates.currentPage !== undefined) {
+        nextUpdates.currentPage = updates.currentPage
+      }
+
       if (
         updates.datasetId !== undefined ||
         updates.annotationId !== undefined
       ) {
-        updates.viewingModels = false
-        updates.viewingGroundTruths = false
+        nextUpdates.viewMode = ''
         setSearchResultHighlight(null)
       }
       history.pushState(state, '', window.location.href)
-      setState(updates)
+      setQueryState(nextUpdates)
     },
-    [setState, state],
+    [setQueryState, state],
   )
 
   const jumpToPage = useCallback(
     (newPage: number) => {
       setSearchResultHighlight(null)
-      setState({ currentPage: Math.max(0, newPage) })
+      setQueryState({ currentPage: Math.max(0, newPage) })
     },
-    [setState],
+    [setQueryState],
   )
 
   const dataset = useMemo(

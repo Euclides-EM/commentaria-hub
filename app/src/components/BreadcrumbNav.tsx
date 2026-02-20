@@ -71,24 +71,19 @@ export function BreadcrumbNav() {
     setState({ annotationId: value })
   }
 
-  const highlightDataset =
-    !state.viewingModels && !state.viewingGroundTruths && !state.datasetId
+  const highlightDataset = !state.viewMode && !state.datasetId
   const highlightAnnotation =
-    !state.viewingModels &&
-    !state.viewingGroundTruths &&
-    !!state.datasetId &&
-    !state.annotationId
+    !state.viewMode && !!state.datasetId && !state.annotationId
 
   return (
     <div className="flex items-center text-sm gap-2 flex-wrap">
       <Separator />
       <Button
         variant="primary"
-        className={`h-12 px-2 ${state.viewingModels && '!bg-teal-100 hover:!bg-white'}`}
+        className={`h-12 w-20 px-2 ${state.viewMode === 'models' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({
-            viewingModels: !state.viewingModels,
-            viewingGroundTruths: false,
+            viewMode: state.viewMode === 'models' ? null : 'models',
           })
         }
       >
@@ -96,11 +91,10 @@ export function BreadcrumbNav() {
       </Button>
       <Button
         variant="primary"
-        className={`h-12 px-2 ${state.viewingGroundTruths && '!bg-teal-100 hover:!bg-white'}`}
+        className={`h-12 w-20 px-2 ${state.viewMode === 'groundTruths' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({
-            viewingGroundTruths: !state.viewingGroundTruths,
-            viewingModels: false,
+            viewMode: state.viewMode === 'groundTruths' ? null : 'groundTruths',
           })
         }
       >
@@ -109,6 +103,17 @@ export function BreadcrumbNav() {
           <br />
           Truths
         </span>
+      </Button>
+      <Button
+        variant="primary"
+        className={`h-12 w-20 px-2 ${state.viewMode === 'jobs' && '!bg-teal-100 hover:!bg-white'}`}
+        onClick={() =>
+          setState({
+            viewMode: state.viewMode === 'jobs' ? null : 'jobs',
+          })
+        }
+      >
+        Jobs
       </Button>
 
       <Separator />

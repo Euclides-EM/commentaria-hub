@@ -5,6 +5,7 @@ import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
 import { ModelsTable } from './models/ModelsTable.tsx'
 import { GroundTruthsTable } from './groundTruths/GroundTruthsTable.tsx'
+import { JobsTable } from './jobs/JobsTable.tsx'
 import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
@@ -47,11 +48,14 @@ export function Main() {
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const { state } = useAppState()
 
-  if (state.viewingModels) {
+  if (state.viewMode === 'models') {
     return <ModelsTable />
   }
-  if (state.viewingGroundTruths) {
+  if (state.viewMode === 'groundTruths') {
     return <GroundTruthsTable />
+  }
+  if (state.viewMode === 'jobs') {
+    return <JobsTable />
   }
 
   if (!state.datasetId) {

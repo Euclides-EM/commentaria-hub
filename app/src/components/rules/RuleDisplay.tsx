@@ -58,7 +58,9 @@ export function RuleDisplay({
                 className="text-teal-700 hover:text-teal-900 underline underline-offset-2"
                 onClick={() => {
                   setModelSearchPrefill(modelName)
-                  setState({ viewingModels: true, viewingGroundTruths: false })
+                  setState({
+                    viewMode: 'models',
+                  })
                 }}
               >
                 {modelName}

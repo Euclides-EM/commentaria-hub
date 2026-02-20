@@ -1,9 +1,10 @@
 import { createContext } from 'react'
 import type { annotation_Annotation, model_Dataset } from '../api'
 
+export type ViewMode = 'models' | 'groundTruths' | 'jobs'
+
 export interface AppState {
-  viewingModels: boolean
-  viewingGroundTruths: boolean
+  viewMode: ViewMode | null
   datasetId: string
   annotationId: string
   currentPage: number
