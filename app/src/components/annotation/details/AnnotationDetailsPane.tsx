@@ -23,9 +23,11 @@ import { ExportAnnotationModal } from './ExportAnnotationModal.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage'
 import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
+import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
+  isExporting: boolean
   isEditing: boolean
   editedName: string
   editedDescription: string
@@ -42,6 +44,7 @@ interface AnnotationDetailsContentProps {
 
 const AnnotationDetailsContent = ({
   annotation,
+  isExporting,
   isEditing,
   editedName,
   editedDescription,
@@ -239,6 +242,10 @@ const AnnotationDetailsContent = ({
         <div className="text-sm leading-tight break-all ">
           <Timestamp date={annotation.updated_at} />
         </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Export</div>
+        <div className="text-sm leading-tight break-all">
+          {isExporting ? 'In progress' : 'Idle'}
+        </div>
       </div>
 
       <div className="font-semibold text-xs opacity-80 py-2">Applied rules</div>
@@ -293,6 +300,12 @@ export function AnnotationDetailsPane() {
   const [isDeleting, setIsDeleting] = useState(false)
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [isDuplicateOpen, setIsDuplicateOpen] = useState(false)
+  const { data: runningJobs } = useRunningIntegrationJobsQuery()
+  const isExporting = !!runningJobs?.some(
+    (job) =>
+      job.annotation?.dataset_id === annotation?.dataset_id &&
+      job.annotation?.id === annotation?.id,
+  )
 
   useEffect(() => {
     setError(null)
@@ -393,7 +406,7 @@ export function AnnotationDetailsPane() {
               onClick={() => setIsExportOpen(true)}
               className="px-2 py-1 text-xs"
             >
-              Export
+              {isExporting ? 'Exporting…' : 'Export'}
             </Button>
             <Button
               onClick={handleDeleteClick}
@@ -410,6 +423,7 @@ export function AnnotationDetailsPane() {
         <div className="flex-1 min-h-0 overflow-auto p-2.5 box-border">
           <AnnotationDetailsContent
             annotation={annotation}
+            isExporting={isExporting}
             isEditing={isEditing}
             editedName={editedName}
             editedDescription={editedDescription}

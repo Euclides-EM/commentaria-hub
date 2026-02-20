@@ -1,10 +1,10 @@
 import { type FormEvent, useEffect, useState } from 'react'
 import {
-  AnnotationsService,
   ApiError,
-  type annotation_UploadEscriptorium,
-  type annotation_UploadRoboflow,
+  IntegrationService,
+  type integration_JobTarget,
 } from '../../../api'
+import { useQueryClient } from '@tanstack/react-query'
 import { Button } from '../../core/Button.tsx'
 import { LoadingSpinner } from '../../core/LoadingSpinner.tsx'
 import { useAppState } from '../../../context/useAppState.ts'
@@ -12,17 +12,35 @@ import Select from 'react-select'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { ErrorMessage } from '../../core/ErrorMessage'
 import useLocalStorageState from 'use-local-storage-state'
+import { runningIntegrationJobsQueryKey } from '../../../queries/integrations.ts'
 
 type ExportMode = 'roboflow' | 'escriptorium'
 
 interface ExportAnnotationModalProps {
   isOpen: boolean
   onClose: () => void
+  exportTargets?: ExportAnnotationTarget[]
+  defaultGroundTruthChecked?: boolean
 }
 
-type RoboflowSettings = Required<annotation_UploadRoboflow>
+export type ExportAnnotationTarget = {
+  datasetId: string
+  annotationId: string
+}
 
-type EscriptoriumSettings = Required<annotation_UploadEscriptorium>
+type RoboflowSettings = Required<
+  Pick<
+    integration_JobTarget,
+    'api_key' | 'workspace_url' | 'project_id' | 'is_not_ground_truth'
+  >
+>
+
+type EscriptoriumSettings = Required<
+  Pick<
+    integration_JobTarget,
+    'base_path' | 'document' | 'username' | 'password' | 'is_not_ground_truth'
+  >
+>
 
 const exportOptions = [
   { value: 'roboflow', label: 'Upload to Roboflow' },
@@ -32,11 +50,11 @@ const exportOptions = [
 export function ExportAnnotationModal({
   isOpen,
   onClose,
+  exportTargets,
+  defaultGroundTruthChecked = false,
 }: ExportAnnotationModalProps) {
-  const {
-    annotation,
-    state: { datasetId },
-  } = useAppState()
+  const queryClient = useQueryClient()
+  const { annotation } = useAppState()
   const [mode, setMode] = useState<ExportMode>('roboflow')
   const [roboflow, setRoboflow] = useLocalStorageState<RoboflowSettings>(
     'export-roboflow',
@@ -56,43 +74,84 @@ export function ExportAnnotationModal({
         document: '',
         username: '',
         password: '',
+        is_not_ground_truth: false,
       },
     })
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
-  const [roboflowAsync, setRoboflowAsync] = useState(true)
+  const exportCount = exportTargets?.length || 0
+  const modalTitle =
+    exportCount > 1 ? `Export ${exportCount} annotations` : 'Export annotation'
 
   useEffect(() => {
     if (isOpen) {
       setError(null)
       setLoading(false)
+      if (defaultGroundTruthChecked) {
+        setRoboflow((prev) => ({
+          ...prev,
+          is_not_ground_truth: false,
+        }))
+        setEscriptorium((prev) => ({
+          ...prev,
+          is_not_ground_truth: false,
+        }))
+      }
     }
-  }, [isOpen])
+  }, [defaultGroundTruthChecked, isOpen, setEscriptorium, setRoboflow])
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
-    if (!annotation) {
+    event.preventDefault()
+
+    const resolvedTargets =
+      exportTargets && exportTargets.length > 0
+        ? exportTargets
+        : annotation?.id && annotation.dataset_id
+          ? [{ datasetId: annotation.dataset_id, annotationId: annotation.id }]
+          : []
+
+    if (resolvedTargets.length === 0) {
       return
     }
-    event.preventDefault()
+
     try {
       setError(null)
       setLoading(true)
 
-      if (mode === 'roboflow') {
-        await AnnotationsService.putDatasetsAnnotationsUploadRoboflow({
-          dataSetId: datasetId,
-          id: annotation.id!,
-          annotationRoboflowUpload: roboflow,
-          async: roboflowAsync,
-        })
-      } else {
-        await AnnotationsService.putDatasetsAnnotationsUploadEscriptorium({
-          dataSetId: datasetId,
-          id: annotation.id!,
-          annotationEscriptoriumUpload: escriptorium,
-        })
-      }
+      const exportDetails =
+        mode === 'roboflow'
+          ? {
+              platform: 'Roboflow' as const,
+              api_key: roboflow.api_key,
+              workspace_url: roboflow.workspace_url,
+              project_id: roboflow.project_id,
+              is_not_ground_truth: roboflow.is_not_ground_truth,
+            }
+          : {
+              platform: 'EScriptorium' as const,
+              base_path: escriptorium.base_path,
+              document: escriptorium.document,
+              username: escriptorium.username,
+              password: escriptorium.password,
+              is_not_ground_truth: escriptorium.is_not_ground_truth,
+            }
 
+      await IntegrationService.postIntegrationsJobs({
+        job: {
+          jobs: resolvedTargets.map((target) => ({
+            annotation: {
+              dataset_id: target.datasetId,
+              id: target.annotationId,
+            },
+            task: 'Export',
+            target: { ...exportDetails },
+          })),
+        },
+      })
+
+      void queryClient.invalidateQueries({
+        queryKey: runningIntegrationJobsQueryKey(),
+      })
       onClose()
     } catch (e) {
       console.error('Failed to export annotation:', e)
@@ -117,7 +176,7 @@ export function ExportAnnotationModal({
         onSubmit={handleSubmit}
       >
         <div className="px-6 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold">Export annotation</h2>
+          <h2 className="text-lg font-semibold">{modalTitle}</h2>
         </div>
 
         <div className="flex-1 overflow-auto p-6 space-y-4 text-sm">
@@ -129,7 +188,7 @@ export function ExportAnnotationModal({
               options={exportOptions}
               value={exportOptions.find((option) => option.value === mode)}
               onChange={(option) =>
-                setMode((option?.value as ExportMode) || 'zip')
+                setMode((option?.value as ExportMode) || 'roboflow')
               }
               isDisabled={loading}
               className="text-sm"
@@ -215,17 +274,6 @@ export function ExportAnnotationModal({
                 />
                 Mark as ground truth
               </label>
-              <label className="flex items-center gap-2 text-sm text-gray-700">
-                <input
-                  type="checkbox"
-                  checked={roboflowAsync}
-                  onChange={(e) => setRoboflowAsync(e.target.checked)}
-                  className="h-4 w-4"
-                  disabled={loading}
-                />
-                Run in background (return immediately; upload continues
-                server-side)
-              </label>
             </div>
           )}
 
@@ -308,6 +356,21 @@ export function ExportAnnotationModal({
                   required
                 />
               </div>
+              <label className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="checkbox"
+                  checked={escriptorium.is_not_ground_truth}
+                  onChange={(e) =>
+                    setEscriptorium((prev) => ({
+                      ...prev,
+                      is_not_ground_truth: !e.target.checked,
+                    }))
+                  }
+                  className="h-4 w-4"
+                  disabled={loading}
+                />
+                Mark as ground truth
+              </label>
             </div>
           )}
 

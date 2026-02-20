@@ -1,9 +1,11 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useQueries } from '@tanstack/react-query'
 import type { annotation_Annotation } from '../../api'
 import { AnnotationsService } from '../../api'
 import { useAppState } from '../../context/useAppState'
 import { useDatasetsQuery } from '../../queries/datasets'
+import { ExportAnnotationModal } from '../annotation/details/ExportAnnotationModal'
+import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
 import { SearchInput } from '../core/SearchInput'
@@ -27,6 +29,10 @@ type SortConfig = {
 export function GroundTruthsTable() {
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { setState } = useAppState()
+  const [isExportOpen, setIsExportOpen] = useState(false)
+  const [selectedTargets, setSelectedTargets] = useState<
+    Record<string, { datasetId: string; annotationId: string }>
+  >({})
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
     'groundTruthsSearch',
     {
@@ -60,7 +66,9 @@ export function GroundTruthsTable() {
     })),
   })
 
-  const isLoadingAnnotations = annotationQueries.some((query) => query.isLoading)
+  const isLoadingAnnotations = annotationQueries.some(
+    (query) => query.isLoading,
+  )
   const hasError = annotationQueries.some((query) => query.isError)
   const queryErrorMessage =
     annotationQueries.find((query) => query.error)?.error?.toString() || null
@@ -124,6 +132,9 @@ export function GroundTruthsTable() {
     [filteredRows],
   )
 
+  const rowKey = (row: GroundTruthRow) =>
+    `${row.datasetId}:${row.annotation.id}`
+
   const sortedRows = useMemo(() => {
     const getSortValue = (row: GroundTruthRow, key: SortKey) => {
       switch (key) {
@@ -151,6 +162,29 @@ export function GroundTruthsTable() {
     })
     return data
   }, [filteredRows, sortConfig.direction, sortConfig.key])
+
+  useEffect(() => {
+    const validKeys = new Set(rows.map((row) => rowKey(row)))
+    setSelectedTargets((current) => {
+      const next: Record<string, { datasetId: string; annotationId: string }> =
+        {}
+      let changed = false
+      for (const [key, target] of Object.entries(current)) {
+        if (validKeys.has(key)) {
+          next[key] = target
+        } else {
+          changed = true
+        }
+      }
+      return changed ? next : current
+    })
+  }, [rows])
+
+  const selectedCount = Object.keys(selectedTargets).length
+  const selectedRows = Object.values(selectedTargets)
+  const allVisibleSelected =
+    sortedRows.length > 0 &&
+    sortedRows.every((row) => selectedTargets[rowKey(row)] !== undefined)
 
   const toggleSort = (key: SortKey) => {
     setSortConfig((current) => {
@@ -187,7 +221,9 @@ export function GroundTruthsTable() {
       <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white gap-4">
         <div className="flex items-center gap-6">
           <div>
-            <h2 className="text-lg font-semibold text-gray-900">Ground Truths</h2>
+            <h2 className="text-lg font-semibold text-gray-900">
+              Ground Truths
+            </h2>
             <p className="text-xs text-gray-500">
               {filteredRows.length}
               {searchQuery && ` of ${rows.length}`}{' '}
@@ -202,6 +238,16 @@ export function GroundTruthsTable() {
             placeholder="Search ground truths..."
             className="w-[22rem] max-w-full"
           />
+        </div>
+        <div className="flex items-center gap-2">
+          <Button
+            type="button"
+            onClick={() => setIsExportOpen(true)}
+            disabled={selectedCount === 0}
+            className="px-3 py-1.5 text-sm"
+          >
+            Export selected ({selectedCount})
+          </Button>
         </div>
       </div>
 
@@ -251,6 +297,48 @@ export function GroundTruthsTable() {
                     <thead className="bg-gray-50 text-xs text-gray-500">
                       <tr>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
+                          <input
+                            type="checkbox"
+                            checked={allVisibleSelected}
+                            onChange={(e) => {
+                              if (e.target.checked) {
+                                setSelectedTargets((current) => {
+                                  const next = { ...current }
+                                  sortedRows.forEach((row) => {
+                                    if (row.annotation.id) {
+                                      next[rowKey(row)] = {
+                                        datasetId: row.datasetId,
+                                        annotationId: row.annotation.id,
+                                      }
+                                    }
+                                  })
+                                  return next
+                                })
+                                return
+                              }
+                              const visibleKeys = new Set(
+                                sortedRows.map((row) => rowKey(row)),
+                              )
+                              setSelectedTargets((current) => {
+                                const next: Record<
+                                  string,
+                                  { datasetId: string; annotationId: string }
+                                > = {}
+                                for (const [key, target] of Object.entries(
+                                  current,
+                                )) {
+                                  if (!visibleKeys.has(key)) {
+                                    next[key] = target
+                                  }
+                                }
+                                return next
+                              })
+                            }}
+                            className="h-4 w-4"
+                            aria-label="Select all visible ground truths"
+                          />
+                        </th>
+                        <th className="px-4 py-3 text-left whitespace-nowrap">
                           {renderSortHeader('Annotation', 'annotation')}
                         </th>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
@@ -268,6 +356,36 @@ export function GroundTruthsTable() {
                           key={`${row.datasetId}:${row.annotation.id}`}
                           className="hover:bg-gray-50"
                         >
+                          <td className="px-4 py-3 text-left whitespace-nowrap">
+                            <input
+                              type="checkbox"
+                              checked={
+                                selectedTargets[rowKey(row)] !== undefined
+                              }
+                              onChange={(e) => {
+                                if (!row.annotation.id) {
+                                  return
+                                }
+                                const key = rowKey(row)
+                                setSelectedTargets((current) => {
+                                  if (e.target.checked) {
+                                    return {
+                                      ...current,
+                                      [key]: {
+                                        datasetId: row.datasetId,
+                                        annotationId: row.annotation.id!,
+                                      },
+                                    }
+                                  }
+                                  const next = { ...current }
+                                  delete next[key]
+                                  return next
+                                })
+                              }}
+                              className="h-4 w-4"
+                              aria-label={`Select ${row.annotation.name || row.annotation.id}`}
+                            />
+                          </td>
                           <td className="px-4 py-3 text-left whitespace-nowrap">
                             <button
                               type="button"
@@ -317,6 +435,12 @@ export function GroundTruthsTable() {
             )}
         </div>
       </div>
+      <ExportAnnotationModal
+        isOpen={isExportOpen}
+        onClose={() => setIsExportOpen(false)}
+        exportTargets={selectedRows}
+        defaultGroundTruthChecked
+      />
     </div>
   )
 }

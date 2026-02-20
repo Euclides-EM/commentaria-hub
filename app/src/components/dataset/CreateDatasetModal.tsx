@@ -182,10 +182,13 @@ export function CreateDatasetModal({
               <div className="flex-1 min-w-0">
                 <Select
                   value={
-                    facsimileOptions.find((o) => o.value.split("/")[0] === facsimileId) ??
-                    null
+                    facsimileOptions.find(
+                      (o) => o.value.split('/')[0] === facsimileId,
+                    ) ?? null
                   }
-                  onChange={(opt) => setFacsimileId(opt?.value.split("/")[0] || null)}
+                  onChange={(opt) =>
+                    setFacsimileId(opt?.value.split('/')[0] || null)
+                  }
                   options={facsimileOptions}
                   placeholder="Select facsimile..."
                   isLoading={facsimilesLoading}

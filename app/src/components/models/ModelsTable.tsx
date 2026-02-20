@@ -27,12 +27,7 @@ import { useQueries } from '@tanstack/react-query'
 
 const getDisplayValue = (value?: string) => value?.trim() || '—'
 
-type SortKey =
-  | 'name'
-  | 'type'
-  | 'algorithm'
-  | 'base'
-  | 'updated'
+type SortKey = 'name' | 'type' | 'algorithm' | 'base' | 'updated'
 type SortDirection = 'asc' | 'desc'
 
 type SortConfig = {
@@ -356,7 +351,8 @@ export function ModelsTable() {
           type: updates.type as common_OCRModelType,
           algorithm_family: updates.algorithm_family as 'yolo' | undefined,
           base_model_id: updates.base_model_id,
-          base_annotations: updates.base_annotations ?? modelToEdit.base_annotations,
+          base_annotations:
+            updates.base_annotations ?? modelToEdit.base_annotations,
           categories: modelToEdit.categories,
         },
       },
@@ -480,9 +476,7 @@ export function ModelsTable() {
                 <table className="min-w-full text-sm">
                   <thead className="bg-gray-50 text-xs text-gray-500">
                     <tr>
-                      <th className="px-4 py-3 text-left">
-                        Base Annotations
-                      </th>
+                      <th className="px-4 py-3 text-left">Base Annotations</th>
                       <th className="px-4 py-3 text-left">
                         {renderSortHeader('Model', 'name')}
                       </th>

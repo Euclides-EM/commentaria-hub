@@ -67,8 +67,9 @@ export function ModelEditModal({
   const [baseModelId, setBaseModelId] = useState<string | null>(
     () => model?.base_model_id || null,
   )
-  const [baseAnnotationRows, setBaseAnnotationRows] =
-    useState<BaseAnnotationRow[]>(() => initialBaseRows)
+  const [baseAnnotationRows, setBaseAnnotationRows] = useState<
+    BaseAnnotationRow[]
+  >(() => initialBaseRows)
   const [rowCounter, setRowCounter] = useState(() => initialRowId)
   const [error, setError] = useState<string | null>(null)
   const { data: datasets } = useDatasetsQuery()
@@ -116,8 +117,13 @@ export function ModelEditModal({
       return
     }
     const base_annotations: model_AnnotationReference[] = baseAnnotationRows
-      .filter((row): row is BaseAnnotationRow & { datasetId: string; annotationId: string } =>
-        !!row.datasetId && !!row.annotationId,
+      .filter(
+        (
+          row,
+        ): row is BaseAnnotationRow & {
+          datasetId: string
+          annotationId: string
+        } => !!row.datasetId && !!row.annotationId,
       )
       .map((row) => ({ dataset_id: row.datasetId, id: row.annotationId }))
     onSubmit({
