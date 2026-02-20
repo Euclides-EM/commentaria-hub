@@ -20,6 +20,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/name"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
 	"github.com/samber/lo"
@@ -82,11 +83,11 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDa
 		ds.EditionID = targetFacsimile.EditionID
 	}
 
+	dss, err := d.List(nil, nil)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list datasets: %w", err)
+	}
 	if enforceSingleDataset {
-		dss, err := d.List(nil, nil)
-		if err != nil {
-			return nil, fmt.Errorf("failed to list datasets: %w", err)
-		}
 		for _, existingDS := range dss {
 			if existingDS.FacsimileID == ds.FacsimileID && existingDS.EditionID == ds.EditionID {
 				return nil, fmt.Errorf("dataset for facsimile %s in edition %s already exists", ds.FacsimileID, ds.EditionID)
@@ -97,6 +98,7 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDa
 	ds.ID = idgen.GenerateID(store.DatasetIDPrefix)
 	ds.CreatedAt = time.Now()
 	ds.UpdatedAt = ds.CreatedAt
+	ds.Name = name.NextAvailable(lo.Map(dss, func(d *model.Dataset, _ int) string { return d.Name }), ds.Name)
 
 	if ds.DPI == 0 || ds.DPI < 50.0 || ds.DPI > 600.0 {
 		ds.DPI = 300.0

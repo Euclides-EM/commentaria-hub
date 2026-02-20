@@ -16,7 +16,9 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/name"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/samber/lo"
 	"github.com/tiendc/go-deepcopy"
 )
 
@@ -67,10 +69,15 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 	if _, err := os.Stat(imgPath); os.IsNotExist(err) {
 		return nil, fmt.Errorf("no images found for dataset %s", datasetID)
 	}
+	anns, err := a.ListAnnotations(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list annotations for dataset: %w", err)
+	}
 
 	// assign basic fields
 	ann.ID = idgen.GenerateID(store.AnnotationIDPrefix)
 	ann.DatasetID = datasetID
+	ann.Name = name.NextAvailable(lo.Map(anns, func(a *annotation.Annotation, _ int) string { return a.Name }), ann.Name)
 
 	if ann.Pages == "" {
 		// infer pages from existing images
