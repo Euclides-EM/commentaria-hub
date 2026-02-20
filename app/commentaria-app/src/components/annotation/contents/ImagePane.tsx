@@ -16,7 +16,13 @@ export function ImagePane() {
     }
 
     const key = String(currentPageOrKey)
-    return key.endsWith(".png") ? key : `${key}.png`
+
+    // already has an image extension → keep as is
+    if (/\.(png|jpe?g|webp|gif|bmp|tiff?)$/i.test(key)) {
+      return key
+    }
+
+    return `${key}.png`
   })()
 
   const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
