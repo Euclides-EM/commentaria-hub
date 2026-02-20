@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS annotations
     ground_truth         BOOLEAN          NOT NULL DEFAULT FALSE,
     ocred                BOOLEAN          NOT NULL DEFAULT FALSE,
     dataset_id           TEXT             NOT NULL REFERENCES datasets (id) ON DELETE CASCADE,
-    origin_annotation_id TEXT DEFAULT ''  NOT NULL REFERENCES annotations (id) ON DELETE SET NULL
+    origin_annotation_id TEXT DEFAULT ''  NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS annotation_rules
@@ -28,9 +28,3 @@ CREATE TABLE IF NOT EXISTS annotation_applied_rules (
     rule_id       TEXT NOT NULL REFERENCES annotation_rules(id) ON DELETE CASCADE,
     PRIMARY KEY (annotation_id, rule_id)
 );
-
--- Sentinel row so that origin_annotation_id = '' is a valid self-reference (no origin).
-INSERT INTO annotations
-(id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id)
-VALUES ('', '(no origin)', '', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, '', 0, 0, 0, 'rrpbnk', '');
-
