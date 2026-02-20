@@ -10,34 +10,11 @@ import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
 import { useAuthStore } from '../store/authStore.ts'
+import { TabButton } from './core/TabButton.tsx'
 
 type Tab = 'details' | 'text'
 
 const diagramUrl = new URL('../assets/diagram.png', import.meta.url).href
-
-const TabButton = ({
-  onSelected,
-  title,
-  isActive,
-}: {
-  onSelected: () => void
-  title: string
-  isActive: boolean
-}) => {
-  return (
-    <button
-      className={`px-3 py-1 rounded w-45 text-sm ${
-        isActive
-          ? 'bg-gray-500  text-white !cursor-default'
-          : 'bg-gray-200 hover:bg-gray-300'
-      }`}
-      onClick={() => onSelected()}
-    >
-      {isActive && '> '}
-      {title}
-    </button>
-  )
-}
 
 export function Main() {
   const [activeTab, setActiveTab] = useLocalStorageState<Tab>(

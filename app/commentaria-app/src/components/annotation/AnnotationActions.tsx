@@ -17,7 +17,7 @@ export function AnnotationActions({
   const [isCreateOpen, setIsCreateOpen] = useState(false)
 
   return (
-    <div className="w-full max-w-[80vw] self-center m-3 mt-6 font-medium text-left">
+    <div className="w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto mt-6 mb-3 font-medium text-left">
       <p>Annotaion import</p>
       <div className="mt-4 flex flex-wrap gap-3 justify-start">
         <Button
