@@ -5,7 +5,7 @@ INSERT INTO datasets (id, name, description, created_at, updated_at, edition_id,
 ('tps', 'Title Pages', 'Title pages dataset', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, '', 'tps_facsimiles', -1, FALSE);
 
 INSERT INTO annotations (id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id) VALUES
-('ann_1', 'Title Page Annotation', '', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, '', FALSE, FALSE, FALSE, 'tps');
+('ann_1', 'Title Page Annotation', '', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, '', FALSE, FALSE, TRUE, 'tps');
 
 -- Seed data from: features (from features.py), default feature_revisions (prompt from features.py), feature_results (from title_page.csv).
 -- Features: all is_root=1; is_default from FeaturesNotSelectedByDefault (index.ts). Revisions: one per feature, prompt from prompt(), type=annotation, execution_strategy=prompt. Results: source_resp=human, note/name indicate migration.
