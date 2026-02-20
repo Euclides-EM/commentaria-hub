@@ -159,3 +159,19 @@ func (h *Handlers) UploadDatasetImage(r *http.Request) (any, error) {
 
 	return h.deps.DatasetSvc.UploadImage(file, header, datasetId)
 }
+
+// GetDatasetImages godoc
+// @Summary      Get Dataset Images
+// @Description  Get a list of images associated with a dataset.
+// @Tags         Datasets
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Produce      json
+// @Success      200  {array}   model.ImageMetadata
+// @Router       /datasets/{dataSetId}/images [get]
+func (h *Handlers) GetDatasetImages(r *http.Request) (any, error) {
+	datasetId, err := extractDatasetID(r)
+	if err != nil {
+		return nil, err
+	}
+	return h.deps.DatasetSvc.ListImages(datasetId)
+}

@@ -357,3 +357,11 @@ func (d *Dataset) UploadImage(file multipart.File, header *multipart.FileHeader,
 	}
 	return d.datasetStore.UploadImage(dataset, header.Filename, file)
 }
+
+func (d *Dataset) ListImages(datasetId string) ([]*model.ImageMetadata, error) {
+	dataset, err := d.Get(datasetId)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	return d.datasetStore.ListImages(dataset)
+}
