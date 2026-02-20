@@ -147,7 +147,7 @@ Quick test:
 sudo vim /etc/systemd/system/commentaria-hub-api.service
 ```
 
-Add the following content:'
+Add the following content:
 
 ```ini
 [Unit]

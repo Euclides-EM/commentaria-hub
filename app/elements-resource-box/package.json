@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "euclides": "vite --mode euclides",
+    "euclides:huma-num": "VITE_BACKEND_URL=http://euclides.huma-num.fr/commentaria vite --mode euclides",
     "build": "tsc -b && vite build",
     "lint": "eslint . --max-warnings 0",
     "preview": "vite preview",
