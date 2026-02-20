@@ -1,3 +1,5 @@
+//go:build !nogocv
+
 package formatcov
 
 import (

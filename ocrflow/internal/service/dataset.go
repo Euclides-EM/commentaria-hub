@@ -110,16 +110,16 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDa
 		// Run heavy work in background; copy fields needed in goroutine to avoid races.
 		dsCopy := *ds
 		scanURL := targetFacsimile.ScanURL
-		go d.runDatasetCreation(context.Background(), &dsCopy, scanURL, !ds.Deskewed)
+		go d.runDatasetCreation(context.Background(), &dsCopy, scanURL)
 		return ds, nil
 	}
 
-	return d.doDatasetCreation(ctx, ds, targetFacsimile.ScanURL, !ds.Deskewed)
+	return d.doDatasetCreation(ctx, ds, targetFacsimile.ScanURL)
 }
 
 // runDatasetCreation performs download, PDF→PNG, and optional deskew, then updates dataset status.
-func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string, skipDeskew bool) {
-	_, err := d.doDatasetCreation(ctx, ds, scanURL, skipDeskew)
+func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string) {
+	_, err := d.doDatasetCreation(ctx, ds, scanURL)
 	if err != nil {
 		log.Printf("async dataset creation failed for %s: %v", ds.ID, err)
 		_ = d.datasetStore.UpdateDatasetCreationStatus(ds.ID, model.DatasetStatusFailed, err.Error())
@@ -132,7 +132,7 @@ func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, sca
 }
 
 // doDatasetCreation does download, convert, deskew, and insert (caller sets status when async).
-func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string, skipDeskew bool) (*model.Dataset, error) {
+func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string) (*model.Dataset, error) {
 	pdfPath := d.fileSysMgt.DatasetPDFPath(ds)
 	log.Printf("Downloading facsimile from %s to %s", scanURL, pdfPath)
 	if err := d.githubDownloader.DownloadRecursive(ctx, scanURL, pdfPath); err != nil {
@@ -141,7 +141,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 
 	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
 	convertedPNGsDir := imgPath
-	if !skipDeskew {
+	if ds.Deskewed {
 		var err error
 		convertedPNGsDir, err = os.MkdirTemp("", "ocrflow-dataset-rawimgs-*")
 		if err != nil {
@@ -170,7 +170,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 		}
 	}
 
-	if !skipDeskew {
+	if ds.Deskewed {
 		log.Printf("Deskewing images from %s into %s", convertedPNGsDir, imgPath)
 		if err := formatcov.DeskewPNGs(convertedPNGsDir, imgPath); err != nil {
 			return nil, fmt.Errorf("failed to deskew images: %w", err)
