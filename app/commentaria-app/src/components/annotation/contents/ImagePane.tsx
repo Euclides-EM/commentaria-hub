@@ -8,7 +8,18 @@ export function ImagePane() {
     state: { datasetId, currentPageOrKey },
   } = useAppState()
   const [zoom, setZoom] = useState(250)
-  const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${currentPageOrKey}`
+  const normalizedKey = (() => {
+    const num = Number(currentPageOrKey)
+
+    if (!Number.isNaN(num) && Number.isInteger(num)) {
+      return `page-${String(num).padStart(4, "0")}.png`
+    }
+
+    const key = String(currentPageOrKey)
+    return key.endsWith(".png") ? key : `${key}.png`
+  })()
+
+  const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
