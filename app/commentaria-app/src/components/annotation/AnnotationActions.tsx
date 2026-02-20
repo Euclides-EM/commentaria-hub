@@ -17,12 +17,9 @@ export function AnnotationActions({
   const [isCreateOpen, setIsCreateOpen] = useState(false)
 
   return (
-    <div className="w-full m-10 font-medium text-center">
-      <p>
-        Please select an annotation or get started with importing new
-        annotations.
-      </p>
-      <div className="mt-4 flex flex-wrap gap-3 justify-center">
+    <div className="w-full max-w-[80vw] self-center m-3 mt-6 font-medium text-left">
+      <p>Annotaion import</p>
+      <div className="mt-4 flex flex-wrap gap-3 justify-start">
         <Button
           onClick={() => setIsImportUrlOpen(true)}
           variant="primary"

@@ -52,13 +52,13 @@ export function PageNavigation() {
   const [isResizing, setIsResizing] = useState(false)
   const splitRef = useRef<HTMLDivElement | null>(null)
 
-  const onPageNumChange = (page: number) => setState({ currentPage: page })
+  const onPageNumChange = (page: number) => setState({ currentPageOrKey: page })
   const availablePages = useMemo(() => {
     const pages = annotation ? parseAvailablePages(annotation) : []
     return [...pages].sort((a, b) => a - b)
   }, [annotation])
 
-  const currentIndex = availablePages.indexOf(state.currentPage)
+  const currentIndex = availablePages.indexOf(state.currentPageOrKey)
   const isFirstPage = currentIndex === 0
   const isLastPage = currentIndex === availablePages.length - 1
 
@@ -74,10 +74,10 @@ export function PageNavigation() {
   }
 
   useEffect(() => {
-    if (!availablePages.includes(state.currentPage)) {
-      setState({ currentPage: availablePages[0] })
+    if (!availablePages.includes(state.currentPageOrKey)) {
+      setState({ currentPageOrKey: availablePages[0] })
     }
-  }, [availablePages, setState, state.currentPage])
+  }, [availablePages, setState, state.currentPageOrKey])
 
   useEffect(() => {
     if (!isResizing) {
@@ -131,10 +131,10 @@ export function PageNavigation() {
             </label>
             <Select
               value={
-                availablePages.find((p) => p === state.currentPage)
+                availablePages.find((p) => p === state.currentPageOrKey)
                   ? {
-                      value: state.currentPage,
-                      label: String(state.currentPage),
+                      value: state.currentPageOrKey,
+                      label: String(state.currentPageOrKey),
                     }
                   : null
               }

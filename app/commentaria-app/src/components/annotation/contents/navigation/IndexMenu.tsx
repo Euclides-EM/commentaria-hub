@@ -143,7 +143,7 @@ export function IndexMenu() {
                     jumpToPage={jumpToPage}
                     key={idx}
                     level={0}
-                    currentPage={state.currentPage}
+                    currentPage={state.currentPageOrKey}
                     nextSiblingPage={getNextSiblingPage(
                       annotationIndex.nodes || [],
                       idx,

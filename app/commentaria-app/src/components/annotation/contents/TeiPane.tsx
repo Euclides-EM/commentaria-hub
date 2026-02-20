@@ -8,7 +8,7 @@ import { RangeInput } from '../../core/RangeInput.tsx'
 export function TeiPane() {
   const {
     annotation,
-    state: { datasetId, annotationId, currentPage },
+    state: { datasetId, annotationId, currentPageOrKey },
   } = useAppState()
   const [showTeiSource, setShowTeiSource] = useLocalStorageState(
     'showTeiSource',
@@ -21,7 +21,7 @@ export function TeiPane() {
   const { data } = useAnnotationTeiQuery(
     datasetId,
     annotationId,
-    currentPage,
+    currentPageOrKey,
     hasTei,
   )
   const [teiContents, setTeiContents] = useState<string | null>(null)

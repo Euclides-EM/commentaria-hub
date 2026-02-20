@@ -39,7 +39,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       viewMode: parsedViewMode,
       datasetId: queryState.datasetId,
       annotationId: queryState.annotationId,
-      currentPage: queryState.currentPage,
+      currentPageOrKey: queryState.currentPage,
     }),
     [
       parsedViewMode,
@@ -70,8 +70,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       if (updates.annotationId !== undefined) {
         nextUpdates.annotationId = updates.annotationId
       }
-      if (updates.currentPage !== undefined) {
-        nextUpdates.currentPage = updates.currentPage
+      if (updates.currentPageOrKey !== undefined) {
+        nextUpdates.currentPage = updates.currentPageOrKey
       }
 
       if (

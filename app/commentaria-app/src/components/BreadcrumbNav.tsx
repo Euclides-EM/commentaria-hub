@@ -12,7 +12,7 @@ import { MultiSelectDropdown } from './core/MultiSelectDropdown.tsx'
 import { getStageDisplayName } from '../utils/stages.ts'
 import { Button } from './core/Button.tsx'
 
-const Separator = () => <span className="bg-gray-600 w-[1px] h-fill mx-2" />
+const Separator = () => <span className="bg-gray-600 w-px h-fill mx-2" />
 
 export function BreadcrumbNav() {
   const { state, setState } = useAppState()
@@ -76,7 +76,7 @@ export function BreadcrumbNav() {
     !state.viewMode && !!state.datasetId && !state.annotationId
 
   return (
-    <div className="flex items-center text-sm gap-2 flex-wrap">
+    <div className="flex items-center text-sm gap-x-2 gap-y-4 flex-wrap">
       <Separator />
       <Button
         variant="primary"
@@ -140,7 +140,7 @@ export function BreadcrumbNav() {
       </div>
 
       {state.datasetId && (
-        <>
+        <div className="flex items-center gap-2 flex-nowrap shrink-0">
           <div className="h-3 w-3 rotate-[-45deg] border-b border-r border-slate-600" />
 
           <div
@@ -174,7 +174,7 @@ export function BreadcrumbNav() {
               getItemLabel={(stage) => getStageDisplayName(stage)}
             />
           )}
-        </>
+        </div>
       )}
     </div>
   )

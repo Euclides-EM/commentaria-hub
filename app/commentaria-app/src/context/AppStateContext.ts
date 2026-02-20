@@ -7,7 +7,7 @@ export interface AppState {
   viewMode: ViewMode | null
   datasetId: string
   annotationId: string
-  currentPage: number
+  currentPageOrKey: number
 }
 
 export interface AppStateContextType {

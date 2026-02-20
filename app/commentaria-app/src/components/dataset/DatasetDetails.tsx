@@ -153,176 +153,177 @@ export const DatasetDetails = () => {
           )}
         </div>
 
-        <div className="p-3.5 overflow-auto leading-normal text-base box-border bg-gray-50">
-          {isCreating && (
-            <div className="mb-4">
-              <LoadingSpinner size="sm" message="Dataset is being created..." />
-              <p className="mt-2 text-sm text-gray-600">
-                You can select another dataset from the sidebar. This one will
-                be ready once creation finishes.
-              </p>
-            </div>
-          )}
-          <div className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 items-start">
-            <div className="font-semibold text-xs opacity-80 pt-0.5">ID</div>
-            <div className="text-sm leading-tight break-all font-mono">
-              {currentDataset.id}
-            </div>
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">Name</div>
-            {isEditing ? (
-              <input
-                type="text"
-                autoComplete="on"
-                value={editedName}
-                onChange={(e) => setEditedName(e.target.value)}
-                className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
-                disabled={isSaving}
-              />
-            ) : (
-              <div className="text-sm leading-tight break-all">
-                {currentDataset.name || 'N/A'}
+        <div className="flex-1 min-h-0 overflow-auto p-2.5 box-border">
+          <div className="mt-2.5 border border-gray-200 rounded-lg bg-gray-50 p-3.5 overflow-auto leading-normal text-base box-border">
+            {isCreating && (
+              <div className="mb-4">
+                <LoadingSpinner size="sm" message="Dataset is being created..." />
+                <p className="mt-2 text-sm text-gray-600">
+                  You can select another dataset from the sidebar. This one will
+                  be ready once creation finishes.
+                </p>
               </div>
             )}
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">
-              Description
-            </div>
-            {isEditing ? (
-              <textarea
-                value={editedDescription}
-                onChange={(e) => setEditedDescription(e.target.value)}
-                className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
-                rows={3}
-                disabled={isSaving}
-              />
-            ) : (
-              <div className="text-sm leading-tight whitespace-pre-wrap break-words">
-                {currentDataset.description?.replace(/\\n/g, '\n') || 'N/A'}
+            <div className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 items-start">
+              <div className="font-semibold text-xs opacity-80 pt-0.5">ID</div>
+              <div className="text-sm leading-tight break-all font-mono">
+                {currentDataset.id}
               </div>
-            )}
 
-            <div className="font-semibold text-xs opacity-80 pt-0.5">
-              Facsimile
-            </div>
-            <div className="text-sm leading-tight break-all font-mono">
-              {currentDataset.facsimile_id
-                ? currentDataset.edition_id
-                  ? `${currentDataset.edition_id} (${currentDataset.facsimile_id})`
-                  : currentDataset.facsimile_id
-                : 'N/A'}
-            </div>
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">DPI</div>
-            {isEditing ? (
-              <input
-                type="number"
-                min={1}
-                value={editedDpi}
-                onChange={(e) => setEditedDpi(e.target.value)}
-                className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
-                disabled={isSaving}
-              />
-            ) : (
-              <div className="text-sm leading-tight break-all">
-                {currentDataset.dpi ?? 'N/A'}
-              </div>
-            )}
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">Pages</div>
-            {isEditing ? (
-              <input
-                type="text"
-                autoComplete="off"
-                value={editedPages}
-                onChange={(e) => setEditedPages(e.target.value)}
-                className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
-                disabled={isSaving}
-              />
-            ) : (
-              <div className="text-sm leading-tight break-all">
-                {currentDataset.pages || 'All'}
-              </div>
-            )}
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">
-              Deskewed
-            </div>
-            {isEditing ? (
-              <label className="flex items-center gap-2 text-sm leading-tight">
+              <div className="font-semibold text-xs opacity-80 pt-0.5">Name</div>
+              {isEditing ? (
                 <input
-                  type="checkbox"
-                  checked={editedDeskewed}
-                  onChange={(e) => setEditedDeskewed(e.target.checked)}
-                  className="h-4 w-4"
+                  type="text"
+                  autoComplete="on"
+                  value={editedName}
+                  onChange={(e) => setEditedName(e.target.value)}
+                  className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
                   disabled={isSaving}
                 />
-                {String(editedDeskewed)}
-              </label>
-            ) : (
+              ) : (
+                <div className="text-sm leading-tight break-all">
+                  {currentDataset.name || 'N/A'}
+                </div>
+              )}
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Description
+              </div>
+              {isEditing ? (
+                <textarea
+                  value={editedDescription}
+                  onChange={(e) => setEditedDescription(e.target.value)}
+                  className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
+                  rows={3}
+                  disabled={isSaving}
+                />
+              ) : (
+                <div className="text-sm leading-tight whitespace-pre-wrap break-words">
+                  {currentDataset.description?.replace(/\\n/g, '\n') || 'N/A'}
+                </div>
+              )}
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Facsimile
+              </div>
+              <div className="text-sm leading-tight break-all font-mono">
+                {currentDataset.facsimile_id
+                  ? currentDataset.edition_id
+                    ? `${currentDataset.edition_id} (${currentDataset.facsimile_id})`
+                    : currentDataset.facsimile_id
+                  : 'N/A'}
+              </div>
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">DPI</div>
+              {isEditing ? (
+                <input
+                  type="number"
+                  min={1}
+                  value={editedDpi}
+                  onChange={(e) => setEditedDpi(e.target.value)}
+                  className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
+                  disabled={isSaving}
+                />
+              ) : (
+                <div className="text-sm leading-tight break-all">
+                  {currentDataset.dpi ?? 'N/A'}
+                </div>
+              )}
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">Pages</div>
+              {isEditing ? (
+                <input
+                  type="text"
+                  autoComplete="off"
+                  value={editedPages}
+                  onChange={(e) => setEditedPages(e.target.value)}
+                  className="text-sm leading-tight break-all border border-gray-300 rounded p-1 w-full bg-white"
+                  disabled={isSaving}
+                />
+              ) : (
+                <div className="text-sm leading-tight break-all">
+                  {currentDataset.pages || 'All'}
+                </div>
+              )}
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Deskewed
+              </div>
+              {isEditing ? (
+                <label className="flex items-center gap-2 text-sm leading-tight">
+                  <input
+                    type="checkbox"
+                    checked={editedDeskewed}
+                    onChange={(e) => setEditedDeskewed(e.target.checked)}
+                    className="h-4 w-4"
+                    disabled={isSaving}
+                  />
+                  {String(editedDeskewed)}
+                </label>
+              ) : (
+                <div className="text-sm leading-tight break-all">
+                  {String(!!currentDataset.deskewed)}
+                </div>
+              )}
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Edition ID
+              </div>
+              <div className="text-sm leading-tight break-all font-mono">
+                {currentDataset.edition_id || 'N/A'}
+              </div>
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Status
+              </div>
               <div className="text-sm leading-tight break-all">
-                {String(!!currentDataset.deskewed)}
+                {datasetStatusLabel}
+              </div>
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Creation error
+              </div>
+              <div className="text-sm leading-tight break-all">
+                {currentDataset.creation_error || 'None'}
+              </div>
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Created
+              </div>
+              <div className="text-sm leading-tight break-all">
+                <Timestamp date={currentDataset.created_at} />
+              </div>
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Updated
+              </div>
+              <div className="text-sm leading-tight break-all">
+                <Timestamp date={currentDataset.updated_at} />
+              </div>
+            </div>
+            <div className="mt-4">
+              <ErrorMessage message={error} />
+            </div>
+            {isEditing && (
+              <div className="flex justify-end gap-2 mt-4">
+                <Button
+                  onClick={handleCancel}
+                  className="px-3 py-1.5 text-sm font-semibold"
+                  disabled={isSaving}
+                >
+                  Cancel
+                </Button>
+                <Button
+                  onClick={handleSave}
+                  variant="primary"
+                  className="px-3 py-1.5 text-sm font-semibold"
+                  disabled={isSaving || isCreating}
+                >
+                  {isSaving ? 'Saving...' : 'Save'}
+                </Button>
               </div>
             )}
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">
-              Edition ID
-            </div>
-            <div className="text-sm leading-tight break-all font-mono">
-              {currentDataset.edition_id || 'N/A'}
-            </div>
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">
-              Status
-            </div>
-            <div className="text-sm leading-tight break-all">
-              {datasetStatusLabel}
-            </div>
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">
-              Creation error
-            </div>
-            <div className="text-sm leading-tight break-all">
-              {currentDataset.creation_error || 'None'}
-            </div>
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">
-              Created
-            </div>
-            <div className="text-sm leading-tight break-all">
-              <Timestamp date={currentDataset.created_at} />
-            </div>
-
-            <div className="font-semibold text-xs opacity-80 pt-0.5">
-              Updated
-            </div>
-            <div className="text-sm leading-tight break-all">
-              <Timestamp date={currentDataset.updated_at} />
-            </div>
           </div>
-
-          <div className="mt-4">
-            <ErrorMessage message={error} />
-          </div>
-          {isEditing && (
-            <div className="flex justify-end gap-2 mt-4">
-              <Button
-                onClick={handleCancel}
-                className="px-3 py-1.5 text-sm font-semibold"
-                disabled={isSaving}
-              >
-                Cancel
-              </Button>
-              <Button
-                onClick={handleSave}
-                variant="primary"
-                className="px-3 py-1.5 text-sm font-semibold"
-                disabled={isSaving || isCreating}
-              >
-                {isSaving ? 'Saving...' : 'Save'}
-              </Button>
-            </div>
-          )}
         </div>
       </section>
 

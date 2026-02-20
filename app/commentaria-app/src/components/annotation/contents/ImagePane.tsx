@@ -1,29 +1,23 @@
 import { useState } from 'react'
 import { useAppState } from '../../../context/useAppState.ts'
-import { OpenAPI } from '@hub-api'
 import ImageZoom from 'react-image-zooom'
 import { RangeInput } from '../../core/RangeInput.tsx'
 
 export function ImagePane() {
   const {
-    state: { datasetId, currentPage },
+    state: { datasetId, currentPageOrKey },
   } = useAppState()
   const [zoom, setZoom] = useState(250)
+  const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${currentPageOrKey}`
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
         <div className="text-sm font-semibold grow min-w-0">
-          Page {currentPage} Facsimile
+          Page {currentPageOrKey} Facsimile
         </div>
         <button
           type="button"
-          onClick={() =>
-            window.open(
-              `${OpenAPI.BASE}/datasets/${datasetId}/images/${currentPage}`,
-              '_blank',
-              'noopener,noreferrer',
-            )
-          }
+          onClick={() => window.open(imageUrl, '_blank', 'noopener,noreferrer')}
           className="h-7 w-7 shrink-0 rounded-md bg-white border border-gray-200 text-gray-600 hover:text-gray-800 hover:bg-white shadow-sm flex items-center justify-center text-sm"
           title="Open image in new tab"
           aria-label="Open image in new tab"
@@ -44,7 +38,7 @@ export function ImagePane() {
       <div className="flex-1 min-h-0 flex items-center justify-center p-2">
         <div className="h-full w-full max-h-full max-w-full flex items-center justify-center">
           <ImageZoom
-            src={`${OpenAPI.BASE}/datasets/${datasetId}/images/${currentPage}`}
+            src={imageUrl}
             alt="Page image"
             zoom={String(zoom)}
             width="100%"
