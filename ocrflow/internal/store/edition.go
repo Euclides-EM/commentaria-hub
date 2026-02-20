@@ -74,7 +74,7 @@ func (s *EditionCSV) UpdateNotes(key, note string) error {
 	if !s.cacheStore.IsWarm() {
 		return cacheWarmupError
 	}
-	header, rows, err := csv.LoadCSVRecords(relItemsPrint)
+	header, rows, err := csv.LoadCSVRecords(s.csvPath(relItemsPrint))
 	if err != nil {
 		return err
 	}
@@ -303,7 +303,7 @@ func (s *EditionCSV) upsertClusters(ed *model.Edition) error {
 		return nil
 	}
 	parentKey := *ed.ReprintOf
-	_, clusterItems, _ := csv.LoadCSVRecords(relClusterItems)
+	_, clusterItems, _ := csv.LoadCSVRecords(s.csvPath(relClusterItems))
 	var parentClusterKey string
 	for _, ci := range clusterItems {
 		if ci["item_key"] == parentKey {
@@ -487,8 +487,8 @@ func findRowByKey(rows []map[string]string, keyField, key string) map[string]str
 
 // loadEditionByKey loads one edition by key from CSVs. Returns (nil, nil) if key not found.
 func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
-	_, msRows, _ := csv.LoadCSVRecords(relItemsManuscript)
-	_, printRows, _ := csv.LoadCSVRecords(relItemsPrint)
+	_, msRows, _ := csv.LoadCSVRecords(s.csvPath(relItemsManuscript))
+	_, printRows, _ := csv.LoadCSVRecords(s.csvPath(relItemsPrint))
 	if msRows == nil && printRows == nil {
 		return nil, nil
 	}
@@ -514,7 +514,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
-		_, mdRows, _ := csv.LoadCSVRecords(relMDManuscript)
+		_, mdRows, _ := csv.LoadCSVRecords(s.csvPath(relMDManuscript))
 		if md := findRowByKey(mdRows, "key", key); md != nil {
 			ed.IsElements = true
 			ed.ManuscriptClass = md["class"]
@@ -530,20 +530,20 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		ed.Format = formatcov.IntOpt(itemRow["format"])
 		ed.Volumes = formatcov.IntOpt(itemRow["volumes"])
 		ed.USTCId = formatcov.StrToPtr(itemRow["ustc_id"])
-		_, trRows, _ := csv.LoadCSVRecords(relTranscriptions)
+		_, trRows, _ := csv.LoadCSVRecords(s.csvPath(relTranscriptions))
 		if tr := findRowByKey(trRows, "key", key); tr != nil {
 			ed.Title = formatcov.StrToPtr(tr["title"])
 			ed.Imprint = formatcov.StrToPtr(tr["imprint"])
 			ed.Colophon = formatcov.StrToPtr(tr["colophon"])
 			ed.Frontispiece = formatcov.StrToPtr(tr["frontispiece"])
 		}
-		_, mdRows, _ := csv.LoadCSVRecords(relMDPrint)
+		_, mdRows, _ := csv.LoadCSVRecords(s.csvPath(relMDPrint))
 		if md := findRowByKey(mdRows, "key", key); md != nil {
 			ed.IsElements = true
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
 		}
-		_, tlRows, _ := csv.LoadCSVRecords(relTranslations)
+		_, tlRows, _ := csv.LoadCSVRecords(s.csvPath(relTranslations))
 		for _, r := range tlRows {
 			if r["key"] != key {
 				continue
@@ -561,7 +561,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		}
 	}
 
-	_, shRows, _ := csv.LoadCSVRecords(relShelfmarks)
+	_, shRows, _ := csv.LoadCSVRecords(s.csvPath(relShelfmarks))
 	for _, r := range shRows {
 		if r["key"] != key {
 			continue
@@ -577,22 +577,22 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		})
 	}
 
-	_, corpRows, _ := csv.LoadCSVRecords(relCorpuses)
+	_, corpRows, _ := csv.LoadCSVRecords(s.csvPath(relCorpuses))
 	if cr := findRowByKey(corpRows, "key", key); cr != nil && cr["study"] != "" {
 		ed.Corpus = splitNonEmpty(cr["study"])
 	}
 
-	_, bibRows, _ := csv.LoadCSVRecords(relBibliography)
+	_, bibRows, _ := csv.LoadCSVRecords(s.csvPath(relBibliography))
 	for _, r := range bibRows {
 		if r["key"] == key && r["citation"] != "" {
 			ed.Bibliography = append(ed.Bibliography, r["citation"])
 		}
 	}
 
-	_, revRows, _ := csv.LoadCSVRecords(relReviews)
+	_, revRows, _ := csv.LoadCSVRecords(s.csvPath(relReviews))
 	ed.Verified = findRowByKey(revRows, "key", key) != nil
 
-	_, ciRows, _ := csv.LoadCSVRecords(relClusterItems)
+	_, ciRows, _ := csv.LoadCSVRecords(s.csvPath(relClusterItems))
 	for _, r := range ciRows {
 		if r["item_key"] == key && r["cluster_key"] != "" {
 			// find parent in same cluster
@@ -606,7 +606,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		}
 	}
 
-	_, locRows, _ := csv.LoadCSVRecords(relLocators)
+	_, locRows, _ := csv.LoadCSVRecords(s.csvPath(relLocators))
 	locByKey := make(map[string]*model.EditionLocator)
 	for _, r := range locRows {
 		loc := rowToLocator(r)
@@ -614,8 +614,8 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 			locByKey[loc.Key] = loc
 		}
 	}
-	_, veRows, _ := csv.LoadCSVRecords(relVisualElements)
-	_, exRows, _ := csv.LoadCSVRecords(relVisualElementsEx)
+	_, veRows, _ := csv.LoadCSVRecords(s.csvPath(relVisualElements))
+	_, exRows, _ := csv.LoadCSVRecords(s.csvPath(relVisualElementsEx))
 	for _, r := range veRows {
 		if r["key"] != key {
 			continue
@@ -661,7 +661,7 @@ func (s *EditionCSV) collectEditionKeys() ([]string, error) {
 	seen := make(map[string]struct{})
 	var keys []string
 	for _, rel := range []string{relItemsManuscript, relItemsPrint} {
-		_, rows, err := csv.LoadCSVRecords(rel)
+		_, rows, err := csv.LoadCSVRecords(s.csvPath(rel))
 		if err != nil {
 			return nil, err
 		}
@@ -700,23 +700,23 @@ type preloadedEditionRows struct {
 // loadAllCSVsOnce reads each edition CSV once. Missing files yield nil slices.
 func (s *EditionCSV) loadAllCSVsOnce() (*preloadedEditionRows, error) {
 	p := &preloadedEditionRows{}
-	_, p.msRows, _ = csv.LoadCSVRecords(relItemsManuscript)
-	_, p.printRows, _ = csv.LoadCSVRecords(relItemsPrint)
+	_, p.msRows, _ = csv.LoadCSVRecords(s.csvPath(relItemsManuscript))
+	_, p.printRows, _ = csv.LoadCSVRecords(s.csvPath(relItemsPrint))
 	if p.msRows == nil && p.printRows == nil {
 		return p, nil
 	}
-	_, p.mdManuscript, _ = csv.LoadCSVRecords(relMDManuscript)
-	_, p.mdPrint, _ = csv.LoadCSVRecords(relMDPrint)
-	_, p.transcriptions, _ = csv.LoadCSVRecords(relTranscriptions)
-	_, p.translations, _ = csv.LoadCSVRecords(relTranslations)
-	_, p.shelfmarks, _ = csv.LoadCSVRecords(relShelfmarks)
-	_, p.corpuses, _ = csv.LoadCSVRecords(relCorpuses)
-	_, p.bibliography, _ = csv.LoadCSVRecords(relBibliography)
-	_, p.reviews, _ = csv.LoadCSVRecords(relReviews)
-	_, p.clusterItems, _ = csv.LoadCSVRecords(relClusterItems)
-	_, p.locators, _ = csv.LoadCSVRecords(relLocators)
-	_, p.veRows, _ = csv.LoadCSVRecords(relVisualElements)
-	_, p.exRows, _ = csv.LoadCSVRecords(relVisualElementsEx)
+	_, p.mdManuscript, _ = csv.LoadCSVRecords(s.csvPath(relMDManuscript))
+	_, p.mdPrint, _ = csv.LoadCSVRecords(s.csvPath(relMDPrint))
+	_, p.transcriptions, _ = csv.LoadCSVRecords(s.csvPath(relTranscriptions))
+	_, p.translations, _ = csv.LoadCSVRecords(s.csvPath(relTranslations))
+	_, p.shelfmarks, _ = csv.LoadCSVRecords(s.csvPath(relShelfmarks))
+	_, p.corpuses, _ = csv.LoadCSVRecords(s.csvPath(relCorpuses))
+	_, p.bibliography, _ = csv.LoadCSVRecords(s.csvPath(relBibliography))
+	_, p.reviews, _ = csv.LoadCSVRecords(s.csvPath(relReviews))
+	_, p.clusterItems, _ = csv.LoadCSVRecords(s.csvPath(relClusterItems))
+	_, p.locators, _ = csv.LoadCSVRecords(s.csvPath(relLocators))
+	_, p.veRows, _ = csv.LoadCSVRecords(s.csvPath(relVisualElements))
+	_, p.exRows, _ = csv.LoadCSVRecords(s.csvPath(relVisualElementsEx))
 	p.diagramDirKeys, _ = s.loadDiagramDirectoryKeys()
 	return p, nil
 }
