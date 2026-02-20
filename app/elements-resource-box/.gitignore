@@ -6,19 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-dev_server_logs.txt
 
-# Build and dependencies
 node_modules
 dist
 dist-ssr
-out
 *.local
-__pycache__
-
-# Environment and credentials
-.env
-credentials.json
 
 # Editor directories and files
 .vscode/*
@@ -31,9 +23,13 @@ credentials.json
 *.sln
 *.sw?
 
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
+credentials.json
+.env
+out
 
+__pycache__
+
+public/docs/diagram-directories.json
+public/docs/diagrams
+
+dev_server_logs.txt

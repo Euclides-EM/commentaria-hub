@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.base.json",
+  "files": [],
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

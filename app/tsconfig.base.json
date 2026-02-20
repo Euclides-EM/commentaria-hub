@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@hub-api": ["hub-api/hub-api/index.ts"]
+    }
+  }
+}
