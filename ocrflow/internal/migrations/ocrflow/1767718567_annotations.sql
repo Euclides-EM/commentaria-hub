@@ -94,6 +94,11 @@ VALUES ('rule_segment_1615FineTunedCapricciosaM_0312',
 -- annotations
 --------------------------------------------------------------------------------
 
+-- Sentinel row so that origin_annotation_id = '' is a valid self-reference (no origin).
+INSERT INTO annotations
+(id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id)
+VALUES ('', '(no origin)', '', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, '', 0, 0, 0, 'rrpbnk', '');
+
 INSERT INTO annotations
 (id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id)
 VALUES
@@ -211,7 +216,7 @@ VALUES
         0,
         0,
      'nu3e82',
-     'o5iqhv'),
+     ''),
     ('toq5ip',
      'Cap1615-1598-Deskew',
      'Inferred annotations for 1598 Paris edition from the 1615FineTunedCapricciosaM_0312 model, after skewing was applied.',
