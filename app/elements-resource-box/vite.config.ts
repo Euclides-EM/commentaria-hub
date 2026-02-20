@@ -49,7 +49,7 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [react(), svgr(), basePathRedirectPlugin(base)],
     server: {
-      port: 5190,
+      port: mode === "euclides" ? 5195 : 5190,
       allowedHosts: ["euclides.huma-num.fr"],
     },
   };
