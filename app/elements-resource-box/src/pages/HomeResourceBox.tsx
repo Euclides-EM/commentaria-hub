@@ -278,7 +278,7 @@ export function HomeResourceBox() {
           onClick={() => navigateWithQuery(CATALOGUE_ROUTE)}
           icon={<GiHolySymbol />}
           color={MARKER_5}
-          imageSrc={`${import.meta.env.VITE_BACKEND_URL}/store/data/tps/Paris_1622_tp.jpeg`}
+          imageSrc={`${import.meta.env.VITE_BACKEND_URL}/store/data/tps/imgs/Paris_1622_tp.jpeg`}
           imageOnLeft={true}
           text={
             <div>
