@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useAppState } from '../../context/useAppState'
-import type { annotationrule_PipelineStage } from '../../api'
-import { AnnotationsApplyRulesService } from '../../api'
+import type { annotationrule_PipelineStage } from '@hub-api'
+import { AnnotationsApplyRulesService } from '@hub-api'
 import { RuleEditModal } from './RuleEditModal.tsx'
 import { useDatasetSuggestedRules } from '../../queries/datasets.ts'
 import {

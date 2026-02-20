@@ -1,5 +1,5 @@
 import { type FormEvent, useEffect, useMemo, useState } from 'react'
-import { AnnotationsService, ApiError } from '../../api'
+import { AnnotationsService, ApiError } from '@hub-api'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'
 import Select from 'react-select'

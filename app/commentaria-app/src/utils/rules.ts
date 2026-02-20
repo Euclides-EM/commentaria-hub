@@ -12,7 +12,7 @@ import type {
   annotationrule_Stretch,
   annotationrule_TextBlockCorrections,
   annotation_Annotation,
-} from '../api'
+} from '@hub-api'
 
 export type AnnotationRule = { type: string } & (
   | annotationrule_Segment

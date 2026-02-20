@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useAuthStore } from '../../store/authStore'
-import { ApiError, OpenAPI } from '../../api'
+import { ApiError, OpenAPI } from '@hub-api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 
@@ -37,8 +37,7 @@ export function LoginModal({ onClose, onSuccess }: LoginModalProps) {
     setError('')
 
     try {
-      const { AuthenticationService } =
-        await import('../../api/services/AuthenticationService')
+      const { AuthenticationService } = await import('@hub-api')
       const userInfo = await withTempToken(
         token,
         async () => await AuthenticationService.postAuthValidate(),

@@ -1,0 +1,11 @@
+[project]
+name = "enricher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-cloud-translate>=3.20.2",
+    "openai>=1.82.0",
+    "tqdm>=4.66.1",
+]

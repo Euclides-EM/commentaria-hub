@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: aliceblue;
+  background-color: #282828ff;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+
+  div {
+    overscroll-behavior: none;
+  }
+}
+
+@font-face {
+  font-family: "Gothic";
+  src:
+    url("/font/Chomsky.otf") format("otf"),
+    url("/font/Chomsky.woff") format("woff"),
+    url("/font/Chomsky.woff2") format("woff2");
+}
+
+.gothic {
+  font-family: Gothic, system-ui, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.react-tooltip {
+  z-index: 2000;
+}
+
+.reactour__close-button {
+  color: black;
+}
+
+.basic-multi-select {
+  z-index: 11;
+}
+
+.recharts-sector:focus {
+  outline: none !important;
+}
+
+.recharts-sector {
+  outline: none !important;
+}
+
+.rpv-thumbnail__container-background-color {
+  background-color: black !important;
+}
+
+.rpv-core__inner-page {
+  background-color: black !important;
+}

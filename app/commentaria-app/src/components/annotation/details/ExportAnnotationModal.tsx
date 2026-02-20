@@ -3,7 +3,7 @@ import {
   ApiError,
   IntegrationService,
   type integration_JobTarget,
-} from '../../../api'
+} from '@hub-api'
 import { useQueryClient } from '@tanstack/react-query'
 import { Button } from '../../core/Button.tsx'
 import { LoadingSpinner } from '../../core/LoadingSpinner.tsx'

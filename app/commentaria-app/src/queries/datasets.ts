@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { DatasetsService } from '../api'
+import { DatasetsService } from '@hub-api'
 
 export const datasetsQueryKey = () => ['datasets'] as const
 

@@ -1,5 +1,5 @@
 import { type AnnotationRule, getRuleDisplayName } from '../../utils/rules.ts'
-import type { annotationrule_PipelineStage } from '../../api/models/annotationrule_PipelineStage.ts'
+import type { annotationrule_PipelineStage } from '@hub-api'
 import { Fragment } from 'react'
 import { Button } from '../core/Button'
 import { getStageDisplayName } from '../../utils/stages.ts'

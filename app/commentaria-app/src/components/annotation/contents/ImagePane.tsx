@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useAppState } from '../../../context/useAppState.ts'
-import { OpenAPI } from '../../../api'
+import { OpenAPI } from '@hub-api'
 import ImageZoom from 'react-image-zooom'
 import { RangeInput } from '../../core/RangeInput.tsx'
 

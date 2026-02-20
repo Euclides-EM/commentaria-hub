@@ -1,7 +1,7 @@
 import { useAnnotationIndexQuery } from '../../../../queries/annotations.ts'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
-import type { annotation_IndexNode } from '../../../../api'
+import type { annotation_IndexNode } from '@hub-api'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+public/
+.env*
+.idea/
+.DS_Store
+.git/
+venv/
+enricher/
+yarn.lock
+README.md
+netlify.toml

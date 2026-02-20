@@ -3,8 +3,8 @@ import type {
   common_OCRModelType,
   annotation_Annotation,
   model_Model,
-} from '../../api'
-import { AnnotationsService, ApiError } from '../../api'
+} from '@hub-api'
+import { AnnotationsService, ApiError } from '@hub-api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'

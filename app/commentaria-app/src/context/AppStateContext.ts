@@ -1,5 +1,5 @@
 import { createContext } from 'react'
-import type { annotation_Annotation, model_Dataset } from '../api'
+import type { annotation_Annotation, model_Dataset } from '@hub-api'
 
 export type ViewMode = 'models' | 'groundTruths' | 'jobs'
 

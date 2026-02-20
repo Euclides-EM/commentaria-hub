@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import type { integration_Job } from '../../api'
+import type { integration_Job } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import { useNonCompletedIntegrationJobsQuery } from '../../queries/integrations'
 import { ErrorMessage } from '../core/ErrorMessage'

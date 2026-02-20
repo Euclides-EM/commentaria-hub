@@ -6,7 +6,7 @@ import { selectStyles } from '../styles/selectStyles.ts'
 import { useAppState } from '../context/useAppState.ts'
 import { usePipelineStages } from '../queries/metadata.ts'
 import useLocalStorageState from 'use-local-storage-state'
-import type { annotationrule_PipelineStage } from '../api'
+import type { annotationrule_PipelineStage } from '@hub-api'
 import { MultiSelectDropdown } from './core/MultiSelectDropdown.tsx'
 
 import { getStageDisplayName } from '../utils/stages.ts'

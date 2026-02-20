@@ -1,4 +1,4 @@
-import type { annotationrule_PipelineStage } from '../api'
+import type { annotationrule_PipelineStage } from '@hub-api'
 
 const stageDisplayNames: Record<annotationrule_PipelineStage, string> = {
   raw: 'Raw',

@@ -1,5 +1,5 @@
 import { useAppState } from '../../../../context/useAppState.ts'
-import type { annotation_Annotation } from '../../../../api'
+import type { annotation_Annotation } from '@hub-api'
 import { selectStyles } from '../../../../styles/selectStyles.ts'
 import Select from 'react-select'
 import { useEffect, useMemo, useRef, useState } from 'react'

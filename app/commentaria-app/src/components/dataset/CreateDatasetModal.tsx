@@ -1,5 +1,5 @@
 import { type FormEvent, useEffect, useMemo, useState } from 'react'
-import { DatasetsService, FacsimilesService, ApiError } from '../../api'
+import { DatasetsService, FacsimilesService, ApiError } from '@hub-api'
 import { useQuery } from '@tanstack/react-query'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Button } from '../core/Button.tsx'

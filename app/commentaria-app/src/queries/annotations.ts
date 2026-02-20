@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { AnnotationsService } from '../api'
+import { AnnotationsService } from '@hub-api'
 
 const annotationsQueryKey = (datasetId: string) =>
   ['annotations', datasetId] as const

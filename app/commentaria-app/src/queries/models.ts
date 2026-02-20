@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import { ModelsService, type model_Model } from '../api'
+import { ModelsService, type model_Model } from '@hub-api'
 
 const modelsQueryKey = () => ['models'] as const
 

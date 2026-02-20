@@ -1,5 +1,5 @@
 import { useMutation } from '@tanstack/react-query'
-import { AuthenticationService } from '../api'
+import { AuthenticationService } from '@hub-api'
 import { useAuthStore } from '../store/authStore.ts'
 
 interface AuthValidateRequest {

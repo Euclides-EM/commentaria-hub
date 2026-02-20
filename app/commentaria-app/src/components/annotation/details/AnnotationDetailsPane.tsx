@@ -4,7 +4,7 @@ import {
   AnnotationsService,
   ApiError,
   type annotation_Annotation,
-} from '../../../api'
+} from '@hub-api'
 import Select from 'react-select'
 import { Timestamp } from '../../core/Timestamp'
 import { RuleDisplay } from '../../rules/RuleDisplay.tsx'

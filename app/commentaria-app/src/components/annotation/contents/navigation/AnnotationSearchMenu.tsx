@@ -6,7 +6,7 @@ import {
 } from '../../../../queries/annotations.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
-import type { annotation_Part } from '../../../../api'
+import type { annotation_Part } from '@hub-api'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'

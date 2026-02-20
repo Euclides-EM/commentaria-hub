@@ -1,4 +1,4 @@
-import { ApiError } from '../../api'
+import { ApiError } from '@hub-api'
 
 type ErrorVariant = 'inline' | 'compact' | 'centered' | 'empty' | 'muted'
 

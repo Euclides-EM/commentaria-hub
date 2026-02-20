@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { DatasetsService, ApiError } from '../../api'
+import { DatasetsService, ApiError } from '@hub-api'
 import { AnnotationActions } from '../annotation/AnnotationActions.tsx'
 import { Button } from '../core/Button.tsx'
 import { ErrorMessage } from '../core/ErrorMessage.tsx'

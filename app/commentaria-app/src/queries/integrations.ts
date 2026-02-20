@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { IntegrationService } from '../api'
+import { IntegrationService } from '@hub-api'
 
 export const runningIntegrationJobsQueryKey = () =>
   ['integrations', 'jobs', 'running'] as const

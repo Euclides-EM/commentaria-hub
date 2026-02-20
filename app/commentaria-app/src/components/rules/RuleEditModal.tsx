@@ -7,7 +7,7 @@ import {
   type annotationrule_MetadataDetails,
   type annotationrule_Type,
   ApiError,
-} from '../../api'
+} from '@hub-api'
 import Select from 'react-select'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'

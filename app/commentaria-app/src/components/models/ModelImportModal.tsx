@@ -1,6 +1,6 @@
 import { type FormEvent, useMemo, useState } from 'react'
 import Select from 'react-select'
-import type { model_Model } from '../../api'
+import type { model_Model } from '@hub-api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { FileUpload } from '../core/FileUpload'

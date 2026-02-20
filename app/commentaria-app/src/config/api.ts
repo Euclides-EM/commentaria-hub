@@ -1,4 +1,4 @@
-import { OpenAPI } from '../api'
+import { OpenAPI } from '@hub-api'
 import { useAuthStore } from '../store/authStore'
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8085'

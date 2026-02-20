@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { MetadataService } from '../api'
+import { MetadataService } from '@hub-api'
 
 export const useAnnotationRules = () =>
   useQuery({

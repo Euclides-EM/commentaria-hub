@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState, type FormEvent } from 'react'
-import type { model_Model } from '../../api'
-import type { model_AnnotationReference } from '../../api'
+import type { model_Model } from '@hub-api'
+import type { model_AnnotationReference } from '@hub-api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { ListAdder } from '../core/ListAdder'
