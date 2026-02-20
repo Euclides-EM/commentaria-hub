@@ -68,6 +68,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		env.EscriptoriumUsername,
 		env.EscriptoriumPassword,
 		env.EscriptoriumBasePath,
+		env.GithubToken,
+		env.CommentariaPath,
 	)
 	featureResultSvc := service.NewResult(featureResultStore)
 	titlePageTEI := service.NewTitlePageTEI(featureResultSvc, tpsTranscriptionsStore)

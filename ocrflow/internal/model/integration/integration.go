@@ -12,9 +12,10 @@ type Platform string
 const (
 	PlatformRoboflow     Platform = "Roboflow"
 	PlatformEScripturium Platform = "EScriptorium"
+	PlatformCommentaria  Platform = "Commentaria"
 )
 
-var AllTypes = []Platform{PlatformRoboflow, PlatformEScripturium}
+var AllTypes = []Platform{PlatformRoboflow, PlatformEScripturium, PlatformCommentaria}
 
 type Task string
 
@@ -54,9 +55,14 @@ type JobTarget struct {
 	BasePath string `json:"base_path"`
 	Document string `json:"document"`
 
+	// For Roboflow and Commentaria
+	APIKey string `json:"api_key"`
+
 	// For Roboflow
-	APIKey           string `json:"api_key"`
 	WorkspaceID      string `json:"workspace_url" example:"mia-workplace"`
 	ProjectID        string `json:"project_id" example:"dec06miamia-afl6i"`
 	IsNotGroundTruth bool   `json:"is_not_ground_truth"`
+
+	// For Commentaria
+	DatasetID string `json:"dataset_id"`
 }

@@ -14,7 +14,7 @@ import { ErrorMessage } from '../../core/ErrorMessage'
 import useLocalStorageState from 'use-local-storage-state'
 import { runningIntegrationJobsQueryKey } from '../../../queries/integrations.ts'
 
-type ExportMode = 'roboflow' | 'escriptorium'
+type ExportMode = 'roboflow' | 'escriptorium' | 'commentaria'
 
 interface ExportAnnotationModalProps {
   isOpen: boolean
@@ -42,9 +42,14 @@ type EscriptoriumSettings = Required<
   >
 >
 
+type CommentariaSettings = Required<
+  Pick<integration_JobTarget, 'api_key' | 'base_path' | 'dataset_id'>
+>
+
 const exportOptions = [
   { value: 'roboflow', label: 'Upload to Roboflow' },
   { value: 'escriptorium', label: 'Upload to Escriptorium' },
+  { value: 'commentaria', label: 'Export to Commentaria' },
 ] as const
 
 export function ExportAnnotationModal({
@@ -75,6 +80,14 @@ export function ExportAnnotationModal({
         username: '',
         password: '',
         is_not_ground_truth: false,
+      },
+    })
+  const [commentaria, setCommentaria] =
+    useLocalStorageState<CommentariaSettings>('export-commentaria', {
+      defaultValue: {
+        api_key: '',
+        base_path: 'http://euclides.huma-num.fr/commentaria/',
+        dataset_id: '',
       },
     })
   const [error, setError] = useState<string | null>(null)
@@ -127,14 +140,21 @@ export function ExportAnnotationModal({
               project_id: roboflow.project_id,
               is_not_ground_truth: roboflow.is_not_ground_truth,
             }
-          : {
-              platform: 'EScriptorium' as const,
-              base_path: escriptorium.base_path,
-              document: escriptorium.document,
-              username: escriptorium.username,
-              password: escriptorium.password,
-              is_not_ground_truth: escriptorium.is_not_ground_truth,
-            }
+          : mode === 'commentaria'
+            ? {
+                platform: 'Commentaria' as const,
+                api_key: commentaria.api_key,
+                base_path: commentaria.base_path,
+                dataset_id: commentaria.dataset_id || undefined,
+              }
+            : {
+                platform: 'EScriptorium' as const,
+                base_path: escriptorium.base_path,
+                document: escriptorium.document,
+                username: escriptorium.username,
+                password: escriptorium.password,
+                is_not_ground_truth: escriptorium.is_not_ground_truth,
+              }
 
       await IntegrationService.postIntegrationsJobs({
         job: {
@@ -371,6 +391,76 @@ export function ExportAnnotationModal({
                 />
                 Mark as ground truth
               </label>
+            </div>
+          )}
+
+          {mode === 'commentaria' && (
+            <div className="space-y-3">
+              <div className="space-y-2">
+                <label className="block text-sm font-medium text-gray-700">
+                  API key (GitHub token, optional)
+                </label>
+                <input
+                  type="password"
+                  autoComplete="current-password"
+                  value={commentaria.api_key}
+                  onChange={(e) =>
+                    setCommentaria((prev) => ({
+                      ...prev,
+                      api_key: e.target.value,
+                    }))
+                  }
+                  className="w-full p-2 border border-gray-300 rounded-md"
+                  disabled={loading}
+                />
+                <p className="text-xs text-gray-500">
+                  If the server has a default API key configured, you can leave
+                  this empty.
+                </p>
+              </div>
+              <div className="space-y-2">
+                <label className="block text-sm font-medium text-gray-700">
+                  Base URL
+                </label>
+                <input
+                  type="url"
+                  autoComplete="url"
+                  value={commentaria.base_path}
+                  onChange={(e) =>
+                    setCommentaria((prev) => ({
+                      ...prev,
+                      base_path: e.target.value,
+                    }))
+                  }
+                  className="w-full p-2 border border-gray-300 rounded-md"
+                  placeholder="http://euclides.huma-num.fr/commentaria/"
+                  disabled={loading}
+                  required
+                />
+              </div>
+              <div className="space-y-2">
+                <label className="block text-sm font-medium text-gray-700">
+                  Remote dataset ID (optional)
+                </label>
+                <input
+                  type="text"
+                  autoComplete="on"
+                  value={commentaria.dataset_id}
+                  onChange={(e) =>
+                    setCommentaria((prev) => ({
+                      ...prev,
+                      dataset_id: e.target.value,
+                    }))
+                  }
+                  className="w-full p-2 border border-gray-300 rounded-md"
+                  placeholder="Leave empty to create a new dataset"
+                  disabled={loading}
+                />
+                <p className="text-xs text-gray-500">
+                  If empty, a new dataset will be created on the Commentaria
+                  server.
+                </p>
+              </div>
             </div>
           )}
 

@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type integration_Platform = 'Roboflow' | 'EScriptorium';
+export type integration_Platform = 'Roboflow' | 'EScriptorium' | 'Commentaria';

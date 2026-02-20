@@ -10,13 +10,13 @@ import (
 type EnvConfig struct {
 	HTTPAddr                string        `env:"HTTP_ADDR" envDefault:":8085"`
 	GithubToken             string        `env:"GITHUB_TOKEN"`
-	GithubPAT               string        `env:"GITHUB_PAT"`
 	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"30s"`
 	PythonExecutable        string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
 	RoboflowAPIKey          string        `env:"ROBOFLOW_API_KEY"`
 	EscriptoriumBasePath    string        `env:"ESCRIPTORIUM_BASE_PATH" envDefault:"http://localhost:8080/"`
 	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
 	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
+	CommentariaPath         string        `env:"COMMENTARIA_PATH" envDefault:"http://euclides.huma-num.fr/commentaria"`
 
 	StoreDir string `env:"STORE_DIR" envDefault:"./store"`
 

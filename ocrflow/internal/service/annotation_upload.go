@@ -6,6 +6,7 @@ import (
 	"os"
 	"path"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/client"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/escriptorium"
@@ -25,6 +26,8 @@ type AnnotationsUploader struct {
 	escriptoriumPassword string
 	escriptoriumUsername string
 	escriptoriumBasePath string
+	commentariaAPIKey    string
+	commentariaBasePath  string
 }
 
 func NewAnnotationsUploader(
@@ -36,6 +39,8 @@ func NewAnnotationsUploader(
 	escriptoriumUsername string,
 	escriptoriumPassword string,
 	escriptoriumBasePath string,
+	commentariaAPIKey string,
+	commentariaBasePath string,
 ) *AnnotationsUploader {
 	return &AnnotationsUploader{
 		annotationSvc:        annotationSvc,
@@ -46,6 +51,8 @@ func NewAnnotationsUploader(
 		escriptoriumPassword: escriptoriumPassword,
 		escriptoriumUsername: escriptoriumUsername,
 		escriptoriumBasePath: escriptoriumBasePath,
+		commentariaAPIKey:    commentariaAPIKey,
+		commentariaBasePath:  commentariaBasePath,
 	}
 }
 
@@ -170,6 +177,71 @@ func (a *AnnotationsUploader) UploadToEscriptorium(datasetID string, id string, 
 			return nil, fmt.Errorf("failed to upload ALTO to escriptorium for page %d: %w", page, err)
 		}
 	}
+	var dst *annotation.Annotation
+	if err := deepcopy.Copy(&dst, &ann); err != nil {
+		return nil, fmt.Errorf("failed to copy annotation: %w", err)
+	}
+	return dst, nil
+}
+
+func (a *AnnotationsUploader) UploadToCommentaria(datasetID string, id string, cbu *annotation.UploadCommentaria) (*annotation.Annotation, error) {
+	ann, err := a.annotationSvc.Get(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("annotation not found: %w", err)
+	}
+	ds, err := a.datasetSvc.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset for commentaria upload: %w", err)
+	}
+
+	c := client.NewClient(
+		lo.Ternary(cbu.APIKey == "", a.commentariaAPIKey, cbu.APIKey),
+		lo.Ternary(cbu.BasePath == "", a.commentariaBasePath, cbu.BasePath),
+	)
+
+	if err := c.Authenticate(); err != nil {
+		return nil, fmt.Errorf("failed to authenticate to commentaria: %w", err)
+	}
+
+	facsimilies, err := c.GetFacsimilesByEditionID(ds.EditionID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get facsimilies from commentaria: %w", err)
+	}
+	if len(facsimilies) == 0 {
+		return nil, fmt.Errorf("no facsimilies found in commentaria for dataset %s", ds.ID)
+	}
+	facsimile := facsimilies[0] // we assume there's only one facsimile per dataset, which is the one we want to upload annotations to
+	ds.FacsimileID = facsimile.ID
+
+	if cbu.DatasetID == "" {
+		log.Printf("creating dataset in commentaria instance %s for dataset %s (%s)", cbu.BasePath, ds.Name, ds.ID)
+		remoteDs, err := c.CreateDataset(ds)
+		if err != nil {
+			return nil, fmt.Errorf("failed to create dataset in commentaria: %w", err)
+		}
+		log.Printf("created dataset in commentaria instance %s: %v", cbu.BasePath, remoteDs)
+		cbu.DatasetID = remoteDs.ID
+	}
+
+	upm := &annotation.UploadMetadata{
+		DatasetID:          cbu.DatasetID,
+		Format:             annotation.FormatAlto,
+		Name:               ann.Name,
+		Description:        ann.Description,
+		Segmented:          ann.Segmented,
+		GroundTruth:        ann.GroundTruth,
+		Ocred:              ann.Ocred,
+		OriginAnnotationID: "",
+		OCRModelID:         "",
+		SegmentModelID:     "",
+	}
+
+	log.Printf("uploading annotation %s (%s) to commentaria instance %s for dataset %s (%s)", ann.Name, ann.ID, cbu.BasePath, ds.Name, ds.ID)
+	if _, err := c.UploadAnnotation(cbu.DatasetID, upm, a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
+		return nil, fmt.Errorf("failed to upload annotation to commentaria: %w", err)
+	}
+	log.Printf("completed upload of annotation %s (%s) to commentaria instance %s for dataset %s (%s)", ann.Name, ann.ID, cbu.BasePath, ds.Name, ds.ID)
+
 	var dst *annotation.Annotation
 	if err := deepcopy.Copy(&dst, &ann); err != nil {
 		return nil, fmt.Errorf("failed to copy annotation: %w", err)

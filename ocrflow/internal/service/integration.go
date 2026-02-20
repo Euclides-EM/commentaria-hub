@@ -32,6 +32,8 @@ func (j *IntegrationJob) CreateIntegrationJobs(ij *integration.Jobs) (*integrati
 				j.runExport(job, j.exportToRoboflow)
 			case integration.PlatformEScripturium:
 				j.runExport(job, j.exportToEScriptorium)
+			case integration.PlatformCommentaria:
+				j.runExport(job, j.exportToCommentaria)
 			}
 		}
 	}
@@ -56,7 +58,17 @@ func (j *IntegrationJob) exportToEScriptorium(job *integration.Job) error {
 		Password: job.Target.Password,
 		Document: job.Target.Document,
 	}
-	_, err := j.annotationsUpload.UploadToEscriptorium(job.Annotation.DatasetID, job.ID, ebu)
+	_, err := j.annotationsUpload.UploadToEscriptorium(job.Annotation.DatasetID, job.Annotation.ID, ebu)
+	return err
+}
+
+func (j *IntegrationJob) exportToCommentaria(job *integration.Job) error {
+	cbu := &annotation.UploadCommentaria{
+		BasePath:  job.Target.BasePath,
+		APIKey:    job.Target.APIKey,
+		DatasetID: job.Target.DatasetID,
+	}
+	_, err := j.annotationsUpload.UploadToCommentaria(job.Annotation.DatasetID, job.Annotation.ID, cbu)
 	return err
 }
 
