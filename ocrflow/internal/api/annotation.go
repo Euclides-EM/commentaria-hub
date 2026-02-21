@@ -150,59 +150,6 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 	return h.deps.AnnotationSvc.Duplicate(datasetID, req.SourceAnnotationID, req.Name, req.Description)
 }
 
-// UploadToRoboflow godoc
-// @Summary      Upload Annotation to Roboflow
-// @Description  Upload an annotation to Roboflow for a specific dataset. Use async=true to return immediately and run the upload in the background.
-// @Tags         Annotations
-// @Param        dataSetId   path      string  true  "Dataset ID"
-// @Param        id          path      string  true  "Annotation ID"
-// @Param        async       query     bool    false "If true, return immediately and perform upload in background"
-// @Param        annotationRoboflowUpload  body      annotation.UploadRoboflow  true  "Annotation Roboflow upload details"
-// @Security 	 BearerAuth
-// @Produce      json
-// @Success      200  {object}   annotation.Annotation
-// @Router       /datasets/{dataSetId}/annotations/{id}/upload/roboflow [put]
-func (h *Handlers) UploadToRoboflow(r *http.Request) (any, error) {
-	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
-	if err != nil {
-		return nil, err
-	}
-
-	var urb annotation.UploadRoboflow
-	if err = DecodeBody(r, &urb); err != nil {
-		return nil, err
-	}
-
-	if async, err := strconv.ParseBool(r.URL.Query().Get("async")); err == nil && async {
-		return h.deps.AnnotationsUploader.UploadToRoboflowAsync(datasetID, annotationID, &urb)
-	}
-	return h.deps.AnnotationsUploader.UploadToRoboflow(datasetID, annotationID, &urb)
-}
-
-// UploadToEscriptorium godoc
-// @Summary      Upload Annotation to Escriptorium
-// @Description  Upload an annotation to Escriptorium for a specific dataset.
-// @Tags         Annotations
-// @Param        dataSetId   path      string  true  "Dataset ID"
-// @Param        id          path      string  true  "Annotation ID"
-// @Param        annotationEscriptoriumUpload  body      annotation.UploadEscriptorium  true  "Annotation Escriptorium upload details"
-// @Security 	 BearerAuth
-// @Produce      json
-// @Success      200  {object}   annotation.Annotation
-// @Router       /datasets/{dataSetId}/annotations/{id}/upload/escriptorium [put]
-func (h *Handlers) UploadToEscriptorium(r *http.Request) (any, error) {
-	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
-	if err != nil {
-		return nil, err
-	}
-
-	var aue annotation.UploadEscriptorium
-	if err = DecodeBody(r, &aue); err != nil {
-		return nil, err
-	}
-	return h.deps.AnnotationsUploader.UploadToEscriptorium(datasetID, annotationID, &aue)
-}
-
 // GetAnnotationZipFile godoc
 // @Summary      Upload ZIP File
 // @Description  Upload a ZIP file containing annotations.
