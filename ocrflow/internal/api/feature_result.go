@@ -25,13 +25,17 @@ func (h *Handlers) ListResults(r *http.Request) (any, error) {
 	if err != nil {
 		return nil, err
 	}
-	keys := lo.Map(strings.Split(r.URL.Query().Get("keys"), ","), func(s string, _ int) string {
-		return strings.TrimSpace(s)
-	})
-	features := lo.Map(strings.Split(r.URL.Query().Get("features"), ","), func(s string, _ int) string {
-		return strings.TrimSpace(s)
-	})
-
+	var keys, features []string
+	if keysStr := r.URL.Query().Get("keys"); keysStr != "" {
+		keys = lo.Map(strings.Split(keysStr, ","), func(s string, _ int) string {
+			return strings.TrimSpace(s)
+		})
+	}
+	if featuresStr := r.URL.Query().Get("features"); featuresStr != "" {
+		features = lo.Map(strings.Split(featuresStr, ","), func(s string, _ int) string {
+			return strings.TrimSpace(s)
+		})
+	}
 	return h.deps.FeatureResultSvc.ListResults(dataSetId, annotationId, keys, features)
 }
 

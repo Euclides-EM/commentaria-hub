@@ -1,5 +1,7 @@
 package model
 
+import "time"
+
 type ImageUpload struct {
 	Success  bool   `json:"success"`
 	Filename string `json:"filename"`
@@ -7,6 +9,7 @@ type ImageUpload struct {
 }
 
 type ImageMetadata struct {
-	Name     string `json:"name"`
-	Filename string `json:"filename"`
+	ID         string    `json:"id"`
+	Filename   string    `json:"filename"`
+	ModifiedAt time.Time `json:"modified_at"`
 }

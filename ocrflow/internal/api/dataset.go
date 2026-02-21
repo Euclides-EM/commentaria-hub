@@ -157,7 +157,7 @@ func (h *Handlers) UploadDatasetImage(r *http.Request) (any, error) {
 	}
 	defer file.Close()
 
-	return h.deps.DatasetSvc.UploadImage(file, header, datasetId)
+	return h.deps.DatasetSvc.UploadImage(file, header, datasetId, typ, key)
 }
 
 // GetDatasetImages godoc

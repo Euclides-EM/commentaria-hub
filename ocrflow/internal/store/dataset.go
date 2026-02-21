@@ -199,9 +199,15 @@ func (s *DatasetSQL) ListImages(dataset *model.Dataset) ([]*model.ImageMetadata,
 		}).ElseF(func() string {
 			return fmt.Sprintf("%d", page)
 		})
+		fi, err := file.Info()
+		if err != nil {
+			return nil, fmt.Errorf("Error getting file info: %v\n", err)
+		}
+
 		images = append(images, &model.ImageMetadata{
-			Name:     name,
-			Filename: file.Name(),
+			ID:         name,
+			Filename:   file.Name(),
+			ModifiedAt: fi.ModTime(),
 		})
 	}
 	return images, nil

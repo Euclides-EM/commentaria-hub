@@ -8,6 +8,7 @@ import (
 	"mime/multipart"
 	"os"
 	"path"
+	"sort"
 	"strings"
 	"time"
 
@@ -343,7 +344,7 @@ func (d *Dataset) Update(id string, m *model.Dataset) (*model.Dataset, error) {
 	return existingDS, nil
 }
 
-func (d *Dataset) UploadImage(file multipart.File, header *multipart.FileHeader, datasetId string) (*model.ImageUpload, error) {
+func (d *Dataset) UploadImage(file multipart.File, header *multipart.FileHeader, datasetId string, typ string, key string) (*model.ImageUpload, error) {
 	dataset, err := d.Get(datasetId)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
@@ -355,6 +356,7 @@ func (d *Dataset) UploadImage(file multipart.File, header *multipart.FileHeader,
 	if ext != "png" && ext != "jpeg" && ext != "jpg" {
 		return nil, fmt.Errorf("unsupported image format: %s", ext)
 	}
+	d.fileNameForImage(key, typ, ext)
 	return d.datasetStore.UploadImage(dataset, header.Filename, file)
 }
 
@@ -363,5 +365,43 @@ func (d *Dataset) ListImages(datasetId string) ([]*model.ImageMetadata, error) {
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
-	return d.datasetStore.ListImages(dataset)
+	images, err := d.datasetStore.ListImages(dataset)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list images: %w", err)
+	}
+	if datasetId != "tps" {
+		return images, nil
+	}
+	tpsImages := make(map[string]*model.ImageMetadata)
+	for _, img := range images {
+		key, ok := d.keyFromImageName(img.Filename, "tp")
+		if !ok {
+			continue
+		}
+		existing, ok := tpsImages[key]
+		if !ok || img.ModifiedAt.After(existing.ModifiedAt) {
+			img.ID = key
+			tpsImages[key] = img
+		}
+	}
+	l := lo.Values(tpsImages)
+	sort.Slice(l, func(i, j int) bool {
+		return strings.Compare(l[i].ID, l[j].ID) < 0
+	})
+	return l, nil
+}
+
+func (d *Dataset) fileNameForImage(key string, typ string, ext string) string {
+	return fmt.Sprintf("%s.%s", idgen.Name2ID("", fmt.Sprintf("%s_%s", key, typ)), ext)
+}
+
+func (d *Dataset) keyFromImageName(filename, typ string) (string, bool) {
+	fn := strings.TrimSuffix(filename, path.Ext(filename))
+	if strings.HasSuffix(fn, "_"+typ) {
+		return strings.TrimSuffix(fn, "_"+typ), true
+	}
+	if split := strings.Split(fn, "_"+typ+"_"); len(split) == 2 {
+		return split[0], true
+	}
+	return "", false
 }
