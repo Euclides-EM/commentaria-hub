@@ -13,10 +13,12 @@ import { countPages } from '../../../utils/pages.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
 import {
   useAnnotationCategories,
-  useAnnotationImageKeysQuery,
   useAnnotationsQuery,
 } from '../../../queries/annotations.ts'
-import { useDatasetsQuery } from '../../../queries/datasets.ts'
+import {
+  useDatasetImageKeysQuery,
+  useDatasetsQuery,
+} from '../../../queries/datasets.ts'
 import { DeleteAnnotationModal } from '../../modal/DeleteAnnotationModal.tsx'
 import { Button } from '../../core/Button.tsx'
 import { getStageDisplayName } from '../../../utils/stages.ts'
@@ -314,8 +316,9 @@ export function AnnotationDetailsPane() {
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [isDuplicateOpen, setIsDuplicateOpen] = useState(false)
   const { data: runningJobs } = useRunningIntegrationJobsQuery()
+  const shouldLoadImageKeys = !!annotation && !annotation.pages
   const { data: imageKeys = [], isLoading: imageKeysLoading } =
-    useAnnotationImageKeysQuery(annotation?.dataset_id || '')
+    useDatasetImageKeysQuery(annotation?.dataset_id || '', shouldLoadImageKeys)
   const isExporting = !!runningJobs?.some(
     (job) =>
       job.annotation?.dataset_id === annotation?.dataset_id &&

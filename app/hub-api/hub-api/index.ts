@@ -76,6 +76,7 @@ export type { model_EditionShelfmark } from './models/model_EditionShelfmark';
 export type { model_EditionVisualElement } from './models/model_EditionVisualElement';
 export type { model_EditionVisualExample } from './models/model_EditionVisualExample';
 export type { model_Facsimile } from './models/model_Facsimile';
+export type { model_ImageMetadata } from './models/model_ImageMetadata';
 export type { model_ImageUpload } from './models/model_ImageUpload';
 export type { model_Model } from './models/model_Model';
 export type { model_Note } from './models/model_Note';

@@ -6,7 +6,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
-import { useAnnotationImageKeysQuery } from '../../../../queries/annotations.ts'
+import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
 
 const expandRange = (range: string): string[] => {
   const parts = range.trim().split('-')
@@ -34,8 +34,10 @@ const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
 
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
-  const { data: imageKeys = [] } = useAnnotationImageKeysQuery(
-    annotation && !annotation.pages ? state.datasetId : '',
+  const isKeyNavigation = !!annotation && !annotation.pages
+  const { data: imageKeys = [] } = useDatasetImageKeysQuery(
+    state.datasetId,
+    isKeyNavigation,
   )
   const currentValue = String(state.currentPageOrKey)
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
@@ -61,20 +63,40 @@ export function PageNavigation() {
 
   const onPageNumChange = (value: string) =>
     setState({ currentPageOrKey: value })
-  const availablePages = useMemo(() => {
+  const availableOptions = useMemo(() => {
     if (!annotation) {
       return []
     }
     if (annotation.pages) {
       const pages = parseAvailablePages(annotation)
-      return [...new Set(pages)].sort((a, b) =>
-        a.localeCompare(b, undefined, { numeric: true }),
-      )
+      return [...new Set(pages)]
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+        .map((page) => ({
+          value: page,
+          label: page,
+        }))
     }
-    return imageKeys
+    return imageKeys.map((image) => ({
+      value: image.filename,
+      label: image.name,
+    }))
   }, [annotation, imageKeys])
 
-  const currentIndex = availablePages.indexOf(currentValue)
+  const availablePages = useMemo(
+    () => availableOptions.map((option) => option.value),
+    [availableOptions],
+  )
+
+  const currentOption = useMemo(
+    () =>
+      availableOptions.find((option) => option.value === currentValue) ||
+      availableOptions.find((option) => option.label === currentValue) ||
+      null,
+    [availableOptions, currentValue],
+  )
+
+  const currentOptionValue = currentOption?.value || currentValue
+  const currentIndex = availablePages.indexOf(currentOptionValue)
   const isFirstPage = currentIndex === 0
   const isLastPage = currentIndex === availablePages.length - 1
 
@@ -90,10 +112,19 @@ export function PageNavigation() {
   }
 
   useEffect(() => {
+    if (
+      currentOption &&
+      currentOption.value !== currentValue &&
+      availablePages.includes(currentOption.value)
+    ) {
+      setState({ currentPageOrKey: currentOption.value })
+      return
+    }
+
     if (availablePages.length > 0 && !availablePages.includes(currentValue)) {
       setState({ currentPageOrKey: availablePages[0] })
     }
-  }, [availablePages, currentValue, setState])
+  }, [availablePages, currentOption, currentValue, setState])
 
   useEffect(() => {
     if (!isResizing) {
@@ -147,20 +178,17 @@ export function PageNavigation() {
             </label>
             <Select
               value={
-                availablePages.find((p) => p === currentValue)
+                currentOption
                   ? {
-                      value: currentValue,
-                      label: currentValue,
+                      value: currentOption.value,
+                      label: currentOption.label,
                     }
                   : null
               }
               onChange={(option: { value: string; label: string } | null) =>
                 onPageNumChange(option?.value ?? availablePages[0] ?? '1')
               }
-              options={availablePages.map((p) => ({
-                value: p,
-                label: String(p),
-              }))}
+              options={availableOptions}
               placeholder={
                 annotation.pages ? 'Select page...' : 'Select key...'
               }

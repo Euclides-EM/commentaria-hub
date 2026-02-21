@@ -9,6 +9,9 @@ export type integration_JobTarget = {
      */
     api_key?: string;
     base_path?: string;
+    /**
+     * For Commentaria
+     */
     dataset_id?: string;
     document?: string;
     is_not_ground_truth?: boolean;
@@ -19,6 +22,9 @@ export type integration_JobTarget = {
      * For EScriptorium
      */
     username?: string;
+    /**
+     * For Roboflow
+     */
     workspace_url?: string;
 };
 

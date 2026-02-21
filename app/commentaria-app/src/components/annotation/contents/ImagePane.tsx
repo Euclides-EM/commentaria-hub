@@ -2,17 +2,27 @@ import { useState } from 'react'
 import { useAppState } from '../../../context/useAppState.ts'
 import ImageZoom from 'react-image-zooom'
 import { RangeInput } from '../../core/RangeInput.tsx'
+import { useDatasetImageKeysQuery } from '../../../queries/datasets.ts'
 
 export function ImagePane() {
   const {
+    annotation,
     state: { datasetId, currentPageOrKey },
   } = useAppState()
   const [zoom, setZoom] = useState(250)
+  const isKeyNavigation = !!annotation && !annotation.pages
+  const { data: imageKeys = [] } = useDatasetImageKeysQuery(
+    datasetId,
+    isKeyNavigation,
+  )
+  const currentImageName =
+    imageKeys.find((image) => image.filename === String(currentPageOrKey))
+      ?.name || String(currentPageOrKey)
   const normalizedKey = (() => {
     const num = Number(currentPageOrKey)
 
     if (!Number.isNaN(num) && Number.isInteger(num)) {
-      return `page-${String(num).padStart(4, "0")}.png`
+      return `page-${String(num).padStart(4, '0')}.png`
     }
 
     const key = String(currentPageOrKey)
@@ -30,7 +40,9 @@ export function ImagePane() {
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
         <div className="text-sm font-semibold grow min-w-0">
-          Page {currentPageOrKey} Facsimile
+          {annotation?.pages
+            ? `Page ${currentPageOrKey} Facsimile`
+            : currentImageName}
         </div>
         <button
           type="button"
