@@ -46,6 +46,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
 	tpsTranscriptionsStore := store.NewTPSTranscriptions()
 	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl)
+	datasetImageStore := store.NewDatasetImageStore(fileSystemManager)
 
 	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
@@ -55,7 +56,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
 	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl))
-	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, modelSvc, datasetStore, fileSystemManager, ghDownloader, tpsTranscriptionsStore)
+	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, modelSvc, datasetStore, fileSystemManager, ghDownloader)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
@@ -116,6 +117,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		GeoSvc:              geoSvc,
 		FacsimileSvc:        facsimileSvc,
 		DatasetSvc:          datasetSvc,
+		DatasetImgSvc:       service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, tpsTranscriptionsStore),
 		AnnotationSvc:       annotationSvc,
 		ModelSvc:            modelSvc,
 		TrainSvc:            trainSvc,

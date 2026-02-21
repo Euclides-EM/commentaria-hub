@@ -15,6 +15,7 @@ type Dependencies struct {
 	EditionSvc          *service.Edition
 	FacsimileSvc        *service.Facsimile
 	DatasetSvc          *service.Dataset
+	DatasetImgSvc       *service.DatasetImg
 	AnnotationSvc       *service.Annotation
 	ModelSvc            *service.Model
 	TrainSvc            *service.Train
@@ -61,9 +62,9 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}", httpwrapper.Delete(h.DeleteDataset).Update(h.UpdateDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_rules", httpwrapper.Get(h.ListSuggestedRulesForDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_reviews", httpwrapper.Get(h.ListSuggestedReviewForDataset).Build())
-	api.HandleFunc("/datasets/{dataSetId}/images", httpwrapper.Get(h.GetDatasetImages).Build())
+	api.HandleFunc("/datasets/{dataSetId}/images", httpwrapper.Get(h.GetDatasetImages).Delete(h.DeleteDatasetImages).Build())
 	api.HandleFunc("/datasets/{dataSetId}/images/upload", httpwrapper.CreateFile(h.UploadDatasetImage).Build())
-	api.HandleFunc("/datasets/{dataSetId}/images/{pageNum}", httpwrapper.GetPNG(h.GetPageImage).Build())
+	api.HandleFunc("/datasets/{dataSetId}/images/{pageNumOrKey}", httpwrapper.GetPNG(h.GetDatasetImage).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}", httpwrapper.Delete(h.DeleteAnnotation).Update(h.UpdateAnnotation).Get(h.GetAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/fromzip", httpwrapper.CreateFile(h.GetAnnotationZipFile).Build())

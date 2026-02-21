@@ -4,11 +4,7 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"mime"
-	"mime/multipart"
 	"os"
-	"path"
-	"sort"
 	"strings"
 	"time"
 
@@ -28,24 +24,22 @@ import (
 )
 
 type Dataset struct {
-	editionSvc        *Edition
-	facsimileSvc      *Facsimile
-	modelSvc          *Model
-	datasetStore      *store.DatasetSQL
-	fileSysMgt        *filesys.Manager
-	githubDownloader  *ghwrapper.Wrapper
-	tpsTranscriptions *store.TPSTranscriptions
+	editionSvc       *Edition
+	facsimileSvc     *Facsimile
+	modelSvc         *Model
+	datasetStore     *store.DatasetSQL
+	fileSysMgt       *filesys.Manager
+	githubDownloader *ghwrapper.Wrapper
 }
 
-func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper, tpsTranscriptions *store.TPSTranscriptions) *Dataset {
+func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper) *Dataset {
 	return &Dataset{
-		editionSvc:        editionSvc,
-		facsimileSvc:      facsimileSvc,
-		modelSvc:          modelSvc,
-		datasetStore:      datasetStore,
-		fileSysMgt:        fileSystemMgt,
-		githubDownloader:  githubDownloader,
-		tpsTranscriptions: tpsTranscriptions,
+		editionSvc:       editionSvc,
+		facsimileSvc:     facsimileSvc,
+		modelSvc:         modelSvc,
+		datasetStore:     datasetStore,
+		fileSysMgt:       fileSystemMgt,
+		githubDownloader: githubDownloader,
 	}
 }
 
@@ -269,23 +263,6 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	}, nil
 }
 
-func (d *Dataset) GetPageImage(datasetID string, page int) ([]byte, error) {
-	ds, err := d.Get(datasetID)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get dataset: %w", err)
-	}
-	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
-	filename := pagesparser.PageToPNGFilename(page)
-	if _, err := os.Stat(path.Join(imgPath, filename)); err != nil {
-		return nil, fmt.Errorf("no such file %s in existing dataset", filename)
-	}
-	data, err := os.ReadFile(path.Join(imgPath, filename))
-	if err != nil {
-		return nil, fmt.Errorf("failed to read page image file: %w", err)
-	}
-	return data, nil
-}
-
 func (d *Dataset) ListSuggestedAnnotationReview(id string) ([][]*annotation.ExpectedBlocks, error) {
 	return [][]*annotation.ExpectedBlocks{
 		{
@@ -344,77 +321,4 @@ func (d *Dataset) Update(id string, m *model.Dataset) (*model.Dataset, error) {
 		return nil, fmt.Errorf("failed to update dataset in store: %w", err)
 	}
 	return existingDS, nil
-}
-
-func (d *Dataset) UploadImage(file multipart.File, header *multipart.FileHeader, datasetId string, typ string, key string) (*model.ImageUpload, error) {
-	dataset, err := d.Get(datasetId)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get dataset: %w", err)
-	}
-	ext := strings.TrimPrefix(strings.ToLower(mime.TypeByExtension(header.Filename)), "image/")
-	if ext == "" {
-		return nil, fmt.Errorf("unable to determine file extension for uploaded image")
-	}
-	if ext != "png" && ext != "jpeg" && ext != "jpg" {
-		return nil, fmt.Errorf("unsupported image format: %s", ext)
-	}
-	d.fileNameForImage(key, typ, ext)
-	return d.datasetStore.UploadImage(dataset, header.Filename, file)
-}
-
-func (d *Dataset) ListImages(datasetId string) ([]*model.ImageMetadata, error) {
-	dataset, err := d.Get(datasetId)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get dataset: %w", err)
-	}
-	images, err := d.datasetStore.ListImages(dataset)
-	if err != nil {
-		return nil, fmt.Errorf("failed to list images: %w", err)
-	}
-	if datasetId != "tps" {
-		return images, nil
-	}
-	tpsImages := make(map[string]*model.ImageMetadata)
-	transcribedTPSKeys, err := d.tpsTranscriptions.Keys()
-	if err != nil {
-		return nil, fmt.Errorf("failed to get TPS transcription keys: %w", err)
-	}
-	transcribedTPSKeysSet := make(map[string]struct{})
-	for _, key := range transcribedTPSKeys {
-		transcribedTPSKeysSet[key] = struct{}{}
-	}
-	for _, img := range images {
-		key, ok := d.keyFromImageName(img.Filename, "tp")
-		if !ok {
-			continue
-		}
-		if _, transcribed := transcribedTPSKeysSet[key]; !transcribed {
-			continue
-		}
-		existing, ok := tpsImages[key]
-		if !ok || img.ModifiedAt.After(existing.ModifiedAt) {
-			img.ID = key
-			tpsImages[key] = img
-		}
-	}
-	l := lo.Values(tpsImages)
-	sort.Slice(l, func(i, j int) bool {
-		return strings.Compare(l[i].ID, l[j].ID) < 0
-	})
-	return l, nil
-}
-
-func (d *Dataset) fileNameForImage(key string, typ string, ext string) string {
-	return fmt.Sprintf("%s.%s", idgen.Name2ID("", fmt.Sprintf("%s_%s", key, typ)), ext)
-}
-
-func (d *Dataset) keyFromImageName(filename, typ string) (string, bool) {
-	fn := strings.TrimSuffix(filename, path.Ext(filename))
-	if strings.HasSuffix(fn, "_"+typ) {
-		return strings.TrimSuffix(fn, "_"+typ), true
-	}
-	if split := strings.Split(fn, "_"+typ+"_"); len(split) == 2 {
-		return split[0], true
-	}
-	return "", false
 }
