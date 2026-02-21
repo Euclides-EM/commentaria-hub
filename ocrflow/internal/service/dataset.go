@@ -28,22 +28,24 @@ import (
 )
 
 type Dataset struct {
-	editionSvc       *Edition
-	facsimileSvc     *Facsimile
-	modelSvc         *Model
-	datasetStore     *store.DatasetSQL
-	fileSysMgt       *filesys.Manager
-	githubDownloader *ghwrapper.Wrapper
+	editionSvc        *Edition
+	facsimileSvc      *Facsimile
+	modelSvc          *Model
+	datasetStore      *store.DatasetSQL
+	fileSysMgt        *filesys.Manager
+	githubDownloader  *ghwrapper.Wrapper
+	tpsTranscriptions *store.TPSTranscriptions
 }
 
-func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper) *Dataset {
+func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper, tpsTranscriptions *store.TPSTranscriptions) *Dataset {
 	return &Dataset{
-		editionSvc:       editionSvc,
-		facsimileSvc:     facsimileSvc,
-		modelSvc:         modelSvc,
-		datasetStore:     datasetStore,
-		fileSysMgt:       fileSystemMgt,
-		githubDownloader: githubDownloader,
+		editionSvc:        editionSvc,
+		facsimileSvc:      facsimileSvc,
+		modelSvc:          modelSvc,
+		datasetStore:      datasetStore,
+		fileSysMgt:        fileSystemMgt,
+		githubDownloader:  githubDownloader,
+		tpsTranscriptions: tpsTranscriptions,
 	}
 }
 
@@ -373,9 +375,20 @@ func (d *Dataset) ListImages(datasetId string) ([]*model.ImageMetadata, error) {
 		return images, nil
 	}
 	tpsImages := make(map[string]*model.ImageMetadata)
+	transcribedTPSKeys, err := d.tpsTranscriptions.Keys()
+	if err != nil {
+		return nil, fmt.Errorf("failed to get TPS transcription keys: %w", err)
+	}
+	transcribedTPSKeysSet := make(map[string]struct{})
+	for _, key := range transcribedTPSKeys {
+		transcribedTPSKeysSet[key] = struct{}{}
+	}
 	for _, img := range images {
 		key, ok := d.keyFromImageName(img.Filename, "tp")
 		if !ok {
+			continue
+		}
+		if _, transcribed := transcribedTPSKeysSet[key]; !transcribed {
 			continue
 		}
 		existing, ok := tpsImages[key]
