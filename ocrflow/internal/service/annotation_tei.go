@@ -67,10 +67,3 @@ func (t *AnnotationTEI) getTEIFromALTO(ann *annotation.Annotation, pageNumOrKey 
 
 	return teiData, nil
 }
-
-func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, pageNumsOrKeys []string, features []string) ([]byte, error) {
-	if len(pageNumsOrKeys) != 1 {
-		return nil, fmt.Errorf("multiple page numbers or keys not supported yet")
-	}
-	return t.GetTEI(datasetID, annotationID, pageNumsOrKeys[0], features)
-}
