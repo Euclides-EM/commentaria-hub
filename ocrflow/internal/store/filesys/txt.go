@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 )
 
 func (m *Manager) RetrieveEditionTXTPage(edition *model.Edition, pageNum int) (lines []string, translationsByLang map[string][]string, error error) {
@@ -20,7 +20,7 @@ func (m *Manager) RetrieveEditionTXTPage(edition *model.Edition, pageNum int) (l
 	if err != nil {
 		return nil, nil, fmt.Errorf("read lines TXT: %w", err)
 	}
-	lines = formatcov.SplitLines(string(linesData))
+	lines = strings.Split(string(linesData), "\n")
 
 	translationsByLang = make(map[string][]string)
 	translationFiles, err := os.ReadDir(dir)
@@ -38,7 +38,7 @@ func (m *Manager) RetrieveEditionTXTPage(edition *model.Edition, pageNum int) (l
 		if err != nil {
 			return nil, nil, fmt.Errorf("read translation TXT: %w", err)
 		}
-		translationsByLang[lang] = formatcov.SplitLines(string(data))
+		translationsByLang[lang] = strings.Split(string(data), "\n")
 	}
 
 	return lines, translationsByLang, nil

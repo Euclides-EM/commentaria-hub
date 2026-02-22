@@ -151,9 +151,10 @@ export function teiHasTranslations(tei: string): boolean {
   }
 }
 
-function renderTranslationView(body: Element): string {
+/** Build map from line id (e.g. "l1") to translation text from first translation ab. */
+function getTranslationMap(body: Element): Map<string, string> {
+  const map = new Map<string, string>()
   const divs = body.getElementsByTagNameNS('*', 'div')
-  const parts: string[] = []
   for (let i = 0; i < divs.length; i++) {
     const div = divs[i]
     if (div.getAttribute('type') !== 'translations') continue
@@ -162,14 +163,46 @@ function renderTranslationView(body: Element): string {
       const ab = abs[j]
       if (ab.getAttribute('type') !== 'translation') continue
       const segs = ab.getElementsByTagNameNS('*', 'seg')
-      const texts: string[] = []
       for (let k = 0; k < segs.length; k++) {
-        texts.push((segs[k].textContent || '').trim())
+        const seg = segs[k]
+        const corresp = (seg.getAttribute('corresp') || '').trim()
+        const text = (seg.textContent || '').trim()
+        // corresp can be "#l1" or "#l1 #l2"; we take the first id for this seg
+        const firstRef = corresp.split(/\s+/)[0]
+        if (firstRef && firstRef.startsWith('#')) {
+          const id = firstRef.slice(1)
+          map.set(id, text)
+        }
       }
-      const paragraph = texts.filter(Boolean).join(' ')
-      if (paragraph) parts.push(`<p>${escapeHtml(paragraph)}</p>`)
+      return map
     }
   }
+  return map
+}
+
+/** Render translation view by reusing original body structure and replacing line-by-line via lb @xml:id and seg @corresp. */
+function renderTranslationView(body: Element): string {
+  const transMap = getTranslationMap(body)
+  const parts: string[] = []
+
+  for (let i = 0; i < body.children.length; i++) {
+    const el = body.children[i]
+    if (el.nodeType !== Node.ELEMENT_NODE || (el as Element).localName !== 'p') {
+      continue
+    }
+    const p = el as Element
+    const lbs = p.getElementsByTagNameNS('*', 'lb')
+    const lineTexts: string[] = []
+    for (let j = 0; j < lbs.length; j++) {
+      const lb = lbs[j]
+      const id = lb.getAttribute('xml:id') || lb.getAttribute('id') || ''
+      const text = (transMap.get(id) || '').trim()
+      lineTexts.push(text)
+    }
+    const paragraphText = lineTexts.join(' ').trim()
+    parts.push(`<p>${escapeHtml(paragraphText || '\u00A0')}</p>`)
+  }
+
   return parts.length ? parts.join('') : '<p></p>'
 }
 

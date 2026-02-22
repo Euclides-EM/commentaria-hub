@@ -5,6 +5,7 @@ import (
 	"io"
 	"sort"
 	"strconv"
+	"strings"
 	"unicode/utf8"
 )
 
@@ -30,7 +31,11 @@ func ConvertTXTToTEIWithLang(originalLines []string, linesByLang map[string][]st
 			writeString(w, "    <p xml:lang=\""+xmlEscapeAttr(originalLang)+"\">\n")
 		}
 		id := lineID(i + 1)
-		writeString(w, "      "+xmlEscapeText(line)+"<lb xml:id=\""+id+"\"/>\n")
+		if strings.TrimSpace(line) == "" {
+			writeString(w, "      <lb xml:id=\""+id+"\"/>\n")
+		} else {
+			writeString(w, "      "+xmlEscapeText(line)+"<lb xml:id=\""+id+"\"/>\n")
+		}
 	}
 	writeString(w, "    </p>\n\n")
 
@@ -64,8 +69,12 @@ func lineID(n int) string {
 	return "l" + strconv.Itoa(n)
 }
 
-// startsNewParagraph reports whether the line begins with a space or "¶" (pilcrow).
+// startsNewParagraph reports whether the line starts a new paragraph: empty/whitespace
+// (treated as paragraph break) or begins with a space or "¶" (pilcrow).
 func startsNewParagraph(line string) bool {
+	if strings.TrimSpace(line) == "" {
+		return true
+	}
 	r, _ := utf8.DecodeRuneInString(line)
 	return r == ' ' || r == '¶'
 }
