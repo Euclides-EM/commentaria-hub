@@ -30,7 +30,7 @@ INSERT INTO facsimiles (edition_id, id, name, description, url, created_at, upda
 VALUES
     (
         'Paris_1615',
-        '1',
+        'Paris_1615-1',
         'Paris_1615 facsimile 1',
         '',
         'https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1615.pdf',
@@ -39,7 +39,7 @@ VALUES
     ),
     (
         'Paris_1615',
-        '2',
+        'Paris_1615-2',
         'Paris_1615 facsimile 2',
         '',
         'https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1615.pdf',
@@ -52,7 +52,7 @@ INSERT INTO facsimiles (edition_id, id, name, description, url, created_at, upda
 VALUES
     (
         'Paris_1598a',
-        '1',
+        'Paris_1598a-1',
         'Paris_1598a facsimile 1',
         '',
         'https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1598a.pdf',
@@ -61,7 +61,7 @@ VALUES
     ),
     (
         'Paris_1598a',
-        '2',
+        'Paris_1598a-2',
         'Paris_1598a facsimile 2',
         '',
         'https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/Paris_1598a.pdf',
@@ -74,7 +74,7 @@ INSERT INTO facsimiles (edition_id, id, name, description, url, created_at, upda
 VALUES
     (
         'London_1570',
-        '1',
+        'London_1570-1',
         'London_1570 facsimile 1',
         '',
         'https://github.com/ReallyLiri/elements-facsimile/blob/main/docs/London_1570.pdf',
