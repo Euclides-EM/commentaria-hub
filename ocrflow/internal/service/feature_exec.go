@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"path/filepath"
+	"slices"
 	"sync"
 	"time"
 
@@ -42,7 +43,14 @@ func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureRe
 }
 
 func (fe *Execution) ListFeatureExecutions(datasetID string, featureIds []string, statuses []feature.ExecutionStatus) ([]*feature.Execution, error) {
-	return fe.store.List(datasetID, featureIds, statuses)
+	res, err := fe.store.List(datasetID, featureIds, statuses)
+	if err != nil {
+		return nil, err
+	}
+	slices.SortFunc(res, func(a, b *feature.Execution) int {
+		return b.UpdatedAt.Compare(a.UpdatedAt)
+	})
+	return res, nil
 }
 
 func (fe *Execution) GetFeatureExecution(executionId string) (*feature.Execution, error) {
@@ -56,6 +64,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	}
 	exec.ID = idgen.GenerateID("exec")
 	exec.Status = feature.ExecutionStatusInProgress
+	exec.StatusReason = ""
 
 	var applyFuncs []func() ([]*feature.Result, error)
 	for _, key := range exec.Keys {

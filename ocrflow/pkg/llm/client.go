@@ -7,6 +7,7 @@ type Client struct {
 }
 
 func (c *Client) Exec(prompt string, attachmentPath string) (map[string][]string, error) {
+	//return make(map[string][]string), nil
 	return nil, errors.New("LLM client not implemented")
 }
 
