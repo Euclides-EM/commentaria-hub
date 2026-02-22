@@ -106,6 +106,50 @@ func (s *FeatureResultSQL) Create(res *feature.Result) error {
 	return err
 }
 
+func (s *FeatureResultSQL) CreateBatch(results []*feature.Result) error {
+	tx, err := s.db.Begin()
+	if err != nil {
+		return err
+	}
+	stmt, err := tx.Prepare(`
+		INSERT INTO feature_results (dataset_id, annotation_id, feature, key, note, source_resp, source_id, source_revision, source_name, values_json)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		ON CONFLICT(dataset_id, annotation_id, feature, key) DO UPDATE SET
+			note = excluded.note,
+			source_resp = excluded.source_resp,
+			source_id = excluded.source_id,
+			source_revision = excluded.source_revision,
+			source_name = excluded.source_name,
+			values_json = excluded.values_json
+	`)
+	if err != nil {
+		tx.Rollback()
+		return err
+	}
+	defer stmt.Close()
+
+	for _, res := range results {
+		if res == nil {
+			continue
+		}
+		valuesJSON := "[]"
+		if len(res.Values) > 0 {
+			valuesBytes, err := json.Marshal(res.Values)
+			if err != nil {
+				tx.Rollback()
+				return fmt.Errorf("failed to marshal values: %w", err)
+			}
+			valuesJSON = string(valuesBytes)
+		}
+		if _, err := stmt.Exec(res.DatasetID, res.AnnotationID, res.Feature, res.Key, res.Note, res.Source.Resp, res.Source.Id, res.Source.Revision, res.Source.Name, valuesJSON); err != nil {
+			tx.Rollback()
+			return err
+		}
+	}
+
+	return tx.Commit()
+}
+
 func scanFeatureResult(scanner func(...any) error) (*feature.Result, error) {
 	res := &feature.Result{}
 	var valuesJSON string

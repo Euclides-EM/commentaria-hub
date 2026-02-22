@@ -24,3 +24,7 @@ func (r *Result) CreateResult(m *feature.Result) (*feature.Result, error) {
 	}
 	return m, nil
 }
+
+func (r *Result) CreateResults(results []*feature.Result) error {
+	return r.store.CreateBatch(results)
+}

@@ -74,6 +74,35 @@ func (s *DatasetImageStore) ListImages(dataset *model.Dataset) ([]*model.ImageMe
 	return images, nil
 }
 
+func (s *DatasetImageStore) GetImageMetadata(dataset *model.Dataset, key string) ([]*model.ImageMetadata, error) {
+	imgDir := s.FilesysManager.DatasetImagesDir(dataset)
+	files, err := os.ReadDir(imgDir)
+	if err != nil {
+		return nil, fmt.Errorf("Error listing images: %v\n", err)
+	}
+	var images []*model.ImageMetadata
+	for _, file := range files {
+		if file.IsDir() {
+			continue
+		}
+		if !futils.IsImageFile(file.Name()) {
+			continue
+		}
+		if strings.HasPrefix(file.Name(), key) {
+			fi, err := file.Info()
+			if err != nil {
+				return nil, fmt.Errorf("Error getting file info: %v\n", err)
+			}
+			images = append(images, &model.ImageMetadata{
+				Key:        strings.TrimSuffix(file.Name(), filepath.Ext(file.Name())),
+				Filename:   file.Name(),
+				ModifiedAt: fi.ModTime(),
+			})
+		}
+	}
+	return images, nil
+}
+
 func (s *DatasetImageStore) DeleteImages(ds *model.Dataset, images []*model.ImageMetadata) error {
 	for _, img := range images {
 		p := path.Join(s.FilesysManager.DatasetImagesDir(ds), img.Filename)

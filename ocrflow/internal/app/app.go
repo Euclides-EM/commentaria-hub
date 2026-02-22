@@ -16,6 +16,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
 
 type OCRFlowApp struct {
@@ -43,6 +44,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	modelStore := store.NewModelSQL(sqlDB)
 	featureRevisionStore := store.NewFeatureRevisionSQL(sqlDB)
 	featureExecutionStore := store.NewFeatureExecutionSQL(sqlDB)
+	featureStore := store.NewFeatureSQL(sqlDB)
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
 	tpsTranscriptionsStore := store.NewTPSTranscriptions()
 	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl)
@@ -60,6 +62,12 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
+	featureRevisionSvc := service.NewRevision(featureRevisionStore)
+	featureSvc := service.NewFeature(featureStore, featureRevisionStore)
+	featureResultSvc := service.NewResult(featureResultStore)
+	// func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, store *fpstore.FeatureExecutionSQL, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
+
+	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, tpsTranscriptionsStore), llm.NewClient(env.OpenAIAPIKey))
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
@@ -72,7 +80,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		env.GithubToken,
 		env.CommentariaPath,
 	)
-	featureResultSvc := service.NewResult(featureResultStore)
 	titlePageTEI := service.NewTitlePageTEI(featureResultSvc, tpsTranscriptionsStore)
 	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, titlePageTEI)
 
@@ -84,7 +91,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	)
 	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir())
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager)
-	featureStore := store.NewFeatureSQL(sqlDB)
 
 	log.Printf("warming geo cache...")
 	if err := geoStore.WarmCache(); err != nil {
@@ -126,10 +132,10 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		AnnotationsUploader: annotationUploader,
 		AnnotationTEI:       annotationTEI,
 		AnnotationSearch:    annotationSearch,
-		FeatureSvc:          service.NewFeature(featureStore, featureRevisionStore),
-		FeatureRevisionSvc:  service.NewRevision(featureRevisionStore),
+		FeatureSvc:          featureSvc,
+		FeatureRevisionSvc:  featureRevisionSvc,
 		FeatureResultSvc:    featureResultSvc,
-		FeatureExecutionSvc: service.NewExecution(featureExecutionStore),
+		FeatureExecutionSvc: featureExecutionSvc,
 		DiagramCropsSvc:     diagramCropsSvc,
 		USTC:                service.NewUSTC(),
 		IntegrationJobSvc:   service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
