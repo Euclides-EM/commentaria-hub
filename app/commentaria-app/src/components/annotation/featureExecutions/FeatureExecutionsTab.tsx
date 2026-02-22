@@ -346,7 +346,6 @@ export function FeatureExecutionsTab() {
         return rightTime - leftTime
       })
       apply.push({
-        dataset_id: datasetId,
         feature: featureId,
         revision: revisions[0]?.id,
       })

@@ -20,6 +20,10 @@ export type feature_Feature = {
     readonly id?: string;
     is_default?: boolean;
     /**
+     * IsList indicates whether this feature can have multiple values (e.g. a list of named entities) or just a single value (e.g. an annotation). It is immutable.
+     */
+    is_list?: boolean;
+    /**
      * IsRoot is immutable.
      */
     is_root?: boolean;

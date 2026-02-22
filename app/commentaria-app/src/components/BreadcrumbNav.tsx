@@ -47,6 +47,7 @@ export function BreadcrumbNav() {
         value: d.id as string,
         label: d.name || (d.id as string),
       }))
+      .sort((a, b) => a.label.localeCompare(b.label))
   }, [datasets])
 
   const annotationOptions = useMemo(() => {
@@ -56,6 +57,7 @@ export function BreadcrumbNav() {
         value: a.id as string,
         label: a.name || (a.id as string),
       }))
+      .sort((a, b) => a.label.localeCompare(b.label))
   }, [filteredAnnotations])
 
   const selectedDataset =

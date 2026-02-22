@@ -19,6 +19,7 @@ export type feature_Execution = {
     name?: string;
     policy?: feature_ExecutionPolicy;
     status?: feature_ExecutionStatus;
+    status_reason?: string;
     readonly updated_at?: string;
 };
 
