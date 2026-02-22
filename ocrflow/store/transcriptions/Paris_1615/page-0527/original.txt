@@ -1,11 +1,9 @@
-ELEMENT.
-
-495
+ELEMENT.                                              495
 
 5. Vn plan eft incliné fur vn plan, quand les
 lignes menees fur l’vn & l’autre plan perpendi-
 culaires à la ligne de commune fection, & vers
-vn mefme point d’icelle, ne font point perpe-
+vn mefme point d’icelle,ne font point perpe-
 diculaires les vnes aux autres : & l’inclination
 d’iceux plans; eft l’angle aigu compris d’icelles
 perpendiculaires.
@@ -23,12 +21,12 @@ gales en nombre & grandeur.
 10. Angle folide, c’eft la rencontre de plus de
 deux angles plans en vn mefme point , eftans
 iceux constituez fur plans differens.
-11. Pyramide, eft vn folide compris de plu-
-fieurs plans, fe rencontrás en vn méme point,
+11. Pyramide,eft vn folide compris de plu-
+fieurs plans,fe rencontrãs en vn mefme point,
 & ayans vn autre plan pour bafe.
 12. Prifme , eft vn folide compris de plans,
 defquels deux qui font oppofez font egaux,
 femblables,& parallels,& les autres font paral-
 lelogrammes.
-13. Sphere, eft vne figure comprise par le de-
-my cercle , lors que fon diametre demeurane
+13. Sphere,eft vne figure comprise par le de-
+my cercle , lors que fon diametre demeurãne

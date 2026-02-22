@@ -7,7 +7,7 @@ munem contingit reperiri.
 
 γ
 Εὐθεῖαι δυνάμει σύμμετροί εἰσιν, ὅταν τὰ ἀπ᾽ αὐτῶν
-τετράγωνα ἐπ᾽ αὐτῷ χωρίῳ μετρῆται.
+τετράγωνα ἐν αὐτῷ χωρίῳ μετρῆται.
 
 3
 Lineæ rectæ potentia commenſurabiles ſunt,

@@ -9,7 +9,7 @@ d’autant que BD plus grand nom du reſidu BC eſt rationele,
 & le rectangle DF egal au quarré de la rationele A , eſt ratio-
 nel; par la 21.p.10. BF ſera auſſi rationele commenſu. en lon-
 gitude a BD. Donc par la 12.p.10. BG ſera auſſi rationele có-
-mmenſ. en longitude a la meſme BD. Et puis que BG, GE, ont
+menſ. en longitude a la meſme BD. Et puis que BG, GE, ont
 eſté demonſtrees commenſ. en puiſſance ſeulement, & BG
 rationele, GE ſera auſſi rationele.  Donc BG, GE ſont ratio-
 neles commenſ. en puiſſance ſeulement : Et partant par la 37.
@@ -24,15 +24,13 @@ reſidu BC: ce qu’on ſera tout ainſi qu’en la precedente.
 
                          SCHOLIE.
 
-Si la ration. A eſt 4, & le reſidu BC 9—√45, CD √45, & BD 9: le rect.
-DF ſera 16, & auſſi CE 16: ainſi le coſté BF ſera 12, & BE 4+√8
-2
-3
-& par conſequent FE ſera √8 2/3 + 2 2/3, & GE √8 2/3, FG 1 2/9,
+Si la ration. A eſt 4, & le reſidu BC9—i 45,CD√45, & BD9: le rect.
+DF ſera 16, & auſſi CE 16: ainſi le coſté BF ſera 12, & BE4+√8
+& par conſequent FE ſera √8²+2 2/9, & GE √8 2/3, FG 12/9,
 BG 4: ainſi eſt euident que BE eſt binome en meſme ordre que le re-
 ſidu BC, & que les noms d’iceux ſont proportionaux.
 
-            THEOR. 91.    PROP. CXV.
+THEOR. 91.   PROP. CXV.
 
 Si vn rectangle eſt compris d’vn reſidu, &
 d’vn binome, deſquels les noms ſont propor-

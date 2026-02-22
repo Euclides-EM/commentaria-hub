@@ -1,58 +1,58 @@
 EVCL. ELEMENT. GEOM.
 
-unitatum fpecies fue natura cum à numero radicem non habente, candem radicem educi poffimus.
-Cùm enim ea nullas huius numeri habeat unitates (eo quòd eius nulla fit radix) manifeftum relin-
-quitur, unitates eidem applicatas à prioris numeri unitatibus alienas effe, quoniam fi alienæ non
-effent, ipfa radicem numeri exprimerent, quod fieri non poteft, cùm nullam habeat, ex hypothefi.
-Idem in quauis radice numerorum dicemus, fiue quadrata, fiue cubica, fiue furde, fiold, aut alia fue-
+unitatum species siue natura cum à numero radicem non habente, eandem radicem educi poſſimus.
+Cùm enim ea nullas huius numeri habeat unitates (eo quòd eius nulla ſit radix) manifeſtum relin-
+quitur, unitates eidem applicatas à prioris numeri unitatibus alienas eſſe, quoniam ſi alienæ non
+eſſent, ipſa radicem numeri exprimerent, quod fieri non poteſt, cùm nullam habeat, ex hypotheſi.
+Idem in quauis radice numerorum dicemus, ſiue quadrata, ſiue cubica, ſiue ſurde, ſiue ſolida, aut alia fue-
 rit quælibet. Quæ igitur quantitates à certarum unitatibus componuntur, certæ erunt. Quæ verò
-ab earumdem unitatibus componi poffunt, incertæ dicantur, tanquam ab alienis unitatibus
-compoſita. Obijceretur tamen quadrangulum rectangulum fub lineis potentia tantùm commenfura-
-bilibus comprehensum, certum non dici, licet linea illa certa dicatur. Ad hæc dicemus harum li-
-nearum vtramque longitudinem, vt iam diximus, certam non effe, qua quidem incerta longitudine il-
-lud producit rectangulum, fed potentia earum vtramque tantùm certam effe, & que denominationem
-certitudinis lineæ eam potenti tribui. Quare rectangulum ex earum potentia certa conftans, cer-
-tum erit, quod quidem fab incerta, earum longitudine producatur. Incertum erit, vt latius patet
-vigesimaprima propoſitione huius. Ea de cauſa dicemus incerta rectangula bifariam præcipuè gene-
-rari, ex binis certis longitudine tantùm incommenfurabilibus. Scilicet cùm fub illis contineatur re-
-ctangulum, per vigesimamprimam, cùm ex illis coniunctis fit quadratum, per trigesimamfextam,
-& cùm à maiori auferatur minor, reliqua quadrati (per feptuagesimamtertiam huius) vt poft hac vi-
-debimus. Huius eft caufa quòd in his modis femper coferuntur longitudines fibi inuicem incommen-
-furabiles, & ideo incertum producunt. Si autem earum potentia (quæ commenfurabilis fuit) colla-
-te planum componant, illud neceffario certum erit, cùm conftet ex potentia potentiæ certæ com-
-menfurabili.
+ab earundem unitatibus componi poſſunt, incertæ dicantur, tanquam ab alienis unitatibus
+compoſitæ. Obiceretur tamen quadrangulum rectangulum ſub lineis potentia tantùm incommenſura-
+bilibus comprehensum, certum non dici, licet lineæ illæ certæ dicantur. Ad hæc dicemus harum li-
+nearum vtramque longitudinem, vt iam diximus, certam non eſſe, qua quidem incerta longitudine il-
+lud producit rectangulum, ſed potentia earum vtramque tantùm certam eſſe, quæ denominationem
+certitudinis lineæ eam potenti tribuit. Quare rectangulum ex earum potentia certa conſtans, cer-
+tum erit, quod quidem ſab incerta, earum longitudine producetur. Incertum erit, vt latius patet
+vigeſimaprima propoſitione huius. Ea de cauſa dicemus incerta rectangula biſariam præcipuè gene-
+rari, ex binis certis longitudine tantùm incommenſurabilibus. Scilicet cùm ſub illis contineatur re-
+ctangulum, per vigeſimamprimam, cùm ex illis coniunctis ſit quadratum, per trigeſimamſextam,
+& cùm à maiori auſertur minor, reliqua quadrati (per ſeptuageſimamtertiam huius) vt poſthac vi-
+debimus. Huius eſt cauſa quòd in his modis ſemper coſeruuntur longitudines ſibi inuicem incommen-
+ſurabiles, & ideo incertum producunt. Si autem earum potentia (quæ commenſurabilis ſit) colla-
+te planum componant, illud neceſſario certum erit, cùm conſtet ex potentia potentiæ certæ com-
+menſurabili.
 
-Diffinitio vndecima.
+Diſſinitio vnde cima.
 
-Et illa potentes, incertæ. Siquidem quadrata fuerint, corum latera incer-
-tæ. Si verò alia quædam rectilinea fuerint, Lineæ æquali a ipfis quadrata de-
-fcribentes, incertæ erunt.
+Et illa potentes, incertæ. Siquidem quadrata fuerint, eorum latera incer-
+tæ. Si verò alia quædam rectilinea fuerint, Lineæ æquali ipſis quadrata de-
+ſcribentes, incertæ erunt.
 
-Futurum loquendi modum (ibi fumit Euclides, cùm dicat, & illa potentes, lineæ etenim potentes
-illa plana quæ propoſito certo plano incommenfurabilia effe diximus, incertæ appellantur, quæcun-
-que fuerint rectilinea. Nam fi quadrata fuerint, eorum latera incertæ lineæ erunt. Si verò alia re-
-ctilinea fuerint, lineæ deſcribentes æqualia quadrata ipfis rectilineis, incertæ fimiliter appellabun-
-tur. Potentiam namque lineæ diximus eſſe ſuperficiem quadrato ab ea deſcripto æqualem. Cùm igi-
+Futurum loquendi modum ſibi ſumit Euclides, cùm dicat, & illa potentes, lineæ etenim potentes
+illa plana quæ propoſito certo plano incommenſurabilia eſſe diximus, incertæ appellantur, quæcun-
+que fuerint rectilinea. Nam ſi quadrata fuerint, eorum latera incertæ lineæ erunt. Si verò alia re-
+ctilinea fuerint, lineæ deſcribentes æqualia quadrata ipſis rectilineis, incertæ ſimiliter appellantur.
+Potentiam namque lineæ diximus eſſe ſuperficiem quadrato ab ea deſcripto æqualem. Cùm igi-
 tur linea in ſuas unitates ducta, quadratam generat ſuperficiem, ipſam ſuperficiem ex ipſius lineæ
-unitatibus genitam eſſe diximus. Sigitur eſſente ſuperficiei unitates, unitatibus propoſitæ ſuperfi-
-ciei (ex hypotheſi) ſint alienæ, cùm ſint incommenſurabiles, ſequetur lineæ certæ propoſitæ ſuperfi-
+unitatibus genitam eſſe diximus. Sigitur eſt genitæ ſuperficiei unitates, unitatibus propoſitæ ſuperfi-
+ciei (ex hypotheſi) ſint alienæ, cùm ſint incommenſurabiles, ſequetur lineæ certæ propoſitæ ſuperſi-
 ciem generantis unitates, unitatibus lineæ, incommenſurabilem aream generantis alienas eſſe. Po-
-tens igitur aut generans incommenſurabilem aream certo plano rectæ lineæ, incerta dicetur eo quòd
+tens igitur aut generans incommenſurabilem aream certo plano recta linea, incerta dicetur, eo quòd
 alienas à certa propoſita habeat in ſe unitates. Illud vnum ac idem eſſe ait Euclides, quacunque fue-
 rint plana. Nam ſi ſint quadrata, loquitur de eorum lateribus, ſiue radice. Si verò alia fuerint recti-
 linea, hoc eſt, rectangula, parallelogramma, pentagona, trapeſia, &c. Cùm ſingula in triangula & pre-
-inde in quadrata (per decimamquartam ſecundi) redacantur. Intelligit eorum quadratorum recti-
+inde in quadrata (per decimamquartam ſecundi) redcamur. Intelligit eorum quadratorum recti-
 lineis præfatis æqualium latera, incerta dici: eo quòd areas incertis areis æquales, & proinde incer-
 tas, producant.
 Quia verò diximus quadratam ſuperficiem ex unitatibus lineæ illam componentibus fieri, Re-
-minifci oportet eorum quæ diximus ad finem primæ diffinitonis ſeptimi, unitates ſcilicet naturam
-eius cui applicantur ſemper inſequi. Scimus autem infinita lineæ unitates nullam generare ſuper-
+minifci oportet eorum quæ diximus ad finem primæ definitionis ſeptimæ, unitates ſcilicet naturam
+eius cui applicantur ſemper inſequi. Scimus autem infinitaſſe lineæ vnitates, ny ſi quam generare ſuper-
 ficiem, cùm latitudine careant. Sed cùm dicimus ſuperficiem ab unitatibus lineæ generari, Intelli-
 gemus unitates illas contineri ſingulas ſub binis unitatibus propoſitæ lineæ, in quibus unitates ſe-
-ctæ, & hac lege ſent rectangula, ſub binis lineis contenta, per primam diffinitonem (candid.) di-
-cuntur unitates quadratum totius rectæ propoſitæ metientes, & ipſius quadrati naturam ſeſtan-
+ctæ, & hac lege ſent rectangula, ſub binis lineis contenta, per primam definitionem ſcandi. Quæ
+dicentur unitates quadratum totius rectæ propoſitæ metientes, & ipſius quadrati naturam ſeſtan-
 tes, quod ſemper ſub vnica contineri linea diximus. Siquidem binæ proferantur lineæ, quarum ab
-eis comprehensum rectangulum unitatibus diſtinguere velimus. Alteram earum (quacunque fue-
+eis comprehensum rectangulum vnitatis diſtinguere velimus. Alteram earum (quacunque fue-
 rint) ſemper certam propoſitam dicere poſſumus, cui reliqua conferenda eſt, quæ ſi per unitates pro-
-poſita certa commenſurabiles, diſtingui poſsit, hæ unitates ſingulæ à binis lineis ſumptæ, rectangu-
+poſitæ certæ commenſurabiles, diſtingui poſsit, hæ unitates ſingulæ à binis lineis ſumptæ, rectangu-
 la

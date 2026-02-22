@@ -1,55 +1,55 @@
-TENTH                                           Fol.  CXXXIII
+TENTH                                           Fol.  133
 
 that, given two unequal quantities, one can always multiply the smaller
 so that such multiplication exceeds the greater quantity.
 
 Theorem 1.  Proposition 1.
 
-If from two proposed unequal quantities, from the greater there be taken away
-more than the half, and from the remainder again there be taken away more than
-the half, and then proceeding in the same way, finally
+If from two proposed unequal quantities, from the greater there be taken
+away more than the half, and from the remainder again there be taken away
+more than the half, and then continuing in the same way, finally
 it is necessary that there remain a quantity smaller than the proposed
 smaller.
 
-[uncertain: and thus it is done more and more by hand.]
+[uncertain: and so it is done from hand to hand.]
 
 Let the two unequal quantities be a and b.c, and let b.c be the greater. I say that so
 many times more than the half of b.c can be taken away (or of the remainder
-of it) as will be necessary that there remain a quantity smaller than a. And to
-show this let a be multiplied so many times that by such number it exceeds b.c, and let
-d.e.f be the multiple of it greater than b.c; therefore there shall be taken away
-from b.c more than the half, which shall be b.g, and again from the remainder (which is e.b.c)
-there shall be taken away more than the half, which shall be g.h, and this again shall be done so many times
-until b.c be divided into as many parts as many times a is contained in
+of it) as will be necessary for there to remain a quantity smaller than a. And in order to
+show this, let a be multiplied so many times that by such a number it exceeds b.c, and let
+d.e.f be the multiple of it, greater than b.c; therefore from b.c there will be taken away
+more than the half, which will be b.g, and also from the remainder (which is e.g) there will
+be taken away more than the half, which will be g.h, and this again will be done so many times
+until b.c is divided into as many parts as the number of times that a is contained in
 d.e.f. Now I say that the last remainder (which in this place is e.h.c) is smaller than a.
-And to make this clear let h.c be multiplied by as much as a is contained
+And to make this clear, let h.c be multiplied by as much as a is contained
 in d.e.f, and let the multiple of it be K.l.m, because then each of the parts
-of the true quantity of K.l.m is equal to l.h.c; it follows that K is less than b.g, and
+of the true quantity K.l.m is equal to l.h.c; it follows that K is less than b.g, and
 l.m less than g.h. But because m is equal to l.h.c (by the convention) K.l.m will be
-less than b.c, by which it will also be less than d.e.f. And I say therefore
-that d.e.f is to a as K.l.m to h.c; and since d.e.f is greater than K.l.m it follows
+less than b.c, by which it will also be less than d.e.f; and it is conditioned then
+that d.e.f is to a as K.l.m to h.c; and since d.e.f is greater than K.l.m, it follows
 (by the fourteenth proposition of the fifth book) that a is greater
 than h.c, which is the proposition. And the same follows if from the greater there be taken away
-the half, and again from the remainder the half, and thus to proceed so many times until
-the greater be divided into as many parts as many times the smaller is contained in
-any of its multiples exceeding as much as one wishes the greater of
+the half, and also from the remainder the half, and thus to proceed so many times until
+the greater is divided into as many parts as the number of times the smaller is contained in
+any of its multiples exceeding, by as much as one wishes, the greater of
 the proposed. But it must be noted that in this one sees it to contradict the sixteenth
-proposition of the third book, which proposes the angle of the tangent
-to be less than any proposed angle contained by two straight lines, for
-since any angle obtained from straight lines, from it we shall take away
-more than the half, and likewise from the remainder we shall take away more than the half, and it is seen to be
-necessary to be able to do this so many times that there remain a rectilinear angle
-smaller than the angle of the tangent, of which thing the sixteenth proposition
+proposition of the third book, which proposes the angle of contingency
+to be less than any proposed angle contained by two straight lines; for
+given any angle obtained from straight lines, from it we shall take away
+more than the half, and likewise from the remainder we shall take away more than the half, and one sees it
+to be necessary that this can be done so many times that there remain a rectilinear angle
+smaller than the angle of contingency; of which thing the sixteenth proposition
 of the third book concludes the opposite; but these angles are not univocal
-because the curved and the straight are not similarly of one and the same kind. Nor
-can it be known that the angle of the tangent is taken away so many times that it
-exceeds, whatever it may be, a rectilinear angle, which thing is necessary as is made
+because the curved and the straight are not similarly of one and the same genus. Nor
+can one know that the angle of contingency has been taken away so many times that it
+exceeds any rectilinear angle whatsoever, which thing is necessary as is made
 manifest by the demonstration had above; therefore to this it is also
 clear (since the consequent is followed from the antecedent) that any
-rectilinear angle is greater than infinite angles of the tangent.
+rectilinear angle is greater than infinite angles of contingency.
 
 The translator.
 
 To wish to demonstrate by another shorter way that the remainder h.c is
 smaller than the quantity a (so many that the multiple d.e.f is greater than the
-quantity b.c, taken away from b.c more than the half equal to b.g) and of the taken away if
+quantity b.c, which is of b.c more than the half in which is b.g) and of the, subtr-

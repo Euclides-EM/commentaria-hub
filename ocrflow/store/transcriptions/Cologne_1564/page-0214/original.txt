@@ -1,27 +1,27 @@
-LIBER  X.                                                                 89
+LIBER  X.                                              89
 
 9
 Καὶ τὰ τούτῳ σύμμετρα, ῥητά.
 9
-Et quæ sunt huiccommensurabilia; vocen-
+Et quæ sunt huiccommensurabilia; vocēna-
 tur ῥητά.
 
-Τὰ δὲ τούτῳ ἀσύμμετρα, ἄλογα καλείσθω.
+τά δὲ τούτῳ ἀσύμμετρα, ἄλογα καλεῖσθω.
 10
-Quæ verò sunt illi quadrato ῥητῷ (scilicet in-
+Quæ verò sunt illi quadrato ῥητῷ (silicet in-
 commensurabilia; vocentur ἄλογα, id est
 surda.
 
-ἰὰ
+i a
 Καὶ αἱ δυνάμει αὐτῷ, ἄλογοι. ἢ μὲν τετράγωνα
-ᾖ, αὗται αἱ πλευραὶ. ἢ ἕτερα τινὰ εὐθύγραμμα,
-μὴ ἴσα αὐτοῖς τετράγωνα ἀναγράψωσι.
+εἴη, αὗται αἱ πλευραὶ. ἢ ἕτερα τινὰ εὐθύγραμμα,
+μὴ ἴσα αὐτοῖς τετράγωνα ἀναγράψασαι.
 11
 Et lineæ quæ illa incommensurabilia de-
-scribunt, vocentur ἄλογοι. Et quidem si illa
-incommensurabilia fuerint quadrata, ipsæ
+scribunt, vocentur ἄλογοι. Et quidem si illà
+incommensurabilia fuerint quadrata, ipsà
 eorum latera vocabuntur ἄλογοι lineæ: quòd
-si quadrata quidem non fuerint, verùm aliæ
+si quadrata quidem non fuerint; verùm aliæ
 quæpiam superficies siue figuræ rectili-
 neæ, tunc verò lineæ illæ quæ describunt
 quadrata æqualia figuris rectilineis, vocen-

@@ -4,43 +4,45 @@ EUCLID’S ELEMENTS
 TENTH
 
 Commensurable magnitudes are said to be those measured by the same
-measure. Incommensurable, those for which no common
-measure can be found. Straight lines are incommensurable in power when
-the squares on them are measurable by the same areas.
-And they are incommensurable when, for the squares on them, no
-common measure can be found. With these things laid down it is shown
-that, to the straight line set forth, there exist straight lines in an infinite multitude,
-both commensurable and incommensurable: some in length and in power, and others in power only.
-— Let the straight line set forth be called rational. — And those commensurable with it,
-whether in length and in power, or in power only, (are) rational. But those incommensurable with it,
-let them be called irrational. And the square on the straight line set forth (is) rational,
-and those commensurable with it. But those incommensurable with it,
-let them be called irrational; and those (commensurable) in power with it, irrational. And if (they are) squares,
-their sides, or let them be some rectilinear figures, and their squares
-they describe.
+measure. Incommensurable, those for which no common measure
+can come to be. Straight lines are incommensurable in square, when
+the squares on them are measurable by the areas on them.
+Incommensurable, when for the squares on them, no common
+measure can come to be. With these laid down it is shown
+that to the proposed straight line there exist straight lines in an infinite
+multitude commensurable and incommensurable, some in length and in square, others in square only.
+— Let the proposed straight line be called rational. — And those commensurable with it,
+either in length and in square, or in square only, rational. But those incommensurable with it,
+let them be called irrational. And the square on the proposed straight line rational.
+And those commensurable with it. But those incommensurable with it,
+let them be called irrational, and the (lines) in square also irrational. If they are squares,
+the sides themselves, or let them be some rectilinear figures, and the squares on them
+are described.
 
-If two unequal magnitudes are set out, and from the greater there be subtracted
-a measure or a half, and the remainder (be) greater than a half,
-and this happens repeatedly, there will be left a magnitude which is less
-than the lesser of the magnitudes set out. Let there be two unequal magnitudes,
-AB, GD, of which AB is the greater. I say that if from AB there be subtracted a measure or a half, and the remainder (be) greater than a half,
-and this happens repeatedly, there will be left a magnitude which is less
-than the lesser magnitude set out. For let the magnitude AB be multiplied some number of times; let
-it be multiplied, and let it be DE. Let G be a multiple of AB, greater than
-a half of DE. Since the AB’s equal to G are either K, or E; and if there be subtracted from AB more than a half, BZ,
-and from DE more than a half, HΘ; and whatever happens; if from one of the
-divisions of AB there be made an equal number to the divisions of DE of GD; let
-AK and BΘ be divisions, equal in number to the divisions of GD (or KE). Since
-DE is greater than AB, and from the half EZ has been subtracted, and from AB
-more than a half BZ; therefore the remainder DK. Therefore DK is greater than DZ; and
-still further HΘ is greater than DZ. And from the half HΘ has been subtracted, and from
-DE more than a half DK; therefore the remainder ZK. Therefore AK is greater than DZ; and DZ is equal to G; and
-therefore G is left from AK greater than a half; therefore AK is less.
-And similarly it will be shown, even if the things subtracted are halves. With two
-unequal magnitudes set out AB, GD, let GD be less still than a lesser than G.
-Let the magnitude AB be multiplied some number of times; let it become
-ZI. And let it be divided into the equals of G, HΘ or K. And from AB let there be subtracted
-more than a half EB, and from DE more than a half HΘ, and thus it will be shown that
+Of two unequal magnitudes set out, if from the greater there be subtracted
+a measure or a half, and the remainder be greater than a half,
+and this happens continually, there will be left some magnitude which will be less
+than the given lesser magnitude. Let there be two unequal magnitudes, the
+ab, gd, of which the ab is greater. I say that if from the ab there be subtracted a measure or a half, and the remainder be greater than a half, and this happens continually, there will be left some magnitude which will be less
+than the magnitude gd. For let the magnitude ab be multiplied at some time; let it be
+multiplied, and let it be de. Since ab is greater than a half
+of de, it is equal to dz or ke, or let there be subtracted from de the ab greater than a half, let it be bz,
+and from ae greater than a half, let it be dk, and so let it happen continually. Since if from the
+divisions of ab, an equal number come to be, to the divisions of gd and de; let there be
+the kk and bb divisions, equal in number to those of gd and de. Further let de be greater
+than ab, and let the half be subtracted from it, ez, and from ab
+greater than a half, bz. Therefore the remainder zd. Therefore the zd is less
+than a half of de, and further let kl be greater than dz, and let the half be subtracted from it, lh,
+and from dz greater than a half, dh. Therefore the remainder hk. Therefore hk is less
+than a half of kl, and so let it happen continually. Therefore ak will be less
+than a half of the given lesser magnitude gd. Which I showed.
+
+Otherwise.
+And similarly it will be shown, even if the half is what is subtracted. Let there be set out two
+unequal magnitudes ab gd, and let the lesser be the given gd.
+Let the magnitude ab be multiplied at some time; therefore it has become de.
+And let it be divided into equals of gd, the hth or kl, and from de let there be subtracted
+greater than the half, eb, and from hth greater than the half, hl, and so let it happen continually
 [illegible]
 
-A  B  G  D  E  Z  H  TH  I  K
+A  B  G  D

@@ -2,14 +2,14 @@ ELEMENT.                                   493
 
 quarré de AB; comme 2 à 1, ou 4 à 2, ou 8 à 4, &c. qui n’eft
 pas comme nombre quarré à nombre quarré, comme nous
-auons demonftré au corol. de la 24. P. 8. & partant par la 9. P.
+auons démonftré au corol. de la 24. P. 8. & partant par la 9. P.
 10. la diagonale AC, & cofté AB, font incommenfurables en
-lōgitude.
+longitude.
 
-S C H O L I E.
+SCHOLIE.
 
-Si AB cofté du quarré eft 1, la diagonale AC fera √ 2 : tellement
-que la raifon du cofté au diametre eft comme 1 à √ 2; c’eft à dire in-
-commenf. en longueur.
+Si AB cofté du quarré eft 1, la diagonale AC fera √2 : tellement
+que la raifon du cofté au diametre eft comme 1 à √2; c’eft à dire in-
+commenf. en longitude.
 
 Fin du dixiefme liure.

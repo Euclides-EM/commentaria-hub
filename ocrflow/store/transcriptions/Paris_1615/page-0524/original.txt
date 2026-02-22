@@ -1,12 +1,12 @@
-492.            DIXIESME
+492.                         DIXIESME
 irrationeles, toutes differentes des deuant di-
 ctes.
 
-   Soit la ligne mediale AB, ie
+    Soit la ligne mediale AB, ie
 dis que d’icelle naissent infinies
 lignes irrationeles toutes diffe-
 rentes des deuant dictes.
-   Car ſi ſur l’extremité de la
+    Car ſi ſur l’extremité de la
 mediale on meine la perpendi-
 culaire AC qui ſoit rationele, &
 on acheue le rectangle AD : iceluy rectangle ſera irrationele
@@ -21,28 +21,22 @@ ferente de toutes les deuant dictes. Car le quarré de pas vne
 d’icelles, appliqué ſur vne ligne rationele, ne fait l’autre co-
 ſté tel que BE : & de ceſte façon on peut proceder à l’infiny.
 
-A  B  E  F
-C
-D
+                 S C H O L I E.
+Si la mediale AB eſt √V2, & la rationele AC 2; le rectangle AD
+ſera √V32 la ligne & BE qui peut iceluy ſera √V√32. Ainſi le rectan-
+gle DE ſera √V√512, & la ligne EF qui peut iceluy ſera √V√V512, &
 
-S C H O L I E.
-Si la mediale AB eſt V V 2, & la rationele AC 2; le rectangle AD
-ſera V V 32 la ligne BE qui peut iceluy ſera V V 32. Ainſi le rectan-
-gle DE ſera V V V 512, & la ligne EF qui peut iceluy ſera V V V 512, &
 ainſi à l’infiny.
 
-THEOR. 93.  PROP. CXVII.
+        THEOR. 93.   PROP. CXVII.
 
-Au quarré, la diagonale eſt incommenſura-
+    Au quarré, la diagonale eſt incommenſura-
 ble en longitude au coſté.
 
-   Soit le quarré A B C D, duquel AC ſoit dia-
-gonale. Ie dis que la diagonale AC eſt inco-
+    Soit le quarré A B C D, duquel AC ſoit dia-
+gonale. Ie dis que la diagonale AC eſt incõ-
 menſurable en longitude au coſté AB.
-   Car par la 47. p. 1. le quarré de AC eſt dou-
+    Car par la 47. p. I. le quarré de AC eſt dou-
 ble du quarré de AB : mais toute grandeur
 double d’vne autre eſt comme 2 à 1, ou 4 à 2,
 ou 8 à 4, &c. Donc le quarré de AC eſt au
-
-D
-B  C

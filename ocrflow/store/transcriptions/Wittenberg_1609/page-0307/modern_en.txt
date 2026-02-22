@@ -12,23 +12,22 @@ magnitude of the same kind
 
 AXIOMS.
 
-1. A magnitude measuring any mag-
-nitude, also measures the magnitude
-composed from them.
+1. A magnitude which measures any
+magnitude, also measures the magnitude
+composed of them.
 
-2. A magnitude measuring any mag-
-nitude, also measures every magnitude
+2. A magnitude which measures any
+magnitude, also measures every magnitude
 which that magnitude measures.
 
-3. A magnitude measuring a whole
+3. A magnitude which measures a whole
 magnitude and a part taken away, also
 measures the remainder.
 
 PROPOSITION I.
 Theorem 1.
 
-With two magnitudes ab, and une-
-qual ones proposed, if from the greater
-ab there be taken away more than half
-of ab; and from that,
+For two magnitudes ab, and in unequal
+proportion, if from the greater ab there is taken
+away more than half of ab; and from that
 which

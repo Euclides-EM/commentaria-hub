@@ -1,52 +1,59 @@
-150  
+150
+
 ELEMENT
 
-en longitude,ſoit en puiſſance,ſont appellées rationelles.  
-6. Et les lignes incommenſurables à vne ligne rationelle,  
+en longitude,ſoit en puiſſance,ſont appellées rationelles.
+6. Et les lignes incommenſurables à vne ligne rationelle,
 ſont irrationelles.
 
-Il faut remarquer icy trois ſortes de lignes rationelles. La premiere, ſçauoir tou-  
-te ligne propoſée, laquelle peut eſtre expliquée par quelque nombre. La ſecon-  
-de toute ligne commenſurable en longitude à la rationelle propoſée. La tierce  
-toute ligne commenſurable en puiſſance ſeulement à la rationelle propoſée. Et  
-toute ligne incommenſurable tant en longitude que en puiſſance à la rationelle  
+Il faut remarquer icy trois ſortes de lignes rationelles. La premiere, ſçauoir tou-
+te ligne propoſée, laquelle peut eſtre expliquée par quelque nombre. La ſecon-
+de toute ligne commenſurable en longitude à la rationelle propoſée. La tierce
+toute ligne commenſurable en puiſſance ſeulement à la rationelle propoſée. Et
+toute ligne incommenſurable tant en longitude que en puiſſance à la rationelle
 propoſée eſt irationelle.
 
-7. Le quarré deſcrit ſur vne ligne rationelle, eſt appellé  
-rationel.  
-8. Les figures commenſurables au quarré rationel, ſont  
-auſſi rationelles.  
-9. Et celles qui ſont incommenſurables au quarré ratio-  
-nel, ſont irrationelles & ſourdes.  
-10. Et les lignes qui peuent icelles figures irrationelles,  
+7. Le quarré deſcrit ſur vne ligne rationelle, eſt appellé
+rationel.
+8. Les figures commenſurables au quarré rationel, ſont
+auſſi rationelles.
+9. Et celles qui ſont incommenſurables au quarré ratio-
+nel, ſont irrationelles & ſourdes.
+10. Et les lignes qui peuent icelles figures irrationelles,
 ſont irationelles & ſourdes.
 
-Vne ligne eſt dite pouuoir vne figure quand elle peut deſcrire vn quarré, egal  
-à icelle figure, d’autant que tout quarré eſt la puiſſance de la racine ou de ſon co-  
-ſté. Ainſi il a dit cy deſſus deux lignes eſtre commenſurables en puiſſance, lors que  
-non pas les lignes, mais les quarrez d’icelles lignes ſont commenſurables.
+Vne ligne eſt dite pouuoir vne figure quand elle peut deſcrire vn quarré, egal
+à icelle figure, d’autant que tout quarré eſt la puiſſance de la racine ou de ſon co-
+ſté. Ainſi il a dict cy deſſus deux lignes eſtre commenſurables en puiſſance, lorsque
+non pas les lignes, mais les quarrcz d’icelles lignes ſont commenſurables.
 
 PROP. I.
 
-Si de deux grandeurs inegalles on retranche de la plus gran-  
-de plus de la moitié, encores du reſidu plus de la moitié  
-en continuant touſiours: Il demeurera à la fin vne gran-  
+Si de deux grandeurs inegalles on retranche de la plus gran-
+de plus de la moitié, encores du reſidu plus de la moitié
+en continuant touſiours: Il demeurera à la fin vne gran-
 deur plus petite que la plus petite des deux propoſées.
 
-Soient deux grandeurs inegalles A & BH, eſtant A la plus petite:  
-Ie dis que ſi on retranche plus de la moitié de BH, & du reſidu enco-  
-res plus de la moitié en continuant touſiours, on trouuera à la fin  
-vn reſidu plus petit que A.  
-Qu’il ne ſoit ainſi. Soit la grandeur A multipliée tant de fois  
-qu’elle excede la plus grande BH (car cela eſt poſſible) & ſoit  
-la produicte d’icelle multiplication CD laquelle ſera multi-  
+Soient deux grandeurs inegalles A & BH, eſtant A la plus petite:
+Ie dis que ſi on retranche plus de la moitié de BH, & du reſidu enco-
+res plus de la moitié en continuant touſiours, on trouuera à la fin
+vn reſidu plus petit que A.
+
+Qu’il ne ſoit ainſi. Soit la grandeur A multipliée tant de fois
+qu’elle excede la plus grande BH (car cela eſt poſſible) & ſoit
+la produicte d’icelle multiplication CD laquelle ſera multi-
 plice de A, Et plus grande que BH : qu’elle ſoit donc diuiſée
 
-D  
-G  
-F  
-C   A   B  
-H  
-K  
-I  
-L
+D
+G
+F
+C
+
+H
+K
+I
+E
+B
+A
+
+Digitized by Google

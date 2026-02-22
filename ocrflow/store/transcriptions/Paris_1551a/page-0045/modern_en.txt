@@ -1,33 +1,34 @@
 EUCLID’S ELEMENTS.
 
-can be most easily understood. For since Euclid by this
-definition includes only magnitudes which
-they call continuous quantities, such as lines, sur-
-faces, and bodies: nevertheless I think it is not unfit
-that an explanation of this passage be sought from numbers: since
-especially commensurable magnitudes have that
+can be most easily understood. For what does Euclid, by this
+definition, comprehend except magnitudes which
+he calls continuous quantities, such as lines, sur-
+faces, and bodies? Yet I think it is not improperly to be
+required that an explanation of this passage be sought from numbers,
+since especially commensurable magnitudes have that
 proportion among themselves which number has to number.
 
-Campanus, a man who from studies of geometry obtained praise
-not undeservedly, rightly inscribes that principle among the other
+Campanus, a man who from studies of geometry has deservedly
+obtained praise, rightly inscribes that principle among the other
 principles of the seventh book, although the Greek exemplar has
 nothing of the sort. A number is said to number another, which,
 multiplied by some [number], produces it. Of which
 let this be an example. Three numbers three
-multiplied by one. The same three numbers six
-multiplied by two: numbers nine
-multiplied by three: numbers 12 by 4:
-numbers 9: [and] the other infinite [numbers]. Yet that same three
-by no means numbers other numbers interposed among the greater ones.
-For it numbers neither one itself, nor two.
+when multiplied by one. The same three numbers six
+when multiplied by two; numbers nine
+when multiplied by three; numbers 12 by 4;
+numbers 9; the others infinitely many. Yet that same
+three by no means numbers other numbers interposed between the higher ones.
+For it neither numbers unity itself, nor two.
 For the greater can in no way number the lesser:
 just as in magnitudes (as we said before) a greater
 measure does not measure a lesser magnitude by itself.
 Nor indeed does three number 4 or 5. For multiplied by one
-it makes nothing more than 3. But multiplied by two,
-it exceeds both 4 and 5. Much more
+it makes nothing more than 3; but multiplied by two,
+it exceeds both 4 and 5; much more
 if it shall have been multiplied by another three or by some greater number,
 it will have exceeded the same 4 and 5. The same reasoning holds for
-seven, eight, ten, and eleven, if you try to number any one of these by three. If anyone
+seven, eight, ten, and eleven, if you try to number any one of
+these by three. If someone
 
 however

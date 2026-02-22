@@ -1,12 +1,12 @@
-BOOK  X..                                   88
+BOOK  X..                                    88
 
 2
 Incommensurable magnitudes are said to be
-those for which it happens that no common
+those, of which it happens that no common
 measure can be found.
 
 γ
-Straight lines are commensurable in power, whenever the squares
+Straight lines are commensurable in power, when the squares
 from them are measured by the same area.
 
 3
@@ -15,16 +15,16 @@ whose squares one and the same surface or
 area measures.
 
 δ
-And they are incommensurable, whenever for the squares from them
-it is not possible that any common area become a measure.
+And they are incommensurable, when for the squares from them
+it is not possible that any common area-measure come to be.
 
 4
-But lines are incommensurable, for which
+But lines are incommensurable, of which
 no common area can be found that measures
-their squares.
+the squares.
 
 t
-These things being assumed, it is shown that to the proposed
+These things being laid down, it is shown that to the proposed
 straight line there exist straight lines infinite in multitude, both
 commensurable and incommensurable, some in length and in power,
 and others in power only. Let then the proposed straight line be

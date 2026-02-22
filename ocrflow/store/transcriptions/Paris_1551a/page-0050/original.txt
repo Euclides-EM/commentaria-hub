@@ -1,4 +1,4 @@
-LIBER     X.     4
+LIBER    X.    4
 
 ferre. Quod quum ita fit, proposita linea diuisiones eas
 admittit, quas animo conceperis: ut dicas, hæc linea quæ
@@ -10,15 +10,15 @@ omnibus pene propositionibus huius libri, & eis maxi-
 mè quæ à decima incipiunt, fundamenta præstat: ut ni
 si hanc primo loco posueris, & animo conceperis ante-
 quam demonstrationem cuiusque theorematis attin-
-gas, nullum facile intelligas. Est enim velut norma om-
+gas, nullum facile intelligas. Est enim uelut norma om-
 nium linearum ex qua ipsarum quoque mensura peti
 debet an sint rationales necne. Nam hæc ipsa ῥητὴ quæ
 hic denominatur, est ῥητὴ ex suppositione quod quidem
-hæc vox πεποιημένη facile indicat, quasi dixerit ῥητο-
-θεῖσα, quæ velut ῥητὴ id est rationalis primo loco dici po-
-test, ut ipsa voce differat à cæteris lineis rationalibus,
+hæc uox πεποιημένη facile indicat, quasi dixerit ῥητο-
+θεῖσα, quæ uelut ῥητὴ id est rationalis primo loco dici po-
+test, ut ipsa uoce differat à cæteris lineis rationalibus,
 de quibus mox agit. Cuius rei te perpetuò meminis-
-se velim.
+se uelim.
 
 Lineæ quoque illi ῥητῇ commensurabiles, siue lon-
 gitudine & potentia, siue potentia tantù, vocen-
@@ -27,6 +27,6 @@ tur & ipsæ ῥηταὶ id est rationales.
 Hic locus plane intelligitur ex duabus definitionibus su-
 pradictis, nempe magnitudinum commensurabilium,
 & linearum potentia commensurabilium. Obiter ta-
-men aduertas in his verbis, commensurabiles siue longi-
-tudine & potentia, siue potentia tantùm, quantâ cau-
-tionem adhibuit Euclides, ut vocibus ipsis coniungeret
+men aduertas in his uerbis, commensurabiles siue longi-
+tudine & potentia, siue potentia tantù, quantâ cau-
+tionem adhibuit Euclides, ut uocibus ipsis coniungeret

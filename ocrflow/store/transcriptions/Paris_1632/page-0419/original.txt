@@ -3,33 +3,34 @@ DIXIESME.
 
 DEFINITIONS.
 
-1  GRANDEVRS commensurables, sont celles-là qui
-sont mesurees par vne mesme mesure.
+1  GRANDEVRS commenſurables, ſont celles-là qui
+ſont meſurees par vne meſme meſure.
 
-Ainsi les deux lignes droites, A & B,
-estans mesurees par vne mesme ligne
-C, sont dites commensurables. Ainsi aussi vne ligne de 6 pieds est commen-
-surable a vne autre ligne de 7 pieds, pource
-qu’elles sont toutes deux mesurees tant
-par la ligne d’un pied, que par celle
-d’un demy pied, d’un tiers de pied, &c.
-semblablement les superficies, qui sont
-mesurees par vne mesme superficie, sont
-dites commensurables : Item les corps,
-ou solides qui sont mesurez par vn mesme
-corps, sont aussi dits commensurables.
+Ainſi les deux lignes droictes, A & B,
+eſtans meſurees par vne meſme ligne
+C, ſont dictes commenſurables. Ain-
+ſi auſſi vne ligne de 6 pieds eſt commen-
+ſurable a vne autre ligne de 7 pieds, pource
+qu’elles ſont toutes deux meſurees tant
+par la ligne d’vn pied, que par celle
+d’vn demy pied, d’vn tiers de pied, &c.
+ſemblablement les ſuperficies, qui ſont
+meſurees par vne meſme ſuperficie, ſont
+dites commenſurables : Item les corps,
+ou ſolides qui ſont meſurez par vn meſme
+corps, ſont auſſi dits commenſurables.
 
 A B C
 
-2  Mais les grandeurs incommensurables, sont celles-là qui
-n’ont aucune commune mesure.
+2  Mais les grandeurs incommenſurables, ſont celles-là qui
+n’ont aucune commune meſure.
 
-Telles grandeurs sont le diametre & le costé de quelconque quarré : car icelles gran-
-deurs n’ont aucune commune mesure, comme il sera demonstré à la derniere prop. de ce
-liure. Il y a encores plusieurs autres lignes incommensurables, sçauoir est ausquelles on
-ne peut donner aucune commune mesure, beaucoup desquelles seront expliquees en ce 10.
-liure ; & enseigne par quelles manieres elles peuvent estre trouuees : derechef, les super-
-ficies sont dites incommensurables, & les solides incommensurables, qui n’ont aucune
-commune mesure.
+Telles grandeurs ſont le diametre & le coſté de quelque quarré : car icelles gran-
+deurs n’ont aucune commune meſure, comme il ſera demonſtré à la derniere prop. de ce
+liure. Il y a encore pluſieurs autres lignes incommenſurables, ſçauoir eſt auſquelles on
+ne peut donner aucune commune meſure, beaucoup deſquelles ſeront expliquées en ce 10.
+liure ; & enſeigne par quelles manieres elles peuvent eſtre trouuées : derechef, les ſuper-
+ficies ſont dites incommenſurables, & les ſolides incommenſurables, qui n’ont aucune
+commune meſure.
 
-E.2.
+E B c

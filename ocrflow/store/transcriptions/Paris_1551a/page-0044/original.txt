@@ -1,35 +1,34 @@
 2
 
-EVCLIDIS ELEMENTORVM
-LIBER DECIMVS.
+EVCLIDIS  ELEMENTORVM
+LIBER  DECIMVS.
+
 Petro Montaureo interprete.
 
 COMMENSVRABILES magnitudi-
 nes dicuntur illæ, quas eadem mensura
 metitur.
 
-PROPOSITVM nobis illud est hunc decimũ elemẽ-
-torum librum (cuius intelligentiam plerique difficilli-
-mam suspicantur, neq; uerò possibilem absq; auxilio
-eius partis arithmetica,quam multorum scriptis illu-
-stratã Algebram uocant) sine omnino ullis numeris ir-
-rationalibus dictis ostendere, nõ solùm non difficillimũ,
-sed etiam facillimum esse, si quis attentum animum &
-instructum scientia librorum superiorum Euclidis af-
-ferat:neque porrò cuiusquam externa scientia, nedum
-algebrae demonstrationibus indigere: sed ex suis ipsius
-Euclidis tãtum demonstrationibus, & familiarissimo
-ipsi ordine dependere.  Vt autem clarius intelligatur
-hæc definitio, prius explanadum puto, si quid in ea sub-
-obscurum contineri videatur. sic enim præcipiunt dia-
+PROPOSITVM nobis illud eft hunc decimũ elemẽ-
+torum librum (cuius intelligentiam plerique difficili-
+mam fufpicantur, neq; uerò poßibilem abfque auxilio
+eius partis arithmetica,quam multorum fcriptis illu-
+ftratã Algebram uocant) fine omnino ullis numeris ir-
+rationalibus dictis oftendere, nõ folùm non difficilimũ,
+fed etiam facillimum eße, fi quis attentum animum &
+infructum fientia librorum fuperiorum Euclidis af-
+ferat:neque porrò cuiuſquam externa ſcientia, nedum
+algebrae demonstrationibus indigere: ſed ex ſuis ipſius
+Euclidis tãtum demonstrationibus, & familiariſſimo
+ipſi ordine dependere.  Vt autem clarius intelligatur
+hæc definitio, prius explanãdum puto, ſi quid in ea ſub-
+obſcurum contineri videatur. ſic enim præcipiunt dia-
 lectici.  Cum itaque dicitur aliqua mensura magnitu-
 dine aliam metiri:illud intelligitur primùm,ut ea men
-sura sit minor illa quam metitur,aut ei saltem æqua-
-lis. maior enim nullo modo metiri minorem potest. De-
-inde ut ea mensura semel sumpta si æqualis erit, aut si
+ſura ſit minor illa quam metitur,aut ei ſaltem æqua-
+lis. maior enim nullo modo metiri minorem poteſt. De-
+inde ut ea mensura ſemel ſumpta ſi æqualis erit, aut ſi
 minor fuerit pluribus uicibus repetita: eam magnitudi
-nem quam metitur, præcisè referat: id quod ex numeris
+nem quam metitur, præciſe referat:id quod ex numeris
 
 B
-
-13

@@ -10,11 +10,11 @@ largeur & profondeur : Mais
 les termes d’vn solide , sont
 superficies.
 2. Vne ligne droite est perpen-
-diculairement esleuée sur vn plan , quand tou-
-tes les lignes sur iceluy plan menées vers elle la
+diculairement esleuee sur vn plan , quand tou-
+tes les lignes sur iceluy plan menees vers elle la
 rencontrent en angles droits.
 3. Vn plan est esleué perpendiculairement
-sur vn plan, quand les lignes menées sur l’vn
+sur vn plan, quand les lignes menees sur l’vn
 d’iceux perpendiculairement à la ligne de com-
 mune section , sont aussi perpendiculaires à
 l’autre plan.

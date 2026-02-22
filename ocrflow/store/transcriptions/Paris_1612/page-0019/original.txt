@@ -1,8 +1,8 @@
-ELEMENTVM  DECIMVM.                                            7
+ELEMENTVM  DECIMVM.                                                                 7
 
 HÆC axiomata,vt ad numeros pertinent,oftenſa ſunt a nobis in vltimis tribus pronuncia-
 tis lib. 7. Quare cùm ſit eadem ratio in magnitudinibus,non eſt , quod fruſtra eorum demonſtra-
-tiones hîc repetamus,præſertim quod ad verbum huc poſſint transferri,mutata ſolùm voce, nu-
+tiones hîc repetamus,præſertim quod ad verbum huc poſſint tranſferri;mutata ſolùm voce, nu-
 meri, in vocem magnitudinis.
 
 Theor. I.     Propoſ.1.
@@ -12,37 +12,37 @@ ius quàm dimidium, & ab eo quod reliquum eſt, rurſus detrahatur maius quàm
 dimidium, & hoc ſemper fiat:Relinquetur tandem quædam magnitudo, quæ mi-
 nor erit propoſita minore magnitudine.
 
-c        d      f        i
-a        e  z   b
+c        d        f        i
+a        e   z    b
 
 EXPONANTVR duæ magnitudines a b, & c d, inæquales, quarum a b, maior:
 c d,verò minor. Dico ſi ex a b, auferatur maius quàm dimidium nempe a e, & ex reliquo
 adhuc maius quàm dimidium nempe e z, hocque ſemper fiat tandem relinqui quandam ma-
 gnitudinem,quæ minor eſt quàm c d.
-   Multiplicetur enim c d,toties donec magnitudo ex ea multiplicatione facta ſuperet magni-
+  Multiplicetur enim c d,toties donec magnitudo ex ea multiplicatione facta ſuperet magni-
 tudinem a b, ſitque magnitudo illa c i, quæ ideo multiplex eſt ipſius c d, proximè maior quàm
 a b.
-   Deinde diuidatur c i,in partes ipſi c d,æquales ſintque partes illæ c d,d f,f i, detrahatur-
-que ex a b,maius quàm dimidium a c, Atque ex reliqua e b, adhuc maius quàm dimidium
+  Deinde diuidatur c i,in partes ipſi c d,æquales ſintque partes illæ c d,d f,f i, detrahatur-
+que ex a b,maius quàm dimidium a e, Atque ex reliqua e b, adhuc maius quàm dimidium
 e z,illudque fiat donec partes lineæ a b,partibus c i,multitudine ſint æquales.
-   Quoniam igitur c i,maior eſt quàm a b, & ex c i,ablata eſt c d, minor quàm eius dimidium
-vel certè dimidium ſi c i,ipſi c d,dupla ſit.Ex a b,verò ablata eſt a c,maior quàm eius dimi-
-dium erit reliqua d i,reliqua e b,maior.    Nam cum c i,maior ſit quàm a b, ſi ex c i, dimi-
+  Quoniam igitur c i,maior eſt quàm a b, & ex c i,ablata eſt c d,minor quàm eius dimidium
+vel certè dimidium ſi c i,ipſi c d,a dupla ſit.Ex a b,verò ablata eſt a e,maior quàm eius dimi-
+dium erit reliqua d i,reliqua e b,maior. Nam cum c i,maior ſit quàm a b, ſi ex c i, dimi-
 dium eſſet ablatum, & ex a b,dimidium etiam auferetur, non eſſent reliquæ æquales, ſed vna
 maior alia exiſteret,nimirum reliqua ex c i, maior reliqua ex a b.
-   Auferens igitur ex c i,minus quàm dimidium vel certè dimidium, & ex a b,maius quàm
+  Auferens igitur ex c i,minus quàm dimidium vel certè dimidium, & ex a b,maius quàm
 dimidium erit reliquum ex c i,reliquo ex a b,maius.
-   Deinde quoniam d i,maior eſt quàm e b,ſitque ablata ex d i,dimidium ipſius d f,vel certè
+  Deinde quoniam d i,maior eſt quàm e b,ſique ablata ex d i,dimidium ipſius d f,vel certè
 minor dimidio ex e b,ablata ſit e z,dimidio maior, erit eodem modo reliqua f i, reliqua z b,
 maior:Sicque procedendo facile eſt demonſtrare vltimam partem ipſius c i,nempe f i,maiorem
 eſſe vltima parte ipſius a b,nempe z b.
-   Eſt autem f i,vltima pars rectæ c i,æqualis c d,Igitur recta c d,maior eſt,quàm z b,vltima
-pars ipſius a b.
-   Quare relicta eſt ea detractione reliqua z b,quæ minor eſt quàm c d,quod erat oſtenden-
+  Eſt autem f i,vltima pars rectæ c i,æqualis c d,Igitur recta c d,maior eſt,quàm z b,vlti-
+ma pars ipſius a b.
+  Quare relicta eſt ea detractione reliqua z b,quæ minor eſt quàm c d,quod erat oſtenden-
 dum.
 
 SCHOLIVM EX CLAVIO.
 
 LVCE clarius ex demonſtratione huius Theorematis apparet,duas quantitates inæquales propoſitas debere eſſe tales, vt mi-
-nor multiplicata,tandem maiorem poſſit ſuperare.Id quod ad propoſ.16.lib.3.monui,mecùm de angulo contactus contra Lac-
-tum Ptolemæum ageremus.
+nor multiplicata,tandem maiorem poſſit ſuperare:Id quod ad propoſ.16.lib.3.monendum,cùm de angulo contactus contra Lac-
+tum Ptolemæum agemus.

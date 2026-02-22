@@ -14,10 +14,10 @@ COMMENSURABLE are called
 the magnitudes, which by one and the same
 measure are measured.
 II.
+
 Incommensurable are called those
 magnitudes, of which there is found
 no common measure.
-
 III.
 
 Straight lines, in power are commensurable, when the
@@ -25,20 +25,19 @@ same area measures the squares made by them.
 
 THE COMMANDINO.
 
-Euclid has not defined straight lines commensurable in length separately, because
+Euclid has not defined straight lines commensurable in length separately, because-
 they are included in the first definition of commensurable magnitudes, since
-straight lines commensurable in length are those which by one and the same measure are
+straight lines commensurable in length are those, which by one and the same measure are
 measured.
+I.III.
 
-I.I I I.
 Straight lines in power are incommensurable, when for
 the squares made by them there is found no common area.
-
 V.
 
-With things standing in this way, it is shown that to any
-proposed straight line there are infinite lines both commensurable and in-
-commensurable, some in length and power, some in
-power only. and the proposed straight line is to be called rational.
+With things standing in this way, it is shown that to any pro-
+posed straight line there are infinite lines both commensurable, and in-
+commensurable, some in length and power, some in power
+only. And the proposed straight line is called rational.
 
-LL  Et
+LL  And

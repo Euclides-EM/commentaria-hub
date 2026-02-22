@@ -5,42 +5,43 @@ the three lines FH, EH, CH, will be continually pro-
 portional in the ratio of FE to EC, or BD to DG: & by
 22.p.6.& 10.p.10. as the square of BD is commensur. with the
 square of DC, (for those squares are commensur. since
-BD,DC are the names of the binome BC) so that the square of
-EH, will be commensur. with the square of CH: & by the corol. of the
-20.p.6.& 10.p.10. CH will be commens. in length with the third
-proportional FH; & by 16.p.10. CH & CF will be
+BD,DC are the terms of the binomial BC) so that the square of
+EH, will be commensur. with the square of CH: & by the corol. of
+20.p.6. & 10.p.10. CH will be commens. in length with the third
+proportional FH, & by 16.p.10. CH & CF will be
 commens. in length. And inasmuch as the rectangle DF is ra-
-tional (being equal to the square of the rational line A) & DC
-a rational line; CF will also be a rational line commensur. in
-length with CD, by 21.p.10. And CH will be a surd rational co-
-mmens. in length with CD, by 12.p.10.& by 10.p.10. as
-CD & DB are rational commens. in power only,
-so also CH, EH, will be rational commens. in power
+tional (being equal to the square of the rational line A) & DC,
+a rational line: CF will also be a rational line commensur. in
+length with CD, by 21.p.10. And CH will be a rational line co-
+mmens. in length with CD, by 12.p.10. & by 10.p.10. as
+CD & DB are rational lines commens. in power only,
+so also CH, EH, will be rational lines commens. in power
 only: & therefore by 74.p.10. CE will be a residual: of which
-the names EH, CH, are proportional, & commens. with the names
-BD,DC, of the binome BC: For it has been demonstrated that as
+the terms EH, CH, are proportional, & commens. with the terms
+BD,DC, of the binomial BC: For it has been shown that as
 BD is to DG, so EH to CH; & therefore by alternation as
 BD will be to EH; so DC to CH. But DC, CH have been
-demonstrated commens. in length by 10.p.10. BD, EH, will
+shown commens. in length by 10.p.10. BD, EH, will
 therefore also be commens. in length.
 
 It remains then to prove that the residual is of the same order as
-the binome: Now the names of the one being proportional, & co-
-mmensurable with the names of the other: by 15.p.10. as the greater
-name of the binome can exceed the smaller by the
-square of a line which will be commensurable with it, or incommens. in
-length: the greater name of the residual can exceed by the
-same: And if the greater name of the binome is commensurable
+the binomial: Now the terms of the one being proportional, & co-
+mmensurab. with the terms of the other: by 15.p.10. as the greater
+term of the binomial can exceed the lesser by the square
+of a line which will be commensurable with it, or incommens. in
+length: the greater term of the residual can exceed by the same.
+And if the greater term of the binomial is commensurable
 in length with the rational: so also will be the greater of the residual
-by 12.p.10.& they will be first binome, & first residual.
-And if the smaller name of the binome is commens. in length
-with the rational: so also will be the smaller of the residual; & they will be
-second binome & residual. And if neither the one nor the other name of the
-binome is commens. with the rational; likewise neither the one nor the
-other name of the residual will be commens. with the same rational:
-And they will be third binome, & third residual: & so of the others.
+by 12.p.10. & they will be first binomial, & first residual.
+If the lesser term of the binomial is commens. in length
+with the rational; so also will be the lesser of the residual; & they will be
+second binomial & residual. If neither the one nor the other term of the
+binomial is commens. with the rational; similarly neither the one nor the
+other term of the residual will be commens. with the same rational:
+And they will be third binomial, & third residual: & so of the others.
 
 SCHOLIUM.
 
-If the rational A is 8, the binome BC 9 + √ 45. such that BD is
-9, & CD √ 45: the square of A being applied on BC, the other side of
+If the rational A is 8, the binomial BC 9 + √45. such that BD is
+9, & CD √45: the square of A being applied on BC, the other side of
+[illegible]

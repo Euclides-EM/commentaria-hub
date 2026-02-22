@@ -1,25 +1,25 @@
 286  EVCLID. GEOM.
 
 OMNES plane ſuperficies quadrato Rationalis lineæ
-propoſitæ commenſurabiles, Rationales dicuntur; non quidem
-ex poſitione, vt illud, ſed quia cum eo collatæ reperiuntur ſi vel
-commenſurabiles, vel incommenſurabiles: quemadmodum
-etiam lineæ, quæ Rationali lineæ quomodocunque commenſu-
-rabiles ſunt, Rationales appellantur.
+propoſitæ commenſurabiles,Rationales dicuntur; non quidem
+ex poſitione, vt illud,ſed quia cum eo collatæ reperiuntur ſi vel
+commenſurabiles , vel incommeſurabiles : quemadmodum
+etiam lineæ , quæ Rationalilineæ quomodocunq; commenſu-
+rabiles ſunt , Rationales appellantur .
 
 QVONIAM vero lineæ potentes ipſa ſpatia commenſu-
 rabilia quadrato Rationalis lineæ propoſitæ, ſunt ſaltem pote-
-tia commenſurabiles lineæ Rationali; ex 3. deſin. perſpicuum
-eſt, ipſas quoque appellari iuxta deſin. 6. Rationales.
+tia commenſurabiles lineæ Rationali; ex 3.defin.perſpicuum
+eſt, ipſas quoque appellari iuxta defn. 6. Rationales.
 
 X.
 
-HVIC vero incommenſurabilia, Ir-
+HVIC vero incommeſurabilia, Ir-
 rationalia dicantur.
 
 NON aliter ſuperficies planæ quadrato à Rationali li-
-nea deſcripto incommenſurabiles, Irrationales vocantur, ac li-
-nea, quæ Rationali propoſitæ prorfus incommenſurabilis
+nea deſcripto incommeſurabiles, Irrationales vocantur, ac li-
+nea , quæ Rationali propoſitæ prorfus incommeſurabilis
 ſunt, Irrationales ſunt dictæ.
 
 XI.
@@ -27,15 +27,13 @@ XI.
 ET rectæ, quæ ipſa poſſunt, Irratio-
 nales: ſi quidem ea quadrata ſint, ipſa
 latera; ſi vero alia quæpiam rectilinea,
-rectæ, quæ ſpatiis incommenſurabilibus
+rectæ, quæ ſpatiis incommeſurabilibus
 æqualia quadrata deſcribunt.
-
-VOCAT lineas, quæ poſſunt ſpatia quadrato Rationalis
-lineæ incommenſurabilia, Irrationales; quemadmodum ſu-
-pra ſpatia dixit Irrationalia: Ita vt ſi incommenſurabilia ſpa-
+VOCAT lineas,quæ poſſunt ſpatia quadrato Rationalis
+lineæ incommeſurabilia,Irrationales; quemadmodum ŏ ip-
+ſa ſpatia dixit Irrationalia: Ita vt ſi incommeſurabilia ſpa-
 tia fuerint quidè quadrata, latera ipſorum dicantur Irratio-
 nalia; ſi vero non fuerint quadrata, ſed aliæ quæcunque figu-
-ræ rectilineæ, appellentur rectæ, quæ deſcribunt quadrata
-æqualia illis ſpatys incommenſurabilibus, Irrationales.
-
-COl.
+ræ rectilineæ , appellentur rectæ , quæ deſcribunt quadrata
+æqualia illis ſpatys incommeſurabilibus, Irrationales.
+COſ.

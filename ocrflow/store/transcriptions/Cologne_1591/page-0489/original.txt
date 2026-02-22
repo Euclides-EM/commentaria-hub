@@ -1,72 +1,72 @@
-160
+100
 
 E V C L I D I S  S T O I C H E I O M E T R I Æ
-I I.
+II.
 
 INCOMMENSVRABILES autem, quarum nullam communem mensuram
 contingit reperiri.
 
 TALES magnitudines sunt, diametri quadrati cuiufuis, & latus eiusdem; quæ
-firnam communem, vt proportionem vltimam huius libri demonstrabitur ab Euclide. Sunt enim
-lineæ incommensurabiles, quibus scilicet mensura aliqua communis dari non potest, quarum multa
-hoc libro Geometra explicat. Sic & quantæ lineæ incommensurabiles, & superficies dicentur incom-
-mensurabiles, & solida incommensurabilia, quæ nullam admittunt mensuram communem.
+ftram communem, vt proportione vtimur, his libri demonstrabitur ab Euclide. Sunt enim
+lineæ incommensurabiles, quibus fcilicet mensura aliqua communis dari non poteft, quarum multa
+hoc libro Geometra explicat. Sic & quadrata lineæ incommenfura-
+biles, & folida incommenfurabilia, quæ nullam admittunt mensuram communem.
+
+I I.
+
+RECTAE lineæ potentia commenfurabiles funt, cùm quadrata earum idem
+fpatiũ metitur.
+
+LINEARVM rectarum quædam commenfurabiles funt longitudine, quas nimirum alia linea, tanquam
+mensura communis, metitur; cuiufmodi funt illæ, quas in expofitione def.1. commenfurabiles fimpliciter
+diximus: quædam verò longitudine incommenfurabiles, quas fcilicet nulla linea, tanquam mensura com-
+munis, metitur. Rurfus linearum, quæ funt incommenfurabiles longitudine, aliæ funt eiufmodi, vt earum qua-
+drata fint commenfurabilia; aliæ verò ita fe habent, vt & quadrata earum incommenfurabilia etiam fint. Lineæ
+ergo illæ longitudine incommenfurabiles, quarum quadrata funt commenfurabilia, fpeciali funt nomine ab Eu-
+clide potentia commenfurabiles; quia videlicet fecundùm earum potentias; hoc eft, fecundùm earum qua-
+drata (eft enim, vt ad propof. 7. lib. I. diximus, potentia cuiufque lineæ, quadratum ab ea defcriptum) com-
+menfurabiles funt, licet ipfæ (quæ funt longitudine) fint prorfus incommenfurabiles.
+
+QVO D fi quis roget, cur Euclides definierit, fore fcilicet lineas potentia commenfurabiles, non autem com-
+menfurabiles longitudine, refpondendum eft, lineas longitudine commenfurabiles fatis fuperiùs, effe explicatas
+in definitione commenfurabilium magnitudinum, cùm huiufmodi lineæ vna & communis mensura meti-
+tur, vt dictum eft. At verò quoniam lineas potentia commenfurabiles nulla communis mensura metiri po-
+teft, fed tantummodo earum quadrata idem fpacium metitur, ideò neceffarium omnino fuit, vt ea propria
+definitione explicarentur.
 
 I I I.
 
-RECTAE lineæ potentia commensurabiles sunt, cùm quadrata earum idem
-spatium metitur.
+INCOMMENSVRABILES autem, cùm quadratis earum nullum fpacium,
+quod fit communis eorum menfura, contingit reperiri.
 
-LINEARVM rectarum quædam commensurabiles sunt longitudine, quas nimirùm alia linea, tanquam
-mensura communis, metitur; cuiusmodi sunt illæ, quas in expositione defin. commensurabiles simpliciter
-diximus: quædam verò longitudine incommensurabiles, quas scilicet nulla linea, tanquam mensura com-
-munis, metitur. Rursùs linearum, quæ sunt incommensurabiles longitudine, aliæ sunt eiusmodi, vt earum qua-
-drata sint commensurabilia; aliæ verò ita se habent, vt & quadrata earum incommensurabilia sint. Lineæ
-ergo illæ longitudine incommensurabiles, quarum quadrata sunt commensurabilia, appellabuntur ab Eu-
-clide potentia commensurabiles; quia videlicet secundùm earum potentias; hoc est, secundùm earum qua-
-drata (est enim, vt ad propof. 7. lib. I. diximus, potentia cuiusque lineæ, quadratum ab ea descriptum) com-
-mensurabiles sunt, licet ipsæ (quæ sunt longitudine) sint propterea incommensurabiles.
+LINEAS reliquas longitudine incommenfurabiles, quarum etiam quadrata incommenfurabilia funt,
+vocat incommenfurabiles potentia.
 
-QVO D si quis roget, cur Euclides definierit, fore, lineas potentia commensurabiles, non autem com-
-mensurabiles longitudine, respondendum est, lineas longitudine commensurabiles satis superiùs, esse explicatas
-in definitione commensurabilium magnitudinum, cùm huiusmodi lineæ vna & communis mensura meti-
-tur, vt dictum est. At verò quoniam lineas potentia commensurabiles nulla communis mensura metiri po-
-test, sed tantummodo earum quadrata idem spatium metiri, ideò necessarium omnino fuit, vt ea propria
-definitione explicarentur.
-
-I I I I.
-
-INCOMMENSVRABILES autem, cùm quadratis earum nullum spatium,
-quod sit communis eorum mensura, contingit reperiri.
-
-LINEAS reliquas longitudine incommensurabiles, quarum etiam quadrata incommensurabilia sunt,
-vocat incommensurabiles potentia.
-
-HABENT autem lineæ commensurabiles tam longitudine, quàm potentia, hæc quasi connexionem inter
-se, & connexionem, vt lineæ longitudine commensurabiles, sint etiam commensurabiles potentia; ita ut nul-
-læ lineæ dari possint commensurabiles longitudine, quin earum quadrata commensurabilia quoque sint; quo-
-niam quadrata ex commensurabilibus mensuris descriptam metitur tanquam mensura communis earum quadrata; vnde hæc forma
-apparet: sit intermedia A B, metiatur rectas
+HABENT autem lineæ commenfurabiles tam longitudine, quàm potentia, hāc quæft commenfurationem
+fe, & connexionem, vt lineæ longitudine commenfurabiles, fint etiam commenfurabiles potentia; ita vt mul-
+tæ lineæ dari poffint commenfurabiles longitudine, quin earum quadrata commenfurabilia quoque fint; quo-
+niam quadrata ex commenfuratione earum menfuram defcriptam metitur tanquam menfura communis
+metitur earum quadrata; vnde hæc forma apparet: ftrata intermedia A B, metitur reliqua
 C D, E F, ita quoque quadratum A G, quadratum
-C H, E I, metiatur: Non autem, vt multæ lineæ
-potentia commensurabiles, sint etiam commen-
-surabiles longitudine; multæ enim lineæ
-sunt potentia commensurabiles, hoc est, qua-
-drata habent commensurabilia, tamen
-longitudine omnino incommensurabiles sunt,
-vt in hoc libro demonstrabitur. Rursùs inter lineas incommensurabiles tam longitudine quàm potentia, hæc
-insuper colligatio reperitur, vt omnes lineæ potentia incommensurabiles, sint etiam incommensurabiles lon-
-gitudine; Non autem contrà, vt omnes lineæ longitudine incommensurabiles, sint quoque necessarò, inæqua-
-les potentia, cùm multæ lineæ reperiantur longitudine inter se incommensurabiles, cùm tamen potentia, hoc
-est, secundùm earum quadrata, commensurabiles existant. Quæ quidem omnia perspicua erunt ex corolla-
+C H, E I, metitur: Non itaque, vt multæ lineæ
+potentia commenfurabiles, fint etiam commen-
+furabiles longitudine; nam multæ lineæ
+funt potentia commenfurabiles, hoc eft, qua-
+drata habent commenfurabilia, quarum tamen
+longitudines omnino incommenfurabiles funt,
+vt in hoc libro demonftrabitur. Rurfus inter lineas incommenfurabiles tam longitudine quàm potentia, hæc
+infignis colligatio reperitur, vt omnes lineæ potentia incommenfurabiles fint etiam incommenfurabiles lon-
+gitudine; Non autem contrà, vt omnes lineæ longitudine incommenfurabiles, fint quoque neceffario, in-
+commenfurabiles potentia, cùm multæ lineæ reperiantur longitudine inter fe incommenfurabiles, cùm tamen potentia, hoc
+eft, fecundùm earum quadrata, commenfurabiles exiftant. Quæ quidem omnia perfpicua erunt ex corolla-
 rio propof. 9. huius libri.
 
 V.
 
-HIS positis, ostenditur, cuicunque rectæ propositæ rectas lineas multitudine in-
-finitas & commensurabiles esse, & incommensurabiles: alias quidé longitudine, &
-potentia; alias verò potêtia solùm. Vocetur autè proposita recta linea, rationalis
+HIS pofitis, oftenditur, cuicunque rectæ propofitæ rectas lineas multitudine in-
+finitas & commenfurabiles effe, & incommenfurabiles: alias quidé longitudine, &
+potentia; alias verò potentia folùm. Vocetur autè propofita recta linea, rationalis
 
-SI proponatur aliqua recta linea nota magnitudinis, erunt omnino aliæ, quæ quàm ipsa comparantur
-quædam illi commensurabiles longitudine ac potentia, quædam verò potentia tantùm; item quædam illi in-
-[uncertain: commensu]-
+SI proponatur aliqua recta linea nota magnitudinis, erunt omnino aliæ, quæ quàm illa comparantur
+quædam illi commenfurabiles longitudine ac potentia, quædam verò potentia tantùm; item quædam illi in-
+[uncertain: bominifc-]

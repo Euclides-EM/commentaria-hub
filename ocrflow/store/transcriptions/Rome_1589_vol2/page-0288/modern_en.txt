@@ -1,36 +1,36 @@
 ❦  B O O K  X.  ❦  285
 
-[uncertain: the same] incommensurable. Therefore not a few Arithmeticians
-are deceived, who for that reason call it Irrational, because it
-cannot be expressed by number.
+[uncertain: id]em incommensurable. Therefore the arithmeticians are deceived, not
+[uncertain: p]aſsi, who for that reason call it Irrational, because it cannot
+be expressed by number.
 
 V I I.
 
-But let those which are incommensurable with this be
-called Irrational.
+But let those incommensurable with this be called
+irrational.
 
 SINCE in the preceding definition Euclid called those lines
-which are commensurable in length and in power, or which are
-commensurable in power only, with the proposed Rational straight
-line, Rational; it is clear that here he calls Irrational those which
-are incommensurable with the proposed Rational straight line in
-every way, namely in length and in power, but not in length only.
+which are commensurable with the proposed Rational straight line
+in length and power, or in power only, “Rational”;
+it is clear that here he calls “Irrational” those which are
+incommensurable with the proposed Rational straight line in every
+way, namely in length and in power, but not in length only.
 From which it is also evident that the square root of this number
-20. or 1000. &c. or (which is the same) the line whose square is
-20. or 1000. &c. cannot be called Irrational, since it is not
-incommensurable in length and in power, but in length only, with
-the proposed Rational line.
+20, or 1000, etc., or (which is the same) the line whose square is
+20, or 1000, etc., cannot be called Irrational, since it is not
+incommensurable in length and power, but in length only, with the
+proposed Rational line.
 
 V I I I.
 
-And let the square which is made from the proposed
-straight line be called Rational.
+And the square which is made from the proposed
+straight line shall be called Rational.
 
-Just as that line which is set down as determinate and known
-is called Rational: so also the square described on it is called
-Rational; because it too is determinate and known, and in
-comparison with it other surfaces are said to be commensurable
-or incommensurable.
+Just as those lines which are set down as definite and known
+are called Rational: so also the square described on it is called
+Rational; because it too is definite and known, and in comparison
+with it other surfaces are said to be commensurable or
+incommensurable.
 
 I X.
 

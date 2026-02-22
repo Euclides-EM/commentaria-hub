@@ -23,26 +23,26 @@ Incommenſurabilia vero, irrationalia dicantur.
 
 X I.
 
-Et rectæ lineę, quæ incommenſurabilia poſſunt, vocentur irra-
+Et rectæ lineæ, quæ incommenſurabilia poſſunt, vocentur irra-
 tionales : ſi quidem ea quadrata ſint, ipſorum latera ; ſi vero alia,
 quæpiam rectilinea, quę ipſis æqualia quadrata deſcribunt.
 
 I. C.  C O M M E N T A R I V S.
 
-Sunt etiam quędam communes notiones, quibus Euclides in hoc libro utitur, nempe hę.
+Sunt etiam quædam communes notiones, quibus Euclides in hoc libro utitur, nempe hæ.
 
 C O M M V N E S  N O T I O N E S.
 
 1 Qualibet magnitudo multiplicata poteſt omnem propoſitam magni-
-tudinem eiusſam generis ſuperare.
+tudinem eiusſdam generis ſuperare.
 
-2 Quęcumque magnitudo metitur aliquam, metitur quoque eam, quă
+2 Quæcumque magnitudo metitur aliquam, metitur quoque eam, quâ
 illa ipſa metitur.
 
-3 Quęcumque magnitudo metitur totam, & ablatam; etiam reliquam
+3 Quæcumque magnitudo metitur totam, & ablatam; etiam reliquam
 metietur.
 
-4 Quęcumque magnitudo metitur duas, vel plures magnitudines, me-
+4 Quæcumque magnitudo metitur duas, vel plures magnitudines, me-
 titur quoque eam, quę ex ipſis componitur.
 
 THEOREMA. I.  PROPOSITIO. I.
@@ -50,7 +50,7 @@ THEOREMA. I.  PROPOSITIO. I.
 Duabus magnitudinibus inæqualibus expoſitis, ſi à maiori au
 feratur maius, quàm dimidium; & ab eo , quod reliquum eſt rur-
 ſus auferatur maius , quàm dimidium; & hoc ſemper fiat : relin-
-quetur tandem quędam magnitudo , quæ minori magnitudine
+quetur tandem quædam magnitudo , quæ minori magnitudine
 expoſita minor erit.
 
 Sint

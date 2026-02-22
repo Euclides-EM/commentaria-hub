@@ -5,7 +5,7 @@ DI EVCLIDE
 LIBRO DECIMO
 CON LI SCHOLII ANTICHI,
 ET COMMENTARII
-Di Federico Commandino da Vrbino.
+Di FedericoCommandino daVrbino.
 
 DIFFINITIONI.
 I.
@@ -14,31 +14,30 @@ OMMENSVRABILI ſi chiama-
 no le grandezze, le quali da vna mede
 ſima miſura ſono miſurate.
 II.
-Incommenſurabili ſi chiamano quel
-le grandezze, delle quali non ſi troua
-alcuna miſura commune.
 
+Incommenſurabili ſi chiamano quel
+le grandezze , delle quali non ſi troua
+alcuna miſura commune.
 III.
 
-Le linee rette, in potenza ſono commenſurabili, quando il
+Le linee rette , in potenza ſono commenſurabili , quando il
 medeſimo ſpatio miſura i quadrati fatti da loro.
 
 IL COMM’ANDINO.
 
-Euclide non ha diffinito le linee rette commenſurabili in lunghezza ſeparatamente, percio-
-che, ſe comprendono nella prima diffinitione delle grandezze commenſurabili, conioià che
-le linee rette commenſurabili in lunghezza ſiano quelle, le quali da vna medeſima miſura ſono
+Euclide non ha diffinito le linee rette commenſurabili in lunghezza ſeparatamente , percio-
+che ſi comprendono nella prima diffinitione delle grandezze commenſurabili, conioiache
+le linee rette commenſurabili in lunghezza ſiano quelle , le quali da vna medeſima miſura ſono
 miſurate.
+I.III.
 
-I.I I I.
-Le linee rette in potenza ſono incommenſurabili, quando al
+Le linee rette in potenza ſono incommenſurabili , quando al
 li quadrati fatti da quelle non ſi troua alcun ſpatio commune.
-
 V.
 
 Stando le coſe in queſto modo, ſi dimoſtra che à qualunque ret
-ta linea propoſta ſono infinite linee & commenſurabili, & in-
-commenſurabili, alcune in lunghezza & potenza, alcune in po-
-tenza ſolaméte. & la retta linea propoſta ſia chiamata rationale.
+ta linea propoſta ſono infinite linee & commenſurabili ,& in-
+commenſurabili,alcune in lunghezza & potenza , alcune in po-
+tenza ſolaméte.& la retta linea propoſta ſia chiamata rationale.
 
 LL  Et

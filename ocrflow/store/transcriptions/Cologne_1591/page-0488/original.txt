@@ -3,7 +3,7 @@ LIBER DECIMVS.                                                                 9
 EVCLIDIS
 
 ELEMENTVM
-DECIMVM.
+DECIMVM
 
 DEFINITIONES.
 I.
@@ -11,48 +11,48 @@ I.
 COMMENSVRABILES magnitudines dicuntur, quas eadem
 mensura metitur.
 
-ABSOLVIT Euclides in antecedentibus novem libris 4. genera numerorum speculationem
-tum satis fusam est ad res Geometricas intelligendas. Nunc in hoc decimo libro aggre-
+ABSOLVIT Euclides in antecedentibus novem libris ὅσα ad numeros & rationes, quan-
+tum satis fuit, & ad res Geometricas intelligendas. Nunc in hoc decimo libro aggre-
 ditur ad disputationem linearum commensurabilium, & incommensurabilium, qua-
-rum causa numerorum tractationem ab eo susceptam esse superioribus diximus. Nam sine
+rum causa numerorum tractationem ab eo susceptam esse superius diximus. Nam sine
 cognitione harum linearum complures magnitudines cum solidae tum planae, ne{que} per-
-fecte intelligi possunt, ne{que} cum res clari, in opus 43. Vsum conferri; propterea quod
-plerae{que} latera earum incommensurabilia sunt. Id quod & de planis ipsis ita solida
-dici potest, quippe cùm & hae incommensurabilia saepe numero existant, vt ad finem huius libri demonftra-
-bimus. Quoniam verò hic liber multum obscurus est difficultatibus, ob linearum, de quibus disserit, obscuri-
-tatem; omnes nervos industriæ mea in eo contendam, vt ex his, quae ab Euclide sunt demonstrata,
-ita planus reddatur, ac facilis, vt sine mole labore, a quouis, qui praecedentium tantum librorum demonstra-
-tiones rectè intellexerit, possit percipi. Neque enim in eorum posfum sententiam ire, qui putant ad eius in-
-telligentiam esse necessariam eam partem Arithmetices, quae de radicibus numerorum, tum rationalibus
-tum irrationalibus, vt vocant, sermonem instituit: Imò contra persuasum mihi por{f} habeo, cogni-
-tionem perfectam illius partis Arithmetices pendere ex hoc 10. lib. tantum abest, vt existimem, tractationem
-illam radicum requiri, vt facilis hic liber intelligatur. Nonnegarim tamen, eum, qui rationem radicum,
-ac calculum teneat, maiore cum voluptate hunc librum percepturum, quam qui illarum omnino sit
-ignarus; propter quod ille demonstrationes ad vsum potest reuocare, hic verò nullo modo. Hæc enim de cau-
-sa 6. nos prima decem theoremat a secundi lib. numeris accommodauimus, vt oblectationem animi maio-
-rem ex eo studio sumeret, ac si fuisset; non autem vt ea, quae in illo demonstrantur, facilius aliarum
-intelligentia posset acquirere. Cur ergo (dicet aliquis) vt in eo libro, non perinde etiam in hoc exempla numer-
-orum, quibus Algebra vtimur, vsurpasti, ea res & maiori voluptati esset, & commodo legentibus? Is prompta
-causa est, quare id omittendum putauerim. Cùm enim perpauci sint hoc tempore, quibus celebris sit
-Algebrae ars, & qui in ea versati sint, si adhiberentur, teneras potius offuscarent, quam illustraret
-mentes; multo magis daturi, & suspiciones; quippe ita, ingenia studiosorum pro adiuuamento, ac luce, quam his nostris
-commentariis afferre laboramus, plus asperi, quam commodi, in demonstrationibus ipsis perciperent. Id
-quod in lib. 4. euidenter potuimus, quum additionem numerorum integrorum, ac multiplicationem, qua sola
-nostra fere his fuisset, nemo ferè satis ignoraret. Huc accedit, quod qui in Algebra sunt versati, facili negotio
-demonstrationes huius lib. ad numeros accommodare possunt per se ipsos, quando volunt. Præterea cum iam
+fecte intelligi possunt, ne{que} cum res clariori, in opus 43. Vsum conferri; propterea quod
+plerae{que} latera earum incommensurabilia sunt. Id quod & de planis ipsis ita solidis
+dici potest, quippe cùm & hae incommensurabilia latera plerunque existant, vt ad finem huius libri monstrabi-
+mus. Quoniam verò hic liber multum obscurus est & difficilis, ob linearum, de quibus disserit, obscuri-
+tatem; omnes neruos industriae mea in eo contendam, vt ex his, quae hactenus ab Euclide sunt demonstrata,
+ita planus reddatur, ac facilis, vt sine multo labore, & quaesi, qui praecedentium tantum librorum demonstra-
+tiones recte intellexerit, possit percipi. Neque enim in eorum possum sententiam ire, qui putant ad eius in-
+telligentiam esse necessariam eam partem Arithmetices, quae de radicibus numerorum, tam rationalibus
+quam irrationalibus, vt vocant, sermonem instituit: Immo contra persuasum mihi por{ro} habeo, cogni-
+tionem perfectam illius partis Arithmetices pendere ex hoc 10. lib. tantum abest, vt exigam, vt ad cognitionem
+illam radicum requiri, vt facilius hic liber intelligatur. Non negarem tamen, eum, qui rationem radicum,
+& calculum teneat, maiore cum voluptate hunc librum percepturum, quam qui illarum omnino sit
+ignarus; propterea quod ille demonstrationes ad vsum potest reuocare, hic verò nullo modo. Hac enim de causa
+& nos prima decem theoremat a secundi lib. numeris accommodauimus, vt oblectationem animi maior-
+em ex eo studio sumeret, ac si (quod) nos autem vt ea, quae in illo demonstrantur, facilius arbitraremur
+intelligi posse a tyronibus. Cur ergo (dicet aliquis) vt in eo libro, non perinde etiam in hoc exempla numer-
+orum, quibus Algebra vtimur, vsurpassis, ea res & maiori voluptati esset, & commodi legentibus? Id prompta
+causa est, quare id omittendum putauimus. Cùm enim per paucis sint hoc tempore, quibus celebris illa
+Algebrae ars sit, & qui in ea versati sint, si adhiberentur, teneras potius offuscarent, quam illis aliqua
+maioris daretur, & perspicuitatis; quippe ita ingenia studiosorum pro adiuuamento, ac luce, quam his nostris
+commentariis afferre laboramus, plus asperi, quam commodi, & demonstrationes ipsas obscurarent: Id
+quod in lib. 2. accidisse non potuit, quoniam additionem numerorum integrorum, ac multiplicationem, qua sola
+nostra fere his fere vtimur, nemo fere, nisi sit ignarus. Huc accedit, quod qui in Algebra sunt versati, facili negotio
+demonstrationes huius lib. ad numeros accommodare possunt per se ipsos, quando volunt. Praeterea cum iam
 hoc ipsum non multò ante à Michaele Stifelio nobili Arithmetico in 2. lib. operis, quod de Arithmetica inte-
-gra inscripsit, diligenter esse factum, & editum, &c.
+gri inscripsit, diligenter esse factum, & editum, &c.
 
-Atque vt ad institutum redeamus, inchoans rem ipsam Euclides, more suo ab expli-
-cationibus vocabulorum, quibus vtendum erit; declarat primo loco, quænam magnitudines
-dicantur commensurabiles, definiens eas esse, quas eadem mensura metitur. Vt duæ magni-
-tudines A, B, quas eadem mensura C metitur, (metitur enim C ipsam A, quater repetita, &c
-ter, si opus, ipsam B,) dicuntur commensurabiles. Eodem modo commensurabiles sunt,
+Atque vt ad institutum redeamus, inchoans rem ipsam Euclides, more suo, ab expli-
+cationibus vocabulorum, quibus vtendum erit; declarat primo loco, quonam magnitudines
+dicantur commensurabiles, definiens eas esse, quas eadem mensura metitur. Vt dua magn-
+itudines A, B, quas eadem mensura C metitur, (metitur enim C ipsam A, quater repetita, &c
+ter, siue ipsa ipsam B,) dicuntur commensurabiles. Eodem modo commensurabiles sunt,
 linea 20. palmorum, & linea 13. palmorum; quia eas linea tantum vnius palmi, quam dimidia-
 ti palmi, quam tertia partis vnius palmi, &c. metitur. Similiter commensurabiles dicuntur
-superficies, quæ eadem mensura superficiei metiuntur, item corpora, solidæ commensurabilia,
-quæ metiuntur idem corpus, seu solidum.
+superficies, quae vna, & eadem mensura metiuntur. Item corpora, solida{que} commensurabilia,
+quae metiuntur idem corpus, seu solidum.
 
 A   B   C
 
-I 2
+1 2

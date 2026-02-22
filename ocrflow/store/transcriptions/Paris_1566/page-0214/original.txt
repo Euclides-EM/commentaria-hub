@@ -1,53 +1,51 @@
 ❧ EVCLIDIS DEMONSTRATIO-
-num reftitutuarum Liber decimus.
+num reftitutatarum Liber decimus.
 
 Diffinitio prima.
 
-Ommenfurabiles magnitudines dicuntur quas eadem men-
+OMmenfurabiles magnitudines dicuntur quas eadem men-
 fura metitur.
 
 Prioribus libris præmifit Euclides maxime tribus poftremis neceffaria ad
 quantitatis intelligentiam,per vnius ad alteram relationis operationem,vt co-
-gnita vnius magnitudinis quantitate, eius opera ſine auxilio alterius propoſitæ
-magnitudinis quantitatem oſque adeo præciſe ſiue exacte nouerimus, quod
+gnita vnius magnitudinis quantitate, eius opera fine auxilio alterius propofitæ
+magnitudinis quantitatem vfque adeo præcifè fiue exactè nouerimus, quod
 nihil amplius ad earum quantitatum intelligentiam requiratur. Quod autem hoc decimo proponet
-Euclides, aliud exſpectat negotium. Nam his cognitis quantitatibus per earum naturam intelligen-
-tiam,ſimular numerorum obſequio, incertarum magnitudinumquantitates generare docebit.Et li-
-cet quo diſferant,à cognitis ille incertè reticere cogatur (ob occultatam nobis naturæ cognitionem)
-tamen proporſtalarum ſiue cognitarum legibus, quid inter ſe ille incognitæ aut incertæ habeant affi-
+Euclides, aliud exfpectat negotium. Nam his cognitis quantitatibus per earum naturam intelligen-
+tiam,fimular numerorum obfequio,incertarum magnitudinumquantitates generare docebit.Et li-
+cet quo differant,à cognitis ille incertè reticere cogatur (ob occultatam nobis à natura cognitionem)
+tamen propofitarum fiue cognitarum legibus, quid inter fe ille incognitæ aut incertæ habeant affi-
 nitatis proferre facile poterit.Inchoans Euclides itaque à præcipuo quantitatum notarum vinculo,
-eo ſolo ſcilicet quo vnius magnitudinis ad alteram habitud (quæ ratio dicitur) ſit. Commenſurabi-
-les capi dicere magnitudines eas quas eadem magnitudo (quam communem vocant menſuram) ita
-præciſe conſtituit, vt alteram earum per quafdam vnitaies repetitam. Reliquam verò per quotuis
-ex eifdem vnitatibus repetitam,præciſe conſtituat, ille commenſurabiles,ſiue communes menſu-
-ram habentes,dici poterunt.Hoc autem dixit vt quàm diſferant ab his quas eadem vnitas quibufuis
-repetitionibus complere vtrafque non poteſt (quæ proxima diffinitio patefent)edoceat.
+eo folo fcilicet quo vnius magnitudinis ad alteram habemus (quæ ratio dicitur) . Commenfurabi-
+les caput dicere magnitudines eas quas eadem magnitudo (quam communem vocant menfuram) ita
+præcifè conftituit, vt alteram earum per quafdam vnitaties repetitam. Reliquam verò per quotuis
+ex eifdem vnitatibus repetitam,præcifè conftituat, ille commenfurabiles,fiue communem menfu-
+ram habentes,dicere potuerunt.Hoc autem dixit vt quàm differant ab his quas eadem vnitas quibusfuis
+repetitionibus complere vtrafque non poteft (quæ proxima diffinitione patefent)edoceat.
 
-Diffinitio ſecunda.
+Diffinitio fecunda.
 
-Incommenſurabiles autem, quæ ſub nullius communis menſuræ di-
-menſionem cadunt.
+Incommenfurabiles autem, quæ fub nullius communis menfuræ di-
+menfionem cadunt.
 
-Incommenſurabiles oppoſita priori denominatione vocat eas magnitudines,quæ nullam patiun-
-tur communem menſuram, eas compleere. Sed quælibet magnitudo ad alteram earum ſiue repetitioni-
-bus componens,ab alterius dimenſione excludetur : nam ſi repetitionibus reliquam aut excedet,
-aut quidem ab ea deficiet,ea nimirum quantitatis parte,quæ nullo numero (priorem exprimentè)
-denominari poterit. Priorem autem exprimentè ideo dicimus,quòd priores quas commenſurabiles
-diffinimus,ab æqualium vnitatum numeris componantur,diuerſis aut æqualibus earum vnita-
-tum repetitionibus. Hæ verò incommenſurabiles ex diuerſarum à primis vnitatum quantitatibus
-compoſitæ,nullam patiuntur inter ſe communem menſuram,eò quòd inter eas ſit diuerſum menſuræ
-genus ſub eodem tamen genere quantitatis concluſum, non autem ſub eodem menſuræ genere. Quæ
-igitur diuerſum genus habent menſuræ, incommenſurabiles erunt,ſicut idem menſuræ genus ha-
-bentes,commenſurabiles dicimus. Sed animaduertendum eſt, vnicum illud genus menſuræ inter
-omnia ſolum commenſurabile dici non poſſe. Cùm autem quælibet alia menſurarum genera (pro ſe
-quodque) commenſurabiles metiantur magnitudines. Quodlibet primum aſſumptum,eorum gene-
-ram pro commenſurabili eſſe ſumi poterit,vt quauis aliorum generum menſuræ magnitudines,
-ad bas comparatæ merito,incommenſurabiles dici debeant. Et proinde commenſuratione idem
-menſuræ genus ſequi,ac veluti diuerſa menſuræ genera ſequi incommenſurationem fatebimur, vn-
-de etenim oriatur hæc diuerſitas licet alteri noſtra ſententia optet indaginem. Tamen vt paucis
-quæ ad producant exponamus, Numeros quantitatem non eſſe memorari nos oportet, in numeris di-
-xiſſe,ſed mentiùm quantitatibus adaptabiles. Cùm igitur alicui quantitati adaptatur numerus, hæc,
-quantitas in tot partes æquales ſecatur,quot ſunt in adaptato numero vnitaies. omnes etenim nume-
-ri vnitaies, æquales ſunt.Si igitur huic quantitati alia comparatur quantitas quàm præcis vnita-
-tes (quauis arte ſumptæ) nuſquam reſultuant,ſed ad eam exprimendam vnitas ſecari cogatur, con
+Incommenfurabiles oppofita priori denominatione vocat eas magnitudines,quæ nullam patiuntur communem menfuram, eas comple-
+re. Sed quælibet magnitudo ad alteram earum fiue repetitionibus componens,ab alterius dimenfione excludetur : nam fuis repetitionibus reliquam aut excedet,
+aut quidem ab ea deficiet,ea nimirum quantitatis parte,quæ nullo numero (priorem exprimentè) denominari poterit. Priorem autem exprimentè ideo dicimus,quòd priores quas commenfurabiles
+diffinivimus,ab æqualium vnitatum numeris componantur,diuerfis aut æqualibus earum vnita-
+tum repetitionibus.Hæ verò incommenfurabiles ex diuerfarum à primis vnitatum quantitatibus
+compoftæ,nullam patiuntur inter fe communem menfuram,eò quòd inter eas fit diuerfum menfu-
+ræ genus fub eodem tamen genere quantitatis conclufum,non autem fub eodem menfuræ genere. Quæ
+igitur diuerfum genus habent menfuræ, incommenfurabiles erunt,ficuti idem menfuræ genus ha-
+bentes,commenfurabiles dicimus. Sed animaduertendum eft, vnicum illud genus menfuræ inter
+omnia folum commenfurabile dici non pofle. Cùm autem quælibet alia menfura genera (pro fe
+quoq; ) commenfurabiles metiantur magnitudines. Quodlibet primum affumptum,eorum gene-
+ram pro commenfurabili ea ratione fumi poterit,vt quæuis aliorum generum menfuræ magnitudines,
+ad has,comparatæ merito,incommenfurabiles dici debeant. Et proinde commenfuratione idem
+menfuræ genus fequi,ac veluti diuerfa menfuræ genera fequi incommenfurationem fatebimur, vn-
+de etenim oritur hæc diuerfitas licet alteriorem noftra fententia optet indaginem. Tamen vt paucis
+quæ ad producant exponamus, Numeros quantitatem non effe memorari nos oportet,in numeris di-
+uifæ,fed menti quantitatibus adaptabiles. Cùm igitur alicui quantitati adaptatur numerus, hæc,
+quantitas in tot partes æquales fe&atur,quot funt in adaptato numero vnitaties. omnes etenim nume-
+ri vnitatates, æquales funt.Si igitur huic quantitati comparatur quantitas quàm præcis vnita-
+tes (quauis arte fumptæ) nuifquam refultant,fed ad eam exprimendam vnitas fcarcificatur, con
 Ia

@@ -1,33 +1,33 @@
-ELEMENT.
+ELEMENT.                                                489
 
-rectangle CE fera 16—V 142 2/9 qui eſt reſidu: & puis que comme DC
-eſt à CB, ainſi CE à CF, icelle CF ſera V 71 1/3; & EF V 460 4/9—16.
-Mais EG eſtant egale à CE, eſt 16—V 142 2/9; GF V 111 5/9—32: & 
-d’autant que comme FG eſt à GE, ainſi EC à CH; icelle ſera V 148 8/9,
+rectangle CE fera 16—V142 2/9 qui eſt reſidu: & puis que comme DC
+eſt à CB, ainſi CE à CF, icelle CF ſera √91 1/3; & EF √460 4/9—16.
+Mais EG eſtant egale à CE, eſt 16—V142 2/9; GF √111 5/9—32: & 
+d’autant que comme FG eſt à GE, ainſi EC à CH; icelle ſera √148 5/9,
 & EH 16. Ainſi eſt manifeſte que CE eſt reſidu de meſme ordre que
 le binome BC, & que les noms EH, CH, ſont proportionaux aux
 noms BD,CD.
 
-THEOR.  90.  PROP. CXIII.
+THEOR.  90.  PROP. CXIIII.
 
 Le quarré d’vne ligne rationele, eſtant appli-
 qué ſur vn reſidu, faict l’autre coſté binome,
 les noms duquel ſont proportionaux, & com-
-menſ. aux noms du reſidu : En outre le bino-
+menſ. aux noms du reſidu: En outre le bino-
 me eſt de meſme ordre que le reſidu.
 
-ſoit la rationele A, & le reſidu BC
+ſoit la rationele A,& le reſidu BC
 auquel conuienne CD, & ſur BC
 ſoit deſcrit le rectangle CE egal
 au quarré de la rationele A: Ie dis
 que l’autre coſté BF ſera binome
 tel que demande la propoſition.
-Car ſur BD ſoit deſcrit le re-
+Car ſur BD, ſoit deſcrit le re-
 ctangle DF egal au meſme quarré
 de la rationele A’: Donc les rectangles CE & DF ſeront e-
 gaux, & ayans les coſtez reciproques par la 14 p.6. BD ſera à
 BC comme BE à BF, & par conuerſion de raiſon BD ſera à
-CD, comme BE à F E. Maintenant ſoit couppée EF en G,
+CD, comme BE à FE. Maintenant ſoit couppée EF en G,
 par la 10. p.6. tellement que comme BE eſt à FE, ainſi EG à
 GF, veu donc que comme la toute BE eſt à la toute
 FE, ainſi EG retranchée de BE, eſt à GF retranchée de FE, auſſi

@@ -1,32 +1,32 @@
-BOOK  X.                                                                 89
+BOOK  X.                                               89
 
 9
-And the things commensurable with this, (let them be called) rational.
+And those commensurable with this, (are) called rational.
 9
-And the things which are commensurable with this; let them be cal-
+And those which are commensurable with this; are cal-
 led ῥητά.
 
-But the things incommensurable with this, let them be called irrational.
+But those incommensurable with this, let them be called irrational.
 10
-But the things which are incommensurable with that rational square
-(let them be called) ἄλογα, that is
-deaf.
+But those which are incommensurable with that rational
+square; let them be called ἄλογα, that is
+surds.
 
-11a
-And the things (commensurable) with it in power, (are) irrational. If indeed (they) are squares,
-these (are) the sides. Or if some other rectilinear (figures),
-let them describe squares not equal to them.
+i a
+And those (commensurable) in power with it, (are) irrational. If indeed they be squares,
+these (are) the sides. Or some other rectilinear (figures),
+having described squares not equal to them.
 11
-And the lines which describe those incommensurable (things), let them be called
-ἄλογοι. And indeed if those
-incommensurable (things) are squares, their
-sides themselves will be called ἄλογοι lines: but
-if they are not squares, but some other
-surfaces or rectilinear
-figures, then the lines which describe
+And the lines which describe those incommensurable (areas),
+let them be called ἄλογοι. And indeed if those
+incommensurable (areas) be squares, their
+sides themselves shall be called ἄλογοι lines: but
+if they be not squares; but some other
+surfaces or rectilinear figures, then
+those lines which describe
 squares equal to the rectilinear figures, let them be cal-
 led ἄλογοι.
 
 Proposition.  a.
-With two unequal magnitudes set out, if from the greater
-M      [illegible]
+Two unequal magnitudes being set out, if from the grea-
+M      ter

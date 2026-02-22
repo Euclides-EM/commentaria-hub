@@ -1,49 +1,49 @@
 EVCL. ELEMENT. GEOM.
 
-cierum magnitudines qualibet, sole propositæ certæ dici poterunt, ad quam comparatæ re-
-liquæ omnes species incertæ nuncupabuntur, illud quidem (vt diximus) ob penuriam affi-
-nitatis numerorum inter se. Harum quippe aliquas hoc decimo generare docebit Euclides,
-& ne infinitum videatur aggredi negotium, generalis infinitas fieri posse monstrabit
-vnico theoremate. Vnde tenem illud tam aditum & occultum huius disciplinæ arca-
-num nasi potuit consideremus, cùm vnitates esse, prima septimi definitione, vt am ac
-insolubilem suapte natura dixerimus. Ac proinde (cùm ad quantitates referatur) Geome-
-tricam & ideo continuum ac insectam esse, facile percipimus eam inter numeros collatā,
-quæ vera ac sola est numerorum genetrix, naturam continuæ quantitatis in se, quiq; cùm
-insolubilis sit, necessariò omnium numerorum minimam eam esse partem fatebimur, quia
-per numeros in minores secari non potest, quòd si (vt septimo diximus) eius quantitas per
-numerum sectetur, semper minima pars ad vnitates redit. Si itaq; magnitudini per ali-
-quas vnitates sectæ, magnitudo comparetur, cuius quantitas collata quantitati priori, in
-eam vnitatis sectionem cadat, quæ nullo numero vnitatis illius quantitatem metiente ex-
-primi possit, sed quæuis illius quantitatis multiplicatione decrementi facta, semper compa-
-rata magnitudinis extremum, siue terminus, in vnitatis cadat sectionem: Perspicuum erit
+cierum magnitudines qualibet, ſole propoſitæ certæ dici poterunt, ad quam comparatæ re-
+liquæ omnes ſpecies incertę nuncupabuntur, illud quidem (vt diximus) ob penuriam affi-
+nitatis numerorum inter ſe. Harum quippe aliquas hoc decimo generare docebit Euclides,
+& ne infinitum videatur aggredi negotium, generalis infinitas ſeri poſſe monſtrabit
+vnico theoremate. Vnde tenem illud tam aditum & occultum huius diſciplinę arca-
+num naſci potuit conſideremus, cùm vnitatem eſſe, prima ſeptimi definitione, vt am ac
+inſolubilem ſuapte natura dixerimus. Ac proinde (cùm ad quantitates referatur) Geome-
+tricam & ideo continuum ac inſectam eſſe, facile percipimus eam inter numeros collatā,
+quę vera ac ſola eſt numerorum genitrix, naturam continuę quantitatis inſcqui, que cùm
+inſolubilis ſit, neceſſario omnium numerorum minimam eam eſſe partem fatebimur, quia
+per numeros in minores ſecari non poteſt, quòd ſi (vt ſeptimo diximus) eius quantitas per
+numerum ſectetur, ſemper minima pars ad vnitatem redibit. Si itaque magnitudiniſ per ali-
+quas vnitatcs ſectę, magnitudo comparetur, cuius quantitas collata quantitati priori, in
+eam vnitat is ſectionem cadat, que nullo numero vnitat is illius quantitatem metiente ex-
+primi poſſit, ſed qualis illius quantitatis multiplicatione decrementi ſacta, ſemper compara-
+tæ magnitudinis extremum, ſue terminus, in vnitat is cadat ſectionem: Perſpicuum erit
 eius quantitatis comparatæ denominationem, extra numerorum vires haberi, eorum ma-
-ximè priorem quantitatem numerantium: siquidem illud extremum facta aliqua decre-
-menti vnitatis multiplicatione, in aliquem illarum vnitatum terminum caderet, non au-
-tem in vnitatis sectionem, illius multiplicationis quantitates (saltem) vtraq; numeræ-
+ximè priorem quantitatem numerantium: ſi quidem illud extremum facta aliqua decre-
+menti vnitat is multiplicatione, in aliquem illarum vnitatum terminum caderet, non au-
+tem in vnitat is ſectionem, illius multiplicationis quantitates (ſaltem) vtraſque numera-
 rent vnitatum magnitudines. Non igitur earum comparatio extra numerorum vires ha-
-beretur, sed numeris exprimeretur. Cùm itaq; numeris exprimi non potest, a determina-
+beretur, ſed numeris exprimeretur. Cùm itaque numeris exprimi non poteſt, a determina-
 tione ac ideo certitudine caret: comparationis enim quantitatem certitudo, à numerorum
-expressione dependet. Quæ igitur numeris exprimi non potest, hæc de causa incerta compa-
-ratio dici meretur: & idcirco quantitas quæ comparationem illam ad alteram producit
-quantitatem, illa eadem lege incerta quantitas dici poterit. Hæc insuper omni denomina-
-tione priuata obmutescit: eo quòd in tantum proruperit scelus, vt vnitatis illam inuiolatam
-integritatem dissoluere conata sit, quæ nullam patitur sectionis denominationem.
+expreſſione dependet. Qua igitur numeris exprimi non poteſt, hac de cauſa incerta compa-
+ratio dici meretur: & idcirco quantitas quę comparationem illam ad alteram producit
+quantitatem, illa eadem lege incerta quantitas dici poterit. Hac inſuper omni denomina-
+tione priuata obmuteſcit: eo quòd in tantum proruperit ſcelus, vt vnitat is illam inuiolatam
+integritatem diſſoluere conata ſit, que nullam patitur ſectionis denominationem.
 
-Cæterùm illud sequentes quod ait Zambertius in liminari perspectiuæ se scilicet Eucli-
-dis exemplaria tineis ac carie contrita apud Socraticum vidisse. Sanè inferre possumus
-hunc eius decimum, id vel aliud quoddam sui sepi[s]se detrimentum. Euclides quippe hanc
-propositam magnitudinem (quam lineam efficit) certam denominat hac dictione ῥητὴ,
-(quæ propriè certam & determinatam & quæ tuto dici potest præ se fert) diffinitione quin-
-ta. Sexta verò profert, omnes eidem propositæ certæ commensurabiles, certas similiter esse
-eadem dictione ῥητὰς à commensurationis quidem habitu, quia commensurabiles sunt cer-
-tæ propositæ, & ipsæ certæ ea de causa erunt, cùm autem septima diffinitione arguit à pri-
-uatione, extra sensum discedit. Nam quod addit habitus, idem tollit priuatio, Dicet enim
-sexta quia commensurabiles fuerunt certæ, eas ideo certas esse. Septima igitur quia ipsi cer-
-tæ incommensurabiles fuerunt, incertas esse (negatione priuante præposita) necesse sequi fa-
-tur. Cur autem posuerit Theon loco huius dictionis ἀῤῥητὰς qua vere illi ῥηταὶ per priuatio-
-nem opponitur, hanc ἄλογον existimans oppostum certi vel determinati esse irrationale,
-sat admirari non possumus. Cæterùm cum rationi nihil habeat commune, ac insuper
-absurdis, licet enim semper hoc ῥητὸ affirmante, vtatur, nihilominus eidem conferre vo-
-lens oppositum, ponit ἄλογον toto hoc decimo, quod non parum discentibus est incommodum.
+Cæterùm illud ſequentes quod ait Zambertuſ in liminari perſpectiuè ſcilicet Eucli-
+dis exemplaria tineis ac carie contrita apud Socraticum viuiſſe. Sanè inferre poſſumus
+hunc eius decimum, id vel aliud quoddam ſuſcepſſe detrimentum. Euclides quippe hanc
+propoſitam magnitudinem (quam lineam eſſe) certam denominat hac dictione ἄλογον,
+(quę propriè certam & determinatam & quę tuto dici poteſt præ ſe fert) diſſinitione quin-
+ta. Sexta verò proſert, omnes eidem propoſitæ certæ commenſurabiles, certas ſimiliter eſſe
+eadem dictione ἄλογον à commenſurationis quidem habitu, quia commenſurabiles ſunt cer-
+tæ propoſitæ, & ipſæ certæ ea de cauſa erunt, cùm autem ſeptima diſſinitione arguit à pri-
+uatione, extra ſenſum diſcedit. Nam quod addit habitus, idem tollit priuatio, Dicet enim
+ſexta quia commenſurabiles fuerunt certæ, eas ideo certas eſſe. Septima igitur quia ipſi cer-
+tę incommenſurabiles fuerunt, incertas eſſe (negatione priuante præpoſita) neceſſe ſequi fa-
+tur. Cur autem poſuerit Theon loco huius dictionis ἄλογον qua vere illi ἄρρητον per priuatio-
+nem opponitur, hanc ἄλογον exiſtimans oppoſitum certi vel determinati eſſe irrationalc,
+ſat admirari non poſſumus. Cæterùm cum rationi nihil habeat commune, ac inſuper
+abſurdias, licet enim ſemper hoc ἄλογον affirmante, vtatur, nihilominus eidem coſerre vo-
+lens oppoſitum, ponit ἄλογον toto hoc decimo, quod nō parum diſcentibus eſt incommodum.
 
 Nam

@@ -1,13 +1,13 @@
 BOOK
 Definition ix.
 
-2 And surfaces incommensurable with the same are called ir-
+2 And the surfaces incommensurable with the same are called ir-
 9 rational, or deaf.
 
 The Translator.
 
-H Since the author in the preceding definition [shows] what are the surfaces
-called rational, now in this coupled [one] he defines the converse,
+H Since the author in the preceding definition [declared] which are the surfaces
+called rational, now in this, conjointly, he defines the converse,
 that is, that all those surfaces which shall not be commensurable with that
 same our square surface (said above) shall be called irra-
 tional, or deaf.
@@ -19,33 +19,33 @@ Definition x.
 
 The Translator.
 
-Q This definition warns us that all those surfaces which are,
+Q This definition admonishes us how all those surfaces which are,
 or shall be communicating with any irrational surface, shall
 likewise be called irrational.
 
 Definition xi.
 
-10 And the sides having power in those surfaces, square, are called irra-
-4 tional.
+10 And the sides having power in those surfaces, squares are called ir-
+4 rational.
 
 The Translator.
 
-C That is, the sides having power in such irrational surfaces, square likewise
-are called irrational; the side having power in a surface (that surface being
-square) is understood to be the proper side of such a surface,
-but if it were not square it is understood rather as the side of a square surface
+C That is, that the sides having power in such irrational surfaces, squares like-
+wise are called irrational; the side having power in a surface (that surface being
+square) is understood to be the proper side of that such sur-
+face; but if it were not square it is understood rather as the side of a square surface
 equal to it, or of that same reduced into a square which is
 the same.
 
 Supposition, or first petition:
 
-Q Any quantity can be multiplied so many times that it
+Q Any quantity so many times can be multiplied that it
 11 exceed any proposed quantity of the same kind.
 
 The Translator.
 
-Q This supposition, or petition, is found only in the first
-translation & is numbered among the definitions, but because according to
-my judgment it is sooner a supposition, or petition, than a defini-
+Q This supposition, or petition is found only in the first
+translation & is numbered among the definitions, but because according
+to my judgment it is sooner a supposition, or petition, than a defini-
 tion, we call it supposition, or petition, from which it supposes
 that to give

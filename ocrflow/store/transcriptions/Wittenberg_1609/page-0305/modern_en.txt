@@ -1,30 +1,32 @@
 BOOK X.
 
-Any given straight lines
-are infinite in multitude and are
-commensurable, and incommensurable,
-some indeed in length and in power;
-others truly in power only. Let the
-given straight line be called
-Rational. It says that to a given straight
-line other infinite [lines], both commensurable
-in length and in power, and incommensurable,
-can be found, and that the one in respect of which
-the rest are such is called the proper, Rational,
-because it is always set down as certain and known,
-the rest for the most part being unknown.
+any: the proposed straight lines
+to be infinite in multitude and commen-
+surable, and incommensurable,
+some indeed in length and in pow-
+er; others truly in power only. Let the
+proposed straight line however be called,
+Rational. He says that to a given straight
+line other infinite (lines) both commensurable in
+length and in power, and incommensura-
+ble, can be found, and that (line) with respect to
+which the rest are such is called the proper Rational,
+because it is always set down as certain and known, the
+rest for the most part being unknown.
 
 6.  And those commensurable with it either
-in length and in power, or in power
-only, [are] Rational. All lines which
-in whatever way are commensurable with the given
-are called Rational, not indeed by
-position, as that [one], but because in that
-comparison with the given they are found commensurable.
+in length and in power, or in pow-
+er only, (are) Rational. All lines which
+in whatever way are commensur-
+able with a given (line) are called Rational,
+not indeed by position, as that (one),
+but because in that comparis-
+on with the given (line) they are found commensurable.
 And therefore also the lines whose squares
-20 and 1000 are commensurable to any square, as 16
-or 100, rightly we also
+20 and 1000 are to any square, as 16
+or 100, commensurable, we rightly also
 call rational.
 
 7.  But those incommensurable with it,
-S 5  Irratio-
+S 5
+Irratio-

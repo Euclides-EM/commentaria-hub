@@ -1,55 +1,55 @@
 TENTH.                                   Fol. 132
 
-or to measure the square surfaces of the said proposed lines, such lines shall be
-called incommensurable in power. Which things being as has been set forth
-it is already manifest that to every proposed straight line (that is, to that with which we
-propose to measure in cubits, palms, and digits, or feet) there are infinite multitudes of
+or if you measure the square surfaces of the said proposed lines, such lines will be
+called incommensurable in power. Which things being as has been set forth,
+it is already manifest that to every proposed straight line (that is, to that with which we take
+the measures of cubits, palms, and fingers, or feet) there are infinite multitudes of
 straight lines commensurable and incommensurable with it, some in length
 and in power, and others only in power.
 
 Definition. 4.
 
-4 But every proposed straight line with which we reason shall be called
+4 But every proposed straight line with which we reason, shall be called
 4 rational.
 
 The Translator.
 
 IN this definition the author advises us that that material measure
-with which we shall operate in our commensurations (whether a rod, or
+which we shall use in our commensurations (whether a rod, or
 a pace, or a foot, or an arm, or some other measure formed at our pleasure) will
 be called rational, because it is a quantity known and familiar to us.
 
-Definition. V.
+Definition. 5.
 
-5 And the lines communicating with that are called rational.
+5 And the lines communicating with it are called rational.
 4
 
 The Translator.
 
-Although this definition is set distinct from the preceding, it must
+ALTHOUGH this definition is set distinct from the preceding, it must
 be understood joined with it successively: because in this
-it is distinctly coupled that all those lines which shall be commensurable
+it is stated jointly that all those lines which shall be commensurable
 with that proposed line (that is, with that measure with which we shall measure, whether a rod,
 or a pace, or a foot, or an arm, or some other measure formed at our pleasure) are
 called rational; for example let us suppose that our proposed line (with which
-we measure, or intend to happen to measure our things) is that
+we measure, or it is intended to occur to measure our things) is that
 material measure which is called a pace, divided into five feet, and each foot
 according to modern custom, into twelve inches; now I say that not only the said
 pace will be a rational line (by the preceding definition) but also all the
-lines measured with the said pace and with its parts will be called rational, by
+lines measured with the said pace, and with its parts, will be called rational: by
 the present definition, because all the said lines will come to be commensurable
 with our proposed rational, that is, with our pace. And so that you may
 understand me better, let us suppose there is a line, or length, long six paces
-four feet seven and a half inches; I say the said line, or length, is a
-rational quantity (by the preceding definition) because it is commensurable with
-our pace (by the first definition) and their common measure will come to
-be the half inch, that is, that a line long half an inch will measure the proposed
+four feet seven and a half inches; I say the said line, or length, to be
+a rational quantity (by the preceding definition) because it is commensurable with
+our pace (by the first definition) and their common measure will come to be
+the half inch, that is, that a line long half an inch will measure the proposed
 length precisely 831 times, and will also measure our pace precisely
 120 times; whence by the said first definition they will be commensurable,
-and by the preceding and present definition, the one and the other will be rational, namely
-the proposed.
+and by the preceding and present definition, the one and the other will be rational, which
+is the proposed.
 
-But it must be noted that this same definition in the second translation
+☞ But it must be noted that this same definition in the second translation
 speaks in this other form.
 
 5 And those lines which with this shall be commensurable in length

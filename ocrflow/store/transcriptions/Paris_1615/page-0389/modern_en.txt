@@ -18,7 +18,7 @@ mined magnitude, it is called rational, because it is according to it that we
 reason.
 Dounot judged that this definition ought not to have place; and there-
 fore rejected it. Which I judge he ought not to have done, seeing that he makes use
-almost everywhere of this rational line mentioned in this de-
+almost on all occasions of this rational line mentioned in this de-
 finition.
 
 6  Lines commensurable with a rational
@@ -28,7 +28,7 @@ power only, are called rational.
 7  And lines incommensurable with a
 rational line are irrational,
 
-If, comparing some straight line with the line taken as rational, and
+If, comparing some straight line to the line taken as rational, and
 upon which we reason, it is found commensurable with that
 rational one, whether in length and power, or in power only,
 such a line is also called rational; but if it is incommensurable with
@@ -38,4 +38,4 @@ said line is called irrational.
 8.  The square described on a rational line
 is called rational.
 
-Z  iij
+Z iii

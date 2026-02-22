@@ -1,52 +1,63 @@
 GEO.        ELE.        EV.
 
-such:/and palms:/and digits/and feet are measures: these
+ells; and palms; and digits; or feet take a measure: these
 are straight lines, in infinite multitude, commensurable and in-
-commensurable. Commensurable indeed: either in power only
-or in power and length together. Incommensurable
-however: either in length only, or in length and power together.
-¶Therefore the proposed straight line itself is called: rational.  6
-¶And those commensurable with it both in length and in power,
-and in power only: rational.  7
-¶But those incommensurable in both, that is in
-length and power: are called irrational.  8
-¶And the square indeed from the proposed straight line: rational.  9
-¶And those commensurable with it: irrational.  10
-¶And that from an incommensurable: irrational.  11
-¶And those commensurable with it are called: irrational.  12
-¶And of these (if they shall be squares) the sides, or also any other
-straight lines having power equal to the squares described by them:
-are called irrational.  13
+commensurable. Commensurable indeed: either in power only,
+or in power and in length together. Incommensurable
+however: either in length only, or in length and in power together.
+Therefore the same proposed straight line is called rational.   6
+And those commensurable with it both in length and in power,
+and in power only, are rational.   7
+But those incommensurable in both ways, that is in
+length and in power, are called irrational.   8
+And the square indeed from the proposed straight line is
+rational.   9
+And those commensurable with it are irrational.   10
+And that from an incommensurable is irrational.   11
+And those commensurable with it are called irrational.   12
+And their sides (if they are squares), if you please: other certain
+straight lines, being in power equal, and describing squares equal to
+those, are called irrational.
 
-Euclid, from Campanus.                 Proposition 1
-IF, with two unequal quantities proposed,
-the greater is diminished by more than half, and likewise
-from the remainder more than half is taken, always proceeding
-in the same way: it is necessary that at length a quantity
-less than the lesser of those set down is left.
-¶CAMP. (Let there be two unequal quantities a and b c; b c the greater, I say that
-so many times more than half can be taken from b c, from b c itself or from its remainder, that
-it is necessary that the remainder be less than the quantity a. Let a be multiplied so many times until it
-exceed b c: and let its multiple d e f be greater than b c. Let there be taken then from b c
-more than half: which is g h. And from the remainder which is g e, more than half:
-which is g h. Let this be done so many times, until b c is divided into so many parts
-as many times as a is contained in d e f. I say then that the last remainder, as here
-h c, is less than a. For let h c be multiplied as many times as a was multiplied into d e
-f: and let its multiple be k l m. Therefore since each of the quantities k, l, m is
-equal to h c, it follows that k also is less than b g, but also l less than g h; and since m
-is equal to h c, by separation k l m will be less than b c, therefore less than d e f.
-Since therefore d e f is to a as k l m to h c, and d e f is greater than k l m, it follows by
-the 14th of the fifth that a is greater than h c, which is the thing proposed. ¶The same follows: if from the
-greater half is taken and likewise from the remainder half: and let it be done so many times until the
-greater is divided into as many parts as many times the lesser is contained in any of its multiples
-exceeding whichever of the proposed quantities is greater.
-¶CAMPANUS’ Annotation. (C But it must be noted that this proposition seems
-to contradict the fifteenth of the third, proposing that the angle of
-contingency is less than any angle contained by two straight lines.
-For if any rectilinear angle be set down, if more than half be taken from it,
-and likewise more than half from the remainder, it seems necessary that this can be done so many times
-until a rectilinear angle smaller than the angle of contingency is left,
-the opposite of which he syllogizes in the third. But these are not univocal angles,
-for curved and straight are not simply of the same genus. But indeed neither can an
-angle of contingency be taken so many times of contingency, that it exceed any rectilinear one,
+Euclid. Camp.                         Proposition 1
+If two unequal magnitudes are proposed,
+let the greater be diminished by more than its half, and again
+let more than the half be taken from the remainder, and then likewise
+in the same way: it is necessary that at length, of the lesser of the
+proposed, a lesser magnitude be left.
+CAMP. (There are two unequal magnitudes a and b c; b c the greater, I say that
+so many times more than the half can be taken away from b c or its remainder, that it will be
+necessary that the remaining magnitude be less than a. Let a be multiplied so many times until it
+exceed b c; let its multiple d e be greater than b c. Therefore let more than the half be taken away from b c,
+which becomes f g; and from the remainder which is g b, let more than the half be
+taken, which becomes g h. Let this also be done so many times until b c has been divided into as many parts
+as many times as a is contained in d e. I say then that the last remainder, as here
+h c, is less than a. For let h c be multiplied as many times as a has been multiplied in d e
+f; let its multiple be k l m. Therefore since each of the magnitudes k, l, m is
+equal to h c, it follows that k is less than b g; but also l is less than g h; and since m
+is equal to h c, by subtraction k l m will be less than b c; therefore less than d e f.
+Since therefore d e f is to a as k l m is to h c, and d e f is greater than k l m, it follows by
+the 14th of the fifth that a is greater than h c, which is the thing proposed. The same follows if from the greater
+half be taken, and again from the remainder half: and let it be done so many times until the
+greater is divided into as many parts as the lesser is contained in any of its
+multiples exceeding the greater of the proposed by any amount.
+CAMPANUS Annotation. (But it must be observed that this proposition seems to contradict the fifteenth of the third,
+proposing that the angle of contact is less than any angle contained by two straight lines.
+For if any rectilinear angle be set out, if more than the half be taken from it,
+and again more than the half from the remainder, it seems necessary that this can be done so many times until a rectilinear angle
+smaller than the angle of contact is left: the opposite of which he syllogizes in the third.
+But these are not univocal angles; for curved and straight are not simply of the same genus.
+But indeed neither can an angle of contact be taken so many times of contact, that it exceed any rectilinear angle,
 which is necessary, as is clear from the foregoing demonstration) to this
+
+c
+k
+l
+m
+f
+h
+g
+e
+d
+a
+b

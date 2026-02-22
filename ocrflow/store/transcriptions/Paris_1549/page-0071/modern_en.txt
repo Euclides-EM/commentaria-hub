@@ -1,44 +1,37 @@
 OF EUCLID
 
-Therefore the proposed straight line itself is called
-rational.
+It is therefore called, namely, the proposed straight
+line, rational.
 
 6
-
-And those which are commensurable with it both in length
-and in power, and those in power only, [are called] rational.
+And those commensurable with it both in length,
+and in power; and in power only, (are) rational.
 
 7
-
-But those which are incommensurable in both respects,
-that is, in length and in power, are called irrational.
+But those incommensurable in both respects,
+that is, in length and in power, are called ir-
+rational.
 
 8
-
-And that which is a square on the proposed straight line,
-[is] rational.
+And that which (is) a square on the proposed straight
+line, (is) rational.
 
 9
-
-And those which are commensurable with it, [are] rational.
+And those commensurable with it, (are) rational.
 
 10
-
-And that which is from an incommensurable [line], [is] irrational.
+And that which (is) on an incommensurable (line), (is) irrational.
 
 11
-
-And those which are commensurable with it are called
-irrational.
+And those commensurable with it are called ir-
+rational.
 
 12
+And their sides (if they shall be squares): but if not,
+some other straight lines having power equal to it, and
+describing squares equal to those squares, let them be called irra-
+tional.
 
-And their sides (if they are squares); but if not,
-some other straight lines having power equal to them,
-and describing squares equal to those [squares], let them be called
-irrational.
-
-Proposition    I.
-
-With two unequal magnitudes set forth,
-if from the greater there be taken away more than the half,
+Proposition  I.
+With two unequal magnitudes set out,
+if from the greater there be taken away more than half,

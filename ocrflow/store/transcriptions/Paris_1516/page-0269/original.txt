@@ -1,53 +1,65 @@
 GEO.        ELE.        EV.
 
-tales:/& palmi/& digitales/ac pedales fumuñt menfuræ:ipfi
-funt rectæ lineæ multitudine infinitæ comẽfurabiles & in-
-commenfurabiles. Comenfurabiles quidem:aut potentia tã
-tum/aut potentia & longitudine fimul. Incommenfurabiles
-vero:aut longitudine tantù:aut longitudine & potentia fimul.
-¶Vocatur igitur ipfa qdẽ propofita recta linea:rationalis.  6
-¶Et quæ huic commenfurabiles & longitudine & potentia/
-& potentia tantum:rationales.  7
-¶Quæ autem incommenfurabiles per vtrunq;hoc eft lon-
-gitudine & potentia:irrationales appellantur.  8
-¶Et quod quidem a propofita recta linea quadratum:ra-
-tionale.  9
-¶Et quæ huic commenfurabilia:irrationalia.  10
-¶Et quod ab incommenfurabili:irrationale.  11
-¶Et quæ huiccommenfurabilia:irrationalia dicuntur.  12
-¶Et ipforu( fi quadrata fuerint) latera/finautẽ aliæ quæpiã
-rectæ lineæ ipfa potentes æqualiaq ipfis quadrata defcribe
-tes:irrationales vocentur.  13
+tales:/& palmi/& digitales/ac pedales ſumunt menſura:ipſi
+ſunt rectæ lineæ multitudine infinitæ comẽſurabiles & in-
+commenſurabiles. Comenſurabiles quidem:aut potentia tã
+tum/aut potentia & longitudine ſimul. Incommenſurabiles
+vero:aut longitudine tantù:aut longitudine & potentia ſimul.
+¶Vocatur igitur ipſa qdē propoſita recta linea:rationalis.   6
+¶Et quæ huic commenſurabiles & longitudine & potentia/
+& potentia tantum:rationales.   7
+¶Quæ autem incommenſurabiles per vtrunqͤ/hoc eſt lon-
+gitudine & potentia:irrationales appellantur.   8
+¶Et quod quidem a propoſita recta linea quadratum:ra-
+tionale.   9
+¶Et quæ huic commenſurabilia:irrationalia.   10
+¶Et quod ab incommenſurabili:irrationale.   11
+¶Et quæ huic commenſurabilia:irrationalia dicuntur.   12
+¶Et ipſorũ(ſi quadrata fuerint) latera/ſi nauſe:aliæ quæpiã
+rectæ lineæ ipſa potentes æqualiaqͤ ipſis quadrata deſcribe
+tes:irrationales vocentur.
 
-Eucl. ex Camp.                         Propositio 1
-SI duabus quantitatibus inæqualibus propofi-
-tis maius dimidio a maiori detrahatur/itemq de
-reliquo maius dimidio dematur/definẽps quo-
-codem modo:neceffe eft vt tandem minore poſi-
+Eucli.es Camp.                         Propoſitio 1
+I duabus quantitatibus inæqualibus propoſi
+tis maius dimidio a maiori detrahatur/itemqͤ de
+reliquo maius dimidio dematur/deinde ipſe quoqͤ
+eodem modo:neceſſe eſt vt tandem minore poſi
 tarum minor quantitas relinquatur.
-¶CAMP. (Sint duæ quantitates inæquales a & b c:b maior,dico q
-toties poteft maius dimidio detrahi a b ipfa b c vel eius reſiduo:q ne-
-ceſſe erit reliq quantitate minore eſſe a. Multiplicet ei a toties quouſq ex
-cedat b c:fitq eius multiplex d e f maius b c. Detrahãt itaq ab ipſa b c,
-maius dimidio:quod fit g h. fitq ex reſiduo quod eſt g e, maius dimi-
-dio:quod fit g h. hoc quoſq toties fiat:quouſq b c diuiſa fit in tot partes
-quoties a continetur in d e f. Dico tunc q vltimum reſiduum vt eſt hic
-h c:eſt minus a. Multiplicetur namq h c quoties eſt multiplicata a in d e
-f:fitq eius multiplex k l m. Quia igitur vnaquæq quantitatũ k,l,m,eſt
-æqualis h c:ſequitur vt & k ſit minor b g. ſed & l:minor g h. at quia m
-eſt æqualis h c:erit per ſeceptionem k l m minor b c. quare minor de f.
-Cũ ſit ergo de f ad a ſicut k l m ad h c,ſitq d e f maior k l m:ſequitur p
-14 quinti q a ſit maior h c.quod eſt propofitũ. ¶Idẽ ſequitur:ſi a ma
-iori dimidium dematur itemq de reliquo dimidiũ:fiatq toties quouſq
+¶CAMP. (Sunt duæ quantitates inæquales a & b c:b maior,dico qͤ
+toties poteſt maius dimidio detrahi ab ipſa b c vel eius reſiduo:qͤ ne
+ceſſe erit reliqͤ quantitate minore eſſe a.Multiplicet ei a toties quouſqͤ ex
+cedat b c:ſitqͤ eius multiplex d e maius b c.Detrahãt itaqͤ ab ipſa b c,
+maius dimidio:quod fit f g:ſitqͤ ex reſiduo quod eſt g b,maius dimi
+dio:quod fit g h.hoc quoqͤ toties fiat:quouſqͤ b c diuiſa ſit in tot partes
+quoties a continetur in d e. Dico tunc qͤ vltimum reſiduum vt eſt hic
+h c:eſt minus a.Multiplicetur namqͤ h c quoties eſt multiplicata a in d e
+f:ſitqͤ eius multiplex k l m.Quia igitur vnaquæqͤ quantitatũ k,l,m,eſt
+æqualis h c:ſequitur vt & k ſit minor b g.ſed & l:minor g h.at quia m
+eſt æqualis h c:erit per ſeceptionem k l m minor b c.quãre minor de f.
+Cũ ſit ergo de f ad a ſicut k l m ad h c,ſitqͤ de f maior k l m.ſequitur p
+14 quinti qͤ a ſit maior h c.quod eſt propoſitũ. ¶Idẽ ſequitur:ſi a ma
+iori dimidium dematur itemqͤ de reliquo dimidiũ:fiatqͤ toties quouſqͤ
 maior diuidatur in tot partes quoties continetur minor in quolibet ſuo
 multiplice maiorem poſitarum quantũlibet excedente.
-¶CAMPANI Annotatio. (C Attendere autem oportet:q huic propoſi-
+¶CAMPANI Annotatio. (Attendere autem oportet:qͤ huic propoſi
 tioni videtur decima quinta tertij contradicere/proponens angulum cõ
-tingentiæ minorem fore quolibet angulo a duabus lineis rectis conten-
-to. Poſito eni angulo quolibet rectilineo/ſi ab ipſo maius dimidio dema
-tur/itemq de reliquo maius dimidio:neceſſe videtur hoc toties poſſe fie
-ri quoſq angulus rectilineus minor angulo contingentia relinquatur.
-cuius oppoſitum is tertij ſyllogizat. Sed hi non ſunt vniuoce anguli. nô
-enim eiusdem ſunt generis ſimpliciter curuum & rectum. At vero necan
-gulum contingentia toties contingentiæ ſumi:vt qualencunq rectilineũ ex
-cedat. quod neceſſariu eſt,vt ex præhabita demonſtratione patet)ad hoc
+tingentiæ minorem fore quolibet angulo a duabus lineis rectis conten
+to. Poſito enim angulo quolibet rectilineo/ſi ab ipſo maius dimidio dema
+tur/itemqͤ de reliquo maius dimidio:neceſſe videtur hoc toties poſſe fie
+ri quouſqͤ angulus rectilineus minor angulo contingentia relinquatur:
+cuius oppoſitum is tertij ſyllogizat.Sed hi non ſunt vniuocæ anguli.no
+enim eiuſdem ſunt generis ſimpliciter curuum & rectum.At vero necan
+gulum contingentia toties contingentiæ ſumi:vt qualencunqͤ rectilineũ ex
+cedat.quod neceſſariu eſt,vt ex præhabita demonſtratione patet)ad hoc
+
+c
+k
+l
+m
+f
+h
+g
+e
+d
+a
+b

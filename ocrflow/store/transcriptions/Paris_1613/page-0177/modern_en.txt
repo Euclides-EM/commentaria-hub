@@ -11,26 +11,28 @@ DEFINITIONS.
 
 Commensurable magnitudes are those
 measured by one and the same measure.
-Incommensurable magnitudes are those
-which have no common measure.
+Incommensurable magnitudes are those-
+which have no common mea-
+sure.
 
 Straight lines commensurable in
 power, are those of which the
-squares can be measured by one and the same sur-
-face.
+squares can be measured by one and the same super-
+ficies.
 
 4. Incommensurable lines are those of which the
-squares have no common surface that can
+squares have no common superficies that can
 measure them.
 
 This being so, it is evident that for every line proposed, one will find infinitely many
-commensurable lines, and infinitely many incommensurable: some in length
+commensurable lines, & infinitely many incommensurable: some in length
 and power, the others in power only.
 
-Although this annotation is placed among the principles, yet it is easy
-to conjecture that it ought to be taken only as a Scholium. Thus we have
-distinguished it from the principles by a different character; it is demonstrated then
+Although this annotation is placed among the principles, yet it is
+easy to conjecture that it ought to be taken only as a Scholium. Thus we have
+distinguished it from the principles by a different character, it is demonstrated then
 afterwards in the n.p.10.
 
-5. The line’s commensurable with a rational line, be
-T iij.
+5. Lines commensurable to a rational line, let it be
+T iij
+Digitized by Google

@@ -1,24 +1,23 @@
 Theta
 
-If the numbers from a unit, of whatever amount, are set out in order
-in the double ratio, until the whole (when composed) is to one,
-and the whole, multiplied by itself many times, makes some [number],
-which becomes Theta, let it be
-[uncertain: λ]Theta.
+If the numbers from a unit, of whatever kind, are set out in order
+in the double ratio, until the whole (when composed) becomes
+first, and the whole, when multiplied in each case, makes some
+[number] which becomes Theta, it will be ςΙΘ'.
 
-OF EUCLID’S ELEMENTS
+EUCLID’S ELEMENTS
 Book 10.
 
 Definitions.
 
-Commensurable magnitudes are said to be those measured by the same
-measure.
-Incommensurable, however, are those of which no [magnitude] admits a
-common measure to come to be.
-Straight lines are commensurable in power, whenever the squares on
-them are measured by the same [measure].
-Incommensurable, however, whenever, for the squares on them, no [line]
-admits a common measure to come to be.
-These being laid down, it is shown that in the proposed division,
-there will exist passages,
+Commensurable magnitudes are said to be those which, when
+measured, are measured by the same measure.
+Incommensurable, however, are those of which no common
+measure is admitted to come to be.
+Straight lines are commensurable in square when the squares
+on them are measured by the same measure.
+Incommensurable, however, when the squares on them admit
+no common measure to come to be.
+With these things laid down, it is shown that in the proposed
+division there exist passages,
 E

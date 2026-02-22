@@ -2,46 +2,46 @@ LIBER. DECIMVS.                                                                 
 
 Proœmium decimi Elementorum Euclidis.
 
-Pians Euclides suis Geometrie elementis vtramque quantitatum na-
-turam discentium ingeniis exhibere, earum quidem que ita sibi invi-
-cem comparari possunt, vt aliqua vnius pars alterius pars cognominari
-possit, aut eadem, siue earum que ita sibi comparantur, vt queuis pars
-vnius nulla possit alterius dici pars. Sed quibuslibet sectionibus equali-
-bus singule secte quantitates, aut quibusuis vnitatibus multiplicate,
-nusquam equales producant magnitudines, que prioribus nouem libris seorsum docuit,
-hoc decimo ea serie congeret, qua huius discrepantia progenituram ac ortum, mentibus per-
-cipiendum facilitet. Sex etenim prioribus, que ad quantitatum coniunctarum (quia conti-
-nuarum intelligenciam spectarent, pluribus rudimentis sepius discretarum magni-
-tudinum affinitates ac precepta capientibus, Geometria nâque vtramque continet quan-
-titatum naturam, scilicet rationes numerorum habentium, ac non habentium. Tribus ve-
-rò postremis que ad quantitatum discretarum cognitionem pertinerent, legibus à numeris
-substractis edocuit, quibus earum quantitatum intelligenciam numerorum discretioni (qua
-sensibus familiari) adaperiret. Cum autem numerorum discretionem ab vnitate (que re-
-petita semper, æquas producit partes) generari sit notum, sequetur singulas numerorum v-
-nitates sibi inuicem æquales esse, ac exinde magnitudines numeris expressas ad æquales
-partes tandem reduci posse, ad eam scilicet quam vnitas operit. Nam cuiusuis numeri v-
-nitas est pars, nullius verò partes, quod si alicui harum vnitatum magnitudini compare-
-tur magnitudo ad eam habens rationem, nullis numeris dicibilem, sequetur ab his discre-
-tas vnitatibus compositas æqua repetitione magnitudines, rationem habere nullis numeris
-dicibilem: nam quemultiplicium partes per decimamquintam quinti eandem rationem
-habent. Sed cum nulla relinquatur mortalium sensibus quantitatis discretio, si abfuerint
-numeri, per quos excessum aut equidem defectum per partis aut partium denominationes
-exprimimus, que quantitatis notitiâ in intellectu generantes solum quid sit in magnitudine
-proposita quantitatis pronuncient. Geometricarum ideo quantitatum comparationes du-
-plicem habere naturam exponet Euclides, scilicet eam qua sibi inuicem comparatæ ratio-
-nem habere numerorum percipiuntur, quas certas dicet, ob discretam illam numerorũ cer-
-titudinem, notitiam determinatam, ac constantem propositarum quantitatum (mutuò col-
-latarum) ingeniis exhibentem, & eam qua sibi comparatæ rationem habent, que inter
-nullos potest cadere numeros, easque incertas idcirco dicet, quia certis comparatæ omni ha-
-bitudinis discretione priuent, vrgente affinitatis numerorum penuria, ac demum in quot-
-cunque segmenta æqualia (licet numero inæqualia) singule illæ quantitates distribuã-
-tur infinite. Nusquam eadem vnitatis quantitas vtraque numerare poterit, nam sem-
-per vnitate binas illas quantitates metientis, inæquales erunt, licet quauis distinctione
-secentur. Cum autem infinitæ earum vnitatum possint dari inæqualitates, sorte quidem à
-numerorum diuersis radicibus (Eu conferentiis, infinitas concludemur posse dari (vt 15.
-docebimus) incertarum magnitudinum species, inter quas haud secus interueniet compara-
-tionis incertitudo, quàm inter eas & certam incidere conspicimus, illud equidem cum dif-
-ferre illas inter se specie intelligemus. Nam que eiusdem erunt speciei, ad se inuicem more
-numerorum comparari poterunt, cum singulæ quibusuis numeris duci possint, eas producé-
-tibus, que eorundem numerorum rationem habeant, ac proinde singularum illarum spe-
+Pians Euclides suis Geometriæ elementis vtramque quantitatum na-
+turam diſcentium ingeniis exhibere, earum quidem quæ ita ſibi invi-
+cem comparari poſſunt, vt aliqua vnius pars alterius pars cognominari
+poſſit, aut eadem, ſiue earum quæ ita ſibi comparantur, vt quæuis pars
+vnius nulla poſſit alterius dici pars. Sed quibuslibet ſectionibus æquali-
+bus ſingulæ ſectæ quantitates, aut quibusſis vnitatibus multiplicatæ,
+nuſquam æquales producant magnitudines, quæ prioribus nouem libris ſeorſum docuit,
+hoc decimo ea ſerie congeret, quæ huius diſcrepantia progenituram ac ortum, mentibus per-
+cipiendum facilitet. Sex etenim prioribus, quæ ad quantitatum conſuſarum (quia conti-
+nuarum intelligentiā ſpectarent, pluribus rudimentis ſæpius diſcretarum magni-
+tudinum affinitates ac præcepta capientibus, Geometria nāque vtramque continet quan-
+titatum naturam, ſcilicet rationes numerorum habentium, ac non habentium. Tribus ve-
+rò poſtremis quæ ad quantitatum diſcretarum cognitionem pertinerent, legibus à numeris
+ſubſtratis edocuit, quibus earum quantitatum intelligentiā numerorum diſcretione (qua
+ſenſibus familiari) adaperiret. Cum autem numerorum diſcretionem ab vnitate (quæ re-
+petita ſemper æquas producit partes) generari ſit notum, ſequetur ſingulas numerorum v-
+nitates ſibi inuicem æquales eſſe, ac exinde magnitudines numeris expreſſas ad æquales
+partes tandem reduci poſſe, ad eam ſcilicet quam vnitas operit. Nam cuiuſſis numeri v-
+nitas eſt pars, nullius verò partes, quod ſi alicui harum vnitatum magnitudini compare-
+tur magnitudo ad eam habens rationem, nullis numeris dicibilem, ſequetur ab his diuer-
+ſis vnitatibus comparatas æqua repetitioe magnitudines, rationem habere nullis numeris
+dicibilem: nam æquemultiplicium partes per decimamquintam quinti eandem rationem
+habent. Sed cum nulla relinquatur mortalium ſenſibus quantitatis diſcretio, ſi abſuerint
+numeri, per quos exceſſum aut equidem defectum per partis aut partium denominationes
+exprimimus, quę quantitatis notitiā in intellectu generantes ſolùm quid ſit in magnitudine
+propoſita quantitatis pronuntiant. Geometricarum ideo quantitatum comparationes du-
+plicem habere naturam exponet Euclides, ſcilicet eam qua ſibi inuicem comparatæ ratio-
+nem habere numerorum percipiuntur, quas certas dicet, ob diſcretam illam numerorũ cer-
+titudinem, notitiam determinatam, ac conſtantem propoſitarum quantitatum (mutuò col-
+latarum) ingeniis exhibentem, & eam qua ſibi comparatæ rationem habent, quæ inter
+nullos poteſt cadere numeros, eáſque incertas idcirco dicet, quia certis comparatæ omni ha-
+bitudinis diſcretione priuent, vrgente affinitatis numerorum penuria, ac demum in quot-
+cunque ſegmenta æqualia (licet numero inæqualia) ſingulæ illæ quantitates diſtribuan-
+tur infinitè. Nuſquam eadem vnitatīs quantitas vtraque numerare poterit, nam ſem-
+per vnitatēs binas illas quantitates metientes, inæquales erunt, licet quauis diſtinctione
+ſecentur. Cum autem infinita earum vnitatum poſſint dari inæqualitates, ſorte quidem à
+numerorum diuſerſis radicibus ſeu conferentiis, infinitas concludemus poſſe dari (vt 15.
+docebimus) incertarum magnitudinum ſpecies, inter quas haud ſecus interueniet compara-
+tionis incertitudo, quàm inter eas & certam incidere conſpicimus, illud equidem cum diſ-
+ferre illas inter ſe ſpecie intelligemus. Nam quæ eiuſdem erunt ſpeciei, ad ſe inuicem more
+numerorum comparari poterunt, cùm ſingulæ quibusſis numeris duci poſſint, eas producē-
+tibus, quæ eorundem numerorum rationem habeant, ac proinde ſingularum illarum ſpe-
 Z ij

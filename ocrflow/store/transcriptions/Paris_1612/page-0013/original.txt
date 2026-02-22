@@ -1,46 +1,49 @@
-EVCLIDIS  
+EVCLIDIS
+
 ELEMENTVM X.
 
 Definitiones.
 
 DEFINITIO I.
 
-C O M M E N S V R A B I L E S magnitudines dicuntur quas eadem  
+COMMENSVRABILES magnitudines dicuntur quas eadem
 mensura metitur.
 
-a  
-b  
+a
+b
 c
+8
+6
+1
 
-DVÆ magnitudines a, & b, commensurabiles dicuntur quia habent communem men-  
+DVÆ magnitudines a, & b, commensurabiles dicuntur quia habent communem men-
 suram c, quæ vtramque a, & b, metitur.
 
 EX CLAVIO.
 
-EODEM modo commensurabiles sunt lineæ 20, palmorum & lineæ 12, palmorum, Quia eas lineæ, tam vnius palmi,  
-quàm dimidiati palmi, quàm tertiæ partis vnius palmi metitur.  
-Similiter commensurabiles dicuntur superficies, quas vna & eadem superficies metitur.  
-Item corpora, solidæ, commensurabilia, quæ metitur idem corpus solidum.
+EODEM modo commensurabiles sunt lineæ 20, palmorum & lineæ 12, palmorum, Quia eas lineæ, tam vnius palmi,
+quàm dimidiati palmi, quàm tertiæ partis vnius palmi metitur.
+Similiter commensurabiles dicuntur superficies, quas vna & eadem superficies metitur.
+Item corpora, solidaue, commensurabiliaque metiri idem corpus solidum.
 
 DEFIN. II.
 
-I N C O M M E N S V R A B I L E S autem quarum nullam communem mensuram  
+INCOMMENSVRABILES autem quarum nullam communem mensuram
 contingit reperiri.
 
-a  
-b  
-R 32.
+a
+b
+4
+R& 32
 
-INCOMMENSVRABILES magnitudines a, & b, quia nullam inter se  
-habent communem mensuram, quæ vtramque metiri possit.  
-Rursus superficies dicuntur incommensurabiles, solidæ incommensurabilia, quæ nullam  
+INCOMMENSVRABILES magnitudines a, & b, quia nullam inter se
+habent communem mensuram, quæ vtramque metiri possit.
+Rursus superficies dicuntur incommensurabiles, solidæue incommensurabilia, quæ nullam
 communem admittunt mensuram.
 
 EX CLAVIO.
 
-TALES magnitudines sunt diameter quadrati cuiusſis, & latus eiusdem, quoniam nullam habent communem mensuram,  
+TALES magnitudines sunt diameter quadrati cuiusſis, & latus eiusdem, quoniam nullam habent communem mensuram,
 vt ex vltima propoſitione libri huius patet.
 
 A
-
-Digitized by Google

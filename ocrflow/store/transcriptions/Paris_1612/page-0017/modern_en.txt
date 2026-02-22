@@ -1,56 +1,57 @@
 THE TENTH ELEMENT.                                   5
+
 FROM CLAVIUS.
 
-THEREFORE, according to the opinion of Euclid, the square root of this number 20. or 1000. &c. Or what is the same, the straight line whose
-square is 20. or 1000. &c. is called Rational, since in power it is commensurable with the Rational line (for indeed both the number
-20. and 1000. are commensurable with the number of any square, as 16. 100. &c.) although in length it is incommensurable
+THEREFORE, according to the opinion of Euclid, the square root of this number is 20. or 1000. etc. But what is the same thing, the straight line whose
+square is 20. or 1000. etc. is called Rational, since in power it is commensurable with the Rational line (for indeed both the number
+20. and 1000. are commensurable with any square number, as 16. 100. etc.) although in length it is incommensurable
 with the same.
-Therefore not a few Arithmeticians are deceived, who for that reason call it Irrational, because it cannot be expressed by number.
+Therefore not a few Arithmeticians are foolish, who for that reason call it Irrational, because it cannot be expressed by number.
 
-DEFIN.  VII.
+DEFINITION VII.
 
 But those incommensurable with this are called Irrational.
 
-Since earlier Euclid has said that lines which are commensurable with a proposed rational line, either
+SINCE earlier Euclid said that lines which are commensurable with a proposed rational [line], either
 in length and power together, or in power only, are rational: it is clear that those which
-exist incommensurable with it in both ways are irrational.
+are incommensurable with it in both ways are irrational.
 
-DEFIN.  VIII.
+DEFINITION VIII.
 
-And the square which is made from the proposed straight line is called Rational.
+And the square which is made from the proposed straight [line] is called Rational.
 
-If from a rational line a square is described, it is necessary that it be rational. For
-just as that line which is proposed is always of known magnitude (since it is taken and set as one at pleasure),
-so the square described from it is always determinate and known and therefore rational.
+IF from a rational line a square is described, it is necessary that it be rational. For
+just as that line which is proposed is always of known magnitude (since it is taken and made one at pleasure),
+so the square described from it is always determinate and known and therefore Rational.
 But other surfaces which are compared with it, if perhaps with that square they have some area
-as a common measure, are called Commensurable; if they do not have it, they ought to be judged Incommensurable.
+as a common measure, are called Commensurable; if they do not have [it], they ought to be judged Incommensurable.
 
-DEFIN.  IX.
+DEFINITION IX.
 
-And those commensurable with this indeed are Rational.
+And those commensurable with this indeed [are called] Rational.
 
-If the proposed square is Rational, all other squares which are commensurable
-with it will be Rational. For just as lines which are commensurable with a proposed rational line,
+IF the proposed square is Rational, all other squares which are commensurable
+with it will be Rational. For just as lines which are commensurable with a proposed rational [line],
 either in length and power together, or in power only, are Rational: so surfaces
-and squares which are commensurable with that surface are Rational.
+and squares which are commensurable with a surface are Rational.
 Which is true not only as far as squares, but also as far as the other
 geometrical figures which among themselves have some area as a common measure.
 
 FROM CLAVIUS.
 
-But since the potent lines themselves are spaces commensurable with the square of the Rational proposed line, they are at least
-commensurable in power with the Rational line from the 3rd definition; it is evident that they also are to be called, according to defin. 6, Rational.
+BUT since lines having powers themselves [i.e., squares on the lines] are spaces commensurable with the Rational square of the proposed Rational line, they are at least
+commensurable in power with the Rational line from the 3rd definition; it is evident that they too are to be called, according to definition 6, Rational.
 
-DEFIN.  X.
+DEFINITION X.
 
 But those incommensurable with this are called Irrational.
 
 FROM CLAVIUS.
 
-In no other way are plane surfaces incommensurable with the square described from a Rational line called Irrational, than lines which
-are altogether incommensurable with a proposed Rational line have been called Irrational.
+IN no other way are plane surfaces incommensurable with the square described on a Rational line called Irrational; and lines which
+are wholly incommensurable with a proposed Rational [line] have been called Irrational.
 
-DEFIN.  XI.
+DEFINITION XI.
 
-And straight lines which can themselves [be] Irrational: if indeed those squares are, the same in breadth-
+And straight [lines], which can [produce] the same, [are] Irrational: if indeed those squares are, the same in breadth-
 B

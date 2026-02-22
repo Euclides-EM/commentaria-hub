@@ -5,72 +5,72 @@ Pronouncements.
 
 I.
 
-A MAGNITUDE, measuring however many
-magnitudes, measures also the composite
-from them.
+A MAGNITUDE, measuring any number of
+magnitudes, measures also the compound one from
+them.
 
 II.
 
-A MAGNITUDE, measuring any
-magnitude, measures also every
-magnitude which that one measures.
+A MAGNITUDE, measuring any magnitude,
+measures also every magnitude which that one
+measures.
 
 III.
 
-A MAGNITUDE measuring the whole
-magnitude, and the part taken away, measures
-also the remainder.
+A MAGNITUDE measuring a whole magnitude,
+and a part taken away, measures also the remainder.
 
-THESE axioms, insofar as they pertain to numbers, were set forth
-by us in the last three pronouncements of book 7. Therefore since the
+T H E S E axioms, insofar as they pertain to numbers, were set forth
+by us in the last three pronouncements of book 7. Wherefore since the
 same reasoning holds in magnitudes, there is no reason that we should
-repeat their demonstrations here in vain, especially since they can be
-transferred here word for word, only changing the word “number” into
-the word “magnitude”.
+repeat their demonstrations here in vain, especially since, word for word,
+they can be transferred hither, only changing the word “number” into the
+word “magnitude”.
 
-MOREOVER, because in this book we had to depart from the numbering
-which Theon follows in Euclid’s propositions, as we shall say at prop. 13,
-and likewise we have neglected Campanus’s sequence throughout, as we
-taught at the beginning of the first book; we took care that a double
-number be placed in the margin opposite the propositions, of which the
-upper shows Theon’s order, the lower however shows Campanus’s series.
-But if only one number is found in the margin, then there is at that time
-no difference between
-Theon’s
----
+M O R E O V E R, because in this book we had to depart from the
+numbering which Theon follows in Euclid’s propositions, as we shall say
+at prop. 13, and likewise because in all things we have neglected the series
+of Campanus, as we explained at the beginning of the first book;
+we took care that a double number be placed in the margin opposite the
+propositions, of which the upper shows Theon’s order, the lower however
+shows Campanus’s series. But if only one number is found in the margin,
+then there is no difference at that point between
+Theon
 
-BOOK 9.  X.  7
+BOOK 9. X.
 
-So that you may understand the difference between Theorem and Campanus,
-as far as the numbering of the propositions is concerned.
+Theorem, and the discrepancy of Campanus, understand, as far as
+the numbering of the propositions is concerned.
 
-THEOR. I. PROPOS. I.                                   I.
+THEOR. I. PROPOS. I.
 
-WITH two unequal magnitudes
-having been set out, if from the greater there is taken away
-more than half; and from that which remains, again there is
-taken away more than half; and if this is always done: there
-will at length be left some magnitude which will be less than
-the lesser magnitude proposed.
+WITH two unequal magnitudes proposed,
+if from the greater there is taken away
+more than the half; and from that which
+remains, again there is taken away more
+than the half; and if this is always done:
+there will at last be left some magnitude
+which will be less than the lesser proposed magnitude.
 
-LET there be set out two unequal magnitudes
-A B, and C, of which A B is the greater. I say that if from A B
-there is taken away more than half; and from that which remains,
-again more than half; and if this is always done: there will at
-length be left some magnitude which is less than C. Let C be
-multiplied as many times until the magnitude made D E is
-greater than A B, so that D E is a multiple of C, the least
-greater than A B. And let D E be divided into parts D F, F G,
-G E, equal to C; let there be taken from A B more than half
-A H, and from the remainder H B more than half H I; and let
-this always be done, until the parts of A B are equal in number
-to the parts of D E. Let the parts A H, H I, I B therefore now
-be as many as are D F, F G, G E. Therefore D E is greater than
-A B: but from D E there has been taken away D F, less than half,
-or certainly half, if D E is double of C; but from A B more than
-half A H. The remainder E F will be less than the remainder H B.
-For since D E is greater than A B; if half is taken from D E, and
-also from A B, the remainder from D E would also be greater than
-the remainder from A B. If therefore from D E there is taken away
-less than half, or certainly half, and from A B more than half,
+LET there be proposed two unequal magnitudes
+A B, and C, of which A B is the greater. I say that if from A B there is
+taken away more than the half; and from that which remains, again more
+than the half; and if this is always done: there will at last be left some
+magnitude which is less than C. Let C be multiplied as many times until
+the magnitude made D E is greater than A B, so that D E is a multiple of C,
+the nearest greater than A B. Let D E be divided into parts D F, F G,
+G E, equal to C; let there be sub-
+tracted from A B more than
+the half A H, and from the re-
+mainder H B more than the
+half H I; and let this always be done, until the parts of A B are equal in
+number to the parts of D E. Let therefore now the parts A H, H I, I B be
+as many as are D F, F G, G E. Therefore since D E is greater than A B:
+but from D E there has been taken away D F, less than the half, or at least
+the half, if D E is double of C; and from A B however more than the half
+A H. The remainder E F will be less than the remainder H B. For since
+D E is greater than A B; thus if from D E the half is taken away, and also
+from A B the half, the remainder from D E is also greater than the
+remainder from A B. If therefore from D E there is taken away less than
+the half, or at least the half, and from A B more than the
 half;

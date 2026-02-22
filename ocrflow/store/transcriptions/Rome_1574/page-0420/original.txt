@@ -1,15 +1,15 @@
-❦ EUCLID. GEOM. ❦                         ❦ L I B E R  X. ❦ 6
-                 X.
+❦ EVCLID. GEOM. ❦                         ❦ L I B E R  X. ❦ 6
+                     X.
 
-HVIC vero incommensurabilia, Irra-
+HVIC vero incommenſurabilia, Irra-
 tionalia dicantur.
 
   N O N aliter ſuperficies plana quadrato a Rationali linea
 deſcripta incommenſurabiles, Irrationales vocantur, ac li-
-neæ, quæ Rationali propoſitæ prorsus incommenſurabiles ſunt,
+neæ, quæ Rationali proportione prorsus incommenſurabiles ſunt,
 Irrationales ſunt dictæ.
 
-                 XI.
+                     XI.
 
 ET rectæ, quæ ipſa poſſunt, Irrationa-
 les: ſi quidem ea quadrata ſint, ipſa latera;
@@ -27,13 +27,13 @@ quadrata æqualia illis ſpatiis incommenſurabilibus, Irra-
 tionales.
 
   C O L L I G I T V R autem, lineas potentes ſpatia incom-
-menſurabilia quadrato Rationalis lineæ, dici debere Irratio-
+menſurabilia quadrato Rationalis lineæ, dici debere Ir ratio-
 nales, ex 7. defin. quemadmodum ſupra ex 6. defin. collegi-
 mus, lineas quæ poſſunt ſpatia commenſurabilia eidem qua-
-drato Rationalis lineæ, appellari debere Rationales. Nam il-
+drato Rationalis lineæ, appellari debere Rationales, Nam il-
 læ, quæ poſſunt illa ſpatia incommenſurabilia, ſunt poten-
 tia incommenſurabiles lineæ Rationali, ex 4. defin. Cum er-
-go omnes lineæ potentià incommenſurabiles, ſint quoque incom-
+go omnes lineæ potentià incommenſurabiles, ſint quoq; incom-
 menſurabiles longitudine, vt ad defin. 4. diximus, demonſtra-
 biturq; in coroll. propoſ. 9. manifeſtum eſt, ex 7. defin. lineas
 illas, quæ poſſunt ſpatia incommenſurabilia quadrato Ra-
@@ -42,35 +42,35 @@ tionalis lineæ, dici Irrationales.
 P R Æ F A T E R E V N D V M quoque non eſt, Euclidem & 
 veteres Geometras hæc voce: longitudine & potentià, atq;
 potentià tantum: apponere fere ſemper vocibus illis: commen-
-ſurabiles, & incommenſurabiles: Vix autem, & rarifſime
+ſurabiles, ac incommenſurabiles: Vix autem, & rarifſime
 his: Rationales, & Irrationales: Recte enim dicuntur lineæ
 commenſurabiles longitudine & potentià, vel potentià tantùm;
 Item incommenſurabiles longitudine & potentià, vel longitu-
 dine tantum: Minus vero recte Rationales longitudine & po-
-tentià, vel potentià tantum, aut Irrationales longitudine & 
+tentià, vel potentià tantùm, aut Irrationales longitudine & 
 potentià, vel longitudine tantum. Quod quidem, quoniam
 Campanus non animadvertit, occaſionem multis præbuit, vt
 varie, & obſcure in hoc 10. lib. de lineis commenſurabilibus,
-incommenſurabilibusq; nec non Rationalibus, Irrationali-
+incommenſurabilibusq;, nec non Rationalibus, Irrationali-
 busq; loquerentur.
 
-C Æ T E R V M his definitionibus adiungemus poſtula-
+  C Æ T E R V M his definitionibus adiungemus poſtula-
 tum vnum, & nonnulla pronunciata, quorum vſus in hoc li-
 bro reperitur.
 
 P O S T V L A T V M,
 ſiue Petitio.
 
-POSTVLETVR, quamlibet ma-
+POSTVLET V R, quamlibet ma-
 gnitudinem toties poſſe multiplicari, do-
 nec quamlibet magnitudinem eiusdem ge-
 neris excedat.
 
-  P R O P O S I T I S enim duabus magnitudinibus eius-
+  P R O P O S I T I O enim duabus magnitudinibus eius-
 dem generis inæqualibus, cum maior infinita non ſit,
-minor vero infinite poſſit augeri; perſpicuum
+minor vero infinita poſſit augeri; perſpicuum
 eſt, minorem toties poſſe multipli-
 cari, donec ſuperet
 maiorem.
 
-M X 10.
+M XIO.

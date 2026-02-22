@@ -14,12 +14,12 @@ menſura deſcriptum metitur tanquã
 menſura communis earum quadrata,
 ut in ſubiecta figura apparet; ſicut enim recta A B, metitur
 rectas CD, EF, ita quo; quadratũ AG, quadrate CH, EI,
-metitur. Non autẽ, vt omnes lineæ potentia commenſurabiles,
+metitur. Non autem, vt omnes lineæ potentia commenſurabiles,
 ſint etiam commenſurabiles longitudine; multæ enim lineæ
 ſunt potentia commenſurabiles, hoc eſt, quadrata habent com
 menſurabilia, quæ tamen longitudine omnino incommenſura
 biles ſunt, vt in hoc libro demonſtrabitur, Rurſus inter lineas
-incommenſurabiles tam longitudine quàm potentia, huius-
+incommenſurabiles tam longitudine quàm potentia, huiuſ-
 modi colligatio reperitur, vt omnes lineæ potentia incommen-
 ſurabiles, ſint etiam incommenſurabiles longitudine; Non au-
 tem contra, vt omnes lineæ longitudine incommenſurabiles,
@@ -29,10 +29,8 @@ potentia, hoc eſt, ſecundum earum quadrata, commenſurabi-
 les exiſtant. Quæ quidem omnia perſpicua erunt ex coroll.
 propoſ. 9. huius libri.
 
-I
-H
-G
-E  F C  D A B
+I   H   G
+E F C D A B
 
 V.
 HIS poſitis, oſtenditur, cuicunq; re-
@@ -43,4 +41,4 @@ dine, & potentia; alias vero potentia ſo-
 lum. Vocetur autem propoſita recta li-
 nea, Rationalis.
 
-st
+ſ1

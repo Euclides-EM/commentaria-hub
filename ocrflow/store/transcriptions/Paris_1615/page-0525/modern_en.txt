@@ -8,8 +8,8 @@ length.
 
 SCHOLIUM.
 
-If AB side of the square is 1, the diagonal AC will be √ 2 : so
-that the ratio of the side to the diameter is as 1 to √ 2; that is to say in-
+If AB the side of the square is 1, the diagonal AC will be √2 : so
+that the ratio of the side to the diameter is as 1 to √2; that is to say in-
 commens. in length.
 
 End of the tenth book.

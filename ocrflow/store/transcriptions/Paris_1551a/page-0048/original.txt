@@ -1,35 +1,35 @@
-LIBER    X.    3.
+LIBER     X.     3.
 
 tiatur una quapiã superficies, uerbi gratia superficies
 ā,quæ metiatur primò quadratum b c d e, nouies repe-
-tita,qui eft numerus areolarum in eodẽ quadrato de-
-fcriptarum.Præterea metiatur quadratũ f h i k, qua-
-ter repetita, fecundum numerum ſuarum areolarum.
+tita,qui est numerus areolarum in eodẽ quadrato de-
+scriptarum.Præterea metiatur quadratũ f h i k, qua-
+ter repetita, secundum numerum suarum areolarum.
 Erit itaque superficies ā,illa,quæ metitur ea quadrata:
 duo.Horum ergo,quadratorũ inquam, b c d e,f h i k,
-latera ſue lineæ potentes illa quadrata,quæ ſunt lineæ
-b c,f h,erunt potentiâ commenſurabiles.
+latera sue lineæ potentes illa quadrata,quæ sunt lineæ
+b c,f h,erunt potentiâ commensurabiles.
 
-Incommenſurabiles verò lineæ ſunt, quarum qua-
+Incommensurabiles verò lineæ sunt, quarum qua-
 drata,quę metiatur area communis, reperiri nul
-la poteſt.
+la potest.
 
-Hoc loco nihil aliud dico,quàm ut adiunes intelligentiam:
-huius loci additione uocis, potentia , quæ ſuperiori de-
-finitioni additur,ut intelligas de lineis illis quæ ſunt in-
-commenſurabiles potentiâ.quæ cum ſint potentiâ incō-
-menſurabiles:illud quoque habent,ut ſint præterea lon
-gitudine incommenſurabiles.hactenus dictũ ſit. Quòd
-ſi plura hoc quidem loco ſcire deſideres:peruerteres ordi-
-nem diſciplinæ,qui certiſſimus eſt ad diſcedũ magiſter.
+Hoc loco nihil aliud dico,quàm ut adiunes intelligentiam
+huius loci additione uocis, potentia , quæ superiori de-
+finitioni additur,ut intelligas de lineis illis quæ sunt in-
+commensurabiles potentiâ.quæ cum sint potentiâ incō-
+mensurabiles:illud quoque habent,ut sint præterea lon-
+gitudine incommensurabiles.hactenus dictũ sit. Quòd
+si plura hoc quidem loco scire desideres:peruerteres ordi-
+nem disciplinæ,qui certissimus est ad discendũ magister.
 
-Hæc cum ita ſint,oſtendi poteſt,quòd quātacung;
-linea recta nobis proponatur:exiſtunt etiam alię
-lineæ innumerabiles eidem cõmenſurabiles:alię
-item incommenſurabiles. hæ quidem longitudine:
+Hæc cum ita sint,ostendi potest,quòd quātacung;
+linea recta nobis proponatur:existant etiam alię
+lineæ innumerabiles eidem cōmensurabiles:alię
+item incommensurabiles. hæ quidem longitudine :
 & potentiâ:illæ verò potentiâ tantùm.
 
-Huius libri præcipuum illud eſſe uelim ſcias, quod non, ut
-cæterorum ſuperiorum,in prima lectione percipi poſſit.
+Huius libri præcipuum illud esse uelim scias, quod non, ut
+cæterorum superiorum,in prima lectione percipi possit.
 
 B iij

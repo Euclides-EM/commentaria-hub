@@ -3,51 +3,50 @@ IT BEGINS
 THE TENTH BOOK OF EUCLID OF
 MEGARA, AMONG THE OTHERS DIFFICULT
 
-by Nicolo Tartalea of Brescia set in order (accord-
-ing to the two translations, and from the Latin into
-the vernacular translated, and in every
-obscure passage
-clarified.
+by Nicolo Tartalea of Brescia revised (accord-
+ing to the two translations, & from the Latin into
+the vernacular translated, & in every
+dark passage il-
+luminated.
 
 First definition.
 
 1 Those quantities shall be called communicating, or commensu-
 rable, for which there will be a quantity numbering, commonly
-those. And those for which there will not be a quantity numbering
-commonly those shall be called incommensurable.
+those. And those for which there will not be a quantity numbering com-
+monly those shall be called incommensurable.
 
 The Translator.
 
-F or example, if there were the two lines a and b, and if there were found some
-other line, or measure, that numbered, or measured each of those
-(let it be c), the said two lines shall be called communicating, or commen-
-surable. But when there is not found any sort of line that numbers, or
-measures commonly the said two proposed lines, those shall be called
-incommunicating, or incommensurable, and the same must be understood
-in surfaces, and bodies
+E For example if there were the two lines a & b, & if there were found some
+other line, or measure that numbered, or measured each of those
+(let it be c) the said two lines shall be called communicating, or commen-
+surable. But when there is not found any sort of line that numbered, or
+measured commonly the said two proposed lines those shall be called
+incommunicating, or incommensurable. And the same must be understood
+in surfaces, & bodies
 
-Definition ii.
+Second definition.
 
 2
-3 Straight lines are said to be in power communicating, when a
+3 Straight lines are called in power communicating, when a
 common surface numbers the square surfaces of those.
 
 The Translator.
 
-F or example, if there were the two straight lines a.b and c.d, and the square
-surfaces of those, a.b.e.f and c.d.g.h. And if there were found some surface (let
-it be i) that numbered or measured each of those, the said
+E For example if there were the two straight lines a b, & c d, & the square surfaces
+of those a b e f, & c d g h. And if there were found some surface (let us
+call it i) that numbered or measured each of those, the said
 two lines shall be called communicating, or commensurable in power.
 
-Definition iii.
+Third definition.
 
 2
-4 Lines are said to be incommensurable in power when there will not
-be any common surface that numbers the square
-surfaces of those.
+4 Lines are called incommensurable in power when there will not
+be any common surface that numbers the square surfaces
+of those.
 
 The Translator,
 
-T his definition is easily understood from the converse of the preceding,
-that is, that when there will not be any common surface that numbers
-or
+T This definition is easily understood from the converse of the prece-
+ding, that is, that when there will not be any common surface that numbers

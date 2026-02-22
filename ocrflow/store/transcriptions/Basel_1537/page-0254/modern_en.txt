@@ -4,42 +4,44 @@ ELEMENTS OF GEOMETRY.
 
 243
 
-From Campanus                       Definitions
+From Campanus                         Definitions
 
-Quantities for which there is one quantity common
-to them that measures them are called commensurable.
+Quantities for which there is one common quantity
+measuring them are called commensurable.
 2    But those for which there is not one common quan-
 tity measuring them are called incommensurable:
 3    Lines commensurable in power are called those
-whose square surfaces one common surface measures. 4    Lines incommensurable in power are called those
-whose square surfaces one common surface does not measure. And
-since these things are so, it is clear that for any given line, many others are in-
+whose square surfaces one common surface
+measures. 4    Lines are called incommensurable in power, of which
+the square surfaces are not measured by one common surface. Since
+these things are so, it is clear that for any given line, many others are in-
 commensurable, some in length only, some in length
-and power. 5    And every line set down with which we reason is
+and power. 5    And every line with which we reason, being given, is
 called rational. 6    And lines commensurable with it are called rational.
 7    But those incommensurable with it are called irrational or surds.
 8    And every square surface about which by hypothesis we reason
 is called rational. 9    And surfaces commensurable with it are called
 rational. 10    But surfaces incommensurable with it are called
-irrational or surds. 11    But the sides which can be set on those squares
+irrational or surds. 11    But the sides which make those squares
 are called irrational.
 
-Euclid, from Zambertius              Definitions
+Euclid from Zamberti                         Definitions
 
 Commensurable magnitudes are called those which the same
-measure will measure. 2    But incommensurable are those
-which fall under the dimension of no common measure. 3    Straight
-lines are commensurable in power when the squares from them are
-measured by the same area. 4    But they are incommensurable when
-no common area can be a measure of those which are squared from them.
-With these set forth it is indicated that the proposed straight line, that is, from which
-cubit, palm, digit, and foot measures are taken, itself has
+measure will measure. 2    But incommensurable [are those]
+which fall under the dimension of no common measure.
+3    Straight lines are commensurable in power when the squares
+from them are measured by the same area.
+4    But incommensurable when no common area can be a measure
+of those which are made into squares from them.
+With these set forth it is shown that the proposed straight line, that is, from which
+both cubits, and palms, and digits, and feet are taken as measures, itself has
 straight lines in infinite multitude commensurable and incommensurable.
 Commensurable indeed, either in power only, or in power and length
 together. But incommensurable, either in length only, or in length
-and power together. 6    Therefore the proposed straight line itself is
-called rational. 7    And those commensurable with it either in length and
-power, or in power only, are rational. 8    But those incommensurable
+and power together. 6    Therefore the proposed straight
+line itself is called rational. 7    And those commensurable with it either in length and
+power, or in power only, [are called] rational. 8    But those incommensurable
 in both, that is in length and power, are called irrational.
-9    And that which is a square from the proposed straight line is rational.
+9    And that which is a square from the proposed straight line, [is] rational.
 x 2     10    And

@@ -1,40 +1,37 @@
 BOOK X. 283.
 
-since their squares too are incommensurable, he calls them in-
+since their squares also are incommensurable, he calls them in-
 commensurable in power.
 
-BUT lines commensurable both in length
-and in power have, as it were, this agreement among
-themselves, and connection, that lines commensurable
-in length are also commensurable in power, so that no
-lines can be given commensurable in length, whose
-squares are not also commensurable; be-
-cause the square described from their common
-measure measures, as a common measure, their squares,
+But lines commensurable both in length
+and in power have, as it were, this agreement among themselves, and con-
+nection, that lines commensurable in length are also commen-
+surable in power, so that no lines can be given commensura-
+ble in length whose squares are not also commensurable; be-
+cause the square described on their common mea-
+sure measures, as a common measure, their squares,
 as appears in the figure set below; for just as the straight line A B measures
 the straight lines CD, EF, so also the square AG measures the squares CH, EI.
 But it is not the case that all lines commensurable in power
 are also commensurable in length; for many lines
-are commensurable in power, that is, have commensurable
-squares, which nevertheless are altogether incommensura-
+are commensurable in power, that is, have commen-
+surable squares, which nevertheless are altogether incommensura-
 ble in length, as will be demonstrated in this book. Again, among lines
-incommensurable both in length and in power, a con-
-nection of this kind is found, that all lines incommen-
+incommensurable both in length and in power, such
+a connection is found, that all lines incommen-
 surable in power are also incommensurable in length; but not
 conversely, that all lines incommensurable in length
 are also incommensurable in power, since many lines are found
 incommensurable in length with one another, while nevertheless
 in power, that is, according to their squares, they are commensura-
-ble. All which indeed will be made clear from the corollary of
-proposition 9 of this book.
+ble. All these things indeed will be made clear from the corollary
+of proposition 9 of this book.
 
-I
-H
-G
-E  F C  D A B
+I   H   G
+E F C D A B
 
 V.
-THESE things being set down, it is shown that, to any
+These things being set down, it is shown that, to any
 given straight line, there are infinitely many straight lines
 both commensurable and in-
 commensurable: some indeed in length
@@ -42,4 +39,4 @@ and in power; but others in power
 only. Let the given straight
 line be called Rational.
 
-st
+s1

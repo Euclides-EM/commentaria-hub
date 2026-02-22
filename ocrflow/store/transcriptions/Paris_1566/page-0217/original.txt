@@ -1,13 +1,13 @@
 E V C L. E L E M E N T.  G E O.
 
 eiusdem actionum vel passionum nobis acquiritur intellectus: Hæc autem certitudo tum adest, cùm
-supponimus, aut intelligimus quantitatis lineæ naturam siue originem, hoc est, denominationem: quia
-verè quamlibet nobis proponere licet (vt diximus proœmio) eam quæ proposita fuerit certam nun-
+supponimus, aut intelligimus quantitatis lineæ naturam sive originem, hoc est, denominationem: quia
+verè quamlibet nobis proponere licet (ut diximus proœmio) eam quæ proposita fuerit certam nun-
 cupabimus.
 
 Diffinitio sexta.
 
-Et quæ huic commensurabiles, siue longitudine & potentia, siue poten-
+Et quæ huic commensurabiles, sive longitudine & potentia, sive poten-
 tia tantùm certæ.
 
 Diffinitio septima.
@@ -15,26 +15,26 @@ Diffinitio septima.
 Quæ verò eidem longitudine & potentia incommensurabiles, incertæ
 appellentur.
 
-Quoniam dixi rectam in recta commensurabilem posse fieri, potentia tantùm, ac insuper potentia
+Quoniam dixi rectam in rectâ commensurabilem posse fieri, potentia tantùm, ac insuper potentia
 & longitudine aliam, has omnes quæ certæ, vel potentia tantùm, aut quidem longitudine &
 potentia simul commensurabiles existunt, similiter certas vul vocari. Sufficit etenim vt certa dica-
 tur aliqua recta, eam aliqua commensuratione, longitudinis, vel potentiæ, cum certa coniungi: propo-
 sta. E contrà autem incertam dici eam, quæ cum certa proposita nullam habet commensurationem,
-siue sua longitudine, siue suis ipsius potentiæ comparatæ. Cur autem certam dixerit Euclides eam re-
+sive sua longitudine, sive suis ipsius potentiæ comparatâ. Cur autem certam dixerit Euclides eam re-
 ctam, quæ proposita certa potentiæ tantùm commensurabilis existit, licet longitudine eidem proposi-
-tæ sit incommensurabilis, quidam ignorandù putarent. Cum enim geometricarum quantitatum af-
+tæ sit incommensurabilis, quidam ignorare videntur. Cum enim geometricarum quantitatum af-
 finitas, qua ratio dicitur, præcipua disiunctione, per cognitâ & incognitam diuisa sit. Cognita autem per
 numeros tantùm exprimenda sit, numerorum naturam sequitur Euclides in exprimendis quantita-
 tum respectibus: nam licet omnis numerus latus sit cuiusdam quadrati, non tamen omnis numerus la-
-tus habet quadratum, omnes autem numeri inuicem sunt commensurabiles. Sequetur itaque si qua-
+tus habet quadratum, omnes autem numeri inuicem sunt commensurabiles. Sequitur itaque si qua-
 dratum lineæ quæ proposita certa fuerit longitudine incommensurabilis, sit commensurabile qua-
 drato ipsius certæ (hoc est per aliquas numerorum unitates eadem mensura vtraque quadrata metia-
 tur) illa rationem numerorum inter se habere dicentur (nempe communi mensuram repetentium) sed
-quadrata à lateribus in se ductis oriuntur. Sequetur igitur eas lineas quæ per se ductæ, areas ratio-
+quadrata à lateribus in se ductis oriuntur. Sequuntur igitur eas lineas quæ per se ductæ, areas ratio-
 nem numerorum (hoc est certam) habentes, generant, non posse hac certitudine priuari, eo quod ad se
-unitates generant quas & certæ. Quare ea de causa certas esse (si se reperit Euclides) reliquas verò è con-
+unitates generant quas & certæ. Quare ea de causa certas (siue reperit Euclides, reliquas verò è con-
 tra, quæ per se ductæ areas incommensurabiles producunt, & proinde longitudinem ac potentiam in-
-commensurabiles habent, incertas nuncupauit, & certas rationem habent ignotam, eo quod que-
+commensurabiles habent, incertas nuncupauit, & ad certas rationem habent ignotam, eo quod que-
 libet unitates eis applicatæ, sint ad inuicem incommensurabiles, ac rationem habent incertam.
 
 M O N I T V M.
@@ -43,17 +43,17 @@ Hanc autem certam verterunt Campanus & Zambertius latinè rationalem, longè qui
 co exemplari, vti verò enim Græcam hac voce ῥητὴ, quod verius pro certa determinata ac manife-
 sta legitur, & insuper huic sententiæ plus consentiret certa, quàm rationalis. Nam dictio rationalis,
 habitum pro se fert, aut actione, aut passione. Si enim rationalis dicatur certa proposita actione, eo
-quòd ad aliam rationem habeat aliquam aut passione, quòd alia ad eam rationem habeat, hinc denomi-
+quòd ad aliam rationem habeat aliquam aut passione, quòd alia ad eam rationem habeat, hanc denomi-
 natio non tantùm ei conuenit, sed quibuscunque sibi incommensurabilibus, siue etiam incertis. Illæ na-
-que ad alias eiusdem generis (quoad dimensiones) rationem habent cognita inter se certa, ad alias
+que ad alias eiusdem generis (quoad dimensiones) rationem habent cognita inter se certâ, ad alias
 autè siue ad certas rationem habet, cùm sint eiusdem generis quoad quantitatem (per tertiam diffini-
-tionem quinti) tamen ignotam. Omnes igitur rationales dici merentur, eò quod inter se rationem
+tionem quintì) tamen ignotam. Omnes igitur rationales dici merentur, eò quod inter se rationem
 habeant. Ac ad alias, quod esset confusum ac proinde absurdum, haud secus, ac si aliquam lineam solam ra-
-tionalem vocaremus, à ratione si habita, nam sola linea rationem non habet, cùm ratio duos saltem re-
+tionalem vocaremus, à ratione habitus, nam sola linea rationem non habet, cùm ratio duos saltem re-
 quirat terminos. Non igitur aptè denominari poterunt illæ propositæ rectæ rationales, sed certæ aut
 determinatæ, &c. Præterea nec videmus Euclidem vocasse illas rationales, sed certas. Campanum au-
-tem & Zambertium id sibi sumpsisse tantùm, quare cùm apposita huic ῥητὴ dictionem scripsit
-Theon λογου septima hac diffinitione non Græcâ Euclidis voce (quâ potius ἄῤῥητον dixisset pro
-incerta) sed manifestam est, eam extra Euclidis sententiam, irrationalis vocem protulisse, quas per rationis priuationem, incertas nuncuparet magnitudines, quæ inter se, vt diximus, cer-
+tem & Zambertium id sibi sumpsisse tantùm, quare cùm apposita huic ῥητῷ dictionem scripsit
+Theon λογου septima hac diffinitione non Græcâ Euclidis voce (quâ potius ἀῤῥητον dixisset pro
+incerta) sed manifestam est, et eum extra Euclidis sententiam, irrationalis vocem protulisse, quas per rationis priuationem, incertas nuncuparet magnitudines, quæ inter se, vt diximus, cer-
 tam & cognitam rationem habent, ad certas verò licet incognitam vel indeterminatam habet ra-
-tionem
+tiones

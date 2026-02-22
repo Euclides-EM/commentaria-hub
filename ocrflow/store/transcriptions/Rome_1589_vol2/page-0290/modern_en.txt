@@ -1,30 +1,29 @@
 BOOK.  X.  287
 
-It is concluded, however, that lines which can produce areas incommen-
-surable with the square on a Rational line ought to be called Irrationa-
-l, from the 7th definition; just as above from the 6th definition we conclude
-that lines which can produce areas commensurable with the same square
-on a Rational line ought to be called Rational. For lines
-which can produce those incommensurable areas are in power in-
-commensurable with the Rational line, from the 4th definition. Since therefore all
+It is concluded, however, that lines which can [produce] spaces incommen-
+surable with the square on a Rational line, ought to be called Irrationa-
+l, from def. 7. just as above from def. 6 we concluded
+that lines which can [produce] spaces commensurable with the same square
+on a Rational line, ought to be called Rational. For the lines
+which can [produce] those incommensurable spaces are in power in-
+commensurable with the Rational line, from def. 4. Since therefore all
 lines incommensurable in power are also incommen-
-surable in length, as we said at the 4th definition, and it will be demon-
-strated in the corollary of proposition 2, it is clear, from the 7th definition, that those
-lines which can produce areas incommensurable with the square on a Ratio-
-nal line are called Irrational.
+surable in length, as we said at def. 4, and it will be demon-
+strated in the corollary of prop. 2, it is manifest, from def. 7, that those
+lines which can [produce] spaces incommensurable with the square on a Ra-
+tional line, are called Irrational.
 
-Nor is it to be passed over that Euclid and the an-
-cient Geometers almost always add these words: in length and in power, and in
-power only, to these words: commen-
-surable and incommensurable; but scarcely, and very rarely, to these:
-Rational and Irrational. For lines are rightly said to be com-
-mensurable in length and in power, or in power only;
-likewise incommensurable in length and in power, or in length
-only; but less rightly Rational in length and in
+Nor is it to be passed over that Euclid and the
+ancient geometers almost always add these words: in length and in power, and in
+power only, to these words: commensurable and incommensurable; but scarcely,
+and very rarely, to these: Rational and Irrational. For lines are rightly said
+commensurable in length and in power, or in power only;
+likewise incommensurable in length and in power, or in length only.
+But less rightly [they are called] Rational in length and in
 power, or in power only, or Irrational in length and
-power, or in length only. Which indeed, because
-Campanus did not notice, provided an occasion for many, that
-variously and obscurely in this 10th book, concerning commensurable lines,
+power, or in length only. Which indeed, since
+Campanus did not notice, gave occasion to many, that
+yesterday, and obscurely in this 10th book, concerning commensurable lines,
 and incommensurable, and also Rational and Irrational,
 they have spoken.
 
@@ -33,10 +32,9 @@ late, and certain propositions, the use of which is found in this
 book.
 
 POSTULATE, OR
-Request.
-LET IT BE POSTULATED, that any mag-
-nitude can be multiplied so many times, un-
-til it exceeds any magnitude of the same
+Petition.
+LET IT BE POSTULATED, that any magnitude can be multiplied as many times as [needed], un-
+til it exceed any magnitude of the same
 kind.
 
 PROPO-

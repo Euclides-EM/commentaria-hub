@@ -1,42 +1,42 @@
-280  ❦❦  EVCLID. GEOM.  ❦❦
+280  EVCLID. GEOM.
 
 nis ipſis atque ſolidis dici poteſt, quippe cum in hæc incom-
-ſurabilia ſæpenumero exiſtant, vt ad finem huius libri demon-
-ſtrabimus. Quoniam vero hic liber multis obſcurus eſt diffi-
-cultatibus, ob linearum, de quibus diſſerit, obſcuritatem; om-
+ſurabilia ſæpenumero exiſtat, vt a ſinēm huius libri demō-
+ſtrabimus. Quoniam vero hic liber multis obſcurus eſt dif-
+ficultatibus, ob linearum, de quibus diſſerit, obſcuritatem; om-
 nes neruos induſtriæ meæ in eo contendam, vt ex his, quæ ha-
-ctenus ab Euclide ſunt demonſtrata, ita planus reddatur, ac
-facilis, vt ſine multo labore a quouis, qui præcedentium tam
+ctenus ab Eucliſe ſunt demonſtrata, ita planus reddatur, ac
+facilis, vt ſine multo labore a quouis, qui præcedentiū tam
 librorum demonſtrationes recte intellexerit, poſſit percipi. Ne-
-que enim in eorum poſſum ſententiam ire, qui putant ad eius
-intelligentiam eſſe neceſſariam eam partem Arithmetices,
+que enim in eorum poſſum ſententiam ir••, qui putant ad eius
+intelligentiam eſſe neceſſariam eam partem Arithmetiæ,
 quæ de radicibus numerorum, tam rationalibus quàm in-
 tionalibus, vt vocant, ſermonem inſtituit : Immo con-
 tra perſuaſum mihi prorfus habeo, cognitionem perſectam
 illius partis Arithmetices pendere ex hoc 10. lib. tantum
 abeſt, vt exiſtimem, tractationem illam radicum requiri
-vt facilis hic liber intelligatur. Non negarin tamen
-eum, qui rationem radicum atque calculum tenet, mai-
-orem cum voluptate hunc librum percepturum, quam qui illarum
+vt facilis hic liber intelligatur. Non negari tamen
+eum, qui rationem radicum atque calculum tenet, maiōr
+cum voluptate hunc librum percepturum, quam qui illarum
 omnino ſit ignarus, propterea quod ille demonſtrationes ad
 vſum poteſt reuocare, hic vero nullo modo. Hac enim de cau-
 ſa & nos priora decem theoremata ſecundi lib. numeris ac-
 commodauimus, vt oblectationem animi maiorem ex eo ſtu-
 diosus caperet, ac fructum; non autem vt ea, quæ in illo demon-
-ſtrantur, facilius arbitraremur intelligi poſſe ex numeris. Cur
-ergo (dicet aliquis) vt in eo libro, non perinde etiam in hoc
-exempla numerorum, quibus Algebra vtitur, vſurpaſti, vt
-ea res & maiori voluptati eſſet, & commodius legentibus? In
+ſtrantur, facilius arbitraremur intelligi poſſe ex numeris. Er
+go (dicet aliquis) vt in eo libro, non perinde etiam in hoc
+exempla numerorum, quibus Algebra vtitur, vſurpaſſi, vt
+ea res & maiori voluptati eſſet, & commodius legentibus? I
 promptu cauſa eſt, quare id omittendum putauimus. Cum
 enim perpauci ſint hoc tempore, quibus celeberrima illa Al-
 gebra ars ſit cognita, viderentur numeri illi, ſi adhiberentur,
 tenebras potius offuſuri, quam lucis aliquid maioris daturi,
-& perſpicuitatis; quippe ita ingenia ſtudioſorum pro adſue-
+& perſpicuitatis; quippe ita ingenia ſtudioſorum pro admi-
 to, ac luce, quam his noſtris commentariys afferre laboramus,
 plus caperent incommodi, minuſq; demonſtrationes ipſas per-
 ciperent: Id quod in lib.2.accidere non potuit, cum additionem
 numerorum integrorum, ac multiplicationem, quæ ſola neceſ-
 ſariæ ibi fuerunt, nemo fere ſit, qui ignoret. Huc accedit, quod
 qui in Algebra ſunt verſati, facili negotio demonſtrationes
-huius lib. ad numeros accommodare poſſunt per ſe ipſos, qua
+huius lib.ad numeros accommodare poſſunt per ſe ipſos, qua
 do volunt

@@ -9,13 +9,12 @@ DEFINITIONS.
     magnitudes are those mea-
     sured by one and the same mea-
     sure.
-
 2.  Incommensurable mag-
     nitudes are those which have
     no common measure.
 
-Such magnitudes are the diameter of some square, and the side
-of it; for these have no common measure, as will be de-
+Such magnitudes are the diameter of some square, and its side;
+for these have no common measure, as will be de-
 monstrated in the last prop. of this book. There are also several other
 incommensurable lines, namely those to which one cannot give
 any common measure, many of which will be explained in this

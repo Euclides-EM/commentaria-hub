@@ -5,8 +5,8 @@ urged me to the commentary on the whole book, so that whatever
 light the obscurity of unknown things might desire, that
 as far as there was ability in my talent, and as far as long
 study of this most excellent discipline might have helped it,
-I myself might bring to us, whom I understand to be carried by the love of truth
-to the knowledge of the most subtle and most worthy things.
+I myself might bring to us, whom I understand to be carried by the zeal for truth
+toward the knowledge of the most subtle and most worthy things.
 
 First Theorem.
 
@@ -20,25 +20,14 @@ Let there be two unequal magnitudes α β, of which
 the greater is α β: I say if from α β there be taken away
 more than the half, and from the remainder again more than the
 half, and this be always done, there will be left some
-magnitude less than ζ, magnitude γ. For γ
+magnitude less than γ, magnitude ζ. For γ
 multiplied will at length sometime be greater than the
-magnitude α β. let it be multiplied and let it be λ. a
-multiple indeed of γ, but greater than α β.
-and let α λ be divided into parts equal to γ,
+magnitude α β. let it be multiplied and let α be made, a
+multiple indeed of γ: but greater than α β.
+and let α be divided into parts equal to γ:
 which are α ζ, ζ η, η ι: and let there be taken away from α β
-more than the half, and let it be β θ. again let there be taken away
-from α θ more than the half, and let it be θ κ, and up to that point
-let it be done, until the divisions of the magnitude α β shall be as many as
-are the divisions in the magnitude α λ. Let therefore the divisions be
-α χ, χ θ, θ β, as many in number as are the divisions
-
-A
-β
-γ
-ζ
-η
-ι
-λ
-θ
-κ
-χ
+more than the half, and let β θ be made. again let there be taken away
+from β θ more than the half, and let θ κ be made, and this up to that point
+be done, until the divisions of the magnitude α β have been as many as
+are the divisions in the magnitude α. Let therefore the divisions
+α κ, κ θ, θ β be equal in number to as many as are the divisions

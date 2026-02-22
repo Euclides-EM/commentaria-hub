@@ -1,46 +1,49 @@
-EUCLID’S  
-BOOK X OF THE ELEMENTS.
+EUCLID’S
+
+ELEMENTS X.
 
 Definitions.
 
 DEFINITION I.
 
-C O M M E N S U R A B L E magnitudes are said to be those which the same  
+COMMENSURABLE magnitudes are said to be those which the same
 measure measures.
 
-a  
-b  
+a
+b
 c
+8
+6
+1
 
-TWO magnitudes a and b are called commensurable because they have a common mea-  
-sure c, which measures each of a and b.
+TWO magnitudes a, & b, are said to be commensurable because they have a common mea-
+sure c, which measures each of a, & b.
 
 FROM CLAVIUS.
 
-IN THE SAME way commensurable are a line of 20 palms and a line of 12 palms, because those lines, both of one palm,  
-and of half a palm, and of a third part of one palm measure them.  
-Likewise surfaces are called commensurable, which one and the same surface measures.  
-Also bodies, solids, commensurable, which the same solid body measures.
+IN THE SAME way commensurable are a line of 20 palms and a line of 12 palms, because a line, both of one palm,
+and of half a palm, and of a third part of one palm measures them.
+Likewise surfaces are said to be commensurable, which one and the same surface measures.
+Also bodies, or solids, and commensurable, which the same solid body measures.
 
 DEFINITION II.
 
-I N C O M M E N S U R A B L E, however, are those for which it happens that no common measure  
+INCOMMENSURABLE are those for which it happens that no common measure
 can be found.
 
-a  
-b  
-R 32.
+a
+b
+4
+R& 32
 
-INCOMMENSURABLE magnitudes a and b, because between themselves they have no  
-common measure, which can measure each.  
-Again surfaces are called incommensurable, solids incommensurable, which admit no  
+INCOMMENSURABLE magnitudes a, & b, because they have no common measure
+between themselves, which can measure each of them.
+Again surfaces are said to be incommensurable, and solids incommensurable, which admit no
 common measure.
 
 FROM CLAVIUS.
 
-SUCH magnitudes are the diameter of any square and its side, since they have no common measure,  
+SUCH magnitudes are the diameter of any square, and the side of the same, since they have no common measure,
 as is clear from the last proposition of this book.
 
 A
-
-Digitized by Google

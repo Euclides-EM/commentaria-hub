@@ -1,21 +1,21 @@
-ELEMENT.                                                                 319.
+ELEMENT.                                            319.
 
-2. A magnitude measuring any magnitude
-also measures every magnitude that
-that one measures.
+2. One magnitude measuring any magnitude,
+also measures every magnitude that that one
+measures.
 
-3. A magnitude which measures an entire
+3. One magnitude which measures a whole
 magnitude, and one taken away, also measures
 the remainder.
 
 THEOR. I. PROP. I.
 
 If two unequal magnitudes are proposed,
-if from the greater one subtracts more than
-the half, and again from the remainder more than the half,
-and continuing always thus: there will remain
-at the end a magnitude smaller than
-the smaller of the two proposed.
+if one subtracts from the greater more than
+the half, and again from the remainder more
+than the half, and continuing always thus:
+there will remain at the end a magnitude
+smaller than the smaller of the two proposed.
 
 Let two unequal magnitudes AB and
 C be proposed, C being the smaller: I say that if one subtracts
@@ -33,12 +33,19 @@ AH, and from the remainder HB more than the half, namely HI, and
 continuing always this until AB is divided
 into as many parts as DE, namely into AH, HI, and IB;
 as DE is divided into DF, FG, and GE. Inasmuch as DE
-is greater than AB, and the subtracted DF is not greater
-than the half of DE; as the subtracted AH is not greater
+is greater than AB, and the part taken away DF is not greater
+than the half of DE; as the part taken away AH is not greater
 than the half of AB, the remainder FE will be greater than the remainder
-HB: similarly if from the greater remainder FE one subtracts FG,
+HB: similarly if from the greater remainder FE, one takes away FG,
 which is not more than the half, and from the smaller remainder HB one
-subtracts more than the half HI; the remainder IB will be smaller than the
-remainder GE equal to C: and consequently IB last part of
+takes away more than the half HI; the remainder IB will be smaller than the
+remainder GE equal to C: and consequently IB the last part of
+
+E
+B
+I G
+H
+F
+A C D
 
 Z  iij

@@ -4,44 +4,44 @@ E L E M E N T.                                                                 4
 proposed, one will find infinitely many straight lines commensura-
 ble, and infinitely many incommensurable: some in length and
 power, the others in power only. Now this straight line
-proposed, is called rational.
+proposed is called rational.
 
-that is to say that when one proposes some straight line of known and deter-
+that is to say, when one proposes some straight line of known and deter-
 mined magnitude, it is called rational, because it is according to it that we reason: and
 applying numbers to such lines, we will always set them by one of these absolute numbers,
 1, 2, 3, 4, 5, 6, 7, 8, 9, etc.
 
-6  And the straight lines commensurable with this rational
-line, whether in length and power, or in power only,
-are also called rational.
+6  And the straight lines commensurable with this ra-
+tional line, whether in length and power, or in power on-
+ly, are also called rational.
 
-7  But the lines incommensurable with this rational line,
+7  But the lines incommensurable with this rational line
 are called irrational.
 
-if comparing some straight line to the line taken as rational, and upon
-which we reason, it is found commensurable with that rational one, whether in length,
-or power, or power only, such a line is also rational; but if it
+if, comparing some straight line with the line taken as rational, and upon which
+we reason, it is found commensurable with that rational one, whether in length,
+or power, or in power only, such a line is also rational; but if it
 is incommensurable with that proposed rational line, both in length and in power,
-this said line is called irrational.
+the said line is called irrational.
 
-8  The square described on a proposed rational line, is
-called rational.
+8  The square described on a proposed rational line is called
+rational.
 
 Just as that line, which is known and determined of a certain quantity,
-is called rational; so also the square described on that line, is called rational,
-because it is certain and known: and the surfaces compared to that square, are
+is called rational; so also the square described on that line is called rational,
+because it is certain and known: and the surfaces compared with that square are
 also called rational, or else irrational, according as they are found commensura-
 ble or incommensurable with that rational square, as is said in the two definitions
 following.
 
-9  The figures commensurable with this rational square, are
+9  The figures commensurable with this rational square are
 also rational.
 
-10  But those which are incommensurable with it, are irratio-
+10  But those which are incommensurable with it are irratio-
 nal and surd.
 
-11  And the straight lines which can [produce] those irrational
-figures, are irrational and surd.
+11  And the straight lines which can [produce] those irratio-
+nal figures are irrational and surd.
 
 now a straight line is said to be able [to produce] a figure, when the square described on it is
-EEc ij
+EEe ij

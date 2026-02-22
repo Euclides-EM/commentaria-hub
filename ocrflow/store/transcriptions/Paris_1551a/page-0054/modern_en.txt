@@ -1,33 +1,34 @@
 BOOK  X.                                                                 6
 
-And those which are commensurable with this, let them be called rational.
+And those which are commensurable with this, let them be called ῥητά.
 
-By this word commensurable, understand whether they are squares,
-or any other rectilinear figures whatever.  For it is known
-to anyone to describe, to any parallelogram, an equal square:
-by the last theorem of the second book, or by
-the finding of the mean proportional line according to the 13th
+By this word commensurable, understand whether they are squares
+or any other rectilinear figures whatsoever.  For it is known
+that to any parallelogram, an equal square
+may be described: by the last theorem of the second book, or by
+the finding of a mean proportional line according to the 13th
 theorem of book 6. which when you have found, you will gather at once by
-17.6. that the rectangle parallelogram contained
+17.6. that the right-angled parallelogram contained
 by the two extreme lines is equal to the square of the
-mean line.  By a like reasoning again, to any square a
-parallelogram equal is described, by the finding of the
-third proportional line according to theorem 11.6. here
+mean line.  In like manner again, to any square a
+parallelogram equal is described, by the finding of a
+third proportional line according to the theorem 11.6. here
 you see nothing such said of squares & other figures,
-as of lines before, of which there is both length and
-power commensurable. For of figures only the capacity is
-considered, which length joined to breadth
-determines.
+as was said before of lines, of which there is both length and
+power commensurable. For of figures only the capacity is considered,
+which length joined to breadth determines.
 
-But those which are incommensurable with that square, namely the rational,
-let them be called irrational, that is, surd.
+But those which are incommensurable with that square, namely the ῥητόν,
+let them be called ἄλογα, that is, irrational.
 
-Incommensurable here also take, of whatever sort the rectilinear figures
-may have been.
+Here too take incommensurable, of whatever sort the rectilinear
+figures may have been.
 
 And the lines which describe those incommensurables,
-let them be called irrational. And indeed if those incommensurables
-shall have been squares, their sides themselves shall be called
-irrational lines. but if they shall not indeed have been squares,
-but some other surfaces or rectilinear figures, then indeed those lines which describe—
+let them be called ἄλογοι. And indeed if those incommensurables
+shall have been squares, their sides themselves
+shall be called ἄλογοι lines. but if they shall not indeed
+have been squares, but some other surfaces or
+rectilinear figures, then indeed those lines which de-
+
 C ij

@@ -1,12 +1,11 @@
-LIBER  X.  133
-
+LIBER  X.                                   133
 EVCLIDIS MEGARENSIS CLARISSIMI
-philosophi Mathematicorumq́ facile principis , primù
+philosophi Mathematicorumq́ facile principis, primù
 ex Campano,deinde ex Theone Græco commen=
-tatore,interprete Bartholomæo Zamberto Veneto :
+tatore,interprete Bartholomæo Zamberto Veneto:
 Geometrica elementa.        Liber Decimus.
-
-Ex Campano.                         Diffinitiones.
+                                   Diffinitiones.
+Ex Campano.
 
 Vantitates quibus fuerit vna quan=
 titas cōmunis eas numerans:dicen=
@@ -21,9 +20,9 @@ cies numerat
 ¶Lineæ incommensurabiles in potentia dicuntur: quarum
 superficies quadratas non numerat vna communis super=
 ficies. Quæ cum ita sint:manifestum est quia omni lineę po
-sita:multæ aliæ sunt incommensurabiles.quędam in longitu
-dine tantum:quædam in longitudine & potentia.
-¶Omnis autem linea cum qua ratiocinamur posita:voce=
+ssit multæ aliæ sunt incommensurabiles.quędam in longitu
+dine tantum:quędam in longitudine & potentia.
+¶Omnis autem linea cum qua ratiocinamur posita: voca=
 tur rationalis.
 ¶Lineæq́ ei communicantes:dicuntur rationales.
 ¶Eidem autem incommunicantes : dicuntur irrationales
@@ -35,16 +34,15 @@ ratiocinamur:dicitur rationalis.
 irrationales siue surdę.
 ¶Latera vero quæ in illas quadratas posunt: dicuntur ir=
 rationalia.
-
-Eucli.ex Zamb.                         Diffinitiones
-
-¶Commensurabiles magnitudines dicuntur :
+                         Diffinitiones
+Eucli.ex Zamb.
+Ommenfurabiles magnitudines dicuntur:
 quas eadem mensura dimetitur.
 ¶Incommensurabiles autem:quæ sub nul=
-lius communis mensura dimensione cadūt.
+lius communis mensuræ dimensione cadūt.
 ¶Rectæ lineæ potentia commensurabiles
 sunt:quando quę ab ipsis quadrata eadem
 area dimetitur.
 ¶Incommensurabiles autem.quando ea quæ ex ipsis qua=
-drata nulla area communi mensura dimetitur. His expo=
-titisindicaturq́ proposita recta linea hoc est a qua & cubi
+drata.nulla area communi mensura dimetitur. His expoſi
+tisindicaturq́ proposita recta linea hoc est a qua & cubi

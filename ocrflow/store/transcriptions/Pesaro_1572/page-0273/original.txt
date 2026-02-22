@@ -27,7 +27,7 @@ sis sunt, quadrata idem spacium metitur.
 
 F. C.  C O M M E N T A R I V S.
 
-Rectas lineas longitudine commensurabiles seorsim non disiungit,  quòd in prima diffinitione
+Rectas lineas longitudine commensurabiles seorsim non disiunxit,  quod in prima definitione
 magnitudinum commensurabilium comprehenduntur ; sunt enim rectæ lineæ longitudine commen-
 surabiles , quas eadem mensura metitur.
 
@@ -38,9 +38,9 @@ nullum commune spacium esse contingit.
 
 V.
 
-His positis ostenditur,cuicumque rectæ lineæ propositæ rectas
+His positis ostenditur, cuicumque rectæ lineæ propositæ rectas
 lineas multitudine infinitas , & commensurabiles esse, & incom-
 mensurabiles: alias quidem longitudine & potentia; alias vero po
-tentia solum,vocetur autem proposita recta linea,rationalis.
+tentia solum, vocetur autem proposita recta linea, rationalis.
 
 Et

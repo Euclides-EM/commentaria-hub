@@ -1,66 +1,17 @@
-❧ EUCLID’S DEMONSTRATIO-
-NS restored, Book Ten.
+❧ EUCLID’S DEMONSTRATIONS
+restored, Book Ten.
 
 First Definition.
 
-Commensurable magnitudes are said to be those which the same mea-
-sure measures.
+Commensurable magnitudes are said to be those which the same
+measure measures.
 
-In the earlier books Euclid set down what is most necessary for the last three,
-for the understanding of quantity, through the operation of the relation of one
-to another, so that, the quantity of one magnitude being known, by its use
-without the help of the other proposed magnitude we may know the quantity
-of the other, and indeed so precisely or exactly, that nothing more is required
-for the understanding of their quantities. But what Euclid will propose in this
-tenth [book] looks to another task. For with these quantities known by their
-nature to the understanding, he will teach, with the service of numbers, to
-generate the quantities of uncertain magnitudes. And although how they differ,
-from known ones he is compelled to keep uncertainly silent (because the
-knowledge of nature is hidden from us), nevertheless by the laws of the
-proportional or known [magnitudes], what affinity those unknown or uncertain
-ones have among themselves he will be able easily to set forth. Therefore
-Euclid, beginning from the chief bond of known quantities, namely that by
-which the relation of one magnitude to another (which is called ratio) is,
-takes commensurable magnitudes to mean those which the same magnitude
-(which they call a common measure) so precisely determines, that it determines
-one of them by certain units repeated, and the other likewise by however many
-of the same units repeated, precisely; these may be called commensurable, that
-is, having a common measure. And he said this so that he might teach how
-they differ from those which the same unit cannot complete both by any
-repetitions (as the next definition makes clear).
+In the earlier books Euclid set down, especially for the last three, what is necessary for the understanding of quantity, by the operation of the relation of one to another, so that, when the quantity of one magnitude is known, by its work, without the help of the other proposed magnitude, we may know the quantity of that magnitude so precisely or exactly, that nothing more is required for the understanding of their quantities. But what Euclid will propose in this tenth [book] looks to another task. For with these quantities known, by their nature and with the service of numbers, he will teach how to generate the quantities of uncertain magnitudes. And although how they differ from known [ones] he is compelled to keep uncertain (because nature has hidden the knowledge from us), nevertheless by the laws of the proposed or known [magnitudes] he will easily be able to set forth what affinity those unknown or uncertain [magnitudes] have among themselves. Therefore Euclid, beginning from the chief bond of known quantities, namely that alone by which we have [the relation] of one magnitude to another (which is called ratio), could call commensurable magnitudes those which the same magnitude (which they call a common measure) so precisely determines, that it determines one of them by some repeated units, and the other likewise precisely by however many of the same repeated units; these they could call commensurable, that is, having a common measure. But he said this so that he might teach how they differ from those which the same unit cannot complete both by any repetitions (which are made clear by the next definition).
 
 Second Definition.
 
-Incommensurable [magnitudes] are those which fall under the dimension
+Incommensurable [magnitudes] are those which fall under the measuring
 of no common measure.
 
-Incommensurables, by a name opposite to the former, he calls those magnitudes
-which allow no common measure to complete them. But any magnitude, by
-repetitions composing toward one of them, will be excluded from the dimension
-of the other: for by repetitions it will either exceed the remainder, or indeed
-fall short of it, namely by that part of the quantity which can be denominated
-by no number (expressing the former). And we say “expressing the former”
-for this reason, that the former, which we define as commensurable, are
-composed from numbers of equal units, by diverse or equal repetitions of those
-units. But these incommensurables, composed from quantities of units different
-from the first, allow no common measure between themselves, because between
-them there is a different kind of measure, though contained under the same
-kind of quantity, but not under the same kind of measure. Therefore those
-which have a different kind of measure will be incommensurable, just as those
-having the same kind of measure we call commensurable. But it must be noted
-that that one kind of measure alone among all cannot be said to be commensurable.
-But since any other kinds of measures (each for itself) measure commensurable
-magnitudes, any first assumed [measure] of their kind can be taken as
-commensurable, so that the magnitudes of any other kinds of measure, compared
-to these, ought deservedly to be called incommensurable. And therefore we
-shall confess that commensuration follows the same kind of measure, and as it
-were different kinds of measure follow incommensuration, whence indeed this
-diversity arises, although another may desire an investigation of our opinion.
-Yet, that we may set forth in a few words what may produce it, we ought to
-remember that numbers are not quantity, as we said in numbers, but are
-adaptable to quantities of the mind. Therefore when a number is adapted to
-some quantity, this quantity is cut into as many equal parts as there are units
-in the adapted number; for all the units of numbers are equal. If therefore to
-this quantity another quantity is compared, and the precise units (taken by any
-art) nowhere result, but for expressing it the unit is compelled to be cut, con
+Incommensurable, by a name opposed to the former, he calls those magnitudes which admit no common measure to complete them. But any magnitude, by repetitions composing one of them in relation to another, will be excluded from the measuring of the other: for by its repetitions it will either exceed the other, or indeed fall short of it, namely by that part of the quantity which can be denominated by no number (expressing the former). And we say “expressing the former” for this reason, because the former, which we defined as commensurable, are composed of numbers of equal units, by different or equal repetitions of their units. But these incommensurable [magnitudes], composed from quantities of units different from the first, admit no common measure among themselves, because between them there is a different kind of measure, though concluded under the same kind of quantity, but not under the same kind of measure. Therefore those which have a different kind of measure will be incommensurable, just as we say those having the same kind of measure are commensurable. But it must be observed that that one kind of measure alone cannot be said to be commensurable among all things. But since any other kinds of measure (for themselves also) measure commensurable magnitudes. Any first thing assumed, its kind can be taken as commensurable for this reason, that the magnitudes of measures of any other kinds, compared to these, ought deservedly to be called incommensurable. And therefore we shall confess that by commensuration the same kind of measure follows, and as it were by different kinds of measure incommensuration follows, whence indeed this difference arises, although our opinion seeks a deeper investigation. Yet, that we may set forth in a few words what they produce, we ought to remember that numbers are not quantity, in things divided by numbers, but are adaptable to quantities in the mind. Therefore when a number is adapted to some quantity, this quantity is cut into as many equal parts as there are units in the adapted number; for all the units of numbers are equal. If therefore to this quantity there is compared a quantity from which the units (taken by whatever art) result nowhere, but for expressing it the unit is made scant, con
 Ia

@@ -3,42 +3,31 @@ LIBER X.  8
 in me transferre: sed morem geftum amicis oportuit, qui
 me ad totius libri commentationem impulerunt, ut quam
 lucem rerum incognitarũ obfcuritas defyderaret, eam
-quantum in me effet ingenij, quantumq́ue diuturnum
+quantum in me effer ingenij, quantumq́ue diuturnum
 ftudij huius præftantiffimæ difciplinæ illud adiuuiffet,
-ipfe nobis afferrem,quos veritatis ftudio ad rerum a-
+ipfe nobis afferrem, quos veritatis ftudio ad rerum a-
 cutiffimarũ & digniffimarũ cognitionem rapi intelligo.
 
 Primum Theorema.
 
 Duabus magnitudinibus inæqualibus propofitis,
 fi de maiori detrahatur plus dimidio, & rurfus
-de refiduo iterum detrahatur plus dimidio, idq́
+de refiduo iterum detrahatur plus dimidio, idq́;
 femper fiat: relinquetur quæda magnitudo mi-
 nor altera minore ex duabus propofitis.
 
 Sint duæ magnitudines inæquales α β, quarũ
-rũ maior fit α β: dico fi de α β detrahatur
+maior fit α β: dico fi de α β detrahatur
 plus dimidio, & de refiduo iterũ plus di-
-midio, idq́ femper fiat, relinquetur quæda
+midio, idq́; femper fiat, relinquetur quæda
 magnitudo minor ζ, magnitudo γ. Nam γ
-multiplicata erit tade aliquãdo maior ma
-gnitudine α β. multiplicetur & fit λ. mul
-tiplex quide ipfius γ. maior uerò ipfa α β.
-diuidaturq́ue α λ in partes æquales ipfi γ.
+multiplicata erit tãde aliquãdo maior ma-
+gnitudine α β. multiplicetur & fit α. mul-
+tiplex quidẽ ipfius γ: maior uerò ipfa α β.
+diuidaturq́ue α in partes æquales ipfi γ:
 quæ fint α ζ, ζ η, η ι: & detrahatur de α β
 plus dimidio, fitq́; β θ. rurfus detrahatur
-de α θ plus dimidio, fitq́; θ κ, idq́ue eò ufq́;
-fiat, donec diuifiones magnitudinis α β tot fœrint quòt
-funt diuifiones in magnitudine α λ. Sint igitur diui-
-fiones α χ, χ θ, θ β totidem numero quòt funt diuifiones
-
-A
-β
-γ
-ζ
-η
-ι
-λ
-θ
-κ
-χ
+de β θ plus dimidio, fitq́; θ κ, idq́ue eò ufq́;
+fiat, donec diuifiones magnitudinis α β tot fuerint quot
+funt diuifiones in magnitudine α. Sint igitur diui-
+fiones α κ, κ θ, θ β totidem numero, quot funt diuifiones

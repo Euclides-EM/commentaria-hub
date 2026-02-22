@@ -1,55 +1,55 @@
 DECIMO                                           Fo.  CXXXIII
 
-che date due quantita inequal e sempre fe puo multiplicare talmente la minore
+che date due quantita inequal e sempre fe puo multiplicar e talmente la minore
 che tal multiplicatione ecceda la quantita maggiore.
 
 Theorema.i.  Propositiōe.i.
 
 Se da due proposte quantita inequal e, dalla maggiore fia detracto
 piu della mita, & del rimanente anchora fia leuado uia piu della
-mita, & da li indrio seguitando per el medefimo modo, finalmente
+mita, & da li indrio seguitando per el medefimo modo, finalmente,
 te e neceffario che rimanga una quantita minore, della proposta
 minore.
 
-[uncertain: e cosi fa del piu man in mano.]
+[uncertain: e cosi fa de i man in mano.]
 
-Siano le due quantita Inequale.a.&.b.c.& fia b.c.la maggiore. Dico che tan
-te uolte puo effere detracto piu della mita della.b.c. ( ouero del refiduo
+Siano le due quantita Inequale.a.&.b.c.& fia.b.c.la maggiore. Dico che tan
+te uolte puo effere detracto piu della mita della.b.c, ( ouero del refiduo
 di quello)che fera neceffario che rimanga vna quantita minore de.a. Et per di
 montrare questo fia multiplicato.a.tante uolte che per tal numero che ece
-da.b.c.& fia il multiplice di qllo.d.e.f.maggiore di.b.c.adonque fia detracto
-da.b.c. piu della mita laqual fera.b.g.& anchora dal refiduo( el quale.e. b.c.)
-fia detracto piu della mita laqual fia.g.h.& questo anchora fia fatto tante uolte
+da.b.c,& fia il multiplice di qllo.d.e.f,maggiore de.b.c,adunque fia detracto
+da.b,c,piu della mita laqual fera.b.g,& anchora dal refiduo( el quale.e.g,& )
+fia detracto piu della mita laqual fia.g.h,& questa anchora fia fatta tante uolte
 per fina a tanto che.b.c.fia diuifa in tante parte quante uolte.a.e contenuto in
-d.e.f.hora dico che l’ultimo refiduo(che in questo luoco,e.h.c.)e minore del.a.
+d.e.f,hora dico che l’ultimo refiduo(che in questo luoco,e.h.c.)e minore del.a.
 Et per chiarire questo fia multiplicato.h.c.per tanto quanto che.a.e contenuto
-in.d.e.f.& fia el multiplice di quella,K.l.m.perche adonque caduna delle par
-ti di uero quantita de.K.l.m.ei equale a.l.h.c.feguita che,K.fia minore de.b.g.&
-l.m.inore de.g.h.ma perche.m.equale a.l.h.c.(per la conuentione)K.l.m.fera
-minore de.b.c.per laqual cofa fera etiam minore de.d.e.f. Et condico adonque
-che.d.e.f.fia a.a.fia come.K.l.m.al.h.c.& effendo.def.maggiore de.K.l.m.fegui
-ta(per la decima quarta propositione del quinto libro)che.a.fia maggiore
-de.h.c.che e il proposito. Et el medefimo feguita fe della maggiore fia detracto
+in.d.e.f,& fia el multiplice di quella,K.l.m,perche adonque caduna delle par
+ti di uero quantita de.K.l.m.e equale a.l.h.c,fequita che,K.fia minore de.b.g,&
+l.m,indore de.g.h.ma perche.m.e equale a.l.h.c,(per la conientione)K.l.m,fera
+minore de.b.c,per laqual cofa fera etiam minore de.d.e.f, & condicio adonque
+che.d.e.fia a.fia,come.K.l.m,al.h.c,& efendo.def.maggiore de.K.l.m,fe
+quita(per la decima quarta propositione del quinto libro)che.a.fia maggiore
+de.h.c,che e il proposito. Et el medefimo,fequita fe della maggiore fia detracto
 la mita,& anchora del rimanente la mita,& cosi procedere tante uolte per fina
 a tanto che la maggiore fia diuifa in tante parti quante uolte e contenuta la mi
 nore in qualunque fuo multiplice eccedente quanto fi voglia la maggiore delle
 le proposte. Ma bisogna aduertire che in questa fi vede contradirle alla fefade
-cima propositione del terzo libro laquale propone l’angolo della contingenda
+cima propositione del terzo libro la quale propone l’angolo della contingēda
 effer minore de qualunque proposto angolo contenuto da due linee rette, per
-che parte qualunque angolo ottenuto de linee rette, le da quello leuaremo uia
-piu de la mita, & fimilmente del refiduo leuaremo piu della mita, & fi vede effer
-neceffario potersi fare questo tante volte che rimanga vno angolo rettilineo
-minore dell’angolo della contingenda, della qual cofa la fefade cima propo
+che poste qualunque angolo ottenuto de linee rette, le da quello leuaremo uia
+piu de la mita, & fimilmente del refiduo leuaremo piu della mita, & fi vede ef
+fere neceffario potersi fare questo tante volte che rimanga vno angolo rettili
+neo minore dell’angolo della contingēda, della qualcofa la fefade cima propo
 fitione del terzo libro conclude lo oppofito, ma questi angoli non fono vnivoci
 perche el curuo el retto non fono fimilmente d’un medefimo genere, Ne an
-chora puo conofcer effer tolto tante volte l’angolo della contingenda che quefto
-lo ecceda, qual fi fuggia, angolo rettilineo laqual cofa e neceffaria come fi mani
-fefla per la demoftratione hauuta di fopra, adonque a questo e gli anchora
-chiaro (cacio chel confequente fia feguito dal antecedente) qualunque ang
-lo rettilineo effer maggiore de infiniti angoli della contingenda.
+chora puo conofcer effer tolto tante volte l’angolo della contingēda che quefto
+lo ecceda, qual fi uoglia, angolo rettilineo, laqual cofa e neceffaria come fi mani
+fefla per la demoftratione hauuta di fopra, adonque a questo e gli e anchora
+chiaro (cacioche el confequente fia feguito dal antecedente) qualunque ang
+lo rettilineo effer maggiore de infiniti angoli della contingēda.
 
 Il tradottore.
 
 A voler dimoftrare per vno altro modo piu breue che el refiduo,h.c. fia mi
-nore della quantita.a. ( tante che el multiplice.d.e.f. fia maggiore di la
-quantita.b.c.detracta della.b.c.piu della mita equale fa.b.g.) & della detracta fi
+nore della quantita.a. ( tante che el multiplice.d.e.f. fia maggiore della
+quantita.b.c,che e della.b.c piu della mita in qual e fia.b.g.) & della,detra-

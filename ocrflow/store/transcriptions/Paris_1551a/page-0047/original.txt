@@ -10,16 +10,16 @@ rum quadrata una eadem ſuperficies ſue area
 metitur.
 
 Quantum ad hunc locum attinet, duo quædam præſcri-
-benda puto. Primum, ut intelligamus per hác vocem,
-linea potentiâ, quadratú illius. tantum enim dicitur
+benda puto. Primum, vt intelligamus per hác vocem,
+linea potentiâ, quadratū illius. tantum enim dicitur
 linea poſſe,quantum quadratum deſcribere poteſt. Al-
-terum,ut tali diſtinctione hîc utamur. Linearum hæ
+terum,vt tali diſtinctione hîc vtamur. Linearum hæ
 quidem ſunt longitudine inter ſe commenſurabiles: illa
 uerò potentiâ inter ſe commenſurabiles. Alterum mem
-brum linearum longitudine commenſurabiliú non ex-
-plicat Euclides,quia niſus erat illud comprehendíſſe an-
-tea uniuersali definitione magni-
-tudinum commenſurabiliú. Nam
+brum linearum longitudine commenſurabiliū non ex-
+plicat Euclides,quia niſus erat illud comprehendſſe an-
+tea vniuerſali definitione magni-
+tudinum commenſurabiliū. Nam
 lineæ ſunt ſub genere magnitudi-
 nis. Sed quia lineæ habent illud
 quoque in ſe propriū & peculia-
@@ -28,9 +28,9 @@ ut quædam ex his ſint potentiâ cõ
 menſurabiles:hoc uerò ſibi nõ exi-
 ſtimauit prætermittendum.
 
-Sit linea b c, eius quadratú fit b c d
-e,ſit etiã linea f h, eius quadratú
-fit f h i k.hæc duo quadrata me-
+Sit linea b c, eius quadratū ſit b c d
+e,ſit etiã linea f h, eius quadratū
+ſit f h i k.hæc duo quadrata me-
 
 d  e
 b  c

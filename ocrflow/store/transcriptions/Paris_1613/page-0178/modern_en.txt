@@ -1,47 +1,59 @@
-150  
+150
+
 ELEMENT
 
-in length, or in power, are called rational.  
-6. And lines incommensurable with a rational line,  
+in length, or in power, are called rational.
+6. And the lines incommensurable with a rational line,
 are irrational.
 
-It must be noted here that there are three kinds of rational lines. The first, namely every proposed line, which can be expressed by some number. The second, every line commensurable in length with the proposed rational. The third, every line commensurable in power only with the proposed rational. And every line incommensurable both in length and in power with the proposed rational is irrational.
+It must be noted here [that there are] three kinds of rational lines. The first, namely every
+proposed line, which can be expressed by some number. The second,
+every line commensurable in length with the proposed rational [line]. The third,
+every line commensurable in power only with the proposed rational [line]. And
+every line incommensurable both in length and in power with the proposed rational
+is irrational.
 
-7. The square described on a rational line, is called  
-rational.  
-8. Figures commensurable with the rational square, are  
-also rational.  
-9. And those which are incommensurable with the rational  
-square, are irrational & surd.  
-10. And the lines which can [produce] those irrational figures,  
+7. The square described on a rational line, is called
+rational.
+8. The figures commensurable with the rational square, are
+also rational.
+9. And those which are incommensurable with the rational
+square, are irrational & surd.
+10. And the lines which can [produce] those irrational figures,
 are irrational & surd.
 
-A line is said to be able [to produce] a figure when it can describe a square, equal  
-to that figure, because every square is the power of the root or of its side.  
-Thus he said above that two lines are commensurable in power, when  
+A line is said to be able [to produce] a figure when it can describe a square, equal
+to that figure, because every square is the power of the root or of its
+side. Thus he said above that two lines are commensurable in power, when
 not the lines, but the squares of those lines are commensurable.
 
 PROP. I.
 
-If from two unequal magnitudes one subtracts from the greater  
-more than the half, and again from the remainder more than the half  
-continuing always: there will remain at the end a magnitude  
+If from two unequal magnitudes one subtracts from the greater
+more than the half, and again from the remainder more than the half
+continuing always: there will remain at the end a magnitude
 smaller than the smaller of the two proposed.
 
-Let there be two unequal magnitudes A & BH, A being the smaller:  
-I say that if one subtracts more than the half of BH, and from the remainder  
-again more than the half continuing always, one will find at the end  
-a remainder smaller than A.  
-Let it not be so. Let the magnitude A be multiplied so many times  
-that it exceeds the greater BH (for that is possible) and let  
-the product of that multiplication be CD which will be a multiple  
-of A, and greater than BH: let it therefore be divided
+Let there be two unequal magnitudes A & BH, A being the smaller:
+I say that if one subtracts more than the half of BH, and from the remainder again
+more than the half continuing always, one will find at the end
+a remainder smaller than A.
 
-D  
-G  
-F  
-C   A   B  
-H  
-K  
-I  
-L
+Let it not be so. Let the magnitude A be multiplied so many times
+that it exceeds the greater BH (for that is possible) and let
+the product of that multiplication be CD which will be a
+multiple of A, and greater than BH: let it therefore be divided
+
+D
+G
+F
+C
+
+H
+K
+I
+E
+B
+A
+
+Digitized by Google

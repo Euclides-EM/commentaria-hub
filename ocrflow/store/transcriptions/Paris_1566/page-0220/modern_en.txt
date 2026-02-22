@@ -1,39 +1,59 @@
-BOOK  TENTH.                                                                  98
+TENTH BOOK.                                                                 98
 
-they comprehend, comprehended under two commensurable sides, which indeed, counting the units of the rectangle as a whole, will be. But since the length and breadth of any unit are certain lines, since they are certain commensurable [lines]. It produces a certain rectangle, whose length and breadth are determined, just as it [is]. But if to it there be compared another certain [line] proposed, commensurable with it in power only, but in length by no means. Therefore, as it is that the units of those lines are incommensurable, from the hypothesis. Wherefore the rectangle comprehended under the unit of a certain line and the unit of the other incommensurable with the former, is uncertain and indeterminate. For one of its dimensions is certain, the other, being uncertain, makes it indeterminate. Therefore a rectangle consisting of these indeterminate units will be uncertain and indeterminate, that is, by nature something from what is proposed. But if to the same proposed [line] there be offered two [lines] commensurable in power only (but mutually incommensurable in length) which comprehend a rectangle, it is written that the units of that rectangle are contained under lines incommensurable with the same certain [line], both according to length and breadth. And nevertheless [they are] certain: for under lines commensurable to it in length and in power (if it is contained under lines commensurable to the proposed certain [line]. But because their power is commensurable with the proposed certain [line], it will follow that the rectangle comprehended under them, and composed from these units, is commensurable with the square of that certain [line] (and therefore certain). Indeed the rectangle consisting of the same square units will become commensurable with the same power with which the squares were commensurable.
+they comprehend, being comprehended under two commensurable sides, which indeed, the units
+numbering the whole rectangle, will be. But since the length and breadth of any unit are certain
+lines, since they are certain commensurable [lines]. These will produce a certain rectangle, whose
+length and breadth are determined, that is, itself. But if to it there be compared another certain
+[one] proposed, commensurable with it in power only, but in length by no means. Therefore, as it is
+[that] the units of those lines are incommensurable, by hypothesis. Wherefore the rectangle under
+the unit of a certain line, and the other unit incommensurable with the former, is uncertain and
+indeterminate. For the one certain dimension of it, the other uncertain [one] makes indeterminate.
+Therefore a rectangle consisting of these indeterminate units will be uncertain and indeterminate,
+that is, something of the nature of that which is made from the proposed [one]. But if to the same
+proposed [one] there be offered two [lines] commensurable in power only (but mutually commensurable
+in length) which comprehend a rectangle, it is fair that the units of that rectangle be contained under
+lines incommensurable with the certain [one], equally according to length and breadth. And nevertheless
+to be certain: for it is contained under lines commensurable with each other in length, and with each
+other in power (and commensurable with the proposed [one]). But because their power is commensurable
+with the certain proposed [one], it will follow that the rectangle comprehended under them, and composed
+from these units, is commensurable with the square of the certain [one] (and therefore certain). Indeed
+a rectangle consisting of the same square units, will construct [something] commensurable in power with
+the same square, [and] it will become commensurable.
 
-                              Proposition one.
+First Proposition.
 
-With two unequal magnitudes set out, if from the greater there be taken
-more than the half, and from what remains more than the half,
-and this be done often, there will at last be left a magnitude smaller than a
-given smaller magnitude.
+Two unequal magnitudes being set out, if from the greater there be taken
+more than the half, and from what is left more than the half,
+and this be done often, there will at length be left a magnitude less than the
+lesser magnitude set out.
 
-Let two magnitudes A and G D be set out: from the greater A
-let there be taken from G more than the half (namely
-D Z, and again from the remainder G Z more than the half
-namely Z I, and so let it be done often: I say that at last there can be left a magnitude G I smaller than the given smaller magnitude
-A K. Let there be added to A K so many equals as at some time exceed G, by the 4th def. of the
-fifth, let them be K N, and T B. As many times as A B has been cut at T and K, so many times let G D be cut, with more than the half often taken
-at Z and I; but since A B is greater than G D, yet from A B there is taken T B not more than the half, but from the remainder
-of G D there is taken Z D more than the half, the remainder G Z will therefore be less than the remainder A T. By the same argument again,
-since from the greater A T there will be taken K T not more than the half, but from the smaller G Z there will be taken, from the hypothesis,
-Z I more than the half, it will follow that the remainder G I is less than the remainder A K, that is, less than the given smaller magnitude.
-Therefore, with two magnitudes set out, &c.        Otherwise, where only the half is taken from the greater
-often, let A K be doubled until it
-exceed the greater G D in T and B; let
-G D be bisected in I and Z, which are I and Z: since as the whole A B is to the half A T so is A T to A K, so
-are G D to G Z and G Z to G I (namely in doubling) Therefore by equal ratio as A B is to A K, so will be
-G D to G I (by 22 of the fifth) but A B is greater than G D (by hypothesis) therefore A K will be greater than
-G I (by 14 of the fifth) and hence G I, with the half often taken away, is less than A K.
+Let two magnitudes A K and G D be set out: and from A the
+greater let there be taken from G more than the half (namely
+D Z, and again from the remainder G Z more than the half,
+namely Z I, and let it be done often: I say that at length it is possible to leave
+a magnitude G I less than the magnitude A K, the lesser magnitude set out. Let there be added to A K
+so many equals as exceed some D, by the 4th def. of the fifth, and let them be K N, K T and T B. As many
+times as A B is cut at T and K, so many times let G D be cut, by taking away often more than the half
+at Z and I; and since A B is greater than G D, but from A B there is taken T B not more than the half, and
+from the remainder G D there is taken Z D more than the half, the remainder G Z will therefore be less than
+the remainder A K. By the same reasoning again, because from the greater A T there will be taken K T not
+more than the half, and from the lesser G Z there will be taken, by hypothesis, Z I more than the half, it will
+follow that the remainder G I is less than the remainder A K, that is, than the lesser magnitude set out.
+Therefore, two magnitudes being set out, etc.        Otherwise, where only the half is taken from the greater
+often, let A K be doubled until it, as the lesser, exceed the greater G D at T and B; let G D be cut
+into two equal parts at I and Z, which are I G and Z I: since as the whole A B is to the half A T, so is A T to A K, so
+are G D to G Z and G Z to G I (namely in doubling) the ratio will be equal: as A B to A K, so will be
+G D to G I (by the 22nd of the fifth) but A B is greater than G D (by hypothesis) therefore A K will be greater than
+G I (by the 14th of the fifth) and hence, by taking away the half from G, it becomes less than A K.
 
-                                 NOTE.
+NOTICE.
 
-There were not lacking those who wished to restrict the immense power of this theorem to quantities,
-by an opposing argument from the sixteenth of the third, among whom the chief was Campanus, when he says that the angle of
-contingency is always left smaller than any rectilinear angle. From which, if more than the half
-has been taken away, therefore this theorem seems to be supported by a trifling exception. But he resolves this
-argument, saying that these angles are not univocally called angles, and that the curved and the straight are different
-kinds, which we by no means can admit. For rectilinear angles and angles of contingency are the same
-as to quantity, although as to commensuration they are different; for the quantity of angles
-is contained in the sole inclination of lines, as whatever inclination has been greater, smaller, or equal, the quanti-
+There were not lacking those who wished to restrict the immense power of this theorem to
+quantities, with an opposing argument from the sixteenth of the third, among whom the chief was
+Campanus, when he says that the angle of contact (is always left less than any rectilinear angle. From
+which, if more than the half has been taken away often, therefore it seems that a vain exception must be
+made to this theorem. But he resolves this argument, saying that these angles are not univocally called
+angles, and that the curved and the straight are different kinds, which we by no means can admit. For
+rectilinear angles and angles of contact are the same kind, as to quantity, although as to commensuration
+they are different; for the quantity of angles is contained in the inclination alone of lines, as whatever
+inclination has been greater, lesser, or equal, the quantity—

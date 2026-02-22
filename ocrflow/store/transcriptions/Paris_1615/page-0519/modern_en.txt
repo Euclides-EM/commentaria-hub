@@ -1,14 +1,14 @@
-ELEMENT.                                                                 487
+E L E M E N T.                                                                 487
 
-7.     Line containing two medials.
-8.     Residual.
-9.     First medial residual.
-10.    Second medial residual.
-11.    Minor line.
-12.    Line making with a rational surface a
-       whole medial.
-13.    Line making with a medial surface a
-       whole medial.
+7.      Line capable of two medials.
+8.      Residual.
+9.      First medial residual.
+10.     Second medial residual.
+11.     Minor line.
+12.     Line making with a rational surface a
+        medial whole.
+13.     Line making with a medial surface a
+        medial whole.
 
 THEOR.  89.  PROP. CXIII.
 
@@ -20,25 +20,25 @@ the residual is of the same order as the binomial.
 
 Let the rational (line) be A, and the bi-
 nomial BC, of which the greater
-term is BD: and to BC
+term is BD: and to this BC
 let the rectangle BE be applied
 equal to the square of the rational
 A. I say that the other side CE
-is a residual as the propo-
-sition says.
+is a residual such as the propo-
+sition states.
 
 For upon the lesser term CD
 let the rectangle DF be applied
 also equal to the square of the ratio-
 nal A: therefore the two rectangles BE, DF, will be equal, and by
 the 14th prop. of the 6th (book) their sides will be reciprocal, namely that as
-BC to DC, so CF to CE, and by division as BD to DC,
-so FE to EC. But BD is greater than CD: therefore also
+BC is to DC, so CF is to CE, and by division as BD is to DC,
+so FE is to EC. But BD is greater than CD: therefore also
 FE will be greater than EC. Now from EF let there be cut off
-EG equal to EC, and let it be made as FG to GE, so EC
-to CH, by the 12th prop. of the 6th (book). And by composition as FE to EG (or EC
-which is equal) so EH to CH, and by the 12th prop. of the 5th (book) the two anteced-
+EG equal to EC, and let it be made as FG is to GE, so EC
+to CH, by the 12th prop. of the 6th (book); and by composition as FE is to EG (or EC
+which are equal) so EH is to CH, and by the 12th prop. of the 5th (book) the two anteced-
 ents FEH will be to the two consequents ECH as the one
-of the antecedents EH to the one of the consequents CH: and therefore
+of the antecedents EH is to the one of the consequents CH: and therefore
 
 H h  iij

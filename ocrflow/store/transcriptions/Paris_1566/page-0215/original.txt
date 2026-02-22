@@ -2,36 +2,36 @@ EVCL. ELEMENT. GEO.
 
 ita fit ipſus præfatum natale genium, quod abſurdum producit, cùm dixerimus minimam numeri
 partem unitatem eſſe, ac nulli ſectioni obnoxiam. Hæc quantitatis expreſſio quæ unitatis requirit
-ſectionem, denominatione quahibet privatur, quia unitas ſectionem non patitur. Quare quantitas
+ſectionem, denominatione quâlibet privatur, quia unitas ſectionem non patitur. Quare quantitas
 illa denominatione privata ad propoſitam comparata, nullam rationis denominationem patitur. Sed
-equidem ad illam rationem habebit, cùm ſint magnitudines euſdem generis quoad quantitatem, li-
-cet non quoad commenſurationem. Attamen omni denominatione privata, quæ per numeros
+equidem ad illam rationem habebit, cùm ſint magnitudines eiusſdem generis quoad quantitatem, li-
+cet non quoad commenſurationem. Attamen omni denominatione privatum, quæ per numeros
 tantùm exprimi poteſt, vt diſcretionis vtilitate fruatur. Cùm autem harum magnitudinum qua-
 rum quantitas vnus in ſectionem unitatis alterius cadit, infinitæ ſint ſpecies, infinitæque unitatem
 ſecandi formæ: Infinitas dicemus poſthac poſſe dari, incommenſurabilium ſpecies adinice, licet
-inter ſe cuiuſlibet ſpeciei quantitates, ſint adinicem commenſurabiles. Omnes tamen quarum de-
+inter ſe cuiſlibet ſpeciei quantitates, ſint adinicem commenſurabiles. Omnes tamen quarum de-
 nominatio unitatis ſectionem exprimere capit, ea voce qua res exiſtentes denominantur penitus
-priuari, quaſi non res exiſtentes dici, ſed potius hypotheſes exiſſimantur. Ab his diuers ſunitatum
+privari, quaſi non res exiſtentes dici, ſed potius hypotheſes exiſtimantur. Ab his diuerſis unitatum
 ſectionibus oriſſunt numeri, qui ſurdi, aut irrationales, ſeu algebraici dicuntur, ſunt autem radices
-numerorum non vllam habentium. Quare licet illi potius hypothetici, quam eſſentiales dici de-
+numerorum non vllam habentium. Quare licet illi potius hypotheti, quam eſſentiales dici de-
 beant. Nihilominus illorum ficta hypotheſes, rebus difficilibus explanandis non parum conducunt.
-Illos itaque fictos ſeu hypotheticos, incommenſurabilibus infinitis, infinitis exprimendis (ſi quidem
+Illos itaque fictos ſeu hypotheti, incommenſurabilibus infinitis, infinitis exprimendis (ſi quidem
 illud exprimere dicatur) promptiores eſſe dicemus. Cùm ille ab his, & hi ſimiliter ab illis originem
-duxiſſe oſtens ſit. Quoniam autem unitatem ſecari nunc per incommenſurabiles dixerimus, & an-
-tea apud numeros, ab ea denotatam quantitatem ſecari, Quid his interſit diſcernere ſuperuacaneum
+duxiſſe oſtendſi ſit. Quoniam autem unitatem ſecari nunc per incommenſurabiles dixerimus, & an-
+tea apud numeros, ab ea denotatam quantitatem ſecari. Quid his interſit, diſcernere ſuperuacaneum
 non ducemus. Diximus unitate ſignificatam quantitatem infinitè ſecari, per partes, aquales infini-
-tis numeris expreſſas, præciſam illam quantitatem componentibus. Tuncque demum unitatem non
+tis numeris expreſſas, graciliam illam quantitatem componentibus. Tuncque demum unitatem non
 ſecari, ſed in alias unitates mutari, quarum ſemper minima quælibet eſſet vna. Non igitur unita-
 tis huius numeri ſecatur natura, ſed quantitas unitate ſignificata. Cùm autem unitatem ſecari nunc
-dicimus, quantitas unitate ſignificata in eas partes ſecatur, quæ nulla numeri denominatione totam
-unitatis quantitatem reſtituunt: eò quod ſectioni vnius unitatis diſcretiones per infinitos quatuos nu-
-meros factas, nunquam incidas, ſed infinitè examinatas, extra eam unitatum (vt ita dicam) commiſ-
-ſuram ſemper cecidiſſe reperiatur, quòd infinitis ſieri poteſt, vt poſthac viſuri ſumus. Quare
-hanc quantitatem quantitatis prioribus numeris expreſſæ, eſſe incommenſurabilem dicimus, eò quòd
+dicimus, quantitas unitate ſignificata in eas partes ſecatur, quæ nullâ numeri denominatione totam
+unitatis quantitatem reſtituunt: eò quod ſectioni vnius unitatum diſcretiones per infinitos quatuos nu-
+meros factas, nunquam incidat, ſed infinitè examinata, extra eam unitatum (vt ita dicam) commiſ-
+ſuram ſemper cecidiſſe reperiatur, quòd infinitis ſpeciebus ſecari poteſt, vt poſthac viſuri ſumus. Quare
+hanc quantitatem quanti prioribus numeris expreſſe, eſſe incommenſurabilem dicimus, eò quòd
 exprimenda ſit per unitates, quæ prioribus unitatibus penitus incommenſurabiles exiſtunt. & pro-
-inde numeri huius numeris illius ſemper incommenſurabiles erunt. Cùm ſinguli numeri ſuarum
+inde numeri huius numeris illius ſemper incommenſurabiles erunt. Cùm ſinguli numeri quarum
 unitatum ſequantur naturam. Incommenſurabiles igitur dicemus magnitudines, à menſura com-
-munis priuatione, idem menſuræ genus non habentes. Haud ſecus quam eodem quantitatis genere
+munis priuatione, idem menſura genus non habentes. Haud ſecus quam eodem quantitatis genere
 carentes, irrationales merito à rationis priuatione tertia quintì definitione dici cautum eſt.
 
 Definitio tertia.
@@ -50,10 +50,10 @@ rum quadrata, aut eis æquas ſuperficies commenſurabiles eſſe) quando eadem 
 ſua repetitione conſtituit, vt diximus prima definitione de magnitudinibus in genere. Hic autem
 dicit vt quamlibet quantitatem per idem quantitatis genus metiatur, & proinde menſuram illam
 numeris exprimat, vt tandem inter eas rationis cadat denominatio, numerorum virtute ex-
-preſſa: incommenſurabiles autem oppoſita voce, per priuationem exponendæ ſunt, cùm nulla pro
+preſſa: incommenſurabiles autem oppoſita voce, per priuationem exponendas ſunt, cùm nulla pro
 communi menſura inter earum quadrata poteſt dari area. His definitionibus additauimus quæ di-
 ximus in genere prioribus, illud ſequentes, prima ſeptimi definitione, unitatem ſcilicet eam ſu-
-ſcipere formam quantitatis, cùm applicandus erit numerus. Si enim lineæ adaptetur numerus ſingu-
+ſcipere formam quantitatis, cùm applicandus erit numerus. Si enim lineæ adaptetetur numerus ſingu-
 las unitates longitudinem tantùm habere. Si quidem ſuperficiei longitudinem ac latitudinem, ac ſi
 denum ſolido, tres eas habere dimenſiones longum, latum, & ſublime. Cùm enim eas omnes metiatur
 nume

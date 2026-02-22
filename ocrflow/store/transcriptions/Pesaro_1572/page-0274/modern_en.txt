@@ -25,8 +25,8 @@ But the incommensurable are called irrational.
 XI.
 
 And straight lines which can be incommensurable are called irra-
-tional: if indeed they are squares, the sides of them; but if other
-rectilinear [figures], which describe squares equal to them.
+tional: if indeed they are squares, their sides; but if other
+rectilineal [figures], which describe squares equal to them.
 
 I. C.  C O M M E N T A R Y.
 
@@ -38,21 +38,21 @@ C O M M O N  N O T I O N S.
 1 Any magnitude multiplied can exceed every proposed magnitude
 of the same kind.
 
-2 Whatever magnitude measures some [magnitude], also measures that
-which it itself measures.
+2 Whatever magnitude measures some [magnitude], it also measures
+that by which it itself is measured.
 
-3 Whatever magnitude measures the whole and the part taken away,
+3 Whatever magnitude measures the whole, and the part taken away,
 will also measure the remainder.
 
-4 Whatever magnitude measures two or more magnitudes, also measures
-that which is composed from them.
+4 Whatever magnitude measures two, or more magnitudes, it also
+measures that which is composed from them.
 
 THEOREM I.  PROPOSITION I.
 
 With two unequal magnitudes set out, if from the greater there be
-taken away more than the half; and from that which remains again
-there be taken away more than the half; and if this be done always:
-there will at length be left some magnitude which will be less than
+taken away more than half; and from that which remains again
+there be taken away more than half; and if this be done always:
+there will at last be left some magnitude which will be less than
 the lesser magnitude set out.
 
 Let

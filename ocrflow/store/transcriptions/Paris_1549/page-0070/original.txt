@@ -1,20 +1,26 @@
-LIB. X.                                   34
+LIB. X.                                                                 34
 
 EVCLIDIS.
 Liber decimus.
 
-Diffinitio  I.
+Diffinitio 1.
 
 Commensurabiles magnitudines dicuntur, quæ
 eadem mensura dimetiuntur.
+
 2
+
 Incommensurabiles autem quæ sub nullius
 communis mensuræ dimensionem cadunt.
+
 3
+
 Rectæ lineæ potentia commensurabiles sunt,
-quando quælib ipsis quadrata, eadem area dime-
+quando quæ ex ipsis quadrata, eadem area dime-
 tiuntur.
+
 4
+
 Incommensurabiles autem, quando ea quæ ex
 ipsis quadrata, nulla area communi mensura di-
 metiuntur. His expositis indicatur, quod proposita
@@ -26,4 +32,7 @@ biles quidem, aut potentia tantùm, aut potentiâ
 & longitudine simul. Incommensurabiles verò,
 aut longitudine tantùm, aut longitudine & po-
 tentiâ simul.
+
 5
+
+ei

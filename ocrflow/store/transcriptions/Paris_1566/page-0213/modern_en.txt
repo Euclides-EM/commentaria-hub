@@ -1,29 +1,28 @@
 EUCLID. ELEMENTS. GEOMETRY.
 
-Measurable. Therefore it is permitted for us to propose any quantity (as certain) which, when
+measurable. Therefore it is permitted for us to propose any quantity (as certain) which, when
 compared to others, makes them uncertain (since they lack a denomination of relation). Yet those
 who have tried to draw out the denominations of these uncertain things from the denominations of
 certain things (so that, as far as possible, the hidden relations of them may be revealed) have set
-forth the proposed certain things by numbers, which, when multiplied, joined, or varied by some
-other arithmetical operation, would produce a number lacking a root; and they impose this root,
-whether square, or cubic, censive, or whatever else it may be, as the denomination of these
-uncertain things (when compared with the proposed certain thing), so that they may be able, as
-nearly as possible, to extract the denominations of uncertain things from numbers denoting a
-certain quantity. But these numbers they call surds, algebraic, radical, or uncertain, or improperly
-irrational (following the former error), which we call hypothetical rather than essential, because
-they are taken only from hypothesis, deprived of all essence and denomination. Yet by their
-service we obtain better relations of certain things to uncertain, hitherto cultivated by human
-measures, as we may make clear by an example: a straight line A B being cut in extreme and mean
-ratio at G, let us find A G by the units of A B, which are 12, as nearly as may be. We shall draw
-(from the eleventh of the second) A B into itself, making 144, and half of A B, namely B into
-itself, makes 36, which joined make 180; and the square root of these, minus B, makes A G.
-Wherefore they will denominate the greater segment A G. The root of 180 minus B, which root
-(since it is none among numbers) is deprived of all denomination; but if it is to be expressed as
-nearly as possible: we shall say that when A B is twelve, A G is 7 and 1/2 nearly greater, or nearly
-less, 7 and 11/17. But the remainder B G occupies the remainder of the 12. All which things
-agree rather with convenience than with demonstration. We therefore shall carry through the
-undertaking.
+forth the proposed certain things by numbers, which, multiplied, joined, or varied by some other
+arithmetical operation, would produce a number lacking a root; and this root—whether square, or
+cubic, or “censical,” or whatever it may be—they impose as the denomination of these uncertain
+things (when compared with the proposed certain thing), so that as nearly as possible, from numbers
+denominating a certain quantity, they may be able to extract the denominations of uncertain things.
+But these numbers they call surds, algebraic, radical, or uncertain, or improperly irrational (following
+the earlier error); which we call hypothetical rather than essential, because they are taken only from
+a hypothesis, deprived of all essence and denomination. Yet by their service we obtain better ratios
+of certain to uncertain things, hitherto cultivated by human measures, as we make clear by an example:
+a straight line A B being cut in extreme and mean ratio at G, through the units of A B, which are 12,
+let us find A G as nearly as can be done. We shall draw (from the eleventh of the second) A B into
+itself, making 144, and half of A B, namely B, into itself, making 36, which together make 180; and
+the square root of these, minus B, makes A G. Therefore they will denominate the greater segment
+A G. The root of 180 minus B, which root (since it is not among numbers) is deprived of all
+denomination; but if it must be expressed as nearly as possible: we shall say that when A B is twelve,
+A G is 7 and 1/2, approximately greater, or approximately less, 7 and 11/17. But the remainder B G
+occupies the remainder of the 12. All which suits rather the service than the demonstration. We
+therefore shall carry through what we have begun.
 
 A──────────────────────────────C──────────────────────────────B
-                         12
-                         G
+                              12
+                              G
