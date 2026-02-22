@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { DatasetsService } from '@hub-api'
+import { DatasetImagesService, DatasetsService } from '@hub-api'
 
 export const datasetsQueryKey = () => ['datasets'] as const
 const datasetsImagesQueryKey = (datasetId: string) =>
@@ -33,14 +33,15 @@ export function useDatasetImageKeysQuery(datasetId: string, enabled = true) {
   return useQuery({
     queryKey: datasetsImagesQueryKey(datasetId),
     queryFn: async (): Promise<DatasetImageKey[]> => {
-      const images = await DatasetsService.getDatasetsImages({
+      const images = await DatasetImagesService.getDatasetsImages({
         dataSetId: datasetId,
+        uniqueOnly: true,
       })
 
       return images
         .map((image) => {
           const filename = image.filename?.trim() || ''
-          const name = image.name?.trim() || ''
+          const name = image.key?.trim() || ''
           return { filename, name }
         })
         .filter((image) => image.filename.length > 0 && image.name.length > 0)

@@ -7,8 +7,6 @@ import type { annotation_DuplicateRequest } from '../models/annotation_Duplicate
 import type { annotation_ExpectedBlocks } from '../models/annotation_ExpectedBlocks';
 import type { annotation_Index } from '../models/annotation_Index';
 import type { annotation_Search } from '../models/annotation_Search';
-import type { annotation_UploadEscriptorium } from '../models/annotation_UploadEscriptorium';
-import type { annotation_UploadRoboflow } from '../models/annotation_UploadRoboflow';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -500,60 +498,12 @@ export class AnnotationsService {
         });
     }
     /**
-     * Get Annotation TEIs
-     * Get the TEI representations of all pages for a specific annotation in a specific dataset.
-     * @returns string TEI XML content for all pages
-     * @throws ApiError
-     */
-    public static getDatasetsAnnotationsTei({
-        dataSetId,
-        id,
-        page,
-        key,
-        feature,
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Annotation ID
-         */
-        id: string,
-        /**
-         * Page numbers to filter TEI data (can be specified multiple times)
-         */
-        page?: string,
-        /**
-         * Page keys to filter TEI data (can be specified multiple times)
-         */
-        key?: string,
-        /**
-         * Features to include in TEI data (can be specified multiple times)
-         */
-        feature?: Array<string>,
-    }): CancelablePromise<string> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/datasets/{dataSetId}/annotations/{id}/tei',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-            query: {
-                'page': page,
-                'key': key,
-                'feature': feature,
-            },
-        });
-    }
-    /**
      * Get Annotation TEI
      * Get the TEI representation of a specific annotation for a specific dataset and page.
      * @returns string TEI XML content
      * @throws ApiError
      */
-    public static getDatasetsAnnotationsTei1({
+    public static getDatasetsAnnotationsTei({
         dataSetId,
         id,
         pageNumOrKey,
@@ -587,82 +537,6 @@ export class AnnotationsService {
             query: {
                 'feature': feature,
             },
-        });
-    }
-    /**
-     * Upload Annotation to Escriptorium
-     * Upload an annotation to Escriptorium for a specific dataset.
-     * @returns annotation_Annotation OK
-     * @throws ApiError
-     */
-    public static putDatasetsAnnotationsUploadEscriptorium({
-        dataSetId,
-        id,
-        annotationEscriptoriumUpload,
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Annotation ID
-         */
-        id: string,
-        /**
-         * Annotation Escriptorium upload details
-         */
-        annotationEscriptoriumUpload: annotation_UploadEscriptorium,
-    }): CancelablePromise<annotation_Annotation> {
-        return __request(OpenAPI, {
-            method: 'PUT',
-            url: '/datasets/{dataSetId}/annotations/{id}/upload/escriptorium',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-            body: annotationEscriptoriumUpload,
-        });
-    }
-    /**
-     * Upload Annotation to Roboflow
-     * Upload an annotation to Roboflow for a specific dataset. Use async=true to return immediately and run the upload in the background.
-     * @returns annotation_Annotation OK
-     * @throws ApiError
-     */
-    public static putDatasetsAnnotationsUploadRoboflow({
-        dataSetId,
-        id,
-        annotationRoboflowUpload,
-        async,
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Annotation ID
-         */
-        id: string,
-        /**
-         * Annotation Roboflow upload details
-         */
-        annotationRoboflowUpload: annotation_UploadRoboflow,
-        /**
-         * If true, return immediately and perform upload in background
-         */
-        async?: boolean,
-    }): CancelablePromise<annotation_Annotation> {
-        return __request(OpenAPI, {
-            method: 'PUT',
-            url: '/datasets/{dataSetId}/annotations/{id}/upload/roboflow',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-            query: {
-                'async': async,
-            },
-            body: annotationRoboflowUpload,
         });
     }
 }

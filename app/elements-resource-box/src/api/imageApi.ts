@@ -1,9 +1,9 @@
-import { EditionsService } from "@hub-api";
+import { DatasetImagesService } from "@hub-api";
 import { TITLE_PAGES_DATASET_ID } from "../constants";
 
 export const uploadImage = async (key: string, file: File, type: string) => {
   console.log("Uploading image...", file.name);
-  const result = await EditionsService.postDatasetsImagesUpload({
+  const result = await DatasetImagesService.postDatasetsImagesUpload({
     dataSetId: TITLE_PAGES_DATASET_ID,
     key,
     type,

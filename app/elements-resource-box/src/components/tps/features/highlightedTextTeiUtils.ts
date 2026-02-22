@@ -1,4 +1,7 @@
-import { TITLE_PAGES_DATASET_ID } from "../../../constants";
+import {
+  TITLE_PAGES_ANNOTATION_ID,
+  TITLE_PAGES_DATASET_ID,
+} from "../../../constants";
 import { buildTextHtml } from "./highlightedTextRenderUtils";
 import type { HighlightSpan } from "./highlightedTextTypes";
 import { AnnotationsService } from "@hub-api";
@@ -29,7 +32,8 @@ export const getCachedOrFetchTei = async (itemKey: string) => {
     teiPromiseCache.get(itemKey) ||
     AnnotationsService.getDatasetsAnnotationsTei({
       dataSetId: TITLE_PAGES_DATASET_ID,
-      id: itemKey,
+      id: TITLE_PAGES_ANNOTATION_ID,
+      pageNumOrKey: itemKey,
     });
   teiPromiseCache.set(itemKey, inFlight);
 
