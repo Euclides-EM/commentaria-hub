@@ -1,0 +1,53 @@
+BOOK  TEN.                                                                     97
+
+[uncertain: tionem], nevertheless they have that relation or respect which is called a ratio between quantities of the same
+kind, by the third definition of the fifth [book], as we said more fully in the preface. Wherefore hereafter, since every irra-
+tional or rational [magnitude], although the worn-out denomination, undeservedly attributed by the theorems of this tenth book
+(to lines and planes), we shall remove, and we shall convert that word rational or irrational into certain or uncer-
+tain (their proper denomination). We have done this so that we may express, by a proper term, the true signification of these quantities
+as determined or undetermined. Moreover, so that we may not omit the improper denominations (rational & irrational),
+for if these were read, we should err arbitrarily. Therefore, of all the most [uncertain: ſiſſimice] incommensurables we shall be able to call any one certain,
+since it has been proposed to us for this cause, that by comparing the others with it we may call them certain or uncertain;
+for hypothetically the proposed line denominates it certain, as the fifth definition says, which calls the
+proposed [one] certain, because it has been proposed.
+
+                         Definition eighth.
+
+And that which is a square on the proposed straight line is certain.
+
+                         Definition ninth.
+
+And those which are commensurable with it, [are] certain.
+
+                         Definition tenth.
+
+But those which are incommensurable with it are called uncertain.
+
+Where Euclid has set forth the nature of the first kind of quantities (which is length or line) for the sake of the
+second kind of the same genus of quantity, that is, surface, which contains length and breadth.
+And thus the square which is made from the proposed straight line (in which that which was supposed certain) is
+therefore certain, because it arises from a certain straight line multiplying itself (as in numbers).
+And further he commands that squares, area, surface, or any plane whatever, if they are commensurable with this
+certain square, are likewise to be called certain. For since we have said sufficiently and more than enough that the origin of commensuration proceeds from numbers,
+because unity measures all numbers. Moreover, that numbers are not quantities of themselves, but are adaptable to quantities.
+If a number is applied to some quantity, we shall understand it to be cut into so many equal parts as there are units in that number.
+For if those units measure another quantity, those magnitudes, even by repetition, will be commensurable (from the first definition of this [book]).
+Therefore if two lines are equal, they receive an equal multitude of units, and the units of them.
+And thus the square contained under them consists of units, taking its origin from the equal units of those lines.
+Moreover, following the nature of that plane, namely squares, since they are contained under equal units.
+Therefore if those straight lines, being equal (that is, those taken as certain), receive a square, that [square] will therefore be certain,
+because it can be generated from the same units of the proposed line. But because any planes commensurable with the same square
+can be measured by the same measure, this measure is the units measuring each plane, [and] certain; and therefore those planes which
+are composed from the same units, by whatever different multitude, we shall call commensurable with one another,
+since the same units are applied to them. But if to the proposed line another is compared, commensurable in power
+only, but by no means in length, then by surfaces, the compared length (taken separately) is uncertain, but the power certain.
+Wherefore we shall call the denomination of the line certain: for commensuration of the power or of the length suffices to acquire a certain denomination.
+But if there is proposed a certain square or plane, and another surface is compared, whose units can measure the square,
+it will be clear that those units are foreign to those which composed the same square surface.
+And therefore the surface compared to the square, being composed from foreign units, is incommensurable.
+For if they were commensurable, the same unit would measure both of them. Wherefore deservedly we shall call this surface
+(incommensurable with the certain one) uncertain, because the units proposed as certain cannot determine it or make it certain.
+For as we said, any denomination of the uncertain depends on the relation to the proposed certain [one],
+whatever it may be in species or be numbered by any quantity of units. But [uncertain: CMutat] however
+
+Aa ij

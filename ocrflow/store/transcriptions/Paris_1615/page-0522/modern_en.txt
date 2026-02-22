@@ -1,0 +1,43 @@
+490                     TENTH
+
+surable in power only: and therefore the squares of them
+BG, GE are commens., and consequently the lines BG, FG
+which have the same ratio as those squares, are commensurable,
+in length, by the same 10.p.10. And by the corol. of the 16.p
+10. BG, BF will also be commensurable in length.  And
+inasmuch as BD the greater name of the remainder BC is rational,
+and the rectangle DF equal to the square of the rational A, is ratio-
+nal; by the 21.p.10. BF will also be rational commensu. in lon-
+gitude to BD. Therefore by the 12.p.10. BG will also be rational co-
+mmens. in longitude to the same BD. And since BG, GE, have
+been demonstrated commens. in power only, and BG
+rational, GE will also be rational.  Therefore BG, GE are ratio-
+nal commens. in power only: And therefore by the 37.
+p.10. BE is binomial: of which the names BG, GE, are propor-
+tional, and commens. to the names BD, CD, of the remainder BC. For
+it has been demonstrated that as BD to CD, so BG to GE: and
+therefore by permutation as BD to BG, so CD to GE: but
+BD has been demonstrated commensurable in length to BG: there-
+fore also CD will be commens. in length to GE, by the 10.p.10. It re-
+mains therefore to prove that BE is a binomial of the same order as the
+remainder BC: which will be [done] altogether as in the preceding.
+
+                         SCHOLIUM.
+
+If the ration. A is 4, and the remainder BC 9—√45, CD √45, and BD 9: the rect.
+DF will be 16, and also CE 16: thus the side BF will be 12, and BE 4+√8
+2
+3
+and consequently FE will be √8 2/3 + 2 2/3, and GE √8 2/3, FG 1 2/9,
+BG 4: thus it is evident that BE is binomial in the same order as the re-
+mainder BC, and that the names of these are proportional.
+
+            THEOR. 91.    PROP. CXV.
+
+If a rectangle is contained by a remainder, &
+by a binomial, of which the names are propor-
+tional & commensurable; the straight line
+which can produce that rectangle is rational.
+
+Let the rectangle AB be contained under the remainder AC, & the bi-
+nomial CB, of which the names CD, DB may be proportional, &

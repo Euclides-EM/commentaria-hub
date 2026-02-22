@@ -1,0 +1,36 @@
+149
+
+ELEMENTS.
+TENTH.
+
+DEFINITIONS.
+
+1.
+2.
+3
+
+Commensurable magnitudes are those
+measured by one and the same measure.
+Incommensurable magnitudes are those
+which have no common measure.
+
+Straight lines commensurable in
+power, are those of which the
+squares can be measured by one and the same sur-
+face.
+
+4. Incommensurable lines are those of which the
+squares have no common surface that can
+measure them.
+
+This being so, it is evident that for every line proposed, one will find infinitely many
+commensurable lines, and infinitely many incommensurable: some in length
+and power, the others in power only.
+
+Although this annotation is placed among the principles, yet it is easy
+to conjecture that it ought to be taken only as a Scholium. Thus we have
+distinguished it from the principles by a different character; it is demonstrated then
+afterwards in the n.p.10.
+
+5. The line’s commensurable with a rational line, be
+T iij.

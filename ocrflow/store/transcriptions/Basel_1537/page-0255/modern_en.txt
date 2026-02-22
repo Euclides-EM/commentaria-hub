@@ -1,0 +1,56 @@
+244        ARITHMET.  ELEMENT.  OF EUCLID
+
+10  And those which are commensurable with this, (are called) rational.
+(Those) incommensurable, are called irrational.  12  And of these (if the sides be squares
+but if not, by some other rectilineal (figure), the powers being equal) and the squares
+described on them, let them be called irrational.
+
+Eucl. from Camp.                                   Proposition  1
+
+If, two unequal quantities being proposed, a quantity greater than the half
+be taken away from the greater, and again from the remainder a quantity greater than the half
+be taken away, and thereafter in the same manner, it is necessary that at length,
+a quantity less than the lesser proposed quantity be left.
+
+CAMPANUS  Let there be two unequal quantities a and b, b being the greater: I say that so many times
+a quantity greater than the half can be taken away from b, that it will be necessary that the remaining
+quantity be less than a. For let a be multiplied so many times until it exceed b, and let its multiple be d e f,
+greater than b c. Let there then be taken away from b c a quantity greater than the half, which be b d,
+and again from the remainder which is g e, a quantity greater than the half, which be g h; and let this also be done
+so many times, until b c be divided into as many parts as many times as a is contained in d e f.
+I say then that the last remainder u, which is h c, will be less than a. For let h c be multiplied
+as many times as a is multiplied in d e f, and let its multiple be k l m. Therefore each one of the quantities k, l, m
+is equal to h c; it follows that k also is less than b g, and l less than g h; but since m is equal to h c,
+k l m will by conception be less than b c, therefore less than d e f. And since therefore d e f is to a as k l m to h c,
+and d e f is greater than k l m, it follows by the 4. of the fifth, that a is greater than h c, which is the thing proposed.
+And the same follows, if from the greater the half be taken away and again from the remainder the half,
+and this be done so many times until the greater be divided into as many parts as the lesser is contained
+in any of its multiples, the greater of the proposed quantities being exceeded by as much as you please.
+
+CAMPANUS’ note,  But it must be observed, that this proposition seems to contradict the fifteenth of the third,
+proposing that an angle of contingence is less than any angle contained by two straight lines. For if any rectilineal angle
+be set out, if from it a quantity greater than the half be taken away, and again from the remainder a quantity greater than the half, it seems
+necessary that this can be done so many times until a rectilineal angle less than an angle of contingence be left, the opposite of which the third syllogizes.
+But these are not univocal angles, for the curved and the straight are not simply of the same genus. Moreover neither is an angle of contingence
+to be taken so many times, that it exceed any rectilineal (angle), which is necessary (as is clear from the foregoing demonstration) for this, that the consequent
+follow from the antecedent. It is plain therefore that also any rectilineal angle is greater than infinitely many
+angles of contingence.
+
+Eucl. from Zamb.                 Theorem  1        Proposition  1
+
+If two unequal magnitudes be set out, if from the greater there be taken away
+more than the half, and from that which is left more than the half,
+and this be always done, there is left some magnitude
+less than the lesser magnitude set out.
+
+THEON from Zamb.  Let there be two unequal magnitudes α and β, of which the greater is α. I say that
+if from α there be taken away more than the half, and from the remainder more than the half, and this be always done,
+there will be left some magnitude less than the lesser magnitude set out. And since β is less, therefore γ,
+multiplied, will at length be greater than β. Let therefore δ be multiplied, and of γ indeed a multiple
+greater than β. Let α be divided into equals to γ, so many that there be taken away from α β,
+more than the half, e, and γ from α, more than the half, that is, γ; and let this be always done, until
+the divisions in α which are equal be in multitude to those which are in δ by divisions; and let there be therefore
+κ, n, θ, and β, divisions, being equal in multitude to δ, and β; and since δ is greater
+than β, and that which is taken away from α is less than the half, that is, γ, but from α more
+than the half e, and the remainder therefore α, is greater than the remainder β, a. And since δ is greater than α,
+and from α the half, that is, ε, is taken away, but from α more than the half, that is, η, the remainder therefore

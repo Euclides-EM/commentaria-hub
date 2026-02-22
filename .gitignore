@@ -21,6 +21,8 @@ ocrflow/.env_private
 !ocrflow/backups/*.db*
 ocrflow/store/data/*
 !ocrflow/store/data/tps/
+!ocrflow/store/transcriptions/
+!ocrflow/store/transcriptions/**
 */internal/*/docs
 */internal/docs
 ocrflow/store/items_metadata/diagram-directories.json

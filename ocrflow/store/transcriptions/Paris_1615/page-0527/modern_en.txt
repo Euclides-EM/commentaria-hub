@@ -1,0 +1,34 @@
+ELEMENT.
+
+495
+
+5. A plane is inclined to a plane, when the
+lines drawn on the one and the other plane perpen-
+dicular to the line of common section, and toward
+one same point of it, are not perpen-
+dicular to one another: and the inclination
+of those planes is the acute angle contained by those
+perpendiculars.
+6. A plane is said to be similarly in-
+clined to a plane, when the aforesaid angles
+of inclination are equal between themselves.
+7. Parallel planes are those which, being
+continued, do not meet.
+8. Similar solids are those which are
+contained by similar surfaces, equal in
+number.
+9. Equal and similar solids are those
+which are contained by similar surfaces, e-
+qual in number and magnitude.
+10. A solid angle is the meeting of more than
+two plane angles in one same point, those
+being constituted on different planes.
+11. A pyramid is a solid contained by sev-
+eral planes, meeting in one same point,
+and having another plane for base.
+12. A prism is a solid contained by planes,
+of which two that are opposite are equal,
+similar, and parallel, and the others are paral-
+lelograms.
+13. A sphere is a figure contained by the
+semicircle, when its diameter remain[uncertain: ing]

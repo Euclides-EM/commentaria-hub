@@ -1,0 +1,35 @@
+ELEMENTS.
+TENTH.
+
+DEFINITIONS.
+
+1  Commensurable magnitudes are those which
+are measured by one and the same measure.
+
+Thus the two straight lines, A & B,
+being measured by one and the same line
+C, are said to be commensurable. Thus also a line of 6 feet is commen-
+surable with another line of 7 feet, because
+they are both measured as well
+by the line of one foot, as by that
+of a half foot, of a third of a foot, &c.
+likewise the surfaces, which are
+measured by one and the same surface, are
+said to be commensurable: likewise the bodies,
+or solids which are measured by one and the same
+body, are also said to be commensurable.
+
+A B C
+
+2  But incommensurable magnitudes are those which
+have no common measure.
+
+Such magnitudes are the diameter & the side of any square: for those mag-
+nitudes have no common measure, as will be demonstrated in the last prop. of this
+book. There are also several other incommensurable lines, namely those to which one
+cannot give any common measure, many of which will be explained in this 10th
+book; and it is taught by what ways they can be found: likewise, the super-
+ficies are said to be incommensurable, and the solids incommensurable, which have no
+common measure.
+
+E.2.

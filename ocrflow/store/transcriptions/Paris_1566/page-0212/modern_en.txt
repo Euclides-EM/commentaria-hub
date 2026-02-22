@@ -1,0 +1,41 @@
+BOOK  TEN.                                                                     24
+
+For if we were to call the magnitudes which we call uncertain (by their proper denomination) irrational,
+we would have taken away from them the possession of ratio, as if asserting that they are deprived of ratio
+either among their own species, or indeed with respect to certain [magnitudes], which is far from the case.
+For although they are deprived of commensuration with certain [magnitudes], they will not be deprived of ratio,
+but will have ratio, by the 4th definition of the fifth; for when multiplied they exceed one another, and moreover
+(by the third definition of the same) they are of the same genus with respect to quantity; namely, if they are lines,
+they have the same genus of quantity, length; if surfaces, length and breadth; if solids indeed, three dimensions.
+Therefore, having ratio, they cannot be called irrational as certain to uncertain.
+They are also called irrational less [properly], [namely] uncertain magnitudes compared with uncertain [magnitudes]
+of the same species, which indeed are commensurable with one another, and admit the ratio of numbers, as we said.
+For these have a known ratio, but those a mute, or unknown, uncertain, or indeterminate ratio, since they do not have
+that which numbers have among themselves. Therefore we call those magnitudes uncertain rather than irrational,
+just as, more soundly, we oppose certain [magnitudes] to rational [ones]; for rational has nothing to do with certainty:
+they are indeed distinct qualities. Diversity of genus removes ratio of quantity (by the third definition of the fifth)
+between quantities, just as diversity of genus of commensuration removes commensuration: for ratio is more general
+than commensuration. For not all quantities having ratio are commensurable, but all commensurable [quantities]
+must necessarily have ratio.
+We further commend what we said: that none of these quantities (which we call uncertain, but others irrational)
+can be said to be uncertain from itself. But any of them, each in its own place, can be called uncertain when compared
+with another, namely when there is a comparison of one species to another, which always lacks denomination; this uncertain
+comparison, made, denominates the proposed magnitude as uncertain by the compared quantity; yet we shall not say it is uncertain
+for this reason, that it draws uncertainty from its own nature, but we shall judge the uncertainty to have been made from an uncertain
+comparison; therefore quantities take this uncertainty from the comparison of different species, not from the nature of quantity,
+as we make easy by an example. Let the line A B be cut in
+
+G in extreme and mean ratio, by the 11th of the second or
+the 30th of the sixth. Therefore the three straight lines A B, A G and G B are among themselves (insofar as compared)
+uncertain, as will be more fully evident in the sixth of the thirteenth. Yet it is permitted to us to propose any one of these
+to be compared with the others; for if we propose A G, the greater segment, this proposed straight line (to which the remaining
+A B and G B, incommensurable with it, are compared) will be called certain, which by an uncertain comparison makes the others
+compared with it uncertain. Similarly if the single segments A G, G B are compared to the whole A B, or if the whole and the greater
+are compared to the smaller G B. Therefore any proposed [line] can be called certain, and its quantity will be known; but the others
+(by the comparison made) will be uncertain, unknown, and indeterminate, not indeed by the assessment of quantity, but by the relation
+of comparison, which is uncertain and wholly lacks denomination. For what prevents taking the whole A B as a cubit, whose greater segment
+is some other cubit? For if we were to make the Lyon cubit in extreme and mean ratio, the greater segment will not be far from the Antwerp
+cubit; nevertheless each of them among its own [people] will be a certain and proposed quantity, but the other, compared to it, will be called
+uncertain. For each, multiplied by however many units, whether in increase or in decrease, produces magnitudes having the same ratio,
+by the fifteenth of the fifth. And therefore, one unit measuring another, or counting, the units counting the remaining [one], will be
+incommensurable, since the whole to the whole will have been incom-

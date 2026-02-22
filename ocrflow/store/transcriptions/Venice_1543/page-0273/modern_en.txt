@@ -1,0 +1,60 @@
+BOOK X.
+The Translator.
+
+I
+This definition is much broader and more general than the other, because this one
+wants that even those lines which are commensurable only in power with our proposed
+rational (that is, with our measure of a pace, or a rod, or some other kind of measure)
+should be called rational; so that it follows that those quantities which are commonly
+called by practitioners “strong root” and irrational (as would be the square root of ten
+or of twelve and of every other non-square number), the author wants that, since such
+quantities are lines, they be called rational (because their square is rational); and if it
+were not so, it would follow that there would be great disagreement in the definitions
+of binomials and remainders, and in other propositions of this tenth [book], as by
+proceeding one may easily know; it is true that if such quantities were surfaces they
+will then be called irrational and medial, as in the thirteenth proposition of this [book]
+one may see,
+
+Definition vi.
+
+6
+4  And those lines which will be incommensurable with the same [one] are
+   called irrational, or surds.
+
+The Translator.
+
+A
+Also this definition must be understood as joined successively to the preceding one
+of the first translation; because in this he defines that all those lines which will not be
+commensurable with the same our proposed straight line (that is, with our proposed
+material measure) are called irrational lines, or surds; nevertheless this same definition
+in the second translation speaks in another way, namely.
+
+And those lines which will be incommensurable with that [one] in one
+and the other way, that is in length, and in power, are called
+irrational.
+
+I
+Which definition, understanding it as joined successively with the preceding (indeed
+of the second translation), comes to conform with the converse of that, that is, that a
+line incommensurable only in length with our measure ought not to be called, nor
+understood [as] irrational (as above was said of the preceding); rather he wants it to be
+understood [as] rational because its square is rational; but it is necessary to note that
+the common crowd of practitioners up to the present (following the translation of
+Campanus) will say of all non-square numbers, and saying lines as if they were surfaces,
+they call them irrational and surds. Nevertheless they must be understood [as] rational
+being lines, as the second translation speaks; otherwise there would follow (as I said
+above) great disagreement in the books that will follow in this tenth [book], etc.
+
+Definition vii.
+
+7
+0  But every square surface with which, by the presupposed reasoning, is
+   called rational.
+
+The Translator.
+
+P
+For greater understanding of this definition it is necessary to note that when
+we desire to know the quantity of some surface, we consider in what
+proportion

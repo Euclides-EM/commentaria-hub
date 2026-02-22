@@ -1,0 +1,35 @@
+EUCLID’S ELEMENTS.
+
+I strongly urge all who wish to become mathematicians
+to read diligently those who have written on Euclid;
+to whom I shall never deny that I owe very much.
+As to the matter, it is of this kind: first, that principle
+of Campanus to comprehend at least quantity as a whole
+(whether it be that which they call continuous, or whether
+it be discrete such as number is). Moreover there is
+something else which belongs only to continuous quantity,
+namely that you can diminish it to infinity, as in a line.
+For whatever is given can be divided into infinite parts,
+whether it can be divided or not, of which nevertheless
+each will be a line: and that again thence into others which
+retain the same nature: nor is it ever reached to a minimum
+by section, not even if you should call it a point, although
+that by itself is in geometry a minimum. Hence it comes
+about that there are certain irrational lines, of which indeed
+there is some proportion to one another, but it cannot be
+expressed by number; and therefore it is called by
+Proclus an irrational number. For wherever there is section
+or division to infinity, there also is found that ineffable thing
+which they call irrational: but this is not so in numbers. For
+there is no number which by dividing you do not reduce to
+that minimum, which is unity, from which it is necessary
+that all numbers are, as it is agreed among them. For all are
+measured by unity. Therefore there are no irrational numbers.
+But as to the exposition of the following theorems, note this,
+that it was not our plan at the beginning of the work undertaken
+to apply a hand to each one. For it seemed to be doing the deed
+if I should copy for myself those things which have been rightly
+handed down by the ancients (and there are many good ones).
+Nor indeed would I wish, as far as I can, glory gained by another’s
+labor
+in

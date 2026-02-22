@@ -1,0 +1,89 @@
+❧ EVCLID. GEOM.
+
+metices, quæ de radicibus numerorũ, tam rationalibus quàm ir-
+rationalibus, vt vocat, sermone instituit : Immo & tota perqua-
+sum mihi prorsus habeo, cognitione spectâ illius partis Arith-
+metices pẽdere ex hoc 10. lib. tatiu abest, vt existimẽ, tractationẽ
+illam r. dictam requiri, vt facilius hic liber intelligatur. Non
+negari tamen, eum qui rationem radicum atq; calculum te-
+nuerit, maiore cum voluptate hunc librum percepturum, quâ
+qui illarum omnino sit ignarus, propterea quod ille demonſtra-
+tiones ad vsum potest reuocare, hic vero nullo modo. Hac enim
+de causa & nos priora decem theoremata secundi lib. numeris
+accommodauimus, vt oblectationem animi maiorem ex eo stu-
+diosus caperet, ac fructum non autem vt ex iis illo demon-
+strarent, facilius arbitraremur intelligi posse ex numeris. Cur
+ergo (dicet aliquis) vt in eo libro, non pertineat etiam in hoc
+exempla numerorum, quibus Algebra vtitur, vsurpari, vt ea
+res & maiori voluptati esset, & commodo legentibus? In prom-
+ptu causa est, quare id omittendum duximus. Cum enim per-
+pauci sint hoc tempore, quibus celeberrima illa Algebrae ars
+sit cognita, videbantur numeri illi, si adhiberentur, tenebras
+potius offusuri, quam lucis aliquid maioris daturi, & perbi-
+cuitatis quippe ita ingenia studiosorum pro adiuuamento, ac lu-
+ce, quam his nostris commentarijs afferre laboramus, plus ca-
+perent incommodi, minusq; demonstrationes ipsas perciperent :
+Id quod in lib.2.accidere non potuit, cum additionem numero-
+rum integrorum, ac multiplicationem, quæ solæ necessariae ibi
+fuerunt, nemo fere sit, qui ignoret. Huc accedit, quod qui in
+Algebra sunt versati, facili negotio demonstrationes huius lib.
+ad numeros accommodare possunt per se ipsos, quando volunt,
+praesertim iam hoc ipsum non multo ante a Michaele Sti-
+felio nobili Arithmetico in 2. lib. operis, quod de Arithmetica
+integra inscripsit, diligenter effectum sit, & accurate.
+ITAQVE, vt ad institutum redeamus, inchoans rem ip-
+sam Euclides, more suo, ab explicationibus vocabulorum, qui-
+bus vtendum erit ; declarat primo loco, quænam magnitudines
+dicantur commensurabiles, definiens eas esse, quæ eadem men-
+sura metiuntur. Vt duæ magnitudines
+A, B, quas eadem mensura C, metitur,
+(metitur enim C, ipsam A, quater re-
+petita, & ter sumpta ipsam B,) dicuntur commensurabiles. Eo-
+dem
+
+A
+B
+C
+
+
+❧ LIBER. X. ❧                                              3
+
+dem modo commensurabiles sunt, linea 20. palmorum & li-
+nea 13. palmorum quia ea linea tam vnitus palmi ; quam di-
+midij palmi, quam tertia partis vnitus palmi, &c. metitur.
+Similiter commensurabiles dicuntur superficies, quæ vna, &c
+eadem superficie metiuntur ; Necnon corpora, solidæ commen-
+surabilia, quæ metitur idem corpus, seu solidum.
+
+II.
+
+INCOMMENSVRABILES au
+tem, quarum nullam communem mensu-
+ram contingit reperiri.
+
+TALES magnitudines sunt, diameter quadrati cuius-
+uis, & latus eiusdem ; quoniam nullam habent mensuram
+communem, vt propositione vltima huius lib. demonstrabitur
+ab Euclide. Sunt etiam plurimæ aliæ lineæ incommensurabi-
+les, quibus scilicet mensura aliqua communis dari nullo modo
+potest, quarum multas hoc lib. Geometra explicat, docetq; qua-
+nam ratione inueniri possint. Rursus superficies dicuntur in-
+commensurabiles, nec non, & solida, quæ nullam admittunt
+mensuram communem.
+
+III.
+
+RECTAE lineæ potentia commen-
+surabiles sunt, cum quadrata earum idem
+spatium metitur.
+
+LINEARVM rectarum quædam commensurabiles sunt
+longitudine, quas nimirum alia linea, tanquam mensura com-
+munis, metitur ; cuiusmodi sunt illæ, quas in expositione defin.
+commensurabiles simpliciter dicimus : quædam vero longitu-
+dine incommensurabiles, quas scilicet nulla linea, tanquam
+mensura communis, metitur. Rursus linearum, quæ sunt in-
+commensurabiles longitudine, aliæ sunt eiusmodi, vt earũ qua-
+drata sint commensurabilia, aliæ vero ita se habent, vt & qua
+A 3
+drata

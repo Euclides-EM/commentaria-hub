@@ -1,0 +1,46 @@
+OF THE ELEMENTS OF EUCLID.
+
+VI.
+And the lines commensurable with the given one in length, and in
+power, or indeed in power only, shall be called rational.
+VII.
+And the incommensurable ones shall be called irrational.
+VIII.
+And the square of the given straight line shall be called rational,
+IX.
+And the areas commensurable with it, rational.
+X.
+And the areas incommensurable, shall be named irrational.
+XI.
+And the straight lines which can produce incommensurable areas
+shall be called irrational: and if they are squares, their sides;
+but if rectilinear of another kind, those which describe the squares
+equal to them.
+
+THE COMMENTARY.
+
+There are also certain common notions, of which Euclid makes use in this book, namely.
+
+COMMON NOTIONS.
+I.
+Every magnitude multiplied can exceed every other magnitude
+proposed of the same kind.
+II.
+Whatever magnitude measures another, will also measure that
+which the said magnitude measures.
+III.
+Whatever magnitude measures the whole, and a part taken from
+it, will also measure the remainder.
+IIII.
+Whatever magnitude measures two or more magnitudes, will likewise
+measure that which is composed of them.
+
+THEOREM I.  PROPOSITION I.
+
+Two unequal magnitudes being proposed, if from the greater there be
+cut off a part greater than the half, and from what remains likewise
+there be cut off a part greater than the half, and this be done
+always, in the end there will remain a certain magnitude, which will
+be less than every proposed lesser magnitude.
+
+Let there be

@@ -1,0 +1,63 @@
+LIBER  DECIMVS.                                                                 26
+
+numeros,metietur omnes magnitudines,quibus adaptantur numeri:sed meſuram idem genus quan-
+titatis habere decet. Vnitas igitur idem quantitatis genus ſibi ſumit,quod & quantitas numero ſi-
+gnificata.Hoc tamen eodem genere quantitatis ſumpto, poteſt adeſſe commenſuratio, & abeſſe eadem,
+non ex defectu generis eiusdem quoad quantitatem,ſed quoad menſuram.
+
+MONITVM.
+
+Sequens variamus corollarium à Zamberti textura alieni,ut oſtendamus Euclidem hoc decimo
+præcipuè docturum incommenſurabilium ſue incertarum magnitudinum notitiam Græcam exem-
+plar ſequentes: Nam quas vocat potentia tantum commenſurabiles, intelligit longitudine incommen-
+ſurabiles eſſe,reliquas verò vtroque & potentia & longitudine modo incommenſurabiles,ut quæ com
+parantur expoſitis,omnes incommenſurabiles intelligantur.
+
+His expositis indicatur,quod propositæ rectæ lineæ (cuius ſcilicet quantitas eſt certa ac de-
+terminata)infinitæ multitudine comparantur rectæ lineæ.Commenſurabiles quidem,poten-
+tia tantum,incommenſurabiles vero,longitudine & potentia.
+
+Quæ ſuſcepit Euclides negotium quantitatum incommenſurabilium hoc decimo,concludit ſequi
+ex prædictis,cuilibet propoſitæ rectæ,hoc eſt certæ & determinatæ aut cognitæ quantitatis,infinitas
+multitudine comparari rectas lineas. Omnes autem incommenſurabiles,ſed binis reſpectibus: aliæ
+quidem commenſurabiles,ſicet tantum potentia,longitudine tamen incommenſurabiles:aliæ ve-
+ro per vtrumque incommenſurabiles,longitudine ſcilicet,ac potentia.Sicque omnes eidem propoſitæ
+incommenſurabiles erunt duobus reſpectibus. Vt autem verà Euclidis mentem concipiamus,propo-
+ſitam rectam non eam tantum quæ ſignificatur à nobis cognitæ magnitudine,ut pote cubitiſpedes,
+palmi,aut digiti,(vt voluit Zambertius)rater Græcum exemplar;ſed quamcunque à nobis expoſitam
+cuiuscunque fuerit generis menſura. Cum enim ſit liberum quamlibet rectam in quotis ſegmenta
+diſtribuere(ex nona & decima ſexti) Hæc ſegmenta attribuimus rectæ,quæ lineæ pedalis aut cubitalis
+erit incommenſurabilis,& proinde huic propoſitæ pedalis aut cubitalis,incommenſurabilis erit,ac
+acia eidem dari poterunt,incommenſurabiles aut longitudine tantum,aut longitudine, & potentia ſi-
+mul. Et hac ratione ex hac propoſita omnes incommenſurabilium ſpecies hoc decimo conſcriptæ,ea-
+dem via generari poterunt,ſicut & ex pedali vel cubitali: vt exemplo ſummus recta (per trigesi-
+mam ſexti)ſecta maius ſegmentum,illud conſtabit eſſe longitudine ac potentia incommenſurabile to-
+ti,ex ſexta decimiterti. Attamen ſumptum illud maius ſegmentum,in quotis partes libuerit diſtri-
+buemus,optato numero ſignificatas, à quo tandem producimus infinitas rectas huic maiori ſegmento
+commenſurabiles, potentia tantùm, & longitudine incommenſurabiles,aliáſque longitudine ſimul
+ac potentia incommenſurabiles,ſiquidem ſumptum illud ſegmentum pro propoſita ſumſerimus ac cer-
+ta,ſi aliq; incertas reperire velimus,eadem lege antes eidem ſegmento incommenſurabiles,incen-
+tas eius reſpectu producemus,vt in cubitali propoſita,vel potentia tantùm,vel potentia & longitu-
+dine ſimul incommenſurabiles.
+
+MONITVM.
+
+Licet hæc ſuo loco propriè nō ſint tradita,ea nihilominus animadverſione digna exiſtimantes hic
+appoſuimus,poſtea ſatius intelligenda,ne qui poſt Zamberttum laberentur, hanc Geometriæ liberta-
+tem tollerent,quod tantùm in rectis menſuris à quibusdam obſeruatas proponere liceat,vt ille pro-
+poſita decernunt,quasi prohiberetur,diuerſis regionibus pedes,aut palmos,ſiue cubitos,ſi binis com
+incommenſurabiles haberi,quidem omnes ſunt propoſitæ rectæ. Et proinde ſuper his propoſitas ex-
+hibere rectarum longitudines,quibus aliæ incommenſurabiles darentur:quod eſſet abſurdum. Quæ
+libet igitur magnitudines linearum proponere licebit,vt eidem incommenſurabiles comparentur,&
+ideo propoſitam eam eſſe,que ex hypotheſi proponitur,dicemus.
+
+Diffinitio quinta.
+
+Vocatur igitur ipſa propoſita recta linea,certa.
+
+Hanc propoſitam lineam rectam vocat Euclides certam vel determinatam, cui ſcilicet cōparatæ
+ſunt reliquæ,ut certæ,vel incommenſurabiles aut incertæ dicantur. Certam autem
+ea de re vocauit,quia eius quantitas nobis eſſe debet eſſe manifeſta, vt nihil de eius quantitate dubi-
+tantes,verè certam nobis eſſe profiteamur,ac cùm eius propoſita certa nobis fuerit quantitas,certior
+
+Aa ij

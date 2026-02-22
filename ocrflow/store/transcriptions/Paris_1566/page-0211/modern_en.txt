@@ -1,0 +1,48 @@
+EUCLID. ELEMENTS. GEOMETRY.
+
+certain magnitudes of whatever kind, if only proposed, can be called determinate, in comparison with which
+all the remaining kinds will be named indeterminate, that indeed (as we said) because of the scarcity of
+affinity of numbers among themselves. For Euclid will teach in this tenth [book] to generate some of these,
+and lest the task seem to approach the infinite, he will show that a general infinity can be produced
+by a single theorem. Hence let us consider that so hidden and obscure secret of this discipline,
+since we have said that units are, by the first definition of the seventh [book], as it were
+insoluble by their own nature. And therefore (since it is referred to quantities) we easily perceive it to be
+geometrical and therefore continuous and uncut, when compared among numbers,
+which is the true and only begetter of numbers, [and] contains in itself the nature of continuous quantity; and since
+it is insoluble, we shall necessarily confess it to be the smallest part of all numbers, because
+it cannot be cut into smaller parts by numbers; but if (as we said in the seventh) its quantity is cut by
+number, the smallest part always returns to units. If therefore to a magnitude cut by
+some units, a magnitude is compared, whose quantity, when compared to the prior quantity,
+falls into that cutting of the unit, which cannot be expressed by any number measuring that quantity of the unit,
+but which, by whatever multiplication of that quantity by a decrement being made, always, when
+compared, falls at the extreme of the magnitude, or boundary, into the cutting of the unit: it will be clear
+that the denomination of that compared quantity is held beyond the powers of numbers, especially
+of those numbering the prior quantity: since if that extreme, by some multiplication
+of a decrement of the unit being made, were to fall into some boundary of those units, and not
+into a cutting of the unit, the quantities of that multiplication would (at least) both
+number the magnitudes of the units. Therefore their comparison would not be held beyond the powers of numbers,
+but would be expressed by numbers. Since therefore it cannot be expressed by numbers, it lacks determination
+and therefore certainty: for the certainty of the quantity of comparison depends on the expression of numbers.
+Therefore that which cannot be expressed by numbers, for this reason deserves to be called an indeterminate comparison:
+and therefore the quantity which produces that comparison to another quantity, by the same law can be called an indeterminate quantity.
+Moreover this, deprived of every denomination, becomes mute: because it has burst forth into such wickedness,
+that it has attempted to dissolve that inviolate integrity of the unit, which admits no denomination of section.
+
+But furthermore, following that which Zambertius says in the preliminary to perspective, namely that he had seen Euclid’s
+copies, worn away by moths and decay, at the Socratic [place]. Indeed we can infer
+that this tenth [book] of his, or some other, suffered some such damage. For Euclid calls this
+proposed magnitude (which makes a line) “rational” by this word ῥητὴ,
+(which properly bears “certain” and “determinate” and “which can safely be spoken”) in the fifth
+definition. But the sixth brings forward that all commensurable [magnitudes] with the same proposed certain [one] are likewise certain
+by the same word ῥητὰς, from the habit of commensuration indeed, because the commensurable are
+certain when proposed, and they themselves will be certain for that reason; but when by the seventh definition he argues from
+privation, he departs from sense. For what “habit” adds, “privation” takes away. For the sixth will say
+that because they were commensurable with the certain, therefore they are certain. The seventh therefore, because they themselves
+were incommensurable with the certain, says it necessarily follows that they are uncertain (with a privative negation prefixed).
+But why Theon put in place of this word ἀῤῥητὰς, which is truly opposed to ῥηταὶ by privation,
+judging ἄλογον to be the opposite of the certain or determinate, [namely] “irrational,”
+we cannot sufficiently wonder. But since it has nothing in common with reason, and moreover
+with absurdities—although he always uses ῥητὸ while affirming this—nevertheless wishing to assign
+an opposite to it, he sets down ἄλογον throughout this whole tenth [book], which is no small inconvenience to learners.
+
+For

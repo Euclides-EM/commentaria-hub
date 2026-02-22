@@ -1,0 +1,39 @@
+282  EUCLID: GEOM:
+
+are commensurable, when their squares
+measure the same space.
+
+OF straight LINES some are commensurable
+in length, namely those which some other line, as a common
+measure, measures; of which sort are those which in the exposition, defin.
+1. we said were simply commensurable: but some are incommensurable
+in length, which indeed no line, as a common
+measure, measures. Again, of lines which are
+incommensurable in length, some are of such a sort that their
+squares are commensurable; but others are so disposed that also
+their squares are incommensurable. Therefore those lines
+incommensurable in length, whose squares are commen-
+surable, are here by Euclid called commensurable in power;
+because indeed according to their powers, that is, accord-
+ing to their squares (for, as we said at prop.47. book 1,
+the power of each line is the square described on it)
+they are commensurable, although they themselves according to length are
+altogether incommensurable.
+
+BUT if anyone should ask why Euclid defined separately
+lines commensurable in power, but not commensurable
+in length; it must be answered, that lines commensurable in length are
+more than sufficiently explained in the definition of commen-
+surable magnitudes, &c. since lines of this sort a single common
+measure measures, as has been said. But since lines
+commensurable in power no common measure can measure,
+but only their squares measure the same space,
+therefore it was altogether necessary that they be explained
+by a proper definition.
+
+III.
+INCOMMENSURABLES how-
+ever, when with their squares no space,
+which may be a common measure of them,
+happens to be found.
+THE remaining lines incommensurable in length, which-

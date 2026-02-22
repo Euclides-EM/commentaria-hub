@@ -1,0 +1,44 @@
+BOOK X.  8
+
+to transfer to me: but it was fitting to comply with the custom of friends, who
+urged me to the commentary on the whole book, so that whatever
+light the obscurity of unknown things might desire, that
+as far as there was ability in my talent, and as far as long
+study of this most excellent discipline might have helped it,
+I myself might bring to us, whom I understand to be carried by the love of truth
+to the knowledge of the most subtle and most worthy things.
+
+First Theorem.
+
+With two unequal magnitudes proposed,
+if from the greater there be taken away more than the half, and again
+from the remainder again there be taken away more than the half, and this
+be always done: there will be left some magnitude
+less than the lesser of the two proposed.
+
+Let there be two unequal magnitudes α β, of which
+the greater is α β: I say if from α β there be taken away
+more than the half, and from the remainder again more than the
+half, and this be always done, there will be left some
+magnitude less than ζ, magnitude γ. For γ
+multiplied will at length sometime be greater than the
+magnitude α β. let it be multiplied and let it be λ. a
+multiple indeed of γ, but greater than α β.
+and let α λ be divided into parts equal to γ,
+which are α ζ, ζ η, η ι: and let there be taken away from α β
+more than the half, and let it be β θ. again let there be taken away
+from α θ more than the half, and let it be θ κ, and up to that point
+let it be done, until the divisions of the magnitude α β shall be as many as
+are the divisions in the magnitude α λ. Let therefore the divisions be
+α χ, χ θ, θ β, as many in number as are the divisions
+
+A
+β
+γ
+ζ
+η
+ι
+λ
+θ
+κ
+χ

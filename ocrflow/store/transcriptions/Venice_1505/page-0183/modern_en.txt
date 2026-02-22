@@ -1,0 +1,52 @@
+Tenth
+
+¶ Euclid’s Elements, the Tenth Book, and most diffe-
+cult, from the tradition of Theon, translated by Barthol-
+omew Zamberto the Venetian.
+
+¶ First Definition.
+Commensurable magnitudes are called those which
+the same measure measures.
+
+¶ Second Definition.
+¶ Incommensurable, however, are those which fall under
+no dimension of a common measure,
+
+¶ Third Definition.
+¶ Straight lines commensurable in power are those from
+which □□ the same area is measured.
+
+¶ Fourth Definition.
+¶ Incommensurable, however, when the squares from them are measured by no area with a common
+measure.
+
+¶ With these set forth it is indicated: that the proposed straight line, that is, which: and cubits: and
+palms: and digits and feet are taken as measures. There are straight lines in
+infinite multitude: commensurable and incommensurable: some indeed in
+length and power: others truly in power only. Therefore the proposed straight
+line itself is called rational: and those commensurable with it, both in length
+and power, and in power only, rational. But those incommensurable in
+both ways, that is in length and power, are called irrational. And that which
+indeed is a rational square from the proposed straight line: and those commensurable
+with it, rational: and that which is from an incommensurable, irrational: and those commensurable
+with it, irrational, are called. And the powers themselves, whether their squares are the sides themselves,
+or other straight lines equal to them □□ describing: are called irrational.
+
+¶ First Theorem, first proposition.
+¶ With such unequal magnitudes set out: if from the
+greater there be taken more than the half: and from that which is left
+more than the half: and if this be done always: there will be left some
+magnitude less than the lesser magnitude set out.
+
+¶ Let there be two unequal magnitudes, ab, c, of which the greater is ab. I say that if
+from ab there be taken more than the half, and from the remainder more than the half, and this
+be done always, there will be left some magnitude less than the lesser magnitude set out, c. Therefore,
+c multiplied will be greater than ab; let ab be multiplied and let de be a multiple
+of it, of c; but de is a multiple of c, greater than ab. And let de be divided into
+unequals to c, that is df, fg, ge. And let there be taken from ab more than the half, bh, and from ah more than the
+half, that is hk. And let this be done similarly each time: from ab there are equal divisions; let them be
+in multitude equal to the divisions which are in de; therefore let ak, kh, and hb be
+equal divisions existing in multitude to df, fg, and ge. And since de is greater than
+ab, let there be taken from de less than the half, that is eg, from
+
+L

@@ -1,0 +1,19 @@
+EUCLID’S ELEMENTS.
+
+we should be reminded from what has been said above that it is to be understood. For it is accepted that contraries can be understood from contraries. Moreover, the reading of the following matters will teach that the accidents and affections corresponding to these ought to be taken again from Euclid himself.
+
+Straight lines are commensurable in power: whose squares are measured by one and the same surface or area.
+
+As far as this place is concerned, I think two things should be prescribed. First, that we understand by this expression, a line in power, its square. For a line is said to be able, only as much as it can describe a square. Second, that we use such a distinction here. Of lines, these indeed are commensurable with one another in length: but those are commensurable with one another in power. Euclid does not explain the other member, of lines commensurable in length, because he had aimed to have comprehended that earlier by the universal definition of commensurable magnitudes. For lines are under the genus of magnitude. But because lines have also in themselves something proper and peculiar, beyond the other magnitudes, namely that some of these are commensurable in power; this, however, he did not think should be omitted.
+
+Let the line b c be; its square is b c d e; and let also the line f h be; its square is f h i k. these two squares are mea-
+
+d  e
+b  c
+
+i  k
+f  h
+
+a
+
+sured

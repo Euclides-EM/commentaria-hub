@@ -1,0 +1,41 @@
+284  EUCLID. GEOM.
+
+IF some straight line of known magnitude be proposed, to
+which, of all other [lines] that are compared with it, some are
+commensurable in length and in power, and some indeed in
+power only: likewise some are incommensurable with it in
+length only; and some in length and in power, as will be
+demonstrated in various places in this tenth book. For Eu-
+clid does not wish, from what has been said, to be shown, or
+gathered (although his words may seem to sound thus) that
+these things are so: but he only indicates to
+us, and in some manner hints, that some of the lines can be
+said to be commensurable with the proposed straight line in
+length and in power, and some in power only, &c: which
+indeed in no way follows from what has been said, but will
+be demonstrated in what follows, as we have said.
+
+BUT that proposed line, by reference to which others are
+commensurable or incommensurable, is called in Greek
+ῥητὴ; but in Latin Rational; because it is always set down as
+known, and known, whereas the others, compared with it, are not always
+known, although each separately always exists as a definite magnitude
+and known; since it can be divided into any number of equal parts.
+
+VI.
+
+AND those commensurable with it either in
+length and power, or in power
+only, [are] Rational.
+
+HE TEACHES that other lines, commensurable with that
+which is called Rational in whatever way, are also called Rational;
+not indeed by position, as that [one], but because, compared with it,
+they are found commensurable with it either in length and power,
+or in power only—.
+
+THEREFORE, according to the meaning of Euclid, the square root of this number 20. or 1000. &c. Or what is the same, the straight line
+whose square is 20. or 1000. &c. is called Rational,
+since in power it is commensurable with the Rational line, (for if
+both the number 20. and 1000. are commensurable with a number that is
+any square, as 16. or 100. &c.) although in length if

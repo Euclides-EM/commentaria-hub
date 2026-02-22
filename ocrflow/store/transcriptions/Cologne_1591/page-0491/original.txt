@@ -1,0 +1,71 @@
+102        EVCLIDIS  GEOMETRIÆ
+
+COLLIGIT autem, lineas potentias, siue incommenfurabilia quadrato Rationali lineæ, dici de-
+bere Irrationales, ex 7. defin. quemadmodum fupra ex 6. defin. colligimus, lineas, quæ poffunt fpatia commen-
+furabilia eidem quadrato Rationali lineæ, appellari debere Rationales. Nam lineæ, quæ poffunt illa fpatia
+incommenfurabilia, fant potentiæ incommenfurabiles lineæ Rationali, ex 4. defin. Cùm ergo omnes lineæ
+potentiæ incommenfurabiles, fint quoque incommenfurabiles longitudine, vt ad defin. 4. diximus, demonftra-
+biturq; in coroll. propof. 9. manifeftum eft, ex 7. defin. lineas illas, quæ poffunt fpatia incommenfurabilia qua-
+drato Rationali lineæ, dici Irrationales.
+
+PRÆTEREA, DVM quoque non eft, Euclidem & veteres Geometras has voces, longitudine
+& potentia: atque potentia tantùm: apponere ferè femper vicibus iftis: commenfurabiles, ac
+incommenfurabiles: Vix autem & rariffimè: Rationales, & Irrationales: Rectè enim dicun-
+tur incommenfurabiles longitudine & potentia, vel potentia tantùm: Item incommenfurabiles longitudine
+& potentia, vel longitudine tantùm: Minùs verò rectè Rationales longitudine & potentia, vel potentia
+tantùm, aut Irrationales longitudine & potentia, vel longitudine tantùm. Quod quidem, quoniam Cam-
+panus non animaduertit, occafionem multis præbuit, vt variè de hoc in hoc lib. de lineis commenfura-
+bilibus, incommenfurabilibusq; nec non Rationalibus, Irrationalibusq; fint locuti.
+
+CÆTERVM his definitionibus adiungemus poftea aliam vnam, & nonnulla pronunciata, quorũ
+vfus in hoc libro reperitur.
+
+POSTVLATVM, SIVE PETITIO.
+
+POSTVLETUR, quamlibet magnitudinem toties poffe multiplicari, donec
+quamlibet magnitudinem cuiufdem generis excedat.
+
+PROPOSITIS enim duabus magnitudinibus eiusdem generis inæqualibus, cùm maior infinita nō fit,
+minor verò infinitè poffit augeri; perfpicuum eft, minorem toties poffe multiplicari, donec fuperet maiorem.
+Conflat hoc etiam ex iys, quæ in defin. 5. lib. 5. fcripfimus. ibi enim eas magnitudines diximus tum demum con-
+fiftere iufdem magnitudinis, cùm alterutra fit potefl multiplicari, vt alteram excedat. Atque ex huius condi-
+tionis defen, angulum rectilineum, & angulum contingentia, dici, eff generis, docuimus.
+
+AXIOMATA, SIVE PRONVNCIATA.
+I.
+
+MAGNITVDO quotcunque magnitudines metiens,compoſitam quoque ex
+ipfis metitur.
+
+II.
+
+MAGNITVDO quamcunque magnitudinem metiens,metitur quoque om-
+nem magnitudinem, quam illa metitur.
+
+III.
+
+MAGNITVDO metiens totam magnitudinem, & ablatam, metitur & reliquā.
+
+HÆC axiomata, vt ad numeros pertinent, poftea (funt à nobis in 7. ultimo tribus pronunciatis) hîc
+Quare cùm fit eadem ratio in magnitudinibus, non eft, quod fufpifare eorum demonstrationes hîc repetendas:
+præfertim quod ad verbum huc poffint transferri, mutata folùm voce numeri in vocem magnitudinis.
+
+CÆTERVM quia hoc in lib. omittendum nobis fuit, à numero, quem Theon in propofitionibus En-
+clid. fignauit, vt ad propof. 13. dicemus, quemadmodum & in omnibus, feciẽ Campani fexcenties, vt do-
+cimus ad initium primi libri; cur autem vt duplex numerus in margine & regione propofitionum appone-
+retur, quorum fuperior ordinem Theonis, inferior autem Campani feriem demonftraret: Quod fi vnus tan-
+tùm numerus reperiatur in margine, nullam tunc effe inter Theonem & Campanum difcrepantiam, id eft,
+eundem ad numerum propofitionum attinere.
+
+I.        THEOR. I.  PROPOS. I.
+
+DVABVS magnitudinibus inæqualibus propofitis, fi à maiore auferatur ma-
+ius quam dimidium; & ab eo, quod reliquum eft, rurfus detrahatur maius quam
+dimidium; & hoc femper fiat: Relinquetur tandem quædam magnitudo, quæ mi-
+nor erit propofita minore magnitudine.
+
+PROPOSITÆ funt duæ magnitudines inæquales AB, & C, quarum AB, fit maior. Dico fiex
+AB, auferatur maius quàm dimidium; & ab eo, quod reliquũ eft, rurfum maius quàm dimidium,
+atque hoc femper fiat: relinqui tandem in magnitudine quendam, quæ minor fit q; C. Multiplice-
+tur enim C, toties, donec magnitudo facta D E, maior fit q; AB, ita vt D E, fit multiplex ipfius C.
+proximè

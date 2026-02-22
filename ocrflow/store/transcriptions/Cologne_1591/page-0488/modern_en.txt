@@ -1,0 +1,54 @@
+TENTH BOOK.                                                                 99
+
+OF EUCLID
+
+THE TENTH
+ELEMENT.
+
+DEFINITIONS.
+I.
+
+Commensurable magnitudes are said to be those which
+the same measure measures.
+
+Euclid in the preceding nine books completed the consideration of the four kinds of number, and that sufficiently
+for understanding geometrical matters. Now in this tenth book he proceeds to the discussion of commensurable
+and incommensurable lines, for the sake of which we said above that he undertook the treatment of numbers.
+For without knowledge of these lines many magnitudes, both solid and plane, can neither be perfectly understood,
+nor be applied with clarity to use; because the sides of most of them are incommensurable. Which can also be said
+of the planes themselves, since in these too incommensurables often occur, as we shall demonstrate toward the end
+of this book. And because this book is very obscure with difficulties, on account of the obscurity of the lines of which
+it treats, I shall strain every nerve of my industry upon it, so that from those things which Euclid has demonstrated,
+it may be made so plain and easy that, without great labor, it can be grasped by anyone who has rightly understood
+only the demonstrations of the preceding books. Nor indeed can I go along with the opinion of those who think that
+for understanding it there is required that part of Arithmetic which treats of the roots of numbers, both rational and
+irrational, as they call them. On the contrary, I am persuaded that a perfect knowledge of that part of Arithmetic
+depends upon this tenth book; so far am I from thinking that the treatment of roots is required in order that this book
+be easily understood. I would not deny, however, that he who understands the theory of roots and calculation will
+perceive this book with greater pleasure than one who is altogether ignorant of them; for the former can refer the
+demonstrations to use, but the latter in no way. For this reason we in the first ten theorems of the second book
+adapted numbers, so that he might take greater delight from that study than if it had not been so; not, however, so that
+the understanding of other things might be more easily acquired from what is demonstrated there. “Why then,”
+someone will say, “since in that book you did not likewise in this one employ numerical examples, such as we use in
+Algebra—would that not have been both more pleasant and more convenient for readers?” The ready reason is why I
+judged that to be omitted. For since very few at this time are familiar with the art of Algebra and have practiced it,
+if such things were introduced they would rather darken than illuminate tender minds, and would give rise to more
+suspicions; so that the minds of students, instead of receiving help and light (which we labor to bring by these
+commentaries), would perceive more harshness than advantage in the demonstrations themselves. This in Book 4 we
+could plainly do, since the addition of whole numbers and multiplication—by which alone our method there would
+have proceeded—almost no one is sufficiently ignorant. To this is added that those who are practiced in Algebra can
+easily adapt the demonstrations of this book to numbers by themselves whenever they wish. Besides, since this very
+thing not long ago was diligently done and published by Michael Stifel, a noble arithmetician, in the second book of
+his work which is entitled On Complete Arithmetic, etc.
+
+But to return to our purpose: beginning the matter itself, Euclid, in his usual manner, starts from explanations of the
+terms that will be used; and he declares first what magnitudes are called commensurable, defining them to be those
+which the same measure measures. Thus two magnitudes A, B, which the same measure C measures (for C measures
+A itself, repeated four times, etc., and three times, if need be, B itself) are called commensurable. In the same way
+commensurable are a line of 20 palms and a line of 13 palms, because a line of one palm, or of half a palm, or of a
+third part of one palm, etc., measures them. Similarly surfaces are said to be commensurable which are measured by
+the same surface-measure; likewise bodies—solids are commensurable which are measured by the same body or solid.
+
+A   B   C
+
+I 2

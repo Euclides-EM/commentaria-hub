@@ -1,0 +1,48 @@
+492.            DIXIESME
+irrationeles, toutes differentes des deuant di-
+ctes.
+
+   Soit la ligne mediale AB, ie
+dis que d’icelle naissent infinies
+lignes irrationeles toutes diffe-
+rentes des deuant dictes.
+   Car ſi ſur l’extremité de la
+mediale on meine la perpendi-
+culaire AC qui ſoit rationele, &
+on acheue le rectangle AD : iceluy rectangle ſera irrationele
+par le coroll. de la 39. p. 10. & par la 11. d. 10. la ligne qui peut
+iceluy rectangle eſt irrationele : ſoit icelle BE : laquelle ſera
+differente de toutes les deuant dictes. Car ſon quarré appli-
+qué ſur vne ligne rationele comme AC, fait l’autre coſté AB
+medial : Ce que ne faiſoit pas vne des deuant dictes. Item ſi
+on accomplit le rectangle DE, il ſera auſsi irrationel : & la li-
+gne qui le peut auſsi irrationele : & ſoit EF, laquelle ſera dif-
+ferente de toutes les deuant dictes. Car le quarré de pas vne
+d’icelles, appliqué ſur vne ligne rationele, ne fait l’autre co-
+ſté tel que BE : & de ceſte façon on peut proceder à l’infiny.
+
+A  B  E  F
+C
+D
+
+S C H O L I E.
+Si la mediale AB eſt V V 2, & la rationele AC 2; le rectangle AD
+ſera V V 32 la ligne BE qui peut iceluy ſera V V 32. Ainſi le rectan-
+gle DE ſera V V V 512, & la ligne EF qui peut iceluy ſera V V V 512, &
+ainſi à l’infiny.
+
+THEOR. 93.  PROP. CXVII.
+
+Au quarré, la diagonale eſt incommenſura-
+ble en longitude au coſté.
+
+   Soit le quarré A B C D, duquel AC ſoit dia-
+gonale. Ie dis que la diagonale AC eſt inco-
+menſurable en longitude au coſté AB.
+   Car par la 47. p. 1. le quarré de AC eſt dou-
+ble du quarré de AB : mais toute grandeur
+double d’vne autre eſt comme 2 à 1, ou 4 à 2,
+ou 8 à 4, &c. Donc le quarré de AC eſt au
+
+D
+B  C

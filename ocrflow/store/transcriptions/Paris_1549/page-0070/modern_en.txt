@@ -1,0 +1,25 @@
+BOOK X.                                  34
+
+OF EUCLID.
+Tenth book.
+
+Definition  I.
+
+Commensurable magnitudes are said to be those which
+are measured by the same measure.
+2
+But incommensurable [magnitudes are] those which fall under
+the measurement of no common measure.
+3
+Straight lines are commensurable in power,
+when the squares on them are measured by the same area.
+4
+But [they are] incommensurable, when the squares on them
+are measured by no area with a common measure. From these things set forth it is indicated, that a proposed
+straight line, that is, from which also cubits, and palms,
+and digits, and feet are taken as measures, the straight lines
+are infinite in multitude, commensurable and incommensurable. Commensurable indeed, either in power only, or in power
+and length together. But incommensurable,
+either in length only, or in length and in
+power together.
+5

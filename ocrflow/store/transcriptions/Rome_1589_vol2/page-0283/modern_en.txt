@@ -1,0 +1,43 @@
+280  ❦❦  EUCLID. GEOM.  ❦❦
+
+can be said of the very same things and of solids, since in these
+incommensurables they very often occur, as we shall demonstrate
+at the end of this book. But since this book is obscure to many
+because of difficulties, because of the obscurity of the lines about
+which it speaks; I shall strain every nerve of my diligence in it,
+so that from those things which up to now have been demonstrated
+by Euclid, it may be made so plain and
+easy, that without much labor it can be understood by anyone
+who has correctly understood the demonstrations of the preceding
+books. For I cannot go along with the opinion of those
+who think that for its understanding that part of Arithmetic is
+necessary which sets forth discourse about the roots of numbers,
+both rational and irrational, as they call them: indeed, on the
+contrary I am thoroughly persuaded that a perfect knowledge
+of that part of Arithmetic depends on this 10th book; so far
+is it from my thinking that that treatment of roots is required
+in order that this book be understood easily. I do not deny, however,
+that he who knows the theory of roots and calculation will
+perceive this book with greater pleasure than one who is wholly
+ignorant of them, because the former can apply the demonstrations
+to use, but the latter in no way. For for this reason
+we too adapted the first ten theorems of the second book to numbers,
+so that the student might take from it a greater delight of mind
+and profit; not, however, because we thought that those things
+which are demonstrated in that book could be understood more easily from numbers. Why
+therefore (someone will say) as in that book, did you not likewise in this
+one employ examples of numbers which Algebra uses, so that
+the matter might be both more pleasant, and more convenient for readers? The
+reason is at hand why we thought that should be omitted. For
+since very few at this time are those to whom that most celebrated
+art of Algebra is known, those numbers, if they were employed,
+would seem rather to cast darkness than to give some greater light,
+and clarity; since thus the minds of students, according to what they are accustomed to,
+and the light which we strive to bring by these our commentaries,
+would take on more inconvenience, and would perceive the demonstrations themselves less:
+which could not happen in book 2, since addition
+of whole numbers and multiplication, which alone were necessary there,
+there is hardly anyone who does not know. To this is added, that
+those who are practiced in Algebra can easily adapt the demonstrations
+of this book to numbers by themselves, whenever
+they wish

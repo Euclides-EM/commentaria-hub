@@ -1,0 +1,78 @@
+B O O K  T E N T H.                                                     103.
+
+commensurable in length only; but some in length and in power, as this will be demonstrated
+in various places in the book. For Euclid does not wish it to be shown from what has been said that they are rational,
+(although the words may seem to sound this) that they are so: but he only indicates to us, if some are found in some way
+commensurable, that some may be said to be commensurable with the proposed straight line in length and in power, which are either in power only, etc. Which
+indeed follows from the definition just now, but will be demonstrated in what follows, as we said.
+
+But that proposed line is said to be by reason; others are commensurable, or incommensurable, they are called
+by the Greeks ῥηταὶ; but by the Latins Rationales; because it is always set down as certain and known, but the other, when compared
+with it, does not always become known, although each by itself exists as simple, certain, and known: since any one in
+proportion can be divided into equal parts.
+
+V I.
+
+And those commensurable with it either in length and in power, or in power only,
+[are called] Rational.
+
+He teaches that other lines, in whatever way commensurable with that which is called Rational, are also called
+Rational; not indeed by position, as that one, but because when compared with it they are found commensurable with it either
+in length and in power, or in power only.
+
+Therefore, according to the meaning of Euclid, the square root of this number 20, or 1000, etc. Or what is the same,
+the straight line whose square is 20, or 1000, etc. is called Rational; since in power it is commensurable with the
+Rational [line], (for 14 is a number of 20 because [illegible]: commensurable with any square number, as 16 or 100,
+etc.) although in length it is incommensurable with the same. Therefore not a few arithmeticians are deceived, who
+for that reason call it Irrational, because it cannot be expressed by number.
+
+V I I.
+
+But those incommensurable with it are called Irrational.
+
+Because in the preceding definition Euclid called those lines Rational which are commensurable with the proposed Rational straight line
+in length and in power, or in power only; it is clearly established that here he calls those Irrational which are incommensurable
+with the proposed Rational straight line in both ways; namely in length and in power: but not in length only. From which it is also
+manifest that the square root of this number 20, or 1000, etc. (or (what is the same) the line whose square is 20, or 1000, etc.)
+cannot be called Irrational, since it is not incommensurable with the proposed Rational line in length and in power, but in length only.
+
+V I I I.
+
+And the square which is made from the proposed straight line is called Rational.
+
+Just as he calls that line Rational which is set down as certain and known: so also he calls the square described on it
+Rational, because it itself is certain and known, in comparison with which other surfaces are said to be commensurable
+or incommensurable.
+
+I X.
+
+And those commensurable with it indeed [are called] Rational.
+
+All plane surfaces commensurable with the square of the proposed Rational line are called Rational;
+not indeed by position, as that one, but because when compared with it they are found either commensurable with it, or in-
+commensurable: just as also lines which are in whatever way commensurable with a Rational line are called
+Rational.
+
+But since lines which are powers are spaces commensurable with the square of the proposed Rational line,
+at least in power commensurable with the Rational line, from the 3rd definition; it is clear that they too
+must be called Rational by definition 6.
+
+X.
+
+But those incommensurable with it are called Irrational.
+
+Plane surfaces incommensurable with the square described on a Rational line are not otherwise called Irrational
+than lines which are altogether incommensurable with the proposed Rational [line] are called Irrational.
+
+X I.
+
+And straight lines which can [produce] them, [are called] Irrational: if indeed those [spaces] are squares, the sides themselves:
+but if some other rectilinear [figure], the straight lines which describe squares equal to
+spaces incommensurable [with it].
+
+He calls lines Irrational which can produce spaces incommensurable with the square of a Rational line; just as he also called
+the spaces themselves Irrational. Thus, if the incommensurable spaces are indeed squares,
+their sides will be called Irrational; but if they are not squares, but any other rectilinear figure,
+the straight lines which describe squares equal to those incommensurable spaces [are called] Irrational.
+
+I 3

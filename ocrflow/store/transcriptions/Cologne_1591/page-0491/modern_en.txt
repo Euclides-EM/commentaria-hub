@@ -1,0 +1,71 @@
+102        EUCLID’S  GEOMETRY
+
+He concludes, however, that lines which are powers, that is, incommensurable in square with the square on a Rational line, ought to be called
+Irrational, from the 7th definition; just as above from the 6th definition we concluded that lines which can
+[produce] areas commensurable with the square on the same Rational line ought to be called Rational. For lines which can
+[produce] those incommensurable areas are lines incommensurable in power with a Rational line, from the 4th definition. Since therefore all lines
+incommensurable in power are also incommensurable in length, as we said at definition 4, and it will be shown
+in the corollary of proposition 9, it is manifest from the 7th definition that those lines which can [produce] areas incommensurable in square with the
+square on a Rational line are called Irrational.
+
+FURTHERMORE, since it is also not [the case that] Euclid and the ancient geometers used these expressions, “in length
+and in power,” and “in power only,” adding them almost always with these terms: commensurable, and
+incommensurable; but scarcely and very rarely: Rational, and Irrational: for they are rightly called
+incommensurable in length and in power, or in power only; likewise incommensurable in length
+and in power, or in length only; but less rightly Rational in length and in power, or in power
+only, or Irrational in length and in power, or in length only. Which indeed, because Cam-
+panus did not notice, gave occasion to many, that they have spoken variously about this in this book, about lines commensura-
+ble and incommensurable, and also about Rational and Irrational.
+
+MOREOVER, to these definitions we shall add later one other, and certain pronouncements, whose
+use is found in this book.
+
+POSTULATE, OR PETITION.
+
+LET IT BE POSTULATED, that any magnitude can be multiplied so many times, until
+it exceeds any magnitude of the same kind.
+
+FOR if two unequal magnitudes of the same kind are proposed, since the greater is not infinite,
+but the lesser can be increased infinitely; it is clear that the lesser can be multiplied so many times, until it surpasses the greater.
+This is also established from those things which we wrote in definition 5 of book 5. For there we said that those magnitudes then at last
+are of the same magnitude, when either can be multiplied so as to exceed the other. And from this condi-
+tion’s definition, we taught that a rectilinear angle and an angle of contact are said to be of the same kind.
+
+AXIOMS, OR COMMON NOTIONS.
+I.
+
+A MAGNITUDE measuring however many magnitudes, also measures the composite [magnitude] from
+them.
+
+II.
+
+A MAGNITUDE measuring any magnitude, also measures every
+magnitude which that [magnitude] measures.
+
+III.
+
+A MAGNITUDE measuring the whole magnitude, and the part taken away, also measures the remainder.
+
+THESE axioms, as they pertain to numbers, later (they are by us in the last three pronouncements of book 7) [are placed] here.
+Therefore since the same reasoning holds in magnitudes, there is no reason to suspect that their demonstrations must be repeated here:
+especially since they can be transferred hither word for word, only changing the word “number” into the word “magnitude.”
+
+MOREOVER because this was not to be omitted by us in the book, about the number which Theon marked in Euclid’s propositions,
+as we shall say up to proposition 13, and likewise in all [cases], we did as Campanus did very often, as we teach at the beginning of the first book;
+but why a double number in the margin and in the body of the propositions was to be set down,
+of which the upper shows Theon’s order, the lower however shows Campanus’s series: But if only one
+number is found in the margin, then there is no discrepancy between Theon and Campanus, that is,
+it pertains to the same numbering of the propositions.
+
+I.        THEOREM I.  PROPOSITION I.
+
+TWO unequal magnitudes being proposed, if from the greater there be taken away
+more than the half; and from that which remains, again there be taken away more than
+the half; and this be always done: there will at length be left some magnitude which
+will be less than the proposed lesser magnitude.
+
+THERE are proposed two unequal magnitudes AB and C, of which AB is the greater. I say if
+from AB there be taken away more than the half; and from that which remains, again more than the half,
+and this be always done: there will at length be left in the magnitude some [part], which will be less than C. Let
+C be multiplied so many times, until the magnitude made D E is greater than AB, so that D E is a multiple of C.
+next

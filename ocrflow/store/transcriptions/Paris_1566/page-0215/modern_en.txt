@@ -1,0 +1,63 @@
+EUCL. ELEMENT. GEO.
+
+thus it becomes the aforesaid innate genius itself, which produces an absurdity, when we have said
+that the smallest part of number is the unit, and subject to no section. This expression of quantity
+which requires the section of a unit is deprived of any denomination, because a unit does not admit
+section. Wherefore that quantity, deprived of denomination, compared to the proposed one, admits
+no denomination of ratio. But indeed it will have a ratio to it, since they are magnitudes of the same
+kind as to quantity, though not as to commensuration. Yet it is deprived of every denomination,
+which can be expressed only by numbers, that it may enjoy the usefulness of discreteness. But since
+of these magnitudes, whose quantity one falls into a section of the unit of the other, the species are
+infinite, and the ways of cutting the unit infinite: we shall hereafter say that an infinity can be given,
+add the species of incommensurables, although between themselves the quantities of any one species
+are commensurable with one another. Yet all whose denomination can express the section of a unit
+are wholly deprived of that word by which existing things are denominated, as if they were to be
+called not existing things, but rather hypotheses. From these diverse sections of units arise numbers
+which are called surds, or irrationals, or algebraic, and they are roots of numbers having no [root].
+Wherefore although they ought rather to be called hypothetical than essential. Nevertheless their
+feigned hypotheses contribute not a little to explaining difficult things. Therefore we shall say that
+those feigned or hypothetical [things], for expressing incommensurables infinite in number, (if indeed
+that is called expressing) are more ready. Since it is shown that the one has taken origin from these,
+and these likewise from those. But since we have now said that the unit is cut by incommensurables,
+and earlier among numbers that the quantity denoted by it is cut, we shall not think it superfluous
+to discern what difference there is between these. We said that the quantity signified by the unit is
+cut infinitely, into parts, equal [to] those expressed by infinite numbers, composing that precise
+quantity. And then at last the unit is not cut, but changed into other units, of which always the
+smallest of any would be one. Therefore the nature of the unit of this number is not cut, but the
+quantity signified by the unit. But when we now say the unit is cut, the quantity signified by the
+unit is cut into those parts which by no denomination of number restore the whole quantity of the
+unit: because into the section of one unit, the discrete divisions made by infinite quaternary numbers
+you will never fall, but when examined infinitely, it is found always to have fallen outside that
+commensuration of units (so to speak), which can happen by infinites, as we shall see hereafter.
+Wherefore we say that this quantity is incommensurable with the quantity expressed by prior
+numbers, because it must be expressed by units which are wholly incommensurable with the prior
+units. And therefore the numbers of this [quantity] will always be incommensurable with the numbers
+of that. Since individual numbers follow the nature of their units. Therefore we shall call magnitudes
+incommensurable, from the privation of a common measure, not having the same kind of measure.
+Not otherwise than those lacking the same kind of quantity, irrationals are rightly said, from the
+privation of ratio, as is provided in the third and fifth definition.
+
+Third Definition.
+
+Straight lines are commensurable in power, when the squares from them
+are measured by the same area.
+
+Fourth Definition.
+
+But they are incommensurable, when no area can be a common measure
+of the squares which are from them.
+
+Since Euclid calls the power of a line the square of that line, or the same surface equal to this
+square, he says therefore: that straight lines are commensurable in power (that is, that the squares
+of straight lines, or surfaces equal to them, are commensurable) when the same area constitutes each
+exactly by its repetition, as we said in the first definition concerning magnitudes in general. But here
+he says that any quantity is measured by the same kind of quantity, and therefore that measure is
+expressed by numbers, so that at length between them there falls a denomination of ratio, expressed
+by the power of numbers: but incommensurables, by the opposite word, are to be explained by
+privation, when no area can be given as a common measure between their squares. To these
+definitions we have added what we said earlier in general, following that, in the first definition of the
+seventh [book], namely that the unit assumes that form of quantity when number is to be applied.
+For if number be adapted to a line, the individual units have length only. But if to a surface, length
+and breadth, and if to a solid, that they have three dimensions, long, broad, and high. For since it
+measures them all
+nume

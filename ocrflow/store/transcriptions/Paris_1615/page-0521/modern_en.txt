@@ -1,0 +1,41 @@
+ELEMENT.
+
+rectangle CE will make 16—V 142 2/9 which is remainder: and since as DC
+is to CB, so CE to CF, that CF will be V 71 1/3; and EF V 460 4/9—16.
+But EG being equal to CE, is 16—V 142 2/9; GF V 111 5/9—32: and
+inasmuch as as FG is to GE, so EC to CH; that will be V 148 8/9,
+and EH 16. Thus it is manifest that CE is a remainder of the same order as
+the binomial BC, and that the names EH, CH, are proportional to the
+names BD, CD.
+
+THEOR.  90.  PROP. CXIII.
+
+The square of a rational line, being applied
+upon a remainder, makes the other side binomial,
+the names of which are proportional, and com-
+mens. to the names of the remainder: Moreover the bino-
+mial is of the same order as the remainder.
+
+let the rational A be, and the remainder BC
+to which CD corresponds, and upon BC
+let the rectangle CE be described equal
+to the square of the rational A: I say
+that the other side BF will be binomial
+such as the proposition asks.
+For upon BD let the
+rectangle DF be described equal to the same square
+of the rational A’: Therefore the rectangles CE & DF will be
+equal, and having reciprocal sides by the 14 p.6. BD will be to
+BC as BE to BF, and by conversion of ratio BD will be to
+CD, as BE to F E. Now let EF be cut at G,
+by the 10. p.6. so that as BE is to FE, so EG to
+GF, therefore since as the whole BE is to the whole
+FE, so EG taken away from BE is to GF taken away from FE, also
+by the 19 p.5. the remainder BG will be to the remainder EG, as the whole to
+the whole, that is to say as the taken-away EG to the taken-away
+GF: and therefore EG is a mean proportional between BG & GF.
+Wherefore as BG will be to GF, so the square of BG
+will be to the square of EG, by the coroll. of the 20. p.6. And since
+as BD to CD, so BE to FE, that is to say BG to GE, and BD,
+CD names of the remainder BC are rational commens. in failing
+this only: and by the 10.p.10. BG, GE will also be commen-

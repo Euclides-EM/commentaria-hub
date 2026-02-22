@@ -1,0 +1,31 @@
+EUCLID’S  ELEMENTS.
+
+[they] are called irrational, [being] squares equal to rectilinear figures.
+
+One thing is what I think should be noticed in this place. When
+  he had said that irrational [magnitudes] are those which are incommensurable and inexpressible,
+  he wished to add concerning the lines describing those incommensurable [magnitudes],
+  and he likewise called them irrational: although
+  earlier, when he was speaking about those commensurable to the rational [magnitude], he said nothing
+  about the lines describing those commensurable [magnitudes]. But
+  he omitted this for this reason, because he seemed to himself to have done enough,
+  and to have hinted at these, when he was speaking about lines commensurable to the rational [magnitude],
+  under those words, “or in power only.”
+  For the power of a line is its square, as we said before.
+  But if the square shall have been commensurable
+  to the rational [magnitude], the line also which can produce that square
+  will be commensurable at least in power. And so, by the definition
+  of lines commensurable to the rational [magnitude], it will also be [so].
+  There exists a little book under the name of Aristotle, On indivisible lines,
+  which indeed is understood easily, from many passages of his, not to be Aristotle’s:
+  yet its learning makes it so that it ought to be attributed
+  to someone from that noble and learned family of the Peripatetics.
+  In it you will read many things conducive to the understanding of these principles.
+  Of which we will note this one thing,
+  which can seem to contain almost the chief explanation of the whole matter:
+  that the commensurability and incommensurability of magnitudes with one another
+  depends indeed on the nature of the magnitudes themselves; but rationality
+  and irrationality come about by position, because that which in the first place
+  is thus called a line—namely rational—becomes such by position.
+  But other lines, related to that one, are either rational
+  [or …],

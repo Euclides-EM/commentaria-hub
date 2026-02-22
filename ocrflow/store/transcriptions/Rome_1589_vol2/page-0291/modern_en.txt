@@ -1,0 +1,39 @@
+288  EUCLID. GEOM.
+
+FOR if two unequal magnitudes of the same kind are pro-
+posed, since the greater is not infinite, but the lesser can be
+increased without limit; it is evident that the lesser can be
+multiplied so many times, until it surpass the greater. This is
+also clear from those things which we wrote in defn. 5. book 5.
+For there we said that those magnitudes are then at last judged
+to be of the same kind, when either of them can be so multiplied,
+that it exceed the other. And from the failure of this condition,
+we taught that a rectilinear angle, and an angle of contingency,
+are of different kinds.
+
+AXIOMS OR
+Pronouncements.
+
+I.
+
+A MAGNITUDE measuring however many
+magnitudes, measures also the magnitude
+composed from them.
+
+II.
+
+A MAGNITUDE measuring any magnitude,
+measures also every magnitude which that
+magnitude measures.
+
+III.
+
+A MAGNITUDE measuring the whole
+magnitude, and the part taken away, measures
+also the remainder.
+
+THESE axioms, that they pertain to numbers, were
+shown by us in the last three pronouncements of book 7. Wherefore since
+the same reasoning holds in magnitudes, there is not (reason) that we
+should repeat the demonstrations here in vain, especially because with re-
+[illegible]

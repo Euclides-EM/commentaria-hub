@@ -1,0 +1,44 @@
+ELEMENT.                                                                 487
+
+7.     Ligne pouuant deux mediaux.
+8.     Reſidu.
+9.     Reſidu medial premier.
+10.    Reſidu medial ſecond.
+11.    Ligne mineure.
+12.    Ligne faiſant auec vne ſuperficie rationele vn
+       tout medial.
+13.    Ligne faiſant auec vne ſuperficie mediale vn
+       tout medial.
+
+THEOR.  89.  PROP. CXIII.
+
+Le quarré d’vne ligne rationele eſtant ap-
+pliqué ſur vn binome,fait l’autre coſté reſidu,
+les noms duquel ſont proportionaux, & com-
+menſurables aux noms du binome : en outre
+le reſidu eſt de meſme ordre que le binome.
+
+Soit la rationele A, & le bi-
+nome BC, duquelle plus grãd
+nom ſoit BD : & à icelle BC
+ſoit appliqué le rectangle BE
+egal au quarré de la rationele
+A. Ie dis que l’autre coſté CE
+eſt reſidu tel que dit la propo-
+ſition.
+
+Car ſur le plus petit nom CD
+ſoit appliqué le rectangle DF
+auſſi egal au quarré de ratio-
+nele A : donc les deux rectangles BE, DF, ſeront egaux, & par
+la 14.p.6. leurs coſtez ſeront reciproques, ſçauoir que comme
+BC à DC, ainſi CF à CE, & en diuiſant comme BD à DC,
+ainſi FE à EC. Mais BD eſt plus grande que CD : donc auſſi
+FE ſera plus grande que EC. Maintenant de EF ſoit retran-
+chee EG egale à EC, & ſoit fait comme FG à GE, ainſi EC
+à CH, par la 12.p.6. & encompoſant comme FE à EG (ou EC
+ſon egale) ainſi EH à CH, & par la 12.p.5. les deux antece-
+dens FEH ſeront aux deux conſequens ECH. comme l’vn
+des antecedens EH à l’vn des conſequens CH : & partant
+
+H h  iij

@@ -1,0 +1,44 @@
+❦  L I B E R  IX.  ❦  289
+
+bum hæc poffint transferri,mutata folum voce numeri in vo-
+cem magnitudinis.
+
+C A E T E R V M  quia hoc in libro difcedendi nobis fuit
+a numero, quem Theon in propofitionibus Euclidis fequitur,
+ut ad propof.13. dicemus, quemadmodum & in omnibus fe-
+riem Campani negleximus ; ut docuimus ad initium primi
+libri; curauimus, ut duplex numerus in margine e regione
+propofitionum apponeretur , quorum fuperior ordinem Theo-
+nis,inferior autê Campani feriem demôftraret. Quod fi vnus
+tantum numerus reperiatur in margine, nullam tunc effe in-
+ter Theonem, & Campanum difcrepantiam,intelligas, quod
+ad numerum propofitionum attinet.
+
+THEOR. I. PROPOS. I.                              I.
+DVABVS magnitudinibus inæqua-
+libus propofitis,fi a maioreauferatur ma
+ius quàm dimidium;& ab eo, quod reli-
+quum eft,rurfus detrahatur maius quàm
+dimidium; & hoc femper fiat:Relinque-
+ur tandem quædam magnitudo, quæ mi
+or erit propofita minore magnitudine.
+
+PROPOSITA E fint duæ magnitudines inæquales
+A B,&C,quarû AB,fit maior.Dico fi ex A B, auferatur
+maius quam dimidium;& ab eo, quod reliquum eft, rur-
+fum maius quam dimidium;atque hoc femper fiat:relin-
+qui tandem magnitudiné quandam, quæ minor fit quâ C.
+Multiplicetur.n. C, toties, donec magnitudo facta DE,
+maior fit quâ AB,ita vt DE,fit multiplex ipfius C,proxi
+me maior quâ AB.Diuifa autem DE,in partes DF, FG,
+IE,ipfi C,æquales,detra
+hatur ex A B, maius quâ
+dimidium AH, & ex reli
+qua H B, maius quam di-
+midium HI;atq; hoc femper fiat, donec partes ipfius AB,
+T
+multi-
+
+A  H  I  B
+C  F
+D  G  E

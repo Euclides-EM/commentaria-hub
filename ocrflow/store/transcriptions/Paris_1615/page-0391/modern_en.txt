@@ -1,0 +1,44 @@
+ELEMENT.                                                                 319.
+
+2. A magnitude measuring any magnitude
+also measures every magnitude that
+that one measures.
+
+3. A magnitude which measures an entire
+magnitude, and one taken away, also measures
+the remainder.
+
+THEOR. I. PROP. I.
+
+If two unequal magnitudes are proposed,
+if from the greater one subtracts more than
+the half, and again from the remainder more than the half,
+and continuing always thus: there will remain
+at the end a magnitude smaller than
+the smaller of the two proposed.
+
+Let two unequal magnitudes AB and
+C be proposed, C being the smaller: I say that if one subtracts
+more than the half of AB, and from the remainder again more than
+the half, and continuing always thus, one will find
+at the end a remainder smaller than C.
+
+Let it not be so. Let the magnitude C be multiplied
+so many times that it exceeds the greater AB, and let
+the product of that multiplication be DE, which
+will be a multiple of C, and greater than AB: let it
+therefore be divided into parts equal to C, as into
+DF, FG, and GE: likewise let there be taken from AB more than the half, namely
+AH, and from the remainder HB more than the half, namely HI, and
+continuing always this until AB is divided
+into as many parts as DE, namely into AH, HI, and IB;
+as DE is divided into DF, FG, and GE. Inasmuch as DE
+is greater than AB, and the subtracted DF is not greater
+than the half of DE; as the subtracted AH is not greater
+than the half of AB, the remainder FE will be greater than the remainder
+HB: similarly if from the greater remainder FE one subtracts FG,
+which is not more than the half, and from the smaller remainder HB one
+subtracts more than the half HI; the remainder IB will be smaller than the
+remainder GE equal to C: and consequently IB last part of
+
+Z  iij

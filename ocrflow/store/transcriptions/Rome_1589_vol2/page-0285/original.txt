@@ -1,0 +1,39 @@
+282  EVCLID: GEOM:
+
+ſurabiles ſunt, cum quadrata earum
+idem ſpatium metitur.
+
+LINEARVM rectarum quædam commenſurabiles ſunt
+longitudine, quas nimirùm alia linea, tanquam menſura com-
+munis, metitur; cuiuſmodi ſunt illæ, quas in expoſitione defin.
+1. commenſurabiles ſimpliciter diximus: quædam vero longitu-
+dine incommenſurabiles, quas ſcilicet nulla linea, tanquam
+menſura communis, metitur. Rurſus linearum, quæ ſunt in-
+commenſurabiles longitudine, aliæ ſunt cuiuſmodi, ut earum qua-
+drata ſint commenſurabilia; aliæ vero ita ſe habent, ut &̄
+quadrata earum incommenſurabilia ſint. Lineæ ergo illæ lon-
+gitudine incommenſurabiles, quarum quadrata ſunt commen-
+ſurabilia, appellantur hic ab Euclide potentia commenſura-
+biles; quia videlicet ſecundum earum potentias, hoc eſt, ſecun-
+dum earum quadrata ( eſt enim, ut ad propoſ.47.lib.1.dixi-
+mus, potentia cuiuſque lineæ, quadratum ab ea deſcriptum)
+commenſurabiles ſunt, licet ipſæ ſecundum longitudinem ſint
+prorſus incommenſurabiles.
+
+QVOD ſi quis roget, cur Euclides definierit ſeorſum li-
+neas potentia commenſurabiles, non autem commenſurabi-
+les longitudine; reſpondendum eſt, lineas longitudine commen-
+ſurabiles ſatis ſuperq; eſſe explicatas in definitione commen-
+ſurabilium magnitudinum, &c. huiuſmodi lineas una commu-
+nis menſura metiatur, ut dictũ eſt. At vero quoniã lineas po-
+tentia commenſurabiles nulla communis menſura metiri po-
+teſt, ſed tantummodo earum quadrata idem ſpacium meti-
+tur, ideo neceſſarium omnino fuit, ut ea propria definitione
+explicarentur.
+
+III.
+INCOMMENSVRABILES au
+tem, cum quadratis earum nullum ſpa-
+tium, quod ſit communis corum menſu-
+ra, contingit reperiri.
+LINEAS reliquas longitudine incommenſurabiles, qua-

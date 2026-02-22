@@ -1,0 +1,58 @@
+ELEMENTVM  DECIMVM.                                   5
+EX  CLAVIO.
+
+ITAQVE ex ſententia Euclidis,radix quadrata huius numeri 20.vel 1000. &c.Seu quod idem eſt,linea recta,cuius
+quadratum eſt 20.vel 1000.&c.dicitur Rationalis, cùm potentia ſit commenſurabilis lineæ Rationali (eſt enim tam nume-
+rus 20.quàm 1000.commenſurabilis numero cuiuſlibet quadrati,vt 16.100.&c.) quamuis longitudine ſit eidem incommenſu-
+rabilis.
+Decipiuntur ergo Arithmetici non pauci,qui idcirco eam Irrationalem vocant, quod numero non poſſit exprimi.
+
+DEFIN.  VII.
+
+HVIC veròincommenſurabiles,Irrationales vocentur.
+
+CVM antea Euclides dixerit, lineas, quæ rationali propoſitæ ſunt commenſurabiles, vel
+longitudine & potentia ſimul,vel potentia tantùm ,rationales eſſe:liquidò conſtat eas, quæ illi
+vtroque modo incommenſurabiles exiſtunt,Irrationales eſſe.
+
+DEFIN.  VIII.
+
+ET quadratum,quod à propoſita recta fit,dicatur Rationale.
+
+SI ex linea rationali,quadratum deſcriptum fit,oportet neceſſariò illud rationale eſſe,Nam
+quemadmodum linea illa ,quæ proponitur ſemper eſt nota magnitudinis (cum ad placitum ſu-
+matur & vniſdatur.)Sic quadratum ab ea deſcriptum, ſemper eſt certum,ac notum & ideo Ra-
+tionale.
+Aliæ verò ſuperficies,quæ illi comparantur,ſi forte cum quadrato illo habent aream quendam
+pro menſura communi, Commenſurabiles appellantur, ſi non habent Incommenſurabiles cenſeri
+debent.
+
+DEFIN.  IX.
+
+ET huic commenſurabilia quidem Rationalia.
+
+SI quadratum propoſitum Rationale exiſtat,omnia alia quadrata quæ huic commenſura-
+bilia ſunt,Rationalia erunt.Nam quemadmodum lineæ,quæ rationali propoſitæ ſunt commen-
+ſurabiles vel longitudine & potentia ſimul,vel potentia tantùm,ſunt Rationales:Ita ſuperficies
+& quadrata,quæ ſuperficiali illi ſunt commenſurabilia, Rationalia ſunt.
+Quod verum eſt non ſolum,quantum ad quadrata,ſed etiam quantum ad cæteras figuras
+Geometricas,quæ inter ſe habent aream quendam pro menſura communi.
+
+EX  CLAVIO.
+
+QVONIAM verò lineæ potentes ipſæ ſpatia commenſurabilia quadrato Rationali lineæ propoſitæ,ſunt ſaltem poten-
+tia commenſurabiles lineæ Rationali ex 3.defin.perſpicuum eſt,ipſas quoque appellari iuxta defin.6.Rationales.
+
+DEFIN.  X.
+
+HVIC veròincommenſurabilia ,Irrationalia dicantur.
+
+EX  CLAVIO.
+
+NON aliter ſuperficies planæ quadrato à Rationali lineæ deſcripto incommenſurabiles,Irrationales vocantur,ac lineæ,quæ
+Rationali propoſitæ prorsùs incommenſurabiles ſunt,Irrationales ſunt dictæ.
+
+DEFIN.  XI.
+
+ET rectæ,quæ ipſa poſſunt, Irrationales : ſi quidem ea quadrata ſunt,ipſa late-
+B

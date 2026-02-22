@@ -1,0 +1,44 @@
+ELEMENT.                                                                 492
+
+commenſurab. aux noms
+CE, AE du reſidu AC,&
+ſoit la ligne droicte F
+pouuant iceluy rectan-
+gle AB. Iedis que F eſt
+rationele.
+
+Car ſoit vne ratione-
+le propoſee G, le quar-
+ré de laquelle eſtant ap-
+pliqué ſur le binome C
+B, face le rectangle CH. Donc par la 113. p. 10. l’autre coſté
+BH ſera reſidu, duquel les noms HI, BI ſont commenſur. &
+proportionaux aux noms CD, DB, ſçauoir eſt que comme HI
+à BI, ainſi CD à DB,& partant ainſi CE à AE :& en changeãt
+comme la toute HI à la toute CE, ainſi la retranchee BI à la
+retranchee AE ; & par la 19. p. 5. le reſte BH ſera auſſi au reſte
+AC, comme la toute à la toute. Mais icelles toutes ſont com-
+menſ.en long. par la 12. p.10. pource que l’vne & l’autre eſt
+commenſ. à CD : donc auſſi BH, AC ſeront commenſ. en
+long. par la 10. p.10. & par conſequent les rectangles HC &
+BA eſtans par la 1. p.6. en meſme raiſon que BH,& AC, ſeront
+auſſi commenſ. Mais HC egal au quarré de la rationele G,eſt
+rationel : donc auſſi AB ſera rationel ; & partant la ligne F
+qui peut iceluy AB, ſera auſſi rationele.
+
+COROLAIRE.
+
+De cecy eſt manifeſte qu’vn rectangle rationel, peut eſtre compris
+de lignes irrationelles.
+
+SCHOLIE.
+
+Si le reſidu AC eſt 4—√8 2/3, tellement que les noms d’iceluy CE,
+& AE ſoient 4,& √8 2/3, mais le binome BC ſoit 9 + √4, le rectan-
+gle AB ſera 16, qui eſt rationel: & partant la ligne F qui peut iceluy
+eſt 4, & par conſequent rationele. Or la rationele G eſtant 8, le rectã-
+gle CH ſera 64, & le coſté BH 16—√14 2/9, HI 16,& BI √14 2/9.
+
+THEO. 92. PROP. CXVI.
+
+De la ligne mediale naiſſent infinies lignes

@@ -1,0 +1,36 @@
+66
+
+BOOK
+
+Rational. And those which are commensurable with it; either in length and in po-
+wer, or only in power* are called
+Rational. But those which with it are in-
+commensurable, are called Irrational.
+
+And the square, made from the proposed straight line: is cal-
+led Rational.
+
+And the surface, commensurable with this* is
+called Rational.
+
+But the surface, incommensurable with it* is
+called Irrational.
+
+And the line, which can make that surface* is cal-
+led Irrational. If it is square: those sides are
+called Irrational. But if it is some
+other rectilinear [figure]: that line, which describes a
+square equal to it, is called Irrational.
+
+The propositions.
+
+1  Two unequal magnitudes being proposed, if from
+the greater there is taken more than the half, and from
+the remainder more than the half, and thus always it is
+done: there will remain a magnitude, less than that
+proposed magnitude, which was less.
+
+2  Two unequal magnitudes being proposed, and al-
+ways taking the lesser from the greater, if the
+remainder never measures that which is before
+it* the magnitudes will be incommensurable

@@ -1,0 +1,67 @@
+4
+
+EUCLID’S
+but in power, that is, according to their squares, they are commensurable. Which things indeed will all be clear from the corollary of
+proposition 9 of this book.
+
+DEFINITION V.
+
+THESE things being set down, it is shown that to any proposed straight line there are infinitely many straight lines both commensurable and
+incommensurable: some indeed in length and in power, others truly in power only. Let the proposed straight line be called
+Rational.
+
+TO EVERY proposed line, all other lines which are compared to it will be either commensurable or
+incommensurable.
+
+Commensurable indeed, if those lines which are compared to the proposed line have with the
+proposed line some common measure measuring both; as if the line a is proposed, and
+b and c are compared to it, it is evident that those lines b and c are commensurable with the
+proposed line a, since among themselves those lines have a common measure measuring both, namely d.
+
+a
+b
+c
+d
+
+4
+3
+2
+1
+
+e
+f
+g
+h
+
+R V 8
+R V 5
+R V V 40
+R V V 56
+
+INCOMMENSURABLE however, if the lines which are compared to the proposed line
+do not have any common measure; as if the lines e and f, irrational, are compared to a, because
+between those lines no common measure is found, therefore they will be incommensurable in length with a, e,
+and f, although in power they are commensurable.
+Again if the lines g and h are compared to the rational a, then a, g and h will be among themselves both in length
+and in power incommensurable.
+In length indeed, since they have no common measure among themselves.
+But in power, because their squares have no common area which can measure
+the squares described on them.
+
+FROM CLAVIUS.
+But that proposed line, in respect of which other lines are commensurable or incommensurable, is called by the Greeks, and by the Latins
+Rational, because it is always set down as fixed, so that it is not unknown; but the one compared to it is not always known, although each
+taken separately exists as fixed and also known, since any one can be divided into however many equal parts.
+
+DEFINITION VI.
+
+AND those commensurable with it either in length and power, or in power
+only, are Rational.
+
+IF any line is commensurable with the proposed rational line either in length or in power, without
+doubt that line is rational.
+Hence it is gathered that every proposed line considered absolutely and simply is rational,
+since it can be divided into as many equal parts as one pleases: therefore those commensurable with it either
+in length and power together, or in power only, will be rational.
+
+E X

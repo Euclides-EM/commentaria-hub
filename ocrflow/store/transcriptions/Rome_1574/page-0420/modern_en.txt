@@ -1,0 +1,74 @@
+❦ EUCLID. GEOM. ❦                         ❦ BOOK  X. ❦ 6
+                 X.
+
+But these incommensurable [things], let them be called Irra-
+tional.
+
+  N O T otherwise are plane surfaces described by a square from a Rational line
+called incommensurable, Irrational, than are li-
+nes which, being set out to a Rational [line], are wholly incommensurable,
+called Irrational.
+
+                 XI.
+
+And straight lines which themselves can [do so], [are called] Irrationa-
+l: if indeed those squares are [such], the sides themselves;
+but if [it is] some other rectilinear [figure], the straight lines which
+describe squares equal to spaces incommensurable.
+
+  H E calls lines which can [produce] spaces incommensurable to the square of a Ratio-
+nal line, Irrational; just as also the spaces themselves [are] called Irrational: So that if incommensu-
+rable squares indeed they shall have been, the sides of them are called
+Irrational; but if they shall not have been squares, but any other
+rectilinear figures, they are called the straight lines which describe
+squares equal to those incommensurable spaces, Irra-
+tional.
+
+  I T  I S  G A T H E R E D however, that lines having power [to produce] spaces incom-
+mensurable to the square of a Rational line ought to be called Irratio-
+nal, from the 7th definition; just as above from the 6th definition we gather-
+ed that lines which can [produce] spaces commensurable to the same square
+of a Rational line ought to be called Rational. For those
+which can [produce] those incommensurable spaces are in power
+incommensurable to the Rational line, from the 4th definition. Since there-
+fore all lines in power incommensurable are also incom-
+mensurable in length, as at definition 4 we said, and it will be shown
+in the corollary of proposition 9; it is manifest, from the 7th definition, that the lines
+which can [produce] spaces incommensurable to the square of a Ra-
+tional line are called Irrational.
+
+I T  I S  A L S O  T O  B E  P A S S E D  O V E R not, that Euclid and
+the ancient Geometers with this word: in length and in power, and
+in power only, almost always add to those words: commen-
+surable, and incommensurable: But scarcely, and very rarely,
+to these: Rational, and Irrational: For lines are rightly called
+commensurable in length and in power, or in power only;
+Likewise incommensurable in length and in power, or in length
+only: But less rightly Rational in length and in
+power, or in power only, or Irrational in length and
+power, or in length only. Which indeed, since
+Campanus did not notice, provided occasion to many, that
+variously and obscurely in this 10th book concerning commensurable lines,
+and incommensurable, and also Rational, Irrational
+they might speak.
+
+B U T  F U R T H E R, to these definitions we shall add one postu-
+late, and some propositions, the use of which is found in this
+book.
+
+P O S T U L A T E,
+or Petition.
+
+LET IT BE POSTULATED, that any
+magnitude can be multiplied so many times, un-
+til it exceed any magnitude of the same
+kind.
+
+  F O R, two magnitudes of the
+same kind being proposed unequal, since the greater is not infinite,
+but the lesser can be increased infinitely; it is evident
+that the lesser can be multipli-
+ed so many times, until it surpass
+the greater.
+
+M X 10.

@@ -1,0 +1,34 @@
+2
+
+EUCLID’S ELEMENTS
+BOOK TEN.
+Translated by Peter Montaureus.
+
+COMMENSURABLE magnitudes
+are called those which the same measure
+measures.
+
+OUR PURPOSE is this: to set forth this tenth book of the
+Elements (whose understanding most people suspect to be very
+difficult, and indeed not possible without the help of that part of
+arithmetic which, in the writings of many, is illustrated and is called
+Algebra) without any irrational numbers at all being mentioned; to
+show it to be not only not very difficult, but even very easy, if one
+brings an attentive mind and one instructed by knowledge of the
+preceding books of Euclid; and moreover to need no external
+science of anyone, much less the demonstrations of algebra; but to
+depend only on Euclid’s own demonstrations, and on an order most
+familiar to him.  But in order that this definition may be understood
+more clearly, I think it must first be explained, if anything in it seems
+to be somewhat obscure. for thus the dialecticians prescribe.  When
+therefore it is said that some measure measures another by a
+magnitude: this is understood first, that that measure be less than
+that which it measures, or at least equal to it. for a greater can in no
+way measure a lesser. Next, that that measure, once taken, if it shall
+be equal, or if it shall be less, repeated several times: may exactly
+make up that magnitude which it measures: which [is] what from
+numbers
+
+B
+
+13

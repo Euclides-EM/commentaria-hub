@@ -1,0 +1,49 @@
+492.            TENTH
+irrational, all different from the afore-
+said.
+
+   Let the medial line AB be given; I
+say that from it arise infinitely many
+irrational lines, all diffe-
+rent from the aforesaid.
+   For if at the extremity of the
+medial one draw the perpendi-
+cular AC which is rational, and
+complete the rectangle AD: that rectangle will be irrational
+by the corollary of the 39th prop. of the 10th, and by the 11th def. of the 10th, the line which can
+[produce] that rectangle is irrational: let it be BE, which will be
+different from all the aforesaid. For its square applied
+to a rational line such as AC makes the other side AB
+medial: which none of the aforesaid did. Likewise if
+one completes the rectangle DE, it will also be irrational; and the
+line which can [produce] it also irrational; and let it be
+EF, which will be dif-
+ferent from all the aforesaid. For the square of not one
+of them, applied to a rational line, makes the other side
+such as BE: and in this way one may proceed to infinity.
+
+A  B  E  F
+C
+D
+
+S C H O L I U M.
+If the medial AB is √√2, and the rational AC 2; the rectangle AD
+will be √√32, the line BE which can [produce] it will be √√32. Thus the rectan-
+gle DE will be √√√512, and the line EF which can [produce] it will be √√√512, and
+thus to infinity.
+
+THEOR. 93.  PROP. CXVII.
+
+In a square, the diagonal is incommensura-
+ble in length with the side.
+
+   Let the square A B C D be given, of which AC is the dia-
+gonal. I say that the diagonal AC is incom-
+mensurable in length with the side AB.
+   For by the 47th prop. of the 1st, the square of AC is dou-
+ble the square of AB: but every magnitude
+double of another is as 2 to 1, or 4 to 2,
+or 8 to 4, etc. Therefore the square of AC is to
+
+D
+B  C

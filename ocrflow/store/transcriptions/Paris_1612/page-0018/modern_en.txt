@@ -1,0 +1,55 @@
+EUCLID’S
+
+but if indeed any other rectilinear [lines], straight [lines], which describe equal
+squares to spaces incommensurable.
+
+Euclid calls lines which can [produce] spaces, or irrational squares, Irrational:
+just as those squares also are called Irrational. But those spaces are irrational,
+when they are incommensurable with the square on a Rational line; so that if those
+spaces are squares, the lines from which those squares are described are Irrational.
+    But if those spaces are not squares, but other rectilinear figures, the lines
+which can [produce] those spaces are called Irrational.
+
+FROM CLAVIUS.
+
+BESIDES each one thing which Euclid notes, he also [uses] the true Commensurables by the term:
+in length and in power, and in power only; and he almost always adds to those words:
+commensurable and incommensurable. But scarcely ever separately these:
+Rational and Irrational. For straight lines are called commensurable in length and in power, or in power
+only. Likewise incommensurable in length and in power or in power only. But the straight lines Rational in length and in
+power, or in power only, are Irrational in length and in power, or in power only. Which indeed, since Campanus did not
+notice, provided occasion to many, that variously and obscurely in this 10th book, about commensurable lines, and incommensurable
+ones, and also about Rational and Irrational, they have spoken.
+    Moreover to these definitions we shall add one postulate, and certain pronouncements, whose use is found in this book.
+
+Postulate or Petition.
+
+FROM CLAVIUS.
+
+IT IS POSTULATED, that any magnitude can be multiplied so many times, until
+it exceeds any magnitude of the same kind.
+
+FOR, two magnitudes of the same kind being proposed unequal, since the greater is not infinite,
+but the lesser can be increased infinitely, it is evident that the lesser can be multiplied so many
+times, until it surpasses the greater.
+    This is also established from those things which we wrote in def. 5 of book 5. For there we said those magnitudes
+are then at last judged to be of the same kind, when either can be so multiplied, that it exceeds the other.
+And from the failure of this condition, we taught that a rectilinear angle, and an angle of contact, are of
+different kinds.
+
+Axioms or Pronouncements.
+
+AXIOM I.
+
+A MAGNITUDE measuring however many magnitudes, also measures the composite
+from them.
+
+AXIOM II.
+
+A MAGNITUDE measuring any magnitude, also measures every
+magnitude which that [magnitude] measures.
+
+AXIOM III.
+
+A MAGNITUDE measuring the whole magnitude, and the part taken away, also measures the
+remainder.
