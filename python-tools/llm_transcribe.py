@@ -10,7 +10,7 @@ from openai import OpenAI
 from tqdm import tqdm
 
 MODEL = "gpt-5.2"
-CONCURRENCY = 1
+CONCURRENCY = 8
 ORIGINAL_TEXT_TITLE = "Original text"
 TRANSLATION_TITLE = "Translation"
 SECTION_SEPARATOR = "---"
@@ -173,10 +173,7 @@ def main():
     with ThreadPoolExecutor(max_workers=CONCURRENCY) as executor:
         futures = [executor.submit(process_image, image_path) for image_path in image_paths]
         for future in tqdm(as_completed(futures), total=len(futures), desc="Transcribing"):
-            output_paths = future.result()
-            if output_paths is not None:
-                for output_path in output_paths:
-                    print(f"Wrote {output_path}")
+            future.result()
 
 
 if __name__ == "__main__":
