@@ -1,0 +1,68 @@
+4
+
+E V C L I D I S
+mèn potentia hoc eſt, ſecundum earum quadrata, commenſurabiles exiſtant. Quæ quidem omnia perſpica erunt ex coroll. pro-
+poſ. 9. huius libri.
+
+DEFINIT. V.
+
+HIS poſitis oſtenditur, cuicunque rectæ propoſitæ rectas lineas multitudine
+infinitas & commenſurabiles eſſe,& incommenſurabiles: alias quidem longitu-
+dine, & potentia, alias verò potentia ſolùm. Vocetur autem propoſita recta linea
+Rationalis.
+
+OMNI lineæ propoſitæ, omnes aliæ, quæ illi comparantur, erunt aut commenſurabiles, aut
+incommenſurabiles.
+
+Commenſurabiles quidem, ſi lineæ illæ, quæ ſunt comparatæ, lineæ propoſitæ habent cum
+propoſita aliquam menſuram communem vtramque metientem, vt ſi linea, a, ſit propoſita, illi
+verò ſint comparatæ b, & c, manifeſtum eſt lineas illas b, & c, lineæ a, propoſitæ eſſe commenſu-
+rabiles, cùm inter ſe lineæ illæ habent communem menſuram vtramque metientem nimirum, d.
+
+a
+b
+c
+d
+
+4
+3
+2
+1
+
+e
+f
+g
+h
+
+R V 8
+R V 5
+R V V 40
+R V V 56
+
+INCOMMENSVRABILES verò ſi lineæ, quæ comparantur lineæ propoſitæ,
+non habent aliquam menſuram communem, vt ſi lineæ, e & f, irrationali, a, ſint comparatæ, quia
+inter lineas illas non reperitur menſura communis, ideò incommenſurabiles erunt longitudine a,e,
+& f, quamuis potentia ſint commenſurabiles.
+Rurſus ſi linea g, & h, rationali a, ſint comparatæ, erunt a,g & h, inter ſe & longitudine,
+& potentia incommenſurabiles.
+Longitudine quidem, cùm nullam habeant inter ſe communem menſuram.
+Potentia verò, quia earum quadrata nullam habeant aream communem, quæ poſſit metiri
+quadrata ab illis deſcripta.
+
+E X  C L A V I O.
+LINEA autem illa propoſita, rationem cuius illa commenſurabilis ſunt, vel incommenſurabiles dicitur Græcis, in Latinis
+verò Rationalis, quoniam ea ponitur ſemper recta, ſic vt nulla ſit verò cum illa comparata non ſemper nota ſint, quamuis ſingulæ
+ſeorſum ſumptæ exiſtant certæ quoque notæ, cùm quolibet in quotcumque partes æquales poſſit diuidi.
+
+DEFIN. VI.
+
+ET huic commenſurabiles ſiue longitudine & potentia , ſiue potentia tan-
+tùm, Rationales.
+
+SI linea quæuis rationali propoſitæ, vel longitudine, vel potentia ſit commenſurabilis, ſine
+dubio linea illa rationalis eſt.
+Hinc colligitur omnem lineam propoſitam abſolutè & ſimpliciter conſideratam eſſe rationa-
+lem, cùm hac in tot partes æquales diuidi queat, quo libuerit: Huic igitur commenſurabiles vel
+longitudine & potentia ſimul, vel potentia tantùm, rationales erunt.
+
+E X

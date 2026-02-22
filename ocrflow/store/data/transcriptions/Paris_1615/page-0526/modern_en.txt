@@ -1,0 +1,26 @@
+494
+
+ELEMENT
+ELEVENTH.
+
+DEFINITIONS.
+
+1. A solid is that which has length,
+breadth & depth: But
+the boundaries of a solid are
+surfaces.
+2. A straight line is raised perpen-
+dicularly upon a plane, when all
+the lines in that plane drawn toward it
+meet it at right angles.
+3. A plane is raised perpendicularly
+upon a plane, when the lines drawn on the one
+of them perpendicularly to the line of
+common section, are also perpendicular to
+the other plane.
+4. The inclination of a straight line to a pla-
+ne is the acute angle contained by that line, & by
+another straight line drawn in the plane of the inclina-
+tion, through the point at which a perpendicular
+drawn from the top of that inclining line falls upon
+the said plane.

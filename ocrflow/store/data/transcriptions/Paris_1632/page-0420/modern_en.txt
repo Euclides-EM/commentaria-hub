@@ -1,0 +1,53 @@
+402
+
+T E N T H
+
+3  Straight lines commensurable in power are those
+whose squares can be measured by one and the
+same surface.
+
+Straight lines are considered either according to their length, or according to their power; and in
+the one and the other way they are called commensurable and incommensurable. In the first two
+definitions Euclid explained which are the commensurable and in-
+commensurable lines considered according to their lengths, but in this one, and in the following,
+he declares which are those called commensurable and incommensurable in power.
+He says therefore here that the straight lines whose squares can be measured by one and the
+same surface are commensurable in power: thus the straight lines AB and CD
+will be called commensurable in power, since their squares AG and CH can
+be measured by one and the same surface AG: likewise the straight lines CD and EF
+will also be called commensurable in power, because their squares CH and EI
+can be measured by the space or
+square AG. similarly, apply-
+ing numbers to lines; a line
+of 6 feet will be said commensurable
+in power to another line of 3
+feet, because their squares 9 and 36
+can be measured by one and the same
+surface. Thus also a line having
+2 feet in length, and another √8
+will be called commensurable in power, because their squares 4 and 8 are mea-
+sured by one and the same superficial space: again, one line being √20, and another
+√125 will likewise be called commensurable in power, because their squares
+20 and 125 are measured by one and the same surface 5: for it is two times in
+20, and 5 times in 125.
+Now it is to be noted that all straight lines commensurable in length are also so in
+power; for the squares of those lines are measured by the square of their common
+measure, as appears in the three first examples above.
+
+4  But straight lines incommensurable in power
+are those whose squares have no common
+surface that can measure them.
+
+As for example, one line being of 2 feet, and another √6, those two
+lines will be called incommensurable in power, because there is no surface that
+measures their squares 4 and 6: likewise √8 and √12 will also be called incommen-
+surable in power, for no superficial space measures their squares 8 and 12.
+Now it is here to be noted that all lines (or numbers) incommensurable in power are
+also so in length; but not conversely. Thus a line of 2 feet will be only
+incommensurable in length with another line of √8: but not in power:
+and 2 which is incommensurable in power with √8 is also so in length.
+
+E  F  C  D  A  B
+G  H  I
+
+Digitized by Google

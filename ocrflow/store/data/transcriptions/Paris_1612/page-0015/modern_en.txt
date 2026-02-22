@@ -1,0 +1,51 @@
+TENTH BOOK OF THE ELEMENTS.
+
+[uncertain: …] a measure measuring each of the two, they will also be incommensurable in power, because, as is clear
+from the 13th definition, their squares have no common area, which could measure each
+square described on them.
+
+FROM CLAVIUS.
+
+BUT if someone should ask why Euclid perhaps defines lines commensurable in power, and not commensurable in
+length, it must be answered that lines commensurable in length have been explained sufficiently and more than sufficiently
+in the definition of commensurable magnitudes, since one common measure measures lines of this kind, as has been said.
+But because lines commensurable in power cannot be measured by any common measure, but only their squares measure the same space,
+therefore it was altogether necessary that they be explained by a proper definition.
+
+SCHOLIUM.
+
+HERE the Reader must note what is to be understood by the power of a line. For the power of any line is nothing else than
+the square described on it.
+
+DEFINITION. IV.
+
+INCOMMENSURABLES, moreover, with their squares: no space
+which is a common measure of them happens to be found.
+
+ALL lines which admit no common measure, whose squares also
+have no area as a common measure, are rightly called by Euclid incommensurable in power,
+as is easy to gather from the preceding definition.
+
+FROM CLAVIUS.
+
+Lines commensurable in length, however, have this commensuration in power, and so that
+lines commensurable in length are also commensurable in power; but no lines can be given commensurable
+in length whose squares are also commensurable, since the square described on their common measure
+measures their squares as a common measure, as appears in the figure set below.
+
+l
+16
+e            4            f c      h
+                         4
+                              d a      g
+                                     l
+                                     b
+
+FOR just as the straight line a b measures the straight lines c d, e f, so also the square a g measures the squares c b, e i:
+but not [so] that all lines commensurable in power are also commensurable in length; for many lines are commensurable in power,
+that is, they have commensurable squares, which nevertheless are altogether incommensurable in length, as we shall demonstrate in this book.
+
+Again, among lines incommensurable both in length and in power, a connection of this kind is found, that all lines
+incommensurable in power are also incommensurable in length; but not conversely, that all lines incommensurable in length
+are also incommensurable in power; since many lines are found incommensurable in length with one another, when [uncertain: …]
+A ij

@@ -1,0 +1,46 @@
+EUCLID’S  
+ELEMENTS  
+BOOK TENTH.  
+
+WITH ANCIENT SCHOLIA  
+AND COMMENTARIES.  
+
+Of Federicus Commandinus of Urbino.
+
+DEFINITIONS  
+I.
+
+COMMENSURABLE magnitudes are
+said to be those which the same measure
+measures.
+
+II.
+
+But incommensurable, those for which
+it happens that there is no common
+measure.
+
+III.
+
+Straight lines are commensurable in power,
+when the squares which are from them
+measure the same area.
+
+F. C.  COMMENTARY.
+
+He did not separately distinguish straight lines commensurable in length, because they are included in the first definition
+of commensurable magnitudes; for straight lines commensurable in length are those which the same measure measures.
+
+IIII.
+
+But incommensurable, with the squares which are from them,
+it happens that there is no common area.
+
+V.
+
+With these posited it is shown, for any proposed straight line, that there are infinitely many straight
+lines, both commensurable and incom-
+mensurable: some indeed in length and in power; others truly in
+power only; but let the proposed straight line be called rational.
+
+And

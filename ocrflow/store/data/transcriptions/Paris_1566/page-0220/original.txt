@@ -1,0 +1,55 @@
+LIBER  DECIMVS.                                                                 98
+
+la comprehendunt, sub binis lateribus commensurabilibus comprehensa, qua quidem vnitat es rectan-
+gulum totum numerantes, erunt. Quia vero cuiuslibet vnitat is longitudo & latitudo certæ sunt li-
+neæ, cùm sint certæ commensurabiles. Ipsæ rectangulum certum producent, cuius quidem longitudo
+& latitudo est determinata, siue ipsa. Quod si illi proposita certa alia comparetur certa, ipsi poten-
+tia tantùm commensurabilis, longitudine vero nequaquam. Vt igitur est earum linearum vnitat-
+es incommensurabiles esse, ex hypothesi. Quare rectangulum sub vnitate certa lineæ, & vnitate
+reliqua priori incommensurabili comprehensum, incertum ac indeterminatum esse. Nam alteram
+eius certam dimensionem, reliqua incerta indeterminat. Idcirco ex his vnitatibus indeterminatis
+constans rectangulum, incertum ac indeterminatum erit, hoc est, à natura eius quod fit ex proposita
+aliquum. Si vero eidem proposita binæ potentiâ tantùm commensurabiles offerantur (adinuicem ve-
+ro longitudine commensurabiles existant) quæ rectangulum comprehendant, Epiquum est, si eius re-
+ctanguli vnitat es sub lineis ipsi certæ incommensurabilibus contineri, aquè secundum longitudinem
+ac latitudinem. Et nihilominus cert as esse: nam sub lineis longitudine sibi, & potentiâ sibi (ac propo-
+sita commensurabilibus) continentur. Sed quia earum potentiâ certæ propositæ commensurabilis sit
+sequetur sub ipsis comprehensum rectangulum, & ab his vnitatibus compositum, ipsius certæ qua-
+drato commensurabile ( & ideo certum) esse. Nempe rectangulum ex iisdem quadratum vnitat i-
+bus constans, eidem potentiâ cuiquadrato commensurabilia extruent, commensurabile fiet.
+
+Propositio prima.
+
+Duabus magnitudinibus inæqualibus expositis, si à maiore auferatur
+maius quàm dimidium, & eius quod relictum est maius quàm dimidium,
+idque sæpe fiat, Relinquetur tandem magnitudo minor, minore magnitu-
+dine exposita.
+
+Exponatur duæ magnitudines A K & G D: A ma-
+iore autem G auferatur maius dimidio (scilicet
+D Z, & rursus reliqui G Z maius quàm dimidium
+scilicet Z I, & sic sæpe fiat: Dico tandem relinqui posse magnitudinem G I minorem magnitudine
+A K minore exposita. Addantur ipsi A K tot æquales, quæ aliquem D excedant, per 4 diff. quin-
+ti, sintq́; K N, K T & T B. Quot ies vero secta est A B in T & K, toties secetur G D, ablato sæpe plus dimi-
+dio in Z & I, cum autem A B sit maior alia G D, sed ex A B auferatur T B non maius dimidio, à reliqua
+vero G D auferatur Z D dimidio maius, reliquum G Z erit ideo reliqua A K minus. Eodem rursus argu-
+mento, quia à maiori A T auferetur K T non maius dimidio, à minori verò G Z auferetur, ex hypothesi,
+Z I maius dimidio, sequetur reliquum G I minus esse reliquo A K, magnitudine inquam minore ex-
+posita. Duabus igitur magnitudinibus expositis &c.        Alias ubi tantùm aufertur à maiore di-
+midium sæpe, Dupletur A K minor quoad
+excedat G D maiorem in T & B, secetur
+autem bifariam G D in I & Z, quæ sint I G & Z I: quoniam sicut tota A B ad dimidium A T, sic & A T ad A K, sic
+sunt G D ad G Z & G Z ad G I (nempe in duplatione) Æquabitur ratione sicut A B ad A K, sic erit
+G D ad G I (per 22 quinti) sed maior est A B ipsa G D (per hypothesin) maior itaque erit A K ipsa
+G I (per 14 quinti) & proinde G ablato dimidio fit minor ipsa A K.
+
+MONITVM.
+
+Non desuerunt qui huius theorematis immensam in quantitates potestatem restringere volue-
+rint, opposito argumento ex decima sexta tertij, inter quos potior fuit Campanus, cùm dicit angulum
+contingentiæ (semper minore relinqui quolibet rectilineo angulo. A quo sepius plus quàm dimidium
+ablatum fuerit, ideo videri hoc theorem a nugatoria exceptione faciendam esse. Soluit autem hoc
+argumentum, dicens hos angulos non vniuocè dici angulos, ac curuum & rectum diuersi esse gene-
+ra, quod nos omnino fateri non possumus. Nam anguli rectilinei, & anguli contingentiæ idem ge-
+nus, quoad quantitatem, licet quoad commensurationem sint diuersi, angulorum etenim quantitas
+in sola inclinatione linearum continetur, vt quæ fuerit maior minor, vel æqualis inclinatio, quanti-

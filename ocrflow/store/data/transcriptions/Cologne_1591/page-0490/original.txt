@@ -1,0 +1,80 @@
+LIBER DECIMVS.                                                                 1031
+
+commenfurabiles longitudine tantùm; quædam verò longitudine, & potentia, ut hæc in libro demonftrabi-
+tur variis in locis. Non enim vult Euclides, ex dictis oftendi, funt nullæ; (quamquam eius verba hoc fonare
+videantur) hac ità fe habere: fed folùm indicat nobis, ſi omnia quædam modo lineæ demonftrentur quædam dici poſſe
+propoſita recta. lineæ commenfurabiles longitudine, & potentia, quæſdam autè potentia tantùm &c. Quod
+quidem ex diſtinctione modo ſequitur, ſed demonſtrabit in ſequentibus, vt diximus.
+
+LINEÆ autem illæ propoſitæ, ratione certâ velut aliæ commenſurabiles ſunt, vel incommenſurabiles, dicuntur
+Græci ῥηταὶ; Latini verò Rationales; quoniam ea ponitur ſemper certa, & nota, alia verò cum illa compa-
+rata non ſemper innotefcunt, quamuis ſingulæ conſtituant ſimpliciter exiſtens certa quoque, ac notæ: cùm quælibet in
+proportione partes æquales poſſit diuidi.
+
+VI.
+
+ET huic commenſurabiles ſiue longitudine & potentia, ſiue potentia tantùm;
+Rationales.
+
+DOCET lineas alias illi, qua Rationalis dicitur, commenſurabiles quomodocunque, appellari quoque Ra-
+tionales; non quidem ex poſitione, vt illa, ſed quia cum illa comparatæ reperiuntur ei commenſurabiles vel
+longitudine & potentia, vel potentia tantùm.
+
+ITÀ ex ſententia Euclidis, radix quadrata huius numeri 20. vel 1000. &c. Seu quod idem eſt, li-
+nea recta, cuius quadratum eſt 20. vel 1000. &c. dicitur Rationalis; cùm potentia ſit commenſurabilis ſine
+Rationali, (Eſt enim 14. numerus 20. quia ſcopo: commenſurabilis numero cuilibet quadrato, vt 16. vel 100.
+&c.) quamuis longitudine ſit eidem incommenſurabilis. Decipiuntur ergo Arithmetici non pauci, qui id-
+circo eam Irrationalem vocant, quod numero non poſſit exprimi.
+
+VII.
+
+HVIC verò incommenſurabiles, Irrationales vocentur.
+
+QVONIAM in antecedenti definitione Euclides lineas illas, qua longitudine & potentia, vel quæ po-
+tentia tantùm ſunt commenſurabiles propoſitæ rectæ Rationali, appellauit Rationales; liquido conſtat, eum
+hîc dicere Irrationales, quæ propoſitæ rectæ Rationali incommenſurabiles ſunt vtroque modo; longitu-
+dine videlicet & potentia: non autem longitudine tantùm. Ex quibus etiam manifeſtum eſt, radicem qua-
+dratam huius numeri 20. vel 1000. &c. ſeu (quod idem eſt) lineam, cuius quadratum eſt 20. vel 1000. &c.
+non poſſe appellari Irrationalem, cùm non ſit longitudine, & potentia, ſed longitudine tantùm Rationali
+lineæ propoſitæ incommenſurabilis.
+
+VIII.
+
+ET quadratum, quod à propoſita recta ſit dicatur Rationale.
+
+QVEMADMODVM lineam illam, quæ certa ponitur, ea nota, Rationalis dicitur: Ita quoque quadratum
+ab ea deſcriptum, Rationale vocatur, quia eſt ipſum certum eſt, ac notum, comparatione q́ illius aliæ ſuperfi-
+cies, commenſurabiles, incommenſurabilesue dicuntur.
+
+IX.
+
+ET huic commenſurabilia quidem, Rationalia.
+
+OMNES planæ ſuperficies quadrato Rationalis lineæ propoſitæ, commenſurabiles, Rationales dicun-
+tur; non quidem ex poſitione, vt illa, ſed quia cum eo collatæ reperiuntur ei vel commenſurabiles, vel in-
+commenſurabiles: quemadmodum etiam lineæ, quæ Rationali lineæ quomodocunque commenſurabiles ſunt,
+Rationales appellantur.
+
+QVONIAM verò lineæ potentes ipſæ ſpatia commenſurabilia quadrato Rationalis lineæ propoſitæ,
+ſunt, ſaltem potentia commenſurabiles lineæ Rationali, ex 3. definitione; perſpicuum eſt, ipſas quoque appel-
+landas definitione 6. Rationales.
+
+X.
+
+HVIC verò incommenſurabilia, Irrationalia dicantur.
+
+NON aliter ſuperficies planæ quadrato à Rationali lineâ deſcripto incommenſurabiles, Irrationales vo-
+cantur, ac lineæ, quæ Rationali propoſitæ ipſorſus incommenſurabiles ſunt, Irrationales ſunt dictæ.
+
+XI.
+
+ET rectæ, quæ ipſa poſſunt, Irrationales: ſiquidem ea quadrata ſint, ipſa lateres:
+ſi verò alia quæpiàm rectilinea, rectæ, quæ ſpatiis incommenſurabilibus æqualiâ
+quadrata deſcribunt.
+
+DOCET lineas, quæ poſſunt ſpatia quadrato Rationalis lineæ incommenſurabilia, Irrationales; quem-
+admodum & ipſa ſpatia dixit Irrationalia. Ita vbi incommenſurabilia ſpata fuerint quidem quadrata,
+latera ipſorum dicuntur Irrationales; ſi verò non fuerint quadrata, ſed alia quæcunque figura rectilinea, re-
+ctæ, quæ deſcribunt quadrata æqualia ipſis ſpatiis incommenſurabilibus Irrationales.
+
+I 3

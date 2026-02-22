@@ -1,0 +1,48 @@
+BOOK  X.                                   133
+Of Euclid of Megara, the most renowned,
+philosopher and by far the leading mathematician, first
+from Campanus, then from Theon the Greek, commentator,
+with Bartholomaeus Zamberti the Venetian as translator:
+The geometrical Elements.        Book Tenth.
+                                   Definitions.
+From Campanus.
+
+Quantities for which there is one quantity
+that measures them in common are called
+commensurable.
+But those for which there is not one common
+quantity measuring them are
+called incommensurable.
+Lines commensurable in power are called those
+whose square surfaces
+one common surface measures.
+Lines incommensurable in power are called those whose
+square surfaces one common
+surface does not measure. And since these things are so, it is clear
+that for any line there
+can be many others incommensurable; some in length
+only; some in length and in power.
+But every line with which we reason, when set down, is
+called rational.
+And the lines commensurable with it are called rational.
+But those incommensurable with it are called irrational
+or surds.
+And every square surface about which by hypothesis
+we reason is called rational.
+And the surfaces commensurable with it are called rational.
+But the surfaces incommensurable with it are called
+irrational or surds.
+And the sides which can be set on those squares are called
+irrational.
+                         Definitions
+Euclid, from Zamb.
+Commensurable magnitudes are called those
+which the same measure measures.
+But incommensurable [are those] which fall under
+no measurement by a common measure.
+Straight lines commensurable in power
+are [so] when the squares from them are measured by the same
+area.
+But incommensurable [are they] when the squares from them
+are measured by no area with a common measure. These things having been set forth,
+and the proposed straight line is indicated, that is, from which also the cubes

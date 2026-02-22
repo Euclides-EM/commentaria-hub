@@ -1,0 +1,33 @@
+E U C L I D ’ S  E L E M E N T S.
+
+their squares, being equal to rectilinear figures, are called
+ἄλογοι.
+
+One thing is what I think should be noticed in this place. When
+    he had said that ἄλογα are those which are incommensurable with
+    themselves, he wished to add about the lines describing those
+    incommensurable [squares], and he likewise called them ἄλογες: although
+    earlier, when he was speaking about things commensurable with
+    themselves, he said nothing about the lines describing those
+    commensurable [squares]. But he omitted this for this reason, because
+    he seemed to himself to have done enough, and to have hinted at these,
+    when he was speaking about lines commensurable with themselves, under
+    those words, “or in power” only. For the power of a line is its square,
+    as we said before. But if the square is commensurable with itself,
+    the line also which makes that square will be commensurable at least
+    in power. And so, by the definition of lines commensurable with
+    themselves, it will also be [so].
+    There exists a little book under the name of Aristotle, περὶ ἀτόμων γραμμῶν,
+    which indeed is understood easily, from many places of Aristotle himself,
+    not to be Aristotle’s: yet its learning makes it so that it ought to be
+    attributed to someone from that noble and learned family of the
+    Peripatetics. In it you will read many things conducive to the
+    understanding of these principles. Of which we will note this one thing,
+    which can seem to contain almost the sum of the whole explanation of the
+    matter: that the commensurability and incommensurability of magnitudes
+    with one another consists indeed in the nature of the magnitudes
+    themselves; but rationality and irrationality come to be by position,
+    because that which in the first place is called a line—namely, a rational
+    [line]—is made such by position. But another line, related to that one,
+    are either rational-
+    les,

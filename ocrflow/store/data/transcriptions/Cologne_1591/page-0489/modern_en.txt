@@ -1,0 +1,72 @@
+100
+
+EUCLID’S ELEMENTS
+II.
+
+INCOMMENSURABLES, however, are those for which it happens that no common measure
+can be found.
+
+SUCH magnitudes are the diameter of any square, and the side of the same; which
+have no common [measure], as will be demonstrated by Euclid in this book, as we use proportion.
+For there are incommensurable lines, for which indeed no common measure can be given, of which many
+the geometer explains in this book. Thus also the squares of incommensurable
+lines, and incommensurable solids, which admit no common measure.
+
+II.
+
+STRAIGHT lines are commensurable in power, when their squares are measured by the same
+area.
+
+OF straight lines, some are commensurable in length, which namely some other line, as a
+common measure, measures; of which sort are those which in the exposition of def. 1 we called simply
+commensurable: but some are incommensurable in length, which indeed no line, as a common
+measure, measures. Again, of lines which are incommensurable in length, some are such that their squares
+are commensurable; but others are so disposed that their squares also are incommensurable. Therefore those
+lines incommensurable in length, whose squares are commensurable, are by Euclid called by a special name
+commensurable in power; because namely according to their powers, that is, according to their squares
+(for, as we said at prop. 7 of book I, the power of each line is the square described on it) they are
+commensurable, although the lines themselves (which are in length) are altogether incommensurable.
+
+BUT if someone should ask why Euclid defined that lines are commensurable in power, and not
+commensurable in length, it must be answered that lines commensurable in length have been sufficiently
+explained above in the definition of commensurable magnitudes, since such lines are measured by one and a common
+measure, as has been said. But since lines commensurable in power cannot be measured by any common measure,
+but only their squares are measured by the same area, therefore it was altogether necessary that they be explained
+by their own proper definition.
+
+III.
+
+INCOMMENSURABLES, however, [are those] when for their squares no area
+which is a common measure of them can be found.
+
+THE remaining lines incommensurable in length, whose squares also are incommensurable,
+he calls incommensurable in power.
+
+BUT lines commensurable both in length and in power have this commensuration
+and connection among themselves, that lines commensurable in length are also commensurable in power; so that many
+lines can be given commensurable in length, without their squares also being commensurable; since
+a square described from their commensuration measures their squares as a common measure
+measures their squares; whence this form appears: the intermediate A B measures the remaining
+C D, E F, and likewise the square A G measures the squares
+C H, E I: Therefore it is not [the case] that many lines
+commensurable in power are also commensurable
+in length; for many lines
+are commensurable in power, that is,
+have commensurable squares, whose nevertheless
+lengths are altogether incommensurable,
+as will be demonstrated in this book. Again, among lines incommensurable both in length and in power, this
+notable connection is found, that all lines incommensurable in power are also incommensurable in
+length; but not conversely, that all lines incommensurable in length are also necessarily
+incommensurable in power, since many lines are found incommensurable in length with one another, while nevertheless in power, that
+is, according to their squares, they are commensurable. Which indeed all will be made clear from the corollary
+of proposition 9 of this book.
+
+V.
+
+THESE things having been set down, it is shown that, for any proposed straight line, there are straight lines in a multitude
+infinite both commensurable and incommensurable: some indeed in length and
+power; but others in power only. Let the proposed straight line be called rational.
+
+IF some straight line of known magnitude be proposed, there will be altogether others, which when compared with it are
+some commensurable with it in length and power, but others in power only; likewise some to it in-
+[uncertain: bominifc-]

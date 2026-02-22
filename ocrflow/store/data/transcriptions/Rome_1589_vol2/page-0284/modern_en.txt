@@ -1,0 +1,45 @@
+BOOK X. 281
+
+[illegible] wish, especially since already this very thing not long before by
+Michael Stifel, a noble arithmetician, in the 2nd book of the work which he
+entitled *On Whole Arithmetic*, has been carefully carried out, and
+accurately.
+  THEREFORE, that we may return to what was undertaken, Euclid, beginning
+the matter itself, in his manner, from explanations of the terms
+which will have to be used; declares in the first place what magnitudes
+are called commensurable, defining them to be those which the same
+measure measures. As two magnitudes
+A, B, which the same measure C
+measures (for C measures A, taken
+four times, and B, taken three times) are called commensurable.
+In the same way commensurable are a line of 20 palms
+and a line of 13 palms; because a line of as much as one palm, as
+of half a palm, as of a third part of one palm, etc., measures them.
+Similarly commensurable are said to be surfaces which one
+and the same surface measures; likewise bodies, that is, solids commensurable,
+which the same body, or solid, measures.
+
+A
+B
+C
+
+II.
+
+INCOMMENSURABLE, however,
+are those for which it happens that no common
+measure can be found.
+
+SUCH magnitudes are the diameter of any
+square, and its side; since they have no common
+measure, as will be demonstrated by Euclid in the last proposition
+of this book. There are also very many other incommensurable
+lines, to which, namely, no common measure can in any way
+be given, many of which this book explains, and teaches
+by what method they can be found. Again, surfaces will be called
+incommensurable, and solids incommensurable, which admit
+no common measure—.
+
+III.
+
+STRAIGHT lines commensurable
+in power

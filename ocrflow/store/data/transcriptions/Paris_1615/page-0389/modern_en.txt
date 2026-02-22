@@ -1,0 +1,41 @@
+ELEMENT.                                                                 357
+
+4.  Straight lines incommensurable in
+power are those of which the squares
+have no common surface that can
+measure them.
+
+5.  This being so, it is evident that for every
+straight line proposed, one will find infi-
+nitely many straight lines commensurable, and infi-
+nitely many incommensurable: some in length
+and power; others in power only.
+Now a straight line proposed is called
+rational.
+
+If one proposes some straight line of known and deter-
+mined magnitude, it is called rational, because it is according to it that we
+reason.
+Dounot judged that this definition ought not to have place; and there-
+fore rejected it. Which I judge he ought not to have done, seeing that he makes use
+almost on all occasions of this rational line mentioned in this de-
+finition.
+
+6  Lines commensurable with a rational
+line, whether in length and power, or in
+power only, are called rational.
+
+7  And lines incommensurable with a
+rational line are irrational,
+
+If, comparing some straight line to the line taken as rational, and
+upon which we reason, it is found commensurable with that
+rational one, whether in length and power, or in power only,
+such a line is also called rational; but if it is incommensurable with
+that proposed rational line, both in length and in power, this
+said line is called irrational.
+
+8.  The square described on a rational line
+is called rational.
+
+Z iii

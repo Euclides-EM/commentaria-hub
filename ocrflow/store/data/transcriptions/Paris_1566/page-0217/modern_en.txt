@@ -1,0 +1,53 @@
+E U C L I D.  E L E M E N T S.  G E O.
+
+from the same actions or passions understanding is acquired by us: but this certainty is then present, when
+we suppose, or understand, the nature or origin of the quantity of a line, that is, its denomination: because
+truly it is permitted for us to propose any (as we said in the preface) that which has been proposed we shall
+call certain.
+
+Definition sixth.
+
+And those which are commensurable with this, either in length & power, or in
+power only, [are] certain.
+
+Definition seventh.
+
+But those which are incommensurable with the same in length & power, are
+called uncertain.
+
+Since I said that a straight line can be made commensurable with a straight line, in power only, and moreover
+another in power & length, all these which are certain, or exist commensurable either in power only, or indeed in length
+and power together, are likewise to be called certain. For it is sufficient that some straight line be called certain, that it be
+joined with a certain proposed [line] by some commensuration, of length, or of power. But on the contrary an uncertain [line]
+is said [to be] that which has no commensuration with a certain proposed [line], whether compared by its length, or by its own
+power. But why Euclid called that line certain, which, being proposed, exists commensurable with a certain [line] in power only,
+although in length it is incommensurable with the same proposed [line], some seem to be ignorant. For since the affinity of
+geometrical quantities, which is called ratio, is divided by a principal disjunction into known and unknown. But the known is to be
+expressed by numbers only, Euclid follows the nature of numbers in expressing the relations of quantities: for although every number
+is the side of some square, yet not every number as side has a square, but all numbers among themselves are commensurable. It follows
+therefore if the square of a line which has been proposed as certain is incommensurable in length, is commensurable with the square
+of the certain [line] itself (that is, if by some units of numbers the same measure measures both squares) those [squares] will be said
+to have the ratio of numbers to one another (namely, repeating a common measure) but squares arise from sides drawn into themselves.
+Therefore it follows that those lines which, drawn into themselves, generate areas having the ratio of numbers (that is, certain), cannot
+be deprived of this certainty, because they generate units to themselves which are also certain. Wherefore for this cause he called certain
+(as Euclid found), but the rest on the contrary, which, drawn into themselves, produce incommensurable areas, and therefore have length
+and power incommensurable, he called uncertain, and [those] have to the certain an unknown ratio, because whatever units are applied to them,
+are incommensurable with one another, and have an uncertain ratio.
+
+A D M O N I T I O N.
+
+But Campanus & Zambertius translated this certain [as] rational in Latin, far indeed from the Greek
+exemplar, but as the Greek [has] this word ῥητὴ, which more truly is read for certain, determined and manifest,
+and moreover would agree more with this sense, certain, than rational. For the word rational of itself bears a habit,
+either by action, or by passion. For if rational is said of a certain proposed [line] by action, because it has some ratio to another, or by
+passion, because another has a ratio to it, this denomination not only suits it, but also whatever things are incommensurable with it, even
+uncertain ones. For those have to others of the same genus (as to dimensions) a ratio known among themselves as certain, to others
+but to the certain it has a ratio, since they are of the same genus as to quantity (by the third definition of the fifth) yet unknown. Therefore
+all deserve to be called rational, because they have ratio among themselves. But to others, which would be confused and therefore absurd, no otherwise
+than if we should call some single line rational, from having ratio, for a single line does not have ratio, since ratio requires at least two terms.
+Therefore those proposed straight lines cannot aptly be named rational, but certain or determined, &c. Besides, neither do we see Euclid to have called
+those rational, but certain. But that Campanus and Zambertius took that to themselves only, wherefore since Theon wrote with the word λογου added to this ῥητῷ
+in this seventh definition, not with Euclid’s Greek word (by which he would rather have said ἀῤῥητον for uncertain) but it is manifest, and that he, outside Euclid’s
+meaning, brought forth the word irrational, which by privation of ratio he would call uncertain magnitudes, which among themselves, as we said, have a
+certain & known ratio, but to the certain although unknown or indeterminate have ra-
+tios

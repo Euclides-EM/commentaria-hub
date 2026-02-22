@@ -1,0 +1,39 @@
+2
+
+OF EUCLID
+
+There are also very many other incommensurable lines, to which, of course, no common measure can in any way be given;
+many of these this book explains in Geometry, and teaches by what method they can be found.
+
+DEFINITION III.
+
+Straight lines are commensurable in power, when the squares from them are measured by the same area.
+
+g
+16
+a            4            b
+
+f
+8
+R 8 8
+d   c   1
+
+The lines a b, and c d, are commensurable in power, because their squares have between
+them one and the same common measure, that is, one and the same area, namely e, by which
+each square described on them a b, and c d, is measured. Although those lines between themselves are
+altogether incommensurable in length, nor can they have any common measure
+measuring both a b, c d.
+But of incommensurable lines, some are of such a kind that their squares are
+commensurable. Others indeed are so disposed that their squares also are incommensurable, as
+the squares described below a f, c h.
+
+s
+16
+a            4            b c
+
+h
+R 8 4
+R 8 8 40
+d
+
+For the lines a b and c d are incommensurable in length, because they have no commo-

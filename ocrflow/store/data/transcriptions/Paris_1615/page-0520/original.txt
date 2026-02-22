@@ -1,0 +1,47 @@
+188  
+DIXIESME
+
+les trois lignes FH, EH, CH, seront continuellement pro-
+portioneles en la raison de FE à EC, ou BD à DG: & par la
+22.p.6.& 10.p.10. comme le quarré de BD est commensur. au
+quarré de DC, (car iceux quarrez sont commensur. puis que
+BD,DC sont les noms du binome BC) ainsi que le quarré de
+EH, sera commensur. au quarré de CH: & par le corol. de la
+20.p.6. & 10.p.10. CH sera commens. en longitude à la troi-
+siesme proportionelie FH, & par la 16.p.10. CH & CF seront
+commens. en longit. Et d’autant que le rectangle DF est ra-
+tionel (estant egal au quarré de la ligne rationele A) & DC,
+ligne rationele : CF sera aussi ligne rationele commensur. en
+longitude à CD, par la 21.p.10. Et CH sera ausirationele co-
+mmens. en longitude à CD, par la 12.p.10. & par la 10.p.10. co-
+mme CD & DB sont rationeles commens. en puissance seule-
+ment, aussi CH, EH, seront rationeles commens. en puissance
+seulement: & partant par la 74.p.10. CE sera residu: duquel
+les noms EH, CH, sont proportionaux, & commens. aux noms
+BD,DC, du binome BC: Car il a esté demonstré que comme
+BD est à DG, ainsi EH à CH ; & partant en changeant com-
+me BD sera à EH ; ainsi DC à CH. Mais DC, CH ont esté
+demonstrées commens. en long par la 10.p.10. BD, EH, seront
+donc aussi commens. en longitude.
+
+Reste donc à prouer que le residu est de mesme ordre que
+le binome: Or les noms de l’vn estans proportionaux, & co-
+mmensurab. aux noms de l’autre : par la 15.p.10. comme le plus
+grand nom du binome pourra plus que le plus petit du quar-
+ré d’vne ligne qui luy sera commensurable, ou incommens. en
+longitude : le plus grand nom du residu pourra plus de mes-
+me: Que si le plus grand nom du binome est commensurable
+en longitude à la rationele : aussi sera le plus grand du residu
+par la 12.p.10. & ils seront binome premier, & residu premier.
+Que si le plus petit nom du binome est commens. en longit.
+à la rationele ; aussi sera le plus petit du residu ; & ils seront
+binome & residu second. Que si ny l’vn ny l’autre nom du
+binome est commens. à la rationele ; semblablement l’vn ny
+l’autre nom du residu ne sera commens. à la mesme rationele:
+Et ils seront binome, & residu troisiéme : & ainsi des autres.
+
+SCHOLIE.
+
+Si la rationele A est 8, le binome BC 9 + √45. tellement que BD soit
+9, & CD √45: Le quarré de A estant appliq. sur BC, l’autre coste du
+[illegible]

@@ -1,0 +1,39 @@
+286  EUCLID. GEOM.
+
+ALL plane surfaces commensurable with the square on the
+proposed Rational line are called Rational; not indeed
+by position, as that one, but because when compared with it they are found to be either
+commensurable, or incommensurable: just as
+also lines which are in any way commensu-
+rable with the Rational line are called Rational.
+
+SINCE however the lines capable (in power) of the spaces commen-
+surable with the square on the proposed Rational line are at least in power
+commensurable with the Rational line; from the 3rd definition it is clear
+that these also are called, according to definition 6, Rational.
+
+X.
+
+But those incommensurable with this,
+let them be called Irrational.
+
+In no other way are plane surfaces incommensurable with the square
+described on the Rational line called Irrational, than as the
+lines which are altogether incommensurable with the proposed Rational
+are called Irrational.
+
+XI.
+
+And the straight lines which can (produce) them are Irratio-
+nal: if indeed they are squares, the
+sides themselves; but if they are some other rectilinear (figures),
+the straight lines which describe squares equal to
+the incommensurable spaces.
+He calls lines which can (produce) spaces incommensurable with the square on the Rational
+line, Irrational; just as he called the
+spaces themselves Irrational: so that if the incommensurable
+spaces should indeed be squares, their sides are called Irratio-
+nal; but if they should not be squares, but any other recti-
+linear figures, the straight lines which describe squares
+equal to those incommensurable spaces are called Irrational.
+COs.

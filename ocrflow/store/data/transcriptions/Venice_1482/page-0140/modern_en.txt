@@ -1,49 +1,49 @@
-BOOK  X.  133
-OF EUCLID OF MEGARA, MOST RENOWNED,
-philosopher and very easy first among Mathematicians, first
-from Campanus, then from Theon the Greek commentator,
-with Bartholomaeus Zamberti the Venetian as interpreter:
-The geometrical elements.        The Tenth Book.
-                         Definitions.
-From Campanus.
+BOOK
 
-Quantities for which there is one quantity
-measuring them in common: are
-called communicant.
-¶But those for which there is not one
-common quantity measuring them, are
-called incommensurable.
-¶Lines communicant in power
-are called: whose square
-surfaces one common surface
-measures
-¶Lines incommensurable in power are called: whose
-square surfaces one common
-surface does not measure. Since these things are so: it is
-manifest that for any line set down: many others are
-incommensurable; some in length
-only; some in length & power.
-¶But every line with which we reason, being set down, is
-called rational.
-¶And the lines communicant with it are called rational.
-¶But those incommunicant with it are called irrational
-or surd.
-¶And every square surface about which by hypothesis
-we reason is called rational.
-¶And the surfaces communicant with it are called rational.
-¶But the surfaces incommensurable with it are called
-irrational or surd.
-¶But the sides which can be in those squares are called
-irrational.
-                         Definitions
-Euclid. from Zamb.
-¶Commensurable magnitudes are called:
-those which the same measure measures.
-¶But incommensurable: which fall under
-the measuring of no common measure.
-¶Straight lines commensurable in power
-are: when the squares from them: the same
-area measures.
-¶But incommensurable: when those which from them are
-squares: no area measures with a common measure. These having been
-set forth, and the proposed straight line is indicated, that is, from which also cubes
+successive proportionals: let it be shown then from h equals, that is, m.h. and the remainder h.n.
+which will be thus equals. likewise from f.g. let it be shown from f.g. thus equals that f.n. will be and the premised n
+so that the aggregate from e. and h. and k. and l. is 13 and f.n. to which it is equal. and that the aggregate
+from a. and b. and c. and d. and unit; likewise as many f.g. as the aggregate from all these
+a.b.c.d. and unit and those e.h.k.l. from which it is manifest that the number is that
+square f.g.c. indeed let it be h. and b. and g.n.k.cd from the first part. 20. seven. fifth used and
+proportionality wherever it shall be needed. for let it be as d.a. to d.c. so h. to e. and u. to a.d.b.
+likewise k. to e.p. by equal proportionality and from c.i.h. and from b.i.k. it is necessary
+to come. therefore f.g. which had led two, d.i.e.l. therefore no other than these numbers f.g. itself
+by division a perfect number. Which that it is no other number thus first if indeed
+this is possible, that it may number the same, q. and it will be by 33. seven. that it is numbered e. another numbered
+of them let it be that it numbers p. and that it numbers by the second part. 20. seven. that e. to d. so u.e. to p. is read
+so that q. numbers d. as much as eu.a.q. likewise unit is premised. that binary will be q.p.
+thus of this either a. or b. or c. or whatever else this shall have been will be p.a.ul.l. or k. or h. if
+for if q. shall have been a. how much q.p. will be l. which is premised by 1. if it shall have been b. p will be c. and if it shall have been b
+therefore p is not diverse from those as a number can be set. therefore q.f.g. is a perfect number which was to be demonstrated.    Here ends Book Nine; Book Ten begins.
+
+Quantities which have one common quantity, those
+numbers they call commensurate; but which do not have
+one common quantity, those numbers they call incommensurable.
+Lines commensurate in power are said
+when the square surfaces are one common
+numbered surface. Lines incommensurable in power
+are said when the square surfaces are not numbered
+one common surface: which that it is thus is manifest
+because of all lines commonly many others are incommensurable,
+some in length, some in length and power.
+Every line which can be expressed by reckoning is called rational. Lines
+which communicate with it are called rational; but those not communicating
+are called irrational or deaf. Every square surface of which by
+hypothesis we can reckon is called rational. Surfaces which communicate
+with it are called rational. But those incommensurable with it, surfaces
+are called irrational or deaf. But the sides which can make those squares
+are called rational.    Any quantity can be multiplied so many times
+that it exceeds any given quantity of the same kind.
+
+Proposition.    1.
+
+If two unequal quantities are proposed, the greater is to be taken away by half from the greater; and likewise from the remainder greater by half
+from itself in the same manner: it is necessary that at last
+a quantity less than the lesser proposed be left.
+Let there be two unequal quantities a. and b.c.b.c. the greater. I say that as many times as the greater is taken away by half
+a.b.c. or from its remainder, it will be necessary that a remainder less than the lesser quantity be left.
+Let a be multiplied as many times as it exceeds b.c. and let it be in the multiple c.d.e. for b.c. is
+to be taken away from a.b.c. by the greater half which is b.g. and likewise from the remainder which is g.e. the greater by
+half which is g.h. let this also be done so many times until b.c. the remainder is so many times first as many
+times it contains i.d.e.f. I say then that the last remainder is here h.c. let it be greater than a. let it be multiplied

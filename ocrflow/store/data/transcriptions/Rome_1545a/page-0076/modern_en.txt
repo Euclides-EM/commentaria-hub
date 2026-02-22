@@ -1,0 +1,23 @@
+63
+
+THE TENTH BOOK OF THE
+ELEMENTS OF
+EUCLID.
+
+The definitions.
+
+The magnitudes, measured by one and the same measure:
+are called Commensurable.
+But when one cannot find a common measure for them:
+they are called Incommensurable.
+When the squares of some lines are measured by one and the same measure:
+the lines are called Commensurable in power.
+But when, for their squares, one cannot find a common measure:
+they are called Incommensurable.
+These things having been set down, it is shown that to a proposed straight line:
+there are infinite straight lines, both commensurable and incommensurable, some in length
+and in power, and some others only in power. Therefore, the proposed straight line is called
+
+E
+
+Digitized by Google

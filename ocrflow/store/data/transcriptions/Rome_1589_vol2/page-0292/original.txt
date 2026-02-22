@@ -1,0 +1,44 @@
+❦  L I B E R  IX.  ❦  289
+
+bum hæc poſſint tranſferri, mutata ſolum voce numeri in vo-
+cem magnitudinis.
+
+C A E T E R V M  quia hoc in libro diſcedendũ nobis fuit
+a numero, quem Theon in propoſitionibus Euclidis ſequitur,
+ut ad propoſ. 13. dicemus, quemadmodum & in omnibus ſe-
+riem Campani negleximus; ut docuimus ad initium primi
+libri; curauimus, ut duplex numerus in margine e regione
+propoſitionum apponeretur, quorum ſuperior ordinem Theo-
+nis, inferior autẽ Campani ſeriem demõſtraret. Quod ſi vnus
+tantum numerus reperiatur in margine, nullam tunc eſſe in-
+ter Theonem, & Campanum diſcrepantiam, intelligas, quod
+ad numerum propoſitionum attinet.
+
+THEOR. I. PROPOS. I.                                   I.
+DVABVS magnitudinibus inæqua-
+libus propoſitis, ſi a maiore auferatur ma
+ius quàm dimidium; & ab eo, quod reli-
+quum eſt, rurſus detrahatur maius quàm
+dimidium; & hoc ſemper fiat: Relinque-
+tur tandem quædam magnitudo, quæ mi
+nor erit propoſita minore magnitudine.
+
+PROPOSITAE ſint duæ magnitudines inæquales
+A B, & C, quarũ A B, ſit maior. Dico ſi ex A B, auferatur
+maius quam dimidium; & ab eo, quod reliquum eſt, rur-
+ſum maius quam dimidium; atque hoc ſemper fiat: relin-
+qui tãdem magnitudinẽ quandam, quæ minor ſit quã C.
+Multiplicetur.n. C, toties, donec magnitudo facta DE,
+maior ſit quã AB, ita vt DE, ſit multiplex ipſius C, proxi-
+me maior quã AB. Diuifa autem DE, in partes DF, FG,
+GE, ipſi C, æquales, detra-
+hatur ex A B, maius quã
+dimidium A H, & ex reli-
+qua H B, maius quam di-
+midium HI; atq; hoc ſemper fiat, donec partes ipſius AB,
+T
+multi-
+
+A   H  I   B
+C   F
+D   G     E

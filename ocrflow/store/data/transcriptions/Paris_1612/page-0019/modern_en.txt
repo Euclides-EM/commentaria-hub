@@ -1,0 +1,52 @@
+THE TENTH ELEMENT.                                                                 7
+
+THESE axioms, as they pertain to numbers, have been set forth by us in the last three
+pronunciations of Book 7. Wherefore, since the same reasoning holds in magnitudes, there is
+no reason that we should uselessly repeat their demonstrations here, especially since they can
+be transferred hither word for word; only the word “number” being changed into the word
+“magnitude”.
+
+Theorem I.     Proposition 1.
+
+TWO unequal magnitudes being proposed, if from the greater there be taken away more
+than the half, and from that which remains there be again taken away more than the half,
+and this be always done: there will at length be left some magnitude which will be less than
+the proposed lesser magnitude.
+
+c        d        f        i
+a        e   z    b
+
+LET there be set forth two unequal magnitudes a b, and c d, of which a b is the greater,
+but c d the lesser. I say that if from a b there be taken away more than the half, namely a e,
+and from the remainder again more than the half, namely e z, and this be always done, there
+will at length be left some magnitude which is less than c d.
+  For let c d be multiplied so many times until the magnitude made from that multiplication
+exceed the magnitude a b; and let that magnitude be c i, which therefore is a multiple of c d,
+the nearest greater than a b.
+  Then let c i be divided into parts equal to c d, and let those parts be c d, d f, f i; and let
+there be taken away from a b more than the half, a e; and from the remainder e b again more
+than the half, e z; and let this be done until the parts of the line a b are equal in number to
+the parts of c i.
+  Since therefore c i is greater than a b, and from c i there has been taken away c d, less than
+its half (or certainly the half if c i is double of c d). But from a b there has been taken away
+a e, greater than its half; the remainder d i will be greater than the remainder e b. For since
+c i is greater than a b, if from c i the half had been taken away, and from a b the half also
+were taken away, the remainders would not be equal, but one would be greater than the other,
+namely the remainder from c i greater than the remainder from a b.
+  Therefore, taking away from c i less than the half (or certainly the half), and from a b more
+than the half, the remainder from c i will be greater than the remainder from a b.
+  Next, since d i is greater than e b, and if from d i there be taken away the half of it, d f (or
+certainly less than the half), and from e b there be taken away e z, greater than the half, in the
+same way the remainder f i will be greater than the remainder z b. And thus proceeding it is
+easy to demonstrate that the last part of c i, namely f i, is greater than the last part of a b,
+namely z b.
+  But f i, the last part of the straight line c i, is equal to c d. Therefore the straight line c d is
+greater than z b, the last part of a b.
+  Wherefore, by that subtraction there has been left the remainder z b, which is less than c d,
+which was to be shown.
+
+SCHOLIUM FROM CLAVIUS.
+
+MORE clearly than light, from the demonstration of this Theorem it appears that two unequal quantities proposed ought to be such that the
+less, when multiplied, can at length exceed the greater: which is to be noted with respect to Proposition 16 of Book 3, when we shall treat of the
+angle of contact against Lactantius Ptolemy.

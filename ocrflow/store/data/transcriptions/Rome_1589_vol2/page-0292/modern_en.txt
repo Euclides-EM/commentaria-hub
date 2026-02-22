@@ -1,0 +1,44 @@
+❦  BOOK  IX.  ❦  289
+
+since these things can be transferred, only the word “number” being changed into the
+word “magnitude”.
+
+MOREOVER, because in this book it was necessary for us to depart
+from the numbering which Theon follows in the propositions of Euclid,
+as we shall say at proposition 13, just as in all things we have neglected
+the series of Campanus, as we explained at the beginning of the first
+book; we have taken care that a double number be placed in the margin
+opposite the propositions, of which the upper shows the order of Theon,
+the lower however shows the series of Campanus. But if only one
+number is found in the margin, understand that there is then no
+disagreement between Theon and Campanus, as far as the numbering
+of the propositions is concerned.
+
+THEOR. I. PROPOS. I.                                   I.
+WITH two unequal magnitudes having been set forth,
+if from the greater there be taken away
+more than the half; and from that which remains,
+again there be taken away more than the half;
+and if this is always done: there will at last be left
+some magnitude which will be
+less than the proposed lesser magnitude.
+
+LET there be proposed two unequal magnitudes
+A B, and C, of which A B is the greater. I say that if from A B there be taken away
+more than the half; and from that which remains, again
+more than the half; and if this is always done: there will at last be left
+some magnitude which will be less than C.
+Let C be multiplied, therefore, so many times until the magnitude made DE
+is greater than AB, so that DE is a multiple of C, the nearest
+greater than AB. And DE being divided into parts DF, FG,
+GE, equal to C itself, let there be taken away
+from A B more than the
+half A H, and from the remaining
+H B more than the
+half HI; and let this always be done, until the parts of AB,
+T
+multi-
+
+A   H  I   B
+C   F
+D   G     E

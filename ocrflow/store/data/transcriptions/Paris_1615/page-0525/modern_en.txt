@@ -1,0 +1,15 @@
+ELEMENT.                                   493
+
+square of AB; as 2 to 1, or 4 to 2, or 8 to 4, &c. which is not
+as square number to square number, as we
+have demonstrated in the corollary of the 24th P. 8. & therefore by the 9th P.
+10. the diagonal AC, & side AB, are incommensurable in
+length.
+
+SCHOLIUM.
+
+If AB the side of the square is 1, the diagonal AC will be √2 : so
+that the ratio of the side to the diameter is as 1 to √2; that is to say in-
+commens. in length.
+
+End of the tenth book.

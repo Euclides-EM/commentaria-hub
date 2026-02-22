@@ -1,0 +1,41 @@
+490                     DIXIESME
+
+ſurable en puiſſance ſeulement: & partant les quarrez d’icelles
+BG, GE ſont commenſ. , & par conſequent les lignes BG, FG
+qui ont meſme raiſon qu’iceux quarrez, ſont commenſurables,
+en longitude , par la meſme 10.p.10. Et par le corol.de la 16.p
+10.BG, BF ſeront auſſi commenſurables en longitude.  Et
+d’autant que BD plus grand nom du reſidu BC eſt rationele,
+& le rectangle DF egal au quarré de la rationele A , eſt ratio-
+nel; par la 21.p.10. BF ſera auſſi rationele commenſu. en lon-
+gitude a BD. Donc par la 12.p.10. BG ſera auſſi rationele có-
+menſ. en longitude a la meſme BD. Et puis que BG, GE, ont
+eſté demonſtrees commenſ. en puiſſance ſeulement, & BG
+rationele, GE ſera auſſi rationele.  Donc BG, GE ſont ratio-
+neles commenſ. en puiſſance ſeulement : Et partant par la 37.
+p.10. BE eſt binome: duquel les noms BG, GE, ſont propor-
+tionnaux, & commenſ. aux noms BD, CD, du reſidu BC. Car
+il a eſté demonſtré que comme BD a CD, ainſi BG a GE: &
+partant en permutant comme BD a BG, ainſi CD a GE: mais
+BD a eſté demonſtré commenſurable en longitude a BG: dõc
+auſſi CD ſera commenſ. en longitude a GE, par la 10.p.10. Re-
+ſte donc a prouuer que BE eſt binome de meſme ordre que le
+reſidu BC: ce qu’on ſera tout ainſi qu’en la precedente.
+
+                         SCHOLIE.
+
+Si la ration. A eſt 4, & le reſidu BC9—i 45,CD√45, & BD9: le rect.
+DF ſera 16, & auſſi CE 16: ainſi le coſté BF ſera 12, & BE4+√8
+& par conſequent FE ſera √8²+2 2/9, & GE √8 2/3, FG 12/9,
+BG 4: ainſi eſt euident que BE eſt binome en meſme ordre que le re-
+ſidu BC, & que les noms d’iceux ſont proportionaux.
+
+THEOR. 91.   PROP. CXV.
+
+Si vn rectangle eſt compris d’vn reſidu, &
+d’vn binome, deſquels les noms ſont propor-
+tionnaux & commenſurables ; la ligne droite
+pouuant icelluy rectangle eſt rationelle.
+
+Soit le rectangle AB, compris ſous le reſidu AC , & le bi-
+nome CB, duquel les noms CD, DB ſoient proportionaux, &

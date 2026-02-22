@@ -1,0 +1,32 @@
+358
+
+TENTH
+
+Just as that line, which is known and determined by a certain quantity, is called rational; so also the square described on that line is called rational, because it is certain and known; and the surfaces compared to that square are also called rational, or else irrational, according as they shall be found commensurable with that rational square, as is said in the two following definitions.
+
+9.  Figures commensurable with the rational
+square are also rational.
+10.  And those which are incommensurable with
+the rational square are irrational & surd.
+11.  And the lines which can [produce] those
+irrational figures are irrational & surd.
+
+Now a line is said to be able [to produce] a figure when the square described
+on it is equal to that figure, since every square is the power of its root or of its side.
+Thus it has been said above that two lines are commensurable in power, when not the lines,
+but the squares of those lines, can be measured by one and the same surface.
+
+Now to these definitions we shall add (after Clavius) a
+request, and some common sentences, the use of which will be found
+in this book.
+
+REQUEST.
+
+That one may multiply any magnitude
+so many times that it exceeds any
+magnitude of the same kind.
+
+COMMON SENTENCES.
+
+1.  A magnitude measuring as many magnitudes
+as one wishes, also measures the compound of those.

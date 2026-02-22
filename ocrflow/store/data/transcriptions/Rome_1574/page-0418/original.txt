@@ -1,0 +1,41 @@
+EUCLID. GEOM.
+
+drata earum incommensurabilia ſint. Lineæ ergo illa longitudine incommensurabiles, quarum quadrata ſunt commenſurabilia, appellantur hic ab Euclide potentiâ commenſurabiles ;
+quia videlicet ſecundum earum potentiâs, hoc eſt ſecundum earum quadrata ( eſt enim, vt ad propoſ. 47. lib. I. diximus, potentia cuiuſq; lineæ, quadratum ab ea deſcriptum ) commenſurabiles ſunt, licet ipſæ ſecundum longitudinem ſint prorfus incommenſurabiles .
+
+QVOD ſi quis roget, cur Euclides definiuit ſorſum lineas potentiâ commenſurabiles, nō autè commenſurabiles longitudine ; reſpondendum eſt, lineas longitudine commenſurabiles ( ſatis ſuperq; ) eſſe explicatas in definitione commenſurabiliũ magnitudini, cùm huiuſmodi lineas vna communis menſura metiatur , vt dictũ eſt. At vero quoniā lineas potentiâ commenſurabiles nulla communis menſura metiri poteſt, ſed tantùmodo earum quadrata idem ſpaciũ metitur , ideo neceſſarium omnino fuit , vt ea propria definitione explicarentur .
+
+III.
+
+INCOMMENSVRABILES au
+tem,cum quadratis earum nullum ſpatium,
+quod ſit communis eorum menſura, con-
+tingit reperiri.
+
+LINEAS reliquas longitudine incommenſurabiles, quarum etiam quadrata incommenſurabilia ſunt , vocat incommenſurabiles potentiâ .
+HABENT autem lineæ commenſurabiles tàm longitudine quàm potentiâ,hàc quaſi conuenientiâ inter ſe, & connexione, vt lineæ longitudine commenſurabiles, ſint etiâ commenſurabiles potentiâ,ita vt nulla lineæ dari poſſint commenſurabiles longitudine, quin earũ quadrata commenſurabilia quoque ſint : quoniam quadratum ex communi earum menſura deſcriptum metitur tanquā menſura communis earũ quadrata , vt in ſubiecta figura ap-
+parret:
+
+I
+H
+G
+F C
+D A B
+
+
+LIBER. X. 4
+
+paret: ſicut enim reſta A B, metitur reſta C D,E,F,ita quoque quadratũ A G, quadrata C H,E I, metitur : Non autè, vt omnes lineæ potentiâ commenſurabiles, ſint etiâ commenſurabiles longitudine; multa enim lineæ ſunt potentiâ commenſurabiles, hoc eſt, quadrata habent commenſurabilia,quæ tamen longitudine omnino incommenſurabiles ſunt , vt in hoc libro demonſtrabitur. Rurſus inter lineas incommenſurabiles tam longitudine quàm potentiâ, huiuſmodi colligatio reperitur, vt omnes lineæ potentiâ incommenſurabiles, ſint etiâ incommenſurabiles longitudine ; Non autem contra, vt omnes lineæ longitudine incommenſurabiles , ſint quoque incommenſurabiles potentiâ, cum multæ lineæ reperiantur longitudine inter ſe incommenſurabiles, cum tamen potentiâ, hoc eſt, ſecundum earum quadrata, commenſurabiles exiſtant . Quæ quidem omnia perſpicua erunt ex corol. propoſ. 9. huius libri .
+
+V.
+
+HIS poſitis,oſtenditur, cuicunq; reſtæ
+lineæ propoſitæ reſtas lineas multitudine
+infinitas & commenſurabiles eſſe , & in-
+commenſurabiles : alias quidem longitu-
+dine , & potentiâ ;alias vero potentiâ ſo-
+lum . Vocetur autem propoſita reſta linea,
+Rationalis.
+
+SI proponatur aliqua reſta linea notæ magnitudinis, erit omnium aliarum , quæ cum ipſa comparantur , quadrata illi commenſurabilia, longitudine ac potentiâ, quædam vero potentiâ tantum : Item quædam illi incommenſurabiles longitudine tantum ; quædam vero longitudine, & potentiâ , vt hoc decimo libro demonſtrabitur variis in locis . Non enim vlt. Euclides, ex dictis oſtendit , ſeu colligit, ( quamuis eius verba hoc ſonare videantur ) hæc ita ſe habere ; ſed ſolum indicat nobis , vt innui quadam modo , linearum quædam dici poſſe propoſitæ reſtæ lineæ commenſurabiles longitudine .
+A 4

@@ -1,0 +1,36 @@
+BOOK  X..                                    88
+
+2
+Incommensurable magnitudes are said to be
+those, of which it happens that no common
+measure can be found.
+
+γ
+Straight lines are commensurable in power, when the squares
+from them are measured by the same area.
+
+3
+Straight lines are commensurable in power,
+whose squares one and the same surface or
+area measures.
+
+δ
+And they are incommensurable, when for the squares from them
+it is not possible that any common area-measure come to be.
+
+4
+But lines are incommensurable, of which
+no common area can be found that measures
+the squares.
+
+t
+These things being laid down, it is shown that to the proposed
+straight line there exist straight lines infinite in multitude, both
+commensurable and incommensurable, some in length and in power,
+and others in power only. Let then the proposed straight line be
+called rational.
+
+5
+Since these things are so, it can be shown that what-
+ever straight line may be proposed to us,
+ex-

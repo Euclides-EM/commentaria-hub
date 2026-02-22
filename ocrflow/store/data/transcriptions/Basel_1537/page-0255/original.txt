@@ -1,0 +1,64 @@
+244        ARITHMET.  ELEMENT.  EVCLIDIS
+
+10  Eſtque huic commenſurabilia,rationalia.
+11  Eſtque huic incom-
+menſurabilia,irrationalia dicuntur.
+12  Et ipſorum(ſi quadrata fuerint
+latera,ſin autem,alia quapiam rectilinea,ipſa potentes æqualia)ipſis qua-
+drata deſcribentes,irrationales uocentur.
+
+Eucli.ex camp.                              Propoſitio  1
+
+I  S
+CAMPANVS
+I  duabus quantitatibus inæqualibus propoſitis maius dimi-
+dio à maiori detrahatur,itemque de reliquo maius dimidio de-
+tatur,deinceps quoque eodem modo,neceſſe eſt ut tandem
+minore poſita quam minor quantitas relinquatur.
+Sint duæ quantitates inæquales a & b,c b c maior: dico quod toties
+potest maius dimidio detrahi ab ipſa b cu,eiꝰ reliquo,quod neceſſe erit reliqui quã-
+titatem minorẽ eſſe a,Multiplicetur enim a toties quouſque excedat b,c ſitq́; eius mul-
+tiplex d e f,maius b c.Detrahatur itaq́; ab ipſa b c,maius dimidio,quod ſit b,
+d.iteq́; ex reliquo quod eſt g e,maius dimidio,quod ſit g h,hoc quoque to
+ties fiat,quouſque b c diuiſa ſit in tot partes quoties a continetur in d e f
+Dico tunc quod ultimi reſidui u t eſt h c,eſt minus a.Multiplicetur na-
+que h c,quoties eſt multiplicata a in d e f,ſitque eius multiplex k l m. Qui
+igitur una quæq́; ex quantitatũ k l,m,eſt æqualis h c,ſequitur ut & k l ſit minor
+b g,ſed & l,m inor g h:at quia m eſt æqualis h c,erit per conceptionem k l m
+minor b c,quare minor d e f.Cũ ſit ergo d e f ad a ſicut k l m ad h c,ſitque d
+e f maior k l m,ſequitur per 5. quinti,quod a ſit maior h c,quod eſt propo-
+ſitum. Idemq́; ſequitur,ſi a maiori dimidium detrahatur itemq́; de reliquo
+dimidium,fiatq́; toties quouſque maior diuidatur in tot partes quoties
+continetur minor in quolibet ſuo multiplici maiorem poſitarum quan-
+tumlibet excedente.
+
+CAMPANI annotatio,  Attendere autem oportet,quod huic propoſitioni
+uidetur decima quinta tertij contradicere,proponens angulum contingentia mino-
+rem fore quolibet angulo à duabus lineis rectis contento.Poſito enim angulo quoli-
+bet rectilineo,ſi ab ipſo maius dimidio detrahatur,itemq́; de reliquo maius dimidio,ne-
+ceſſe uidetur hoc toties poſſe fieri quouſque angulus rectilineus minor angulo cõtin-
+gentia relinquatur,cuius oppoſitum ſ tertij ſyllogizat.Sed hi no ſunt uniuoci angu
+li,non enim euſdem ſunt generis ſimplicitèr curuum & rectum.Atuero nec angulum
+contingentia toties contingi ſumi,ut qualencunque rectilineum excedat,quod ne-
+ceſſarium eſt(ut ex præhabita demonſtratione pateat)ad hoc ut conſequens ex ante
+cedente ſequatur . Planum ergo eſt etiam quemlibet angulum rectilineum,infinitiis
+angulis contingentia eſſe maiorem.
+
+Eucli.ex Zamb.                              Theorema  1      Propoſitio  1
+
+I  Duabus magnitudinibus inæqualibus expoſitis,ſi à maiore auferatur ma
+ius quàm dimidium,& eius quod relictum eſt maius quàm di
+midium,idque ſemper fiat,relinquetur quædam magnitudo mi
+nor minore magnitudine expoſita.
+
+THEON ex Zãb.  Sint binæ magnitudines inæquales α & β,quarũ maior ſit α. Dico quod
+ſi ab ipſa α auferatur maius quàm dimidium,& reliqui maius quàm dimidiũ,ſe hoc ſemper fiat,re
+linquetur quædam magnitudo minor minore magnitudine expoſita,Et quoniam minor eſt β,igitur
+α, multiplicata,maior tandem erit quàm β,multiplicetur,ſeſto δ & ipſius quidem γ,multiplex,
+maior autem quàm α. Diuidatur α,ſi in æquales ipſius γ,ſitq́; α, n. Auferatur ab ipſa α β,
+maius quàm dimidium,ſe,θ & ab ipſa α,maius quàm dimidium,ſe,ε & hoc ſiat ſemper,quo
+ad que in α,ε,ſunt diuiſiones æquales ſint multitudine eis quæ in ipſo δ,ſunt diuiſionibus,ſitque
+igitur κ,λ,μ,θ & β,diuiſiones,æquales exiſtentes multitudine ipſi δ,ſeſto ν. Et quoniam maior
+eſt δ,quàm β,ablatumq́; eſt ab ipſa α,minus quàm dimidii hoc eſt ι,ab ipſa autem α,maius
+quàm dimidium ε, reliquum igitur α,ſ, reliquo β,α,maius eſt. Et quoniam maius eſt ν,δ,quàm α,χ,
+ablatumq́; ab ipſa α,δ,dimidium hoc eſt η,ex ipſa autem α,θ,maius dimidio hoc eſt η,α,reliquum igitur

@@ -1,0 +1,33 @@
+BOOK  X.                                                189
+
+[illegible] equal squares [illegible]
+[illegible]
+
+POSTULATE.
+
+Any magnitude can be multiplied so
+many times, until it exceeds any
+magnitude of the same kind
+[illegible]
+
+AXIOMS.
+
+1. A magnitude which measures any
+magnitude, also measures the magnitude
+composed of them.
+
+2. A magnitude which measures any
+magnitude, also measures every magnitude
+which that magnitude measures.
+
+3. A magnitude which measures a whole
+magnitude and a part taken away, also
+measures the remainder.
+
+PROPOSITION I.
+Theorem 1.
+
+For two magnitudes ab, and in unequal
+proportion, if from the greater ab there is taken
+away more than half of ab; and from that
+which

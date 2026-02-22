@@ -1,0 +1,78 @@
+EVCLID. GEOM.
+
+AXIOMATA, SIVE
+Pronunciata.
+
+I.
+
+MAGNITVDO quotcunque; magni
+tudines metiens, compositan quoq; ex ip-
+sis metitur.
+
+II.
+
+MAGNITVDO quamcunque; magni
+tudinem metiens, metitur quoq; omnem
+magnitudinem, quam illa metitur.
+
+III.
+
+MAGNITVDO metiens totã ma-
+gnitudinem,& ablatam, metitur & reliquã.
+
+H A E C axiomat a, vt ad numeros pertinent, ofenfa funt
+a nobis in vltimis tribus pronunciatis lib.7. Quare cum fit ea
+dem ratio in magnitudinibus , non eft , quod fruftra eorum
+demonftrationes hic repetamus, præfertim quoad ad verbum huc
+poflunt transferri, mutatâ folùm voce numeri in voce magni-
+tudinis.
+
+C A E T E R V M quia hoc in libro difcedendum nobis fuit
+a numero,quem Theon in propofitionibus Euclidis fequitur, vt
+ad prop.13. dicemus,quemadmodum & in omnibus feriem
+Campani negleximus , vt docuimus ad initium primi lib. ;
+curauimus , vt duplex numerus in margine e regione propofi-
+tionum apponeretur , quorum fuperior ordinem Theonis , in-
+ferior autem Campani feriem demonftrat . Quod fi vnus tan-
+tum numerus reperiatur in margine , nullam tunc effe inter
+Theoni
+
+LIBER 9. X.
+
+Theorem, & Campanum discrepantiam , intelligas, quod ad
+numerum propofitionum attinet .
+
+THEOR. I. PROPOS. I.
+
+DVABVS magnitudinibus inæqua-
+libus propofitis, fi a maiori aufertur ma-
+ius quam dimidium; & ab eo , quod reli-
+quum eft , rurfus detrahatur maius quam
+dimidium ; & hoc femper fiat : Relinque-
+tur tandem quædam magnitudo , quæ mi-
+nor erit propofita minori magnitudine.
+
+PROPOSITAE fint duæ magnitudines inæquales
+A B,& C,quarum A B,fit maior. Dico fi ex A B,auferatur
+maius quam dimidium ; & ab eo, quod reliquum eft , rur-
+fum maius quam dimidium ; atque hoc femper fiat : relin-
+qui tandem magnitudinem quædam, quæ minor fit quam
+C. Multiplicetur C, toties, donec magnitudo facta D E, ma-
+ior fit quam A B,ita vt D E, fit multiplex ipfius C, proxime
+maior quam A B. Diuidatur autem D E, in partes D F, F G,
+G E,ipfi C,æquales; derra-
+hatur ex A B,maius quam
+dimidium A H, & ex reli-
+qua H B, maius quam di-
+midium H I;atque hoc femper fiat, donec partes ipfius AB,
+multitudine æquales fint partibus ipfius D E. Sint ergo iam
+partes A H,H I,I B,tot,quot funt ipfæ D F, F G, G E. Qua
+igitur D E, maior eft quam A B : At ex D E, ablatum eft
+D F, minus quam dimidium , vel certe dimidium , fi D E,
+ipfius C, fit duplex ; ex A B, vero maius quam dimidium
+A H. Erit reliquum E F,reliquo H B,minus. Cum enim
+D E, maius fit quam A B; fic ex D E,dimidium aufertur,
+nec non & ex A B,dimidium,eft quoque reliquũ ex D E,
+maius reliquo ex A B. Si ergo ex D E,auferatur minus quã
+dimidium , vel certe dimidium , & ex A B,maius quam di-
+midium ;

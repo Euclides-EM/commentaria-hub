@@ -1,0 +1,42 @@
+404
+
+DIXIESME
+
+Or à ces definitions nous adiousterons (apres Clauius) vne demande, & quelques
+communes ſentences, dont le ſage ſera trouué en ce liure
+
+D E M A N D E.
+
+Qu’on puiſſe multiplier quelconque grandeur tant de fois
+qu’elle excede quelconque grandeur propoſee de meſme
+genre.
+
+COMMUNES  SENTENCES.
+
+1 Vne grandeur meſurant tant de grandeurs qu’on voudra,
+meſure auſſi la compoſee d’icelles.
+2 Vne grandeur meſurant quelconque grandeur, meſure
+pareillement toute grandeur que celle-là meſure.
+3 Vne grandeur qui meſure toute vne grandeur, & vne re-
+tranchee d’icelle, meſure auſſi le reſte.
+
+THEOR. 1. PROP. I.
+
+Eſtans propoſees deux grandeurs inegales, ſi de la plus gran-
+de l’on retranche plus de la moitié, & du reſte encore plus
+de la moitié, & qu’en continuant cela ſe faſſe touſiours ain-
+ſi: Il demeurera en fin vne grandeur plus petite que la
+moindre des deux propoſees.
+
+Soient propoſees deux grandeurs inegales AB & C, de-
+quelles AB eſt la plus grande: le diſque ſi d’icelle AB on
+retranche plus de la moitié, & du reſte encores plus de la
+moitié, & qu’on continue touſiours ainſi, il reſtera en fin
+quelque grandeur plus petite que C.
+Qu’il ne ſoit ainſi. Soit la grandeur C multiplice tant de
+fois que le produit excede la plus grande AB, & la pro-
+duit d’icelle multiplication ſoit D E, laquelle ſera multi-
+plice de C, & plus grande que AB: qu’elle ſoit donc diui-
+ſee en parties egales à C, comme en DF, F G, G E: Item
+de AB. Soit retranché plus de la moitié, A H, & du reſte H B
+encore plus de la moitié H I, & en continuant touſiours cecy iuſques à ce que
