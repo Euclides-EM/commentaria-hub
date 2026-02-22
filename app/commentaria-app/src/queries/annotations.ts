@@ -50,7 +50,7 @@ export function useAnnotationTeiQuery(
   return useQuery({
     queryKey: annotationTeiQueryKey(datasetId, annotationId, pageOrKey),
     queryFn: () =>
-      AnnotationsService.getDatasetsAnnotationsTei1({
+      AnnotationsService.getDatasetsAnnotationsTei({
         dataSetId: datasetId,
         id: annotationId,
         pageNumOrKey: String(pageOrKey),
