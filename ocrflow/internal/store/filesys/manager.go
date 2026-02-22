@@ -52,6 +52,9 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*annotatio
 			toDelete = append(toDelete, p)
 		}
 		dsID := de.Name()
+		if dsID == "transcriptions" {
+			continue
+		}
 		if !slices.Contains(dsIDs, dsID) {
 			p := filepath.Join(dataDir, dsID)
 			toDelete = append(toDelete, p)
@@ -64,7 +67,8 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*annotatio
 		}
 		for _, dde := range ddes {
 			if filepath.Ext(dde.Name()) == ".pdf" {
-				continue
+				p := filepath.Join(dataDir, dsID, dde.Name())
+				toDelete = append(toDelete, p)
 			}
 			if !dde.IsDir() {
 				toDelete = append(toDelete, dde.Name())

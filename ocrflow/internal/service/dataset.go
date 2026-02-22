@@ -137,6 +137,11 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 	if err := d.githubDownloader.DownloadRecursive(ctx, scanURL, pdfPath); err != nil {
 		return nil, fmt.Errorf("failed to download facsimile: %w", err)
 	}
+	defer func() {
+		if err := os.Remove(pdfPath); err != nil {
+			log.Printf("failed to remove downloaded PDF at %s: %v", pdfPath, err)
+		}
+	}()
 
 	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
 	convertedPNGsDir := imgPath
