@@ -4,7 +4,6 @@
 /* eslint-disable */
 import type { annotation_ExpectedBlocks } from '../models/annotation_ExpectedBlocks';
 import type { model_Dataset } from '../models/model_Dataset';
-import type { model_ImageMetadata } from '../models/model_ImageMetadata';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -118,56 +117,6 @@ export class DatasetsService {
             url: '/datasets/{dataSetId}',
             path: {
                 'dataSetId': dataSetId,
-            },
-        });
-    }
-    /**
-     * Get Dataset Images
-     * Get a list of images associated with a dataset.
-     * @returns model_ImageMetadata OK
-     * @throws ApiError
-     */
-    public static getDatasetsImages({
-        dataSetId,
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-    }): CancelablePromise<Array<model_ImageMetadata>> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/datasets/{dataSetId}/images',
-            path: {
-                'dataSetId': dataSetId,
-            },
-        });
-    }
-    /**
-     * Get Page Image
-     * Get the image for a specific page in a dataset.
-     * @returns binary PNG image content
-     * @throws ApiError
-     */
-    public static getDatasetsImages1({
-        dataSetId,
-        pageNum,
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Page Number
-         */
-        pageNum: string,
-    }): CancelablePromise<Blob> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/datasets/{dataSetId}/images/{pageNum}',
-            path: {
-                'dataSetId': dataSetId,
-                'pageNum': pageNum,
             },
         });
     }

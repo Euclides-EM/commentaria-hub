@@ -65,7 +65,7 @@ func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHead
 	return d.datasetImgStore.UploadImage(dataset, header.Filename, file)
 }
 
-func (d *DatasetImg) ListImages(datasetId string, uniqueOnly bool) ([]*model.ImageMetadata, error) {
+func (d *DatasetImg) ListImagesMetadata(datasetId string, uniqueOnly bool) ([]*model.ImageMetadata, error) {
 	dataset, err := d.datasetSvc.Get(datasetId)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
@@ -74,9 +74,19 @@ func (d *DatasetImg) ListImages(datasetId string, uniqueOnly bool) ([]*model.Ima
 	if err != nil {
 		return nil, fmt.Errorf("failed to list images: %w", err)
 	}
-	if datasetId != "tps" {
-		return images, nil
+	if datasetId == "tps" {
+		images, err = d.normalizeTPSImagesMetadata(images, uniqueOnly)
+		if err != nil {
+			return nil, fmt.Errorf("failed to normalize TPS images metadata: %w", err)
+		}
 	}
+	sort.Slice(images, func(i, j int) bool {
+		return strings.Compare(images[i].Filename, images[j].Filename) < 0
+	})
+	return images, nil
+}
+
+func (d *DatasetImg) normalizeTPSImagesMetadata(images []*model.ImageMetadata, uniqueOnly bool) ([]*model.ImageMetadata, error) {
 	tpsImages := make(map[string][]*model.ImageMetadata)
 	transcribedTPSKeys, err := d.tpsTranscriptions.Keys()
 	if err != nil {
@@ -103,11 +113,35 @@ func (d *DatasetImg) ListImages(datasetId string, uniqueOnly bool) ([]*model.Ima
 			tpsImages[key] = []*model.ImageMetadata{img}
 		}
 	}
-	l := lo.Flatten(lo.Values(tpsImages))
-	sort.Slice(l, func(i, j int) bool {
-		return strings.Compare(l[i].Filename, l[j].Filename) < 0
-	})
-	return l, nil
+	return lo.Flatten(lo.Values(tpsImages)), nil
+}
+
+func (d *DatasetImg) GetImageMetadata(datasetId string, key string) (*model.ImageMetadata, error) {
+	dataset, err := d.datasetSvc.Get(datasetId)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	imgs, err := d.datasetImgStore.GetImageMetadata(dataset, key)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get image metadata: %w", err)
+	}
+	if len(imgs) == 0 {
+		return nil, fmt.Errorf("no image found for key: %s", key)
+	}
+	if datasetId != "tps" {
+		if len(imgs) != 1 {
+			return nil, fmt.Errorf("multiple images found for key: %s", key)
+		}
+		return imgs[0], nil
+	}
+	normalized, err := d.normalizeTPSImagesMetadata(imgs, true)
+	if err != nil {
+		return nil, fmt.Errorf("failed to normalize TPS image metadata: %w", err)
+	}
+	if len(normalized) == 0 {
+		return nil, fmt.Errorf("no valid TPS image found for key: %s", imgs)
+	}
+	return normalized[0], nil
 }
 
 func (d *DatasetImg) DeleteImages(datasetId string, pageNumOrKeys, filenames []string) error {
@@ -115,7 +149,7 @@ func (d *DatasetImg) DeleteImages(datasetId string, pageNumOrKeys, filenames []s
 	if err != nil {
 		return fmt.Errorf("failed to get dataset: %w", err)
 	}
-	images, err := d.ListImages(dataset.ID, false)
+	images, err := d.ListImagesMetadata(dataset.ID, false)
 	if err != nil {
 		return fmt.Errorf("failed to list images: %w", err)
 	}

@@ -12,6 +12,8 @@ type Feature struct {
 	// IsRoot is immutable.
 	IsRoot    bool `json:"is_root"`
 	IsDefault bool `json:"is_default"`
+	// IsList indicates whether this feature can have multiple values (e.g. a list of named entities) or just a single value (e.g. an annotation). It is immutable.
+	IsList bool `json:"is_list"`
 	// Color is an optional UI color hint for this feature, e.g. "#FF0000" for red.
 	Color string `json:"color"`
 	// Type is immutable and determines the type of this feature, e.g. annotation or NER.

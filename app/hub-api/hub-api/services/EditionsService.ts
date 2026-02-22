@@ -5,55 +5,12 @@
 import type { model_DiagramCrops } from '../models/model_DiagramCrops';
 import type { model_Edition } from '../models/model_Edition';
 import type { model_EditionListResult } from '../models/model_EditionListResult';
-import type { model_ImageUpload } from '../models/model_ImageUpload';
 import type { model_Note } from '../models/model_Note';
 import type { search_Query } from '../models/search_Query';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class EditionsService {
-    /**
-     * Upload Edition Image
-     * Upload an image for a specific edition identified by key. The image file is provided as multipart form data.
-     * @returns model_ImageUpload OK
-     * @throws ApiError
-     */
-    public static postDatasetsImagesUpload({
-        dataSetId,
-        key,
-        type,
-        file,
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Edition key
-         */
-        key: string,
-        /**
-         * Type of image (e.g., 'cover', 'facsimile')
-         */
-        type: string,
-        /**
-         * Image file to upload
-         */
-        file: Blob,
-    }): CancelablePromise<model_ImageUpload> {
-        return __request(OpenAPI, {
-            method: 'POST',
-            url: '/datasets/{dataSetId}/images/upload',
-            path: {
-                'dataSetId': dataSetId,
-            },
-            formData: {
-                'key': key,
-                'type': type,
-                'file': file,
-            },
-        });
-    }
     /**
      * Create Edition
      * Create a new edition

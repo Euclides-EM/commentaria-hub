@@ -1,9 +1,12 @@
 import { useMemo } from 'react'
 import { useAppState } from '../../../context/useAppState.ts'
 
+export type TeiViewMode = 'original' | 'translation'
+
 type Props = {
   data: string
   minCert: number
+  viewMode?: TeiViewMode
 }
 const escapeHtml = (text: string) => {
   const div = document.createElement('div')
@@ -81,7 +84,8 @@ function toReadingHtml(
     if (child.nodeType !== Node.ELEMENT_NODE) continue
 
     if (isElement(child, 'lb')) {
-      html += '<br>'
+      // Render line breaks as space so text flows; only <p> creates visual breaks
+      html += ' '
       continue
     }
 
@@ -118,30 +122,96 @@ function toReadingHtml(
   return html
 }
 
+function getBody(doc: Document): Element {
+  const body =
+    doc.getElementsByTagNameNS('*', 'body')[0] ||
+    doc.getElementsByTagNameNS('*', 'text')[0] ||
+    doc.documentElement
+  return body as Element
+}
+
+/** Whether this TEI has a translations div (edition-style original + translation). */
+export function teiHasTranslations(tei: string): boolean {
+  try {
+    const doc = parseXml(tei.trim())
+    const body = getBody(doc)
+    const divs = body.getElementsByTagNameNS('*', 'div')
+    for (let i = 0; i < divs.length; i++) {
+      const div = divs[i]
+      if (div.getAttribute('type') === 'translations') {
+        const abs = div.getElementsByTagNameNS('*', 'ab')
+        for (let j = 0; j < abs.length; j++) {
+          if (abs[j].getAttribute('type') === 'translation') return true
+        }
+      }
+    }
+    return false
+  } catch {
+    return false
+  }
+}
+
+function renderTranslationView(body: Element): string {
+  const divs = body.getElementsByTagNameNS('*', 'div')
+  const parts: string[] = []
+  for (let i = 0; i < divs.length; i++) {
+    const div = divs[i]
+    if (div.getAttribute('type') !== 'translations') continue
+    const abs = div.getElementsByTagNameNS('*', 'ab')
+    for (let j = 0; j < abs.length; j++) {
+      const ab = abs[j]
+      if (ab.getAttribute('type') !== 'translation') continue
+      const segs = ab.getElementsByTagNameNS('*', 'seg')
+      const texts: string[] = []
+      for (let k = 0; k < segs.length; k++) {
+        texts.push((segs[k].textContent || '').trim())
+      }
+      const paragraph = texts.filter(Boolean).join(' ')
+      if (paragraph) parts.push(`<p>${escapeHtml(paragraph)}</p>`)
+    }
+  }
+  return parts.length ? parts.join('') : '<p></p>'
+}
+
 const teiToHtml = (
   tei: string,
   minCert: number,
   searchResultHighlight: string | null,
   maskChar: string = '@',
+  viewMode: TeiViewMode = 'original',
 ) => {
   const doc = parseXml(tei.trim())
-
-  const body =
-    doc.getElementsByTagNameNS('*', 'body')[0] ||
-    doc.getElementsByTagNameNS('*', 'text')[0] ||
-    doc.documentElement
-
+  const body = getBody(doc)
   const opts = { showPB: true, minCert, maskChar }
-  const ps = Array.from(body.getElementsByTagNameNS('*', 'p'))
 
-  const parts = []
+  if (viewMode === 'translation') {
+    const joined = renderTranslationView(body)
+    const highlights = searchResultHighlight
+      ? [...searchResultHighlight.matchAll(/<em>(.*?)<\/em>/g)].map(
+          (match) => match[1],
+        )
+      : []
+    let out = joined
+    for (const highlight of highlights) {
+      out = out.replaceAll(highlight, `<em>${highlight}</em>`)
+    }
+    return out
+  }
 
-  if (ps.length) {
-    for (const p of ps) {
+  // Original: only direct <p> children of body (exclude div type="translations")
+  const directPs: Element[] = []
+  for (let i = 0; i < body.children.length; i++) {
+    const el = body.children[i]
+    if (el.nodeType === Node.ELEMENT_NODE && (el as Element).localName === 'p') {
+      directPs.push(el as Element)
+    }
+  }
+
+  const parts: string[] = []
+  if (directPs.length) {
+    for (const p of directPs) {
       const inner = toReadingHtml(p, opts).trim()
-      if (!inner) {
-        continue
-      }
+      if (!inner) continue
       parts.push(`<p>${inner || '&nbsp;'}</p>`)
     }
   } else {
@@ -161,16 +231,16 @@ const teiToHtml = (
   return joined
 }
 
-export const Tei = ({ minCert, data }: Props) => {
+export const Tei = ({ minCert, data, viewMode = 'original' }: Props) => {
   const { searchResultHighlight } = useAppState()
-  console.error(searchResultHighlight)
   const html = useMemo(
-    () => teiToHtml(data, minCert, searchResultHighlight),
-    [data, minCert, searchResultHighlight],
+    () => teiToHtml(data, minCert, searchResultHighlight, '@', viewMode),
+    [data, minCert, searchResultHighlight, viewMode],
   )
   return (
-    <pre
-      className="font-mono w-fit mt-4 text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5"
+    <div
+      className="mt-4 text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5"
+      style={{ whiteSpace: 'normal' }}
       dangerouslySetInnerHTML={{ __html: html }}
     />
   )

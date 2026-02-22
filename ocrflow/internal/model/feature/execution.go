@@ -9,10 +9,11 @@ type Execution struct {
 	DatasetID    string `json:"dataset_id"`
 	AnnotationID string `json:"annotation_id"`
 	// Keys is optional, if not provided, the execution will run on all keys of the dataset.
-	Keys   []string             `json:"keys,omitempty"`
-	Apply  []ExecutionApplyItem `json:"apply"`
-	Policy *ExecutionPolicy     `json:"policy,omitempty"`
-	Status ExecutionStatus      `json:"status"`
+	Keys         []string             `json:"keys,omitempty"`
+	Apply        []ExecutionApplyItem `json:"apply"`
+	Policy       *ExecutionPolicy     `json:"policy,omitempty"`
+	Status       ExecutionStatus      `json:"status"`
+	StatusReason string               `json:"status_reason"`
 }
 
 type ExecutionStatus string
@@ -43,10 +44,8 @@ func ToExecutionsStatus(s string) ExecutionStatus {
 }
 
 type ExecutionApplyItem struct {
-	DatasetID    string `json:"dataset_id"`
-	AnnotationId string `json:"annotation_id"`
-	Feature      string `json:"feature"`
-	Revision     string `json:"revision"`
+	Feature  string `json:"feature"`
+	Revision string `json:"revision"`
 }
 
 type ExecutionPolicy struct {

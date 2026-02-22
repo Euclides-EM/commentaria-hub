@@ -34,13 +34,13 @@ func ToString(pages []int) string {
 	return strings.Join(parts, ",")
 }
 
-func Parse(pageStr string) ([]int, error) {
+func Range(pageStr string) ([]int, error) {
 	ranges := strings.Split(pageStr, ",")
 	var pages []int
 	for _, r := range ranges {
 		r = strings.TrimSpace(r)
 		if !strings.Contains(r, "-") {
-			page, err := parsePageNumber(r)
+			page, err := PageNumber(r)
 			if err != nil {
 				return nil, err
 			}
@@ -51,11 +51,11 @@ func Parse(pageStr string) ([]int, error) {
 		if len(bounds) != 2 {
 			continue
 		}
-		start, err := parsePageNumber(bounds[0])
+		start, err := PageNumber(bounds[0])
 		if err != nil {
 			return nil, err
 		}
-		end, err := parsePageNumber(bounds[1])
+		end, err := PageNumber(bounds[1])
 		if err != nil {
 			return nil, err
 		}
@@ -69,7 +69,7 @@ func Parse(pageStr string) ([]int, error) {
 	return pages, nil
 }
 
-func parsePageNumber(pageStr string) (int, error) {
+func PageNumber(pageStr string) (int, error) {
 	p, err := strconv.Atoi(pageStr)
 	if err != nil {
 		return -1, fmt.Errorf("invalid page number: %s", pageStr)
@@ -89,6 +89,9 @@ func PageToXMLFilename(p int) string {
 }
 
 func PageToFilename(p int, ext string) string {
+	if ext == "" {
+		return fmt.Sprintf("page-%04d", p)
+	}
 	return fmt.Sprintf("page-%04d.%s", p, ext)
 }
 

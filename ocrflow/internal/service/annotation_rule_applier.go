@@ -69,7 +69,7 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 	}
 
 	// rules that require per-page ALTO processing
-	pages, err := pagesparser.Parse(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
@@ -110,7 +110,7 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 }
 
 func (a *AnnotationRuleApplier) applySlicePagesRule(ann *annotation.Annotation, t *annotationrule.SlicePages) (*annotation.Annotation, error) {
-	originalPages, err := pagesparser.Parse(ann.Pages)
+	originalPages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse original pages: %w", err)
 	}
@@ -128,7 +128,7 @@ func (a *AnnotationRuleApplier) applySlicePagesRule(ann *annotation.Annotation, 
 		t.RandomPages = 0
 	}
 
-	slicedPages, err := pagesparser.Parse(t.Pages)
+	slicedPages, err := pagesparser.Range(t.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse sliced pages: %w", err)
 	}
@@ -200,7 +200,7 @@ func (a *AnnotationRuleApplier) applyTextBlockCorrection(ann *annotation.Annotat
 		correctionByPage[c.Page] = append(correctionByPage[c.Page], c)
 	}
 
-	pages, err := pagesparser.Parse(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
@@ -281,7 +281,7 @@ func (a *AnnotationRuleApplier) applySegment(imgPath string, ann *annotation.Ann
 		return nil, fmt.Errorf("failed to get segmentation model %s: %w", t.Model, err)
 	}
 
-	pages, err := pagesparser.Parse(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}

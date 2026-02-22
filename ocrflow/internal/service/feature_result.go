@@ -1,6 +1,9 @@
 package service
 
 import (
+	"slices"
+	"strings"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
 )
@@ -15,7 +18,14 @@ func NewResult(store *fpstore.FeatureResultSQL) *Result {
 }
 
 func (r *Result) ListResults(datasetID, annotationID string, keys []string, features []string) ([]*feature.Result, error) {
-	return r.store.List(datasetID, annotationID, keys, features)
+	res, err := r.store.List(datasetID, annotationID, keys, features)
+	if err != nil {
+		return nil, err
+	}
+	slices.SortFunc(res, func(a, b *feature.Result) int {
+		return strings.Compare(a.Key, b.Key)
+	})
+	return res, nil
 }
 
 func (r *Result) CreateResult(m *feature.Result) (*feature.Result, error) {
@@ -23,4 +33,8 @@ func (r *Result) CreateResult(m *feature.Result) (*feature.Result, error) {
 		return nil, err
 	}
 	return m, nil
+}
+
+func (r *Result) CreateResults(results []*feature.Result) error {
+	return r.store.CreateBatch(results)
 }

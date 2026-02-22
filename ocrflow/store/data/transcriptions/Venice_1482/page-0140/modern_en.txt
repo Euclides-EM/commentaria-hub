@@ -1,0 +1,49 @@
+BOOK  X.  133
+OF EUCLID OF MEGARA, MOST RENOWNED,
+philosopher and very easy first among Mathematicians, first
+from Campanus, then from Theon the Greek commentator,
+with Bartholomaeus Zamberti the Venetian as interpreter:
+The geometrical elements.        The Tenth Book.
+                         Definitions.
+From Campanus.
+
+Quantities for which there is one quantity
+measuring them in common: are
+called communicant.
+¶But those for which there is not one
+common quantity measuring them, are
+called incommensurable.
+¶Lines communicant in power
+are called: whose square
+surfaces one common surface
+measures
+¶Lines incommensurable in power are called: whose
+square surfaces one common
+surface does not measure. Since these things are so: it is
+manifest that for any line set down: many others are
+incommensurable; some in length
+only; some in length & power.
+¶But every line with which we reason, being set down, is
+called rational.
+¶And the lines communicant with it are called rational.
+¶But those incommunicant with it are called irrational
+or surd.
+¶And every square surface about which by hypothesis
+we reason is called rational.
+¶And the surfaces communicant with it are called rational.
+¶But the surfaces incommensurable with it are called
+irrational or surd.
+¶But the sides which can be in those squares are called
+irrational.
+                         Definitions
+Euclid. from Zamb.
+¶Commensurable magnitudes are called:
+those which the same measure measures.
+¶But incommensurable: which fall under
+the measuring of no common measure.
+¶Straight lines commensurable in power
+are: when the squares from them: the same
+area measures.
+¶But incommensurable: when those which from them are
+squares: no area measures with a common measure. These having been
+set forth, and the proposed straight line is indicated, that is, from which also cubes

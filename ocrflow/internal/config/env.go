@@ -22,6 +22,7 @@ type EnvConfig struct {
 
 	FacsimilesGithubRepoUrl string `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
 	FacsimilesDiagramsPath  string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
+	OpenAIAPIKey            string `env:"OPENAI_API_KEY"`
 }
 
 func InitEnv() (*EnvConfig, error) {

@@ -1,0 +1,1 @@
+ALTER TABLE feature_executions ADD COLUMN status_reason TEXT NOT NULL DEFAULT '';

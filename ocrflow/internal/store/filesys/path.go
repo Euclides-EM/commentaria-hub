@@ -6,6 +6,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
 
 // Dataset storage layout:
@@ -73,4 +74,12 @@ func (m *Manager) TrainingDir(t *model.Training) string {
 
 func (m *Manager) DiagramCropsMetadataFile(editionKey string) string {
 	return path.Join(m.diagramsDir, editionKey+".json")
+}
+
+func (m *Manager) EditionTxtTranscriptionDir(ed *model.Edition) string {
+	return path.Join(m.baseDir, "transcriptions", ed.Key)
+}
+
+func (m *Manager) EditionTxtPageTranscriptionDir(ed *model.Edition, pageNum int) string {
+	return path.Join(m.EditionTxtTranscriptionDir(ed), pagesparser.PageToFilename(pageNum, ""))
 }

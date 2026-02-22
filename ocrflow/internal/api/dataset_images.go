@@ -64,7 +64,7 @@ func (h *Handlers) GetDatasetImages(r *http.Request) (any, error) {
 			return nil, fmt.Errorf("invalid value for uniqueOnly: %w", err)
 		}
 	}
-	return h.deps.DatasetImgSvc.ListImages(datasetId, uniqueOnly)
+	return h.deps.DatasetImgSvc.ListImagesMetadata(datasetId, uniqueOnly)
 }
 
 // DeleteDatasetImages godoc

@@ -22,7 +22,7 @@ func NewFeatureExecutionSQL(db *sql.DB) *FeatureExecutionSQL {
 
 func (s *FeatureExecutionSQL) List(datasetID string, featureIDs []string, statuses []feature.ExecutionStatus) ([]*feature.Execution, error) {
 	query := `
-		SELECT id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status
+		SELECT id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status, status_reason
 		FROM feature_executions
 		WHERE 1=1
 	`
@@ -66,7 +66,7 @@ func (s *FeatureExecutionSQL) List(datasetID string, featureIDs []string, status
 			hasMatchingFeature := false
 			for _, item := range exec.Apply {
 				for _, fid := range featureIDs {
-					if item.Feature == fid && item.DatasetID == datasetID {
+					if item.Feature == fid && exec.DatasetID == datasetID {
 						hasMatchingFeature = true
 						break
 					}
@@ -93,7 +93,7 @@ func (s *FeatureExecutionSQL) GetByID(id string) (*feature.Execution, error) {
 	var keysJSON string
 	var policySkipIf string
 	err := s.db.QueryRow(`
-		SELECT id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status
+		SELECT id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status, status_reason
 		FROM feature_executions
 		WHERE id = ?
 		LIMIT 1
@@ -108,6 +108,7 @@ func (s *FeatureExecutionSQL) GetByID(id string) (*feature.Execution, error) {
 		&keysJSON,
 		&policySkipIf,
 		&exec.Status,
+		&exec.StatusReason,
 	)
 	if err != nil {
 		if err == sql.ErrNoRows {
@@ -184,26 +185,26 @@ func (s *FeatureExecutionSQL) Create(exec *feature.Execution) error {
 	defer func() { _ = tx.Rollback() }()
 
 	_, err = tx.Exec(`
-		INSERT INTO feature_executions (id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`, exec.ID, exec.CreatedAt, exec.UpdatedAt, exec.Name, exec.Description, exec.DatasetID, exec.AnnotationID, keysJSON, policySkipIf, exec.Status)
+		INSERT INTO feature_executions (id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status, status_reason)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	`, exec.ID, exec.CreatedAt, exec.UpdatedAt, exec.Name, exec.Description, exec.DatasetID, exec.AnnotationID, keysJSON, policySkipIf, exec.Status, exec.StatusReason)
 	if err != nil {
 		return err
 	}
 
-	if err := s.insertExecutionApplyTx(tx, exec.ID, exec.DatasetID, exec.AnnotationID, exec.Apply); err != nil {
+	if err := s.insertExecutionApplyTx(tx, exec.ID, exec.Apply); err != nil {
 		return err
 	}
 
 	return tx.Commit()
 }
 
-func (s *FeatureExecutionSQL) UpdateStatus(id string, status feature.ExecutionStatus) error {
+func (s *FeatureExecutionSQL) UpdateStatus(id string, status feature.ExecutionStatus, statusReason string) error {
 	res, err := s.db.Exec(`
 		UPDATE feature_executions
-		SET status = ?, updated_at = ?
+		SET status = ?, status_reason = ?, updated_at = ?
 		WHERE id = ?
-	`, status, time.Now(), id)
+	`, status, statusReason, time.Now(), id)
 	if err != nil {
 		return err
 	}
@@ -229,6 +230,7 @@ func scanFeatureExecution(scanner func(...any) error) (*feature.Execution, error
 		&keysJSON,
 		&policySkipIf,
 		&exec.Status,
+		&exec.StatusReason,
 	)
 	if err != nil {
 		return nil, err
@@ -277,7 +279,7 @@ func parsePolicySkipIf(raw string) ([]feature.ExecutionSkipIf, error) {
 
 func (s *FeatureExecutionSQL) listExecutionApply(executionID string) ([]feature.ExecutionApplyItem, error) {
 	rows, err := s.db.Query(`
-		SELECT dataset_id, annotation_id, feature_id, revision_id
+		SELECT feature_id, revision_id
 		FROM feature_execution_apply
 		WHERE execution_id = ?
 		ORDER BY sort_order ASC
@@ -290,7 +292,7 @@ func (s *FeatureExecutionSQL) listExecutionApply(executionID string) ([]feature.
 	var apply []feature.ExecutionApplyItem
 	for rows.Next() {
 		var item feature.ExecutionApplyItem
-		if err := rows.Scan(&item.DatasetID, &item.AnnotationId, &item.Feature, &item.Revision); err != nil {
+		if err := rows.Scan(&item.Feature, &item.Revision); err != nil {
 			return nil, err
 		}
 		apply = append(apply, item)
@@ -298,12 +300,12 @@ func (s *FeatureExecutionSQL) listExecutionApply(executionID string) ([]feature.
 	return apply, rows.Err()
 }
 
-func (s *FeatureExecutionSQL) insertExecutionApplyTx(tx *sql.Tx, executionID, datasetID, annotationID string, apply []feature.ExecutionApplyItem) error {
+func (s *FeatureExecutionSQL) insertExecutionApplyTx(tx *sql.Tx, executionID string, apply []feature.ExecutionApplyItem) error {
 	for i, item := range apply {
 		_, err := tx.Exec(`
-			INSERT INTO feature_execution_apply (execution_id, dataset_id, annotation_id, feature_id, revision_id, sort_order)
-			VALUES (?, ?, ?, ?, ?, ?)
-		`, executionID, datasetID, annotationID, item.Feature, item.Revision, i)
+			INSERT INTO feature_execution_apply (execution_id, feature_id, revision_id, sort_order)
+			VALUES (?, ?, ?, ?)
+		`, executionID, item.Feature, item.Revision, i)
 		if err != nil {
 			return err
 		}
