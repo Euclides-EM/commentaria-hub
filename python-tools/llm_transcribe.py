@@ -148,8 +148,6 @@ def main():
     if len(image_paths) == 0:
         raise SystemExit(0)
 
-    image_paths = image_paths[:1]
-
     def process_image(image_path: Path):
         raw_path, original_path, translation_path, error_path = output_paths_for_image(image_path)
         if original_path.exists() and translation_path.exists():
