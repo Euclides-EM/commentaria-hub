@@ -82,7 +82,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	)
 	titlePageTEI := service.NewTitlePageTEI(featureResultSvc, tpsTranscriptionsStore)
 	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, titlePageTEI)
-
+	editionTEI := service.NewEditionTEI(fileSystemManager, editionSvc)
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,
 		annotationSvc,
@@ -131,6 +131,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		MetaStoreManager:    metaStoreManager,
 		AnnotationsUploader: annotationUploader,
 		AnnotationTEI:       annotationTEI,
+		EditionTEI:          editionTEI,
 		AnnotationSearch:    annotationSearch,
 		FeatureSvc:          featureSvc,
 		FeatureRevisionSvc:  featureRevisionSvc,

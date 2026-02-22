@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/samber/lo"
 )
 
@@ -34,4 +35,31 @@ func (h *Handlers) GetAnnotationTEI(r *http.Request) ([]byte, error) {
 	})
 
 	return h.deps.AnnotationTEI.GetTEI(datasetID, annotationID, pageNumOrKey, features)
+}
+
+// GetEditionTEI godoc
+// @Summary      Get Edition TEI
+// @Description  Get the TEI representation of a specific edition for a specific page.
+// @Tags         Editions
+// @Param        editionId   path      string  true  "Edition ID"
+// @Param        pageNum   path      string  true  "Page Number"
+// @Produce      application/xml
+// @Success      200  {string}   string "TEI XML content"
+// @Router       /editions/{editionId}/tei/{pageNum} [get]
+func (h *Handlers) GetEditionTEI(r *http.Request) ([]byte, error) {
+	editionID, err := extractEditionId(r)
+	if err != nil {
+		return nil, err
+	}
+
+	pageNum := r.PathValue("pageNum")
+	if pageNum == "" {
+		return nil, fmt.Errorf("missing page number in path")
+	}
+	p, err := pagesparser.PageNumber(pageNum)
+	if err != nil {
+		return nil, fmt.Errorf("invalid page number: %w", err)
+	}
+
+	return h.deps.EditionTEI.GetTEI(editionID, p)
 }

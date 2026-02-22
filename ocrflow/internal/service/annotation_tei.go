@@ -47,7 +47,7 @@ func (t *AnnotationTEI) getTEIFromALTO(ann *annotation.Annotation, pageNumOrKey 
 		return nil, fmt.Errorf("invalid page number %s: %w", pageNumOrKey, err)
 	}
 
-	a, _, err := t.fileSysMgt.RetrieveAltoPage(ann, page)
+	a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
 	if err != nil {
 		return nil, err
 	}

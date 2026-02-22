@@ -186,6 +186,8 @@ func (wb *wrapperBuilder) Build() func(w http.ResponseWriter, r *http.Request) {
 		}
 		serverPort := strings.TrimPrefix(httpAddr, ":")
 		allowedOrigins := []string{
+			"http://localhost:5180",
+			"http://localhost:5181",
 			"http://localhost:5173",
 			"http://localhost:" + serverPort,
 		}

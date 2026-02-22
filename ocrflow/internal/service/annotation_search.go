@@ -28,7 +28,7 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 		return nil, err
 	}
 
-	pages, err := pagesparser.Parse(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, err
 	}
@@ -40,7 +40,7 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 	}
 
 	for _, page := range pages {
-		a, _, err := s.fileSysMgt.RetrieveAltoPage(ann, page)
+		a, _, err := s.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
 		if err != nil {
 			return nil, err
 		}

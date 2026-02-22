@@ -89,7 +89,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 	}
 
 	// verify page images exist for all specified pages
-	pages, err := pagesparser.Parse(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages: %w", err)
 	}
@@ -212,7 +212,7 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	if !ann.Segmented {
 		return nil, nil
 	}
-	pages, err := pagesparser.Parse(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, nil
 	}
@@ -223,7 +223,7 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	categorySet := make(map[string]struct{})
 
 	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAltoPage(ann, page)
+		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
 		if err != nil {
 			return nil, err
 		}
@@ -249,7 +249,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	if !ann.Segmented {
 		return nil, fmt.Errorf("no ALTO directory found for annotation %s", ann.ID)
 	}
-	pages, err := pagesparser.Parse(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
@@ -263,7 +263,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	allLocs := make([]categoryPageContent, 0)
 
 	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAltoPage(ann, page)
+		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
 		if err != nil {
 			return nil, fmt.Errorf("load ALTO: %w", err)
 		}
@@ -392,7 +392,7 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
 
-	pages, err := pagesparser.Parse(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
@@ -402,7 +402,7 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 
 	var diffs []*annotation.SuggestedDiff
 	for _, page := range pages {
-		af, pageAltoPath, err := a.fileSysMgt.RetrieveAltoPage(ann, page)
+		af, pageAltoPath, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
 		if err != nil {
 			return nil, fmt.Errorf("load ALTO: %w", err)
 		}

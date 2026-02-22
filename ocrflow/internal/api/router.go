@@ -23,6 +23,7 @@ type Dependencies struct {
 	MetaStoreManager    *service.MetaStoreManager
 	AnnotationsUploader *service.AnnotationsUploader
 	AnnotationTEI       *service.AnnotationTEI
+	EditionTEI          *service.EditionTEI
 	AnnotationSearch    *service.AnnotationSearch
 	FeatureSvc          *service.Feature
 	FeatureRevisionSvc  *service.Revision
@@ -54,6 +55,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions/{editionId}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
 	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
 	api.HandleFunc("/editions/{editionId}/diagrams", httpwrapper.Get(h.GetEditionDiagramCrops).Build())
+	api.HandleFunc("/editions/{editionId}/tei/{pageNum}", httpwrapper.GetXML(h.GetEditionTEI).Build())
 
 	api.HandleFunc("/facsimilies", httpwrapper.Get(h.ListFacsimiles).Create(h.CreateFacsimile).Build())
 	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Build())
