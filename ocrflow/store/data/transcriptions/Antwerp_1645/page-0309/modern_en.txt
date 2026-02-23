@@ -1,0 +1,117 @@
+278
+
+Commentary on the Tenth Book
+
+II.
+
+A magnitude measuring any magnitude;
+also measures every magnitude which
+that magnitude measures.
+
+III.
+
+A magnitude measuring a whole magnitude,
+and a part taken away; also measures the remainder.
+
+PROPOSITION I.
+
+With two unequal magnitudes proposed,
+if from the greater there be taken away
+more than a half: and from what remains,
+again there be taken away more than a half;
+and this be always done: there will at last
+be left some magnitude; which will be
+less than the proposed lesser magnitude.
+
+Supposition. Let two unequal magnitudes,
+AB, the greater, C, the lesser, be given; and from
+the greater AB, let more than a half be taken away;
+and from the remainder also more than a half;
+and so on: I say that at last there is left
+a magnitude less than the given lesser C.
+
+A  B.   C.
+      C D.
+
+Construction. Let there be conceived to the lesser
+given magnitude C an added part D, equal
+to the given greater magnitude AB.
+
+Demonstration. From the whole CD as from the whole
+AB, let more than a half be taken away from the givens,
+the remainder will be either equal to C, or less,
+or greater than C. If the first; again taking away
+more than a half from the remainder, there will be left
+something less than C, and therefore also from the equal
+AB, the greater, by making a like subtraction, the
+remainder will be something less than C: if the second,
+we have attained our end: If the third, by taking away
+again more than a half from the remainder; and so on;
+so that while the subtraction is made, something is taken
+from the given lesser C; at length there will be left
+something less than C, otherwise the remaining part would be greater,
+the whole given C, contrary to axiom 8. book 1. But it is to be noted
+that this proposition ought to be understood of magnitudes
+properly comparable according to
+definition 5. book 5, and not of others which
+can be improperly compared. From these is gathered
+the solution of Cardan’s paradox concerning the angle
+of contact in proposition 16. book 3, and the acute
+rectilinear angle; which we propose in this place by way
+of our corollary: because it seems plainly to contradict
+this proposition.
+
+OUR COROLLARY.
+
+An acute rectilinear angle can in infinitum
+(syncategorematically) be diminished; and an angle of contact
+can in infinitum also be increased: and yet some decrease
+of the former will be greater than any
+increase of the latter.
+
+For example, an acute rectilinear angle
+EDF can be diminished in infinitum by
+intermediate straight lines from the point D
+inclined between the straight lines ED, FD,
+for diminishing: and the angle of contact CAB increased
+by smaller circles touching the same
+straight line BA at the point A, having their center
+on the same diameter, AG of the greater given circle
+ACG. And yet because by the cited prop. 16.
+book 3 of the Elements, every rectilinear angle
+is greater than any angle of contact,
+e.g. DAB, greater than another given CAB;
+a smaller decrease of that rectilinear angle
+is greater than a greater increase of the angle
+of contact. Thus the paradox was proposed by
+Cardan. Now we shall set it forth as it is thought
+to contradict this proposition. The angular magnitude
+EDF, an acute rectilinear, is greater
+than the magnitude of the angle of contact CAB, by
+the cited prop. 16. book 3, and by prop. 9. book 1 we can
+divide the given angle EDF into halves,
+and draw another straight line between
+that intermediate and the half of this angle
+from the point D of the given angle, which will take away
+something greater than the half of the given angle: and so on
+to infinity; and yet from the cited prop. 16. book
+3, the remaining angle, when it becomes acute and rectilinear,
+will always be greater than the given magnitude
+of the angle of contact: therefore this first proposition
+of this book will be false, since after
+that continuous subtraction, there will not be left from
+the greater given magnitude, namely the given acute
+rectilinear angle EDF, a lesser angular magnitude,
+less than the given magnitude of the angle of
+contact CAB.
+
+Solution of the paradox. Since these two
+magnitudes, of an acute rectilinear angle and
+of a given angle of contact, cannot properly
+be compared to one another, according to def. 5. book 5, because as
+we have shown, however much it be increased and
+increased to infinity, that is, however much that
+angle of contact be multiplied, it cannot surpass a rectilinear
+angle
+
+Digitized by Google

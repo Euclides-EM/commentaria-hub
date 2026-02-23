@@ -1,0 +1,51 @@
+190  Nouveaux Elemens
+
+deux angles peuvent eftre compris dans le même efpace
+parallele. Car mettant ces deux bafes fur une même ligne,
+la ligne qui paffera par les deux fommets fera parallele à
+celle qui comprendra les deux bafes.
+
+                    Huitieme Lemme.
+IX.  DANS le même efpace parallele , ou dans les efpaces
+paralleles égaux, toutes les également inclinées font éga-
+les, & toutes les égales font également inclinées. VIII.54.
+     Et au contraire les efpaces paralleles font égaux quand
+les également inclinées y font égales. Car de là il eft cer-
+tain que les perpendiculaires le font auffy. VIII. 56.
+
+                    Neuvieme Lemme.
+X.   LORS qu’une même ligne eft coupée par plufieurs li-
+gnes toutes paralleles , toutes les portions de cette ligne
+coupée font également inclinées entre les paralleles qui
+les renferment. VIII. 57.
+
+                    Dixieme Lemme.
+XI.  LORS qu’il y a proportion entre quatre lignes, on dit
+que deux de ces lignes font proportionelles aux deux au-
+tres lignes quand les deux antecedens de la proportion fe
+trouvent dans les deux premieres, & les deux confequens
+dans les deux dernieres. D’où il s’enfuit auffy qu’ Alter-
+nando , on peut prendre auffy les deux premieres pour les
+deux termes d’une raifon, & les deux dernieres pour les
+deux termes de l’autre.
+
+        PROPOSITION FONDAMENTALE
+          DES LIGNES PROPORTIONELLES.
+XII. LORS que deux lignes font également inclinées en deux
+differens efpaces paralleles, elles font entr’elles commê
+les perpendiculaires de ces efpaces, & leurs éloignemens
+du perpendicule font auffy en même raifon.
+     Soient deux efpaces A & E.
+     Soient appellées dans l’efpace A.
+     La perpendiculaire,            P.
+     L’oblique,                    C.
+     L’éloignemet du perpendicule B.
+     Et foient de même appellées dans E
+
+A  P  C
+P.   B
+
+E  P  c
+P.   b
+
+Digitized by Google

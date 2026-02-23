@@ -1,0 +1,46 @@
+MEASURING-ART. Book 10. 313
+
+Just as the proposed straight line; which is set forth as certain and known,
+is called rational. So also the square arising from the same, or described
+upon the same, is called rational: since it also is certain and known, and
+other planes, being compared with the same, are said to be measurable or
+immeasurable.
+
+The ninth Definition.
+And [ all planes ] which are measurable with this [ proposed square ] are
+Rationals.
+
+All planes, which are measurable with the square of the proposed rational
+line, which is rational, are called rational, not from the setting forth of that
+square, but because, being compared with the same, they are found to be
+measurable.
+
+The tenth Definition.
+And [ all planes ] which are immeasurable with this [ proposed square ] are
+also Irrationals.
+
+Likewise all planes, which are immeasurable with the square of the proposed
+rational line, which also is rational, are called Irrationals, not from the
+setting forth, but because, being compared with the rational square, they are
+found to be immeasurable.
+
+The eleventh Definition.
+And the straight lines, which have power of the same [ irrational planes ] are
+Irrationals: for if the same [ planes ] are squares, so are the straight lines
+their sides: but if they are some other straight-lined [ figures ], which
+rightly describe squares, which are equal to [ def ] immeasurable rhombi.
+
+Here the straight lines are called irrational, which have power of the planes
+that are immeasurable with a square of a certain rational line; just as those
+same planes are said to be irrationals. It is customary among the old
+geometers, that it is said a straight line has power of a space or plane,
+when the square of that straight line is equal to the said rhombus or plane:
+from which also it clearly appears, when the said irrational planes are
+squares, that the irrational straight lines are their sides: but if those planes
+are other straight-lined rhombi, those immeasurable rhombi are to be equal
+to the squares of these irrational straight lines.
+With reason it cannot here be passed over that the old geometers
+
+R r
+
+defe

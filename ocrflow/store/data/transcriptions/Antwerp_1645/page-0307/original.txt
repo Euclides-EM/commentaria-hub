@@ -1,0 +1,117 @@
+276
+
+Commentarius in Librum Decimum
+
+I V.
+Incommenfurabiles autem funt quadratis earum
+nullum fpatium , quod fit communis earum
+menfura , contingit reperiri.
+
+CVm de rectis lineis loquatur in præce-
+dente definitione,in hac etiam loquitu:
+nam particula autem refertur ad rectas fuper-
+ioris definitionis potentiâ commenfurabi-
+les; differentia verò eft,quod in hac definitio-
+ne agit de lineis rectis longitudine incom-
+menfurabilibus. Itaque fi multarum linea-
+rum quadrata fint incommenfurabilia,hoc eft
+nullum fpatium fit quod fit earum com-
+munis menfura; ipfæ rectæ fint incommenfu-
+rabiles longitudine.
+Ad perfectam notitiam harum quatuor de-
+finitionum, & fequentium notandum eft pri-
+mò. Menfuram in communi effe debere eui-
+dem rationis cum menfurato vel menfuran-
+do, juxta definitionem 5. lib.5. ut enim com-
+parabilia menfura & menfuratum feu menfu-
+randum. Quapropter menfura linearum de-
+bet effe linea, non autem fuperficies, vel cor-
+pus. & menfura fuperficierum debet effe fu-
+perficies, non autem linea, vel corpus. & 
+menfura corporum debet effe corpus,non au-
+tem linea, vel fuperficies; quia quantumlibet
+multiplicetur linea, nunquam excedet fuper-
+ficiem, vel corpus. Secundò notandum eft
+menfuram quantitatum debere effe commo-
+datam menfurandis,& vniuerfalorem,quare
+ad quadrata metienda, affumitur quadratum,
+quod cum fimile fit menfurandis quadratis,
+affumitur pro illorum menfura commu: li-
+cet quodlibet aliud fpatium planum illi æ-
+quale adhiberi poffit, fed non ita accommoda-
+te. ex quo fequitur vt fpatium quod com-
+munis menfura effe debet, intelligendum fit
+conuenientius, quadratum. Notandum ter-
+tiò. Quafdam effe rectas lineas quæ funt lon-
+gitudine inter fe commenfurabiles; alias ve-
+rò longitudine incommenfurabiles: alias ve-
+ro potentiâ folum commenfurabiles. Con-
+ftabitque ex corollario propof.9. libri huius,
+rectas longitudine commenfurabiles, effe et-
+iam & potentiâ commenfurabiles: rectas ve-
+ro potentiâ commenfurabiles, non femper ef-
+fe longitudine commenfurabiles, nam aliæ
+funt etiam longitudine commenfurabiles,aliæ
+incommenfurabiles longitudine. Prætereà
+oftendet in eodem corollario rectas longitu-
+dine incommenfurabiles, non femper effe po-
+tentiâ incommenfurabiles; aliæ enim funt lon-
+gitudine incommenfurabiles, & non poten-
+tiâ; aliæ verò longitudine & potentiâ fimul;
+alias autem effe potentiâ incommenfurabiles,
+eafque femper effe etiam longitudine incom-
+menfurabiles. Notandum vltimo rectam li-
+neam quæ eft actu rectus quadrati,vel fpatia
+quam poteft fieri quadratum per propof. 46.
+lib.1. vel eius quadratum eft æquale rectan-
+gulo alicui, vel alterius figuræ planæ, vocari ab
+Geometris ad exemplar Euclidis in hoc li-
+bro multis propofitionibus, rectam lineam
+potentem, intelligendo quadratum aliquod,
+vel quadrato æquale figuræ datæ: vnde fit vt
+recta lineæ potentiâ fit,quadratum ex ea fac-
+tum, feu quadratum fuper illam defcriptum.
+
+V.
+His pofitis, oftenditur cuiufnam rectæ propofitæ rectas
+lineas multitudine fimiles, & commenfurabiles
+effe, & incommenfurabiles, alias quidem longitu-
+dine & potentiâ, alias potentiâ folum. Vocetur
+autem propofita recta linea Rationalis.
+
+DEfinit hoc loco rectam lineam,quæ vo-
+catur Rationalis;ita vt fit pofitis defini-
+tionibus præcedentibus, recta quæpiam pro-
+pofita linea , quam expofitam vocant Geo-
+metræ inter demonstrandum. Refpectu cuius
+aliæ multæ lineæ rectæ funt commenfurabi-
+les, & incommenfurabiles aliæ, ita vt ex his
+refpectu illius Rationalis quædam fint longi-
+tudine & potentiâ, quædam verò potentiâ
+folùm, commenfurabiles; quædam autem ex
+his fint etiam refpectu huius Rationalis lon-
+gitudine tantùm incommenfurabiles, quæ-
+dam verò longitudine & potentiâ incommen-
+furabiles. Aduerte nos femper nomen Ratio-
+nalis hanc lineam indicans, maiufcula R præ-
+pofita infcribere, ad æquiuocationem eui-
+tandam alterius nominis rationalis feu ratio-
+ni conformis.
+
+V I.
+Et hæc commenfurabilis fiue longitudine & poten-
+tia, fiue potentia tantum; Rationales.
+
+HOc eft Rectæ omnes lineæ , Rationali
+alicui rectæ expofitæ feu propofitæ
+commenfurabiles fiue longitudine & poten-
+tia, fiue potentia tantum ; Rationales funt
+vocandæ.
+
+V I I.
+Hic verò incommenfurabiles, Irrationales
+vocentur.
+
+HÆc definitio ita intelligi debet, vt
+quemadmodùm in antecedente fexta
+definiuit

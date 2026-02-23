@@ -1,0 +1,37 @@
+28
+
+According to this definition the square numbers are similar
+planes, since their sides are proportional, and since each
+of them always has equal [sides], there is between those of the one and
+those of the other a proportion of equality. Thus the sides of 9. are
+3. & 3. which are in the same proportion as 8. & 8. sides of 64.
+18. One number measures another number, by that of the multi-
+plication of which it produces the measured number.
+
+We have said upon the 7th definition, that a number mea-
+sures a number, when it is contained in it so many times.
+Now this so many times will be expressed by the units of an
+other number; and this number is that by which the number
+measuring measures the number measured. Whence it follows that the
+measuring [number] multiplying that by which it measures, must produ-
+ce the measured number. In this way, because 3. is contained
+9. times in 45. it measures 45. by 9. and therefore 3. being mul-
+tiplied by 9. produces 45.
+19 The terms of a proportion, are the least numbers of
+this proportion.
+
+Because 4.3. are the least of their proportions, they are
+called the terms of this proportion, like those below
+which one cannot pass.
+20 When three numbers are proportional, the 1st is to the 3rd in
+a proportion doubled from the proportion of the 1st to the 2nd. And if there are
+four proportional terms, the proportion of the 1st to the 4th is
+called a proportion tripled from the 1st to the 2nd. If there are five, it is
+quadrupled; and so of the others.
+
+This definition is explained for magnitudes in the
+10th definition of the 5th book, in such a way that we will give only
+examples of it. The proportional numbers 3. 9. 27.
+being therefore proposed, the proportion of 3. to 27. is doubled from
+the proportion of 3. to 9. And if one adds yet two others
+in the same continued proportion, namely 81. 243. the propor-

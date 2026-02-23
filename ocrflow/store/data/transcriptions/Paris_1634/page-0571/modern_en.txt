@@ -1,0 +1,40 @@
+EUCLID’S
+
+ELEMENTS
+
+BOOK  TENTH.
+
+THE  TENTH  BOOK
+
+OF THE ELEMENTS  OF EUCLID.
+
+DEFINITION.  I.
+
+Commensurable
+magnitudes are
+called, which the same
+measure measures.
+
+Commensurable great-
+nesses are those
+which are measured by
+one and the same common measure.
+
+DEFINITION.  II.
+
+But incommensurable
+are those, of which
+it happens that no common
+measure can be found.
+
+But incommensurable
+greatnesses are those
+which have no
+common measure.
+
+DEFINITION.  III.
+
+Straight lines in power
+are commensurable,
+Straight lines are
+commensurable in power,

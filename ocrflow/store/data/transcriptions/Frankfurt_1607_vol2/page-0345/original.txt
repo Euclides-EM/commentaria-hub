@@ -1,0 +1,49 @@
+LIBER X.                                                                 201
+
+abſt,ut exiſtimo, tractationem illam radicum requiri, ut facilius
+hic liber intelligatur, Non negaverim tamen, eum, qui rationem radi-
+cum atque calculum tenverit, maiore cum voluptate hunc librum
+percepturum, quam qui illarum omnino ſit ignarus; propterea quod
+ille demonſtrationes ad uſum poteſt revocare, hic vero nullo modo.
+Hac enim de cauſa, & nos priora decem liberos ita ſecundò lib. me-
+moriæ accommodavimus, ut oblectationem animi maiorem ex iis ſen-
+ſu caperet, ac fructum; non autem ut ea, quæ in illo demonſtran-
+tur, facilius arbitraremur intelligi poſſe ex numeris. Cur ergo (dicet
+aliquis) ut in eo libro, non ponendo etiam in hoc exempla numerorum,
+quibus Algebra utitur, uſurpâſſi, ut ea res & maiori voluptate eſſet,
+& commodo, legentibus? In promptu cauſa eſt, quare id omittendum pu-
+taverimus. Cum enim perpauci ſint hoc tempore, quibus celeberrima il-
+la Algebra ars ſit cognita, videbantur numeri illi, ſi adhiberentur, te-
+nebras potius effuſuri, quam lucis aliquid maioris daturi, & perſpicui-
+tatis; quippe ita ingenia ſtudioſorum pro adiumento, ea luce, quam his
+noſtris commentariis afferre laboramus, plus caperent incommodi, ni-
+miam demonſtrationis ipſius percipiendæ. Id quod in lib. 2. accidere non
+potuit, cùm additionem numerorum integrorum, ac multiplicationem,
+quæ ſola neceſſaria ibi fuerunt, nemo fere ſit, qui ignoret. Huc accedit,
+quod quæ in Algebra ſunt uſu ſaſi, facilè negotio demonſtrationes huius
+lib. ad numeros accommodare poſſunt per ſeipſos, quando volunt; præſer-
+tim cùm iam hoc ipſum non multo ante à Michaele Stifelo nobili Arith-
+metico in 2. lib. operis, quod de Arithmetica integra integra inſcripſit,
+diligenter oſtenſum ſit, & accurate.
+
+ITAQVE, ut ad inſtitutum redeamus, incohemus ipſam Eucli-
+dis, more ſuo, ab explicationibus vocabulorum, quibus utendum eſt;
+declarat primo loco, quantam magnitudines dicantur commenſurabiles,
+definiens eas eſſe, quas eadem menſura metitur.  A
+Vt duæ magnitudines A, B, quas eadem menſu-                 B
+ra C, metitur, (metitur enim C, ipſam A, qua-                 C
+tor repetita, & ter ſumpta ipſam B,) dicantur commenſurabiles. Eo-
+dem modo commenſurabiles ſunt, ſipeca 20. palmorum & lineæ 13. pal-
+morum: quia ea linea tam quinos palmi, quam dimidiati palmi,
+quam tertiæ partis unius palmi, &c. metitur. Similiter commenſura-
+biles dicuntur ſuperficies, quas una, & eadem ſuperficies metitur;
+Item corpora, ſolida commenſurabilia, quæ metitur idem corpus ſeu
+ſolidum.
+
+II.
+
+INCOMMENSVRABILES autem, quarum nullam
+communem menſuram contingit reperiri,
+TALES magnitudines ſunt; diameter quadrati cuiuſſibet, & la-
+tus eiusdem quoniam nullam habent menſuram communem, ut pro-
+poſitio-

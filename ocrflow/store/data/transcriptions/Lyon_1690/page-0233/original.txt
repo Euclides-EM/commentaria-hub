@@ -1,0 +1,117 @@
+190    Elementorum Euclidis
+
+autem metitur numerum K , cum ductus in E fe-
+cerit K : quare hi omnes numeri sunt partes ali-
+quotæ numeri K.
+  Restat probandum numerum K nullas habere
+alias partes aliquotas. Ponatur enim alia quota
+L , hanc ostendo unam esse ex centenis. Metiatur
+enim numerum K per M : ergo L in M producit
+K ; sed etiam E in D producit K , ergo ita est E
+ad M ut L ad D. Et quia A unitati proximè
+nempe 1 est numerus primus , & L est diversus
+ab omnibus A B C D , numerus L non metie-
+tur numerum D ( per 13. 9. ) ergo neque E me-
+tietur ipsum M. Et cum E sit numerus primus, E & M in-
+ter se primi erunt ( per 31. 7. ) & in sua ratione
+minimi ( per 2. 7. & per 21. 7. ) E metitur L ,
+& M metitur D. Et cum A primus sit, erit M ali-
+quis ipsorum A. B. C. D. ( per 13. 9. ) sit idem
+cum B. & quot sunt B, C, D tot sumantur ab E
+dupli F, G, H. erique ex quo ut B ad D ita E ad
+H, fit ergo idem ex B in H, qui ex D in E, nempe
+
+K. Et quia idem L metitur K per M ; & in L fa-
+ciet K. idem ergo K fit ex L in M, & ex B in H;
+& cum M ostensus sit idem cum B, erit etiam L
+idem cum H. Nullus igitur H habet partes aliquo-
+tas quam prius positas.
+  Ex hac propositione veniemus omnes nume-
+ros perfectos: Summa enim ex 1 & 2 est numerus
+primus ; quæ ducta in 2 efficit 6 numerum perfe-
+ctum. Summa 1.2.4 efficit 7. quæ ducta in 4 effi-
+cit 28 numerum perfectum. Summa 1.2.4.8 effi-
+cit 15 numerum compositum. Summa 1.2.4.8.16
+efficit 31. Ex quo ostendimus produci numerum
+perfectum. Facile autem habebur summa, si abii-
+ciatur unitas ex aliquo, sit summa antecedentium.
+Pauci autem sunt hujusmodi reperti nempe tantù
+undecim 6.28.496.8128. 33550336. 8589869056.
+137438691328. 238823843008. 2096128. & nulli
+intermedii.
+  Sed ista sunt valde inutilia, atque adco suffi-
+ciant.
+
+EUCLIDIS
+ELEMENTORVM
+LIBER  DECIMVS.
+
+Definitiones.
+
+1  Commensurabiles magnitudines,quas eadem
+   communis mensura metitur.
+2  Incommensurabiles,quas nulla communis men-
+   sura metitur.
+3  Rectæ lineæ potentiâ sunt commensurabiles
+   cùm eorum quadrata eadem communis mensura
+   metitur.
+4  Rectæ lineæ potentiâ sunt incommensurabiles
+   cùm eorum quadrata nulla communis mensura
+   metitur.
+5  Linea cum qua comparantur reliquæ,& in ordi-
+   ne ad quam dicuntur commensurabiles aut incom-
+   mensurabiles sive longitudine, sive potentiâ,dica-
+   tur rationalis.
+6  Lineæ quæ sunt rationali commensurabiles, sive
+   longitudine sive potentiâ tantùm, dicantur ratio-
+   nales.
+7  Quæ verò sunt rationali incommensurabiles,tam
+   longitudine, quàm potentiâ,dicantur irrationales.
+8  Quadratum lineæ rationalis dicatur rationale.
+9  Omnes superficies quadrato rationali commen-
+   surabiles,dicuntur rationales.
+10 Et huic incommensurabiles superficies,aut qua-
+   drata,irrationalia dicantur.
+11 Lineæ verò quæ incommensurabilium quadra-
+   torum sunt latera, dicantur irrationales.
+
+AXIOMA I.
+
+Magnitudo quotcumque magnitudines me-
+tiens, metitur & ex iis compositum.
+
+AXIOMA II.
+
+Magnitudo quotcumque magnitudines me-
+tiens, metitur & omnem quam illa metitur.
+
+AXIOMA III.
+
+Magnitudo metiens totam, & ablatam metitur,
+& reliquam.
+
+PROPOSITIO I.
+
+Si ex magnitudine auferatur plusquam dimidium,
+& ex reliquo plusquam dimidium, aut dimi-
+dium, & ita deinceps,relinquetur quantitas mi-
+nor quacunque proposita.
+
+A.  B
+
+Sit quantitas A ex qua auferas dimi-
+dium, aut plusquam dimidium, & ex re-
+licto plusquam dimidium, & ita deinceps, dico
+id ita fieri posse, ut relinquatur quantitas minor
+quam B. Multiplicetur quantitas B,donec sic mul-
+tiplicata excedat magnitudinem A : Ponamus B :
+ter sumptam, excedere magnitudinem A ; dico fi-
+eri tunc substractiones dimidij ex quantitate A
+relinqui quantitatem minorem quam B.
+  Demonſtr. Si enim ex tripla ipsius B auferas B,
+auferes minus quam dimidium, ex A minor au-
+fertur dimidium : aut plusquam dimidium: ergo id
+quod relinquitur ex A , minus est quam id quod
+relinquitur ex tripla B, nempe quam dupla B. Ite-
+rum ex dupla B auferatur B, & ex reliquo A au-
+feratur

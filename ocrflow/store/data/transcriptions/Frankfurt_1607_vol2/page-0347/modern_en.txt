@@ -1,0 +1,46 @@
+B O O K  X.                                                                 201
+
+That lines commensurable in length are also commensurable in power,
+so that no lines can be given commensurable in length whose squares
+are not also commensurable; since the common measure of the squares, &c.,
+measures the described [figure] as a common measure measures their squares,
+as appears in the figure set below: for if, as the straight line A B
+measures the straight lines C D, E F, so also the square
+A G measures the squares C H, E I:
+But not [so], that all lines commensurable in power are also commensurable in length;
+for many lines are commensurable in power, that is, have commensurable squares,
+which nevertheless are altogether incommensurable in length, as will be demonstrated
+in this book. Again, among lines incommensurable both in length and in power,
+a connection of this kind is found, that all lines incommensurable in power
+are also incommensurable in length; but not conversely, that all lines
+incommensurable in length are also incommensurable in power,
+since many lines are found merely incommensurable with one another in length,
+yet are commensurable in power, that is, according to their squares.
+Which certain things will all be set down afterwards from the corollary of prop. 9
+of this book.
+
+                                    V.
+
+These things being set down, it is shown that, to any proposed straight line,
+there are infinitely many straight lines both commensurable and incommensurable:
+some indeed in length and in power; others however in power only.
+Let the proposed straight line be called Rational.
+
+If some straight line be proposed, known in magnitude, there will be, of all other
+[lines] which are compared with it, some commensurable with it in length and power,
+and some in power only. Likewise some incommensurable with it in length only,
+and some in length and power, as will be demonstrated in various places in this tenth book.
+For Euclid does not wish it to be shown or gathered from what has been said
+(although his words may seem to sound thus) that these things are so;
+but he only indicates to us, and in some way hints, that some lines can be said
+to be commensurable with the proposed straight line in length and power,
+and others in power only, &c. Which indeed in no way follows from what has been said,
+but will be demonstrated in what follows, as we have said.
+
+And that proposed line, by the ratio of which others are commensurable
+or incommensurable, is called by the Greeks ῥητὴ; but by the Latins Rational;
+since it is always set down as certain and known, but the others, compared with it,
+are not always known, although each of them always exists certain and known;
+since any one can be divided into any equal parts whatsoever.
+
+A N D

@@ -1,0 +1,35 @@
+190
+
+LIB. X.
+
+Definitiones.
+
+I  Ommenſurabiles magnitudines
+dicuntur, quas eadem menſura
+metitur.
+
+Commenſurabilitatis nota eſt ⊣, ut
+⊣. B; hoc eſt linea A B pedum.
+commenſurabilis eſt lineæ B 13 pedum
+quia D linea unius pedis ſingulas A, &
+B metitur. Item √18 ⊣ √50; quia
+√2 ſingulas √18, & √50 metitur.
+Nam √18/2 = √9 = 3. & √50/2
+= √25 = 5. quare √18. √50
+:: 3. 5.
+
+II. Incommenſurabiles autem
+ſunt, quorum nullam communem menſuram
+contingit reperiri.
+
+Incommenſurabilitas ſignificatur notâ ⊣, ut √6
+⊣. √25 (;) hoc eſt √6 incommenſurabilis eſt nu-
+mero 5; vel magnitudini hoc numero deſignatæ;
+quia horum nulla eſt communis menſura, ut poſtea pa-
+tebit.
+
+III. Rectæ lineæ potentiâ commenſurabiles
+ſunt, cùm quadrata earum idem ſpatium me-
+titur.
+
+Hujusſe

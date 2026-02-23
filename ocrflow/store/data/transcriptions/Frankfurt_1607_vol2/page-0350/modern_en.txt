@@ -1,0 +1,44 @@
+206                     EUCLID. GEOM.
+
+[uncertain: dine] and in power, or in power only: likewise incommensurable only
+in length and in power, or in length only: but I rightly [call] Rational
+in length and in power, or in power only, or Irrational
+in length and in power, or in length only. Which indeed, since
+Campanus did not notice, gave occasion to many, to speak
+wrongly and obscurely in this 10th book about commensurable lines,
+and incommensurable, and also about Rational and Irrational.
+  ( ÆLFRÆM to these definitions we shall add one postulate, and
+pronouncements, whose use is found in this book.
+
+POSTULATE, OR PETITION.
+LET IT BE POSTULATED, that any magnitude can so many times
+be multiplied, until it exceed any magnitude of the
+same kind.
+  FOR, two magnitudes of the same kind being proposed unequal,
+since the greater is not infinite, but the lesser can be increased infinitely,
+it is clear that the lesser can so many times be multiplied, until it surpass the
+greater. This is also evident from those things which in definition 5 of book 5 we wrote.
+For there we said that two magnitudes are then at last of the same kind, when
+the one can thus be multiplied so that it exceed the other. And from the lack of this
+condition, we taught that a rectilinear angle and an angle of contingency
+are of different kinds.
+
+AXIOMS OR PRONOUNCE-
+ments.
+I.
+A MAGNITUDE measuring however many magnitudes,
+also measures the composite from them.
+II.
+A MAGNITUDE measuring any magnitude,
+also measures every magnitude which that [magnitude]
+measures.
+III.
+A MAGNITUDE measuring the whole magnitude, and the
+removed [part], also measures the remainder.
+  THESE axioms, insofar as they pertain to numbers, have been shown by us in
+the last three pronouncements of book 7. Therefore since the same reasoning holds in
+magnitudes, there is no need to repeat their demonstrations here,
+especially since they can be transferred hither word for word, only the
+word “number” being changed into the word “magnitude”.
+
+THE REST.

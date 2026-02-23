@@ -1,0 +1,47 @@
+BOOK X.                                                                 207
+
+BUT because in this book it was necessary for us to depart from the numbering
+which Theon follows in Euclid’s propositions, as we shall say at prop. 13,
+which likewise in all things we have neglected the order of Campanus, as
+we have shown at the beginning of the first book: we have taken care that a double number
+be placed in the margin opposite the propositions, of which the upper shows
+Theon’s order, but the lower shows Campanus’s sequence. But if only one
+number were set down in the margin, you would understand no discrepancy between Theon
+and Campanus, as far as the numbering of the propositions is concerned.
+
+THEOREM 1.      PROPOSITION 1.                                     1.
+
+WITH two unequal magnitudes proposed,
+if from the greater there be taken away more than the half; and from
+that which remains, again there be taken away more than
+the half; and this be always done: there will at last be left
+some magnitude, which will be less than the proposed lesser
+magnitude.
+
+LET there be proposed two unequal magnitudes AB, and
+C, of which AB is the greater. I say that if from AB there be taken away more than
+the half; and from that which remains, again more than the
+half; and this be always done: there will be left some magnitude
+which is less than C. For let C be multiplied, so many times,
+until the magnitude made DE is greater than AB, so that DE is
+a multiple of C, the nearest greater than AB. And DE being divided
+into parts DF, FG, GE, equal to C itself,
+let there be taken away from AB more than the half
+AH, and from the remainder HB more than the half
+HI, and let this always be done, until
+the parts of AB in number are equal to the parts of DE.
+Let therefore now the parts AH, HI, IB be as many as are DF, FG,
+GE. Since therefore DE is greater than AB, and from DE there has been taken away
+DF, less than the half, or at least the half, if DE is
+double; but from AB more than the half AH: the remainder FE
+will be greater than the remainder HB. (For since DE is greater than AB; if from
+DE the half were taken away, and also from AB the half, there would
+also be a remainder from DE greater than the remainder from AB. If therefore from DE there be taken away
+less than the half, or at least the half, and from AB more than
+the half; the remainder from DE will be greater than the remainder from AB.) Again
+since FE is greater than HB, and from FE there will be taken away the half
+FG, or at least less than the half, if FE is greater than
+double of C; but from HB more than the half HI: in the same
+way the remainder GE will be greater than the remainder IB: and thus proceeding
+we shall show at last the last part of DE, such as here is
+GE, ma-

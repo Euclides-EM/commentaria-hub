@@ -1,0 +1,34 @@
+TENTH  BOOK,  131
+
+5. This being so, it appears, that for
+each given straight line one can
+find infinitely many straight com-
+mens[urable], and infinitely many incom-
+mens[urable] lines: both in length and power,
+and in power alone. But a given
+straight line is called rational.
+
+Example, to √2, one can find in-
+finitely many straight commensurable [lines], as
+√8, √18 √32 &c, or 2,4 √6.
+√12 &c. the first in length and power,
+and the other in power alone and infin-
+itely many straight incommensurable [lines], as
+√: √6 √√12 &c. and each
+line by itself, as 2, √5.
+√√12 is called rational.
+
+6. The commensurable lines to a
+rational line, whether in length and
+power or in power alone, are
+called rational.
+
+Let there be a rational line 6, and to the same
+8, 12 commensurable in length and
+power: or √12, √18 in power a-
+lone, are called rational.
+
+7. And the incommensurable lines
+to a rational [line], are irrational.
+
+F. 6.  Let there be

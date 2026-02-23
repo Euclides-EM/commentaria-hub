@@ -1,0 +1,62 @@
+L I B R O  D E C I M O.                                                                 421
+
+non importa, che non fiano mifurate ugualmente , ma bafta , che ciafcuna fia
+mifurata dalla medefima quantità in modo, che non fopravanzi cofa alcuna ; 
+e quella quantità , che mifura le grandezze commenfurabili , fi chiama
+comune mifura . E nota, che in quefta prima definitione Euclide parla delle
+quantità in genere, fenza riftringerfi à particolare alcuno ; che volendola
+applicare à qualche particolare, come per efempio alle rette linee , fi può dire,
+che le rette linee fono commenfurabili in lunghezza , quando fono mifurate
+da una medefima retta linea ; ed i piani fono ancora commenfurabili , quan-
+do un medefimo fpatio gli mifura ; e con modo fimile , quefta prima definitione
+ne fi può applicare à tutti i particolari . Spiega poi nella feconda definitione ,
+quali fono le quantità incommenfurabili , e , tenendo la medefima generalità
+in quefta , che nella prima, chiama grandezze incommenfurabili quelle , delle
+quali non fi troua niuna mifura commune ; e quefta ancora , come è detto
+della prima definitione , fi può applicare à tutti i particolari , chiamando le
+rette linee incommenfurabili in lunghezza , quando nifuna retta linea le mi-
+fura ; ed i piani ancora fi dicono incommenfurabili , quando non fi troua fpa-
+tio alcuno , che gli mifura ; e con modo fimile fi può fare l’applicatione à tutti
+gli altri generi di quantità .
+
+Premeffa la cognitione delle quantità commenfurabili , ed incommenfura-
+bili , così in genere , paffa Euclide al particolare , e con la terza definitione ci
+Spiega, che cofa doueremo intendere , quando fi dira , rette linee commenfura-
+bili in potenza ; e dice , che all’hora le rette linee fi diranno commenfurabili in
+potenza, quando i loro quadrati faranno mifurati da un medefimo fpazio;come
+per efempio : Siano efpofte le rette li-
+nee AB , CD , i di cui quadrati , o vo-
+gliamo dire potenze , fiano AE, CF, le
+quali fi concepifcano di ali grandezze ,
+che diuifa AE ne gli fpatiy uguali , no-
+tati X, e diuifa CF ne gli fpatiy ugua-
+li , notati Y , ciafcuno de gli fpatiy Y fia
+uguale à ciafcuno de gli fpatiy X ; s’in-
+tenda poi un altro piano come Z, ugua-
+le ad uno de gli fpatiy X, ouero Y ; in tal cafo lo fpazio Z mifurerà giuftamen-
+te il quadrato AE, fenza che refti cofa alcuna ; ed il medefimo piano Z mifu-
+rerà giuftamente il quadrato CF, fenza che refti cofa alcuna : dal che il pia-
+no Z farà commune mifura delle due potenze AE , CF, e per la prima defini-
+tione, le due potenze AE, CF, faranno commenfurabili ; fecondo tal hipote-
+fi le rette linee AB , CD , che fono lati di quelle potenze commenfurabili , fi dicono
+rette linee commenfurabili in potenza , di modo che , ò che le rette linee fiano , ò
+che non fiano commenfurabili in lunghezza, quando i loro quadrati habbiano una
+commune mifura , quelle rette linee fi dicono commenfurabili in potenza . E
+notifs, che fe i quadrati , o potenze AE, CF fono commenfurabili, ed i loro la-
+ti AB , CD fono ancora commenfurabili in lunghezza , le medefime rette AB ,
+CD fi chiameranno commenfurabili in lunghezza , e fi chiameranno ancora
+commenfurabili in potenza; ma fe i quadrati AE, CF fono commenfurabili, ed
+i loro lati AB,CD non fono commenfurabili in lunghezza,all’hora le rette AB,
+CD fi dicono folamente commenfurabili in potenza .
+
+A  B  C  D
+E
+F
+X  X  X
+X  X  X
+X  X  X
+Y  Y
+Y  Y
+Z
+
+Le

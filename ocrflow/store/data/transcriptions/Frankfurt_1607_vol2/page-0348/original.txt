@@ -1,0 +1,47 @@
+204        EVCLID. GEOM.
+              VI.
+• Et huiccommenſurabiles ſue longitudine & poten-
+tia, ſue potentia tantum, Rationales.
+
+D O C E T lineas alias illi, quæ Rationalis dicitur, commenſurabiles
+quomodocunque appellari quoque Rationales, non quidem ex poſitione, ut
+illa, ſed quia cum illa comparatæ reperiuntur ei commenſurabiles vel
+longitudine & potentia, vel potentia tantum.
+I T A Q V E ex ſeſtentia Euclidis, radix quadrata huius numeri 20. vel
+1000. &c. Seu quod idem eſt, linea recta, cuius quadratum eſt 20. vel
+1000. &c. dicitur Rationalis; cum potentia ſit commenſurabilis lineæ
+Rationali; (eſt enim tam numerus 20. quam 1000. commenſurabilis
+numero cuiſibet quadrato, ut 16. 100. &c.) quamuis longitudine ſit
+eidem incommenſurabilis. Dicipuntur ergo Arithmetici non pauci,
+qui dicere eam Irrationalem vocant, quod numero non poſſit exprimi.
+
+              VII.
+H V I C vero incommenſurabiles , Irrationales vo-
+centur.
+
+Q V O N I A M antecedenti defn. Euclides lineas illas, quæ longitu-
+dine & potentia, vel quæ potentia tantum ſunt commenſurabiles pro-
+poſitæ rectæ Rationali, appellauit Rationales; liquido conſtat, eas hic eas
+dicere Irrationales , quæ propoſitæ rectæ Rationali incommenſurabiles
+ſunt vtroque modo, longitudine videlicet & potentia , non autem lon-
+gitudine tantum. Ex quibus etiam manifeſtum eſt, radicem quadra-
+tam huius numeri 20. vel 1000. &c. ſeu (quod idem eſt) lineam, cuius
+quadratum eſt 20. vel 1000. &c. non poſſe appellari Irrationalem,
+cum non ſit longitudine & potentia, ſed longitudine tantum Rationali
+lineæ propoſitæ incommenſurabilis.
+
+              VIII.
+E T quadratum , quod à propoſita recta fit , dicatur
+Rationale.
+
+Q V E M A D M O D V M linea illa, quæ certa ponitur ac nota, Ratio-
+nalis dicitur : Ita quoque quadratum ab ea deſcriptum, Rationale vocatur,
+quia & ipſum certum eſt, ac notum, comparationeſq; illim aliæ ſuperf-
+cies, commenſurabiles, incommenſurabileſue dicantur.
+
+              IX.
+E T huiccommenſurabilia quidem Rationalia.
+O M N E S plana ſuperficies quadrato Rationali lineæ propoſitæ
+commenſurabiles, Rationales dicuntur; non quidem ex poſitione, ut
+illud, ſed quia cum eo collatæ reperiuntur et vel commenſurabiles,
+vel

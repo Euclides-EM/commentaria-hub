@@ -1,0 +1,36 @@
+24
+
+6. Nombre pair est celuy qui se peut diuiser en deus parties
+egales.
+    Tels font 6. & 10. qui ont pour moitiez 3. & 5.
+7. Nombre impair, est celuy qui ne peut estre diuisé en deus
+parties egales; ou qui difere d’auec vn nombre pair, de l’v-
+nité.
+    Par cete raison 9. est nombre impair, ne pouuant estre
+diuisé en deus parties egales. Et sa diference d’auec 8. &
+10. qui sont les plus proches pairs, est 1. c’est à dire, que pour
+d’vn pair former vn impair, il ne faut qu’y adiouter ou en
+tirer l’vnité.
+8. Nombre premier, est celuy qui n’a point d’autre mesure que
+l’vnité.
+    Si vn nombre n’est mesuré de pas vn autre nombre, mais
+de l’vnité seulement, il est apelé nombre premier, comé sont
+2. 5. 13. qui ne sont mesurez que de l’vnité.
+9. Les nombres sont premiers entre eus, qui n’ont autre mesu-
+re comune que l’vnité.
+    Tels sont les nombres 4. & 7. parce qu’il n’y a aucun
+nombre qui les mesure tous deus.
+    On voit que le terme de (premier) peut estre absolu &
+relatif: car vn nombre est premier sans estre comparé à
+quelque autre, selon le sens de la precedente definition, &
+peut estre premier à vn autre nombre, selon celle-cy.
+10. Nombre composé est celuy qui est mesuré do quelque autre
+nombre.
+    Come le nombre 12. lequel est composé, parce qu’il est me-
+suré du nombre 4.
+11. Des nombres sont compolez entre eus, quand ils ont vn au-
+tre nombre pour mesure comune.
+    Les nombres 18. & 6. sont compolez entre eus, parce que
+le nombre 3. les mesure tous deus.
+    Ces deus dernieres definitions ont mesme raport l’vne à
+l’autre,

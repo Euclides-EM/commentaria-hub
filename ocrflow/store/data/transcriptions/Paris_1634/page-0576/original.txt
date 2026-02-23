@@ -1,0 +1,56 @@
+ELEM. EVCLID. LI. X.                                                                 491
+
+rer ſe commenſurabilium;
+aut enim duarum linearum
+rationalium longitudine in-
+ter ſe commenſurabilium,
+altera æqualis eſt expoſitæ
+rationali; aut neutra ratio-
+nali expoſitæ æqualis eſt,
+longitudine tamen ei vtra-
+que eſt commenſurabilis:
+aut denique vtraque expo-
+ſitæ rationali commenſura-
+bilis eſt ſolùm potentia.
+
+| longitude entr’elles ; car de
+deux lignes rationelles com-
+menſurables en longitude en-
+tr’elles, l’vne eſt egale à la ra-
+tionelle expoſee, ou l’vne ny
+l’autre ne luy eſt egale ; & tou-
+tesfois toutes deux commenſu-
+rables en longitude à icelle ra-
+tionelle expoſee: ou finalement
+l’vne & l’autre eſt commenſu-
+rable à l’expoſee rationelle en
+puiſſance ſeulement.
+
+hyp. | cadb, eſt ſemic.
+ſuppoſ. | cb, ration. expoſ. eſt 2,
+1. c.15.4 | bp, γ. 6<, eſt 2,
+2. c.15.4 | ap, γ. Δ aquilat. eſt γ.12,
+6. 4 | bd, γ. □, eſt γ.8,
+11. 4 | fd, γ.5< eſt γ..10~γ..20,
+7.2.1 | ce 2|2 eb eſt 1,
+7.2.1 | ak 2|2 kp eſt γ.3,
+| bp & ab ſnt ration.. 1. gen.
+| ce & ab ſnt ration.. 2. gen.
+| ak & ap ſnt ration.. 3. gen.
+| fd, eſt irration.
+
+a.
+A  D  B
+F  C  E
+G  H  K  O
+M  L  N  P
+
+β
+γ
+δ
+ε
+
+Explicatio notarum. | Explication des notes.
+a | CB, eſt rationalis ex-
+poſita. | a | CB, eſt la rationelle ex-
+poſee.

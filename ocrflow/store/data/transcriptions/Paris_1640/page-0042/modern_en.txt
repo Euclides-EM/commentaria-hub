@@ -1,0 +1,43 @@
+26
+
+Thus the number 8, produced by the multiplication of 4 by
+2, is a plane number, and the numbers which produce it are
+its sides. This designation of plane comes from the resem-
+blance that there is between this product, set out in length and in breadth,
+according to the units of its sides, and a geometrical parallelogram,
+the number 4 representing the length, and 2 the breadth, in the same way as in
+the parallelogram
+BD, the line BC is the length,
+and CD the breadth.
+
+B      C
+       D
+
+14. Square number, is a number produced by the multiplication
+of a number by itself. Or else it is a plane number
+whose sides are equal. And the number which produces it by its
+multiplication is called its side or its square root. It is
+also defined, equally equal number.
+
+When the sides of the plane number are equal, the plane number
+is called a square number, because the units being dis-
+posed in length and in breadth seem to represent a superficial square,
+because of the equality of its sides, as is seen in
+the number 25, whose sides are 5 and 5, or rather its side or
+its square root is 5, in
+the same way as in the square
+surface B D, the line
+BC, or CD, is its side.
+
+B
+C      D
+
+It is manifest that
+according to this definition, which
+is received by all the
+world, there are square numbers, and others which are not,
+whatever Steuin may say, who imagined that all
+numbers were just as square as one another.
+But reserving the refutation of this opinion for a place
+more convenient, which will be the 2nd part of this introduction, I
+will content myself for this hour to remark that a num-

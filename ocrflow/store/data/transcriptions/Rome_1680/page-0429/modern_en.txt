@@ -1,0 +1,44 @@
+422  
+EUCLID RESTORED
+
+IV.
+
+Straight lines are said to be incommensurable in power,
+when no space is found that measures their squares.
+
+When straight lines are commensurable in length, they are also com-
+mensurable in power, as will be demonstrated in its place; and when straight li-
+nes are not commensurable in length, it can be that they are commensura-
+ble in power; and it can be that they are not; that is, it can be that some space
+measures their squares, and it can be that no space is ever found that mea-
+sures them: if some space measures their squares, those straight lines are said to be com-
+mensurable in power, as was said in the preceding definition: but if in
+no way is a space found that measures the said squares, those straight lines are
+said to be incommensurable in power: and in this case they will be incom-
+mensurable in power, and they will also be incommensurable in length, in
+such a way that, just as, when two straight lines are commensurable in leng-
+th, they are also commensurable in power, so, when they are incommensu-
+rable in power, they are also incommensurable in length; all of which will
+be demonstrated in its place.
+
+V.
+
+The terminated straight line; with respect to which all the in-
+finite other terminated straight lines are either commensurable,
+or incommensurable, of which some are com-
+mensurable in length, and in power, others are only
+commensurable in power, and others are incom-
+mensurable in length, and in power, is called Ra-
+tional. .
+
+So that the explanation of this definition may turn out clearer, we
+place it after the following two definitions.
+
+VI.
+
+All the other straight lines, which are to this com-
+mensurable in length, and power, or com-
+mensurable only in power, are called Ratio-
+nal.
+
+All

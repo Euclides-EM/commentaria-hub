@@ -1,0 +1,45 @@
+31
+
+[These] are all the propositions of numerical proportions demonstrated
+in the 7th book, such as 13, 14, 19, and others, which for this rea-
+son we shall not demonstrate further, as it is very easy
+to apply numbers to magnitudes, or to say it better, to re-
+present numbers by magnitudes. For example, if one
+wants to demonstrate the permutation of proportional numbers; sup-
+posing 16. 5. which demonstrates the permutation of proportional
+magnitudes, it will be enough to proceed in this way.
+
+If four numbers are proportional; by permuting
+they will also be proportional.
+
+Let the numbers B, C, D, F be proportional, that is to say,
+that there is the same proportion of B to
+C as of D to F. I say that by per-
+muting, there is the same proportion of
+B to D as of C to F. Let the line
+G, taken of whatever magnitude one
+wishes, be divided into as many equal parts
+as there are units in B, and let
+the three other lines H, I, L be
+taken each with as many equal parts
+as those of G as there are units
+in the three numbers C, D, F, so that
+each magnitude represents each number. And the four
+magnitudes G, H, I, L will be in the same proportion as the four
+numbers B, C, D, F. For each of them is composed of as many
+equal parts as the ones to the others, as the numbers are
+composed of units, by the construction; and therefore G will con-
+tain H as many times as B contains C; or else G will
+be the same part, or the same parts of H, as B of C;
+or else G will contain H as many times, and besides the same
+part or the same parts of H, as B will contain C, and besides
+the part or the parts of C, since there cannot be
+other proportions than those between numbers by 15.
+The same will be proved of H, I, and of I, L, by the same method,
+
+B12.  C9.  D4.  F3.
+
+G
+H
+I
+L

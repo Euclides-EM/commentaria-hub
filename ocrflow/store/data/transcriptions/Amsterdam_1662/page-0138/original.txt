@@ -1,0 +1,30 @@
+128,  TIENDE  BOVCR.
+
+1        1        1        1
+2        2        2        2
+--       4        4        4
+3        --       8        8
+2        7        16       16.
+--       4        ---      32
+6        ---      31       64
+         28:      16       ---
+                  ---      127
+                  186      64
+                  31       -----
+                  ---      508
+                  496      762
+                           -----
+                           8128
+
+TIENDE  BOVCK.
+
+1. Definitie.
+Sainen meetbare groothe-
+den[commensurabiles magnitu-
+dines] zijn welke door eene
+maet. connen gemeten wer-
+den.
+
+Welcke zijn , die door een andere der
+gelycke maet , ofgrootheyt connen ghe-
+deelt,

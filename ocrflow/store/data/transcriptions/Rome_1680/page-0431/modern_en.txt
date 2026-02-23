@@ -1,0 +1,71 @@
+434                         EUCLID RESTORED
+
+which is the common measure of the two AB, & C, those
+by the first definition, are commensurable in
+length, and therefore the straight lines AB, & C, are divided into
+parts equal to the straight line D, and we shall have known the parts of
+the straight line AB, with respect to the measure D; likewise also
+the parts of the straight line C, with respect to the same straight
+line D; and for that which has been said, the straight lines AB, & C, of
+which the parts are known, with respect to the common measure
+D, are similarly called Rational; and these
+are those which constitute the first kind of rational
+straight lines.
+
+Again, let AB, CD be straight lines, between which no
+common measure falls; these will be incommensurable in
+length, and let their squares be AE,
+CF; and supposing that the space Z is the common measure of the
+squares AE, CF, the straight lines AB, CD, by the third definition, will be
+commensurable in power. Let the squares AE, CF be understood to be divided into the
+spaces X, and Y, each one equal to the
+space Z, and we shall have known the parts
+of the powers AE, CF, with respect to the
+measure Z; and for that which has been said, the
+straight lines AB, CD are also rational; and
+these constitute the second kind
+of rational straight lines. Those straight lines then,
+which have no common measure, neither in
+length, nor in power, constitute
+the other kind, and are called Irrational.
+
+Finally, because any straight line can be divided into as many equal parts
+as one wishes, therefore every straight line can be established as a known
+magnitude, that is, as a measure, or rule, to which all the
+infinite other straight lines can be compared. For example, let any straight line AB be set down,
+which being able at our discretion to be divided into
+as many equal parts as we wish, we can
+also establish it as a known magnitude, and
+express those parts into which we shall have
+divided it, or others, into which it can
+always be divided: and, comparing to this all the infinite other straight lines, many
+of them will be commensurable with this in length, and for that which has been
+said, will also be commensurable in power: others will be only
+commensurable in power; and others will be incommensurable in length,
+and also in power: this straight line AB, or another, which can be put in its
+place, established as a quantity known to us, to which all the others
+will be compared, is that which Euclid in the fifth definition of this calls
+Rational; to which, the others being compared, those which to this will be
+commensurable in length and power, these will be only commensurable
+in power, he calls in the 6th definition Rational. The others, which to this will be
+incommensurable in length and power, in the 7th definition he calls Irrational.
+
+For
+
+B
+A   D   C
+
+E
+X X X
+X X X
+X X X
+A     B
+
+F
+Y Y
+Y Y
+C   D
+
+Z
+
+A                         B

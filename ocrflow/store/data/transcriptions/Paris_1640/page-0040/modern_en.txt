@@ -1,0 +1,36 @@
+24
+
+6. An even number is that which can be divided into two equal
+parts.
+    Such are 6 and 10, which have for halves 3 and 5.
+7. An odd number is that which cannot be divided into two
+equal parts; or which differs from an even number by u-
+nity.
+    For this reason 9 is an odd number, not being able to be
+divided into two equal parts. And its difference from 8 and
+10, which are the nearest even numbers, is 1; that is to say, that to
+form an odd from an even, it is only necessary to add to it or
+take from it unity.
+8. A prime number is that which has no other measure than
+unity.
+    If a number is measured by no other number, but
+by unity only, it is called a prime number, as are
+2, 5, 13, which are measured only by unity.
+9. Numbers are prime to each other, which have no other common
+measure than unity.
+    Such are the numbers 4 and 7, because there is no
+number which measures them both.
+    One sees that the term (prime) can be absolute and
+relative: for a number is prime without being compared to
+some other, according to the sense of the preceding definition, and
+can be prime to another number, according to this one.
+10. A composite number is that which is measured by some other
+number.
+    As the number 12, which is composite, because it is mea-
+sured by the number 4.
+11. Numbers are composite with respect to each other, when they have some o-
+ther number for a common measure.
+    The numbers 18 and 6 are composite with respect to each other, because
+the number 3 measures them both.
+    These last two definitions have the same relation the one to
+the other,

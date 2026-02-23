@@ -1,0 +1,49 @@
+402                      EUCLID. GEOM.
+the last poſitions of this book will be demonſtrated by Euclid. There are alſo very
+many other incommeſurable lines, to which indeed no certain meaſure can in any
+way be given, many of which the Geometer explains in this book, and teaches that
+certain reaſons can be found. Again, two ſurfaces are incommeſurable, and incom-
+meſurable ſolids, which no meaſure can meaſure nor [have] a common meaſure.
+
+III.
+
+STRAIGHT lines are commenſurable in power, when
+their ſquares meaſure the ſame area.
+
+OF straight lines, ſome are commenſurable in length, namely which
+another line, as a common meaſure, meaſures; of which kind are those
+which in the expoſition of defin. I we called commenſurable ſimply:
+but ſome are incommeſurable in length, namely which no line, as a
+common meaſure, meaſures. Again, of lines which are incommeſurable
+in length, ſome are of ſuch a kind that their ſquares are commenſurable,
+but others are ſo that even their ſquares are incommeſurable. Therefore
+those lines incommeſurable in length, whoſe ſquares are commenſurable,
+are here called by Euclid commenſurable in power; becauſe indeed
+according to their powers, that is, according to their ſquares (for if, as
+we ſaid at prop. 47. book I, the power of any line is the ſquare deſcribed
+on it) they are commenſurable, although they themſelves according to
+length are altogether incommeſurable.
+
+BUT if anyone aſk, why Euclid has defined lines commenſurable in
+power, but not commenſurable in length, it muſt be anſwered, that
+lines commenſurable in length have been explained ſufficiently and
+more than enough in the definition of commenſurable magnitudes,
+ſince one common meaſure meaſures lines of this kind, as was ſaid:
+But becauſe lines commenſurable in power cannot be meaſured by any
+common meaſure, but only their ſquares meaſure the ſame area, there-
+fore it was altogether neceſſary that they be explained by a proper
+definition.
+
+IV.
+
+INCOMMENSURABLE however, when with their
+ſquares no area, which may be their common meaſure,
+happens to be found.
+
+THE remaining lines incommeſurable in length, whoſe
+ſquares alſo are incommeſurable, he calls incommeſurable in
+power.
+
+BUT lines commenſurable both in length and in power have this
+whatever meaſure among themſelves, and commenſuration,
+as if—

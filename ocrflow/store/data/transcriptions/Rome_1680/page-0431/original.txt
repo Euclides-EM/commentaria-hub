@@ -1,0 +1,71 @@
+434                         EVCLIDE RESTITVTO
+
+quale è commune miſura delle due AB, & C, quelle
+per la prima definitione, ſono commenſurabili in lun-
+ghezza, e però ſi diuidano le rette AB, & C, nelle par-
+ti vgguali alla retta D, ed haueremo cognite le parti del-
+la retta AB, riſpetto alla miſura D ; eſſa parimente anco-
+ra le parti della retta C, riſpetto alla medeſima ret-
+ta D ; e per quel, che ſi è detto, le rette AB, & C, del-
+le quali ſono cognite le parti , riſpetto alla commuue mi-
+ſura D , ſi dicono ſimilmente Rationali ; e queſte ſo-
+no quelle , che coſtituiſcono il primo genere delle rette
+Rationali.
+
+Di nuovo, ſiano le rette AB, CD, frà le quali non
+cada alcuna miſura commune , quelle ſaranno incom-
+menſurabili in lunghezza, ed i loro quadrati ſiano AE,
+CF ; e ſuppoſto, che lo ſpatio Z ſia commune miſura de i
+quadrati AE, CF , ſaranno le rette AB, CD, per la terza definitione , com-
+menſurabili in potenza . S’intendano diuifi i quadrati AE, CF , ne gli ſpa-
+ty X, ed Y , ogn’vno vgguale allo ſpa-
+tio Z , ed haueremo cognite le parti
+delle potenze AE,CF, riſpetto alla mi-
+ſura Z ; e per quel, che ſi è detto, le
+rette AB, CD ſono ancora rationali ; e
+queſte coſtituiſcono il ſecondo genere
+delle rette Rationali. Quelle rette poi,
+che non hanno commune miſura , ne in
+lunghezza , ne in potenza, coſtituiſco-
+no l’altro genere , e ſi dicono Irrationali.
+
+Finalmente , perche qualunque retta linea ſi può diuidere in quante parti
+vguali ſi vuole , perciò ogni retta linea ſi può ſtabilire come grandezza cogni-
+ta , ciò come miſura , ò norma , alla quale ſi poſſono comparare tutte le inſi-
+nite altre rette linee . Per eſſempio , ſia ſpoſta qualunque retta linea AB , la
+quale potendoſi à noſtro arbitrio diuidere in
+quante parti vguali vogliamo , la poſſiamo
+ancora ſtabilire come grandezza cognita, ed
+eſprimerne quelle parti , nelle quali ſ’hauere-
+mo diuifa, ò altre , nelle quali ſi può ſem-
+pre diuidere : e , comparando à queſta tutte le inſinite altre rette linee , molte
+di quelle ſaranno à queſta commenſurabili in lunghezza , e per quel , che ſi è
+detto , ſaranno ancora commenſurabili in potenza : altre ſaranno ſolamente
+commenſurabili in potenza ; ed altre ſaranno incommenſurabili in lunghezza,
+ed ancora in potenza : queſta retta linea AB , ò altra , che ſi può porre in ſuo
+luogo , ſtabilita come quantità à noi cognita , alla quale ſaranno comparate
+tutte le altre , è quella, che Euclide nella definitione quinta di queſto, chiama
+Rationale ; alla quale comparate le altre , quelle , che à queſta ſaranno com-
+menſurabili in lunghezza , e potenza, queſte ſaranno ſolamente commenſurabili
+in potenza, le chiama nella 6. defen. Rationali. Le altre, che à queſta ſaranno in-
+commenſurabili in lunghezza , e potenza, nella 7. defen. le chiama Irrationali.
+
+Per
+
+B
+A   D   C
+
+E
+X X X
+X X X
+X X X
+A     B
+
+F
+Y Y
+Y Y
+C   D
+
+Z
+
+A                         B

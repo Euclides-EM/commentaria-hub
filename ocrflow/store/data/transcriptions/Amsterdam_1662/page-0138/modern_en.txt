@@ -1,0 +1,31 @@
+128,  TENTH  BOOK.
+
+1        1        1        1
+2        2        2        2
+--       4        4        4
+3        --       8        8
+2        7        16       16.
+--       4        ---      32
+6        ---      31       64
+         28:      16       ---
+                  ---      127
+                  186      64
+                  31       -----
+                  ---      508
+                  496      762
+                           -----
+                           8128
+
+TENTH  BOOK.
+
+1. Definition.
+Are measurable magnitu-
+des[commensurable magnitu-
+dines] those which by a
+measure. can be measured
+.
+
+Which are, those which by another of
+the like measure, or magnitude can be
+divi-
+ded,

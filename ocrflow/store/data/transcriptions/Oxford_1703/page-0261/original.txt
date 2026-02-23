@@ -1,0 +1,95 @@
+210        EUCLIDIS  ELEMENTORUM
+
+tera, ſi vero alia quæpiam rectilinea, ipſæ
+à quibus æqualia quadrata deſcribuntur.
+
+PROP. I. THEOR.                         ΠΡΟΤΑΣΙΣ Α΄.
+
+Duabus magnitudinibus inæqualibus ex-
+poſitis, ſi à majori auferatur majus
+quam dimidium, & ab eo quod reli-
+quum eſt rurſus auferatur majus quam
+dimidium, & hoc ſemper fiat; in-
+linquetur tandem quædam magni-
+tudo, quæ minori magnitudine ex-
+poſita minor erit.
+
+SInt duæ magnitudines inæquales A B, Γ, qua-
+rum major A B : dico ſi ab ipſa A B au-
+feratur majus quam dimidium, & ab eo quod
+reliquum eſt rurſus auferatur majus quam di-
+midium, atque hoc ſemper fiat ; relinquetur tan-
+dem magnitudinem quandam quæ magnitudine
+Γ minor erit.
+
+Etenim Γ multiplicata fiet Δ E:
+quando major magnitudine A B. mul-
+tiplicetur, & ſit Δ E ipſius quidem
+Γ multiplex, major autem quam A B,
+dividaturque Δ E in partes ipſi Γ
+æquales A Z, Z H, H B, & ab ipſa A B
+auferatur majus quam dimidium B Θ,
+ab ipſa vero Θ A rurſus majus quam
+dimidium auferatur, & K, atque hoc
+ſemper fiat, quod diviſiones quæ
+ſunt in A B multitudine æquales
+fiant diviſionibus quæ in Δ E: ſint
+igitur diviſiones A K, K Θ, Θ B diviſio-
+nibus A Z, Z H, H E multitudine æquales.
+
+Et quoniam major eſt Δ E quam
+A B, & ablatum eſt ab ipſa quidem
+Δ E minus quam dimidium, ſc. E H, ab
+ipſa vero A B majus quam dimidium, ſc. B Θ; erit
+reliquum H A reliquo Θ A majus, rurſus quo-
+niam major eſt H Δ quam Θ A, & ablatum eſt
+ab ipſa quidem H Δ dimidium H Z, ab ipſa
+vero Θ A majus quam dimidium Θ K; erit reliquum
+Δ Z reliquo A K majus erit. eſtque Δ Z æqua-
+lis ipſi Γ: ergo quàm A K eſt major. mi-
+nor igitur eſt A K quam Γ: ergo ex magnitu-
+dine A B relicta eſt magnitudo A K expoſita
+minori magnitudine Γ. minor, quod erat de-
+monſtrandum.
+
+Similiter autem demonſtrabitur, etiam ſi di-
+midia ablata fuerint.
+
+ALITER.
+
+Exponantur duæ magnitudines inæquales A B,
+Γ, ſitque Γ minor; & quoniam minor eſt Γ,
+multiplicata erit aliquando magnitudine A B
+major. fiat ut Z M, dividaturque in partes
+ipſi Γ æquales M Θ, Θ H, H Z; & ab ipſa A B
+auferatur majus quam dimidium B E, & ab
+E A majus quam dimidium E Δ; atque hoc ſem-
+per fiat, quod diviſiones quæ ſunt in A B
+numero æquales ſiant diviſionibus quæ in Z M.
+ſint igitur ut B E, E Δ, Δ A, & ipſi Δ Δ inæ[illegible]
+
+A
+B
+
+Γ
+
+Δ
+Z
+H
+E
+Θ
+K
+
+A
+B
+
+Γ
+
+Δ
+Z
+H
+E
+Θ
+K
+
+Digitized by Google

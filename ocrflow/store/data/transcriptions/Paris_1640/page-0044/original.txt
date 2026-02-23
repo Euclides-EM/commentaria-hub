@@ -1,0 +1,37 @@
+28
+
+Selon cette definition les nombres quarez font plans femblā-
+bles, puiſque leurs cotez ſont proportionaus, & que chacun
+d’eus les ayant touiours egaux, il y a entre ceus de l’un & 
+ceus de l’autre proportion d’egalité. Ainſi les cotez de 9. ſont
+3. & 3. qui ſont en meſme proportion que 8. & 8. cotez de 64.
+18. Vn nombre meſure vn autre nombre, par celuy de la multi-
+plication duquel il produit le nombre meſuré.
+
+Nous auons dit ſur la 7e. definition, qu’vn nombre me-
+ſure vn nombre, lors qu’il y eſt contenu tant ou tant de fois.
+Or ce tant ou tant de fois ſera exprimé par les vnitez d’vn
+autre nombre; & ce nombre eſt celuy par lequel le nombre
+meſurant meſure le nombre meſuré. D’où il s’enſuit que le
+meſurant multipliant celuy par lequel il meſure, doit produi-
+re le nombre meſuré. De cette ſorte, parce que 3. eſt contenu
+9. fois en 45. il meſure 45. par 9. & partant 3. eſtant mul-
+tiplié par 9. produit 45.
+19 Les termes d’vne proportion, ſont les moindres nombres de
+cete proportion.
+
+Parce que 4.3. ſont les moindres de leur proportions, ils ſont
+apelez les termes de cete proportion, come ceus au deſſous deſ-
+quels on ne peut paſſer.
+20 Quand trois nombres ſont proportionaus, le 1er eſt au 3e en
+proportion doublee de la proportion du 1er au 2e. Et s’il y a
+quatre termes proportionaus, la proportion du 1er au 4e s’a-
+pele proportion triplée du 1er au 2e. S’il y en a cinq, elle eſt
+quadruplée; & ainſi des autres.
+
+Cete definition eſt expliquée pour les grandeurs en la
+10. definition du 5. liu. de façon que nous en dōnerons ſeu-
+lement des exemples. Les nombres proportionaus 3. 9. 27.
+eſtans donc propoſez, la proportion de 3. à 27. eſt doublee de
+la proportion de 3. à 9. Et ſi on en adioute encore deus autres
+en la meſme proportion continuë, ſauoir 81. 243. la propor-

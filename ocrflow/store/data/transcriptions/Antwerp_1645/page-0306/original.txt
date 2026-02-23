@@ -1,0 +1,76 @@
+275
+
+COMMENTARIVS
+IN
+LIBRVM  DECIMVM
+ELEMENTORVM
+GEOMETRICORVM
+EVCLIDIS.
+DEFINITIONES.
+
+I.
+
+Commensurabiles magnitudines dicuntur, quas
+eadem mensura metitur.
+
+I quaflibet magnitu-
+dines, vna commu-
+nis mensura metiatur
+equaliter vel inequa-
+liter adaequate vel
+inadaequate; dimen-
+fae illae magnitudines
+erunt inter se com-
+mensurabiles. Vt fi
+linea vnius palmi, centies lineam A aliquo
+mensuret, & decies aliam B, & quater cum fe-
+miffe aliam C; tres lineae A,B,C, erunt com-
+mensurabiles; quia eas communis vna men-
+fura linearis vnius palmi metiatur. Idem di-
+cendum erit de multis superficiebus fi eas fu-
+perficies aliqua vt communis figura metia-
+tur. Simili ratione erunt commenfurabilia
+corpora fi illa corpus aliquod communi
+mensura metiatur.
+
+II.
+
+Incommensurabiles autem, quarum nullam commu-
+nem mensuram contingit reperiri.
+
+SI multas lineas, nulla linea vt mensura
+communis potest metiri; illae incommen-
+furabiles erunt lineae. Simili modo fi multas
+superficies nulla potest superficies mensurare
+vt mensura communis; illae erunt inter fe in-
+commenfurabiles. Simili ratione fi multa cor-
+pora nullum corpus potest metiri vt mensura
+communis; illae erunt inter fe incommenfu-
+rabiles.
+
+III.
+
+Recta lineae potentia commensurabiles sunt; cum qua-
+drata earum, idem spatium metiur.
+
+QVotiescumque multarũ linearum qua-
+drata, aliquod idem fpatium feu aliq̃a
+fuperficies, tanquam communis mensura ae-
+qualiter vel inaequaliter, adaequate vel inad-
+aequate, menfurabit; illae dicendae erunt li-
+neae potentia commenfurabiles.
+Aduerte nos confulto in explicatione hu-
+ius definitionis, minime fceffiffe mentionem
+rectae lineae, fed lineae in communi: nam mul-
+tae funt curuae & circulares, quae fi reducan-
+tur ad rectam, earum quadrata commenfu-
+rabilia erunt; licet ipfae lineae non fint rectae fed
+curuae. Verum tamen etſquod earum quadra-
+ta commenfurabilia eſſe non poſſunt, niſi re-
+ducantur ad rectam; nam ex curua linea vt
+curua, quadratum definitum in primo libro,
+fieri nequit. quare iure optimo Euclides re-
+cta lineae folum meminit in hac definitione
+fua; & nos aduerſionem hanc inferuimus.
+
+IV.

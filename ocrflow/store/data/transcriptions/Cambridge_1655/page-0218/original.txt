@@ -1,0 +1,43 @@
+Liber  X.                                                                 198
+
+Axiomata.
+
+1. Magnitudo quocunque magnitudines
+metiens, compositam quoque ex ipsis
+metitur.
+
+2. Magnitudo quamcunque magnitudinem
+metiens, metitur quoque omnem magnitudinem
+quam illa metitur.
+
+3. Magnitudo metiens totam magnitudinem
+& ablatam, metitur & reliquam.
+
+PROP.  I.
+
+Duabus magnitudinibus inæqualibus
+AB, C propositis, si à majore AB aufe-
+ratur majus quàm dimidium, (AH)
+& ab eo (HB), quod reliquum est, rursus de-
+trahatur majus quàm dimidium (HI),
+& hoc semper fiat; relinquetur tandem
+quædam magnitudo IB, quæ minor erit
+propositâ minore magnitudine C.
+
+Accipe C toties, donec ejus multi-
+plex DE proximè excedat AB; sintque
+DF = FG = GE = C. Deme ex AB plus-
+quam dimidium AH, & à reliquo HB plusquam
+dimidium HI, & sic deinceps, donec partes AH,
+HI, IB æquè multæ sint partibus DF, FG, GE.
+Jam liquet FE, quæ non minor est quàm 1/2 DE,
+majorem esse, quàm HB, quæ minor est, quàm
+1/2 AB — DE. Paritérque GE quæ non minor
+est quàm 1/2 FE, major est quàm IB, — 1/2 HB, er-
+go C, vel GE — IB.  Q. E. D.
+
+Idem demonstrabitur, si ex AB auferatur di-
+midium AH, & ex reliquo HB rursus dimidium
+HI, & ità deinceps.
+
+3                         Prop.

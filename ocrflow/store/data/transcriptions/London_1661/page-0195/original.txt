@@ -1,0 +1,134 @@
+252        THE TENTH ELEMENT        Lib. 10.
+
+EƲclid, according to his cuſtom, begins here by the explication of the
+terms which he ought to uſe: and declareth in the firſt place what
+Magnitudes are ſaid to be commenſurable,
+and which incommenſurable; defining that
+thoſe are ſaid to be commenſurable, which
+are meaſured by one and the ſame common
+meaſure, or Magnitude: As the Magnitudes
+
+A
+B
+C
+
+A and B, the which one and the ſame meaſure, as C doth meaſure (for be-
+ing repeated ſix times, it meaſureth A, and being repeated three times, it
+meaſureth B) ſhall be ſaid to be commenſurable.
+After the ſame manner, a line of 20 palmes, and one of 13, are ſaid to be
+commenſurable; ſeeing that as well the line of one palme, as that of halfe
+a palme, &c. meaſureth both of them: In like manner, thoſe Superficies
+are ſaid to be commenſurable that are meaſured by one and the ſame Super-
+ficies, and ſolid bodies are alſo ſaid to be commenſurable; when they are
+meaſured by one and the ſame Solid,
+
+2 But Magnitudes incommenſurable, are thoſe which have no
+common meaſure.
+
+SUch Magnitudes are the Diameter of any ſquare, and the ſide of the
+ſame ſquare whereof it is the Diameter: foraſmuch as there is no com-
+mon Magnitude that can meaſure them both, as ſhall be demonſtrated in
+the laſt Proposition of this Book: There are alſo divers other lines incom-
+menſurable, divers of which are unfolded in this Book; and the manner
+how to find them, is ſhewn: Again, Superficies and Solids, are ſaid to be
+incommenſurable, the which admit of no common meaſure.
+
+F √418  D
+√418
+18
+R
+√162
+Q
+P
+√162
+A
+C √162  H
+√162
+B
+K E
+L
+M
+T
+N √162
+S
+
+3 Right lines AB, and BD, are com-
+menſurable in power, when their
+ſquares BM, and BF, are mea-
+ſured by one and the ſame Space or
+Superficies E.
+
+OF Right-lines, ſome are commenſurable
+in Length, to wit, thoſe which are mea-
+ſured by one and the ſame line, and are
+ſaid ſimply or abſolutely commenſurable, ſome others are ſaid to be in-
+commenſurable, that is to ſay, ſuch as have no common meaſure, as hath
+been expounded in the firſt and ſecond Definitions.
+Again, of Lines which are incommenſurable in Length, ſome of them
+are ſo, in ſuch manner as that their ſquares are commenſurable; as a line
+of two feet, and another, which ſhall be √q. 8, (that is to ſay, of the which
+the ſquare ſhall contein 8 feet) are ſaid to be commenſurable in power,
+the ſquares 4, and 8, being meaſured by one and the ſame Superficies. So a
+line of three feet, and a line of √6 feet, ſhall be alſo commenſurable in pow-
+er, ſeeing their ſquares 9, and 36, are meaſured by one and the ſame Su-
+perficies; to wit, by 3, or by 6.        Again,
+
+Lib. 10.        OF EUCLIDE.        253
+
+Again, a line which ſhall be √q of 20, and one that ſhall be √q 125,
+are commenſurable in power; for their √q √q 20, and √q √q 125, are
+commenſurable; being as 5, to 2, and √q 5, ſhall be in √q 20, twice,
+and in √q 125, 5 times, which will be more eaſily underſtood by this figure,
+where the line AB is 3, and is q B M 9, whoſe Diameter is alſo B M, to wit
+A B is incommenſurable, as hath been ſaid in the 2 Definition; and having
+drawn B D equall to the Diameter B M, and deſcribed the ſquare B F, the
+ſame ſhall be 18; it being double the ſquare of B A; and this ſide ſhall be
+√q 18 commenſurable in power to B A: for B meaſureth both the one and
+the other ſquares, to wit, B M 9 times; and B F 18 times, E tripled mea-
+ſureth alſo B F 6 times, and B M 3 times.
+
+Now if you will have the ſquare E to be √q 96, the q of the line A B,
+make √q 486, and the q of B D, ſhall make √q 1944; and √q 96, ſhall mea-
+ſure both, √q 54, the triple of √q 16, ſhall alſo meaſure theſe two quantities.
+
+4 But Right Lines are incommenſurable in power, when the
+ſquares made of them cannot be meaſured by any common meaſure.
+
+THe other lines incommenſurable, whoſe ſquares are alſo incommen-
+ſurable, are ſaid to be incommenſurable in power, as a line of 2 feet, and
+a line which ſhall be √6, ſhall be incommenſurable in power; as not
+having any common ſpace that may meaſure their ſquares 4, and √6: So
+√q 8, and √q 12, are alſo incommenſurable in power; foraſmuch as
+no Superficies can meaſure their ſquares 8 and √q 12.
+Again, as in the figure of the third Definition, the rectangled Superfi-
+cies P B, is propoſed √q 162, to the which a let the ſquare Superficies
+B H, be made equall, the line G B, or B L, is equall; ſhall be incommen-
+ſurable in power to B C, or B N; for B C is a mean proportionall between
+G B, and B A, or B E, equall to B A: therefore G B, B C, and B E, being
+continually proportionall; the q G D the ſquare of G B, is to B H the ſquare of
+B C, as G B the firſt, to B E the third: But G B is incommenſurable to
+B E, as hath been ſaid in the ſecond Definition: therefore the ſquare of
+G B, which is G D, ſhall be incommenſurable to the ſquare of B C; that
+is to ſay, to B H: therefore G B, and C, or B N, is equall, are incommen-
+ſurable in power; that is to ſay, their ſquares are incommenſurable: and
+this may not be thought ſtrange, that this Demonſtration be built on the Pro-
+poſitions hereafter mentioned; for that it is not neceſſary for the Demon-
+ſtration of any of them.
+Now all the right lines commenſurable in Length, are ſo alſo in power,
+ſeeing that the ſquare of their common meaſure, doth alſo meaſure their
+ſquares, as appears by this figure: For as
+A B meaſureth C D, and E F, ſo the ſquare
+of A B, doth meaſure C H, and E I, not that
+all the right lines which are commenſura-
+ble in power, are ſo alſo in length, as ap-
+pears by the figure of the third Definition,
+where the lines A B and B D, are ſhewn to be
+incommenſurable in length, the which are
+ſhewn commenſurable in power, and as it
+ſhall be alſo demonſtrated in this Book.
+
+I
+H
+E  F C  D  A  B
+
+5 Theſe

@@ -1,0 +1,122 @@
+278
+
+Commentarius in Librum Decimum
+
+II.
+
+Magnitudo quamcunque magnitudinem metiens;
+metitur quoque omnem magnitudinem, quam
+illa metitur.
+
+III.
+
+Magnitudo metiens totam magnitudinem, &
+ablatam; metitur & reliquam.
+
+PROPOSITIO I.
+
+Duabus magnitudinibus inequa-
+libus propositis, si à maiore
+auferatur maius quam dimi-
+dium : & ab eo quod reliquum
+est, rursus detrahatur maius
+quam dimidium ; & hoc sem-
+per fiat : Relinquetur tandem
+quædam magnitudo; quæ mi-
+nor erit proposita minore ma-
+gnitudine.
+
+SVppositio. Duæ magnitudines inæqua-
+les, AB, maior, C, minor, datæ sint; & ab
+maiore AB, ademptum sit maius quàm di-
+midium; & ab residuo etiam maius quàm di-
+midium; & sic deinceps : Afferro tandem re-
+linqui magnitudinem minorem data mino-
+re C.
+
+A  B.   C.
+      C D.
+
+Constructio. Concipiatur ipsi C minori
+magnitudine datæ addita portio D, æquans
+ipsam datæ magnitudini maiori AB.
+
+Demonstratio. Ab tota CD vt ab tota
+AB ex datis auferatur plus quàm dimidium,
+reliquum erit vel æquale ipsi C, vel minus,
+vel maius quàm C. Si primum; ablato iterum
+plus dimidio ab reliquo, relinquetur ali-
+quid minus quàm C, ideog; etiam ab æqua-
+li AB maiore facta simili detractione, rel-
+quum erit aliquid minus quàm C: si fecun-
+dum, consecuti sumus finem nostrum: Si ter-
+tium auferendo iterum plusquam semiftem
+ab residuo; & sic deinceps; ita vt dum fit de-
+tractio, fiat adimendo aliquid de data mino-
+re C; tàdem relinquetur aliquid minus quàm
+C, alioqui pars reliqua esset maior, tota data
+C contra axio.8. libr.1. Notandum vero et
+hanc propositionem intelligi debere de ma-
+gnitudinibus propriè comparabilibus juxta
+definitionem 5.lib.5.non autem de aliis quæ
+impropriè comparari possunt. Ex his colligi-
+tur folutio paradoxi Cardani circa angulum
+contactus propositionis 16.lib.3.& angulum
+rectilineum acutum ; quod proponemus hoc
+loco per modù corollarii nostri: eo quod vi-
+deatur planè cõtradichens huic propositioni.
+
+COROLLARIVM NOSTRVM.
+
+Angulus rectilineus acutus potest in infinitum fin-
+cathogorematice diminui ; & angulus contactus
+in infinitum etiam augeri: & tamen illius de-
+crementum quoddamque maius erit quocunque
+accremento huius.
+
+Exempli gratia, rectilineus acutus angu-
+lus EDF, potest minui in infinitum per
+intermedias rectas lineas ab concursu D in-
+clinatas rectarum linearum ED, FD, ad
+minuendum: & angulus CAB contactus augeri
+per minores circulos contingentes eandem
+rectam BA in puncto A, centrum habentes
+in eadem diametro. AG circuli maioris dati
+ACG. Et tamen quia per citatam prop.16.
+libr.3.elementorum, quicumque angulus re-
+ctilineus maior est angulo contactus quocun-
+que,v.g.DAB, maiore quà datus alius CAB;
+minus decrementum illius anguli rectilinei,
+maius est maiore accremento anguli conta-
+ctus. Ita paradoxum propositum est ab Car-
+dano. Nunc illud proponemus prout con-
+tradicere putatur huic propositioni. Magni-
+tudo EDF angularis rectilinea acut maior
+est magnitudine anguli contactus CAB, per
+prop.citat.16.lib.3.& per prop.9.lib.1. posfu-
+mus angulum datum EDF partiri per me-
+dium, rectamque lineam aliam ducere inter
+illam intermediam & dimidium huius angu-
+li ab puncto D anguli dati, quæ maius quid
+dimidio dati anguli adimet : & sic deinceps
+in infinitum;& tamen ex citata prop.16.lib.
+3. residuus angulus cum acutus fit & rectili-
+neus, semper maior erit data magnitudine
+anguli contactus: ergo falsa erit hæc proposi-
+tio prima libri huius, quandoquidem facta il-
+la detractione continua , non relinquetur de
+maiore magnitudine data, nimirum angulo
+acuto rectilineo dato EDF, minor magnitu-
+do angularis, data magnitudine anguli con-
+tactus CAB minor.
+
+Solutio paradoxi. Quandoquidé istæ duæ
+magnitudines anguli rectilinei acuti , & an-
+guli contactus dati, non possunt propriè com-
+parari ad invicem, juxta def.5. lib.5. quia vt
+demonstravimus quàtumuis augeatur & au-
+geatur in infinitù,hoc est multiplicetur angu-
+lus ille cõtactus,non potest fuperare angulum
+rectilineum
+
+Digitized by Google

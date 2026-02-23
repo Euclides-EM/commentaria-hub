@@ -1,0 +1,48 @@
+ELEM. EUCLID.  BOOK X.                                         493
+
+II.
+
+A magnitude measuring
+any magnitude, measures also
+every magnitude
+which that (magnitude) measures.
+
+A magnitude which measures
+some magnitude, measures also
+every magnitude
+which that one measures.
+
+III.
+
+A magnitude measuring
+a whole magnitude, measures also
+the part taken away and the
+remainder.
+  These axioms, insofar as they
+pertain to numbers, have already
+been explained in the last three
+statements of the seventh book.
+
+A magnitude measuring
+a whole magnitude, and the part
+taken away from it, measures also
+the rest.
+  These common sentences, insofar
+as they belong to numbers, have already
+been explained in the
+last three axioms of Book 7.
+
+THEOREM I.  PROPOSITION I.
+
+With two unequal magnitudes
+proposed, if from the greater there be taken away
+more than the half; and from that which remains,
+again there be taken away more
+than the half, and this be always done:
+there will at length be left some magnitude
+which will be less than the
+proposed lesser magnitude.
+
+Two unequal magnitudes being proposed, if from the greater
+one subtract more than the half, and from the remainder again
+more than the half, and if this be always done thus in

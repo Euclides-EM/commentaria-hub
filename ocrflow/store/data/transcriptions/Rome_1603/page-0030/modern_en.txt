@@ -1,0 +1,38 @@
+OF EUCLID.
+
+31 IF an odd number is prime to some number:
+it will also be prime to its double.
+32 OF numbers from a binary of doubles, each one
+is only evenly even.
+33 IF a number has an odd half: it is only evenly odd.
+34 IF an even number is neither a double of a binary, nor
+has an odd half: it is evenly even, and evenly odd.
+35 IF there are any numbers whatsoever continually proportional,
+and there are subtracted from the second and the last equals to the
+first: then as the excess of the second to the first, so the excess of the
+last to all those preceding it.
+36 IF from unity any numbers whatsoever are set out continually
+in double proportion, until the whole compounded becomes prime;
+and this whole multiplied into the last makes some number: the result
+will be Perfect.
+
+OF THE TENTH BOOK.
+
+1 WITH two unequal magnitudes proposed,
+if from the greater there be taken more than the half; and from that
+which remains, again there be taken more than the half; and this be
+done continually: there will at length be left some magnitude which
+will be less than the proposed lesser magnitude.
+2 IF with two unequal magnitudes proposed,
+the lesser be always subtracted from the greater, by some alternate
+subtraction, and the remainder does not measure the preceding:
+the magnitudes themselves will be incommensurable.
+3 WITH two commensurable magnitudes given,
+to find the greatest common measure of them.
+4 WITH three commensurable magnitudes given,
+to find the greatest common measure of them.
+5 COMMENSURABLE magnitudes have to one another a
+ratio, as number to number.
+6 I F two magnitudes have between themselves a proportion-
+b 2
+be

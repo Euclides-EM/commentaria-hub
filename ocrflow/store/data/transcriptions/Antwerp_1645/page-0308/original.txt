@@ -1,0 +1,116 @@
+Elementorum Geometricorum Euclidis.  277
+
+definiuit Rationales rectas lineas, quæ Ra-
+tionali propositæ vel expositæ sunt longitu-
+dine & potentia simul, vel potentiâ tantum
+commensurabiles; ita etiam definit Irrationales
+ad ipsam Rationalem expositam, quæ sunt
+incommensurabiles longitudine & potentiâ
+simul, vel solum potentiâ, non autem lon-
+gitudine tantum.
+
+Ex hac definitione & antecedente secta
+colligitur nonnullos Arithmeticorum deci-
+pi, dum vocant radicem quadratam numeri
+20, vel 1000; id est lineam cuius quadrati
+valor est 20, vel 1000, Irrationalem; eo quod
+numeris non possit exprimi, & comparari,
+cum aliquo numero puta 4. seu linea quatuor
+palmorum, cuius quadratum est sexdecim
+palmorum, quæ linea quatuor palmorum
+sit expositæ Rationalis; nam & si sit longi-
+tudine incommensurabilis cum linea quatuor
+palmorum, tamen & potentiâ commensura-
+bilis illi, ideoque per def. 6. etiam Rational-
+is est illa radix seu linea cuius quadratum
+est 20, vel 1000: non longitudine quidem & 
+potentiâ simul; excludimus enim commensu-
+rabilitatem in longitudine, sed potentiâ tan-
+tum; ideoque incommensurabili illi Ratio-
+nali prædictæ quatuor palmorum, longitu-
+dine tantum. Quod verò sit commensurabi-
+lis potentiâ, quis non aduertat, cùm quadra-
+tum 20 palmorum, vel 1000 palmorum, ra-
+tione capacitatis æqualis sit commensurabile
+quadrato 16 palmorum, iuxta def. 3.
+
+V I I I.
+
+Et quadratum, quod à proposita recta fit;
+dicatur Rationale.
+
+ID est quadratum rectæ propositæ Ratio-
+nalis, dicendum est Rationale; denomina-
+nante quadrato ipso, expositâ rectâ lineâ Ra-
+tionali.
+
+I X.
+
+Et huic commensurabilia quidem, Rationalia.
+
+Nimirum quadrata omnia Rationali
+prædicta commensurabilia: vocentur
+etiam Rationalia.
+
+X.
+
+Hæc verò incommensurabilia, Irrationalia
+dicantur.
+
+VIdelicet quadrata omnia incommensu-
+rabilia Rationali prædicto def. 8. ap-
+pellentur Irrationalia.
+
+Notandum est spatia quæcumque plana æ-
+qualia quadrato Rationalis rectæ lineæ, vel
+commensurabilia etiam illi, dici ab Geo-
+metris, Rationalia, quæ per prop: 14. libr.2.
+si sint rectangula reduci possunt ad quadrata:
+quod si non sint rectangula, ad ea reduci pos-
+sunt, vel ad quadrata, ab Geometris. Eodem
+modo Irrationalia, spatia plana incommen-
+surabilia quadrato Rationalis expositæ, licet
+non sint quadrata, modo ad illa reduci pos-
+sint; appellari poterunt.
+
+X I.
+
+Et rectæ, quæ ipsa possunt, Irrationales, si quidem
+eà quadrata sint, ipsa latera: si verò alia qua-
+piam rectilinea, rectæ quæ spatiis incommensura-
+bilibus æqualia quadrata describunt.
+
+Qvæ modo præmissimus in notando, ex-
+plicant ultimas partes huius definitionis
+nisvltimæ. Quare rectæ lineæ seu latera qua-
+dratorum, vel quorumlibet aliorum spa-
+tiorum planorum, quæ possunt quadratis
+æqualia, incommensurabiliaq́ue quadrato
+expositæ Rationalis; dici debent Irratio-
+nales.
+
+Moneo Euclidem veteresq́ue omnes Geo-
+metras semper has particulas longitudine &
+potentiâ, vel potentiâ tantum, coniunxisse his
+vocibus commensurabiles, & incommensu-
+rabiles: vix autem hîc & aliis vocibus Ra-
+tionales, & Irrationales. quod tamen non-
+nulli recentiorum Geometrarum non solent
+facitare.
+
+PETITIO VNICA.
+
+Postuletur quamlibet magnitu-
+dinem toties posse multiplica-
+ri, donec quamlibet magnitu-
+dinem eiusdem generis exce-
+dat.
+
+AXIOMATA.
+
+I.
+
+Magnitudo; quæcunque magnitudines mutuo
+compositae quoque ex ipsis mutuae.
+
+Aa      II. Ma-

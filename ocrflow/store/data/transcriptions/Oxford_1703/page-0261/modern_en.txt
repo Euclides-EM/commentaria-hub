@@ -1,0 +1,71 @@
+210        EUCLID’S  ELEMENTS
+
+[illegible]
+
+PROP. I. THEOR.                         PROPOSITION I.
+
+With two unequal magnitudes set out, if from the greater there be taken away more
+than the half, and from what remains again there be taken away more than the half,
+and this be always done; there will at length be left some magnitude which will be
+less than the lesser magnitude set out.
+
+Let there be two unequal magnitudes A B, Γ, of which A B is the greater: I say that
+if from A B there be taken away more than the half, and from what remains again
+there be taken away more than the half, and this be always done; there will at length
+be left some magnitude which will be less than the magnitude Γ.
+
+For let Γ, being multiplied, become Δ E:
+when the greater magnitude A B is multiplied, and let Δ E be indeed a multiple of Γ,
+but greater than A B; and let Δ E be divided into parts equal to Γ, A Z, Z H, H B,
+and from A B let there be taken away more than the half, B Θ, and from Θ A again
+let there be taken away more than the half, and K, and let this always be done, so
+that the divisions which are in A B in number equal the divisions which are in Δ E:
+let therefore the divisions A K, K Θ, Θ B be equal in number to the divisions A Z,
+Z H, H E.
+
+And since Δ E is greater than A B, and from Δ E there has been taken away less than
+the half, namely E H, but from A B more than the half, namely B Θ; the remainder
+H A will be greater than the remainder Θ A; again since H Δ is greater than Θ A,
+and from H Δ there has been taken away the half H Z, but from Θ A more than the
+half Θ K; the remainder Δ Z will be greater than the remainder A K. And Δ Z is
+equal to Γ: therefore it is greater than A K. Therefore A K is less than Γ: therefore
+from the magnitude A B there has been left the magnitude A K, set out less than the
+lesser magnitude Γ, which was to be shown.
+
+And similarly it will be shown, even if halves have been taken away.
+
+OTHERWISE.
+
+Let there be set out two unequal magnitudes A B, Γ, and let Γ be the lesser; and
+since Γ is lesser, when multiplied it will at some time become greater than the
+magnitude A B. Let it be as Z M, and let it be divided into parts equal to Γ, M Θ,
+Θ H, H Z; and from A B let there be taken away more than the half B E, and from
+E A more than the half E Δ; and let this always be done, so that the divisions which
+are in A B in number be equal to the divisions which are in Z M. Let therefore be as
+B E, E Δ, Δ A, and also Δ Δ [illegible]
+
+A
+B
+
+Γ
+
+Δ
+Z
+H
+E
+Θ
+K
+
+A
+B
+
+Γ
+
+Δ
+Z
+H
+E
+Θ
+K
+
+Digitized by Google

@@ -1,0 +1,40 @@
+EUCLID’S.
+
+[uncertain: lates], and also to demonstrate various operations. At the end
+of book 9.
+40 To explain the composition OF PROPORTIONS, against certain
+Reviewers. At the end of book 9.
+
+IN THE TENTH BOOK.
+1  IF, with two incommensurable magnitudes set forth,
+the lesser be always subtracted from the greater, by a certain
+alternate subtraction: the remainder will never measure the preceding.
+To proposition 2.
+2  IF, with two commensurable magnitudes set forth,
+the lesser be always subtracted from the greater, by a certain
+alternate subtraction: some remainder will measure the preceding:
+To proposition 2.
+3.  A MAGNITUDE measuring two magnitudes, also measures
+their greatest common measure.  Corollary.
+proposition 3.
+4  To consider whether any proposed magnitudes are commensurable
+or not. To proposition 3.
+5  A MAGNITUDE measuring any magnitudes, also measures
+their greatest common measure. Corollary.
+proposition 4
+6  IF there be any magnitudes, and also as many numbers,
+which, taken two and two, are in the same ratio in which two
+magnitudes are: then from equality, in the same ratio will be
+magnitudes and numbers. To proposition 4.
+7  COMMENSURABLE MAGNITUDES have the same proportion
+as the numbers by which their greatest common measure measures them.
+To proposition 5.
+8  To find a straight line, to which any other given straight line
+may have such a ratio as number to number: likewise a straight line,
+to whose square the square of another given straight line may have such
+a ratio as number to number.  Corollary.
+proposition 6.
+9  IF there be four continuous proportional quantities, and
+another four also continuous proportional, and if as
+the first of those to the last, so the first of these to the last:
+f 4  It will be

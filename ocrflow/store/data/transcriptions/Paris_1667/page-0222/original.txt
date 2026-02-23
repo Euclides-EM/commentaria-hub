@@ -1,0 +1,38 @@
+188    Nouveaux Elemens
+
+NOVVEAVX ELEMENS
+DE
+GEOMETRIE.
+
+LIVRE DIXIEME.
+DES LIGNES PROPORTIONELLES.
+
+I.
+
+A proportion des lignes dépend de deux cho-
+ses, des paralleles & des angles, & ainfy elle
+n’a pas pû fe bien traitter qu’après l’expli-
+cation de l’une & l’autre. Et mefme pour en
+bien comprendre tout le myftere, il faut re-
+prendre beaucoup de chofes des paralleles que
+nous propoferons en forme de Lemmes.
+
+PREMIER LEMME.  DEFINITION.
+II.
+Un efpace compris d’une part entre deux paralleles &
+indefiny de l’autre, foit appellé efpace parallele.
+
+SECOND LEMME.  DEFINITION.
+III.
+COMME on ne confidere dans ces efpaces que la diftan-
+ce entre les paralleles, leur grandeur dépend de cette
+diftance qui eft mefurée par les perpendiculaires compri-
+fes entre ces paralleles, que nous appellerons pour cette
+raifon les perpendiculaires des efpaces.
+Et delà il s’enfuit que ces efpaces font égaux quand les
+perpendiculaires de l’un font égales aux perpendiculaires
+de l’autre.
+
+TROISIEME LEMME.  DEFINITION.
+IV.
+On dit qu’une ligne eft dans un efpace parallele quand
