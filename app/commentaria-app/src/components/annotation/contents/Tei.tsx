@@ -187,7 +187,10 @@ function renderTranslationView(body: Element): string {
 
   for (let i = 0; i < body.children.length; i++) {
     const el = body.children[i]
-    if (el.nodeType !== Node.ELEMENT_NODE || (el as Element).localName !== 'p') {
+    if (
+      el.nodeType !== Node.ELEMENT_NODE ||
+      (el as Element).localName !== 'p'
+    ) {
       continue
     }
     const p = el as Element
@@ -235,7 +238,10 @@ const teiToHtml = (
   const directPs: Element[] = []
   for (let i = 0; i < body.children.length; i++) {
     const el = body.children[i]
-    if (el.nodeType === Node.ELEMENT_NODE && (el as Element).localName === 'p') {
+    if (
+      el.nodeType === Node.ELEMENT_NODE &&
+      (el as Element).localName === 'p'
+    ) {
       directPs.push(el as Element)
     }
   }

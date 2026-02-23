@@ -120,6 +120,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     refetchAnnotations()
   }, [refetchDatasets, refetchAnnotations])
 
+  useEffect(() => {
+    if (annotations?.length === 1) {
+      setQueryState((s) => ({ ...s, annotationId: annotations[0].id! }))
+    }
+  }, [annotations, setQueryState])
+
   const contextValue = useMemo<AppStateContextType>(
     () => ({
       state,

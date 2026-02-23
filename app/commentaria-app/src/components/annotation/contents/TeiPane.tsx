@@ -35,9 +35,7 @@ export function TeiPane() {
     !!editionId && effectiveUseEditionTei,
   )
   const editionTeiAvailable =
-    !!editionId &&
-    editionTeiProbe.isSuccess &&
-    !!editionTeiProbe.data
+    !!editionId && editionTeiProbe.isSuccess && !!editionTeiProbe.data
 
   // Always fetch annotation TEI when we have context so it's available when user unchecks "Use edition TEI"
   const annotationTeiQuery = useAnnotationTeiQuery(
@@ -150,9 +148,15 @@ export function TeiPane() {
         {isLoading && !teiContents && (
           <p className="text-gray-500 text-sm py-2">Loading TEI…</p>
         )}
-        {!effectiveUseEditionTei && !teiContents && !annotationTeiQuery.isFetching && !annotationTeiQuery.error && (!datasetId || !annotationId) && (
-          <p className="text-amber-700 text-sm py-2">Select a dataset and an annotation to view annotation TEI.</p>
-        )}
+        {!effectiveUseEditionTei &&
+          !teiContents &&
+          !annotationTeiQuery.isFetching &&
+          !annotationTeiQuery.error &&
+          (!datasetId || !annotationId) && (
+            <p className="text-amber-700 text-sm py-2">
+              Select a dataset and an annotation to view annotation TEI.
+            </p>
+          )}
         {error && !teiContents && (
           <p className="text-red-600 text-sm py-2">
             {effectiveUseEditionTei &&

@@ -176,4 +176,32 @@ export class EditionsService {
             body: note,
         });
     }
+    /**
+     * Get Edition TEI
+     * Get the TEI representation of a specific edition for a specific page.
+     * @returns string TEI XML content
+     * @throws ApiError
+     */
+    public static getEditionsTei({
+        editionId,
+        pageNum,
+    }: {
+        /**
+         * Edition ID
+         */
+        editionId: string,
+        /**
+         * Page Number
+         */
+        pageNum: string,
+    }): CancelablePromise<string> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/editions/{editionId}/tei/{pageNum}',
+            path: {
+                'editionId': editionId,
+                'pageNum': pageNum,
+            },
+        });
+    }
 }
