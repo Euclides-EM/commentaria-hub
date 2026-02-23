@@ -1,13 +1,10 @@
-import { useMemo } from 'react'
-import { useAppState } from '../../../context/useAppState.ts'
+export type TeiViewMode = 'original' | `translation:${number}`
 
-export type TeiViewMode = 'original' | 'translation'
-
-type Props = {
-  data: string
-  minCert: number
-  viewMode?: TeiViewMode
+export type TeiTranslation = {
+  id: `translation:${number}`
+  label: string
 }
+
 const escapeHtml = (text: string) => {
   const div = document.createElement('div')
   div.textContent = text
@@ -130,30 +127,45 @@ function getBody(doc: Document): Element {
   return body as Element
 }
 
-/** Whether this TEI has a translations div (edition-style original + translation). */
-export function teiHasTranslations(tei: string): boolean {
+export function getTeiTranslations(tei: string): TeiTranslation[] {
   try {
     const doc = parseXml(tei.trim())
     const body = getBody(doc)
+    const translations: TeiTranslation[] = []
     const divs = body.getElementsByTagNameNS('*', 'div')
     for (let i = 0; i < divs.length; i++) {
       const div = divs[i]
-      if (div.getAttribute('type') === 'translations') {
-        const abs = div.getElementsByTagNameNS('*', 'ab')
-        for (let j = 0; j < abs.length; j++) {
-          if (abs[j].getAttribute('type') === 'translation') return true
-        }
+      if (div.getAttribute('type') !== 'translations') continue
+      const abs = div.getElementsByTagNameNS('*', 'ab')
+      for (let j = 0; j < abs.length; j++) {
+        const ab = abs[j]
+        if (ab.getAttribute('type') !== 'translation') continue
+        const n = (ab.getAttribute('n') || '').trim()
+        const lang = (
+          ab.getAttribute('xml:lang') ||
+          ab.getAttribute('lang') ||
+          ''
+        ).trim()
+        const index = translations.length
+        const label = n || lang || `Translation ${index + 1}`
+        translations.push({
+          id: `translation:${index}`,
+          label,
+        })
       }
     }
-    return false
+    return translations
   } catch {
-    return false
+    return []
   }
 }
 
-/** Build map from line id (e.g. "l1") to translation text from first translation ab. */
-function getTranslationMap(body: Element): Map<string, string> {
+function getTranslationMap(
+  body: Element,
+  translationIndex: number,
+): Map<string, string> {
   const map = new Map<string, string>()
+  let currentTranslationIndex = 0
   const divs = body.getElementsByTagNameNS('*', 'div')
   for (let i = 0; i < divs.length; i++) {
     const div = divs[i]
@@ -162,6 +174,10 @@ function getTranslationMap(body: Element): Map<string, string> {
     for (let j = 0; j < abs.length; j++) {
       const ab = abs[j]
       if (ab.getAttribute('type') !== 'translation') continue
+      if (currentTranslationIndex !== translationIndex) {
+        currentTranslationIndex += 1
+        continue
+      }
       const segs = ab.getElementsByTagNameNS('*', 'seg')
       for (let k = 0; k < segs.length; k++) {
         const seg = segs[k]
@@ -181,8 +197,11 @@ function getTranslationMap(body: Element): Map<string, string> {
 }
 
 /** Render translation view by reusing original body structure and replacing line-by-line via lb @xml:id and seg @corresp. */
-function renderTranslationView(body: Element): string {
-  const transMap = getTranslationMap(body)
+function renderTranslationView(
+  body: Element,
+  translationIndex: number,
+): string {
+  const transMap = getTranslationMap(body, translationIndex)
   const parts: string[] = []
 
   for (let i = 0; i < body.children.length; i++) {
@@ -209,7 +228,7 @@ function renderTranslationView(body: Element): string {
   return parts.length ? parts.join('') : '<p></p>'
 }
 
-const teiToHtml = (
+export const teiToHtml = (
   tei: string,
   minCert: number,
   searchResultHighlight: string | null,
@@ -220,8 +239,11 @@ const teiToHtml = (
   const body = getBody(doc)
   const opts = { showPB: true, minCert, maskChar }
 
-  if (viewMode === 'translation') {
-    const joined = renderTranslationView(body)
+  if (viewMode !== 'original') {
+    const translationIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)
+    const joined = Number.isFinite(translationIndex)
+      ? renderTranslationView(body, translationIndex)
+      : '<p></p>'
     const highlights = searchResultHighlight
       ? [...searchResultHighlight.matchAll(/<em>(.*?)<\/em>/g)].map(
           (match) => match[1],
@@ -268,19 +290,4 @@ const teiToHtml = (
     joined = joined.replaceAll(highlight, `<em>${highlight}</em>`)
   }
   return joined
-}
-
-export const Tei = ({ minCert, data, viewMode = 'original' }: Props) => {
-  const { searchResultHighlight } = useAppState()
-  const html = useMemo(
-    () => teiToHtml(data, minCert, searchResultHighlight, '@', viewMode),
-    [data, minCert, searchResultHighlight, viewMode],
-  )
-  return (
-    <div
-      className="mt-4 text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5"
-      style={{ whiteSpace: 'normal' }}
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
-  )
 }

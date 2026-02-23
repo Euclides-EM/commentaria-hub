@@ -80,7 +80,9 @@ export function MultiSelectDropdown<T>({
       )
     } else {
       const nextStages = [...selectedItems, item]
-      setSelectedItems(nextStages.length === allItems.length ? [] : nextStages)
+      setSelectedItems(
+        nextStages.length === allItems.length ? allItems : nextStages,
+      )
     }
   }
 

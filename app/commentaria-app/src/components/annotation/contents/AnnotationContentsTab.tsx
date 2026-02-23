@@ -1,5 +1,5 @@
 import { ImagePane } from './ImagePane.tsx'
-import { TeiPane } from './TeiPane.tsx'
+import { TeiPane } from './tei/TeiPane.tsx'
 import { AnnotationNavigation } from './AnnotationNavigation.tsx'
 import { useAppState } from '../../../context/useAppState.ts'
 
