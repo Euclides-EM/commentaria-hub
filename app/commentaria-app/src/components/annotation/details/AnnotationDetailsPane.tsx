@@ -27,6 +27,7 @@ import { ErrorMessage } from '../../core/ErrorMessage'
 import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
+import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
@@ -70,6 +71,10 @@ const AnnotationDetailsContent = ({
   const { data: datasets } = useDatasetsQuery()
   const { data: categories, isLoading: categoriesLoading } =
     useAnnotationCategories(annotation.dataset_id!, annotation.id!)
+  const datasetForAnnotation =
+    datasets?.find((d) => d.id === annotation.dataset_id) || null
+  const editionId = datasetForAnnotation?.edition_id || null
+  const hasEdition = !!editionId
   const appliedRules = (annotation.applied_rules || []) as AnnotationRule[]
 
   const originAnnotationOptions = useMemo(() => {
@@ -126,7 +131,7 @@ const AnnotationDetailsContent = ({
         )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">Dataset</div>
         <div className="text-sm leading-tight break-all font-mono">
-          {datasets?.find((d) => d.id === annotation.dataset_id)?.name}
+          {datasetForAnnotation?.name || 'N/A'}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           {hasPages ? 'Pages' : 'Keys'}
@@ -261,6 +266,22 @@ const AnnotationDetailsContent = ({
         <div className="text-sm leading-tight break-all">
           {isExporting ? 'In progress' : 'Idle'}
         </div>
+        {hasEdition && (
+          <>
+            <div className="font-semibold text-xs opacity-80 pt-0.5">
+              Edition ID
+            </div>
+            <div className="text-sm leading-tight break-all font-mono">
+              {editionId}
+            </div>
+            <div className="font-semibold text-xs opacity-80 pt-0.5">
+              Edition
+            </div>
+            <div className="text-sm leading-tight break-all">
+              <EditionDetailsTable editionId={editionId} />
+            </div>
+          </>
+        )}
       </div>
 
       <div className="font-semibold text-xs opacity-80 py-2">Applied rules</div>

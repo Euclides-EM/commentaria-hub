@@ -30,6 +30,7 @@ export const DatasetDetails = () => {
   const currentDataset = datasets?.find((d) => d.id === state.datasetId) as
     | model_Dataset
     | undefined
+  const editionId = currentDataset?.edition_id || null
   const isCreating = currentDataset?.status === 'creating'
   const datasetStatusLabel =
     currentDataset?.status && currentDataset.status in DATASET_STATUS_LABELS
@@ -150,6 +151,7 @@ export const DatasetDetails = () => {
         {activeTab === 'details' && (
           <DatasetDetailsTab
             dataset={currentDataset}
+            editionId={editionId}
             datasetStatusLabel={datasetStatusLabel}
             isCreating={isCreating}
             isEditing={isEditing}

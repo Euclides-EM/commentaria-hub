@@ -3,6 +3,7 @@ import type { feature_ExecutionSkipIf, feature_Feature } from '@hub-api'
 import { Button } from '../../core/Button.tsx'
 import { SearchInput } from '../../core/SearchInput.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
+import { formatEditionLabel } from '../../../utils/editions.ts'
 
 interface EditionItem {
   key: string
@@ -41,17 +42,6 @@ const sortByNewestRevision = (feature: feature_Feature) => {
     return rightTime - leftTime
   })
   return revisions[0]
-}
-
-const formatEditionLabel = (item: EditionItem) => {
-  const details = [item.year, item.authors.join(', '), item.cities.join(', ')]
-    .filter(Boolean)
-    .join(', ')
-  const title = item.shortTitle || item.title
-  if (!details && !title) return item.key
-  if (!title) return details
-  if (!details) return title
-  return `${details} - ${title}`
 }
 
 export function CreateFeatureExecutionModal({

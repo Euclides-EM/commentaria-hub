@@ -1,12 +1,14 @@
 import type { model_Dataset } from '@hub-api'
 import { AnnotationActions } from '../annotation/AnnotationActions.tsx'
 import { Button } from '../core/Button.tsx'
+import { EditionDetailsTable } from '../core/EditionDetailsTable.tsx'
 import { ErrorMessage } from '../core/ErrorMessage.tsx'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Timestamp } from '../core/Timestamp.tsx'
 
 interface DatasetDetailsTabProps {
   dataset: model_Dataset
+  editionId: string | null
   datasetStatusLabel: string
   isCreating: boolean
   isEditing: boolean
@@ -31,6 +33,7 @@ interface DatasetDetailsTabProps {
 
 export function DatasetDetailsTab({
   dataset,
+  editionId,
   datasetStatusLabel,
   isCreating,
   isEditing,
@@ -199,13 +202,6 @@ export function DatasetDetailsTab({
               )}
 
               <div className="font-semibold text-xs opacity-80 pt-0.5">
-                Edition ID
-              </div>
-              <div className="text-sm leading-tight break-all font-mono">
-                {dataset.edition_id || 'N/A'}
-              </div>
-
-              <div className="font-semibold text-xs opacity-80 pt-0.5">
                 Status
               </div>
               <div className="text-sm leading-tight break-all">
@@ -232,6 +228,24 @@ export function DatasetDetailsTab({
               <div className="text-sm leading-tight break-all">
                 <Timestamp date={dataset.updated_at} />
               </div>
+
+              {editionId && (
+                <>
+                  <div className="font-semibold text-xs opacity-80 pt-0.5">
+                    Edition ID
+                  </div>
+                  <div className="text-sm leading-tight break-all font-mono">
+                    {editionId}
+                  </div>
+
+                  <div className="font-semibold text-xs opacity-80 pt-0.5">
+                    Edition
+                  </div>
+                  <div className="text-sm leading-tight break-all">
+                    <EditionDetailsTable editionId={editionId} />
+                  </div>
+                </>
+              )}
             </div>
             <div className="mt-4">
               <ErrorMessage message={error} />

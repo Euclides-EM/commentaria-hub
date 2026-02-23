@@ -33,8 +33,8 @@ export function RuleDisplay({
       }`}
     >
       <div className="flex items-start justify-between gap-3">
-        <div className="flex flex-col gap-1 flex-1">
-          <div className="font-medium text-sm mb-1">
+        <div className="flex flex-col gap-1 flex-1 min-w-0">
+          <div className="font-medium text-sm mb-1 whitespace-normal break-words">
             {getRuleDisplayName(rule)}
           </div>
           {applicableStages && applicableStages.length > 0 && (

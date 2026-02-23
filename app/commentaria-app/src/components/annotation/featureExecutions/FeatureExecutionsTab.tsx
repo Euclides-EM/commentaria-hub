@@ -17,6 +17,7 @@ import { useAuthStore } from '../../../store/authStore.ts'
 import { Button } from '../../core/Button.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
+import { formatEditionLabel } from '../../../utils/editions.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
@@ -149,17 +150,6 @@ const formatDate = (value?: string) => {
   const parsed = new Date(value)
   if (Number.isNaN(parsed.getTime())) return value
   return parsed.toLocaleString()
-}
-
-const formatEditionLabel = (item: EditionItem) => {
-  const details = [item.year, item.authors.join(', '), item.cities.join(', ')]
-    .filter(Boolean)
-    .join(', ')
-  const title = item.shortTitle || item.title
-  if (!details && !title) return item.key
-  if (!title) return details
-  if (!details) return title
-  return `${details} - ${title}`
 }
 
 export function FeatureExecutionsTab() {
