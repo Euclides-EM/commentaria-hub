@@ -1,0 +1,56 @@
+BOOK X.                                                                 205
+
+so that lines commensurable in length are also commensurable
+in power, so that no lines can be given commensurable in
+length whose squares are commensurable; because the square
+described on their common measure measures their squares
+as a common measure of their squares, as appears in the
+figure set below: for just as the straight line AB measures the
+straight lines CD.EF, so also the square AG measures the
+squares CH, EI: But not [so] that all lines commensurable in
+power are also commensurable in length; for many lines are
+commensurable in power, that is, have commensurable squares,
+which nevertheless are altogether incommensurable in length,
+as will be demonstrated in this book.
+Again among lines incommensurable both in length and in
+power, such a connection is found, that all lines incommensurable
+in power are also incommensurable in length;
+But not conversely, that all lines incommensurable in length
+are also incommensurable in power, since many lines are found
+incommensurable in length with one another, while nevertheless
+in power, that is, according to their squares, they are commensurable.
+All which indeed will be clear from the corollary, proposition 9
+of this book.
+
+                         V.
+
+These things being set down, it is shown that to any proposed
+straight line there are infinitely many straight lines both commensurable
+and incommensurable: some indeed in length and
+power; but others in power only. Let the proposed straight
+line be called Rational.
+
+IF some straight line be proposed, of known magnitude, there will be
+of all others which are compared with it, some commensurable with it
+in length and in power, but some in power only.
+Likewise some incommensurable with it in length only, and some
+in length and in power, as will be demonstrated in various places
+in this tenth book. For Euclid does not wish it to be shown or
+collected from what has been said (although his words may seem
+to sound thus) that these things are so:
+but he only indicates to us, and in a certain way hints, that of lines
+some can be said to be commensurable with the proposed straight line
+in length and in power, but others in power only, etc. Which
+indeed in no way follows from what has been said, but will be
+demonstrated in what follows, as we said.
+
+BUT that proposed line, by the reason of which others are commensurable
+or incommensurable, is called by the Greeks ῥητὴ; but by the Latins Rational,
+because it is always set down as certain and known, but others compared
+with it are not always known, although each taken separately exists as certain
+and known; since any one can be divided into however many equal parts.
+Ef
+
+[diagram labels:]
+I  H  G
+E  F  C  D  A  B

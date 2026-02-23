@@ -1,0 +1,46 @@
+204            EVCLID. GEOM.
+VI.
+E t huic commenfurabiles fve longitudine & poten-
+tia, fve potentia tantum, Rationales.
+D O C E T lineas alias illi, quæ Rationalis dicitur, commenfu-
+rabiles quomodocunq; appellari quoque Rationales, non quidem
+ex pofitione, ut illa, fed quia cum illa comparatæ reperiuntur ei cō-
+menfurabiles vel longitudine & potentia, vel potentia tantum.
+I T A Q U E ex fententia Euclidis, radix quadrata hujus numeri
+20. vel 1000. &c. Seu quod idem eft, linea recta, cujus quadratum
+eft 20. vel 1000. &c. dicitur Rationalis; cum potentia fit com-
+menfurabilis lineæ Rationali; (eft enim tam numerus 20. quam
+1000. commenfurabilis numero cuilibet quadrato, ut 16. 100. &c.)
+quamvis longitudine, fit eidem incommenfurabilis. Decipiuntur
+ergo Arithmeticinon pauci, qui idcirco eam Irrationalem vocant,
+quod numero non poffit exprimi.
+
+VII.
+H U I C vero incommenfurabiles, Irrationales vo-
+cuntur.
+O M N I A M antecedenti defin. Euclides lineas illas, quæ lon-
+gitudine & potentia, vel quæ potentia tantùm funt commenfurabi-
+les propofitæ rectæ Rationali, appellavit Rationales; liquido con-
+ftat, cum hic eas dicere Irrationales, quæ propofitæ rectæ Rationali
+incommenfurabiles funt utroque modo, longitudine videlicet &
+potentia, non autem longitudine tantum. Ex quibus etiam mani-
+feftum eft, radicem quadratam hujus numeri 20. vel 1000. &c. feu
+(quod idem eft) lineam, cujus quadratum eft 20. vel 1000. &c. nō
+poffe appellari Irrationalem, cum nō fit longitudine & potentia, fed
+longitudine tantum Rationali lineæ propofitæ incommenfurabilis.
+
+VIII.
+E T quadratum, quod à propofita recta fit, dicatur
+Rationale.
+Q U E M A D M O D U M linea illa, quæ certa ponitur ac nota,
+Rationalis dicitur: Ita quoque quadratum ab ea defcriptum Ratio-
+nale vocatur, quia & ipfum certum eft, ac notum, comparatio-
+neque illius aliæ fuperficies, commenfurabiles, incommenfurabi-
+lesque dicuntur.
+
+IX.
+E T huic commenfurabilia quidem Rationalia.
+O M N E S planæ fuperficies quadrato Rationalis lineæ propo-
+fitæ commenfurabiles, Rationales dicuntur; non quidem ex pofi-
+tione, ut illud, fed quia cum eo collatæ reperiuntur ei vel com-
+menfu-

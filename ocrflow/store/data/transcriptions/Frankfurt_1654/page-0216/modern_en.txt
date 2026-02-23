@@ -1,0 +1,50 @@
+B O O K  X.                                                                 205
+
+measurable, or incommensurable* just as also
+lines which are in whatever way commensurable with a Rational line
+are called Rational.
+
+BUT SINCE lines which can produce spaces commensurable
+with the square on a given Rational line are at least in power
+commensurable with the Rational line, from Def. 3 it is clear
+that they too are to be called, according to Def. 6, Rational.
+
+X.
+But the incommensurable ones with this are to be
+called Irrational.
+
+In no other way are plane surfaces incommensurable with the square
+described on a Rational line called Irrational, than lines which are
+altogether incommensurable with a given Rational [line] are said to be
+Irrational.
+
+XI.
+And straight lines which can themselves [produce them] are Irrational: if indeed those
+are squares, the sides themselves; but if they are some other rectilinear
+[figures], the straight lines which describe squares equal to spaces
+incommensurable [with them].
+
+He calls lines which can produce spaces incommensurable with the square
+on a Rational line, Irrational: just as he also called the spaces themselves
+Irrational: so that if the incommensurable spaces are indeed squares,
+their sides are called Irrational; but if they are not squares, but any other
+rectilinear figures, the straight lines which describe squares equal to those
+incommensurable spaces are called Irrational.
+
+It is gathered, moreover, that lines which can produce spaces incommensurable
+with the square on a Rational line ought to be called Irrational, from Def. 7;
+just as above from Def. 6 we gathered that lines which can produce spaces
+incommensurable with the same square on a Rational line ought to be called
+Rational. For the lines which can produce those incommensurable spaces are
+in power incommensurable with the Rational line, from Def. 4. Therefore since
+all lines incommensurable in power are also incommensurable in length, as we
+said at Def. 4, and it will be demonstrated in the corollary of Prop. 9, it is
+manifest, from Def. 7, that those lines which can produce spaces incommensurable
+with the square on a Rational line are to be called Irrational.
+
+Nor is it to be passed over, that Euclid and the ancient
+Geometers almost always add these words: in length and in power; and in power
+only; to these words: commensurable and
+incommensurable: but scarcely, and very rarely, to these: Rational, and
+Irrational: for lines commensurable in length are rightly said—
+in length

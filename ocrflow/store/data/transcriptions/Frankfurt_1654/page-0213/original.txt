@@ -1,0 +1,53 @@
+202            EVCLID. GEOM.
+
+poſitione ultima hujus lib. demonſtrabitur ab Euclide.  Sunt etiam
+plurimæ aliæ lineæ incommenſurabiles, quibus ſcilicet menſura
+aliqua communis dari nullo modo poteſt, quarum multas hoc lib.
+Geometra explicat, docetq́; quanam ratione inveniri poſſint.  Rur-
+ſus, ſuperficies dicuntur incommenſurabiles, & ſolida incommen-
+ſurabilia, quæ nullam admittunt menſuram communem.
+
+III.
+
+RECTÆ lineæ potentia commenſurabiles ſunt, cum
+quadrata earum idem ſpatium metitur.
+
+LINEARVM rectarum quædam commenſurabiles ſunt lon-
+gitudine, quas nimirum alia linea, tanquam menſura communis,
+metitur; cujusmodi ſunt illæ, quas in expoſitione defin. 1. com-
+menſurabiles ſimpliciter diximus: quædam vero longitudine in-
+commenſurabiles, quas ſcilicet nulla linea, tanquam menſura co-
+munis, metitur.  Rurſus linearum, quæ ſunt incommenſurabiles
+longitudine, aliæ ſunt ejusmodi, ut earum quadrata ſint commen-
+ſurabilia, aliæ vero ita ſe habent, ut & quadrata earum incommen-
+ſurabilia ſint.  Lineæ ergo illæ longitudine incommenſurabiles,
+quarum quadrata ſunt commenſurabilia, appellantur hic ab Eu-
+clide potentia commenſurabiles; quia videlicet ſecundum earum
+potentias, hoc eſt ſecundum earum quadrata (eſt enim, ut ad pro-
+poſ. 47. lib. 1. diximus, potentia cujuſq; lineæ quadratum ab ea
+deſcriptum) commenſurabiles ſunt, licet ipſæ ſecundum longitu-
+dinem ſint prorfus incommenſurabiles.
+
+QVOD ſi quis roget, cur Euclides definierit ſeorſum lineas potentia
+comenſurabiles nō autè comẽſurabiles longitudine, reſpondendu eſt,
+lineas lōgitudine comẽſurabiles ſatis ſuperq́; eſſe explicatas in de-
+finitione commenſurabilium magnitudinũ, cù hujuſmodi lineas
+una communis menſura metiatur, ut dictum eſt:  At vero quo-
+niam lineas potentia commenſurabiles nulla communis menſura
+metiri poteſt, ſed tantummodo earum quadrata idem ſpatium
+metitur, ideo neceſſarium omnino fuit, ut eæ propria definitione
+explicarentur.
+
+IV.
+
+INCOMMENSVRABILES autem, cum quadratis
+earum nullum ſpatium, quod ſit communis eorum men-
+ſura, contingit reperiri.
+
+LINEAS reliquas longitudine incommenſurabiles, quarum
+etiam quadrata incommenſurabilia ſunt, vocat incommenſurabi-
+les potentia.
+
+HABENT autem lineæ commenſurabiles tam longitudine
+quam potentia, hanc quaſi convenientiam inter ſe, & connexionẽ,
+ut li-

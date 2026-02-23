@@ -1,0 +1,54 @@
+L I B E R  X.                                                                 201
+
+abeft.ut exiftimem, tractationem illam radicum requiri,ut facilius
+hic liber intelligatur.Non negarim tamen,eum, qui rationem radi-
+cum atque calculum tennerit , majore cum voluptate hunc librum
+percepturum,quam qui illarum omnino fit ignarus,propterea quod
+ille demonftrationes ad ufum poteft revocare,hic vero nullo modo.
+Hâc enim de caufa & nos priora decêtheoremata fecundi lib. nu-
+meris accommodavimus, ut oblectationem animi majorem ex eo
+ftudiofus caperet,ac fructum; non autem ut ea, quæ in illo de-
+monftrantur,facilius arbitramur intelligi poffe ex numeris. Cur
+ergo (dicet aliquis) ut in eo libro, non perinde etiam in hoc exem-
+pla numerorum, quibus Algebra utitur, ufurpaffi, ut ea res & ma-
+jori voluptati effet, & commodo legentibus? In promptu caufa eft,
+quare id omittendum putavimus.Cum enim perpauci fint hoc tem-
+pore, quibus celeberrima illa Algebra ars fit cognita , videbantur
+numeri illi,fi adhiberentur, tenebras potius effufuri,quam lucis ali-
+quid majoris daturi, & perfpicuitatis ; quippe itaingenia ftudiofo-
+rum pro adjumento,ac luce,quam his noftris commentariis affer-
+re laboramus, plus caperent incommodi,minusq; demonftrationes
+ipfas perciperent : Id quod in lib. 2. accidere non potuit, cum ad-
+ditionem numerorum integrorum, ac multiplicationem, quæ folæ
+neceffariæ ibi fuerunt, nemo fere fit, qui ignoret. Huc accedit,quod
+qui in Algebra funt verfati, facili negotio demonftrationes hujus
+lib. ad numeros accommodare poffunt per feipfos , quando vo-
+lunt; præfertim cum jam hoc ipfum non multo ante à Michaele Stu-
+felio nobili Arithmetico in 2. lib. operis , quod de Arithmetica in-
+tegra infcripfit, diligenter effectum fit, & accurate.
+
+I T A Q U E, ut ad inftitutum redeamus, inchoans rem ipfam Eu-
+clides, more fuo,ab explicationibus vocabulorum,quibus utendum
+erit: declarat primo loco,quænam magnitudines dicantur commen-
+furabiles, definiens eas effe, quas eadem menfura
+metitur. Vt duæ magnitudines A, B, quas eadem
+menfura , C, metitur ; (metitur enim C, ipfam A,
+quater repetita, & ter fumpta ipfam B,) dicuntur commenfurabi-
+les. Eodem modo commenfurabiles funt, linea 20. palmorum &
+linea 13. palmorum : quia eas lineas tam unius palmi,quam dimi-
+diati palmi, quam tertiæ partis unius palmi, &c. metitur. Similiter
+commenfurabiles dicuntur fuperficies, quas una, & eadem fuperfi-
+cies metitur ; Item corpora, folidave commenfurabilia, quæ me-
+titur idem corpus, feu folidum.
+
+A
+B
+C
+
+II.
+
+I N C O M M E N S U R A B I L E S,autem , quarum nullam
+communem menfuram contingit reperiri.
+T A L E S magnitudines funt,diameter quadrati cujufuis, & la-
+tus ejusdem quoniam nullam habent menfuram communê,ut pro-
+n 5                                    pofitio

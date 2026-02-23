@@ -1,0 +1,48 @@
+LIBER X.                                                                 207
+
+CATERVM quia hoc in libro dicſcendum nobis fuit à nu-
+mero, quem Theon in propoſitionibus Euclidis ſequitur, ut ad
+Propoſ. 13. dicemus, quemadmodum & in omnibus ſeriem Cam-
+pani negleximus, ut docuimus ad initium primi libri: curavimus
+ut duplex numerus in margine è regione propoſitionum apponeretur,
+quorum ſuperior ordinem Theonis, inferior autem Campani
+ſeriem demonſtraret. Quod ſi unus tantum numerus reperiatur in
+margine, nullam tunc eſſe inter Theonem, & Campanum diſcre-
+pantiam, intelligas, quod ad numerum propoſitionum attinet.
+
+THEOR.  I.  PROPOS.. I.
+
+D U A B U S magnitudinibus inæqualibus propoſi-
+tis, ſi à maiore auferatur maius quam dimidium; & ab
+eo, quod reliquum eſt, rurſus detrahatur maius quam
+dimidium; & hoc ſemper fiat: Relinquetur tandem
+quædam magnitudo, quæ minor erit propoſita minore
+magnitudine.
+
+P R O P O S I T Æ ſint duæ magnitudines inæquales AB, &
+C, quarum AB, ſit maior. Dico ſi ex AB, auferatur maius quam
+dimidium; & ab eo, quod reliquum eſt, rurſum maius quam di-
+midium; atque hoc ſemper fiat: relinqui tandem magnitudinem
+quandam, quæ minor ſit quam C. Multiplicetur enim C, toties
+donec magnitudo facta DE, maior ſit quam AB, ita ut DE, ſit
+multiplex ipſius C, proxime maior quam AB. Diviſa autem DE,
+in partes DF, FG, GE, ipſi C, æquales,
+detrahatur ex AB, maius quam dimi-
+dium AH, & reliqua HB, maius
+quam dimidium HI, atq hoc ſemper
+fiat, donec partes ipſius AB, multitudine æquales ſint partibus ipſius
+DE. Sint ergo iam partes AH, HI, IB, tot, quot ſunt ipſæ DF, FG,
+GE. Quia igitur DE, maior eſt quam AB; At ex DE, ablatum eſt
+DF, minus quam dimidium, vel certe dimidium, ſi DE, ipſius ſit
+duplex; ex AB, vero maius quam dimidium AH: Erit reliquum
+FE, reliquo HB, maius. (Cum enim DE, maior ſit quam AB; ſi ex
+DE, dimidium auferretur, nec non & ex AB, dimidium, eſſet quo-
+que reliquum ex DE, maius reliquo ex AB. Si ergo ex DE, auferatur
+minus quam dimidium, vel certe dimidium, & ex AB, maius quam
+dimidium; erit reliquum ex DE, maius reliquo ex AB.) Rurſus
+quoniam FE. maior eſt quam HB, aufereturque ex FE; dimidium
+FG, vel certe minus quam dimidium, ſi FE, maior ſit quam du-
+plex ipſius C; at ex HB, maius quam dimidium HI: erit eodem
+modo reliquum GE, maius reliquo IB: atque ita procedendo
+oſtendemus tandem poſtremam partem, ipſius DE, qualis hic eſt
+GE, ma-

@@ -1,0 +1,35 @@
+200.
+
+EVCLIDIS
+ELEMENTVM
+DECIMVM.
+
+DEFINITIONES.
+I.
+
+COMMENSVRABILES magnitudines dicuntur,
+quas eadem mensura metitur.
+
+ABSOLVIT Euclides in antecedentibus tribus libris
+ea,quæ ad numeros spectant, quantum satis visum
+est ad res Geometricas intelligendas : Nunc in hoc
+decimo libro aggreditur ad disputationem linearum
+commensurabilium,& incommensurabilium,quarū
+causa numerorum tractationem ab eo susceptam
+esse superius diximus. Nam sine cognitione harum linearum com-
+plures magnitudines cum solida,tum planæ, neque perfecte intelli-
+gi possunt,neq; cum res tulerit,in opus atq; vsum conferri; propter-
+ea quod plerumq; latera earum incommensurabilia sunt: Id quod &
+de planis ipsis atque solidis dici potest, quippe cum & hæc incom-
+mensurabilia sæpe numero existant, vt ad finem huius lib. demon-
+strabimus. Quoniam vero hic liber multis obstructus est difficulta-
+tibus,ob linearum,de quibus disserit,obscuritatem; omnes neruos
+industriæ meæ in eo contendam,vt ex his,quæ hactenus ab Euclide
+sunt demonstrata,ita plan° reddatur,ac facilis,vt sine multo labore à
+quouis, qui præcedentium tam librorum demonstrationes recte intelle-
+xerit,possit percipi: Neq; enim in eorum possu sententiam ire, qui putat
+ad eius intelligentia esse necessaria ea parte Arithmetices,quæ de ra-
+dicibus numerorū,tā rationalibus quā irrationalibus, vt vocāt fer-
+monē instituit: Imo contra persuasū mihi prorsus habeo,cognitio-
+nē perfectam illius partis Arithmetices pendere ex hoc 10.lib. rantiū
+abest,

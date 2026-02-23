@@ -1,0 +1,56 @@
+B O O K  X.                                                                 201
+
+[The following is a literal English rendering, lineated to match the original as closely as possible.]
+
+it is absent. But I would think that that treatment of roots is required, so that
+this book may be understood more easily. I would not deny however, that he
+who has held the theory of roots and calculation, will perceive this book with
+greater pleasure, than he who is altogether ignorant of them, because
+that man can bring the demonstrations back to use, but this one in no way.
+For this cause also we adapted the prior ten theorems of the second book
+to numbers, so that the studious man might take from it greater delight
+of mind, and profit; but not that we think those things which are demonstrated
+in that book can be understood more easily from numbers. Why
+therefore (someone will say) as in that book, not likewise also in this
+examples of numbers, which Algebra uses, did you employ, so that that thing
+might be both for greater pleasure, and convenience to readers? The cause is at hand,
+why we thought it should be omitted. For since very few are at this time
+to whom that most celebrated art of Algebra is known, those numbers
+seemed, if they were applied, to pour out rather darkness, than to give
+something of greater light, and clarity; indeed thus the minds of the studious
+for help, and light, which we labor to bring by these our commentaries,
+would take more inconvenience, and would perceive the demonstrations
+themselves less: which could not happen in book 2, since
+addition of whole numbers, and multiplication, which alone
+were necessary there, almost no one is who does not know. To this is added, that
+those who are practiced in Algebra can with easy business adapt the demonstrations
+of this book to numbers by themselves, when they
+wish; especially since now this very thing not long before by Michael Stufelius,
+a noble arithmetician, in the 2nd book of the work, which he entitled On Whole
+Arithmetic, has been done diligently, and accurately.
+
+A N D  S O, that we may return to the plan, Euclid beginning the matter itself,
+in his manner, from explanations of the words, which will have to be used:
+declares in the first place, what magnitudes are called commensurable,
+defining them to be those which the same measure
+measures. As two magnitudes A, B, which the same
+measure, C, measures; (for C measures A itself,
+repeated four times, and B itself taken three times,) are called commensurable.
+In the same way commensurable are, a line of 20 palms and
+a line of 13 palms: because those lines a line of one palm, as well as of a half
+palm, as well as of a third part of one palm, etc. measures. Likewise
+commensurable are called surfaces, which one and the same surface
+measures; likewise bodies, or solids commensurable, which the same
+body, or solid, measures.
+
+A
+B
+C
+
+II.
+
+I N C O M M E N S U R A B L E, however, are those for which it happens that no
+common measure can be found.
+S U C H magnitudes are, the diameter of any square, and the side
+of the same, since they have no common measure, as is pro-
+n 5                                    position

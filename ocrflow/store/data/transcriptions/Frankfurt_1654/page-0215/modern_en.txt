@@ -1,0 +1,47 @@
+204            EUCLID. GEOM.
+VI.
+And those commensurable with it either in length & power,
+or in power only, [are called] Rational.
+He teaches that other lines, which are in any way commensu-
+rable with that which is called Rational, are also to be called Rational,
+not indeed by position, as that [line is], but because, when compared
+with it, they are found commensurable with it either in length & power,
+or in power only.
+Therefore, according to the opinion of Euclid, the square root of this number
+20. or 1000. &c. Or what is the same, the straight line whose square
+is 20. or 1000. &c. is called Rational; since in power it is commen-
+surable with the Rational line; (for the number 20. as well as
+1000. is commensurable with any square number, as 16. 100. &c.)
+although in length it is incommensurable with the same. Therefore
+not a few arithmeticians are deceived, who for that reason call it Irrational,
+because it cannot be expressed by number.
+
+VII.
+But those incommensurable with this, are called
+Irrational.
+Since in the preceding definition Euclid called those lines Rational
+which are commensurable in length & power, or which are commensurable
+in power only, with the proposed Rational straight line; it is clearly
+established that here he calls Irrational those which are incommensurable
+with the proposed Rational straight line in both ways, namely in length
+and power, and not in length only. From which it is also manifest that
+the square root of this number 20. or 1000. &c. or
+(what is the same) the line whose square is 20. or 1000. &c. cannot
+be called Irrational, since it is not incommensurable in length & power,
+but in length only, with the proposed Rational line.
+
+VIII.
+And the square which is from the proposed straight line
+is called Rational.
+Just as that line which is set down as certain and known
+is called Rational: so also the square described from it is called Ratio-
+nal, because it too is certain and known, and in comparison with it
+other surfaces are called commensurable and incommensurable.
+
+IX.
+And those commensurable with this indeed [are] Rational.
+All plane surfaces commensurable with the square of the proposed
+Rational line are called Rational; not indeed by position,
+as that [square is], but because, when compared with it, they are found
+with it either com-
+mensu-
