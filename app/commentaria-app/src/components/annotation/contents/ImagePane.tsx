@@ -4,7 +4,15 @@ import ImageZoom from 'react-image-zooom'
 import { RangeInput } from '../../core/RangeInput.tsx'
 import { useDatasetImageKeysQuery } from '../../../queries/datasets.ts'
 
-export function ImagePane() {
+type ImagePaneProps = {
+  showResizeHandle?: boolean
+  onResizeStart?: () => void
+}
+
+export function ImagePane({
+  showResizeHandle = false,
+  onResizeStart,
+}: ImagePaneProps) {
   const {
     annotation,
     state: { datasetId, currentPageOrKey },
@@ -37,7 +45,7 @@ export function ImagePane() {
 
   const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
   return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white">
+    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white relative">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
         <div className="text-sm font-semibold grow min-w-0">
           {annotation?.pages
@@ -64,18 +72,31 @@ export function ImagePane() {
         />
       </div>
 
-      <div className="flex-1 min-h-0 flex items-center justify-center p-2">
-        <div className="h-full w-full max-h-full max-w-full flex items-center justify-center">
+      <div className="flex-1 min-h-0 overflow-hidden flex items-center justify-center p-2">
+        <div className="h-full w-full max-h-full max-w-full overflow-hidden flex items-center justify-center">
           <ImageZoom
             src={imageUrl}
             alt="Page image"
             zoom={String(zoom)}
             width="100%"
             height="100%"
-            className="max-h-full max-w-full w-full h-full [&_img]:max-h-full [&_img]:max-w-full [&_img]:h-full [&_img]:w-full [&_img]:object-contain"
+            className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:max-h-full [&_img]:max-w-full [&_img]:h-auto [&_img]:w-auto [&_img]:object-contain"
           />
         </div>
       </div>
+      {showResizeHandle && (
+        <div
+          role="separator"
+          aria-label="Resize image pane"
+          className="absolute top-0 right-0 h-full w-2 cursor-col-resize flex items-center justify-center bg-gray-100 hover:bg-gray-200 transition-colors"
+          onPointerDown={(event) => {
+            event.preventDefault()
+            onResizeStart?.()
+          }}
+        >
+          <div className="h-10 w-0.5 rounded-full bg-gray-300" />
+        </div>
+      )}
     </section>
   )
 }

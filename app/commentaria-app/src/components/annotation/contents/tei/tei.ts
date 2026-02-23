@@ -69,6 +69,7 @@ function toReadingHtml(
     showPB: boolean
     minCert: number
     maskChar: string
+    alignLines: boolean
   },
 ) {
   let html = ''
@@ -81,8 +82,7 @@ function toReadingHtml(
     if (child.nodeType !== Node.ELEMENT_NODE) continue
 
     if (isElement(child, 'lb')) {
-      // Render line breaks as space so text flows; only <p> creates visual breaks
-      html += ' '
+      html += opts.alignLines ? '<br>' : ' '
       continue
     }
 
@@ -200,6 +200,7 @@ function getTranslationMap(
 function renderTranslationView(
   body: Element,
   translationIndex: number,
+  alignLines: boolean,
 ): string {
   const transMap = getTranslationMap(body, translationIndex)
   const parts: string[] = []
@@ -221,8 +222,17 @@ function renderTranslationView(
       const text = (transMap.get(id) || '').trim()
       lineTexts.push(text)
     }
-    const paragraphText = lineTexts.join(' ').trim()
-    parts.push(`<p>${escapeHtml(paragraphText || '\u00A0')}</p>`)
+    const nonEmptyLineTexts = lineTexts.filter(
+      (lineText) => lineText.length > 0,
+    )
+    if (!nonEmptyLineTexts.length) {
+      parts.push('<p>&nbsp;</p>')
+      continue
+    }
+    const paragraphHtml = alignLines
+      ? nonEmptyLineTexts.map((lineText) => escapeHtml(lineText)).join('<br>')
+      : escapeHtml(nonEmptyLineTexts.join(' ').trim())
+    parts.push(`<p>${paragraphHtml}</p>`)
   }
 
   return parts.length ? parts.join('') : '<p></p>'
@@ -234,15 +244,16 @@ export const teiToHtml = (
   searchResultHighlight: string | null,
   maskChar: string = '@',
   viewMode: TeiViewMode = 'original',
+  alignLines: boolean = false,
 ) => {
   const doc = parseXml(tei.trim())
   const body = getBody(doc)
-  const opts = { showPB: true, minCert, maskChar }
+  const opts = { showPB: true, minCert, maskChar, alignLines }
 
   if (viewMode !== 'original') {
     const translationIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)
     const joined = Number.isFinite(translationIndex)
-      ? renderTranslationView(body, translationIndex)
+      ? renderTranslationView(body, translationIndex, alignLines)
       : '<p></p>'
     const highlights = searchResultHighlight
       ? [...searchResultHighlight.matchAll(/<em>(.*?)<\/em>/g)].map(

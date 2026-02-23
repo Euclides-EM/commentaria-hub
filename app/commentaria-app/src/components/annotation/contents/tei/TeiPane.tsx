@@ -20,24 +20,54 @@ const VIEW_LABEL_MAP: Record<string, string> = {
   modern_en: 'English',
 }
 
+const normalizeTeiViewModes = (
+  viewModes: TeiViewMode[],
+  allowedViewModes: TeiViewMode[],
+): TeiViewMode[] => {
+  if (!allowedViewModes.length) {
+    return ['original']
+  }
+  const allowed = new Set(allowedViewModes)
+  const next = viewModes.filter((mode) => allowed.has(mode))
+  if (!next.length) {
+    return ['original']
+  }
+  return next
+}
+
 type Props = {
   data: string
   minCert: number
   viewMode: TeiViewMode
+  viewLabel: string
+  alignLines: boolean
 }
 
-const Tei = ({ minCert, data, viewMode }: Props) => {
+const Tei = ({ minCert, data, viewMode, viewLabel, alignLines }: Props) => {
   const { searchResultHighlight } = useAppState()
   const html = useMemo(
-    () => teiToHtml(data, minCert, searchResultHighlight, '@', viewMode),
-    [data, minCert, searchResultHighlight, viewMode],
+    () =>
+      teiToHtml(
+        data,
+        minCert,
+        searchResultHighlight,
+        '@',
+        viewMode,
+        alignLines,
+      ),
+    [alignLines, data, minCert, searchResultHighlight, viewMode],
   )
   return (
-    <div
-      className="mt-4 text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5"
-      style={{ whiteSpace: 'normal' }}
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
+    <div className="relative">
+      <div className="absolute top-2 right-2 z-10 rounded bg-white/90 border border-gray-300 px-1.5 py-0.5 text-[10px] font-medium text-gray-700">
+        {viewLabel}
+      </div>
+      <div
+        className="text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 pt-7 [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5"
+        style={{ whiteSpace: 'normal' }}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    </div>
   )
 }
 
@@ -53,6 +83,9 @@ export function TeiPane() {
   )
   const [minCert, setMinCert] = useLocalStorageState('minCert', {
     defaultValue: 0.8,
+  })
+  const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
+    defaultValue: false,
   })
   const ocred = !!annotation?.ocred
   const editionId = dataset?.edition_id
@@ -119,17 +152,23 @@ export function TeiPane() {
   )
 
   useEffect(() => {
-    const next = teiViewModes.filter((mode) =>
-      availableViewModes.includes(mode),
-    )
-    if (next.length > 0 && next.length === teiViewModes.length) {
+    if (teiContents == null) {
       return
     }
-    setTeiViewModes(['original'])
-  }, [availableViewModes, setTeiViewModes, teiViewModes])
+    const next = normalizeTeiViewModes(teiViewModes, availableViewModes)
+    if (
+      next.length === teiViewModes.length &&
+      next.every((mode, index) => mode === teiViewModes[index])
+    ) {
+      return
+    }
+    setTeiViewModes(next)
+  }, [availableViewModes, setTeiViewModes, teiContents, teiViewModes])
 
   const orderedSelectedViewModes = useMemo(() => {
-    const selected = new Set(teiViewModes)
+    const selected = new Set(
+      normalizeTeiViewModes(teiViewModes, availableViewModes),
+    )
     return availableViewModes.filter((mode) => selected.has(mode))
   }, [availableViewModes, teiViewModes])
 
@@ -163,12 +202,12 @@ export function TeiPane() {
     (effectiveTeiSource === 'annotation' && annotationTeiQuery.error)
 
   return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white">
+    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
         <div>Contents</div>
       </div>
 
-      <div className="flex-1 min-h-0 overflow-auto p-2.5 box-border">
+      <div className="flex-1 min-h-0 overflow-hidden p-2.5 box-border flex flex-col">
         <div className="flex gap-2 items-center flex-wrap mb-2.5">
           {sourceOptions.length > 1 && (
             <div className="flex items-center gap-1.5">
@@ -217,6 +256,24 @@ export function TeiPane() {
               />
             </div>
           )}
+          <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
+            <input
+              type="checkbox"
+              checked={alignLines}
+              onChange={(e) => setAlignLines(e.target.checked)}
+              className="rounded border-gray-300"
+            />
+            <span>Align lines</span>
+          </label>
+          <RangeInput
+            label="Min certainty"
+            value={minCert}
+            min={0.8}
+            max={1}
+            step={0.001}
+            title="Hide tokens below certainty threshold"
+            onChange={(value) => setMinCert(Math.round(value * 1000) / 1000)}
+          />
           <button
             className={`px-2.5 py-1.5 border rounded-lg font-semibold text-xs ${
               showTeiSource
@@ -227,16 +284,6 @@ export function TeiPane() {
           >
             TEI source code
           </button>
-
-          <RangeInput
-            label="Min certainty"
-            value={minCert}
-            min={0.8}
-            max={1}
-            step={0.001}
-            title="Hide tokens below certainty threshold"
-            onChange={(value) => setMinCert(Math.round(value * 1000) / 1000)}
-          />
         </div>
 
         {isLoading && !teiContents && (
@@ -270,15 +317,23 @@ export function TeiPane() {
             />
           </>
         )}
-        {teiContents &&
-          orderedSelectedViewModes.map((viewMode) => (
-            <Tei
-              key={viewMode}
-              data={teiContents}
-              minCert={minCert}
-              viewMode={viewMode}
-            />
-          ))}
+        {teiContents && (
+          <div className="mt-4 flex-1 min-h-0 overflow-y-auto">
+            <div className="flex flex-wrap gap-3">
+              {orderedSelectedViewModes.map((viewMode) => (
+                <div key={viewMode} className="min-w-105 basis-105 flex-1">
+                  <Tei
+                    data={teiContents}
+                    minCert={minCert}
+                    viewMode={viewMode}
+                    viewLabel={getViewModeLabel(viewMode)}
+                    alignLines={alignLines}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   )
