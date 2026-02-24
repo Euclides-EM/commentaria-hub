@@ -1,5 +1,7 @@
 package annotation
 
+import "github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+
 type Index struct {
 	DatasetID    string       `json:"dataset_id" readonly:"true"`
 	AnnotationID string       `json:"annotation_id" readonly:"true"`
@@ -7,8 +9,8 @@ type Index struct {
 }
 
 type IndexNode struct {
-	Category string       `json:"category"`
-	Content  string       `json:"content"`
-	Location Location     `json:"location"`
-	Children []*IndexNode `json:"children"`
+	Category string              `json:"category"`
+	Content  string              `json:"content"`
+	Location common.ALTOLocation `json:"location"`
+	Children []*IndexNode        `json:"children"`
 }

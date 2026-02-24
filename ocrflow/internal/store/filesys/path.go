@@ -3,6 +3,7 @@ package filesys
 import (
 	"fmt"
 	"path"
+	"strconv"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -80,6 +81,22 @@ func (m *Manager) EditionTxtTranscriptionDir(ed *model.Edition) string {
 	return path.Join(m.baseDir, "transcriptions", ed.Key)
 }
 
-func (m *Manager) EditionTxtPageTranscriptionDir(ed *model.Edition, pageNum int) string {
-	return path.Join(m.EditionTxtTranscriptionDir(ed), pagesparser.PageToFilename(pageNum, ""))
+func (m *Manager) AnnotationTxtTranscriptionDir(ann *annotation.Annotation) string {
+	return path.Join(m.baseAnnotationPath(ann), "transcriptions")
+}
+
+func (m *Manager) EditionTxtPageTranscriptionDir(ed *model.Edition, key string) string {
+	var d = key
+	if pageNum, err := strconv.Atoi(key); err == nil {
+		d = pagesparser.PageToFilename(pageNum, "")
+	}
+	return path.Join(m.EditionTxtTranscriptionDir(ed), d)
+}
+
+func (m *Manager) AnnotationTxtPageTranscriptionDir(ann *annotation.Annotation, key string) string {
+	var d = key
+	if pageNum, err := strconv.Atoi(key); err == nil {
+		d = pagesparser.PageToFilename(pageNum, "")
+	}
+	return path.Join(m.AnnotationTxtTranscriptionDir(ann), d)
 }

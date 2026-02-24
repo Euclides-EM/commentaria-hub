@@ -223,7 +223,7 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	categorySet := make(map[string]struct{})
 
 	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
 		if err != nil {
 			return nil, err
 		}
@@ -263,7 +263,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	allLocs := make([]categoryPageContent, 0)
 
 	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
 		if err != nil {
 			return nil, fmt.Errorf("load ALTO: %w", err)
 		}
@@ -402,7 +402,7 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 
 	var diffs []*annotation.SuggestedDiff
 	for _, page := range pages {
-		af, pageAltoPath, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+		af, pageAltoPath, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
 		if err != nil {
 			return nil, fmt.Errorf("load ALTO: %w", err)
 		}
@@ -494,7 +494,7 @@ func buildNodes(remainingCats []string, data []categoryPageContent) []*annotatio
 			wipNode = &annotation.IndexNode{
 				Category: item.category,
 				Content:  item.content,
-				Location: annotation.Location{Page: item.page},
+				Location: common.ALTOLocation{Page: item.page},
 			}
 			wipNodeFirstChildIndex = i + 1
 		}

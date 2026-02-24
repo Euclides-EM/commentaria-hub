@@ -44,6 +44,21 @@ func ExtractCategoryContents(a *Alto, categories []string, lineBreakSeperator st
 	return contents, nil
 }
 
+func ExtractTextContentFromBlock(b *TextBlock) string {
+	lines := ExtractTextContentsFromBlock(b)
+	combined := ""
+	for _, content := range lines {
+		c := strings.TrimSpace(content)
+		if strings.HasSuffix(c, "¬") {
+			combined += strings.TrimSuffix(c, "¬")
+		} else {
+			combined += c + " "
+		}
+	}
+	combined = strings.TrimSpace(combined)
+	return combined
+}
+
 func ExtractTextContentsFromBlock(b *TextBlock) []string {
 	var contents []string
 	for _, ln := range b.Lines {

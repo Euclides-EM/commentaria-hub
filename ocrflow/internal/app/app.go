@@ -80,8 +80,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		env.GithubToken,
 		env.CommentariaPath,
 	)
-	titlePageTEI := service.NewTitlePageTEI(featureResultSvc, tpsTranscriptionsStore)
-	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, titlePageTEI)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, tpsTranscriptionsStore)
 	editionTEI := service.NewEditionTEI(fileSystemManager, editionSvc)
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,

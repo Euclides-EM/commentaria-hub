@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strconv"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -16,8 +17,15 @@ func (m *Manager) RetrieveEditionAltoPage(edition *model.Edition, pageNum int) (
 	return nil, "", errors.New("edition ALTO retrieval not implemented yet")
 }
 
-func (m *Manager) RetrieveAnnotationAltoPage(ann *annotation.Annotation, page int) (*alto.Alto, string, error) {
-	pageAltoPath := filepath.Join(m.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(page))
+func (m *Manager) RetrieveAnnotationAltoPage(ann *annotation.Annotation, pageNumOrKey string) (*alto.Alto, string, error) {
+	var fileName string
+	if page, err := strconv.Atoi(pageNumOrKey); err == nil {
+		fileName = pagesparser.PageToXMLFilename(page)
+	} else {
+		fileName = fmt.Sprintf("%s.xml", pageNumOrKey)
+	}
+
+	pageAltoPath := filepath.Join(m.DatasetAnnotationAltoDir(ann), fileName)
 	if _, err := os.Stat(pageAltoPath); os.IsNotExist(err) {
 		return nil, pageAltoPath, fmt.Errorf("page ALTO %s does not exist for annotation %s", pageAltoPath, ann.ID)
 	}
@@ -30,7 +38,7 @@ func (m *Manager) RetrieveAnnotationAltoPage(ann *annotation.Annotation, page in
 }
 
 func (m *Manager) ApplyToAltoPage(ann *annotation.Annotation, page int, applier func(*alto.Alto) error) error {
-	a, filePath, err := m.RetrieveAnnotationAltoPage(ann, page)
+	a, filePath, err := m.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
 	if err != nil {
 		return err
 	}

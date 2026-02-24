@@ -168,7 +168,7 @@ func scanFeatureResult(scanner func(...any) error) (*feature.Result, error) {
 			res.Values = make([]feature.ResultValue, len(stringValues))
 			for i, s := range stringValues {
 				res.Values[i] = feature.ResultValue{
-					Root: s,
+					Surface: s,
 				}
 			}
 		} else {

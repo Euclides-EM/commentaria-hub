@@ -2,24 +2,28 @@ package service
 
 import (
 	"fmt"
-	"strconv"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
+	tei2 "github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
 )
 
 type AnnotationTEI struct {
-	annotationSvc *Annotation
-	fileSysMgt    *filesys.Manager
-	titlePageTEI  *TitlePageTEI
+	annotationSvc     *Annotation
+	fileSysMgt        *filesys.Manager
+	resultSvc         *Result
+	tpsTranscriptions *store.TPSTranscriptions
 }
 
-func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *filesys.Manager, titlePageTEI *TitlePageTEI) *AnnotationTEI {
+func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *filesys.Manager, resultSvc *Result, tpsTranscriptions *store.TPSTranscriptions) *AnnotationTEI {
 	return &AnnotationTEI{
-		annotationSvc: annotationSvc,
-		fileSysMgt:    fileSysMgt,
-		titlePageTEI:  titlePageTEI,
+		annotationSvc:     annotationSvc,
+		fileSysMgt:        fileSysMgt,
+		resultSvc:         resultSvc,
+		tpsTranscriptions: tpsTranscriptions,
 	}
 }
 
@@ -29,41 +33,76 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 		return nil, err
 	}
 
-	if ann.Ocred {
-		return t.getTEIFromALTO(ann, pageNumOrKey)
+	if !ann.Ocred {
+		return nil, fmt.Errorf("annotation %s is not OCRed", ann.ID)
 	}
 
-	if datasetID == "tps" && annotationID == "ann_1" {
-		return t.titlePageTEI.GetTEI(datasetID, annotationID, pageNumOrKey, features)
+	// a *alto.Alto, entities EntitiesInput, profiles ProfilesInput, imageUrls []string
+
+	// Parse features filter (supports repeated `features` params and comma-separated lists)
+	var featureFilter []string
+	for _, raw := range features {
+		if raw == "" {
+			continue
+		}
+		parts := strings.Split(raw, ",")
+		for _, part := range parts {
+			trimmed := strings.TrimSpace(part)
+			if trimmed != "" {
+				featureFilter = append(featureFilter, trimmed)
+			}
+		}
 	}
 
-	return nil, fmt.Errorf("no OCR data for annotation %s", ann.ID)
+	// Get feature results for this key
+	//results, err := t.resultSvc.ListResults(datasetID, annotationID, []string{pageNumOrKey}, featureFilter)
+	//if err != nil {
+	//	return nil, fmt.Errorf("failed to get feature results: %w", err)
+	//}
+	tei, err := t.getTEI(ann, pageNumOrKey)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get TEI for annotation %s: %v", ann.ID, err)
+	}
+
+	xml, err := tei.ToXML()
+	if err != nil {
+		return nil, fmt.Errorf("failed to serialize TEI to XML for annotation %s: %v", ann.ID, err)
+	}
+
+	return xml, nil
 }
 
-func (t *AnnotationTEI) getTEIFromALTO(ann *annotation.Annotation, pageNumOrKey string) ([]byte, error) {
-	// convert pageNumOrKey to int
-	page, err := strconv.Atoi(pageNumOrKey)
-	if err != nil {
-		return nil, fmt.Errorf("invalid page number %s: %w", pageNumOrKey, err)
+func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string) (*model.TEI, error) {
+	a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey)
+	if err == nil {
+		return tei2.BuildTEIFromALTO(a, nil, "")
 	}
 
-	a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
-	if err != nil {
-		return nil, err
+	var lines []string
+	var translations map[string][]string
+	if ann.DatasetID == "tps" && ann.ID == "ann_1" {
+		transcription, enTranslation, err := t.tpsTranscriptions.Get(pageNumOrKey)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get TPS transcription for key %s: %v", pageNumOrKey, err)
+		}
+		lines = strings.Split(transcription, "\n")
+		translations = map[string][]string{
+			"en": strings.Split(enTranslation, "\n"),
+		}
+	} else {
+		lines, translations, err = t.fileSysMgt.RetrieveAnnotationTXTPage(ann, pageNumOrKey)
+		if err != nil {
+			return nil, fmt.Errorf("failed to retrieve TXT page for annotation %s: %v", ann.ID, err)
+		}
 	}
 
-	opts := formatcov.ALTOToTEIOptions{
-		RowTolPx:     6,
-		ParaGapPx:    28,
-		KeepEmpty:    false,
-		Title:        "Converted from ALTO",
-		FacsFromPage: true,
+	linesInput := tei2.LinesInput{
+		LinesByKeys: map[string]tei2.Lines{
+			pageNumOrKey: {
+				TranscriptionLines: lines,
+				Translations:       translations,
+			},
+		},
 	}
-
-	teiData, err := formatcov.ConvertALTOToTEI(a, opts)
-	if err != nil {
-		return nil, err
-	}
-
-	return teiData, nil
+	return tei2.BuildTEIFromLines(linesInput, nil, nil)
 }

@@ -1,10 +1,11 @@
 package service
 
 import (
+	"fmt"
 	"regexp"
-	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
@@ -40,7 +41,7 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 	}
 
 	for _, page := range pages {
-		a, _, err := s.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+		a, _, err := s.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
 		if err != nil {
 			return nil, err
 		}
@@ -52,24 +53,14 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 			}
 
 			for _, bl := range bls {
-				contents := alto.ExtractTextContentsFromBlock(bl)
-				combined := ""
-				for _, content := range contents {
-					c := strings.TrimSpace(content)
-					if strings.HasSuffix(c, "¬") {
-						combined += strings.TrimSuffix(c, "¬")
-					} else {
-						combined += c + " "
-					}
-				}
-				combined = strings.TrimSpace(combined)
+				combined := alto.ExtractTextContentFromBlock(bl)
 				if rg.MatchString(combined) {
 					highlighted := rg.ReplaceAllString(combined, "<em>$0</em>")
 
-					as.Results = append(as.Results, &annotation.Part{
+					as.Results = append(as.Results, &common.ALTOPart{
 						Category: cat,
 						Content:  highlighted,
-						Location: annotation.Location{
+						Location: common.ALTOLocation{
 							Page:        page,
 							TextBlockID: bl.ID,
 						},
