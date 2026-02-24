@@ -6,6 +6,8 @@ import (
 	"strconv"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/querylang"
 )
 
@@ -36,6 +38,7 @@ func (h *Handlers) ListDatasets(r *http.Request) (any, error) {
 // @Tags         Datasets
 // @Param		 enforce_single_dataset query bool false "If true, dataset will only be created if no other dataset exists"
 // @Param 		 async query bool false "If true, return immediately and create in background (status creating → ready or failed)"
+// @Param        create_default_annotation query bool false "If true, create a default annotation named 'Base' for the dataset"
 // @Param        dataset  body      model.Dataset  true  "Dataset to create"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -54,7 +57,18 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	if err != nil {
 		async = false
 	}
-	return h.deps.DatasetSvc.Create(r.Context(), &d, enforceSingleDS, async)
+	created, err := h.deps.DatasetSvc.Create(r.Context(), &d, enforceSingleDS, async, func(created *model.Dataset) error {
+		_, err := h.deps.AnnotationSvc.Create(created.ID, &annotation.Annotation{
+			Meta: common.Meta{
+				Name: "Base",
+			},
+		})
+		return err
+	})
+	if err != nil {
+		return nil, err
+	}
+	return created, nil
 }
 
 // DeleteDataset godoc

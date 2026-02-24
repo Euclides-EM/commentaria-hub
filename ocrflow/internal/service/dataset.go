@@ -59,7 +59,7 @@ func (d *Dataset) Get(id string) (*model.Dataset, error) {
 	return ds, nil
 }
 
-func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDataset, async bool) (*model.Dataset, error) {
+func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDataset, async bool, onCreate func(dataset *model.Dataset) error) (*model.Dataset, error) {
 	if ds.FacsimileID == "" {
 		return nil, fmt.Errorf("currently only datasets linked to facsimiles are supported")
 	}
@@ -109,15 +109,24 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDa
 		// Run heavy work in background; copy fields needed in goroutine to avoid races.
 		dsCopy := *ds
 		scanURL := targetFacsimile.ScanURL
-		go d.runDatasetCreation(context.Background(), &dsCopy, scanURL)
+		go d.runDatasetCreation(context.Background(), &dsCopy, scanURL, onCreate)
 		return ds, nil
 	}
 
-	return d.doDatasetCreation(ctx, ds, targetFacsimile.ScanURL)
+	created, err := d.doDatasetCreation(ctx, ds, targetFacsimile.ScanURL)
+	if err != nil {
+		return nil, fmt.Errorf("failed to create dataset: %w", err)
+	}
+	if onCreate != nil {
+		if err := onCreate(created); err != nil {
+			log.Printf("onCreate callback failed for dataset %s: %v", created.ID, err)
+		}
+	}
+	return created, nil
 }
 
 // runDatasetCreation performs download, PDF→PNG, and optional deskew, then updates dataset status.
-func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string) {
+func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string, onCreate func(dataset *model.Dataset) error) {
 	_, err := d.doDatasetCreation(ctx, ds, scanURL)
 	if err != nil {
 		log.Printf("async dataset creation failed for %s: %v", ds.ID, err)
@@ -128,6 +137,11 @@ func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, sca
 		log.Printf("failed to set dataset %s status to ready: %v", ds.ID, err)
 	}
 	log.Printf("Dataset %s async creation completed", ds.ID)
+	if onCreate != nil {
+		if err := onCreate(ds); err != nil {
+			log.Printf("onCreate callback failed for dataset %s: %v", ds.ID, err)
+		}
+	}
 }
 
 // doDatasetCreation does download, convert, deskew, and insert (caller sets status when async).
