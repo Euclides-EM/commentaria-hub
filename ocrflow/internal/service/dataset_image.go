@@ -139,7 +139,7 @@ func (d *DatasetImg) GetImageMetadata(datasetId string, key string) (*model.Imag
 		return nil, fmt.Errorf("failed to normalize TPS image metadata: %w", err)
 	}
 	if len(normalized) == 0 {
-		return nil, fmt.Errorf("no valid TPS image found for key: %s", imgs)
+		return nil, fmt.Errorf("no valid TPS image found for key: %v", imgs)
 	}
 	return normalized[0], nil
 }
