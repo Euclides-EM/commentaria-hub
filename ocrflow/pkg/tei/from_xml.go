@@ -3,7 +3,7 @@ package tei
 import (
 	"encoding/xml"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
 
 func ParseTEIFromXML(xmlData []byte) (*model.TEI, error) {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 	"github.com/samber/lo"
 )
 

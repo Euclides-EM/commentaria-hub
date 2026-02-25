@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
 
 // featureToRelationName maps profile Type (feature keys) to TEI relation name attribute values.

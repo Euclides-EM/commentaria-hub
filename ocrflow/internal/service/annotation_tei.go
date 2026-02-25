@@ -10,10 +10,10 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	tei2 "github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei"
-	teimodel "github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	tei2 "github.com/MiaMish/elements-dh/ocrflow/pkg/tei"
+	teimodel "github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 	"github.com/samber/lo"
 )
 

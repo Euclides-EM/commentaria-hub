@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
 
 // buildEncodingDesc builds encodingDesc with a taxonomy of feature and fact categories from entities.

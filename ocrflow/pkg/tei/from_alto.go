@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
 
 func BuildTEIFromALTO(

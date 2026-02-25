@@ -5,8 +5,8 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	tei2 "github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei"
-	model2 "github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
+	tei2 "github.com/MiaMish/elements-dh/ocrflow/pkg/tei"
+	model2 "github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
 
 type EditionTEI struct {

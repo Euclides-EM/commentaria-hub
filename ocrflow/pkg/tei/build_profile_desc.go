@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
 
 // entityProfile holds aggregated profile data for one entity (surface, normalized value, feature name).
