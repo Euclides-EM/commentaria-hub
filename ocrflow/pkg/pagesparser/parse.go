@@ -84,6 +84,14 @@ func PageToPNGFilename(p int) string {
 	return PageToFilename(p, "png")
 }
 
+func PageOrKeyToPNGFilename(pageOrKey string) string {
+	asInt, err := strconv.Atoi(pageOrKey)
+	if err == nil {
+		return PageToPNGFilename(asInt)
+	}
+	return fmt.Sprintf("%s.png", pageOrKey)
+}
+
 func PageToXMLFilename(p int) string {
 	return PageToFilename(p, "xml")
 }

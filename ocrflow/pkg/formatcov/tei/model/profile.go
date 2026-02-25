@@ -1,7 +1,8 @@
 package model
 
 type ProfileDesc struct {
-	TextClass *TextClass `xml:"textClass,omitempty"`
+	TextClass  *TextClass  `xml:"textClass,omitempty"`
+	ParticDesc *ParticDesc `xml:"particDesc,omitempty"`
 }
 
 type TextClass struct {

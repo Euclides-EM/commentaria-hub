@@ -3,6 +3,7 @@ package tei
 import (
 	"encoding/xml"
 	"fmt"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov/tei/model"
@@ -10,7 +11,7 @@ import (
 
 func BuildTEIFromALTO(
 	a *alto.Alto,
-	entities *EntitiesInput,
+	entities []EntityItem,
 	imageUrl string,
 ) (*model.TEI, error) {
 
@@ -18,7 +19,20 @@ func BuildTEIFromALTO(
 		return nil, fmt.Errorf("alto is nil")
 	}
 
-	occByKey := buildEntitiesOccurrences(entities)
+	const entityBlockID = "b1" // for entity targeting we use a fixed block id
+	lineTextByKey := make(map[string]string)
+	orderedKeys := make([]string, 0)
+	for _, pg := range a.Layout.Page {
+		for _, blk := range pg.PrintSpace.TextBlocks {
+			for i, ln := range blk.Lines {
+				k := occKey(pg.ID, entityBlockID, fmt.Sprintf("l%04d", i+1))
+				orderedKeys = append(orderedKeys, k)
+				lineTextByKey[k] = joinLineStrings(ln.Strings)
+			}
+		}
+	}
+	getLineText := func(key string) string { return lineTextByKey[key] }
+	occByKey := buildEntitiesOccurrences(entities, orderedKeys, getLineText)
 
 	doc := &model.TEI{
 		XMLName: xml.Name{Local: "TEI"},
@@ -34,14 +48,16 @@ func BuildTEIFromALTO(
 		Text:      model.Text{Body: model.Body{}},
 	}
 
-	if entities != nil && len(entities.Profiles) > 0 {
-		doc.Header.ProfileDesc = buildProfileDesc(entities)
+	if len(entities) > 0 {
+		if pd := buildProfileDesc(entities); pd != nil {
+			doc.Header.ProfileDesc = pd
+		}
 	}
 
 	for _, pg := range a.Layout.Page {
 		pageID := pg.ID
 		sPage := sanitizeID(pageID)
-		surfaceID := "page_" + sPage
+		surfaceID := surfaceID(pageID)
 
 		surf := model.Surface{
 			XmlID: surfaceID,
@@ -66,22 +82,20 @@ func BuildTEIFromALTO(
 		// We keep block structure: one <ab> per ALTO TextBlock
 		for _, blk := range pg.PrintSpace.TextBlocks {
 			ab := model.AB{
-				XmlID: "b_" + sanitizeID(blk.ID),
+				XmlID: blockID(blk.ID),
 				Type:  "ocr-block",
 				Segs:  []model.Seg{},
 			}
 
-			const blockID = "b1" // for entity targeting in this builder, we use a fixed block id
 			for i, ln := range blk.Lines {
 				lineID := fmt.Sprintf("l%04d", i+1)
 				segID := fmt.Sprintf("ln_%s_%s_%04d", sPage, sanitizeID(blk.ID), i+1)
-
 				lineText := joinLineStrings(ln.Strings)
-				occs := occByKey[occKey(pageID, blockID, lineID)]
+				occs := occByKey[occKey(pageID, entityBlockID, lineID)]
 
 				ab.Segs = append(ab.Segs, model.Seg{
 					XmlID:   segID,
-					Content: buildInlineForLineModel(lineText, occs),
+					Content: buildInlineForLineModel(lineText, occs, nil),
 				})
 			}
 
@@ -91,5 +105,17 @@ func BuildTEIFromALTO(
 		doc.Text.Body.Divs = append(doc.Text.Body.Divs, transDiv)
 	}
 
+	buildStandOff(doc, entities)
 	return doc, nil
+}
+
+func joinLineStrings(ss []alto.AltoString) string {
+	parts := make([]string, 0, len(ss))
+	for _, s := range ss {
+		if s.Content == "" {
+			continue
+		}
+		parts = append(parts, s.Content)
+	}
+	return strings.Join(parts, " ")
 }

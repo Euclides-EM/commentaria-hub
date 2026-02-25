@@ -3,10 +3,8 @@ package api
 import (
 	"fmt"
 	"net/http"
-	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
-	"github.com/samber/lo"
 )
 
 // GetAnnotationTEI godoc
@@ -30,9 +28,7 @@ func (h *Handlers) GetAnnotationTEI(r *http.Request) ([]byte, error) {
 	if pageNumOrKey == "" {
 		return nil, fmt.Errorf("missing page number or key in path")
 	}
-	features := lo.Map(r.URL.Query()["feature"], func(feature string, _ int) string {
-		return strings.TrimSpace(feature)
-	})
+	features := r.URL.Query()["feature"]
 
 	return h.deps.AnnotationTEI.GetTEI(datasetID, annotationID, pageNumOrKey, features)
 }
