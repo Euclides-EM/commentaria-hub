@@ -46,18 +46,15 @@ func (t *EditionTEI) getTEI(edition *model.Edition, pageNum int) (*model2.TEI, e
 		return tei2.BuildTEIFromALTO(a, nil, "")
 	}
 
-	lines, translations, err := t.fileSysMgt.RetrieveEditionTXTPage(edition, fmt.Sprintf("%d", pageNum))
+	pageKey := fmt.Sprintf("%d", pageNum)
+	lines, translations, err := t.fileSysMgt.RetrieveEditionTXTPage(edition, pageKey)
 	if err != nil {
 		return nil, fmt.Errorf("failed to retrieve TXT page for edition %s: %v", edition.Key, err)
 	}
 
-	linesInput := tei2.LinesInput{
-		LinesByKeys: map[string]tei2.Lines{
-			fmt.Sprintf("%d", pageNum): {
-				TranscriptionLines: lines,
-				Translations:       translations,
-			},
-		},
+	pageLines := tei2.Lines{
+		TranscriptionLines: lines,
+		Translations:       translations,
 	}
-	return tei2.BuildTEIFromLines(linesInput, nil, nil)
+	return tei2.BuildTEIFromLines(pageKey, pageLines, nil, "")
 }

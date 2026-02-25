@@ -243,8 +243,10 @@ Recommended when OCR layout exists.
 ### Lines Builder
 
 ```go
-BuildTEIFromLines(linesInput, entities, imageURLs)
+BuildTEIFromLines(pageKey, lines, entities, imageUrl)
 ```
+
+Builds TEI for a single page. `pageKey` identifies the page (e.g. `"1"`, `"page1"`); `lines` is that page’s transcription and translations; `imageUrl` is the facsimile URL for that page.
 
 Used when:
 

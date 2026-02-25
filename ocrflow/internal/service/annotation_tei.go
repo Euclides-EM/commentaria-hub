@@ -209,23 +209,13 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		imageURL = path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 	}
 
-	linesInput := tei2.LinesInput{
-		LinesByKeys: map[string]tei2.Lines{
-			pageNumOrKey: {
-				TranscriptionLines: lines,
-				Translations:       translations,
-			},
-		},
+	pageLines := tei2.Lines{
+		TranscriptionLines: lines,
+		Translations:       translations,
 	}
 
 	// IMPORTANT: For the Lines builder, mentions must use BlockID="b1" and LineID="l%04d".
 	// Your results may not have these IDs in Location. If they do not, the mention rows above get skipped.
 	// Profiles still get emitted, which is safe.
-	return tei2.BuildTEIFromLines(
-		linesInput,
-		items,
-		map[string]string{
-			pageNumOrKey: imageURL,
-		},
-	)
+	return tei2.BuildTEIFromLines(pageNumOrKey, pageLines, items, imageURL)
 }

@@ -11,27 +11,20 @@ import (
 	"github.com/samber/lo"
 )
 
+// BuildTEIFromLines builds TEI for a single page. pageKey identifies the page (e.g. "1", "page1").
 func BuildTEIFromLines(
-	lines LinesInput,
+	pageKey string,
+	lines Lines,
 	entities []EntityItem,
-	imageUrls map[string]string,
+	imageUrl string,
 ) (*model.TEI, error) {
-	// Stable ordering of keys
-	keys := make([]string, 0, len(lines.LinesByKeys))
-	for k := range lines.LinesByKeys {
-		keys = append(keys, k)
-	}
-	sort.Strings(keys)
-
+	pageLines := lines.TranscriptionLines
+	orderedKeys := make([]string, 0, len(pageLines))
 	lineTextByKey := make(map[string]string)
-	orderedKeys := make([]string, 0)
-	for _, pageKey := range keys {
-		pageLines := lines.LinesByKeys[pageKey].TranscriptionLines
-		for i := 1; i <= len(pageLines); i++ {
-			k := occKey(pageKey, "b1", fmt.Sprintf("l%04d", i))
-			orderedKeys = append(orderedKeys, k)
-			lineTextByKey[k] = pageLines[i-1]
-		}
+	for i := 1; i <= len(pageLines); i++ {
+		k := occKey(pageKey, "b1", fmt.Sprintf("l%04d", i))
+		orderedKeys = append(orderedKeys, k)
+		lineTextByKey[k] = pageLines[i-1]
 	}
 	getLineText := func(key string) string { return lineTextByKey[key] }
 	occByKey := buildEntitiesOccurrences(entities, orderedKeys, getLineText)
@@ -73,121 +66,109 @@ func BuildTEIFromLines(
 
 	// Collect language keys in stable order
 	langSet := make(map[string]bool)
-	for _, key := range keys {
-		for lang := range lines.LinesByKeys[key].Translations {
-			langSet[lang] = true
-		}
+	for lang := range lines.Translations {
+		langSet[lang] = true
 	}
 	langs := lo.Keys(langSet)
 	sort.Strings(langs)
 
-	for _, pageKey := range keys {
-		pageLines := lines.LinesByKeys[pageKey]
+	sKey := sanitizeID(pageKey)
+	surfaceID := surfaceID(pageKey)
 
-		sKey := sanitizeID(pageKey)
-		surfaceID := surfaceID(pageKey)
-
-		img := ""
-		if imageUrls != nil {
-			img = imageUrls[pageKey]
-		}
-
-		blockZoneID := fmt.Sprintf("z_blk_%s_1", sKey)
-		zones := []model.Zone{
-			{XmlID: blockZoneID, Type: "block", ULX: 0, ULY: 0, LRX: 0, LRY: 0},
-		}
-		for i := 1; i <= len(pageLines.TranscriptionLines); i++ {
-			segID := segXMLID(pageKey, i)
-			lineZoneID := "z_" + segID
-			zones = append(zones, model.Zone{
-				XmlID:   lineZoneID,
-				Type:    "line",
-				Corresp: "#" + blockZoneID,
-				ULX:     0, ULY: 0, LRX: 0, LRY: 0,
-			})
-		}
-
-		doc.Facsimile.Surfaces = append(doc.Facsimile.Surfaces, model.Surface{
-			XmlID: surfaceID,
-			Facs:  img,
-			N:     pageKey,
-			Zones: zones,
+	blockZoneID := fmt.Sprintf("z_blk_%s_1", sKey)
+	zones := []model.Zone{
+		{XmlID: blockZoneID, Type: "block", ULX: 0, ULY: 0, LRX: 0, LRY: 0},
+	}
+	for i := 1; i <= len(pageLines); i++ {
+		segID := segXMLID(pageKey, i)
+		lineZoneID := "z_" + segID
+		zones = append(zones, model.Zone{
+			XmlID:   lineZoneID,
+			Type:    "line",
+			Corresp: "#" + blockZoneID,
+			ULX:     0, ULY: 0, LRX: 0, LRY: 0,
 		})
+	}
 
-		doc.Text.Body.PBs = append(doc.Text.Body.PBs, model.PB{
-			Facs: "#" + surfaceID,
-			N:    pageKey,
+	doc.Facsimile.Surfaces = append(doc.Facsimile.Surfaces, model.Surface{
+		XmlID: surfaceID,
+		Facs:  imageUrl,
+		N:     pageKey,
+		Zones: zones,
+	})
+
+	doc.Text.Body.PBs = append(doc.Text.Body.PBs, model.PB{
+		Facs: "#" + surfaceID,
+		N:    pageKey,
+	})
+
+	const blockID = "b1"
+	ab := model.AB{
+		XmlID: "b1_" + sKey,
+		Type:  "transcription-block",
+		Facs:  "#" + blockZoneID,
+		Nodes: []model.ABNode{},
+	}
+
+	for i, line := range pageLines {
+		lineID := fmt.Sprintf("l%04d", i+1)
+		segID := segXMLID(pageKey, i+1)
+		lineZoneID := "z_" + segID
+		occs := occByKey[occKey(pageKey, blockID, lineID)]
+		nodes := buildInlineNodesWithAnchors(line, occs)
+		for _, nd := range nodes {
+			ab.Nodes = append(ab.Nodes, nd)
+		}
+		ab.Nodes = append(ab.Nodes, model.ABNode{
+			LB: &model.LB{XmlID: segID, Facs: "#" + lineZoneID},
 		})
+	}
 
-		const blockID = "b1"
-		ab := model.AB{
-			XmlID: "b1_" + sKey,
-			Type:  "transcription-block",
-			Facs:  "#" + blockZoneID,
-			Nodes: []model.ABNode{},
+	transDiv := model.Div{
+		Type: "transcription",
+		N:    pageKey,
+		Abs:  []model.AB{ab},
+	}
+
+	doc.Text.Body.Divs = append(doc.Text.Body.Divs, transDiv)
+	// --- translation divs ---
+	for _, lang := range langs {
+		trLines := lines.Translations[lang]
+		if len(trLines) == 0 {
+			continue
 		}
 
-		for i, line := range pageLines.TranscriptionLines {
-			lineID := fmt.Sprintf("l%04d", i+1)
-			segID := segXMLID(pageKey, i+1)
-			lineZoneID := "z_" + segID
-			occs := occByKey[occKey(pageKey, blockID, lineID)]
-			nodes := buildInlineNodesWithAnchors(line, occs)
-			for _, nd := range nodes {
-				ab.Nodes = append(ab.Nodes, nd)
-			}
-			ab.Nodes = append(ab.Nodes, model.ABNode{
-				LB: &model.LB{XmlID: segID, Facs: "#" + lineZoneID},
-			})
-		}
-
-		transDiv := model.Div{
-			Type: "transcription",
-			N:    pageKey,
-			Abs:  []model.AB{ab},
-		}
-
-		doc.Text.Body.Divs = append(doc.Text.Body.Divs, transDiv)
-		// --- translation divs ---
-		for _, lang := range langs {
-			trLines := pageLines.Translations[lang]
-			if len(trLines) == 0 {
-				continue
-			}
-
-			trDiv := model.Div{
-				Type:    "translation",
-				XmlLang: lang,
-				N:       pageKey,
-				Abs: []model.AB{
-					{
-						XmlID: "tr_" + sanitizeID(lang) + "_" + sKey,
-						Type:  "translation-block",
-						Segs:  []model.Seg{},
-					},
+		trDiv := model.Div{
+			Type:    "translation",
+			XmlLang: lang,
+			N:       pageKey,
+			Abs: []model.AB{
+				{
+					XmlID: "tr_" + sanitizeID(lang) + "_" + sKey,
+					Type:  "translation-block",
+					Segs:  []model.Seg{},
 				},
-			}
-
-			if len(trLines) == len(pageLines.TranscriptionLines) {
-				for i, tline := range trLines {
-					corresp := "#" + segXMLID(pageKey, i+1)
-					trDiv.Abs[0].Segs = append(trDiv.Abs[0].Segs, model.Seg{
-						Corresp: corresp,
-						Content: []model.Inline{{Text: tline}},
-					})
-				}
-			} else {
-				// If translation lines don't match transcription lines, just add them without corresp
-				for _, tline := range trLines {
-					trDiv.Abs[0].Segs = append(trDiv.Abs[0].Segs, model.Seg{
-						Content: []model.Inline{{Text: tline}},
-					})
-				}
-			}
-
-			doc.Text.Body.Divs = append(doc.Text.Body.Divs, trDiv)
+			},
 		}
 
+		if len(trLines) == len(pageLines) {
+			for i, tline := range trLines {
+				corresp := "#" + segXMLID(pageKey, i+1)
+				trDiv.Abs[0].Segs = append(trDiv.Abs[0].Segs, model.Seg{
+					Corresp: corresp,
+					Content: []model.Inline{{Text: tline}},
+				})
+			}
+		} else {
+			// If translation lines don't match transcription lines, just add them without corresp
+			for _, tline := range trLines {
+				trDiv.Abs[0].Segs = append(trDiv.Abs[0].Segs, model.Seg{
+					Content: []model.Inline{{Text: tline}},
+				})
+			}
+		}
+
+		doc.Text.Body.Divs = append(doc.Text.Body.Divs, trDiv)
 	}
 
 	return doc, nil

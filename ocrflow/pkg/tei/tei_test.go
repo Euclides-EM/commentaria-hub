@@ -91,13 +91,11 @@ func testBuildTEIFromTXT(t *testing.T, td string) {
 		trContent := strings.TrimRight(string(trBytes), "\n")
 		lines.Translations[lang] = strings.Split(trContent, "\n")
 	}
-	linesInput := LinesInput{
-		LinesByKeys: map[string]Lines{
-			"page1": lines,
-		},
+	imgURL := ""
+	if m, ok := ImgURLsByTest[td]; ok {
+		imgURL = m[defaultPageKey]
 	}
-
-	tei, err := BuildTEIFromLines(linesInput, EntitiesByTest[td], ImgURLsByTest[td])
+	tei, err := BuildTEIFromLines(defaultPageKey, lines, EntitiesByTest[td], imgURL)
 	if err != nil {
 		t.Fatalf("failed to build TEI from lines for test %s: %v", td, err)
 	}
@@ -207,24 +205,21 @@ func TestTEI_ToXML_nil(t *testing.T) {
 	}
 }
 
-// TestBuildTEIFromLines_emptyInput builds TEI from empty lines input and checks valid output without panic.
+// TestBuildTEIFromLines_emptyInput builds TEI from empty lines for one page and checks valid output without panic.
 func TestBuildTEIFromLines_emptyInput(t *testing.T) {
-	input := LinesInput{
-		LinesByKeys: map[string]Lines{},
-	}
-	tei, err := BuildTEIFromLines(input, nil, nil)
+	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: nil, Translations: nil}, nil, "")
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines(empty): %v", err)
 	}
 	if tei == nil {
 		t.Fatal("BuildTEIFromLines returned nil")
 	}
-	// Should have no surfaces, no divs
-	if len(tei.Facsimile.Surfaces) != 0 {
-		t.Errorf("expected 0 surfaces, got %d", len(tei.Facsimile.Surfaces))
+	// One page with no lines still produces one surface and one (empty) div
+	if len(tei.Facsimile.Surfaces) != 1 {
+		t.Errorf("expected 1 surface, got %d", len(tei.Facsimile.Surfaces))
 	}
-	if len(tei.Text.Body.Divs) != 0 {
-		t.Errorf("expected 0 divs, got %d", len(tei.Text.Body.Divs))
+	if len(tei.Text.Body.Divs) != 1 {
+		t.Errorf("expected 1 div, got %d", len(tei.Text.Body.Divs))
 	}
 	out, err := tei.ToXML()
 	if err != nil {
@@ -237,14 +232,10 @@ func TestBuildTEIFromLines_emptyInput(t *testing.T) {
 
 // TestBuildTEIFromLines_noEntities verifies that TEI built without entities has no encodingDesc or standOff.
 func TestBuildTEIFromLines_noEntities(t *testing.T) {
-	input := LinesInput{
-		LinesByKeys: map[string]Lines{
-			"page1": {
-				TranscriptionLines: []string{"First line.", "Second line."},
-			},
-		},
+	lines := Lines{
+		TranscriptionLines: []string{"First line.", "Second line."},
 	}
-	tei, err := BuildTEIFromLines(input, nil, nil)
+	tei, err := BuildTEIFromLines("page1", lines, nil, "")
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines: %v", err)
 	}
@@ -279,47 +270,44 @@ func TestBuildTEIFromLines_noEntities(t *testing.T) {
 	}
 }
 
-// TestBuildTEIFromLines_multiplePages verifies that multiple page keys produce multiple surfaces and divs.
+// TestBuildTEIFromLines_multiplePages verifies that one page per call produces one surface and one div each.
 func TestBuildTEIFromLines_multiplePages(t *testing.T) {
-	input := LinesInput{
-		LinesByKeys: map[string]Lines{
-			"page1": {TranscriptionLines: []string{"Page one."}},
-			"page2": {TranscriptionLines: []string{"Page two."}},
-		},
-	}
-	tei, err := BuildTEIFromLines(input, nil, nil)
+	tei1, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{"Page one."}}, nil, "")
 	if err != nil {
-		t.Fatalf("BuildTEIFromLines: %v", err)
+		t.Fatalf("BuildTEIFromLines(page1): %v", err)
 	}
-	if n := len(tei.Facsimile.Surfaces); n != 2 {
-		t.Errorf("expected 2 surfaces, got %d", n)
+	tei2, err := BuildTEIFromLines("page2", Lines{TranscriptionLines: []string{"Page two."}}, nil, "")
+	if err != nil {
+		t.Fatalf("BuildTEIFromLines(page2): %v", err)
 	}
-	if n := len(tei.Text.Body.PBs); n != 2 {
-		t.Errorf("expected 2 pb, got %d", n)
-	}
-	if n := len(tei.Text.Body.Divs); n != 2 {
-		t.Errorf("expected 2 divs, got %d", n)
-	}
-	// Page keys should be stable (sorted)
-	ns := []string{tei.Facsimile.Surfaces[0].N, tei.Facsimile.Surfaces[1].N}
-	if ns[0] != "page1" || ns[1] != "page2" {
-		t.Errorf("surface order (n) expected page1, page2; got %q", ns)
+	for _, tc := range []struct {
+		name string
+		tei  *model.TEI
+		page string
+	}{
+		{"page1", tei1, "page1"},
+		{"page2", tei2, "page2"},
+	} {
+		if n := len(tc.tei.Facsimile.Surfaces); n != 1 {
+			t.Errorf("%s: expected 1 surface, got %d", tc.name, n)
+		}
+		if n := len(tc.tei.Text.Body.Divs); n != 1 {
+			t.Errorf("%s: expected 1 div, got %d", tc.name, n)
+		}
+		if tc.tei.Facsimile.Surfaces[0].N != tc.page {
+			t.Errorf("%s: expected surface n=%q, got %q", tc.name, tc.page, tc.tei.Facsimile.Surfaces[0].N)
+		}
 	}
 }
 
-// TestBuildTEIFromLines_nilImageUrls verifies that nil imageUrls does not panic and facs is empty.
-func TestBuildTEIFromLines_nilImageUrls(t *testing.T) {
-	input := LinesInput{
-		LinesByKeys: map[string]Lines{
-			"page1": {TranscriptionLines: []string{"One line."}},
-		},
-	}
-	tei, err := BuildTEIFromLines(input, nil, nil)
+// TestBuildTEIFromLines_emptyImageUrl verifies that empty imageUrl does not panic and facs is empty.
+func TestBuildTEIFromLines_emptyImageUrl(t *testing.T) {
+	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{"One line."}}, nil, "")
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines: %v", err)
 	}
 	if tei.Facsimile.Surfaces[0].Facs != "" {
-		t.Errorf("expected empty facs when imageUrls is nil, got %q", tei.Facsimile.Surfaces[0].Facs)
+		t.Errorf("expected empty facs when imageUrl is empty, got %q", tei.Facsimile.Surfaces[0].Facs)
 	}
 }
 
@@ -327,11 +315,6 @@ func TestBuildTEIFromLines_nilImageUrls(t *testing.T) {
 func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 	// "café" has 'é' as 2 bytes; entity "fé" (bytes 3–5) must not break UTF-8
 	line := "café"
-	input := LinesInput{
-		LinesByKeys: map[string]Lines{
-			"page1": {TranscriptionLines: []string{line}},
-		},
-	}
 	entities := []EntityItem{
 		{
 			Ref:   "ent_1",
@@ -339,7 +322,7 @@ func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 5}, // end of 'é' (2 bytes)
 		},
 	}
-	tei, err := BuildTEIFromLines(input, entities, nil)
+	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{line}}, entities, "")
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines: %v", err)
 	}
