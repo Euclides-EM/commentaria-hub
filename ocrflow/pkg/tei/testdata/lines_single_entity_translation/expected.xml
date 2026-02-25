@@ -24,15 +24,6 @@
         </taxonomy>
       </classDecl>
     </encodingDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="ent_ibn_rushd">
-            <persName>Ibn Rushd</persName>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
     <standOff>
       <spanGrp xml:id="mentions" type="ner-mentions">
         <span xml:id="m_1" from="#a_m1_s" to="#a_m1_e" ana="#feat_person" ref="#ent_ibn_rushd"></span>

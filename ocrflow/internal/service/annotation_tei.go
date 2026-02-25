@@ -111,13 +111,20 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 						ana = ""
 					}
 					items = append(items, tei2.EntityItem{
-						Ref:     entRef,
-						PageID:  pageNumOrKey,
-						BlockID: val.Location.TextBlockID,
-						LineID:  val.Location.TextLineID,
-						Start:   val.Location.CharactersSpan.Start,
-						End:     val.Location.CharactersSpan.End,
-						Ana:     ana,
+						Ref: entRef,
+						Start: tei2.EntityLocationIndex{
+							PageID:     pageNumOrKey,
+							BlockID:    val.Location.TextBlockID,
+							LineID:     val.Location.TextLineID,
+							ByteOffset: val.Location.CharactersSpan.Start,
+						},
+						End: tei2.EntityLocationIndex{
+							PageID:     pageNumOrKey,
+							BlockID:    val.Location.TextBlockID,
+							LineID:     val.Location.TextLineID,
+							ByteOffset: val.Location.CharactersSpan.End,
+						},
+						Ana: ana,
 					})
 				}
 

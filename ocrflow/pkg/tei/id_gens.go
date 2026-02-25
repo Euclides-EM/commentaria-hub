@@ -48,8 +48,19 @@ func factTypeToCategoryID(relationType string) string {
 	return "fact_" + sanitizeID(strings.ToLower(strings.ReplaceAll(s, " ", "_")))
 }
 
+const occKeySep = "||"
+
 func occKey(pageID, blockID, lineID string) string {
-	return pageID + "||" + blockID + "||" + lineID
+	return pageID + occKeySep + blockID + occKeySep + lineID
+}
+
+// parseOccKey splits occKey back into pageID, blockID, lineID. Returns empty strings if key is invalid.
+func parseOccKey(k string) (pageID, blockID, lineID string) {
+	parts := strings.SplitN(k, occKeySep, 3)
+	if len(parts) != 3 {
+		return "", "", ""
+	}
+	return parts[0], parts[1], parts[2]
 }
 
 func surfaceID(pageID string) string {

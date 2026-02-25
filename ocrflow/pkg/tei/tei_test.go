@@ -334,13 +334,9 @@ func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 	}
 	entities := []EntityItem{
 		{
-			Ref:     "ent_1",
-			PageID:  "page1",
-			BlockID: "b1",
-			LineID:  "l0001",
-			Start:   3, // start of 'é'
-			End:     5, // end of 'é' (2 bytes)
-			Element: "persName",
+			Ref:   "ent_1",
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 3}, // start of 'é'
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 5}, // end of 'é' (2 bytes)
 		},
 	}
 	tei, err := BuildTEIFromLines(input, entities, nil)

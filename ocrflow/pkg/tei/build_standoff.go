@@ -86,23 +86,6 @@ func buildStandOff(doc *model.TEI, entities []EntityItem) {
 	}
 
 	var rows []factRow
-	for i := range entities {
-		it := &entities[i]
-		if strings.TrimSpace(it.ObjectRef) == "" {
-			continue
-		}
-		ref := ensureHash(it.Ref)
-		if ref == "" {
-			continue
-		}
-		rows = append(rows, factRow{
-			entityID:           ref,
-			feature:            it.Type,
-			objectRef:          it.ObjectRef,
-			cert:               it.Cert,
-			evidenceMentionIDs: it.EvidenceMentionIDs,
-		})
-	}
 
 	if len(rows) == 0 {
 		return

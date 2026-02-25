@@ -16,20 +16,21 @@ type EntityItem struct {
 	Ref string // entity ref; normalized to # form when building
 
 	// Inline mention (optional). When set, this item is emitted in the text.
-	PageID  string
-	BlockID string
-	LineID  string
-	Start   int // byte offset, inclusive
-	End     int // byte offset, exclusive
+	Start EntityLocationIndex // byte offset is inclusive
+	End   EntityLocationIndex // byte offset is exclusive
 
-	Element string // e.g. "persName", "orgName"
-	Ana     string
+	Ana string
 
 	// Profile / relation (optional). When Value is set, contributes to teiHeader profileDesc (keywords).
-	// When ObjectRef is set, contributes to standOff listRelation.
 	Type               string
 	Value              string
-	ObjectRef          string
 	Cert               float64
 	EvidenceMentionIDs []string
+}
+
+type EntityLocationIndex struct {
+	PageID     string
+	BlockID    string
+	LineID     string
+	ByteOffset int
 }

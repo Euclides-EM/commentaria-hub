@@ -26,9 +26,6 @@ func buildEncodingDesc(entities []EntityItem) *model.EncodingDesc {
 		if it.Type == "feature_name" && strings.TrimSpace(it.Value) != "" {
 			featNames[it.Value] = true
 		}
-		if strings.TrimSpace(it.ObjectRef) != "" {
-			factTypes[it.Type] = true
-		}
 	}
 	var names []string
 	for n := range featNames {

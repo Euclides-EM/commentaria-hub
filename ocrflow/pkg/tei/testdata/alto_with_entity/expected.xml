@@ -12,11 +12,6 @@
         <p>Derived from ALTO OCR</p>
       </sourceDesc>
     </fileDesc>
-    <standOff>
-      <listRelation>
-        <relation xml:id="fact_1" name="educatedAt" active="#ent_aristotle" passive="#ent_lyceum" ana="#fact_educated_at" cert="0.85"></relation>
-      </listRelation>
-    </standOff>
   </teiHeader>
   <facsimile>
     <surface xml:id="page_page1" facs="https://example.com/alto_page1.png" n="page1"></surface>

@@ -15,27 +15,12 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="features">
-          <category xml:id="fact_educated_at">
-            <catDesc>educated_at fact</catDesc>
-          </category>
           <category xml:id="fact_feature_assignment">
             <catDesc>Feature assignment (fact)</catDesc>
           </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="ent_john">
-            <persName>John</persName>
-          </person>
-          <person xml:id="ent_oxford">
-            <persName>Oxford</persName>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
     <standOff>
       <spanGrp xml:id="mentions" type="ner-mentions">
         <span xml:id="m_1" from="#a_m1_s" to="#a_m1_e" ref="#ent_john"></span>
