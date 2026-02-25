@@ -7,4 +7,7 @@ var ImgURLsByTest = map[string]map[string]string{
 	"entity_with_fact": {
 		defaultPageKey: "https://example.com/page2.png",
 	},
+	"alto_with_entity": {
+		defaultPageKey: "https://example.com/alto_page1.png",
+	},
 }

@@ -212,7 +212,15 @@ func segXMLID(key string, oneBasedIdx int) string {
 	return fmt.Sprintf("ln_%s_%04d", sanitizeID(key), oneBasedIdx)
 }
 
+// anchorEvent is a start or end of a mention span at a byte position.
+type anchorEvent struct {
+	pos   int
+	isEnd bool
+	oc    mentionInLine
+}
+
 // buildInlineNodesWithAnchors builds ABNodes with anchor pairs around mention text (stand-off style).
+// Overlapping mentions are supported: all get anchors; at each position we emit end anchors then start anchors, then text.
 func buildInlineNodesWithAnchors(line string, occs []mentionInLine) []model.ABNode {
 	if line == "" {
 		return nil
@@ -222,52 +230,91 @@ func buildInlineNodesWithAnchors(line string, occs []mentionInLine) []model.ABNo
 	}
 
 	bLen := len(line)
-	valid := make([]mentionInLine, 0, len(occs))
+	var events []anchorEvent
 	for _, oc := range occs {
-		if oc.Start < 0 || oc.End <= oc.Start {
-			continue
-		}
-		if oc.Start >= bLen {
+		if oc.Start < 0 || oc.End <= oc.Start || oc.Start >= bLen {
 			continue
 		}
 		end := oc.End
 		if end > bLen {
 			end = bLen
 		}
-		valid = append(valid, mentionInLine{Start: oc.Start, End: end, Ref: oc.Ref, Ana: oc.Ana, MentionID: oc.MentionID})
+		events = append(events, anchorEvent{pos: oc.Start, isEnd: false, oc: mentionInLine{Start: oc.Start, End: end, Ref: oc.Ref, Ana: oc.Ana, MentionID: oc.MentionID}})
+		events = append(events, anchorEvent{pos: end, isEnd: true, oc: mentionInLine{Start: oc.Start, End: end, Ref: oc.Ref, Ana: oc.Ana, MentionID: oc.MentionID}})
 	}
-	if len(valid) == 0 {
+	if len(events) == 0 {
 		return []model.ABNode{{CharData: line}}
 	}
-
-	// remove overlaps (simple, non-nesting)
-	outOccs := make([]mentionInLine, 0, len(valid))
-	curEnd := -1
-	for _, oc := range valid {
-		if oc.Start < curEnd {
-			continue
+	sort.Slice(events, func(i, j int) bool {
+		if events[i].pos != events[j].pos {
+			return events[i].pos < events[j].pos
 		}
-		outOccs = append(outOccs, oc)
-		curEnd = oc.End
-	}
-
-	out := make([]model.ABNode, 0, 3*len(outOccs)+1)
-	cursor := 0
-	for _, oc := range outOccs {
-		if cursor < oc.Start {
-			out = append(out, model.ABNode{CharData: line[cursor:oc.Start]})
+		if events[i].isEnd != events[j].isEnd {
+			return events[i].isEnd // end before start at same position
 		}
-		entityText := safeSliceByByteRange(line, oc.Start, oc.End)
-		anchorPart := strings.ReplaceAll(oc.MentionID, "m_", "m") // m_1 -> m1 for a_m1_s, a_m1_e
-		out = append(out,
-			model.ABNode{Anchor: &model.Anchor{XmlID: "a_" + anchorPart + "_s"}},
-			model.ABNode{CharData: entityText},
-			model.ABNode{Anchor: &model.Anchor{XmlID: "a_" + anchorPart + "_e"}},
-		)
-		cursor = oc.End
+		// Same position, same type: for ends, close inner (started later) first so a_m3_e before a_m1_e
+		if events[i].isEnd {
+			return events[i].oc.Start > events[j].oc.Start
+		}
+		return events[i].oc.Start < events[j].oc.Start
+	})
+
+	// Distinct positions so we can output text from p to nextP after start anchors at p
+	posSet := make(map[int]struct{})
+	for _, e := range events {
+		posSet[e.pos] = struct{}{}
 	}
-	if cursor < len(line) {
-		out = append(out, model.ABNode{CharData: line[cursor:]})
+	positions := make([]int, 0, len(posSet))
+	for pos := range posSet {
+		positions = append(positions, pos)
+	}
+	sort.Ints(positions)
+
+	var out []model.ABNode
+	pos := 0
+	runStart := 0 // after end anchors, next run can start here (for " Smith" when gap is single char)
+	for idx, p := range positions {
+		nextP := len(line)
+		if idx+1 < len(positions) {
+			nextP = positions[idx+1]
+		}
+		hasStart := false
+		for _, e := range events {
+			if e.pos == p && !e.isEnd {
+				hasStart = true
+				break
+			}
+		}
+		// If we have start anchors at p and runStart < p with a tiny gap (≤1 char), skip outputting gap here; it goes in the run after starts.
+		if !(hasStart && runStart < p && p-runStart <= 1) && pos < p {
+			out = append(out, model.ABNode{CharData: safeSliceByByteRange(line, pos, p)})
+			runStart = p // next run starts at p
+		}
+		for _, e := range events {
+			if e.pos != p {
+				continue
+			}
+			if e.isEnd {
+				anchorPart := strings.ReplaceAll(e.oc.MentionID, "m_", "m")
+				out = append(out, model.ABNode{Anchor: &model.Anchor{XmlID: "a_" + anchorPart + "_e"}})
+				runStart = p
+			}
+		}
+		for _, e := range events {
+			if e.pos != p || e.isEnd {
+				continue
+			}
+			anchorPart := strings.ReplaceAll(e.oc.MentionID, "m_", "m")
+			out = append(out, model.ABNode{Anchor: &model.Anchor{XmlID: "a_" + anchorPart + "_s"}})
+		}
+		if hasStart && runStart < nextP {
+			out = append(out, model.ABNode{CharData: safeSliceByByteRange(line, runStart, nextP)})
+			runStart = nextP
+		}
+		pos = nextP
+	}
+	if runStart < len(line) {
+		out = append(out, model.ABNode{CharData: safeSliceByByteRange(line, runStart, len(line))})
 	}
 	return mergeAdjacentCharDataNodes(out)
 }

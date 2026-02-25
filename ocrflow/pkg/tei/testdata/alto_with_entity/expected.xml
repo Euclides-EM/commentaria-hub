@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Converted from ALTO</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished research data</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Derived from ALTO OCR</p>
+      </sourceDesc>
+    </fileDesc>
+    <standOff>
+      <listRelation>
+        <relation xml:id="fact_1" name="educatedAt" active="#ent_aristotle" passive="#ent_lyceum" ana="#fact_educated_at" cert="0.85"></relation>
+      </listRelation>
+    </standOff>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="page_page1" facs="https://example.com/alto_page1.png" n="page1"></surface>
+  </facsimile>
+  <text>
+    <body>
+      <pb facs="#page_page1" n="page1"></pb>
+      <div type="transcription" n="page1">
+        <ab xml:id="b_b1" type="ocr-block">
+          <seg xml:id="ln_page1_b1_0001">
+            <name xml:id="m_1" ref="#ent_aristotle">Aristotle</name>  wrote.
+          </seg>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

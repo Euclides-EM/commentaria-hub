@@ -24,6 +24,18 @@
         </taxonomy>
       </classDecl>
     </encodingDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ent_john">
+            <persName>John</persName>
+          </person>
+          <person xml:id="ent_oxford">
+            <persName>Oxford</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
     <standOff>
       <spanGrp xml:id="mentions" type="ner-mentions">
         <span xml:id="m_1" from="#a_m1_s" to="#a_m1_e" ref="#ent_john"></span>
@@ -48,11 +60,17 @@
       <div type="transcription" n="page1">
         <ab xml:id="b1_page1" facs="#z_blk_page1_1" type="transcription-block">
           <anchor xml:id="a_m1_s"></anchor>John
-          <anchor xml:id="a_m1_e"></anchor> studied at 
-          <anchor xml:id="a_m2_s"></anchor>Oxford
+          <anchor xml:id="a_m1_e"></anchor>
+          <anchor xml:id="a_m2_s"></anchor> studied at Oxford
           <anchor xml:id="a_m2_e"></anchor>.
           <lb xml:id="ln_page1_0001" facs="#z_ln_page1_0001"></lb>Later he moved to Paris.
           <lb xml:id="ln_page1_0002" facs="#z_ln_page1_0002"></lb>
+        </ab>
+      </div>
+      <div type="translation" xml:lang="fr" n="page1">
+        <ab xml:id="tr_fr_page1" type="translation-block">
+          <seg corresp="#ln_page1_0001">John a étudié à Oxford.</seg>
+          <seg corresp="#ln_page1_0002">Puis il s’est installé à Paris.</seg>
         </ab>
       </div>
     </body>

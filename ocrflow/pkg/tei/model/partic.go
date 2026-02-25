@@ -1,6 +1,6 @@
 package model
 
-// ParticDesc holds participant/entity descriptions (listOrg and list).
+// ParticDesc holds participant/entity descriptions.
 type ParticDesc struct {
 	List *List `xml:"list,omitempty"`
 }

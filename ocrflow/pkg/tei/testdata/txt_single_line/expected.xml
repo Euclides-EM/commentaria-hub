@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Converted from lines</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished research data</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Derived from extracted text lines</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="page_page1" n="page1">
+      <zone xml:id="z_blk_page1_1" type="block"></zone>
+      <zone xml:id="z_ln_page1_0001" type="line" corresp="#z_blk_page1_1"></zone>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <pb facs="#page_page1" n="page1"></pb>
+      <div type="transcription" n="page1">
+        <ab xml:id="b1_page1" facs="#z_blk_page1_1" type="transcription-block">Single line only.
+          <lb xml:id="ln_page1_0001" facs="#z_ln_page1_0001"></lb>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

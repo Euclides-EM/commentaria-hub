@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Converted from ALTO</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished research data</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Derived from ALTO OCR</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="page_page1" n="page1"></surface>
+  </facsimile>
+  <text>
+    <body>
+      <pb facs="#page_page1" n="page1"></pb>
+      <div type="transcription" n="page1">
+        <ab xml:id="b_b1" type="ocr-block">
+          <seg xml:id="ln_page1_b1_0001">Hello world.</seg>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

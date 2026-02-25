@@ -233,12 +233,8 @@ func buildStandOffMentions(doc *model.TEI, mentions []MentionForStandOff) {
 			Passive: ref,
 			Corresp: "#" + mid,
 		}
-		// Encode the predicate: use feature category on the relation so the fact is clearly typed.
-		if spanAna != "" {
-			rel.Ana = spanAna
-		} else {
-			rel.Ana = "#fact_feature_assignment"
-		}
+		// Feature-assignment relations point at the fact taxonomy category.
+		rel.Ana = "#fact_feature_assignment"
 		relations = append(relations, rel)
 	}
 
