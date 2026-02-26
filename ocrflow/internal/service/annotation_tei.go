@@ -9,7 +9,6 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
@@ -19,20 +18,20 @@ import (
 )
 
 type AnnotationTEI struct {
-	annotationSvc     *Annotation
-	fileSysMgt        *filesys.Manager
-	resultSvc         *Result
-	featureSvc        *Feature
-	tpsTranscriptions *store.TPSTranscriptions
+	annotationSvc *Annotation
+	fileSysMgt    *filesys.Manager
+	resultSvc     *Result
+	featureSvc    *Feature
+	editionSvc    *Edition
 }
 
-func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *filesys.Manager, resultSvc *Result, featureSvc *Feature, tpsTranscriptions *store.TPSTranscriptions) *AnnotationTEI {
+func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *filesys.Manager, resultSvc *Result, featureSvc *Feature, editionSvc *Edition) *AnnotationTEI {
 	return &AnnotationTEI{
-		annotationSvc:     annotationSvc,
-		fileSysMgt:        fileSysMgt,
-		resultSvc:         resultSvc,
-		featureSvc:        featureSvc,
-		tpsTranscriptions: tpsTranscriptions,
+		annotationSvc: annotationSvc,
+		fileSysMgt:    fileSysMgt,
+		resultSvc:     resultSvc,
+		featureSvc:    featureSvc,
+		editionSvc:    editionSvc,
 	}
 }
 
@@ -98,16 +97,10 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 	)
 
 	if ann.DatasetID == "tps" && ann.ID == "ann_1" {
-		transcription, enTranslation, err := t.tpsTranscriptions.Get(pageNumOrKey)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get TPS transcription for key %s: %v", pageNumOrKey, err)
+		if lines, translations, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
+			return nil, fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}
-		lines = strings.Split(transcription, "\n")
-		translations = map[string][]string{
-			"en": strings.Split(enTranslation, "\n"),
-		}
-		imageURL = futils.LocateFileInDir(
-			t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID),
+		imageURL = futils.LocateFileInDir(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID),
 			func(filename string) bool {
 				return strings.HasPrefix(filename, pageNumOrKey)
 			},
@@ -116,9 +109,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 			log.Printf("warning: failed to locate image for TPS page %s in dataset %s", pageNumOrKey, ann.DatasetID)
 		}
 	} else {
-		var err error
-		lines, translations, err = t.fileSysMgt.RetrieveAnnotationTXTPage(ann, pageNumOrKey)
-		if err != nil {
+		if lines, translations, err = t.fileSysMgt.RetrieveAnnotationTXTPage(ann, pageNumOrKey); err != nil {
 			return nil, fmt.Errorf("failed to retrieve TXT page for annotation %s: %v", ann.ID, err)
 		}
 		imageURL = path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
@@ -130,6 +121,30 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 	}
 
 	return tei2.BuildTEIFromLines(pageNumOrKey, pageLines, buildItems(results, feats, lines), imageURL)
+}
+
+func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []string, translations map[string][]string, err error) {
+	edition, err := t.editionSvc.GetEditionByID(editionKey)
+	if err != nil {
+		return nil, nil, fmt.Errorf("failed to get edition by ID %s: %v", editionKey, err)
+	}
+	if edition.Title == nil {
+		return nil, nil, fmt.Errorf("edition %s does not have a title page transcription", editionKey)
+	}
+	transcription = strings.Split(*edition.Title, "\n")
+	if edition.Imprint != nil {
+		transcription = append(transcription, strings.Split(*edition.Imprint, "\n")...)
+	}
+	if edition.TitleEN == nil {
+		return transcription, nil, nil
+	}
+	translations = map[string][]string{
+		"en": strings.Split(*edition.TitleEN, "\n"),
+	}
+	if edition.ImprintEN != nil {
+		translations["en"] = append(translations["en"], strings.Split(*edition.ImprintEN, "\n")...)
+	}
+	return transcription, translations, nil
 }
 
 func buildItems(results []*feature.Result, feats []*feature.Feature, transcription []string) []tei2.EntityItem {

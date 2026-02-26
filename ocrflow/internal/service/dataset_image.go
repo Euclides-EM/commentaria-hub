@@ -20,18 +20,18 @@ import (
 )
 
 type DatasetImg struct {
-	datasetSvc        *Dataset
-	fileSysMgt        *filesys.Manager
-	datasetImgStore   *store.DatasetImageStore
-	tpsTranscriptions *store.TPSTranscriptions
+	datasetSvc      *Dataset
+	fileSysMgt      *filesys.Manager
+	datasetImgStore *store.DatasetImageStore
+	editionSvc      *Edition
 }
 
-func NewDatasetImg(datasetSvc *Dataset, fileSysMgt *filesys.Manager, datasetImgStore *store.DatasetImageStore, tpsTranscriptions *store.TPSTranscriptions) *DatasetImg {
+func NewDatasetImg(datasetSvc *Dataset, fileSysMgt *filesys.Manager, datasetImgStore *store.DatasetImageStore, editionSvc *Edition) *DatasetImg {
 	return &DatasetImg{
-		datasetSvc:        datasetSvc,
-		fileSysMgt:        fileSysMgt,
-		datasetImgStore:   datasetImgStore,
-		tpsTranscriptions: tpsTranscriptions,
+		datasetSvc:      datasetSvc,
+		fileSysMgt:      fileSysMgt,
+		datasetImgStore: datasetImgStore,
+		editionSvc:      editionSvc,
 	}
 }
 
@@ -88,13 +88,18 @@ func (d *DatasetImg) ListImagesMetadata(datasetId string, uniqueOnly bool) ([]*m
 
 func (d *DatasetImg) normalizeTPSImagesMetadata(images []*model.ImageMetadata, uniqueOnly bool) ([]*model.ImageMetadata, error) {
 	tpsImages := make(map[string][]*model.ImageMetadata)
-	transcribedTPSKeys, err := d.tpsTranscriptions.Keys()
+	editionsWithTranscribedTPS, err := d.editionSvc.ListEditions(func(e any) bool {
+		ed := e.(*model.Edition)
+		return ed.Title != nil
+	}, nil, 0, 10000)
 	if err != nil {
-		return nil, fmt.Errorf("failed to get TPS transcription keys: %w", err)
+		return nil, fmt.Errorf("failed to list editions with transcribed title pages: %w", err)
 	}
+	transcribedTPSKeys, err := d.tpsTranscriptions.Keys()
 	transcribedTPSKeysSet := make(map[string]struct{})
-	for _, key := range transcribedTPSKeys {
-		transcribedTPSKeysSet[key] = struct{}{}
+	for _, e := range editionsWithTranscribedTPS {
+		ed := e.(*model.Edition)
+		transcribedTPSKeysSet[e] = struct{}{}
 	}
 	for _, img := range images {
 		key, ok := d.keyFromImageName(img.Filename, "tp")

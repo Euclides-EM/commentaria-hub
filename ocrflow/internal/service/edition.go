@@ -75,6 +75,9 @@ func (e *Edition) GetEditionByID(key string) (*model.Edition, error) {
 	if err != nil {
 		return nil, fmt.Errorf("failed to get edition by ID: %w", err)
 	}
+	if ed == nil {
+		return nil, fmt.Errorf("edition with key %s does not exist", key)
+	}
 	return ed, nil
 }
 
