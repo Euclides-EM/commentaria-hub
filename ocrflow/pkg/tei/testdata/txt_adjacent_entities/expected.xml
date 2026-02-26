@@ -16,8 +16,8 @@
       <spanGrp xml:id="highlights" type="highlights">
         <span xml:id="highlight_0" from="#anchor_m0_start" to="#anchor_m0_end" ana="#cat_first_name"></span>
         <span xml:id="highlight_1" from="#anchor_m1_start" to="#anchor_m1_end" ana="#cat_last_name">
-          <note ana="#prop_name_origin">English</note>
           <note ana="#prop_commonality">common</note>
+          <note ana="#prop_name_origin">English</note>
           <note ana="#prop_popularity">high</note>
         </span>
       </spanGrp>
@@ -27,8 +27,8 @@
       </interpGrp>
       <interpGrp xml:id="props" type="highlight-props">
         <interp xml:id="prop_commonality">commonality</interp>
-        <interp xml:id="prop_popularity">popularity</interp>
         <interp xml:id="prop_name_origin">name_origin</interp>
+        <interp xml:id="prop_popularity">popularity</interp>
       </interpGrp>
     </standOff>
   </teiHeader>
@@ -45,7 +45,7 @@
         <ab xml:id="transcription_anon_blk_page_page1_1" facs="#zone_blk_page_page1_1" type="transcription-block">
           <l xml:id="line_page_page1_1_1" facs="#z_line_page_page1_1_1">
             <anchor xml:id="anchor_m0_start"></anchor>John
-            <anchor xml:id="anchor_m0_end"></anchor>
+            <anchor xml:id="anchor_m0_end"></anchor> 
             <anchor xml:id="anchor_m1_start"></anchor>Smith
             <anchor xml:id="anchor_m1_end"></anchor>
           </l>

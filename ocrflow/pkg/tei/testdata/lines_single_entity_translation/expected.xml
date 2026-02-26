@@ -15,20 +15,20 @@
     <standOff>
       <spanGrp xml:id="highlights" type="highlights">
         <span xml:id="highlight_0" from="#anchor_m0_start" to="#anchor_m0_end" ana="#cat_person">
-          <note ana="#prop_latinized_name">Averroes</note>
-          <note ana="#prop_educated_at">University of Oxford</note>
           <note ana="#prop_born_in">Cordoba</note>
           <note ana="#prop_died_in">Marrakesh</note>
+          <note ana="#prop_educated_at">University of Oxford</note>
           <note ana="#prop_era">Medieval</note>
+          <note ana="#prop_latinized_name">Averroes</note>
         </span>
       </spanGrp>
       <interpGrp xml:id="categories" type="highlight-categories">
         <interp xml:id="cat_person">person</interp>
       </interpGrp>
       <interpGrp xml:id="props" type="highlight-props">
-        <interp xml:id="prop_educated_at">educated_at</interp>
         <interp xml:id="prop_born_in">born_in</interp>
         <interp xml:id="prop_died_in">died_in</interp>
+        <interp xml:id="prop_educated_at">educated_at</interp>
         <interp xml:id="prop_era">era</interp>
         <interp xml:id="prop_latinized_name">latinized_name</interp>
       </interpGrp>

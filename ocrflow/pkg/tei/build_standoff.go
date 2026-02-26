@@ -53,12 +53,13 @@ func buildHighlightCategoriesInterps(entities []EntityItem) []model.Interp {
 func buildHighlightPropsInterps(entities []EntityItem) []model.Interp {
 	var allProps []string
 	for _, entity := range entities {
-		for propKey, _ := range entity.Properties {
+		for propKey := range entity.Properties {
 			allProps = append(allProps, propKey)
 		}
 	}
 
 	allProps = lo.Uniq(allProps)
+	sort.Strings(allProps)
 
 	return lo.Map(allProps, func(prop string, _ int) model.Interp {
 		return model.Interp{
@@ -70,17 +71,21 @@ func buildHighlightPropsInterps(entities []EntityItem) []model.Interp {
 
 func buildHighlightSpans(entities []EntityItem) []model.Span {
 	return lo.Map(entities, func(e EntityItem, i int) model.Span {
+		propKeys := lo.Keys(e.Properties)
+		sort.Strings(propKeys)
+		notes := make([]model.Note, 0, len(propKeys))
+		for _, propKey := range propKeys {
+			notes = append(notes, model.Note{
+				Ana:  "#" + interpPropID(propKey),
+				Text: e.Properties[propKey],
+			})
+		}
 		return model.Span{
 			XmlID: spanHighlightID(i),
 			From:  "#" + startMentionAnchorID(i),
 			To:    "#" + endMentionAnchorID(i),
 			Ana:   "#" + interpCategoryID(e.Category),
-			Notes: lo.MapToSlice(e.Properties, func(propKey, propVal string) model.Note {
-				return model.Note{
-					Ana:  "#" + interpPropID(propKey),
-					Text: propVal,
-				}
-			}),
+			Notes: notes,
 		}
 	})
 }

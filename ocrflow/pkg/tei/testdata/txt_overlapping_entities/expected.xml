@@ -31,8 +31,8 @@
         <interp  xml:id="cat_proof_builder">proof builder</interp>
       </interpGrp>
       <interpGrp  type="highlight-props" xml:id="props">
-        <interp  xml:id="prop_stability">stability</interp>
         <interp  xml:id="prop_reliability">reliability</interp>
+        <interp  xml:id="prop_stability">stability</interp>
       </interpGrp>
     </standOff>
   </teiHeader>
@@ -59,7 +59,7 @@
             <anchor  xml:id="anchor_m2_start"></anchor>evi
             <anchor  xml:id="anchor_m2_end"></anchor>
             <anchor  xml:id="anchor_m3_start"></anchor>se
-            <anchor  xml:id="anchor_m0_end"></anchor>d
+            <anchor  xml:id="anchor_m0_end"></anchor>d 
             <anchor  xml:id="anchor_m3_end"></anchor>proposition was committed on a secondary branch after the diagram failed
           </l>
           <l  facs="#z_line_page_page1_1_2" xml:id="line_page_page1_1_2">to compile under stricter axiomatic settings. A pull request from algebra introduced</l>
