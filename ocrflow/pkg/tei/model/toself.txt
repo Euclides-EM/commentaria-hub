@@ -1,0 +1,46 @@
+He lives in <anchor xml:id="a_tlv_s"/>TLV<anchor xml:id="a_tlv_e"/>
+and <anchor xml:id="a_nyc_s"/>NYC<anchor xml:id="a_nyc_e"/>.
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Converted text</title>
+    </titleStmt>
+    <publicationStmt>
+      <p>Unpublished</p>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Derived from extracted text</p>
+    </sourceDesc>
+  </fileDesc>
+
+  <standOff>
+
+    <!-- highlight categories -->
+    <interpGrp xml:id="cats" type="highlight-categories">
+      <interp xml:id="cat_city">City</interp>
+    </interpGrp>
+
+    <!-- properties -->
+    <interpGrp xml:id="props" type="highlight-properties">
+      <interp xml:id="prop_canonical">Canonical name</interp>
+      <interp xml:id="prop_country">Country</interp>
+    </interpGrp>
+
+    <spanGrp xml:id="highlights" type="highlights">
+
+      <span xml:id="h_tlv"
+            from="#a_tlv_s" to="#a_tlv_e"
+            ana="#cat_city"/>
+
+      <span xml:id="h_nyc"
+            from="#a_nyc_s" to="#a_nyc_e"
+            ana="#cat_city">
+        <note ana="#prop_canonical">New York City</note>
+        <note ana="#prop_country">USA</note>
+      </span>
+
+    </spanGrp>
+
+  </standOff>
+</teiHeader>

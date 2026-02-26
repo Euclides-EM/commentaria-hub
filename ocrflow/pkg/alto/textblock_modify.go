@@ -90,7 +90,7 @@ func findBestSpan(lines []TextLine, oldContent []string) (start int, spanLen int
 		bestI := -1
 		bestScore := math.Inf(1)
 		for i := range lines {
-			s := normalizeText(lineText(lines[i]))
+			s := normalizeText(ExtractTextFromLine(lines[i]))
 			score := normalizedEditDistance(s, "")
 			if score < bestScore {
 				bestScore = score
@@ -139,23 +139,9 @@ func findBestSpan(lines []TextLine, oldContent []string) (start int, spanLen int
 func spanText(lines []TextLine) string {
 	parts := make([]string, 0, len(lines))
 	for i := range lines {
-		parts = append(parts, lineText(lines[i]))
+		parts = append(parts, ExtractTextFromLine(lines[i]))
 	}
 	return normalizeText(strings.Join(parts, "\n"))
-}
-
-func lineText(l TextLine) string {
-	if len(l.Strings) == 0 {
-		return ""
-	}
-	var b strings.Builder
-	for i := range l.Strings {
-		if i > 0 {
-			b.WriteByte(' ')
-		}
-		b.WriteString(l.Strings[i].Content)
-	}
-	return b.String()
 }
 
 func normalizeText(s string) string {
@@ -181,7 +167,7 @@ func alignSpan(oldSpan []TextLine, newContent []string) []step {
 
 	oldTxt := make([]string, m)
 	for i := 0; i < m; i++ {
-		oldTxt[i] = normalizeText(lineText(oldSpan[i]))
+		oldTxt[i] = normalizeText(ExtractTextFromLine(oldSpan[i]))
 	}
 	newTxt := make([]string, n)
 	for j := 0; j < n; j++ {

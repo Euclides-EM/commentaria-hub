@@ -1,79 +1,73 @@
 package tei
 
-import "strings"
+import (
+	"fmt"
+	"strconv"
+	"strings"
+)
 
-// ensureHash normalizes an entity ref to # form (e.g. "ent_john" -> "#ent_john").
-func ensureHash(s string) string {
-	s = strings.TrimSpace(s)
-	if s == "" {
-		return ""
-	}
-	if !strings.HasPrefix(s, "#") {
-		return "#" + s
-	}
-	return s
-}
+const (
+	transcriptionDivType = "transcription"
+	translationDivType   = "translation"
 
-// normalizedEntityID returns an xml:id-safe entity ID (e.g. "#ent_de latin" -> "ent_de_latin").
-// Use for ref attributes and profile particDesc so IDs are consistent and valid.
-func normalizedEntityID(ref string) string {
-	s := ensureHash(ref)
-	if s == "" {
-		return ""
-	}
-	return sanitizeID(strings.TrimPrefix(s, "#"))
-}
+	translationAnonBlockType   = "translation-block"
+	transcriptionAnonBlockType = "transcription-block"
 
-// FeatureCategoryID converts a feature display name to a taxonomy category xml:id (e.g. "Origin Language" -> "feat_origin_language").
-// Use when setting @ana on mention spans and relations so they point at the encodingDesc taxonomy.
-func FeatureCategoryID(name string) string {
-	return featureNameToCategoryID(name)
-}
+	textBlockZoneType = "text-block"
+	textLineZoneType  = "text-line"
 
-// featureNameToCategoryID converts a feature display name to a taxonomy category xml:id (e.g. "Origin Language" -> "feat_origin_language").
-func featureNameToCategoryID(name string) string {
-	s := strings.TrimSpace(name)
-	if s == "" {
-		return ""
-	}
-	return "feat_" + sanitizeID(strings.ToLower(strings.ReplaceAll(s, " ", "_")))
-}
+	InterpGrpCategoriesID   = "categories"
+	InterpGrpCategoriesType = "highlight-categories"
 
-// factTypeToCategoryID converts a relation/fact type to a fact taxonomy category xml:id (e.g. "translated_from" -> "fact_translation").
-func factTypeToCategoryID(relationType string) string {
-	s := strings.TrimSpace(relationType)
-	if s == "" {
-		return ""
-	}
-	return "fact_" + sanitizeID(strings.ToLower(strings.ReplaceAll(s, " ", "_")))
-}
+	InterpGrpPropsID   = "props"
+	InterpGrpPropsType = "highlight-props"
 
-const occKeySep = "||"
-
-func occKey(pageID, blockID, lineID string) string {
-	return pageID + occKeySep + blockID + occKeySep + lineID
-}
-
-// parseOccKey splits occKey back into pageID, blockID, lineID. Returns empty strings if key is invalid.
-func parseOccKey(k string) (pageID, blockID, lineID string) {
-	parts := strings.SplitN(k, occKeySep, 3)
-	if len(parts) != 3 {
-		return "", "", ""
-	}
-	return parts[0], parts[1], parts[2]
-}
+	SpanGrpHighlightsID   = "highlights"
+	SpanGrpHighlightsType = "highlights"
+)
 
 func surfaceID(pageID string) string {
-	// Ensure valid xml:id
 	return "page_" + sanitizeID(pageID)
 }
 
-func blockID(blockID string) string {
-	return "b_" + sanitizeID(blockID)
+func transcriptionAnonBlockID(pageID string, blockIdx int) string {
+	return "transcription_anon_blk_" + surfaceID(pageID) + "_" + strconv.Itoa(blockIdx)
 }
 
-func zoneID(kind, pageID, raw string) string {
-	return "z_" + kind + "_" + sanitizeID(pageID) + "_" + sanitizeID(raw)
+func translationAnonBlockID(pageID string, lang string, blockIdx int) string {
+	return "translation_anon_blk_" + surfaceID(pageID) + "_" + sanitizeID(lang) + "_" + strconv.Itoa(blockIdx)
+}
+
+func facZoneBlockID(pageID string, blockIdx int) string {
+	return "zone_blk_" + surfaceID(pageID) + "_" + strconv.Itoa(blockIdx)
+}
+
+func facZoneLineID(pageID string, blockIdx, lineIdx int) string {
+	return "z_line_" + surfaceID(pageID) + "_" + strconv.Itoa(blockIdx) + "_" + strconv.Itoa(lineIdx)
+}
+
+func lineID(pageID string, blockIdx, lineIdx int) string {
+	return "line_" + surfaceID(pageID) + "_" + strconv.Itoa(blockIdx) + "_" + strconv.Itoa(lineIdx)
+}
+
+func startMentionAnchorID(mentionIdx int) string {
+	return fmt.Sprintf("anchor_m%d_start", mentionIdx)
+}
+
+func endMentionAnchorID(mentionIdx int) string {
+	return fmt.Sprintf("anchor_m%d_end", mentionIdx)
+}
+
+func interpCategoryID(cat string) string {
+	return "cat_" + sanitizeID(cat)
+}
+
+func interpPropID(prop string) string {
+	return "prop_" + sanitizeID(prop)
+}
+
+func spanHighlightID(mentionIdx int) string {
+	return "highlight_" + strconv.Itoa(mentionIdx)
 }
 
 func sanitizeID(s string) string {

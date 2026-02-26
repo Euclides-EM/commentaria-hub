@@ -396,24 +396,3 @@ func TestBuildTEIFromALTO_minimal(t *testing.T) {
 		t.Errorf("expected line text 'Hello world.', got %q", lineText)
 	}
 }
-
-// TestFeatureCategoryID verifies that feature display names are converted to taxonomy category xml:ids.
-func TestFeatureCategoryID(t *testing.T) {
-	tests := []struct {
-		name string
-		want string
-	}{
-		{"Origin Language", "feat_origin_language"},
-		{"person", "feat_person"},
-		{"  spaced  ", "feat_spaced"},
-		{"", ""},
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			got := FeatureCategoryID(tt.name)
-			if got != tt.want {
-				t.Errorf("FeatureCategoryID(%q) = %q, want %q", tt.name, got, tt.want)
-			}
-		})
-	}
-}

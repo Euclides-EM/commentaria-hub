@@ -1,10 +1,8 @@
 package model
 
 type Header struct {
-	FileDesc     FileDesc      `xml:"fileDesc"`
-	EncodingDesc *EncodingDesc `xml:"encodingDesc,omitempty"`
-	ProfileDesc  *ProfileDesc  `xml:"profileDesc,omitempty"`
-	StandOff     *StandOff     `xml:"standOff,omitempty"`
+	FileDesc FileDesc  `xml:"fileDesc"`
+	StandOff *StandOff `xml:"standOff,omitempty"`
 }
 
 type FileDesc struct {
