@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"path"
+	"sort"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -136,6 +137,44 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 		return lo.FindOrElse(feats, nil, func(f *feature.Feature) bool { return f.ID == id })
 	}
 
+	fullContent := strings.Join(transcription, "\n")
+
+	// Precompute line start indices in fullContent.
+	lineStarts := make([]int, 0, len(transcription))
+	pos := 0
+	for i, line := range transcription {
+		lineStarts = append(lineStarts, pos)
+		pos += len(line)
+		if i < len(transcription)-1 {
+			pos++ // '\n'
+		}
+	}
+
+	// Convert a global index in fullContent to (line index, byte offset within that line).
+	globalToLineOffset := func(idx int) (line int, off int) {
+		if idx < 0 {
+			return 0, 0
+		}
+		if idx > len(fullContent) {
+			idx = len(fullContent)
+		}
+		if len(lineStarts) == 0 {
+			return 0, 0
+		}
+		// Find first lineStart > idx, then step back one.
+		j := sort.Search(len(lineStarts), func(i int) bool { return lineStarts[i] > idx })
+		if j == 0 {
+			return 0, idx
+		}
+		line = j - 1
+		off = idx - lineStarts[line]
+		// Clamp offset to line length (in case idx hits a newline position).
+		if line < len(transcription) && off > len(transcription[line]) {
+			off = len(transcription[line])
+		}
+		return line, off
+	}
+
 	var items []tei2.EntityItem
 	for _, res := range results {
 		feat := findFeat(res.Feature)
@@ -145,61 +184,57 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 		}
 
 		for _, val := range res.Values {
-			// todo: use https://gist.github.com/ReallyLiri/661e03381ed4f3aede6aa2d9f20fefef to normalize surface forms for better matching, instead of just lowercasing and removing newlines.
-			normalized := strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(val.Surface, "¬", ""), "\n", " "))
+			surface := val.Surface
+			if strings.TrimSpace(surface) == "" {
+				log.Printf("warning: empty surface form for result %s, skipping", res.ID)
+				continue
+			}
+
+			// todo use https://gist.github.com/ReallyLiri/661e03381ed4f3aede6aa2d9f20fefef ...
+			normalized := strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(surface, "¬", ""), "\n", " "))
 
 			props := map[string]string{
 				"value": normalized,
 			}
-			if strings.TrimSpace(val.Surface) != "" {
-				props["surface"] = val.Surface
+			if strings.TrimSpace(surface) != "" {
+				props["surface"] = surface
 			}
-
 			for k, v := range val.Properties {
 				props[k] = v
 			}
 
-			fullContent := strings.Join(transcription, "\n")
-			startIndex := strings.Index(fullContent, val.Surface)
-			if startIndex == -1 {
-				log.Printf("warning: surface form '%s' not found in transcription for result %s, skipping", val.Surface, res.ID)
-				continue
-			}
-			startAtLineNum := 0
-			startAtCharCount := 0
-			for i, line := range transcription {
-				if startAtCharCount+len(line)+1 > startIndex { // +1 for the newline that was removed in fullContent
-					startAtLineNum = i
+			// Find *all* occurrences of surface in fullContent.
+			for from := 0; from <= len(fullContent)-len(surface); {
+				startIndex := strings.Index(fullContent[from:], surface)
+				if startIndex == -1 {
 					break
 				}
-				startAtCharCount += len(line) + 1 // +1 for the newline
-			}
-			endAtLineNum := startAtLineNum
-			endAtCharCount := startAtCharCount
-			for i := startAtLineNum; i < len(transcription); i++ {
-				line := transcription[i]
-				if endAtCharCount+len(line)+1 > startIndex+len(val.Surface) {
-					endAtLineNum = i
-					break
-				}
-				endAtCharCount += len(line) + 1 // +1 for the newline
-			}
+				startIndex += from
+				endIndex := startIndex + len(surface)
 
-			items = append(items, tei2.EntityItem{
-				Start: tei2.EntityLocationIndex{
-					BlockID:    "1",
-					LineID:     fmt.Sprintf("%d", startAtLineNum),
-					ByteOffset: startAtCharCount,
-				},
-				End: tei2.EntityLocationIndex{
-					BlockID:    "1",
-					LineID:     fmt.Sprintf("%d", endAtLineNum),
-					ByteOffset: endAtCharCount,
-				},
-				Category:   feat.Name,
-				Properties: props,
-			})
+				startLine, startOff := globalToLineOffset(startIndex)
+				endLine, endOff := globalToLineOffset(endIndex)
+
+				items = append(items, tei2.EntityItem{
+					Start: tei2.EntityLocationIndex{
+						BlockID:    "1",
+						LineID:     fmt.Sprintf("%d", startLine),
+						ByteOffset: startOff,
+					},
+					End: tei2.EntityLocationIndex{
+						BlockID:    "1",
+						LineID:     fmt.Sprintf("%d", endLine),
+						ByteOffset: endOff,
+					},
+					Category:   feat.Name,
+					Properties: props,
+				})
+
+				// Move forward to find the next occurrence (including overlapping matches).
+				from = startIndex + 1
+			}
 		}
 	}
+
 	return items
 }
