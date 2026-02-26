@@ -95,12 +95,9 @@ func (d *DatasetImg) normalizeTPSImagesMetadata(images []*model.ImageMetadata, u
 	if err != nil {
 		return nil, fmt.Errorf("failed to list editions with transcribed title pages: %w", err)
 	}
-	transcribedTPSKeys, err := d.tpsTranscriptions.Keys()
-	transcribedTPSKeysSet := make(map[string]struct{})
-	for _, e := range editionsWithTranscribedTPS {
-		ed := e.(*model.Edition)
-		transcribedTPSKeysSet[e] = struct{}{}
-	}
+	transcribedTPSKeysSet := lo.SliceToMap(editionsWithTranscribedTPS.Items, func(e *model.Edition) (string, any) {
+		return e.Key, struct{}{}
+	})
 	for _, img := range images {
 		key, ok := d.keyFromImageName(img.Filename, "tp")
 		if !ok {

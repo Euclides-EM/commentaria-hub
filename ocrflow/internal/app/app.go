@@ -46,7 +46,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureExecutionStore := store.NewFeatureExecutionSQL(sqlDB)
 	featureStore := store.NewFeatureSQL(sqlDB)
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
-	tpsTranscriptionsStore := store.NewTPSTranscriptions()
 	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl)
 	datasetImageStore := store.NewDatasetImageStore(fileSystemManager)
 
@@ -67,7 +66,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureResultSvc := service.NewResult(featureResultStore)
 	// func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, store *fpstore.FeatureExecutionSQL, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
 
-	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, tpsTranscriptionsStore), llm.NewClient(env.OpenAIAPIKey))
+	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
@@ -80,7 +79,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		env.GithubToken,
 		env.CommentariaPath,
 	)
-	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, featureSvc, tpsTranscriptionsStore)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
 	editionTEI := service.NewEditionTEI(fileSystemManager, editionSvc)
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,
@@ -122,7 +121,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		GeoSvc:              geoSvc,
 		FacsimileSvc:        facsimileSvc,
 		DatasetSvc:          datasetSvc,
-		DatasetImgSvc:       service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, tpsTranscriptionsStore),
+		DatasetImgSvc:       service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc),
 		AnnotationSvc:       annotationSvc,
 		ModelSvc:            modelSvc,
 		TrainSvc:            trainSvc,
