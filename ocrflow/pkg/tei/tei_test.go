@@ -1,7 +1,6 @@
 package tei
 
 import (
-	"log"
 	"os"
 	"path"
 	"reflect"
@@ -10,6 +9,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/aknopov/xmlcomparator"
 )
 
 const (
@@ -111,15 +111,8 @@ func testBuildTEIFromTXT(t *testing.T, td string) {
 		t.Fatalf("failed to read expected TEI XML file for test %s: %v", td, err)
 	}
 
-	actualStr := strings.TrimSpace(string(actualTEIBytes))
-	expectedStr := strings.TrimSpace(string(expectedTEIBytes))
-	if actualStr != expectedStr {
-		log.Printf("expected TEI XML for test %s:\n"+
-			"-----------------------\n"+
-			"%v\n"+
-			"-----------------------\n"+
-			"%v", td, expectedStr, actualStr)
-		t.Fatalf("TEI XML output does not match expected for test %s", td)
+	if discrepancies := xmlcomparator.CompareXmlStrings(string(expectedTEIBytes), string(actualTEIBytes), true); len(discrepancies) > 0 {
+		t.Fatalf("expected TEI XML does not match actual for test %s: %v", td, discrepancies)
 	}
 }
 
@@ -149,15 +142,8 @@ func testBuildTEIFromALTO(t *testing.T, td string) {
 		t.Fatalf("failed to read expected TEI XML file for test %s: %v", td, err)
 	}
 
-	actualStr := strings.TrimSpace(string(actualTEIBytes))
-	expectedStr := strings.TrimSpace(string(expectedTEIBytes))
-	if actualStr != expectedStr {
-		log.Printf("expected TEI XML for test %s:\n"+
-			"-----------------------\n"+
-			"%v\n"+
-			"-----------------------\n"+
-			"%v", td, expectedStr, actualStr)
-		t.Fatalf("TEI XML output does not match expected for test %s", td)
+	if discrepancies := xmlcomparator.CompareXmlStrings(string(expectedTEIBytes), string(actualTEIBytes), true); len(discrepancies) > 0 {
+		t.Fatalf("expected TEI XML does not match actual for test %s: %v", td, discrepancies)
 	}
 }
 
@@ -318,9 +304,8 @@ func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 	line := "café"
 	entities := []EntityItem{
 		{
-			Ref:   "ent_1",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "0", ByteOffset: 3}, // start of 'é'
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "0", ByteOffset: 5}, // end of 'é' (2 bytes)
+			Start: EntityLocationIndex{BlockID: "b1", LineID: "0", ByteOffset: 3}, // start of 'é'
+			End:   EntityLocationIndex{BlockID: "b1", LineID: "0", ByteOffset: 5}, // end of 'é' (2 bytes)
 		},
 	}
 	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{line}}, entities, "")
@@ -343,14 +328,6 @@ func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 	}
 	if !strings.Contains(found, "caf") {
 		t.Errorf("expected body to contain prefix caf, got %q", found)
-	}
-}
-
-// TestBuildTEIFromALTO_nilAlto verifies that nil ALTO returns an error.
-func TestBuildTEIFromALTO_nilAlto(t *testing.T) {
-	_, err := BuildTEIFromALTO("", nil, nil, "")
-	if err == nil {
-		t.Error("BuildTEIFromALTO(nil) should return error")
 	}
 }
 

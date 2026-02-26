@@ -4,6 +4,7 @@ go 1.25
 
 require (
 	github.com/PuerkitoBio/goquery v1.11.0
+	github.com/aknopov/xmlcomparator v0.1.0
 	github.com/avast/retry-go v3.0.0+incompatible
 	github.com/beevik/etree v1.6.0
 	github.com/caarlos0/env v3.5.0+incompatible
@@ -23,6 +24,7 @@ require (
 
 require (
 	github.com/KyleBanks/depth v1.2.1 // indirect
+	github.com/aknopov/handymaps v0.0.2 // indirect
 	github.com/andybalholm/cascadia v1.3.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/ebitengine/purego v0.8.4 // indirect

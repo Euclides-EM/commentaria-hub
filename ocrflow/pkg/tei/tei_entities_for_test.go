@@ -3,82 +3,88 @@ package tei
 var EntitiesByTest = map[string][]EntityItem{
 	"lines_single_entity_translation": {
 		{
-			Ref:   "ent_ibn_rushd",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: len("Ibn Rushd")},
-			Ana:   "#feat_person",
-		},
-		{
-			Ref:   "ent_ibn_rushd",
-			Type:  "latinized_name",
-			Value: "Averroes",
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: len("Ibn Rushd")},
+			Category: "person",
+			Properties: map[string]string{
+				"latinized_name": "Averroes",
+				"educated_at":    "University of Oxford",
+				"born_in":        "Cordoba",
+				"died_in":        "Marrakesh",
+				"era":            "Medieval",
+			},
 		},
 	},
 	"entity_with_fact": {
 		{
-			Ref:   "ent_john",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 4},
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 4},
+			Category: "person",
+			Properties: map[string]string{
+				"nickname": "Johnny",
+			},
 		},
 		{
-			Ref:   "ent_oxford",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 16},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 22},
-		},
-		{
-			Ref:  "ent_john",
-			Type: "modern name",
-			Cert: 0.92,
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 16},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 22},
+			Category: "place",
 		},
 	},
 	"txt_overlapping_entities": {
-		// Overlapping: "John Smith" (0,10), "John" (0,4), "Smith" (5,10). End is exclusive.
-		// Sorted by Start then End desc: (0,10), (0,4), (5,10) → m_1, m_2, m_3. Overlap filter keeps only m_1 in body.
 		{
-			Ref:   "ent_john_smith",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 10},
-			Ana:   "#feat_person",
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 2},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 10},
+			Category: "axiom drift",
 		},
 		{
-			Ref:   "ent_john",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 4},
-			Ana:   "#feat_person",
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 3},
+			Category: "lemma cache",
+			Properties: map[string]string{
+				"stability": "questionable",
+			},
 		},
 		{
-			Ref:   "ent_smith",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 5},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 10},
-			Ana:   "#feat_person",
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 5},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 8},
+			Category: "proof builder",
+			Properties: map[string]string{
+				"reliability": "unproven",
+			},
+		},
+		{
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 8},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 12},
+			Category: "proof builder",
+			Properties: map[string]string{
+				"reliability": "unknown",
+			},
 		},
 	},
 	"txt_adjacent_entities": {
 		// No overlap: "John" (0,4), "Smith" (5,10). Both rendered. End is exclusive.
 		{
-			Ref:   "ent_john",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 4},
-			Ana:   "#feat_person",
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 4},
+			Category: "first_name",
 		},
 		{
-			Ref:   "ent_smith",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 5},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 10},
-			Ana:   "#feat_person",
+			Start:    EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 5},
+			End:      EntityLocationIndex{BlockID: "1", LineID: "0", ByteOffset: 10},
+			Category: "last_name",
+			Properties: map[string]string{
+				"name_origin": "English",
+				"commonality": "common",
+				"popularity":  "high",
+			},
 		},
 	},
 	"alto_with_entity": {
 		// ALTO input has TextLine ID="l1", TextBlock ID="b1"
 		{
-			Ref:   "ent_aristotle",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l1", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l1", ByteOffset: 9},
-		},
-		{
-			Ref:  "ent_aristotle",
-			Type: "educated_at",
-			Cert: 0.85,
+			Start:    EntityLocationIndex{BlockID: "b1", LineID: "l1", ByteOffset: 0},
+			End:      EntityLocationIndex{BlockID: "b1", LineID: "l1", ByteOffset: 9},
+			Category: "philosopher",
 		},
 	},
 }

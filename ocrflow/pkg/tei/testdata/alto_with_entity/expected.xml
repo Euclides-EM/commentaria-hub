@@ -14,10 +14,10 @@
     </fileDesc>
     <standOff>
       <spanGrp xml:id="highlights" type="highlights">
-        <span xml:id="highlight_0" from="#anchor_m0_start" to="#anchor_m0_end" ana="#cat_x"></span>
+        <span xml:id="highlight_0" from="#anchor_m0_start" to="#anchor_m0_end" ana="#cat_philosopher"></span>
       </spanGrp>
       <interpGrp xml:id="categories" type="highlight-categories">
-        <interp xml:id="cat_x"></interp>
+        <interp xml:id="cat_philosopher">philosopher</interp>
       </interpGrp>
       <interpGrp xml:id="props" type="highlight-props"></interpGrp>
     </standOff>

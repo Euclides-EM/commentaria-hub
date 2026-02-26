@@ -38,14 +38,9 @@ func BuildTEIFromLines(
 		Facs:  "#" + facZoneBlockID(pageKey, 1),
 	}
 
-	var mentionIdx int
 	for i, line := range lines.TranscriptionLines {
 		lineKey := strconv.Itoa(i)
-		entitiesForLine := lo.Filter(entities, func(e EntityItem, _ int) bool {
-			return e.Start.LineID == lineKey || e.End.LineID == lineKey
-		})
-		nodes := buildInlineNodesWithAnchors("1", lineKey, line, entitiesForLine, mentionIdx)
-		mentionIdx += len(entitiesForLine)
+		nodes := buildInlineNodesWithAnchors("1", lineKey, line, entities)
 		l := model.L{
 			XmlID: lineID(pageKey, 1, i+1),
 			Facs:  "#" + facZoneLineID(pageKey, 1, i+1),
@@ -86,7 +81,7 @@ func BuildTEIFromLines(
 					Type:  translationAnonBlockType,
 					Lines: lo.Map(lines.Translations[lang], func(line string, i int) model.L {
 						l := model.L{
-							Nodes: buildInlineNodesWithAnchors("1", strconv.Itoa(i), line, nil, 0),
+							Nodes: buildInlineNodesWithAnchors("1", strconv.Itoa(i), line, nil),
 						}
 						if addCorresp {
 							l.Corresp = "#" + lineID(pageKey, 1, i+1)

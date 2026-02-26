@@ -16,18 +16,11 @@ type EntityItem struct {
 	Start EntityLocationIndex // byte offset is inclusive
 	End   EntityLocationIndex // byte offset is exclusive
 
-	Ref   string  // entity reference (e.g. "ent_john")
-	Ana   string  // interpretation, e.g. "#feat_person" (used as Category when Category is empty)
-	Type  string  // fact/relation type
-	Value string  // fact value
-	Cert  float64 // certainty 0–1
-
 	Category   string // same as "feature"; used for standoff ana
 	Properties map[string]string
 }
 
 type EntityLocationIndex struct {
-	PageID     string // optional, for test data
 	BlockID    string
 	LineID     string
 	ByteOffset int

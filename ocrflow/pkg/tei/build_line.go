@@ -6,8 +6,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
 
-// mentionIndexOffset is the global index of the first entity on this line (so anchor IDs are unique across the doc).
-func buildInlineNodesWithAnchors(blockID, lineID, line string, entitiesForLine []EntityItem, mentionIndexOffset int) []model.ABNode {
+func buildInlineNodesWithAnchors(blockID, lineID, line string, entities []EntityItem) []model.ABNode {
 	type eventKind int
 	const (
 		evEnd eventKind = iota
@@ -17,16 +16,16 @@ func buildInlineNodesWithAnchors(blockID, lineID, line string, entitiesForLine [
 	type event struct {
 		pos  int
 		kind eventKind
-		i    int // entity index within line (used for anchor id with mentionIndexOffset)
+		i    int // entity index (used for anchor id)
 	}
 
 	b := []byte(line)
 	n := len(b)
 
-	events := make([]event, 0, len(entitiesForLine)*2)
+	events := make([]event, 0)
 
 	// Build anchor events with bounds checking.
-	for i, ent := range entitiesForLine {
+	for i, ent := range entities {
 		if ent.Start.LineID == lineID && ent.Start.BlockID == blockID {
 			s := ent.Start.ByteOffset
 			// Clamp to line length so we never panic on slicing.
@@ -83,13 +82,11 @@ func buildInlineNodesWithAnchors(blockID, lineID, line string, entitiesForLine [
 			cur = ev.pos
 		}
 
-		// Emit the anchor (global index so IDs are unique across lines).
-		globalIdx := mentionIndexOffset + ev.i
 		switch ev.kind {
 		case evStart:
-			emitAnchor(startMentionAnchorID(globalIdx))
+			emitAnchor(startMentionAnchorID(ev.i))
 		case evEnd:
-			emitAnchor(endMentionAnchorID(globalIdx))
+			emitAnchor(endMentionAnchorID(ev.i))
 		}
 	}
 

@@ -2,6 +2,10 @@ github.com/KyleBanks/depth v1.2.1 h1:5h8fQADFrWtarTdtDudMmGsC7GPbOAu6RVB3ffsVFHc
 github.com/KyleBanks/depth v1.2.1/go.mod h1:jzSb9d0L43HxTQfT+oSA1EEp2q+ne2uh6XgeJcm8brE=
 github.com/PuerkitoBio/goquery v1.11.0 h1:jZ7pwMQXIITcUXNH83LLk+txlaEy6NVOfTuP43xxfqw=
 github.com/PuerkitoBio/goquery v1.11.0/go.mod h1:wQHgxUOU3JGuj3oD/QFfxUdlzW6xPHfqyHre6VMY4DQ=
+github.com/aknopov/handymaps v0.0.2 h1:mThKfSEpVCL9nGR2wDjJCTu/ep6iR4RVtog50Zh1bVc=
+github.com/aknopov/handymaps v0.0.2/go.mod h1:xG+b4uoH3O4Fn11D8VThQy4mjQgwjtBLpclcBv+chD0=
+github.com/aknopov/xmlcomparator v0.1.0 h1:q/Iu2/TiOJEas7ZgdPgcx2Bb1gQuv4u1bUBaIia7zJQ=
+github.com/aknopov/xmlcomparator v0.1.0/go.mod h1:hTuMGs0wqrddEZesSLWfOYkUFn219VlEgJzRZB1DW2w=
 github.com/andybalholm/cascadia v1.3.3 h1:AG2YHrzJIm4BZ19iwJ/DAua6Btl3IwJX+VI4kktS1LM=
 github.com/andybalholm/cascadia v1.3.3/go.mod h1:xNd9bqTn98Ln4DwST8/nG+H0yuB8Hmgu1YHNnWw0GeA=
 github.com/avast/retry-go v3.0.0+incompatible h1:4SOWQ7Qs+oroOTQOYnAHqelpCO0biHSxpiH9JdtuBj0=
