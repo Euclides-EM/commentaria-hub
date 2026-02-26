@@ -82,97 +82,11 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		return nil, fmt.Errorf("failed to list features for annotation %s: %v", ann.ID, err)
 	}
 
-	// Helper: feature lookup
-	findFeat := func(id string) *feature.Feature {
-		return lo.FindOrElse(feats, nil, func(f *feature.Feature) bool { return f.ID == id })
-	}
-
-	// Build EntityItems (mentions + profile rows)
-	buildItems := func() []tei2.EntityItem {
-		var items []tei2.EntityItem
-		for _, res := range results {
-			feat := findFeat(res.Feature)
-			if feat == nil {
-				log.Printf("warning: feature %s not found for result %s, skipping", res.Feature, res.ID)
-				continue
-			}
-
-			for _, val := range res.Values {
-				normalized := lo.Ternary(val.Normalized != "", val.Normalized, strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(val.Surface, "¬", ""), "\n", " ")))
-				entRef := fmt.Sprintf("#ent_%s", normalized)
-
-				// --- Mention row (only if location looks usable) ---
-				// For ALTO builder: Location.TextBlockID/TextLineID should be ALTO ids.
-				// For Lines builder: Location might be empty or not match synthetic l%04d. If empty, we skip mention.
-				if val.Location.TextLineID != "" && val.Location.CharactersSpan.End > val.Location.CharactersSpan.Start {
-					// @ana must point at the feature taxonomy category (#feat_origin_language etc.) so spans and facts are self-describing.
-					ana := "#" + tei2.FeatureCategoryID(feat.Name)
-					if ana == "#" {
-						ana = ""
-					}
-					items = append(items, tei2.EntityItem{
-						Ref: entRef,
-						Start: tei2.EntityLocationIndex{
-							PageID:     pageNumOrKey,
-							BlockID:    val.Location.TextBlockID,
-							LineID:     val.Location.TextLineID,
-							ByteOffset: val.Location.CharactersSpan.Start,
-						},
-						End: tei2.EntityLocationIndex{
-							PageID:     pageNumOrKey,
-							BlockID:    val.Location.TextBlockID,
-							LineID:     val.Location.TextLineID,
-							ByteOffset: val.Location.CharactersSpan.End,
-						},
-						Ana: ana,
-					})
-				}
-
-				// --- Profile rows (dedup happens in TEI builder) ---
-				items = append(items, tei2.EntityItem{
-					Ref:   entRef,
-					Type:  "feature_name",
-					Value: feat.Name,
-				})
-				items = append(items, tei2.EntityItem{
-					Ref:   entRef,
-					Type:  "value",
-					Value: normalized,
-				})
-
-				// If you want surface too (often useful):
-				if strings.TrimSpace(val.Surface) != "" {
-					items = append(items, tei2.EntityItem{
-						Ref:   entRef,
-						Type:  "surface",
-						Value: val.Surface,
-					})
-				}
-
-				// If you want to keep ProfileID as a profile field
-				if strings.TrimSpace(val.ProfileID) != "" {
-					items = append(items, tei2.EntityItem{
-						Ref:   entRef,
-						Type:  "profile_id",
-						Value: val.ProfileID,
-					})
-				}
-			}
-		}
-		return items
-	}
-
-	items := buildItems()
-
 	// 1) Try ALTO page first
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
-		// Best-effort image url
-		imageURL := ""
-		// If you store images by dataset+key:
-		imageURL = path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
-
-		// Build from ALTO (mentions must have Location.TextBlockID/TextLineID aligned to ALTO ids)
-		return tei2.BuildTEIFromALTO(pageNumOrKey, a, items, imageURL)
+		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
+		// todo: support items in alto
+		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL)
 	}
 
 	// 2) TXT fallback: transcription + translations + image url
@@ -214,8 +128,78 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		Translations:       translations,
 	}
 
-	// IMPORTANT: For the Lines builder, mentions must use BlockID="b1" and LineID="l%04d".
-	// Your results may not have these IDs in Location. If they do not, the mention rows above get skipped.
-	// Profiles still get emitted, which is safe.
-	return tei2.BuildTEIFromLines(pageNumOrKey, pageLines, items, imageURL)
+	return tei2.BuildTEIFromLines(pageNumOrKey, pageLines, buildItems(results, feats, lines), imageURL)
+}
+
+func buildItems(results []*feature.Result, feats []*feature.Feature, transcription []string) []tei2.EntityItem {
+	findFeat := func(id string) *feature.Feature {
+		return lo.FindOrElse(feats, nil, func(f *feature.Feature) bool { return f.ID == id })
+	}
+
+	var items []tei2.EntityItem
+	for _, res := range results {
+		feat := findFeat(res.Feature)
+		if feat == nil {
+			log.Printf("warning: feature %s not found for result %s, skipping", res.Feature, res.ID)
+			continue
+		}
+
+		for _, val := range res.Values {
+			// todo: use https://gist.github.com/ReallyLiri/661e03381ed4f3aede6aa2d9f20fefef to normalize surface forms for better matching, instead of just lowercasing and removing newlines.
+			normalized := strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(val.Surface, "¬", ""), "\n", " "))
+
+			props := map[string]string{
+				"value": normalized,
+			}
+			if strings.TrimSpace(val.Surface) != "" {
+				props["surface"] = val.Surface
+			}
+
+			for k, v := range val.Properties {
+				props[k] = v
+			}
+
+			fullContent := strings.Join(transcription, "\n")
+			startIndex := strings.Index(fullContent, val.Surface)
+			if startIndex == -1 {
+				log.Printf("warning: surface form '%s' not found in transcription for result %s, skipping", val.Surface, res.ID)
+				continue
+			}
+			startAtLineNum := 0
+			startAtCharCount := 0
+			for i, line := range transcription {
+				if startAtCharCount+len(line)+1 > startIndex { // +1 for the newline that was removed in fullContent
+					startAtLineNum = i
+					break
+				}
+				startAtCharCount += len(line) + 1 // +1 for the newline
+			}
+			endAtLineNum := startAtLineNum
+			endAtCharCount := startAtCharCount
+			for i := startAtLineNum; i < len(transcription); i++ {
+				line := transcription[i]
+				if endAtCharCount+len(line)+1 > startIndex+len(val.Surface) {
+					endAtLineNum = i
+					break
+				}
+				endAtCharCount += len(line) + 1 // +1 for the newline
+			}
+
+			items = append(items, tei2.EntityItem{
+				Start: tei2.EntityLocationIndex{
+					BlockID:    "1",
+					LineID:     fmt.Sprintf("%d", startAtLineNum),
+					ByteOffset: startAtCharCount,
+				},
+				End: tei2.EntityLocationIndex{
+					BlockID:    "1",
+					LineID:     fmt.Sprintf("%d", endAtLineNum),
+					ByteOffset: endAtCharCount,
+				},
+				Category:   feat.Name,
+				Properties: props,
+			})
+		}
+	}
+	return items
 }
