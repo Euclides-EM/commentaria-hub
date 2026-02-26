@@ -133,7 +133,7 @@ func testBuildTEIFromALTO(t *testing.T, td string) {
 	if ImgURLMap, ok := ImgURLsByTest[td]; ok {
 		ImgURL = ImgURLMap[defaultPageKey]
 	}
-	tei, err := BuildTEIFromALTO(a, EntitiesByTest[td], ImgURL)
+	tei, err := BuildTEIFromALTO(defaultPageKey, a, EntitiesByTest[td], ImgURL)
 	if err != nil {
 		t.Fatalf("failed to build TEI from ALTO for test %s: %v", td, err)
 	}
@@ -230,7 +230,7 @@ func TestBuildTEIFromLines_emptyInput(t *testing.T) {
 	}
 }
 
-// TestBuildTEIFromLines_noEntities verifies that TEI built without entities has no encodingDesc or standOff.
+// TestBuildTEIFromLines_noEntities verifies that TEI built without entities has no standOff.
 func TestBuildTEIFromLines_noEntities(t *testing.T) {
 	lines := Lines{
 		TranscriptionLines: []string{"First line.", "Second line."},
@@ -238,9 +238,6 @@ func TestBuildTEIFromLines_noEntities(t *testing.T) {
 	tei, err := BuildTEIFromLines("page1", lines, nil, "")
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines: %v", err)
-	}
-	if tei.Header.EncodingDesc != nil {
-		t.Error("expected no encodingDesc when entities is nil")
 	}
 	if tei.Header.StandOff != nil {
 		t.Error("expected no standOff when entities is nil")
@@ -252,19 +249,23 @@ func TestBuildTEIFromLines_noEntities(t *testing.T) {
 	if n := len(tei.Text.Body.Divs); n != 1 {
 		t.Errorf("expected 1 div (transcription), got %d", n)
 	}
-	// Body text should contain the two lines (as CharData + LB nodes)
+	// Body: one ab with two l elements (one per line)
 	abs := tei.Text.Body.Divs[0].Abs
 	if len(abs) != 1 {
 		t.Fatalf("expected 1 ab, got %d", len(abs))
 	}
-	nodes := abs[0].Nodes
-	var textParts []string
-	for _, nd := range nodes {
-		if nd.CharData != "" {
-			textParts = append(textParts, nd.CharData)
+	linesEls := abs[0].Lines
+	if len(linesEls) != 2 {
+		t.Fatalf("expected 2 l elements, got %d", len(linesEls))
+	}
+	var combined string
+	for _, l := range linesEls {
+		for _, nd := range l.Nodes {
+			if nd.CharData != "" {
+				combined += nd.CharData
+			}
 		}
 	}
-	combined := strings.Join(textParts, "")
 	if !strings.Contains(combined, "First line.") || !strings.Contains(combined, "Second line.") {
 		t.Errorf("body should contain both lines, got: %q", combined)
 	}
@@ -318,8 +319,8 @@ func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 	entities := []EntityItem{
 		{
 			Ref:   "ent_1",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 3}, // start of 'é'
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 5}, // end of 'é' (2 bytes)
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "0", ByteOffset: 3}, // start of 'é'
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "0", ByteOffset: 5}, // end of 'é' (2 bytes)
 		},
 	}
 	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{line}}, entities, "")
@@ -328,8 +329,11 @@ func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 	}
 	// Body should contain the entity text; safeSliceByByteRange should yield "é"
 	abs := tei.Text.Body.Divs[0].Abs
+	if len(abs) != 1 || len(abs[0].Lines) != 1 {
+		t.Fatalf("expected 1 ab with 1 l, got %d ab, %d l", len(abs), len(abs[0].Lines))
+	}
 	var found string
-	for _, nd := range abs[0].Nodes {
+	for _, nd := range abs[0].Lines[0].Nodes {
 		if nd.CharData != "" {
 			found += nd.CharData
 		}
@@ -344,7 +348,7 @@ func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 
 // TestBuildTEIFromALTO_nilAlto verifies that nil ALTO returns an error.
 func TestBuildTEIFromALTO_nilAlto(t *testing.T) {
-	_, err := BuildTEIFromALTO(nil, nil, "")
+	_, err := BuildTEIFromALTO("", nil, nil, "")
 	if err == nil {
 		t.Error("BuildTEIFromALTO(nil) should return error")
 	}
@@ -367,7 +371,7 @@ func TestBuildTEIFromALTO_minimal(t *testing.T) {
 			}},
 		},
 	}
-	tei, err := BuildTEIFromALTO(a, nil, "https://example.com/p1.png")
+	tei, err := BuildTEIFromALTO("p1", a, nil, "https://example.com/p1.png")
 	if err != nil {
 		t.Fatalf("BuildTEIFromALTO: %v", err)
 	}
@@ -383,14 +387,16 @@ func TestBuildTEIFromALTO_minimal(t *testing.T) {
 	if n := len(tei.Text.Body.Divs); n != 1 {
 		t.Errorf("expected 1 div, got %d", n)
 	}
-	segs := tei.Text.Body.Divs[0].Abs[0].Segs
-	if len(segs) != 1 {
-		t.Fatalf("expected 1 seg, got %d", len(segs))
+	linesEls := tei.Text.Body.Divs[0].Abs[0].Lines
+	if len(linesEls) != 1 {
+		t.Fatalf("expected 1 l, got %d", len(linesEls))
 	}
 	// Line text is joined with space: "Hello" + " " + "world."
 	var lineText string
-	for _, in := range segs[0].Content {
-		lineText += in.Text
+	for _, nd := range linesEls[0].Nodes {
+		if nd.CharData != "" {
+			lineText += nd.CharData
+		}
 	}
 	if lineText != "Hello world." {
 		t.Errorf("expected line text 'Hello world.', got %q", lineText)

@@ -12,45 +12,34 @@
         <p>Derived from extracted text lines</p>
       </sourceDesc>
     </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy xml:id="features">
-          <category xml:id="feat_person">
-            <catDesc>Person</catDesc>
-          </category>
-          <category xml:id="fact_feature_assignment">
-            <catDesc>Feature assignment (fact)</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
     <standOff>
-      <spanGrp xml:id="mentions" type="ner-mentions">
-        <span xml:id="m_1" from="#a_m1_s" to="#a_m1_e" ana="#feat_person" ref="#ent_john"></span>
-        <span xml:id="m_2" from="#a_m2_s" to="#a_m2_e" ana="#feat_person" ref="#ent_smith"></span>
+      <spanGrp xml:id="highlights" type="highlights">
+        <span xml:id="highlight_0" from="#anchor_m0_start" to="#anchor_m0_end" ana="#cat_feat_person"></span>
+        <span xml:id="highlight_1" from="#anchor_m1_start" to="#anchor_m1_end" ana="#cat_feat_person"></span>
       </spanGrp>
-      <listRelation>
-        <relation xml:id="f_1" name="person" passive="#ent_john" ana="#fact_feature_assignment" corresp="#m_1"></relation>
-        <relation xml:id="f_2" name="person" passive="#ent_smith" ana="#fact_feature_assignment" corresp="#m_2"></relation>
-      </listRelation>
+      <interpGrp xml:id="categories" type="highlight-categories">
+        <interp xml:id="cat_feat_person">feat_person</interp>
+      </interpGrp>
+      <interpGrp xml:id="props" type="highlight-props"></interpGrp>
     </standOff>
   </teiHeader>
   <facsimile>
     <surface xml:id="page_page1" n="page1">
-      <zone xml:id="z_blk_page1_1" type="block"></zone>
-      <zone xml:id="z_ln_page1_0001" type="line" corresp="#z_blk_page1_1"></zone>
+      <zone xml:id="zone_blk_page_page1_1" type="text-block"></zone>
+      <zone xml:id="z_line_page_page1_1_1" type="text-line"></zone>
     </surface>
   </facsimile>
   <text>
     <body>
       <pb facs="#page_page1" n="page1"></pb>
       <div type="transcription" n="page1">
-        <ab xml:id="b1_page1" facs="#z_blk_page1_1" type="transcription-block">
-          <anchor xml:id="a_m1_s"></anchor>John
-          <anchor xml:id="a_m1_e"></anchor>
-          <anchor xml:id="a_m2_s"></anchor> Smith
-          <anchor xml:id="a_m2_e"></anchor>
-          <lb xml:id="ln_page1_0001" facs="#z_ln_page1_0001"></lb>
+        <ab xml:id="transcription_anon_blk_page_page1_1" facs="#zone_blk_page_page1_1" type="transcription-block">
+          <l xml:id="line_page_page1_1_1" facs="#z_line_page_page1_1_1">
+            <anchor xml:id="anchor_m0_start"></anchor>John
+            <anchor xml:id="anchor_m0_end"></anchor> 
+            <anchor xml:id="anchor_m1_start"></anchor>Smith
+            <anchor xml:id="anchor_m1_end"></anchor>
+          </l>
         </ab>
       </div>
     </body>

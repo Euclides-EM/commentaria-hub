@@ -3,27 +3,40 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Converted from ALTO</title>
+        <title>Converted from lines</title>
       </titleStmt>
       <publicationStmt>
         <p>Unpublished research data</p>
       </publicationStmt>
       <sourceDesc>
-        <p>Derived from ALTO OCR</p>
+        <p>Derived from extracted text lines</p>
       </sourceDesc>
     </fileDesc>
+    <standOff>
+      <spanGrp xml:id="highlights" type="highlights">
+        <span xml:id="highlight_0" from="#anchor_m0_start" to="#anchor_m0_end" ana="#cat_x"></span>
+      </spanGrp>
+      <interpGrp xml:id="categories" type="highlight-categories">
+        <interp xml:id="cat_x"></interp>
+      </interpGrp>
+      <interpGrp xml:id="props" type="highlight-props"></interpGrp>
+    </standOff>
   </teiHeader>
   <facsimile>
-    <surface xml:id="page_page1" facs="https://example.com/alto_page1.png" n="page1"></surface>
+    <surface xml:id="page_page1" facs="https://example.com/alto_page1.png" n="page1">
+      <zone xml:id="zone_blk_page_page1_1" type="text-block" ulx="100" uly="200" lrx="900" lry="240"></zone>
+      <zone xml:id="z_line_page_page1_1_1" type="text-line" ulx="200" uly="100" lrx="900" lry="240"></zone>
+    </surface>
   </facsimile>
   <text>
     <body>
       <pb facs="#page_page1" n="page1"></pb>
       <div type="transcription" n="page1">
-        <ab xml:id="b_b1" type="ocr-block">
-          <seg xml:id="ln_page1_b1_0001">
-            <name xml:id="m_1" ref="#ent_aristotle">Aristotle</name>  wrote.
-          </seg>
+        <ab xml:id="transcription_anon_blk_page_page1_1" facs="#zone_blk_page_page1_1" type="transcription-block">
+          <l xml:id="line_page_page1_1_1" facs="#z_line_page_page1_1_1">
+            <anchor xml:id="anchor_m0_start"></anchor>Aristotle
+            <anchor xml:id="anchor_m0_end"></anchor>  wrote.
+          </l>
         </ab>
       </div>
     </body>

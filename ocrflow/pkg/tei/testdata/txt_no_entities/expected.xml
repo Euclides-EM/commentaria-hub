@@ -15,18 +15,18 @@
   </teiHeader>
   <facsimile>
     <surface xml:id="page_page1" n="page1">
-      <zone xml:id="z_blk_page1_1" type="block"></zone>
-      <zone xml:id="z_ln_page1_0001" type="line" corresp="#z_blk_page1_1"></zone>
-      <zone xml:id="z_ln_page1_0002" type="line" corresp="#z_blk_page1_1"></zone>
+      <zone xml:id="zone_blk_page_page1_1" type="text-block"></zone>
+      <zone xml:id="z_line_page_page1_1_1" type="text-line"></zone>
+      <zone xml:id="z_line_page_page1_1_2" type="text-line"></zone>
     </surface>
   </facsimile>
   <text>
     <body>
       <pb facs="#page_page1" n="page1"></pb>
       <div type="transcription" n="page1">
-        <ab xml:id="b1_page1" facs="#z_blk_page1_1" type="transcription-block">Line one.
-          <lb xml:id="ln_page1_0001" facs="#z_ln_page1_0001"></lb>Line two.
-          <lb xml:id="ln_page1_0002" facs="#z_ln_page1_0002"></lb>
+        <ab xml:id="transcription_anon_blk_page_page1_1" facs="#zone_blk_page_page1_1" type="transcription-block">
+          <l xml:id="line_page_page1_1_1" facs="#z_line_page_page1_1_1">Line one.</l>
+          <l xml:id="line_page_page1_1_2" facs="#z_line_page_page1_1_2">Line two.</l>
         </ab>
       </div>
     </body>

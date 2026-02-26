@@ -15,30 +15,30 @@
   </teiHeader>
   <facsimile>
     <surface xml:id="page_page1" n="page1">
-      <zone xml:id="z_blk_page1_1" type="block"></zone>
-      <zone xml:id="z_ln_page1_0001" type="line" corresp="#z_blk_page1_1"></zone>
-      <zone xml:id="z_ln_page1_0002" type="line" corresp="#z_blk_page1_1"></zone>
+      <zone xml:id="zone_blk_page_page1_1" type="text-block"></zone>
+      <zone xml:id="z_line_page_page1_1_1" type="text-line"></zone>
+      <zone xml:id="z_line_page_page1_1_2" type="text-line"></zone>
     </surface>
   </facsimile>
   <text>
     <body>
       <pb facs="#page_page1" n="page1"></pb>
       <div type="transcription" n="page1">
-        <ab xml:id="b1_page1" facs="#z_blk_page1_1" type="transcription-block">The cat sat.
-          <lb xml:id="ln_page1_0001" facs="#z_ln_page1_0001"></lb>On the mat.
-          <lb xml:id="ln_page1_0002" facs="#z_ln_page1_0002"></lb>
+        <ab xml:id="transcription_anon_blk_page_page1_1" facs="#zone_blk_page_page1_1" type="transcription-block">
+          <l xml:id="line_page_page1_1_1" facs="#z_line_page_page1_1_1">The cat sat.</l>
+          <l xml:id="line_page_page1_1_2" facs="#z_line_page_page1_1_2">On the mat.</l>
         </ab>
       </div>
       <div type="translation" xml:lang="en" n="page1">
-        <ab xml:id="tr_en_page1" type="translation-block">
-          <seg corresp="#ln_page1_0001">The cat sat.</seg>
-          <seg corresp="#ln_page1_0002">On the mat.</seg>
+        <ab xml:id="translation_anon_blk_page_page1_en_1" type="translation-block">
+          <l corresp="#line_page_page1_1_1">The cat sat.</l>
+          <l corresp="#line_page_page1_1_2">On the mat.</l>
         </ab>
       </div>
       <div type="translation" xml:lang="fr" n="page1">
-        <ab xml:id="tr_fr_page1" type="translation-block">
-          <seg corresp="#ln_page1_0001">Le chat s&#39;assit.</seg>
-          <seg corresp="#ln_page1_0002">Sur le tapis.</seg>
+        <ab xml:id="translation_anon_blk_page_page1_fr_1" type="translation-block">
+          <l corresp="#line_page_page1_1_1">Le chat s&#39;assit.</l>
+          <l corresp="#line_page_page1_1_2">Sur le tapis.</l>
         </ab>
       </div>
     </body>

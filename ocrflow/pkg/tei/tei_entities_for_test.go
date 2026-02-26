@@ -4,8 +4,8 @@ var EntitiesByTest = map[string][]EntityItem{
 	"lines_single_entity_translation": {
 		{
 			Ref:   "ent_ibn_rushd",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: len("Ibn Rushd")},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: len("Ibn Rushd")},
 			Ana:   "#feat_person",
 		},
 		{
@@ -17,13 +17,13 @@ var EntitiesByTest = map[string][]EntityItem{
 	"entity_with_fact": {
 		{
 			Ref:   "ent_john",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 4},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 4},
 		},
 		{
 			Ref:   "ent_oxford",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 16},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 22},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 16},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 22},
 		},
 		{
 			Ref:  "ent_john",
@@ -36,20 +36,20 @@ var EntitiesByTest = map[string][]EntityItem{
 		// Sorted by Start then End desc: (0,10), (0,4), (5,10) → m_1, m_2, m_3. Overlap filter keeps only m_1 in body.
 		{
 			Ref:   "ent_john_smith",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 10},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 10},
 			Ana:   "#feat_person",
 		},
 		{
 			Ref:   "ent_john",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 4},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 4},
 			Ana:   "#feat_person",
 		},
 		{
 			Ref:   "ent_smith",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 5},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 10},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 5},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 10},
 			Ana:   "#feat_person",
 		},
 	},
@@ -57,22 +57,23 @@ var EntitiesByTest = map[string][]EntityItem{
 		// No overlap: "John" (0,4), "Smith" (5,10). Both rendered. End is exclusive.
 		{
 			Ref:   "ent_john",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 4},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 0},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 4},
 			Ana:   "#feat_person",
 		},
 		{
 			Ref:   "ent_smith",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 5},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 10},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 5},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "1", LineID: "0", ByteOffset: 10},
 			Ana:   "#feat_person",
 		},
 	},
 	"alto_with_entity": {
+		// ALTO input has TextLine ID="l1", TextBlock ID="b1"
 		{
 			Ref:   "ent_aristotle",
-			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 0},
-			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l0001", ByteOffset: 9},
+			Start: EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l1", ByteOffset: 0},
+			End:   EntityLocationIndex{PageID: "page1", BlockID: "b1", LineID: "l1", ByteOffset: 9},
 		},
 		{
 			Ref:  "ent_aristotle",

@@ -2,6 +2,7 @@ package tei
 
 import (
 	"sort"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 	"github.com/samber/lo"
@@ -37,7 +38,10 @@ func buildStandOff(entities []EntityItem) *model.StandOff {
 
 func buildHighlightCategoriesInterps(entities []EntityItem) []model.Interp {
 	cats := lo.Uniq(lo.Map(entities, func(e EntityItem, _ int) string {
-		return e.Category
+		if e.Category != "" {
+			return e.Category
+		}
+		return strings.TrimPrefix(e.Ana, "#")
 	}))
 
 	sort.Strings(cats)
@@ -69,12 +73,20 @@ func buildHighlightPropsInterps(entities []EntityItem) []model.Interp {
 }
 
 func buildHighlightSpans(entities []EntityItem) []model.Span {
-	return lo.Map(entities, func(e EntityItem, i int) model.Span {
+	// Only include mention-like entities (have location) so anchor indices match body
+	mentions := lo.Filter(entities, func(e EntityItem, _ int) bool {
+		return e.Start.LineID != ""
+	})
+	return lo.Map(mentions, func(e EntityItem, i int) model.Span {
+		cat := e.Category
+		if cat == "" {
+			cat = strings.TrimPrefix(e.Ana, "#")
+		}
 		return model.Span{
 			XmlID: spanHighlightID(i),
 			From:  "#" + startMentionAnchorID(i),
 			To:    "#" + endMentionAnchorID(i),
-			Ana:   "#" + interpCategoryID(e.Category),
+			Ana:   "#" + interpCategoryID(cat),
 			Notes: lo.MapToSlice(e.Properties, func(propKey, propVal string) model.Note {
 				return model.Note{
 					Ana:  "#" + interpPropID(propKey),

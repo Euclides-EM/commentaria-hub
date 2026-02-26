@@ -15,7 +15,9 @@ func BuildTEIFromALTO(
 	entities []EntityItem,
 	imageUrl string,
 ) (*model.TEI, error) {
-
+	if a == nil {
+		return nil, fmt.Errorf("ALTO is nil")
+	}
 	if len(a.Layout.Page) != 1 {
 		return nil, fmt.Errorf("expected exactly one page in ALTO, got %d", len(a.Layout.Page))
 	}
@@ -37,6 +39,7 @@ func BuildTEIFromALTO(
 	})
 
 	var abs []model.AB
+	var mentionIdx int
 	for i, textBlock := range a.Layout.Page[0].PrintSpace.TextBlocks {
 		ab := model.AB{
 			XmlID: transcriptionAnonBlockID(pageKey, i+1),
@@ -47,7 +50,8 @@ func BuildTEIFromALTO(
 			entitiesForLine := lo.Filter(entities, func(e EntityItem, _ int) bool {
 				return (e.Start.LineID == textLine.ID && e.Start.BlockID == textBlock.ID) || (e.End.LineID == textLine.ID && e.End.BlockID == textBlock.ID)
 			})
-			nodes := buildInlineNodesWithAnchors(textBlock.ID, textLine.ID, alto.ExtractTextFromLine(textLine), entitiesForLine)
+			nodes := buildInlineNodesWithAnchors(textBlock.ID, textLine.ID, alto.ExtractTextFromLine(textLine), entitiesForLine, mentionIdx)
+			mentionIdx += len(entitiesForLine)
 			l := model.L{
 				XmlID: lineID(pageKey, i+1, j+1),
 				Facs:  "#" + facZoneLineID(pageKey, i+1, j+1),

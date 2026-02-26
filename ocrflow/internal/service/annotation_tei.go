@@ -172,7 +172,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		imageURL = path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 
 		// Build from ALTO (mentions must have Location.TextBlockID/TextLineID aligned to ALTO ids)
-		return tei2.BuildTEIFromALTO(a, items, imageURL)
+		return tei2.BuildTEIFromALTO(pageNumOrKey, a, items, imageURL)
 	}
 
 	// 2) TXT fallback: transcription + translations + image url

@@ -22,6 +22,29 @@ type ABNode struct {
 	Inline   *Inline `xml:"-"`
 }
 
+// MarshalXML implements xml.Marshaler for mixed content: chardata, anchor, or inline element.
+func (n ABNode) MarshalXML(e *xml.Encoder, _ xml.StartElement) error {
+	if n.Anchor != nil {
+		start := xml.StartElement{Name: xml.Name{Local: "anchor"}}
+		var attrs []xml.Attr
+		if n.Anchor.XmlID != "" {
+			attrs = append(attrs, xml.Attr{Name: xml.Name{Local: "xml:id"}, Value: n.Anchor.XmlID})
+		}
+		start.Attr = attrs
+		if err := e.EncodeToken(start); err != nil {
+			return err
+		}
+		return e.EncodeToken(start.End())
+	}
+	if n.Inline != nil {
+		return n.Inline.MarshalXML(e, xml.StartElement{})
+	}
+	if n.CharData != "" {
+		return e.EncodeToken(xml.CharData(n.CharData))
+	}
+	return nil
+}
+
 // AB is a block of text (TEI ab). Use either Segs (one seg per line) or Nodes (mixed content with lb).
 type AB struct {
 	XmlID string `xml:"xml:id,attr,omitempty"`
@@ -51,7 +74,7 @@ func (l L) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 		return err
 	}
 	for i := range l.Nodes {
-		if err := l.Nodes[i].MarshalXML(e); err != nil {
+		if err := l.Nodes[i].MarshalXML(e, xml.StartElement{}); err != nil {
 			return err
 		}
 	}
