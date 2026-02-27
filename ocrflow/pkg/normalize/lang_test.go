@@ -21,7 +21,7 @@ func TestLanguage(t *testing.T) {
 
 		// Multiple languages
 		{"latin, greek", "Latin::Greek"},
-		{"aristotele alijsque græcis & latinis autoribus", "Latin::Greek"},
+		{"aristotele alijsque græcis & latinis autoribus", "Greek::Latin"},
 	}
 
 	for _, tt := range tests {
