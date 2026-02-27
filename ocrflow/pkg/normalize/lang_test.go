@@ -1,6 +1,9 @@
 package normalize
 
-import "testing"
+import (
+	"strings"
+	"testing"
+)
 
 func TestLanguage(t *testing.T) {
 
@@ -26,7 +29,7 @@ func TestLanguage(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		if got := Language(tt.input); got != tt.want {
+		if got := Language(tt.input); strings.Join(got, "::") != tt.want {
 			t.Errorf("Language(%q) = %q, want %q", tt.input, got, tt.want)
 		}
 	}

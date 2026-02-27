@@ -65,8 +65,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureRevisionSvc := service.NewRevision(featureRevisionStore, featureProperty)
 	featureSvc := service.NewFeature(featureStore, featureRevisionStore, featureProperty)
 	featureResultSvc := service.NewResult(featureResultStore, featureSvc, featureProperty)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
 
-	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
+	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
@@ -79,7 +80,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		env.GithubToken,
 		env.CommentariaPath,
 	)
-	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
 	editionTEI := service.NewEditionTEI(fileSystemManager, editionSvc)
 	metaStoreManager := service.NewMetaStoreManager(
 		datasetSvc,

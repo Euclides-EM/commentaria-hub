@@ -1,12 +1,17 @@
 package normalize
 
 import (
-	"golang.org/x/text/unicode/norm"
 	"strings"
 	"unicode"
+
+	"golang.org/x/text/unicode/norm"
 )
 
-func String(s string) string {
+func String(s string) []MappedOriginal {
+	return []MappedOriginal{{Mapped: normalizeString(s), Original: s}}
+}
+
+func normalizeString(s string) string {
 	s = strings.ReplaceAll(s, "¬", "")
 	s = strings.ReplaceAll(s, "-", "")
 	s = strings.ReplaceAll(s, "\n", " ")

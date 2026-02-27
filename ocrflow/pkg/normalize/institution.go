@@ -11,6 +11,6 @@ var rulesInstitutions = []rule{
 	},
 }
 
-func Institution(institutions string) string {
-	return byRegex(rulesInstitutions, "Other")(institutions)
+func Institution(institutions string) []MappedOriginal {
+	return byRegex(rulesInstitutions)(institutions)
 }

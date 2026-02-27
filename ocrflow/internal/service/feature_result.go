@@ -66,7 +66,10 @@ func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *featu
 			if result.Values[i].Properties == nil {
 				result.Values[i].Properties = make(map[string]string)
 			}
-			propVal, err := r.featurePropSvc.CalcFeaturePropertyByPropertyKey(result.Values[i].Surface, propKey)
+			if _, exists := result.Values[i].Properties[propKey]; exists {
+				continue
+			}
+			propVal, err := r.featurePropSvc.CalcValByPropertyKey(result.Values[i].Surface, propKey)
 			if err != nil {
 				return fmt.Errorf("failed to calculate feature property %s: %v", propKey, err)
 			}

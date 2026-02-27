@@ -1,38 +1,39 @@
 package normalize
 
 import (
-	"regexp"
 	"strings"
 
 	"github.com/samber/lo"
 )
 
-func byRegex(rules []rule, defaultVal string) func(string) string {
-	return func(s string) string {
-		result := make([]string, 0)
-		norm := String(s)
+func byRegex(rules []rule) func(string) []MappedOriginal {
+	return func(s string) []MappedOriginal {
+		norm := normalizeString(s)
 		if norm == "" {
-			return defaultVal
+			return nil
 		}
 
+		var out []MappedOriginal
+
 		for _, r := range rules {
-			if r.re.MatchString(norm) {
-				result = append(result, r.label)
+			matches := r.re.FindAllString(norm, -1)
+			for _, m := range matches {
+				m = strings.TrimSpace(m)
+				if m == "" {
+					continue
+				}
+				out = append(out, MappedOriginal{
+					Original: m,
+					Mapped:   r.label,
+				})
 			}
 		}
 
-		result = lo.Uniq(result)
-		if len(result) == 0 {
-			return defaultVal
-		}
+		// dedupe exact pairs, keep stable order
+		out = lo.UniqBy(out, func(x MappedOriginal) string {
+			return x.Original + "\x00" + x.Mapped
+		})
 
-		return strings.Join(result, "::")
+		return out
 	}
 }
-
-type rule struct {
-	re    *regexp.Regexp
-	label string
-}
-
-//var splitRe = regexp.MustCompile(`, | et | en | & `)

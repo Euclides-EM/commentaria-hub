@@ -15,6 +15,6 @@ var rulesLanguage = []rule{
 	{regexp.MustCompile(`romance|vulgar|volgar|vvlgare|vernacul|en nostre langve`), "General-Vernacular"},
 }
 
-func Language(lang string) string {
-	return byRegex(rulesLanguage, "Other")(lang)
+func Language(lang string) []MappedOriginal {
+	return byRegex(rulesLanguage)(lang)
 }

@@ -14,6 +14,8 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
+	"github.com/samber/lo"
 )
 
 type Execution struct {
@@ -21,6 +23,8 @@ type Execution struct {
 	featuresSvc         *Feature
 	featureResultsSvc   *Result
 	annotationSvc       *Annotation
+	annotationTEISvc    *AnnotationTEI
+	featurePropertySvc  *FeatureProperty
 	store               *fpstore.FeatureExecutionStore
 	filesysManager      *filesys.Manager
 	datasetImg          *DatasetImg
@@ -29,12 +33,14 @@ type Execution struct {
 }
 
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionStore).
-func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
+func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
 	return &Execution{
 		featureRevisionsSvc: featureRevisionsSvc,
 		featuresSvc:         featuresSvc,
 		featureResultsSvc:   featureResultsSvc,
 		annotationSvc:       annotationSvc,
+		annotationTEISvc:    annotationTEISvc,
+		featurePropertySvc:  featurePropertySvc,
 		store:               store,
 		filesysManager:      filesysManager,
 		datasetImg:          datasetImg,
@@ -69,19 +75,26 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	var applyFuncs []func() ([]*feature.Result, error)
 	for _, key := range exec.Keys {
 		for _, item := range exec.Apply {
-			fr, err := fe.featureRevisionsSvc.GetFeatureRevision(exec.DatasetID, item.Feature, item.Revision)
-			if err != nil {
-				return nil, fmt.Errorf("failed to get feature revision for feature %s and revision %s: %w", item.Feature, item.Revision, err)
-			}
-			if fr.Categorizer != "" {
-				return nil, fmt.Errorf("categorizer execution strategy is not supported yet for feature %s and revision %s", item.Feature, item.Revision)
-			}
 			feat, err := fe.featuresSvc.GetFeature(exec.DatasetID, item.Feature, nil)
 			if err != nil {
 				return nil, fmt.Errorf("failed to get feature for feature %s: %w", item.Feature, err)
 			}
+			fr, err := fe.featureRevisionsSvc.GetFeatureRevision(exec.DatasetID, item.Feature, item.Revision)
+			if err != nil {
+				return nil, fmt.Errorf("failed to get feature revision for feature %s and revision %s: %w", item.Feature, item.Revision, err)
+			}
+			fullText, err := fe.annotationTEISvc.GetTxt(exec.DatasetID, exec.AnnotationID, key)
+			if err != nil {
+				return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.AnnotationID, key, err)
+			}
 
-			applyFuncs = append(applyFuncs, fe.execPrompt(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID))
+			if fr.Categorizer != "" {
+				applyFuncs = append(applyFuncs, fe.execCategorizer(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID, fullText))
+			} else if fr.Prompt != "" {
+				applyFuncs = append(applyFuncs, fe.execPrompt(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID))
+			} else {
+				return nil, fmt.Errorf("feature revision for feature %s and revision %s does not have a valid execution strategy", item.Feature, item.Revision)
+			}
 		}
 	}
 
@@ -245,6 +258,41 @@ Definitions:
 				})
 			}
 			res.Values = resultValues
+		}
+		return results, nil
+	}
+}
+
+func (fe *Execution) execCategorizer(ann *annotation.Annotation, key string, revisions []*feature.Revision, features []*feature.Feature, id string, text string) func() ([]*feature.Result, error) {
+	return func() ([]*feature.Result, error) {
+		results := make([]*feature.Result, 0)
+		for i, rev := range revisions {
+			vals, err := fe.featurePropertySvc.CalcValsByPropertyKey(text, rev.Categorizer)
+			if err != nil {
+				return nil, fmt.Errorf("failed to calculate feature property for dataset %s and key %s: %w", ann.DatasetID, key, err)
+			}
+			source := feature.ResultSource{
+				Resp:     "auto",
+				Id:       id,
+				Revision: rev.ID,
+				Name:     "categorizer",
+			}
+			res := &feature.Result{
+				DatasetID:    ann.DatasetID,
+				AnnotationID: ann.ID,
+				FeatureID:    features[i].Name,
+				PageKey:      key,
+				Source:       source,
+				Values: lo.Map(vals, func(v normalize.MappedOriginal, _ int) feature.ResultValue {
+					return feature.ResultValue{
+						Surface: v.Original,
+						Properties: map[string]string{
+							"normalized": v.Mapped,
+						},
+					}
+				}),
+			}
+			results = append(results, res)
 		}
 		return results, nil
 	}

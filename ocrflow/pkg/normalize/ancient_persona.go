@@ -3,12 +3,14 @@ package normalize
 import (
 	"regexp"
 	"strings"
+
+	"github.com/samber/lo"
 )
 
-func AncientPersona(name string) string {
-	n := String(name)
+func AncientPersona(name string) []MappedOriginal {
+	n := normalizeString(name)
 	if n == "" {
-		return ""
+		return nil
 	}
 
 	contains := func(opts ...string) bool {
@@ -23,6 +25,33 @@ func AncientPersona(name string) string {
 		return false
 	}
 
+	var out []MappedOriginal
+
+	// helper: add first matching token from a list
+	addFirstMatch := func(mapped string, originals ...string) {
+		for _, o := range originals {
+			if o == "" {
+				continue
+			}
+			if strings.Contains(n, o) {
+				out = append(out, MappedOriginal{Original: o, Mapped: mapped})
+				return
+			}
+		}
+	}
+
+	// helper: add by regex, capturing matched substring(s) from n
+	addByRegex := func(mapped string, re *regexp.Regexp) {
+		matches := re.FindAllString(n, -1)
+		for _, m := range matches {
+			m = strings.TrimSpace(m)
+			if m == "" {
+				continue
+			}
+			out = append(out, MappedOriginal{Original: m, Mapped: mapped})
+		}
+	}
+
 	// Archimedes
 	if contains(
 		"archimedes",
@@ -32,23 +61,31 @@ func AncientPersona(name string) string {
 		"darchimedes",
 		"archimed",
 	) || regexp.MustCompile(`ἀρχιμήδη|αρχιμηδη|archimede`).MatchString(n) {
-		return "Archimedes"
+		addFirstMatch("Archimedes",
+			"archimedes",
+			"archimede",
+			"archimedis",
+			"archimede.",
+			"darchimedes",
+			"archimed",
+		)
+		addByRegex("Archimedes", regexp.MustCompile(`ἀρχιμήδη|αρχιμηδη|archimede`))
 	}
 
 	if contains("avtolyci", "autolyc", "autolycus") {
-		return "Autolycus of Pitane"
+		addFirstMatch("Autolycus of Pitane", "avtolyci", "autolyc", "autolycus")
 	}
 
 	if contains("alexander aphrodiseus", "alexander aphrodis", "aphrodisias") {
-		return "Alexander of Aphrodisias"
+		addFirstMatch("Alexander of Aphrodisias", "alexander aphrodiseus", "alexander aphrodis", "aphrodisias")
 	}
 
 	if contains("apollonij", "apollonius", "apollonio") {
-		return "Apollonius of Perga"
+		addFirstMatch("Apollonius of Perga", "apollonij", "apollonius", "apollonio")
 	}
 
 	if contains("aristarchi sami", "aristarchus", "aristarco") {
-		return "Aristarchus of Samos"
+		addFirstMatch("Aristarchus of Samos", "aristarchi sami", "aristarchus", "aristarco")
 	}
 
 	// Aristotle (includes odd false-positive "πλατωνος" from original TS)
@@ -61,15 +98,24 @@ func AncientPersona(name string) string {
 		"daristote",
 		"πλατωνος",
 	) || regexp.MustCompile(`ἀριστοτε`).MatchString(n) {
-		return "Aristotle"
+		addFirstMatch("Aristotle",
+			"aristote",
+			"aristotele",
+			"aristoteleam",
+			"aristoteles",
+			"aristotelis",
+			"daristote",
+			"πλατωνος",
+		)
+		addByRegex("Aristotle", regexp.MustCompile(`ἀριστοτε`))
 	}
 
 	if contains("athenagorae philosophi", "athenagoras") {
-		return "Athenagoras of Athens"
+		addFirstMatch("Athenagoras of Athens", "athenagorae philosophi", "athenagoras")
 	}
 
 	if contains("barlaam") {
-		return "Barlaam of Seminara"
+		addFirstMatch("Barlaam of Seminara", "barlaam")
 	}
 
 	if contains(
@@ -79,19 +125,25 @@ func AncientPersona(name string) string {
 		"bartholomæi zamberti",
 		"bartholamæi zamberti",
 	) {
-		return "Bartholomeo Zamberti"
+		addFirstMatch("Bartholomeo Zamberti",
+			"bartholomaei zamberti",
+			"bartholomæi zamberti",
+			"bartholamæi zamberti",
+			"zamberti",
+			"zamberto",
+		)
 	}
 
 	if contains("batholomaeo veneto", "batholomæo veneto", "a bartholomæo veneto") {
-		return "Bartolomeo Veneto"
+		addFirstMatch("Bartolomeo Veneto", "a bartholomæo veneto", "batholomaeo veneto", "batholomæo veneto")
 	}
 
 	if contains("boetii", "boetij", "boethius", "boetius") {
-		return "Boethius"
+		addFirstMatch("Boethius", "boethius", "boetius", "boetii", "boetij")
 	}
 
 	if contains("boneti latensis", "boni latensis") {
-		return "Bonetus Latensis"
+		addFirstMatch("Bonetus Latensis", "boneti latensis", "boni latensis")
 	}
 
 	if contains(
@@ -103,19 +155,27 @@ func AncientPersona(name string) string {
 		"campano",
 		"due tradottioni",
 	) {
-		return "Campanus of Novara"
+		addFirstMatch("Campanus of Novara",
+			"campani galli transalpini",
+			"campani galli",
+			"campane",
+			"campani",
+			"campani ",
+			"campano",
+			"due tradottioni",
+		)
 	}
 
 	if contains("candallae", "fr. flussatis candallae", "flussas") {
-		return "François de Foix de Candalle"
+		addFirstMatch("François de Foix de Candalle", "fr. flussatis candallae", "candallae", "flussas")
 	}
 
 	if contains("christophoro clavio", "r.p. christophori clauij", "clavius", "clauij") {
-		return "Christopher Clavius"
+		addFirstMatch("Christopher Clavius", "christophoro clavio", "r.p. christophori clauij", "clavius", "clauij")
 	}
 
 	if contains("cleomedes", "cleonidis") {
-		return "Cleomedes"
+		addFirstMatch("Cleomedes", "cleomedes", "cleonidis")
 	}
 
 	if contains(
@@ -124,149 +184,154 @@ func AncientPersona(name string) string {
 		"fededici commandini",
 		"commandini",
 	) {
-		return "Federico Commandino"
+		addFirstMatch("Federico Commandino", "federici commandini", "fededici commandini", "commandine", "commandini")
 	}
 
 	if contains("copernican") {
-		return "Nicolaus Copernicus"
+		addFirstMatch("Nicolaus Copernicus", "copernican")
 	}
 
 	if contains("galileo", "del galileo", "galilei") {
-		return "Galileo Galilei"
+		addFirstMatch("Galileo Galilei", "del galileo", "galileo", "galilei")
 	}
 
 	if contains("torricelli") {
-		return "Evangelista Torricelli"
+		addFirstMatch("Evangelista Torricelli", "torricelli")
 	}
 
 	if contains("eutocij", "eutocius") {
-		return "Eutocius of Ascalon"
+		addFirstMatch("Eutocius of Ascalon", "eutocij", "eutocius")
 	}
 
-	if contains("francois viete", "mr. viete", "de lillustre f. viete", "viete", "viete") {
-		return "François Viète"
+	if contains("francois viete", "mr. viete", "de lillustre f. viete", "viete") {
+		addFirstMatch("François Viète", "de lillustre f. viete", "francois viete", "mr. viete", "viete")
 	}
 
 	if contains("fabrice mordente", "mordente") {
-		return "Fabrizio Mordente"
+		addFirstMatch("Fabrizio Mordente", "fabrice mordente", "mordente")
 	}
 
 	if contains("galenus") {
-		return "Galen"
+		addFirstMatch("Galen", "galenus")
 	}
 
 	if contains("gilberti porretae", "porretae") {
-		return "Gilbert de la Porrée"
+		addFirstMatch("Gilbert de la Porrée", "gilberti porretae", "porretae")
 	}
 
 	if contains("henrichvs loritvs glareanvs", "henricvs loritvs glareanvs", "glareanus") {
-		return "Henricus Glareanus"
+		addFirstMatch("Henricus Glareanus", "henrichvs loritvs glareanvs", "henricvs loritvs glareanvs", "glareanus")
 	}
 
 	// Hero of Alexandria
 	if contains("heronis alexandrini") || contains("ηρωνος αλεξανδρεως", "ηρωνος", "αλεξανδρεως") {
-		return "Hero of Alexandria"
+		addFirstMatch("Hero of Alexandria", "heronis alexandrini", "ηρωνος αλεξανδρεως", "ηρωνος", "αλεξανδρεως")
 	}
 
 	if contains("hypsiclis alexandrini", "hypsiclis", "hypsiclem", "hypsi. alex.") {
-		return "Hypsicles of Alexandria"
+		addFirstMatch("Hypsicles of Alexandria", "hypsiclis alexandrini", "hypsiclis", "hypsiclem", "hypsi. alex.")
 	}
 
 	if contains("iacobi peletarii cenom.", "peletarii", "peletier") {
-		return "Jacques Peletier"
+		addFirstMatch("Jacques Peletier", "iacobi peletarii cenom.", "peletarii", "peletier")
 	}
 
 	if contains("isaaci monachi") {
-		return "Isaac Argyros"
+		addFirstMatch("Isaac Argyros", "isaaci monachi")
 	}
 
 	if contains("isidorvm", "isidore") {
-		return "Isidore of Seville"
+		addFirstMatch("Isidore of Seville", "isidorvm", "isidore")
 	}
 
 	if contains("ioannis murmelij", "murmelij", "murmelius") {
-		return "Johannes Murmellius"
+		addFirstMatch("Johannes Murmellius", "ioannis murmelij", "murmelij", "murmelius")
 	}
 
 	if contains("john dee", "m. i. dee", "i. dee", "dee of london") {
-		return "John Dee"
+		addFirstMatch("John Dee", "dee of london", "john dee", "m. i. dee", "i. dee")
 	}
 
 	if contains("marinus", "marini dialectici") {
-		return "Marinus of Neapolis"
+		addFirstMatch("Marinus of Neapolis", "marini dialectici", "marinus")
 	}
 
 	if contains("martianvs rota") {
-		return "Martianus Rota"
+		addFirstMatch("Martianus Rota", "martianvs rota")
 	}
 
 	if contains("maurolyci", "mavrolyci", "maurolico") {
-		return "Francesco Maurolico"
+		addFirstMatch("Francesco Maurolico", "maurolyci", "mavrolyci", "maurolico")
 	}
 
 	if contains("menelai", "menelaus") {
-		return "Menelaus of Alexandria"
+		addFirstMatch("Menelaus of Alexandria", "menelai", "menelaus")
 	}
 
 	if contains("nicephori", "nicephorus") {
-		return "Nicephorus"
+		addFirstMatch("Nicephorus", "nicephori", "nicephorus")
 	}
 
 	if contains("procli", "proclus", "πρόκλου") {
-		return "Proclus"
+		addFirstMatch("Proclus", "πρόκλου", "procli", "proclus")
 	}
 
 	if contains("pappi mechanici", "pappi", "pappus") {
-		return "Pappus of Alexandria"
+		addFirstMatch("Pappus of Alexandria", "pappi mechanici", "pappi", "pappus")
 	}
 
 	if contains("platone", "platus", "πλάτων", "πλατων", "πλάτωνος", "plato", "γλάπτων") {
-		return "Plato"
+		addFirstMatch("Plato", "πλάτωνος", "πλάτων", "πλατων", "platone", "platus", "plato", "γλάπτων")
 	}
 
 	if contains("pythagorean", "pytagorean", "πυθαγόρας", "γυπαγόρας") {
-		return "Pythagoras"
+		addFirstMatch("Pythagorean", "pythagorean", "pytagorean", "πυθαγόρας", "γυπαγόρας")
 	}
 
 	if contains("robert hves", "robert hues") {
-		return "Robert Hues"
+		addFirstMatch("Robert Hues", "robert hves", "robert hues")
 	}
 
 	if contains("rhazes") {
-		return "Abu Bakr al-Razi"
+		addFirstMatch("Abu Bakr al-Razi", "rhazes")
 	}
 
 	if contains("rodolphi agricolae") {
-		return "Rodolphus Agricola"
+		addFirstMatch("Rodolphus Agricola", "rodolphi agricolae")
 	}
 
 	if contains("stevin") {
-		return "Simon Stevin"
+		addFirstMatch("Simon Stevin", "stevin")
 	}
 
 	if contains("sacrobosco") {
-		return "Johannes de Sacrobosco"
+		addFirstMatch("Johannes de Sacrobosco", "sacrobosco")
 	}
 
 	if contains("scipio vegius") {
-		return "Scipione Vizzani"
+		addFirstMatch("Scipione Vizzani", "scipio vegius")
 	}
 
 	if contains("theodosii", "theodosij") {
-		return "Theodosius of Bithynia"
+		addFirstMatch("Theodosius of Bithynia", "theodosii", "theodosij")
 	}
 
 	if contains("theonis alexandrini", "theonis", "theon", "θεωνος", "θεῶνος", "θέωνος") {
-		return "Theon of Alexandria"
+		addFirstMatch("Theon of Alexandria", "theonis alexandrini", "theonis", "theon", "θεωνος", "θεῶνος", "θέωνος")
 	}
 
 	if contains("timeus", "timaeus") {
-		return "Timaeus of Locri"
+		addFirstMatch("Timaeus of Locri", "timeus", "timaeus")
 	}
 
 	if contains("zamber", "due tradottioni") {
-		return "Bartholomeo Zamberti"
+		addFirstMatch("Bartholomeo Zamberti", "zamber", "due tradottioni")
 	}
 
-	return ""
+	// final dedupe: (Original, Mapped)
+	out = lo.UniqBy(out, func(x MappedOriginal) string {
+		return x.Original + "\x00" + x.Mapped
+	})
+
+	return out
 }

@@ -30,3 +30,13 @@ func ExtractTextContentFromBlock(b *TextBlock) string {
 	combined = strings.TrimSpace(combined)
 	return combined
 }
+
+func ExtractTextContentsFromAlto(a *Alto) string {
+	res := ""
+	for _, page := range a.Layout.Page {
+		for _, block := range page.PrintSpace.TextBlocks {
+			res = res + "\n" + ExtractTextContentFromBlock(&block)
+		}
+	}
+	return strings.TrimSpace(res)
+}

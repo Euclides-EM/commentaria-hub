@@ -10,6 +10,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	tei2 "github.com/MiaMish/elements-dh/ocrflow/pkg/tei"
@@ -69,6 +70,35 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 	}
 
 	return xml, nil
+}
+
+func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrKey string) (string, error) {
+	ann, err := t.annotationSvc.Get(datasetID, annotationID)
+	if err != nil {
+		return "", err
+	}
+
+	if !ann.Ocred {
+		return "", fmt.Errorf("annotation %s is not OCRed", ann.ID)
+	}
+
+	// 1) Try ALTO page first
+	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
+		alto.ExtractTextContentsFromAlto(a)
+	}
+
+	// 2) TXT fallback: transcription
+	var lines []string
+	if ann.DatasetID == "tps" && ann.ID == "ann_1" {
+		if lines, _, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
+			return "", fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
+		}
+	} else {
+		if lines, _, err = t.fileSysMgt.RetrieveAnnotationTXTPage(ann, pageNumOrKey); err != nil {
+			return "", fmt.Errorf("failed to retrieve TXT page for annotation %s: %v", ann.ID, err)
+		}
+	}
+	return strings.Join(lines, "\n"), nil
 }
 
 func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, features []string) (*teimodel.TEI, error) {
