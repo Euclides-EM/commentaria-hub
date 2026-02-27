@@ -18,12 +18,12 @@ func (fp *FeatureProperty) ListFeaturePropertyKeys() []string {
 	return lo.Keys(featurePropToFunc)
 }
 
-func (fp *FeatureProperty) CalcFeaturePropertyByPropertyKey(propKey string) (string, error) {
+func (fp *FeatureProperty) CalcFeaturePropertyByPropertyKey(s, propKey string) (string, error) {
 	propFunc, ok := featurePropToFunc[propKey]
 	if !ok {
 		return "", fmt.Errorf("unknown feature property key: %s", propKey)
 	}
-	return propFunc(propKey), nil
+	return propFunc(s), nil
 }
 
 func (fp *FeatureProperty) ListDefaultFeaturePropertyKeys() []string {

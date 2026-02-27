@@ -2,7 +2,6 @@ package service
 
 import (
 	"fmt"
-	"golang.org/x/text/unicode/norm"
 	"log"
 	"path"
 	"sort"
@@ -206,14 +205,8 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 				continue
 			}
 
-			// todo use https://gist.github.com/ReallyLiri/661e03381ed4f3aede6aa2d9f20fefef ...
-			normalized := norm.NFD.String(strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(surface, "¬", ""), "\n", " ")))
-
 			props := map[string]string{
-				"value": normalized,
-			}
-			if strings.TrimSpace(surface) != "" {
-				props["surface"] = surface
+				"surface": surface,
 			}
 			for k, v := range val.Properties {
 				props[k] = v

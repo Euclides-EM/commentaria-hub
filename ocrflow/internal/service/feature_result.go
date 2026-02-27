@@ -2,9 +2,10 @@ package service
 
 import (
 	"fmt"
-	"github.com/samber/lo"
 	"slices"
 	"strings"
+
+	"github.com/samber/lo"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
@@ -61,13 +62,13 @@ func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *featu
 		return fmt.Errorf("feature %s not found", result.FeatureID)
 	}
 	for _, propKey := range feat.Properties {
-		propVal, err := r.featurePropSvc.CalcFeaturePropertyByPropertyKey(propKey)
-		if err != nil {
-			return fmt.Errorf("failed to calculate feature property %s: %v", propKey, err)
-		}
 		for i := range result.Values {
 			if result.Values[i].Properties == nil {
 				result.Values[i].Properties = make(map[string]string)
+			}
+			propVal, err := r.featurePropSvc.CalcFeaturePropertyByPropertyKey(result.Values[i].Surface, propKey)
+			if err != nil {
+				return fmt.Errorf("failed to calculate feature property %s: %v", propKey, err)
 			}
 			result.Values[i].Properties[propKey] = propVal
 		}

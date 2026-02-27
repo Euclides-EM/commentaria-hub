@@ -3,28 +3,27 @@ package normalize
 import (
 	"regexp"
 	"strings"
+
+	"github.com/samber/lo"
 )
 
 func byRegex(rules []rule, defaultVal string) func(string) string {
 	return func(s string) string {
-		parts := splitRe.Split(s, -1)
+		result := make([]string, 0)
+		norm := String(s)
+		if norm == "" {
+			return defaultVal
+		}
 
-		var result []string
-		for _, input := range parts {
-			norm := String(input)
-			if norm == "" {
-				continue
+		for _, r := range rules {
+			if r.re.MatchString(norm) {
+				result = append(result, r.label)
 			}
+		}
 
-			matched := defaultVal
-			for _, r := range rules {
-				if r.re.MatchString(norm) {
-					matched = r.label
-					break
-				}
-			}
-
-			result = append(result, matched)
+		result = lo.Uniq(result)
+		if len(result) == 0 {
+			return defaultVal
 		}
 
 		return strings.Join(result, "::")
@@ -36,4 +35,4 @@ type rule struct {
 	label string
 }
 
-var splitRe = regexp.MustCompile(`, | et | en | & `)
+//var splitRe = regexp.MustCompile(`, | et | en | & `)

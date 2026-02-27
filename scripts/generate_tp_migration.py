@@ -27,8 +27,6 @@ def split_values(value: str) -> List[str]:
 
     if "::" in v:
         parts = v.split("::")
-    elif "," in v:
-        parts = v.split(",")
     else:
         parts = [v]
 
@@ -429,6 +427,6 @@ if __name__ == "__main__":
         "/Users/mia/dev/personal/elements-dh/ocrflow/store/items_metadata/title_page.csv"
     )
     output_path = Path(
-        "/ocrflow/internal/migrations/ocrflow/1772144022_feature_result_tps_seed.sql"
+        "/Users/mia/dev/personal/elements-dh/ocrflow/internal/migrations/ocrflow/1772144025_feature_result_tps_seed.sql"
     )
     generate_sql(csv_path, output_path)
