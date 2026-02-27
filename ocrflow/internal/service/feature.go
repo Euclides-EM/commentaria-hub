@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+
 	"github.com/samber/lo"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
@@ -28,6 +29,7 @@ func (f *Feature) ListFeatures(datasetID string, expandOptions []feature.ExpandO
 		if err := f.applyExpand(feat, expandOptions); err != nil {
 			return nil, err
 		}
+		feat.Properties = lo.Uniq(append(feat.Properties, f.featureProperty.ListDefaultFeaturePropertyKeys()...))
 	}
 	return fs, nil
 }
@@ -59,6 +61,7 @@ func (f *Feature) GetFeature(datasetID, id string, expandOptions []feature.Expan
 	if err := f.applyExpand(feat, expandOptions); err != nil {
 		return nil, err
 	}
+	feat.Properties = lo.Uniq(append(feat.Properties, f.featureProperty.ListDefaultFeaturePropertyKeys()...))
 	return feat, nil
 }
 
@@ -110,10 +113,7 @@ func (f *Feature) validate(feat *feature.Feature) error {
 	if feat.Color == "" {
 		return fmt.Errorf("feature color is required")
 	}
-	properties, err := f.featureProperty.ListFeaturePropertyKeys()
-	if err != nil {
-		return err
-	}
+	properties := f.featureProperty.ListFeaturePropertyKeys()
 	for _, key := range feat.Properties {
 		if !lo.Contains(properties, key) {
 			return fmt.Errorf("invalid feature property key: %s", key)

@@ -3,6 +3,7 @@ package service
 import (
 	"errors"
 	"fmt"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
@@ -73,10 +74,7 @@ func (fr *Revision) validate(m *feature.Revision) error {
 		return errors.New("cannot have both prompt and categorizer")
 	}
 	if m.Categorizer != "" {
-		properties, err := fr.featureProperties.ListFeaturePropertyKeys()
-		if err != nil {
-			return err
-		}
+		properties := fr.featureProperties.ListFeaturePropertyKeys()
 		if !lo.Contains(properties, m.Categorizer) {
 			return fmt.Errorf("categorizer %q is not a valid feature property key", m.Categorizer)
 		}
