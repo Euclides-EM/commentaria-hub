@@ -21,7 +21,7 @@ func (h *Handlers) ListFeatures(r *http.Request) (any, error) {
 	if err != nil {
 		return nil, err
 	}
-	return h.deps.FeatureSvc.ListFeatures(dataSetId, feature.ToFeatureExpandOptions(r.URL.Query()["expand"]))
+	return h.deps.FeatureSvc.ListFeatures(dataSetId, feature.ToExpandOptions(r.URL.Query()["expand"]))
 }
 
 // CreateFeatures godoc
@@ -92,7 +92,7 @@ func (h *Handlers) GetFeature(r *http.Request) (any, error) {
 	if featureId == "" {
 		return nil, err
 	}
-	feat, err := h.deps.FeatureSvc.GetFeature(dataSetId, featureId, feature.ToFeatureExpandOptions(r.URL.Query()["expand"]))
+	feat, err := h.deps.FeatureSvc.GetFeature(dataSetId, featureId, feature.ToExpandOptions(r.URL.Query()["expand"]))
 	if err != nil {
 		return nil, err
 	}

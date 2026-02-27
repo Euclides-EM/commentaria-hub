@@ -1,314 +1,136 @@
 package store
 
 import (
-	"database/sql"
-	"encoding/json"
+	"errors"
 	"fmt"
-	"strings"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 )
 
-// FeatureExecutionSQL is the SQL store for feature executions (table: feature_executions, feature_execution_apply).
-type FeatureExecutionSQL struct {
-	db *sql.DB
+const featureExecutionTTL = 24 * time.Hour
+
+var ErrFeatureExecutionNotFound = errors.New("feature execution not found")
+
+type FeatureExecutionStore struct {
+	cache *cache.Cache
 }
 
-// NewFeatureExecutionSQL returns a new FeatureExecutionSQL store using the given DB.
-func NewFeatureExecutionSQL(db *sql.DB) *FeatureExecutionSQL {
-	return &FeatureExecutionSQL{db: db}
+func NewFeatureExecutionStore(c *cache.Cache) *FeatureExecutionStore {
+	return &FeatureExecutionStore{cache: c}
 }
 
-func (s *FeatureExecutionSQL) List(datasetID string, featureIDs []string, statuses []feature.ExecutionStatus) ([]*feature.Execution, error) {
-	query := `
-		SELECT id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status, status_reason
-		FROM feature_executions
-		WHERE 1=1
-	`
-	var args []any
-
-	if len(statuses) > 0 {
-		query += ` AND status IN (`
-		for i, status := range statuses {
-			if i > 0 {
-				query += `, `
-			}
-			query += `?`
-			args = append(args, status)
-		}
-		query += `)`
+func (s *FeatureExecutionStore) List(datasetID string, featureIDs []string, statuses []feature.ExecutionStatus) ([]*feature.Execution, error) {
+	if datasetID == "" {
+		return nil, errors.New("list executions: missing dataset_id")
 	}
 
-	query += ` ORDER BY updated_at DESC`
+	featureSet := map[string]struct{}{}
+	for _, fid := range featureIDs {
+		featureSet[fid] = struct{}{}
+	}
+	statusSet := map[feature.ExecutionStatus]struct{}{}
+	for _, st := range statuses {
+		statusSet[st] = struct{}{}
+	}
 
-	rows, err := s.db.Query(query, args...)
+	_, vals, _, err := s.cache.GetBulk(nil, func(k1, k2 string, v1, v2 any) int {
+		e1, _ := v1.(*feature.Execution)
+		e2, _ := v2.(*feature.Execution)
+		// newest first
+		return e2.CreatedAt.Compare(e1.CreatedAt)
+	}, 0, 10_000)
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
 
 	var out []*feature.Execution
-	for rows.Next() {
-		exec, err := scanFeatureExecution(rows.Scan)
-		if err != nil {
-			return nil, err
+	for _, v := range vals {
+		exec, ok := v.(*feature.Execution)
+		if !ok || exec == nil {
+			continue
 		}
-		// Load Apply items
-		apply, err := s.listExecutionApply(exec.ID)
-		if err != nil {
-			return nil, err
-		}
-		exec.Apply = apply
 
-		// Filter by featureIDs if provided (check if any Apply item's Feature is in featureIDs)
-		if len(featureIDs) > 0 {
-			hasMatchingFeature := false
-			for _, item := range exec.Apply {
-				for _, fid := range featureIDs {
-					if item.Feature == fid && exec.DatasetID == datasetID {
-						hasMatchingFeature = true
-						break
-					}
-				}
-				if hasMatchingFeature {
+		if exec.DatasetID != datasetID {
+			continue
+		}
+
+		if len(statusSet) > 0 {
+			if _, ok := statusSet[exec.Status]; !ok {
+				continue
+			}
+		}
+
+		// Filter by "featureIDs" meaning: any apply item targets one of these features.
+		if len(featureSet) > 0 {
+			matched := false
+			for _, a := range exec.Apply {
+				if _, ok := featureSet[a.Feature]; ok {
+					matched = true
 					break
 				}
 			}
-			if !hasMatchingFeature {
+			if !matched {
 				continue
 			}
 		}
 
 		out = append(out, exec)
 	}
-	if err := rows.Err(); err != nil {
-		return nil, err
-	}
+
 	return out, nil
 }
 
-func (s *FeatureExecutionSQL) GetByID(id string) (*feature.Execution, error) {
-	exec := &feature.Execution{}
-	var keysJSON string
-	var policySkipIf string
-	err := s.db.QueryRow(`
-		SELECT id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status, status_reason
-		FROM feature_executions
-		WHERE id = ?
-		LIMIT 1
-	`, id).Scan(
-		&exec.ID,
-		&exec.CreatedAt,
-		&exec.UpdatedAt,
-		&exec.Name,
-		&exec.Description,
-		&exec.DatasetID,
-		&exec.AnnotationID,
-		&keysJSON,
-		&policySkipIf,
-		&exec.Status,
-		&exec.StatusReason,
-	)
-	if err != nil {
-		if err == sql.ErrNoRows {
-			return nil, fmt.Errorf("feature execution not found")
-		}
-		return nil, err
+func (s *FeatureExecutionStore) GetByID(id string) (*feature.Execution, error) {
+	if id == "" {
+		return nil, fmt.Errorf("get execution: missing id")
 	}
-
-	if keysJSON != "" && keysJSON != "[]" {
-		if err := json.Unmarshal([]byte(keysJSON), &exec.Keys); err != nil {
-			return nil, fmt.Errorf("failed to parse keys JSON: %w", err)
-		}
+	v, ok := s.cache.Get(id)
+	if !ok {
+		return nil, ErrFeatureExecutionNotFound
 	}
-
-	if policySkipIf != "" && policySkipIf != "[]" {
-		var skipIf []feature.ExecutionSkipIf
-		if err := json.Unmarshal([]byte(policySkipIf), &skipIf); err != nil {
-			return nil, fmt.Errorf("failed to parse skipIf: %w", err)
-		}
-		skipIf, err := parsePolicySkipIf(policySkipIf)
-		if err != nil {
-			return nil, err
-		}
-		exec.Policy = &feature.ExecutionPolicy{
-			SkipIf: skipIf,
-		}
+	exec, ok := v.(*feature.Execution)
+	if !ok || exec == nil {
+		return nil, ErrFeatureExecutionNotFound
 	}
-
-	apply, err := s.listExecutionApply(exec.ID)
-	if err != nil {
-		return nil, err
-	}
-	exec.Apply = apply
-
 	return exec, nil
 }
 
-func (s *FeatureExecutionSQL) Create(exec *feature.Execution) error {
+func (s *FeatureExecutionStore) Create(exec *feature.Execution) error {
 	if exec == nil {
-		return fmt.Errorf("feature execution is nil")
+		return errors.New("create execution: nil execution")
 	}
 	if exec.ID == "" {
-		return fmt.Errorf("feature execution id is empty")
+		return errors.New("create execution: missing id")
 	}
+	if exec.DatasetID == "" {
+		return errors.New("create execution: missing dataset_id")
+	}
+	if len(exec.Apply) == 0 {
+		return errors.New("create execution: apply is empty")
+	}
+
+	now := time.Now()
 	if exec.CreatedAt.IsZero() {
-		exec.CreatedAt = time.Now()
+		exec.CreatedAt = now
 	}
-	if exec.UpdatedAt.IsZero() {
-		exec.UpdatedAt = exec.CreatedAt
-	}
+	exec.UpdatedAt = now
 
-	keysJSON := "[]"
-	if len(exec.Keys) > 0 {
-		keysBytes, err := json.Marshal(exec.Keys)
-		if err != nil {
-			return fmt.Errorf("failed to marshal keys: %w", err)
-		}
-		keysJSON = string(keysBytes)
-	}
-
-	policySkipIf := ""
-	if exec.Policy != nil {
-		policySkipIfBytes, err := json.Marshal(exec.Policy.SkipIf)
-		if err != nil {
-			return fmt.Errorf("failed to marshal policy skip_if: %w", err)
-		}
-		policySkipIf = string(policySkipIfBytes)
-	}
-
-	tx, err := s.db.Begin()
-	if err != nil {
-		return err
-	}
-	defer func() { _ = tx.Rollback() }()
-
-	_, err = tx.Exec(`
-		INSERT INTO feature_executions (id, created_at, updated_at, name, description, dataset_id, annotation_id, keys, policy_skip_if, status, status_reason)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`, exec.ID, exec.CreatedAt, exec.UpdatedAt, exec.Name, exec.Description, exec.DatasetID, exec.AnnotationID, keysJSON, policySkipIf, exec.Status, exec.StatusReason)
-	if err != nil {
-		return err
-	}
-
-	if err := s.insertExecutionApplyTx(tx, exec.ID, exec.Apply); err != nil {
-		return err
-	}
-
-	return tx.Commit()
-}
-
-func (s *FeatureExecutionSQL) UpdateStatus(id string, status feature.ExecutionStatus, statusReason string) error {
-	res, err := s.db.Exec(`
-		UPDATE feature_executions
-		SET status = ?, status_reason = ?, updated_at = ?
-		WHERE id = ?
-	`, status, statusReason, time.Now(), id)
-	if err != nil {
-		return err
-	}
-	n, _ := res.RowsAffected()
-	if n == 0 {
-		return fmt.Errorf("feature execution not found")
-	}
+	s.cache.SetWithTTL(exec.ID, exec, featureExecutionTTL)
 	return nil
 }
 
-func scanFeatureExecution(scanner func(...any) error) (*feature.Execution, error) {
-	exec := &feature.Execution{}
-	var keysJSON string
-	var policySkipIf string
-	err := scanner(
-		&exec.ID,
-		&exec.CreatedAt,
-		&exec.UpdatedAt,
-		&exec.Name,
-		&exec.Description,
-		&exec.DatasetID,
-		&exec.AnnotationID,
-		&keysJSON,
-		&policySkipIf,
-		&exec.Status,
-		&exec.StatusReason,
-	)
+func (s *FeatureExecutionStore) UpdateStatus(id string, status feature.ExecutionStatus, statusReason string) error {
+	exec, err := s.GetByID(id)
 	if err != nil {
-		return nil, err
+		return err
 	}
 
-	if keysJSON != "" && keysJSON != "[]" {
-		if err := json.Unmarshal([]byte(keysJSON), &exec.Keys); err != nil {
-			return nil, fmt.Errorf("failed to parse keys JSON: %w", err)
-		}
-	}
+	exec.Status = status
+	exec.StatusReason = statusReason
+	exec.UpdatedAt = time.Now()
 
-	if policySkipIf != "" && policySkipIf != "[]" {
-		var skipIf []feature.ExecutionSkipIf
-		if err := json.Unmarshal([]byte(policySkipIf), &skipIf); err != nil {
-			return nil, fmt.Errorf("failed to parse skipIf: %w", err)
-		}
-		skipIf, err := parsePolicySkipIf(policySkipIf)
-		if err != nil {
-			return nil, err
-		}
-		exec.Policy = &feature.ExecutionPolicy{
-			SkipIf: skipIf,
-		}
-	}
-
-	return exec, nil
-}
-
-func parsePolicySkipIf(raw string) ([]feature.ExecutionSkipIf, error) {
-	if raw == "" {
-		return nil, nil
-	}
-	raw = strings.TrimSpace(raw)
-	if raw == "" {
-		return nil, nil
-	}
-	if !strings.HasPrefix(raw, "[") {
-		return []feature.ExecutionSkipIf{feature.ExecutionSkipIf(raw)}, nil
-	}
-	var skipIf []feature.ExecutionSkipIf
-	if err := json.Unmarshal([]byte(raw), &skipIf); err != nil {
-		return nil, fmt.Errorf("failed to parse policy skip_if JSON: %w", err)
-	}
-	return skipIf, nil
-}
-
-func (s *FeatureExecutionSQL) listExecutionApply(executionID string) ([]feature.ExecutionApplyItem, error) {
-	rows, err := s.db.Query(`
-		SELECT feature_id, revision_id
-		FROM feature_execution_apply
-		WHERE execution_id = ?
-		ORDER BY sort_order ASC
-	`, executionID)
-	if err != nil {
-		return nil, err
-	}
-	defer rows.Close()
-
-	var apply []feature.ExecutionApplyItem
-	for rows.Next() {
-		var item feature.ExecutionApplyItem
-		if err := rows.Scan(&item.Feature, &item.Revision); err != nil {
-			return nil, err
-		}
-		apply = append(apply, item)
-	}
-	return apply, rows.Err()
-}
-
-func (s *FeatureExecutionSQL) insertExecutionApplyTx(tx *sql.Tx, executionID string, apply []feature.ExecutionApplyItem) error {
-	for i, item := range apply {
-		_, err := tx.Exec(`
-			INSERT INTO feature_execution_apply (execution_id, feature_id, revision_id, sort_order)
-			VALUES (?, ?, ?, ?)
-		`, executionID, item.Feature, item.Revision, i)
-		if err != nil {
-			return err
-		}
-	}
+	s.cache.SetWithTTL(exec.ID, exec, featureExecutionTTL)
 	return nil
 }

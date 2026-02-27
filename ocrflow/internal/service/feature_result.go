@@ -1,6 +1,8 @@
 package service
 
 import (
+	"fmt"
+	"github.com/samber/lo"
 	"slices"
 	"strings"
 
@@ -9,12 +11,13 @@ import (
 )
 
 type Result struct {
-	store *fpstore.FeatureResultSQL
+	store          *fpstore.FeatureResultSql
+	featureSvc     *Feature
+	featurePropSvc *FeatureProperty
 }
 
-// NewResult returns a new Result service using the given store (e.g. *storefeatureplat.FeatureResultSQL).
-func NewResult(store *fpstore.FeatureResultSQL) *Result {
-	return &Result{store: store}
+func NewResult(store *fpstore.FeatureResultSql, featureSvc *Feature, featurePropSvc *FeatureProperty) *Result {
+	return &Result{store: store, featureSvc: featureSvc, featurePropSvc: featurePropSvc}
 }
 
 func (r *Result) ListResults(datasetID, annotationID string, keys []string, features []string) ([]*feature.Result, error) {
@@ -22,8 +25,22 @@ func (r *Result) ListResults(datasetID, annotationID string, keys []string, feat
 	if err != nil {
 		return nil, err
 	}
+	feats, err := r.featureSvc.ListFeatures(datasetID, nil)
+	if err != nil {
+		return nil, err
+	}
+	featureByID := lo.SliceToMap(feats, func(f *feature.Feature) (string, *feature.Feature) {
+		return f.ID, f
+	})
+
+	for _, result := range res {
+		if err := r.enrichWithDynamicProperties(result, featureByID[result.FeatureID]); err != nil {
+			return nil, err
+		}
+	}
+
 	slices.SortFunc(res, func(a, b *feature.Result) int {
-		return strings.Compare(a.Key, b.Key)
+		return strings.Compare(a.PageKey, b.PageKey)
 	})
 	return res, nil
 }
@@ -37,4 +54,23 @@ func (r *Result) CreateResult(m *feature.Result) (*feature.Result, error) {
 
 func (r *Result) CreateResults(results []*feature.Result) error {
 	return r.store.CreateBatch(results)
+}
+
+func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *feature.Feature) error {
+	if feat == nil {
+		return fmt.Errorf("feature %s not found", result.FeatureID)
+	}
+	for _, propKey := range feat.Properties {
+		propVal, err := r.featurePropSvc.CalcFeaturePropertyByPropertyKey(propKey)
+		if err != nil {
+			return fmt.Errorf("failed to calculate feature property %s: %v", propKey, err)
+		}
+		for i := range result.Values {
+			if result.Values[i].Properties == nil {
+				result.Values[i].Properties = make(map[string]string)
+			}
+			result.Values[i].Properties[propKey] = propVal
+		}
+	}
+	return nil
 }

@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"golang.org/x/text/unicode/norm"
 	"log"
 	"path"
 	"sort"
@@ -192,9 +193,9 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 
 	var items []tei2.EntityItem
 	for _, res := range results {
-		feat := findFeat(res.Feature)
+		feat := findFeat(res.FeatureID)
 		if feat == nil {
-			log.Printf("warning: feature %s not found for result %s, skipping", res.Feature, res.ID)
+			log.Printf("warning: feature %s not found for result %s, skipping", res.FeatureID, res.ID)
 			continue
 		}
 
@@ -206,7 +207,7 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 			}
 
 			// todo use https://gist.github.com/ReallyLiri/661e03381ed4f3aede6aa2d9f20fefef ...
-			normalized := strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(surface, "¬", ""), "\n", " "))
+			normalized := norm.NFD.String(strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(surface, "¬", ""), "\n", " ")))
 
 			props := map[string]string{
 				"value": normalized,

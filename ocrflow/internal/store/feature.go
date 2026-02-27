@@ -2,6 +2,7 @@ package store
 
 import (
 	"database/sql"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"time"
@@ -21,14 +22,17 @@ func NewFeatureSQL(db *sql.DB) *FeatureSQL {
 }
 
 func (s *FeatureSQL) List(datasetID string) ([]*feature.Feature, error) {
-	rows, err := s.db.Query(`
-		SELECT dataset_id, id, created_at, updated_at, name, description, is_root, is_default, color, type
-		FROM features
-		WHERE dataset_id = ?
-		ORDER BY updated_at DESC
-	`, datasetID)
+	const q = `
+SELECT
+  id, name, description, created_at, updated_at,
+  dataset_id, is_default, is_list, color, properties
+FROM features
+WHERE dataset_id = ?
+ORDER BY created_at DESC
+`
+	rows, err := s.db.Query(q, datasetID)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("list features: %w", err)
 	}
 	defer rows.Close()
 
@@ -36,210 +40,228 @@ func (s *FeatureSQL) List(datasetID string) ([]*feature.Feature, error) {
 	for rows.Next() {
 		f, err := scanFeature(rows.Scan)
 		if err != nil {
-			return nil, err
+			return nil, fmt.Errorf("list features scan: %w", err)
 		}
-		features, err := s.listFeatureFeatures(datasetID, f.ID)
-		if err != nil {
-			return nil, err
-		}
-		f.Features = features
 		out = append(out, f)
 	}
 	if err := rows.Err(); err != nil {
-		return nil, err
+		return nil, fmt.Errorf("list features rows: %w", err)
 	}
 	return out, nil
 }
 
 func (s *FeatureSQL) GetByID(datasetID, id string) (*feature.Feature, error) {
-	f, err := s.getByIDRow(datasetID, id)
-	if err != nil {
-		return nil, err
-	}
-	features, err := s.listFeatureFeatures(datasetID, f.ID)
-	if err != nil {
-		return nil, err
-	}
-	f.Features = features
-	return f, nil
+	return s.getByIDRow(datasetID, id)
 }
 
 func (s *FeatureSQL) getByIDRow(datasetID, id string) (*feature.Feature, error) {
-	var isRoot, isDefault int
-	var f feature.Feature
-	err := s.db.QueryRow(`
-		SELECT dataset_id, id, created_at, updated_at, name, description, is_root, is_default, color, type
-		FROM features
-		WHERE dataset_id = ? AND id = ?
-		LIMIT 1
-	`, datasetID, id).Scan(
-		&f.DatasetID,
-		&f.ID,
-		&f.CreatedAt,
-		&f.UpdatedAt,
-		&f.Name,
-		&f.Description,
-		&isRoot,
-		&isDefault,
-		&f.Color,
-		&f.Type,
-	)
+	const q = `
+SELECT
+  id, name, description, created_at, updated_at,
+  dataset_id, is_default, is_list, color, properties
+FROM features
+WHERE dataset_id = ? AND id = ?
+LIMIT 1
+`
+	row := s.db.QueryRow(q, datasetID, id)
+	f, err := scanFeature(row.Scan)
 	if err != nil {
 		if errors.Is(err, sql.ErrNoRows) {
-			return nil, fmt.Errorf("feature with id %s not found in dataset %s", id, datasetID)
+			return nil, fmt.Errorf("feature not found: dataset_id=%s id=%s: %w", datasetID, id, err)
 		}
-		return nil, err
+		return nil, fmt.Errorf("get feature: %w", err)
 	}
-	f.IsRoot = isRoot != 0
-	f.IsDefault = isDefault != 0
-	return &f, nil
+	return f, nil
 }
 
 func (s *FeatureSQL) Create(f *feature.Feature) error {
 	if f == nil {
-		return fmt.Errorf("feature is nil")
-	}
-	if f.DatasetID == "" {
-		return fmt.Errorf("feature dataset_id is empty")
+		return errors.New("create feature: nil feature")
 	}
 	if f.ID == "" {
-		return fmt.Errorf("feature id is empty")
+		return errors.New("create feature: missing id")
 	}
-	if f.CreatedAt.IsZero() {
-		f.CreatedAt = time.Now()
+	if f.DatasetID == "" {
+		return errors.New("create feature: missing dataset_id")
 	}
-	if f.UpdatedAt.IsZero() {
-		f.UpdatedAt = f.CreatedAt
+
+	propsJSON, err := json.Marshal(f.Properties)
+	if err != nil {
+		return fmt.Errorf("create feature: marshal properties: %w", err)
 	}
-	isRoot := 0
-	if f.IsRoot {
-		isRoot = 1
+
+	const q = `
+INSERT INTO features (
+  id, name, description, dataset_id,
+  is_default, is_list, color, properties,
+  created_at, updated_at
+) VALUES (
+  ?, ?, ?, ?,
+  ?, ?, ?, ?,
+  CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+)
+`
+	_, err = s.db.Exec(
+		q,
+		f.ID,
+		f.Name,
+		f.Description,
+		f.DatasetID,
+		f.IsDefault,
+		f.IsList,
+		f.Color,
+		string(propsJSON),
+	)
+	if err != nil {
+		return fmt.Errorf("create feature: %w", err)
 	}
-	isDefault := 0
-	if f.IsDefault {
-		isDefault = 1
-	}
-	tx, err := s.db.Begin()
+
+	// Refresh timestamps from DB
+	created, err := s.getByIDRow(f.DatasetID, f.ID)
 	if err != nil {
 		return err
 	}
-	defer func() { _ = tx.Rollback() }()
-	_, err = tx.Exec(`
-		INSERT INTO features (dataset_id, id, created_at, updated_at, name, description, is_root, is_default, color, type)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`, f.DatasetID, f.ID, f.CreatedAt, f.UpdatedAt, f.Name, f.Description, isRoot, isDefault, f.Color, f.Type)
-	if err != nil {
-		return err
-	}
-	if err := s.insertFeatureFeaturesTx(tx, f.DatasetID, f.ID, f.Features); err != nil {
-		return err
-	}
-	return tx.Commit()
+	f.CreatedAt = created.CreatedAt
+	f.UpdatedAt = created.UpdatedAt
+	return nil
 }
 
 func (s *FeatureSQL) Update(datasetID, id string, f *feature.Feature) error {
 	if f == nil {
-		return fmt.Errorf("feature is nil")
+		return errors.New("update feature: nil feature")
 	}
-	f.UpdatedAt = time.Now()
-	isDefault := 0
-	if f.IsDefault {
-		isDefault = 1
+	if datasetID == "" || id == "" {
+		return errors.New("update feature: missing dataset_id or id")
 	}
-	tx, err := s.db.Begin()
+
+	propsJSON, err := json.Marshal(f.Properties)
 	if err != nil {
-		return err
+		return fmt.Errorf("update feature: marshal properties: %w", err)
 	}
-	defer func() { _ = tx.Rollback() }()
-	res, err := tx.Exec(`
-		UPDATE features
-		SET name = ?, description = ?, is_default = ?, color = ?, type = ?, updated_at = ?
-		WHERE dataset_id = ? AND id = ?
-	`, f.Name, f.Description, isDefault, f.Color, f.Type, f.UpdatedAt, datasetID, id)
+
+	const q = `
+UPDATE features
+SET
+  name = ?,
+  description = ?,
+  is_default = ?,
+  is_list = ?,
+  color = ?,
+  properties = ?,
+  updated_at = CURRENT_TIMESTAMP
+WHERE dataset_id = ? AND id = ?
+`
+	res, err := s.db.Exec(
+		q,
+		f.Name,
+		f.Description,
+		f.IsDefault,
+		f.IsList,
+		f.Color,
+		string(propsJSON),
+		datasetID,
+		id,
+	)
 	if err != nil {
-		return err
+		return fmt.Errorf("update feature: %w", err)
 	}
-	n, _ := res.RowsAffected()
+
+	n, err := res.RowsAffected()
+	if err != nil {
+		return fmt.Errorf("update feature: rows affected: %w", err)
+	}
 	if n == 0 {
-		return fmt.Errorf("feature with id %s not found in dataset %s", id, datasetID)
+		return fmt.Errorf("feature not found: dataset_id=%s id=%s", datasetID, id)
 	}
-	if _, err := tx.Exec(`DELETE FROM feature_features WHERE dataset_id = ? AND feature_id = ?`, datasetID, id); err != nil {
+
+	updated, err := s.getByIDRow(datasetID, id)
+	if err != nil {
 		return err
 	}
-	if err := s.insertFeatureFeaturesTx(tx, datasetID, id, f.Features); err != nil {
-		return err
-	}
-	return tx.Commit()
+
+	// Keep caller’s pointer updated with server-truth metadata.
+	f.ID = updated.ID
+	f.DatasetID = updated.DatasetID
+	f.CreatedAt = updated.CreatedAt
+	f.UpdatedAt = updated.UpdatedAt
+	return nil
 }
 
 func (s *FeatureSQL) Delete(datasetID, id string) error {
-	res, err := s.db.Exec(`DELETE FROM features WHERE dataset_id = ? AND id = ?`, datasetID, id)
-	if err != nil {
-		return err
+	if datasetID == "" || id == "" {
+		return errors.New("delete feature: missing dataset_id or id")
 	}
-	n, _ := res.RowsAffected()
+
+	const q = `
+DELETE FROM features
+WHERE dataset_id = ? AND id = ?
+`
+	res, err := s.db.Exec(q, datasetID, id)
+	if err != nil {
+		return fmt.Errorf("delete feature: %w", err)
+	}
+
+	n, err := res.RowsAffected()
+	if err != nil {
+		return fmt.Errorf("delete feature: rows affected: %w", err)
+	}
 	if n == 0 {
-		return fmt.Errorf("feature with id %s not found in dataset %s", id, datasetID)
+		return fmt.Errorf("feature not found: dataset_id=%s id=%s", datasetID, id)
 	}
 	return nil
 }
 
-// scanFeature scans one row into a feature. Scanner is typically rows.Scan.
 func scanFeature(scanner func(...any) error) (*feature.Feature, error) {
-	f := &feature.Feature{}
-	var isRoot, isDefault int
-	err := scanner(
-		&f.DatasetID,
-		&f.ID,
-		&f.CreatedAt,
-		&f.UpdatedAt,
-		&f.Name,
-		&f.Description,
-		&isRoot,
-		&isDefault,
-		&f.Color,
-		&f.Type,
+	var (
+		id          string
+		name        string
+		desc        string
+		createdAt   time.Time
+		updatedAt   time.Time
+		datasetID   string
+		isDefault   bool
+		isList      bool
+		color       string
+		properties  string
+		propertiesV []string
 	)
-	if err != nil {
+
+	if err := scanner(
+		&id,
+		&name,
+		&desc,
+		&createdAt,
+		&updatedAt,
+		&datasetID,
+		&isDefault,
+		&isList,
+		&color,
+		&properties,
+	); err != nil {
 		return nil, err
 	}
-	f.IsRoot = isRoot != 0
-	f.IsDefault = isDefault != 0
-	return f, nil
-}
 
-func (s *FeatureSQL) listFeatureFeatures(datasetID, featureID string) ([]common.Reference, error) {
-	rows, err := s.db.Query(`
-		SELECT child_feature_id
-		FROM feature_features
-		WHERE dataset_id = ? AND feature_id = ?
-		ORDER BY sort_order ASC
-	`, datasetID, featureID)
-	if err != nil {
-		return nil, err
+	if properties == "" {
+		properties = "[]"
 	}
-	defer rows.Close()
+	if err := json.Unmarshal([]byte(properties), &propertiesV); err != nil {
+		return nil, fmt.Errorf("scan feature: unmarshal properties: %w", err)
+	}
 
-	var refs []common.Reference
-	for rows.Next() {
-		var ref common.Reference
-		if err := rows.Scan(&ref.ID); err != nil {
-			return nil, err
-		}
-		refs = append(refs, ref)
-	}
-	return refs, rows.Err()
-}
-
-func (s *FeatureSQL) insertFeatureFeaturesTx(tx *sql.Tx, datasetID, featureID string, features []common.Reference) error {
-	for i, ref := range features {
-		_, err := tx.Exec(`
-			INSERT INTO feature_features (dataset_id, feature_id, child_feature_id, sort_order)
-			VALUES (?, ?, ?, ?)
-		`, datasetID, featureID, ref.ID, i)
-		if err != nil {
-			return err
-		}
-	}
-	return nil
+	return &feature.Feature{
+		Meta: common.Meta{
+			ID:          id,
+			Name:        name,
+			Description: desc,
+			CreatedAt:   createdAt,
+			UpdatedAt:   updatedAt,
+		},
+		DatasetID:      datasetID,
+		IsDefault:      isDefault,
+		IsList:         isList,
+		Color:          color,
+		Properties:     propertiesV,
+		Revisions:      nil,
+		LatestRevision: nil,
+	}, nil
 }

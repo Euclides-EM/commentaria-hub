@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"github.com/samber/lo"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	store2 "github.com/MiaMish/elements-dh/ocrflow/internal/store"
@@ -9,11 +10,12 @@ import (
 )
 
 type Feature struct {
-	store         *store2.FeatureSQL
-	revisionStore *store2.FeatureRevisionSQL
+	store           *store2.FeatureSQL
+	revisionStore   *store2.FeatureRevisionSQL
+	featureProperty *FeatureProperty
 }
 
-func NewFeature(store *store2.FeatureSQL, revisionStore *store2.FeatureRevisionSQL) *Feature {
+func NewFeature(store *store2.FeatureSQL, revisionStore *store2.FeatureRevisionSQL, featureProperty *FeatureProperty) *Feature {
 	return &Feature{store: store, revisionStore: revisionStore}
 }
 
@@ -31,8 +33,8 @@ func (f *Feature) ListFeatures(datasetID string, expandOptions []feature.ExpandO
 }
 
 func (f *Feature) CreateFeature(datasetID string, m *feature.Feature) (*feature.Feature, error) {
-	if m.Color == "" {
-		return nil, fmt.Errorf("feature color is required")
+	if err := f.validate(m); err != nil {
+		return nil, err
 	}
 	m.DatasetID = datasetID
 	m.ID = idgen.GenerateID("fea")
@@ -83,8 +85,8 @@ func (f *Feature) applyExpand(feat *feature.Feature, expandOptions []feature.Exp
 }
 
 func (f *Feature) UpdateFeature(datasetID, id string, updated *feature.Feature) (*feature.Feature, error) {
-	if updated.Color == "" {
-		return nil, fmt.Errorf("feature color is required")
+	if err := f.validate(updated); err != nil {
+		return nil, err
 	}
 	existing, err := f.store.GetByID(datasetID, id)
 	if err != nil {
@@ -94,10 +96,28 @@ func (f *Feature) UpdateFeature(datasetID, id string, updated *feature.Feature) 
 	existing.Description = updated.Description
 	existing.IsDefault = updated.IsDefault
 	existing.Color = updated.Color
-	existing.Type = updated.Type
-	existing.Features = updated.Features
+	existing.Properties = updated.Properties
 	if err := f.store.Update(datasetID, id, existing); err != nil {
 		return nil, err
 	}
 	return existing, nil
+}
+
+func (f *Feature) validate(feat *feature.Feature) error {
+	if feat.Name == "" {
+		return fmt.Errorf("feature name is required")
+	}
+	if feat.Color == "" {
+		return fmt.Errorf("feature color is required")
+	}
+	properties, err := f.featureProperty.ListFeaturePropertyKeys()
+	if err != nil {
+		return err
+	}
+	for _, key := range feat.Properties {
+		if !lo.Contains(properties, key) {
+			return fmt.Errorf("invalid feature property key: %s", key)
+		}
+	}
+	return nil
 }

@@ -43,7 +43,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	annotationStore := store.NewAnnotationSQL(sqlDB)
 	modelStore := store.NewModelSQL(sqlDB)
 	featureRevisionStore := store.NewFeatureRevisionSQL(sqlDB)
-	featureExecutionStore := store.NewFeatureExecutionSQL(sqlDB)
+	featureExecutionStore := store.NewFeatureExecutionStore(cache.NewCache())
 	featureStore := store.NewFeatureSQL(sqlDB)
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
 	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl)
@@ -61,10 +61,10 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
-	featureRevisionSvc := service.NewRevision(featureRevisionStore)
-	featureSvc := service.NewFeature(featureStore, featureRevisionStore)
-	featureResultSvc := service.NewResult(featureResultStore)
-	// func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, store *fpstore.FeatureExecutionSQL, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
+	featureProperty := service.NewFeatureProperty()
+	featureRevisionSvc := service.NewRevision(featureRevisionStore, featureProperty)
+	featureSvc := service.NewFeature(featureStore, featureRevisionStore, featureProperty)
+	featureResultSvc := service.NewResult(featureResultStore, featureSvc, featureProperty)
 
 	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
 	annotationUploader := service.NewAnnotationsUploader(
@@ -135,6 +135,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeatureRevisionSvc:  featureRevisionSvc,
 		FeatureResultSvc:    featureResultSvc,
 		FeatureExecutionSvc: featureExecutionSvc,
+		FeaturePropertySvc:  service.NewFeatureProperty(),
 		DiagramCropsSvc:     diagramCropsSvc,
 		USTC:                service.NewUSTC(),
 		IntegrationJobSvc:   service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),

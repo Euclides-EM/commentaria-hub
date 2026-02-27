@@ -451,10 +451,13 @@ func (s *EditionCSV) ListEditions(filter func(e any) bool, orderBy func(e1, e2 a
 	if !s.cacheStore.IsWarm() {
 		return nil, 0, cacheWarmupError
 	}
-	_, editions, total, err := s.cacheStore.GetBulk(filter,
-		func(k1 string, k2 string, v1 any, v2 any) int {
+	var ob func(k1, k2 string, v1, v2 any) int
+	if orderBy != nil {
+		ob = func(k1 string, k2 string, v1 any, v2 any) int {
 			return orderBy(v1, v2)
-		}, offset, limit)
+		}
+	}
+	_, editions, total, err := s.cacheStore.GetBulk(filter, ob, offset, limit)
 	return lo.Map(editions, func(e any, _ int) *model.Edition {
 		if ed, ok := e.(*model.Edition); ok {
 			return ed

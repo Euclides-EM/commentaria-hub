@@ -14,7 +14,6 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
-	"github.com/samber/lo"
 )
 
 type Execution struct {
@@ -22,15 +21,15 @@ type Execution struct {
 	featuresSvc         *Feature
 	featureResultsSvc   *Result
 	annotationSvc       *Annotation
-	store               *fpstore.FeatureExecutionSQL
+	store               *fpstore.FeatureExecutionStore
 	filesysManager      *filesys.Manager
 	datasetImg          *DatasetImg
 	llmClient           *llm.Client
 	mu                  sync.Mutex // Protects status updates in goroutines
 }
 
-// NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionSQL).
-func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, store *fpstore.FeatureExecutionSQL, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
+// NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionStore).
+func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
 	return &Execution{
 		featureRevisionsSvc: featureRevisionsSvc,
 		featuresSvc:         featuresSvc,
@@ -67,25 +66,6 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	exec.Status = feature.ExecutionStatusInProgress
 	exec.StatusReason = ""
 
-	rootItems, childItems, err := fe.getItemsToApply(exec)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get items to apply for execution: %w", err)
-	}
-
-	_ = childItems
-	for _, rootItem := range rootItems {
-		for _, key := range exec.Keys {
-			//content, _, err := fe.filesysManager.RetrieveAnnotationAltoPage()
-			if err != nil {
-				return nil, fmt.Errorf("failed to retrieve ALTO page for annotation %s and key %s: %w", ann.ID, key, err)
-			}
-			//alto.ExtractTextContentsFromBlock()
-		}
-		_ = rootItem
-
-	}
-
-	//fe.filesysManager.RetrieveAnnotationAltoPage(ann)
 	var applyFuncs []func() ([]*feature.Result, error)
 	for _, key := range exec.Keys {
 		for _, item := range exec.Apply {
@@ -93,18 +73,15 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			if err != nil {
 				return nil, fmt.Errorf("failed to get feature revision for feature %s and revision %s: %w", item.Feature, item.Revision, err)
 			}
+			if fr.Categorizer != "" {
+				return nil, fmt.Errorf("categorizer execution strategy is not supported yet for feature %s and revision %s", item.Feature, item.Revision)
+			}
 			feat, err := fe.featuresSvc.GetFeature(exec.DatasetID, item.Feature, nil)
 			if err != nil {
 				return nil, fmt.Errorf("failed to get feature for feature %s: %w", item.Feature, err)
 			}
-			switch fr.ExecutionStrategy {
-			case feature.ExecutionStrategyPrompt:
-				applyFuncs = append(applyFuncs, fe.execPrompt(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID))
-			case feature.ExecutionStrategyRegex:
-				//applyFuncs = append(applyFuncs, fe.execRegex())
-			default:
-				return nil, fmt.Errorf("unsupported execution strategy %s for feature %s", fr.ExecutionStrategy, item.Feature)
-			}
+
+			applyFuncs = append(applyFuncs, fe.execPrompt(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID))
 		}
 	}
 
@@ -160,29 +137,6 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	}(exec.ID, applyFuncs)
 
 	return exec, nil
-}
-
-func (fe *Execution) getItemsToApply(exec *feature.Execution) (root, child []lo.Tuple2[feature.Feature, feature.Revision], err error) {
-	var apply []lo.Tuple2[feature.Feature, feature.Revision]
-	for _, item := range exec.Apply {
-		fr, err := fe.featureRevisionsSvc.GetFeatureRevision(exec.DatasetID, item.Feature, item.Revision)
-		if err != nil {
-			return nil, nil, fmt.Errorf("failed to get feature revision for feature %s and revision %s: %w", item.Feature, item.Revision, err)
-		}
-		feat, err := fe.featuresSvc.GetFeature(exec.DatasetID, item.Feature, nil)
-		if err != nil {
-			return nil, nil, fmt.Errorf("failed to get feature for feature %s: %w", item.Feature, err)
-		}
-		apply = append(apply, lo.Tuple2[feature.Feature, feature.Revision]{A: *feat, B: *fr})
-	}
-
-	applyRootItems := lo.Filter(apply, func(a lo.Tuple2[feature.Feature, feature.Revision], _ int) bool {
-		return a.A.IsRoot
-	})
-	applyChildItems := lo.Filter(apply, func(a lo.Tuple2[feature.Feature, feature.Revision], _ int) bool {
-		return !a.A.IsRoot
-	})
-	return applyRootItems, applyChildItems, nil
 }
 
 func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execution, error) {
@@ -280,8 +234,8 @@ Definitions:
 			res := &feature.Result{
 				DatasetID:    ann.DatasetID,
 				AnnotationID: ann.ID,
-				Feature:      fes[featureNameToIndex[fn]].Name,
-				Key:          key,
+				FeatureID:    fes[featureNameToIndex[fn]].Name,
+				PageKey:      key,
 				Source:       source,
 			}
 			var resultValues []feature.ResultValue

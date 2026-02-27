@@ -29,6 +29,7 @@ type Dependencies struct {
 	FeatureRevisionSvc  *service.Revision
 	FeatureExecutionSvc *service.Execution
 	FeatureResultSvc    *service.Result
+	FeaturePropertySvc  *service.FeatureProperty
 	DiagramCropsSvc     *service.DiagramCrops
 	USTC                *service.USTC
 	IntegrationJobSvc   *service.IntegrationJob
@@ -101,6 +102,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions", httpwrapper.Get(h.ListFeatureRevisions).Create(h.CreateFeatureRevision).Build())
 	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions/{revisionId}", httpwrapper.Get(h.GetFeatureRevision).Build())
 
+	api.HandleFunc("/features/properties", httpwrapper.Get(h.ListFeatureProperties).Build())
 	api.HandleFunc("/features/executions", httpwrapper.Get(h.ListExecutions).Create(h.CreateExecution).Build())
 	api.HandleFunc("/features/executions/{executionId}", httpwrapper.Get(h.GetExecution).Build())
 	api.HandleFunc("/features/executions/{executionId}/cancel", httpwrapper.Update(h.CancelExecution).Build())
