@@ -2,13 +2,11 @@ package store
 
 import (
 	"database/sql"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"strings"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 )
 
@@ -27,58 +25,114 @@ func (s *FeatureResultSql) List(datasetID, annotationID string, keys []string, f
 		return nil, errors.New("list feature results: missing dataset_id or annotation_id")
 	}
 
-	// Base query
-	q := `
+	// One query: parent rows + optional child rows.
+	base := `
 SELECT
-  r.id, r.name, r.description, r.created_at, r.updated_at,
-  r.dataset_id, r.annotation_id, r.feature_id, r.page_key,
-  r.source_resp, r.source_id, r.source_revision, r.source_name
+  r.name, r.description, r.created_at, r.updated_at,
+  r.dataset_id, r.feature_id, r.annotation_id, r.page_key,
+  r.source_resp, r.source_id, r.source_revision, r.source_name,
+  v.surface
 FROM feature_results r
+LEFT JOIN feature_result_values v
+  ON v.dataset_id = r.dataset_id
+ AND v.feature_id = r.feature_id
+ AND v.annotation_id = r.annotation_id
+ AND v.page_key = r.page_key
 WHERE r.dataset_id = ? AND r.annotation_id = ?
 `
 	args := []any{datasetID, annotationID}
 
-	// Optional filters
 	if len(keys) > 0 {
-		q += " AND r.page_key IN (" + placeholders(len(keys)) + ")"
-		for _, k := range keys {
-			args = append(args, k)
-		}
+		in, inArgs := makeInClause(keys)
+		base += " AND r.page_key IN " + in + "\n"
+		args = append(args, inArgs...)
 	}
 	if len(features) > 0 {
-		q += " AND r.feature_id IN (" + placeholders(len(features)) + ")"
-		for _, f := range features {
-			args = append(args, f)
-		}
+		in, inArgs := makeInClause(features)
+		base += " AND r.feature_id IN " + in + "\n"
+		args = append(args, inArgs...)
 	}
 
-	q += " ORDER BY r.created_at DESC"
+	base += "ORDER BY r.feature_id, r.page_key, v.id\n"
 
-	rows, err := s.db.Query(q, args...)
+	rows, err := s.db.Query(base, args...)
 	if err != nil {
-		return nil, fmt.Errorf("list feature results: %w", err)
+		return nil, fmt.Errorf("list feature results: query: %w", err)
 	}
 	defer rows.Close()
 
-	var out []*feature.Result
+	type parentKey struct {
+		d, a, f, k string
+	}
+
+	byKey := make(map[parentKey]*feature.Result)
+	order := make([]parentKey, 0)
+
 	for rows.Next() {
-		res, err := scanFeatureResult(rows.Scan)
-		if err != nil {
-			return nil, fmt.Errorf("list feature results scan: %w", err)
+		var (
+			name, desc                      string
+			createdAt, updatedAt            time.Time
+			dsID, featID, annID, pageKey    string
+			sourceResp                      string
+			sourceID, sourceRev, sourceName sql.NullString
+			surfaceNS                       sql.NullString
+		)
+
+		if err := rows.Scan(
+			&name, &desc, &createdAt, &updatedAt,
+			&dsID, &featID, &annID, &pageKey,
+			&sourceResp, &sourceID, &sourceRev, &sourceName,
+			&surfaceNS,
+		); err != nil {
+			return nil, fmt.Errorf("list feature results: scan: %w", err)
 		}
 
-		vals, err := s.listValuesForResult(res.ID)
-		if err != nil {
-			return nil, fmt.Errorf("list feature results values for %s: %w", res.ID, err)
-		}
-		res.Values = vals
+		k := parentKey{d: dsID, a: annID, f: featID, k: pageKey}
+		r, ok := byKey[k]
+		if !ok {
+			r = &feature.Result{
+				DatasetID:    dsID,
+				AnnotationID: annID,
+				FeatureID:    featID,
+				PageKey:      pageKey,
+				Source: feature.ResultSource{
+					Resp:     sourceResp,
+					Id:       nullStr(sourceID),
+					Revision: nullStr(sourceRev),
+					Name:     nullStr(sourceName),
+				},
+				Values: nil,
+			}
 
-		out = append(out, res)
+			// common.Meta is embedded, so set fields via promoted names (if present).
+			// These assignments assume Meta contains Name, Description, CreatedAt, UpdatedAt.
+			// If Meta differs, adjust these four lines.
+			r.Name = name
+			r.Description = desc
+			r.CreatedAt = createdAt
+			r.UpdatedAt = updatedAt
+
+			byKey[k] = r
+			order = append(order, k)
+		}
+
+		// Child row present?
+		if surfaceNS.Valid {
+			val := feature.ResultValue{
+				Surface: surfaceNS.String,
+			}
+			r.Values = append(r.Values, val)
+		}
 	}
+
 	if err := rows.Err(); err != nil {
-		return nil, fmt.Errorf("list feature results rows: %w", err)
+		return nil, fmt.Errorf("list feature results: rows: %w", err)
 	}
 
+	out := make([]*feature.Result, 0, len(order))
+	for _, k := range order {
+		out = append(out, byKey[k])
+	}
 	return out, nil
 }
 
@@ -86,73 +140,24 @@ func (s *FeatureResultSql) Create(res *feature.Result) error {
 	if res == nil {
 		return errors.New("create feature result: nil result")
 	}
-	if res.ID == "" {
-		return errors.New("create feature result: missing id")
-	}
 	if res.DatasetID == "" || res.AnnotationID == "" || res.FeatureID == "" || res.PageKey == "" {
 		return errors.New("create feature result: missing dataset_id, annotation_id, feature_id, or page_key")
 	}
-	if strings.TrimSpace(res.Source.Resp) == "" {
+	if res.Source.Resp == "" {
 		return errors.New("create feature result: missing source.resp")
 	}
 
 	tx, err := s.db.Begin()
 	if err != nil {
-		return fmt.Errorf("create feature result: begin tx: %w", err)
+		return fmt.Errorf("create feature result: begin: %w", err)
 	}
-	defer func() {
-		_ = tx.Rollback()
-	}()
+	defer func() { _ = tx.Rollback() }()
 
-	const qRes = `
-INSERT INTO feature_results (
-  id, name, description, dataset_id, feature_id, annotation_id, page_key,
-  source_resp, source_id, source_revision, source_name,
-  created_at, updated_at
-) VALUES (
-  ?, ?, ?, ?, ?, ?, ?,
-  ?, ?, ?, ?,
-  CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
-)
-`
-	_, err = tx.Exec(
-		qRes,
-		res.ID,
-		res.Name,
-		res.Description,
-		res.DatasetID,
-		res.FeatureID,
-		res.AnnotationID,
-		res.PageKey,
-		res.Source.Resp,
-		nullIfEmpty(res.Source.Id),
-		nullIfEmpty(res.Source.Revision),
-		nullIfEmpty(res.Source.Name),
-	)
-	if err != nil {
-		return fmt.Errorf("create feature result: insert feature_results: %w", err)
+	if err := upsertResult(tx, res); err != nil {
+		return err
 	}
-
-	const qVal = `
-INSERT INTO result_values (result_id, surface, properties)
-VALUES (?, ?, ?)
-`
-	for _, v := range res.Values {
-		propsJSON, err := json.Marshal(v.Properties)
-		if err != nil {
-			return fmt.Errorf("create feature result: marshal value properties: %w", err)
-		}
-		_, err = tx.Exec(qVal, res.ID, v.Surface, string(propsJSON))
-		if err != nil {
-			return fmt.Errorf("create feature result: insert result_values: %w", err)
-		}
-	}
-
-	// Refresh timestamps from DB (optional but handy for callers)
-	created, err := s.getByIDTx(tx, res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey)
-	if err == nil && created != nil {
-		res.CreatedAt = created.CreatedAt
-		res.UpdatedAt = created.UpdatedAt
+	if err := replaceValues(tx, res); err != nil {
+		return err
 	}
 
 	if err := tx.Commit(); err != nil {
@@ -166,82 +171,97 @@ func (s *FeatureResultSql) CreateBatch(results []*feature.Result) error {
 		return nil
 	}
 
-	// Validate first so the tx is not opened for a doomed batch.
-	for i, res := range results {
-		if res == nil {
-			return fmt.Errorf("create batch feature results: nil result at index %d", i)
-		}
-		if res.ID == "" {
-			return fmt.Errorf("create batch feature results: missing id at index %d", i)
-		}
-		if res.DatasetID == "" || res.AnnotationID == "" || res.FeatureID == "" || res.PageKey == "" {
-			return fmt.Errorf("create batch feature results: missing dataset_id, annotation_id, feature_id, or page_key at index %d", i)
-		}
-		if strings.TrimSpace(res.Source.Resp) == "" {
-			return fmt.Errorf("create batch feature results: missing source.resp at index %d", i)
-		}
-	}
-
 	tx, err := s.db.Begin()
 	if err != nil {
-		return fmt.Errorf("create batch feature results: begin tx: %w", err)
+		return fmt.Errorf("create batch feature results: begin: %w", err)
 	}
 	defer func() { _ = tx.Rollback() }()
 
-	const qRes = `
+	// Prepare once.
+	upsertStmt, err := tx.Prepare(`
 INSERT INTO feature_results (
-  id, name, description, dataset_id, feature_id, annotation_id, page_key,
-  source_resp, source_id, source_revision, source_name,
-  created_at, updated_at
+  name, description, created_at, updated_at,
+  dataset_id, feature_id, annotation_id, page_key,
+  source_resp, source_id, source_revision, source_name
 ) VALUES (
-  ?, ?, ?, ?, ?, ?, ?,
+  ?, ?, COALESCE(?, CURRENT_TIMESTAMP), COALESCE(?, CURRENT_TIMESTAMP),
   ?, ?, ?, ?,
-  CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+  ?, ?, ?, ?
 )
-`
-	const qVal = `
-INSERT INTO result_values (result_id, surface, properties)
-VALUES (?, ?, ?)
-`
-
-	stmtRes, err := tx.Prepare(qRes)
+ON CONFLICT(dataset_id, feature_id, annotation_id, page_key) DO UPDATE SET
+  name = excluded.name,
+  description = excluded.description,
+  updated_at = CURRENT_TIMESTAMP,
+  source_resp = excluded.source_resp,
+  source_id = excluded.source_id,
+  source_revision = excluded.source_revision,
+  source_name = excluded.source_name
+`)
 	if err != nil {
-		return fmt.Errorf("create batch feature results: prepare feature_results: %w", err)
+		return fmt.Errorf("create batch feature results: prepare upsert: %w", err)
 	}
-	defer stmtRes.Close()
+	defer upsertStmt.Close()
 
-	stmtVal, err := tx.Prepare(qVal)
+	delValsStmt, err := tx.Prepare(`
+DELETE FROM feature_result_values
+WHERE dataset_id = ? AND annotation_id = ? AND feature_id = ? AND page_key = ?
+`)
 	if err != nil {
-		return fmt.Errorf("create batch feature results: prepare result_values: %w", err)
+		return fmt.Errorf("create batch feature results: prepare delete values: %w", err)
 	}
-	defer stmtVal.Close()
+	defer delValsStmt.Close()
+
+	insValStmt, err := tx.Prepare(`
+INSERT INTO feature_result_values (
+  dataset_id, feature_id, annotation_id, page_key,
+  surface
+) VALUES (?, ?, ?, ?, ?)
+`)
+	if err != nil {
+		return fmt.Errorf("create batch feature results: prepare insert value: %w", err)
+	}
+	defer insValStmt.Close()
 
 	for i, res := range results {
-		_, err := stmtRes.Exec(
-			res.ID,
-			res.Name,
-			res.Description,
-			res.DatasetID,
-			res.FeatureID,
-			res.AnnotationID,
-			res.PageKey,
-			res.Source.Resp,
-			nullIfEmpty(res.Source.Id),
-			nullIfEmpty(res.Source.Revision),
-			nullIfEmpty(res.Source.Name),
-		)
-		if err != nil {
-			return fmt.Errorf("create batch feature results: insert feature_results at index %d (id=%s): %w", i, res.ID, err)
+		if res == nil {
+			return fmt.Errorf("create batch feature results: results[%d] is nil", i)
+		}
+		if res.DatasetID == "" || res.AnnotationID == "" || res.FeatureID == "" || res.PageKey == "" {
+			return fmt.Errorf("create batch feature results: results[%d] missing ids", i)
+		}
+		if res.Source.Resp == "" {
+			return fmt.Errorf("create batch feature results: results[%d] missing source.resp", i)
 		}
 
-		for j, v := range res.Values {
-			propsJSON, err := json.Marshal(v.Properties)
-			if err != nil {
-				return fmt.Errorf("create batch feature results: marshal value properties at index %d value %d (id=%s): %w", i, j, res.ID, err)
-			}
-			_, err = stmtVal.Exec(res.ID, v.Surface, string(propsJSON))
-			if err != nil {
-				return fmt.Errorf("create batch feature results: insert result_values at index %d value %d (id=%s): %w", i, j, res.ID, err)
+		createdAt, updatedAt := any(nil), any(nil)
+
+		// If Meta timestamps exist and are non-zero, keep them. Otherwise use CURRENT_TIMESTAMP.
+		// If Meta differs in your project, adjust these two blocks.
+		if !res.CreatedAt.IsZero() {
+			createdAt = res.CreatedAt
+		}
+		if !res.UpdatedAt.IsZero() {
+			updatedAt = res.UpdatedAt
+		}
+
+		if _, err := upsertStmt.Exec(
+			res.Name, res.Description, createdAt, updatedAt,
+			res.DatasetID, res.FeatureID, res.AnnotationID, res.PageKey,
+			res.Source.Resp, emptyToNull(res.Source.Id), emptyToNull(res.Source.Revision), emptyToNull(res.Source.Name),
+		); err != nil {
+			return fmt.Errorf("create batch feature results: upsert (%s/%s/%s/%s): %w", res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey, err)
+		}
+
+		if _, err := delValsStmt.Exec(res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey); err != nil {
+			return fmt.Errorf("create batch feature results: delete values (%s/%s/%s/%s): %w", res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey, err)
+		}
+
+		for _, v := range res.Values {
+			if _, err := insValStmt.Exec(
+				res.DatasetID, res.FeatureID, res.AnnotationID, res.PageKey,
+				v.Surface,
+			); err != nil {
+				return fmt.Errorf("create batch feature results: insert value (%s/%s/%s/%s): %w", res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey, err)
 			}
 		}
 	}
@@ -252,125 +272,123 @@ VALUES (?, ?, ?)
 	return nil
 }
 
-func (s *FeatureResultSql) listValuesForResult(resultID string) ([]feature.ResultValue, error) {
-	const q = `
-SELECT surface, properties
-FROM result_values
-WHERE result_id = ?
-ORDER BY id ASC
-`
-	rows, err := s.db.Query(q, resultID)
+func (s *FeatureResultSql) listValuesForResult(datasetID, annotationID, featureID, pageKey string) ([]feature.ResultValue, error) {
+	if datasetID == "" || annotationID == "" || featureID == "" || pageKey == "" {
+		return nil, errors.New("list values: missing ids")
+	}
+
+	rows, err := s.db.Query(`
+SELECT surface
+FROM feature_result_values
+WHERE dataset_id = ? AND annotation_id = ? AND feature_id = ? AND page_key = ?
+ORDER BY id
+`, datasetID, annotationID, featureID, pageKey)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("list values: query: %w", err)
 	}
 	defer rows.Close()
 
 	var out []feature.ResultValue
 	for rows.Next() {
 		var surface string
-		var props string
-		if err := rows.Scan(&surface, &props); err != nil {
-			return nil, err
+		if err := rows.Scan(&surface); err != nil {
+			return nil, fmt.Errorf("list values: scan: %w", err)
 		}
-		if props == "" {
-			props = "{}"
-		}
-		m := map[string]string{}
-		if err := json.Unmarshal([]byte(props), &m); err != nil {
-			return nil, fmt.Errorf("unmarshal result value properties: %w", err)
-		}
-		out = append(out, feature.ResultValue{
-			Surface:    surface,
-			Properties: m,
-		})
+
+		val := feature.ResultValue{Surface: surface}
+		out = append(out, val)
 	}
-	return out, rows.Err()
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("list values: rows: %w", err)
+	}
+	return out, nil
 }
 
-// scanFeatureResult scans a parent feature_results row (no child values).
-func scanFeatureResult(scanner func(...any) error) (*feature.Result, error) {
-	var (
-		id         string
-		name       string
-		desc       string
-		createdAt  time.Time
-		updatedAt  time.Time
-		datasetID  string
-		annotation string
-		featureID  string
-		pageKey    string
-		sourceResp string
-		sourceID   sql.NullString
-		sourceRev  sql.NullString
-		sourceName sql.NullString
+func upsertResult(tx *sql.Tx, res *feature.Result) error {
+	createdAt, updatedAt := any(nil), any(nil)
+
+	// If Meta timestamps exist and are non-zero, keep them. Otherwise use CURRENT_TIMESTAMP.
+	// If Meta differs in your project, adjust these two blocks.
+	if !res.CreatedAt.IsZero() {
+		createdAt = res.CreatedAt
+	}
+	if !res.UpdatedAt.IsZero() {
+		updatedAt = res.UpdatedAt
+	}
+
+	_, err := tx.Exec(`
+INSERT INTO feature_results (
+  name, description, created_at, updated_at,
+  dataset_id, feature_id, annotation_id, page_key,
+  source_resp, source_id, source_revision, source_name
+) VALUES (
+  ?, ?, COALESCE(?, CURRENT_TIMESTAMP), COALESCE(?, CURRENT_TIMESTAMP),
+  ?, ?, ?, ?,
+  ?, ?, ?, ?
+)
+ON CONFLICT(dataset_id, feature_id, annotation_id, page_key) DO UPDATE SET
+  name = excluded.name,
+  description = excluded.description,
+  updated_at = CURRENT_TIMESTAMP,
+  source_resp = excluded.source_resp,
+  source_id = excluded.source_id,
+  source_revision = excluded.source_revision,
+  source_name = excluded.source_name
+`,
+		res.Name, res.Description, createdAt, updatedAt,
+		res.DatasetID, res.FeatureID, res.AnnotationID, res.PageKey,
+		res.Source.Resp, emptyToNull(res.Source.Id), emptyToNull(res.Source.Revision), emptyToNull(res.Source.Name),
 	)
-
-	if err := scanner(
-		&id, &name, &desc, &createdAt, &updatedAt,
-		&datasetID, &annotation, &featureID, &pageKey,
-		&sourceResp, &sourceID, &sourceRev, &sourceName,
-	); err != nil {
-		return nil, err
-	}
-
-	return &feature.Result{
-		Meta: common.Meta{
-			ID:          id,
-			Name:        name,
-			Description: desc,
-			CreatedAt:   createdAt,
-			UpdatedAt:   updatedAt,
-		},
-		DatasetID:    datasetID,
-		AnnotationID: annotation,
-		FeatureID:    featureID,
-		PageKey:      pageKey,
-		Source: feature.ResultSource{
-			Resp:     sourceResp,
-			Id:       sourceID.String,
-			Revision: sourceRev.String,
-			Name:     sourceName.String,
-		},
-		Values: nil, // loaded separately
-	}, nil
-}
-
-// getByIDTx finds a result by its natural key within an existing tx (used for timestamp refresh).
-func (s *FeatureResultSql) getByIDTx(tx *sql.Tx, datasetID, annotationID, featureID, pageKey string) (*feature.Result, error) {
-	const q = `
-SELECT
-  r.id, r.name, r.description, r.created_at, r.updated_at,
-  r.dataset_id, r.annotation_id, r.feature_id, r.page_key,
-  r.source_resp, r.source_id, r.source_revision, r.source_name
-FROM feature_results r
-WHERE r.dataset_id = ? AND r.annotation_id = ? AND r.feature_id = ? AND r.page_key = ?
-LIMIT 1
-`
-	row := tx.QueryRow(q, datasetID, annotationID, featureID, pageKey)
-	r, err := scanFeatureResult(row.Scan)
 	if err != nil {
-		return nil, err
+		return fmt.Errorf("create feature result: upsert (%s/%s/%s/%s): %w", res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey, err)
 	}
-	return r, nil
+	return nil
 }
 
-func placeholders(n int) string {
-	if n <= 0 {
-		return ""
+func replaceValues(tx *sql.Tx, res *feature.Result) error {
+	_, err := tx.Exec(`
+DELETE FROM feature_result_values
+WHERE dataset_id = ? AND annotation_id = ? AND feature_id = ? AND page_key = ?
+`, res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey)
+	if err != nil {
+		return fmt.Errorf("create feature result: delete values (%s/%s/%s/%s): %w", res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey, err)
 	}
-	b := make([]byte, 0, n*2-1)
-	for i := 0; i < n; i++ {
-		if i > 0 {
-			b = append(b, ',')
+
+	for _, v := range res.Values {
+
+		_, err := tx.Exec(`
+INSERT INTO feature_result_values (
+  dataset_id, feature_id, annotation_id, page_key,
+  surface
+) VALUES (?, ?, ?, ?, ?)
+`, res.DatasetID, res.FeatureID, res.AnnotationID, res.PageKey, v.Surface)
+		if err != nil {
+			return fmt.Errorf("create feature result: insert value (%s/%s/%s/%s): %w", res.DatasetID, res.AnnotationID, res.FeatureID, res.PageKey, err)
 		}
-		b = append(b, '?')
 	}
-	return string(b)
+	return nil
 }
 
-func nullIfEmpty(s string) any {
-	if strings.TrimSpace(s) == "" {
-		return sql.NullString{Valid: false}
+func makeInClause(vals []string) (string, []any) {
+	placeholders := make([]string, 0, len(vals))
+	args := make([]any, 0, len(vals))
+	for _, v := range vals {
+		placeholders = append(placeholders, "?")
+		args = append(args, v)
 	}
-	return sql.NullString{String: s, Valid: true}
+	return "(" + strings.Join(placeholders, ",") + ")", args
+}
+
+func emptyToNull(s string) any {
+	if strings.TrimSpace(s) == "" {
+		return nil
+	}
+	return s
+}
+
+func nullStr(ns sql.NullString) string {
+	if ns.Valid {
+		return ns.String
+	}
+	return ""
 }

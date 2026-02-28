@@ -286,7 +286,6 @@ FEATURES: Dict[str, FeatureSeed] = {
         is_default=False,
         color="#FFDAB9",
     ),
-    # Kept in import set, but no UI mapping given → give a sensible seed
     "destination_language": FeatureSeed(
         feature_id="destination_language",
         name="Destination Language",
@@ -302,7 +301,7 @@ FEATURE_IDS_TO_IMPORT = set(FEATURES.keys())
 
 
 def generate_sql(csv_path: Path, output_path: Path) -> None:
-    # Deterministic: one revision per feature, reused by all results of that feature
+    # One revision per feature, reused by all results of that feature
     revision_by_feature = {fid: gen_random_uuid() for fid in FEATURES.keys()}
 
     feature_rows: List[str] = []
@@ -357,12 +356,11 @@ def generate_sql(csv_path: Path, output_path: Path) -> None:
                     continue
 
                 meta = FEATURES[feature_id]
-                res_id = gen_random_uuid()
                 rev_id = revision_by_feature[feature_id]
 
+                # feature_results has NO id now (composite PK)
                 result_rows.append(
                     "("
-                    f"'{sql_escape(res_id)}', "
                     f"'{sql_escape(meta.name)}', "
                     f"'' , "
                     f"'{sql_escape(DATASET_ID)}', "
@@ -376,12 +374,15 @@ def generate_sql(csv_path: Path, output_path: Path) -> None:
                     ")"
                 )
 
+                # result_values is keyed by (dataset_id, feature_id, annotation_id, page_key)
                 for v in vals:
                     value_rows.append(
                         "("
-                        f"'{sql_escape(res_id)}', "
-                        f"'{sql_escape(v)}', "
-                        f"'{{}}'"
+                        f"'{sql_escape(DATASET_ID)}', "
+                        f"'{sql_escape(meta.feature_id)}', "
+                        f"'{sql_escape(ANNOTATION_ID)}', "
+                        f"'{sql_escape(page_key)}', "
+                        f"'{sql_escape(v)}'"
                         ")"
                     )
 
@@ -407,7 +408,7 @@ def generate_sql(csv_path: Path, output_path: Path) -> None:
 
         if result_rows:
             out.write(
-                "INSERT INTO feature_results (id, name, description, dataset_id, feature_id, annotation_id, page_key, source_resp, source_id, source_revision, source_name)\n"
+                "INSERT INTO feature_results (name, description, dataset_id, feature_id, annotation_id, page_key, source_resp, source_id, source_revision, source_name)\n"
                 "VALUES\n"
                 + ",\n".join(result_rows)
                 + ";\n\n"
@@ -415,7 +416,7 @@ def generate_sql(csv_path: Path, output_path: Path) -> None:
 
         if value_rows:
             out.write(
-                "INSERT INTO result_values (result_id, surface, properties)\n"
+                "INSERT INTO result_values (dataset_id, feature_id, annotation_id, page_key, surface)\n"
                 "VALUES\n"
                 + ",\n".join(value_rows)
                 + ";\n"
@@ -427,6 +428,6 @@ if __name__ == "__main__":
         "/Users/mia/dev/personal/elements-dh/ocrflow/store/items_metadata/title_page.csv"
     )
     output_path = Path(
-        "/Users/mia/dev/personal/elements-dh/ocrflow/internal/migrations/ocrflow/1772144025_feature_result_tps_seed.sql"
+        "/ocrflow/internal/migrations/ocrflow/1772303020_feature_result_tps_seed.sql"
     )
     generate_sql(csv_path, output_path)

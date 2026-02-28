@@ -1,6 +1,8 @@
 package feature
 
-import "github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+import (
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+)
 
 type Result struct {
 	common.Meta  `json:",inline"`

@@ -46,11 +46,13 @@ func (r *Result) ListResults(datasetID, annotationID string, keys []string, feat
 	return res, nil
 }
 
-func (r *Result) CreateResult(m *feature.Result) (*feature.Result, error) {
-	if err := r.store.Create(m); err != nil {
-		return nil, err
+func (r *Result) CreateResult(results []*feature.Result) ([]*feature.Result, error) {
+	for _, result := range results {
+		if err := r.store.Create(result); err != nil {
+			return nil, err
+		}
 	}
-	return m, nil
+	return results, nil
 }
 
 func (r *Result) CreateResults(results []*feature.Result) error {
