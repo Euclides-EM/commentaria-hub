@@ -194,6 +194,8 @@ sudo vim /etc/nginx/sites-available/commentaria-hub-api
 server {
     listen 80;
     server_name euclides.huma-num.fr;
+    
+    client_max_body_size 200m;
 
     # -----------------------------
     # commentaria-hub backend routes (strip /commentaria)

@@ -156,6 +156,8 @@ sudo vim /etc/nginx/sites-available/escriptorium
 server {
     listen 80;
     server_name euclides.huma-num.fr;
+    
+    client_max_body_size 200m;
 
     location / {
         proxy_pass http://127.0.0.1:8080;
