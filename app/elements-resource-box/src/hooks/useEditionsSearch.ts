@@ -78,12 +78,9 @@ function buildSearchQuery(
       year: {
         min: filterState.range[0],
         max: filterState.range[1],
+        strict: !filterState.includeUndated,
       },
     };
-  }
-
-  if (filterState.includeUndated) {
-    // TODO!
   }
 
   if (filterState.textSearch) {

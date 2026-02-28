@@ -17,9 +17,25 @@ export type TeiHighlightCategoryConfig = {
   renderMode?: 'fill' | 'outline'
 }
 
+export type TeiManualHighlight = {
+  id: string
+  paragraphIndex: number
+  start: number
+  end: number
+  featureId: string
+  surface?: string
+  normalized?: string
+  institution?: string
+  ancientPersona?: string
+}
+
 export type TeiHighlightConfig = {
   selectedCategoryIds?: string[]
   categoryConfigById?: Record<string, TeiHighlightCategoryConfig>
+  categoryToFeatureId?: Record<string, string>
+  manualHighlights?: TeiManualHighlight[]
+  ignoreTeiHighlights?: boolean
+  hiddenTeiHighlightIds?: string[]
 }
 
 type TeiTranslationSource = {
@@ -48,6 +64,7 @@ type ParagraphHighlightSpan = {
   id: string
   start: number
   end: number
+  featureId: string
   categoryId: string
   categoryLabel: string
   description: string
@@ -55,8 +72,26 @@ type ParagraphHighlightSpan = {
   normalized: string
   institution: string
   ancientPersona: string
+  fromAnchorId?: string
+  toAnchorId?: string
   color: string
   renderMode: 'fill' | 'outline'
+}
+
+export type TeiEditableHighlight = {
+  id: string
+  paragraphIndex: number
+  start: number
+  end: number
+  featureId: string
+  categoryId: string
+  categoryLabel: string
+  surface: string
+  normalized: string
+  institution: string
+  ancientPersona: string
+  fromAnchorId: string
+  toAnchorId: string
 }
 
 type ReadingOptions = {
@@ -558,6 +593,7 @@ const getSegmentStyle = (spans: ParagraphHighlightSpan[]) => {
 const renderParagraphWithHighlights = (
   text: string,
   spans: ParagraphHighlightSpan[],
+  paragraphIndex: number,
 ) => {
   if (!text) {
     return '&nbsp;'
@@ -604,6 +640,7 @@ const renderParagraphWithHighlights = (
     const style = getSegmentStyle(activeSpans)
     const tooltipItems = activeSpans.map((span) => ({
       id: span.id,
+      featureId: span.featureId,
       categoryId: span.categoryId,
       label: span.categoryLabel,
       description: span.description,
@@ -611,6 +648,11 @@ const renderParagraphWithHighlights = (
       normalized: span.normalized,
       institution: span.institution,
       ancientPersona: span.ancientPersona,
+      paragraphIndex,
+      start: span.start,
+      end: span.end,
+      fromAnchorId: span.fromAnchorId || '',
+      toAnchorId: span.toAnchorId || '',
       color: span.color,
     }))
     const tooltipItemsAttr = escapeHtmlAttr(
@@ -622,19 +664,22 @@ const renderParagraphWithHighlights = (
   return html || '&nbsp;'
 }
 
-function renderOriginalView(
+const getOriginalParagraphSpans = (
   doc: Document,
   body: Element,
   opts: ReadingOptions,
   highlightConfig?: TeiHighlightConfig,
-) {
+) => {
   const directDivs = getDirectChildrenByName(body, 'div')
   const transcriptionDivs = directDivs.filter(
     (div) => getElementAttr(div, 'type') === 'transcription',
   )
 
   if (!transcriptionDivs.length) {
-    return '<p></p>'
+    return {
+      paragraphs: [] as ParagraphTextWithAnchors[],
+      paragraphSpans: new Map<number, ParagraphHighlightSpan[]>(),
+    }
   }
 
   const paragraphs: ParagraphTextWithAnchors[] = []
@@ -659,14 +704,25 @@ function renderOriginalView(
   }
 
   const paragraphSpans = new Map<number, ParagraphHighlightSpan[]>()
-  const highlights = getTeiHighlightSpans(doc)
+  const highlights = highlightConfig?.ignoreTeiHighlights
+    ? []
+    : getTeiHighlightSpans(doc)
   const selectedSet =
     highlightConfig?.selectedCategoryIds != null
       ? new Set(highlightConfig.selectedCategoryIds)
       : null
   const categoryConfigById = highlightConfig?.categoryConfigById || {}
+  const categoryToFeatureId = highlightConfig?.categoryToFeatureId || {}
+  const hiddenTeiHighlightIds = new Set(
+    highlightConfig?.hiddenTeiHighlightIds || [],
+  )
   for (const highlight of highlights) {
-    if (selectedSet && !selectedSet.has(highlight.categoryId)) {
+    if (hiddenTeiHighlightIds.has(highlight.id)) {
+      continue
+    }
+    const featureId =
+      categoryToFeatureId[highlight.categoryId] || highlight.categoryId
+    if (selectedSet && !selectedSet.has(featureId)) {
       continue
     }
     const from = anchorLocations[highlight.fromAnchorId]
@@ -681,11 +737,13 @@ function renderOriginalView(
     }
 
     const current = paragraphSpans.get(from.paragraphIndex) || []
-    const categoryConfig = categoryConfigById[highlight.categoryId]
+    const categoryConfig =
+      categoryConfigById[featureId] || categoryConfigById[highlight.categoryId]
     current.push({
       id: highlight.id,
       start,
       end,
+      featureId,
       categoryId: highlight.categoryId,
       categoryLabel: categoryConfig?.label || highlight.categoryLabel,
       description: categoryConfig?.description || '',
@@ -693,6 +751,8 @@ function renderOriginalView(
       normalized: highlight.normalized,
       institution: highlight.institution,
       ancientPersona: highlight.ancientPersona,
+      fromAnchorId: highlight.fromAnchorId,
+      toAnchorId: highlight.toAnchorId,
       color: categoryConfig?.color || '#f2f2f2',
       renderMode:
         categoryConfig?.renderMode ||
@@ -703,12 +763,111 @@ function renderOriginalView(
     paragraphSpans.set(from.paragraphIndex, current)
   }
 
+  const manualHighlights = highlightConfig?.manualHighlights || []
+  for (const highlight of manualHighlights) {
+    if (
+      highlight.paragraphIndex < 0 ||
+      highlight.paragraphIndex >= paragraphs.length
+    ) {
+      continue
+    }
+    if (selectedSet && !selectedSet.has(highlight.featureId)) {
+      continue
+    }
+    const paragraph = paragraphs[highlight.paragraphIndex]
+    if (!paragraph) {
+      continue
+    }
+    const start = Math.max(0, Math.min(paragraph.text.length, highlight.start))
+    const end = Math.max(0, Math.min(paragraph.text.length, highlight.end))
+    if (end <= start) {
+      continue
+    }
+    const categoryConfig = categoryConfigById[highlight.featureId]
+    const current = paragraphSpans.get(highlight.paragraphIndex) || []
+    current.push({
+      id: highlight.id,
+      start,
+      end,
+      featureId: highlight.featureId,
+      categoryId: highlight.featureId,
+      categoryLabel: categoryConfig?.label || highlight.featureId,
+      description: categoryConfig?.description || '',
+      surface: highlight.surface || paragraph.text.slice(start, end),
+      normalized: highlight.normalized || '',
+      institution: highlight.institution || '',
+      ancientPersona: highlight.ancientPersona || '',
+      fromAnchorId: '',
+      toAnchorId: '',
+      color: categoryConfig?.color || '#f2f2f2',
+      renderMode: categoryConfig?.renderMode || 'fill',
+    })
+    paragraphSpans.set(highlight.paragraphIndex, current)
+  }
+
+  return { paragraphs, paragraphSpans }
+}
+
+function renderOriginalView(
+  doc: Document,
+  body: Element,
+  opts: ReadingOptions,
+  highlightConfig?: TeiHighlightConfig,
+) {
+  const { paragraphs, paragraphSpans } = getOriginalParagraphSpans(
+    doc,
+    body,
+    opts,
+    highlightConfig,
+  )
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
-    return `<p>${renderParagraphWithHighlights(paragraph.text, spans)}</p>`
+    return `<p data-tei-paragraph-index="${index}">${renderParagraphWithHighlights(paragraph.text, spans, index)}</p>`
   })
 
   return parts.join('') || '<p></p>'
+}
+
+export const getTeiEditableHighlights = (
+  tei: string,
+  highlightConfig?: TeiHighlightConfig,
+): TeiEditableHighlight[] => {
+  try {
+    const doc = parseXml(tei.trim())
+    const body = getBody(doc)
+    const { paragraphSpans } = getOriginalParagraphSpans(
+      doc,
+      body,
+      { showPB: true, minCert: 0.8, maskChar: '@', alignLines: false },
+      highlightConfig,
+    )
+    const out: TeiEditableHighlight[] = []
+    for (const [paragraphIndex, spans] of paragraphSpans.entries()) {
+      for (const span of spans) {
+        if (!span.fromAnchorId || !span.toAnchorId) {
+          continue
+        }
+        out.push({
+          id: span.id,
+          paragraphIndex,
+          start: span.start,
+          end: span.end,
+          featureId: span.featureId,
+          categoryId: span.categoryId,
+          categoryLabel: span.categoryLabel,
+          surface: span.surface,
+          normalized: span.normalized,
+          institution: span.institution,
+          ancientPersona: span.ancientPersona,
+          fromAnchorId: span.fromAnchorId,
+          toAnchorId: span.toAnchorId,
+        })
+      }
+    }
+    return out
+  } catch {
+    return []
+  }
 }
 
 function getBody(doc: Document): Element {

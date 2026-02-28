@@ -1,15 +1,18 @@
 import {
   getTeiHighlightCategories,
-  hasTeiCertaintyDegrees,
   getTeiTranslations,
-  teiToHtml,
+  hasTeiCertaintyDegrees,
   type TeiHighlightConfig,
+  type TeiManualHighlight,
+  teiToHtml,
   type TeiTranslation,
   type TeiViewMode,
 } from './tei.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
+  annotationTeiQueryKey,
+  editionTeiQueryKey,
   useAnnotationTeiQuery,
   useEditionTeiQuery,
 } from '../../../../queries/annotations.ts'
@@ -20,22 +23,18 @@ import Select, { type StylesConfig } from 'react-select'
 import { selectStyles } from '../../../../styles/selectStyles.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import { createPortal } from 'react-dom'
-import type { feature_Feature } from '@hub-api'
+import {
+  type feature_Feature,
+  type feature_Result,
+  type feature_ResultValue,
+  FeatureResultsService,
+} from '@hub-api'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useAuthStore } from '../../../../store/authStore.ts'
 
 const VIEW_LABEL_MAP: Record<string, string> = {
-  modern_en: 'English',
+  en: 'English',
 }
-
-const FALLBACK_COLORS = [
-  '#FDE68A',
-  '#BFDBFE',
-  '#FBCFE8',
-  '#C7D2FE',
-  '#A7F3D0',
-  '#FED7AA',
-  '#DDD6FE',
-  '#99F6E4',
-]
 
 const normalizeTeiViewModes = (
   viewModes: TeiViewMode[],
@@ -54,14 +53,6 @@ const normalizeTeiViewModes = (
 
 const normalizeMatchKey = (value: string | null | undefined) =>
   (value || '').toLowerCase().replace(/[^a-z0-9]+/g, '')
-
-const fallbackColorForId = (id: string) => {
-  let hash = 0
-  for (const ch of id) {
-    hash = (hash * 31 + ch.charCodeAt(0)) >>> 0
-  }
-  return FALLBACK_COLORS[hash % FALLBACK_COLORS.length]
-}
 
 type ResolvedTeiFeature = {
   id: string
@@ -110,6 +101,7 @@ const isVerbLike = (...values: Array<string | null | undefined>) =>
 
 type TeiTooltipItem = {
   id: string
+  featureId: string
   categoryId: string
   label: string
   description: string
@@ -117,6 +109,11 @@ type TeiTooltipItem = {
   normalized: string
   institution: string
   ancientPersona: string
+  paragraphIndex: number
+  start: number
+  end: number
+  fromAnchorId: string
+  toAnchorId: string
   color: string
 }
 
@@ -124,6 +121,35 @@ type TeiTooltipState = {
   x: number
   y: number
   items: TeiTooltipItem[]
+}
+
+type SelectionDraft = {
+  paragraphIndex: number
+  start: number
+  end: number
+  surface: string
+  x: number
+  y: number
+}
+
+type DraftHighlight = {
+  localId: string
+  sourceId: string
+  paragraphIndex: number
+  start: number
+  end: number
+  featureId: string
+  categoryId: string
+  surface: string
+  normalized: string
+  institution: string
+  ancientPersona: string
+  fromAnchorId: string
+  toAnchorId: string
+}
+
+type FeatureModalState = {
+  selection: SelectionDraft
 }
 
 const TEI_HIGHLIGHT_SELECTOR = '[data-tei-highlight="true"]'
@@ -149,6 +175,7 @@ const getTooltipItems = (element: Element | null): TeiTooltipItem[] => {
         const value = item as Record<string, unknown>
         return {
           id: String(value.id || ''),
+          featureId: String(value.featureId || ''),
           categoryId: String(value.categoryId || ''),
           label: String(value.label || ''),
           description: String(value.description || ''),
@@ -156,6 +183,11 @@ const getTooltipItems = (element: Element | null): TeiTooltipItem[] => {
           normalized: String(value.normalized || ''),
           institution: String(value.institution || ''),
           ancientPersona: String(value.ancientPersona || ''),
+          paragraphIndex: Number(value.paragraphIndex || 0),
+          start: Number(value.start || 0),
+          end: Number(value.end || 0),
+          fromAnchorId: String(value.fromAnchorId || ''),
+          toAnchorId: String(value.toAnchorId || ''),
           color: String(value.color || '#f2f2f2'),
         }
       })
@@ -195,11 +227,106 @@ const getTooltipPosition = (element: Element) => {
 
 const getTooltipItemsKey = (items: TeiTooltipItem[]) =>
   items
-    .map((item) => item.id)
+    .map((item) =>
+      [item.id, item.featureId, item.paragraphIndex, item.start, item.end].join(
+        ':',
+      ),
+    )
     .sort()
     .join('|')
 
-type Props = {
+const getOffsetInParagraph = (
+  paragraph: Element,
+  node: Node,
+  offset: number,
+): number | null => {
+  try {
+    const range = document.createRange()
+    range.setStart(paragraph, 0)
+    range.setEnd(node, offset)
+    return range.toString().length
+  } catch {
+    return null
+  }
+}
+
+const getSelectionDraft = (
+  root: HTMLElement,
+  selection: Selection,
+): SelectionDraft | null => {
+  if (!selection.rangeCount || selection.isCollapsed) {
+    return null
+  }
+  const range = selection.getRangeAt(0)
+  if (
+    !root.contains(range.startContainer) ||
+    !root.contains(range.endContainer)
+  ) {
+    return null
+  }
+
+  const startParent =
+    range.startContainer instanceof Element
+      ? range.startContainer
+      : range.startContainer.parentElement
+  const endParent =
+    range.endContainer instanceof Element
+      ? range.endContainer
+      : range.endContainer.parentElement
+
+  const startParagraph = startParent?.closest('p[data-tei-paragraph-index]')
+  const endParagraph = endParent?.closest('p[data-tei-paragraph-index]')
+
+  if (!startParagraph || !endParagraph || startParagraph !== endParagraph) {
+    return null
+  }
+
+  const paragraphIndex = Number.parseInt(
+    startParagraph.getAttribute('data-tei-paragraph-index') || '',
+    10,
+  )
+  if (Number.isNaN(paragraphIndex)) {
+    return null
+  }
+
+  const startOffset = getOffsetInParagraph(
+    startParagraph,
+    range.startContainer,
+    range.startOffset,
+  )
+  const endOffset = getOffsetInParagraph(
+    startParagraph,
+    range.endContainer,
+    range.endOffset,
+  )
+  if (startOffset == null || endOffset == null) {
+    return null
+  }
+
+  const start = Math.min(startOffset, endOffset)
+  const end = Math.max(startOffset, endOffset)
+  if (end <= start) {
+    return null
+  }
+
+  const paragraphText = startParagraph.textContent || ''
+  const surface = paragraphText.slice(start, end)
+  if (!surface.trim()) {
+    return null
+  }
+
+  const rect = range.getBoundingClientRect()
+  return {
+    paragraphIndex,
+    start,
+    end,
+    surface,
+    x: rect.left + rect.width / 2 + 8,
+    y: rect.top - 34,
+  }
+}
+
+type TeiProps = {
   data: string
   minCert: number
   viewMode: TeiViewMode
@@ -207,6 +334,9 @@ type Props = {
   showViewLabel: boolean
   alignLines: boolean
   highlightConfig?: TeiHighlightConfig
+  editable: boolean
+  onRequestAddHighlight: (selection: SelectionDraft) => void
+  onRequestRemoveHighlight: (item: TeiTooltipItem) => void
 }
 
 const Tei = ({
@@ -217,11 +347,18 @@ const Tei = ({
   showViewLabel,
   alignLines,
   highlightConfig,
-}: Props) => {
+  editable,
+  onRequestAddHighlight,
+  onRequestRemoveHighlight,
+}: TeiProps) => {
   const { searchResultHighlight } = useAppState()
   const [tooltipState, setTooltipState] = useState<TeiTooltipState | null>(null)
+  const [selectionState, setSelectionState] = useState<SelectionDraft | null>(
+    null,
+  )
   const hideTooltipTimerRef = useRef<number | null>(null)
   const tooltipHoveredRef = useRef(false)
+  const rootRef = useRef<HTMLDivElement | null>(null)
 
   const clearHideTooltipTimer = () => {
     if (hideTooltipTimerRef.current == null) return
@@ -240,6 +377,11 @@ const Tei = ({
   }
 
   useEffect(() => () => clearHideTooltipTimer(), [])
+  useEffect(() => {
+    if (!tooltipState) {
+      tooltipHoveredRef.current = false
+    }
+  }, [tooltipState])
 
   const html = useMemo(
     () =>
@@ -296,8 +438,8 @@ const Tei = ({
         <div className="flex flex-col gap-2">
           {tooltipState.items.map((item) => (
             <div
-              key={`${item.id}:${item.categoryId}`}
-              className="flex flex-col"
+              key={`${item.id}:${item.featureId}:${item.start}:${item.end}`}
+              className="flex flex-col gap-1"
             >
               <div className="flex items-center gap-1.5">
                 <span
@@ -334,6 +476,20 @@ const Tei = ({
                   )}
                 </div>
               )}
+              {editable && viewMode === 'original' && (
+                <div className="mt-3 flex items-center gap-1.5">
+                  <button
+                    type="button"
+                    className="px-1.5 py-0.5 rounded border border-red-300 text-red-700 hover:bg-red-50"
+                    onClick={() => {
+                      onRequestRemoveHighlight(item)
+                      setTooltipState(null)
+                    }}
+                  >
+                    Remove
+                  </button>
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -341,10 +497,53 @@ const Tei = ({
       document.body,
     )
 
+  const selectionTooltip =
+    selectionState &&
+    editable &&
+    viewMode === 'original' &&
+    createPortal(
+      <div
+        style={{
+          position: 'fixed',
+          left: selectionState.x,
+          top: selectionState.y,
+          zIndex: 12001,
+          pointerEvents: 'auto',
+        }}
+        onMouseDown={(event) => {
+          event.stopPropagation()
+        }}
+        onMouseUp={(event) => {
+          event.stopPropagation()
+        }}
+      >
+        <button
+          type="button"
+          className="px-2 py-1 rounded border border-teal-300 bg-white text-teal-700 text-xs font-semibold shadow-sm hover:bg-teal-50"
+          onClick={() => {
+            onRequestAddHighlight(selectionState)
+            setSelectionState(null)
+            const selection = window.getSelection()
+            selection?.removeAllRanges()
+          }}
+        >
+          Highlight
+        </button>
+      </div>,
+      document.body,
+    )
+
   return (
     <div
+      ref={rootRef}
       className="relative"
+      onMouseDown={() => {
+        setSelectionState(null)
+      }}
       onMouseMove={(event) => {
+        if (tooltipHoveredRef.current) {
+          return
+        }
         clearHideTooltipTimer()
         const elements = document.elementsFromPoint(
           event.clientX,
@@ -371,7 +570,7 @@ const Tei = ({
           const previousKey = getTooltipItemsKey(previous.items)
           const nextKey = getTooltipItemsKey(items)
           if (previousKey !== nextKey) {
-            return previous
+            return { x: position.x, y: position.y, items }
           }
           return { x: position.x, y: position.y, items }
         })
@@ -379,6 +578,24 @@ const Tei = ({
       onMouseLeave={() => {
         if (tooltipHoveredRef.current) return
         scheduleHideTooltip()
+      }}
+      onMouseUp={() => {
+        if (!editable || viewMode !== 'original') {
+          setSelectionState(null)
+          return
+        }
+        const root = rootRef.current
+        if (!root) {
+          setSelectionState(null)
+          return
+        }
+        const selection = window.getSelection()
+        if (!selection) {
+          setSelectionState(null)
+          return
+        }
+        const nextSelection = getSelectionDraft(root, selection)
+        setSelectionState(nextSelection)
       }}
     >
       {showViewLabel && (
@@ -392,6 +609,7 @@ const Tei = ({
         dangerouslySetInnerHTML={{ __html: html }}
       />
       {tooltip}
+      {selectionTooltip}
     </div>
   )
 }
@@ -407,6 +625,22 @@ type FeatureOption = {
   color: string
   description: string
 }
+
+const formatFeatureOptionLabel = (
+  option: FeatureOption,
+  context: 'menu' | 'value',
+) =>
+  context === 'value' ? (
+    <span>{option.label}</span>
+  ) : (
+    <div className="flex items-center gap-2">
+      <span
+        className="w-2.5 h-2.5 rounded-full shrink-0"
+        style={{ backgroundColor: option.color }}
+      />
+      <div>{option.label}</div>
+    </div>
+  )
 
 const featureSelectStyles: StylesConfig<FeatureOption, true> = {
   control: (base, state) => ({
@@ -444,10 +678,121 @@ const featureSelectStyles: StylesConfig<FeatureOption, true> = {
   }),
 }
 
+const featureModalStyles: StylesConfig<FeatureOption, false> = {
+  ...selectStyles<FeatureOption>(),
+  menuPortal: (base) => ({ ...base, zIndex: 13000 }),
+}
+
 const sameStringArray = (left: string[] | null, right: string[]) => {
   if (!left) return false
   if (left.length !== right.length) return false
   return left.every((value, index) => value === right[index])
+}
+
+const toResultValues = (highlights: DraftHighlight[]): feature_ResultValue[] =>
+  highlights
+    .map((highlight) => {
+      const properties: Record<string, string> = {}
+      if (highlight.normalized) {
+        properties.normalized = highlight.normalized
+      }
+      if (highlight.institution) {
+        properties.institution = highlight.institution
+      }
+      if (highlight.ancientPersona) {
+        properties.ancient_persona = highlight.ancientPersona
+      }
+      return {
+        surface: highlight.surface,
+        properties,
+      }
+    })
+    .sort((left, right) => {
+      const leftKey = `${left.properties?.paragraph_index || ''}:${left.properties?.start || ''}:${left.properties?.end || ''}:${left.surface || ''}`
+      const rightKey = `${right.properties?.paragraph_index || ''}:${right.properties?.start || ''}:${right.properties?.end || ''}:${right.surface || ''}`
+      return leftKey.localeCompare(rightKey)
+    })
+
+const getComparableValues = (values: feature_ResultValue[]) =>
+  values
+    .map((value) => ({
+      surface: value.surface || '',
+      properties: Object.entries(value.properties || {})
+        .sort(([left], [right]) => left.localeCompare(right))
+        .map(([key, nextValue]) => `${key}:${nextValue}`)
+        .join('|'),
+    }))
+    .sort((left, right) =>
+      `${left.properties}:${left.surface}`.localeCompare(
+        `${right.properties}:${right.surface}`,
+      ),
+    )
+
+const groupByFeature = (highlights: DraftHighlight[]) => {
+  const grouped: Record<string, DraftHighlight[]> = {}
+  for (const highlight of highlights) {
+    grouped[highlight.featureId] = grouped[highlight.featureId] || []
+    grouped[highlight.featureId].push(highlight)
+  }
+  return grouped
+}
+
+const debugTeiHighlights = (...args: unknown[]) => {
+  if (!import.meta.env.DEV) {
+    return
+  }
+  console.log('[TeiPane highlights]', ...args)
+}
+
+const toDraftHighlightsFromResults = (
+  results: feature_Result[],
+): DraftHighlight[] => {
+  const out: DraftHighlight[] = []
+  for (const result of results) {
+    const featureId = result.feature_id || ''
+    if (!featureId) {
+      continue
+    }
+    const values = result.values || []
+    for (let index = 0; index < values.length; index++) {
+      const value = values[index]
+      const properties = value.properties || {}
+      const paragraphIndex = Number.parseInt(
+        properties.paragraph_index || '',
+        10,
+      )
+      const start = Number.parseInt(properties.start || '', 10)
+      const end = Number.parseInt(properties.end || '', 10)
+      if (
+        Number.isNaN(paragraphIndex) ||
+        Number.isNaN(start) ||
+        Number.isNaN(end) ||
+        end <= start
+      ) {
+        continue
+      }
+      const sourceId =
+        properties.highlight_id ||
+        `${result.id || featureId}:${paragraphIndex}:${start}:${end}:${index}`
+      const localId = `${sourceId}:${featureId}`
+      out.push({
+        localId,
+        sourceId,
+        paragraphIndex,
+        start,
+        end,
+        featureId,
+        categoryId: properties.category_id || featureId,
+        surface: value.surface || '',
+        normalized: properties.normalized || '',
+        institution: properties.institution || '',
+        ancientPersona: properties.ancient_persona || '',
+        fromAnchorId: properties.from_anchor_id || '',
+        toAnchorId: properties.to_anchor_id || '',
+      })
+    }
+  }
+  return out
 }
 
 export function TeiPane() {
@@ -456,6 +801,9 @@ export function TeiPane() {
     dataset,
     state: { datasetId, annotationId, currentPageOrKey },
   } = useAppState()
+  const queryClient = useQueryClient()
+  const isAuthenticated = !!useAuthStore((store) => store.token)
+
   const [showTeiSource, setShowTeiSource] = useLocalStorageState(
     'showTeiSource',
     { defaultValue: false },
@@ -466,6 +814,25 @@ export function TeiPane() {
   const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
     defaultValue: false,
   })
+  const [isFeatureSelectExpanded, setIsFeatureSelectExpanded] =
+    useLocalStorageState('teiFeatureSelectExpanded', {
+      defaultValue: false,
+    })
+  const [featureModalState, setFeatureModalState] =
+    useState<FeatureModalState | null>(null)
+  const [modalFeatureId, setModalFeatureId] = useState<string>('')
+  const [saveError, setSaveError] = useState<string | null>(null)
+  const [baselineHighlights, setBaselineHighlights] = useState<
+    DraftHighlight[]
+  >([])
+  const [draftHighlights, setDraftHighlights] = useState<DraftHighlight[]>([])
+  const [removedTeiHighlightIds, setRemovedTeiHighlightIds] = useState<
+    string[]
+  >([])
+  const [forcedChangedFeatureIds, setForcedChangedFeatureIds] = useState<
+    string[]
+  >([])
+
   const ocred = !!annotation?.ocred
   const editionId = dataset?.edition_id
 
@@ -499,6 +866,16 @@ export function TeiPane() {
     ocred,
   )
   const featuresQuery = useDatasetFeaturesQuery(datasetId, !!datasetId)
+  const featureResultsQuery = useQuery({
+    queryKey: ['featureResults', datasetId, annotationId, currentPageOrKey],
+    queryFn: () =>
+      FeatureResultsService.getDatasetsAnnotationsResults({
+        dataSetId: datasetId,
+        id: annotationId,
+        keys: String(currentPageOrKey),
+      }),
+    enabled: !!datasetId && !!annotationId,
+  })
 
   const availableSources = useMemo(() => {
     const sources: Array<'annotation' | 'edition'> = []
@@ -590,19 +967,41 @@ export function TeiPane() {
     [teiContents],
   )
 
-  const resolvedTeiFeatures = useMemo<ResolvedTeiFeature[]>(() => {
-    const features = featuresQuery.data ?? []
-    return teiCategories.map((category) => {
+  const datasetFeatures = useMemo(
+    () => featuresQuery.data ?? [],
+    [featuresQuery.data],
+  )
+
+  const categoryToFeatureId = useMemo(() => {
+    const next: Record<string, string> = {}
+    for (const category of teiCategories) {
       const matched = matchTeiCategoryToFeature(
         category.id,
         category.label,
-        features,
+        datasetFeatures,
       )
-      return {
-        id: category.id,
+      next[category.id] = matched?.id || category.id
+    }
+    return next
+  }, [datasetFeatures, teiCategories])
+
+  const resolvedTeiFeatures = useMemo<ResolvedTeiFeature[]>(() => {
+    const byId = new Map<string, ResolvedTeiFeature>()
+    for (const category of teiCategories) {
+      const matched = matchTeiCategoryToFeature(
+        category.id,
+        category.label,
+        datasetFeatures,
+      )
+      const featureId = matched?.id || category.id
+      if (byId.has(featureId)) {
+        continue
+      }
+      byId.set(featureId, {
+        id: featureId,
         label: matched?.name?.trim() || category.label,
         description: matched?.description?.trim() || '',
-        color: matched?.color || fallbackColorForId(category.id),
+        color: matched?.color || '#f2f2f2',
         isDefault: !!matched?.is_default,
         renderMode: isVerbLike(
           matched?.id,
@@ -612,9 +1011,76 @@ export function TeiPane() {
         )
           ? 'outline'
           : 'fill',
+      })
+    }
+    return [...byId.values()].sort((left, right) =>
+      left.label.localeCompare(right.label, undefined, { sensitivity: 'base' }),
+    )
+  }, [datasetFeatures, teiCategories])
+
+  const currentFeatureResults = useMemo(
+    () => featureResultsQuery.data || [],
+    [featureResultsQuery.data],
+  )
+  const baselineResultsByFeature = useMemo(() => {
+    const map: Record<string, feature_Result> = {}
+    for (const result of currentFeatureResults) {
+      if (!result.feature_id) {
+        continue
       }
+      map[result.feature_id] = result
+    }
+    return map
+  }, [currentFeatureResults])
+
+  useEffect(() => {
+    const next = toDraftHighlightsFromResults(currentFeatureResults)
+    let cancelled = false
+    queueMicrotask(() => {
+      if (cancelled) {
+        return
+      }
+      setBaselineHighlights(next)
+      setDraftHighlights(next)
+      setRemovedTeiHighlightIds([])
+      setForcedChangedFeatureIds([])
+      setFeatureModalState(null)
+      setModalFeatureId('')
+      setSaveError(null)
     })
-  }, [featuresQuery.data, teiCategories])
+    return () => {
+      cancelled = true
+    }
+  }, [
+    annotationId,
+    currentPageOrKey,
+    currentFeatureResults,
+    datasetId,
+    effectiveTeiSource,
+  ])
+
+  const allResolvedFeatures = useMemo<ResolvedTeiFeature[]>(() => {
+    const byId = new Map<string, ResolvedTeiFeature>()
+    for (const feature of datasetFeatures) {
+      if (!feature.id) continue
+      byId.set(feature.id, {
+        id: feature.id,
+        label: feature.name?.trim() || feature.id,
+        description: feature.description?.trim() || '',
+        color: feature.color || '#f2f2f2',
+        isDefault: !!feature.is_default,
+        renderMode: isVerbLike(feature.id, feature.name) ? 'outline' : 'fill',
+      })
+    }
+    for (const feature of resolvedTeiFeatures) {
+      if (!byId.has(feature.id)) {
+        byId.set(feature.id, feature)
+      }
+    }
+    return [...byId.values()].sort((left, right) =>
+      left.label.localeCompare(right.label, undefined, { sensitivity: 'base' }),
+    )
+  }, [datasetFeatures, resolvedTeiFeatures])
 
   const highlightStorageKey = datasetId
     ? `teiVisibleHighlightFeatures:${datasetId}`
@@ -625,13 +1091,13 @@ export function TeiPane() {
     })
 
   const visibleFeatureIds = useMemo(() => {
-    const availableIds = resolvedTeiFeatures.map((feature) => feature.id)
+    const availableIds = allResolvedFeatures.map((feature) => feature.id)
     if (!availableIds.length) {
       return []
     }
 
     const availableSet = new Set(availableIds)
-    const defaultIds = resolvedTeiFeatures
+    const defaultIds = allResolvedFeatures
       .filter((feature) => feature.isDefault)
       .map((feature) => feature.id)
 
@@ -639,7 +1105,7 @@ export function TeiPane() {
       availableIds.filter((id) => ids.includes(id))
 
     if (storedVisibleFeatureIds === null) {
-      return order(defaultIds.length > 0 ? defaultIds : availableIds)
+      return order(defaultIds)
     }
 
     const filtered = order(
@@ -650,15 +1116,11 @@ export function TeiPane() {
       return []
     }
 
-    if (filtered.length > 0) {
-      return filtered
-    }
-
-    return order(defaultIds.length > 0 ? defaultIds : availableIds)
-  }, [resolvedTeiFeatures, storedVisibleFeatureIds])
+    return filtered
+  }, [allResolvedFeatures, storedVisibleFeatureIds])
 
   useEffect(() => {
-    if (!resolvedTeiFeatures.length) {
+    if (!allResolvedFeatures.length) {
       if (storedVisibleFeatureIds !== null) {
         setStoredVisibleFeatureIds(null)
       }
@@ -669,18 +1131,18 @@ export function TeiPane() {
       setStoredVisibleFeatureIds(visibleFeatureIds)
     }
   }, [
-    resolvedTeiFeatures,
+    allResolvedFeatures,
     setStoredVisibleFeatureIds,
     storedVisibleFeatureIds,
     visibleFeatureIds,
   ])
 
   const highlightConfig = useMemo<TeiHighlightConfig | undefined>(() => {
-    if (!resolvedTeiFeatures.length) {
+    if (!allResolvedFeatures.length) {
       return undefined
     }
 
-    const categoryConfigById = resolvedTeiFeatures.reduce<
+    const categoryConfigById = allResolvedFeatures.reduce<
       Record<
         string,
         {
@@ -700,30 +1162,194 @@ export function TeiPane() {
       return acc
     }, {})
 
-    return {
-      selectedCategoryIds: visibleFeatureIds,
-      categoryConfigById,
-    }
-  }, [resolvedTeiFeatures, visibleFeatureIds])
+    const manualHighlights: TeiManualHighlight[] = draftHighlights
+      .filter((highlight) => highlight.sourceId.startsWith('manual'))
+      .map((highlight) => ({
+        id: highlight.localId,
+        paragraphIndex: highlight.paragraphIndex,
+        start: highlight.start,
+        end: highlight.end,
+        featureId: highlight.featureId,
+        surface: highlight.surface,
+        normalized: highlight.normalized,
+        institution: highlight.institution,
+        ancientPersona: highlight.ancientPersona,
+      }))
 
-  const featureOptions = useMemo<FeatureOption[]>(
+    const draftFeatureIds = [
+      ...new Set(draftHighlights.map((h) => h.featureId)),
+    ]
+    const selectedCategoryIds = [
+      ...new Set([...visibleFeatureIds, ...draftFeatureIds]),
+    ]
+    const draftLocalIds = new Set(
+      draftHighlights.map((highlight) => highlight.localId),
+    )
+    const hiddenFromDraft = baselineHighlights
+      .filter(
+        (highlight) =>
+          !highlight.sourceId.startsWith('manual') &&
+          !draftLocalIds.has(highlight.localId),
+      )
+      .map((highlight) => highlight.sourceId)
+    const hiddenTeiHighlightIds = [
+      ...new Set([...hiddenFromDraft, ...removedTeiHighlightIds]),
+    ]
+
+    return {
+      selectedCategoryIds,
+      categoryConfigById,
+      categoryToFeatureId,
+      manualHighlights,
+      hiddenTeiHighlightIds,
+    }
+  }, [
+    allResolvedFeatures,
+    baselineHighlights,
+    categoryToFeatureId,
+    draftHighlights,
+    removedTeiHighlightIds,
+    visibleFeatureIds,
+  ])
+
+  const removeHighlightFromTooltip = (item: TeiTooltipItem) => {
+    debugTeiHighlights('remove-click', {
+      id: item.id,
+      featureId: item.featureId,
+      paragraphIndex: item.paragraphIndex,
+      start: item.start,
+      end: item.end,
+      surface: item.surface,
+    })
+    setRemovedTeiHighlightIds((previous) =>
+      previous.includes(item.id) ? previous : [...previous, item.id],
+    )
+    setDraftHighlights((previous) => {
+      const isMatch = (highlight: DraftHighlight) =>
+        highlight.localId === item.id ||
+        highlight.sourceId === item.id ||
+        (highlight.featureId === item.featureId &&
+          highlight.paragraphIndex === item.paragraphIndex &&
+          highlight.start === item.start &&
+          highlight.end === item.end) ||
+        (highlight.featureId === item.featureId &&
+          highlight.paragraphIndex === item.paragraphIndex &&
+          highlight.surface.trim() !== '' &&
+          item.surface.trim() !== '' &&
+          highlight.surface.trim() === item.surface.trim()) ||
+        (highlight.paragraphIndex === item.paragraphIndex &&
+          highlight.start === item.start &&
+          highlight.end === item.end) ||
+        (highlight.featureId === item.featureId &&
+          highlight.paragraphIndex === item.paragraphIndex &&
+          Math.max(highlight.start, item.start) <
+            Math.min(highlight.end, item.end))
+
+      const matchedIndexes: number[] = []
+      for (let index = 0; index < previous.length; index++) {
+        if (isMatch(previous[index])) {
+          matchedIndexes.push(index)
+        }
+      }
+      debugTeiHighlights('remove-match', {
+        draftCountBefore: previous.length,
+        matchedIndexes,
+      })
+
+      if (matchedIndexes.length > 0) {
+        const next = previous.filter(
+          (_, index) => !matchedIndexes.includes(index),
+        )
+        debugTeiHighlights('remove-result', {
+          draftCountAfter: next.length,
+          strategy: 'matchedIndexes',
+        })
+        return next
+      }
+
+      const fallbackIndex = previous.findIndex(
+        (highlight) => highlight.featureId === item.featureId,
+      )
+      if (fallbackIndex >= 0) {
+        const next = previous.filter((_, index) => index !== fallbackIndex)
+        debugTeiHighlights('remove-result', {
+          draftCountAfter: next.length,
+          strategy: 'fallbackFeatureId',
+          fallbackIndex,
+        })
+        return next
+      }
+
+      debugTeiHighlights('remove-result', {
+        draftCountAfter: previous.length,
+        strategy: 'no-op',
+      })
+      return previous
+    })
+    setForcedChangedFeatureIds((previous) =>
+      previous.includes(item.featureId)
+        ? previous
+        : [...previous, item.featureId],
+    )
+  }
+
+  const allFeatureOptions = useMemo<FeatureOption[]>(
     () =>
-      resolvedTeiFeatures.map((feature) => ({
+      allResolvedFeatures.map((feature) => ({
         value: feature.id,
         label: feature.label,
         color: feature.color,
         description: feature.description,
       })),
-    [resolvedTeiFeatures],
+    [allResolvedFeatures],
   )
 
   const selectedFeatureOptions = useMemo(
     () =>
-      featureOptions.filter((option) =>
+      allFeatureOptions.filter((option) =>
         visibleFeatureIds.includes(option.value),
       ),
-    [featureOptions, visibleFeatureIds],
+    [allFeatureOptions, visibleFeatureIds],
   )
+
+  const changedFeatureIds = useMemo(() => {
+    const baselineByFeature = groupByFeature(baselineHighlights)
+    const draftByFeature = groupByFeature(draftHighlights)
+    const featureIds = new Set([
+      ...Object.keys(baselineByFeature),
+      ...Object.keys(draftByFeature),
+    ])
+
+    const changedByDiff = [...featureIds].filter((featureId) => {
+      const baselineValues = getComparableValues(
+        toResultValues(baselineByFeature[featureId] || []),
+      )
+      const draftValues = getComparableValues(
+        toResultValues(draftByFeature[featureId] || []),
+      )
+      return JSON.stringify(baselineValues) !== JSON.stringify(draftValues)
+    })
+    return [...new Set([...changedByDiff, ...forcedChangedFeatureIds])]
+  }, [baselineHighlights, draftHighlights, forcedChangedFeatureIds])
+
+  useEffect(() => {
+    debugTeiHighlights('dirty-state', {
+      baselineHighlights: baselineHighlights.length,
+      draftHighlights: draftHighlights.length,
+      changedFeatureIds,
+      removedTeiHighlightIds,
+      forcedChangedFeatureIds,
+    })
+  }, [
+    baselineHighlights.length,
+    changedFeatureIds,
+    draftHighlights.length,
+    forcedChangedFeatureIds,
+    removedTeiHighlightIds,
+  ])
+
+  const unsavedFeatureCount = changedFeatureIds.length
+  const hasUnsavedChanges = unsavedFeatureCount > 0
 
   const showPane = ocred || !!editionId
   const annotationSourceFailed =
@@ -736,6 +1362,112 @@ export function TeiPane() {
   const isFetchingCandidateSource =
     (ocred && annotationTeiQuery.isFetching) ||
     (!!editionId && editionTeiQuery.isFetching)
+
+  const saveMutation = useMutation({
+    mutationFn: (results: feature_Result[]) =>
+      FeatureResultsService.postDatasetsAnnotationsResults({
+        dataSetId: datasetId,
+        id: annotationId,
+        result: results,
+      }),
+  })
+
+  const handleSave = async () => {
+    if (!datasetId || !annotationId || !isAuthenticated) {
+      return
+    }
+
+    const draftByFeature = groupByFeature(draftHighlights)
+    const payloads: feature_Result[] = changedFeatureIds.map((featureId) => {
+      const existing = baselineResultsByFeature[featureId]
+      return {
+        ...(existing || {}),
+        dataset_id: datasetId,
+        annotation_id: annotationId,
+        feature_id: featureId,
+        page_key: existing?.page_key || String(currentPageOrKey),
+        values: toResultValues(draftByFeature[featureId] || []),
+      }
+    })
+
+    if (!payloads.length) {
+      return
+    }
+
+    try {
+      setSaveError(null)
+      await saveMutation.mutateAsync(payloads)
+      setBaselineHighlights(draftHighlights)
+      await featureResultsQuery.refetch()
+      await queryClient.invalidateQueries({
+        queryKey: annotationTeiQueryKey(
+          datasetId,
+          annotationId,
+          currentPageOrKey,
+        ),
+      })
+      if (editionId) {
+        await queryClient.invalidateQueries({
+          queryKey: editionTeiQueryKey(editionId, currentPageOrKey),
+        })
+      }
+    } catch (error) {
+      setSaveError(
+        error instanceof Error ? error.message : 'Failed to save highlights.',
+      )
+    }
+  }
+
+  const addHighlight = (selection: SelectionDraft, featureId: string) => {
+    const localId = [
+      'manual',
+      featureId,
+      selection.paragraphIndex,
+      selection.start,
+      selection.end,
+      Date.now(),
+      Math.random().toString(36).slice(2, 8),
+    ].join(':')
+
+    const next: DraftHighlight = {
+      localId,
+      sourceId: localId,
+      paragraphIndex: selection.paragraphIndex,
+      start: selection.start,
+      end: selection.end,
+      featureId,
+      categoryId: featureId,
+      surface: selection.surface,
+      normalized: '',
+      institution: '',
+      ancientPersona: '',
+      fromAnchorId: '',
+      toAnchorId: '',
+    }
+
+    setDraftHighlights((previous) => [...previous, next])
+  }
+
+  const openModalForAdd = (selection: SelectionDraft) => {
+    setFeatureModalState({ selection })
+    setModalFeatureId(allFeatureOptions[0]?.value || '')
+  }
+
+  const submitFeatureModal = () => {
+    if (!featureModalState || !modalFeatureId) {
+      return
+    }
+
+    addHighlight(featureModalState.selection, modalFeatureId)
+
+    setFeatureModalState(null)
+    setModalFeatureId('')
+  }
+
+  const closeFeatureModal = () => {
+    setFeatureModalState(null)
+    setModalFeatureId('')
+  }
 
   if (!showPane || allCandidateSourcesFailed) {
     return null
@@ -768,140 +1500,183 @@ export function TeiPane() {
     (effectiveTeiSource === 'edition' && editionTeiQuery.error) ||
     (effectiveTeiSource === 'annotation' && annotationTeiQuery.error)
 
-  return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white">
-      <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
-        <div>Contents</div>
-      </div>
+  const paneTitle = hasUnsavedChanges
+    ? `Contents (${unsavedFeatureCount} unsaved feature${unsavedFeatureCount === 1 ? '' : 's'})`
+    : 'Contents'
 
-      <div className="flex-1 min-h-0 overflow-hidden p-2.5 box-border flex flex-col">
-        <div className="flex gap-2 items-center flex-wrap mb-2.5">
-          {sourceOptions.length > 1 && (
-            <div className="flex items-center gap-1.5">
-              <span className="text-xs font-medium text-gray-600">Source:</span>
-              <div className="w-36">
-                <Select
-                  value={selectedSourceOption}
-                  onChange={(option: SourceOption | null) => {
-                    if (option) {
-                      setStoredTeiSource(option.value)
-                    }
-                  }}
-                  options={sourceOptions}
-                  isClearable={false}
-                  styles={selectStyles<SourceOption>()}
-                  menuPortalTarget={document.body}
-                  menuPosition="fixed"
-                />
-              </div>
-            </div>
-          )}
-          {availableViewModes.length > 1 && (
-            <div className="flex items-center gap-1.5">
-              <span className="text-xs font-medium text-gray-600">Views:</span>
-              <MultiSelectDropdown<TeiViewMode>
-                allItems={availableViewModes}
-                selectedItems={orderedSelectedViewModes}
-                setSelectedItems={(items) => {
-                  if (!items || items.length === 0) {
-                    setTeiViewModes(['original'])
-                    return
-                  }
-                  setTeiViewModes(items)
+  const modalFeatureOption =
+    allFeatureOptions.find((option) => option.value === modalFeatureId) || null
+
+  return (
+    <>
+      <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white">
+        <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
+          <div>{paneTitle}</div>
+          <div className="flex items-center gap-2">
+            {saveError && (
+              <span className="text-xs text-red-600">{saveError}</span>
+            )}
+            {isAuthenticated && hasUnsavedChanges && (
+              <button
+                type="button"
+                className="px-2 py-1 rounded border border-teal-300 text-teal-700 bg-white hover:bg-teal-50 text-xs"
+                onClick={() => {
+                  void handleSave()
                 }}
-                itemsLabel="views"
-                getItemLabel={getViewModeLabel}
-                minWidth="180px"
-              />
-            </div>
-          )}
-          <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
-            <input
-              type="checkbox"
-              checked={alignLines}
-              onChange={(e) => setAlignLines(e.target.checked)}
-              className="rounded border-gray-300"
-            />
-            <span>Align lines</span>
-          </label>
-          {showMinCertControl && (
-            <RangeInput
-              label="Min certainty"
-              value={minCert}
-              min={0.8}
-              max={1}
-              step={0.001}
-              title="Hide tokens below certainty threshold"
-              onChange={(value) => setMinCert(Math.round(value * 1000) / 1000)}
-            />
-          )}
-          <button
-            className={`px-2.5 py-1.5 border rounded-lg font-semibold text-xs ${
-              showTeiSource
-                ? 'bg-black text-white border-black'
-                : 'border-gray-300 bg-white hover:bg-gray-50'
-            }`}
-            onClick={() => setShowTeiSource(!showTeiSource)}
-          >
-            TEI source code
-          </button>
-          {featureOptions.length > 0 && (
-            <div className="flex items-center gap-1.5 min-w-65">
-              <Select<FeatureOption, true>
-                isMulti
-                value={selectedFeatureOptions}
-                onChange={(options) => {
-                  const values = (options || []).map((option) => option.value)
-                  setStoredVisibleFeatureIds(values)
-                }}
-                options={featureOptions}
-                closeMenuOnSelect={false}
-                hideSelectedOptions={false}
-                isLoading={featuresQuery.isLoading}
-                placeholder="Select features"
-                styles={featureSelectStyles}
-                menuPortalTarget={document.body}
-                menuPosition="fixed"
-                formatOptionLabel={(option, { context }) =>
-                  context === 'value' ? (
-                    <span>{option.label}</span>
-                  ) : (
-                    <div className="flex items-center gap-2">
-                      <span
-                        className="w-2.5 h-2.5 rounded-full shrink-0"
-                        style={{ backgroundColor: option.color }}
-                      />
-                      <div>{option.label}</div>
-                    </div>
-                  )
-                }
-              />
-            </div>
-          )}
+                disabled={saveMutation.isPending}
+              >
+                {saveMutation.isPending ? 'Saving…' : 'Save'}
+              </button>
+            )}
+          </div>
         </div>
 
-        {isLoading && !teiContents && (
-          <p className="text-gray-500 text-sm py-2">Loading TEI…</p>
-        )}
-        {effectiveTeiSource === 'annotation' &&
-          !teiContents &&
-          !annotationTeiQuery.isFetching &&
-          !annotationTeiQuery.error &&
-          (!datasetId || !annotationId) && (
-            <p className="text-amber-700 text-sm py-2">
-              Select a dataset and an annotation to view annotation TEI.
+        <div className="flex-1 min-h-0 overflow-hidden p-2.5 box-border flex flex-col">
+          <div className="flex gap-2 items-center flex-wrap mb-2.5">
+            {sourceOptions.length > 1 && (
+              <div className="flex items-center gap-1.5">
+                <span className="text-xs font-medium text-gray-600">
+                  Source:
+                </span>
+                <div className="w-36">
+                  <Select
+                    value={selectedSourceOption}
+                    onChange={(option: SourceOption | null) => {
+                      if (option) {
+                        setStoredTeiSource(option.value)
+                      }
+                    }}
+                    options={sourceOptions}
+                    isClearable={false}
+                    styles={selectStyles<SourceOption>()}
+                    menuPortalTarget={document.body}
+                    menuPosition="fixed"
+                  />
+                </div>
+              </div>
+            )}
+            {availableViewModes.length > 1 && (
+              <div className="flex items-center gap-1.5">
+                <span className="text-xs font-medium text-gray-600">
+                  Views:
+                </span>
+                <MultiSelectDropdown<TeiViewMode>
+                  allItems={availableViewModes}
+                  selectedItems={orderedSelectedViewModes}
+                  setSelectedItems={(items) => {
+                    if (!items || items.length === 0) {
+                      setTeiViewModes(['original'])
+                      return
+                    }
+                    setTeiViewModes(items)
+                  }}
+                  itemsLabel="views"
+                  getItemLabel={getViewModeLabel}
+                  minWidth="180px"
+                />
+              </div>
+            )}
+            <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
+              <input
+                type="checkbox"
+                checked={alignLines}
+                onChange={(e) => setAlignLines(e.target.checked)}
+                className="rounded border-gray-300"
+              />
+              <span>Align lines</span>
+            </label>
+            {showMinCertControl && (
+              <RangeInput
+                label="Min certainty"
+                value={minCert}
+                min={0.8}
+                max={1}
+                step={0.001}
+                title="Hide tokens below certainty threshold"
+                onChange={(value) =>
+                  setMinCert(Math.round(value * 1000) / 1000)
+                }
+              />
+            )}
+            <button
+              className={`px-2.5 py-1.5 border rounded-lg font-semibold text-xs ${
+                showTeiSource
+                  ? 'bg-black text-white border-black'
+                  : 'border-gray-300 bg-white hover:bg-gray-50'
+              }`}
+              onClick={() => setShowTeiSource(!showTeiSource)}
+            >
+              TEI source code
+            </button>
+            {allFeatureOptions.length > 0 && (
+              <>
+                <button
+                  type="button"
+                  className={`px-2.5 py-1.5 border rounded-lg font-semibold text-xs ${
+                    isFeatureSelectExpanded
+                      ? 'bg-black text-white border-black'
+                      : 'border-gray-300 bg-white hover:bg-gray-50'
+                  }`}
+                  onClick={() => setIsFeatureSelectExpanded((b) => !b)}
+                >
+                  Features select:{' '}
+                  {isFeatureSelectExpanded ? 'Shown' : 'Hidden'}
+                </button>
+                {isFeatureSelectExpanded && (
+                  <div className="flex items-center gap-1.5 min-w-65">
+                    <Select<FeatureOption, true>
+                      isMulti
+                      value={selectedFeatureOptions}
+                      onChange={(options) => {
+                        const values = (options || []).map(
+                          (option) => option.value,
+                        )
+                        setStoredVisibleFeatureIds(values)
+                      }}
+                      options={allFeatureOptions}
+                      closeMenuOnSelect={false}
+                      hideSelectedOptions={false}
+                      isLoading={featuresQuery.isLoading}
+                      placeholder="Select features"
+                      styles={featureSelectStyles}
+                      menuPortalTarget={document.body}
+                      menuPosition="fixed"
+                      formatOptionLabel={(option, { context }) =>
+                        formatFeatureOptionLabel(option, context)
+                      }
+                    />
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+
+          {isLoading && !teiContents && (
+            <p className="text-gray-500 text-sm py-2">Loading TEI…</p>
+          )}
+          {effectiveTeiSource === 'annotation' &&
+            !teiContents &&
+            !annotationTeiQuery.isFetching &&
+            !annotationTeiQuery.error &&
+            (!datasetId || !annotationId) && (
+              <p className="text-amber-700 text-sm py-2">
+                Select a dataset and an annotation to view annotation TEI.
+              </p>
+            )}
+          {error && !teiContents && (
+            <p className="text-red-600 text-sm py-2">
+              {effectiveTeiSource === 'edition' &&
+              (error as Error)?.message?.includes('404')
+                ? 'Edition TEI is not available for this page. Use annotation TEI or another source.'
+                : 'Failed to load TEI. Try switching source.'}
             </p>
           )}
-        {error && !teiContents && (
-          <p className="text-red-600 text-sm py-2">
-            {effectiveTeiSource === 'edition' &&
-            (error as Error)?.message?.includes('404')
-              ? 'Edition TEI is not available for this page. Use annotation TEI or another source.'
-              : 'Failed to load TEI. Try switching source.'}
-          </p>
-        )}
-        {teiContents && showTeiSource && (
-          <>
+          {!isAuthenticated && teiContents && (
+            <p className="text-gray-600 text-xs py-1">
+              Log in to add, edit, remove, and save highlights.
+            </p>
+          )}
+          {teiContents && showTeiSource && (
             <textarea
               className={`w-full mt-4 h-36 box-border resize-y border border-gray-300 rounded-lg p-2.5 outline-none font-mono text-xs leading-snug ${!showTeiSource ? 'hidden' : ''}`}
               spellCheck={false}
@@ -909,28 +1684,77 @@ export function TeiPane() {
               value={teiContents || ''}
               readOnly
             />
-          </>
-        )}
-        {teiContents && (
-          <div className="mt-4 flex-1 min-h-0 overflow-y-auto">
-            <div className="flex flex-wrap gap-3">
-              {orderedSelectedViewModes.map((viewMode) => (
-                <div key={viewMode} className="min-w-105 basis-105 flex-1">
-                  <Tei
-                    data={teiContents}
-                    minCert={minCert}
-                    viewMode={viewMode}
-                    viewLabel={getViewModeLabel(viewMode)}
-                    showViewLabel={availableViewModes.length > 1}
-                    alignLines={alignLines}
-                    highlightConfig={highlightConfig}
-                  />
-                </div>
-              ))}
+          )}
+          {teiContents && (
+            <div className="mt-4 flex-1 min-h-0 overflow-y-auto overscroll-none">
+              <div className="flex flex-wrap gap-3">
+                {orderedSelectedViewModes.map((viewMode) => (
+                  <div key={viewMode} className="min-w-105 basis-105 flex-1">
+                    <Tei
+                      data={teiContents}
+                      minCert={minCert}
+                      viewMode={viewMode}
+                      viewLabel={getViewModeLabel(viewMode)}
+                      showViewLabel={availableViewModes.length > 1}
+                      alignLines={alignLines}
+                      highlightConfig={highlightConfig}
+                      editable={isAuthenticated}
+                      onRequestAddHighlight={openModalForAdd}
+                      onRequestRemoveHighlight={removeHighlightFromTooltip}
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
+        </div>
+      </section>
+
+      {featureModalState &&
+        createPortal(
+          <div className="fixed inset-0 z-[12500] flex items-center justify-center bg-black/40 p-4">
+            <div className="w-full max-w-md rounded-xl bg-white border border-gray-200 p-4 shadow-xl">
+              <div className="text-sm font-semibold text-gray-900 mb-2">
+                Highlight a feature
+              </div>
+              <div className="text-xs text-gray-600 mb-2">
+                "{featureModalState.selection.surface}"
+              </div>
+              <Select<FeatureOption, false>
+                value={modalFeatureOption}
+                onChange={(option) => {
+                  setModalFeatureId(option?.value || '')
+                }}
+                options={allFeatureOptions}
+                isClearable={false}
+                styles={featureModalStyles}
+                menuPortalTarget={document.body}
+                menuPosition="fixed"
+                formatOptionLabel={(option, { context }) =>
+                  formatFeatureOptionLabel(option, context)
+                }
+              />
+              <div className="mt-4 flex items-center justify-end gap-2">
+                <button
+                  type="button"
+                  className="px-3 py-1.5 rounded border border-gray-300 text-gray-700 hover:bg-gray-50 text-sm"
+                  onClick={closeFeatureModal}
+                >
+                  Cancel
+                </button>
+                <button
+                  type="button"
+                  className="px-3 py-1.5 rounded border border-teal-300 text-teal-700 hover:bg-teal-50 text-sm"
+                  onClick={submitFeatureModal}
+                  disabled={!modalFeatureId}
+                >
+                  Apply
+                </button>
+              </div>
+            </div>
+          </div>,
+          document.body,
         )}
-      </div>
-    </section>
+    </>
   )
 }

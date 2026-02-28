@@ -126,7 +126,6 @@ export function useDatasetFeatures(datasetId: string) {
         feature: {
           name: form.name.trim(),
           description: form.description.trim() || undefined,
-          is_root: feature.is_root ?? false,
           is_default: feature.is_default ?? false,
         },
       })

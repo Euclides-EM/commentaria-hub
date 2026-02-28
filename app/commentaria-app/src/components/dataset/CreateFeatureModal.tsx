@@ -94,7 +94,6 @@ export function CreateFeatureModal({
         feature: {
           name: name.trim(),
           description: description.trim() || undefined,
-          is_root: false,
           is_default: false,
         },
       })

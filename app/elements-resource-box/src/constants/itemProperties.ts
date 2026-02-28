@@ -123,7 +123,7 @@ export const itemProperties: {
       return numA - numB;
     }) as (a: unknown, b: unknown) => number,
   },
-  hasTitle: {
+  titlePageStatus: {
     displayName: "Has Title Page",
     filterGroup: "Title Page",
   },
