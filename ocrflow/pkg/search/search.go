@@ -21,6 +21,8 @@ type Query struct {
 type Range struct {
 	Min *float64 `json:"min"`
 	Max *float64 `json:"max"`
+	// Strict mode means that if the field exists but isn't numeric, the element fails the filter. Otherwise, non-numeric fields are ignored.
+	Strict bool `json:"strict"`
 }
 
 type OrderByOption struct {
@@ -209,8 +211,9 @@ func (q Query) FilterFunc() func(e any) bool {
 
 			num, ok := valueToFloat64(v)
 			if !ok {
-				// If the field exists but isn't numeric, fail the element.
-				return false
+				// In strict mode, fail if field exists but isn't numeric.
+				// Otherwise, ignore non-numeric fields.
+				return !r.Strict
 			}
 
 			if r.Min != nil && num < *r.Min {
