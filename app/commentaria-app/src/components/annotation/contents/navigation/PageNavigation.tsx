@@ -32,6 +32,14 @@ const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
   return annotation.pages.split(',').flatMap((p) => expandRange(p))
 }
 
+const getDefaultPageOrKey = (availablePages: string[]): string => {
+  if (!availablePages.length) return ''
+  if (availablePages[0] !== '1') {
+    return availablePages[0]
+  }
+  return availablePages[Math.floor(availablePages.length / 2)]
+}
+
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
   const isKeyNavigation = !!annotation && !annotation.pages
@@ -122,7 +130,7 @@ export function PageNavigation() {
     }
 
     if (availablePages.length > 0 && !availablePages.includes(currentValue)) {
-      setState({ currentPageOrKey: availablePages[0] })
+      setState({ currentPageOrKey: getDefaultPageOrKey(availablePages) })
     }
   }, [availablePages, currentOption, currentValue, setState])
 
@@ -162,15 +170,16 @@ export function PageNavigation() {
     <div className="flex flex-col flex-1 min-h-0 mr-1">
       <div className="flex w-full px-2 py-4 gap-4 items-center justify-center">
         <div className="flex gap-2">
-          {!isFirstPage && (
-            <button
-              title="Previous page"
-              className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
-              onClick={onPrevPage}
-            >
-              ←
-            </button>
-          )}
+          <button
+            title="Previous page"
+            className={`px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white font-semibold text-xs ${isFirstPage ? 'invisible pointer-events-none' : 'hover:bg-gray-50'}`}
+            onClick={onPrevPage}
+            disabled={isFirstPage}
+            aria-hidden={isFirstPage}
+            tabIndex={isFirstPage ? -1 : 0}
+          >
+            ←
+          </button>
 
           <div className="flex items-center gap-2">
             <label htmlFor="pageNum" className="text-xs opacity-80">
@@ -186,7 +195,9 @@ export function PageNavigation() {
                   : null
               }
               onChange={(option: { value: string; label: string } | null) =>
-                onPageNumChange(option?.value ?? availablePages[0] ?? '1')
+                onPageNumChange(
+                  option?.value ?? getDefaultPageOrKey(availablePages) ?? '1',
+                )
               }
               options={availableOptions}
               placeholder={
@@ -199,15 +210,16 @@ export function PageNavigation() {
             />
           </div>
 
-          {!isLastPage && (
-            <button
-              title="Next page"
-              className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
-              onClick={onNextPage}
-            >
-              →
-            </button>
-          )}
+          <button
+            title="Next page"
+            className={`px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white font-semibold text-xs ${isLastPage ? 'invisible pointer-events-none' : 'hover:bg-gray-50'}`}
+            onClick={onNextPage}
+            disabled={isLastPage}
+            aria-hidden={isLastPage}
+            tabIndex={isLastPage ? -1 : 0}
+          >
+            →
+          </button>
         </div>
       </div>
       {annotation.ocred && (

@@ -212,8 +212,22 @@ export function TeiPane() {
   }, [availableViewModes, teiViewModes])
 
   const showPane = ocred || !!editionId
+  const annotationSourceFailed =
+    ocred && annotationTeiQuery.isError && !annotationTeiQuery.data
+  const editionSourceFailed =
+    !!editionId && editionTeiQuery.isError && !editionTeiQuery.data
+  const allCandidateSourcesFailed =
+    (ocred ? annotationSourceFailed : true) &&
+    (editionId ? editionSourceFailed : true)
+  const isFetchingCandidateSource =
+    (ocred && annotationTeiQuery.isFetching) ||
+    (!!editionId && editionTeiQuery.isFetching)
 
-  if (!showPane) {
+  if (!showPane || allCandidateSourcesFailed) {
+    return null
+  }
+
+  if (!teiContents && isFetchingCandidateSource) {
     return null
   }
 
