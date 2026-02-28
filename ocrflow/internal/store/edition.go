@@ -656,6 +656,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 	if diagramKeys != nil {
 		_, ed.DiagramCropsAvailable = diagramKeys[key]
 	}
+	ed.TitlePageStatus = s.calcTitlePageStatus(ed)
 
 	return ed, nil
 }
@@ -912,7 +913,32 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 	if p.diagramDirKeys != nil {
 		_, ed.DiagramCropsAvailable = p.diagramDirKeys[key]
 	}
+	ed.TitlePageStatus = s.calcTitlePageStatus(ed)
 	return ed
+}
+
+func (s *EditionCSV) calcTitlePageStatus(ed *model.Edition) model.EditionTitlePageStatus {
+	hasTitle := ed.Title != nil && *ed.Title != ""
+	hasTitleImage := false
+	for _, sh := range ed.Shelfmarks {
+		if sh.TitlePageImg != "" {
+			hasTitleImage = true
+			break
+		}
+	}
+	if hasTitleImage {
+		if hasTitle {
+			return model.EditionTitlePageStatusYesBasedOnDigitalFacsimile
+		}
+
+		return model.EditionTitlePageStatusNo
+	}
+
+	if hasTitle {
+		return model.EditionTitlePageStatusYesBasedOnCatalogLongTitle
+	}
+
+	return model.EditionTitlePageStatusUnknown
 }
 
 func splitNonEmpty(s string) []string {
