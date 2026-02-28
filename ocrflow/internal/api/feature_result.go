@@ -73,8 +73,10 @@ func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 	for _, res := range result {
 		res.DatasetID = datasetID
 		res.AnnotationID = annotationID
-		res.Source.Name = userLogin
-		res.Source.Resp = "human"
+		res.Source = feature.ResultSource{
+			Name: userLogin,
+			Resp: "human",
+		}
 	}
 
 	created, err := h.deps.FeatureResultSvc.CreateResult(result)
