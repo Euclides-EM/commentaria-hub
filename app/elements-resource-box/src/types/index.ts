@@ -15,8 +15,6 @@ export type Range = {
   end: number;
 };
 
-type YesNoBool = "Yes" | "No";
-
 export const MIN_YEAR = 1482;
 export const MAX_YEAR = 1883;
 
@@ -43,7 +41,7 @@ export type Item = {
   imprintEn: string | null;
   scanUrl: string[];
   type: string;
-  format: string | null;
+  format: number | null;
   elementsBooks: Range[];
   elementsBooksExpanded: number[];
   additionalContent: string[];
@@ -51,8 +49,8 @@ export type Item = {
   class: string | null;
   notes: string | null;
   study_corpora: string[];
-  diagramsExtracted: YesNoBool | null;
-  hasDiagrams: string;
+  diagramCropsAvailable: boolean | null;
+  hasDiagrams: boolean | undefined;
   visualElementsTypes: string[];
 };
 

@@ -82,6 +82,10 @@ function buildSearchQuery(
     };
   }
 
+  if (filterState.includeUndated) {
+    // TODO!
+  }
+
   if (filterState.textSearch) {
     query.text_search = filterState.textSearch;
     if (

@@ -1,30 +1,10 @@
-import { FLOATING_CITY_ENTRY, Item } from "../types";
-import { isNil, startCase, uniq } from "lodash";
+import { Item } from "../types";
+import { startCase, uniq } from "lodash";
 import { ItemTypes } from "../constants";
 import type { model_Edition } from "@hub-api";
 import { toItemImageUrl } from "./util.ts";
 
-const ifEmpty = <T>(arr: T[], defaultValue: T[]): T[] =>
-  arr.length === 0 ? defaultValue : arr;
-
 const firstOrNull = <T>(arr: T[]): T | null => (arr.length > 0 ? arr[0] : null);
-
-function mapStudyCorpus(s: string): string {
-  switch (s) {
-    case "dh":
-      return "DH core texts";
-    case "dotted_lines":
-      return "Dotted Lines";
-  }
-  return startCase(s.toLowerCase());
-}
-
-const toFormat = (value: number | undefined): string | null => {
-  if (value === undefined || value === null) {
-    return null;
-  }
-  return `${value}º`;
-};
 
 const toBookRanges = (books: number[]) => {
   return Array.from(new Set(books))
@@ -44,34 +24,14 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
   return editions
     .filter((edition) => edition.key)
     .map((edition) => {
-      const cities = ifEmpty(
-        (edition.cities || []).map((c) => c.trim()).filter(Boolean),
-        [FLOATING_CITY_ENTRY.name],
-      );
       const shelfmarks = edition.shelfmarks || [];
       const books = (edition.books || []).filter((value): value is number =>
         Number.isFinite(value),
       );
-      const hasTitle = Boolean(edition.title);
-      const hasTitleImage = shelfmarks.some((s) => Boolean(s.title_page_img));
-      const studyCorpora = (edition.corpus || [])
-        .map((corpus) => mapStudyCorpus(corpus))
-        .filter(Boolean);
-
-      if (
-        (!Number(edition.year) || Number(edition.year) <= 1700) &&
-        studyCorpora.includes("Origin Eip Csv") &&
-        !edition.languages?.includes("CHINESE") &&
-        edition.title &&
-        edition.title !== "?"
-      ) {
-        studyCorpora.push("Title pages");
-      }
-
       return {
         key: edition.key!,
         year: edition.year || null,
-        cities,
+        cities: edition.cities || [],
         languages: (edition.languages || [])
           .map((lang) => startCase(lang.trim().toLowerCase()))
           .filter(Boolean),
@@ -99,25 +59,17 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
           .map((s) => s.scan?.trim())
           .filter(Boolean) as string[],
         type: edition.isElements ? ItemTypes.elements : ItemTypes.secondary,
-        format: toFormat(edition.format),
+        format: edition.format || -1,
         elementsBooks: toBookRanges(books),
         elementsBooksExpanded: books,
         additionalContent: edition.additionalContent || [],
         volumesCount: edition.volumes ?? null,
         class: edition.manuscriptClass || null,
-        hasTitle: hasTitleImage
-          ? "Yes, based on digital facsimile"
-          : hasTitle
-            ? "Yes, based on catalog long title"
-            : "Unknown",
-        study_corpora: uniq(studyCorpora),
+        hasTitle: "TODO",
+        study_corpora: edition.corpus || [],
         notes: edition.notes || null,
-        diagramsExtracted: edition.diagramCropsAvailable ? "Yes" : "No",
-        hasDiagrams: isNil(edition.hasDiagrams)
-          ? "Uncatalogued"
-          : edition.hasDiagrams
-            ? "Yes"
-            : "No",
+        diagramCropsAvailable: edition.diagramCropsAvailable || null,
+        hasDiagrams: edition.hasDiagrams,
         visualElementsTypes: uniq(
           (edition.visualElements || [])
             .map((v) => v.visual_element_type)

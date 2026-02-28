@@ -97,7 +97,7 @@ export const itemProperties: {
     filterGroup: "Elements",
     isArray: true,
   },
-  diagramsExtracted: {
+  diagramCropsAvailable: {
     displayName: "Diagrams Extracted",
     filterGroup: "Diagrams",
   },
@@ -105,14 +105,23 @@ export const itemProperties: {
     displayName: "Has Diagrams",
     filterGroup: "Diagrams",
   },
-  visualElementsTypes: {
-    displayName: "Visual Elements Types",
-    isArray: true,
-    filterGroup: "Diagrams",
-  },
+  //visualElementsTypes: {
+  //  displayName: "Visual Elements Types",
+  //  isArray: true,
+  //  filterGroup: "Diagrams",
+  //},
   volumesCount: {
     displayName: "Number of Volumes",
     filterGroup: "Material",
+  },
+  format: {
+    displayName: "Format",
+    filterGroup: "Material",
+    customCompareFn: ((a: string, b: string): number => {
+      const numA = parseInt(a);
+      const numB = parseInt(b);
+      return numA - numB;
+    }) as (a: unknown, b: unknown) => number,
   },
   hasTitle: {
     displayName: "Has Title Page",

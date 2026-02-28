@@ -1,11 +1,10 @@
-import React, { useMemo, useState, useEffect } from "react";
-import { isNil, startCase, uniq, groupBy } from "lodash";
+import React, { useEffect, useMemo, useState } from "react";
+import { groupBy, isNil, startCase, uniq } from "lodash";
 import { Filter, FilterValue } from "./Filter";
 import { Item } from "../../types";
 import { authorDisplayName } from "../../utils/dataUtils.ts";
 import { ItemProperty } from "../../constants/itemProperties.ts";
 import styled from "@emotion/styled";
-import { NO_CITY } from "../../constants";
 
 const GroupSeparator = styled.div`
   border-top: 1px solid #e0e0e0;
@@ -50,7 +49,52 @@ type FiltersGroupProps = {
   >;
 };
 
-const toOption = (v: string) => ({ label: v, value: v });
+const mapStudyCorpus = (s: string): string => {
+  switch (s) {
+    case "dh":
+      return "DH core texts";
+    case "dotted_lines":
+      return "Dotted Lines";
+    case "tps":
+      return "Title Page Study";
+  }
+  return startCase(s.toLowerCase());
+};
+
+const toFormat = (value: string | undefined) => {
+  if (isNil(value)) {
+    return "";
+  }
+  return `${value}º`;
+};
+
+const optionDisplayName = (
+  field: keyof Item,
+  value: string | undefined | null,
+): string => {
+  if (field === "authors") {
+    return authorDisplayName(value || "");
+  }
+  if (field === "study_corpora") {
+    return mapStudyCorpus(value || "");
+  }
+  if (field === "diagramCropsAvailable") {
+    return value === "true" ? "Yes" : "No";
+  }
+  if (field === "hasDiagrams") {
+    return isNil(value) ? "Uncatalogued" : value === "true" ? "Yes" : "No";
+  }
+  if (field === "format") {
+    return toFormat(value || "");
+  }
+
+  return value?.toString().replace("(?)", "").replace("?", "").trim() || "";
+};
+
+const toOption = (field: keyof Item, v: string | undefined | null) => ({
+  label: optionDisplayName(field, v),
+  value: v || "false",
+});
 
 export const FiltersGroup = ({
   data,
@@ -111,7 +155,7 @@ export const FiltersGroup = ({
         byFilter[field] = uniq(
           data
             .flatMap((t) => t[field] as (string | number)[])
-            .filter(Boolean)
+            .filter((v) => v !== "" && v !== -1)
             .sort(
               config.customCompareFn ||
                 ((a, b) => {
@@ -128,25 +172,15 @@ export const FiltersGroup = ({
                   }
                   return 0;
                 }),
-            )
-            .map((n) =>
-              n.toString().replace("(?)", "").replace("?", "").trim(),
             ),
-        ).map(
-          field === "authors"
-            ? (n) => ({
-                label: authorDisplayName(n),
-                value: n,
-              })
-            : toOption,
-        );
+        ).map((v) => toOption(field, v as string));
       } else {
         byFilter[field] = uniq(
           data
-            .map((t) => t[field]?.toString() || "")
-            .filter((v) => v && v !== NO_CITY)
+            .map((t) => t[field]?.toString())
+            .filter((v) => v !== "" && v !== "-1")
             .sort(config.customCompareFn),
-        ).map(toOption);
+        ).map((v) => toOption(field, v));
       }
     });
     return byFilter;
