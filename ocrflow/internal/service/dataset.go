@@ -271,10 +271,12 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	return [][]annotationrule.AnnotationRule{
 		{
 			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
-			annotationrule.NewSegment(suggestedSegModel.ID),
+			annotationrule.NewSegment(lo.TernaryF(suggestedSegModel == nil, func() string { return "" }, func() string { return suggestedSegModel.ID })),
 			//annotationrule.NewRemoveCategories(categoriesToRemove),
 			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
 			annotationrule.NewResolveOverlapWithPriority("RunningTitleZone", "MainZone-Head--Section", 0.8),
+			annotationrule.NewRecategorizeByAlignment("MainZone-Head--Section", "RunningTitleZone", "NumberingZone", "horizontal", 2),
+			annotationrule.NewLimitCategoryZones("RunningTitleZone", 1, annotationrule.KeepPositionTop),
 			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone"}, categoriesToExcludeFromLineDetection),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),

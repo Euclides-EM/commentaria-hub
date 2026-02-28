@@ -25,7 +25,8 @@ func (fp *FeatureProperty) CalcValByPropertyKey(s, propKey string) (string, erro
 		return "", err
 	}
 	if len(vals) == 0 {
-		return "", fmt.Errorf("no values calculated for property key: %s", propKey)
+		return "", nil
+		//return "", fmt.Errorf("no values calculated for property key: %s", propKey)
 	}
 	strVals := lo.Map(vals, func(v normalize.MappedOriginal, _ int) string {
 		return v.Mapped
