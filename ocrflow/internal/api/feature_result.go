@@ -40,29 +40,35 @@ func (h *Handlers) ListResults(r *http.Request) (any, error) {
 }
 
 // CreateResult godoc
-// @Summary Create a feature result
-// @Description Create a new feature result
+// @Summary Create feature results
+// @Description Create new feature results (batch)
 // @Tags Feature Results
 // @Accept json
 // @Produce json
 // @Param dataSetId path string true "Dataset ID"
 // @Param id path string true "Annotation ID"
-// @Param result body feature.Result true "Feature result data"
-// @Success 200 {object} feature.Result
-// @Security 	 BearerAuth
-// @Router  /datasets/{dataSetId}/annotations/{id}/results [post]
+// @Param result body []feature.Result true "Feature results data"
+// @Success 200 {array} feature.Result
+// @Security BearerAuth
+// @Router /datasets/{dataSetId}/annotations/{id}/results [post]
 func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
 	if err != nil {
 		return nil, err
 	}
-	var result feature.Result
+
+	var result []*feature.Result
+	// Pass the pointer to the slice (&result)
 	if err := DecodeBody(r, &result); err != nil {
 		return nil, err
 	}
-	result.DatasetID = datasetID
-	result.AnnotationID = annotationID
-	created, err := h.deps.FeatureResultSvc.CreateResult(&result)
+
+	for _, res := range result {
+		res.DatasetID = datasetID
+		res.AnnotationID = annotationID
+	}
+
+	created, err := h.deps.FeatureResultSvc.CreateResult(result)
 	if err != nil {
 		return nil, err
 	}
