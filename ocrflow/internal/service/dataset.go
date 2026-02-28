@@ -277,6 +277,8 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 			annotationrule.NewResolveOverlapWithPriority("RunningTitleZone", "MainZone-Head--Section", 0.8),
 			annotationrule.NewRecategorizeByAlignment("MainZone-Head--Section", "RunningTitleZone", "NumberingZone", "horizontal", 2),
 			annotationrule.NewLimitCategoryZones("RunningTitleZone", 1, annotationrule.KeepPositionTop),
+			annotationrule.NewResolveOverlapWithPriority("DropCapitalZone", "GraphicZone-Diagram", 0.8),
+			annotationrule.NewResolveOverlapWithPriority("DropCapitalZone", "GraphicZone-Decoration", 0.8),
 			annotationrule.NewLinesDetect([]string{"MainZone", "MarginTextZone"}, categoriesToExcludeFromLineDetection),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Book", 5, 0.6),
 			annotationrule.NewReassignTextLinesByTolerance("MainZone", "MainZone-Head--Section", 5, 0.85),
