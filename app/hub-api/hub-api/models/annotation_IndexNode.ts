@@ -2,11 +2,11 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { annotation_Location } from './annotation_Location';
+import type { common_ALTOLocation } from './common_ALTOLocation';
 export type annotation_IndexNode = {
     category?: string;
     children?: Array<annotation_IndexNode>;
     content?: string;
-    location?: annotation_Location;
+    location?: common_ALTOLocation;
 };
 

@@ -46,6 +46,7 @@ export class DatasetsService {
         dataset,
         enforceSingleDataset,
         async,
+        createDefaultAnnotation,
     }: {
         /**
          * Dataset to create
@@ -59,6 +60,10 @@ export class DatasetsService {
          * If true, return immediately and create in background (status creating → ready or failed)
          */
         async?: boolean,
+        /**
+         * If true, create a default annotation named 'Base' for the dataset
+         */
+        createDefaultAnnotation?: boolean,
     }): CancelablePromise<model_Dataset> {
         return __request(OpenAPI, {
             method: 'POST',
@@ -66,6 +71,7 @@ export class DatasetsService {
             query: {
                 'enforce_single_dataset': enforceSingleDataset,
                 'async': async,
+                'create_default_annotation': createDefaultAnnotation,
             },
             body: dataset,
         });

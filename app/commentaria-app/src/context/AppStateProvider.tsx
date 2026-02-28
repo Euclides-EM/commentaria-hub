@@ -25,7 +25,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     viewMode: parseAsString.withDefault(''),
     datasetId: parseAsString.withDefault(''),
     annotationId: parseAsString.withDefault(''),
-    currentPage: parseAsString.withDefault('89'),
+    currentPageOrKey: parseAsString.withDefault(''),
   })
   const [searchResultHighlight, setSearchResultHighlight] = useState<
     string | null
@@ -44,12 +44,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       viewMode: parsedViewMode,
       datasetId: queryState.datasetId,
       annotationId: queryState.annotationId,
-      currentPageOrKey: queryState.currentPage,
+      currentPageOrKey: queryState.currentPageOrKey,
     }),
     [
       parsedViewMode,
       queryState.annotationId,
-      queryState.currentPage,
+      queryState.currentPageOrKey,
       queryState.datasetId,
     ],
   )
@@ -63,7 +63,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
         viewMode?: string
         datasetId?: string
         annotationId?: string
-        currentPage?: string
+        currentPageOrKey?: string
       } = {}
 
       if (updates.viewMode !== undefined) {
@@ -74,9 +74,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       }
       if (updates.annotationId !== undefined) {
         nextUpdates.annotationId = updates.annotationId
+        if (!updates.annotationId) {
+          nextUpdates.currentPageOrKey = ''
+        }
       }
       if (updates.currentPageOrKey !== undefined) {
-        nextUpdates.currentPage = String(updates.currentPageOrKey)
+        nextUpdates.currentPageOrKey = String(updates.currentPageOrKey)
       }
 
       if (
@@ -93,9 +96,9 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   )
 
   const jumpToPage = useCallback(
-    (newPage: PageOrKey) => {
+    (nextPageOrKey: PageOrKey) => {
       setSearchResultHighlight(null)
-      setQueryState({ currentPage: String(newPage) })
+      setQueryState({ currentPageOrKey: String(nextPageOrKey) })
     },
     [setQueryState],
   )
