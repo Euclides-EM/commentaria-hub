@@ -43,6 +43,7 @@ const getDefaultPageOrKey = (availablePages: string[]): string => {
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
   const isKeyNavigation = !!annotation && !annotation.pages
+  const showIndexPane = !!annotation?.segmented
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     isKeyNavigation,
@@ -85,8 +86,8 @@ export function PageNavigation() {
         }))
     }
     return imageKeys.map((image) => ({
-      value: image.filename,
-      label: image.name,
+      value: image.key,
+      label: image.key,
     }))
   }, [annotation, imageKeys])
 
@@ -133,6 +134,17 @@ export function PageNavigation() {
       setState({ currentPageOrKey: getDefaultPageOrKey(availablePages) })
     }
   }, [availablePages, currentOption, currentValue, setState])
+
+  useEffect(() => {
+    if (annotation?.ocred && !showIndexPane && isSearchCollapsed) {
+      setIsSearchCollapsed(false)
+    }
+  }, [
+    annotation?.ocred,
+    isSearchCollapsed,
+    setIsSearchCollapsed,
+    showIndexPane,
+  ])
 
   useEffect(() => {
     if (!isResizing) {
@@ -222,7 +234,7 @@ export function PageNavigation() {
           </button>
         </div>
       </div>
-      {annotation.ocred && (
+      {annotation.ocred && showIndexPane && (
         <div className="flex flex-col flex-1 min-h-0" ref={splitRef}>
           <div
             className="flex flex-col min-h-0 border-t border-gray-300 overflow-hidden flex-none"
@@ -270,6 +282,22 @@ export function PageNavigation() {
             <div className="flex-1 min-h-0 overflow-hidden">
               {!isSearchCollapsed && <AnnotationSearchMenu />}
             </div>
+          </div>
+        </div>
+      )}
+      {annotation.ocred && !showIndexPane && (
+        <div className="flex flex-col flex-1 min-h-0 border-t border-gray-300">
+          <button
+            title={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
+            aria-label={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
+            className="w-full flex items-center gap-2 px-3 py-4 text-left text-gray-500 hover:text-gray-700 transition-colors"
+            onClick={() => setIsSearchCollapsed((prev) => !prev)}
+          >
+            <span className="text-sm">{isSearchCollapsed ? '▶' : '▼'}</span>
+            <span className="font-semibold text-sm">Search</span>
+          </button>
+          <div className="flex-1 min-h-0 overflow-hidden">
+            {!isSearchCollapsed && <AnnotationSearchMenu />}
           </div>
         </div>
       )}

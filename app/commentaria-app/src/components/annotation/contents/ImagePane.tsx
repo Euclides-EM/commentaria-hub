@@ -24,8 +24,8 @@ export function ImagePane({
     isKeyNavigation,
   )
   const currentImageName =
-    imageKeys.find((image) => image.filename === String(currentPageOrKey))
-      ?.name || String(currentPageOrKey)
+    imageKeys.find((image) => image.key === String(currentPageOrKey))?.key ||
+    String(currentPageOrKey)
   const normalizedKey = (() => {
     const num = Number(currentPageOrKey)
 
@@ -34,8 +34,11 @@ export function ImagePane({
     }
 
     const key = String(currentPageOrKey)
+    const matchedImage = imageKeys.find((image) => image.key === key)
+    if (matchedImage?.filename) {
+      return matchedImage.filename
+    }
 
-    // already has an image extension → keep as is
     if (/\.(png|jpe?g|webp|gif|bmp|tiff?)$/i.test(key)) {
       return key
     }
@@ -44,6 +47,7 @@ export function ImagePane({
   })()
 
   const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
+
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white relative">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
@@ -80,7 +84,7 @@ export function ImagePane({
             zoom={String(zoom)}
             width="100%"
             height="100%"
-            className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:max-h-full [&_img]:max-w-full [&_img]:h-auto [&_img]:w-auto [&_img]:object-contain"
+            className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-cover"
           />
         </div>
       </div>

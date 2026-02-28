@@ -15,6 +15,7 @@ import { NavItems } from "./NavItem";
 import { useIsMobile } from "./isMobile.ts";
 import { inEuclidesMode } from "../../utils/mode.ts";
 import { useNavigateWithQuery } from "../../utils/navigationUtils";
+import { useEditFilter } from "../../contexts/FilterEditContext.tsx";
 
 const Placeholder = styled.div`
   height: ${NAVBAR_HEIGHT}px;
@@ -67,6 +68,7 @@ export function Navigation() {
   const location = useLocation();
   const navigateWithQuery = useNavigateWithQuery();
   const isMobile = useIsMobile();
+  const { filterOpen } = useEditFilter();
 
   useLayoutEffect(() => {
     document.getElementById(MAIN_CONTENT_ID)?.scrollTo(0, 0);
@@ -77,7 +79,7 @@ export function Navigation() {
       <>
         <MobileNavigation />
         <Placeholder />
-        {!NO_FILTER_ROUTES.includes(location.pathname) && (
+        {!NO_FILTER_ROUTES.includes(location.pathname) && !filterOpen && (
           <FixedFilterButtonContainer>
             <FilterButton />
           </FixedFilterButtonContainer>
@@ -101,7 +103,7 @@ export function Navigation() {
         </NavContent>
       </NavContainer>
       <Placeholder />
-      {!NO_FILTER_ROUTES.includes(location.pathname) && (
+      {!NO_FILTER_ROUTES.includes(location.pathname) && !filterOpen && (
         <FixedFilterButtonContainer>
           <FilterButton />
         </FixedFilterButtonContainer>
