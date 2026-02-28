@@ -22,22 +22,23 @@ type Edition struct {
 	ManuscriptSubclass *string `json:"manuscriptSubclass"`
 
 	// Print-only
-	Cities         []string `json:"cities"`
-	Year           *string  `json:"year"`
-	Languages      []string `json:"languages"`
-	Editor         []string `json:"editor"`
-	Publisher      []string `json:"publisher"`
-	Format         *int     `json:"format"`
-	Volumes        *int     `json:"volumes"`
-	USTCId         *string  `json:"ustcId"`
-	Title          *string  `json:"title"`
-	TitleEN        *string  `json:"title_EN"`
-	Imprint        *string  `json:"imprint"`
-	ImprintEN      *string  `json:"imprint_EN"`
-	Colophon       *string  `json:"colophon"`
-	ColophonEN     *string  `json:"colophon_EN"`
-	Frontispiece   *string  `json:"frontispiece"`
-	FrontispieceEN *string  `json:"frontispiece_EN"`
+	Cities          []string               `json:"cities"`
+	Year            *string                `json:"year"`
+	Languages       []string               `json:"languages"`
+	Editor          []string               `json:"editor"`
+	Publisher       []string               `json:"publisher"`
+	Format          *int                   `json:"format"`
+	Volumes         *int                   `json:"volumes"`
+	USTCId          *string                `json:"ustcId"`
+	Title           *string                `json:"title"`
+	TitleEN         *string                `json:"title_EN"`
+	Imprint         *string                `json:"imprint"`
+	ImprintEN       *string                `json:"imprint_EN"`
+	Colophon        *string                `json:"colophon"`
+	ColophonEN      *string                `json:"colophon_EN"`
+	Frontispiece    *string                `json:"frontispiece"`
+	FrontispieceEN  *string                `json:"frontispiece_EN"`
+	TitlePageStatus EditionTitlePageStatus `json:"titlePageStatus"`
 
 	// Elements (both)
 	IsElements        bool     `json:"isElements"`
@@ -86,3 +87,13 @@ type EditionListResult struct {
 	Offset int        `json:"offset"`
 	Limit  int        `json:"limit"`
 }
+
+type EditionTitlePageStatus string
+
+const (
+	EditionTitlePageStatusYesBasedOnDigitalFacsimile EditionTitlePageStatus = "Yes, based on digital facsimile"
+	EditionTitlePageStatusYesBasedOnCatalogLongTitle EditionTitlePageStatus = "Yes, based on catalog long title"
+
+	EditionTitlePageStatusNo      EditionTitlePageStatus = "No"
+	EditionTitlePageStatusUnknown EditionTitlePageStatus = "Unknown"
+)
