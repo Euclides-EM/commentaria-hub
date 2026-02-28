@@ -5,6 +5,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
 	"github.com/samber/lo"
 )
 
@@ -57,6 +58,12 @@ func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 		return nil, err
 	}
 
+	user := r.Context().Value(httpwrapper.GitHubUserKey)
+	userLogin := ""
+	if u, ok := user.(*httpwrapper.GitHubUser); ok && u != nil {
+		userLogin = u.Login
+	}
+
 	var result []*feature.Result
 	// Pass the pointer to the slice (&result)
 	if err := DecodeBody(r, &result); err != nil {
@@ -66,6 +73,8 @@ func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 	for _, res := range result {
 		res.DatasetID = datasetID
 		res.AnnotationID = annotationID
+		res.Source.Name = userLogin
+		res.Source.Resp = "human"
 	}
 
 	created, err := h.deps.FeatureResultSvc.CreateResult(result)
