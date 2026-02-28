@@ -65,7 +65,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         additionalContent: edition.additionalContent || [],
         volumesCount: edition.volumes ?? null,
         class: edition.manuscriptClass || null,
-        hasTitle: "TODO",
+        titlePageStatus: edition.titlePageStatus || "Unknown",
         study_corpora: edition.corpus || [],
         notes: edition.notes || null,
         diagramCropsAvailable: edition.diagramCropsAvailable || null,

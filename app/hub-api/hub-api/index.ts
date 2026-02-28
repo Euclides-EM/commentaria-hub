@@ -68,6 +68,7 @@ export type { model_Edition } from './models/model_Edition';
 export type { model_EditionListResult } from './models/model_EditionListResult';
 export type { model_EditionLocator } from './models/model_EditionLocator';
 export type { model_EditionShelfmark } from './models/model_EditionShelfmark';
+export type { model_EditionTitlePageStatus } from './models/model_EditionTitlePageStatus';
 export type { model_EditionVisualElement } from './models/model_EditionVisualElement';
 export type { model_EditionVisualExample } from './models/model_EditionVisualExample';
 export type { model_Facsimile } from './models/model_Facsimile';

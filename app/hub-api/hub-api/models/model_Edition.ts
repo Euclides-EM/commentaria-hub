@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { model_EditionShelfmark } from './model_EditionShelfmark';
+import type { model_EditionTitlePageStatus } from './model_EditionTitlePageStatus';
 import type { model_EditionVisualElement } from './model_EditionVisualElement';
 export type model_Edition = {
     additionalContent?: Array<string>;
@@ -44,6 +45,7 @@ export type model_Edition = {
     shortTitle?: string;
     shortTitleSource?: string;
     title?: string;
+    titlePageStatus?: model_EditionTitlePageStatus;
     title_EN?: string;
     ustcId?: string;
     verified?: boolean;

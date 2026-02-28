@@ -1,5 +1,9 @@
 import { NO_CITY } from "../constants";
-import { feature_Feature, model_City } from "@hub-api";
+import {
+  feature_Feature,
+  model_City,
+  type model_EditionTitlePageStatus,
+} from "@hub-api";
 
 export type Mode = "texts" | "images";
 
@@ -33,7 +37,7 @@ export type Item = {
   authors: string[];
   publishers: string[];
   tpImageName: string | null;
-  hasTitle: string;
+  titlePageStatus: model_EditionTitlePageStatus;
   shortTitle: string | null;
   title: string | null;
   titleEn: string | null;
