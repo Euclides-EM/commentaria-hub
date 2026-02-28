@@ -50,8 +50,8 @@ export class FeatureResultsService {
         });
     }
     /**
-     * Create a feature result
-     * Create a new feature result
+     * Create feature results
+     * Create new feature results (batch)
      * @returns feature_Result OK
      * @throws ApiError
      */
@@ -69,10 +69,10 @@ export class FeatureResultsService {
          */
         id: string,
         /**
-         * Feature result data
+         * Feature results data
          */
-        result: feature_Result,
-    }): CancelablePromise<feature_Result> {
+        result: Array<feature_Result>,
+    }): CancelablePromise<Array<feature_Result>> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets/{dataSetId}/annotations/{id}/results',

@@ -826,6 +826,10 @@ export function TeiPane() {
   const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
     defaultValue: false,
   })
+  const [isFeatureSelectExpanded, setIsFeatureSelectExpanded] =
+    useLocalStorageState('teiFeatureSelectExpanded', {
+      defaultValue: false,
+    })
   const [featureModalState, setFeatureModalState] =
     useState<FeatureModalState | null>(null)
   const [modalFeatureId, setModalFeatureId] = useState<string>('')
@@ -1020,65 +1024,6 @@ export function TeiPane() {
     )
   }, [categoryToFeatureId, datasetFeatures, teiCategories])
 
-  const highlightStorageKey = datasetId
-    ? `teiVisibleHighlightFeatures:${datasetId}`
-    : 'teiVisibleHighlightFeatures'
-  const [storedVisibleFeatureIds, setStoredVisibleFeatureIds] =
-    useLocalStorageState<string[] | null>(highlightStorageKey, {
-      defaultValue: null,
-    })
-
-  const visibleFeatureIds = useMemo(() => {
-    const availableIds = resolvedTeiFeatures.map((feature) => feature.id)
-    if (!availableIds.length) {
-      return []
-    }
-
-    const availableSet = new Set(availableIds)
-    const defaultIds = resolvedTeiFeatures
-      .filter((feature) => feature.isDefault)
-      .map((feature) => feature.id)
-
-    const order = (ids: string[]) =>
-      availableIds.filter((id) => ids.includes(id))
-
-    if (storedVisibleFeatureIds === null) {
-      return order(defaultIds.length > 0 ? defaultIds : availableIds)
-    }
-
-    const filtered = order(
-      storedVisibleFeatureIds.filter((id) => availableSet.has(id)),
-    )
-
-    if (storedVisibleFeatureIds.length === 0) {
-      return []
-    }
-
-    if (filtered.length > 0) {
-      return filtered
-    }
-
-    return order(defaultIds.length > 0 ? defaultIds : availableIds)
-  }, [resolvedTeiFeatures, storedVisibleFeatureIds])
-
-  useEffect(() => {
-    if (!resolvedTeiFeatures.length) {
-      if (storedVisibleFeatureIds !== null) {
-        setStoredVisibleFeatureIds(null)
-      }
-      return
-    }
-
-    if (!sameStringArray(storedVisibleFeatureIds, visibleFeatureIds)) {
-      setStoredVisibleFeatureIds(visibleFeatureIds)
-    }
-  }, [
-    resolvedTeiFeatures,
-    setStoredVisibleFeatureIds,
-    storedVisibleFeatureIds,
-    visibleFeatureIds,
-  ])
-
   const currentFeatureResults = featureResultsQuery.data || []
   const baselineResultsByFeature = useMemo(() => {
     const map: Record<string, feature_Result> = {}
@@ -1131,6 +1076,61 @@ export function TeiPane() {
       left.label.localeCompare(right.label, undefined, { sensitivity: 'base' }),
     )
   }, [datasetFeatures, resolvedTeiFeatures])
+
+  const highlightStorageKey = datasetId
+    ? `teiVisibleHighlightFeatures:${datasetId}`
+    : 'teiVisibleHighlightFeatures'
+  const [storedVisibleFeatureIds, setStoredVisibleFeatureIds] =
+    useLocalStorageState<string[] | null>(highlightStorageKey, {
+      defaultValue: null,
+    })
+
+  const visibleFeatureIds = useMemo(() => {
+    const availableIds = allResolvedFeatures.map((feature) => feature.id)
+    if (!availableIds.length) {
+      return []
+    }
+
+    const availableSet = new Set(availableIds)
+    const defaultIds = allResolvedFeatures
+      .filter((feature) => feature.isDefault)
+      .map((feature) => feature.id)
+
+    const order = (ids: string[]) =>
+      availableIds.filter((id) => ids.includes(id))
+
+    if (storedVisibleFeatureIds === null) {
+      return order(defaultIds)
+    }
+
+    const filtered = order(
+      storedVisibleFeatureIds.filter((id) => availableSet.has(id)),
+    )
+
+    if (storedVisibleFeatureIds.length === 0) {
+      return []
+    }
+
+    return filtered
+  }, [allResolvedFeatures, storedVisibleFeatureIds])
+
+  useEffect(() => {
+    if (!allResolvedFeatures.length) {
+      if (storedVisibleFeatureIds !== null) {
+        setStoredVisibleFeatureIds(null)
+      }
+      return
+    }
+
+    if (!sameStringArray(storedVisibleFeatureIds, visibleFeatureIds)) {
+      setStoredVisibleFeatureIds(visibleFeatureIds)
+    }
+  }, [
+    allResolvedFeatures,
+    setStoredVisibleFeatureIds,
+    storedVisibleFeatureIds,
+    visibleFeatureIds,
+  ])
 
   const highlightConfig = useMemo<TeiHighlightConfig | undefined>(() => {
     if (!allResolvedFeatures.length) {
@@ -1223,17 +1223,6 @@ export function TeiPane() {
     setModalAncientPersona(current?.ancientPersona || item.ancientPersona || '')
   }
 
-  const applicableFeatureOptions = useMemo<FeatureOption[]>(
-    () =>
-      resolvedTeiFeatures.map((feature) => ({
-        value: feature.id,
-        label: feature.label,
-        color: feature.color,
-        description: feature.description,
-      })),
-    [resolvedTeiFeatures],
-  )
-
   const allFeatureOptions = useMemo<FeatureOption[]>(
     () =>
       allResolvedFeatures.map((feature) => ({
@@ -1247,10 +1236,10 @@ export function TeiPane() {
 
   const selectedFeatureOptions = useMemo(
     () =>
-      applicableFeatureOptions.filter((option) =>
+      allFeatureOptions.filter((option) =>
         visibleFeatureIds.includes(option.value),
       ),
-    [applicableFeatureOptions, visibleFeatureIds],
+    [allFeatureOptions, visibleFeatureIds],
   )
 
   const changedFeatureIds = useMemo(() => {
@@ -1288,19 +1277,12 @@ export function TeiPane() {
     (!!editionId && editionTeiQuery.isFetching)
 
   const saveMutation = useMutation({
-    mutationFn: async (results: feature_Result[]) => {
-      const posted: feature_Result[] = []
-      for (const result of results) {
-        const saved =
-          await FeatureResultsService.postDatasetsAnnotationsResults({
-            dataSetId: datasetId,
-            id: annotationId,
-            result,
-          })
-        posted.push(saved)
-      }
-      return posted
-    },
+    mutationFn: (results: feature_Result[]) =>
+      FeatureResultsService.postDatasetsAnnotationsResults({
+        dataSetId: datasetId,
+        id: annotationId,
+        result: results,
+      }),
   })
 
   const handleSave = async () => {
@@ -1317,6 +1299,9 @@ export function TeiPane() {
         annotation_id: annotationId,
         feature_id: featureId,
         page_key: existing?.page_key || String(currentPageOrKey),
+        source: {
+          resp: 'user',
+        },
         values: toResultValues(draftByFeature[featureId] || []),
       }
     })
@@ -1600,28 +1585,46 @@ export function TeiPane() {
             >
               TEI source code
             </button>
-            {applicableFeatureOptions.length > 0 && (
-              <div className="flex items-center gap-1.5 min-w-65">
-                <Select<FeatureOption, true>
-                  isMulti
-                  value={selectedFeatureOptions}
-                  onChange={(options) => {
-                    const values = (options || []).map((option) => option.value)
-                    setStoredVisibleFeatureIds(values)
-                  }}
-                  options={applicableFeatureOptions}
-                  closeMenuOnSelect={false}
-                  hideSelectedOptions={false}
-                  isLoading={featuresQuery.isLoading}
-                  placeholder="Select features"
-                  styles={featureSelectStyles}
-                  menuPortalTarget={document.body}
-                  menuPosition="fixed"
-                  formatOptionLabel={(option, { context }) =>
-                    formatFeatureOptionLabel(option, context)
-                  }
-                />
-              </div>
+            {allFeatureOptions.length > 0 && (
+              <>
+                <button
+                  type="button"
+                  className={`px-2.5 py-1.5 border rounded-lg font-semibold text-xs ${
+                    isFeatureSelectExpanded
+                      ? 'bg-black text-white border-black'
+                      : 'border-gray-300 bg-white hover:bg-gray-50'
+                  }`}
+                  onClick={() => setIsFeatureSelectExpanded((b) => !b)}
+                >
+                  Features select:{' '}
+                  {isFeatureSelectExpanded ? 'Shown' : 'Hidden'}
+                </button>
+                {isFeatureSelectExpanded && (
+                  <div className="flex items-center gap-1.5 min-w-65">
+                    <Select<FeatureOption, true>
+                      isMulti
+                      value={selectedFeatureOptions}
+                      onChange={(options) => {
+                        const values = (options || []).map(
+                          (option) => option.value,
+                        )
+                        setStoredVisibleFeatureIds(values)
+                      }}
+                      options={allFeatureOptions}
+                      closeMenuOnSelect={false}
+                      hideSelectedOptions={false}
+                      isLoading={featuresQuery.isLoading}
+                      placeholder="Select features"
+                      styles={featureSelectStyles}
+                      menuPortalTarget={document.body}
+                      menuPosition="fixed"
+                      formatOptionLabel={(option, { context }) =>
+                        formatFeatureOptionLabel(option, context)
+                      }
+                    />
+                  </div>
+                )}
+              </>
             )}
           </div>
 
