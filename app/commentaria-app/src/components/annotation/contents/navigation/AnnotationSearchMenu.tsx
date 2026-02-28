@@ -6,10 +6,10 @@ import {
 } from '../../../../queries/annotations.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
-import type { annotation_Part } from '@hub-api'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
+import type { common_ALTOPart } from '@hub-api'
 
 const buildSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)
@@ -49,7 +49,7 @@ const buildSnippet = (content: string, maxLength = 64) => {
   return `${prefix}${beforeTrim}${matchHtml}${afterTrim}${suffix}`
 }
 
-const getResultKey = (result: annotation_Part, index: number) =>
+const getResultKey = (result: common_ALTOPart, index: number) =>
   `${result.location?.page ?? 'p'}-${result.category ?? 'c'}-${index}`
 
 export function AnnotationSearchMenu() {

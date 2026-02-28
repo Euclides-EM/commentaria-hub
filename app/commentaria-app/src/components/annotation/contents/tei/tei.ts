@@ -35,6 +35,7 @@ export type TeiHighlightConfig = {
   categoryToFeatureId?: Record<string, string>
   manualHighlights?: TeiManualHighlight[]
   ignoreTeiHighlights?: boolean
+  hiddenTeiHighlightIds?: string[]
 }
 
 type TeiTranslationSource = {
@@ -712,7 +713,13 @@ const getOriginalParagraphSpans = (
       : null
   const categoryConfigById = highlightConfig?.categoryConfigById || {}
   const categoryToFeatureId = highlightConfig?.categoryToFeatureId || {}
+  const hiddenTeiHighlightIds = new Set(
+    highlightConfig?.hiddenTeiHighlightIds || [],
+  )
   for (const highlight of highlights) {
+    if (hiddenTeiHighlightIds.has(highlight.id)) {
+      continue
+    }
     const featureId =
       categoryToFeatureId[highlight.categoryId] || highlight.categoryId
     if (selectedSet && !selectedSet.has(featureId)) {

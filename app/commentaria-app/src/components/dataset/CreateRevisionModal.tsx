@@ -1,10 +1,6 @@
 import { type FormEvent, useEffect, useState } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
-import {
-  type feature_ExecutionStrategy,
-  type feature_Revision,
-  FeatureRevisionsService,
-} from '@hub-api'
+import { type feature_Revision, FeatureRevisionsService } from '@hub-api'
 import { Button } from '../core/Button.tsx'
 import { ErrorMessage } from '../core/ErrorMessage.tsx'
 
@@ -24,20 +20,15 @@ export function CreateRevisionModal({
   latestRevision,
 }: CreateRevisionModalProps) {
   const queryClient = useQueryClient()
-  const [executionStrategy, setExecutionStrategy] =
-    useState<feature_ExecutionStrategy>('prompt')
   const [prompt, setPrompt] = useState('')
-  const [regex, setRegex] = useState('')
-  const [note, setNote] = useState('')
+  const [categorizer, setCategorizer] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     if (isOpen) {
-      setExecutionStrategy(latestRevision?.execution_strategy ?? 'prompt')
       setPrompt(latestRevision?.prompt ?? '')
-      setRegex(latestRevision?.regex ?? '')
-      setNote(latestRevision?.note ?? '')
+      setCategorizer(latestRevision?.categorizer ?? '')
       setError(null)
       setLoading(false)
     }
@@ -45,12 +36,8 @@ export function CreateRevisionModal({
 
   const handleSubmit = async (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault()
-    if (executionStrategy === 'prompt' && !prompt.trim()) {
-      setError('Prompt text is required for prompt-based revisions.')
-      return
-    }
-    if (executionStrategy === 'regex' && !regex.trim()) {
-      setError('Regex text is required for regex-based revisions.')
+    if (!prompt.trim() && !categorizer.trim()) {
+      setError('At least one of prompt or categorizer is required.')
       return
     }
     try {
@@ -60,10 +47,8 @@ export function CreateRevisionModal({
         dataSetId: datasetId,
         featureId,
         revision: {
-          execution_strategy: executionStrategy,
-          note: note.trim() || undefined,
-          prompt: executionStrategy === 'prompt' ? prompt.trim() : undefined,
-          regex: executionStrategy === 'regex' ? regex.trim() : undefined,
+          prompt: prompt.trim() || undefined,
+          categorizer: categorizer.trim() || undefined,
         },
       })
       await queryClient.invalidateQueries({
@@ -94,64 +79,26 @@ export function CreateRevisionModal({
         </div>
 
         <div className="flex-1 overflow-auto p-6 flex flex-col gap-4 text-sm">
-          <div className="space-y-2">
+          <div className="flex-1 flex flex-col gap-2 min-h-0">
             <label className="block text-sm font-medium text-gray-700">
-              Execution strategy
-            </label>
-            <select
-              className="w-full p-2 border border-gray-300 rounded-md"
-              value={executionStrategy}
-              onChange={(e) =>
-                setExecutionStrategy(
-                  e.target.value as feature_ExecutionStrategy,
-                )
-              }
-              disabled={loading}
-            >
-              <option value="prompt">Prompt</option>
-              <option value="regex">Regex</option>
-            </select>
-          </div>
-
-          {executionStrategy === 'prompt' && (
-            <div className="flex-1 flex flex-col gap-2 min-h-0">
-              <label className="block text-sm font-medium text-gray-700">
-                Prompt
-              </label>
-              <textarea
-                value={prompt}
-                onChange={(e) => setPrompt(e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded-md flex-1 min-h-[100px] resize-none"
-                required
-                disabled={loading}
-              />
-            </div>
-          )}
-
-          {executionStrategy === 'regex' && (
-            <div className="flex-1 flex flex-col gap-2 min-h-0">
-              <label className="block text-sm font-medium text-gray-700">
-                Regex
-              </label>
-              <textarea
-                value={regex}
-                onChange={(e) => setRegex(e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded-md flex-1 min-h-[100px] resize-none"
-                required
-                disabled={loading}
-              />
-            </div>
-          )}
-
-          <div className="space-y-2">
-            <label className="block text-sm font-medium text-gray-700">
-              Note (optional)
+              Prompt
             </label>
             <textarea
-              value={note}
-              onChange={(e) => setNote(e.target.value)}
-              className="w-full p-2 border border-gray-300 rounded-md"
-              rows={3}
+              value={prompt}
+              onChange={(e) => setPrompt(e.target.value)}
+              className="w-full p-2 border border-gray-300 rounded-md flex-1 min-h-[100px] resize-none"
+              disabled={loading}
+            />
+          </div>
+
+          <div className="flex-1 flex flex-col gap-2 min-h-0">
+            <label className="block text-sm font-medium text-gray-700">
+              Categorizer
+            </label>
+            <textarea
+              value={categorizer}
+              onChange={(e) => setCategorizer(e.target.value)}
+              className="w-full p-2 border border-gray-300 rounded-md flex-1 min-h-[100px] resize-none"
               disabled={loading}
             />
           </div>

@@ -85,11 +85,6 @@ export function FeatureCard({
             </div>
           </div>
           <div className="flex items-center gap-2 shrink-0">
-            {feature.is_root && (
-              <span className="bg-teal-100 text-teal-700 rounded-full px-3 py-1 text-xs font-semibold">
-                Root
-              </span>
-            )}
             {feature.is_default && (
               <span className="bg-teal-100 text-teal-700 rounded-full px-3 py-1 text-xs font-semibold">
                 Default
@@ -246,28 +241,20 @@ export function FeatureCard({
                     Latest
                   </span>
                 )}
-                <div>
-                  <span className="font-semibold">Strategy:</span>{' '}
-                  {revision.execution_strategy || '—'}
-                </div>
-                {revision.execution_strategy === 'prompt' && (
+                {revision.prompt && (
                   <div>
                     <span className="font-semibold">Prompt:</span>
                     {'\n'}
                     {revision.prompt || '—'}
                   </div>
                 )}
-                {revision.execution_strategy === 'regex' && (
+                {revision.categorizer && (
                   <div>
-                    <span className="font-semibold">Regex:</span>
+                    <span className="font-semibold">Categorizer:</span>
                     {'\n'}
-                    {revision.regex || '—'}
+                    {revision.categorizer || '—'}
                   </div>
                 )}
-                <div>
-                  <span className="font-semibold">Note:</span>{' '}
-                  {revision.note || '—'}
-                </div>
                 <div className="text-xs text-gray-500">
                   Created: {formatDate(revision.created_at)}
                 </div>
