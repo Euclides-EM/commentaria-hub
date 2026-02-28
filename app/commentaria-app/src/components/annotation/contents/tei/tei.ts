@@ -5,6 +5,11 @@ export type TeiTranslation = {
   label: string
 }
 
+type TeiTranslationSource = {
+  label: string
+  element: Element
+}
+
 const escapeHtml = (text: string) => {
   const div = document.createElement('div')
   div.textContent = text
@@ -82,7 +87,7 @@ function toReadingHtml(
     if (child.nodeType !== Node.ELEMENT_NODE) continue
 
     if (isElement(child, 'lb')) {
-      html += opts.alignLines ? '<br>' : ' '
+      html += opts.alignLines ? ' ' : '<br>'
       continue
     }
 
@@ -127,115 +132,188 @@ function getBody(doc: Document): Element {
   return body as Element
 }
 
+const getElementAttr = (el: Element, name: string) =>
+  (el.getAttribute(name) || '').trim()
+
+const getXmlLang = (el: Element) =>
+  getElementAttr(el, 'xml:lang') || getElementAttr(el, 'lang')
+
+const getDirectChildrenByName = (parent: Element, localName: string) => {
+  const children: Element[] = []
+  for (let i = 0; i < parent.children.length; i++) {
+    const child = parent.children[i]
+    if (child.localName === localName) {
+      children.push(child)
+    }
+  }
+  return children
+}
+
+const getLineElements = (container: Element): Element[] => {
+  const directLines = getDirectChildrenByName(container, 'l')
+  if (directLines.length) return directLines
+  const lines = container.getElementsByTagNameNS('*', 'l')
+  const out: Element[] = []
+  for (let i = 0; i < lines.length; i++) {
+    out.push(lines[i])
+  }
+  return out
+}
+
+const renderLineBlock = (
+  lineElements: Element[],
+  opts: {
+    showPB: boolean
+    minCert: number
+    maskChar: string
+    alignLines: boolean
+  },
+) => {
+  const renderedLines = lineElements.map((line) =>
+    toReadingHtml(line, opts).trim(),
+  )
+  if (!opts.alignLines) {
+    const withEmptyPlaceholders = renderedLines.map((line) => line || '&nbsp;')
+    return [withEmptyPlaceholders.join('<br>')]
+  }
+
+  const paragraphs: string[] = []
+  let current: string[] = []
+  for (const line of renderedLines) {
+    if (!line) {
+      if (current.length > 0) {
+        paragraphs.push(current.join(' ').trim())
+        current = []
+      }
+      continue
+    }
+    current.push(line)
+  }
+  if (current.length > 0) {
+    paragraphs.push(current.join(' ').trim())
+  }
+  return paragraphs.length ? paragraphs : ['&nbsp;']
+}
+
+const renderStructuredDiv = (
+  div: Element,
+  opts: {
+    showPB: boolean
+    minCert: number
+    maskChar: string
+    alignLines: boolean
+  },
+) => {
+  const blocks = getDirectChildrenByName(div, 'ab')
+  const containers = blocks.length ? blocks : [div]
+  const parts: string[] = []
+  for (const container of containers) {
+    const lines = getLineElements(container)
+    if (lines.length) {
+      const blocks = renderLineBlock(lines, opts)
+      for (const block of blocks) {
+        parts.push(`<p>${block || '&nbsp;'}</p>`)
+      }
+      continue
+    }
+    const inner = toReadingHtml(container, opts).trim()
+    parts.push(`<p>${inner || '&nbsp;'}</p>`)
+  }
+  return parts.join('')
+}
+
+const getTeiTranslationSources = (body: Element): TeiTranslationSource[] => {
+  const directDivTranslations: TeiTranslationSource[] = []
+  const directDivs = getDirectChildrenByName(body, 'div')
+  for (const div of directDivs) {
+    if (getElementAttr(div, 'type') !== 'translation') continue
+    const lang = getXmlLang(div)
+    const n = getElementAttr(div, 'n')
+    directDivTranslations.push({
+      element: div,
+      label: lang || n,
+    })
+  }
+  return directDivTranslations
+}
+
 export function getTeiTranslations(tei: string): TeiTranslation[] {
   try {
     const doc = parseXml(tei.trim())
     const body = getBody(doc)
-    const translations: TeiTranslation[] = []
-    const divs = body.getElementsByTagNameNS('*', 'div')
-    for (let i = 0; i < divs.length; i++) {
-      const div = divs[i]
-      if (div.getAttribute('type') !== 'translations') continue
-      const abs = div.getElementsByTagNameNS('*', 'ab')
-      for (let j = 0; j < abs.length; j++) {
-        const ab = abs[j]
-        if (ab.getAttribute('type') !== 'translation') continue
-        const n = (ab.getAttribute('n') || '').trim()
-        const lang = (
-          ab.getAttribute('xml:lang') ||
-          ab.getAttribute('lang') ||
-          ''
-        ).trim()
-        const index = translations.length
-        const label = n || lang || `Translation ${index + 1}`
-        translations.push({
-          id: `translation:${index}`,
-          label,
-        })
-      }
-    }
-    return translations
+    const sources = getTeiTranslationSources(body)
+    return sources.map((source, index) => ({
+      id: `translation:${index}`,
+      label: source.label || `Translation ${index + 1}`,
+    }))
   } catch {
     return []
   }
 }
 
-function getTranslationMap(
-  body: Element,
-  translationIndex: number,
-): Map<string, string> {
-  const map = new Map<string, string>()
-  let currentTranslationIndex = 0
-  const divs = body.getElementsByTagNameNS('*', 'div')
-  for (let i = 0; i < divs.length; i++) {
-    const div = divs[i]
-    if (div.getAttribute('type') !== 'translations') continue
-    const abs = div.getElementsByTagNameNS('*', 'ab')
-    for (let j = 0; j < abs.length; j++) {
-      const ab = abs[j]
-      if (ab.getAttribute('type') !== 'translation') continue
-      if (currentTranslationIndex !== translationIndex) {
-        currentTranslationIndex += 1
-        continue
-      }
-      const segs = ab.getElementsByTagNameNS('*', 'seg')
-      for (let k = 0; k < segs.length; k++) {
-        const seg = segs[k]
-        const corresp = (seg.getAttribute('corresp') || '').trim()
-        const text = (seg.textContent || '').trim()
-        // corresp can be "#l1" or "#l1 #l2"; we take the first id for this seg
-        const firstRef = corresp.split(/\s+/)[0]
-        if (firstRef && firstRef.startsWith('#')) {
-          const id = firstRef.slice(1)
-          map.set(id, text)
-        }
-      }
-      return map
-    }
-  }
-  return map
-}
-
-/** Render translation view by reusing original body structure and replacing line-by-line via lb @xml:id and seg @corresp. */
 function renderTranslationView(
   body: Element,
   translationIndex: number,
-  alignLines: boolean,
+  opts: {
+    showPB: boolean
+    minCert: number
+    maskChar: string
+    alignLines: boolean
+  },
 ): string {
-  const transMap = getTranslationMap(body, translationIndex)
-  const parts: string[] = []
+  const sources = getTeiTranslationSources(body)
+  const source = sources[translationIndex]
+  if (!source) return '<p></p>'
+  return renderStructuredDiv(source.element, opts) || '<p></p>'
+}
 
-  for (let i = 0; i < body.children.length; i++) {
-    const el = body.children[i]
-    if (
-      el.nodeType !== Node.ELEMENT_NODE ||
-      (el as Element).localName !== 'p'
-    ) {
-      continue
+function renderOriginalView(
+  body: Element,
+  opts: {
+    showPB: boolean
+    minCert: number
+    maskChar: string
+    alignLines: boolean
+  },
+) {
+  const directDivs = getDirectChildrenByName(body, 'div')
+  const transcriptionDivs = directDivs.filter(
+    (div) => getElementAttr(div, 'type') === 'transcription',
+  )
+
+  if (transcriptionDivs.length) {
+    const parts: string[] = []
+    for (let i = 0; i < body.children.length; i++) {
+      const child = body.children[i]
+      if (
+        child.localName === 'div' &&
+        getElementAttr(child, 'type') === 'transcription'
+      ) {
+        const rendered = renderStructuredDiv(child, opts)
+        if (rendered) {
+          parts.push(rendered)
+        }
+      }
     }
-    const p = el as Element
-    const lbs = p.getElementsByTagNameNS('*', 'lb')
-    const lineTexts: string[] = []
-    for (let j = 0; j < lbs.length; j++) {
-      const lb = lbs[j]
-      const id = lb.getAttribute('xml:id') || lb.getAttribute('id') || ''
-      const text = (transMap.get(id) || '').trim()
-      lineTexts.push(text)
-    }
-    const nonEmptyLineTexts = lineTexts.filter(
-      (lineText) => lineText.length > 0,
-    )
-    if (!nonEmptyLineTexts.length) {
-      parts.push('<p>&nbsp;</p>')
-      continue
-    }
-    const paragraphHtml = alignLines
-      ? nonEmptyLineTexts.map((lineText) => escapeHtml(lineText)).join('<br>')
-      : escapeHtml(nonEmptyLineTexts.join(' ').trim())
-    parts.push(`<p>${paragraphHtml}</p>`)
+    return parts.join('') || '<p></p>'
   }
+  return '<p></p>'
+}
 
-  return parts.length ? parts.join('') : '<p></p>'
+function applyHighlights(
+  html: string,
+  searchResultHighlight: string | null,
+): string {
+  const highlights = searchResultHighlight
+    ? [...searchResultHighlight.matchAll(/<em>(.*?)<\/em>/g)].map(
+        (match) => match[1],
+      )
+    : []
+  let out = html
+  for (const highlight of highlights) {
+    out = out.replaceAll(highlight, `<em>${highlight}</em>`)
+  }
+  return out
 }
 
 export const teiToHtml = (
@@ -253,52 +331,11 @@ export const teiToHtml = (
   if (viewMode !== 'original') {
     const translationIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)
     const joined = Number.isFinite(translationIndex)
-      ? renderTranslationView(body, translationIndex, alignLines)
+      ? renderTranslationView(body, translationIndex, opts)
       : '<p></p>'
-    const highlights = searchResultHighlight
-      ? [...searchResultHighlight.matchAll(/<em>(.*?)<\/em>/g)].map(
-          (match) => match[1],
-        )
-      : []
-    let out = joined
-    for (const highlight of highlights) {
-      out = out.replaceAll(highlight, `<em>${highlight}</em>`)
-    }
-    return out
+    return applyHighlights(joined, searchResultHighlight)
   }
 
-  // Original: only direct <p> children of body (exclude div type="translations")
-  const directPs: Element[] = []
-  for (let i = 0; i < body.children.length; i++) {
-    const el = body.children[i]
-    if (
-      el.nodeType === Node.ELEMENT_NODE &&
-      (el as Element).localName === 'p'
-    ) {
-      directPs.push(el as Element)
-    }
-  }
-
-  const parts: string[] = []
-  if (directPs.length) {
-    for (const p of directPs) {
-      const inner = toReadingHtml(p, opts).trim()
-      if (!inner) continue
-      parts.push(`<p>${inner || '&nbsp;'}</p>`)
-    }
-  } else {
-    const inner = toReadingHtml(body, opts).trim()
-    parts.push(`<p>${inner || '&nbsp;'}</p>`)
-  }
-  let joined = parts.join('')
-
-  const highlights = searchResultHighlight
-    ? [...searchResultHighlight.matchAll(/<em>(.*?)<\/em>/g)].map(
-        (match) => match[1],
-      )
-    : []
-  for (const highlight of highlights) {
-    joined = joined.replaceAll(highlight, `<em>${highlight}</em>`)
-  }
-  return joined
+  const joined = renderOriginalView(body, opts)
+  return applyHighlights(joined, searchResultHighlight)
 }

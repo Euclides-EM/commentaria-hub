@@ -5,7 +5,7 @@ import {
   type TeiViewMode,
 } from './tei.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo } from 'react'
 import {
   useAnnotationTeiQuery,
   useEditionTeiQuery,
@@ -40,10 +40,18 @@ type Props = {
   minCert: number
   viewMode: TeiViewMode
   viewLabel: string
+  showViewLabel: boolean
   alignLines: boolean
 }
 
-const Tei = ({ minCert, data, viewMode, viewLabel, alignLines }: Props) => {
+const Tei = ({
+  minCert,
+  data,
+  viewMode,
+  viewLabel,
+  showViewLabel,
+  alignLines,
+}: Props) => {
   const { searchResultHighlight } = useAppState()
   const html = useMemo(
     () =>
@@ -59,11 +67,13 @@ const Tei = ({ minCert, data, viewMode, viewLabel, alignLines }: Props) => {
   )
   return (
     <div className="relative">
-      <div className="absolute top-2 right-2 z-10 rounded bg-white/90 border border-gray-300 px-1.5 py-0.5 text-[10px] font-medium text-gray-700">
-        {viewLabel}
-      </div>
+      {showViewLabel && (
+        <div className="absolute top-2 right-2 z-10 rounded bg-white/90 border border-gray-300 px-1.5 py-0.5 text-[10px] font-medium text-gray-700">
+          {viewLabel}
+        </div>
+      )}
       <div
-        className="text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 pt-7 [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5"
+        className={`text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5`}
         style={{ whiteSpace: 'normal' }}
         dangerouslySetInnerHTML={{ __html: html }}
       />
@@ -90,7 +100,7 @@ export function TeiPane() {
   const ocred = !!annotation?.ocred
   const editionId = dataset?.edition_id
 
-  const availableSources = useMemo(() => {
+  const candidateSources = useMemo(() => {
     const sources: Array<'annotation' | 'edition'> = []
     if (ocred) {
       sources.push('annotation')
@@ -104,42 +114,71 @@ export function TeiPane() {
   const [storedTeiSource, setStoredTeiSource] = useLocalStorageState<
     'annotation' | 'edition'
   >('teiSource', { defaultValue: 'annotation' })
-  const effectiveTeiSource = availableSources.includes(storedTeiSource)
+  const preferredTeiSource = candidateSources.includes(storedTeiSource)
     ? storedTeiSource
-    : availableSources[0]
-
-  useEffect(() => {
-    if (effectiveTeiSource && effectiveTeiSource !== storedTeiSource) {
-      setStoredTeiSource(effectiveTeiSource)
-    }
-  }, [effectiveTeiSource, setStoredTeiSource, storedTeiSource])
+    : candidateSources[0]
 
   const editionTeiQuery = useEditionTeiQuery(
     editionId,
     currentPageOrKey,
-    !!editionId && effectiveTeiSource === 'edition',
+    !!editionId,
   )
   const annotationTeiQuery = useAnnotationTeiQuery(
     datasetId,
     annotationId,
     currentPageOrKey,
-    effectiveTeiSource === 'annotation',
+    ocred,
   )
+
+  const availableSources = useMemo(() => {
+    const sources: Array<'annotation' | 'edition'> = []
+    if (ocred && annotationTeiQuery.isSuccess && annotationTeiQuery.data) {
+      sources.push('annotation')
+    }
+    if (editionId && editionTeiQuery.isSuccess && editionTeiQuery.data) {
+      sources.push('edition')
+    }
+    return sources
+  }, [
+    editionId,
+    ocred,
+    annotationTeiQuery.data,
+    annotationTeiQuery.isSuccess,
+    editionTeiQuery.data,
+    editionTeiQuery.isSuccess,
+  ])
+
+  const effectiveTeiSource = availableSources.includes(storedTeiSource)
+    ? storedTeiSource
+    : availableSources[0] || preferredTeiSource
+
+  useEffect(() => {
+    if (
+      availableSources.length > 0 &&
+      effectiveTeiSource &&
+      effectiveTeiSource !== storedTeiSource
+    ) {
+      setStoredTeiSource(effectiveTeiSource)
+    }
+  }, [
+    availableSources,
+    effectiveTeiSource,
+    setStoredTeiSource,
+    storedTeiSource,
+  ])
 
   const data =
     effectiveTeiSource === 'edition'
       ? editionTeiQuery.data
-      : annotationTeiQuery.data
+      : effectiveTeiSource === 'annotation'
+        ? annotationTeiQuery.data
+        : undefined
 
-  const [teiContents, setTeiContents] = useState<string | null>(null)
+  const teiContents = data ?? null
   const [teiViewModes, setTeiViewModes] = useLocalStorageState<TeiViewMode[]>(
     'teiViewModes',
     { defaultValue: ['original'] },
   )
-
-  useEffect(() => {
-    setTeiContents(data ?? null)
-  }, [data])
 
   const teiTranslations = useMemo<TeiTranslation[]>(
     () => (teiContents ? getTeiTranslations(teiContents) : []),
@@ -313,7 +352,7 @@ export function TeiPane() {
               spellCheck={false}
               placeholder="TEI XML..."
               value={teiContents || ''}
-              onChange={(e) => setTeiContents(e.target.value)}
+              readOnly
             />
           </>
         )}
@@ -327,6 +366,7 @@ export function TeiPane() {
                     minCert={minCert}
                     viewMode={viewMode}
                     viewLabel={getViewModeLabel(viewMode)}
+                    showViewLabel={availableViewModes.length > 1}
                     alignLines={alignLines}
                   />
                 </div>
