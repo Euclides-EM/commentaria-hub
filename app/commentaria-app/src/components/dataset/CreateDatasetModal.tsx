@@ -29,6 +29,7 @@ export function CreateDatasetModal({
   const [pages, setPages] = useState('')
   const [deskewed, setDeskewed] = useState(true)
   const [asyncCreate, setAsyncCreate] = useState(true)
+  const [createDefaultAnnotation, setCreateDefaultAnnotation] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [facsimileCopied, setFacsimileCopied] = useState(false)
@@ -72,6 +73,7 @@ export function CreateDatasetModal({
       setPages('')
       setDeskewed(true)
       setAsyncCreate(true)
+      setCreateDefaultAnnotation(true)
       setError(null)
       setLoading(false)
     }
@@ -100,6 +102,7 @@ export function CreateDatasetModal({
           deskewed,
         },
         async: asyncCreate || undefined,
+        createDefaultAnnotation,
       })
       setState({ datasetId: dataset.id!, annotationId: '' })
       refetch()
@@ -236,6 +239,17 @@ export function CreateDatasetModal({
               disabled={loading}
             />
             Automatic deskew
+          </label>
+
+          <label className="flex items-center gap-2 text-sm text-gray-700">
+            <input
+              type="checkbox"
+              checked={createDefaultAnnotation}
+              onChange={(e) => setCreateDefaultAnnotation(e.target.checked)}
+              className="h-4 w-4"
+              disabled={loading}
+            />
+            Create default annotation
           </label>
 
           <label className="flex items-center gap-2 text-sm text-gray-700">

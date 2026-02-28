@@ -2,4 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type feature_ExecutionStrategy = 'prompt' | 'regex';
+export type common_ALTOLocation = {
+    page?: number;
+    text_block_id?: string;
+};
+

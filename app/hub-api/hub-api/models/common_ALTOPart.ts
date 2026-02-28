@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { annotation_Location } from './annotation_Location';
-export type annotation_Part = {
+import type { common_ALTOLocation } from './common_ALTOLocation';
+export type common_ALTOPart = {
     category?: string;
     content?: string;
-    location?: annotation_Location;
+    location?: common_ALTOLocation;
 };
 

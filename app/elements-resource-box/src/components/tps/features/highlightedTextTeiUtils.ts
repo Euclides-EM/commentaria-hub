@@ -1,47 +1,53 @@
-import {
-  TITLE_PAGES_ANNOTATION_ID,
-  TITLE_PAGES_DATASET_ID,
-} from "../../../constants";
 import { buildTextHtml } from "./highlightedTextRenderUtils";
 import type { HighlightSpan } from "./highlightedTextTypes";
-import { AnnotationsService } from "@hub-api";
 
 const TEI_NS = "http://www.tei-c.org/ns/1.0";
+const XML_NS = "http://www.w3.org/XML/1998/namespace";
 
-const teiCache = new Map<string, string>();
-const teiPromiseCache = new Map<string, Promise<string>>();
+const normalizeKey = (value: string) =>
+  value.toLowerCase().replace(/[^a-z0-9]+/g, "");
 
-const getFeatureFromSpanId = (spanId: string) => {
-  if (!spanId.startsWith("h-")) {
-    return "";
+const parseAnaRefs = (value: string | null) =>
+  (value || "")
+    .split(/\s+/)
+    .map((entry) => entry.replace(/^#/, "").trim())
+    .filter(Boolean);
+
+const getXmlId = (element: Element) =>
+  element.getAttributeNS(XML_NS, "id") ||
+  element.getAttribute("xml:id") ||
+  element.getAttribute("id") ||
+  "";
+
+const resolveFeatureKey = (
+  categoryId: string,
+  categoryLabel: string,
+  selectedFeatures: string[],
+) => {
+  if (selectedFeatures.length === 0) {
+    return categoryId;
   }
-  const lastDash = spanId.lastIndexOf("-");
-  if (lastDash <= 2) {
-    return "";
-  }
-  return spanId.slice(2, lastDash);
-};
+  const byNormalized = new Map<string, string>();
+  selectedFeatures.forEach((featureKey) => {
+    byNormalized.set(normalizeKey(featureKey), featureKey);
+  });
 
-export const getCachedOrFetchTei = async (itemKey: string) => {
-  const cachedTei = teiCache.get(itemKey);
-  if (cachedTei) {
-    return cachedTei;
+  const candidates = [
+    categoryId,
+    categoryId.replace(/^cat_/, ""),
+    categoryLabel,
+  ]
+    .map((candidate) => normalizeKey(candidate))
+    .filter(Boolean);
+
+  for (const candidate of candidates) {
+    const matched = byNormalized.get(candidate);
+    if (matched) {
+      return matched;
+    }
   }
 
-  const inFlight =
-    teiPromiseCache.get(itemKey) ||
-    AnnotationsService.getDatasetsAnnotationsTei({
-      dataSetId: TITLE_PAGES_DATASET_ID,
-      id: TITLE_PAGES_ANNOTATION_ID,
-      pageNumOrKey: itemKey,
-    });
-  teiPromiseCache.set(itemKey, inFlight);
-
-  const tei = await inFlight;
-  if (tei) {
-    teiCache.set(itemKey, tei);
-  }
-  return tei;
+  return categoryId;
 };
 
 export const parseTeiToSpans = (
@@ -55,34 +61,52 @@ export const parseTeiToSpans = (
     return null;
   }
 
-  const respStatements = doc.getElementsByTagNameNS(TEI_NS, "respStmt");
-  const respToFeature: Record<string, string> = {};
-  Array.from(respStatements).forEach((respStmt) => {
-    const respId =
-      respStmt.getAttribute("xml:id") || respStmt.getAttribute("id");
-    if (!respId) return;
-    const idnos = respStmt.getElementsByTagNameNS(TEI_NS, "idno");
-    const featureIdno = Array.from(idnos).find(
-      (node) => node.getAttribute("type") === "feature",
-    );
-    const featureKey = featureIdno?.textContent?.trim();
-    if (featureKey) {
-      respToFeature[respId] = featureKey;
-    }
-  });
-
   const selectedSet = new Set(selectedFeatures);
   const body = doc.getElementsByTagNameNS(TEI_NS, "body")[0];
   if (!body) {
     return null;
   }
 
+  const categoryMap = new Map<string, string>();
+  const interpGroups = doc.getElementsByTagNameNS(TEI_NS, "interpGrp");
+  Array.from(interpGroups).forEach((group) => {
+    if (group.getAttribute("type") !== "highlight-categories") {
+      return;
+    }
+    const interps = group.getElementsByTagNameNS(TEI_NS, "interp");
+    Array.from(interps).forEach((interp) => {
+      const id = getXmlId(interp);
+      if (!id) return;
+      categoryMap.set(id, interp.textContent?.trim() || id);
+    });
+  });
+
   const anchorPos: Record<string, number> = {};
   let rawText = "";
+  const appendText = (value: string) => {
+    if (!value) {
+      return;
+    }
+    const normalized = value.replace(/\s+/g, " ");
+    if (!normalized) {
+      return;
+    }
+    rawText += normalized;
+  };
+  const appendLineBreak = () => {
+    rawText = rawText.replace(/[ \t]+$/g, "");
+    if (!rawText.endsWith("\n")) {
+      rawText += "\n";
+    }
+  };
+  const transcriptionDivs = Array.from(
+    body.getElementsByTagNameNS(TEI_NS, "div"),
+  ).filter((div) => div.getAttribute("type") === "transcription");
+  const roots = transcriptionDivs.length > 0 ? transcriptionDivs : [body];
 
   const walkNode = (node: ChildNode) => {
     if (node.nodeType === Node.TEXT_NODE) {
-      rawText += node.textContent || "";
+      appendText(node.textContent || "");
       return;
     }
     if (node.nodeType !== Node.ELEMENT_NODE) {
@@ -92,8 +116,7 @@ export const parseTeiToSpans = (
     const name = element.localName;
 
     if (name === "anchor") {
-      const anchorId =
-        element.getAttribute("xml:id") || element.getAttribute("id");
+      const anchorId = getXmlId(element);
       if (anchorId) {
         anchorPos[anchorId] = rawText.length;
       }
@@ -101,18 +124,20 @@ export const parseTeiToSpans = (
     }
 
     if (name === "lb") {
-      rawText += "\n";
+      appendLineBreak();
       return;
     }
 
     element.childNodes.forEach(walkNode);
 
-    if (name === "p") {
-      rawText += "\n";
+    if (name === "p" || name === "l") {
+      appendLineBreak();
     }
   };
 
-  body.childNodes.forEach(walkNode);
+  roots.forEach((root) => {
+    root.childNodes.forEach(walkNode);
+  });
 
   const spanGroups = doc.getElementsByTagNameNS(TEI_NS, "spanGrp");
   const filteredSpans: Array<{
@@ -123,7 +148,8 @@ export const parseTeiToSpans = (
   }> = [];
 
   Array.from(spanGroups).forEach((group) => {
-    if (group.getAttribute("type") !== "highlight") {
+    const type = group.getAttribute("type");
+    if (type !== "highlight" && type !== "highlights") {
       return;
     }
 
@@ -131,8 +157,7 @@ export const parseTeiToSpans = (
     Array.from(spans).forEach((span) => {
       const from = span.getAttribute("from")?.replace("#", "");
       const to = span.getAttribute("to")?.replace("#", "");
-      const resp = span.getAttribute("resp")?.replace("#", "");
-      if (!from || !to || !resp) return;
+      if (!from || !to) return;
 
       const startIdx = anchorPos[from];
       const endIdx = anchorPos[to];
@@ -140,10 +165,17 @@ export const parseTeiToSpans = (
         return;
       }
 
-      const spanId =
-        span.getAttribute("xml:id") || span.getAttribute("id") || "";
-      const featureKey =
-        getFeatureFromSpanId(spanId) || respToFeature[resp] || "";
+      const anaRefs = parseAnaRefs(span.getAttribute("ana"));
+      const categoryId =
+        anaRefs.find((ref) => ref.startsWith("cat_")) ||
+        anaRefs[0] ||
+        "uncategorized";
+      const categoryLabel = categoryMap.get(categoryId) || categoryId;
+      const featureKey = resolveFeatureKey(
+        categoryId,
+        categoryLabel,
+        selectedFeatures,
+      );
       if (!featureKey) {
         return;
       }
@@ -154,10 +186,17 @@ export const parseTeiToSpans = (
         return;
       }
 
-      const normalized =
-        Array.from(span.getElementsByTagNameNS(TEI_NS, "f"))
-          .find((node) => node.getAttribute("name") === "normalized")
-          ?.textContent?.trim() || "";
+      const notes = span.getElementsByTagNameNS(TEI_NS, "note");
+      let normalized = "";
+      Array.from(notes).forEach((note) => {
+        if (normalized) return;
+        const noteAnaRefs = parseAnaRefs(note.getAttribute("ana"));
+        const isNormalized =
+          noteAnaRefs.includes("prop_normalized") ||
+          noteAnaRefs.some((ref) => ref.endsWith("normalized"));
+        if (!isNormalized) return;
+        normalized = note.textContent?.trim() || "";
+      });
 
       if (selectedSet.size === 0 || selectedSet.has(featureKey)) {
         filteredSpans.push({ start, end, featureKey, normalized });

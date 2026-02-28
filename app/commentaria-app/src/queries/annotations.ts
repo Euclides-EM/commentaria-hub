@@ -1,6 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { AnnotationsService } from '@hub-api'
-import { fetchEditionTei } from '../api/editionTei'
+import { AnnotationsService, EditionsService } from '@hub-api'
 
 const annotationsQueryKey = (datasetId: string) =>
   ['annotations', datasetId] as const
@@ -71,7 +70,11 @@ export function useEditionTeiQuery(
 ) {
   return useQuery({
     queryKey: editionTeiQueryKey(editionId!, pageNum),
-    queryFn: () => fetchEditionTei(editionId!, pageNum),
+    queryFn: () =>
+      EditionsService.getEditionsTei({
+        editionId: editionId || '',
+        pageNum: String(pageNum),
+      }),
     enabled: !!editionId && enabled,
     retry: false,
   })

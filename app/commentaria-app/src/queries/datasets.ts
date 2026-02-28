@@ -1,13 +1,17 @@
 import { useQuery } from '@tanstack/react-query'
-import { DatasetImagesService, DatasetsService } from '@hub-api'
+import {
+  DatasetImagesService,
+  DatasetsService,
+  FeaturesService,
+} from '@hub-api'
 
 export const datasetsQueryKey = () => ['datasets'] as const
 const datasetsImagesQueryKey = (datasetId: string) =>
   ['datasets', datasetId, 'images'] as const
 
 export interface DatasetImageKey {
+  key: string
   filename: string
-  name: string
 }
 
 export function useDatasetsQuery() {
@@ -40,15 +44,28 @@ export function useDatasetImageKeysQuery(datasetId: string, enabled = true) {
 
       return images
         .map((image) => {
+          const key = image.key?.trim() || ''
           const filename = image.filename?.trim() || ''
-          const name = image.key?.trim() || ''
-          return { filename, name }
+          return { key, filename }
         })
-        .filter((image) => image.filename.length > 0 && image.name.length > 0)
+        .filter((image) => image.filename.length > 0 && image.key.length > 0)
         .sort((a, b) =>
-          a.name.localeCompare(b.name, undefined, { numeric: true }),
+          a.key.localeCompare(b.key, undefined, { numeric: true }),
         )
     },
     enabled: !!datasetId && enabled,
+  })
+}
+
+export function useDatasetFeaturesQuery(datasetId: string, enabled = true) {
+  return useQuery({
+    queryKey: ['features', 'definitions', datasetId] as const,
+    queryFn: () =>
+      FeaturesService.getDatasetsFeatures({
+        dataSetId: datasetId,
+        expand: ['revisions'],
+      }),
+    enabled: !!datasetId && enabled,
+    refetchOnWindowFocus: false,
   })
 }

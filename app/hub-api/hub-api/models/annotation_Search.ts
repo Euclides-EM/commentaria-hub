@@ -2,13 +2,13 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { annotation_Part } from './annotation_Part';
+import type { common_ALTOPart } from './common_ALTOPart';
 export type annotation_Search = {
     annotation_id?: string;
     categories?: Array<string>;
     dataset_id?: string;
     max_results?: number;
     regex?: string;
-    readonly results?: Array<annotation_Part>;
+    readonly results?: Array<common_ALTOPart>;
 };
 

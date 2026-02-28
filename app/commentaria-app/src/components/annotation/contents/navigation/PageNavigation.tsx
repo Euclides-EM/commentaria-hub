@@ -32,9 +32,18 @@ const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
   return annotation.pages.split(',').flatMap((p) => expandRange(p))
 }
 
+const getDefaultPageOrKey = (availablePages: string[]): string => {
+  if (!availablePages.length) return ''
+  if (availablePages[0] !== '1') {
+    return availablePages[0]
+  }
+  return availablePages[Math.floor(availablePages.length / 2)]
+}
+
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
   const isKeyNavigation = !!annotation && !annotation.pages
+  const showIndexPane = !!annotation?.segmented
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     isKeyNavigation,
@@ -77,8 +86,8 @@ export function PageNavigation() {
         }))
     }
     return imageKeys.map((image) => ({
-      value: image.filename,
-      label: image.name,
+      value: image.key,
+      label: image.key,
     }))
   }, [annotation, imageKeys])
 
@@ -122,9 +131,20 @@ export function PageNavigation() {
     }
 
     if (availablePages.length > 0 && !availablePages.includes(currentValue)) {
-      setState({ currentPageOrKey: availablePages[0] })
+      setState({ currentPageOrKey: getDefaultPageOrKey(availablePages) })
     }
   }, [availablePages, currentOption, currentValue, setState])
+
+  useEffect(() => {
+    if (annotation?.ocred && !showIndexPane && isSearchCollapsed) {
+      setIsSearchCollapsed(false)
+    }
+  }, [
+    annotation?.ocred,
+    isSearchCollapsed,
+    setIsSearchCollapsed,
+    showIndexPane,
+  ])
 
   useEffect(() => {
     if (!isResizing) {
@@ -162,15 +182,16 @@ export function PageNavigation() {
     <div className="flex flex-col flex-1 min-h-0 mr-1">
       <div className="flex w-full px-2 py-4 gap-4 items-center justify-center">
         <div className="flex gap-2">
-          {!isFirstPage && (
-            <button
-              title="Previous page"
-              className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
-              onClick={onPrevPage}
-            >
-              ←
-            </button>
-          )}
+          <button
+            title="Previous page"
+            className={`px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white font-semibold text-xs ${isFirstPage ? 'invisible pointer-events-none' : 'hover:bg-gray-50'}`}
+            onClick={onPrevPage}
+            disabled={isFirstPage}
+            aria-hidden={isFirstPage}
+            tabIndex={isFirstPage ? -1 : 0}
+          >
+            ←
+          </button>
 
           <div className="flex items-center gap-2">
             <label htmlFor="pageNum" className="text-xs opacity-80">
@@ -186,7 +207,9 @@ export function PageNavigation() {
                   : null
               }
               onChange={(option: { value: string; label: string } | null) =>
-                onPageNumChange(option?.value ?? availablePages[0] ?? '1')
+                onPageNumChange(
+                  option?.value ?? getDefaultPageOrKey(availablePages) ?? '1',
+                )
               }
               options={availableOptions}
               placeholder={
@@ -199,18 +222,19 @@ export function PageNavigation() {
             />
           </div>
 
-          {!isLastPage && (
-            <button
-              title="Next page"
-              className="px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 font-semibold text-xs"
-              onClick={onNextPage}
-            >
-              →
-            </button>
-          )}
+          <button
+            title="Next page"
+            className={`px-2.5 py-1.5 border border-gray-300 rounded-lg bg-white font-semibold text-xs ${isLastPage ? 'invisible pointer-events-none' : 'hover:bg-gray-50'}`}
+            onClick={onNextPage}
+            disabled={isLastPage}
+            aria-hidden={isLastPage}
+            tabIndex={isLastPage ? -1 : 0}
+          >
+            →
+          </button>
         </div>
       </div>
-      {annotation.ocred && (
+      {annotation.ocred && showIndexPane && (
         <div className="flex flex-col flex-1 min-h-0" ref={splitRef}>
           <div
             className="flex flex-col min-h-0 border-t border-gray-300 overflow-hidden flex-none"
@@ -258,6 +282,22 @@ export function PageNavigation() {
             <div className="flex-1 min-h-0 overflow-hidden">
               {!isSearchCollapsed && <AnnotationSearchMenu />}
             </div>
+          </div>
+        </div>
+      )}
+      {annotation.ocred && !showIndexPane && (
+        <div className="flex flex-col flex-1 min-h-0 border-t border-gray-300">
+          <button
+            title={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
+            aria-label={isSearchCollapsed ? 'Expand search' : 'Collapse search'}
+            className="w-full flex items-center gap-2 px-3 py-4 text-left text-gray-500 hover:text-gray-700 transition-colors"
+            onClick={() => setIsSearchCollapsed((prev) => !prev)}
+          >
+            <span className="text-sm">{isSearchCollapsed ? '▶' : '▼'}</span>
+            <span className="font-semibold text-sm">Search</span>
+          </button>
+          <div className="flex-1 min-h-0 overflow-hidden">
+            {!isSearchCollapsed && <AnnotationSearchMenu />}
           </div>
         </div>
       )}
