@@ -8,9 +8,11 @@ export function useAnnotationsQuery(datasetId: string) {
   return useQuery({
     queryKey: annotationsQueryKey(datasetId),
     queryFn: async () =>
-      AnnotationsService.getDatasetsAnnotations({
-        dataSetId: datasetId,
-      }),
+      datasetId
+        ? AnnotationsService.getDatasetsAnnotations({
+            dataSetId: datasetId,
+          })
+        : Promise.resolve([]),
     enabled: !!datasetId,
   })
 }
@@ -54,7 +56,7 @@ export function useAnnotationTeiQuery(
         id: annotationId,
         pageNumOrKey: String(pageOrKey),
       }),
-    enabled: !!datasetId && !!annotationId && enabled,
+    enabled: !!datasetId && !!annotationId && !!pageOrKey && enabled,
   })
 }
 
@@ -75,7 +77,7 @@ export function useEditionTeiQuery(
         editionId: editionId || '',
         pageNum: String(pageNum),
       }),
-    enabled: !!editionId && enabled,
+    enabled: !!editionId && !!pageNum && enabled,
     retry: false,
   })
 }

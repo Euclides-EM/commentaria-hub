@@ -380,7 +380,9 @@ const Tei = ({
   useEffect(() => {
     if (!tooltipState) {
       tooltipHoveredRef.current = false
+      return
     }
+    setSelectionState(null)
   }, [tooltipState])
 
   const html = useMemo(
@@ -499,6 +501,7 @@ const Tei = ({
 
   const selectionTooltip =
     selectionState &&
+    !tooltipState &&
     editable &&
     viewMode === 'original' &&
     createPortal(
@@ -562,6 +565,9 @@ const Tei = ({
           scheduleHideTooltip()
           return
         }
+        if (tooltipState) {
+          return
+        }
         const position = getTooltipPosition(hitElement)
         setTooltipState((previous) => {
           if (!previous) {
@@ -581,6 +587,10 @@ const Tei = ({
       }}
       onMouseUp={() => {
         if (!editable || viewMode !== 'original') {
+          setSelectionState(null)
+          return
+        }
+        if (tooltipState) {
           setSelectionState(null)
           return
         }

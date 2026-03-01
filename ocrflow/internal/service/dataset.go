@@ -150,7 +150,7 @@ func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, sca
 func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string) (*model.Dataset, error) {
 	pdfPath := d.fileSysMgt.DatasetPDFPath(ds)
 	log.Printf("Downloading facsimile from %s to %s", scanURL, pdfPath)
-	if ghwrapper.IsGitHubTreeURL(pdfPath) {
+	if ghwrapper.IsGitHubTreeURL(scanURL) {
 		if err := d.githubDownloader.DownloadRecursive(ctx, scanURL, pdfPath); err != nil {
 			return nil, fmt.Errorf("failed to download facsimile: %w", err)
 		}

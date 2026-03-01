@@ -57,14 +57,24 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 	if err != nil {
 		async = false
 	}
-	created, err := h.deps.DatasetSvc.Create(r.Context(), &d, enforceSingleDS, async, func(created *model.Dataset) error {
-		_, err := h.deps.AnnotationSvc.Create(created.ID, &annotation.Annotation{
-			Meta: common.Meta{
-				Name: "Base",
-			},
-		})
-		return err
-	})
+	createDefaultAnnotation, err := strconv.ParseBool(r.URL.Query().Get("create_default_annotation"))
+	if err != nil {
+		createDefaultAnnotation = false
+	}
+
+	var onCreate func(created *model.Dataset) error
+	if createDefaultAnnotation {
+		onCreate = func(created *model.Dataset) error {
+			_, err := h.deps.AnnotationSvc.Create(created.ID, &annotation.Annotation{
+				Meta: common.Meta{
+					Name: "Base",
+				},
+			})
+			return err
+		}
+	}
+
+	created, err := h.deps.DatasetSvc.Create(r.Context(), &d, enforceSingleDS, async, onCreate)
 	if err != nil {
 		return nil, err
 	}

@@ -55,7 +55,7 @@ const mapStudyCorpus = (s: string): string => {
       return "DH core texts";
     case "dotted_lines":
       return "Dotted Lines";
-    case "tps":
+    case "tps_experiment":
       return "Title Page Study";
   }
   return startCase(s.toLowerCase());
