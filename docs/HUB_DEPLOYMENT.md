@@ -95,6 +95,7 @@ Add (minimally):
 ```dotenv
 HTTP_ADDR=127.0.0.1:8090
 STORE_DIR=/srv/euclides/projects/commentaria-hub/ocrflow/store
+BACKUP_ROOT_DIR=/srv/euclides/projects/commentaria-hub/ocrflow/full_backups
 ESCRIPTORIUM_USERNAME=admin
 ESCRIPTORIUM_PASSWORD=
 GITHUB_TOKEN=***
