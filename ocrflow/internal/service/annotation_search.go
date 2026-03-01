@@ -69,7 +69,7 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 			for _, bl := range bls {
 				combined := alto.ExtractTextContentFromBlock(bl)
 				if rg.MatchString(combined) {
-					highlighted := rg.ReplaceAllString(combined, "<em>$0</em>")
+					highlighted := s.highlightSearchMatch(rg, combined)
 
 					as.Results = append(as.Results, &common.ALTOPart{
 						Category: cat,
@@ -110,7 +110,7 @@ func (s *AnnotationSearch) searchAnnotationContents(as *annotation.Search, ann *
 		if rg.MatchString(originalContent) {
 			as.Results = append(as.Results, &common.ALTOPart{
 				Category: "transcription.original",
-				Content:  rg.ReplaceAllString(originalContent, "<em>$0</em>"),
+				Content:  s.highlightSearchMatch(rg, originalContent),
 				Location: common.ALTOLocation{
 					Page:        page,
 					TextBlockID: key,
@@ -134,7 +134,7 @@ func (s *AnnotationSearch) searchAnnotationContents(as *annotation.Search, ann *
 			}
 			as.Results = append(as.Results, &common.ALTOPart{
 				Category: fmt.Sprintf("transcription.%s", lang),
-				Content:  rg.ReplaceAllString(content, "<em>$0</em>"),
+				Content:  s.highlightSearchMatch(rg, content),
 				Location: common.ALTOLocation{
 					Page:        page,
 					TextBlockID: key,
@@ -157,7 +157,7 @@ func (s *AnnotationSearch) searchAnnotationContents(as *annotation.Search, ann *
 			if rg.MatchString(val.Surface) {
 				as.Results = append(as.Results, &common.ALTOPart{
 					Category: fmt.Sprintf("feature.%s.surface", result.FeatureID),
-					Content:  rg.ReplaceAllString(val.Surface, "<em>$0</em>"),
+					Content:  s.highlightSearchMatch(rg, val.Surface),
 					Location: common.ALTOLocation{
 						Page:        page,
 						TextBlockID: result.PageKey,
@@ -174,7 +174,7 @@ func (s *AnnotationSearch) searchAnnotationContents(as *annotation.Search, ann *
 				}
 				as.Results = append(as.Results, &common.ALTOPart{
 					Category: fmt.Sprintf("feature.%s.property.%s", result.FeatureID, propertyKey),
-					Content:  rg.ReplaceAllString(propertyVal, "<em>$0</em>"),
+					Content:  s.highlightSearchMatch(rg, propertyVal),
 					Location: common.ALTOLocation{
 						Page:        page,
 						TextBlockID: result.PageKey,
@@ -251,4 +251,8 @@ func keyToPage(key string) int {
 		return 0
 	}
 	return page
+}
+
+func (s *AnnotationSearch) highlightSearchMatch(rg *regexp.Regexp, v string) string {
+	return rg.ReplaceAllString(v, "<em>$0</em>")
 }
