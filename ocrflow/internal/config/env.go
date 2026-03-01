@@ -18,7 +18,8 @@ type EnvConfig struct {
 	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
 	CommentariaPath         string        `env:"COMMENTARIA_PATH" envDefault:"http://euclides.huma-num.fr/commentaria"`
 
-	StoreDir string `env:"STORE_DIR" envDefault:"./store"`
+	StoreDir      string `env:"STORE_DIR" envDefault:"./store"`
+	BackupRootDir string `env:"BACKUP_ROOT_DIR" envDefault:"./backups"`
 
 	FacsimilesGithubRepoUrl string `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
 	FacsimilesDiagramsPath  string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
@@ -55,4 +56,12 @@ func (ec *EnvConfig) DataDir() string {
 
 func (ec *EnvConfig) DBPath() string {
 	return filepath.Join(ec.StoreDir, "ocrflow.db")
+}
+
+func (ec *EnvConfig) BackupDir() string {
+	return filepath.Join(ec.BackupRootDir, "backups")
+}
+
+func (ec *EnvConfig) RestoreDir() string {
+	return filepath.Join(ec.BackupRootDir, "restore")
 }

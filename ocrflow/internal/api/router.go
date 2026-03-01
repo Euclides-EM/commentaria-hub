@@ -35,6 +35,7 @@ type Dependencies struct {
 	IntegrationJobSvc   *service.IntegrationJob
 	GeoSvc              *service.Geo
 	VCSMgt              *service.VCSMgt
+	BackupSvc           *service.Backup
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -50,6 +51,11 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/version_control/push", httpwrapper.Create(h.VersionControlPush).Build())
 	api.HandleFunc("/catalogs/ustc/lookup", httpwrapper.Create(h.USTCLookup).Build())
 	api.HandleFunc("/cities", httpwrapper.Get(h.ListCities).Build())
+
+	api.HandleFunc("/backups", httpwrapper.Get(h.ListBackups).Create(h.CreateBackup).Build())
+	api.HandleFunc("/backups/fromzip", httpwrapper.CreateFile(h.CreateBackupFromZip).Build())
+	api.HandleFunc("/backups/{backupId}", httpwrapper.GetZip(h.DownloadBackup).Build())
+	api.HandleFunc("/backups/{backupId}/restore", httpwrapper.Update(h.RestoreLatestBackup).Build())
 
 	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
 	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())
