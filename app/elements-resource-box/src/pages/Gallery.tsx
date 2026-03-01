@@ -22,6 +22,9 @@ import { feature_Feature } from "@hub-api";
 import { FeaturesService } from "@hub-api";
 import { MultiSelect } from "../components/tps/filters/MultiSelect.tsx";
 import { ItemView } from "../components/tps/features/ItemView.tsx";
+import { ItemModal } from "../components/tps/modal/ItemModal.tsx";
+import type { Item } from "../types";
+import { useAutoOpenEditionFromQuery } from "../hooks/useAutoOpenEditionFromQuery.ts";
 
 const NoteLine = styled(Row)`
   opacity: 0.8;
@@ -42,6 +45,7 @@ export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
   >("tp-features", {
     defaultValue: [],
   });
+  const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const featuresQuery = useQuery({
     queryKey: ["title-pages", "features", TITLE_PAGES_DATASET_ID],
@@ -116,6 +120,7 @@ export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
     [featureNameById],
   );
   const mode: Mode = titlePagesModeOn ? "texts" : "images";
+  useAutoOpenEditionFromQuery(items, setSelectedItem);
 
   useEffect(() => {
     if (availableFeatures.length === 0) {
@@ -296,6 +301,22 @@ export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
         À la Croisée des Hyperliens, chez le scribe fatigué et son félin
         passivement investi, MMXXV.
       </Text>
+      {selectedItem && (
+        <ItemModal
+          item={selectedItem}
+          featuresById={
+            titlePagesModeOn
+              ? groupByMap(
+                  availableFeatures.filter((feat) =>
+                    selectedFeatureIds.includes(feat.id!),
+                  ),
+                  (feat) => feat.id!,
+                )
+              : null
+          }
+          onClose={() => setSelectedItem(null)}
+        />
+      )}
       <div />
     </Container>
   );

@@ -34,6 +34,7 @@ const toTitleCase = (value: string): string =>
 const getRows = (
   edition:
     | {
+        key?: string | null
         title?: string | null
         year?: string | null
         editor?: string[] | null
@@ -71,6 +72,14 @@ export function EditionDetailsTable({ editionId }: EditionDetailsTableProps) {
   const editionQuery = useEditionQuery(editionId)
   const rows = getRows(editionQuery.data)
   const isLoading = editionQuery.isLoading
+  const resourceBoxBaseUrl = normalizeString(
+    import.meta.env.VITE_RESOURCEBOX_APP_URL,
+  )
+  const editionKey = normalizeString(editionQuery.data?.key) || editionId
+  const resourceBoxUrl =
+    resourceBoxBaseUrl && editionKey
+      ? `${resourceBoxBaseUrl.replace(/\/$/, '')}/catalogue?editionKey=${encodeURIComponent(editionKey)}`
+      : null
   const error =
     editionQuery.error instanceof Error
       ? editionQuery.error.message
@@ -96,6 +105,21 @@ export function EditionDetailsTable({ editionId }: EditionDetailsTableProps) {
           </div>
         ))}
       </div>
+      {resourceBoxUrl ? (
+        <div className="mt-2 pt-2 border-t border-gray-200">
+          <a
+            href={resourceBoxUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-blue-600 hover:text-blue-700 hover:underline"
+          >
+            View in Elements Resource Box
+            <span aria-hidden="true" className="ml-1 inline-block text-[10px]">
+              ↗
+            </span>
+          </a>
+        </div>
+      ) : null}
     </div>
   )
 }
