@@ -93,6 +93,20 @@ cd /srv/euclides/projects/commentaria-hub/python-tools
 uv sync
 ```
 
+## Install Sqlite for debugging (optional, not needed if you only use Postgres)
+
+```bash
+sudo apt-get update
+sudo apt install -y sqlite3
+```
+
+You can now query using:
+
+```bash
+sudo -iu euclides
+sqlite3 /srv/euclides/projects/commentaria-hub/ocrflow/store/ocrflow.db
+```
+
 ## Add env file
 
 ```bash

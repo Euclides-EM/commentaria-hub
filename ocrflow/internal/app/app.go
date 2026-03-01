@@ -61,6 +61,11 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
 	}
+	// So backups include all data when SQLite uses WAL: flush WAL into main DB before copying.
+	bckSvc.SetCheckpointFunc(func() error {
+		_, err := sqlDB.Exec("PRAGMA wal_checkpoint(FULL)")
+		return err
+	})
 	facsimileStore := store.NewFacsimileSql(sqlDB)
 	datasetStore := store.NewDatasetSQL(sqlDB, fileSystemManager)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
