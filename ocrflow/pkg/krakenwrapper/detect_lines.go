@@ -102,13 +102,18 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 		maskFile.Close()
 		defer os.Remove(maskFile.Name())
 
-		if err := CreateMaskFromALTO(
+		hasRegions, err := CreateMaskFromALTO(
 			altoPath,
 			maskFile.Name(),
 			[]string{cat},   // detect ONLY this category
 			effectiveIgnore, // ignore the rest of detect categories + explicit ignores
-		); err != nil {
+		)
+		if err != nil {
 			return fmt.Errorf("create mask from ALTO %s for category %q: %w", altoPath, cat, err)
+		}
+		// No zones of this category on this page → mask would be all white; Kraken rejects (not bitonal). Skip.
+		if !hasRegions {
+			continue
 		}
 
 		baselineJsonFile, err := os.CreateTemp("", "segmentation-*.json")
@@ -145,8 +150,13 @@ func detectAndGlueOnce(imgPath, altoPath string, detectInCategories, ignoreCateg
 	maskFile.Close()
 	defer os.Remove(maskFile.Name())
 
-	if err := CreateMaskFromALTO(altoPath, maskFile.Name(), detectInCategories, ignoreCategories); err != nil {
+	hasRegions, err := CreateMaskFromALTO(altoPath, maskFile.Name(), detectInCategories, ignoreCategories)
+	if err != nil {
 		return fmt.Errorf("create mask from ALTO %s: %w", altoPath, err)
+	}
+	if !hasRegions {
+		// No zones to segment; nothing to glue. ALTO lines were already deleted.
+		return nil
 	}
 
 	baselineJsonFile, err := os.CreateTemp("", "segmentation-*.json")

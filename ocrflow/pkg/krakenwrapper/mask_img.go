@@ -28,14 +28,18 @@ var maskPalette = color.Palette{
 // The mask is bitonal (2-color paletted) so Kraken accepts it.
 // mainLabels: labels treated as "main zones", painted black
 // ignoreLabels: labels that should always be white, overriding main zones
-func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []string) error {
+//
+// It returns hasRegions: true if at least one main zone was painted black. When false,
+// the mask would be all white (one color); Kraken rejects that, so callers should skip
+// the Kraken run for this mask.
+func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []string) (hasRegions bool, err error) {
 	// read ALTO XML
 	a, err := alto.LoadFromFile(altoPath)
 	if err != nil {
-		return fmt.Errorf("load ALTO: %w", err)
+		return false, fmt.Errorf("load ALTO: %w", err)
 	}
 	if len(a.Layout.Page) == 0 {
-		return fmt.Errorf("no pages in ALTO")
+		return false, fmt.Errorf("no pages in ALTO")
 	}
 	// here we just take the first page; adapt if you have multi-page handling
 	page := a.Layout.Page[0]
@@ -80,6 +84,7 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 	for _, tb := range page.PrintSpace.TextBlocks {
 		if hasLabelInSet(tb.TagRefs, mainSet) && !hasLabelInSet(tb.TagRefs, ignoreSet) {
 			paintRectPaletted(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, maskIdxBlack)
+			hasRegions = true
 		}
 	}
 
@@ -93,15 +98,15 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 	// write mask PNG
 	out, err := os.Create(maskPath)
 	if err != nil {
-		return fmt.Errorf("create mask file: %w", err)
+		return false, fmt.Errorf("create mask file: %w", err)
 	}
 	defer out.Close()
 
 	if err := png.Encode(out, img); err != nil {
-		return fmt.Errorf("encode PNG: %w", err)
+		return false, fmt.Errorf("encode PNG: %w", err)
 	}
 
-	return nil
+	return hasRegions, nil
 }
 
 // paintRectPaletted fills a rectangle (x,y,width,height) in img with the given palette index.
