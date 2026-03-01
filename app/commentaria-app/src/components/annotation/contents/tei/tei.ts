@@ -41,6 +41,7 @@ export type TeiHighlightConfig = {
 export type TeiSurfaceZone = {
   id: string
   matchIds: string[]
+  hoverMatchIds: string[]
   zoneType: 'line' | 'block'
   ulx: number
   uly: number
@@ -1189,6 +1190,50 @@ const getBlockToLineZoneLinks = (doc: Document) => {
   return links
 }
 
+const getZoneToTextMatchIds = (doc: Document) => {
+  const links = new Map<string, Set<string>>()
+  const add = (zoneId: string, ids: string[]) => {
+    if (!zoneId || !ids.length) {
+      return
+    }
+    const current = links.get(zoneId) || new Set<string>()
+    for (const id of ids) {
+      if (id) {
+        current.add(id)
+      }
+    }
+    links.set(zoneId, current)
+  }
+
+  const blocks = doc.getElementsByTagNameNS('*', 'ab')
+  for (let index = 0; index < blocks.length; index++) {
+    const block = blocks[index]
+    const blockZoneIds = parseCorrespRefs(block.getAttribute('facs'))
+    const blockTextIds = toUniqueSorted([
+      getXmlId(block),
+      ...parseCorrespRefs(block.getAttribute('corresp')),
+    ])
+    for (const zoneId of blockZoneIds) {
+      add(zoneId, blockTextIds)
+    }
+  }
+
+  const lines = doc.getElementsByTagNameNS('*', 'l')
+  for (let index = 0; index < lines.length; index++) {
+    const line = lines[index]
+    const lineZoneIds = parseCorrespRefs(line.getAttribute('facs'))
+    const lineTextIds = toUniqueSorted([
+      getXmlId(line),
+      ...parseCorrespRefs(line.getAttribute('corresp')),
+    ])
+    for (const zoneId of lineZoneIds) {
+      add(zoneId, lineTextIds)
+    }
+  }
+
+  return links
+}
+
 export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
   try {
     const doc = parseXml(tei.trim())
@@ -1248,13 +1293,21 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
     const matchIdsByZoneId = new Map<string, Set<string>>(
       parsed.map((zone) => [zone.id, new Set(zone.matchIds)]),
     )
+    const hoverMatchIdsByZoneId = new Map<string, Set<string>>(
+      parsed.map((zone) => [zone.id, new Set(zone.matchIds)]),
+    )
     const blockToLineLinks = getBlockToLineZoneLinks(doc)
-    const lineToBlockLinks = new Map<string, Set<string>>()
-    for (const [blockZoneId, lineZoneIds] of blockToLineLinks.entries()) {
-      for (const lineZoneId of lineZoneIds) {
-        const current = lineToBlockLinks.get(lineZoneId) || new Set<string>()
-        current.add(blockZoneId)
-        lineToBlockLinks.set(lineZoneId, current)
+    const zoneToTextMatchIds = getZoneToTextMatchIds(doc)
+
+    for (const [zoneId, textMatchIds] of zoneToTextMatchIds.entries()) {
+      const target = matchIdsByZoneId.get(zoneId)
+      const hoverTarget = hoverMatchIdsByZoneId.get(zoneId)
+      if (!target) {
+        continue
+      }
+      for (const id of textMatchIds) {
+        target.add(id)
+        hoverTarget?.add(id)
       }
     }
 
@@ -1264,14 +1317,13 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
       if (linkedLineZoneIds && linkedLineZoneIds.size > 0) {
         for (const lineZoneId of linkedLineZoneIds) {
           blockSet.add(lineZoneId)
-          const lineSet = matchIdsByZoneId.get(lineZoneId)
-          if (lineSet) {
-            lineSet.add(block.id)
-          }
         }
       }
       for (const zone of parsed) {
         if (zone.id === block.id) {
+          continue
+        }
+        if (isTextBlockType(zone.type)) {
           continue
         }
         if (
@@ -1285,24 +1337,9 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
           for (const id of zoneSet) {
             blockSet.add(id)
           }
-          zoneSet.add(block.id)
         }
       }
       matchIdsByZoneId.set(block.id, blockSet)
-    }
-
-    for (const [lineZoneId, blockZoneIds] of lineToBlockLinks.entries()) {
-      const lineSet = matchIdsByZoneId.get(lineZoneId)
-      if (!lineSet) {
-        continue
-      }
-      for (const blockZoneId of blockZoneIds) {
-        lineSet.add(blockZoneId)
-        const blockSet = matchIdsByZoneId.get(blockZoneId)
-        if (blockSet) {
-          blockSet.add(lineZoneId)
-        }
-      }
     }
 
     const out = parsed.map((zone) => ({
@@ -1332,6 +1369,9 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
       return {
         id: zone.id,
         matchIds: zone.matchIds,
+        hoverMatchIds: [
+          ...(hoverMatchIdsByZoneId.get(zone.id) || new Set(zone.matchIds)),
+        ].sort(),
         zoneType: isTextBlockType(zone.type) ? 'block' : 'line',
         ulx: zone.ulx,
         uly: zone.uly,

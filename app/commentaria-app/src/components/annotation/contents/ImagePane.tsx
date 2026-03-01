@@ -27,10 +27,6 @@ export function ImagePane({
     state: { datasetId, currentPageOrKey },
   } = useAppState()
   const [zoom, setZoom] = useState(250)
-  const [imageNaturalSize, setImageNaturalSize] = useState({
-    width: 0,
-    height: 0,
-  })
   const viewportRef = useRef<HTMLDivElement | null>(null)
   const [imageDisplayBox, setImageDisplayBox] = useState({
     left: 0,
@@ -69,19 +65,7 @@ export function ImagePane({
   const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
 
   useEffect(() => {
-    setImageNaturalSize({ width: 0, height: 0 })
     setImageDisplayBox({ left: 0, top: 0, width: 0, height: 0 })
-  }, [imageUrl])
-
-  useEffect(() => {
-    const image = new window.Image()
-    image.onload = () => {
-      setImageNaturalSize({
-        width: image.naturalWidth || 0,
-        height: image.naturalHeight || 0,
-      })
-    }
-    image.src = imageUrl
   }, [imageUrl])
 
   useEffect(() => {
@@ -91,37 +75,38 @@ export function ImagePane({
     }
 
     const recalc = () => {
-      const viewportWidth = viewport.clientWidth
-      const viewportHeight = viewport.clientHeight
-      const naturalWidth = imageNaturalSize.width
-      const naturalHeight = imageNaturalSize.height
-      if (
-        !viewportWidth ||
-        !viewportHeight ||
-        !naturalWidth ||
-        !naturalHeight
-      ) {
+      const image = viewport.querySelector('img#imageZoom')
+      if (!(image instanceof HTMLImageElement)) {
         setImageDisplayBox({ left: 0, top: 0, width: 0, height: 0 })
         return
       }
-      const scale = Math.min(
-        viewportWidth / naturalWidth,
-        viewportHeight / naturalHeight,
-      )
-      const width = naturalWidth * scale
-      const height = naturalHeight * scale
-      const left = (viewportWidth - width) / 2
-      const top = (viewportHeight - height) / 2
+      const viewportRect = viewport.getBoundingClientRect()
+      const imageRect = image.getBoundingClientRect()
+      const width = imageRect.width
+      const height = imageRect.height
+      if (!width || !height) {
+        setImageDisplayBox({ left: 0, top: 0, width: 0, height: 0 })
+        return
+      }
+      const left = imageRect.left - viewportRect.left
+      const top = imageRect.top - viewportRect.top
       setImageDisplayBox({ left, top, width, height })
     }
 
-    recalc()
+    const frame = window.requestAnimationFrame(recalc)
     const observer = new ResizeObserver(recalc)
     observer.observe(viewport)
-    return () => {
-      observer.disconnect()
+    const image = viewport.querySelector('img#imageZoom')
+    if (image) {
+      observer.observe(image)
     }
-  }, [imageNaturalSize.height, imageNaturalSize.width])
+    window.addEventListener('resize', recalc)
+    return () => {
+      window.cancelAnimationFrame(frame)
+      observer.disconnect()
+      window.removeEventListener('resize', recalc)
+    }
+  }, [imageUrl, zoom])
 
   const activeMatchIdSet = useMemo(
     () => new Set(activeLineMatchIds),
@@ -228,7 +213,7 @@ export function ImagePane({
               className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-contain"
             />
             {enableHoverSync && visibleZones.length > 0 && (
-              <div className="absolute inset-0">
+              <div className="absolute inset-0 z-20 pointer-events-none">
                 {visibleZones.map((zone) => (
                   <button
                     key={zone.id}
@@ -241,14 +226,20 @@ export function ImagePane({
                           ? 'border-amber-500 bg-amber-300/20'
                           : 'border-teal-500 bg-teal-300/20'
                         : 'border-transparent bg-transparent'
-                    }`}
+                    } pointer-events-auto`}
                     style={{
                       left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
                       top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
                       width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
                       height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
                     }}
-                    onMouseEnter={() => onHoverLineMatchIds?.(zone.matchIds)}
+                    onMouseEnter={() =>
+                      onHoverLineMatchIds?.(
+                        zone.hoverMatchIds.length > 0
+                          ? zone.hoverMatchIds
+                          : zone.matchIds,
+                      )
+                    }
                     onMouseLeave={() => onHoverLineMatchIds?.([])}
                   />
                 ))}

@@ -1689,7 +1689,7 @@ export function TeiPane({
                 }
                 className="rounded border-gray-300"
               />
-              <span>Hover sync</span>
+              <span>Highlight facsimile</span>
             </label>
             {showMinCertControl && (
               <RangeInput
@@ -1704,30 +1704,28 @@ export function TeiPane({
                 }
               />
             )}
-            <button
-              className={`px-2.5 py-1.5 border rounded-lg font-semibold text-xs ${
-                showTeiSource
-                  ? 'bg-black text-white border-black'
-                  : 'border-gray-300 bg-white hover:bg-gray-50'
-              }`}
-              onClick={() => setShowTeiSource(!showTeiSource)}
-            >
-              TEI source code
-            </button>
+            <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
+              <input
+                type="checkbox"
+                checked={showTeiSource}
+                onChange={(event) => setShowTeiSource(event.target.checked)}
+                className="rounded border-gray-300"
+              />
+              <span>TEI source code</span>
+            </label>
             {allFeatureOptions.length > 0 && (
               <>
-                <button
-                  type="button"
-                  className={`px-2.5 py-1.5 border rounded-lg font-semibold text-xs ${
-                    isFeatureSelectExpanded
-                      ? 'bg-black text-white border-black'
-                      : 'border-gray-300 bg-white hover:bg-gray-50'
-                  }`}
-                  onClick={() => setIsFeatureSelectExpanded((b) => !b)}
-                >
-                  Features select:{' '}
-                  {isFeatureSelectExpanded ? 'Shown' : 'Hidden'}
-                </button>
+                <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
+                  <input
+                    type="checkbox"
+                    checked={isFeatureSelectExpanded}
+                    onChange={(event) =>
+                      setIsFeatureSelectExpanded(event.target.checked)
+                    }
+                    className="rounded border-gray-300"
+                  />
+                  <span>Features select</span>
+                </label>
                 {isFeatureSelectExpanded && (
                   <div className="flex items-center gap-1.5 min-w-65">
                     <Select<FeatureOption, true>
