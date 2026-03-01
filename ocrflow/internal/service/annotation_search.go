@@ -29,7 +29,7 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 		return nil, err
 	}
 
-	pages, err := pagesparser.Range(ann.Pages)
+	pages, err := pagesparser.IntRange(ann.Pages)
 	if err != nil {
 		return nil, err
 	}

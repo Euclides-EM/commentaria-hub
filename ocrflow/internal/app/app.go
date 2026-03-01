@@ -81,7 +81,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
 	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl))
 	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, modelSvc, datasetStore, fileSystemManager, ghDownloader)
-	annotationSvc := service.NewAnnotationsService(datasetSvc, ruleApplier, fileSystemManager, annotationStore)
+	datasetImgSvc := service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc)
+	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, fileSystemManager, annotationStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	featureProperty := service.NewFeatureProperty()
@@ -89,6 +90,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureSvc := service.NewFeature(featureStore, featureRevisionStore, featureProperty)
 	featureResultSvc := service.NewResult(featureResultStore, featureSvc, featureProperty)
 	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
+	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 
 	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
 	annotationUploader := service.NewAnnotationsUploader(
@@ -137,6 +139,12 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	log.Printf("finished generating diagram crops metadata")
 
+	log.Printf("update title page annotations by metadata info...")
+	if err := titlePageProvisionSvc.UpdateTitlePageAnnotationsByMetadataInfo(); err != nil {
+		log.Printf("warning: failed to update title page annotations by metadata info: %v", err)
+	}
+	log.Printf("finished updating title page annotations by metadata info")
+
 	deps := &api.Dependencies{
 		Env:                 env,
 		HealthSvc:           healthSvc,
@@ -144,7 +152,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		GeoSvc:              geoSvc,
 		FacsimileSvc:        facsimileSvc,
 		DatasetSvc:          datasetSvc,
-		DatasetImgSvc:       service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc),
+		DatasetImgSvc:       datasetImgSvc,
 		AnnotationSvc:       annotationSvc,
 		ModelSvc:            modelSvc,
 		TrainSvc:            trainSvc,

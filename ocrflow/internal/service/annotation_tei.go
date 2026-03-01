@@ -89,7 +89,7 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 
 	// 2) TXT fallback: transcription
 	var lines []string
-	if ann.DatasetID == "tps" && ann.ID == "ann_1" {
+	if ann.DatasetID == "tps" {
 		if lines, _, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
 			return "", fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}
@@ -126,7 +126,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		imageURL     string
 	)
 
-	if ann.DatasetID == "tps" && ann.ID == "ann_1" {
+	if ann.DatasetID == "tps" {
 		if lines, translations, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
 			return nil, fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}

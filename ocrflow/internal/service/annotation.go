@@ -3,7 +3,6 @@ package service
 import (
 	"fmt"
 	"os"
-	"path"
 	"slices"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
@@ -26,14 +25,16 @@ import (
 
 type Annotation struct {
 	datasetSvc      *Dataset
+	datasetImgSvc   *DatasetImg
 	ruleApplier     *AnnotationRuleApplier
 	fileSysMgt      *filesys.Manager
 	annotationStore *store.AnnotationSQL
 }
 
-func NewAnnotationsService(datasetSvc *Dataset, ruleApplier *AnnotationRuleApplier, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
+func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
 	return &Annotation{
 		datasetSvc:      datasetSvc,
+		datasetImgSvc:   datasetImgSvc,
 		ruleApplier:     ruleApplier,
 		fileSysMgt:      fileSysMgt,
 		annotationStore: annotationStore,
@@ -95,9 +96,8 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 	}
 
 	for _, p := range pages {
-		filename := pagesparser.PageToPNGFilename(p)
-		if _, err := os.Stat(path.Join(imgPath, filename)); err != nil {
-			return nil, fmt.Errorf("no such file %s in existing dataset", filename)
+		if _, err := a.datasetImgSvc.GetImageMetadata(datasetID, p); err != nil {
+			return nil, fmt.Errorf("failed to get image metadata for page %s: %w", p, err)
 		}
 	}
 	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
@@ -223,7 +223,7 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	categorySet := make(map[string]struct{})
 
 	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
+		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
 		if err != nil {
 			return nil, err
 		}
@@ -249,7 +249,7 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	if !ann.Segmented {
 		return nil, fmt.Errorf("no ALTO directory found for annotation %s", ann.ID)
 	}
-	pages, err := pagesparser.Range(ann.Pages)
+	pages, err := pagesparser.IntRange(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
@@ -392,7 +392,7 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
 
-	pages, err := pagesparser.Range(ann.Pages)
+	pages, err := pagesparser.IntRange(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
