@@ -2121,6 +2121,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/lodash@npm:^4.17.24":
+  version: 4.17.24
+  resolution: "@types/lodash@npm:4.17.24"
+  checksum: 10c0/b72f60d4daacdad1fa643edb3faba204c02a01eb1ac00a83ff73496a6d236fc55e459c06106e8ced42277dba932d087d8fc090f8de4ef590d3f91e6d6f7ce85a
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*":
   version: 25.3.0
   resolution: "@types/node@npm:25.3.0"
@@ -2939,6 +2946,7 @@ __metadata:
     "@eslint/js": "npm:^9.39.1"
     "@tailwindcss/vite": "npm:^4.1.18"
     "@tanstack/react-query": "npm:^5.90.19"
+    "@types/lodash": "npm:^4.17.24"
     "@types/node": "npm:^24.10.1"
     "@types/react": "npm:^19.2.5"
     "@types/react-dom": "npm:^19.2.3"
@@ -2956,6 +2964,7 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.4.24"
     globals: "npm:^16.5.0"
     javascript-time-ago: "npm:^2.5.12"
+    lodash: "npm:^4.17.21"
     nuqs: "npm:^2.8.6"
     postcss: "npm:^8.5.6"
     prettier: "npm:^3.8.0"

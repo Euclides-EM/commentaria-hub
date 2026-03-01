@@ -11,6 +11,7 @@ import { SearchInput } from '../../../core/SearchInput.tsx'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
 import type { common_ALTOPart } from '@hub-api'
+import { startCase } from 'lodash'
 
 const buildSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)
@@ -54,15 +55,6 @@ const getResultKey = (result: common_ALTOPart, index: number) => {
   return `${result.location?.page ?? 'p'}-${result.category ?? 'c'}-${index}`
 }
 
-const toTitleCase = (value: string) =>
-  value
-    .replace(/[._-]+/g, ' ')
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join(' ')
-
 const getFormattedCategory = (
   category: string | undefined,
   featureNameById: Map<string, string>,
@@ -84,7 +76,7 @@ const getFormattedCategory = (
   }
 
   if (propertyName) {
-    return `${featureName} (${toTitleCase(propertyName)})`
+    return `${featureName} (${startCase(propertyName)})`
   }
 
   return featureName
