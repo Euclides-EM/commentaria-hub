@@ -14,6 +14,7 @@ export function useAnnotationsQuery(datasetId: string) {
           })
         : Promise.resolve([]),
     enabled: !!datasetId,
+    refetchInterval: 10 * 1000,
   })
 }
 

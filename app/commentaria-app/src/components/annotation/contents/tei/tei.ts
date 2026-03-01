@@ -38,6 +38,15 @@ export type TeiHighlightConfig = {
   hiddenTeiHighlightIds?: string[]
 }
 
+export type TeiSurfaceZone = {
+  id: string
+  matchIds: string[]
+  ulx: number
+  uly: number
+  lrx: number
+  lry: number
+}
+
 type TeiTranslationSource = {
   label: string
   element: Element
@@ -202,6 +211,9 @@ const parseCorrespRefs = (value: string | null) =>
     .split(/\s+/)
     .map((entry) => entry.replace(/^#/, '').trim())
     .filter(Boolean)
+
+const toUniqueSorted = (values: Array<string | null | undefined>) =>
+  [...new Set(values.map((value) => (value || '').trim()).filter(Boolean))].sort()
 
 const isVerbCategory = (categoryId: string, categoryLabel: string) => {
   const normalized = `${categoryId} ${categoryLabel}`
@@ -525,12 +537,16 @@ const renderStructuredDivToParagraphs = (
             ...trimTextWithAnchors(toReadingTextWithAnchors(line, opts)),
             matchIds:
               lineMatchMode === 'original-id'
-                ? (() => {
-                    const id = getXmlId(line)
-                    return id ? [id] : []
-                  })()
+                ? toUniqueSorted([
+                    getXmlId(line),
+                    ...parseCorrespRefs(line.getAttribute('corresp')),
+                    ...parseCorrespRefs(line.getAttribute('facs')),
+                  ])
                 : lineMatchMode === 'corresp'
-                  ? [...new Set(parseCorrespRefs(line.getAttribute('corresp')))]
+                  ? toUniqueSorted([
+                      ...parseCorrespRefs(line.getAttribute('corresp')),
+                      ...parseCorrespRefs(line.getAttribute('facs')),
+                    ])
                   : [],
           }) satisfies LineTextWithAnchors,
       )
@@ -1058,6 +1074,54 @@ function getBody(doc: Document): Element {
     doc.getElementsByTagNameNS('*', 'text')[0] ||
     doc.documentElement
   return body as Element
+}
+
+const parseZoneCoordinate = (zone: Element, attr: string) =>
+  Number.parseFloat(getElementAttr(zone, attr))
+
+export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
+  try {
+    const doc = parseXml(tei.trim())
+    const zones = doc.getElementsByTagNameNS('*', 'zone')
+    const out: TeiSurfaceZone[] = []
+    for (let index = 0; index < zones.length; index++) {
+      const zone = zones[index]
+      const id = getXmlId(zone)
+      if (!id) {
+        continue
+      }
+      const ulx = parseZoneCoordinate(zone, 'ulx')
+      const uly = parseZoneCoordinate(zone, 'uly')
+      const lrx = parseZoneCoordinate(zone, 'lrx')
+      const lry = parseZoneCoordinate(zone, 'lry')
+      if (
+        !Number.isFinite(ulx) ||
+        !Number.isFinite(uly) ||
+        !Number.isFinite(lrx) ||
+        !Number.isFinite(lry) ||
+        lrx <= ulx ||
+        lry <= uly
+      ) {
+        continue
+      }
+      const matchIds = toUniqueSorted([
+        id,
+        ...parseCorrespRefs(zone.getAttribute('corresp')),
+        ...parseCorrespRefs(zone.getAttribute('facs')),
+      ])
+      out.push({
+        id,
+        matchIds: matchIds.length ? matchIds : [id],
+        ulx,
+        uly,
+        lrx,
+        lry,
+      })
+    }
+    return out
+  } catch {
+    return []
+  }
 }
 
 function applyHighlights(

@@ -3,7 +3,6 @@ import {
   useCallback,
   useEffect,
   useMemo,
-  useRef,
   useState,
 } from 'react'
 import { parseAsString, useQueryStates } from 'nuqs'
@@ -142,10 +141,6 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       null,
     [datasets, state.datasetId],
   )
-  const previousDatasetStateRef = useRef<{
-    datasetId: string
-    status: string | null
-  } | null>(null)
 
   const annotation = useMemo(
     () =>
@@ -182,28 +177,6 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       setQueryState((s) => ({ ...s, annotationId: annotations[0].id! }))
     }
   }, [annotations, setQueryState])
-
-  useEffect(() => {
-    const currentDatasetId = state.datasetId
-    const currentStatus = dataset?.status || null
-    const previousDatasetState = previousDatasetStateRef.current
-
-    if (
-      previousDatasetState &&
-      previousDatasetState.datasetId === currentDatasetId &&
-      previousDatasetState.status === 'creating' &&
-      (currentStatus === 'success' || currentStatus === 'ready')
-    ) {
-      void refetchAnnotations()
-    }
-
-    previousDatasetStateRef.current = currentDatasetId
-      ? {
-          datasetId: currentDatasetId,
-          status: currentStatus,
-        }
-      : null
-  }, [dataset?.status, refetchAnnotations, state.datasetId])
 
   useEffect(() => {
     if (!annotation || !availablePageOrKeys.length) {
