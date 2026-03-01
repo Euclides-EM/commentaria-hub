@@ -64,6 +64,8 @@ export function BreadcrumbNav() {
     datasetOptions.find((d) => d.value === state.datasetId) || null
   const selectedAnnotation =
     annotationOptions.find((a) => a.value === state.annotationId) || null
+  const showAnnotationSelect =
+    !!state.datasetId && (annotationsLoading || (annotations?.length ?? 0) > 0)
 
   const handleDatasetChange = (value: string) => {
     setState({ datasetId: value, annotationId: '' })
@@ -137,7 +139,7 @@ export function BreadcrumbNav() {
         />
       </div>
 
-      {state.datasetId && (
+      {showAnnotationSelect && (
         <div className="flex items-center gap-2 flex-nowrap shrink-0">
           <div className="h-3 w-3 rotate-[-45deg] border-b border-r border-slate-600" />
 
