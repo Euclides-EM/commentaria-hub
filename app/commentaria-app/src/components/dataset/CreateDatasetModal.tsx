@@ -21,11 +21,15 @@ export function CreateDatasetModal({
   onClose,
   onCreated,
 }: CreateDatasetModalProps) {
+  const [facsimileMode, setFacsimileMode] = useState<'existing' | 'url'>(
+    'existing',
+  )
   const { setState, refetch } = useAppState()
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [dpi, setDpi] = useState(DEFAULT_DPI)
   const [facsimileId, setFacsimileId] = useState<string | null>(null)
+  const [facsimileUrl, setFacsimileUrl] = useState('')
   const [pages, setPages] = useState('')
   const [deskewed, setDeskewed] = useState(true)
   const [asyncCreate, setAsyncCreate] = useState(true)
@@ -53,7 +57,8 @@ export function CreateDatasetModal({
   }, [facsimiles])
 
   const selectedFacsimileLabel =
-    facsimileOptions.find((o) => o.value === facsimileId)?.label ?? null
+    facsimileOptions.find((o) => o.value.split('/')[0] === facsimileId)
+      ?.label ?? null
 
   const handleCopyFacsimile = () => {
     if (!selectedFacsimileLabel) return
@@ -65,10 +70,12 @@ export function CreateDatasetModal({
 
   useEffect(() => {
     if (isOpen) {
+      setFacsimileMode('existing')
       setName('')
       setDescription('')
       setDpi(DEFAULT_DPI)
       setFacsimileId(null)
+      setFacsimileUrl('')
       setFacsimileCopied(false)
       setPages('')
       setDeskewed(true)
@@ -85,19 +92,46 @@ export function CreateDatasetModal({
       setError('Please provide a name.')
       return
     }
-    if (!facsimileId) {
-      setError('Please select a facsimile.')
-      return
-    }
     try {
       setError(null)
       setLoading(true)
+      let datasetFacsimileId: string
+      if (facsimileMode === 'existing') {
+        if (!facsimileId) {
+          setError('Please select a facsimile.')
+          return
+        }
+        datasetFacsimileId = facsimileId
+      } else {
+        const url = facsimileUrl.trim()
+        if (!url) {
+          setError('Please provide a facsimile URL.')
+          return
+        }
+        let parsedUrl: URL
+        try {
+          parsedUrl = new URL(url)
+        } catch {
+          setError('Please provide a valid facsimile URL.')
+          return
+        }
+        const createdFacsimile = await FacsimilesService.postFacsimilies({
+          facsimile: {
+            scan_url: parsedUrl.toString(),
+          },
+        })
+        if (!createdFacsimile.id) {
+          setError('Failed to create facsimile from URL.')
+          return
+        }
+        datasetFacsimileId = createdFacsimile.id
+      }
       const dataset = await DatasetsService.postDatasets({
         dataset: {
           name: name.trim(),
           description: description.trim() || undefined,
           dpi: dpi || undefined,
-          facsimile_id: facsimileId,
+          facsimile_id: datasetFacsimileId,
           pages: pages.trim() || undefined,
           deskewed,
         },
@@ -181,39 +215,74 @@ export function CreateDatasetModal({
             <label className="block text-sm font-medium text-gray-700">
               Facsimile
             </label>
-            <div className="flex items-center gap-2">
-              <div className="flex-1 min-w-0">
-                <Select
-                  value={
-                    facsimileOptions.find(
-                      (o) => o.value.split('/')[0] === facsimileId,
-                    ) ?? null
-                  }
-                  onChange={(opt) =>
-                    setFacsimileId(opt?.value.split('/')[0] || null)
-                  }
-                  options={facsimileOptions}
-                  placeholder="Select facsimile..."
-                  isLoading={facsimilesLoading}
-                  isDisabled={loading}
-                  styles={selectStyles<{ value: string; label: string }>({
-                    controlWidth: '100%',
-                  })}
-                  menuPortalTarget={document.body}
-                  menuPosition="fixed"
-                />
-              </div>
-              {selectedFacsimileLabel && (
-                <Button
-                  type="button"
-                  className="px-2 py-1.5 text-xs shrink-0"
-                  onClick={handleCopyFacsimile}
+            <div className="flex items-center gap-4">
+              <label className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="radio"
+                  name="facsimile-mode"
+                  value="existing"
+                  checked={facsimileMode === 'existing'}
+                  onChange={() => setFacsimileMode('existing')}
                   disabled={loading}
-                >
-                  {facsimileCopied ? 'Copied!' : 'Copy'}
-                </Button>
-              )}
+                />
+                Select existing
+              </label>
+              <label className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="radio"
+                  name="facsimile-mode"
+                  value="url"
+                  checked={facsimileMode === 'url'}
+                  onChange={() => setFacsimileMode('url')}
+                  disabled={loading}
+                />
+                Import from URL
+              </label>
             </div>
+            {facsimileMode === 'existing' ? (
+              <div className="flex items-center gap-2">
+                <div className="flex-1 min-w-0">
+                  <Select
+                    value={
+                      facsimileOptions.find(
+                        (o) => o.value.split('/')[0] === facsimileId,
+                      ) ?? null
+                    }
+                    onChange={(opt) =>
+                      setFacsimileId(opt?.value.split('/')[0] || null)
+                    }
+                    options={facsimileOptions}
+                    placeholder="Select facsimile..."
+                    isLoading={facsimilesLoading}
+                    isDisabled={loading}
+                    styles={selectStyles<{ value: string; label: string }>({
+                      controlWidth: '100%',
+                    })}
+                    menuPortalTarget={document.body}
+                    menuPosition="fixed"
+                  />
+                </div>
+                {selectedFacsimileLabel && (
+                  <Button
+                    type="button"
+                    className="px-2 py-1.5 text-xs shrink-0"
+                    onClick={handleCopyFacsimile}
+                    disabled={loading}
+                  >
+                    {facsimileCopied ? 'Copied!' : 'Copy'}
+                  </Button>
+                )}
+              </div>
+            ) : (
+              <input
+                type="url"
+                value={facsimileUrl}
+                onChange={(e) => setFacsimileUrl(e.target.value)}
+                placeholder="https://example.org/facsimile"
+                className="w-full p-2 border border-gray-300 rounded-md"
+                disabled={loading}
+              />
+            )}
           </div>
 
           <div className="space-y-2">
