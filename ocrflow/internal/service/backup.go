@@ -59,14 +59,15 @@ func (s *Backup) ListBackups() ([]string, error) {
 			continue
 		}
 		n := e.Name()
-		if strings.HasSuffix(strings.ToLower(n), ".zip") {
-			names = append(names, strings.TrimSuffix(strings.ToLower(n), ".zip"))
+
+		// case-insensitive check for .zip, but preserve original name
+		if strings.EqualFold(filepath.Ext(n), ".zip") {
+			names = append(names, strings.TrimSuffix(n, filepath.Ext(n)))
 		}
 	}
 
 	sort.Slice(names, func(i, j int) bool {
-		// Desc by name (timestamped name sorts naturally).
-		return names[i] > names[j]
+		return names[i] > names[j] // timestamped names sort naturally
 	})
 
 	return names, nil
@@ -263,7 +264,7 @@ func (s *Backup) CreateBackupFromZip(file multipart.File, f func(dstPath string)
 
 	// validations can be added here if needed, e.g. check for expected files/dirs in the extracted content.
 
-	if err := futils.CopyFile(dst.Name(), filepath.Join(s.backupdir, "backup_%s.zip", time.Now().UTC().Format("20060102T150405Z"))); err != nil {
+	if err := futils.CopyFile(dst.Name(), filepath.Join(s.backupdir, fmt.Sprintf("backup_%s.zip", time.Now().UTC().Format("20060102T150405Z")))); err != nil {
 		return "", fmt.Errorf("create backup from zip: save backup: %w", err)
 	}
 

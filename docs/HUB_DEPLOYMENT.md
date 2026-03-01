@@ -82,6 +82,16 @@ source ~/.bashrc
 go install github.com/swaggo/swag/cmd/swag@latest
 ```
 
+## Install uv for Python (kraken integration)
+
+```bash
+sudo -iu euclides
+source ~/.bashrc
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv --version
+cd /srv/euclides/projects/commentaria-hub/python-tools
+uv sync
+```
 
 ## Add env file
 
@@ -95,14 +105,17 @@ Add (minimally):
 ```dotenv
 HTTP_ADDR=127.0.0.1:8090
 STORE_DIR=/srv/euclides/projects/commentaria-hub/ocrflow/store
+BACKUP_ROOT_DIR=/srv/euclides/projects/commentaria-hub/ocrflow/full_backups
 ESCRIPTORIUM_USERNAME=admin
 ESCRIPTORIUM_PASSWORD=
 GITHUB_TOKEN=***
 ROBOFLOW_API_KEY=***
+UV_PATH=<path/to/uv/executable/if/not/in/PATH>
 ```
 
 Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_private` file.
 Use the `ESCRIPTORIUM_USERNAME` and `ESCRIPTORIUM_PASSWORD` that you set up in the eScriptorium deployment, you can check it by running:
+Use the output of `which uv` for `UV_PATH`.
 
 ```bash
 sudo -iu euclides
@@ -297,3 +310,5 @@ sudo systemctl restart commentaria-hub-api
 sudo systemctl status commentaria-hub-api
 sudo journalctl -u commentaria-hub-api -n 200 --no-pager
 ```
+
+If you update the Python dependencies (under `python-tools`), you must also run `uv sync` before building the Go backend, since the Go code calls the Python code for dataset creation. You can run `uv sync` as euclides, it will use the existing virtual environment created during setup.
