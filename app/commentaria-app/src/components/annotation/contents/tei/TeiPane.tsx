@@ -807,13 +807,6 @@ const groupByFeature = (highlights: DraftHighlight[]) => {
   return grouped
 }
 
-const debugTeiHighlights = (...args: unknown[]) => {
-  if (!import.meta.env.DEV) {
-    return
-  }
-  console.log('[TeiPane highlights]', ...args)
-}
-
 const toDraftHighlightsFromResults = (
   results: feature_Result[],
 ): DraftHighlight[] => {
@@ -1310,14 +1303,6 @@ export function TeiPane() {
   ])
 
   const removeHighlightFromTooltip = (item: TeiTooltipItem) => {
-    debugTeiHighlights('remove-click', {
-      id: item.id,
-      featureId: item.featureId,
-      paragraphIndex: item.paragraphIndex,
-      start: item.start,
-      end: item.end,
-      surface: item.surface,
-    })
     setRemovedTeiHighlightIds((previous) =>
       previous.includes(item.id) ? previous : [...previous, item.id],
     )
@@ -1348,19 +1333,11 @@ export function TeiPane() {
           matchedIndexes.push(index)
         }
       }
-      debugTeiHighlights('remove-match', {
-        draftCountBefore: previous.length,
-        matchedIndexes,
-      })
 
       if (matchedIndexes.length > 0) {
         const next = previous.filter(
           (_, index) => !matchedIndexes.includes(index),
         )
-        debugTeiHighlights('remove-result', {
-          draftCountAfter: next.length,
-          strategy: 'matchedIndexes',
-        })
         return next
       }
 
@@ -1369,18 +1346,9 @@ export function TeiPane() {
       )
       if (fallbackIndex >= 0) {
         const next = previous.filter((_, index) => index !== fallbackIndex)
-        debugTeiHighlights('remove-result', {
-          draftCountAfter: next.length,
-          strategy: 'fallbackFeatureId',
-          fallbackIndex,
-        })
         return next
       }
 
-      debugTeiHighlights('remove-result', {
-        draftCountAfter: previous.length,
-        strategy: 'no-op',
-      })
       return previous
     })
     setForcedChangedFeatureIds((previous) =>
@@ -1428,22 +1396,6 @@ export function TeiPane() {
     })
     return [...new Set([...changedByDiff, ...forcedChangedFeatureIds])]
   }, [baselineHighlights, draftHighlights, forcedChangedFeatureIds])
-
-  useEffect(() => {
-    debugTeiHighlights('dirty-state', {
-      baselineHighlights: baselineHighlights.length,
-      draftHighlights: draftHighlights.length,
-      changedFeatureIds,
-      removedTeiHighlightIds,
-      forcedChangedFeatureIds,
-    })
-  }, [
-    baselineHighlights.length,
-    changedFeatureIds,
-    draftHighlights.length,
-    forcedChangedFeatureIds,
-    removedTeiHighlightIds,
-  ])
 
   const unsavedFeatureCount = changedFeatureIds.length
   const hasUnsavedChanges = unsavedFeatureCount > 0

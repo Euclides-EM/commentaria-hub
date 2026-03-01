@@ -88,7 +88,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		fileSystemManager,
 	)
 	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir())
-	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager)
+	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc)
 
 	log.Printf("warming geo cache...")
 	if err := geoStore.WarmCache(); err != nil {

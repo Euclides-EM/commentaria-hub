@@ -4,6 +4,7 @@ import {
   useAnnotationCategories,
   useAnnotationSearch,
 } from '../../../../queries/annotations.ts'
+import { useDatasetFeaturesQuery } from '../../../../queries/datasets.ts'
 import { useAppState } from '../../../../context/useAppState.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import { SearchInput } from '../../../core/SearchInput.tsx'
@@ -49,11 +50,72 @@ const buildSnippet = (content: string, maxLength = 64) => {
   return `${prefix}${beforeTrim}${matchHtml}${afterTrim}${suffix}`
 }
 
-const getResultKey = (result: common_ALTOPart, index: number) =>
-  `${result.location?.page ?? 'p'}-${result.category ?? 'c'}-${index}`
+const getResultKey = (
+  result: common_ALTOPart,
+  index: number,
+) => {
+  return `${result.location?.page ?? 'p'}-${result.category ?? 'c'}-${index}`
+}
+
+const toTitleCase = (value: string) =>
+  value
+    .replace(/[._-]+/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ')
+
+const getFormattedCategory = (
+  category: string | undefined,
+  featureNameById: Map<string, string>,
+  shouldDeriveFromPattern: boolean,
+) => {
+  if (!category) return 'Uncategorized'
+  if (!shouldDeriveFromPattern) return category
+
+  const match = category.match(/^feature\.([^.]+)\.(surface|property\.(.+))$/)
+  if (!match) return category
+
+  const featureId = match[1]
+  const suffix = match[2]
+  const propertyName = match[3]
+  const featureName = featureNameById.get(featureId) || featureId
+
+  if (suffix === 'surface') {
+    return featureName
+  }
+
+  if (propertyName) {
+    return `${featureName} (${toTitleCase(propertyName)})`
+  }
+
+  return featureName
+}
+
+const getResultLocationDisplay = (result: common_ALTOPart) => {
+  if (result.location?.page === 0 && result.location.text_block_id) {
+    return result.location.text_block_id
+  }
+  if (result.location?.page) {
+    return `p. ${result.location.page}`
+  }
+  return null
+}
+
+const getResultJumpTarget = (result: common_ALTOPart): number | string | null => {
+  if (result.location?.page === 0 && result.location.text_block_id) {
+    return result.location.text_block_id
+  }
+  if (result.location?.page) {
+    return result.location.page
+  }
+  return null
+}
 
 export function AnnotationSearchMenu() {
-  const { state, jumpToPage, setSearchResultHighlight } = useAppState()
+  const { state, jumpToPage, setSearchResultHighlight } =
+    useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
     'annotationSearchTerm',
     { defaultValue: '' },
@@ -65,7 +127,9 @@ export function AnnotationSearchMenu() {
     defaultValue: null,
   })
 
-  const { data: categories } = useAnnotationCategories(
+  const {
+    data: categories,
+  } = useAnnotationCategories(
     state.datasetId,
     state.annotationId,
   )
@@ -100,19 +164,29 @@ export function AnnotationSearchMenu() {
     [activeCategories],
   )
 
-  const {
-    data: searchResults,
-    isLoading,
-    error,
-  } = useAnnotationSearch(
+  const annotationSearchQuery = useAnnotationSearch(
     state.datasetId,
     state.annotationId,
     normalizedSearch,
     sortedCategories,
   )
 
-  const results = searchResults?.results ?? []
+  const results = annotationSearchQuery.data?.results ?? []
+  const isLoading = annotationSearchQuery.isLoading
+  const error = annotationSearchQuery.error
   const hasCategories = (categories?.length ?? 0) > 0
+  const featureDefinitionsQuery = useDatasetFeaturesQuery(
+    state.datasetId,
+    !hasCategories,
+  )
+  const featureNameById = useMemo(() => {
+    const lookup = new Map<string, string>()
+    for (const feature of featureDefinitionsQuery.data ?? []) {
+      if (!feature.id) continue
+      lookup.set(feature.id, feature.name?.trim() || feature.id)
+    }
+    return lookup
+  }, [featureDefinitionsQuery.data])
 
   return (
     <div className="flex flex-col min-h-0 h-full mr-1">
@@ -161,36 +235,44 @@ export function AnnotationSearchMenu() {
             <div className="text-xs text-gray-500">
               Listing {results.length} results
             </div>
-            {results.map((result, index) => (
-              <div
-                key={getResultKey(result, index)}
-                className="border border-gray-200 rounded-lg p-2 text-xs bg-white hover:bg-gray-50 transition-colors cursor-pointer"
-                onClick={() => {
-                  if (result.location?.page) {
-                    jumpToPage(result.location.page)
-                  }
-                  setSearchResultHighlight(result.content || null)
-                }}
-              >
-                <div className="flex items-center justify-between text-[11px] text-gray-500 mb-1">
-                  <span>{result.category || 'Uncategorized'}</span>
-                  {result.location?.page && (
-                    <span>p. {result.location.page}</span>
-                  )}
+            {results.map((result, index) => {
+              const locationLabel = getResultLocationDisplay(result)
+              return (
+                <div
+                  key={getResultKey(result, index)}
+                  className="border border-gray-200 rounded-lg p-2 text-xs bg-white hover:bg-gray-50 transition-colors cursor-pointer"
+                  onClick={() => {
+                    const jumpTarget = getResultJumpTarget(result)
+                    if (jumpTarget != null) {
+                      jumpToPage(jumpTarget)
+                    }
+                    setSearchResultHighlight(result.content || null)
+                  }}
+                >
+                  <div className="flex items-center justify-between text-[11px] text-gray-500 mb-1">
+                    <span>
+                      {getFormattedCategory(
+                        result.category,
+                        featureNameById,
+                        !hasCategories,
+                      )}
+                    </span>
+                    {locationLabel && <span>{locationLabel}</span>}
+                  </div>
+                  <div className="text-gray-800 leading-snug">
+                    {result.content ? (
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: buildSnippet(result.content),
+                        }}
+                      />
+                    ) : (
+                      'No content'
+                    )}
+                  </div>
                 </div>
-                <div className="text-gray-800 leading-snug">
-                  {result.content ? (
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: buildSnippet(result.content),
-                      }}
-                    />
-                  ) : (
-                    'No content'
-                  )}
-                </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         )}
       </div>
