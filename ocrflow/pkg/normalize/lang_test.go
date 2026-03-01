@@ -14,7 +14,7 @@ func TestLanguage(t *testing.T) {
 	}{
 		{"latin", []MappedOriginal{{"latin", "Latin"}}},
 		{"greek", []MappedOriginal{{"greek", "Greek"}}},
-		{"françois", []MappedOriginal{{"françois", "French"}}},
+		{"françois", []MappedOriginal{{"francois", "French"}}},
 		{"italien", []MappedOriginal{{"italien", "Italian"}}},
 		{"spanish", []MappedOriginal{{"spanish", "Spanish"}}},
 		{"german", []MappedOriginal{{"german", "German"}}},
@@ -25,8 +25,8 @@ func TestLanguage(t *testing.T) {
 
 		// Multiple languages
 		{"latin, greek", []MappedOriginal{{"latin", "Latin"}, {"greek", "Greek"}}},
-		{"aristotele alijsque græcis & latinis autoribus", []MappedOriginal{{"greek", "græcis"}, {"latin", "latinis"}}},
-		{"in Platone, Aristotele alijsque Græcis & Latinis autoribus", []MappedOriginal{{"Græcis", "Greek"}, {"Latinis", "Latin"}}},
+		{"aristotele alijsque græcis & latinis autoribus", []MappedOriginal{{"latin", "Latin"}, {"græc", "Greek"}}},
+		{"in Platone, Aristotele alijsque Græcis & Latinis autoribus", []MappedOriginal{{"latin", "Latin"}, {"græc", "Greek"}}},
 
 		// No matches
 		{"unknown language", []MappedOriginal{}},
