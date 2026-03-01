@@ -29,6 +29,10 @@ type Backup struct {
 	restoreFromBackupPath string
 
 	shutdownFunc func() error
+	// checkpointDB, if set, is called before copying the DB file into the backup.
+	// It should run PRAGMA wal_checkpoint(FULL) so the main .db file contains all data
+	// (otherwise in WAL mode only the main file is copied and recent writes are missing).
+	checkpointDB func() error
 }
 
 func NewBackup(baseData, models, items, db, backupDir, restoreDir string, shutdownFunc func() error) *Backup {
@@ -73,6 +77,12 @@ func (s *Backup) ListBackups() ([]string, error) {
 	return names, nil
 }
 
+// SetCheckpointFunc sets the function to run before copying the DB into a backup (e.g. PRAGMA wal_checkpoint(FULL)).
+// Call this after the DB is opened so backups include all committed data when SQLite is in WAL mode.
+func (s *Backup) SetCheckpointFunc(f func() error) {
+	s.checkpointDB = f
+}
+
 // CreateBackup creates a new backup of the current system state.
 func (s *Backup) CreateBackup() (string, error) {
 	if err := s.ensureBackupDir(); err != nil {
@@ -111,6 +121,13 @@ func (s *Backup) CreateBackup() (string, error) {
 	}
 	if err := addDirToZip(zw, s.itemsMetadataDir, "items_metadata"); err != nil {
 		return "", err
+	}
+	// Flush WAL into the main DB file before copying, so the backup contains all data.
+	// Without this, on systems using WAL mode only the main file is copied and recent writes are in the -wal file.
+	if s.checkpointDB != nil {
+		if err := s.checkpointDB(); err != nil {
+			return "", fmt.Errorf("create backup: checkpoint db: %w", err)
+		}
 	}
 	if err := addFileToZip(zw, s.dbPath, filepath.Join("db", filepath.Base(s.dbPath))); err != nil {
 		return "", err
