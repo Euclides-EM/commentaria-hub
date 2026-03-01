@@ -48,7 +48,7 @@ const normalizeTeiViewModes = (
   const allowed = new Set(allowedViewModes)
   const next = viewModes.filter((mode) => allowed.has(mode))
   if (!next.length) {
-    return ['original']
+    return allowedViewModes
   }
   return next
 }
@@ -733,16 +733,21 @@ const featureSelectStyles: StylesConfig<FeatureOption, true> = {
     ...base,
     backgroundColor: state.data.color || '#f2f2f2',
     borderRadius: 4,
+    padding: '0 2px',
   }),
   multiValueLabel: (base) => ({
     ...base,
     color: '#111827',
     fontWeight: 600,
+    fontSize: '11px',
+    lineHeight: 1.1,
+    padding: '2px 4px',
     maxWidth: 240,
   }),
   multiValueRemove: (base) => ({
     ...base,
     color: '#111827',
+    padding: '0 3px',
     ':hover': { backgroundColor: 'rgba(255,255,255,0.6)', color: '#111827' },
   }),
 }
@@ -1006,7 +1011,7 @@ export function TeiPane({
   const teiContents = data ?? null
   const [teiViewModes, setTeiViewModes] = useLocalStorageState<TeiViewMode[]>(
     'teiViewModes',
-    { defaultValue: ['original'] },
+    { defaultValue: [] },
   )
 
   const teiTranslations = useMemo<TeiTranslation[]>(
