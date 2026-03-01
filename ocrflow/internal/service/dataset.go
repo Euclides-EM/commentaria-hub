@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"strings"
 	"time"
 
@@ -15,6 +16,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/name"
@@ -70,8 +72,8 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDa
 	if targetFacsimile.ScanURL == "" {
 		return nil, fmt.Errorf("facsimile has no scan URL")
 	}
-	if !ghwrapper.IsGitHubTreeURL(targetFacsimile.ScanURL) {
-		return nil, fmt.Errorf("only GitHub tree URLs are supported currently")
+	if !ghwrapper.IsGitHubTreeURL(targetFacsimile.ScanURL) && !futils.IsLocalFileURL(targetFacsimile.ScanURL) {
+		return nil, fmt.Errorf("only GitHub tree URLs and URLs pointing to locally stored files are currently supported")
 	}
 	if ds.EditionID != "" && targetFacsimile.EditionID != ds.EditionID {
 		return nil, fmt.Errorf("dataset edition ID %s does not match facsimile edition ID %s", ds.EditionID, targetFacsimile.EditionID)
@@ -148,8 +150,20 @@ func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, sca
 func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string) (*model.Dataset, error) {
 	pdfPath := d.fileSysMgt.DatasetPDFPath(ds)
 	log.Printf("Downloading facsimile from %s to %s", scanURL, pdfPath)
-	if err := d.githubDownloader.DownloadRecursive(ctx, scanURL, pdfPath); err != nil {
-		return nil, fmt.Errorf("failed to download facsimile: %w", err)
+	if ghwrapper.IsGitHubTreeURL(pdfPath) {
+		if err := d.githubDownloader.DownloadRecursive(ctx, scanURL, pdfPath); err != nil {
+			return nil, fmt.Errorf("failed to download facsimile: %w", err)
+		}
+	} else if localPath, err := futils.URLToLocalFilePath(scanURL); err == nil {
+		destRootAbs, err := filepath.Abs(pdfPath)
+		if err != nil {
+			return nil, fmt.Errorf("failed to resolve dest: %w", err)
+		}
+		if err := futils.CopyFile(localPath, destRootAbs); err != nil {
+			return nil, fmt.Errorf("failed to copy local facsimile from %s to %s: %w", localPath, pdfPath, err)
+		}
+	} else {
+		return nil, fmt.Errorf("unsupported scan URL format or invalid URL: %s", scanURL)
 	}
 	defer func() {
 		if err := os.Remove(pdfPath); err != nil {

@@ -1,36 +1,55 @@
 package normalize
 
 import (
-	"strings"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestLanguage(t *testing.T) {
 
 	tests := []struct {
 		input string
-		want  string
+		want  []MappedOriginal
 	}{
-		{"latin", "Latin"},
-		{"greek", "Greek"},
-		{"françois", "French"},
-		{"italien", "Italian"},
-		{"spanish", "Spanish"},
-		{"german", "German"},
-		{"nederduyts", "Dutch"},
-		{"arabic", "Arabic"},
-		{"english", "English"},
-		{"romance", "General-Vernacular"},
+		{"latin", []MappedOriginal{{"latin", "Latin"}}},
+		{"greek", []MappedOriginal{{"greek", "Greek"}}},
+		{"françois", []MappedOriginal{{"françois", "French"}}},
+		{"italien", []MappedOriginal{{"italien", "Italian"}}},
+		{"spanish", []MappedOriginal{{"spanish", "Spanish"}}},
+		{"german", []MappedOriginal{{"german", "German"}}},
+		{"nederduyts", []MappedOriginal{{"nederduyts", "Dutch"}}},
+		{"arabic", []MappedOriginal{{"arabic", "Arabic"}}},
+		{"english", []MappedOriginal{{"english", "English"}}},
+		{"romance", []MappedOriginal{{"romance", "General-Vernacular"}}},
 
 		// Multiple languages
-		{"latin, greek", "Latin::Greek"},
-		{"aristotele alijsque græcis & latinis autoribus", "Greek::Latin"},
-		{"in Platone, Aristotele alijsque Græcis & Latinis autoribus", "Greek::Latin"},
+		{"latin, greek", []MappedOriginal{{"latin", "Latin"}, {"greek", "Greek"}}},
+		{"aristotele alijsque græcis & latinis autoribus", []MappedOriginal{{"greek", "græcis"}, {"latin", "latinis"}}},
+		{"in Platone, Aristotele alijsque Græcis & Latinis autoribus", []MappedOriginal{{"Græcis", "Greek"}, {"Latinis", "Latin"}}},
+
+		// No matches
+		{"unknown language", []MappedOriginal{}},
+
+		// Case insensitivity
+		{"LATIN", []MappedOriginal{{"latin", "Latin"}}},
+
+		// Leading/trailing whitespace
+		{"  latin  ", []MappedOriginal{{"latin", "Latin"}}},
+
+		// Empty input
+		{"", []MappedOriginal{}},
+
+		// Input with extra punctuation
+		{"latin; greek", []MappedOriginal{{"latin", "Latin"}, {"greek", "Greek"}}},
 	}
 
 	for _, tt := range tests {
-		if got := Language(tt.input); strings.Join(got, "::") != tt.want {
-			t.Errorf("Language(%q) = %q, want %q", tt.input, got, tt.want)
-		}
+		t.Run(tt.input, func(t *testing.T) {
+			got := Language(tt.input)
+			if !assert.ElementsMatch(t, got, tt.want) {
+				t.Logf("Language(%q) = %v, want %v", tt.input, got, tt.want)
+			}
+		})
 	}
 }
