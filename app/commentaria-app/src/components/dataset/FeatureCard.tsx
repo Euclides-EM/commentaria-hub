@@ -248,7 +248,7 @@ export function FeatureCard({
                     {revision.prompt || '—'}
                   </div>
                 )}
-                {revision.categorizer && (
+                {revision.categorizer && !revision.prompt && (
                   <div>
                     <span className="font-semibold">Categorizer:</span>
                     {'\n'}
