@@ -2,6 +2,7 @@ package envexec
 
 import (
 	"log"
+	"os"
 	"path/filepath"
 	"runtime"
 	"strings"
@@ -17,7 +18,7 @@ func PythonCmd(name string, args ...string) error {
 
 	log.Printf("Executing Python command: uv %s", strings.Join(fullArgs, " "))
 
-	return Cmd("uv", fullArgs...)
+	return Cmd(getUVPythonPath(), fullArgs...)
 }
 
 func PythonCmdWithEnv(env map[string]string, name string, args ...string) error {
@@ -30,7 +31,7 @@ func PythonCmdWithEnv(env map[string]string, name string, args ...string) error 
 
 	log.Printf("Executing Python command with env: uv %s", strings.Join(fullArgs, " "))
 
-	return CmdWithEnv(env, "uv", fullArgs...)
+	return CmdWithEnv(env, getUVPythonPath(), fullArgs...)
 }
 
 func PythonBashCmd(bashCmd string) error {
@@ -38,9 +39,17 @@ func PythonBashCmd(bashCmd string) error {
 	rootDir := filepath.Join(filepath.Dir(filename), "..", "..", "..")
 	pythonToolsDir := filepath.Join(rootDir, "python-tools")
 
-	wrappedCmd := "uv run --project " + pythonToolsDir + " " + bashCmd
+	wrappedCmd := getUVPythonPath() + " run --project " + pythonToolsDir + " " + bashCmd
 
 	log.Printf("Executing Python bash command: bash -c \"%s\"", wrappedCmd)
 
 	return Cmd("bash", "-c", wrappedCmd)
+}
+
+func getUVPythonPath() string {
+	uv := os.Getenv("UV_PATH")
+	if uv == "" {
+		return "uv"
+	}
+	return uv
 }
