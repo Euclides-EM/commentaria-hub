@@ -41,10 +41,15 @@ export type TeiHighlightConfig = {
 export type TeiSurfaceZone = {
   id: string
   matchIds: string[]
+  zoneType: 'line' | 'block'
   ulx: number
   uly: number
   lrx: number
   lry: number
+  refUlx: number
+  refUly: number
+  refLrx: number
+  refLry: number
 }
 
 type TeiTranslationSource = {
@@ -213,7 +218,9 @@ const parseCorrespRefs = (value: string | null) =>
     .filter(Boolean)
 
 const toUniqueSorted = (values: Array<string | null | undefined>) =>
-  [...new Set(values.map((value) => (value || '').trim()).filter(Boolean))].sort()
+  [
+    ...new Set(values.map((value) => (value || '').trim()).filter(Boolean)),
+  ].sort()
 
 const isVerbCategory = (categoryId: string, categoryLabel: string) => {
   const normalized = `${categoryId} ${categoryLabel}`
@@ -439,6 +446,26 @@ const getLineElements = (container: Element): Element[] => {
   return out
 }
 
+const getMatchIdsForElement = (
+  element: Element,
+  lineMatchMode: LineMatchMode,
+) => {
+  if (lineMatchMode === 'original-id') {
+    return toUniqueSorted([
+      getXmlId(element),
+      ...parseCorrespRefs(element.getAttribute('corresp')),
+      ...parseCorrespRefs(element.getAttribute('facs')),
+    ])
+  }
+  if (lineMatchMode === 'corresp') {
+    return toUniqueSorted([
+      ...parseCorrespRefs(element.getAttribute('corresp')),
+      ...parseCorrespRefs(element.getAttribute('facs')),
+    ])
+  }
+  return []
+}
+
 const joinLineTexts = (
   lines: LineTextWithAnchors[],
   alignLines: boolean,
@@ -535,19 +562,7 @@ const renderStructuredDivToParagraphs = (
         (line) =>
           ({
             ...trimTextWithAnchors(toReadingTextWithAnchors(line, opts)),
-            matchIds:
-              lineMatchMode === 'original-id'
-                ? toUniqueSorted([
-                    getXmlId(line),
-                    ...parseCorrespRefs(line.getAttribute('corresp')),
-                    ...parseCorrespRefs(line.getAttribute('facs')),
-                  ])
-                : lineMatchMode === 'corresp'
-                  ? toUniqueSorted([
-                      ...parseCorrespRefs(line.getAttribute('corresp')),
-                      ...parseCorrespRefs(line.getAttribute('facs')),
-                    ])
-                  : [],
+            matchIds: getMatchIdsForElement(line, lineMatchMode),
           }) satisfies LineTextWithAnchors,
       )
       const blocks = joinLineTexts(renderedLines, opts.alignLines)
@@ -557,9 +572,14 @@ const renderStructuredDivToParagraphs = (
       continue
     }
 
+    const block = trimTextWithAnchors(toReadingTextWithAnchors(container, opts))
+    const blockMatchIds = getMatchIdsForElement(container, lineMatchMode)
     paragraphs.push({
-      ...trimTextWithAnchors(toReadingTextWithAnchors(container, opts)),
-      lineRanges: [],
+      ...block,
+      lineRanges:
+        blockMatchIds.length > 0 && block.text.length > 0
+          ? [{ start: 0, end: block.text.length, matchIds: blockMatchIds }]
+          : [],
     })
   }
 
@@ -1079,17 +1099,115 @@ function getBody(doc: Document): Element {
 const parseZoneCoordinate = (zone: Element, attr: string) =>
   Number.parseFloat(getElementAttr(zone, attr))
 
+const parseBoundsFromElement = (element: Element | null) => {
+  if (!element) {
+    return null
+  }
+  const ulx = Number.parseFloat(getElementAttr(element, 'ulx'))
+  const uly = Number.parseFloat(getElementAttr(element, 'uly'))
+  const lrx = Number.parseFloat(getElementAttr(element, 'lrx'))
+  const lry = Number.parseFloat(getElementAttr(element, 'lry'))
+  if (
+    !Number.isFinite(ulx) ||
+    !Number.isFinite(uly) ||
+    !Number.isFinite(lrx) ||
+    !Number.isFinite(lry) ||
+    lrx <= ulx ||
+    lry <= uly
+  ) {
+    return null
+  }
+  return { ulx, uly, lrx, lry }
+}
+
+const almostEqual = (left: number, right: number, epsilon = 0.001) =>
+  Math.abs(left - right) <= epsilon
+
+const sameBounds = (
+  left: { ulx: number; uly: number; lrx: number; lry: number } | null,
+  right: { ulx: number; uly: number; lrx: number; lry: number } | null,
+) => {
+  if (!left && !right) {
+    return true
+  }
+  if (!left || !right) {
+    return false
+  }
+  return (
+    almostEqual(left.ulx, right.ulx) &&
+    almostEqual(left.uly, right.uly) &&
+    almostEqual(left.lrx, right.lrx) &&
+    almostEqual(left.lry, right.lry)
+  )
+}
+
+const zoneContains = (
+  block: { ulx: number; uly: number; lrx: number; lry: number },
+  zone: { ulx: number; uly: number; lrx: number; lry: number },
+  tolerance = 1,
+) =>
+  zone.ulx >= block.ulx - tolerance &&
+  zone.uly >= block.uly - tolerance &&
+  zone.lrx <= block.lrx + tolerance &&
+  zone.lry <= block.lry + tolerance
+
+const toZoneType = (zone: Element) =>
+  [
+    getElementAttr(zone, 'type'),
+    getElementAttr(zone, 'subtype'),
+    getElementAttr(zone, 'rendition'),
+  ]
+    .join(' ')
+    .toLowerCase()
+
+const isTextBlockType = (value: string) =>
+  /text[\s_-]*block/.test(value.replace('#', ' '))
+
+const getBlockToLineZoneLinks = (doc: Document) => {
+  const links = new Map<string, Set<string>>()
+  const blocks = doc.getElementsByTagNameNS('*', 'ab')
+  for (let index = 0; index < blocks.length; index++) {
+    const block = blocks[index]
+    const blockZoneIds = parseCorrespRefs(block.getAttribute('facs'))
+    if (!blockZoneIds.length) {
+      continue
+    }
+    const lines = block.getElementsByTagNameNS('*', 'l')
+    for (let lineIndex = 0; lineIndex < lines.length; lineIndex++) {
+      const lineZoneIds = parseCorrespRefs(
+        lines[lineIndex].getAttribute('facs'),
+      )
+      for (const blockZoneId of blockZoneIds) {
+        const current = links.get(blockZoneId) || new Set<string>()
+        for (const lineZoneId of lineZoneIds) {
+          current.add(lineZoneId)
+        }
+        links.set(blockZoneId, current)
+      }
+    }
+  }
+  return links
+}
+
 export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
   try {
     const doc = parseXml(tei.trim())
     const zones = doc.getElementsByTagNameNS('*', 'zone')
-    const out: TeiSurfaceZone[] = []
+    const parsed: Array<
+      Omit<TeiSurfaceZone, 'refUlx' | 'refUly' | 'refLrx' | 'refLry'> & {
+        parentBounds: {
+          ulx: number
+          uly: number
+          lrx: number
+          lry: number
+        } | null
+        type: string
+        element: Element
+      }
+    > = []
     for (let index = 0; index < zones.length; index++) {
       const zone = zones[index]
-      const id = getXmlId(zone)
-      if (!id) {
-        continue
-      }
+      const id = getXmlId(zone) || `zone:${index}`
       const ulx = parseZoneCoordinate(zone, 'ulx')
       const uly = parseZoneCoordinate(zone, 'uly')
       const lrx = parseZoneCoordinate(zone, 'lrx')
@@ -1109,16 +1227,122 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
         ...parseCorrespRefs(zone.getAttribute('corresp')),
         ...parseCorrespRefs(zone.getAttribute('facs')),
       ])
-      out.push({
+      const parentBounds = parseBoundsFromElement(zone.closest('surface'))
+      parsed.push({
         id,
         matchIds: matchIds.length ? matchIds : [id],
         ulx,
         uly,
         lrx,
         lry,
+        parentBounds,
+        type: toZoneType(zone),
+        element: zone,
       })
     }
-    return out
+    if (!parsed.length) {
+      return []
+    }
+
+    const textBlockZones = parsed.filter((zone) => isTextBlockType(zone.type))
+    const matchIdsByZoneId = new Map<string, Set<string>>(
+      parsed.map((zone) => [zone.id, new Set(zone.matchIds)]),
+    )
+    const blockToLineLinks = getBlockToLineZoneLinks(doc)
+    const lineToBlockLinks = new Map<string, Set<string>>()
+    for (const [blockZoneId, lineZoneIds] of blockToLineLinks.entries()) {
+      for (const lineZoneId of lineZoneIds) {
+        const current = lineToBlockLinks.get(lineZoneId) || new Set<string>()
+        current.add(blockZoneId)
+        lineToBlockLinks.set(lineZoneId, current)
+      }
+    }
+
+    for (const block of textBlockZones) {
+      const blockSet = matchIdsByZoneId.get(block.id) || new Set<string>()
+      const linkedLineZoneIds = blockToLineLinks.get(block.id)
+      if (linkedLineZoneIds && linkedLineZoneIds.size > 0) {
+        for (const lineZoneId of linkedLineZoneIds) {
+          blockSet.add(lineZoneId)
+          const lineSet = matchIdsByZoneId.get(lineZoneId)
+          if (lineSet) {
+            lineSet.add(block.id)
+          }
+        }
+      }
+      for (const zone of parsed) {
+        if (zone.id === block.id) {
+          continue
+        }
+        if (
+          sameBounds(block.parentBounds, zone.parentBounds) &&
+          (block.element.contains(zone.element) || zoneContains(block, zone))
+        ) {
+          const zoneSet = matchIdsByZoneId.get(zone.id)
+          if (!zoneSet) {
+            continue
+          }
+          for (const id of zoneSet) {
+            blockSet.add(id)
+          }
+          zoneSet.add(block.id)
+        }
+      }
+      matchIdsByZoneId.set(block.id, blockSet)
+    }
+
+    for (const [lineZoneId, blockZoneIds] of lineToBlockLinks.entries()) {
+      const lineSet = matchIdsByZoneId.get(lineZoneId)
+      if (!lineSet) {
+        continue
+      }
+      for (const blockZoneId of blockZoneIds) {
+        lineSet.add(blockZoneId)
+        const blockSet = matchIdsByZoneId.get(blockZoneId)
+        if (blockSet) {
+          blockSet.add(lineZoneId)
+        }
+      }
+    }
+
+    const out = parsed.map((zone) => ({
+      ...zone,
+      matchIds: [
+        ...(matchIdsByZoneId.get(zone.id) || new Set(zone.matchIds)),
+      ].sort(),
+    }))
+
+    const fallbackUlx = Math.min(...out.map((zone) => zone.ulx))
+    const fallbackUly = Math.min(...out.map((zone) => zone.uly))
+    const fallbackLrx = Math.max(...out.map((zone) => zone.lrx))
+    const fallbackLry = Math.max(...out.map((zone) => zone.lry))
+    const hasValidFallback =
+      fallbackLrx > fallbackUlx && fallbackLry > fallbackUly
+    const fallbackBounds = hasValidFallback
+      ? {
+          ulx: fallbackUlx,
+          uly: fallbackUly,
+          lrx: fallbackLrx,
+          lry: fallbackLry,
+        }
+      : { ulx: 0, uly: 0, lrx: 1, lry: 1 }
+
+    return out.map((zone) => {
+      const bounds = zone.parentBounds || fallbackBounds
+      return {
+        id: zone.id,
+        matchIds: zone.matchIds,
+        zoneType: isTextBlockType(zone.type) ? 'block' : 'line',
+        ulx: zone.ulx,
+        uly: zone.uly,
+        lrx: zone.lrx,
+        lry: zone.lry,
+        refUlx: bounds.ulx,
+        refUly: bounds.uly,
+        refLrx: bounds.lrx,
+        refLry: bounds.lry,
+      }
+    })
   } catch {
     return []
   }

@@ -51,8 +51,8 @@ func buildFacsimileForAlto(pageKey, imageUrl string, a *alto.Alto) model.Facsimi
 			lineZones = append(lineZones, model.Zone{
 				XmlID: lineZoneID,
 				Type:  textLineZoneType,
-				ULX:   tb.VPOS,
-				ULY:   tb.HPOS,
+				ULX:   tb.HPOS,
+				ULY:   tb.VPOS,
 				LRX:   tb.HPOS + tb.Width,
 				LRY:   tb.VPOS + tb.Height,
 			})

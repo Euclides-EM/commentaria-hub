@@ -17,7 +17,10 @@ export function Header({ onShowLogin }: HeaderProps) {
         <div className="flex items-center gap-3">
           <div className="flex flex-col gap-1 justify-center items-center shrink-0">
             <h1 className="text-sm font-semibold text-gray-500">
-              Commentaria in Eucliedem
+              {import.meta.env.VITE_BACKEND_URL.includes('localhost')
+                ? 'LOCALHOST'
+                : 'Commentaria'}{' '}
+              in Eucliedem
             </h1>
             <h1 className="text-xl font-semibold text-gray-800 tracking-widest annotations-shimmer">
               Annotations Hub

@@ -1,9 +1,11 @@
 import {
   getTeiHighlightCategories,
+  getTeiSurfaceZones,
   getTeiTranslations,
   hasTeiCertaintyDegrees,
   type TeiHighlightConfig,
   type TeiManualHighlight,
+  type TeiSurfaceZone,
   teiToHtml,
   type TeiTranslation,
   type TeiViewMode,
@@ -347,7 +349,7 @@ type TeiProps = {
   highlightConfig?: TeiHighlightConfig
   editable: boolean
   activeLineMatchIds: string[]
-  enableCorrespHover: boolean
+  enableHoverSync: boolean
   onHoverLineMatchIds: (ids: string[]) => void
   onRequestAddHighlight: (selection: SelectionDraft) => void
   onRequestRemoveHighlight: (item: TeiTooltipItem) => void
@@ -363,7 +365,7 @@ const Tei = ({
   highlightConfig,
   editable,
   activeLineMatchIds,
-  enableCorrespHover,
+  enableHoverSync,
   onHoverLineMatchIds,
   onRequestAddHighlight,
   onRequestRemoveHighlight,
@@ -433,16 +435,14 @@ const Tei = ({
     lineElements.forEach((lineElement) => {
       const ids = parseLineMatchIds(lineElement.dataset.teiLineMatchIds)
       const isActive =
-        enableCorrespHover &&
-        ids.length > 0 &&
-        ids.some((id) => activeSet.has(id))
+        enableHoverSync && ids.length > 0 && ids.some((id) => activeSet.has(id))
       if (isActive) {
         lineElement.setAttribute('data-tei-corresp-hovered', 'true')
       } else {
         lineElement.removeAttribute('data-tei-corresp-hovered')
       }
     })
-  }, [activeLineMatchIds, enableCorrespHover, html])
+  }, [activeLineMatchIds, enableHoverSync, html])
 
   const tooltip =
     tooltipState &&
@@ -603,7 +603,7 @@ const Tei = ({
               )?.getAttribute('data-tei-line-match-ids'),
             )
           : []
-        onHoverLineMatchIds(enableCorrespHover ? lineMatchIds : [])
+        onHoverLineMatchIds(enableHoverSync ? lineMatchIds : [])
 
         if (tooltipHoveredRef.current) {
           return
@@ -864,7 +864,21 @@ const toDraftHighlightsFromResults = (
   return out
 }
 
-export function TeiPane() {
+type TeiPaneProps = {
+  activeLineMatchIds: string[]
+  enableHoverSync: boolean
+  onHoverLineMatchIds: (ids: string[]) => void
+  onEnableHoverSyncChange: (enabled: boolean) => void
+  onSurfaceZonesChange: (zones: TeiSurfaceZone[]) => void
+}
+
+export function TeiPane({
+  activeLineMatchIds,
+  enableHoverSync,
+  onHoverLineMatchIds,
+  onEnableHoverSyncChange,
+  onSurfaceZonesChange,
+}: TeiPaneProps) {
   const {
     annotation,
     dataset,
@@ -901,8 +915,6 @@ export function TeiPane() {
   const [forcedChangedFeatureIds, setForcedChangedFeatureIds] = useState<
     string[]
   >([])
-  const [hoveredLineMatchIds, setHoveredLineMatchIds] = useState<string[]>([])
-
   const ocred = !!annotation?.ocred
   const editionId = dataset?.edition_id
 
@@ -1032,28 +1044,18 @@ export function TeiPane() {
     return availableViewModes.filter((mode) => selected.has(mode))
   }, [availableViewModes, teiViewModes])
 
-  const enableCorrespHover = useMemo(
-    () =>
-      orderedSelectedViewModes.includes('original') &&
-      orderedSelectedViewModes.some((mode) => mode !== 'original'),
-    [orderedSelectedViewModes],
-  )
+  const activeHoveredLineMatchIds = enableHoverSync ? activeLineMatchIds : []
 
-  const handleHoverLineMatchIds = (ids: string[]) => {
-    const normalized = [...new Set(ids.filter(Boolean))].sort()
-    setHoveredLineMatchIds((previous) => {
-      if (
-        previous.length === normalized.length &&
-        previous.every((value, index) => value === normalized[index])
-      ) {
-        return previous
-      }
-      return normalized
-    })
-  }
-  const activeHoveredLineMatchIds = enableCorrespHover
-    ? hoveredLineMatchIds
-    : []
+  useEffect(() => {
+    onSurfaceZonesChange(teiContents ? getTeiSurfaceZones(teiContents) : [])
+  }, [onSurfaceZonesChange, teiContents])
+
+  useEffect(
+    () => () => {
+      onSurfaceZonesChange([])
+    },
+    [onSurfaceZonesChange],
+  )
 
   const teiCategories = useMemo(
     () => (teiContents ? getTeiHighlightCategories(teiContents) : []),
@@ -1678,6 +1680,17 @@ export function TeiPane() {
               />
               <span>Align lines</span>
             </label>
+            <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
+              <input
+                type="checkbox"
+                checked={enableHoverSync}
+                onChange={(event) =>
+                  onEnableHoverSyncChange(event.target.checked)
+                }
+                className="rounded border-gray-300"
+              />
+              <span>Hover sync</span>
+            </label>
             {showMinCertControl && (
               <RangeInput
                 label="Min certainty"
@@ -1793,8 +1806,8 @@ export function TeiPane() {
                       highlightConfig={highlightConfig}
                       editable={isAuthenticated}
                       activeLineMatchIds={activeHoveredLineMatchIds}
-                      enableCorrespHover={enableCorrespHover}
-                      onHoverLineMatchIds={handleHoverLineMatchIds}
+                      enableHoverSync={enableHoverSync}
+                      onHoverLineMatchIds={onHoverLineMatchIds}
                       onRequestAddHighlight={openModalForAdd}
                       onRequestRemoveHighlight={removeHighlightFromTooltip}
                     />
