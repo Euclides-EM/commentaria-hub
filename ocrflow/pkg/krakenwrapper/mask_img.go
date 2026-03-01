@@ -80,9 +80,9 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 		return false
 	}
 
-	// first pass: paint all main zones black
+	// first pass: paint all main zones black (only zones with positive area; zero-area would yield all-white mask and Kraken "Mask is not bitonal")
 	for _, tb := range page.PrintSpace.TextBlocks {
-		if hasLabelInSet(tb.TagRefs, mainSet) && !hasLabelInSet(tb.TagRefs, ignoreSet) {
+		if hasLabelInSet(tb.TagRefs, mainSet) && !hasLabelInSet(tb.TagRefs, ignoreSet) && tb.Width > 0 && tb.Height > 0 {
 			paintRectPaletted(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, maskIdxBlack)
 			hasRegions = true
 		}

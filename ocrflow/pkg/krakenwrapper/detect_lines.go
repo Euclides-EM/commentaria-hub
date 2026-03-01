@@ -133,6 +133,7 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 			return fmt.Errorf("kraken segmentation failed for image %s (category %q): %w", imgPath, cat, err)
 		}
 
+		// Kraken may write an empty file (e.g. no lines in small zone, or mask rejected); GlueLinesToAlto treats that as no-op
 		if err := GlueLinesToAlto(altoPath, baselineJsonFile.Name(), altoPath); err != nil {
 			return fmt.Errorf("glue lines to ALTO %s (category %q): %w", altoPath, cat, err)
 		}
