@@ -112,6 +112,7 @@ export function AnnotationSearchMenu() {
   )
 
   const results = searchResults?.results ?? []
+  const hasCategories = (categories?.length ?? 0) > 0
 
   return (
     <div className="flex flex-col min-h-0 h-full mr-1">
@@ -126,14 +127,15 @@ export function AnnotationSearchMenu() {
               setSearchResultHighlight(null)
             }}
           />
-          <MultiSelectDropdown
-            allItems={categories || []}
-            selectedItems={selectedCategories}
-            setSelectedItems={setSelectedCategories}
-            itemsLabel="categories"
-            getItemLabel={(category) => category}
-            disabled={!categories || categories.length === 0}
-          />
+          {hasCategories && (
+            <MultiSelectDropdown
+              allItems={categories || []}
+              selectedItems={selectedCategories}
+              setSelectedItems={setSelectedCategories}
+              itemsLabel="categories"
+              getItemLabel={(category) => category}
+            />
+          )}
         </div>
       </div>
 

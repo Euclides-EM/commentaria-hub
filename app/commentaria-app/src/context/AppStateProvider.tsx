@@ -11,6 +11,7 @@ import {
   useDatasetsQuery,
 } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
+import { useAuthStore } from '../store/authStore.ts'
 import type {
   AppState,
   AppStateContextType,
@@ -50,6 +51,7 @@ const getDefaultPageOrKey = (availablePages: string[]): string => {
 }
 
 export function AppStateProvider({ children }: AppStateProviderProps) {
+  const token = useAuthStore((store) => store.token)
   const [queryState, setQueryState] = useQueryStates({
     viewMode: parseAsString.withDefault(''),
     datasetId: parseAsString.withDefault(''),
@@ -65,7 +67,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   const parsedViewMode: ViewMode | null =
     queryState.viewMode === 'models' ||
     queryState.viewMode === 'groundTruths' ||
-    queryState.viewMode === 'jobs'
+    queryState.viewMode === 'jobs' ||
+    queryState.viewMode === 'backups'
       ? queryState.viewMode
       : null
   const state = useMemo<AppState>(
@@ -179,7 +182,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     if (!annotation || !availablePageOrKeys.length) {
       return
     }
-    if (availablePageOrKeys.includes(state.currentPageOrKey)) {
+    if (availablePageOrKeys.includes(String(state.currentPageOrKey))) {
       return
     }
     setQueryState((s) => ({
@@ -223,6 +226,13 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       }
     ).__appStateContext = contextValue
   }, [contextValue])
+
+  useEffect(() => {
+    if (parsedViewMode !== 'backups' || token) {
+      return
+    }
+    setQueryState((s) => ({ ...s, viewMode: '' }))
+  }, [parsedViewMode, setQueryState, token])
 
   return (
     <AppStateContext.Provider value={contextValue}>

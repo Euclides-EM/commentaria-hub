@@ -7,6 +7,7 @@ import useLocalStorageState from 'use-local-storage-state'
 import { ModelsTable } from './models/ModelsTable.tsx'
 import { GroundTruthsTable } from './groundTruths/GroundTruthsTable.tsx'
 import { JobsTable } from './jobs/JobsTable.tsx'
+import { BackupsView } from './backups/BackupsView.tsx'
 import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
@@ -34,6 +35,9 @@ export function Main() {
   }
   if (state.viewMode === 'jobs') {
     return <JobsTable />
+  }
+  if (state.viewMode === 'backups') {
+    return <BackupsView />
   }
 
   if (!state.datasetId) {

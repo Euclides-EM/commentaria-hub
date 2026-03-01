@@ -90,6 +90,7 @@ export type { search_Range } from './models/search_Range';
 export { AnnotationsService } from './services/AnnotationsService';
 export { AnnotationsApplyRulesService } from './services/AnnotationsApplyRulesService';
 export { AuthenticationService } from './services/AuthenticationService';
+export { BackupsService } from './services/BackupsService';
 export { DatasetImagesService } from './services/DatasetImagesService';
 export { DatasetsService } from './services/DatasetsService';
 export { EditionsService } from './services/EditionsService';
