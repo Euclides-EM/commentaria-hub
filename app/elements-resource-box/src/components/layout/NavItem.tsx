@@ -4,6 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { css } from "@emotion/react";
 import {
   CATALOGUE_ROUTE,
+  GALLERY_ROUTE,
   HOME_ROUTE,
   ITEM_EDIT_ROUTE,
   MAP_ROUTE,
@@ -180,11 +181,18 @@ export const NavItems = ({ mobile }: { mobile: boolean }) => {
           Catalogue
         </NavItem>
         <NavItem
+          to={GALLERY_ROUTE}
+          active={location.pathname === GALLERY_ROUTE}
+          mobile={mobile}
+        >
+          Gallery
+        </NavItem>
+        <NavItem
           to={TITLE_PAGES_ROUTE}
           active={location.pathname === TITLE_PAGES_ROUTE}
           mobile={mobile}
         >
-          Editions Gallery
+          Title Pages
         </NavItem>
         <NavItem
           to={TRENDS_ROUTE}
