@@ -50,10 +50,7 @@ const buildSnippet = (content: string, maxLength = 64) => {
   return `${prefix}${beforeTrim}${matchHtml}${afterTrim}${suffix}`
 }
 
-const getResultKey = (
-  result: common_ALTOPart,
-  index: number,
-) => {
+const getResultKey = (result: common_ALTOPart, index: number) => {
   return `${result.location?.page ?? 'p'}-${result.category ?? 'c'}-${index}`
 }
 
@@ -103,7 +100,9 @@ const getResultLocationDisplay = (result: common_ALTOPart) => {
   return null
 }
 
-const getResultJumpTarget = (result: common_ALTOPart): number | string | null => {
+const getResultJumpTarget = (
+  result: common_ALTOPart,
+): number | string | null => {
   if (result.location?.page === 0 && result.location.text_block_id) {
     return result.location.text_block_id
   }
@@ -114,8 +113,7 @@ const getResultJumpTarget = (result: common_ALTOPart): number | string | null =>
 }
 
 export function AnnotationSearchMenu() {
-  const { state, jumpToPage, setSearchResultHighlight } =
-    useAppState()
+  const { state, jumpToPage, setSearchResultHighlight } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
     'annotationSearchTerm',
     { defaultValue: '' },
@@ -127,9 +125,7 @@ export function AnnotationSearchMenu() {
     defaultValue: null,
   })
 
-  const {
-    data: categories,
-  } = useAnnotationCategories(
+  const { data: categories } = useAnnotationCategories(
     state.datasetId,
     state.annotationId,
   )

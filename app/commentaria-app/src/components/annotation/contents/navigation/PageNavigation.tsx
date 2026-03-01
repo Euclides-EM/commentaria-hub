@@ -141,12 +141,7 @@ export function PageNavigation() {
     if (showSearchPane && !showIndexPane && isSearchCollapsed) {
       setIsSearchCollapsed(false)
     }
-  }, [
-    isSearchCollapsed,
-    setIsSearchCollapsed,
-    showIndexPane,
-    showSearchPane,
-  ])
+  }, [isSearchCollapsed, setIsSearchCollapsed, showIndexPane, showSearchPane])
 
   useEffect(() => {
     if (!isResizing) {
