@@ -638,6 +638,31 @@ const renderParagraphWithHighlights = (
       continue
     }
 
+    const leadingWhitespace = segmentText.match(/^\s+/)?.[0] || ''
+    const trailingWhitespace = segmentText.match(/\s+$/)?.[0] || ''
+    const trimmedStart = leadingWhitespace.length
+    const trimmedEnd = segmentText.length - trailingWhitespace.length
+    const highlightedText =
+      trimmedEnd > trimmedStart
+        ? segmentText.slice(trimmedStart, trimmedEnd)
+        : ''
+    const escapedLeadingWhitespace = escapeHtml(leadingWhitespace).replaceAll(
+      '\n',
+      '<br>',
+    )
+    const escapedTrailingWhitespace = escapeHtml(trailingWhitespace).replaceAll(
+      '\n',
+      '<br>',
+    )
+    const escapedHighlightedText = escapeHtml(highlightedText).replaceAll(
+      '\n',
+      '<br>',
+    )
+    if (!highlightedText) {
+      html += escapedLeadingWhitespace + escapedTrailingWhitespace
+      continue
+    }
+
     const style = getSegmentStyle(activeSpans)
     const tooltipItems = activeSpans.map((span) => ({
       id: span.id,
@@ -659,7 +684,9 @@ const renderParagraphWithHighlights = (
     const tooltipItemsAttr = escapeHtmlAttr(
       encodeURIComponent(JSON.stringify(tooltipItems)),
     )
-    html += `<span data-tei-highlight="true" data-tei-highlight-tooltip="${tooltipItemsAttr}" style="${style}">${escapedSegment}</span>`
+    html += escapedLeadingWhitespace
+    html += `<span data-tei-highlight="true" data-tei-highlight-tooltip="${tooltipItemsAttr}" style="${style}">${escapedHighlightedText}</span>`
+    html += escapedTrailingWhitespace
   }
 
   return html || '&nbsp;'
