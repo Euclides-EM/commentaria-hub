@@ -310,7 +310,8 @@ const appendTextWithAnchors = (
   builder: TextWithAnchors,
 ) => {
   if (node.nodeType === Node.TEXT_NODE) {
-    builder.text += node.nodeValue || ''
+    const raw = node.nodeValue || ''
+    builder.text += /[\n\r\t]/.test(raw) ? raw.replace(/\s+/g, ' ') : raw
     return
   }
   if (node.nodeType !== Node.ELEMENT_NODE) {
