@@ -153,6 +153,17 @@ type FeatureModalState = {
 }
 
 const TEI_HIGHLIGHT_SELECTOR = '[data-tei-highlight="true"]'
+const TEI_LINE_MATCH_SELECTOR = '[data-tei-line-match-ids]'
+
+const parseLineMatchIds = (value: string | null | undefined) =>
+  [
+    ...new Set(
+      (value || '')
+        .split(/\s+/)
+        .map((entry) => entry.trim())
+        .filter(Boolean),
+    ),
+  ].sort()
 
 const getTooltipItems = (element: Element | null): TeiTooltipItem[] => {
   if (!element) return []
@@ -335,6 +346,9 @@ type TeiProps = {
   alignLines: boolean
   highlightConfig?: TeiHighlightConfig
   editable: boolean
+  activeLineMatchIds: string[]
+  enableCorrespHover: boolean
+  onHoverLineMatchIds: (ids: string[]) => void
   onRequestAddHighlight: (selection: SelectionDraft) => void
   onRequestRemoveHighlight: (item: TeiTooltipItem) => void
 }
@@ -348,6 +362,9 @@ const Tei = ({
   alignLines,
   highlightConfig,
   editable,
+  activeLineMatchIds,
+  enableCorrespHover,
+  onHoverLineMatchIds,
   onRequestAddHighlight,
   onRequestRemoveHighlight,
 }: TeiProps) => {
@@ -405,6 +422,29 @@ const Tei = ({
       viewMode,
     ],
   )
+
+  useEffect(() => {
+    const root = rootRef.current
+    if (!root) {
+      return
+    }
+    const activeSet = new Set(activeLineMatchIds)
+    const lineElements = root.querySelectorAll<HTMLElement>(
+      TEI_LINE_MATCH_SELECTOR,
+    )
+    lineElements.forEach((lineElement) => {
+      const ids = parseLineMatchIds(lineElement.dataset.teiLineMatchIds)
+      const isActive =
+        enableCorrespHover &&
+        ids.length > 0 &&
+        ids.some((id) => activeSet.has(id))
+      if (isActive) {
+        lineElement.setAttribute('data-tei-corresp-hovered', 'true')
+      } else {
+        lineElement.removeAttribute('data-tei-corresp-hovered')
+      }
+    })
+  }, [activeLineMatchIds, enableCorrespHover, html])
 
   const tooltip =
     tooltipState &&
@@ -544,14 +584,33 @@ const Tei = ({
         setSelectionState(null)
       }}
       onMouseMove={(event) => {
-        if (tooltipHoveredRef.current) {
-          return
-        }
-        clearHideTooltipTimer()
         const elements = document.elementsFromPoint(
           event.clientX,
           event.clientY,
         )
+        const lineElement = elements.find((el) => {
+          if (!(el instanceof Element)) {
+            return false
+          }
+          return (
+            el.matches(TEI_LINE_MATCH_SELECTOR) ||
+            !!el.closest(TEI_LINE_MATCH_SELECTOR)
+          )
+        }) as Element | undefined
+        const lineMatchIds = lineElement
+          ? parseLineMatchIds(
+              (lineElement.matches(TEI_LINE_MATCH_SELECTOR)
+                ? lineElement
+                : lineElement.closest(TEI_LINE_MATCH_SELECTOR)
+              )?.getAttribute('data-tei-line-match-ids'),
+            )
+          : []
+        onHoverLineMatchIds(enableCorrespHover ? lineMatchIds : [])
+
+        if (tooltipHoveredRef.current) {
+          return
+        }
+        clearHideTooltipTimer()
         const hitElement =
           elements.find((el) => el.matches?.(TEI_HIGHLIGHT_SELECTOR)) ||
           elements.find((el) => el.closest?.(TEI_HIGHLIGHT_SELECTOR)) ||
@@ -582,6 +641,7 @@ const Tei = ({
         })
       }}
       onMouseLeave={() => {
+        onHoverLineMatchIds([])
         if (tooltipHoveredRef.current) return
         scheduleHideTooltip()
       }}
@@ -614,7 +674,7 @@ const Tei = ({
         </div>
       )}
       <div
-        className={`text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5`}
+        className={`text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5 [&_[data-tei-corresp-hovered='true']]:bg-teal-100/70 [&_[data-tei-corresp-hovered='true']]:outline [&_[data-tei-corresp-hovered='true']]:outline-1 [&_[data-tei-corresp-hovered='true']]:outline-teal-500/70 [&_[data-tei-corresp-hovered='true']]:rounded-sm`}
         style={{ whiteSpace: 'normal' }}
         dangerouslySetInnerHTML={{ __html: html }}
       />
@@ -842,6 +902,7 @@ export function TeiPane() {
   const [forcedChangedFeatureIds, setForcedChangedFeatureIds] = useState<
     string[]
   >([])
+  const [hoveredLineMatchIds, setHoveredLineMatchIds] = useState<string[]>([])
 
   const ocred = !!annotation?.ocred
   const editionId = dataset?.edition_id
@@ -971,6 +1032,32 @@ export function TeiPane() {
     )
     return availableViewModes.filter((mode) => selected.has(mode))
   }, [availableViewModes, teiViewModes])
+
+  const enableCorrespHover = useMemo(
+    () =>
+      orderedSelectedViewModes.includes('original') &&
+      orderedSelectedViewModes.some((mode) => mode !== 'original'),
+    [orderedSelectedViewModes],
+  )
+
+  const handleHoverLineMatchIds = (ids: string[]) => {
+    const normalized = [...new Set(ids.filter(Boolean))].sort()
+    setHoveredLineMatchIds((previous) => {
+      if (
+        previous.length === normalized.length &&
+        previous.every((value, index) => value === normalized[index])
+      ) {
+        return previous
+      }
+      return normalized
+    })
+  }
+
+  useEffect(() => {
+    if (!enableCorrespHover && hoveredLineMatchIds.length > 0) {
+      setHoveredLineMatchIds([])
+    }
+  }, [enableCorrespHover, hoveredLineMatchIds.length])
 
   const teiCategories = useMemo(
     () => (teiContents ? getTeiHighlightCategories(teiContents) : []),
@@ -1709,6 +1796,9 @@ export function TeiPane() {
                       alignLines={alignLines}
                       highlightConfig={highlightConfig}
                       editable={isAuthenticated}
+                      activeLineMatchIds={hoveredLineMatchIds}
+                      enableCorrespHover={enableCorrespHover}
+                      onHoverLineMatchIds={handleHoverLineMatchIds}
                       onRequestAddHighlight={openModalForAdd}
                       onRequestRemoveHighlight={removeHighlightFromTooltip}
                     />

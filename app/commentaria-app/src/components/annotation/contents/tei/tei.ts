@@ -64,6 +64,8 @@ type ParagraphHighlightSpan = {
   id: string
   start: number
   end: number
+  tooltipStart?: number
+  tooltipEnd?: number
   featureId: string
   categoryId: string
   categoryLabel: string
@@ -109,6 +111,19 @@ type TextWithAnchors = {
 type ParagraphTextWithAnchors = {
   text: string
   anchors: Record<string, number>
+  lineRanges: ParagraphLineRange[]
+}
+
+type ParagraphLineRange = {
+  start: number
+  end: number
+  matchIds: string[]
+}
+
+type LineMatchMode = 'none' | 'original-id' | 'corresp'
+
+type LineTextWithAnchors = TextWithAnchors & {
+  matchIds: string[]
 }
 
 const escapeHtml = (text: string) => {
@@ -177,6 +192,12 @@ const getXmlId = (el: Element) =>
   getElementAttr(el, 'xml:id') || getElementAttr(el, 'id')
 
 const parseAnaRefs = (value: string | null) =>
+  (value || '')
+    .split(/\s+/)
+    .map((entry) => entry.replace(/^#/, '').trim())
+    .filter(Boolean)
+
+const parseCorrespRefs = (value: string | null) =>
   (value || '')
     .split(/\s+/)
     .map((entry) => entry.replace(/^#/, '').trim())
@@ -407,12 +428,13 @@ const getLineElements = (container: Element): Element[] => {
 }
 
 const joinLineTexts = (
-  lines: TextWithAnchors[],
+  lines: LineTextWithAnchors[],
   alignLines: boolean,
 ): ParagraphTextWithAnchors[] => {
   if (!alignLines) {
     let text = ''
     const anchors: Record<string, number> = {}
+    const lineRanges: ParagraphLineRange[] = []
 
     for (let i = 0; i < lines.length; i++) {
       if (i > 0) {
@@ -420,25 +442,39 @@ const joinLineTexts = (
       }
       const offset = text.length
       text += lines[i].text
+      const end = text.length
+      if (lines[i].matchIds.length > 0 && end > offset) {
+        lineRanges.push({
+          start: offset,
+          end,
+          matchIds: lines[i].matchIds,
+        })
+      }
       for (const [id, pos] of Object.entries(lines[i].anchors)) {
         anchors[id] = offset + pos
       }
     }
 
-    return [{ text, anchors }]
+    return [{ text, anchors, lineRanges }]
   }
 
   const paragraphs: ParagraphTextWithAnchors[] = []
   let currentText = ''
   let currentAnchors: Record<string, number> = {}
+  let currentLineRanges: ParagraphLineRange[] = []
 
   const pushCurrent = () => {
     if (!currentText) {
       return
     }
-    paragraphs.push({ text: currentText, anchors: currentAnchors })
+    paragraphs.push({
+      text: currentText,
+      anchors: currentAnchors,
+      lineRanges: currentLineRanges,
+    })
     currentText = ''
     currentAnchors = {}
+    currentLineRanges = []
   }
 
   for (const line of lines) {
@@ -452,18 +488,29 @@ const joinLineTexts = (
     }
     const offset = currentText.length
     currentText += line.text
+    const end = currentText.length
+    if (line.matchIds.length > 0 && end > offset) {
+      currentLineRanges.push({
+        start: offset,
+        end,
+        matchIds: line.matchIds,
+      })
+    }
     for (const [id, pos] of Object.entries(line.anchors)) {
       currentAnchors[id] = offset + pos
     }
   }
 
   pushCurrent()
-  return paragraphs.length ? paragraphs : [{ text: '', anchors: {} }]
+  return paragraphs.length
+    ? paragraphs
+    : [{ text: '', anchors: {}, lineRanges: [] }]
 }
 
 const renderStructuredDivToParagraphs = (
   div: Element,
   opts: ReadingOptions,
+  lineMatchMode: LineMatchMode = 'none',
 ): ParagraphTextWithAnchors[] => {
   const blocks = getDirectChildrenByName(div, 'ab')
   const containers = blocks.length ? blocks : [div]
@@ -472,8 +519,20 @@ const renderStructuredDivToParagraphs = (
   for (const container of containers) {
     const lines = getLineElements(container)
     if (lines.length) {
-      const renderedLines = lines.map((line) =>
-        trimTextWithAnchors(toReadingTextWithAnchors(line, opts)),
+      const renderedLines = lines.map(
+        (line) =>
+          ({
+            ...trimTextWithAnchors(toReadingTextWithAnchors(line, opts)),
+            matchIds:
+              lineMatchMode === 'original-id'
+                ? (() => {
+                    const id = getXmlId(line)
+                    return id ? [id] : []
+                  })()
+                : lineMatchMode === 'corresp'
+                  ? [...new Set(parseCorrespRefs(line.getAttribute('corresp')))]
+                  : [],
+          }) satisfies LineTextWithAnchors,
       )
       const blocks = joinLineTexts(renderedLines, opts.alignLines)
       for (const block of blocks) {
@@ -482,20 +541,110 @@ const renderStructuredDivToParagraphs = (
       continue
     }
 
-    paragraphs.push(
-      trimTextWithAnchors(toReadingTextWithAnchors(container, opts)),
-    )
+    paragraphs.push({
+      ...trimTextWithAnchors(toReadingTextWithAnchors(container, opts)),
+      lineRanges: [],
+    })
   }
 
   return paragraphs
 }
 
-const renderStructuredDiv = (div: Element, opts: ReadingOptions) => {
-  const paragraphs = renderStructuredDivToParagraphs(div, opts)
+const getParagraphHighlightSlice = (
+  spans: ParagraphHighlightSpan[],
+  sliceStart: number,
+  sliceEnd: number,
+): ParagraphHighlightSpan[] =>
+  spans
+    .map((span) => {
+      const start = Math.max(sliceStart, span.start)
+      const end = Math.min(sliceEnd, span.end)
+      if (end <= start) {
+        return null
+      }
+      return {
+        ...span,
+        start: start - sliceStart,
+        end: end - sliceStart,
+        tooltipStart: span.tooltipStart ?? span.start,
+        tooltipEnd: span.tooltipEnd ?? span.end,
+      }
+    })
+    .filter((span): span is ParagraphHighlightSpan => span != null)
+
+const renderParagraphWithLineRanges = (
+  text: string,
+  spans: ParagraphHighlightSpan[],
+  paragraphIndex: number,
+  lineRanges: ParagraphLineRange[],
+) => {
+  const validRanges = lineRanges
+    .map((range) => ({
+      start: Math.max(0, Math.min(text.length, range.start)),
+      end: Math.max(0, Math.min(text.length, range.end)),
+      matchIds: [...new Set(range.matchIds.filter(Boolean))],
+    }))
+    .filter((range) => range.end > range.start && range.matchIds.length > 0)
+    .sort((left, right) => left.start - right.start)
+
+  if (!validRanges.length) {
+    return renderParagraphWithHighlights(text, spans, paragraphIndex)
+  }
+
+  let html = ''
+  let cursor = 0
+  for (const range of validRanges) {
+    const rangeStart = Math.max(cursor, range.start)
+    const rangeEnd = Math.max(rangeStart, range.end)
+    if (rangeStart > cursor) {
+      const gapSpans = getParagraphHighlightSlice(spans, cursor, rangeStart)
+      html += renderParagraphWithHighlights(
+        text.slice(cursor, rangeStart),
+        gapSpans,
+        paragraphIndex,
+      )
+    }
+
+    if (rangeEnd <= rangeStart) {
+      continue
+    }
+    const lineSpans = getParagraphHighlightSlice(spans, rangeStart, rangeEnd)
+    const lineHtml = renderParagraphWithHighlights(
+      text.slice(rangeStart, rangeEnd),
+      lineSpans,
+      paragraphIndex,
+    )
+    html += `<span data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}">${lineHtml}</span>`
+    cursor = rangeEnd
+  }
+
+  if (cursor < text.length) {
+    const tailSpans = getParagraphHighlightSlice(spans, cursor, text.length)
+    html += renderParagraphWithHighlights(
+      text.slice(cursor),
+      tailSpans,
+      paragraphIndex,
+    )
+  }
+
+  return html || '&nbsp;'
+}
+
+const renderStructuredDiv = (
+  div: Element,
+  opts: ReadingOptions,
+  lineMatchMode: LineMatchMode = 'none',
+) => {
+  const paragraphs = renderStructuredDivToParagraphs(div, opts, lineMatchMode)
   return paragraphs
-    .map((paragraph) => {
-      const html = escapeHtml(paragraph.text).replaceAll('\n', '<br>')
-      return `<p>${html || '&nbsp;'}</p>`
+    .map((paragraph, index) => {
+      const html = renderParagraphWithLineRanges(
+        paragraph.text,
+        [],
+        index,
+        paragraph.lineRanges,
+      )
+      return `<p>${html}</p>`
     })
     .join('')
 }
@@ -556,7 +705,7 @@ function renderTranslationView(
   const sources = getTeiTranslationSources(body)
   const source = sources[translationIndex]
   if (!source) return '<p></p>'
-  return renderStructuredDiv(source.element, opts) || '<p></p>'
+  return renderStructuredDiv(source.element, opts, 'corresp') || '<p></p>'
 }
 
 const getSegmentStyle = (spans: ParagraphHighlightSpan[]) => {
@@ -675,8 +824,8 @@ const renderParagraphWithHighlights = (
       institution: span.institution,
       ancientPersona: span.ancientPersona,
       paragraphIndex,
-      start: span.start,
-      end: span.end,
+      start: span.tooltipStart ?? span.start,
+      end: span.tooltipEnd ?? span.end,
       fromAnchorId: span.fromAnchorId || '',
       toAnchorId: span.toAnchorId || '',
       color: span.color,
@@ -717,7 +866,11 @@ const getOriginalParagraphSpans = (
       child.localName === 'div' &&
       getElementAttr(child, 'type') === 'transcription'
     ) {
-      const rendered = renderStructuredDivToParagraphs(child, opts)
+      const rendered = renderStructuredDivToParagraphs(
+        child,
+        opts,
+        'original-id',
+      )
       for (const paragraph of rendered) {
         paragraphs.push(paragraph)
       }
@@ -850,7 +1003,7 @@ function renderOriginalView(
   )
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
-    return `<p data-tei-paragraph-index="${index}">${renderParagraphWithHighlights(paragraph.text, spans, index)}</p>`
+    return `<p data-tei-paragraph-index="${index}">${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges)}</p>`
   })
 
   return parts.join('') || '<p></p>'
