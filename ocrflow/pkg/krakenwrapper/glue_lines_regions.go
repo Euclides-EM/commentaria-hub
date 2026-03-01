@@ -134,9 +134,12 @@ func GlueLinesToAlto(altoPath, baselinesJsonPath, outPath string) error {
 	if err != nil {
 		return fmt.Errorf("reading %s: %w", baselinesJsonPath, err)
 	}
+	if len(jf) == 0 {
+		return fmt.Errorf("parsing %s: file is empty (Kraken may have failed, e.g. mask not bitonal)", baselinesJsonPath)
+	}
 	var doc BaselineDoc
 	if err := json.Unmarshal(jf, &doc); err != nil {
-		return fmt.Errorf("parsing %s: %w", baselinesJsonPath, err)
+		return fmt.Errorf("parsing %s: %w (Kraken may have failed; check mask is bitonal)", baselinesJsonPath, err)
 	}
 
 	// Load ALTO with etree
