@@ -1,4 +1,5 @@
 import {
+  getTeiZoneToServerTextBlockId,
   getTeiOriginalEditableLines,
   getTeiHighlightCategories,
   getTeiSurfaceZones,
@@ -1070,6 +1071,10 @@ export function TeiPane({
         : [],
     [teiContents],
   )
+  const zoneToServerTextBlockId = useMemo(
+    () => (teiContents ? getTeiZoneToServerTextBlockId(teiContents) : {}),
+    [teiContents],
+  )
   const [teiViewModes, setTeiViewModes] = useLocalStorageState<TeiViewMode[]>(
     'teiViewModes',
     { defaultValue: [] },
@@ -1616,7 +1621,7 @@ export function TeiPane({
     const payload: annotationrule_TextBlockCorrections = {
       type: 'text_block_corrections',
       corrections: [...grouped.entries()].map(([blockId, value]) => ({
-        text_block_id: blockId,
+        text_block_id: zoneToServerTextBlockId[blockId] || blockId,
         old: value.old,
         correction: value.correction,
         page: Number.isFinite(parsedPage) ? parsedPage : undefined,

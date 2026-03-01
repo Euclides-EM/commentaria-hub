@@ -224,6 +224,44 @@ const parseCorrespRefs = (value: string | null) =>
     .map((entry) => entry.replace(/^#/, '').trim())
     .filter(Boolean)
 
+export const toServerTextBlockId = (value: string | null | undefined) => {
+  const normalized = (value || '').replace(/^#/, '').trim()
+  if (!normalized) {
+    return ''
+  }
+  return normalized.replace(/^alto:textblock:/i, '')
+}
+
+export const getTeiZoneToServerTextBlockId = (tei: string) => {
+  const out: Record<string, string> = {}
+  try {
+    const doc = parseXml(tei.trim())
+    const zones = doc.getElementsByTagNameNS('*', 'zone')
+    for (let index = 0; index < zones.length; index++) {
+      const zone = zones[index]
+      const zoneId = getXmlId(zone)
+      if (!zoneId) {
+        continue
+      }
+      const correspRefs = parseCorrespRefs(zone.getAttribute('corresp'))
+      if (!correspRefs.length) {
+        continue
+      }
+      const textBlockRef =
+        correspRefs.find((entry) => /^alto:textblock:/i.test(entry)) ||
+        correspRefs[0]
+      const serverId = toServerTextBlockId(textBlockRef)
+      if (!serverId) {
+        continue
+      }
+      out[zoneId] = serverId
+    }
+    return out
+  } catch {
+    return out
+  }
+}
+
 const toUniqueSorted = (values: Array<string | null | undefined>) =>
   [
     ...new Set(values.map((value) => (value || '').trim()).filter(Boolean)),
