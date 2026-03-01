@@ -13,6 +13,9 @@ func CopyFile(src, dst string) error {
 	}
 	defer in.Close()
 
+	if err := os.MkdirAll(filepath.Dir(dst), os.ModePerm); err != nil {
+		return err
+	}
 	out, err := os.Create(dst)
 	if err != nil {
 		return err

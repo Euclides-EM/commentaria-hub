@@ -2,20 +2,24 @@ package name
 
 import (
 	"fmt"
-
-	"github.com/samber/lo"
 )
 
-func NextAvailable(existing []string, name string) string {
-	return nextAvailable(existing, name, 0)
-}
-
-func nextAvailable(existing []string, name string, i int) string {
-	if len(lo.Filter(existing, func(d string, _ int) bool { return d == name })) == 0 {
-		if i == 0 {
-			return name
-		}
-		return fmt.Sprintf("%s %d", name, i)
+func NextAvailable(existing []string, base string) string {
+	set := make(map[string]struct{}, len(existing))
+	for _, s := range existing {
+		set[s] = struct{}{}
 	}
-	return nextAvailable(existing, name, i+1)
+
+	// Try base first
+	if _, ok := set[base]; !ok {
+		return base
+	}
+
+	// Then base 1, base 2, ...
+	for i := 1; ; i++ {
+		cand := fmt.Sprintf("%s %d", base, i)
+		if _, ok := set[cand]; !ok {
+			return cand
+		}
+	}
 }
