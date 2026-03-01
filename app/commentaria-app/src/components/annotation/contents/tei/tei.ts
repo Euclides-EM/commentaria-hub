@@ -111,6 +111,12 @@ export type TeiEditableHighlight = {
   toAnchorId: string
 }
 
+export type TeiOriginalEditableLine = {
+  id: string
+  blockId: string
+  text: string
+}
+
 type ReadingOptions = {
   showPB: boolean
   minCert: number
@@ -1083,6 +1089,87 @@ export const getTeiEditableHighlights = (
         })
       }
     }
+    return out
+  } catch {
+    return []
+  }
+}
+
+const toTextBlockId = (element: Element, fallback: string) => {
+  const facs = parseCorrespRefs(element.getAttribute('facs'))
+  if (facs.length > 0) {
+    return facs[0]
+  }
+  const xmlId = getXmlId(element)
+  if (xmlId) {
+    return xmlId
+  }
+  const corresp = parseCorrespRefs(element.getAttribute('corresp'))
+  if (corresp.length > 0) {
+    return corresp[0]
+  }
+  return fallback
+}
+
+const toEditableLineText = (element: Element) =>
+  trimTextWithAnchors(
+    toReadingTextWithAnchors(element, {
+      showPB: false,
+      minCert: 0,
+      maskChar: '@',
+      alignLines: false,
+    }),
+  ).text
+
+export const getTeiOriginalEditableLines = (
+  tei: string,
+): TeiOriginalEditableLine[] => {
+  try {
+    const doc = parseXml(tei.trim())
+    const body = getBody(doc)
+    const out: TeiOriginalEditableLine[] = []
+    const transcriptionDivs = getDirectChildrenByName(body, 'div').filter(
+      (div) => getElementAttr(div, 'type') === 'transcription',
+    )
+
+    for (let divIndex = 0; divIndex < transcriptionDivs.length; divIndex++) {
+      const div = transcriptionDivs[divIndex]
+      const blocks = getDirectChildrenByName(div, 'ab')
+      const containers = blocks.length ? blocks : [div]
+
+      for (
+        let containerIndex = 0;
+        containerIndex < containers.length;
+        containerIndex++
+      ) {
+        const container = containers[containerIndex]
+        const blockId = toTextBlockId(
+          container,
+          `block:${divIndex}:${containerIndex}`,
+        )
+        const lines = getLineElements(container)
+
+        if (!lines.length) {
+          out.push({
+            id: `${blockId}:0`,
+            blockId,
+            text: toEditableLineText(container),
+          })
+          continue
+        }
+
+        for (let lineIndex = 0; lineIndex < lines.length; lineIndex++) {
+          out.push({
+            id:
+              getXmlId(lines[lineIndex]) ||
+              `${blockId}:${String(lineIndex + 1)}`,
+            blockId,
+            text: toEditableLineText(lines[lineIndex]),
+          })
+        }
+      }
+    }
+
     return out
   } catch {
     return []
