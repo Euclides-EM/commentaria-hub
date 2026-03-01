@@ -554,23 +554,24 @@ const getParagraphHighlightSlice = (
   spans: ParagraphHighlightSpan[],
   sliceStart: number,
   sliceEnd: number,
-): ParagraphHighlightSpan[] =>
-  spans
-    .map((span) => {
-      const start = Math.max(sliceStart, span.start)
-      const end = Math.min(sliceEnd, span.end)
-      if (end <= start) {
-        return null
-      }
-      return {
-        ...span,
-        start: start - sliceStart,
-        end: end - sliceStart,
-        tooltipStart: span.tooltipStart ?? span.start,
-        tooltipEnd: span.tooltipEnd ?? span.end,
-      }
+): ParagraphHighlightSpan[] => {
+  const sliced: ParagraphHighlightSpan[] = []
+  for (const span of spans) {
+    const start = Math.max(sliceStart, span.start)
+    const end = Math.min(sliceEnd, span.end)
+    if (end <= start) {
+      continue
+    }
+    sliced.push({
+      ...span,
+      start: start - sliceStart,
+      end: end - sliceStart,
+      tooltipStart: span.tooltipStart ?? span.start,
+      tooltipEnd: span.tooltipEnd ?? span.end,
     })
-    .filter((span): span is ParagraphHighlightSpan => span != null)
+  }
+  return sliced
+}
 
 const renderParagraphWithLineRanges = (
   text: string,

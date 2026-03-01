@@ -1,6 +1,7 @@
 import { useAuthStore } from '../store/authStore'
 import { BreadcrumbNav } from './BreadcrumbNav.tsx'
 import { Button } from './core/Button'
+import { useAppState } from '../context/useAppState.ts'
 
 interface HeaderProps {
   onShowLogin: () => void
@@ -8,6 +9,7 @@ interface HeaderProps {
 
 export function Header({ onShowLogin }: HeaderProps) {
   const { token, username, clearAuth } = useAuthStore()
+  const { setState } = useAppState()
 
   return (
     <header className="bg-white border-b border-gray-200 px-4 py-3">
@@ -43,6 +45,13 @@ export function Header({ onShowLogin }: HeaderProps) {
                     </div>
                   </div>
                   <div className="border-t border-gray-100 my-1" />
+                  <Button
+                    variant="primary"
+                    onClick={() => setState({ viewMode: 'backups' })}
+                    className="w-full px-2 py-1 text-xs transition-colors mb-1"
+                  >
+                    Backups
+                  </Button>
                   <Button
                     variant="danger"
                     onClick={clearAuth}

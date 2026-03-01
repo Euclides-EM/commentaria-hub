@@ -397,9 +397,7 @@ const Tei = ({
   useEffect(() => {
     if (!tooltipState) {
       tooltipHoveredRef.current = false
-      return
     }
-    setSelectionState(null)
   }, [tooltipState])
 
   const html = useMemo(
@@ -628,6 +626,7 @@ const Tei = ({
           return
         }
         const position = getTooltipPosition(hitElement)
+        setSelectionState(null)
         setTooltipState((previous) => {
           if (!previous) {
             return { x: position.x, y: position.y, items }
@@ -1052,12 +1051,9 @@ export function TeiPane() {
       return normalized
     })
   }
-
-  useEffect(() => {
-    if (!enableCorrespHover && hoveredLineMatchIds.length > 0) {
-      setHoveredLineMatchIds([])
-    }
-  }, [enableCorrespHover, hoveredLineMatchIds.length])
+  const activeHoveredLineMatchIds = enableCorrespHover
+    ? hoveredLineMatchIds
+    : []
 
   const teiCategories = useMemo(
     () => (teiContents ? getTeiHighlightCategories(teiContents) : []),
@@ -1796,7 +1792,7 @@ export function TeiPane() {
                       alignLines={alignLines}
                       highlightConfig={highlightConfig}
                       editable={isAuthenticated}
-                      activeLineMatchIds={hoveredLineMatchIds}
+                      activeLineMatchIds={activeHoveredLineMatchIds}
                       enableCorrespHover={enableCorrespHover}
                       onHoverLineMatchIds={handleHoverLineMatchIds}
                       onRequestAddHighlight={openModalForAdd}

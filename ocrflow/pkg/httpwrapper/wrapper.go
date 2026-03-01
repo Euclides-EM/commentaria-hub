@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -111,7 +112,7 @@ func (wb *wrapperBuilder) GetZip(f func(r *http.Request) (zipPath string, delete
 			return
 		}
 		w.Header().Set("Content-Type", "application/zip")
-		w.Header().Set("Content-Disposition", "attachment; filename=\"data.zip\"")
+		w.Header().Set("Content-Disposition", "attachment; filename=\""+filepath.Base(zipPath)+"\"")
 		http.ServeFile(w, r, zipPath)
 		if deleteAfterServe {
 			_ = os.Remove(zipPath)
