@@ -185,7 +185,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 	var pageList []int
 	if strings.TrimSpace(ds.Pages) != "" {
 		var err error
-		pageList, err = pagesparser.Range(ds.Pages)
+		pageList, err = pagesparser.IntRange(ds.Pages)
 		if err != nil {
 			return nil, fmt.Errorf("invalid pages %q: %w", ds.Pages, err)
 		}

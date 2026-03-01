@@ -163,7 +163,7 @@ func (a *AnnotationsUploader) UploadToEscriptorium(datasetID string, id string, 
 		return nil, fmt.Errorf("no ALTO annotations found for escriptorium upload")
 	}
 
-	pages, err := pagesparser.Range(ann.Pages)
+	pages, err := pagesparser.IntRange(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for escriptorium upload: %w", err)
 	}
