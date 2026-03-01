@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Point } from "react-simple-maps";
 import styled from "@emotion/styled";
 import { isEmpty } from "lodash";
@@ -29,8 +29,10 @@ import { CityDetails } from "../components/map/CityDetails.tsx";
 import { NAVBAR_HEIGHT } from "../components/layout/routes.ts";
 import { useIsMobile } from "../components/layout/isMobile.ts";
 import { useEditFilter } from "../contexts/FilterEditContext.tsx";
-import { FLOATING_CITY_ENTRY, Item } from "../types";
+import { FLOATING_CITY_ENTRY } from "../types";
+import type { Item } from "../types";
 import { GeoDataService } from "@hub-api";
+import { useAutoOpenEditionFromQuery } from "../hooks/useAutoOpenEditionFromQuery.ts";
 
 const Wrapper = styled.div`
   position: fixed;
@@ -160,6 +162,7 @@ export const Map = () => {
   const [selectedRecordKey, setSelectedRecordId] = useState<
     string | undefined
   >();
+  const [selectedItem, setSelectedItem] = useState<Item | undefined>();
   const [toured, setToured] = useLocalStorage<boolean>("map-toured", false);
   const { setIsOpen: setTourOpen } = useTour();
 
@@ -197,6 +200,14 @@ export const Map = () => {
         : undefined,
     [filteredItems, selectedRecordKey],
   );
+  const modalItem = selectedRecord || selectedItem;
+
+  const openItemModal = useCallback((item: Item) => {
+    setSelectedRecordId(item.key);
+    setSelectedItem(item);
+  }, []);
+
+  useAutoOpenEditionFromQuery(filteredItems, openItemModal);
 
   useEffect(() => {
     refreshSize();
@@ -255,15 +266,21 @@ export const Map = () => {
             city={selectedCity!}
             data={itemsByCity[selectedCity!] || []}
             selectedRecordId={selectedRecordKey}
-            setSelectedRecordKey={setSelectedRecordId}
+            setSelectedRecordKey={(key) => {
+              setSelectedItem(undefined);
+              setSelectedRecordId(key);
+            }}
           />
         </Pane>
       )}
-      {!isEmpty(selectedRecord) && (
+      {!isEmpty(modalItem) && (
         <ItemModal
-          item={selectedRecord}
+          item={modalItem!}
           featuresById={{}}
-          onClose={() => setSelectedRecordId(undefined)}
+          onClose={() => {
+            setSelectedRecordId(undefined);
+            setSelectedItem(undefined);
+          }}
         />
       )}
     </Wrapper>

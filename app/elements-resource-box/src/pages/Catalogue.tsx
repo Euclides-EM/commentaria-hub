@@ -15,7 +15,7 @@ import {
 import styled from "@emotion/styled";
 import type { search_OrderByOption } from "@hub-api";
 import { SiMaterialdesign } from "react-icons/si";
-import { Item } from "../types";
+import type { Item } from "../types";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
 import { useEditionsSearchInfinite } from "../hooks/useEditionsSearch";
 import {
@@ -40,6 +40,7 @@ import { useLocalStorage } from "usehooks-ts";
 import { withAppBasePath } from "../utils/basePath";
 import { PiArrowBendDownRightBold } from "react-icons/pi";
 import { inEuclidesMode } from "../utils/mode.ts";
+import { useAutoOpenEditionFromQuery } from "../hooks/useAutoOpenEditionFromQuery.ts";
 
 const TableContainer = styled.div`
   ${ScrollbarStyle};
@@ -287,6 +288,8 @@ export function Catalogue() {
     pageSize: 25,
     orderBy,
   });
+
+  useAutoOpenEditionFromQuery(filteredItems, setSelectedItem);
 
   const scrollToTop = () => {
     document.getElementById(MAIN_CONTENT_ID)?.scrollTo({

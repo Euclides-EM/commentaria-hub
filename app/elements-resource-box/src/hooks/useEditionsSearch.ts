@@ -47,7 +47,9 @@ function buildSearchQuery(
   const query: Omit<search_Query, "offset" | "limit"> = {};
 
   if (filterState.filters) {
-    const fieldsFilter: Record<string, string[]> = {};
+    const fieldsFilter: Record<string, string[]> = {
+      isManuscript: ["false"],
+    };
     for (const [field, values] of Object.entries(filterState.filters)) {
       if (!values || values.length === 0) continue;
       const backendField = ITEM_FIELD_TO_EDITION_FIELD[field] || field;
