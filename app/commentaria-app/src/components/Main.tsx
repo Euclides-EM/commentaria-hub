@@ -5,7 +5,6 @@ import { FeatureExecutionsTab } from './annotation/featureExecutions/FeatureExec
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
 import { ModelsTable } from './models/ModelsTable.tsx'
-import { GroundTruthsTable } from './groundTruths/GroundTruthsTable.tsx'
 import { JobsTable } from './jobs/JobsTable.tsx'
 import { BackupsView } from './backups/BackupsView.tsx'
 import { Button } from './core/Button.tsx'
@@ -13,6 +12,7 @@ import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
 import { useAuthStore } from '../store/authStore.ts'
 import { TabButton } from './core/TabButton.tsx'
+import { AnnotationsTable } from './annotations/AnnotationsTable.tsx'
 
 type Tab = 'details' | 'text' | 'featureExecutions'
 
@@ -30,8 +30,8 @@ export function Main() {
   if (state.viewMode === 'models') {
     return <ModelsTable />
   }
-  if (state.viewMode === 'groundTruths') {
-    return <GroundTruthsTable />
+  if (state.viewMode === 'annotations') {
+    return <AnnotationsTable />
   }
   if (state.viewMode === 'jobs') {
     return <JobsTable />

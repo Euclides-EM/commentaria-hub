@@ -1,18 +1,24 @@
 import { useMemo, useState } from 'react'
 import { useQueries } from '@tanstack/react-query'
-import type { annotation_Annotation } from '@hub-api'
+import type {
+  annotation_Annotation,
+  annotationrule_PipelineStage,
+} from '@hub-api'
 import { AnnotationsService } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import { useDatasetsQuery } from '../../queries/datasets'
+import { usePipelineStages } from '../../queries/metadata'
+import { getStageDisplayName } from '../../utils/stages'
 import { ExportAnnotationModal } from '../annotation/details/ExportAnnotationModal'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
+import { MultiSelectDropdown } from '../core/MultiSelectDropdown'
 import { SearchInput } from '../core/SearchInput'
 import { Timestamp } from '../core/Timestamp'
 import useLocalStorageState from 'use-local-storage-state'
 
-type GroundTruthRow = {
+type AnnotationRow = {
   datasetId: string
   datasetName: string
   annotation: annotation_Annotation
@@ -21,7 +27,7 @@ type GroundTruthRow = {
 type SelectedTarget = { datasetId: string; annotationId: string }
 type SelectedTargets = Record<string, SelectedTarget>
 
-type SortKey = 'annotation' | 'dataset' | 'updated'
+type SortKey = 'annotation' | 'dataset' | 'stage' | 'updated'
 type SortDirection = 'asc' | 'desc'
 
 type SortConfig = {
@@ -29,19 +35,31 @@ type SortConfig = {
   direction: SortDirection
 }
 
-export function GroundTruthsTable() {
+type GroundTruthFilter = 'all' | 'true' | 'false'
+
+export function AnnotationsTable() {
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
+  const { data: stages } = usePipelineStages()
   const { setState } = useAppState()
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [selectedTargets, setSelectedTargets] = useState<SelectedTargets>({})
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
-    'groundTruthsSearch',
+    'annotationsSearch',
     {
       defaultValue: '',
     },
   )
+  const [selectedStages, setSelectedStages] = useLocalStorageState<
+    annotationrule_PipelineStage[] | null
+  >('annotationsFilterStages', {
+    defaultValue: null,
+  })
+  const [groundTruthFilter, setGroundTruthFilter] =
+    useLocalStorageState<GroundTruthFilter>('annotationsGroundTruthFilter', {
+      defaultValue: 'all',
+    })
   const [sortConfig, setSortConfig] = useLocalStorageState<SortConfig>(
-    'groundTruthsSort',
+    'annotationsSort',
     {
       defaultValue: {
         key: 'updated',
@@ -82,7 +100,7 @@ export function GroundTruthsTable() {
       }
     })
 
-    const result: GroundTruthRow[] = []
+    const result: AnnotationRow[] = []
     annotationQueries.forEach((query, index) => {
       const datasetId = datasetIds[index]
       if (!datasetId || !query.data) {
@@ -91,7 +109,7 @@ export function GroundTruthsTable() {
 
       const datasetName = datasetNameById.get(datasetId) || datasetId
       query.data.forEach((annotation) => {
-        if (annotation.id && annotation.ground_truth) {
+        if (annotation.id) {
           result.push({
             datasetId,
             datasetName,
@@ -110,31 +128,47 @@ export function GroundTruthsTable() {
 
   const filteredRows = useMemo(() => {
     const trimmed = searchQuery.trim().toLowerCase()
-    if (!trimmed) {
-      return rows
-    }
     return rows.filter((row) => {
+      const stage = row.annotation.pipeline_stage
+      const matchesStage =
+        selectedStages == null ||
+        (stage != null && selectedStages.includes(stage))
+      if (!matchesStage) {
+        return false
+      }
+      const matchesGroundTruth =
+        groundTruthFilter === 'all' ||
+        (groundTruthFilter === 'true'
+          ? !!row.annotation.ground_truth
+          : !row.annotation.ground_truth)
+      if (!matchesGroundTruth) {
+        return false
+      }
+      if (!trimmed) {
+        return true
+      }
       const haystack = [
         row.annotation.id,
         row.annotation.name,
         row.datasetId,
         row.datasetName,
         row.annotation.pages,
+        row.annotation.ground_truth ? 'ground truth' : 'not ground truth',
+        stage ? getStageDisplayName(stage) : 'none',
       ]
         .filter(Boolean)
         .join(' ')
         .toLowerCase()
       return haystack.includes(trimmed)
     })
-  }, [rows, searchQuery])
+  }, [groundTruthFilter, rows, searchQuery, selectedStages])
 
   const filteredDatasetCount = useMemo(
     () => new Set(filteredRows.map((row) => row.datasetId)).size,
     [filteredRows],
   )
 
-  const rowKey = (row: GroundTruthRow) =>
-    `${row.datasetId}:${row.annotation.id}`
+  const rowKey = (row: AnnotationRow) => `${row.datasetId}:${row.annotation.id}`
 
   const validRowKeys = useMemo(
     () => new Set(rows.map((row) => rowKey(row))),
@@ -152,12 +186,16 @@ export function GroundTruthsTable() {
   }
 
   const sortedRows = useMemo(() => {
-    const getSortValue = (row: GroundTruthRow, key: SortKey) => {
+    const getSortValue = (row: AnnotationRow, key: SortKey) => {
       switch (key) {
         case 'annotation':
           return (row.annotation.name || row.annotation.id || '').toLowerCase()
         case 'dataset':
           return row.datasetName.toLowerCase()
+        case 'stage':
+          return row.annotation.pipeline_stage
+            ? getStageDisplayName(row.annotation.pipeline_stage).toLowerCase()
+            : ''
         case 'updated': {
           const raw = row.annotation.updated_at || row.annotation.created_at
           const time = raw ? new Date(raw).getTime() : 0
@@ -224,9 +262,7 @@ export function GroundTruthsTable() {
       <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white gap-4">
         <div className="flex items-center gap-6">
           <div>
-            <h2 className="text-lg font-semibold text-gray-900">
-              Ground Truths
-            </h2>
+            <h2 className="text-lg font-semibold text-gray-900">Annotations</h2>
             <p className="text-xs text-gray-500">
               {filteredRows.length}
               {searchQuery && ` of ${rows.length}`}{' '}
@@ -238,9 +274,30 @@ export function GroundTruthsTable() {
           <SearchInput
             value={searchQuery}
             onChange={setSearchQuery}
-            placeholder="Search ground truths..."
+            placeholder="Search annotations..."
             className="w-[22rem] max-w-full"
           />
+          {stages && (
+            <MultiSelectDropdown
+              allItems={stages}
+              selectedItems={selectedStages}
+              setSelectedItems={setSelectedStages}
+              itemsLabel="stages"
+              getItemLabel={(stage) => getStageDisplayName(stage)}
+            />
+          )}
+          <select
+            value={groundTruthFilter}
+            onChange={(e) =>
+              setGroundTruthFilter(e.target.value as GroundTruthFilter)
+            }
+            className="h-8 rounded-md border border-gray-400 bg-white px-2 text-sm text-gray-700 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100"
+            aria-label="Filter by ground truth"
+          >
+            <option value="all">All ground truth statuses</option>
+            <option value="true">Ground truth only</option>
+            <option value="false">Not ground truth</option>
+          </select>
         </div>
         <div className="flex items-center gap-2">
           <Button
@@ -257,7 +314,7 @@ export function GroundTruthsTable() {
       <div className="overflow-auto px-2 py-4">
         <div className="flex flex-col">
           {(datasetsLoading || isLoadingAnnotations) && (
-            <LoadingSpinner message="Loading ground truths..." />
+            <LoadingSpinner message="Loading annotations..." />
           )}
 
           {!datasetsLoading && !isLoadingAnnotations && hasError && (
@@ -275,9 +332,7 @@ export function GroundTruthsTable() {
             !isLoadingAnnotations &&
             !hasError &&
             rows.length === 0 && (
-              <div className="text-sm text-gray-500">
-                No ground-truth annotations found.
-              </div>
+              <div className="text-sm text-gray-500">No annotations found.</div>
             )}
 
           {!datasetsLoading &&
@@ -286,7 +341,7 @@ export function GroundTruthsTable() {
             rows.length > 0 &&
             filteredRows.length === 0 && (
               <div className="text-sm text-gray-500">
-                No ground truths match "{searchQuery.trim()}".
+                No annotations match "{searchQuery.trim()}".
               </div>
             )}
 
@@ -331,7 +386,7 @@ export function GroundTruthsTable() {
                               })
                             }}
                             className="h-4 w-4"
-                            aria-label="Select all visible ground truths"
+                            aria-label="Select all visible annotations"
                           />
                         </th>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
@@ -339,6 +394,12 @@ export function GroundTruthsTable() {
                         </th>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
                           {renderSortHeader('Dataset', 'dataset')}
+                        </th>
+                        <th className="px-4 py-3 text-left whitespace-nowrap">
+                          {renderSortHeader('Stage', 'stage')}
+                        </th>
+                        <th className="px-4 py-3 text-left whitespace-nowrap">
+                          Ground Truth
                         </th>
                         <th className="px-4 py-3 text-left">Pages</th>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
@@ -411,8 +472,18 @@ export function GroundTruthsTable() {
                               {row.datasetName}
                             </button>
                           </td>
+                          <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
+                            {row.annotation.pipeline_stage
+                              ? getStageDisplayName(
+                                  row.annotation.pipeline_stage,
+                                )
+                              : 'None'}
+                          </td>
+                          <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
+                            {row.annotation.ground_truth ? 'Yes' : 'No'}
+                          </td>
                           <td className="px-4 py-3 text-gray-700 w-full">
-                            {row.annotation.pages || 'All'}
+                            {row.annotation.pages || 'N/A'}
                           </td>
                           <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
                             <Timestamp
@@ -436,7 +507,6 @@ export function GroundTruthsTable() {
         isOpen={isExportOpen}
         onClose={() => setIsExportOpen(false)}
         exportTargets={selectedRows}
-        defaultGroundTruthChecked
       />
     </div>
   )

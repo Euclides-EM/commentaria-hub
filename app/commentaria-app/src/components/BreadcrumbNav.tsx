@@ -93,18 +93,14 @@ export function BreadcrumbNav() {
       </Button>
       <Button
         variant="primary"
-        className={`h-12 w-20 px-2 ${state.viewMode === 'groundTruths' && '!bg-teal-100 hover:!bg-white'}`}
+        className={`h-12 w-24 px-2 ${state.viewMode === 'annotations' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({
-            viewMode: state.viewMode === 'groundTruths' ? null : 'groundTruths',
+            viewMode: state.viewMode === 'annotations' ? null : 'annotations',
           })
         }
       >
-        <span className="leading-tight text-center">
-          Ground
-          <br />
-          Truths
-        </span>
+        Annotations
       </Button>
       <Button
         variant="primary"

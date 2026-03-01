@@ -66,7 +66,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   )
   const parsedViewMode: ViewMode | null =
     queryState.viewMode === 'models' ||
-    queryState.viewMode === 'groundTruths' ||
+    queryState.viewMode === 'annotations' ||
     queryState.viewMode === 'jobs' ||
     queryState.viewMode === 'backups'
       ? queryState.viewMode
