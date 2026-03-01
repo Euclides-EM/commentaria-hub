@@ -294,7 +294,7 @@ export function AnnotationsTable() {
             className="h-8 rounded-md border border-gray-400 bg-white px-2 text-sm text-gray-700 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100"
             aria-label="Filter by ground truth"
           >
-            <option value="all">All ground truth statuses</option>
+            <option value="all">All</option>
             <option value="true">Ground truth only</option>
             <option value="false">Not ground truth</option>
           </select>

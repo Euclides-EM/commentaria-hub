@@ -196,6 +196,7 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 		if err != nil {
 			return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
 		}
+		ann.GroundTruth = false
 	}
 
 	// apply rules...
