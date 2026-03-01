@@ -28,12 +28,11 @@ export function CreateRevisionModal({
 
   useEffect(() => {
     if (isOpen) {
-      const latestType =
-        latestRevision?.prompt?.trim()
-          ? 'prompt'
-          : latestRevision?.categorizer?.trim()
-            ? 'categorizer'
-            : 'prompt'
+      const latestType = latestRevision?.prompt?.trim()
+        ? 'prompt'
+        : latestRevision?.categorizer?.trim()
+          ? 'categorizer'
+          : 'prompt'
       setType(latestType)
       setPrompt(latestRevision?.prompt ?? '')
       setCategorizer(latestRevision?.categorizer ?? '')
@@ -46,8 +45,7 @@ export function CreateRevisionModal({
     event?.preventDefault()
     const trimmedPrompt = prompt.trim()
     const trimmedCategorizer = categorizer.trim()
-    const selectedValue =
-      type === 'prompt' ? trimmedPrompt : trimmedCategorizer
+    const selectedValue = type === 'prompt' ? trimmedPrompt : trimmedCategorizer
 
     if (!selectedValue) {
       setError(
@@ -95,7 +93,9 @@ export function CreateRevisionModal({
 
         <div className="flex-1 overflow-auto p-6 flex flex-col gap-4 text-sm">
           <div className="flex flex-col gap-2">
-            <span className="block text-sm font-medium text-gray-700">Type</span>
+            <span className="block text-sm font-medium text-gray-700">
+              Type
+            </span>
             <div className="flex items-center gap-6">
               <label className="flex items-center gap-2 text-sm text-gray-700">
                 <input
