@@ -23,6 +23,7 @@ func (h *Handlers) ListBackups(r *http.Request) (any, error) {
 // @Tags         Backups
 // @Produce      json
 // @Success      201  {string}  string  "Backup ID"
+// @Security 	 BearerAuth
 // @Router       /backups [post]
 func (h *Handlers) CreateBackup(r *http.Request) (any, error) {
 	return h.deps.BackupSvc.CreateBackup()
@@ -35,6 +36,7 @@ func (h *Handlers) CreateBackup(r *http.Request) (any, error) {
 // @Produce      json
 // @Param        backupId   path      string  true  "ID of the backup to restore, if the backupId is 'latest', the latest backup will be restored"
 // @Success      200  {object}  map[string]string
+// @Security 	 BearerAuth
 // @Router       /backups/{backupId}/restore [put]
 func (h *Handlers) RestoreLatestBackup(r *http.Request) (any, error) {
 	backupId := r.PathValue("backupId")
@@ -51,6 +53,7 @@ func (h *Handlers) RestoreLatestBackup(r *http.Request) (any, error) {
 // @Produce      application/octet-stream
 // @Param        backupId   path      string  true  "ID of the backup to download"
 // @Success      200  {file}  string  "Backup file"
+// @Security 	 BearerAuth
 // @Router       /backups/{backupId} [get]
 func (h *Handlers) DownloadBackup(r *http.Request) (zipPath string, deleteAfterServe bool, err error) {
 	backupId := r.PathValue("backupId")
@@ -69,6 +72,7 @@ func (h *Handlers) DownloadBackup(r *http.Request) (zipPath string, deleteAfterS
 // @Param        file  formData  file  true  "Zip file containing the backup data"
 // @Produce      json
 // @Success      201  {string}  string  "Backup ID"
+// @Security 	 BearerAuth
 // @Router       /backups/fromzip [post]
 func (h *Handlers) CreateBackupFromZip(r *http.Request) (any, error) {
 	file, _, err := r.FormFile("file")

@@ -3,6 +3,7 @@ package service
 import (
 	"fmt"
 	"os"
+	"path"
 	"slices"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
@@ -96,8 +97,15 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 	}
 
 	for _, p := range pages {
-		if _, err := a.datasetImgSvc.GetImageMetadata(datasetID, p); err != nil {
-			return nil, fmt.Errorf("failed to get image metadata for page %s: %w", p, err)
+		if datasetID == "tps" {
+			if _, err := a.datasetImgSvc.GetImageMetadata(datasetID, p); err != nil {
+				return nil, fmt.Errorf("failed to get image metadata for page %s: %w", p, err)
+			}
+		} else {
+			filename := pagesparser.PageOrKeyToPNGFilename(p)
+			if _, err := os.Stat(path.Join(imgPath, filename)); err != nil {
+				return nil, fmt.Errorf("no such file %s in existing dataset", filename)
+			}
 		}
 	}
 	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
