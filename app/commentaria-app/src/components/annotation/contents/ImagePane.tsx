@@ -1,4 +1,10 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import {
+  type PointerEvent as ReactPointerEvent,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react'
 import { useAppState } from '../../../context/useAppState.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
 import { useDatasetImageKeysQuery } from '../../../queries/datasets.ts'
@@ -27,7 +33,9 @@ export function ImagePane({
     state: { datasetId, currentPageOrKey },
   } = useAppState()
   const [zoom, setZoom] = useState(250)
+  const [isImageZoomEngaged, setIsImageZoomEngaged] = useState(false)
   const viewportRef = useRef<HTMLDivElement | null>(null)
+  const lastHoverIdsKeyRef = useRef('')
   const [imageDisplayBox, setImageDisplayBox] = useState({
     left: 0,
     top: 0,
@@ -74,9 +82,37 @@ export function ImagePane({
 
     const getImageElement = () =>
       viewport.querySelector('img#imageZoom') || viewport.querySelector('img')
+    const isImageZoomedNow = () => {
+      if (viewport.querySelector('.zoomed')) {
+        return true
+      }
+      const image = getImageElement()
+      if (!(image instanceof HTMLImageElement)) {
+        return false
+      }
+      const style = window.getComputedStyle(image)
+      if (style.cursor.includes('zoom-out')) {
+        return true
+      }
+      if (style.transform && style.transform !== 'none') {
+        return true
+      }
+      const imageRect = image.getBoundingClientRect()
+      const viewportRect = viewport.getBoundingClientRect()
+      return (
+        imageRect.width > viewportRect.width + 1 ||
+        imageRect.height > viewportRect.height + 1
+      )
+    }
+    const syncZoomEngaged = () => {
+      setIsImageZoomEngaged(isImageZoomedNow())
+    }
+    const scheduleSyncZoomEngaged = () =>
+      window.requestAnimationFrame(syncZoomEngaged)
 
     const recalc = () => {
       const image = getImageElement()
+      syncZoomEngaged()
       if (!(image instanceof HTMLImageElement)) {
         setImageDisplayBox({
           left: 0,
@@ -139,6 +175,7 @@ export function ImagePane({
     const mutationObserver = new MutationObserver(() => {
       attachImage()
       recalc()
+      syncZoomEngaged()
     })
     mutationObserver.observe(viewport, {
       childList: true,
@@ -148,6 +185,8 @@ export function ImagePane({
     })
     attachImage()
     window.addEventListener('resize', recalc)
+    viewport.addEventListener('pointermove', scheduleSyncZoomEngaged)
+    viewport.addEventListener('click', scheduleSyncZoomEngaged, true)
     return () => {
       window.cancelAnimationFrame(frame)
       if (observedImage) {
@@ -156,6 +195,9 @@ export function ImagePane({
       mutationObserver.disconnect()
       resizeObserver.disconnect()
       window.removeEventListener('resize', recalc)
+      viewport.removeEventListener('pointermove', scheduleSyncZoomEngaged)
+      viewport.removeEventListener('click', scheduleSyncZoomEngaged, true)
+      setIsImageZoomEngaged(false)
     }
   }, [imageUrl, zoom])
 
@@ -203,8 +245,7 @@ export function ImagePane({
           ((zone.ulx - referenceUlx) / referenceWidth) * imageDisplayBox.width
         const top =
           imageDisplayBox.top +
-          ((zone.uly - referenceUly) / referenceHeight) *
-            imageDisplayBox.height
+          ((zone.uly - referenceUly) / referenceHeight) * imageDisplayBox.height
         const width =
           ((zone.lrx - zone.ulx) / referenceWidth) * imageDisplayBox.width
         const height =
@@ -239,6 +280,66 @@ export function ImagePane({
     surfaceZones,
   ])
 
+  useEffect(() => {
+    if (isImageZoomEngaged) {
+      onHoverLineMatchIds?.([])
+      lastHoverIdsKeyRef.current = ''
+    }
+  }, [isImageZoomEngaged, onHoverLineMatchIds])
+
+  const emitHoverIds = (ids: string[]) => {
+    const key = ids.join('|')
+    if (key === lastHoverIdsKeyRef.current) {
+      return
+    }
+    lastHoverIdsKeyRef.current = key
+    onHoverLineMatchIds?.(ids)
+  }
+
+  const handleViewportPointerMove = (
+    event: ReactPointerEvent<HTMLDivElement>,
+  ) => {
+    if (!enableHoverSync || !onHoverLineMatchIds) {
+      return
+    }
+    if (isImageZoomEngaged) {
+      emitHoverIds([])
+      return
+    }
+    const rect = event.currentTarget.getBoundingClientRect()
+    const x = event.clientX - rect.left
+    const y = event.clientY - rect.top
+    let hovered: (typeof visibleZones)[number] | null = null
+    for (let index = visibleZones.length - 1; index >= 0; index--) {
+      const zone = visibleZones[index]
+      if (
+        x >= zone.left &&
+        x <= zone.left + zone.width &&
+        y >= zone.top &&
+        y <= zone.top + zone.height
+      ) {
+        hovered = zone
+        break
+      }
+    }
+    if (!hovered) {
+      emitHoverIds([])
+      return
+    }
+    emitHoverIds(
+      hovered.hoverMatchIds.length > 0
+        ? hovered.hoverMatchIds
+        : hovered.matchIds,
+    )
+  }
+
+  const handleViewportPointerLeave = () => {
+    if (!enableHoverSync || !onHoverLineMatchIds) {
+      return
+    }
+    emitHoverIds([])
+  }
+
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white relative">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
@@ -269,7 +370,12 @@ export function ImagePane({
 
       <div className="flex-1 min-h-0 overflow-auto p-2">
         <div className="h-full w-full max-h-full max-w-full overflow-hidden flex items-center justify-center">
-          <div ref={viewportRef} className="relative h-full w-full">
+          <div
+            ref={viewportRef}
+            className="relative h-full w-full"
+            onPointerMove={handleViewportPointerMove}
+            onPointerLeave={handleViewportPointerLeave}
+          >
             <ImageZoom
               key={imageUrl}
               src={imageUrl}
@@ -279,39 +385,30 @@ export function ImagePane({
               height="100%"
               className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-contain"
             />
-            {enableHoverSync && visibleZones.length > 0 && (
-              <div className="absolute inset-0 z-20 pointer-events-none">
-                {visibleZones.map((zone) => (
-                  <button
-                    key={zone.id}
-                    type="button"
-                    tabIndex={-1}
-                    aria-label={`Zone ${zone.id}`}
-                    className={`absolute border-2 rounded-sm ${
-                      zone.isActive
-                        ? zone.zoneType === 'block'
-                          ? 'border-amber-500 bg-amber-300/20'
-                          : 'border-teal-500 bg-teal-300/20'
-                        : 'border-transparent bg-transparent'
-                    } pointer-events-auto`}
-                    style={{
-                      left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
-                      top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
-                      width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
-                      height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
-                    }}
-                    onMouseEnter={() =>
-                      onHoverLineMatchIds?.(
-                        zone.hoverMatchIds.length > 0
-                          ? zone.hoverMatchIds
-                          : zone.matchIds,
-                      )
-                    }
-                    onMouseLeave={() => onHoverLineMatchIds?.([])}
-                  />
-                ))}
-              </div>
-            )}
+            {enableHoverSync &&
+              !isImageZoomEngaged &&
+              visibleZones.length > 0 && (
+                <div className="absolute inset-0 z-20 pointer-events-none">
+                  {visibleZones.map((zone) => (
+                    <div
+                      key={zone.id}
+                      className={`absolute border-2 rounded-sm ${
+                        zone.isActive
+                          ? zone.zoneType === 'block'
+                            ? 'border-amber-500 bg-amber-300/20'
+                            : 'border-teal-500 bg-teal-300/20'
+                          : 'border-transparent bg-transparent'
+                      }`}
+                      style={{
+                        left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
+                        top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
+                        width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
+                        height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
+                      }}
+                    />
+                  ))}
+                </div>
+              )}
           </div>
         </div>
       </div>
