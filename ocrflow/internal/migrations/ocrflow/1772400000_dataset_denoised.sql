@@ -1,0 +1,2 @@
+ALTER TABLE datasets ADD COLUMN denoised BOOLEAN NOT NULL DEFAULT FALSE;
+UPDATE datasets SET denoised = FALSE WHERE denoised IS NULL;

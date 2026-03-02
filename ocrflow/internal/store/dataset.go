@@ -25,7 +25,7 @@ func NewDatasetSQL(db *sql.DB, filesysManager *filesys.Manager) *DatasetSQL {
 
 func (s *DatasetSQL) ListDatasets() ([]*model.Dataset, error) {
 	rows, err := s.db.Query(`
-		SELECT id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed, pages, status, creation_error
+		SELECT id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed, denoised, pages, status, creation_error
 		FROM datasets
 	`)
 	if err != nil {
@@ -46,6 +46,7 @@ func (s *DatasetSQL) ListDatasets() ([]*model.Dataset, error) {
 			&d.FacsimileID,
 			&d.DPI,
 			&d.Deskewed,
+			&d.Denoised,
 			&d.Pages,
 			&d.Status,
 			&d.CreationError,
@@ -65,7 +66,7 @@ func (s *DatasetSQL) ListDatasets() ([]*model.Dataset, error) {
 func (s *DatasetSQL) GetDataset(id string) (*model.Dataset, error) {
 	d := &model.Dataset{}
 	err := s.db.QueryRow(`
-		SELECT id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed, pages, status, creation_error
+		SELECT id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed, denoised, pages, status, creation_error
 		FROM datasets
 		WHERE id = ?
 	`, id).Scan(
@@ -78,6 +79,7 @@ func (s *DatasetSQL) GetDataset(id string) (*model.Dataset, error) {
 		&d.FacsimileID,
 		&d.DPI,
 		&d.Deskewed,
+		&d.Denoised,
 		&d.Pages,
 		&d.Status,
 		&d.CreationError,
@@ -97,8 +99,8 @@ func (s *DatasetSQL) InsertDataset(d *model.Dataset) error {
 		status = model.DatasetStatusReady
 	}
 	_, err := s.db.Exec(`
-		INSERT INTO datasets (id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed, pages, status, creation_error)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		INSERT INTO datasets (id, name, description, created_at, updated_at, edition_id, facsimile_id, dpi, deskewed, denoised, pages, status, creation_error)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 	`,
 		d.ID,
 		d.Name,
@@ -109,6 +111,7 @@ func (s *DatasetSQL) InsertDataset(d *model.Dataset) error {
 		d.FacsimileID,
 		d.DPI,
 		d.Deskewed,
+		d.Denoised,
 		d.Pages,
 		status,
 		d.CreationError,
@@ -137,7 +140,7 @@ func (s *DatasetSQL) UpdateDataset(ds *model.Dataset) error {
 	ds.UpdatedAt = time.Now()
 	_, err := s.db.Exec(`
 		UPDATE datasets
-		SET name = ?, description = ?, updated_at = ?, edition_id = ?, facsimile_id = ?, dpi = ?, deskewed = ?, pages = ?, status = ?, creation_error = ?
+		SET name = ?, description = ?, updated_at = ?, edition_id = ?, facsimile_id = ?, dpi = ?, deskewed = ?, denoised = ?, pages = ?, status = ?, creation_error = ?
 		WHERE id = ?
 	`,
 		ds.Name,
@@ -147,6 +150,7 @@ func (s *DatasetSQL) UpdateDataset(ds *model.Dataset) error {
 		ds.FacsimileID,
 		ds.DPI,
 		ds.Deskewed,
+		ds.Denoised,
 		ds.Pages,
 		ds.Status,
 		ds.CreationError,
