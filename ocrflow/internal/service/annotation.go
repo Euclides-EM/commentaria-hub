@@ -137,7 +137,7 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		}
 	}
 	if aum.Segmented && aum.SegmentModelID != "" {
-		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewSegment(aum.SegmentModelID))
+		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewModelDetect(aum.SegmentModelID))
 	}
 	if aum.Ocred && aum.OCRModelID != "" {
 		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewDetectText(aum.OCRModelID))

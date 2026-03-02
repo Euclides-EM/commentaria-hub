@@ -84,7 +84,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/categories", httpwrapper.Get(h.ListAnnotationCategories).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply", httpwrapper.Update(h.ApplyRules).Build())
-	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/segment", httpwrapper.Update(h.ApplyRuleSegment).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/model_detect", httpwrapper.Update(h.ApplyRuleModelDetect).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/slice_pages", httpwrapper.Update(h.ApplyRuleSlicePages).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/stretch", httpwrapper.Update(h.ApplyRuleStretch).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/add_margin", httpwrapper.Update(h.ApplyRuleAddMargin).Build())

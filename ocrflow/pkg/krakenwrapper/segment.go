@@ -14,7 +14,7 @@ import (
 
 var imageFormats = []string{".tif", ".tiff", ".png"}
 
-func Recognize(inputDir, outputDir, segmentationModel string, filenames []string) (<-chan error, error) {
+func Segment(inputDir, outputDir, segmentationModel string, filenames []string) (<-chan error, error) {
 	if _, err := os.Stat(inputDir); err != nil {
 		return nil, fmt.Errorf("input directory does not exist: %w", err)
 	}
@@ -114,7 +114,7 @@ func runProcessImages(images []string, outputDir, segmentationModel string) erro
 		outputPath := pair[1]
 		go func() {
 			defer fixWg.Done()
-			if err := FixAltoFileName(outputPath, outputPath); err != nil {
+			if err := RemovePathFromAltoImgFileName(outputPath, outputPath); err != nil {
 				fixMu.Lock()
 				if fixErr == nil {
 					fixErr = fmt.Errorf("could not fix ALTO file name in %s: %w", outputPath, err)
