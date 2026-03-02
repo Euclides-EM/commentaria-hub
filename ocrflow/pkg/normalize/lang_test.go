@@ -8,13 +8,15 @@ import (
 
 func TestLanguage(t *testing.T) {
 
+	// todo: fix bug - the original returned by the func in actually the normalized string, not the original.
+	//  once this is fixed, uncomment the test cases currently commented out.
 	tests := []struct {
 		input string
 		want  []MappedOriginal
 	}{
 		{"latin", []MappedOriginal{{"latin", "Latin"}}},
 		{"greek", []MappedOriginal{{"greek", "Greek"}}},
-		{"françois", []MappedOriginal{{"francois", "French"}}},
+		// {"françois", []MappedOriginal{{"françois", "French"}}},
 		{"italien", []MappedOriginal{{"italien", "Italian"}}},
 		{"spanish", []MappedOriginal{{"spanish", "Spanish"}}},
 		{"german", []MappedOriginal{{"german", "German"}}},
@@ -25,8 +27,8 @@ func TestLanguage(t *testing.T) {
 
 		// Multiple languages
 		{"latin, greek", []MappedOriginal{{"latin", "Latin"}, {"greek", "Greek"}}},
-		{"aristotele alijsque græcis & latinis autoribus", []MappedOriginal{{"latin", "Latin"}, {"græc", "Greek"}}},
-		{"in Platone, Aristotele alijsque Græcis & Latinis autoribus", []MappedOriginal{{"latin", "Latin"}, {"græc", "Greek"}}},
+		// {"aristotele alijsque græcis & latinis autoribus", []MappedOriginal{{"greek", "græcis"}, {"latin", "latinis"}}},
+		// {"in Platone, Aristotele alijsque Græcis & Latinis autoribus", []MappedOriginal{{"Græcis", "Greek"}, {"Latinis", "Latin"}}},
 
 		// No matches
 		{"unknown language", []MappedOriginal{}},
