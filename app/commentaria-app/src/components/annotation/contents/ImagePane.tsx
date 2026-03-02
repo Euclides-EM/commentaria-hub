@@ -10,6 +10,7 @@ import { RangeInput } from '../../core/RangeInput.tsx'
 import { useDatasetImageKeysQuery } from '../../../queries/datasets.ts'
 import type { TeiSurfaceZone } from './tei/tei.ts'
 import ImageZoom from 'react-image-zooom'
+import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
 
 type ImagePaneProps = {
   showResizeHandle?: boolean
@@ -44,7 +45,9 @@ export function ImagePane({
     naturalWidth: 0,
     naturalHeight: 0,
   })
-  const isKeyNavigation = !!annotation && !annotation.pages
+  const isKeyNavigation =
+    !!annotation &&
+    (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     datasetId,
     isKeyNavigation,
@@ -61,15 +64,7 @@ export function ImagePane({
 
     const key = String(currentPageOrKey)
     const matchedImage = imageKeys.find((image) => image.key === key)
-    if (matchedImage?.filename) {
-      return matchedImage.filename
-    }
-
-    if (/\.(png|jpe?g|webp|gif|bmp|tiff?)$/i.test(key)) {
-      return key
-    }
-
-    return `${key}.png`
+    return matchedImage?.filename || ''
   })()
 
   const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
@@ -340,11 +335,15 @@ export function ImagePane({
     emitHoverIds([])
   }
 
+  if (!normalizedKey) {
+    return
+  }
+
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white relative">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
         <div className="text-sm font-semibold grow min-w-0">
-          {annotation?.pages
+          {annotation?.pages && annotation.dataset_id !== TITLE_PAGES_DATASET_ID
             ? `Page ${currentPageOrKey} Facsimile`
             : currentImageName}
         </div>

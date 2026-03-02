@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"path"
 	"slices"
@@ -77,7 +78,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 	}
 
 	// assign basic fields
-	ann.ID = idgen.GenerateID(store.AnnotationIDPrefix)
+	ann.ID = lo.Ternary(ann.ID != "", ann.ID, idgen.GenerateID(store.AnnotationIDPrefix))
 	ann.DatasetID = datasetID
 	ann.Name = name.NextAvailable(lo.Map(anns, func(a *annotation.Annotation, _ int) string { return a.Name }), ann.Name)
 
@@ -99,7 +100,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 	for _, p := range pages {
 		if datasetID == "tps" {
 			if _, err := a.datasetImgSvc.GetImageMetadata(datasetID, p); err != nil {
-				return nil, fmt.Errorf("failed to get image metadata for page %s: %w", p, err)
+				log.Printf("[WARN] failed to fetch image metadata for dataset %s: %v", datasetID, err)
 			}
 		} else {
 			filename := pagesparser.PageOrKeyToPNGFilename(p)

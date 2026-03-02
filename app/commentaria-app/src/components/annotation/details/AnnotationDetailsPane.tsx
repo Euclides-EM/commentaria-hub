@@ -28,6 +28,7 @@ import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
 import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
+import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
@@ -84,7 +85,7 @@ const AnnotationDetailsContent = ({
     )
   }, [annotation.id, annotations])
 
-  const hasPages = annotation.pages != null && annotation.pages !== ''
+  const hasPages = annotation.pages != null && annotation.pages !== '' && annotation.dataset_id !== TITLE_PAGES_DATASET_ID
 
   const originAnnotation = annotations?.find(
     (a) => a.id === annotation.origin_annotation_id,
@@ -316,9 +317,13 @@ export function AnnotationDetailsPane() {
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [isDuplicateOpen, setIsDuplicateOpen] = useState(false)
   const { data: runningJobs } = useRunningIntegrationJobsQuery()
-  const shouldLoadImageKeys = !!annotation && !annotation.pages
+  const shouldLoadImageKeys = !!annotation && (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
   const { data: imageKeys = [], isLoading: imageKeysLoading } =
-    useDatasetImageKeysQuery(annotation?.dataset_id || '', shouldLoadImageKeys)
+    useDatasetImageKeysQuery(
+      annotation?.dataset_id || '',
+      shouldLoadImageKeys,
+      annotation?.pages?.split(','),
+    )
   const isExporting = !!runningJobs?.some(
     (job) =>
       job.annotation?.dataset_id === annotation?.dataset_id &&
