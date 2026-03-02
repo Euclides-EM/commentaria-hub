@@ -11,6 +11,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/annotationrules"
@@ -60,8 +61,8 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 		return a.applySlicePagesRule(ann, t)
 	case *annotationrule.LinesDetect:
 		return a.applyLinesDetectRule(imgPath, ann, t)
-	case *annotationrule.Segment:
-		return a.applySegment(imgPath, ann, t)
+	case *annotationrule.ModelDetect:
+		return a.applyModelDetect(imgPath, ann, t)
 	case *annotationrule.TextBlockCorrections:
 		return a.applyTextBlockCorrection(ann, t)
 	case *annotationrule.DetectText:
@@ -275,10 +276,17 @@ func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annota
 	return ann, nil
 }
 
-func (a *AnnotationRuleApplier) applySegment(imgPath string, ann *annotation.Annotation, t *annotationrule.Segment) (*annotation.Annotation, error) {
-	segM, err := a.modelSvc.Get(t.Model)
+func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation.Annotation, t *annotationrule.ModelDetect) (*annotation.Annotation, error) {
+	m, err := a.modelSvc.Get(t.Model)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get segmentation model %s: %w", t.Model, err)
+	}
+
+	if m.Type != t.ModelType {
+		return nil, fmt.Errorf("model type mismatch for model %s: the model is of type %s but rule requires type %s", t.Model, m.Type, t.ModelType)
+	}
+	if m.Type == common.OCRModelTypeOCR && !ann.Segmented {
+		return nil, fmt.Errorf("cannot apply OCR model detect rule to annotation %s that is not segmented", ann.ID)
 	}
 
 	pages, err := pagesparser.IntRange(ann.Pages)
@@ -291,22 +299,43 @@ func (a *AnnotationRuleApplier) applySegment(imgPath string, ann *annotation.Ann
 	}
 
 	var f func() (<-chan error, error)
-	switch segM.Location {
-	case model.OCRModelLocationLocal:
+	switch {
+	case m.Type == common.OCRModelTypeOCR:
 		f = func() (<-chan error, error) {
-			return krakenwrapper.Recognize(
+			var imgAndAltoPaths [][2]string
+			for _, p := range pages {
+				pathToImg := filepath.Join(imgPath, pagesparser.PageToPNGFilename(p))
+				pathToImg, err = filepath.Abs(pathToImg)
+				if err != nil {
+					return nil, fmt.Errorf("could not determine absolute path of input image %s: %w", pathToImg, err)
+				}
+				pathToAlto := filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(p))
+				pathToAlto, err = filepath.Abs(pathToAlto)
+				if err != nil {
+					return nil, fmt.Errorf("could not determine absolute path of input ALTO %s: %w", pathToAlto, err)
+				}
+				imgAndAltoPaths = append(imgAndAltoPaths, [2]string{
+					pathToImg,
+					pathToAlto,
+				})
+			}
+			return krakenwrapper.RecognizeTextWithMapping(imgAndAltoPaths, a.fileSysMgt.ModelPath(m))
+		}
+	case m.Type == common.OCRModelTypeSegment && m.Location == model.OCRModelLocationLocal:
+		f = func() (<-chan error, error) {
+			return krakenwrapper.Segment(
 				imgPath,
 				a.fileSysMgt.DatasetAnnotationAltoDir(ann),
-				a.fileSysMgt.ModelPath(segM),
+				a.fileSysMgt.ModelPath(m),
 				filenames,
 			)
 		}
-	case model.OCRModelLocationRoboflow:
+	case m.Type == common.OCRModelTypeSegment && m.Location == model.OCRModelLocationRoboflow:
 		f = func() (<-chan error, error) {
 			return roboflow.Recognize(
 				imgPath,
 				a.fileSysMgt.DatasetAnnotationAltoDir(ann),
-				segM.Name,
+				m.Name,
 				a.roboflowAPIKey,
 				filenames,
 			), nil
@@ -314,12 +343,17 @@ func (a *AnnotationRuleApplier) applySegment(imgPath string, ann *annotation.Ann
 	}
 	errCh, err := f()
 	if err != nil {
-		return nil, fmt.Errorf("failed to start annotation process: %w", err)
+		return nil, fmt.Errorf("failed to start detection using model %s: %w", m.ID, err)
 	}
 	if recErr := <-errCh; recErr != nil {
-		return nil, fmt.Errorf("failed to annotate facsimile: %w", recErr)
+		return nil, fmt.Errorf("failed to apply model detect to annotation %s: %w", ann.ID, recErr)
 	}
-	ann.Segmented = true
+	switch m.Type {
+	case common.OCRModelTypeOCR:
+		ann.Ocred = true
+	case common.OCRModelTypeSegment:
+		ann.Segmented = true
+	}
 	return ann, nil
 }
 

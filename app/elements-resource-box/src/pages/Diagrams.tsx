@@ -16,6 +16,7 @@ import { joinArr } from "../utils/util.ts";
 import { fetchDiagrams, VolumeData } from "../api/diagramsApi.ts";
 import { LAND_COLOR, SEA_COLOR } from "../utils/colors.ts";
 import { useQuery } from "@tanstack/react-query";
+import { isNil } from "lodash";
 
 const DiagramsContainer = styled.div`
   max-width: 80vw;
@@ -489,7 +490,7 @@ export const Diagrams = () => {
 
         {item && (
           <Row justifyStart>
-            {item.hasDiagrams && item.hasDiagrams !== "Uncatalogued" && (
+            {item.hasDiagrams && !isNil(item.hasDiagrams) && (
               <DocumentDescription>
                 <strong>Has Diagrams:</strong> {item.hasDiagrams}
               </DocumentDescription>

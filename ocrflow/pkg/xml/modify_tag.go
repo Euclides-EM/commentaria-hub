@@ -6,7 +6,7 @@ import (
 )
 
 func ModifyTag(origData []byte, tag string, modify func(v string) string) []byte {
-	re := regexp.MustCompile(fmt.Sprintf(`<%s>([^<]+)</%s>`, tag, tag))
+	re := regexp.MustCompile(fmt.Sprintf(`<%s[^>]*>([^<]+)</%s>`, tag, tag))
 	fixedData := re.ReplaceAllFunc(origData, func(match []byte) []byte {
 		submatches := re.FindSubmatch(match)
 		if len(submatches) <= 1 {

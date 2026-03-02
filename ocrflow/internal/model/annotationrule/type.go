@@ -3,7 +3,7 @@ package annotationrule
 type Type string
 
 const (
-	TypeSegment                      Type = "segment"
+	TypeModelDetect                  Type = "model_detect"
 	TypeSlicePages                   Type = "slice_pages"
 	TypeStretch                      Type = "stretch"
 	TypeAddMargin                    Type = "add_margin"
@@ -23,7 +23,7 @@ var ruleFactories = map[Type]func() AnnotationRule{
 	TypeStretch:                      func() AnnotationRule { return NewZeroStretch() },
 	TypeAddMargin:                    func() AnnotationRule { return NewZeroAddMargin() },
 	TypeLinesDetect:                  func() AnnotationRule { return NewLinesDetect(nil, nil) },
-	TypeSegment:                      func() AnnotationRule { return NewSegment("") },
+	TypeModelDetect:                  func() AnnotationRule { return NewModelDetect("") },
 	TypeRemoveCategories:             func() AnnotationRule { return NewRemoveCategories(nil) },
 	TypeRemoveOverlap:                func() AnnotationRule { return NewRemoveOverlap(nil, 0.0) },
 	TypeResolveOverlapWithPriority:   func() AnnotationRule { return NewResolveOverlapWithPriority("", "", 0.0) },
@@ -39,7 +39,7 @@ var applicableStagesByType = map[Type][]PipelineStage{
 	TypeStretch:                      {PipelineStageZoneSegmentation},
 	TypeAddMargin:                    {PipelineStageZoneSegmentation},
 	TypeLinesDetect:                  {PipelineStageZoneSegmentation},
-	TypeSegment:                      {PipelineStageRaw},
+	TypeModelDetect:                  {PipelineStageRaw},
 	TypeRemoveCategories:             {PipelineStageZoneSegmentation},
 	TypeRemoveOverlap:                {PipelineStageZoneSegmentation},
 	TypeResolveOverlapWithPriority:   {PipelineStageZoneSegmentation},
@@ -55,7 +55,7 @@ var minEnsuredStageByType = map[Type]PipelineStage{
 	TypeStretch:                      PipelineStageZoneSegmentation,
 	TypeAddMargin:                    PipelineStageZoneSegmentation,
 	TypeLinesDetect:                  PipelineStageTextLineSegmentation,
-	TypeSegment:                      PipelineStageZoneSegmentation,
+	TypeModelDetect:                  PipelineStageZoneSegmentation,
 	TypeRemoveCategories:             PipelineStageZoneSegmentation,
 	TypeRemoveOverlap:                PipelineStageZoneSegmentation,
 	TypeResolveOverlapWithPriority:   PipelineStageZoneSegmentation,
@@ -74,7 +74,7 @@ func ZeroFromType(t Type) AnnotationRule {
 }
 
 var AllAnnotationRuleTypes = []Type{
-	TypeSegment,
+	TypeModelDetect,
 	TypeSlicePages,
 	TypeStretch,
 	TypeAddMargin,
