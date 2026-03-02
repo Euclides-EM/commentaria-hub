@@ -51,6 +51,7 @@ export type TeiSurfaceZone = {
   refUly: number
   refLrx: number
   refLry: number
+  hasSurfaceBounds: boolean
 }
 
 type TeiTranslationSource = {
@@ -1364,7 +1365,10 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
     const doc = parseXml(tei.trim())
     const zones = doc.getElementsByTagNameNS('*', 'zone')
     const parsed: Array<
-      Omit<TeiSurfaceZone, 'refUlx' | 'refUly' | 'refLrx' | 'refLry'> & {
+      Omit<
+        TeiSurfaceZone,
+        'refUlx' | 'refUly' | 'refLrx' | 'refLry' | 'hasSurfaceBounds'
+      > & {
         parentBounds: {
           ulx: number
           uly: number
@@ -1506,6 +1510,7 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
         refUly: bounds.uly,
         refLrx: bounds.lrx,
         refLry: bounds.lry,
+        hasSurfaceBounds: !!zone.parentBounds,
       }
     })
   } catch {

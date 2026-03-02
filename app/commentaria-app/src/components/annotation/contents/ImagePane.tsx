@@ -33,6 +33,8 @@ export function ImagePane({
     top: 0,
     width: 0,
     height: 0,
+    naturalWidth: 0,
+    naturalHeight: 0,
   })
   const isKeyNavigation = !!annotation && !annotation.pages
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
@@ -76,7 +78,14 @@ export function ImagePane({
     const recalc = () => {
       const image = getImageElement()
       if (!(image instanceof HTMLImageElement)) {
-        setImageDisplayBox({ left: 0, top: 0, width: 0, height: 0 })
+        setImageDisplayBox({
+          left: 0,
+          top: 0,
+          width: 0,
+          height: 0,
+          naturalWidth: 0,
+          naturalHeight: 0,
+        })
         return
       }
       const viewportRect = viewport.getBoundingClientRect()
@@ -84,12 +93,26 @@ export function ImagePane({
       const width = imageRect.width
       const height = imageRect.height
       if (!width || !height) {
-        setImageDisplayBox({ left: 0, top: 0, width: 0, height: 0 })
+        setImageDisplayBox({
+          left: 0,
+          top: 0,
+          width: 0,
+          height: 0,
+          naturalWidth: 0,
+          naturalHeight: 0,
+        })
         return
       }
       const left = imageRect.left - viewportRect.left
       const top = imageRect.top - viewportRect.top
-      setImageDisplayBox({ left, top, width, height })
+      setImageDisplayBox({
+        left,
+        top,
+        width,
+        height,
+        naturalWidth: image.naturalWidth,
+        naturalHeight: image.naturalHeight,
+      })
     }
 
     const frame = window.requestAnimationFrame(recalc)
@@ -161,14 +184,27 @@ export function ImagePane({
           zone.refLry > zone.refUly,
       )
       .map((zone) => {
-        const referenceWidth = zone.refLrx - zone.refUlx
-        const referenceHeight = zone.refLry - zone.refUly
+        const useNaturalBounds =
+          !zone.hasSurfaceBounds &&
+          imageDisplayBox.naturalWidth > 0 &&
+          imageDisplayBox.naturalHeight > 0
+        const referenceUlx = useNaturalBounds ? 0 : zone.refUlx
+        const referenceUly = useNaturalBounds ? 0 : zone.refUly
+        const referenceLrx = useNaturalBounds
+          ? imageDisplayBox.naturalWidth
+          : zone.refLrx
+        const referenceLry = useNaturalBounds
+          ? imageDisplayBox.naturalHeight
+          : zone.refLry
+        const referenceWidth = referenceLrx - referenceUlx
+        const referenceHeight = referenceLry - referenceUly
         const left =
           imageDisplayBox.left +
-          ((zone.ulx - zone.refUlx) / referenceWidth) * imageDisplayBox.width
+          ((zone.ulx - referenceUlx) / referenceWidth) * imageDisplayBox.width
         const top =
           imageDisplayBox.top +
-          ((zone.uly - zone.refUly) / referenceHeight) * imageDisplayBox.height
+          ((zone.uly - referenceUly) / referenceHeight) *
+            imageDisplayBox.height
         const width =
           ((zone.lrx - zone.ulx) / referenceWidth) * imageDisplayBox.width
         const height =
@@ -196,6 +232,8 @@ export function ImagePane({
     activeMatchIdSet,
     imageDisplayBox.height,
     imageDisplayBox.left,
+    imageDisplayBox.naturalHeight,
+    imageDisplayBox.naturalWidth,
     imageDisplayBox.top,
     imageDisplayBox.width,
     surfaceZones,
