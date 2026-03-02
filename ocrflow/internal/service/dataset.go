@@ -173,7 +173,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 
 	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
 	convertedPNGsDir := imgPath
-	if ds.Deskewed {
+	if ds.Deskewed || ds.Denoised {
 		var err error
 		convertedPNGsDir, err = os.MkdirTemp("", "ocrflow-dataset-rawimgs-*")
 		if err != nil {
@@ -202,10 +202,28 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 		}
 	}
 
+	currDir := convertedPNGsDir
 	if ds.Deskewed {
-		log.Printf("Deskewing images from %s into %s", convertedPNGsDir, imgPath)
-		if err := formatcov.DeskewPNGs(convertedPNGsDir, imgPath); err != nil {
+		deskewOutDir := imgPath
+		if ds.Denoised {
+			var err error
+			deskewOutDir, err = os.MkdirTemp("", "ocrflow-dataset-deskewed-*")
+			if err != nil {
+				return nil, fmt.Errorf("failed to create temp dir for deskewed images: %w", err)
+			}
+			defer os.RemoveAll(deskewOutDir)
+		}
+		log.Printf("Deskewing images from %s into %s", currDir, deskewOutDir)
+		if err := formatcov.DeskewPNGs(currDir, deskewOutDir); err != nil {
 			return nil, fmt.Errorf("failed to deskew images: %w", err)
+		}
+		currDir = deskewOutDir
+	}
+
+	if ds.Denoised {
+		log.Printf("Denoising images from %s into %s", currDir, imgPath)
+		if err := formatcov.DenoisePNGs(currDir, imgPath); err != nil {
+			return nil, fmt.Errorf("failed to denoise images: %w", err)
 		}
 	}
 

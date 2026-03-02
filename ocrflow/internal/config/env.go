@@ -10,7 +10,7 @@ import (
 type EnvConfig struct {
 	HTTPAddr                string        `env:"HTTP_ADDR" envDefault:":8085"`
 	GithubToken             string        `env:"GITHUB_TOKEN"`
-	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"30s"`
+	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"5m"`
 	PythonExecutable        string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
 	RoboflowAPIKey          string        `env:"ROBOFLOW_API_KEY"`
 	EscriptoriumBasePath    string        `env:"ESCRIPTORIUM_BASE_PATH" envDefault:"http://localhost:8080/"`

@@ -43,6 +43,7 @@ export const DatasetDetails = () => {
   const [editedDpi, setEditedDpi] = useState('')
   const [editedPages, setEditedPages] = useState('')
   const [editedDeskewed, setEditedDeskewed] = useState(false)
+  const [editedDenoised, setEditedDenoised] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [isSaving, setIsSaving] = useState(false)
   const [isDeleteOpen, setIsDeleteOpen] = useState(false)
@@ -63,6 +64,7 @@ export const DatasetDetails = () => {
     setEditedDpi(currentDataset.dpi != null ? String(currentDataset.dpi) : '')
     setEditedPages(currentDataset.pages || '')
     setEditedDeskewed(!!currentDataset.deskewed)
+    setEditedDenoised(!!currentDataset.denoised)
     setIsEditing(true)
   }
 
@@ -94,6 +96,7 @@ export const DatasetDetails = () => {
           dpi: parsedDpi,
           pages: editedPages.trim() || undefined,
           deskewed: editedDeskewed,
+          denoised: editedDenoised,
         },
       })
       await refetch()
@@ -162,6 +165,7 @@ export const DatasetDetails = () => {
             editedDpi={editedDpi}
             editedPages={editedPages}
             editedDeskewed={editedDeskewed}
+            editedDenoised={editedDenoised}
             error={error}
             onEditClick={handleEditClick}
             onDeleteClick={() => {
@@ -173,6 +177,7 @@ export const DatasetDetails = () => {
             onDpiChange={setEditedDpi}
             onPagesChange={setEditedPages}
             onDeskewedChange={setEditedDeskewed}
+            onDenoisedChange={setEditedDenoised}
             onCancel={handleCancel}
             onSave={handleSave}
           />
