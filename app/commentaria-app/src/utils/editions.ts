@@ -1,4 +1,4 @@
-export const TITLE_PAGES_DATASET_ID = "tps"
+export const TITLE_PAGES_DATASET_ID = 'tps'
 
 export interface EditionDisplayInfo {
   key?: string | null

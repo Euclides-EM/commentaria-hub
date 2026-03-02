@@ -85,7 +85,10 @@ const AnnotationDetailsContent = ({
     )
   }, [annotation.id, annotations])
 
-  const hasPages = annotation.pages != null && annotation.pages !== '' && annotation.dataset_id !== TITLE_PAGES_DATASET_ID
+  const hasPages =
+    annotation.pages != null &&
+    annotation.pages !== '' &&
+    annotation.dataset_id !== TITLE_PAGES_DATASET_ID
 
   const originAnnotation = annotations?.find(
     (a) => a.id === annotation.origin_annotation_id,
@@ -317,7 +320,9 @@ export function AnnotationDetailsPane() {
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [isDuplicateOpen, setIsDuplicateOpen] = useState(false)
   const { data: runningJobs } = useRunningIntegrationJobsQuery()
-  const shouldLoadImageKeys = !!annotation && (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
+  const shouldLoadImageKeys =
+    !!annotation &&
+    (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
   const { data: imageKeys = [], isLoading: imageKeysLoading } =
     useDatasetImageKeysQuery(
       annotation?.dataset_id || '',

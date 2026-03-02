@@ -47,13 +47,12 @@ export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
   const isKeyNavigation =
     !!annotation &&
-    (!annotation.pages ||
-    annotation.dataset_id === TITLE_PAGES_DATASET_ID)
+    (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
   const showIndexPane = !!annotation?.segmented
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     isKeyNavigation,
-    annotation?.pages?.split(",")
+    annotation?.pages?.split(','),
   )
   const currentValue = String(state.currentPageOrKey)
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
