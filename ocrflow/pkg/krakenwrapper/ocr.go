@@ -91,22 +91,17 @@ func runPairsOCRUsingExistingAlto(imgAndAltoPaths [][2]string, ocrModel string) 
 		return preErr
 	}
 
-	imgAndPreprocessAltoPaths := make([][2]string, len(imgAndAltoPaths))
-	for i, pair := range imgAndAltoPaths {
-		imgAndPreprocessAltoPaths[i] = [2]string{pair[0], tmpPreprocessedPath(pair[1])}
-	}
-
 	workers := runtime.NumCPU()
 	if workers > maxParallelKraken {
 		workers = maxParallelKraken
 	}
-	if workers > len(imgAndPreprocessAltoPaths) {
-		workers = len(imgAndPreprocessAltoPaths)
+	if workers > len(imgAndAltoPaths) {
+		workers = len(imgAndAltoPaths)
 	}
 	if workers < 1 {
 		workers = 1
 	}
-	chunks := chunkPairs(imgAndPreprocessAltoPaths, workers)
+	chunks := chunkPairs(imgAndAltoPaths, workers)
 
 	var mu sync.Mutex
 	var wg sync.WaitGroup
@@ -144,21 +139,21 @@ func runPairsOCRUsingExistingAlto(imgAndAltoPaths [][2]string, ocrModel string) 
 
 			tmp := tmpOcredPath(final)
 
+			if err := RemovePathFromAltoImgFileName(tmp, tmp); err != nil {
+				postMu.Lock()
+				if postErr == nil {
+					postErr = fmt.Errorf("could not fix ALTO file name in %s: %w", final, err)
+				}
+				postMu.Unlock()
+				return
+			}
+
 			// Replace final with tmp (best effort atomic on same filesystem).
 			_ = os.Remove(final)
 			if err := os.Rename(tmp, final); err != nil {
 				postMu.Lock()
 				if postErr == nil {
 					postErr = fmt.Errorf("could not replace ALTO %s with OCR output: %w", final, err)
-				}
-				postMu.Unlock()
-				return
-			}
-
-			if err := RemovePathFromAltoImgFileName(final, final); err != nil {
-				postMu.Lock()
-				if postErr == nil {
-					postErr = fmt.Errorf("could not fix ALTO file name in %s: %w", final, err)
 				}
 				postMu.Unlock()
 				return
@@ -179,16 +174,16 @@ func runKrakenOCRReuseAlto(pairs [][2]string, ocrModel string) error {
 
 	// For each pair: -i <img> <existing_alto_in> <alto_out_tmp>
 	for _, p := range pairs {
-		//imgPath := p[0]
-		altoIn := p[1]
-		altoOutTmp := tmpOcredPath(altoIn)
+		imgPath := p[0]
+		altoIn := tmpPreprocessedPath(p[1])
+		altoOutTmp := tmpOcredPath(p[1])
 
 		// Ensure output dir exists
 		if err := os.MkdirAll(filepath.Dir(altoOutTmp), 0755); err != nil {
 			return fmt.Errorf("could not create ALTO output directory %s: %w", filepath.Dir(altoOutTmp), err)
 		}
 
-		args = append(args, "-i", altoIn, altoOutTmp)
+		args = append(args, "-i", imgPath, altoIn, altoOutTmp)
 	}
 
 	args = append(args, "ocr", "-m", ocrModel)

@@ -304,9 +304,19 @@ func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation
 		f = func() (<-chan error, error) {
 			var imgAndAltoPaths [][2]string
 			for _, p := range pages {
+				pathToImg := filepath.Join(imgPath, pagesparser.PageToPNGFilename(p))
+				pathToImg, err = filepath.Abs(pathToImg)
+				if err != nil {
+					return nil, fmt.Errorf("could not determine absolute path of input image %s: %w", pathToImg, err)
+				}
+				pathToAlto := filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(p))
+				pathToAlto, err = filepath.Abs(pathToAlto)
+				if err != nil {
+					return nil, fmt.Errorf("could not determine absolute path of input ALTO %s: %w", pathToAlto, err)
+				}
 				imgAndAltoPaths = append(imgAndAltoPaths, [2]string{
-					filepath.Join(imgPath, pagesparser.PageToPNGFilename(p)),
-					filepath.Join(a.fileSysMgt.DatasetAnnotationAltoDir(ann), pagesparser.PageToXMLFilename(p)),
+					pathToImg,
+					pathToAlto,
 				})
 			}
 			return krakenwrapper.RecognizeTextWithMapping(imgAndAltoPaths, a.fileSysMgt.ModelPath(m))
