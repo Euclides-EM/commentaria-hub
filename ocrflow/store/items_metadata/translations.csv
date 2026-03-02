@@ -583,7 +583,7 @@ Paris_1558a,title,The Fifteen Books of Euclid's Elements.,summer_2025
 Paris_1558a,imprint,"PARIS, From the Printing House of Thomas Richard, under the Golden Bibles, opposite the Reims College. 1558.",summer_2025
 Strasbourg_1559,title,EUCLID'S ELEMENTS OF THE FIFTEEN FROM THE THEON'S COMMENTARIES the first.,summer_2025
 Strasbourg_1559,imprint,ARGENTORATI For Josias Rihelius. Year 1559.,summer_2025
-Basel_1562,imprint,Arrived in Basel.,
+Basel_1562,imprint,Printed in Basel.,
 Basel_1562,imprint,Arrived in Basel.,summer_2025
 Cologne_1564,title,"EUCLID’S
 BOOKS OF THE ELEMENTS
@@ -732,8 +732,8 @@ Arnhem_1603,imprint,"ARNHEM IN GELDERLAND, At IOHANNES JANSEN. 1603.",summer_202
 Arnhem_1605a,title,"C. A LINEAR & NUMERICAL DEMONSTRATION OF EUCLID'S ARITHMETIC OF THE IRRATIONALS
 CONTAINED IN THE TENTH BOOK OF THE ELEMENTS. TO HENRY, Prince of Wales; and heir to the Kingdoms of Great Britain, France & Ireland.",summer_2025
 Arnhem_1605a,imprint,"ARNHEM IN GELDERLAND, At IOHANNES JAN-SONIUS. YEAR 1605.",summer_2025
-Leiden_1606,imprint,"TOT LEYDEN, By Ian Bouvvensz. residing on the Hooghelantsche Kerckgracht. Anno 1606.",
-Leiden_1606,imprint,"TOT LEYDEN, By Ian Bouvvensz. residing on the Hooghelantsche Kerckgracht. Anno 1606.",summer_2025
+Leiden_1606,imprint,"TO LEYDEN, By Ian Bouvvensz. residing on the Hooghelantsche Kerckgracht. Anno 1606.",
+Leiden_1606,imprint,"TO LEYDEN, By Ian Bouvvensz. residing on the Hooghelantsche Kerckgracht. Anno 1606.",summer_2025
 Beijing_1607,title,Elements of Geometry,summer_2025
 Leiden_1607,title,"The first six Books of EUCLID, On the principles and foundations of Geometry. To which are added some utilities, drawn from the same Books; Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated, for the advancement and practice, of all curious, lovers of the same liberal Art, BY IAN PIETERSZOON DOV, Land surveyor and Wine gauger of the city of Leyden.",summer_2025
 Leiden_1607,imprint,"TO LEYDEN, For Ian Iansz. Orlers, Bookseller in the German Bible, 1607.",summer_2025
@@ -9853,3 +9853,25 @@ QUADRANTS.",
 L3XLGB,imprint,"AT POITIERS.
 By Enguilbert de Marnef.
 1564.",
+Z1AO6P,title,"The most renowned work, The Elements by Euclid of Megara, begins most auspiciously in the art of geometry.",
+Z1AO6P,imprint,"The work Elements of Euclid of Megara in the art of geometry. In this, too, the very insightful commentaries of Campanus are completed. Erhard Ratdolt of Augsburg, a most diligent printer, printed it in Venice.
+In the year of salvation 1482, on the eighth day before the Kalends of June. Farewell, reader.",
+Z1AO6P,colophon,"The work of the Elements of Euclid of Megara, in the art of geometry.
+To this are also appended the commentaries of the most perceptive Campanus.
+Printed in Venice by Erhard Ratdolt of Augsburg, a most diligent printer.
+In the Year of Salvation 1482, on the eighth day before the Kalends of June.
+Reader, farewell.",
+Venice_1505,colophon,"In Venice, under happy auspices, this golden and exceedingly rare work was produced; revised with the utmost care and diligence in the house of Giovanni Tacuino, bookseller.
+In the Year of Reconciled Divinity, 1505, on the eighth day before the Kalends of November. Under the most fortunate auspices of the Venetian Republic, during the principate of Leonardo Loredan, a most wise prince. It is nevertheless decreed by authority of the state that no one may print the present work in Venice, nor dare to sell it if printed elsewhere, under penalty, as is set forth more fully in the privilege. ",
+Basel_1533,colophon,"At Basel, at the house of Johann Hervagius, in the year 1533, in the month of September.",
+Basel_1562,colophon,"Completed by Jacob Kündig, at Basel, at the expense of Johann Oporinus, in the year 1562, on the thirtieth day of the winter month.",
+Venice_1543,colophon,"Printed in Venice by Venturino Roinelli, at the instance and request of Guglielmo of Monferrato, and of Pietro di Facolo of Venice, bookseller, and of Niccolò Tartalea of Brescia, translator: In the month of February. In the year of our salvation M. D. XLIII.",
+Basel_1550,colophon,"BASLE, by Johann Hervagius, in the year of human salvation M. D. L., in the month of September.",
+Pesaro_1572,colophon,PESARO. WITH THE PERMISSION OF THE AUTHORITIES. AT THE HOUSE OF CAMILLO FRANCISCHINI. M. D. LXXII.,
+Rome_1574,colophon,"[Vol. 2] ROME, at the house of Vincenzo Accolti. M. D. LXXIIII. With the permission of the authorities.",
+Paris_1615,colophon,These Elements of Euclid were finished printing on the 15th of October of the said year 1614.,
+Würzburg_1661,colophon,"At the expense of the Widow and Heirs of Johann Gottfried Schönwetter, bookseller of Frankfurt.
+With the grace and privilege of the Holy Imperial Majesty.
+In the year M. DC. LXI.",
+Paris_1814,title,"Chez M. Patris, imrimeur-libraire, rue de la Colombe, en la Cité, n° 4. 1814.",
+Paris_1814,imprint,"At M. Patris, printer-bookseller, rue de la Colombe, in the City, no. 4. 1814.",
