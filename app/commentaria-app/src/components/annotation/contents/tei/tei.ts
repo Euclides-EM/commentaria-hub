@@ -1367,7 +1367,13 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
     const parsed: Array<
       Omit<
         TeiSurfaceZone,
-        'refUlx' | 'refUly' | 'refLrx' | 'refLry' | 'hasSurfaceBounds'
+        | 'hoverMatchIds'
+        | 'zoneType'
+        | 'refUlx'
+        | 'refUly'
+        | 'refLrx'
+        | 'refLry'
+        | 'hasSurfaceBounds'
       > & {
         parentBounds: {
           ulx: number

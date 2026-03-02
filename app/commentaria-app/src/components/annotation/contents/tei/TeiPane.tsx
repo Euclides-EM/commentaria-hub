@@ -1619,7 +1619,7 @@ export function TeiPane({
 
     const parsedPage = Number.parseInt(String(currentPageOrKey), 10)
     const payload: annotationrule_TextBlockCorrections = {
-      type: 'text_block_corrections',
+      type: 'text_blocks_corrections',
       corrections: [...grouped.entries()].map(([blockId, value]) => ({
         text_block_id: zoneToServerTextBlockId[blockId] || blockId,
         old: value.old,
