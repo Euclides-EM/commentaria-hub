@@ -6,6 +6,8 @@ import json
 import os
 import re
 import sys
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
 from urllib import error, parse, request
@@ -13,22 +15,23 @@ from urllib import error, parse, request
 BASE_URL = "http://localhost:8085/api/v1"
 DATASET_NAME_SUFFIX = "Book_X_Transcriptions"
 TRANSCRIPTIONS_ROOT = (
-    Path(__file__).resolve().parent.parent / "ocrflow" / "store" / "data" / "transcriptions"
+        Path(__file__).resolve().parent.parent / "ocrflow" / "store" / "data" / "transcriptions"
 )
 REQUEST_TIMEOUT_SECONDS = 300
 GITHUB_TOKEN_ENV_VAR = "GITHUB_TOKEN"
 CREATE_ASYNC = False
 CREATE_DEFAULT_ANNOTATION = True
+DIR_PROCESSING_CONCURRENCY = 4
 
 PAGE_DIR_PATTERN = re.compile(r"^page-(\d+)$")
 
 
 def api_request(
-    method: str,
-    path: str,
-    auth_token: str,
-    query: dict[str, str] | None = None,
-    body: dict[str, Any] | None = None,
+        method: str,
+        path: str,
+        auth_token: str,
+        query: dict[str, str] | None = None,
+        body: dict[str, Any] | None = None,
 ) -> Any:
     url = f"{BASE_URL.rstrip('/')}/{path.lstrip('/')}"
     if query:
@@ -106,22 +109,79 @@ def pages_from_transcription_dir(transcription_dir: Path) -> list[int]:
     return sorted(pages)
 
 
-def find_matching_dataset(
-    datasets: list[dict[str, Any]],
-    facsimile_id: str,
-    pages_spec: str,
-) -> dict[str, Any] | None:
-    wanted_pages = parse_pages_spec(pages_spec)
-    for ds in datasets:
-        if ds.get("facsimile_id") != facsimile_id:
-            continue
-        try:
-            ds_pages = parse_pages_spec(ds.get("pages"))
-        except (TypeError, ValueError):
-            continue
-        if ds_pages == wanted_pages:
-            return ds
-    return None
+def process_transcription_dir(
+        transcription_dir: Path,
+        facsimiles_by_edition: dict[str, list[dict[str, Any]]],
+        github_token: str,
+        existing_dataset_keys: set[tuple[str, tuple[int, ...]]],
+        state_lock: threading.Lock,
+        print_lock: threading.Lock,
+) -> None:
+    edition_id = transcription_dir.name
+    matching_facsimiles = facsimiles_by_edition.get(edition_id, [])
+    if not matching_facsimiles:
+        with print_lock:
+            print(f"ERROR: no facsimile found for transcription dir '{edition_id}'", file=sys.stderr)
+        return
+
+    matching_facsimiles = sorted(matching_facsimiles, key=lambda f: str(f.get("id", "")))
+    if len(matching_facsimiles) > 1:
+        ids = ",".join(str(f.get("id", "")) for f in matching_facsimiles)
+        with print_lock:
+            print(
+                f"WARN: multiple facsimiles found for '{edition_id}' ({ids}), using first",
+                file=sys.stderr,
+            )
+
+    facsimile_id = str(matching_facsimiles[0].get("id", ""))
+    if not facsimile_id:
+        with print_lock:
+            print(f"ERROR: facsimile for '{edition_id}' has no id", file=sys.stderr)
+        return
+
+    with print_lock:
+        print(f"{edition_id}: facsimile_id={facsimile_id}")
+
+    pages = pages_from_transcription_dir(transcription_dir)
+    if not pages:
+        with print_lock:
+            print(f"ERROR: no page-* dirs found in '{edition_id}'", file=sys.stderr)
+        return
+
+    pages_spec = pages_to_spec(pages)
+    dataset_key = (facsimile_id, tuple(pages))
+
+    with state_lock:
+        if dataset_key in existing_dataset_keys:
+            with print_lock:
+                print(f"{edition_id}: dataset already exists pages={pages_spec}")
+            return
+        existing_dataset_keys.add(dataset_key)
+
+    dataset_payload = {
+        "name": f"{edition_id}_{DATASET_NAME_SUFFIX}",
+        "edition_id": edition_id,
+        "facsimile_id": facsimile_id,
+        "pages": pages_spec,
+    }
+    try:
+        created = api_request(
+            "POST",
+            "/datasets",
+            auth_token=github_token,
+            query={
+                "async": str(CREATE_ASYNC).lower(),
+                "create_default_annotation": str(CREATE_DEFAULT_ANNOTATION).lower(),
+            },
+            body=dataset_payload,
+        )
+    except Exception:
+        with state_lock:
+            existing_dataset_keys.discard(dataset_key)
+        raise
+
+    with print_lock:
+        print(f"{edition_id}: created dataset id={created.get('id')} pages={pages_spec}")
 
 
 def main() -> int:
@@ -145,59 +205,35 @@ def main() -> int:
             continue
         facsimiles_by_edition.setdefault(edition_id, []).append(fac)
 
-    for transcription_dir in transcription_dirs:
-        edition_id = transcription_dir.name
-        matching_facsimiles = facsimiles_by_edition.get(edition_id, [])
-        if not matching_facsimiles:
-            print(f"ERROR: no facsimile found for transcription dir '{edition_id}'", file=sys.stderr)
-            continue
-
-        matching_facsimiles = sorted(matching_facsimiles, key=lambda f: str(f.get("id", "")))
-        if len(matching_facsimiles) > 1:
-            ids = ",".join(str(f.get("id", "")) for f in matching_facsimiles)
-            print(
-                f"WARN: multiple facsimiles found for '{edition_id}' ({ids}), using first",
-                file=sys.stderr,
-            )
-
-        facsimile_id = str(matching_facsimiles[0].get("id", ""))
+    existing_dataset_keys: set[tuple[str, tuple[int, ...]]] = set()
+    for ds in datasets:
+        facsimile_id = ds.get("facsimile_id")
         if not facsimile_id:
-            print(f"ERROR: facsimile for '{edition_id}' has no id", file=sys.stderr)
             continue
-
-        print(f"{edition_id}: facsimile_id={facsimile_id}")
-
-        pages = pages_from_transcription_dir(transcription_dir)
-        if not pages:
-            print(f"ERROR: no page-* dirs found in '{edition_id}'", file=sys.stderr)
+        try:
+            parsed_pages = parse_pages_spec(ds.get("pages"))
+        except (TypeError, ValueError):
             continue
+        existing_dataset_keys.add((str(facsimile_id), parsed_pages))
 
-        pages_spec = pages_to_spec(pages)
-        existing = find_matching_dataset(datasets, facsimile_id, pages_spec)
-        if existing:
-            print(
-                f"{edition_id}: dataset already exists id={existing.get('id')} pages={pages_spec}"
+    state_lock = threading.Lock()
+    print_lock = threading.Lock()
+
+    with ThreadPoolExecutor(max_workers=DIR_PROCESSING_CONCURRENCY) as executor:
+        futures = [
+            executor.submit(
+                process_transcription_dir,
+                transcription_dir,
+                facsimiles_by_edition,
+                github_token,
+                existing_dataset_keys,
+                state_lock,
+                print_lock,
             )
-            continue
-
-        dataset_payload = {
-            "name": f"{edition_id}_{DATASET_NAME_SUFFIX}",
-            "edition_id": edition_id,
-            "facsimile_id": facsimile_id,
-            "pages": pages_spec,
-        }
-        created = api_request(
-            "POST",
-            "/datasets",
-            auth_token=github_token,
-            query={
-                "async": str(CREATE_ASYNC).lower(),
-                "create_default_annotation": str(CREATE_DEFAULT_ANNOTATION).lower(),
-            },
-            body=dataset_payload,
-        )
-        print(f"{edition_id}: created dataset id={created.get('id')} pages={pages_spec}")
-        datasets.append(created)
+            for transcription_dir in transcription_dirs
+        ]
+        for future in as_completed(futures):
+            future.result()
 
     return 0
 
