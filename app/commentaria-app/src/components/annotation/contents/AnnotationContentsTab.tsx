@@ -10,7 +10,11 @@ const normalizeMatchIds = (ids: string[]) =>
   [...new Set(ids.map((id) => id.trim()).filter(Boolean))].sort()
 
 export function AnnotationContentsTab() {
-  const { annotation, dataset } = useAppState()
+  const {
+    annotation,
+    dataset,
+    state: { annotationId, currentPageOrKey, datasetId },
+  } = useAppState()
   const showTeiPane = !!annotation?.ocred || !!dataset?.edition_id
   const [imagePaneWidth, setImagePaneWidth] = useLocalStorageState(
     'imagePaneWidth',
@@ -104,6 +108,7 @@ export function AnnotationContentsTab() {
           }
         >
           <ImagePane
+            key={`${datasetId}:${annotationId}:${String(currentPageOrKey)}`}
             showResizeHandle={showTeiPane}
             onResizeStart={() => setIsResizingImagePane(true)}
             surfaceZones={surfaceZones}
@@ -115,6 +120,7 @@ export function AnnotationContentsTab() {
         {showTeiPane && (
           <div className="flex-1 min-w-0 min-h-0 h-full">
             <TeiPane
+              key={`${datasetId}:${annotationId}:${String(currentPageOrKey)}`}
               activeLineMatchIds={activeLineMatchIds}
               enableHoverSync={hoverSyncEnabled}
               onHoverLineMatchIds={handleHoverLineMatchIds}

@@ -65,17 +65,16 @@ export function ImagePane({
   const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
 
   useEffect(() => {
-    setImageDisplayBox({ left: 0, top: 0, width: 0, height: 0 })
-  }, [imageUrl])
-
-  useEffect(() => {
     const viewport = viewportRef.current
     if (!viewport) {
       return
     }
 
+    const getImageElement = () =>
+      viewport.querySelector('img#imageZoom') || viewport.querySelector('img')
+
     const recalc = () => {
-      const image = viewport.querySelector('img#imageZoom')
+      const image = getImageElement()
       if (!(image instanceof HTMLImageElement)) {
         setImageDisplayBox({ left: 0, top: 0, width: 0, height: 0 })
         return
@@ -94,16 +93,45 @@ export function ImagePane({
     }
 
     const frame = window.requestAnimationFrame(recalc)
-    const observer = new ResizeObserver(recalc)
-    observer.observe(viewport)
-    const image = viewport.querySelector('img#imageZoom')
-    if (image) {
-      observer.observe(image)
+    const resizeObserver = new ResizeObserver(recalc)
+    resizeObserver.observe(viewport)
+    let observedImage: HTMLImageElement | null = null
+    const attachImage = () => {
+      const image = getImageElement()
+      if (!(image instanceof HTMLImageElement)) {
+        return
+      }
+      if (observedImage === image) {
+        return
+      }
+      if (observedImage) {
+        resizeObserver.unobserve(observedImage)
+        observedImage.removeEventListener('load', recalc)
+      }
+      observedImage = image
+      resizeObserver.observe(image)
+      image.addEventListener('load', recalc)
+      recalc()
     }
+    const mutationObserver = new MutationObserver(() => {
+      attachImage()
+      recalc()
+    })
+    mutationObserver.observe(viewport, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['src', 'style', 'class'],
+    })
+    attachImage()
     window.addEventListener('resize', recalc)
     return () => {
       window.cancelAnimationFrame(frame)
-      observer.disconnect()
+      if (observedImage) {
+        observedImage.removeEventListener('load', recalc)
+      }
+      mutationObserver.disconnect()
+      resizeObserver.disconnect()
       window.removeEventListener('resize', recalc)
     }
   }, [imageUrl, zoom])
@@ -205,6 +233,7 @@ export function ImagePane({
         <div className="h-full w-full max-h-full max-w-full overflow-hidden flex items-center justify-center">
           <div ref={viewportRef} className="relative h-full w-full">
             <ImageZoom
+              key={imageUrl}
               src={imageUrl}
               alt="Page image"
               zoom={String(zoom)}
