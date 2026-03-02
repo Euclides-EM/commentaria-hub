@@ -19,6 +19,7 @@ interface DatasetDetailsTabProps {
   editedDpi: string
   editedPages: string
   editedDeskewed: boolean
+  editedDenoised: boolean
   error: string | null
   onEditClick: () => void
   onDeleteClick: () => void
@@ -27,6 +28,7 @@ interface DatasetDetailsTabProps {
   onDpiChange: (value: string) => void
   onPagesChange: (value: string) => void
   onDeskewedChange: (value: boolean) => void
+  onDenoisedChange: (value: boolean) => void
   onCancel: () => void
   onSave: () => void
 }
@@ -44,6 +46,7 @@ export function DatasetDetailsTab({
   editedDpi,
   editedPages,
   editedDeskewed,
+  editedDenoised,
   error,
   onEditClick,
   onDeleteClick,
@@ -52,6 +55,7 @@ export function DatasetDetailsTab({
   onDpiChange,
   onPagesChange,
   onDeskewedChange,
+  onDenoisedChange,
   onCancel,
   onSave,
 }: DatasetDetailsTabProps) {
@@ -60,23 +64,45 @@ export function DatasetDetailsTab({
       <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
         <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
           <div>Dataset Details</div>
-          {!isEditing && isAuthenticated && (
+          {isAuthenticated && (
             <div className="flex items-center gap-2">
-              <Button
-                onClick={onEditClick}
-                className="px-2 py-1 text-xs"
-                disabled={isCreating}
-              >
-                Edit
-              </Button>
-              <Button
-                onClick={onDeleteClick}
-                variant="danger"
-                className="px-2 py-1 text-xs"
-                disabled={isCreating}
-              >
-                Delete
-              </Button>
+              {isEditing ? (
+                <>
+                  <Button
+                    onClick={onCancel}
+                    className="px-2 py-1 text-xs"
+                    disabled={isSaving}
+                  >
+                    Cancel
+                  </Button>
+                  <Button
+                    onClick={onSave}
+                    variant="primary"
+                    className="px-2 py-1 text-xs"
+                    disabled={isSaving || isCreating}
+                  >
+                    {isSaving ? 'Saving...' : 'Save'}
+                  </Button>
+                </>
+              ) : (
+                <>
+                  <Button
+                    onClick={onEditClick}
+                    className="px-2 py-1 text-xs"
+                    disabled={isCreating}
+                  >
+                    Edit
+                  </Button>
+                  <Button
+                    onClick={onDeleteClick}
+                    variant="danger"
+                    className="px-2 py-1 text-xs"
+                    disabled={isCreating}
+                  >
+                    Delete
+                  </Button>
+                </>
+              )}
             </div>
           )}
         </div>
@@ -202,6 +228,26 @@ export function DatasetDetailsTab({
               )}
 
               <div className="font-semibold text-xs opacity-80 pt-0.5">
+                Denoised
+              </div>
+              {isEditing ? (
+                <label className="flex items-center gap-2 text-sm leading-tight">
+                  <input
+                    type="checkbox"
+                    checked={editedDenoised}
+                    onChange={(e) => onDenoisedChange(e.target.checked)}
+                    className="h-4 w-4"
+                    disabled={isSaving}
+                  />
+                  {String(editedDenoised)}
+                </label>
+              ) : (
+                <div className="text-sm leading-tight break-all">
+                  {String(!!dataset.denoised)}
+                </div>
+              )}
+
+              <div className="font-semibold text-xs opacity-80 pt-0.5">
                 Status
               </div>
               <div className="text-sm leading-tight break-all">
@@ -250,25 +296,6 @@ export function DatasetDetailsTab({
             <div className="mt-4">
               <ErrorMessage message={error} />
             </div>
-            {isEditing && (
-              <div className="flex justify-end gap-2 mt-4">
-                <Button
-                  onClick={onCancel}
-                  className="px-3 py-1.5 text-sm font-semibold"
-                  disabled={isSaving}
-                >
-                  Cancel
-                </Button>
-                <Button
-                  onClick={onSave}
-                  variant="primary"
-                  className="px-3 py-1.5 text-sm font-semibold"
-                  disabled={isSaving || isCreating}
-                >
-                  {isSaving ? 'Saving...' : 'Save'}
-                </Button>
-              </div>
-            )}
           </div>
         </div>
       </section>

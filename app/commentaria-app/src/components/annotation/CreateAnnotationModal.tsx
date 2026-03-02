@@ -11,6 +11,7 @@ import { useAppState } from '../../context/useAppState'
 interface CreateAnnotationModalProps {
   isOpen: boolean
   dataSetId: string
+  mode?: 'create' | 'duplicate'
   initialOriginAnnotationId?: string | null
   initialName?: string
   initialDescription?: string
@@ -22,6 +23,7 @@ interface CreateAnnotationModalProps {
 export function CreateAnnotationModal({
   isOpen,
   dataSetId,
+  mode = 'create',
   initialOriginAnnotationId = null,
   initialName = '',
   initialDescription = '',
@@ -29,6 +31,7 @@ export function CreateAnnotationModal({
   onClose,
   onCreated,
 }: CreateAnnotationModalProps) {
+  const isDuplicateMode = mode === 'duplicate'
   const { setState, refetch } = useAppState()
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
@@ -109,18 +112,31 @@ export function CreateAnnotationModal({
       setError('Please provide a name.')
       return
     }
+    if (isDuplicateMode && !originAnnotationId) {
+      setError('Please select a source annotation.')
+      return
+    }
     try {
       setError(null)
       setLoading(true)
-      const annotation = await AnnotationsService.postDatasetsAnnotations({
-        dataSetId,
-        annotation: {
-          name: name.trim(),
-          description: description.trim() || undefined,
-          ground_truth: groundTruth,
-          origin_annotation_id: originAnnotationId || undefined,
-        },
-      })
+      const annotation = isDuplicateMode
+        ? await AnnotationsService.postDatasetsAnnotationsDuplicate({
+            dataSetId,
+            annotationDuplicateRequest: {
+              name: name.trim(),
+              description: description.trim() || undefined,
+              source_annotation_id: originAnnotationId || undefined,
+            },
+          })
+        : await AnnotationsService.postDatasetsAnnotations({
+            dataSetId,
+            annotation: {
+              name: name.trim(),
+              description: description.trim() || undefined,
+              ground_truth: groundTruth,
+              origin_annotation_id: originAnnotationId || undefined,
+            },
+          })
       setState({ annotationId: annotation.id! })
       refetch()
       onCreated?.(annotation.id!)
@@ -148,7 +164,9 @@ export function CreateAnnotationModal({
         onSubmit={handleSubmit}
       >
         <div className="px-6 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold">Create annotation</h2>
+          <h2 className="text-lg font-semibold">
+            {isDuplicateMode ? 'Duplicate annotation' : 'Create annotation'}
+          </h2>
         </div>
 
         <div className="flex-1 overflow-auto p-6 space-y-4 text-sm">
@@ -172,7 +190,9 @@ export function CreateAnnotationModal({
 
           <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-700">
-              Origin annotation (optional)
+              {isDuplicateMode
+                ? 'Source annotation'
+                : 'Origin annotation (optional)'}
             </label>
             <Select
               value={
@@ -192,7 +212,7 @@ export function CreateAnnotationModal({
               })}
               menuPortalTarget={document.body}
               menuPosition="fixed"
-              isClearable
+              isClearable={!isDuplicateMode}
             />
           </div>
 
@@ -212,26 +232,35 @@ export function CreateAnnotationModal({
             />
           </div>
 
-          <label className="flex items-center gap-2 text-sm text-gray-700">
-            <input
-              type="checkbox"
-              checked={groundTruth}
-              onChange={(e) => {
-                setGroundTruthTouched(true)
-                setGroundTruth(e.target.checked)
-              }}
-              className="h-4 w-4"
-              disabled={loading}
-            />
-            Ground truth
-          </label>
+          {!isDuplicateMode && (
+            <label className="flex items-center gap-2 text-sm text-gray-700">
+              <input
+                type="checkbox"
+                checked={groundTruth}
+                onChange={(e) => {
+                  setGroundTruthTouched(true)
+                  setGroundTruth(e.target.checked)
+                }}
+                className="h-4 w-4"
+                disabled={loading}
+              />
+              Ground truth
+            </label>
+          )}
 
           <ErrorMessage message={error} />
         </div>
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-2">
           {loading ? (
-            <LoadingSpinner size="sm" message="Creating annotation..." />
+            <LoadingSpinner
+              size="sm"
+              message={
+                isDuplicateMode
+                  ? 'Duplicating annotation...'
+                  : 'Creating annotation...'
+              }
+            />
           ) : (
             <>
               <Button
@@ -246,7 +275,7 @@ export function CreateAnnotationModal({
                 variant="primary"
                 className="px-3 py-1.5 text-sm"
               >
-                Create
+                {isDuplicateMode ? 'Duplicate' : 'Create'}
               </Button>
             </>
           )}

@@ -1128,7 +1128,7 @@ export function TeiPane({
 
   useEffect(() => {
     onSurfaceZonesChange(teiContents ? getTeiSurfaceZones(teiContents) : [])
-  }, [onSurfaceZonesChange, teiContents])
+  }, [currentPageOrKey, effectiveTeiSource, onSurfaceZonesChange, teiContents])
 
   useEffect(
     () => () => {
@@ -1619,7 +1619,7 @@ export function TeiPane({
 
     const parsedPage = Number.parseInt(String(currentPageOrKey), 10)
     const payload: annotationrule_TextBlockCorrections = {
-      type: 'text_block_corrections',
+      type: 'text_blocks_corrections',
       corrections: [...grouped.entries()].map(([blockId, value]) => ({
         text_block_id: zoneToServerTextBlockId[blockId] || blockId,
         old: value.old,
@@ -2043,7 +2043,10 @@ export function TeiPane({
             <div className="mt-4 flex-1 min-h-0 overflow-y-auto overscroll-none">
               <div className="flex flex-wrap gap-3">
                 {orderedSelectedViewModes.map((viewMode) => (
-                  <div key={viewMode} className="min-w-105 basis-105 flex-1">
+                  <div
+                    key={`${viewMode}:${effectiveTeiSource}:${String(currentPageOrKey)}`}
+                    className="min-w-105 basis-105 flex-1"
+                  >
                     {isTextEditMode && viewMode === 'original' ? (
                       <OriginalViewEditor
                         lines={editableOriginalLines}

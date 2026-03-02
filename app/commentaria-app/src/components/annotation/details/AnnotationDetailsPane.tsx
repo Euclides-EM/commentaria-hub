@@ -43,8 +43,6 @@ interface AnnotationDetailsContentProps {
   onDescriptionChange: (description: string) => void
   onOriginAnnotationChange: (originAnnotationId: string | null) => void
   onGroundTruthChange: (groundTruth: boolean) => void
-  onSave: () => void
-  onCancel: () => void
   error?: string | null
 }
 
@@ -62,8 +60,6 @@ const AnnotationDetailsContent = ({
   onDescriptionChange,
   onOriginAnnotationChange,
   onGroundTruthChange,
-  onSave,
-  onCancel,
   error,
 }: AnnotationDetailsContentProps) => {
   const { setState } = useAppState()
@@ -300,23 +296,6 @@ const AnnotationDetailsContent = ({
       <div className="mt-4">
         <ErrorMessage message={error} />
       </div>
-      {isEditing && (
-        <div className="flex justify-end gap-2 mt-4">
-          <Button
-            onClick={onCancel}
-            className="px-3 py-1.5 text-sm font-semibold"
-          >
-            Cancel
-          </Button>
-          <Button
-            onClick={onSave}
-            variant="primary"
-            className="px-3 py-1.5 text-sm font-semibold"
-          >
-            Save
-          </Button>
-        </div>
-      )}
     </div>
   )
 }
@@ -430,30 +409,47 @@ export function AnnotationDetailsPane() {
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white m-3 mb-0">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
         <div>Annotation Details</div>
-        {isAuthenticated && !isEditing && annotation && (
+        {isAuthenticated && annotation && (
           <div className="flex items-center gap-2">
-            <Button onClick={handleEditClick} className="px-2 py-1 text-xs">
-              Edit
-            </Button>
-            <Button
-              onClick={() => setIsDuplicateOpen(true)}
-              className="px-2 py-1 text-xs"
-            >
-              Duplicate
-            </Button>
-            <Button
-              onClick={() => setIsExportOpen(true)}
-              className="px-2 py-1 text-xs"
-            >
-              {isExporting ? 'Exporting…' : 'Export'}
-            </Button>
-            <Button
-              onClick={handleDeleteClick}
-              variant="danger"
-              className="px-2 py-1 text-xs"
-            >
-              Delete
-            </Button>
+            {isEditing ? (
+              <>
+                <Button onClick={handleCancel} className="px-2 py-1 text-xs">
+                  Cancel
+                </Button>
+                <Button
+                  onClick={handleSave}
+                  variant="primary"
+                  className="px-2 py-1 text-xs"
+                >
+                  Save
+                </Button>
+              </>
+            ) : (
+              <>
+                <Button onClick={handleEditClick} className="px-2 py-1 text-xs">
+                  Edit
+                </Button>
+                <Button
+                  onClick={() => setIsDuplicateOpen(true)}
+                  className="px-2 py-1 text-xs"
+                >
+                  Duplicate
+                </Button>
+                <Button
+                  onClick={() => setIsExportOpen(true)}
+                  className="px-2 py-1 text-xs"
+                >
+                  {isExporting ? 'Exporting…' : 'Export'}
+                </Button>
+                <Button
+                  onClick={handleDeleteClick}
+                  variant="danger"
+                  className="px-2 py-1 text-xs"
+                >
+                  Delete
+                </Button>
+              </>
+            )}
           </div>
         )}
       </div>
@@ -474,8 +470,6 @@ export function AnnotationDetailsPane() {
             onDescriptionChange={setEditedDescription}
             onOriginAnnotationChange={setEditedOriginAnnotationId}
             onGroundTruthChange={setEditedGroundTruth}
-            onSave={handleSave}
-            onCancel={handleCancel}
             error={error}
           />
         </div>
@@ -500,11 +494,11 @@ export function AnnotationDetailsPane() {
       {annotation && annotation.dataset_id && (
         <CreateAnnotationModal
           isOpen={isDuplicateOpen}
+          mode="duplicate"
           dataSetId={annotation.dataset_id}
           initialOriginAnnotationId={annotation.id || null}
           initialName={`${annotation.name || annotation.id} (copy)`}
           initialDescription={annotation.description || ''}
-          initialGroundTruth={!!annotation.ground_truth}
           onClose={() => setIsDuplicateOpen(false)}
           onCreated={(annotationId) => {
             setState({ annotationId })

@@ -8,6 +8,7 @@ export type model_Dataset = {
      * set when status is "failed"
      */
     creation_error?: string;
+    denoised?: boolean;
     description?: string;
     deskewed?: boolean;
     dpi?: number;
