@@ -67,30 +67,6 @@ func validateImgAndAltoPaths(imgAndAltoPaths [][2]string) error {
 // Uses existing ALTO (segmentation+lines) as input and overwrites it with OCR-ed ALTO.
 func runPairsOCRUsingExistingAlto(imgAndAltoPaths [][2]string, ocrModel string) error {
 
-	var preWg sync.WaitGroup
-	var preMu sync.Mutex
-	var preErr error
-
-	preWg.Add(len(imgAndAltoPaths))
-	for _, pair := range imgAndAltoPaths {
-		go func(imgPath, inAltoPath, outAltoPath string) {
-			defer preWg.Done()
-
-			if err := SetImgFileForAlto(inAltoPath, outAltoPath, imgPath); err != nil {
-				preMu.Lock()
-				if preErr == nil {
-					preErr = fmt.Errorf("could not fix ALTO file name in %s and write to %s: %w", inAltoPath, outAltoPath, err)
-				}
-				preMu.Unlock()
-				return
-			}
-		}(pair[0], pair[1], tmpPreprocessedPath(pair[1]))
-	}
-	preWg.Wait()
-	if preErr != nil {
-		return preErr
-	}
-
 	workers := runtime.NumCPU()
 	if workers > maxParallelKraken {
 		workers = maxParallelKraken
@@ -175,7 +151,6 @@ func runKrakenOCRReuseAlto(pairs [][2]string, ocrModel string) error {
 	// For each pair: -i <img> <existing_alto_in> <alto_out_tmp>
 	for _, p := range pairs {
 		imgPath := p[0]
-		altoIn := tmpPreprocessedPath(p[1])
 		altoOutTmp := tmpOcredPath(p[1])
 
 		// Ensure output dir exists
@@ -183,7 +158,7 @@ func runKrakenOCRReuseAlto(pairs [][2]string, ocrModel string) error {
 			return fmt.Errorf("could not create ALTO output directory %s: %w", filepath.Dir(altoOutTmp), err)
 		}
 
-		args = append(args, "-i", imgPath, altoIn, altoOutTmp)
+		args = append(args, "-i", imgPath, altoOutTmp)
 	}
 
 	args = append(args, "ocr", "-m", ocrModel)
@@ -193,10 +168,6 @@ func runKrakenOCRReuseAlto(pairs [][2]string, ocrModel string) error {
 	}
 
 	return nil
-}
-
-func tmpPreprocessedPath(finalAltoPath string) string {
-	return finalAltoPath + ".preprocessed.tmp"
 }
 
 func tmpOcredPath(finalAltoPath string) string {
