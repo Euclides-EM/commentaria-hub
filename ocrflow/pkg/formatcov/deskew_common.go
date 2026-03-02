@@ -13,7 +13,6 @@ import (
 // without OpenCV (no -tags gocv). On the server you can build without gocv
 // to avoid OpenCV; deskew will be skipped and images copied as-is.
 var ErrDeskewUnavailable = errors.New("deskew unavailable: build with -tags gocv and install OpenCV")
-var ErrDenoiseUnavailable = errors.New("denoise unavailable: build with -tags gocv and install OpenCV")
 
 // CopyPNGs copies all .png files from srcDir to dstDir (creates dstDir if needed).
 // Used when deskew is requested but gocv is not available.

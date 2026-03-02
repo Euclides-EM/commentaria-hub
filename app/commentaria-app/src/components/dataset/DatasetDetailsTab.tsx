@@ -19,7 +19,6 @@ interface DatasetDetailsTabProps {
   editedDpi: string
   editedPages: string
   editedDeskewed: boolean
-  editedDenoised: boolean
   error: string | null
   onEditClick: () => void
   onDeleteClick: () => void
@@ -28,7 +27,6 @@ interface DatasetDetailsTabProps {
   onDpiChange: (value: string) => void
   onPagesChange: (value: string) => void
   onDeskewedChange: (value: boolean) => void
-  onDenoisedChange: (value: boolean) => void
   onCancel: () => void
   onSave: () => void
 }
@@ -46,7 +44,6 @@ export function DatasetDetailsTab({
   editedDpi,
   editedPages,
   editedDeskewed,
-  editedDenoised,
   error,
   onEditClick,
   onDeleteClick,
@@ -55,7 +52,6 @@ export function DatasetDetailsTab({
   onDpiChange,
   onPagesChange,
   onDeskewedChange,
-  onDenoisedChange,
   onCancel,
   onSave,
 }: DatasetDetailsTabProps) {
@@ -224,26 +220,6 @@ export function DatasetDetailsTab({
               ) : (
                 <div className="text-sm leading-tight break-all">
                   {String(!!dataset.deskewed)}
-                </div>
-              )}
-
-              <div className="font-semibold text-xs opacity-80 pt-0.5">
-                Denoised
-              </div>
-              {isEditing ? (
-                <label className="flex items-center gap-2 text-sm leading-tight">
-                  <input
-                    type="checkbox"
-                    checked={editedDenoised}
-                    onChange={(e) => onDenoisedChange(e.target.checked)}
-                    className="h-4 w-4"
-                    disabled={isSaving}
-                  />
-                  {String(editedDenoised)}
-                </label>
-              ) : (
-                <div className="text-sm leading-tight break-all">
-                  {String(!!dataset.denoised)}
                 </div>
               )}
 
