@@ -494,11 +494,11 @@ export function AnnotationDetailsPane() {
       {annotation && annotation.dataset_id && (
         <CreateAnnotationModal
           isOpen={isDuplicateOpen}
+          mode="duplicate"
           dataSetId={annotation.dataset_id}
           initialOriginAnnotationId={annotation.id || null}
           initialName={`${annotation.name || annotation.id} (copy)`}
           initialDescription={annotation.description || ''}
-          initialGroundTruth={!!annotation.ground_truth}
           onClose={() => setIsDuplicateOpen(false)}
           onCreated={(annotationId) => {
             setState({ annotationId })
