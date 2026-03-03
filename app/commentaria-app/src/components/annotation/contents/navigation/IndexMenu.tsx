@@ -104,6 +104,7 @@ export function IndexMenu() {
   const { state, jumpToPage } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState('indexSearch', {
     defaultValue: '',
+    storageSync: false,
   })
   const {
     data: annotationIndex,

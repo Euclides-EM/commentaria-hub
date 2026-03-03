@@ -940,17 +940,20 @@ export function TeiPane({
 
   const [showTeiSource, setShowTeiSource] = useLocalStorageState(
     'showTeiSource',
-    { defaultValue: false },
+    { defaultValue: false, storageSync: false },
   )
   const [minCert, setMinCert] = useLocalStorageState('minCert', {
     defaultValue: 0.8,
+    storageSync: false,
   })
   const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
     defaultValue: false,
+    storageSync: false,
   })
   const [isFeatureSelectExpanded, setIsFeatureSelectExpanded] =
     useLocalStorageState('teiFeatureSelectExpanded', {
       defaultValue: false,
+      storageSync: false,
     })
   const [featureModalState, setFeatureModalState] =
     useState<FeatureModalState | null>(null)
@@ -987,7 +990,7 @@ export function TeiPane({
 
   const [storedTeiSource, setStoredTeiSource] = useLocalStorageState<
     'annotation' | 'edition'
-  >('teiSource', { defaultValue: 'annotation' })
+  >('teiSource', { defaultValue: 'annotation', storageSync: false })
   const preferredTeiSource = candidateSources.includes(storedTeiSource)
     ? storedTeiSource
     : candidateSources[0]

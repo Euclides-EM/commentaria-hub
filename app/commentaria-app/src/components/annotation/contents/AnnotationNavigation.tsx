@@ -5,9 +5,11 @@ import { PageNavigation } from './navigation/PageNavigation.tsx'
 export const AnnotationNavigation = () => {
   const [collapsed, setCollapsed] = useLocalStorageState('sidebarCollapsed', {
     defaultValue: false,
+    storageSync: false,
   })
   const [sidebarWidth, setSidebarWidth] = useLocalStorageState('sidebarWidth', {
     defaultValue: 380,
+    storageSync: false,
   })
   const [isResizing, setIsResizing] = useState(false)
   const asideRef = useRef<HTMLElement | null>(null)
