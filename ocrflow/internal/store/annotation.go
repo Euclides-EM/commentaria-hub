@@ -420,11 +420,9 @@ func calculatePipelineStage(a *annotation.Annotation) annotationrule.PipelineSta
 	s := annotationrule.PipelineStageRaw
 	if a.Ocred {
 		s = annotationrule.PipelineStageOCR
-	}
-	if a.LinesDetected {
+	} else if a.LinesDetected {
 		s = annotationrule.PipelineStageTextLineSegmentation
-	}
-	if a.Segmented {
+	} else if a.Segmented {
 		s = annotationrule.PipelineStageZoneSegmentation
 	}
 	for _, rule := range a.AppliedRules {
