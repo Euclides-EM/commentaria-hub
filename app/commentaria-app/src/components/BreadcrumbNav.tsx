@@ -197,17 +197,40 @@ export function BreadcrumbNav() {
             />
           </div>
 
-          {stages && (
-            <MultiSelectDropdown
-              allItems={stageFilterItems}
-              selectedItems={effectiveSelectedStages}
-              setSelectedItems={setSelectedStages}
-              itemsLabel="stages"
-              getItemLabel={(item) =>
-                item === HIDDEN_FILTER ? 'Hidden' : getStageDisplayName(item)
+          <MultiSelectDropdown
+            allItems={stageFilterItems}
+            selectedItems={effectiveSelectedStages}
+            setSelectedItems={setSelectedStages}
+            itemsLabel="stages"
+            bulkActionItems={stages || []}
+            bulkActionLabel="stages"
+            showSeparatorBeforeItem={(item) => item === HIDDEN_FILTER}
+            getItemLabel={(item) =>
+              item === HIDDEN_FILTER ? 'Hidden' : getStageDisplayName(item)
+            }
+            getPickerLabel={({ selectedItems }) => {
+              const selected = selectedItems ?? stageFilterItems
+              const allStageCount = stages?.length ?? 0
+              const selectedStages = (stages || []).filter((stage) =>
+                selected.includes(stage),
+              )
+              const isHiddenSelected = selected.includes(HIDDEN_FILTER)
+
+              if (
+                allStageCount > 0 &&
+                selectedStages.length === allStageCount
+              ) {
+                return 'All stages'
               }
-            />
-          )}
+              if (selectedStages.length === 0) {
+                return isHiddenSelected ? 'Hidden' : 'None'
+              }
+              if (selectedStages.length === 1) {
+                return getStageDisplayName(selectedStages[0])
+              }
+              return `${selectedStages.length} stages`
+            }}
+          />
         </div>
       )}
     </div>
