@@ -61,6 +61,22 @@ func (a *Annotation) Get(datasetId, id string) (*annotation.Annotation, error) {
 	return annotation, nil
 }
 
+func (a *Annotation) nextAvailableSiblingName(datasetID, siblingOriginID, currentName string) (string, error) {
+	anns, err := a.ListAnnotations(datasetID)
+	if err != nil {
+		return "", fmt.Errorf("failed to list annotations for dataset: %w", err)
+	}
+	siblingNames := lo.Map(lo.Filter(anns, func(existing *annotation.Annotation, _ int) bool {
+		if siblingOriginID == "" {
+			return existing.OriginAnnotationID == ""
+		}
+		return existing.ID == siblingOriginID || existing.OriginAnnotationID == siblingOriginID
+	}), func(existing *annotation.Annotation, _ int) string {
+		return existing.Name
+	})
+	return name.NextAvailable(siblingNames, currentName), nil
+}
+
 func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*annotation.Annotation, error) {
 	// validate dataset exists
 	ds, err := a.datasetSvc.Get(datasetID)
@@ -71,15 +87,13 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 	if _, err := os.Stat(imgPath); os.IsNotExist(err) {
 		return nil, fmt.Errorf("no images found for dataset %s", datasetID)
 	}
-	anns, err := a.ListAnnotations(datasetID)
-	if err != nil {
-		return nil, fmt.Errorf("failed to list annotations for dataset: %w", err)
-	}
-
 	// assign basic fields
 	ann.ID = idgen.GenerateID(store.AnnotationIDPrefix)
 	ann.DatasetID = datasetID
-	ann.Name = name.NextAvailable(lo.Map(anns, func(a *annotation.Annotation, _ int) string { return a.Name }), ann.Name)
+	ann.Name, err = a.nextAvailableSiblingName(datasetID, ann.OriginAnnotationID, ann.Name)
+	if err != nil {
+		return nil, err
+	}
 
 	if ann.Pages == "" {
 		// infer pages from existing images
@@ -128,6 +142,10 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		LinesDetected:      aum.LinesDetected,
 		Hidden:             aum.Hidden,
 		OriginAnnotationID: aum.OriginAnnotationID,
+	}
+	ann.Name, err = a.nextAvailableSiblingName(aum.DatasetID, aum.OriginAnnotationID, ann.Name)
+	if err != nil {
+		return nil, err
 	}
 	if aum.OriginAnnotationID != "" {
 		originAnn, err := a.annotationStore.GetAnnotation(aum.DatasetID, aum.OriginAnnotationID)
@@ -359,7 +377,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *annotati
 	return fromDB, nil
 }
 
-func (a *Annotation) Duplicate(datasetID string, annotationID string, name string, description string) (*annotation.Annotation, error) {
+func (a *Annotation) Duplicate(datasetID string, annotationID string, annotationName string, description string) (*annotation.Annotation, error) {
 	origAnn, err := a.Get(datasetID, annotationID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get original annotation: %w", err)
@@ -374,22 +392,16 @@ func (a *Annotation) Duplicate(datasetID string, annotationID string, name strin
 	}
 
 	ann.ID = idgen.GenerateID(store.AnnotationIDPrefix)
-	ann.Meta.Name = name
+	ann.Meta.Name = annotationName
 	ann.Meta.Description = description
 
 	if ann.Meta.Name == "" {
 		ann.Meta.Name = "Copy of " + origAnn.Meta.Name + " " + ann.ID
 	}
-	anns, err := a.ListAnnotations(datasetID)
+	ann.Meta.Name, err = a.nextAvailableSiblingName(datasetID, origAnn.ID, ann.Meta.Name)
 	if err != nil {
-		return nil, fmt.Errorf("failed to list annotations for dataset: %w", err)
+		return nil, err
 	}
-	siblingNames := lo.Map(lo.Filter(anns, func(existing *annotation.Annotation, _ int) bool {
-		return existing.ID == origAnn.ID || existing.OriginAnnotationID == origAnn.ID
-	}), func(existing *annotation.Annotation, _ int) string {
-		return existing.Name
-	})
-	ann.Meta.Name = name.NextAvailable(siblingNames, ann.Meta.Name)
 
 	if ann.Meta.Description != "" {
 		ann.Meta.Description = "Copy of " + origAnn.Meta.Name + " [original description: " + origAnn.Meta.Description + "]"
