@@ -39,6 +39,8 @@ export function ImportAnnotationsModal({
   const [description, setDescription] = useState('')
   const [segmented, setSegmented] = useState(false)
   const [ocred, setOcred] = useState(false)
+  const [hidden, setHidden] = useState(false)
+  const [linesDetected, setLinesDetected] = useState(false)
   const [groundTruth, setGroundTruth] = useState(false)
   const [originAnnotationId, setOriginAnnotationId] = useState<string | null>(
     null,
@@ -67,6 +69,8 @@ export function ImportAnnotationsModal({
       setDescription('')
       setSegmented(false)
       setOcred(false)
+      setHidden(false)
+      setLinesDetected(false)
       setGroundTruth(false)
       setOriginAnnotationId(null)
       setError(null)
@@ -89,7 +93,7 @@ export function ImportAnnotationsModal({
 
       setLoading(true)
       if (mode === 'url') {
-        const annotation =
+        const importedAnnotation =
           await AnnotationsService.postDatasetsAnnotationsFromurl({
             dataSetId,
             format,
@@ -98,9 +102,18 @@ export function ImportAnnotationsModal({
             description: description.trim() || undefined,
             segmented,
             ocred,
+            linesDetected,
             groundTruth,
             originAnnotationId: originAnnotationId || undefined,
           })
+        const annotation =
+          importedAnnotation.id && hidden !== Boolean(importedAnnotation.hidden)
+            ? await AnnotationsService.putDatasetsAnnotations({
+                dataSetId,
+                id: importedAnnotation.id,
+                annotation: { ...importedAnnotation, hidden },
+              })
+            : importedAnnotation
         setState({ annotationId: annotation.id! })
         refetch()
         onImported?.(annotation.id!)
@@ -110,7 +123,7 @@ export function ImportAnnotationsModal({
           setError('Please choose a ZIP file.')
           return
         }
-        const annotation =
+        const importedAnnotation =
           await AnnotationsService.postDatasetsAnnotationsFromzip({
             dataSetId,
             format,
@@ -119,9 +132,18 @@ export function ImportAnnotationsModal({
             description: description.trim() || undefined,
             segmented,
             ocred,
+            linesDetected,
             groundTruth,
             originAnnotationId: originAnnotationId || undefined,
           })
+        const annotation =
+          importedAnnotation.id && hidden !== Boolean(importedAnnotation.hidden)
+            ? await AnnotationsService.putDatasetsAnnotations({
+                dataSetId,
+                id: importedAnnotation.id,
+                annotation: { ...importedAnnotation, hidden },
+              })
+            : importedAnnotation
         setState({ annotationId: annotation.id! })
         refetch()
         onImported?.(annotation.id!)
@@ -261,7 +283,17 @@ export function ImportAnnotationsModal({
             />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <label className="flex items-center gap-2 text-sm text-gray-700">
+              <input
+                type="checkbox"
+                checked={groundTruth}
+                onChange={(e) => setGroundTruth(e.target.checked)}
+                className="h-4 w-4"
+                disabled={loading}
+              />
+              Ground truth
+            </label>
             <label className="flex items-center gap-2 text-sm text-gray-700">
               <input
                 type="checkbox"
@@ -271,6 +303,16 @@ export function ImportAnnotationsModal({
                 disabled={loading}
               />
               Segmented
+            </label>
+            <label className="flex items-center gap-2 text-sm text-gray-700">
+              <input
+                type="checkbox"
+                checked={linesDetected}
+                onChange={(e) => setLinesDetected(e.target.checked)}
+                className="h-4 w-4"
+                disabled={loading}
+              />
+              Lines detected
             </label>
             <label className="flex items-center gap-2 text-sm text-gray-700">
               <input
@@ -285,12 +327,12 @@ export function ImportAnnotationsModal({
             <label className="flex items-center gap-2 text-sm text-gray-700">
               <input
                 type="checkbox"
-                checked={groundTruth}
-                onChange={(e) => setGroundTruth(e.target.checked)}
+                checked={hidden}
+                onChange={(e) => setHidden(e.target.checked)}
                 className="h-4 w-4"
                 disabled={loading}
               />
-              Ground truth
+              Hidden
             </label>
           </div>
 

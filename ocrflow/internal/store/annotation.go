@@ -359,7 +359,7 @@ func (s *AnnotationSQL) InsertAnnotation(a *annotation.Annotation) error {
 	if _, err := tx.Exec(`
 		INSERT INTO annotations (
 			id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, lines_detected, hidden, dataset_id, origin_annotation_id
-		) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 	`, a.ID, a.Name, a.Description, a.CreatedAt, a.UpdatedAt, a.Pages, a.Segmented, a.GroundTruth, a.Ocred, a.LinesDetected, a.Hidden, a.DatasetID, a.OriginAnnotationID); err != nil {
 		return err
 	}

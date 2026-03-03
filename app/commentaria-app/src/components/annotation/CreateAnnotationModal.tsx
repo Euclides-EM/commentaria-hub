@@ -36,12 +36,14 @@ export function CreateAnnotationModal({
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [groundTruth, setGroundTruth] = useState(false)
+  const [hidden, setHidden] = useState(false)
   const [originAnnotationId, setOriginAnnotationId] = useState<string | null>(
     null,
   )
   const [nameTouched, setNameTouched] = useState(false)
   const [descriptionTouched, setDescriptionTouched] = useState(false)
   const [groundTruthTouched, setGroundTruthTouched] = useState(false)
+  const [hiddenTouched, setHiddenTouched] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const { data: annotations, isLoading: annotationsLoading } =
@@ -62,10 +64,12 @@ export function CreateAnnotationModal({
       setName(initialName)
       setDescription(initialDescription)
       setGroundTruth(initialGroundTruth)
+      setHidden(false)
       setOriginAnnotationId(initialOriginAnnotationId)
       setNameTouched(false)
       setDescriptionTouched(false)
       setGroundTruthTouched(false)
+      setHiddenTouched(false)
       setError(null)
       setLoading(false)
     }
@@ -97,11 +101,15 @@ export function CreateAnnotationModal({
     if (!groundTruthTouched) {
       setGroundTruth(Boolean(originAnnotation.ground_truth))
     }
+    if (!hiddenTouched) {
+      setHidden(Boolean(originAnnotation.hidden))
+    }
   }, [
     originAnnotation,
     nameTouched,
     descriptionTouched,
     groundTruthTouched,
+    hiddenTouched,
     name,
     description,
   ])
@@ -134,6 +142,7 @@ export function CreateAnnotationModal({
               name: name.trim(),
               description: description.trim() || undefined,
               ground_truth: groundTruth,
+              hidden,
               origin_annotation_id: originAnnotationId || undefined,
             },
           })
@@ -233,19 +242,34 @@ export function CreateAnnotationModal({
           </div>
 
           {!isDuplicateMode && (
-            <label className="flex items-center gap-2 text-sm text-gray-700">
-              <input
-                type="checkbox"
-                checked={groundTruth}
-                onChange={(e) => {
-                  setGroundTruthTouched(true)
-                  setGroundTruth(e.target.checked)
-                }}
-                className="h-4 w-4"
-                disabled={loading}
-              />
-              Ground truth
-            </label>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              <label className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="checkbox"
+                  checked={groundTruth}
+                  onChange={(e) => {
+                    setGroundTruthTouched(true)
+                    setGroundTruth(e.target.checked)
+                  }}
+                  className="h-4 w-4"
+                  disabled={loading}
+                />
+                Ground truth
+              </label>
+              <label className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="checkbox"
+                  checked={hidden}
+                  onChange={(e) => {
+                    setHiddenTouched(true)
+                    setHidden(e.target.checked)
+                  }}
+                  className="h-4 w-4"
+                  disabled={loading}
+                />
+                Hidden
+              </label>
+            </div>
           )}
 
           <ErrorMessage message={error} />
