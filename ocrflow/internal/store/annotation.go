@@ -419,22 +419,11 @@ func (s *AnnotationSQL) DeleteAnnotation(datasetID string, annotationID string) 
 func calculatePipelineStage(a *annotation.Annotation) annotationrule.PipelineStage {
 	s := annotationrule.PipelineStageRaw
 	if a.Ocred {
-		ocredStage := annotationrule.PipelineStageOCR
-		if ocredStage.After(s) {
-			s = ocredStage
-		}
-	}
-	if a.LinesDetected {
-		linesDetectedStage := annotationrule.PipelineStageTextLineSegmentation
-		if linesDetectedStage.After(s) {
-			s = linesDetectedStage
-		}
-	}
-	if a.Segmented {
-		segmentedStage := annotationrule.PipelineStageZoneSegmentation
-		if segmentedStage.After(s) {
-			s = segmentedStage
-		}
+		s = annotationrule.PipelineStageOCR
+	} else if a.LinesDetected {
+		s = annotationrule.PipelineStageTextLineSegmentation
+	} else if a.Segmented {
+		s = annotationrule.PipelineStageZoneSegmentation
 	}
 	for _, rule := range a.AppliedRules {
 		if rule == nil {
