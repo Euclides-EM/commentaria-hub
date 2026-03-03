@@ -547,6 +547,28 @@ const joinLineTexts = (
   let currentText = ''
   let currentAnchors: Record<string, number> = {}
   let currentLineRanges: ParagraphLineRange[] = []
+  let previousLineEndedWithMergeDash = false
+  const trailingMergeDashPattern =
+    /[-\u00AD\u2010\u2011\u2012\u2013\u2014\u2015\u2212\uFE63\uFF0D¬]+$/
+
+  const truncateTrailingMergeDashes = (
+    line: LineTextWithAnchors,
+  ): LineTextWithAnchors => {
+    if (!trailingMergeDashPattern.test(line.text)) {
+      return line
+    }
+    const withoutDashes = line.text.replace(trailingMergeDashPattern, '')
+    const nextText = withoutDashes.replace(/\s+$/, '')
+    const nextAnchors: Record<string, number> = {}
+    for (const [id, pos] of Object.entries(line.anchors)) {
+      nextAnchors[id] = Math.min(pos, nextText.length)
+    }
+    return {
+      ...line,
+      text: nextText,
+      anchors: nextAnchors,
+    }
+  }
 
   const pushCurrent = () => {
     if (!currentText) {
@@ -560,15 +582,19 @@ const joinLineTexts = (
     currentText = ''
     currentAnchors = {}
     currentLineRanges = []
+    previousLineEndedWithMergeDash = false
   }
 
-  for (const line of lines) {
+  for (const rawLine of lines) {
+    const lineEndedWithMergeDash = trailingMergeDashPattern.test(rawLine.text)
+    const line = truncateTrailingMergeDashes(rawLine)
     if (!line.text) {
       pushCurrent()
+      previousLineEndedWithMergeDash = false
       continue
     }
 
-    if (currentText) {
+    if (currentText && !previousLineEndedWithMergeDash) {
       currentText += ' '
     }
     const offset = currentText.length
@@ -584,6 +610,7 @@ const joinLineTexts = (
     for (const [id, pos] of Object.entries(line.anchors)) {
       currentAnchors[id] = offset + pos
     }
+    previousLineEndedWithMergeDash = lineEndedWithMergeDash
   }
 
   pushCurrent()
