@@ -290,8 +290,8 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	categoriesToExcludeFromLineDetection := []string{
 		"CatchWord",
 		"DigitizationArtefactZone",
-		//"DropCapitalZone",
-		//""DropCapitalZone-Plain",
+		"DropCapitalZone",
+		"DropCapitalZone-Plain",
 		"GraphicZone-Decoration",
 		"GraphicZone-Diagram",
 		"GraphicZone-Table",
