@@ -28,6 +28,7 @@ import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
 import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
+import { formatBoolean } from '../../../utils/formatBoolean.tsx'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
@@ -47,9 +48,6 @@ interface AnnotationDetailsContentProps {
   onHiddenChange: (hidden: boolean) => void
   error?: string | null
 }
-
-const formatBoolean = (value: boolean | null | undefined) =>
-  value ? <span className="text-teal-700 font-semibold">{'\u2713'}</span> : '-'
 
 const AnnotationDetailsContent = ({
   annotation,
