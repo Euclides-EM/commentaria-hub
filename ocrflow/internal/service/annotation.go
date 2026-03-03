@@ -380,6 +380,16 @@ func (a *Annotation) Duplicate(datasetID string, annotationID string, name strin
 	if ann.Meta.Name == "" {
 		ann.Meta.Name = "Copy of " + origAnn.Meta.Name + " " + ann.ID
 	}
+	anns, err := a.ListAnnotations(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list annotations for dataset: %w", err)
+	}
+	siblingNames := lo.Map(lo.Filter(anns, func(existing *annotation.Annotation, _ int) bool {
+		return existing.ID == origAnn.ID || existing.OriginAnnotationID == origAnn.ID
+	}), func(existing *annotation.Annotation, _ int) string {
+		return existing.Name
+	})
+	ann.Meta.Name = name.NextAvailable(siblingNames, ann.Meta.Name)
 
 	if ann.Meta.Description != "" {
 		ann.Meta.Description = "Copy of " + origAnn.Meta.Name + " [original description: " + origAnn.Meta.Description + "]"
