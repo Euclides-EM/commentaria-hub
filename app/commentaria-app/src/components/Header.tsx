@@ -26,7 +26,7 @@ export function Header({ onShowLogin }: HeaderProps) {
   }
 
   return (
-    <header className="bg-white border-b border-gray-200 px-4 py-3">
+    <header className="relative z-40 bg-white border-b border-gray-200 px-4 py-3">
       <div className="flex items-center justify-between flex-wrap">
         <div className="flex items-center gap-3">
           <div className="flex flex-col gap-1 justify-center items-center shrink-0">
@@ -59,7 +59,7 @@ export function Header({ onShowLogin }: HeaderProps) {
                 {username.charAt(0)}
               </button>
               {isMenuOpen ? (
-                <div className="absolute right-0 top-full pt-2">
+                <div className="absolute right-0 top-full z-50 pt-2">
                   <div className="w-48 rounded-md border border-gray-200 bg-white shadow-lg p-2">
                     <div className="px-2 py-2 text-xs text-gray-500">
                       Signed in as
