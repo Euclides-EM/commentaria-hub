@@ -11,6 +11,64 @@ import { useDatasetImageKeysQuery } from '../../../queries/datasets.ts'
 import type { TeiSurfaceZone } from './tei/tei.ts'
 import ImageZoom from 'react-image-zooom'
 
+type RenderedImageRect = {
+  left: number
+  top: number
+  width: number
+  height: number
+  naturalWidth: number
+  naturalHeight: number
+}
+
+const getRenderedImageRect = (
+  image: HTMLImageElement,
+  viewportRect: DOMRect,
+): RenderedImageRect => {
+  const imageRect = image.getBoundingClientRect()
+  const naturalWidth = image.naturalWidth
+  const naturalHeight = image.naturalHeight
+
+  if (
+    naturalWidth > 0 &&
+    naturalHeight > 0 &&
+    imageRect.width > 0 &&
+    imageRect.height > 0
+  ) {
+    const containerRatio = imageRect.width / imageRect.height
+    const imageRatio = naturalWidth / naturalHeight
+    let renderedWidth = imageRect.width
+    let renderedHeight = imageRect.height
+    let offsetLeft = 0
+    let offsetTop = 0
+
+    if (imageRatio > containerRatio) {
+      renderedHeight = imageRect.width / imageRatio
+      offsetTop = (imageRect.height - renderedHeight) / 2
+    } else {
+      renderedWidth = imageRect.height * imageRatio
+      offsetLeft = (imageRect.width - renderedWidth) / 2
+    }
+
+    return {
+      left: imageRect.left - viewportRect.left + offsetLeft,
+      top: imageRect.top - viewportRect.top + offsetTop,
+      width: renderedWidth,
+      height: renderedHeight,
+      naturalWidth,
+      naturalHeight,
+    }
+  }
+
+  return {
+    left: imageRect.left - viewportRect.left,
+    top: imageRect.top - viewportRect.top,
+    width: imageRect.width,
+    height: imageRect.height,
+    naturalWidth,
+    naturalHeight,
+  }
+}
+
 type ImagePaneProps = {
   showResizeHandle?: boolean
   onResizeStart?: () => void
@@ -125,9 +183,9 @@ export function ImagePane({
         return
       }
       const viewportRect = viewport.getBoundingClientRect()
-      const imageRect = image.getBoundingClientRect()
-      const width = imageRect.width
-      const height = imageRect.height
+      const renderedRect = getRenderedImageRect(image, viewportRect)
+      const width = renderedRect.width
+      const height = renderedRect.height
       if (!width || !height) {
         setImageDisplayBox({
           left: 0,
@@ -139,15 +197,13 @@ export function ImagePane({
         })
         return
       }
-      const left = imageRect.left - viewportRect.left
-      const top = imageRect.top - viewportRect.top
       setImageDisplayBox({
-        left,
-        top,
+        left: renderedRect.left,
+        top: renderedRect.top,
         width,
         height,
-        naturalWidth: image.naturalWidth,
-        naturalHeight: image.naturalHeight,
+        naturalWidth: renderedRect.naturalWidth,
+        naturalHeight: renderedRect.naturalHeight,
       })
     }
 
