@@ -121,7 +121,7 @@ export function BackupsView() {
           >
             {createFromZipMutation.isPending
               ? 'Uploading...'
-              : 'Uplaod from zip'}
+              : 'Upload from zip'}
           </Button>
         </div>
       </div>
