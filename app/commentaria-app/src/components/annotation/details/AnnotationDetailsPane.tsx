@@ -28,6 +28,7 @@ import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
 import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
+import { formatBoolean } from '../../../utils/formatBoolean.tsx'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
@@ -39,10 +40,12 @@ interface AnnotationDetailsContentProps {
   editedDescription: string
   editedOriginAnnotationId: string | null
   editedGroundTruth: boolean
+  editedHidden: boolean
   onNameChange: (name: string) => void
   onDescriptionChange: (description: string) => void
   onOriginAnnotationChange: (originAnnotationId: string | null) => void
   onGroundTruthChange: (groundTruth: boolean) => void
+  onHiddenChange: (hidden: boolean) => void
   error?: string | null
 }
 
@@ -56,10 +59,12 @@ const AnnotationDetailsContent = ({
   editedDescription,
   editedOriginAnnotationId,
   editedGroundTruth,
+  editedHidden,
   onNameChange,
   onDescriptionChange,
   onOriginAnnotationChange,
   onGroundTruthChange,
+  onHiddenChange,
   error,
 }: AnnotationDetailsContentProps) => {
   const { setState } = useAppState()
@@ -144,15 +149,6 @@ const AnnotationDetailsContent = ({
             </span>
           )}
         </div>
-        <div className="font-semibold text-xs opacity-80 pt-0.5">Stage</div>
-        <div className="text-sm leading-tight break-all">
-          {annotation.pipeline_stage &&
-            getStageDisplayName(annotation.pipeline_stage)}
-        </div>
-        <div className="font-semibold text-xs opacity-80 pt-0.5">Segmented</div>
-        <div className="text-sm leading-tight break-all">
-          {String(!!annotation.segmented)}
-        </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Ground truth
         </div>
@@ -164,17 +160,48 @@ const AnnotationDetailsContent = ({
               onChange={(e) => onGroundTruthChange(e.target.checked)}
               className="h-4 w-4"
             />
-            {String(editedGroundTruth)}
+            {formatBoolean(editedGroundTruth)}
           </label>
         ) : (
           <div className="text-sm leading-tight break-all">
-            {String(!!annotation.ground_truth)}
+            {formatBoolean(annotation.ground_truth)}
           </div>
         )}
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Stage</div>
+        <div className="text-sm leading-tight break-all">
+          {annotation.pipeline_stage &&
+            getStageDisplayName(annotation.pipeline_stage)}
+        </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Segmented</div>
+        <div className="text-sm leading-tight break-all">
+          {formatBoolean(annotation.segmented)}
+        </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">
+          Lines detected
+        </div>
+        <div className="text-sm leading-tight break-all">
+          {formatBoolean(annotation.lines_detected)}
+        </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">OCRed</div>
         <div className="text-sm leading-tight break-all">
-          {String(!!annotation.ocred)}
+          {formatBoolean(annotation.ocred)}
         </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Hidden</div>
+        {isEditing ? (
+          <label className="flex items-center gap-2 text-sm leading-tight">
+            <input
+              type="checkbox"
+              checked={editedHidden}
+              onChange={(e) => onHiddenChange(e.target.checked)}
+              className="h-4 w-4"
+            />
+            {formatBoolean(editedHidden)}
+          </label>
+        ) : (
+          <div className="text-sm leading-tight break-all">
+            {formatBoolean(annotation.hidden)}
+          </div>
+        )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Categories
         </div>
@@ -309,6 +336,7 @@ export function AnnotationDetailsPane() {
     string | null
   >(null)
   const [editedGroundTruth, setEditedGroundTruth] = useState(false)
+  const [editedHidden, setEditedHidden] = useState(false)
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const [error, setError] = useState<string | null>(null)
   const [isDeleteOpen, setIsDeleteOpen] = useState(false)
@@ -336,6 +364,7 @@ export function AnnotationDetailsPane() {
       setEditedDescription(annotation.description || '')
       setEditedOriginAnnotationId(annotation.origin_annotation_id || null)
       setEditedGroundTruth(!!annotation.ground_truth)
+      setEditedHidden(!!annotation.hidden)
       setIsEditing(true)
     }
   }
@@ -355,6 +384,7 @@ export function AnnotationDetailsPane() {
           description: editedDescription,
           origin_annotation_id: editedOriginAnnotationId || undefined,
           ground_truth: editedGroundTruth,
+          hidden: editedHidden,
         },
       })
       refetch()
@@ -372,6 +402,7 @@ export function AnnotationDetailsPane() {
       setEditedDescription(annotation.description || '')
       setEditedOriginAnnotationId(annotation.origin_annotation_id || null)
       setEditedGroundTruth(!!annotation.ground_truth)
+      setEditedHidden(!!annotation.hidden)
     }
   }
 
@@ -466,10 +497,12 @@ export function AnnotationDetailsPane() {
             editedDescription={editedDescription}
             editedOriginAnnotationId={editedOriginAnnotationId}
             editedGroundTruth={editedGroundTruth}
+            editedHidden={editedHidden}
             onNameChange={setEditedName}
             onDescriptionChange={setEditedDescription}
             onOriginAnnotationChange={setEditedOriginAnnotationId}
             onGroundTruthChange={setEditedGroundTruth}
+            onHiddenChange={setEditedHidden}
             error={error}
           />
         </div>

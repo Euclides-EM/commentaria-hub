@@ -5,6 +5,7 @@ import { EditionDetailsTable } from '../core/EditionDetailsTable.tsx'
 import { ErrorMessage } from '../core/ErrorMessage.tsx'
 import { LoadingSpinner } from '../core/LoadingSpinner.tsx'
 import { Timestamp } from '../core/Timestamp.tsx'
+import { formatBoolean } from '../../utils/formatBoolean.tsx'
 
 interface DatasetDetailsTabProps {
   dataset: model_Dataset
@@ -219,11 +220,11 @@ export function DatasetDetailsTab({
                     className="h-4 w-4"
                     disabled={isSaving}
                   />
-                  {String(editedDeskewed)}
+                  {formatBoolean(editedDeskewed)}
                 </label>
               ) : (
                 <div className="text-sm leading-tight break-all">
-                  {String(!!dataset.deskewed)}
+                  {formatBoolean(dataset.deskewed)}
                 </div>
               )}
 
@@ -239,11 +240,11 @@ export function DatasetDetailsTab({
                     className="h-4 w-4"
                     disabled={isSaving}
                   />
-                  {String(editedDenoised)}
+                  {formatBoolean(editedDenoised)}
                 </label>
               ) : (
                 <div className="text-sm leading-tight break-all">
-                  {String(!!dataset.denoised)}
+                  {formatBoolean(dataset.denoised)}
                 </div>
               )}
 

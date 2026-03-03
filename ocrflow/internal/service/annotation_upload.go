@@ -231,6 +231,8 @@ func (a *AnnotationsUploader) UploadToCommentaria(datasetID string, id string, c
 		Segmented:          ann.Segmented,
 		GroundTruth:        ann.GroundTruth,
 		Ocred:              ann.Ocred,
+		LinesDetected:      ann.LinesDetected,
+		Hidden:             ann.Hidden,
 		OriginAnnotationID: "",
 		OCRModelID:         "",
 		SegmentModelID:     "",

@@ -11,6 +11,8 @@ type Annotation struct {
 	Segmented          bool                           `json:"segmented" readonly:"true"`
 	GroundTruth        bool                           `json:"ground_truth"`
 	Ocred              bool                           `json:"ocred" readonly:"true"`
+	LinesDetected      bool                           `json:"lines_detected" readonly:"true"`
+	Hidden             bool                           `json:"hidden"`
 	DatasetID          string                         `json:"dataset_id" readonly:"true"`
 	AppliedRules       annotationrule.AnnotationRules `json:"applied_rules" readonly:"true"`
 	OriginAnnotationID string                         `json:"origin_annotation_id,omitempty" readonly:"true"`

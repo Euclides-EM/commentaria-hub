@@ -273,6 +273,7 @@ func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annota
 	if err := krakenwrapper.DetectLines(imgPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann), t.IncludeCategories, t.IgnoreCategories); err != nil {
 		return nil, fmt.Errorf("failed to apply lines detect to annotation %s: %w", ann.ID, err)
 	}
+	ann.LinesDetected = true
 	return ann, nil
 }
 

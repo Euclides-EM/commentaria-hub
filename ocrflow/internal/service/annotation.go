@@ -125,6 +125,8 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		Segmented:          aum.Segmented,
 		GroundTruth:        aum.GroundTruth,
 		Ocred:              aum.Ocred,
+		LinesDetected:      aum.LinesDetected,
+		Hidden:             aum.Hidden,
 		OriginAnnotationID: aum.OriginAnnotationID,
 	}
 	if aum.OriginAnnotationID != "" {
