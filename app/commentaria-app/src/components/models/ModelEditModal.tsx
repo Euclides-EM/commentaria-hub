@@ -162,7 +162,7 @@ function ModelEditModalContent({
       onClick={onClose}
     >
       <form
-        className="bg-white rounded-lg max-w-xl w-full max-h-[85vh] flex flex-col m-4"
+        className="bg-white rounded-lg max-w-2xl w-full max-h-[85vh] flex flex-col m-4"
         onClick={(e) => e.stopPropagation()}
         onSubmit={handleSubmit}
       >
