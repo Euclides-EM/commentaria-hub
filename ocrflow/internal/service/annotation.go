@@ -349,6 +349,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *annotati
 	fromDB.Meta.Name = ann.Meta.Name
 	fromDB.Meta.Description = ann.Meta.Description
 	fromDB.GroundTruth = ann.GroundTruth
+	fromDB.Hidden = ann.Hidden
 	fromDB.OriginAnnotationID = ann.OriginAnnotationID
 
 	if err := a.annotationStore.UpdateAnnotation(fromDB); err != nil {
