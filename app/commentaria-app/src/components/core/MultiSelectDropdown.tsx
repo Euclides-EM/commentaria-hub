@@ -7,7 +7,16 @@ interface MultiSelectDropdownProps<T> {
   setSelectedItems: (items: T[] | null) => void
   itemsLabel: string
   getItemLabel: (item: T) => string
+  getPickerLabel?: (args: {
+    allItems: T[]
+    selectedItems: T[] | null
+    itemsLabel: string
+    getItemLabel: (item: T) => string
+  }) => string
   getItemKey?: (item: T) => string
+  bulkActionItems?: T[]
+  bulkActionLabel?: string
+  showSeparatorBeforeItem?: (item: T) => boolean
   minWidth?: string
   disabled?: boolean
 }
@@ -18,7 +27,11 @@ export function MultiSelectDropdown<T>({
   setSelectedItems,
   itemsLabel,
   getItemLabel,
+  getPickerLabel,
   getItemKey,
+  bulkActionItems,
+  bulkActionLabel,
+  showSeparatorBeforeItem,
   minWidth = '160px',
   disabled = false,
 }: MultiSelectDropdownProps<T>) {
@@ -51,6 +64,7 @@ export function MultiSelectDropdown<T>({
     const left = Math.min(menuRect.left, window.innerWidth - width - 8)
     return {
       position: 'fixed' as const,
+      display: 'inline-table' as const,
       top: menuRect.bottom + 4,
       left,
       width,
@@ -58,7 +72,39 @@ export function MultiSelectDropdown<T>({
     }
   }, [menuRect])
 
-  const getPickerLabel = () => {
+  const effectiveBulkActionItems = useMemo(
+    () => bulkActionItems ?? allItems,
+    [allItems, bulkActionItems],
+  )
+
+  const handleBulkSelection = (selectAll: boolean) => {
+    const currentSelected = selectedItems == null ? allItems : selectedItems
+    const preservedItems = currentSelected.filter(
+      (item) => !effectiveBulkActionItems.includes(item),
+    )
+    const nextItems = selectAll
+      ? [
+          ...preservedItems,
+          ...effectiveBulkActionItems.filter(
+            (item) => !preservedItems.includes(item),
+          ),
+        ]
+      : preservedItems
+
+    setSelectedItems(
+      nextItems.length === allItems.length ? allItems : nextItems,
+    )
+  }
+
+  const pickerLabel = () => {
+    if (getPickerLabel) {
+      return getPickerLabel({
+        allItems,
+        selectedItems,
+        itemsLabel,
+        getItemLabel,
+      })
+    }
     if (selectedItems == null || selectedItems.length === allItems.length) {
       return `All ${itemsLabel}`
     }
@@ -98,7 +144,7 @@ export function MultiSelectDropdown<T>({
         ref={buttonRef}
         disabled={isDisabled}
       >
-        <span className="text-gray-700">{getPickerLabel()}</span>
+        <span className="text-gray-700">{pickerLabel()}</span>
         <svg
           className={`w-4 h-4 text-gray-600 transition-transform ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
@@ -135,20 +181,28 @@ export function MultiSelectDropdown<T>({
                 <>
                   <button
                     className="pl-[32px] w-full px-3 py-2 text-gray-600 break-words hover:bg-gray-50 cursor-pointer text-sm text-start"
-                    onClick={() => setSelectedItems(allItems)}
+                    onClick={() => handleBulkSelection(true)}
                   >
-                    Select all
+                    {bulkActionLabel
+                      ? `Select all ${bulkActionLabel}`
+                      : 'Select all'}
                   </button>
                   <button
                     className="pl-[32px] w-full px-3 py-2 text-gray-600 break-words hover:bg-gray-50 cursor-pointer text-sm text-start"
-                    onClick={() => setSelectedItems([])}
+                    onClick={() => handleBulkSelection(false)}
                   >
-                    Clear all
+                    {bulkActionLabel
+                      ? `Deselect all ${bulkActionLabel}`
+                      : 'Clear all'}
                   </button>
                   {allItems.map((item) => (
                     <label
                       key={getItemKey ? getItemKey(item) : String(item)}
-                      className="flex items-center gap-2 px-3 py-2 hover:bg-gray-50 cursor-pointer text-sm"
+                      className={`flex items-center gap-2 px-3 py-2 hover:bg-gray-50 cursor-pointer text-sm ${
+                        showSeparatorBeforeItem?.(item)
+                          ? 'border-t border-gray-200 mt-1 pt-3'
+                          : ''
+                      }`}
                     >
                       <input
                         type="checkbox"
