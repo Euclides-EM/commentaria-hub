@@ -209,6 +209,15 @@ curl -I http://127.0.0.1:8090/ || true
 curl -I http://127.0.0.1:8090/api/v1/ || true
 ````
 
+## Setup the FE permissions
+
+```bash
+sudo apt-get update
+sudo apt-get install -y acl
+
+sudo setfacl -m u:www-data:rx /srv/euclides
+```
+
 ## Configure Nginx Reverse Proxy
 
 Create the nginx site file:
@@ -334,6 +343,7 @@ git pull
 go generate ./...
 go build -tags nogocv -o /srv/euclides/bin/ocrflow-api ./cmd/ocrflow
 cd /srv/euclides/projects/commentaria-hub/app
+yarn
 yarn build:euclides:huma-num
 exit
 
