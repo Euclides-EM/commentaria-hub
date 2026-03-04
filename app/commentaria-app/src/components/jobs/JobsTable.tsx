@@ -172,6 +172,9 @@ export function JobsTable() {
                         {renderSortHeader('Job', 'job')}
                       </th>
                       <th className="px-4 py-3 text-left whitespace-nowrap">
+                        Job details
+                      </th>
+                      <th className="px-4 py-3 text-left whitespace-nowrap">
                         Annotation
                       </th>
                       <th className="px-4 py-3 text-left whitespace-nowrap">
@@ -203,6 +206,9 @@ export function JobsTable() {
                               {job.description}
                             </div>
                           )}
+                        </td>
+                        <td className="px-4 py-3 text-left text-gray-700">
+                          {job.details || '-'}
                         </td>
                         <td className="px-4 py-3 text-left whitespace-nowrap">
                           {job.annotation?.dataset_id && job.annotation?.id ? (
