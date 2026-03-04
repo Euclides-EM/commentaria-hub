@@ -123,6 +123,8 @@ type ReadingOptions = {
   minCert: number
   maskChar: string
   alignLines: boolean
+  showCertaintyVisualization?: boolean
+  certaintyDegreeByTargetId?: Map<string, number>
 }
 
 type TextWithAnchors = {
@@ -140,12 +142,14 @@ type ParagraphLineRange = {
   start: number
   end: number
   matchIds: string[]
+  certaintyDegree: number | null
 }
 
 type LineMatchMode = 'none' | 'original-id' | 'corresp'
 
 type LineTextWithAnchors = TextWithAnchors & {
   matchIds: string[]
+  certaintyDegree: number | null
 }
 
 const escapeHtml = (text: string) => {
@@ -179,6 +183,37 @@ function findFirstCertaintyDegree(segEl: Element) {
   const degreeStr = certs[0].getAttribute('degree')
   const degree = degreeStr == null ? NaN : parseFloat(degreeStr)
   return Number.isFinite(degree) ? degree : null
+}
+
+const getCertaintyDegreeByTargetId = (doc: Document) => {
+  const out = new Map<string, number>()
+  const certs = doc.getElementsByTagNameNS('*', 'certainty')
+  for (let i = 0; i < certs.length; i++) {
+    const cert = certs[i]
+    const degree = Number.parseFloat(cert.getAttribute('degree') || '')
+    if (!Number.isFinite(degree)) {
+      continue
+    }
+    const targets = parseCorrespRefs(cert.getAttribute('target'))
+    for (const target of targets) {
+      if (!target) {
+        continue
+      }
+      out.set(target, degree)
+    }
+  }
+  return out
+}
+
+const getElementCertaintyDegree = (element: Element, opts: ReadingOptions) => {
+  const targetId = getXmlId(element)
+  if (targetId) {
+    const byTargetIdDegree = opts.certaintyDegreeByTargetId?.get(targetId)
+    if (Number.isFinite(byTargetIdDegree)) {
+      return byTargetIdDegree
+    }
+  }
+  return findFirstCertaintyDegree(element)
 }
 
 function textContentExcludingCertainty(node: ChildNode) {
@@ -429,7 +464,7 @@ const appendTextWithAnchors = (
   }
 
   if (element.localName === 'seg') {
-    const degree = findFirstCertaintyDegree(element)
+    const degree = getElementCertaintyDegree(element, opts)
     const rawText = textContentExcludingCertainty(element)
     const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
     builder.text +=
@@ -533,6 +568,7 @@ const joinLineTexts = (
           start: offset,
           end,
           matchIds: lines[i].matchIds,
+          certaintyDegree: lines[i].certaintyDegree,
         })
       }
       for (const [id, pos] of Object.entries(lines[i].anchors)) {
@@ -605,6 +641,7 @@ const joinLineTexts = (
         start: offset,
         end,
         matchIds: line.matchIds,
+        certaintyDegree: line.certaintyDegree,
       })
     }
     for (const [id, pos] of Object.entries(line.anchors)) {
@@ -631,13 +668,22 @@ const renderStructuredDivToParagraphs = (
   for (const container of containers) {
     const lines = getLineElements(container)
     if (lines.length) {
-      const renderedLines = lines.map(
-        (line) =>
-          ({
-            ...trimTextWithAnchors(toReadingTextWithAnchors(line, opts)),
-            matchIds: getMatchIdsForElement(line, lineMatchMode),
-          }) satisfies LineTextWithAnchors,
-      )
+      const renderedLines = lines.map((line) => {
+        const lineText = trimTextWithAnchors(
+          toReadingTextWithAnchors(line, opts),
+        )
+        const degree = getElementCertaintyDegree(line, opts)
+        const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
+        return {
+          ...lineText,
+          text:
+            degree != null && degree < minCert
+              ? maskText(lineText.text, opts.maskChar)
+              : lineText.text,
+          matchIds: getMatchIdsForElement(line, lineMatchMode),
+          certaintyDegree: degree,
+        } satisfies LineTextWithAnchors
+      })
       const blocks = joinLineTexts(renderedLines, opts.alignLines)
       for (const block of blocks) {
         paragraphs.push(block)
@@ -646,12 +692,25 @@ const renderStructuredDivToParagraphs = (
     }
 
     const block = trimTextWithAnchors(toReadingTextWithAnchors(container, opts))
+    const degree = getElementCertaintyDegree(container, opts)
+    const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
     const blockMatchIds = getMatchIdsForElement(container, lineMatchMode)
     paragraphs.push({
       ...block,
+      text:
+        degree != null && degree < minCert
+          ? maskText(block.text, opts.maskChar)
+          : block.text,
       lineRanges:
         blockMatchIds.length > 0 && block.text.length > 0
-          ? [{ start: 0, end: block.text.length, matchIds: blockMatchIds }]
+          ? [
+              {
+                start: 0,
+                end: block.text.length,
+                matchIds: blockMatchIds,
+                certaintyDegree: degree,
+              },
+            ]
           : [],
     })
   }
@@ -687,12 +746,17 @@ const renderParagraphWithLineRanges = (
   spans: ParagraphHighlightSpan[],
   paragraphIndex: number,
   lineRanges: ParagraphLineRange[],
+  showCertaintyVisualization: boolean,
 ) => {
   const validRanges = lineRanges
     .map((range) => ({
       start: Math.max(0, Math.min(text.length, range.start)),
       end: Math.max(0, Math.min(text.length, range.end)),
       matchIds: [...new Set(range.matchIds.filter(Boolean))],
+      certaintyDegree:
+        range.certaintyDegree != null && Number.isFinite(range.certaintyDegree)
+          ? range.certaintyDegree
+          : null,
     }))
     .filter((range) => range.end > range.start && range.matchIds.length > 0)
     .sort((left, right) => left.start - right.start)
@@ -724,7 +788,19 @@ const renderParagraphWithLineRanges = (
       lineSpans,
       paragraphIndex,
     )
-    html += `<span data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}">${lineHtml}</span>`
+    const attrs = [
+      `data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}"`,
+    ]
+    if (showCertaintyVisualization && range.certaintyDegree != null) {
+      const clampedDegree = Math.min(1, Math.max(0.9, range.certaintyDegree))
+      const strength = (clampedDegree - 0.9) / 0.1
+      const alpha = 0.14 + strength * 0.44
+      attrs.push(`data-tei-certainty-degree="${clampedDegree.toFixed(3)}"`)
+      attrs.push(
+        `style="background-color: rgba(20, 184, 166, ${alpha.toFixed(3)}); border-radius: 3px;"`,
+      )
+    }
+    html += `<span ${attrs.join(' ')}>${lineHtml}</span>`
     cursor = rangeEnd
   }
 
@@ -753,6 +829,7 @@ const renderStructuredDiv = (
         [],
         index,
         paragraph.lineRanges,
+        !!opts.showCertaintyVisualization,
       )
       return `<p>${html}</p>`
     })
@@ -1113,7 +1190,7 @@ function renderOriginalView(
   )
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
-    return `<p data-tei-paragraph-index="${index}">${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges)}</p>`
+    return `<p data-tei-paragraph-index="${index}">${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges, !!opts.showCertaintyVisualization)}</p>`
   })
 
   return parts.join('') || '<p></p>'
@@ -1129,7 +1206,13 @@ export const getTeiEditableHighlights = (
     const { paragraphSpans } = getOriginalParagraphSpans(
       doc,
       body,
-      { showPB: true, minCert: 0.8, maskChar: '@', alignLines: false },
+      {
+        showPB: true,
+        minCert: 0.8,
+        maskChar: '@',
+        alignLines: false,
+        certaintyDegreeByTargetId: getCertaintyDegreeByTargetId(doc),
+      },
       highlightConfig,
     )
     const out: TeiEditableHighlight[] = []
@@ -1574,11 +1657,19 @@ export const teiToHtml = (
   maskChar: string = '@',
   viewMode: TeiViewMode = 'original',
   alignLines: boolean = false,
+  showCertaintyVisualization: boolean = false,
   highlightConfig?: TeiHighlightConfig,
 ) => {
   const doc = parseXml(tei.trim())
   const body = getBody(doc)
-  const opts = { showPB: true, minCert, maskChar, alignLines }
+  const opts = {
+    showPB: true,
+    minCert,
+    maskChar,
+    alignLines,
+    showCertaintyVisualization,
+    certaintyDegreeByTargetId: getCertaintyDegreeByTargetId(doc),
+  }
 
   if (viewMode !== 'original') {
     const translationIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)

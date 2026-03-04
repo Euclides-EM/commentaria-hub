@@ -347,6 +347,7 @@ const getSelectionDraft = (
 type TeiProps = {
   data: string
   minCert: number
+  showCertaintyVisualization: boolean
   viewMode: TeiViewMode
   viewLabel: string
   showViewLabel: boolean
@@ -363,6 +364,7 @@ type TeiProps = {
 
 const Tei = ({
   minCert,
+  showCertaintyVisualization,
   data,
   viewMode,
   viewLabel,
@@ -418,6 +420,7 @@ const Tei = ({
         '@',
         viewMode,
         alignLines,
+        showCertaintyVisualization,
         highlightConfig,
       ),
     [
@@ -426,6 +429,7 @@ const Tei = ({
       highlightConfig,
       minCert,
       searchResultHighlight,
+      showCertaintyVisualization,
       viewMode,
     ],
   )
@@ -948,6 +952,10 @@ export function TeiPane({
   const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
     defaultValue: false,
   })
+  const [showCertaintyVisualization, setShowCertaintyVisualization] =
+    useLocalStorageState('showTeiCertaintyVisualization', {
+      defaultValue: false,
+    })
   const [isFeatureSelectExpanded, setIsFeatureSelectExpanded] =
     useLocalStorageState('teiFeatureSelectExpanded', {
       defaultValue: false,
@@ -1951,6 +1959,20 @@ export function TeiPane({
                 }
               />
             )}
+            {showMinCertControl && (
+              <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
+                <input
+                  type="checkbox"
+                  checked={showCertaintyVisualization}
+                  onChange={(event) =>
+                    setShowCertaintyVisualization(event.target.checked)
+                  }
+                  disabled={isTextEditMode}
+                  className="rounded border-gray-300"
+                />
+                <span>Certainty heatmap</span>
+              </label>
+            )}
             <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
               <input
                 type="checkbox"
@@ -2063,6 +2085,7 @@ export function TeiPane({
                       <Tei
                         data={teiContents}
                         minCert={minCert}
+                        showCertaintyVisualization={showCertaintyVisualization}
                         viewMode={viewMode}
                         viewLabel={getViewModeLabel(viewMode)}
                         showViewLabel={availableViewModes.length > 1}
