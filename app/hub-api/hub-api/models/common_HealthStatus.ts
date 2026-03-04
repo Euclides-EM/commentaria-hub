@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type common_HealthStatus = {
+    commit_sha?: string;
     db_ready?: boolean;
 };
 
