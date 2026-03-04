@@ -40,6 +40,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useAuthStore } from '../../../../store/authStore.ts'
 
 const VIEW_LABEL_MAP: Record<string, string> = {
+  modern_en: 'English',
   en: 'English',
 }
 
