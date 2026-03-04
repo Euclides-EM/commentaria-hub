@@ -163,7 +163,8 @@ def process_transcription_dir(
         "edition_id": edition_id,
         "facsimile_id": facsimile_id,
         "pages": pages_spec,
-        "denoise": True
+        "denoise": False,
+        "deskew": False
     }
     try:
         created = api_request(
