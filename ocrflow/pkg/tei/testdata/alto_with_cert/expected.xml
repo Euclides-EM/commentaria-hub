@@ -12,7 +12,9 @@
         <p>Derived from extracted text lines</p>
       </sourceDesc>
     </fileDesc>
-    <standOff/>
+    <standOff>
+      <certainty target="#line_page_page1_1_1" locus="value" degree="0.997"/>
+    </standOff>
   </teiHeader>
   <facsimile>
     <surface xml:id="page_page1" n="page1">

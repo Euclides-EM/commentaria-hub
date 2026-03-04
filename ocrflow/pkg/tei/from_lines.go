@@ -21,7 +21,7 @@ func BuildTEIFromLines(
 		Xmlns:   "http://www.tei-c.org/ns/1.0",
 		Header: model.Header{
 			FileDesc: buildFileDesc(),
-			StandOff: buildStandOff(entities),
+			StandOff: buildStandOff(pageKey, entities, nil),
 		},
 		Facsimile: buildFacsimileForLines(pageKey, imageUrl, lines.TranscriptionLines),
 		Text:      model.Text{Body: model.Body{}},

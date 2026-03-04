@@ -53,7 +53,7 @@ func BuildTEIFromALTO(
 		Xmlns:   "http://www.tei-c.org/ns/1.0",
 		Header: model.Header{
 			FileDesc: buildFileDesc(),
-			StandOff: buildStandOff(entities),
+			StandOff: buildStandOff(pageKey, entities, blocks),
 		},
 		Facsimile: buildFacsimileForAlto(pageKey, imageUrl, a),
 		Text:      model.Text{Body: model.Body{}},

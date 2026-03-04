@@ -2,8 +2,17 @@ package model
 
 // StandOff holds stand-off annotations in teiHeader (mentions spanGrp, relations, interpretation groups).
 type StandOff struct {
-	SpanGrp    *SpanGrp    `xml:"spanGrp,omitempty"`
-	InterpGrps []InterpGrp `xml:"interpGrp,omitempty"`
+	SpanGrp     *SpanGrp    `xml:"spanGrp,omitempty"`
+	InterpGrps  []InterpGrp `xml:"interpGrp,omitempty"`
+	Certainties []Certainty `xml:"certainty,omitempty"`
+}
+
+// Certainty is a single certainty annotation (TEI certainty).
+type Certainty struct {
+	Target string `xml:"target,attr,omitempty"`
+	Locus  string `xml:"locus,attr,omitempty"`
+	Degree string `xml:"degree,attr,omitempty"`
+	Resp   string `xml:"resp,attr,omitempty"`
 }
 
 // SpanGrp holds a layer of span elements (e.g. ner-mentions) referencing anchors via from/to.
