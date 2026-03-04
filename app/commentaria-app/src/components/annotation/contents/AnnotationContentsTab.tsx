@@ -18,12 +18,12 @@ export function AnnotationContentsTab() {
   const showTeiPane = !!annotation?.ocred || !!dataset?.edition_id
   const [imagePaneWidth, setImagePaneWidth] = useLocalStorageState(
     'imagePaneWidth',
-    { defaultValue: 560 },
+    { defaultValue: 560, storageSync: false },
   )
   const [isResizingImagePane, setIsResizingImagePane] = useState(false)
   const [hoverSyncEnabled, setHoverSyncEnabled] = useLocalStorageState(
     'hoverSyncEnabled',
-    { defaultValue: true },
+    { defaultValue: true, storageSync: false },
   )
   const [activeLineMatchIds, setActiveLineMatchIds] = useState<string[]>([])
   const [surfaceZones, setSurfaceZones] = useState<TeiSurfaceZone[]>([])

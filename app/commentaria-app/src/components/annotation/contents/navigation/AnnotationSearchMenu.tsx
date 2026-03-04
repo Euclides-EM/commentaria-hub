@@ -56,13 +56,14 @@ export function AnnotationSearchMenu() {
   const { state, jumpToPage, setSearchResultHighlight } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
     'annotationSearchTerm',
-    { defaultValue: '' },
+    { defaultValue: '', storageSync: false },
   )
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState(searchTerm)
   const [selectedCategories, setSelectedCategories] = useLocalStorageState<
     string[] | null
   >('annotationSearchCategories', {
     defaultValue: null,
+    storageSync: false,
   })
 
   const { data: categories } = useAnnotationCategories(

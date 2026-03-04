@@ -44,6 +44,7 @@ export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
     string[]
   >("tp-features", {
     defaultValue: [],
+    storageSync: false,
   });
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [showScrollTop, setShowScrollTop] = useState(false);
