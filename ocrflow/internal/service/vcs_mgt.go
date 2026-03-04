@@ -35,6 +35,10 @@ func NewVCSMgt(itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
 	}
 }
 
+func (r *VCSMgt) GetCommitSHA(repoPath string) (string, error) {
+	return ghwrapper.GetLatestCommitSHA(repoPath)
+}
+
 // Pull runs git pull and returns the branch name (after possibly checking out main).
 func (r *VCSMgt) Pull(token string) (*model.VCSStatus, error) {
 	branch, err := ghwrapper.GetCurrentBranch(r.repoPath)

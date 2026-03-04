@@ -79,7 +79,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
-	healthSvc := service.NewHealthService(sqlDB)
+	vcsMgtSvc := service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID("tps"))
+	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
@@ -175,7 +176,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DiagramCropsSvc:     diagramCropsSvc,
 		USTC:                service.NewUSTC(),
 		IntegrationJobSvc:   service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
-		VCSMgt:              service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID("tps")),
+		VCSMgt:              vcsMgtSvc,
 		BackupSvc:           bckSvc,
 	}
 
