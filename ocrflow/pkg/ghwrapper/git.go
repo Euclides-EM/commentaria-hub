@@ -20,6 +20,11 @@ func gitExec(repoDir, cmd string, args ...string) (stdout, stderr string, err er
 	return strings.TrimSpace(outBuf.String()), strings.TrimSpace(errBuf.String()), err
 }
 
+func GetLatestCommitSHA(repoDir string) (string, error) {
+	stdout, _, err := gitExec(repoDir, "git", "rev-parse", "HEAD")
+	return stdout, err
+}
+
 // GetCurrentBranch returns the current git branch name.
 func GetCurrentBranch(repoDir string) (string, error) {
 	stdout, _, err := gitExec(repoDir, "git", "branch", "--show-current")

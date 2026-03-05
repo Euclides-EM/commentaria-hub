@@ -187,13 +187,15 @@ export const NavItems = ({ mobile }: { mobile: boolean }) => {
         >
           Gallery
         </NavItem>
-        <NavItem
-          to={TITLE_PAGES_ROUTE}
-          active={location.pathname === TITLE_PAGES_ROUTE}
-          mobile={mobile}
-        >
-          Title Pages
-        </NavItem>
+        {!inEuclidesMode() && (
+          <NavItem
+            to={TITLE_PAGES_ROUTE}
+            active={location.pathname === TITLE_PAGES_ROUTE}
+            mobile={mobile}
+          >
+            Title Pages
+          </NavItem>
+        )}
         <NavItem
           to={TRENDS_ROUTE}
           active={location.pathname === TRENDS_ROUTE}

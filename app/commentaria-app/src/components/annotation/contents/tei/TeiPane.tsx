@@ -40,6 +40,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useAuthStore } from '../../../../store/authStore.ts'
 
 const VIEW_LABEL_MAP: Record<string, string> = {
+  modern_en: 'English',
   en: 'English',
 }
 
@@ -347,6 +348,7 @@ const getSelectionDraft = (
 type TeiProps = {
   data: string
   minCert: number
+  showCertaintyVisualization: boolean
   viewMode: TeiViewMode
   viewLabel: string
   showViewLabel: boolean
@@ -363,6 +365,7 @@ type TeiProps = {
 
 const Tei = ({
   minCert,
+  showCertaintyVisualization,
   data,
   viewMode,
   viewLabel,
@@ -418,6 +421,7 @@ const Tei = ({
         '@',
         viewMode,
         alignLines,
+        showCertaintyVisualization,
         highlightConfig,
       ),
     [
@@ -426,6 +430,7 @@ const Tei = ({
       highlightConfig,
       minCert,
       searchResultHighlight,
+      showCertaintyVisualization,
       viewMode,
     ],
   )
@@ -940,17 +945,24 @@ export function TeiPane({
 
   const [showTeiSource, setShowTeiSource] = useLocalStorageState(
     'showTeiSource',
-    { defaultValue: false },
+    { defaultValue: false, storageSync: false },
   )
   const [minCert, setMinCert] = useLocalStorageState('minCert', {
     defaultValue: 0.8,
+    storageSync: false,
   })
   const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
     defaultValue: false,
+    storageSync: false,
   })
+  const [showCertaintyVisualization, setShowCertaintyVisualization] =
+    useLocalStorageState('showTeiCertaintyVisualization', {
+      defaultValue: false,
+    })
   const [isFeatureSelectExpanded, setIsFeatureSelectExpanded] =
     useLocalStorageState('teiFeatureSelectExpanded', {
       defaultValue: false,
+      storageSync: false,
     })
   const [featureModalState, setFeatureModalState] =
     useState<FeatureModalState | null>(null)
@@ -987,7 +999,7 @@ export function TeiPane({
 
   const [storedTeiSource, setStoredTeiSource] = useLocalStorageState<
     'annotation' | 'edition'
-  >('teiSource', { defaultValue: 'annotation' })
+  >('teiSource', { defaultValue: 'annotation', storageSync: false })
   const preferredTeiSource = candidateSources.includes(storedTeiSource)
     ? storedTeiSource
     : candidateSources[0]
@@ -1951,6 +1963,20 @@ export function TeiPane({
                 }
               />
             )}
+            {showMinCertControl && (
+              <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
+                <input
+                  type="checkbox"
+                  checked={showCertaintyVisualization}
+                  onChange={(event) =>
+                    setShowCertaintyVisualization(event.target.checked)
+                  }
+                  disabled={isTextEditMode}
+                  className="rounded border-gray-300"
+                />
+                <span>Certainty heatmap</span>
+              </label>
+            )}
             <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
               <input
                 type="checkbox"
@@ -2063,6 +2089,7 @@ export function TeiPane({
                       <Tei
                         data={teiContents}
                         minCert={minCert}
+                        showCertaintyVisualization={showCertaintyVisualization}
                         viewMode={viewMode}
                         viewLabel={getViewModeLabel(viewMode)}
                         showViewLabel={availableViewModes.length > 1}

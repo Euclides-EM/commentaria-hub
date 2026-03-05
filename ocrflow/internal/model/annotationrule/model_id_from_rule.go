@@ -6,7 +6,7 @@ func ExtractModelIDsFromRules(rule []AnnotationRule) []string {
 	var extract func(r AnnotationRule)
 	extract = func(r AnnotationRule) {
 		switch v := r.(type) {
-		case *Segment:
+		case *ModelDetect:
 			if v.Model != "" {
 				modelIDSet[v.Model] = struct{}{}
 			}

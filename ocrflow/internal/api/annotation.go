@@ -162,6 +162,7 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 // @Param       description             query  string false "Description of the annotation"
 // @Param       segmented               query   bool false "Whether the annotations are segmented"
 // @Param       ocred                   query   bool false "Whether the annotations are OCRed"
+// @Param       lines_detected         query   bool false "Whether line detection was performed"
 // @Param       ground_truth            query  bool false "Whether the annotations are ground truth"
 // @Param       origin_annotation_id    query  string false "Origin annotation ID to copy applied rules from"
 // @Param        ocr_model_id          query     string  false  "Model ID that was used for OCR processing, only relevant if annotations are OCRed"
@@ -184,6 +185,10 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 	if err != nil {
 		segmented = false
 	}
+	linesDetected, err := strconv.ParseBool(r.FormValue("lines_detected"))
+	if err != nil {
+		linesDetected = false
+	}
 	ocred, err := strconv.ParseBool(r.FormValue("ocred"))
 	if err != nil {
 		ocred = false
@@ -199,6 +204,7 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 		Description:        r.FormValue("description"),
 		Segmented:          segmented,
 		Ocred:              ocred,
+		LinesDetected:      linesDetected,
 		GroundTruth:        groundTruth,
 		OriginAnnotationID: r.FormValue("origin_annotation_id"),
 		OCRModelID:         r.FormValue("ocr_model_id"),
@@ -218,6 +224,7 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 // @Param       description             query  string false "Description of the annotation"
 // @Param       segmented               query  bool false "Whether the annotations are segmented"
 // @Param       ocred                   query  bool false "Whether the annotations are OCRed"
+// @Param       lines_detected         query  bool false "Whether line detection was performed"
 // @Param       ground_truth            query  bool false "Whether the annotations are ground truth"
 // @Param       origin_annotation_id    query  string false "Origin annotation ID to copy applied rules from"
 // @Param        ocr_model_id          query     string  false  "Model ID that was used for OCR processing, only relevant if annotations are OCRed"
@@ -245,6 +252,10 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 	if err != nil {
 		segmented = false
 	}
+	linesDetected, err := strconv.ParseBool(r.FormValue("lines_detected"))
+	if err != nil {
+		linesDetected = false
+	}
 	ocred, err := strconv.ParseBool(r.FormValue("ocred"))
 	if err != nil {
 		ocred = false
@@ -260,6 +271,8 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 		Description:        r.FormValue("description"),
 		Segmented:          segmented,
 		Ocred:              ocred,
+		Hidden:             false,
+		LinesDetected:      linesDetected,
 		GroundTruth:        groundTruth,
 		OriginAnnotationID: r.FormValue("origin_annotation_id"),
 		OCRModelID:         r.FormValue("ocr_model_id"),

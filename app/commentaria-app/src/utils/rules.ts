@@ -7,7 +7,7 @@ import type {
   annotationrule_RemoveCategories,
   annotationrule_RemoveOverlap,
   annotationrule_ResolveOverlapWithPriority,
-  annotationrule_Segment,
+  annotationrule_ModelDetect,
   annotationrule_SlicePages,
   annotationrule_Stretch,
   annotationrule_TextBlockCorrections,
@@ -15,7 +15,7 @@ import type {
 } from '@hub-api'
 
 export type AnnotationRule = { type: string } & (
-  | annotationrule_Segment
+  | annotationrule_ModelDetect
   | annotationrule_SlicePages
   | annotationrule_Stretch
   | annotationrule_AddMargin
@@ -51,8 +51,8 @@ export const getRuleDisplayName = (rule: AnnotationRule): string => {
     } else if (sliceRule.random_pages) {
       details.push(`Random: ${sliceRule.random_pages} pages`)
     }
-  } else if (rule.type === 'segment') {
-    const segmentRule = rule as annotationrule_Segment
+  } else if (rule.type === 'model_detect') {
+    const segmentRule = rule as annotationrule_ModelDetect
     if (segmentRule.model) {
       details.push(`Model: ${segmentRule.model}`)
     }

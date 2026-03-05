@@ -12,6 +12,7 @@
         <p>Derived from extracted text lines</p>
       </sourceDesc>
     </fileDesc>
+    <standOff/>
   </teiHeader>
   <facsimile>
     <surface xml:id="page_page1" n="page1">

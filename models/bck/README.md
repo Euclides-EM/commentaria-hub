@@ -1,0 +1,3 @@
+These models were under the `ocrflow/store/models` directory, as part of my local app, and I commited them by mistake.
+To make the app cleaner for other users but preserve the commited files, I moved them to this directory, which is not used by the ap and removed the instances in `ocrflow/store/models` for git, so they will be ignored.
+These models can be deleted once I feel safe, it's just a backup for now.

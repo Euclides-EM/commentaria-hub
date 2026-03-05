@@ -37,6 +37,7 @@ type SortConfig = {
 }
 
 type GroundTruthFilter = 'all' | 'true' | 'false'
+type HiddenFilter = 'all' | 'true' | 'false'
 
 export function AnnotationsTable() {
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
@@ -59,6 +60,12 @@ export function AnnotationsTable() {
     useLocalStorageState<GroundTruthFilter>('annotationsGroundTruthFilter', {
       defaultValue: 'all',
     })
+  const [hiddenFilter, setHiddenFilter] = useLocalStorageState<HiddenFilter>(
+    'annotationsHiddenFilter',
+    {
+      defaultValue: 'false',
+    },
+  )
   const [sortConfig, setSortConfig] = useLocalStorageState<SortConfig>(
     'annotationsSort',
     {
@@ -145,24 +152,30 @@ export function AnnotationsTable() {
       if (!matchesGroundTruth) {
         return false
       }
+      const matchesHidden =
+        hiddenFilter === 'all' ||
+        (hiddenFilter === 'true'
+          ? !!row.annotation.hidden
+          : !row.annotation.hidden)
+      if (!matchesHidden) {
+        return false
+      }
       if (!trimmed) {
         return true
       }
       const haystack = [
         row.annotation.id,
         row.annotation.name,
+        row.annotation.description,
         row.datasetId,
         row.datasetName,
-        row.annotation.pages,
-        row.annotation.ground_truth ? 'ground truth' : 'not ground truth',
-        stage ? getStageDisplayName(stage) : 'none',
       ]
         .filter(Boolean)
         .join(' ')
         .toLowerCase()
       return haystack.includes(trimmed)
     })
-  }, [groundTruthFilter, rows, searchQuery, selectedStages])
+  }, [groundTruthFilter, hiddenFilter, rows, searchQuery, selectedStages])
 
   const filteredDatasetCount = useMemo(
     () => new Set(filteredRows.map((row) => row.datasetId)).size,
@@ -260,8 +273,8 @@ export function AnnotationsTable() {
 
   return (
     <div className="w-full h-full flex flex-col px-8">
-      <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white gap-4">
-        <div className="flex items-center gap-6">
+      <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white gap-4 cursor-default">
+        <div className="flex items-center gap-6 cursor-default">
           <div>
             <h2 className="text-lg font-semibold text-gray-900">Annotations</h2>
             <p className="text-xs text-gray-500">
@@ -287,18 +300,34 @@ export function AnnotationsTable() {
               getItemLabel={(stage) => getStageDisplayName(stage)}
             />
           )}
-          <select
-            value={groundTruthFilter}
-            onChange={(e) =>
-              setGroundTruthFilter(e.target.value as GroundTruthFilter)
-            }
-            className="h-8 rounded-md border border-gray-400 bg-white px-2 text-sm text-gray-700 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100"
-            aria-label="Filter by ground truth"
-          >
-            <option value="all">All</option>
-            <option value="true">Ground truth only</option>
-            <option value="false">Not ground truth</option>
-          </select>
+          <label className="flex items-center gap-2 text-sm text-gray-700 cursor-default">
+            <span>Ground truth</span>
+            <select
+              value={groundTruthFilter}
+              onChange={(e) =>
+                setGroundTruthFilter(e.target.value as GroundTruthFilter)
+              }
+              className="h-8 rounded-md border border-gray-400 bg-white px-2 text-sm text-gray-700 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100 cursor-pointer"
+              aria-label="Filter by ground truth"
+            >
+              <option value="all">All</option>
+              <option value="true">Ground truth only</option>
+              <option value="false">Not ground truth</option>
+            </select>
+          </label>
+          <label className="flex items-center gap-2 text-sm text-gray-700 cursor-default">
+            <span>Hidden</span>
+            <select
+              value={hiddenFilter}
+              onChange={(e) => setHiddenFilter(e.target.value as HiddenFilter)}
+              className="h-8 rounded-md border border-gray-400 bg-white px-2 text-sm text-gray-700 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100 cursor-pointer"
+              aria-label="Filter by hidden"
+            >
+              <option value="false">Not hidden</option>
+              <option value="all">All</option>
+              <option value="true">Hidden only</option>
+            </select>
+          </label>
         </div>
         <div className="flex items-center gap-2">
           <Button
@@ -352,7 +381,7 @@ export function AnnotationsTable() {
             filteredRows.length > 0 && (
               <div>
                 <div className="overflow-auto rounded-lg border border-gray-200 bg-white">
-                  <table className="min-w-full text-sm table-auto">
+                  <table className="min-w-full text-sm table-auto cursor-default">
                     <thead className="bg-gray-50 text-xs text-gray-500">
                       <tr>
                         <th className="px-4 py-3 text-left whitespace-nowrap">
@@ -412,7 +441,7 @@ export function AnnotationsTable() {
                       {sortedRows.map((row) => (
                         <tr
                           key={`${row.datasetId}:${row.annotation.id}`}
-                          className="hover:bg-gray-50"
+                          className="hover:bg-gray-50 cursor-default"
                         >
                           <td className="px-4 py-3 text-left whitespace-nowrap">
                             <input
@@ -448,7 +477,7 @@ export function AnnotationsTable() {
                           <td className="px-4 py-3 text-left whitespace-nowrap">
                             <button
                               type="button"
-                              className="block w-full text-left font-medium text-teal-700 hover:text-teal-900 hover:underline"
+                              className="inline text-left font-medium text-teal-700 hover:text-teal-900 hover:underline cursor-pointer"
                               onClick={() =>
                                 setState({
                                   datasetId: row.datasetId,
@@ -462,7 +491,7 @@ export function AnnotationsTable() {
                           <td className="px-4 py-3 text-left whitespace-nowrap">
                             <button
                               type="button"
-                              className="block w-full text-left text-teal-700 hover:text-teal-900 hover:underline"
+                              className="inline text-left text-teal-700 hover:text-teal-900 hover:underline cursor-pointer"
                               onClick={() =>
                                 setState({
                                   datasetId: row.datasetId,

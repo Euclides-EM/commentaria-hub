@@ -7,7 +7,6 @@ import (
 	"path"
 	"slices"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
@@ -126,6 +125,8 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		Segmented:          aum.Segmented,
 		GroundTruth:        aum.GroundTruth,
 		Ocred:              aum.Ocred,
+		LinesDetected:      aum.LinesDetected,
+		Hidden:             aum.Hidden,
 		OriginAnnotationID: aum.OriginAnnotationID,
 	}
 	if aum.OriginAnnotationID != "" {
@@ -138,7 +139,7 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		}
 	}
 	if aum.Segmented && aum.SegmentModelID != "" {
-		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewSegment(aum.SegmentModelID))
+		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewModelDetect(aum.SegmentModelID))
 	}
 	if aum.Ocred && aum.OCRModelID != "" {
 		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewDetectText(aum.OCRModelID))
@@ -348,6 +349,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *annotati
 	fromDB.Meta.Name = ann.Meta.Name
 	fromDB.Meta.Description = ann.Meta.Description
 	fromDB.GroundTruth = ann.GroundTruth
+	fromDB.Hidden = ann.Hidden
 	fromDB.OriginAnnotationID = ann.OriginAnnotationID
 
 	if err := a.annotationStore.UpdateAnnotation(fromDB); err != nil {
@@ -459,17 +461,17 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 	return toReview, nil
 }
 
-func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*model.AnnotationReference, error) {
+func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*annotation.Reference, error) {
 	anns1, err := a.annotationStore.ListAppliedRulesByAnnotationIDs()
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
-	modelToAnns := make(map[string][]*model.AnnotationReference)
+	modelToAnns := make(map[string][]*annotation.Reference)
 	for datasetID, anns := range anns1 {
 		for annID, appliedRules := range anns {
 			modelIDs := annotationrule.ExtractModelIDsFromRules(appliedRules)
 			for _, modelID := range modelIDs {
-				modelToAnns[modelID] = append(modelToAnns[modelID], &model.AnnotationReference{
+				modelToAnns[modelID] = append(modelToAnns[modelID], &annotation.Reference{
 					DatasetID: datasetID,
 					ID:        annID,
 				})
@@ -477,6 +479,14 @@ func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*model.Annota
 		}
 	}
 	return modelToAnns, nil
+}
+
+func (a *Annotation) ListAnnotationsByAnnotationReferences(refs []*annotation.Reference) ([]*annotation.Annotation, error) {
+	anns, err := a.annotationStore.ListAnnotationsByAnnotationReferences(refs)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
+	}
+	return anns, nil
 }
 
 func buildNodes(remainingCats []string, data []categoryPageContent) []*annotation.IndexNode {

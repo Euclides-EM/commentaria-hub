@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 from urllib import error, parse, request
 
-BASE_URL = "http://localhost:8085/api/v1"
+BASE_URL = "http://euclides.huma-num.fr/commentaria/api/v1"
 DATASET_NAME_SUFFIX = "Book_X_Transcriptions"
 TRANSCRIPTIONS_ROOT = (
         Path(__file__).resolve().parent.parent / "ocrflow" / "store" / "data" / "transcriptions"
@@ -163,6 +163,8 @@ def process_transcription_dir(
         "edition_id": edition_id,
         "facsimile_id": facsimile_id,
         "pages": pages_spec,
+        "denoise": False,
+        "deskew": False
     }
     try:
         created = api_request(

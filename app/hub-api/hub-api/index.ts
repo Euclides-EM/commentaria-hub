@@ -25,6 +25,7 @@ export type { annotationrule_KeepPosition } from './models/annotationrule_KeepPo
 export type { annotationrule_LimitCategoryZones } from './models/annotationrule_LimitCategoryZones';
 export type { annotationrule_LinesDetect } from './models/annotationrule_LinesDetect';
 export type { annotationrule_MetadataDetails } from './models/annotationrule_MetadataDetails';
+export type { annotationrule_ModelDetect } from './models/annotationrule_ModelDetect';
 export type { annotationrule_PipelineStage } from './models/annotationrule_PipelineStage';
 export type { annotationrule_ReassignTextLinesByTolerance } from './models/annotationrule_ReassignTextLinesByTolerance';
 export type { annotationrule_RecategorizeByAlignment } from './models/annotationrule_RecategorizeByAlignment';
@@ -32,7 +33,6 @@ export type { annotationrule_RecategorizeByAlignmentRelativeTo } from './models/
 export type { annotationrule_RemoveCategories } from './models/annotationrule_RemoveCategories';
 export type { annotationrule_RemoveOverlap } from './models/annotationrule_RemoveOverlap';
 export type { annotationrule_ResolveOverlapWithPriority } from './models/annotationrule_ResolveOverlapWithPriority';
-export type { annotationrule_Segment } from './models/annotationrule_Segment';
 export type { annotationrule_SlicePages } from './models/annotationrule_SlicePages';
 export type { annotationrule_Stretch } from './models/annotationrule_Stretch';
 export type { annotationrule_TextBlockCorrection } from './models/annotationrule_TextBlockCorrection';

@@ -69,8 +69,15 @@ func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
 			Segmented:          false,
 			GroundTruth:        false,
 			Ocred:              true,
+<<<<<<< HEAD
 			DatasetID:          titlePageDatasetID,
 			OriginAnnotationID: titlePageSourceAnnotationID,
+=======
+			Hidden:             false,
+			LinesDetected:      false,
+			DatasetID:          "tps",
+			OriginAnnotationID: "ann_1",
+>>>>>>> main
 		})
 		if err != nil {
 			return err

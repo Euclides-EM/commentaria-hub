@@ -209,6 +209,15 @@ curl -I http://127.0.0.1:8090/ || true
 curl -I http://127.0.0.1:8090/api/v1/ || true
 ````
 
+## Setup the FE permissions
+
+```bash
+sudo apt-get update
+sudo apt-get install -y acl
+
+sudo setfacl -m u:www-data:rx /srv/euclides
+```
+
 ## Configure Nginx Reverse Proxy
 
 Create the nginx site file:
@@ -273,6 +282,21 @@ server {
     }       
 
     # -----------------------------
+    # commentaria-hub & resource box FE apps
+    # -----------------------------
+    location = /hub { return 301 /hub/; }
+    location ^~ /hub/ {
+        alias /srv/euclides/projects/commentaria-hub/app/commentaria-app/dist/;
+        try_files $uri $uri/ /hub/index.html;
+    }
+    
+    location = /resourcebox { return 301 /resourcebox/; }
+    location ^~ /resourcebox/ {
+        alias /srv/euclides/projects/commentaria-hub/app/elements-resource-box/dist/;
+        try_files $uri $uri/ /resourcebox/index.html;
+    }
+    
+    # -----------------------------
     # default: eScriptorium on /
     # -----------------------------
     location / {
@@ -318,6 +342,9 @@ source ~/.bashrc
 git pull
 go generate ./...
 go build -tags nogocv -o /srv/euclides/bin/ocrflow-api ./cmd/ocrflow
+cd /srv/euclides/projects/commentaria-hub/app
+yarn
+yarn build:euclides:huma-num
 exit
 
 sudo systemctl restart commentaria-hub-api

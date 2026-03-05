@@ -69,6 +69,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	facsimileStore := store.NewFacsimileSql(sqlDB)
 	datasetStore := store.NewDatasetSQL(sqlDB, fileSystemManager)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
+	annotationGroupStore := store.NewAnnotationGroupSQL(sqlDB)
 	modelStore := store.NewModelSQL(sqlDB)
 	featureRevisionStore := store.NewFeatureRevisionSQL(sqlDB)
 	featureExecutionStore := store.NewFeatureExecutionStore(cache.NewCache())
@@ -79,7 +80,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
-	healthSvc := service.NewHealthService(sqlDB)
+	vcsMgtSvc := service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID("tps"))
+	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
@@ -88,6 +90,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, modelSvc, datasetStore, fileSystemManager, ghDownloader)
 	datasetImgSvc := service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, fileSystemManager, annotationStore)
+	annotationGroupSvc := service.NewAnnotationGroupService(annotationSvc, annotationGroupStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	featureProperty := service.NewFeatureProperty()
@@ -159,6 +162,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DatasetSvc:          datasetSvc,
 		DatasetImgSvc:       datasetImgSvc,
 		AnnotationSvc:       annotationSvc,
+		AnnotationGroupSvc:  annotationGroupSvc,
 		ModelSvc:            modelSvc,
 		TrainSvc:            trainSvc,
 		MetadataDetailsSvc:  metadataDetailsSvc,
@@ -175,7 +179,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DiagramCropsSvc:     diagramCropsSvc,
 		USTC:                service.NewUSTC(),
 		IntegrationJobSvc:   service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
-		VCSMgt:              service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID("tps")),
+		VCSMgt:              vcsMgtSvc,
 		BackupSvc:           bckSvc,
 	}
 

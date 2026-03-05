@@ -9,7 +9,9 @@ export type annotation_Annotation = {
     readonly dataset_id?: string;
     description?: string;
     ground_truth?: boolean;
+    hidden?: boolean;
     readonly id?: string;
+    readonly lines_detected?: boolean;
     name?: string;
     readonly ocred?: boolean;
     readonly origin_annotation_id?: string;

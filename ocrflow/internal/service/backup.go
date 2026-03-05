@@ -93,6 +93,7 @@ func (s *Backup) CreateBackup() (string, error) {
 	name := fmt.Sprintf("backup_%s.zip", ts)
 	dst := filepath.Join(s.backupdir, name)
 
+	log.Printf("creating backup in directory: %s", s.backupdir)
 	// Overwrite protection: if exists, add a monotonic suffix.
 	for fileExists(dst) {
 		return "", fmt.Errorf("backup: file already exists: %s", dst)
@@ -113,27 +114,32 @@ func (s *Backup) CreateBackup() (string, error) {
 	//   models/...       (contents of modelsDir)
 	//   items_metadata/... (contents of itemsMetadataDir)
 	//   db/<basename>    (dbPath file)
+	log.Printf("adding base data from %s to backup zip %s", s.baseDataDir, dst)
 	if err := addDirToZip(zw, s.baseDataDir, "base_data"); err != nil {
 		return "", err
 	}
+	log.Printf("adding models from %s to backup zip %s", s.modelsDir, dst)
 	if err := addDirToZip(zw, s.modelsDir, "models"); err != nil {
 		return "", err
 	}
+	log.Printf("adding items metadata from %s to backup zip %s", s.itemsMetadataDir, dst)
 	if err := addDirToZip(zw, s.itemsMetadataDir, "items_metadata"); err != nil {
 		return "", err
 	}
 	// Flush WAL into the main DB file before copying, so the backup contains all data.
 	// Without this, on systems using WAL mode only the main file is copied and recent writes are in the -wal file.
 	if s.checkpointDB != nil {
+		log.Printf("running checkpoint function before adding DB to backup zip %s", dst)
 		if err := s.checkpointDB(); err != nil {
 			return "", fmt.Errorf("create backup: checkpoint db: %w", err)
 		}
 	}
+	log.Printf("adding db from %s to backup zip %s", s.dbPath, dst)
 	if err := addFileToZip(zw, s.dbPath, filepath.Join("db", filepath.Base(s.dbPath))); err != nil {
 		return "", err
 	}
 
-	log.Printf("backup: created %s", dst)
+	log.Printf("backup created: %s", dst)
 
 	if err := s.ensureMaxBackups(); err != nil {
 		log.Printf("warning: failed to ensure max backups after creating backup from zip: %v", err)

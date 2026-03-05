@@ -175,7 +175,7 @@ export const ItemInfo = ({
                 <FaBookReader />
               </StyledAnchor>
             ))}
-            {showDiagramsLink && item.diagramsExtracted === "Yes" && (
+            {showDiagramsLink && item.diagramCropsAvailable && (
               <StyledAnchor
                 href={withAppBasePath(`/diagrams?key=${item.key}`)}
                 target="_blank"
