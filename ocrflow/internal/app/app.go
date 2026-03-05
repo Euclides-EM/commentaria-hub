@@ -69,6 +69,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	facsimileStore := store.NewFacsimileSql(sqlDB)
 	datasetStore := store.NewDatasetSQL(sqlDB, fileSystemManager)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
+	annotationGroupStore := store.NewAnnotationGroupSQL(sqlDB)
 	modelStore := store.NewModelSQL(sqlDB)
 	featureRevisionStore := store.NewFeatureRevisionSQL(sqlDB)
 	featureExecutionStore := store.NewFeatureExecutionStore(cache.NewCache())

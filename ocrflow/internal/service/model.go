@@ -9,6 +9,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
@@ -65,7 +66,7 @@ func (m *Model) Create(mo *model.Model, modelPath string) error {
 	return nil
 }
 
-func (m *Model) Upload(file multipart.File, filename, name, description string, baseAnnotations []*model.AnnotationReference, baseModelID string) (*model.Model, error) {
+func (m *Model) Upload(file multipart.File, filename, name, description string, baseAnnotations []*annotation.Reference, baseModelID string) (*model.Model, error) {
 	if filename == "" {
 		return nil, fmt.Errorf("empty filename")
 	}

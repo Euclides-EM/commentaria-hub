@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/samber/lo"
 )
 
@@ -33,7 +34,7 @@ func (h *Handlers) ListModels(r *http.Request) (any, error) {
 			if annIDs, ok := usedInAnnotations[m.ID]; ok {
 				m.UsedInAnnotations = annIDs
 			} else {
-				m.UsedInAnnotations = []*model.AnnotationReference{}
+				m.UsedInAnnotations = []*annotation.Reference{}
 			}
 		}
 	}
@@ -65,7 +66,7 @@ func (h *Handlers) UploadModel(r *http.Request) (any, error) {
 	}
 	defer file.Close()
 
-	var baseAnnotations []*model.AnnotationReference
+	var baseAnnotations []*annotation.Reference
 	for _, rawAnnID := range strings.Split(baseAnnotationsRaw, ",") {
 		trimmed := strings.TrimSpace(rawAnnID)
 		if trimmed == "" {
@@ -75,7 +76,7 @@ func (h *Handlers) UploadModel(r *http.Request) (any, error) {
 		if len(ids) != 2 {
 			return nil, fmt.Errorf("invalid annotation id, expected format <dataset_id>:<annotation_id>, got %s", trimmed)
 		}
-		baseAnnotations = append(baseAnnotations, &model.AnnotationReference{
+		baseAnnotations = append(baseAnnotations, &annotation.Reference{
 			DatasetID: ids[0],
 			ID:        ids[1],
 		})

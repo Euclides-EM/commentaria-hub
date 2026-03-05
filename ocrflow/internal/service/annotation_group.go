@@ -45,9 +45,38 @@ func (g *AnnotationGroup) Create(group *annotation.Group) (*annotation.Group, er
 		return nil, err
 	}
 
+	if err = g.verifyReferencedAnnotations(group.Annotations); err != nil {
+		return nil, fmt.Errorf("failed to verify annotation references: %w", err)
+	}
+
 	group.ID = idgen.GenerateID("anng")
 	group.Name = name.NextAvailable(existingGroupNames, group.Name)
 	return g.annotationGroupStore.Create(group)
+}
+
+func (g *AnnotationGroup) verifyReferencedAnnotations(refsInRequest []*annotation.Reference) error {
+	// check for duplicates in refsInRequest
+	if len(lo.UniqBy(refsInRequest, func(r *annotation.Reference) string {
+		return fmt.Sprintf("%s:%s", r.DatasetID, r.ID)
+	})) != len(refsInRequest) {
+		return errors.New("duplicate annotation references found in request")
+	}
+	refs, err := g.annotationSvc.ListAnnotationsByAnnotationReferences(refsInRequest)
+	if err != nil {
+		return err
+	}
+	if len(refs) != len(refsInRequest) {
+		var nonExistentIDs []*annotation.Reference
+		for _, id := range refsInRequest {
+			if !lo.ContainsBy(refs, func(r *annotation.Annotation) bool {
+				return r.ID == id.ID && r.DatasetID == id.DatasetID
+			}) {
+				nonExistentIDs = append(nonExistentIDs, id)
+			}
+		}
+		return fmt.Errorf("some annotation references do not exist: %v", nonExistentIDs)
+	}
+	return nil
 }
 
 func (g *AnnotationGroup) Update(id string, group *annotation.Group) (*annotation.Group, error) {
@@ -55,11 +84,16 @@ func (g *AnnotationGroup) Update(id string, group *annotation.Group) (*annotatio
 		return nil, err
 	}
 
+	if err := g.verifyReferencedAnnotations(group.Annotations); err != nil {
+		return nil, fmt.Errorf("failed to verify annotation references: %w", err)
+	}
+
 	existingGroupNames, err := g.getExistingGroupNames()
 	if err != nil {
 		return nil, err
 	}
 
+	group.ID = id
 	group.Name = name.NextAvailable(existingGroupNames, group.Name)
 	group.UpdatedAt = time.Now()
 
