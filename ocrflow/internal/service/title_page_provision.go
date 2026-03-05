@@ -12,9 +12,10 @@ import (
 )
 
 const (
-	titlePageDatasetID          = "tps"
-	titlePageSourceAnnotationID = "ann_1"
-	titlePageExperimentAnnID    = "ann_experiment"
+	titlePageDatasetID                = "tps"
+	titlePageSourceAnnotationID       = "ann_1"
+	titlePageExperimentAnnotationName = "ann_experiment"
+	titlePageCorpusName               = "tps_experiment"
 )
 
 type TitlePageProvision struct {
@@ -42,7 +43,7 @@ func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
 
 	tpsExpEditions, err := p.editionSvc.ListEditions(func(e any) bool {
 		edition := e.(*model.Edition)
-		return lo.Contains(edition.Corpus, "tps_experiment")
+		return lo.Contains(edition.Corpus, titlePageCorpusName)
 	}, nil, 0, 1000)
 	if err != nil {
 		return err
@@ -55,13 +56,18 @@ func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
 		return e.Key
 	})
 
-	tpsExperimentAnn, err := p.annotationSvc.Get(titlePageDatasetID, titlePageExperimentAnnID)
+	annotations, err := p.annotationSvc.ListAnnotations(titlePageDatasetID)
 	if err != nil {
+		return err
+	}
+	tpsExperimentAnn, found := lo.Find(annotations, func(ann *annotation.Annotation) bool {
+		return ann != nil && ann.Name == titlePageExperimentAnnotationName
+	})
+	if !found {
 		log.Printf("title page experiment annotation not found, creating it...")
 		tpsExperimentAnn, err = p.annotationSvc.Create(titlePageDatasetID, &annotation.Annotation{
 			Meta: common.Meta{
-				ID:   titlePageExperimentAnnID,
-				Name: "Title page experiment",
+				Name: titlePageExperimentAnnotationName,
 				Description: "Annotation used for the title page experiment. " +
 					"These annotations are automatically generated based on the metadata of the editions in the tps_experiment corpus during the server startup.",
 			},
@@ -69,15 +75,10 @@ func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
 			Segmented:          false,
 			GroundTruth:        false,
 			Ocred:              true,
-<<<<<<< HEAD
 			DatasetID:          titlePageDatasetID,
 			OriginAnnotationID: titlePageSourceAnnotationID,
-=======
 			Hidden:             false,
 			LinesDetected:      false,
-			DatasetID:          "tps",
-			OriginAnnotationID: "ann_1",
->>>>>>> main
 		})
 		if err != nil {
 			return err

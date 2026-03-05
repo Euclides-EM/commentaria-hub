@@ -77,7 +77,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 	}
 
 	// assign basic fields
-	ann.ID = lo.Ternary(ann.ID != "", ann.ID, idgen.GenerateID(store.AnnotationIDPrefix))
+	ann.ID = idgen.GenerateID(store.AnnotationIDPrefix)
 	ann.DatasetID = datasetID
 	ann.Name = name.NextAvailable(lo.Map(anns, func(a *annotation.Annotation, _ int) string { return a.Name }), ann.Name)
 
