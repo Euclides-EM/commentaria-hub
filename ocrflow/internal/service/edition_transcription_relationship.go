@@ -20,6 +20,15 @@ type EditionTranscription struct {
 	annotationSvc                      *Annotation
 }
 
+func NewEditionTranscription(editionPreferredTranscriptionStore *store.EditionPreferredAnnotationSql, editionsSvc *Edition, datasetSvc *Dataset, annotationSvc *Annotation) *EditionTranscription {
+	return &EditionTranscription{
+		editionPreferredTranscriptionStore: editionPreferredTranscriptionStore,
+		editionsSvc:                        editionsSvc,
+		datasetSvc:                         datasetSvc,
+		annotationSvc:                      annotationSvc,
+	}
+}
+
 func (r *EditionTranscription) ListTranscriptionsByEditionIDs(editions []string) ([]*model.EditionTranscription, error) {
 	if len(editions) == 0 {
 		return nil, errors.New("no editions provided")

@@ -38,5 +38,5 @@ func (h *Handlers) UpdateEditionTranscriptionsDetails(r *http.Request) (any, err
 	if err := DecodeBody(r, &req); err != nil {
 		return nil, err
 	}
-	return h.deps.EditionTranscriptionSvc.Update(editionID, req)
+	return h.deps.EditionTranscriptionSvc.Update(editionID, &req)
 }

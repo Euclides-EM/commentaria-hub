@@ -55,7 +55,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	log.Printf("finished app for backup/restore if needed")
 
 	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.TrainingDir(), env.ModelsDir(), env.DiagramsDir())
-	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir())
+	editionPreferredTranscriptionStore := store.NewEditionPreferredAnnotationSql(sqlDB)
+	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir(), editionPreferredTranscriptionStore.OnDeleteEdition)
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
 	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow")
 	if err != nil {
@@ -91,6 +92,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	datasetImgSvc := service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, fileSystemManager, annotationStore)
 	annotationGroupSvc := service.NewAnnotationGroupService(annotationSvc, annotationGroupStore)
+	editionTranscriptionSvc := service.NewEditionTranscription(editionPreferredTranscriptionStore, editionSvc, datasetSvc, annotationSvc)
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	featureProperty := service.NewFeatureProperty()
@@ -154,33 +156,34 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	log.Printf("finished updating title page annotations by metadata info")
 
 	deps := &api.Dependencies{
-		Env:                 env,
-		HealthSvc:           healthSvc,
-		EditionSvc:          editionSvc,
-		GeoSvc:              geoSvc,
-		FacsimileSvc:        facsimileSvc,
-		DatasetSvc:          datasetSvc,
-		DatasetImgSvc:       datasetImgSvc,
-		AnnotationSvc:       annotationSvc,
-		AnnotationGroupSvc:  annotationGroupSvc,
-		ModelSvc:            modelSvc,
-		TrainSvc:            trainSvc,
-		MetadataDetailsSvc:  metadataDetailsSvc,
-		MetaStoreManager:    metaStoreManager,
-		AnnotationsUploader: annotationUploader,
-		AnnotationTEI:       annotationTEI,
-		EditionTEI:          editionTEI,
-		AnnotationSearch:    annotationSearch,
-		FeatureSvc:          featureSvc,
-		FeatureRevisionSvc:  featureRevisionSvc,
-		FeatureResultSvc:    featureResultSvc,
-		FeatureExecutionSvc: featureExecutionSvc,
-		FeaturePropertySvc:  service.NewFeatureProperty(),
-		DiagramCropsSvc:     diagramCropsSvc,
-		USTC:                service.NewUSTC(),
-		IntegrationJobSvc:   service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
-		VCSMgt:              vcsMgtSvc,
-		BackupSvc:           bckSvc,
+		Env:                     env,
+		HealthSvc:               healthSvc,
+		EditionSvc:              editionSvc,
+		GeoSvc:                  geoSvc,
+		FacsimileSvc:            facsimileSvc,
+		DatasetSvc:              datasetSvc,
+		DatasetImgSvc:           datasetImgSvc,
+		AnnotationSvc:           annotationSvc,
+		AnnotationGroupSvc:      annotationGroupSvc,
+		ModelSvc:                modelSvc,
+		TrainSvc:                trainSvc,
+		MetadataDetailsSvc:      metadataDetailsSvc,
+		MetaStoreManager:        metaStoreManager,
+		AnnotationsUploader:     annotationUploader,
+		AnnotationTEI:           annotationTEI,
+		EditionTEI:              editionTEI,
+		EditionTranscriptionSvc: editionTranscriptionSvc,
+		AnnotationSearch:        annotationSearch,
+		FeatureSvc:              featureSvc,
+		FeatureRevisionSvc:      featureRevisionSvc,
+		FeatureResultSvc:        featureResultSvc,
+		FeatureExecutionSvc:     featureExecutionSvc,
+		FeaturePropertySvc:      service.NewFeatureProperty(),
+		DiagramCropsSvc:         diagramCropsSvc,
+		USTC:                    service.NewUSTC(),
+		IntegrationJobSvc:       service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
+		VCSMgt:                  vcsMgtSvc,
+		BackupSvc:               bckSvc,
 	}
 
 	router := api.NewRouter(deps)
