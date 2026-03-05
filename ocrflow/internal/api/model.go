@@ -26,7 +26,7 @@ func (h *Handlers) ListModels(r *http.Request) (any, error) {
 		return nil, err
 	}
 	if lo.Contains(expand, "used_in_annotations") {
-		usedInAnnotations, err := h.deps.AnnotationSvc.ListAnnotationIDsByUsedModels()
+		usedInAnnotations, err := h.deps.AnnotationSvc.ListAnnotationsByUsedModels()
 		if err != nil {
 			return nil, err
 		}

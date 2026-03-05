@@ -460,7 +460,7 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 	return toReview, nil
 }
 
-func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*annotation.Reference, error) {
+func (a *Annotation) ListAnnotationsByUsedModels() (map[string][]*annotation.Reference, error) {
 	anns1, err := a.annotationStore.ListAppliedRulesByAnnotationIDs()
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
@@ -482,6 +482,14 @@ func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*annotation.R
 
 func (a *Annotation) ListAnnotationsByAnnotationReferences(refs []*annotation.Reference) ([]*annotation.Annotation, error) {
 	anns, err := a.annotationStore.ListAnnotationsByAnnotationReferences(refs)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
+	}
+	return anns, nil
+}
+
+func (a *Annotation) ListAnnotationsByDatasetIDs(dsIDs []string) ([]*annotation.Annotation, error) {
+	anns, err := a.annotationStore.ListAnnotationsByDatasetIDs(dsIDs)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
