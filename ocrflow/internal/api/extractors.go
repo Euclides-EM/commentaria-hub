@@ -74,6 +74,14 @@ func extractJobID(r *http.Request) (string, error) {
 	return jobId, nil
 }
 
+func extractGroupId(request *http.Request) (string, error) {
+	groupId := request.PathValue("groupId")
+	if groupId == "" {
+		return "", fmt.Errorf("missing group ID")
+	}
+	return groupId, nil
+}
+
 func DecodeBody(r *http.Request, dst any) error {
 	dec := json.NewDecoder(r.Body)
 	if err := dec.Decode(dst); err != nil {

@@ -3,7 +3,7 @@ package integration
 import (
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 )
 
@@ -34,12 +34,12 @@ const (
 
 type Job struct {
 	common.Meta `json:",inline"`
-	Task        Task                       `json:"task"`
-	Target      *JobTarget                 `json:"target"`
-	Annotation  *model.AnnotationReference `json:"annotation,omitempty"`
-	Status      JobStatus                  `json:"status" readonly:"true"`
-	FinishedAt  *time.Time                 `json:"finished_at,omitempty" readonly:"true"`
-	Details     string                     `json:"details,omitempty"  readonly:"true"`
+	Task        Task                  `json:"task"`
+	Target      *JobTarget            `json:"target"`
+	Annotation  *annotation.Reference `json:"annotation,omitempty"`
+	Status      JobStatus             `json:"status" readonly:"true"`
+	FinishedAt  *time.Time            `json:"finished_at,omitempty" readonly:"true"`
+	Details     string                `json:"details,omitempty"  readonly:"true"`
 }
 
 type Jobs struct {

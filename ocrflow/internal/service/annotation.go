@@ -6,7 +6,6 @@ import (
 	"path"
 	"slices"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
@@ -461,17 +460,17 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 	return toReview, nil
 }
 
-func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*model.AnnotationReference, error) {
+func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*annotation.Reference, error) {
 	anns1, err := a.annotationStore.ListAppliedRulesByAnnotationIDs()
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
-	modelToAnns := make(map[string][]*model.AnnotationReference)
+	modelToAnns := make(map[string][]*annotation.Reference)
 	for datasetID, anns := range anns1 {
 		for annID, appliedRules := range anns {
 			modelIDs := annotationrule.ExtractModelIDsFromRules(appliedRules)
 			for _, modelID := range modelIDs {
-				modelToAnns[modelID] = append(modelToAnns[modelID], &model.AnnotationReference{
+				modelToAnns[modelID] = append(modelToAnns[modelID], &annotation.Reference{
 					DatasetID: datasetID,
 					ID:        annID,
 				})
@@ -479,6 +478,14 @@ func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*model.Annota
 		}
 	}
 	return modelToAnns, nil
+}
+
+func (a *Annotation) ListAnnotationsByAnnotationReferences(refs []*annotation.Reference) ([]*annotation.Annotation, error) {
+	anns, err := a.annotationStore.ListAnnotationsByAnnotationReferences(refs)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
+	}
+	return anns, nil
 }
 
 func buildNodes(remainingCats []string, data []categoryPageContent) []*annotation.IndexNode {
