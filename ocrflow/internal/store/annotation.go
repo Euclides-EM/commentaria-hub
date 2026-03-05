@@ -477,6 +477,55 @@ func (s *AnnotationSQL) DeleteAnnotation(datasetID string, annotationID string) 
 	return err
 }
 
+func (s *AnnotationSQL) ListAnnotationsByDatasetIDs(ds []string) ([]*annotation.Annotation, error) {
+	if len(ds) == 0 {
+		return []*annotation.Annotation{}, nil
+	}
+
+	placeholders := make([]string, 0, len(ds))
+	args := make([]any, 0, len(ds))
+	for _, datasetID := range ds {
+		placeholders = append(placeholders, "?")
+		args = append(args, datasetID)
+	}
+
+	query := fmt.Sprintf(`
+		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, lines_detected, hidden, dataset_id, origin_annotation_id
+		FROM annotations
+		WHERE dataset_id IN (%s)
+		ORDER BY created_at ASC
+	`, strings.Join(placeholders, ","))
+	rows, err := s.db.Query(query, args...)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var annotations []*annotation.Annotation
+	for rows.Next() {
+		a := &annotation.Annotation{}
+		if err := rows.Scan(
+			&a.ID,
+			&a.Name,
+			&a.Description,
+			&a.CreatedAt,
+			&a.UpdatedAt,
+			&a.Pages,
+			&a.Segmented,
+			&a.GroundTruth,
+			&a.Ocred,
+			&a.LinesDetected,
+			&a.Hidden,
+			&a.DatasetID,
+			&a.OriginAnnotationID,
+		); err != nil {
+			return nil, err
+		}
+		annotations = append(annotations, a)
+	}
+	return annotations, nil
+}
+
 func calculatePipelineStage(a *annotation.Annotation) annotationrule.PipelineStage {
 	s := annotationrule.PipelineStageRaw
 	if a.Ocred {

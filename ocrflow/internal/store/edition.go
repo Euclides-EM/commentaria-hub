@@ -22,6 +22,7 @@ import (
 type EditionCSV struct {
 	itemsMetadataDir string
 	cacheStore       *cache.Cache
+	onDelete         func(key string)
 }
 
 const (
@@ -47,10 +48,11 @@ var (
 	cacheWarmupError = fmt.Errorf("try again in a few moments when cache warmup is complete")
 )
 
-func NewEditionCSV(itemsMetadataDir string) *EditionCSV {
+func NewEditionCSV(itemsMetadataDir string, onDelete func(key string)) *EditionCSV {
 	return &EditionCSV{
 		itemsMetadataDir: itemsMetadataDir,
 		cacheStore:       cache.NewCache(),
+		onDelete:         onDelete,
 	}
 }
 
@@ -428,6 +430,7 @@ func (s *EditionCSV) DeleteEdition(key string) error {
 		return fmt.Errorf("Error deleting edition from cluster items: %v\n", err)
 	}
 	s.cacheStore.Delete(key)
+	s.onDelete(key)
 	return nil
 }
 
