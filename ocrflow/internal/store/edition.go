@@ -15,6 +15,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/csv"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/samber/lo"
 )
 
@@ -239,8 +240,8 @@ func (s *EditionCSV) upsertShelfmarks(ed *model.Edition) error {
 			"key":              ed.Key,
 			"volume":           vol,
 			"scan":             sh.Scan,
-			"title_page_img":   imageFilename(sh.TitlePageImg),
-			"frontispiece_img": imageFilename(sh.FrontispieceImg),
+			"title_page_img":   futils.SafeBase(sh.TitlePageImg),
+			"frontispiece_img": futils.SafeBase(sh.FrontispieceImg),
 			"annotations":      sh.Annotations,
 			"shelf_mark":       sh.Shelfmark,
 			"copyright":        sh.Copyright,
@@ -952,18 +953,6 @@ func splitNonEmpty(s string) []string {
 		}
 	}
 	return out
-}
-
-func imageFilename(v string) string {
-	v = strings.TrimSpace(v)
-	if v == "" {
-		return ""
-	}
-	base := filepath.Base(v)
-	if base == "." || base == string(filepath.Separator) {
-		return ""
-	}
-	return base
 }
 
 func rowToLocator(r map[string]string) *model.EditionLocator {

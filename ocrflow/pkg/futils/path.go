@@ -23,3 +23,15 @@ func SafeJoin(destRoot, relPath string) (string, error) {
 	}
 	return destAbs, nil
 }
+
+func SafeBase(v string) string {
+	v = strings.TrimSpace(v)
+	if v == "" {
+		return ""
+	}
+	base := filepath.Base(v)
+	if base == "." || base == string(filepath.Separator) {
+		return ""
+	}
+	return base
+}
