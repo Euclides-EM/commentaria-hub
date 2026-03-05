@@ -1,15 +1,24 @@
-import { useMemo, useState } from 'react'
+import { Fragment, useMemo, useState } from 'react'
 import { useQueries } from '@tanstack/react-query'
 import type {
   annotation_Annotation,
+  annotation_Group,
   annotationrule_PipelineStage,
 } from '@hub-api'
 import { AnnotationsService } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
+import {
+  useAnnotationGroupsQuery,
+  useCreateAnnotationGroupMutation,
+  useDeleteAnnotationGroupMutation,
+  useUpdateAnnotationGroupMutation,
+} from '../../queries/annotationGroups'
 import { useDatasetsQuery } from '../../queries/datasets'
 import { usePipelineStages } from '../../queries/metadata'
 import { getStageDisplayName } from '../../utils/stages'
 import { ExportAnnotationModal } from '../annotation/details/ExportAnnotationModal'
+import { CreateAnnotationGroupModal } from './CreateAnnotationGroupModal'
+import { AddToAnnotationGroupsModal } from './AddToAnnotationGroupsModal'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
@@ -37,13 +46,32 @@ type SortConfig = {
 
 type GroundTruthFilter = 'all' | 'true' | 'false'
 type HiddenFilter = 'all' | 'true' | 'false'
+type GroupSection = {
+  group: annotation_Group | null
+  rows: AnnotationRow[]
+}
+type AnnotationGroupWithId = annotation_Group & { id: string }
 
 export function AnnotationsTable() {
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { data: stages } = usePipelineStages()
+  const {
+    data: annotationGroups = [],
+    isLoading: annotationGroupsLoading,
+    error: annotationGroupsError,
+  } = useAnnotationGroupsQuery()
+  const createGroupMutation = useCreateAnnotationGroupMutation()
+  const updateGroupMutation = useUpdateAnnotationGroupMutation()
+  const deleteGroupMutation = useDeleteAnnotationGroupMutation()
   const { setState } = useAppState()
   const [isExportOpen, setIsExportOpen] = useState(false)
+  const [isCreateGroupOpen, setIsCreateGroupOpen] = useState(false)
+  const [isAddToGroupsOpen, setIsAddToGroupsOpen] = useState(false)
+  const [collapsedSections, setCollapsedSections] = useState<
+    Record<string, boolean>
+  >({})
   const [selectedTargets, setSelectedTargets] = useState<SelectedTargets>({})
+  const [groupActionError, setGroupActionError] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
     'annotationsSearch',
     {
@@ -72,6 +100,12 @@ export function AnnotationsTable() {
         key: 'updated',
         direction: 'desc',
       },
+    },
+  )
+  const [groupingEnabled, setGroupingEnabled] = useLocalStorageState<boolean>(
+    'annotationsGroupingEnabled',
+    {
+      defaultValue: false,
     },
   )
 
@@ -234,11 +268,230 @@ export function AnnotationsTable() {
 
   const selectedCount = Object.keys(effectiveSelectedTargets).length
   const selectedRows = Object.values(effectiveSelectedTargets)
+  const selectedReferences = useMemo(
+    () =>
+      selectedRows.map((target) => ({
+        dataset_id: target.datasetId,
+        id: target.annotationId,
+      })),
+    [selectedRows],
+  )
   const allVisibleSelected =
     sortedRows.length > 0 &&
     sortedRows.every(
       (row) => effectiveSelectedTargets[rowKey(row)] !== undefined,
     )
+  const isGroupMutationPending =
+    createGroupMutation.isPending ||
+    updateGroupMutation.isPending ||
+    deleteGroupMutation.isPending
+
+  const sortedGroups = useMemo(
+    () =>
+      [...annotationGroups].sort((a, b) =>
+        (a.name || a.id || '').localeCompare(b.name || b.id || ''),
+      ),
+    [annotationGroups],
+  )
+  const groupOptions = useMemo<AnnotationGroupWithId[]>(
+    () =>
+      sortedGroups.filter(
+        (group): group is AnnotationGroupWithId =>
+          typeof group.id === 'string' && group.id.length > 0,
+      ),
+    [sortedGroups],
+  )
+  const groupOptionItems = useMemo(
+    () =>
+      groupOptions.map((group) => ({
+        id: group.id,
+        label: group.name || group.id,
+      })),
+    [groupOptions],
+  )
+
+  const groupsByRowKey = useMemo(() => {
+    const map = new Map<string, annotation_Group[]>()
+    sortedGroups.forEach((group) => {
+      ;(group.annotations || []).forEach((ref) => {
+        if (!ref.dataset_id || !ref.id) {
+          return
+        }
+        const key = `${ref.dataset_id}:${ref.id}`
+        const existing = map.get(key)
+        if (existing) {
+          existing.push(group)
+          return
+        }
+        map.set(key, [group])
+      })
+    })
+    return map
+  }, [sortedGroups])
+
+  const groupedSections = useMemo<GroupSection[]>(() => {
+    const rowsByGroupId = new Map<string, AnnotationRow[]>()
+    const ungrouped: AnnotationRow[] = []
+    sortedRows.forEach((row) => {
+      const groups = (groupsByRowKey.get(rowKey(row)) || []).filter(
+        (group) => !!group.id,
+      )
+      if (!groups.length) {
+        ungrouped.push(row)
+        return
+      }
+      groups.forEach((group) => {
+        if (!group.id) {
+          return
+        }
+        const existingRows = rowsByGroupId.get(group.id)
+        if (existingRows) {
+          existingRows.push(row)
+          return
+        }
+        rowsByGroupId.set(group.id, [row])
+      })
+    })
+    const result: GroupSection[] = sortedGroups
+      .filter((group) => group.id && (rowsByGroupId.get(group.id) || []).length)
+      .map((group) => ({
+        group,
+        rows: rowsByGroupId.get(group.id!) || [],
+      }))
+    if (ungrouped.length > 0) {
+      result.push({
+        group: null,
+        rows: ungrouped,
+      })
+    }
+    return result
+  }, [groupsByRowKey, sortedGroups, sortedRows])
+
+  const mergeAnnotationReferences = (
+    existing: Array<{ dataset_id?: string; id?: string }>,
+    additions: Array<{ dataset_id?: string; id?: string }>,
+  ) => {
+    const merged = new Map<string, { dataset_id: string; id: string }>()
+    ;[...existing, ...additions].forEach((ref) => {
+      if (!ref.dataset_id || !ref.id) {
+        return
+      }
+      merged.set(`${ref.dataset_id}:${ref.id}`, {
+        dataset_id: ref.dataset_id,
+        id: ref.id,
+      })
+    })
+    return [...merged.values()]
+  }
+
+  const getErrorMessage = (value: unknown) =>
+    value instanceof Error ? value.message : String(value)
+
+  const handleAddSelectedToGroups = async (groupIds: string[]) => {
+    if (groupIds.length === 0 || selectedReferences.length === 0) {
+      return
+    }
+    try {
+      setGroupActionError(null)
+      for (const groupId of groupIds) {
+        const group = groupOptions.find((item) => item.id === groupId)
+        if (!group) {
+          continue
+        }
+        await updateGroupMutation.mutateAsync({
+          groupId: group.id,
+          group: {
+            ...group,
+            annotations: mergeAnnotationReferences(
+              group.annotations || [],
+              selectedReferences,
+            ),
+          },
+        })
+      }
+      setSelectedTargets({})
+      setIsAddToGroupsOpen(false)
+    } catch (error) {
+      setGroupActionError(getErrorMessage(error))
+    }
+  }
+
+  const handleCreateGroupFromSelected = async ({
+    name,
+    description,
+  }: {
+    name: string
+    description?: string
+  }) => {
+    if (selectedReferences.length === 0) {
+      setGroupActionError('Select at least one annotation.')
+      return
+    }
+    try {
+      setGroupActionError(null)
+      await createGroupMutation.mutateAsync({
+        name,
+        description,
+        annotations: selectedReferences,
+      })
+      setSelectedTargets({})
+      setIsCreateGroupOpen(false)
+    } catch (error) {
+      setGroupActionError(getErrorMessage(error))
+    }
+  }
+
+  const handleUngroup = async (group: annotation_Group | null) => {
+    if (!group?.id) {
+      return
+    }
+    try {
+      setGroupActionError(null)
+      await deleteGroupMutation.mutateAsync(group.id)
+    } catch (error) {
+      setGroupActionError(getErrorMessage(error))
+    }
+  }
+
+  const handleRemoveFromGroup = async (
+    row: AnnotationRow,
+    group: annotation_Group | null,
+  ) => {
+    if (!group?.id || !row.annotation.id) {
+      return
+    }
+    try {
+      setGroupActionError(null)
+      await updateGroupMutation.mutateAsync({
+        groupId: group.id,
+        group: {
+          ...group,
+          annotations: (group.annotations || []).filter(
+            (ref) =>
+              !(
+                ref.dataset_id === row.datasetId && ref.id === row.annotation.id
+              ),
+          ),
+        },
+      })
+    } catch (error) {
+      setGroupActionError(getErrorMessage(error))
+    }
+  }
+
+  const getSectionKey = (section: GroupSection) =>
+    section.group?.id || '__annotations-ungrouped'
+
+  const isSectionCollapsed = (section: GroupSection) =>
+    collapsedSections[getSectionKey(section)] === true
+
+  const toggleSectionCollapsed = (section: GroupSection) => {
+    const key = getSectionKey(section)
+    setCollapsedSections((current) => ({
+      ...current,
+      [key]: !current[key],
+    }))
+  }
 
   const toggleSort = (key: SortKey) => {
     setSortConfig((current) => {
@@ -270,11 +523,114 @@ export function AnnotationsTable() {
     )
   }
 
+  const columnCount = groupingEnabled ? 8 : 7
+
+  const renderRow = (row: AnnotationRow, group: annotation_Group | null) => (
+    <tr
+      key={
+        groupingEnabled
+          ? `${group?.id || 'ungrouped'}:${row.datasetId}:${row.annotation.id}`
+          : `${row.datasetId}:${row.annotation.id}`
+      }
+      className="hover:bg-gray-50 cursor-default"
+    >
+      <td className="px-4 py-3 text-left whitespace-nowrap">
+        <input
+          type="checkbox"
+          checked={effectiveSelectedTargets[rowKey(row)] !== undefined}
+          onChange={(e) => {
+            if (!row.annotation.id) {
+              return
+            }
+            const key = rowKey(row)
+            setSelectedTargets((current) => {
+              const next = pruneSelectedTargets(current)
+              if (e.target.checked) {
+                return {
+                  ...next,
+                  [key]: {
+                    datasetId: row.datasetId,
+                    annotationId: row.annotation.id!,
+                  },
+                }
+              }
+              delete next[key]
+              return next
+            })
+          }}
+          className="h-4 w-4"
+          aria-label={`Select ${row.annotation.name || row.annotation.id}`}
+        />
+      </td>
+      <td className="px-4 py-3 text-left whitespace-nowrap">
+        <button
+          type="button"
+          className="inline text-left font-medium text-teal-700 hover:text-teal-900 hover:underline cursor-pointer"
+          onClick={() =>
+            setState({
+              datasetId: row.datasetId,
+              annotationId: row.annotation.id || '',
+            })
+          }
+        >
+          {row.annotation.name || row.annotation.id}
+        </button>
+      </td>
+      <td className="px-4 py-3 text-left whitespace-nowrap">
+        <button
+          type="button"
+          className="inline text-left text-teal-700 hover:text-teal-900 hover:underline cursor-pointer"
+          onClick={() =>
+            setState({
+              datasetId: row.datasetId,
+              annotationId: '',
+            })
+          }
+        >
+          {row.datasetName}
+        </button>
+      </td>
+      <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
+        {row.annotation.pipeline_stage
+          ? getStageDisplayName(row.annotation.pipeline_stage)
+          : 'None'}
+      </td>
+      <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
+        {row.annotation.ground_truth ? 'Yes' : 'No'}
+      </td>
+      <td className="px-4 py-3 text-gray-700 w-full">
+        {row.annotation.pages || 'N/A'}
+      </td>
+      <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
+        <Timestamp
+          hideFullDate
+          date={row.annotation.updated_at || row.annotation.created_at}
+        />
+      </td>
+      {groupingEnabled && (
+        <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
+          {group?.id ? (
+            <Button
+              type="button"
+              onClick={() => void handleRemoveFromGroup(row, group)}
+              disabled={isGroupMutationPending}
+              className="px-2 py-1 text-xs"
+            >
+              Remove
+            </Button>
+          ) : (
+            <span className="text-gray-400">-</span>
+          )}
+        </td>
+      )}
+    </tr>
+  )
+
   return (
     <div className="w-full h-full flex flex-col px-8">
-      <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white gap-4 cursor-default">
-        <div className="flex items-center gap-6 cursor-default">
-          <div>
+      <div className="px-6 py-4 border-b border-gray-200 bg-white cursor-default">
+        <div className="flex flex-wrap items-center gap-4">
+          <div className="mr-2">
             <h2 className="text-lg font-semibold text-gray-900">Annotations</h2>
             <p className="text-xs text-gray-500">
               {filteredRows.length}
@@ -328,7 +684,40 @@ export function AnnotationsTable() {
             </select>
           </label>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={groupingEnabled}
+              onChange={(e) => setGroupingEnabled(e.target.checked)}
+              className="h-4 w-4"
+            />
+            Group by groups
+          </label>
+          {groupOptions.length > 0 && (
+            <Button
+              type="button"
+              onClick={() => {
+                setGroupActionError(null)
+                setIsAddToGroupsOpen(true)
+              }}
+              disabled={selectedCount === 0 || isGroupMutationPending}
+              className="px-3 py-1.5 text-sm"
+            >
+              Add to groups
+            </Button>
+          )}
+          <Button
+            type="button"
+            onClick={() => {
+              setGroupActionError(null)
+              setIsCreateGroupOpen(true)
+            }}
+            disabled={selectedCount === 0 || isGroupMutationPending}
+            className="px-3 py-1.5 text-sm"
+          >
+            New group
+          </Button>
           <Button
             type="button"
             onClick={() => setIsExportOpen(true)}
@@ -352,6 +741,21 @@ export function AnnotationsTable() {
                 message={
                   queryErrorMessage ||
                   "Failed to load one or more datasets' annotations."
+                }
+              />
+            </div>
+          )}
+          {((annotationGroupsError &&
+            !annotationGroupsLoading &&
+            !groupActionError) ||
+            groupActionError) && (
+            <div className="mb-4">
+              <ErrorMessage
+                message={
+                  groupActionError ||
+                  (annotationGroupsError instanceof Error
+                    ? annotationGroupsError.message
+                    : String(annotationGroupsError))
                 }
               />
             </div>
@@ -434,97 +838,86 @@ export function AnnotationsTable() {
                         <th className="px-4 py-3 text-left whitespace-nowrap">
                           {renderSortHeader('Updated', 'updated')}
                         </th>
+                        {groupingEnabled && (
+                          <th className="px-4 py-3 text-left whitespace-nowrap">
+                            Group action
+                          </th>
+                        )}
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
-                      {sortedRows.map((row) => (
-                        <tr
-                          key={`${row.datasetId}:${row.annotation.id}`}
-                          className="hover:bg-gray-50 cursor-default"
-                        >
-                          <td className="px-4 py-3 text-left whitespace-nowrap">
-                            <input
-                              type="checkbox"
-                              checked={
-                                effectiveSelectedTargets[rowKey(row)] !==
-                                undefined
-                              }
-                              onChange={(e) => {
-                                if (!row.annotation.id) {
-                                  return
-                                }
-                                const key = rowKey(row)
-                                setSelectedTargets((current) => {
-                                  const next = pruneSelectedTargets(current)
-                                  if (e.target.checked) {
-                                    return {
-                                      ...next,
-                                      [key]: {
-                                        datasetId: row.datasetId,
-                                        annotationId: row.annotation.id!,
-                                      },
-                                    }
-                                  }
-                                  delete next[key]
-                                  return next
-                                })
-                              }}
-                              className="h-4 w-4"
-                              aria-label={`Select ${row.annotation.name || row.annotation.id}`}
-                            />
-                          </td>
-                          <td className="px-4 py-3 text-left whitespace-nowrap">
-                            <button
-                              type="button"
-                              className="inline text-left font-medium text-teal-700 hover:text-teal-900 hover:underline cursor-pointer"
-                              onClick={() =>
-                                setState({
-                                  datasetId: row.datasetId,
-                                  annotationId: row.annotation.id || '',
-                                })
+                      {groupingEnabled
+                        ? groupedSections.map((section) => (
+                            <Fragment
+                              key={
+                                section.group?.id || '__annotations-ungrouped'
                               }
                             >
-                              {row.annotation.name || row.annotation.id}
-                            </button>
-                          </td>
-                          <td className="px-4 py-3 text-left whitespace-nowrap">
-                            <button
-                              type="button"
-                              className="inline text-left text-teal-700 hover:text-teal-900 hover:underline cursor-pointer"
-                              onClick={() =>
-                                setState({
-                                  datasetId: row.datasetId,
-                                  annotationId: '',
-                                })
-                              }
-                            >
-                              {row.datasetName}
-                            </button>
-                          </td>
-                          <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
-                            {row.annotation.pipeline_stage
-                              ? getStageDisplayName(
-                                  row.annotation.pipeline_stage,
-                                )
-                              : 'None'}
-                          </td>
-                          <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
-                            {row.annotation.ground_truth ? 'Yes' : 'No'}
-                          </td>
-                          <td className="px-4 py-3 text-gray-700 w-full">
-                            {row.annotation.pages || 'N/A'}
-                          </td>
-                          <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
-                            <Timestamp
-                              hideFullDate
-                              date={
-                                row.annotation.updated_at ||
-                                row.annotation.created_at
-                              }
-                            />
-                          </td>
-                        </tr>
-                      ))}
+                              <tr className="bg-gray-100">
+                                <td
+                                  colSpan={columnCount - 1}
+                                  className="px-4 py-2 text-xs text-gray-700"
+                                >
+                                  <div className="flex items-center gap-2 min-w-0">
+                                    <button
+                                      type="button"
+                                      onClick={() =>
+                                        toggleSectionCollapsed(section)
+                                      }
+                                      className="h-6 w-6 inline-flex items-center justify-center rounded border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+                                      aria-label={
+                                        isSectionCollapsed(section)
+                                          ? 'Expand group'
+                                          : 'Collapse group'
+                                      }
+                                      title={
+                                        isSectionCollapsed(section)
+                                          ? 'Expand'
+                                          : 'Collapse'
+                                      }
+                                    >
+                                      <span className="text-sm leading-none">
+                                        {isSectionCollapsed(section)
+                                          ? '▶'
+                                          : '▼'}
+                                      </span>
+                                    </button>
+                                    <div className="font-semibold truncate">
+                                      {section.group
+                                        ? section.group.name || section.group.id
+                                        : 'Ungrouped'}
+                                      <span className="ml-2 font-normal text-gray-500">
+                                        ({section.rows.length})
+                                      </span>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td className="px-4 py-2 text-right sticky right-0 bg-gray-100 z-10">
+                                  {section.group ? (
+                                    <Button
+                                      type="button"
+                                      variant="danger"
+                                      onClick={() =>
+                                        void handleUngroup(section.group)
+                                      }
+                                      disabled={
+                                        isGroupMutationPending ||
+                                        !section.group.id
+                                      }
+                                      className="px-2 py-1 text-xs"
+                                    >
+                                      Ungroup
+                                    </Button>
+                                  ) : null}
+                                </td>
+                              </tr>
+                              {!isSectionCollapsed(section) &&
+                                section.rows.map((row) =>
+                                  renderRow(row, section.group),
+                                )}
+                            </Fragment>
+                          ))
+                        : sortedRows.map((row) => renderRow(row, null))}
                     </tbody>
                   </table>
                 </div>
@@ -536,6 +929,30 @@ export function AnnotationsTable() {
         isOpen={isExportOpen}
         onClose={() => setIsExportOpen(false)}
         exportTargets={selectedRows}
+        onSuccess={() => setSelectedTargets({})}
+      />
+      <CreateAnnotationGroupModal
+        isOpen={isCreateGroupOpen}
+        selectedCount={selectedCount}
+        isSubmitting={createGroupMutation.isPending}
+        error={groupActionError}
+        onClose={() => {
+          setGroupActionError(null)
+          setIsCreateGroupOpen(false)
+        }}
+        onCreate={handleCreateGroupFromSelected}
+      />
+      <AddToAnnotationGroupsModal
+        isOpen={isAddToGroupsOpen}
+        selectedCount={selectedCount}
+        groups={groupOptionItems}
+        isSubmitting={updateGroupMutation.isPending}
+        error={groupActionError}
+        onClose={() => {
+          setGroupActionError(null)
+          setIsAddToGroupsOpen(false)
+        }}
+        onSubmit={handleAddSelectedToGroups}
       />
     </div>
   )

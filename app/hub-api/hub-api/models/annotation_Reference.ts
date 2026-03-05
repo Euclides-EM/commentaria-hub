@@ -2,7 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_AnnotationReference = {
+export type annotation_Reference = {
     dataset_id?: string;
     id?: string;
 };

@@ -205,11 +205,14 @@ const getCertaintyDegreeByTargetId = (doc: Document) => {
   return out
 }
 
-const getElementCertaintyDegree = (element: Element, opts: ReadingOptions) => {
+const getElementCertaintyDegree = (
+  element: Element,
+  opts: ReadingOptions,
+): number | null => {
   const targetId = getXmlId(element)
   if (targetId) {
     const byTargetIdDegree = opts.certaintyDegreeByTargetId?.get(targetId)
-    if (Number.isFinite(byTargetIdDegree)) {
+    if (byTargetIdDegree != null && Number.isFinite(byTargetIdDegree)) {
       return byTargetIdDegree
     }
   }
