@@ -89,6 +89,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, modelSvc, datasetStore, fileSystemManager, ghDownloader)
 	datasetImgSvc := service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, fileSystemManager, annotationStore)
+	annotationGroupSvc := service.NewAnnotationGroupService(annotationSvc, annotationGroupStore)
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	featureProperty := service.NewFeatureProperty()
@@ -160,6 +161,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DatasetSvc:          datasetSvc,
 		DatasetImgSvc:       datasetImgSvc,
 		AnnotationSvc:       annotationSvc,
+		AnnotationGroupSvc:  annotationGroupSvc,
 		ModelSvc:            modelSvc,
 		TrainSvc:            trainSvc,
 		MetadataDetailsSvc:  metadataDetailsSvc,

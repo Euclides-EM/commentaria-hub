@@ -3,6 +3,7 @@ package api
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"net/http"
 )
 
@@ -72,6 +73,14 @@ func extractJobID(r *http.Request) (string, error) {
 		return "", fmt.Errorf("missing job ID")
 	}
 	return jobId, nil
+}
+
+func extractGroupId(request *http.Request) (string, error) {
+	groupId := request.PathValue("groupId")
+	if groupId == "" {
+		return nil, fmt.Errorf("missing group ID")
+	}
+	return groupId, nil
 }
 
 func DecodeBody(r *http.Request, dst any) error {
