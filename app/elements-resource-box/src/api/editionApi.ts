@@ -6,6 +6,7 @@ import { sampleSize } from "lodash";
 export const upsertEdition = async (
   data: model_Edition,
   images: Record<string, File>,
+  options?: { isNew?: boolean },
 ): Promise<void> => {
   console.log("Upserting edition:", data);
 
@@ -69,11 +70,10 @@ export const upsertEdition = async (
 
   await Promise.all(uploads);
 
-  try {
-    await EditionsService.getEditions({ editionId: data.key! });
-    await EditionsService.putEditions({ editionId: data.key!, edition: data });
-  } catch {
+  if (options?.isNew) {
     await EditionsService.postEditions({ edition: data });
+  } else {
+    await EditionsService.putEditions({ editionId: data.key!, edition: data });
   }
 };
 
