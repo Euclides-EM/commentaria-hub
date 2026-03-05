@@ -521,6 +521,7 @@ func (s *AnnotationSQL) ListAnnotationsByDatasetIDs(ds []string) ([]*annotation.
 		); err != nil {
 			return nil, err
 		}
+		annotations = append(annotations, a)
 	}
 	return annotations, nil
 }

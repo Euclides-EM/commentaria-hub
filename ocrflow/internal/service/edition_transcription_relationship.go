@@ -72,19 +72,27 @@ func (r *EditionTranscription) ListTranscriptionsByEditionIDs(editions []string)
 
 	var out []*model.EditionTranscription
 	for _, edition := range editions {
-		preferredAnnRef := preferredAnnRefsByEdition[edition]
-		if preferredAnnRef == nil {
+		preferredAnnRef, ok := preferredAnnRefsByEdition[edition]
+		preferredAnnSource := model.EditionTranscriptionPreferredAnnotationSourceManual
+		if !ok {
 			preferredAnnRef, err = r.getPreferredAnnotationByHeuristics(dsByEditions[edition])
+			preferredAnnSource = model.EditionTranscriptionPreferredAnnotationSourceCalculated
 			if err != nil {
 				return nil, fmt.Errorf("failed to get preferred annotation by heuristics for edition %s: %w", edition, err)
 			}
 		}
 
-		out = append(out, &model.EditionTranscription{
-			EditionID:           edition,
-			Datasets:            lo.Map(dsByEditions[edition], func(ds *model.Dataset, _ int) string { return ds.ID }),
-			PreferredAnnotation: preferredAnnRef,
-		})
+		editionTranscription := &model.EditionTranscription{
+			EditionID: edition,
+			Datasets:  lo.Map(dsByEditions[edition], func(ds *model.Dataset, _ int) string { return ds.ID }),
+		}
+		if preferredAnnRef != nil {
+			editionTranscription.PreferredAnnotation = &model.EditionTranscriptionPreferredAnnotation{
+				Reference: *preferredAnnRef,
+				Source:    preferredAnnSource,
+			}
+		}
+		out = append(out, editionTranscription)
 	}
 
 	return out, nil
@@ -151,7 +159,8 @@ func (r *EditionTranscription) getPreferredAnnotationByHeuristics(datasets []*mo
 		return 0
 	})
 
-	return &annotation.Reference{DatasetID: anns[0].DatasetID, ID: anns[0].ID}, nil
+	preferredAnn := anns[len(anns)-1]
+	return &annotation.Reference{DatasetID: preferredAnn.DatasetID, ID: preferredAnn.ID}, nil
 }
 
 func (r *EditionTranscription) Update(editionID string, et *model.EditionTranscription) (*model.EditionTranscription, error) {
@@ -173,12 +182,15 @@ func (r *EditionTranscription) Update(editionID string, et *model.EditionTranscr
 		return nil, fmt.Errorf("failed to get annotation with dataset ID %s and annotation ID %s: %w", et.PreferredAnnotation.DatasetID, et.PreferredAnnotation.ID, err)
 	}
 
-	existing.PreferredAnnotation = &annotation.Reference{
-		DatasetID: ann.DatasetID,
-		ID:        ann.ID,
+	existing.PreferredAnnotation = &model.EditionTranscriptionPreferredAnnotation{
+		Reference: annotation.Reference{
+			DatasetID: ann.DatasetID,
+			ID:        ann.ID,
+		},
+		Source: model.EditionTranscriptionPreferredAnnotationSourceManual,
 	}
 
-	err = r.editionPreferredTranscriptionStore.UpsertEditionPreferredTranscription(editionID, existing.PreferredAnnotation)
+	err = r.editionPreferredTranscriptionStore.UpsertEditionPreferredTranscription(editionID, &existing.PreferredAnnotation.Reference)
 	if err != nil {
 		return nil, fmt.Errorf("failed to upsert preferred annotation for edition ID %s: %w", editionID, err)
 	}

@@ -55,8 +55,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	log.Printf("finished app for backup/restore if needed")
 
 	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.TrainingDir(), env.ModelsDir(), env.DiagramsDir())
-	editionPreferredTranscriptionStore := store.NewEditionPreferredAnnotationSql(sqlDB)
-	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir(), editionPreferredTranscriptionStore.OnDeleteEdition)
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
 	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow")
 	if err != nil {
@@ -67,6 +65,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		_, err := sqlDB.Exec("PRAGMA wal_checkpoint(FULL)")
 		return err
 	})
+	editionPreferredTranscriptionStore := store.NewEditionPreferredAnnotationSql(sqlDB)
+	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir(), editionPreferredTranscriptionStore.OnDeleteEdition)
 	facsimileStore := store.NewFacsimileSql(sqlDB)
 	datasetStore := store.NewDatasetSQL(sqlDB, fileSystemManager)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
