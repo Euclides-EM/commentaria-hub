@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/samber/lo"
 )
 
@@ -305,7 +306,7 @@ func (s *ModelSQL) insertModelCategoriesTx(tx *sql.Tx, modelID string, categorie
 	return nil
 }
 
-func (s *ModelSQL) listModelBaseAnnotations(modelID string) ([]*model.AnnotationReference, error) {
+func (s *ModelSQL) listModelBaseAnnotations(modelID string) ([]*annotation.Reference, error) {
 	rows, err := s.db.Query(`
 		SELECT dataset_id, annotation_id
 		FROM models_base_annotations
@@ -317,9 +318,9 @@ func (s *ModelSQL) listModelBaseAnnotations(modelID string) ([]*model.Annotation
 	}
 	defer rows.Close()
 
-	var refs []*model.AnnotationReference
+	var refs []*annotation.Reference
 	for rows.Next() {
-		r := &model.AnnotationReference{}
+		r := &annotation.Reference{}
 		if err := rows.Scan(&r.DatasetID, &r.ID); err != nil {
 			return nil, err
 		}
@@ -333,7 +334,7 @@ func (s *ModelSQL) listModelBaseAnnotations(modelID string) ([]*model.Annotation
 	return refs, nil
 }
 
-func (s *ModelSQL) insertModelBaseAnnotationsTx(tx *sql.Tx, modelID string, refs []*model.AnnotationReference) error {
+func (s *ModelSQL) insertModelBaseAnnotationsTx(tx *sql.Tx, modelID string, refs []*annotation.Reference) error {
 	for _, r := range refs {
 		if r == nil {
 			continue

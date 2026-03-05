@@ -17,6 +17,7 @@ type Dependencies struct {
 	DatasetSvc          *service.Dataset
 	DatasetImgSvc       *service.DatasetImg
 	AnnotationSvc       *service.Annotation
+	AnnotationGroupSvc  *service.AnnotationGroup
 	ModelSvc            *service.Model
 	TrainSvc            *service.Train
 	MetadataDetailsSvc  *service.MetadataDetails
@@ -107,6 +108,9 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions", httpwrapper.Get(h.ListFeatureRevisions).Create(h.CreateFeatureRevision).Build())
 	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions/{revisionId}", httpwrapper.Get(h.GetFeatureRevision).Build())
+
+	api.HandleFunc("/annotation_groups", httpwrapper.Get(h.ListAnnotationGroups).Create(h.CreateAnnotationGroup).Build())
+	api.HandleFunc("/annotation_groups/{groupId}", httpwrapper.Get(h.GetAnnotationGroup).Update(h.UpdateAnnotationGroup).Delete(h.DeleteAnnotationGroup).Build())
 
 	api.HandleFunc("/features/properties", httpwrapper.Get(h.ListFeatureProperties).Build())
 	api.HandleFunc("/features/executions", httpwrapper.Get(h.ListExecutions).Create(h.CreateExecution).Build())
