@@ -25,7 +25,7 @@ func NewTitlePageProvision(annotationSvc *Annotation, datasetSvc *Dataset, editi
 }
 
 func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
-	// verify that the tps dataset and anno_1 annotation exist.
+	// verify that the tps dataset and ann_1 annotation exist.
 	_, err := p.annotationSvc.Get("tps", "ann_1")
 	if err != nil {
 		return err
@@ -64,7 +64,7 @@ func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
 			LinesDetected:      false,
 			DatasetID:          "tps",
 			OriginAnnotationID: "ann_1",
-		})
+		}, false)
 		if err != nil {
 			return err
 		}

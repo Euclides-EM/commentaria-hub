@@ -49,7 +49,8 @@ type ExecutionApplyItem struct {
 }
 
 type ExecutionPolicy struct {
-	SkipIf []ExecutionSkipIf `json:"skip_if"`
+	SkipIf       []ExecutionSkipIf `json:"skip_if"`
+	PushToOrigin bool              `json:"push_to_origin"`
 }
 
 type ExecutionSkipIf string
