@@ -24,20 +24,22 @@ import (
 // todo: add interfaces to all services
 
 type Annotation struct {
-	datasetSvc      *Dataset
-	datasetImgSvc   *DatasetImg
-	ruleApplier     *AnnotationRuleApplier
-	fileSysMgt      *filesys.Manager
-	annotationStore *store.AnnotationSQL
+	datasetSvc        *Dataset
+	datasetImgSvc     *DatasetImg
+	ruleApplier       *AnnotationRuleApplier
+	featureResultsSvc *Result
+	fileSysMgt        *filesys.Manager
+	annotationStore   *store.AnnotationSQL
 }
 
-func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
+func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, featureResultsSvc *Result, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
 	return &Annotation{
-		datasetSvc:      datasetSvc,
-		datasetImgSvc:   datasetImgSvc,
-		ruleApplier:     ruleApplier,
-		fileSysMgt:      fileSysMgt,
-		annotationStore: annotationStore,
+		datasetSvc:        datasetSvc,
+		datasetImgSvc:     datasetImgSvc,
+		ruleApplier:       ruleApplier,
+		featureResultsSvc: featureResultsSvc,
+		fileSysMgt:        fileSysMgt,
+		annotationStore:   annotationStore,
 	}
 }
 
@@ -60,7 +62,7 @@ func (a *Annotation) Get(datasetId, id string) (*annotation.Annotation, error) {
 	return annotation, nil
 }
 
-func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*annotation.Annotation, error) {
+func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFeatureResults bool) (*annotation.Annotation, error) {
 	// validate dataset exists
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
@@ -107,8 +109,23 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 			}
 		}
 	}
+	if ann.OriginAnnotationID != "" {
+		originAnn, err := a.Get(datasetID, ann.OriginAnnotationID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get origin annotation from store: %w", err)
+		}
+		ann.AppliedRules = originAnn.AppliedRules
+		ann.LinesDetected = originAnn.LinesDetected
+		ann.Ocred = originAnn.Ocred
+		ann.Segmented = originAnn.Segmented
+	}
 	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
 		return nil, fmt.Errorf("failed to insert annotation to store: %w", err)
+	}
+	if copyFeatureResults && ann.OriginAnnotationID != "" {
+		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.OriginAnnotationID, ann.ID); err != nil {
+			return nil, fmt.Errorf("failed to copy feature results for new annotation: %w", err)
+		}
 	}
 	return ann, nil
 }
@@ -193,7 +210,7 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 	}
 
 	if aar.Action == annotationrule.ApplyRulesActionCreateNew {
-		ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description)
+		ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description, aar.CopyFeatureResults)
 		if err != nil {
 			return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
 		}
@@ -358,7 +375,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *annotati
 	return fromDB, nil
 }
 
-func (a *Annotation) Duplicate(datasetID string, annotationID string, name string, description string) (*annotation.Annotation, error) {
+func (a *Annotation) Duplicate(datasetID string, annotationID string, name string, description string, copyFeatureResults bool) (*annotation.Annotation, error) {
 	origAnn, err := a.Get(datasetID, annotationID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get original annotation: %w", err)
@@ -392,6 +409,11 @@ func (a *Annotation) Duplicate(datasetID string, annotationID string, name strin
 	ann.OriginAnnotationID = origAnn.ID
 	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
 		return nil, fmt.Errorf("failed to insert new annotation to store: %w", err)
+	}
+	if copyFeatureResults {
+		if err := a.featureResultsSvc.CopyResults(origAnn.DatasetID, origAnn.ID, ann.ID); err != nil {
+			return nil, fmt.Errorf("failed to copy feature results for new annotation: %w", err)
+		}
 	}
 
 	return ann, nil

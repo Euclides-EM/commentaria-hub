@@ -69,7 +69,7 @@ func (h *Handlers) CreateDataset(r *http.Request) (any, error) {
 				Meta: common.Meta{
 					Name: "Base",
 				},
-			})
+			}, false)
 			return err
 		}
 	}

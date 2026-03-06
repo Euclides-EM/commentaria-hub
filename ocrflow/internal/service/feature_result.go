@@ -21,8 +21,8 @@ func NewResult(store *fpstore.FeatureResultSql, featureSvc *Feature, featureProp
 	return &Result{store: store, featureSvc: featureSvc, featurePropSvc: featurePropSvc}
 }
 
-func (r *Result) ListResults(datasetID, annotationID string, keys []string, features []string) ([]*feature.Result, error) {
-	res, err := r.store.List(datasetID, annotationID, keys, features)
+func (r *Result) ListResults(datasetID, annotationID string, keys []string, features []string, fallbackToOrigin bool) ([]*feature.Result, error) {
+	res, err := r.store.List(datasetID, annotationID, keys, features, fallbackToOrigin)
 	if err != nil {
 		return nil, err
 	}
@@ -46,17 +46,17 @@ func (r *Result) ListResults(datasetID, annotationID string, keys []string, feat
 	return res, nil
 }
 
-func (r *Result) CreateResult(results []*feature.Result) ([]*feature.Result, error) {
+func (r *Result) CreateResult(results []*feature.Result, pushToOrigin bool) ([]*feature.Result, error) {
 	for _, result := range results {
-		if err := r.store.Create(result); err != nil {
+		if err := r.store.Create(result, pushToOrigin); err != nil {
 			return nil, err
 		}
 	}
 	return results, nil
 }
 
-func (r *Result) CreateResults(results []*feature.Result) error {
-	return r.store.CreateBatch(results)
+func (r *Result) CreateResults(results []*feature.Result, pushToOrigin bool) error {
+	return r.store.CreateBatch(results, pushToOrigin)
 }
 
 func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *feature.Feature) error {
@@ -79,4 +79,8 @@ func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *featu
 		}
 	}
 	return nil
+}
+
+func (r *Result) CopyResults(datasetID string, srcAnnID string, dstAnnID string) error {
+	return r.store.CopyResults(datasetID, srcAnnID, dstAnnID)
 }

@@ -36,6 +36,7 @@ func (h *Handlers) ListAnnotations(r *http.Request) (any, error) {
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        annotation  body      annotation.Annotation  true  "Annotation to create"
+// @Param        copy_feature_results query   bool    true  "Whether to copy feature results from an existing annotation, only relevant if the new annotation is created from an existing one"
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   annotation.Annotation
@@ -51,7 +52,12 @@ func (h *Handlers) CreateAnnotation(r *http.Request) (any, error) {
 		return nil, err
 	}
 
-	return h.deps.AnnotationSvc.Create(datasetID, &a)
+	copyFeatureResults, err := strconv.ParseBool(r.FormValue("copy_feature_results"))
+	if err != nil {
+		copyFeatureResults = true
+	}
+
+	return h.deps.AnnotationSvc.Create(datasetID, &a, copyFeatureResults)
 }
 
 // GetAnnotation godoc
@@ -147,7 +153,7 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 		return nil, err
 	}
 
-	return h.deps.AnnotationSvc.Duplicate(datasetID, req.SourceAnnotationID, req.Name, req.Description)
+	return h.deps.AnnotationSvc.Duplicate(datasetID, req.SourceAnnotationID, req.Name, req.Description, req.CopyFeatureResults)
 }
 
 // GetAnnotationZipFile godoc
