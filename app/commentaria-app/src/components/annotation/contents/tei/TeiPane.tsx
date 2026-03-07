@@ -1393,10 +1393,10 @@ export function TeiPane({
   ])
 
   const removeHighlightFromTooltip = (item: TeiTooltipItem) => {
-      if (isTextEditMode) {
-          return
-      }
-      setRemovedTeiHighlightIds((previous) =>
+    if (isTextEditMode) {
+      return
+    }
+    setRemovedTeiHighlightIds((previous) =>
       previous.includes(item.id) ? previous : [...previous, item.id],
     )
     setDraftHighlights((previous) => {
