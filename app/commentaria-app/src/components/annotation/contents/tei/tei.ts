@@ -38,6 +38,22 @@ export type TeiHighlightConfig = {
   hiddenTeiHighlightIds?: string[]
 }
 
+export type TeiSurfaceZone = {
+  id: string
+  matchIds: string[]
+  hoverMatchIds: string[]
+  zoneType: 'line' | 'block'
+  ulx: number
+  uly: number
+  lrx: number
+  lry: number
+  refUlx: number
+  refUly: number
+  refLrx: number
+  refLry: number
+  hasSurfaceBounds: boolean
+}
+
 type TeiTranslationSource = {
   label: string
   element: Element
@@ -96,11 +112,19 @@ export type TeiEditableHighlight = {
   toAnchorId: string
 }
 
+export type TeiOriginalEditableLine = {
+  id: string
+  blockId: string
+  text: string
+}
+
 type ReadingOptions = {
   showPB: boolean
   minCert: number
   maskChar: string
   alignLines: boolean
+  showCertaintyVisualization?: boolean
+  certaintyDegreeByTargetId?: Map<string, number>
 }
 
 type TextWithAnchors = {
@@ -118,12 +142,14 @@ type ParagraphLineRange = {
   start: number
   end: number
   matchIds: string[]
+  certaintyDegree: number | null
 }
 
 type LineMatchMode = 'none' | 'original-id' | 'corresp'
 
 type LineTextWithAnchors = TextWithAnchors & {
   matchIds: string[]
+  certaintyDegree: number | null
 }
 
 const escapeHtml = (text: string) => {
@@ -157,6 +183,40 @@ function findFirstCertaintyDegree(segEl: Element) {
   const degreeStr = certs[0].getAttribute('degree')
   const degree = degreeStr == null ? NaN : parseFloat(degreeStr)
   return Number.isFinite(degree) ? degree : null
+}
+
+const getCertaintyDegreeByTargetId = (doc: Document) => {
+  const out = new Map<string, number>()
+  const certs = doc.getElementsByTagNameNS('*', 'certainty')
+  for (let i = 0; i < certs.length; i++) {
+    const cert = certs[i]
+    const degree = Number.parseFloat(cert.getAttribute('degree') || '')
+    if (!Number.isFinite(degree)) {
+      continue
+    }
+    const targets = parseCorrespRefs(cert.getAttribute('target'))
+    for (const target of targets) {
+      if (!target) {
+        continue
+      }
+      out.set(target, degree)
+    }
+  }
+  return out
+}
+
+const getElementCertaintyDegree = (
+  element: Element,
+  opts: ReadingOptions,
+): number | null => {
+  const targetId = getXmlId(element)
+  if (targetId) {
+    const byTargetIdDegree = opts.certaintyDegreeByTargetId?.get(targetId)
+    if (byTargetIdDegree != null && Number.isFinite(byTargetIdDegree)) {
+      return byTargetIdDegree
+    }
+  }
+  return findFirstCertaintyDegree(element)
 }
 
 function textContentExcludingCertainty(node: ChildNode) {
@@ -202,6 +262,49 @@ const parseCorrespRefs = (value: string | null) =>
     .split(/\s+/)
     .map((entry) => entry.replace(/^#/, '').trim())
     .filter(Boolean)
+
+export const toServerTextBlockId = (value: string | null | undefined) => {
+  const normalized = (value || '').replace(/^#/, '').trim()
+  if (!normalized) {
+    return ''
+  }
+  return normalized.replace(/^alto:textblock:/i, '')
+}
+
+export const getTeiZoneToServerTextBlockId = (tei: string) => {
+  const out: Record<string, string> = {}
+  try {
+    const doc = parseXml(tei.trim())
+    const zones = doc.getElementsByTagNameNS('*', 'zone')
+    for (let index = 0; index < zones.length; index++) {
+      const zone = zones[index]
+      const zoneId = getXmlId(zone)
+      if (!zoneId) {
+        continue
+      }
+      const correspRefs = parseCorrespRefs(zone.getAttribute('corresp'))
+      if (!correspRefs.length) {
+        continue
+      }
+      const textBlockRef =
+        correspRefs.find((entry) => /^alto:textblock:/i.test(entry)) ||
+        correspRefs[0]
+      const serverId = toServerTextBlockId(textBlockRef)
+      if (!serverId) {
+        continue
+      }
+      out[zoneId] = serverId
+    }
+    return out
+  } catch {
+    return out
+  }
+}
+
+const toUniqueSorted = (values: Array<string | null | undefined>) =>
+  [
+    ...new Set(values.map((value) => (value || '').trim()).filter(Boolean)),
+  ].sort()
 
 const isVerbCategory = (categoryId: string, categoryLabel: string) => {
   const normalized = `${categoryId} ${categoryLabel}`
@@ -364,7 +467,7 @@ const appendTextWithAnchors = (
   }
 
   if (element.localName === 'seg') {
-    const degree = findFirstCertaintyDegree(element)
+    const degree = getElementCertaintyDegree(element, opts)
     const rawText = textContentExcludingCertainty(element)
     const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
     builder.text +=
@@ -427,6 +530,26 @@ const getLineElements = (container: Element): Element[] => {
   return out
 }
 
+const getMatchIdsForElement = (
+  element: Element,
+  lineMatchMode: LineMatchMode,
+) => {
+  if (lineMatchMode === 'original-id') {
+    return toUniqueSorted([
+      getXmlId(element),
+      ...parseCorrespRefs(element.getAttribute('corresp')),
+      ...parseCorrespRefs(element.getAttribute('facs')),
+    ])
+  }
+  if (lineMatchMode === 'corresp') {
+    return toUniqueSorted([
+      ...parseCorrespRefs(element.getAttribute('corresp')),
+      ...parseCorrespRefs(element.getAttribute('facs')),
+    ])
+  }
+  return []
+}
+
 const joinLineTexts = (
   lines: LineTextWithAnchors[],
   alignLines: boolean,
@@ -448,6 +571,7 @@ const joinLineTexts = (
           start: offset,
           end,
           matchIds: lines[i].matchIds,
+          certaintyDegree: lines[i].certaintyDegree,
         })
       }
       for (const [id, pos] of Object.entries(lines[i].anchors)) {
@@ -462,6 +586,28 @@ const joinLineTexts = (
   let currentText = ''
   let currentAnchors: Record<string, number> = {}
   let currentLineRanges: ParagraphLineRange[] = []
+  let previousLineEndedWithMergeDash = false
+  const trailingMergeDashPattern =
+    /[-\u00AD\u2010\u2011\u2012\u2013\u2014\u2015\u2212\uFE63\uFF0D¬]+$/
+
+  const truncateTrailingMergeDashes = (
+    line: LineTextWithAnchors,
+  ): LineTextWithAnchors => {
+    if (!trailingMergeDashPattern.test(line.text)) {
+      return line
+    }
+    const withoutDashes = line.text.replace(trailingMergeDashPattern, '')
+    const nextText = withoutDashes.replace(/\s+$/, '')
+    const nextAnchors: Record<string, number> = {}
+    for (const [id, pos] of Object.entries(line.anchors)) {
+      nextAnchors[id] = Math.min(pos, nextText.length)
+    }
+    return {
+      ...line,
+      text: nextText,
+      anchors: nextAnchors,
+    }
+  }
 
   const pushCurrent = () => {
     if (!currentText) {
@@ -475,15 +621,19 @@ const joinLineTexts = (
     currentText = ''
     currentAnchors = {}
     currentLineRanges = []
+    previousLineEndedWithMergeDash = false
   }
 
-  for (const line of lines) {
+  for (const rawLine of lines) {
+    const lineEndedWithMergeDash = trailingMergeDashPattern.test(rawLine.text)
+    const line = truncateTrailingMergeDashes(rawLine)
     if (!line.text) {
       pushCurrent()
+      previousLineEndedWithMergeDash = false
       continue
     }
 
-    if (currentText) {
+    if (currentText && !previousLineEndedWithMergeDash) {
       currentText += ' '
     }
     const offset = currentText.length
@@ -494,11 +644,13 @@ const joinLineTexts = (
         start: offset,
         end,
         matchIds: line.matchIds,
+        certaintyDegree: line.certaintyDegree,
       })
     }
     for (const [id, pos] of Object.entries(line.anchors)) {
       currentAnchors[id] = offset + pos
     }
+    previousLineEndedWithMergeDash = lineEndedWithMergeDash
   }
 
   pushCurrent()
@@ -519,21 +671,22 @@ const renderStructuredDivToParagraphs = (
   for (const container of containers) {
     const lines = getLineElements(container)
     if (lines.length) {
-      const renderedLines = lines.map(
-        (line) =>
-          ({
-            ...trimTextWithAnchors(toReadingTextWithAnchors(line, opts)),
-            matchIds:
-              lineMatchMode === 'original-id'
-                ? (() => {
-                    const id = getXmlId(line)
-                    return id ? [id] : []
-                  })()
-                : lineMatchMode === 'corresp'
-                  ? [...new Set(parseCorrespRefs(line.getAttribute('corresp')))]
-                  : [],
-          }) satisfies LineTextWithAnchors,
-      )
+      const renderedLines = lines.map((line) => {
+        const lineText = trimTextWithAnchors(
+          toReadingTextWithAnchors(line, opts),
+        )
+        const degree = getElementCertaintyDegree(line, opts)
+        const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
+        return {
+          ...lineText,
+          text:
+            degree != null && degree < minCert
+              ? maskText(lineText.text, opts.maskChar)
+              : lineText.text,
+          matchIds: getMatchIdsForElement(line, lineMatchMode),
+          certaintyDegree: degree,
+        } satisfies LineTextWithAnchors
+      })
       const blocks = joinLineTexts(renderedLines, opts.alignLines)
       for (const block of blocks) {
         paragraphs.push(block)
@@ -541,9 +694,27 @@ const renderStructuredDivToParagraphs = (
       continue
     }
 
+    const block = trimTextWithAnchors(toReadingTextWithAnchors(container, opts))
+    const degree = getElementCertaintyDegree(container, opts)
+    const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
+    const blockMatchIds = getMatchIdsForElement(container, lineMatchMode)
     paragraphs.push({
-      ...trimTextWithAnchors(toReadingTextWithAnchors(container, opts)),
-      lineRanges: [],
+      ...block,
+      text:
+        degree != null && degree < minCert
+          ? maskText(block.text, opts.maskChar)
+          : block.text,
+      lineRanges:
+        blockMatchIds.length > 0 && block.text.length > 0
+          ? [
+              {
+                start: 0,
+                end: block.text.length,
+                matchIds: blockMatchIds,
+                certaintyDegree: degree,
+              },
+            ]
+          : [],
     })
   }
 
@@ -554,35 +725,41 @@ const getParagraphHighlightSlice = (
   spans: ParagraphHighlightSpan[],
   sliceStart: number,
   sliceEnd: number,
-): ParagraphHighlightSpan[] =>
-  spans
-    .map((span) => {
-      const start = Math.max(sliceStart, span.start)
-      const end = Math.min(sliceEnd, span.end)
-      if (end <= start) {
-        return null
-      }
-      return {
-        ...span,
-        start: start - sliceStart,
-        end: end - sliceStart,
-        tooltipStart: span.tooltipStart ?? span.start,
-        tooltipEnd: span.tooltipEnd ?? span.end,
-      }
+): ParagraphHighlightSpan[] => {
+  const sliced: ParagraphHighlightSpan[] = []
+  for (const span of spans) {
+    const start = Math.max(sliceStart, span.start)
+    const end = Math.min(sliceEnd, span.end)
+    if (end <= start) {
+      continue
+    }
+    sliced.push({
+      ...span,
+      start: start - sliceStart,
+      end: end - sliceStart,
+      tooltipStart: span.tooltipStart ?? span.start,
+      tooltipEnd: span.tooltipEnd ?? span.end,
     })
-    .filter((span): span is ParagraphHighlightSpan => span != null)
+  }
+  return sliced
+}
 
 const renderParagraphWithLineRanges = (
   text: string,
   spans: ParagraphHighlightSpan[],
   paragraphIndex: number,
   lineRanges: ParagraphLineRange[],
+  showCertaintyVisualization: boolean,
 ) => {
   const validRanges = lineRanges
     .map((range) => ({
       start: Math.max(0, Math.min(text.length, range.start)),
       end: Math.max(0, Math.min(text.length, range.end)),
       matchIds: [...new Set(range.matchIds.filter(Boolean))],
+      certaintyDegree:
+        range.certaintyDegree != null && Number.isFinite(range.certaintyDegree)
+          ? range.certaintyDegree
+          : null,
     }))
     .filter((range) => range.end > range.start && range.matchIds.length > 0)
     .sort((left, right) => left.start - right.start)
@@ -614,7 +791,19 @@ const renderParagraphWithLineRanges = (
       lineSpans,
       paragraphIndex,
     )
-    html += `<span data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}">${lineHtml}</span>`
+    const attrs = [
+      `data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}"`,
+    ]
+    if (showCertaintyVisualization && range.certaintyDegree != null) {
+      const clampedDegree = Math.min(1, Math.max(0.9, range.certaintyDegree))
+      const strength = (clampedDegree - 0.9) / 0.1
+      const alpha = 0.14 + strength * 0.44
+      attrs.push(`data-tei-certainty-degree="${clampedDegree.toFixed(3)}"`)
+      attrs.push(
+        `style="background-color: rgba(20, 184, 166, ${alpha.toFixed(3)}); border-radius: 3px;"`,
+      )
+    }
+    html += `<span ${attrs.join(' ')}>${lineHtml}</span>`
     cursor = rangeEnd
   }
 
@@ -643,6 +832,7 @@ const renderStructuredDiv = (
         [],
         index,
         paragraph.lineRanges,
+        !!opts.showCertaintyVisualization,
       )
       return `<p>${html}</p>`
     })
@@ -1003,7 +1193,7 @@ function renderOriginalView(
   )
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
-    return `<p data-tei-paragraph-index="${index}">${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges)}</p>`
+    return `<p data-tei-paragraph-index="${index}">${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges, !!opts.showCertaintyVisualization)}</p>`
   })
 
   return parts.join('') || '<p></p>'
@@ -1019,7 +1209,13 @@ export const getTeiEditableHighlights = (
     const { paragraphSpans } = getOriginalParagraphSpans(
       doc,
       body,
-      { showPB: true, minCert: 0.8, maskChar: '@', alignLines: false },
+      {
+        showPB: true,
+        minCert: 0.8,
+        maskChar: '@',
+        alignLines: false,
+        certaintyDegreeByTargetId: getCertaintyDegreeByTargetId(doc),
+      },
       highlightConfig,
     )
     const out: TeiEditableHighlight[] = []
@@ -1051,12 +1247,394 @@ export const getTeiEditableHighlights = (
   }
 }
 
+const toTextBlockId = (element: Element, fallback: string) => {
+  const facs = parseCorrespRefs(element.getAttribute('facs'))
+  if (facs.length > 0) {
+    return facs[0]
+  }
+  const xmlId = getXmlId(element)
+  if (xmlId) {
+    return xmlId
+  }
+  const corresp = parseCorrespRefs(element.getAttribute('corresp'))
+  if (corresp.length > 0) {
+    return corresp[0]
+  }
+  return fallback
+}
+
+const toEditableLineText = (element: Element) =>
+  trimTextWithAnchors(
+    toReadingTextWithAnchors(element, {
+      showPB: false,
+      minCert: 0,
+      maskChar: '@',
+      alignLines: false,
+    }),
+  ).text
+
+export const getTeiOriginalEditableLines = (
+  tei: string,
+): TeiOriginalEditableLine[] => {
+  try {
+    const doc = parseXml(tei.trim())
+    const body = getBody(doc)
+    const out: TeiOriginalEditableLine[] = []
+    const transcriptionDivs = getDirectChildrenByName(body, 'div').filter(
+      (div) => getElementAttr(div, 'type') === 'transcription',
+    )
+
+    for (let divIndex = 0; divIndex < transcriptionDivs.length; divIndex++) {
+      const div = transcriptionDivs[divIndex]
+      const blocks = getDirectChildrenByName(div, 'ab')
+      const containers = blocks.length ? blocks : [div]
+
+      for (
+        let containerIndex = 0;
+        containerIndex < containers.length;
+        containerIndex++
+      ) {
+        const container = containers[containerIndex]
+        const blockId = toTextBlockId(
+          container,
+          `block:${divIndex}:${containerIndex}`,
+        )
+        const lines = getLineElements(container)
+
+        if (!lines.length) {
+          out.push({
+            id: `${blockId}:0`,
+            blockId,
+            text: toEditableLineText(container),
+          })
+          continue
+        }
+
+        for (let lineIndex = 0; lineIndex < lines.length; lineIndex++) {
+          out.push({
+            id:
+              getXmlId(lines[lineIndex]) ||
+              `${blockId}:${String(lineIndex + 1)}`,
+            blockId,
+            text: toEditableLineText(lines[lineIndex]),
+          })
+        }
+      }
+    }
+
+    return out
+  } catch {
+    return []
+  }
+}
+
 function getBody(doc: Document): Element {
   const body =
     doc.getElementsByTagNameNS('*', 'body')[0] ||
     doc.getElementsByTagNameNS('*', 'text')[0] ||
     doc.documentElement
   return body as Element
+}
+
+const parseZoneCoordinate = (zone: Element, attr: string) =>
+  Number.parseFloat(getElementAttr(zone, attr))
+
+const parseBoundsFromElement = (element: Element | null) => {
+  if (!element) {
+    return null
+  }
+  const ulx = Number.parseFloat(getElementAttr(element, 'ulx'))
+  const uly = Number.parseFloat(getElementAttr(element, 'uly'))
+  const lrx = Number.parseFloat(getElementAttr(element, 'lrx'))
+  const lry = Number.parseFloat(getElementAttr(element, 'lry'))
+  if (
+    !Number.isFinite(ulx) ||
+    !Number.isFinite(uly) ||
+    !Number.isFinite(lrx) ||
+    !Number.isFinite(lry) ||
+    lrx <= ulx ||
+    lry <= uly
+  ) {
+    return null
+  }
+  return { ulx, uly, lrx, lry }
+}
+
+const almostEqual = (left: number, right: number, epsilon = 0.001) =>
+  Math.abs(left - right) <= epsilon
+
+const sameBounds = (
+  left: { ulx: number; uly: number; lrx: number; lry: number } | null,
+  right: { ulx: number; uly: number; lrx: number; lry: number } | null,
+) => {
+  if (!left && !right) {
+    return true
+  }
+  if (!left || !right) {
+    return false
+  }
+  return (
+    almostEqual(left.ulx, right.ulx) &&
+    almostEqual(left.uly, right.uly) &&
+    almostEqual(left.lrx, right.lrx) &&
+    almostEqual(left.lry, right.lry)
+  )
+}
+
+const zoneContains = (
+  block: { ulx: number; uly: number; lrx: number; lry: number },
+  zone: { ulx: number; uly: number; lrx: number; lry: number },
+  tolerance = 1,
+) =>
+  zone.ulx >= block.ulx - tolerance &&
+  zone.uly >= block.uly - tolerance &&
+  zone.lrx <= block.lrx + tolerance &&
+  zone.lry <= block.lry + tolerance
+
+const toZoneType = (zone: Element) =>
+  [
+    getElementAttr(zone, 'type'),
+    getElementAttr(zone, 'subtype'),
+    getElementAttr(zone, 'rendition'),
+  ]
+    .join(' ')
+    .toLowerCase()
+
+const isTextBlockType = (value: string) =>
+  /text[\s_-]*block/.test(value.replace('#', ' '))
+
+const getBlockToLineZoneLinks = (doc: Document) => {
+  const links = new Map<string, Set<string>>()
+  const blocks = doc.getElementsByTagNameNS('*', 'ab')
+  for (let index = 0; index < blocks.length; index++) {
+    const block = blocks[index]
+    const blockZoneIds = parseCorrespRefs(block.getAttribute('facs'))
+    if (!blockZoneIds.length) {
+      continue
+    }
+    const lines = block.getElementsByTagNameNS('*', 'l')
+    for (let lineIndex = 0; lineIndex < lines.length; lineIndex++) {
+      const lineZoneIds = parseCorrespRefs(
+        lines[lineIndex].getAttribute('facs'),
+      )
+      for (const blockZoneId of blockZoneIds) {
+        const current = links.get(blockZoneId) || new Set<string>()
+        for (const lineZoneId of lineZoneIds) {
+          current.add(lineZoneId)
+        }
+        links.set(blockZoneId, current)
+      }
+    }
+  }
+  return links
+}
+
+const getZoneToTextMatchIds = (doc: Document) => {
+  const links = new Map<string, Set<string>>()
+  const add = (zoneId: string, ids: string[]) => {
+    if (!zoneId || !ids.length) {
+      return
+    }
+    const current = links.get(zoneId) || new Set<string>()
+    for (const id of ids) {
+      if (id) {
+        current.add(id)
+      }
+    }
+    links.set(zoneId, current)
+  }
+
+  const blocks = doc.getElementsByTagNameNS('*', 'ab')
+  for (let index = 0; index < blocks.length; index++) {
+    const block = blocks[index]
+    const blockZoneIds = parseCorrespRefs(block.getAttribute('facs'))
+    const blockTextIds = toUniqueSorted([
+      getXmlId(block),
+      ...parseCorrespRefs(block.getAttribute('corresp')),
+    ])
+    for (const zoneId of blockZoneIds) {
+      add(zoneId, blockTextIds)
+    }
+  }
+
+  const lines = doc.getElementsByTagNameNS('*', 'l')
+  for (let index = 0; index < lines.length; index++) {
+    const line = lines[index]
+    const lineZoneIds = parseCorrespRefs(line.getAttribute('facs'))
+    const lineTextIds = toUniqueSorted([
+      getXmlId(line),
+      ...parseCorrespRefs(line.getAttribute('corresp')),
+    ])
+    for (const zoneId of lineZoneIds) {
+      add(zoneId, lineTextIds)
+    }
+  }
+
+  return links
+}
+
+export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
+  try {
+    const doc = parseXml(tei.trim())
+    const zones = doc.getElementsByTagNameNS('*', 'zone')
+    const parsed: Array<
+      Omit<
+        TeiSurfaceZone,
+        | 'hoverMatchIds'
+        | 'zoneType'
+        | 'refUlx'
+        | 'refUly'
+        | 'refLrx'
+        | 'refLry'
+        | 'hasSurfaceBounds'
+      > & {
+        parentBounds: {
+          ulx: number
+          uly: number
+          lrx: number
+          lry: number
+        } | null
+        type: string
+        element: Element
+      }
+    > = []
+    for (let index = 0; index < zones.length; index++) {
+      const zone = zones[index]
+      const id = getXmlId(zone) || `zone:${index}`
+      const ulx = parseZoneCoordinate(zone, 'ulx')
+      const uly = parseZoneCoordinate(zone, 'uly')
+      const lrx = parseZoneCoordinate(zone, 'lrx')
+      const lry = parseZoneCoordinate(zone, 'lry')
+      if (
+        !Number.isFinite(ulx) ||
+        !Number.isFinite(uly) ||
+        !Number.isFinite(lrx) ||
+        !Number.isFinite(lry) ||
+        lrx <= ulx ||
+        lry <= uly
+      ) {
+        continue
+      }
+      const matchIds = toUniqueSorted([
+        id,
+        ...parseCorrespRefs(zone.getAttribute('corresp')),
+        ...parseCorrespRefs(zone.getAttribute('facs')),
+      ])
+      const parentBounds = parseBoundsFromElement(zone.closest('surface'))
+      parsed.push({
+        id,
+        matchIds: matchIds.length ? matchIds : [id],
+        ulx,
+        uly,
+        lrx,
+        lry,
+        parentBounds,
+        type: toZoneType(zone),
+        element: zone,
+      })
+    }
+    if (!parsed.length) {
+      return []
+    }
+
+    const textBlockZones = parsed.filter((zone) => isTextBlockType(zone.type))
+    const matchIdsByZoneId = new Map<string, Set<string>>(
+      parsed.map((zone) => [zone.id, new Set(zone.matchIds)]),
+    )
+    const hoverMatchIdsByZoneId = new Map<string, Set<string>>(
+      parsed.map((zone) => [zone.id, new Set(zone.matchIds)]),
+    )
+    const blockToLineLinks = getBlockToLineZoneLinks(doc)
+    const zoneToTextMatchIds = getZoneToTextMatchIds(doc)
+
+    for (const [zoneId, textMatchIds] of zoneToTextMatchIds.entries()) {
+      const target = matchIdsByZoneId.get(zoneId)
+      const hoverTarget = hoverMatchIdsByZoneId.get(zoneId)
+      if (!target) {
+        continue
+      }
+      for (const id of textMatchIds) {
+        target.add(id)
+        hoverTarget?.add(id)
+      }
+    }
+
+    for (const block of textBlockZones) {
+      const blockSet = matchIdsByZoneId.get(block.id) || new Set<string>()
+      const linkedLineZoneIds = blockToLineLinks.get(block.id)
+      if (linkedLineZoneIds && linkedLineZoneIds.size > 0) {
+        for (const lineZoneId of linkedLineZoneIds) {
+          blockSet.add(lineZoneId)
+        }
+      }
+      for (const zone of parsed) {
+        if (zone.id === block.id) {
+          continue
+        }
+        if (isTextBlockType(zone.type)) {
+          continue
+        }
+        if (
+          sameBounds(block.parentBounds, zone.parentBounds) &&
+          (block.element.contains(zone.element) || zoneContains(block, zone))
+        ) {
+          const zoneSet = matchIdsByZoneId.get(zone.id)
+          if (!zoneSet) {
+            continue
+          }
+          for (const id of zoneSet) {
+            blockSet.add(id)
+          }
+        }
+      }
+      matchIdsByZoneId.set(block.id, blockSet)
+    }
+
+    const out = parsed.map((zone) => ({
+      ...zone,
+      matchIds: [
+        ...(matchIdsByZoneId.get(zone.id) || new Set(zone.matchIds)),
+      ].sort(),
+    }))
+
+    const fallbackUlx = Math.min(...out.map((zone) => zone.ulx))
+    const fallbackUly = Math.min(...out.map((zone) => zone.uly))
+    const fallbackLrx = Math.max(...out.map((zone) => zone.lrx))
+    const fallbackLry = Math.max(...out.map((zone) => zone.lry))
+    const hasValidFallback =
+      fallbackLrx > fallbackUlx && fallbackLry > fallbackUly
+    const fallbackBounds = hasValidFallback
+      ? {
+          ulx: fallbackUlx,
+          uly: fallbackUly,
+          lrx: fallbackLrx,
+          lry: fallbackLry,
+        }
+      : { ulx: 0, uly: 0, lrx: 1, lry: 1 }
+
+    return out.map((zone) => {
+      const bounds = zone.parentBounds || fallbackBounds
+      return {
+        id: zone.id,
+        matchIds: zone.matchIds,
+        hoverMatchIds: [
+          ...(hoverMatchIdsByZoneId.get(zone.id) || new Set(zone.matchIds)),
+        ].sort(),
+        zoneType: isTextBlockType(zone.type) ? 'block' : 'line',
+        ulx: zone.ulx,
+        uly: zone.uly,
+        lrx: zone.lrx,
+        lry: zone.lry,
+        refUlx: bounds.ulx,
+        refUly: bounds.uly,
+        refLrx: bounds.lrx,
+        refLry: bounds.lry,
+        hasSurfaceBounds: !!zone.parentBounds,
+      }
+    })
+  } catch {
+    return []
+  }
 }
 
 function applyHighlights(
@@ -1082,11 +1660,19 @@ export const teiToHtml = (
   maskChar: string = '@',
   viewMode: TeiViewMode = 'original',
   alignLines: boolean = false,
+  showCertaintyVisualization: boolean = false,
   highlightConfig?: TeiHighlightConfig,
 ) => {
   const doc = parseXml(tei.trim())
   const body = getBody(doc)
-  const opts = { showPB: true, minCert, maskChar, alignLines }
+  const opts = {
+    showPB: true,
+    minCert,
+    maskChar,
+    alignLines,
+    showCertaintyVisualization,
+    certaintyDegreeByTargetId: getCertaintyDegreeByTargetId(doc),
+  }
 
   if (viewMode !== 'original') {
     const translationIndex = Number.parseInt(viewMode.split(':')[1] || '', 10)

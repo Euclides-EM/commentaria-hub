@@ -36,7 +36,7 @@ func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *filesys.Manager, re
 	}
 }
 
-func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrKey string, features []string) ([]byte, error) {
+func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrKey string, features []string, fallbackToOrigin bool) ([]byte, error) {
 	ann, err := t.annotationSvc.Get(datasetID, annotationID)
 	if err != nil {
 		return nil, err
@@ -59,7 +59,7 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 		})
 	}
 
-	tei, err := t.getTEI(ann, pageNumOrKey, features)
+	tei, err := t.getTEI(ann, pageNumOrKey, features, fallbackToOrigin)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get TEI for annotation %s: %v", ann.ID, err)
 	}
@@ -89,7 +89,7 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 
 	// 2) TXT fallback: transcription
 	var lines []string
-	if ann.DatasetID == "tps" && ann.ID == "ann_1" {
+	if ann.DatasetID == "tps" {
 		if lines, _, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
 			return "", fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}
@@ -101,9 +101,9 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 	return strings.Join(lines, "\n"), nil
 }
 
-func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, features []string) (*teimodel.TEI, error) {
+func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, features []string, fallbackToOrigin bool) (*teimodel.TEI, error) {
 	// Load results + feature definitions first (shared by both ALTO and TXT paths)
-	results, err := t.resultSvc.ListResults(ann.DatasetID, ann.ID, []string{pageNumOrKey}, features)
+	results, err := t.resultSvc.ListResults(ann.DatasetID, ann.ID, []string{pageNumOrKey}, features, fallbackToOrigin)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list results for annotation %s: %v", ann.ID, err)
 	}
@@ -126,7 +126,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		imageURL     string
 	)
 
-	if ann.DatasetID == "tps" && ann.ID == "ann_1" {
+	if ann.DatasetID == "tps" {
 		if lines, translations, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
 			return nil, fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}
@@ -157,6 +157,9 @@ func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []st
 	edition, err := t.editionSvc.GetEditionByID(editionKey)
 	if err != nil {
 		return nil, nil, fmt.Errorf("failed to get edition by ID %s: %v", editionKey, err)
+	}
+	if edition == nil {
+		return nil, nil, fmt.Errorf("edition with key %s does not exist", editionKey)
 	}
 	if edition.Title == nil {
 		return nil, nil, fmt.Errorf("edition %s does not have a title page transcription", editionKey)

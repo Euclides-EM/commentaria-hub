@@ -1,6 +1,9 @@
 package model
 
-import "github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+import (
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+)
 
 type OCRModelLocation string
 
@@ -21,9 +24,9 @@ type Model struct {
 	Location        OCRModelLocation        `json:"location"`
 	AlgorithmFamily OCRModelAlgorithmFamily `json:"algorithm_family,omitempty"`
 	// LocalPath is the path to the model file on the local filesystem. It is relevant only for local models.
-	LocalPath         string                 `json:"local_path" readonly:"true"`
-	Categories        []string               `json:"categories,omitempty"`
-	BaseModelID       string                 `json:"base_model_id,omitempty"`
-	BaseAnnotations   []*AnnotationReference `json:"base_annotations,omitempty"`
-	UsedInAnnotations []*AnnotationReference `json:"used_in_annotations,omitempty"`
+	LocalPath         string                  `json:"local_path" readonly:"true"`
+	Categories        []string                `json:"categories,omitempty"`
+	BaseModelID       string                  `json:"base_model_id,omitempty"`
+	BaseAnnotations   []*annotation.Reference `json:"base_annotations,omitempty"`
+	UsedInAnnotations []*annotation.Reference `json:"used_in_annotations,omitempty"`
 }

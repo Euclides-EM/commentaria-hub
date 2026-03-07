@@ -350,7 +350,7 @@ func setLineContent(line *TextLine, content string) {
 
 	// Ensure exactly one AltoString.
 	if len(line.Strings) == 0 {
-		line.Strings = []AltoString{{
+		line.Strings = []String{{
 			HPOS:    line.HPOS,
 			VPOS:    line.VPOS,
 			Width:   line.Width,

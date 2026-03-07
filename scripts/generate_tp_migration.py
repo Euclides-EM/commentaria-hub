@@ -4,7 +4,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List
 
-
 DATASET_ID = "tps"
 ANNOTATION_ID = "ann_1"
 SOURCE_RESP = "csv_import"
@@ -18,20 +17,25 @@ def sql_escape(s: str) -> str:
     return s.replace("'", "''")
 
 
-def split_values(value: str) -> List[str]:
+def split_values(value: str, separator: str) -> List[str]:
     if not value:
         return []
     v = value.strip()
     if not v or v.lower() in {"none", "null", "n/a"}:
         return []
 
-    if "::" in v:
-        parts = v.split("::")
+    if separator in v:
+        parts = v.split(separator)
     else:
         parts = [v]
 
     cleaned = [p.strip() for p in parts if p and p.strip()]
-    return [c for c in cleaned if c.lower() not in {"none", "null", "n/a"}]
+    filtered = [c for c in cleaned if c.lower() not in {"none", "null", "n/a"}]
+    return list(dict.fromkeys(filtered))
+
+
+def normalize_header(value: str) -> str:
+    return value.strip().lower()
 
 
 @dataclass(frozen=True)
@@ -343,19 +347,26 @@ def generate_sql(csv_path: Path, output_path: Path) -> None:
         reader = csv.DictReader(f)
 
         for row in reader:
-            page_key = (row.get("key") or "").strip()
+            normalized_row = {
+                normalize_header(col): cell
+                for col, cell in row.items()
+                if col is not None
+            }
+
+            page_key = (normalized_row.get("key") or "").strip()
             if not page_key:
                 continue
 
-            for feature_id, raw in row.items():
-                if feature_id not in FEATURE_IDS_TO_IMPORT:
-                    continue
-
-                vals = split_values(raw or "")
-                if not vals:
+            for feature_id in FEATURE_IDS_TO_IMPORT:
+                raw = normalized_row.get(feature_id)
+                if raw is None:
                     continue
 
                 meta = FEATURES[feature_id]
+                separator = ", " if meta.is_list else "::"
+                vals = split_values(raw or "", separator)
+                if not vals:
+                    continue
                 rev_id = revision_by_feature[feature_id]
 
                 # feature_results has NO id now (composite PK)
@@ -374,7 +385,7 @@ def generate_sql(csv_path: Path, output_path: Path) -> None:
                     ")"
                 )
 
-                # result_values is keyed by (dataset_id, feature_id, annotation_id, page_key)
+                # feature_result_values is keyed by (dataset_id, feature_id, annotation_id, page_key)
                 for v in vals:
                     value_rows.append(
                         "("
@@ -416,7 +427,7 @@ def generate_sql(csv_path: Path, output_path: Path) -> None:
 
         if value_rows:
             out.write(
-                "INSERT INTO result_values (dataset_id, feature_id, annotation_id, page_key, surface)\n"
+                "INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface)\n"
                 "VALUES\n"
                 + ",\n".join(value_rows)
                 + ";\n"
@@ -424,10 +435,9 @@ def generate_sql(csv_path: Path, output_path: Path) -> None:
 
 
 if __name__ == "__main__":
-    csv_path = Path(
-        "/Users/mia/dev/personal/elements-dh/ocrflow/store/items_metadata/title_page.csv"
-    )
-    output_path = Path(
-        "/ocrflow/internal/migrations/ocrflow/1772303020_feature_result_tps_seed.sql"
+    csv_path = Path(__file__).resolve().parent.parent / "ocrflow/store/items_metadata/title_page.csv"
+    output_path = (
+            Path(__file__).resolve().parent.parent
+            / "ocrflow/internal/migrations/ocrflow/1772303023_feature_result_tps_seed.sql"
     )
     generate_sql(csv_path, output_path)

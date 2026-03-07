@@ -341,7 +341,7 @@ func TestBuildTEIFromALTO_minimal(t *testing.T) {
 					TextBlocks: []alto.TextBlock{{
 						ID: "b1",
 						Lines: []alto.TextLine{{
-							Strings: []alto.AltoString{{Content: "Hello"}, {Content: "world."}},
+							Strings: []alto.String{{Content: "Hello"}, {Content: "world."}},
 						}},
 					}},
 				},

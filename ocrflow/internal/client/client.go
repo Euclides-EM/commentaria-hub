@@ -123,6 +123,8 @@ func (c *Client) UploadAnnotation(datasetID string, upm *annotation.UploadMetada
 	q.Set("description", upm.Description)
 	q.Set("segmented", strconv.FormatBool(upm.Segmented))
 	q.Set("ocred", strconv.FormatBool(upm.Ocred))
+	q.Set("lines_detected", strconv.FormatBool(upm.LinesDetected))
+	q.Set("hidden", strconv.FormatBool(upm.Hidden))
 	q.Set("ground_truth", strconv.FormatBool(upm.GroundTruth))
 	if upm.OriginAnnotationID != "" {
 		q.Set("origin_annotation_id", upm.OriginAnnotationID)

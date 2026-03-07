@@ -34,7 +34,7 @@ func ToString(pages []int) string {
 	return strings.Join(parts, ",")
 }
 
-func Range(pageStr string) ([]int, error) {
+func IntRange(pageStr string) ([]int, error) {
 	ranges := strings.Split(pageStr, ",")
 	var pages []int
 	for _, r := range ranges {
@@ -64,6 +64,41 @@ func Range(pageStr string) ([]int, error) {
 		}
 		for i := start; i <= end; i++ {
 			pages = append(pages, i)
+		}
+	}
+	return pages, nil
+}
+
+func Range(pageStr string) ([]string, error) {
+	ranges := strings.Split(pageStr, ",")
+	var pages []string
+	for _, r := range ranges {
+		r = strings.TrimSpace(r)
+		if !strings.Contains(r, "-") {
+			page, err := PageNumber(r)
+			if err == nil {
+				r = fmt.Sprintf("%d", page)
+			}
+			pages = append(pages, r)
+			continue
+		}
+		bounds := strings.Split(r, "-")
+		if len(bounds) != 2 {
+			continue
+		}
+		start, err := PageNumber(bounds[0])
+		if err != nil {
+			return nil, err
+		}
+		end, err := PageNumber(bounds[1])
+		if err != nil {
+			return nil, err
+		}
+		if end < start {
+			return nil, fmt.Errorf("invalid page number range: %s", r)
+		}
+		for i := start; i <= end; i++ {
+			pages = append(pages, fmt.Sprintf("%d", i))
 		}
 	}
 	return pages, nil

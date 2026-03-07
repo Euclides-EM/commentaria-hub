@@ -138,7 +138,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 		}
 
 		newStatus := feature.ExecutionStatusSuccess
-		err = fe.featureResultsSvc.CreateResults(results)
+		err = fe.featureResultsSvc.CreateResults(results, lo.IfF(exec.Policy != nil, func() bool { return exec.Policy.PushToOrigin }).Else(false))
 		if err != nil {
 			log.Printf("failed to create result for execution %s: %v\n", executionID, err)
 			newStatus = feature.ExecutionStatusFailed

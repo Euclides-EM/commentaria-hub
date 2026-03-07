@@ -20,7 +20,7 @@ interface ExportAnnotationModalProps {
   isOpen: boolean
   onClose: () => void
   exportTargets?: ExportAnnotationTarget[]
-  defaultGroundTruthChecked?: boolean
+  onSuccess?: () => void
 }
 
 export type ExportAnnotationTarget = {
@@ -29,16 +29,13 @@ export type ExportAnnotationTarget = {
 }
 
 type RoboflowSettings = Required<
-  Pick<
-    integration_JobTarget,
-    'api_key' | 'workspace_url' | 'project_id' | 'is_not_ground_truth'
-  >
+  Pick<integration_JobTarget, 'api_key' | 'workspace_url' | 'project_id'>
 >
 
 type EscriptoriumSettings = Required<
   Pick<
     integration_JobTarget,
-    'base_path' | 'document' | 'username' | 'password' | 'is_not_ground_truth'
+    'base_path' | 'document' | 'username' | 'password'
   >
 >
 
@@ -56,7 +53,7 @@ export function ExportAnnotationModal({
   isOpen,
   onClose,
   exportTargets,
-  defaultGroundTruthChecked = false,
+  onSuccess,
 }: ExportAnnotationModalProps) {
   const queryClient = useQueryClient()
   const { annotation } = useAppState()
@@ -68,7 +65,6 @@ export function ExportAnnotationModal({
         api_key: '',
         workspace_url: 'mia-workplace',
         project_id: '',
-        is_not_ground_truth: false,
       },
     },
   )
@@ -79,7 +75,6 @@ export function ExportAnnotationModal({
         document: '',
         username: '',
         password: '',
-        is_not_ground_truth: false,
       },
     })
   const [commentaria, setCommentaria] =
@@ -100,18 +95,8 @@ export function ExportAnnotationModal({
     if (isOpen) {
       setError(null)
       setLoading(false)
-      if (defaultGroundTruthChecked) {
-        setRoboflow((prev) => ({
-          ...prev,
-          is_not_ground_truth: false,
-        }))
-        setEscriptorium((prev) => ({
-          ...prev,
-          is_not_ground_truth: false,
-        }))
-      }
     }
-  }, [defaultGroundTruthChecked, isOpen, setEscriptorium, setRoboflow])
+  }, [isOpen])
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -138,7 +123,6 @@ export function ExportAnnotationModal({
               api_key: roboflow.api_key,
               workspace_url: roboflow.workspace_url,
               project_id: roboflow.project_id,
-              is_not_ground_truth: roboflow.is_not_ground_truth,
             }
           : mode === 'commentaria'
             ? {
@@ -153,7 +137,6 @@ export function ExportAnnotationModal({
                 document: escriptorium.document,
                 username: escriptorium.username,
                 password: escriptorium.password,
-                is_not_ground_truth: escriptorium.is_not_ground_truth,
               }
 
       await IntegrationService.postIntegrationsJobs({
@@ -172,6 +155,7 @@ export function ExportAnnotationModal({
       void queryClient.invalidateQueries({
         queryKey: runningIntegrationJobsQueryKey(),
       })
+      onSuccess?.()
       onClose()
     } catch (e) {
       console.error('Failed to export annotation:', e)
@@ -279,21 +263,6 @@ export function ExportAnnotationModal({
                   required
                 />
               </div>
-              <label className="flex items-center gap-2 text-sm text-gray-700">
-                <input
-                  type="checkbox"
-                  checked={roboflow.is_not_ground_truth}
-                  onChange={(e) =>
-                    setRoboflow((prev) => ({
-                      ...prev,
-                      is_not_ground_truth: !e.target.checked,
-                    }))
-                  }
-                  className="h-4 w-4"
-                  disabled={loading}
-                />
-                Mark as ground truth
-              </label>
             </div>
           )}
 
@@ -376,21 +345,6 @@ export function ExportAnnotationModal({
                   required
                 />
               </div>
-              <label className="flex items-center gap-2 text-sm text-gray-700">
-                <input
-                  type="checkbox"
-                  checked={escriptorium.is_not_ground_truth}
-                  onChange={(e) =>
-                    setEscriptorium((prev) => ({
-                      ...prev,
-                      is_not_ground_truth: !e.target.checked,
-                    }))
-                  }
-                  className="h-4 w-4"
-                  disabled={loading}
-                />
-                Mark as ground truth
-              </label>
             </div>
           )}
 

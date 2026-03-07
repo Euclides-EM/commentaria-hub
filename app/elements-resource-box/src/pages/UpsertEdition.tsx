@@ -775,7 +775,7 @@ export const UpsertEdition = () => {
       try {
         value.bibliography = value.bibliography.filter((b) => b);
         deepTrim(value);
-        await upsertEdition(toModelEdition(value), images);
+        await upsertEdition(toModelEdition(value), images, { isNew: !key });
         navigateWithQuery(CATALOGUE_ROUTE);
       } catch (err) {
         console.error(err);

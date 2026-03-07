@@ -13,6 +13,8 @@ import { getStageDisplayName } from '../utils/stages.ts'
 import { Button } from './core/Button.tsx'
 
 const Separator = () => <span className="bg-gray-600 w-px h-fill mx-2" />
+const HIDDEN_FILTER = '__hidden__' as const
+type AnnotationFilterItem = annotationrule_PipelineStage | typeof HIDDEN_FILTER
 
 export function BreadcrumbNav() {
   const { state, setState } = useAppState()
@@ -22,22 +24,38 @@ export function BreadcrumbNav() {
     useAnnotationsQuery(state.datasetId)
   const { data: stages } = usePipelineStages()
   const [selectedStages, setSelectedStages] = useLocalStorageState<
-    annotationrule_PipelineStage[] | null
+    AnnotationFilterItem[] | null
   >('annotationFilterStages', {
     defaultValue: null,
   })
 
+  const stageFilterItems = useMemo<AnnotationFilterItem[]>(
+    () => [...(stages || []), HIDDEN_FILTER],
+    [stages],
+  )
+  const effectiveSelectedStages = useMemo<AnnotationFilterItem[] | null>(() => {
+    if (selectedStages != null) {
+      return selectedStages
+    }
+    return stages || null
+  }, [selectedStages, stages])
   const filteredAnnotations = useMemo(() => {
     if (!annotations) {
       return []
     }
-    return annotations.filter(
-      (a) =>
-        selectedStages == null ||
+    const includeHidden =
+      effectiveSelectedStages?.includes(HIDDEN_FILTER) ?? false
+    return annotations.filter((a) => {
+      if (a.hidden && !includeHidden) {
+        return false
+      }
+      return (
+        effectiveSelectedStages == null ||
         !a.pipeline_stage ||
-        selectedStages.includes(a.pipeline_stage),
-    )
-  }, [annotations, selectedStages])
+        effectiveSelectedStages.includes(a.pipeline_stage)
+      )
+    })
+  }, [annotations, effectiveSelectedStages])
 
   const datasetOptions = useMemo(() => {
     if (!datasets) return []
@@ -51,19 +69,35 @@ export function BreadcrumbNav() {
   }, [datasets])
 
   const annotationOptions = useMemo(() => {
-    return filteredAnnotations
+    const options = filteredAnnotations
       .filter((a) => !!a.id)
       .map((a) => ({
         value: a.id as string,
         label: a.name || (a.id as string),
       }))
-      .sort((a, b) => a.label.localeCompare(b.label))
-  }, [filteredAnnotations])
+    if (state.annotationId && annotations) {
+      const selectedAnnotation = annotations.find(
+        (a) => a.id === state.annotationId,
+      )
+      if (
+        selectedAnnotation?.id &&
+        !options.some((option) => option.value === selectedAnnotation.id)
+      ) {
+        options.push({
+          value: selectedAnnotation.id,
+          label: selectedAnnotation.name || selectedAnnotation.id,
+        })
+      }
+    }
+    return options.sort((a, b) => a.label.localeCompare(b.label))
+  }, [annotations, filteredAnnotations, state.annotationId])
 
   const selectedDataset =
     datasetOptions.find((d) => d.value === state.datasetId) || null
   const selectedAnnotation =
     annotationOptions.find((a) => a.value === state.annotationId) || null
+  const showAnnotationSelect =
+    !!state.datasetId && (annotationsLoading || (annotations?.length ?? 0) > 0)
 
   const handleDatasetChange = (value: string) => {
     setState({ datasetId: value, annotationId: '' })
@@ -93,18 +127,14 @@ export function BreadcrumbNav() {
       </Button>
       <Button
         variant="primary"
-        className={`h-12 w-20 px-2 ${state.viewMode === 'groundTruths' && '!bg-teal-100 hover:!bg-white'}`}
+        className={`h-12 w-24 px-2 ${state.viewMode === 'annotations' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({
-            viewMode: state.viewMode === 'groundTruths' ? null : 'groundTruths',
+            viewMode: state.viewMode === 'annotations' ? null : 'annotations',
           })
         }
       >
-        <span className="leading-tight text-center">
-          Ground
-          <br />
-          Truths
-        </span>
+        Annotations
       </Button>
       <Button
         variant="primary"
@@ -141,7 +171,7 @@ export function BreadcrumbNav() {
         />
       </div>
 
-      {state.datasetId && (
+      {showAnnotationSelect && (
         <div className="flex items-center gap-2 flex-nowrap shrink-0">
           <div className="h-3 w-3 rotate-[-45deg] border-b border-r border-slate-600" />
 
@@ -167,15 +197,40 @@ export function BreadcrumbNav() {
             />
           </div>
 
-          {stages && (
-            <MultiSelectDropdown
-              allItems={stages}
-              selectedItems={selectedStages}
-              setSelectedItems={setSelectedStages}
-              itemsLabel="stages"
-              getItemLabel={(stage) => getStageDisplayName(stage)}
-            />
-          )}
+          <MultiSelectDropdown
+            allItems={stageFilterItems}
+            selectedItems={effectiveSelectedStages}
+            setSelectedItems={setSelectedStages}
+            itemsLabel="stages"
+            bulkActionItems={stages || []}
+            bulkActionLabel="stages"
+            showSeparatorBeforeItem={(item) => item === HIDDEN_FILTER}
+            getItemLabel={(item) =>
+              item === HIDDEN_FILTER ? 'Hidden' : getStageDisplayName(item)
+            }
+            getPickerLabel={({ selectedItems }) => {
+              const selected = selectedItems ?? stageFilterItems
+              const allStageCount = stages?.length ?? 0
+              const selectedStages = (stages || []).filter((stage) =>
+                selected.includes(stage),
+              )
+              const isHiddenSelected = selected.includes(HIDDEN_FILTER)
+
+              if (
+                allStageCount > 0 &&
+                selectedStages.length === allStageCount
+              ) {
+                return 'All stages'
+              }
+              if (selectedStages.length === 0) {
+                return isHiddenSelected ? 'Hidden' : 'None'
+              }
+              if (selectedStages.length === 1) {
+                return getStageDisplayName(selectedStages[0])
+              }
+              return `${selectedStages.length} stages`
+            }}
+          />
         </div>
       )}
     </div>

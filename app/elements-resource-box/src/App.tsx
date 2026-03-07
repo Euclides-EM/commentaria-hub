@@ -16,8 +16,10 @@ import { UpsertEdition } from "./pages/UpsertEdition.tsx";
 import {
   CATALOGUE_ROUTE,
   DIAGRAMS_ROUTE,
+  GALLERY_ROUTE,
   HOME_ROUTE,
   ITEM_EDIT_ROUTE,
+  LEGACY_EDITIONS_ROUTE,
   MAP_ROUTE,
   PRESENTATION_ROUTE,
   TITLE_PAGES_ROUTE,
@@ -58,7 +60,18 @@ export function App() {
           path={HOME_ROUTE}
           element={inEuclidesMode() ? <HomeCommentaria /> : <HomeResourceBox />}
         />
-        <Route path={TITLE_PAGES_ROUTE} element={<Gallery />} />
+        <Route
+          path={GALLERY_ROUTE}
+          element={<Gallery titlePagesModeOn={false} />}
+        />
+        <Route
+          path={TITLE_PAGES_ROUTE}
+          element={<Gallery titlePagesModeOn={true} />}
+        />
+        <Route
+          path={LEGACY_EDITIONS_ROUTE}
+          element={<Navigate replace to={GALLERY_ROUTE} />}
+        />
         <Route path={CATALOGUE_ROUTE} element={<Catalogue />} />
         <Route path={TRENDS_ROUTE} element={<Trends />} />
         <Route path={PRESENTATION_ROUTE} element={<Presentation />} />

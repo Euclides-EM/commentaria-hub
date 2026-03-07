@@ -60,11 +60,11 @@ type TextLine struct {
 	Height   float64 `xml:"HEIGHT,attr"`
 	Baseline string  `xml:"BASELINE,attr,omitempty"`
 	// child elements
-	Shape   Shape        `xml:"Shape"`
-	Strings []AltoString `xml:"http://www.loc.gov/standards/alto/ns-v4# String"`
+	Shape   Shape    `xml:"Shape"`
+	Strings []String `xml:"http://www.loc.gov/standards/alto/ns-v4# String"`
 }
 
-type AltoString struct {
+type String struct {
 	// Change this tag to match the XML exactly
 	Content string  `xml:"CONTENT,attr"`
 	HPOS    float64 `xml:"HPOS,attr,omitempty"`
@@ -79,7 +79,7 @@ type Line struct {
 	TagRefs  string
 	HPOS     float64
 	VPOS     float64
-	Strings  []AltoString
+	Strings  []String
 	Height   float64
 	LineID   string
 	BlockVP  float64

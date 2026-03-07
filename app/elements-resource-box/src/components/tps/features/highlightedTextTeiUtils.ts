@@ -1,5 +1,6 @@
 import { buildTextHtml } from "./highlightedTextRenderUtils";
 import type { HighlightSpan } from "./highlightedTextTypes";
+import type { feature_Feature } from "@hub-api";
 
 const TEI_NS = "http://www.tei-c.org/ns/1.0";
 const XML_NS = "http://www.w3.org/XML/1998/namespace";
@@ -22,14 +23,19 @@ const getXmlId = (element: Element) =>
 const resolveFeatureKey = (
   categoryId: string,
   categoryLabel: string,
-  selectedFeatures: string[],
+  featuresById: Record<string, feature_Feature>,
 ) => {
+  const selectedFeatures = Object.keys(featuresById);
   if (selectedFeatures.length === 0) {
     return categoryId;
   }
   const byNormalized = new Map<string, string>();
   selectedFeatures.forEach((featureKey) => {
-    byNormalized.set(normalizeKey(featureKey), featureKey);
+    const feature = featuresById[featureKey];
+    [featureKey, feature?.name || ""]
+      .map((value) => normalizeKey(value))
+      .filter(Boolean)
+      .forEach((value) => byNormalized.set(value, featureKey));
   });
 
   const candidates = [
@@ -52,7 +58,7 @@ const resolveFeatureKey = (
 
 export const parseTeiToSpans = (
   tei: string,
-  selectedFeatures: string[],
+  featuresById: Record<string, feature_Feature>,
 ): { baseHtml: string; spans: HighlightSpan[]; text: string } | null => {
   const parser = new DOMParser();
   const doc = parser.parseFromString(tei, "text/xml");
@@ -61,7 +67,7 @@ export const parseTeiToSpans = (
     return null;
   }
 
-  const selectedSet = new Set(selectedFeatures);
+  const selectedSet = new Set(Object.keys(featuresById));
   const body = doc.getElementsByTagNameNS(TEI_NS, "body")[0];
   if (!body) {
     return null;
@@ -174,7 +180,7 @@ export const parseTeiToSpans = (
       const featureKey = resolveFeatureKey(
         categoryId,
         categoryLabel,
-        selectedFeatures,
+        featuresById,
       );
       if (!featureKey) {
         return;
@@ -220,6 +226,17 @@ export const parseTeiToSpans = (
       start: Math.max(0, span.start),
       end: Math.min(trimmedText.length, span.end),
     }))
+    .map((span) => {
+      let start = span.start;
+      let end = span.end;
+      while (start < end && /\s/.test(trimmedText[start])) {
+        start += 1;
+      }
+      while (end > start && /\s/.test(trimmedText[end - 1])) {
+        end -= 1;
+      }
+      return { ...span, start, end };
+    })
     .filter((span) => span.end > span.start)
     .map((span) => ({
       ...span,

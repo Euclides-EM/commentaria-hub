@@ -1,19 +1,49 @@
 import { ImagePane } from './ImagePane.tsx'
 import { TeiPane } from './tei/TeiPane.tsx'
+import type { TeiSurfaceZone } from './tei/tei.ts'
 import { AnnotationNavigation } from './AnnotationNavigation.tsx'
 import { useAppState } from '../../../context/useAppState.ts'
 import { useEffect, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 
+const normalizeMatchIds = (ids: string[]) =>
+  [...new Set(ids.map((id) => id.trim()).filter(Boolean))].sort()
+
 export function AnnotationContentsTab() {
-  const { annotation, dataset } = useAppState()
+  const {
+    annotation,
+    dataset,
+    state: { annotationId, currentPageOrKey, datasetId },
+  } = useAppState()
   const showTeiPane = !!annotation?.ocred || !!dataset?.edition_id
   const [imagePaneWidth, setImagePaneWidth] = useLocalStorageState(
     'imagePaneWidth',
-    { defaultValue: 560 },
+    { defaultValue: 560, storageSync: false },
   )
   const [isResizingImagePane, setIsResizingImagePane] = useState(false)
+  const [hoverSyncEnabled, setHoverSyncEnabled] = useLocalStorageState(
+    'hoverSyncEnabled',
+    { defaultValue: true, storageSync: false },
+  )
+  const [activeLineMatchIds, setActiveLineMatchIds] = useState<string[]>([])
+  const [surfaceZones, setSurfaceZones] = useState<TeiSurfaceZone[]>([])
   const contentRef = useRef<HTMLDivElement | null>(null)
+
+  const handleHoverLineMatchIds = (ids: string[]) => {
+    const normalized = normalizeMatchIds(ids)
+    setActiveLineMatchIds((previous) =>
+      normalizeMatchIds(previous).join('|') === normalized.join('|')
+        ? previous
+        : normalized,
+    )
+  }
+
+  const handleEnableHoverSyncChange = (enabled: boolean) => {
+    setHoverSyncEnabled(enabled)
+    if (!enabled) {
+      setActiveLineMatchIds([])
+    }
+  }
 
   useEffect(() => {
     const clampWidth = (value: number) => {
@@ -78,13 +108,25 @@ export function AnnotationContentsTab() {
           }
         >
           <ImagePane
+            key={`${datasetId}:${annotationId}:${String(currentPageOrKey)}`}
             showResizeHandle={showTeiPane}
             onResizeStart={() => setIsResizingImagePane(true)}
+            surfaceZones={surfaceZones}
+            activeLineMatchIds={hoverSyncEnabled ? activeLineMatchIds : []}
+            enableHoverSync={hoverSyncEnabled}
+            onHoverLineMatchIds={handleHoverLineMatchIds}
           />
         </div>
         {showTeiPane && (
           <div className="flex-1 min-w-0 min-h-0 h-full">
-            <TeiPane />
+            <TeiPane
+              key={`${datasetId}:${annotationId}:${String(currentPageOrKey)}`}
+              activeLineMatchIds={activeLineMatchIds}
+              enableHoverSync={hoverSyncEnabled}
+              onHoverLineMatchIds={handleHoverLineMatchIds}
+              onEnableHoverSyncChange={handleEnableHoverSyncChange}
+              onSurfaceZonesChange={setSurfaceZones}
+            />
           </div>
         )}
       </div>

@@ -6,6 +6,7 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 func DeleteLines(src, dst string) error {
@@ -75,15 +76,19 @@ func DeleteLines(src, dst string) error {
 			return fmt.Errorf("decode token: %w", err)
 		}
 
+		// ✅ Do not re-emit an XML declaration from the input stream
+		if pi, ok := tok.(xml.ProcInst); ok {
+			if strings.EqualFold(pi.Target, "xml") {
+				continue
+			}
+		}
+
 		switch se := tok.(type) {
 		case xml.StartElement:
-			// Match by local name so namespaces do not matter
 			if se.Name.Local == "TextLine" {
-				// Skip this entire <TextLine>...</TextLine> subtree
 				if err := skipElement(dec); err != nil {
 					return fmt.Errorf("skip TextLine: %w", err)
 				}
-				// Do not write the start token or any of its contents
 				continue
 			}
 		}

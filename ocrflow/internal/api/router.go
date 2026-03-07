@@ -10,31 +10,34 @@ import (
 )
 
 type Dependencies struct {
-	Env                 *config.EnvConfig
-	HealthSvc           *service.Health
-	EditionSvc          *service.Edition
-	FacsimileSvc        *service.Facsimile
-	DatasetSvc          *service.Dataset
-	DatasetImgSvc       *service.DatasetImg
-	AnnotationSvc       *service.Annotation
-	ModelSvc            *service.Model
-	TrainSvc            *service.Train
-	MetadataDetailsSvc  *service.MetadataDetails
-	MetaStoreManager    *service.MetaStoreManager
-	AnnotationsUploader *service.AnnotationsUploader
-	AnnotationTEI       *service.AnnotationTEI
-	EditionTEI          *service.EditionTEI
-	AnnotationSearch    *service.AnnotationSearch
-	FeatureSvc          *service.Feature
-	FeatureRevisionSvc  *service.Revision
-	FeatureExecutionSvc *service.Execution
-	FeatureResultSvc    *service.Result
-	FeaturePropertySvc  *service.FeatureProperty
-	DiagramCropsSvc     *service.DiagramCrops
-	USTC                *service.USTC
-	IntegrationJobSvc   *service.IntegrationJob
-	GeoSvc              *service.Geo
-	VCSMgt              *service.VCSMgt
+	Env                     *config.EnvConfig
+	HealthSvc               *service.Health
+	EditionSvc              *service.Edition
+	FacsimileSvc            *service.Facsimile
+	DatasetSvc              *service.Dataset
+	DatasetImgSvc           *service.DatasetImg
+	AnnotationSvc           *service.Annotation
+	AnnotationGroupSvc      *service.AnnotationGroup
+	ModelSvc                *service.Model
+	TrainSvc                *service.Train
+	MetadataDetailsSvc      *service.MetadataDetails
+	MetaStoreManager        *service.MetaStoreManager
+	AnnotationsUploader     *service.AnnotationsUploader
+	AnnotationTEI           *service.AnnotationTEI
+	EditionTEI              *service.EditionTEI
+	EditionTranscriptionSvc *service.EditionTranscription
+	AnnotationSearch        *service.AnnotationSearch
+	FeatureSvc              *service.Feature
+	FeatureRevisionSvc      *service.Revision
+	FeatureExecutionSvc     *service.Execution
+	FeatureResultSvc        *service.Result
+	FeaturePropertySvc      *service.FeatureProperty
+	DiagramCropsSvc         *service.DiagramCrops
+	USTC                    *service.USTC
+	IntegrationJobSvc       *service.IntegrationJob
+	GeoSvc                  *service.Geo
+	VCSMgt                  *service.VCSMgt
+	BackupSvc               *service.Backup
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -51,12 +54,19 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/catalogs/ustc/lookup", httpwrapper.Create(h.USTCLookup).Build())
 	api.HandleFunc("/cities", httpwrapper.Get(h.ListCities).Build())
 
+	api.HandleFunc("/backups", httpwrapper.Get(h.ListBackups).Create(h.CreateBackup).Build())
+	api.HandleFunc("/backups/fromzip", httpwrapper.CreateFile(h.CreateBackupFromZip).Build())
+	api.HandleFunc("/backups/{backupId}", httpwrapper.GetZip(h.DownloadBackup).Build())
+	api.HandleFunc("/backups/{backupId}/restore", httpwrapper.Update(h.RestoreLatestBackup).Build())
+
 	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
 	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())
 	api.HandleFunc("/editions/{editionId}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
 	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
 	api.HandleFunc("/editions/{editionId}/diagrams", httpwrapper.Get(h.GetEditionDiagramCrops).Build())
 	api.HandleFunc("/editions/{editionId}/tei/{pageNum}", httpwrapper.GetXML(h.GetEditionTEI).Build())
+	api.HandleFunc("/editions/transcriptions", httpwrapper.Get(h.ListEditionTranscriptionsDetails).Build())
+	api.HandleFunc("/editions/{editionId}/transcriptions", httpwrapper.Update(h.UpdateEditionTranscriptionsDetails).Build())
 
 	api.HandleFunc("/facsimilies", httpwrapper.Get(h.ListFacsimiles).Create(h.CreateFacsimile).Build())
 	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Build())
@@ -78,7 +88,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/categories", httpwrapper.Get(h.ListAnnotationCategories).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply", httpwrapper.Update(h.ApplyRules).Build())
-	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/segment", httpwrapper.Update(h.ApplyRuleSegment).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/model_detect", httpwrapper.Update(h.ApplyRuleModelDetect).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/slice_pages", httpwrapper.Update(h.ApplyRuleSlicePages).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/stretch", httpwrapper.Update(h.ApplyRuleStretch).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/add_margin", httpwrapper.Update(h.ApplyRuleAddMargin).Build())
@@ -101,6 +111,9 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions", httpwrapper.Get(h.ListFeatureRevisions).Create(h.CreateFeatureRevision).Build())
 	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions/{revisionId}", httpwrapper.Get(h.GetFeatureRevision).Build())
+
+	api.HandleFunc("/annotation_groups", httpwrapper.Get(h.ListAnnotationGroups).Create(h.CreateAnnotationGroup).Build())
+	api.HandleFunc("/annotation_groups/{groupId}", httpwrapper.Get(h.GetAnnotationGroup).Update(h.UpdateAnnotationGroup).Delete(h.DeleteAnnotationGroup).Build())
 
 	api.HandleFunc("/features/properties", httpwrapper.Get(h.ListFeatureProperties).Build())
 	api.HandleFunc("/features/executions", httpwrapper.Get(h.ListExecutions).Create(h.CreateExecution).Build())

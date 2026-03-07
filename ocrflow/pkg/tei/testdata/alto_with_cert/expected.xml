@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Converted from lines</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished research data</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Derived from extracted text lines</p>
+      </sourceDesc>
+    </fileDesc>
+    <standOff>
+      <certainty target="#line_page_page1_1_1" locus="value" degree="0.997"/>
+    </standOff>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="page_page1" n="page1">
+      <zone xml:id="zone_blk_page_page1_1" type="text-block" ulx="100" uly="200" lrx="900" lry="240" corresp="alto:textblock:b1"></zone>
+      <zone xml:id="z_line_page_page1_1_1" type="text-line" ulx="100" uly="200" lrx="900" lry="240" corresp="alto:textline:l1"></zone>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <pb facs="#page_page1" n="page1"></pb>
+      <div type="transcription" n="page1">
+        <ab xml:id="transcription_anon_blk_page_page1_1" facs="#zone_blk_page_page1_1" type="transcription-block">
+          <l xml:id="line_page_page1_1_1" facs="#z_line_page_page1_1_1">Hello world.</l>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

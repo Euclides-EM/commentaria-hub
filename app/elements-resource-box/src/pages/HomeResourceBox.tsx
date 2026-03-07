@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 import { Container, Row, Text } from "../components/common";
 import { LAND_COLOR, MARKER_4, MARKER_5, PANE_COLOR } from "../utils/colors.ts";
 import {
-  CATALOGUE_ROUTE,
   MAIN_CONTENT_ID,
   NAVBAR_HEIGHT,
   TITLE_PAGES_ROUTE,
@@ -275,27 +274,27 @@ export function HomeResourceBox() {
         />
         <Card
           title="Title Pages Experiment"
-          onClick={() => navigateWithQuery(CATALOGUE_ROUTE)}
+          onClick={() => navigateWithQuery(TITLE_PAGES_ROUTE)}
           icon={<GiHolySymbol />}
           color={MARKER_5}
           imageSrc={`${import.meta.env.VITE_BACKEND_URL}/store/data/tps/imgs/Paris_1622_tp.jpeg`}
           imageOnLeft={true}
           text={
             <div>
-              The Gallery tab includes a toggle that lets you view an experiment
-              in analyzing the title pages of the editions. This experiment is
-              based on the idea that title pages serve multiple roles. They
-              designate the book’s identity and can be viewed as an instrument
-              of intellectual and commercial positioning, they can reflect
-              contemporary aesthetic and typographical conventions and they
-              advertise the book’s contents to its intended audience and encode
-              broader intellectual and disciplinary priorities. In the case of
-              mathematical works such as <i>Elements</i>, title pages can reveal
-              the pedagogical and epistemological frameworks and networks within
-              which mathematics was studied, taught, and disseminated. Thus,
-              they can offer insight into both the circulation of{" "}
-              <i>Elements</i> and the social, intellectual, and commercial
-              forces shaping its transmission.
+              The Title Pages tab presents an experiment in analyzing the title
+              pages of the editions. This experiment is based on the idea that
+              title pages serve multiple roles. They designate the book’s
+              identity and can be viewed as an instrument of intellectual and
+              commercial positioning, they can reflect contemporary aesthetic
+              and typographical conventions and they advertise the book’s
+              contents to its intended audience and encode broader intellectual
+              and disciplinary priorities. In the case of mathematical works
+              such as <i>Elements</i>, title pages can reveal the pedagogical
+              and epistemological frameworks and networks within which
+              mathematics was studied, taught, and disseminated. Thus, they can
+              offer insight into both the circulation of <i>Elements</i> and the
+              social, intellectual, and commercial forces shaping its
+              transmission.
             </div>
           }
         />

@@ -1,17 +1,20 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AnnotationDetailsTab } from './annotation/details/AnnotationDetailsTab.tsx'
 import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsTab.tsx'
 import { FeatureExecutionsTab } from './annotation/featureExecutions/FeatureExecutionsTab.tsx'
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
+import { useQuery } from '@tanstack/react-query'
+import { FeaturesService } from '@hub-api'
 import { ModelsTable } from './models/ModelsTable.tsx'
-import { GroundTruthsTable } from './groundTruths/GroundTruthsTable.tsx'
 import { JobsTable } from './jobs/JobsTable.tsx'
+import { BackupsView } from './backups/BackupsView.tsx'
 import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
 import { useAuthStore } from '../store/authStore.ts'
 import { TabButton } from './core/TabButton.tsx'
+import { AnnotationsTable } from './annotations/AnnotationsTable.tsx'
 
 type Tab = 'details' | 'text' | 'featureExecutions'
 
@@ -25,15 +28,39 @@ export function Main() {
   const [isCreateDatasetOpen, setIsCreateDatasetOpen] = useState(false)
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const { state } = useAppState()
+  const featuresQuery = useQuery({
+    queryKey: ['features', 'definitions', state.datasetId],
+    queryFn: () =>
+      FeaturesService.getDatasetsFeatures({
+        dataSetId: state.datasetId!,
+      }),
+    enabled: Boolean(state.datasetId && state.annotationId),
+    refetchOnWindowFocus: false,
+  })
+  const hasDatasetFeatures = (featuresQuery.data?.length ?? 0) > 0
+  const showFeatureExecutionsTab = featuresQuery.isLoading || hasDatasetFeatures
+
+  useEffect(() => {
+    if (
+      activeTab === 'featureExecutions' &&
+      !featuresQuery.isLoading &&
+      !hasDatasetFeatures
+    ) {
+      setActiveTab('details')
+    }
+  }, [activeTab, featuresQuery.isLoading, hasDatasetFeatures, setActiveTab])
 
   if (state.viewMode === 'models') {
     return <ModelsTable />
   }
-  if (state.viewMode === 'groundTruths') {
-    return <GroundTruthsTable />
+  if (state.viewMode === 'annotations') {
+    return <AnnotationsTable />
   }
   if (state.viewMode === 'jobs') {
     return <JobsTable />
+  }
+  if (state.viewMode === 'backups') {
+    return <BackupsView />
   }
 
   if (!state.datasetId) {
@@ -82,16 +109,20 @@ export function Main() {
           title="Annotation Contents"
           isActive={activeTab === 'text'}
         />
-        <TabButton
-          onSelected={() => setActiveTab('featureExecutions')}
-          title="Feature Executions"
-          isActive={activeTab === 'featureExecutions'}
-        />
+        {showFeatureExecutionsTab && (
+          <TabButton
+            onSelected={() => setActiveTab('featureExecutions')}
+            title="Feature Executions"
+            isActive={activeTab === 'featureExecutions'}
+          />
+        )}
       </div>
       <div className="flex-1 overflow-auto">
         {activeTab === 'details' && <AnnotationDetailsTab />}
         {activeTab === 'text' && <AnnotationContentsTab />}
-        {activeTab === 'featureExecutions' && <FeatureExecutionsTab />}
+        {activeTab === 'featureExecutions' && showFeatureExecutionsTab && (
+          <FeatureExecutionsTab />
+        )}
       </div>
     </div>
   )

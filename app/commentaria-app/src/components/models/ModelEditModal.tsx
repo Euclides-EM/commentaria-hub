@@ -1,6 +1,6 @@
 import { useMemo, useState, type FormEvent } from 'react'
 import type { model_Model } from '@hub-api'
-import type { model_AnnotationReference } from '@hub-api'
+import type { annotation_Reference } from '@hub-api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { ListAdder } from '../core/ListAdder'
@@ -22,7 +22,7 @@ const emptyRow = (id: number): BaseAnnotationRow => ({
 })
 
 function refsToRows(
-  refs: model_AnnotationReference[] | undefined,
+  refs: annotation_Reference[] | undefined,
   startId: number,
 ): { rows: BaseAnnotationRow[]; nextId: number } {
   if (!refs?.length) return { rows: [], nextId: startId }
@@ -44,7 +44,7 @@ interface ModelEditModalProps {
     type: string
     algorithm_family?: string
     base_model_id?: string
-    base_annotations?: model_AnnotationReference[]
+    base_annotations?: annotation_Reference[]
   }) => void
   isSaving?: boolean
   errorMessage?: string | null
@@ -136,7 +136,7 @@ function ModelEditModalContent({
       setError('Please provide a model name.')
       return
     }
-    const base_annotations: model_AnnotationReference[] = baseAnnotationRows
+    const base_annotations: annotation_Reference[] = baseAnnotationRows
       .filter(
         (
           row,
@@ -162,7 +162,7 @@ function ModelEditModalContent({
       onClick={onClose}
     >
       <form
-        className="bg-white rounded-lg max-w-xl w-full max-h-[85vh] flex flex-col m-4"
+        className="bg-white rounded-lg max-w-2xl w-full max-h-[85vh] flex flex-col m-4"
         onClick={(e) => e.stopPropagation()}
         onSubmit={handleSubmit}
       >

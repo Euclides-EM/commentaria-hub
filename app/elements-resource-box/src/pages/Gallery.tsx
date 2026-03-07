@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import useLocalStorageState from "use-local-storage-state";
 import { Mode } from "../types";
@@ -13,32 +13,24 @@ import {
 import { TILE_HEIGHT, TILE_WIDTH, TITLE_PAGES_DATASET_ID } from "../constants";
 import { IoWarning } from "react-icons/io5";
 import styled from "@emotion/styled";
-import Switch from "react-switch";
-import { LAND_COLOR, MARKER_3 } from "../utils/colors.ts";
+import { LAND_COLOR } from "../utils/colors.ts";
 import { Stats } from "../components/Stats.tsx";
-import { inEuclidesMode } from "../utils/mode.ts";
 import { MAIN_CONTENT_ID } from "../components/layout/routes.ts";
 import { groupByMap } from "../utils/util.ts";
 import { useEditionsSearchInfinite } from "../hooks/useEditionsSearch.ts";
 import { feature_Feature } from "@hub-api";
 import { FeaturesService } from "@hub-api";
-import { Radio } from "../components/tps/filters/Radio.tsx";
 import { MultiSelect } from "../components/tps/filters/MultiSelect.tsx";
 import { ItemView } from "../components/tps/features/ItemView.tsx";
+import { ItemModal } from "../components/tps/modal/ItemModal.tsx";
+import type { Item } from "../types";
+import { useAutoOpenEditionFromQuery } from "../hooks/useAutoOpenEditionFromQuery.ts";
 
 const NoteLine = styled(Row)`
   opacity: 0.8;
 `;
 
-const SearchInput = styled.input`
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  border: 1px solid #ccc;
-  width: 100%;
-  font-size: 1rem;
-`;
-
-export function Gallery() {
+export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
   const { items, isLoading, fetchNextPage, hasNextPage, isFetchingNextPage } =
     useEditionsSearchInfinite({
       pageSize: 25,
@@ -48,32 +40,21 @@ export function Gallery() {
       ],
     });
 
-  const [titlePagesModeOn, setTitlePagesModeOn] = useLocalStorageState<boolean>(
-    "tp-on",
-    {
-      defaultValue: false,
-    },
-  );
-  const [mode, setMode] = useLocalStorageState<Mode>("tp-mode", {
-    defaultValue: "images",
-  });
   const [selectedFeatureIds, setSelectedFeatureIds] = useLocalStorageState<
     string[]
   >("tp-features", {
     defaultValue: [],
+    storageSync: false,
   });
-  const [searchText, setSearchText] = useLocalStorageState<string>(
-    "tps-search",
-    { defaultValue: "" },
-  );
+  const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [showScrollTop, setShowScrollTop] = useState(false);
-  const searchInputRef = useRef<HTMLInputElement>(null);
   const featuresQuery = useQuery({
     queryKey: ["title-pages", "features", TITLE_PAGES_DATASET_ID],
     queryFn: () =>
       FeaturesService.getDatasetsFeatures({
         dataSetId: TITLE_PAGES_DATASET_ID,
       }),
+    enabled: titlePagesModeOn,
   });
 
   const {
@@ -139,12 +120,8 @@ export function Gallery() {
       ),
     [featureNameById],
   );
-
-  useEffect(() => {
-    if (!titlePagesModeOn && mode === "texts") {
-      setMode("images");
-    }
-  }, [mode, setMode, titlePagesModeOn]);
+  const mode: Mode = titlePagesModeOn ? "texts" : "images";
+  useAutoOpenEditionFromQuery(items, setSelectedItem);
 
   useEffect(() => {
     if (availableFeatures.length === 0) {
@@ -203,66 +180,16 @@ export function Gallery() {
     });
   };
 
-  const filteredBySearchItems = useMemo(() => {
-    if (!searchText.trim() || !titlePagesModeOn) {
-      return items;
-    }
-
-    const searchLower = searchText.toLowerCase();
-    return items?.filter((item) => {
-      const title = item.title?.toLowerCase() || "";
-      const imprint = item.imprint?.toLowerCase() || "";
-      const titleEn = item.titleEn?.toLowerCase() || "";
-      return (
-        title
-          .replaceAll("\n", " ")
-          .replaceAll("  ", " ")
-          .replaceAll("-", "")
-          .includes(searchLower) ||
-        titleEn
-          .replaceAll("\n", " ")
-          .replaceAll("  ", " ")
-          .replaceAll("-", "")
-          .includes(searchLower) ||
-        imprint
-          .replaceAll("\n", " ")
-          .replaceAll("  ", " ")
-          .replaceAll("-", "")
-          .includes(searchLower) ||
-        item.authors?.some((author) =>
-          author.toLowerCase().includes(searchLower),
-        ) ||
-        item.cities.some((city) => city.toLowerCase().includes(searchLower)) ||
-        item.languages.some((lang) =>
-          lang.toLowerCase().includes(searchLower),
-        ) ||
-        item.year?.toLowerCase().includes(searchLower)
-      );
-    });
-  }, [items, searchText, titlePagesModeOn]);
-
-  const handleKeyDown = useCallback(
-    (e: KeyboardEvent) => {
-      if ((e.ctrlKey || e.metaKey) && e.key === "f") {
-        e.preventDefault();
-        if (titlePagesModeOn && mode === "texts" && searchInputRef.current) {
-          searchInputRef.current.focus();
-        }
-      }
-    },
-    [titlePagesModeOn, mode],
-  );
+  const filteredBySearchItems = items;
 
   useEffect(() => {
     const el = document.getElementById(MAIN_CONTENT_ID);
     el?.addEventListener("scroll", handleScroll);
     handleScroll();
-    window.addEventListener("keydown", handleKeyDown);
     return () => {
       el?.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [handleScroll, handleKeyDown]);
+  }, [handleScroll]);
 
   useEffect(() => {
     const el = document.getElementById(MAIN_CONTENT_ID);
@@ -289,82 +216,44 @@ export function Gallery() {
       )}
       <Column minWidth="min(820px, 90%)">
         <Stats />
-        {!inEuclidesMode() && (
+        {titlePagesModeOn && (
           <>
-            <Row gap={0.5}>
-              Title Pages Experiment View{" "}
-              <Switch
-                onColor={MARKER_3}
-                activeBoxShadow={`0 0 2px 3px ${MARKER_3}`}
-                onChange={() =>
-                  setTitlePagesModeOn((b) => {
-                    if (b) {
-                      setMode("texts");
-                    }
-                    return !b;
-                  })
+            <Row justifyStart noWrap>
+              <Column alignItems="end">
+                <span>Highlight Segments:</span>
+              </Column>
+              <MultiSelect
+                name="Features"
+                value={selectedFeatureIds}
+                options={sortedFeatureIds}
+                labelFn={(featureId) => featureNameById[featureId] || featureId}
+                onChange={(f) =>
+                  setSelectedFeatureIds(sortFeatures(f as string[]))
                 }
-                checked={titlePagesModeOn}
+                colors={featureColors}
+                tooltips={featureTooltips}
+                className="features-multi-select"
               />
+              <ResetButton
+                onClick={() =>
+                  setSelectedFeatureIds(
+                    sortFeatures(
+                      defaultFeatureIds.length > 0
+                        ? defaultFeatureIds
+                        : sortedFeatureIds,
+                    ),
+                  )
+                }
+              >
+                Reset
+              </ResetButton>
             </Row>
-            {titlePagesModeOn && (
-              <>
-                <Radio
-                  name="Show"
-                  options={["Texts", "Images"]}
-                  value={mode === "images"}
-                  onChange={(b) => setMode(b ? "images" : "texts")}
-                />
-                <Row justifyStart noWrap>
-                  <Column alignItems="end">
-                    <span>Highlight Segments:</span>
-                  </Column>
-                  <MultiSelect
-                    name="Features"
-                    value={selectedFeatureIds}
-                    options={sortedFeatureIds}
-                    labelFn={(featureId) =>
-                      featureNameById[featureId] || featureId
-                    }
-                    onChange={(f) =>
-                      setSelectedFeatureIds(sortFeatures(f as string[]))
-                    }
-                    colors={featureColors}
-                    tooltips={featureTooltips}
-                    className="features-multi-select"
-                  />
-                  <ResetButton
-                    onClick={() =>
-                      setSelectedFeatureIds(
-                        sortFeatures(
-                          defaultFeatureIds.length > 0
-                            ? defaultFeatureIds
-                            : sortedFeatureIds,
-                        ),
-                      )
-                    }
-                  >
-                    Reset
-                  </ResetButton>
-                </Row>
-                <NoteLine gap={0.5} noWrap noWrapAlsoOnMobile>
-                  <IoWarning /> Highlighted features were partially identified
-                  using an LLM and may not be accurate.
-                </NoteLine>
-              </>
-            )}
+            <NoteLine gap={0.5} noWrap noWrapAlsoOnMobile>
+              <IoWarning /> Highlighted features were partially identified using
+              an LLM and may not be accurate.
+            </NoteLine>
           </>
         )}
-
-        <Row>
-          <SearchInput
-            ref={searchInputRef}
-            type="text"
-            placeholder="Search in title pages..."
-            value={searchText}
-            onChange={(e) => setSearchText(e.target.value)}
-          />
-        </Row>
       </Column>
       <Row rowGap={6}>
         {filteredBySearchItems == null ||
@@ -413,6 +302,22 @@ export function Gallery() {
         À la Croisée des Hyperliens, chez le scribe fatigué et son félin
         passivement investi, MMXXV.
       </Text>
+      {selectedItem && (
+        <ItemModal
+          item={selectedItem}
+          featuresById={
+            titlePagesModeOn
+              ? groupByMap(
+                  availableFeatures.filter((feat) =>
+                    selectedFeatureIds.includes(feat.id!),
+                  ),
+                  (feat) => feat.id!,
+                )
+              : null
+          }
+          onClose={() => setSelectedItem(null)}
+        />
+      )}
       <div />
     </Container>
   );

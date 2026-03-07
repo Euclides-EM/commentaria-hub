@@ -173,7 +173,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 
 	imgPath := d.fileSysMgt.DatasetImagesDir(ds)
 	convertedPNGsDir := imgPath
-	if ds.Deskewed {
+	if ds.Deskewed || ds.Denoised {
 		var err error
 		convertedPNGsDir, err = os.MkdirTemp("", "ocrflow-dataset-rawimgs-*")
 		if err != nil {
@@ -185,7 +185,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 	var pageList []int
 	if strings.TrimSpace(ds.Pages) != "" {
 		var err error
-		pageList, err = pagesparser.Range(ds.Pages)
+		pageList, err = pagesparser.IntRange(ds.Pages)
 		if err != nil {
 			return nil, fmt.Errorf("invalid pages %q: %w", ds.Pages, err)
 		}
@@ -202,10 +202,28 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 		}
 	}
 
+	currDir := convertedPNGsDir
 	if ds.Deskewed {
-		log.Printf("Deskewing images from %s into %s", convertedPNGsDir, imgPath)
-		if err := formatcov.DeskewPNGs(convertedPNGsDir, imgPath); err != nil {
+		deskewOutDir := imgPath
+		if ds.Denoised {
+			var err error
+			deskewOutDir, err = os.MkdirTemp("", "ocrflow-dataset-deskewed-*")
+			if err != nil {
+				return nil, fmt.Errorf("failed to create temp dir for deskewed images: %w", err)
+			}
+			defer os.RemoveAll(deskewOutDir)
+		}
+		log.Printf("Deskewing images from %s into %s", currDir, deskewOutDir)
+		if err := formatcov.DeskewPNGs(currDir, deskewOutDir); err != nil {
 			return nil, fmt.Errorf("failed to deskew images: %w", err)
+		}
+		currDir = deskewOutDir
+	}
+
+	if ds.Denoised {
+		log.Printf("Denoising images from %s into %s", currDir, imgPath)
+		if err := formatcov.DenoisePNGs(currDir, imgPath); err != nil {
+			return nil, fmt.Errorf("failed to denoise images: %w", err)
 		}
 	}
 
@@ -272,8 +290,8 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	categoriesToExcludeFromLineDetection := []string{
 		"CatchWord",
 		"DigitizationArtefactZone",
-		//"DropCapitalZone",
-		//""DropCapitalZone-Plain",
+		"DropCapitalZone",
+		"DropCapitalZone-Plain",
 		"GraphicZone-Decoration",
 		"GraphicZone-Diagram",
 		"GraphicZone-Table",
@@ -285,7 +303,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	return [][]annotationrule.AnnotationRule{
 		{
 			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
-			annotationrule.NewSegment(lo.TernaryF(suggestedSegModel == nil, func() string { return "" }, func() string { return suggestedSegModel.ID })),
+			annotationrule.NewModelDetect(lo.TernaryF(suggestedSegModel == nil, func() string { return "" }, func() string { return suggestedSegModel.ID })),
 			annotationrule.NewRemoveCategories(categoriesToRemove),
 			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
 			annotationrule.NewResolveOverlapWithPriority("RunningTitleZone", "MainZone-Head--Section", 0.8),

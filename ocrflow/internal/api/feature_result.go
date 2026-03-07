@@ -2,6 +2,7 @@ package api
 
 import (
 	"net/http"
+	"strconv"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
@@ -19,6 +20,7 @@ import (
 // @Param id path string true "Annotation ID"
 // @Param keys query string false "Comma-separated list of keys to filter results"
 // @Param features query string false "Comma-separated list of feature names to filter results"
+// @Param fallback_to_origin query bool false "Whether to fallback to results of the origin annotation if no feature results are found."
 // @Success 200 {array} feature.Result
 // @Router  /datasets/{dataSetId}/annotations/{id}/results [get]
 func (h *Handlers) ListResults(r *http.Request) (any, error) {
@@ -37,7 +39,11 @@ func (h *Handlers) ListResults(r *http.Request) (any, error) {
 			return strings.TrimSpace(s)
 		})
 	}
-	return h.deps.FeatureResultSvc.ListResults(dataSetId, annotationId, keys, features)
+	fallbackToOrigin, err := strconv.ParseBool(r.URL.Query().Get("fallback_to_origin"))
+	if err != nil {
+		fallbackToOrigin = false
+	}
+	return h.deps.FeatureResultSvc.ListResults(dataSetId, annotationId, keys, features, fallbackToOrigin)
 }
 
 // CreateResult godoc
@@ -49,6 +55,7 @@ func (h *Handlers) ListResults(r *http.Request) (any, error) {
 // @Param dataSetId path string true "Dataset ID"
 // @Param id path string true "Annotation ID"
 // @Param result body []feature.Result true "Feature results data"
+// @Param push_to_origin query bool false "Whether to push the created results to the origin annotation."
 // @Success 200 {array} feature.Result
 // @Security BearerAuth
 // @Router /datasets/{dataSetId}/annotations/{id}/results [post]
@@ -79,7 +86,12 @@ func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 		}
 	}
 
-	created, err := h.deps.FeatureResultSvc.CreateResult(result)
+	pushToOrigin, err := strconv.ParseBool(r.URL.Query().Get("push_to_origin"))
+	if err != nil {
+		pushToOrigin = false
+	}
+
+	created, err := h.deps.FeatureResultSvc.CreateResult(result, pushToOrigin)
 	if err != nil {
 		return nil, err
 	}

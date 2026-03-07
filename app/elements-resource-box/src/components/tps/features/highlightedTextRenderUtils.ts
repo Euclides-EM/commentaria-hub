@@ -99,8 +99,8 @@ export const buildHighlightLayers = (
       }, 0);
       const shadowSize = Math.min(6, 2 + depth * 2);
       const style = useOutline
-        ? `outline: 2px solid ${color}; outline-offset: 2px; border-radius: 8px; pointer-events: auto;`
-        : `background-color: ${color}; box-shadow: 0 0 0 ${shadowSize}px ${color}; border-radius: 8px; pointer-events: auto;`;
+        ? `outline: 2px solid ${color}; outline-offset: 2px; border-radius: 8px; pointer-events: auto; -webkit-box-decoration-break: clone; box-decoration-break: clone;`
+        : `background-color: ${color}; box-shadow: 0 0 0 ${shadowSize}px ${color}; border-radius: 8px; pointer-events: auto; -webkit-box-decoration-break: clone; box-decoration-break: clone;`;
       return buildSpanHtml(trimmedText, span, style, featuresById);
     })
     .filter(Boolean);

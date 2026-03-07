@@ -28,6 +28,8 @@ import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
 import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
+import { formatBoolean } from '../../../utils/formatBoolean.tsx'
+import { useAnnotationGroupsQuery } from '../../../queries/annotationGroups.ts'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
@@ -39,12 +41,12 @@ interface AnnotationDetailsContentProps {
   editedDescription: string
   editedOriginAnnotationId: string | null
   editedGroundTruth: boolean
+  editedHidden: boolean
   onNameChange: (name: string) => void
   onDescriptionChange: (description: string) => void
   onOriginAnnotationChange: (originAnnotationId: string | null) => void
   onGroundTruthChange: (groundTruth: boolean) => void
-  onSave: () => void
-  onCancel: () => void
+  onHiddenChange: (hidden: boolean) => void
   error?: string | null
 }
 
@@ -58,12 +60,12 @@ const AnnotationDetailsContent = ({
   editedDescription,
   editedOriginAnnotationId,
   editedGroundTruth,
+  editedHidden,
   onNameChange,
   onDescriptionChange,
   onOriginAnnotationChange,
   onGroundTruthChange,
-  onSave,
-  onCancel,
+  onHiddenChange,
   error,
 }: AnnotationDetailsContentProps) => {
   const { setState } = useAppState()
@@ -71,6 +73,8 @@ const AnnotationDetailsContent = ({
   const { data: datasets } = useDatasetsQuery()
   const { data: categories, isLoading: categoriesLoading } =
     useAnnotationCategories(annotation.dataset_id!, annotation.id!)
+  const { data: annotationGroups, isLoading: annotationGroupsLoading } =
+    useAnnotationGroupsQuery()
   const datasetForAnnotation =
     datasets?.find((d) => d.id === annotation.dataset_id) || null
   const editionId = datasetForAnnotation?.edition_id || null
@@ -92,6 +96,21 @@ const AnnotationDetailsContent = ({
 
   const originAnnotation = annotations?.find(
     (a) => a.id === annotation.origin_annotation_id,
+  )
+  const containingGroups = useMemo(
+    () =>
+      (annotationGroups || [])
+        .filter((group) =>
+          (group.annotations || []).some(
+            (ref) =>
+              ref.dataset_id === annotation.dataset_id &&
+              ref.id === annotation.id,
+          ),
+        )
+        .sort((a, b) =>
+          (a.name || a.id || '').localeCompare(b.name || b.id || ''),
+        ),
+    [annotation.dataset_id, annotation.id, annotationGroups],
   )
   return (
     <div className="mt-2.5 border border-gray-200 rounded-lg bg-gray-50 p-3.5 overflow-auto leading-normal text-base box-border">
@@ -148,15 +167,6 @@ const AnnotationDetailsContent = ({
             </span>
           )}
         </div>
-        <div className="font-semibold text-xs opacity-80 pt-0.5">Stage</div>
-        <div className="text-sm leading-tight break-all">
-          {annotation.pipeline_stage &&
-            getStageDisplayName(annotation.pipeline_stage)}
-        </div>
-        <div className="font-semibold text-xs opacity-80 pt-0.5">Segmented</div>
-        <div className="text-sm leading-tight break-all">
-          {String(!!annotation.segmented)}
-        </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Ground truth
         </div>
@@ -168,17 +178,48 @@ const AnnotationDetailsContent = ({
               onChange={(e) => onGroundTruthChange(e.target.checked)}
               className="h-4 w-4"
             />
-            {String(editedGroundTruth)}
+            {formatBoolean(editedGroundTruth)}
           </label>
         ) : (
           <div className="text-sm leading-tight break-all">
-            {String(!!annotation.ground_truth)}
+            {formatBoolean(annotation.ground_truth)}
           </div>
         )}
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Stage</div>
+        <div className="text-sm leading-tight break-all">
+          {annotation.pipeline_stage &&
+            getStageDisplayName(annotation.pipeline_stage)}
+        </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Segmented</div>
+        <div className="text-sm leading-tight break-all">
+          {formatBoolean(annotation.segmented)}
+        </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">
+          Lines detected
+        </div>
+        <div className="text-sm leading-tight break-all">
+          {formatBoolean(annotation.lines_detected)}
+        </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">OCRed</div>
         <div className="text-sm leading-tight break-all">
-          {String(!!annotation.ocred)}
+          {formatBoolean(annotation.ocred)}
         </div>
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Hidden</div>
+        {isEditing ? (
+          <label className="flex items-center gap-2 text-sm leading-tight">
+            <input
+              type="checkbox"
+              checked={editedHidden}
+              onChange={(e) => onHiddenChange(e.target.checked)}
+              className="h-4 w-4"
+            />
+            {formatBoolean(editedHidden)}
+          </label>
+        ) : (
+          <div className="text-sm leading-tight break-all">
+            {formatBoolean(annotation.hidden)}
+          </div>
+        )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           Categories
         </div>
@@ -254,6 +295,25 @@ const AnnotationDetailsContent = ({
             )}
           </div>
         )}
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Groups</div>
+        <div className="text-sm leading-tight break-all flex flex-wrap items-center gap-2">
+          {annotationGroupsLoading ? (
+            <span className="text-gray-500">Loading…</span>
+          ) : containingGroups.length > 0 ? (
+            <div className="flex flex-wrap gap-1">
+              {containingGroups.map((group, index) => (
+                <span
+                  key={`${group.id || group.name || 'group'}-${index}`}
+                  className="inline-flex items-center rounded bg-blue-100 px-1.5 py-0.5 text-xs font-medium text-blue-800"
+                >
+                  {group.name || group.id}
+                </span>
+              ))}
+            </div>
+          ) : (
+            <span className="text-gray-500">None</span>
+          )}
+        </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Created</div>
         <div className="text-sm leading-tight break-all ">
           <Timestamp date={annotation.created_at} />
@@ -300,23 +360,6 @@ const AnnotationDetailsContent = ({
       <div className="mt-4">
         <ErrorMessage message={error} />
       </div>
-      {isEditing && (
-        <div className="flex justify-end gap-2 mt-4">
-          <Button
-            onClick={onCancel}
-            className="px-3 py-1.5 text-sm font-semibold"
-          >
-            Cancel
-          </Button>
-          <Button
-            onClick={onSave}
-            variant="primary"
-            className="px-3 py-1.5 text-sm font-semibold"
-          >
-            Save
-          </Button>
-        </div>
-      )}
     </div>
   )
 }
@@ -330,6 +373,7 @@ export function AnnotationDetailsPane() {
     string | null
   >(null)
   const [editedGroundTruth, setEditedGroundTruth] = useState(false)
+  const [editedHidden, setEditedHidden] = useState(false)
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const [error, setError] = useState<string | null>(null)
   const [isDeleteOpen, setIsDeleteOpen] = useState(false)
@@ -357,6 +401,7 @@ export function AnnotationDetailsPane() {
       setEditedDescription(annotation.description || '')
       setEditedOriginAnnotationId(annotation.origin_annotation_id || null)
       setEditedGroundTruth(!!annotation.ground_truth)
+      setEditedHidden(!!annotation.hidden)
       setIsEditing(true)
     }
   }
@@ -376,6 +421,7 @@ export function AnnotationDetailsPane() {
           description: editedDescription,
           origin_annotation_id: editedOriginAnnotationId || undefined,
           ground_truth: editedGroundTruth,
+          hidden: editedHidden,
         },
       })
       refetch()
@@ -393,6 +439,7 @@ export function AnnotationDetailsPane() {
       setEditedDescription(annotation.description || '')
       setEditedOriginAnnotationId(annotation.origin_annotation_id || null)
       setEditedGroundTruth(!!annotation.ground_truth)
+      setEditedHidden(!!annotation.hidden)
     }
   }
 
@@ -430,30 +477,47 @@ export function AnnotationDetailsPane() {
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white m-3 mb-0">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
         <div>Annotation Details</div>
-        {isAuthenticated && !isEditing && annotation && (
+        {isAuthenticated && annotation && (
           <div className="flex items-center gap-2">
-            <Button onClick={handleEditClick} className="px-2 py-1 text-xs">
-              Edit
-            </Button>
-            <Button
-              onClick={() => setIsDuplicateOpen(true)}
-              className="px-2 py-1 text-xs"
-            >
-              Duplicate
-            </Button>
-            <Button
-              onClick={() => setIsExportOpen(true)}
-              className="px-2 py-1 text-xs"
-            >
-              {isExporting ? 'Exporting…' : 'Export'}
-            </Button>
-            <Button
-              onClick={handleDeleteClick}
-              variant="danger"
-              className="px-2 py-1 text-xs"
-            >
-              Delete
-            </Button>
+            {isEditing ? (
+              <>
+                <Button onClick={handleCancel} className="px-2 py-1 text-xs">
+                  Cancel
+                </Button>
+                <Button
+                  onClick={handleSave}
+                  variant="primary"
+                  className="px-2 py-1 text-xs"
+                >
+                  Save
+                </Button>
+              </>
+            ) : (
+              <>
+                <Button onClick={handleEditClick} className="px-2 py-1 text-xs">
+                  Edit
+                </Button>
+                <Button
+                  onClick={() => setIsDuplicateOpen(true)}
+                  className="px-2 py-1 text-xs"
+                >
+                  Duplicate
+                </Button>
+                <Button
+                  onClick={() => setIsExportOpen(true)}
+                  className="px-2 py-1 text-xs"
+                >
+                  {isExporting ? 'Exporting…' : 'Export'}
+                </Button>
+                <Button
+                  onClick={handleDeleteClick}
+                  variant="danger"
+                  className="px-2 py-1 text-xs"
+                >
+                  Delete
+                </Button>
+              </>
+            )}
           </div>
         )}
       </div>
@@ -470,12 +534,12 @@ export function AnnotationDetailsPane() {
             editedDescription={editedDescription}
             editedOriginAnnotationId={editedOriginAnnotationId}
             editedGroundTruth={editedGroundTruth}
+            editedHidden={editedHidden}
             onNameChange={setEditedName}
             onDescriptionChange={setEditedDescription}
             onOriginAnnotationChange={setEditedOriginAnnotationId}
             onGroundTruthChange={setEditedGroundTruth}
-            onSave={handleSave}
-            onCancel={handleCancel}
+            onHiddenChange={setEditedHidden}
             error={error}
           />
         </div>
@@ -500,11 +564,11 @@ export function AnnotationDetailsPane() {
       {annotation && annotation.dataset_id && (
         <CreateAnnotationModal
           isOpen={isDuplicateOpen}
+          mode="duplicate"
           dataSetId={annotation.dataset_id}
           initialOriginAnnotationId={annotation.id || null}
           initialName={`${annotation.name || annotation.id} (copy)`}
           initialDescription={annotation.description || ''}
-          initialGroundTruth={!!annotation.ground_truth}
           onClose={() => setIsDuplicateOpen(false)}
           onCreated={(annotationId) => {
             setState({ annotationId })

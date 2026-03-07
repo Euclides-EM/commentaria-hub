@@ -27,16 +27,13 @@ func NewAnnotationSQL(db *sql.DB) *AnnotationSQL {
 	}
 }
 
-func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*annotation.Annotation, error) {
-	row := s.db.QueryRow(`
-		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id
-		FROM annotations
-		WHERE dataset_id = ? AND id = ?
-		LIMIT 1
-	`, datasetID, id)
+// rowScanner is satisfied by *sql.Row and *sql.Rows.
+type rowScanner interface {
+	Scan(dest ...any) error
+}
 
-	a := &annotation.Annotation{}
-	err := row.Scan(
+func scanAnnotation(scanner rowScanner, a *annotation.Annotation) error {
+	return scanner.Scan(
 		&a.ID,
 		&a.Name,
 		&a.Description,
@@ -46,29 +43,89 @@ func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*annotation.Annotat
 		&a.Segmented,
 		&a.GroundTruth,
 		&a.Ocred,
+		&a.LinesDetected,
+		&a.Hidden,
 		&a.DatasetID,
 		&a.OriginAnnotationID,
 	)
-	if err != nil && errors.Is(err, sql.ErrNoRows) {
-		return nil, nil
-	}
-	if err != nil {
-		return nil, err
-	}
+}
 
+func (s *AnnotationSQL) enrichAnnotation(a *annotation.Annotation) error {
 	rules, err := s.listAppliedRules(a.ID)
 	if err != nil {
-		return nil, err
+		return err
 	}
 	a.AppliedRules = rules
 	a.PipelineStage = calculatePipelineStage(a)
+	return nil
+}
 
+func (s *AnnotationSQL) GetAnnotation(datasetID, id string) (*annotation.Annotation, error) {
+	row := s.db.QueryRow(`
+		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, lines_detected, hidden, dataset_id, origin_annotation_id
+		FROM annotations
+		WHERE dataset_id = ? AND id = ?
+		LIMIT 1
+	`, datasetID, id)
+
+	a := &annotation.Annotation{}
+	if err := scanAnnotation(row, a); err != nil {
+		if errors.Is(err, sql.ErrNoRows) {
+			return nil, nil
+		}
+		return nil, err
+	}
+	if err := s.enrichAnnotation(a); err != nil {
+		return nil, err
+	}
 	return a, nil
+}
+
+func (s *AnnotationSQL) ListAnnotationsByAnnotationReferences(annRefs []*annotation.Reference) ([]*annotation.Annotation, error) {
+	res := make([]*annotation.Annotation, 0)
+	if len(annRefs) == 0 {
+		return res, nil
+	}
+
+	placeholders := make([]string, 0, len(annRefs))
+	args := make([]any, 0, len(annRefs)*2)
+	for _, ref := range annRefs {
+		placeholders = append(placeholders, "(?, ?)")
+		args = append(args, ref.DatasetID, ref.ID)
+	}
+
+	query := fmt.Sprintf(`
+		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, lines_detected, hidden, dataset_id, origin_annotation_id
+		FROM annotations
+		WHERE (dataset_id, id) IN (%s)
+	`, strings.Join(placeholders, ","))
+	rows, err := s.db.Query(query, args...)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		a := &annotation.Annotation{}
+		if err := scanAnnotation(rows, a); err != nil {
+			return nil, err
+		}
+		if err := s.enrichAnnotation(a); err != nil {
+			return nil, err
+		}
+		res = append(res, a)
+	}
+
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+
+	return res, nil
 }
 
 func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*annotation.Annotation, error) {
 	rows, err := s.db.Query(`
-		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id
+		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, lines_detected, hidden, dataset_id, origin_annotation_id
 		FROM annotations
 		WHERE dataset_id = ?
 		ORDER BY created_at ASC
@@ -81,29 +138,12 @@ func (s *AnnotationSQL) ListAnnotationsByDatasetID(datasetID string) ([]*annotat
 	var annotations []*annotation.Annotation
 	for rows.Next() {
 		a := &annotation.Annotation{}
-		if err := rows.Scan(
-			&a.ID,
-			&a.Name,
-			&a.Description,
-			&a.CreatedAt,
-			&a.UpdatedAt,
-			&a.Pages,
-			&a.Segmented,
-			&a.GroundTruth,
-			&a.Ocred,
-			&a.DatasetID,
-			&a.OriginAnnotationID,
-		); err != nil {
+		if err := scanAnnotation(rows, a); err != nil {
 			return nil, err
 		}
-
-		rules, err := s.listAppliedRules(a.ID)
-		if err != nil {
+		if err := s.enrichAnnotation(a); err != nil {
 			return nil, err
 		}
-		a.AppliedRules = rules
-		a.PipelineStage = calculatePipelineStage(a)
-
 		annotations = append(annotations, a)
 	}
 
@@ -237,9 +277,9 @@ func (s *AnnotationSQL) UpdateAnnotation(a *annotation.Annotation) error {
 	// 1) update annotations row
 	res, err := tx.Exec(`
 		UPDATE annotations
-		SET name = ?, description = ?, updated_at = ?, pages = ?, segmented = ?, ground_truth = ?, ocred = ?, origin_annotation_id = ?
+		SET name = ?, description = ?, updated_at = ?, pages = ?, segmented = ?, ground_truth = ?, ocred = ?, lines_detected = ?, hidden = ?,  origin_annotation_id = ?
 		WHERE dataset_id = ? AND id = ?
-	`, a.Name, a.Description, a.UpdatedAt, a.Pages, a.Segmented, a.GroundTruth, a.Ocred, a.OriginAnnotationID, a.DatasetID, a.ID)
+	`, a.Name, a.Description, a.UpdatedAt, a.Pages, a.Segmented, a.GroundTruth, a.Ocred, a.LinesDetected, a.Hidden, a.OriginAnnotationID, a.DatasetID, a.ID)
 	if err != nil {
 		return err
 	}
@@ -354,9 +394,9 @@ func (s *AnnotationSQL) InsertAnnotation(a *annotation.Annotation) error {
 	// 1) annotations
 	if _, err := tx.Exec(`
 		INSERT INTO annotations (
-			id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, dataset_id, origin_annotation_id
-		) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	`, a.ID, a.Name, a.Description, a.CreatedAt, a.UpdatedAt, a.Pages, a.Segmented, a.GroundTruth, a.Ocred, a.DatasetID, a.OriginAnnotationID); err != nil {
+			id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, lines_detected, hidden, dataset_id, origin_annotation_id
+		) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	`, a.ID, a.Name, a.Description, a.CreatedAt, a.UpdatedAt, a.Pages, a.Segmented, a.GroundTruth, a.Ocred, a.LinesDetected, a.Hidden, a.DatasetID, a.OriginAnnotationID); err != nil {
 		return err
 	}
 
@@ -412,12 +452,48 @@ func (s *AnnotationSQL) DeleteAnnotation(datasetID string, annotationID string) 
 	return err
 }
 
+func (s *AnnotationSQL) ListAnnotationsByDatasetIDs(ds []string) ([]*annotation.Annotation, error) {
+	if len(ds) == 0 {
+		return []*annotation.Annotation{}, nil
+	}
+
+	placeholders := make([]string, 0, len(ds))
+	args := make([]any, 0, len(ds))
+	for _, datasetID := range ds {
+		placeholders = append(placeholders, "?")
+		args = append(args, datasetID)
+	}
+
+	query := fmt.Sprintf(`
+		SELECT id, name, description, created_at, updated_at, pages, segmented, ground_truth, ocred, lines_detected, hidden, dataset_id, origin_annotation_id
+		FROM annotations
+		WHERE dataset_id IN (%s)
+		ORDER BY created_at ASC
+	`, strings.Join(placeholders, ","))
+	rows, err := s.db.Query(query, args...)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var annotations []*annotation.Annotation
+	for rows.Next() {
+		a := &annotation.Annotation{}
+		if err := scanAnnotation(rows, a); err != nil {
+			return nil, err
+		}
+		annotations = append(annotations, a)
+	}
+	return annotations, nil
+}
+
 func calculatePipelineStage(a *annotation.Annotation) annotationrule.PipelineStage {
 	s := annotationrule.PipelineStageRaw
 	if a.Ocred {
 		s = annotationrule.PipelineStageOCR
-	}
-	if a.Segmented {
+	} else if a.LinesDetected {
+		s = annotationrule.PipelineStageTextLineSegmentation
+	} else if a.Segmented {
 		s = annotationrule.PipelineStageZoneSegmentation
 	}
 	for _, rule := range a.AppliedRules {

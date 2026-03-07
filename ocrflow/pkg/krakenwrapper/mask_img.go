@@ -11,19 +11,35 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 )
 
-// ---- Mask creation ----
+// Kraken requires the mask to be bitonal (exactly two colors). We use a 2-color
+// paletted image so PIL's is_bitonal() accepts it; grayscale PNGs can be rejected.
+
+const (
+	maskIdxWhite = 0
+	maskIdxBlack = 1
+)
+
+var maskPalette = color.Palette{
+	color.White,
+	color.Black,
+}
 
 // CreateMaskFromALTO reads an ALTO XML and writes an inverse black/white mask PNG.
+// The mask is bitonal (2-color paletted) so Kraken accepts it.
 // mainLabels: labels treated as "main zones", painted black
 // ignoreLabels: labels that should always be white, overriding main zones
-func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []string) error {
+//
+// It returns hasRegions: true if at least one main zone was painted black. When false,
+// the mask would be all white (one color); Kraken rejects that, so callers should skip
+// the Kraken run for this mask.
+func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []string) (hasRegions bool, err error) {
 	// read ALTO XML
 	a, err := alto.LoadFromFile(altoPath)
 	if err != nil {
-		return fmt.Errorf("load ALTO: %w", err)
+		return false, fmt.Errorf("load ALTO: %w", err)
 	}
 	if len(a.Layout.Page) == 0 {
-		return fmt.Errorf("no pages in ALTO")
+		return false, fmt.Errorf("no pages in ALTO")
 	}
 	// here we just take the first page; adapt if you have multi-page handling
 	page := a.Layout.Page[0]
@@ -44,11 +60,9 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 		ignoreSet[l] = struct{}{}
 	}
 
-	// create a grayscale image
-	img := image.NewGray(image.Rect(0, 0, page.Width, page.Height))
-
-	// NEW: make background white instead of default black
-	paintRect(img, 0, 0, float64(page.Width), float64(page.Height), color.Gray{Y: 255})
+	// Bitonal mask: paletted image with only white (0) and black (1)
+	img := image.NewPaletted(image.Rect(0, 0, page.Width, page.Height), maskPalette)
+	paintRectPaletted(img, 0, 0, float64(page.Width), float64(page.Height), maskIdxWhite)
 
 	// helper to check if any of the tagrefs matches a label in a set
 	hasLabelInSet := func(tagRefs string, set map[string]struct{}) bool {
@@ -66,37 +80,38 @@ func CreateMaskFromALTO(altoPath, maskPath string, mainLabels, ignoreLabels []st
 		return false
 	}
 
-	// first pass: paint all main zones black (inverse of original white)
+	// first pass: paint all main zones black (only zones with positive area; zero-area would yield all-white mask and Kraken "Mask is not bitonal")
 	for _, tb := range page.PrintSpace.TextBlocks {
-		if hasLabelInSet(tb.TagRefs, mainSet) && !hasLabelInSet(tb.TagRefs, ignoreSet) {
-			paintRect(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, color.Gray{Y: 0})
+		if hasLabelInSet(tb.TagRefs, mainSet) && !hasLabelInSet(tb.TagRefs, ignoreSet) && tb.Width > 0 && tb.Height > 0 {
+			paintRectPaletted(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, maskIdxBlack)
+			hasRegions = true
 		}
 	}
 
-	// second pass: ignored zones become white (inverse of original black)
+	// second pass: ignored zones become white
 	for _, tb := range page.PrintSpace.TextBlocks {
 		if hasLabelInSet(tb.TagRefs, ignoreSet) {
-			paintRect(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, color.Gray{Y: 255})
+			paintRectPaletted(img, tb.HPOS, tb.VPOS, tb.Width, tb.Height, maskIdxWhite)
 		}
 	}
 
 	// write mask PNG
 	out, err := os.Create(maskPath)
 	if err != nil {
-		return fmt.Errorf("create mask file: %w", err)
+		return false, fmt.Errorf("create mask file: %w", err)
 	}
 	defer out.Close()
 
 	if err := png.Encode(out, img); err != nil {
-		return fmt.Errorf("encode PNG: %w", err)
+		return false, fmt.Errorf("encode PNG: %w", err)
 	}
 
-	return nil
+	return hasRegions, nil
 }
 
-// paintRect fills a rectangle (x,y,width,height) in img with the given gray color.
+// paintRectPaletted fills a rectangle (x,y,width,height) in img with the given palette index.
 // Coordinates are assumed to match the ALTO page coordinate system (origin top-left).
-func paintRect(img *image.Gray, x, y, w, h float64, col color.Gray) {
+func paintRectPaletted(img *image.Paletted, x, y, w, h float64, idx uint8) {
 	maxX := x + w
 	maxY := y + h
 
@@ -116,7 +131,7 @@ func paintRect(img *image.Gray, x, y, w, h float64, col color.Gray) {
 
 	for yy := y; yy < maxY; yy++ {
 		for xx := x; xx < maxX; xx++ {
-			img.SetGray(int(xx), int(yy), col)
+			img.SetColorIndex(int(xx), int(yy), idx)
 		}
 	}
 }

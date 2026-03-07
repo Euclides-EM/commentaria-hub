@@ -103,6 +103,7 @@ export class AnnotationsService {
         description,
         segmented,
         ocred,
+        linesDetected,
         groundTruth,
         originAnnotationId,
         ocrModelId,
@@ -137,6 +138,10 @@ export class AnnotationsService {
          */
         ocred?: boolean,
         /**
+         * Whether line detection was performed
+         */
+        linesDetected?: boolean,
+        /**
          * Whether the annotations are ground truth
          */
         groundTruth?: boolean,
@@ -166,6 +171,7 @@ export class AnnotationsService {
                 'description': description,
                 'segmented': segmented,
                 'ocred': ocred,
+                'lines_detected': linesDetected,
                 'ground_truth': groundTruth,
                 'origin_annotation_id': originAnnotationId,
                 'ocr_model_id': ocrModelId,
@@ -187,6 +193,7 @@ export class AnnotationsService {
         description,
         segmented,
         ocred,
+        linesDetected,
         groundTruth,
         originAnnotationId,
         ocrModelId,
@@ -221,6 +228,10 @@ export class AnnotationsService {
          */
         ocred?: boolean,
         /**
+         * Whether line detection was performed
+         */
+        linesDetected?: boolean,
+        /**
          * Whether the annotations are ground truth
          */
         groundTruth?: boolean,
@@ -249,6 +260,7 @@ export class AnnotationsService {
                 'description': description,
                 'segmented': segmented,
                 'ocred': ocred,
+                'lines_detected': linesDetected,
                 'ground_truth': groundTruth,
                 'origin_annotation_id': originAnnotationId,
                 'ocr_model_id': ocrModelId,

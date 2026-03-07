@@ -1,6 +1,8 @@
 package tei
 
 import (
+	"fmt"
+
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
@@ -39,22 +41,24 @@ func buildFacsimileForAlto(pageKey, imageUrl string, a *alto.Alto) model.Facsimi
 	for i, textBlock := range a.Layout.Page[0].PrintSpace.TextBlocks {
 		textBlockZoneID := facZoneBlockID(pageKey, i+1)
 		textBlockZones = append(textBlockZones, model.Zone{
-			XmlID: textBlockZoneID,
-			Type:  textBlockZoneType,
-			ULX:   textBlock.HPOS,
-			ULY:   textBlock.VPOS,
-			LRX:   textBlock.HPOS + textBlock.Width,
-			LRY:   textBlock.VPOS + textBlock.Height,
+			XmlID:   textBlockZoneID,
+			Type:    textBlockZoneType,
+			ULX:     textBlock.HPOS,
+			ULY:     textBlock.VPOS,
+			LRX:     textBlock.HPOS + textBlock.Width,
+			LRY:     textBlock.VPOS + textBlock.Height,
+			Corresp: fmt.Sprintf("alto:textblock:%s", textBlock.ID),
 		})
 		for j, tb := range textBlock.Lines {
 			lineZoneID := facZoneLineID(pageKey, i+1, j+1)
 			lineZones = append(lineZones, model.Zone{
-				XmlID: lineZoneID,
-				Type:  textLineZoneType,
-				ULX:   tb.VPOS,
-				ULY:   tb.HPOS,
-				LRX:   tb.HPOS + tb.Width,
-				LRY:   tb.VPOS + tb.Height,
+				XmlID:   lineZoneID,
+				Type:    textLineZoneType,
+				ULX:     tb.HPOS,
+				ULY:     tb.VPOS,
+				LRX:     tb.HPOS + tb.Width,
+				LRY:     tb.VPOS + tb.Height,
+				Corresp: fmt.Sprintf("alto:textline:%s", tb.ID),
 			})
 		}
 	}

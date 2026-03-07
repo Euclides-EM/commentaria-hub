@@ -7,12 +7,12 @@ import type { annotationrule_AddMargin } from '../models/annotationrule_AddMargi
 import type { annotationrule_ApplyRules } from '../models/annotationrule_ApplyRules';
 import type { annotationrule_LimitCategoryZones } from '../models/annotationrule_LimitCategoryZones';
 import type { annotationrule_LinesDetect } from '../models/annotationrule_LinesDetect';
+import type { annotationrule_ModelDetect } from '../models/annotationrule_ModelDetect';
 import type { annotationrule_ReassignTextLinesByTolerance } from '../models/annotationrule_ReassignTextLinesByTolerance';
 import type { annotationrule_RecategorizeByAlignment } from '../models/annotationrule_RecategorizeByAlignment';
 import type { annotationrule_RemoveCategories } from '../models/annotationrule_RemoveCategories';
 import type { annotationrule_RemoveOverlap } from '../models/annotationrule_RemoveOverlap';
 import type { annotationrule_ResolveOverlapWithPriority } from '../models/annotationrule_ResolveOverlapWithPriority';
-import type { annotationrule_Segment } from '../models/annotationrule_Segment';
 import type { annotationrule_SlicePages } from '../models/annotationrule_SlicePages';
 import type { annotationrule_Stretch } from '../models/annotationrule_Stretch';
 import type { annotationrule_TextBlockCorrections } from '../models/annotationrule_TextBlockCorrections';
@@ -63,7 +63,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyAddMargin({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -77,7 +77,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Annotation add margin rule
          */
-        annotationSegmentRule: annotationrule_AddMargin,
+        annotationRule: annotationrule_AddMargin,
         /**
          * Action to take when applying the rule
          */
@@ -93,7 +93,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**
@@ -105,7 +105,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyDetectLines({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -119,7 +119,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Annotation detect lines rule
          */
-        annotationSegmentRule: annotationrule_LinesDetect,
+        annotationRule: annotationrule_LinesDetect,
         /**
          * Action to take when applying the rule
          */
@@ -135,7 +135,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**
@@ -147,7 +147,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyLimitCategoryZones({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -161,7 +161,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Limit category zones rule
          */
-        annotationSegmentRule: annotationrule_LimitCategoryZones,
+        annotationRule: annotationrule_LimitCategoryZones,
         /**
          * Action to take when applying the rule
          */
@@ -177,7 +177,49 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
+        });
+    }
+    /**
+     * Apply ModelDetect Rule to Annotation
+     * Apply a model detect rule to an annotation.
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyModelDetect({
+        dataSetId,
+        id,
+        annotationModelDetectRule,
+        action = 'overwrite',
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Annotation model detect rule
+         */
+        annotationModelDetectRule: annotationrule_ModelDetect,
+        /**
+         * Action to take when applying the rule
+         */
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/model_detect',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationModelDetectRule,
         });
     }
     /**
@@ -189,7 +231,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyReassignTextLinesByTolerance({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -203,7 +245,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Reassign text lines by tolerance rule
          */
-        annotationSegmentRule: annotationrule_ReassignTextLinesByTolerance,
+        annotationRule: annotationrule_ReassignTextLinesByTolerance,
         /**
          * Action to take when applying the rule
          */
@@ -219,7 +261,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**
@@ -231,7 +273,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyRecategorizeByAlignment({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -245,7 +287,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Recategorize by alignment rule
          */
-        annotationSegmentRule: annotationrule_RecategorizeByAlignment,
+        annotationRule: annotationrule_RecategorizeByAlignment,
         /**
          * Action to take when applying the rule
          */
@@ -261,7 +303,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**
@@ -273,7 +315,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyRemoveCategories({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -287,7 +329,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Remove categories rule
          */
-        annotationSegmentRule: annotationrule_RemoveCategories,
+        annotationRule: annotationrule_RemoveCategories,
         /**
          * Action to take when applying the rule
          */
@@ -303,7 +345,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**
@@ -315,7 +357,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyRemoveOverlap({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -329,7 +371,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Remove overlap rule
          */
-        annotationSegmentRule: annotationrule_RemoveOverlap,
+        annotationRule: annotationrule_RemoveOverlap,
         /**
          * Action to take when applying the rule
          */
@@ -345,7 +387,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**
@@ -357,7 +399,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyResolveOverlapWithPriority({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -371,7 +413,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Resolve overlap with priority rule
          */
-        annotationSegmentRule: annotationrule_ResolveOverlapWithPriority,
+        annotationRule: annotationrule_ResolveOverlapWithPriority,
         /**
          * Action to take when applying the rule
          */
@@ -387,49 +429,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
-        });
-    }
-    /**
-     * Apply Segment Rule to Annotation
-     * Apply a segment rule to an annotation.
-     * @returns annotation_Annotation OK
-     * @throws ApiError
-     */
-    public static putDatasetsAnnotationsApplySegment({
-        dataSetId,
-        id,
-        annotationSegmentRule,
-        action = 'overwrite',
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Annotation ID
-         */
-        id: string,
-        /**
-         * Annotation segment rule
-         */
-        annotationSegmentRule: annotationrule_Segment,
-        /**
-         * Action to take when applying the rule
-         */
-        action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<annotation_Annotation> {
-        return __request(OpenAPI, {
-            method: 'PUT',
-            url: '/datasets/{dataSetId}/annotations/{id}/apply/segment',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-            query: {
-                'action': action,
-            },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**
@@ -441,7 +441,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplySlicePages({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -455,7 +455,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Annotation slice pages rule
          */
-        annotationSegmentRule: annotationrule_SlicePages,
+        annotationRule: annotationrule_SlicePages,
         /**
          * Action to take when applying the rule
          */
@@ -471,7 +471,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**
@@ -483,7 +483,7 @@ export class AnnotationsApplyRulesService {
     public static putDatasetsAnnotationsApplyStretch({
         dataSetId,
         id,
-        annotationSegmentRule,
+        annotationRule,
         action = 'overwrite',
     }: {
         /**
@@ -497,7 +497,7 @@ export class AnnotationsApplyRulesService {
         /**
          * Annotation stretch rule
          */
-        annotationSegmentRule: annotationrule_Stretch,
+        annotationRule: annotationrule_Stretch,
         /**
          * Action to take when applying the rule
          */
@@ -513,7 +513,7 @@ export class AnnotationsApplyRulesService {
             query: {
                 'action': action,
             },
-            body: annotationSegmentRule,
+            body: annotationRule,
         });
     }
     /**

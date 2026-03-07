@@ -18,6 +18,7 @@ node_modules
 ocrflow/.env_private
 
 *.db*
+ocrflow/full_backups
 !ocrflow/backups/*.db*
 ocrflow/store/data/*
 !ocrflow/store/data/tps/

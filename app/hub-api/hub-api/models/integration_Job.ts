@@ -2,12 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { annotation_Reference } from './annotation_Reference';
 import type { integration_JobStatus } from './integration_JobStatus';
 import type { integration_JobTarget } from './integration_JobTarget';
 import type { integration_Task } from './integration_Task';
-import type { model_AnnotationReference } from './model_AnnotationReference';
 export type integration_Job = {
-    annotation?: model_AnnotationReference;
+    annotation?: annotation_Reference;
     readonly created_at?: string;
     description?: string;
     readonly details?: string;

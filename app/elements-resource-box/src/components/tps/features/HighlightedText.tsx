@@ -53,7 +53,7 @@ export const HighlightedText = memo(
       if (!teiQuery.data) {
         return null;
       }
-      return parseTeiToSpans(teiQuery.data, Object.keys(featuresById));
+      return parseTeiToSpans(teiQuery.data, featuresById);
     }, [featuresById, teiQuery.data]);
     const renderedHtml = parsedTei?.baseHtml || plainHtml;
     const teiSpans = useMemo(() => parsedTei?.spans || [], [parsedTei]);

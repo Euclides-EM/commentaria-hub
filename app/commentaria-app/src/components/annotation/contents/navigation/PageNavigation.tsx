@@ -55,18 +55,21 @@ export function PageNavigation() {
     'indexCollapsed',
     {
       defaultValue: false,
+      storageSync: false,
     },
   )
   const [isSearchCollapsed, setIsSearchCollapsed] = useLocalStorageState(
     'searchCollapsed',
     {
       defaultValue: true,
+      storageSync: false,
     },
   )
   const [splitRatio, setSplitRatio] = useLocalStorageState(
     'indexSearchSplitRatio',
     {
       defaultValue: 0.5,
+      storageSync: false,
     },
   )
   const [isResizing, setIsResizing] = useState(false)
