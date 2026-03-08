@@ -131,7 +131,7 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFe
 		}
 	}
 	if copyFeatureResults && ann.OriginAnnotationID != "" {
-		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.OriginAnnotationID, ann.ID); err != nil {
+		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.OriginAnnotationID, ann.DatasetID, ann.ID); err != nil {
 			return nil, fmt.Errorf("failed to copy feature results for new annotation: %w", err)
 		}
 	}
@@ -419,7 +419,7 @@ func (a *Annotation) Duplicate(datasetID string, annotationID string, name strin
 		return nil, fmt.Errorf("failed to insert new annotation to store: %w", err)
 	}
 	if copyFeatureResults {
-		if err := a.featureResultsSvc.CopyResults(origAnn.DatasetID, origAnn.ID, ann.ID); err != nil {
+		if err := a.featureResultsSvc.CopyResults(origAnn.DatasetID, origAnn.ID, origAnn.DatasetID, ann.ID); err != nil {
 			return nil, fmt.Errorf("failed to copy feature results for new annotation: %w", err)
 		}
 	}
@@ -606,7 +606,7 @@ func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.Mer
 
 	// copy feature results
 	for _, ann := range toMerge {
-		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.ID, dstAnn.ID); err != nil {
+		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.ID, dstAnn.DatasetID, dstAnn.ID); err != nil {
 			return nil, fmt.Errorf("failed to copy feature results for merged annotation %s: %w", ann.ID, err)
 		}
 	}
