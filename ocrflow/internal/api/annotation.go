@@ -154,6 +154,30 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 	return h.deps.AnnotationSvc.Duplicate(datasetID, req.SourceAnnotationID, req.Name, req.Description, req.CopyFeatureResults)
 }
 
+// MergeAnnotation godoc
+// @Summary      Merge Annotations
+// @Description  Merge multiple annotations into a new annotation for a specific dataset.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        mergeRequest  body      annotation.MergeRequest  true  "Annotation merge details"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   annotation.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/merge [put]
+func (h *Handlers) MergeAnnotation(r *http.Request) (any, error) {
+	datasetID, annID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
+	}
+
+	var req annotation.MergeRequest
+	if err = DecodeBody(r, &req); err != nil {
+		return nil, err
+	}
+
+	return h.deps.AnnotationSvc.Merge(datasetID, annID, req)
+}
+
 // GetAnnotationZipFile godoc
 // @Summary      Upload ZIP File
 // @Description  Upload a ZIP file containing annotations.

@@ -5,6 +5,7 @@ import (
 	"os"
 	"path"
 	"slices"
+	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
@@ -516,6 +517,95 @@ func (a *Annotation) ListAnnotationsByDatasetIDs(dsIDs []string) ([]*annotation.
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
 	return anns, nil
+}
+
+func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.MergeRequest) (*annotation.Annotation, error) {
+	dstAnn, err := a.Get(datasetID, dstAnnID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get destination annotation: %w", err)
+	}
+	toMerge, err := a.ListAnnotationsByAnnotationReferences(req.AnnotationsToMerge)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotations to merge: %w", err)
+	}
+
+	// verify pages do not intersect
+	dstPages, err := pagesparser.IntRange(dstAnn.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse pages for destination annotation: %w", err)
+	}
+	dstPageSet := make(map[int]struct{})
+	for _, p := range dstPages {
+		dstPageSet[p] = struct{}{}
+	}
+	for _, ann := range toMerge {
+		pages, err := pagesparser.IntRange(ann.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse pages for annotation to merge: %w", err)
+		}
+		if intersect := lo.Intersect(dstPages, pages); len(intersect) > 0 {
+			return nil, fmt.Errorf("pages %v in annotation %s overlap with destination annotation", pagesparser.ToString(intersect), ann.ID)
+		}
+	}
+
+	// update fields of destination annotation based on merged annotations
+	dstAnn.LinesDetected = lo.SomeBy(toMerge, func(a *annotation.Annotation) bool { return a.LinesDetected }) || dstAnn.LinesDetected
+	dstAnn.Ocred = lo.SomeBy(toMerge, func(a *annotation.Annotation) bool { return a.Ocred }) || dstAnn.Ocred
+	dstAnn.Segmented = lo.SomeBy(toMerge, func(a *annotation.Annotation) bool { return a.Segmented }) || dstAnn.Segmented
+	dstAnn.GroundTruth = lo.EveryBy(toMerge, func(a *annotation.Annotation) bool { return a.GroundTruth }) && dstAnn.GroundTruth
+	dstAnn.MergedAnnotations = append(dstAnn.MergedAnnotations, lo.Map(toMerge, func(a *annotation.Annotation, _ int) annotation.MergedReference {
+		return annotation.MergedReference{
+			Reference: annotation.Reference{
+				DatasetID: a.DatasetID,
+				ID:        a.ID,
+			},
+			MergedAt: time.Now(),
+		}
+	})...)
+
+	// copy image files (if not already exist) - this is to ensure the merged annotation can be used even if the original annotations are deleted later
+	for _, ann := range toMerge {
+		if ann.DatasetID == datasetID {
+			continue
+		}
+		pages, err := pagesparser.IntRange(ann.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse pages for annotation to merge: %w", err)
+		}
+		for _, p := range pages {
+			imgDstPath := path.Join(a.fileSysMgt.DatasetImagesDirByID(datasetID), pagesparser.PageToPNGFilename(p))
+			if _, err := os.Stat(imgDstPath); os.IsNotExist(err) {
+				imgSrcPath := path.Join(a.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageToPNGFilename(p))
+				if err := futils.CopyFile(imgSrcPath, imgDstPath); err != nil {
+					return nil, fmt.Errorf("failed to copy image file for page %d from annotation %s: %w", p, ann.ID, err)
+				}
+			}
+		}
+	}
+
+	// copy alto files
+	for _, ann := range toMerge {
+		if ann.Segmented {
+			srcDir := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
+			if err := futils.CopyDir(srcDir, a.fileSysMgt.DatasetAnnotationAltoDir(dstAnn)); err != nil {
+				return nil, fmt.Errorf("failed to copy ALTO files for merged annotation %s: %w", ann.ID, err)
+			}
+		}
+	}
+
+	// copy feature results
+	for _, ann := range toMerge {
+		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.ID, dstAnn.ID); err != nil {
+			return nil, fmt.Errorf("failed to copy feature results for merged annotation %s: %w", ann.ID, err)
+		}
+	}
+
+	// update destination annotation
+	if err := a.annotationStore.UpdateAnnotation(dstAnn); err != nil {
+		return nil, fmt.Errorf("failed to update destination annotation in store: %w", err)
+	}
+
+	return dstAnn, nil
 }
 
 func buildNodes(remainingCats []string, data []categoryPageContent) []*annotation.IndexNode {
