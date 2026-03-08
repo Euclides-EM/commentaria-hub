@@ -393,11 +393,11 @@ INSERT INTO feature_result_values (
 	return nil
 }
 
-func (s *FeatureResultSql) CopyResults(datasetID string, srcAnnID string, dstAnnID string) error {
-	if strings.TrimSpace(datasetID) == "" || strings.TrimSpace(srcAnnID) == "" || strings.TrimSpace(dstAnnID) == "" {
-		return errors.New("copy feature results: missing dataset_id, src annotation id, or dst annotation id")
+func (s *FeatureResultSql) CopyResults(datasetID, srcAnnID, dstDatasetID, dstAnnID string) error {
+	if strings.TrimSpace(datasetID) == "" || strings.TrimSpace(srcAnnID) == "" || strings.TrimSpace(dstDatasetID) == "" || strings.TrimSpace(dstAnnID) == "" {
+		return errors.New("copy feature results: missing dataset_id, destination dataset_id src annotation id, or dst annotation id")
 	}
-	if srcAnnID == dstAnnID {
+	if srcAnnID == dstAnnID && datasetID == dstDatasetID {
 		return nil
 	}
 
@@ -411,7 +411,7 @@ func (s *FeatureResultSql) CopyResults(datasetID string, srcAnnID string, dstAnn
 	if err := ensureAnnotationExistsTx(tx, datasetID, srcAnnID); err != nil {
 		return fmt.Errorf("copy feature results: source annotation: %w", err)
 	}
-	if err := ensureAnnotationExistsTx(tx, datasetID, dstAnnID); err != nil {
+	if err := ensureAnnotationExistsTx(tx, dstDatasetID, dstAnnID); err != nil {
 		return fmt.Errorf("copy feature results: destination annotation: %w", err)
 	}
 
@@ -426,7 +426,7 @@ WHERE dataset_id = ?
     WHERE dataset_id = ?
       AND annotation_id = ?
   )
-`, datasetID, dstAnnID, datasetID, srcAnnID)
+`, dstDatasetID, dstAnnID, datasetID, srcAnnID)
 	if err != nil {
 		return fmt.Errorf("copy feature results: delete destination values: %w", err)
 	}
@@ -440,7 +440,7 @@ INSERT INTO feature_results (
 )
 SELECT
   name, description, created_at, CURRENT_TIMESTAMP,
-  dataset_id, feature_id, ?, page_key,
+  ?, feature_id, ?, page_key,
   source_resp, source_id, source_revision, source_name
 FROM feature_results
 WHERE dataset_id = ?
@@ -453,7 +453,7 @@ ON CONFLICT(dataset_id, feature_id, annotation_id, page_key) DO UPDATE SET
   source_id = excluded.source_id,
   source_revision = excluded.source_revision,
   source_name = excluded.source_name
-`, dstAnnID, datasetID, srcAnnID)
+`, dstDatasetID, dstAnnID, datasetID, srcAnnID)
 	if err != nil {
 		return fmt.Errorf("copy feature results: upsert destination results: %w", err)
 	}
@@ -464,11 +464,11 @@ INSERT INTO feature_result_values (
   dataset_id, feature_id, annotation_id, page_key, surface
 )
 SELECT
-  dataset_id, feature_id, ?, page_key, surface
+  ?, feature_id, ?, page_key, surface
 FROM feature_result_values
 WHERE dataset_id = ?
   AND annotation_id = ?
-`, dstAnnID, datasetID, srcAnnID)
+`, dstDatasetID, dstAnnID, datasetID, srcAnnID)
 	if err != nil {
 		return fmt.Errorf("copy feature results: insert destination values: %w", err)
 	}

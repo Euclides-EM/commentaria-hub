@@ -50,12 +50,43 @@ func scanAnnotation(scanner rowScanner, a *annotation.Annotation) error {
 	)
 }
 
+func (s *AnnotationSQL) listMergedAnnotations(annotationID string) ([]annotation.MergedReference, error) {
+	rows, err := s.db.Query(`
+		SELECT merged_dataset_id, merged_annotation_id, merged_at
+		FROM annotation_merged_annotations
+		WHERE annotation_id = ?
+		ORDER BY merged_at ASC
+	`, annotationID)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var refs []annotation.MergedReference
+	for rows.Next() {
+		var m annotation.MergedReference
+		if err := rows.Scan(&m.DatasetID, &m.ID, &m.MergedAt); err != nil {
+			return nil, err
+		}
+		refs = append(refs, m)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+	return refs, nil
+}
+
 func (s *AnnotationSQL) enrichAnnotation(a *annotation.Annotation) error {
 	rules, err := s.listAppliedRules(a.ID)
 	if err != nil {
 		return err
 	}
 	a.AppliedRules = rules
+	merged, err := s.listMergedAnnotations(a.ID)
+	if err != nil {
+		return err
+	}
+	a.MergedAnnotations = merged
 	a.PipelineStage = calculatePipelineStage(a)
 	return nil
 }
@@ -363,6 +394,22 @@ func (s *AnnotationSQL) UpdateAnnotation(a *annotation.Annotation) error {
 		}
 	}
 
+	// 5) replace merged-annotation links
+	if _, err := tx.Exec(`
+		DELETE FROM annotation_merged_annotations
+		WHERE annotation_id = ?
+	`, a.ID); err != nil {
+		return err
+	}
+	for _, m := range a.MergedAnnotations {
+		if _, err := tx.Exec(`
+			INSERT INTO annotation_merged_annotations (annotation_id, merged_dataset_id, merged_annotation_id, merged_at)
+			VALUES (?, ?, ?, ?)
+		`, a.ID, m.DatasetID, m.ID, m.MergedAt); err != nil {
+			return err
+		}
+	}
+
 	if err := tx.Commit(); err != nil {
 		return err
 	}
@@ -434,6 +481,16 @@ func (s *AnnotationSQL) InsertAnnotation(a *annotation.Annotation) error {
 			INSERT INTO annotation_applied_rules (annotation_id, rule_id, applied_index)
 			VALUES (?, ?, ?)
 		`, a.ID, ruleID, i); err != nil {
+			return err
+		}
+	}
+
+	// 3) merged annotations
+	for _, m := range a.MergedAnnotations {
+		if _, err := tx.Exec(`
+			INSERT INTO annotation_merged_annotations (annotation_id, merged_dataset_id, merged_annotation_id, merged_at)
+			VALUES (?, ?, ?, ?)
+		`, a.ID, m.DatasetID, m.ID, m.MergedAt); err != nil {
 			return err
 		}
 	}
