@@ -2,9 +2,7 @@ package api
 
 import (
 	"fmt"
-	"io"
 	"net/http"
-	"os"
 	"strconv"
 	"strings"
 
@@ -216,7 +214,7 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 		OCRModelID:         r.FormValue("ocr_model_id"),
 		SegmentModelID:     r.FormValue("segment_model_id"),
 	}
-	return h.deps.AnnotationSvc.CreateFromZip(aum, func(dstPath string) error { return httpwrapper.StoreUncompressedDir(dstPath, r) })
+	return h.deps.AnnotationSvc.CreateFromZip(aum, func(dstPath string) error { return httpwrapper.StoreUncompressedDirFromRequest(dstPath, r) })
 }
 
 // GetAnnotationURL godoc
@@ -296,23 +294,8 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 		}
 		src := resp.Body
 		defer src.Close()
-		dst, err := os.CreateTemp("", "upload-*.zip")
-		if err != nil {
-			return fmt.Errorf("failed to create file: %w", err)
-		}
-		defer dst.Close()
-		defer os.Remove(dst.Name())
 
-		_, err = io.Copy(dst, src)
-		if err != nil {
-			return fmt.Errorf("failed to save file: %w", err)
-		}
-
-		if err := futils.Unzip(dst.Name(), dstPath); err != nil {
-			return fmt.Errorf("failed to unzip file: %w", err)
-		}
-
-		return nil
+		return futils.UnzipFromReader(dstPath, src)
 	})
 }
 

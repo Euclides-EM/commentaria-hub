@@ -1,6 +1,9 @@
 package model
 
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 type ImageUpload struct {
 	Success  bool   `json:"success"`
@@ -15,4 +18,25 @@ type ImageMetadata struct {
 	// Filename is the name of the image file, which may not be unique across the dataset. It is unique across the dataset.
 	Filename   string    `json:"filename"`
 	ModifiedAt time.Time `json:"modified_at"`
+}
+
+type ImageType string
+
+const (
+	ImageTypeFacsimile    ImageType = "facsimile"
+	ImageTypeTitlePage    ImageType = "tp"
+	ImageTypeFrontispiece ImageType = "frontispiece"
+)
+
+func ToImageType(s string) (ImageType, error) {
+	switch s {
+	case "facsimile":
+		return ImageTypeFacsimile, nil
+	case "tp":
+		return ImageTypeTitlePage, nil
+	case "frontispiece":
+		return ImageTypeFrontispiece, nil
+	default:
+		return "", fmt.Errorf("invalid image type: %s", s)
+	}
 }
