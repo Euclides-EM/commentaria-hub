@@ -101,6 +101,7 @@ func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHead
 	if err := futils.UnzipFromReader(tmpDir, file); err != nil {
 		return nil, fmt.Errorf("failed to extract ZIP file: %w", err)
 	}
+	cnt := 0
 	for _, entry := range lo.Must(os.ReadDir(tmpDir)) {
 		if strings.ToLower(filepath.Ext(entry.Name())) != ".png" {
 			log.Printf("skipping %s as it does not have a .png extension", entry.Name())
@@ -114,10 +115,12 @@ func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHead
 		if err := os.Rename(path.Join(tmpDir, entry.Name()), path.Join(d.fileSysMgt.DatasetImagesDirByID(datasetId), entry.Name())); err != nil {
 			return nil, fmt.Errorf("failed to move extracted image to dataset images directory: %w", err)
 		}
+		cnt++
 	}
 	return &model.ImageUpload{
 		Success:  true,
 		Filename: header.Filename,
+		Uploaded: cnt,
 	}, nil
 }
 
