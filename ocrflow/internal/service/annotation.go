@@ -110,18 +110,25 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFe
 			}
 		}
 	}
+	var origAnn *annotation.Annotation
 	if ann.OriginAnnotationID != "" {
-		originAnn, err := a.Get(datasetID, ann.OriginAnnotationID)
+		origAnn, err = a.Get(datasetID, ann.OriginAnnotationID)
 		if err != nil {
 			return nil, fmt.Errorf("failed to get origin annotation from store: %w", err)
 		}
-		ann.AppliedRules = originAnn.AppliedRules
-		ann.LinesDetected = originAnn.LinesDetected
-		ann.Ocred = originAnn.Ocred
-		ann.Segmented = originAnn.Segmented
+		ann.AppliedRules = origAnn.AppliedRules
+		ann.LinesDetected = origAnn.LinesDetected
+		ann.Ocred = origAnn.Ocred
+		ann.Segmented = origAnn.Segmented
+		ann.Pages = origAnn.Pages
 	}
 	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
 		return nil, fmt.Errorf("failed to insert annotation to store: %w", err)
+	}
+	if origAnn != nil && origAnn.Segmented {
+		if err := futils.CopyDir(a.fileSysMgt.DatasetAnnotationAltoDir(origAnn), a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
+			return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+		}
 	}
 	if copyFeatureResults && ann.OriginAnnotationID != "" {
 		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.OriginAnnotationID, ann.ID); err != nil {
@@ -529,11 +536,13 @@ func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.Mer
 		return nil, fmt.Errorf("failed to get annotations to merge: %w", err)
 	}
 
-	// verify pages do not intersect
+	// calculate pages after merge (and verify pages do not intersect)
+	var pagesInMerged []int
 	dstPages, err := pagesparser.IntRange(dstAnn.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for destination annotation: %w", err)
 	}
+	pagesInMerged = append(pagesInMerged, dstPages...)
 	dstPageSet := make(map[int]struct{})
 	for _, p := range dstPages {
 		dstPageSet[p] = struct{}{}
@@ -546,6 +555,7 @@ func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.Mer
 		if intersect := lo.Intersect(dstPages, pages); len(intersect) > 0 {
 			return nil, fmt.Errorf("pages %v in annotation %s overlap with destination annotation", pagesparser.ToString(intersect), ann.ID)
 		}
+		pagesInMerged = append(pagesInMerged, pages...)
 	}
 
 	// update fields of destination annotation based on merged annotations
@@ -562,6 +572,7 @@ func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.Mer
 			MergedAt: time.Now(),
 		}
 	})...)
+	dstAnn.Pages = pagesparser.ToString(pagesInMerged)
 
 	// copy image files (if not already exist) - this is to ensure the merged annotation can be used even if the original annotations are deleted later
 	for _, ann := range toMerge {

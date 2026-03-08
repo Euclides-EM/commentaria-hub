@@ -159,6 +159,7 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 // @Description  Merge multiple annotations into a new annotation for a specific dataset.
 // @Tags         Annotations
 // @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "ID of the annotation to merge into."
 // @Param        mergeRequest  body      annotation.MergeRequest  true  "Annotation merge details"
 // @Security 	 BearerAuth
 // @Produce      json
