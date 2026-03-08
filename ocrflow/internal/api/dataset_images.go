@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
+
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 )
 
 // UploadDatasetImage godoc
@@ -13,8 +15,8 @@ import (
 // @Accept       multipart/form-data
 // @Produce      json
 // @Param        dataSetId  path      string  true  "Dataset ID"
-// @Param        key     formData  string  true  "Edition key"
-// @Param        type    formData  string  true  "Type of image (e.g., 'cover', 'facsimile')"
+// @Param        key     formData  string  false  "Edition key or page number associated with the image. Ignored in bulk (ZIP) uploads, where the key is derived from the filenames inside the ZIP."
+// @Param        type    formData  model.ImageType  true  "Type of image(s)."
 // @Param        file    formData  file    true  "Image file to upload"
 // @Security 	 BearerAuth
 // @Success      200  {object}  model.ImageUpload
@@ -25,12 +27,9 @@ func (h *Handlers) UploadDatasetImage(r *http.Request) (any, error) {
 		return nil, err
 	}
 	key := r.FormValue("key")
-	if key == "" {
-		return nil, fmt.Errorf("key is required for image upload")
-	}
-	typ := r.FormValue("type")
-	if typ == "" {
-		return nil, fmt.Errorf("type is required for image upload")
+	typ, err := model.ToImageType(r.FormValue("type"))
+	if err != nil {
+		return nil, fmt.Errorf("invalid image type: %w", err)
 	}
 	file, header, err := r.FormFile("file")
 	if err != nil {

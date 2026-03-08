@@ -80,5 +80,5 @@ func (h *Handlers) CreateBackupFromZip(r *http.Request) (any, error) {
 		return nil, err
 	}
 	defer file.Close()
-	return h.deps.BackupSvc.CreateBackupFromZip(file, func(dstPath string) error { return httpwrapper.StoreUncompressedDir(dstPath, r) })
+	return h.deps.BackupSvc.CreateBackupFromZip(file, func(dstPath string) error { return httpwrapper.StoreUncompressedDirFromRequest(dstPath, r) })
 }
