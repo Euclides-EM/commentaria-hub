@@ -75,6 +75,20 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 
 	var applyFuncs []func() ([]*feature.Result, error)
 	for _, key := range exec.Keys {
+		fullText, err := fe.annotationTEISvc.GetTxt(exec.DatasetID, exec.AnnotationID, key)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.AnnotationID, key, err)
+		}
+		fullText = strings.TrimSpace(fullText)
+		if fullText == "" {
+			return nil, fmt.Errorf("full text is empty for annotation %s and key %s", exec.AnnotationID, key)
+		}
+
+		var promptRevisions []*feature.Revision
+		var promptFeatures []*feature.Feature
+		var categorizerRevisions []*feature.Revision
+		var categorizerFeatures []*feature.Feature
+
 		for _, item := range exec.Apply {
 			feat, err := fe.featuresSvc.GetFeature(exec.DatasetID, item.Feature, nil)
 			if err != nil {
@@ -84,19 +98,35 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			if err != nil {
 				return nil, fmt.Errorf("failed to get feature revision for feature %s and revision %s: %w", item.Feature, item.Revision, err)
 			}
-			fullText, err := fe.annotationTEISvc.GetTxt(exec.DatasetID, exec.AnnotationID, key)
-			if err != nil {
-				return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.AnnotationID, key, err)
-			}
-
 			if fr.Categorizer != "" {
-				applyFuncs = append(applyFuncs, fe.execCategorizer(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID, fullText))
+				categorizerRevisions = append(categorizerRevisions, fr)
+				categorizerFeatures = append(categorizerFeatures, feat)
 			} else if fr.Prompt != "" {
-				applyFuncs = append(applyFuncs, fe.execPrompt(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID, fullText))
+				promptRevisions = append(promptRevisions, fr)
+				promptFeatures = append(promptFeatures, feat)
 			} else {
 				return nil, fmt.Errorf("feature revision for feature %s and revision %s does not have a valid execution strategy", item.Feature, item.Revision)
 			}
 		}
+
+		applyFuncs = append(applyFuncs, func() ([]*feature.Result, error) {
+			results := make([]*feature.Result, 0)
+			if len(categorizerRevisions) > 0 {
+				categorizerResults, err := fe.execCategorizer(ann, key, categorizerRevisions, categorizerFeatures, exec.ID, fullText)()
+				if err != nil {
+					return nil, err
+				}
+				results = append(results, categorizerResults...)
+			}
+			if len(promptRevisions) > 0 {
+				promptResults, err := fe.execPrompt(ann, key, promptRevisions, promptFeatures, exec.ID, "TODO-LANG", fullText)()
+				if err != nil {
+					return nil, err
+				}
+				results = append(results, promptResults...)
+			}
+			return results, nil
+		})
 	}
 
 	if err := fe.store.Create(exec); err != nil {
@@ -106,7 +136,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	// Run all apply functions in parallel and wait for them to finish
 	go func(executionID string, funcs []func() ([]*feature.Result, error)) {
 		var wg sync.WaitGroup
-		var results []*feature.Result
+		resultBatches := make([][]*feature.Result, len(funcs))
 		errors := make([]error, len(funcs))
 
 		for i, fn := range funcs {
@@ -114,7 +144,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			go func(i int) {
 				defer wg.Done()
 				result, err := fn()
-				results = append(results, result...)
+				resultBatches[i] = result
 				errors[i] = err
 			}(i)
 		}
@@ -139,6 +169,10 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 		}
 
 		newStatus := feature.ExecutionStatusSuccess
+		var results []*feature.Result
+		for _, batch := range resultBatches {
+			results = append(results, batch...)
+		}
 		err = fe.featureResultsSvc.CreateResults(results, lo.IfF(exec.Policy != nil, func() bool { return exec.Policy.PushToOrigin }).Else(false))
 		if err != nil {
 			log.Printf("failed to create result for execution %s: %v\n", executionID, err)
@@ -187,7 +221,7 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execut
 	return exec, nil
 }
 
-func (fe *Execution) execPrompt(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, fullText string) func() ([]*feature.Result, error) {
+func (fe *Execution) execPrompt(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) func() ([]*feature.Result, error) {
 	return func() ([]*feature.Result, error) {
 		if strings.TrimSpace(fullText) == "" {
 			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
@@ -198,7 +232,7 @@ func (fe *Execution) execPrompt(ann *annotation.Annotation, key string, frs []*f
 		var outputFormat string
 		featureNameToIndex := make(map[string]int)
 		for i, _ := range frs {
-			featureName := fmt.Sprintf("%s-rev-%s", fes[i].Name, frs[i].ID)
+			featureName := fmt.Sprintf("%s-rev-%s", fes[i].ID, frs[i].ID[0:3])
 			featureNameToIndex[featureName] = i
 			definitions = append(definitions, fmt.Sprintf("- %s: %s", featureName, frs[i].Prompt))
 			if fes[i].IsList {
@@ -207,11 +241,11 @@ func (fe *Execution) execPrompt(ann *annotation.Annotation, key string, frs []*f
 				outputFormat += fmt.Sprintf(`  "%s": "...", // a single quote or empty if not applicable`+"\n", featureName)
 			}
 		}
+		outputFormat = strings.TrimSpace(outputFormat)
 		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from %s.
 
 You will be given:
-- The transcribed text of a %s.
-- The language of the transcription.
+- The transcribed text of a %s in %s.
 
 Your task is to extract specific paratextual features from the transcription and return them as a JSON object.
 Each field should contain the exact quoted text(s) from the input, with no modifications, rephrasing, or interpretation. Include the original whitespaces, line breaks and punctuation as they appear in the transcription.
@@ -229,7 +263,7 @@ Definitions:
 
 Transcribed text:
 %s
-`, dsPromptDesc, dsPromptShortDesc, outputFormat, definitions, fullText)
+`, textLanguage, dsPromptDesc, dsPromptShortDesc, outputFormat, strings.Join(definitions, "\n"), fullText)
 
 		rawResponse, err := fe.llmClient.Exec(prompt, "")
 		if err != nil {
@@ -271,7 +305,7 @@ Transcribed text:
 			res := &feature.Result{
 				DatasetID:    ann.DatasetID,
 				AnnotationID: ann.ID,
-				FeatureID:    fes[idx].Name,
+				FeatureID:    fes[idx].ID,
 				PageKey:      key,
 				Source:       source,
 			}
@@ -308,7 +342,7 @@ func (fe *Execution) execCategorizer(ann *annotation.Annotation, key string, rev
 			res := &feature.Result{
 				DatasetID:    ann.DatasetID,
 				AnnotationID: ann.ID,
-				FeatureID:    features[i].Name,
+				FeatureID:    features[i].ID,
 				PageKey:      key,
 				Source:       source,
 				Values: lo.Map(vals, func(v normalize.MappedOriginal, _ int) feature.ResultValue {

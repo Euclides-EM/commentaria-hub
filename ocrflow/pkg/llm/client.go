@@ -4,20 +4,23 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
+	"log"
 	"mime"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/openai/openai-go/v3"
 	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/responses"
 )
 
 const (
 	modelGPT5Mini         = "gpt-5-mini"
 	unboundedOutputTokens = true
+	requestTimeout        = 45 * time.Second
+	totalTimeout          = 3 * time.Minute
 )
 
 type Client struct {
@@ -32,7 +35,10 @@ func (c *Client) Exec(prompt string, attachmentPath string) (string, error) {
 		return "", fmt.Errorf("llm exec: prompt is empty")
 	}
 
-	client := openai.NewClient(option.WithAPIKey(c.openAIKey))
+	client := openai.NewClient(
+		option.WithAPIKey(c.openAIKey),
+		option.WithMaxRetries(0),
+	)
 	payload := map[string]any{
 		"model": modelGPT5Mini,
 	}
@@ -40,43 +46,58 @@ func (c *Client) Exec(prompt string, attachmentPath string) (string, error) {
 		payload["max_output_tokens"] = nil
 	}
 
-	if strings.TrimSpace(attachmentPath) == "" {
-		payload["input"] = prompt
-	} else {
-		fileData, err := os.ReadFile(attachmentPath)
-		if err != nil {
-			return "", fmt.Errorf("llm exec: read attachment %s: %w", attachmentPath, err)
-		}
-		mimeType := mime.TypeByExtension(filepath.Ext(attachmentPath))
-		if mimeType == "" {
-			mimeType = http.DetectContentType(fileData)
-		}
-		encoded := base64.StdEncoding.EncodeToString(fileData)
-		payload["input"] = []map[string]any{
-			{
-				"role": "user",
-				"content": []map[string]any{
-					{
-						"type":      "input_file",
-						"filename":  filepath.Base(attachmentPath),
-						"file_data": fmt.Sprintf("data:%s;base64,%s", mimeType, encoded),
-					},
-					{
-						"type": "input_text",
-						"text": prompt,
-					},
-				},
-			},
-		}
+	input, err := buildInputPayload(prompt, attachmentPath)
+	if err != nil {
+		return "", err
 	}
+	payload["input"] = input
 
-	var resp responses.Response
-	if err := client.Post(context.Background(), "/responses", payload, &resp); err != nil {
-		return "", fmt.Errorf("llm exec: openai responses api call failed: %w", err)
+	startedAt := time.Now()
+	ctx, cancel := context.WithTimeout(context.Background(), totalTimeout)
+	defer cancel()
+	log.Printf("debug: llm exec start model=%s attachment=%t", modelGPT5Mini, strings.TrimSpace(attachmentPath) != "")
+
+	resp, attempts, err := executeWithRateLimitRetries(ctx, client, payload, modelGPT5Mini)
+	if err != nil {
+		log.Printf("debug: llm exec end model=%s duration=%s attempts=%d error=true", modelGPT5Mini, time.Since(startedAt), attempts)
+		return "", fmt.Errorf("llm exec: openai responses api call failed after %s: %w", time.Since(startedAt), err)
 	}
+	log.Printf("debug: llm exec end model=%s duration=%s attempts=%d", modelGPT5Mini, time.Since(startedAt), attempts)
 	return resp.OutputText(), nil
 }
 
 func NewClient(openAIKey string) *Client {
 	return &Client{openAIKey: openAIKey}
+}
+
+func buildInputPayload(prompt string, attachmentPath string) (any, error) {
+	if strings.TrimSpace(attachmentPath) == "" {
+		return prompt, nil
+	}
+
+	fileData, err := os.ReadFile(attachmentPath)
+	if err != nil {
+		return nil, fmt.Errorf("llm exec: read attachment %s: %w", attachmentPath, err)
+	}
+	mimeType := mime.TypeByExtension(filepath.Ext(attachmentPath))
+	if mimeType == "" {
+		mimeType = http.DetectContentType(fileData)
+	}
+	encoded := base64.StdEncoding.EncodeToString(fileData)
+	return []map[string]any{
+		{
+			"role": "user",
+			"content": []map[string]any{
+				{
+					"type":      "input_file",
+					"filename":  filepath.Base(attachmentPath),
+					"file_data": fmt.Sprintf("data:%s;base64,%s", mimeType, encoded),
+				},
+				{
+					"type": "input_text",
+					"text": prompt,
+				},
+			},
+		},
+	}, nil
 }
