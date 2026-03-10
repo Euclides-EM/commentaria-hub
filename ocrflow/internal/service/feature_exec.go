@@ -17,6 +17,8 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
 	"github.com/samber/lo"
+	"golang.org/x/text/cases"
+	"golang.org/x/text/language"
 )
 
 type Execution struct {
@@ -25,6 +27,7 @@ type Execution struct {
 	featureResultsSvc   *Result
 	annotationSvc       *Annotation
 	annotationTEISvc    *AnnotationTEI
+	editionSvc          *Edition
 	featurePropertySvc  *FeatureProperty
 	store               *fpstore.FeatureExecutionStore
 	filesysManager      *filesys.Manager
@@ -34,13 +37,14 @@ type Execution struct {
 }
 
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionStore).
-func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
+func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, editionSvc *Edition, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
 	return &Execution{
 		featureRevisionsSvc: featureRevisionsSvc,
 		featuresSvc:         featuresSvc,
 		featureResultsSvc:   featureResultsSvc,
 		annotationSvc:       annotationSvc,
 		annotationTEISvc:    annotationTEISvc,
+		editionSvc:          editionSvc,
 		featurePropertySvc:  featurePropertySvc,
 		store:               store,
 		filesysManager:      filesysManager,
@@ -75,6 +79,10 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 
 	var applyFuncs []func() ([]*feature.Result, error)
 	for _, key := range exec.Keys {
+		textLanguage, err := fe.textLanguageForKey(key)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get text language for key %s: %w", key, err)
+		}
 		fullText, err := fe.annotationTEISvc.GetTxt(exec.DatasetID, exec.AnnotationID, key)
 		if err != nil {
 			return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.AnnotationID, key, err)
@@ -119,7 +127,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 				results = append(results, categorizerResults...)
 			}
 			if len(promptRevisions) > 0 {
-				promptResults, err := fe.execPrompt(ann, key, promptRevisions, promptFeatures, exec.ID, "TODO-LANG", fullText)()
+				promptResults, err := fe.execPrompt(ann, key, promptRevisions, promptFeatures, exec.ID, textLanguage, fullText)()
 				if err != nil {
 					return nil, err
 				}
@@ -221,6 +229,22 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execut
 	return exec, nil
 }
 
+func (fe *Execution) textLanguageForKey(key string) (string, error) {
+	edition, err := fe.editionSvc.GetEditionByID(key)
+	if err != nil {
+		return "", err
+	}
+	title := cases.Title(language.Und)
+	languages := lo.FilterMap(edition.Languages, func(lang string, _ int) (string, bool) {
+		lang = strings.TrimSpace(lang)
+		if lang == "" {
+			return "", false
+		}
+		return title.String(lang), true
+	})
+	return strings.Join(languages, " and "), nil
+}
+
 func (fe *Execution) execPrompt(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) func() ([]*feature.Result, error) {
 	return func() ([]*feature.Result, error) {
 		if strings.TrimSpace(fullText) == "" {
@@ -263,7 +287,7 @@ Definitions:
 
 Transcribed text:
 %s
-`, textLanguage, dsPromptDesc, dsPromptShortDesc, outputFormat, strings.Join(definitions, "\n"), fullText)
+`, dsPromptDesc, dsPromptShortDesc, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
 
 		rawResponse, err := fe.llmClient.Exec(prompt, "")
 		if err != nil {

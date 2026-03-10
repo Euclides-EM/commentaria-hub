@@ -116,6 +116,7 @@ export function FeatureExecutionsTab() {
     queryKey: executionsQueryKey,
     queryFn: () =>
       ExecutionsService.getFeaturesExecutions({ dataset: datasetId }),
+    refetchInterval: 5 * 1000,
     refetchOnWindowFocus: false,
   })
 
@@ -289,15 +290,6 @@ export function FeatureExecutionsTab() {
               Execute
             </Button>
           )}
-          <Button
-            type="button"
-            variant="regular"
-            className="px-2 py-1 text-xs"
-            onClick={() => void executionsQuery.refetch()}
-            disabled={executionsLoading}
-          >
-            {executionsLoading ? 'Refreshing...' : 'Refresh'}
-          </Button>
         </div>
       </div>
 

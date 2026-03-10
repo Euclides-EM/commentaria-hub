@@ -12,8 +12,6 @@ import (
 
 	"github.com/avast/retry-go"
 	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/responses"
 )
 
 const (
@@ -24,16 +22,12 @@ const (
 
 var retryAfterMessagePattern = regexp.MustCompile(`Please try again in ([0-9hms.]+)`)
 
-func executeWithRateLimitRetries(ctx context.Context, client openai.Client, payload map[string]any, model string) (responses.Response, uint, error) {
-	var (
-		resp     responses.Response
-		attempts uint
-	)
-
+func executeWithRateLimitRetries(ctx context.Context, model string, call func() error) (uint, error) {
+	var attempts uint
 	err := retry.Do(
 		func() error {
 			attempts++
-			return client.Post(ctx, "/responses", payload, &resp, option.WithRequestTimeout(requestTimeout))
+			return call()
 		},
 		retry.Context(ctx),
 		retry.Attempts(maxRateLimitRetries+1),
@@ -54,7 +48,7 @@ func executeWithRateLimitRetries(ctx context.Context, client openai.Client, payl
 			log.Printf("debug: llm exec rate limit model=%s attempt=%d retry_in=%s", model, n+1, delay)
 		}),
 	)
-	return resp, attempts, err
+	return attempts, err
 }
 
 func rateLimitRetryDelay(err error, attempt uint) (time.Duration, bool) {

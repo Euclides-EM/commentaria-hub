@@ -14,6 +14,7 @@ import (
 
 	"github.com/openai/openai-go/v3"
 	"github.com/openai/openai-go/v3/option"
+	"github.com/openai/openai-go/v3/responses"
 )
 
 const (
@@ -57,7 +58,10 @@ func (c *Client) Exec(prompt string, attachmentPath string) (string, error) {
 	defer cancel()
 	log.Printf("debug: llm exec start model=%s attachment=%t", modelGPT5Mini, strings.TrimSpace(attachmentPath) != "")
 
-	resp, attempts, err := executeWithRateLimitRetries(ctx, client, payload, modelGPT5Mini)
+	var resp responses.Response
+	attempts, err := executeWithRateLimitRetries(ctx, modelGPT5Mini, func() error {
+		return client.Post(ctx, "/responses", payload, &resp, option.WithRequestTimeout(requestTimeout))
+	})
 	if err != nil {
 		log.Printf("debug: llm exec end model=%s duration=%s attempts=%d error=true", modelGPT5Mini, time.Since(startedAt), attempts)
 		return "", fmt.Errorf("llm exec: openai responses api call failed after %s: %w", time.Since(startedAt), err)
