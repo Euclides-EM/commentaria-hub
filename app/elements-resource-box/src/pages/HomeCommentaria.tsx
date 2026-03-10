@@ -10,7 +10,7 @@ const BackgroundContainer = styled.div`
   height: calc(100vh - ${NAVBAR_HEIGHT}px);
   background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
-    url("public/athens.jpg");
+    url("athens.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
