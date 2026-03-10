@@ -9,7 +9,7 @@ import {
   ModalTitle,
   TextColumnsContainer,
 } from "./ModalComponents.tsx";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useContext } from "react";
 import { openImage } from "../../../utils/dataUtils.ts";
 import styled from "@emotion/styled";
 import { HelpTip } from "../../map/Filter.tsx";
@@ -19,9 +19,9 @@ import {
 } from "../../map/MapTooltips.tsx";
 import { NotesEditor } from "./NotesEditor.tsx";
 import { ItemInfo } from "./ItemInfo.tsx";
-import { inEditMode } from "../../../utils/mode.ts";
 import { toItemImageUrl } from "../../../utils/util.ts";
 import { feature_Feature } from "@hub-api";
+import { AuthContext } from "../../../contexts/Auth.ts";
 
 const HighlightedText = lazy(() =>
   import("../features/HighlightedText.tsx").then((module) => ({
@@ -53,6 +53,7 @@ export const ItemModal = ({ item, featuresById, onClose }: ItemModalProps) => {
   const highlightFeatures = featuresById || {};
   const hasTitleText = !!item.title && item.title !== "?";
   const imageUrl = toItemImageUrl(item.tpImageName);
+  const { token } = useContext(AuthContext);
 
   return (
     <Modal onClick={onClose}>
@@ -118,7 +119,7 @@ export const ItemModal = ({ item, featuresById, onClose }: ItemModalProps) => {
             </NoTitlePage>
           )}
         </ModalTextContainer>
-        {inEditMode() && <NotesEditor item={item} />}
+        {token && <NotesEditor item={item} />}
       </ModalContent>
     </Modal>
   );
