@@ -36,6 +36,12 @@ type Execution struct {
 	mu                  sync.Mutex // Protects status updates in goroutines
 }
 
+type executionSkipState struct {
+	featureExists  map[string]struct{}
+	revisionExists map[string]struct{}
+	humanReviewed  map[string]struct{}
+}
+
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionStore).
 func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, editionSvc *Edition, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
 	return &Execution{
@@ -77,6 +83,11 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	exec.Status = feature.ExecutionStatusInProgress
 	exec.StatusReason = ""
 
+	skipState, err := fe.loadExecutionSkipState(exec)
+	if err != nil {
+		return nil, err
+	}
+
 	var applyFuncs []func() ([]*feature.Result, error)
 	for _, key := range exec.Keys {
 		textLanguage, err := fe.textLanguageForKey(key)
@@ -105,6 +116,9 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			fr, err := fe.featureRevisionsSvc.GetFeatureRevision(exec.DatasetID, item.Feature, item.Revision)
 			if err != nil {
 				return nil, fmt.Errorf("failed to get feature revision for feature %s and revision %s: %w", item.Feature, item.Revision, err)
+			}
+			if skipState.shouldSkip(exec.Policy, key, item.Feature, item.Revision) {
+				continue
 			}
 			if fr.Categorizer != "" {
 				categorizerRevisions = append(categorizerRevisions, fr)
@@ -193,6 +207,76 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	}(exec.ID, applyFuncs)
 
 	return exec, nil
+}
+
+func (fe *Execution) loadExecutionSkipState(exec *feature.Execution) (*executionSkipState, error) {
+	state := newExecutionSkipState()
+	if exec.Policy == nil || len(exec.Policy.SkipIf) == 0 || len(exec.Keys) == 0 || len(exec.Apply) == 0 {
+		return state, nil
+	}
+
+	featureIDs := lo.Uniq(lo.Map(exec.Apply, func(item feature.ExecutionApplyItem, _ int) string {
+		return item.Feature
+	}))
+	results, err := fe.featureResultsSvc.ListResultsForExecutionPolicy(
+		exec.DatasetID,
+		exec.AnnotationID,
+		exec.Keys,
+		featureIDs,
+		exec.Policy.PushToOrigin,
+	)
+	if err != nil {
+		return nil, fmt.Errorf("failed to preload feature results for execution policy: %w", err)
+	}
+
+	for _, result := range results {
+		if result == nil {
+			continue
+		}
+		state.featureExists[result.FeatureID+"::"+result.PageKey] = struct{}{}
+		if strings.TrimSpace(result.Source.Revision) != "" {
+			state.revisionExists[result.FeatureID+"::"+result.PageKey+"::"+result.Source.Revision] = struct{}{}
+		}
+		if result.Source.Resp == "human" {
+			state.humanReviewed[result.FeatureID+"::"+result.PageKey] = struct{}{}
+		}
+	}
+
+	return state, nil
+}
+
+func newExecutionSkipState() *executionSkipState {
+	return &executionSkipState{
+		featureExists:  make(map[string]struct{}),
+		revisionExists: make(map[string]struct{}),
+		humanReviewed:  make(map[string]struct{}),
+	}
+}
+
+func (s *executionSkipState) shouldSkip(policy *feature.ExecutionPolicy, key, featureID, revisionID string) bool {
+	if policy == nil || len(policy.SkipIf) == 0 {
+		return false
+	}
+
+	featureKey := featureID + "::" + key
+	revisionKey := featureKey + "::" + revisionID
+	for _, rule := range policy.SkipIf {
+		switch rule {
+		case feature.ExecutionSkipIfFeatureExist:
+			if _, ok := s.featureExists[featureKey]; ok {
+				return true
+			}
+		case feature.ExecutionSkipIfRevisionExist:
+			if _, ok := s.revisionExists[revisionKey]; ok {
+				return true
+			}
+		case feature.ExecutionSkipIfHumanReviewed:
+			if _, ok := s.humanReviewed[featureKey]; ok {
+				return true
+			}
+		}
+	}
+	return false
 }
 
 func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execution, error) {

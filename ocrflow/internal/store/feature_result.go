@@ -152,6 +152,30 @@ func (s *FeatureResultSql) List(datasetID, annotationID string, keys []string, f
 		query, args = s.listQueryFallbackToOrigin(datasetID, annotationID, keys, features)
 	}
 
+	return s.listByQuery(query, args)
+}
+
+func (s *FeatureResultSql) ListForExecutionPolicy(datasetID, annotationID string, keys []string, features []string, pushToOrigin bool) ([]*feature.Result, error) {
+	if datasetID == "" || annotationID == "" {
+		return nil, errors.New("list feature results for execution policy: missing dataset_id or annotation_id")
+	}
+
+	tx, err := s.db.Begin()
+	if err != nil {
+		return nil, fmt.Errorf("list feature results for execution policy: begin: %w", err)
+	}
+	defer func() { _ = tx.Rollback() }()
+
+	targetAnnotationID, err := resolveTargetAnnotationIDTx(tx, datasetID, annotationID, pushToOrigin)
+	if err != nil {
+		return nil, fmt.Errorf("list feature results for execution policy: resolve target annotation: %w", err)
+	}
+
+	query, args := s.listQueryNoFallback(datasetID, targetAnnotationID, keys, features)
+	return s.listByQuery(query, args)
+}
+
+func (s *FeatureResultSql) listByQuery(query string, args []any) ([]*feature.Result, error) {
 	rows, err := s.db.Query(query, args...)
 	if err != nil {
 		return nil, fmt.Errorf("list feature results: query: %w", err)
