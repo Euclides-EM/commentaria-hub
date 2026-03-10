@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import styled from "@emotion/styled";
 import { FaBookReader, FaCheck, FaQuoteLeft } from "react-icons/fa";
 import { Item } from "../../../types";
@@ -12,8 +12,8 @@ import { LAND_COLOR } from "../../../utils/colors";
 import { TOOLTIP_SCAN } from "../../map/MapTooltips";
 import { SiMaterialdesign } from "react-icons/si";
 import pluralize from "pluralize";
-import { inEditMode } from "../../../utils/mode.ts";
 import { ITEM_EDIT_ROUTE } from "../../layout/routes.ts";
+import { AuthContext } from "../../../contexts/Auth.ts";
 
 const InfoTitle = styled.div`
   font-size: 0.8rem;
@@ -127,6 +127,7 @@ export const ItemInfo = ({
   showDiagramsLink?: boolean;
 }) => {
   const [copied, setCopied] = useState(false);
+  const { token } = useContext(AuthContext);
 
   return (
     <ModalTextColumn isRow={isRow}>
@@ -219,7 +220,7 @@ export const ItemInfo = ({
         </Row>
       )}
 
-      {inEditMode() && (
+      {token && (
         <div>
           <EditLink
             href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
