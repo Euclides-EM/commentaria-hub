@@ -82,26 +82,26 @@ export class DatasetImagesService {
      */
     public static postDatasetsImagesUpload({
         dataSetId,
-        key,
         type,
         file,
+        key,
     }: {
         /**
          * Dataset ID
          */
         dataSetId: string,
         /**
-         * Edition key
+         * Type of image(s).
          */
-        key: string,
-        /**
-         * Type of image (e.g., 'cover', 'facsimile')
-         */
-        type: string,
+        type: 'facsimile' | 'tp' | 'frontispiece',
         /**
          * Image file to upload
          */
         file: Blob,
+        /**
+         * Edition key or page number associated with the image. Ignored in bulk (ZIP) uploads, where the key is derived from the filenames inside the ZIP.
+         */
+        key?: string,
     }): CancelablePromise<model_ImageUpload> {
         return __request(OpenAPI, {
             method: 'POST',

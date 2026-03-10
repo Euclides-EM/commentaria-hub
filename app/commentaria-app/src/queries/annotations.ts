@@ -56,6 +56,7 @@ export function useAnnotationTeiQuery(
         dataSetId: datasetId,
         id: annotationId,
         pageNumOrKey: String(pageOrKey),
+        fallbackToOrigin: true,
       }),
     enabled: !!datasetId && !!annotationId && !!pageOrKey && enabled,
   })
