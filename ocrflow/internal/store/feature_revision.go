@@ -212,8 +212,8 @@ func scanFeatureRevision(scanner func(...any) error) (*feature.Revision, error) 
 		updatedAt   time.Time
 		datasetID   string
 		featureID   string
-		prompt      string
-		categorizer string
+		prompt      sql.NullString
+		categorizer sql.NullString
 	)
 
 	if err := scanner(
@@ -240,7 +240,7 @@ func scanFeatureRevision(scanner func(...any) error) (*feature.Revision, error) 
 		},
 		DatasetID:   datasetID,
 		FeatureID:   featureID,
-		Prompt:      prompt,
-		Categorizer: categorizer,
+		Prompt:      prompt.String,
+		Categorizer: categorizer.String,
 	}, nil
 }

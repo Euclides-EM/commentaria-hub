@@ -1,10 +1,11 @@
 package service
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
-	"path/filepath"
 	"slices"
+	"strings"
 	"sync"
 	"time"
 
@@ -91,7 +92,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			if fr.Categorizer != "" {
 				applyFuncs = append(applyFuncs, fe.execCategorizer(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID, fullText))
 			} else if fr.Prompt != "" {
-				applyFuncs = append(applyFuncs, fe.execPrompt(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID))
+				applyFuncs = append(applyFuncs, fe.execPrompt(ann, key, []*feature.Revision{fr}, []*feature.Feature{feat}, exec.ID, fullText))
 			} else {
 				return nil, fmt.Errorf("feature revision for feature %s and revision %s does not have a valid execution strategy", item.Feature, item.Revision)
 			}
@@ -186,14 +187,11 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execut
 	return exec, nil
 }
 
-func (fe *Execution) execPrompt(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string) func() ([]*feature.Result, error) {
+func (fe *Execution) execPrompt(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, fullText string) func() ([]*feature.Result, error) {
 	return func() ([]*feature.Result, error) {
-		img, err := fe.datasetImg.GetImageMetadata(ann.DatasetID, key)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get image metadata for dataset %s and key %s: %w", ann.DatasetID, key, err)
+		if strings.TrimSpace(fullText) == "" {
+			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
 		}
-		imgDir := fe.filesysManager.DatasetImagesDirByID(ann.DatasetID)
-		imgPath := filepath.Join(imgDir, img.Filename)
 		dsPromptDesc := "historical title pages of translations of Euclid's Elements"
 		dsPromptShortDesc := "title page"
 		var definitions []string
@@ -228,26 +226,52 @@ Output format:
 
 Definitions: 
 %s
-`, dsPromptDesc, dsPromptShortDesc, outputFormat, definitions)
 
-		var response map[string][]string
-		response, err = fe.llmClient.Exec(prompt, imgPath)
+Transcribed text:
+%s
+`, dsPromptDesc, dsPromptShortDesc, outputFormat, definitions, fullText)
+
+		rawResponse, err := fe.llmClient.Exec(prompt, "")
 		if err != nil {
 			return nil, fmt.Errorf("failed to execute LLM prompt for dataset %s and key %s: %w", ann.DatasetID, key, err)
 		}
+		rawFields, err := llm.ParseJSON[map[string]json.RawMessage](rawResponse)
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse LLM response for dataset %s and key %s: %w", ann.DatasetID, key, err)
+		}
 
 		var results []*feature.Result
-		for fn, quotes := range response {
+		for fn, rawValue := range rawFields {
+			idx, ok := featureNameToIndex[fn]
+			if !ok {
+				return nil, fmt.Errorf("llm response contained unknown field %q for dataset %s and key %s", fn, ann.DatasetID, key)
+			}
+
+			var quotes []string
+			if fes[idx].IsList {
+				if err := json.Unmarshal(rawValue, &quotes); err != nil {
+					return nil, fmt.Errorf("failed to parse list response for field %q in dataset %s and key %s: %w", fn, ann.DatasetID, key, err)
+				}
+			} else {
+				var quote string
+				if err := json.Unmarshal(rawValue, &quote); err != nil {
+					return nil, fmt.Errorf("failed to parse scalar response for field %q in dataset %s and key %s: %w", fn, ann.DatasetID, key, err)
+				}
+				if quote != "" {
+					quotes = []string{quote}
+				}
+			}
+
 			source := feature.ResultSource{
 				Resp:     "auto",
 				Id:       execID,
-				Revision: frs[featureNameToIndex[fn]].ID,
+				Revision: frs[idx].ID,
 				Name:     "llm",
 			}
 			res := &feature.Result{
 				DatasetID:    ann.DatasetID,
 				AnnotationID: ann.ID,
-				FeatureID:    fes[featureNameToIndex[fn]].Name,
+				FeatureID:    fes[idx].Name,
 				PageKey:      key,
 				Source:       source,
 			}
@@ -258,6 +282,7 @@ Definitions:
 				})
 			}
 			res.Values = resultValues
+			results = append(results, res)
 		}
 		return results, nil
 	}
@@ -265,6 +290,9 @@ Definitions:
 
 func (fe *Execution) execCategorizer(ann *annotation.Annotation, key string, revisions []*feature.Revision, features []*feature.Feature, id string, text string) func() ([]*feature.Result, error) {
 	return func() ([]*feature.Result, error) {
+		if strings.TrimSpace(text) == "" {
+			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
+		}
 		results := make([]*feature.Result, 0)
 		for i, rev := range revisions {
 			vals, err := fe.featurePropertySvc.CalcValsByPropertyKey(text, rev.Categorizer)
