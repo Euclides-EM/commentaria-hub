@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import {
-  EditionsService,
   ExecutionsService,
   type feature_Execution,
   type feature_ExecutionApplyItem,
@@ -17,6 +16,7 @@ import { Button } from '../../core/Button.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
+import { listAllEditions } from '../../../utils/editionItems.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
@@ -36,41 +36,6 @@ const EXECUTION_SKIP_IF_LABELS: Record<feature_ExecutionSkipIf, string> = {
   feature_exist: 'Feature exist',
   revision_exist: 'Revision exist',
   human_reviewed: 'Human reviewed',
-}
-
-const listAllEditions = async (): Promise<model_Edition[]> => {
-  const limit = 500
-  let offset = 0
-  const results: model_Edition[] = []
-
-  while (true) {
-    const page = await EditionsService.postEditionsSearch({
-      edition: {
-        offset,
-        limit,
-        filter_includes: {
-          titlePageStatus: false,
-        },
-        fields_filter: {
-          isManuscript: ['false'],
-          titlePageStatus: ['No', 'Unknown'],
-        },
-        order_by: [{ field: 'year' }, { field: 'cities' }],
-      },
-    })
-    const items = page.items || []
-    results.push(...items)
-    if (
-      items.length === 0 ||
-      items.length < limit ||
-      (page.total !== undefined && results.length >= page.total)
-    ) {
-      break
-    }
-    offset += limit
-  }
-
-  return results
 }
 
 const formatDate = (value?: string) => {
@@ -276,7 +241,7 @@ export function FeatureExecutionsTab() {
   const creatingExecution = createExecutionMutation.isPending
 
   return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
+    <section className="border border-gray-300 rounded-xl flex flex-col bg-white mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
       <div className="px-3 py-2 border-b border-gray-200 bg-gray-50 flex items-center justify-between gap-3">
         <div className="text-sm font-semibold">Feature Executions</div>
         <div className="flex items-center gap-2">
