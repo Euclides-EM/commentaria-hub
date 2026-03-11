@@ -10,7 +10,7 @@ import { Button } from '../../core/Button.tsx'
 import { useDatasetFeaturesQuery } from '../../../queries/datasets.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { formatEditionLabel } from '../../../utils/editions.ts'
-import {listAllEditions} from "../../../queries/editions.ts";
+import { listAllEditions } from '../../../queries/editions.ts'
 
 type FeatureOption = {
   value: string

@@ -15,7 +15,9 @@ export function useEditionQuery(
   })
 }
 
-export const listAllEditions = async (filter?: Record<string, string[]>): Promise<model_Edition[]> => {
+export const listAllEditions = async (
+  filter?: Record<string, string[]>,
+): Promise<model_Edition[]> => {
   const limit = 500
   let offset = 0
   const results: model_Edition[] = []

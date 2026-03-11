@@ -16,7 +16,7 @@ import { Button } from '../../core/Button.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
-import {listAllEditions} from "../../../queries/editions.ts";
+import { listAllEditions } from '../../../queries/editions.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
