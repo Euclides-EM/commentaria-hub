@@ -1012,6 +1012,7 @@ export function TeiPane({
         dataSetId: datasetId,
         id: annotationId,
         keys: String(currentPageOrKey),
+        fallbackToOrigin: true,
       }),
     enabled: !!datasetId && !!annotationId,
   })
@@ -1513,6 +1514,7 @@ export function TeiPane({
         dataSetId: datasetId,
         id: annotationId,
         result: results,
+        pushToOrigin: true,
       }),
   })
   const textEditMutation = useMutation({
