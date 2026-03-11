@@ -1,4 +1,4 @@
-import { useQuery } from '@tanstack/react-query'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import {
   DatasetImagesService,
   DatasetsService,
@@ -8,7 +8,7 @@ import {
 import { normalizeFeatureProperties } from '../utils/featureProperties.ts'
 
 export const datasetsQueryKey = () => ['datasets'] as const
-const datasetsImagesQueryKey = (datasetId: string) =>
+export const datasetsImagesQueryKey = (datasetId: string) =>
   ['datasets', datasetId, 'images'] as const
 
 export interface DatasetImageKey {
@@ -97,5 +97,34 @@ export function useFeaturePropertiesQuery(enabled = true) {
     },
     enabled,
     refetchOnWindowFocus: false,
+  })
+}
+
+export function useReplaceDatasetImageMutation() {
+  const queryClient = useQueryClient()
+
+  return useMutation({
+    mutationFn: ({
+      datasetId,
+      key,
+      type,
+      file,
+    }: {
+      datasetId: string
+      key?: string
+      type: 'facsimile' | 'tp'
+      file: File
+    }) =>
+      DatasetImagesService.postDatasetsImagesUpload({
+        dataSetId: datasetId,
+        key,
+        type,
+        file,
+      }),
+    onSuccess: (_data, variables) => {
+      queryClient.invalidateQueries({
+        queryKey: datasetsImagesQueryKey(variables.datasetId),
+      })
+    },
   })
 }

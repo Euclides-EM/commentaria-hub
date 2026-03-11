@@ -22,8 +22,10 @@ interface DatasetDetailsTabProps {
   editedDeskewed: boolean
   editedDenoised: boolean
   error: string | null
+  isUploadingImages: boolean
   onEditClick: () => void
   onDeleteClick: () => void
+  onUploadImagesClick: () => void
   onNameChange: (value: string) => void
   onDescriptionChange: (value: string) => void
   onDpiChange: (value: string) => void
@@ -49,8 +51,10 @@ export function DatasetDetailsTab({
   editedDeskewed,
   editedDenoised,
   error,
+  isUploadingImages,
   onEditClick,
   onDeleteClick,
+  onUploadImagesClick,
   onNameChange,
   onDescriptionChange,
   onDpiChange,
@@ -87,6 +91,13 @@ export function DatasetDetailsTab({
                 </>
               ) : (
                 <>
+                  <Button
+                    onClick={onUploadImagesClick}
+                    className="px-2 py-1 text-xs"
+                    disabled={isCreating || isUploadingImages}
+                  >
+                    {isUploadingImages ? 'Uploading...' : 'Upload images'}
+                  </Button>
                   <Button
                     onClick={onEditClick}
                     className="px-2 py-1 text-xs"

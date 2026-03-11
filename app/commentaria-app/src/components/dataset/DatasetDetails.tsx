@@ -1,14 +1,20 @@
-import { useEffect, useState } from 'react'
+import { type ChangeEvent, useEffect, useRef, useState } from 'react'
 import { DatasetsService, ApiError, type model_Dataset } from '@hub-api'
 import { AnnotationActions } from '../annotation/AnnotationActions.tsx'
 import { DeleteAnnotationModal } from '../modal/DeleteAnnotationModal.tsx'
+import { NoticeModal } from '../modal/NoticeModal.tsx'
+import { ReplaceImageModal } from '../modal/ReplaceImageModal.tsx'
 import { useAppState } from '../../context/useAppState.ts'
-import { useDatasetsQuery } from '../../queries/datasets.ts'
+import {
+  useDatasetsQuery,
+  useReplaceDatasetImageMutation,
+} from '../../queries/datasets.ts'
 import { useAuthStore } from '../../store/authStore.ts'
 import useLocalStorageState from 'use-local-storage-state'
 import { TabButton } from '../core/TabButton.tsx'
 import { DatasetDetailsTab } from './DatasetDetailsTab.tsx'
 import { DatasetFeaturesTab } from './DatasetFeaturesTab.tsx'
+import { TITLE_PAGES_DATASET_ID } from '../../utils/editions.ts'
 
 type DatasetStatus = 'creating' | 'ready' | 'failed'
 type DatasetTab = 'details' | 'features'
@@ -48,6 +54,15 @@ export const DatasetDetails = () => {
   const [isSaving, setIsSaving] = useState(false)
   const [isDeleteOpen, setIsDeleteOpen] = useState(false)
   const [isDeleting, setIsDeleting] = useState(false)
+  const [isUploadImagesOpen, setIsUploadImagesOpen] = useState(false)
+  const [uploadImagesError, setUploadImagesError] = useState<string | null>(
+    null,
+  )
+  const [uploadSuccessCount, setUploadSuccessCount] = useState<number | null>(
+    null,
+  )
+  const fileInputRef = useRef<HTMLInputElement | null>(null)
+  const uploadImagesMutation = useReplaceDatasetImageMutation()
 
   useEffect(() => {
     setError(null)
@@ -131,6 +146,50 @@ export const DatasetDetails = () => {
     }
   }
 
+  const handleUploadImagesConfirm = () => {
+    setUploadImagesError(null)
+    setIsUploadImagesOpen(false)
+    fileInputRef.current?.click()
+  }
+
+  const handleUploadImagesCancel = () => {
+    if (uploadImagesMutation.isPending) {
+      return
+    }
+    setUploadImagesError(null)
+    setIsUploadImagesOpen(false)
+  }
+
+  const handleUploadImagesChange = async (
+    event: ChangeEvent<HTMLInputElement>,
+  ) => {
+    const file = event.target.files?.[0]
+    event.target.value = ''
+
+    if (!file || !currentDataset?.id || isCreating) {
+      return
+    }
+
+    try {
+      setUploadImagesError(null)
+      const result = await uploadImagesMutation.mutateAsync({
+        datasetId: currentDataset.id,
+        type: currentDataset.id === TITLE_PAGES_DATASET_ID ? 'tp' : 'facsimile',
+        file,
+      })
+      setUploadSuccessCount(result.uploaded ?? 0)
+    } catch (e) {
+      setUploadImagesError(
+        e instanceof ApiError
+          ? typeof e.body === 'string'
+            ? e.body
+            : JSON.stringify(e.body)
+          : String(e),
+      )
+      setIsUploadImagesOpen(true)
+    }
+  }
+
   if (!currentDataset) {
     return <AnnotationActions dataSetId={state.datasetId} />
   }
@@ -160,6 +219,7 @@ export const DatasetDetails = () => {
             isEditing={isEditing}
             isAuthenticated={isAuthenticated}
             isSaving={isSaving}
+            isUploadingImages={uploadImagesMutation.isPending}
             editedName={editedName}
             editedDescription={editedDescription}
             editedDpi={editedDpi}
@@ -171,6 +231,11 @@ export const DatasetDetails = () => {
             onDeleteClick={() => {
               setError(null)
               setIsDeleteOpen(true)
+            }}
+            onUploadImagesClick={() => {
+              setUploadImagesError(null)
+              setUploadSuccessCount(null)
+              setIsUploadImagesOpen(true)
             }}
             onNameChange={setEditedName}
             onDescriptionChange={setEditedDescription}
@@ -195,6 +260,35 @@ export const DatasetDetails = () => {
         isDeleting={isDeleting}
         onCancel={() => setIsDeleteOpen(false)}
         onConfirm={handleDeleteConfirm}
+      />
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept=".zip,application/zip"
+        className="sr-only"
+        onChange={(event) => {
+          void handleUploadImagesChange(event)
+        }}
+        disabled={uploadImagesMutation.isPending}
+      />
+      <ReplaceImageModal
+        isOpen={isUploadImagesOpen}
+        title="Upload images"
+        body={`Upload a ZIP file to replace images for dataset ${
+          currentDataset.name || currentDataset.id
+        }? This will overwrite existing images for matching entries in this dataset.`}
+        confirmLabel="Choose ZIP"
+        loadingMessage="Uploading images..."
+        isReplacing={uploadImagesMutation.isPending}
+        error={uploadImagesError}
+        onCancel={handleUploadImagesCancel}
+        onConfirm={handleUploadImagesConfirm}
+      />
+      <NoticeModal
+        isOpen={uploadSuccessCount != null}
+        title="Upload complete"
+        message={`Successfully uploaded ${uploadSuccessCount ?? 0} images for dataset ${currentDataset.name || currentDataset.id}`}
+        onClose={() => setUploadSuccessCount(null)}
       />
     </div>
   )

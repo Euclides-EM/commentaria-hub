@@ -1,4 +1,5 @@
 import {
+  type ChangeEvent,
   type PointerEvent as ReactPointerEvent,
   useEffect,
   useMemo,
@@ -7,10 +8,17 @@ import {
 } from 'react'
 import { useAppState } from '../../../context/useAppState.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
-import { useDatasetImageKeysQuery } from '../../../queries/datasets.ts'
+import {
+  useDatasetImageKeysQuery,
+  useReplaceDatasetImageMutation,
+} from '../../../queries/datasets.ts'
 import type { TeiSurfaceZone } from './tei/tei.ts'
 import ImageZoom from 'react-image-zooom'
 import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
+import { useAuthStore } from '../../../store/authStore.ts'
+import { Button } from '../../core/Button.tsx'
+import { ReplaceImageModal } from '../../modal/ReplaceImageModal.tsx'
+import { ApiError } from '@hub-api'
 
 type RenderedImageRect = {
   left: number
@@ -93,8 +101,14 @@ export function ImagePane({
   } = useAppState()
   const [zoom, setZoom] = useState(250)
   const [isImageZoomEngaged, setIsImageZoomEngaged] = useState(false)
+  const [isReplaceModalOpen, setIsReplaceModalOpen] = useState(false)
+  const [replaceError, setReplaceError] = useState<string | null>(null)
+  const [imageVersion, setImageVersion] = useState(() => Date.now())
   const viewportRef = useRef<HTMLDivElement | null>(null)
+  const fileInputRef = useRef<HTMLInputElement | null>(null)
   const lastHoverIdsKeyRef = useRef('')
+  const isAuthenticated = !!useAuthStore((store) => store.token)
+  const replaceImageMutation = useReplaceDatasetImageMutation()
   const [imageDisplayBox, setImageDisplayBox] = useState({
     left: 0,
     top: 0,
@@ -125,7 +139,11 @@ export function ImagePane({
     return matchedImage?.filename || ''
   })()
 
-  const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
+  const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}?v=${imageVersion}`
+
+  useEffect(() => {
+    setImageVersion(Date.now())
+  }, [datasetId, normalizedKey])
 
   useEffect(() => {
     const viewport = viewportRef.current
@@ -391,6 +409,51 @@ export function ImagePane({
     emitHoverIds([])
   }
 
+  const handleReplaceConfirm = () => {
+    setReplaceError(null)
+    setIsReplaceModalOpen(false)
+    fileInputRef.current?.click()
+  }
+
+  const handleReplaceCancel = () => {
+    if (replaceImageMutation.isPending) {
+      return
+    }
+    setReplaceError(null)
+    setIsReplaceModalOpen(false)
+  }
+
+  const handleFileChange = async (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0]
+    event.target.value = ''
+
+    if (!file || !datasetId || !currentPageOrKey) {
+      return
+    }
+
+    try {
+      setReplaceError(null)
+      await replaceImageMutation.mutateAsync({
+        datasetId,
+        key: String(currentPageOrKey),
+        type: datasetId === TITLE_PAGES_DATASET_ID ? 'tp' : 'facsimile',
+        file,
+      })
+      setImageVersion(Date.now())
+    } catch (error) {
+      setReplaceError(
+        error instanceof ApiError
+          ? typeof error.body === 'string'
+            ? error.body
+            : JSON.stringify(error.body)
+          : error instanceof Error
+            ? error.message
+            : 'Failed to replace image.',
+      )
+      setIsReplaceModalOpen(true)
+    }
+  }
+
   if (!normalizedKey) {
     return
   }
@@ -412,6 +475,19 @@ export function ImagePane({
         >
           ⤢
         </button>
+        {isAuthenticated && (
+          <Button
+            type="button"
+            onClick={() => {
+              setReplaceError(null)
+              setIsReplaceModalOpen(true)
+            }}
+            className="px-2 py-1 text-xs"
+            disabled={replaceImageMutation.isPending}
+          >
+            Replace image
+          </Button>
+        )}
         <RangeInput
           label="Zoom control"
           value={zoom}
@@ -480,6 +556,28 @@ export function ImagePane({
           <div className="h-10 w-0.5 rounded-full bg-gray-300" />
         </div>
       )}
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        className="sr-only"
+        onChange={(event) => {
+          void handleFileChange(event)
+        }}
+        disabled={replaceImageMutation.isPending}
+      />
+      <ReplaceImageModal
+        isOpen={isReplaceModalOpen}
+        body={`Replace ${
+          annotation?.pages && annotation.dataset_id !== TITLE_PAGES_DATASET_ID
+            ? `page ${currentPageOrKey}`
+            : currentImageName
+        } with a new image? This will overwrite the current image for this page.`}
+        isReplacing={replaceImageMutation.isPending}
+        error={replaceError}
+        onCancel={handleReplaceCancel}
+        onConfirm={handleReplaceConfirm}
+      />
     </section>
   )
 }
