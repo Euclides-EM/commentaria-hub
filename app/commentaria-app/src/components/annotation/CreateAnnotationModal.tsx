@@ -136,6 +136,8 @@ export function CreateAnnotationModal({
               name: name.trim(),
               description: description.trim() || undefined,
               source_annotation_id: originAnnotationId || undefined,
+              copy_feature_results:
+                originAnnotationId != null ? copyFeatureResults : false,
             },
           })
         : await AnnotationsService.postDatasetsAnnotations({
@@ -232,7 +234,7 @@ export function CreateAnnotationModal({
             />
           </div>
 
-          {!isDuplicateMode && originAnnotationId && (
+          {originAnnotationId && (
             <label className="flex items-center gap-2 text-sm text-gray-700">
               <input
                 type="checkbox"
