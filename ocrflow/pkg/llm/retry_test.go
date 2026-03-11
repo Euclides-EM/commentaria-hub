@@ -104,7 +104,7 @@ func TestRetryDelayFromMessage(t *testing.T) {
 	}
 }
 
-func TestRateLimitRetryDelay(t *testing.T) {
+func TestRetryDelay(t *testing.T) {
 	tests := []struct {
 		name    string
 		err     error
@@ -125,6 +125,20 @@ func TestRateLimitRetryDelay(t *testing.T) {
 			attempt: 1,
 			want:    0,
 			retry:   false,
+		},
+		{
+			name:    "server error retries with exponential fallback",
+			err:     newOpenAIError(http.StatusInternalServerError, http.Header{}, `{"message":"server error","type":"server_error","param":null,"code":null}`),
+			attempt: 2,
+			want:    4 * time.Second,
+			retry:   true,
+		},
+		{
+			name:    "server error uses retry after header",
+			err:     newOpenAIError(http.StatusBadGateway, http.Header{"Retry-After": []string{"6"}}, `{"message":"bad gateway","type":"server_error","param":null,"code":null}`),
+			attempt: 1,
+			want:    6 * time.Second,
+			retry:   true,
 		},
 		{
 			name:    "uses retry after header",
@@ -158,12 +172,12 @@ func TestRateLimitRetryDelay(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, retry := rateLimitRetryDelay(tt.err, tt.attempt)
+			got, retry := retryDelay(tt.err, tt.attempt)
 			if retry != tt.retry {
-				t.Fatalf("rateLimitRetryDelay() retry = %t, want %t", retry, tt.retry)
+				t.Fatalf("retryDelay() retry = %t, want %t", retry, tt.retry)
 			}
 			if got != tt.want {
-				t.Fatalf("rateLimitRetryDelay() delay = %s, want %s", got, tt.want)
+				t.Fatalf("retryDelay() delay = %s, want %s", got, tt.want)
 			}
 		})
 	}

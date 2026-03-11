@@ -21,29 +21,34 @@ func NewExecutionSkipState() *ExecutionSkipState {
 }
 
 func (s *ExecutionSkipState) ShouldSkip(policy *feature.ExecutionPolicy, key, featureID, revisionID string) bool {
+	return len(s.SkipReasons(policy, key, featureID, revisionID)) > 0
+}
+
+func (s *ExecutionSkipState) SkipReasons(policy *feature.ExecutionPolicy, key, featureID, revisionID string) []feature.ExecutionSkipIf {
 	if policy == nil || len(policy.SkipIf) == 0 {
-		return false
+		return nil
 	}
 
 	featureKey := featureID + "::" + key
 	revisionKey := featureKey + "::" + revisionID
+	var reasons []feature.ExecutionSkipIf
 	for _, rule := range policy.SkipIf {
 		switch rule {
 		case feature.ExecutionSkipIfFeatureExist:
 			if _, ok := s.featureExists[featureKey]; ok {
-				return true
+				reasons = append(reasons, rule)
 			}
 		case feature.ExecutionSkipIfRevisionExist:
 			if _, ok := s.revisionExists[revisionKey]; ok {
-				return true
+				reasons = append(reasons, rule)
 			}
 		case feature.ExecutionSkipIfHumanReviewed:
 			if _, ok := s.humanReviewed[featureKey]; ok {
-				return true
+				reasons = append(reasons, rule)
 			}
 		}
 	}
-	return false
+	return reasons
 }
 
 func (s *ExecutionSkipState) Add(featureID, key, revisionID string, reviewed bool) {

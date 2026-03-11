@@ -59,7 +59,7 @@ func (c *Client) Exec(prompt string, attachmentPath string) (string, error) {
 	log.Printf("debug: llm exec start model=%s attachment=%t", modelGPT5Mini, strings.TrimSpace(attachmentPath) != "")
 
 	var resp responses.Response
-	attempts, err := executeWithRateLimitRetries(ctx, modelGPT5Mini, func() error {
+	attempts, err := executeWithRetries(ctx, modelGPT5Mini, func() error {
 		return client.Post(ctx, "/responses", payload, &resp, option.WithRequestTimeout(requestTimeout))
 	})
 	if err != nil {
