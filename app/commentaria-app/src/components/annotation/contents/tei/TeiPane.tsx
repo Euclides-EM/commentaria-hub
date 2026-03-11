@@ -14,19 +14,31 @@ import {
   type TeiTranslation,
   type TeiViewMode,
 } from './tei.ts'
-import {useAppState} from '../../../../context/useAppState.ts'
-import {useEffect, useMemo, useRef, useState} from 'react'
-import {annotationTeiQueryKey, editionTeiQueryKey, useAnnotationTeiQuery, useEditionTeiQuery,} from '../../../../queries/annotations.ts'
-import {useDatasetFeaturesQuery} from '../../../../queries/datasets.ts'
+import { useAppState } from '../../../../context/useAppState.ts'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import {
+  annotationTeiQueryKey,
+  editionTeiQueryKey,
+  useAnnotationTeiQuery,
+  useEditionTeiQuery,
+} from '../../../../queries/annotations.ts'
+import { useDatasetFeaturesQuery } from '../../../../queries/datasets.ts'
 import useLocalStorageState from 'use-local-storage-state'
-import {RangeInput} from '../../../core/RangeInput.tsx'
-import Select, {type StylesConfig} from 'react-select'
-import {selectStyles} from '../../../../styles/selectStyles.ts'
-import {MultiSelectDropdown} from '../../../core/MultiSelectDropdown.tsx'
-import {createPortal} from 'react-dom'
-import {type annotationrule_TextBlockCorrections, AnnotationsApplyRulesService, type feature_Feature, type feature_Result, type feature_ResultValue, FeatureResultsService,} from '@hub-api'
-import {useMutation, useQuery, useQueryClient} from '@tanstack/react-query'
-import {useAuthStore} from '../../../../store/authStore.ts'
+import { RangeInput } from '../../../core/RangeInput.tsx'
+import Select, { type StylesConfig } from 'react-select'
+import { selectStyles } from '../../../../styles/selectStyles.ts'
+import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
+import { createPortal } from 'react-dom'
+import {
+  type annotationrule_TextBlockCorrections,
+  AnnotationsApplyRulesService,
+  type feature_Feature,
+  type feature_Result,
+  type feature_ResultValue,
+  FeatureResultsService,
+} from '@hub-api'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useAuthStore } from '../../../../store/authStore.ts'
 
 const VIEW_LABEL_MAP: Record<string, string> = {
   modern_en: 'English',
