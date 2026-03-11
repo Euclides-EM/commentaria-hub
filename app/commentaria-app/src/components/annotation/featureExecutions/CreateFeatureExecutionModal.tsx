@@ -253,9 +253,17 @@ function OpenCreateFeatureExecutionModal({
                           checked={selectedFeatureIds.has(featureId)}
                           onChange={() => toggleFeatureSelection(featureId)}
                         />
-                        <span className="font-medium">
-                          {feature.name || 'Untitled'}
-                        </span>
+                        <div className="flex items-center gap-2 min-w-0">
+                          <span
+                            className="inline-block h-2.5 w-2.5 shrink-0 rounded-full border border-gray-300"
+                            style={{
+                              backgroundColor: feature.color || '#d1d5db',
+                            }}
+                          />
+                          <span className="font-medium">
+                            {feature.name || 'Untitled'}
+                          </span>
+                        </div>
                         {!latestRevision && (
                           <span className="text-red-500">(no revisions)</span>
                         )}
