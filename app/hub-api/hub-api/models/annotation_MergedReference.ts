@@ -2,10 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_ImageUpload = {
-    filename?: string;
-    path?: string;
-    success?: boolean;
-    uploaded?: number;
+export type annotation_MergedReference = {
+    dataset_id?: string;
+    id?: string;
+    merged_at?: string;
 };
 
