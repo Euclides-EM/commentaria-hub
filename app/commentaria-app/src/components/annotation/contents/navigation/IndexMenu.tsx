@@ -3,19 +3,33 @@ import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
 import type { annotation_IndexNode } from '@hub-api'
 import { useAppState } from '../../../../context/useAppState.ts'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 
-const matchToFilter = (search: string, node: annotation_IndexNode): boolean => {
-  return (
-    !search ||
-    node.content?.toLowerCase().includes(search.toLowerCase()) ||
-    node.children?.some((child: annotation_IndexNode) =>
-      matchToFilter(search, child),
-    ) ||
-    false
-  )
+const getFilteredNode = (
+  search: string,
+  node: annotation_IndexNode,
+): annotation_IndexNode | null => {
+  if (!search) return node
+
+  const normalizedSearch = search.toLowerCase()
+  const matchingChildren =
+    node.children
+      ?.map((child: annotation_IndexNode) =>
+        getFilteredNode(normalizedSearch, child),
+      )
+      .filter((child): child is annotation_IndexNode => child !== null) ?? []
+  const matchesSelf = node.content?.toLowerCase().includes(normalizedSearch)
+
+  if (matchesSelf || matchingChildren.length > 0) {
+    return {
+      ...node,
+      children: matchingChildren,
+    }
+  }
+
+  return null
 }
 
 const getNextSiblingPage = (
@@ -40,15 +54,18 @@ const Node = ({
   level,
   currentPage,
   nextSiblingPage,
+  forceExpanded,
 }: {
   node: annotation_IndexNode
   jumpToPage: (page: number) => void
   level: number
   currentPage: number
   nextSiblingPage?: number
+  forceExpanded?: boolean
 }) => {
   const [isExpanded, setIsExpanded] = useState(false)
   const hasChildren = node.children && node.children.length > 0
+  const isExpandedState = forceExpanded || isExpanded
   const nodePage = node.location?.page
   const isActive =
     nodePage !== undefined &&
@@ -64,11 +81,11 @@ const Node = ({
       >
         {hasChildren && (
           <button
-            title={isExpanded ? 'Collapse' : 'Expand'}
-            onClick={() => setIsExpanded(!isExpanded)}
+            title={isExpandedState ? 'Collapse' : 'Expand'}
+            onClick={() => setIsExpanded(!isExpandedState)}
             className="px-1 mr-2 hover:bg-gray-200 rounded cursor-pointer"
           >
-            {isExpanded ? '▼' : '▶'}
+            {isExpandedState ? '▼' : '▶'}
           </button>
         )}
         <button
@@ -78,7 +95,7 @@ const Node = ({
           {node.content} {node.location?.page && `(p. ${node.location.page})`}
         </button>
       </div>
-      {hasChildren && isExpanded && (
+      {hasChildren && isExpandedState && (
         <div>
           {node.children?.map((child: annotation_IndexNode, idx: number) => (
             <Node
@@ -91,6 +108,7 @@ const Node = ({
                   ? getNextSiblingPage(node.children, idx, child.location?.page)
                   : undefined
               }
+              forceExpanded={forceExpanded}
               key={idx}
             />
           ))}
@@ -111,6 +129,16 @@ export function IndexMenu() {
     isLoading,
     error,
   } = useAnnotationIndexQuery(state.datasetId, state.annotationId)
+  const normalizedSearchTerm = searchTerm.trim()
+  const filteredNodes = useMemo(
+    () =>
+      (annotationIndex?.nodes ?? [])
+        .map((node: annotation_IndexNode) =>
+          getFilteredNode(normalizedSearchTerm, node),
+        )
+        .filter((node): node is annotation_IndexNode => node !== null),
+    [annotationIndex?.nodes, normalizedSearchTerm],
+  )
 
   return (
     <div className="flex flex-col min-h-0 h-full">
@@ -133,26 +161,31 @@ export function IndexMenu() {
           </div>
 
           <div className="overflow-auto p-3 flex-1 min-h-0">
-            <div>
-              {annotationIndex.nodes
-                .filter((node: annotation_IndexNode) =>
-                  matchToFilter(searchTerm, node),
-                )
-                .map((item: annotation_IndexNode, idx: number) => (
-                  <Node
-                    node={item}
-                    jumpToPage={jumpToPage}
-                    key={idx}
-                    level={0}
-                    currentPage={Number(state.currentPageOrKey) || 0}
-                    nextSiblingPage={getNextSiblingPage(
-                      annotationIndex.nodes || [],
-                      idx,
-                      item.location?.page,
-                    )}
-                  />
-                ))}
-            </div>
+            {filteredNodes.length === 0 ? (
+              <div className="text-gray-500 text-xs italic text-center py-6">
+                No matching entries
+              </div>
+            ) : (
+              <div>
+                {filteredNodes.map(
+                  (item: annotation_IndexNode, idx: number) => (
+                    <Node
+                      node={item}
+                      jumpToPage={jumpToPage}
+                      key={idx}
+                      level={0}
+                      currentPage={Number(state.currentPageOrKey) || 0}
+                      forceExpanded={normalizedSearchTerm.length > 0}
+                      nextSiblingPage={getNextSiblingPage(
+                        filteredNodes,
+                        idx,
+                        item.location?.page,
+                      )}
+                    />
+                  ),
+                )}
+              </div>
+            )}
           </div>
         </>
       )}

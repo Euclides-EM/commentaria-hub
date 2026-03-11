@@ -27,6 +27,7 @@ import { SearchInput } from '../core/SearchInput'
 import { Timestamp } from '../core/Timestamp'
 import useLocalStorageState from 'use-local-storage-state'
 import { TITLE_PAGES_DATASET_ID } from '../../utils/editions.ts'
+import { useAuthStore } from '../../store/authStore'
 
 type AnnotationRow = {
   datasetId: string
@@ -54,6 +55,7 @@ type GroupSection = {
 type AnnotationGroupWithId = annotation_Group & { id: string }
 
 export function AnnotationsTable() {
+  const isAuthenticated = !!useAuthStore((store) => store.token)
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { data: stages } = usePipelineStages()
   const {
@@ -524,7 +526,18 @@ export function AnnotationsTable() {
     )
   }
 
-  const columnCount = groupingEnabled ? 8 : 7
+  const showSelectionControls = isAuthenticated
+  const showGroupMutationControls = isAuthenticated && groupingEnabled
+  const visibleColumnCount = [
+    showSelectionControls ? 'select' : null,
+    'annotation',
+    'dataset',
+    'stage',
+    'groundTruth',
+    'pages',
+    'updated',
+    showGroupMutationControls ? 'groupAction' : null,
+  ].filter(Boolean).length
 
   const renderRow = (row: AnnotationRow, group: annotation_Group | null) => (
     <tr
@@ -535,34 +548,36 @@ export function AnnotationsTable() {
       }
       className="hover:bg-gray-50 cursor-default"
     >
-      <td className="px-4 py-3 text-left whitespace-nowrap">
-        <input
-          type="checkbox"
-          checked={effectiveSelectedTargets[rowKey(row)] !== undefined}
-          onChange={(e) => {
-            if (!row.annotation.id) {
-              return
-            }
-            const key = rowKey(row)
-            setSelectedTargets((current) => {
-              const next = pruneSelectedTargets(current)
-              if (e.target.checked) {
-                return {
-                  ...next,
-                  [key]: {
-                    datasetId: row.datasetId,
-                    annotationId: row.annotation.id!,
-                  },
-                }
+      {showSelectionControls && (
+        <td className="px-4 py-3 text-left whitespace-nowrap">
+          <input
+            type="checkbox"
+            checked={effectiveSelectedTargets[rowKey(row)] !== undefined}
+            onChange={(e) => {
+              if (!row.annotation.id) {
+                return
               }
-              delete next[key]
-              return next
-            })
-          }}
-          className="h-4 w-4"
-          aria-label={`Select ${row.annotation.name || row.annotation.id}`}
-        />
-      </td>
+              const key = rowKey(row)
+              setSelectedTargets((current) => {
+                const next = pruneSelectedTargets(current)
+                if (e.target.checked) {
+                  return {
+                    ...next,
+                    [key]: {
+                      datasetId: row.datasetId,
+                      annotationId: row.annotation.id!,
+                    },
+                  }
+                }
+                delete next[key]
+                return next
+              })
+            }}
+            className="h-4 w-4"
+            aria-label={`Select ${row.annotation.name || row.annotation.id}`}
+          />
+        </td>
+      )}
       <td className="px-4 py-3 text-left whitespace-nowrap">
         <button
           type="button"
@@ -610,7 +625,7 @@ export function AnnotationsTable() {
           date={row.annotation.updated_at || row.annotation.created_at}
         />
       </td>
-      {groupingEnabled && (
+      {showGroupMutationControls && (
         <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
           {group?.id ? (
             <Button
@@ -697,38 +712,42 @@ export function AnnotationsTable() {
             />
             Group by groups
           </label>
-          {groupOptions.length > 0 && (
-            <Button
-              type="button"
-              onClick={() => {
-                setGroupActionError(null)
-                setIsAddToGroupsOpen(true)
-              }}
-              disabled={selectedCount === 0 || isGroupMutationPending}
-              className="px-3 py-1.5 text-sm"
-            >
-              Add to groups
-            </Button>
+          {isAuthenticated && (
+            <>
+              {groupOptions.length > 0 && (
+                <Button
+                  type="button"
+                  onClick={() => {
+                    setGroupActionError(null)
+                    setIsAddToGroupsOpen(true)
+                  }}
+                  disabled={selectedCount === 0 || isGroupMutationPending}
+                  className="px-3 py-1.5 text-sm"
+                >
+                  Add to groups
+                </Button>
+              )}
+              <Button
+                type="button"
+                onClick={() => {
+                  setGroupActionError(null)
+                  setIsCreateGroupOpen(true)
+                }}
+                disabled={selectedCount === 0 || isGroupMutationPending}
+                className="px-3 py-1.5 text-sm"
+              >
+                New group
+              </Button>
+              <Button
+                type="button"
+                onClick={() => setIsExportOpen(true)}
+                disabled={selectedCount === 0}
+                className="px-3 py-1.5 text-sm"
+              >
+                Export selected ({selectedCount})
+              </Button>
+            </>
           )}
-          <Button
-            type="button"
-            onClick={() => {
-              setGroupActionError(null)
-              setIsCreateGroupOpen(true)
-            }}
-            disabled={selectedCount === 0 || isGroupMutationPending}
-            className="px-3 py-1.5 text-sm"
-          >
-            New group
-          </Button>
-          <Button
-            type="button"
-            onClick={() => setIsExportOpen(true)}
-            disabled={selectedCount === 0}
-            className="px-3 py-1.5 text-sm"
-          >
-            Export selected ({selectedCount})
-          </Button>
         </div>
       </div>
 
@@ -790,41 +809,43 @@ export function AnnotationsTable() {
                   <table className="min-w-full text-sm table-auto cursor-default">
                     <thead className="bg-gray-50 text-xs text-gray-500">
                       <tr>
-                        <th className="px-4 py-3 text-left whitespace-nowrap">
-                          <input
-                            type="checkbox"
-                            checked={allVisibleSelected}
-                            onChange={(e) => {
-                              if (e.target.checked) {
+                        {showSelectionControls && (
+                          <th className="px-4 py-3 text-left whitespace-nowrap">
+                            <input
+                              type="checkbox"
+                              checked={allVisibleSelected}
+                              onChange={(e) => {
+                                if (e.target.checked) {
+                                  setSelectedTargets((current) => {
+                                    const next = pruneSelectedTargets(current)
+                                    sortedRows.forEach((row) => {
+                                      if (row.annotation.id) {
+                                        next[rowKey(row)] = {
+                                          datasetId: row.datasetId,
+                                          annotationId: row.annotation.id,
+                                        }
+                                      }
+                                    })
+                                    return next
+                                  })
+                                  return
+                                }
+                                const visibleKeys = new Set(
+                                  sortedRows.map((row) => rowKey(row)),
+                                )
                                 setSelectedTargets((current) => {
                                   const next = pruneSelectedTargets(current)
-                                  sortedRows.forEach((row) => {
-                                    if (row.annotation.id) {
-                                      next[rowKey(row)] = {
-                                        datasetId: row.datasetId,
-                                        annotationId: row.annotation.id,
-                                      }
-                                    }
+                                  visibleKeys.forEach((key) => {
+                                    delete next[key]
                                   })
                                   return next
                                 })
-                                return
-                              }
-                              const visibleKeys = new Set(
-                                sortedRows.map((row) => rowKey(row)),
-                              )
-                              setSelectedTargets((current) => {
-                                const next = pruneSelectedTargets(current)
-                                visibleKeys.forEach((key) => {
-                                  delete next[key]
-                                })
-                                return next
-                              })
-                            }}
-                            className="h-4 w-4"
-                            aria-label="Select all visible annotations"
-                          />
-                        </th>
+                              }}
+                              className="h-4 w-4"
+                              aria-label="Select all visible annotations"
+                            />
+                          </th>
+                        )}
                         <th className="px-4 py-3 text-left whitespace-nowrap">
                           {renderSortHeader('Annotation', 'annotation')}
                         </th>
@@ -841,7 +862,7 @@ export function AnnotationsTable() {
                         <th className="px-4 py-3 text-left whitespace-nowrap">
                           {renderSortHeader('Updated', 'updated')}
                         </th>
-                        {groupingEnabled && (
+                        {showGroupMutationControls && (
                           <th className="px-4 py-3 text-left whitespace-nowrap">
                             Group action
                           </th>
@@ -858,60 +879,62 @@ export function AnnotationsTable() {
                             >
                               <tr className="bg-gray-100">
                                 <td
-                                  colSpan={columnCount - 1}
+                                  colSpan={visibleColumnCount}
                                   className="px-4 py-2 text-xs text-gray-700"
                                 >
-                                  <div className="flex items-center gap-2 min-w-0">
-                                    <button
-                                      type="button"
-                                      onClick={() =>
-                                        toggleSectionCollapsed(section)
-                                      }
-                                      className="h-6 w-6 inline-flex items-center justify-center rounded border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
-                                      aria-label={
-                                        isSectionCollapsed(section)
-                                          ? 'Expand group'
-                                          : 'Collapse group'
-                                      }
-                                      title={
-                                        isSectionCollapsed(section)
-                                          ? 'Expand'
-                                          : 'Collapse'
-                                      }
-                                    >
-                                      <span className="text-sm leading-none">
-                                        {isSectionCollapsed(section)
-                                          ? '▶'
-                                          : '▼'}
-                                      </span>
-                                    </button>
-                                    <div className="font-semibold truncate">
-                                      {section.group
-                                        ? section.group.name || section.group.id
-                                        : 'Ungrouped'}
-                                      <span className="ml-2 font-normal text-gray-500">
-                                        ({section.rows.length})
-                                      </span>
+                                  <div className="flex items-center justify-between gap-3">
+                                    <div className="flex items-center gap-2 min-w-0">
+                                      <button
+                                        type="button"
+                                        onClick={() =>
+                                          toggleSectionCollapsed(section)
+                                        }
+                                        className="h-6 w-6 inline-flex items-center justify-center rounded border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
+                                        aria-label={
+                                          isSectionCollapsed(section)
+                                            ? 'Expand group'
+                                            : 'Collapse group'
+                                        }
+                                        title={
+                                          isSectionCollapsed(section)
+                                            ? 'Expand'
+                                            : 'Collapse'
+                                        }
+                                      >
+                                        <span className="text-sm leading-none">
+                                          {isSectionCollapsed(section)
+                                            ? '▶'
+                                            : '▼'}
+                                        </span>
+                                      </button>
+                                      <div className="font-semibold truncate">
+                                        {section.group
+                                          ? section.group.name ||
+                                            section.group.id
+                                          : 'Ungrouped'}
+                                        <span className="ml-2 font-normal text-gray-500">
+                                          ({section.rows.length})
+                                        </span>
+                                      </div>
                                     </div>
+                                    {showGroupMutationControls &&
+                                      section.group && (
+                                        <Button
+                                          type="button"
+                                          variant="danger"
+                                          onClick={() =>
+                                            void handleUngroup(section.group)
+                                          }
+                                          disabled={
+                                            isGroupMutationPending ||
+                                            !section.group.id
+                                          }
+                                          className="px-2 py-1 text-xs shrink-0"
+                                        >
+                                          Ungroup
+                                        </Button>
+                                      )}
                                   </div>
-                                </td>
-                                <td className="px-4 py-2 text-right sticky right-0 bg-gray-100 z-10">
-                                  {section.group ? (
-                                    <Button
-                                      type="button"
-                                      variant="danger"
-                                      onClick={() =>
-                                        void handleUngroup(section.group)
-                                      }
-                                      disabled={
-                                        isGroupMutationPending ||
-                                        !section.group.id
-                                      }
-                                      className="px-2 py-1 text-xs"
-                                    >
-                                      Ungroup
-                                    </Button>
-                                  ) : null}
                                 </td>
                               </tr>
                               {!isSectionCollapsed(section) &&

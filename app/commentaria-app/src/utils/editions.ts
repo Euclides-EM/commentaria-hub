@@ -17,14 +17,15 @@ const normalizeText = (value: string | { name?: string | null }): string => {
 export const formatEditionLabel = (item: EditionDisplayInfo) => {
   const details = [
     item.year != null ? String(item.year) : null,
-    (item.authors ?? []).map((value) => normalizeText(value)).join(', '),
     (item.cities ?? []).map((value) => normalizeText(value)).join(', '),
+    (item.authors ?? []).map((value) => normalizeText(value)).join(', '),
   ]
     .filter(Boolean)
     .join(', ')
-  const title = item.shortTitle || item.title
-  if (!details && !title) return item.key || ''
-  if (!title) return details
-  if (!details) return title
-  return `${details} - ${title}`
+  let title = item.shortTitle || item.title || ''
+  title = title.length > 128 ? title.slice(0, 125) + '...' : title
+  if (title === '?') {
+    title = ''
+  }
+  return title ? `${details} - ${title}` : details
 }

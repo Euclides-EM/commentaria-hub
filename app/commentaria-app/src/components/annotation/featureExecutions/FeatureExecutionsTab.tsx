@@ -2,15 +2,13 @@ import { useMemo, useState } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import {
   ExecutionsService,
-  FeaturesService,
-  EditionsService,
   type feature_Execution,
   type feature_ExecutionApplyItem,
   type feature_ExecutionSkipIf,
   type feature_ExecutionStatus,
   type feature_Feature,
+  FeaturesService,
   type model_Edition,
-  type search_Query,
 } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
@@ -18,6 +16,7 @@ import { Button } from '../../core/Button.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
+import { listAllEditions } from '../../../utils/editionItems.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
@@ -39,112 +38,6 @@ const EXECUTION_SKIP_IF_LABELS: Record<feature_ExecutionSkipIf, string> = {
   human_reviewed: 'Human reviewed',
 }
 
-const STUDY_CORPORA_FILTER = 'Title pages'
-
-type EditionItem = {
-  key: string
-  year: string | null
-  authors: string[]
-  cities: string[]
-  shortTitle: string | null
-  title: string | null
-  studyCorpora: string[]
-}
-
-const startCase = (value: string) =>
-  value
-    .replace(/[_-]+/g, ' ')
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join(' ')
-
-const mapStudyCorpus = (value: string): string => {
-  switch (value) {
-    case 'dh':
-      return 'DH core texts'
-    case 'dotted_lines':
-      return 'Dotted Lines'
-    default:
-      return startCase(value)
-  }
-}
-
-const dedupe = (values: string[]) => Array.from(new Set(values))
-const normalizeText = (value: unknown): string => {
-  if (typeof value === 'string') return value.trim()
-  if (value && typeof value === 'object' && 'name' in value) {
-    return String((value as { name?: unknown }).name ?? '').trim()
-  }
-  return String(value ?? '').trim()
-}
-
-const mapEditionsToItems = (editions: model_Edition[]): EditionItem[] =>
-  editions
-    .filter((edition): edition is model_Edition & { key: string } =>
-      Boolean(edition.key),
-    )
-    .map((edition) => {
-      const studyCorpora = dedupe(
-        (edition.corpus ?? []).map((corpus) => mapStudyCorpus(corpus)),
-      )
-      if (
-        (!Number(edition.year) || Number(edition.year) <= 1700) &&
-        studyCorpora.includes('Origin Eip Csv') &&
-        !edition.languages?.includes('CHINESE') &&
-        edition.title &&
-        edition.title !== '?'
-      ) {
-        studyCorpora.push(STUDY_CORPORA_FILTER)
-      }
-
-      return {
-        key: edition.key,
-        year: edition.year != null ? String(edition.year) : null,
-        authors: (edition.editor ?? [])
-          .map((name) => normalizeText(name))
-          .filter(Boolean),
-        cities: (edition.cities ?? [])
-          .map((city) => normalizeText(city))
-          .filter(Boolean),
-        shortTitle: edition.shortTitle || null,
-        title: edition.title || null,
-        studyCorpora: dedupe(studyCorpora),
-      }
-    })
-    .sort(
-      (left, right) =>
-        (left.year || '').localeCompare(right.year || '') ||
-        left.key.localeCompare(right.key),
-    )
-
-const listAllEditions = async (
-  query?: Omit<search_Query, 'offset' | 'limit'>,
-): Promise<model_Edition[]> => {
-  const limit = 500
-  let offset = 0
-  const results: model_Edition[] = []
-
-  while (true) {
-    const page = await EditionsService.postEditionsSearch({
-      edition: { ...query, offset, limit },
-    })
-    const items = page.items || []
-    results.push(...items)
-    if (
-      items.length === 0 ||
-      items.length < limit ||
-      (page.total !== undefined && results.length >= page.total)
-    ) {
-      break
-    }
-    offset += limit
-  }
-
-  return results
-}
-
 const formatDate = (value?: string) => {
   if (!value) return 'Unknown'
   const parsed = new Date(value)
@@ -155,7 +48,7 @@ const formatDate = (value?: string) => {
 export function FeatureExecutionsTab() {
   const queryClient = useQueryClient()
   const { state } = useAppState()
-  const datasetId = state.datasetId
+  const { datasetId, annotationId } = state
   const isAuthenticated = !!useAuthStore((store) => store.token)
 
   const [actionError, setActionError] = useState<string | null>(null)
@@ -188,12 +81,20 @@ export function FeatureExecutionsTab() {
     queryKey: executionsQueryKey,
     queryFn: () =>
       ExecutionsService.getFeaturesExecutions({ dataset: datasetId }),
+    refetchInterval: 5 * 1000,
     refetchOnWindowFocus: false,
   })
 
   const editionsQuery = useQuery({
     queryKey: editionsQueryKey,
-    queryFn: async () => mapEditionsToItems(await listAllEditions()),
+    queryFn: async () => {
+      const editions = await listAllEditions()
+      const map = new Map<string, model_Edition>()
+      for (const item of editions) {
+        map.set(item.key!, item)
+      }
+      return map
+    },
     refetchOnWindowFocus: false,
   })
 
@@ -222,37 +123,6 @@ export function FeatureExecutionsTab() {
       ),
     [featuresQuery.data],
   )
-
-  const uniqueEditionItems = useMemo(
-    () =>
-      Array.from(
-        new Map(
-          (editionsQuery.data ?? []).map((item) => [item.key, item]),
-        ).values(),
-      ),
-    [editionsQuery.data],
-  )
-
-  const corpusEditionItems = useMemo(
-    () =>
-      uniqueEditionItems.filter((item) =>
-        item.studyCorpora.includes(STUDY_CORPORA_FILTER),
-      ),
-    [uniqueEditionItems],
-  )
-  const selectableEditionItems = useMemo(
-    () =>
-      corpusEditionItems.length > 0 ? corpusEditionItems : uniqueEditionItems,
-    [corpusEditionItems, uniqueEditionItems],
-  )
-
-  const editionItemByKey = useMemo(() => {
-    const map = new Map<string, EditionItem>()
-    for (const item of uniqueEditionItems) {
-      map.set(item.key, item)
-    }
-    return map
-  }, [uniqueEditionItems])
 
   const featureInfoById = useMemo(() => {
     const map: Record<string, { name: string; color?: string }> = {}
@@ -343,6 +213,7 @@ export function FeatureExecutionsTab() {
 
     const executionPayload: feature_Execution = {
       dataset_id: datasetId,
+      annotation_id: annotationId,
       apply,
       keys: selectedKeys,
       policy: skipIf.length ? { skip_if: skipIf } : undefined,
@@ -370,7 +241,7 @@ export function FeatureExecutionsTab() {
   const creatingExecution = createExecutionMutation.isPending
 
   return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
+    <section className="border border-gray-300 rounded-xl flex flex-col bg-white mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
       <div className="px-3 py-2 border-b border-gray-200 bg-gray-50 flex items-center justify-between gap-3">
         <div className="text-sm font-semibold">Feature Executions</div>
         <div className="flex items-center gap-2">
@@ -384,15 +255,6 @@ export function FeatureExecutionsTab() {
               Execute
             </Button>
           )}
-          <Button
-            type="button"
-            variant="regular"
-            className="px-2 py-1 text-xs"
-            onClick={() => void executionsQuery.refetch()}
-            disabled={executionsLoading}
-          >
-            {executionsLoading ? 'Refreshing...' : 'Refresh'}
-          </Button>
         </div>
       </div>
 
@@ -505,7 +367,7 @@ export function FeatureExecutionsTab() {
                     {showExecutionEditions && (
                       <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
                         {executionKeys.map((editionKey) => {
-                          const item = editionItemByKey.get(editionKey)
+                          const item = editionsQuery.data?.get(editionKey)
                           return (
                             <div
                               key={editionKey}
@@ -561,7 +423,7 @@ export function FeatureExecutionsTab() {
         onClose={() => setIsCreateModalOpen(false)}
         onSubmit={handleCreateExecution}
         features={sortedFeatures}
-        editionItems={selectableEditionItems}
+        editionItems={Array.from(editionsQuery.data?.values() || [])}
         skipIfOptions={EXECUTION_SKIP_IF_OPTIONS}
         skipIfLabels={EXECUTION_SKIP_IF_LABELS}
         loadingFeatures={featuresQuery.isLoading}
