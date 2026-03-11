@@ -2,17 +2,19 @@ import type { StylesConfig } from 'react-select'
 
 type SelectStylesConfig = {
   controlWidth: number | string
+  isMulti: boolean
 }
 
 export const selectStyles = <
   OptionType extends { value: unknown; label: string },
+  IsMulti extends boolean = false,
 >(
   config: Partial<SelectStylesConfig> = {},
-): StylesConfig<OptionType, false> => ({
+): StylesConfig<OptionType, IsMulti> => ({
   control: (base, state) => ({
     ...base,
     minHeight: 32,
-    height: 32,
+    ...(config.isMulti ? {} : { height: 32 }),
     width: config.controlWidth,
     fontSize: '14px',
     border: `1px solid ${state.isFocused ? '#14b8a6' : '#9ca3af'}`,
@@ -28,7 +30,7 @@ export const selectStyles = <
     padding: '2px 8px',
     display: 'flex',
     alignItems: 'center',
-    height: '30px',
+    ...(config.isMulti ? {} : { height: '30px' }),
   }),
   singleValue: (base) => ({
     ...base,
@@ -44,7 +46,7 @@ export const selectStyles = <
   }),
   indicatorsContainer: (base) => ({
     ...base,
-    height: '30px',
+    ...(config.isMulti ? {} : { height: '30px' }),
   }),
   indicatorSeparator: () => ({
     display: 'none',
@@ -97,5 +99,23 @@ export const selectStyles = <
     color: '#9ca3af',
     lineHeight: '1.5',
     margin: 0,
+  }),
+  multiValue: (base) => ({
+    ...base,
+    backgroundColor: '#e6fffb',
+    borderRadius: '4px',
+  }),
+  multiValueLabel: (base) => ({
+    ...base,
+    color: '#0f766e',
+    fontSize: '12px',
+  }),
+  multiValueRemove: (base) => ({
+    ...base,
+    color: '#0f766e',
+    '&:hover': {
+      backgroundColor: '#99f6e4',
+      color: '#115e59',
+    },
   }),
 })

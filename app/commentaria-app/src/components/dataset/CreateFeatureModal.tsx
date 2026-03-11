@@ -1,7 +1,14 @@
-import { type FormEvent, useEffect, useState } from 'react'
+import { type FormEvent, useEffect, useMemo, useState } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
 import { FeaturesService } from '@hub-api'
 import { HexColorPicker } from 'react-colorful'
+import Select from 'react-select'
+import { useFeaturePropertiesQuery } from '../../queries/datasets.ts'
+import { selectStyles } from '../../styles/selectStyles.ts'
+import {
+  getFeaturePropertyDisplayName,
+  normalizeFeatureProperties,
+} from '../../utils/featureProperties.ts'
 import { Button } from '../core/Button.tsx'
 import { ErrorMessage } from '../core/ErrorMessage.tsx'
 
@@ -9,6 +16,11 @@ interface CreateFeatureModalProps {
   isOpen: boolean
   onClose: () => void
   datasetId: string
+}
+
+type FeaturePropertyOption = {
+  value: string
+  label: string
 }
 
 const createRandomPastelColor = () => {
@@ -67,14 +79,26 @@ export function CreateFeatureModal({
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [color, setColor] = useState(createRandomPastelColor())
+  const [properties, setProperties] = useState<string[]>([])
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const { data: availableProperties = [], isLoading: isLoadingProperties } =
+    useFeaturePropertiesQuery(isOpen)
+  const propertyOptions = useMemo<FeaturePropertyOption[]>(
+    () =>
+      availableProperties.map((property) => ({
+        value: property,
+        label: getFeaturePropertyDisplayName(property),
+      })),
+    [availableProperties],
+  )
 
   useEffect(() => {
     if (isOpen) {
       setName('')
       setDescription('')
       setColor(createRandomPastelColor())
+      setProperties([])
       setError(null)
       setLoading(false)
     }
@@ -94,7 +118,9 @@ export function CreateFeatureModal({
         feature: {
           name: name.trim(),
           description: description.trim() || undefined,
+          color: color || undefined,
           is_default: false,
+          properties: normalizeFeatureProperties(properties),
         },
       })
       await queryClient.invalidateQueries({
@@ -121,66 +147,108 @@ export function CreateFeatureModal({
         onSubmit={handleSubmit}
       >
         <div className="px-6 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold">Create feature</h2>
+          <h2 className="text-lg font-semibold">Create a feature</h2>
         </div>
 
-        <div className="flex-1 overflow-auto p-6 space-y-4 text-sm">
-          <div className="space-y-2">
-            <label className="block text-sm font-medium text-gray-700">
-              Name
-            </label>
-            <input
-              type="text"
-              autoComplete="on"
-              value={name}
-              required
-              onChange={(e) => setName(e.target.value)}
-              className="w-full p-2 border border-gray-300 rounded-md"
-              disabled={loading}
-            />
-          </div>
+        <div className="flex-1 overflow-auto p-6 text-sm">
+          <div className="grid gap-8 md:grid-cols-[minmax(0,1fr)_240px]">
+            <div className="space-y-4">
+              <div className="space-y-2">
+                <label className="block text-sm font-medium text-gray-700">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  autoComplete="on"
+                  value={name}
+                  required
+                  onChange={(e) => setName(e.target.value)}
+                  className="w-full p-2 border border-gray-300 rounded-md"
+                  disabled={loading}
+                />
+              </div>
 
-          <div className="space-y-2">
-            <label className="block text-sm font-medium text-gray-700">
-              Description (optional)
-            </label>
-            <textarea
-              value={description}
-              onChange={(e) => setDescription(e.target.value)}
-              className="w-full p-2 border border-gray-300 rounded-md"
-              rows={3}
-              disabled={loading}
-            />
-          </div>
+              <div className="space-y-2">
+                <label className="block text-sm font-medium text-gray-700">
+                  Description (optional)
+                </label>
+                <textarea
+                  value={description}
+                  onChange={(e) => setDescription(e.target.value)}
+                  className="w-full p-2 border border-gray-300 rounded-md"
+                  rows={3}
+                  disabled={loading}
+                />
+              </div>
 
-          <div className="space-y-2">
-            <label className="block text-sm font-medium text-gray-700">
-              Color
-            </label>
-            <div className="flex items-center gap-3 flex-wrap">
-              <span
-                className="w-5 h-5 rounded shrink-0 border border-gray-300"
-                style={{
-                  backgroundColor: color || '#f2f2f2',
-                  boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.4)',
-                }}
-              />
-              <HexColorPicker
-                color={color || '#f2f2f2'}
-                onChange={setColor}
-                style={{ width: 220, height: 170 }}
-              />
-              <input
-                className="p-2 border border-gray-300 rounded-md text-sm w-[120px] font-mono"
-                value={color.replace(/^#/, '')}
-                onChange={(e) => setColor(normalizeHexInput(e.target.value))}
-                disabled={loading}
-                aria-label="Feature color hex value"
-              />
+              <div className="space-y-2">
+                <label className="block text-sm font-medium text-gray-700">
+                  Properties
+                </label>
+                <Select<FeaturePropertyOption, true>
+                  isMulti
+                  value={propertyOptions.filter((option) =>
+                    properties.includes(option.value),
+                  )}
+                  onChange={(options) =>
+                    setProperties(
+                      normalizeFeatureProperties(
+                        (options || []).map((option) => option.value),
+                      ),
+                    )
+                  }
+                  options={propertyOptions}
+                  closeMenuOnSelect={false}
+                  hideSelectedOptions={false}
+                  isLoading={isLoadingProperties}
+                  isDisabled={loading || isLoadingProperties}
+                  placeholder={
+                    isLoadingProperties
+                      ? 'Loading feature properties...'
+                      : availableProperties.length === 0
+                        ? 'No feature properties available'
+                        : 'Select properties'
+                  }
+                  noOptionsMessage={() => 'No feature properties available'}
+                  styles={selectStyles<FeaturePropertyOption, true>({
+                    controlWidth: '100%',
+                    isMulti: true,
+                  })}
+                  menuPortalTarget={document.body}
+                  menuPosition="fixed"
+                />
+              </div>
+
+              <ErrorMessage message={error} />
+            </div>
+
+            <div className="space-y-2">
+              <label className="block text-sm font-medium text-gray-700">
+                Color
+              </label>
+              <div className="flex flex-col items-start gap-3">
+                <span
+                  className="w-5 h-5 rounded shrink-0 border border-gray-300"
+                  style={{
+                    backgroundColor: color || '#f2f2f2',
+                    boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.4)',
+                  }}
+                />
+                <HexColorPicker
+                  color={color || '#f2f2f2'}
+                  onChange={setColor}
+                  style={{ width: 220, height: 170 }}
+                />
+                <input
+                  className="p-2 border border-gray-300 rounded-md text-sm w-[120px] font-mono"
+                  value={color.replace(/^#/, '')}
+                  onChange={(e) => setColor(normalizeHexInput(e.target.value))}
+                  disabled={loading}
+                  aria-label="Feature color hex value"
+                />
+              </div>
             </div>
           </div>
-
-          <ErrorMessage message={error} />
         </div>
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-2">

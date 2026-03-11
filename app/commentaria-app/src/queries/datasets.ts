@@ -2,8 +2,10 @@ import { useQuery } from '@tanstack/react-query'
 import {
   DatasetImagesService,
   DatasetsService,
+  FeaturePropertiesService,
   FeaturesService,
 } from '@hub-api'
+import { normalizeFeatureProperties } from '../utils/featureProperties.ts'
 
 export const datasetsQueryKey = () => ['datasets'] as const
 const datasetsImagesQueryKey = (datasetId: string) =>
@@ -66,6 +68,18 @@ export function useDatasetFeaturesQuery(datasetId: string, enabled = true) {
         expand: ['revisions'],
       }),
     enabled: !!datasetId && enabled,
+    refetchOnWindowFocus: false,
+  })
+}
+
+export function useFeaturePropertiesQuery(enabled = true) {
+  return useQuery({
+    queryKey: ['features', 'properties'] as const,
+    queryFn: async () => {
+      const properties = await FeaturePropertiesService.getFeaturesProperties()
+      return normalizeFeatureProperties(properties)
+    },
+    enabled,
     refetchOnWindowFocus: false,
   })
 }
