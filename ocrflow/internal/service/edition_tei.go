@@ -27,7 +27,7 @@ func (t *EditionTEI) GetTEI(editionID string, pageNum int) ([]byte, error) {
 		return nil, err
 	}
 	if edition == nil {
-		return nil, fmt.Errorf("edition with key %s does not exist", editionID)
+		return nil, fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, editionID)
 	}
 
 	tei, err := t.getTEI(edition, pageNum)

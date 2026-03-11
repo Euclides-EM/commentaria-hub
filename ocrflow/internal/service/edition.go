@@ -1,6 +1,7 @@
 package service
 
 import (
+	"errors"
 	"fmt"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
@@ -9,6 +10,8 @@ import (
 )
 
 // todo: add interfaces to all services
+
+var ErrEditionNotFound = errors.New("edition not found")
 
 type Edition struct {
 	editionStore   *store.EditionCSV
@@ -36,7 +39,7 @@ func (e *Edition) CreateEdition(ed *model.Edition, login string) (*model.Edition
 		ed.Key = idgen.GenerateID("ed")
 	}
 	existing, err := e.GetEditionByID(ed.Key)
-	if err != nil {
+	if err != nil && !errors.Is(err, ErrEditionNotFound) {
 		return nil, fmt.Errorf("failed to check for existing edition: %w", err)
 	}
 	if existing != nil {
@@ -55,7 +58,7 @@ func (e *Edition) UpdateEdition(m *model.Edition, login string) (*model.Edition,
 		return nil, fmt.Errorf("failed to check for existing edition: %w", err)
 	}
 	if existing == nil {
-		return nil, fmt.Errorf("edition with key %s does not exist", m.Key)
+		return nil, fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, m.Key)
 	}
 	if err := e.editionStore.UpsertEdition(m, login); err != nil {
 		return nil, fmt.Errorf("failed to update edition: %w", err)
@@ -76,7 +79,7 @@ func (e *Edition) GetEditionByID(key string) (*model.Edition, error) {
 		return nil, fmt.Errorf("failed to get edition by ID: %w", err)
 	}
 	if ed == nil {
-		return nil, fmt.Errorf("edition with key %s does not exist", key)
+		return nil, fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, key)
 	}
 	return ed, nil
 }
@@ -88,7 +91,7 @@ func (e *Edition) DeleteEdition(key string) error {
 		return fmt.Errorf("failed to check for existing edition: %w", err)
 	}
 	if existing == nil {
-		return fmt.Errorf("edition with key %s does not exist", key)
+		return fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, key)
 	}
 	// Delete associated facsimiles
 	facs, err := e.facsimileStore.ListFacsimiles([]string{key})
