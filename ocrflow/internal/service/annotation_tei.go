@@ -159,7 +159,7 @@ func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []st
 		return nil, nil, fmt.Errorf("failed to get edition by ID %s: %v", editionKey, err)
 	}
 	if edition == nil {
-		return nil, nil, fmt.Errorf("edition with key %s does not exist", editionKey)
+		return nil, nil, fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, editionKey)
 	}
 	if edition.Title == nil {
 		return nil, nil, fmt.Errorf("edition %s does not have a title page transcription", editionKey)
