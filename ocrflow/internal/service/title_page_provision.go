@@ -18,18 +18,16 @@ const (
 )
 
 type TitlePageProvision struct {
-	annotationSvc    *Annotation
-	datasetSvc       *Dataset
-	editionSvc       *Edition
-	featureResultSvc *Result
+	annotationSvc *Annotation
+	datasetSvc    *Dataset
+	editionSvc    *Edition
 }
 
-func NewTitlePageProvision(annotationSvc *Annotation, datasetSvc *Dataset, editionSvc *Edition, featureResultSvc *Result) *TitlePageProvision {
+func NewTitlePageProvision(annotationSvc *Annotation, datasetSvc *Dataset, editionSvc *Edition) *TitlePageProvision {
 	return &TitlePageProvision{
-		annotationSvc:    annotationSvc,
-		datasetSvc:       datasetSvc,
-		editionSvc:       editionSvc,
-		featureResultSvc: featureResultSvc,
+		annotationSvc: annotationSvc,
+		datasetSvc:    datasetSvc,
+		editionSvc:    editionSvc,
 	}
 }
 

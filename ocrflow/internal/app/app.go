@@ -100,7 +100,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	featureRevisionSvc := service.NewRevision(featureRevisionStore, featureProperty)
 	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
-	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc, featureResultSvc)
+	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 
 	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
 	annotationUploader := service.NewAnnotationsUploader(
