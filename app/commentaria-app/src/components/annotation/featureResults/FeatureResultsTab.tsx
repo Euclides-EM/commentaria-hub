@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import Select from 'react-select'
-import { FeatureResultsService, type feature_Result } from '@hub-api'
+import { type feature_Result, FeatureResultsService } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
 import { SearchInput } from '../../core/SearchInput.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
@@ -10,10 +10,7 @@ import { Button } from '../../core/Button.tsx'
 import { useDatasetFeaturesQuery } from '../../../queries/datasets.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { formatEditionLabel } from '../../../utils/editions.ts'
-import {
-  listAllEditions,
-  mapEditionsToItems,
-} from '../../../utils/editionItems.ts'
+import {listAllEditions} from "../../../queries/editions.ts";
 
 type FeatureOption = {
   value: string
@@ -101,7 +98,7 @@ export function FeatureResultsTab() {
   })
   const editionsQuery = useQuery({
     queryKey: ['editions', 'all', 'items'],
-    queryFn: async () => mapEditionsToItems(await listAllEditions()),
+    queryFn: async () => await listAllEditions(),
     refetchOnWindowFocus: false,
   })
 
@@ -175,7 +172,7 @@ export function FeatureResultsTab() {
   const editionDetailsByKey = useMemo(() => {
     const map = new Map<string, string>()
     for (const item of editionsQuery.data ?? []) {
-      map.set(item.key, formatEditionLabel(item))
+      map.set(item.key!, formatEditionLabel(item))
     }
     return map
   }, [editionsQuery.data])
