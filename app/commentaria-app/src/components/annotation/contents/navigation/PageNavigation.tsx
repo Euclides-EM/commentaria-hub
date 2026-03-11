@@ -52,7 +52,7 @@ export function PageNavigation() {
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     isKeyNavigation,
-    annotation?.pages?.split(','),
+    annotation?.pages ? annotation.pages.split(',') : null,
   )
   const currentValue = String(state.currentPageOrKey)
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(

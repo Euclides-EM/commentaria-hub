@@ -153,7 +153,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     shouldLoadImageKeys,
-    annotation?.pages?.split(','),
+    annotation?.pages ? annotation.pages.split(',') : null,
   )
   const availablePageOrKeys = useMemo(() => {
     if (!annotation) {

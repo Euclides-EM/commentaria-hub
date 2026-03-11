@@ -600,10 +600,9 @@ export function AnnotationsTable() {
         {row.annotation.ground_truth ? 'Yes' : 'No'}
       </td>
       <td className="px-4 py-3 text-gray-700 w-full">
-          {row.annotation.dataset_id ===
-          TITLE_PAGES_DATASET_ID
-              ? '-'
-              : row.annotation.pages || '-'}
+        {row.annotation.dataset_id === TITLE_PAGES_DATASET_ID
+          ? '-'
+          : row.annotation.pages || '-'}
       </td>
       <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
         <Timestamp

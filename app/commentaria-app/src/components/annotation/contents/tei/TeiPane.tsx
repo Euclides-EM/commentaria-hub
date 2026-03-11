@@ -1,43 +1,31 @@
 import {
-  getTeiZoneToServerTextBlockId,
-  getTeiOriginalEditableLines,
   getTeiHighlightCategories,
+  getTeiOriginalEditableLines,
   getTeiSurfaceZones,
   getTeiTranslations,
+  getTeiZoneToServerTextBlockId,
   hasTeiCertaintyDegrees,
   type TeiHighlightConfig,
-  type TeiOriginalEditableLine,
   type TeiManualHighlight,
+  type TeiOriginalEditableLine,
   type TeiSurfaceZone,
   teiToHtml,
   type TeiTranslation,
   type TeiViewMode,
 } from './tei.ts'
-import { useAppState } from '../../../../context/useAppState.ts'
-import { useEffect, useMemo, useRef, useState } from 'react'
-import {
-  annotationTeiQueryKey,
-  editionTeiQueryKey,
-  useAnnotationTeiQuery,
-  useEditionTeiQuery,
-} from '../../../../queries/annotations.ts'
-import { useDatasetFeaturesQuery } from '../../../../queries/datasets.ts'
+import {useAppState} from '../../../../context/useAppState.ts'
+import {useEffect, useMemo, useRef, useState} from 'react'
+import {annotationTeiQueryKey, editionTeiQueryKey, useAnnotationTeiQuery, useEditionTeiQuery,} from '../../../../queries/annotations.ts'
+import {useDatasetFeaturesQuery} from '../../../../queries/datasets.ts'
 import useLocalStorageState from 'use-local-storage-state'
-import { RangeInput } from '../../../core/RangeInput.tsx'
-import Select, { type StylesConfig } from 'react-select'
-import { selectStyles } from '../../../../styles/selectStyles.ts'
-import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
-import { createPortal } from 'react-dom'
-import {
-  AnnotationsApplyRulesService,
-  type annotationrule_TextBlockCorrections,
-  type feature_Feature,
-  type feature_Result,
-  type feature_ResultValue,
-  FeatureResultsService,
-} from '@hub-api'
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import { useAuthStore } from '../../../../store/authStore.ts'
+import {RangeInput} from '../../../core/RangeInput.tsx'
+import Select, {type StylesConfig} from 'react-select'
+import {selectStyles} from '../../../../styles/selectStyles.ts'
+import {MultiSelectDropdown} from '../../../core/MultiSelectDropdown.tsx'
+import {createPortal} from 'react-dom'
+import {type annotationrule_TextBlockCorrections, AnnotationsApplyRulesService, type feature_Feature, type feature_Result, type feature_ResultValue, FeatureResultsService,} from '@hub-api'
+import {useMutation, useQuery, useQueryClient} from '@tanstack/react-query'
+import {useAuthStore} from '../../../../store/authStore.ts'
 
 const VIEW_LABEL_MAP: Record<string, string> = {
   modern_en: 'English',
@@ -859,13 +847,6 @@ const groupByFeature = (highlights: DraftHighlight[]) => {
   return grouped
 }
 
-const debugTeiHighlights = (...args: unknown[]) => {
-  if (!import.meta.env.DEV) {
-    return
-  }
-  console.log('[TeiPane highlights]', ...args)
-}
-
 const toDraftHighlightsFromResults = (
   results: feature_Result[],
 ): DraftHighlight[] => {
@@ -1400,14 +1381,6 @@ export function TeiPane({
     if (isTextEditMode) {
       return
     }
-    debugTeiHighlights('remove-click', {
-      id: item.id,
-      featureId: item.featureId,
-      paragraphIndex: item.paragraphIndex,
-      start: item.start,
-      end: item.end,
-      surface: item.surface,
-    })
     setRemovedTeiHighlightIds((previous) =>
       previous.includes(item.id) ? previous : [...previous, item.id],
     )
@@ -1438,19 +1411,11 @@ export function TeiPane({
           matchedIndexes.push(index)
         }
       }
-      debugTeiHighlights('remove-match', {
-        draftCountBefore: previous.length,
-        matchedIndexes,
-      })
 
       if (matchedIndexes.length > 0) {
         const next = previous.filter(
           (_, index) => !matchedIndexes.includes(index),
         )
-        debugTeiHighlights('remove-result', {
-          draftCountAfter: next.length,
-          strategy: 'matchedIndexes',
-        })
         return next
       }
 
@@ -1458,19 +1423,9 @@ export function TeiPane({
         (highlight) => highlight.featureId === item.featureId,
       )
       if (fallbackIndex >= 0) {
-        const next = previous.filter((_, index) => index !== fallbackIndex)
-        debugTeiHighlights('remove-result', {
-          draftCountAfter: next.length,
-          strategy: 'fallbackFeatureId',
-          fallbackIndex,
-        })
-        return next
+        return previous.filter((_, index) => index !== fallbackIndex)
       }
 
-      debugTeiHighlights('remove-result', {
-        draftCountAfter: previous.length,
-        strategy: 'no-op',
-      })
       return previous
     })
     setForcedChangedFeatureIds((previous) =>
@@ -1518,22 +1473,6 @@ export function TeiPane({
     })
     return [...new Set([...changedByDiff, ...forcedChangedFeatureIds])]
   }, [baselineHighlights, draftHighlights, forcedChangedFeatureIds])
-
-  useEffect(() => {
-    debugTeiHighlights('dirty-state', {
-      baselineHighlights: baselineHighlights.length,
-      draftHighlights: draftHighlights.length,
-      changedFeatureIds,
-      removedTeiHighlightIds,
-      forcedChangedFeatureIds,
-    })
-  }, [
-    baselineHighlights.length,
-    changedFeatureIds,
-    draftHighlights.length,
-    forcedChangedFeatureIds,
-    removedTeiHighlightIds,
-  ])
 
   const unsavedFeatureCount = changedFeatureIds.length
   const hasUnsavedChanges = unsavedFeatureCount > 0
