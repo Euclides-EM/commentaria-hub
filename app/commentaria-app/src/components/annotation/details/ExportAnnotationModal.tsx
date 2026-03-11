@@ -20,6 +20,7 @@ interface ExportAnnotationModalProps {
   isOpen: boolean
   onClose: () => void
   exportTargets?: ExportAnnotationTarget[]
+  onSuccess?: () => void
 }
 
 export type ExportAnnotationTarget = {
@@ -52,6 +53,7 @@ export function ExportAnnotationModal({
   isOpen,
   onClose,
   exportTargets,
+  onSuccess,
 }: ExportAnnotationModalProps) {
   const queryClient = useQueryClient()
   const { annotation } = useAppState()
@@ -153,6 +155,7 @@ export function ExportAnnotationModal({
       void queryClient.invalidateQueries({
         queryKey: runningIntegrationJobsQueryKey(),
       })
+      onSuccess?.()
       onClose()
     } catch (e) {
       console.error('Failed to export annotation:', e)

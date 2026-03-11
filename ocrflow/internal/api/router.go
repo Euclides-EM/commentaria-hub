@@ -10,33 +10,34 @@ import (
 )
 
 type Dependencies struct {
-	Env                 *config.EnvConfig
-	HealthSvc           *service.Health
-	EditionSvc          *service.Edition
-	FacsimileSvc        *service.Facsimile
-	DatasetSvc          *service.Dataset
-	DatasetImgSvc       *service.DatasetImg
-	AnnotationSvc       *service.Annotation
-	AnnotationGroupSvc  *service.AnnotationGroup
-	ModelSvc            *service.Model
-	TrainSvc            *service.Train
-	MetadataDetailsSvc  *service.MetadataDetails
-	MetaStoreManager    *service.MetaStoreManager
-	AnnotationsUploader *service.AnnotationsUploader
-	AnnotationTEI       *service.AnnotationTEI
-	EditionTEI          *service.EditionTEI
-	AnnotationSearch    *service.AnnotationSearch
-	FeatureSvc          *service.Feature
-	FeatureRevisionSvc  *service.Revision
-	FeatureExecutionSvc *service.Execution
-	FeatureResultSvc    *service.Result
-	FeaturePropertySvc  *service.FeatureProperty
-	DiagramCropsSvc     *service.DiagramCrops
-	USTC                *service.USTC
-	IntegrationJobSvc   *service.IntegrationJob
-	GeoSvc              *service.Geo
-	VCSMgt              *service.VCSMgt
-	BackupSvc           *service.Backup
+	Env                     *config.EnvConfig
+	HealthSvc               *service.Health
+	EditionSvc              *service.Edition
+	FacsimileSvc            *service.Facsimile
+	DatasetSvc              *service.Dataset
+	DatasetImgSvc           *service.DatasetImg
+	AnnotationSvc           *service.Annotation
+	AnnotationGroupSvc      *service.AnnotationGroup
+	ModelSvc                *service.Model
+	TrainSvc                *service.Train
+	MetadataDetailsSvc      *service.MetadataDetails
+	MetaStoreManager        *service.MetaStoreManager
+	AnnotationsUploader     *service.AnnotationsUploader
+	AnnotationTEI           *service.AnnotationTEI
+	EditionTEI              *service.EditionTEI
+	EditionTranscriptionSvc *service.EditionTranscription
+	AnnotationSearch        *service.AnnotationSearch
+	FeatureSvc              *service.Feature
+	FeatureRevisionSvc      *service.Revision
+	FeatureExecutionSvc     *service.Execution
+	FeatureResultSvc        *service.Result
+	FeaturePropertySvc      *service.FeatureProperty
+	DiagramCropsSvc         *service.DiagramCrops
+	USTC                    *service.USTC
+	IntegrationJobSvc       *service.IntegrationJob
+	GeoSvc                  *service.Geo
+	VCSMgt                  *service.VCSMgt
+	BackupSvc               *service.Backup
 }
 
 func NewRouter(deps *Dependencies) http.Handler {
@@ -64,6 +65,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
 	api.HandleFunc("/editions/{editionId}/diagrams", httpwrapper.Get(h.GetEditionDiagramCrops).Build())
 	api.HandleFunc("/editions/{editionId}/tei/{pageNum}", httpwrapper.GetXML(h.GetEditionTEI).Build())
+	api.HandleFunc("/editions/transcriptions", httpwrapper.Get(h.ListEditionTranscriptionsDetails).Build())
+	api.HandleFunc("/editions/{editionId}/transcriptions", httpwrapper.Update(h.UpdateEditionTranscriptionsDetails).Build())
 
 	api.HandleFunc("/facsimilies", httpwrapper.Get(h.ListFacsimiles).Create(h.CreateFacsimile).Build())
 	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Build())
@@ -80,6 +83,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/fromzip", httpwrapper.CreateFile(h.GetAnnotationZipFile).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/fromurl", httpwrapper.CreateFile(h.GetAnnotationURL).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/duplicate", httpwrapper.Create(h.DuplicateAnnotation).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/merge", httpwrapper.Update(h.MergeAnnotation).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/index", httpwrapper.Get(h.GetAnnotationIndex).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/categories", httpwrapper.Get(h.ListAnnotationCategories).Build())

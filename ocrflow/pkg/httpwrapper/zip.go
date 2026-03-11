@@ -2,15 +2,14 @@ package httpwrapper
 
 import (
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"io"
 	"net/http"
-	"os"
 	"path/filepath"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 )
 
-// StoreUncompressedDir extracts a ZIP file from the HTTP request and stores its contents in the specified destination path.
-func StoreUncompressedDir(dstPath string, r *http.Request) error {
+// StoreUncompressedDirFromRequest extracts a ZIP file from the HTTP request and stores its contents in the specified destination path.
+func StoreUncompressedDirFromRequest(dstPath string, r *http.Request) error {
 	if err := r.ParseMultipartForm(MaxUploadSize); err != nil {
 		return fmt.Errorf("invalid multipart form: %w", err)
 	}
@@ -23,21 +22,5 @@ func StoreUncompressedDir(dstPath string, r *http.Request) error {
 		return fmt.Errorf("only .zip files are allowed")
 	}
 
-	dst, err := os.CreateTemp("", "upload-*.zip")
-	if err != nil {
-		return fmt.Errorf("failed to create file: %w", err)
-	}
-	defer dst.Close()
-	defer os.Remove(dst.Name())
-
-	_, err = io.Copy(dst, file)
-	if err != nil {
-		return fmt.Errorf("failed to save file: %w", err)
-	}
-
-	if err := futils.Unzip(dst.Name(), dstPath); err != nil {
-		return fmt.Errorf("failed to unzip file: %w", err)
-	}
-
-	return nil
+	return futils.UnzipFromReader(dstPath, file)
 }

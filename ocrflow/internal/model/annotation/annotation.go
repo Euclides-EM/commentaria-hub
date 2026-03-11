@@ -1,6 +1,8 @@
 package annotation
 
 import (
+	"time"
+
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 )
@@ -16,5 +18,11 @@ type Annotation struct {
 	DatasetID          string                         `json:"dataset_id" readonly:"true"`
 	AppliedRules       annotationrule.AnnotationRules `json:"applied_rules" readonly:"true"`
 	OriginAnnotationID string                         `json:"origin_annotation_id,omitempty" readonly:"true"`
+	MergedAnnotations  []MergedReference              `json:"merged_annotations,omitempty" readonly:"true"`
 	PipelineStage      annotationrule.PipelineStage   `json:"pipeline_stage,omitempty" readonly:"true"`
+}
+
+type MergedReference struct {
+	Reference `json:",inline"`
+	MergedAt  time.Time `json:"merged_at"`
 }

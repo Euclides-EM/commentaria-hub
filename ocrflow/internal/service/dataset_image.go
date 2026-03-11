@@ -2,12 +2,14 @@ package service
 
 import (
 	"fmt"
+	"log"
 	"mime/multipart"
 	"os"
 	"path"
 	"path/filepath"
 	"slices"
 	"sort"
+	"strconv"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
@@ -52,17 +54,74 @@ func (d *DatasetImg) GetPageImage(datasetID string, page int) ([]byte, error) {
 	return data, nil
 }
 
-func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHeader, datasetId string, typ string, key string) (*model.ImageUpload, error) {
+func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHeader, datasetId string, typ model.ImageType, key string) (*model.ImageUpload, error) {
 	dataset, err := d.datasetSvc.Get(datasetId)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
 	}
-	if !futils.IsImageFile(header.Filename) {
-		return nil, fmt.Errorf("unsupported image format: %s", header.Filename)
+
+	// For frontispiece and title page images, we allow any image format supported by the system, and we generate a unique filename based on the key and type.
+	if typ == model.ImageTypeFrontispiece || typ == model.ImageTypeTitlePage {
+		if datasetId != "tps" {
+			return nil, fmt.Errorf("only TPS dataset allows frontispiece and title page images")
+		}
+		if lo.IsEmpty(key) {
+			return nil, fmt.Errorf("key is required for frontispiece and title page images")
+		}
+		if !futils.IsImageFile(header.Filename) {
+			return nil, fmt.Errorf("unsupported image format: %s", header.Filename)
+		}
+		return d.datasetImgStore.UploadImage(dataset, d.fileNameForImage(key, typ, filepath.Ext(header.Filename)), file)
 	}
-	ext := filepath.Ext(header.Filename)
-	d.fileNameForImage(key, typ, ext)
-	return d.datasetImgStore.UploadImage(dataset, header.Filename, file)
+	if typ != model.ImageTypeFacsimile {
+		return nil, fmt.Errorf("unsupported image type: %s", typ)
+	}
+	// Now we know for sure that the image is a facsimile image.
+
+	// The client can either upload a single PNG file.
+	// In that case we use the `key` from the request to generate the filename.
+	if filepath.Ext(header.Filename) == ".png" {
+		// Note: this is a non-scalable versification that is here to make sure we do not have any non-page-numbered files in the facsimile image uploads.
+		if _, err := strconv.Atoi(key); err != nil {
+			return nil, fmt.Errorf("all datasets, except for TPS, require integer page number as the key in facsimile image upload: %s", key)
+		}
+		return d.datasetImgStore.UploadImage(dataset, pagesparser.PageOrKeyToPNGFilename(key), file)
+	}
+
+	// Alternatively, the client can upload a ZIP file containing multiple PNG files.
+	// In that case, we require that all files in the ZIP have a .png extension, and we use the original filenames for the stored images.
+	if filepath.Ext(header.Filename) != ".zip" {
+		return nil, fmt.Errorf("unsupported image format for facsimile type, only PNG or ZIP allowed: %s", header.Filename)
+	}
+	tmpDir, err := os.MkdirTemp("", "facsimile-zip-*")
+	if err != nil {
+		return nil, fmt.Errorf("failed to create temp directory for ZIP extraction: %w", err)
+	}
+	defer os.RemoveAll(tmpDir)
+	if err := futils.UnzipFromReader(tmpDir, file); err != nil {
+		return nil, fmt.Errorf("failed to extract ZIP file: %w", err)
+	}
+	cnt := 0
+	for _, entry := range lo.Must(os.ReadDir(tmpDir)) {
+		if strings.ToLower(filepath.Ext(entry.Name())) != ".png" {
+			log.Printf("skipping %s as it does not have a .png extension", entry.Name())
+			continue
+		}
+		// Note: this is a non-scalable versification that is here to make sure we do not have any non-page-numbered files in the facsimile image store for datasets other than TPS, which is the only dataset that allows non-page-numbered facsimile images.
+		// We should consider a more robust way to handle this in the future, such as allowing users to specify the key for each image in the ZIP file via a manifest file or a specific naming convention.
+		if _, err := pagesparser.FileNameToPage(entry.Name()); err != nil && datasetId != "tps" {
+			return nil, fmt.Errorf("all datasets, except for TPS, require page numbers in facsimile image filenames: %s", entry.Name())
+		}
+		if err := os.Rename(path.Join(tmpDir, entry.Name()), path.Join(d.fileSysMgt.DatasetImagesDirByID(datasetId), entry.Name())); err != nil {
+			return nil, fmt.Errorf("failed to move extracted image to dataset images directory: %w", err)
+		}
+		cnt++
+	}
+	return &model.ImageUpload{
+		Success:  true,
+		Filename: header.Filename,
+		Uploaded: cnt,
+	}, nil
 }
 
 func (d *DatasetImg) ListImagesMetadata(datasetId string, uniqueOnly bool) ([]*model.ImageMetadata, error) {
@@ -170,7 +229,7 @@ func (d *DatasetImg) DeleteImages(datasetId string, pageNumOrKeys, filenames []s
 	return d.datasetImgStore.DeleteImages(dataset, targetImages)
 }
 
-func (d *DatasetImg) fileNameForImage(key string, typ string, ext string) string {
+func (d *DatasetImg) fileNameForImage(key string, typ model.ImageType, ext string) string {
 	return fmt.Sprintf("%s%s", idgen.Name2ID("", fmt.Sprintf("%s_%s", key, typ)), ext)
 }
 

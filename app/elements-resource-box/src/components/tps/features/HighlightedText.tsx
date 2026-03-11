@@ -46,6 +46,7 @@ export const HighlightedText = memo(
           dataSetId: TITLE_PAGES_DATASET_ID,
           id: TITLE_PAGES_ANNOTATION_ID,
           pageNumOrKey: itemKey,
+          fallbackToOrigin: true,
         }),
       enabled: Boolean(itemKey),
     });

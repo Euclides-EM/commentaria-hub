@@ -205,11 +205,14 @@ const getCertaintyDegreeByTargetId = (doc: Document) => {
   return out
 }
 
-const getElementCertaintyDegree = (element: Element, opts: ReadingOptions) => {
+const getElementCertaintyDegree = (
+  element: Element,
+  opts: ReadingOptions,
+): number | null => {
   const targetId = getXmlId(element)
   if (targetId) {
     const byTargetIdDegree = opts.certaintyDegreeByTargetId?.get(targetId)
-    if (Number.isFinite(byTargetIdDegree)) {
+    if (byTargetIdDegree != null && Number.isFinite(byTargetIdDegree)) {
       return byTargetIdDegree
     }
   }
@@ -240,6 +243,22 @@ function maskText(s: string, maskChar: string) {
     out += /\s/.test(ch) ? ch : m
   }
   return out
+}
+
+const getDisplayedCertaintyDegree = (degree: number | null): number | null => {
+  if (degree == null || !Number.isFinite(degree)) {
+    return null
+  }
+  return Math.min(1, Math.max(0.8, degree))
+}
+
+const shouldMaskByCertainty = (
+  degree: number | null,
+  opts: ReadingOptions,
+): boolean => {
+  const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
+  const displayedDegree = getDisplayedCertaintyDegree(degree)
+  return displayedDegree != null && displayedDegree < minCert
 }
 
 const getElementAttr = (el: Element, name: string) =>
@@ -466,11 +485,9 @@ const appendTextWithAnchors = (
   if (element.localName === 'seg') {
     const degree = getElementCertaintyDegree(element, opts)
     const rawText = textContentExcludingCertainty(element)
-    const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
-    builder.text +=
-      degree != null && degree < minCert
-        ? maskText(rawText, opts.maskChar)
-        : rawText
+    builder.text += shouldMaskByCertainty(degree, opts)
+      ? maskText(rawText, opts.maskChar)
+      : rawText
     return
   }
 
@@ -673,13 +690,11 @@ const renderStructuredDivToParagraphs = (
           toReadingTextWithAnchors(line, opts),
         )
         const degree = getElementCertaintyDegree(line, opts)
-        const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
         return {
           ...lineText,
-          text:
-            degree != null && degree < minCert
-              ? maskText(lineText.text, opts.maskChar)
-              : lineText.text,
+          text: shouldMaskByCertainty(degree, opts)
+            ? maskText(lineText.text, opts.maskChar)
+            : lineText.text,
           matchIds: getMatchIdsForElement(line, lineMatchMode),
           certaintyDegree: degree,
         } satisfies LineTextWithAnchors
@@ -693,14 +708,12 @@ const renderStructuredDivToParagraphs = (
 
     const block = trimTextWithAnchors(toReadingTextWithAnchors(container, opts))
     const degree = getElementCertaintyDegree(container, opts)
-    const minCert = Number.isFinite(opts.minCert) ? opts.minCert : 0
     const blockMatchIds = getMatchIdsForElement(container, lineMatchMode)
     paragraphs.push({
       ...block,
-      text:
-        degree != null && degree < minCert
-          ? maskText(block.text, opts.maskChar)
-          : block.text,
+      text: shouldMaskByCertainty(degree, opts)
+        ? maskText(block.text, opts.maskChar)
+        : block.text,
       lineRanges:
         blockMatchIds.length > 0 && block.text.length > 0
           ? [
@@ -792,13 +805,20 @@ const renderParagraphWithLineRanges = (
       `data-tei-line-match-ids="${escapeHtmlAttr(range.matchIds.join(' '))}"`,
     ]
     if (showCertaintyVisualization && range.certaintyDegree != null) {
-      const clampedDegree = Math.min(1, Math.max(0.9, range.certaintyDegree))
-      const strength = (clampedDegree - 0.9) / 0.1
-      const alpha = 0.14 + strength * 0.44
-      attrs.push(`data-tei-certainty-degree="${clampedDegree.toFixed(3)}"`)
-      attrs.push(
-        `style="background-color: rgba(20, 184, 166, ${alpha.toFixed(3)}); border-radius: 3px;"`,
-      )
+      const displayDegree = getDisplayedCertaintyDegree(range.certaintyDegree)
+      if (displayDegree == null) {
+        html += `<span ${attrs.join(' ')}>${lineHtml}</span>`
+        cursor = rangeEnd
+        continue
+      }
+      attrs.push(`data-tei-certainty-degree="${displayDegree.toFixed(3)}"`)
+      if (range.certaintyDegree >= 0.8) {
+        const strength = (1 - displayDegree) / 0.2
+        const alpha = strength * 0.42
+        attrs.push(
+          `style="background-color: rgba(249, 115, 22, ${alpha.toFixed(3)}); border-radius: 3px;"`,
+        )
+      }
     }
     html += `<span ${attrs.join(' ')}>${lineHtml}</span>`
     cursor = rangeEnd

@@ -79,7 +79,7 @@ func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
 			OriginAnnotationID: titlePageSourceAnnotationID,
 			Hidden:             false,
 			LinesDetected:      false,
-		})
+		}, false)
 		if err != nil {
 			return err
 		}

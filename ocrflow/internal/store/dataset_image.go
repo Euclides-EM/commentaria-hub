@@ -34,6 +34,7 @@ func (s *DatasetImageStore) UploadImage(ds *model.Dataset, filename string, file
 		Success:  true,
 		Filename: filepath.Base(p),
 		Path:     filepath.Join(filepath.Dir(p), filepath.Base(p)),
+		Uploaded: 1,
 	}, nil
 }
 

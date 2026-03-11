@@ -2,11 +2,11 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { model_AnnotationReference } from './model_AnnotationReference';
+import type { annotation_Reference } from './annotation_Reference';
 import type { model_Model } from './model_Model';
 import type { model_TrainingStatus } from './model_TrainingStatus';
 export type model_Training = {
-    annotation_sets?: Array<model_AnnotationReference>;
+    annotation_sets?: Array<annotation_Reference>;
     readonly created_at?: string;
     description?: string;
     readonly id?: string;

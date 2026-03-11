@@ -15,12 +15,14 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/csv"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/samber/lo"
 )
 
 type EditionCSV struct {
 	itemsMetadataDir string
 	cacheStore       *cache.Cache
+	onDelete         func(key string)
 }
 
 const (
@@ -46,10 +48,11 @@ var (
 	cacheWarmupError = fmt.Errorf("try again in a few moments when cache warmup is complete")
 )
 
-func NewEditionCSV(itemsMetadataDir string) *EditionCSV {
+func NewEditionCSV(itemsMetadataDir string, onDelete func(key string)) *EditionCSV {
 	return &EditionCSV{
 		itemsMetadataDir: itemsMetadataDir,
 		cacheStore:       cache.NewCache(),
+		onDelete:         onDelete,
 	}
 }
 
@@ -89,7 +92,7 @@ func (s *EditionCSV) UpdateNotes(key, note string) error {
 	if !found {
 		return fmt.Errorf("item with key %s not found", key)
 	}
-	if err := csv.SaveCSVRecords(relItemsPrint, header, rows); err != nil {
+	if err := csv.SaveCSVRecords(s.csvPath(relItemsPrint), header, rows); err != nil {
 		return fmt.Errorf("Error saving updated notes: %v\n", err)
 	}
 	loaded, err := s.loadEditionByKey(key)
@@ -137,7 +140,7 @@ func (s *EditionCSV) UpsertEdition(ed *model.Edition, user string) error {
 		return err
 	}
 	if ed.Verified {
-		if err := csv.UpsertRow(relReviews, "key", ed.Key, map[string]string{
+		if err := csv.UpsertRow(s.csvPath(relReviews), "key", ed.Key, map[string]string{
 			"key":        ed.Key,
 			"researcher": user,
 			"timestamp":  time.Now().UTC().Format(time.RFC3339),
@@ -171,7 +174,7 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 		if ed.ManuscriptSubclass != nil {
 			sub = *ed.ManuscriptSubclass
 		}
-		if err := csv.UpsertRow(relMDManuscript, "key", ed.Key, map[string]string{
+		if err := csv.UpsertRow(s.csvPath(relMDManuscript), "key", ed.Key, map[string]string{
 			"key":            ed.Key,
 			"class":          ed.ManuscriptClass,
 			"subclass":       sub,
@@ -203,11 +206,11 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 		"notes":              ed.Notes,
 		"has_diagrams":       formatcov.BoolPtrToStr(ed.HasDiagrams),
 	}
-	if err := csv.UpsertRow(relItemsPrint, "key", ed.Key, row); err != nil {
+	if err := csv.UpsertRow(s.csvPath(relItemsPrint), "key", ed.Key, row); err != nil {
 		return fmt.Errorf("Error upserting print item: %v\n", err)
 	}
 	if ed.IsElements {
-		if err := csv.UpsertRow(relMDPrint, "key", ed.Key, map[string]string{
+		if err := csv.UpsertRow(s.csvPath(relMDPrint), "key", ed.Key, map[string]string{
 			"key":                      ed.Key,
 			"elements_books":           formatcov.IntsToCompressedStr(ed.Books),
 			"additional_content":       strings.Join(ed.AdditionalContent, ", "),
@@ -216,7 +219,7 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 			return fmt.Errorf("Error upserting print metadata: %v\n", err)
 		}
 	}
-	if err := csv.UpsertRow(relTranscriptions, "key", ed.Key, map[string]string{
+	if err := csv.UpsertRow(s.csvPath(relTranscriptions), "key", ed.Key, map[string]string{
 		"key":          ed.Key,
 		"colophon":     formatcov.PtrToStr(ed.Colophon),
 		"frontispiece": formatcov.PtrToStr(ed.Frontispiece),
@@ -239,8 +242,8 @@ func (s *EditionCSV) upsertShelfmarks(ed *model.Edition) error {
 			"key":              ed.Key,
 			"volume":           vol,
 			"scan":             sh.Scan,
-			"title_page_img":   sh.TitlePageImg,
-			"frontispiece_img": sh.FrontispieceImg,
+			"title_page_img":   futils.SafeBase(sh.TitlePageImg),
+			"frontispiece_img": futils.SafeBase(sh.FrontispieceImg),
 			"annotations":      sh.Annotations,
 			"shelf_mark":       sh.Shelfmark,
 			"copyright":        sh.Copyright,
@@ -249,7 +252,7 @@ func (s *EditionCSV) upsertShelfmarks(ed *model.Edition) error {
 	if len(rows) == 0 {
 		return nil
 	}
-	if err := csv.ReplaceRowsForKey(relShelfmarks, "key", ed.Key, rows); err != nil {
+	if err := csv.ReplaceRowsForKey(s.csvPath(relShelfmarks), "key", ed.Key, rows); err != nil {
 		return fmt.Errorf("Error upserting shelfmarks: %v\n", err)
 	}
 	return nil
@@ -278,7 +281,7 @@ func (s *EditionCSV) upsertTranslations(ed *model.Edition) error {
 	if len(rows) == 0 {
 		return nil
 	}
-	if err := csv.BatchUpsertRows(relTranslations, "key", "field", rows); err != nil {
+	if err := csv.BatchUpsertRows(s.csvPath(relTranslations), "key", "field", rows); err != nil {
 		return fmt.Errorf("Error upserting translations: %v\n", err)
 	}
 	return nil
@@ -292,7 +295,7 @@ func (s *EditionCSV) upsertBibliography(ed *model.Edition) error {
 	if len(rows) == 0 {
 		return nil
 	}
-	if err := csv.ReplaceRowsForKey(relBibliography, "key", ed.Key, rows); err != nil {
+	if err := csv.ReplaceRowsForKey(s.csvPath(relBibliography), "key", ed.Key, rows); err != nil {
 		fmt.Printf("Error upserting bibliography: %v\n", err)
 	}
 	return nil
@@ -322,7 +325,7 @@ func (s *EditionCSV) upsertClusters(ed *model.Edition) error {
 		}
 		if !found {
 			composite := parentClusterKey + "_" + ed.Key
-			if err := csv.UpsertRow(relClusterItems, "key", composite, map[string]string{
+			if err := csv.UpsertRow(s.csvPath(relClusterItems), "key", composite, map[string]string{
 				"key":         composite,
 				"cluster_key": parentClusterKey,
 				"item_key":    ed.Key,
@@ -332,17 +335,17 @@ func (s *EditionCSV) upsertClusters(ed *model.Edition) error {
 		}
 	}
 	clusterKey := strings.ToUpper(fmt.Sprintf("%x", rand.Int63())[:6])
-	if err := csv.UpsertRow(relClusters, "key", clusterKey, map[string]string{"key": clusterKey, "type": "reprint"}); err != nil {
+	if err := csv.UpsertRow(s.csvPath(relClusters), "key", clusterKey, map[string]string{"key": clusterKey, "type": "reprint"}); err != nil {
 		return fmt.Errorf("Error upserting cluster: %v\n", err)
 	}
-	if err := csv.UpsertRow(relClusterItems, "key", clusterKey+"_"+parentKey, map[string]string{
+	if err := csv.UpsertRow(s.csvPath(relClusterItems), "key", clusterKey+"_"+parentKey, map[string]string{
 		"key":         clusterKey + "_" + parentKey,
 		"cluster_key": clusterKey,
 		"item_key":    parentKey,
 	}); err != nil {
 		return fmt.Errorf("Error upserting cluster item: %v\n", err)
 	}
-	if err := csv.UpsertRow(relClusterItems, "key", clusterKey+"_"+ed.Key, map[string]string{
+	if err := csv.UpsertRow(s.csvPath(relClusterItems), "key", clusterKey+"_"+ed.Key, map[string]string{
 		"key":         clusterKey + "_" + ed.Key,
 		"cluster_key": clusterKey,
 		"item_key":    ed.Key,
@@ -360,13 +363,13 @@ func (s *EditionCSV) upsertVisualElements(ed *model.Edition) error {
 	// Upsert locators
 	for _, ve := range ed.VisualElements {
 		if ve.Locator != nil {
-			if err := csv.UpsertRow(relLocators, "key", ve.Locator.Key, locatorRow(ve.Locator)); err != nil {
+			if err := csv.UpsertRow(s.csvPath(relLocators), "key", ve.Locator.Key, locatorRow(ve.Locator)); err != nil {
 				return fmt.Errorf("Error upserting locator: %v\n", err)
 			}
 		}
 		for _, ex := range ve.Examples {
 			if ex.Locator != nil {
-				if err := csv.UpsertRow(relLocators, "key", ex.Locator.Key, locatorRow(ex.Locator)); err != nil {
+				if err := csv.UpsertRow(s.csvPath(relLocators), "key", ex.Locator.Key, locatorRow(ex.Locator)); err != nil {
 					return fmt.Errorf("Error upserting locator: %v\n", err)
 				}
 			}
@@ -398,11 +401,11 @@ func (s *EditionCSV) upsertVisualElements(ed *model.Edition) error {
 			})
 		}
 	}
-	if err := csv.ReplaceRowsForKey(relVisualElements, "key", ed.Key, veRows); err != nil {
+	if err := csv.ReplaceRowsForKey(s.csvPath(relVisualElements), "key", ed.Key, veRows); err != nil {
 		return fmt.Errorf("Error upserting visual elements: %v\n", err)
 	}
 	// Replace examples for this edition's visual elements (by key = edition key in examples)
-	if err := csv.ReplaceRowsForKey(relVisualElementsEx, "key", ed.Key, exRows); err != nil {
+	if err := csv.ReplaceRowsForKey(s.csvPath(relVisualElementsEx), "key", ed.Key, exRows); err != nil {
 		return fmt.Errorf("Error upserting visual element examples: %v\n", err)
 	}
 	return nil
@@ -418,15 +421,16 @@ func (s *EditionCSV) DeleteEdition(key string) error {
 		relCorpuses, relBibliography, relVisualElements,
 		relVisualElementsEx, relLocators,
 	} {
-		if err := csv.DeleteRows(rel, "key", key); err != nil {
+		if err := csv.DeleteRows(s.csvPath(rel), "key", key); err != nil {
 			return fmt.Errorf("Error deleting edition from %s: %v\n", rel, err)
 		}
 	}
 	// cluster_items uses item_key for edition membership
-	if err := csv.DeleteRows(relClusterItems, "item_key", key); err != nil {
+	if err := csv.DeleteRows(s.csvPath(relClusterItems), "item_key", key); err != nil {
 		return fmt.Errorf("Error deleting edition from cluster items: %v\n", err)
 	}
 	s.cacheStore.Delete(key)
+	s.onDelete(key)
 	return nil
 }
 

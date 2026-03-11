@@ -427,7 +427,7 @@ export function ImagePane({
         <div className="h-full w-full max-h-full max-w-full overflow-hidden flex items-center justify-center">
           <div
             ref={viewportRef}
-            className="relative h-full w-full"
+            className="relative h-full w-full flex justify-center items-center"
             onPointerMove={handleViewportPointerMove}
             onPointerLeave={handleViewportPointerLeave}
           >

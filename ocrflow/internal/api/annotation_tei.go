@@ -3,6 +3,7 @@ package api
 import (
 	"fmt"
 	"net/http"
+	"strconv"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
@@ -15,6 +16,7 @@ import (
 // @Param        id   path      string  true  "Annotation ID"
 // @Param        pageNumOrKey   path      string  true  "Page Number or Key"
 // @Param        feature   query     []string  false "Features to include in TEI data (can be specified multiple times)"  collectionFormat(multi)
+// @Param        fallback_to_origin   query     bool  true "Whether to fallback to results of the origin annotation if no feature results are found. By default, it's true."
 // @Produce      application/xml
 // @Success      200  {string}   string "TEI XML content"
 // @Router       /datasets/{dataSetId}/annotations/{id}/tei/{pageNumOrKey} [get]
@@ -30,7 +32,11 @@ func (h *Handlers) GetAnnotationTEI(r *http.Request) ([]byte, error) {
 	}
 	features := r.URL.Query()["feature"]
 
-	return h.deps.AnnotationTEI.GetTEI(datasetID, annotationID, pageNumOrKey, features)
+	fallbackToOrigin, err := strconv.ParseBool(r.URL.Query().Get("fallback_to_origin"))
+	if err != nil {
+		fallbackToOrigin = true
+	}
+	return h.deps.AnnotationTEI.GetTEI(datasetID, annotationID, pageNumOrKey, features, fallbackToOrigin)
 }
 
 // GetEditionTEI godoc

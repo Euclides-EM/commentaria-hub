@@ -6,5 +6,6 @@ export type model_ImageUpload = {
     filename?: string;
     path?: string;
     success?: boolean;
+    uploaded?: number;
 };
 

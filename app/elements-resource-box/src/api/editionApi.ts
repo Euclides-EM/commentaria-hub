@@ -1,11 +1,11 @@
 import type { model_Edition, model_USTC, search_Query } from "@hub-api";
 import { EditionsService, ThirdPartyCatalogsService } from "@hub-api";
 import { uploadImage } from "./imageApi.ts";
-import { sampleSize } from "lodash";
 
 export const upsertEdition = async (
   data: model_Edition,
   images: Record<string, File>,
+  options?: { isNew?: boolean },
 ): Promise<void> => {
   console.log("Upserting edition:", data);
 
@@ -20,11 +20,7 @@ export const upsertEdition = async (
       }
       uploads.push(
         (async () => {
-          shelfmark.title_page_img = await uploadImage(
-            data.key!,
-            file,
-            `tp_${sampleSize("abcdefghijklmnopqrstuvwxyz0123456789", 5).join("")}`,
-          );
+          shelfmark.title_page_img = await uploadImage(data.key!, file, "tp");
         })(),
       );
     }
@@ -38,7 +34,7 @@ export const upsertEdition = async (
           shelfmark.frontispiece_img = await uploadImage(
             data.key!,
             file,
-            `frontispiece_${i + 1}`,
+            "frontispiece",
           );
         })(),
       );
@@ -56,11 +52,7 @@ export const upsertEdition = async (
         }
         uploads.push(
           (async () => {
-            example.img = await uploadImage(
-              data.key!,
-              file,
-              `visEl_${i + 1}_ex_${j + 1}`,
-            );
+            example.img = await uploadImage(data.key!, file, "facsimile");
           })(),
         );
       }
@@ -69,11 +61,10 @@ export const upsertEdition = async (
 
   await Promise.all(uploads);
 
-  try {
-    await EditionsService.getEditions({ editionId: data.key! });
-    await EditionsService.putEditions({ editionId: data.key!, edition: data });
-  } catch {
+  if (options?.isNew) {
     await EditionsService.postEditions({ edition: data });
+  } else {
+    await EditionsService.putEditions({ editionId: data.key!, edition: data });
   }
 };
 

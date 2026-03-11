@@ -6,6 +6,7 @@ import (
 	"os"
 	"path"
 	"slices"
+	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
@@ -25,20 +26,22 @@ import (
 // todo: add interfaces to all services
 
 type Annotation struct {
-	datasetSvc      *Dataset
-	datasetImgSvc   *DatasetImg
-	ruleApplier     *AnnotationRuleApplier
-	fileSysMgt      *filesys.Manager
-	annotationStore *store.AnnotationSQL
+	datasetSvc        *Dataset
+	datasetImgSvc     *DatasetImg
+	ruleApplier       *AnnotationRuleApplier
+	featureResultsSvc *Result
+	fileSysMgt        *filesys.Manager
+	annotationStore   *store.AnnotationSQL
 }
 
-func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
+func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, featureResultsSvc *Result, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
 	return &Annotation{
-		datasetSvc:      datasetSvc,
-		datasetImgSvc:   datasetImgSvc,
-		ruleApplier:     ruleApplier,
-		fileSysMgt:      fileSysMgt,
-		annotationStore: annotationStore,
+		datasetSvc:        datasetSvc,
+		datasetImgSvc:     datasetImgSvc,
+		ruleApplier:       ruleApplier,
+		featureResultsSvc: featureResultsSvc,
+		fileSysMgt:        fileSysMgt,
+		annotationStore:   annotationStore,
 	}
 }
 
@@ -61,7 +64,7 @@ func (a *Annotation) Get(datasetId, id string) (*annotation.Annotation, error) {
 	return annotation, nil
 }
 
-func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*annotation.Annotation, error) {
+func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFeatureResults bool) (*annotation.Annotation, error) {
 	// validate dataset exists
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
@@ -108,8 +111,30 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation) (*anno
 			}
 		}
 	}
+	var origAnn *annotation.Annotation
+	if ann.OriginAnnotationID != "" {
+		origAnn, err = a.Get(datasetID, ann.OriginAnnotationID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get origin annotation from store: %w", err)
+		}
+		ann.AppliedRules = origAnn.AppliedRules
+		ann.LinesDetected = origAnn.LinesDetected
+		ann.Ocred = origAnn.Ocred
+		ann.Segmented = origAnn.Segmented
+		ann.Pages = origAnn.Pages
+	}
 	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
 		return nil, fmt.Errorf("failed to insert annotation to store: %w", err)
+	}
+	if origAnn != nil && origAnn.Segmented {
+		if err := futils.CopyDir(a.fileSysMgt.DatasetAnnotationAltoDir(origAnn), a.fileSysMgt.DatasetAnnotationAltoDir(ann)); err != nil {
+			return nil, fmt.Errorf("failed to copy annotations for new annotation: %w", err)
+		}
+	}
+	if copyFeatureResults && ann.OriginAnnotationID != "" {
+		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.OriginAnnotationID, ann.DatasetID, ann.ID); err != nil {
+			return nil, fmt.Errorf("failed to copy feature results for new annotation: %w", err)
+		}
 	}
 	return ann, nil
 }
@@ -194,7 +219,7 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 	}
 
 	if aar.Action == annotationrule.ApplyRulesActionCreateNew {
-		ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description)
+		ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description, aar.CopyFeatureResults)
 		if err != nil {
 			return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
 		}
@@ -359,7 +384,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *annotati
 	return fromDB, nil
 }
 
-func (a *Annotation) Duplicate(datasetID string, annotationID string, name string, description string) (*annotation.Annotation, error) {
+func (a *Annotation) Duplicate(datasetID string, annotationID string, name string, description string, copyFeatureResults bool) (*annotation.Annotation, error) {
 	origAnn, err := a.Get(datasetID, annotationID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get original annotation: %w", err)
@@ -393,6 +418,11 @@ func (a *Annotation) Duplicate(datasetID string, annotationID string, name strin
 	ann.OriginAnnotationID = origAnn.ID
 	if err := a.annotationStore.InsertAnnotation(ann); err != nil {
 		return nil, fmt.Errorf("failed to insert new annotation to store: %w", err)
+	}
+	if copyFeatureResults {
+		if err := a.featureResultsSvc.CopyResults(origAnn.DatasetID, origAnn.ID, origAnn.DatasetID, ann.ID); err != nil {
+			return nil, fmt.Errorf("failed to copy feature results for new annotation: %w", err)
+		}
 	}
 
 	return ann, nil
@@ -461,7 +491,7 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 	return toReview, nil
 }
 
-func (a *Annotation) ListAnnotationIDsByUsedModels() (map[string][]*annotation.Reference, error) {
+func (a *Annotation) ListAnnotationsByUsedModels() (map[string][]*annotation.Reference, error) {
 	anns1, err := a.annotationStore.ListAppliedRulesByAnnotationIDs()
 	if err != nil {
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
@@ -487,6 +517,107 @@ func (a *Annotation) ListAnnotationsByAnnotationReferences(refs []*annotation.Re
 		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
 	}
 	return anns, nil
+}
+
+func (a *Annotation) ListAnnotationsByDatasetIDs(dsIDs []string) ([]*annotation.Annotation, error) {
+	anns, err := a.annotationStore.ListAnnotationsByDatasetIDs(dsIDs)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list annotations from store: %w", err)
+	}
+	return anns, nil
+}
+
+func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.MergeRequest) (*annotation.Annotation, error) {
+	dstAnn, err := a.Get(datasetID, dstAnnID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get destination annotation: %w", err)
+	}
+	toMerge, err := a.ListAnnotationsByAnnotationReferences(req.AnnotationsToMerge)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotations to merge: %w", err)
+	}
+
+	// calculate pages after merge (and verify pages do not intersect)
+	var pagesInMerged []int
+	dstPages, err := pagesparser.IntRange(dstAnn.Pages)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse pages for destination annotation: %w", err)
+	}
+	pagesInMerged = append(pagesInMerged, dstPages...)
+	dstPageSet := make(map[int]struct{})
+	for _, p := range dstPages {
+		dstPageSet[p] = struct{}{}
+	}
+	for _, ann := range toMerge {
+		pages, err := pagesparser.IntRange(ann.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse pages for annotation to merge: %w", err)
+		}
+		if intersect := lo.Intersect(dstPages, pages); len(intersect) > 0 {
+			return nil, fmt.Errorf("pages %v in annotation %s overlap with destination annotation", pagesparser.ToString(intersect), ann.ID)
+		}
+		pagesInMerged = append(pagesInMerged, pages...)
+	}
+
+	// update fields of destination annotation based on merged annotations
+	dstAnn.LinesDetected = lo.SomeBy(toMerge, func(a *annotation.Annotation) bool { return a.LinesDetected }) || dstAnn.LinesDetected
+	dstAnn.Ocred = lo.SomeBy(toMerge, func(a *annotation.Annotation) bool { return a.Ocred }) || dstAnn.Ocred
+	dstAnn.Segmented = lo.SomeBy(toMerge, func(a *annotation.Annotation) bool { return a.Segmented }) || dstAnn.Segmented
+	dstAnn.GroundTruth = lo.EveryBy(toMerge, func(a *annotation.Annotation) bool { return a.GroundTruth }) && dstAnn.GroundTruth
+	dstAnn.MergedAnnotations = append(dstAnn.MergedAnnotations, lo.Map(toMerge, func(a *annotation.Annotation, _ int) annotation.MergedReference {
+		return annotation.MergedReference{
+			Reference: annotation.Reference{
+				DatasetID: a.DatasetID,
+				ID:        a.ID,
+			},
+			MergedAt: time.Now(),
+		}
+	})...)
+	dstAnn.Pages = pagesparser.ToString(pagesInMerged)
+
+	// copy image files (if not already exist) - this is to ensure the merged annotation can be used even if the original annotations are deleted later
+	for _, ann := range toMerge {
+		if ann.DatasetID == datasetID {
+			continue
+		}
+		pages, err := pagesparser.IntRange(ann.Pages)
+		if err != nil {
+			return nil, fmt.Errorf("failed to parse pages for annotation to merge: %w", err)
+		}
+		for _, p := range pages {
+			imgDstPath := path.Join(a.fileSysMgt.DatasetImagesDirByID(datasetID), pagesparser.PageToPNGFilename(p))
+			if _, err := os.Stat(imgDstPath); os.IsNotExist(err) {
+				imgSrcPath := path.Join(a.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageToPNGFilename(p))
+				if err := futils.CopyFile(imgSrcPath, imgDstPath); err != nil {
+					return nil, fmt.Errorf("failed to copy image file for page %d from annotation %s: %w", p, ann.ID, err)
+				}
+			}
+		}
+	}
+
+	// copy alto files
+	for _, ann := range toMerge {
+		if ann.Segmented {
+			srcDir := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
+			if err := futils.CopyDir(srcDir, a.fileSysMgt.DatasetAnnotationAltoDir(dstAnn)); err != nil {
+				return nil, fmt.Errorf("failed to copy ALTO files for merged annotation %s: %w", ann.ID, err)
+			}
+		}
+	}
+
+	// copy feature results
+	for _, ann := range toMerge {
+		if err := a.featureResultsSvc.CopyResults(ann.DatasetID, ann.ID, dstAnn.DatasetID, dstAnn.ID); err != nil {
+			return nil, fmt.Errorf("failed to copy feature results for merged annotation %s: %w", ann.ID, err)
+		}
+	}
+
+	// update destination annotation
+	if err := a.annotationStore.UpdateAnnotation(dstAnn); err != nil {
+		return nil, fmt.Errorf("failed to update destination annotation in store: %w", err)
+	}
+
+	return dstAnn, nil
 }
 
 func buildNodes(remainingCats []string, data []categoryPageContent) []*annotation.IndexNode {

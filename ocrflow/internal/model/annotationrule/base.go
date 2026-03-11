@@ -39,6 +39,8 @@ type ApplyRules struct {
 	Name string `json:"name"`
 	// Description is used only if the action is ApplyRulesActionCreateNew
 	Description string `json:"description"`
+	// CopyFeatureResults is used only if the action is ApplyRulesActionCreateNew. If true, the feature results of the original annotation will be copied to the new annotation.
+	CopyFeatureResults bool `json:"copy_feature_results"`
 }
 
 type AnnotationRule interface {

@@ -30,6 +30,7 @@ import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts
 import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
 import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
 import { formatBoolean } from '../../../utils/formatBoolean.tsx'
+import { useAnnotationGroupsQuery } from '../../../queries/annotationGroups.ts'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
@@ -73,6 +74,8 @@ const AnnotationDetailsContent = ({
   const { data: datasets } = useDatasetsQuery()
   const { data: categories, isLoading: categoriesLoading } =
     useAnnotationCategories(annotation.dataset_id!, annotation.id!)
+  const { data: annotationGroups, isLoading: annotationGroupsLoading } =
+    useAnnotationGroupsQuery()
   const datasetForAnnotation =
     datasets?.find((d) => d.id === annotation.dataset_id) || null
   const editionId = datasetForAnnotation?.edition_id || null
@@ -97,6 +100,21 @@ const AnnotationDetailsContent = ({
 
   const originAnnotation = annotations?.find(
     (a) => a.id === annotation.origin_annotation_id,
+  )
+  const containingGroups = useMemo(
+    () =>
+      (annotationGroups || [])
+        .filter((group) =>
+          (group.annotations || []).some(
+            (ref) =>
+              ref.dataset_id === annotation.dataset_id &&
+              ref.id === annotation.id,
+          ),
+        )
+        .sort((a, b) =>
+          (a.name || a.id || '').localeCompare(b.name || b.id || ''),
+        ),
+    [annotation.dataset_id, annotation.id, annotationGroups],
   )
   return (
     <div className="mt-2.5 border border-gray-200 rounded-lg bg-gray-50 p-3.5 overflow-auto leading-normal text-base box-border">
@@ -281,6 +299,25 @@ const AnnotationDetailsContent = ({
             )}
           </div>
         )}
+        <div className="font-semibold text-xs opacity-80 pt-0.5">Groups</div>
+        <div className="text-sm leading-tight break-all flex flex-wrap items-center gap-2">
+          {annotationGroupsLoading ? (
+            <span className="text-gray-500">Loading…</span>
+          ) : containingGroups.length > 0 ? (
+            <div className="flex flex-wrap gap-1">
+              {containingGroups.map((group, index) => (
+                <span
+                  key={`${group.id || group.name || 'group'}-${index}`}
+                  className="inline-flex items-center rounded bg-blue-100 px-1.5 py-0.5 text-xs font-medium text-blue-800"
+                >
+                  {group.name || group.id}
+                </span>
+              ))}
+            </div>
+          ) : (
+            <span className="text-gray-500">None</span>
+          )}
+        </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">Created</div>
         <div className="text-sm leading-tight break-all ">
           <Timestamp date={annotation.created_at} />
