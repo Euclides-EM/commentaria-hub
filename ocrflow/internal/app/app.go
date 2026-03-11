@@ -11,6 +11,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/diagramcrops"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/migrations"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
@@ -81,7 +82,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
-	vcsMgtSvc := service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID("tps"))
+	vcsMgtSvc := service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID(titlepage.DatasetID))
 	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
@@ -101,8 +102,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureRevisionSvc := service.NewRevision(featureRevisionStore, featureProperty)
 	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
 	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
+	langResolver := service.NewLanguagesResolver(editionSvc, datasetSvc)
 
-	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
+	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,

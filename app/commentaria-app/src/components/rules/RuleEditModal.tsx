@@ -19,6 +19,7 @@ interface RuleEditModalProps {
   onSubmit: (
     payload: RuleRequestPayload,
     action: 'overwrite' | 'create_new',
+    copyFeatureResults: boolean,
   ) => Promise<void>
   initialPayload?: AnnotationRule
   ruleMetadata: annotationrule_MetadataDetails[] | undefined
@@ -37,6 +38,7 @@ export function RuleEditModal({
   const [loading, setLoading] = useState(false)
   const [newAnnotationName, setNewAnnotationName] = useState('')
   const [newAnnotationDescription, setNewAnnotationDescription] = useState('')
+  const [copyFeatureResults, setCopyFeatureResults] = useState(true)
   const [selectedRuleType, setSelectedRuleType] = useState<
     annotationrule_Type | undefined
   >(initialPayload?.type || ruleMetadata?.[0]?.type)
@@ -44,6 +46,7 @@ export function RuleEditModal({
   useEffect(() => {
     if (isOpen) {
       setError(null)
+      setCopyFeatureResults(true)
       if (initialPayload) {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { type, applicable_stages, ...editablePayload } = initialPayload
@@ -102,7 +105,7 @@ export function RuleEditModal({
           ? { description: newAnnotationDescription }
           : {}),
       } as RuleRequestPayload
-      await onSubmit(fullPayload, action)
+      await onSubmit(fullPayload, action, copyFeatureResults)
       onClose()
     } catch (e) {
       console.error('Failed to run rule:', e)
@@ -256,6 +259,16 @@ export function RuleEditModal({
                     disabled={loading}
                   />
                 </div>
+                <label className="flex items-center gap-2 text-sm text-gray-700">
+                  <input
+                    type="checkbox"
+                    checked={copyFeatureResults}
+                    onChange={(e) => setCopyFeatureResults(e.target.checked)}
+                    className="h-4 w-4"
+                    disabled={loading}
+                  />
+                  Copy feature results
+                </label>
               </div>
             )}
           </div>

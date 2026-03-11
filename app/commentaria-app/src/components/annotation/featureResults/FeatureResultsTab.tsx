@@ -88,6 +88,7 @@ export function FeatureResultsTab() {
       FeatureResultsService.getDatasetsAnnotationsResults({
         dataSetId: datasetId,
         id: annotationId,
+        fallbackToOrigin: true,
       }),
     enabled: !!datasetId && !!annotationId,
     refetchOnWindowFocus: false,

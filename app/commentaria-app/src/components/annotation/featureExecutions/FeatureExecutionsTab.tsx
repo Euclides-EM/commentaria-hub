@@ -179,10 +179,12 @@ export function FeatureExecutionsTab() {
     selectedFeatureIds,
     selectedKeys,
     skipIf,
+    pushToOrigin,
   }: {
     selectedFeatureIds: string[]
     selectedKeys: string[]
     skipIf: feature_ExecutionSkipIf[]
+    pushToOrigin: boolean
   }) => {
     setActionError(null)
     const featureById = new Map(
@@ -216,7 +218,13 @@ export function FeatureExecutionsTab() {
       annotation_id: annotationId,
       apply,
       keys: selectedKeys,
-      policy: skipIf.length ? { skip_if: skipIf } : undefined,
+      policy:
+        skipIf.length || pushToOrigin
+          ? {
+              skip_if: skipIf.length ? skipIf : undefined,
+              push_to_origin: pushToOrigin,
+            }
+          : undefined,
     }
 
     try {
@@ -242,7 +250,7 @@ export function FeatureExecutionsTab() {
 
   return (
     <section className="border border-gray-300 rounded-xl flex flex-col bg-white mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
-      <div className="px-3 py-2 border-b border-gray-200 bg-gray-50 flex items-center justify-between gap-3">
+      <div className="px-3 py-2 rounded-t-xl border-b border-gray-200 bg-gray-50 flex items-center justify-between gap-3">
         <div className="text-sm font-semibold">Feature Executions</div>
         <div className="flex items-center gap-2">
           {isAuthenticated && (

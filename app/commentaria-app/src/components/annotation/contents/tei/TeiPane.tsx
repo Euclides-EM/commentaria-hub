@@ -1,14 +1,14 @@
 import {
-  getTeiZoneToServerTextBlockId,
-  getTeiOriginalEditableLines,
   getTeiHighlightCategories,
+  getTeiOriginalEditableLines,
   getTeiParagraphSelection,
   getTeiSurfaceZones,
   getTeiTranslations,
+  getTeiZoneToServerTextBlockId,
   hasTeiCertaintyDegrees,
   type TeiHighlightConfig,
-  type TeiOriginalEditableLine,
   type TeiManualHighlight,
+  type TeiOriginalEditableLine,
   type TeiSurfaceZone,
   teiToHtml,
   type TeiTranslation,
@@ -30,8 +30,8 @@ import { selectStyles } from '../../../../styles/selectStyles.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import { createPortal } from 'react-dom'
 import {
-  AnnotationsApplyRulesService,
   type annotationrule_TextBlockCorrections,
+  AnnotationsApplyRulesService,
   type feature_Feature,
   type feature_Result,
   type feature_ResultValue,
@@ -39,6 +39,7 @@ import {
 } from '@hub-api'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useAuthStore } from '../../../../store/authStore.ts'
+import { TITLE_PAGES_DATASET_ID } from '../../../../utils/editions.ts'
 
 const VIEW_LABEL_MAP: Record<string, string> = {
   modern_en: 'English',
@@ -318,6 +319,7 @@ type TeiProps = {
   viewLabel: string
   showViewLabel: boolean
   alignLines: boolean
+  centerRows: boolean
   highlightConfig?: TeiHighlightConfig
   editable: boolean
   canAddHighlight: boolean
@@ -336,6 +338,7 @@ const Tei = ({
   viewLabel,
   showViewLabel,
   alignLines,
+  centerRows,
   highlightConfig,
   editable,
   canAddHighlight,
@@ -655,7 +658,7 @@ const Tei = ({
         </div>
       )}
       <div
-        className={`text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5 [&_[data-tei-corresp-hovered='true']]:bg-teal-100/70 [&_[data-tei-corresp-hovered='true']]:outline [&_[data-tei-corresp-hovered='true']]:outline-1 [&_[data-tei-corresp-hovered='true']]:outline-teal-500/70 [&_[data-tei-corresp-hovered='true']]:rounded-sm`}
+        className={`text-xs leading-relaxed border border-gray-300 rounded-xl bg-gray-50 p-2 ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 ${centerRows ? '[&_p]:text-center' : ''} [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5 [&_[data-tei-corresp-hovered='true']]:bg-teal-100/70 [&_[data-tei-corresp-hovered='true']]:outline [&_[data-tei-corresp-hovered='true']]:outline-1 [&_[data-tei-corresp-hovered='true']]:outline-teal-500/70 [&_[data-tei-corresp-hovered='true']]:rounded-sm`}
         style={{ whiteSpace: 'normal' }}
         dangerouslySetInnerHTML={{ __html: html }}
       />
@@ -1012,6 +1015,7 @@ export function TeiPane({
         dataSetId: datasetId,
         id: annotationId,
         keys: String(currentPageOrKey),
+        fallbackToOrigin: true,
       }),
     enabled: !!datasetId && !!annotationId,
   })
@@ -1434,8 +1438,7 @@ export function TeiPane({
         (highlight) => highlight.featureId === item.featureId,
       )
       if (fallbackIndex >= 0) {
-        const next = previous.filter((_, index) => index !== fallbackIndex)
-        return next
+        return previous.filter((_, index) => index !== fallbackIndex)
       }
 
       return previous
@@ -1514,6 +1517,7 @@ export function TeiPane({
         dataSetId: datasetId,
         id: annotationId,
         result: results,
+        pushToOrigin: true,
       }),
   })
   const textEditMutation = useMutation({
@@ -1772,6 +1776,7 @@ export function TeiPane({
     baseEditableOriginalLines.length > 0 &&
     !hasUnsavedChanges &&
     !isTextEditMode
+  const centerTeiRows = datasetId === TITLE_PAGES_DATASET_ID
 
   return (
     <>
@@ -2048,6 +2053,7 @@ export function TeiPane({
                         viewLabel={getViewModeLabel(viewMode)}
                         showViewLabel={availableViewModes.length > 1}
                         alignLines={alignLines}
+                        centerRows={centerTeiRows}
                         highlightConfig={highlightConfig}
                         editable={isAuthenticated && !isTextEditMode}
                         canAddHighlight={allFeatureOptions.length > 0}

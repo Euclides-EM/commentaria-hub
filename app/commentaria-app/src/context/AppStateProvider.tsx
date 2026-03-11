@@ -28,14 +28,15 @@ const expandRange = (range: string): string[] => {
   const parts = range.trim().split('-')
 
   if (parts.length !== 2) {
-    const num = parseInt(range.trim(), 10)
-    return Number.isNaN(num) ? [] : [String(num)]
+    return [range]
   }
 
   const min = parseInt(parts[0].trim(), 10)
   const max = parseInt(parts[1].trim(), 10)
 
-  if (Number.isNaN(min) || Number.isNaN(max)) return []
+  if (Number.isNaN(min) || Number.isNaN(max)) {
+    return [range]
+  }
 
   return Array.from({ length: Math.max(0, max - min + 1) }, (_, i) =>
     String(min + i),
@@ -153,6 +154,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     shouldLoadImageKeys,
+    annotation?.pages ? annotation.pages.split(',') : null,
   )
   const availablePageOrKeys = useMemo(() => {
     if (!annotation) {

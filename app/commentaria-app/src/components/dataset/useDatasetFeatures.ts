@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { type feature_Feature, FeaturesService } from '@hub-api'
+import { useFeaturePropertiesQuery } from '../../queries/datasets.ts'
+import { normalizeFeatureProperties } from '../../utils/featureProperties.ts'
 import type { FeatureEditState } from './FeatureCard.tsx'
 
 export function useDatasetFeatures(datasetId: string) {
@@ -19,6 +21,7 @@ export function useDatasetFeatures(datasetId: string) {
     Record<string, boolean>
   >({})
   const [searchQuery, setSearchQuery] = useState('')
+  const featurePropertiesQuery = useFeaturePropertiesQuery(!!datasetId)
 
   const featuresQuery = useQuery({
     queryKey: featuresQueryKey,
@@ -46,7 +49,12 @@ export function useDatasetFeatures(datasetId: string) {
     return sortedFeatures.filter((feature) => {
       const name = feature.name?.toLowerCase() ?? ''
       const description = feature.description?.toLowerCase() ?? ''
-      return name.includes(query) || description.includes(query)
+      const properties = (feature.properties ?? []).join(' ').toLowerCase()
+      return (
+        name.includes(query) ||
+        description.includes(query) ||
+        properties.includes(query)
+      )
     })
   }, [searchQuery, sortedFeatures])
 
@@ -63,6 +71,7 @@ export function useDatasetFeatures(datasetId: string) {
           name: feature.name || '',
           description: feature.description || '',
           color: feature.color || '',
+          properties: normalizeFeatureProperties(feature.properties ?? []),
         }
       }
       return next
@@ -126,7 +135,9 @@ export function useDatasetFeatures(datasetId: string) {
         feature: {
           name: form.name.trim(),
           description: form.description.trim() || undefined,
+          color: form.color || undefined,
           is_default: feature.is_default ?? false,
+          properties: normalizeFeatureProperties(form.properties),
         },
       })
       setEditingFeatures((prev) => ({
@@ -166,6 +177,7 @@ export function useDatasetFeatures(datasetId: string) {
         name: feature.name || '',
         description: feature.description || '',
         color: feature.color || '',
+        properties: normalizeFeatureProperties(feature.properties ?? []),
       },
     }))
     setEditingFeatures((prev) => ({
@@ -203,6 +215,8 @@ export function useDatasetFeatures(datasetId: string) {
     editingFeatures,
     busyFeatureId,
     error,
+    availableProperties: featurePropertiesQuery.data ?? [],
+    isLoadingProperties: featurePropertiesQuery.isLoading,
     loading,
     searchQuery,
     setSearchQuery,

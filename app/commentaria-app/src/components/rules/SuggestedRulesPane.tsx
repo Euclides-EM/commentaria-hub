@@ -37,6 +37,7 @@ export function SuggestedRulesPane() {
   const handleRunRule = async (
     rule: RuleRequestPayload,
     action: 'overwrite' | 'create_new',
+    copyFeatureResults: boolean,
   ) => {
     if (!dataset?.id || !annotation?.id) {
       return
@@ -51,6 +52,7 @@ export function SuggestedRulesPane() {
         annotationApplyRules: {
           action,
           ...(isCreate && {
+            copy_feature_results: copyFeatureResults,
             ...(name && { name }),
             ...(description && { description }),
           }),
@@ -72,16 +74,18 @@ export function SuggestedRulesPane() {
   const handleManualRuleSubmit = async (
     payload: RuleRequestPayload,
     action: 'overwrite' | 'create_new',
+    copyFeatureResults: boolean,
   ) => {
-    await handleRunRule(payload, action)
+    await handleRunRule(payload, action, copyFeatureResults)
     setIsManualModalOpen(false)
   }
 
   const handleEditRuleSubmit = async (
     payload: RuleRequestPayload,
     action: 'overwrite' | 'create_new',
+    copyFeatureResults: boolean,
   ) => {
-    await handleRunRule(payload, action)
+    await handleRunRule(payload, action, copyFeatureResults)
     setEditingRule(null)
   }
 
