@@ -20,7 +20,7 @@ import (
 const (
 	modelGPT5Mini         = "gpt-5-mini"
 	unboundedOutputTokens = true
-	requestTimeout        = 45 * time.Second
+	requestTimeout        = 5 * time.Minute
 	totalTimeout          = 3 * time.Minute
 )
 

@@ -125,11 +125,13 @@ ESCRIPTORIUM_PASSWORD=
 GITHUB_TOKEN=***
 ROBOFLOW_API_KEY=***
 UV_PATH=<path/to/uv/executable/if/not/in/PATH>
+OPENAI_API_KEY=s***A
 ```
 
 Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_private` file.
 Use the `ESCRIPTORIUM_USERNAME` and `ESCRIPTORIUM_PASSWORD` that you set up in the eScriptorium deployment, you can check it by running:
 Use the output of `which uv` for `UV_PATH`.
+The `OPENAI_API_KEY` is only needed if you want to use the feature execution functionality with prompts.
 
 ```bash
 sudo -iu euclides
