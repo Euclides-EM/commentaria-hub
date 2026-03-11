@@ -16,6 +16,7 @@ interface CreateFeatureExecutionModalProps {
     selectedFeatureIds: string[]
     selectedKeys: string[]
     skipIf: feature_ExecutionSkipIf[]
+    pushToOrigin: boolean
   }) => Promise<void>
   features: feature_Feature[]
   editionItems: model_Edition[]
@@ -94,6 +95,7 @@ function OpenCreateFeatureExecutionModal({
   )
   const [selectedKeys, setSelectedKeys] = useState<Set<string>>(new Set())
   const [skipIf, setSkipIf] = useState<Set<feature_ExecutionSkipIf>>(new Set())
+  const [pushToOrigin, setPushToOrigin] = useState(false)
   const [validationError, setValidationError] = useState<string | null>(null)
 
   const filteredFeatures = useMemo(() => {
@@ -169,6 +171,7 @@ function OpenCreateFeatureExecutionModal({
       selectedFeatureIds: Array.from(selectedFeatureIds),
       selectedKeys: Array.from(selectedKeys),
       skipIf: Array.from(skipIf),
+      pushToOrigin,
     })
   }
 
@@ -321,24 +324,38 @@ function OpenCreateFeatureExecutionModal({
             </section>
           </div>
 
-          <section className="space-y-2">
-            <div className="text-sm font-medium text-gray-700">Skip if</div>
-            <div className="flex flex-wrap gap-3">
-              {skipIfOptions.map((option) => (
-                <label
-                  key={option}
-                  className="inline-flex items-center gap-2 text-xs text-gray-700"
-                >
-                  <input
-                    type="checkbox"
-                    checked={skipIf.has(option)}
-                    onChange={() => toggleSkipIf(option)}
-                  />
-                  <span>{skipIfLabels[option] || option}</span>
-                </label>
-              ))}
-            </div>
-          </section>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <section className="space-y-2">
+              <div className="text-sm font-medium text-gray-700">Skip if</div>
+              <div className="flex flex-wrap gap-3">
+                {skipIfOptions.map((option) => (
+                  <label
+                    key={option}
+                    className="inline-flex items-center gap-2 text-xs text-gray-700"
+                  >
+                    <input
+                      type="checkbox"
+                      checked={skipIf.has(option)}
+                      onChange={() => toggleSkipIf(option)}
+                    />
+                    <span>{skipIfLabels[option] || option}</span>
+                  </label>
+                ))}
+              </div>
+            </section>
+
+            <section className="space-y-2">
+              <label className="inline-flex items-center gap-2 text-xs text-gray-700">
+                <input
+                  type="checkbox"
+                  checked={pushToOrigin}
+                  onChange={(event) => setPushToOrigin(event.target.checked)}
+                  disabled={isSubmitting}
+                />
+                <span>Push to origin annotation if applicable</span>
+              </label>
+            </section>
+          </div>
 
           <ErrorMessage message={validationError || errorMessage} />
         </div>

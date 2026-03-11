@@ -50,7 +50,7 @@ export class TranscriptionsService {
     }): CancelablePromise<model_EditionTranscription> {
         return __request(OpenAPI, {
             method: 'PUT',
-            url: '/editions/{editionId}/transcriptions',
+            url: '/editions/{edition_id}/transcriptions',
             path: {
                 'edition_id': editionId,
             },

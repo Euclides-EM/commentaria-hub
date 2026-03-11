@@ -37,6 +37,7 @@ export function CreateAnnotationModal({
   const [description, setDescription] = useState('')
   const [groundTruth, setGroundTruth] = useState(false)
   const [hidden, setHidden] = useState(false)
+  const [copyFeatureResults, setCopyFeatureResults] = useState(true)
   const [originAnnotationId, setOriginAnnotationId] = useState<string | null>(
     null,
   )
@@ -65,6 +66,7 @@ export function CreateAnnotationModal({
       setDescription(initialDescription)
       setGroundTruth(initialGroundTruth)
       setHidden(false)
+      setCopyFeatureResults(true)
       setOriginAnnotationId(initialOriginAnnotationId)
       setNameTouched(false)
       setDescriptionTouched(false)
@@ -134,6 +136,8 @@ export function CreateAnnotationModal({
               name: name.trim(),
               description: description.trim() || undefined,
               source_annotation_id: originAnnotationId || undefined,
+              copy_feature_results:
+                originAnnotationId != null ? copyFeatureResults : false,
             },
           })
         : await AnnotationsService.postDatasetsAnnotations({
@@ -145,7 +149,8 @@ export function CreateAnnotationModal({
               hidden,
               origin_annotation_id: originAnnotationId || undefined,
             },
-            copyFeatureResults: false,
+            copyFeatureResults:
+              originAnnotationId != null ? copyFeatureResults : false,
           })
       setState({ annotationId: annotation.id! })
       refetch()
@@ -210,9 +215,12 @@ export function CreateAnnotationModal({
                   (option) => option.value === originAnnotationId,
                 ) || null
               }
-              onChange={(option: { value: string; label: string } | null) =>
+              onChange={(option: { value: string; label: string } | null) => {
                 setOriginAnnotationId(option?.value || null)
-              }
+                if (!option) {
+                  setCopyFeatureResults(true)
+                }
+              }}
               options={originAnnotationOptions}
               placeholder="Select origin annotation..."
               isLoading={annotationsLoading}
@@ -225,6 +233,19 @@ export function CreateAnnotationModal({
               isClearable={!isDuplicateMode}
             />
           </div>
+
+          {originAnnotationId && (
+            <label className="flex items-center gap-2 text-sm text-gray-700">
+              <input
+                type="checkbox"
+                checked={copyFeatureResults}
+                onChange={(e) => setCopyFeatureResults(e.target.checked)}
+                className="h-4 w-4"
+                disabled={loading}
+              />
+              Copy feature results
+            </label>
+          )}
 
           <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-700">

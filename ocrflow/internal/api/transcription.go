@@ -31,7 +31,7 @@ func (h *Handlers) ListEditionTranscriptionsDetails(r *http.Request) (any, error
 // @Param        body		body      model.EditionTranscription  true  "Preferred transcription details"
 // @Security 	 BearerAuth
 // @Success      200    {object}  model.EditionTranscription  "Updated preferred transcription"
-// @Router       /editions/{editionId}/transcriptions [put]
+// @Router       /editions/{edition_id}/transcriptions [put]
 func (h *Handlers) UpdateEditionTranscriptionsDetails(r *http.Request) (any, error) {
 	editionID, err := extractEditionId(r)
 	if err != nil {

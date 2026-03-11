@@ -14,6 +14,8 @@ import { SiMaterialdesign } from "react-icons/si";
 import pluralize from "pluralize";
 import { ITEM_EDIT_ROUTE } from "../../layout/routes.ts";
 import { AuthContext } from "../../../contexts/Auth.ts";
+import { useQuery } from "@tanstack/react-query";
+import { getCommentariaHubPreferredTranscriptionUrl } from "../../../utils/commentariaHub.ts";
 
 const InfoTitle = styled.div`
   font-size: 0.8rem;
@@ -67,7 +69,7 @@ const StyledDiagramIcon = styled(SiMaterialdesign)`
 
 const EditLink = styled.a`
   display: block;
-  margin-left: 1rem;
+  margin-left: 0;
   padding: 0.5rem;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
@@ -83,6 +85,22 @@ const EditLink = styled.a`
   &:hover {
     background-color: #e0e0e0;
   }
+`;
+
+const CommentariaHubLink = styled(EditLink)`
+  max-width: 200px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+`;
+
+const ActionsRow = styled.div`
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
 `;
 
 const getAuthorLastName = (author: string) => {
@@ -128,6 +146,11 @@ export const ItemInfo = ({
 }) => {
   const [copied, setCopied] = useState(false);
   const { token } = useContext(AuthContext);
+  const preferredTranscriptionLinkQuery = useQuery({
+    queryKey: ["commentaria-hub-preferred-transcription", item.key],
+    queryFn: () => getCommentariaHubPreferredTranscriptionUrl(item.key),
+    enabled: !!item.key,
+  });
 
   return (
     <ModalTextColumn isRow={isRow}>
@@ -189,7 +212,6 @@ export const ItemInfo = ({
           </AnchorsRow>
         </Row>
       )}
-
       {item.format && (
         <Row justifyStart>
           <InfoTitle>Format:</InfoTitle> {item.format}
@@ -220,16 +242,27 @@ export const ItemInfo = ({
         </Row>
       )}
 
-      {token && (
-        <div>
-          <EditLink
-            href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Edit Item
-          </EditLink>
-        </div>
+      {(preferredTranscriptionLinkQuery.data || token) && (
+        <ActionsRow>
+          {preferredTranscriptionLinkQuery.data && (
+            <CommentariaHubLink
+              href={preferredTranscriptionLinkQuery.data}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View transcription in Commentaria Hub
+            </CommentariaHubLink>
+          )}
+          {token && (
+            <EditLink
+              href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Edit Item
+            </EditLink>
+          )}
+        </ActionsRow>
       )}
     </ModalTextColumn>
   );
