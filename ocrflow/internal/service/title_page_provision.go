@@ -11,10 +11,6 @@ import (
 	"github.com/samber/lo"
 )
 
-const (
-	titlePageCorpusName = "tps_experiment"
-)
-
 type TitlePageProvision struct {
 	annotationSvc *Annotation
 	datasetSvc    *Dataset
