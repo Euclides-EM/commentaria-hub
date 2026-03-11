@@ -59,6 +59,10 @@ func (r *Result) CreateResults(results []*feature.Result, pushToOrigin bool) err
 	return r.store.CreateBatch(results, pushToOrigin)
 }
 
+func (r *Result) ListResultsForExecutionPolicy(datasetID, annotationID string, keys []string, features []string, pushToOrigin bool) ([]*feature.Result, error) {
+	return r.store.ListForExecutionPolicy(datasetID, annotationID, keys, features, pushToOrigin)
+}
+
 func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *feature.Feature) error {
 	if feat == nil {
 		return fmt.Errorf("feature %s not found", result.FeatureID)
