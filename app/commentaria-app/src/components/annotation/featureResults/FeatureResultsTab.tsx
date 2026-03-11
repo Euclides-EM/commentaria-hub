@@ -34,6 +34,14 @@ type FeatureResultRow = {
   value: string
 }
 
+type SortKey =
+  | 'pageKey'
+  | 'editionDetails'
+  | 'featureName'
+  | 'featureDescription'
+
+type SortDirection = 'asc' | 'desc'
+
 const normalizeText = (value: string | null | undefined) => value?.trim() || ''
 
 const normalizeSearchValue = (value: string | null | undefined) =>
@@ -56,6 +64,8 @@ export function FeatureResultsTab() {
     useState<FeatureOption | null>(null)
   const [selectedEditionOption, setSelectedEditionOption] =
     useState<EditionOption | null>(null)
+  const [sortKey, setSortKey] = useState<SortKey>('pageKey')
+  const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
 
   const featuresQuery = useDatasetFeaturesQuery(datasetId, !!datasetId)
   const featureResultsQuery = useQuery({
@@ -235,6 +245,58 @@ export function FeatureResultsTab() {
     )
   }, [editionDetailsByKey, rows])
 
+  const sortedRows = useMemo(() => {
+    const getSortValue = (row: FeatureResultRow, key: SortKey) => {
+      switch (key) {
+        case 'pageKey':
+          return normalizeSearchValue(row.result.page_key)
+        case 'editionDetails':
+          return normalizeSearchValue(row.editionDetails)
+        case 'featureName':
+          return normalizeSearchValue(row.featureName || row.result.name)
+        case 'featureDescription':
+          return normalizeSearchValue(
+            row.featureDescription || row.result.description,
+          )
+      }
+    }
+
+    const data = [...filteredRows]
+    data.sort((left, right) => {
+      const leftValue = getSortValue(left, sortKey)
+      const rightValue = getSortValue(right, sortKey)
+      if (leftValue < rightValue) return sortDirection === 'asc' ? -1 : 1
+      if (leftValue > rightValue) return sortDirection === 'asc' ? 1 : -1
+      return 0
+    })
+    return data
+  }, [filteredRows, sortDirection, sortKey])
+
+  const toggleSort = (key: SortKey) => {
+    if (sortKey === key) {
+      setSortDirection((current) => (current === 'asc' ? 'desc' : 'asc'))
+      return
+    }
+    setSortKey(key)
+    setSortDirection('asc')
+  }
+
+  const renderSortHeader = (label: string, key: SortKey) => {
+    const isActive = sortKey === key
+    const arrow = isActive ? (sortDirection === 'asc' ? '▲' : '▼') : null
+
+    return (
+      <button
+        type="button"
+        onClick={() => toggleSort(key)}
+        className={`inline-flex items-center gap-1 ${isActive ? 'text-gray-800' : 'text-gray-500 hover:text-gray-700'}`}
+      >
+        <span>{label}</span>
+        {arrow && <span className="text-[10px]">{arrow}</span>}
+      </button>
+    )
+  }
+
   const error =
     featuresQuery.error instanceof Error
       ? featuresQuery.error.message
@@ -327,16 +389,19 @@ export function FeatureResultsTab() {
               <thead className="bg-gray-50 text-xs text-gray-500">
                 <tr>
                   <th className="w-28 px-4 py-3 text-left whitespace-nowrap">
-                    Page/Key
+                    {renderSortHeader('Page/Key', 'pageKey')}
                   </th>
                   <th className="px-4 py-3 text-left whitespace-nowrap">
-                    Edition Details
+                    {renderSortHeader('Edition Details', 'editionDetails')}
                   </th>
                   <th className="px-4 py-3 text-left whitespace-nowrap">
-                    Feature Name
+                    {renderSortHeader('Feature Name', 'featureName')}
                   </th>
                   <th className="px-4 py-3 text-left whitespace-nowrap">
-                    Feature Description
+                    {renderSortHeader(
+                      'Feature Description',
+                      'featureDescription',
+                    )}
                   </th>
                   <th className="w-32 px-4 py-3 text-left whitespace-nowrap">
                     Feature Revision
@@ -347,7 +412,7 @@ export function FeatureResultsTab() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                {filteredRows.map((row, index) => (
+                {sortedRows.map((row, index) => (
                   <tr
                     key={`${row.result.id || row.result.feature_id || 'feature-result'}-${row.result.page_key || ''}-${index}`}
                     className="hover:bg-gray-50 align-top"

@@ -41,7 +41,6 @@ const EXECUTION_SKIP_IF_LABELS: Record<feature_ExecutionSkipIf, string> = {
   human_reviewed: 'Human reviewed',
 }
 
-
 const formatDate = (value?: string) => {
   if (!value) return 'Unknown'
   const parsed = new Date(value)
