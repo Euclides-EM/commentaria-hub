@@ -177,7 +177,7 @@ const AnnotationDetailsContent = ({
         </div>
         <div className="text-sm leading-tight break-all">
           {hasPages
-            ? annotation.pages || ''
+            ? (annotation.pages || '').replace(/,\s*/g, ', ')
             : imageKeysLoading
               ? 'Loading…'
               : imageKeysCount}
