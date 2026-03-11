@@ -15,8 +15,8 @@ const normalizeText = (value: string | { name?: string | null }): string => {
 export const formatEditionLabel = (item: EditionDisplayInfo) => {
   const details = [
     item.year != null ? String(item.year) : null,
-    (item.authors ?? []).map((value) => normalizeText(value)).join(', '),
     (item.cities ?? []).map((value) => normalizeText(value)).join(', '),
+    (item.authors ?? []).map((value) => normalizeText(value)).join(', '),
   ]
     .filter(Boolean)
     .join(', ')

@@ -125,7 +125,9 @@ export function Main() {
           />
         )}
       </div>
-      <div className="flex-1 overflow-auto">
+      <div
+        className={`flex-1 min-h-0 ${activeTab === 'featureResults' ? 'flex overflow-hidden m-3' : 'overflow-auto'}`}
+      >
         {activeTab === 'details' && <AnnotationDetailsTab />}
         {activeTab === 'text' && <AnnotationContentsTab />}
         {activeTab === 'featureResults' && showFeatureExecutionsTab && (

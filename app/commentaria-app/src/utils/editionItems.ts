@@ -1,8 +1,4 @@
-import {
-  EditionsService,
-  type model_Edition,
-  type search_Query,
-} from '@hub-api'
+import { EditionsService, type model_Edition } from '@hub-api'
 
 export type EditionItem = {
   key: string

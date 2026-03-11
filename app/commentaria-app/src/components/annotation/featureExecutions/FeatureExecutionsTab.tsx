@@ -2,12 +2,13 @@ import { useMemo, useState } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import {
   ExecutionsService,
-  FeaturesService,
   type feature_Execution,
   type feature_ExecutionApplyItem,
   type feature_ExecutionSkipIf,
   type feature_ExecutionStatus,
   type feature_Feature,
+  FeaturesService,
+  type model_Edition,
 } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
@@ -15,11 +16,7 @@ import { Button } from '../../core/Button.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
-import {
-  listAllEditions,
-  mapEditionsToItems,
-  STUDY_CORPORA_FILTER,
-} from '../../../utils/editionItems.ts'
+import { listAllEditions } from '../../../utils/editionItems.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
@@ -244,7 +241,7 @@ export function FeatureExecutionsTab() {
   const creatingExecution = createExecutionMutation.isPending
 
   return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
+    <section className="border border-gray-300 rounded-xl flex flex-col bg-white mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
       <div className="px-3 py-2 border-b border-gray-200 bg-gray-50 flex items-center justify-between gap-3">
         <div className="text-sm font-semibold">Feature Executions</div>
         <div className="flex items-center gap-2">

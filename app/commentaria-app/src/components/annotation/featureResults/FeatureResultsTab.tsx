@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
+import { useVirtualizer } from '@tanstack/react-virtual'
 import Select from 'react-select'
 import { FeatureResultsService, type feature_Result } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
@@ -42,6 +43,18 @@ type SortKey =
 
 type SortDirection = 'asc' | 'desc'
 
+const TABLE_MIN_WIDTH = 1120
+const ROW_ESTIMATE = 60
+
+const COLUMN_CLASS_NAMES = {
+  pageKey: 'w-28 shrink-0',
+  editionDetails: 'min-w-64 flex-[1.15]',
+  featureName: 'min-w-56 flex-[0.95]',
+  featureDescription: 'min-w-72 flex-[1.25]',
+  featureRevision: 'w-32 shrink-0',
+  value: 'min-w-72 flex-[1.05]',
+} as const
+
 const normalizeText = (value: string | null | undefined) => value?.trim() || ''
 
 const normalizeSearchValue = (value: string | null | undefined) =>
@@ -64,8 +77,9 @@ export function FeatureResultsTab() {
     useState<FeatureOption | null>(null)
   const [selectedEditionOption, setSelectedEditionOption] =
     useState<EditionOption | null>(null)
-  const [sortKey, setSortKey] = useState<SortKey>('pageKey')
+  const [sortKey, setSortKey] = useState<SortKey>('editionDetails')
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
+  const tableContainerRef = useRef<HTMLDivElement | null>(null)
 
   const featuresQuery = useDatasetFeaturesQuery(datasetId, !!datasetId)
   const featureResultsQuery = useQuery({
@@ -87,12 +101,9 @@ export function FeatureResultsTab() {
   const featureOptions = useMemo(
     () =>
       [...(featuresQuery.data ?? [])]
-        .filter((feature): feature is { id: string; name?: string | null } =>
-          Boolean(feature.id),
-        )
         .sort((left, right) =>
-          (left.name || left.id).localeCompare(
-            right.name || right.id,
+          (left.name || left.id!).localeCompare(
+            right.name || right.id!,
             undefined,
             {
               sensitivity: 'base',
@@ -100,9 +111,9 @@ export function FeatureResultsTab() {
           ),
         )
         .map((feature) => ({
-          value: feature.id,
-          label: feature.name || feature.id,
-          color: feature.color || '',
+          value: feature.id!,
+          label: feature.name || feature.id!,
+          color: feature.color!,
         })),
     [featuresQuery.data],
   )
@@ -297,6 +308,16 @@ export function FeatureResultsTab() {
     )
   }
 
+  // eslint-disable-next-line react-hooks/incompatible-library
+  const rowVirtualizer = useVirtualizer({
+    count: sortedRows.length,
+    getScrollElement: () => tableContainerRef.current,
+    estimateSize: () => ROW_ESTIMATE,
+    overscan: 10,
+  })
+
+  const virtualRows = rowVirtualizer.getVirtualItems()
+
   const error =
     featuresQuery.error instanceof Error
       ? featuresQuery.error.message
@@ -316,16 +337,16 @@ export function FeatureResultsTab() {
     editionsQuery.isLoading
 
   return (
-    <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] mx-auto">
+    <section className="flex-1 min-h-0 border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] mx-auto">
       <div className="px-3 py-2 border-b border-gray-200 bg-gray-50 flex items-center gap-3">
         <div className="text-sm font-semibold">Feature Results</div>
       </div>
 
-      <div className="flex-1 min-h-0 overflow-auto p-4 space-y-4">
-        <div className="flex items-center gap-4">
+      <div className="flex-1 min-h-0 flex flex-col overflow-hidden p-4 gap-4">
+        <div className="shrink-0 flex items-center gap-4">
           <SearchInput
             placeholder="Search feature results"
-            className="w-full max-w-[420px]"
+            className="w-full max-w-105"
             value={searchQuery}
             onChange={setSearchQuery}
           />
@@ -384,79 +405,120 @@ export function FeatureResultsTab() {
             No feature results match the current filters.
           </div>
         ) : (
-          <div className="overflow-auto rounded-lg border border-gray-200 bg-white">
-            <table className="min-w-full text-sm table-auto">
-              <thead className="bg-gray-50 text-xs text-gray-500">
-                <tr>
-                  <th className="w-28 px-4 py-3 text-left whitespace-nowrap">
-                    {renderSortHeader('Page/Key', 'pageKey')}
-                  </th>
-                  <th className="px-4 py-3 text-left whitespace-nowrap">
-                    {renderSortHeader('Edition Details', 'editionDetails')}
-                  </th>
-                  <th className="px-4 py-3 text-left whitespace-nowrap">
-                    {renderSortHeader('Feature Name', 'featureName')}
-                  </th>
-                  <th className="px-4 py-3 text-left whitespace-nowrap">
-                    {renderSortHeader(
-                      'Feature Description',
-                      'featureDescription',
-                    )}
-                  </th>
-                  <th className="w-32 px-4 py-3 text-left whitespace-nowrap">
-                    Feature Revision
-                  </th>
-                  <th className="px-4 py-3 text-left whitespace-nowrap">
-                    Value
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {sortedRows.map((row, index) => (
-                  <tr
-                    key={`${row.result.id || row.result.feature_id || 'feature-result'}-${row.result.page_key || ''}-${index}`}
-                    className="hover:bg-gray-50 align-top"
-                  >
-                    <td className="w-28 px-4 py-3 text-gray-700 font-mono">
+          <div
+            ref={tableContainerRef}
+            className="flex-1 min-h-0 overflow-y-auto overflow-x-clip rounded-lg border border-gray-200 bg-white"
+          >
+            <div className="h-full" style={{ minWidth: TABLE_MIN_WIDTH }}>
+              <div className="sticky top-0 z-10 flex border-b border-gray-200 bg-gray-50 text-xs text-gray-500 shadow-[0_1px_0_0_rgba(229,231,235,1)]">
+                <div
+                  className={`${COLUMN_CLASS_NAMES.pageKey} px-4 py-3 text-left whitespace-nowrap`}
+                >
+                  {renderSortHeader('Page/Key', 'pageKey')}
+                </div>
+                <div
+                  className={`${COLUMN_CLASS_NAMES.editionDetails} px-4 py-3 text-left whitespace-nowrap`}
+                >
+                  {renderSortHeader('Edition Details', 'editionDetails')}
+                </div>
+                <div
+                  className={`${COLUMN_CLASS_NAMES.featureName} px-4 py-3 text-left whitespace-nowrap`}
+                >
+                  {renderSortHeader('Feature Name', 'featureName')}
+                </div>
+                <div
+                  className={`${COLUMN_CLASS_NAMES.featureDescription} px-4 py-3 text-left whitespace-nowrap`}
+                >
+                  {renderSortHeader(
+                    'Feature Description',
+                    'featureDescription',
+                  )}
+                </div>
+                <div
+                  className={`${COLUMN_CLASS_NAMES.featureRevision} px-4 py-3 text-left whitespace-nowrap`}
+                >
+                  Feature Revision
+                </div>
+                <div
+                  className={`${COLUMN_CLASS_NAMES.value} px-4 py-3 text-left whitespace-nowrap`}
+                >
+                  Value
+                </div>
+              </div>
+
+              <div
+                className="relative"
+                style={{ height: rowVirtualizer.getTotalSize() }}
+              >
+                {virtualRows.map((virtualRow) => {
+                  const row = sortedRows[virtualRow.index]
+                  return (
+                    <div
+                      key={`${row.result.id || row.result.feature_id || 'feature-result'}-${row.result.page_key || ''}-${virtualRow.index}`}
+                      ref={rowVirtualizer.measureElement}
+                      data-index={virtualRow.index}
+                      className="absolute left-0 top-0 flex w-full border-b border-gray-200 bg-white text-sm hover:bg-gray-50"
+                      style={{
+                        transform: `translateY(${virtualRow.start}px)`,
+                      }}
+                    >
                       <div
-                        className="max-w-28 truncate whitespace-nowrap"
-                        title={row.result.page_key || '-'}
+                        className={`${COLUMN_CLASS_NAMES.pageKey} flex items-start px-4 py-3 text-xs text-gray-700 font-mono`}
                       >
-                        {row.result.page_key || '-'}
+                        <div
+                          className="max-w-28 truncate whitespace-nowrap"
+                          title={row.result.page_key || '-'}
+                        >
+                          {row.result.page_key || '-'}
+                        </div>
                       </div>
-                    </td>
-                    <td className="px-4 py-3 text-gray-700 min-w-64">
-                      {row.editionDetails || '-'}
-                    </td>
-                    <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
-                      <div className="flex items-center gap-2">
-                        <span
-                          className="inline-block h-2.5 w-2.5 shrink-0 rounded-full border border-gray-300"
-                          style={{
-                            backgroundColor: row.featureColor || '#d1d5db',
-                          }}
-                        />
-                        <span>{row.featureName || row.result.name || '-'}</span>
-                      </div>
-                    </td>
-                    <td className="px-4 py-3 text-gray-700 min-w-64">
-                      {row.featureDescription || row.result.description || '-'}
-                    </td>
-                    <td className="w-32 px-4 py-3 text-gray-700 font-mono">
                       <div
-                        className="max-w-32 truncate whitespace-nowrap"
-                        title={row.featureRevision || '-'}
+                        className={`${COLUMN_CLASS_NAMES.editionDetails} flex items-start px-4 py-3 text-gray-700 leading-5`}
                       >
-                        {row.featureRevision || '-'}
+                        {row.editionDetails || '-'}
                       </div>
-                    </td>
-                    <td className="px-4 py-3 text-gray-700 min-w-64">
-                      {row.value || '-'}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+                      <div
+                        className={`${COLUMN_CLASS_NAMES.featureName} flex items-start px-4 py-3 text-gray-700`}
+                      >
+                        <div className="flex items-center gap-2 whitespace-nowrap leading-5">
+                          <span
+                            className="inline-block h-2.5 w-2.5 shrink-0 rounded-full border border-gray-300"
+                            style={{
+                              backgroundColor: row.featureColor || '#d1d5db',
+                            }}
+                          />
+                          <span>
+                            {row.featureName || row.result.name || '-'}
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        className={`${COLUMN_CLASS_NAMES.featureDescription} flex items-start px-4 py-3 text-gray-700 leading-5`}
+                      >
+                        {row.featureDescription ||
+                          row.result.description ||
+                          '-'}
+                      </div>
+                      <div
+                        className={`${COLUMN_CLASS_NAMES.featureRevision} flex items-start px-4 py-3 text-xs text-gray-700 font-mono`}
+                      >
+                        <div
+                          className="max-w-32 truncate whitespace-nowrap"
+                          title={row.featureRevision || '-'}
+                        >
+                          {row.featureRevision || '-'}
+                        </div>
+                      </div>
+                      <div
+                        className={`${COLUMN_CLASS_NAMES.value} flex items-start px-4 py-3 text-gray-700 leading-5`}
+                      >
+                        {row.value || '-'}
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
           </div>
         )}
       </div>
