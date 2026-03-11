@@ -179,10 +179,12 @@ export function FeatureExecutionsTab() {
     selectedFeatureIds,
     selectedKeys,
     skipIf,
+    pushToOrigin,
   }: {
     selectedFeatureIds: string[]
     selectedKeys: string[]
     skipIf: feature_ExecutionSkipIf[]
+    pushToOrigin: boolean
   }) => {
     setActionError(null)
     const featureById = new Map(
@@ -216,7 +218,13 @@ export function FeatureExecutionsTab() {
       annotation_id: annotationId,
       apply,
       keys: selectedKeys,
-      policy: skipIf.length ? { skip_if: skipIf } : undefined,
+      policy:
+        skipIf.length || pushToOrigin
+          ? {
+              skip_if: skipIf.length ? skipIf : undefined,
+              push_to_origin: pushToOrigin,
+            }
+          : undefined,
     }
 
     try {
