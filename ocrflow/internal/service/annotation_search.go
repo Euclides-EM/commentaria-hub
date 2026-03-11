@@ -146,7 +146,7 @@ func (s *AnnotationSearch) searchAnnotationContents(as *annotation.Search, ann *
 		}
 	}
 
-	results, err := s.resultSvc.ListResults(as.DatasetID, ann.ID, keys, nil)
+	results, err := s.resultSvc.ListResults(as.DatasetID, ann.ID, keys, nil, true)
 	if err != nil {
 		return err
 	}
@@ -202,7 +202,7 @@ func (s *AnnotationSearch) listAnnotationKeys(as *annotation.Search, ann *annota
 		}
 	}
 
-	results, err := s.resultSvc.ListResults(as.DatasetID, ann.ID, nil, nil)
+	results, err := s.resultSvc.ListResults(as.DatasetID, ann.ID, nil, nil, true)
 	if err != nil {
 		return nil, err
 	}
