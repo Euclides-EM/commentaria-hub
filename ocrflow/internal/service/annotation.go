@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"path"
 	"slices"
@@ -10,6 +11,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
@@ -99,9 +101,9 @@ func (a *Annotation) Create(datasetID string, ann *annotation.Annotation, copyFe
 	}
 
 	for _, p := range pages {
-		if datasetID == "tps" {
+		if datasetID == titlepage.DatasetID {
 			if _, err := a.datasetImgSvc.GetImageMetadata(datasetID, p); err != nil {
-				return nil, fmt.Errorf("failed to get image metadata for page %s: %w", p, err)
+				log.Printf("[WARN] failed to fetch image metadata for dataset %s: %v", datasetID, err)
 			}
 		} else {
 			filename := pagesparser.PageOrKeyToPNGFilename(p)
@@ -375,6 +377,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *annotati
 	fromDB.GroundTruth = ann.GroundTruth
 	fromDB.Hidden = ann.Hidden
 	fromDB.OriginAnnotationID = ann.OriginAnnotationID
+	fromDB.Pages = ann.Pages
 
 	if err := a.annotationStore.UpdateAnnotation(fromDB); err != nil {
 		return nil, fmt.Errorf("failed to update annotation in store: %w", err)

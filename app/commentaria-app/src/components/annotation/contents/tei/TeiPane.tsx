@@ -1,14 +1,14 @@
 import {
-  getTeiZoneToServerTextBlockId,
-  getTeiOriginalEditableLines,
   getTeiHighlightCategories,
+  getTeiOriginalEditableLines,
   getTeiParagraphSelection,
   getTeiSurfaceZones,
   getTeiTranslations,
+  getTeiZoneToServerTextBlockId,
   hasTeiCertaintyDegrees,
   type TeiHighlightConfig,
-  type TeiOriginalEditableLine,
   type TeiManualHighlight,
+  type TeiOriginalEditableLine,
   type TeiSurfaceZone,
   teiToHtml,
   type TeiTranslation,
@@ -30,8 +30,8 @@ import { selectStyles } from '../../../../styles/selectStyles.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import { createPortal } from 'react-dom'
 import {
-  AnnotationsApplyRulesService,
   type annotationrule_TextBlockCorrections,
+  AnnotationsApplyRulesService,
   type feature_Feature,
   type feature_Result,
   type feature_ResultValue,
@@ -1434,8 +1434,7 @@ export function TeiPane({
         (highlight) => highlight.featureId === item.featureId,
       )
       if (fallbackIndex >= 0) {
-        const next = previous.filter((_, index) => index !== fallbackIndex)
-        return next
+        return previous.filter((_, index) => index !== fallbackIndex)
       }
 
       return previous
