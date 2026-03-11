@@ -1835,15 +1835,68 @@ function applyHighlights(
   searchResultHighlight: string | null,
 ): string {
   const highlights = searchResultHighlight
-    ? [...searchResultHighlight.matchAll(/<em>(.*?)<\/em>/g)].map(
-        (match) => match[1],
-      )
+    ? (() => {
+        const container = document.createElement('div')
+        container.innerHTML = searchResultHighlight
+        return [
+          ...new Set(
+            [...container.querySelectorAll('em')]
+              .map((element) => element.textContent?.trim() || '')
+              .filter(Boolean),
+          ),
+        ].sort((left, right) => right.length - left.length)
+      })()
     : []
-  let out = html
-  for (const highlight of highlights) {
-    out = out.replaceAll(highlight, `<em>${highlight}</em>`)
+
+  if (highlights.length === 0) {
+    return html
   }
-  return out
+
+  const root = document.createElement('div')
+  root.innerHTML = html
+  const escapedHighlights = highlights.map((highlight) =>
+    highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
+  )
+  const highlightPattern = new RegExp(`(${escapedHighlights.join('|')})`, 'g')
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
+  const textNodes: Text[] = []
+
+  let currentNode = walker.nextNode()
+  while (currentNode) {
+    if (
+      currentNode instanceof Text &&
+      currentNode.parentElement?.closest('em') == null &&
+      highlights.some((highlight) =>
+        currentNode.textContent?.includes(highlight),
+      )
+    ) {
+      textNodes.push(currentNode)
+    }
+    currentNode = walker.nextNode()
+  }
+
+  for (const textNode of textNodes) {
+    const text = textNode.textContent || ''
+    const parts = text.split(highlightPattern)
+    if (parts.length <= 1) {
+      continue
+    }
+
+    const fragment = document.createDocumentFragment()
+    for (const part of parts) {
+      if (!part) continue
+      if (highlights.includes(part)) {
+        const highlight = document.createElement('em')
+        highlight.textContent = part
+        fragment.appendChild(highlight)
+      } else {
+        fragment.appendChild(document.createTextNode(part))
+      }
+    }
+    textNode.replaceWith(fragment)
+  }
+
+  return root.innerHTML
 }
 
 export const teiToHtml = (
