@@ -1,7 +1,9 @@
 import { type ReactNode, useEffect, useMemo, useState } from 'react'
+import { useQueryClient } from '@tanstack/react-query'
 import { useAppState } from '../../../context/useAppState.ts'
 import {
   type annotation_Annotation,
+  type annotation_Reference,
   AnnotationsService,
   ApiError,
 } from '@hub-api'
@@ -35,6 +37,7 @@ import {
   useEditionTranscriptionsQuery,
   useUpdateEditionTranscriptionMutation,
 } from '../../../queries/transcriptions.ts'
+import { MergeAnnotationsModal } from './MergeAnnotationsModal.tsx'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
@@ -410,6 +413,7 @@ const AnnotationDetailsContent = ({
 
 export function AnnotationDetailsPane() {
   const { annotation, refetch, setState } = useAppState()
+  const queryClient = useQueryClient()
   const [isEditing, setIsEditing] = useState(false)
   const [editedName, setEditedName] = useState('')
   const [editedDescription, setEditedDescription] = useState('')
@@ -424,6 +428,8 @@ export function AnnotationDetailsPane() {
   const [isDeleting, setIsDeleting] = useState(false)
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [isDuplicateOpen, setIsDuplicateOpen] = useState(false)
+  const [isMergeOpen, setIsMergeOpen] = useState(false)
+  const [isMerging, setIsMerging] = useState(false)
   const { data: runningJobs } = useRunningIntegrationJobsQuery()
   const shouldLoadImageKeys =
     !!annotation &&
@@ -601,6 +607,36 @@ export function AnnotationDetailsPane() {
     }
   }
 
+  const handleMergeConfirm = async (
+    annotationsToMerge: annotation_Reference[],
+  ) => {
+    if (!annotation?.id || !annotation.dataset_id) {
+      return
+    }
+
+    try {
+      setError(null)
+      setIsMerging(true)
+      await AnnotationsService.putDatasetsAnnotationsMerge({
+        dataSetId: annotation.dataset_id,
+        id: annotation.id,
+        mergeRequest: {
+          annotations_to_merge: annotationsToMerge,
+        },
+      })
+      setIsMergeOpen(false)
+      await queryClient.invalidateQueries({
+        queryKey: ['annotations'],
+      })
+      refetch()
+    } catch (e) {
+      console.error('Failed to merge annotations:', e)
+      setError(e instanceof ApiError ? e.body : String(e))
+    } finally {
+      setIsMerging(false)
+    }
+  }
+
   return (
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 bg-white m-3 mb-0">
       <div className="px-2.5 py-2 border-b border-gray-200 text-sm font-semibold bg-gray-50 flex items-center justify-between gap-2.5">
@@ -630,6 +666,15 @@ export function AnnotationDetailsPane() {
                   className="px-2 py-1 text-xs"
                 >
                   Duplicate
+                </Button>
+                <Button
+                  onClick={() => {
+                    setError(null)
+                    setIsMergeOpen(true)
+                  }}
+                  className="px-2 py-1 text-xs"
+                >
+                  Merge into
                 </Button>
                 <Button
                   onClick={() => setIsExportOpen(true)}
@@ -715,6 +760,16 @@ export function AnnotationDetailsPane() {
             setState({ annotationId })
             refetch()
           }}
+        />
+      )}
+      {annotation && (
+        <MergeAnnotationsModal
+          isOpen={isMergeOpen}
+          currentAnnotation={annotation}
+          isMerging={isMerging}
+          error={error}
+          onClose={() => setIsMergeOpen(false)}
+          onConfirm={handleMergeConfirm}
         />
       )}
     </section>
