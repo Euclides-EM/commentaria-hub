@@ -249,7 +249,7 @@ export function FeatureExecutionsTab() {
   const creatingExecution = createExecutionMutation.isPending
 
   return (
-    <section className="border border-gray-300 rounded flex flex-col bg-white mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
+    <section className="border border-gray-300 rounded-xl flex flex-col bg-white mb-0 w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto">
       <div className="px-3 py-2 rounded-t-xl border-b border-gray-200 bg-gray-50 flex items-center justify-between gap-3">
         <div className="text-sm font-semibold">Feature Executions</div>
         <div className="flex items-center gap-2">
