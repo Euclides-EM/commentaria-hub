@@ -376,6 +376,7 @@ func (a *Annotation) Update(datasetID string, annotationID string, ann *annotati
 	fromDB.GroundTruth = ann.GroundTruth
 	fromDB.Hidden = ann.Hidden
 	fromDB.OriginAnnotationID = ann.OriginAnnotationID
+	fromDB.Pages = ann.Pages
 
 	if err := a.annotationStore.UpdateAnnotation(fromDB); err != nil {
 		return nil, fmt.Errorf("failed to update annotation in store: %w", err)
