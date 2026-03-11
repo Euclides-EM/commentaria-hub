@@ -41,6 +41,7 @@ const EXECUTION_SKIP_IF_LABELS: Record<feature_ExecutionSkipIf, string> = {
   human_reviewed: 'Human reviewed',
 }
 
+
 const formatDate = (value?: string) => {
   if (!value) return 'Unknown'
   const parsed = new Date(value)
@@ -51,7 +52,7 @@ const formatDate = (value?: string) => {
 export function FeatureExecutionsTab() {
   const queryClient = useQueryClient()
   const { state } = useAppState()
-  const datasetId = state.datasetId
+  const { datasetId, annotationId } = state
   const isAuthenticated = !!useAuthStore((store) => store.token)
 
   const [actionError, setActionError] = useState<string | null>(null)
@@ -84,12 +85,20 @@ export function FeatureExecutionsTab() {
     queryKey: executionsQueryKey,
     queryFn: () =>
       ExecutionsService.getFeaturesExecutions({ dataset: datasetId }),
+    refetchInterval: 5 * 1000,
     refetchOnWindowFocus: false,
   })
 
   const editionsQuery = useQuery({
     queryKey: editionsQueryKey,
-    queryFn: async () => mapEditionsToItems(await listAllEditions()),
+    queryFn: async () => {
+      const editions = await listAllEditions()
+      const map = new Map<string, model_Edition>()
+      for (const item of editions) {
+        map.set(item.key!, item)
+      }
+      return map
+    },
     refetchOnWindowFocus: false,
   })
 
@@ -118,37 +127,6 @@ export function FeatureExecutionsTab() {
       ),
     [featuresQuery.data],
   )
-
-  const uniqueEditionItems = useMemo(
-    () =>
-      Array.from(
-        new Map(
-          (editionsQuery.data ?? []).map((item) => [item.key, item]),
-        ).values(),
-      ),
-    [editionsQuery.data],
-  )
-
-  const corpusEditionItems = useMemo(
-    () =>
-      uniqueEditionItems.filter((item) =>
-        item.studyCorpora.includes(STUDY_CORPORA_FILTER),
-      ),
-    [uniqueEditionItems],
-  )
-  const selectableEditionItems = useMemo(
-    () =>
-      corpusEditionItems.length > 0 ? corpusEditionItems : uniqueEditionItems,
-    [corpusEditionItems, uniqueEditionItems],
-  )
-
-  const editionItemByKey = useMemo(() => {
-    const map = new Map<string, EditionItem>()
-    for (const item of uniqueEditionItems) {
-      map.set(item.key, item)
-    }
-    return map
-  }, [uniqueEditionItems])
 
   const featureInfoById = useMemo(() => {
     const map: Record<string, { name: string; color?: string }> = {}
@@ -239,6 +217,7 @@ export function FeatureExecutionsTab() {
 
     const executionPayload: feature_Execution = {
       dataset_id: datasetId,
+      annotation_id: annotationId,
       apply,
       keys: selectedKeys,
       policy: skipIf.length ? { skip_if: skipIf } : undefined,
@@ -280,15 +259,6 @@ export function FeatureExecutionsTab() {
               Execute
             </Button>
           )}
-          <Button
-            type="button"
-            variant="regular"
-            className="px-2 py-1 text-xs"
-            onClick={() => void executionsQuery.refetch()}
-            disabled={executionsLoading}
-          >
-            {executionsLoading ? 'Refreshing...' : 'Refresh'}
-          </Button>
         </div>
       </div>
 
@@ -401,7 +371,7 @@ export function FeatureExecutionsTab() {
                     {showExecutionEditions && (
                       <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
                         {executionKeys.map((editionKey) => {
-                          const item = editionItemByKey.get(editionKey)
+                          const item = editionsQuery.data?.get(editionKey)
                           return (
                             <div
                               key={editionKey}
@@ -457,7 +427,7 @@ export function FeatureExecutionsTab() {
         onClose={() => setIsCreateModalOpen(false)}
         onSubmit={handleCreateExecution}
         features={sortedFeatures}
-        editionItems={selectableEditionItems}
+        editionItems={Array.from(editionsQuery.data?.values() || [])}
         skipIfOptions={EXECUTION_SKIP_IF_OPTIONS}
         skipIfLabels={EXECUTION_SKIP_IF_LABELS}
         loadingFeatures={featuresQuery.isLoading}

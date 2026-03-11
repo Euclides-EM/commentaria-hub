@@ -82,16 +82,25 @@ export const mapEditionsToItems = (editions: model_Edition[]): EditionItem[] =>
         left.key.localeCompare(right.key),
     )
 
-export const listAllEditions = async (
-  query?: Omit<search_Query, 'offset' | 'limit'>,
-): Promise<model_Edition[]> => {
+export const listAllEditions = async (): Promise<model_Edition[]> => {
   const limit = 500
   let offset = 0
   const results: model_Edition[] = []
 
   while (true) {
     const page = await EditionsService.postEditionsSearch({
-      edition: { ...query, offset, limit },
+      edition: {
+        offset,
+        limit,
+        filter_includes: {
+          titlePageStatus: false,
+        },
+        fields_filter: {
+          isManuscript: ['false'],
+          titlePageStatus: ['No', 'Unknown'],
+        },
+        order_by: [{ field: 'year' }, { field: 'cities' }],
+      },
     })
     const items = page.items || []
     results.push(...items)

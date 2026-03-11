@@ -1,18 +1,13 @@
 import { type FormEvent, useMemo, useState } from 'react'
-import type { feature_ExecutionSkipIf, feature_Feature } from '@hub-api'
+import type {
+  feature_ExecutionSkipIf,
+  feature_Feature,
+  model_Edition,
+} from '@hub-api'
 import { Button } from '../../core/Button.tsx'
 import { SearchInput } from '../../core/SearchInput.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
-
-interface EditionItem {
-  key: string
-  year: string | null
-  authors: string[]
-  cities: string[]
-  shortTitle: string | null
-  title: string | null
-}
 
 interface CreateFeatureExecutionModalProps {
   isOpen: boolean
@@ -23,7 +18,7 @@ interface CreateFeatureExecutionModalProps {
     skipIf: feature_ExecutionSkipIf[]
   }) => Promise<void>
   features: feature_Feature[]
-  editionItems: EditionItem[]
+  editionItems: model_Edition[]
   skipIfOptions: feature_ExecutionSkipIf[]
   skipIfLabels: Record<feature_ExecutionSkipIf, string>
   loadingFeatures: boolean
@@ -43,6 +38,11 @@ const sortByNewestRevision = (feature: feature_Feature) => {
   })
   return revisions[0]
 }
+
+const splitSearchQuery = (query: string) =>
+  Array.from(query.toLowerCase().matchAll(/"([^"]+)"|(\S+)/g))
+    .map((match) => match[1] ?? match[2] ?? '')
+    .filter(Boolean)
 
 export function CreateFeatureExecutionModal({
   isOpen,
@@ -107,20 +107,23 @@ function OpenCreateFeatureExecutionModal({
   }, [featureSearch, features])
 
   const filteredEditionItems = useMemo(() => {
-    const query = editionSearch.trim().toLowerCase()
-    if (!query) return editionItems
+    const queryParts = splitSearchQuery(editionSearch.trim())
+    if (queryParts.length === 0) {
+      return editionItems
+    }
     return editionItems.filter((item) => {
       const haystack = [
+        item.key,
         item.year,
-        item.authors.join(', '),
-        item.cities.join(', '),
+        item.editor?.join(', '),
+        item.cities?.join(', '),
         item.shortTitle,
         item.title,
       ]
         .filter(Boolean)
         .join(' ')
         .toLowerCase()
-      return haystack.includes(query)
+      return queryParts.every((queryPart) => haystack.includes(queryPart))
     })
   }, [editionItems, editionSearch])
 
@@ -274,7 +277,7 @@ function OpenCreateFeatureExecutionModal({
                   className="px-2 py-1 text-xs shrink-0"
                   onClick={() =>
                     setSelectedKeys(
-                      new Set(filteredEditionItems.map((item) => item.key)),
+                      new Set(filteredEditionItems.map((item) => item.key!)),
                     )
                   }
                   disabled={loadingEditions}
@@ -307,8 +310,8 @@ function OpenCreateFeatureExecutionModal({
                     >
                       <input
                         type="checkbox"
-                        checked={selectedKeys.has(item.key)}
-                        onChange={() => toggleEditionSelection(item.key)}
+                        checked={selectedKeys.has(item.key!)}
+                        onChange={() => toggleEditionSelection(item.key!)}
                       />
                       <span>{formatEditionLabel(item)}</span>
                     </label>
