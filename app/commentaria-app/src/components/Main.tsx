@@ -126,7 +126,7 @@ export function Main() {
         )}
       </div>
       <div
-        className={`flex-1 min-h-0 ${activeTab === 'featureResults' ? 'flex overflow-hidden m-3' : 'overflow-auto'}`}
+        className={`flex-1 min-h-0 m-3 ${activeTab === 'featureResults' ? 'flex overflow-hidden' : 'overflow-auto'}`}
       >
         {activeTab === 'details' && <AnnotationDetailsTab />}
         {activeTab === 'text' && <AnnotationContentsTab />}
