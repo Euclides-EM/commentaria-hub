@@ -22,7 +22,7 @@ const (
 
 var retryAfterMessagePattern = regexp.MustCompile(`Please try again in ([0-9hms.]+)`)
 
-func executeWithRateLimitRetries(ctx context.Context, model string, call func() error) (uint, error) {
+func executeWithRetries(ctx context.Context, model string, call func() error) (uint, error) {
 	var attempts uint
 	err := retry.Do(
 		func() error {
@@ -33,27 +33,32 @@ func executeWithRateLimitRetries(ctx context.Context, model string, call func() 
 		retry.Attempts(maxRateLimitRetries+1),
 		retry.LastErrorOnly(true),
 		retry.DelayType(func(n uint, err error, _ *retry.Config) time.Duration {
-			delay, _ := rateLimitRetryDelay(err, n+1)
+			delay, _ := retryDelay(err, n+1)
 			if delay <= 0 {
 				return baseRetryDelay
 			}
 			return delay
 		}),
 		retry.RetryIf(func(err error) bool {
-			_, shouldRetry := rateLimitRetryDelay(err, attempts)
+			_, shouldRetry := retryDelay(err, attempts)
 			return shouldRetry
 		}),
 		retry.OnRetry(func(n uint, err error) {
-			delay, _ := rateLimitRetryDelay(err, n+1)
-			log.Printf("debug: llm exec rate limit model=%s attempt=%d retry_in=%s", model, n+1, delay)
+			delay, _ := retryDelay(err, n+1)
+			log.Printf("debug: llm exec retry model=%s attempt=%d retry_in=%s", model, n+1, delay)
 		}),
 	)
 	return attempts, err
 }
 
-func rateLimitRetryDelay(err error, attempt uint) (time.Duration, bool) {
+func retryDelay(err error, attempt uint) (time.Duration, bool) {
 	var apiErr *openai.Error
-	if !errors.As(err, &apiErr) || apiErr.StatusCode != http.StatusTooManyRequests {
+	if !errors.As(err, &apiErr) {
+		return 0, false
+	}
+
+	statusCode := apiErr.StatusCode
+	if statusCode != http.StatusTooManyRequests && (statusCode < http.StatusInternalServerError || statusCode > http.StatusNetworkAuthenticationRequired) {
 		return 0, false
 	}
 

@@ -2,6 +2,7 @@ package service
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"log"
 	"slices"
@@ -19,6 +20,8 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
 	"github.com/samber/lo"
 )
+
+const featureExecutionWorkerCount = 8
 
 type Execution struct {
 	featureRevisionsSvc *Revision
@@ -83,20 +86,6 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 
 	var applyFuncs []func() ([]*feature.Result, error)
 	for _, key := range exec.Keys {
-		textLanguages, err := fe.languageResolver.Resolve(exec.DatasetID, key)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get text language for key %s: %w", key, err)
-		}
-		textLanguage := strings.Join(textLanguages, " and ")
-		fullText, err := fe.annotationTEISvc.GetTxt(exec.DatasetID, exec.AnnotationID, key)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.AnnotationID, key, err)
-		}
-		fullText = strings.TrimSpace(fullText)
-		if fullText == "" {
-			return nil, fmt.Errorf("full text is empty for annotation %s and key %s", exec.AnnotationID, key)
-		}
-
 		var promptRevisions []*feature.Revision
 		var promptFeatures []*feature.Feature
 		var categorizerRevisions []*feature.Revision
@@ -111,7 +100,11 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			if err != nil {
 				return nil, fmt.Errorf("failed to get feature revision for feature %s and revision %s: %w", item.Feature, item.Revision, err)
 			}
-			if skipState.ShouldSkip(exec.Policy, key, item.Feature, item.Revision) {
+			skipReasons := skipState.SkipReasons(exec.Policy, key, item.Feature, item.Revision)
+			if len(skipReasons) > 0 {
+				log.Printf("skipping execution %s key %s feature %s revision %s due to skip policy: %s", exec.ID, key, item.Feature, item.Revision, strings.Join(lo.Map(skipReasons, func(reason feature.ExecutionSkipIf, _ int) string {
+					return string(reason)
+				}), ", "))
 				continue
 			}
 			if fr.Categorizer != "" {
@@ -124,24 +117,43 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 				return nil, fmt.Errorf("feature revision for feature %s and revision %s does not have a valid execution strategy", item.Feature, item.Revision)
 			}
 		}
+		if len(categorizerRevisions) == 0 && len(promptRevisions) == 0 {
+			log.Printf("skipping execution %s key %s because all actions were skipped by policy", exec.ID, key)
+			continue
+		}
+
+		textLanguages, err := fe.languageResolver.Resolve(exec.DatasetID, key)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get text language for key %s: %w", key, err)
+		}
+		textLanguage := strings.Join(textLanguages, " and ")
+		fullText, err := fe.annotationTEISvc.GetTxt(exec.DatasetID, exec.AnnotationID, key)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.AnnotationID, key, err)
+		}
+		fullText = strings.TrimSpace(fullText)
+		if fullText == "" {
+			return nil, fmt.Errorf("full text is empty for annotation %s and key %s", exec.AnnotationID, key)
+		}
 
 		applyFuncs = append(applyFuncs, func() ([]*feature.Result, error) {
 			results := make([]*feature.Result, 0)
+			var execErrs []error
 			if len(categorizerRevisions) > 0 {
 				categorizerResults, err := fe.execCategorizer(ann, key, categorizerRevisions, categorizerFeatures, exec.ID, fullText)()
 				if err != nil {
-					return nil, err
+					execErrs = append(execErrs, err)
 				}
 				results = append(results, categorizerResults...)
 			}
 			if len(promptRevisions) > 0 {
 				promptResults, err := fe.execPrompt(ann, key, promptRevisions, promptFeatures, exec.ID, textLanguage, fullText)()
 				if err != nil {
-					return nil, err
+					execErrs = append(execErrs, err)
 				}
 				results = append(results, promptResults...)
 			}
-			return results, nil
+			return results, errors.Join(execErrs...)
 		})
 	}
 
@@ -154,47 +166,60 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 		var wg sync.WaitGroup
 		resultBatches := make([][]*feature.Result, len(funcs))
 		errors := make([]error, len(funcs))
-
-		for i, fn := range funcs {
-			wg.Add(1)
-			go func(i int) {
-				defer wg.Done()
-				result, err := fn()
-				resultBatches[i] = result
-				errors[i] = err
-			}(i)
+		type executionJob struct {
+			index int
+			fn    func() ([]*feature.Result, error)
 		}
+		jobs := make(chan executionJob)
+
+		workerCount := min(featureExecutionWorkerCount, len(funcs))
+		for range workerCount {
+			wg.Add(1)
+			go func() {
+				defer wg.Done()
+				for job := range jobs {
+					result, err := job.fn()
+					resultBatches[job.index] = result
+					errors[job.index] = err
+				}
+			}()
+		}
+		for i, fn := range funcs {
+			jobs <- executionJob{index: i, fn: fn}
+		}
+		close(jobs)
 
 		wg.Wait()
 
-		// Check for errors and update execution status accordingly
 		hasError := false
 		for _, err := range errors {
 			if err != nil {
 				log.Printf("error in execution %s: %v\n", executionID, err)
 				hasError = true
-				break
 			}
-		}
-
-		if hasError {
-			if err := fe.store.UpdateStatus(executionID, feature.ExecutionStatusFailed, "error in execution, check logs"); err != nil {
-				log.Printf("failed to update execution status for execution %s: %v\n", executionID, err)
-			}
-			return
 		}
 
 		newStatus := feature.ExecutionStatusSuccess
+		statusReason := ""
 		var results []*feature.Result
 		for _, batch := range resultBatches {
 			results = append(results, batch...)
 		}
-		err = fe.featureResultsSvc.CreateResults(results, lo.IfF(exec.Policy != nil, func() bool { return exec.Policy.PushToOrigin }).Else(false))
-		if err != nil {
-			log.Printf("failed to create result for execution %s: %v\n", executionID, err)
-			newStatus = feature.ExecutionStatusFailed
+		if len(results) > 0 {
+			err = fe.featureResultsSvc.CreateResults(results, lo.IfF(exec.Policy != nil, func() bool { return exec.Policy.PushToOrigin }).Else(false))
+			if err != nil {
+				log.Printf("failed to create result for execution %s: %v\n", executionID, err)
+				newStatus = feature.ExecutionStatusFailed
+				statusReason = "failed to store execution results"
+			}
 		}
-		if err := fe.store.UpdateStatus(executionID, newStatus, "failed to store execution results"); err != nil {
+		if hasError {
+			newStatus = feature.ExecutionStatusFailed
+			if statusReason == "" {
+				statusReason = "one or more actions failed, check logs"
+			}
+		}
+		if err := fe.store.UpdateStatus(executionID, newStatus, statusReason); err != nil {
 			log.Printf("failed to update execution status for execution %s: %v\n", executionID, err)
 		}
 
@@ -374,10 +399,12 @@ func (fe *Execution) execCategorizer(ann *annotation.Annotation, key string, rev
 			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
 		}
 		results := make([]*feature.Result, 0)
+		var execErrs []error
 		for i, rev := range revisions {
 			vals, err := fe.featurePropertySvc.CalcValsByPropertyKey(text, rev.Categorizer)
 			if err != nil {
-				return nil, fmt.Errorf("failed to calculate feature property for dataset %s and key %s: %w", ann.DatasetID, key, err)
+				execErrs = append(execErrs, fmt.Errorf("failed to calculate feature property for dataset %s and key %s: %w", ann.DatasetID, key, err))
+				continue
 			}
 			source := feature.ResultSource{
 				Resp:     "auto",
@@ -402,6 +429,6 @@ func (fe *Execution) execCategorizer(ann *annotation.Annotation, key string, rev
 			}
 			results = append(results, res)
 		}
-		return results, nil
+		return results, errors.Join(execErrs...)
 	}
 }
