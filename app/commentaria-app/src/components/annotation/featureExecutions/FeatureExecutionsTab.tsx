@@ -244,8 +244,7 @@ export function FeatureExecutionsTab() {
     }))
   }
 
-  const executionsLoading =
-    executionsQuery.isLoading || executionsQuery.isFetching
+  const executionsLoading = executionsQuery.isLoading
   const creatingExecution = createExecutionMutation.isPending
 
   return (
@@ -435,7 +434,7 @@ export function FeatureExecutionsTab() {
         skipIfOptions={EXECUTION_SKIP_IF_OPTIONS}
         skipIfLabels={EXECUTION_SKIP_IF_LABELS}
         loadingFeatures={featuresQuery.isLoading}
-        loadingEditions={editionsQuery.isLoading || editionsQuery.isFetching}
+        loadingEditions={editionsQuery.isLoading}
         isSubmitting={creatingExecution}
         errorMessage={executionsError}
       />
