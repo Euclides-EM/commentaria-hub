@@ -175,7 +175,7 @@ const AnnotationDetailsContent = ({
         <div className="font-semibold text-xs opacity-80 pt-0.5">
           {hasPages ? 'Pages' : 'Keys'}
         </div>
-        <div className="text-sm leading-tight break-all">
+        <div className="text-sm leading-tight break-words">
           {hasPages
             ? (annotation.pages || '').replace(/,\s*/g, ', ')
             : imageKeysLoading
