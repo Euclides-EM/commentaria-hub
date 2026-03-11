@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { AnnotationDetailsTab } from './annotation/details/AnnotationDetailsTab.tsx'
 import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsTab.tsx'
+import { FeatureResultsTab } from './annotation/featureResults/FeatureResultsTab.tsx'
 import { FeatureExecutionsTab } from './annotation/featureExecutions/FeatureExecutionsTab.tsx'
 import { useAppState } from '../context/useAppState'
 import useLocalStorageState from 'use-local-storage-state'
@@ -16,7 +17,7 @@ import { useAuthStore } from '../store/authStore.ts'
 import { TabButton } from './core/TabButton.tsx'
 import { AnnotationsTable } from './annotations/AnnotationsTable.tsx'
 
-type Tab = 'details' | 'text' | 'featureExecutions'
+type Tab = 'details' | 'text' | 'featureResults' | 'featureExecutions'
 
 const diagramUrl = new URL('../assets/diagram.png', import.meta.url).href
 
@@ -42,7 +43,7 @@ export function Main() {
 
   useEffect(() => {
     if (
-      activeTab === 'featureExecutions' &&
+      (activeTab === 'featureExecutions' || activeTab === 'featureResults') &&
       !featuresQuery.isLoading &&
       !hasDatasetFeatures
     ) {
@@ -111,6 +112,13 @@ export function Main() {
         />
         {showFeatureExecutionsTab && (
           <TabButton
+            onSelected={() => setActiveTab('featureResults')}
+            title="Feature Results"
+            isActive={activeTab === 'featureResults'}
+          />
+        )}
+        {showFeatureExecutionsTab && (
+          <TabButton
             onSelected={() => setActiveTab('featureExecutions')}
             title="Feature Executions"
             isActive={activeTab === 'featureExecutions'}
@@ -120,6 +128,9 @@ export function Main() {
       <div className="flex-1 overflow-auto">
         {activeTab === 'details' && <AnnotationDetailsTab />}
         {activeTab === 'text' && <AnnotationContentsTab />}
+        {activeTab === 'featureResults' && showFeatureExecutionsTab && (
+          <FeatureResultsTab />
+        )}
         {activeTab === 'featureExecutions' && showFeatureExecutionsTab && (
           <FeatureExecutionsTab />
         )}

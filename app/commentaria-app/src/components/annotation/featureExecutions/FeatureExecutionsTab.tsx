@@ -3,14 +3,11 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import {
   ExecutionsService,
   FeaturesService,
-  EditionsService,
   type feature_Execution,
   type feature_ExecutionApplyItem,
   type feature_ExecutionSkipIf,
   type feature_ExecutionStatus,
   type feature_Feature,
-  type model_Edition,
-  type search_Query,
 } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
@@ -18,6 +15,11 @@ import { Button } from '../../core/Button.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
+import {
+  listAllEditions,
+  mapEditionsToItems,
+  STUDY_CORPORA_FILTER,
+} from '../../../utils/editionItems.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
@@ -37,112 +39,6 @@ const EXECUTION_SKIP_IF_LABELS: Record<feature_ExecutionSkipIf, string> = {
   feature_exist: 'Feature exist',
   revision_exist: 'Revision exist',
   human_reviewed: 'Human reviewed',
-}
-
-const STUDY_CORPORA_FILTER = 'Title pages'
-
-type EditionItem = {
-  key: string
-  year: string | null
-  authors: string[]
-  cities: string[]
-  shortTitle: string | null
-  title: string | null
-  studyCorpora: string[]
-}
-
-const startCase = (value: string) =>
-  value
-    .replace(/[_-]+/g, ' ')
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join(' ')
-
-const mapStudyCorpus = (value: string): string => {
-  switch (value) {
-    case 'dh':
-      return 'DH core texts'
-    case 'dotted_lines':
-      return 'Dotted Lines'
-    default:
-      return startCase(value)
-  }
-}
-
-const dedupe = (values: string[]) => Array.from(new Set(values))
-const normalizeText = (value: unknown): string => {
-  if (typeof value === 'string') return value.trim()
-  if (value && typeof value === 'object' && 'name' in value) {
-    return String((value as { name?: unknown }).name ?? '').trim()
-  }
-  return String(value ?? '').trim()
-}
-
-const mapEditionsToItems = (editions: model_Edition[]): EditionItem[] =>
-  editions
-    .filter((edition): edition is model_Edition & { key: string } =>
-      Boolean(edition.key),
-    )
-    .map((edition) => {
-      const studyCorpora = dedupe(
-        (edition.corpus ?? []).map((corpus) => mapStudyCorpus(corpus)),
-      )
-      if (
-        (!Number(edition.year) || Number(edition.year) <= 1700) &&
-        studyCorpora.includes('Origin Eip Csv') &&
-        !edition.languages?.includes('CHINESE') &&
-        edition.title &&
-        edition.title !== '?'
-      ) {
-        studyCorpora.push(STUDY_CORPORA_FILTER)
-      }
-
-      return {
-        key: edition.key,
-        year: edition.year != null ? String(edition.year) : null,
-        authors: (edition.editor ?? [])
-          .map((name) => normalizeText(name))
-          .filter(Boolean),
-        cities: (edition.cities ?? [])
-          .map((city) => normalizeText(city))
-          .filter(Boolean),
-        shortTitle: edition.shortTitle || null,
-        title: edition.title || null,
-        studyCorpora: dedupe(studyCorpora),
-      }
-    })
-    .sort(
-      (left, right) =>
-        (left.year || '').localeCompare(right.year || '') ||
-        left.key.localeCompare(right.key),
-    )
-
-const listAllEditions = async (
-  query?: Omit<search_Query, 'offset' | 'limit'>,
-): Promise<model_Edition[]> => {
-  const limit = 500
-  let offset = 0
-  const results: model_Edition[] = []
-
-  while (true) {
-    const page = await EditionsService.postEditionsSearch({
-      edition: { ...query, offset, limit },
-    })
-    const items = page.items || []
-    results.push(...items)
-    if (
-      items.length === 0 ||
-      items.length < limit ||
-      (page.total !== undefined && results.length >= page.total)
-    ) {
-      break
-    }
-    offset += limit
-  }
-
-  return results
 }
 
 const formatDate = (value?: string) => {
