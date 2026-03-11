@@ -1,9 +1,9 @@
-import { useEffect, useMemo, useState } from 'react'
+import { type ReactNode, useEffect, useMemo, useState } from 'react'
 import { useAppState } from '../../../context/useAppState.ts'
 import {
+  type annotation_Annotation,
   AnnotationsService,
   ApiError,
-  type annotation_Annotation,
 } from '@hub-api'
 import Select from 'react-select'
 import { Timestamp } from '../../core/Timestamp'
@@ -31,6 +31,10 @@ import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
 import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
 import { formatBoolean } from '../../../utils/formatBoolean.tsx'
 import { useAnnotationGroupsQuery } from '../../../queries/annotationGroups.ts'
+import {
+  useEditionTranscriptionsQuery,
+  useUpdateEditionTranscriptionMutation,
+} from '../../../queries/transcriptions.ts'
 
 interface AnnotationDetailsContentProps {
   annotation: annotation_Annotation
@@ -43,11 +47,17 @@ interface AnnotationDetailsContentProps {
   editedOriginAnnotationId: string | null
   editedGroundTruth: boolean
   editedHidden: boolean
+  isEditionKeyCorrelated: boolean
+  preferredAnnotationLabel: ReactNode
+  preferredAnnotationLoading: boolean
+  canSetPreferredAnnotation: boolean
+  isSettingPreferredAnnotation: boolean
   onNameChange: (name: string) => void
   onDescriptionChange: (description: string) => void
   onOriginAnnotationChange: (originAnnotationId: string | null) => void
   onGroundTruthChange: (groundTruth: boolean) => void
   onHiddenChange: (hidden: boolean) => void
+  onSetPreferredAnnotation: () => void
   error?: string | null
 }
 
@@ -62,11 +72,17 @@ const AnnotationDetailsContent = ({
   editedOriginAnnotationId,
   editedGroundTruth,
   editedHidden,
+  isEditionKeyCorrelated,
+  preferredAnnotationLabel,
+  preferredAnnotationLoading,
+  canSetPreferredAnnotation,
+  isSettingPreferredAnnotation,
   onNameChange,
   onDescriptionChange,
   onOriginAnnotationChange,
   onGroundTruthChange,
   onHiddenChange,
+  onSetPreferredAnnotation,
   error,
 }: AnnotationDetailsContentProps) => {
   const { setState } = useAppState()
@@ -318,6 +334,30 @@ const AnnotationDetailsContent = ({
             <span className="text-gray-500">None</span>
           )}
         </div>
+        {hasEdition && isEditionKeyCorrelated && (
+          <>
+            <div className="font-semibold text-xs opacity-80 pt-0.5">
+              Preferred
+            </div>
+            <div className="text-sm leading-tight break-all flex flex-wrap items-center gap-2">
+              <span>
+                {preferredAnnotationLoading
+                  ? 'Loading…'
+                  : preferredAnnotationLabel}
+              </span>
+              {canSetPreferredAnnotation && (
+                <Button
+                  type="button"
+                  onClick={onSetPreferredAnnotation}
+                  className="px-2 py-1 text-xs"
+                  disabled={isSettingPreferredAnnotation}
+                >
+                  {isSettingPreferredAnnotation ? 'Setting…' : 'Set preferred'}
+                </Button>
+              )}
+            </div>
+          </>
+        )}
         <div className="font-semibold text-xs opacity-80 pt-0.5">Created</div>
         <div className="text-sm leading-tight break-all ">
           <Timestamp date={annotation.created_at} />
@@ -399,6 +439,84 @@ export function AnnotationDetailsPane() {
       job.annotation?.dataset_id === annotation?.dataset_id &&
       job.annotation?.id === annotation?.id,
   )
+  const { data: datasets } = useDatasetsQuery()
+  const datasetForAnnotation =
+    datasets?.find((dataset) => dataset.id === annotation?.dataset_id) || null
+  const editionId = datasetForAnnotation?.edition_id || null
+  const editionTranscriptionsQuery = useEditionTranscriptionsQuery(editionId)
+  const updateEditionTranscriptionMutation =
+    useUpdateEditionTranscriptionMutation()
+  const transcription = useMemo(() => {
+    if (!annotation?.dataset_id) {
+      return null
+    }
+
+    const transcriptions = editionTranscriptionsQuery.data || []
+    return (
+      transcriptions.find((item) =>
+        (item.datasets || []).includes(annotation.dataset_id!),
+      ) ||
+      transcriptions.find((item) => item.edition_id === editionId) ||
+      null
+    )
+  }, [annotation?.dataset_id, editionId, editionTranscriptionsQuery.data])
+  const isEditionKeyCorrelated =
+    !!annotation?.dataset_id &&
+    !!transcription &&
+    (transcription.datasets || []).includes(annotation.dataset_id)
+  const isPreferredAnnotation =
+    isEditionKeyCorrelated &&
+    transcription?.preferred_annotation?.dataset_id ===
+      annotation?.dataset_id &&
+    transcription?.preferred_annotation?.id === annotation?.id
+  const preferredAnnotationLabel = editionTranscriptionsQuery.isLoading ? (
+    'Loading…'
+  ) : isPreferredAnnotation ? (
+    <span className="inline-flex items-center gap-1">
+      {formatBoolean(true)}
+      {transcription?.preferred_annotation?.source && (
+        <span className="text-gray-600">
+          ({transcription.preferred_annotation.source})
+        </span>
+      )}
+    </span>
+  ) : (
+    formatBoolean(false)
+  )
+
+  const handleSetPreferredAnnotation = async () => {
+    if (
+      !annotation?.id ||
+      !annotation.dataset_id ||
+      !editionId ||
+      !isEditionKeyCorrelated
+    ) {
+      return
+    }
+
+    try {
+      setError(null)
+      await updateEditionTranscriptionMutation.mutateAsync({
+        editionId,
+        body: {
+          ...transcription,
+          edition_id: editionId,
+          datasets:
+            transcription?.datasets && transcription.datasets.length > 0
+              ? transcription.datasets
+              : [annotation.dataset_id],
+          preferred_annotation: {
+            dataset_id: annotation.dataset_id,
+            id: annotation.id,
+            source: 'manual',
+          },
+        },
+      })
+    } catch (e) {
+      console.error('Failed to set preferred annotation:', e)
+      setError(e instanceof ApiError ? e.body : String(e))
+    }
+  }
 
   useEffect(() => {
     setError(null)
@@ -545,11 +663,24 @@ export function AnnotationDetailsPane() {
             editedOriginAnnotationId={editedOriginAnnotationId}
             editedGroundTruth={editedGroundTruth}
             editedHidden={editedHidden}
+            isEditionKeyCorrelated={isEditionKeyCorrelated}
+            preferredAnnotationLabel={preferredAnnotationLabel}
+            preferredAnnotationLoading={editionTranscriptionsQuery.isLoading}
+            canSetPreferredAnnotation={
+              isAuthenticated &&
+              isEditionKeyCorrelated &&
+              !isPreferredAnnotation &&
+              !editionTranscriptionsQuery.isLoading
+            }
+            isSettingPreferredAnnotation={
+              updateEditionTranscriptionMutation.isPending
+            }
             onNameChange={setEditedName}
             onDescriptionChange={setEditedDescription}
             onOriginAnnotationChange={setEditedOriginAnnotationId}
             onGroundTruthChange={setEditedGroundTruth}
             onHiddenChange={setEditedHidden}
+            onSetPreferredAnnotation={handleSetPreferredAnnotation}
             error={error}
           />
         </div>
