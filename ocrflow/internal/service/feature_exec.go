@@ -9,6 +9,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
@@ -17,8 +18,6 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
 	"github.com/samber/lo"
-	"golang.org/x/text/cases"
-	"golang.org/x/text/language"
 )
 
 type Execution struct {
@@ -27,7 +26,7 @@ type Execution struct {
 	featureResultsSvc   *Result
 	annotationSvc       *Annotation
 	annotationTEISvc    *AnnotationTEI
-	editionSvc          *Edition
+	languageResolver    *LanguagesResolver
 	featurePropertySvc  *FeatureProperty
 	store               *fpstore.FeatureExecutionStore
 	filesysManager      *filesys.Manager
@@ -36,21 +35,15 @@ type Execution struct {
 	mu                  sync.Mutex // Protects status updates in goroutines
 }
 
-type executionSkipState struct {
-	featureExists  map[string]struct{}
-	revisionExists map[string]struct{}
-	humanReviewed  map[string]struct{}
-}
-
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionStore).
-func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, editionSvc *Edition, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
+func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, languageResolver *LanguagesResolver, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
 	return &Execution{
 		featureRevisionsSvc: featureRevisionsSvc,
 		featuresSvc:         featuresSvc,
 		featureResultsSvc:   featureResultsSvc,
 		annotationSvc:       annotationSvc,
 		annotationTEISvc:    annotationTEISvc,
-		editionSvc:          editionSvc,
+		languageResolver:    languageResolver,
 		featurePropertySvc:  featurePropertySvc,
 		store:               store,
 		filesysManager:      filesysManager,
@@ -90,10 +83,11 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 
 	var applyFuncs []func() ([]*feature.Result, error)
 	for _, key := range exec.Keys {
-		textLanguage, err := fe.textLanguageForKey(key)
+		textLanguages, err := fe.languageResolver.Resolve(exec.DatasetID, key)
 		if err != nil {
 			return nil, fmt.Errorf("failed to get text language for key %s: %w", key, err)
 		}
+		textLanguage := strings.Join(textLanguages, " and ")
 		fullText, err := fe.annotationTEISvc.GetTxt(exec.DatasetID, exec.AnnotationID, key)
 		if err != nil {
 			return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.AnnotationID, key, err)
@@ -117,7 +111,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			if err != nil {
 				return nil, fmt.Errorf("failed to get feature revision for feature %s and revision %s: %w", item.Feature, item.Revision, err)
 			}
-			if skipState.shouldSkip(exec.Policy, key, item.Feature, item.Revision) {
+			if skipState.ShouldSkip(exec.Policy, key, item.Feature, item.Revision) {
 				continue
 			}
 			if fr.Categorizer != "" {
@@ -209,8 +203,8 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	return exec, nil
 }
 
-func (fe *Execution) loadExecutionSkipState(exec *feature.Execution) (*executionSkipState, error) {
-	state := newExecutionSkipState()
+func (fe *Execution) loadExecutionSkipState(exec *feature.Execution) (*features.ExecutionSkipState, error) {
+	state := features.NewExecutionSkipState()
 	if exec.Policy == nil || len(exec.Policy.SkipIf) == 0 || len(exec.Keys) == 0 || len(exec.Apply) == 0 {
 		return state, nil
 	}
@@ -233,50 +227,10 @@ func (fe *Execution) loadExecutionSkipState(exec *feature.Execution) (*execution
 		if result == nil {
 			continue
 		}
-		state.featureExists[result.FeatureID+"::"+result.PageKey] = struct{}{}
-		if strings.TrimSpace(result.Source.Revision) != "" {
-			state.revisionExists[result.FeatureID+"::"+result.PageKey+"::"+result.Source.Revision] = struct{}{}
-		}
-		if result.Source.Resp == "human" {
-			state.humanReviewed[result.FeatureID+"::"+result.PageKey] = struct{}{}
-		}
+		state.Add(result.FeatureID, result.PageKey, result.Source.Revision, result.Source.Resp == "human")
 	}
 
 	return state, nil
-}
-
-func newExecutionSkipState() *executionSkipState {
-	return &executionSkipState{
-		featureExists:  make(map[string]struct{}),
-		revisionExists: make(map[string]struct{}),
-		humanReviewed:  make(map[string]struct{}),
-	}
-}
-
-func (s *executionSkipState) shouldSkip(policy *feature.ExecutionPolicy, key, featureID, revisionID string) bool {
-	if policy == nil || len(policy.SkipIf) == 0 {
-		return false
-	}
-
-	featureKey := featureID + "::" + key
-	revisionKey := featureKey + "::" + revisionID
-	for _, rule := range policy.SkipIf {
-		switch rule {
-		case feature.ExecutionSkipIfFeatureExist:
-			if _, ok := s.featureExists[featureKey]; ok {
-				return true
-			}
-		case feature.ExecutionSkipIfRevisionExist:
-			if _, ok := s.revisionExists[revisionKey]; ok {
-				return true
-			}
-		case feature.ExecutionSkipIfHumanReviewed:
-			if _, ok := s.humanReviewed[featureKey]; ok {
-				return true
-			}
-		}
-	}
-	return false
 }
 
 func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execution, error) {
@@ -311,22 +265,6 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execut
 	}(executionId)
 
 	return exec, nil
-}
-
-func (fe *Execution) textLanguageForKey(key string) (string, error) {
-	edition, err := fe.editionSvc.GetEditionByID(key)
-	if err != nil {
-		return "", err
-	}
-	title := cases.Title(language.Und)
-	languages := lo.FilterMap(edition.Languages, func(lang string, _ int) (string, bool) {
-		lang = strings.TrimSpace(lang)
-		if lang == "" {
-			return "", false
-		}
-		return title.String(lang), true
-	})
-	return strings.Join(languages, " and "), nil
 }
 
 func (fe *Execution) execPrompt(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) func() ([]*feature.Result, error) {
