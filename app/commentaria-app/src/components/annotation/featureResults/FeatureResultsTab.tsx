@@ -6,6 +6,7 @@ import { FeatureResultsService, type feature_Result } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
 import { SearchInput } from '../../core/SearchInput.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
+import { Button } from '../../core/Button.tsx'
 import { useDatasetFeaturesQuery } from '../../../queries/datasets.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { formatEditionLabel } from '../../../utils/editions.ts'
@@ -67,6 +68,11 @@ const formatValue = (result: feature_Result) =>
     .join(', ')
 
 const formatCount = (value: number) => value.toLocaleString()
+
+const escapeCsvValue = (value: string | null | undefined) => {
+  const normalized = normalizeText(value)
+  return `"${normalized.replace(/"/g, '""')}"`
+}
 
 export function FeatureResultsTab() {
   const { state } = useAppState()
@@ -293,6 +299,45 @@ export function FeatureResultsTab() {
     setSortDirection('asc')
   }
 
+  const handleExport = () => {
+    const header = [
+      'Page/Key',
+      'Edition Details',
+      'Feature Name',
+      'Feature Description',
+      'Feature Revision',
+      'Value',
+    ]
+    const lines = [
+      header.map((value) => escapeCsvValue(value)).join(','),
+      ...sortedRows.map((row) =>
+        [
+          row.result.page_key || '',
+          row.editionDetails,
+          row.featureName || row.result.name || '',
+          row.featureDescription || row.result.description || '',
+          row.featureRevision,
+          row.value,
+        ]
+          .map((value) => escapeCsvValue(value))
+          .join(','),
+      ),
+    ]
+    const blob = new Blob([`${lines.join('\n')}\n`], {
+      type: 'text/csv;charset=utf-8;',
+    })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    const suffix = normalizeText(annotationId) || 'feature-results'
+
+    link.href = url
+    link.download = `feature-results-${suffix}.csv`
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+    URL.revokeObjectURL(url)
+  }
+
   const renderSortHeader = (label: string, key: SortKey) => {
     const isActive = sortKey === key
     const arrow = isActive ? (sortDirection === 'asc' ? '▲' : '▼') : null
@@ -339,8 +384,16 @@ export function FeatureResultsTab() {
 
   return (
     <section className="flex-1 min-h-0 border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] mx-auto">
-      <div className="px-3 py-2 border-b border-gray-200 bg-gray-50 flex items-center gap-3">
+      <div className="px-3 py-2 border-b border-gray-200 bg-gray-50 flex items-center justify-between gap-3">
         <div className="text-sm font-semibold">Feature Results</div>
+        <Button
+          type="button"
+          className="px-2 py-1 text-xs shrink-0"
+          onClick={handleExport}
+          disabled={sortedRows.length === 0}
+        >
+          Export CSV
+        </Button>
       </div>
 
       <div className="flex-1 min-h-0 flex flex-col overflow-hidden p-4 gap-4">
