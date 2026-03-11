@@ -9,6 +9,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
@@ -89,7 +90,7 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 
 	// 2) TXT fallback: transcription
 	var lines []string
-	if ann.DatasetID == "tps" {
+	if ann.DatasetID == titlepage.DatasetID {
 		if lines, _, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
 			return "", fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}
@@ -126,7 +127,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		imageURL     string
 	)
 
-	if ann.DatasetID == "tps" {
+	if ann.DatasetID == titlepage.DatasetID {
 		if lines, translations, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
 			return nil, fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}
@@ -159,7 +160,7 @@ func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []st
 		return nil, nil, fmt.Errorf("failed to get edition by ID %s: %v", editionKey, err)
 	}
 	if edition == nil {
-		return nil, nil, fmt.Errorf("edition with key %s does not exist", editionKey)
+		return nil, nil, fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, editionKey)
 	}
 	if edition.Title == nil {
 		return nil, nil, fmt.Errorf("edition %s does not have a title page transcription", editionKey)

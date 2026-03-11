@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { type feature_Revision } from '@hub-api'
 import { useAppState } from '../../context/useAppState.ts'
 import { useAuthStore } from '../../store/authStore.ts'
+import { normalizeFeatureProperties } from '../../utils/featureProperties.ts'
 import { Button } from '../core/Button.tsx'
 import { SearchInput } from '../core/SearchInput.tsx'
 import { CreateFeatureModal } from './CreateFeatureModal.tsx'
@@ -28,6 +29,8 @@ export function DatasetFeaturesTab() {
     editingFeatures,
     busyFeatureId,
     error,
+    availableProperties,
+    isLoadingProperties,
     loading,
     searchQuery,
     setSearchQuery,
@@ -89,7 +92,11 @@ export function DatasetFeaturesTab() {
                   edits &&
                   (edits.name !== (feature.name || '') ||
                     edits.description !== (feature.description || '') ||
-                    edits.color !== (feature.color || ''))
+                    edits.color !== (feature.color || '') ||
+                    edits.properties.join('|') !==
+                      normalizeFeatureProperties(feature.properties ?? []).join(
+                        '|',
+                      ))
 
                 return (
                   <FeatureCard
@@ -103,6 +110,8 @@ export function DatasetFeaturesTab() {
                     isSaving={busyFeatureId === featureId}
                     isDirty={!!isDirty}
                     isAuthenticated={isAuthenticated}
+                    availableProperties={availableProperties}
+                    isLoadingProperties={isLoadingProperties}
                     onSubmit={(event) => handleUpdateFeature(feature, event)}
                     onEdit={() => featureId && startEditing(featureId)}
                     onCancelEdit={() => handleCancelEdit(feature)}

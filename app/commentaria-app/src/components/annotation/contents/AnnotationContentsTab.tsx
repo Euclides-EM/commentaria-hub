@@ -94,8 +94,8 @@ export function AnnotationContentsTab() {
         <div
           className={
             showTeiPane
-              ? 'relative min-h-0 h-full shrink-0'
-              : 'min-h-0 h-full flex-1'
+              ? 'relative min-h-0 h-full shrink-0 empty:hidden'
+              : 'min-h-0 h-full flex-1 empty:hidden'
           }
           style={
             showTeiPane

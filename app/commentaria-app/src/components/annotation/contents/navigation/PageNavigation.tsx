@@ -7,6 +7,7 @@ import useLocalStorageState from 'use-local-storage-state'
 import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
+import { TITLE_PAGES_DATASET_ID } from '../../../../utils/editions.ts'
 
 const expandRange = (range: string): string[] => {
   const parts = range.trim().split('-')
@@ -27,7 +28,9 @@ const expandRange = (range: string): string[] => {
 }
 
 const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
-  if (!annotation.pages) return []
+  if (!annotation.pages) {
+    return []
+  }
 
   return annotation.pages.split(',').flatMap((p) => expandRange(p))
 }
@@ -42,13 +45,16 @@ const getDefaultPageOrKey = (availablePages: string[]): string => {
 
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
-  const isKeyNavigation = !!annotation && !annotation.pages
+  const isKeyNavigation =
+    !!annotation &&
+    (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
   const showIndexPane = !!annotation?.segmented
   const showSearchPane =
     !!annotation && (!annotation.pages || !!annotation.ocred)
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     isKeyNavigation,
+    annotation?.pages ? annotation.pages.split(',') : null,
   )
   const currentValue = String(state.currentPageOrKey)
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
@@ -81,7 +87,7 @@ export function PageNavigation() {
     if (!annotation) {
       return []
     }
-    if (annotation.pages) {
+    if (annotation.pages && annotation.dataset_id !== TITLE_PAGES_DATASET_ID) {
       const pages = parseAvailablePages(annotation)
       return [...new Set(pages)]
         .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
@@ -195,7 +201,7 @@ export function PageNavigation() {
 
           <div className="flex items-center gap-2">
             <label htmlFor="pageNum" className="text-xs opacity-80">
-              {annotation.pages ? 'Page' : 'Key'}
+              {isKeyNavigation ? 'Key' : 'Page'}
             </label>
             <Select
               value={
@@ -212,9 +218,7 @@ export function PageNavigation() {
                 )
               }
               options={availableOptions}
-              placeholder={
-                annotation.pages ? 'Select page...' : 'Select key...'
-              }
+              placeholder={isKeyNavigation ? 'Select key...' : 'Select page...'}
               styles={selectStyles<{ value: string; label: string }>()}
               menuPortalTarget={document.body}
               menuPosition="fixed"

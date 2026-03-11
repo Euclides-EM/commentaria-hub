@@ -1,11 +1,23 @@
 import type { feature_Feature, feature_Revision } from '@hub-api'
 import { HexColorPicker } from 'react-colorful'
+import Select from 'react-select'
+import { selectStyles } from '../../styles/selectStyles.ts'
+import {
+  getFeaturePropertyDisplayName,
+  normalizeFeatureProperties,
+} from '../../utils/featureProperties.ts'
 import { Button } from '../core/Button.tsx'
 
 export type FeatureEditState = {
   name: string
   description: string
   color: string
+  properties: string[]
+}
+
+type FeaturePropertyOption = {
+  value: string
+  label: string
 }
 
 const formatDate = (value?: string) => {
@@ -41,6 +53,8 @@ interface FeatureCardProps {
   isSaving: boolean
   isDirty: boolean
   isAuthenticated: boolean
+  availableProperties: string[]
+  isLoadingProperties: boolean
   onSubmit: (event: React.FormEvent<HTMLFormElement>) => void
   onEdit: () => void
   onCancelEdit: () => void
@@ -58,6 +72,8 @@ export function FeatureCard({
   isSaving,
   isDirty,
   isAuthenticated,
+  availableProperties,
+  isLoadingProperties,
   onSubmit,
   onEdit,
   onCancelEdit,
@@ -73,6 +89,13 @@ export function FeatureCard({
     return timeB - timeA
   })
   const latestRevision = sortedRevisions[0]
+  const propertyOptions: FeaturePropertyOption[] = availableProperties.map(
+    (property) => ({
+      value: property,
+      label: getFeaturePropertyDisplayName(property),
+    }),
+  )
+  const featureProperties = normalizeFeatureProperties(feature.properties ?? [])
 
   return (
     <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm flex flex-col gap-2">
@@ -164,6 +187,43 @@ export function FeatureCard({
             </div>
             <div className="flex flex-col gap-1">
               <label className="text-xs text-gray-500 font-semibold">
+                Properties
+              </label>
+              <Select<FeaturePropertyOption, true>
+                isMulti
+                value={propertyOptions.filter((option) =>
+                  (edits?.properties || []).includes(option.value),
+                )}
+                onChange={(options) =>
+                  onEditField({
+                    properties: normalizeFeatureProperties(
+                      (options || []).map((option) => option.value),
+                    ),
+                  })
+                }
+                options={propertyOptions}
+                closeMenuOnSelect={false}
+                hideSelectedOptions={false}
+                isLoading={isLoadingProperties}
+                isDisabled={isSaving || isLoadingProperties}
+                placeholder={
+                  isLoadingProperties
+                    ? 'Loading feature properties...'
+                    : availableProperties.length === 0
+                      ? 'No feature properties available'
+                      : 'Select properties'
+                }
+                noOptionsMessage={() => 'No feature properties available'}
+                styles={selectStyles<FeaturePropertyOption, true>({
+                  controlWidth: '100%',
+                  isMulti: true,
+                })}
+                menuPortalTarget={document.body}
+                menuPosition="fixed"
+              />
+            </div>
+            <div className="flex flex-col gap-1">
+              <label className="text-xs text-gray-500 font-semibold">
                 Color
               </label>
               <div className="flex items-center gap-3 flex-wrap">
@@ -188,8 +248,18 @@ export function FeatureCard({
             </div>
           </div>
         ) : (
-          <div className="text-sm text-gray-500 leading-relaxed whitespace-pre-wrap mt-1">
-            {feature.description || 'No description.'}
+          <div className="flex flex-col gap-2 mt-1">
+            <div className="text-sm text-gray-500 leading-relaxed whitespace-pre-wrap">
+              {feature.description || 'No description.'}
+            </div>
+            <div className="text-sm text-gray-500">
+              <span className="font-medium text-gray-700">Properties:</span>{' '}
+              {featureProperties.length > 0
+                ? featureProperties
+                    .map((property) => getFeaturePropertyDisplayName(property))
+                    .join(', ')
+                : 'None'}
+            </div>
           </div>
         )}
       </form>
@@ -252,7 +322,9 @@ export function FeatureCard({
                   <div>
                     <span className="font-semibold">Categorizer:</span>
                     {'\n'}
-                    {revision.categorizer || '—'}
+                    {revision.categorizer
+                      ? getFeaturePropertyDisplayName(revision.categorizer)
+                      : '—'}
                   </div>
                 )}
                 <div className="text-xs text-gray-500">

@@ -1,6 +1,10 @@
-import { type FormEvent, useEffect, useState } from 'react'
+import { type FormEvent, useEffect, useMemo, useState } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
 import { type feature_Revision, FeatureRevisionsService } from '@hub-api'
+import Select from 'react-select'
+import { useFeaturePropertiesQuery } from '../../queries/datasets.ts'
+import { selectStyles } from '../../styles/selectStyles.ts'
+import { getFeaturePropertyDisplayName } from '../../utils/featureProperties.ts'
 import { Button } from '../core/Button.tsx'
 import { ErrorMessage } from '../core/ErrorMessage.tsx'
 
@@ -10,6 +14,11 @@ interface CreateRevisionModalProps {
   datasetId: string
   featureId: string
   latestRevision?: feature_Revision
+}
+
+type CategorizerOption = {
+  value: string
+  label: string
 }
 
 export function CreateRevisionModal({
@@ -25,6 +34,18 @@ export function CreateRevisionModal({
   const [categorizer, setCategorizer] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const {
+    data: categorizerOptions = [],
+    isLoading: isLoadingCategorizerOptions,
+  } = useFeaturePropertiesQuery(isOpen)
+  const categorizerSelectOptions = useMemo<CategorizerOption[]>(
+    () =>
+      categorizerOptions.map((option) => ({
+        value: option,
+        label: getFeaturePropertyDisplayName(option),
+      })),
+    [categorizerOptions],
+  )
 
   useEffect(() => {
     if (isOpen) {
@@ -41,6 +62,14 @@ export function CreateRevisionModal({
     }
   }, [isOpen, latestRevision])
 
+  useEffect(() => {
+    if (!isOpen || type !== 'categorizer') return
+
+    if (categorizer && categorizerOptions.includes(categorizer)) return
+
+    setCategorizer('')
+  }, [categorizer, categorizerOptions, isOpen, type])
+
   const handleSubmit = async (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault()
     const trimmedPrompt = prompt.trim()
@@ -53,6 +82,15 @@ export function CreateRevisionModal({
       )
       return
     }
+
+    if (
+      type === 'categorizer' &&
+      !categorizerOptions.includes(trimmedCategorizer)
+    ) {
+      setError('Categorizer must be selected from feature properties.')
+      return
+    }
+
     try {
       setError(null)
       setLoading(true)
@@ -136,14 +174,28 @@ export function CreateRevisionModal({
             </div>
           ) : (
             <div className="flex-1 flex flex-col gap-2 min-h-0">
-              <label className="block text-sm font-medium text-gray-700">
-                Categorizer
-              </label>
-              <textarea
-                value={categorizer}
-                onChange={(e) => setCategorizer(e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded-md flex-1 min-h-[100px] resize-none"
-                disabled={loading}
+              <Select<CategorizerOption, false>
+                options={categorizerSelectOptions}
+                value={
+                  categorizerSelectOptions.find(
+                    (option) => option.value === categorizer,
+                  ) ?? null
+                }
+                onChange={(option) => setCategorizer(option?.value ?? '')}
+                isDisabled={loading || isLoadingCategorizerOptions}
+                placeholder={
+                  isLoadingCategorizerOptions
+                    ? 'Loading feature properties...'
+                    : categorizerOptions.length === 0
+                      ? 'No feature properties available'
+                      : 'Select a categorizer'
+                }
+                noOptionsMessage={() => 'No feature properties available'}
+                styles={selectStyles<CategorizerOption>({
+                  controlWidth: '100%',
+                })}
+                menuPortalTarget={document.body}
+                menuPosition="fixed"
               />
             </div>
           )}

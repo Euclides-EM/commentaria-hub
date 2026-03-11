@@ -13,6 +13,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
@@ -62,7 +63,7 @@ func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHead
 
 	// For frontispiece and title page images, we allow any image format supported by the system, and we generate a unique filename based on the key and type.
 	if typ == model.ImageTypeFrontispiece || typ == model.ImageTypeTitlePage {
-		if datasetId != "tps" {
+		if datasetId != titlepage.DatasetID {
 			return nil, fmt.Errorf("only TPS dataset allows frontispiece and title page images")
 		}
 		if lo.IsEmpty(key) {
@@ -109,7 +110,7 @@ func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHead
 		}
 		// Note: this is a non-scalable versification that is here to make sure we do not have any non-page-numbered files in the facsimile image store for datasets other than TPS, which is the only dataset that allows non-page-numbered facsimile images.
 		// We should consider a more robust way to handle this in the future, such as allowing users to specify the key for each image in the ZIP file via a manifest file or a specific naming convention.
-		if _, err := pagesparser.FileNameToPage(entry.Name()); err != nil && datasetId != "tps" {
+		if _, err := pagesparser.FileNameToPage(entry.Name()); err != nil && datasetId != titlepage.DatasetID {
 			return nil, fmt.Errorf("all datasets, except for TPS, require page numbers in facsimile image filenames: %s", entry.Name())
 		}
 		if err := os.Rename(path.Join(tmpDir, entry.Name()), path.Join(d.fileSysMgt.DatasetImagesDirByID(datasetId), entry.Name())); err != nil {
@@ -133,7 +134,7 @@ func (d *DatasetImg) ListImagesMetadata(datasetId string, uniqueOnly bool) ([]*m
 	if err != nil {
 		return nil, fmt.Errorf("failed to list images: %w", err)
 	}
-	if datasetId == "tps" {
+	if datasetId == titlepage.DatasetID {
 		images, err = d.normalizeTPSImagesMetadata(images, uniqueOnly)
 		if err != nil {
 			return nil, fmt.Errorf("failed to normalize TPS images metadata: %w", err)
@@ -189,7 +190,7 @@ func (d *DatasetImg) GetImageMetadata(datasetId string, key string) (*model.Imag
 	if len(imgs) == 0 {
 		return nil, fmt.Errorf("no image found for key: %s", key)
 	}
-	if datasetId != "tps" {
+	if datasetId != titlepage.DatasetID {
 		if len(imgs) != 1 {
 			return nil, fmt.Errorf("multiple images found for key: %s", key)
 		}
