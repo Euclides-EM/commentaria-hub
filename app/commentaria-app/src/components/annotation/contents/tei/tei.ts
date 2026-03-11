@@ -1867,7 +1867,7 @@ function applyHighlights(
       currentNode instanceof Text &&
       currentNode.parentElement?.closest('em') == null &&
       highlights.some((highlight) =>
-        currentNode.textContent?.includes(highlight),
+        currentNode?.textContent?.includes(highlight),
       )
     ) {
       textNodes.push(currentNode)
