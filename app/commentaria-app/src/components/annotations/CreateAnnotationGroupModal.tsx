@@ -1,4 +1,4 @@
-import { type FormEvent, useEffect, useState } from 'react'
+import { type FormEvent, useState } from 'react'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 
@@ -19,16 +19,35 @@ export function CreateAnnotationGroupModal({
   onClose,
   onCreate,
 }: CreateAnnotationGroupModalProps) {
+  if (!isOpen) {
+    return null
+  }
+
+  return (
+    <CreateAnnotationGroupModalContent
+      selectedCount={selectedCount}
+      isSubmitting={isSubmitting}
+      error={error}
+      onClose={onClose}
+      onCreate={onCreate}
+    />
+  )
+}
+
+type CreateAnnotationGroupModalContentProps = Omit<
+  CreateAnnotationGroupModalProps,
+  'isOpen'
+>
+
+function CreateAnnotationGroupModalContent({
+  selectedCount,
+  isSubmitting,
+  error,
+  onClose,
+  onCreate,
+}: CreateAnnotationGroupModalContentProps) {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
-
-  useEffect(() => {
-    if (!isOpen) {
-      return
-    }
-    setName('')
-    setDescription('')
-  }, [isOpen])
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -40,10 +59,6 @@ export function CreateAnnotationGroupModal({
       name: trimmedName,
       description: description.trim() || undefined,
     })
-  }
-
-  if (!isOpen) {
-    return null
   }
 
   return (

@@ -80,12 +80,11 @@ export function useAutoOpenEditionFromQuery(
           onOpen(mapped);
         }
       } finally {
-        if (!active) {
-          return;
+        if (active) {
+          lastHandledKeyRef.current = editionKey;
+          inFlightKeyRef.current = null;
+          clearEditionKeyParam();
         }
-        lastHandledKeyRef.current = editionKey;
-        inFlightKeyRef.current = null;
-        clearEditionKeyParam();
       }
     })();
 

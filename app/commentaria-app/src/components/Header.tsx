@@ -14,16 +14,23 @@ export function Header({ onShowLogin }: HeaderProps) {
   const { setState } = useAppState()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [cleanupRequested, setCleanupRequested] = useState(false)
-  const [serverSha, setServerSha] = useState<string>('Loading...')
+  const [serverSha, setServerSha] = useState<string | null>(null)
   const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8085'
+  const serverShaLabel =
+    !token || !username ? 'Unavailable' : serverSha || 'Loading...'
 
   useEffect(() => {
     if (!token || !username) {
-      setServerSha('Unavailable')
       return
     }
 
     let cancelled = false
+
+    Promise.resolve().then(() => {
+      if (!cancelled) {
+        setServerSha(null)
+      }
+    })
 
     void HealthService.getHealth()
       .then((health) => {
@@ -106,7 +113,7 @@ export function Header({ onShowLogin }: HeaderProps) {
                       <div className="min-w-0">
                         Server SHA
                         <div className="text-gray-800 break-all">
-                          {serverSha}
+                          {serverShaLabel}
                         </div>
                       </div>
                     </div>

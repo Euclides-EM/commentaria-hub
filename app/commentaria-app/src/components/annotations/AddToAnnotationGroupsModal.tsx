@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 
@@ -26,23 +26,41 @@ export function AddToAnnotationGroupsModal({
   onClose,
   onSubmit,
 }: AddToAnnotationGroupsModalProps) {
-  const [selectedGroupIds, setSelectedGroupIds] = useState<string[]>([])
+  if (!isOpen) {
+    return null
+  }
 
-  useEffect(() => {
-    if (!isOpen) {
-      return
-    }
-    setSelectedGroupIds([])
-  }, [isOpen])
+  return (
+    <AddToAnnotationGroupsModalContent
+      selectedCount={selectedCount}
+      groups={groups}
+      isSubmitting={isSubmitting}
+      error={error}
+      onClose={onClose}
+      onSubmit={onSubmit}
+    />
+  )
+}
+
+type AddToAnnotationGroupsModalContentProps = Omit<
+  AddToAnnotationGroupsModalProps,
+  'isOpen'
+>
+
+function AddToAnnotationGroupsModalContent({
+  selectedCount,
+  groups,
+  isSubmitting,
+  error,
+  onClose,
+  onSubmit,
+}: AddToAnnotationGroupsModalContentProps) {
+  const [selectedGroupIds, setSelectedGroupIds] = useState<string[]>([])
 
   const selectedSet = useMemo(
     () => new Set(selectedGroupIds),
     [selectedGroupIds],
   )
-
-  if (!isOpen) {
-    return null
-  }
 
   return (
     <div

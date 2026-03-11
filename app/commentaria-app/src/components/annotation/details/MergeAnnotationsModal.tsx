@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useQueries } from '@tanstack/react-query'
 import {
   type annotation_Annotation,
@@ -34,6 +34,37 @@ export function MergeAnnotationsModal({
   onClose,
   onConfirm,
 }: MergeAnnotationsModalProps) {
+  if (!isOpen) {
+    return null
+  }
+
+  return (
+    <MergeAnnotationsModalContent
+      key={`${currentAnnotation.dataset_id}:${currentAnnotation.id}`}
+      currentAnnotation={currentAnnotation}
+      isMerging={isMerging}
+      error={error}
+      onClose={onClose}
+      onConfirm={onConfirm}
+    />
+  )
+}
+
+interface MergeAnnotationsModalContentProps {
+  currentAnnotation: annotation_Annotation
+  isMerging: boolean
+  error?: string | null
+  onClose: () => void
+  onConfirm: (annotationsToMerge: annotation_Reference[]) => void
+}
+
+function MergeAnnotationsModalContent({
+  currentAnnotation,
+  isMerging,
+  error,
+  onClose,
+  onConfirm,
+}: MergeAnnotationsModalContentProps) {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedKeys, setSelectedKeys] = useState<string[]>([])
   const [selectionError, setSelectionError] = useState<string | null>(null)
@@ -51,19 +82,9 @@ export function MergeAnnotationsModal({
         AnnotationsService.getDatasetsAnnotations({
           dataSetId: datasetId,
         }),
-      enabled: isOpen && datasetIds.length > 0,
+      enabled: datasetIds.length > 0,
     })),
   })
-
-  useEffect(() => {
-    if (!isOpen) {
-      return
-    }
-
-    setSearchQuery('')
-    setSelectedKeys([])
-    setSelectionError(null)
-  }, [currentAnnotation.id, isOpen])
 
   const options = useMemo<AnnotationOption[]>(() => {
     const datasetNameById = new Map<string, string>()
@@ -148,7 +169,7 @@ export function MergeAnnotationsModal({
     (option) => option.datasetId !== currentAnnotation.dataset_id,
   )
 
-  const isLoading = isOpen && annotationQueries.some((query) => query.isLoading)
+  const isLoading = annotationQueries.some((query) => query.isLoading)
   const queryError = annotationQueries.find((query) => query.error)?.error
 
   const toggleSelection = (option: AnnotationOption) => {
@@ -173,10 +194,6 @@ export function MergeAnnotationsModal({
         id: option.annotation.id,
       })),
     )
-  }
-
-  if (!isOpen) {
-    return null
   }
 
   return (

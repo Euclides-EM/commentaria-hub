@@ -103,7 +103,7 @@ export function ImagePane({
   const [isImageZoomEngaged, setIsImageZoomEngaged] = useState(false)
   const [isReplaceModalOpen, setIsReplaceModalOpen] = useState(false)
   const [replaceError, setReplaceError] = useState<string | null>(null)
-  const [imageVersion, setImageVersion] = useState(() => Date.now())
+  const [imageVersion, setImageVersion] = useState(0)
   const viewportRef = useRef<HTMLDivElement | null>(null)
   const fileInputRef = useRef<HTMLInputElement | null>(null)
   const lastHoverIdsKeyRef = useRef('')
@@ -140,10 +140,6 @@ export function ImagePane({
   })()
 
   const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}?v=${imageVersion}`
-
-  useEffect(() => {
-    setImageVersion(Date.now())
-  }, [datasetId, normalizedKey])
 
   useEffect(() => {
     const viewport = viewportRef.current
@@ -439,7 +435,7 @@ export function ImagePane({
         type: datasetId === TITLE_PAGES_DATASET_ID ? 'tp' : 'facsimile',
         file,
       })
-      setImageVersion(Date.now())
+      setImageVersion((current) => current + 1)
     } catch (error) {
       setReplaceError(
         error instanceof ApiError
