@@ -11,6 +11,7 @@ import {
 import { RestoreBackupModal } from '../modal/RestoreBackupModal'
 import { API_BASE_URL } from '../../config/api'
 import { timeAgo } from '../../utils/timeAgo'
+import { useAuthStore } from '../../store/authStore'
 
 const getBackupCreatedAt = (backupId: string): string | null => {
   const match = backupId.match(/(\d{8}[tT]\d{6}[zZ])/)
@@ -39,6 +40,7 @@ const isNetworkError = (error: unknown): boolean => {
 }
 
 export function BackupsView() {
+  const isAuthenticated = !!useAuthStore((store) => store.token)
   const { data: backups, isLoading, error } = useBackupsQuery()
   const createMutation = useCreateBackupMutation()
   const createFromZipMutation = useCreateBackupFromZipMutation()
@@ -93,37 +95,39 @@ export function BackupsView() {
             {(backups?.length || 0) === 1 ? '' : 's'}
           </p>
         </div>
-        <div className="flex items-center gap-2">
-          <input
-            ref={zipInputRef}
-            type="file"
-            accept=".zip,application/zip"
-            className="hidden"
-            onChange={handleZipSelected}
-          />
-          <Button
-            variant="primary"
-            className="px-3 py-2 text-sm"
-            onClick={() => createMutation.mutate()}
-            disabled={
-              createMutation.isPending || createFromZipMutation.isPending
-            }
-          >
-            {createMutation.isPending ? 'Creating...' : 'Create backup'}
-          </Button>
-          <Button
-            variant="primary"
-            className="px-3 py-2 text-sm"
-            onClick={() => zipInputRef.current?.click()}
-            disabled={
-              createMutation.isPending || createFromZipMutation.isPending
-            }
-          >
-            {createFromZipMutation.isPending
-              ? 'Uploading...'
-              : 'Upload from zip'}
-          </Button>
-        </div>
+        {isAuthenticated && (
+          <div className="flex items-center gap-2">
+            <input
+              ref={zipInputRef}
+              type="file"
+              accept=".zip,application/zip"
+              className="hidden"
+              onChange={handleZipSelected}
+            />
+            <Button
+              variant="primary"
+              className="px-3 py-2 text-sm"
+              onClick={() => createMutation.mutate()}
+              disabled={
+                createMutation.isPending || createFromZipMutation.isPending
+              }
+            >
+              {createMutation.isPending ? 'Creating...' : 'Create backup'}
+            </Button>
+            <Button
+              variant="primary"
+              className="px-3 py-2 text-sm"
+              onClick={() => zipInputRef.current?.click()}
+              disabled={
+                createMutation.isPending || createFromZipMutation.isPending
+              }
+            >
+              {createFromZipMutation.isPending
+                ? 'Uploading...'
+                : 'Upload from zip'}
+            </Button>
+          </div>
+        )}
       </div>
 
       <div className="overflow-auto px-2 py-4">
@@ -185,14 +189,16 @@ export function BackupsView() {
                           >
                             Download
                           </Button>
-                          <Button
-                            variant="danger"
-                            className="px-2 py-1 text-xs"
-                            onClick={() => setRestoreTargetId(backupId)}
-                            disabled={restoreMutation.isPending}
-                          >
-                            Restore
-                          </Button>
+                          {isAuthenticated && (
+                            <Button
+                              variant="danger"
+                              className="px-2 py-1 text-xs"
+                              onClick={() => setRestoreTargetId(backupId)}
+                              disabled={restoreMutation.isPending}
+                            >
+                              Restore
+                            </Button>
+                          )}
                         </div>
                       </td>
                     </tr>
@@ -204,18 +210,20 @@ export function BackupsView() {
         )}
       </div>
 
-      <RestoreBackupModal
-        isOpen={!!restoreTargetId}
-        backupId={restoreTargetId || ''}
-        isRestoring={restoreMutation.isPending}
-        error={restoreMutation.error}
-        onCancel={() => {
-          if (!restoreMutation.isPending) {
-            setRestoreTargetId(null)
-          }
-        }}
-        onConfirm={handleConfirmRestore}
-      />
+      {isAuthenticated && (
+        <RestoreBackupModal
+          isOpen={!!restoreTargetId}
+          backupId={restoreTargetId || ''}
+          isRestoring={restoreMutation.isPending}
+          error={restoreMutation.error}
+          onCancel={() => {
+            if (!restoreMutation.isPending) {
+              setRestoreTargetId(null)
+            }
+          }}
+          onConfirm={handleConfirmRestore}
+        />
+      )}
     </div>
   )
 }

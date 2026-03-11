@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Button } from '../core/Button.tsx'
 import { ImportAnnotationsModal } from './ImportAnnotationsModal.tsx'
 import { CreateAnnotationModal } from './CreateAnnotationModal.tsx'
+import { useAuthStore } from '../../store/authStore.ts'
 
 interface AnnotationEmptyStateProps {
   dataSetId: string
@@ -15,10 +16,15 @@ export function AnnotationActions({
   const [isImportUrlOpen, setIsImportUrlOpen] = useState(false)
   const [isImportZipOpen, setIsImportZipOpen] = useState(false)
   const [isCreateOpen, setIsCreateOpen] = useState(false)
+  const isAuthenticated = !!useAuthStore((store) => store.token)
+
+  if (!isAuthenticated) {
+    return null
+  }
 
   return (
     <div className="w-[calc(100%-1.5rem)] max-w-[80vw] mx-auto mt-6 mb-3 font-medium text-left">
-      <p>Annotaion import</p>
+      <p>Annotation import</p>
       <div className="mt-4 flex flex-wrap gap-3 justify-start">
         <Button
           onClick={() => setIsImportUrlOpen(true)}
