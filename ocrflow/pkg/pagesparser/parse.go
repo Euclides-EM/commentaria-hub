@@ -88,11 +88,13 @@ func Range(pageStr string) ([]string, error) {
 		}
 		start, err := PageNumber(bounds[0])
 		if err != nil {
-			return nil, err
+			pages = append(pages, r)
+			continue
 		}
 		end, err := PageNumber(bounds[1])
 		if err != nil {
-			return nil, err
+			pages = append(pages, r)
+			continue
 		}
 		if end < start {
 			return nil, fmt.Errorf("invalid page number range: %s", r)
