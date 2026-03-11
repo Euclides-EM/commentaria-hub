@@ -2,6 +2,7 @@ import {
   getTeiZoneToServerTextBlockId,
   getTeiOriginalEditableLines,
   getTeiHighlightCategories,
+  getTeiParagraphSelection,
   getTeiSurfaceZones,
   getTeiTranslations,
   hasTeiCertaintyDegrees,
@@ -254,21 +255,6 @@ const getTooltipItemsKey = (items: TeiTooltipItem[]) =>
     .sort()
     .join('|')
 
-const getOffsetInParagraph = (
-  paragraph: Element,
-  node: Node,
-  offset: number,
-): number | null => {
-  try {
-    const range = document.createRange()
-    range.setStart(paragraph, 0)
-    range.setEnd(node, offset)
-    return range.toString().length
-  } catch {
-    return null
-  }
-}
-
 const getSelectionDraft = (
   root: HTMLElement,
   selection: Selection,
@@ -308,38 +294,17 @@ const getSelectionDraft = (
     return null
   }
 
-  const startOffset = getOffsetInParagraph(
-    startParagraph,
-    range.startContainer,
-    range.startOffset,
-  )
-  const endOffset = getOffsetInParagraph(
-    startParagraph,
-    range.endContainer,
-    range.endOffset,
-  )
-  if (startOffset == null || endOffset == null) {
-    return null
-  }
-
-  const start = Math.min(startOffset, endOffset)
-  const end = Math.max(startOffset, endOffset)
-  if (end <= start) {
-    return null
-  }
-
-  const paragraphText = startParagraph.textContent || ''
-  const surface = paragraphText.slice(start, end)
-  if (!surface.trim()) {
+  const paragraphSelection = getTeiParagraphSelection(startParagraph, range)
+  if (!paragraphSelection) {
     return null
   }
 
   const rect = range.getBoundingClientRect()
   return {
     paragraphIndex,
-    start,
-    end,
-    surface,
+    start: paragraphSelection.start,
+    end: paragraphSelection.end,
+    surface: paragraphSelection.surface,
     x: rect.left + rect.width / 2 + 8,
     y: rect.top - 34,
   }
@@ -595,6 +560,13 @@ const Tei = ({
         setSelectionState(null)
       }}
       onMouseMove={(event) => {
+        if (selectionState) {
+          onHoverLineMatchIds([])
+          clearHideTooltipTimer()
+          setTooltipState(null)
+          return
+        }
+
         const elements = document.elementsFromPoint(
           event.clientX,
           event.clientY,
@@ -814,7 +786,21 @@ const sameStringArray = (left: string[] | null, right: string[]) => {
 const toResultValues = (highlights: DraftHighlight[]): feature_ResultValue[] =>
   highlights
     .map((highlight) => {
-      const properties: Record<string, string> = {}
+      const properties: Record<string, string> = {
+        paragraph_index: String(highlight.paragraphIndex),
+        start: String(highlight.start),
+        end: String(highlight.end),
+        category_id: highlight.categoryId || highlight.featureId,
+      }
+      if (highlight.sourceId && !highlight.sourceId.startsWith('manual:')) {
+        properties.highlight_id = highlight.sourceId
+      }
+      if (highlight.fromAnchorId) {
+        properties.from_anchor_id = highlight.fromAnchorId
+      }
+      if (highlight.toAnchorId) {
+        properties.to_anchor_id = highlight.toAnchorId
+      }
       if (highlight.normalized) {
         properties.normalized = highlight.normalized
       }
@@ -857,6 +843,19 @@ const groupByFeature = (highlights: DraftHighlight[]) => {
     grouped[highlight.featureId].push(highlight)
   }
   return grouped
+}
+
+const hasTeiPositionProperties = (value: feature_ResultValue) => {
+  const properties = value.properties || {}
+  const paragraphIndex = Number.parseInt(properties.paragraph_index || '', 10)
+  const start = Number.parseInt(properties.start || '', 10)
+  const end = Number.parseInt(properties.end || '', 10)
+  return (
+    !Number.isNaN(paragraphIndex) &&
+    !Number.isNaN(start) &&
+    !Number.isNaN(end) &&
+    end > start
+  )
 }
 
 const toDraftHighlightsFromResults = (
@@ -1630,13 +1629,19 @@ export function TeiPane({
     const draftByFeature = groupByFeature(draftHighlights)
     const payloads: feature_Result[] = changedFeatureIds.map((featureId) => {
       const existing = baselineResultsByFeature[featureId]
+      const preservedValues = (existing?.values || []).filter(
+        (value) => !hasTeiPositionProperties(value),
+      )
       return {
         ...(existing || {}),
         dataset_id: datasetId,
         annotation_id: annotationId,
         feature_id: featureId,
         page_key: existing?.page_key || String(currentPageOrKey),
-        values: toResultValues(draftByFeature[featureId] || []),
+        values: [
+          ...preservedValues,
+          ...toResultValues(draftByFeature[featureId] || []),
+        ],
       }
     })
 
