@@ -635,9 +635,6 @@ const Tei = ({
           scheduleHideTooltip()
           return
         }
-        if (tooltipState) {
-          return
-        }
         const position = getTooltipPosition(hitElement)
         setSelectionState(null)
         setTooltipState((previous) => {

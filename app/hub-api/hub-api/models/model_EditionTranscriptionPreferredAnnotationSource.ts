@@ -2,10 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_ImageUpload = {
-    filename?: string;
-    path?: string;
-    success?: boolean;
-    uploaded?: number;
-};
-
+export type model_EditionTranscriptionPreferredAnnotationSource = 'manual' | 'calculated';

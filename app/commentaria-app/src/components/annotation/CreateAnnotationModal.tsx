@@ -145,6 +145,7 @@ export function CreateAnnotationModal({
               hidden,
               origin_annotation_id: originAnnotationId || undefined,
             },
+            copyFeatureResults: false,
           })
       setState({ annotationId: annotation.id! })
       refetch()

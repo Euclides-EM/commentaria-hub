@@ -6,6 +6,10 @@ import type { annotationrule_ApplyRulesAction } from './annotationrule_ApplyRule
 export type annotationrule_ApplyRules = {
     action?: annotationrule_ApplyRulesAction;
     /**
+     * CopyFeatureResults is used only if the action is ApplyRulesActionCreateNew. If true, the feature results of the original annotation will be copied to the new annotation.
+     */
+    copy_feature_results?: boolean;
+    /**
      * Description is used only if the action is ApplyRulesActionCreateNew
      */
     description?: string;

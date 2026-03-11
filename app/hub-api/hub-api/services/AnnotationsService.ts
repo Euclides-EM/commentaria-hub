@@ -6,6 +6,7 @@ import type { annotation_Annotation } from '../models/annotation_Annotation';
 import type { annotation_DuplicateRequest } from '../models/annotation_DuplicateRequest';
 import type { annotation_ExpectedBlocks } from '../models/annotation_ExpectedBlocks';
 import type { annotation_Index } from '../models/annotation_Index';
+import type { annotation_MergeRequest } from '../models/annotation_MergeRequest';
 import type { annotation_Search } from '../models/annotation_Search';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
@@ -42,6 +43,7 @@ export class AnnotationsService {
     public static postDatasetsAnnotations({
         dataSetId,
         annotation,
+        copyFeatureResults,
     }: {
         /**
          * Dataset ID
@@ -51,12 +53,19 @@ export class AnnotationsService {
          * Annotation to create
          */
         annotation: annotation_Annotation,
+        /**
+         * Whether to copy feature results from an existing annotation, only relevant if the new annotation is created from an existing one
+         */
+        copyFeatureResults: boolean,
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/datasets/{dataSetId}/annotations',
             path: {
                 'dataSetId': dataSetId,
+            },
+            query: {
+                'copy_feature_results': copyFeatureResults,
             },
             body: annotation,
         });
@@ -434,6 +443,40 @@ export class AnnotationsService {
         });
     }
     /**
+     * Merge Annotations
+     * Merge multiple annotations into a new annotation for a specific dataset.
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsMerge({
+        dataSetId,
+        id,
+        mergeRequest,
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * ID of the annotation to merge into.
+         */
+        id: string,
+        /**
+         * Annotation merge details
+         */
+        mergeRequest: annotation_MergeRequest,
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/merge',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            body: mergeRequest,
+        });
+    }
+    /**
      * Create an annotation review based on expected blocks
      * Create an annotation review by providing expected blocks for comparison
      * @returns annotation_ExpectedBlocks OK
@@ -519,6 +562,7 @@ export class AnnotationsService {
         dataSetId,
         id,
         pageNumOrKey,
+        fallbackToOrigin,
         feature,
     }: {
         /**
@@ -534,6 +578,10 @@ export class AnnotationsService {
          */
         pageNumOrKey: string,
         /**
+         * Whether to fallback to results of the origin annotation if no feature results are found. By default, it's true.
+         */
+        fallbackToOrigin: boolean,
+        /**
          * Features to include in TEI data (can be specified multiple times)
          */
         feature?: Array<string>,
@@ -548,6 +596,7 @@ export class AnnotationsService {
             },
             query: {
                 'feature': feature,
+                'fallback_to_origin': fallbackToOrigin,
             },
         });
     }

@@ -18,6 +18,7 @@ export class FeatureResultsService {
         id,
         keys,
         features,
+        fallbackToOrigin,
     }: {
         /**
          * Dataset ID
@@ -35,6 +36,10 @@ export class FeatureResultsService {
          * Comma-separated list of feature names to filter results
          */
         features?: string,
+        /**
+         * Whether to fallback to results of the origin annotation if no feature results are found.
+         */
+        fallbackToOrigin?: boolean,
     }): CancelablePromise<Array<feature_Result>> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -46,6 +51,7 @@ export class FeatureResultsService {
             query: {
                 'keys': keys,
                 'features': features,
+                'fallback_to_origin': fallbackToOrigin,
             },
         });
     }
@@ -59,6 +65,7 @@ export class FeatureResultsService {
         dataSetId,
         id,
         result,
+        pushToOrigin,
     }: {
         /**
          * Dataset ID
@@ -72,6 +79,10 @@ export class FeatureResultsService {
          * Feature results data
          */
         result: Array<feature_Result>,
+        /**
+         * Whether to push the created results to the origin annotation.
+         */
+        pushToOrigin?: boolean,
     }): CancelablePromise<Array<feature_Result>> {
         return __request(OpenAPI, {
             method: 'POST',
@@ -79,6 +90,9 @@ export class FeatureResultsService {
             path: {
                 'dataSetId': dataSetId,
                 'id': id,
+            },
+            query: {
+                'push_to_origin': pushToOrigin,
             },
             body: result,
         });

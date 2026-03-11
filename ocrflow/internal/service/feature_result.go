@@ -81,6 +81,6 @@ func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *featu
 	return nil
 }
 
-func (r *Result) CopyResults(datasetID string, srcAnnID string, dstAnnID string) error {
-	return r.store.CopyResults(datasetID, srcAnnID, dstAnnID)
+func (r *Result) CopyResults(datasetID, srcAnnID, dstDatasetID, dstAnnID string) error {
+	return r.store.CopyResults(datasetID, srcAnnID, dstDatasetID, dstAnnID)
 }

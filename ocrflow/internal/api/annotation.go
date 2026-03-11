@@ -2,9 +2,7 @@ package api
 
 import (
 	"fmt"
-	"io"
 	"net/http"
-	"os"
 	"strconv"
 	"strings"
 
@@ -156,6 +154,31 @@ func (h *Handlers) DuplicateAnnotation(r *http.Request) (any, error) {
 	return h.deps.AnnotationSvc.Duplicate(datasetID, req.SourceAnnotationID, req.Name, req.Description, req.CopyFeatureResults)
 }
 
+// MergeAnnotation godoc
+// @Summary      Merge Annotations
+// @Description  Merge multiple annotations into a new annotation for a specific dataset.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "ID of the annotation to merge into."
+// @Param        mergeRequest  body      annotation.MergeRequest  true  "Annotation merge details"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   annotation.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/merge [put]
+func (h *Handlers) MergeAnnotation(r *http.Request) (any, error) {
+	datasetID, annID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
+	}
+
+	var req annotation.MergeRequest
+	if err = DecodeBody(r, &req); err != nil {
+		return nil, err
+	}
+
+	return h.deps.AnnotationSvc.Merge(datasetID, annID, req)
+}
+
 // GetAnnotationZipFile godoc
 // @Summary      Upload ZIP File
 // @Description  Upload a ZIP file containing annotations.
@@ -216,7 +239,7 @@ func (h *Handlers) GetAnnotationZipFile(r *http.Request) (any, error) {
 		OCRModelID:         r.FormValue("ocr_model_id"),
 		SegmentModelID:     r.FormValue("segment_model_id"),
 	}
-	return h.deps.AnnotationSvc.CreateFromZip(aum, func(dstPath string) error { return httpwrapper.StoreUncompressedDir(dstPath, r) })
+	return h.deps.AnnotationSvc.CreateFromZip(aum, func(dstPath string) error { return httpwrapper.StoreUncompressedDirFromRequest(dstPath, r) })
 }
 
 // GetAnnotationURL godoc
@@ -296,23 +319,8 @@ func (h *Handlers) GetAnnotationURL(r *http.Request) (any, error) {
 		}
 		src := resp.Body
 		defer src.Close()
-		dst, err := os.CreateTemp("", "upload-*.zip")
-		if err != nil {
-			return fmt.Errorf("failed to create file: %w", err)
-		}
-		defer dst.Close()
-		defer os.Remove(dst.Name())
 
-		_, err = io.Copy(dst, src)
-		if err != nil {
-			return fmt.Errorf("failed to save file: %w", err)
-		}
-
-		if err := futils.Unzip(dst.Name(), dstPath); err != nil {
-			return fmt.Errorf("failed to unzip file: %w", err)
-		}
-
-		return nil
+		return futils.UnzipFromReader(dstPath, src)
 	})
 }
 

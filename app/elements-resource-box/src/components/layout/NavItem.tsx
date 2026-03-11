@@ -13,7 +13,7 @@ import {
 } from "./routes.ts";
 import { MACTUTOR_URL } from "../../constants";
 import { ActionsMenu } from "./ActionsMenu.tsx";
-import { inEditMode, inEuclidesMode } from "../../utils/mode.ts";
+import { inEuclidesMode } from "../../utils/mode.ts";
 import {
   preserveQueryParams,
   useNavigateWithQuery,
@@ -76,12 +76,22 @@ const StyledExternalIcon = styled(FaExternalLinkAlt)`
 `;
 
 const DevNavItem = styled.li<{ mobile: boolean; hideSeparator?: boolean }>`
+  display: flex;
+  align-items: center;
+
   ${({ mobile }) =>
     mobile &&
     css`
       margin-top: 1rem;
       padding-top: 1rem;
       border-top: 1px solid #555;
+      margin-bottom: 1rem;
+    `};
+  ${({ mobile }) =>
+    !mobile &&
+    css`
+      margin-left: auto;
+      margin-right: 2rem;
     `};
   ${({ mobile, hideSeparator }) =>
     !mobile &&
@@ -156,6 +166,8 @@ const NavList = styled.ul<{ mobile: boolean }>`
     css`
       display: flex;
       align-items: center;
+      flex: 1;
+      min-width: 0;
       gap: 0.6rem;
     `};
 `;
@@ -207,6 +219,7 @@ export const NavItems = ({ mobile }: { mobile: boolean }) => {
           to={MAP_ROUTE}
           active={location.pathname === MAP_ROUTE}
           mobile={mobile}
+          hideSeparator={inEuclidesMode()}
         >
           Map
         </NavItem>
@@ -221,18 +234,16 @@ export const NavItems = ({ mobile }: { mobile: boolean }) => {
             MacTutor Index Graph
           </NavItem>
         )}
-        {inEditMode() && (
-          <DevNavItem mobile={mobile} hideSeparator>
-            <ActionsMenu
-              mobile={mobile}
-              onShowCreateModal={() => {
-                window.location.href = withAppBasePath(
-                  preserveQueryParams(ITEM_EDIT_ROUTE, window.location.search),
-                );
-              }}
-            />
-          </DevNavItem>
-        )}
+        <DevNavItem mobile={mobile} hideSeparator>
+          <ActionsMenu
+            mobile={mobile}
+            onShowCreateModal={() => {
+              window.location.href = withAppBasePath(
+                preserveQueryParams(ITEM_EDIT_ROUTE, window.location.search),
+              );
+            }}
+          />
+        </DevNavItem>
       </NavList>
     </>
   );
