@@ -59,15 +59,32 @@ export function MultiSelectDropdown<T>({
 
   const menuStyle = useMemo(() => {
     if (!menuRect) return undefined
+    const viewportPadding = 8
+    const gap = 4
     const maxWidth = Math.max(240, menuRect.width)
-    const width = Math.min(window.innerWidth - 16, maxWidth)
-    const left = Math.min(menuRect.left, window.innerWidth - width - 8)
+    const width = Math.min(window.innerWidth - viewportPadding * 2, maxWidth)
+    const left = Math.max(
+      viewportPadding,
+      Math.min(menuRect.left, window.innerWidth - width - viewportPadding),
+    )
+    const spaceBelow = window.innerHeight - menuRect.bottom - viewportPadding
+    const spaceAbove = menuRect.top - viewportPadding
+    const shouldOpenUp = spaceBelow < 160 && spaceAbove > spaceBelow
+    const maxHeight = Math.max(
+      120,
+      (shouldOpenUp ? spaceAbove : spaceBelow) - gap,
+    )
     return {
       position: 'fixed' as const,
-      display: 'inline-table' as const,
-      top: menuRect.bottom + 4,
+      display: 'block' as const,
       left,
       width,
+      maxHeight,
+      overflowY: 'auto' as const,
+      boxSizing: 'border-box' as const,
+      ...(shouldOpenUp
+        ? { bottom: window.innerHeight - menuRect.top + gap }
+        : { top: menuRect.bottom + gap }),
       zIndex: 50,
     }
   }, [menuRect])
@@ -170,7 +187,7 @@ export function MultiSelectDropdown<T>({
               onClick={() => setIsOpen(false)}
             />
             <div
-              className="bg-white border border-gray-300 rounded-md shadow-lg z-50 max-h-64 overflow-y-auto"
+              className="bg-white border border-gray-300 rounded-md shadow-lg z-50"
               style={menuStyle}
             >
               {allItems.length === 0 ? (
