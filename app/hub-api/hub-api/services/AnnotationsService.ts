@@ -600,4 +600,52 @@ export class AnnotationsService {
             },
         });
     }
+    /**
+     * Get Annotation TEIs
+     * Get the TEI representations of a specific annotation for a specific dataset and multiple pages.
+     * @returns string An XML document containing multiple TEI entries, each representing the TEI for a specific page number or key.
+     * @throws ApiError
+     */
+    public static getDatasetsAnnotationsTeis({
+        dataSetId,
+        id,
+        pageNumOrKey,
+        fallbackToOrigin,
+        feature,
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Page Numbers or Keys (can be specified multiple times)
+         */
+        pageNumOrKey: Array<string>,
+        /**
+         * Whether to fallback to results of the origin annotation if no feature results are found. By default, it's true.
+         */
+        fallbackToOrigin: boolean,
+        /**
+         * Features to include in TEI data (can be specified multiple times)
+         */
+        feature?: Array<string>,
+    }): CancelablePromise<string> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/datasets/{dataSetId}/annotations/{id}/teis',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'pageNumOrKey': pageNumOrKey,
+                'feature': feature,
+                'fallback_to_origin': fallbackToOrigin,
+            },
+        });
+    }
 }
