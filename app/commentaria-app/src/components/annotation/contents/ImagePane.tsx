@@ -6,6 +6,7 @@ import {
   useRef,
   useState,
 } from 'react'
+import useLocalStorageState from 'use-local-storage-state'
 import { useAppState } from '../../../context/useAppState.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
 import {
@@ -83,7 +84,6 @@ type ImagePaneProps = {
   onResizeStart?: () => void
   surfaceZones?: TeiSurfaceZone[]
   activeLineMatchIds?: string[]
-  enableHoverSync?: boolean
   onHoverLineMatchIds?: (ids: string[]) => void
 }
 
@@ -92,7 +92,6 @@ export function ImagePane({
   onResizeStart,
   surfaceZones = [],
   activeLineMatchIds = [],
-  enableHoverSync = true,
   onHoverLineMatchIds,
 }: ImagePaneProps) {
   const {
@@ -104,6 +103,10 @@ export function ImagePane({
   const [isReplaceModalOpen, setIsReplaceModalOpen] = useState(false)
   const [replaceError, setReplaceError] = useState<string | null>(null)
   const [imageVersion, setImageVersion] = useState(0)
+  const [enableHoverSync, setEnableHoverSync] = useLocalStorageState(
+    'hoverSyncEnabled',
+    { defaultValue: true, storageSync: false },
+  )
   const viewportRef = useRef<HTMLDivElement | null>(null)
   const fileInputRef = useRef<HTMLInputElement | null>(null)
   const lastHoverIdsKeyRef = useRef('')
@@ -127,6 +130,7 @@ export function ImagePane({
   const currentImageName =
     imageKeys.find((image) => image.key === String(currentPageOrKey))?.key ||
     String(currentPageOrKey)
+  const hasSurfaceZones = surfaceZones.length > 0
   const normalizedKey = (() => {
     const num = Number(currentPageOrKey)
 
@@ -352,6 +356,13 @@ export function ImagePane({
     }
   }, [isImageZoomEngaged, onHoverLineMatchIds])
 
+  useEffect(() => {
+    if (!enableHoverSync || !hasSurfaceZones) {
+      onHoverLineMatchIds?.([])
+      lastHoverIdsKeyRef.current = ''
+    }
+  }, [enableHoverSync, hasSurfaceZones, onHoverLineMatchIds])
+
   const emitHoverIds = (ids: string[]) => {
     const key = ids.join('|')
     if (key === lastHoverIdsKeyRef.current) {
@@ -462,15 +473,26 @@ export function ImagePane({
             ? `Page ${currentPageOrKey} Facsimile`
             : currentImageName}
         </div>
-        <button
+        {hasSurfaceZones && (
+          <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium text-gray-700">
+            <input
+              type="checkbox"
+              checked={enableHoverSync}
+              onChange={(event) => setEnableHoverSync(event.target.checked)}
+              className="rounded border-gray-300"
+            />
+            <span>Show highlights</span>
+          </label>
+        )}
+        <Button
           type="button"
           onClick={() => window.open(imageUrl, '_blank', 'noopener,noreferrer')}
-          className="h-7 w-7 shrink-0 rounded-md bg-white border border-gray-200 text-gray-600 hover:text-gray-800 hover:bg-white shadow-sm flex items-center justify-center text-sm"
+          className="h-7 w-7 shrink-0 rounded-md flex items-center justify-center text-sm"
           title="Open image in new tab"
           aria-label="Open image in new tab"
         >
           ⤢
-        </button>
+        </Button>
         {isAuthenticated && (
           <Button
             type="button"

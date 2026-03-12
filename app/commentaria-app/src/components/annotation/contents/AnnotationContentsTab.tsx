@@ -18,10 +18,6 @@ export function AnnotationContentsTab() {
     { defaultValue: 560, storageSync: false },
   )
   const [isResizingImagePane, setIsResizingImagePane] = useState(false)
-  const [hoverSyncEnabled, setHoverSyncEnabled] = useLocalStorageState(
-    'hoverSyncEnabled',
-    { defaultValue: true, storageSync: false },
-  )
   const [activeLineMatchIds, setActiveLineMatchIds] = useState<string[]>([])
   const [surfaceZones, setSurfaceZones] = useState<TeiSurfaceZone[]>([])
   const contentRef = useRef<HTMLDivElement | null>(null)
@@ -33,13 +29,6 @@ export function AnnotationContentsTab() {
         ? previous
         : normalized,
     )
-  }
-
-  const handleEnableHoverSyncChange = (enabled: boolean) => {
-    setHoverSyncEnabled(enabled)
-    if (!enabled) {
-      setActiveLineMatchIds([])
-    }
   }
 
   useEffect(() => {
@@ -101,8 +90,7 @@ export function AnnotationContentsTab() {
             showResizeHandle
             onResizeStart={() => setIsResizingImagePane(true)}
             surfaceZones={surfaceZones}
-            activeLineMatchIds={hoverSyncEnabled ? activeLineMatchIds : []}
-            enableHoverSync={hoverSyncEnabled}
+            activeLineMatchIds={activeLineMatchIds}
             onHoverLineMatchIds={handleHoverLineMatchIds}
           />
         </div>
@@ -110,9 +98,7 @@ export function AnnotationContentsTab() {
           <TeiPane
             key={`${datasetId}:${annotationId}:${String(currentPageOrKey)}`}
             activeLineMatchIds={activeLineMatchIds}
-            enableHoverSync={hoverSyncEnabled}
             onHoverLineMatchIds={handleHoverLineMatchIds}
-            onEnableHoverSyncChange={handleEnableHoverSyncChange}
             onSurfaceZonesChange={setSurfaceZones}
           />
         </div>

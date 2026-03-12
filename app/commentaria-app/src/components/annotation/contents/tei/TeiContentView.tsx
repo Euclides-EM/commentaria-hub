@@ -166,7 +166,6 @@ type TeiContentViewProps = {
   editable: boolean
   canAddHighlight: boolean
   activeLineMatchIds: string[]
-  enableHoverSync: boolean
   onHoverLineMatchIds: (ids: string[]) => void
   onRequestAddHighlight: (selection: SelectionDraft) => void
   onRequestRemoveHighlight: (item: TeiTooltipItem) => void
@@ -185,7 +184,6 @@ export const TeiContentView = ({
   editable,
   canAddHighlight,
   activeLineMatchIds,
-  enableHoverSync,
   onHoverLineMatchIds,
   onRequestAddHighlight,
   onRequestRemoveHighlight,
@@ -256,15 +254,14 @@ export const TeiContentView = ({
     )
     lineElements.forEach((lineElement) => {
       const ids = parseLineMatchIds(lineElement.dataset.teiLineMatchIds)
-      const isActive =
-        enableHoverSync && ids.length > 0 && ids.some((id) => activeSet.has(id))
+      const isActive = ids.length > 0 && ids.some((id) => activeSet.has(id))
       if (isActive) {
         lineElement.setAttribute('data-tei-corresp-hovered', 'true')
       } else {
         lineElement.removeAttribute('data-tei-corresp-hovered')
       }
     })
-  }, [activeLineMatchIds, enableHoverSync, html])
+  }, [activeLineMatchIds, html])
 
   const tooltip =
     tooltipState &&
@@ -433,7 +430,7 @@ export const TeiContentView = ({
               )?.getAttribute('data-tei-line-match-ids'),
             )
           : []
-        onHoverLineMatchIds(enableHoverSync ? lineMatchIds : [])
+        onHoverLineMatchIds(lineMatchIds)
 
         if (tooltipHoveredRef.current) {
           return
