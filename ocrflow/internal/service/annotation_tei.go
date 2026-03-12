@@ -43,8 +43,8 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 		return nil, err
 	}
 
-	if !ann.Ocred && !ann.Segmented {
-		return nil, fmt.Errorf("annotation %s is not OCRed or segmented", ann.ID)
+	if !t.annotationCanBeRepresentedAsTEI(ann) {
+		return nil, fmt.Errorf("annotation %s cannot be represented as TEI", ann.ID)
 	}
 
 	features, err = t.normalizeFeatureIDs(datasetID, features)
@@ -203,7 +203,7 @@ func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []st
 			return nil, err
 		}
 
-		if !ann.Ocred && !ann.Segmented {
+		if !t.annotationCanBeRepresentedAsTEI(ann) {
 			continue
 		}
 
@@ -224,6 +224,10 @@ func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []st
 		return nil, fmt.Errorf("failed to serialize combined TEI to XML: %v", err)
 	}
 	return xml, nil
+}
+
+func (t *AnnotationTEI) annotationCanBeRepresentedAsTEI(ann *annotation.Annotation) bool {
+	return ann.Ocred || ann.LinesDetected || ann.Segmented
 }
 
 func buildItems(results []*feature.Result, feats []*feature.Feature, transcription []string) []tei2.EntityItem {
