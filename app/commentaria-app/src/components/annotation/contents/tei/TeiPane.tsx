@@ -744,7 +744,11 @@ const featureSelectStyles: StylesConfig<FeatureOption, true> = {
   }),
   valueContainer: (base) => ({
     ...base,
-    padding: '0 6px',
+    padding: '6px',
+    gap: '6px',
+    rowGap: '6px',
+    columnGap: '6px',
+    alignItems: 'flex-start',
   }),
   menuPortal: (base) => ({ ...base, zIndex: 1000 }),
   option: (base, state) => ({
@@ -757,6 +761,7 @@ const featureSelectStyles: StylesConfig<FeatureOption, true> = {
     backgroundColor: state.data.color || '#f2f2f2',
     borderRadius: 4,
     padding: '0 2px',
+    margin: 0,
   }),
   multiValueLabel: (base) => ({
     ...base,
@@ -772,6 +777,16 @@ const featureSelectStyles: StylesConfig<FeatureOption, true> = {
     color: '#111827',
     padding: '0 3px',
     ':hover': { backgroundColor: 'rgba(255,255,255,0.6)', color: '#111827' },
+  }),
+  inputContainer: (base) => ({
+    ...base,
+    margin: 0,
+    padding: 0,
+  }),
+  input: (base) => ({
+    ...base,
+    margin: 0,
+    padding: 0,
   }),
 }
 
