@@ -43,8 +43,8 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 		return nil, err
 	}
 
-	if !ann.Ocred {
-		return nil, fmt.Errorf("annotation %s is not OCRed", ann.ID)
+	if !ann.Ocred && !ann.Segmented {
+		return nil, fmt.Errorf("annotation %s is not OCRed or segmented", ann.ID)
 	}
 
 	// if no features specified, default to all default features for the dataset.
