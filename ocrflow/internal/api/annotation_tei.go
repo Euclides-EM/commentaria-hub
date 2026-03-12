@@ -39,6 +39,40 @@ func (h *Handlers) GetAnnotationTEI(r *http.Request) ([]byte, error) {
 	return h.deps.AnnotationTEI.GetTEI(datasetID, annotationID, pageNumOrKey, features, fallbackToOrigin)
 }
 
+// GetAnnotationTEIs godoc
+// @Summary      Get Annotation TEIs
+// @Description  Get the TEI representations of a specific annotation for a specific dataset and multiple pages.
+// @Tags         Annotations
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id   path      string  true  "Annotation ID"
+// @Param        pageNumOrKey   query     []string  true  "Page Numbers or Keys (can be specified multiple times)" collectionFormat(multi)
+// @Param        feature   query     []string  false "Features to include in TEI data (can be specified multiple times)"  collectionFormat(multi)
+// @Param        fallback_to_origin   query     bool  true "Whether to fallback to results of the origin annotation if no feature results are found. By default, it's true."
+// @Produce      application/xml
+// @Success      200 {string}   string "An XML document containing multiple TEI entries, each representing the TEI for a specific page number or key."
+// @Router       /datasets/{dataSetId}/annotations/{id}/teis [get]
+func (h *Handlers) GetAnnotationTEIs(r *http.Request) ([]byte, error) {
+	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
+	if err != nil {
+		return nil, err
+	}
+
+	pageNumOrKeys := r.URL.Query()["pageNumOrKey"]
+	if len(pageNumOrKeys) == 0 {
+		return nil, fmt.Errorf("missing page number or key in query")
+	}
+	if len(pageNumOrKeys) > 100 {
+		return nil, fmt.Errorf("too many page numbers or keys requested; maximum is 100")
+	}
+	features := r.URL.Query()["feature"]
+
+	fallbackToOrigin, err := strconv.ParseBool(r.URL.Query().Get("fallback_to_origin"))
+	if err != nil {
+		fallbackToOrigin = true
+	}
+	return h.deps.AnnotationTEI.GetTEIs(datasetID, annotationID, pageNumOrKeys, features, fallbackToOrigin)
+}
+
 // GetEditionTEI godoc
 // @Summary      Get Edition TEI
 // @Description  Get the TEI representation of a specific edition for a specific page.

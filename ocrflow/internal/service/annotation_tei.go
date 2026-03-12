@@ -47,17 +47,9 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 		return nil, fmt.Errorf("annotation %s is not OCRed or segmented", ann.ID)
 	}
 
-	// if no features specified, default to all default features for the dataset.
-	if len(features) == 0 {
-		allFeatures, err := t.featureSvc.ListFeatures(datasetID, nil)
-		if err != nil {
-			return nil, fmt.Errorf("failed to list features for dataset %s: %v", datasetID, err)
-		}
-		features = lo.Map(lo.Filter(allFeatures, func(f *feature.Feature, _ int) bool {
-			return f.IsDefault
-		}), func(f *feature.Feature, _ int) string {
-			return f.ID
-		})
+	features, err = t.normalizeFeatureIDs(datasetID, features)
+	if err != nil {
+		return nil, fmt.Errorf("failed to normalize feature IDs for dataset %s: %v", datasetID, err)
 	}
 
 	tei, err := t.getTEI(ann, pageNumOrKey, features, fallbackToOrigin)
@@ -71,6 +63,23 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 	}
 
 	return xml, nil
+}
+
+func (t *AnnotationTEI) normalizeFeatureIDs(datasetID string, features []string) ([]string, error) {
+	if len(features) != 0 {
+		return features, nil
+	}
+
+	// if no features specified, default to all default features for the dataset.
+	allFeatures, err := t.featureSvc.ListFeatures(datasetID, nil)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list features for dataset %s: %v", datasetID, err)
+	}
+	return lo.Map(lo.Filter(allFeatures, func(f *feature.Feature, _ int) bool {
+		return f.IsDefault
+	}), func(f *feature.Feature, _ int) string {
+		return f.ID
+	}), nil
 }
 
 func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrKey string) (string, error) {
@@ -179,6 +188,42 @@ func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []st
 		translations["en"] = append(translations["en"], strings.Split(*edition.ImprintEN, "\n")...)
 	}
 	return transcription, translations, nil
+}
+
+func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []string, features []string, fallbackToOrigin bool) ([]byte, error) {
+	features, err := t.normalizeFeatureIDs(datasetID, features)
+	if err != nil {
+		return nil, fmt.Errorf("failed to normalize feature IDs for dataset %s: %v", datasetID, err)
+	}
+
+	teis := map[string]*teimodel.TEI{}
+	for _, key := range keys {
+		ann, err := t.annotationSvc.Get(datasetID, annotationID)
+		if err != nil {
+			return nil, err
+		}
+
+		if !ann.Ocred && !ann.Segmented {
+			continue
+		}
+
+		tei, err := t.getTEI(ann, key, features, fallbackToOrigin)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get TEI for annotation %s: %v", ann.ID, err)
+		}
+
+		teis[key] = tei
+	}
+
+	combinedTEI, err := tei2.CombineTEIsByKey(teis)
+	if err != nil {
+		return nil, fmt.Errorf("failed to combine TEIs: %v", err)
+	}
+	xml, err := combinedTEI.ToXML()
+	if err != nil {
+		return nil, fmt.Errorf("failed to serialize combined TEI to XML: %v", err)
+	}
+	return xml, nil
 }
 
 func buildItems(results []*feature.Result, feats []*feature.Feature, transcription []string) []tei2.EntityItem {

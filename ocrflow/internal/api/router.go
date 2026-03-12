@@ -106,6 +106,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/search", httpwrapper.Get(h.SearchAnnotation).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNumOrKey}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/teis", httpwrapper.GetXML(h.GetAnnotationTEIs).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/features", httpwrapper.Get(h.ListFeatures).Create(h.CreateFeatures).Build())
 	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}", httpwrapper.Delete(h.DeleteFeature).Get(h.GetFeature).Update(h.UpdateFeature).Build())
