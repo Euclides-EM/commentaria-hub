@@ -57,7 +57,16 @@ func (h *Handlers) GetAnnotationTEIs(r *http.Request) ([]byte, error) {
 		return nil, err
 	}
 
-	pageNumOrKeys := r.URL.Query()["pageNumOrKey"]
+	rawPageNumOrKeys := r.URL.Query()["pageNumOrKey"]
+	var pageNumOrKeys []string
+	for _, rawPageNumOrKey := range rawPageNumOrKeys {
+		r, err := pagesparser.Range(rawPageNumOrKey)
+		if err != nil {
+			return nil, fmt.Errorf("invalid page number or key: %s", rawPageNumOrKey)
+		}
+		pageNumOrKeys = append(pageNumOrKeys, r...)
+	}
+
 	if len(pageNumOrKeys) == 0 {
 		return nil, fmt.Errorf("missing page number or key in query")
 	}
