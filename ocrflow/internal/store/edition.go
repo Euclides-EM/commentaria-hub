@@ -471,19 +471,6 @@ func (s *EditionCSV) ListEditions(filter func(e any) bool, orderBy func(e1, e2 a
 	}), total, err
 }
 
-func (s *EditionCSV) HasPrintEditionByUSTCID(ustcID string) (bool, error) {
-	rows, err := s.loadCSVRecordsOptional(relItemsPrint)
-	if err != nil {
-		return false, err
-	}
-	for _, row := range rows {
-		if row["ustc_id"] == ustcID {
-			return true, nil
-		}
-	}
-	return false, nil
-}
-
 // loadCSVRecordsOptional loads CSV rows from path; if file does not exist returns (nil, nil).
 func (s *EditionCSV) loadCSVRecordsOptional(rel string) ([]map[string]string, error) {
 	_, rows, err := csv.LoadCSVRecords(s.csvPath(rel))
