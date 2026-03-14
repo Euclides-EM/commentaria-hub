@@ -2,6 +2,7 @@ package model
 
 type USTC struct {
 	USTCId        int      `json:"ustc_id"`
+	AlreadyExists bool     `json:"already_exists" readonly:"true"`
 	Authors       []string `json:"authors" readonly:"true"`
 	ShortTitle    string   `json:"short_title" readonly:"true"`
 	Publishers    []string `json:"publishers" readonly:"true"`

@@ -182,7 +182,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeatureExecutionSvc:     featureExecutionSvc,
 		FeaturePropertySvc:      service.NewFeatureProperty(),
 		DiagramCropsSvc:         diagramCropsSvc,
-		USTC:                    service.NewUSTC(),
+		USTC:                    service.NewUSTC(editionStore),
 		IntegrationJobSvc:       service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
 		VCSMgt:                  vcsMgtSvc,
 		BackupSvc:               bckSvc,

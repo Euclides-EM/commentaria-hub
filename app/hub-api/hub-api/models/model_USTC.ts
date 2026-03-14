@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type model_USTC = {
+    readonly already_exists?: boolean;
     readonly authors?: Array<string>;
     readonly city?: string;
     readonly digitizations?: Array<string>;

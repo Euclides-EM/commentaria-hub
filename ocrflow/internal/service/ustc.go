@@ -3,6 +3,7 @@ package service
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"net/http"
 	"regexp"
 	"strconv"
@@ -10,16 +11,23 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 )
 
-type USTC struct{}
+type USTC struct {
+	editionStore *store.EditionCSV
+}
 
-func NewUSTC() *USTC {
-	return &USTC{}
+func NewUSTC(editionStore *store.EditionCSV) *USTC {
+	return &USTC{editionStore: editionStore}
 }
 
 // Lookup fetches edition data from the USTC website for the given id.
 func (u *USTC) Lookup(ustcID int) (*model.USTC, error) {
+	alreadyExists, err := u.editionStore.HasPrintEditionByUSTCID(strconv.Itoa(ustcID))
+	if err != nil {
+		return nil, err
+	}
 	url := fmt.Sprintf("https://www.ustc.ac.uk/editions/%d", ustcID)
 	client := &http.Client{Timeout: 15 * time.Second}
 	resp, err := client.Get(url)
@@ -30,14 +38,9 @@ func (u *USTC) Lookup(ustcID int) (*model.USTC, error) {
 	if resp.StatusCode != http.StatusOK {
 		return nil, nil
 	}
-	body := make([]byte, 0, 512*1024)
-	for {
-		buf := make([]byte, 32*1024)
-		n, _ := resp.Body.Read(buf)
-		if n == 0 {
-			break
-		}
-		body = append(body, buf[:n]...)
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
 	}
 	re := regexp.MustCompile(`data-page="([^"]+)"`)
 	matches := re.FindSubmatch(body)
@@ -65,7 +68,7 @@ func (u *USTC) Lookup(ustcID int) (*model.USTC, error) {
 	if ed == nil {
 		return nil, nil
 	}
-	result := &model.USTC{USTCId: ustcID}
+	result := &model.USTC{USTCId: ustcID, AlreadyExists: alreadyExists}
 	for i := 1; i <= 8; i++ {
 		k := fmt.Sprintf("author_name_%d", i)
 		if v, _ := ed[k].(string); v != "" {
