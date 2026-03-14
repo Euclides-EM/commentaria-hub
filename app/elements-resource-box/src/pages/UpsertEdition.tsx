@@ -6,10 +6,11 @@ import {
   deleteEdition,
   getEdition,
   listAllEditions,
+  searchEditionsPage,
   upsertEdition,
   ustcLookup,
 } from "../api/editionApi";
-import type { model_Edition } from "@hub-api";
+import type { model_Edition, model_USTC } from "@hub-api";
 import type { model_EditionLocator } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
@@ -17,6 +18,11 @@ import { isNil, startCase, uniq, uniqueId } from "lodash";
 import { MultiSelect } from "../components/tps/filters/MultiSelect.tsx";
 import { SingleSelect } from "../components/tps/filters/SingleSelect.tsx";
 import { Row } from "../components/common.ts";
+import {
+  Modal,
+  ModalClose,
+  ModalContent,
+} from "../components/tps/modal/ModalComponents.tsx";
 import { isValidUrl } from "../utils/util.ts";
 import { useNavigateWithQuery } from "../utils/navigationUtils.ts";
 import { useQuery } from "@tanstack/react-query";
@@ -460,6 +466,31 @@ const LoadingText = styled.div`
   font-weight: 500;
 `;
 
+const WarningModalContent = styled(ModalContent)`
+  min-height: unset;
+  min-width: min(36rem, 90vw);
+  max-width: min(36rem, 90vw);
+  padding: 1.5rem;
+  justify-content: flex-start;
+`;
+
+const WarningTitle = styled.h2`
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+  color: #590000;
+`;
+
+const WarningText = styled.p`
+  margin: 0;
+  line-height: 1.5;
+`;
+
+const WarningActions = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.25rem;
+`;
+
 const getSuggestedKey = (): string => {
   return Math.random().toString(36).slice(2, 8).toUpperCase();
 };
@@ -749,6 +780,11 @@ export const UpsertEdition = () => {
   const [values, setValues] = useState(defaultValues());
   const [isDeleting, setIsDeleting] = useState(false);
   const [lists, setLists] = useState<OptionLists>();
+  const [ustcDuplicateWarningOpen, setUstcDuplicateWarningOpen] =
+    useState(false);
+  const [ustcDuplicateMatches, setUstcDuplicateMatches] = useState<string[]>(
+    [],
+  );
   const formContainerRef = useRef<HTMLDivElement>(null);
   const existingItemQuery = useQuery({
     queryKey: ["edition", "upsert", key],
@@ -817,7 +853,25 @@ export const UpsertEdition = () => {
     }
 
     try {
-      const data = await ustcLookup(ustcId);
+      setUstcDuplicateWarningOpen(false);
+      setUstcDuplicateMatches([]);
+
+      const existingEditions = await searchEditionsPage({
+        fields_filter: { ustcId: [ustcId] },
+        offset: 0,
+        limit: 10,
+      });
+      const duplicateKeys = (existingEditions.items || [])
+        .map((item) => item.key)
+        .filter((itemKey): itemKey is string =>
+          Boolean(itemKey && itemKey !== key),
+        );
+      if (duplicateKeys.length > 0) {
+        setUstcDuplicateMatches(duplicateKeys);
+        setUstcDuplicateWarningOpen(true);
+      }
+
+      const data = (await ustcLookup(ustcId)) as Partial<model_USTC>;
       if (!data || Object.keys(data).length === 0) {
         return;
       }
@@ -947,6 +1001,38 @@ export const UpsertEdition = () => {
 
   return (
     <PageContainer>
+      {ustcDuplicateWarningOpen && (
+        <Modal onClick={() => setUstcDuplicateWarningOpen(false)}>
+          <WarningModalContent
+            hasImage={false}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <ModalClose
+              title="Close"
+              onClick={() => setUstcDuplicateWarningOpen(false)}
+            >
+              x
+            </ModalClose>
+            <WarningTitle>Possible existing record</WarningTitle>
+            <WarningText>
+              Matching edition
+              {ustcDuplicateMatches.length === 1 ? "" : "s"} with this USTC ID
+              already exist
+              {ustcDuplicateMatches.length === 1 ? "s" : ""} in the catalogue:{" "}
+              {ustcDuplicateMatches.join(", ")}. Review them before saving a
+              duplicate entry.
+            </WarningText>
+            <WarningActions>
+              <Button
+                type="button"
+                onClick={() => setUstcDuplicateWarningOpen(false)}
+              >
+                Close
+              </Button>
+            </WarningActions>
+          </WarningModalContent>
+        </Modal>
+      )}
       {(isSubmitting || isDeleting) && (
         <LoadingOverlay>
           <LoadingSpinner />
