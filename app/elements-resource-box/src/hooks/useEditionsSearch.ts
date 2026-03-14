@@ -2,6 +2,7 @@ import { useCallback, useMemo } from "react";
 import {
   keepPreviousData,
   useInfiniteQuery,
+  useIsFetching,
   useQuery,
 } from "@tanstack/react-query";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
@@ -9,7 +10,11 @@ import { listAllEditions, searchEditionsPage } from "../api/editionApi";
 import { mapEditionsToItems } from "../utils/dataUtils";
 import type { FilterValue } from "../components/map/Filter";
 import type { Item } from "../types";
-import type { search_OrderByOption, search_Query } from "@hub-api";
+import type {
+  model_Edition,
+  search_OrderByOption,
+  search_Query,
+} from "@hub-api";
 
 const ITEM_FIELD_TO_EDITION_FIELD: Record<string, string> = {
   type: "isElements",
@@ -31,6 +36,9 @@ const ITEM_FIELD_TO_EDITION_FIELD: Record<string, string> = {
 const VALUE_TRANSFORMS: Record<string, (values: string[]) => string[]> = {
   type: (values) => values.map((v) => (v === "Elements" ? "true" : "false")),
 };
+
+const pageSignature = (items: model_Edition[] | undefined) =>
+  (items || []).map((item) => item.key || "").join("|");
 
 type FilterState = {
   filters: Record<string, FilterValue[] | undefined>;
@@ -100,6 +108,25 @@ function buildSearchQuery(
   return query;
 }
 
+const buildEditionsSearchQueryKey = (
+  searchQuery: Omit<search_Query, "offset" | "limit">,
+) => ["editions", "search", searchQuery] as const;
+
+export function useEditionsSearchIsFetching() {
+  return (
+    useIsFetching({
+      predicate: (query) => {
+        const queryKey = query.queryKey;
+        return (
+          Array.isArray(queryKey) &&
+          queryKey[0] === "editions" &&
+          queryKey[1] === "search"
+        );
+      },
+    }) > 0
+  );
+}
+
 export function useEditionsSearch() {
   const {
     filters,
@@ -131,7 +158,7 @@ export function useEditionsSearch() {
   );
 
   const editionsQuery = useQuery({
-    queryKey: ["editions", "search", searchQuery],
+    queryKey: buildEditionsSearchQueryKey(searchQuery),
     queryFn: () => listAllEditions(searchQuery),
     placeholderData: keepPreviousData,
   });
@@ -207,6 +234,14 @@ export function useEditionsSearchInfinite(options: InfiniteSearchOptions = {}) {
         (count, page) => count + (page.items?.length ?? 0),
         0,
       );
+      const previousPage =
+        allPages.length > 1 ? allPages[allPages.length - 2] : undefined;
+      if (
+        previousPage &&
+        pageSignature(lastPage.items) === pageSignature(previousPage.items)
+      ) {
+        return undefined;
+      }
       if (lastPage.total !== undefined && loaded >= lastPage.total) {
         return undefined;
       }

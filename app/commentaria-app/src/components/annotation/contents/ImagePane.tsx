@@ -23,6 +23,7 @@ import { ReplaceImageModal } from '../../modal/ReplaceImageModal.tsx'
 import { ApiError } from '@hub-api'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import type { StylesConfig } from 'react-select'
+import { DEFAULT_IMAGE_ZOOM } from '../imageZoom.ts'
 
 type RenderedImageRect = {
   left: number
@@ -56,19 +57,19 @@ compactSelectStyles.control = (base, state) => ({
   height: 26,
 })
 
-compactSelectStyles.valueContainer = (base) => ({
-  ...baseCompactSelectStyles.valueContainer?.(base),
+compactSelectStyles.valueContainer = (base, props) => ({
+  ...baseCompactSelectStyles.valueContainer?.(base, props),
   height: '24px',
   padding: '0 6px',
 })
 
-compactSelectStyles.indicatorsContainer = (base) => ({
-  ...baseCompactSelectStyles.indicatorsContainer?.(base),
+compactSelectStyles.indicatorsContainer = (base, props) => ({
+  ...baseCompactSelectStyles.indicatorsContainer?.(base, props),
   height: '24px',
 })
 
-compactSelectStyles.dropdownIndicator = (base) => ({
-  ...baseCompactSelectStyles.dropdownIndicator?.(base),
+compactSelectStyles.dropdownIndicator = (base, props) => ({
+  ...baseCompactSelectStyles.dropdownIndicator?.(base, props),
   padding: '2px 4px',
 })
 
@@ -140,7 +141,7 @@ export function ImagePane({
     annotation,
     state: { datasetId, currentPageOrKey },
   } = useAppState()
-  const [zoom, setZoom] = useState(250)
+  const [zoom, setZoom] = useState(DEFAULT_IMAGE_ZOOM)
   const [isImageZoomEngaged, setIsImageZoomEngaged] = useState(false)
   const [isReplaceModalOpen, setIsReplaceModalOpen] = useState(false)
   const [replaceError, setReplaceError] = useState<string | null>(null)

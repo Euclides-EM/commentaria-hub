@@ -7,6 +7,7 @@ export type DatasetTab = 'details' | 'features'
 export type AnnotationTab =
   | 'details'
   | 'text'
+  | 'gallery'
   | 'featureResults'
   | 'featureExecutions'
 

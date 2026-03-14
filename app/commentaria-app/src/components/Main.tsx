@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { AnnotationDetailsTab } from './annotation/details/AnnotationDetailsTab.tsx'
 import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsTab.tsx'
+import { GalleryViewTab } from './annotation/gallery/GalleryViewTab.tsx'
 import { FeatureResultsTab } from './annotation/featureResults/FeatureResultsTab.tsx'
 import { FeatureExecutionsTab } from './annotation/featureExecutions/FeatureExecutionsTab.tsx'
 import { useAppState } from '../context/useAppState'
@@ -100,8 +101,13 @@ export function Main() {
           isActive={activeTab === 'details'}
         />
         <TabButton
+          onSelected={() => setState({ annotationTab: 'gallery' })}
+          title="Gallery View"
+          isActive={activeTab === 'gallery'}
+        />
+        <TabButton
           onSelected={() => setState({ annotationTab: 'text' })}
-          title="Annotation Contents"
+          title="Page View"
           isActive={activeTab === 'text'}
         />
         {showFeatureExecutionsTab && (
@@ -120,10 +126,11 @@ export function Main() {
         )}
       </div>
       <div
-        className={`flex-1 min-h-0 m-3 ${activeTab === 'featureResults' ? 'flex overflow-hidden' : 'overflow-auto'}`}
+        className={`flex-1 min-h-0 m-3 ${activeTab === 'featureResults' || activeTab === 'gallery' ? 'flex overflow-hidden' : 'overflow-auto'}`}
       >
         {activeTab === 'details' && <AnnotationDetailsTab />}
         {activeTab === 'text' && <AnnotationContentsTab />}
+        {activeTab === 'gallery' && <GalleryViewTab />}
         {activeTab === 'featureResults' && showFeatureExecutionsTab && (
           <FeatureResultsTab />
         )}

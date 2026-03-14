@@ -19,7 +19,6 @@ import {
 } from '../../../../queries/annotations.ts'
 import { useDatasetFeaturesQuery } from '../../../../queries/datasets.ts'
 import useLocalStorageState from 'use-local-storage-state'
-import { RangeInput } from '../../../core/RangeInput.tsx'
 import Select from 'react-select'
 import { selectStyles } from '../../../../styles/selectStyles.ts'
 import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
@@ -29,6 +28,7 @@ import { useAuthStore } from '../../../../store/authStore.ts'
 import { TITLE_PAGES_DATASET_ID } from '../../../../utils/editions.ts'
 import { FeatureHighlightModal } from './FeatureHighlightModal.tsx'
 import { TeiContentView } from './TeiContentView.tsx'
+import { TeiDisplayControls } from './TeiDisplayControls.tsx'
 import type {
   DraftHighlight,
   FeatureModalState,
@@ -40,8 +40,6 @@ import type {
 } from './TeiPane.types.ts'
 import {
   VIEW_LABEL_MAP,
-  featureSelectStyles,
-  formatFeatureOptionLabel,
   getComparableValues,
   groupByFeature,
   hasTeiPositionProperties,
@@ -78,6 +76,8 @@ export function TeiPane({
     defaultValue: 0.8,
     storageSync: false,
   })
+  const [showTeiLineHighlights, setShowTeiLineHighlights] =
+    useLocalStorageState('showTeiLineHighlights', { defaultValue: true })
   const [alignLines, setAlignLines] = useLocalStorageState('alignTeiLines', {
     defaultValue: false,
     storageSync: false,
@@ -781,81 +781,23 @@ export function TeiPane({
                 />
               </div>
             )}
-            <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
-              <input
-                type="checkbox"
-                checked={alignLines}
-                onChange={(e) => setAlignLines(e.target.checked)}
-                className="rounded border-gray-300"
-              />
-              <span>Align lines</span>
-            </label>
-            {showMinCertControl && (
-              <RangeInput
-                label="Min certainty"
-                value={minCert}
-                min={0.8}
-                max={1}
-                step={0.001}
-                title="Hide tokens below certainty threshold"
-                onChange={(value) =>
-                  setMinCert(Math.round(value * 1000) / 1000)
-                }
-              />
-            )}
-            {showMinCertControl && (
-              <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
-                <input
-                  type="checkbox"
-                  checked={showCertaintyVisualization}
-                  onChange={(event) =>
-                    setShowCertaintyVisualization(event.target.checked)
-                  }
-                  className="rounded border-gray-300"
-                />
-                <span>Certainty heatmap</span>
-              </label>
-            )}
-            {allFeatureOptions.length > 0 && (
-              <>
-                <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
-                  <input
-                    type="checkbox"
-                    checked={isFeatureSelectExpanded}
-                    onChange={(event) =>
-                      setIsFeatureSelectExpanded(event.target.checked)
-                    }
-                    className="rounded border-gray-300"
-                  />
-                  <span>Features select</span>
-                </label>
-                {isFeatureSelectExpanded && (
-                  <div className="flex items-center gap-1.5 min-w-65">
-                    <Select<FeatureOption, true>
-                      isMulti
-                      value={selectedFeatureOptions}
-                      onChange={(options) => {
-                        const values = (options || []).map(
-                          (option) => option.value,
-                        )
-                        setStoredVisibleFeatureIds(values)
-                      }}
-                      options={allFeatureOptions}
-                      closeMenuOnSelect={false}
-                      hideSelectedOptions={false}
-                      isLoading={featuresQuery.isLoading}
-                      placeholder="Select features"
-                      styles={featureSelectStyles}
-                      menuPortalTarget={document.body}
-                      menuPosition="fixed"
-                      formatOptionLabel={(option, { context }) =>
-                        formatFeatureOptionLabel(option, context)
-                      }
-                    />
-                  </div>
-                )}
-              </>
-            )}
+            <TeiDisplayControls
+              showMinCertControl={showMinCertControl}
+              minCert={minCert}
+              setMinCert={setMinCert}
+              showTeiLineHighlights={showTeiLineHighlights}
+              setShowTeiLineHighlights={setShowTeiLineHighlights}
+              alignLines={alignLines}
+              setAlignLines={setAlignLines}
+              showCertaintyVisualization={showCertaintyVisualization}
+              setShowCertaintyVisualization={setShowCertaintyVisualization}
+              allFeatureOptions={allFeatureOptions}
+              selectedFeatureOptions={selectedFeatureOptions}
+              isFeatureSelectExpanded={isFeatureSelectExpanded}
+              setIsFeatureSelectExpanded={setIsFeatureSelectExpanded}
+              setVisibleFeatureIds={setStoredVisibleFeatureIds}
+              isFeaturesLoading={featuresQuery.isLoading}
+            />
           </div>
 
           {isLoading && !teiContents && (
@@ -903,7 +845,9 @@ export function TeiPane({
                       highlightConfig={highlightConfig}
                       editable={isAuthenticated}
                       canAddHighlight={allFeatureOptions.length > 0}
-                      activeLineMatchIds={activeLineMatchIds}
+                      activeLineMatchIds={
+                        showTeiLineHighlights ? activeLineMatchIds : []
+                      }
                       onHoverLineMatchIds={onHoverLineMatchIds}
                       onRequestAddHighlight={openModalForAdd}
                       onRequestRemoveHighlight={removeHighlightFromTooltip}

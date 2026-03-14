@@ -12,6 +12,7 @@ import {
 } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useAuthStore } from '../store/authStore.ts'
+import { expandRange } from '../utils/pages.ts'
 import type {
   AnnotationTab,
   AppState,
@@ -28,25 +29,6 @@ interface AppStateProviderProps {
 
 const DEFAULT_DATASET_TAB: DatasetTab = 'details'
 const DEFAULT_ANNOTATION_TAB: AnnotationTab = 'details'
-
-const expandRange = (range: string): string[] => {
-  const parts = range.trim().split('-')
-
-  if (parts.length !== 2) {
-    return [range]
-  }
-
-  const min = parseInt(parts[0].trim(), 10)
-  const max = parseInt(parts[1].trim(), 10)
-
-  if (Number.isNaN(min) || Number.isNaN(max)) {
-    return [range]
-  }
-
-  return Array.from({ length: Math.max(0, max - min + 1) }, (_, i) =>
-    String(min + i),
-  )
-}
 
 const getDefaultPageOrKey = (availablePages: string[]): string => {
   if (!availablePages.length) return ''
@@ -83,6 +65,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     queryState.datasetTab === 'features' ? 'features' : DEFAULT_DATASET_TAB
   const parsedAnnotationTab: AnnotationTab =
     queryState.annotationTab === 'text' ||
+    queryState.annotationTab === 'gallery' ||
     queryState.annotationTab === 'featureResults' ||
     queryState.annotationTab === 'featureExecutions'
       ? queryState.annotationTab

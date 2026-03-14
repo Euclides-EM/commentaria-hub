@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { PANE_BORDER } from "../../utils/colors";
 import { FiltersGroup } from "./FiltersGroup";
 import { useAppliedFilter } from "../../contexts/FilterAppliedContext";
-import { useEditionsSearch } from "../../hooks/useEditionsSearch";
+import { useEditionsSearchIsFetching } from "../../hooks/useEditionsSearch";
 import { useEditFilter } from "../../contexts/FilterEditContext";
 import { ScrollbarStyle } from "../common";
 import { RangeSlider } from "../tps/filters/RangeSlider";
@@ -176,7 +176,7 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
     textSearch: appliedTextSearch,
     textSearchFields: appliedTextSearchFields,
   } = useAppliedFilter();
-  const { isFetching: isFiltering } = useEditionsSearch();
+  const isFiltering = useEditionsSearchIsFetching();
   const location = useLocation();
 
   const { filterOpen } = useEditFilter();

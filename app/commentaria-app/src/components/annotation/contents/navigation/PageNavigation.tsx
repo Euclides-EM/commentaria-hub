@@ -8,24 +8,7 @@ import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
 import { TITLE_PAGES_DATASET_ID } from '../../../../utils/editions.ts'
-
-const expandRange = (range: string): string[] => {
-  const parts = range.trim().split('-')
-
-  if (parts.length !== 2) {
-    const num = parseInt(range.trim())
-    return isNaN(num) ? [] : [String(num)]
-  }
-
-  const min = parseInt(parts[0].trim())
-  const max = parseInt(parts[1].trim())
-
-  if (isNaN(min) || isNaN(max)) return []
-
-  return Array.from({ length: Math.max(0, max - min + 1) }, (_, i) =>
-    String(min + i),
-  )
-}
+import { expandRange } from '../../../../utils/pages.ts'
 
 const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
   if (!annotation.pages) {
@@ -254,7 +237,11 @@ export function PageNavigation() {
               <span className="font-semibold text-sm">Index</span>
             </button>
             <div className="flex-1 min-h-0 overflow-hidden">
-              {!isIndexCollapsed && <IndexMenu />}
+              {!isIndexCollapsed && (
+                <IndexMenu
+                  disableHighlight={state.annotationTab === 'gallery'}
+                />
+              )}
             </div>
           </div>
           <div
@@ -301,7 +288,9 @@ export function PageNavigation() {
             <span className="font-semibold text-sm">Index</span>
           </button>
           <div className="flex-1 min-h-0 overflow-hidden">
-            {!isIndexCollapsed && <IndexMenu />}
+            {!isIndexCollapsed && (
+              <IndexMenu disableHighlight={state.annotationTab === 'gallery'} />
+            )}
           </div>
         </div>
       )}

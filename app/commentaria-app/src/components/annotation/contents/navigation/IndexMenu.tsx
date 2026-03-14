@@ -118,7 +118,11 @@ const Node = ({
   )
 }
 
-export function IndexMenu() {
+export function IndexMenu({
+  disableHighlight,
+}: {
+  disableHighlight?: boolean
+}) {
   const { state, jumpToPage } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState('indexSearch', {
     defaultValue: '',
@@ -174,7 +178,11 @@ export function IndexMenu() {
                       jumpToPage={jumpToPage}
                       key={idx}
                       level={0}
-                      currentPage={Number(state.currentPageOrKey) || 0}
+                      currentPage={
+                        disableHighlight
+                          ? -1
+                          : Number(state.currentPageOrKey) || 0
+                      }
                       forceExpanded={normalizedSearchTerm.length > 0}
                       nextSiblingPage={getNextSiblingPage(
                         filteredNodes,

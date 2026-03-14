@@ -87,12 +87,16 @@ export const getEdition = async (editionId: string): Promise<model_Edition> => {
 export const searchEditionsPage = async (query?: search_Query) =>
   EditionsService.postEditionsSearch({ edition: query });
 
+const pageSignature = (items: model_Edition[] | undefined) =>
+  (items || []).map((item) => item.key || "").join("|");
+
 export const listAllEditions = async (
   query?: Omit<search_Query, "offset" | "limit">,
 ): Promise<model_Edition[]> => {
   const limit = 500;
   let offset = 0;
   const results: model_Edition[] = [];
+  let previousPage = "";
 
   while (true) {
     const page = await searchEditionsPage({
@@ -101,6 +105,14 @@ export const listAllEditions = async (
       limit,
     });
     const items = page.items || [];
+    const currentPage = pageSignature(items);
+    if (currentPage && currentPage === previousPage) {
+      console.warn(
+        "Pagination seems to be stuck, stopping to avoid infinite loop.",
+        { currentPage },
+      );
+      break;
+    }
     results.push(...items);
     if (
       items.length === 0 ||
@@ -109,6 +121,7 @@ export const listAllEditions = async (
     ) {
       break;
     }
+    previousPage = currentPage;
     offset += limit;
   }
 

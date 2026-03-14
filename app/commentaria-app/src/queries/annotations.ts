@@ -109,6 +109,25 @@ export function useAnnotationSearch(
   })
 }
 
+export function useAnnotationTeisQuery(
+  datasetId: string,
+  annotationId: string,
+  pages: string[],
+  enabled: boolean,
+) {
+  return useQuery({
+    queryKey: ['annotations', datasetId, annotationId, 'teis', pages],
+    queryFn: () =>
+      AnnotationsService.getDatasetsAnnotationsTeis({
+        dataSetId: datasetId,
+        id: annotationId,
+        pageNumOrKey: pages,
+        fallbackToOrigin: true,
+      }),
+    enabled: !!datasetId && !!annotationId && pages.length > 0 && enabled,
+  })
+}
+
 export function useAnnotationCategories(
   datasetId: string,
   annotationId: string,
