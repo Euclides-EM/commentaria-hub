@@ -6,6 +6,7 @@ import {
   useRef,
   useState,
 } from 'react'
+import Select from 'react-select'
 import useLocalStorageState from 'use-local-storage-state'
 import { useAppState } from '../../../context/useAppState.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
@@ -20,6 +21,8 @@ import { useAuthStore } from '../../../store/authStore.ts'
 import { Button } from '../../core/Button.tsx'
 import { ReplaceImageModal } from '../../modal/ReplaceImageModal.tsx'
 import { ApiError } from '@hub-api'
+import { selectStyles } from '../../../styles/selectStyles.ts'
+import type { StylesConfig } from 'react-select'
 
 type RenderedImageRect = {
   left: number
@@ -29,6 +32,45 @@ type RenderedImageRect = {
   naturalWidth: number
   naturalHeight: number
 }
+
+type HighlightMode = 'hide' | 'hover' | 'show'
+type HighlightModeOption = { value: HighlightMode; label: string }
+
+const HIGHLIGHT_MODE_OPTIONS: HighlightModeOption[] = [
+  { value: 'hide', label: 'Hide' },
+  { value: 'hover', label: 'On hover' },
+  { value: 'show', label: 'Show' },
+]
+
+const baseCompactSelectStyles = selectStyles<HighlightModeOption>({
+  controlWidth: '100%',
+})
+
+const compactSelectStyles: StylesConfig<HighlightModeOption, false> = {
+  ...baseCompactSelectStyles,
+}
+
+compactSelectStyles.control = (base, state) => ({
+  ...baseCompactSelectStyles.control?.(base, state),
+  minHeight: 26,
+  height: 26,
+})
+
+compactSelectStyles.valueContainer = (base) => ({
+  ...baseCompactSelectStyles.valueContainer?.(base),
+  height: '24px',
+  padding: '0 6px',
+})
+
+compactSelectStyles.indicatorsContainer = (base) => ({
+  ...baseCompactSelectStyles.indicatorsContainer?.(base),
+  height: '24px',
+})
+
+compactSelectStyles.dropdownIndicator = (base) => ({
+  ...baseCompactSelectStyles.dropdownIndicator?.(base),
+  padding: '2px 4px',
+})
 
 const getRenderedImageRect = (
   image: HTMLImageElement,
@@ -103,9 +145,9 @@ export function ImagePane({
   const [isReplaceModalOpen, setIsReplaceModalOpen] = useState(false)
   const [replaceError, setReplaceError] = useState<string | null>(null)
   const [imageVersion, setImageVersion] = useState(0)
-  const [enableHoverSync, setEnableHoverSync] = useLocalStorageState(
-    'hoverSyncEnabled',
-    { defaultValue: true, storageSync: false },
+  const [highlightMode, setHighlightMode] = useLocalStorageState<HighlightMode>(
+    'imagePaneHighlightMode',
+    { defaultValue: 'hover', storageSync: false },
   )
   const viewportRef = useRef<HTMLDivElement | null>(null)
   const fileInputRef = useRef<HTMLInputElement | null>(null)
@@ -130,7 +172,30 @@ export function ImagePane({
   const currentImageName =
     imageKeys.find((image) => image.key === String(currentPageOrKey))?.key ||
     String(currentPageOrKey)
-  const hasSurfaceZones = surfaceZones.length > 0
+  const highlightableZones = useMemo(
+    () =>
+      surfaceZones.filter(
+        (zone) =>
+          Number.isFinite(zone.ulx) &&
+          Number.isFinite(zone.uly) &&
+          Number.isFinite(zone.lrx) &&
+          Number.isFinite(zone.lry) &&
+          Number.isFinite(zone.refUlx) &&
+          Number.isFinite(zone.refUly) &&
+          Number.isFinite(zone.refLrx) &&
+          Number.isFinite(zone.refLry) &&
+          zone.lrx > zone.ulx &&
+          zone.lry > zone.uly &&
+          zone.refLrx > zone.refUlx &&
+          zone.refLry > zone.refUly,
+      ),
+    [surfaceZones],
+  )
+  const hasHighlightableZones = highlightableZones.length > 0
+  const selectedHighlightMode =
+    HIGHLIGHT_MODE_OPTIONS.find((option) => option.value === highlightMode) ||
+    HIGHLIGHT_MODE_OPTIONS[1]
+  const isHighlightInteractionEnabled = highlightMode !== 'hide'
   const normalizedKey = (() => {
     const num = Number(currentPageOrKey)
 
@@ -278,22 +343,7 @@ export function ImagePane({
     if (!imageDisplayBox.width || !imageDisplayBox.height) {
       return []
     }
-    return surfaceZones
-      .filter(
-        (zone) =>
-          Number.isFinite(zone.ulx) &&
-          Number.isFinite(zone.uly) &&
-          Number.isFinite(zone.lrx) &&
-          Number.isFinite(zone.lry) &&
-          Number.isFinite(zone.refUlx) &&
-          Number.isFinite(zone.refUly) &&
-          Number.isFinite(zone.refLrx) &&
-          Number.isFinite(zone.refLry) &&
-          zone.lrx > zone.ulx &&
-          zone.lry > zone.uly &&
-          zone.refLrx > zone.refUlx &&
-          zone.refLry > zone.refUly,
-      )
+    return highlightableZones
       .map((zone) => {
         const useNaturalBounds =
           !zone.hasSurfaceBounds &&
@@ -340,28 +390,32 @@ export function ImagePane({
       )
   }, [
     activeMatchIdSet,
+    highlightableZones,
     imageDisplayBox.height,
     imageDisplayBox.left,
     imageDisplayBox.naturalHeight,
     imageDisplayBox.naturalWidth,
     imageDisplayBox.top,
     imageDisplayBox.width,
-    surfaceZones,
   ])
 
   useEffect(() => {
-    if (isImageZoomEngaged) {
+    if (isImageZoomEngaged || !isHighlightInteractionEnabled) {
       onHoverLineMatchIds?.([])
       lastHoverIdsKeyRef.current = ''
     }
-  }, [isImageZoomEngaged, onHoverLineMatchIds])
+  }, [isHighlightInteractionEnabled, isImageZoomEngaged, onHoverLineMatchIds])
 
   useEffect(() => {
-    if (!enableHoverSync || !hasSurfaceZones) {
+    if (!isHighlightInteractionEnabled || !hasHighlightableZones) {
       onHoverLineMatchIds?.([])
       lastHoverIdsKeyRef.current = ''
     }
-  }, [enableHoverSync, hasSurfaceZones, onHoverLineMatchIds])
+  }, [
+    hasHighlightableZones,
+    isHighlightInteractionEnabled,
+    onHoverLineMatchIds,
+  ])
 
   const emitHoverIds = (ids: string[]) => {
     const key = ids.join('|')
@@ -375,7 +429,7 @@ export function ImagePane({
   const handleViewportPointerMove = (
     event: ReactPointerEvent<HTMLDivElement>,
   ) => {
-    if (!enableHoverSync || !onHoverLineMatchIds) {
+    if (!isHighlightInteractionEnabled || !onHoverLineMatchIds) {
       return
     }
     if (isImageZoomEngaged) {
@@ -410,7 +464,7 @@ export function ImagePane({
   }
 
   const handleViewportPointerLeave = () => {
-    if (!enableHoverSync || !onHoverLineMatchIds) {
+    if (!isHighlightInteractionEnabled || !onHoverLineMatchIds) {
       return
     }
     emitHoverIds([])
@@ -473,17 +527,6 @@ export function ImagePane({
             ? `Page ${currentPageOrKey} Facsimile`
             : currentImageName}
         </div>
-        {hasSurfaceZones && (
-          <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium text-gray-700">
-            <input
-              type="checkbox"
-              checked={enableHoverSync}
-              onChange={(event) => setEnableHoverSync(event.target.checked)}
-              className="rounded border-gray-300"
-            />
-            <span>Show highlights</span>
-          </label>
-        )}
         <Button
           type="button"
           onClick={() => window.open(imageUrl, '_blank', 'noopener,noreferrer')}
@@ -506,15 +549,35 @@ export function ImagePane({
             Replace image
           </Button>
         )}
-        <RangeInput
-          label="Zoom control"
-          value={zoom}
-          min={105}
-          max={1000}
-          step={5}
-          onChange={(value) => setZoom(Math.round(value))}
-          className="bg-transparent border-gray-300 order-3 basis-full min-w-0"
-        />
+        <div className="order-3 basis-full min-w-0 flex items-center gap-3">
+          {hasHighlightableZones && (
+            <div className="flex items-center gap-1.5 text-xs font-medium text-gray-700 shrink-0">
+              <span>Highlights</span>
+              <div className="w-24">
+                <Select<HighlightModeOption, false>
+                  value={selectedHighlightMode}
+                  onChange={(option) =>
+                    setHighlightMode(option?.value || 'hover')
+                  }
+                  options={HIGHLIGHT_MODE_OPTIONS}
+                  isClearable={false}
+                  styles={compactSelectStyles}
+                  menuPortalTarget={document.body}
+                  menuPosition="fixed"
+                />
+              </div>
+            </div>
+          )}
+          <RangeInput
+            label="Zoom control"
+            value={zoom}
+            min={105}
+            max={1000}
+            step={5}
+            onChange={(value) => setZoom(Math.round(value))}
+            className="bg-transparent border-gray-300 min-w-0 flex-1"
+          />
+        </div>
       </div>
 
       <div className="flex-1 min-h-0 overflow-auto p-2">
@@ -534,28 +597,35 @@ export function ImagePane({
               height="100%"
               className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-contain"
             />
-            {enableHoverSync &&
+            {isHighlightInteractionEnabled &&
               !isImageZoomEngaged &&
               visibleZones.length > 0 && (
                 <div className="absolute inset-0 z-20 pointer-events-none">
-                  {visibleZones.map((zone) => (
-                    <div
-                      key={zone.id}
-                      className={`absolute border-2 rounded-sm ${
-                        zone.isActive
-                          ? zone.zoneType === 'block'
-                            ? 'border-amber-500 bg-amber-300/20'
-                            : 'border-teal-500 bg-teal-300/20'
-                          : 'border-transparent bg-transparent'
-                      }`}
-                      style={{
-                        left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
-                        top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
-                        width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
-                        height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
-                      }}
-                    />
-                  ))}
+                  {visibleZones.map((zone) => {
+                    const isShown = highlightMode === 'show' || zone.isActive
+                    if (!isShown) {
+                      return null
+                    }
+                    const className = zone.isActive
+                      ? zone.zoneType === 'block'
+                        ? 'border-amber-500 bg-amber-300/20'
+                        : 'border-teal-500 bg-teal-300/20'
+                      : zone.zoneType === 'block'
+                        ? 'border-amber-400/60 bg-amber-200/10'
+                        : 'border-teal-400/60 bg-teal-200/10'
+                    return (
+                      <div
+                        key={zone.id}
+                        className={`absolute border-2 rounded-sm ${className}`}
+                        style={{
+                          left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
+                          top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
+                          width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
+                          height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
+                        }}
+                      />
+                    )
+                  })}
                 </div>
               )}
           </div>

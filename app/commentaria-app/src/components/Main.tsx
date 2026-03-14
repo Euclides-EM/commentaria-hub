@@ -4,7 +4,6 @@ import { AnnotationContentsTab } from './annotation/contents/AnnotationContentsT
 import { FeatureResultsTab } from './annotation/featureResults/FeatureResultsTab.tsx'
 import { FeatureExecutionsTab } from './annotation/featureExecutions/FeatureExecutionsTab.tsx'
 import { useAppState } from '../context/useAppState'
-import useLocalStorageState from 'use-local-storage-state'
 import { useQuery } from '@tanstack/react-query'
 import { FeaturesService } from '@hub-api'
 import { ModelsTable } from './models/ModelsTable.tsx'
@@ -17,18 +16,13 @@ import { useAuthStore } from '../store/authStore.ts'
 import { TabButton } from './core/TabButton.tsx'
 import { AnnotationsTable } from './annotations/AnnotationsTable.tsx'
 
-type Tab = 'details' | 'text' | 'featureResults' | 'featureExecutions'
-
 const diagramUrl = new URL('../assets/diagram.png', import.meta.url).href
 
 export function Main() {
-  const [activeTab, setActiveTab] = useLocalStorageState<Tab>(
-    'annotation-tab',
-    { defaultValue: 'details' },
-  )
   const [isCreateDatasetOpen, setIsCreateDatasetOpen] = useState(false)
   const isAuthenticated = !!useAuthStore((store) => store.token)
-  const { state } = useAppState()
+  const { state, setState } = useAppState()
+  const activeTab = state.annotationTab
   const featuresQuery = useQuery({
     queryKey: ['features', 'definitions', state.datasetId],
     queryFn: () =>
@@ -47,9 +41,9 @@ export function Main() {
       !featuresQuery.isLoading &&
       !hasDatasetFeatures
     ) {
-      setActiveTab('details')
+      setState({ annotationTab: 'details' })
     }
-  }, [activeTab, featuresQuery.isLoading, hasDatasetFeatures, setActiveTab])
+  }, [activeTab, featuresQuery.isLoading, hasDatasetFeatures, setState])
 
   if (state.viewMode === 'models') {
     return <ModelsTable />
@@ -101,25 +95,25 @@ export function Main() {
     <div className="h-full flex flex-col overflow-hidden">
       <div className="flex w-full gap-4 p-3 border-b border-gray-200 bg-white items-center justify-center">
         <TabButton
-          onSelected={() => setActiveTab('details')}
+          onSelected={() => setState({ annotationTab: 'details' })}
           title="Annotation Details"
           isActive={activeTab === 'details'}
         />
         <TabButton
-          onSelected={() => setActiveTab('text')}
+          onSelected={() => setState({ annotationTab: 'text' })}
           title="Annotation Contents"
           isActive={activeTab === 'text'}
         />
         {showFeatureExecutionsTab && (
           <TabButton
-            onSelected={() => setActiveTab('featureResults')}
+            onSelected={() => setState({ annotationTab: 'featureResults' })}
             title="Feature Results"
             isActive={activeTab === 'featureResults'}
           />
         )}
         {showFeatureExecutionsTab && (
           <TabButton
-            onSelected={() => setActiveTab('featureExecutions')}
+            onSelected={() => setState({ annotationTab: 'featureExecutions' })}
             title="Feature Executions"
             isActive={activeTab === 'featureExecutions'}
           />

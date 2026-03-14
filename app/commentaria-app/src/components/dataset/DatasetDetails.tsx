@@ -10,14 +10,12 @@ import {
   useReplaceDatasetImageMutation,
 } from '../../queries/datasets.ts'
 import { useAuthStore } from '../../store/authStore.ts'
-import useLocalStorageState from 'use-local-storage-state'
 import { TabButton } from '../core/TabButton.tsx'
 import { DatasetDetailsTab } from './DatasetDetailsTab.tsx'
 import { DatasetFeaturesTab } from './DatasetFeaturesTab.tsx'
 import { TITLE_PAGES_DATASET_ID } from '../../utils/editions.ts'
 
 type DatasetStatus = 'creating' | 'ready' | 'failed'
-type DatasetTab = 'details' | 'features'
 
 const DATASET_STATUS_LABELS: Record<DatasetStatus, string> = {
   creating: 'Creating',
@@ -28,10 +26,7 @@ const DATASET_STATUS_LABELS: Record<DatasetStatus, string> = {
 export const DatasetDetails = () => {
   const { data: datasets } = useDatasetsQuery()
   const { state, setState, refetch } = useAppState()
-  const [activeTab, setActiveTab] = useLocalStorageState<DatasetTab>(
-    'dataset-tab',
-    { defaultValue: 'details' },
-  )
+  const activeTab = state.datasetTab
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const currentDataset = datasets?.find((d) => d.id === state.datasetId) as
     | model_Dataset
@@ -198,12 +193,12 @@ export const DatasetDetails = () => {
     <div className="h-full flex flex-col overflow-hidden">
       <div className="flex w-full gap-4 p-3 border-b border-gray-200 bg-white items-center justify-center">
         <TabButton
-          onSelected={() => setActiveTab('details')}
+          onSelected={() => setState({ datasetTab: 'details' })}
           title="Dataset Details"
           isActive={activeTab === 'details'}
         />
         <TabButton
-          onSelected={() => setActiveTab('features')}
+          onSelected={() => setState({ datasetTab: 'features' })}
           title="Dataset Features"
           isActive={activeTab === 'features'}
         />

@@ -3,12 +3,20 @@ import type { annotation_Annotation, model_Dataset } from '@hub-api'
 
 export type ViewMode = 'models' | 'annotations' | 'jobs' | 'backups'
 export type PageOrKey = number | string
+export type DatasetTab = 'details' | 'features'
+export type AnnotationTab =
+  | 'details'
+  | 'text'
+  | 'featureResults'
+  | 'featureExecutions'
 
 export interface AppState {
   viewMode: ViewMode | null
   datasetId: string
   annotationId: string
   currentPageOrKey: PageOrKey
+  datasetTab: DatasetTab
+  annotationTab: AnnotationTab
 }
 
 export interface AppStateContextType {

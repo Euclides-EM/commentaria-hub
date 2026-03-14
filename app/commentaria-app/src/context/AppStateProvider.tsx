@@ -13,8 +13,10 @@ import {
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useAuthStore } from '../store/authStore.ts'
 import type {
+  AnnotationTab,
   AppState,
   AppStateContextType,
+  DatasetTab,
   PageOrKey,
   ViewMode,
 } from './AppStateContext'
@@ -23,6 +25,9 @@ import { AppStateContext } from './AppStateContext'
 interface AppStateProviderProps {
   children: ReactNode
 }
+
+const DEFAULT_DATASET_TAB: DatasetTab = 'details'
+const DEFAULT_ANNOTATION_TAB: AnnotationTab = 'details'
 
 const expandRange = (range: string): string[] => {
   const parts = range.trim().split('-')
@@ -58,6 +63,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     datasetId: parseAsString.withDefault(''),
     annotationId: parseAsString.withDefault(''),
     currentPageOrKey: parseAsString.withDefault(''),
+    datasetTab: parseAsString.withDefault(''),
+    annotationTab: parseAsString.withDefault(''),
   })
   const [searchResultHighlight, setSearchResultHighlight] = useState<
     string | null
@@ -72,14 +79,26 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     queryState.viewMode === 'backups'
       ? queryState.viewMode
       : null
+  const parsedDatasetTab: DatasetTab =
+    queryState.datasetTab === 'features' ? 'features' : DEFAULT_DATASET_TAB
+  const parsedAnnotationTab: AnnotationTab =
+    queryState.annotationTab === 'text' ||
+    queryState.annotationTab === 'featureResults' ||
+    queryState.annotationTab === 'featureExecutions'
+      ? queryState.annotationTab
+      : DEFAULT_ANNOTATION_TAB
   const state = useMemo<AppState>(
     () => ({
       viewMode: parsedViewMode,
       datasetId: queryState.datasetId,
       annotationId: queryState.annotationId,
       currentPageOrKey: queryState.currentPageOrKey,
+      datasetTab: parsedDatasetTab,
+      annotationTab: parsedAnnotationTab,
     }),
     [
+      parsedAnnotationTab,
+      parsedDatasetTab,
       parsedViewMode,
       queryState.annotationId,
       queryState.currentPageOrKey,
@@ -97,6 +116,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
         datasetId?: string
         annotationId?: string
         currentPageOrKey?: string
+        datasetTab?: string
+        annotationTab?: string
       } = {}
 
       if (updates.viewMode !== undefined) {
@@ -114,6 +135,12 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       if (updates.currentPageOrKey !== undefined) {
         nextUpdates.currentPageOrKey = String(updates.currentPageOrKey)
       }
+      if (updates.datasetTab !== undefined) {
+        nextUpdates.datasetTab = updates.datasetTab
+      }
+      if (updates.annotationTab !== undefined) {
+        nextUpdates.annotationTab = updates.annotationTab
+      }
 
       if (
         updates.datasetId !== undefined ||
@@ -121,6 +148,13 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       ) {
         nextUpdates.viewMode = ''
         setSearchResultHighlight(null)
+      }
+      if (updates.datasetId === '') {
+        nextUpdates.datasetTab = ''
+        nextUpdates.annotationTab = ''
+      }
+      if (updates.annotationId === '') {
+        nextUpdates.annotationTab = ''
       }
       history.pushState(state, '', window.location.href)
       setQueryState(nextUpdates)
@@ -176,9 +210,26 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
 
   useEffect(() => {
     if (annotations?.length === 1) {
-      setQueryState((s) => ({ ...s, annotationId: annotations[0].id! }))
+      setQueryState((s) => ({
+        ...s,
+        annotationId: annotations[0].id!,
+      }))
     }
   }, [annotations, setQueryState])
+
+  useEffect(() => {
+    if (queryState.datasetId || !queryState.datasetTab) {
+      return
+    }
+    setQueryState((s) => ({ ...s, datasetTab: '' }))
+  }, [queryState.datasetId, queryState.datasetTab, setQueryState])
+
+  useEffect(() => {
+    if (queryState.annotationId || !queryState.annotationTab) {
+      return
+    }
+    setQueryState((s) => ({ ...s, annotationTab: '' }))
+  }, [queryState.annotationId, queryState.annotationTab, setQueryState])
 
   useEffect(() => {
     if (!annotation || !availablePageOrKeys.length) {
