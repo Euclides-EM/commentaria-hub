@@ -22,15 +22,12 @@ import {
   type TeiViewMode,
 } from '../contents/tei/tei.ts'
 import {
-  VIEW_LABEL_MAP,
   isVerbLike,
   matchTeiCategoryToFeature,
   toFeatureOptions,
+  VIEW_LABEL_MAP,
 } from '../contents/tei/teiPaneUtils.tsx'
-import type {
-  FeatureOption,
-  ResolvedTeiFeature,
-} from '../contents/tei/TeiPane.types.ts'
+import type { ResolvedTeiFeature } from '../contents/tei/TeiPane.types.ts'
 import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
 import { expandRange } from '../../../utils/pages.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
