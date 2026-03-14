@@ -6,10 +6,11 @@ import {
   deleteEdition,
   getEdition,
   listAllEditions,
+  searchEditionsPage,
   upsertEdition,
   ustcLookup,
 } from "../api/editionApi";
-import type { model_Edition } from "@hub-api";
+import type { model_Edition, model_USTC } from "@hub-api";
 import type { model_EditionLocator } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
@@ -27,7 +28,6 @@ import { useNavigateWithQuery } from "../utils/navigationUtils.ts";
 import { useQuery } from "@tanstack/react-query";
 
 type Locator = model_EditionLocator;
-type UstcLookupResponse = Partial<model_USTC> & { already_exists?: boolean };
 
 type EditionFormData = {
   key: string;
@@ -782,6 +782,9 @@ export const UpsertEdition = () => {
   const [lists, setLists] = useState<OptionLists>();
   const [ustcDuplicateWarningOpen, setUstcDuplicateWarningOpen] =
     useState(false);
+  const [ustcDuplicateMatches, setUstcDuplicateMatches] = useState<string[]>(
+    [],
+  );
   const formContainerRef = useRef<HTMLDivElement>(null);
   const existingItemQuery = useQuery({
     queryKey: ["edition", "upsert", key],
@@ -851,12 +854,26 @@ export const UpsertEdition = () => {
 
     try {
       setUstcDuplicateWarningOpen(false);
-      const data = (await ustcLookup(ustcId)) as UstcLookupResponse;
+      setUstcDuplicateMatches([]);
+
+      const existingEditions = await searchEditionsPage({
+        fields_filter: { ustcId: [ustcId] },
+        offset: 0,
+        limit: 10,
+      });
+      const duplicateKeys = (existingEditions.items || [])
+        .map((item) => item.key)
+        .filter((itemKey): itemKey is string =>
+          Boolean(itemKey && itemKey !== key),
+        );
+      if (duplicateKeys.length > 0) {
+        setUstcDuplicateMatches(duplicateKeys);
+        setUstcDuplicateWarningOpen(true);
+      }
+
+      const data = (await ustcLookup(ustcId)) as Partial<model_USTC>;
       if (!data || Object.keys(data).length === 0) {
         return;
-      }
-      if (data.already_exists) {
-        setUstcDuplicateWarningOpen(true);
       }
 
       const currentValues = form.state.values;
@@ -998,8 +1015,12 @@ export const UpsertEdition = () => {
             </ModalClose>
             <WarningTitle>Possible existing record</WarningTitle>
             <WarningText>
-              This USTC lookup indicates the record probably already exists.
-              Review the catalogue before saving a duplicate entry.
+              Matching edition
+              {ustcDuplicateMatches.length === 1 ? "" : "s"} with this USTC ID
+              already exist
+              {ustcDuplicateMatches.length === 1 ? "s" : ""} in the catalogue:{" "}
+              {ustcDuplicateMatches.join(", ")}. Review them before saving a
+              duplicate entry.
             </WarningText>
             <WarningActions>
               <Button
