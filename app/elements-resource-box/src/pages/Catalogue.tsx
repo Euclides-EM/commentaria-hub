@@ -216,13 +216,6 @@ const ChildRow = styled.tr`
   }
 `;
 
-const TableFooterStatus = styled.div`
-  color: #334;
-  font-size: 0.85rem;
-  margin-top: -1rem;
-  margin-bottom: 1.5rem;
-`;
-
 type ViewMode = "flat" | "reprint";
 
 type ItemWithCluster = Item & {
@@ -279,7 +272,6 @@ export function Catalogue() {
   const orderBy = useMemo(() => toServerOrderBy(sorting), [sorting]);
   const {
     items: filteredItems,
-    total,
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
@@ -793,14 +785,6 @@ export function Catalogue() {
           </tbody>
         </StyledTable>
       </TableContainer>
-
-      <TableFooterStatus>
-        {isFetchingNextPage
-          ? "Loading more editions..."
-          : hasNextPage
-            ? "Scroll for more"
-            : `Loaded ${filteredItems?.length ?? 0}${typeof total === "number" ? ` of ${total}` : ""}`}
-      </TableFooterStatus>
 
       {selectedItem && (
         <ItemModal

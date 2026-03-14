@@ -66,6 +66,11 @@ export const itemProperties: {
     isArray: true,
     groupByJoinArray: true,
   },
+  publishers: {
+    displayName: "Publishers",
+    isArray: true,
+    groupByJoinArray: true,
+  },
   elementsBooks: {
     displayName: "Elements Books (ranges)",
     filterGroup: "Elements",

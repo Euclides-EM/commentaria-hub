@@ -72,7 +72,7 @@ const optionDisplayName = (
   field: keyof Item,
   value: string | undefined | null,
 ): string => {
-  if (field === "authors") {
+  if (field === "authors" || field === "publishers") {
     return authorDisplayName(value || "");
   }
   if (field === "study_corpora") {
@@ -159,7 +159,7 @@ export const FiltersGroup = ({
             .sort(
               config.customCompareFn ||
                 ((a, b) => {
-                  if (field === "authors") {
+                  if (field === "authors" || field === "publishers") {
                     return authorDisplayName(a as string).localeCompare(
                       authorDisplayName(b as string),
                     );
