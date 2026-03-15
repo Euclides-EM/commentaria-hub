@@ -1,5 +1,6 @@
 [build]
   publish = "elements-resource-box/dist"
+  environment = { VITE_BASE_PATH = "/", VITE_BACKEND_URL="http://euclides.huma-num.fr/commentaria", VITE_RESOURCEBOX_APP_URL="http://euclides.huma-num.fr/resourcebox", VITE_COMMENTARIA_APP_URL="http://euclides.huma-num.fr/hub" }
 
 [[redirects]]
   from = "/*"
