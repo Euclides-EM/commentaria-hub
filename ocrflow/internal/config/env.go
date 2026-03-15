@@ -2,9 +2,11 @@ package config
 
 import (
 	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/caarlos0/env"
+	"github.com/samber/lo"
 )
 
 type EnvConfig struct {
@@ -17,6 +19,7 @@ type EnvConfig struct {
 	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
 	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
 	CommentariaPath         string        `env:"COMMENTARIA_PATH" envDefault:"http://euclides.huma-num.fr/commentaria"`
+	AllowedOriginsCORS      string        `env:"ALLOWED_ORIGINS_CORS" envDefault:""`
 
 	StoreDir      string `env:"STORE_DIR" envDefault:"./store"`
 	BackupRootDir string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
@@ -64,4 +67,33 @@ func (ec *EnvConfig) BackupDir() string {
 
 func (ec *EnvConfig) RestoreDir() string {
 	return filepath.Join(ec.BackupRootDir, "restore")
+}
+
+func (ec *EnvConfig) AllowedOriginsCORSList() []string {
+	if ec.AllowedOriginsCORS == "" {
+		return ec.defaultAllowedOriginsCORS()
+	}
+	return lo.Map(strings.Split(ec.AllowedOriginsCORS, ","), func(origin string, _ int) string {
+		return strings.TrimSpace(origin)
+	})
+}
+
+func (ec *EnvConfig) defaultAllowedOriginsCORS() []string {
+	domains := []string{
+		"euclides.huma-num.fr",
+		"elements-resource-box.netlify.app",
+		"localhost",
+		"127.0.0.1",
+	}
+	localhostPorts := []string{"3000", "5173", "5174", "5180", "5181", "5190", "5191", "8080"}
+	var l []string
+	for _, domain := range domains {
+		l = append(l, "http://"+domain)
+		l = append(l, "https://"+domain)
+	}
+	for _, port := range localhostPorts {
+		l = append(l, "http://localhost:"+port)
+		l = append(l, "http://127.0.0.1:"+port)
+	}
+	return l
 }

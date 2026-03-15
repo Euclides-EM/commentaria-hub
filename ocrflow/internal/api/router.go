@@ -152,6 +152,6 @@ func NewRouter(deps *Dependencies) http.Handler {
 		),
 	)
 
-	handler := CORSMiddleware(root)
+	handler := CORSMiddleware(deps.Env.AllowedOriginsCORSList(), root)
 	return handler
 }
