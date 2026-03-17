@@ -200,6 +200,23 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
     rangeRef.current = range;
   }, [range]);
 
+  useEffect(() => {
+    setFilters(appliedFilters);
+    setFiltersInclude(appliedFiltersInclude);
+    setRange(appliedRange);
+    rangeRef.current = appliedRange;
+    setIncludeUndated(appliedIncludeUndated);
+    setTextSearch(appliedTextSearch);
+    setTextSearchFields(appliedTextSearchFields);
+  }, [
+    appliedFilters,
+    appliedFiltersInclude,
+    appliedRange,
+    appliedIncludeUndated,
+    appliedTextSearch,
+    appliedTextSearchFields,
+  ]);
+
   const handleRangeChange = useCallback(
     (nextRange: [number, number]) => {
       rangeRef.current = nextRange;

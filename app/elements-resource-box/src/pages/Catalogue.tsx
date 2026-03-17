@@ -331,20 +331,10 @@ export function Catalogue() {
 
     const normalizeKey = (key?: string | null) =>
       (key || "").trim().toLowerCase();
+    const items = filteredItems ?? [];
     const itemMap = new Map(
-      filteredItems?.map((item) => [normalizeKey(item.key), item]),
+      items.map((item) => [normalizeKey(item.key), item]),
     );
-    const childrenByParent = new Map<string, Item[]>();
-
-    for (const item of filteredItems ?? []) {
-      const parentKey = normalizeKey(item.reprintOf);
-      if (!parentKey || !itemMap.has(parentKey)) {
-        continue;
-      }
-      const existing = childrenByParent.get(parentKey) || [];
-      existing.push(item);
-      childrenByParent.set(parentKey, existing);
-    }
 
     const sortByYearThenKey = (a: Item, b: Item) => {
       const yearA = a.year ? parseInt(a.year) : 9999;
@@ -355,93 +345,86 @@ export function Catalogue() {
       return a.key.localeCompare(b.key);
     };
 
-    const buildTree = (item: Item, lineage: Set<string>): ItemWithCluster => {
-      const nextLineage = new Set(lineage);
-      nextLineage.add(normalizeKey(item.key));
-
-      const children = (childrenByParent.get(normalizeKey(item.key)) || [])
-        .filter((child) => !nextLineage.has(normalizeKey(child.key)))
-        .sort(sortByYearThenKey)
-        .map((child) => buildTree(child, nextLineage));
-
-      return {
-        ...item,
-        ...(children.length > 0 ? { clusterMembers: children } : {}),
-        ...(item.reprintOf && itemMap.has(normalizeKey(item.reprintOf))
-          ? { isReprintOf: item.reprintOf }
-          : {}),
-      };
-    };
-
-    const roots = (filteredItems ?? []).filter((item) => {
-      const parentKey = normalizeKey(item.reprintOf);
-      return !(parentKey && itemMap.has(parentKey));
-    });
-
-    const seen = new Set<string>();
-    const markTreeSeen = (node: ItemWithCluster) => {
-      seen.add(node.key);
-      for (const child of node.clusterMembers || []) {
-        markTreeSeen(child);
-      }
-    };
-
-    const toRow = (tree: ItemWithCluster, rootKey: string): ItemWithCluster => {
-      if (tree.clusterMembers?.length) {
-        return {
-          ...tree,
-          isClusterRoot: true,
-          clusterKey: rootKey,
-        };
-      }
-      return tree;
-    };
-
     const indexByKey = new Map(
-      (filteredItems ?? []).map((item, index) => [
-        normalizeKey(item.key),
-        index,
-      ]),
+      items.map((item, index) => [normalizeKey(item.key), index]),
     );
-    const minIndexInTree = (node: ItemWithCluster): number => {
-      let minIndex =
-        indexByKey.get(normalizeKey(node.key)) ?? Number.MAX_SAFE_INTEGER;
-      for (const child of node.clusterMembers || []) {
-        minIndex = Math.min(minIndex, minIndexInTree(child));
+    const links = new Map<string, Set<string>>();
+
+    for (const item of items) {
+      const itemKey = normalizeKey(item.key);
+      if (!links.has(itemKey)) {
+        links.set(itemKey, new Set());
       }
-      return minIndex;
-    };
-
-    const result: { row: ItemWithCluster; order: number }[] = [];
-
-    for (const item of roots) {
-      const tree = buildTree(item, new Set<string>());
-      const row = toRow(tree, item.key);
-      result.push({
-        row,
-        order: minIndexInTree(row),
-      });
-      markTreeSeen(tree);
-    }
-
-    const unresolvedLinkedItems = (filteredItems ?? []).filter(
-      (item) =>
-        item.reprintOf &&
-        itemMap.has(normalizeKey(item.reprintOf)) &&
-        !seen.has(item.key),
-    );
-
-    for (const item of unresolvedLinkedItems) {
-      if (seen.has(item.key)) {
+      const parentKey = normalizeKey(item.reprintOf);
+      if (!parentKey || !itemMap.has(parentKey)) {
         continue;
       }
-      const tree = buildTree(item, new Set<string>());
-      const row = toRow(tree, item.key);
+      links.get(itemKey)!.add(parentKey);
+      const parentLinks = links.get(parentKey) || new Set<string>();
+      parentLinks.add(itemKey);
+      links.set(parentKey, parentLinks);
+    }
+
+    const seen = new Set<string>();
+    const result: { row: ItemWithCluster; order: number }[] = [];
+
+    for (const item of items) {
+      const startKey = normalizeKey(item.key);
+      if (seen.has(startKey)) {
+        continue;
+      }
+
+      const stack = [startKey];
+      const componentKeys: string[] = [];
+
+      while (stack.length > 0) {
+        const currentKey = stack.pop()!;
+        if (seen.has(currentKey)) {
+          continue;
+        }
+        seen.add(currentKey);
+        componentKeys.push(currentKey);
+        for (const linkedKey of links.get(currentKey) || []) {
+          if (!seen.has(linkedKey)) {
+            stack.push(linkedKey);
+          }
+        }
+      }
+
+      const componentItems = componentKeys
+        .map((key) => itemMap.get(key))
+        .filter((componentItem): componentItem is Item => !!componentItem)
+        .sort(sortByYearThenKey);
+
+      if (componentItems.length <= 1) {
+        result.push({
+          row: componentItems[0],
+          order: indexByKey.get(startKey) ?? Number.MAX_SAFE_INTEGER,
+        });
+        continue;
+      }
+
+      const [root, ...members] = componentItems;
       result.push({
-        row,
-        order: minIndexInTree(row),
+        row: {
+          ...root,
+          isClusterRoot: true,
+          clusterKey: root.key,
+          clusterMembers: members.map((member) => ({
+            ...member,
+            ...(member.reprintOf && itemMap.has(normalizeKey(member.reprintOf))
+              ? { isReprintOf: member.reprintOf }
+              : {}),
+          })),
+        },
+        order: Math.min(
+          ...componentItems.map(
+            (componentItem) =>
+              indexByKey.get(normalizeKey(componentItem.key)) ??
+              Number.MAX_SAFE_INTEGER,
+          ),
+        ),
       });
-      markTreeSeen(tree);
     }
 
     return result.sort((a, b) => a.order - b.order).map((entry) => entry.row);

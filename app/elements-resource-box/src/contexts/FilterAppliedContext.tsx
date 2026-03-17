@@ -17,6 +17,7 @@ import {
 import { useQueryStates } from "nuqs";
 import { useQuery } from "@tanstack/react-query";
 import { listAllEditions } from "../api/editionApi";
+import { injectEuclidesEditionConstraints } from "../utils/editionSearchQuery";
 
 export type { FilterState } from "../utils/filterQueryState";
 
@@ -72,7 +73,7 @@ export const FilterAppliedProvider = ({
 }) => {
   const editionsQuery = useQuery({
     queryKey: ["editions", "all", "filter-applied"],
-    queryFn: () => listAllEditions(),
+    queryFn: () => listAllEditions(injectEuclidesEditionConstraints()),
   });
   const data = useMemo<Item[]>(
     () => mapEditionsToItems(editionsQuery.data || []),

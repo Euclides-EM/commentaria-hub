@@ -59,7 +59,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
           .map((s) => s.scan?.trim())
           .filter(Boolean) as string[],
         type: edition.isElements ? ItemTypes.elements : ItemTypes.secondary,
-        format: edition.format || -1,
+        format: edition.format || null,
         elementsBooks: toBookRanges(books),
         elementsBooksExpanded: books,
         additionalContent: edition.additionalContent || [],

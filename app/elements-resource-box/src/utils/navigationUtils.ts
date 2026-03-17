@@ -20,6 +20,8 @@ const getSavedFilterQuery = (): string => {
     return localStorage.getItem(SAVED_FILTER_QUERY_KEY) || "";
   } catch {
     return "";
+  } finally {
+    localStorage.removeItem(SAVED_FILTER_QUERY_KEY);
   }
 };
 

@@ -10,6 +10,7 @@ import { listAllEditions, searchEditionsPage } from "../api/editionApi";
 import { mapEditionsToItems } from "../utils/dataUtils";
 import type { FilterValue } from "../components/map/Filter";
 import type { Item } from "../types";
+import { injectEuclidesEditionConstraints } from "../utils/editionSearchQuery";
 import type {
   model_Edition,
   search_OrderByOption,
@@ -139,14 +140,16 @@ export function useEditionsSearch() {
 
   const searchQuery = useMemo(
     () =>
-      buildSearchQuery({
-        filters,
-        filtersInclude,
-        range,
-        includeUndated,
-        textSearch,
-        textSearchFields,
-      }),
+      injectEuclidesEditionConstraints(
+        buildSearchQuery({
+          filters,
+          filtersInclude,
+          range,
+          includeUndated,
+          textSearch,
+          textSearchFields,
+        }),
+      ),
     [
       filters,
       filtersInclude,
@@ -194,14 +197,16 @@ export function useEditionsSearchInfinite(options: InfiniteSearchOptions = {}) {
 
   const searchQuery = useMemo(
     () =>
-      buildSearchQuery({
-        filters,
-        filtersInclude,
-        range,
-        includeUndated,
-        textSearch,
-        textSearchFields,
-      }),
+      injectEuclidesEditionConstraints(
+        buildSearchQuery({
+          filters,
+          filtersInclude,
+          range,
+          includeUndated,
+          textSearch,
+          textSearchFields,
+        }),
+      ),
     [
       filters,
       filtersInclude,
