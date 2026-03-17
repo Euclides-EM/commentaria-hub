@@ -72,3 +72,13 @@ export type ItemProps = {
   mode: Mode;
   featuresById: Record<string, feature_Feature> | null;
 };
+
+export const STUDY_CORPUSES: Record<string, string> = {
+  dh: "DH core",
+  tps: "Title pages",
+  dotted_lines: "Dotted lines",
+  Angela_metadata: "Angela metadata",
+  origin_eip_csv: "Original EiP",
+  axiomatics_16: "Axiomatics 16",
+  tps_experiment: "Title pages experiment",
+};

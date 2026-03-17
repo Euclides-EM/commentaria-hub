@@ -15,7 +15,7 @@ import {
 import styled from "@emotion/styled";
 import type { search_OrderByOption } from "@hub-api";
 import { SiMaterialdesign } from "react-icons/si";
-import type { Item } from "../types";
+import { Item, STUDY_CORPUSES } from "../types";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
 import { useEditionsSearchInfinite } from "../hooks/useEditionsSearch";
 import {
@@ -612,7 +612,8 @@ export function Catalogue() {
           }),
         columnHelper.accessor("format", {
           header: "Format",
-          cell: (info) => info.getValue(),
+          cell: (info) =>
+            info.getValue() ? `${info.getValue()}º` : info.getValue(),
           size: 60,
         }),
         showElementsColumns &&
@@ -645,7 +646,13 @@ export function Catalogue() {
         inEuclidesMode() &&
           columnHelper.accessor("study_corpora", {
             header: () => <Row gap={0.5}>Study Corpus</Row>,
-            cell: (info) => joinArr(info.getValue().sort()),
+            cell: (info) =>
+              joinArr(
+                info
+                  .getValue()
+                  .sort()
+                  .map((val) => STUDY_CORPUSES[val] || val),
+              ),
             size: 120,
           }),
       ].filter(Boolean) as ColumnDef<ItemWithCluster>[],

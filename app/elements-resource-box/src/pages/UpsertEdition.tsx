@@ -26,6 +26,7 @@ import {
 import { isValidUrl } from "../utils/util.ts";
 import { useNavigateWithQuery } from "../utils/navigationUtils.ts";
 import { useQuery } from "@tanstack/react-query";
+import { STUDY_CORPUSES } from "../types";
 
 type Locator = model_EditionLocator;
 
@@ -197,16 +198,12 @@ const FORMATS = [
   "64º",
 ];
 
-const STUDY_CORPUSES = [
-  { name: "dh", label: "DH core" },
-  { name: "tps", label: "Title pages" },
-  { name: "dotted_lines", label: "Dotted lines" },
-  { name: "Angela_metadata", label: "Angela metadata" },
-  { name: "origin_eip_csv", label: "Original EiP" },
-  { name: "axiomatics_16", label: "Axiomatics 16" },
-];
-
 const ANNOTATIONS = ["none", "a few", "some", "many", "uncatalogued"];
+
+const corpuses = Object.entries(STUDY_CORPUSES).map(([key, name]) => ({
+  value: key,
+  label: name,
+}));
 
 const PageContainer = styled.div`
   padding-right: 1rem;
@@ -1726,17 +1723,16 @@ export const UpsertEdition = () => {
                   {(field) => (
                     <MultiSelect
                       name="corpus"
-                      options={STUDY_CORPUSES.sort((c1, c2) =>
-                        c1.label.localeCompare(c2.label),
-                      ).map((c) => c.name)}
+                      options={corpuses
+                        .sort((c1, c2) => c1.label.localeCompare(c2.label))
+                        .map((c) => c.name)}
                       value={field.state.value}
                       onChange={(values) =>
                         field.handleChange(values.map((v) => v))
                       }
                       onBlur={field.handleBlur}
                       labelFn={(name) =>
-                        STUDY_CORPUSES.find((c) => c.name === name)?.label ||
-                        name
+                        corpuses.find((c) => c.name === name)?.label || name
                       }
                       placeholder="Select which research corpuses include this item..."
                     />
