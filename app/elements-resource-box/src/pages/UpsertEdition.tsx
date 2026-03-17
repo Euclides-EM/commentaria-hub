@@ -201,7 +201,7 @@ const FORMATS = [
 const ANNOTATIONS = ["none", "a few", "some", "many", "uncatalogued"];
 
 const corpuses = Object.entries(STUDY_CORPUSES).map(([key, name]) => ({
-  value: key,
+  name: key,
   label: name,
 }));
 
