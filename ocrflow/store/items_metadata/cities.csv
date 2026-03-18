@@ -2,6 +2,7 @@ city,lat,lon,country_in_1500,country_in_1550,country_in_1600,country_in_1650,cou
 Alcala,37.8333,-2.9167,Castile,Castile,Spain,Spain,Spain,Spain
 Altdorf,46.9667,8.65,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Switzerland
 Amsterdam,52.374,5.0945,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
+Annecy,45.8992,6.1294,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Ansbach,49.4333,10.55,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Antwerp,51.2167,4.4167,Habsburg Netherlands,Habsburg Netherlands,Habsburg Netherlands,Spanish Netherlands,Spanish Netherlands,Belgium
 Arnhem,52,5.6667,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
@@ -44,6 +45,7 @@ Ingolstadt,48.6833,11.45,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,H
 Innsbruck,47.2667,11.4,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Austria
 Jena,50.9272,11.5894,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Kiel,54.3333,10,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
+La Flèche,47.6833,0.15,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Lausanne,46.5197,6.6323,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Old Swiss Confederacy,Switzerland
 Le Mans,48.0061,0.1996,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Leeuwarden,53.2012,5.7999,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
@@ -72,6 +74,7 @@ Pesaro,43.7167,12.9167,Papal States,Papal States,Papal States,Papal States,Papal
 Pisa,43.7167,10.4,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Grand Duchy of Tuscany,Italy
 Poitiers,46.5802,0.3404,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Pont-à-Mousson,48.8833,6.1167,Duchy of Lorraine,Duchy of Lorraine,Duchy of Lorraine,Duchy of Lorraine,Duchy of Lorraine,France
+Ravenna,44.4186,12.2038,Byzantine Empire,Byzantine Empire,Byzantine Empire,Byzantine Empire,Byzantine Empire,Italy
 Rees,51.75,6.15,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Reims,49.2583,4.0317,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Rome,41.8944,12.4833,Papal States,Papal States,Papal States,Papal States,Papal States,Italy
@@ -80,12 +83,15 @@ Rouen,49.4431,1.0993,Kingdom of France,Kingdom of France,Kingdom of France,Kingd
 Salamanca,40.9667,-5.6667,Castile,Castile,Spain,Spain,Spain,Spain
 Seville,37.3889,-5.9833,Castile,Castile,Spain,Spain,Spain,Spain
 Siena,43.3333,11.3333,Republic of Siena,Republic of Siena,Duchy of Florence,Duchy of Florence,Grand Duchy of Tuscany,Italy
+Simmern,49.9667,7.65,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Strasbourg,48.5833,7.75,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,France
 The Hague,52.0833,4.0,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
+Toul,43.6045,1.4440,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Toulouse,43.6045,1.4440,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Tournon,45.0833,4.8,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Tours,47.3941,0.6848,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,Kingdom of France,France
 Turin,45.0703,7.6869,Duchy of Savoy,Duchy of Savoy,Duchy of Savoy,Duchy of Savoy,Duchy of Savoy,Italy
+Ulm,48.4011,9.9876,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Holy Roman Empire,Germany
 Uppsala,59.8586,17.6389,Sweden,Sweden,Sweden,Sweden,Sweden,Sweden
 Urbino,43.4263,12.4360,Duchy of Urbino,Duchy of Urbino,Duchy of Urbino,Duchy of Urbino,Duchy of Urbino,Italy
 Utrecht,52.0907,5.1214,Habsburg Netherlands,Habsburg Netherlands,Dutch Republic,Dutch Republic,Dutch Republic,Netherlands
