@@ -46,7 +46,7 @@ const Title = styled.div`
 const SubTitle = styled.div`
   font-size: clamp(1rem, 1.8vw, 1.15rem);
   color: ${PANE_COLOR};
-  max-width: 44rem;
+  max-width: 90vw;
 `;
 
 export function HerigoneMar25Page() {
@@ -55,7 +55,9 @@ export function HerigoneMar25Page() {
       <Container>
         <Title>Hérigone, Book II.4</Title>
         <SubTitle>
-          A step-by-step reconstruction of the geometric proof from 1634
+          If a straight line is cut in whatever way one wishes: the square of
+          the whole is equal to the squares of the parts, and to twice the
+          rectangle contained under those same parts.
         </SubTitle>
         <div>Mia Joskowicz, March 2025</div>
         <Spacer />

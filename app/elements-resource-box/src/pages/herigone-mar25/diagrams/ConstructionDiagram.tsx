@@ -11,13 +11,21 @@ type VisibleState = {
   vertical: boolean;
   movingHI: boolean;
   horizontal: boolean;
+  parallelogramFills: boolean;
   rightAngles: boolean;
   equalSides: boolean;
-  topBisectedAngle: boolean;
-  lowerBisectedAngle: boolean;
+  equalSegmentPairs: boolean;
+  equalSegmentQuartet: boolean;
+  labeledTopBisectedAngle: boolean;
+  unlabeledTopBisectedAngle: boolean;
+  labeledLowerBisectedAngle: boolean;
+  unlabeledLowerBisectedAngle: boolean;
+  unlabeledSquareBisectedAnglesAtB: boolean;
+  unlabeledEqualAnglesAtBAndG: boolean;
   redSquare: boolean;
   blueSquare: boolean;
   greenRects: boolean;
+  qed: boolean;
 };
 
 const Diagram = styled.svg`
@@ -355,6 +363,46 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           </Label>
         </g>
       )}
+      {visible.parallelogramFills && (
+        <g>
+          <rect
+            x="50"
+            y="50"
+            width="200"
+            height="200"
+            fill="rgba(196, 78, 82, 0.18)"
+            stroke="#c44e52"
+            strokeWidth="1.5"
+          />
+          <rect
+            x="250"
+            y="50"
+            width="100"
+            height="200"
+            fill="rgba(129, 114, 179, 0.18)"
+            stroke="#8172b3"
+            strokeWidth="1.5"
+          />
+          <rect
+            x="50"
+            y="250"
+            width="200"
+            height="100"
+            fill="rgba(85, 168, 104, 0.18)"
+            stroke="#55a868"
+            strokeWidth="1.5"
+          />
+          <rect
+            x="250"
+            y="250"
+            width="100"
+            height="100"
+            fill="rgba(76, 114, 176, 0.18)"
+            stroke="#4c72b0"
+            strokeWidth="1.5"
+          />
+        </g>
+      )}
       {visible.rightAngles && (
         <g>
           <RightAngle
@@ -411,7 +459,147 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           />
         </g>
       )}
-      {visible.topBisectedAngle && (
+      {visible.equalSegmentPairs && (
+        <g>
+          <line
+            x1="250"
+            y1="350"
+            x2="350"
+            y2="350"
+            stroke="#347abd"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="250"
+            y1="350"
+            x2="250"
+            y2="250"
+            stroke="#347abd"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="50"
+            y1="250"
+            x2="250"
+            y2="250"
+            stroke="#d17a22"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="50"
+            y1="50"
+            x2="50"
+            y2="250"
+            stroke="#d17a22"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+        </g>
+      )}
+      {visible.equalSegmentQuartet && (
+        <g>
+          <line
+            x1="50"
+            y1="50"
+            x2="50"
+            y2="250"
+            stroke="#d17a22"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="250"
+            y1="250"
+            x2="250"
+            y2="50"
+            stroke="#d17a22"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="50"
+            y1="250"
+            x2="250"
+            y2="250"
+            stroke="#2c7a7b"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="50"
+            y1="50"
+            x2="250"
+            y2="50"
+            stroke="#2c7a7b"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="250"
+            y1="350"
+            x2="350"
+            y2="350"
+            stroke="#347abd"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="250"
+            y1="250"
+            x2="350"
+            y2="250"
+            stroke="#347abd"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="250"
+            y1="250"
+            x2="250"
+            y2="350"
+            stroke="#b04a9f"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+          <line
+            x1="350"
+            y1="250"
+            x2="350"
+            y2="350"
+            stroke="#b04a9f"
+            strokeWidth="4"
+            strokeLinecap="round"
+          />
+        </g>
+      )}
+      {visible.unlabeledSquareBisectedAnglesAtB && (
+        <g>
+          <path
+            d="M 350 350 L 332 350 A 18 18 0 0 1 337.27 337.27 Z"
+            fill="rgba(255,0,0,0.16)"
+          />
+          <path
+            d="M 350 350 L 337.27 337.27 A 18 18 0 0 1 350 332 Z"
+            fill="rgba(255,0,0,0.16)"
+          />
+        </g>
+      )}
+      {visible.unlabeledEqualAnglesAtBAndG && (
+        <g>
+          <path
+            d="M 350 350 L 332 350 A 18 18 0 0 1 337.27 337.27 Z"
+            fill="rgba(255,0,0,0.16)"
+          />
+          <path
+            d="M 250 250 L 250 272 A 22 22 0 0 0 265.56 265.56 Z"
+            fill="rgba(255,0,0,0.16)"
+          />
+        </g>
+      )}
+      {visible.labeledTopBisectedAngle && (
         <g>
           <path
             d="M 50 50 L 76 50 A 26 26 0 0 1 68.38 68.38 Z"
@@ -429,7 +617,19 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           </text>
         </g>
       )}
-      {visible.lowerBisectedAngle && (
+      {visible.unlabeledTopBisectedAngle && (
+        <g>
+          <path
+            d="M 50 50 L 76 50 A 26 26 0 0 1 68.38 68.38 Z"
+            fill="rgba(255,0,0,0.16)"
+          />
+          <path
+            d="M 50 50 L 68.38 68.38 A 26 26 0 0 1 50 76 Z"
+            fill="rgba(255,0,0,0.16)"
+          />
+        </g>
+      )}
+      {visible.labeledLowerBisectedAngle && (
         <g>
           <path
             d="M 250 250 L 228 250 A 22 22 0 0 1 234.44 234.44 Z"
@@ -445,6 +645,18 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           <text x="228" y="221" fontSize="11" fontStyle="italic" fill="#c00">
             45°
           </text>
+        </g>
+      )}
+      {visible.unlabeledLowerBisectedAngle && (
+        <g>
+          <path
+            d="M 250 250 L 228 250 A 22 22 0 0 1 234.44 234.44 Z"
+            fill="rgba(255,0,0,0.16)"
+          />
+          <path
+            d="M 50 50 L 68.38 68.38 A 26 26 0 0 1 50 76 Z"
+            fill="rgba(255,0,0,0.16)"
+          />
         </g>
       )}
       {visible.redSquare && (
@@ -469,27 +681,32 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           strokeWidth="2"
         />
       )}
+      {visible.qed && (
+        <text x="200" y="20" fontSize="17" textAnchor="middle" fill="#666">
+          □ AB = □ AC + □ CB + 2 ▭ ACB
+        </text>
+      )}
       {visible.greenRects && (
-        <g>
-          <rect
-            x="50"
-            y="250"
-            width="200"
-            height="100"
-            fill="rgba(0,255,0,0.1)"
-            stroke="green"
-            strokeWidth="1.5"
-          />
-          <rect
-            x="250"
-            y="50"
-            width="100"
-            height="200"
-            fill="rgba(0,255,0,0.1)"
-            stroke="green"
-            strokeWidth="1.5"
-          />
-        </g>
+          <g>
+            <rect
+              x="50"
+              y="250"
+              width="200"
+              height="100"
+              fill="rgba(0,255,0,0.1)"
+              stroke="green"
+              strokeWidth="1.5"
+            />
+            <rect
+              x="250"
+              y="50"
+              width="100"
+              height="200"
+              fill="rgba(0,255,0,0.1)"
+              stroke="green"
+              strokeWidth="1.5"
+            />
+          </g>
       )}
     </Diagram>
   );

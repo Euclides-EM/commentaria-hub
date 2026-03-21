@@ -5,78 +5,146 @@ import { ConstructionDiagram } from "./diagrams/ConstructionDiagram";
 import { PropositionDiagram } from "./diagrams/PropositionDiagram";
 
 type Step = {
+  groupIndex: number;
+  stepIndex: number;
+  groupLabel: string;
   label: string;
   text: string;
+  visualStep: number;
 };
 
-const steps: Step[] = [
-  { label: "I. The Hypothesis", text: "Draw the straight line AB." },
-  { label: "I. The Hypothesis", text: "Divide line AB at point C." },
+type StepGroup = {
+  tabLabel: string;
+  label: string;
+  steps: Array<{
+    text: string;
+    visualStep: number;
+  }>;
+};
+
+const stepGroups: StepGroup[] = [
   {
+    tabLabel: "Hypothesis",
     label: "I. The Hypothesis",
-    text: "Required to demonstrate: the area of a square with side AB equals the area of square AC plus the area of square CB plus 2 times the area of the rectangle made up of AC and CB.",
+    steps: [
+      { text: "Draw the straight line AB.", visualStep: 1 },
+      { text: "Divide line AB at point C.", visualStep: 2 },
+      {
+        text: "Required to demonstrate: the area of a square with side AB equals the area of square AC plus the area of square CB plus 2 times the area of the rectangle made up of AC and CB.",
+        visualStep: 3,
+      },
+    ],
   },
   {
+    tabLabel: "Preparation",
     label: "II. The Preparation",
-    text: "Describe the square ADEB on the whole line AB.",
+    steps: [
+      { text: "Describe the square ADEB on the whole line AB.", visualStep: 4 },
+      {
+        text: "Extend from E to add point D and complete the square.",
+        visualStep: 5,
+      },
+      { text: "Draw the diagonal EB.", visualStep: 6 },
+      {
+        text: "Draw CF parallel to AD; it intersects the diagonal at G.",
+        visualStep: 7,
+      },
+      { text: "Through G, draw HI parallel to AB.", visualStep: 8 },
+    ],
   },
   {
-    label: "II. The Preparation",
-    text: "Extend from E to add point D and complete the square.",
-  },
-  { label: "II. The Preparation", text: "Draw the diagonal EB." },
-  {
-    label: "II. The Preparation",
-    text: "Draw CF parallel to AD; it intersects the diagonal at G.",
-  },
-  {
-    label: "II. The Preparation",
-    text: "Through G, draw HI parallel to AB.",
-  },
-  {
-    label: "III. The Demonstration",
-    text: "Angles AED, ABD, EHG, EFG, and HGF are right angles.",
-  },
-  {
-    label: "III. The Demonstration",
-    text: "Side AE is equal to side AB.",
-  },
-  {
-    label: "III. The Demonstration",
-    text: "The diagonal EB bisects the right angle AED, making angles AEB and DEB 45°.",
-  },
-  {
-    label: "III. The Demonstration",
-    text: "The diagonal EB bisects the right angle HGF, making angles HGE and FGE 45°.",
-  },
-  {
-    label: "III. The Demonstration",
-    text: "Since angle EHG is 90° and the other two are 45°, side HG must equal HE. EHGF is a square.",
+    tabLabel: "Demonstration (1634)",
+    label: "III. The Demonstration (1634)",
+    steps: [
+      {
+        text: "Angles AED, ABD, EHG, EFG, and HGF are right angles.",
+        visualStep: 9,
+      },
+      { text: "Side AE is equal to side AB.", visualStep: 10 },
+      {
+        text: "The diagonal EB bisects the right angle AED, making angles AEB and DEB 45°.",
+        visualStep: 11,
+      },
+      {
+        text: "The diagonal EB bisects the right angle HGF, making angles HGE and FGE 45°.",
+        visualStep: 12,
+      },
+      {
+        text: "Since angle EHG is 90° and the other two are 45°, side HG must equal HE. EHGF is a square.",
+        visualStep: 13,
+      },
+      {
+        text: "Similarly, CGIB is also a square on the other segment.",
+        visualStep: 14,
+      },
+      {
+        text: "The remaining spaces are rectangles. Thus, the square on the whole equals the squares on the parts plus twice their rectangle. QED.",
+        visualStep: 15,
+      },
+    ],
   },
   {
-    label: "III. The Demonstration",
-    text: "Similarly, CGIB is also a square on the other segment.",
-  },
-  {
-    label: "III. The Demonstration",
-    text: "The remaining spaces are rectangles. Thus, the square on the whole equals the squares on the parts plus twice their rectangle. QED.",
+    tabLabel: "Demonstration (1639)",
+    label: "III. The Demonstration (1639)",
+    steps: [
+      {
+        text: "AG, HF, CI, and GD are parallelograms.",
+        visualStep: 16,
+      },
+      {
+        text: "Angles AED, ABD, EHG, EFG, and HGF are right angles.",
+        visualStep: 17,
+      },
+      { text: "Side AE is equal to side AB.", visualStep: 18 },
+      {
+        text: "AEB, ABE, DEB, and DBE are all equal to each other, because the diagonal EB bisects the right angles of the large square.",
+        visualStep: 19,
+      },
+      {
+        text: "Similarly, CBG, CGB, HEG, and HGE are all equal to each other.",
+        visualStep: 20,
+      },
+      {
+        text: "BC equals CG, and GH equals HE.",
+        visualStep: 21,
+      },
+      {
+        text: "HE equals GF, HG equals EF, CB equals GI, and CG equals BI.",
+        visualStep: 22,
+      },
+      {
+        text: "GHFE is a square, and CBIG is a square.",
+        visualStep: 23,
+      },
+      {
+        text: "The rectangles AG and GD are equal to each other.",
+        visualStep: 24,
+      },
+      {
+        text: "Thus, as in 1634, the whole is obtained by adding everything together at the end.",
+        visualStep: 25,
+      },
+    ],
   },
 ];
 
-const quickLinks = [
-  {
-    label: "Hypothesis",
-    step: steps.findIndex(({ label }) => label.includes("Hypothesis")) + 1,
-  },
-  {
-    label: "Preparation",
-    step: steps.findIndex(({ label }) => label.includes("Preparation")) + 1,
-  },
-  {
-    label: "Demonstration",
-    step: steps.findIndex(({ label }) => label.includes("Demonstration")) + 1,
-  },
-];
+const steps: Step[] = stepGroups.flatMap(
+  ({ label, steps: groupedSteps }, groupIndex) =>
+    groupedSteps.map(({ text, visualStep }, index) => ({
+      groupIndex,
+      stepIndex: index,
+      groupLabel: label,
+      label: `${label} (${index + 1}/${groupedSteps.length})`,
+      text,
+      visualStep,
+    })),
+);
+
+const quickLinks = stepGroups.map(({ tabLabel, label }) => ({
+  label: tabLabel,
+  step: steps.findIndex(({ groupLabel }) => groupLabel === label) + 1,
+  groupLabel: label,
+}));
 
 const Box = styled.div`
   background: white;
@@ -192,19 +260,9 @@ const IntroText = "Click 'Next' to begin the flow.";
 export function HerigoneMar25Proposition() {
   const [currentStep, setCurrentStep] = useState(0);
   const stepData = currentStep === 0 ? null : steps[currentStep - 1];
-  const displayStep = currentStep;
-  const activeSection = stepData?.label ?? null;
-  const stageTitle = useMemo(() => {
-    if (!stepData) {
-      return "Introduction";
-    }
-
-    const phaseSteps = steps.filter(({ label }) => label === stepData.label);
-    const phaseIndex =
-      phaseSteps.findIndex(({ text }) => text === stepData.text) + 1;
-
-    return `${stepData.label} (${phaseIndex}/${phaseSteps.length})`;
-  }, [stepData]);
+  const displayStep = stepData?.visualStep ?? 0;
+  const activeSection = stepData?.groupLabel ?? null;
+  const stageTitle = stepData?.label ?? "Introduction";
 
   const visible = useMemo(
     () => ({
@@ -219,13 +277,21 @@ export function HerigoneMar25Proposition() {
       vertical: displayStep >= 8,
       movingHI: displayStep === 8,
       horizontal: displayStep >= 9,
-      rightAngles: displayStep === 9,
-      equalSides: displayStep === 10,
-      topBisectedAngle: displayStep >= 11 && displayStep <= 13,
-      lowerBisectedAngle: displayStep >= 12 && displayStep <= 13,
-      redSquare: displayStep >= 13,
-      blueSquare: displayStep >= 14,
-      greenRects: displayStep >= 15,
+      parallelogramFills: displayStep === 16,
+      rightAngles: displayStep === 9 || displayStep === 17,
+      equalSides: displayStep === 10 || displayStep === 18,
+      equalSegmentPairs: displayStep === 21,
+      equalSegmentQuartet: displayStep === 22,
+      labeledTopBisectedAngle: displayStep >= 11 && displayStep <= 13,
+      unlabeledTopBisectedAngle: displayStep === 19,
+      labeledLowerBisectedAngle: displayStep >= 12 && displayStep <= 13,
+      unlabeledLowerBisectedAngle: displayStep === 20,
+      unlabeledSquareBisectedAnglesAtB: displayStep === 19,
+      unlabeledEqualAnglesAtBAndG: displayStep === 20,
+      redSquare: (displayStep >= 13 && displayStep <= 15) || displayStep === 23 || displayStep === 25,
+      blueSquare: (displayStep >= 14 && displayStep <= 15) || displayStep === 23 || displayStep === 25,
+      greenRects: displayStep === 15 || displayStep >= 24,
+      qed: displayStep === 15 || displayStep === 25
     }),
     [displayStep],
   );
@@ -233,9 +299,8 @@ export function HerigoneMar25Proposition() {
   return (
     <Box>
       <QuickLinks>
-        {quickLinks.map(({ label, step }) => {
-          const targetLabel = steps[step - 1]?.label ?? "";
-          const active = activeSection === targetLabel;
+        {quickLinks.map(({ label, step, groupLabel }) => {
+          const active = activeSection === groupLabel;
 
           return (
             <QuickLinkTab
@@ -256,7 +321,7 @@ export function HerigoneMar25Proposition() {
         <StepInstruction>{stepData?.text ?? IntroText}</StepInstruction>
       </StepHeader>
 
-      {displayStep === 3 ? (
+      {visible.proposition ? (
         <PropositionDiagram key={displayStep} />
       ) : (
         <ConstructionDiagram key={displayStep} visible={visible} />
