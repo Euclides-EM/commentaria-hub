@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import Select from 'react-select'
 import useLocalStorageState from 'use-local-storage-state'
 import {
   useAnnotationCategories,
@@ -10,6 +11,7 @@ import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
+import { selectStyles } from '../../../../styles/selectStyles.ts'
 import type { annotation_SearchWithin, common_ALTOPart } from '@hub-api'
 import { startCase } from 'lodash'
 
@@ -25,6 +27,11 @@ const annotationSearchWithinLabels: Record<annotation_SearchWithin, string> = {
   transcription: 'Transcription',
   translation: 'Translation',
   biblio_metadata: 'Bibliographic Metadata',
+}
+
+type SearchWithinOption = {
+  value: annotation_SearchWithin
+  label: string
 }
 
 const buildSnippet = (content: string, maxLength = 64) => {
@@ -120,7 +127,7 @@ const getResultJumpTarget = (
 }
 
 export function AnnotationSearchMenu() {
-  const { state, jumpToPage, setSearchResultHighlight } = useAppState()
+  const { state, dataset, jumpToPage, setSearchResultHighlight } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
     'annotationSearchTerm',
     { defaultValue: '', storageSync: false },
@@ -133,9 +140,9 @@ export function AnnotationSearchMenu() {
     storageSync: false,
   })
   const [selectedSearchWithin, setSelectedSearchWithin] = useLocalStorageState<
-    annotation_SearchWithin[] | null
+    annotation_SearchWithin | annotation_SearchWithin[] | null
   >('annotationSearchWithin', {
-    defaultValue: annotationSearchWithinOptions,
+    defaultValue: null,
     storageSync: false,
   })
 
@@ -173,14 +180,68 @@ export function AnnotationSearchMenu() {
     () => [...activeCategories].sort(),
     [activeCategories],
   )
-  const activeSearchWithin = useMemo(() => {
-    if (selectedSearchWithin == null) {
-      return annotationSearchWithinOptions
-    }
-    return annotationSearchWithinOptions.filter((option) =>
-      selectedSearchWithin.includes(option),
+  const hasCategories = (categories?.length ?? 0) > 0
+  const availableSearchWithinOptions = useMemo(() => {
+    return annotationSearchWithinOptions.filter((option) => {
+      if (option === 'categories') {
+        return hasCategories
+      }
+      if (option === 'transcription') {
+        return !hasCategories
+      }
+      if (option === 'biblio_metadata') {
+        return !dataset?.edition_id
+      }
+      return true
+    })
+  }, [dataset?.edition_id, hasCategories])
+
+  const normalizedSelectedSearchWithin = useMemo(() => {
+    const currentSelection = Array.isArray(selectedSearchWithin)
+      ? selectedSearchWithin
+      : selectedSearchWithin
+        ? [selectedSearchWithin]
+        : []
+
+    return currentSelection.find((option) =>
+      availableSearchWithinOptions.includes(option),
     )
-  }, [selectedSearchWithin])
+  }, [availableSearchWithinOptions, selectedSearchWithin])
+
+  useEffect(() => {
+    const nextSelection =
+      normalizedSelectedSearchWithin ?? availableSearchWithinOptions[0] ?? null
+
+    if (selectedSearchWithin !== nextSelection) {
+      setSelectedSearchWithin(nextSelection)
+    }
+  }, [
+    availableSearchWithinOptions,
+    normalizedSelectedSearchWithin,
+    selectedSearchWithin,
+    setSelectedSearchWithin,
+  ])
+
+  const activeSearchWithin = useMemo(() => {
+    return normalizedSelectedSearchWithin
+      ? [normalizedSelectedSearchWithin]
+      : []
+  }, [normalizedSelectedSearchWithin])
+  const searchWithinSelectOptions = useMemo<SearchWithinOption[]>(
+    () =>
+      availableSearchWithinOptions.map((item) => ({
+        value: item,
+        label: annotationSearchWithinLabels[item],
+      })),
+    [availableSearchWithinOptions],
+  )
+  const selectedSearchWithinOption = useMemo(
+    () =>
+      searchWithinSelectOptions.find(
+        (option) => option.value === normalizedSelectedSearchWithin,
+      ) || null,
+    [normalizedSelectedSearchWithin, searchWithinSelectOptions],
+  )
 
   const annotationSearchQuery = useAnnotationSearch(
     state.datasetId,
@@ -193,7 +254,6 @@ export function AnnotationSearchMenu() {
   const results = annotationSearchQuery.data?.results ?? []
   const isLoading = annotationSearchQuery.isLoading
   const error = annotationSearchQuery.error
-  const hasCategories = (categories?.length ?? 0) > 0
   const featureDefinitionsQuery = useDatasetFeaturesQuery(
     state.datasetId,
     !hasCategories,
@@ -206,6 +266,21 @@ export function AnnotationSearchMenu() {
     }
     return lookup
   }, [featureDefinitionsQuery.data])
+
+  const searchWithinSelect = (
+    <div style={{ minWidth: '220px' }}>
+      <Select<SearchWithinOption, false>
+        value={selectedSearchWithinOption}
+        onChange={(option) => setSelectedSearchWithin(option?.value || null)}
+        options={searchWithinSelectOptions}
+        placeholder="Select field..."
+        styles={selectStyles<SearchWithinOption>()}
+        menuPortalTarget={document.body}
+        menuPosition="fixed"
+        isClearable={false}
+      />
+    </div>
+  )
 
   return (
     <div className="flex flex-col min-h-0 h-full mr-1">
@@ -229,14 +304,7 @@ export function AnnotationSearchMenu() {
                 itemsLabel="categories"
                 getItemLabel={(category) => category}
               />
-              <MultiSelectDropdown
-                allItems={annotationSearchWithinOptions}
-                selectedItems={selectedSearchWithin}
-                setSelectedItems={setSelectedSearchWithin}
-                itemsLabel="fields"
-                getItemLabel={(item) => annotationSearchWithinLabels[item]}
-                minWidth="220px"
-              />
+              {searchWithinSelect}
             </div>
           </div>
         ) : (
@@ -250,14 +318,7 @@ export function AnnotationSearchMenu() {
                 setSearchResultHighlight(null)
               }}
             />
-            <MultiSelectDropdown
-              allItems={annotationSearchWithinOptions}
-              selectedItems={selectedSearchWithin}
-              setSelectedItems={setSelectedSearchWithin}
-              itemsLabel="fields"
-              getItemLabel={(item) => annotationSearchWithinLabels[item]}
-              minWidth="220px"
-            />
+            {searchWithinSelect}
           </div>
         )}
       </div>
