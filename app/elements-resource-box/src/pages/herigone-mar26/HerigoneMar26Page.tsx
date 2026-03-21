@@ -150,7 +150,7 @@ export function HerigoneMar26Page() {
               of the whole is equal to the squares of the parts, and to twice
               the rectangle contained under those same parts.
             </SubTitle>
-            <Credit>Mia Joskowicz, March 2025</Credit>
+            <Credit>Mia Joskowicz, March 2026</Credit>
             <Spacer />
             <Spacer size="sm" />
           </HeadingBlock>
