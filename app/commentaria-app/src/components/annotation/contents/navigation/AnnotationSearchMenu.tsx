@@ -10,8 +10,22 @@ import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
-import type { common_ALTOPart } from '@hub-api'
+import type { annotation_SearchWithin, common_ALTOPart } from '@hub-api'
 import { startCase } from 'lodash'
+
+const annotationSearchWithinOptions: annotation_SearchWithin[] = [
+  'categories',
+  'transcription',
+  'translation',
+  'biblio_metadata',
+]
+
+const annotationSearchWithinLabels: Record<annotation_SearchWithin, string> = {
+  categories: 'Categories',
+  transcription: 'Transcription',
+  translation: 'Translation',
+  biblio_metadata: 'Bibliographic Metadata',
+}
 
 const buildSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)
@@ -83,7 +97,7 @@ const getFormattedCategory = (
 }
 
 const getResultLocationDisplay = (result: common_ALTOPart) => {
-  if (result.location?.page === 0 && result.location.text_block_id) {
+  if (result.location?.page === '0' && result.location.text_block_id) {
     return result.location.text_block_id
   }
   if (result.location?.page) {
@@ -95,11 +109,12 @@ const getResultLocationDisplay = (result: common_ALTOPart) => {
 const getResultJumpTarget = (
   result: common_ALTOPart,
 ): number | string | null => {
-  if (result.location?.page === 0 && result.location.text_block_id) {
+  if (result.location?.page === '0' && result.location.text_block_id) {
     return result.location.text_block_id
   }
   if (result.location?.page) {
-    return result.location.page
+    const pageNumber = Number(result.location.page)
+    return Number.isNaN(pageNumber) ? result.location.page : pageNumber
   }
   return null
 }
@@ -115,6 +130,12 @@ export function AnnotationSearchMenu() {
     string[] | null
   >('annotationSearchCategories', {
     defaultValue: null,
+    storageSync: false,
+  })
+  const [selectedSearchWithin, setSelectedSearchWithin] = useLocalStorageState<
+    annotation_SearchWithin[] | null
+  >('annotationSearchWithin', {
+    defaultValue: annotationSearchWithinOptions,
     storageSync: false,
   })
 
@@ -152,12 +173,21 @@ export function AnnotationSearchMenu() {
     () => [...activeCategories].sort(),
     [activeCategories],
   )
+  const activeSearchWithin = useMemo(() => {
+    if (selectedSearchWithin == null) {
+      return annotationSearchWithinOptions
+    }
+    return annotationSearchWithinOptions.filter((option) =>
+      selectedSearchWithin.includes(option),
+    )
+  }, [selectedSearchWithin])
 
   const annotationSearchQuery = useAnnotationSearch(
     state.datasetId,
     state.annotationId,
     normalizedSearch,
     sortedCategories,
+    activeSearchWithin,
   )
 
   const results = annotationSearchQuery.data?.results ?? []
@@ -180,26 +210,56 @@ export function AnnotationSearchMenu() {
   return (
     <div className="flex flex-col min-h-0 h-full mr-1">
       <div className="px-3 pb-3">
-        <div className="flex gap-2 items-center">
-          <SearchInput
-            className="flex-1 min-w-0"
-            placeholder="Search..."
-            value={searchTerm}
-            onChange={(t) => {
-              setSearchTerm(t)
-              setSearchResultHighlight(null)
-            }}
-          />
-          {hasCategories && (
-            <MultiSelectDropdown
-              allItems={categories || []}
-              selectedItems={selectedCategories}
-              setSelectedItems={setSelectedCategories}
-              itemsLabel="categories"
-              getItemLabel={(category) => category}
+        {hasCategories ? (
+          <div className="flex flex-col gap-2">
+            <SearchInput
+              className="min-w-0"
+              placeholder="Search..."
+              value={searchTerm}
+              onChange={(t) => {
+                setSearchTerm(t)
+                setSearchResultHighlight(null)
+              }}
             />
-          )}
-        </div>
+            <div className="flex gap-2 items-center">
+              <MultiSelectDropdown
+                allItems={categories || []}
+                selectedItems={selectedCategories}
+                setSelectedItems={setSelectedCategories}
+                itemsLabel="categories"
+                getItemLabel={(category) => category}
+              />
+              <MultiSelectDropdown
+                allItems={annotationSearchWithinOptions}
+                selectedItems={selectedSearchWithin}
+                setSelectedItems={setSelectedSearchWithin}
+                itemsLabel="fields"
+                getItemLabel={(item) => annotationSearchWithinLabels[item]}
+                minWidth="220px"
+              />
+            </div>
+          </div>
+        ) : (
+          <div className="flex gap-2 items-center">
+            <SearchInput
+              className="flex-1 min-w-0"
+              placeholder="Search..."
+              value={searchTerm}
+              onChange={(t) => {
+                setSearchTerm(t)
+                setSearchResultHighlight(null)
+              }}
+            />
+            <MultiSelectDropdown
+              allItems={annotationSearchWithinOptions}
+              selectedItems={selectedSearchWithin}
+              setSelectedItems={setSelectedSearchWithin}
+              itemsLabel="fields"
+              getItemLabel={(item) => annotationSearchWithinLabels[item]}
+              minWidth="220px"
+            />
+          </div>
+        )}
       </div>
 
       <div className="overflow-auto px-3 pb-3 flex-1 min-h-0">

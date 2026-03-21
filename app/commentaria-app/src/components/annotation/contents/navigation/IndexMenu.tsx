@@ -6,6 +6,13 @@ import { useAppState } from '../../../../context/useAppState.ts'
 import { useMemo, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import { SearchInput } from '../../../core/SearchInput.tsx'
+import type { PageOrKey } from '../../../../context/AppStateContext.ts'
+
+const getPageNumber = (page: string | undefined): number | undefined => {
+  if (!page) return undefined
+  const parsedPage = Number(page)
+  return Number.isNaN(parsedPage) ? undefined : parsedPage
+}
 
 const getFilteredNode = (
   search: string,
@@ -40,7 +47,7 @@ const getNextSiblingPage = (
   if (currentNodePage === undefined || currentNodePage === null)
     return undefined
   for (let i = startIndex + 1; i < nodes.length; i += 1) {
-    const page = nodes[i].location?.page
+    const page = getPageNumber(nodes[i].location?.page)
     if (page !== undefined && page !== null && page > currentNodePage) {
       return page
     }
@@ -57,7 +64,7 @@ const Node = ({
   forceExpanded,
 }: {
   node: annotation_IndexNode
-  jumpToPage: (page: number) => void
+  jumpToPage: (page: PageOrKey) => void
   level: number
   currentPage: number
   nextSiblingPage?: number
@@ -66,7 +73,7 @@ const Node = ({
   const [isExpanded, setIsExpanded] = useState(false)
   const hasChildren = node.children && node.children.length > 0
   const isExpandedState = forceExpanded || isExpanded
-  const nodePage = node.location?.page
+  const nodePage = getPageNumber(node.location?.page)
   const isActive =
     nodePage !== undefined &&
     nodePage !== null &&
@@ -105,7 +112,11 @@ const Node = ({
               currentPage={currentPage}
               nextSiblingPage={
                 node.children
-                  ? getNextSiblingPage(node.children, idx, child.location?.page)
+                  ? getNextSiblingPage(
+                      node.children,
+                      idx,
+                      getPageNumber(child.location?.page),
+                    )
                   : undefined
               }
               forceExpanded={forceExpanded}
@@ -187,7 +198,7 @@ export function IndexMenu({
                       nextSiblingPage={getNextSiblingPage(
                         filteredNodes,
                         idx,
-                        item.location?.page,
+                        getPageNumber(item.location?.page),
                       )}
                     />
                   ),

@@ -521,6 +521,7 @@ export class AnnotationsService {
         id,
         regex,
         category,
+        searchWithin,
     }: {
         /**
          * Dataset ID
@@ -538,6 +539,10 @@ export class AnnotationsService {
          * Categories to search within (can be specified multiple times)
          */
         category?: Array<string>,
+        /**
+         * Fields to search within (categories, transcription, translation, biblio_metadata) (can be specified multiple times)
+         */
+        searchWithin?: Array<string>,
     }): CancelablePromise<annotation_Search> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -548,6 +553,7 @@ export class AnnotationsService {
             },
             query: {
                 'category': category,
+                'search_within': searchWithin,
                 'regex': regex,
             },
         });

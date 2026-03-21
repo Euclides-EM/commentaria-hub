@@ -2,6 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { annotation_SearchWithin } from './annotation_SearchWithin';
 import type { common_ALTOPart } from './common_ALTOPart';
 export type annotation_Search = {
     annotation_id?: string;
@@ -10,5 +11,6 @@ export type annotation_Search = {
     max_results?: number;
     regex?: string;
     readonly results?: Array<common_ALTOPart>;
+    search_within?: Array<annotation_SearchWithin>;
 };
 

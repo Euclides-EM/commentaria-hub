@@ -1,5 +1,9 @@
 import { useQuery } from '@tanstack/react-query'
-import { AnnotationsService, EditionsService } from '@hub-api'
+import {
+  AnnotationsService,
+  EditionsService,
+  type annotation_SearchWithin,
+} from '@hub-api'
 
 const annotationsQueryKey = (datasetId: string) =>
   ['annotations', datasetId] as const
@@ -89,6 +93,7 @@ export function useAnnotationSearch(
   annotationId: string,
   regex: string,
   categories: string[] = [],
+  searchWithin: annotation_SearchWithin[] = [],
 ) {
   return useQuery({
     queryKey: [
@@ -96,7 +101,7 @@ export function useAnnotationSearch(
       datasetId,
       annotationId,
       'search',
-      { regex, categories },
+      { regex, categories, searchWithin },
     ] as const,
     queryFn: () =>
       AnnotationsService.getDatasetsAnnotationsSearch({
@@ -104,6 +109,7 @@ export function useAnnotationSearch(
         id: annotationId,
         regex,
         category: categories.length > 0 ? categories : undefined,
+        searchWithin,
       }),
     enabled: !!datasetId && !!annotationId && regex.length > 0,
   })
