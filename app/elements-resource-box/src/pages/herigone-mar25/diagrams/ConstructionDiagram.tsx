@@ -32,11 +32,21 @@ const Diagram = styled.svg`
   display: block;
   background: #fff;
   border: 1px solid #eee;
-  width: min(72rem, calc(100vw - 3rem));
-  height: min(24rem, 34vh, calc((100vw - 3rem) * 0.33));
+  width: min(72rem, 100%);
+  height: min(24rem, 34vh, 33vw);
   max-width: 100%;
   overflow: visible;
   margin-top: 0.3rem;
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    margin-top: 0.1rem;
+    height: min(14rem, calc(100dvh - 10rem));
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    margin-top: 0.1rem;
+    height: min(14rem, calc(100dvh - 10rem));
+  }
 `;
 
 const Label = styled.text`
@@ -682,31 +692,31 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
         />
       )}
       {visible.qed && (
-        <text x="200" y="20" fontSize="17" textAnchor="middle" fill="#666">
+        <text x="200" y="20" fontSize="20" textAnchor="middle" fill="#666">
           □ AB = □ AC + □ CB + 2 ▭ ACB
         </text>
       )}
       {visible.greenRects && (
-          <g>
-            <rect
-              x="50"
-              y="250"
-              width="200"
-              height="100"
-              fill="rgba(0,255,0,0.1)"
-              stroke="green"
-              strokeWidth="1.5"
-            />
-            <rect
-              x="250"
-              y="50"
-              width="100"
-              height="200"
-              fill="rgba(0,255,0,0.1)"
-              stroke="green"
-              strokeWidth="1.5"
-            />
-          </g>
+        <g>
+          <rect
+            x="50"
+            y="250"
+            width="200"
+            height="100"
+            fill="rgba(0,255,0,0.1)"
+            stroke="green"
+            strokeWidth="1.5"
+          />
+          <rect
+            x="250"
+            y="50"
+            width="100"
+            height="200"
+            fill="rgba(0,255,0,0.1)"
+            stroke="green"
+            strokeWidth="1.5"
+          />
+        </g>
       )}
     </Diagram>
   );

@@ -4,11 +4,21 @@ const Diagram = styled.svg`
   display: block;
   background: #fff;
   border: 1px solid #eee;
-  width: min(72rem, calc(100vw - 3rem));
-  height: min(24rem, 34vh, calc((100vw - 3rem) * 0.33));
+  width: min(72rem, 100%);
+  height: min(24rem, 34vh, 33vw);
   max-width: 100%;
   overflow: visible;
   margin-top: 0.3rem;
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    margin-top: 0.1rem;
+    height: min(14rem, calc(100dvh - 10rem));
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    margin-top: 0.1rem;
+    height: min(14rem, calc(100dvh - 10rem));
+  }
 `;
 
 const Label = styled.text`
@@ -149,7 +159,7 @@ export function PropositionDiagram() {
         B
       </Label>
 
-      <text x="660" y="24" fontSize="17" textAnchor="middle" fill="#666">
+      <text x="660" y="24" fontSize="24" textAnchor="middle" fill="#666">
         □ AB = □ AC + □ CB + 2 ▭ ACB
       </text>
     </Diagram>

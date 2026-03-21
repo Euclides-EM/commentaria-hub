@@ -152,7 +152,8 @@ const Box = styled.div`
   border: 1px solid ${PANE_COLOR};
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   border-radius: 0.5rem;
-  width: min(78rem, calc(100vw - 1.5rem));
+  width: min(78rem, 100%);
+  max-width: 100%;
   max-height: min(86vh, 86dvh);
   display: flex;
   flex-direction: column;
@@ -161,6 +162,21 @@ const Box = styled.div`
   box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: auto;
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    padding: 0.45rem 0.6rem;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: hidden;
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    padding: 0.45rem 0.6rem;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: hidden;
+  }
 `;
 
 const StepHeader = styled.div`
@@ -173,6 +189,20 @@ const StepHeader = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    height: 4.2rem;
+    min-height: 4.2rem;
+    margin-bottom: 0.2rem;
+    padding-bottom: 0.3rem;
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    height: 4.2rem;
+    min-height: 4.2rem;
+    margin-bottom: 0.2rem;
+    padding-bottom: 0.3rem;
+  }
 `;
 
 const StageTitle = styled.span`
@@ -191,6 +221,18 @@ const StepInstruction = styled.span`
   line-height: 1.35;
   min-height: 2rem;
   color: #555;
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    font-size: 0.88rem;
+    line-height: 1.2;
+    min-height: 1.5rem;
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    font-size: 0.88rem;
+    line-height: 1.2;
+    min-height: 1.5rem;
+  }
 `;
 
 const QuickLinks = styled.div`
@@ -200,6 +242,14 @@ const QuickLinks = styled.div`
   gap: 0.2rem;
   justify-content: center;
   border-bottom: 1px solid #e6dfd3;
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    margin-bottom: 0.3rem;
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    margin-bottom: 0.3rem;
+  }
 `;
 
 const Controls = styled.div`
@@ -207,6 +257,26 @@ const Controls = styled.div`
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
+  justify-content: center;
+  flex: 0 0 auto;
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    margin-top: 0.35rem;
+    gap: 0.45rem;
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    margin-top: 0.35rem;
+    gap: 0.45rem;
+  }
+`;
+
+const DiagramFrame = styled.div`
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
 `;
 
@@ -230,6 +300,16 @@ const Button = styled.button`
     border-color: #eee;
     cursor: not-allowed;
   }
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    min-width: 4.7rem;
+    padding: 0.35rem 0.7rem;
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    min-width: 4.7rem;
+    padding: 0.35rem 0.7rem;
+  }
 `;
 
 const QuickLinkTab = styled.button<{ active: boolean }>`
@@ -252,6 +332,16 @@ const QuickLinkTab = styled.button<{ active: boolean }>`
 
   &:disabled {
     cursor: default;
+  }
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    padding: 0.35rem 0.55rem 0.3rem;
+    font-size: 0.86rem;
+  }
+
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    padding: 0.35rem 0.55rem 0.3rem;
+    font-size: 0.86rem;
   }
 `;
 
@@ -288,10 +378,16 @@ export function HerigoneMar25Proposition() {
       unlabeledLowerBisectedAngle: displayStep === 20,
       unlabeledSquareBisectedAnglesAtB: displayStep === 19,
       unlabeledEqualAnglesAtBAndG: displayStep === 20,
-      redSquare: (displayStep >= 13 && displayStep <= 15) || displayStep === 23 || displayStep === 25,
-      blueSquare: (displayStep >= 14 && displayStep <= 15) || displayStep === 23 || displayStep === 25,
+      redSquare:
+        (displayStep >= 13 && displayStep <= 15) ||
+        displayStep === 23 ||
+        displayStep === 25,
+      blueSquare:
+        (displayStep >= 14 && displayStep <= 15) ||
+        displayStep === 23 ||
+        displayStep === 25,
       greenRects: displayStep === 15 || displayStep >= 24,
-      qed: displayStep === 15 || displayStep === 25
+      qed: displayStep === 15 || displayStep === 25,
     }),
     [displayStep],
   );
@@ -321,11 +417,13 @@ export function HerigoneMar25Proposition() {
         <StepInstruction>{stepData?.text ?? IntroText}</StepInstruction>
       </StepHeader>
 
-      {visible.proposition ? (
-        <PropositionDiagram key={displayStep} />
-      ) : (
-        <ConstructionDiagram key={displayStep} visible={visible} />
-      )}
+      <DiagramFrame>
+        {visible.proposition ? (
+          <PropositionDiagram key={displayStep} />
+        ) : (
+          <ConstructionDiagram key={displayStep} visible={visible} />
+        )}
+      </DiagramFrame>
 
       <Controls>
         <Button
