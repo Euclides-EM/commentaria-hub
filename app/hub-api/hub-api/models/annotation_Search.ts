@@ -8,6 +8,7 @@ export type annotation_Search = {
     annotation_id?: string;
     categories?: Array<string>;
     dataset_id?: string;
+    fallback_to_origin?: boolean;
     max_results?: number;
     regex?: string;
     readonly results?: Array<common_ALTOPart>;

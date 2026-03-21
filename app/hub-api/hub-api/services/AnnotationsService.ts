@@ -522,6 +522,7 @@ export class AnnotationsService {
         regex,
         category,
         searchWithin,
+        fallbackToOrigin,
     }: {
         /**
          * Dataset ID
@@ -543,6 +544,10 @@ export class AnnotationsService {
          * Fields to search within (categories, transcription, translation, biblio_metadata) (can be specified multiple times)
          */
         searchWithin?: Array<string>,
+        /**
+         * Whether to fallback to original annotation
+         */
+        fallbackToOrigin?: boolean,
     }): CancelablePromise<annotation_Search> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -555,6 +560,7 @@ export class AnnotationsService {
                 'category': category,
                 'search_within': searchWithin,
                 'regex': regex,
+                'fallback_to_origin': fallbackToOrigin,
             },
         });
     }

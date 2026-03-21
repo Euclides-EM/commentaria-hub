@@ -110,6 +110,7 @@ export function useAnnotationSearch(
         regex,
         category: categories.length > 0 ? categories : undefined,
         searchWithin,
+        fallbackToOrigin: true
       }),
     enabled: !!datasetId && !!annotationId && regex.length > 0,
   })
