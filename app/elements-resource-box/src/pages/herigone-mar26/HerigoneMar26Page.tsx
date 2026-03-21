@@ -15,7 +15,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: start;
   color: white;
-  padding: 2rem 1rem calc(1rem + env(safe-area-inset-bottom, 0px));
+  padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom, 0px));
   background-color: ${SEA_COLOR};
   gap: clamp(0.15rem, 0.45vh, 0.4rem);
   text-align: center;

@@ -9,6 +9,14 @@ const Diagram = styled.svg`
   max-width: 100%;
   overflow: visible;
   margin-top: 0.3rem;
+
+  @media only screen and (max-height: 500px) and (orientation: landscape) {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1320 / 380;
+    margin-top: 0.1rem;
+  }
 `;
 
 const Label = styled.text`

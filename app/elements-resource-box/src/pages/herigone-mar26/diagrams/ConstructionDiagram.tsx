@@ -86,7 +86,9 @@ function RightAngle({
 
 export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
   const timeoutIdsRef = useRef<number[]>([]);
-  const rotatingAETransformRef = useRef<SVGAnimateTransformElement | null>(null);
+  const rotatingAETransformRef = useRef<SVGAnimateTransformElement | null>(
+    null,
+  );
   const rotatingAESetRef = useRef<SVGSetElement | null>(null);
   const completingSquareTransformRef =
     useRef<SVGAnimateTransformElement | null>(null);
