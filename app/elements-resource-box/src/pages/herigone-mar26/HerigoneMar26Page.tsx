@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { PANE_COLOR, SEA_COLOR } from "../../utils/colors";
-import { HerigoneMar25Proposition } from "./HerigoneMar25Proposition";
+import { HerigoneMar26Proposition } from "./HerigoneMar26Proposition.tsx";
 
 const Wrapper = styled.div`
   height: 100vh;
@@ -138,7 +138,7 @@ const CardSlot = styled.div`
   }
 `;
 
-export function HerigoneMar25Page() {
+export function HerigoneMar26Page() {
   return (
     <Wrapper>
       <Container>
@@ -155,7 +155,7 @@ export function HerigoneMar25Page() {
             <Spacer size="sm" />
           </HeadingBlock>
           <CardSlot>
-            <HerigoneMar25Proposition />
+            <HerigoneMar26Proposition />
           </CardSlot>
         </Stage>
       </Container>

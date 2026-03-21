@@ -39,7 +39,7 @@ import { NuqsAdapter } from "nuqs/adapters/react-router/v7";
 import { FilterAppliedProvider } from "./contexts/FilterAppliedContext.tsx";
 import { Sep24Page } from "./pages/sep24/Sep24Page.tsx";
 import { Nov24Page } from "./pages/nov24/Nov24Page.tsx";
-import { HerigoneMar25Page } from "./pages/herigone-mar25/HerigoneMar25Page.tsx";
+import { HerigoneMar26Page } from "./pages/herigone-mar26/HerigoneMar26Page.tsx";
 
 export function App() {
   const [authToken, setAuthToken] = useLocalStorage<string | null>(
@@ -104,7 +104,7 @@ export function App() {
         </Route>
         <Route path="/sep24" element={<Sep24Page />} />
         <Route path="/nov24" element={<Nov24Page />} />
-        <Route path="/herigone-mar25" element={<HerigoneMar25Page />} />
+        <Route path="/herigone-mar26" element={<HerigoneMar26Page />} />
         <Route path="*" element={<Navigate replace to={HOME_ROUTE} />} />
       </>,
     ),

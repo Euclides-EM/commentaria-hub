@@ -347,7 +347,7 @@ const QuickLinkTab = styled.button<{ active: boolean }>`
 
 const IntroText = "Click 'Next' to begin the flow.";
 
-export function HerigoneMar25Proposition() {
+export function HerigoneMar26Proposition() {
   const [currentStep, setCurrentStep] = useState(0);
   const stepData = currentStep === 0 ? null : steps[currentStep - 1];
   const displayStep = stepData?.visualStep ?? 0;
