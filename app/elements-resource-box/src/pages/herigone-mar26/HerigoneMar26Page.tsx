@@ -3,7 +3,6 @@ import { PANE_COLOR, SEA_COLOR } from "../../utils/colors";
 import { HerigoneMar26Proposition } from "./HerigoneMar26Proposition.tsx";
 
 const Wrapper = styled.div`
-  height: 100vh;
   height: 100dvh;
   width: 100vw;
   overflow: hidden;
@@ -11,7 +10,6 @@ const Wrapper = styled.div`
 
 const Container = styled.div`
   display: flex;
-  height: 100vh;
   height: 100dvh;
   flex-direction: column;
   align-items: center;
@@ -27,12 +25,6 @@ const Container = styled.div`
   @media only screen and (max-width: 500px) {
     padding: 1rem 0.75rem calc(0.9rem + env(safe-area-inset-bottom, 0px));
     gap: clamp(0.1rem, 0.35vh, 0.3rem);
-  }
-
-  @media only screen and (max-width: 500px) and (orientation: portrait) {
-    padding: 0;
-    overflow: hidden;
-    justify-content: center;
   }
 `;
 
@@ -60,30 +52,6 @@ const Stage = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-
-  @media only screen and (max-height: 500px) and (orientation: landscape) {
-    height: 100%;
-    box-sizing: border-box;
-    padding: 0.5rem 0.6rem;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 0.55rem;
-  }
-
-  @media only screen and (max-width: 500px) and (orientation: portrait) {
-    width: 100dvh;
-    height: 100vw;
-    box-sizing: border-box;
-    padding: 0.5rem 0.6rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 0.55rem;
-    transform: rotate(90deg);
-    transform-origin: center;
-  }
 `;
 
 const HeadingBlock = styled.div`
@@ -91,57 +59,20 @@ const HeadingBlock = styled.div`
   flex-direction: column;
   align-items: center;
   gap: clamp(0.15rem, 0.45vh, 0.4rem);
-
-  @media only screen and (max-height: 500px) and (orientation: landscape) {
-    align-items: flex-start;
-    text-align: left;
-    width: clamp(8.25rem, 19vw, 10.75rem);
-    flex: 0 0 auto;
-    gap: 0.15rem;
-  }
-
-  @media only screen and (max-width: 500px) and (orientation: portrait) {
-    margin-left: 0.15rem;
-    align-items: flex-start;
-    text-align: left;
-    width: clamp(8.25rem, 22dvh, 10.75rem);
-    flex: 0 0 auto;
-    gap: 0.15rem;
-  }
 `;
 
-const Credit = styled.div`
-  @media only screen and (max-height: 500px) and (orientation: landscape) {
-    margin-top: 1rem;
-  }
-
-  @media only screen and (max-width: 500px) and (orientation: portrait) {
-    margin-top: 1rem;
-  }
-`;
+const Credit = styled.div``;
 
 const CardSlot = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-
-  @media only screen and (max-height: 500px) and (orientation: landscape) {
-    min-width: 0;
-    flex: 1 1 auto;
-    align-items: center;
-  }
-
-  @media only screen and (max-width: 500px) and (orientation: portrait) {
-    min-width: 0;
-    flex: 1 1 auto;
-    align-items: center;
-  }
 `;
 
 export function HerigoneMar26Page() {
   return (
     <Wrapper>
-      <Container>
+      <Container data-herigone-scroll-container="true">
         <Stage>
           <HeadingBlock>
             <Title>Hérigone, Book II.4</Title>

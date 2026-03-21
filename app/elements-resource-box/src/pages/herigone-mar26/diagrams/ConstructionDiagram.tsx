@@ -1,3 +1,4 @@
+import { useCallback, useEffect, useRef } from "react";
 import styled from "@emotion/styled";
 
 type VisibleState = {
@@ -28,7 +29,7 @@ type VisibleState = {
   qed: boolean;
 };
 
-const Diagram = styled.svg`
+const Diagram = styled.svg<{ $isReplayable: boolean }>`
   display: block;
   background: #fff;
   border: 1px solid #eee;
@@ -37,6 +38,7 @@ const Diagram = styled.svg`
   max-width: 100%;
   overflow: visible;
   margin-top: 0.3rem;
+  cursor: ${({ $isReplayable }) => ($isReplayable ? "pointer" : "default")};
 
   @media only screen and (max-height: 500px) and (orientation: landscape) {
     margin-top: 0.1rem;
@@ -83,12 +85,97 @@ function RightAngle({
 }
 
 export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
+  const timeoutIdsRef = useRef<number[]>([]);
+  const rotatingAETransformRef = useRef<SVGAnimateTransformElement | null>(null);
+  const rotatingAESetRef = useRef<SVGSetElement | null>(null);
+  const completingSquareTransformRef =
+    useRef<SVGAnimateTransformElement | null>(null);
+  const completingSquareTopRef = useRef<SVGSetElement | null>(null);
+  const completingSquareRightRef = useRef<SVGSetElement | null>(null);
+  const completingSquareLabelRef = useRef<SVGSetElement | null>(null);
+  const movingCFTransformRef = useRef<SVGAnimateTransformElement | null>(null);
+  const movingCFLabelFRef = useRef<SVGSetElement | null>(null);
+  const movingCFLabelGRef = useRef<SVGSetElement | null>(null);
+  const movingHITransformRef = useRef<SVGAnimateTransformElement | null>(null);
+  const movingHILabelHRef = useRef<SVGSetElement | null>(null);
+  const movingHILabelIRef = useRef<SVGSetElement | null>(null);
+  const isReplayable =
+    visible.rotatingAE ||
+    visible.completingSquare ||
+    visible.movingCF ||
+    visible.movingHI;
+
+  const clearReplayTimeouts = useCallback(() => {
+    timeoutIdsRef.current.forEach((timeoutId) =>
+      window.clearTimeout(timeoutId),
+    );
+    timeoutIdsRef.current = [];
+  }, []);
+
+  const replay = useCallback(() => {
+    clearReplayTimeouts();
+
+    if (visible.rotatingAE) {
+      rotatingAETransformRef.current?.beginElement?.();
+      timeoutIdsRef.current.push(
+        window.setTimeout(() => {
+          rotatingAESetRef.current?.beginElement?.();
+        }, 1400),
+      );
+    }
+
+    if (visible.completingSquare) {
+      completingSquareTransformRef.current?.beginElement?.();
+      timeoutIdsRef.current.push(
+        window.setTimeout(() => {
+          completingSquareTopRef.current?.beginElement?.();
+          completingSquareRightRef.current?.beginElement?.();
+          completingSquareLabelRef.current?.beginElement?.();
+        }, 1400),
+      );
+    }
+
+    if (visible.movingCF) {
+      movingCFTransformRef.current?.beginElement?.();
+      timeoutIdsRef.current.push(
+        window.setTimeout(() => {
+          movingCFLabelFRef.current?.beginElement?.();
+          movingCFLabelGRef.current?.beginElement?.();
+        }, 2000),
+      );
+    }
+
+    if (visible.movingHI) {
+      movingHITransformRef.current?.beginElement?.();
+      timeoutIdsRef.current.push(
+        window.setTimeout(() => {
+          movingHILabelHRef.current?.beginElement?.();
+          movingHILabelIRef.current?.beginElement?.();
+        }, 2000),
+      );
+    }
+  }, [
+    clearReplayTimeouts,
+    visible.completingSquare,
+    visible.movingCF,
+    visible.movingHI,
+    visible.rotatingAE,
+  ]);
+
+  useEffect(() => {
+    replay();
+
+    return clearReplayTimeouts;
+  }, [clearReplayTimeouts, replay]);
+
   return (
     <Diagram
+      $isReplayable={isReplayable}
       viewBox="0 0 400 400"
       preserveAspectRatio="xMidYMid meet"
       role="img"
       aria-label="Interactive geometric proof"
+      onClick={isReplayable ? replay : undefined}
     >
       {visible.baseLine && (
         <g>
@@ -127,10 +214,12 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
             strokeWidth="2"
           >
             <animateTransform
+              ref={rotatingAETransformRef}
               attributeName="transform"
               type="rotate"
               from="0 50 350"
               to="-90 50 350"
+              begin="indefinite"
               dur="1.4s"
               fill="freeze"
             />
@@ -138,9 +227,10 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           <Label x="45" y="45" textAnchor="end" visibility="hidden">
             E
             <set
+              ref={rotatingAESetRef}
               attributeName="visibility"
               to="visible"
-              begin="1.4s"
+              begin="indefinite"
               fill="freeze"
             />
           </Label>
@@ -175,10 +265,12 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
             shapeRendering="crispEdges"
           >
             <animateTransform
+              ref={completingSquareTransformRef}
               attributeName="transform"
               type="rotate"
               from="0 50 50"
               to="-90 50 50"
+              begin="indefinite"
               dur="1.4s"
               fill="freeze"
             />
@@ -193,9 +285,10 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
             visibility="hidden"
           >
             <set
+              ref={completingSquareTopRef}
               attributeName="visibility"
               to="visible"
-              begin="1.4s"
+              begin="indefinite"
               fill="freeze"
             />
           </line>
@@ -209,9 +302,10 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
             visibility="hidden"
           >
             <set
+              ref={completingSquareRightRef}
               attributeName="visibility"
               to="visible"
-              begin="1.4s"
+              begin="indefinite"
               fill="freeze"
             />
           </line>
@@ -221,9 +315,10 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           <Label x="355" y="45" textAnchor="start" visibility="hidden">
             D
             <set
+              ref={completingSquareLabelRef}
               attributeName="visibility"
               to="visible"
-              begin="1.4s"
+              begin="indefinite"
               fill="freeze"
             />
           </Label>
@@ -270,10 +365,12 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
             strokeWidth="1.5"
           >
             <animateTransform
+              ref={movingCFTransformRef}
               attributeName="transform"
               type="translate"
               from="0 0"
               to="200 0"
+              begin="indefinite"
               dur="2s"
               fill="freeze"
             />
@@ -281,18 +378,20 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           <Label x="250" y="40" textAnchor="middle" visibility="hidden">
             F
             <set
+              ref={movingCFLabelFRef}
               attributeName="visibility"
               to="visible"
-              begin="2s"
+              begin="indefinite"
               fill="freeze"
             />
           </Label>
           <Label x="265" y="245" visibility="hidden">
             G
             <set
+              ref={movingCFLabelGRef}
               attributeName="visibility"
               to="visible"
-              begin="2s"
+              begin="indefinite"
               fill="freeze"
             />
           </Label>
@@ -327,10 +426,12 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
             strokeWidth="1.5"
           >
             <animateTransform
+              ref={movingHITransformRef}
               attributeName="transform"
               type="translate"
               from="0 0"
               to="0 -100"
+              begin="indefinite"
               dur="2s"
               fill="freeze"
             />
@@ -338,18 +439,20 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           <Label x="40" y="255" textAnchor="end" visibility="hidden">
             H
             <set
+              ref={movingHILabelHRef}
               attributeName="visibility"
               to="visible"
-              begin="2s"
+              begin="indefinite"
               fill="freeze"
             />
           </Label>
           <Label x="360" y="255" textAnchor="start" visibility="hidden">
             I
             <set
+              ref={movingHILabelIRef}
               attributeName="visibility"
               to="visible"
-              begin="2s"
+              begin="indefinite"
               fill="freeze"
             />
           </Label>

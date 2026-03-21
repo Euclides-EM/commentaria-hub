@@ -9,16 +9,6 @@ const Diagram = styled.svg`
   max-width: 100%;
   overflow: visible;
   margin-top: 0.3rem;
-
-  @media only screen and (max-height: 500px) and (orientation: landscape) {
-    margin-top: 0.1rem;
-    height: min(14rem, calc(100dvh - 10rem));
-  }
-
-  @media only screen and (max-width: 500px) and (orientation: portrait) {
-    margin-top: 0.1rem;
-    height: min(14rem, calc(100dvh - 10rem));
-  }
 `;
 
 const Label = styled.text`
@@ -45,58 +35,151 @@ export function PropositionDiagram() {
         stroke="black"
         strokeWidth="2"
       />
-      <line x1="24" y1="348" x2="324" y2="348" stroke="black" strokeWidth="2" />
-      <circle cx="224" cy="348" r="4" fill="#c00" />
-      <Label x="18" y="34" textAnchor="end">
+      <line
+        x1="24"
+        y1="340"
+        x2="24"
+        y2="140"
+        stroke="#cc241d"
+        strokeWidth="3"
+      />
+      <line x1="24" y1="140" x2="24" y2="40" stroke="#268bd2" strokeWidth="3" />
+      <line
+        x1="24"
+        y1="340"
+        x2="224"
+        y2="340"
+        stroke="#cc241d"
+        strokeWidth="3"
+      />
+      <line
+        x1="224"
+        y1="340"
+        x2="324"
+        y2="340"
+        stroke="#268bd2"
+        strokeWidth="3"
+      />
+      <circle cx="224" cy="340" r="4" fill="#c00" />
+      <Label x="18" y="362" textAnchor="end">
         A
       </Label>
-      <Label x="330" y="34" textAnchor="start">
-        B
-      </Label>
-      <Label x="18" y="372" textAnchor="end">
-        A
-      </Label>
-      <Label x="224" y="372" textAnchor="middle" fill="#c00">
+      <Label x="224" y="362" textAnchor="middle" fill="#c00">
         C
       </Label>
-      <Label x="330" y="372" textAnchor="start">
+      <Label x="330" y="362" textAnchor="start">
         B
       </Label>
 
-      <rect
-        x="450"
-        y="90"
-        width="200"
-        height="200"
-        fill="rgba(204,36,29,0.12)"
+      <rect x="450" y="90" width="200" height="200" fill="none" />
+      <line x1="450" y1="90" x2="650" y2="90" stroke="black" strokeWidth="2" />
+      <line x1="650" y1="90" x2="650" y2="290" stroke="black" strokeWidth="2" />
+      <line
+        x1="450"
+        y1="290"
+        x2="650"
+        y2="290"
+        stroke="#cc241d"
+        strokeWidth="3"
+      />
+      <line
+        x1="450"
+        y1="290"
+        x2="450"
+        y2="90"
+        stroke="#cc241d"
+        strokeWidth="3"
+      />
+      <rect x="780" y="140" width="100" height="100" fill="none" />
+      <line
+        x1="780"
+        y1="140"
+        x2="880"
+        y2="140"
+        stroke="black"
+        strokeWidth="2"
+      />
+      <line
+        x1="880"
+        y1="140"
+        x2="880"
+        y2="240"
+        stroke="black"
+        strokeWidth="2"
+      />
+      <line
+        x1="780"
+        y1="240"
+        x2="880"
+        y2="240"
+        stroke="#268bd2"
+        strokeWidth="3"
+      />
+      <line
+        x1="780"
+        y1="240"
+        x2="780"
+        y2="140"
+        stroke="#268bd2"
+        strokeWidth="3"
+      />
+      <rect x="990" y="90" width="100" height="200" fill="none" />
+      <line x1="990" y1="90" x2="1090" y2="90" stroke="black" strokeWidth="2" />
+      <line
+        x1="1090"
+        y1="90"
+        x2="1090"
+        y2="290"
+        stroke="black"
+        strokeWidth="2"
+      />
+      <line
+        x1="990"
+        y1="90"
+        x2="990"
+        y2="290"
         stroke="#cc241d"
         strokeWidth="2"
       />
-      <rect
-        x="780"
-        y="140"
-        width="100"
-        height="100"
-        fill="rgba(38,139,210,0.12)"
+      <line
+        x1="990"
+        y1="290"
+        x2="1090"
+        y2="290"
         stroke="#268bd2"
         strokeWidth="2"
       />
-      <rect
-        x="990"
-        y="90"
-        width="100"
-        height="200"
-        fill="rgba(133,153,0,0.14)"
-        stroke="#859900"
+      <rect x="1170" y="90" width="100" height="200" fill="none" />
+      <line
+        x1="1170"
+        y1="90"
+        x2="1270"
+        y2="90"
+        stroke="black"
         strokeWidth="2"
       />
-      <rect
-        x="1170"
-        y="90"
-        width="100"
-        height="200"
-        fill="rgba(133,153,0,0.14)"
-        stroke="#859900"
+      <line
+        x1="1270"
+        y1="90"
+        x2="1270"
+        y2="290"
+        stroke="black"
+        strokeWidth="2"
+      />
+      <line
+        x1="1170"
+        y1="90"
+        x2="1170"
+        y2="290"
+        stroke="#cc241d"
+        strokeWidth="2"
+      />
+      <line
+        x1="1170"
+        y1="290"
+        x2="1270"
+        y2="290"
+        stroke="#268bd2"
         strokeWidth="2"
       />
 
@@ -111,56 +194,6 @@ export function PropositionDiagram() {
       </text>
       <text x="1134" y="196" fontSize="30" textAnchor="middle" fill="#666">
         +
-      </text>
-
-      <Label x="444" y="84" textAnchor="end">
-        C
-      </Label>
-      <Label x="656" y="84" textAnchor="start" fill="#c00">
-        A
-      </Label>
-      <Label x="444" y="312" textAnchor="end">
-        A
-      </Label>
-      <Label x="656" y="312" textAnchor="start" fill="#c00">
-        C
-      </Label>
-
-      <Label x="774" y="134" textAnchor="end" fill="#c00">
-        B
-      </Label>
-      <Label x="886" y="134" textAnchor="start">
-        C
-      </Label>
-      <Label x="774" y="252" textAnchor="end" fill="#c00">
-        C
-      </Label>
-      <Label x="886" y="252" textAnchor="start">
-        B
-      </Label>
-
-      <Label x="984" y="84" textAnchor="end">
-        A
-      </Label>
-      <Label x="984" y="312" textAnchor="end">
-        C
-      </Label>
-      <Label x="1096" y="312" textAnchor="start">
-        B
-      </Label>
-
-      <Label x="1164" y="84" textAnchor="end">
-        A
-      </Label>
-      <Label x="1164" y="312" textAnchor="end">
-        C
-      </Label>
-      <Label x="1276" y="312" textAnchor="start">
-        B
-      </Label>
-
-      <text x="660" y="24" fontSize="24" textAnchor="middle" fill="#666">
-        □ AB = □ AC + □ CB + 2 ▭ ACB
       </text>
     </Diagram>
   );
