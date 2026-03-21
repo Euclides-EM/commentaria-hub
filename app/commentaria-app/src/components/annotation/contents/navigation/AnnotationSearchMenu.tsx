@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import Select from 'react-select'
 import useLocalStorageState from 'use-local-storage-state'
 import {
   useAnnotationCategories,
@@ -10,8 +11,28 @@ import { MultiSelectDropdown } from '../../../core/MultiSelectDropdown.tsx'
 import { SearchInput } from '../../../core/SearchInput.tsx'
 import { LoadingSpinner } from '../../../core/LoadingSpinner.tsx'
 import { ErrorMessage } from '../../../core/ErrorMessage'
-import type { common_ALTOPart } from '@hub-api'
+import { selectStyles } from '../../../../styles/selectStyles.ts'
+import type { annotation_SearchWithin, common_ALTOPart } from '@hub-api'
 import { startCase } from 'lodash'
+
+const annotationSearchWithinOptions: annotation_SearchWithin[] = [
+  'categories',
+  'transcription',
+  'translation',
+  'biblio_metadata',
+]
+
+const annotationSearchWithinLabels: Record<annotation_SearchWithin, string> = {
+  categories: 'Categories',
+  transcription: 'Transcription',
+  translation: 'Translation',
+  biblio_metadata: 'Bibliographic Metadata',
+}
+
+type SearchWithinOption = {
+  value: annotation_SearchWithin
+  label: string
+}
 
 const buildSnippet = (content: string, maxLength = 64) => {
   const startMatch = content.match(/<em[^>]*>/i)
@@ -83,7 +104,7 @@ const getFormattedCategory = (
 }
 
 const getResultLocationDisplay = (result: common_ALTOPart) => {
-  if (result.location?.page === 0 && result.location.text_block_id) {
+  if (result.location?.page === '0' && result.location.text_block_id) {
     return result.location.text_block_id
   }
   if (result.location?.page) {
@@ -95,17 +116,18 @@ const getResultLocationDisplay = (result: common_ALTOPart) => {
 const getResultJumpTarget = (
   result: common_ALTOPart,
 ): number | string | null => {
-  if (result.location?.page === 0 && result.location.text_block_id) {
+  if (result.location?.page === '0' && result.location.text_block_id) {
     return result.location.text_block_id
   }
   if (result.location?.page) {
-    return result.location.page
+    const pageNumber = Number(result.location.page)
+    return Number.isNaN(pageNumber) ? result.location.page : pageNumber
   }
   return null
 }
 
 export function AnnotationSearchMenu() {
-  const { state, jumpToPage, setSearchResultHighlight } = useAppState()
+  const { state, dataset, jumpToPage, setSearchResultHighlight } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
     'annotationSearchTerm',
     { defaultValue: '', storageSync: false },
@@ -114,6 +136,12 @@ export function AnnotationSearchMenu() {
   const [selectedCategories, setSelectedCategories] = useLocalStorageState<
     string[] | null
   >('annotationSearchCategories', {
+    defaultValue: null,
+    storageSync: false,
+  })
+  const [selectedSearchWithin, setSelectedSearchWithin] = useLocalStorageState<
+    annotation_SearchWithin | annotation_SearchWithin[] | null
+  >('annotationSearchWithin', {
     defaultValue: null,
     storageSync: false,
   })
@@ -152,18 +180,80 @@ export function AnnotationSearchMenu() {
     () => [...activeCategories].sort(),
     [activeCategories],
   )
+  const hasCategories = (categories?.length ?? 0) > 0
+  const availableSearchWithinOptions = useMemo(() => {
+    return annotationSearchWithinOptions.filter((option) => {
+      if (option === 'categories') {
+        return hasCategories
+      }
+      if (option === 'transcription') {
+        return !hasCategories
+      }
+      if (option === 'biblio_metadata') {
+        return !dataset?.edition_id
+      }
+      return true
+    })
+  }, [dataset?.edition_id, hasCategories])
+
+  const normalizedSelectedSearchWithin = useMemo(() => {
+    const currentSelection = Array.isArray(selectedSearchWithin)
+      ? selectedSearchWithin
+      : selectedSearchWithin
+        ? [selectedSearchWithin]
+        : []
+
+    return currentSelection.find((option) =>
+      availableSearchWithinOptions.includes(option),
+    )
+  }, [availableSearchWithinOptions, selectedSearchWithin])
+
+  useEffect(() => {
+    const nextSelection =
+      normalizedSelectedSearchWithin ?? availableSearchWithinOptions[0] ?? null
+
+    if (selectedSearchWithin !== nextSelection) {
+      setSelectedSearchWithin(nextSelection)
+    }
+  }, [
+    availableSearchWithinOptions,
+    normalizedSelectedSearchWithin,
+    selectedSearchWithin,
+    setSelectedSearchWithin,
+  ])
+
+  const activeSearchWithin = useMemo(() => {
+    return normalizedSelectedSearchWithin
+      ? [normalizedSelectedSearchWithin]
+      : []
+  }, [normalizedSelectedSearchWithin])
+  const searchWithinSelectOptions = useMemo<SearchWithinOption[]>(
+    () =>
+      availableSearchWithinOptions.map((item) => ({
+        value: item,
+        label: annotationSearchWithinLabels[item],
+      })),
+    [availableSearchWithinOptions],
+  )
+  const selectedSearchWithinOption = useMemo(
+    () =>
+      searchWithinSelectOptions.find(
+        (option) => option.value === normalizedSelectedSearchWithin,
+      ) || null,
+    [normalizedSelectedSearchWithin, searchWithinSelectOptions],
+  )
 
   const annotationSearchQuery = useAnnotationSearch(
     state.datasetId,
     state.annotationId,
     normalizedSearch,
     sortedCategories,
+    activeSearchWithin,
   )
 
   const results = annotationSearchQuery.data?.results ?? []
   const isLoading = annotationSearchQuery.isLoading
   const error = annotationSearchQuery.error
-  const hasCategories = (categories?.length ?? 0) > 0
   const featureDefinitionsQuery = useDatasetFeaturesQuery(
     state.datasetId,
     !hasCategories,
@@ -177,29 +267,60 @@ export function AnnotationSearchMenu() {
     return lookup
   }, [featureDefinitionsQuery.data])
 
+  const searchWithinSelect = (
+    <div style={{ minWidth: '220px' }}>
+      <Select<SearchWithinOption, false>
+        value={selectedSearchWithinOption}
+        onChange={(option) => setSelectedSearchWithin(option?.value || null)}
+        options={searchWithinSelectOptions}
+        placeholder="Select field..."
+        styles={selectStyles<SearchWithinOption>()}
+        menuPortalTarget={document.body}
+        menuPosition="fixed"
+        isClearable={false}
+      />
+    </div>
+  )
+
   return (
     <div className="flex flex-col min-h-0 h-full mr-1">
       <div className="px-3 pb-3">
-        <div className="flex gap-2 items-center">
-          <SearchInput
-            className="flex-1 min-w-0"
-            placeholder="Search..."
-            value={searchTerm}
-            onChange={(t) => {
-              setSearchTerm(t)
-              setSearchResultHighlight(null)
-            }}
-          />
-          {hasCategories && (
-            <MultiSelectDropdown
-              allItems={categories || []}
-              selectedItems={selectedCategories}
-              setSelectedItems={setSelectedCategories}
-              itemsLabel="categories"
-              getItemLabel={(category) => category}
+        {hasCategories ? (
+          <div className="flex flex-col gap-2">
+            <SearchInput
+              className="min-w-0"
+              placeholder="Search..."
+              value={searchTerm}
+              onChange={(t) => {
+                setSearchTerm(t)
+                setSearchResultHighlight(null)
+              }}
             />
-          )}
-        </div>
+            <div className="flex gap-2 items-center">
+              <MultiSelectDropdown
+                allItems={categories || []}
+                selectedItems={selectedCategories}
+                setSelectedItems={setSelectedCategories}
+                itemsLabel="categories"
+                getItemLabel={(category) => category}
+              />
+              {searchWithinSelect}
+            </div>
+          </div>
+        ) : (
+          <div className="flex gap-2 items-center">
+            <SearchInput
+              className="flex-1 min-w-0"
+              placeholder="Search..."
+              value={searchTerm}
+              onChange={(t) => {
+                setSearchTerm(t)
+                setSearchResultHighlight(null)
+              }}
+            />
+            {searchWithinSelect}
+          </div>
+        )}
       </div>
 
       <div className="overflow-auto px-3 pb-3 flex-1 min-h-0">

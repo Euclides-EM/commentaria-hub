@@ -18,6 +18,7 @@ export type { annotation_MergedReference } from './models/annotation_MergedRefer
 export type { annotation_MergeRequest } from './models/annotation_MergeRequest';
 export type { annotation_Reference } from './models/annotation_Reference';
 export type { annotation_Search } from './models/annotation_Search';
+export type { annotation_SearchWithin } from './models/annotation_SearchWithin';
 export type { annotation_SuggestedDiff } from './models/annotation_SuggestedDiff';
 export type { annotationrule_AddMargin } from './models/annotationrule_AddMargin';
 export type { annotationrule_Alignment } from './models/annotationrule_Alignment';

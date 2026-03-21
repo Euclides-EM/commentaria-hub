@@ -72,7 +72,7 @@ const escapeCsvValue = (value: string | null | undefined) => {
 }
 
 export function FeatureResultsTab() {
-  const { state } = useAppState()
+  const { state, setState } = useAppState()
   const datasetId = state.datasetId
   const annotationId = state.annotationId
   const [searchQuery, setSearchQuery] = useState('')
@@ -335,6 +335,17 @@ export function FeatureResultsTab() {
     URL.revokeObjectURL(url)
   }
 
+  const handleJumpToPageView = (pageKey: string | null | undefined) => {
+    const nextPageKey = normalizeText(pageKey)
+    if (!nextPageKey) {
+      return
+    }
+    setState({
+      annotationTab: 'text',
+      currentPageOrKey: nextPageKey,
+    })
+  }
+
   const renderSortHeader = (label: string, key: SortKey) => {
     const isActive = sortKey === key
     const arrow = isActive ? (sortDirection === 'asc' ? '▲' : '▼') : null
@@ -516,12 +527,25 @@ export function FeatureResultsTab() {
                       <div
                         className={`${COLUMN_CLASS_NAMES.pageKey} flex items-start px-4 py-3 text-xs text-gray-700 font-mono`}
                       >
-                        <div
-                          className="max-w-28 truncate whitespace-nowrap"
-                          title={row.result.page_key || '-'}
-                        >
-                          {row.result.page_key || '-'}
-                        </div>
+                        {row.result.page_key ? (
+                          <button
+                            type="button"
+                            className="max-w-28 truncate whitespace-nowrap text-left text-sky-700 hover:text-sky-900 hover:underline cursor-pointer"
+                            title={`Open ${row.result.page_key} in page view`}
+                            onClick={() =>
+                              handleJumpToPageView(row.result.page_key)
+                            }
+                          >
+                            {row.result.page_key}
+                          </button>
+                        ) : (
+                          <div
+                            className="max-w-28 truncate whitespace-nowrap"
+                            title="-"
+                          >
+                            -
+                          </div>
+                        )}
                       </div>
                       <div
                         className={`${COLUMN_CLASS_NAMES.editionDetails} flex items-start px-4 py-3 text-gray-700 leading-5`}

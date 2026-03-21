@@ -1,10 +1,24 @@
-import Select from 'react-select'
+import Select, { type ActionMeta } from 'react-select'
 import { RangeInput } from '../../../core/RangeInput.tsx'
 import type { FeatureOption } from './TeiPane.types.ts'
 import {
   featureSelectStyles,
   formatFeatureOptionLabel,
 } from './teiPaneUtils.tsx'
+
+const RESET_TO_DEFAULTS_OPTION: FeatureOption = {
+  value: '__reset_to_defaults__',
+  label: 'Reset to defaults',
+  description: '',
+  isAction: true,
+}
+
+const SELECT_ALL_OPTION: FeatureOption = {
+  value: '__select_all__',
+  label: 'Select all',
+  description: '',
+  isAction: true,
+}
 
 type TeiDisplayControlsProps = {
   showMinCertControl: boolean
@@ -21,6 +35,7 @@ type TeiDisplayControlsProps = {
   isFeatureSelectExpanded: boolean
   setIsFeatureSelectExpanded: (value: boolean) => void
   setVisibleFeatureIds: (value: string[]) => void
+  onResetVisibleFeatureIds: () => void
   isFeaturesLoading: boolean
 }
 
@@ -39,8 +54,35 @@ export function TeiDisplayControls({
   isFeatureSelectExpanded,
   setIsFeatureSelectExpanded,
   setVisibleFeatureIds,
+  onResetVisibleFeatureIds,
   isFeaturesLoading,
 }: TeiDisplayControlsProps) {
+  const featureSelectOptions = [
+    RESET_TO_DEFAULTS_OPTION,
+    SELECT_ALL_OPTION,
+    ...allFeatureOptions,
+  ]
+
+  const handleFeatureSelectChange = (
+    options: readonly FeatureOption[],
+    actionMeta: ActionMeta<FeatureOption>,
+  ) => {
+    const selectedOption = actionMeta.option
+    if (selectedOption?.value === RESET_TO_DEFAULTS_OPTION.value) {
+      onResetVisibleFeatureIds()
+      return
+    }
+    if (selectedOption?.value === SELECT_ALL_OPTION.value) {
+      setVisibleFeatureIds(allFeatureOptions.map((option) => option.value))
+      return
+    }
+    setVisibleFeatureIds(
+      options
+        .filter((option) => !option.isAction)
+        .map((option) => option.value),
+    )
+  }
+
   return (
     <>
       <label className="flex items-center gap-1.5 cursor-pointer text-xs font-medium">
@@ -100,24 +142,31 @@ export function TeiDisplayControls({
           </label>
           {isFeatureSelectExpanded && (
             <div className="flex items-center gap-1.5 min-w-65">
-              <Select<FeatureOption, true>
-                isMulti
-                value={selectedFeatureOptions}
-                onChange={(options) =>
-                  setVisibleFeatureIds((options || []).map((o) => o.value))
-                }
-                options={allFeatureOptions}
-                closeMenuOnSelect={false}
-                hideSelectedOptions={false}
-                isLoading={isFeaturesLoading}
-                placeholder="Select features"
-                styles={featureSelectStyles}
-                menuPortalTarget={document.body}
-                menuPosition="fixed"
-                formatOptionLabel={(option, { context }) =>
-                  formatFeatureOptionLabel(option, context)
-                }
-              />
+              <div className="flex-1 min-w-65">
+                <Select<FeatureOption, true>
+                  isMulti
+                  value={selectedFeatureOptions}
+                  onChange={handleFeatureSelectChange}
+                  options={featureSelectOptions}
+                  closeMenuOnSelect={false}
+                  hideSelectedOptions
+                  isLoading={isFeaturesLoading}
+                  placeholder="Select features"
+                  styles={featureSelectStyles}
+                  menuPortalTarget={document.body}
+                  menuPosition="fixed"
+                  formatOptionLabel={(option, { context }) =>
+                    formatFeatureOptionLabel(option, context)
+                  }
+                  isOptionSelected={(option, selectValue) =>
+                    option.isAction
+                      ? false
+                      : selectValue.some(
+                          (selected) => selected.value === option.value,
+                        )
+                  }
+                />
+              </div>
             </div>
           )}
         </>

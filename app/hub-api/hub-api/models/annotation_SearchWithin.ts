@@ -2,8 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type common_ALTOLocation = {
-    page?: string;
-    text_block_id?: string;
-};
-
+export type annotation_SearchWithin = 'categories' | 'transcription' | 'translation' | 'biblio_metadata';

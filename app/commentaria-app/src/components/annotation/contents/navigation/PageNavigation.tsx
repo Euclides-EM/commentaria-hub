@@ -7,8 +7,13 @@ import useLocalStorageState from 'use-local-storage-state'
 import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
-import { TITLE_PAGES_DATASET_ID } from '../../../../utils/editions.ts'
+import {
+  formatEditionLabel,
+  TITLE_PAGES_DATASET_ID,
+} from '../../../../utils/editions.ts'
 import { expandRange } from '../../../../utils/pages.ts'
+import { useQuery } from '@tanstack/react-query'
+import { listAllEditions } from '../../../../queries/editions.ts'
 
 const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
   if (!annotation.pages) {
@@ -39,6 +44,12 @@ export function PageNavigation() {
     isKeyNavigation,
     annotation?.pages ? annotation.pages.split(',') : null,
   )
+  const editionsQuery = useQuery({
+    queryKey: ['editions', 'all', 'items'],
+    queryFn: async () => await listAllEditions(),
+    enabled: isKeyNavigation,
+    refetchOnWindowFocus: false,
+  })
   const currentValue = String(state.currentPageOrKey)
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
     'indexCollapsed',
@@ -99,6 +110,16 @@ export function PageNavigation() {
   )
 
   const currentOptionValue = currentOption?.value || currentValue
+  const editionDetailsByKey = useMemo(() => {
+    const map = new Map<string, string>()
+    for (const item of editionsQuery.data ?? []) {
+      if (!item.key) continue
+      map.set(item.key, formatEditionLabel(item))
+    }
+    return map
+  }, [editionsQuery.data])
+  const currentEditionDetails =
+    editionDetailsByKey.get(currentOptionValue) || ''
   const currentIndex = availablePages.indexOf(currentOptionValue)
   const isFirstPage = currentIndex === 0
   const isLastPage = currentIndex === availablePages.length - 1
@@ -221,6 +242,11 @@ export function PageNavigation() {
           </button>
         </div>
       </div>
+      {currentEditionDetails && (
+        <div className="px-3 pb-4 -mt-2 text-xs text-gray-500 leading-5 text-center">
+          {currentEditionDetails}
+        </div>
+      )}
       {showIndexPane && showSearchPane && (
         <div className="flex flex-col flex-1 min-h-0" ref={splitRef}>
           <div
