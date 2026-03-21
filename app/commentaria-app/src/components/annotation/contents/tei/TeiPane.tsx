@@ -524,6 +524,7 @@ export function TeiPane({
       ),
     [allFeatureOptions, visibleFeatureIds],
   )
+  const visibleFeatureIdsKey = visibleFeatureIds.join('|')
 
   const changedFeatureIds = useMemo(() => {
     const baselineByFeature = groupByFeature(baselineHighlights)
@@ -796,6 +797,7 @@ export function TeiPane({
               isFeatureSelectExpanded={isFeatureSelectExpanded}
               setIsFeatureSelectExpanded={setIsFeatureSelectExpanded}
               setVisibleFeatureIds={setStoredVisibleFeatureIds}
+              onResetVisibleFeatureIds={() => setStoredVisibleFeatureIds(null)}
               isFeaturesLoading={featuresQuery.isLoading}
             />
           </div>
@@ -834,6 +836,7 @@ export function TeiPane({
                     className="min-w-105 basis-105 flex-1"
                   >
                     <TeiContentView
+                      key={`${viewMode}:${effectiveTeiSource}:${String(currentPageOrKey)}:${visibleFeatureIdsKey}`}
                       data={teiContents}
                       minCert={minCert}
                       showCertaintyVisualization={showCertaintyVisualization}

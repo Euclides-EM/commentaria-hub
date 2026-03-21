@@ -28,8 +28,6 @@ export const selectStyles = <
   valueContainer: (base) => ({
     ...base,
     padding: '2px 8px',
-    display: 'flex',
-    alignItems: 'center',
     ...(config.isMulti ? {} : { height: '30px' }),
   }),
   singleValue: (base) => ({

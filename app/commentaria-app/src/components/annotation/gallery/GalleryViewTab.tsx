@@ -395,6 +395,7 @@ type GalleryCardBodyProps = {
   teiViewMode: TeiViewMode
   alignLines: boolean
   highlightConfig: TeiHighlightConfig | undefined
+  visibleFeatureIdsKey: string
   showTeiLineHighlights: boolean
 }
 
@@ -412,6 +413,7 @@ function GalleryCardBody({
   teiViewMode,
   alignLines,
   highlightConfig,
+  visibleFeatureIdsKey,
   showTeiLineHighlights,
 }: GalleryCardBodyProps) {
   const [activeLineMatchIds, setActiveLineMatchIds] = useState<string[]>([])
@@ -434,6 +436,7 @@ function GalleryCardBody({
         >
           {teiContent ? (
             <TeiContentView
+              key={`${teiViewMode}:${visibleFeatureIdsKey}`}
               data={teiContent}
               minCert={minCert}
               showCertaintyVisualization={showCertaintyVisualization}
@@ -770,6 +773,7 @@ export function GalleryViewTab() {
     () => allFeatureOptions.filter((o) => visibleFeatureIds.includes(o.value)),
     [allFeatureOptions, visibleFeatureIds],
   )
+  const visibleFeatureIdsKey = visibleFeatureIds.join('|')
 
   const surfaceZonesByPage = useMemo(() => {
     const result = new Map<string, TeiSurfaceZone[]>()
@@ -932,6 +936,9 @@ export function GalleryViewTab() {
                 isFeatureSelectExpanded={isFeatureSelectExpanded}
                 setIsFeatureSelectExpanded={setIsFeatureSelectExpanded}
                 setVisibleFeatureIds={setStoredVisibleFeatureIds}
+                onResetVisibleFeatureIds={() =>
+                  setStoredVisibleFeatureIds(null)
+                }
                 isFeaturesLoading={featuresQuery.isLoading}
               />
               {teisQuery.isFetching && (
@@ -982,6 +989,7 @@ export function GalleryViewTab() {
                     teiViewMode={effectiveTeiViewMode}
                     alignLines={alignLines}
                     highlightConfig={highlightConfig}
+                    visibleFeatureIdsKey={visibleFeatureIdsKey}
                     showTeiLineHighlights={showTeiLineHighlights}
                   />
                 </div>

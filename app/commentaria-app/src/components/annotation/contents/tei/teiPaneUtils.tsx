@@ -218,7 +218,9 @@ export const formatFeatureOptionLabel = (
   option: FeatureOption,
   context: 'menu' | 'value',
 ) =>
-  context === 'value' ? (
+  option.isAction ? (
+    <span>{option.label}</span>
+  ) : context === 'value' ? (
     <span>{option.label}</span>
   ) : (
     <div className="flex items-center gap-2">
@@ -247,10 +249,17 @@ export const featureSelectStyles: StylesConfig<FeatureOption, true> = {
     alignItems: 'flex-start',
   }),
   menuPortal: (base) => ({ ...base, zIndex: 1000 }),
+  menu: (base) => ({
+    ...base,
+    width: 'max-content',
+    minWidth: '100%',
+    maxWidth: 'calc(100vw - 16px)',
+  }),
   option: (base, state) => ({
     ...base,
     backgroundColor: state.isFocused ? '#f3f4f6' : 'white',
     color: '#374151',
+    whiteSpace: 'nowrap',
   }),
   multiValue: (base, state) => ({
     ...base,

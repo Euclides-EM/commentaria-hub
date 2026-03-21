@@ -74,8 +74,9 @@ export type SourceOption = {
 export type FeatureOption = {
   value: string
   label: string
-  color: string
+  color?: string
   description: string
+  isAction?: boolean
 }
 
 export type TeiFeatureResult = feature_Result
