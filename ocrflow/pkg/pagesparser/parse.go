@@ -70,6 +70,9 @@ func IntRange(pageStr string) ([]int, error) {
 }
 
 func Range(pageStr string) ([]string, error) {
+	if pageStr == "" {
+		return nil, nil
+	}
 	ranges := strings.Split(pageStr, ",")
 	var pages []string
 	for _, r := range ranges {

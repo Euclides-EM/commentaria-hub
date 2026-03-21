@@ -24,14 +24,16 @@ type AnnotationSearch struct {
 	fileSysMgt       *filesys.Manager
 	resultSvc        *Result
 	annotationTEISvc *AnnotationTEI
+	datasetImg       *DatasetImg
 }
 
-func NewAnnotationSearch(annotationSvc *Annotation, fileSysMgt *filesys.Manager, resultSvc *Result, annotationTEISvc *AnnotationTEI) *AnnotationSearch {
+func NewAnnotationSearch(annotationSvc *Annotation, fileSysMgt *filesys.Manager, resultSvc *Result, annotationTEISvc *AnnotationTEI, datasetImg *DatasetImg) *AnnotationSearch {
 	return &AnnotationSearch{
 		annotationSvc:    annotationSvc,
 		fileSysMgt:       fileSysMgt,
 		resultSvc:        resultSvc,
 		annotationTEISvc: annotationTEISvc,
+		datasetImg:       datasetImg,
 	}
 }
 
@@ -50,6 +52,16 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, err
+	}
+	if ann.Pages == "" {
+		imgMD, err := s.datasetImg.ListImagesMetadata(as.DatasetID, true)
+		if err != nil {
+			return nil, fmt.Errorf("failed to list dataset images: %w", err)
+		}
+		for _, img := range imgMD {
+			pages = append(pages, img.Key)
+		}
+		slices.Sort(pages)
 	}
 
 	if len(as.SearchWithin) == 0 {
@@ -86,7 +98,7 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 			default:
 				return nil, fmt.Errorf("unsupported search within type: %v", sw)
 			}
-			res, err := s.searchWithinByTEIExtractor(ann, rg, page, extractor)
+			res, err := s.searchWithinByTEIExtractor(ann, rg, page, as.FallbackToOrigin, extractor)
 			if err != nil {
 				return nil, err
 			}
@@ -158,8 +170,8 @@ func (s *AnnotationSearch) highlightSearchMatch(rg *regexp.Regexp, v string) str
 	return rg.ReplaceAllString(v, "<em>$0</em>")
 }
 
-func (s *AnnotationSearch) searchWithinByTEIExtractor(ann *annotation.Annotation, rg *regexp.Regexp, page string, linesExtractor func(*model.TEI) []string) (*common.ALTOPart, error) {
-	t, err := s.annotationTEISvc.getTEI(ann, page, nil, true)
+func (s *AnnotationSearch) searchWithinByTEIExtractor(ann *annotation.Annotation, rg *regexp.Regexp, page string, fallbackToOrigin bool, linesExtractor func(*model.TEI) []string) (*common.ALTOPart, error) {
+	t, err := s.annotationTEISvc.getTEI(ann, page, nil, fallbackToOrigin)
 	if err != nil {
 		log.Printf("WARNING: Could not retrieve TEI for page %v: %v", page, err)
 		return nil, err
