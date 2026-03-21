@@ -3,13 +3,14 @@ package annotation
 import "github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 
 type Search struct {
-	SearchWithin []SearchWithin     `json:"search_within"`
-	Categories   []string           `json:"categories"`
-	Regex        string             `json:"regex"`
-	DatasetID    string             `json:"dataset_id"`
-	AnnotationId string             `json:"annotation_id"`
-	MaxResults   int                `json:"max_results"`
-	Results      []*common.ALTOPart `json:"results" readonly:"true"`
+	SearchWithin     []SearchWithin     `json:"search_within"`
+	Categories       []string           `json:"categories"`
+	Regex            string             `json:"regex"`
+	DatasetID        string             `json:"dataset_id"`
+	AnnotationId     string             `json:"annotation_id"`
+	MaxResults       int                `json:"max_results"`
+	FallbackToOrigin bool               `json:"fallback_to_origin"`
+	Results          []*common.ALTOPart `json:"results" readonly:"true"`
 }
 
 type SearchWithin string
