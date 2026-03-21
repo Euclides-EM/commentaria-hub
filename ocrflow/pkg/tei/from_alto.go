@@ -39,6 +39,7 @@ func BuildTEIFromALTO(
 	a *alto.Alto,
 	entities []EntityItem,
 	imageUrl string,
+	biblMetadata *model.BiblFull,
 ) (*model.TEI, error) {
 
 	if len(a.Layout.Page) != 1 {
@@ -52,7 +53,7 @@ func BuildTEIFromALTO(
 		XMLName: xml.Name{Local: "TEI"},
 		Xmlns:   "http://www.tei-c.org/ns/1.0",
 		Header: model.Header{
-			FileDesc: buildFileDesc(),
+			FileDesc: buildFileDesc(biblMetadata),
 			StandOff: buildStandOff(pageKey, entities, blocks),
 		},
 		Facsimile: buildFacsimileForAlto(pageKey, imageUrl, a),

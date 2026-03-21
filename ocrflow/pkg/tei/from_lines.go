@@ -15,12 +15,13 @@ func BuildTEIFromLines(
 	lines Lines,
 	entities []EntityItem,
 	imageUrl string,
+	biblMetadata *model.BiblFull,
 ) (*model.TEI, error) {
 	doc := &model.TEI{
 		XMLName: xml.Name{Local: "TEI"},
 		Xmlns:   "http://www.tei-c.org/ns/1.0",
 		Header: model.Header{
-			FileDesc: buildFileDesc(),
+			FileDesc: buildFileDesc(biblMetadata),
 			StandOff: buildStandOff(pageKey, entities, nil),
 		},
 		Facsimile: buildFacsimileForLines(pageKey, imageUrl, lines.TranscriptionLines),

@@ -647,7 +647,7 @@ func buildNodes(remainingCats []string, data []categoryPageContent) []*annotatio
 			wipNode = &annotation.IndexNode{
 				Category: item.category,
 				Content:  item.content,
-				Location: common.ALTOLocation{Page: item.page},
+				Location: common.ALTOLocation{Page: fmt.Sprintf("%d", item.page)},
 			}
 			wipNodeFirstChildIndex = i + 1
 		}

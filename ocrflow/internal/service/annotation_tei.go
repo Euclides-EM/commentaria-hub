@@ -7,6 +7,7 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
@@ -21,15 +22,17 @@ import (
 
 type AnnotationTEI struct {
 	annotationSvc *Annotation
+	datasetSvc    *Dataset
 	fileSysMgt    *filesys.Manager
 	resultSvc     *Result
 	featureSvc    *Feature
 	editionSvc    *Edition
 }
 
-func NewAnnotationTEI(annotationSvc *Annotation, fileSysMgt *filesys.Manager, resultSvc *Result, featureSvc *Feature, editionSvc *Edition) *AnnotationTEI {
+func NewAnnotationTEI(annotationSvc *Annotation, datasetSvc *Dataset, fileSysMgt *filesys.Manager, resultSvc *Result, featureSvc *Feature, editionSvc *Edition) *AnnotationTEI {
 	return &AnnotationTEI{
 		annotationSvc: annotationSvc,
+		datasetSvc:    datasetSvc,
 		fileSysMgt:    fileSysMgt,
 		resultSvc:     resultSvc,
 		featureSvc:    featureSvc,
@@ -126,7 +129,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
 		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 		// todo: support items in alto
-		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL)
+		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 	}
 
 	// 2) TXT fallback: transcription + translations + image url
@@ -160,7 +163,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		Translations:       translations,
 	}
 
-	return tei2.BuildTEIFromLines(pageNumOrKey, pageLines, buildItems(results, feats, lines), imageURL)
+	return tei2.BuildTEIFromLines(pageNumOrKey, pageLines, buildItems(results, feats, lines), imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 }
 
 func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []string, translations map[string][]string, err error) {
@@ -228,6 +231,19 @@ func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []st
 
 func (t *AnnotationTEI) annotationCanBeRepresentedAsTEI(ann *annotation.Annotation) bool {
 	return ann.Ocred || ann.LinesDetected || ann.Segmented
+}
+
+func (t *AnnotationTEI) getBibleMetadata(datasetID string, pageOrKey string) *teimodel.BiblFull {
+	edID := pageOrKey
+	ds, err := t.datasetSvc.Get(datasetID)
+	if err == nil && ds.EditionID != "" {
+		edID = ds.EditionID
+	}
+	ed, err := t.editionSvc.GetEditionByID(edID)
+	if err != nil {
+		return nil
+	}
+	return model.EditionToBiblFull(ed)
 }
 
 func buildItems(results []*feature.Result, feats []*feature.Feature, transcription []string) []tei2.EntityItem {

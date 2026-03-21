@@ -100,7 +100,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	featureRevisionSvc := service.NewRevision(featureRevisionStore, featureProperty)
-	annotationTEI := service.NewAnnotationTEI(annotationSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc, datasetSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
 	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 	langResolver := service.NewLanguagesResolver(editionSvc, datasetSvc)
 
@@ -125,7 +125,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		fileSystemManager,
 	)
 	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir())
-	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc)
+	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI)
 
 	log.Printf("warming geo cache...")
 	if err := geoStore.WarmCache(); err != nil {

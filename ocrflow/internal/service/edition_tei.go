@@ -47,7 +47,7 @@ func (t *EditionTEI) getTEI(edition *model.Edition, pageNum int) (*model2.TEI, e
 	a, _, err := t.fileSysMgt.RetrieveEditionAltoPage(edition, pageNum)
 	if err == nil {
 		pageKey := fmt.Sprintf("%d", pageNum)
-		return tei2.BuildTEIFromALTO(pageKey, a, nil, "")
+		return tei2.BuildTEIFromALTO(pageKey, a, nil, "", model.EditionToBiblFull(edition))
 	}
 
 	pageKey := fmt.Sprintf("%d", pageNum)
@@ -60,5 +60,5 @@ func (t *EditionTEI) getTEI(edition *model.Edition, pageNum int) (*model2.TEI, e
 		TranscriptionLines: lines,
 		Translations:       translations,
 	}
-	return tei2.BuildTEIFromLines(pageKey, pageLines, nil, "")
+	return tei2.BuildTEIFromLines(pageKey, pageLines, nil, "", model.EditionToBiblFull(edition))
 }

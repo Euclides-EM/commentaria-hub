@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -14,19 +15,23 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 )
 
 type AnnotationSearch struct {
-	annotationSvc *Annotation
-	fileSysMgt    *filesys.Manager
-	resultSvc     *Result
+	annotationSvc    *Annotation
+	fileSysMgt       *filesys.Manager
+	resultSvc        *Result
+	annotationTEISvc *AnnotationTEI
 }
 
-func NewAnnotationSearch(annotationSvc *Annotation, fileSysMgt *filesys.Manager, resultSvc *Result) *AnnotationSearch {
+func NewAnnotationSearch(annotationSvc *Annotation, fileSysMgt *filesys.Manager, resultSvc *Result, annotationTEISvc *AnnotationTEI) *AnnotationSearch {
 	return &AnnotationSearch{
-		annotationSvc: annotationSvc,
-		fileSysMgt:    fileSysMgt,
-		resultSvc:     resultSvc,
+		annotationSvc:    annotationSvc,
+		fileSysMgt:       fileSysMgt,
+		resultSvc:        resultSvc,
+		annotationTEISvc: annotationTEISvc,
 	}
 }
 
@@ -42,152 +47,56 @@ func (s *AnnotationSearch) Search(as *annotation.Search) (*annotation.Search, er
 		return nil, err
 	}
 
-	if strings.TrimSpace(ann.Pages) == "" {
-		if err := s.searchAnnotationContents(as, ann, rg); err != nil {
-			return nil, err
-		}
-		return as, nil
-	}
-
-	pages, err := pagesparser.IntRange(ann.Pages)
+	pages, err := pagesparser.Range(ann.Pages)
 	if err != nil {
 		return nil, err
 	}
 
-	for _, page := range pages {
-		a, _, err := s.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
-		if err != nil {
-			return nil, err
+	if len(as.SearchWithin) == 0 {
+		as.SearchWithin = []annotation.SearchWithin{
+			annotation.SearchWithinCategories,
 		}
+	}
 
-		for _, cat := range as.Categories {
-			bls, err := alto.ExtractBlocksByCategory(a, cat)
+	for _, page := range pages {
+		for _, sw := range as.SearchWithin {
+			maxResultsForPage := as.MaxResults
+			if maxResultsForPage > 0 {
+				maxResultsForPage = as.MaxResults - len(as.Results)
+				if maxResultsForPage <= 0 {
+					break
+				}
+			}
+			if sw == annotation.SearchWithinCategories {
+				res, err := s.searchWithinCategories(ann, maxResultsForPage, rg, page, as.Categories)
+				if err != nil {
+					return nil, err
+				}
+				as.Results = append(as.Results, res...)
+				continue
+			}
+			var extractor func(*model.TEI) []string
+			switch sw {
+			case annotation.SearchWithinTranscription:
+				extractor = tei.ExtractTranscriptionLines
+			case annotation.SearchWithinTranslation:
+				extractor = tei.ExtractTranslationLines
+			case annotation.SearchWithinBiblioMetadata:
+				extractor = tei.ExtractBiblMetadataLines
+			default:
+				return nil, fmt.Errorf("unsupported search within type: %v", sw)
+			}
+			res, err := s.searchWithinByTEIExtractor(ann, rg, page, extractor)
 			if err != nil {
 				return nil, err
 			}
-
-			for _, bl := range bls {
-				combined := alto.ExtractTextContentFromBlock(bl)
-				if rg.MatchString(combined) {
-					highlighted := s.highlightSearchMatch(rg, combined)
-
-					as.Results = append(as.Results, &common.ALTOPart{
-						Category: cat,
-						Content:  highlighted,
-						Location: common.ALTOLocation{
-							Page:        page,
-							TextBlockID: bl.ID,
-						},
-					})
-
-					if as.MaxResults > 0 && len(as.Results) >= as.MaxResults {
-						return as, nil
-					}
-				}
+			if res != nil {
+				as.Results = append(as.Results, res)
 			}
 		}
+
 	}
 	return as, nil
-}
-
-func (s *AnnotationSearch) searchAnnotationContents(as *annotation.Search, ann *annotation.Annotation, rg *regexp.Regexp) error {
-	keys, err := s.listAnnotationKeys(as, ann)
-	if err != nil {
-		return err
-	}
-	if len(keys) == 0 {
-		return nil
-	}
-
-	for _, key := range keys {
-		lines, translations, err := s.fileSysMgt.RetrieveAnnotationTXTPage(ann, key)
-		if err != nil {
-			continue
-		}
-		page := keyToPage(key)
-
-		originalContent := strings.Join(lines, "\n")
-		if rg.MatchString(originalContent) {
-			as.Results = append(as.Results, &common.ALTOPart{
-				Category: "transcription.original",
-				Content:  s.highlightSearchMatch(rg, originalContent),
-				Location: common.ALTOLocation{
-					Page:        page,
-					TextBlockID: key,
-				},
-			})
-			if as.MaxResults > 0 && len(as.Results) >= as.MaxResults {
-				return nil
-			}
-		}
-
-		langs := make([]string, 0, len(translations))
-		for lang := range translations {
-			langs = append(langs, lang)
-		}
-		slices.Sort(langs)
-
-		for _, lang := range langs {
-			content := strings.Join(translations[lang], "\n")
-			if !rg.MatchString(content) {
-				continue
-			}
-			as.Results = append(as.Results, &common.ALTOPart{
-				Category: fmt.Sprintf("transcription.%s", lang),
-				Content:  s.highlightSearchMatch(rg, content),
-				Location: common.ALTOLocation{
-					Page:        page,
-					TextBlockID: key,
-				},
-			})
-			if as.MaxResults > 0 && len(as.Results) >= as.MaxResults {
-				return nil
-			}
-		}
-	}
-
-	results, err := s.resultSvc.ListResults(as.DatasetID, ann.ID, keys, nil, true)
-	if err != nil {
-		return err
-	}
-
-	for _, result := range results {
-		page := keyToPage(result.PageKey)
-		for _, val := range result.Values {
-			if rg.MatchString(val.Surface) {
-				as.Results = append(as.Results, &common.ALTOPart{
-					Category: fmt.Sprintf("feature.%s.surface", result.FeatureID),
-					Content:  s.highlightSearchMatch(rg, val.Surface),
-					Location: common.ALTOLocation{
-						Page:        page,
-						TextBlockID: result.PageKey,
-					},
-				})
-				if as.MaxResults > 0 && len(as.Results) >= as.MaxResults {
-					return nil
-				}
-			}
-
-			for propertyKey, propertyVal := range val.Properties {
-				if !rg.MatchString(propertyVal) {
-					continue
-				}
-				as.Results = append(as.Results, &common.ALTOPart{
-					Category: fmt.Sprintf("feature.%s.property.%s", result.FeatureID, propertyKey),
-					Content:  s.highlightSearchMatch(rg, propertyVal),
-					Location: common.ALTOLocation{
-						Page:        page,
-						TextBlockID: result.PageKey,
-					},
-				})
-				if as.MaxResults > 0 && len(as.Results) >= as.MaxResults {
-					return nil
-				}
-			}
-		}
-	}
-
-	return nil
 }
 
 func (s *AnnotationSearch) listAnnotationKeys(as *annotation.Search, ann *annotation.Annotation) ([]string, error) {
@@ -245,14 +154,65 @@ func (s *AnnotationSearch) listAnnotationKeys(as *annotation.Search, ann *annota
 	return keys, nil
 }
 
-func keyToPage(key string) int {
-	page, err := strconv.Atoi(key)
-	if err != nil || page < 1 {
-		return 0
-	}
-	return page
-}
-
 func (s *AnnotationSearch) highlightSearchMatch(rg *regexp.Regexp, v string) string {
 	return rg.ReplaceAllString(v, "<em>$0</em>")
+}
+
+func (s *AnnotationSearch) searchWithinByTEIExtractor(ann *annotation.Annotation, rg *regexp.Regexp, page string, linesExtractor func(*model.TEI) []string) (*common.ALTOPart, error) {
+	t, err := s.annotationTEISvc.getTEI(ann, page, nil, true)
+	if err != nil {
+		log.Printf("WARNING: Could not retrieve TEI for page %v: %v", page, err)
+		return nil, err
+	}
+	lines := linesExtractor(t)
+	combined := strings.Join(lines, "\n")
+
+	if rg.MatchString(combined) {
+		highlighted := s.highlightSearchMatch(rg, combined)
+
+		return &common.ALTOPart{
+			Content: highlighted,
+			Location: common.ALTOLocation{
+				Page: page,
+			},
+		}, nil
+	}
+
+	return nil, nil
+}
+
+func (s *AnnotationSearch) searchWithinCategories(ann *annotation.Annotation, maxResults int, rg *regexp.Regexp, page string, categories []string) ([]*common.ALTOPart, error) {
+	var results []*common.ALTOPart
+	a, _, err := s.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+	if err != nil {
+		log.Printf("WARNING: Could not retrieve ALTO for page: %v", err)
+		return results, err
+	}
+	for _, cat := range categories {
+		bls, err := alto.ExtractBlocksByCategory(a, cat)
+		if err != nil {
+			return nil, err
+		}
+
+		for _, bl := range bls {
+			combined := alto.ExtractTextContentFromBlock(bl)
+			if rg.MatchString(combined) {
+				highlighted := s.highlightSearchMatch(rg, combined)
+
+				results = append(results, &common.ALTOPart{
+					Category: cat,
+					Content:  highlighted,
+					Location: common.ALTOLocation{
+						Page:        page,
+						TextBlockID: bl.ID,
+					},
+				})
+
+				if maxResults <= 0 || len(results) >= maxResults {
+					return results, nil
+				}
+			}
+		}
+	}
+	return results, nil
 }

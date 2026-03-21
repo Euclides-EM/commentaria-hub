@@ -7,6 +7,6 @@ type ALTOPart struct {
 }
 
 type ALTOLocation struct {
-	Page        int    `json:"page"`
+	Page        string `json:"page"`
 	TextBlockID string `json:"text_block_id,omitempty"`
 }

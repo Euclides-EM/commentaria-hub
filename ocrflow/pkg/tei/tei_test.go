@@ -95,7 +95,7 @@ func testBuildTEIFromTXT(t *testing.T, td string) {
 	if m, ok := ImgURLsByTest[td]; ok {
 		imgURL = m[defaultPageKey]
 	}
-	tei, err := BuildTEIFromLines(defaultPageKey, lines, EntitiesByTest[td], imgURL)
+	tei, err := BuildTEIFromLines(defaultPageKey, lines, EntitiesByTest[td], imgURL, nil)
 	if err != nil {
 		t.Fatalf("failed to build TEI from lines for test %s: %v", td, err)
 	}
@@ -126,7 +126,7 @@ func testBuildTEIFromALTO(t *testing.T, td string) {
 	if ImgURLMap, ok := ImgURLsByTest[td]; ok {
 		ImgURL = ImgURLMap[defaultPageKey]
 	}
-	tei, err := BuildTEIFromALTO(defaultPageKey, a, EntitiesByTest[td], ImgURL)
+	tei, err := BuildTEIFromALTO(defaultPageKey, a, EntitiesByTest[td], ImgURL, nil)
 	if err != nil {
 		t.Fatalf("failed to build TEI from ALTO for test %s: %v", td, err)
 	}
@@ -193,7 +193,7 @@ func TestTEI_ToXML_nil(t *testing.T) {
 
 // TestBuildTEIFromLines_emptyInput builds TEI from empty lines for one page and checks valid output without panic.
 func TestBuildTEIFromLines_emptyInput(t *testing.T) {
-	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: nil, Translations: nil}, nil, "")
+	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: nil, Translations: nil}, nil, "", nil)
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines(empty): %v", err)
 	}
@@ -221,7 +221,7 @@ func TestBuildTEIFromLines_noEntities(t *testing.T) {
 	lines := Lines{
 		TranscriptionLines: []string{"First line.", "Second line."},
 	}
-	tei, err := BuildTEIFromLines("page1", lines, nil, "")
+	tei, err := BuildTEIFromLines("page1", lines, nil, "", nil)
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines: %v", err)
 	}
@@ -259,11 +259,11 @@ func TestBuildTEIFromLines_noEntities(t *testing.T) {
 
 // TestBuildTEIFromLines_multiplePages verifies that one page per call produces one surface and one div each.
 func TestBuildTEIFromLines_multiplePages(t *testing.T) {
-	tei1, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{"Page one."}}, nil, "")
+	tei1, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{"Page one."}}, nil, "", nil)
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines(page1): %v", err)
 	}
-	tei2, err := BuildTEIFromLines("page2", Lines{TranscriptionLines: []string{"Page two."}}, nil, "")
+	tei2, err := BuildTEIFromLines("page2", Lines{TranscriptionLines: []string{"Page two."}}, nil, "", nil)
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines(page2): %v", err)
 	}
@@ -289,7 +289,7 @@ func TestBuildTEIFromLines_multiplePages(t *testing.T) {
 
 // TestBuildTEIFromLines_emptyImageUrl verifies that empty imageUrl does not panic and facs is empty.
 func TestBuildTEIFromLines_emptyImageUrl(t *testing.T) {
-	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{"One line."}}, nil, "")
+	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{"One line."}}, nil, "", nil)
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines: %v", err)
 	}
@@ -308,7 +308,7 @@ func TestBuildTEIFromLines_utf8EntitySpan(t *testing.T) {
 			End:   EntityLocationIndex{BlockID: "b1", LineID: "0", ByteOffset: 5}, // end of 'é' (2 bytes)
 		},
 	}
-	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{line}}, entities, "")
+	tei, err := BuildTEIFromLines("page1", Lines{TranscriptionLines: []string{line}}, entities, "", nil)
 	if err != nil {
 		t.Fatalf("BuildTEIFromLines: %v", err)
 	}
@@ -348,7 +348,7 @@ func TestBuildTEIFromALTO_minimal(t *testing.T) {
 			}},
 		},
 	}
-	tei, err := BuildTEIFromALTO("p1", a, nil, "https://example.com/p1.png")
+	tei, err := BuildTEIFromALTO("p1", a, nil, "https://example.com/p1.png", nil)
 	if err != nil {
 		t.Fatalf("BuildTEIFromALTO: %v", err)
 	}
