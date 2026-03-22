@@ -21,6 +21,7 @@ type EnvConfig struct {
 	CommentariaPath         string        `env:"COMMENTARIA_PATH" envDefault:"http://euclides.huma-num.fr/commentaria"`
 	AllowedOriginsCORS      string        `env:"ALLOWED_ORIGINS_CORS" envDefault:""`
 
+	RootDir       string `env:"ROOT_DIR" envDefault:"./"`
 	StoreDir      string `env:"STORE_DIR" envDefault:"./store"`
 	BackupRootDir string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
 
