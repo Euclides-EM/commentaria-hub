@@ -1,0 +1,28 @@
+export type VisibleState = {
+  proposition: boolean;
+  baseLine: boolean;
+  pointC: boolean;
+  rotatingAE: boolean;
+  completingSquare: boolean;
+  outerSquare: boolean;
+  diagonal: boolean;
+  movingCF: boolean;
+  vertical: boolean;
+  movingHI: boolean;
+  horizontal: boolean;
+  parallelogramFills: boolean;
+  rightAnglesV1: boolean;
+  rightAnglesV2: boolean;
+  equalSides: boolean;
+  equalSegmentPairs: boolean;
+  equalSegmentQuartet: boolean;
+  labeledTopBisectedAngle: boolean;
+  unlabeledTopBisectedAngle: boolean;
+  labeledLowerBisectedAngle: boolean;
+  unlabeledSquareBisectedAnglesAtB: boolean;
+  unlabeledEqualAnglesAtBAndG: boolean;
+  equalAngleQuartet: boolean;
+  redSquare: boolean;
+  blueSquare: boolean;
+  greenRects: boolean;
+};
