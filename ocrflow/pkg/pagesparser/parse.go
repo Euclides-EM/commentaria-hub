@@ -87,6 +87,7 @@ func Range(pageStr string) ([]string, error) {
 		}
 		bounds := strings.Split(r, "-")
 		if len(bounds) != 2 {
+			pages = append(pages, r)
 			continue
 		}
 		start, err := PageNumber(bounds[0])
