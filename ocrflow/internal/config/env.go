@@ -18,7 +18,7 @@ type EnvConfig struct {
 	EscriptoriumBasePath    string        `env:"ESCRIPTORIUM_BASE_PATH" envDefault:"http://localhost:8080/"`
 	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
 	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
-	CommentariaPath         string        `env:"COMMENTARIA_PATH" envDefault:"http://euclides.huma-num.fr/commentaria"`
+	CommentariaPath         string        `env:"COMMENTARIA_PATH" envDefault:"https://euclides.huma-num.fr/commentaria"`
 	AllowedOriginsCORS      string        `env:"ALLOWED_ORIGINS_CORS" envDefault:""`
 
 	RootDir       string `env:"ROOT_DIR" envDefault:"./"`

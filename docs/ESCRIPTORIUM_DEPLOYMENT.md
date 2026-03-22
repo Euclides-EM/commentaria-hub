@@ -60,7 +60,7 @@ SESSION_COOKIE_PATH="/escriptorium/"
 CSRF_COOKIE_PATH="/escriptorium/"
 DOMAIN=euclides.huma-num.fr
 SECRET_KEY=UD685o4lXgkv
-CSRF_TRUSTED_ORIGINS=http://euclides.huma-num.fr
+CSRF_TRUSTED_ORIGINS=https://euclides.huma-num.fr
 USE_X_FORWARDED_HOST=True
 SITE_NAME=escriptorium
 
@@ -206,7 +206,7 @@ sudo systemctl reload nginx
 Open:
 
 ```
-http://euclides.huma-num.fr/
+https://euclides.huma-num.fr/
 ```
 
 Login using the admin credentials defined in the `.env` file:

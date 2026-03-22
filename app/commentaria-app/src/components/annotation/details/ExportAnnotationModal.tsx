@@ -81,7 +81,7 @@ export function ExportAnnotationModal({
     useLocalStorageState<CommentariaSettings>('export-commentaria', {
       defaultValue: {
         api_key: '',
-        base_path: 'http://euclides.huma-num.fr/commentaria/',
+        base_path: 'https://euclides.huma-num.fr/commentaria/',
         dataset_id: '',
       },
     })
@@ -387,7 +387,7 @@ export function ExportAnnotationModal({
                     }))
                   }
                   className="w-full p-2 border border-gray-300 rounded-md"
-                  placeholder="http://euclides.huma-num.fr/commentaria/"
+                  placeholder="https://euclides.huma-num.fr/commentaria/"
                   disabled={loading}
                   required
                 />

@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 from urllib import error, parse, request
 
-BASE_URL = "http://euclides.huma-num.fr/commentaria/api/v1"
+BASE_URL = "https://euclides.huma-num.fr/commentaria/api/v1"
 DATASET_NAME_SUFFIX = "Book_X_Transcriptions"
 TRANSCRIPTIONS_ROOT = (
         Path(__file__).resolve().parent.parent / "ocrflow" / "store" / "data" / "transcriptions"

@@ -107,6 +107,31 @@ sudo -iu euclides
 sqlite3 /srv/euclides/projects/commentaria-hub/ocrflow/store/ocrflow.db
 ```
 
+## Setup the store and backup directories
+
+Assuming the volume is mounted at `/data` and you want to use `/data/euclides/commentaria-hub/store` for the store and `/data/euclides/commentaria-hub/full_backups` for the backups.
+
+Create those directories and set permissions as `root`:
+
+```bash
+sudo mkdir -p /data/euclides/commentaria-hub/store
+sudo mkdir -p /data/euclides/commentaria-hub/full_backups
+```
+
+Set ownership to the `euclides` user so the API can read/write:
+
+```bash
+sudo chown -R euclides:euclides /data/euclides
+```
+
+Test that the `euclides` user can write to the store directory:
+
+```bash
+sudo -u euclides touch /data/euclides/commentaria-hub/store/test
+sudo -u euclides ls -l /data/euclides/commentaria-hub/store
+sudo -u euclides rm /data/euclides/commentaria-hub/store/test
+```
+
 ## Add env file
 
 ```bash
@@ -118,8 +143,9 @@ sudo vim /etc/euclides/commentaria-hub-api.env
 Add (minimally):
 ```dotenv
 HTTP_ADDR=127.0.0.1:8090
-STORE_DIR=/srv/euclides/projects/commentaria-hub/ocrflow/store
-BACKUP_ROOT_DIR=/srv/euclides/projects/commentaria-hub/ocrflow/full_backups
+ROOT_DIR=/srv/euclides/projects/commentaria-hub/ocrflow
+STORE_DIR=/data/euclides/commentaria-hub/store
+BACKUP_ROOT_DIR=/data/euclides/commentaria-hub/full_backups
 ESCRIPTORIUM_USERNAME=admin
 ESCRIPTORIUM_PASSWORD=
 GITHUB_TOKEN=***
@@ -335,6 +361,48 @@ Open:
 http://euclides.huma-num.fr/ --> eScriptorium
 http://euclides.huma-num.fr/commentaria/api/v1/health --> commentaria-hub API
 ```
+
+## Set up SSL with Let’s Encrypt (Certbot)
+
+```bash
+sudo apt-get update
+sudo apt-get install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d euclides.huma-num.fr
+``` 
+
+Note: This will automatically obtain and install the SSL certificate, and set up automatic renewal. You can test the renewal process with:
+
+```bash
+sudo certbot renew --dry-run
+```
+
+In addition, your nginx configuration will be updated to redirect HTTP to HTTPS, and the `server_name` directive will be updated to include the SSL configuration.
+
+Likely, the following the `listen 80;` will be removed from the existing server block and replaced by the following:
+
+```nginx
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/euclides.huma-num.fr/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/euclides.huma-num.fr/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+```
+
+In addition, a new server block will be added to redirect HTTP to HTTPS:
+
+```nginx
+server {
+    if ($host = euclides.huma-num.fr) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    listen 80;
+    server_name euclides.huma-num.fr;
+    return 404; # managed by Certbot
+}
+```
+
 # Redeploying
 
 ```bash
