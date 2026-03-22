@@ -32,6 +32,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	if err != nil {
 		return nil, fmt.Errorf("init env: %w", err)
 	}
+	if err = store.InitMountProjToStore(env.RootDir, env.StoreDir); err != nil {
+		return nil, fmt.Errorf("init mount proj to store: %w", err)
+	}
 	var sqlDB *sql.DB
 	bckSvc := service.NewBackup(env.DataDir(), env.ModelsDir(), env.ItemsMetadataStoreDir(), env.DBPath(), env.BackupDir(), env.RestoreDir(), func() error {
 		log.Printf("shutting down app for backup/restore...")

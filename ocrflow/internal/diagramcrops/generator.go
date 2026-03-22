@@ -88,6 +88,10 @@ func ResolveGithubAPIBase(repoURL string) (string, error) {
 // and writes them under env's store dir. It uses env for diagram path, GitHub token, and store paths.
 // If EffectiveGithubToken is empty, Generate returns nil without doing anything (allows app to start without token).
 func Generate(env *config.EnvConfig, opts Options) error {
+	if env.SkipDiagramCropsGeneration {
+		log.Printf("diagram crops: skipping diagram metadata generation because SKIP_DIAGRAM_CROPS_GENERATION is set")
+		return nil
+	}
 	token := env.GithubToken
 	if token == "" {
 		log.Printf("diagram crops: no GITHUB_TOKEN set, skipping diagram metadata generation")
@@ -289,8 +293,8 @@ func (g *generator) generateAllDiagramData(directories []string) error {
 	slices.Sort(missing)
 	log.Printf("generating diagram data for %d of %d base entries", len(missing), len(grouped))
 
-	for _, baseKey := range missing {
-		if err := g.generateDiagramData(baseKey, grouped[baseKey]); err != nil {
+	for i, baseKey := range missing {
+		if err := g.generateDiagramData(baseKey, grouped[baseKey], fmt.Sprintf("[%d/%d]", i, len(missing))); err != nil {
 			return err
 		}
 		time.Sleep(200 * time.Millisecond)
@@ -299,7 +303,7 @@ func (g *generator) generateAllDiagramData(directories []string) error {
 	return nil
 }
 
-func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo) error {
+func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo, logPrefix string) error {
 	outputPath := filepath.Join(g.diagramsLocalDir, baseKey+".json")
 	if _, err := os.Stat(outputPath); err == nil && !g.opts.DryRun {
 		return nil
@@ -341,7 +345,7 @@ func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo) er
 	for _, row := range volumeRows {
 		totalImages += len(row.Images)
 	}
-	log.Printf("generated diagrams data for %s: %d images across %d volume(s)", baseKey, totalImages, len(volumes))
+	log.Printf("%s generated diagrams data for %s: %d images across %d volume(s)", logPrefix, baseKey, totalImages, len(volumes))
 
 	return nil
 }
