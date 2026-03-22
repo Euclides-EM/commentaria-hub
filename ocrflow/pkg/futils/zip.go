@@ -67,6 +67,16 @@ func Zip(srcDir, destZip string) error {
 	zipWriter := zip.NewWriter(outFile)
 	defer zipWriter.Close()
 
+	fi, err := os.Stat(srcDir)
+	if err != nil && os.IsNotExist(err) {
+		return nil
+	}
+	if err != nil {
+		return fmt.Errorf("could not stat source: %w", err)
+	}
+	if !fi.IsDir() {
+		return fmt.Errorf("source path is not a directory")
+	}
 	err = filepath.Walk(srcDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
