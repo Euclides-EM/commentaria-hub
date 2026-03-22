@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { groupBy, isNil, startCase, uniq } from "lodash";
 import { Filter, FilterValue } from "./Filter";
-import { Item } from "../../types";
+import { Item, STUDY_CORPUSES } from "../../types";
 import { authorDisplayName } from "../../utils/dataUtils.ts";
 import { ItemProperty } from "../../constants/itemProperties.ts";
 import styled from "@emotion/styled";
@@ -50,15 +50,7 @@ type FiltersGroupProps = {
 };
 
 const mapStudyCorpus = (s: string): string => {
-  switch (s) {
-    case "dh":
-      return "DH core texts";
-    case "dotted_lines":
-      return "Dotted Lines";
-    case "tps_experiment":
-      return "Title Page Study";
-  }
-  return startCase(s.toLowerCase());
+  return STUDY_CORPUSES[s] || startCase(s.toLowerCase());
 };
 
 const toFormat = (value: string | undefined) => {
