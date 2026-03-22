@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
+	"strconv"
 	"strings"
 	"time"
 
@@ -501,6 +502,375 @@ WHERE dataset_id = ?
 		return fmt.Errorf("copy feature results: commit: %w", err)
 	}
 	return nil
+}
+
+func (s *FeatureResultSql) GetSQLDump(dataSetId string, annotationId string) ([]string, error) {
+	if strings.TrimSpace(dataSetId) == "" || strings.TrimSpace(annotationId) == "" {
+		return nil, fmt.Errorf("get sql dump: missing dataset_id or annotation_id")
+	}
+
+	tx, err := s.db.Begin()
+	if err != nil {
+		return nil, fmt.Errorf("get sql dump: begin tx: %w", err)
+	}
+	defer func() { _ = tx.Rollback() }()
+
+	featureIDs, err := getRelevantFeatureIDs(tx, dataSetId, annotationId)
+	if err != nil {
+		return nil, fmt.Errorf("get sql dump: get relevant feature ids: %w", err)
+	}
+
+	var b []string
+	b = append(b, "BEGIN TRANSACTION")
+
+	if len(featureIDs) > 0 {
+		a, err := dumpFeatures(tx, dataSetId, featureIDs)
+		if err != nil {
+			return nil, fmt.Errorf("get sql dump: dump features: %w", err)
+		}
+		b = append(b, "", "-- features")
+		b = append(b, a...)
+		a, err = dumpFeatureRevisions(tx, dataSetId, featureIDs)
+		if err != nil {
+			return nil, fmt.Errorf("get sql dump: dump feature revisions: %w", err)
+		}
+		b = append(b, "", "-- feature revisions")
+		b = append(b, a...)
+	}
+
+	a, resultKeys, err := dumpFeatureResults(tx, dataSetId, annotationId)
+	if err != nil {
+		return nil, fmt.Errorf("get sql dump: dump feature results: %w", err)
+	}
+	b = append(b, "", "-- feature results")
+	b = append(b, a...)
+
+	a, err = dumpFeatureResultValues(tx, dataSetId, annotationId, resultKeys)
+	if err != nil {
+		return nil, fmt.Errorf("get sql dump: dump feature result values: %w", err)
+	}
+	b = append(b, "", "-- feature result values")
+	b = append(b, a...)
+
+	b = append(b, "", "COMMIT")
+
+	if err := tx.Commit(); err != nil {
+		return nil, fmt.Errorf("get sql dump: commit read tx: %w", err)
+	}
+
+	b = lo.Map(b, func(s string, _ int) string {
+		return s + ";"
+	})
+
+	return b, nil
+}
+
+type featureRow struct {
+	ID          string
+	Name        string
+	Description string
+	CreatedAt   any
+	UpdatedAt   any
+	DatasetID   string
+	IsDefault   bool
+	IsList      bool
+	Color       string
+	Properties  string
+}
+
+type featureRevisionRow struct {
+	ID          string
+	Name        string
+	Description string
+	CreatedAt   any
+	UpdatedAt   any
+	DatasetID   string
+	FeatureID   string
+	Prompt      string
+	Categorizer string
+}
+
+type featureResultRow struct {
+	Name           string
+	Description    string
+	CreatedAt      any
+	UpdatedAt      any
+	DatasetID      string
+	FeatureID      string
+	AnnotationID   string
+	PageKey        string
+	SourceResp     string
+	SourceID       sql.NullString
+	SourceRevision sql.NullString
+	SourceName     sql.NullString
+}
+
+type featureResultValueRow struct {
+	DatasetID    string
+	FeatureID    string
+	AnnotationID string
+	PageKey      string
+	Surface      string
+}
+
+type resultKey struct {
+	FeatureID string
+	PageKey   string
+}
+
+func getRelevantFeatureIDs(tx *sql.Tx, dataSetId, annotationId string) ([]string, error) {
+	rows, err := tx.Query(`
+SELECT DISTINCT feature_id
+FROM feature_results
+WHERE dataset_id = ?
+  AND annotation_id = ?
+ORDER BY feature_id`, dataSetId, annotationId)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var ids []string
+	for rows.Next() {
+		var id string
+		if err := rows.Scan(&id); err != nil {
+			return nil, err
+		}
+		ids = append(ids, id)
+	}
+	return ids, rows.Err()
+}
+
+func dumpFeatures(tx *sql.Tx, dataSetId string, featureIDs []string) ([]string, error) {
+	var b []string
+
+	query := fmt.Sprintf(`SELECT
+id, name, description, created_at, updated_at,
+  dataset_id, is_default, is_list, color, properties
+FROM features
+WHERE dataset_id = ?
+  AND id IN (%s)
+ORDER BY id`, strings.TrimSuffix(strings.Repeat("?, ", len(featureIDs)), ", "))
+
+	args := append([]any{dataSetId}, lo.ToAnySlice(featureIDs)...)
+	rows, err := tx.Query(query, args...)
+	if err != nil {
+		return b, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		var r featureRow
+		if err := rows.Scan(
+			&r.ID, &r.Name, &r.Description, &r.CreatedAt, &r.UpdatedAt,
+			&r.DatasetID, &r.IsDefault, &r.IsList, &r.Color, &r.Properties,
+		); err != nil {
+			return b, err
+		}
+
+		b = append(b, fmt.Sprintf(`INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties`,
+			sqlString(r.ID),
+			sqlString(r.Name),
+			sqlString(r.Description),
+			sqlValue(r.CreatedAt),
+			sqlValue(r.UpdatedAt),
+			sqlString(r.DatasetID),
+			sqlBool(r.IsDefault),
+			sqlBool(r.IsList),
+			sqlString(r.Color),
+			sqlString(r.Properties),
+		))
+	}
+	return b, rows.Err()
+}
+
+func dumpFeatureRevisions(tx *sql.Tx, dataSetId string, featureIDs []string) ([]string, error) {
+	query := fmt.Sprintf(`
+SELECT
+  id, name, description, created_at, updated_at,
+  dataset_id, feature_id, prompt, categorizer
+FROM feature_revisions
+WHERE dataset_id = ?
+  AND feature_id IN (%s)
+ORDER BY id`, strings.TrimSuffix(strings.Repeat("?, ", len(featureIDs)), ", "))
+	args := append([]any{dataSetId}, lo.ToAnySlice(featureIDs)...)
+
+	rows, err := tx.Query(query, args...)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var b []string
+	for rows.Next() {
+		var r featureRevisionRow
+		if err := rows.Scan(
+			&r.ID, &r.Name, &r.Description, &r.CreatedAt, &r.UpdatedAt,
+			&r.DatasetID, &r.FeatureID, &r.Prompt, &r.Categorizer,
+		); err != nil {
+			return nil, err
+		}
+
+		b = append(b, fmt.Sprintf(`INSERT INTO feature_revisions (id, name, description, created_at, updated_at, dataset_id, feature_id, prompt, categorizer) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, feature_id = excluded.feature_id, prompt = excluded.prompt, categorizer = excluded.categorizer`,
+			sqlString(r.ID),
+			sqlString(r.Name),
+			sqlString(r.Description),
+			sqlValue(r.CreatedAt),
+			sqlValue(r.UpdatedAt),
+			sqlString(r.DatasetID),
+			sqlString(r.FeatureID),
+			sqlString(r.Prompt),
+			sqlString(r.Categorizer),
+		))
+	}
+	return b, rows.Err()
+}
+
+func dumpFeatureResults(tx *sql.Tx, dataSetId, annotationId string) ([]string, []resultKey, error) {
+	rows, err := tx.Query(`
+SELECT
+  name, description, created_at, updated_at,
+  dataset_id, feature_id, annotation_id, page_key,
+  source_resp, source_id, source_revision, source_name
+FROM feature_results
+WHERE dataset_id = ?
+  AND annotation_id = ?
+ORDER BY feature_id, page_key`, dataSetId, annotationId)
+	if err != nil {
+		return nil, nil, err
+	}
+	defer rows.Close()
+
+	var keys []resultKey
+	var b []string
+
+	for rows.Next() {
+		var r featureResultRow
+		if err := rows.Scan(
+			&r.Name, &r.Description, &r.CreatedAt, &r.UpdatedAt,
+			&r.DatasetID, &r.FeatureID, &r.AnnotationID, &r.PageKey,
+			&r.SourceResp, &r.SourceID, &r.SourceRevision, &r.SourceName,
+		); err != nil {
+			return nil, nil, err
+		}
+
+		keys = append(keys, resultKey{
+			FeatureID: r.FeatureID,
+			PageKey:   r.PageKey,
+		})
+
+		b = append(b, fmt.Sprintf(`INSERT INTO feature_results (name, description, created_at, updated_at, dataset_id, feature_id, annotation_id, page_key, source_resp, source_id, source_revision, source_name) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT(dataset_id, feature_id, annotation_id, page_key) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, source_resp = excluded.source_resp, source_id = excluded.source_id, source_revision = excluded.source_revision, source_name = excluded.source_name`,
+			sqlString(r.Name),
+			sqlString(r.Description),
+			sqlValue(r.CreatedAt),
+			sqlValue(r.UpdatedAt),
+			sqlString(r.DatasetID),
+			sqlString(r.FeatureID),
+			sqlString(r.AnnotationID),
+			sqlString(r.PageKey),
+			sqlString(r.SourceResp),
+			sqlNullString(r.SourceID),
+			sqlNullString(r.SourceRevision),
+			sqlNullString(r.SourceName),
+		))
+	}
+	return b, keys, rows.Err()
+}
+
+func dumpFeatureResultValues(tx *sql.Tx, dataSetId, annotationId string, keys []resultKey) ([]string, error) {
+	var b []string
+	if len(keys) == 0 {
+		return b, nil
+	}
+
+	// delete existing values for all relevant parent rows first
+	for _, k := range keys {
+		b = append(b, fmt.Sprintf(`DELETE FROM feature_result_values WHERE dataset_id = %s AND feature_id = %s AND annotation_id = %s AND page_key = %s`,
+			sqlString(dataSetId),
+			sqlString(k.FeatureID),
+			sqlString(annotationId),
+			sqlString(k.PageKey),
+		))
+	}
+
+	rows, err := tx.Query(`
+SELECT
+  dataset_id, feature_id, annotation_id, page_key, surface
+FROM feature_result_values
+WHERE dataset_id = ?
+  AND annotation_id = ?
+ORDER BY feature_id, page_key, id`, dataSetId, annotationId)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		var r featureResultValueRow
+		if err := rows.Scan(
+			&r.DatasetID, &r.FeatureID, &r.AnnotationID, &r.PageKey, &r.Surface,
+		); err != nil {
+			return nil, err
+		}
+
+		b = append(b, fmt.Sprintf(`INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES (%s, %s, %s, %s, %s)`,
+			sqlString(r.DatasetID),
+			sqlString(r.FeatureID),
+			sqlString(r.AnnotationID),
+			sqlString(r.PageKey),
+			sqlString(r.Surface),
+		))
+	}
+
+	return b, rows.Err()
+}
+
+func sqlString(s string) string {
+	return "'" + strings.ReplaceAll(s, "'", "''") + "'"
+}
+
+func sqlBool(v bool) string {
+	if v {
+		return "1"
+	}
+	return "0"
+}
+
+func sqlNullString(v sql.NullString) string {
+	if !v.Valid {
+		return "NULL"
+	}
+	return sqlString(v.String)
+}
+
+func sqlValue(v any) string {
+	switch x := v.(type) {
+	case nil:
+		return "NULL"
+	case string:
+		return sqlString(x)
+	case []byte:
+		return sqlString(string(x))
+	case time.Time:
+		return sqlString(x.Format(time.RFC3339Nano))
+	case sql.NullString:
+		return sqlNullString(x)
+	case *string:
+		if x == nil {
+			return "NULL"
+		}
+		return sqlString(*x)
+	case int:
+		return strconv.Itoa(x)
+	case int64:
+		return strconv.FormatInt(x, 10)
+	case float64:
+		return strconv.FormatFloat(x, 'f', -1, 64)
+	case bool:
+		return sqlBool(x)
+	default:
+		return sqlString(fmt.Sprint(x))
+	}
 }
 
 func ensureAnnotationExistsTx(tx *sql.Tx, datasetID, annotationID string) error {

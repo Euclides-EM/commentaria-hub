@@ -97,3 +97,21 @@ func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 	}
 	return created, nil
 }
+
+// GetFeatureResultsDump godoc
+// @Summary Get feature results SQL dump
+// @Description Get a SQL dump of feature results for a specific annotation
+// @Tags Feature Results
+// @Accept json
+// @Produce application/text
+// @Param dataSetId path string true "Dataset ID"
+// @Param id path string true "Annotation ID"
+// @Success 200 {string} string "SQL dump of feature results"
+// @Router /datasets/{dataSetId}/annotations/{id}/results/sqldump [get]
+func (h *Handlers) GetFeatureResultsDump(request *http.Request) ([]byte, error) {
+	dataSetId, annotationId, err := extractDatasetAndAnnotationIDs(request)
+	if err != nil {
+		return nil, err
+	}
+	return h.deps.FeatureResultSvc.GetFeatureResultsSQLDump(dataSetId, annotationId)
+}

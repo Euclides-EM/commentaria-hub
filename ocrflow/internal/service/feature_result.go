@@ -88,3 +88,11 @@ func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *featu
 func (r *Result) CopyResults(datasetID, srcAnnID, dstDatasetID, dstAnnID string) error {
 	return r.store.CopyResults(datasetID, srcAnnID, dstDatasetID, dstAnnID)
 }
+
+func (r *Result) GetFeatureResultsSQLDump(dataSetId string, annotationId string) ([]byte, error) {
+	queries, err := r.store.GetSQLDump(dataSetId, annotationId)
+	if err != nil {
+		return nil, err
+	}
+	return []byte(strings.Join(queries, "\n")), nil
+}

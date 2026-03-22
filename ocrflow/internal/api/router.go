@@ -123,6 +123,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/features/executions/{executionId}/cancel", httpwrapper.Update(h.CancelExecution).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results", httpwrapper.Get(h.ListResults).Create(h.CreateResult).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results/sqldump", httpwrapper.GetSQL(h.GetFeatureResultsDump).Build())
 
 	api.HandleFunc("/integrations/platforms", httpwrapper.Get(h.ListIntegrationPlatforms).Build())
 	api.HandleFunc("/integrations/jobs", httpwrapper.Get(h.ListIntegrationJobs).Create(h.CreateIntegrationJobs).Build())

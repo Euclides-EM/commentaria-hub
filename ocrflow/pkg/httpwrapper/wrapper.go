@@ -37,6 +37,11 @@ func GetXML(f func(*http.Request) ([]byte, error)) *wrapperBuilder {
 	return wb.GetXML(f)
 }
 
+func GetSQL(f func(*http.Request) ([]byte, error)) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.GetSQL(f)
+}
+
 func GetPNG(f func(*http.Request) ([]byte, error)) *wrapperBuilder {
 	wb := &wrapperBuilder{}
 	return wb.GetPNG(f)
@@ -85,6 +90,19 @@ func (wb *wrapperBuilder) GetXML(f func(*http.Request) ([]byte, error)) *wrapper
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 		}
 		w.Header().Set("Content-Type", "application/xml; charset=utf-8")
+		w.WriteHeader(http.StatusOK)
+		w.Write(resp)
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) GetSQL(f func(*http.Request) ([]byte, error)) *wrapperBuilder {
+	wb.get = func(w http.ResponseWriter, r *http.Request) {
+		resp, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+		}
+		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
 		w.WriteHeader(http.StatusOK)
 		w.Write(resp)
 	}
