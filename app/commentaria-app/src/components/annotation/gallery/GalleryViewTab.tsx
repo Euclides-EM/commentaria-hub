@@ -557,6 +557,11 @@ export function GalleryViewTab() {
     [availablePages, visibleCount],
   )
   const hasMore = visibleCount < availablePages.length
+  const currentPageKey = String(currentPageOrKey)
+  const currentPageIndex = useMemo(
+    () => availablePages.indexOf(currentPageKey),
+    [availablePages, currentPageKey],
+  )
 
   useEffect(() => {
     const sentinel = sentinelRef.current
@@ -574,6 +579,16 @@ export function GalleryViewTab() {
     observer.observe(sentinel)
     return () => observer.disconnect()
   }, [hasMore, availablePages.length])
+
+  useEffect(() => {
+    if (currentPageIndex < 0 || currentPageIndex < visibleCount) return
+    setVisibleCount((prev) =>
+      Math.min(
+        availablePages.length,
+        Math.max(prev + BATCH_SIZE, currentPageIndex + 1),
+      ),
+    )
+  }, [availablePages.length, currentPageIndex, visibleCount])
 
   const fetchedPageSetRef = useRef(new Set<string>())
   const pagesToFetchRef = useRef<string[]>([])
@@ -788,14 +803,13 @@ export function GalleryViewTab() {
   const lastScrolledPageRef = useRef('')
 
   useEffect(() => {
-    const key = String(currentPageOrKey)
+    const key = currentPageKey
+    const el = cardRefs.current[key]
+    if (!el) return
     if (key === lastScrolledPageRef.current) return
     lastScrolledPageRef.current = key
-    const el = cardRefs.current[key]
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
-    }
-  }, [currentPageOrKey])
+    el.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+  }, [currentPageKey, visiblePages])
 
   const getImageUrl = (pageOrKey: string): string | null => {
     const num = Number(pageOrKey)

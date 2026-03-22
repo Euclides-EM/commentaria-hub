@@ -104,11 +104,15 @@ const getFormattedCategory = (
 }
 
 const getResultLocationDisplay = (result: common_ALTOPart) => {
-  if (result.location?.page === '0' && result.location.text_block_id) {
+  if (result.location?.text_block_id) {
     return result.location.text_block_id
   }
   if (result.location?.page) {
-    return `p. ${result.location.page}`
+    if (Number.isInteger(Number(result.location.page))) {
+      return `p. ${result.location.page}`
+    } else {
+      return result.location.page
+    }
   }
   return null
 }
