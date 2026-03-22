@@ -1,6 +1,7 @@
 import { useState, type WheelEvent } from "react";
 import styled from "@emotion/styled";
 import { PANE_COLOR, SEA_COLOR } from "../../utils/colors";
+import { type VisibleState } from "./visibleState";
 import { ConstructionDiagram } from "./diagrams/ConstructionDiagram";
 import { PropositionDiagram } from "./diagrams/PropositionDiagram";
 
@@ -21,50 +22,21 @@ type StepGroup = {
   }>;
 };
 
-type VisibleState = {
-  proposition: boolean;
-  baseLine: boolean;
-  pointC: boolean;
-  rotatingAE: boolean;
-  completingSquare: boolean;
-  outerSquare: boolean;
-  diagonal: boolean;
-  movingCF: boolean;
-  vertical: boolean;
-  movingHI: boolean;
-  horizontal: boolean;
-  parallelogramFills: boolean;
-  rightAngles: boolean;
-  equalSides: boolean;
-  equalSegmentPairs: boolean;
-  equalSegmentQuartet: boolean;
-  labeledTopBisectedAngle: boolean;
-  unlabeledTopBisectedAngle: boolean;
-  labeledLowerBisectedAngle: boolean;
-  unlabeledLowerBisectedAngle: boolean;
-  unlabeledSquareBisectedAnglesAtB: boolean;
-  unlabeledEqualAnglesAtBAndG: boolean;
-  redSquare: boolean;
-  blueSquare: boolean;
-  greenRects: boolean;
-  qed: boolean;
-};
-
 type SectionViewMode = "step-by-step" | "sequential";
 
 const stepGroups: StepGroup[] = [
   {
     label: "I. The Hypothesis",
     steps: [
-      { text: "Draw the straight line AB.", visualStep: 1 },
-      { text: "Divide line AB at point C.", visualStep: 2 },
+      { text: "AB is ————", visualStep: 1 },
+      { text: "AC & CB are parts of AB", visualStep: 2 },
     ],
   },
   {
     label: "II. The Proposition",
     steps: [
       {
-        text: "Required to demonstrate:\nThe area of a square with side AB equals the area of square AC plus the area of square CB plus 2 times the area of the rectangle made up of AC and CB.\n□ AB = □ AC + □ CB + 2 ▭ ACB",
+        text: "Required to demonstrate:\n□ AB = □ AC + □ CB + 2 ▭ ACB",
         visualStep: 3,
       },
     ],
@@ -72,104 +44,124 @@ const stepGroups: StepGroup[] = [
   {
     label: "III. The Preparation (1634)",
     steps: [
-      { text: "Describe the square ADEB on the whole line AB.", visualStep: 4 },
+      { text: "AD is □ on AB", visualStep: 4 },
       {
-        text: "Extend from E to add point D and complete the square.",
+        text: "AD is □ on AB",
         visualStep: 5,
       },
-      { text: "Draw the diagonal EB.", visualStep: 6 },
+      { text: "EB is ————", visualStep: 6 },
       {
-        text: "Draw CF parallel to AE; it intersects the diagonal at G.",
+        text: "CF = AE = BD",
         visualStep: 7,
       },
-      { text: "Through G, draw HI parallel to AB.", visualStep: 8 },
+      { text: "HGI = AB = ED", visualStep: 8 },
     ],
   },
   {
     label: "III. The Demonstration (1634)",
     steps: [
       {
-        text: "Angles AED, ABD, EHG, EFG, and HGF are right angles.",
+        text: "∠EAB, ∠AED, ∠EDB, ∠ABD are 90°",
         visualStep: 9,
       },
-      { text: "Side AE is equal to side AB.", visualStep: 10 },
       {
-        text: "The diagonal EB bisects the right angle AED, making angles AEB and DEB 45°.",
-        visualStep: 11,
+        text: "∠EHG, ∠EFG, ∠HGF are 90°",
+        visualStep: 10,
       },
+      { text: "AE = AB", visualStep: 11 },
       {
-        text: "The diagonal EB bisects the right angle HGF, making angles HGE and FGE 45°.",
+        text: "∠AEB, ∠DEB are 45°",
         visualStep: 12,
       },
       {
-        text: "Since angle EHG is 90° and the other two are 45°, side HG must equal HE. EHGF is a square.",
+        text: "∠HGE, ∠FGE are 45°",
         visualStep: 13,
       },
       {
-        text: "Similarly, CGIB is also a square on the other segment.",
+        text: "HE = HG = EF = FG, HF is □ on HG",
         visualStep: 14,
       },
       {
-        text: "The remaining spaces are rectangles. Thus, the square on the whole equals the squares on the parts plus twice their rectangle. QED.",
+        text: "CGIB is □ on CB",
         visualStep: 15,
+      },
+      {
+        text: "▭ AG = ▭ ACB = ▭ GD",
+        visualStep: 16,
+      },
+      {
+        text: "□ AD = □ HF + □ CI + ▭ AG + ▭ GD",
+        visualStep: 17,
+      },
+      {
+        text: "□ AB = □ AC + □ CB + 2 ▭ ACB",
+        visualStep: 18,
       },
     ],
   },
   {
     label: "III. The Preparation (1639)",
     steps: [
-      { text: "Describe the square ADEB on the whole line AB.", visualStep: 4 },
+      { text: "AD is □ on AB", visualStep: 4 },
       {
-        text: "Extend from E to add point D and complete the square.",
+        text: "AD is □ on AB",
         visualStep: 5,
       },
-      { text: "Draw the diagonal EB.", visualStep: 6 },
+      { text: "EB is ————", visualStep: 6 },
       {
-        text: "Draw CF parallel to AE; it intersects the diagonal at G.",
+        text: "CF ∥ AE",
         visualStep: 7,
       },
-      { text: "Through G, draw HI parallel to AB.", visualStep: 8 },
+      { text: "HGI ∥ AB", visualStep: 8 },
     ],
   },
   {
     label: "V. The Demonstration (1639)",
     steps: [
       {
-        text: "AG, HF, CI, and GD are parallelograms.",
-        visualStep: 16,
-      },
-      {
-        text: "Angles AED, ABD, EHG, EFG, and HGF are right angles.",
-        visualStep: 17,
-      },
-      { text: "Side AE is equal to side AB.", visualStep: 18 },
-      {
-        text: "AEB, ABE, DEB, and DBE are all equal to each other, because the diagonal EB bisects the right angles of the large square.",
+        text: "AG, HF, CI, GD are ▱",
         visualStep: 19,
       },
       {
-        text: "Similarly, CBG, CGB, HEG, and HGE are all equal to each other.",
+        text: "∠A, ∠AED, ∠D, ∠ABD are 90°",
         visualStep: 20,
       },
+      { text: "AE = AB", visualStep: 21 },
       {
-        text: "BC equals CG, and GH equals HE.",
-        visualStep: 21,
-      },
-      {
-        text: "HE equals GF, HG equals EF, CB equals GI, and CG equals BI.",
+        text: "∠AEB = ∠ABE = ∠DEB = ∠DBE",
         visualStep: 22,
       },
       {
-        text: "GHFE is a square, and CBIG is a square.",
+        text: "∠CGB = ∠AEB, ∠HGE = ∠ABE, ∠IGB = ∠BED",
         visualStep: 23,
       },
       {
-        text: "The rectangles AG and GD are equal to each other.",
+        text: "∠CBG = ∠CGB = ∠HEG = ∠HGE",
         visualStep: 24,
       },
       {
-        text: "Thus, as in 1634, the whole is obtained by adding everything together at the end.",
+        text: "BC = CG, GH = HE",
         visualStep: 25,
+      },
+      {
+        text: "HE = GF, HG = EF, CB = GI, CG = BI",
+        visualStep: 26,
+      },
+      {
+        text: "GHFE is □ on HG, CBIG is □ on CB",
+        visualStep: 27,
+      },
+      {
+        text: "AG & GD are ▭ on ACB and AG = GD",
+        visualStep: 28,
+      },
+      {
+        text: "□ AD = □ HF + □ CI + ▭ AG + ▭ GD",
+        visualStep: 29,
+      },
+      {
+        text: "□ AB = □ AC + □ CB + 2 ▭ ACB",
+        visualStep: 30,
       },
     ],
   },
@@ -231,27 +223,35 @@ const getVisibleState = (
     movingHI: displayStep === 8 && !disablePreparationAnimations,
     horizontal:
       displayStep >= 9 || (disablePreparationAnimations && displayStep >= 8),
-    parallelogramFills: displayStep === 16,
-    rightAngles: displayStep === 9 || displayStep === 17,
-    equalSides: displayStep === 10 || displayStep === 18,
-    equalSegmentPairs: displayStep === 21,
-    equalSegmentQuartet: displayStep === 22,
-    labeledTopBisectedAngle: displayStep >= 11 && displayStep <= 13,
-    unlabeledTopBisectedAngle: displayStep === 19,
-    labeledLowerBisectedAngle: displayStep >= 12 && displayStep <= 13,
-    unlabeledLowerBisectedAngle: displayStep === 20,
-    unlabeledSquareBisectedAnglesAtB: displayStep === 19,
-    unlabeledEqualAnglesAtBAndG: displayStep === 20,
+    parallelogramFills: displayStep === 19,
+    rightAnglesV1: displayStep === 9 || displayStep === 20,
+    rightAnglesV2: displayStep === 10,
+    equalSides: displayStep === 11 || displayStep === 21,
+    equalSegmentPairs: displayStep === 25,
+    equalSegmentQuartet: displayStep === 26,
+    labeledTopBisectedAngle: displayStep >= 12 && displayStep <= 14,
+    unlabeledTopBisectedAngle: displayStep === 22,
+    labeledLowerBisectedAngle: displayStep >= 13 && displayStep <= 14,
+    unlabeledSquareBisectedAnglesAtB: displayStep === 22,
+    unlabeledEqualAnglesAtBAndG: displayStep === 23,
+    equalAngleQuartet: displayStep === 24,
     redSquare:
-      (displayStep >= 13 && displayStep <= 15) ||
-      displayStep === 23 ||
-      displayStep === 25,
+      displayStep === 14 ||
+      displayStep === 17 ||
+      displayStep === 18 ||
+      displayStep === 27 ||
+      displayStep >= 29,
     blueSquare:
-      (displayStep >= 14 && displayStep <= 15) ||
-      displayStep === 23 ||
-      displayStep === 25,
-    greenRects: displayStep === 15 || displayStep >= 24,
-    qed: displayStep === 15 || displayStep === 25,
+      displayStep === 15 ||
+      displayStep === 17 ||
+      displayStep === 18 ||
+      displayStep === 27 ||
+      displayStep >= 29,
+    greenRects:
+      displayStep === 16 ||
+      displayStep === 17 ||
+      displayStep === 18 ||
+      displayStep >= 28 ,
   };
 };
 
@@ -283,7 +283,6 @@ const StepHeader = styled.div`
 const StepInstruction = styled.div`
   display: flex;
   flex-direction: column;
-  font-style: italic;
   font-size: clamp(0.92rem, 1.5vw, 1rem);
   color: #555;
   gap: 0.5rem;

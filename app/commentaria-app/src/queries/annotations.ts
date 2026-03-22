@@ -5,6 +5,36 @@ import {
   type annotation_SearchWithin,
 } from '@hub-api'
 
+const MAX_BULK_TEI_PAGES = 25
+
+const chunkPages = (pages: string[], size: number) => {
+  const chunks: string[][] = []
+  for (let i = 0; i < pages.length; i += size) {
+    chunks.push(pages.slice(i, i + size))
+  }
+  return chunks
+}
+
+const mergeTeisXmlResponses = (responses: string[]) => {
+  const parser = new DOMParser()
+  const serializer = new XMLSerializer()
+  const merged = document.implementation.createDocument('', 'teis', null)
+  const root = merged.documentElement
+
+  responses.forEach((response) => {
+    const xml = response.trim()
+    if (!xml) return
+    const doc = parser.parseFromString(xml, 'text/xml')
+    const sourceRoot = doc.documentElement
+    if (!sourceRoot) return
+    Array.from(sourceRoot.children).forEach((child) => {
+      root.appendChild(merged.importNode(child, true))
+    })
+  })
+
+  return serializer.serializeToString(root)
+}
+
 const annotationsQueryKey = (datasetId: string) =>
   ['annotations', datasetId] as const
 
@@ -124,13 +154,20 @@ export function useAnnotationTeisQuery(
 ) {
   return useQuery({
     queryKey: ['annotations', datasetId, annotationId, 'teis', pages],
-    queryFn: () =>
-      AnnotationsService.getDatasetsAnnotationsTeis({
-        dataSetId: datasetId,
-        id: annotationId,
-        pageNumOrKey: pages,
-        fallbackToOrigin: true,
-      }),
+    queryFn: async () => {
+      const pageChunks = chunkPages(pages, MAX_BULK_TEI_PAGES)
+      const responses = await Promise.all(
+        pageChunks.map((pageNumOrKey) =>
+          AnnotationsService.getDatasetsAnnotationsTeis({
+            dataSetId: datasetId,
+            id: annotationId,
+            pageNumOrKey,
+            fallbackToOrigin: true,
+          }),
+        ),
+      )
+      return mergeTeisXmlResponses(responses)
+    },
     enabled: !!datasetId && !!annotationId && pages.length > 0 && enabled,
   })
 }

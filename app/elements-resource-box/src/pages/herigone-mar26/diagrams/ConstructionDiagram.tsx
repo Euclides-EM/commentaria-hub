@@ -1,33 +1,8 @@
 import { useCallback, useEffect, useRef } from "react";
 import styled from "@emotion/styled";
+import { type VisibleState } from "../visibleState";
 
-type VisibleState = {
-  baseLine: boolean;
-  pointC: boolean;
-  rotatingAE: boolean;
-  completingSquare: boolean;
-  outerSquare: boolean;
-  diagonal: boolean;
-  movingCF: boolean;
-  vertical: boolean;
-  movingHI: boolean;
-  horizontal: boolean;
-  parallelogramFills: boolean;
-  rightAngles: boolean;
-  equalSides: boolean;
-  equalSegmentPairs: boolean;
-  equalSegmentQuartet: boolean;
-  labeledTopBisectedAngle: boolean;
-  unlabeledTopBisectedAngle: boolean;
-  labeledLowerBisectedAngle: boolean;
-  unlabeledLowerBisectedAngle: boolean;
-  unlabeledSquareBisectedAnglesAtB: boolean;
-  unlabeledEqualAnglesAtBAndG: boolean;
-  redSquare: boolean;
-  blueSquare: boolean;
-  greenRects: boolean;
-  qed: boolean;
-};
+type ConstructionVisibleState = Omit<VisibleState, "proposition" | "qed">;
 
 const Diagram = styled.svg<{ $isReplayable: boolean }>`
   display: block;
@@ -84,7 +59,11 @@ function RightAngle({
   );
 }
 
-export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
+export function ConstructionDiagram({
+  visible,
+}: {
+  visible: ConstructionVisibleState;
+}) {
   const timeoutIdsRef = useRef<number[]>([]);
   const rotatingAETransformRef = useRef<SVGAnimateTransformElement | null>(
     null,
@@ -518,7 +497,7 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           />
         </g>
       )}
-      {visible.rightAngles && (
+      {visible.rightAnglesV1 && (
         <g>
           <RightAngle
             x="50"
@@ -532,6 +511,22 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
             fillPath="M 0 -16 L 0 0 L -16 0 L -16 -16 Z"
             strokePath="M -16 0 L -16 -16 M -16 -16 L 0 -16"
           />
+          <RightAngle
+            x="50"
+            y="350"
+            fillPath="M 0 -16 L 0 0 L 16 0 L 16 -16 Z"
+            strokePath="M 16 0 L 16 -16 M 16 -16 L 0 -16"
+          />
+          <RightAngle
+            x="350"
+            y="50"
+            fillPath="M 0 16 L 0 0 L -16 0 L -16 16 Z"
+            strokePath="M -16 0 L -16 16 M -16 16 L 0 16"
+          />
+        </g>
+      )}
+      {visible.rightAnglesV2 && (
+        <g>
           <RightAngle
             x="50"
             y="250"
@@ -694,7 +689,7 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
         <g>
           <path
             d="M 350 350 L 332 350 A 18 18 0 0 1 337.27 337.27 Z"
-            fill="rgba(255,0,0,0.16)"
+            fill="rgba(255,0,0,0.40)"
           />
           <path
             d="M 350 350 L 337.27 337.27 A 18 18 0 0 1 350 332 Z"
@@ -706,11 +701,47 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
         <g>
           <path
             d="M 350 350 L 332 350 A 18 18 0 0 1 337.27 337.27 Z"
-            fill="rgba(255,0,0,0.16)"
+            fill="rgba(0,255,0,0.40)"
+          />
+          <path
+            d="M 250 250 L 228 250 A 22 22 0 0 1 234.44 234.44 Z"
+            fill="rgba(0,255,0,0.40)"
           />
           <path
             d="M 250 250 L 250 272 A 22 22 0 0 0 265.56 265.56 Z"
-            fill="rgba(255,0,0,0.16)"
+            fill="rgba(255,0,0,0.40)"
+          />
+          <path
+            d="M 250 250 L 272 250 A 22 22 0 0 1 265.56 265.56 Z"
+            fill="rgba(0,0,255,0.40)"
+          />
+          <path
+            d="M 50 50 L 68.38 68.38 A 26 26 0 0 1 50 76 Z"
+            fill="rgba(255,0,0,0.40)"
+          />
+          <path
+            d="M 50 50 L 76 50 A 26 26 0 0 1 68.38 68.38 Z"
+            fill="rgba(0,0,255,0.40)"
+          />
+        </g>
+      )}
+      {visible.equalAngleQuartet && (
+        <g>
+          <path
+            d="M 350 350 L 332 350 A 18 18 0 0 1 337.27 337.27 Z"
+            fill="rgba(255,0,0,0.40)"
+          />
+          <path
+            d="M 250 250 L 250 272 A 22 22 0 0 0 265.56 265.56 Z"
+            fill="rgba(255,0,0,0.40)"
+          />
+          <path
+            d="M 250 250 L 228 250 A 22 22 0 0 1 234.44 234.44 Z"
+            fill="rgba(255,0,0,0.40)"
+          />
+          <path
+            d="M 50 50 L 68.38 68.38 A 26 26 0 0 1 50 76 Z"
+            fill="rgba(255,0,0,0.40)"
           />
         </g>
       )}
@@ -718,7 +749,7 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
         <g>
           <path
             d="M 50 50 L 76 50 A 26 26 0 0 1 68.38 68.38 Z"
-            fill="rgba(255,0,0,0.16)"
+            fill="rgba(255,0,0,0.40)"
           />
           <path
             d="M 50 50 L 68.38 68.38 A 26 26 0 0 1 50 76 Z"
@@ -736,7 +767,7 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
         <g>
           <path
             d="M 50 50 L 76 50 A 26 26 0 0 1 68.38 68.38 Z"
-            fill="rgba(255,0,0,0.16)"
+            fill="rgba(255,0,0,0.40)"
           />
           <path
             d="M 50 50 L 68.38 68.38 A 26 26 0 0 1 50 76 Z"
@@ -748,7 +779,7 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
         <g>
           <path
             d="M 250 250 L 228 250 A 22 22 0 0 1 234.44 234.44 Z"
-            fill="rgba(255,0,0,0.16)"
+            fill="rgba(255,0,0,0.40)"
           />
           <path
             d="M 250 250 L 234.44 234.44 A 22 22 0 0 1 250 228 Z"
@@ -760,18 +791,6 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           <text x="228" y="221" fontSize="11" fontStyle="italic" fill="#c00">
             45°
           </text>
-        </g>
-      )}
-      {visible.unlabeledLowerBisectedAngle && (
-        <g>
-          <path
-            d="M 250 250 L 228 250 A 22 22 0 0 1 234.44 234.44 Z"
-            fill="rgba(255,0,0,0.16)"
-          />
-          <path
-            d="M 50 50 L 68.38 68.38 A 26 26 0 0 1 50 76 Z"
-            fill="rgba(255,0,0,0.16)"
-          />
         </g>
       )}
       {visible.redSquare && (
@@ -795,11 +814,6 @@ export function ConstructionDiagram({ visible }: { visible: VisibleState }) {
           stroke="blue"
           strokeWidth="2"
         />
-      )}
-      {visible.qed && (
-        <text x="200" y="20" fontSize="20" textAnchor="middle" fill="#666">
-          □ AB = □ AC + □ CB + 2 ▭ ACB
-        </text>
       )}
       {visible.greenRects && (
         <g>
