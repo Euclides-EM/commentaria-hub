@@ -81,7 +81,9 @@ const getFormattedCategory = (
   featureNameById: Map<string, string>,
   shouldDeriveFromPattern: boolean,
 ) => {
-  if (!category) return 'Uncategorized'
+  if (!category) {
+    return ''
+  }
   if (!shouldDeriveFromPattern) return category
 
   const match = category.match(/^feature\.([^.]+)\.(surface|property\.(.+))$/)
@@ -246,6 +248,78 @@ export function AnnotationSearchMenu() {
       ) || null,
     [normalizedSelectedSearchWithin, searchWithinSelectOptions],
   )
+  const searchWithinSelectStyles = useMemo(() => {
+    const baseStyles = selectStyles<SearchWithinOption>({
+      controlWidth: '100%',
+    })
+
+    return {
+      ...baseStyles,
+      control: (
+        base: Parameters<NonNullable<typeof baseStyles.control>>[0],
+        state: Parameters<NonNullable<typeof baseStyles.control>>[1],
+      ) => ({
+        ...baseStyles.control?.(base, state),
+        minHeight: 28,
+        height: 28,
+        fontSize: '12px',
+        boxShadow: 'none',
+      }),
+      valueContainer: (
+        base: Parameters<NonNullable<typeof baseStyles.valueContainer>>[0],
+        state: Parameters<NonNullable<typeof baseStyles.valueContainer>>[1],
+      ) => ({
+        ...baseStyles.valueContainer?.(base, state),
+        height: 26,
+        padding: '1px 6px',
+      }),
+      singleValue: (
+        base: Parameters<NonNullable<typeof baseStyles.singleValue>>[0],
+        state: Parameters<NonNullable<typeof baseStyles.singleValue>>[1],
+      ) => ({
+        ...baseStyles.singleValue?.(base, state),
+        fontSize: '12px',
+      }),
+      input: (
+        base: Parameters<NonNullable<typeof baseStyles.input>>[0],
+        state: Parameters<NonNullable<typeof baseStyles.input>>[1],
+      ) => ({
+        ...baseStyles.input?.(base, state),
+        fontSize: '12px',
+      }),
+      indicatorsContainer: (
+        base: Parameters<NonNullable<typeof baseStyles.indicatorsContainer>>[0],
+        state: Parameters<
+          NonNullable<typeof baseStyles.indicatorsContainer>
+        >[1],
+      ) => ({
+        ...baseStyles.indicatorsContainer?.(base, state),
+        height: 26,
+      }),
+      dropdownIndicator: (
+        base: Parameters<NonNullable<typeof baseStyles.dropdownIndicator>>[0],
+        state: Parameters<NonNullable<typeof baseStyles.dropdownIndicator>>[1],
+      ) => ({
+        ...baseStyles.dropdownIndicator?.(base, state),
+        padding: '2px 4px',
+      }),
+      placeholder: (
+        base: Parameters<NonNullable<typeof baseStyles.placeholder>>[0],
+        state: Parameters<NonNullable<typeof baseStyles.placeholder>>[1],
+      ) => ({
+        ...baseStyles.placeholder?.(base, state),
+        fontSize: '12px',
+      }),
+      option: (
+        base: Parameters<NonNullable<typeof baseStyles.option>>[0],
+        state: Parameters<NonNullable<typeof baseStyles.option>>[1],
+      ) => ({
+        ...baseStyles.option?.(base, state),
+        fontSize: '12px',
+        padding: '6px 10px',
+      }),
+    }
+  }, [])
 
   const annotationSearchQuery = useAnnotationSearch(
     state.datasetId,
@@ -272,13 +346,17 @@ export function AnnotationSearchMenu() {
   }, [featureDefinitionsQuery.data])
 
   const searchWithinSelect = (
-    <div style={{ minWidth: '220px' }}>
+    <div
+      className="w-full min-w-0 max-w-full"
+      style={{ width: 'min(100%, 220px)', maxWidth: '100%' }}
+    >
       <Select<SearchWithinOption, false>
+        className="w-full min-w-0 max-w-full"
         value={selectedSearchWithinOption}
         onChange={(option) => setSelectedSearchWithin(option?.value || null)}
         options={searchWithinSelectOptions}
         placeholder="Select field..."
-        styles={selectStyles<SearchWithinOption>()}
+        styles={searchWithinSelectStyles}
         menuPortalTarget={document.body}
         menuPosition="fixed"
         isClearable={false}
@@ -312,9 +390,9 @@ export function AnnotationSearchMenu() {
             </div>
           </div>
         ) : (
-          <div className="flex gap-2 items-center">
+          <div className="flex flex-wrap gap-2 items-center">
             <SearchInput
-              className="flex-1 min-w-0"
+              className="flex-1 min-w-0 w-full"
               placeholder="Search..."
               value={searchTerm}
               onChange={(t) => {

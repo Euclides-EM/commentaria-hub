@@ -335,6 +335,31 @@ export function FeatureResultsTab() {
     URL.revokeObjectURL(url)
   }
 
+  const handleExportSql = async () => {
+    if (!datasetId || !annotationId) {
+      return
+    }
+
+    const sqlDump =
+      await FeatureResultsService.getDatasetsAnnotationsResultsSqldump({
+        dataSetId: datasetId,
+        id: annotationId,
+      })
+
+    const blob = new Blob([sqlDump], {
+      type: 'application/sql;charset=utf-8;',
+    })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+
+    link.href = url
+    link.download = `feature_results_${datasetId}_${annotationId}.sql`
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+    URL.revokeObjectURL(url)
+  }
+
   const handleJumpToPageView = (pageKey: string | null | undefined) => {
     const nextPageKey = normalizeText(pageKey)
     if (!nextPageKey) {
@@ -394,14 +419,26 @@ export function FeatureResultsTab() {
     <section className="flex-1 min-h-0 border border-gray-300 rounded-xl overflow-hidden flex flex-col bg-white m-3 mb-0 w-[calc(100%-1.5rem)] mx-auto">
       <div className="px-3 py-2 border-b border-gray-200 bg-gray-50 flex items-center justify-between gap-3">
         <div className="text-sm font-semibold">Feature Results</div>
-        <Button
-          type="button"
-          className="px-2 py-1 text-xs shrink-0"
-          onClick={handleExport}
-          disabled={sortedRows.length === 0}
-        >
-          Export CSV
-        </Button>
+        <div className="flex items-center gap-2 shrink-0">
+          <Button
+            type="button"
+            className="px-2 py-1 text-xs"
+            onClick={handleExport}
+            disabled={sortedRows.length === 0}
+          >
+            Export CSV
+          </Button>
+          <Button
+            type="button"
+            className="px-2 py-1 text-xs"
+            onClick={() => {
+              void handleExportSql()
+            }}
+            disabled={!datasetId || !annotationId}
+          >
+            Export to SQL
+          </Button>
+        </div>
       </div>
 
       <div className="flex-1 min-h-0 flex flex-col overflow-hidden p-4 gap-4">
