@@ -17,6 +17,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	tei2 "github.com/MiaMish/elements-dh/ocrflow/pkg/tei"
 	teimodel "github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/textmatch"
 	"github.com/samber/lo"
 )
 
@@ -311,15 +312,9 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 				props[k] = v
 			}
 
-			// Find *all* occurrences of surface in fullContent.
-			for from := 0; from <= len(fullContent)-len(surface); {
-				startIndex := strings.Index(fullContent[from:], surface)
-				if startIndex == -1 {
-					break
-				}
-				startIndex += from
-				endIndex := startIndex + len(surface)
-
+			for _, match := range textmatch.FindLoosePhraseMatches(fullContent, surface) {
+				startIndex := match[0]
+				endIndex := match[1]
 				startLine, startOff := globalToLineOffset(startIndex)
 				endLine, endOff := globalToLineOffset(endIndex)
 
@@ -338,8 +333,6 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 					Properties: props,
 				})
 
-				// Move forward to find the next occurrence (including overlapping matches).
-				from = startIndex + 1
 			}
 		}
 	}
