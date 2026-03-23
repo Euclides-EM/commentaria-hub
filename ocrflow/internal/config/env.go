@@ -29,7 +29,8 @@ type EnvConfig struct {
 	FacsimilesDiagramsPath  string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
 	OpenAIAPIKey            string `env:"OPENAI_API_KEY"`
 
-	SkipDiagramCropsGeneration bool `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`
+	SkipDiagramCropsGeneration bool     `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`
+	OptMigrations              []string `env:"OPT_MIGRATIONS" envDefault:""`
 }
 
 func InitEnv() (*EnvConfig, error) {
@@ -38,6 +39,17 @@ func InitEnv() (*EnvConfig, error) {
 		return nil, err
 	}
 	return &envConfig, nil
+}
+
+func (ec *EnvConfig) OptionalMigrations() []string {
+	if len(ec.OptMigrations) == 0 {
+		return nil
+	}
+	return lo.Filter(lo.Map(ec.OptMigrations, func(mig string, _ int) string {
+		return strings.TrimSpace(mig)
+	}), func(mig string, _ int) bool {
+		return mig != ""
+	})
 }
 
 func (ec *EnvConfig) ItemsMetadataStoreDir() string {

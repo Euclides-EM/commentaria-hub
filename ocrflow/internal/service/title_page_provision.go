@@ -1,6 +1,7 @@
 package service
 
 import (
+	"fmt"
 	"log"
 	"strings"
 
@@ -26,24 +27,34 @@ func NewTitlePageProvision(annotationSvc *Annotation, datasetSvc *Dataset, editi
 }
 
 func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
+	if err := p.upsertAnnotationForCorpus(titlepage.ExperimentCorpusName, titlepage.ExperimentAnnotationName); err != nil {
+		return err
+	}
+	if err := p.upsertAnnotationForCorpus(titlepage.ReviewedCorpusName, titlepage.ReviewedAnnotationName); err != nil {
+		return err
+	}
+	return nil
+}
+
+func (p *TitlePageProvision) upsertAnnotationForCorpus(corpus, annotationName string) error {
 	// verify that the basic Title Page dataset and annotation exist.
 	baseAnnotation, err := p.annotationSvc.Get(titlepage.DatasetID, titlepage.AnnotationID)
 	if err != nil {
 		return err
 	}
 
-	tpsExpEditions, err := p.editionSvc.ListEditions(func(e any) bool {
+	editions, err := p.editionSvc.ListEditions(func(e any) bool {
 		edition := e.(*model.Edition)
-		return lo.Contains(edition.Corpus, titlepage.CorpusName)
+		return lo.Contains(edition.Corpus, corpus)
 	}, nil, 0, 1000)
 	if err != nil {
 		return err
 	}
-	if tpsExpEditions.Total == 0 {
-		log.Printf("warning: no editions found in the tps_experiment corpus, skipping title page annotation provisioning")
+	if editions.Total == 0 {
+		log.Printf("warning: no editions found in the %s corpus, skipping title page annotation provisioning", corpus)
 		return nil
 	}
-	editionKeys := lo.Map(tpsExpEditions.Items, func(e *model.Edition, _ int) string {
+	editionKeys := lo.Map(editions.Items, func(e *model.Edition, _ int) string {
 		return e.Key
 	})
 
@@ -51,16 +62,16 @@ func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
 	if err != nil {
 		return err
 	}
-	tpsExperimentAnn, found := lo.Find(annotations, func(ann *annotation.Annotation) bool {
-		return ann != nil && ann.Name == titlepage.ExperimentAnnotationName
+	ann, found := lo.Find(annotations, func(ann *annotation.Annotation) bool {
+		return ann != nil && ann.Name == annotationName
 	})
 	if !found {
 		log.Printf("title page experiment annotation not found, creating it...")
-		tpsExperimentAnn, err = p.annotationSvc.Create(titlepage.DatasetID, &annotation.Annotation{
+		ann, err = p.annotationSvc.Create(titlepage.DatasetID, &annotation.Annotation{
 			Meta: common.Meta{
-				Name: titlepage.ExperimentAnnotationName,
-				Description: "Annotation used for the title page experiment. " +
-					"These annotations are automatically generated based on the metadata of the editions in the tps_experiment corpus during the server startup.",
+				Name: annotationName,
+				Description: fmt.Sprintf("Annotation used for the %s. "+
+					"These annotations are automatically generated based on the metadata of the editions in the %s corpus during the server startup.", strings.ToLower(annotationName), corpus),
 			},
 			Pages:              strings.Join(editionKeys, ","),
 			Segmented:          baseAnnotation.Segmented,
@@ -75,17 +86,17 @@ func (p *TitlePageProvision) UpdateTitlePageAnnotationsByMetadataInfo() error {
 		if err != nil {
 			return err
 		}
-		log.Printf("created title page experiment annotation with ID %s", tpsExperimentAnn.ID)
+		log.Printf("created annotation %s with ID %s", annotationName, ann.ID)
 	}
-	editionsInAnn := strings.Split(tpsExperimentAnn.Pages, ",")
+	editionsInAnn := strings.Split(ann.Pages, ",")
 	if lo.ElementsMatch(editionKeys, editionsInAnn) {
-		log.Printf("title page experiment annotation is up to date, no update needed")
+		log.Printf("%s annotation is up to date, no update needed", annotationName)
 	}
-	log.Printf("updating title page experiment annotation with new edition keys...")
-	tpsExperimentAnn.Pages = strings.Join(editionKeys, ",")
-	if _, err := p.annotationSvc.Update(titlepage.DatasetID, tpsExperimentAnn.ID, tpsExperimentAnn); err != nil {
+	log.Printf("updating %s annotation with new edition keys...", annotationName)
+	ann.Pages = strings.Join(editionKeys, ",")
+	if _, err := p.annotationSvc.Update(titlepage.DatasetID, ann.ID, ann); err != nil {
 		return err
 	}
-	log.Printf("updated title page experiment annotation with new edition keys")
+	log.Printf("updated %s annotation with new edition keys", annotationName)
 	return nil
 }

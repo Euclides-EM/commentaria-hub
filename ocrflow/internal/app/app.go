@@ -60,7 +60,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.TrainingDir(), env.ModelsDir(), env.DiagramsDir())
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
-	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow")
+	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow", env.OptionalMigrations())
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
 	}

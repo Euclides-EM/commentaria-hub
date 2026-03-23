@@ -4,5 +4,7 @@ const (
 	DatasetID                = "tps"
 	AnnotationID             = "ann_1"
 	ExperimentAnnotationName = "Title Page Experiment"
-	CorpusName               = "tps_experiment"
+	ExperimentCorpusName     = "tps_experiment"
+	ReviewedAnnotationName   = "Title Page Experiment Reviewed"
+	ReviewedCorpusName       = "tps_experiment_reviewed"
 )

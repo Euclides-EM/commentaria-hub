@@ -14,12 +14,13 @@ import (
 	"time"
 
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/samber/lo"
 )
 
 //go:embed schema_mig.sql
 var schemaSQL string
 
-func InitDB(dbPath string, migrations embed.FS, migrationsSubdir string) (*sql.DB, error) {
+func InitDB(dbPath string, migrations embed.FS, migrationsSubdir string, optMigrations []string) (*sql.DB, error) {
 	if err := initDBFile(dbPath); err != nil {
 		return nil, fmt.Errorf("failed to init DB file: %w", err)
 	}
@@ -40,7 +41,7 @@ func InitDB(dbPath string, migrations embed.FS, migrationsSubdir string) (*sql.D
 	db.SetMaxIdleConns(5)
 	db.SetConnMaxLifetime(30 * time.Minute)
 
-	if err = migrateDB(db, migrations, migrationsSubdir); err != nil {
+	if err = migrateDB(db, migrations, migrationsSubdir, optMigrations); err != nil {
 		defer db.Close()
 		return nil, fmt.Errorf("failed to migrate DB: %w", err)
 	}
@@ -71,7 +72,7 @@ func initDBFile(dbPath string) error {
 	return nil
 }
 
-func migrateDB(db *sql.DB, migrationsFS fs.FS, migrationsSubdir string) error {
+func migrateDB(db *sql.DB, migrationsFS fs.FS, migrationsSubdir string, optMigrations []string) error {
 	log.Printf("initializing schema migrations table...")
 	if _, err := db.Exec(schemaSQL); err != nil {
 		return fmt.Errorf("failed to init schema migrations table: %w", err)
@@ -86,6 +87,10 @@ func migrateDB(db *sql.DB, migrationsFS fs.FS, migrationsSubdir string) error {
 	var migrations []fs.DirEntry
 	for _, e := range entries {
 		if e.IsDir() || !strings.HasSuffix(e.Name(), ".sql") {
+			continue
+		}
+		if strings.HasSuffix(e.Name(), "_opt.sql") && !(lo.Contains(optMigrations, e.Name()) || lo.Contains(optMigrations, "*")) {
+			log.Printf("skipping optional migration %s, if you want to apply it, add it to the list of optional migrations in the config", e.Name())
 			continue
 		}
 		migrations = append(migrations, e)
