@@ -253,7 +253,7 @@ export function PageNavigation() {
       </div>
       {currentEditionKey && (
         <div className="px-3 pb-4 -mt-2">
-          <EditionDetailsTable editionId={currentEditionKey} useShortTitle />
+          <EditionDetailsTable editionId={currentEditionKey} omitTitle />
         </div>
       )}
       {showIndexPane && showSearchPane && (
