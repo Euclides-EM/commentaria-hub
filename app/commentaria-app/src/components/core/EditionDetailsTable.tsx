@@ -2,6 +2,7 @@ import { useEditionQuery } from '../../queries/editions.ts'
 
 interface EditionDetailsTableProps {
   editionId: string
+  useShortTitle?: boolean
 }
 
 interface EditionDetailRow {
@@ -35,6 +36,7 @@ const getRows = (
   edition:
     | {
         key?: string | null
+        shortTitle?: string | null
         title?: string | null
         year?: string | null
         editor?: string[] | null
@@ -43,12 +45,17 @@ const getRows = (
       }
     | null
     | undefined,
+  useShortTitle: boolean,
 ): EditionDetailRow[] => {
   if (!edition) return []
 
   const rows: EditionDetailRow[] = []
 
-  const title = normalizeString(edition.title)
+  const title = normalizeString(
+    useShortTitle
+      ? edition.shortTitle || edition.title
+      : edition.title || edition.shortTitle,
+  )
   if (title) rows.push({ key: 'Title', value: title })
 
   const year = normalizeString(edition.year)
@@ -68,9 +75,12 @@ const getRows = (
   return rows
 }
 
-export function EditionDetailsTable({ editionId }: EditionDetailsTableProps) {
+export function EditionDetailsTable({
+  editionId,
+  useShortTitle = false,
+}: EditionDetailsTableProps) {
   const editionQuery = useEditionQuery(editionId)
-  const rows = getRows(editionQuery.data)
+  const rows = getRows(editionQuery.data, useShortTitle)
   const isLoading = editionQuery.isLoading
   const resourceBoxBaseUrl = normalizeString(
     import.meta.env.VITE_RESOURCEBOX_APP_URL,
