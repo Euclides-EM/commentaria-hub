@@ -415,6 +415,7 @@ type GalleryCardBodyProps = {
   highlightConfig: TeiHighlightConfig | undefined
   visibleFeatureIdsKey: string
   showTeiLineHighlights: boolean
+  searchResultHighlight: string | null
 }
 
 function GalleryCardBody({
@@ -433,6 +434,7 @@ function GalleryCardBody({
   highlightConfig,
   visibleFeatureIdsKey,
   showTeiLineHighlights,
+  searchResultHighlight,
 }: GalleryCardBodyProps) {
   const [activeLineMatchIds, setActiveLineMatchIds] = useState<string[]>([])
   return (
@@ -457,6 +459,7 @@ function GalleryCardBody({
               key={`${teiViewMode}:${visibleFeatureIdsKey}`}
               data={teiContent}
               minCert={minCert}
+              searchResultHighlight={searchResultHighlight}
               showCertaintyVisualization={showCertaintyVisualization}
               viewMode={teiViewMode}
               viewLabel=""
@@ -610,6 +613,26 @@ export function GalleryViewTab() {
     }
     return availablePages.filter((page) => filteredPageSet.has(page))
   }, [availablePages, filteredPageSet])
+  const searchHighlightsByPage = useMemo(() => {
+    const highlights = new Map<string, string[]>()
+
+    for (const result of gallerySearchQuery.data?.results ?? []) {
+      const pageOrKey = getSearchResultPageOrKey(result)
+      if (!pageOrKey || !result.content) {
+        continue
+      }
+      const existing = highlights.get(pageOrKey) ?? []
+      existing.push(result.content)
+      highlights.set(pageOrKey, existing)
+    }
+
+    return new Map(
+      Array.from(highlights.entries()).map(([pageOrKey, contents]) => [
+        pageOrKey,
+        contents.join(' '),
+      ]),
+    )
+  }, [gallerySearchQuery.data?.results])
 
   const [viewMode, setViewMode] = useLocalStorageState<GalleryViewMode>(
     'galleryViewMode',
@@ -1137,6 +1160,9 @@ export function GalleryViewTab() {
                     highlightConfig={highlightConfig}
                     visibleFeatureIdsKey={visibleFeatureIdsKey}
                     showTeiLineHighlights={showTeiLineHighlights}
+                    searchResultHighlight={
+                      searchHighlightsByPage.get(page) ?? null
+                    }
                   />
                 </div>
               </div>

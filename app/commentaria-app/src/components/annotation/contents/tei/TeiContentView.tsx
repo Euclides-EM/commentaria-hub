@@ -156,6 +156,7 @@ const getSelectionDraft = (
 type TeiContentViewProps = {
   data: string
   minCert: number
+  searchResultHighlight?: string | null
   showCertaintyVisualization: boolean
   viewMode: TeiViewMode
   viewLabel: string
@@ -176,6 +177,7 @@ export const TeiContentView = ({
   minCert,
   showCertaintyVisualization,
   data,
+  searchResultHighlight: searchResultHighlightOverride,
   viewMode,
   viewLabel,
   showViewLabel,
@@ -190,7 +192,7 @@ export const TeiContentView = ({
   onRequestAddHighlight,
   onRequestRemoveHighlight,
 }: TeiContentViewProps) => {
-  const { searchResultHighlight } = useAppState()
+  const { searchResultHighlight: contextSearchResultHighlight } = useAppState()
   const [tooltipState, setTooltipState] = useState<TeiTooltipState | null>(null)
   const [selectionState, setSelectionState] = useState<SelectionDraft | null>(
     null,
@@ -198,6 +200,10 @@ export const TeiContentView = ({
   const hideTooltipTimerRef = useRef<number | null>(null)
   const tooltipHoveredRef = useRef(false)
   const rootRef = useRef<HTMLDivElement | null>(null)
+  const searchResultHighlight =
+    searchResultHighlightOverride === undefined
+      ? contextSearchResultHighlight
+      : searchResultHighlightOverride
 
   const clearHideTooltipTimer = () => {
     if (hideTooltipTimerRef.current == null) return
