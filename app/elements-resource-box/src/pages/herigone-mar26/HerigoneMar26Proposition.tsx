@@ -1,4 +1,4 @@
-import { useState, type WheelEvent } from "react";
+import { useRef, useState, type TouchEvent, type WheelEvent } from "react";
 import styled from "@emotion/styled";
 import { PANE_COLOR, SEA_COLOR } from "../../utils/colors";
 import { type VisibleState } from "./visibleState";
@@ -269,6 +269,7 @@ const Box = styled.div`
   color: #333;
   box-sizing: border-box;
   overflow-x: hidden;
+  touch-action: pan-y pinch-zoom;
 `;
 
 const StepHeader = styled.div`
@@ -321,6 +322,7 @@ const SectionCard = styled.div`
   border-radius: 0.45rem;
   background: #fffdfa;
   overflow: hidden;
+  touch-action: pan-y pinch-zoom;
 `;
 
 const SectionInner = styled.div`
@@ -328,6 +330,7 @@ const SectionInner = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.55rem;
+  touch-action: pan-y pinch-zoom;
 `;
 
 const HypothesisGrid = styled.div`
@@ -356,6 +359,7 @@ const DiagramFrame = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  touch-action: pan-y pinch-zoom;
 `;
 
 const Button = styled.button`
@@ -367,6 +371,7 @@ const Button = styled.button`
   min-width: 5.5rem;
   border-radius: 0.25rem;
   color: ${SEA_COLOR};
+  touch-action: pan-y pinch-zoom;
 
   &:hover:not(:disabled) {
     background: #f9f9f9;
@@ -392,8 +397,13 @@ const SectionToggle = styled.button`
   align-items: center;
   justify-content: space-between;
   text-align: left;
-  font-size: 0.98rem;
+  font-size: 1.1rem;
   font-weight: 600;
+
+  font-family:
+    "Cormorant Garamond", "EB Garamond", "Baskerville", "Palatino Linotype",
+    "Book Antiqua", serif;
+  touch-action: pan-y pinch-zoom;
 
   &:hover {
     background: #f7f1e7;
@@ -427,6 +437,7 @@ const ViewModeLabel = styled.label`
   align-items: center;
   gap: 0.35rem;
   cursor: pointer;
+  touch-action: pan-y pinch-zoom;
 `;
 
 const SequentialSteps = styled.div`
@@ -452,6 +463,12 @@ export function HerigoneMar26Proposition() {
   const [collapsedSections, setCollapsedSections] = useState<
     Record<number, boolean>
   >({});
+  const touchStateRef = useRef({
+    active: false,
+    lastY: 0,
+    totalDeltaY: 0,
+    suppressTap: false,
+  });
 
   const handleCardWheel = (event: WheelEvent<HTMLDivElement>) => {
     const scrollContainer = event.currentTarget.closest(
@@ -464,6 +481,57 @@ export function HerigoneMar26Proposition() {
 
     scrollContainer.scrollTop += event.deltaY;
   };
+
+  const handleTouchStartCapture = (event: TouchEvent<HTMLDivElement>) => {
+    if (event.touches.length !== 1) {
+      touchStateRef.current.active = false;
+      return;
+    }
+
+    touchStateRef.current = {
+      active: true,
+      lastY: event.touches[0]?.clientY ?? 0,
+      totalDeltaY: 0,
+      suppressTap: false,
+    };
+  };
+
+  const handleTouchMoveCapture = (event: TouchEvent<HTMLDivElement>) => {
+    if (!touchStateRef.current.active || event.touches.length !== 1) {
+      return;
+    }
+
+    const currentY = event.touches[0]?.clientY ?? touchStateRef.current.lastY;
+    const deltaY = currentY - touchStateRef.current.lastY;
+
+    touchStateRef.current.lastY = currentY;
+    touchStateRef.current.totalDeltaY += Math.abs(deltaY);
+
+    if (touchStateRef.current.totalDeltaY < 6) {
+      return;
+    }
+
+    const scrollContainer = event.currentTarget.closest(
+      "[data-herigone-scroll-container='true']",
+    );
+
+    if (!(scrollContainer instanceof HTMLElement)) {
+      return;
+    }
+
+    touchStateRef.current.suppressTap = true;
+    scrollContainer.scrollTop -= deltaY;
+  };
+
+  const handleTouchEndCapture = () => {
+    window.setTimeout(() => {
+      touchStateRef.current.active = false;
+      touchStateRef.current.totalDeltaY = 0;
+      touchStateRef.current.suppressTap = false;
+    }, 0);
+  };
+
+  const shouldIgnoreTap = () => touchStateRef.current.suppressTap;
 
   const openSection = (groupIndex: number) => {
     setCollapsedSections((sections) => ({
@@ -547,12 +615,16 @@ export function HerigoneMar26Proposition() {
       <SectionCard key={label}>
         <SectionToggle
           type="button"
-          onClick={() =>
+          onClick={() => {
+            if (shouldIgnoreTap()) {
+              return;
+            }
+
             setCollapsedSections((sections) => ({
               ...sections,
               [groupIndex]: !isCollapsed,
-            }))
-          }
+            }));
+          }}
         >
           <span>{label}</span>
           <span>{isCollapsed ? "+" : "-"}</span>
@@ -600,12 +672,16 @@ export function HerigoneMar26Proposition() {
                         type="radio"
                         name={`section-view-${groupIndex}`}
                         checked={isStepByStep}
-                        onChange={() =>
+                        onChange={() => {
+                          if (shouldIgnoreTap()) {
+                            return;
+                          }
+
                           setSectionViewModes((modes) => ({
                             ...modes,
                             [groupIndex]: "step-by-step",
-                          }))
-                        }
+                          }));
+                        }}
                       />
                       <span>Step by step</span>
                     </ViewModeLabel>
@@ -614,12 +690,16 @@ export function HerigoneMar26Proposition() {
                         type="radio"
                         name={`section-view-${groupIndex}`}
                         checked={!isStepByStep}
-                        onChange={() =>
+                        onChange={() => {
+                          if (shouldIgnoreTap()) {
+                            return;
+                          }
+
                           setSectionViewModes((modes) => ({
                             ...modes,
                             [groupIndex]: "sequential",
-                          }))
-                        }
+                          }));
+                        }}
                       />
                       <span>Sequential</span>
                     </ViewModeLabel>
@@ -656,26 +736,34 @@ export function HerigoneMar26Proposition() {
 
                     <SectionControls>
                       <Button
-                        onClick={() =>
+                        onClick={() => {
+                          if (shouldIgnoreTap()) {
+                            return;
+                          }
+
                           goToStep(
                             groupIndex,
                             Math.max(sectionStepNumber - 1, startStep),
-                          )
-                        }
+                          );
+                        }}
                         disabled={!canGoToPreviousStep}
                       >
                         Previous
                       </Button>
                       <Button
-                        onClick={() =>
+                        onClick={() => {
+                          if (shouldIgnoreTap()) {
+                            return;
+                          }
+
                           goToStep(
                             groupIndex,
                             sectionStepNumber >= startStep &&
                               sectionStepNumber <= endStep
                               ? Math.min(sectionStepNumber + 1, endStep)
                               : startStep,
-                          )
-                        }
+                          );
+                        }}
                         disabled={!canGoToNextStep}
                       >
                         Next
@@ -716,7 +804,13 @@ export function HerigoneMar26Proposition() {
   };
 
   return (
-    <Box onWheel={handleCardWheel}>
+    <Box
+      onWheel={handleCardWheel}
+      onTouchStartCapture={handleTouchStartCapture}
+      onTouchMoveCapture={handleTouchMoveCapture}
+      onTouchEndCapture={handleTouchEndCapture}
+      onTouchCancelCapture={handleTouchEndCapture}
+    >
       <Sections>
         {sectionRows.map((row, rowIndex) => (
           <SectionRow

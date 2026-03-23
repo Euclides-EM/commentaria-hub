@@ -21,9 +21,11 @@ const Container = styled.div`
   text-align: center;
   box-sizing: border-box;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y pinch-zoom;
 
   @media only screen and (max-width: 500px) {
-    padding: 1rem 0.75rem calc(0.9rem + env(safe-area-inset-bottom, 0px));
+    padding: 2.5rem 0.75rem calc(0.9rem + env(safe-area-inset-bottom, 0px));
     gap: clamp(0.1rem, 0.35vh, 0.3rem);
   }
 `;
@@ -41,17 +43,12 @@ const Title = styled.div`
   font-weight: bold;
 `;
 
-const SubTitle = styled.div`
-  font-size: clamp(1rem, 1.8vw, 1.15rem);
-  color: ${PANE_COLOR};
-  max-width: 90vw;
-`;
-
 const Stage = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  touch-action: pan-y pinch-zoom;
 `;
 
 const HeadingBlock = styled.div`
@@ -61,7 +58,38 @@ const HeadingBlock = styled.div`
   gap: clamp(0.15rem, 0.45vh, 0.4rem);
 `;
 
-const Credit = styled.div``;
+const Credit = styled.div`
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  color: ${PANE_COLOR};
+  font-family:
+    "Cormorant Garamond", "EB Garamond", "Baskerville", "Palatino Linotype",
+    "Book Antiqua", serif;
+`;
+
+const PropositionBox = styled.div`
+  max-width: min(76rem, 96vw);
+  padding: clamp(0.45rem, 1vw, 0.65rem) clamp(0.75rem, 1.6vw, 1rem);
+  border: 1px solid rgba(244, 231, 205, 0.7);
+  border-radius: 0.35rem;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(249, 241, 224, 0.18) 0%,
+      rgba(249, 241, 224, 0.08) 100%
+    ),
+    rgba(14, 58, 74, 0.2);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 248, 230, 0.2),
+    0 0.5rem 1.2rem rgba(0, 0, 0, 0.14);
+  color: #f5e9cf;
+  font-size: clamp(1.12rem, 2.2vw, 1.5rem);
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  font-family:
+    "Cormorant Garamond", "EB Garamond", "Baskerville", "Palatino Linotype",
+    "Book Antiqua", serif;
+  text-wrap: balance;
+`;
 
 const CardSlot = styled.div`
   width: 100%;
@@ -76,12 +104,12 @@ export function HerigoneMar26Page() {
         <Stage>
           <HeadingBlock>
             <Title>Hérigone, Book II.4</Title>
-            <SubTitle>
+            <Credit>Mia Joskowicz, March 2026</Credit>
+            <PropositionBox>
               If a straight line is cut in whatever way one wishes: the square
               of the whole is equal to the squares of the parts, and to twice
               the rectangle contained under those same parts.
-            </SubTitle>
-            <Credit>Mia Joskowicz, March 2026</Credit>
+            </PropositionBox>
             <Spacer />
             <Spacer size="sm" />
           </HeadingBlock>
