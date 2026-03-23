@@ -251,7 +251,7 @@ const getVisibleState = (
       displayStep === 16 ||
       displayStep === 17 ||
       displayStep === 18 ||
-      displayStep >= 28 ,
+      displayStep >= 28,
   };
 };
 

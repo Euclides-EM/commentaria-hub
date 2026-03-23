@@ -1,5 +1,12 @@
 import styled from "@emotion/styled";
 
+const neutralStroke = "#6b7280";
+const firstAccentStroke = "#b91c1c";
+const secondAccentStroke = "#1d4ed8";
+const neutralStrokeWidth = 1.5;
+const accentStrokeWidth = 3.5;
+const smallAccentStrokeWidth = 2.75;
+
 const Diagram = styled.svg`
   display: block;
   background: #fff;
@@ -40,35 +47,42 @@ export function PropositionDiagram() {
         width="300"
         height="300"
         fill="none"
-        stroke="black"
-        strokeWidth="2"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
       />
       <line
         x1="24"
         y1="340"
         x2="24"
         y2="140"
-        stroke="#cc241d"
-        strokeWidth="3"
+        stroke={firstAccentStroke}
+        strokeWidth={accentStrokeWidth}
       />
-      <line x1="24" y1="140" x2="24" y2="40" stroke="#268bd2" strokeWidth="3" />
+      <line
+        x1="24"
+        y1="140"
+        x2="24"
+        y2="40"
+        stroke={secondAccentStroke}
+        strokeWidth={accentStrokeWidth}
+      />
       <line
         x1="24"
         y1="340"
         x2="224"
         y2="340"
-        stroke="#cc241d"
-        strokeWidth="3"
+        stroke={firstAccentStroke}
+        strokeWidth={accentStrokeWidth}
       />
       <line
         x1="224"
         y1="340"
         x2="324"
         y2="340"
-        stroke="#268bd2"
-        strokeWidth="3"
+        stroke={secondAccentStroke}
+        strokeWidth={accentStrokeWidth}
       />
-      <circle cx="224" cy="340" r="4" fill="#c00" />
+      <circle cx="224" cy="340" r="4" fill={firstAccentStroke} />
       <Label x="18" y="362" textAnchor="end">
         A
       </Label>
@@ -80,23 +94,37 @@ export function PropositionDiagram() {
       </Label>
 
       <rect x="450" y="90" width="200" height="200" fill="none" />
-      <line x1="450" y1="90" x2="650" y2="90" stroke="black" strokeWidth="2" />
-      <line x1="650" y1="90" x2="650" y2="290" stroke="black" strokeWidth="2" />
+      <line
+        x1="450"
+        y1="90"
+        x2="650"
+        y2="90"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
+      />
+      <line
+        x1="650"
+        y1="90"
+        x2="650"
+        y2="290"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
+      />
       <line
         x1="450"
         y1="290"
         x2="650"
         y2="290"
-        stroke="#cc241d"
-        strokeWidth="3"
+        stroke={firstAccentStroke}
+        strokeWidth={accentStrokeWidth}
       />
       <line
         x1="450"
         y1="290"
         x2="450"
         y2="90"
-        stroke="#cc241d"
-        strokeWidth="3"
+        stroke={firstAccentStroke}
+        strokeWidth={accentStrokeWidth}
       />
       <rect x="780" y="140" width="100" height="100" fill="none" />
       <line
@@ -104,58 +132,65 @@ export function PropositionDiagram() {
         y1="140"
         x2="880"
         y2="140"
-        stroke="black"
-        strokeWidth="2"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
       />
       <line
         x1="880"
         y1="140"
         x2="880"
         y2="240"
-        stroke="black"
-        strokeWidth="2"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
       />
       <line
         x1="780"
         y1="240"
         x2="880"
         y2="240"
-        stroke="#268bd2"
-        strokeWidth="3"
+        stroke={secondAccentStroke}
+        strokeWidth={accentStrokeWidth}
       />
       <line
         x1="780"
         y1="240"
         x2="780"
         y2="140"
-        stroke="#268bd2"
-        strokeWidth="3"
+        stroke={secondAccentStroke}
+        strokeWidth={accentStrokeWidth}
       />
       <rect x="990" y="90" width="100" height="200" fill="none" />
-      <line x1="990" y1="90" x2="1090" y2="90" stroke="black" strokeWidth="2" />
+      <line
+        x1="990"
+        y1="90"
+        x2="1090"
+        y2="90"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
+      />
       <line
         x1="1090"
         y1="90"
         x2="1090"
         y2="290"
-        stroke="black"
-        strokeWidth="2"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
       />
       <line
         x1="990"
         y1="90"
         x2="990"
         y2="290"
-        stroke="#cc241d"
-        strokeWidth="2"
+        stroke={firstAccentStroke}
+        strokeWidth={smallAccentStrokeWidth}
       />
       <line
         x1="990"
         y1="290"
         x2="1090"
         y2="290"
-        stroke="#268bd2"
-        strokeWidth="2"
+        stroke={secondAccentStroke}
+        strokeWidth={smallAccentStrokeWidth}
       />
       <rect x="1170" y="90" width="100" height="200" fill="none" />
       <line
@@ -163,32 +198,32 @@ export function PropositionDiagram() {
         y1="90"
         x2="1270"
         y2="90"
-        stroke="black"
-        strokeWidth="2"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
       />
       <line
         x1="1270"
         y1="90"
         x2="1270"
         y2="290"
-        stroke="black"
-        strokeWidth="2"
+        stroke={neutralStroke}
+        strokeWidth={neutralStrokeWidth}
       />
       <line
         x1="1170"
         y1="90"
         x2="1170"
         y2="290"
-        stroke="#cc241d"
-        strokeWidth="2"
+        stroke={firstAccentStroke}
+        strokeWidth={smallAccentStrokeWidth}
       />
       <line
         x1="1170"
         y1="290"
         x2="1270"
         y2="290"
-        stroke="#268bd2"
-        strokeWidth="2"
+        stroke={secondAccentStroke}
+        strokeWidth={smallAccentStrokeWidth}
       />
 
       <text x="388" y="196" fontSize="34" textAnchor="middle" fill="#666">
