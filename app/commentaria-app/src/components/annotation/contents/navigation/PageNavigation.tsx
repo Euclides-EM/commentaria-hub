@@ -7,7 +7,6 @@ import useLocalStorageState from 'use-local-storage-state'
 import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
-import { TITLE_PAGES_DATASET_ID } from '../../../../utils/editions.ts'
 import { expandRange } from '../../../../utils/pages.ts'
 import { useQuery } from '@tanstack/react-query'
 import { listAllEditions } from '../../../../queries/editions.ts'
@@ -31,21 +30,20 @@ const getDefaultPageOrKey = (availablePages: string[]): string => {
 
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
-  const isKeyNavigation =
-    !!annotation &&
-    (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
+  const shouldLoadImageKeys = !!annotation
   const showIndexPane = !!annotation?.segmented
   const showSearchPane =
     !!annotation && (!annotation.pages || !!annotation.ocred)
+  const isKeyNavigation = !!annotation && !annotation.pages
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
-    isKeyNavigation,
+    shouldLoadImageKeys,
     annotation?.pages ? annotation.pages.split(',') : null,
   )
   const editionsQuery = useQuery({
     queryKey: ['editions', 'all', 'items'],
     queryFn: async () => await listAllEditions(),
-    enabled: isKeyNavigation,
+    enabled: !!annotation && !annotation.pages,
     refetchOnWindowFocus: false,
   })
   const currentValue = String(state.currentPageOrKey)
@@ -81,7 +79,7 @@ export function PageNavigation() {
     if (!annotation) {
       return []
     }
-    if (annotation.pages && annotation.dataset_id !== TITLE_PAGES_DATASET_ID) {
+    if (annotation.pages) {
       const pages = parseAvailablePages(annotation)
       return [...new Set(pages)]
         .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))

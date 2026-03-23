@@ -32,7 +32,6 @@ import {
   VIEW_LABEL_MAP,
 } from '../contents/tei/teiPaneUtils.tsx'
 import type { ResolvedTeiFeature } from '../contents/tei/TeiPane.types.ts'
-import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
 import { expandRange } from '../../../utils/pages.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
@@ -317,8 +316,11 @@ function GalleryImageCard({
     [activeLineMatchIds],
   )
 
-  const showOverlay =
-    highlightMode !== 'hide' && !isImageZoomEngaged && visibleZones.length > 0
+  const showOverlay = highlightMode !== 'hide' && visibleZones.length > 0
+
+  useEffect(() => {
+    onHoverLineMatchIds([])
+  }, [imageUrl, highlightMode, onHoverLineMatchIds, surfaceZones])
 
   const handleViewportPointerMove = (
     event: React.PointerEvent<HTMLDivElement>,
@@ -362,17 +364,19 @@ function GalleryImageCard({
         onPointerMove={handleViewportPointerMove}
         onPointerLeave={() => onHoverLineMatchIds([])}
       >
-        <ImageZoom
-          key={imageUrl}
-          src={imageUrl}
-          alt="Page image"
-          zoom={String(imageZoom)}
-          width="100%"
-          height="100%"
-          className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-contain"
-        />
+        <div className="relative z-0 h-full w-full">
+          <ImageZoom
+            key={imageUrl}
+            src={imageUrl}
+            alt="Page image"
+            zoom={String(imageZoom)}
+            width="100%"
+            height="100%"
+            className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-contain"
+          />
+        </div>
         {showOverlay && (
-          <div className="absolute inset-0 z-20 pointer-events-none">
+          <div className="absolute inset-0 z-30 pointer-events-none">
             {visibleZones.map((zone) => {
               const isShown =
                 highlightMode === 'show' ||
@@ -496,17 +500,16 @@ export function GalleryViewTab() {
     setState,
   } = useAppState()
 
-  const isKeyNavigation =
-    !!annotation &&
-    (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
+  const shouldLoadImageKeys = !!annotation
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     datasetId,
-    isKeyNavigation,
+    shouldLoadImageKeys,
+    annotation?.pages ? annotation.pages.split(',') : null,
   )
 
   const availablePages = useMemo(() => {
     if (!annotation) return []
-    if (annotation.pages && annotation.dataset_id !== TITLE_PAGES_DATASET_ID) {
+    if (annotation.pages) {
       return [
         ...new Set(annotation.pages.split(',').flatMap(expandRange)),
       ].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
@@ -633,6 +636,15 @@ export function GalleryViewTab() {
       ]),
     )
   }, [gallerySearchQuery.data?.results])
+  const galleryRenderKey = useMemo(
+    () =>
+      [
+        normalizedSearch,
+        sortedSearchCategories.join('|'),
+        activeSearchWithin.join('|'),
+      ].join('::'),
+    [activeSearchWithin, normalizedSearch, sortedSearchCategories],
+  )
 
   const [viewMode, setViewMode] = useLocalStorageState<GalleryViewMode>(
     'galleryViewMode',
@@ -745,6 +757,7 @@ export function GalleryViewTab() {
     if (!ocred) return []
     return visiblePages.filter((p) => !fetchedPageSetRef.current.has(p))
   }, [JSON.stringify(visiblePages), ocred])
+  const pendingTeiPageSet = useMemo(() => new Set(pagesToFetch), [pagesToFetch])
 
   pagesToFetchRef.current = pagesToFetch
 
@@ -1145,6 +1158,7 @@ export function GalleryViewTab() {
                 </div>
                 <div className="flex-1 min-h-0 flex overflow-hidden">
                   <GalleryCardBody
+                    key={`${page}:${galleryRenderKey}`}
                     imageUrl={showImage ? getImageUrl(page) : null}
                     imageZoom={imageZoom}
                     highlightMode={highlightMode}
@@ -1152,7 +1166,7 @@ export function GalleryViewTab() {
                     sideBySide={viewMode === 'side-by-side'}
                     showText={showText}
                     teiContent={showText ? teiByPage.get(page) : undefined}
-                    isFetchingTei={teisQuery.isFetching}
+                    isFetchingTei={pendingTeiPageSet.has(page)}
                     minCert={minCert}
                     showCertaintyVisualization={showCertaintyVisualization}
                     teiViewMode={effectiveTeiViewMode}
