@@ -3,7 +3,11 @@ import useLocalStorageState from 'use-local-storage-state'
 import Select from 'react-select'
 import ImageZoom from 'react-image-zooom'
 import { useAppState } from '../../../context/useAppState.ts'
-import { useAnnotationTeisQuery } from '../../../queries/annotations.ts'
+import {
+  useAnnotationCategories,
+  useAnnotationSearch,
+  useAnnotationTeisQuery,
+} from '../../../queries/annotations.ts'
 import {
   useDatasetFeaturesQuery,
   useDatasetImageKeysQuery,
@@ -33,6 +37,13 @@ import { expandRange } from '../../../utils/pages.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
 import { DEFAULT_IMAGE_ZOOM } from '../imageZoom.ts'
+import type { annotation_SearchWithin } from '@hub-api'
+import {
+  ANNOTATION_SEARCH_CATEGORIES_KEY,
+  ANNOTATION_SEARCH_TERM_KEY,
+  ANNOTATION_SEARCH_WITHIN_KEY,
+  getSearchResultPageOrKey,
+} from '../contents/navigation/annotationSearchUtils.ts'
 
 type GalleryViewMode = 'images' | 'texts' | 'side-by-side'
 type ViewModeOption = { value: GalleryViewMode; label: string }
@@ -52,6 +63,13 @@ const HIGHLIGHT_MODE_OPTIONS: HighlightModeOption[] = [
   { value: 'hide', label: 'Hide' },
   { value: 'hover', label: 'On hover' },
   { value: 'show', label: 'Show' },
+]
+
+const annotationSearchWithinOptions: annotation_SearchWithin[] = [
+  'categories',
+  'transcription',
+  'translation',
+  'biblio_metadata',
 ]
 
 type RenderedImageRect = {
@@ -470,6 +488,7 @@ function GalleryCardBody({
 export function GalleryViewTab() {
   const {
     annotation,
+    dataset,
     state: { annotationId, datasetId, currentPageOrKey },
     setState,
   } = useAppState()
@@ -491,6 +510,106 @@ export function GalleryViewTab() {
     }
     return imageKeys.map((img) => img.key)
   }, [annotation, imageKeys])
+  const [searchTerm] = useLocalStorageState(ANNOTATION_SEARCH_TERM_KEY, {
+    defaultValue: '',
+    storageSync: false,
+  })
+  const [selectedCategories] = useLocalStorageState<string[] | null>(
+    ANNOTATION_SEARCH_CATEGORIES_KEY,
+    {
+      defaultValue: null,
+      storageSync: false,
+    },
+  )
+  const [selectedSearchWithin] = useLocalStorageState<
+    annotation_SearchWithin | annotation_SearchWithin[] | null
+  >(ANNOTATION_SEARCH_WITHIN_KEY, {
+    defaultValue: null,
+    storageSync: false,
+  })
+  const { data: categories } = useAnnotationCategories(datasetId, annotationId)
+  const normalizedSearch = searchTerm.trim()
+  const hasCategories = (categories?.length ?? 0) > 0
+  const activeSearchCategories = useMemo(() => {
+    if (!categories || categories.length === 0) {
+      return []
+    }
+    if (
+      selectedCategories == null ||
+      selectedCategories.length === categories.length
+    ) {
+      return categories
+    }
+    return selectedCategories.filter((category) =>
+      categories.includes(category),
+    )
+  }, [categories, selectedCategories])
+  const sortedSearchCategories = useMemo(
+    () => [...activeSearchCategories].sort(),
+    [activeSearchCategories],
+  )
+  const availableSearchWithinOptions = useMemo(() => {
+    return annotationSearchWithinOptions.filter((option) => {
+      if (option === 'categories') {
+        return hasCategories
+      }
+      if (option === 'transcription') {
+        return !hasCategories
+      }
+      if (option === 'biblio_metadata') {
+        return !dataset?.edition_id
+      }
+      return true
+    })
+  }, [dataset?.edition_id, hasCategories])
+  const normalizedSelectedSearchWithin = useMemo(() => {
+    const currentSelection = Array.isArray(selectedSearchWithin)
+      ? selectedSearchWithin
+      : selectedSearchWithin
+        ? [selectedSearchWithin]
+        : []
+
+    return currentSelection.find((option) =>
+      availableSearchWithinOptions.includes(option),
+    )
+  }, [availableSearchWithinOptions, selectedSearchWithin])
+  const activeSearchWithin = useMemo(
+    () =>
+      normalizedSelectedSearchWithin ? [normalizedSelectedSearchWithin] : [],
+    [normalizedSelectedSearchWithin],
+  )
+  const gallerySearchQuery = useAnnotationSearch(
+    datasetId,
+    annotationId,
+    normalizedSearch,
+    sortedSearchCategories,
+    activeSearchWithin,
+  )
+  const filteredPageSet = useMemo(() => {
+    if (
+      !normalizedSearch ||
+      gallerySearchQuery.isLoading ||
+      gallerySearchQuery.error
+    ) {
+      return null
+    }
+    return new Set(
+      (gallerySearchQuery.data?.results ?? [])
+        .map(getSearchResultPageOrKey)
+        .filter((pageOrKey): pageOrKey is string => !!pageOrKey),
+    )
+  }, [
+    gallerySearchQuery.data?.results,
+    gallerySearchQuery.error,
+    gallerySearchQuery.isLoading,
+    normalizedSearch,
+  ])
+  const filteredAvailablePages = useMemo(() => {
+    if (!filteredPageSet) {
+      return availablePages
+    }
+    return availablePages.filter((page) => filteredPageSet.has(page))
+  }, [availablePages, filteredPageSet])
 
   const [viewMode, setViewMode] = useLocalStorageState<GalleryViewMode>(
     'galleryViewMode',
@@ -550,17 +669,17 @@ export function GalleryViewTab() {
 
   useEffect(() => {
     setVisibleCount(BATCH_SIZE)
-  }, [datasetId, annotationId])
+  }, [datasetId, annotationId, filteredAvailablePages.length, normalizedSearch])
 
   const visiblePages = useMemo(
-    () => availablePages.slice(0, visibleCount),
-    [availablePages, visibleCount],
+    () => filteredAvailablePages.slice(0, visibleCount),
+    [filteredAvailablePages, visibleCount],
   )
-  const hasMore = visibleCount < availablePages.length
+  const hasMore = visibleCount < filteredAvailablePages.length
   const currentPageKey = String(currentPageOrKey)
   const currentPageIndex = useMemo(
-    () => availablePages.indexOf(currentPageKey),
-    [availablePages, currentPageKey],
+    () => filteredAvailablePages.indexOf(currentPageKey),
+    [filteredAvailablePages, currentPageKey],
   )
 
   useEffect(() => {
@@ -570,7 +689,7 @@ export function GalleryViewTab() {
       (entries) => {
         if (entries[0].isIntersecting) {
           setVisibleCount((prev) =>
-            Math.min(prev + BATCH_SIZE, availablePages.length),
+            Math.min(prev + BATCH_SIZE, filteredAvailablePages.length),
           )
         }
       },
@@ -578,17 +697,17 @@ export function GalleryViewTab() {
     )
     observer.observe(sentinel)
     return () => observer.disconnect()
-  }, [hasMore, availablePages.length])
+  }, [filteredAvailablePages.length, hasMore])
 
   useEffect(() => {
     if (currentPageIndex < 0 || currentPageIndex < visibleCount) return
     setVisibleCount((prev) =>
       Math.min(
-        availablePages.length,
+        filteredAvailablePages.length,
         Math.max(prev + BATCH_SIZE, currentPageIndex + 1),
       ),
     )
-  }, [availablePages.length, currentPageIndex, visibleCount])
+  }, [currentPageIndex, filteredAvailablePages.length, visibleCount])
 
   const fetchedPageSetRef = useRef(new Set<string>())
   const pagesToFetchRef = useRef<string[]>([])
@@ -602,7 +721,7 @@ export function GalleryViewTab() {
   const pagesToFetch = useMemo(() => {
     if (!ocred) return []
     return visiblePages.filter((p) => !fetchedPageSetRef.current.has(p))
-  }, [visiblePages, ocred])
+  }, [JSON.stringify(visiblePages), ocred])
 
   pagesToFetchRef.current = pagesToFetch
 
@@ -802,6 +921,13 @@ export function GalleryViewTab() {
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
   const lastScrolledPageRef = useRef('')
 
+  const handleOpenInPageView = (pageKey: string) => {
+    setState({
+      annotationTab: 'text',
+      currentPageOrKey: String(pageKey),
+    })
+  }
+
   useEffect(() => {
     const key = currentPageKey
     const el = cardRefs.current[key]
@@ -963,6 +1089,17 @@ export function GalleryViewTab() {
         </div>
 
         <div className="flex-1 min-h-0 overflow-auto p-3">
+          {normalizedSearch && gallerySearchQuery.isLoading && (
+            <div className="text-xs text-gray-400 mb-3">Filtering gallery…</div>
+          )}
+          {normalizedSearch &&
+            !gallerySearchQuery.isLoading &&
+            !gallerySearchQuery.error && (
+              <div className="text-xs text-gray-500 mb-3">
+                Showing {filteredAvailablePages.length} matching{' '}
+                {filteredAvailablePages.length === 1 ? 'item' : 'items'}
+              </div>
+            )}
           <div className="flex flex-wrap gap-3">
             {visiblePages.map((page) => (
               <div
@@ -978,12 +1115,7 @@ export function GalleryViewTab() {
                   <button
                     className="w-5 h-5 flex items-center justify-center border border-gray-300 rounded bg-white hover:bg-gray-100 text-xs leading-none"
                     title="Open in Page View"
-                    onClick={() =>
-                      setState({
-                        annotationTab: 'text',
-                        currentPageOrKey: page,
-                      })
-                    }
+                    onClick={() => handleOpenInPageView(page)}
                   >
                     ⤢
                   </button>
@@ -1010,6 +1142,14 @@ export function GalleryViewTab() {
               </div>
             ))}
           </div>
+          {normalizedSearch &&
+            !gallerySearchQuery.isLoading &&
+            !gallerySearchQuery.error &&
+            filteredAvailablePages.length === 0 && (
+              <div className="text-xs text-gray-400 italic">
+                No gallery items match the current search.
+              </div>
+            )}
           {hasMore && <div ref={sentinelRef} className="h-8 w-full mt-1" />}
         </div>
       </div>

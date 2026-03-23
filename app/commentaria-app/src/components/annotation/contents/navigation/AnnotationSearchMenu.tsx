@@ -14,6 +14,12 @@ import { ErrorMessage } from '../../../core/ErrorMessage'
 import { selectStyles } from '../../../../styles/selectStyles.ts'
 import type { annotation_SearchWithin, common_ALTOPart } from '@hub-api'
 import { startCase } from 'lodash'
+import {
+  ANNOTATION_SEARCH_CATEGORIES_KEY,
+  ANNOTATION_SEARCH_TERM_KEY,
+  ANNOTATION_SEARCH_WITHIN_KEY,
+  getSearchResultPageOrKey,
+} from './annotationSearchUtils.ts'
 
 const annotationSearchWithinOptions: annotation_SearchWithin[] = [
   'categories',
@@ -119,35 +125,22 @@ const getResultLocationDisplay = (result: common_ALTOPart) => {
   return null
 }
 
-const getResultJumpTarget = (
-  result: common_ALTOPart,
-): number | string | null => {
-  if (result.location?.page === '0' && result.location.text_block_id) {
-    return result.location.text_block_id
-  }
-  if (result.location?.page) {
-    const pageNumber = Number(result.location.page)
-    return Number.isNaN(pageNumber) ? result.location.page : pageNumber
-  }
-  return null
-}
-
 export function AnnotationSearchMenu() {
   const { state, dataset, jumpToPage, setSearchResultHighlight } = useAppState()
   const [searchTerm, setSearchTerm] = useLocalStorageState(
-    'annotationSearchTerm',
+    ANNOTATION_SEARCH_TERM_KEY,
     { defaultValue: '', storageSync: false },
   )
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState(searchTerm)
   const [selectedCategories, setSelectedCategories] = useLocalStorageState<
     string[] | null
-  >('annotationSearchCategories', {
+  >(ANNOTATION_SEARCH_CATEGORIES_KEY, {
     defaultValue: null,
     storageSync: false,
   })
   const [selectedSearchWithin, setSelectedSearchWithin] = useLocalStorageState<
     annotation_SearchWithin | annotation_SearchWithin[] | null
-  >('annotationSearchWithin', {
+  >(ANNOTATION_SEARCH_WITHIN_KEY, {
     defaultValue: null,
     storageSync: false,
   })
@@ -434,7 +427,7 @@ export function AnnotationSearchMenu() {
                   key={getResultKey(result, index)}
                   className="border border-gray-200 rounded-lg p-2 text-xs bg-white hover:bg-gray-50 transition-colors cursor-pointer"
                   onClick={() => {
-                    const jumpTarget = getResultJumpTarget(result)
+                    const jumpTarget = getSearchResultPageOrKey(result)
                     if (jumpTarget != null) {
                       jumpToPage(jumpTarget)
                     }

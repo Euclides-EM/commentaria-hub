@@ -8,8 +8,10 @@ import {
 import { normalizeFeatureProperties } from '../utils/featureProperties.ts'
 
 export const datasetsQueryKey = () => ['datasets'] as const
-export const datasetsImagesQueryKey = (datasetId: string) =>
-  ['datasets', datasetId, 'images'] as const
+export const datasetsImagesQueryKey = (
+  datasetId: string,
+  keys: string[] | null = null,
+) => ['datasets', datasetId, 'images', keys ?? null] as const
 
 export interface DatasetImageKey {
   key: string
@@ -41,7 +43,7 @@ export function useDatasetImageKeysQuery(
   keys: string[] | null = null,
 ) {
   return useQuery({
-    queryKey: datasetsImagesQueryKey(datasetId),
+    queryKey: datasetsImagesQueryKey(datasetId, keys),
     queryFn: async (): Promise<DatasetImageKey[]> => {
       const images = await DatasetImagesService.getDatasetsImages({
         dataSetId: datasetId,
@@ -123,7 +125,7 @@ export function useReplaceDatasetImageMutation() {
       }),
     onSuccess: (_data, variables) => {
       queryClient.invalidateQueries({
-        queryKey: datasetsImagesQueryKey(variables.datasetId),
+        queryKey: ['datasets', variables.datasetId, 'images'],
       })
     },
   })
