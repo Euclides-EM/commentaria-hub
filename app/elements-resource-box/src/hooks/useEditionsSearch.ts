@@ -21,7 +21,7 @@ const ITEM_FIELD_TO_EDITION_FIELD: Record<string, string> = {
   type: "isElements",
   languages: "languages",
   cities: "cities",
-  authors: "editor",
+  editors: "editor",
   publishers: "publisher",
   study_corpora: "corpus",
   elementsBooksExpanded: "books",

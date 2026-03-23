@@ -25,7 +25,7 @@ import {
   ScrollToTopButton,
 } from "../components/common";
 import { ItemModal } from "../components/tps/modal/ItemModal";
-import { NO_AUTHOR, NO_CITY, NO_YEAR } from "../constants";
+import { NO_EDITOR, NO_CITY, NO_YEAR } from "../constants";
 import { formatBookRanges, joinArr } from "../utils/util.ts";
 import { FaBookReader, FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { AiFillEdit } from "react-icons/ai";
@@ -229,7 +229,7 @@ const SORT_TO_SERVER_FIELD: Record<string, string> = {
   year: "year",
   cities: "cities",
   languages: "languages",
-  authors: "editor",
+  editors: "editor",
   title: "shortTitle",
   format: "format",
   volumesCount: "volumes",
@@ -554,9 +554,9 @@ export function Catalogue() {
           ),
           size: 100,
         }),
-        columnHelper.accessor("authors", {
-          header: "Authors",
-          cell: (info) => joinArr(info.getValue()) || NO_AUTHOR,
+        columnHelper.accessor("editors", {
+          header: "Editors",
+          cell: (info) => joinArr(info.getValue()) || NO_EDITOR,
           size: 160,
         }),
         showOtherColumns &&

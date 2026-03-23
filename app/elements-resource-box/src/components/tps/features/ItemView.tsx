@@ -12,7 +12,7 @@ import {
 } from "../../common.ts";
 import { openScan } from "../../../utils/dataUtils.ts";
 import { ItemModal } from "../modal/ItemModal.tsx";
-import { NO_AUTHOR, NO_CITY, NO_YEAR } from "../../../constants";
+import { NO_EDITOR, NO_CITY, NO_YEAR } from "../../../constants";
 import { joinArr, toItemImageUrl } from "../../../utils/util.ts";
 import styled from "@emotion/styled";
 
@@ -59,7 +59,7 @@ export const ItemView = memo(
     return (
       <Column id={item.key} style={{ height, width }} ref={itemRef}>
         <div style={{ zIndex: 11 }}>
-          {item.year || NO_YEAR} {joinArr(item.authors) || NO_AUTHOR},{" "}
+          {item.year || NO_YEAR} {joinArr(item.editors) || NO_EDITOR},{" "}
           {joinArr(item.cities) || NO_CITY}
           <LanguagesInfo>{joinArr(item.languages)}</LanguagesInfo>
         </div>

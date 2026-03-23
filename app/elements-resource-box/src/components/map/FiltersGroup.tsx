@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { groupBy, isNil, startCase, uniq } from "lodash";
 import { Filter, FilterValue } from "./Filter";
 import { Item, STUDY_CORPUSES } from "../../types";
-import { authorDisplayName } from "../../utils/dataUtils.ts";
+import { personDisplayName } from "../../utils/dataUtils.ts";
 import { ItemProperty } from "../../constants/itemProperties.ts";
 import styled from "@emotion/styled";
 
@@ -64,8 +64,8 @@ const optionDisplayName = (
   field: keyof Item,
   value: string | undefined | null,
 ): string => {
-  if (field === "authors" || field === "publishers") {
-    return authorDisplayName(value || "");
+  if (field === "editors" || field === "publishers") {
+    return personDisplayName(value || "");
   }
   if (field === "study_corpora") {
     return mapStudyCorpus(value || "");
@@ -151,9 +151,9 @@ export const FiltersGroup = ({
             .sort(
               config.customCompareFn ||
                 ((a, b) => {
-                  if (field === "authors" || field === "publishers") {
-                    return authorDisplayName(a as string).localeCompare(
-                      authorDisplayName(b as string),
+                  if (field === "editors" || field === "publishers") {
+                    return personDisplayName(a as string).localeCompare(
+                      personDisplayName(b as string),
                     );
                   }
                   if (typeof a === "string" && typeof b === "string") {

@@ -494,21 +494,21 @@ const getSuggestedKey = (): string => {
 
 const generateCitationWithShortTitle = (item: model_Edition): string => {
   const year = item.year || "s.d.";
-  const authors = item.editor || [];
+  const editors = item.editor || [];
 
-  const getAuthorLastName = (author: string) => {
-    return author.split(",")[0]?.trim() || author.trim();
+  const getPersonLastName = (person: string) => {
+    return person.split(",")[0]?.trim() || person.trim();
   };
 
   let citation = "";
-  if (authors.length === 0 || authors[0] === "") {
+  if (editors.length === 0 || editors[0] === "") {
     citation = `s.n. ${year}`;
-  } else if (authors.length === 1) {
-    citation = `${getAuthorLastName(authors[0])} ${year}`;
-  } else if (authors.length > 3) {
-    citation = `${getAuthorLastName(authors[0])} et al. ${year}`;
+  } else if (editors.length === 1) {
+    citation = `${getPersonLastName(editors[0])} ${year}`;
+  } else if (editors.length > 3) {
+    citation = `${getPersonLastName(editors[0])} et al. ${year}`;
   } else {
-    const lastNames = authors.map(getAuthorLastName);
+    const lastNames = editors.map(getPersonLastName);
     citation = `${lastNames.slice(0, -1).join(", ")}, and ${lastNames[lastNames.length - 1]} ${year}`;
   }
 

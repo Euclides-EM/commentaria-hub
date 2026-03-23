@@ -1,5 +1,5 @@
 import { Item } from "../types";
-import { NO_AUTHOR, NO_CITY, NO_YEAR } from "../constants";
+import { NO_EDITOR, NO_CITY, NO_YEAR } from "../constants";
 
 interface Author {
   name: string;
@@ -39,7 +39,7 @@ function formatAuthorForCitation(
   isMultiEntry: boolean = false,
 ): string {
   if (!authors || authors.length === 0) {
-    return NO_AUTHOR;
+    return NO_EDITOR;
   }
 
   if (isMultiEntry) {
@@ -57,7 +57,7 @@ function formatAuthorForCitation(
     }
     return author.lastName && author.firstName
       ? `${author.lastName}, ${author.firstName}`
-      : author.name || NO_AUTHOR;
+      : author.name || NO_EDITOR;
   }
 
   if (authors.length === 2) {
@@ -198,7 +198,7 @@ function formatCitationEntry(
   item: Item,
   isMultiEntry: boolean = false,
 ): string {
-  const authors = formatAuthorForCitation(item.authors, isMultiEntry);
+  const authors = formatAuthorForCitation(item.editors, isMultiEntry);
   const title = formatTitle(item.title || item.shortTitle);
   const volumes = formatVolumes(item.volumesCount);
   const publishers = formatPublishers(item.cities, item.publishers);
@@ -216,7 +216,7 @@ interface CitationGroup {
 
 function getAuthorSortKey(authors: string[]): string {
   if (!authors || authors.length === 0) {
-    return "zzz" + NO_AUTHOR;
+    return "zzz" + NO_EDITOR;
   }
 
   const firstAuthorName = authors[0].endsWith(" (?)")
@@ -243,14 +243,14 @@ function groupItemsByAuthor(items: Item[]): CitationGroup[] {
   const groups: Map<string, CitationGroup> = new Map();
 
   items.forEach((item) => {
-    const authorsKey = JSON.stringify(item.authors || []);
+    const authorsKey = JSON.stringify(item.editors || []);
 
     if (!groups.has(authorsKey)) {
       groups.set(authorsKey, {
         key: authorsKey,
         items: [],
-        primaryAuthor: item.authors?.[0] || NO_AUTHOR,
-        sortKey: getAuthorSortKey(item.authors),
+        primaryAuthor: item.editors?.[0] || NO_EDITOR,
+        sortKey: getAuthorSortKey(item.editors),
       });
     }
 

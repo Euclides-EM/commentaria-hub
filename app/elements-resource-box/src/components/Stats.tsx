@@ -1,4 +1,4 @@
-import { authorDisplayName } from "../utils/dataUtils.ts";
+import { personDisplayName } from "../utils/dataUtils.ts";
 import { Row, Text } from "./common.ts";
 import { useEditionsSearch } from "../hooks/useEditionsSearch.ts";
 import { MARKER_4 } from "../utils/colors.ts";
@@ -18,19 +18,19 @@ type StatsProps = {
 export const Stats = ({ verb }: StatsProps) => {
   const { items } = useEditionsSearch();
 
-  const { authorsCount, languagesCount, citiesCount } = useMemo(() => {
-    const authorsSet = new Set<string>();
+  const { editorsCount, languagesCount, citiesCount } = useMemo(() => {
+    const editorsSet = new Set<string>();
     const citiesSet = new Set<string>();
     const languagesSet = new Set<string>();
     items?.forEach((item) => {
-      item.authors?.forEach((author) =>
-        authorsSet.add(authorDisplayName(author)),
+      item.editors?.forEach((editor) =>
+        editorsSet.add(personDisplayName(editor)),
       );
       item.cities?.forEach((city) => citiesSet.add(city));
       item.languages?.forEach((language) => languagesSet.add(language));
     });
     return {
-      authorsCount: authorsSet.size,
+      editorsCount: editorsSet.size,
       citiesCount: citiesSet.size,
       languagesCount: languagesSet.size,
     };
@@ -48,8 +48,8 @@ export const Stats = ({ verb }: StatsProps) => {
         <Text size={1}>
           {verb || "Listing"} <Highlight>{items.length}</Highlight>{" "}
           {pluralize("edition", items.length)}, by{" "}
-          <Highlight>{authorsCount}</Highlight>{" "}
-          {pluralize("author", authorsCount)}, in{" "}
+          <Highlight>{editorsCount}</Highlight>{" "}
+          {pluralize("editor", editorsCount)}, in{" "}
           <Highlight>{languagesCount}</Highlight>{" "}
           {pluralize("language", languagesCount)}, from{" "}
           <Highlight>{citiesCount}</Highlight> {pluralize("city", citiesCount)}.

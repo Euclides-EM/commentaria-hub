@@ -4,10 +4,10 @@ import { FaBookReader, FaCheck, FaQuoteLeft } from "react-icons/fa";
 import { Item } from "../../../types";
 import { Row } from "../../common";
 import { ModalTextColumn } from "./ModalComponents";
-import { authorDisplayName } from "../../../utils/dataUtils";
+import { personDisplayName } from "../../../utils/dataUtils";
 import { formatBookRanges, joinArr } from "../../../utils/util";
 import { withAppBasePath } from "../../../utils/basePath";
-import { NO_AUTHOR } from "../../../constants";
+import { NO_EDITOR } from "../../../constants";
 import { LAND_COLOR } from "../../../utils/colors";
 import { TOOLTIP_SCAN } from "../../map/MapTooltips";
 import { SiMaterialdesign } from "react-icons/si";
@@ -103,19 +103,19 @@ const ActionsRow = styled.div`
   width: 100%;
 `;
 
-const getAuthorLastName = (author: string) => {
-  const displayName = authorDisplayName(author);
+const getPersonLastName = (person: string) => {
+  const displayName = personDisplayName(person);
   return displayName.split(",")[0].trim();
 };
 
 const generateCitation = (item: Item) => {
   const year = item.year || "s.d.";
-  const firstAuthor = item.authors[0];
-  if (!firstAuthor || firstAuthor === NO_AUTHOR) {
+  const firstEditor = item.editors[0];
+  if (!firstEditor || firstEditor === NO_EDITOR) {
     return `s.n. ${year}`;
   }
 
-  const lastNames = item.authors.map((a) => getAuthorLastName(a));
+  const lastNames = item.editors.map((a) => getPersonLastName(a));
   if (lastNames.length === 1) {
     return `${lastNames[0]} ${year}`;
   }
@@ -159,8 +159,8 @@ export const ItemInfo = ({
         {item.year || "s.d."}
       </Row>
       <Row justifyStart>
-        <InfoTitle>{pluralize("Author", item.authors.length)}:</InfoTitle>{" "}
-        {joinArr(item.authors) || NO_AUTHOR}
+        <InfoTitle>{pluralize("Editor", item.editors.length)}:</InfoTitle>{" "}
+        {joinArr(item.editors) || NO_EDITOR}
         <CitationButton
           copied={copied}
           onClick={() => copyCitation(item, setCopied)}

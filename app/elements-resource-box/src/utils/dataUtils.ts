@@ -35,7 +35,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         languages: (edition.languages || [])
           .map((lang) => startCase(lang.trim().toLowerCase()))
           .filter(Boolean),
-        authors: (edition.editor || [])
+        editors: (edition.editor || [])
           .map((name) => name.trim())
           .filter(Boolean),
         publishers: (edition.publisher || [])
@@ -85,11 +85,11 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
     );
 };
 
-export const authorDisplayName = (author: string) => {
-  author = author.replace("(?)", "").replace("?", "").trim();
-  const parts = author.split(/\s+/).filter(Boolean);
+export const personDisplayName = (person: string) => {
+  person = person.replace("(?)", "").replace("?", "").trim();
+  const parts = person.split(/\s+/).filter(Boolean);
   if (parts.length === 1) {
-    return author;
+    return person;
   }
 
   const separators = [

@@ -13,4 +13,4 @@ export const ItemTypes = {
 
 export const NO_CITY = "s.l.";
 export const NO_YEAR = "s.d.";
-export const NO_AUTHOR = "s.n.";
+export const NO_EDITOR = "s.n.";

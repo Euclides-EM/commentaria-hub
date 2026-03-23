@@ -86,10 +86,10 @@ export const CityDetails = ({
             <div className="gothic" title="Year">
               {item.year || item.year || "Unknown"}
             </div>
-            {item.authors.map((author) => (
-              <div title="Author" key={author}>
-                <span className="gothic">{author[0]}</span>
-                {author.substring(1)}
+            {item.editors.map((editor) => (
+              <div title="Editor" key={editor}>
+                <span className="gothic">{editor[0]}</span>
+                {editor.substring(1)}
               </div>
             ))}
           </RowTitle>

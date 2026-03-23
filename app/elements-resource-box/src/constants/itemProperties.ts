@@ -61,8 +61,8 @@ export const itemProperties: {
     }) as (a: unknown, b: unknown) => number,
     groupByJoinArray: true,
   },
-  authors: {
-    displayName: "Authors",
+  editors: {
+    displayName: "Editors",
     isArray: true,
     groupByJoinArray: true,
   },

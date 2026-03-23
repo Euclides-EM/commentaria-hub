@@ -34,7 +34,7 @@ export type Item = {
   year: string | null;
   cities: string[];
   languages: string[];
-  authors: string[];
+  editors: string[];
   publishers: string[];
   tpImageName: string | null;
   titlePageStatus: model_EditionTitlePageStatus;
