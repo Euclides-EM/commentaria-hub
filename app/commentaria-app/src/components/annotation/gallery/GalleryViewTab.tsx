@@ -365,7 +365,7 @@ function GalleryImageCard({
         onPointerMove={handleViewportPointerMove}
         onPointerLeave={() => onHoverLineMatchIds([])}
       >
-        <div className="relative z-0 h-full w-full">
+        <div className="relative z-0 h-full w-full flex items-center justify-center">
           <ImageZoom
             key={imageUrl}
             src={imageUrl}
@@ -373,7 +373,7 @@ function GalleryImageCard({
             zoom={String(imageZoom)}
             width="100%"
             height="100%"
-            className="max-h-full max-w-full w-full h-full overflow-hidden [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-contain"
+            className="max-h-full max-w-full w-full h-full overflow-hidden [&>*]:mx-auto [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-contain [&_img]:object-center"
           />
         </div>
         {showOverlay && (
