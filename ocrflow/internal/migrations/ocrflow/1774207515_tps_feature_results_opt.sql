@@ -3,7 +3,7 @@ BEGIN TRANSACTION;
 -- features;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('action_verbs', 'Verbs', 'Action verbs such as traduit (translated), commenté (commented), augmenté (expanded) that describe the role the contemporary scholar played in bringing about the work.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 1, '#954caf', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('audience', 'Intended Audience', 'Explicit mentions of the work''s intended recipients or audience.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 1, '#E4A0D8', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
-INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('base_content', 'Base Content', 'The minimal designation of the book’s main content, typically appearing at the beginning of the title page, without elaboration.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 0, '#FADADD', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
+INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('base_content', 'Base Content', 'The minimal designation of the book’s main content, typically appearing at the beginning of the title page, without elaboration.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 1, '#FADADD', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('bound_with', 'Bound With', 'Mentions of other works included in the book, such as ''Optics''.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 1, '#FFB6C1', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('content_description', 'Base Content Description', 'Additional elements extending beyond the base content, describing it or highlighting the book’s special features.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 0, 1, '#AEC6CF', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('date_in_imprint', 'Date in Imprint', 'The date of publication as it appears on the title page, typically in the form of a year.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 0, 0, '#FFDEAD', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
@@ -11,8 +11,8 @@ INSERT INTO features (id, name, description, created_at, updated_at, dataset_id,
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('dedication_in_imprint', 'Dedication in Imprint', 'Mentions of dedications to patrons or other individuals, typically found on the title page or in the preface.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 0, 1, '#D4C5F9', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('description_of_euclid', 'Euclid Description', 'Any descriptors found alongside the Euclid''s name, such as mentioning him being a mathematician.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 1, '#b0e57c', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('destination_language', 'Destination Language', 'Mentions of the target language of the edition or translation (e.g., “en François”, “in English”).', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 1, '#e59c67', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
-INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('edition_details', 'Edition Statement', 'Any information that is highlighted as relevant for this specific edition.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 0, '#FFC1CC', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
-INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('editor_description', 'Adapter Description', 'Any descriptors found alongside the adapter name, such as academic titles, ranks, or affiliations.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 0, '#FFDAB9', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
+INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('edition_details', 'Edition Statement', 'Any information that is highlighted as relevant for this specific edition.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 1, '#FFC1CC', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
+INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('editor_description', 'Adapter Description', 'Any descriptors found alongside the adapter name, such as academic titles, ranks, or affiliations.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 1, '#FFDAB9', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('editor_description_in_imprint', 'Adapter Description in Imprint', 'Any descriptors found alongside the author name, such as academic titles, ranks, or affiliations.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 0, 1, '#FFDAB9', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('editor_in_imprint', 'Adapter Attribution in Imprint', 'The name of the author as it appears on the title page, typically in the form of ''by [Author Name]''.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 0, 0, '#909fd7', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES ('editor_name', 'Adapter Attribution', 'The name of the contemporary adapter (author, editor, translator, commentator, etc.) as it appears on the title page.', '2026-03-01T15:37:08Z', '2026-03-01T15:37:08Z', 'tps', 1, 0, '#909fd7', '[]') ON CONFLICT(id) DO UPDATE SET name = excluded.name, description = excluded.description, created_at = excluded.created_at, updated_at = excluded.updated_at, dataset_id = excluded.dataset_id, is_default = excluded.is_default, is_list = excluded.is_list, color = excluded.color, properties = excluded.properties;
@@ -4739,7 +4739,7 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_London_1700', 'Explain’d');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Padua_1694', 'ACCEDUNT');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Paris_1500', 'adiecta');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Paris_1500', 'edito');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Paris_1500', 'coito');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Paris_1500', 'illustratus');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Paris_1507', 'adiecta');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Paris_1507', 'illustratus');
@@ -5205,7 +5205,7 @@ metrischen nützlichen gebrauchs, deß Cir-
 ckels Liebhabern zu gut in Teutsche
 Sprach dargegeben/');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'audience', 'ann_1', 'Oxford_1701', 'Juventutis Academicæ');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'audience', 'ann_1', 'Paris_1500', 'studentium Philosophice Parisiensis');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'audience', 'ann_1', 'Paris_1500', 'studii philosophici ceȝ Parisiis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'audience', 'ann_1', 'Paris_1507', 'studentium Philosophice Parisiensis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'audience', 'ann_1', 'Paris_1511', 'studentium Philosophice Parisiensis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'audience', 'ann_1', 'Paris_1516', 'studiosorum');
@@ -5548,7 +5548,10 @@ OMNIA');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'base_content', 'ann_1', 'Oxford_1705', 'Euclide');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'base_content', 'ann_1', 'Oxford_London_1700', 'THE ELEMENTS OF EUCLID');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'base_content', 'ann_1', 'Padua_1694', 'ELEMENTA GEOMETRIÆ PLANÆ AC SOLIDÆ');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'base_content', 'ann_1', 'Paris_1500', 'TEXtus De Sphera Iohannis de Sacro bosco');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'base_content', 'ann_1', 'Paris_1500', 'TEX
+tus De Sphe
+ra Johannis de Sa-
+cro bosco');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'base_content', 'ann_1', 'Paris_1507', 'TEXtus De Sphera Iohannis de Sacrobosco');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'base_content', 'ann_1', 'Paris_1511', 'TEXtus De Sphera Johannis de Sacrobosco');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'base_content', 'ann_1', 'Paris_1516a', 'Textus De Sphera Joannis de Sacrobosco');
@@ -6141,22 +6144,19 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1695', 'les plus belles propositions d''Archimède touchant le cercle, la sphère, le cylindre et le cône ...');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1697', 'Introduction aux Mathematiques');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Trigonometrie,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Lon-
-gimetrie,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'l’Altimetrie,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'le Nivellement,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Planimetrie,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la
-Géodésie,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Méthode des Indivisibles,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'les Sections Coniques,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Stéréometrie,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Jaugeage,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la mesure des Onglets,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'des Corps
-Annulaires,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'des Solides à arêtes courbes, concaves & convexes,');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', '& des Voutes de toutes espèces,');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Lon-gimetrie');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'l’Altimetrie');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'le Nivellement');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Planimetrie');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Géodésie');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Méthode des Indivisibles');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'les Sections Coniques');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la Stéréometrie');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'le Jaugeage');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'la mesure des Onglets');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'des Corps Annulaires');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'des Solides à arêtes courbes, concaves & convexes');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Paris_1739', 'des Voutes de toutes espèces');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Pesaro_1619', 'SCHO-LIIS ANTIQVIS');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Rome_1574', 'DE SOlidorum Regularium comparatione');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'Rome_1589', 'DE SOLIDORVM. Regularium cuiuslibet intra quodlibet compa-ratione');
@@ -6231,13 +6231,13 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'bib-109', 'Les plus belles propo-
 sitions d’Archimede');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'bound_with', 'ann_1', 'bib-109', 'l’Analyse.');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', '2L8L55', 'SEX PRIORA
-Quibus accefferunt Undecimum, & Duodecimum');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', '2L8L55', 'SEX PRIORA');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', '2L8L55', 'Quibus accefferunt Undecimum, & Duodecimum');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', '473J72', 'THE
 Six First,
 Together with the
-Eleventh and Twelfth Books
-Demonstrated after a New, Plain, and Eafie
+Eleventh and Twelfth Books');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', '473J72', 'Demonstrated after a New, Plain, and Eafie
 METHOD.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', '6XTAVU', 'OF
 GEOMETRY;
@@ -6259,8 +6259,8 @@ LATINE');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Amsterdam_1660', 'Van de Beginselen der WISKONSTEN');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Amsterdam_1662', 'Met korte verk-laringen eeniger Propositien');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Amsterdam_1672', 'Bestaende in twee Deelen');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Amsterdam_1695', 'Vervaat in 15
-Boeken, Begrijpende de Beginselen, op dewelke de gantsche Wiskonst rust, Daarom ook te recht genaamt BEGINSELEN DER WISKONST');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Amsterdam_1695', 'Vervaat in 15 Boeken');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Amsterdam_1695', 'Begrijpende de Beginselen, op dewelke de gantsche Wiskonst rust, Daarom ook te recht genaamt BEGINSELEN DER WISKONST');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Amsterdam_1697', 'Toutes les Parties les plus utiles & les plus nec-
 cessaires à un homme de Guerre, & à tous
 ceux qui se veulent perfectionner dans cette
@@ -6271,7 +6271,8 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 PLANÆ AC SOLIDÆ.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Arnhem_1603', 'prioribus sex
 Elementorum libris comprehensam Demonstratio Linealis');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Augsburg_1555', 'in welchen der operationen vnnd regulen aller gemainer rechnung, vrsach grund vnd fundament, angezaigt wirt, zü gefallen allen den, so die kunst der Rechnung liebhaben, auß dem latein ins teütsch gebracht, vnnd mit gemainen exemplen also illustrirt vnnd an tag geben, das sy ein yeder gemainer Rechner leichtlich verstehn, vnnd jme nutz machen kan');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Augsburg_1555', 'in welchen der operationen vnnd regulen aller gemainer rechnung, vrsach grund vnd fundament, angezaigt wirt, zü gefallen allen den, so die kunst der Rechnung liebhaben');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Augsburg_1555', 'auß dem latein ins teütsch gebracht, vnnd mit gemainen exemplen also illustrirt vnnd an tag geben, das sy ein yeder gemainer Rechner leichtlich verstehn, vnnd jme nutz machen kan');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'BQ96WF', 'von
 Gelehrten Sachen');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Bamberg_1677', 'Sive ABSOLUTA OMNIUM MATHEMATICARUM DISCIPLINARUM. ENCYCLOPÆDIA, In LIBROS XXVIII. digesta, Eoque Ordine disposita, ut quivis, vel mediocri præditus ingenio, totam Mathesin à primis fundamentis proprio Marte addiscere possit');
@@ -6345,7 +6346,8 @@ DEL GALILEO');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Frankfurt_1506', 'perspicacissimi');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Frankfurt_1607', 'nunc quartò editi, ac multarum rerum accessione post primam editionem locupletati');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Frankfurt_1654', 'OMNES PERSPICVIS DEMONSTRATIONIbus accuratisque scholiis illustrati');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Geneva_1610', 'Secunda, Quid autem præcipuè ad Euclidem contulerit Peletarius, id ad finem libri habes');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Geneva_1610', 'Secunda');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Geneva_1610', 'Quid autem præcipuè ad Euclidem contulerit Peletarius, id ad finem libri habes');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Geneva_1628', 'LES DEMONSTRATIONS
 DE IACQVES PELETIER
 du Mans');
@@ -6421,18 +6423,23 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1651', 'In a compendious form contracted and Demonstrated');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1654', 'commodiorem formam contracti & demonstrati');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1659', 'breviter demonstrati');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1660', 'The whole Fifteen Books compen-diously Demonstrated, Translated out of the Latin');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1660', 'The whole Fifteen Books compen-diously Demonstrated');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1660', 'Translated out of the Latin');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1661', 'In XV. Books');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1678', 'Libri XV., breviter demonstrati');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1678a', 'Novo Ordine ac Methodo
 FERE, DEMONSTRATA.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1680–81', 'CONTAIN-ING I. ARITHMETICK, as well NATURAL and DECIMAL, as in
 Species, or the Principles of ALGEBRA. II. Practical GEOMETRY, together with the first Six Books of Euclid’s ELEMENTS, as also the Eleventh and Twelfth, symbolically demonstrated. III. TRIGONOM-ETRY PLAIN and SPHERICAL. IV. COSMOGRAPHY, or a DESCRIPTION of the HEAVENS. V. NAVIGATION, or SAILING
-by a Plain or Mercator’s Chart; as also by the Arch of a Great Circle, &c. VI. The DOCTRINE of the SPHERE, grounded on the Motion of the Earth, according to the Old Pythagorean and Copernican Systeme. VII. Astronomical TABLES, with Tables of Logarithms, Natural and Artificial Sines and Tangents, and Versed Sines. VIII. A New GEOGRAPHY, or a Description of the most Eminent Countries and Coasts of the WORLD, with Maps of them, and Tables of their Latitude and Longitude, designed for the Use of the Royal Foundation of the Mathematical SCHOOL in CHRIST-HOSPITAL');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1685', 'breviter demonstrati, Libri XV');
+by a Plain or Mercator’s Chart; as also by the Arch of a Great Circle, &c. VI. The DOCTRINE of the SPHERE, grounded on the Motion of the Earth, according to the Old Pythagorean and Copernican Systeme. VII. Astronomical TABLES, with Tables of Logarithms, Natural and Artificial Sines and Tangents, and Versed Sines. VIII. A New GEOGRAPHY, or a Description of the most Eminent Countries and Coasts of the WORLD, with Maps of them, and Tables of their Latitude and Longitude');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1680–81', 'designed for the Use of the Royal Foundation of the Mathematical SCHOOL in CHRIST-HOSPITAL');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1685', 'breviter demonstrati');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1685', 'Libri XV');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1685a', 'Explained and Demonstrated in a New and most easie Method., With the USES of each PROPOSI-TION In all the Parts of the MATHEMATICKS.');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1686', 'The Whole FIFTEEN BOOKS Com- pendiously Demonstrated, Translated out of the Latin');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1687', 'Breviter demonstrati, LIBRI XV.');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1686', 'The Whole FIFTEEN BOOKS Com- pendiously Demonstrated');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1686', 'Translated out of the Latin');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1687', 'Breviter demonstrati');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1687', 'LIBRI XV.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1696', 'Explain’d, in a New, but most Easie method, Together with The Use of every Proposition through all parts of the Mathematicks');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1703', 'Explained and Demonstrated in a New and most Easy Method., With the Uses of each PROPOSI-TION In all the Parts of the MATHEMATICKS.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'London_1747', 'OF  
@@ -6463,7 +6470,8 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 DE PROGRESSV MATHESEOS ET DE Illustribus Mathematicis, Euclidis Libros XIV, Theodosii sphærica, Sectiones Conicas, Arith-meticam, Trigonometriam, Algebram, & refutationem Hyptheseon Cartesianarum');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Lübeck_and_Frankfurt_1699', 'Auff eine neue und gantz leichte Art, Zu Nutzen Allen Generalen, Ingeniern, Natur-und Warheit-Kündigern, Bau-Meistern, Künstlern und Handwerckern');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Madrid_1585', 'Traduzidas en vulgar Castellano');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Mainz_1611_1612', 'Commentaria, In Sphærica Theodosij, Sinuum, Tangentium & Secantium rationem & Canones: Tractationem triangulorum, tum rectilineorum, tum sphæricorum');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Mainz_1611_1612', 'Commentaria');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Mainz_1611_1612', 'In Sphærica Theodosij, Sinuum, Tangentium & Secantium rationem & Canones: Tractationem triangulorum, tum rectilineorum, tum sphæricorum');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Messina_1558', 'Ex traditione Maurolyci Messanensis Mathematici.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Milan_1671', 'TRATTI IN VOLGARE');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Milan_1702', 'TRATTI IN VOLGARE');
@@ -6496,7 +6504,12 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Oxford_1705', 'being the first six Elements of geometry, translated out of the Greek, with annotations and useful supplements,');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Oxford_London_1700', 'Explain’d, In a New, but most Easie Method, Together with The Use of every Proposition through all parts of the Mathematicks');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Padua_1694', 'QUIBUS ACCEDUNT SELECTA EX ARCHIMEDE THEOREMATA');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1500', 'Cum additione (quantum necessarium est) adiecta: Nouo commentario nuper edito Ad vtilitatem studentium Philosophice Parisiensis');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1500', 'cum additione
+quarum necessarium est ad-
+
+iecta: Nouo commentario nuper
+coito adutilitate studii philosophici
+ceȝ Parisiis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1507', 'TEXtus De Sphera Iohannis de Sacrobosco Cum additione (quan-tum necessarium est) adiecta: Nouo commentario nuper edito Ad vtil-itatem studentium Philosophice Parisiensis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1511', 'Cum additione (quan-
 tum necessarium est) adiecta: Nouo commentario nuper edito Ad vtil-itatem studentium Philosophice Parisiensis');
@@ -6606,7 +6619,8 @@ AVEC L’USAGE DE CHAQUE
 Proposition pour toutes les parties
 des Mathematiques');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1685', 'Qui comprennent tout ce qu’Euclide, en a enseigné');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1689', 'Qui comprend la science des Nombres & l''Algèbre, ou l''art de comparer toute sorte de grandeurs par le moyen des chiffres & des lettres., Qui comprend un corps d’Analyse, ou l’art de résoudre les Questions qu’on propose sur toutes les diverses grandeurs.');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1689', 'Qui comprend la science des Nombres & l''Algèbre, ou l''art de comparer toute sorte de grandeurs par le moyen des chiffres & des lettres.');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1689', 'Qui comprend un corps d’Analyse, ou l’art de résoudre les Questions qu’on propose sur toutes les diverses grandeurs.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Paris_1690', 'EXPLIQUEZ D’UNE MANIERE
 nouvelle & tres-facile.
 AVEC L’USAGE DE CHAQUE
@@ -6628,7 +6642,7 @@ CONTENANT non seulement ce qui est compris dans les
 Élemens d’Euclide; mais encore la Trigonometrie, la Lon-  
 gimetrie, l’Altimetrie, le Nivellement, la Planimetrie, la  
 Géodésie, la Méthode des Indivisibles, les Sections Coniques,  
-la Stéréometrie, la Jaugeage, la mesure des Onglets, des Corps  
+la Stéréometrie, le Jaugeage, la mesure des Onglets, des Corps
 Annulaires, des Solides à arêtes courbes, concaves & convexes,  
 & des Voutes de toutes espèces, & enfin tout ce qui peut con-  
 cerner la mesure des Corps & de leurs surfaces.');
@@ -6711,7 +6725,8 @@ CONTENANT
 LES SIX PREMIERS LIVRES  
 D’EUCLIDE,');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Turin_1671', 'ET METHODICVS
-MATHEMATICAE UNIVERSALIS, Quae ne dum propositionum dependentiam, sed & rerum ordinem observat. Et complectitur ea omnia, quae de quantitate tum discreta, tum continua abstracta speculari queunt.');
+MATHEMATICAE UNIVERSALIS');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Turin_1671', 'Quae ne dum propositionum dependentiam, sed & rerum ordinem observat. Et complectitur ea omnia, quae de quantitate tum discreta, tum continua abstracta speculari queunt.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'Uppsala_1642', 'EUCLIDIS
 Demonstrationum
 LIBRI SEX.');
@@ -6860,7 +6875,8 @@ dre en son esprit toutes reigles qui con-
 cernent le negoce & trafic de toutes
 sortes de marchandises, sans user d''au-
 cuns chiffres ny gettons.');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'ustc-56', 'Nouvellement mis en lumiere, Necessaire à toutes personnes curieuses.');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'ustc-56', 'Nouvellement mis en lumiere');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'ustc-56', 'Necessaire à toutes personnes curieuses');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'content_description', 'ann_1', 'ustc-57', 'TROISIESME EDITION.
 Reueuë, corrigée, & grandement augmentée, par
 D. H. P. E. M.');
@@ -7320,7 +7336,7 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'description_of_euclid', 'ann_1', 'London_1680–81', 'the first Six Books of Euclid’s ELEMENTS');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'description_of_euclid', 'ann_1', 'London_1680–81', 'as also the Eleventh and Twelfth');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'description_of_euclid', 'ann_1', 'London_1680–81', 'symbolically demonstrated');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'description_of_euclid', 'ann_1', 'Paris_1500', 'Megarensis');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'description_of_euclid', 'ann_1', 'Paris_1500', 'Megarenfis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'description_of_euclid', 'ann_1', 'Paris_1507', 'Megarensis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'description_of_euclid', 'ann_1', 'Paris_1511', 'Megarensis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'description_of_euclid', 'ann_1', 'Paris_1516', 'Megarensis');
@@ -7446,7 +7462,8 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Padua_1694', 'IN HAC NOVA EDITIONE INSERTA EST Trigonometria plana ejusdem auctoris, & Sphærica aliundè desumpta.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Paris_1532', 'nunc primum in lucem feliciter emissum.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Paris_1544', 'Recèns auctæ, & emendatæ');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Paris_1551', 'Aeditio tertia, recèns auctæ, & emendatæ');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Paris_1551', 'Aeditio tertia');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Paris_1551', 'recèns auctæ, & emendatæ');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Paris_1557a', 'nunquam antehac Graece ædita.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Paris_1557b', 'E Regia bibliotheca desumpta, ac nunc primùm Graecè & Latinè excusa');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'edition_details', 'ann_1', 'Paris_1578', 'Nouissimè collati sunt decimusseptimus & decimusoctauus, priori edi-tione quodammodo polliciti, de componendorum, inscribendorum, & conferendorum compositorum solidorum inuentis, ordine & numero absoluti.');
@@ -7586,10 +7603,9 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Ansbach_1610', 'Guntzenhu-sanum Franc. Fürstlichen Brandenb: bestalten Mathematicum, vnd Medicinæ Utriusq; Studiosum.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Antwerp_1645', 'E Societate IESV Sacerdos, patria Ornacensis in libero Comitatu Burgundiæ, & Regius Mathematicarum Professor');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Antwerp_1654', 'SOCIETATIS IESV Sacerdote & Matheseos Professore.');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Antwerp_1665', 'AVCTORE
-SOCIETATIS IESV
-
-Sacerdote & Matheseos Professore.');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Antwerp_1665', 'AVCTORE');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Antwerp_1665', 'SOCIETATIS IESV');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Antwerp_1665', 'Sacerdote & Matheseos Professore');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Antwerp_1672', 'SOCIETATIS IESV Sacerdote & Matheseos Professore.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Arnhem_1620', 'Arnh. Geldro.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Augsburg_1555', 'Mag-istrum');
@@ -7653,8 +7669,8 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Leiden_and_Amsterdam_1673', 'Matheseos Prof.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Leipzig_1577', 'Medicinæ Licentiato');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Leipzig_1607', 'D. Mathematum Professoris');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Lisbon_1735', 'POR SEU AUTHOR O PADRE
-Da mesma Companhia.');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Lisbon_1735', 'POR SEU AUTHOR O PADRE');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Lisbon_1735', 'Da mesma Companhia.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Livorno_1709', 'REGIÆ CELSITUDINIS
 FERDINANDI
 HETRURIÆ PRINCIPIS
@@ -7795,8 +7811,8 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Pisa_1658', 'in Messanensi pridem, nunc verò in Pisana Academia Matheſeos Professore.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'QX7XH4', ', M.D.
 Professor of Mathematics in the University of Glasgow.');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'RSEIPO', 'DAL REVERENDISS. PADRE ABATE
-CAMALDOLESE
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'RSEIPO', 'DAL REVERENDISS. PADRE ABATE');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'RSEIPO', 'CAMALDOLESE
 PROFESSORE DI MATTEMATICA
 NELL'' UNIVERSITA'' DI PISA');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Rome_1574', 'SOCIE-TATIS IESV.');
@@ -7849,10 +7865,10 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Venice_1585', 'Brisciano');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Venice_1586', 'per il degno professore di tal Scientie');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Venice_1586', 'Brisciano');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'WWE4ON', 'AVCTORE
-ANT.VERPIENSI,
-E SOCIETATE IESV
-Matheseos Professore.');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'WWE4ON', 'AVCTORE');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'WWE4ON', 'ANT.VERPIENSI');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'WWE4ON', 'E SOCIETATE IESV');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'WWE4ON', 'Matheseos Professore');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Wittenberg_1609', 'Mathematum Professore extraordinario in Academia Leucorea.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Wittenberg_1634', 'Mathematum Super: Professore publico in Academia Leucorea');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'editor_description', 'ann_1', 'Wittenberg_1661', 'Mathematum Super: Professore publico in Academia Leucorea');
@@ -8469,7 +8485,7 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'educational_authorities_references', 'ann_1', 'Naples_1679', 'Federici Commandini');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'educational_authorities_references', 'ann_1', 'Naples_1702', 'Federici Commandini');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'educational_authorities_references', 'ann_1', 'Padua_1694', 'ARCHIMEDE');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'educational_authorities_references', 'ann_1', 'Paris_1500', 'Boni Latensis');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'educational_authorities_references', 'ann_1', 'Paris_1500', 'Iacobi Lefranc');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'educational_authorities_references', 'ann_1', 'Paris_1507', 'Boni Latensis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'educational_authorities_references', 'ann_1', 'Paris_1511', 'Boni Latensis');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'educational_authorities_references', 'ann_1', 'Paris_1516', 'CAMPANI Galli transalpini');
@@ -8761,7 +8777,8 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Venice_1498a', 'Euclidis quartus decimus elementorum');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Venice_1505', 'elementorum libros. xiij.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Venice_1510', 'elementorum libros. xiij.');
-INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Vienna_1694', 'An-fängen Der Meß-Künst, Euclides');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Vienna_1694', 'An-fängen Der Meß-Künst');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Vienna_1694', 'Euclides');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Wittenberg_1609', 'ELEMENTORUM');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Wittenberg_1634', 'ELEMENTORUM LIBRI XIII.');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'elements_designation', 'ann_1', 'Wittenberg_1661', 'ELEMENTORUM LIBRI XIII.');
