@@ -7,12 +7,12 @@ import useLocalStorageState from 'use-local-storage-state'
 import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
-import { expandRange } from '../../../../utils/pages.ts'
-import { useQuery } from '@tanstack/react-query'
-import { listAllEditions } from '../../../../queries/editions.ts'
+import { parsePageEntries } from '../../../../utils/pages.ts'
+import { useAllEditionsQuery } from '../../../../queries/editions.ts'
 import { EditionDetailsTable } from '../../../core/EditionDetailsTable.tsx'
 import {
-  findMatchingEditionKey,
+  findMatchingImage,
+  findMatchingEditionKeyFromValues,
   hasAnnotationPages,
   TITLE_PAGES_DATASET_ID,
 } from '../../../../utils/editions.ts'
@@ -22,7 +22,7 @@ const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
     return []
   }
 
-  return annotation.pages.split(',').flatMap((p) => expandRange(p))
+  return parsePageEntries(annotation.pages)
 }
 
 const getDefaultPageOrKey = (availablePages: string[]): string => {
@@ -37,6 +37,9 @@ export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
   const isTitlePagesDataset = annotation?.dataset_id === TITLE_PAGES_DATASET_ID
   const hasPages = hasAnnotationPages(annotation)
+  const annotationPageEntries = annotation
+    ? parseAvailablePages(annotation)
+    : []
   const shouldLoadImageKeys = !!annotation
   const showIndexPane = !!annotation?.segmented
   const showSearchPane =
@@ -45,15 +48,14 @@ export function PageNavigation() {
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     shouldLoadImageKeys,
-    hasPages ? annotation!.pages!.split(',') : null,
+    annotationPageEntries.length > 0 ? annotationPageEntries : null,
   )
-  const editionsQuery = useQuery({
-    queryKey: ['editions', 'all', 'items'],
-    queryFn: async () => await listAllEditions(),
-    enabled: isKeyNavigation,
-    refetchOnWindowFocus: false,
-  })
+  const editionsQuery = useAllEditionsQuery(undefined, isKeyNavigation)
   const currentValue = String(state.currentPageOrKey)
+  const matchedImage = useMemo(
+    () => findMatchingImage(currentValue, imageKeys),
+    [currentValue, imageKeys],
+  )
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
     'indexCollapsed',
     {
@@ -86,9 +88,8 @@ export function PageNavigation() {
     if (!annotation) {
       return []
     }
-    if (hasPages) {
-      const pages = parseAvailablePages(annotation)
-      return [...new Set(pages)]
+    if (annotationPageEntries.length > 0) {
+      return [...new Set(annotationPageEntries)]
         .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
         .map((page) => ({
           value: page,
@@ -99,7 +100,7 @@ export function PageNavigation() {
       value: image.key,
       label: image.key,
     }))
-  }, [annotation, hasPages, imageKeys])
+  }, [annotation, annotationPageEntries, imageKeys])
 
   const availablePages = useMemo(
     () => availableOptions.map((option) => option.value),
@@ -109,19 +110,34 @@ export function PageNavigation() {
   const currentOption = useMemo(
     () =>
       availableOptions.find((option) => option.value === currentValue) ||
+      availableOptions.find((option) => option.value === matchedImage?.key) ||
       availableOptions.find((option) => option.label === currentValue) ||
       null,
-    [availableOptions, currentValue],
+    [availableOptions, currentValue, matchedImage?.key],
   )
 
   const currentOptionValue = currentOption?.value || currentValue
+  const editionItems = Array.isArray(editionsQuery.data)
+    ? editionsQuery.data
+    : []
   const currentEditionKey = useMemo(
     () =>
-      findMatchingEditionKey(
-        currentOptionValue,
-        (editionsQuery.data ?? []).map((item) => item.key),
+      findMatchingEditionKeyFromValues(
+        [
+          currentValue,
+          currentOptionValue,
+          matchedImage?.filename,
+          matchedImage?.key,
+        ],
+        editionItems.map((item) => item.key),
       ),
-    [currentOptionValue, editionsQuery.data],
+    [
+      currentOptionValue,
+      currentValue,
+      editionItems,
+      matchedImage?.filename,
+      matchedImage?.key,
+    ],
   )
   const currentIndex = availablePages.indexOf(currentOptionValue)
   const isFirstPage = currentIndex === 0
@@ -148,10 +164,19 @@ export function PageNavigation() {
       return
     }
 
+    if (
+      matchedImage?.key &&
+      matchedImage.key !== currentValue &&
+      availablePages.includes(matchedImage.key)
+    ) {
+      setState({ currentPageOrKey: matchedImage.key })
+      return
+    }
+
     if (availablePages.length > 0 && !availablePages.includes(currentValue)) {
       setState({ currentPageOrKey: getDefaultPageOrKey(availablePages) })
     }
-  }, [availablePages, currentOption, currentValue, setState])
+  }, [availablePages, currentOption, currentValue, matchedImage?.key, setState])
 
   useEffect(() => {
     const enteredSearchOnlyMode =

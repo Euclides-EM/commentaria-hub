@@ -12,8 +12,8 @@ import {
 } from '../queries/datasets.ts'
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useAuthStore } from '../store/authStore.ts'
-import { expandRange } from '../utils/pages.ts'
-import { hasAnnotationPages } from '../utils/editions.ts'
+import { parsePageEntries } from '../utils/pages.ts'
+import { findMatchingImage, hasAnnotationPages } from '../utils/editions.ts'
 import type {
   AnnotationTab,
   AppState,
@@ -175,26 +175,26 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     [annotations, state.annotationId],
   )
   const hasPages = hasAnnotationPages(annotation)
+  const annotationPageEntries = annotation
+    ? parsePageEntries(annotation.pages || '')
+    : []
   const shouldLoadImageKeys = !!annotation && !hasPages
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     shouldLoadImageKeys,
-    hasPages ? annotation!.pages!.split(',') : null,
+    annotationPageEntries.length > 0 ? annotationPageEntries : null,
   )
   const availablePageOrKeys = useMemo(() => {
     if (!annotation) {
       return []
     }
-    if (hasPages) {
-      const pages = (annotation.pages || '')
-        .split(',')
-        .flatMap((p) => expandRange(p))
-      return [...new Set(pages)].sort((a, b) =>
+    if (annotationPageEntries.length > 0) {
+      return [...new Set(annotationPageEntries)].sort((a, b) =>
         a.localeCompare(b, undefined, { numeric: true }),
       )
     }
     return imageKeys.map((image) => image.key)
-  }, [annotation, hasPages, imageKeys])
+  }, [annotation, annotationPageEntries, imageKeys])
 
   const refetch = useCallback(() => {
     refetchDatasets()
@@ -231,11 +231,31 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     if (availablePageOrKeys.includes(String(state.currentPageOrKey))) {
       return
     }
+    if (!hasPages) {
+      const matchedImage = findMatchingImage(
+        String(state.currentPageOrKey),
+        imageKeys,
+      )
+      if (matchedImage?.key) {
+        setQueryState((s) => ({
+          ...s,
+          currentPageOrKey: matchedImage.key,
+        }))
+        return
+      }
+    }
     setQueryState((s) => ({
       ...s,
       currentPageOrKey: getDefaultPageOrKey(availablePageOrKeys),
     }))
-  }, [annotation, availablePageOrKeys, setQueryState, state.currentPageOrKey])
+  }, [
+    annotation,
+    availablePageOrKeys,
+    hasPages,
+    imageKeys,
+    setQueryState,
+    state.currentPageOrKey,
+  ])
 
   const contextValue = useMemo<AppStateContextType>(
     () => ({

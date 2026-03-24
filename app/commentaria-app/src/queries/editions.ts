@@ -2,6 +2,8 @@ import { useQuery } from '@tanstack/react-query'
 import { EditionsService, type model_Edition } from '@hub-api'
 
 const editionQueryKey = (editionId: string) => ['editions', editionId] as const
+const allEditionsQueryKey = (filter?: Record<string, string[]>) =>
+  ['editions', 'all', 'items', filter ?? null] as const
 
 export function useEditionQuery(
   editionId: string | null | undefined,
@@ -50,4 +52,17 @@ export const listAllEditions = async (
   }
 
   return results
+}
+
+export function useAllEditionsQuery(
+  filter?: Record<string, string[]>,
+  enabled = true,
+) {
+  return useQuery({
+    queryKey: allEditionsQueryKey(filter),
+    queryFn: async () => await listAllEditions(filter),
+    enabled,
+    refetchOnWindowFocus: false,
+    staleTime: Infinity,
+  })
 }
