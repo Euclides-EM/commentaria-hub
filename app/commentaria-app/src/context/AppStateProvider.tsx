@@ -232,7 +232,10 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       return
     }
     if (!hasPages) {
-      const matchedImage = findMatchingImage(state.currentPageOrKey, imageKeys)
+      const matchedImage = findMatchingImage(
+        String(state.currentPageOrKey),
+        imageKeys,
+      )
       if (matchedImage?.key) {
         setQueryState((s) => ({
           ...s,

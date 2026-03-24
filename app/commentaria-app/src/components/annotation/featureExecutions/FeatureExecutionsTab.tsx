@@ -16,7 +16,7 @@ import { Button } from '../../core/Button.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
-import { listAllEditions } from '../../../queries/editions.ts'
+import { useAllEditionsQuery } from '../../../queries/editions.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
@@ -65,7 +65,6 @@ export function FeatureExecutionsTab() {
 
   const featuresQueryKey = ['features', 'revisions', datasetId]
   const executionsQueryKey = ['executions', datasetId]
-  const editionsQueryKey = ['editions', 'all', 'items']
 
   const featuresQuery = useQuery({
     queryKey: featuresQueryKey,
@@ -85,20 +84,16 @@ export function FeatureExecutionsTab() {
     refetchOnWindowFocus: false,
   })
 
-  const editionsQuery = useQuery({
-    queryKey: editionsQueryKey,
-    queryFn: async () => {
-      const editions = await listAllEditions({
-        titlePageStatus: ['No', 'Unknown'],
-      })
-      const map = new Map<string, model_Edition>()
-      for (const item of editions) {
-        map.set(item.key!, item)
-      }
-      return map
-    },
-    refetchOnWindowFocus: false,
+  const editionsQuery = useAllEditionsQuery({
+    titlePageStatus: ['No', 'Unknown'],
   })
+  const editionsByKey = useMemo(() => {
+    const map = new Map<string, model_Edition>()
+    for (const item of editionsQuery.data ?? []) {
+      map.set(item.key!, item)
+    }
+    return map
+  }, [editionsQuery.data])
 
   const cancelExecutionMutation = useMutation({
     mutationFn: (executionId: string) =>
@@ -376,7 +371,7 @@ export function FeatureExecutionsTab() {
                     {showExecutionEditions && (
                       <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
                         {executionKeys.map((editionKey) => {
-                          const item = editionsQuery.data?.get(editionKey)
+                          const item = editionsByKey.get(editionKey)
                           return (
                             <div
                               key={editionKey}
@@ -432,7 +427,7 @@ export function FeatureExecutionsTab() {
         onClose={() => setIsCreateModalOpen(false)}
         onSubmit={handleCreateExecution}
         features={sortedFeatures}
-        editionItems={Array.from(editionsQuery.data?.values() || [])}
+        editionItems={editionsQuery.data ?? []}
         skipIfOptions={EXECUTION_SKIP_IF_OPTIONS}
         skipIfLabels={EXECUTION_SKIP_IF_LABELS}
         loadingFeatures={featuresQuery.isLoading}

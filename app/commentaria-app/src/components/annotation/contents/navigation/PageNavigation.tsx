@@ -8,8 +8,7 @@ import { IndexMenu } from './IndexMenu.tsx'
 import { AnnotationSearchMenu } from './AnnotationSearchMenu.tsx'
 import { useDatasetImageKeysQuery } from '../../../../queries/datasets.ts'
 import { expandRange } from '../../../../utils/pages.ts'
-import { useQuery } from '@tanstack/react-query'
-import { listAllEditions } from '../../../../queries/editions.ts'
+import { useAllEditionsQuery } from '../../../../queries/editions.ts'
 import { EditionDetailsTable } from '../../../core/EditionDetailsTable.tsx'
 import {
   findMatchingImage,
@@ -48,12 +47,7 @@ export function PageNavigation() {
     shouldLoadImageKeys,
     hasPages ? annotation!.pages!.split(',') : null,
   )
-  const editionsQuery = useQuery({
-    queryKey: ['editions', 'all', 'items'],
-    queryFn: async () => await listAllEditions(),
-    enabled: isKeyNavigation,
-    refetchOnWindowFocus: false,
-  })
+  const editionsQuery = useAllEditionsQuery(undefined, isKeyNavigation)
   const currentValue = String(state.currentPageOrKey)
   const matchedImage = useMemo(
     () => findMatchingImage(currentValue, imageKeys),
@@ -121,6 +115,9 @@ export function PageNavigation() {
   )
 
   const currentOptionValue = currentOption?.value || currentValue
+  const editionItems = Array.isArray(editionsQuery.data)
+    ? editionsQuery.data
+    : []
   const currentEditionKey = useMemo(
     () =>
       findMatchingEditionKeyFromValues(
@@ -130,12 +127,12 @@ export function PageNavigation() {
           matchedImage?.filename,
           matchedImage?.key,
         ],
-        (editionsQuery.data ?? []).map((item) => item.key),
+        editionItems.map((item) => item.key),
       ),
     [
       currentOptionValue,
       currentValue,
-      editionsQuery.data,
+      editionItems,
       matchedImage?.filename,
       matchedImage?.key,
     ],

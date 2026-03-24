@@ -173,7 +173,7 @@ export function ImagePane({
     datasetId,
     isKeyNavigation,
   )
-  const matchedImage = findMatchingImage(currentPageOrKey, imageKeys)
+  const matchedImage = findMatchingImage(String(currentPageOrKey), imageKeys)
   const currentImageName = matchedImage?.key || String(currentPageOrKey)
   const highlightableZones = useMemo(
     () =>

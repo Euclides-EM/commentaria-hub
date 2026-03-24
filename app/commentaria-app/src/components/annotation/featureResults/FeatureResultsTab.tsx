@@ -10,7 +10,7 @@ import { Button } from '../../core/Button.tsx'
 import { useDatasetFeaturesQuery } from '../../../queries/datasets.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { formatEditionLabel } from '../../../utils/editions.ts'
-import { listAllEditions } from '../../../queries/editions.ts'
+import { useAllEditionsQuery } from '../../../queries/editions.ts'
 
 type FeatureOption = {
   value: string
@@ -96,11 +96,7 @@ export function FeatureResultsTab() {
     enabled: !!datasetId && !!annotationId,
     refetchOnWindowFocus: false,
   })
-  const editionsQuery = useQuery({
-    queryKey: ['editions', 'all', 'items'],
-    queryFn: async () => await listAllEditions(),
-    refetchOnWindowFocus: false,
-  })
+  const editionsQuery = useAllEditionsQuery()
 
   const featureOptions = useMemo(
     () =>
