@@ -64,9 +64,6 @@ func (fr *Revision) UpdateFeatureRevision(datasetID, featureId, revisionId strin
 }
 
 func (fr *Revision) validate(m *feature.Revision) error {
-	if m.Name == "" {
-		return errors.New("name is required")
-	}
 	if m.Prompt == "" && m.Categorizer == "" {
 		return errors.New("either prompt or categorizer is required")
 	}
