@@ -22,7 +22,11 @@ func FindLoosePhraseMatches(text string, featureValue string) [][2]int {
 
 	var pattern strings.Builder
 	for i, r := range runes {
-		pattern.WriteString(regexp.QuoteMeta(string(r)))
+		if unicode.IsPunct(r) {
+			pattern.WriteString(`[\p{P}\s-]+`)
+		} else {
+			pattern.WriteString(regexp.QuoteMeta(string(r)))
+		}
 		if i < len(runes)-1 {
 			pattern.WriteString(`(?:[\s-])*`)
 		}

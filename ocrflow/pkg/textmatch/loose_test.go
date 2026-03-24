@@ -39,6 +39,18 @@ func TestFindLoosePhraseMatches(t *testing.T) {
 			featureValue: " - \n ",
 			want:         nil,
 		},
+		{
+			name:         "matches ' to ’ and other punctuation variations",
+			text:         "THE\nELEMENTS\nOF\nEUCLID\nExplain’d,\nIn a New, but most Easie Method:\nTogether with The Use of every Proposition through\nall parts of the Mathematicks.\nWritten in French, by that Excellent\nMathematician,\nF. CLAUD. FRANCIS MILLIET de CHALES,\nof the Society of JESUS.\nNow made English, and a multitude of Errors Corrected, which\nhad escap’d in the Original.\nThe Third Edition.\nOXFORD,\nPrinted by L.L. for M. Gillyflower at the Spread-Eagle in West-\nminster-Hall, and W. Freeman at the Bible over-against the\nMiddle-Temple-Gate, in Fleet-street, 1700.",
+			featureValue: "Explain'd",
+			want:         []string{"Explain’d"},
+		},
+		{
+			name:         "matches long phrase with various whitespace and punctuation",
+			text:         "THE\nELEMENTS\nOF\nEUCLID\nExplain’d,\nIn a New, but most Easie Method:\nTogether with The Use of every Proposition through\nall parts of the Mathematicks.\nWritten in French, by that Excellent\nMathematician,\nF. CLAUD. FRANCIS MILLIET de CHALES,\nof the Society of JESUS.\nNow made English, and a multitude of Errors Corrected, which\nhad escap’d in the Original.\nThe Third Edition.\nOXFORD,\nPrinted by L.L. for M. Gillyflower at the Spread-Eagle in West-\nminster-Hall, and W. Freeman at the Bible over-against the\nMiddle-Temple-Gate, in Fleet-street, 1700.",
+			featureValue: "Explain'd, In a New, but most Easie Method, Together with The Use of every Proposition through all parts of the Mathematicks",
+			want:         []string{"Explain’d,\nIn a New, but most Easie Method:\nTogether with The Use of every Proposition through\nall parts of the Mathematicks"},
+		},
 	}
 
 	for _, tt := range tests {

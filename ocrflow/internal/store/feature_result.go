@@ -784,14 +784,10 @@ func dumpFeatureResultValues(tx *sql.Tx, dataSetId, annotationId string, keys []
 	}
 
 	// delete existing values for all relevant parent rows first
-	for _, k := range keys {
-		b = append(b, fmt.Sprintf(`DELETE FROM feature_result_values WHERE dataset_id = %s AND feature_id = %s AND annotation_id = %s AND page_key = %s`,
-			sqlString(dataSetId),
-			sqlString(k.FeatureID),
-			sqlString(annotationId),
-			sqlString(k.PageKey),
-		))
-	}
+	b = append(b, fmt.Sprintf(`DELETE FROM feature_result_values WHERE dataset_id = %s AND annotation_id = %s`,
+		sqlString(dataSetId),
+		sqlString(annotationId),
+	))
 
 	rows, err := tx.Query(`
 SELECT

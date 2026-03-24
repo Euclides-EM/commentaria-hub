@@ -310,7 +310,11 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 				props[k] = v
 			}
 
-			for _, match := range textmatch.FindLoosePhraseMatches(fullContent, surface) {
+			matches := textmatch.FindLoosePhraseMatches(fullContent, surface)
+			if len(matches) == 0 {
+				log.Printf("warning: no matches found for result, skipping: featurd=%s key=%s dataset=%s", res.FeatureID, res.PageKey, res.DatasetID)
+			}
+			for _, match := range matches {
 				startIndex := match[0]
 				endIndex := match[1]
 				startLine, startOff := globalToLineOffset(startIndex)
