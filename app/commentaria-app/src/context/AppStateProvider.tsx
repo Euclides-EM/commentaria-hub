@@ -13,7 +13,7 @@ import {
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useAuthStore } from '../store/authStore.ts'
 import { expandRange } from '../utils/pages.ts'
-import { TITLE_PAGES_DATASET_ID } from '../utils/editions.ts'
+import { hasAnnotationPages } from '../utils/editions.ts'
 import type {
   AnnotationTab,
   AppState,
@@ -174,28 +174,25 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       ) || null,
     [annotations, state.annotationId],
   )
-  const isTitlePagesDataset = annotation?.dataset_id === TITLE_PAGES_DATASET_ID
-  const shouldLoadImageKeys =
-    !!annotation && (isTitlePagesDataset || !annotation.pages)
+  const hasPages = hasAnnotationPages(annotation)
+  const shouldLoadImageKeys = !!annotation && !hasPages
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     shouldLoadImageKeys,
-    annotation?.pages && !isTitlePagesDataset
-      ? annotation.pages.split(',')
-      : null,
+    hasPages ? annotation!.pages!.split(',') : null,
   )
   const availablePageOrKeys = useMemo(() => {
     if (!annotation) {
       return []
     }
-    if (annotation.pages && !isTitlePagesDataset) {
+    if (hasPages) {
       const pages = annotation.pages.split(',').flatMap((p) => expandRange(p))
       return [...new Set(pages)].sort((a, b) =>
         a.localeCompare(b, undefined, { numeric: true }),
       )
     }
     return imageKeys.map((image) => image.key)
-  }, [annotation, imageKeys, isTitlePagesDataset])
+  }, [annotation, hasPages, imageKeys])
 
   const refetch = useCallback(() => {
     refetchDatasets()

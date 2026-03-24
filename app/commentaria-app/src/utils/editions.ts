@@ -1,3 +1,5 @@
+import type { annotation_Annotation } from '@hub-api'
+
 export const TITLE_PAGES_DATASET_ID = 'tps'
 
 const IMAGE_KEY_EXTENSION_PATTERN = /\.(png|jpe?g|tiff?|gif|webp)$/i
@@ -55,6 +57,10 @@ export const findMatchingEditionKey = (
 
   return null
 }
+
+export const hasAnnotationPages = (
+  annotation: Pick<annotation_Annotation, 'pages'> | null | undefined,
+): boolean => Boolean(annotation?.pages?.trim())
 
 export const formatEditionLabel = (item: EditionDisplayInfo) => {
   const details = [

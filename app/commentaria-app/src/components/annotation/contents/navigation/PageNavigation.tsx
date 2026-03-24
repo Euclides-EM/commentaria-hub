@@ -13,6 +13,7 @@ import { listAllEditions } from '../../../../queries/editions.ts'
 import { EditionDetailsTable } from '../../../core/EditionDetailsTable.tsx'
 import {
   findMatchingEditionKey,
+  hasAnnotationPages,
   TITLE_PAGES_DATASET_ID,
 } from '../../../../utils/editions.ts'
 
@@ -35,19 +36,16 @@ const getDefaultPageOrKey = (availablePages: string[]): string => {
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
   const isTitlePagesDataset = annotation?.dataset_id === TITLE_PAGES_DATASET_ID
+  const hasPages = hasAnnotationPages(annotation)
   const shouldLoadImageKeys = !!annotation
   const showIndexPane = !!annotation?.segmented
   const showSearchPane =
-    !!annotation &&
-    (isTitlePagesDataset || !annotation.pages || !!annotation.ocred)
-  const isKeyNavigation =
-    !!annotation && (isTitlePagesDataset || !annotation.pages)
+    !!annotation && (isTitlePagesDataset || !hasPages || !!annotation.ocred)
+  const isKeyNavigation = !!annotation && !hasPages
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     shouldLoadImageKeys,
-    annotation?.pages && !isTitlePagesDataset
-      ? annotation.pages.split(',')
-      : null,
+    hasPages ? annotation!.pages!.split(',') : null,
   )
   const editionsQuery = useQuery({
     queryKey: ['editions', 'all', 'items'],
@@ -88,7 +86,7 @@ export function PageNavigation() {
     if (!annotation) {
       return []
     }
-    if (annotation.pages && !isTitlePagesDataset) {
+    if (hasPages) {
       const pages = parseAvailablePages(annotation)
       return [...new Set(pages)]
         .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
@@ -101,7 +99,7 @@ export function PageNavigation() {
       value: image.key,
       label: image.key,
     }))
-  }, [annotation, imageKeys, isTitlePagesDataset])
+  }, [annotation, hasPages, imageKeys])
 
   const availablePages = useMemo(
     () => availableOptions.map((option) => option.value),

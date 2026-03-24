@@ -26,7 +26,7 @@ import { MultiSelectDropdown } from '../core/MultiSelectDropdown'
 import { SearchInput } from '../core/SearchInput'
 import { Timestamp } from '../core/Timestamp'
 import useLocalStorageState from 'use-local-storage-state'
-import { TITLE_PAGES_DATASET_ID } from '../../utils/editions.ts'
+import { hasAnnotationPages } from '../../utils/editions.ts'
 import { useAuthStore } from '../../store/authStore'
 
 type AnnotationRow = {
@@ -615,9 +615,7 @@ export function AnnotationsTable() {
         {row.annotation.ground_truth ? 'Yes' : 'No'}
       </td>
       <td className="px-4 py-3 text-gray-700 w-full">
-        {row.annotation.dataset_id === TITLE_PAGES_DATASET_ID
-          ? '-'
-          : row.annotation.pages || '-'}
+        {hasAnnotationPages(row.annotation) ? row.annotation.pages : '-'}
       </td>
       <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
         <Timestamp
