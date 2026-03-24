@@ -21,6 +21,7 @@ import { useEditionsSearchInfinite } from "../hooks/useEditionsSearch.ts";
 import { feature_Feature } from "@hub-api";
 import { FeaturesService } from "@hub-api";
 import { MultiSelect } from "../components/tps/filters/MultiSelect.tsx";
+import { Radio } from "../components/tps/filters/Radio.tsx";
 import { ItemView } from "../components/tps/features/ItemView.tsx";
 import { ItemModal } from "../components/tps/modal/ItemModal.tsx";
 import type { Item } from "../types";
@@ -44,6 +45,10 @@ export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
     string[]
   >("tp-features", {
     defaultValue: [],
+    storageSync: false,
+  });
+  const [mode, setMode] = useLocalStorageState<Mode>("tp-mode", {
+    defaultValue: titlePagesModeOn ? "texts" : "images",
     storageSync: false,
   });
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
@@ -120,8 +125,13 @@ export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
       ),
     [featureNameById],
   );
-  const mode: Mode = titlePagesModeOn ? "texts" : "images";
   useAutoOpenEditionFromQuery(items, setSelectedItem);
+
+  useEffect(() => {
+    if (!titlePagesModeOn && mode === "texts") {
+      setMode("images");
+    }
+  }, [mode, setMode, titlePagesModeOn]);
 
   useEffect(() => {
     if (availableFeatures.length === 0) {
@@ -218,6 +228,12 @@ export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
         <Stats />
         {titlePagesModeOn && (
           <>
+            <Radio
+              name="Show"
+              options={["Texts", "Images"]}
+              value={mode === "images"}
+              onChange={(value) => setMode(value ? "images" : "texts")}
+            />
             <Row justifyStart noWrap>
               <Column alignItems="end">
                 <span>Highlight Segments:</span>
