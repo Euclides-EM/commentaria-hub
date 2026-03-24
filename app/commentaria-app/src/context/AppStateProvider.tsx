@@ -13,7 +13,7 @@ import {
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useAuthStore } from '../store/authStore.ts'
 import { expandRange } from '../utils/pages.ts'
-import { hasAnnotationPages } from '../utils/editions.ts'
+import { findMatchingImage, hasAnnotationPages } from '../utils/editions.ts'
 import type {
   AnnotationTab,
   AppState,
@@ -231,11 +231,28 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     if (availablePageOrKeys.includes(String(state.currentPageOrKey))) {
       return
     }
+    if (!hasPages) {
+      const matchedImage = findMatchingImage(state.currentPageOrKey, imageKeys)
+      if (matchedImage?.key) {
+        setQueryState((s) => ({
+          ...s,
+          currentPageOrKey: matchedImage.key,
+        }))
+        return
+      }
+    }
     setQueryState((s) => ({
       ...s,
       currentPageOrKey: getDefaultPageOrKey(availablePageOrKeys),
     }))
-  }, [annotation, availablePageOrKeys, setQueryState, state.currentPageOrKey])
+  }, [
+    annotation,
+    availablePageOrKeys,
+    hasPages,
+    imageKeys,
+    setQueryState,
+    state.currentPageOrKey,
+  ])
 
   const contextValue = useMemo<AppStateContextType>(
     () => ({

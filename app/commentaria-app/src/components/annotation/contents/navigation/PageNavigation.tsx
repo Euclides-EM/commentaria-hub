@@ -12,7 +12,8 @@ import { useQuery } from '@tanstack/react-query'
 import { listAllEditions } from '../../../../queries/editions.ts'
 import { EditionDetailsTable } from '../../../core/EditionDetailsTable.tsx'
 import {
-  findMatchingEditionKey,
+  findMatchingImage,
+  findMatchingEditionKeyFromValues,
   hasAnnotationPages,
   TITLE_PAGES_DATASET_ID,
 } from '../../../../utils/editions.ts'
@@ -54,6 +55,10 @@ export function PageNavigation() {
     refetchOnWindowFocus: false,
   })
   const currentValue = String(state.currentPageOrKey)
+  const matchedImage = useMemo(
+    () => findMatchingImage(currentValue, imageKeys),
+    [currentValue, imageKeys],
+  )
   const [isIndexCollapsed, setIsIndexCollapsed] = useLocalStorageState(
     'indexCollapsed',
     {
@@ -109,19 +114,31 @@ export function PageNavigation() {
   const currentOption = useMemo(
     () =>
       availableOptions.find((option) => option.value === currentValue) ||
+      availableOptions.find((option) => option.value === matchedImage?.key) ||
       availableOptions.find((option) => option.label === currentValue) ||
       null,
-    [availableOptions, currentValue],
+    [availableOptions, currentValue, matchedImage?.key],
   )
 
   const currentOptionValue = currentOption?.value || currentValue
   const currentEditionKey = useMemo(
     () =>
-      findMatchingEditionKey(
-        currentOptionValue,
+      findMatchingEditionKeyFromValues(
+        [
+          currentValue,
+          currentOptionValue,
+          matchedImage?.filename,
+          matchedImage?.key,
+        ],
         (editionsQuery.data ?? []).map((item) => item.key),
       ),
-    [currentOptionValue, editionsQuery.data],
+    [
+      currentOptionValue,
+      currentValue,
+      editionsQuery.data,
+      matchedImage?.filename,
+      matchedImage?.key,
+    ],
   )
   const currentIndex = availablePages.indexOf(currentOptionValue)
   const isFirstPage = currentIndex === 0
@@ -148,10 +165,19 @@ export function PageNavigation() {
       return
     }
 
+    if (
+      matchedImage?.key &&
+      matchedImage.key !== currentValue &&
+      availablePages.includes(matchedImage.key)
+    ) {
+      setState({ currentPageOrKey: matchedImage.key })
+      return
+    }
+
     if (availablePages.length > 0 && !availablePages.includes(currentValue)) {
       setState({ currentPageOrKey: getDefaultPageOrKey(availablePages) })
     }
-  }, [availablePages, currentOption, currentValue, setState])
+  }, [availablePages, currentOption, currentValue, matchedImage?.key, setState])
 
   useEffect(() => {
     const enteredSearchOnlyMode =

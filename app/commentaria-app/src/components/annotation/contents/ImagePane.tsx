@@ -17,6 +17,7 @@ import {
 import type { TeiSurfaceZone } from './tei/tei.ts'
 import ImageZoom from 'react-image-zooom'
 import {
+  findMatchingImage,
   hasAnnotationPages,
   TITLE_PAGES_DATASET_ID,
 } from '../../../utils/editions.ts'
@@ -172,9 +173,8 @@ export function ImagePane({
     datasetId,
     isKeyNavigation,
   )
-  const currentImageName =
-    imageKeys.find((image) => image.key === String(currentPageOrKey))?.key ||
-    String(currentPageOrKey)
+  const matchedImage = findMatchingImage(currentPageOrKey, imageKeys)
+  const currentImageName = matchedImage?.key || String(currentPageOrKey)
   const highlightableZones = useMemo(
     () =>
       surfaceZones.filter(
@@ -206,8 +206,6 @@ export function ImagePane({
       return `page-${String(num).padStart(4, '0')}.png`
     }
 
-    const key = String(currentPageOrKey)
-    const matchedImage = imageKeys.find((image) => image.key === key)
     return matchedImage?.filename || ''
   })()
 

@@ -43,7 +43,10 @@ import {
   ANNOTATION_SEARCH_WITHIN_KEY,
   getSearchResultPageOrKey,
 } from '../contents/navigation/annotationSearchUtils.ts'
-import { hasAnnotationPages } from '../../../utils/editions.ts'
+import {
+  findMatchingImage,
+  hasAnnotationPages,
+} from '../../../utils/editions.ts'
 
 type GalleryViewMode = 'images' | 'texts' | 'side-by-side'
 type ViewModeOption = { value: GalleryViewMode; label: string }
@@ -989,7 +992,7 @@ export function GalleryViewTab() {
     if (!Number.isNaN(num) && Number.isInteger(num)) {
       normalizedKey = `page-${String(num).padStart(4, '0')}.png`
     } else {
-      const matched = imageKeys.find((img) => img.key === pageOrKey)
+      const matched = findMatchingImage(pageOrKey, imageKeys)
       normalizedKey = matched?.filename || ''
     }
     if (!normalizedKey) return null
