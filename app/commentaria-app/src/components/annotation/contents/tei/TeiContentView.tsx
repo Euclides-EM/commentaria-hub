@@ -16,6 +16,7 @@ import { parseLineMatchIds } from './teiPaneUtils.tsx'
 
 const TEI_HIGHLIGHT_SELECTOR = '[data-tei-highlight="true"]'
 const TEI_LINE_MATCH_SELECTOR = '[data-tei-line-match-ids]'
+const TOOLTIP_VIEWPORT_MARGIN = 12
 
 const getTooltipItems = (element: Element | null): TeiTooltipItem[] => {
   if (!element) return []
@@ -63,23 +64,25 @@ const getTooltipItems = (element: Element | null): TeiTooltipItem[] => {
 const getTooltipPosition = (element: Element) => {
   const TOOLTIP_MAX_WIDTH = 384
   const TOOLTIP_ESTIMATED_HEIGHT = 240
-  const VIEWPORT_MARGIN = 12
   const rect = element.getBoundingClientRect()
   let x = rect.left + rect.width / 2 + 12
   let y = rect.top + 14
 
-  if (x + TOOLTIP_MAX_WIDTH + VIEWPORT_MARGIN > window.innerWidth) {
-    x = window.innerWidth - TOOLTIP_MAX_WIDTH - VIEWPORT_MARGIN
+  if (x + TOOLTIP_MAX_WIDTH + TOOLTIP_VIEWPORT_MARGIN > window.innerWidth) {
+    x = window.innerWidth - TOOLTIP_MAX_WIDTH - TOOLTIP_VIEWPORT_MARGIN
   }
-  if (x < VIEWPORT_MARGIN) {
-    x = VIEWPORT_MARGIN
+  if (x < TOOLTIP_VIEWPORT_MARGIN) {
+    x = TOOLTIP_VIEWPORT_MARGIN
   }
 
-  if (y + TOOLTIP_ESTIMATED_HEIGHT + VIEWPORT_MARGIN > window.innerHeight) {
+  if (
+    y + TOOLTIP_ESTIMATED_HEIGHT + TOOLTIP_VIEWPORT_MARGIN >
+    window.innerHeight
+  ) {
     y = rect.bottom - TOOLTIP_ESTIMATED_HEIGHT - 14
   }
-  if (y < VIEWPORT_MARGIN) {
-    y = VIEWPORT_MARGIN
+  if (y < TOOLTIP_VIEWPORT_MARGIN) {
+    y = TOOLTIP_VIEWPORT_MARGIN
   }
 
   return {
@@ -288,7 +291,7 @@ export const TeiContentView = ({
           fontSize: '0.75rem',
           lineHeight: 1.3,
           maxWidth: '24rem',
-          maxHeight: 'min(60vh, 420px)',
+          maxHeight: `min(420px, calc(100vh - ${tooltipState.y + TOOLTIP_VIEWPORT_MARGIN}px))`,
           overflowY: 'auto',
           border: '1px solid #d9d9d9',
           boxShadow: '0 6px 16px rgba(0, 0, 0, 0.2)',
