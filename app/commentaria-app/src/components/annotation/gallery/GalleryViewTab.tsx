@@ -758,7 +758,8 @@ export function GalleryViewTab() {
   const pagesToFetch = useMemo(() => {
     if (!ocred) return []
     return visiblePages.filter((p) => !fetchedPageSetRef.current.has(p))
-  }, [ocred, visiblePages])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [JSON.stringify(visiblePages), ocred])
   const pendingTeiPageSet = useMemo(() => new Set(pagesToFetch), [pagesToFetch])
 
   pagesToFetchRef.current = pagesToFetch
