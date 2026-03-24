@@ -121,6 +121,9 @@ func valueToFloat64(v reflect.Value) (float64, bool) {
 		if s == "" {
 			return 0, false
 		}
+		if idx := strings.Index(s, "/"); idx >= 0 {
+			s = strings.TrimSpace(s[:idx])
+		}
 		f, err := strconv.ParseFloat(s, 64)
 		if err != nil {
 			return 0, false
