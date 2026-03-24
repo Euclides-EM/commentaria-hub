@@ -512,8 +512,9 @@ export function GalleryViewTab() {
   const availablePages = useMemo(() => {
     if (!annotation) return []
     if (hasPages) {
-      return [...new Set((annotation.pages || '').split(',').flatMap(expandRange))]
-        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+      return [
+        ...new Set((annotation.pages || '').split(',').flatMap(expandRange)),
+      ].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
     }
     return imageKeys.map((img) => img.key)
   }, [annotation, hasPages, imageKeys])
