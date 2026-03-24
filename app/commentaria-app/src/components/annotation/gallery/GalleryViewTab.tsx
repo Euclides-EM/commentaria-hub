@@ -828,10 +828,17 @@ export function GalleryViewTab() {
     () => featuresQuery.data ?? [],
     [featuresQuery.data],
   )
-  const teiCategories = useMemo(
-    () => (firstTei ? getTeiHighlightCategories(firstTei) : []),
-    [firstTei],
-  )
+  const teiCategories = useMemo(() => {
+    const byId = new Map<string, string>()
+    teiByPage.forEach((tei) => {
+      for (const category of getTeiHighlightCategories(tei)) {
+        if (!byId.has(category.id)) {
+          byId.set(category.id, category.label)
+        }
+      }
+    })
+    return [...byId.entries()].map(([id, label]) => ({ id, label }))
+  }, [teiByPage])
   const resolvedTeiFeatures = useMemo<ResolvedTeiFeature[]>(() => {
     const byId = new Map<string, ResolvedTeiFeature>()
     for (const category of teiCategories) {
