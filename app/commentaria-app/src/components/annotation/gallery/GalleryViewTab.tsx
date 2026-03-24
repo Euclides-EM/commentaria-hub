@@ -43,10 +43,7 @@ import {
   ANNOTATION_SEARCH_WITHIN_KEY,
   getSearchResultPageOrKey,
 } from '../contents/navigation/annotationSearchUtils.ts'
-import {
-  findMatchingImage,
-  hasAnnotationPages,
-} from '../../../utils/editions.ts'
+import { findMatchingImage } from '../../../utils/editions.ts'
 
 type GalleryViewMode = 'images' | 'texts' | 'side-by-side'
 type ViewModeOption = { value: GalleryViewMode; label: string }
@@ -504,7 +501,6 @@ export function GalleryViewTab() {
     setState,
   } = useAppState()
 
-  const hasPages = hasAnnotationPages(annotation)
   const annotationPageEntries = annotation
     ? parsePageEntries(annotation.pages || '')
     : []
