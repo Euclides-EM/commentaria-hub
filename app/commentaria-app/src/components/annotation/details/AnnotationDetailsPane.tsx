@@ -122,6 +122,7 @@ const AnnotationDetailsContent = ({
     .split(',')
     .map((value) => value.trim())
     .filter(Boolean).length
+  const showAnnotationKeyCount = !showPageList && annotationKeyCount > 0
 
   const originAnnotation = annotations?.find(
     (a) => a.id === annotation.origin_annotation_id,
@@ -187,7 +188,7 @@ const AnnotationDetailsContent = ({
         <div className="text-sm leading-tight break-words">
           {showPageList
             ? (annotation.pages || '').replace(/,\s*/g, ', ')
-            : hasPages
+            : showAnnotationKeyCount
               ? `${annotationKeyCount} keys`
               : imageKeysLoading
                 ? 'Loading…'
