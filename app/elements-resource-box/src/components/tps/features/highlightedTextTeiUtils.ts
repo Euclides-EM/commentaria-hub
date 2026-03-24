@@ -89,18 +89,33 @@ export const parseTeiToSpans = (
 
   const anchorPos: Record<string, number> = {};
   let rawText = "";
+  const startsWithClosingPunctuation = (value: string) =>
+    /^[\s]*[.,;:!?)\]\}]/.test(value);
+  const trimTrailingSpaces = () => {
+    rawText = rawText.replace(/[ \t]+$/g, "");
+    const nextLength = rawText.length;
+    Object.keys(anchorPos).forEach((anchorId) => {
+      if (anchorPos[anchorId] > nextLength) {
+        anchorPos[anchorId] = nextLength;
+      }
+    });
+  };
   const appendText = (value: string) => {
     if (!value) {
       return;
     }
-    const normalized = value.replace(/\s+/g, " ");
+    let normalized = value.replace(/\s+/g, " ");
     if (!normalized) {
       return;
+    }
+    if (startsWithClosingPunctuation(normalized)) {
+      trimTrailingSpaces();
+      normalized = normalized.replace(/^\s+/, "");
     }
     rawText += normalized;
   };
   const appendLineBreak = () => {
-    rawText = rawText.replace(/[ \t]+$/g, "");
+    trimTrailingSpaces();
     if (!rawText.endsWith("\n")) {
       rawText += "\n";
     }

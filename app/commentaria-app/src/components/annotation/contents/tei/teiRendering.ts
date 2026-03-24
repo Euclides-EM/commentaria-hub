@@ -77,6 +77,22 @@ export const shouldMaskByCertainty = (
   return displayedDegree != null && displayedDegree < minCert
 }
 
+const startsWithClosingPunctuation = (text: string) =>
+  /^[\s]*[.,;:!?)\]\}]/.test(text)
+
+const trimTrailingSpaces = (text: string) => text.replace(/ +$/, '')
+
+const clampTrailingAnchorOffsets = (
+  anchors: Record<string, number>,
+  nextLength: number,
+) => {
+  for (const id of Object.keys(anchors)) {
+    if (anchors[id] > nextLength) {
+      anchors[id] = nextLength
+    }
+  }
+}
+
 export const appendTextWithAnchors = (
   node: ChildNode,
   opts: ReadingOptions,
@@ -84,7 +100,13 @@ export const appendTextWithAnchors = (
 ) => {
   if (node.nodeType === Node.TEXT_NODE) {
     const raw = node.nodeValue || ''
-    builder.text += /[\n\r\t]/.test(raw) ? raw.replace(/\s+/g, ' ') : raw
+    let text = /[\n\r\t]/.test(raw) ? raw.replace(/\s+/g, ' ') : raw
+    if (startsWithClosingPunctuation(text)) {
+      builder.text = trimTrailingSpaces(builder.text)
+      clampTrailingAnchorOffsets(builder.anchors, builder.text.length)
+      text = text.replace(/^\s+/, '')
+    }
+    builder.text += text
     return
   }
   if (node.nodeType !== Node.ELEMENT_NODE) {
@@ -263,8 +285,15 @@ const joinLineTexts = (
       continue
     }
 
-    if (currentText && !previousLineEndedWithMergeDash) {
+    if (
+      currentText &&
+      !previousLineEndedWithMergeDash &&
+      !startsWithClosingPunctuation(line.text)
+    ) {
       currentText += ' '
+    } else if (startsWithClosingPunctuation(line.text)) {
+      currentText = trimTrailingSpaces(currentText)
+      clampTrailingAnchorOffsets(currentAnchors, currentText.length)
     }
     const offset = currentText.length
     currentText += line.text
