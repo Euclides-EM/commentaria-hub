@@ -78,7 +78,7 @@ export const shouldMaskByCertainty = (
 }
 
 const startsWithClosingPunctuation = (text: string) =>
-  /^[\s]*[.,;:!?)\]\}]/.test(text)
+  /^[\s]*[.,;:!?)[\]{}]/.test(text)
 
 const trimTrailingSpaces = (text: string) => text.replace(/ +$/, '')
 

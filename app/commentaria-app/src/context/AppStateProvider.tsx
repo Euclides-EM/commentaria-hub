@@ -186,7 +186,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       return []
     }
     if (hasPages) {
-      const pages = annotation.pages.split(',').flatMap((p) => expandRange(p))
+      const pages = (annotation.pages || '').split(',').flatMap((p) => expandRange(p))
       return [...new Set(pages)].sort((a, b) =>
         a.localeCompare(b, undefined, { numeric: true }),
       )
