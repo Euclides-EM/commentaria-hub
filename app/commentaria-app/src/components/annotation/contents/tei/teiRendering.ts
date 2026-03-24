@@ -207,31 +207,54 @@ const joinLineTexts = (
   alignLines: boolean,
 ): ParagraphTextWithAnchors[] => {
   if (!alignLines) {
-    let text = ''
-    const anchors: Record<string, number> = {}
-    const lineRanges: ParagraphLineRange[] = []
+    const paragraphs: ParagraphTextWithAnchors[] = []
+    let currentText = ''
+    let currentAnchors: Record<string, number> = {}
+    let currentLineRanges: ParagraphLineRange[] = []
 
-    for (let i = 0; i < lines.length; i++) {
-      if (i > 0) {
-        text += '\n'
+    const pushCurrent = () => {
+      if (!currentText) {
+        return
       }
-      const offset = text.length
-      text += lines[i].text
-      const end = text.length
-      if (lines[i].matchIds.length > 0 && end > offset) {
-        lineRanges.push({
+      paragraphs.push({
+        text: currentText,
+        anchors: currentAnchors,
+        lineRanges: currentLineRanges,
+      })
+      currentText = ''
+      currentAnchors = {}
+      currentLineRanges = []
+    }
+
+    for (const line of lines) {
+      if (!line.text) {
+        pushCurrent()
+        continue
+      }
+
+      if (currentText) {
+        currentText += '\n'
+      }
+      const offset = currentText.length
+      currentText += line.text
+      const end = currentText.length
+      if (line.matchIds.length > 0 && end > offset) {
+        currentLineRanges.push({
           start: offset,
           end,
-          matchIds: lines[i].matchIds,
-          certaintyDegree: lines[i].certaintyDegree,
+          matchIds: line.matchIds,
+          certaintyDegree: line.certaintyDegree,
         })
       }
-      for (const [id, pos] of Object.entries(lines[i].anchors)) {
-        anchors[id] = offset + pos
+      for (const [id, pos] of Object.entries(line.anchors)) {
+        currentAnchors[id] = offset + pos
       }
     }
 
-    return [{ text, anchors, lineRanges }]
+    pushCurrent()
+    return paragraphs.length
+      ? paragraphs
+      : [{ text: '', anchors: {}, lineRanges: [] }]
   }
 
   const paragraphs: ParagraphTextWithAnchors[] = []
