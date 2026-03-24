@@ -43,6 +43,7 @@ import {
   ANNOTATION_SEARCH_WITHIN_KEY,
   getSearchResultPageOrKey,
 } from '../contents/navigation/annotationSearchUtils.ts'
+import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
 
 type GalleryViewMode = 'images' | 'texts' | 'side-by-side'
 type ViewModeOption = { value: GalleryViewMode; label: string }
@@ -500,22 +501,25 @@ export function GalleryViewTab() {
     setState,
   } = useAppState()
 
+  const isTitlePagesDataset = annotation?.dataset_id === TITLE_PAGES_DATASET_ID
   const shouldLoadImageKeys = !!annotation
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     datasetId,
     shouldLoadImageKeys,
-    annotation?.pages ? annotation.pages.split(',') : null,
+    annotation?.pages && !isTitlePagesDataset
+      ? annotation.pages.split(',')
+      : null,
   )
 
   const availablePages = useMemo(() => {
     if (!annotation) return []
-    if (annotation.pages) {
+    if (annotation.pages && !isTitlePagesDataset) {
       return [
         ...new Set(annotation.pages.split(',').flatMap(expandRange)),
       ].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
     }
     return imageKeys.map((img) => img.key)
-  }, [annotation, imageKeys])
+  }, [annotation, imageKeys, isTitlePagesDataset])
   const [searchTerm] = useLocalStorageState(ANNOTATION_SEARCH_TERM_KEY, {
     defaultValue: '',
     storageSync: false,
@@ -1132,8 +1136,8 @@ export function GalleryViewTab() {
             !gallerySearchQuery.isLoading &&
             !gallerySearchQuery.error && (
               <div className="text-xs text-gray-500 mb-3">
-                Showing {filteredAvailablePages.length} matching{' '}
-                {filteredAvailablePages.length === 1 ? 'item' : 'items'}
+                Showing {filteredAvailablePages.length} matching out of{' '}
+                {availablePages.length} total items
               </div>
             )}
           <div className="flex flex-wrap gap-3">

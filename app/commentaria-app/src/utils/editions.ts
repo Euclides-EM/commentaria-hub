@@ -1,5 +1,7 @@
 export const TITLE_PAGES_DATASET_ID = 'tps'
 
+const IMAGE_KEY_EXTENSION_PATTERN = /\.(png|jpe?g|tiff?|gif|webp)$/i
+
 export interface EditionDisplayInfo {
   key?: string | null
   year?: string | number | null
@@ -12,6 +14,46 @@ export interface EditionDisplayInfo {
 const normalizeText = (value: string | { name?: string | null }): string => {
   if (typeof value === 'string') return value.trim()
   return String(value.name ?? '').trim()
+}
+
+const normalizeEditionLookupKey = (value: string): string =>
+  value.trim().toLowerCase()
+
+const stripImageKeyExtension = (value: string): string =>
+  value.replace(IMAGE_KEY_EXTENSION_PATTERN, '')
+
+export const buildEditionLookupCandidates = (
+  value: string | null | undefined,
+): string[] => {
+  const trimmed = String(value ?? '').trim()
+  if (!trimmed) return []
+
+  const withoutExtension = stripImageKeyExtension(trimmed)
+  return [
+    ...new Set([trimmed, withoutExtension].map(normalizeEditionLookupKey)),
+  ]
+}
+
+export const findMatchingEditionKey = (
+  value: string | null | undefined,
+  editionKeys: Array<string | null | undefined>,
+): string | null => {
+  const candidates = buildEditionLookupCandidates(value)
+  if (!candidates.length) return null
+
+  for (const editionKey of editionKeys) {
+    const normalizedEditionKeyCandidates =
+      buildEditionLookupCandidates(editionKey)
+    if (
+      normalizedEditionKeyCandidates.some((candidate) =>
+        candidates.includes(candidate),
+      )
+    ) {
+      return String(editionKey).trim()
+    }
+  }
+
+  return null
 }
 
 export const formatEditionLabel = (item: EditionDisplayInfo) => {

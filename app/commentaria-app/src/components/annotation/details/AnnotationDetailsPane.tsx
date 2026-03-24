@@ -438,7 +438,9 @@ export function AnnotationDetailsPane() {
     useDatasetImageKeysQuery(
       annotation?.dataset_id || '',
       shouldLoadImageKeys,
-      annotation?.pages ? annotation.pages.split(',') : null,
+      annotation?.pages && annotation?.dataset_id !== TITLE_PAGES_DATASET_ID
+        ? annotation.pages.split(',')
+        : null,
     )
   const isExporting = !!runningJobs?.some(
     (job) =>

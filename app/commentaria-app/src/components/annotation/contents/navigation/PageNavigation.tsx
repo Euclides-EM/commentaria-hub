@@ -11,6 +11,10 @@ import { expandRange } from '../../../../utils/pages.ts'
 import { useQuery } from '@tanstack/react-query'
 import { listAllEditions } from '../../../../queries/editions.ts'
 import { EditionDetailsTable } from '../../../core/EditionDetailsTable.tsx'
+import {
+  findMatchingEditionKey,
+  TITLE_PAGES_DATASET_ID,
+} from '../../../../utils/editions.ts'
 
 const parseAvailablePages = (annotation: annotation_Annotation): string[] => {
   if (!annotation.pages) {
@@ -30,20 +34,25 @@ const getDefaultPageOrKey = (availablePages: string[]): string => {
 
 export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
+  const isTitlePagesDataset = annotation?.dataset_id === TITLE_PAGES_DATASET_ID
   const shouldLoadImageKeys = !!annotation
   const showIndexPane = !!annotation?.segmented
   const showSearchPane =
-    !!annotation && (!annotation.pages || !!annotation.ocred)
-  const isKeyNavigation = !!annotation && !annotation.pages
+    !!annotation &&
+    (isTitlePagesDataset || !annotation.pages || !!annotation.ocred)
+  const isKeyNavigation =
+    !!annotation && (isTitlePagesDataset || !annotation.pages)
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     shouldLoadImageKeys,
-    annotation?.pages ? annotation.pages.split(',') : null,
+    annotation?.pages && !isTitlePagesDataset
+      ? annotation.pages.split(',')
+      : null,
   )
   const editionsQuery = useQuery({
     queryKey: ['editions', 'all', 'items'],
     queryFn: async () => await listAllEditions(),
-    enabled: !!annotation && !annotation.pages,
+    enabled: isKeyNavigation,
     refetchOnWindowFocus: false,
   })
   const currentValue = String(state.currentPageOrKey)
@@ -79,7 +88,7 @@ export function PageNavigation() {
     if (!annotation) {
       return []
     }
-    if (annotation.pages) {
+    if (annotation.pages && !isTitlePagesDataset) {
       const pages = parseAvailablePages(annotation)
       return [...new Set(pages)]
         .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
@@ -92,7 +101,7 @@ export function PageNavigation() {
       value: image.key,
       label: image.key,
     }))
-  }, [annotation, imageKeys])
+  }, [annotation, imageKeys, isTitlePagesDataset])
 
   const availablePages = useMemo(
     () => availableOptions.map((option) => option.value),
@@ -108,17 +117,14 @@ export function PageNavigation() {
   )
 
   const currentOptionValue = currentOption?.value || currentValue
-  const editionKeys = useMemo(() => {
-    const keys = new Set<string>()
-    for (const item of editionsQuery.data ?? []) {
-      if (!item.key) continue
-      keys.add(item.key)
-    }
-    return keys
-  }, [editionsQuery.data])
-  const currentEditionKey = editionKeys.has(currentOptionValue)
-    ? currentOptionValue
-    : null
+  const currentEditionKey = useMemo(
+    () =>
+      findMatchingEditionKey(
+        currentOptionValue,
+        (editionsQuery.data ?? []).map((item) => item.key),
+      ),
+    [currentOptionValue, editionsQuery.data],
+  )
   const currentIndex = availablePages.indexOf(currentOptionValue)
   const isFirstPage = currentIndex === 0
   const isLastPage = currentIndex === availablePages.length - 1

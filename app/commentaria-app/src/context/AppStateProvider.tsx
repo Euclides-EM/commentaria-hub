@@ -13,6 +13,7 @@ import {
 import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useAuthStore } from '../store/authStore.ts'
 import { expandRange } from '../utils/pages.ts'
+import { TITLE_PAGES_DATASET_ID } from '../utils/editions.ts'
 import type {
   AnnotationTab,
   AppState,
@@ -108,10 +109,16 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       }
       if (updates.datasetId !== undefined) {
         nextUpdates.datasetId = updates.datasetId
+        if (updates.currentPageOrKey === undefined) {
+          nextUpdates.currentPageOrKey = ''
+        }
       }
       if (updates.annotationId !== undefined) {
         nextUpdates.annotationId = updates.annotationId
-        if (updates.currentPageOrKey === undefined) {
+        if (
+          updates.currentPageOrKey === undefined &&
+          updates.annotationId === ''
+        ) {
           nextUpdates.currentPageOrKey = ''
         }
       }
@@ -167,24 +174,28 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       ) || null,
     [annotations, state.annotationId],
   )
-  const shouldLoadImageKeys = !!annotation && !annotation.pages
+  const isTitlePagesDataset = annotation?.dataset_id === TITLE_PAGES_DATASET_ID
+  const shouldLoadImageKeys =
+    !!annotation && (isTitlePagesDataset || !annotation.pages)
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,
     shouldLoadImageKeys,
-    annotation?.pages ? annotation.pages.split(',') : null,
+    annotation?.pages && !isTitlePagesDataset
+      ? annotation.pages.split(',')
+      : null,
   )
   const availablePageOrKeys = useMemo(() => {
     if (!annotation) {
       return []
     }
-    if (annotation.pages) {
+    if (annotation.pages && !isTitlePagesDataset) {
       const pages = annotation.pages.split(',').flatMap((p) => expandRange(p))
       return [...new Set(pages)].sort((a, b) =>
         a.localeCompare(b, undefined, { numeric: true }),
       )
     }
     return imageKeys.map((image) => image.key)
-  }, [annotation, imageKeys])
+  }, [annotation, imageKeys, isTitlePagesDataset])
 
   const refetch = useCallback(() => {
     refetchDatasets()
