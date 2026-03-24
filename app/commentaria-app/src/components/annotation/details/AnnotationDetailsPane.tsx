@@ -30,7 +30,10 @@ import { selectStyles } from '../../../styles/selectStyles'
 import { CreateAnnotationModal } from '../CreateAnnotationModal.tsx'
 import { useRunningIntegrationJobsQuery } from '../../../queries/integrations.ts'
 import { EditionDetailsTable } from '../../core/EditionDetailsTable.tsx'
-import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
+import {
+  hasAnnotationPages,
+  TITLE_PAGES_DATASET_ID,
+} from '../../../utils/editions.ts'
 import { formatBoolean } from '../../../utils/formatBoolean.tsx'
 import { useAnnotationGroupsQuery } from '../../../queries/annotationGroups.ts'
 import {
@@ -112,10 +115,13 @@ const AnnotationDetailsContent = ({
     )
   }, [annotation.id, annotations])
 
-  const hasPages =
-    annotation.pages != null &&
-    annotation.pages !== '' &&
-    annotation.dataset_id !== TITLE_PAGES_DATASET_ID
+  const hasPages = hasAnnotationPages(annotation)
+  const showPageList =
+    hasPages && annotation.dataset_id !== TITLE_PAGES_DATASET_ID
+  const annotationKeyCount = (annotation.pages || '')
+    .split(',')
+    .map((value) => value.trim())
+    .filter(Boolean).length
 
   const originAnnotation = annotations?.find(
     (a) => a.id === annotation.origin_annotation_id,
@@ -176,15 +182,17 @@ const AnnotationDetailsContent = ({
           {datasetForAnnotation?.name || 'N/A'}
         </div>
         <div className="font-semibold text-xs opacity-80 pt-0.5">
-          {hasPages ? 'Pages' : 'Keys'}
+          {showPageList ? 'Pages' : 'Keys'}
         </div>
         <div className="text-sm leading-tight break-words">
-          {hasPages
+          {showPageList
             ? (annotation.pages || '').replace(/,\s*/g, ', ')
-            : imageKeysLoading
-              ? 'Loading…'
-              : imageKeysCount}
-          {hasPages && (
+            : hasPages
+              ? `${annotationKeyCount} keys`
+              : imageKeysLoading
+                ? 'Loading…'
+                : imageKeysCount}
+          {showPageList && (
             <span className="text-gray-600 ml-1">
               (total: {countPages(annotation.pages || '')})
             </span>
@@ -431,16 +439,13 @@ export function AnnotationDetailsPane() {
   const [isMergeOpen, setIsMergeOpen] = useState(false)
   const [isMerging, setIsMerging] = useState(false)
   const { data: runningJobs } = useRunningIntegrationJobsQuery()
-  const shouldLoadImageKeys =
-    !!annotation &&
-    (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
+  const hasPages = hasAnnotationPages(annotation)
+  const shouldLoadImageKeys = !!annotation && !hasPages
   const { data: imageKeys = [], isLoading: imageKeysLoading } =
     useDatasetImageKeysQuery(
       annotation?.dataset_id || '',
       shouldLoadImageKeys,
-      annotation?.pages && annotation?.dataset_id !== TITLE_PAGES_DATASET_ID
-        ? annotation.pages.split(',')
-        : null,
+      hasPages ? annotation.pages.split(',') : null,
     )
   const isExporting = !!runningJobs?.some(
     (job) =>

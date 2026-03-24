@@ -16,7 +16,10 @@ import {
 } from '../../../queries/datasets.ts'
 import type { TeiSurfaceZone } from './tei/tei.ts'
 import ImageZoom from 'react-image-zooom'
-import { TITLE_PAGES_DATASET_ID } from '../../../utils/editions.ts'
+import {
+  hasAnnotationPages,
+  TITLE_PAGES_DATASET_ID,
+} from '../../../utils/editions.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
 import { Button } from '../../core/Button.tsx'
 import { ReplaceImageModal } from '../../modal/ReplaceImageModal.tsx'
@@ -163,9 +166,8 @@ export function ImagePane({
     naturalWidth: 0,
     naturalHeight: 0,
   })
-  const isKeyNavigation =
-    !!annotation &&
-    (!annotation.pages || annotation.dataset_id === TITLE_PAGES_DATASET_ID)
+  const hasPages = hasAnnotationPages(annotation)
+  const isKeyNavigation = !!annotation && !hasPages
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     datasetId,
     isKeyNavigation,
@@ -524,9 +526,7 @@ export function ImagePane({
     <section className="border border-gray-300 rounded-xl overflow-hidden flex flex-col min-h-0 h-full bg-white relative">
       <div className="px-2.5 py-2 border-b border-gray-200 bg-gray-50 flex items-center flex-wrap gap-2.5">
         <div className="text-sm font-semibold grow min-w-0">
-          {annotation?.pages && annotation.dataset_id !== TITLE_PAGES_DATASET_ID
-            ? `Page ${currentPageOrKey} Facsimile`
-            : currentImageName}
+          {hasPages ? `Page ${currentPageOrKey} Facsimile` : currentImageName}
         </div>
         <Button
           type="button"
@@ -658,9 +658,7 @@ export function ImagePane({
       <ReplaceImageModal
         isOpen={isReplaceModalOpen}
         body={`Replace ${
-          annotation?.pages && annotation.dataset_id !== TITLE_PAGES_DATASET_ID
-            ? `page ${currentPageOrKey}`
-            : currentImageName
+          hasPages ? `page ${currentPageOrKey}` : currentImageName
         } with a new image? This will overwrite the current image for this page.`}
         isReplacing={replaceImageMutation.isPending}
         error={replaceError}
