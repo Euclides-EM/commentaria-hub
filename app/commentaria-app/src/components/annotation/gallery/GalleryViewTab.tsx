@@ -513,7 +513,7 @@ export function GalleryViewTab() {
     if (!annotation) return []
     if (hasPages) {
       return [
-        ...new Set(annotation.pages.split(',').flatMap(expandRange)),
+        ...new Set((annotation.pages || '').split(',').flatMap(expandRange)),
       ].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
     }
     return imageKeys.map((img) => img.key)
@@ -758,7 +758,7 @@ export function GalleryViewTab() {
   const pagesToFetch = useMemo(() => {
     if (!ocred) return []
     return visiblePages.filter((p) => !fetchedPageSetRef.current.has(p))
-  }, [JSON.stringify(visiblePages), ocred])
+  }, [ocred, visiblePages])
   const pendingTeiPageSet = useMemo(() => new Set(pagesToFetch), [pagesToFetch])
 
   pagesToFetchRef.current = pagesToFetch
