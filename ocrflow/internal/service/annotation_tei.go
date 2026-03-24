@@ -74,14 +74,12 @@ func (t *AnnotationTEI) normalizeFeatureIDs(datasetID string, features []string)
 		return features, nil
 	}
 
-	// if no features specified, default to all default features for the dataset.
+	// if no features specified, default to all features for the dataset.
 	allFeatures, err := t.featureSvc.ListFeatures(datasetID, nil)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list features for dataset %s: %v", datasetID, err)
 	}
-	return lo.Map(lo.Filter(allFeatures, func(f *feature.Feature, _ int) bool {
-		return f.IsDefault
-	}), func(f *feature.Feature, _ int) string {
+	return lo.Map(allFeatures, func(f *feature.Feature, _ int) string {
 		return f.ID
 	}), nil
 }
