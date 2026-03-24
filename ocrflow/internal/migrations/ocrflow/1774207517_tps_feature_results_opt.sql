@@ -4686,6 +4686,7 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'London_1687', 'demonstrati');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'London_1687', 'purgati');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'London_1696', 'Explain’d');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'London_1696', 'Written');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'London_1696', 'made English');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'London_1703', 'Explained');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'London_1703', 'Demonstrated');
@@ -4732,11 +4733,13 @@ INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_k
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Osnabrück_1676', 'revisi');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Osnabrück_1676', 'expurgati');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_1685', 'Explain’d');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_1685', 'Written');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_1685', 'done');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_1685', 'purg’d');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_1701', 'Ex Versione');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_1705', 'translated');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_London_1700', 'Explain’d');
+INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Oxford_London_1700', 'Written');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Padua_1694', 'ACCEDUNT');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Paris_1500', 'adiecta');
 INSERT INTO feature_result_values (dataset_id, feature_id, annotation_id, page_key, surface) VALUES ('tps', 'action_verbs', 'ann_1', 'Paris_1500', 'coito');
