@@ -32,7 +32,7 @@ import {
   VIEW_LABEL_MAP,
 } from '../contents/tei/teiPaneUtils.tsx'
 import type { ResolvedTeiFeature } from '../contents/tei/TeiPane.types.ts'
-import { expandRange } from '../../../utils/pages.ts'
+import { parsePageEntries } from '../../../utils/pages.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
 import { DEFAULT_IMAGE_ZOOM } from '../imageZoom.ts'
@@ -505,22 +505,25 @@ export function GalleryViewTab() {
   } = useAppState()
 
   const hasPages = hasAnnotationPages(annotation)
+  const annotationPageEntries = annotation
+    ? parsePageEntries(annotation.pages || '')
+    : []
   const shouldLoadImageKeys = !!annotation
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     datasetId,
     shouldLoadImageKeys,
-    hasPages ? annotation!.pages!.split(',') : null,
+    annotationPageEntries.length > 0 ? annotationPageEntries : null,
   )
 
   const availablePages = useMemo(() => {
     if (!annotation) return []
-    if (hasPages) {
-      return [
-        ...new Set((annotation.pages || '').split(',').flatMap(expandRange)),
-      ].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+    if (annotationPageEntries.length > 0) {
+      return [...new Set(annotationPageEntries)].sort((a, b) =>
+        a.localeCompare(b, undefined, { numeric: true }),
+      )
     }
     return imageKeys.map((img) => img.key)
-  }, [annotation, hasPages, imageKeys])
+  }, [annotation, annotationPageEntries, imageKeys])
   const [searchTerm] = useLocalStorageState(ANNOTATION_SEARCH_TERM_KEY, {
     defaultValue: '',
     storageSync: false,

@@ -17,6 +17,13 @@ export const expandRange = (range: string): string[] => {
   )
 }
 
+export const parsePageEntries = (pages: string): string[] =>
+  pages
+    .split(',')
+    .map((value) => value.trim())
+    .filter(Boolean)
+    .flatMap((value) => expandRange(value))
+
 /**
  * Count pages from a comma-separated string that may contain ranges (e.g. "4-9,7,78").
  * Ranges are inclusive (4-9 = 6 pages).
