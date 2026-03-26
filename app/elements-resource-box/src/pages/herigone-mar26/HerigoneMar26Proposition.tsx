@@ -26,35 +26,35 @@ type SectionViewMode = "step-by-step" | "sequential";
 
 const stepGroups: StepGroup[] = [
   {
-    label: "I. The Hypothesis",
+    label: "I. Hypothesis",
     steps: [
       { text: "AB is ————", visualStep: 1 },
       { text: "AC & CB are parts of AB", visualStep: 2 },
     ],
   },
   {
-    label: "II. The Proposition",
+    label: "II. Required to demonstrate",
     steps: [
       {
-        text: "Required to demonstrate:\n□ AB = □ AC + □ CB + 2 ▭ ACB",
+        text: "□ AB = □ AC + □ CB + 2 ▭ ACB",
         visualStep: 3,
       },
     ],
   },
   {
-    label: "III. The Preparation (1634)",
+    label: "III. Preparation (1634)",
     steps: [
-      { text: "AD is □ on AB", visualStep: 4 },
+      { text: "AD is □ AB", visualStep: 4 },
       {
-        text: "AD is □ on AB",
+        text: "AD is □ AB",
         visualStep: 5,
       },
       { text: "EB is ————", visualStep: 6 },
       {
-        text: "CF = AE = BD",
+        text: "CF || AE || BD",
         visualStep: 7,
       },
-      { text: "HGI = AB = ED", visualStep: 8 },
+      { text: "HGI || AB || ED", visualStep: 8 },
     ],
   },
   {
@@ -78,11 +78,11 @@ const stepGroups: StepGroup[] = [
         visualStep: 13,
       },
       {
-        text: "HE = HG = EF = FG, HF is □ on HG",
+        text: "HE = HG = EF = FG, HF is □ HG and also □ AC",
         visualStep: 14,
       },
       {
-        text: "CGIB is □ on CB",
+        text: "CGIB is □ CB",
         visualStep: 15,
       },
       {
@@ -100,11 +100,11 @@ const stepGroups: StepGroup[] = [
     ],
   },
   {
-    label: "III. The Preparation (1639)",
+    label: "III. Preparation (1639)",
     steps: [
-      { text: "AD is □ on AB", visualStep: 4 },
+      { text: "AD is □ AB", visualStep: 4 },
       {
-        text: "AD is □ on AB",
+        text: "AD is □ AB",
         visualStep: 5,
       },
       { text: "EB is ————", visualStep: 6 },
@@ -148,11 +148,11 @@ const stepGroups: StepGroup[] = [
         visualStep: 26,
       },
       {
-        text: "GHFE is □ on HG, CBIG is □ on CB",
+        text: "HGFE is □ HG, CBIG is □ CB",
         visualStep: 27,
       },
       {
-        text: "AG & GD are ▭ on ACB and AG = GD",
+        text: "AG & GD are ▭ ACB and AG = GD",
         visualStep: 28,
       },
       {
