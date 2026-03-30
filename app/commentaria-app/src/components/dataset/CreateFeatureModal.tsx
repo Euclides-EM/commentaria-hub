@@ -121,6 +121,7 @@ export function CreateFeatureModal({
           color: color || undefined,
           is_default: false,
           properties: normalizeFeatureProperties(properties),
+          is_list: true
         },
       })
       await queryClient.invalidateQueries({
