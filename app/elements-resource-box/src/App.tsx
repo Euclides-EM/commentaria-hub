@@ -41,75 +41,73 @@ import { Sep24Page } from "./pages/sep24/Sep24Page.tsx";
 import { Nov24Page } from "./pages/nov24/Nov24Page.tsx";
 import { HerigoneMar26Page } from "./pages/herigone-mar26/HerigoneMar26Page.tsx";
 
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <>
+      <Route
+        element={
+          <NuqsAdapter>
+            <FilterAppliedProvider>
+              <Layout />
+            </FilterAppliedProvider>
+          </NuqsAdapter>
+        }
+      >
+        <Route
+          path={HOME_ROUTE}
+          element={inEuclidesMode() ? <HomeCommentaria /> : <HomeResourceBox />}
+        />
+        <Route
+          path={GALLERY_ROUTE}
+          element={<Gallery titlePagesModeOn={false} />}
+        />
+        <Route
+          path={TITLE_PAGES_ROUTE}
+          element={<Gallery titlePagesModeOn={true} />}
+        />
+        <Route
+          path={LEGACY_EDITIONS_ROUTE}
+          element={<Navigate replace to={GALLERY_ROUTE} />}
+        />
+        <Route path={CATALOGUE_ROUTE} element={<Catalogue />} />
+        <Route path={TRENDS_ROUTE} element={<Trends />} />
+        <Route path={PRESENTATION_ROUTE} element={<Presentation />} />
+        <Route path={DIAGRAMS_ROUTE} element={<Diagrams />} />
+        <Route path={ITEM_EDIT_ROUTE} element={<UpsertEdition />} />
+        <Route
+          path={MAP_ROUTE}
+          element={
+            <TourProvider
+              steps={tourSteps}
+              styles={{
+                maskArea: (base) => ({ ...base, rx: 8 }),
+                popover: (base) => ({
+                  ...base,
+                  "--reactour-accent": PANE_COLOR_ALT,
+                  borderRadius: "0.5rem",
+                }),
+              }}
+            >
+              <Map />
+            </TourProvider>
+          }
+        />
+      </Route>
+      <Route path="/sep24" element={<Sep24Page />} />
+      <Route path="/nov24" element={<Nov24Page />} />
+      <Route path="/herigone-mar26" element={<HerigoneMar26Page />} />
+      <Route path="*" element={<Navigate replace to={HOME_ROUTE} />} />
+    </>,
+  ),
+  { basename: getRouterBasename() },
+);
+
 export function App() {
   const [authToken, setAuthToken] = useLocalStorage<string | null>(
     "resource-box-auth",
     null,
   );
   configureHubApi(authToken);
-
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <>
-        <Route
-          element={
-            <NuqsAdapter>
-              <FilterAppliedProvider>
-                <Layout />
-              </FilterAppliedProvider>
-            </NuqsAdapter>
-          }
-        >
-          <Route
-            path={HOME_ROUTE}
-            element={
-              inEuclidesMode() ? <HomeCommentaria /> : <HomeResourceBox />
-            }
-          />
-          <Route
-            path={GALLERY_ROUTE}
-            element={<Gallery titlePagesModeOn={false} />}
-          />
-          <Route
-            path={TITLE_PAGES_ROUTE}
-            element={<Gallery titlePagesModeOn={true} />}
-          />
-          <Route
-            path={LEGACY_EDITIONS_ROUTE}
-            element={<Navigate replace to={GALLERY_ROUTE} />}
-          />
-          <Route path={CATALOGUE_ROUTE} element={<Catalogue />} />
-          <Route path={TRENDS_ROUTE} element={<Trends />} />
-          <Route path={PRESENTATION_ROUTE} element={<Presentation />} />
-          <Route path={DIAGRAMS_ROUTE} element={<Diagrams />} />
-          <Route path={ITEM_EDIT_ROUTE} element={<UpsertEdition />} />
-          <Route
-            path={MAP_ROUTE}
-            element={
-              <TourProvider
-                steps={tourSteps}
-                styles={{
-                  maskArea: (base) => ({ ...base, rx: 8 }),
-                  popover: (base) => ({
-                    ...base,
-                    "--reactour-accent": PANE_COLOR_ALT,
-                    borderRadius: "0.5rem",
-                  }),
-                }}
-              >
-                <Map />
-              </TourProvider>
-            }
-          />
-        </Route>
-        <Route path="/sep24" element={<Sep24Page />} />
-        <Route path="/nov24" element={<Nov24Page />} />
-        <Route path="/herigone-mar26" element={<HerigoneMar26Page />} />
-        <Route path="*" element={<Navigate replace to={HOME_ROUTE} />} />
-      </>,
-    ),
-    { basename: getRouterBasename() },
-  );
 
   return (
     <AuthContext.Provider

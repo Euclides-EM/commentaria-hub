@@ -96,9 +96,13 @@ export const FiltersGroup = ({
   filtersInclude,
   setFiltersInclude,
 }: FiltersGroupProps) => {
-  const keys = Object.keys(fields)
-    .filter((key) => !fields[key as keyof Item]?.notFilterable)
-    .map((field) => field as keyof Item);
+  const keys = useMemo(
+    () =>
+      Object.keys(fields)
+        .filter((key) => !fields[key as keyof Item]?.notFilterable)
+        .map((field) => field as keyof Item),
+    [fields],
+  );
 
   const groupOrder = useMemo(
     () => ["Common", "Elements", "Title Page", "Material", "Diagrams"],
@@ -165,7 +169,7 @@ export const FiltersGroup = ({
                   return 0;
                 }),
             ),
-        ).map((v) => toOption(field, v as string));
+        ).map((v) => toOption(field, String(v)));
       } else {
         byFilter[field] = uniq(
           data

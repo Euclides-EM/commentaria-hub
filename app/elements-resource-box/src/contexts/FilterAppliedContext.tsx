@@ -159,9 +159,9 @@ export const FilterAppliedProvider = ({
     [setQueryFilters],
   );
 
-  const updateHasUnappliedChanges = (hasChanges: boolean) => {
+  const updateHasUnappliedChanges = useCallback((hasChanges: boolean) => {
     setHasUnappliedChanges(hasChanges);
-  };
+  }, []);
 
   const value = useMemo(
     () => ({
@@ -193,6 +193,7 @@ export const FilterAppliedProvider = ({
       applyFilters,
       applyRange,
       resetFilters,
+      updateHasUnappliedChanges,
       hasUnappliedChanges,
     ],
   );

@@ -1,4 +1,4 @@
-import React, { createContext, ReactNode, useContext } from "react";
+import React, { createContext, ReactNode, useContext, useMemo } from "react";
 import { useLocalStorage } from "usehooks-ts";
 
 type FilterEditContextType = {
@@ -24,10 +24,10 @@ export const FilterEditProvider = ({ children }: { children: ReactNode }) => {
     false,
   );
 
-  const value = {
-    filterOpen,
-    setFilterOpen,
-  };
+  const value = useMemo(
+    () => ({ filterOpen, setFilterOpen }),
+    [filterOpen, setFilterOpen],
+  );
 
   return (
     <FilterEditContext.Provider value={value}>
