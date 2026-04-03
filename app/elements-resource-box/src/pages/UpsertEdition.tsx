@@ -649,7 +649,7 @@ const defaultValues = (): EditionFormData => ({
   colophon_EN: null,
   frontispiece: null,
   frontispiece_EN: null,
-  isElements: true,
+  isElements: false,
   books: [],
   additionalContent: [],
   bibliography: [],
