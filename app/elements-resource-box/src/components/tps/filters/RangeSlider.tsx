@@ -192,13 +192,14 @@ export const RangeSlider = ({
     (inputValue: string) => {
       const newMin = parseInt(inputValue);
       if (!isNaN(newMin)) {
-        const clampedMin = Math.max(
-          resolvedMin,
-          Math.min(newMin, localValue[1]),
-        );
-        setMinInputValue(clampedMin.toString());
-        if (clampedMin !== localValue[0]) {
-          const nextValue: [number, number] = [clampedMin, localValue[1]];
+        const clampedMin = Math.max(resolvedMin, Math.min(newMin, resolvedMax));
+        const nextValue: [number, number] =
+          clampedMin > localValue[1]
+            ? [clampedMin, clampedMin]
+            : [clampedMin, localValue[1]];
+        setMinInputValue(nextValue[0].toString());
+        setMaxInputValue(nextValue[1].toString());
+        if (nextValue[0] !== localValue[0] || nextValue[1] !== localValue[1]) {
           setLocalValue(nextValue);
           localValueRef.current = nextValue;
           emitChange(nextValue, true);
@@ -214,13 +215,14 @@ export const RangeSlider = ({
     (inputValue: string) => {
       const newMax = parseInt(inputValue);
       if (!isNaN(newMax)) {
-        const clampedMax = Math.min(
-          resolvedMax,
-          Math.max(newMax, localValue[0]),
-        );
-        setMaxInputValue(clampedMax.toString());
-        if (clampedMax !== localValue[1]) {
-          const nextValue: [number, number] = [localValue[0], clampedMax];
+        const clampedMax = Math.min(resolvedMax, Math.max(newMax, resolvedMin));
+        const nextValue: [number, number] =
+          clampedMax < localValue[0]
+            ? [clampedMax, clampedMax]
+            : [localValue[0], clampedMax];
+        setMinInputValue(nextValue[0].toString());
+        setMaxInputValue(nextValue[1].toString());
+        if (nextValue[0] !== localValue[0] || nextValue[1] !== localValue[1]) {
           setLocalValue(nextValue);
           localValueRef.current = nextValue;
           emitChange(nextValue, true);
@@ -238,7 +240,7 @@ export const RangeSlider = ({
       <ValueInput
         type="number"
         min={resolvedMin}
-        max={localValue[1]}
+        max={resolvedMax}
         value={minInputValue}
         onChange={(e) => setMinInputValue(e.target.value)}
         onBlur={() => commitMinInputValue(minInputValue)}
@@ -298,7 +300,7 @@ export const RangeSlider = ({
       </SliderContainer>
       <ValueInput
         type="number"
-        min={localValue[0]}
+        min={resolvedMin}
         max={resolvedMax}
         value={maxInputValue}
         onChange={(e) => setMaxInputValue(e.target.value)}
