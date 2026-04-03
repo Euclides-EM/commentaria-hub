@@ -216,7 +216,10 @@ func (q Query) FilterFunc() func(e any) bool {
 			if !ok {
 				// In strict mode, fail if field exists but isn't numeric.
 				// Otherwise, ignore non-numeric fields.
-				return !r.Strict
+				if r.Strict {
+					return false
+				}
+				continue
 			}
 
 			if r.Min != nil && num < *r.Min {
