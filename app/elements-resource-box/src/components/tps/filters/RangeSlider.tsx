@@ -126,6 +126,7 @@ export const RangeSlider = ({
 
   const emitChange = useCallback(
     (nextValue: [number, number], immediate = false) => {
+      prevValueRef.current = nextValue;
       if (immediate) {
         if (rafRef.current !== null) {
           cancelAnimationFrame(rafRef.current);
@@ -190,63 +191,76 @@ export const RangeSlider = ({
 
   const commitMinInputValue = useCallback(
     (inputValue: string) => {
+      const currentValue = localValueRef.current;
       const newMin = parseInt(inputValue);
       if (!isNaN(newMin)) {
         const clampedMin = Math.max(resolvedMin, Math.min(newMin, resolvedMax));
         const nextValue: [number, number] =
-          clampedMin > localValue[1]
+          clampedMin > currentValue[1]
             ? [clampedMin, clampedMin]
-            : [clampedMin, localValue[1]];
+            : [clampedMin, currentValue[1]];
         setMinInputValue(nextValue[0].toString());
         setMaxInputValue(nextValue[1].toString());
-        if (nextValue[0] !== localValue[0] || nextValue[1] !== localValue[1]) {
+        if (
+          nextValue[0] !== currentValue[0] ||
+          nextValue[1] !== currentValue[1]
+        ) {
           setLocalValue(nextValue);
           localValueRef.current = nextValue;
           emitChange(nextValue, true);
         }
       } else {
-        setMinInputValue(localValue[0].toString());
+        setMinInputValue(currentValue[0].toString());
       }
     },
-    [emitChange, localValue, resolvedMin],
+    [emitChange, resolvedMax, resolvedMin],
   );
 
   const commitMaxInputValue = useCallback(
     (inputValue: string) => {
+      const currentValue = localValueRef.current;
       const newMax = parseInt(inputValue);
       if (!isNaN(newMax)) {
         const clampedMax = Math.min(resolvedMax, Math.max(newMax, resolvedMin));
         const nextValue: [number, number] =
-          clampedMax < localValue[0]
+          clampedMax < currentValue[0]
             ? [clampedMax, clampedMax]
-            : [localValue[0], clampedMax];
+            : [currentValue[0], clampedMax];
         setMinInputValue(nextValue[0].toString());
         setMaxInputValue(nextValue[1].toString());
-        if (nextValue[0] !== localValue[0] || nextValue[1] !== localValue[1]) {
+        if (
+          nextValue[0] !== currentValue[0] ||
+          nextValue[1] !== currentValue[1]
+        ) {
           setLocalValue(nextValue);
           localValueRef.current = nextValue;
           emitChange(nextValue, true);
         }
       } else {
-        setMaxInputValue(localValue[1].toString());
+        setMaxInputValue(currentValue[1].toString());
       }
     },
-    [emitChange, localValue, resolvedMax],
+    [emitChange, resolvedMax, resolvedMin],
   );
 
   return (
     <Row justifyStart noWrap noWrapAlsoOnMobile className={className}>
       {name && <div>{name}:</div>}
       <ValueInput
-        type="number"
-        min={resolvedMin}
-        max={resolvedMax}
+        type="text"
+        inputMode="numeric"
+        pattern="[0-9]*"
         value={minInputValue}
-        onChange={(e) => setMinInputValue(e.target.value)}
-        onBlur={() => commitMinInputValue(minInputValue)}
+        onChange={(e) => {
+          const nextValue = e.target.value;
+          if (/^\d*$/.test(nextValue)) {
+            setMinInputValue(nextValue);
+          }
+        }}
+        onBlur={(e) => commitMinInputValue(e.target.value)}
         onKeyDown={(e) => {
           if (e.key === "Enter") {
-            commitMinInputValue(minInputValue);
+            commitMinInputValue(e.currentTarget.value);
           }
         }}
       />
@@ -299,15 +313,20 @@ export const RangeSlider = ({
         />
       </SliderContainer>
       <ValueInput
-        type="number"
-        min={resolvedMin}
-        max={resolvedMax}
+        type="text"
+        inputMode="numeric"
+        pattern="[0-9]*"
         value={maxInputValue}
-        onChange={(e) => setMaxInputValue(e.target.value)}
-        onBlur={() => commitMaxInputValue(maxInputValue)}
+        onChange={(e) => {
+          const nextValue = e.target.value;
+          if (/^\d*$/.test(nextValue)) {
+            setMaxInputValue(nextValue);
+          }
+        }}
+        onBlur={(e) => commitMaxInputValue(e.target.value)}
         onKeyDown={(e) => {
           if (e.key === "Enter") {
-            commitMaxInputValue(maxInputValue);
+            commitMaxInputValue(e.currentTarget.value);
           }
         }}
       />

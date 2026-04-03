@@ -86,3 +86,6 @@ export const mergeFilterQueryWithDefaults = (
   textSearch: queryState.textSearch ?? defaults.textSearch,
   textSearchFields: queryState.textSearchFields ?? defaults.textSearchFields,
 });
+
+export const getFilterStateSignature = (state: FilterState) =>
+  JSON.stringify(state);

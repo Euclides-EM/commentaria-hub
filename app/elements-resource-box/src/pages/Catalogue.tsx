@@ -225,6 +225,9 @@ type ItemWithCluster = Item & {
   isReprintOf?: string;
 };
 
+const columnHelper = createColumnHelper<ItemWithCluster>();
+const EMPTY_ITEMS: ItemWithCluster[] = [];
+
 const SORT_TO_SERVER_FIELD: Record<string, string> = {
   year: "year",
   cities: "cities",
@@ -429,8 +432,6 @@ export function Catalogue() {
 
     return result.sort((a, b) => a.order - b.order).map((entry) => entry.row);
   }, [filteredItems, viewMode]);
-
-  const columnHelper = createColumnHelper<ItemWithCluster>();
 
   const showOtherColumns =
     !filters?.type ||
@@ -643,7 +644,7 @@ export function Catalogue() {
   );
 
   const table = useReactTable<ItemWithCluster>({
-    data: processedItems || [],
+    data: processedItems ?? EMPTY_ITEMS,
     columns,
     state: {
       sorting,

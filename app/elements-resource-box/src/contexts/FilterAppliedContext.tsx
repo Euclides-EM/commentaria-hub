@@ -3,6 +3,7 @@ import React, {
   ReactNode,
   useContext,
   useMemo,
+  useRef,
   useState,
   useCallback,
 } from "react";
@@ -12,6 +13,7 @@ import { mapEditionsToItems } from "../utils/dataUtils";
 import {
   FilterState,
   filterQueryParsers,
+  getFilterStateSignature,
   mergeFilterQueryWithDefaults,
 } from "../utils/filterQueryState";
 import { useQueryStates } from "nuqs";
@@ -109,10 +111,28 @@ export const FilterAppliedProvider = ({
   const [queryFilters, setQueryFilters] = useQueryStates(filterQueryParsers, {
     history: "replace",
   });
-  const appliedFilters = useMemo(
+  const mergedAppliedFilters = useMemo(
     () => mergeFilterQueryWithDefaults(queryFilters, getDefaultState()),
     [queryFilters, getDefaultState],
   );
+  const appliedFiltersSignature = useMemo(
+    () => getFilterStateSignature(mergedAppliedFilters),
+    [mergedAppliedFilters],
+  );
+  const stableAppliedFiltersRef = useRef<{
+    signature: string;
+    value: FilterState;
+  } | null>(null);
+  if (
+    !stableAppliedFiltersRef.current ||
+    stableAppliedFiltersRef.current.signature !== appliedFiltersSignature
+  ) {
+    stableAppliedFiltersRef.current = {
+      signature: appliedFiltersSignature,
+      value: mergedAppliedFilters,
+    };
+  }
+  const appliedFilters = stableAppliedFiltersRef.current.value;
 
   const [hasUnappliedChanges, setHasUnappliedChanges] = useState(false);
 
