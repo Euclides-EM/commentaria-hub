@@ -213,8 +213,7 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 		if err := csv.UpsertRow(s.csvPath(relMDPrint), "key", ed.Key, map[string]string{
 			"key":                      ed.Key,
 			"elements_books":           formatcov.IntsToCompressedStr(ed.Books),
-			"additional_content":       strings.Join(ed.AdditionalContent, ", "),
-			"wardhaugh_classification": ed.WardhaughClassification,
+			"additional_content":       strings.Join(ed.AdditionalContent, ", ")
 		}); err != nil {
 			return fmt.Errorf("Error upserting print metadata: %v\n", err)
 		}
@@ -549,7 +548,6 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 			ed.IsElements = true
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
-			ed.WardhaughClassification = md["wardhaugh_classification"]
 		}
 		_, tlRows, _ := csv.LoadCSVRecords(s.csvPath(relTranslations))
 		for _, r := range tlRows {
@@ -828,7 +826,6 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 			ed.IsElements = true
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
-			ed.WardhaughClassification = md["wardhaugh_classification"]
 		}
 		for _, r := range p.translations {
 			if r["key"] != key {
