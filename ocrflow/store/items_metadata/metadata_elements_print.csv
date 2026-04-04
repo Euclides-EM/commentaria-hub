@@ -7,7 +7,7 @@ Strasbourg_1599,1 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
 Wittenberg_1609,1–13,,CLAVIUS
 Wittenberg_1634,1–13,,CLAVIUS
 Wittenberg_1661,1–13,,CLAVIUS
-Basel_1550,1-6,,ZAMBERTI/GRYNAEUS (THEON)
+Basel_1550,1-6,,
 Florence_1690,"1–6, 11–12",,CLAVIUS
 Bologna_1686,1–6,,MAGNIENUS/GRACILIS and DASYPODIUS
 Brussels_1688,"1–6, 11–12",,TACQUET
@@ -15,7 +15,7 @@ Paris_1609,1–15,,
 Paris_1610,1-15,,MAGNIENUS/GRACILIS and DASYPODIUS
 Kiel_and_Leipzig_1699,1–6,,TACQUET
 Lyon_1690,1–14,,CLAVIUS
-Cambridge_1655,1-15,,HÉRIGONE/BARROW
+Cambridge_1655,1-15,,
 London_1659,1–15,Data,HÉRIGONE/BARROW
 Osnabrück_1676,1–15,Data,HÉRIGONE/BARROW
 London_1678,1–15,Data,HÉRIGONE/BARROW
@@ -41,13 +41,13 @@ Paris_1565,7–9,,MAGNIENUS/GRACILIS and DASYPODIUS
 Paris_1564,1-6,,MAGNIENUS/GRACILIS and DASYPODIUS
 Paris_1654a,1–6,,CLAVIUS
 Brussels_1701,"1–6, 11–12",,TACQUET
-Seville_1576,1-6,,ZAMBERTI/GRYNAEUS (THEON)
+Seville_1576,1-6,,
 Brussels_1689,"1–6, 11–12",,TACQUET
 Lyon_1672,"1-6, 11-12",,CLAVIUS
 Paris_1682,"1–6, 11–12",,CLAVIUS
 Amsterdam_1700,"1–6, 11–12",,CLAVIUS
 Madrid_1665,"5, 7",,COMMANDINO
-Paris_1566a,1–6 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
+Paris_1566a,,,
 Amsterdam_1702,1–6,,CLAVIUS
 Leiden_1617,1–15 (enunciations),,COMMANDINO
 Siena_1691,1–15,,CLAVIUS
@@ -56,16 +56,16 @@ Paris_1536,1-6,,ZAMBERTI/GRYNAEUS (THEON)
 Paris_1544,1–6,,ZAMBERTI/GRYNAEUS (THEON)
 London_1680–81,"1–6, 11–12",,HÉRIGONE/BARROW
 Pesaro_1619,1–15,,COMMANDINO
-Strasbourg_1564,1,,MAGNIENUS/GRACILIS and DASYPODIUS
+Strasbourg_1564,1,,
 Strasbourg_1564b,3–13 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
-Strasbourg_1566,1-6,,MAGNIENUS/GRACILIS and DASYPODIUS
-Strasbourg_1564a,2,,MAGNIENUS/GRACILIS and DASYPODIUS
+Strasbourg_1566,1-6,,
+Strasbourg_1564a,2,,
 Bologna_1651,1–6,,MAGNIENUS/GRACILIS and DASYPODIUS
 Bologna_1651a,1-6,,MAGNIENUS/GRACILIS and DASYPODIUS
 Amsterdam_1683,"1–6, 11–12",,TACQUET
 Amsterdam_1701b,"1–6, 11–12",,TACQUET
 Cambridge_1703,"1–6, 11-12",,TACQUET
-Rome_1574,1-16,,CLAVIUS
+Rome_1574,1-16,,
 Cologne_1607,1–16 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
 Cologne_1627,1–16,,MAGNIENUS/GRACILIS and DASYPODIUS
 Lyon_1660,"1–6, 11–12",,CLAVIUS
@@ -80,15 +80,15 @@ Rome_1629,1–6,,CLAVIUS
 Douai_1633,1–6,,CLAVIUS
 Paris_1643b,1–6,,CLAVIUS
 Paris_1644a,1–6,,CLAVIUS
-Antwerp_1645,1-16,,CLAVIUS
+Antwerp_1645,1-16,,
 Frankfurt_1654,1–16,,CLAVIUS
-Paris_1654,1–6,,CLAVIUS
+Paris_1654,,,
 Rome_1655,1–6,,CLAVIUS
 Lyon_1674,"1–6, 11–12",,CLAVIUS
 Frankfurt_1607,1–16,,CLAVIUS
 London_1654,1–6,,CLAVIUS
 Cambridge_1665,1–6,,CLAVIUS
-Würzburg_1661,1-6,,CLAVIUS
+Würzburg_1661,1-6,,
 Graz_1636,1-6,,CLAVIUS
 Bamberg_1677,1–6,,CLAVIUS
 Ingolstadt_1617,1–6,,COMMANDINO
@@ -103,11 +103,11 @@ Amsterdam_1634,1–6,,DOU
 London_1686,1–15,,HÉRIGONE/BARROW
 London_1660,1–15,,HÉRIGONE/BARROW
 Amsterdam_1618,1–6,,DOU
-Venice_1482,1-15,,CAMPANUS
+Venice_1482,1-15,,
 Arnhem_1605,7-9,,MAGNIENUS/GRACILIS and DASYPODIUS
 Vicenza_1491,1–15,,CAMPANUS
 Venice_1498a,14,,
-Venice_1505,1-15,"Phaenomena, Optica, Catoptrica, Data",ZAMBERTI/GRYNAEUS (THEON)
+Venice_1505,1-15,"Phaenomena, Optica, Catoptrica, Data",
 Frankfurt_1506,1–4,,CAMPANUS
 Venice_1509,1-15,,CAMPANUS
 Venice_1510,1–15,"Phaenomena, Optica, Catoptrica, Data",ZAMBERTI/GRYNAEUS (THEON)
@@ -115,7 +115,7 @@ Paris_1516,1-15,,D’ÉTAPLES
 Basel_1533,1-15,,ZAMBERTI/GRYNAEUS (THEON)
 Basel_1537,1–15,"Phaenomena, Catoptrica, Optica, Data, De levi et ponderoso",D’ÉTAPLES
 Strasbourg_1538,1,,ZAMBERTI/GRYNAEUS (THEON)
-Venice_1543,1-15,,D’ÉTAPLES
+Venice_1543,1-15,,
 Paris_1545,1-15,,ZAMBERTI/GRYNAEUS (THEON)
 Rome_1545,1–15 (enunciations),,ZAMBERTI/GRYNAEUS (THEON)
 Rome_1545a,1-15,,ZAMBERTI/GRYNAEUS (THEON)
@@ -125,7 +125,7 @@ Paris_1549,1–15 (enunciations),,ZAMBERTI/GRYNAEUS (THEON)
 Paris_1551a,10,,MONTDORÉ
 Paris_1552,10,,MONTDORÉ
 Cologne_1556,1-15,,D’ÉTAPLES
-Lyon_1557,1-6,,D’ÉTAPLES
+Lyon_1557,1-6,,
 Paris_1557,1-15,,MAGNIENUS/GRACILIS and DASYPODIUS
 Basel_1558,1–15,"Phaenomena, Catoptrica, Optica, Data, De levi et ponderoso",D’ÉTAPLES
 Paris_1558,1–15 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
@@ -135,7 +135,7 @@ Basel_1562,1-6,,ZAMBERTI/GRYNAEUS (THEON)
 Cologne_1564,1–15 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
 Wittenberg_1564,7,,ZAMBERTI/GRYNAEUS (THEON)
 Venice_1565,1–15,De levi et ponderoso,D’ÉTAPLES
-Paris_1566,1-16,,FOIX
+Paris_1566,1-16,,
 Venice_1569,1–15,De levi et ponderoso,D’ÉTAPLES
 London_1570,1-16,,FOIX
 Strasbourg_1570a,1–15,"Optica, Catoptrica, Introductio harmonica, Sectio canonis, Phaenomena (enunciations in Greek and Latin)",MAGNIENUS/GRACILIS and DASYPODIUS
@@ -166,7 +166,7 @@ Beijing_1611,1–6,,CLAVIUS
 Cologne_1612,1–15,,MAGNIENUS/GRACILIS and DASYPODIUS
 Paris_1612,10,,CLAVIUS
 Paris_1613,1–15,,MAGNIENUS/GRACILIS and DASYPODIUS
-Paris_1615,1-15,,MAGNIENUS/GRACILIS and DASYPODIUS
+Paris_1615,1-15,,
 Amsterdam_1616,1–6,,DOU
 Pesaro_1619a,1–15,,
 London_1620,1–6,,ZAMBERTI/GRYNAEUS (THEON)
@@ -185,13 +185,13 @@ Paris_1632,1–15,Data,MAGNIENUS/GRACILIS and DASYPODIUS
 Paris_1632a,1–15,,COMMANDINO
 Rotterdam_1632,1–6,,DOU
 Hamburg_1633,1–6,,COMMANDINO
-Paris_1634,1–15,Data,HÉRIGONE/BARROW
+Paris_1634,,Data,
 Alcala_1637,1–6,,ZAMBERTI/GRYNAEUS (THEON)
 Hamburg_1638,1–6,,COMMANDINO
-Paris_1639,1–6,,HÉRIGONE/BARROW
+Paris_1639,,,
 Venice_1641,1–6,,CLAVIUS
-Paris_1644,1–6,,HÉRIGONE/BARROW
-Paris_1644b,1–15,Data,HÉRIGONE/BARROW
+Paris_1644,,,
+Paris_1644b,,Data,
 Paris_1644c,1–18 (enunciations),"Phaenomena, Data (enunciations)",FOIX
 Lyon_1645,1–15,,COMMANDINO
 Lyon_1646,1–15,,COMMANDINO
@@ -208,7 +208,7 @@ Rouen_1676,1–15,Data,MAGNIENUS/GRACILIS and DASYPODIUS
 Rouen_and_Paris_1677,1–15,Data,MAGNIENUS/GRACILIS and DASYPODIUS
 Naples_1679,1–6,,COMMANDINO
 Rotterdam_1681,1–6,,DOU
-Paris_1682a,1-6,,CLAVIUS
+Paris_1682a,1-6,,
 Lausanne_1683,"1–6, 11–12",,CLAVIUS
 Rouen_and_Paris_1683,1–15,Data,MAGNIENUS/GRACILIS and DASYPODIUS
 Bologna_1684,1–6,,CLAVIUS
@@ -216,8 +216,8 @@ Rouen_and_Paris_1685,1–15,Data,MAGNIENUS/GRACILIS and DASYPODIUS
 The_Hague_1690,1–6,,CLAVIUS
 Leiden_1691,1–6,,CLAVIUS
 Leiden_1692,1–6,,CLAVIUS
-Paris_1693,"1–6, 11–12",,CLAVIUS
-Vienna_1694,"1–6, 11–12",,CLAVIUS
+Paris_1693,,,
+Vienna_1694,,,
 Amsterdam_1695,1–16,,CLAVIUS
 Amsterdam_1697,"1–6, 11–12",,CLAVIUS
 Paris_1697,"1–6, 11–12",,CLAVIUS
@@ -228,7 +228,7 @@ Naples_1702,1–6,,COMMANDINO
 London_1705,1-15,,HÉRIGONE/BARROW
 Kiel_Hamburg_and_Leipzig_1697,1–6,,TACQUET
 s.l_1650,1-6,,CLAVIUS
-Oxford_1703,1-15,"Optica, Catoptrica, Introductio harmonica, Sectio canonis, Phaenomena, Data, De Divisionibus, De levi et ponderoso",GREGORY
+Oxford_1703,1-15,"Optica, Catoptrica, Introductio harmonica, Sectio canonis, Phaenomena, Data, De Divisionibus, De levi et ponderoso",
 Utrecht_n.d,1-15,,CLAVIUS
 Lyon_1603,1–6,,
 Paris_1667,1-15,,
@@ -247,7 +247,7 @@ Paris_1794,1-8,,
 Edinburgh_1795,1-6,,
 Paris_1814,1-7,,
 Nuremberg_1821,1,,
-Berlin_1824,1–6,,
+Berlin_1824,,,
 Leipzig_1883,1-13,,
 Antwerp_1665,"1-6, 11-12",,
 Rome_1695,1-13,,
@@ -306,5 +306,14 @@ ZNLALU,,,
 1QQS64,,,
 4ZSED7,,,
 JTZKPV,,,
-Z1AO6P,1-15,,
 8DP4C1,1-6,,
+Uppsala_1744,1-6,,
+Halle_1758,1-6,,
+56DVN2,1-6,,
+QIG1E3,1-6,,
+Naples_1810,1-6,,
+HZ5UVJ,1-6,,
+Lund_1855,7-10,,
+Lisbon_1735,,,
+Lyon_1669,,,
+Paris_1739,,,
