@@ -135,7 +135,7 @@ export const ItemView = memo(
               <StyledImage
                 src={toItemImageUrl(item.tpImageName)!}
                 onClick={() => openScan(item)}
-                clickable={!!item.scanUrl && item.scanUrl.length > 0}
+                clickable={item.facsimiles.length > 0}
               />
               <ImageExpandIcon
                 title="Expand"
