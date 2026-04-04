@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import type { model_EditionShelfmark } from "@hub-api";
 import type { HTMLAttributes } from "react";
 import { FaBookReader } from "react-icons/fa";
-import { LAND_COLOR, PANE_BORDER } from "../utils/colors";
+import { PANE_BORDER } from "../utils/colors";
 
 const LinksRow = styled.div`
   display: flex;

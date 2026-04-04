@@ -634,7 +634,7 @@ export function Catalogue() {
             size: 120,
           }),
       ].filter(Boolean) as ColumnDef<ItemWithCluster>[],
-    [columnHelper, showOtherColumns, showElementsColumns, token, viewMode],
+    [showOtherColumns, showElementsColumns, token, viewMode],
   );
 
   const table = useReactTable<ItemWithCluster>({

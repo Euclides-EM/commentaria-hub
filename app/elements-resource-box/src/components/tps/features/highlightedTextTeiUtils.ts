@@ -90,7 +90,7 @@ export const parseTeiToSpans = (
   const anchorPos: Record<string, number> = {};
   let rawText = "";
   const startsWithClosingPunctuation = (value: string) =>
-    /^[\s]*[.,;:!?)\]\}]/.test(value);
+    /^[\s]*[.,;:!?)\]}]/.test(value);
   const trimTrailingSpaces = () => {
     rawText = rawText.replace(/[ \t]+$/g, "");
     const nextLength = rawText.length;
