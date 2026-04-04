@@ -377,6 +377,82 @@ func addDirToZip(zw *zip.Writer, srcDir, zipPrefix string) error {
 			return err
 		}
 
+		// WalkDir does not follow symlinks: a symlink to a directory looks like a
+		// non-dir DirEntry, but os.Stat follows the link and reports a directory.
+		fi, err := os.Stat(path)
+		if err != nil {
+			if os.IsNotExist(err) {
+				return nil
+			}
+			return fmt.Errorf("zip: stat %s: %w", path, err)
+		}
+		if fi.IsDir() {
+			resolved, err := filepath.EvalSymlinks(path)
+			if err != nil {
+				return fmt.Errorf("zip: eval symlinks %s: %w", path, err)
+			}
+			return addDirContentsFromPhysicalPath(zw, resolved, filepath.ToSlash(filepath.Join(zipPrefix, rel)))
+		}
+
+		return addFileToZip(zw, path, filepath.ToSlash(filepath.Join(zipPrefix, rel)))
+	})
+}
+
+// addDirContentsFromPhysicalPath walks a real directory path (typically the
+// target of a symlink) and adds entries under zipPrefix. Used when WalkDir
+// stops at a symlink-to-directory; walking the symlink path alone would not
+// descend into the target.
+func addDirContentsFromPhysicalPath(zw *zip.Writer, resolvedRoot, zipPrefix string) error {
+	info, err := os.Stat(resolvedRoot)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil
+		}
+		return fmt.Errorf("zip: stat dir %s: %w", resolvedRoot, err)
+	}
+	if !info.IsDir() {
+		return fmt.Errorf("zip: expected dir, got file: %s", resolvedRoot)
+	}
+
+	return filepath.WalkDir(resolvedRoot, func(path string, d os.DirEntry, walkErr error) error {
+		if walkErr != nil {
+			return fmt.Errorf("zip: walk %s: %w", resolvedRoot, walkErr)
+		}
+
+		rel, err := filepath.Rel(resolvedRoot, path)
+		if err != nil {
+			return fmt.Errorf("zip: rel path: %w", err)
+		}
+		rel = filepath.ToSlash(rel)
+
+		if d.IsDir() {
+			if rel == "." {
+				return nil
+			}
+			h := &zip.FileHeader{
+				Name:   filepath.ToSlash(filepath.Join(zipPrefix, rel)) + "/",
+				Method: zip.Deflate,
+			}
+			h.SetMode(0o755)
+			_, err := zw.CreateHeader(h)
+			return err
+		}
+
+		fi, err := os.Stat(path)
+		if err != nil {
+			if os.IsNotExist(err) {
+				return nil
+			}
+			return fmt.Errorf("zip: stat %s: %w", path, err)
+		}
+		if fi.IsDir() {
+			resolved, err := filepath.EvalSymlinks(path)
+			if err != nil {
+				return fmt.Errorf("zip: eval symlinks %s: %w", path, err)
+			}
+			return addDirContentsFromPhysicalPath(zw, resolved, filepath.ToSlash(filepath.Join(zipPrefix, rel)))
+		}
+
 		return addFileToZip(zw, path, filepath.ToSlash(filepath.Join(zipPrefix, rel)))
 	})
 }
