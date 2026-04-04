@@ -18,7 +18,22 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
+// Denoise pipeline overview:
+//
+//  1. Normalize background and binarize to get a strong foreground mask candidate.
+//  2. Clean that mask with morphology, connected-component filtering, contour filtering,
+//     and hole repair so faint text survives while isolated speckle is removed.
+//  3. Re-expand the cleaned mask slightly into nearby plausible text pixels to refill
+//     weak glyph interiors without broadly reintroducing noise.
+//  4. Render grayscale output from the normalized image using the refined mask.
+//  5. Run one final blob cleanup over light-gray residual output pixels only, using
+//     image-relative blob sizes and tone buckets to remove leftover speckle clusters.
+//
+// This denoise flow was fine tuned primarily against Paris_1615 pages 8-10.
+
 const (
+	denoiseDebug = false
+
 	denoiseAdaptiveBlockSize = 61 // must be odd
 	denoiseAdaptiveC         = 14
 
@@ -90,7 +105,7 @@ func paramsForImage(rows, cols int) denoiseParams {
 		minBlobArea:           scaledArea(8, scale, 4),
 		maskRefineSupportSize: scaledOdd(11, scale, 5),
 		enhanceSupportSize:    scaledOdd(5, scale, 3),
-		blobMinArea:          maxInt(1, int(math.Round(float64(rows*cols)*denoiseBlobAreaFraction))),
+		blobMinArea:           maxInt(1, int(math.Round(float64(rows*cols)*denoiseBlobAreaFraction))),
 	}
 }
 
@@ -422,7 +437,7 @@ func applyForegroundMask(gray gocv.Mat, mask gocv.Mat, params denoiseParams) (go
 	}
 
 	filteredOut, keptPixels, maxBlobArea := filterOutputByBlobSize(out, params.blobMinArea)
-	log.Printf("formatcov output blobs: support_candidates=%d kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", len(supportPixels), keptPixels, params.blobMinArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
+	debugLogf("formatcov output blobs: support_candidates=%d kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", len(supportPixels), keptPixels, params.blobMinArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
 	out.Close()
 	out = filteredOut
 
@@ -722,6 +737,13 @@ func maxInt(a, b int) int {
 		return a
 	}
 	return b
+}
+
+func debugLogf(format string, args ...any) {
+	if !denoiseDebug {
+		return
+	}
+	log.Printf(format, args...)
 }
 
 // removeSmallBlobs removes all connected components whose area in pixels is
