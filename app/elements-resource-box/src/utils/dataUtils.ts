@@ -55,9 +55,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         titleEn: edition.title_EN || null,
         imprint: edition.imprint || null,
         imprintEn: edition.imprint_EN || null,
-        scanUrl: shelfmarks
-          .map((s) => s.scan?.trim())
-          .filter(Boolean) as string[],
+        facsimiles: shelfmarks.filter((s) => s.scan),
         type: edition.isElements ? ItemTypes.elements : ItemTypes.secondary,
         format: edition.format || null,
         elementsBooks: toBookRanges(books),
@@ -139,10 +137,10 @@ export const personDisplayName = (person: string) => {
 };
 
 export function openScan(item: Item) {
-  if (!item.scanUrl || item.scanUrl.length === 0) {
+  if (item.facsimiles.length === 0) {
     return;
   }
-  return window.open(item.scanUrl[0], "_blank")?.focus();
+  return window.open(item.facsimiles[0].scan!, "_blank")?.focus();
 }
 
 export function openImage(item: Item) {

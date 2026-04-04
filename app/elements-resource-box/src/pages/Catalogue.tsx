@@ -27,7 +27,7 @@ import {
 import { ItemModal } from "../components/tps/modal/ItemModal";
 import { NO_EDITOR, NO_CITY, NO_YEAR } from "../constants";
 import { formatBookRanges, joinArr } from "../utils/util.ts";
-import { FaBookReader, FaChevronDown, FaChevronRight } from "react-icons/fa";
+import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { AiFillEdit } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
 import { AuthContext } from "../contexts/Auth.ts";
@@ -41,6 +41,7 @@ import { withAppBasePath } from "../utils/basePath";
 import { PiArrowBendDownRightBold } from "react-icons/pi";
 import { inEuclidesMode } from "../utils/mode.ts";
 import { useAutoOpenEditionFromQuery } from "../hooks/useAutoOpenEditionFromQuery.ts";
+import { FacsimileLinks } from "../components/FacsimileLinks.tsx";
 
 const TableContainer = styled.div`
   ${ScrollbarStyle};
@@ -505,19 +506,12 @@ export function Catalogue() {
                   <AiFillEdit style={{ color: SEA_COLOR, fontSize: "1rem" }} />
                 </a>
               )}
-              {info.row.original.scanUrl &&
-                info.row.original.scanUrl.length > 0 &&
-                info.row.original.scanUrl.map((url, index) => (
-                  <a
-                    key={index}
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="View Facsimile Online"
-                  >
-                    <FaBookReader style={{ color: SEA_COLOR }} />
-                  </a>
-                ))}
+              {info.row.original.facsimiles.length > 0 && (
+                <FacsimileLinks
+                  facsimiles={info.row.original.facsimiles}
+                  color={SEA_COLOR}
+                />
+              )}
               {info.row.original.diagramCropsAvailable && (
                 <a
                   href={withAppBasePath(
@@ -640,7 +634,7 @@ export function Catalogue() {
             size: 120,
           }),
       ].filter(Boolean) as ColumnDef<ItemWithCluster>[],
-    [columnHelper, showOtherColumns, showElementsColumns, token, viewMode],
+    [showOtherColumns, showElementsColumns, token, viewMode],
   );
 
   const table = useReactTable<ItemWithCluster>({

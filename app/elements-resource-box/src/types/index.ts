@@ -2,6 +2,7 @@ import { NO_CITY } from "../constants";
 import {
   feature_Feature,
   model_City,
+  model_EditionShelfmark,
   type model_EditionTitlePageStatus,
 } from "@hub-api";
 
@@ -43,7 +44,7 @@ export type Item = {
   titleEn: string | null;
   imprint: string | null;
   imprintEn: string | null;
-  scanUrl: string[];
+  facsimiles: model_EditionShelfmark[];
   type: string;
   format: number | null;
   elementsBooks: Range[];

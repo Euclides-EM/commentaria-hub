@@ -176,7 +176,7 @@ def load_completed_facsimile_ids(tasks: List[Dict[str, str]]) -> Set[str]:
     return completed_facsimile_ids
 
 
-def load_resume_state() -> Dict[str, str]:
+def load_resume_state() -> Dict[str, Any]:
     if not RESUME_STATE_PATH.exists():
         return {}
     try:
@@ -185,22 +185,30 @@ def load_resume_state() -> Dict[str, str]:
         fail(f"Failed to parse resume state file {RESUME_STATE_PATH}: {exc}")
     if not isinstance(state, dict):
         fail(f"Resume state file {RESUME_STATE_PATH} must contain a JSON object.")
-    return {str(key): str(value) for key, value in state.items()}
+    return state
 
 
-def parse_completed_facsimile_ids(state: Dict[str, str]) -> List[str]:
-    completed_raw = state.get("completed_facsimile_ids", "")
+def parse_completed_facsimile_ids(state: Dict[str, Any]) -> List[str]:
+    completed_raw = str(state.get("completed_facsimile_ids", ""))
     if not completed_raw:
         return []
     return [facsimile_id for facsimile_id in completed_raw.split(",") if facsimile_id]
 
 
-def save_resume_state(last_successful_facsimile_id: str) -> None:
+def save_resume_state(
+    last_successful_facsimile_id: str,
+    dataset_id: str,
+    default_annotation_id: str,
+    pages: str,
+) -> None:
     state = load_resume_state()
     completed_facsimile_ids = set(parse_completed_facsimile_ids(state))
     completed_facsimile_ids.add(last_successful_facsimile_id)
     state = {
         "last_successful_facsimile_id": last_successful_facsimile_id,
+        "dataset_id": dataset_id,
+        "default_annotation_id": default_annotation_id,
+        "pages": pages,
         "completed_facsimile_ids": ",".join(sorted(completed_facsimile_ids)),
     }
     RESUME_STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
@@ -232,10 +240,10 @@ def process_task(
     )
 
     if state_lock is None:
-        save_resume_state(facsimile_id)
+        save_resume_state(facsimile_id, dataset_id, annotation_id, annotation_pages)
     else:
         with state_lock:
-            save_resume_state(facsimile_id)
+            save_resume_state(facsimile_id, dataset_id, annotation_id, annotation_pages)
     print(f"[{task_number}/{total_tasks}] Completed {edition_id} ({facsimile_id})")
 
 

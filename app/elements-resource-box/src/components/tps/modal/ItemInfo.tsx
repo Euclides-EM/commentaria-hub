@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import styled from "@emotion/styled";
-import { FaBookReader, FaCheck, FaQuoteLeft } from "react-icons/fa";
+import { FaCheck, FaQuoteLeft } from "react-icons/fa";
 import { Item } from "../../../types";
 import { Row } from "../../common";
 import { ModalTextColumn } from "./ModalComponents";
@@ -16,6 +16,7 @@ import { ITEM_EDIT_ROUTE } from "../../layout/routes.ts";
 import { AuthContext } from "../../../contexts/Auth.ts";
 import { useQuery } from "@tanstack/react-query";
 import { getCommentariaHubPreferredTranscriptionUrl } from "../../../utils/commentariaHub.ts";
+import { FacsimileLinks } from "../../FacsimileLinks.tsx";
 
 const InfoTitle = styled.div`
   font-size: 0.8rem;
@@ -25,10 +26,9 @@ const InfoTitle = styled.div`
 
 const StyledAnchor = styled.a`
   font-size: 1rem;
-  svg {
-    color: ${LAND_COLOR};
-    margin-bottom: -2px;
-  }
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 const AnchorsRow = styled.div`
@@ -181,7 +181,7 @@ export const ItemInfo = ({
         <InfoTitle>{pluralize("Language", item.languages.length)}:</InfoTitle>{" "}
         {joinArr(item.languages)}
       </Row>
-      {item.scanUrl && item.scanUrl.length > 0 && (
+      {item.facsimiles.length > 0 && (
         <Row justifyStart>
           <InfoTitle>Facsimile:</InfoTitle>
           <AnchorsRow
@@ -189,16 +189,7 @@ export const ItemInfo = ({
             data-tooltip-content="View Facsimile Online"
             data-tooltip-place="left"
           >
-            {item.scanUrl.map((url, index) => (
-              <StyledAnchor
-                key={index}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaBookReader />
-              </StyledAnchor>
-            ))}
+            <FacsimileLinks facsimiles={item.facsimiles} color={LAND_COLOR} />
             {showDiagramsLink && item.diagramCropsAvailable && (
               <StyledAnchor
                 href={withAppBasePath(`/diagrams?key=${item.key}`)}
