@@ -59,6 +59,7 @@ func CompressedStrToInts(s string) []int {
 	var out []int
 	for _, part := range strings.Split(s, ",") {
 		part = strings.TrimSpace(part)
+		part = strings.ReplaceAll(part, "–", "-")
 		if part == "" {
 			continue
 		}

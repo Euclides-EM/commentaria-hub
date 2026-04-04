@@ -93,6 +93,19 @@ cd /srv/euclides/projects/commentaria-hub/python-tools
 uv sync
 ```
 
+## Install OpenCV
+
+Note: This step is optional, you can build the backend with `-tags nogocv` to skip OpenCV and deskewing on the server. If you want deskewing, you must have a compatible OpenCV version installed (4.7+ for gocv’s ArUco bindings). Ubuntu’s `libopencv-dev` is often older, so you may need to install from source or use a PPA.
+
+```bash
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$(go env GOPATH)/bin
+cd ~
+git clone https://github.com/hybridgroup/gocv.git
+cd gocv
+make install
+```
+
 ## Install Sqlite for debugging (optional, not needed if you only use Postgres)
 
 ```bash
@@ -411,7 +424,7 @@ cd /srv/euclides/projects/commentaria-hub/ocrflow
 source ~/.bashrc
 git pull
 go generate ./...
-go build -tags nogocv -o /srv/euclides/bin/ocrflow-api ./cmd/ocrflow
+go build -o /srv/euclides/bin/ocrflow-api ./cmd/ocrflow # add -tags nogocv if you built without OpenCV
 cd /srv/euclides/projects/commentaria-hub/app
 yarn
 yarn build:euclides:huma-num
@@ -419,7 +432,7 @@ exit
 
 sudo systemctl restart commentaria-hub-api
 sudo systemctl status commentaria-hub-api
-sudo journalctl -u commentaria-hub-api -n 200 --no-pager
+sudo journalctl -u commentaria-hub-api -n 200 --no-pager -f
 ```
 
 If you update the Python dependencies (under `python-tools`), you must also run `uv sync` before building the Go backend, since the Go code calls the Python code for dataset creation. You can run `uv sync` as euclides, it will use the existing virtual environment created during setup.
