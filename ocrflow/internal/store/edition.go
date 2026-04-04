@@ -549,6 +549,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 			ed.IsElements = true
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
+			ed.WardhaughClassification = md["wardhaugh_classification"]
 		}
 		_, tlRows, _ := csv.LoadCSVRecords(s.csvPath(relTranslations))
 		for _, r := range tlRows {
@@ -827,6 +828,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 			ed.IsElements = true
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
+			ed.WardhaughClassification = md["wardhaugh_classification"]
 		}
 		for _, r := range p.translations {
 			if r["key"] != key {
