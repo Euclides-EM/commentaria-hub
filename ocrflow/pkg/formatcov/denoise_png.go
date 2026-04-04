@@ -39,10 +39,10 @@ const (
 	denoiseEnhanceNeighborMinRatio = 0.25
 	denoiseMaskRefineMaxGray       = 250
 	denoiseSupportLocalGrayMargin  = 18
-	denoiseSupportBucketSize       = 12
-	denoiseSupportBlobAreaFraction = 0.000003
-	denoiseGrayBlobAreaFraction    = 0.000006
-	denoiseGrayBlobMinGray         = 120
+	denoiseBlobBucketSize          = 12
+	denoiseBlobAreaFraction        = 0.000008
+	denoiseBlobMinGray             = 140
+	denoiseBlobMaxGray             = 254
 
 	denoiseReferenceMinDim = 1240.0
 )
@@ -59,8 +59,7 @@ type denoiseParams struct {
 	minBlobArea           int
 	maskRefineSupportSize int
 	enhanceSupportSize    int
-	supportBlobMinArea    int
-	grayBlobMinArea       int
+	blobMinArea           int
 }
 
 type supportPixel struct {
@@ -91,8 +90,7 @@ func paramsForImage(rows, cols int) denoiseParams {
 		minBlobArea:           scaledArea(8, scale, 4),
 		maskRefineSupportSize: scaledOdd(11, scale, 5),
 		enhanceSupportSize:    scaledOdd(5, scale, 3),
-		supportBlobMinArea: maxInt(1, int(math.Round(float64(rows*cols)*denoiseSupportBlobAreaFraction))),
-		grayBlobMinArea:    maxInt(1, int(math.Round(float64(rows*cols)*denoiseGrayBlobAreaFraction))),
+		blobMinArea:          maxInt(1, int(math.Round(float64(rows*cols)*denoiseBlobAreaFraction))),
 	}
 }
 
@@ -407,8 +405,6 @@ func applyForegroundMask(gray gocv.Mat, mask gocv.Mat, params denoiseParams) (go
 		}
 	}
 
-	keepSupport, maxBlobArea := keepSupportPixelsByBlobSize(gray.Rows(), gray.Cols(), supportPixels, params.supportBlobMinArea)
-
 	out := gocv.NewMatWithSize(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U)
 	for r := 0; r < gray.Rows(); r++ {
 		for c := 0; c < gray.Cols(); c++ {
@@ -421,19 +417,14 @@ func applyForegroundMask(gray gocv.Mat, mask gocv.Mat, params denoiseParams) (go
 		}
 	}
 
-	keptSupport := 0
-	for i, px := range supportPixels {
-		if keepSupport[i] {
-			out.SetUCharAt(px.r, px.c, px.blended)
-			keptSupport++
-		}
+	for _, px := range supportPixels {
+		out.SetUCharAt(px.r, px.c, px.blended)
 	}
-	log.Printf("formatcov support blobs: candidates=%d kept=%d min_blob_area=%d max_blob_area=%d bucket_size=%d", len(supportPixels), keptSupport, params.supportBlobMinArea, maxBlobArea, denoiseSupportBucketSize)
 
-	filteredGray, keptGray, maxGrayBlob := filterGrayOutputByBlobSize(out, params.grayBlobMinArea)
-	log.Printf("formatcov gray blobs: kept=%d min_blob_area=%d max_blob_area=%d min_gray=%d bucket_size=%d", keptGray, params.grayBlobMinArea, maxGrayBlob, denoiseGrayBlobMinGray, denoiseSupportBucketSize)
+	filteredOut, keptPixels, maxBlobArea := filterOutputByBlobSize(out, params.blobMinArea)
+	log.Printf("formatcov output blobs: support_candidates=%d kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", len(supportPixels), keptPixels, params.blobMinArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
 	out.Close()
-	out = filteredGray
+	out = filteredOut
 
 	return out, nil
 }
@@ -616,7 +607,7 @@ func localMaskedMeanGray(gray gocv.Mat, mask gocv.Mat, r, c int) (int, bool) {
 	return sum / count, true
 }
 
-func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea int) ([]bool, int) {
+func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea int, bucketSize int) ([]bool, int) {
 	keep := make([]bool, len(pixels))
 	if len(pixels) == 0 {
 		return keep, 0
@@ -640,8 +631,8 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 			continue
 		}
 
-		bucketLo := (int(px.blended) / denoiseSupportBucketSize) * denoiseSupportBucketSize
-		bucketHi := bucketLo + denoiseSupportBucketSize - 1
+		bucketLo := (int(px.blended) / bucketSize) * bucketSize
+		bucketHi := bucketLo + bucketSize - 1
 
 		queue = append(queue[:0], i)
 		component = append(component[:0], i)
@@ -684,7 +675,7 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 	return keep, maxBlobArea
 }
 
-func filterGrayOutputByBlobSize(src gocv.Mat, minArea int) (gocv.Mat, int, int) {
+func filterOutputByBlobSize(src gocv.Mat, minArea int) (gocv.Mat, int, int) {
 	rows := src.Rows()
 	cols := src.Cols()
 
@@ -692,14 +683,14 @@ func filterGrayOutputByBlobSize(src gocv.Mat, minArea int) (gocv.Mat, int, int) 
 	for r := 0; r < rows; r++ {
 		for c := 0; c < cols; c++ {
 			v := src.GetUCharAt(r, c)
-			if v >= denoiseMaskColor || v < denoiseGrayBlobMinGray {
+			if v >= denoiseMaskColor || v < denoiseBlobMinGray || v > denoiseBlobMaxGray {
 				continue
 			}
 			pixels = append(pixels, supportPixel{r: r, c: c, blended: v})
 		}
 	}
 
-	keep, maxBlobArea := keepSupportPixelsByBlobSize(rows, cols, pixels, minArea)
+	keep, maxBlobArea := keepSupportPixelsByBlobSize(rows, cols, pixels, minArea, denoiseBlobBucketSize)
 	dst := src.Clone()
 	kept := 0
 	for i, px := range pixels {
