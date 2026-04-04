@@ -19,48 +19,91 @@ import (
 )
 
 const (
-	// Background normalization kernel — must span inter-character gaps.
-	denoiseBackgroundKernelSize = 51
-
-	// Adaptive threshold parameters.
 	denoiseAdaptiveBlockSize = 61 // must be odd
 	denoiseAdaptiveC         = 14
-
-	// Morphological opening after binarization — removes thin noise strands.
-	denoiseMorphOpenSize = 1
-
-	// Second, larger closing+opening pass to kill remaining diffuse speckles.
-	denoiseSpeckleKillOpenSize   = 2
-	denoiseSpeckleKillCloseSize  = 2
-	denoiseForegroundRepairSize  = 5
-	denoiseForegroundHoleMaxArea = 96
 
 	// Contour-based speckle filter.
 	denoiseSpeckleMinArea   = 1.0
 	denoiseSpeckleMaxArea   = 55.0 // wider: catch larger bleed-through clusters
-	denoiseSpeckleMaxWidth  = 12
-	denoiseSpeckleMaxHeight = 12
 	denoiseSpeckleMinFill   = 0.20
 	denoiseSpeckleMinAspect = 0.30
 	denoiseSpeckleMaxAspect = 3.0
-
-	// Connected-component minimum pixel area — blobs smaller than this are
-	// unconditionally removed regardless of shape.
-	// Raised from 5: real text strokes are always larger than this.
-	denoiseMinBlobArea = 8
 
 	denoiseMaskColor  = uint8(255)
 	denoiseMinWorkers = 2
 	denoiseMaxWorkers = 24
 
-	denoiseEnhanceSupportSize      = 5
 	denoiseEnhanceNeighborMaxGray  = 238
 	denoiseEnhanceNeighborStrength = 0.35
 	denoiseEnhanceCoreGamma        = 1.35
 	denoiseEnhanceNeighborMinHits  = 2
-	denoiseMaskRefineMaxGray       = 242
-	denoiseMaskRefineMinHits       = 2
+	denoiseMaskRefineMaxGray       = 250
+
+	denoiseReferenceMinDim = 1240.0
 )
+
+type denoiseParams struct {
+	backgroundKernelSize  int
+	morphOpenSize         int
+	speckleKillOpenSize   int
+	speckleKillCloseSize  int
+	foregroundRepairSize  int
+	foregroundHoleMaxArea int
+	speckleMaxWidth       int
+	speckleMaxHeight      int
+	minBlobArea           int
+	maskRefineSupportSize int
+	enhanceSupportSize    int
+}
+
+func paramsForImage(rows, cols int) denoiseParams {
+	minDim := float64(minInt(rows, cols))
+	scale := minDim / denoiseReferenceMinDim
+	if scale < 0.5 {
+		scale = 0.5
+	}
+	if scale > 3.0 {
+		scale = 3.0
+	}
+
+	return denoiseParams{
+		backgroundKernelSize:  scaledOdd(51, scale, 15),
+		morphOpenSize:         scaledInt(1, scale, 1),
+		speckleKillOpenSize:   scaledInt(2, scale, 1),
+		speckleKillCloseSize:  scaledInt(2, scale, 1),
+		foregroundRepairSize:  scaledOdd(5, scale, 3),
+		foregroundHoleMaxArea: scaledArea(96, scale, 24),
+		speckleMaxWidth:       scaledInt(12, scale, 4),
+		speckleMaxHeight:      scaledInt(12, scale, 4),
+		minBlobArea:           scaledArea(8, scale, 4),
+		maskRefineSupportSize: scaledOdd(11, scale, 5),
+		enhanceSupportSize:    scaledOdd(5, scale, 3),
+	}
+}
+
+func scaledInt(base int, scale float64, minVal int) int {
+	v := int(math.Round(float64(base) * scale))
+	if v < minVal {
+		return minVal
+	}
+	return v
+}
+
+func scaledOdd(base int, scale float64, minVal int) int {
+	v := scaledInt(base, scale, minVal)
+	if v%2 == 0 {
+		v++
+	}
+	return v
+}
+
+func scaledArea(base int, scale float64, minVal int) int {
+	v := int(math.Round(float64(base) * scale * scale))
+	if v < minVal {
+		return minVal
+	}
+	return v
+}
 
 func maxDenoiseWorkers() int {
 	n := runtime.NumCPU()
@@ -153,11 +196,12 @@ func denoiseOne(inPath, outPath string) error {
 	if err := gocv.CvtColor(img, &gray, gocv.ColorBGRToGray); err != nil {
 		return fmt.Errorf("convert to grayscale: %w", err)
 	}
+	params := paramsForImage(gray.Rows(), gray.Cols())
 
 	// --- 2. Background normalization ---
 	bgKernel := gocv.GetStructuringElement(
 		gocv.MorphRect,
-		image.Point{X: denoiseBackgroundKernelSize, Y: denoiseBackgroundKernelSize},
+		image.Point{X: params.backgroundKernelSize, Y: params.backgroundKernelSize},
 	)
 	defer bgKernel.Close()
 
@@ -202,7 +246,7 @@ func denoiseOne(inPath, outPath string) error {
 	// --- 4. First morphological open (small) ---
 	k1 := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
-		image.Point{X: denoiseMorphOpenSize, Y: denoiseMorphOpenSize},
+		image.Point{X: params.morphOpenSize, Y: params.morphOpenSize},
 	)
 	defer k1.Close()
 
@@ -215,7 +259,7 @@ func denoiseOne(inPath, outPath string) error {
 	// The subsequent close reconnects any text strokes that got slightly broken.
 	k2open := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
-		image.Point{X: denoiseSpeckleKillOpenSize, Y: denoiseSpeckleKillOpenSize},
+		image.Point{X: params.speckleKillOpenSize, Y: params.speckleKillOpenSize},
 	)
 	defer k2open.Close()
 
@@ -225,7 +269,7 @@ func denoiseOne(inPath, outPath string) error {
 
 	k2close := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
-		image.Point{X: denoiseSpeckleKillCloseSize, Y: denoiseSpeckleKillCloseSize},
+		image.Point{X: params.speckleKillCloseSize, Y: params.speckleKillCloseSize},
 	)
 	defer k2close.Close()
 
@@ -236,7 +280,7 @@ func denoiseOne(inPath, outPath string) error {
 	// --- 6. Connected-component minimum-size filter ---
 	// Unconditionally removes every blob smaller than denoiseMinBlobArea pixels,
 	// regardless of shape. This catches the finest residual speckle dust.
-	afterCC, err := removeSmallBlobs(closed2, denoiseMinBlobArea)
+	afterCC, err := removeSmallBlobs(closed2, params.minBlobArea)
 	if err != nil {
 		return fmt.Errorf("remove small blobs: %w", err)
 	}
@@ -267,8 +311,8 @@ func denoiseOne(inPath, outPath string) error {
 		fillRatio := area / float64(rectArea)
 		aspectRatio := float64(w) / float64(h)
 
-		if w > denoiseSpeckleMaxWidth ||
-			h > denoiseSpeckleMaxHeight ||
+		if w > params.speckleMaxWidth ||
+			h > params.speckleMaxHeight ||
 			fillRatio < denoiseSpeckleMinFill ||
 			aspectRatio < denoiseSpeckleMinAspect ||
 			aspectRatio > denoiseSpeckleMaxAspect {
@@ -293,19 +337,19 @@ func denoiseOne(inPath, outPath string) error {
 	defer cleaned.Close()
 	gocv.BitwiseAndWithMask(afterCC, afterCC, &cleaned, invSpeckleMask)
 
-	repaired, err := repairForegroundMask(cleaned)
+	repaired, err := repairForegroundMask(cleaned, params)
 	if err != nil {
 		return fmt.Errorf("repair foreground mask: %w", err)
 	}
 	defer repaired.Close()
 
-	refined, err := refineForegroundMask(repaired, gray)
+	refined, err := refineForegroundMask(repaired, normalized, params)
 	if err != nil {
 		return fmt.Errorf("refine foreground mask: %w", err)
 	}
 	defer refined.Close()
 
-	out, err := applyForegroundMask(normalized, refined)
+	out, err := applyForegroundMask(normalized, refined, params)
 	if err != nil {
 		return fmt.Errorf("apply foreground mask: %w", err)
 	}
@@ -317,10 +361,10 @@ func denoiseOne(inPath, outPath string) error {
 	return nil
 }
 
-func applyForegroundMask(gray gocv.Mat, mask gocv.Mat) (gocv.Mat, error) {
+func applyForegroundMask(gray gocv.Mat, mask gocv.Mat, params denoiseParams) (gocv.Mat, error) {
 	supportKernel := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
-		image.Point{X: denoiseEnhanceSupportSize, Y: denoiseEnhanceSupportSize},
+		image.Point{X: params.enhanceSupportSize, Y: params.enhanceSupportSize},
 	)
 	defer supportKernel.Close()
 
@@ -349,10 +393,10 @@ func applyForegroundMask(gray gocv.Mat, mask gocv.Mat) (gocv.Mat, error) {
 	return out, nil
 }
 
-func refineForegroundMask(mask gocv.Mat, gray gocv.Mat) (gocv.Mat, error) {
+func refineForegroundMask(mask gocv.Mat, tone gocv.Mat, params denoiseParams) (gocv.Mat, error) {
 	kernel := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
-		image.Point{X: denoiseEnhanceSupportSize, Y: denoiseEnhanceSupportSize},
+		image.Point{X: params.maskRefineSupportSize, Y: params.maskRefineSupportSize},
 	)
 	defer kernel.Close()
 
@@ -361,18 +405,15 @@ func refineForegroundMask(mask gocv.Mat, gray gocv.Mat) (gocv.Mat, error) {
 	gocv.Dilate(mask, &support, kernel)
 
 	refined := mask.Clone()
-	for r := 0; r < gray.Rows(); r++ {
-		for c := 0; c < gray.Cols(); c++ {
+	for r := 0; r < tone.Rows(); r++ {
+		for c := 0; c < tone.Cols(); c++ {
 			if refined.GetUCharAt(r, c) != 0 {
 				continue
 			}
 			if support.GetUCharAt(r, c) == 0 {
 				continue
 			}
-			if gray.GetUCharAt(r, c) > denoiseMaskRefineMaxGray {
-				continue
-			}
-			if maskNeighborCount(mask, r, c) < denoiseMaskRefineMinHits {
+			if tone.GetUCharAt(r, c) > denoiseMaskRefineMaxGray {
 				continue
 			}
 			refined.SetUCharAt(r, c, denoiseMaskColor)
@@ -401,17 +442,17 @@ func maskNeighborCount(mask gocv.Mat, r, c int) int {
 	return count
 }
 
-func repairForegroundMask(mask gocv.Mat) (gocv.Mat, error) {
+func repairForegroundMask(mask gocv.Mat, params denoiseParams) (gocv.Mat, error) {
 	kernel := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
-		image.Point{X: denoiseForegroundRepairSize, Y: denoiseForegroundRepairSize},
+		image.Point{X: params.foregroundRepairSize, Y: params.foregroundRepairSize},
 	)
 	defer kernel.Close()
 
 	repaired := gocv.NewMat()
 	gocv.MorphologyEx(mask, &repaired, gocv.MorphClose, kernel)
 
-	filled, err := fillSmallForegroundHoles(repaired, denoiseForegroundHoleMaxArea)
+	filled, err := fillSmallForegroundHoles(repaired, params.foregroundHoleMaxArea)
 	repaired.Close()
 	if err != nil {
 		return gocv.NewMat(), err
