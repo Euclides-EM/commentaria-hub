@@ -37,7 +37,7 @@ func PDF2PNGsWithPages(pdfPath, outDir string, dpi float64, pages []int) error {
 
 	n := doc.NumPage()
 	if outOfRange := lo.Filter(pages, func(item int, _ int) bool {
-		return item < 1 && item > n
+		return item < 1 || item > n
 	}); len(outOfRange) > 0 {
 		return fmt.Errorf("pages out of range: %v (PDF has %d pages)", outOfRange, n)
 	}
