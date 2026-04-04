@@ -8,6 +8,7 @@ import (
 	"image"
 	"image/color"
 	"log"
+	"math"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -23,14 +24,16 @@ const (
 
 	// Adaptive threshold parameters.
 	denoiseAdaptiveBlockSize = 61 // must be odd
-	denoiseAdaptiveC         = 20 // higher = reject more near-background pixels
+	denoiseAdaptiveC         = 14
 
 	// Morphological opening after binarization — removes thin noise strands.
-	denoiseMorphOpenSize = 2
+	denoiseMorphOpenSize = 1
 
 	// Second, larger closing+opening pass to kill remaining diffuse speckles.
-	denoiseSpeckleKillOpenSize  = 4 // increased: erodes away more speckle clusters
-	denoiseSpeckleKillCloseSize = 2
+	denoiseSpeckleKillOpenSize   = 2
+	denoiseSpeckleKillCloseSize  = 2
+	denoiseForegroundRepairSize  = 5
+	denoiseForegroundHoleMaxArea = 96
 
 	// Contour-based speckle filter.
 	denoiseSpeckleMinArea   = 1.0
@@ -44,11 +47,19 @@ const (
 	// Connected-component minimum pixel area — blobs smaller than this are
 	// unconditionally removed regardless of shape.
 	// Raised from 5: real text strokes are always larger than this.
-	denoiseMinBlobArea = 12
+	denoiseMinBlobArea = 8
 
 	denoiseMaskColor  = uint8(255)
 	denoiseMinWorkers = 2
 	denoiseMaxWorkers = 24
+
+	denoiseEnhanceSupportSize      = 5
+	denoiseEnhanceNeighborMaxGray  = 238
+	denoiseEnhanceNeighborStrength = 0.35
+	denoiseEnhanceCoreGamma        = 1.35
+	denoiseEnhanceNeighborMinHits  = 2
+	denoiseMaskRefineMaxGray       = 242
+	denoiseMaskRefineMinHits       = 2
 )
 
 func maxDenoiseWorkers() int {
@@ -128,7 +139,7 @@ func DenoisePNGs(src, dst string) error {
 //  5. Second morph pass (larger open + close) — kill surviving diffuse speckles
 //  6. Connected-component minimum-size filter — unconditionally drop tiny blobs
 //  7. Contour shape filter — remove speckle-shaped blobs
-//  8. Invert to black-on-white output
+//  8. Apply cleaned foreground mask to normalized grayscale output
 func denoiseOne(inPath, outPath string) error {
 	// --- 1. Load & grayscale ---
 	img := gocv.IMRead(inPath, gocv.IMReadColor)
@@ -282,15 +293,223 @@ func denoiseOne(inPath, outPath string) error {
 	defer cleaned.Close()
 	gocv.BitwiseAndWithMask(afterCC, afterCC, &cleaned, invSpeckleMask)
 
-	// --- 8. Invert to black-on-white ---
-	out := gocv.NewMat()
+	repaired, err := repairForegroundMask(cleaned)
+	if err != nil {
+		return fmt.Errorf("repair foreground mask: %w", err)
+	}
+	defer repaired.Close()
+
+	refined, err := refineForegroundMask(repaired, gray)
+	if err != nil {
+		return fmt.Errorf("refine foreground mask: %w", err)
+	}
+	defer refined.Close()
+
+	out, err := applyForegroundMask(normalized, refined)
+	if err != nil {
+		return fmt.Errorf("apply foreground mask: %w", err)
+	}
 	defer out.Close()
-	gocv.BitwiseNot(cleaned, &out)
 
 	if ok := gocv.IMWrite(outPath, out); !ok {
 		return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
 	}
 	return nil
+}
+
+func applyForegroundMask(gray gocv.Mat, mask gocv.Mat) (gocv.Mat, error) {
+	supportKernel := gocv.GetStructuringElement(
+		gocv.MorphEllipse,
+		image.Point{X: denoiseEnhanceSupportSize, Y: denoiseEnhanceSupportSize},
+	)
+	defer supportKernel.Close()
+
+	support := gocv.NewMat()
+	defer support.Close()
+	gocv.Dilate(mask, &support, supportKernel)
+
+	out := gocv.NewMatWithSize(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U)
+	for r := 0; r < gray.Rows(); r++ {
+		for c := 0; c < gray.Cols(); c++ {
+			grayVal := gray.GetUCharAt(r, c)
+			if mask.GetUCharAt(r, c) != 0 {
+				out.SetUCharAt(r, c, enhanceInk(grayVal))
+				continue
+			}
+			if support.GetUCharAt(r, c) != 0 &&
+				grayVal <= denoiseEnhanceNeighborMaxGray &&
+				maskNeighborCount(mask, r, c) >= denoiseEnhanceNeighborMinHits {
+				enhanced := enhanceInk(grayVal)
+				out.SetUCharAt(r, c, blendGray(grayVal, enhanced, denoiseEnhanceNeighborStrength))
+				continue
+			}
+			out.SetUCharAt(r, c, denoiseMaskColor)
+		}
+	}
+	return out, nil
+}
+
+func refineForegroundMask(mask gocv.Mat, gray gocv.Mat) (gocv.Mat, error) {
+	kernel := gocv.GetStructuringElement(
+		gocv.MorphEllipse,
+		image.Point{X: denoiseEnhanceSupportSize, Y: denoiseEnhanceSupportSize},
+	)
+	defer kernel.Close()
+
+	support := gocv.NewMat()
+	defer support.Close()
+	gocv.Dilate(mask, &support, kernel)
+
+	refined := mask.Clone()
+	for r := 0; r < gray.Rows(); r++ {
+		for c := 0; c < gray.Cols(); c++ {
+			if refined.GetUCharAt(r, c) != 0 {
+				continue
+			}
+			if support.GetUCharAt(r, c) == 0 {
+				continue
+			}
+			if gray.GetUCharAt(r, c) > denoiseMaskRefineMaxGray {
+				continue
+			}
+			if maskNeighborCount(mask, r, c) < denoiseMaskRefineMinHits {
+				continue
+			}
+			refined.SetUCharAt(r, c, denoiseMaskColor)
+		}
+	}
+
+	return refined, nil
+}
+
+func maskNeighborCount(mask gocv.Mat, r, c int) int {
+	count := 0
+	r0 := maxInt(0, r-1)
+	r1 := minInt(mask.Rows()-1, r+1)
+	c0 := maxInt(0, c-1)
+	c1 := minInt(mask.Cols()-1, c+1)
+	for rr := r0; rr <= r1; rr++ {
+		for cc := c0; cc <= c1; cc++ {
+			if rr == r && cc == c {
+				continue
+			}
+			if mask.GetUCharAt(rr, cc) != 0 {
+				count++
+			}
+		}
+	}
+	return count
+}
+
+func repairForegroundMask(mask gocv.Mat) (gocv.Mat, error) {
+	kernel := gocv.GetStructuringElement(
+		gocv.MorphEllipse,
+		image.Point{X: denoiseForegroundRepairSize, Y: denoiseForegroundRepairSize},
+	)
+	defer kernel.Close()
+
+	repaired := gocv.NewMat()
+	gocv.MorphologyEx(mask, &repaired, gocv.MorphClose, kernel)
+
+	filled, err := fillSmallForegroundHoles(repaired, denoiseForegroundHoleMaxArea)
+	repaired.Close()
+	if err != nil {
+		return gocv.NewMat(), err
+	}
+	return filled, nil
+}
+
+func fillSmallForegroundHoles(mask gocv.Mat, maxArea int) (gocv.Mat, error) {
+	inv := gocv.NewMat()
+	defer inv.Close()
+	gocv.BitwiseNot(mask, &inv)
+
+	labels := gocv.NewMat()
+	defer labels.Close()
+	stats := gocv.NewMat()
+	defer stats.Close()
+	centroids := gocv.NewMat()
+	defer centroids.Close()
+
+	n := gocv.ConnectedComponentsWithStats(inv, &labels, &stats, &centroids)
+	fill := make([]bool, n)
+	rows := mask.Rows()
+	cols := mask.Cols()
+
+	for label := 1; label < n; label++ {
+		left := int(stats.GetIntAt(label, 0))
+		top := int(stats.GetIntAt(label, 1))
+		width := int(stats.GetIntAt(label, 2))
+		height := int(stats.GetIntAt(label, 3))
+		area := int(stats.GetIntAt(label, 4))
+
+		touchesBorder := left == 0 || top == 0 || left+width >= cols || top+height >= rows
+		if touchesBorder {
+			continue
+		}
+		if area <= maxArea {
+			fill[label] = true
+		}
+	}
+
+	out := mask.Clone()
+	for r := 0; r < rows; r++ {
+		for c := 0; c < cols; c++ {
+			lbl := labels.GetIntAt(r, c)
+			if int(lbl) < n && fill[lbl] {
+				out.SetUCharAt(r, c, denoiseMaskColor)
+			}
+		}
+	}
+
+	return out, nil
+}
+
+func enhanceInk(v uint8) uint8 {
+	x := float64(v) / 255.0
+	if x <= 0 {
+		return 0
+	}
+	enhanced := 255.0 * powFloat(x, denoiseEnhanceCoreGamma)
+	if enhanced < 0 {
+		enhanced = 0
+	}
+	if enhanced > 255 {
+		enhanced = 255
+	}
+	return uint8(enhanced + 0.5)
+}
+
+func blendGray(base, target uint8, strength float64) uint8 {
+	v := (1.0-strength)*float64(base) + strength*float64(target)
+	if v < 0 {
+		v = 0
+	}
+	if v > 255 {
+		v = 255
+	}
+	return uint8(v + 0.5)
+}
+
+func powFloat(x, p float64) float64 {
+	if p == 1 {
+		return x
+	}
+	return math.Pow(x, p)
+}
+
+func minInt(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+func maxInt(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 
 // removeSmallBlobs removes all connected components whose area in pixels is
