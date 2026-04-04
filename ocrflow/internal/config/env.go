@@ -31,6 +31,9 @@ type EnvConfig struct {
 
 	SkipDiagramCropsGeneration bool     `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`
 	OptMigrations              []string `env:"OPT_MIGRATIONS" envDefault:""`
+
+	RcloneRemoteName    string `env:"RCLONE_REMOTE_NAME" envDefault:"G"`
+	RcloneGDriveFolderID string `env:"RCLONE_GDRIVE_FOLDER_ID" envDefault:""`
 }
 
 func InitEnv() (*EnvConfig, error) {
