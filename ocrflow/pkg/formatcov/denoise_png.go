@@ -39,8 +39,8 @@ const (
 	denoiseEnhanceNeighborMinRatio = 0.25
 	denoiseMaskRefineMaxGray       = 250
 	denoiseSupportLocalGrayMargin  = 18
-	denoiseBlobBucketSize          = 12
-	denoiseBlobAreaFraction        = 0.000008
+	denoiseBlobBucketSize          = 6
+	denoiseBlobAreaFraction        = 0.000012
 	denoiseBlobMinGray             = 140
 	denoiseBlobMaxGray             = 254
 
@@ -641,24 +641,23 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 		for head := 0; head < len(queue); head++ {
 			currIdx := queue[head]
 			curr := pixels[currIdx]
-			r0 := maxInt(0, curr.r-1)
-			r1 := minInt(rows-1, curr.r+1)
-			c0 := maxInt(0, curr.c-1)
-			c1 := minInt(cols-1, curr.c+1)
-			for rr := r0; rr <= r1; rr++ {
-				for cc := c0; cc <= c1; cc++ {
-					neighborIdx := grid[rr*cols+cc]
-					if neighborIdx < 0 || seen[neighborIdx] {
-						continue
-					}
-					neighborGray := int(pixels[neighborIdx].blended)
-					if neighborGray < bucketLo || neighborGray > bucketHi {
-						continue
-					}
-					seen[neighborIdx] = true
-					queue = append(queue, neighborIdx)
-					component = append(component, neighborIdx)
+			for _, step := range [][2]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}} {
+				rr := curr.r + step[0]
+				cc := curr.c + step[1]
+				if rr < 0 || rr >= rows || cc < 0 || cc >= cols {
+					continue
 				}
+				neighborIdx := grid[rr*cols+cc]
+				if neighborIdx < 0 || seen[neighborIdx] {
+					continue
+				}
+				neighborGray := int(pixels[neighborIdx].blended)
+				if neighborGray < bucketLo || neighborGray > bucketHi {
+					continue
+				}
+				seen[neighborIdx] = true
+				queue = append(queue, neighborIdx)
+				component = append(component, neighborIdx)
 			}
 		}
 
