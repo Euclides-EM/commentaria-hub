@@ -46,6 +46,11 @@ func SaveCSVRecords(csvPath string, header []string, rows []map[string]string) e
 
 // UpsertRow updates or appends a row by keyField value.
 func UpsertRow(csvPath, keyField, key string, row map[string]string) error {
+	return UpsertRowWithOptions(csvPath, keyField, key, row, DefaultOptions())
+}
+
+// UpsertRowWithOptions updates or appends a row by keyField value according to options for handling duplicates.
+func UpsertRowWithOptions(csvPath, keyField, key string, row map[string]string, opts Options) error {
 	header, rows, err := LoadCSVRecords(csvPath)
 	if err != nil {
 		return err
@@ -54,6 +59,11 @@ func UpsertRow(csvPath, keyField, key string, row map[string]string) error {
 	found := false
 	for i, r := range rows {
 		if r[keyField] == key {
+			if opts.OnDuplicate == OptionOnDuplicateError {
+				return fmt.Errorf("duplicate key: %s", key)
+			} else if opts.OnDuplicate == OptionOnDuplicateIgnore {
+				return nil
+			}
 			for k, v := range row {
 				if slices.Contains(header, k) {
 					rows[i][k] = v

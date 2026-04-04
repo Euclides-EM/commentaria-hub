@@ -140,11 +140,11 @@ func (s *EditionCSV) UpsertEdition(ed *model.Edition, user string) error {
 		return err
 	}
 	if ed.Verified {
-		if err := csv.UpsertRow(s.csvPath(relReviews), "key", ed.Key, map[string]string{
+		if err := csv.UpsertRowWithOptions(s.csvPath(relReviews), "key", ed.Key, map[string]string{
 			"key":        ed.Key,
 			"researcher": user,
 			"timestamp":  time.Now().UTC().Format(time.RFC3339),
-		}); err != nil {
+		}, csv.IgnoreDuplicatesOptions()); err != nil {
 			return fmt.Errorf("Error upserting review: %v\n", err)
 		}
 	}
@@ -214,7 +214,7 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 			"key":                      ed.Key,
 			"elements_books":           formatcov.IntsToCompressedStr(ed.Books),
 			"additional_content":       strings.Join(ed.AdditionalContent, ", "),
-			"wardhaugh_classification": "",
+			"wardhaugh_classification": ed.WardhaughClassification,
 		}); err != nil {
 			return fmt.Errorf("Error upserting print metadata: %v\n", err)
 		}
@@ -549,6 +549,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 			ed.IsElements = true
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
+			ed.WardhaughClassification = md["wardhaugh_classification"]
 		}
 		_, tlRows, _ := csv.LoadCSVRecords(s.csvPath(relTranslations))
 		for _, r := range tlRows {
@@ -796,6 +797,9 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		IsManuscript:     isManuscript,
 		HasDiagrams:      formatcov.StrToBoolPtr(itemRow["has_diagrams"]),
 	}
+	if key == "Wittenberg_1661" {
+		log.Printf("Debug: found Wittenberg_1661 with itemRow: %+v", itemRow)
+	}
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
@@ -824,6 +828,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 			ed.IsElements = true
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
+			ed.WardhaughClassification = md["wardhaugh_classification"]
 		}
 		for _, r := range p.translations {
 			if r["key"] != key {
