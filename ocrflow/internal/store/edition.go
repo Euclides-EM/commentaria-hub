@@ -211,9 +211,10 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 	}
 	if ed.IsElements {
 		if err := csv.UpsertRow(s.csvPath(relMDPrint), "key", ed.Key, map[string]string{
-			"key":                ed.Key,
-			"elements_books":     formatcov.IntsToCompressedStr(ed.Books),
-			"additional_content": strings.Join(ed.AdditionalContent, ", "),
+			"key":                      ed.Key,
+			"elements_books":           formatcov.IntsToCompressedStr(ed.Books),
+			"additional_content":       strings.Join(ed.AdditionalContent, ", "),
+			"wardhaugh_classification": ed.WardhaughClassification,
 		}); err != nil {
 			return fmt.Errorf("Error upserting print metadata: %v\n", err)
 		}
