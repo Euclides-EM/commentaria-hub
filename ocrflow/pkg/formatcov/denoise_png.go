@@ -26,19 +26,25 @@ import (
 //  3. Re-expand the cleaned mask slightly into nearby plausible text pixels to refill
 //     weak glyph interiors without broadly reintroducing noise.
 //  4. Render grayscale output from the normalized image using the refined mask.
-//  5. Run one final blob cleanup over light-gray residual output pixels only, using
-//     image-relative blob sizes and tone buckets to remove leftover speckle clusters.
+//  5. Final output cleanup — strategy depends on image quality (determined by min dimension
+//     vs denoiseSmallImageMinDim):
+//     - Normal images: blob connectivity filter over light-gray pixels using image-relative
+//       blob sizes and tone buckets to remove leftover speckle clusters.
+//     - Low-quality (small) images: a lower adaptive threshold C captures weaker ink, and
+//       a simple per-pixel brightness cutoff replaces the blob filter — any gray pixel
+//       brighter than denoiseLowQualityMaxOutputGray is treated as noise and wiped to white,
+//       preserving readable gray tones without the connectivity requirement.
 //
 // This denoise flow was fine tuned on testdata/denoise examples
 
 const (
-	denoiseDebug = true
+	denoiseDebug = false
 
-	denoiseAdaptiveBlockSize           = 61 // must be odd
-	denoiseAdaptiveC                   = 14
-	denoiseAdaptiveCLowQuality         = 8
-	denoiseSmallImageMinDim            = 800
-	denoiseLowQualityMaxOutputGray     = 210
+	denoiseAdaptiveBlockSize       = 61 // must be odd
+	denoiseAdaptiveC               = 14
+	denoiseAdaptiveCLowQuality     = 8
+	denoiseSmallImageMinDim        = 800
+	denoiseLowQualityMaxOutputGray = 210
 
 	// Contour-based speckle filter.
 	denoiseSpeckleMinArea   = 1.0
