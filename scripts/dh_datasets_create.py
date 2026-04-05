@@ -16,12 +16,12 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 
 
-BASE_URL = "http://localhost:8085"
+BASE_URL = "https://euclides.huma-num.fr/commentaria"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CORPUSES_CSV_PATH = REPO_ROOT / "ocrflow" / "store" / "items_metadata" / "corpuses.csv"
 RESUME_STATE_PATH = Path(__file__).resolve().parent / "dh_datasets_create.state.json"
 DRY_RUN = False
-DEFAULT_CONCURRENCY = 4
+DEFAULT_CONCURRENCY = 2
 HTTP_TIMEOUT_SECONDS = 60
 DATASET_CREATE_TIMEOUT_SECONDS = 60 * 60
 ANNOTATION_WAIT_TIMEOUT_SECONDS = 60
@@ -50,28 +50,25 @@ def main() -> int:
     )
 
     if DRY_RUN:
+        failed_tasks = 0
         for task_number, total_tasks, task in pending_tasks:
-            process_task(task_number, total_tasks, task, None)
-        print("All tasks completed.")
-        return 0
+            if not process_task(task_number, total_tasks, task, None):
+                failed_tasks += 1
+        return report_run_outcome(len(pending_tasks), failed_tasks)
 
     state_lock = threading.Lock()
     max_workers = min(DEFAULT_CONCURRENCY, len(pending_tasks))
+    failed_tasks = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [
             executor.submit(process_task, task_number, total_tasks, task, state_lock)
             for task_number, total_tasks, task in pending_tasks
         ]
-        try:
-            for future in concurrent.futures.as_completed(futures):
-                future.result()
-        except BaseException:
-            for future in futures:
-                future.cancel()
-            raise
+        for future in concurrent.futures.as_completed(futures):
+            if not future.result():
+                failed_tasks += 1
 
-    print("All tasks completed.")
-    return 0
+    return report_run_outcome(len(pending_tasks), failed_tasks)
 
 
 def collect_tasks() -> List[Dict[str, str]]:
@@ -204,6 +201,9 @@ def save_resume_state(
     state = load_resume_state()
     completed_facsimile_ids = set(parse_completed_facsimile_ids(state))
     completed_facsimile_ids.add(last_successful_facsimile_id)
+    failed_tasks = state.get("failed_tasks")
+    if isinstance(failed_tasks, dict):
+        failed_tasks.pop(last_successful_facsimile_id, None)
     state = {
         "last_successful_facsimile_id": last_successful_facsimile_id,
         "dataset_id": dataset_id,
@@ -211,6 +211,21 @@ def save_resume_state(
         "pages": pages,
         "completed_facsimile_ids": ",".join(sorted(completed_facsimile_ids)),
     }
+    if isinstance(failed_tasks, dict) and failed_tasks:
+        state["failed_tasks"] = failed_tasks
+    RESUME_STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
+
+
+def save_task_error(facsimile_id: str, edition_id: str, error_message: str) -> None:
+    state = load_resume_state()
+    failed_tasks = state.get("failed_tasks")
+    if not isinstance(failed_tasks, dict):
+        failed_tasks = {}
+    failed_tasks[facsimile_id] = {
+        "edition_id": edition_id,
+        "error": error_message,
+    }
+    state["failed_tasks"] = failed_tasks
     RESUME_STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
 
 
@@ -219,32 +234,57 @@ def process_task(
     total_tasks: int,
     task: Dict[str, str],
     state_lock: Optional[Any],
-) -> None:
+) -> bool:
     facsimile_id = task["facsimile_id"]
     edition_id = task["edition_id"]
     print(f"[{task_number}/{total_tasks}] Processing {edition_id} ({facsimile_id})")
-    if DRY_RUN:
-        dry_run_task(task, edition_id)
-        return
+    try:
+        if DRY_RUN:
+            dry_run_task(task, edition_id)
+            return True
 
-    dataset = create_dataset(task)
-    dataset_id = require_field(dataset, "id", "dataset create response")
-    annotation = wait_for_default_annotation(dataset_id)
-    annotation_id = require_field(annotation, "id", f"default annotation for dataset {dataset_id}")
-    annotation_pages = str(annotation.get("pages") or "")
-    slice_range = choose_slice_range(annotation, edition_id)
-    apply_sliced_annotation(dataset_id, annotation_id, slice_range)
-    print(
-        f"[{task_number}/{total_tasks}] Created dataset_id={dataset_id} annotation_id={annotation_id} "
-        f"pages={annotation_pages!r} slice_range={slice_range}"
-    )
+        dataset = create_dataset(task)
+        dataset_id = require_field(dataset, "id", "dataset create response")
+        annotation = wait_for_default_annotation(dataset_id)
+        annotation_id = require_field(annotation, "id", f"default annotation for dataset {dataset_id}")
+        annotation_pages = str(annotation.get("pages") or "")
+        slice_range = choose_slice_range(annotation, edition_id)
+        apply_sliced_annotation(dataset_id, annotation_id, slice_range)
+        print(
+            f"[{task_number}/{total_tasks}] Created dataset_id={dataset_id} annotation_id={annotation_id} "
+            f"pages={annotation_pages!r} slice_range={slice_range}"
+        )
 
-    if state_lock is None:
-        save_resume_state(facsimile_id, dataset_id, annotation_id, annotation_pages)
-    else:
-        with state_lock:
+        if state_lock is None:
             save_resume_state(facsimile_id, dataset_id, annotation_id, annotation_pages)
-    print(f"[{task_number}/{total_tasks}] Completed {edition_id} ({facsimile_id})")
+        else:
+            with state_lock:
+                save_resume_state(facsimile_id, dataset_id, annotation_id, annotation_pages)
+        print(f"[{task_number}/{total_tasks}] Completed {edition_id} ({facsimile_id})")
+        return True
+    except (Exception, SystemExit) as exc:
+        error_message = str(exc)
+        if state_lock is None:
+            save_task_error(facsimile_id, edition_id, error_message)
+        else:
+            with state_lock:
+                save_task_error(facsimile_id, edition_id, error_message)
+        print(
+            f"[{task_number}/{total_tasks}] Error for {edition_id} ({facsimile_id}): {error_message}",
+            file=sys.stderr,
+        )
+        return False
+
+
+def report_run_outcome(total_pending_tasks: int, failed_tasks: int) -> int:
+    if failed_tasks:
+        print(
+            f"Finished processing {total_pending_tasks} pending task(s) with {failed_tasks} failure(s).",
+            file=sys.stderr,
+        )
+        return 1
+    print("All tasks completed.")
+    return 0
 
 
 def create_dataset(task: Dict[str, str]) -> Dict[str, Any]:
