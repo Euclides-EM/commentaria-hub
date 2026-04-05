@@ -32,10 +32,13 @@ import (
 // This denoise flow was fine tuned on testdata/denoise examples
 
 const (
-	denoiseDebug = false
+	denoiseDebug = true
 
-	denoiseAdaptiveBlockSize = 61 // must be odd
-	denoiseAdaptiveC         = 14
+	denoiseAdaptiveBlockSize           = 61 // must be odd
+	denoiseAdaptiveC                   = 14
+	denoiseAdaptiveCLowQuality         = 8
+	denoiseSmallImageMinDim            = 800
+	denoiseLowQualityMaxOutputGray     = 210
 
 	// Contour-based speckle filter.
 	denoiseSpeckleMinArea   = 1.0
@@ -83,6 +86,8 @@ type denoiseParams struct {
 	maskRefineSupportSize int
 	enhanceSupportSize    int
 	blobMinArea           int
+	adaptiveC             int
+	skipOutputBlobFilter  bool
 }
 
 type supportPixel struct {
@@ -93,12 +98,18 @@ type supportPixel struct {
 
 func paramsForImage(rows, cols int) denoiseParams {
 	minDim := float64(minInt(rows, cols))
+	lowQuality := minDim < denoiseSmallImageMinDim
 	scale := minDim / denoiseReferenceMinDim
 	if scale < 0.5 {
 		scale = 0.5
 	}
 	if scale > 3.0 {
 		scale = 3.0
+	}
+
+	adaptiveC := denoiseAdaptiveC
+	if lowQuality {
+		adaptiveC = denoiseAdaptiveCLowQuality
 	}
 
 	return denoiseParams{
@@ -114,6 +125,8 @@ func paramsForImage(rows, cols int) denoiseParams {
 		maskRefineSupportSize: scaledOdd(11, scale, 5),
 		enhanceSupportSize:    scaledOdd(5, scale, 3),
 		blobMinArea:           maxInt(1, int(math.Round(float64(rows*cols)*denoiseBlobAreaFraction))),
+		adaptiveC:             adaptiveC,
+		skipOutputBlobFilter:  lowQuality,
 	}
 }
 
@@ -276,7 +289,7 @@ func denoiseOne(inPath, outPath string) error {
 		gocv.AdaptiveThresholdGaussian,
 		gocv.ThresholdBinaryInv, // ink=white, background=black
 		denoiseAdaptiveBlockSize,
-		denoiseAdaptiveC,
+		float32(params.adaptiveC),
 	)
 
 	// --- 4. First morphological open (small) ---
@@ -444,10 +457,27 @@ func applyForegroundMask(gray gocv.Mat, mask gocv.Mat, params denoiseParams, inP
 		out.SetUCharAt(px.r, px.c, px.blended)
 	}
 
-	filteredOut, keptPixels, maxBlobArea := filterOutputByBlobSize(out, params.blobMinArea)
-	debugLogf("[%s] output blobs: support_candidates=%d kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, len(supportPixels), keptPixels, params.blobMinArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
-	out.Close()
-	out = filteredOut
+	debugLogf("[%s] low_quality=%v adaptive_c=%d support_candidates=%d", inPath, params.skipOutputBlobFilter, params.adaptiveC, len(supportPixels))
+	if params.skipOutputBlobFilter {
+		rows := out.Rows()
+		cols := out.Cols()
+		wiped := 0
+		for r := 0; r < rows; r++ {
+			for c := 0; c < cols; c++ {
+				v := out.GetUCharAt(r, c)
+				if v < denoiseMaskColor && v > denoiseLowQualityMaxOutputGray {
+					out.SetUCharAt(r, c, denoiseMaskColor)
+					wiped++
+				}
+			}
+		}
+		debugLogf("[%s] low_quality brightness cutoff: wiped=%d threshold=%d", inPath, wiped, denoiseLowQualityMaxOutputGray)
+	} else {
+		filteredOut, keptPixels, maxBlobArea := filterOutputByBlobSize(out, params.blobMinArea)
+		debugLogf("[%s] output blobs: kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, keptPixels, params.blobMinArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
+		out.Close()
+		out = filteredOut
+	}
 
 	return out, nil
 }
