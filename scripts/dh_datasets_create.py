@@ -8,7 +8,6 @@ import random
 import re
 import sys
 import threading
-import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -17,6 +16,7 @@ from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 
 
 BASE_URL = "https://euclides.huma-num.fr/commentaria"
+PAGE_COUNTS_CSV_URL = "https://raw.githubusercontent.com/Euclides-EM/elements-facsimile/refs/heads/main/page_counts.csv"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CORPUSES_CSV_PATH = REPO_ROOT / "ocrflow" / "store" / "items_metadata" / "corpuses.csv"
 RESUME_STATE_PATH = Path(__file__).resolve().parent / "dh_datasets_create.state.json"
@@ -24,17 +24,14 @@ DRY_RUN = False
 DEFAULT_CONCURRENCY = 2
 HTTP_TIMEOUT_SECONDS = 60
 DATASET_CREATE_TIMEOUT_SECONDS = 60 * 60
-ANNOTATION_WAIT_TIMEOUT_SECONDS = 60
-ANNOTATION_WAIT_INTERVAL_SECONDS = 1
 DEFAULT_DPI = 300
-SLICED_ANNOTATION_NAME = "Sliced"
-FALLBACK_SLICE_RANGE = "50-100"
 SLICE_PAGE_COUNT = 50
 AUTH_TOKEN_ENV_VAR = "GITHUB_TOKEN"
 
 
 def main() -> int:
     require_auth_token()
+    page_counts_by_edition_id = load_page_counts()
     tasks = collect_tasks()
     if not tasks:
         print("No matching facsimiles found for dh corpuses.")
@@ -52,7 +49,7 @@ def main() -> int:
     if DRY_RUN:
         failed_tasks = 0
         for task_number, total_tasks, task in pending_tasks:
-            if not process_task(task_number, total_tasks, task, None):
+            if not process_task(task_number, total_tasks, task, page_counts_by_edition_id, None):
                 failed_tasks += 1
         return report_run_outcome(len(pending_tasks), failed_tasks)
 
@@ -61,7 +58,7 @@ def main() -> int:
     failed_tasks = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [
-            executor.submit(process_task, task_number, total_tasks, task, state_lock)
+            executor.submit(process_task, task_number, total_tasks, task, page_counts_by_edition_id, state_lock)
             for task_number, total_tasks, task in pending_tasks
         ]
         for future in concurrent.futures.as_completed(futures):
@@ -117,6 +114,45 @@ def load_dh_keys() -> List[str]:
     return keys
 
 
+def load_page_counts() -> Dict[str, int]:
+    request = urllib.request.Request(PAGE_COUNTS_CSV_URL, headers={"Accept": "text/csv"})
+    try:
+        with urllib.request.urlopen(request, timeout=HTTP_TIMEOUT_SECONDS) as response:
+            charset = response.headers.get_content_charset("utf-8")
+            raw_csv = response.read().decode(charset)
+    except urllib.error.HTTPError as exc:
+        error_body = exc.read().decode("utf-8", errors="replace")
+        fail(f"GET {PAGE_COUNTS_CSV_URL} failed with HTTP {exc.code}: {error_body}")
+    except urllib.error.URLError as exc:
+        fail(f"GET {PAGE_COUNTS_CSV_URL} failed: {exc}")
+
+    page_counts_by_edition_id: Dict[str, int] = {}
+    reader = csv.DictReader(raw_csv.splitlines())
+    if not reader.fieldnames:
+        fail(f"{PAGE_COUNTS_CSV_URL} returned an empty CSV.")
+    if "filename" not in reader.fieldnames or "pages" not in reader.fieldnames:
+        fail(f"{PAGE_COUNTS_CSV_URL} must contain filename and pages columns.")
+
+    for row in reader:
+        filename = (row.get("filename") or "").strip()
+        pages_raw = (row.get("pages") or "").strip()
+        if not filename or not pages_raw:
+            continue
+        if not filename.endswith(".pdf"):
+            fail(f"Unexpected filename in {PAGE_COUNTS_CSV_URL}: {filename!r}")
+        try:
+            pages = int(pages_raw)
+        except ValueError:
+            fail(f"Invalid pages value in {PAGE_COUNTS_CSV_URL} for {filename!r}: {pages_raw!r}")
+        if pages < 1:
+            fail(f"Invalid page count in {PAGE_COUNTS_CSV_URL} for {filename!r}: {pages}")
+        page_counts_by_edition_id[filename[:-4]] = pages
+
+    if not page_counts_by_edition_id:
+        fail(f"{PAGE_COUNTS_CSV_URL} did not contain any page counts.")
+    return page_counts_by_edition_id
+
+
 def has_dh_study(study: str) -> bool:
     return "dh" in {part.strip().lower() for part in study.split(",") if part.strip()}
 
@@ -136,7 +172,7 @@ def sorted_matching_edition_ids(key: str, edition_ids: Iterable[str]) -> List[st
 
 
 def get_pending_tasks(tasks: List[Dict[str, str]]) -> List[Tuple[int, int, Dict[str, str]]]:
-    completed_facsimile_ids = load_completed_facsimile_ids(tasks)
+    completed_facsimile_ids = load_completed_facsimile_ids()
     pending_tasks: List[Tuple[int, int, Dict[str, str]]] = []
     total_tasks = len(tasks)
     for index, task in enumerate(tasks):
@@ -146,28 +182,9 @@ def get_pending_tasks(tasks: List[Dict[str, str]]) -> List[Tuple[int, int, Dict[
     return pending_tasks
 
 
-def load_completed_facsimile_ids(tasks: List[Dict[str, str]]) -> Set[str]:
+def load_completed_facsimile_ids() -> Set[str]:
     state = load_resume_state()
-    completed_facsimile_ids = {
-        facsimile_id
-        for facsimile_id in parse_completed_facsimile_ids(state)
-        if facsimile_id
-    }
-    last_successful_facsimile_id = state.get("last_successful_facsimile_id")
-    if last_successful_facsimile_id and not completed_facsimile_ids:
-        for index, task in enumerate(tasks):
-            completed_facsimile_ids.add(task["facsimile_id"])
-            if task["facsimile_id"] == last_successful_facsimile_id:
-                print(
-                    f"Resume state found for facsimile {last_successful_facsimile_id}; skipping the first {index + 1} task(s)."
-                )
-                return completed_facsimile_ids
-        print(
-            f"Resume state facsimile {last_successful_facsimile_id} not found in current task list; starting from the beginning.",
-            file=sys.stderr,
-        )
-        return set()
-
+    completed_facsimile_ids = set(state.keys())
     if completed_facsimile_ids:
         print(f"Resume state found with {len(completed_facsimile_ids)} completed facsimile(s).")
     return completed_facsimile_ids
@@ -182,50 +199,29 @@ def load_resume_state() -> Dict[str, Any]:
         fail(f"Failed to parse resume state file {RESUME_STATE_PATH}: {exc}")
     if not isinstance(state, dict):
         fail(f"Resume state file {RESUME_STATE_PATH} must contain a JSON object.")
+    for facsimile_id, entry in state.items():
+        if not isinstance(entry, dict):
+            fail(
+                f"Resume state entry for facsimile {facsimile_id!r} must be an object with dataset_id and pages."
+            )
+        for field_name in ("dataset_id", "pages"):
+            if field_name not in entry:
+                fail(
+                    f"Resume state entry for facsimile {facsimile_id!r} is missing required field {field_name!r}."
+                )
     return state
 
 
-def parse_completed_facsimile_ids(state: Dict[str, Any]) -> List[str]:
-    completed_raw = str(state.get("completed_facsimile_ids", ""))
-    if not completed_raw:
-        return []
-    return [facsimile_id for facsimile_id in completed_raw.split(",") if facsimile_id]
-
-
 def save_resume_state(
-    last_successful_facsimile_id: str,
+    facsimile_id: str,
     dataset_id: str,
-    default_annotation_id: str,
     pages: str,
 ) -> None:
     state = load_resume_state()
-    completed_facsimile_ids = set(parse_completed_facsimile_ids(state))
-    completed_facsimile_ids.add(last_successful_facsimile_id)
-    failed_tasks = state.get("failed_tasks")
-    if isinstance(failed_tasks, dict):
-        failed_tasks.pop(last_successful_facsimile_id, None)
-    state = {
-        "last_successful_facsimile_id": last_successful_facsimile_id,
+    state[facsimile_id] = {
         "dataset_id": dataset_id,
-        "default_annotation_id": default_annotation_id,
         "pages": pages,
-        "completed_facsimile_ids": ",".join(sorted(completed_facsimile_ids)),
     }
-    if isinstance(failed_tasks, dict) and failed_tasks:
-        state["failed_tasks"] = failed_tasks
-    RESUME_STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
-
-
-def save_task_error(facsimile_id: str, edition_id: str, error_message: str) -> None:
-    state = load_resume_state()
-    failed_tasks = state.get("failed_tasks")
-    if not isinstance(failed_tasks, dict):
-        failed_tasks = {}
-    failed_tasks[facsimile_id] = {
-        "edition_id": edition_id,
-        "error": error_message,
-    }
-    state["failed_tasks"] = failed_tasks
     RESUME_STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
 
 
@@ -233,6 +229,7 @@ def process_task(
     task_number: int,
     total_tasks: int,
     task: Dict[str, str],
+    page_counts_by_edition_id: Dict[str, int],
     state_lock: Optional[Any],
 ) -> bool:
     facsimile_id = task["facsimile_id"]
@@ -240,35 +237,23 @@ def process_task(
     print(f"[{task_number}/{total_tasks}] Processing {edition_id} ({facsimile_id})")
     try:
         if DRY_RUN:
-            dry_run_task(task, edition_id)
+            dry_run_task(task, edition_id, page_counts_by_edition_id)
             return True
 
-        dataset = create_dataset(task)
+        dataset = create_dataset(task, page_counts_by_edition_id)
         dataset_id = require_field(dataset, "id", "dataset create response")
-        annotation = wait_for_default_annotation(dataset_id)
-        annotation_id = require_field(annotation, "id", f"default annotation for dataset {dataset_id}")
-        annotation_pages = str(annotation.get("pages") or "")
-        slice_range = choose_slice_range(annotation, edition_id)
-        apply_sliced_annotation(dataset_id, annotation_id, slice_range)
-        print(
-            f"[{task_number}/{total_tasks}] Created dataset_id={dataset_id} annotation_id={annotation_id} "
-            f"pages={annotation_pages!r} slice_range={slice_range}"
-        )
+        dataset_pages = str(dataset.get("pages") or "")
+        print(f"[{task_number}/{total_tasks}] Created dataset_id={dataset_id} pages={dataset_pages!r}")
 
         if state_lock is None:
-            save_resume_state(facsimile_id, dataset_id, annotation_id, annotation_pages)
+            save_resume_state(facsimile_id, dataset_id, dataset_pages)
         else:
             with state_lock:
-                save_resume_state(facsimile_id, dataset_id, annotation_id, annotation_pages)
+                save_resume_state(facsimile_id, dataset_id, dataset_pages)
         print(f"[{task_number}/{total_tasks}] Completed {edition_id} ({facsimile_id})")
         return True
     except (Exception, SystemExit) as exc:
         error_message = str(exc)
-        if state_lock is None:
-            save_task_error(facsimile_id, edition_id, error_message)
-        else:
-            with state_lock:
-                save_task_error(facsimile_id, edition_id, error_message)
         print(
             f"[{task_number}/{total_tasks}] Error for {edition_id} ({facsimile_id}): {error_message}",
             file=sys.stderr,
@@ -287,13 +272,26 @@ def report_run_outcome(total_pending_tasks: int, failed_tasks: int) -> int:
     return 0
 
 
-def create_dataset(task: Dict[str, str]) -> Dict[str, Any]:
+def choose_pages(edition_id: str, page_counts_by_edition_id: Dict[str, int]) -> str:
+    total_pages = page_counts_by_edition_id.get(edition_id)
+    if total_pages is None:
+        fail(f"Missing page count for edition_id {edition_id!r} in {PAGE_COUNTS_CSV_URL}.")
+    if total_pages <= SLICE_PAGE_COUNT:
+        return f"1-{total_pages}"
+    start_page = random.randint(1, total_pages - SLICE_PAGE_COUNT + 1)
+    end_page = start_page + SLICE_PAGE_COUNT - 1
+    return f"{start_page}-{end_page}"
+
+
+def create_dataset(task: Dict[str, str], page_counts_by_edition_id: Dict[str, int]) -> Dict[str, Any]:
+    pages = choose_pages(task["edition_id"], page_counts_by_edition_id)
     payload = {
-        "name": task["edition_id"],
+        "name": f'DH_Sliced_{task["edition_id"]}',
         "dpi": DEFAULT_DPI,
         "facsimile_id": task["facsimile_id"],
         "deskewed": True,
         "denoised": True,
+        "pages": pages,
     }
     query = urllib.parse.urlencode({"create_default_annotation": "true"})
     response = fetch_json("POST", f"/api/v1/datasets?{query}", payload, timeout_seconds=DATASET_CREATE_TIMEOUT_SECONDS)
@@ -302,127 +300,21 @@ def create_dataset(task: Dict[str, str]) -> Dict[str, Any]:
     return response
 
 
-def dry_run_task(task: Dict[str, str], edition_id: str) -> None:
-    print(
-        f"Warning: DRY_RUN cannot inspect the default annotation for {edition_id}; using fallback {FALLBACK_SLICE_RANGE}",
-        file=sys.stderr,
-    )
+def dry_run_task(task: Dict[str, str], edition_id: str, page_counts_by_edition_id: Dict[str, int]) -> None:
+    pages = choose_pages(edition_id, page_counts_by_edition_id)
     dataset_payload = {
-        "name": task["edition_id"],
+        "name": f'DH_Sliced_{task["edition_id"]}',
         "dpi": DEFAULT_DPI,
         "facsimile_id": task["facsimile_id"],
         "deskewed": True,
         "denoised": True,
+        "pages": pages,
     }
     print(
         "DRY RUN POST "
         f"{BASE_URL}/api/v1/datasets?create_default_annotation=true "
         f"payload={json.dumps(dataset_payload, sort_keys=True)}"
     )
-    print(
-        "DRY RUN PUT "
-        f"{BASE_URL}/api/v1/datasets/$datasetId/annotations/$annotationId/apply "
-        f"payload={json.dumps(build_sliced_rules_payload(FALLBACK_SLICE_RANGE), sort_keys=True)}"
-    )
-
-
-def wait_for_default_annotation(dataset_id: str) -> Dict[str, Any]:
-    deadline = time.time() + ANNOTATION_WAIT_TIMEOUT_SECONDS
-    last_seen_names: List[str] = []
-
-    while time.time() < deadline:
-        annotations = fetch_json("GET", f"/api/v1/datasets/{dataset_id}/annotations")
-        if not isinstance(annotations, list):
-            fail(f"Expected annotations response for dataset {dataset_id} to be a JSON array.")
-
-        by_name = {}
-        for annotation in annotations:
-            if not isinstance(annotation, dict):
-                fail(f"Expected annotation entries for dataset {dataset_id} to be JSON objects.")
-            name = annotation.get("name")
-            annotation_id = annotation.get("id")
-            if annotation_id and name:
-                by_name[name] = annotation
-
-        if "Base" in by_name:
-            return by_name["Base"]
-
-        if len(annotations) == 1:
-            annotation = annotations[0]
-            annotation_id = annotation.get("id")
-            if annotation_id:
-                return annotation
-
-        last_seen_names = sorted(name for name in by_name if name)
-        time.sleep(ANNOTATION_WAIT_INTERVAL_SECONDS)
-
-    fail(
-        f"Timed out waiting for default annotation for dataset {dataset_id}. "
-        f"Last seen annotation names: {last_seen_names}"
-    )
-
-
-def choose_slice_range(annotation: Dict[str, Any], edition_id: str) -> str:
-    pages = str(annotation.get("pages") or "").strip()
-    if not pages:
-        print(
-            f"Warning: default annotation for {edition_id} has no pages; using fallback {FALLBACK_SLICE_RANGE}",
-            file=sys.stderr,
-        )
-        return FALLBACK_SLICE_RANGE
-
-    match = re.fullmatch(r"(\d+)-(\d+)", pages)
-    if not match:
-        print(
-            f"Warning: default annotation for {edition_id} has unsupported pages {pages!r}; using fallback {FALLBACK_SLICE_RANGE}",
-            file=sys.stderr,
-        )
-        return FALLBACK_SLICE_RANGE
-
-    start_page = int(match.group(1))
-    end_page = int(match.group(2))
-    if start_page > end_page:
-        print(
-            f"Warning: default annotation for {edition_id} has invalid pages {pages!r}; using fallback {FALLBACK_SLICE_RANGE}",
-            file=sys.stderr,
-        )
-        return FALLBACK_SLICE_RANGE
-
-    available_pages = end_page - start_page + 1
-    if available_pages <= SLICE_PAGE_COUNT:
-        return f"{start_page}-{end_page}"
-
-    max_start = end_page - SLICE_PAGE_COUNT + 1
-    slice_start = random.randint(start_page, max_start)
-    slice_end = slice_start + SLICE_PAGE_COUNT - 1
-    return f"{slice_start}-{slice_end}"
-
-
-def build_sliced_rules_payload(slice_range: str) -> Dict[str, Any]:
-    return {
-        "action": "create_new",
-        "copy_feature_results": False,
-        "name": SLICED_ANNOTATION_NAME,
-        "rules": [
-            {
-                "pages": slice_range,
-                "type": "slice_pages",
-            }
-        ],
-    }
-
-
-def apply_sliced_annotation(dataset_id: str, annotation_id: str, slice_range: str) -> Dict[str, Any]:
-    response = fetch_json(
-        "PUT",
-        f"/api/v1/datasets/{dataset_id}/annotations/{annotation_id}/apply",
-        build_sliced_rules_payload(slice_range),
-    )
-    if not isinstance(response, dict):
-        fail(
-            f"Expected apply response for dataset {dataset_id} annotation {annotation_id} to be a JSON object."
-        )
-    return response
 
 
 def fetch_json(
