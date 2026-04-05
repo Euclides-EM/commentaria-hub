@@ -501,9 +501,10 @@ export function GalleryViewTab() {
     setState,
   } = useAppState()
 
-  const annotationPageEntries = annotation
-    ? parsePageEntries(annotation.pages || '')
-    : []
+  const annotationPageEntries = useMemo(
+    () => (annotation ? parsePageEntries(annotation.pages || '') : []),
+    [annotation],
+  )
   const shouldLoadImageKeys = !!annotation
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     datasetId,

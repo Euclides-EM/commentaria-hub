@@ -175,9 +175,10 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     [annotations, state.annotationId],
   )
   const hasPages = hasAnnotationPages(annotation)
-  const annotationPageEntries = annotation
-    ? parsePageEntries(annotation.pages || '')
-    : []
+  const annotationPageEntries = useMemo(
+    () => (annotation ? parsePageEntries(annotation.pages || '') : []),
+    [annotation],
+  )
   const shouldLoadImageKeys = !!annotation && !hasPages
   const { data: imageKeys = [] } = useDatasetImageKeysQuery(
     state.datasetId,

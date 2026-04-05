@@ -37,9 +37,10 @@ export function PageNavigation() {
   const { annotation, state, setState, jumpToPage } = useAppState()
   const isTitlePagesDataset = annotation?.dataset_id === TITLE_PAGES_DATASET_ID
   const hasPages = hasAnnotationPages(annotation)
-  const annotationPageEntries = annotation
-    ? parseAvailablePages(annotation)
-    : []
+  const annotationPageEntries = useMemo(
+    () => (annotation ? parseAvailablePages(annotation) : []),
+    [annotation],
+  )
   const shouldLoadImageKeys = !!annotation
   const showIndexPane = !!annotation?.segmented
   const showSearchPane =
@@ -117,9 +118,10 @@ export function PageNavigation() {
   )
 
   const currentOptionValue = currentOption?.value || currentValue
-  const editionItems = Array.isArray(editionsQuery.data)
-    ? editionsQuery.data
-    : []
+  const editionItems = useMemo(
+    () => (Array.isArray(editionsQuery.data) ? editionsQuery.data : []),
+    [editionsQuery.data],
+  )
   const currentEditionKey = useMemo(
     () =>
       findMatchingEditionKeyFromValues(
