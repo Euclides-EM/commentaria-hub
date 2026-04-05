@@ -377,7 +377,7 @@ func denoiseOne(inPath, outPath string) error {
 	}
 	defer refined.Close()
 
-	out, err := applyForegroundMask(normalized, refined, params)
+	out, err := applyForegroundMask(normalized, refined, params, inPath)
 	if err != nil {
 		return fmt.Errorf("apply foreground mask: %w", err)
 	}
@@ -389,7 +389,7 @@ func denoiseOne(inPath, outPath string) error {
 	return nil
 }
 
-func applyForegroundMask(gray gocv.Mat, mask gocv.Mat, params denoiseParams) (gocv.Mat, error) {
+func applyForegroundMask(gray gocv.Mat, mask gocv.Mat, params denoiseParams, inPath string) (gocv.Mat, error) {
 	supportKernel := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
 		image.Point{X: params.enhanceSupportSize, Y: params.enhanceSupportSize},
@@ -437,7 +437,7 @@ func applyForegroundMask(gray gocv.Mat, mask gocv.Mat, params denoiseParams) (go
 	}
 
 	filteredOut, keptPixels, maxBlobArea := filterOutputByBlobSize(out, params.blobMinArea)
-	debugLogf("formatcov output blobs: support_candidates=%d kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", len(supportPixels), keptPixels, params.blobMinArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
+	debugLogf("[%s] output blobs: support_candidates=%d kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, len(supportPixels), keptPixels, params.blobMinArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
 	out.Close()
 	out = filteredOut
 

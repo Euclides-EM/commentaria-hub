@@ -22,7 +22,17 @@ import (
 
 var errWriteFailed = errors.New("gocv IMWrite failed")
 
-const opencvRemapMaxDim = math.MaxInt16 - 1
+const (
+	opencvRemapMaxDim = math.MaxInt16 - 1
+	deskewDebug       = false
+)
+
+func deskewLogf(format string, args ...any) {
+	if !deskewDebug {
+		return
+	}
+	log.Printf(format, args...)
+}
 
 func maxDeskewWorkers() int {
 	n := runtime.NumCPU()
@@ -137,13 +147,15 @@ func deskewOneProjection(inPath, outPath string, p projParams) error {
 		// When resized, resizeMaxSide closed the clone and returned a new Mat; defer above closes current small.
 	}
 
-	angle, err := estimateSkewProjection(small, p)
+	angle, err := estimateSkewProjection(small, p, inPath)
 	if err != nil {
 		return err
 	}
 
+	deskewLogf("[%s] estimated angle=%.3f deg (minRotate=%.2f)", inPath, angle, p.MinRotate)
+
 	if math.Abs(angle) < p.MinRotate {
-		// Write original unchanged (still useful for comparison)
+		deskewLogf("[%s] skipping rotation (angle below threshold)", inPath)
 		if ok := gocv.IMWrite(outPath, img); !ok {
 			return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
 		}
@@ -199,7 +211,7 @@ func resizeMaxSide(src gocv.Mat, maxSide int) (gocv.Mat, error) {
 	return dst, nil
 }
 
-func estimateSkewProjection(img gocv.Mat, p projParams) (float64, error) {
+func estimateSkewProjection(img gocv.Mat, p projParams, inPath string) (float64, error) {
 	gray := gocv.NewMat()
 	defer gray.Close()
 	if err := gocv.CvtColor(img, &gray, gocv.ColorBGRToGray); err != nil {
@@ -242,18 +254,22 @@ func estimateSkewProjection(img gocv.Mat, p projParams) (float64, error) {
 	bestS := -1.0
 
 	for a := -p.AngleLimit; a <= p.AngleLimit+1e-9; a += p.AngleStep {
-		rot, err := rotateKeepAll(inv, a, 0)
+		rot, err := rotateSameSize(inv, a)
 		if err != nil {
 			return 0, fmt.Errorf("rotate for angle %.2f: %w", a, err)
 		}
 		s := projectionVariance(rot)
 		rot.Close()
 
+		deskewLogf("[%s] angle=%.2f score=%.6f", inPath, a, s)
+
 		if s > bestS {
 			bestS = s
 			bestA = a
 		}
 	}
+
+	deskewLogf("[%s] best angle=%.3f score=%.6f", inPath, bestA, bestS)
 
 	return bestA, nil
 }
@@ -384,6 +400,23 @@ func projectionVariance(invBinary gocv.Mat) float64 {
 	return variance
 }
 
+func rotateSameSize(src gocv.Mat, angleDeg float64) (gocv.Mat, error) {
+	h, w := src.Rows(), src.Cols()
+	center := image.Pt(w/2, h/2)
+	M := gocv.GetRotationMatrix2D(center, angleDeg, 1.0)
+	defer M.Close()
+
+	dst := gocv.NewMat()
+	if err := gocv.WarpAffineWithParams(src, &dst, M, image.Point{X: w, Y: h}, gocv.InterpolationNearestNeighbor, gocv.BorderConstant, color.RGBA{}); err != nil {
+		return dst, fmt.Errorf("warp affine: %w", err)
+	}
+	if dst.Empty() {
+		dst.Close()
+		return gocv.Mat{}, errors.New("warp produced empty image")
+	}
+	return dst, nil
+}
+
 func rotateKeepAll(src gocv.Mat, angleDeg float64, bg uint8) (gocv.Mat, error) {
 	h, w := src.Rows(), src.Cols()
 	cx := float64(w) / 2.0
@@ -400,6 +433,9 @@ func rotateKeepAll(src gocv.Mat, angleDeg float64, bg uint8) (gocv.Mat, error) {
 	if newW < 1 || newH < 1 {
 		return gocv.Mat{}, fmt.Errorf("rotation produced invalid size %dx%d", newW, newH)
 	}
+
+	M.SetDoubleAt(0, 2, M.GetDoubleAt(0, 2)+float64(newW)/2-cx)
+	M.SetDoubleAt(1, 2, M.GetDoubleAt(1, 2)+float64(newH)/2-cy)
 
 	dst := gocv.NewMat()
 	borderVal := color.RGBA{R: bg, G: bg, B: bg, A: 0}
