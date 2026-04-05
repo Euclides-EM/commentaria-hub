@@ -58,6 +58,14 @@ const (
 	denoiseBlobAreaFraction        = 0.000012
 	denoiseBlobMinGray             = 140
 	denoiseBlobMaxGray             = 254
+	denoiseBlobMaxMeanGray         = 212.0
+	denoiseBlobLargeAreaFactor     = 3
+	denoiseBlobLargeMaxMeanGray    = 202.0
+	denoiseBlobHugeAreaFactor      = 6
+	denoiseBlobHugeMaxMeanGray     = 194.0
+	denoiseBlobDarkAnchorGray      = 188
+	denoiseBlobDarkAnchorRatio     = 0.08
+	denoiseBlobDarkAnchorMinPixels = 3
 
 	denoiseReferenceMinDim = 1240.0
 )
@@ -652,6 +660,11 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 		queue = append(queue[:0], i)
 		component = append(component[:0], i)
 		seen[i] = true
+		sumGray := int(px.blended)
+		darkAnchors := 0
+		if int(px.blended) <= denoiseBlobDarkAnchorGray {
+			darkAnchors++
+		}
 
 		for head := 0; head < len(queue); head++ {
 			currIdx := queue[head]
@@ -673,13 +686,18 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 				seen[neighborIdx] = true
 				queue = append(queue, neighborIdx)
 				component = append(component, neighborIdx)
+				sumGray += neighborGray
+				if neighborGray <= denoiseBlobDarkAnchorGray {
+					darkAnchors++
+				}
 			}
 		}
 
-		if len(component) > maxBlobArea {
-			maxBlobArea = len(component)
+		area := len(component)
+		if area > maxBlobArea {
+			maxBlobArea = area
 		}
-		if len(component) >= minArea {
+		if area >= minArea && keepBlobComponent(area, minArea, float64(sumGray)/float64(area), darkAnchors) {
 			for _, idx := range component {
 				keep[idx] = true
 			}
@@ -687,6 +705,31 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 	}
 
 	return keep, maxBlobArea
+}
+
+func keepBlobComponent(area int, minArea int, meanGray float64, darkAnchors int) bool {
+	if meanGray <= blobMaxMeanGrayForArea(area, minArea) {
+		return true
+	}
+	return darkAnchors >= blobRequiredDarkAnchors(area)
+}
+
+func blobMaxMeanGrayForArea(area int, minArea int) float64 {
+	if area >= minArea*denoiseBlobHugeAreaFactor {
+		return denoiseBlobHugeMaxMeanGray
+	}
+	if area >= minArea*denoiseBlobLargeAreaFactor {
+		return denoiseBlobLargeMaxMeanGray
+	}
+	return denoiseBlobMaxMeanGray
+}
+
+func blobRequiredDarkAnchors(area int) int {
+	required := int(math.Ceil(float64(area) * denoiseBlobDarkAnchorRatio))
+	if required < denoiseBlobDarkAnchorMinPixels {
+		return denoiseBlobDarkAnchorMinPixels
+	}
+	return required
 }
 
 func filterOutputByBlobSize(src gocv.Mat, minArea int) (gocv.Mat, int, int) {
