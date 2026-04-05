@@ -163,6 +163,98 @@ function toModelEdition(data: EditionFormData): model_Edition {
   };
 }
 
+function toEditionFormData(
+  edition: model_Edition,
+  key: string,
+): EditionFormData {
+  const isManuscript = Boolean(edition.isManuscript);
+
+  return {
+    key,
+    shortTitle: edition.shortTitle || "",
+    shortTitleSource: edition.shortTitleSource || "",
+    cities: isManuscript ? [] : edition.cities || [],
+    notes: edition.notes || "",
+    corpus: edition.corpus || [],
+    shelfmarks: (edition.shelfmarks || []).map((s) => ({
+      volume: s.volume ?? null,
+      scan: s.scan ?? null,
+      shelfmark: s.shelfmark ?? null,
+      title_page_img: s.title_page_img ?? null,
+      frontispiece_img: s.frontispiece_img ?? null,
+      annotations: s.annotations ?? null,
+      copyright: s.copyright ?? null,
+    })),
+    verified: Boolean(edition.verified),
+    bibliography: edition.bibliography || [],
+    reprintOf: edition.reprintOf || null,
+    visualElements: (edition.visualElements || []).map((ve) => ({
+      visual_element_type: ve.visual_element_type || "",
+      notes: ve.notes || "",
+      locator_type: ve.locator_type || "uncatalogued",
+      locator: ve.locator
+        ? {
+            key: ve.locator.key,
+            first_order_type: ve.locator.first_order_type,
+            first_order_value: ve.locator.first_order_value,
+            type: ve.locator.type,
+            value: ve.locator.value,
+            page_type: ve.locator.page_type,
+            page_value: ve.locator.page_value,
+          }
+        : null,
+      examples: (ve.examples || []).map((example) => ({
+        img: example.img || "",
+        has_locator: Boolean(example.has_locator),
+        locator: example.locator
+          ? {
+              key: example.locator.key,
+              first_order_type: example.locator.first_order_type,
+              first_order_value: example.locator.first_order_value,
+              type: example.locator.type,
+              value: example.locator.value,
+              page_type: example.locator.page_type,
+              page_value: example.locator.page_value,
+            }
+          : null,
+      })),
+    })),
+    ...(isManuscript
+      ? {
+          isManuscript: true,
+          manuscriptYearFrom: edition.manuscriptYearFrom || 0,
+          manuscriptYearTo: edition.manuscriptYearTo || 0,
+          manuscriptClass: edition.manuscriptClass || "",
+          manuscriptSubclass: edition.manuscriptSubclass || null,
+        }
+      : {
+          isManuscript: false,
+          year: edition.year || "",
+          languages: edition.languages || [],
+          editor: edition.editor || [],
+          publisher: edition.publisher || [],
+          format: edition.format ?? null,
+          volumes: edition.volumes ?? 1,
+          ustcId: edition.ustcId || null,
+          title: edition.title || null,
+          title_EN: edition.title_EN || null,
+          imprint: edition.imprint || null,
+          imprint_EN: edition.imprint_EN || null,
+          colophon: edition.colophon || null,
+          colophon_EN: edition.colophon_EN || null,
+          frontispiece: edition.frontispiece || null,
+          frontispiece_EN: edition.frontispiece_EN || null,
+        }),
+    ...(edition.isElements
+      ? {
+          isElements: true,
+          books: edition.books || [],
+          additionalContent: edition.additionalContent || [],
+        }
+      : { isElements: false }),
+  };
+}
+
 const SHORT_TITLE_SOURCES = [
   "Specified in source",
   "Provided by catalog",
@@ -524,94 +616,11 @@ const generateCitationWithShortTitle = (item: model_Edition): string => {
   return citation;
 };
 
-const loadExistingItem = async (key: string): Promise<EditionFormData> => {
+const loadExistingItem = async (
+  key: string,
+): Promise<{ edition: model_Edition; formData: EditionFormData }> => {
   const edition = await getEdition(key);
-  const isManuscript = Boolean(edition.isManuscript);
-
-  return {
-    key,
-    shortTitle: edition.shortTitle || "",
-    shortTitleSource: edition.shortTitleSource || "",
-    cities: isManuscript ? [] : edition.cities || [],
-    notes: edition.notes || "",
-    corpus: edition.corpus || [],
-    shelfmarks: (edition.shelfmarks || []).map((s) => ({
-      volume: s.volume ?? null,
-      scan: s.scan ?? null,
-      shelfmark: s.shelfmark ?? null,
-      title_page_img: s.title_page_img ?? null,
-      frontispiece_img: s.frontispiece_img ?? null,
-      annotations: s.annotations ?? null,
-      copyright: s.copyright ?? null,
-    })),
-    verified: Boolean(edition.verified),
-    bibliography: edition.bibliography || [],
-    reprintOf: edition.reprintOf || null,
-    visualElements: (edition.visualElements || []).map((ve) => ({
-      visual_element_type: ve.visual_element_type || "",
-      notes: ve.notes || "",
-      locator_type: ve.locator_type || "uncatalogued",
-      locator: ve.locator
-        ? {
-            key: ve.locator.key,
-            first_order_type: ve.locator.first_order_type,
-            first_order_value: ve.locator.first_order_value,
-            type: ve.locator.type,
-            value: ve.locator.value,
-            page_type: ve.locator.page_type,
-            page_value: ve.locator.page_value,
-          }
-        : null,
-      examples: (ve.examples || []).map((example) => ({
-        img: example.img || "",
-        has_locator: Boolean(example.has_locator),
-        locator: example.locator
-          ? {
-              key: example.locator.key,
-              first_order_type: example.locator.first_order_type,
-              first_order_value: example.locator.first_order_value,
-              type: example.locator.type,
-              value: example.locator.value,
-              page_type: example.locator.page_type,
-              page_value: example.locator.page_value,
-            }
-          : null,
-      })),
-    })),
-    ...(isManuscript
-      ? {
-          isManuscript: true,
-          manuscriptYearFrom: edition.manuscriptYearFrom || 0,
-          manuscriptYearTo: edition.manuscriptYearTo || 0,
-          manuscriptClass: edition.manuscriptClass || "",
-          manuscriptSubclass: edition.manuscriptSubclass || null,
-        }
-      : {
-          isManuscript: false,
-          year: edition.year || "",
-          languages: edition.languages || [],
-          editor: edition.editor || [],
-          publisher: edition.publisher || [],
-          format: edition.format ?? null,
-          volumes: edition.volumes ?? 1,
-          ustcId: edition.ustcId || null,
-          title: edition.title || null,
-          title_EN: edition.title_EN || null,
-          imprint: edition.imprint || null,
-          imprint_EN: edition.imprint_EN || null,
-          colophon: edition.colophon || null,
-          colophon_EN: edition.colophon_EN || null,
-          frontispiece: edition.frontispiece || null,
-          frontispiece_EN: edition.frontispiece_EN || null,
-        }),
-    ...(edition.isElements
-      ? {
-          isElements: true,
-          books: edition.books || [],
-          additionalContent: edition.additionalContent || [],
-        }
-      : { isElements: false }),
-  };
+  return { edition, formData: toEditionFormData(edition, key) };
 };
 
 const defaultValues = (): EditionFormData => ({
@@ -808,7 +817,12 @@ export const UpsertEdition = () => {
       try {
         value.bibliography = value.bibliography.filter((b) => b);
         deepTrim(value);
-        await upsertEdition(toModelEdition(value), images, { isNew: !key });
+        const edition = toModelEdition(value);
+        if (key) {
+          edition.wardhaughClassification =
+            existingItemQuery.data?.edition.wardhaughClassification;
+        }
+        await upsertEdition(edition, images, { isNew: !key });
         navigateWithQuery(CATALOGUE_ROUTE);
       } catch (err) {
         console.error(err);
@@ -951,7 +965,7 @@ export const UpsertEdition = () => {
 
   useEffect(() => {
     if (existingItemQuery.data) {
-      setValues(existingItemQuery.data);
+      setValues(existingItemQuery.data.formData);
     }
   }, [existingItemQuery.data]);
 

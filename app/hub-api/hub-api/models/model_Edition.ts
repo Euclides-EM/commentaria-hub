@@ -51,6 +51,7 @@ export type model_Edition = {
     verified?: boolean;
     visualElements?: Array<model_EditionVisualElement>;
     volumes?: number;
+    wardhaughClassification?: string;
     year?: string;
 };
 
