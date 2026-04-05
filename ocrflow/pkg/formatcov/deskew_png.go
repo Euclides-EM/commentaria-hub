@@ -26,6 +26,13 @@ var errWriteFailed = errors.New("gocv IMWrite failed")
 const (
 	opencvRemapMaxDim = math.MaxInt16 - 1
 	deskewDebug       = false
+
+	deskewDownscaleMax = 1600
+	deskewTrimBorder   = true
+	deskewAngleLimit   = 2.0
+	deskewAngleStep    = 0.25
+	deskewMinRotate    = 0.15
+	deskewBackground   = uint8(255)
 )
 
 func deskewLogf(format string, args ...any) {
@@ -46,29 +53,7 @@ func maxDeskewWorkers() int {
 	return n
 }
 
-type projParams struct {
-	DownscaleMax int     // max(w,h) for angle estimation
-	TrimBorder   bool    // crop to content before estimating angle
-	AngleLimit   float64 // degrees, search [-limit, +limit]
-	AngleStep    float64 // degrees
-	MinRotate    float64 // degrees, skip tiny rotate
-	Bg           uint8   // background fill (white)
-}
-
-func defaultProjParams() projParams {
-	return projParams{
-		DownscaleMax: 1600,
-		TrimBorder:   true,
-		AngleLimit:   2.0,
-		AngleStep:    0.25,
-		MinRotate:    0.15,
-		Bg:           255,
-	}
-}
-
 func DeskewPNGs(src string, dst string) error {
-	params := defaultProjParams()
-
 	entries, err := os.ReadDir(src)
 	if err != nil {
 		return fmt.Errorf("read src dir %q: %w", src, err)
@@ -118,7 +103,7 @@ func DeskewPNGs(src string, dst string) error {
 
 			log.Printf("[%d/%d] Deskewing %q -> %q", i+1, len(jobs), j.inPath, j.outPath)
 
-			if err := deskewOneProjection(j.inPath, j.outPath, params); err != nil {
+			if err := deskewOneProjection(j.inPath, j.outPath); err != nil {
 				return fmt.Errorf("deskew %q: %w", j.inPath, err)
 			}
 			return nil
@@ -128,7 +113,7 @@ func DeskewPNGs(src string, dst string) error {
 	return grp.Wait()
 }
 
-func deskewOneProjection(inPath, outPath string, p projParams) error {
+func deskewOneProjection(inPath, outPath string) error {
 	img := gocv.IMRead(inPath, gocv.IMReadColor)
 	if img.Empty() {
 		return fmt.Errorf("read image %q: empty or unsupported format", inPath)
@@ -139,23 +124,23 @@ func deskewOneProjection(inPath, outPath string, p projParams) error {
 	small := img.Clone()
 	defer small.Close()
 
-	if p.DownscaleMax > 0 {
+	if deskewDownscaleMax > 0 {
 		var err error
-		small, err = resizeMaxSide(small, p.DownscaleMax)
+		small, err = resizeMaxSide(small, deskewDownscaleMax)
 		if err != nil {
 			return fmt.Errorf("downscale for angle estimation: %w", err)
 		}
 		// When resized, resizeMaxSide closed the clone and returned a new Mat; defer above closes current small.
 	}
 
-	angle, err := estimateSkewProjection(small, p, inPath)
+	angle, err := estimateSkewProjection(small, inPath)
 	if err != nil {
 		return err
 	}
 
-	deskewLogf("[%s] estimated angle=%.3f deg (minRotate=%.2f)", inPath, angle, p.MinRotate)
+	deskewLogf("[%s] estimated angle=%.3f deg (minRotate=%.2f)", inPath, angle, deskewMinRotate)
 
-	if math.Abs(angle) < p.MinRotate {
+	if math.Abs(angle) < deskewMinRotate {
 		deskewLogf("[%s] skipping rotation (angle below threshold)", inPath)
 		if ok := gocv.IMWrite(outPath, img); !ok {
 			return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
@@ -171,7 +156,7 @@ func deskewOneProjection(inPath, outPath string, p projParams) error {
 		return nil
 	}
 
-	rot, err := rotateKeepAll(img, angle, p.Bg)
+	rot, err := rotateKeepAll(img, angle, deskewBackground)
 	if err != nil {
 		return fmt.Errorf("rotate %q: %w", inPath, err)
 	}
@@ -212,7 +197,7 @@ func resizeMaxSide(src gocv.Mat, maxSide int) (gocv.Mat, error) {
 	return dst, nil
 }
 
-func estimateSkewProjection(img gocv.Mat, p projParams, inPath string) (float64, error) {
+func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 	gray := gocv.NewMat()
 	defer gray.Close()
 	if err := gocv.CvtColor(img, &gray, gocv.ColorBGRToGray); err != nil {
@@ -220,7 +205,7 @@ func estimateSkewProjection(img gocv.Mat, p projParams, inPath string) (float64,
 	}
 
 	// Optional trim: crop to content bbox before scoring
-	if p.TrimBorder {
+	if deskewTrimBorder {
 		var err error
 		bin, err := adaptiveBinary(gray)
 		if err != nil {
@@ -251,20 +236,20 @@ func estimateSkewProjection(img gocv.Mat, p projParams, inPath string) (float64,
 		return 0, fmt.Errorf("invert binary: %w", err)
 	}
 
-	lineAngle, lineDispersion, lineOK, err := estimateSkewTextLines(inv, p, inPath)
+	lineAngle, lineDispersion, lineOK, err := estimateSkewTextLines(inv, inPath)
 	if err != nil {
 		return 0, err
 	}
 	if lineOK {
-		if lineAngle < -p.AngleLimit {
-			lineAngle = -p.AngleLimit
+		if lineAngle < -deskewAngleLimit {
+			lineAngle = -deskewAngleLimit
 		}
-		if lineAngle > p.AngleLimit {
-			lineAngle = p.AngleLimit
+		if lineAngle > deskewAngleLimit {
+			lineAngle = deskewAngleLimit
 		}
 		deskewLogf("[%s] line-angle angle=%.3f dispersion=%.3f", inPath, lineAngle, lineDispersion)
 		if lineDispersion <= 0.75 {
-			refinedAngle, refinedScore, zeroScore, scoreSpan, err := refineProjectionAroundAngle(inv, lineAngle, p, inPath)
+			refinedAngle, refinedScore, zeroScore, scoreSpan, err := refineProjectionAroundAngle(inv, lineAngle, inPath)
 			if err != nil {
 				return 0, err
 			}
@@ -274,22 +259,22 @@ func estimateSkewProjection(img gocv.Mat, p projParams, inPath string) (float64,
 			}
 			if scoreSpan <= zeroScore*0.01 {
 				blended := 0.7*lineAngle + 0.3*refinedAngle
-				if blended < -p.AngleLimit {
-					blended = -p.AngleLimit
+				if blended < -deskewAngleLimit {
+					blended = -deskewAngleLimit
 				}
-				if blended > p.AngleLimit {
-					blended = p.AngleLimit
+				if blended > deskewAngleLimit {
+					blended = deskewAngleLimit
 				}
 				deskewLogf("[%s] line-angle accepted on projection plateau blended=%.3f", inPath, blended)
 				return blended, nil
 			}
 			if math.Abs(lineAngle) >= 0.75 && math.Abs(refinedAngle) <= 0.35 && math.Abs(refinedAngle-lineAngle) >= 0.5 && refinedScore-zeroScore <= zeroScore*0.003 {
 				blended := 0.8*lineAngle + 0.2*refinedAngle
-				if blended < -p.AngleLimit {
-					blended = -p.AngleLimit
+				if blended < -deskewAngleLimit {
+					blended = -deskewAngleLimit
 				}
-				if blended > p.AngleLimit {
-					blended = p.AngleLimit
+				if blended > deskewAngleLimit {
+					blended = deskewAngleLimit
 				}
 				deskewLogf("[%s] line-angle accepted on near-zero shoulder blended=%.3f", inPath, blended)
 				return blended, nil
@@ -300,15 +285,15 @@ func estimateSkewProjection(img gocv.Mat, p projParams, inPath string) (float64,
 
 	bestA := 0.0
 	bestS := -1.0
-	searchMin := -p.AngleLimit
-	searchMax := p.AngleLimit
+	searchMin := -deskewAngleLimit
+	searchMax := deskewAngleLimit
 	if lineOK {
 		window := math.Max(1.5, 2*lineDispersion)
-		searchMin = math.Max(-p.AngleLimit, lineAngle-window)
-		searchMax = math.Min(p.AngleLimit, lineAngle+window)
+		searchMin = math.Max(-deskewAngleLimit, lineAngle-window)
+		searchMax = math.Min(deskewAngleLimit, lineAngle+window)
 	}
 
-	for a := searchMin; a <= searchMax+1e-9; a += p.AngleStep {
+	for a := searchMin; a <= searchMax+1e-9; a += deskewAngleStep {
 		rot, err := rotateSameSize(inv, a)
 		if err != nil {
 			return 0, fmt.Errorf("rotate for angle %.2f: %w", a, err)
@@ -329,15 +314,15 @@ func estimateSkewProjection(img gocv.Mat, p projParams, inPath string) (float64,
 	return bestA, nil
 }
 
-func refineProjectionAroundAngle(inv gocv.Mat, center float64, p projParams, inPath string) (float64, float64, float64, float64, error) {
+func refineProjectionAroundAngle(inv gocv.Mat, center float64, inPath string) (float64, float64, float64, float64, error) {
 	window := 0.75
-	start := math.Max(-p.AngleLimit, center-window)
-	end := math.Min(p.AngleLimit, center+window)
+	start := math.Max(-deskewAngleLimit, center-window)
+	end := math.Min(deskewAngleLimit, center+window)
 
 	bestA := 0.0
 	bestS := -1.0
 	minS := math.MaxFloat64
-	for a := start; a <= end+1e-9; a += p.AngleStep {
+	for a := start; a <= end+1e-9; a += deskewAngleStep {
 		rot, err := rotateSameSize(inv, a)
 		if err != nil {
 			return 0, 0, 0, 0, fmt.Errorf("rotate for local refine angle %.2f: %w", a, err)
@@ -381,7 +366,7 @@ type angleCluster struct {
 	ok           bool
 }
 
-func estimateSkewTextLines(invBinary gocv.Mat, p projParams, inPath string) (float64, float64, bool, error) {
+func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (float64, float64, bool, error) {
 	rows := invBinary.Rows()
 	cols := invBinary.Cols()
 	if rows == 0 || cols == 0 {
@@ -427,7 +412,7 @@ func estimateSkewTextLines(invBinary gocv.Mat, p projParams, inPath string) (flo
 
 		rect := gocv.MinAreaRect(c)
 		observed := normalizeRectAngle(rect.Angle, rect.Width, rect.Height)
-		if math.Abs(observed) > p.AngleLimit {
+		if math.Abs(observed) > deskewAngleLimit {
 			continue
 		}
 
@@ -438,7 +423,7 @@ func estimateSkewTextLines(invBinary gocv.Mat, p projParams, inPath string) (flo
 		})
 	}
 
-	houghSamples, houghWeight, err := estimateSkewHoughLines(merged, p)
+	houghSamples, houghWeight, err := estimateSkewHoughLines(merged)
 	if err != nil {
 		return 0, 0, false, fmt.Errorf("estimate hough lines: %w", err)
 	}
@@ -450,10 +435,10 @@ func estimateSkewTextLines(invBinary gocv.Mat, p projParams, inPath string) (flo
 		return 0, 0, false, nil
 	}
 
-	contourCluster := summarizeAngleCluster("contours", contourSamples, p.AngleStep, 0.75)
-	houghCluster := summarizeAngleCluster("hough", houghSamples, p.AngleStep, 0.75)
+	contourCluster := summarizeAngleCluster("contours", contourSamples, deskewAngleStep, 0.75)
+	houghCluster := summarizeAngleCluster("hough", houghSamples, deskewAngleStep, 0.75)
 	combinedSamples := append(append([]weightedAngleSample(nil), contourSamples...), houghSamples...)
-	combinedCluster := summarizeAngleCluster("combined", combinedSamples, p.AngleStep, 0.75)
+	combinedCluster := summarizeAngleCluster("combined", combinedSamples, deskewAngleStep, 0.75)
 
 	logAngleCluster(inPath, contourCluster)
 	logAngleCluster(inPath, houghCluster)
@@ -474,7 +459,7 @@ func estimateSkewTextLines(invBinary gocv.Mat, p projParams, inPath string) (flo
 	return best.median, best.dispersion, true, nil
 }
 
-func estimateSkewHoughLines(merged gocv.Mat, p projParams) ([]weightedAngleSample, float64, error) {
+func estimateSkewHoughLines(merged gocv.Mat) ([]weightedAngleSample, float64, error) {
 	rows := merged.Rows()
 	cols := merged.Cols()
 	if rows == 0 || cols == 0 {
@@ -500,7 +485,7 @@ func estimateSkewHoughLines(merged gocv.Mat, p projParams) ([]weightedAngleSampl
 
 	samples := make([]weightedAngleSample, 0, lines.Rows())
 	totalWeight := 0.0
-	maxAngle := p.AngleLimit
+	maxAngle := deskewAngleLimit
 
 	for i := 0; i < lines.Rows(); i++ {
 		x1 := lines.GetIntAt(i, 0)
