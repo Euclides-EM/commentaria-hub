@@ -29,7 +29,7 @@ import (
 //  5. Run one final blob cleanup over light-gray residual output pixels only, using
 //     image-relative blob sizes and tone buckets to remove leftover speckle clusters.
 //
-// This denoise flow was fine tuned primarily against Paris_1615 pages 8-10.
+// This denoise flow was fine tuned on testdata/denoise examples
 
 const (
 	denoiseDebug = false
