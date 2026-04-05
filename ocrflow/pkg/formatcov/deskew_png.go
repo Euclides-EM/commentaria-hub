@@ -22,6 +22,8 @@ import (
 
 var errWriteFailed = errors.New("gocv IMWrite failed")
 
+const opencvRemapMaxDim = math.MaxInt16 - 1
+
 func maxDeskewWorkers() int {
 	n := runtime.NumCPU()
 	if n < 2 {
@@ -142,6 +144,14 @@ func deskewOneProjection(inPath, outPath string, p projParams) error {
 
 	if math.Abs(angle) < p.MinRotate {
 		// Write original unchanged (still useful for comparison)
+		if ok := gocv.IMWrite(outPath, img); !ok {
+			return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
+		}
+		return nil
+	}
+
+	if exceedsWarpAffineLimit(img, angle) {
+		log.Printf("Skipping deskew for %q: image dimensions exceed OpenCV remap limit during rotation", inPath)
 		if ok := gocv.IMWrite(outPath, img); !ok {
 			return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
 		}
@@ -401,4 +411,19 @@ func rotateKeepAll(src gocv.Mat, angleDeg float64, bg uint8) (gocv.Mat, error) {
 		return gocv.Mat{}, errors.New("warp produced empty image")
 	}
 	return dst, nil
+}
+
+func exceedsWarpAffineLimit(src gocv.Mat, angleDeg float64) bool {
+	h, w := src.Rows(), src.Cols()
+	if h >= opencvRemapMaxDim || w >= opencvRemapMaxDim {
+		return true
+	}
+
+	rad := math.Abs(angleDeg) * math.Pi / 180.0
+	cos := math.Abs(math.Cos(rad))
+	sin := math.Abs(math.Sin(rad))
+	newW := int(math.Round(float64(h)*sin + float64(w)*cos))
+	newH := int(math.Round(float64(h)*cos + float64(w)*sin))
+
+	return newW >= opencvRemapMaxDim || newH >= opencvRemapMaxDim
 }
