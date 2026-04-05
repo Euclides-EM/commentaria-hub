@@ -9,6 +9,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
@@ -20,7 +21,7 @@ import (
 )
 
 func main() {
-	inputPath := flag.String("input", "", "path to input image or PDF")
+	inputPath := flag.String("input", "", "path to input image, PNG directory, or PDF")
 	outputDir := flag.String("output-dir", "/tmp/formatcov", "directory for processed PNG output")
 	pageRange := flag.String("range", "", "optional PDF page range, e.g. 1,3-5")
 	dpi := flag.Float64("dpi", 300, "PDF render DPI")
@@ -89,7 +90,10 @@ func prepareInputPNGs(inputPath, outDir string, dpi float64, pages []int) error 
 		return fmt.Errorf("stat input %q: %w", inputPath, err)
 	}
 	if info.IsDir() {
-		return fmt.Errorf("input %q must be a file", inputPath)
+		if len(pages) > 0 {
+			return fmt.Errorf("page range is only supported for PDF input")
+		}
+		return pngDirToPNGs(inputPath, outDir)
 	}
 
 	ext := strings.ToLower(filepath.Ext(inputPath))
@@ -131,6 +135,38 @@ func imageToPNG(srcPath, dstPath string) error {
 
 	if err := png.Encode(out, img); err != nil {
 		return fmt.Errorf("encode png: %w", err)
+	}
+
+	return nil
+}
+
+func pngDirToPNGs(srcDir, outDir string) error {
+	entries, err := os.ReadDir(srcDir)
+	if err != nil {
+		return fmt.Errorf("read input dir %q: %w", srcDir, err)
+	}
+
+	var pngNames []string
+	for _, entry := range entries {
+		if entry.IsDir() {
+			continue
+		}
+		if strings.EqualFold(filepath.Ext(entry.Name()), ".png") {
+			pngNames = append(pngNames, entry.Name())
+		}
+	}
+
+	if len(pngNames) == 0 {
+		return fmt.Errorf("input dir %q has no .png files", srcDir)
+	}
+
+	sort.Strings(pngNames)
+	for _, name := range pngNames {
+		srcPath := filepath.Join(srcDir, name)
+		dstPath := filepath.Join(outDir, outputPNGName(name))
+		if err := imageToPNG(srcPath, dstPath); err != nil {
+			return fmt.Errorf("prepare %q: %w", srcPath, err)
+		}
 	}
 
 	return nil
