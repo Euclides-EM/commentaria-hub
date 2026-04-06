@@ -554,7 +554,6 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 		minBlobArea := denoiseOutputBlobMinArea(gray.Rows(), gray.Cols())
 		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, minBlobArea)
 		debugLogf("[%s] output blobs: kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, keptPixels, minBlobArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
-		out.Close()
 	}
 
 	return out, nil
