@@ -10,16 +10,18 @@ import (
 )
 
 type EnvConfig struct {
-	HTTPAddr                string        `env:"HTTP_ADDR" envDefault:":8085"`
-	GithubToken             string        `env:"GITHUB_TOKEN"`
-	GithubDownloaderTimeout time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"5m"`
-	PythonExecutable        string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
-	RoboflowAPIKey          string        `env:"ROBOFLOW_API_KEY"`
-	EscriptoriumBasePath    string        `env:"ESCRIPTORIUM_BASE_PATH" envDefault:"http://localhost:8080/"`
-	EscriptoriumUsername    string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
-	EscriptoriumPassword    string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
-	CommentariaPath         string        `env:"COMMENTARIA_PATH" envDefault:"https://euclides.huma-num.fr/commentaria"`
-	AllowedOriginsCORS      string        `env:"ALLOWED_ORIGINS_CORS" envDefault:""`
+	HTTPAddr                 string        `env:"HTTP_ADDR" envDefault:":8085"`
+	GithubToken              string        `env:"GITHUB_TOKEN"`
+	GithubDownloaderTimeout  time.Duration `env:"GITHUB_DOWNLOADER_TIMEOUT" envDefault:"5m"`
+	DatasetCreateMaxParallel int           `env:"DATASET_CREATE_MAX_PARALLEL"`
+	DatasetCreateQueueWait   time.Duration `env:"DATASET_CREATE_QUEUE_WAIT_TIMEOUT"`
+	PythonExecutable         string        `env:"PYTHON_EXECUTABLE" envDefault:"python"`
+	RoboflowAPIKey           string        `env:"ROBOFLOW_API_KEY"`
+	EscriptoriumBasePath     string        `env:"ESCRIPTORIUM_BASE_PATH" envDefault:"http://localhost:8080/"`
+	EscriptoriumUsername     string        `env:"ESCRIPTORIUM_USERNAME" envDefault:"admin"`
+	EscriptoriumPassword     string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
+	CommentariaPath          string        `env:"COMMENTARIA_PATH" envDefault:"https://euclides.huma-num.fr/commentaria"`
+	AllowedOriginsCORS       string        `env:"ALLOWED_ORIGINS_CORS" envDefault:""`
 
 	RootDir       string `env:"ROOT_DIR" envDefault:"./"`
 	StoreDir      string `env:"STORE_DIR" envDefault:"./store"`

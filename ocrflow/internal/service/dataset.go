@@ -32,9 +32,17 @@ type Dataset struct {
 	datasetStore     *store.DatasetSQL
 	fileSysMgt       *filesys.Manager
 	githubDownloader *ghwrapper.Wrapper
+	createQueue      chan struct{}
+	createQueueWait  time.Duration
 }
 
-func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper) *Dataset {
+func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
+	if maxParallelCreates <= 0 {
+		maxParallelCreates = 2
+	}
+	if createQueueWait <= 0 {
+		createQueueWait = 60 * time.Minute
+	}
 	return &Dataset{
 		editionSvc:       editionSvc,
 		facsimileSvc:     facsimileSvc,
@@ -42,6 +50,8 @@ func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *M
 		datasetStore:     datasetStore,
 		fileSysMgt:       fileSystemMgt,
 		githubDownloader: githubDownloader,
+		createQueue:      make(chan struct{}, maxParallelCreates),
+		createQueueWait:  createQueueWait,
 	}
 }
 
@@ -129,6 +139,32 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDa
 
 // runDatasetCreation performs download, PDF→PNG, and optional deskew, then updates dataset status.
 func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string, onCreate func(dataset *model.Dataset) error) {
+	waitStart := time.Now()
+	queuedAhead := len(d.createQueue)
+	queueCapacity := cap(d.createQueue)
+	log.Printf("dataset %s waiting for creation queue slot (queued ahead=%d, queue capacity=%d, timeout=%s)", ds.ID, queuedAhead, queueCapacity, d.createQueueWait)
+
+	timeout := time.NewTimer(d.createQueueWait)
+	defer timeout.Stop()
+
+	select {
+	case d.createQueue <- struct{}{}:
+		log.Printf("dataset %s acquired creation queue slot after %s", ds.ID, time.Since(waitStart))
+		defer func() {
+			<-d.createQueue
+		}()
+	case <-timeout.C:
+		err := fmt.Errorf("timed out waiting for dataset creation queue slot after %s", d.createQueueWait)
+		log.Printf("async dataset creation timed out for %s: %v", ds.ID, err)
+		_ = d.datasetStore.UpdateDatasetCreationStatus(ds.ID, model.DatasetStatusFailed, err.Error())
+		return
+	case <-ctx.Done():
+		err := fmt.Errorf("dataset creation cancelled while waiting for queue slot: %w", ctx.Err())
+		log.Printf("async dataset creation cancelled for %s: %v", ds.ID, err)
+		_ = d.datasetStore.UpdateDatasetCreationStatus(ds.ID, model.DatasetStatusFailed, err.Error())
+		return
+	}
+
 	_, err := d.doDatasetCreation(ctx, ds, scanURL)
 	if err != nil {
 		log.Printf("async dataset creation failed for %s: %v", ds.ID, err)

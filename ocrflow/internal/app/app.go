@@ -94,7 +94,16 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
 	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl))
-	datasetSvc := service.NewDatasetService(editionSvc, facsimileSvc, modelSvc, datasetStore, fileSystemManager, ghDownloader)
+	datasetSvc := service.NewDatasetService(
+		editionSvc,
+		facsimileSvc,
+		modelSvc,
+		datasetStore,
+		fileSystemManager,
+		ghDownloader,
+		env.DatasetCreateMaxParallel,
+		env.DatasetCreateQueueWait,
+	)
 	datasetImgSvc := service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc)
 	featureProperty := service.NewFeatureProperty()
 	featureSvc := service.NewFeature(featureStore, featureRevisionStore, featureProperty)
