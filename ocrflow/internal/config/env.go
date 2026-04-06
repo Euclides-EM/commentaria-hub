@@ -23,7 +23,7 @@ type EnvConfig struct {
 
 	RootDir       string `env:"ROOT_DIR" envDefault:"./"`
 	StoreDir      string `env:"STORE_DIR" envDefault:"./store"`
-	TempDir       string `env:"OCRFLOW_TEMP_DIR" envDefault:"./tmp"`
+	TempDir       string `env:"OCRFLOW_TEMP_DIR"`
 	BackupRootDir string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
 
 	FacsimilesGithubRepoUrl string `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
