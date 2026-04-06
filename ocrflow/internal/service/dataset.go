@@ -41,7 +41,7 @@ func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *M
 		maxParallelCreates = 1
 	}
 	if createQueueWait <= 0 {
-		createQueueWait = 60 * time.Minute
+		createQueueWait = 7 * time.Hour
 	}
 	return &Dataset{
 		editionSvc:       editionSvc,
@@ -290,7 +290,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 		}
 	}
 
-	log.Printf("Dataset %s fully created", ds.ID)
+	log.Printf("Dataset %s (id: %s) fully created", ds.Name, ds.ID)
 	// When async, record was already inserted with status "creating"; we only update status in runDatasetCreation.
 	if ds.Status != model.DatasetStatusCreating {
 		if err := d.datasetStore.InsertDataset(ds); err != nil {
