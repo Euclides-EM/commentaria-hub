@@ -17,6 +17,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
@@ -32,6 +33,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	if err != nil {
 		return nil, fmt.Errorf("init env: %w", err)
 	}
+	futils.InitTemp(env.TmpDir())
 	if err = store.InitMountProjToStore(env.RootDir, env.StoreDir); err != nil {
 		return nil, fmt.Errorf("init mount proj to store: %w", err)
 	}
@@ -204,5 +206,6 @@ func (a *OCRFlowApp) Close() error {
 	if a.DB != nil {
 		return a.DB.Close()
 	}
+	futils.CleanTemp()
 	return nil
 }

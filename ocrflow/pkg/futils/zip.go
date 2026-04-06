@@ -114,7 +114,7 @@ func Zip(srcDir, destZip string) error {
 }
 
 func UnzipFromReader(dstPath string, file io.Reader) error {
-	dst, err := os.CreateTemp("", "upload-*.zip")
+	dst, err := CreateTemp("upload-*.zip")
 	if err != nil {
 		return fmt.Errorf("failed to create file: %w", err)
 	}

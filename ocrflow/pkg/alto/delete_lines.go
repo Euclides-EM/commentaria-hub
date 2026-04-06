@@ -7,6 +7,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 )
 
 func DeleteLines(src, dst string) error {
@@ -16,7 +18,7 @@ func DeleteLines(src, dst string) error {
 
 	if inplace {
 		dir := filepath.Dir(dst)
-		tmpFile, err := os.CreateTemp(dir, "deletelines-*.xml")
+		tmpFile, err := futils.CreateTempInDir(dir, "deletelines-*.xml")
 		if err != nil {
 			return fmt.Errorf("create temp file: %w", err)
 		}

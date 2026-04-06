@@ -269,7 +269,7 @@ func (s *Backup) ensureBackupDir() error {
 }
 
 func (s *Backup) CreateBackupFromZip(file multipart.File, f func(dstPath string) error) (string, error) {
-	dst, err := os.CreateTemp("", "upload-*.zip")
+	dst, err := futils.CreateTemp("upload-*.zip")
 	if err != nil {
 		return "", fmt.Errorf("create backup from zip: create temp file: %w", err)
 	}

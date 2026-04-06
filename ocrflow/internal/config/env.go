@@ -23,6 +23,7 @@ type EnvConfig struct {
 
 	RootDir       string `env:"ROOT_DIR" envDefault:"./"`
 	StoreDir      string `env:"STORE_DIR" envDefault:"./store"`
+	TempDir       string `env:"OCRFLOW_TEMP_DIR" envDefault:"./tmp"`
 	BackupRootDir string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
 
 	FacsimilesGithubRepoUrl string `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
@@ -82,6 +83,10 @@ func (ec *EnvConfig) BackupDir() string {
 
 func (ec *EnvConfig) RestoreDir() string {
 	return filepath.Join(ec.BackupRootDir, "restore")
+}
+
+func (ec *EnvConfig) TmpDir() string {
+	return ec.TempDir
 }
 
 func (ec *EnvConfig) AllowedOriginsCORSList() []string {

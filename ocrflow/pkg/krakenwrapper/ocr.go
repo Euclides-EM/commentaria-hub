@@ -69,7 +69,7 @@ func validateImgAndAltoPaths(imgAndAltoPaths [][2]string) error {
 func runPairsOCRUsingExistingAlto(imgAndAltoPaths [][2]string, ocrModel string) error {
 
 	// create temp dir that includes the ato and images
-	tmpDir, err := os.MkdirTemp("", "kraken_ocr_reuse_alto-*")
+	tmpDir, err := futils.MkdirTemp("kraken_ocr_reuse_alto")
 	if err != nil {
 		return fmt.Errorf("could not create temp dir for kraken OCR reuse ALTO: %w", err)
 	}

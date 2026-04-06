@@ -13,6 +13,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 
 	_ "image/gif"
@@ -59,13 +60,13 @@ func run(inputPath, outputDir, pageRange string, dpi float64) error {
 		}
 	}
 
-	rawDir, err := os.MkdirTemp("", "formatcov-raw-*")
+	rawDir, err := futils.MkdirTemp("formatcov-raw")
 	if err != nil {
 		return fmt.Errorf("create raw temp dir: %w", err)
 	}
 	defer os.RemoveAll(rawDir)
 
-	deskewDir, err := os.MkdirTemp("", "formatcov-deskew-*")
+	deskewDir, err := futils.MkdirTemp("formatcov-deskew")
 	if err != nil {
 		return fmt.Errorf("create deskew temp dir: %w", err)
 	}
