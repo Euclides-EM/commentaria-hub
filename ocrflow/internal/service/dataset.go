@@ -60,6 +60,33 @@ func (d *Dataset) List(filter *querylang.Filter, sort querylang.Sort) ([]*model.
 	return d.datasetStore.ListDatasets()
 }
 
+func (d *Dataset) CleanupDatasets(dryRun bool) ([]*model.Dataset, error) {
+	dss, err := d.List(nil, nil)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list datasets: %w", err)
+	}
+	var toRemove []*model.Dataset
+	for _, ds := range dss {
+		if ds.Status == model.DatasetStatusCreating || ds.Status == model.DatasetStatusFailed {
+			toRemove = append(toRemove, ds)
+		}
+	}
+	if dryRun {
+		return toRemove, nil
+	}
+	log.Printf("cleaning up %d datasets...", len(dss))
+	for _, ds := range toRemove {
+		log.Printf("Dataset %s in status %s marked for cleanup", ds.ID, ds.Status)
+		if err := d.Delete(ds.ID); err != nil {
+			log.Printf("Failed to delete dataset %s during cleanup: %v", ds.ID, err)
+		} else {
+			log.Printf("Deleted dataset %s during cleanup", ds.ID)
+		}
+	}
+	log.Printf("finished cleaning up datasets")
+	return toRemove, nil
+}
+
 func (d *Dataset) Get(id string) (*model.Dataset, error) {
 	ds, err := d.datasetStore.GetDataset(id)
 	if err != nil {
