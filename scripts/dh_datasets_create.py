@@ -1,29 +1,22 @@
 #!/usr/bin/env python3
 
 import csv
-import concurrent.futures
 import json
 import os
 import random
 import re
+import shlex
 import sys
-import threading
 import urllib.error
-import urllib.parse
 import urllib.request
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
-
+from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 BASE_URL = "https://euclides.huma-num.fr/commentaria"
 PAGE_COUNTS_CSV_URL = "https://raw.githubusercontent.com/Euclides-EM/elements-facsimile/refs/heads/main/page_counts.csv"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CORPUSES_CSV_PATH = REPO_ROOT / "ocrflow" / "store" / "items_metadata" / "corpuses.csv"
-RESUME_STATE_PATH = Path(__file__).resolve().parent / "dh_datasets_create.state.json"
-DRY_RUN = False
-DEFAULT_CONCURRENCY = 2
 HTTP_TIMEOUT_SECONDS = 60
-DATASET_CREATE_TIMEOUT_SECONDS = 60 * 60
 DEFAULT_DPI = 300
 SLICE_PAGE_COUNT = 50
 AUTH_TOKEN_ENV_VAR = "GITHUB_TOKEN"
@@ -32,43 +25,16 @@ AUTH_TOKEN_ENV_VAR = "GITHUB_TOKEN"
 def main() -> int:
     require_auth_token()
     page_counts_by_edition_id = load_page_counts()
-    tasks = collect_tasks()
-    if not tasks:
+    print_shell_method()
+    task_count = collect_tasks(page_counts_by_edition_id)
+    if not task_count:
         print("No matching facsimiles found for dh corpuses.")
         return 0
-
-    pending_tasks = get_pending_tasks(tasks)
-    if not pending_tasks:
-        print(f"Collected {len(tasks)} task(s). All tasks are already completed.")
-        return 0
-
-    print(
-        f"Collected {len(tasks)} task(s). Running {len(pending_tasks)} pending task(s) with concurrency {DEFAULT_CONCURRENCY}."
-    )
-
-    if DRY_RUN:
-        failed_tasks = 0
-        for task_number, total_tasks, task in pending_tasks:
-            if not process_task(task_number, total_tasks, task, page_counts_by_edition_id, None):
-                failed_tasks += 1
-        return report_run_outcome(len(pending_tasks), failed_tasks)
-
-    state_lock = threading.Lock()
-    max_workers = min(DEFAULT_CONCURRENCY, len(pending_tasks))
-    failed_tasks = 0
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [
-            executor.submit(process_task, task_number, total_tasks, task, page_counts_by_edition_id, state_lock)
-            for task_number, total_tasks, task in pending_tasks
-        ]
-        for future in concurrent.futures.as_completed(futures):
-            if not future.result():
-                failed_tasks += 1
-
-    return report_run_outcome(len(pending_tasks), failed_tasks)
+    print(f"Collected {task_count} task(s).")
+    return 0
 
 
-def collect_tasks() -> List[Dict[str, str]]:
+def collect_tasks(page_counts_by_edition_id: Dict[str, int]) -> int:
     csv_keys = load_dh_keys()
     facsimiles = fetch_json("GET", "/api/v1/facsimilies")
     if not isinstance(facsimiles, list):
@@ -87,7 +53,7 @@ def collect_tasks() -> List[Dict[str, str]]:
             "facsimile_id": facsimile_id,
         }
 
-    tasks: List[Dict[str, str]] = []
+    task_count = 0
     for key in csv_keys:
         matches = [
             facsimiles_by_edition_id[edition_id]
@@ -96,9 +62,11 @@ def collect_tasks() -> List[Dict[str, str]]:
         if not matches:
             print(f"Warning: no facsimile found for key {key}", file=sys.stderr)
             continue
-        tasks.extend(matches)
+        for task in matches:
+            print_task_command(task, page_counts_by_edition_id)
+            task_count += 1
 
-    return tasks
+    return task_count
 
 
 def load_dh_keys() -> List[str]:
@@ -171,158 +139,54 @@ def sorted_matching_edition_ids(key: str, edition_ids: Iterable[str]) -> List[st
     return [edition_id for _, edition_id in matches]
 
 
-def get_pending_tasks(tasks: List[Dict[str, str]]) -> List[Tuple[int, int, Dict[str, str]]]:
-    completed_facsimile_ids = load_completed_facsimile_ids()
-    pending_tasks: List[Tuple[int, int, Dict[str, str]]] = []
-    total_tasks = len(tasks)
-    for index, task in enumerate(tasks):
-        if task["facsimile_id"] in completed_facsimile_ids:
-            continue
-        pending_tasks.append((index + 1, total_tasks, task))
-    return pending_tasks
-
-
-def load_completed_facsimile_ids() -> Set[str]:
-    state = load_resume_state()
-    completed_facsimile_ids = set(state.keys())
-    if completed_facsimile_ids:
-        print(f"Resume state found with {len(completed_facsimile_ids)} completed facsimile(s).")
-    return completed_facsimile_ids
-
-
-def load_resume_state() -> Dict[str, Any]:
-    if not RESUME_STATE_PATH.exists():
-        return {}
-    try:
-        state = json.loads(RESUME_STATE_PATH.read_text(encoding="utf-8"))
-    except json.JSONDecodeError as exc:
-        fail(f"Failed to parse resume state file {RESUME_STATE_PATH}: {exc}")
-    if not isinstance(state, dict):
-        fail(f"Resume state file {RESUME_STATE_PATH} must contain a JSON object.")
-    for facsimile_id, entry in state.items():
-        if not isinstance(entry, dict):
-            fail(
-                f"Resume state entry for facsimile {facsimile_id!r} must be an object with dataset_id and pages."
-            )
-        for field_name in ("dataset_id", "pages"):
-            if field_name not in entry:
-                fail(
-                    f"Resume state entry for facsimile {facsimile_id!r} is missing required field {field_name!r}."
-                )
-    return state
-
-
-def save_resume_state(
-    facsimile_id: str,
-    dataset_id: str,
-    pages: str,
-) -> None:
-    state = load_resume_state()
-    state[facsimile_id] = {
-        "dataset_id": dataset_id,
-        "pages": pages,
-    }
-    RESUME_STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
-
-
-def process_task(
-    task_number: int,
-    total_tasks: int,
-    task: Dict[str, str],
-    page_counts_by_edition_id: Dict[str, int],
-    state_lock: Optional[Any],
-) -> bool:
-    facsimile_id = task["facsimile_id"]
-    edition_id = task["edition_id"]
-    print(f"[{task_number}/{total_tasks}] Processing {edition_id} ({facsimile_id})")
-    try:
-        if DRY_RUN:
-            dry_run_task(task, edition_id, page_counts_by_edition_id)
-            return True
-
-        dataset = create_dataset(task, page_counts_by_edition_id)
-        dataset_id = require_field(dataset, "id", "dataset create response")
-        dataset_pages = str(dataset.get("pages") or "")
-        print(f"[{task_number}/{total_tasks}] Created dataset_id={dataset_id} pages={dataset_pages!r}")
-
-        if state_lock is None:
-            save_resume_state(facsimile_id, dataset_id, dataset_pages)
-        else:
-            with state_lock:
-                save_resume_state(facsimile_id, dataset_id, dataset_pages)
-        print(f"[{task_number}/{total_tasks}] Completed {edition_id} ({facsimile_id})")
-        return True
-    except (Exception, SystemExit) as exc:
-        error_message = str(exc)
-        print(
-            f"[{task_number}/{total_tasks}] Error for {edition_id} ({facsimile_id}): {error_message}",
-            file=sys.stderr,
-        )
-        return False
-
-
-def report_run_outcome(total_pending_tasks: int, failed_tasks: int) -> int:
-    if failed_tasks:
-        print(
-            f"Finished processing {total_pending_tasks} pending task(s) with {failed_tasks} failure(s).",
-            file=sys.stderr,
-        )
-        return 1
-    print("All tasks completed.")
-    return 0
-
-
 def choose_pages(edition_id: str, page_counts_by_edition_id: Dict[str, int]) -> str:
     total_pages = page_counts_by_edition_id.get(edition_id)
     if total_pages is None:
         fail(f"Missing page count for edition_id {edition_id!r} in {PAGE_COUNTS_CSV_URL}.")
     if total_pages <= SLICE_PAGE_COUNT:
         return f"1-{total_pages}"
-    start_page = random.randint(1, total_pages - SLICE_PAGE_COUNT + 1)
-    end_page = start_page + SLICE_PAGE_COUNT - 1
-    return f"{start_page}-{end_page}"
+    selected_pages = sorted(random.sample(range(1, total_pages + 1), SLICE_PAGE_COUNT))
+    return ",".join(str(page) for page in selected_pages)
 
 
-def create_dataset(task: Dict[str, str], page_counts_by_edition_id: Dict[str, int]) -> Dict[str, Any]:
+def print_shell_method() -> None:
+    print("create_dataset() {")
+    print("  local name=\"$1\"")
+    print("  local facsimile_id=\"$2\"")
+    print("  local pages=\"$3\"")
+    print("  curl -X POST \\")
+    print("    -H 'Accept: application/json' \\")
+    print("    -H 'Content-Type: application/json' \\")
+    print(f'    -H "Authorization: Bearer ${AUTH_TOKEN_ENV_VAR}" \\')
+    print(f"    '{BASE_URL}/api/v1/datasets?create_default_annotation=true' \\")
+    print("    -d @- <<EOF")
+    print("{")
+    print('  "name": "'"'"'${name}'"'"'",')
+    print(f'  "dpi": {DEFAULT_DPI},')
+    print('  "facsimile_id": "'"'"'${facsimile_id}'"'"'",')
+    print('  "deskewed": true,')
+    print('  "denoised": true,')
+    print('  "pages": "'"'"'${pages}'"'"'"')
+    print("}")
+    print("EOF")
+    print("}")
+    print()
+
+
+def print_task_command(task: Dict[str, str], page_counts_by_edition_id: Dict[str, int]) -> None:
     pages = choose_pages(task["edition_id"], page_counts_by_edition_id)
-    payload = {
-        "name": f'DH_Sliced_{task["edition_id"]}',
-        "dpi": DEFAULT_DPI,
-        "facsimile_id": task["facsimile_id"],
-        "deskewed": True,
-        "denoised": True,
-        "pages": pages,
-    }
-    query = urllib.parse.urlencode({"create_default_annotation": "true"})
-    response = fetch_json("POST", f"/api/v1/datasets?{query}", payload, timeout_seconds=DATASET_CREATE_TIMEOUT_SECONDS)
-    if not isinstance(response, dict):
-        fail("Expected dataset create response to be a JSON object.")
-    return response
-
-
-def dry_run_task(task: Dict[str, str], edition_id: str, page_counts_by_edition_id: Dict[str, int]) -> None:
-    pages = choose_pages(edition_id, page_counts_by_edition_id)
-    dataset_payload = {
-        "name": f'DH_Sliced_{task["edition_id"]}',
-        "dpi": DEFAULT_DPI,
-        "facsimile_id": task["facsimile_id"],
-        "deskewed": True,
-        "denoised": True,
-        "pages": pages,
-    }
-    print(
-        "DRY RUN POST "
-        f"{BASE_URL}/api/v1/datasets?create_default_annotation=true "
-        f"payload={json.dumps(dataset_payload, sort_keys=True)}"
-    )
+    dataset_name = shell_quote(f'DH_Sliced_{task["edition_id"]}')
+    facsimile_id = shell_quote(task["facsimile_id"])
+    pages_arg = shell_quote(pages)
+    print(f"create_dataset \"{dataset_name}\" \"{facsimile_id}\" \"{pages_arg}\"")
 
 
 def fetch_json(
-    method: str,
-    path: str,
-    payload: Optional[Dict[str, Any]] = None,
-    timeout_seconds: int = HTTP_TIMEOUT_SECONDS,
-) -> Any:
+        method: str,
+        path: str,
+        payload: Optional[Dict[str, Any]] = None,
+        timeout_seconds: int = HTTP_TIMEOUT_SECONDS,
+) -> object:
     url = f"{BASE_URL}{path}"
     body = None
     headers = {
@@ -354,11 +218,8 @@ def fetch_json(
         fail(f"{method} {url} returned invalid JSON: {exc}")
 
 
-def require_field(data: Dict[str, Any], field_name: str, context: str) -> str:
-    value = data.get(field_name)
-    if not value:
-        fail(f"Missing field {field_name!r} in {context}.")
-    return value
+def shell_quote(value: str) -> str:
+    return shlex.quote(value)
 
 
 def require_auth_token() -> str:
