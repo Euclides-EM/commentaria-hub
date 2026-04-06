@@ -94,7 +94,7 @@ func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHead
 	if filepath.Ext(header.Filename) != ".zip" {
 		return nil, fmt.Errorf("unsupported image format for facsimile type, only PNG or ZIP allowed: %s", header.Filename)
 	}
-	tmpDir, err := os.MkdirTemp("", "facsimile-zip-*")
+	tmpDir, err := futils.MkdirTemp("facsimile-zip")
 	if err != nil {
 		return nil, fmt.Errorf("failed to create temp directory for ZIP extraction: %w", err)
 	}

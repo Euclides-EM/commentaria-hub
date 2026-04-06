@@ -22,7 +22,7 @@ func Alto2Yolo(imgDir, altoDir, outputDir string, shuffle float64, segmontoGranu
 		}
 	}
 
-	tmpDir, err := os.MkdirTemp("", "alto2yolo-*")
+	tmpDir, err := futils.MkdirTemp("alto2yolo")
 	if err != nil {
 		return fmt.Errorf("failed to create temp dir: %w", err)
 	}

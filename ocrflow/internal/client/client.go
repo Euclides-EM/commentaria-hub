@@ -95,7 +95,7 @@ func (c *Client) CreateDataset(ds *model.Dataset) (*model.Dataset, error) {
 }
 
 func (c *Client) UploadAnnotation(datasetID string, upm *annotation.UploadMetadata, altoDir string) (*annotation.Annotation, error) {
-	tmpZip, err := os.CreateTemp("", "commentaria-alto-*.zip")
+	tmpZip, err := futils.CreateTemp("commentaria-alto-*.zip")
 	if err != nil {
 		return nil, fmt.Errorf("commentaria create temp zip: %w", err)
 	}

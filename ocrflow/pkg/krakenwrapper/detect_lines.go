@@ -12,6 +12,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"golang.org/x/sync/errgroup"
 )
 
@@ -95,7 +96,7 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 		effectiveIgnore = uniqueNonEmpty(effectiveIgnore)
 
 		// create mask for this category
-		maskFile, err := os.CreateTemp("", "mask-*.png")
+		maskFile, err := futils.CreateTemp("mask-*.png")
 		if err != nil {
 			return err
 		}
@@ -116,7 +117,7 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 			continue
 		}
 
-		baselineJsonFile, err := os.CreateTemp("", "segmentation-*.json")
+		baselineJsonFile, err := futils.CreateTemp("segmentation-*.json")
 		if err != nil {
 			return err
 		}
@@ -144,7 +145,7 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 
 func detectAndGlueOnce(imgPath, altoPath string, detectInCategories, ignoreCategories []string) error {
 	// create the mask from the ALTO file
-	maskFile, err := os.CreateTemp("", "mask-*.png")
+	maskFile, err := futils.CreateTemp("mask-*.png")
 	if err != nil {
 		return err
 	}
@@ -160,7 +161,7 @@ func detectAndGlueOnce(imgPath, altoPath string, detectInCategories, ignoreCateg
 		return nil
 	}
 
-	baselineJsonFile, err := os.CreateTemp("", "segmentation-*.json")
+	baselineJsonFile, err := futils.CreateTemp("segmentation-*.json")
 	if err != nil {
 		return err
 	}
