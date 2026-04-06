@@ -54,8 +54,10 @@ const (
 	denoiseSpeckleMaxAspect = 3.0
 
 	denoiseMaskColor  = uint8(255)
-	denoiseMinWorkers = 2
+	denoiseMinWorkers = 1
 	denoiseMaxWorkers = 24
+	deskewMinWorkers  = 1
+	deskewMaxWorkers  = 24
 
 	denoiseEnhanceNeighborMaxGray  = 238
 	denoiseEnhanceNeighborStrength = 0.35
@@ -204,7 +206,7 @@ func scaledArea(base int, scale float64, minVal int) int {
 }
 
 func maxDenoiseWorkers() int {
-	n := runtime.NumCPU()
+	n := runtime.NumCPU() / 2
 	if n < denoiseMinWorkers {
 		return denoiseMinWorkers
 	}

@@ -38,7 +38,7 @@ type Dataset struct {
 
 func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
 	if maxParallelCreates <= 0 {
-		maxParallelCreates = 2
+		maxParallelCreates = 1
 	}
 	if createQueueWait <= 0 {
 		createQueueWait = 60 * time.Minute
