@@ -175,7 +175,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 	convertedPNGsDir := imgPath
 	if ds.Deskewed || ds.Denoised {
 		var err error
-		convertedPNGsDir, err = futils.MkdirTemp("ocrflow-dataset-rawimgs")
+		convertedPNGsDir, err = futils.MkdirTemp("dataset-rawimgs")
 		if err != nil {
 			return nil, fmt.Errorf("failed to create temp dir for raw images: %w", err)
 		}
@@ -207,7 +207,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 		deskewOutDir := imgPath
 		if ds.Denoised {
 			var err error
-			deskewOutDir, err = futils.MkdirTemp("ocrflow-dataset-deskewed")
+			deskewOutDir, err = futils.MkdirTemp("dataset-deskewed")
 			if err != nil {
 				return nil, fmt.Errorf("failed to create temp dir for deskewed images: %w", err)
 			}
