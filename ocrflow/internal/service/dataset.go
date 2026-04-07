@@ -38,10 +38,10 @@ type Dataset struct {
 
 func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
 	if maxParallelCreates <= 0 {
-		maxParallelCreates = 2
+		maxParallelCreates = 1
 	}
 	if createQueueWait <= 0 {
-		createQueueWait = 60 * time.Minute
+		createQueueWait = 7 * time.Hour
 	}
 	return &Dataset{
 		editionSvc:       editionSvc,
@@ -58,6 +58,33 @@ func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *M
 func (d *Dataset) List(filter *querylang.Filter, sort querylang.Sort) ([]*model.Dataset, error) {
 	// todo: add filtering and sorting and make sure to use it in internal uses in this function
 	return d.datasetStore.ListDatasets()
+}
+
+func (d *Dataset) CleanupDatasets(dryRun bool) ([]*model.Dataset, error) {
+	dss, err := d.List(nil, nil)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list datasets: %w", err)
+	}
+	var toRemove []*model.Dataset
+	for _, ds := range dss {
+		if ds.Status == model.DatasetStatusCreating || ds.Status == model.DatasetStatusFailed {
+			toRemove = append(toRemove, ds)
+		}
+	}
+	if dryRun {
+		return toRemove, nil
+	}
+	log.Printf("cleaning up %d datasets...", len(dss))
+	for _, ds := range toRemove {
+		log.Printf("Dataset %s in status %s marked for cleanup", ds.ID, ds.Status)
+		if err := d.Delete(ds.ID); err != nil {
+			log.Printf("Failed to delete dataset %s during cleanup: %v", ds.ID, err)
+		} else {
+			log.Printf("Deleted dataset %s during cleanup", ds.ID)
+		}
+	}
+	log.Printf("finished cleaning up datasets")
+	return toRemove, nil
 }
 
 func (d *Dataset) Get(id string) (*model.Dataset, error) {
@@ -263,7 +290,7 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 		}
 	}
 
-	log.Printf("Dataset %s fully created", ds.ID)
+	log.Printf("Dataset %s (id: %s) fully created", ds.Name, ds.ID)
 	// When async, record was already inserted with status "creating"; we only update status in runDatasetCreation.
 	if ds.Status != model.DatasetStatusCreating {
 		if err := d.datasetStore.InsertDataset(ds); err != nil {

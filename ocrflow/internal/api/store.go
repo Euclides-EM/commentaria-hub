@@ -18,5 +18,16 @@ func (h *Handlers) CleanupLocalStore(r *http.Request) (any, error) {
 	if err != nil {
 		dryRun = false
 	}
-	return h.deps.MetaStoreManager.CleanupLocalStore(dryRun)
+	ds, err := h.deps.DatasetSvc.CleanupDatasets(dryRun)
+	if err != nil {
+		return nil, err
+	}
+	files, err := h.deps.MetaStoreManager.CleanupLocalStore(dryRun)
+	if err != nil {
+		return nil, err
+	}
+	return map[string]any{
+		"files":    files,
+		"datasets": ds,
+	}, nil
 }

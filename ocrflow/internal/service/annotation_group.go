@@ -80,7 +80,8 @@ func (g *AnnotationGroup) verifyReferencedAnnotations(refsInRequest []*annotatio
 }
 
 func (g *AnnotationGroup) Update(id string, group *annotation.Group) (*annotation.Group, error) {
-	if _, err := g.Get(id); err != nil {
+	existingGroup, err := g.Get(id)
+	if err != nil {
 		return nil, err
 	}
 
@@ -88,13 +89,14 @@ func (g *AnnotationGroup) Update(id string, group *annotation.Group) (*annotatio
 		return nil, fmt.Errorf("failed to verify annotation references: %w", err)
 	}
 
-	existingGroupNames, err := g.getExistingGroupNames()
-	if err != nil {
-		return nil, err
-	}
-
 	group.ID = id
-	group.Name = name.NextAvailable(existingGroupNames, group.Name)
+	if group.Name != existingGroup.Name {
+		existingGroupNames, err := g.getExistingGroupNames()
+		if err != nil {
+			return nil, err
+		}
+		group.Name = name.NextAvailable(existingGroupNames, group.Name)
+	}
 	group.UpdatedAt = time.Now()
 
 	return g.annotationGroupStore.Update(group)
