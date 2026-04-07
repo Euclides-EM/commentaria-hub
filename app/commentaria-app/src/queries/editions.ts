@@ -1,6 +1,9 @@
 import { useQuery } from '@tanstack/react-query'
 import { EditionsService, type model_Edition } from '@hub-api'
 
+const normalizeEditionId = (editionId: string | null | undefined) =>
+  editionId?.replace(/_vol\d+$/, '') || ''
+
 const editionQueryKey = (editionId: string) => ['editions', editionId] as const
 const allEditionsQueryKey = (filter?: Record<string, string[]>) =>
   ['editions', 'all', 'items', filter ?? null] as const
@@ -9,10 +12,13 @@ export function useEditionQuery(
   editionId: string | null | undefined,
   enabled = true,
 ) {
+  const normalizedEditionId = normalizeEditionId(editionId)
+
   return useQuery({
-    queryKey: editionQueryKey(editionId || ''),
-    queryFn: () => EditionsService.getEditions({ editionId: editionId! }),
-    enabled: !!editionId && enabled,
+    queryKey: editionQueryKey(normalizedEditionId),
+    queryFn: () =>
+      EditionsService.getEditions({ editionId: normalizedEditionId }),
+    enabled: !!normalizedEditionId && enabled,
     refetchOnWindowFocus: false,
   })
 }
