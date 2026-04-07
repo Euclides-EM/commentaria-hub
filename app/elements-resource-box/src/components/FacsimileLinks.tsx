@@ -5,7 +5,7 @@ import { FaBookReader } from "react-icons/fa";
 import { PANE_BORDER } from "../utils/colors";
 
 const LinksRow = styled.div`
-  display: flex;
+  display: flex !important;
   flex-direction: row;
   gap: 0.5rem;
 `;
