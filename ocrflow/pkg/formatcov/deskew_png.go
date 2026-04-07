@@ -43,12 +43,12 @@ func deskewLogf(format string, args ...any) {
 }
 
 func maxDeskewWorkers() int {
-	n := runtime.NumCPU()
-	if n < 2 {
-		return 2
+	n := runtime.NumCPU() / 2
+	if n < deskewMinWorkers {
+		return deskewMinWorkers
 	}
-	if n > 24 {
-		return 24
+	if n > deskewMaxWorkers {
+		return deskewMaxWorkers
 	}
 	return n
 }

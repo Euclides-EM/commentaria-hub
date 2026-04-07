@@ -797,9 +797,6 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		IsManuscript:     isManuscript,
 		HasDiagrams:      formatcov.StrToBoolPtr(itemRow["has_diagrams"]),
 	}
-	if key == "Wittenberg_1661" {
-		log.Printf("Debug: found Wittenberg_1661 with itemRow: %+v", itemRow)
-	}
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
