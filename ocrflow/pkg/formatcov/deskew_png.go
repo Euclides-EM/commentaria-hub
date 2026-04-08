@@ -728,16 +728,16 @@ func dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zero
 		return 0, false
 	}
 
-	dampFactor := 0.7
+	refineWeight := 0.7
 	if lineDispersion >= 0.25 {
-		dampFactor = 0.55
+		refineWeight = 0.55
 	}
 	if math.Abs(refinedAngle) > math.Abs(lineAngle) {
-		damped := refinedAngle * dampFactor
+		damped := lineAngle + refineWeight*(refinedAngle-lineAngle)
 		deskewLogf("[%s] line-angle damped hough-only refine line=%.3f refined=%.3f dispersion=%.3f damped=%.3f", inPath, lineAngle, refinedAngle, lineDispersion, damped)
 		return damped, true
 	}
-	damped := lineAngle * dampFactor
+	damped := refinedAngle + refineWeight*(lineAngle-refinedAngle)
 	deskewLogf("[%s] line-angle damped hough-only estimate line=%.3f refined=%.3f dispersion=%.3f damped=%.3f", inPath, lineAngle, refinedAngle, lineDispersion, damped)
 	return damped, true
 }
