@@ -1,23 +1,35 @@
-import { type FormEvent, useState } from 'react'
+import { type FormEvent, useEffect, useState } from 'react'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 
 interface CreateAnnotationGroupModalProps {
   isOpen: boolean
-  selectedCount: number
   isSubmitting: boolean
   error?: string | null
   onClose: () => void
-  onCreate: (values: { name: string; description?: string }) => Promise<void>
+  onSubmit: (values: { name: string; description?: string }) => Promise<void>
+  title?: string
+  submitLabel?: string
+  submittingLabel?: string
+  description?: string
+  initialName?: string
+  initialDescription?: string
+  selectedCount?: number
 }
 
 export function CreateAnnotationGroupModal({
   isOpen,
-  selectedCount,
   isSubmitting,
   error,
   onClose,
-  onCreate,
+  onSubmit,
+  title = 'Create group',
+  submitLabel = 'Create',
+  submittingLabel = 'Creating...',
+  description,
+  initialName = '',
+  initialDescription = '',
+  selectedCount,
 }: CreateAnnotationGroupModalProps) {
   if (!isOpen) {
     return null
@@ -25,11 +37,17 @@ export function CreateAnnotationGroupModal({
 
   return (
     <CreateAnnotationGroupModalContent
-      selectedCount={selectedCount}
       isSubmitting={isSubmitting}
       error={error}
       onClose={onClose}
-      onCreate={onCreate}
+      onSubmit={onSubmit}
+      title={title}
+      submitLabel={submitLabel}
+      submittingLabel={submittingLabel}
+      description={description}
+      initialName={initialName}
+      initialDescription={initialDescription}
+      selectedCount={selectedCount}
     />
   )
 }
@@ -44,10 +62,21 @@ function CreateAnnotationGroupModalContent({
   isSubmitting,
   error,
   onClose,
-  onCreate,
+  onSubmit,
+  title,
+  submitLabel,
+  submittingLabel,
+  description,
+  initialName,
+  initialDescription,
 }: CreateAnnotationGroupModalContentProps) {
-  const [name, setName] = useState('')
-  const [description, setDescription] = useState('')
+  const [name, setName] = useState(initialName)
+  const [descriptionValue, setDescriptionValue] = useState(initialDescription)
+
+  useEffect(() => {
+    setName(initialName)
+    setDescriptionValue(initialDescription)
+  }, [initialDescription, initialName])
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -55,9 +84,9 @@ function CreateAnnotationGroupModalContent({
     if (!trimmedName) {
       return
     }
-    await onCreate({
+    await onSubmit({
       name: trimmedName,
-      description: description.trim() || undefined,
+      description: descriptionValue.trim() || undefined,
     })
   }
 
@@ -72,14 +101,18 @@ function CreateAnnotationGroupModalContent({
         onSubmit={handleSubmit}
       >
         <div className="px-5 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold text-gray-900">Create group</h2>
+          <h2 className="text-lg font-semibold text-gray-900">{title}</h2>
         </div>
         <div className="px-5 py-4 space-y-3 text-sm text-gray-700">
-          <p>
-            Create a group with{' '}
-            <span className="font-semibold">{selectedCount}</span> selected{' '}
-            {selectedCount === 1 ? 'annotation' : 'annotations'}.
-          </p>
+          {description ? (
+            <p>{description}</p>
+          ) : typeof selectedCount === 'number' ? (
+            <p>
+              Create a group with{' '}
+              <span className="font-semibold">{selectedCount}</span> selected{' '}
+              {selectedCount === 1 ? 'annotation' : 'annotations'}.
+            </p>
+          ) : null}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Name
@@ -99,8 +132,8 @@ function CreateAnnotationGroupModalContent({
               Description (optional)
             </label>
             <textarea
-              value={description}
-              onChange={(e) => setDescription(e.target.value)}
+              value={descriptionValue}
+              onChange={(e) => setDescriptionValue(e.target.value)}
               className="w-full p-2 border border-gray-300 rounded-md"
               rows={3}
               disabled={isSubmitting}
@@ -123,7 +156,7 @@ function CreateAnnotationGroupModalContent({
             className="px-3 py-1.5 text-sm"
             disabled={isSubmitting || !name.trim()}
           >
-            {isSubmitting ? 'Creating...' : 'Create'}
+            {isSubmitting ? submittingLabel : submitLabel}
           </Button>
         </div>
       </form>

@@ -70,6 +70,8 @@ export function AnnotationsTable() {
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [isCreateGroupOpen, setIsCreateGroupOpen] = useState(false)
   const [isAddToGroupsOpen, setIsAddToGroupsOpen] = useState(false)
+  const [groupToRename, setGroupToRename] =
+    useState<AnnotationGroupWithId | null>(null)
   const [collapsedSections, setCollapsedSections] = useState<
     Record<string, boolean>
   >({})
@@ -451,6 +453,32 @@ export function AnnotationsTable() {
     try {
       setGroupActionError(null)
       await deleteGroupMutation.mutateAsync(group.id)
+    } catch (error) {
+      setGroupActionError(getErrorMessage(error))
+    }
+  }
+
+  const handleRenameGroup = async ({
+    name,
+    description,
+  }: {
+    name: string
+    description?: string
+  }) => {
+    if (!groupToRename?.id) {
+      return
+    }
+    try {
+      setGroupActionError(null)
+      await updateGroupMutation.mutateAsync({
+        groupId: groupToRename.id,
+        group: {
+          ...groupToRename,
+          name,
+          description,
+        },
+      })
+      setGroupToRename(null)
     } catch (error) {
       setGroupActionError(getErrorMessage(error))
     }
@@ -880,8 +908,8 @@ export function AnnotationsTable() {
                                   colSpan={visibleColumnCount}
                                   className="px-4 py-2 text-xs text-gray-700"
                                 >
-                                  <div className="flex items-center justify-between gap-3">
-                                    <div className="flex items-center gap-2 min-w-0">
+                                  <div className="flex flex-wrap items-center justify-between gap-3">
+                                    <div className="flex min-w-0 items-center gap-2">
                                       <button
                                         type="button"
                                         onClick={() =>
@@ -917,20 +945,38 @@ export function AnnotationsTable() {
                                     </div>
                                     {showGroupMutationControls &&
                                       section.group && (
-                                        <Button
-                                          type="button"
-                                          variant="danger"
-                                          onClick={() =>
-                                            void handleUngroup(section.group)
-                                          }
-                                          disabled={
-                                            isGroupMutationPending ||
-                                            !section.group.id
-                                          }
-                                          className="px-2 py-1 text-xs shrink-0"
-                                        >
-                                          Ungroup
-                                        </Button>
+                                        <div className="sticky right-4 ml-auto flex flex-wrap items-center justify-end gap-2 bg-gray-100 pl-3">
+                                          <Button
+                                            type="button"
+                                            onClick={() => {
+                                              setGroupActionError(null)
+                                              setGroupToRename(
+                                                section.group as AnnotationGroupWithId,
+                                              )
+                                            }}
+                                            disabled={
+                                              isGroupMutationPending ||
+                                              !section.group.id
+                                            }
+                                            className="px-2 py-1 text-xs"
+                                          >
+                                            Rename
+                                          </Button>
+                                          <Button
+                                            type="button"
+                                            variant="danger"
+                                            onClick={() =>
+                                              void handleUngroup(section.group)
+                                            }
+                                            disabled={
+                                              isGroupMutationPending ||
+                                              !section.group.id
+                                            }
+                                            className="px-2 py-1 text-xs"
+                                          >
+                                            Ungroup
+                                          </Button>
+                                        </div>
                                       )}
                                   </div>
                                 </td>
@@ -964,7 +1010,23 @@ export function AnnotationsTable() {
           setGroupActionError(null)
           setIsCreateGroupOpen(false)
         }}
-        onCreate={handleCreateGroupFromSelected}
+        onSubmit={handleCreateGroupFromSelected}
+      />
+      <CreateAnnotationGroupModal
+        isOpen={groupToRename !== null}
+        isSubmitting={updateGroupMutation.isPending}
+        error={groupActionError}
+        title="Rename group"
+        submitLabel="Save"
+        submittingLabel="Saving..."
+        description="Update the group name or description."
+        initialName={groupToRename?.name || ''}
+        initialDescription={groupToRename?.description || ''}
+        onClose={() => {
+          setGroupActionError(null)
+          setGroupToRename(null)
+        }}
+        onSubmit={handleRenameGroup}
       />
       <AddToAnnotationGroupsModal
         isOpen={isAddToGroupsOpen}
