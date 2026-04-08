@@ -266,27 +266,27 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 	}
 
 	currDir := convertedPNGsDir
-	if ds.Deskewed {
-		deskewOutDir := imgPath
-		if ds.Denoised {
+	if ds.Denoised {
+		denoiseOutDir := imgPath
+		if ds.Deskewed {
 			var err error
-			deskewOutDir, err = futils.MkdirTemp("dataset-deskewed")
+			denoiseOutDir, err = futils.MkdirTemp("dataset-denoised")
 			if err != nil {
-				return nil, fmt.Errorf("failed to create temp dir for deskewed images: %w", err)
+				return nil, fmt.Errorf("failed to create temp dir for denoised images: %w", err)
 			}
-			defer os.RemoveAll(deskewOutDir)
+			defer os.RemoveAll(denoiseOutDir)
 		}
-		log.Printf("Deskewing images from %s into %s", currDir, deskewOutDir)
-		if err := formatcov.DeskewPNGs(currDir, deskewOutDir); err != nil {
-			return nil, fmt.Errorf("failed to deskew images: %w", err)
+		log.Printf("Denoising images from %s into %s", currDir, denoiseOutDir)
+		if err := formatcov.DenoisePNGs(currDir, denoiseOutDir); err != nil {
+			return nil, fmt.Errorf("failed to denoise images: %w", err)
 		}
-		currDir = deskewOutDir
+		currDir = denoiseOutDir
 	}
 
-	if ds.Denoised {
-		log.Printf("Denoising images from %s into %s", currDir, imgPath)
-		if err := formatcov.DenoisePNGs(currDir, imgPath); err != nil {
-			return nil, fmt.Errorf("failed to denoise images: %w", err)
+	if ds.Deskewed {
+		log.Printf("Deskewing images from %s into %s", currDir, imgPath)
+		if err := formatcov.DeskewPNGs(currDir, imgPath); err != nil {
+			return nil, fmt.Errorf("failed to deskew images: %w", err)
 		}
 	}
 
