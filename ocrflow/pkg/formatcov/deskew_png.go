@@ -313,6 +313,7 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 	bestA := 0.0
 	bestS := -1.0
 	zeroScore := -1.0
+	scoreSamples := make([]weightedAngleSample, 0, int(math.Ceil((2*deskewProjectionLimit)/deskewAngleStep))+1)
 	searchMin := -deskewProjectionLimit
 	searchMax := deskewProjectionLimit
 	if constrainProjectionSearch {
@@ -330,6 +331,10 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		rot.Close()
 
 		deskewLogf("[%s] angle=%.2f score=%.6f", inPath, a, s)
+		scoreSamples = append(scoreSamples, weightedAngleSample{
+			angle:  a,
+			weight: s,
+		})
 
 		if s > bestS {
 			bestS = s
@@ -350,6 +355,10 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		rot0.Close()
 	}
 	if !projectionImprovementOK(bestS, zeroScore, bestA) {
+		if biasedAngle, ok := biasedNearZeroPlateauAngle(scoreSamples, zeroScore); ok {
+			deskewLogf("[%s] best angle accepted on biased near-zero plateau angle=%.3f", inPath, biasedAngle)
+			return biasedAngle, nil
+		}
 		deskewLogf("[%s] best angle rejected due to weak improvement best=%.6f zero=%.6f", inPath, bestS, zeroScore)
 		return 0, nil
 	}
@@ -421,6 +430,74 @@ func projectionFlatPeak(bestScore, zeroScore, scoreSpan float64) bool {
 func projectionPeakAtBoundary(bestAngle, searchMin, searchMax float64) bool {
 	margin := deskewAngleStep / 2
 	return bestAngle <= searchMin+margin || bestAngle >= searchMax-margin
+}
+
+func biasedNearZeroPlateauAngle(samples []weightedAngleSample, zeroScore float64) (float64, bool) {
+	if len(samples) == 0 || zeroScore <= 0 {
+		return 0, false
+	}
+
+	scoreByAngle := make(map[int]float64, len(samples))
+	for _, sample := range samples {
+		key := int(math.Round(sample.angle / deskewAngleStep))
+		scoreByAngle[key] = sample.weight
+	}
+
+	pairedBias := 0.0
+	pairedWeight := 0.0
+	bestAngle := 0.0
+	bestSupport := 0.0
+	sameSignPairs := 0
+	totalPairs := 0
+
+	for angle := 0.25; angle <= 1.5+1e-9; angle += deskewAngleStep {
+		key := int(math.Round(angle / deskewAngleStep))
+		posScore, okPos := scoreByAngle[key]
+		negScore, okNeg := scoreByAngle[-key]
+		if !okPos || !okNeg {
+			continue
+		}
+
+		totalPairs++
+		diff := negScore - posScore
+		if math.Abs(diff) <= zeroScore*0.001 {
+			continue
+		}
+		if pairedBias == 0 || diff*pairedBias > 0 {
+			sameSignPairs++
+		}
+
+		weight := angle / 1.5
+		pairedBias += diff * weight
+		pairedWeight += math.Abs(diff) * weight
+
+		support := math.Abs(diff) * weight
+		if support > bestSupport {
+			bestSupport = support
+			if diff > 0 {
+				bestAngle = -angle
+			} else {
+				bestAngle = angle
+			}
+		}
+	}
+
+	if totalPairs < 3 || pairedWeight == 0 {
+		return 0, false
+	}
+	if sameSignPairs < 3 {
+		return 0, false
+	}
+
+	normalizedBias := math.Abs(pairedBias) / (zeroScore * float64(totalPairs))
+	if normalizedBias < 0.01 {
+		return 0, false
+	}
+	if math.Abs(bestAngle) < deskewMinRotate {
+		return 0, false
+	}
+
+	return bestAngle, true
 }
 
 func lineClusterStrong(cluster angleCluster, cols int) bool {
