@@ -670,19 +670,12 @@ func dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zero
 		return 0, false
 	}
 
-	halfAngle := lineAngle * 0.5
-	rot, err := rotateSameSize(textMask, halfAngle)
-	if err != nil {
-		return 0, false
+	dampFactor := 0.75
+	if lineDispersion >= 0.25 {
+		dampFactor = 0.65
 	}
-	halfScore := projectionVariance(rot)
-	rot.Close()
-	if halfScore < zeroScore*1.12 {
-		return 0, false
-	}
-
-	damped := 0.5 * (lineAngle + halfAngle)
-	deskewLogf("[%s] line-angle damped hough-only estimate line=%.3f half=%.3f damped=%.3f", inPath, lineAngle, halfAngle, damped)
+	damped := lineAngle * dampFactor
+	deskewLogf("[%s] line-angle damped broad hough estimate line=%.3f dispersion=%.3f damped=%.3f", inPath, lineAngle, lineDispersion, damped)
 	return damped, true
 }
 
