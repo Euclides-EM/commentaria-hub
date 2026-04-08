@@ -275,6 +275,9 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 			if err != nil {
 				return 0, err
 			}
+			if dampedAngle, ok := dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zeroScore, inPath, lineOK, textMask); ok {
+				return dampedAngle, nil
+			}
 			deskewLogf("[%s] line-angle refine candidate=%.3f score=%.6f zeroScore=%.6f scoreSpan=%.6f", inPath, refinedAngle, refinedScore, zeroScore, scoreSpan)
 			if weakLineAngleEvidence(lineAngle, lineDispersion, refinedScore, zeroScore, scoreSpan) {
 				deskewLogf("[%s] line-angle rejected as low-confidence angle=%.3f zeroScore=%.6f score=%.6f span=%.6f", inPath, lineAngle, zeroScore, refinedScore, scoreSpan)
@@ -355,9 +358,11 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		rot0.Close()
 	}
 	if !projectionImprovementOK(bestS, zeroScore, bestA) {
-		if biasedAngle, ok := biasedNearZeroPlateauAngle(scoreSamples, zeroScore); ok {
-			deskewLogf("[%s] best angle accepted on biased near-zero plateau angle=%.3f", inPath, biasedAngle)
-			return biasedAngle, nil
+		if !lineOK && math.Abs(bestA) <= 0.5 {
+			if biasedAngle, ok := biasedNearZeroPlateauAngle(scoreSamples, zeroScore); ok {
+				deskewLogf("[%s] best angle accepted on biased near-zero plateau angle=%.3f", inPath, biasedAngle)
+				return biasedAngle, nil
+			}
 		}
 		deskewLogf("[%s] best angle rejected due to weak improvement best=%.6f zero=%.6f", inPath, bestS, zeroScore)
 		return 0, nil
@@ -445,59 +450,43 @@ func biasedNearZeroPlateauAngle(samples []weightedAngleSample, zeroScore float64
 
 	pairedBias := 0.0
 	pairedWeight := 0.0
-	bestAngle := 0.0
-	bestSupport := 0.0
-	sameSignPairs := 0
-	totalPairs := 0
-
-	for angle := 0.25; angle <= 1.5+1e-9; angle += deskewAngleStep {
+	for angle := 0.50; angle <= 1.0+1e-9; angle += deskewAngleStep {
 		key := int(math.Round(angle / deskewAngleStep))
 		posScore, okPos := scoreByAngle[key]
 		negScore, okNeg := scoreByAngle[-key]
 		if !okPos || !okNeg {
 			continue
 		}
-
-		totalPairs++
 		diff := negScore - posScore
-		if math.Abs(diff) <= zeroScore*0.001 {
-			continue
-		}
-		if pairedBias == 0 || diff*pairedBias > 0 {
-			sameSignPairs++
-		}
-
-		weight := angle / 1.5
+		weight := 1.25 - angle
 		pairedBias += diff * weight
 		pairedWeight += math.Abs(diff) * weight
-
-		support := math.Abs(diff) * weight
-		if support > bestSupport {
-			bestSupport = support
-			if diff > 0 {
-				bestAngle = -angle
-			} else {
-				bestAngle = angle
-			}
-		}
 	}
 
-	if totalPairs < 3 || pairedWeight == 0 {
+	if pairedWeight == 0 {
 		return 0, false
 	}
-	if sameSignPairs < 3 {
-		return 0, false
-	}
-
-	normalizedBias := math.Abs(pairedBias) / (zeroScore * float64(totalPairs))
+	normalizedBias := math.Abs(pairedBias) / zeroScore
 	if normalizedBias < 0.01 {
 		return 0, false
 	}
-	if math.Abs(bestAngle) < deskewMinRotate {
-		return 0, false
+
+	sign := 1.0
+	if pairedBias > 0 {
+		sign = -1.0
 	}
 
-	return bestAngle, true
+	for _, angle := range []float64{0.25, 0.50, 0.75, 1.00} {
+		key := int(math.Round(angle / deskewAngleStep))
+		score, ok := scoreByAngle[int(sign)*key]
+		if !ok {
+			continue
+		}
+		if score >= zeroScore*0.995 {
+			return sign * angle, true
+		}
+	}
+	return 0, false
 }
 
 func lineClusterStrong(cluster angleCluster, cols int) bool {
@@ -665,6 +654,36 @@ func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (float64, float64,
 	}
 
 	return best.median, best.dispersion, true, nil
+}
+
+func dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zeroScore float64, inPath string, lineOK bool, textMask gocv.Mat) (float64, bool) {
+	if !lineOK {
+		return 0, false
+	}
+	if math.Abs(lineAngle) < 2.5 || lineDispersion < 0.2 {
+		return 0, false
+	}
+	if math.Abs(refinedAngle-lineAngle) > 0.5 {
+		return 0, false
+	}
+	if zeroScore <= 0 || scoreSpan/zeroScore < 0.25 {
+		return 0, false
+	}
+
+	halfAngle := lineAngle * 0.5
+	rot, err := rotateSameSize(textMask, halfAngle)
+	if err != nil {
+		return 0, false
+	}
+	halfScore := projectionVariance(rot)
+	rot.Close()
+	if halfScore < zeroScore*1.12 {
+		return 0, false
+	}
+
+	damped := 0.5 * (lineAngle + halfAngle)
+	deskewLogf("[%s] line-angle damped hough-only estimate line=%.3f half=%.3f damped=%.3f", inPath, lineAngle, halfAngle, damped)
+	return damped, true
 }
 
 type deskewComponent struct {
