@@ -24,9 +24,13 @@ import (
 var errWriteFailed = errors.New("gocv IMWrite failed")
 
 const (
+	deskewDebug = false
+
 	opencvRemapMaxDim = math.MaxInt16 - 1
-	deskewDebug       = true
 	deskewMarginRatio = 0.10
+
+	deskewMinWorkers = 1
+	deskewMaxWorkers = 24
 
 	deskewDownscaleMax    = 1600
 	deskewTrimBorder      = true

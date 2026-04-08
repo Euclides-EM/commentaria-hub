@@ -56,27 +56,24 @@ const (
 	denoiseMaskColor  = uint8(255)
 	denoiseMinWorkers = 1
 	denoiseMaxWorkers = 2
-	deskewMinWorkers  = 1
-	deskewMaxWorkers  = 24
 
-	denoiseEnhanceNeighborMaxGray  = 238
 	denoiseEnhanceNeighborStrength = 0.35
 	denoiseEnhanceCoreGamma        = 1.35
 	denoiseEnhanceNeighborMinRatio = 0.25
-	denoiseMaskRefineMaxGray       = 250
-	denoiseSupportLocalGrayMargin  = 18
+	denoiseMaskRefineMaxGray       = 210
+	denoiseSupportLocalGrayMargin  = 12
 	denoiseBlobBucketSize          = 6
 	denoiseBlobAreaFraction        = 0.000012
 	denoiseBlobMinGray             = 140
 	denoiseBlobMaxGray             = 254
-	denoiseBlobMaxMeanGray         = 212.0
+	denoiseBlobMaxMeanGray         = 198.0
 	denoiseBlobLargeAreaFactor     = 3
-	denoiseBlobLargeMaxMeanGray    = 202.0
+	denoiseBlobLargeMaxMeanGray    = 188.0
 	denoiseBlobHugeAreaFactor      = 6
-	denoiseBlobHugeMaxMeanGray     = 194.0
-	denoiseBlobDarkAnchorGray      = 188
-	denoiseBlobDarkAnchorRatio     = 0.08
-	denoiseBlobDarkAnchorMinPixels = 3
+	denoiseBlobHugeMaxMeanGray     = 180.0
+	denoiseBlobDarkAnchorGray      = 165
+	denoiseBlobDarkAnchorRatio     = 0.15
+	denoiseBlobDarkAnchorMinPixels = 4
 
 	denoiseReferenceMinDim = 1240.0
 
