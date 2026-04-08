@@ -26,14 +26,15 @@ var errWriteFailed = errors.New("gocv IMWrite failed")
 const (
 	opencvRemapMaxDim = math.MaxInt16 - 1
 	deskewDebug       = true
+	deskewMarginRatio = 0.10
 
-	deskewDownscaleMax = 1600
-	deskewTrimBorder   = true
-	deskewLineAngleLimit = 4.0
+	deskewDownscaleMax    = 1600
+	deskewTrimBorder      = true
+	deskewLineAngleLimit  = 4.0
 	deskewProjectionLimit = 6.0
-	deskewAngleStep    = 0.25
-	deskewMinRotate    = 0.15
-	deskewBackground   = uint8(255)
+	deskewAngleStep       = 0.25
+	deskewMinRotate       = 0.15
+	deskewBackground      = uint8(255)
 )
 
 func deskewLogf(format string, args ...any) {
@@ -206,6 +207,14 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 	defer gray.Close()
 	if err := gocv.CvtColor(img, &gray, gocv.ColorBGRToGray); err != nil {
 		return 0, fmt.Errorf("convert to grayscale: %w", err)
+	}
+
+	if crop, ok := cropDeskewMargins(gray); ok {
+		defer crop.Close()
+
+		tmp := crop.Clone()
+		gray.Close()
+		gray = tmp
 	}
 
 	// Optional trim: crop to content bbox before scoring
@@ -384,6 +393,30 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 	}
 
 	return bestA, nil
+}
+
+func cropDeskewMargins(src gocv.Mat) (gocv.Mat, bool) {
+	rows := src.Rows()
+	cols := src.Cols()
+	if rows < 4 || cols < 4 {
+		return gocv.Mat{}, false
+	}
+
+	marginX := int(math.Round(float64(cols) * deskewMarginRatio))
+	marginY := int(math.Round(float64(rows) * deskewMarginRatio))
+	if marginX <= 0 && marginY <= 0 {
+		return gocv.Mat{}, false
+	}
+
+	left := marginX
+	top := marginY
+	right := cols - marginX
+	bottom := rows - marginY
+	if left >= right || top >= bottom {
+		return gocv.Mat{}, false
+	}
+
+	return src.Region(image.Rect(left, top, right, bottom)), true
 }
 
 func refineProjectionAroundAngle(inv gocv.Mat, center float64, window float64, inPath string) (float64, float64, float64, float64, error) {
