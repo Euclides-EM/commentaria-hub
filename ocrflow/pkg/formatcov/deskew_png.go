@@ -250,11 +250,15 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		textMask = inv
 	}
 
-	lineAngle, lineDispersion, lineOK, err := estimateSkewTextLines(textMask, inPath)
+	lineEvidence, err := estimateSkewTextLines(textMask, inPath)
 	if err != nil {
 		return 0, err
 	}
+	lineAngle := lineEvidence.angle
+	lineDispersion := lineEvidence.dispersion
+	lineOK := lineEvidence.ok
 	constrainProjectionSearch := lineOK
+	allowNearZeroPlateau := !lineOK
 	if lineOK {
 		if lineAngle < -deskewLineAngleLimit {
 			lineAngle = -deskewLineAngleLimit
@@ -275,7 +279,12 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 			if err != nil {
 				return 0, err
 			}
-			if dampedAngle, ok := dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zeroScore, inPath, lineOK, textMask); ok {
+			if zeroScore > 0 && refinedScore <= zeroScore*0.995 {
+				constrainProjectionSearch = false
+				allowNearZeroPlateau = true
+				deskewLogf("[%s] line-angle local projection not better than zero; widening fallback search", inPath)
+			}
+			if dampedAngle, ok := dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zeroScore, inPath, lineOK, lineEvidence.houghOnly, textMask); ok {
 				return dampedAngle, nil
 			}
 			deskewLogf("[%s] line-angle refine candidate=%.3f score=%.6f zeroScore=%.6f scoreSpan=%.6f", inPath, refinedAngle, refinedScore, zeroScore, scoreSpan)
@@ -307,8 +316,10 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 			}
 			if math.Abs(lineAngle) >= 0.75 && math.Abs(refinedAngle) <= 0.35 && math.Abs(refinedAngle-lineAngle) >= 0.5 {
 				constrainProjectionSearch = false
+				allowNearZeroPlateau = true
 				deskewLogf("[%s] line-angle conflicts with near-zero projection shoulder; widening fallback search", inPath)
 			}
+			allowNearZeroPlateau = true
 			deskewLogf("[%s] line-angle rejected by projection consistency", inPath)
 		}
 	}
@@ -358,7 +369,7 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		rot0.Close()
 	}
 	if !projectionImprovementOK(bestS, zeroScore, bestA) {
-		if !lineOK && math.Abs(bestA) <= 0.5 {
+		if allowNearZeroPlateau && math.Abs(bestA) <= 0.5 {
 			if biasedAngle, ok := biasedNearZeroPlateauAngle(scoreSamples, zeroScore); ok {
 				deskewLogf("[%s] best angle accepted on biased near-zero plateau angle=%.3f", inPath, biasedAngle)
 				return biasedAngle, nil
@@ -450,7 +461,7 @@ func biasedNearZeroPlateauAngle(samples []weightedAngleSample, zeroScore float64
 
 	pairedBias := 0.0
 	pairedWeight := 0.0
-	for angle := 0.50; angle <= 1.0+1e-9; angle += deskewAngleStep {
+	for angle := 0.50; angle <= 1.5+1e-9; angle += deskewAngleStep {
 		key := int(math.Round(angle / deskewAngleStep))
 		posScore, okPos := scoreByAngle[key]
 		negScore, okNeg := scoreByAngle[-key]
@@ -458,7 +469,10 @@ func biasedNearZeroPlateauAngle(samples []weightedAngleSample, zeroScore float64
 			continue
 		}
 		diff := negScore - posScore
-		weight := 1.25 - angle
+		weight := 1.75 - angle
+		if weight < 0.2 {
+			weight = 0.2
+		}
 		pairedBias += diff * weight
 		pairedWeight += math.Abs(diff) * weight
 	}
@@ -476,15 +490,30 @@ func biasedNearZeroPlateauAngle(samples []weightedAngleSample, zeroScore float64
 		sign = -1.0
 	}
 
-	for _, angle := range []float64{0.25, 0.50, 0.75, 1.00} {
+	bestAngle := 0.0
+	bestDistance := 0.0
+	bestScore := 0.0
+	for _, angle := range []float64{1.50, 1.25, 1.00, 0.75, 0.50, 0.25} {
 		key := int(math.Round(angle / deskewAngleStep))
 		score, ok := scoreByAngle[int(sign)*key]
 		if !ok {
 			continue
 		}
-		if score >= zeroScore*0.995 {
-			return sign * angle, true
+		if score < zeroScore*0.9925 {
+			continue
 		}
+		distance := angle
+		if score > zeroScore {
+			distance += 0.1
+		}
+		if distance > bestDistance || (distance == bestDistance && score > bestScore) {
+			bestAngle = sign * angle
+			bestDistance = distance
+			bestScore = score
+		}
+	}
+	if bestDistance > 0 {
+		return bestAngle, true
 	}
 	return 0, false
 }
@@ -541,78 +570,66 @@ type angleCluster struct {
 	ok           bool
 }
 
-func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (float64, float64, bool, error) {
+type lineAngleEvidence struct {
+	angle      float64
+	dispersion float64
+	ok         bool
+	houghOnly  bool
+}
+
+func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (lineAngleEvidence, error) {
 	rows := invBinary.Rows()
 	cols := invBinary.Cols()
 	if rows == 0 || cols == 0 {
-		return 0, 0, false, nil
+		return lineAngleEvidence{}, nil
 	}
-
-	kernelW := cols / 25
-	if kernelW < 15 {
-		kernelW = 15
-	}
-	if kernelW > 63 {
-		kernelW = 63
-	}
-
-	kernel := gocv.GetStructuringElement(gocv.MorphRect, image.Pt(kernelW, 3))
-	defer kernel.Close()
 
 	componentSamples, componentWeight, err := estimateSkewComponentLines(invBinary)
 	if err != nil {
-		return 0, 0, false, fmt.Errorf("estimate component lines: %w", err)
+		return lineAngleEvidence{}, fmt.Errorf("estimate component lines: %w", err)
 	}
 
-	merged := gocv.NewMat()
-	defer merged.Close()
-	if err := gocv.MorphologyEx(invBinary, &merged, gocv.MorphClose, kernel); err != nil {
-		return 0, 0, false, fmt.Errorf("merge text lines: %w", err)
+	baseKernelW := cols / 25
+	if baseKernelW < 15 {
+		baseKernelW = 15
+	}
+	if baseKernelW > 63 {
+		baseKernelW = 63
 	}
 
-	contours := gocv.FindContours(merged, gocv.RetrievalExternal, gocv.ChainApproxSimple)
-	defer contours.Close()
-
-	minWidth := int(math.Round(float64(cols) * 0.18))
-	minArea := float64(rows*cols) * 0.00025
-
-	contourSamples := make([]weightedAngleSample, 0, contours.Size())
-
-	for i := 0; i < contours.Size(); i++ {
-		c := contours.At(i)
-		r := gocv.BoundingRect(c)
-		if r.Dx() < minWidth || r.Dy() < 6 || r.Dy() > rows/5 {
-			continue
-		}
-
-		area := gocv.ContourArea(c)
-		if area < minArea {
-			continue
-		}
-
-		rect := gocv.MinAreaRect(c)
-		observed := normalizeRectAngle(rect.Angle, rect.Width, rect.Height)
-		if math.Abs(observed) > deskewLineAngleLimit {
-			continue
-		}
-
-		weight := math.Sqrt(area) * float64(r.Dx())
-		contourSamples = append(contourSamples, weightedAngleSample{
-			angle:  observed,
-			weight: weight,
-		})
-	}
-
-	houghSamples, houghWeight, err := estimateSkewHoughLines(merged)
+	contourSamples, houghSamples, houghWeight, err := estimateSkewMergedLineSamples(invBinary, rows, cols, baseKernelW)
 	if err != nil {
-		return 0, 0, false, fmt.Errorf("estimate hough lines: %w", err)
+		return lineAngleEvidence{}, err
 	}
 
 	totalWeight := sampleWeight(contourSamples) + componentWeight + houghWeight
 	totalSamples := len(contourSamples) + len(componentSamples) + len(houghSamples)
-	if totalSamples < 3 || totalWeight < float64(cols)*10 {
+
+	fallbackKernelW := cols / 18
+	if fallbackKernelW <= baseKernelW {
+		fallbackKernelW = baseKernelW + 8
+	}
+	if fallbackKernelW > 95 {
+		fallbackKernelW = 95
+	}
+	if (len(contourSamples) < 2 || len(houghSamples) < 2 || totalSamples < 12) && fallbackKernelW > baseKernelW {
+		fallbackContours, fallbackHough, fallbackHoughWeight, err := estimateSkewMergedLineSamples(invBinary, rows, cols, fallbackKernelW)
+		if err != nil {
+			return lineAngleEvidence{}, err
+		}
+		if len(fallbackContours)+len(fallbackHough) > 0 {
+			deskewLogf("[%s] line-angle retry with wider merge kernel=%d", inPath, fallbackKernelW)
+		}
+		contourSamples = append(contourSamples, fallbackContours...)
+		houghSamples = append(houghSamples, fallbackHough...)
+		houghWeight += fallbackHoughWeight
+		totalWeight = sampleWeight(contourSamples) + componentWeight + houghWeight
+		totalSamples = len(contourSamples) + len(componentSamples) + len(houghSamples)
+	}
+
+	if totalSamples < 3 || (totalSamples < 6 && totalWeight < float64(cols)*0.75) {
 		deskewLogf("[%s] line-angle unavailable samples=%d totalWeight=%.1f", inPath, totalSamples, totalWeight)
-		return 0, 0, false, nil
+		return lineAngleEvidence{}, nil
 	}
 
 	if len(contourSamples) < 2 {
@@ -644,38 +661,51 @@ func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (float64, float64,
 	}
 	if !best.ok || best.inliers < 3 || !lineClusterStrong(best, cols) {
 		deskewLogf("[%s] line-angle rejected weak cluster source=%s peak=%.3f inliers=%d inlierWeight=%.1f", inPath, best.source, best.peak, best.inliers, best.inlierWeight)
-		return 0, 0, false, nil
+		return lineAngleEvidence{}, nil
 	}
 	deskewLogf("[%s] line-angle chose source=%s median=%.3f dispersion=%.3f", inPath, best.source, best.median, best.dispersion)
 
 	if best.dispersion > 1.25 {
 		deskewLogf("[%s] line-angle rejected due to inlier dispersion %.3f", inPath, best.dispersion)
-		return 0, best.dispersion, false, nil
+		return lineAngleEvidence{dispersion: best.dispersion}, nil
 	}
 
-	return best.median, best.dispersion, true, nil
+	return lineAngleEvidence{
+		angle:      best.median,
+		dispersion: best.dispersion,
+		ok:         true,
+		houghOnly:  best.source == "hough",
+	}, nil
 }
 
-func dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zeroScore float64, inPath string, lineOK bool, textMask gocv.Mat) (float64, bool) {
+func dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zeroScore float64, inPath string, lineOK bool, houghOnly bool, textMask gocv.Mat) (float64, bool) {
 	if !lineOK {
 		return 0, false
 	}
-	if math.Abs(lineAngle) < 2.5 || lineDispersion < 0.2 {
+	if !houghOnly {
 		return 0, false
 	}
-	if math.Abs(refinedAngle-lineAngle) > 0.5 {
+	if math.Abs(lineAngle) < 2.0 || lineDispersion < 0.2 {
+		return 0, false
+	}
+	if math.Abs(refinedAngle-lineAngle) > 1.0 {
 		return 0, false
 	}
 	if zeroScore <= 0 || scoreSpan/zeroScore < 0.25 {
 		return 0, false
 	}
 
-	dampFactor := 0.75
+	dampFactor := 0.7
 	if lineDispersion >= 0.25 {
-		dampFactor = 0.65
+		dampFactor = 0.55
+	}
+	if math.Abs(refinedAngle) > math.Abs(lineAngle) {
+		damped := refinedAngle * dampFactor
+		deskewLogf("[%s] line-angle damped hough-only refine line=%.3f refined=%.3f dispersion=%.3f damped=%.3f", inPath, lineAngle, refinedAngle, lineDispersion, damped)
+		return damped, true
 	}
 	damped := lineAngle * dampFactor
-	deskewLogf("[%s] line-angle damped broad hough estimate line=%.3f dispersion=%.3f damped=%.3f", inPath, lineAngle, lineDispersion, damped)
+	deskewLogf("[%s] line-angle damped hough-only estimate line=%.3f refined=%.3f dispersion=%.3f damped=%.3f", inPath, lineAngle, refinedAngle, lineDispersion, damped)
 	return damped, true
 }
 
@@ -753,6 +783,60 @@ func buildDeskewTextMask(invBinary gocv.Mat) (gocv.Mat, bool, error) {
 	return mask, true, nil
 }
 
+func estimateSkewMergedLineSamples(invBinary gocv.Mat, rows, cols, kernelW int) ([]weightedAngleSample, []weightedAngleSample, float64, error) {
+	if kernelW < 3 {
+		kernelW = 3
+	}
+
+	kernel := gocv.GetStructuringElement(gocv.MorphRect, image.Pt(kernelW, 3))
+	defer kernel.Close()
+
+	merged := gocv.NewMat()
+	defer merged.Close()
+	if err := gocv.MorphologyEx(invBinary, &merged, gocv.MorphClose, kernel); err != nil {
+		return nil, nil, 0, fmt.Errorf("merge text lines: %w", err)
+	}
+
+	contours := gocv.FindContours(merged, gocv.RetrievalExternal, gocv.ChainApproxSimple)
+	defer contours.Close()
+
+	minWidth := int(math.Round(float64(cols) * 0.18))
+	minArea := float64(rows*cols) * 0.00025
+	contourSamples := make([]weightedAngleSample, 0, contours.Size())
+
+	for i := 0; i < contours.Size(); i++ {
+		c := contours.At(i)
+		r := gocv.BoundingRect(c)
+		if r.Dx() < minWidth || r.Dy() < 6 || r.Dy() > rows/5 {
+			continue
+		}
+
+		area := gocv.ContourArea(c)
+		if area < minArea {
+			continue
+		}
+
+		rect := gocv.MinAreaRect(c)
+		observed := normalizeRectAngle(rect.Angle, rect.Width, rect.Height)
+		if math.Abs(observed) > deskewLineAngleLimit {
+			continue
+		}
+
+		weight := math.Sqrt(area) * float64(r.Dx())
+		contourSamples = append(contourSamples, weightedAngleSample{
+			angle:  observed,
+			weight: weight,
+		})
+	}
+
+	houghSamples, houghWeight, err := estimateSkewHoughLines(merged)
+	if err != nil {
+		return nil, nil, 0, fmt.Errorf("estimate hough lines: %w", err)
+	}
+
+	return contourSamples, houghSamples, houghWeight, nil
+}
+
 func estimateSkewComponentLines(invBinary gocv.Mat) ([]weightedAngleSample, float64, error) {
 	rows := invBinary.Rows()
 	cols := invBinary.Cols()
@@ -805,6 +889,7 @@ func estimateSkewComponentLines(invBinary gocv.Mat) ([]weightedAngleSample, floa
 
 	maxGap := math.Max(medianW*8, float64(cols)*0.025)
 	maxDeltaY := math.Max(medianH*1.6, 6)
+	maxSlope := math.Tan(1.75 * math.Pi / 180)
 	for i := 0; i < len(components); i++ {
 		for j := i + 1; j < len(components); j++ {
 			dx := components[j].cx - components[i].cx
@@ -812,7 +897,8 @@ func estimateSkewComponentLines(invBinary gocv.Mat) ([]weightedAngleSample, floa
 				break
 			}
 			dy := math.Abs(components[j].cy - components[i].cy)
-			if dy > maxDeltaY {
+			allowedDeltaY := maxDeltaY + dx*maxSlope
+			if dy > allowedDeltaY {
 				continue
 			}
 			union(i, j)
@@ -1312,6 +1398,10 @@ func contentBBox(binary gocv.Mat) (image.Rectangle, bool) {
 }
 
 func projectionVariance(invBinary gocv.Mat) float64 {
+	return math.Max(projectionVarianceRows(invBinary), projectionVarianceBodyBands(invBinary))
+}
+
+func projectionVarianceRows(invBinary gocv.Mat) float64 {
 	// invBinary: ink pixels are >0, background 0.
 	// Score = variance of row sums on text-bearing rows only.
 	rows := invBinary.Rows()
@@ -1359,6 +1449,141 @@ func projectionVariance(invBinary gocv.Mat) float64 {
 	}
 	variance /= float64(len(sums))
 	return variance
+}
+
+type deskewBand struct {
+	start int
+	end   int
+}
+
+func projectionVarianceBodyBands(invBinary gocv.Mat) float64 {
+	bands := detectDeskewBodyBands(invBinary)
+	if len(bands) == 0 {
+		return 0
+	}
+
+	totalWeight := 0.0
+	totalScore := 0.0
+	for _, band := range bands {
+		height := band.end - band.start
+		if height < 12 {
+			continue
+		}
+
+		region := invBinary.Region(image.Rect(0, band.start, invBinary.Cols(), band.end))
+		score := projectionVarianceRows(region)
+		region.Close()
+		if score <= 0 {
+			continue
+		}
+
+		weight := float64(height)
+		totalWeight += weight
+		totalScore += score * weight
+	}
+
+	if totalWeight == 0 {
+		return 0
+	}
+	return totalScore / totalWeight
+}
+
+func detectDeskewBodyBands(invBinary gocv.Mat) []deskewBand {
+	rows := invBinary.Rows()
+	cols := invBinary.Cols()
+	if rows == 0 || cols == 0 {
+		return nil
+	}
+
+	rowInk := make([]int, rows)
+	maxInk := 0
+	for y := 0; y < rows; y++ {
+		row := invBinary.RowRange(y, y+1)
+		nz := gocv.CountNonZero(row)
+		row.Close()
+		rowInk[y] = nz
+		if nz > maxInk {
+			maxInk = nz
+		}
+	}
+	if maxInk == 0 {
+		return nil
+	}
+
+	activeThreshold := cols / 40
+	if activeThreshold < 8 {
+		activeThreshold = 8
+	}
+	strongThreshold := cols / 18
+	if strongThreshold < activeThreshold {
+		strongThreshold = activeThreshold
+	}
+
+	var bands []deskewBand
+	start := -1
+	strongRows := 0
+	gap := 0
+	maxGap := 6
+	minHeight := rows / 18
+	if minHeight < 24 {
+		minHeight = 24
+	}
+	for y, ink := range rowInk {
+		active := ink >= activeThreshold
+		if active {
+			if start < 0 {
+				start = y
+				strongRows = 0
+				gap = 0
+			}
+			gap = 0
+			if ink >= strongThreshold {
+				strongRows++
+			}
+			continue
+		}
+		if start < 0 {
+			continue
+		}
+		gap++
+		if gap <= maxGap {
+			continue
+		}
+		end := y - gap + 1
+		if end-start >= minHeight && strongRows >= 6 {
+			bands = append(bands, deskewBand{start: start, end: end})
+		}
+		start = -1
+		strongRows = 0
+		gap = 0
+	}
+	if start >= 0 {
+		end := rows
+		if end-start >= minHeight && strongRows >= 6 {
+			bands = append(bands, deskewBand{start: start, end: end})
+		}
+	}
+
+	if len(bands) <= 1 {
+		return bands
+	}
+
+	filtered := bands[:0]
+	maxHeight := 0
+	for _, band := range bands {
+		height := band.end - band.start
+		if height > maxHeight {
+			maxHeight = height
+		}
+	}
+	for _, band := range bands {
+		height := band.end - band.start
+		if height*3 < maxHeight {
+			continue
+		}
+		filtered = append(filtered, band)
+	}
+	return filtered
 }
 
 func rotateSameSize(src gocv.Mat, angleDeg float64) (gocv.Mat, error) {
