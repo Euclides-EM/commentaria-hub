@@ -24,6 +24,12 @@ jobs:
         with:
           go-version: '1.25'
 
+      - name: Install OpenCV
+        run: |
+          git clone --branch v0.43.0 --depth 1 https://github.com/hybridgroup/gocv.git /tmp/gocv
+          cd /tmp/gocv
+          make install
+
       - name: Install swag
         run: go install github.com/swaggo/swag/cmd/swag@v1.16.6
 
@@ -31,7 +37,7 @@ jobs:
         run: go generate ./...
 
       - name: Build
-        run: go build -v -tags nogocv ./...
+        run: go build -v ./...
 
       - name: Test
-        run: go test -v -tags nogocv ./...
+        run: go test -v ./...
