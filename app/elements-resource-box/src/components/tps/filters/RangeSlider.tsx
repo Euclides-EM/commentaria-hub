@@ -286,6 +286,8 @@ export const RangeSlider = ({
             if (clampedMin !== localValue[0]) {
               const nextValue: [number, number] = [clampedMin, localValue[1]];
               setLocalValue(nextValue);
+              setMinInputValue(nextValue[0].toString());
+              setMaxInputValue(nextValue[1].toString());
               localValueRef.current = nextValue;
             }
           }}
@@ -304,6 +306,8 @@ export const RangeSlider = ({
             if (clampedMax !== localValue[1]) {
               const nextValue: [number, number] = [localValue[0], clampedMax];
               setLocalValue(nextValue);
+              setMinInputValue(nextValue[0].toString());
+              setMaxInputValue(nextValue[1].toString());
               localValueRef.current = nextValue;
             }
           }}
