@@ -10,7 +10,6 @@ import (
 	"log"
 	"math"
 	"os"
-	"sort"
 	"path/filepath"
 	"runtime"
 	"strings"
@@ -53,7 +52,7 @@ import (
 // This denoise flow was tuned on testdata/denoise examples.
 
 const (
-	denoiseDebug = true
+	denoiseDebug = false
 
 	denoiseAdaptiveBlockSizeBase   = 61 // must be odd
 	denoiseAdaptiveBlockSizeMin    = 11
@@ -109,11 +108,13 @@ const (
 	denoiseClusterMinNeighbors         = 3
 	denoiseClusterAreaRatioMax         = 4.0
 
-	denoiseInkPercentile    = 10
-	denoiseInkDarkReference = 110
-	denoiseInkOffsetMax     = 40
-	denoiseInkBucketScale   = 4
-	denoiseInkBucketMax     = 120
+	denoiseInkPercentile        = 10
+	denoiseInkDarkReference     = 110
+	denoiseInkOffsetMax         = 40
+	denoiseInkBucketScale       = 4
+	denoiseInkBucketMax         = 120
+	denoiseInkUniformityRatio   = 0.84
+	denoiseInkGammaBoost        = 1.5
 
 	denoiseReferenceMinDim = 1240.0
 
@@ -560,7 +561,6 @@ func denoiseOne(inPath, outPath string) error {
 		}
 	}
 	defer cleaned.Close()
-	debugSaveMat(&cleaned, "04_cleaned")
 
 	repaired, err := repairForegroundMask(cleaned)
 	if err != nil {
@@ -573,7 +573,6 @@ func denoiseOne(inPath, outPath string) error {
 		return fmt.Errorf("refine foreground mask: %w", err)
 	}
 	defer refined.Close()
-	debugSaveMat(&refined, "05_refined")
 
 	out, err := applyForegroundMask(&normalized, refined, inPath)
 	if err != nil {
@@ -630,12 +629,26 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 		}
 	}
 
+	inkOffset := inkLightnessOffset(gray, mask)
+	inkGamma := 1.0 + (float64(inkOffset)/float64(denoiseInkOffsetMax))*denoiseInkGammaBoost
+
 	out := gocv.NewMatWithSize(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U)
 	for r := 0; r < gray.Rows(); r++ {
 		for c := 0; c < gray.Cols(); c++ {
 			grayVal := gray.GetUCharAt(r, c)
 			if mask.GetUCharAt(r, c) != 0 {
-				out.SetUCharAt(r, c, renderForegroundPixel(gray.Rows(), gray.Cols(), r, c, grayVal))
+				v := renderForegroundPixel(gray.Rows(), gray.Cols(), r, c, grayVal)
+				if inkOffset > 0 {
+					x := float64(v) / 255.0
+					if x > 0 {
+						darkened := 255.0 * powFloat(x, inkGamma)
+						if darkened > 255 {
+							darkened = 255
+						}
+						v = uint8(darkened + 0.5)
+					}
+				}
+				out.SetUCharAt(r, c, v)
 				continue
 			}
 			out.SetUCharAt(r, c, denoiseMaskColor)
@@ -648,25 +661,9 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 
 	seedMarginGlyphs(gray, &out)
 
-	inkVals := make([]int, 0, 4096)
-	for r := 0; r < gray.Rows(); r++ {
-		for c := 0; c < gray.Cols(); c++ {
-			if mask.GetUCharAt(r, c) != 0 {
-				inkVals = append(inkVals, int(gray.GetUCharAt(r, c)))
-			}
-		}
-	}
-	if len(inkVals) > 0 {
-		sort.Ints(inkVals)
-		p10 := inkVals[len(inkVals)*10/100]
-		p25 := inkVals[len(inkVals)*25/100]
-		p50 := inkVals[len(inkVals)*50/100]
-		log.Printf("[%s] ink histogram (normalized mask pixels=%d): p10=%d p25=%d p50=%d", inPath, len(inkVals), p10, p25, p50)
-	}
-
 	lowQuality := denoiseLowQuality(gray.Rows(), gray.Cols())
 	adaptiveC := denoiseAdaptiveCForImage(gray.Rows(), gray.Cols())
-	debugLogf("[%s] low_quality=%v adaptive_c=%d support_candidates=%d", inPath, lowQuality, adaptiveC, len(supportPixels))
+	debugLogf("[%s] low_quality=%v adaptive_c=%d support_candidates=%d ink_offset=%d ink_gamma=%.3f", inPath, lowQuality, adaptiveC, len(supportPixels), inkOffset, inkGamma)
 	if lowQuality {
 		rows := out.Rows()
 		cols := out.Cols()
@@ -685,11 +682,13 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 		}
 		debugLogf("[%s] low_quality brightness cutoff: wiped=%d threshold=%d", inPath, wiped, denoiseLowQualityMaxOutputGray)
 	} else {
-		debugSaveMat(&out, "06_pre_blob_filter")
 		minBlobArea := denoiseOutputBlobMinArea(gray.Rows(), gray.Cols())
-		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, minBlobArea)
-		debugLogf("[%s] output blobs: kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, keptPixels, minBlobArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
-		debugSaveMat(&out, "07_post_blob_filter")
+		bucketSize := denoiseBlobBucketSize + inkOffset*denoiseInkBucketScale
+		if bucketSize > denoiseInkBucketMax {
+			bucketSize = denoiseInkBucketMax
+		}
+		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, minBlobArea, inkOffset)
+		debugLogf("[%s] output blobs: kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, keptPixels, minBlobArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, bucketSize)
 	}
 
 	return out, nil
@@ -1061,7 +1060,51 @@ func blobRequiredDarkAnchors(area, rows, cols int) int {
 	return required
 }
 
-func filterOutputByBlobSize(mat *gocv.Mat, minArea int) (int, int) {
+func inkHistogramPercentile(hist *[256]int, total, pct int) int {
+	target := total * pct / 100
+	cumulative := 0
+	for v := 0; v < 256; v++ {
+		cumulative += hist[v]
+		if cumulative >= target {
+			return v
+		}
+	}
+	return 255
+}
+
+func inkLightnessOffset(gray *gocv.Mat, mask gocv.Mat) int {
+	var hist [256]int
+	total := 0
+	for r := 0; r < gray.Rows(); r++ {
+		for c := 0; c < gray.Cols(); c++ {
+			if mask.GetUCharAt(r, c) == 0 {
+				continue
+			}
+			hist[gray.GetUCharAt(r, c)]++
+			total++
+		}
+	}
+	if total == 0 {
+		return 0
+	}
+	p10 := inkHistogramPercentile(&hist, total, 10)
+	p25 := inkHistogramPercentile(&hist, total, 25)
+	p50 := inkHistogramPercentile(&hist, total, 50)
+	debugLogf("ink histogram: p10=%d p25=%d p50=%d", p10, p25, p50)
+	if p25 <= 0 || float64(p10)/float64(p25) < denoiseInkUniformityRatio {
+		return 0
+	}
+	offset := p10 - denoiseInkDarkReference
+	if offset < 0 {
+		return 0
+	}
+	if offset > denoiseInkOffsetMax {
+		return denoiseInkOffsetMax
+	}
+	return offset
+}
+
+func filterOutputByBlobSize(mat *gocv.Mat, minArea int, inkOffset int) (int, int) {
 	rows := mat.Rows()
 	cols := mat.Cols()
 
@@ -1079,7 +1122,11 @@ func filterOutputByBlobSize(mat *gocv.Mat, minArea int) (int, int) {
 		}
 	}
 
-	keep, maxBlobArea := keepSupportPixelsByBlobSize(rows, cols, pixels, minArea, denoiseBlobBucketSize)
+	bucketSize := denoiseBlobBucketSize + inkOffset*denoiseInkBucketScale
+	if bucketSize > denoiseInkBucketMax {
+		bucketSize = denoiseInkBucketMax
+	}
+	keep, maxBlobArea := keepSupportPixelsByBlobSize(rows, cols, pixels, minArea, bucketSize)
 	kept := 0
 	for i, px := range pixels {
 		if keep[i] {
