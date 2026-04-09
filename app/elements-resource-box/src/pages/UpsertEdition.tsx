@@ -82,6 +82,7 @@ type EditionFormData = {
   frontispiece_EN?: string | null;
   isElements: boolean;
   books?: number[];
+  manuscriptElementsBooks?: string | null;
   additionalContent?: string[];
 };
 
@@ -159,6 +160,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
     frontispiece_EN: nullToUndef(data.frontispiece_EN),
     isElements: data.isElements,
     books: data.books,
+    manuscriptElementsBooks: nullToUndef(data.manuscriptElementsBooks),
     additionalContent: data.additionalContent,
   };
 }
@@ -229,6 +231,7 @@ function toEditionFormData(
         }
       : {
           isManuscript: false,
+          manuscriptElementsBooks: null,
           year: edition.year || "",
           languages: edition.languages || [],
           editor: edition.editor || [],
@@ -248,10 +251,15 @@ function toEditionFormData(
     ...(edition.isElements
       ? {
           isElements: true,
-          books: edition.books || [],
+          books: Array.isArray(edition.books)
+            ? edition.books.filter((value): value is number =>
+                Number.isFinite(value),
+              )
+            : [],
+          manuscriptElementsBooks: edition.manuscriptElementsBooks || null,
           additionalContent: edition.additionalContent || [],
         }
-      : { isElements: false }),
+      : { isElements: false, manuscriptElementsBooks: null }),
   };
 }
 
@@ -660,6 +668,7 @@ const defaultValues = (): EditionFormData => ({
   frontispiece_EN: null,
   isElements: false,
   books: [],
+  manuscriptElementsBooks: null,
   additionalContent: [],
   bibliography: [],
   reprintOf: null,
@@ -1258,6 +1267,20 @@ export const UpsertEdition = () => {
                       )}
                     </form.Field>
                   </FormField>
+
+                  <FormField>
+                    <Label>Manuscript Subclass</Label>
+                    <form.Field name="manuscriptSubclass">
+                      {(field) => (
+                        <Input
+                          type="text"
+                          value={field.state.value || ""}
+                          onChange={(e) => field.handleChange(e.target.value)}
+                          onBlur={field.handleBlur}
+                        />
+                      )}
+                    </form.Field>
+                  </FormField>
                 </>
               )}
 
@@ -1690,22 +1713,34 @@ export const UpsertEdition = () => {
 
                   <FormField>
                     <Label>Books</Label>
-                    <form.Field name="books">
-                      {(field) => (
-                        <MultiSelect
-                          name="books"
-                          options={Array.from({ length: 18 }, (_, i) =>
-                            (i + 1).toString(),
-                          )}
-                          value={(field.state.value || []).map(String)}
-                          onChange={(values) =>
-                            field.handleChange(values.map(Number))
-                          }
-                          onBlur={field.handleBlur}
-                          placeholder="Select which books of Elements are included..."
-                        />
-                      )}
-                    </form.Field>
+                    {isManuscript ? (
+                      <form.Field name="manuscriptElementsBooks">
+                        {(field) => (
+                          <TextArea
+                            value={field.state.value || ""}
+                            onChange={(e) => field.handleChange(e.target.value)}
+                            onBlur={field.handleBlur}
+                          />
+                        )}
+                      </form.Field>
+                    ) : (
+                      <form.Field name="books">
+                        {(field) => (
+                          <MultiSelect
+                            name="books"
+                            options={Array.from({ length: 18 }, (_, i) =>
+                              (i + 1).toString(),
+                            )}
+                            value={(field.state.value || []).map(String)}
+                            onChange={(values) =>
+                              field.handleChange(values.map(Number))
+                            }
+                            onBlur={field.handleBlur}
+                            placeholder="Select which books of Elements are included..."
+                          />
+                        )}
+                      </form.Field>
+                    )}
                   </FormField>
 
                   <FormField>

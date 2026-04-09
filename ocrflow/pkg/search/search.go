@@ -134,6 +134,79 @@ func valueToFloat64(v reflect.Value) (float64, bool) {
 	}
 }
 
+func matchRange(num float64, r Range) bool {
+	if r.Min != nil && num < *r.Min {
+		return false
+	}
+	if r.Max != nil && num > *r.Max {
+		return false
+	}
+	return true
+}
+
+func matchEditionYearRange(e any, r Range) (matched bool, handled bool) {
+	isManuscriptField, ok := fieldValue(e, "isManuscript")
+	if !ok || isManuscriptField.Kind() != reflect.Bool || !isManuscriptField.Bool() {
+		return false, false
+	}
+
+	yearFromField, _ := fieldValue(e, "manuscriptYearFrom")
+	yearToField, _ := fieldValue(e, "manuscriptYearTo")
+
+	yearFrom, hasYearFrom := valueToFloat64(yearFromField)
+	yearTo, hasYearTo := valueToFloat64(yearToField)
+
+	if !hasYearFrom && !hasYearTo {
+		return !r.Strict, true
+	}
+	if !hasYearFrom {
+		yearFrom = yearTo
+	}
+	if !hasYearTo {
+		yearTo = yearFrom
+	}
+
+	if r.Min != nil && yearTo < *r.Min {
+		return false, true
+	}
+	if r.Max != nil && yearFrom > *r.Max {
+		return false, true
+	}
+
+	return true, true
+}
+
+func editionYearSortValues(e any) (primary float64, secondary float64, ok bool) {
+	if _, handled := matchEditionYearRange(e, Range{}); handled {
+		yearFromField, _ := fieldValue(e, "manuscriptYearFrom")
+		yearToField, _ := fieldValue(e, "manuscriptYearTo")
+
+		yearFrom, hasYearFrom := valueToFloat64(yearFromField)
+		yearTo, hasYearTo := valueToFloat64(yearToField)
+
+		if !hasYearFrom && !hasYearTo {
+			return 0, 0, false
+		}
+		if !hasYearFrom {
+			yearFrom = yearTo
+		}
+		if !hasYearTo {
+			yearTo = yearFrom
+		}
+		return yearFrom, yearTo, true
+	}
+
+	yearField, ok := fieldValue(e, "year")
+	if !ok {
+		return 0, 0, false
+	}
+	year, ok := valueToFloat64(yearField)
+	if !ok {
+		return 0, 0, false
+	}
+	return year, year, true
+}
+
 func (q Query) FilterFunc() func(e any) bool {
 	return func(e any) bool {
 		// Field filters (case-insensitive for string-like fields).
@@ -207,6 +280,15 @@ func (q Query) FilterFunc() func(e any) bool {
 
 		// Range filters (inclusive bounds)
 		for field, r := range q.RangeFilter {
+			if normalizeField(field) == "year" {
+				if matched, handled := matchEditionYearRange(e, r); handled {
+					if !matched {
+						return false
+					}
+					continue
+				}
+			}
+
 			v, ok := fieldValue(e, field)
 			if !ok {
 				continue
@@ -222,10 +304,7 @@ func (q Query) FilterFunc() func(e any) bool {
 				continue
 			}
 
-			if r.Min != nil && num < *r.Min {
-				return false
-			}
-			if r.Max != nil && num > *r.Max {
+			if !matchRange(num, r) {
 				return false
 			}
 		}
@@ -321,6 +400,39 @@ func compareValues(v1, v2 reflect.Value) int {
 func (q Query) OrderByFunc() func(e1 any, e2 any) int {
 	return func(e1 any, e2 any) int {
 		for _, opt := range q.OrderBy {
+			if normalizeField(opt.Field) == "year" {
+				y1From, y1To, ok1 := editionYearSortValues(e1)
+				y2From, y2To, ok2 := editionYearSortValues(e2)
+
+				if ok1 || ok2 || (!ok1 && !ok2) {
+					cmp := 0
+					switch {
+					case !ok1 && !ok2:
+						cmp = 0
+					case !ok1:
+						cmp = 1
+					case !ok2:
+						cmp = -1
+					case y1From < y2From:
+						cmp = -1
+					case y1From > y2From:
+						cmp = 1
+					case y1To < y2To:
+						cmp = -1
+					case y1To > y2To:
+						cmp = 1
+					}
+
+					if opt.Descending {
+						cmp = -cmp
+					}
+					if cmp != 0 {
+						return cmp
+					}
+					continue
+				}
+			}
+
 			v1, ok1 := fieldValue(e1, opt.Field)
 			v2, ok2 := fieldValue(e2, opt.Field)
 			if !ok1 || !ok2 {

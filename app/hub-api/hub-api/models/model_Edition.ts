@@ -35,6 +35,7 @@ export type model_Edition = {
     key?: string;
     languages?: Array<string>;
     manuscriptClass?: string;
+    manuscriptElementsBooks?: string;
     manuscriptSubclass?: string;
     manuscriptYearFrom?: number;
     manuscriptYearTo?: number;

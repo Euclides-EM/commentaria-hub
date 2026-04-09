@@ -25,12 +25,17 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
     .filter((edition) => edition.key)
     .map((edition) => {
       const shelfmarks = edition.shelfmarks || [];
-      const books = (edition.books || []).filter((value): value is number =>
-        Number.isFinite(value),
-      );
+      const books = Array.isArray(edition.books)
+        ? edition.books.filter((value): value is number =>
+            Number.isFinite(value),
+          )
+        : [];
       return {
         key: edition.key!,
         year: edition.year || null,
+        yearFrom: edition.manuscriptYearFrom ?? null,
+        yearTo: edition.manuscriptYearTo ?? null,
+        materialType: edition.isManuscript ? "Manuscript" : "Print",
         cities: edition.cities || [],
         languages: (edition.languages || [])
           .map((lang) => startCase(lang.trim().toLowerCase()))
@@ -58,11 +63,13 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         facsimiles: shelfmarks.filter((s) => s.scan),
         type: edition.isElements ? ItemTypes.elements : ItemTypes.secondary,
         format: edition.format || null,
-        elementsBooks: toBookRanges(books),
+        elementsBooks: edition.isManuscript ? [] : toBookRanges(books),
+        elementsBooksRaw: edition.manuscriptElementsBooks || null,
         elementsBooksExpanded: books,
         additionalContent: edition.additionalContent || [],
         volumesCount: edition.volumes ?? null,
         class: edition.manuscriptClass || null,
+        subclass: edition.manuscriptSubclass || null,
         titlePageStatus: edition.titlePageStatus || "Unknown",
         study_corpora: edition.corpus || [],
         notes: edition.notes || null,
@@ -75,12 +82,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         ),
         reprintOf: edition.reprintOf || null,
       } satisfies Item;
-    })
-    .sort(
-      (a, b) =>
-        (a.year || "").localeCompare(b.year || "") ||
-        a.key.localeCompare(b.key),
-    );
+    });
 };
 
 export const personDisplayName = (person: string) => {

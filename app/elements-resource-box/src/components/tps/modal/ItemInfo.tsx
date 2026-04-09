@@ -5,7 +5,7 @@ import { Item } from "../../../types";
 import { Row } from "../../common";
 import { ModalTextColumn } from "./ModalComponents";
 import { personDisplayName } from "../../../utils/dataUtils";
-import { formatBookRanges, joinArr } from "../../../utils/util";
+import { joinArr } from "../../../utils/util";
 import { withAppBasePath } from "../../../utils/basePath";
 import { NO_EDITOR } from "../../../constants";
 import { LAND_COLOR } from "../../../utils/colors";
@@ -17,6 +17,12 @@ import { AuthContext } from "../../../contexts/Auth.ts";
 import { useQuery } from "@tanstack/react-query";
 import { getCommentariaHubPreferredTranscriptionUrl } from "../../../utils/commentariaHub.ts";
 import { FacsimileLinks } from "../../FacsimileLinks.tsx";
+import {
+  formatDisplayEditors,
+  formatDisplayBooks,
+  formatDisplayYear,
+  isManuscriptItem,
+} from "../../../utils/itemDisplay.ts";
 
 const InfoTitle = styled.div`
   font-size: 0.8rem;
@@ -156,11 +162,11 @@ export const ItemInfo = ({
     <ModalTextColumn isRow={isRow}>
       <Row justifyStart>
         <InfoTitle>Year: </InfoTitle>
-        {item.year || "s.d."}
+        {formatDisplayYear(item)}
       </Row>
       <Row justifyStart>
         <InfoTitle>{pluralize("Editor", item.editors.length)}:</InfoTitle>{" "}
-        {joinArr(item.editors) || NO_EDITOR}
+        {formatDisplayEditors(item)}
         <CitationButton
           copied={copied}
           onClick={() => copyCitation(item, setCopied)}
@@ -214,12 +220,12 @@ export const ItemInfo = ({
           {item.volumesCount}
         </Row>
       )}
-      {item.elementsBooks && (
+      {(item.elementsBooks.length > 0 || item.elementsBooksRaw) && (
         <Row justifyStart>
-          <InfoTitle>Books:</InfoTitle> {formatBookRanges(item.elementsBooks)}
+          <InfoTitle>Books:</InfoTitle> {formatDisplayBooks(item)}
         </Row>
       )}
-      {item.class && (
+      {item.class && !isManuscriptItem(item) && (
         <>
           <Row justifyStart>
             <InfoTitle>Class:</InfoTitle> {item.class}

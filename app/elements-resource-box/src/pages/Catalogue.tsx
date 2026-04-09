@@ -25,8 +25,8 @@ import {
   ScrollToTopButton,
 } from "../components/common";
 import { ItemModal } from "../components/tps/modal/ItemModal";
-import { NO_EDITOR, NO_CITY, NO_YEAR } from "../constants";
-import { formatBookRanges, joinArr } from "../utils/util.ts";
+import { NO_CITY } from "../constants";
+import { joinArr } from "../utils/util.ts";
 import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { AiFillEdit } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
@@ -42,6 +42,11 @@ import { PiArrowBendDownRightBold } from "react-icons/pi";
 import { inEuclidesMode } from "../utils/mode.ts";
 import { useAutoOpenEditionFromQuery } from "../hooks/useAutoOpenEditionFromQuery.ts";
 import { FacsimileLinks } from "../components/FacsimileLinks.tsx";
+import {
+  formatDisplayBooks,
+  formatDisplayEditors,
+  formatDisplayYear,
+} from "../utils/itemDisplay.ts";
 
 const TableContainer = styled.div`
   ${ScrollbarStyle};
@@ -339,6 +344,7 @@ export function Catalogue() {
     const itemMap = new Map(
       items.map((item) => [normalizeKey(item.key), item]),
     );
+    const rootKeyByItemKey = new Map<string, string>();
 
     const sortByYearThenKey = (a: Item, b: Item) => {
       const yearA = a.year ? parseInt(a.year) : 9999;
@@ -349,89 +355,72 @@ export function Catalogue() {
       return a.key.localeCompare(b.key);
     };
 
-    const indexByKey = new Map(
-      items.map((item, index) => [normalizeKey(item.key), index]),
-    );
-    const links = new Map<string, Set<string>>();
-
-    for (const item of items) {
+    const resolveRootKey = (item: Item) => {
       const itemKey = normalizeKey(item.key);
-      if (!links.has(itemKey)) {
-        links.set(itemKey, new Set());
+      const cached = rootKeyByItemKey.get(itemKey);
+      if (cached) {
+        return cached;
       }
-      const parentKey = normalizeKey(item.reprintOf);
-      if (!parentKey || !itemMap.has(parentKey)) {
-        continue;
+
+      let current: Item = item;
+      const visited = new Set<string>();
+
+      while (true) {
+        const currentKey = normalizeKey(current.key);
+        if (visited.has(currentKey)) {
+          break;
+        }
+        visited.add(currentKey);
+
+        const parentKey = normalizeKey(current.reprintOf);
+        if (!parentKey) {
+          break;
+        }
+        const parent = itemMap.get(parentKey);
+        if (!parent) {
+          break;
+        }
+        current = parent;
       }
-      links.get(itemKey)!.add(parentKey);
-      const parentLinks = links.get(parentKey) || new Set<string>();
-      parentLinks.add(itemKey);
-      links.set(parentKey, parentLinks);
+
+      const rootKey = normalizeKey(current.key);
+      visited.forEach((key) => rootKeyByItemKey.set(key, rootKey));
+      return rootKey;
+    };
+
+    const groups = new Map<string, Item[]>();
+    for (const item of items) {
+      const rootKey = resolveRootKey(item);
+      const existing = groups.get(rootKey);
+      if (existing) {
+        existing.push(item);
+      } else {
+        groups.set(rootKey, [item]);
+      }
     }
 
-    const seen = new Set<string>();
-    const result: { row: ItemWithCluster; order: number }[] = [];
-
-    for (const item of items) {
-      const startKey = normalizeKey(item.key);
-      if (seen.has(startKey)) {
+    const result: ItemWithCluster[] = [];
+    for (const groupItems of groups.values()) {
+      if (groupItems.length <= 1) {
+        result.push(groupItems[0]);
         continue;
       }
 
-      const stack = [startKey];
-      const componentKeys: string[] = [];
-
-      while (stack.length > 0) {
-        const currentKey = stack.pop()!;
-        if (seen.has(currentKey)) {
-          continue;
-        }
-        seen.add(currentKey);
-        componentKeys.push(currentKey);
-        for (const linkedKey of links.get(currentKey) || []) {
-          if (!seen.has(linkedKey)) {
-            stack.push(linkedKey);
-          }
-        }
-      }
-
-      const componentItems = componentKeys
-        .map((key) => itemMap.get(key))
-        .filter((componentItem): componentItem is Item => !!componentItem)
-        .sort(sortByYearThenKey);
-
-      if (componentItems.length <= 1) {
-        result.push({
-          row: componentItems[0],
-          order: indexByKey.get(startKey) ?? Number.MAX_SAFE_INTEGER,
-        });
-        continue;
-      }
-
-      const [root, ...members] = componentItems;
+      const [root, ...members] = [...groupItems].sort(sortByYearThenKey);
       result.push({
-        row: {
-          ...root,
-          isClusterRoot: true,
-          clusterKey: root.key,
-          clusterMembers: members.map((member) => ({
-            ...member,
-            ...(member.reprintOf && itemMap.has(normalizeKey(member.reprintOf))
-              ? { isReprintOf: member.reprintOf }
-              : {}),
-          })),
-        },
-        order: Math.min(
-          ...componentItems.map(
-            (componentItem) =>
-              indexByKey.get(normalizeKey(componentItem.key)) ??
-              Number.MAX_SAFE_INTEGER,
-          ),
-        ),
+        ...root,
+        isClusterRoot: true,
+        clusterKey: root.key,
+        clusterMembers: members.map((member) => ({
+          ...member,
+          ...(member.reprintOf && itemMap.has(normalizeKey(member.reprintOf))
+            ? { isReprintOf: member.reprintOf }
+            : {}),
+        })),
       });
     }
 
-    return result.sort((a, b) => a.order - b.order).map((entry) => entry.row);
+    return result;
   }, [filteredItems, viewMode]);
 
   const showOtherColumns =
@@ -530,7 +519,7 @@ export function Catalogue() {
         }),
         columnHelper.accessor("year", {
           header: "Year",
-          cell: (info) => info.getValue() || NO_YEAR,
+          cell: (info) => formatDisplayYear(info.row.original),
           size: 10,
         }),
         columnHelper.accessor("cities", {
@@ -551,7 +540,7 @@ export function Catalogue() {
         }),
         columnHelper.accessor("editors", {
           header: "Editors",
-          cell: (info) => joinArr(info.getValue()) || NO_EDITOR,
+          cell: (info) => formatDisplayEditors(info.row.original),
           size: 160,
         }),
         showOtherColumns &&
@@ -598,7 +587,7 @@ export function Catalogue() {
           columnHelper.accessor("elementsBooks", {
             header: "Elements Books",
             enableSorting: false,
-            cell: (info) => formatBookRanges(info.getValue()),
+            cell: (info) => formatDisplayBooks(info.row.original),
             size: 105,
           }),
         columnHelper.accessor("volumesCount", {

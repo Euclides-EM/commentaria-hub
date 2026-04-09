@@ -31,6 +31,13 @@ function parseRangeIfNeeded(a: Range | string): Range {
 export const itemProperties: {
   [key: string]: ItemProperty;
 } = {
+  materialType: {
+    displayName: "Material type",
+    customCompareFn: ((a: string, b: string) => {
+      const order = ["Manuscript", "Print"];
+      return order.indexOf(a) - order.indexOf(b);
+    }) as (a: unknown, b: unknown) => number,
+  },
   study_corpora: {
     displayName: "Study Corpus",
     isArray: true,

@@ -174,11 +174,15 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 		if ed.ManuscriptSubclass != nil {
 			sub = *ed.ManuscriptSubclass
 		}
+		elementsBooks := formatcov.PtrToStr(ed.ManuscriptElementsBooks)
+		if elementsBooks == "" {
+			elementsBooks = formatcov.IntsToCompressedStr(ed.Books)
+		}
 		if err := csv.UpsertRow(s.csvPath(relMDManuscript), "key", ed.Key, map[string]string{
 			"key":            ed.Key,
 			"class":          ed.ManuscriptClass,
 			"subclass":       sub,
-			"elements_books": formatcov.IntsToCompressedStr(ed.Books),
+			"elements_books": elementsBooks,
 		}); err != nil {
 			return fmt.Errorf("Error upserting manuscript metadata: %v\n", err)
 		}
@@ -526,6 +530,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 			ed.IsElements = true
 			ed.ManuscriptClass = md["class"]
 			ed.ManuscriptSubclass = formatcov.StrToPtr(md["subclass"])
+			ed.ManuscriptElementsBooks = formatcov.StrToPtr(md["elements_books"])
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 		}
 	} else {
@@ -804,6 +809,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 			ed.IsElements = true
 			ed.ManuscriptClass = md["class"]
 			ed.ManuscriptSubclass = formatcov.StrToPtr(md["subclass"])
+			ed.ManuscriptElementsBooks = formatcov.StrToPtr(md["elements_books"])
 			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 		}
 	} else {

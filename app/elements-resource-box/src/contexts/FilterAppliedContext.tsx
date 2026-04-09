@@ -7,7 +7,7 @@ import React, {
   useState,
   useCallback,
 } from "react";
-import { Item, MAX_YEAR, MIN_YEAR } from "../types";
+import { Item, MAX_YEAR, MIN_YEAR, MIN_YEAR_MS } from "../types";
 import { FilterValue } from "../components/map/Filter";
 import { mapEditionsToItems } from "../utils/dataUtils";
 import {
@@ -68,6 +68,28 @@ export const useAppliedFilter = () => {
 const finiteFallback = (value: number, fallback: number) =>
   Number.isFinite(value) ? value : fallback;
 
+const includesManuscripts = (
+  filters: Record<string, FilterValue[] | undefined>,
+  filtersInclude: Record<string, boolean>,
+) => {
+  const materialType = filters.materialType;
+  const include = filtersInclude.materialType ?? true;
+
+  if (!materialType || materialType.length === 0) {
+    return true;
+  }
+
+  const values = new Set(materialType.map((item) => item.value));
+  const hasManuscript = values.has("Manuscript");
+  const hasPrint = values.has("Print");
+
+  if (include) {
+    return hasManuscript;
+  }
+
+  return !hasPrint;
+};
+
 export const FilterAppliedProvider = ({
   children,
 }: {
@@ -81,7 +103,7 @@ export const FilterAppliedProvider = ({
     () => mapEditionsToItems(editionsQuery.data || []),
     [editionsQuery.data],
   );
-  const [minYear, maxYear] = useMemo(() => {
+  const [dataMinYear, dataMaxYear] = useMemo(() => {
     const years = data
       .filter((t) => !!t.year)
       .map((t) => parseInt(t.year!.split("/")[0]));
@@ -94,6 +116,12 @@ export const FilterAppliedProvider = ({
   const getDefaultState = useCallback((): FilterState => {
     return {
       filters: {
+        materialType: [
+          {
+            label: "Print",
+            value: "Print",
+          },
+        ],
         type: [
           {
             label: "Elements",
@@ -102,12 +130,12 @@ export const FilterAppliedProvider = ({
         ],
       } as Record<string, FilterValue[] | undefined>,
       filtersInclude: {},
-      range: [minYear || 0, maxYear || 9999] as [number, number],
+      range: [dataMinYear || 0, dataMaxYear || 9999] as [number, number],
       includeUndated: true,
       textSearch: "",
       textSearchFields: ["shortTitle", "title", "titleEn"] as (keyof Item)[],
     };
-  }, [minYear, maxYear]);
+  }, [dataMinYear, dataMaxYear]);
   const [queryFilters, setQueryFilters] = useQueryStates(filterQueryParsers, {
     history: "replace",
   });
@@ -133,6 +161,14 @@ export const FilterAppliedProvider = ({
     };
   }
   const appliedFilters = stableAppliedFiltersRef.current.value;
+  const minYear = useMemo(
+    () =>
+      includesManuscripts(appliedFilters.filters, appliedFilters.filtersInclude)
+        ? Math.min(dataMinYear, MIN_YEAR_MS)
+        : dataMinYear,
+    [appliedFilters.filters, appliedFilters.filtersInclude, dataMinYear],
+  );
+  const maxYear = dataMaxYear;
 
   const [hasUnappliedChanges, setHasUnappliedChanges] = useState(false);
 

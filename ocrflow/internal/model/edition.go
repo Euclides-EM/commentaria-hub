@@ -20,6 +20,7 @@ type Edition struct {
 	ManuscriptYearTo   *int    `json:"manuscriptYearTo"`
 	ManuscriptClass    string  `json:"manuscriptClass"`
 	ManuscriptSubclass *string `json:"manuscriptSubclass"`
+	ManuscriptElementsBooks *string `json:"manuscriptElementsBooks"`
 
 	// Print-only
 	Cities          []string               `json:"cities"`

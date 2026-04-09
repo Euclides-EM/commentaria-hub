@@ -18,6 +18,7 @@ import type {
 } from "@hub-api";
 
 const ITEM_FIELD_TO_EDITION_FIELD: Record<string, string> = {
+  materialType: "isManuscript",
   type: "isElements",
   languages: "languages",
   cities: "cities",
@@ -56,11 +57,19 @@ function buildSearchQuery(
   const query: Omit<search_Query, "offset" | "limit"> = {};
 
   if (filterState.filters) {
-    const fieldsFilter: Record<string, string[]> = {
-      isManuscript: ["false"],
-    };
+    const fieldsFilter: Record<string, string[]> = {};
     for (const [field, values] of Object.entries(filterState.filters)) {
       if (!values || values.length === 0) continue;
+      if (field === "materialType") {
+        const materialTypes = new Set(values.map((v) => v.value));
+        if (materialTypes.size !== 1) {
+          continue;
+        }
+        fieldsFilter.isManuscript = [
+          materialTypes.has("Manuscript") ? "true" : "false",
+        ];
+        continue;
+      }
       const backendField = ITEM_FIELD_TO_EDITION_FIELD[field] || field;
       let stringValues = values.map((v) => v.value);
       if (VALUE_TRANSFORMS[field]) {
@@ -76,6 +85,12 @@ function buildSearchQuery(
   if (filterState.filtersInclude) {
     const filterIncludes: Record<string, boolean> = {};
     for (const [field, include] of Object.entries(filterState.filtersInclude)) {
+      if (field === "materialType") {
+        const materialTypes = filterState.filters.materialType;
+        if (!materialTypes || materialTypes.length !== 1) {
+          continue;
+        }
+      }
       const backendField = ITEM_FIELD_TO_EDITION_FIELD[field] || field;
       filterIncludes[backendField] = include;
     }
