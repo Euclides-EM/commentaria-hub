@@ -423,7 +423,7 @@ func (q Query) OrderByFunc() func(e1 any, e2 any) int {
 						cmp = 1
 					}
 
-					if opt.Descending {
+					if opt.Descending && ok1 && ok2 {
 						cmp = -cmp
 					}
 					if cmp != 0 {

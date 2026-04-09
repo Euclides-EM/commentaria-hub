@@ -161,7 +161,7 @@ func TestOrderByYearUsesManuscriptYears(t *testing.T) {
 		},
 	}
 
-	slices.SortFunc(items, query.OrderByFunc())
+	sortTestEditions(items, query.OrderByFunc())
 
 	if items[0].ShortTitle != "manuscript" {
 		t.Fatalf("expected manuscript item to sort by manuscript year, got first item %q", items[0].ShortTitle)
@@ -187,7 +187,7 @@ func TestOrderByYearUsesManuscriptYearToWhenYearFromMissing(t *testing.T) {
 		},
 	}
 
-	slices.SortFunc(items, query.OrderByFunc())
+	sortTestEditions(items, query.OrderByFunc())
 
 	if items[0].ShortTitle != "earlier" {
 		t.Fatalf("expected manuscript fallback year_to to participate in ordering, got first item %q", items[0].ShortTitle)
@@ -212,7 +212,7 @@ func TestOrderByYearTreatsUndatedManuscriptLikeMissingYear(t *testing.T) {
 		},
 	}
 
-	slices.SortFunc(items, query.OrderByFunc())
+	sortTestEditions(items, query.OrderByFunc())
 
 	if items[1].ShortTitle != "undated manuscript" {
 		t.Fatalf("expected undated manuscript to sort last, got last item %q", items[1].ShortTitle)
@@ -237,7 +237,7 @@ func TestOrderByYearTreatsUndatedManuscriptAsLastInDescendingOrder(t *testing.T)
 		},
 	}
 
-	slices.SortFunc(items, query.OrderByFunc())
+	sortTestEditions(items, query.OrderByFunc())
 
 	if items[1].ShortTitle != "undated manuscript" {
 		t.Fatalf("expected undated manuscript to sort last in descending order, got last item %q", items[1].ShortTitle)
@@ -254,4 +254,10 @@ func intPtr(v int) *int {
 
 func strPtr(v string) *string {
 	return &v
+}
+
+func sortTestEditions(items []testEdition, cmp func(any, any) int) {
+	slices.SortFunc(items, func(a, b testEdition) int {
+		return cmp(a, b)
+	})
 }
