@@ -10,6 +10,7 @@ import (
 	"log"
 	"math"
 	"os"
+	"sort"
 	"path/filepath"
 	"runtime"
 	"strings"
@@ -52,7 +53,7 @@ import (
 // This denoise flow was tuned on testdata/denoise examples.
 
 const (
-	denoiseDebug = false
+	denoiseDebug = true
 
 	denoiseAdaptiveBlockSizeBase   = 61 // must be odd
 	denoiseAdaptiveBlockSizeMin    = 11
@@ -107,6 +108,12 @@ const (
 	denoiseClusterSearchRadiusFraction = 0.06
 	denoiseClusterMinNeighbors         = 3
 	denoiseClusterAreaRatioMax         = 4.0
+
+	denoiseInkPercentile    = 10
+	denoiseInkDarkReference = 110
+	denoiseInkOffsetMax     = 40
+	denoiseInkBucketScale   = 4
+	denoiseInkBucketMax     = 120
 
 	denoiseReferenceMinDim = 1240.0
 
@@ -454,11 +461,14 @@ func denoiseOne(inPath, outPath string) error {
 		return err
 	}
 
+	debugSaveMat(&binary, "01_binary")
+	debugSaveMat(&closed2, "02_closed2")
 	afterCC, err := removeSmallBlobs(closed2, denoiseMinBlobArea(gray.Rows(), gray.Cols()))
 	if err != nil {
 		return fmt.Errorf("remove small blobs: %w", err)
 	}
 	defer afterCC.Close()
+	debugSaveMat(&afterCC, "03_afterCC")
 
 	var cleaned gocv.Mat
 	if denoiseLowQuality(gray.Rows(), gray.Cols()) {
@@ -550,6 +560,7 @@ func denoiseOne(inPath, outPath string) error {
 		}
 	}
 	defer cleaned.Close()
+	debugSaveMat(&cleaned, "04_cleaned")
 
 	repaired, err := repairForegroundMask(cleaned)
 	if err != nil {
@@ -562,6 +573,7 @@ func denoiseOne(inPath, outPath string) error {
 		return fmt.Errorf("refine foreground mask: %w", err)
 	}
 	defer refined.Close()
+	debugSaveMat(&refined, "05_refined")
 
 	out, err := applyForegroundMask(&normalized, refined, inPath)
 	if err != nil {
@@ -636,6 +648,22 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 
 	seedMarginGlyphs(gray, &out)
 
+	inkVals := make([]int, 0, 4096)
+	for r := 0; r < gray.Rows(); r++ {
+		for c := 0; c < gray.Cols(); c++ {
+			if mask.GetUCharAt(r, c) != 0 {
+				inkVals = append(inkVals, int(gray.GetUCharAt(r, c)))
+			}
+		}
+	}
+	if len(inkVals) > 0 {
+		sort.Ints(inkVals)
+		p10 := inkVals[len(inkVals)*10/100]
+		p25 := inkVals[len(inkVals)*25/100]
+		p50 := inkVals[len(inkVals)*50/100]
+		log.Printf("[%s] ink histogram (normalized mask pixels=%d): p10=%d p25=%d p50=%d", inPath, len(inkVals), p10, p25, p50)
+	}
+
 	lowQuality := denoiseLowQuality(gray.Rows(), gray.Cols())
 	adaptiveC := denoiseAdaptiveCForImage(gray.Rows(), gray.Cols())
 	debugLogf("[%s] low_quality=%v adaptive_c=%d support_candidates=%d", inPath, lowQuality, adaptiveC, len(supportPixels))
@@ -657,9 +685,11 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 		}
 		debugLogf("[%s] low_quality brightness cutoff: wiped=%d threshold=%d", inPath, wiped, denoiseLowQualityMaxOutputGray)
 	} else {
+		debugSaveMat(&out, "06_pre_blob_filter")
 		minBlobArea := denoiseOutputBlobMinArea(gray.Rows(), gray.Cols())
 		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, minBlobArea)
 		debugLogf("[%s] output blobs: kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, keptPixels, minBlobArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, denoiseBlobBucketSize)
+		debugSaveMat(&out, "07_post_blob_filter")
 	}
 
 	return out, nil
@@ -1162,6 +1192,17 @@ func debugLogf(format string, args ...any) {
 		return
 	}
 	log.Printf(format, args...)
+}
+
+func debugSaveMat(mat *gocv.Mat, label string) {
+	if !denoiseDebug {
+		return
+	}
+	path := filepath.Join("/tmp/formatcov_debug", label+".png")
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return
+	}
+	gocv.IMWrite(path, *mat)
 }
 
 func removeSmallBlobs(src gocv.Mat, minArea int) (gocv.Mat, error) {
