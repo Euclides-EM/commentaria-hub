@@ -14,6 +14,7 @@ import { useAnnotationsQuery } from '../queries/annotations.ts'
 import { useAuthStore } from '../store/authStore.ts'
 import { parsePageEntries } from '../utils/pages.ts'
 import { findMatchingImage, hasAnnotationPages } from '../utils/editions.ts'
+import { buildAppStateUrl, getNextAppStateQueryState } from './appStateUrl'
 import type {
   AnnotationTab,
   AppState,
@@ -95,61 +96,23 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
 
   const wrappedSetState = useCallback(
     (updates: Partial<AppState>) => {
-      const nextUpdates: {
-        viewMode?: string
-        datasetId?: string
-        annotationId?: string
-        currentPageOrKey?: string
-        datasetTab?: string
-        annotationTab?: string
-      } = {}
-
-      if (updates.viewMode !== undefined) {
-        nextUpdates.viewMode = updates.viewMode || ''
-      }
-      if (updates.datasetId !== undefined) {
-        nextUpdates.datasetId = updates.datasetId
-        if (updates.currentPageOrKey === undefined) {
-          nextUpdates.currentPageOrKey = ''
-        }
-      }
-      if (updates.annotationId !== undefined) {
-        nextUpdates.annotationId = updates.annotationId
-        if (
-          updates.currentPageOrKey === undefined &&
-          updates.annotationId === ''
-        ) {
-          nextUpdates.currentPageOrKey = ''
-        }
-      }
-      if (updates.currentPageOrKey !== undefined) {
-        nextUpdates.currentPageOrKey = String(updates.currentPageOrKey)
-      }
-      if (updates.datasetTab !== undefined) {
-        nextUpdates.datasetTab = updates.datasetTab
-      }
-      if (updates.annotationTab !== undefined) {
-        nextUpdates.annotationTab = updates.annotationTab
-      }
-
+      const nextQueryState = getNextAppStateQueryState(queryState, updates)
       if (
         updates.datasetId !== undefined ||
         updates.annotationId !== undefined
       ) {
-        nextUpdates.viewMode = ''
         setSearchResultHighlight(null)
       }
-      if (updates.datasetId === '') {
-        nextUpdates.datasetTab = ''
-        nextUpdates.annotationTab = ''
-      }
-      if (updates.annotationId === '') {
-        nextUpdates.annotationTab = ''
-      }
       history.pushState(state, '', window.location.href)
-      setQueryState(nextUpdates)
+      setQueryState(nextQueryState)
     },
-    [setQueryState, state],
+    [queryState, setQueryState, state],
+  )
+
+  const getUrlForState = useCallback(
+    (updates: Partial<AppState>) =>
+      buildAppStateUrl(window.location.href, queryState, updates),
+    [queryState],
   )
 
   const jumpToPage = useCallback(
@@ -262,6 +225,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     () => ({
       state,
       setState: wrappedSetState,
+      getUrlForState,
       searchResultHighlight,
       setSearchResultHighlight,
       modelSearchPrefill,
@@ -274,6 +238,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     [
       state,
       wrappedSetState,
+      getUrlForState,
       searchResultHighlight,
       setSearchResultHighlight,
       modelSearchPrefill,

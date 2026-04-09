@@ -66,7 +66,7 @@ export function AnnotationsTable() {
   const createGroupMutation = useCreateAnnotationGroupMutation()
   const updateGroupMutation = useUpdateAnnotationGroupMutation()
   const deleteGroupMutation = useDeleteAnnotationGroupMutation()
-  const { setState } = useAppState()
+  const { getUrlForState } = useAppState()
   const [isExportOpen, setIsExportOpen] = useState(false)
   const [isCreateGroupOpen, setIsCreateGroupOpen] = useState(false)
   const [isAddToGroupsOpen, setIsAddToGroupsOpen] = useState(false)
@@ -79,6 +79,12 @@ export function AnnotationsTable() {
   const [groupActionError, setGroupActionError] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
     'annotationsSearch',
+    {
+      defaultValue: '',
+    },
+  )
+  const [groupSearchQuery, setGroupSearchQuery] = useLocalStorageState<string>(
+    'annotationsGroupSearch',
     {
       defaultValue: '',
     },
@@ -172,8 +178,70 @@ export function AnnotationsTable() {
     })
   }, [annotationQueries, datasetIds, datasets])
 
+  const rowKey = (row: AnnotationRow) => `${row.datasetId}:${row.annotation.id}`
+
+  const validRowKeys = useMemo(
+    () => new Set(rows.map((row) => rowKey(row))),
+    [rows],
+  )
+
+  const pruneSelectedTargets = (targets: SelectedTargets): SelectedTargets => {
+    const next: SelectedTargets = {}
+    for (const [key, target] of Object.entries(targets)) {
+      if (validRowKeys.has(key)) {
+        next[key] = target
+      }
+    }
+    return next
+  }
+
+  const sortedGroups = useMemo(
+    () =>
+      [...annotationGroups].sort((a, b) =>
+        (a.name || a.id || '').localeCompare(b.name || b.id || ''),
+      ),
+    [annotationGroups],
+  )
+  const groupOptions = useMemo<AnnotationGroupWithId[]>(
+    () =>
+      sortedGroups.filter(
+        (group): group is AnnotationGroupWithId =>
+          typeof group.id === 'string' && group.id.length > 0,
+      ),
+    [sortedGroups],
+  )
+  const groupOptionItems = useMemo(
+    () =>
+      groupOptions.map((group) => ({
+        id: group.id,
+        label: group.name || group.id,
+      })),
+    [groupOptions],
+  )
+
+  const groupsByRowKey = useMemo(() => {
+    const map = new Map<string, annotation_Group[]>()
+    sortedGroups.forEach((group) => {
+      ;(group.annotations || []).forEach((ref) => {
+        if (!ref.dataset_id || !ref.id) {
+          return
+        }
+        const key = `${ref.dataset_id}:${ref.id}`
+        const existing = map.get(key)
+        if (existing) {
+          existing.push(group)
+          return
+        }
+        map.set(key, [group])
+      })
+    })
+    return map
+  }, [sortedGroups])
+
   const filteredRows = useMemo(() => {
     const trimmed = searchQuery.trim().toLowerCase()
+    const trimmedGroupQuery = groupSearchQuery.trim().toLowerCase()
+
     return rows.filter((row) => {
       const stage = row.annotation.pipeline_stage
       const matchesStage =
@@ -198,6 +266,16 @@ export function AnnotationsTable() {
       if (!matchesHidden) {
         return false
       }
+      if (trimmedGroupQuery) {
+        const groupHaystack = (groupsByRowKey.get(rowKey(row)) || [])
+          .map((group) => group.name || group.id || '')
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase()
+        if (!groupHaystack.includes(trimmedGroupQuery)) {
+          return false
+        }
+      }
       if (!trimmed) {
         return true
       }
@@ -213,29 +291,20 @@ export function AnnotationsTable() {
         .toLowerCase()
       return haystack.includes(trimmed)
     })
-  }, [groundTruthFilter, hiddenFilter, rows, searchQuery, selectedStages])
+  }, [
+    groundTruthFilter,
+    groupSearchQuery,
+    groupsByRowKey,
+    hiddenFilter,
+    rows,
+    searchQuery,
+    selectedStages,
+  ])
 
   const filteredDatasetCount = useMemo(
     () => new Set(filteredRows.map((row) => row.datasetId)).size,
     [filteredRows],
   )
-
-  const rowKey = (row: AnnotationRow) => `${row.datasetId}:${row.annotation.id}`
-
-  const validRowKeys = useMemo(
-    () => new Set(rows.map((row) => rowKey(row))),
-    [rows],
-  )
-
-  const pruneSelectedTargets = (targets: SelectedTargets): SelectedTargets => {
-    const next: SelectedTargets = {}
-    for (const [key, target] of Object.entries(targets)) {
-      if (validRowKeys.has(key)) {
-        next[key] = target
-      }
-    }
-    return next
-  }
 
   const sortedRows = useMemo(() => {
     const getSortValue = (row: AnnotationRow, key: SortKey) => {
@@ -291,58 +360,23 @@ export function AnnotationsTable() {
     updateGroupMutation.isPending ||
     deleteGroupMutation.isPending
 
-  const sortedGroups = useMemo(
-    () =>
-      [...annotationGroups].sort((a, b) =>
-        (a.name || a.id || '').localeCompare(b.name || b.id || ''),
-      ),
-    [annotationGroups],
-  )
-  const groupOptions = useMemo<AnnotationGroupWithId[]>(
-    () =>
-      sortedGroups.filter(
-        (group): group is AnnotationGroupWithId =>
-          typeof group.id === 'string' && group.id.length > 0,
-      ),
-    [sortedGroups],
-  )
-  const groupOptionItems = useMemo(
-    () =>
-      groupOptions.map((group) => ({
-        id: group.id,
-        label: group.name || group.id,
-      })),
-    [groupOptions],
-  )
-
-  const groupsByRowKey = useMemo(() => {
-    const map = new Map<string, annotation_Group[]>()
-    sortedGroups.forEach((group) => {
-      ;(group.annotations || []).forEach((ref) => {
-        if (!ref.dataset_id || !ref.id) {
-          return
-        }
-        const key = `${ref.dataset_id}:${ref.id}`
-        const existing = map.get(key)
-        if (existing) {
-          existing.push(group)
-          return
-        }
-        map.set(key, [group])
-      })
-    })
-    return map
-  }, [sortedGroups])
-
   const groupedSections = useMemo<GroupSection[]>(() => {
+    const trimmedGroupQuery = groupSearchQuery.trim().toLowerCase()
     const rowsByGroupId = new Map<string, AnnotationRow[]>()
     const ungrouped: AnnotationRow[] = []
     sortedRows.forEach((row) => {
       const groups = (groupsByRowKey.get(rowKey(row)) || []).filter(
-        (group) => !!group.id,
+        (group) =>
+          !!group.id &&
+          (!trimmedGroupQuery ||
+            (group.name || group.id || '')
+              .toLowerCase()
+              .includes(trimmedGroupQuery)),
       )
       if (!groups.length) {
-        ungrouped.push(row)
+        if (!trimmedGroupQuery) {
+          ungrouped.push(row)
+        }
         return
       }
       groups.forEach((group) => {
@@ -370,7 +404,7 @@ export function AnnotationsTable() {
       })
     }
     return result
-  }, [groupsByRowKey, sortedGroups, sortedRows])
+  }, [groupSearchQuery, groupsByRowKey, sortedGroups, sortedRows])
 
   const mergeAnnotationReferences = (
     existing: Array<{ dataset_id?: string; id?: string }>,
@@ -554,6 +588,21 @@ export function AnnotationsTable() {
     )
   }
 
+  const renderStateLink = (
+    label: string,
+    updates: { datasetId: string; annotationId: string },
+    className: string,
+  ) => (
+    <a
+      href={getUrlForState(updates)}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={className}
+    >
+      {label}
+    </a>
+  )
+
   const showSelectionControls = isAuthenticated
   const showGroupMutationControls = isAuthenticated && groupingEnabled
   const visibleColumnCount = [
@@ -607,32 +656,24 @@ export function AnnotationsTable() {
         </td>
       )}
       <td className="px-4 py-3 text-left whitespace-nowrap">
-        <button
-          type="button"
-          className="inline text-left font-medium text-teal-700 hover:text-teal-900 hover:underline cursor-pointer"
-          onClick={() =>
-            setState({
-              datasetId: row.datasetId,
-              annotationId: row.annotation.id || '',
-            })
-          }
-        >
-          {row.annotation.name || row.annotation.id}
-        </button>
+        {renderStateLink(
+          row.annotation.name || row.annotation.id || '',
+          {
+            datasetId: row.datasetId,
+            annotationId: row.annotation.id || '',
+          },
+          'inline text-left font-medium text-teal-700 hover:text-teal-900 hover:underline cursor-pointer',
+        )}
       </td>
       <td className="px-4 py-3 text-left whitespace-nowrap">
-        <button
-          type="button"
-          className="inline text-left text-teal-700 hover:text-teal-900 hover:underline cursor-pointer"
-          onClick={() =>
-            setState({
-              datasetId: row.datasetId,
-              annotationId: '',
-            })
-          }
-        >
-          {row.datasetName}
-        </button>
+        {renderStateLink(
+          row.datasetName,
+          {
+            datasetId: row.datasetId,
+            annotationId: '',
+          },
+          'inline text-left text-teal-700 hover:text-teal-900 hover:underline cursor-pointer',
+        )}
       </td>
       <td className="px-4 py-3 text-gray-700 whitespace-nowrap">
         {row.annotation.pipeline_stage
@@ -678,7 +719,7 @@ export function AnnotationsTable() {
             <h2 className="text-lg font-semibold text-gray-900">Annotations</h2>
             <p className="text-xs text-gray-500">
               {filteredRows.length}
-              {searchQuery && ` of ${rows.length}`}{' '}
+              {(searchQuery || groupSearchQuery) && ` of ${rows.length}`}{' '}
               {rows.length === 1 ? 'annotation' : 'annotations'} from{' '}
               {filteredDatasetCount}{' '}
               {filteredDatasetCount === 1 ? 'dataset' : 'datasets'}
@@ -689,6 +730,12 @@ export function AnnotationsTable() {
             onChange={setSearchQuery}
             placeholder="Search annotations..."
             className="w-[22rem] max-w-full"
+          />
+          <SearchInput
+            value={groupSearchQuery}
+            onChange={setGroupSearchQuery}
+            placeholder="Filter groups..."
+            className="w-[18rem] max-w-full"
           />
           {stages && (
             <MultiSelectDropdown

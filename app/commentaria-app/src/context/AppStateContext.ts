@@ -25,6 +25,7 @@ export interface AppStateContextType {
   annotation: annotation_Annotation | null
   state: AppState
   setState: (updates: Partial<AppState>) => void
+  getUrlForState: (updates: Partial<AppState>) => string
   jumpToPage: (nextPage: PageOrKey) => void
   searchResultHighlight: string | null
   setSearchResultHighlight: (id: string | null) => void
