@@ -28,6 +28,16 @@ import { ApiError } from '@hub-api'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import type { StylesConfig } from 'react-select'
 import { DEFAULT_IMAGE_ZOOM } from '../imageZoom.ts'
+import { MultiSelectDropdown } from '../../core/MultiSelectDropdown.tsx'
+import {
+  DEFAULT_HIGHLIGHT_ZONE_FILTERS,
+  filterSurfaceZones,
+  getHighlightZoneFilterLabel,
+  getHighlightZoneFilterPickerLabel,
+  HIGHLIGHT_ZONE_FILTER_OPTIONS,
+  HIGHLIGHT_ZONE_FILTER_STORAGE_KEY,
+  type HighlightZoneFilter,
+} from '../highlightControls.ts'
 
 type RenderedImageRect = {
   left: number
@@ -154,6 +164,12 @@ export function ImagePane({
     'imagePaneHighlightMode',
     { defaultValue: 'hover', storageSync: false },
   )
+  const [highlightZoneFilters, setHighlightZoneFilters] = useLocalStorageState<
+    HighlightZoneFilter[]
+  >(HIGHLIGHT_ZONE_FILTER_STORAGE_KEY, {
+    defaultValue: DEFAULT_HIGHLIGHT_ZONE_FILTERS,
+    storageSync: false,
+  })
   const viewportRef = useRef<HTMLDivElement | null>(null)
   const fileInputRef = useRef<HTMLInputElement | null>(null)
   const lastHoverIdsKeyRef = useRef('')
@@ -175,9 +191,10 @@ export function ImagePane({
   )
   const matchedImage = findMatchingImage(String(currentPageOrKey), imageKeys)
   const currentImageName = matchedImage?.key || String(currentPageOrKey)
+  const hasSurfaceZones = surfaceZones.length > 0
   const highlightableZones = useMemo(
     () =>
-      surfaceZones.filter(
+      filterSurfaceZones(surfaceZones, highlightZoneFilters).filter(
         (zone) =>
           Number.isFinite(zone.ulx) &&
           Number.isFinite(zone.uly) &&
@@ -192,7 +209,7 @@ export function ImagePane({
           zone.refLrx > zone.refUlx &&
           zone.refLry > zone.refUly,
       ),
-    [surfaceZones],
+    [highlightZoneFilters, surfaceZones],
   )
   const hasHighlightableZones = highlightableZones.length > 0
   const selectedHighlightMode =
@@ -548,34 +565,52 @@ export function ImagePane({
             Replace image
           </Button>
         )}
-        <div className="order-3 basis-full min-w-0 flex items-center gap-3">
-          {hasHighlightableZones && (
-            <div className="flex items-center gap-1.5 text-xs font-medium text-gray-700 shrink-0">
-              <span>Highlights</span>
-              <div className="w-24">
-                <Select<HighlightModeOption, false>
-                  value={selectedHighlightMode}
-                  onChange={(option) =>
-                    setHighlightMode(option?.value || 'hover')
+        <div className="order-3 basis-full min-w-0 flex items-center gap-3 flex-wrap">
+          {hasSurfaceZones && (
+            <div className="flex items-center gap-3 text-xs font-medium text-gray-700 shrink-0 flex-wrap">
+              <div className="flex items-center gap-1.5 shrink-0">
+                <span>Highlights</span>
+                <div className="w-24">
+                  <Select<HighlightModeOption, false>
+                    value={selectedHighlightMode}
+                    onChange={(option) =>
+                      setHighlightMode(option?.value || 'hover')
+                    }
+                    options={HIGHLIGHT_MODE_OPTIONS}
+                    isClearable={false}
+                    styles={compactSelectStyles}
+                    menuPortalTarget={document.body}
+                    menuPosition="fixed"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5 shrink-0">
+                <MultiSelectDropdown<HighlightZoneFilter>
+                  allItems={HIGHLIGHT_ZONE_FILTER_OPTIONS}
+                  selectedItems={highlightZoneFilters}
+                  setSelectedItems={(items) =>
+                    setHighlightZoneFilters(items ?? [])
                   }
-                  options={HIGHLIGHT_MODE_OPTIONS}
-                  isClearable={false}
-                  styles={compactSelectStyles}
-                  menuPortalTarget={document.body}
-                  menuPosition="fixed"
+                  itemsLabel="highlights"
+                  getItemLabel={getHighlightZoneFilterLabel}
+                  getPickerLabel={getHighlightZoneFilterPickerLabel}
+                  showBulkActions={false}
+                  minWidth="120px"
                 />
               </div>
             </div>
           )}
-          <RangeInput
-            label="Zoom control"
-            value={zoom}
-            min={105}
-            max={1000}
-            step={5}
-            onChange={(value) => setZoom(Math.round(value))}
-            className="bg-transparent border-gray-300 min-w-0 flex-1"
-          />
+          <div className="min-w-[220px] flex-1">
+            <RangeInput
+              label="Zoom control"
+              value={zoom}
+              min={105}
+              max={1000}
+              step={5}
+              onChange={(value) => setZoom(Math.round(value))}
+              className="bg-transparent border-gray-300 min-w-0 w-full"
+            />
+          </div>
         </div>
       </div>
 

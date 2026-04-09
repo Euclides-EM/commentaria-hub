@@ -16,6 +16,7 @@ interface MultiSelectDropdownProps<T> {
   getItemKey?: (item: T) => string
   bulkActionItems?: T[]
   bulkActionLabel?: string
+  showBulkActions?: boolean
   showSeparatorBeforeItem?: (item: T) => boolean
   minWidth?: string
   disabled?: boolean
@@ -31,6 +32,7 @@ export function MultiSelectDropdown<T>({
   getItemKey,
   bulkActionItems,
   bulkActionLabel,
+  showBulkActions = true,
   showSeparatorBeforeItem,
   minWidth = '160px',
   disabled = false,
@@ -196,22 +198,26 @@ export function MultiSelectDropdown<T>({
                 </div>
               ) : (
                 <>
-                  <button
-                    className="pl-[32px] w-full px-3 py-2 text-gray-600 break-words hover:bg-gray-50 cursor-pointer text-sm text-start"
-                    onClick={() => handleBulkSelection(true)}
-                  >
-                    {bulkActionLabel
-                      ? `Select all ${bulkActionLabel}`
-                      : 'Select all'}
-                  </button>
-                  <button
-                    className="pl-[32px] w-full px-3 py-2 text-gray-600 break-words hover:bg-gray-50 cursor-pointer text-sm text-start"
-                    onClick={() => handleBulkSelection(false)}
-                  >
-                    {bulkActionLabel
-                      ? `Deselect all ${bulkActionLabel}`
-                      : 'Clear all'}
-                  </button>
+                  {showBulkActions && (
+                    <>
+                      <button
+                        className="pl-[32px] w-full px-3 py-2 text-gray-600 break-words hover:bg-gray-50 cursor-pointer text-sm text-start"
+                        onClick={() => handleBulkSelection(true)}
+                      >
+                        {bulkActionLabel
+                          ? `Select all ${bulkActionLabel}`
+                          : 'Select all'}
+                      </button>
+                      <button
+                        className="pl-[32px] w-full px-3 py-2 text-gray-600 break-words hover:bg-gray-50 cursor-pointer text-sm text-start"
+                        onClick={() => handleBulkSelection(false)}
+                      >
+                        {bulkActionLabel
+                          ? `Deselect all ${bulkActionLabel}`
+                          : 'Clear all'}
+                      </button>
+                    </>
+                  )}
                   {allItems.map((item) => (
                     <label
                       key={getItemKey ? getItemKey(item) : String(item)}

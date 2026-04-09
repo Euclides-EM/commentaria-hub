@@ -36,6 +36,7 @@ import { parsePageEntries } from '../../../utils/pages.ts'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { RangeInput } from '../../core/RangeInput.tsx'
 import { DEFAULT_IMAGE_ZOOM } from '../imageZoom.ts'
+import { MultiSelectDropdown } from '../../core/MultiSelectDropdown.tsx'
 import type { annotation_SearchWithin } from '@hub-api'
 import {
   ANNOTATION_SEARCH_CATEGORIES_KEY,
@@ -44,6 +45,15 @@ import {
   getSearchResultPageOrKey,
 } from '../contents/navigation/annotationSearchUtils.ts'
 import { findMatchingImage } from '../../../utils/editions.ts'
+import {
+  DEFAULT_HIGHLIGHT_ZONE_FILTERS,
+  filterSurfaceZones,
+  getHighlightZoneFilterLabel,
+  getHighlightZoneFilterPickerLabel,
+  HIGHLIGHT_ZONE_FILTER_OPTIONS,
+  HIGHLIGHT_ZONE_FILTER_STORAGE_KEY,
+  type HighlightZoneFilter,
+} from '../highlightControls.ts'
 
 type GalleryViewMode = 'images' | 'texts' | 'side-by-side'
 type ViewModeOption = { value: GalleryViewMode; label: string }
@@ -52,6 +62,7 @@ type HighlightMode = 'hide' | 'hover' | 'show'
 type HighlightModeOption = { value: HighlightMode; label: string }
 
 const BATCH_SIZE = 20
+const DEFAULT_CARD_SIZE = 280
 
 const VIEW_MODE_OPTIONS: ViewModeOption[] = [
   { value: 'images', label: 'Images' },
@@ -130,6 +141,7 @@ type GalleryImageCardProps = {
   imageUrl: string
   imageZoom: number
   highlightMode: HighlightMode
+  highlightZoneFilters: HighlightZoneFilter[]
   surfaceZones: TeiSurfaceZone[]
   half: boolean
   activeLineMatchIds: string[]
@@ -140,6 +152,7 @@ function GalleryImageCard({
   imageUrl,
   imageZoom,
   highlightMode,
+  highlightZoneFilters,
   surfaceZones,
   half,
   activeLineMatchIds,
@@ -253,7 +266,7 @@ function GalleryImageCard({
 
   const highlightableZones = useMemo(
     () =>
-      surfaceZones.filter(
+      filterSurfaceZones(surfaceZones, highlightZoneFilters).filter(
         (zone) =>
           Number.isFinite(zone.ulx) &&
           Number.isFinite(zone.uly) &&
@@ -268,7 +281,7 @@ function GalleryImageCard({
           zone.refLrx > zone.refUlx &&
           zone.refLry > zone.refUly,
       ),
-    [surfaceZones],
+    [highlightZoneFilters, surfaceZones],
   )
 
   const visibleZones = useMemo(() => {
@@ -408,6 +421,7 @@ type GalleryCardBodyProps = {
   imageUrl: string | null
   imageZoom: number
   highlightMode: HighlightMode
+  highlightZoneFilters: HighlightZoneFilter[]
   surfaceZones: TeiSurfaceZone[]
   sideBySide: boolean
   showText: boolean
@@ -427,6 +441,7 @@ function GalleryCardBody({
   imageUrl,
   imageZoom,
   highlightMode,
+  highlightZoneFilters,
   surfaceZones,
   sideBySide,
   showText,
@@ -449,6 +464,7 @@ function GalleryCardBody({
           imageUrl={imageUrl}
           imageZoom={imageZoom}
           highlightMode={highlightMode}
+          highlightZoneFilters={highlightZoneFilters}
           surfaceZones={surfaceZones}
           half={sideBySide}
           activeLineMatchIds={activeLineMatchIds}
@@ -656,7 +672,7 @@ export function GalleryViewTab() {
     { defaultValue: 'images', storageSync: false },
   )
   const [cardSize, setCardSize] = useLocalStorageState('galleryCardSize', {
-    defaultValue: 280,
+    defaultValue: DEFAULT_CARD_SIZE,
     storageSync: false,
   })
 
@@ -672,6 +688,12 @@ export function GalleryViewTab() {
       storageSync: false,
     },
   )
+  const [highlightZoneFilters, setHighlightZoneFilters] = useLocalStorageState<
+    HighlightZoneFilter[]
+  >(HIGHLIGHT_ZONE_FILTER_STORAGE_KEY, {
+    defaultValue: DEFAULT_HIGHLIGHT_ZONE_FILTERS,
+    storageSync: false,
+  })
 
   const [showTeiLineHighlights, setShowTeiLineHighlights] =
     useLocalStorageState('showTeiLineHighlights', { defaultValue: true })
@@ -1047,10 +1069,52 @@ export function GalleryViewTab() {
               >
                 +
               </button>
+              <button
+                className="h-6 px-2 flex items-center justify-center border border-gray-300 rounded bg-white text-xs font-medium disabled:opacity-40 disabled:cursor-not-allowed enabled:hover:bg-gray-100"
+                onClick={() => setCardSize(DEFAULT_CARD_SIZE)}
+                disabled={cardSize === DEFAULT_CARD_SIZE}
+                title="Reset card size"
+              >
+                Reset
+              </button>
             </div>
           </div>
           {showImage && (
             <div className="px-3 py-2 flex items-center gap-3 flex-wrap border-t border-gray-200">
+              {hasSurfaceZones && (
+                <div className="flex items-center gap-3 text-xs font-medium text-gray-700 flex-wrap">
+                  <div className="flex items-center gap-1.5">
+                    <span>Highlights</span>
+                    <div className="w-28">
+                      <Select<HighlightModeOption, false>
+                        value={selectedHighlightModeOption}
+                        onChange={(option) =>
+                          setHighlightMode(option?.value || 'hover')
+                        }
+                        options={HIGHLIGHT_MODE_OPTIONS}
+                        isClearable={false}
+                        styles={selectStyles<HighlightModeOption>()}
+                        menuPortalTarget={document.body}
+                        menuPosition="fixed"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <MultiSelectDropdown<HighlightZoneFilter>
+                      allItems={HIGHLIGHT_ZONE_FILTER_OPTIONS}
+                      selectedItems={highlightZoneFilters}
+                      setSelectedItems={(items) =>
+                        setHighlightZoneFilters(items ?? [])
+                      }
+                      itemsLabel="highlights"
+                      getItemLabel={getHighlightZoneFilterLabel}
+                      getPickerLabel={getHighlightZoneFilterPickerLabel}
+                      showBulkActions={false}
+                      minWidth="120px"
+                    />
+                  </div>
+                </div>
+              )}
               <RangeInput
                 label="Image zoom"
                 value={imageZoom}
@@ -1060,32 +1124,6 @@ export function GalleryViewTab() {
                 onChange={(value) => setImageZoom(Math.round(value))}
                 className="bg-transparent border-gray-300"
               />
-              <button
-                className="h-7 px-2 flex items-center justify-center border border-gray-300 rounded bg-white text-xs font-medium disabled:opacity-40 disabled:cursor-not-allowed enabled:hover:bg-gray-100"
-                onClick={() => setImageZoom(DEFAULT_IMAGE_ZOOM)}
-                disabled={imageZoom === DEFAULT_IMAGE_ZOOM}
-                title="Reset image zoom"
-              >
-                Reset zoom
-              </button>
-              {hasSurfaceZones && (
-                <div className="flex items-center gap-1.5 text-xs font-medium text-gray-700">
-                  <span>Highlights</span>
-                  <div className="w-28">
-                    <Select<HighlightModeOption, false>
-                      value={selectedHighlightModeOption}
-                      onChange={(option) =>
-                        setHighlightMode(option?.value || 'hover')
-                      }
-                      options={HIGHLIGHT_MODE_OPTIONS}
-                      isClearable={false}
-                      styles={selectStyles<HighlightModeOption>()}
-                      menuPortalTarget={document.body}
-                      menuPosition="fixed"
-                    />
-                  </div>
-                </div>
-              )}
             </div>
           )}
           {showText && (
@@ -1175,6 +1213,7 @@ export function GalleryViewTab() {
                     imageUrl={showImage ? getImageUrl(page) : null}
                     imageZoom={imageZoom}
                     highlightMode={highlightMode}
+                    highlightZoneFilters={highlightZoneFilters}
                     surfaceZones={surfaceZonesByPage.get(page) ?? []}
                     sideBySide={viewMode === 'side-by-side'}
                     showText={showText}
