@@ -38,7 +38,7 @@ import (
 // This denoise flow was fine tuned on testdata/denoise examples
 
 const (
-	denoiseDebug = false
+	denoiseDebug = true
 
 	denoiseAdaptiveBlockSize       = 61 // must be odd
 	denoiseAdaptiveC               = 14
@@ -61,7 +61,12 @@ const (
 	denoiseEnhanceCoreGamma        = 1.35
 	denoiseEnhanceNeighborMinRatio = 0.25
 	denoiseMaskRefineMaxGray       = 210
+	denoiseMaskRefineMarginMaxGray = 228
 	denoiseSupportLocalGrayMargin  = 12
+	denoiseSupportMarginGrayMargin = 24
+	denoiseMarginSeedMaxGray       = 196
+	denoiseMarginSeedNeighbors     = 1
+	denoiseMarginSeedPasses        = 3
 	denoiseBlobBucketSize          = 6
 	denoiseBlobAreaFraction        = 0.000012
 	denoiseBlobMinGray             = 140
@@ -74,6 +79,13 @@ const (
 	denoiseBlobDarkAnchorGray      = 165
 	denoiseBlobDarkAnchorRatio     = 0.15
 	denoiseBlobDarkAnchorMinPixels = 4
+	denoiseBlobEdgeMaxMeanGray     = 186.0
+	denoiseBlobEdgeDarkAnchors     = 2
+	denoiseBlobMarginMaxGray       = 214
+	denoiseSideMarginFraction      = 0.18
+	denoiseSideMarginMinPixels     = 96
+	denoiseTopMarginFraction       = 0.14
+	denoiseTopMarginMinPixels      = 72
 
 	denoiseReferenceMinDim = 1240.0
 
@@ -176,6 +188,30 @@ func denoiseEnhanceSupportSize(rows, cols int) int {
 
 func denoiseOutputBlobMinArea(rows, cols int) int {
 	return maxInt(1, int(math.Round(float64(rows*cols)*denoiseBlobAreaFraction)))
+}
+
+func denoiseSideMarginWidth(cols int) int {
+	margin := int(math.Round(float64(cols) * denoiseSideMarginFraction))
+	if margin < denoiseSideMarginMinPixels {
+		return denoiseSideMarginMinPixels
+	}
+	maxMargin := cols / 3
+	if margin > maxMargin {
+		return maxMargin
+	}
+	return margin
+}
+
+func denoiseTopMarginHeight(rows int) int {
+	margin := int(math.Round(float64(rows) * denoiseTopMarginFraction))
+	if margin < denoiseTopMarginMinPixels {
+		return denoiseTopMarginMinPixels
+	}
+	maxMargin := rows / 4
+	if margin > maxMargin {
+		return maxMargin
+	}
+	return margin
 }
 
 func scaledInt(base int, scale float64, minVal int) int {
@@ -500,16 +536,26 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 			if support.GetUCharAt(r, c) == 0 || mask.GetUCharAt(r, c) != 0 {
 				continue
 			}
+			marginPixel := isMarginPixel(gray.Rows(), gray.Cols(), r, c)
+			neighborCount := maskNeighborCount(&mask, r, c)
 			if !hasEnoughMaskedNeighbors(&mask, r, c) {
-				continue
+				if !marginPixel || neighborCount < 1 {
+					continue
+				}
 			}
 			grayVal := gray.GetUCharAt(r, c)
 			localMean, ok := localMaskedMeanGray(gray, &mask, r, c)
-			if !ok || int(grayVal) > localMean+denoiseSupportLocalGrayMargin {
+			if !ok {
 				continue
 			}
-			enhanced := enhanceInk(grayVal)
-			blended := blendGray(grayVal, enhanced, denoiseEnhanceNeighborStrength)
+			localGrayMargin := denoiseSupportLocalGrayMargin
+			if marginPixel {
+				localGrayMargin = denoiseSupportMarginGrayMargin
+			}
+			if int(grayVal) > localMean+localGrayMargin {
+				continue
+			}
+			blended := renderSupportPixel(gray.Rows(), gray.Cols(), r, c, grayVal)
 			supportPixels = append(supportPixels, supportPixel{r: r, c: c, blended: blended})
 		}
 	}
@@ -519,7 +565,7 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 		for c := 0; c < gray.Cols(); c++ {
 			grayVal := gray.GetUCharAt(r, c)
 			if mask.GetUCharAt(r, c) != 0 {
-				out.SetUCharAt(r, c, enhanceInk(grayVal))
+				out.SetUCharAt(r, c, renderForegroundPixel(gray.Rows(), gray.Cols(), r, c, grayVal))
 				continue
 			}
 			out.SetUCharAt(r, c, denoiseMaskColor)
@@ -529,6 +575,8 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 	for _, px := range supportPixels {
 		out.SetUCharAt(px.r, px.c, px.blended)
 	}
+
+	seedMarginGlyphs(gray, &out)
 
 	lowQuality := denoiseLowQuality(gray.Rows(), gray.Cols())
 	adaptiveC := denoiseAdaptiveCForImage(gray.Rows(), gray.Cols())
@@ -578,7 +626,11 @@ func refineForegroundMask(mask gocv.Mat, tone *gocv.Mat) (gocv.Mat, error) {
 			if support.GetUCharAt(r, c) == 0 {
 				continue
 			}
-			if tone.GetUCharAt(r, c) > denoiseMaskRefineMaxGray {
+			maxGray := uint8(denoiseMaskRefineMaxGray)
+			if isMarginPixel(tone.Rows(), tone.Cols(), r, c) {
+				maxGray = denoiseMaskRefineMarginMaxGray
+			}
+			if tone.GetUCharAt(r, c) > maxGray {
 				continue
 			}
 			refined.SetUCharAt(r, c, denoiseMaskColor)
@@ -716,6 +768,60 @@ func blendGray(base, target uint8, strength float64) uint8 {
 	return uint8(v + 0.5)
 }
 
+func renderForegroundPixel(rows, cols, r, c int, grayVal uint8) uint8 {
+	return enhanceInk(grayVal)
+}
+
+func renderSupportPixel(rows, cols, r, c int, grayVal uint8) uint8 {
+	return blendGray(grayVal, enhanceInk(grayVal), denoiseEnhanceNeighborStrength)
+}
+
+func seedMarginGlyphs(gray *gocv.Mat, out *gocv.Mat) {
+	rows := gray.Rows()
+	cols := gray.Cols()
+	for pass := 0; pass < denoiseMarginSeedPasses; pass++ {
+		changed := false
+		for r := 0; r < rows; r++ {
+			for c := 0; c < cols; c++ {
+				if !isMarginPixel(rows, cols, r, c) || out.GetUCharAt(r, c) != denoiseMaskColor {
+					continue
+				}
+				grayVal := gray.GetUCharAt(r, c)
+				if grayVal > denoiseMarginSeedMaxGray {
+					continue
+				}
+				if marginSeedNeighborCount(gray, out, r, c, denoiseMarginSeedMaxGray) < denoiseMarginSeedNeighbors {
+					continue
+				}
+				out.SetUCharAt(r, c, grayVal)
+				changed = true
+			}
+		}
+		if !changed {
+			return
+		}
+	}
+}
+
+func marginSeedNeighborCount(gray *gocv.Mat, out *gocv.Mat, r, c int, maxGray uint8) int {
+	count := 0
+	r0 := maxInt(0, r-1)
+	r1 := minInt(gray.Rows()-1, r+1)
+	c0 := maxInt(0, c-1)
+	c1 := minInt(gray.Cols()-1, c+1)
+	for rr := r0; rr <= r1; rr++ {
+		for cc := c0; cc <= c1; cc++ {
+			if rr == r && cc == c {
+				continue
+			}
+			if out.GetUCharAt(rr, cc) != denoiseMaskColor || gray.GetUCharAt(rr, cc) <= maxGray {
+				count++
+			}
+		}
+	}
+	return count
+}
+
 func localMaskedMeanGray(gray *gocv.Mat, mask *gocv.Mat, r, c int) (int, bool) {
 	sum := 0
 	count := 0
@@ -743,6 +849,8 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 	if len(pixels) == 0 {
 		return keep, 0
 	}
+	sideMarginWidth := denoiseSideMarginWidth(cols)
+	topMarginHeight := denoiseTopMarginHeight(rows)
 
 	grid := make([]int, rows*cols)
 	for i := range grid {
@@ -770,6 +878,7 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 		seen[i] = true
 		sumGray := int(px.blended)
 		darkAnchors := 0
+		touchesPageMargin := px.c < sideMarginWidth || px.c >= cols-sideMarginWidth || px.r < topMarginHeight
 		if int(px.blended) <= denoiseBlobDarkAnchorGray {
 			darkAnchors++
 		}
@@ -795,6 +904,9 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 				queue = append(queue, neighborIdx)
 				component = append(component, neighborIdx)
 				sumGray += neighborGray
+				if pixels[neighborIdx].c < sideMarginWidth || pixels[neighborIdx].c >= cols-sideMarginWidth || pixels[neighborIdx].r < topMarginHeight {
+					touchesPageMargin = true
+				}
 				if neighborGray <= denoiseBlobDarkAnchorGray {
 					darkAnchors++
 				}
@@ -805,7 +917,8 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 		if area > maxBlobArea {
 			maxBlobArea = area
 		}
-		if area >= minArea && keepBlobComponent(area, minArea, float64(sumGray)/float64(area), darkAnchors) {
+		meanGray := float64(sumGray) / float64(area)
+		if keepBlobComponent(area, minArea, meanGray, darkAnchors) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
 			for _, idx := range component {
 				keep[idx] = true
 			}
@@ -816,10 +929,26 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 }
 
 func keepBlobComponent(area int, minArea int, meanGray float64, darkAnchors int) bool {
+	if area < minArea {
+		return false
+	}
 	if meanGray <= blobMaxMeanGrayForArea(area, minArea) {
 		return true
 	}
 	return darkAnchors >= blobRequiredDarkAnchors(area)
+}
+
+func keepEdgeBlobComponent(area int, meanGray float64, darkAnchors int, touchesSideMargin bool) bool {
+	if !touchesSideMargin {
+		return false
+	}
+	if meanGray <= denoiseBlobEdgeMaxMeanGray {
+		return true
+	}
+	if meanGray <= denoiseBlobMarginMaxGray && darkAnchors >= 1 {
+		return true
+	}
+	return area >= denoiseBlobEdgeDarkAnchors && darkAnchors >= denoiseBlobEdgeDarkAnchors
 }
 
 func blobMaxMeanGrayForArea(area int, minArea int) float64 {
@@ -848,7 +977,10 @@ func filterOutputByBlobSize(mat *gocv.Mat, minArea int) (int, int) {
 	for r := 0; r < rows; r++ {
 		for c := 0; c < cols; c++ {
 			v := mat.GetUCharAt(r, c)
-			if v >= denoiseMaskColor || v < denoiseBlobMinGray || v > denoiseBlobMaxGray {
+			if v >= denoiseMaskColor || v > denoiseBlobMaxGray {
+				continue
+			}
+			if v < denoiseBlobMinGray && !isMarginPixel(rows, cols, r, c) {
 				continue
 			}
 			pixels = append(pixels, supportPixel{r: r, c: c, blended: v})
@@ -866,6 +998,12 @@ func filterOutputByBlobSize(mat *gocv.Mat, minArea int) (int, int) {
 	}
 
 	return kept, maxBlobArea
+}
+
+func isMarginPixel(rows, cols, r, c int) bool {
+	sideMarginWidth := denoiseSideMarginWidth(cols)
+	topMarginHeight := denoiseTopMarginHeight(rows)
+	return c < sideMarginWidth || c >= cols-sideMarginWidth || r < topMarginHeight
 }
 
 func powFloat(x, p float64) float64 {
