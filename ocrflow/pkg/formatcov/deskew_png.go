@@ -267,6 +267,13 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 	if err != nil {
 		return 0, err
 	}
+	if !lineEvidence.ok {
+		if ruledAngle, ok, err := estimateSparseRuledSkew(inv, inPath); err != nil {
+			return 0, err
+		} else if ok {
+			return ruledAngle, nil
+		}
+	}
 	lineAngle := lineEvidence.angle
 	lineDispersion := lineEvidence.dispersion
 	lineOK := lineEvidence.ok
@@ -744,6 +751,290 @@ func dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zero
 	damped := refinedAngle + refineWeight*(lineAngle-refinedAngle)
 	deskewLogf("[%s] line-angle damped hough-only estimate line=%.3f refined=%.3f dispersion=%.3f damped=%.3f", inPath, lineAngle, refinedAngle, lineDispersion, damped)
 	return damped, true
+}
+
+func estimateSparseRuledSkew(invBinary gocv.Mat, inPath string) (float64, bool, error) {
+	rows := invBinary.Rows()
+	cols := invBinary.Cols()
+	if rows == 0 || cols == 0 {
+		return 0, false, nil
+	}
+
+	hKernelW := cols / 14
+	minHKernelW := cols / 40
+	if minHKernelW < 1 {
+		minHKernelW = 1
+	}
+	if hKernelW < minHKernelW {
+		hKernelW = minHKernelW
+	}
+	if hKernelW%2 == 0 {
+		hKernelW++
+	}
+	maxHKernelW := cols / 6
+	if maxHKernelW < 1 {
+		maxHKernelW = 1
+	}
+	if hKernelW > maxHKernelW {
+		hKernelW = maxHKernelW
+	}
+	vKernelH := rows / 14
+	minVKernelH := rows / 40
+	if minVKernelH < 1 {
+		minVKernelH = 1
+	}
+	if vKernelH < minVKernelH {
+		vKernelH = minVKernelH
+	}
+	if vKernelH%2 == 0 {
+		vKernelH++
+	}
+	maxVKernelH := rows / 6
+	if maxVKernelH < 1 {
+		maxVKernelH = 1
+	}
+	if vKernelH > maxVKernelH {
+		vKernelH = maxVKernelH
+	}
+
+	hKernel := gocv.GetStructuringElement(gocv.MorphRect, image.Pt(hKernelW, 3))
+	defer hKernel.Close()
+	vKernel := gocv.GetStructuringElement(gocv.MorphRect, image.Pt(3, vKernelH))
+	defer vKernel.Close()
+
+	horizontal := gocv.NewMat()
+	defer horizontal.Close()
+	if err := gocv.MorphologyEx(invBinary, &horizontal, gocv.MorphOpen, hKernel); err != nil {
+		return 0, false, fmt.Errorf("extract horizontal ruled lines: %w", err)
+	}
+	vertical := gocv.NewMat()
+	defer vertical.Close()
+	if err := gocv.MorphologyEx(invBinary, &vertical, gocv.MorphOpen, vKernel); err != nil {
+		return 0, false, fmt.Errorf("extract vertical ruled lines: %w", err)
+	}
+	hCoverage, hSpread := ruledMaskCoverage(horizontal, false)
+	vCoverage, vSpread := ruledMaskCoverage(vertical, true)
+	deskewLogf("[%s] ruled-angle coverage horizontal=%.3f spread=%.3f vertical=%.3f spread=%.3f", inPath, hCoverage, hSpread, vCoverage, vSpread)
+	if hCoverage < 0.015 || vCoverage < 0.01 {
+		return 0, false, nil
+	}
+	if hSpread < 0.03 || vSpread < 0.02 {
+		return 0, false, nil
+	}
+
+	hSamples, hWeight, err := estimateSparseRuledLineSamples(horizontal, false)
+	if err != nil {
+		return 0, false, err
+	}
+	vSamples, vWeight, err := estimateSparseRuledLineSamples(vertical, true)
+	if err != nil {
+		return 0, false, err
+	}
+	hCluster := summarizeAngleCluster("ruled-horizontal", hSamples, deskewAngleStep, 0.5)
+	vCluster := summarizeAngleCluster("ruled-vertical", vSamples, deskewAngleStep, 0.5)
+	deskewLogf("[%s] ruled-angle horizontal samples=%d totalWeight=%.1f peak=%.3f inliers=%d inlierWeight=%.1f median=%.3f dispersion=%.3f", inPath, hCluster.count, hWeight, hCluster.peak, hCluster.inliers, hCluster.inlierWeight, hCluster.median, hCluster.dispersion)
+	deskewLogf("[%s] ruled-angle vertical samples=%d totalWeight=%.1f peak=%.3f inliers=%d inlierWeight=%.1f median=%.3f dispersion=%.3f", inPath, vCluster.count, vWeight, vCluster.peak, vCluster.inliers, vCluster.inlierWeight, vCluster.median, vCluster.dispersion)
+	if !hCluster.ok || !vCluster.ok {
+		return 0, false, nil
+	}
+	if hCluster.inliers < 3 || vCluster.inliers < 3 {
+		return 0, false, nil
+	}
+	if hCluster.dispersion > 0.35 || vCluster.dispersion > 0.35 {
+		return 0, false, nil
+	}
+	if hCluster.inlierWeight < float64(cols)*0.35 || vCluster.inlierWeight < float64(rows)*0.35 {
+		return 0, false, nil
+	}
+	if math.Abs(hCluster.median-vCluster.median) > 0.35 {
+		deskewLogf("[%s] ruled-angle rejected inconsistent axes horizontal=%.3f vertical=%.3f", inPath, hCluster.median, vCluster.median)
+		return 0, false, nil
+	}
+	angle := 0.5 * (hCluster.median + vCluster.median)
+	dispersion := math.Max(hCluster.dispersion, vCluster.dispersion)
+	deskewLogf("[%s] ruled-angle angle=%.3f dispersion=%.3f", inPath, angle, dispersion)
+	return angle, true, nil
+}
+
+func ruledMaskCoverage(mask gocv.Mat, vertical bool) (float64, float64) {
+	rows := mask.Rows()
+	cols := mask.Cols()
+	if rows == 0 || cols == 0 {
+		return 0, 0
+	}
+
+	nz := gocv.CountNonZero(mask)
+	coverage := float64(nz) / float64(rows*cols)
+
+	if !vertical {
+		activeRows := 0
+		minInk := cols / 80
+		if minInk < 1 {
+			minInk = 1
+		}
+		for y := 0; y < rows; y++ {
+			row := mask.RowRange(y, y+1)
+			rowInk := gocv.CountNonZero(row)
+			row.Close()
+			if rowInk >= minInk {
+				activeRows++
+			}
+		}
+		return coverage, float64(activeRows) / float64(rows)
+	}
+
+	activeCols := 0
+	minInk := rows / 80
+	if minInk < 1 {
+		minInk = 1
+	}
+	for x := 0; x < cols; x++ {
+		col := mask.ColRange(x, x+1)
+		colInk := gocv.CountNonZero(col)
+		col.Close()
+		if colInk >= minInk {
+			activeCols++
+		}
+	}
+	return coverage, float64(activeCols) / float64(cols)
+}
+
+func estimateSparseRuledLineSamples(mask gocv.Mat, verticalMode bool) ([]weightedAngleSample, float64, error) {
+	rows := mask.Rows()
+	cols := mask.Cols()
+	if rows == 0 || cols == 0 {
+		return nil, 0, nil
+	}
+
+	samples := make([]weightedAngleSample, 0, 32)
+	totalWeight := 0.0
+
+	contours := gocv.FindContours(mask, gocv.RetrievalExternal, gocv.ChainApproxSimple)
+	defer contours.Close()
+
+	minSpan := int(math.Round(float64(cols) * 0.20))
+	maxThickness := int(math.Round(float64(rows) * 0.04))
+	if verticalMode {
+		minSpan = int(math.Round(float64(rows) * 0.20))
+		maxThickness = int(math.Round(float64(cols) * 0.04))
+	}
+	if maxThickness < 1 {
+		maxThickness = 1
+	}
+	for i := 0; i < contours.Size(); i++ {
+		c := contours.At(i)
+		r := gocv.BoundingRect(c)
+		if !verticalMode {
+			if r.Dx() < minSpan || r.Dy() < 1 || r.Dy() > maxThickness {
+				continue
+			}
+		} else {
+			if r.Dy() < minSpan || r.Dx() < 1 || r.Dx() > maxThickness {
+				continue
+			}
+		}
+
+		rect := gocv.MinAreaRect(c)
+		angle := normalizeRectAngle(rect.Angle, rect.Width, rect.Height)
+		if verticalMode {
+			if angle < 0 {
+				angle += 90
+			} else {
+				angle -= 90
+			}
+		}
+		for angle <= -45 {
+			angle += 90
+		}
+		for angle > 45 {
+			angle -= 90
+		}
+		if math.Abs(angle) > deskewProjectionLimit {
+			continue
+		}
+
+		span := r.Dx()
+		thickness := r.Dy()
+		if verticalMode {
+			span = r.Dy()
+			thickness = r.Dx()
+		}
+		weight := float64(span) * math.Max(1, math.Sqrt(float64(thickness)))
+		samples = append(samples, weightedAngleSample{angle: angle, weight: weight})
+		totalWeight += weight
+	}
+
+	lines := gocv.NewMat()
+	defer lines.Close()
+
+	threshold := cols / 12
+	minLineLength := float32(cols) * 0.20
+	maxLineGap := float32(cols) * 0.03
+	if verticalMode {
+		threshold = rows / 12
+		minLineLength = float32(rows) * 0.20
+		maxLineGap = float32(rows) * 0.03
+	}
+	if threshold < 1 {
+		threshold = 1
+	}
+	if err := gocv.HoughLinesPWithParams(mask, &lines, 1, math.Pi/180, threshold, minLineLength, maxLineGap); err != nil {
+		return nil, 0, fmt.Errorf("estimate ruled hough lines: %w", err)
+	}
+
+	for i := 0; i < lines.Rows(); i++ {
+		x1 := lines.GetIntAt(i, 0)
+		y1 := lines.GetIntAt(i, 1)
+		x2 := lines.GetIntAt(i, 2)
+		y2 := lines.GetIntAt(i, 3)
+
+		dx := float64(x2 - x1)
+		dy := float64(y2 - y1)
+		if dx == 0 && dy == 0 {
+			continue
+		}
+		if !verticalMode && math.Abs(dx) < math.Abs(dy) {
+			continue
+		}
+		if verticalMode && math.Abs(dy) < math.Abs(dx) {
+			continue
+		}
+
+		angle := math.Atan2(dy, dx) * 180 / math.Pi
+		for angle <= -90 {
+			angle += 180
+		}
+		for angle > 90 {
+			angle -= 180
+		}
+		if verticalMode {
+			if angle < 0 {
+				angle += 90
+			} else {
+				angle -= 90
+			}
+		}
+		for angle <= -45 {
+			angle += 90
+		}
+		for angle > 45 {
+			angle -= 90
+		}
+		if math.Abs(angle) > deskewProjectionLimit {
+			continue
+		}
+
+		length := math.Hypot(dx, dy)
+		if length < float64(minLineLength) {
+			continue
+		}
+
+		weight := math.Min(length, math.Max(float64(cols), float64(rows))*0.6)
+		samples = append(samples, weightedAngleSample{angle: angle, weight: weight})
+		totalWeight += weight
+	}
+
+	return samples, totalWeight, nil
 }
 
 type deskewComponent struct {
@@ -1435,7 +1726,10 @@ func contentBBox(binary gocv.Mat) (image.Rectangle, bool) {
 }
 
 func projectionVariance(invBinary gocv.Mat) float64 {
-	return math.Max(projectionVarianceRows(invBinary), projectionVarianceBodyBands(invBinary))
+	rowScore := projectionVarianceRows(invBinary)
+	bodyScore := projectionVarianceBodyBands(invBinary)
+	columnScore := projectionVarianceColumnBands(invBinary)
+	return math.Max(math.Max(rowScore, bodyScore), columnScore)
 }
 
 func projectionVarianceRows(invBinary gocv.Mat) float64 {
@@ -1515,6 +1809,38 @@ func projectionVarianceBodyBands(invBinary gocv.Mat) float64 {
 		}
 
 		weight := float64(height)
+		totalWeight += weight
+		totalScore += score * weight
+	}
+
+	if totalWeight == 0 {
+		return 0
+	}
+	return totalScore / totalWeight
+}
+
+func projectionVarianceColumnBands(invBinary gocv.Mat) float64 {
+	bands := detectDeskewColumnBands(invBinary)
+	if len(bands) <= 1 {
+		return 0
+	}
+
+	totalWeight := 0.0
+	totalScore := 0.0
+	for _, band := range bands {
+		width := band.end - band.start
+		if width < 16 {
+			continue
+		}
+
+		region := invBinary.Region(image.Rect(band.start, 0, band.end, invBinary.Rows()))
+		score := math.Max(projectionVarianceRows(region), projectionVarianceBodyBands(region))
+		region.Close()
+		if score <= 0 {
+			continue
+		}
+
+		weight := float64(width)
 		totalWeight += weight
 		totalScore += score * weight
 	}
@@ -1616,6 +1942,107 @@ func detectDeskewBodyBands(invBinary gocv.Mat) []deskewBand {
 	for _, band := range bands {
 		height := band.end - band.start
 		if height*3 < maxHeight {
+			continue
+		}
+		filtered = append(filtered, band)
+	}
+	return filtered
+}
+
+func detectDeskewColumnBands(invBinary gocv.Mat) []deskewBand {
+	rows := invBinary.Rows()
+	cols := invBinary.Cols()
+	if rows == 0 || cols == 0 {
+		return nil
+	}
+
+	colInk := make([]int, cols)
+	maxInk := 0
+	for x := 0; x < cols; x++ {
+		col := invBinary.ColRange(x, x+1)
+		nz := gocv.CountNonZero(col)
+		col.Close()
+		colInk[x] = nz
+		if nz > maxInk {
+			maxInk = nz
+		}
+	}
+	if maxInk == 0 {
+		return nil
+	}
+
+	activeThreshold := rows / 100
+	if activeThreshold < 4 {
+		activeThreshold = 4
+	}
+	strongThreshold := rows / 35
+	if strongThreshold < activeThreshold {
+		strongThreshold = activeThreshold
+	}
+
+	var bands []deskewBand
+	start := -1
+	strongCols := 0
+	gap := 0
+	maxGap := cols / 80
+	if maxGap < 8 {
+		maxGap = 8
+	}
+	minWidth := cols / 12
+	if minWidth < 32 {
+		minWidth = 32
+	}
+	for x, ink := range colInk {
+		active := ink >= activeThreshold
+		if active {
+			if start < 0 {
+				start = x
+				strongCols = 0
+				gap = 0
+			}
+			gap = 0
+			if ink >= strongThreshold {
+				strongCols++
+			}
+			continue
+		}
+		if start < 0 {
+			continue
+		}
+		gap++
+		if gap <= maxGap {
+			continue
+		}
+		end := x - gap + 1
+		if end-start >= minWidth && strongCols >= minWidth/4 {
+			bands = append(bands, deskewBand{start: start, end: end})
+		}
+		start = -1
+		strongCols = 0
+		gap = 0
+	}
+	if start >= 0 {
+		end := cols
+		if end-start >= minWidth && strongCols >= minWidth/4 {
+			bands = append(bands, deskewBand{start: start, end: end})
+		}
+	}
+
+	if len(bands) <= 1 {
+		return bands
+	}
+
+	filtered := bands[:0]
+	maxWidth := 0
+	for _, band := range bands {
+		width := band.end - band.start
+		if width > maxWidth {
+			maxWidth = width
+		}
+	}
+	for _, band := range bands {
+		width := band.end - band.start
+		if width*4 < maxWidth {
 			continue
 		}
 		filtered = append(filtered, band)
