@@ -40,18 +40,20 @@ import (
 const (
 	denoiseDebug = true
 
-	denoiseAdaptiveBlockSize       = 61 // must be odd
+	denoiseAdaptiveBlockSizeBase    = 61 // must be odd
+	denoiseAdaptiveBlockSizeMin     = 11
 	denoiseAdaptiveC               = 14
 	denoiseAdaptiveCLowQuality     = 8
 	denoiseSmallImageMinDim        = 800
 	denoiseLowQualityMaxOutputGray = 210
 
 	// Contour-based speckle filter.
-	denoiseSpeckleMinArea   = 1.0
-	denoiseSpeckleMaxArea   = 55.0 // wider: catch larger bleed-through clusters
-	denoiseSpeckleMinFill   = 0.20
-	denoiseSpeckleMinAspect = 0.30
-	denoiseSpeckleMaxAspect = 3.0
+	denoiseSpeckleMinArea    = 1.0
+	denoiseSpeckleMaxAreaBase = 55.0 // wider: catch larger bleed-through clusters
+	denoiseSpeckleMaxAreaMin  = 8.0
+	denoiseSpeckleMinFill    = 0.20
+	denoiseSpeckleMinAspect  = 0.30
+	denoiseSpeckleMaxAspect  = 3.0
 
 	denoiseMaskColor  = uint8(255)
 	denoiseMinWorkers = 1
@@ -77,8 +79,9 @@ const (
 	denoiseBlobHugeAreaFactor      = 6
 	denoiseBlobHugeMaxMeanGray     = 180.0
 	denoiseBlobDarkAnchorGray      = 165
-	denoiseBlobDarkAnchorRatio     = 0.15
-	denoiseBlobDarkAnchorMinPixels = 4
+	denoiseBlobDarkAnchorRatio        = 0.15
+	denoiseBlobDarkAnchorMinPixelsBase = 4
+	denoiseBlobDarkAnchorMinPixelsMin  = 1
 	denoiseBlobEdgeMaxMeanGray     = 186.0
 	denoiseBlobEdgeDarkAnchors     = 2
 	denoiseBlobMarginMaxGray       = 214
@@ -89,6 +92,8 @@ const (
 
 	denoiseReferenceMinDim = 1240.0
 
+	denoiseMedianBlurBase        = 3
+	denoiseMedianBlurMin         = 3
 	denoiseBackgroundKernelBase  = 51
 	denoiseBackgroundKernelMin   = 15
 	denoiseMorphOpenBase         = 1
@@ -176,6 +181,27 @@ func denoiseSpeckleMaxHeight(rows, cols int) int {
 
 func denoiseMinBlobArea(rows, cols int) int {
 	return scaledArea(denoiseMinBlobAreaBase, denoiseScale(rows, cols), denoiseMinBlobAreaMin)
+}
+
+func denoiseMedianBlurSize(rows, cols int) int {
+	return scaledOdd(denoiseMedianBlurBase, denoiseScale(rows, cols), denoiseMedianBlurMin)
+}
+
+func denoiseAdaptiveBlockSize(rows, cols int) int {
+	return scaledOdd(denoiseAdaptiveBlockSizeBase, denoiseScale(rows, cols), denoiseAdaptiveBlockSizeMin)
+}
+
+func denoiseBlobDarkAnchorMinPixels(rows, cols int) int {
+	return scaledInt(denoiseBlobDarkAnchorMinPixelsBase, denoiseScale(rows, cols), denoiseBlobDarkAnchorMinPixelsMin)
+}
+
+func denoiseSpeckleMaxArea(rows, cols int) float64 {
+	scale := denoiseScale(rows, cols)
+	v := denoiseSpeckleMaxAreaBase * scale * scale
+	if v < denoiseSpeckleMaxAreaMin {
+		return denoiseSpeckleMaxAreaMin
+	}
+	return v
 }
 
 func denoiseMaskRefineSupportSize(rows, cols int) int {
@@ -372,7 +398,7 @@ func denoiseOne(inPath, outPath string) error {
 	// without blurring text edges the way Gaussian blur would.
 	blurred := gocv.NewMat()
 	defer blurred.Close()
-	if err := gocv.MedianBlur(normalized, &blurred, 3); err != nil {
+	if err := gocv.MedianBlur(normalized, &blurred, denoiseMedianBlurSize(gray.Rows(), gray.Cols())); err != nil {
 		return err
 	}
 
@@ -383,7 +409,7 @@ func denoiseOne(inPath, outPath string) error {
 		blurred, &binary, 255,
 		gocv.AdaptiveThresholdGaussian,
 		gocv.ThresholdBinaryInv, // ink=white, background=black
-		denoiseAdaptiveBlockSize,
+		denoiseAdaptiveBlockSize(gray.Rows(), gray.Cols()),
 		float32(denoiseAdaptiveCForImage(gray.Rows(), gray.Cols())),
 	); err != nil {
 		return err
@@ -442,56 +468,63 @@ func denoiseOne(inPath, outPath string) error {
 	// Removes blobs that are the right size to be speckles and have speckle-like
 	// shape (near-square, moderately filled). Real text fragments tend to be
 	// elongated or have low fill ratios.
-	contours := gocv.FindContours(afterCC, gocv.RetrievalExternal, gocv.ChainApproxSimple)
-	defer contours.Close()
+	// Skipped for low-quality images: at small scale individual characters are
+	// indistinguishable from speckles by shape alone.
+	var cleaned gocv.Mat
+	if denoiseLowQuality(gray.Rows(), gray.Cols()) {
+		cleaned = afterCC.Clone()
+	} else {
+		contours := gocv.FindContours(afterCC, gocv.RetrievalExternal, gocv.ChainApproxSimple)
+		defer contours.Close()
 
-	speckleMask := gocv.Zeros(afterCC.Rows(), afterCC.Cols(), gocv.MatTypeCV8U)
-	defer speckleMask.Close()
+		speckleMask := gocv.Zeros(afterCC.Rows(), afterCC.Cols(), gocv.MatTypeCV8U)
+		defer speckleMask.Close()
 
-	for i := 0; i < contours.Size(); i++ {
-		contour := contours.At(i)
-		area := gocv.ContourArea(contour)
-		if area < denoiseSpeckleMinArea || area > denoiseSpeckleMaxArea {
-			continue
+		speckleMaxArea := denoiseSpeckleMaxArea(gray.Rows(), gray.Cols())
+		for i := 0; i < contours.Size(); i++ {
+			contour := contours.At(i)
+			area := gocv.ContourArea(contour)
+			if area < denoiseSpeckleMinArea || area > speckleMaxArea {
+				continue
+			}
+			rect := gocv.BoundingRect(contour)
+			w, h := rect.Dx(), rect.Dy()
+			rectArea := w * h
+			if rectArea <= 0 {
+				continue
+			}
+			fillRatio := area / float64(rectArea)
+			aspectRatio := float64(w) / float64(h)
+
+			if w > denoiseSpeckleMaxWidth(gray.Rows(), gray.Cols()) ||
+				h > denoiseSpeckleMaxHeight(gray.Rows(), gray.Cols()) ||
+				fillRatio < denoiseSpeckleMinFill ||
+				aspectRatio < denoiseSpeckleMinAspect ||
+				aspectRatio > denoiseSpeckleMaxAspect {
+				continue
+			}
+
+			if err := gocv.DrawContours(
+				&speckleMask, contours, i,
+				color.RGBA{R: denoiseMaskColor, G: denoiseMaskColor, B: denoiseMaskColor, A: denoiseMaskColor},
+				-1,
+			); err != nil {
+				return fmt.Errorf("draw contour %d: %w", i, err)
+			}
 		}
-		rect := gocv.BoundingRect(contour)
-		w, h := rect.Dx(), rect.Dy()
-		rectArea := w * h
-		if rectArea <= 0 {
-			continue
-		}
-		fillRatio := area / float64(rectArea)
-		aspectRatio := float64(w) / float64(h)
 
-		if w > denoiseSpeckleMaxWidth(gray.Rows(), gray.Cols()) ||
-			h > denoiseSpeckleMaxHeight(gray.Rows(), gray.Cols()) ||
-			fillRatio < denoiseSpeckleMinFill ||
-			aspectRatio < denoiseSpeckleMinAspect ||
-			aspectRatio > denoiseSpeckleMaxAspect {
-			continue
+		invSpeckleMask := gocv.NewMat()
+		defer invSpeckleMask.Close()
+		if err := gocv.BitwiseNot(speckleMask, &invSpeckleMask); err != nil {
+			return err
 		}
 
-		if err := gocv.DrawContours(
-			&speckleMask, contours, i,
-			color.RGBA{R: denoiseMaskColor, G: denoiseMaskColor, B: denoiseMaskColor, A: denoiseMaskColor},
-			-1,
-		); err != nil {
-			return fmt.Errorf("draw contour %d: %w", i, err)
+		cleaned = gocv.NewMat()
+		if err := gocv.BitwiseAndWithMask(afterCC, afterCC, &cleaned, invSpeckleMask); err != nil {
+			return err
 		}
 	}
-
-	// Subtract speckle mask from the image.
-	invSpeckleMask := gocv.NewMat()
-	defer invSpeckleMask.Close()
-	if err := gocv.BitwiseNot(speckleMask, &invSpeckleMask); err != nil {
-		return err
-	}
-
-	cleaned := gocv.NewMat()
 	defer cleaned.Close()
-	if err := gocv.BitwiseAndWithMask(afterCC, afterCC, &cleaned, invSpeckleMask); err != nil {
-		return err
-	}
 
 	repaired, err := repairForegroundMask(cleaned)
 	if err != nil {
@@ -587,6 +620,9 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 		wiped := 0
 		for r := 0; r < rows; r++ {
 			for c := 0; c < cols; c++ {
+				if mask.GetUCharAt(r, c) != 0 {
+					continue
+				}
 				v := out.GetUCharAt(r, c)
 				if v < denoiseMaskColor && v > denoiseLowQualityMaxOutputGray {
 					out.SetUCharAt(r, c, denoiseMaskColor)
@@ -918,7 +954,7 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 			maxBlobArea = area
 		}
 		meanGray := float64(sumGray) / float64(area)
-		if keepBlobComponent(area, minArea, meanGray, darkAnchors) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
+		if keepBlobComponent(area, minArea, meanGray, darkAnchors, rows, cols) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
 			for _, idx := range component {
 				keep[idx] = true
 			}
@@ -928,14 +964,14 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 	return keep, maxBlobArea
 }
 
-func keepBlobComponent(area int, minArea int, meanGray float64, darkAnchors int) bool {
+func keepBlobComponent(area int, minArea int, meanGray float64, darkAnchors, rows, cols int) bool {
 	if area < minArea {
 		return false
 	}
 	if meanGray <= blobMaxMeanGrayForArea(area, minArea) {
 		return true
 	}
-	return darkAnchors >= blobRequiredDarkAnchors(area)
+	return darkAnchors >= blobRequiredDarkAnchors(area, rows, cols)
 }
 
 func keepEdgeBlobComponent(area int, meanGray float64, darkAnchors int, touchesSideMargin bool) bool {
@@ -961,10 +997,11 @@ func blobMaxMeanGrayForArea(area int, minArea int) float64 {
 	return denoiseBlobMaxMeanGray
 }
 
-func blobRequiredDarkAnchors(area int) int {
+func blobRequiredDarkAnchors(area, rows, cols int) int {
 	required := int(math.Ceil(float64(area) * denoiseBlobDarkAnchorRatio))
-	if required < denoiseBlobDarkAnchorMinPixels {
-		return denoiseBlobDarkAnchorMinPixels
+	minPixels := denoiseBlobDarkAnchorMinPixels(rows, cols)
+	if required < minPixels {
+		return minPixels
 	}
 	return required
 }
