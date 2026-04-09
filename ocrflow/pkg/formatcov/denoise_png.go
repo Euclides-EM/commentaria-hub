@@ -39,11 +39,15 @@ import (
 //  9. Mask refinement — dilates the mask slightly and pulls in nearby dark pixels that
 //     fall within the normalized-gray threshold, recovering faint ink without broadly
 //     reintroducing noise.
-// 10. Output rendering — masked pixels are gamma-enhanced; a support fringe around the
-//     mask blends neighbor pixels at reduced strength; margin glyphs are seeded separately.
-//     Final cleanup depends on image quality:
+// 10. Output rendering — ink lightness is measured from the foreground mask histogram;
+//     pages with uniformly light ink (p10/p25 ratio above threshold) receive a stronger
+//     gamma boost so their glyphs render dark enough to survive downstream filtering.
+//     Masked pixels are gamma-enhanced (with the ink-lightness boost applied during
+//     rendering); a support fringe blends neighbor pixels at reduced strength; margin
+//     glyphs are seeded separately. Final cleanup depends on image quality:
 //     - Normal: blob connectivity filter over light-gray output pixels removes leftover
-//       speckle clusters using image-relative area thresholds and tone buckets.
+//       speckle clusters using image-relative area thresholds and tone buckets; the
+//       tone-bucket width also widens for light-ink pages so glyph pixels connect.
 //     - Low-quality: any non-mask pixel brighter than denoiseLowQualityMaxOutputGray
 //       is wiped to white — simpler than the blob filter and more robust at small scale.
 //
@@ -108,13 +112,13 @@ const (
 	denoiseClusterMinNeighbors         = 3
 	denoiseClusterAreaRatioMax         = 4.0
 
-	denoiseInkPercentile        = 10
-	denoiseInkDarkReference     = 110
-	denoiseInkOffsetMax         = 40
-	denoiseInkBucketScale       = 4
-	denoiseInkBucketMax         = 120
-	denoiseInkUniformityRatio   = 0.84
-	denoiseInkGammaBoost        = 1.5
+	denoiseInkPercentile      = 10
+	denoiseInkDarkReference   = 110
+	denoiseInkOffsetMax       = 40
+	denoiseInkBucketScale     = 4
+	denoiseInkBucketMax       = 120
+	denoiseInkUniformityRatio = 0.84
+	denoiseInkGammaBoost      = 1.5
 
 	denoiseReferenceMinDim = 1240.0
 
