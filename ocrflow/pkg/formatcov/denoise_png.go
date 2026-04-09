@@ -18,77 +18,95 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-// Denoise pipeline overview:
+// Denoise pipeline (denoiseOne):
 //
-//  1. Normalize background and binarize to get a strong foreground mask candidate.
-//  2. Clean that mask with morphology, connected-component filtering, contour filtering,
-//     and hole repair so faint text survives while isolated speckle is removed.
-//  3. Re-expand the cleaned mask slightly into nearby plausible text pixels to refill
-//     weak glyph interiors without broadly reintroducing noise.
-//  4. Render grayscale output from the normalized image using the refined mask.
-//  5. Final output cleanup — strategy depends on image quality (determined by min dimension
-//     vs denoiseSmallImageMinDim):
-//     - Normal images: blob connectivity filter over light-gray pixels using image-relative
-//       blob sizes and tone buckets to remove leftover speckle clusters.
-//     - Low-quality (small) images: a lower adaptive threshold C captures weaker ink, and
-//       a simple per-pixel brightness cutoff replaces the blob filter — any gray pixel
-//       brighter than denoiseLowQualityMaxOutputGray is treated as noise and wiped to white,
-//       preserving readable gray tones without the connectivity requirement.
+//  1. Grayscale + background normalization (morphological close / divide) — flattens
+//     uneven illumination and bleed-through so the adaptive threshold sees a clean signal.
+//  2. Median blur — kills isolated 1-2px dots before binarization without smearing edges.
+//  3. Adaptive threshold — local Gaussian binarization; ink=white, background=black.
+//     Low-quality images (min dim < denoiseSmallImageMinDim) use a lower C to capture weak ink.
+//  4. Morphological open (small kernel) — erodes 1-2px noise strands from the binary mask.
+//  5. Second morph pass: larger open then close — open kills surviving diffuse speckle;
+//     close reconnects strokes that were slightly broken by the open.
+//  6. Connected-component minimum-size filter — unconditionally drops every blob whose
+//     pixel count is below the image-relative minimum, catching residual speckle dust.
+//  7. Contour shape filter — removes blobs that are speckle-shaped (small, compact,
+//     near-square, moderate fill). Blobs that belong to a spatial cluster of similarly-sized
+//     neighbors are exempt: clustered small blobs are likely diagram dots or structured
+//     decoration, not random noise. Skipped entirely for low-quality images.
+//  8. Foreground mask repair — morphological close fills small gaps; tiny enclosed holes
+//     are flood-filled to restore weak glyph interiors.
+//  9. Mask refinement — dilates the mask slightly and pulls in nearby dark pixels that
+//     fall within the normalized-gray threshold, recovering faint ink without broadly
+//     reintroducing noise.
+// 10. Output rendering — masked pixels are gamma-enhanced; a support fringe around the
+//     mask blends neighbor pixels at reduced strength; margin glyphs are seeded separately.
+//     Final cleanup depends on image quality:
+//     - Normal: blob connectivity filter over light-gray output pixels removes leftover
+//       speckle clusters using image-relative area thresholds and tone buckets.
+//     - Low-quality: any non-mask pixel brighter than denoiseLowQualityMaxOutputGray
+//       is wiped to white — simpler than the blob filter and more robust at small scale.
 //
-// This denoise flow was fine tuned on testdata/denoise examples
+// All kernel sizes and area thresholds scale with the image's min dimension relative to
+// denoiseReferenceMinDim, so no parameter is an absolute pixel count.
+// This denoise flow was tuned on testdata/denoise examples.
 
 const (
-	denoiseDebug = true
+	denoiseDebug = false
 
-	denoiseAdaptiveBlockSizeBase    = 61 // must be odd
-	denoiseAdaptiveBlockSizeMin     = 11
+	denoiseAdaptiveBlockSizeBase   = 61 // must be odd
+	denoiseAdaptiveBlockSizeMin    = 11
 	denoiseAdaptiveC               = 14
 	denoiseAdaptiveCLowQuality     = 8
 	denoiseSmallImageMinDim        = 800
 	denoiseLowQualityMaxOutputGray = 210
 
 	// Contour-based speckle filter.
-	denoiseSpeckleMinArea    = 1.0
+	denoiseSpeckleMinArea     = 1.0
 	denoiseSpeckleMaxAreaBase = 55.0 // wider: catch larger bleed-through clusters
 	denoiseSpeckleMaxAreaMin  = 8.0
-	denoiseSpeckleMinFill    = 0.20
-	denoiseSpeckleMinAspect  = 0.30
-	denoiseSpeckleMaxAspect  = 3.0
+	denoiseSpeckleMinFill     = 0.20
+	denoiseSpeckleMinAspect   = 0.30
+	denoiseSpeckleMaxAspect   = 3.0
 
 	denoiseMaskColor  = uint8(255)
 	denoiseMinWorkers = 1
 	denoiseMaxWorkers = 2
 
-	denoiseEnhanceNeighborStrength = 0.35
-	denoiseEnhanceCoreGamma        = 1.35
-	denoiseEnhanceNeighborMinRatio = 0.25
-	denoiseMaskRefineMaxGray       = 210
-	denoiseMaskRefineMarginMaxGray = 228
-	denoiseSupportLocalGrayMargin  = 12
-	denoiseSupportMarginGrayMargin = 24
-	denoiseMarginSeedMaxGray       = 196
-	denoiseMarginSeedNeighbors     = 1
-	denoiseMarginSeedPasses        = 3
-	denoiseBlobBucketSize          = 6
-	denoiseBlobAreaFraction        = 0.000012
-	denoiseBlobMinGray             = 140
-	denoiseBlobMaxGray             = 254
-	denoiseBlobMaxMeanGray         = 198.0
-	denoiseBlobLargeAreaFactor     = 3
-	denoiseBlobLargeMaxMeanGray    = 188.0
-	denoiseBlobHugeAreaFactor      = 6
-	denoiseBlobHugeMaxMeanGray     = 180.0
-	denoiseBlobDarkAnchorGray      = 165
-	denoiseBlobDarkAnchorRatio        = 0.15
+	denoiseEnhanceNeighborStrength     = 0.35
+	denoiseEnhanceCoreGamma            = 1.35
+	denoiseEnhanceNeighborMinRatio     = 0.25
+	denoiseMaskRefineMaxGray           = 210
+	denoiseMaskRefineMarginMaxGray     = 228
+	denoiseSupportLocalGrayMargin      = 12
+	denoiseSupportMarginGrayMargin     = 24
+	denoiseMarginSeedMaxGray           = 196
+	denoiseMarginSeedNeighbors         = 1
+	denoiseMarginSeedPasses            = 3
+	denoiseBlobBucketSize              = 6
+	denoiseBlobAreaFraction            = 0.000012
+	denoiseBlobMinGray                 = 140
+	denoiseBlobMaxGray                 = 254
+	denoiseBlobMaxMeanGray             = 198.0
+	denoiseBlobLargeAreaFactor         = 3
+	denoiseBlobLargeMaxMeanGray        = 188.0
+	denoiseBlobHugeAreaFactor          = 6
+	denoiseBlobHugeMaxMeanGray         = 180.0
+	denoiseBlobDarkAnchorGray          = 165
+	denoiseBlobDarkAnchorRatio         = 0.15
 	denoiseBlobDarkAnchorMinPixelsBase = 4
 	denoiseBlobDarkAnchorMinPixelsMin  = 1
-	denoiseBlobEdgeMaxMeanGray     = 186.0
-	denoiseBlobEdgeDarkAnchors     = 2
-	denoiseBlobMarginMaxGray       = 214
-	denoiseSideMarginFraction      = 0.18
-	denoiseSideMarginMinPixels     = 96
-	denoiseTopMarginFraction       = 0.14
-	denoiseTopMarginMinPixels      = 72
+	denoiseBlobEdgeMaxMeanGray         = 186.0
+	denoiseBlobEdgeDarkAnchors         = 2
+	denoiseBlobMarginMaxGray           = 214
+	denoiseSideMarginFraction          = 0.18
+	denoiseSideMarginMinPixels         = 96
+	denoiseTopMarginFraction           = 0.14
+	denoiseTopMarginMinPixels          = 72
+
+	denoiseClusterSearchRadiusFraction = 0.06
+	denoiseClusterMinNeighbors         = 3
+	denoiseClusterAreaRatioMax         = 4.0
 
 	denoiseReferenceMinDim = 1240.0
 
@@ -333,17 +351,7 @@ func DenoisePNGs(src, dst string) error {
 	return grp.Wait()
 }
 
-// denoiseOne pipeline:
-//  1. Grayscale
-//  2. Background normalization (morphological close / divide) — kills bleed-through & uneven illumination
-//  3. Adaptive threshold — robust local binarization
-//  4. Morphological open (small) — remove 1-2px noise strands
-//  5. Second morph pass (larger open + close) — kill surviving diffuse speckles
-//  6. Connected-component minimum-size filter — unconditionally drop tiny blobs
-//  7. Contour shape filter — remove speckle-shaped blobs
-//  8. Apply cleaned foreground mask to normalized grayscale output
 func denoiseOne(inPath, outPath string) error {
-	// --- 1. Load & grayscale ---
 	img := gocv.IMRead(inPath, gocv.IMReadColor)
 	if img.Empty() {
 		return fmt.Errorf("read image %q: empty or unsupported format", inPath)
@@ -355,7 +363,6 @@ func denoiseOne(inPath, outPath string) error {
 	if err := gocv.CvtColor(img, &gray, gocv.ColorBGRToGray); err != nil {
 		return fmt.Errorf("convert to grayscale: %w", err)
 	}
-	// --- 2. Background normalization ---
 	bgKernel := gocv.GetStructuringElement(
 		gocv.MorphRect,
 		image.Point{X: denoiseBackgroundKernelSize(gray.Rows(), gray.Cols()), Y: denoiseBackgroundKernelSize(gray.Rows(), gray.Cols())},
@@ -393,16 +400,12 @@ func denoiseOne(inPath, outPath string) error {
 		return err
 	}
 
-	// --- 2b. Median blur before thresholding ---
-	// A 3x3 median blur kills isolated single/double pixel dots before binarization
-	// without blurring text edges the way Gaussian blur would.
 	blurred := gocv.NewMat()
 	defer blurred.Close()
 	if err := gocv.MedianBlur(normalized, &blurred, denoiseMedianBlurSize(gray.Rows(), gray.Cols())); err != nil {
 		return err
 	}
 
-	// --- 3. Adaptive threshold ---
 	binary := gocv.NewMat()
 	defer binary.Close()
 	if err := gocv.AdaptiveThreshold(
@@ -415,7 +418,6 @@ func denoiseOne(inPath, outPath string) error {
 		return err
 	}
 
-	// --- 4. First morphological open (small) ---
 	k1 := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
 		image.Point{X: denoiseMorphOpenSize(gray.Rows(), gray.Cols()), Y: denoiseMorphOpenSize(gray.Rows(), gray.Cols())},
@@ -428,9 +430,6 @@ func denoiseOne(inPath, outPath string) error {
 		return err
 	}
 
-	// --- 5. Second morph pass: larger open then close ---
-	// The larger open erodes away isolated speckle clusters that survived step 4.
-	// The subsequent close reconnects any text strokes that got slightly broken.
 	k2open := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
 		image.Point{X: denoiseSpeckleKillOpenSize(gray.Rows(), gray.Cols()), Y: denoiseSpeckleKillOpenSize(gray.Rows(), gray.Cols())},
@@ -455,21 +454,12 @@ func denoiseOne(inPath, outPath string) error {
 		return err
 	}
 
-	// --- 6. Connected-component minimum-size filter ---
-	// Unconditionally removes every blob smaller than denoiseMinBlobArea pixels,
-	// regardless of shape. This catches the finest residual speckle dust.
 	afterCC, err := removeSmallBlobs(closed2, denoiseMinBlobArea(gray.Rows(), gray.Cols()))
 	if err != nil {
 		return fmt.Errorf("remove small blobs: %w", err)
 	}
 	defer afterCC.Close()
 
-	// --- 7. Contour shape filter ---
-	// Removes blobs that are the right size to be speckles and have speckle-like
-	// shape (near-square, moderately filled). Real text fragments tend to be
-	// elongated or have low fill ratios.
-	// Skipped for low-quality images: at small scale individual characters are
-	// indistinguishable from speckles by shape alone.
 	var cleaned gocv.Mat
 	if denoiseLowQuality(gray.Rows(), gray.Cols()) {
 		cleaned = afterCC.Clone()
@@ -477,10 +467,18 @@ func denoiseOne(inPath, outPath string) error {
 		contours := gocv.FindContours(afterCC, gocv.RetrievalExternal, gocv.ChainApproxSimple)
 		defer contours.Close()
 
-		speckleMask := gocv.Zeros(afterCC.Rows(), afterCC.Cols(), gocv.MatTypeCV8U)
-		defer speckleMask.Close()
-
 		speckleMaxArea := denoiseSpeckleMaxArea(gray.Rows(), gray.Cols())
+		speckleMaxW := denoiseSpeckleMaxWidth(gray.Rows(), gray.Cols())
+		speckleMaxH := denoiseSpeckleMaxHeight(gray.Rows(), gray.Cols())
+
+		type candidate struct {
+			idx      int
+			centroid image.Point
+			area     float64
+		}
+		var candidates []candidate
+		isCandidate := make([]bool, contours.Size())
+
 		for i := 0; i < contours.Size(); i++ {
 			contour := contours.At(i)
 			area := gocv.ContourArea(contour)
@@ -495,15 +493,42 @@ func denoiseOne(inPath, outPath string) error {
 			}
 			fillRatio := area / float64(rectArea)
 			aspectRatio := float64(w) / float64(h)
-
-			if w > denoiseSpeckleMaxWidth(gray.Rows(), gray.Cols()) ||
-				h > denoiseSpeckleMaxHeight(gray.Rows(), gray.Cols()) ||
+			if w > speckleMaxW || h > speckleMaxH ||
 				fillRatio < denoiseSpeckleMinFill ||
 				aspectRatio < denoiseSpeckleMinAspect ||
 				aspectRatio > denoiseSpeckleMaxAspect {
 				continue
 			}
+			cx := rect.Min.X + w/2
+			cy := rect.Min.Y + h/2
+			candidates = append(candidates, candidate{idx: i, centroid: image.Point{X: cx, Y: cy}, area: area})
+			isCandidate[i] = true
+		}
 
+		centroids := make([]image.Point, len(candidates))
+		areas := make([]float64, len(candidates))
+		for i, c := range candidates {
+			centroids[i] = c.centroid
+			areas[i] = c.area
+		}
+		inCluster := buildClusterMap(centroids, areas, afterCC.Rows(), afterCC.Cols())
+
+		clusterSaved := 0
+		for i, c := range candidates {
+			if inCluster[i] {
+				clusterSaved++
+				isCandidate[c.idx] = false
+			}
+		}
+		debugLogf("contour filter: candidates=%d cluster_saved=%d will_remove=%d", len(candidates), clusterSaved, len(candidates)-clusterSaved)
+
+		speckleMask := gocv.Zeros(afterCC.Rows(), afterCC.Cols(), gocv.MatTypeCV8U)
+		defer speckleMask.Close()
+
+		for i := 0; i < contours.Size(); i++ {
+			if !isCandidate[i] {
+				continue
+			}
 			if err := gocv.DrawContours(
 				&speckleMask, contours, i,
 				color.RGBA{R: denoiseMaskColor, G: denoiseMaskColor, B: denoiseMaskColor, A: denoiseMaskColor},
@@ -1037,6 +1062,74 @@ func filterOutputByBlobSize(mat *gocv.Mat, minArea int) (int, int) {
 	return kept, maxBlobArea
 }
 
+func buildClusterMap(centroids []image.Point, areas []float64, rows, cols int) []bool {
+	n := len(centroids)
+	inCluster := make([]bool, n)
+	if n == 0 {
+		return inCluster
+	}
+
+	minDim := float64(minInt(rows, cols))
+	radius := minDim * denoiseClusterSearchRadiusFraction
+	radiusSq := radius * radius
+
+	cellSize := int(math.Ceil(radius))
+	if cellSize < 1 {
+		cellSize = 1
+	}
+	gridW := (cols + cellSize - 1) / cellSize
+	gridH := (rows + cellSize - 1) / cellSize
+
+	type cellKey struct{ gr, gc int }
+	grid := make(map[cellKey][]int, n)
+	for i, pt := range centroids {
+		gr := pt.Y / cellSize
+		gc := pt.X / cellSize
+		grid[cellKey{gr, gc}] = append(grid[cellKey{gr, gc}], i)
+	}
+
+	neighborRadius := int(math.Ceil(radius/float64(cellSize))) + 1
+	for i, pt := range centroids {
+		gr0 := pt.Y / cellSize
+		gc0 := pt.X / cellSize
+		count := 0
+		for dgr := -neighborRadius; dgr <= neighborRadius && count < denoiseClusterMinNeighbors; dgr++ {
+			for dgc := -neighborRadius; dgc <= neighborRadius && count < denoiseClusterMinNeighbors; dgc++ {
+				gr := gr0 + dgr
+				gc := gc0 + dgc
+				if gr < 0 || gr >= gridH || gc < 0 || gc >= gridW {
+					continue
+				}
+				for _, j := range grid[cellKey{gr, gc}] {
+					if j == i {
+						continue
+					}
+					dx := float64(centroids[j].X - pt.X)
+					dy := float64(centroids[j].Y - pt.Y)
+					if dx*dx+dy*dy > radiusSq {
+						continue
+					}
+					ratio := areas[i] / areas[j]
+					if ratio < 1.0 {
+						ratio = 1.0 / ratio
+					}
+					if ratio > denoiseClusterAreaRatioMax {
+						continue
+					}
+					count++
+					if count >= denoiseClusterMinNeighbors {
+						break
+					}
+				}
+			}
+		}
+		if count >= denoiseClusterMinNeighbors {
+			inCluster[i] = true
+		}
+	}
+	return inCluster
+}
+
 func isMarginPixel(rows, cols, r, c int) bool {
 	sideMarginWidth := denoiseSideMarginWidth(cols)
 	topMarginHeight := denoiseTopMarginHeight(rows)
@@ -1071,12 +1164,6 @@ func debugLogf(format string, args ...any) {
 	log.Printf(format, args...)
 }
 
-// removeSmallBlobs removes all connected components whose area in pixels is
-// strictly less than minArea. Returns a new Mat (caller must Close it).
-//
-// Instead of iterating per-label over every pixel, we build a lookup table
-// (label -> keep?) and then do a single pass over the labels image to build
-// the output mask. This is O(width*height) rather than O(labels*width*height).
 func removeSmallBlobs(src gocv.Mat, minArea int) (gocv.Mat, error) {
 	labels := gocv.NewMat()
 	defer labels.Close()
@@ -1087,16 +1174,14 @@ func removeSmallBlobs(src gocv.Mat, minArea int) (gocv.Mat, error) {
 
 	n := gocv.ConnectedComponentsWithStats(src, &labels, &stats, &centroids)
 
-	// Build a keep-table: keep[label] = true if area >= minArea.
 	keep := make([]bool, n)
-	for label := 1; label < n; label++ { // label 0 is background, always dropped
-		area := stats.GetIntAt(label, 4) // col 4 = CC_STAT_AREA
+	for label := 1; label < n; label++ {
+		area := stats.GetIntAt(label, 4)
 		if int(area) >= minArea {
 			keep[label] = true
 		}
 	}
 
-	// Single pass: copy src pixel to dst only if its label is kept.
 	dst := gocv.Zeros(src.Rows(), src.Cols(), gocv.MatTypeCV8U)
 	for r := 0; r < src.Rows(); r++ {
 		for c := 0; c < src.Cols(); c++ {
