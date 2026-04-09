@@ -18,7 +18,7 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-// Denoise pipeline (denoiseOne):
+// Denoise pipeline overview:
 //
 //  1. Grayscale + background normalization (morphological close / divide) — flattens
 //     uneven illumination and bleed-through so the adaptive threshold sees a clean signal.

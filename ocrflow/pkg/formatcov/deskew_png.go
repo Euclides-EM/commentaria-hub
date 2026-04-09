@@ -34,6 +34,7 @@ const (
 
 	deskewDownscaleMax    = 1600
 	deskewTrimBorder      = true
+	deskewMaxRotate       = 4.0
 	deskewLineAngleLimit  = 4.0
 	deskewProjectionLimit = 6.0
 	deskewAngleStep       = 0.25
@@ -57,6 +58,16 @@ func maxDeskewWorkers() int {
 		return deskewMaxWorkers
 	}
 	return n
+}
+
+func clampDeskewAngle(angle float64) float64 {
+	if angle < -deskewMaxRotate {
+		return -deskewMaxRotate
+	}
+	if angle > deskewMaxRotate {
+		return deskewMaxRotate
+	}
+	return angle
 }
 
 func DeskewPNGs(src string, dst string) error {
@@ -154,7 +165,7 @@ func deskewOneProjection(inPath, outPath string) error {
 		return nil
 	}
 
-	correctionAngle := angle
+	correctionAngle := clampDeskewAngle(angle)
 	deskewLogf("[%s] applying correction angle=%.3f deg", inPath, correctionAngle)
 
 	if exceedsWarpAffineLimit(img, correctionAngle) {
@@ -271,7 +282,7 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		if ruledAngle, ok, err := estimateSparseRuledSkew(inv, inPath); err != nil {
 			return 0, err
 		} else if ok {
-			return ruledAngle, nil
+			return clampDeskewAngle(ruledAngle), nil
 		}
 	}
 	lineAngle := lineEvidence.angle
@@ -305,7 +316,7 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 				deskewLogf("[%s] line-angle local projection not better than zero; widening fallback search", inPath)
 			}
 			if dampedAngle, ok := dampHoughOnlyAngle(lineAngle, lineDispersion, refinedAngle, scoreSpan, zeroScore, inPath, lineOK, lineEvidence.houghOnly, textMask); ok {
-				return dampedAngle, nil
+				return clampDeskewAngle(dampedAngle), nil
 			}
 			deskewLogf("[%s] line-angle refine candidate=%.3f score=%.6f zeroScore=%.6f scoreSpan=%.6f", inPath, refinedAngle, refinedScore, zeroScore, scoreSpan)
 			if weakLineAngleEvidence(lineAngle, lineDispersion, refinedScore, zeroScore, scoreSpan) {
@@ -314,14 +325,14 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 			}
 			if math.Abs(refinedAngle-lineAngle) <= 0.5 && lineDispersion <= 0.15 && projectionFlatPeak(refinedScore, zeroScore, scoreSpan) {
 				deskewLogf("[%s] line-angle retained on shallow local peak angle=%.3f", inPath, lineAngle)
-				return lineAngle, nil
+				return clampDeskewAngle(lineAngle), nil
 			}
 			if math.Abs(refinedAngle-lineAngle) <= refineTolerance && projectionImprovementOK(refinedScore, zeroScore, refinedAngle) {
-				return refinedAngle, nil
+				return clampDeskewAngle(refinedAngle), nil
 			}
 			if math.Abs(refinedAngle-lineAngle) <= math.Max(1.0, refineTolerance) && projectionFlatPeak(refinedScore, zeroScore, scoreSpan) {
 				deskewLogf("[%s] line-angle accepted on flat projection peak angle=%.3f", inPath, lineAngle)
-				return lineAngle, nil
+				return clampDeskewAngle(lineAngle), nil
 			}
 			if projectionImprovementOK(refinedScore, zeroScore, refinedAngle) && scoreSpan <= zeroScore*0.01 {
 				blended := 0.7*lineAngle + 0.3*refinedAngle
@@ -332,7 +343,7 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 					blended = deskewLineAngleLimit
 				}
 				deskewLogf("[%s] line-angle accepted on projection plateau blended=%.3f", inPath, blended)
-				return blended, nil
+				return clampDeskewAngle(blended), nil
 			}
 			if math.Abs(lineAngle) >= 0.75 && math.Abs(refinedAngle) <= 0.35 && math.Abs(refinedAngle-lineAngle) >= 0.5 {
 				constrainProjectionSearch = false
@@ -392,7 +403,7 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		if allowNearZeroPlateau && math.Abs(bestA) <= 0.5 {
 			if biasedAngle, ok := biasedNearZeroPlateauAngle(scoreSamples, zeroScore); ok {
 				deskewLogf("[%s] best angle accepted on biased near-zero plateau angle=%.3f", inPath, biasedAngle)
-				return biasedAngle, nil
+				return clampDeskewAngle(biasedAngle), nil
 			}
 		}
 		deskewLogf("[%s] best angle rejected due to weak improvement best=%.6f zero=%.6f", inPath, bestS, zeroScore)
@@ -403,7 +414,7 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		return 0, nil
 	}
 
-	return bestA, nil
+	return clampDeskewAngle(bestA), nil
 }
 
 func cropDeskewMargins(src gocv.Mat) (gocv.Mat, bool) {
