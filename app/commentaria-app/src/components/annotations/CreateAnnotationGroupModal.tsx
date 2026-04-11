@@ -1,4 +1,4 @@
-import { type FormEvent, useEffect, useState } from 'react'
+import { type FormEvent, useState } from 'react'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 
@@ -37,6 +37,7 @@ export function CreateAnnotationGroupModal({
 
   return (
     <CreateAnnotationGroupModalContent
+      key={`${initialName}\u0000${initialDescription}`}
       isSubmitting={isSubmitting}
       error={error}
       onClose={onClose}
@@ -67,16 +68,11 @@ function CreateAnnotationGroupModalContent({
   submitLabel,
   submittingLabel,
   description,
-  initialName,
-  initialDescription,
+  initialName = '',
+  initialDescription = '',
 }: CreateAnnotationGroupModalContentProps) {
   const [name, setName] = useState(initialName)
   const [descriptionValue, setDescriptionValue] = useState(initialDescription)
-
-  useEffect(() => {
-    setName(initialName)
-    setDescriptionValue(initialDescription)
-  }, [initialDescription, initialName])
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
