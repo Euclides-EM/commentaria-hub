@@ -25,14 +25,12 @@ import {
   ScrollToTopButton,
 } from "../components/common";
 import { ItemModal } from "../components/tps/modal/ItemModal";
-import { NO_CITY } from "../constants";
+import { ItemTypes, NO_CITY } from "../constants";
 import { joinArr } from "../utils/util.ts";
 import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { AiFillEdit } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
 import { AuthContext } from "../contexts/Auth.ts";
-import { TOOLTIP_BOOK_TYPE } from "../components/map/MapTooltips.tsx";
-import { HelpTip } from "../components/map/Filter.tsx";
 import { Switch, SwitchOption } from "../components/map/Switch.tsx";
 import { Stats } from "../components/Stats.tsx";
 import { exportCitationsAsRTF } from "../utils/chicagoCitationExport";
@@ -178,10 +176,6 @@ const LanguageSpan = styled.span`
   background-color: #e0e0e0;
   border-radius: 0.25rem;
   font-size: 0.8rem;
-`;
-
-const StyledHelpTip = styled(HelpTip)`
-  margin: 0;
 `;
 
 const ExportButton = styled.button`
@@ -433,6 +427,30 @@ export function Catalogue() {
     filters.type.length === 0 ||
     filters.type.some((item) => item.value === "Elements");
 
+  const tableItems = filteredItems ?? EMPTY_ITEMS;
+  const hasManuscriptRows = tableItems.some(
+    (item) => item.materialType === "Manuscript",
+  );
+  const hasPrintNonElementsRows = tableItems.some(
+    (item) =>
+      item.materialType !== "Manuscript" && item.type !== ItemTypes.elements,
+  );
+  const hasNonElementsRows = tableItems.some(
+    (item) => item.type !== ItemTypes.elements,
+  );
+  const hasElementsRows = tableItems.some(
+    (item) => item.type === ItemTypes.elements,
+  );
+  const hasPrintRows = tableItems.some(
+    (item) => item.materialType !== "Manuscript",
+  );
+
+  const editorsHeader = hasPrintNonElementsRows
+    ? "Author/Editor"
+    : hasManuscriptRows
+      ? "Composer"
+      : "Editor";
+
   const columns = useMemo(
     () =>
       [
@@ -539,11 +557,12 @@ export function Catalogue() {
           size: 100,
         }),
         columnHelper.accessor("editors", {
-          header: "Editors",
+          header: editorsHeader,
           cell: (info) => formatDisplayEditors(info.row.original),
           size: 160,
         }),
         showOtherColumns &&
+          hasNonElementsRows &&
           columnHelper.accessor((row) => row, {
             id: "title",
             header: "Title",
@@ -577,37 +596,32 @@ export function Catalogue() {
             },
             size: 160,
           }),
-        columnHelper.accessor("format", {
-          header: "Format",
-          cell: (info) =>
-            info.getValue() ? `${info.getValue()}º` : info.getValue(),
-          size: 60,
-        }),
+        hasManuscriptRows &&
+          columnHelper.accessor("repository", {
+            header: "Repository",
+            cell: (info) => info.getValue(),
+            size: 100,
+          }),
+        hasPrintRows &&
+          columnHelper.accessor("format", {
+            header: "Format",
+            cell: (info) =>
+              info.getValue() ? `${info.getValue()}º` : info.getValue(),
+            size: 60,
+          }),
         showElementsColumns &&
+          hasElementsRows &&
           columnHelper.accessor("elementsBooks", {
             header: "Elements Books",
             enableSorting: false,
             cell: (info) => formatDisplayBooks(info.row.original),
             size: 105,
           }),
-        columnHelper.accessor("volumesCount", {
-          header: "Volumes",
-          cell: (info) => info.getValue(),
-          size: 40,
-        }),
         showElementsColumns &&
+          hasElementsRows &&
           columnHelper.accessor("additionalContent", {
             header: "Additional Content",
             cell: (info) => joinArr(info.getValue()),
-            size: 140,
-          }),
-        !inEuclidesMode() &&
-          columnHelper.accessor("type", {
-            header: () => (
-              <Row gap={0.5}>
-                Classification <StyledHelpTip tooltipId={TOOLTIP_BOOK_TYPE} />
-              </Row>
-            ),
             size: 140,
           }),
         inEuclidesMode() &&
@@ -623,7 +637,17 @@ export function Catalogue() {
             size: 120,
           }),
       ].filter(Boolean) as ColumnDef<ItemWithCluster>[],
-    [showOtherColumns, showElementsColumns, token, viewMode],
+    [
+      editorsHeader,
+      hasElementsRows,
+      hasManuscriptRows,
+      hasNonElementsRows,
+      hasPrintRows,
+      showOtherColumns,
+      showElementsColumns,
+      token,
+      viewMode,
+    ],
   );
 
   const table = useReactTable<ItemWithCluster>({

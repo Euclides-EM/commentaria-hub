@@ -162,37 +162,32 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 		langs[i] = strings.ToUpper(l)
 	}
 	row := map[string]string{
-		"key":                ed.Key,
-		"class":              ed.ManuscriptClass,
-		"subclass":           formatcov.PtrToStr(ed.ManuscriptSubclass),
-		"repository":         formatcov.PtrToStr(ed.ManuscriptRepository),
-		"city":               strings.Join(ed.Cities, ", "),
-		"languages":          strings.Join(langs, ", "),
-		"compositors":        strings.Join(ed.Compositors, ", "),
-		"long_title":         formatcov.PtrToStr(ed.Title),
-		"short_title":        ed.ShortTitle,
-		"short_title_source": ed.ShortTitleSource,
-		"year_from":          formatcov.IntPtrToStr(ed.ManuscriptYearFrom),
-		"year_to":            formatcov.IntPtrToStr(ed.ManuscriptYearTo),
-		"notes":              ed.Notes,
-		"has_diagrams":       formatcov.BoolPtrToStr(ed.HasDiagrams),
+		"key":                 ed.Key,
+		"class":               ed.ManuscriptClass,
+		"subclass":            formatcov.PtrToStr(ed.ManuscriptSubclass),
+		"repository":          formatcov.PtrToStr(ed.Repository),
+		"city":                strings.Join(ed.Cities, ", "),
+		"languages":           strings.Join(langs, ", "),
+		"compositors":         strings.Join(ed.Editor, ", "),
+		"long_title":          formatcov.PtrToStr(ed.Title),
+		"short_title":         ed.ShortTitle,
+		"short_title_source":  ed.ShortTitleSource,
+		"year_from":           formatcov.IntPtrToStr(ed.ManuscriptYearFrom),
+		"year_to":             formatcov.IntPtrToStr(ed.ManuscriptYearTo),
+		"year_is_approximate": strconv.FormatBool(ed.ManuscriptYearIsApproximate),
+		"notes":               ed.Notes,
+		"has_diagrams":        formatcov.BoolPtrToStr(ed.HasDiagrams),
 	}
 	if err := csv.UpsertRow(s.csvPath(relItemsManuscript), "key", ed.Key, row); err != nil {
 		return fmt.Errorf("Error upserting manuscript item: %v\n", err)
 	}
 	if ed.IsElements {
-		sub := ""
-		if ed.ManuscriptSubclass != nil {
-			sub = *ed.ManuscriptSubclass
-		}
 		elementsBooks := formatcov.PtrToStr(ed.ManuscriptElementsBooks)
 		if elementsBooks == "" {
 			elementsBooks = formatcov.IntsToCompressedStr(ed.Books)
 		}
 		if err := csv.UpsertRow(s.csvPath(relMDManuscript), "key", ed.Key, map[string]string{
 			"key":            ed.Key,
-			"class":          ed.ManuscriptClass,
-			"subclass":       sub,
 			"elements_books": elementsBooks,
 		}); err != nil {
 			return fmt.Errorf("Error upserting manuscript metadata: %v\n", err)
@@ -217,6 +212,7 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 		"language":           strings.Join(langs, ", "),
 		"author_or_editor":   strings.Join(ed.Editor, ", "),
 		"publisher":          strings.Join(ed.Publisher, ", "),
+		"repository":         formatcov.PtrToStr(ed.Repository),
 		"format":             formatcov.IntPtrToStr(ed.Format),
 		"volumes":            formatcov.IntPtrToStr(ed.Volumes),
 		"ustc_id":            formatcov.PtrToStr(ed.USTCId),
@@ -538,18 +534,17 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
+		ed.ManuscriptYearIsApproximate = itemRow["year_is_approximate"] == "True" || itemRow["year_is_approximate"] == "true"
 		ed.ManuscriptClass = itemRow["class"]
 		ed.ManuscriptSubclass = formatcov.StrToPtr(itemRow["subclass"])
-		ed.ManuscriptRepository = formatcov.StrToPtr(itemRow["repository"])
+		ed.Repository = formatcov.StrToPtr(itemRow["repository"])
 		ed.Cities = splitNonEmpty(itemRow["city"])
 		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["languages"]))
-		ed.Compositors = splitNonEmpty(itemRow["compositors"])
+		ed.Editor = splitNonEmpty(itemRow["compositors"])
 		ed.Title = formatcov.StrToPtr(itemRow["long_title"])
 		_, mdRows, _ := csv.LoadCSVRecords(s.csvPath(relMDManuscript))
 		if md := findRowByKey(mdRows, "key", key); md != nil {
 			ed.IsElements = true
-			ed.ManuscriptClass = md["class"]
-			ed.ManuscriptSubclass = formatcov.StrToPtr(md["subclass"])
 			ed.ManuscriptElementsBooks = formatcov.StrToPtr(md["elements_books"])
 		}
 	} else {
@@ -558,6 +553,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["language"]))
 		ed.Editor = splitNonEmpty(itemRow["author_or_editor"])
 		ed.Publisher = splitNonEmpty(itemRow["publisher"])
+		ed.Repository = formatcov.StrToPtr(itemRow["repository"])
 		ed.Format = formatcov.IntOpt(itemRow["format"])
 		ed.Volumes = formatcov.IntOpt(itemRow["volumes"])
 		ed.USTCId = formatcov.StrToPtr(itemRow["ustc_id"])
@@ -824,17 +820,16 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
+		ed.ManuscriptYearIsApproximate = itemRow["year_is_approximate"] == "True" || itemRow["year_is_approximate"] == "true"
 		ed.ManuscriptClass = itemRow["class"]
 		ed.ManuscriptSubclass = formatcov.StrToPtr(itemRow["subclass"])
-		ed.ManuscriptRepository = formatcov.StrToPtr(itemRow["repository"])
+		ed.Repository = formatcov.StrToPtr(itemRow["repository"])
 		ed.Cities = splitNonEmpty(itemRow["city"])
 		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["languages"]))
-		ed.Compositors = splitNonEmpty(itemRow["compositors"])
+		ed.Editor = splitNonEmpty(itemRow["compositors"])
 		ed.Title = formatcov.StrToPtr(itemRow["long_title"])
 		if md := findRowByKey(p.mdManuscript, "key", key); md != nil {
 			ed.IsElements = true
-			ed.ManuscriptClass = md["class"]
-			ed.ManuscriptSubclass = formatcov.StrToPtr(md["subclass"])
 			ed.ManuscriptElementsBooks = formatcov.StrToPtr(md["elements_books"])
 		}
 	} else {
@@ -843,6 +838,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["language"]))
 		ed.Editor = splitNonEmpty(itemRow["author_or_editor"])
 		ed.Publisher = splitNonEmpty(itemRow["publisher"])
+		ed.Repository = formatcov.StrToPtr(itemRow["repository"])
 		ed.Format = formatcov.IntOpt(itemRow["format"])
 		ed.Volumes = formatcov.IntOpt(itemRow["volumes"])
 		ed.USTCId = formatcov.StrToPtr(itemRow["ustc_id"])

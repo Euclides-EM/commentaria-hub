@@ -29,7 +29,6 @@ import { useQuery } from "@tanstack/react-query";
 import { STUDY_CORPUSES } from "../types";
 
 type Locator = model_EditionLocator;
-
 type EditionFormData = {
   key: string;
   shortTitle: string;
@@ -63,8 +62,10 @@ type EditionFormData = {
   isManuscript: boolean;
   manuscriptYearFrom?: number;
   manuscriptYearTo?: number;
+  manuscriptYearIsApproximate?: boolean;
   manuscriptClass?: string;
   manuscriptSubclass?: string | null;
+  repository?: string | null;
   year?: string | null;
   languages?: string[];
   editor?: string[];
@@ -96,11 +97,15 @@ function toModelEdition(data: EditionFormData): model_Edition {
     notes: data.notes,
     corpus: data.corpus,
     shelfmarks: data.shelfmarks.map((s) => ({
-      volume: nullToUndef(s.volume),
+      volume: data.isManuscript ? undefined : nullToUndef(s.volume),
       scan: nullToUndef(s.scan),
       shelfmark: nullToUndef(s.shelfmark),
-      title_page_img: nullToUndef(s.title_page_img),
-      frontispiece_img: nullToUndef(s.frontispiece_img),
+      title_page_img: data.isManuscript
+        ? undefined
+        : nullToUndef(s.title_page_img),
+      frontispiece_img: data.isManuscript
+        ? undefined
+        : nullToUndef(s.frontispiece_img),
       annotations: nullToUndef(s.annotations),
       copyright: nullToUndef(s.copyright),
     })),
@@ -141,6 +146,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
     isManuscript: data.isManuscript,
     manuscriptYearFrom: data.manuscriptYearFrom,
     manuscriptYearTo: data.manuscriptYearTo,
+    manuscriptYearIsApproximate: data.manuscriptYearIsApproximate,
     manuscriptClass: data.manuscriptClass,
     manuscriptSubclass: nullToUndef(data.manuscriptSubclass),
     year: nullToUndef(data.year),
@@ -162,6 +168,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
     books: data.books,
     manuscriptElementsBooks: nullToUndef(data.manuscriptElementsBooks),
     additionalContent: data.additionalContent,
+    repository: nullToUndef(data.repository),
   };
 }
 
@@ -175,7 +182,7 @@ function toEditionFormData(
     key,
     shortTitle: edition.shortTitle || "",
     shortTitleSource: edition.shortTitleSource || "",
-    cities: isManuscript ? [] : edition.cities || [],
+    cities: edition.cities || [],
     notes: edition.notes || "",
     corpus: edition.corpus || [],
     shelfmarks: (edition.shelfmarks || []).map((s) => ({
@@ -226,11 +233,20 @@ function toEditionFormData(
           isManuscript: true,
           manuscriptYearFrom: edition.manuscriptYearFrom || 0,
           manuscriptYearTo: edition.manuscriptYearTo || 0,
+          manuscriptYearIsApproximate: Boolean(
+            edition.manuscriptYearIsApproximate,
+          ),
           manuscriptClass: edition.manuscriptClass || "",
           manuscriptSubclass: edition.manuscriptSubclass || null,
+          repository: edition.repository || null,
+          languages: edition.languages || [],
+          editor: edition.editor || [],
+          title: edition.title || null,
         }
       : {
           isManuscript: false,
+          manuscriptYearIsApproximate: false,
+          repository: edition.repository || null,
           manuscriptElementsBooks: null,
           year: edition.year || "",
           languages: edition.languages || [],
@@ -651,6 +667,7 @@ const defaultValues = (): EditionFormData => ({
   ],
   verified: false,
   isManuscript: false,
+  manuscriptYearIsApproximate: false,
   year: "",
   languages: [],
   editor: [],
@@ -669,6 +686,7 @@ const defaultValues = (): EditionFormData => ({
   isElements: false,
   books: [],
   manuscriptElementsBooks: null,
+  repository: null,
   additionalContent: [],
   bibliography: [],
   reprintOf: null,
@@ -691,6 +709,8 @@ function toOptionsFromArray(
 type OptionLists = {
   editors: string[];
   publishers: string[];
+  manuscriptRepositories: string[];
+  manuscriptSubclasses: string[];
   additionalContents: string[];
   cities: string[];
   reprintOptions: { value: string; label: string }[];
@@ -701,6 +721,20 @@ type OptionLists = {
 const buildOptionLists = (editions: model_Edition[]): OptionLists => {
   const editors = toOptionsFromArray(editions, "editor");
   const publishers = toOptionsFromArray(editions, "publisher");
+  const manuscriptRepositories = uniq(
+    editions
+      .map((item) => item.repository || "")
+      .map((item) => item.trim())
+      .filter(Boolean)
+      .sort(),
+  );
+  const manuscriptSubclasses = uniq(
+    editions
+      .map((item) => item.manuscriptSubclass || "")
+      .map((item) => item.trim())
+      .filter(Boolean)
+      .sort(),
+  );
   const additionalContents = uniq(
     editions
       .flatMap((item) => item.additionalContent || [])
@@ -752,6 +786,8 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
   return {
     editors,
     publishers,
+    manuscriptRepositories,
+    manuscriptSubclasses,
     additionalContents,
     cities: cityNames,
     reprintOptions,
@@ -759,6 +795,12 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
     locatorTypes,
   };
 };
+
+const toSingleSelectOptions = (items: string[]) =>
+  items.map((item) => ({
+    value: item,
+    label: item,
+  }));
 
 function deepTrim<T>(input: T): T {
   if (typeof input === "string") {
@@ -1244,6 +1286,20 @@ export const UpsertEdition = () => {
                   </FormField>
 
                   <FormField>
+                    <Label>Year Is Approximate</Label>
+                    <form.Field name="manuscriptYearIsApproximate">
+                      {(field) => (
+                        <Input
+                          type="checkbox"
+                          checked={Boolean(field.state.value)}
+                          onChange={(e) => field.handleChange(e.target.checked)}
+                          onBlur={field.handleBlur}
+                        />
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
                     <Label className="required">Manuscript Class</Label>
                     <form.Field
                       name="manuscriptClass"
@@ -1272,10 +1328,163 @@ export const UpsertEdition = () => {
                     <Label>Manuscript Subclass</Label>
                     <form.Field name="manuscriptSubclass">
                       {(field) => (
-                        <Input
-                          type="text"
+                        <SingleSelect
+                          name="manuscript subclass"
+                          options={toSingleSelectOptions(
+                            lists?.manuscriptSubclasses || [],
+                          )}
+                          value={field.state.value || null}
+                          onBlur={field.handleBlur}
+                          onChange={(value) =>
+                            field.handleChange((value as string) || null)
+                          }
+                          isCreatable={true}
+                          placeholder="Choose or add manuscript subclass..."
+                        />
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label className="required">Repository</Label>
+                    <form.Field
+                      name="repository"
+                      validators={{
+                        onBlur: ({ value }) =>
+                          !value ? "Repository is required" : undefined,
+                      }}
+                    >
+                      {(field) => (
+                        <>
+                          <SingleSelect
+                            name="repository"
+                            options={toSingleSelectOptions(
+                              lists?.manuscriptRepositories || [],
+                            )}
+                            value={field.state.value || null}
+                            onBlur={field.handleBlur}
+                            onChange={(value) =>
+                              field.handleChange((value as string) || null)
+                            }
+                            isCreatable={true}
+                            placeholder="Choose or add repository..."
+                          />
+                          {!field.state.meta.isValid && (
+                            <em>{field.state.meta.errors.join(",")}</em>
+                          )}
+                        </>
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label>Composition City</Label>
+                    <form.Field
+                      name="cities"
+                      validators={{
+                        onBlur: ({ value }) =>
+                          value && value.some((v) => !v)
+                            ? "City names cannot be empty"
+                            : value && value.length > 1
+                              ? "Only one composition city is allowed"
+                              : undefined,
+                      }}
+                    >
+                      {(field) => (
+                        <>
+                          <SingleSelect
+                            name="composition city"
+                            options={toSingleSelectOptions(lists?.cities || [])}
+                            value={field.state.value?.[0] || null}
+                            onBlur={field.handleBlur}
+                            onChange={(value) =>
+                              field.handleChange(value ? [value as string] : [])
+                            }
+                            isCreatable={true}
+                            placeholder="Choose or add composition city..."
+                          />
+                          {!field.state.meta.isValid && (
+                            <em>{field.state.meta.errors.join(",")}</em>
+                          )}
+                        </>
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label className="required">Languages</Label>
+                    <form.Field
+                      name="languages"
+                      validators={{
+                        onBlur: ({ value }) =>
+                          !value || value.length < 1
+                            ? "At least one language is required"
+                            : value.length !== uniq(value).length
+                              ? "Languages must be unique"
+                              : undefined,
+                      }}
+                    >
+                      {(field) => (
+                        <>
+                          <MultiSelect
+                            name="languages"
+                            options={LANGUAGES.map((lang) => lang)}
+                            value={field.state.value}
+                            onChange={(values) =>
+                              field.handleChange(values.map((v) => v))
+                            }
+                            onBlur={field.handleBlur}
+                            placeholder="Select languages used in the text..."
+                          />
+                          {!field.state.meta.isValid && (
+                            <em>{field.state.meta.errors.join(",")}</em>
+                          )}
+                        </>
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label>Compositors</Label>
+                    <form.Field
+                      name="editor"
+                      validators={{
+                        onBlur: ({ value }) =>
+                          value && value.length !== uniq(value).length
+                            ? "Compositors must be unique"
+                            : undefined,
+                      }}
+                    >
+                      {(field) => (
+                        <>
+                          <MultiSelect
+                            name="compositors"
+                            options={lists?.editors || []}
+                            value={field.state.value}
+                            onChange={(values) =>
+                              field.handleChange(values.map((v) => v))
+                            }
+                            onBlur={field.handleBlur}
+                            isCreatable={true}
+                            placeholder="Choose or add compositors..."
+                          />
+                          {!field.state.meta.isValid && (
+                            <em>{field.state.meta.errors.join(",")}</em>
+                          )}
+                        </>
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
+                    <Label>Long Title</Label>
+                    <form.Field name="title">
+                      {(field) => (
+                        <TextArea
                           value={field.state.value || ""}
-                          onChange={(e) => field.handleChange(e.target.value)}
+                          onChange={(e) =>
+                            field.handleChange(e.target.value || null)
+                          }
                           onBlur={field.handleBlur}
                         />
                       )}
@@ -1453,6 +1662,27 @@ export const UpsertEdition = () => {
                   </FormField>
 
                   <FormField>
+                    <Label>Repository</Label>
+                    <form.Field name="repository">
+                      {(field) => (
+                        <SingleSelect
+                          name="repository"
+                          options={toSingleSelectOptions(
+                            lists?.manuscriptRepositories || [],
+                          )}
+                          value={field.state.value || null}
+                          onBlur={field.handleBlur}
+                          onChange={(value) =>
+                            field.handleChange((value as string) || null)
+                          }
+                          isCreatable={true}
+                          placeholder="Choose or add repository..."
+                        />
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  <FormField>
                     <Label>Format</Label>
                     <form.Field name="format">
                       {(field) => (
@@ -1556,6 +1786,9 @@ export const UpsertEdition = () => {
                       )}
                     </form.Field>
                   </FormField>
+
+                  <FormField />
+                  <FormField />
 
                   <FormField>
                     <Label>Title</Label>
@@ -1720,6 +1953,7 @@ export const UpsertEdition = () => {
                             value={field.state.value || ""}
                             onChange={(e) => field.handleChange(e.target.value)}
                             onBlur={field.handleBlur}
+                            placeholder="Book of Elements, i.e I-XV or II.5-6"
                           />
                         )}
                       </form.Field>
@@ -1803,7 +2037,7 @@ export const UpsertEdition = () => {
                         type="button"
                         onClick={() =>
                           field.pushValue({
-                            volume: 1,
+                            volume: isManuscript ? null : 1,
                             scan: null,
                             shelfmark: null,
                             title_page_img: null,
@@ -1822,23 +2056,27 @@ export const UpsertEdition = () => {
                     </FormField>
                     {field.state.value.map((_, i) => (
                       <FormField key={i} gap={0.5} bgColor="#D8ECFC">
-                        <FormField>
-                          <Label>Volume</Label>
-                          <form.Field name={`shelfmarks[${i}].volume`}>
-                            {(f) => (
-                              <Input
-                                type="number"
-                                defaultValue={1}
-                                value={f.state.value || ""}
-                                onChange={(e) =>
-                                  f.handleChange(e.target.valueAsNumber || null)
-                                }
-                                onBlur={f.handleBlur}
-                                placeholder="Volume"
-                              />
-                            )}
-                          </form.Field>
-                        </FormField>
+                        {!isManuscript && (
+                          <FormField>
+                            <Label>Volume</Label>
+                            <form.Field name={`shelfmarks[${i}].volume`}>
+                              {(f) => (
+                                <Input
+                                  type="number"
+                                  defaultValue={1}
+                                  value={f.state.value || ""}
+                                  onChange={(e) =>
+                                    f.handleChange(
+                                      e.target.valueAsNumber || null,
+                                    )
+                                  }
+                                  onBlur={f.handleBlur}
+                                  placeholder="Volume"
+                                />
+                              )}
+                            </form.Field>
+                          </FormField>
+                        )}
                         <FormField>
                           <Label>Facsimile URL</Label>
                           <form.Field
@@ -1870,94 +2108,117 @@ export const UpsertEdition = () => {
                         </FormField>
 
                         <FormField>
-                          <Label>Shelfmark</Label>
-                          <form.Field name={`shelfmarks[${i}].shelfmark`}>
-                            {(f) => (
-                              <Input
-                                type="text"
-                                value={f.state.value || ""}
-                                onChange={(e) =>
-                                  f.handleChange(e.target.value || null)
-                                }
-                                onBlur={f.handleBlur}
-                                placeholder="Shelfmark"
-                              />
-                            )}
-                          </form.Field>
-                        </FormField>
-
-                        <FormField>
-                          <form.Field name={`shelfmarks[${i}].title_page_img`}>
-                            {(f) => (
-                              <>
-                                <Label>
-                                  Title Page Image{" "}
-                                  {f.state.value && (
-                                    <SelectedImage>Image is set</SelectedImage>
-                                  )}
-                                </Label>
-                                <FileInput
-                                  type="file"
-                                  accept="image/*"
-                                  onChange={(e) => {
-                                    if (!e.target.files?.[0]) {
-                                      f.handleChange(null);
-                                    } else {
-                                      const id = uniqueId();
-                                      setImages((m) => ({
-                                        ...m,
-                                        [id]: e.target.files![0],
-                                      }));
-                                      f.handleChange(id);
-                                    }
-                                  }}
-                                />
-                                {f.state.value && images[f.state.value] && (
-                                  <div>
-                                    <SelectedImage>
-                                      Selected: {images[f.state.value].name}
-                                    </SelectedImage>
-                                  </div>
-                                )}
-                              </>
-                            )}
-                          </form.Field>
-                        </FormField>
-
-                        <FormField>
-                          <Label>Frontispiece Image</Label>
+                          <Label className={isManuscript ? "required" : ""}>
+                            Shelfmark
+                          </Label>
                           <form.Field
-                            name={`shelfmarks[${i}].frontispiece_img`}
+                            name={`shelfmarks[${i}].shelfmark`}
+                            validators={{
+                              onBlur: ({ value }) =>
+                                isManuscript && !value
+                                  ? "Shelfmark is required"
+                                  : undefined,
+                            }}
                           >
                             {(f) => (
                               <>
-                                <FileInput
-                                  type="file"
-                                  accept="image/*"
-                                  onChange={(e) => {
-                                    if (!e.target.files?.[0]) {
-                                      f.handleChange(null);
-                                    } else {
-                                      const id = uniqueId();
-                                      setImages((m) => ({
-                                        ...m,
-                                        [id]: e.target.files![0],
-                                      }));
-                                      f.handleChange(id);
-                                    }
-                                  }}
+                                <Input
+                                  type="text"
+                                  value={f.state.value || ""}
+                                  onChange={(e) =>
+                                    f.handleChange(e.target.value || null)
+                                  }
+                                  onBlur={f.handleBlur}
+                                  placeholder="Shelfmark"
                                 />
-                                {f.state.value && (
-                                  <SelectedImage>
-                                    {images[f.state.value]
-                                      ? `Selected: ${images[f.state.value].name}`
-                                      : "Image is set"}
-                                  </SelectedImage>
+                                {!f.state.meta.isValid && (
+                                  <em>{f.state.meta.errors.join(", ")}</em>
                                 )}
                               </>
                             )}
                           </form.Field>
                         </FormField>
+
+                        {!isManuscript && (
+                          <FormField>
+                            <form.Field
+                              name={`shelfmarks[${i}].title_page_img`}
+                            >
+                              {(f) => (
+                                <>
+                                  <Label>
+                                    Title Page Image{" "}
+                                    {f.state.value && (
+                                      <SelectedImage>
+                                        Image is set
+                                      </SelectedImage>
+                                    )}
+                                  </Label>
+                                  <FileInput
+                                    type="file"
+                                    accept="image/*"
+                                    onChange={(e) => {
+                                      if (!e.target.files?.[0]) {
+                                        f.handleChange(null);
+                                      } else {
+                                        const id = uniqueId();
+                                        setImages((m) => ({
+                                          ...m,
+                                          [id]: e.target.files![0],
+                                        }));
+                                        f.handleChange(id);
+                                      }
+                                    }}
+                                  />
+                                  {f.state.value && images[f.state.value] && (
+                                    <div>
+                                      <SelectedImage>
+                                        Selected: {images[f.state.value].name}
+                                      </SelectedImage>
+                                    </div>
+                                  )}
+                                </>
+                              )}
+                            </form.Field>
+                          </FormField>
+                        )}
+
+                        {!isManuscript && (
+                          <FormField>
+                            <Label>Frontispiece Image</Label>
+                            <form.Field
+                              name={`shelfmarks[${i}].frontispiece_img`}
+                            >
+                              {(f) => (
+                                <>
+                                  <FileInput
+                                    type="file"
+                                    accept="image/*"
+                                    onChange={(e) => {
+                                      if (!e.target.files?.[0]) {
+                                        f.handleChange(null);
+                                      } else {
+                                        const id = uniqueId();
+                                        setImages((m) => ({
+                                          ...m,
+                                          [id]: e.target.files![0],
+                                        }));
+                                        f.handleChange(id);
+                                      }
+                                    }}
+                                  />
+                                  {f.state.value && (
+                                    <SelectedImage>
+                                      {images[f.state.value]
+                                        ? `Selected: ${images[f.state.value].name}`
+                                        : "Image is set"}
+                                    </SelectedImage>
+                                  )}
+                                </>
+                              )}
+                            </form.Field>
+                          </FormField>
+                        )}
 
                         <FormField>
                           <Label>Annotations</Label>

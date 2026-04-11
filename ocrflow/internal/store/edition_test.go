@@ -1,26 +1,25 @@
 package store
 
 import (
-	"reflect"
 	"testing"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/csv"
 )
 
-func TestLoadEditionByKeyUsesManuscriptElementsBooksFromMetadata(t *testing.T) {
+func TestLoadEditionByKeyKeepsManuscriptElementsBooksSeparateFromBooks(t *testing.T) {
 	dir := t.TempDir()
 
 	err := csv.SaveCSV(dir+"/"+relItemsManuscript, [][]string{
-		{"key", "short_title", "short_title_source", "year_from", "year_to", "notes", "has_diagrams"},
-		{"ms_1", "Test manuscript", "source", "1200", "1250", "", ""},
+		{"key", "class", "subclass", "repository", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
+		{"ms_1", "Latin manuscripts", "Subclass A", "", "", "", "", "", "Test manuscript", "source", "1200", "1250", "True", "", ""},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript items csv: %v", err)
 	}
 
 	err = csv.SaveCSV(dir+"/"+relMDManuscript, [][]string{
-		{"key", "class", "subclass", "elements_books"},
-		{"ms_1", "Latin manuscripts", "Subclass A", "1-3, 5"},
+		{"key", "elements_books"},
+		{"ms_1", "1-3, 5"},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript metadata csv: %v", err)
@@ -35,9 +34,8 @@ func TestLoadEditionByKeyUsesManuscriptElementsBooksFromMetadata(t *testing.T) {
 		t.Fatal("expected edition")
 	}
 
-	want := []int{1, 2, 3, 5}
-	if !reflect.DeepEqual(ed.Books, want) {
-		t.Fatalf("expected books %v, got %v", want, ed.Books)
+	if ed.Books != nil {
+		t.Fatalf("expected books to stay nil for manuscripts, got %v", ed.Books)
 	}
 
 	if ed.ManuscriptElementsBooks == nil || *ed.ManuscriptElementsBooks != "1-3, 5" {
@@ -49,16 +47,16 @@ func TestLoadEditionByKeyKeepsFreeTextManuscriptElementsBooks(t *testing.T) {
 	dir := t.TempDir()
 
 	err := csv.SaveCSV(dir+"/"+relItemsManuscript, [][]string{
-		{"key", "short_title", "short_title_source", "year_from", "year_to", "notes", "has_diagrams"},
-		{"ms_60", "", "", "1500", "1600", "", ""},
+		{"key", "class", "subclass", "repository", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
+		{"ms_60", "Latin Boethius manuscripts", "Mc", "", "", "", "", "", "", "", "1500", "1600", "True", "", ""},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript items csv: %v", err)
 	}
 
 	err = csv.SaveCSV(dir+"/"+relMDManuscript, [][]string{
-		{"key", "class", "subclass", "elements_books"},
-		{"ms_60", "Latin Boethius manuscripts", "Mc", "copy of Naples V A 13"},
+		{"key", "elements_books"},
+		{"ms_60", "copy of Naples V A 13"},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript metadata csv: %v", err)

@@ -35,6 +35,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         year: edition.year || null,
         yearFrom: edition.manuscriptYearFrom ?? null,
         yearTo: edition.manuscriptYearTo ?? null,
+        yearIsApproximate: Boolean(edition.manuscriptYearIsApproximate),
         materialType: edition.isManuscript ? "Manuscript" : "Print",
         cities: edition.cities || [],
         languages: (edition.languages || [])
@@ -46,6 +47,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         publishers: (edition.publisher || [])
           .map((name) => name.trim())
           .filter(Boolean),
+        repository: edition.repository || null,
         tpImageName:
           firstOrNull(
             shelfmarks.map((s) => s.title_page_img).filter(Boolean) as string[],

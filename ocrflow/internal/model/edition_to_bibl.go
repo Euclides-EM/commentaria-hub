@@ -181,6 +181,7 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 	if ed.ManuscriptYearTo != nil {
 		addNote("manuscriptYearTo", strconv.Itoa(*ed.ManuscriptYearTo))
 	}
+	addNote("manuscriptYearIsApproximate", strconv.FormatBool(ed.ManuscriptYearIsApproximate))
 
 	addNote("manuscriptClass", ed.ManuscriptClass)
 	if ed.ManuscriptSubclass != nil {
@@ -189,8 +190,8 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 	if ed.ManuscriptElementsBooks != nil {
 		addNote("manuscriptElementsBooks", *ed.ManuscriptElementsBooks)
 	}
-	if ed.ManuscriptRepository != nil {
-		addNote("manuscriptRepository", *ed.ManuscriptRepository)
+	if ed.Repository != nil {
+		addNote("repository", *ed.Repository)
 	}
 
 	if ed.USTCId != nil {
@@ -202,9 +203,6 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 
 	if len(ed.Languages) > 0 {
 		addNote("languages", strings.Join(nonEmptyStrings(ed.Languages), ", "))
-	}
-	if len(ed.Compositors) > 0 {
-		addNote("compositors", strings.Join(nonEmptyStrings(ed.Compositors), ", "))
 	}
 	if len(ed.Corpus) > 0 {
 		addNote("corpus", strings.Join(nonEmptyStrings(ed.Corpus), ", "))

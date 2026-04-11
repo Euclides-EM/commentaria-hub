@@ -15,19 +15,19 @@ type Edition struct {
 	HasDiagrams           *bool                  `json:"hasDiagrams"`
 
 	// Manuscript-only
-	IsManuscript       bool    `json:"isManuscript"`
-	ManuscriptYearFrom *int    `json:"manuscriptYearFrom"`
-	ManuscriptYearTo   *int    `json:"manuscriptYearTo"`
-	ManuscriptClass    string  `json:"manuscriptClass"`
-	ManuscriptSubclass *string `json:"manuscriptSubclass"`
-	ManuscriptElementsBooks *string `json:"manuscriptElementsBooks"`
-	ManuscriptRepository *string `json:"manuscriptRepository"`
+	IsManuscript                bool    `json:"isManuscript"`
+	ManuscriptYearFrom          *int    `json:"manuscriptYearFrom"`
+	ManuscriptYearTo            *int    `json:"manuscriptYearTo"`
+	ManuscriptYearIsApproximate bool    `json:"manuscriptYearIsApproximate"`
+	ManuscriptClass             string  `json:"manuscriptClass"`
+	ManuscriptSubclass          *string `json:"manuscriptSubclass"`
+	ManuscriptElementsBooks     *string `json:"manuscriptElementsBooks"`
+	Repository                  *string `json:"repository"`
 
 	// Print-only
 	Cities          []string               `json:"cities"`
 	Year            *string                `json:"year"`
 	Languages       []string               `json:"languages"`
-	Compositors     []string               `json:"compositors"`
 	Editor          []string               `json:"editor"`
 	Publisher       []string               `json:"publisher"`
 	Format          *int                   `json:"format"`

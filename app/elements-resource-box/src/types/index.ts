@@ -36,11 +36,13 @@ export type Item = {
   year: string | null;
   yearFrom: number | null;
   yearTo: number | null;
+  yearIsApproximate: boolean;
   materialType: string | null;
   cities: string[];
   languages: string[];
   editors: string[];
   publishers: string[];
+  repository: string | null;
   tpImageName: string | null;
   titlePageStatus: model_EditionTitlePageStatus;
   shortTitle: string | null;

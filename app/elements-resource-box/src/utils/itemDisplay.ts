@@ -7,24 +7,17 @@ export const isManuscriptItem = (item: Item) =>
 
 export const formatDisplayYear = (item: Item) => {
   if (isManuscriptItem(item) && item.yearFrom) {
+    const prefix = item.yearIsApproximate ? "~" : "";
     if (item.yearTo && item.yearTo !== item.yearFrom) {
-      return `${item.yearFrom}-${item.yearTo}`;
+      return `${prefix}${item.yearFrom}-${item.yearTo}`;
     }
-    return `${item.yearFrom}`;
+    return `${prefix}${item.yearFrom}`;
   }
   return item.year || NO_YEAR;
 };
 
-export const formatDisplayEditors = (item: Item) => {
-  if (!isManuscriptItem(item)) {
-    return joinArr(item.editors) || NO_EDITOR;
-  }
-
-  if (item.class && item.subclass) {
-    return `${item.class}: ${item.subclass}`;
-  }
-  return item.class || item.subclass || NO_EDITOR;
-};
+export const formatDisplayEditors = (item: Item) =>
+  joinArr(item.editors) || NO_EDITOR;
 
 export const formatDisplayBooks = (item: Item) => {
   if (isManuscriptItem(item)) {
