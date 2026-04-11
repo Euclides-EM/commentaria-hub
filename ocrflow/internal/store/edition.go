@@ -157,8 +157,19 @@ func (s *EditionCSV) UpsertEdition(ed *model.Edition, user string) error {
 }
 
 func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
+	langs := make([]string, len(ed.Languages))
+	for i, l := range ed.Languages {
+		langs[i] = strings.ToUpper(l)
+	}
 	row := map[string]string{
 		"key":                ed.Key,
+		"class":              ed.ManuscriptClass,
+		"subclass":           formatcov.PtrToStr(ed.ManuscriptSubclass),
+		"repository":         formatcov.PtrToStr(ed.ManuscriptRepository),
+		"city":               strings.Join(ed.Cities, ", "),
+		"languages":          strings.Join(langs, ", "),
+		"compositors":        strings.Join(ed.Compositors, ", "),
+		"long_title":         formatcov.PtrToStr(ed.Title),
 		"short_title":        ed.ShortTitle,
 		"short_title_source": ed.ShortTitleSource,
 		"year_from":          formatcov.IntPtrToStr(ed.ManuscriptYearFrom),
@@ -186,6 +197,8 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 		}); err != nil {
 			return fmt.Errorf("Error upserting manuscript metadata: %v\n", err)
 		}
+	} else if err := csv.DeleteRows(s.csvPath(relMDManuscript), "key", ed.Key); err != nil {
+		return fmt.Errorf("Error deleting manuscript metadata: %v\n", err)
 	}
 	return nil
 }
@@ -525,13 +538,19 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
+		ed.ManuscriptClass = itemRow["class"]
+		ed.ManuscriptSubclass = formatcov.StrToPtr(itemRow["subclass"])
+		ed.ManuscriptRepository = formatcov.StrToPtr(itemRow["repository"])
+		ed.Cities = splitNonEmpty(itemRow["city"])
+		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["languages"]))
+		ed.Compositors = splitNonEmpty(itemRow["compositors"])
+		ed.Title = formatcov.StrToPtr(itemRow["long_title"])
 		_, mdRows, _ := csv.LoadCSVRecords(s.csvPath(relMDManuscript))
 		if md := findRowByKey(mdRows, "key", key); md != nil {
 			ed.IsElements = true
 			ed.ManuscriptClass = md["class"]
 			ed.ManuscriptSubclass = formatcov.StrToPtr(md["subclass"])
 			ed.ManuscriptElementsBooks = formatcov.StrToPtr(md["elements_books"])
-			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 		}
 	} else {
 		ed.Cities = splitNonEmpty(itemRow["city"])
@@ -805,12 +824,18 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 	if isManuscript {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
+		ed.ManuscriptClass = itemRow["class"]
+		ed.ManuscriptSubclass = formatcov.StrToPtr(itemRow["subclass"])
+		ed.ManuscriptRepository = formatcov.StrToPtr(itemRow["repository"])
+		ed.Cities = splitNonEmpty(itemRow["city"])
+		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["languages"]))
+		ed.Compositors = splitNonEmpty(itemRow["compositors"])
+		ed.Title = formatcov.StrToPtr(itemRow["long_title"])
 		if md := findRowByKey(p.mdManuscript, "key", key); md != nil {
 			ed.IsElements = true
 			ed.ManuscriptClass = md["class"]
 			ed.ManuscriptSubclass = formatcov.StrToPtr(md["subclass"])
 			ed.ManuscriptElementsBooks = formatcov.StrToPtr(md["elements_books"])
-			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
 		}
 	} else {
 		ed.Cities = splitNonEmpty(itemRow["city"])

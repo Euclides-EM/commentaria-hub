@@ -15,6 +15,7 @@ export type model_Edition = {
     cities?: Array<string>;
     colophon?: string;
     colophon_EN?: string;
+    compositors?: Array<string>;
     corpus?: Array<string>;
     diagramCropsAvailable?: boolean;
     editor?: Array<string>;
@@ -36,6 +37,7 @@ export type model_Edition = {
     languages?: Array<string>;
     manuscriptClass?: string;
     manuscriptElementsBooks?: string;
+    manuscriptRepository?: string;
     manuscriptSubclass?: string;
     manuscriptYearFrom?: number;
     manuscriptYearTo?: number;

@@ -189,6 +189,9 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 	if ed.ManuscriptElementsBooks != nil {
 		addNote("manuscriptElementsBooks", *ed.ManuscriptElementsBooks)
 	}
+	if ed.ManuscriptRepository != nil {
+		addNote("manuscriptRepository", *ed.ManuscriptRepository)
+	}
 
 	if ed.USTCId != nil {
 		addNote("ustcId", *ed.USTCId)
@@ -199,6 +202,9 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 
 	if len(ed.Languages) > 0 {
 		addNote("languages", strings.Join(nonEmptyStrings(ed.Languages), ", "))
+	}
+	if len(ed.Compositors) > 0 {
+		addNote("compositors", strings.Join(nonEmptyStrings(ed.Compositors), ", "))
 	}
 	if len(ed.Corpus) > 0 {
 		addNote("corpus", strings.Join(nonEmptyStrings(ed.Corpus), ", "))
