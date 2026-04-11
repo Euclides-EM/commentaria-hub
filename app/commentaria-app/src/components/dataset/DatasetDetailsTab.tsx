@@ -128,7 +128,7 @@ export function DatasetDetailsTab({
                   message="Dataset is being created..."
                 />
                 <p className="mt-2 text-sm text-gray-600">
-                  You can select another dataset from the sidebar. This one will
+                  You can select another dataset from the navbar. This one will
                   be ready once creation finishes.
                 </p>
               </div>

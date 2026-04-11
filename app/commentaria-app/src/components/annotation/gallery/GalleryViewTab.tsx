@@ -724,7 +724,7 @@ export function GalleryViewTab() {
 
   const showText = viewMode === 'texts' || viewMode === 'side-by-side'
   const showImage = viewMode === 'images' || viewMode === 'side-by-side'
-  const ocred = !!annotation?.ocred
+  const segmented = !!annotation?.segmented
 
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE)
   const sentinelRef = useRef<HTMLDivElement | null>(null)
@@ -781,10 +781,12 @@ export function GalleryViewTab() {
   }, [datasetId, annotationId])
 
   const pagesToFetch = useMemo(() => {
-    if (!ocred) return []
+    if (!segmented) {
+      return []
+    }
     return visiblePages.filter((p) => !fetchedPageSetRef.current.has(p))
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(visiblePages), ocred])
+  }, [JSON.stringify(visiblePages), segmented])
   const pendingTeiPageSet = useMemo(() => new Set(pagesToFetch), [pagesToFetch])
 
   pagesToFetchRef.current = pagesToFetch

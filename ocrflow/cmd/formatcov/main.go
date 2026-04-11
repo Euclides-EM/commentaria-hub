@@ -66,19 +66,19 @@ func run(inputPath, outputDir, pageRange string, dpi float64) error {
 	}
 	defer os.RemoveAll(rawDir)
 
-	deskewDir, err := futils.MkdirTemp("formatcov-deskew")
+	denoiseDir, err := futils.MkdirTemp("formatcov-denoise")
 	if err != nil {
-		return fmt.Errorf("create deskew temp dir: %w", err)
+		return fmt.Errorf("create denoise temp dir: %w", err)
 	}
-	defer os.RemoveAll(deskewDir)
+	defer os.RemoveAll(denoiseDir)
 
 	if err := prepareInputPNGs(inputPath, rawDir, dpi, pages); err != nil {
 		return err
 	}
-	if err := formatcov.DeskewPNGs(rawDir, deskewDir); err != nil {
+	if err := formatcov.DenoisePNGs(rawDir, denoiseDir); err != nil {
 		return err
 	}
-	if err := formatcov.DenoisePNGs(deskewDir, outputDir); err != nil {
+	if err := formatcov.DeskewPNGs(denoiseDir, outputDir); err != nil {
 		return err
 	}
 

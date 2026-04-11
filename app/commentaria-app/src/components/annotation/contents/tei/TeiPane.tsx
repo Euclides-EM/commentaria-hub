@@ -105,19 +105,20 @@ export function TeiPane({
   const [forcedChangedFeatureIds, setForcedChangedFeatureIds] = useState<
     string[]
   >([])
-  const ocred = !!annotation?.ocred
+  const segmented =
+    !!annotation?.segmented || datasetId === TITLE_PAGES_DATASET_ID
   const editionId = dataset?.edition_id
 
   const candidateSources = useMemo(() => {
     const sources: Array<'annotation' | 'edition'> = []
-    if (ocred) {
+    if (segmented) {
       sources.push('annotation')
     }
     if (editionId) {
       sources.push('edition')
     }
     return sources
-  }, [editionId, ocred])
+  }, [editionId, segmented])
 
   const [storedTeiSource, setStoredTeiSource] = useLocalStorageState<
     'annotation' | 'edition'
@@ -152,7 +153,7 @@ export function TeiPane({
 
   const availableSources = useMemo(() => {
     const sources: Array<'annotation' | 'edition'> = []
-    if (ocred && annotationTeiQuery.isSuccess && annotationTeiQuery.data) {
+    if (segmented && annotationTeiQuery.isSuccess && annotationTeiQuery.data) {
       sources.push('annotation')
     }
     if (editionId && editionTeiQuery.isSuccess && editionTeiQuery.data) {
@@ -161,7 +162,7 @@ export function TeiPane({
     return sources
   }, [
     editionId,
-    ocred,
+    segmented,
     annotationTeiQuery.data,
     annotationTeiQuery.isSuccess,
     editionTeiQuery.data,
@@ -549,16 +550,16 @@ export function TeiPane({
   const unsavedFeatureCount = changedFeatureIds.length
   const hasUnsavedChanges = unsavedFeatureCount > 0
 
-  const showPane = ocred || !!editionId
+  const showPane = annotation?.ocred || datasetId === TITLE_PAGES_DATASET_ID
   const annotationSourceFailed =
-    ocred && annotationTeiQuery.isError && !annotationTeiQuery.data
+    segmented && annotationTeiQuery.isError && !annotationTeiQuery.data
   const editionSourceFailed =
     !!editionId && editionTeiQuery.isError && !editionTeiQuery.data
   const allCandidateSourcesFailed =
-    (ocred ? annotationSourceFailed : true) &&
+    (segmented ? annotationSourceFailed : true) &&
     (editionId ? editionSourceFailed : true)
   const isFetchingCandidateSource =
-    (ocred && annotationTeiQuery.isFetching) ||
+    (segmented && annotationTeiQuery.isFetching) ||
     (!!editionId && editionTeiQuery.isFetching)
 
   const saveMutation = useMutation({
