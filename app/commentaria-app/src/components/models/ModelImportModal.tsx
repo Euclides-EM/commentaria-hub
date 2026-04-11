@@ -9,6 +9,7 @@ import { LoadingSpinner } from '../core/LoadingSpinner'
 import { selectStyles } from '../../styles/selectStyles'
 import { useDatasetsQuery } from '../../queries/datasets'
 import { useAnnotationsQuery } from '../../queries/annotations'
+import { useAnnotationGroupsQuery } from '../../queries/annotationGroups'
 
 interface ModelImportModalProps {
   isOpen: boolean
@@ -37,6 +38,11 @@ const emptyRow = (id: number): BaseAnnotationRow => ({
   annotationId: null,
 })
 
+type AnnotationGroupOption = {
+  value: string
+  label: string
+}
+
 export function ModelImportModal({
   isOpen,
   models,
@@ -49,12 +55,14 @@ export function ModelImportModal({
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [baseModelId, setBaseModelId] = useState<string | null>(null)
+  const [selectedBaseGroupIds, setSelectedBaseGroupIds] = useState<string[]>([])
   const [baseAnnotationRows, setBaseAnnotationRows] = useState<
     BaseAnnotationRow[]
   >([])
   const [rowCounter, setRowCounter] = useState(0)
   const [error, setError] = useState<string | null>(null)
   const { data: datasets } = useDatasetsQuery()
+  const { data: annotationGroups } = useAnnotationGroupsQuery()
 
   const baseModelOptions = useMemo(() => {
     return models
@@ -64,6 +72,22 @@ export function ModelImportModal({
         label: model.name || (model.id as string),
       }))
   }, [models])
+
+  const annotationGroupOptions = useMemo<AnnotationGroupOption[]>(() => {
+    return (annotationGroups ?? [])
+      .filter((group) => group.id)
+      .map((group) => {
+        const count =
+          group.annotations?.filter(
+            (annotation) => annotation.dataset_id && annotation.id,
+          ).length ?? 0
+
+        return {
+          value: group.id as string,
+          label: `${group.name || (group.id as string)}${count ? ` (${count})` : ''}`,
+        }
+      })
+  }, [annotationGroups])
 
   const handleSubmit = (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault()
@@ -83,10 +107,31 @@ export function ModelImportModal({
       setError('Please select both dataset and annotation for each base row.')
       return
     }
+    const explicitAnnotations = baseAnnotationRows
+      .filter(
+        (
+          row,
+        ): row is BaseAnnotationRow & {
+          datasetId: string
+          annotationId: string
+        } => !!row.datasetId && !!row.annotationId,
+      )
+      .map((row) => `${row.datasetId}:${row.annotationId}`)
+
+    const annotationsFromGroups = selectedBaseGroupIds.flatMap((groupId) => {
+      return (
+        annotationGroups
+          ?.find((group) => group.id === groupId)
+          ?.annotations?.flatMap((annotation) =>
+            annotation.dataset_id && annotation.id
+              ? [`${annotation.dataset_id}:${annotation.id}`]
+              : [],
+          ) ?? []
+      )
+    })
+
     const baseAnnotations = Array.from(
-      new Set(
-        baseAnnotationRows.map((row) => `${row.datasetId}:${row.annotationId}`),
-      ),
+      new Set([...explicitAnnotations, ...annotationsFromGroups]),
     ).join(',')
     onSubmit({
       file,
@@ -209,6 +254,32 @@ export function ModelImportModal({
             />
           </div>
 
+          <div className="space-y-2">
+            <label className="block text-sm font-medium text-gray-700">
+              Base annotation groups (optional)
+            </label>
+            <Select
+              value={annotationGroupOptions.filter((option) =>
+                selectedBaseGroupIds.includes(option.value),
+              )}
+              onChange={(options) =>
+                setSelectedBaseGroupIds(
+                  (options ?? []).map((option) => option.value),
+                )
+              }
+              options={annotationGroupOptions}
+              placeholder="Select groups..."
+              isDisabled={isSaving}
+              styles={selectStyles<AnnotationGroupOption>({
+                controlWidth: 320,
+                isMulti: true,
+              })}
+              menuPortalTarget={document.body}
+              menuPosition="fixed"
+              isMulti
+            />
+          </div>
+
           <ListAdder
             label="Base annotations (optional)"
             items={baseAnnotationRows}
@@ -307,7 +378,10 @@ function BaseAnnotationPicker({
           null
         }
         onChange={(option: { value: string; label: string } | null) =>
-          onChange({ datasetId: option?.value || null, annotationId: null })
+          onChange({
+            datasetId: option?.value || null,
+            annotationId: null,
+          })
         }
         options={datasetOptions}
         placeholder="Select dataset..."
