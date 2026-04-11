@@ -65,9 +65,6 @@ export const useAppliedFilter = () => {
   return context;
 };
 
-const finiteFallback = (value: number, fallback: number) =>
-  Number.isFinite(value) ? value : fallback;
-
 export const FilterAppliedProvider = ({
   children,
 }: {
@@ -81,15 +78,8 @@ export const FilterAppliedProvider = ({
     () => mapEditionsToItems(editionsQuery.data || []),
     [editionsQuery.data],
   );
-  const [minYear, maxYear] = useMemo(() => {
-    const years = data
-      .filter((t) => !!t.year)
-      .map((t) => parseInt(t.year!.split("/")[0]));
-    return [
-      finiteFallback(Math.min(...years), MIN_YEAR),
-      finiteFallback(Math.max(...years), MAX_YEAR),
-    ];
-  }, [data]);
+  const minYear = MIN_YEAR;
+  const maxYear = MAX_YEAR;
 
   const getDefaultState = useCallback((): FilterState => {
     return {
