@@ -342,6 +342,19 @@ export function AnnotationsTable() {
 
   const selectedCount = Object.keys(effectiveSelectedTargets).length
   const selectedRows = Object.values(effectiveSelectedTargets)
+  const rowsByKey = useMemo(
+    () => new Map(rows.map((row) => [rowKey(row), row])),
+    [rows],
+  )
+  const selectedAnnotationRows = useMemo(
+    () =>
+      selectedRows
+        .map((target) =>
+          rowsByKey.get(`${target.datasetId}:${target.annotationId}`),
+        )
+        .filter((row): row is AnnotationRow => row !== undefined),
+    [rowsByKey, selectedRows],
+  )
   const selectedReferences = useMemo(
     () =>
       selectedRows.map((target) => ({
@@ -350,6 +363,40 @@ export function AnnotationsTable() {
       })),
     [selectedRows],
   )
+  const categorySourceRows =
+    selectedCount > 0 ? selectedAnnotationRows : sortedRows
+  const categoryQueries = useQueries({
+    queries: categorySourceRows.map((row) => ({
+      queryKey: [
+        'annotations',
+        row.datasetId,
+        row.annotation.id,
+        'categories',
+      ] as const,
+      queryFn: () =>
+        AnnotationsService.getDatasetsAnnotationsCategories({
+          dataSetId: row.datasetId,
+          id: row.annotation.id || '',
+        }),
+      enabled: !!row.datasetId && !!row.annotation.id,
+    })),
+  })
+  const categoriesLoading =
+    categorySourceRows.length > 0 &&
+    categoryQueries.some((query) => query.isLoading)
+  const categoriesError =
+    categoryQueries.find((query) => query.error)?.error?.toString() || null
+  const aggregatedCategories = useMemo(() => {
+    const categories = new Set<string>()
+    categoryQueries.forEach((query) => {
+      query.data?.forEach((category) => {
+        if (category) {
+          categories.add(category)
+        }
+      })
+    })
+    return [...categories].sort((a, b) => a.localeCompare(b))
+  }, [categoryQueries])
   const allVisibleSelected =
     sortedRows.length > 0 &&
     sortedRows.every(
@@ -713,7 +760,7 @@ export function AnnotationsTable() {
 
   return (
     <div className="w-full h-full flex flex-col px-8">
-      <div className="px-6 py-4 border-b border-gray-200 bg-white cursor-default">
+      <div className="px-6 py-4 border-b border-gray-200 bg-white">
         <div className="flex flex-wrap items-center gap-4">
           <div className="mr-2">
             <h2 className="text-lg font-semibold text-gray-900">Annotations</h2>
@@ -746,7 +793,7 @@ export function AnnotationsTable() {
               getItemLabel={(stage) => getStageDisplayName(stage)}
             />
           )}
-          <label className="flex items-center gap-2 text-sm text-gray-700 cursor-default">
+          <label className="flex items-center gap-2 text-sm text-gray-700">
             <span>Ground truth</span>
             <select
               value={groundTruthFilter}
@@ -761,7 +808,7 @@ export function AnnotationsTable() {
               <option value="false">Not ground truth</option>
             </select>
           </label>
-          <label className="flex items-center gap-2 text-sm text-gray-700 cursor-default">
+          <label className="flex items-center gap-2 text-sm text-gray-700">
             <span>Hidden</span>
             <select
               value={hiddenFilter}
@@ -821,6 +868,48 @@ export function AnnotationsTable() {
               </Button>
             </>
           )}
+        </div>
+        <div className="mt-3 flex items-center gap-3">
+          <div className="font-semibold text-xs opacity-80 shrink-0">
+            Categories
+          </div>
+          <div className="min-w-0 flex-1 text-sm leading-tight break-all">
+            {categoriesLoading ? (
+              <span className="text-gray-500">Loading…</span>
+            ) : categoriesError ? (
+              <span className="text-red-600">{categoriesError}</span>
+            ) : aggregatedCategories.length > 0 ? (
+              <div className="flex flex-wrap gap-1">
+                {aggregatedCategories.map((category) => (
+                  <span
+                    key={category}
+                    className="inline-flex items-center rounded bg-gray-200 px-1.5 py-0.5 text-xs font-medium text-gray-800"
+                  >
+                    {category}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <span className="text-gray-500">None</span>
+            )}
+          </div>
+          <div className="shrink-0">
+            {aggregatedCategories.length > 0 &&
+              !categoriesLoading &&
+              !categoriesError && (
+                <Button
+                  type="button"
+                  onClick={() =>
+                    void navigator.clipboard.writeText(
+                      aggregatedCategories.join(', '),
+                    )
+                  }
+                  className="px-2 py-1 text-xs"
+                >
+                  Copy
+                </Button>
+              )}
+          </div>
         </div>
       </div>
 
@@ -980,7 +1069,13 @@ export function AnnotationsTable() {
                                             : '▼'}
                                         </span>
                                       </button>
-                                      <div className="font-semibold truncate">
+                                      <button
+                                        type="button"
+                                        onClick={() =>
+                                          toggleSectionCollapsed(section)
+                                        }
+                                        className="font-semibold truncate text-left hover:text-gray-900"
+                                      >
                                         {section.group
                                           ? section.group.name ||
                                             section.group.id
@@ -988,7 +1083,7 @@ export function AnnotationsTable() {
                                         <span className="ml-2 font-normal text-gray-500">
                                           ({section.rows.length})
                                         </span>
-                                      </div>
+                                      </button>
                                     </div>
                                     {showGroupMutationControls &&
                                       section.group && (
