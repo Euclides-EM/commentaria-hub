@@ -65,9 +65,6 @@ export const useAppliedFilter = () => {
   return context;
 };
 
-const finiteFallback = (value: number, fallback: number) =>
-  Number.isFinite(value) ? value : fallback;
-
 const includesManuscripts = (
   filters: Record<string, FilterValue[] | undefined>,
   filtersInclude: Record<string, boolean>,
@@ -103,15 +100,6 @@ export const FilterAppliedProvider = ({
     () => mapEditionsToItems(editionsQuery.data || []),
     [editionsQuery.data],
   );
-  const [dataMinYear, dataMaxYear] = useMemo(() => {
-    const years = data
-      .filter((t) => !!t.year)
-      .map((t) => parseInt(t.year!.split("/")[0]));
-    return [
-      finiteFallback(Math.min(...years), MIN_YEAR),
-      finiteFallback(Math.max(...years), MAX_YEAR),
-    ];
-  }, [data]);
 
   const getDefaultState = useCallback((): FilterState => {
     return {
@@ -130,12 +118,12 @@ export const FilterAppliedProvider = ({
         ],
       } as Record<string, FilterValue[] | undefined>,
       filtersInclude: {},
-      range: [dataMinYear || 0, dataMaxYear || 9999] as [number, number],
+      range: [MIN_YEAR, MAX_YEAR] as [number, number],
       includeUndated: true,
       textSearch: "",
       textSearchFields: ["shortTitle", "title", "titleEn"] as (keyof Item)[],
     };
-  }, [dataMinYear, dataMaxYear]);
+  }, []);
   const [queryFilters, setQueryFilters] = useQueryStates(filterQueryParsers, {
     history: "replace",
   });
@@ -164,11 +152,11 @@ export const FilterAppliedProvider = ({
   const minYear = useMemo(
     () =>
       includesManuscripts(appliedFilters.filters, appliedFilters.filtersInclude)
-        ? Math.min(dataMinYear, MIN_YEAR_MS)
-        : dataMinYear,
-    [appliedFilters.filters, appliedFilters.filtersInclude, dataMinYear],
+        ? MIN_YEAR_MS
+        : MIN_YEAR,
+    [appliedFilters.filters, appliedFilters.filtersInclude],
   );
-  const maxYear = dataMaxYear;
+  const maxYear = MAX_YEAR;
 
   const [hasUnappliedChanges, setHasUnappliedChanges] = useState(false);
 
