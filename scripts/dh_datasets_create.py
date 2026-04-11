@@ -5,7 +5,6 @@ import json
 import os
 import random
 import re
-import shlex
 import sys
 import urllib.error
 import urllib.request
@@ -19,14 +18,18 @@ CORPUSES_CSV_PATH = REPO_ROOT / "ocrflow" / "store" / "items_metadata" / "corpus
 HTTP_TIMEOUT_SECONDS = 60
 DEFAULT_DPI = 300
 SLICE_PAGE_COUNT = 50
+PAGE_SELECTION_EDGE_EXCLUSION_RATIO = 0.05
+DATASET_READY_WAIT_INTERVAL_SECONDS = 10
+DATASET_READY_TIMEOUT_SECONDS = 15 * 60
 AUTH_TOKEN_ENV_VAR = "GITHUB_TOKEN"
 
 
 def main() -> int:
     require_auth_token()
     page_counts_by_edition_id = load_page_counts()
+    existing_base_pages_by_dataset_name = load_existing_base_pages_by_dataset_name()
     print_shell_method()
-    task_count = collect_tasks(page_counts_by_edition_id)
+    task_count = collect_tasks(page_counts_by_edition_id, existing_base_pages_by_dataset_name)
     if not task_count:
         print("No matching facsimiles found for dh corpuses.")
         return 0
@@ -34,7 +37,10 @@ def main() -> int:
     return 0
 
 
-def collect_tasks(page_counts_by_edition_id: Dict[str, int]) -> int:
+def collect_tasks(
+        page_counts_by_edition_id: Dict[str, int],
+        existing_base_pages_by_dataset_name: Dict[str, str],
+) -> int:
     csv_keys = load_dh_keys()
     facsimiles = fetch_json("GET", "/api/v1/facsimilies")
     if not isinstance(facsimiles, list):
@@ -53,7 +59,7 @@ def collect_tasks(page_counts_by_edition_id: Dict[str, int]) -> int:
             "facsimile_id": facsimile_id,
         }
 
-    task_count = 0
+    tasks_to_print: List[Dict[str, str]] = []
     for key in csv_keys:
         matches = [
             facsimiles_by_edition_id[edition_id]
@@ -63,10 +69,12 @@ def collect_tasks(page_counts_by_edition_id: Dict[str, int]) -> int:
             print(f"Warning: no facsimile found for key {key}", file=sys.stderr)
             continue
         for task in matches:
-            print_task_command(task, page_counts_by_edition_id)
-            task_count += 1
+            tasks_to_print.append(task)
 
-    return task_count
+    for task in sorted(tasks_to_print, key=task_dataset_name):
+        print_task_command(task, page_counts_by_edition_id, existing_base_pages_by_dataset_name)
+
+    return len(tasks_to_print)
 
 
 def load_dh_keys() -> List[str]:
@@ -145,7 +153,15 @@ def choose_pages(edition_id: str, page_counts_by_edition_id: Dict[str, int]) -> 
         fail(f"Missing page count for edition_id {edition_id!r} in {PAGE_COUNTS_CSV_URL}.")
     if total_pages <= SLICE_PAGE_COUNT:
         return f"1-{total_pages}"
-    selected_pages = sorted(random.sample(range(1, total_pages + 1), SLICE_PAGE_COUNT))
+
+    edge_exclusion_count = int(total_pages * PAGE_SELECTION_EDGE_EXCLUSION_RATIO)
+    start_page = 1 + edge_exclusion_count
+    end_page = total_pages - edge_exclusion_count
+    selectable_pages = list(range(start_page, end_page + 1))
+    if len(selectable_pages) < SLICE_PAGE_COUNT:
+        selectable_pages = list(range(1, total_pages + 1))
+
+    selected_pages = sorted(random.sample(selectable_pages, SLICE_PAGE_COUNT))
     return ",".join(str(page) for page in selected_pages)
 
 
@@ -154,31 +170,113 @@ def print_shell_method() -> None:
     print("  local name=\"$1\"")
     print("  local facsimile_id=\"$2\"")
     print("  local pages=\"$3\"")
-    print("  curl -X POST \\")
+    print("  local response")
+    print("  local dataset_id")
+    print("  local started_at")
+    print("  local now")
+    print("  local status")
+    print("  local creation_error")
+    print("  echo \"Creating dataset ${name} with facsimile ${facsimile_id} and pages ${pages}\"")
+    print("  response=$(curl -fsS -X POST \\")
     print("    -H 'Accept: application/json' \\")
     print("    -H 'Content-Type: application/json' \\")
     print(f'    -H "Authorization: Bearer ${AUTH_TOKEN_ENV_VAR}" \\')
-    print(f"    '{BASE_URL}/api/v1/datasets?create_default_annotation=true' \\")
+    print(f"    '{BASE_URL}/api/v1/datasets?create_default_annotation=true&async=true' \\")
     print("    -d @- <<EOF")
     print("{")
-    print('  "name": "'"'"'${name}'"'"'",')
+    print('  "name": "${name}",')
     print(f'  "dpi": {DEFAULT_DPI},')
-    print('  "facsimile_id": "'"'"'${facsimile_id}'"'"'",')
+    print('  "facsimile_id": "${facsimile_id}",')
     print('  "deskewed": true,')
     print('  "denoised": true,')
-    print('  "pages": "'"'"'${pages}'"'"'"')
+    print('  "pages": "${pages}"')
     print("}")
     print("EOF")
+    print("  ) || exit 1")
+    print("  dataset_id=$(printf '%s' \"$response\" | python3 -c 'import json, sys; print(json.load(sys.stdin).get(\"id\", \"\"))') || exit 1")
+    print("  if [ -z \"$dataset_id\" ]; then")
+    print("    echo \"Failed to extract dataset id from create response\" >&2")
+    print("    exit 1")
+    print("  fi")
+    print("  started_at=$(date +%s)")
+    print("  while true; do")
+    print("    response=$(curl -fsS \\")
+    print("      -H 'Accept: application/json' \\")
+    print(f'      -H "Authorization: Bearer ${AUTH_TOKEN_ENV_VAR}" \\')
+    print(f"      '{BASE_URL}/api/v1/datasets') || exit 1")
+    print("    status=$(printf '%s' \"$response\" | python3 -c 'import json, sys; dataset_id = sys.argv[1]; datasets = json.load(sys.stdin); match = next((dataset for dataset in datasets if dataset.get(\"id\") == dataset_id), None); print((match or {}).get(\"status\", \"\"))' \"$dataset_id\") || exit 1")
+    print("    if [ \"$status\" = \"ready\" ]; then")
+    print("      break")
+    print("    fi")
+    print("    if [ \"$status\" = \"failed\" ]; then")
+    print("      creation_error=$(printf '%s' \"$response\" | python3 -c 'import json, sys; dataset_id = sys.argv[1]; datasets = json.load(sys.stdin); match = next((dataset for dataset in datasets if dataset.get(\"id\") == dataset_id), None); print((match or {}).get(\"creation_error\", \"\"))' \"$dataset_id\") || exit 1")
+    print("      echo \"Dataset creation failed for ${name}: ${creation_error}\" >&2")
+    print("      exit 1")
+    print("    fi")
+    print("    now=$(date +%s)")
+    print(f"    if [ $((now - started_at)) -ge {DATASET_READY_TIMEOUT_SECONDS} ]; then")
+    print(f"      echo \"Timed out waiting for dataset ${{name}} to become ready after {DATASET_READY_TIMEOUT_SECONDS} seconds\" >&2")
+    print("      exit 1")
+    print("    fi")
+    print(f"    sleep {DATASET_READY_WAIT_INTERVAL_SECONDS}")
+    print("  done")
     print("}")
     print()
 
 
-def print_task_command(task: Dict[str, str], page_counts_by_edition_id: Dict[str, int]) -> None:
-    pages = choose_pages(task["edition_id"], page_counts_by_edition_id)
-    dataset_name = shell_quote(f'DH_Sliced_{task["edition_id"]}')
-    facsimile_id = shell_quote(task["facsimile_id"])
-    pages_arg = shell_quote(pages)
+def print_task_command(
+        task: Dict[str, str],
+        page_counts_by_edition_id: Dict[str, int],
+        existing_base_pages_by_dataset_name: Dict[str, str],
+) -> None:
+    dataset_name_raw = task_dataset_name(task)
+    pages = existing_base_pages_by_dataset_name.get(dataset_name_raw)
+    if not pages:
+        pages = choose_pages(task["edition_id"], page_counts_by_edition_id)
+    dataset_name = shell_double_quote(dataset_name_raw)
+    facsimile_id = shell_double_quote(task["facsimile_id"])
+    pages_arg = shell_double_quote(pages)
     print(f"create_dataset \"{dataset_name}\" \"{facsimile_id}\" \"{pages_arg}\"")
+
+
+def task_dataset_name(task: Dict[str, str]) -> str:
+    return f'DH_Sliced_{task["edition_id"]}'
+
+
+def load_existing_base_pages_by_dataset_name() -> Dict[str, str]:
+    datasets = fetch_json("GET", "/api/v1/datasets")
+    if not isinstance(datasets, list):
+        fail("Expected datasets response to be a JSON array.")
+
+    base_pages_by_dataset_name: Dict[str, str] = {}
+    for dataset in datasets:
+        if not isinstance(dataset, dict):
+            fail("Expected each dataset to be a JSON object.")
+        dataset_id = (dataset.get("id") or "").strip()
+        dataset_name = (dataset.get("name") or "").strip()
+        if not dataset_id or not dataset_name or dataset_name in base_pages_by_dataset_name:
+            continue
+        pages = load_base_annotation_pages(dataset_id)
+        if pages:
+            base_pages_by_dataset_name[dataset_name] = pages
+    return base_pages_by_dataset_name
+
+
+def load_base_annotation_pages(dataset_id: str) -> Optional[str]:
+    annotations = fetch_json("GET", f"/api/v1/datasets/{dataset_id}/annotations")
+    if not isinstance(annotations, list):
+        return None
+
+    for annotation in annotations:
+        if not isinstance(annotation, dict):
+            fail(f"Expected each annotation for dataset {dataset_id!r} to be a JSON object.")
+        if (annotation.get("name") or "").strip() != "Base":
+            continue
+        pages = (annotation.get("pages") or "").strip()
+        if pages:
+            return pages
+        return None
+    return None
 
 
 def fetch_json(
@@ -218,8 +316,8 @@ def fetch_json(
         fail(f"{method} {url} returned invalid JSON: {exc}")
 
 
-def shell_quote(value: str) -> str:
-    return shlex.quote(value)
+def shell_double_quote(value: str) -> str:
+    return value.replace("\\", "\\\\").replace('"', '\\"')
 
 
 def require_auth_token() -> str:
