@@ -138,13 +138,23 @@ tmp_manifest="$(mktemp)"
 scp_remote "${tmp_manifest}" "${REMOTE_HOST}:${REMOTE_RUN_DIR}/manifest.env"
 rm -f "${tmp_manifest}"
 
-log "==> Submitting job..."
-ssh_remote "${REMOTE_HOST}" "
-  cd ${REMOTE_RUN_DIR}
-  sbatch ${REMOTE_ROOT}/job.sbatch
-"
+log "Submitting job..."
+JOB_ID=$(ssh_remote "${REMOTE_HOST}" "
+  cd ${REMOTE_RUN_DIR} && sbatch ${REMOTE_ROOT}/job.sbatch
+" | awk '{print $4}')
 
 echo
 log "Job submitted successfully."
 echo "Run name: ${RUN_NAME}"
 echo "Remote directory: ${REMOTE_RUN_DIR}"
+echo "SLURM Job ID: ${JOB_ID}"
+echo
+
+TAIL_CMD="tail -f ${REMOTE_RUN_DIR}/logs/kraken_train_${JOB_ID}.*"
+SSH_TAIL_CMD="ssh ${REMOTE_HOST} \"${TAIL_CMD}\""
+
+echo "To monitor logs locally:"
+echo "  ${SSH_TAIL_CMD}"
+echo
+echo "To monitor logs after logging in:"
+echo "  ${TAIL_CMD}"
