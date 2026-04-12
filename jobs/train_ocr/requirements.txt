@@ -1,0 +1,23 @@
+# Core OCR engine
+kraken>=5.3.0
+
+# Deep learning backend
+torch>=2.1.0
+
+# Numerical and scientific computing
+numpy>=1.23
+
+# Image processing
+Pillow>=9.0.0
+
+# XML parsing for ALTO files
+lxml>=4.9.0
+
+# Unicode normalization and utilities
+regex>=2023.0.0
+
+# Progress bars used by Kraken
+tqdm>=4.64.0
+
+# YAML support (useful for configuration and reproducibility)
+PyYAML>=6.0
