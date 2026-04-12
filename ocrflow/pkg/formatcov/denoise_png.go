@@ -112,6 +112,14 @@ const (
 	denoiseClusterMinNeighbors         = 3
 	denoiseClusterAreaRatioMax         = 4.0
 
+	denoiseRecoverLowC        = 5
+	denoiseRecoverZoneBase    = 15
+	denoiseRecoverZoneMin     = 9
+	denoiseRecoverMinAreaMult = 2
+	denoiseRecoverElongFactor = 6.0
+	denoiseRecoverMinMaxDim   = 25
+	denoiseLineLikeAreaFactor = 6.0
+
 	denoiseInkPercentile      = 10
 	denoiseInkDarkReference   = 110
 	denoiseInkOffsetMax       = 40
@@ -363,6 +371,87 @@ func DenoisePNGs(src, dst string) error {
 	return grp.Wait()
 }
 
+func recoverThinLines(cleaned gocv.Mat, blurred *gocv.Mat) (gocv.Mat, error) {
+	rows := blurred.Rows()
+	cols := blurred.Cols()
+
+	lowBinary := gocv.NewMat()
+	defer lowBinary.Close()
+	if err := gocv.AdaptiveThreshold(
+		*blurred, &lowBinary, 255,
+		gocv.AdaptiveThresholdGaussian,
+		gocv.ThresholdBinaryInv,
+		denoiseAdaptiveBlockSize(rows, cols),
+		float32(denoiseRecoverLowC),
+	); err != nil {
+		return gocv.Mat{}, err
+	}
+
+	invCleaned := gocv.NewMat()
+	defer invCleaned.Close()
+	if err := gocv.BitwiseNot(cleaned, &invCleaned); err != nil {
+		return gocv.Mat{}, err
+	}
+
+	candidates := gocv.NewMat()
+	defer candidates.Close()
+	if err := gocv.BitwiseAndWithMask(lowBinary, lowBinary, &candidates, invCleaned); err != nil {
+		return gocv.Mat{}, err
+	}
+
+	zoneSize := scaledOdd(denoiseRecoverZoneBase, denoiseScale(rows, cols), denoiseRecoverZoneMin)
+	zoneKernel := gocv.GetStructuringElement(
+		gocv.MorphRect,
+		image.Point{X: zoneSize, Y: zoneSize},
+	)
+	defer zoneKernel.Close()
+
+	zone := gocv.NewMat()
+	defer zone.Close()
+	if err := gocv.Dilate(cleaned, &zone, zoneKernel); err != nil {
+		return gocv.Mat{}, err
+	}
+
+	labels := gocv.NewMat()
+	defer labels.Close()
+	stats := gocv.NewMat()
+	defer stats.Close()
+	centroids := gocv.NewMat()
+	defer centroids.Close()
+
+	n := gocv.ConnectedComponentsWithStats(candidates, &labels, &stats, &centroids)
+
+	minArea := denoiseMinBlobArea(rows, cols) * denoiseRecoverMinAreaMult
+	touchesZone := make([]bool, n)
+	for r := 0; r < rows; r++ {
+		for c := 0; c < cols; c++ {
+			lbl := int(labels.GetIntAt(r, c))
+			if lbl <= 0 || lbl >= n || touchesZone[lbl] {
+				continue
+			}
+			if zone.GetUCharAt(r, c) != 0 {
+				touchesZone[lbl] = true
+			}
+		}
+	}
+
+	out := cleaned.Clone()
+	for r := 0; r < rows; r++ {
+		for c := 0; c < cols; c++ {
+			lbl := int(labels.GetIntAt(r, c))
+			if lbl <= 0 || lbl >= n || !touchesZone[lbl] {
+				continue
+			}
+			if int(stats.GetIntAt(lbl, 4)) < minArea {
+				continue
+			}
+			out.SetUCharAt(r, c, denoiseMaskColor)
+		}
+	}
+
+	return out, nil
+}
+
 func denoiseOne(inPath, outPath string) error {
 	img := gocv.IMRead(inPath, gocv.IMReadColor)
 	if img.Empty() {
@@ -566,7 +655,31 @@ func denoiseOne(inPath, outPath string) error {
 	}
 	defer cleaned.Close()
 
-	repaired, err := repairForegroundMask(cleaned)
+	repairInput := cleaned
+	var recoveredThin gocv.Mat
+	if !denoiseLowQuality(gray.Rows(), gray.Cols()) {
+		recoveredThin, err = recoverThinLines(cleaned, &blurred)
+		if err != nil {
+			return fmt.Errorf("recover thin lines: %w", err)
+		}
+		defer recoveredThin.Close()
+		repairInput = recoveredThin
+	}
+
+	exemptMask := gocv.Zeros(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U)
+	defer exemptMask.Close()
+	if !recoveredThin.Empty() {
+		invCleaned2 := gocv.NewMat()
+		defer invCleaned2.Close()
+		if err := gocv.BitwiseNot(cleaned, &invCleaned2); err != nil {
+			return fmt.Errorf("invert cleaned for exempt mask: %w", err)
+		}
+		if err := gocv.BitwiseAndWithMask(recoveredThin, recoveredThin, &exemptMask, invCleaned2); err != nil {
+			return fmt.Errorf("compute exempt mask: %w", err)
+		}
+	}
+
+	repaired, err := repairForegroundMask(repairInput)
 	if err != nil {
 		return fmt.Errorf("repair foreground mask: %w", err)
 	}
@@ -578,7 +691,7 @@ func denoiseOne(inPath, outPath string) error {
 	}
 	defer refined.Close()
 
-	out, err := applyForegroundMask(&normalized, refined, inPath)
+	out, err := applyForegroundMask(&normalized, refined, exemptMask, inPath)
 	if err != nil {
 		return fmt.Errorf("apply foreground mask: %w", err)
 	}
@@ -590,7 +703,7 @@ func denoiseOne(inPath, outPath string) error {
 	return nil
 }
 
-func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat, error) {
+func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, exemptMask gocv.Mat, inPath string) (gocv.Mat, error) {
 	supportKernel := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
 		image.Point{X: denoiseEnhanceSupportSize(gray.Rows(), gray.Cols()), Y: denoiseEnhanceSupportSize(gray.Rows(), gray.Cols())},
@@ -691,7 +804,7 @@ func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat
 		if bucketSize > denoiseInkBucketMax {
 			bucketSize = denoiseInkBucketMax
 		}
-		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, minBlobArea, inkOffset)
+		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, exemptMask, minBlobArea, inkOffset)
 		debugLogf("[%s] output blobs: kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, keptPixels, minBlobArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, bucketSize)
 	}
 
@@ -976,6 +1089,7 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 		if int(px.blended) <= denoiseBlobDarkAnchorGray {
 			darkAnchors++
 		}
+		minR, maxR, minC, maxC := px.r, px.r, px.c, px.c
 
 		for head := 0; head < len(queue); head++ {
 			currIdx := queue[head]
@@ -1004,6 +1118,18 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 				if neighborGray <= denoiseBlobDarkAnchorGray {
 					darkAnchors++
 				}
+				if rr < minR {
+					minR = rr
+				}
+				if rr > maxR {
+					maxR = rr
+				}
+				if cc < minC {
+					minC = cc
+				}
+				if cc > maxC {
+					maxC = cc
+				}
 			}
 		}
 
@@ -1012,7 +1138,8 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 			maxBlobArea = area
 		}
 		meanGray := float64(sumGray) / float64(area)
-		if keepBlobComponent(area, minArea, meanGray, darkAnchors, rows, cols) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
+		maxDim := maxInt(maxR-minR+1, maxC-minC+1)
+		if keepBlobComponent(area, minArea, meanGray, darkAnchors, rows, cols, maxDim) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
 			for _, idx := range component {
 				keep[idx] = true
 			}
@@ -1022,14 +1149,20 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 	return keep, maxBlobArea
 }
 
-func keepBlobComponent(area int, minArea int, meanGray float64, darkAnchors, rows, cols int) bool {
+func keepBlobComponent(area int, minArea int, meanGray float64, darkAnchors, rows, cols, maxDim int) bool {
 	if area < minArea {
 		return false
 	}
 	if meanGray <= blobMaxMeanGrayForArea(area, minArea) {
 		return true
 	}
-	return darkAnchors >= blobRequiredDarkAnchors(area, rows, cols)
+	if darkAnchors >= blobRequiredDarkAnchors(area, rows, cols) {
+		return true
+	}
+	if float64(area) < float64(maxDim)*denoiseLineLikeAreaFactor {
+		return true
+	}
+	return false
 }
 
 func keepEdgeBlobComponent(area int, meanGray float64, darkAnchors int, touchesSideMargin bool) bool {
@@ -1108,7 +1241,7 @@ func inkLightnessOffset(gray *gocv.Mat, mask gocv.Mat) int {
 	return offset
 }
 
-func filterOutputByBlobSize(mat *gocv.Mat, minArea int, inkOffset int) (int, int) {
+func filterOutputByBlobSize(mat *gocv.Mat, exemptMask gocv.Mat, minArea int, inkOffset int) (int, int) {
 	rows := mat.Rows()
 	cols := mat.Cols()
 
@@ -1117,6 +1250,9 @@ func filterOutputByBlobSize(mat *gocv.Mat, minArea int, inkOffset int) (int, int
 		for c := 0; c < cols; c++ {
 			v := mat.GetUCharAt(r, c)
 			if v >= denoiseMaskColor || v > denoiseBlobMaxGray {
+				continue
+			}
+			if exemptMask.GetUCharAt(r, c) != 0 {
 				continue
 			}
 			if v < denoiseBlobMinGray && !isMarginPixel(rows, cols, r, c) {
