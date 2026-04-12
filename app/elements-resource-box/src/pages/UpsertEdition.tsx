@@ -14,7 +14,7 @@ import type { model_Edition, model_USTC } from "@hub-api";
 import type { model_EditionLocator } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
-import { isNil, startCase, uniq, uniqueId } from "lodash";
+import { isNil, startCase, uniq, uniqBy, uniqueId } from "lodash";
 import { MultiSelect } from "../components/tps/filters/MultiSelect.tsx";
 import { SingleSelect } from "../components/tps/filters/SingleSelect.tsx";
 import { Row } from "../components/common.ts";
@@ -707,8 +707,10 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
       .sort(),
   );
 
-  const reprintOptions = editions
-    .filter((item) => item.key && !item.isManuscript)
+  const reprintOptions = uniqBy(
+    editions.filter((item) => item.key && !item.isManuscript),
+    (item) => item.key,
+  )
     .map((item) => ({
       value: item.key!,
       label: generateCitationWithShortTitle(item),
