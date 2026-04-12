@@ -93,11 +93,11 @@ func (s *EditionCSV) UpdateNotes(key, note string) error {
 		return fmt.Errorf("item with key %s not found", key)
 	}
 	if err := csv.SaveCSVRecords(s.csvPath(relItemsPrint), header, rows); err != nil {
-		return fmt.Errorf("Error saving updated notes: %v\n", err)
+		return fmt.Errorf("error saving updated notes: %w", err)
 	}
 	loaded, err := s.loadEditionByKey(key)
 	if err != nil {
-		return fmt.Errorf("Error reloading edition after notes update: %v\n", err)
+		return fmt.Errorf("error reloading edition after notes update: %w", err)
 	}
 	s.cacheStore.Set(key, loaded)
 	return nil
@@ -145,12 +145,12 @@ func (s *EditionCSV) UpsertEdition(ed *model.Edition, user string) error {
 			"researcher": user,
 			"timestamp":  time.Now().UTC().Format(time.RFC3339),
 		}, csv.IgnoreDuplicatesOptions()); err != nil {
-			return fmt.Errorf("Error upserting review: %v\n", err)
+			return fmt.Errorf("error upserting review: %w", err)
 		}
 	}
 	loaded, err := s.loadEditionByKey(ed.Key)
 	if err != nil {
-		return fmt.Errorf("Error reloading edition after notes update: %v\n", err)
+		return fmt.Errorf("error reloading edition after notes update: %w", err)
 	}
 	s.cacheStore.Set(ed.Key, loaded)
 	return nil
@@ -167,7 +167,7 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 		"has_diagrams":       formatcov.BoolPtrToStr(ed.HasDiagrams),
 	}
 	if err := csv.UpsertRow(s.csvPath(relItemsManuscript), "key", ed.Key, row); err != nil {
-		return fmt.Errorf("Error upserting manuscript item: %v\n", err)
+		return fmt.Errorf("error upserting manuscript item: %w", err)
 	}
 	if ed.IsElements {
 		sub := ""
@@ -180,7 +180,7 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 			"subclass":       sub,
 			"elements_books": formatcov.IntsToCompressedStr(ed.Books),
 		}); err != nil {
-			return fmt.Errorf("Error upserting manuscript metadata: %v\n", err)
+			return fmt.Errorf("error upserting manuscript metadata: %w", err)
 		}
 	}
 	return nil
@@ -207,7 +207,7 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 		"has_diagrams":       formatcov.BoolPtrToStr(ed.HasDiagrams),
 	}
 	if err := csv.UpsertRow(s.csvPath(relItemsPrint), "key", ed.Key, row); err != nil {
-		return fmt.Errorf("Error upserting print item: %v\n", err)
+		return fmt.Errorf("error upserting print item: %w", err)
 	}
 	if ed.IsElements {
 		if err := csv.UpsertRow(s.csvPath(relMDPrint), "key", ed.Key, map[string]string{
@@ -216,7 +216,7 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 			"additional_content":       strings.Join(ed.AdditionalContent, ", "),
 			"wardhaugh_classification": ed.WardhaughClassification,
 		}); err != nil {
-			return fmt.Errorf("Error upserting print metadata: %v\n", err)
+			return fmt.Errorf("error upserting print metadata: %w", err)
 		}
 	}
 	if err := csv.UpsertRow(s.csvPath(relTranscriptions), "key", ed.Key, map[string]string{
@@ -226,7 +226,7 @@ func (s *EditionCSV) upsertPrint(ed *model.Edition) error {
 		"imprint":      formatcov.PtrToStr(ed.Imprint),
 		"title":        formatcov.PtrToStr(ed.Title),
 	}); err != nil {
-		return fmt.Errorf("Error upserting transcriptions: %v\n", err)
+		return fmt.Errorf("error upserting transcriptions: %w", err)
 	}
 	return nil
 }
@@ -253,7 +253,7 @@ func (s *EditionCSV) upsertShelfmarks(ed *model.Edition) error {
 		return nil
 	}
 	if err := csv.ReplaceRowsForKey(s.csvPath(relShelfmarks), "key", ed.Key, rows); err != nil {
-		return fmt.Errorf("Error upserting shelfmarks: %v\n", err)
+		return fmt.Errorf("error upserting shelfmarks: %w", err)
 	}
 	return nil
 }
@@ -282,7 +282,7 @@ func (s *EditionCSV) upsertTranslations(ed *model.Edition) error {
 		return nil
 	}
 	if err := csv.BatchUpsertRows(s.csvPath(relTranslations), "key", "field", rows); err != nil {
-		return fmt.Errorf("Error upserting translations: %v\n", err)
+		return fmt.Errorf("error upserting translations: %w", err)
 	}
 	return nil
 }
@@ -296,16 +296,19 @@ func (s *EditionCSV) upsertBibliography(ed *model.Edition) error {
 		return nil
 	}
 	if err := csv.ReplaceRowsForKey(s.csvPath(relBibliography), "key", ed.Key, rows); err != nil {
-		fmt.Printf("Error upserting bibliography: %v\n", err)
+		fmt.Printf("error upserting bibliography: %w", err)
 	}
 	return nil
 }
 
 func (s *EditionCSV) upsertClusters(ed *model.Edition) error {
-	if ed.ReprintOf == nil || *ed.ReprintOf == "" {
+	if err := csv.DeleteRows(s.csvPath(relClusterItems), "item_key", ed.Key); err != nil {
+		return fmt.Errorf("error clearing existing cluster items: %w", err)
+	}
+	if ed.ReprintOf == nil || strings.TrimSpace(*ed.ReprintOf) == "" {
 		return nil
 	}
-	parentKey := *ed.ReprintOf
+	parentKey := strings.TrimSpace(*ed.ReprintOf)
 	_, clusterItems, _ := csv.LoadCSVRecords(s.csvPath(relClusterItems))
 	var parentClusterKey string
 	for _, ci := range clusterItems {
@@ -330,27 +333,28 @@ func (s *EditionCSV) upsertClusters(ed *model.Edition) error {
 				"cluster_key": parentClusterKey,
 				"item_key":    ed.Key,
 			}); err != nil {
-				return fmt.Errorf("Error upserting cluster: %v\n", err)
+				return fmt.Errorf("error upserting cluster: %w", err)
 			}
 		}
+		return nil
 	}
 	clusterKey := strings.ToUpper(fmt.Sprintf("%x", rand.Int63())[:6])
 	if err := csv.UpsertRow(s.csvPath(relClusters), "key", clusterKey, map[string]string{"key": clusterKey, "type": "reprint"}); err != nil {
-		return fmt.Errorf("Error upserting cluster: %v\n", err)
+		return fmt.Errorf("error upserting cluster: %w", err)
 	}
 	if err := csv.UpsertRow(s.csvPath(relClusterItems), "key", clusterKey+"_"+parentKey, map[string]string{
 		"key":         clusterKey + "_" + parentKey,
 		"cluster_key": clusterKey,
 		"item_key":    parentKey,
 	}); err != nil {
-		return fmt.Errorf("Error upserting cluster item: %v\n", err)
+		return fmt.Errorf("error upserting cluster item: %w", err)
 	}
 	if err := csv.UpsertRow(s.csvPath(relClusterItems), "key", clusterKey+"_"+ed.Key, map[string]string{
 		"key":         clusterKey + "_" + ed.Key,
 		"cluster_key": clusterKey,
 		"item_key":    ed.Key,
 	}); err != nil {
-		return fmt.Errorf("Error upserting cluster item: %v\n", err)
+		return fmt.Errorf("error upserting cluster item: %w", err)
 	}
 	return nil
 
@@ -364,13 +368,13 @@ func (s *EditionCSV) upsertVisualElements(ed *model.Edition) error {
 	for _, ve := range ed.VisualElements {
 		if ve.Locator != nil {
 			if err := csv.UpsertRow(s.csvPath(relLocators), "key", ve.Locator.Key, locatorRow(ve.Locator)); err != nil {
-				return fmt.Errorf("Error upserting locator: %v\n", err)
+				return fmt.Errorf("error upserting locator: %w", err)
 			}
 		}
 		for _, ex := range ve.Examples {
 			if ex.Locator != nil {
 				if err := csv.UpsertRow(s.csvPath(relLocators), "key", ex.Locator.Key, locatorRow(ex.Locator)); err != nil {
-					return fmt.Errorf("Error upserting locator: %v\n", err)
+					return fmt.Errorf("error upserting locator: %w", err)
 				}
 			}
 		}
@@ -402,11 +406,11 @@ func (s *EditionCSV) upsertVisualElements(ed *model.Edition) error {
 		}
 	}
 	if err := csv.ReplaceRowsForKey(s.csvPath(relVisualElements), "key", ed.Key, veRows); err != nil {
-		return fmt.Errorf("Error upserting visual elements: %v\n", err)
+		return fmt.Errorf("error upserting visual elements: %w", err)
 	}
 	// Replace examples for this edition's visual elements (by key = edition key in examples)
 	if err := csv.ReplaceRowsForKey(s.csvPath(relVisualElementsEx), "key", ed.Key, exRows); err != nil {
-		return fmt.Errorf("Error upserting visual element examples: %v\n", err)
+		return fmt.Errorf("error upserting visual element examples: %w", err)
 	}
 	return nil
 }
@@ -422,12 +426,12 @@ func (s *EditionCSV) DeleteEdition(key string) error {
 		relVisualElementsEx, relLocators,
 	} {
 		if err := csv.DeleteRows(s.csvPath(rel), "key", key); err != nil {
-			return fmt.Errorf("Error deleting edition from %s: %v\n", rel, err)
+			return fmt.Errorf("error deleting edition from %s: %w", rel, err)
 		}
 	}
 	// cluster_items uses item_key for edition membership
 	if err := csv.DeleteRows(s.csvPath(relClusterItems), "item_key", key); err != nil {
-		return fmt.Errorf("Error deleting edition from cluster items: %v\n", err)
+		return fmt.Errorf("error deleting edition from cluster items: %w", err)
 	}
 	s.cacheStore.Delete(key)
 	s.onDelete(key)
