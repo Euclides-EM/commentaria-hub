@@ -2,8 +2,7 @@
 set -euo pipefail
 
 # Usage:
-# ./submit_remote.sh \
-#   ~/Downloads/export_doc7_paris_1598a_alto_20260411123937.zip \
+# ./submit_remote.sh [--model /path/to/model.mlmodel] \
 #   ~/Downloads/export_doc7_paris_1598a_alto_20260411123937.zip \
 #   ~/Downloads/export_doc31_paris_1615_manually_corrected_alto_202604111236.zip \
 #   ~/Downloads/export_doc43_1598_manually_corrected_alto_202604111236.zip
@@ -36,20 +35,70 @@ REPO_ROOT="$(cd "${LOCAL_DIR}/../.." && pwd)"
 LOCAL_SCRIPT_PY="${LOCAL_DIR}/script.py"
 LOCAL_REQUIREMENTS="${LOCAL_DIR}/requirements.txt"
 LOCAL_JOB_SBATCH="${LOCAL_DIR}/job.sbatch"
-LOCAL_BASE_MODEL="${REPO_ROOT}/ocrflow/store/models/Gallicorpor.mlmodel"
+DEFAULT_BASE_MODEL="${REPO_ROOT}/ocrflow/store/models/Gallicorpor.mlmodel"
+LOCAL_BASE_MODEL="${DEFAULT_BASE_MODEL}"
+
+POSITIONAL_ARGS=()
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --model)
+      if [[ $# -lt 2 ]]; then
+        echo "Missing value after --model" >&2
+        exit 1
+      fi
+      LOCAL_BASE_MODEL="$2"
+      shift 2
+      ;;
+    *)
+      POSITIONAL_ARGS+=("$1")
+      shift
+      ;;
+  esac
+done
+
+set -- "${POSITIONAL_ARGS[@]}"
 
 if [[ "$#" -lt 1 ]]; then
-  echo "Pass at least one ZIP file."
+  echo "Pass at least one ZIP file." >&2
   exit 1
 fi
 
 ZIP_FILES=("$@")
+
+if [[ ! -f "${LOCAL_SCRIPT_PY}" ]]; then
+  echo "Missing script.py: ${LOCAL_SCRIPT_PY}" >&2
+  exit 1
+fi
+
+if [[ ! -f "${LOCAL_REQUIREMENTS}" ]]; then
+  echo "Missing requirements.txt: ${LOCAL_REQUIREMENTS}" >&2
+  exit 1
+fi
+
+if [[ ! -f "${LOCAL_JOB_SBATCH}" ]]; then
+  echo "Missing job.sbatch: ${LOCAL_JOB_SBATCH}" >&2
+  exit 1
+fi
+
+if [[ ! -f "${LOCAL_BASE_MODEL}" ]]; then
+  echo "Missing base model: ${LOCAL_BASE_MODEL}" >&2
+  exit 1
+fi
+
+for local_zip in "${ZIP_FILES[@]}"; do
+  if [[ ! -f "${local_zip}" ]]; then
+    echo "Missing ZIP file: ${local_zip}" >&2
+    exit 1
+  fi
+done
 
 RUN_ID="$(date +%y%m%d-%H%M)-$RANDOM"
 RUN_NAME="kraken_train_${RUN_ID}"
 REMOTE_RUN_DIR="${REMOTE_RUNS}/${RUN_NAME}"
 REMOTE_MODEL_NAME="$(basename "${LOCAL_BASE_MODEL}")"
 REMOTE_MODEL_PATH="${REMOTE_ASSETS_MODELS}/${REMOTE_MODEL_NAME}"
+
+log "Using base model: ${LOCAL_BASE_MODEL}"
 
 log "==> Preparing remote directories..."
 ssh_remote "${REMOTE_HOST}" bash <<EOF
@@ -101,7 +150,6 @@ else
 
   log "Finished base model sync."
 fi
-
 
 REMOTE_ZIP_PATHS=()
 for local_zip in "${ZIP_FILES[@]}"; do
