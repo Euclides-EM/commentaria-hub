@@ -33,7 +33,7 @@ echo "DATASET_NAME=${DATASET_NAME}"
 source .venv/bin/activate
 
 python script.py \
-  --dataset-url "https://app.roboflow.com/ds/06eW0gCNoL?key=HbRQg7ERhH" \
+  --dataset-url "https://app.roboflow.com/ds/a4IEYNMLM5?key=1EURLsv9Zw" \
   --dataset-name "${DATASET_NAME}" \
   --project "${PROJECT}" \
   --name "${RUN_NAME}" \
