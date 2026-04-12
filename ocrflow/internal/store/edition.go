@@ -302,10 +302,13 @@ func (s *EditionCSV) upsertBibliography(ed *model.Edition) error {
 }
 
 func (s *EditionCSV) upsertClusters(ed *model.Edition) error {
-	if ed.ReprintOf == nil || *ed.ReprintOf == "" {
+	if err := csv.DeleteRows(s.csvPath(relClusterItems), "item_key", ed.Key); err != nil {
+		return fmt.Errorf("Error clearing existing cluster items: %v\n", err)
+	}
+	if ed.ReprintOf == nil || strings.TrimSpace(*ed.ReprintOf) == "" {
 		return nil
 	}
-	parentKey := *ed.ReprintOf
+	parentKey := strings.TrimSpace(*ed.ReprintOf)
 	_, clusterItems, _ := csv.LoadCSVRecords(s.csvPath(relClusterItems))
 	var parentClusterKey string
 	for _, ci := range clusterItems {
@@ -333,6 +336,7 @@ func (s *EditionCSV) upsertClusters(ed *model.Edition) error {
 				return fmt.Errorf("Error upserting cluster: %v\n", err)
 			}
 		}
+		return nil
 	}
 	clusterKey := strings.ToUpper(fmt.Sprintf("%x", rand.Int63())[:6])
 	if err := csv.UpsertRow(s.csvPath(relClusters), "key", clusterKey, map[string]string{"key": clusterKey, "type": "reprint"}); err != nil {
