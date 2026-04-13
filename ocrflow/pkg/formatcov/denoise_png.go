@@ -77,75 +77,42 @@ const (
 	denoiseMinWorkers = 1
 	denoiseMaxWorkers = 2
 
-	denoiseEnhanceNeighborStrength        = 0.35
-	denoiseEnhanceCoreGamma               = 1.60
-	denoiseEnhanceRecoveredLabelGamma     = 1.35
-	denoiseEnhanceNeighborMinRatio        = 0.25
-	denoiseMaskRefineMaxGray              = 210
-	denoiseMaskRefineMarginMaxGray        = 228
-	denoiseMaskRefineLocalGrayMargin      = 8
-	denoiseMaskRefineMarginGrayLocal      = 16
-	denoiseSupportLocalGrayMargin         = 12
-	denoiseSupportMarginGrayMargin        = 24
-	denoiseSupportExemptGrayMargin        = 8
-	denoiseSupportExemptMarginGrayKeep    = 16
-	denoiseLabelRecoverRawC               = 0
-	denoiseLabelRecoverNormC              = 0
-	denoiseLabelRecoverMaxAreaBase        = 140
-	denoiseLabelRecoverMaxAreaMin         = 36
-	denoiseLabelRecoverMinAreaBase        = 2
-	denoiseLabelRecoverMinAreaMin         = 2
-	denoiseLabelRecoverMaxWidthBase       = 18
-	denoiseLabelRecoverMaxWidthMin        = 8
-	denoiseLabelRecoverMaxHeightBase      = 22
-	denoiseLabelRecoverMaxHeightMin       = 10
-	denoiseLabelRecoverMinFill            = 0.05
-	denoiseLabelRecoverGrayMargin         = 18
-	denoiseLabelRecoverMarginGray         = 24
-	denoiseLabelRecoverLineSpanBase       = 9
-	denoiseLabelRecoverLineSpanMin        = 5
-	denoiseLabelSupportBase               = 9
-	denoiseLabelSupportMin                = 5
-	denoiseLabelSupportNeighborRadiusBase = 2
-	denoiseLabelSupportNeighborRadiusMin  = 2
-	denoiseFixtureLabelBoostMaxGray       = 210
-	denoiseFixtureLabelBoostNeighborCount = 1
-	denoiseFixtureLabelBoostTargetGray    = 110
-	denoiseMarginSeedMaxGray              = 196
-	denoiseMarginSeedNeighbors            = 1
-	denoiseMarginSeedPasses               = 3
-	denoiseBlobBucketSize                 = 6
-	denoiseBlobAreaFraction               = 0.000012
-	denoiseBlobMinGray                    = 140
-	denoiseBlobMaxGray                    = 254
-	denoiseBlobMaxMeanGray                = 198.0
-	denoiseBlobLargeAreaFactor            = 3
-	denoiseBlobLargeMaxMeanGray           = 188.0
-	denoiseBlobHugeAreaFactor             = 6
-	denoiseBlobHugeMaxMeanGray            = 180.0
-	denoiseBlobDarkAnchorGray             = 165
-	denoiseBlobDarkAnchorRatio            = 0.15
-	denoiseBlobDarkAnchorMinPixelsBase    = 4
-	denoiseBlobDarkAnchorMinPixelsMin     = 1
-	denoiseBlobEdgeMaxMeanGray            = 186.0
-	denoiseBlobEdgeDarkAnchors            = 2
-	denoiseBlobMarginMaxGray              = 214
-	denoiseSideMarginFraction             = 0.18
-	denoiseSideMarginMinPixels            = 96
-	denoiseTopMarginFraction              = 0.14
-	denoiseTopMarginMinPixels             = 72
+	denoiseEnhanceNeighborStrength     = 0.35
+	denoiseEnhanceCoreGamma            = 1.35
+	denoiseEnhanceNeighborMinRatio     = 0.25
+	denoiseMaskRefineMaxGray           = 210
+	denoiseMaskRefineMarginMaxGray     = 228
+	denoiseSupportLocalGrayMargin      = 12
+	denoiseSupportMarginGrayMargin     = 24
+	denoiseMarginSeedMaxGray           = 196
+	denoiseMarginSeedNeighbors         = 1
+	denoiseMarginSeedPasses            = 3
+	denoiseBlobBucketSize              = 6
+	denoiseBlobAreaFraction            = 0.000012
+	denoiseBlobMinGray                 = 140
+	denoiseBlobMaxGray                 = 254
+	denoiseBlobMaxMeanGray             = 198.0
+	denoiseBlobLargeAreaFactor         = 3
+	denoiseBlobLargeMaxMeanGray        = 188.0
+	denoiseBlobHugeAreaFactor          = 6
+	denoiseBlobHugeMaxMeanGray         = 180.0
+	denoiseBlobDarkAnchorGray          = 165
+	denoiseBlobDarkAnchorRatio         = 0.15
+	denoiseBlobDarkAnchorMinPixelsBase = 4
+	denoiseBlobDarkAnchorMinPixelsMin  = 1
+	denoiseBlobEdgeMaxMeanGray         = 186.0
+	denoiseBlobEdgeDarkAnchors         = 2
+	denoiseBlobMarginMaxGray           = 214
+	denoiseSideMarginFraction          = 0.18
+	denoiseSideMarginMinPixels         = 96
+	denoiseTopMarginFraction           = 0.14
+	denoiseTopMarginMinPixels          = 72
 
 	denoiseClusterSearchRadiusFraction = 0.06
 	denoiseClusterMinNeighbors         = 3
 	denoiseClusterAreaRatioMax         = 4.0
 
-	denoiseIsolatedBlobMinAreaFactor = 3
-
-	denoiseRecoverLowC        = 5
-	denoiseRecoverZoneBase    = 15
-	denoiseRecoverZoneMin     = 9
-	denoiseRecoverMinAreaMult = 2
-
+	denoiseInkPercentile      = 10
 	denoiseInkDarkReference   = 110
 	denoiseInkOffsetMax       = 40
 	denoiseInkBucketScale     = 4
@@ -153,33 +120,38 @@ const (
 	denoiseInkUniformityRatio = 0.84
 	denoiseInkGammaBoost      = 1.5
 
+	denoiseOriginalBlendAlpha = 0.45
+	denoiseWeakPixelAlpha     = 0.2
+
+	denoiseBlendProximityBase = 30
+	denoiseBlendProximityMin  = 3
+
 	denoiseReferenceMinDim = 1240.0
 
-	denoiseMedianBlurBase               = 3
-	denoiseMedianBlurMin                = 3
-	denoiseBackgroundKernelBase         = 51
-	denoiseBackgroundKernelMin          = 15
-	denoiseMorphOpenBase                = 1
-	denoiseMorphOpenMin                 = 1
-	denoiseSpeckleKillOpenBase          = 2
-	denoiseSpeckleKillOpenMin           = 1
-	denoiseSpeckleKillCloseBase         = 2
-	denoiseSpeckleKillCloseMin          = 1
-	denoiseForegroundRepairBase         = 5
-	denoiseForegroundRepairMin          = 3
-	denoiseForegroundRepairAreaRatioMax = 1.08
-	denoiseForegroundHoleBase           = 96
-	denoiseForegroundHoleMin            = 24
-	denoiseSpeckleMaxWidthBase          = 12
-	denoiseSpeckleMaxWidthMin           = 4
-	denoiseSpeckleMaxHeightBase         = 12
-	denoiseSpeckleMaxHeightMin          = 4
-	denoiseMinBlobAreaBase              = 8
-	denoiseMinBlobAreaMin               = 4
-	denoiseMaskRefineSupportBase        = 11
-	denoiseMaskRefineSupportMin         = 5
-	denoiseEnhanceSupportBase           = 5
-	denoiseEnhanceSupportMin            = 3
+	denoiseMedianBlurBase        = 3
+	denoiseMedianBlurMin         = 3
+	denoiseBackgroundKernelBase  = 51
+	denoiseBackgroundKernelMin   = 15
+	denoiseMorphOpenBase         = 1
+	denoiseMorphOpenMin          = 1
+	denoiseSpeckleKillOpenBase   = 2
+	denoiseSpeckleKillOpenMin    = 1
+	denoiseSpeckleKillCloseBase  = 2
+	denoiseSpeckleKillCloseMin   = 1
+	denoiseForegroundRepairBase  = 5
+	denoiseForegroundRepairMin   = 3
+	denoiseForegroundHoleBase    = 96
+	denoiseForegroundHoleMin     = 24
+	denoiseSpeckleMaxWidthBase   = 12
+	denoiseSpeckleMaxWidthMin    = 4
+	denoiseSpeckleMaxHeightBase  = 12
+	denoiseSpeckleMaxHeightMin   = 4
+	denoiseMinBlobAreaBase       = 8
+	denoiseMinBlobAreaMin        = 4
+	denoiseMaskRefineSupportBase = 11
+	denoiseMaskRefineSupportMin  = 5
+	denoiseEnhanceSupportBase    = 5
+	denoiseEnhanceSupportMin     = 3
 )
 
 type supportPixel struct {
@@ -274,26 +246,6 @@ func denoiseMaskRefineSupportSize(rows, cols int) int {
 
 func denoiseEnhanceSupportSize(rows, cols int) int {
 	return scaledOdd(denoiseEnhanceSupportBase, denoiseScale(rows, cols), denoiseEnhanceSupportMin)
-}
-
-func denoiseLabelRecoverMaxArea(rows, cols int) int {
-	return scaledArea(denoiseLabelRecoverMaxAreaBase, denoiseScale(rows, cols), denoiseLabelRecoverMaxAreaMin)
-}
-
-func denoiseLabelRecoverMinArea(rows, cols int) int {
-	return scaledArea(denoiseLabelRecoverMinAreaBase, denoiseScale(rows, cols), denoiseLabelRecoverMinAreaMin)
-}
-
-func denoiseLabelRecoverMaxWidth(rows, cols int) int {
-	return scaledInt(denoiseLabelRecoverMaxWidthBase, denoiseScale(rows, cols), denoiseLabelRecoverMaxWidthMin)
-}
-
-func denoiseLabelRecoverMaxHeight(rows, cols int) int {
-	return scaledInt(denoiseLabelRecoverMaxHeightBase, denoiseScale(rows, cols), denoiseLabelRecoverMaxHeightMin)
-}
-
-func denoiseLabelSupportNeighborRadius(rows, cols int) int {
-	return scaledInt(denoiseLabelSupportNeighborRadiusBase, denoiseScale(rows, cols), denoiseLabelSupportNeighborRadiusMin)
 }
 
 func denoiseOutputBlobMinArea(rows, cols int) int {
@@ -415,76 +367,6 @@ func DenoisePNGs(src, dst string) error {
 	}
 
 	return grp.Wait()
-}
-
-func recoverThinLines(cleaned gocv.Mat, blurred *gocv.Mat) (gocv.Mat, error) {
-	rows := blurred.Rows()
-	cols := blurred.Cols()
-
-	lowBinary := gocv.NewMat()
-	defer lowBinary.Close()
-	if err := gocv.AdaptiveThreshold(
-		*blurred, &lowBinary, 255,
-		gocv.AdaptiveThresholdGaussian,
-		gocv.ThresholdBinaryInv,
-		denoiseAdaptiveBlockSize(rows, cols),
-		float32(denoiseRecoverLowC),
-	); err != nil {
-		return gocv.Mat{}, err
-	}
-
-	invCleaned := gocv.NewMat()
-	defer invCleaned.Close()
-	if err := gocv.BitwiseNot(cleaned, &invCleaned); err != nil {
-		return gocv.Mat{}, err
-	}
-
-	candidates := gocv.NewMat()
-	defer candidates.Close()
-	if err := gocv.BitwiseAndWithMask(lowBinary, lowBinary, &candidates, invCleaned); err != nil {
-		return gocv.Mat{}, err
-	}
-
-	zoneSize := scaledOdd(denoiseRecoverZoneBase, denoiseScale(rows, cols), denoiseRecoverZoneMin)
-	zoneKernel := gocv.GetStructuringElement(
-		gocv.MorphRect,
-		image.Point{X: zoneSize, Y: zoneSize},
-	)
-	defer zoneKernel.Close()
-
-	zone := gocv.NewMat()
-	defer zone.Close()
-	if err := gocv.Dilate(cleaned, &zone, zoneKernel); err != nil {
-		return gocv.Mat{}, err
-	}
-
-	labels := gocv.NewMat()
-	defer labels.Close()
-	stats := gocv.NewMat()
-	defer stats.Close()
-	centroids := gocv.NewMat()
-	defer centroids.Close()
-
-	n := gocv.ConnectedComponentsWithStats(candidates, &labels, &stats, &centroids)
-	minArea := denoiseMinBlobArea(rows, cols) * denoiseRecoverMinAreaMult
-	out := cleaned.Clone()
-	for r := 0; r < rows; r++ {
-		for c := 0; c < cols; c++ {
-			lbl := int(labels.GetIntAt(r, c))
-			if lbl <= 0 || lbl >= n {
-				continue
-			}
-			if int(stats.GetIntAt(lbl, 4)) < minArea {
-				continue
-			}
-			if zone.GetUCharAt(r, c) == 0 {
-				continue
-			}
-			out.SetUCharAt(r, c, denoiseMaskColor)
-		}
-	}
-
-	return out, nil
 }
 
 func denoiseOne(inPath, outPath string) error {
@@ -690,57 +572,74 @@ func denoiseOne(inPath, outPath string) error {
 	}
 	defer cleaned.Close()
 
-	repairInput := cleaned
-	var recoveredThin gocv.Mat
-	hasRecoveredThin := false
-	if !denoiseLowQuality(gray.Rows(), gray.Cols()) {
-		recoveredThin, err = recoverThinLines(cleaned, &blurred)
-		if err != nil {
-			return fmt.Errorf("recover thin lines: %w", err)
-		}
-		defer recoveredThin.Close()
-		repairInput = recoveredThin
-		hasRecoveredThin = true
-	}
-
-	exemptMask := gocv.Zeros(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U)
-	defer exemptMask.Close()
-	if hasRecoveredThin {
-		invCleaned2 := gocv.NewMat()
-		defer invCleaned2.Close()
-		if err := gocv.BitwiseNot(cleaned, &invCleaned2); err != nil {
-			return fmt.Errorf("invert cleaned for exempt mask: %w", err)
-		}
-		if err := gocv.BitwiseAndWithMask(recoveredThin, recoveredThin, &exemptMask, invCleaned2); err != nil {
-			return fmt.Errorf("compute exempt mask: %w", err)
-		}
-	}
-
-	repaired, err := repairForegroundMask(repairInput)
+	repaired, err := repairForegroundMask(cleaned)
 	if err != nil {
 		return fmt.Errorf("repair foreground mask: %w", err)
 	}
 	defer repaired.Close()
 
-	refined, err := refineForegroundMask(repaired, &gray, &normalized)
+	refined, err := refineForegroundMask(repaired, &normalized)
 	if err != nil {
 		return fmt.Errorf("refine foreground mask: %w", err)
 	}
 	defer refined.Close()
 
-	out, err := applyForegroundMask(&gray, &normalized, refined, exemptMask, inPath)
+	out, err := applyForegroundMask(&normalized, refined, inPath)
 	if err != nil {
 		return fmt.Errorf("apply foreground mask: %w", err)
 	}
 	defer out.Close()
 
-	if ok := gocv.IMWrite(outPath, out); !ok {
+	merged := gocv.NewMat()
+	defer merged.Close()
+	if err := gocv.AddWeighted(out, denoiseOriginalBlendAlpha, gray, denoiseOriginalBlendAlpha, 0, &merged); err != nil {
+		return fmt.Errorf("merge with original: %w", err)
+	}
+
+	proxSize := scaledInt(denoiseBlendProximityBase, denoiseScale(out.Rows(), out.Cols()), denoiseBlendProximityMin)
+	proxSrc := gocv.NewMatWithSize(out.Rows(), out.Cols(), gocv.MatTypeCV8U)
+	for r := 0; r < out.Rows(); r++ {
+		for c := 0; c < out.Cols(); c++ {
+			if out.GetUCharAt(r, c) < denoiseMaskColor {
+				proxSrc.SetUCharAt(r, c, denoiseMaskColor)
+			}
+		}
+	}
+	proxKernel := gocv.GetStructuringElement(gocv.MorphEllipse, image.Point{X: proxSize, Y: proxSize})
+	proxDilated := gocv.NewMat()
+	if err := gocv.Dilate(proxSrc, &proxDilated, proxKernel); err != nil {
+		proxSrc.Close()
+		proxKernel.Close()
+		return fmt.Errorf("proximity dilate: %w", err)
+	}
+	proxSrc.Close()
+	proxKernel.Close()
+	defer proxDilated.Close()
+
+	for r := 0; r < merged.Rows(); r++ {
+		for c := 0; c < merged.Cols(); c++ {
+			if proxDilated.GetUCharAt(r, c) == 0 {
+				merged.SetUCharAt(r, c, denoiseMaskColor)
+			}
+		}
+	}
+
+	weakThreshold := uint8(math.Round(255.0 * (1.0 - denoiseWeakPixelAlpha)))
+	for r := 0; r < merged.Rows(); r++ {
+		for c := 0; c < merged.Cols(); c++ {
+			if merged.GetUCharAt(r, c) >= weakThreshold {
+				merged.SetUCharAt(r, c, denoiseMaskColor)
+			}
+		}
+	}
+
+	if ok := gocv.IMWrite(outPath, merged); !ok {
 		return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
 	}
 	return nil
 }
 
-func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemptMask gocv.Mat, inPath string) (gocv.Mat, error) {
+func applyForegroundMask(gray *gocv.Mat, mask gocv.Mat, inPath string) (gocv.Mat, error) {
 	supportKernel := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
 		image.Point{X: denoiseEnhanceSupportSize(gray.Rows(), gray.Cols()), Y: denoiseEnhanceSupportSize(gray.Rows(), gray.Cols())},
@@ -753,199 +652,7 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 		return gocv.NewMat(), err
 	}
 
-	outputExempt := exemptMask.Clone()
-	defer outputExempt.Close()
-
 	var supportPixels []supportPixel
-	rawBlur := gocv.NewMat()
-	defer rawBlur.Close()
-	if err := gocv.MedianBlur(*rawGray, &rawBlur, denoiseMedianBlurSize(gray.Rows(), gray.Cols())); err != nil {
-		return gocv.NewMat(), err
-	}
-
-	labelBinary := gocv.NewMat()
-	defer labelBinary.Close()
-	if err := gocv.AdaptiveThreshold(
-		rawBlur, &labelBinary, 255,
-		gocv.AdaptiveThresholdGaussian,
-		gocv.ThresholdBinaryInv,
-		denoiseAdaptiveBlockSize(gray.Rows(), gray.Cols()),
-		float32(denoiseLabelRecoverRawC),
-	); err != nil {
-		return gocv.NewMat(), err
-	}
-
-	normBlur := gocv.NewMat()
-	defer normBlur.Close()
-	if err := gocv.MedianBlur(*gray, &normBlur, denoiseMedianBlurSize(gray.Rows(), gray.Cols())); err != nil {
-		return gocv.NewMat(), err
-	}
-
-	normLabelBinary := gocv.NewMat()
-	defer normLabelBinary.Close()
-	if err := gocv.AdaptiveThreshold(
-		normBlur, &normLabelBinary, 255,
-		gocv.AdaptiveThresholdGaussian,
-		gocv.ThresholdBinaryInv,
-		denoiseAdaptiveBlockSize(gray.Rows(), gray.Cols()),
-		float32(denoiseLabelRecoverNormC),
-	); err != nil {
-		return gocv.NewMat(), err
-	}
-
-	invMask := gocv.NewMat()
-	defer invMask.Close()
-	if err := gocv.BitwiseNot(mask, &invMask); err != nil {
-		return gocv.NewMat(), err
-	}
-
-	labelZoneKernel := gocv.GetStructuringElement(
-		gocv.MorphRect,
-		image.Point{X: scaledOdd(denoiseRecoverZoneBase, denoiseScale(gray.Rows(), gray.Cols()), denoiseRecoverZoneMin), Y: scaledOdd(denoiseRecoverZoneBase, denoiseScale(gray.Rows(), gray.Cols()), denoiseRecoverZoneMin)},
-	)
-	defer labelZoneKernel.Close()
-
-	labelZone := gocv.NewMat()
-	defer labelZone.Close()
-	if err := gocv.Dilate(mask, &labelZone, labelZoneKernel); err != nil {
-		return gocv.NewMat(), err
-	}
-
-	labelCandidates := gocv.NewMat()
-	defer labelCandidates.Close()
-	if err := gocv.BitwiseAndWithMask(labelBinary, labelBinary, &labelCandidates, invMask); err != nil {
-		return gocv.NewMat(), err
-	}
-	if err := gocv.BitwiseAndWithMask(labelCandidates, labelCandidates, &labelCandidates, labelZone); err != nil {
-		return gocv.NewMat(), err
-	}
-
-	lineSpan := scaledOdd(denoiseLabelRecoverLineSpanBase, denoiseScale(gray.Rows(), gray.Cols()), denoiseLabelRecoverLineSpanMin)
-	hKernel := gocv.GetStructuringElement(gocv.MorphRect, image.Point{X: lineSpan, Y: 1})
-	defer hKernel.Close()
-	vKernel := gocv.GetStructuringElement(gocv.MorphRect, image.Point{X: 1, Y: lineSpan})
-	defer vKernel.Close()
-
-	hLines := gocv.NewMat()
-	defer hLines.Close()
-	if err := gocv.MorphologyEx(labelCandidates, &hLines, gocv.MorphOpen, hKernel); err != nil {
-		return gocv.NewMat(), err
-	}
-	vLines := gocv.NewMat()
-	defer vLines.Close()
-	if err := gocv.MorphologyEx(labelCandidates, &vLines, gocv.MorphOpen, vKernel); err != nil {
-		return gocv.NewMat(), err
-	}
-	lineMask := gocv.NewMat()
-	defer lineMask.Close()
-	if err := gocv.BitwiseOr(hLines, vLines, &lineMask); err != nil {
-		return gocv.NewMat(), err
-	}
-	invLineMask := gocv.NewMat()
-	defer invLineMask.Close()
-	if err := gocv.BitwiseNot(lineMask, &invLineMask); err != nil {
-		return gocv.NewMat(), err
-	}
-	if err := gocv.BitwiseAndWithMask(labelCandidates, labelCandidates, &labelCandidates, invLineMask); err != nil {
-		return gocv.NewMat(), err
-	}
-
-	labelLabels := gocv.NewMat()
-	defer labelLabels.Close()
-	labelStats := gocv.NewMat()
-	defer labelStats.Close()
-	labelCentroids := gocv.NewMat()
-	defer labelCentroids.Close()
-	labelCount := gocv.ConnectedComponentsWithStats(labelCandidates, &labelLabels, &labelStats, &labelCentroids)
-	keepLabel := make([]bool, labelCount)
-	maxLabelArea := denoiseLabelRecoverMaxArea(gray.Rows(), gray.Cols())
-	minLabelArea := denoiseLabelRecoverMinArea(gray.Rows(), gray.Cols())
-	maxLabelWidth := denoiseLabelRecoverMaxWidth(gray.Rows(), gray.Cols())
-	maxLabelHeight := denoiseLabelRecoverMaxHeight(gray.Rows(), gray.Cols())
-	for label := 1; label < labelCount; label++ {
-		area := int(labelStats.GetIntAt(label, 4))
-		if area < minLabelArea || area > maxLabelArea {
-			continue
-		}
-		width := int(labelStats.GetIntAt(label, 2))
-		height := int(labelStats.GetIntAt(label, 3))
-		if width < 1 || height < 2 || width > maxLabelWidth || height > maxLabelHeight {
-			continue
-		}
-		fillRatio := float64(area) / float64(width*height)
-		if fillRatio < denoiseLabelRecoverMinFill {
-			continue
-		}
-		cx := int(math.Round(labelCentroids.GetDoubleAt(label, 0)))
-		cy := int(math.Round(labelCentroids.GetDoubleAt(label, 1)))
-		localMean, ok := localMaskedMeanGray(rawGray, &mask, cy, cx)
-		if !ok {
-			continue
-		}
-		localGrayMargin := denoiseLabelRecoverGrayMargin
-		if isMarginPixel(gray.Rows(), gray.Cols(), cy, cx) {
-			localGrayMargin = denoiseLabelRecoverMarginGray
-		}
-		if int(rawGray.GetUCharAt(cy, cx)) > localMean+localGrayMargin {
-			continue
-		}
-		keepLabel[label] = true
-	}
-
-	for r := 0; r < gray.Rows(); r++ {
-		for c := 0; c < gray.Cols(); c++ {
-			label := int(labelLabels.GetIntAt(r, c))
-			if label <= 0 || label >= labelCount || !keepLabel[label] {
-				continue
-			}
-			grayVal := minUint8(gray.GetUCharAt(r, c), rawGray.GetUCharAt(r, c))
-			supportPixels = append(supportPixels, supportPixel{r: r, c: c, blended: renderRecoveredLabelPixel(grayVal)})
-		}
-	}
-
-	labelSupportKernel := gocv.GetStructuringElement(
-		gocv.MorphEllipse,
-		image.Point{
-			X: scaledOdd(denoiseLabelSupportBase, denoiseScale(gray.Rows(), gray.Cols()), denoiseLabelSupportMin),
-			Y: scaledOdd(denoiseLabelSupportBase, denoiseScale(gray.Rows(), gray.Cols()), denoiseLabelSupportMin),
-		},
-	)
-	defer labelSupportKernel.Close()
-
-	labelSupportZone := gocv.NewMat()
-	defer labelSupportZone.Close()
-	if err := gocv.Dilate(mask, &labelSupportZone, labelSupportKernel); err != nil {
-		return gocv.NewMat(), err
-	}
-	labelNeighborRadius := denoiseLabelSupportNeighborRadius(gray.Rows(), gray.Cols())
-
-	for r := 0; r < gray.Rows(); r++ {
-		for c := 0; c < gray.Cols(); c++ {
-			if mask.GetUCharAt(r, c) != 0 || (labelBinary.GetUCharAt(r, c) == 0 && normLabelBinary.GetUCharAt(r, c) == 0) || labelSupportZone.GetUCharAt(r, c) == 0 {
-				continue
-			}
-			if outputExempt.GetUCharAt(r, c) != 0 {
-				continue
-			}
-			if maskedNeighborCountInRadius(&mask, r, c, labelNeighborRadius) < 1 {
-				continue
-			}
-			localMean, ok := localMaskedMeanGray(rawGray, &mask, r, c)
-			if !ok {
-				continue
-			}
-			localGrayMargin := denoiseLabelRecoverGrayMargin
-			if isMarginPixel(gray.Rows(), gray.Cols(), r, c) {
-				localGrayMargin = denoiseLabelRecoverMarginGray
-			}
-			if int(rawGray.GetUCharAt(r, c)) > localMean+localGrayMargin {
-				continue
-			}
-			grayVal := minUint8(gray.GetUCharAt(r, c), rawGray.GetUCharAt(r, c))
-			supportPixels = append(supportPixels, supportPixel{r: r, c: c, blended: renderRecoveredLabelPixel(grayVal)})
-		}
-	}
-
 	for r := 0; r < gray.Rows(); r++ {
 		for c := 0; c < gray.Cols(); c++ {
 			if support.GetUCharAt(r, c) == 0 || mask.GetUCharAt(r, c) != 0 {
@@ -958,7 +665,7 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 					continue
 				}
 			}
-			grayVal := minUint8(gray.GetUCharAt(r, c), rawGray.GetUCharAt(r, c))
+			grayVal := gray.GetUCharAt(r, c)
 			localMean, ok := localMaskedMeanGray(gray, &mask, r, c)
 			if !ok {
 				continue
@@ -972,13 +679,6 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 			}
 			blended := renderSupportPixel(gray.Rows(), gray.Cols(), r, c, grayVal)
 			supportPixels = append(supportPixels, supportPixel{r: r, c: c, blended: blended})
-			exemptGrayMargin := denoiseSupportExemptGrayMargin
-			if marginPixel {
-				exemptGrayMargin = denoiseSupportExemptMarginGrayKeep
-			}
-			if int(grayVal) <= localMean+exemptGrayMargin {
-				outputExempt.SetUCharAt(r, c, denoiseMaskColor)
-			}
 		}
 	}
 
@@ -988,7 +688,7 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 	out := gocv.NewMatWithSize(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U)
 	for r := 0; r < gray.Rows(); r++ {
 		for c := 0; c < gray.Cols(); c++ {
-			grayVal := minUint8(gray.GetUCharAt(r, c), rawGray.GetUCharAt(r, c))
+			grayVal := gray.GetUCharAt(r, c)
 			if mask.GetUCharAt(r, c) != 0 {
 				v := renderForegroundPixel(gray.Rows(), gray.Cols(), r, c, grayVal)
 				if inkOffset > 0 {
@@ -1040,16 +740,14 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 		if bucketSize > denoiseInkBucketMax {
 			bucketSize = denoiseInkBucketMax
 		}
-		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, outputExempt, mask, minBlobArea, inkOffset)
+		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, minBlobArea, inkOffset)
 		debugLogf("[%s] output blobs: kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, keptPixels, minBlobArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, bucketSize)
 	}
-
-	boostFixtureLabels(inPath, rawGray, &out)
 
 	return out, nil
 }
 
-func refineForegroundMask(mask gocv.Mat, rawGray *gocv.Mat, tone *gocv.Mat) (gocv.Mat, error) {
+func refineForegroundMask(mask gocv.Mat, tone *gocv.Mat) (gocv.Mat, error) {
 	kernel := gocv.GetStructuringElement(
 		gocv.MorphEllipse,
 		image.Point{X: denoiseMaskRefineSupportSize(tone.Rows(), tone.Cols()), Y: denoiseMaskRefineSupportSize(tone.Rows(), tone.Cols())},
@@ -1078,17 +776,6 @@ func refineForegroundMask(mask gocv.Mat, rawGray *gocv.Mat, tone *gocv.Mat) (goc
 			if tone.GetUCharAt(r, c) > maxGray {
 				continue
 			}
-			localMean, ok := localMaskedMeanGray(rawGray, &mask, r, c)
-			if !ok {
-				continue
-			}
-			localGrayMargin := denoiseMaskRefineLocalGrayMargin
-			if isMarginPixel(tone.Rows(), tone.Cols(), r, c) {
-				localGrayMargin = denoiseMaskRefineMarginGrayLocal
-			}
-			if int(rawGray.GetUCharAt(r, c)) > localMean+localGrayMargin {
-				continue
-			}
 			refined.SetUCharAt(r, c, denoiseMaskColor)
 		}
 	}
@@ -1096,83 +783,18 @@ func refineForegroundMask(mask gocv.Mat, rawGray *gocv.Mat, tone *gocv.Mat) (goc
 	return refined, nil
 }
 
-func boostFixtureLabels(inPath string, rawGray *gocv.Mat, out *gocv.Mat) {
-	if filepath.Base(inPath) != "The_Hague_1758_075.png" {
-		return
-	}
-	type region struct {
-		x0 float64
-		y0 float64
-		x1 float64
-		y1 float64
-	}
-	regions := []region{
-		{x0: 0.417, y0: 0.244, x1: 0.426, y1: 0.257}, // F
-		{x0: 0.538, y0: 0.250, x1: 0.548, y1: 0.260}, // B
-	}
-	rows := rawGray.Rows()
-	cols := rawGray.Cols()
-	for _, rg := range regions {
-		r0 := maxInt(0, int(math.Round(rg.y0*float64(rows))))
-		r1 := minInt(rows-1, int(math.Round(rg.y1*float64(rows))))
-		c0 := maxInt(0, int(math.Round(rg.x0*float64(cols))))
-		c1 := minInt(cols-1, int(math.Round(rg.x1*float64(cols))))
-		for r := r0; r <= r1; r++ {
-			for c := c0; c <= c1; c++ {
-				rawVal := rawGray.GetUCharAt(r, c)
-				if rawVal > denoiseFixtureLabelBoostMaxGray {
-					continue
-				}
-				if grayNeighborCountInRadius(rawGray, r, c, 1, denoiseFixtureLabelBoostMaxGray) < denoiseFixtureLabelBoostNeighborCount {
-					continue
-				}
-				v := renderRecoveredLabelPixel(rawVal)
-				if v > denoiseFixtureLabelBoostTargetGray {
-					v = denoiseFixtureLabelBoostTargetGray
-				}
-				if out.GetUCharAt(r, c) > v {
-					out.SetUCharAt(r, c, v)
-				}
-			}
-		}
-	}
-}
-
 func maskNeighborCount(mask *gocv.Mat, r, c int) int {
-	return maskedNeighborCountInRadius(mask, r, c, 1)
-}
-
-func maskedNeighborCountInRadius(mask *gocv.Mat, r, c, radius int) int {
 	count := 0
-	r0 := maxInt(0, r-radius)
-	r1 := minInt(mask.Rows()-1, r+radius)
-	c0 := maxInt(0, c-radius)
-	c1 := minInt(mask.Cols()-1, c+radius)
+	r0 := maxInt(0, r-1)
+	r1 := minInt(mask.Rows()-1, r+1)
+	c0 := maxInt(0, c-1)
+	c1 := minInt(mask.Cols()-1, c+1)
 	for rr := r0; rr <= r1; rr++ {
 		for cc := c0; cc <= c1; cc++ {
 			if rr == r && cc == c {
 				continue
 			}
 			if mask.GetUCharAt(rr, cc) != 0 {
-				count++
-			}
-		}
-	}
-	return count
-}
-
-func grayNeighborCountInRadius(gray *gocv.Mat, r, c, radius int, maxGray uint8) int {
-	count := 0
-	r0 := maxInt(0, r-radius)
-	r1 := minInt(gray.Rows()-1, r+radius)
-	c0 := maxInt(0, c-radius)
-	c1 := minInt(gray.Cols()-1, c+radius)
-	for rr := r0; rr <= r1; rr++ {
-		for cc := c0; cc <= c1; cc++ {
-			if rr == r && cc == c {
-				continue
-			}
-			if gray.GetUCharAt(rr, cc) <= maxGray {
 				count++
 			}
 		}
@@ -1207,12 +829,6 @@ func repairForegroundMask(mask gocv.Mat) (gocv.Mat, error) {
 	repaired := gocv.NewMat()
 	if err := gocv.MorphologyEx(mask, &repaired, gocv.MorphClose, kernel); err != nil {
 		return gocv.Mat{}, err
-	}
-	origArea := gocv.CountNonZero(mask)
-	repairedArea := gocv.CountNonZero(repaired)
-	if origArea > 0 && float64(repairedArea) > float64(origArea)*denoiseForegroundRepairAreaRatioMax {
-		repaired.Close()
-		repaired = mask.Clone()
 	}
 
 	filled, err := fillSmallForegroundHoles(repaired, denoiseForegroundHoleMaxArea(mask.Rows(), mask.Cols()))
@@ -1299,21 +915,6 @@ func renderForegroundPixel(rows, cols, r, c int, grayVal uint8) uint8 {
 	return enhanceInk(grayVal)
 }
 
-func renderRecoveredLabelPixel(grayVal uint8) uint8 {
-	x := float64(grayVal) / 255.0
-	if x <= 0 {
-		return 0
-	}
-	enhanced := 255.0 * powFloat(x, denoiseEnhanceRecoveredLabelGamma)
-	if enhanced < 0 {
-		enhanced = 0
-	}
-	if enhanced > 255 {
-		enhanced = 255
-	}
-	return uint8(enhanced + 0.5)
-}
-
 func renderSupportPixel(rows, cols, r, c int, grayVal uint8) uint8 {
 	return blendGray(grayVal, enhanceInk(grayVal), denoiseEnhanceNeighborStrength)
 }
@@ -1386,22 +987,13 @@ func localMaskedMeanGray(gray *gocv.Mat, mask *gocv.Mat, r, c int) (int, bool) {
 	return sum / count, true
 }
 
-func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, mask gocv.Mat, minArea int, bucketSize int) ([]bool, int) {
+func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea int, bucketSize int) ([]bool, int) {
 	keep := make([]bool, len(pixels))
 	if len(pixels) == 0 {
 		return keep, 0
 	}
 	sideMarginWidth := denoiseSideMarginWidth(cols)
 	topMarginHeight := denoiseTopMarginHeight(rows)
-
-	strongGrid := make([]bool, rows*cols)
-	for r := 0; r < rows; r++ {
-		for c := 0; c < cols; c++ {
-			if mask.GetUCharAt(r, c) != 0 {
-				strongGrid[r*cols+c] = true
-			}
-		}
-	}
 
 	grid := make([]int, rows*cols)
 	for i := range grid {
@@ -1430,7 +1022,6 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, mask goc
 		sumGray := int(px.blended)
 		darkAnchors := 0
 		touchesPageMargin := px.c < sideMarginWidth || px.c >= cols-sideMarginWidth || px.r < topMarginHeight
-		touchesExempt := strongGrid[px.r*cols+px.c]
 		if int(px.blended) <= denoiseBlobDarkAnchorGray {
 			darkAnchors++
 		}
@@ -1443,9 +1034,6 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, mask goc
 				cc := curr.c + step[1]
 				if rr < 0 || rr >= rows || cc < 0 || cc >= cols {
 					continue
-				}
-				if strongGrid[rr*cols+cc] {
-					touchesExempt = true
 				}
 				neighborIdx := grid[rr*cols+cc]
 				if neighborIdx < 0 || seen[neighborIdx] {
@@ -1473,11 +1061,7 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, mask goc
 			maxBlobArea = area
 		}
 		meanGray := float64(sumGray) / float64(area)
-		effectiveMinArea := minArea
-		if !touchesExempt {
-			effectiveMinArea = minArea * denoiseIsolatedBlobMinAreaFactor
-		}
-		if keepBlobComponent(area, effectiveMinArea, meanGray, darkAnchors, rows, cols) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
+		if keepBlobComponent(area, minArea, meanGray, darkAnchors, rows, cols) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
 			for _, idx := range component {
 				keep[idx] = true
 			}
@@ -1573,7 +1157,7 @@ func inkLightnessOffset(gray *gocv.Mat, mask gocv.Mat) int {
 	return offset
 }
 
-func filterOutputByBlobSize(mat *gocv.Mat, exemptMask gocv.Mat, mask gocv.Mat, minArea int, inkOffset int) (int, int) {
+func filterOutputByBlobSize(mat *gocv.Mat, minArea int, inkOffset int) (int, int) {
 	rows := mat.Rows()
 	cols := mat.Cols()
 
@@ -1582,9 +1166,6 @@ func filterOutputByBlobSize(mat *gocv.Mat, exemptMask gocv.Mat, mask gocv.Mat, m
 		for c := 0; c < cols; c++ {
 			v := mat.GetUCharAt(r, c)
 			if v >= denoiseMaskColor || v > denoiseBlobMaxGray {
-				continue
-			}
-			if exemptMask.GetUCharAt(r, c) != 0 {
 				continue
 			}
 			if v < denoiseBlobMinGray && !isMarginPixel(rows, cols, r, c) {
@@ -1598,7 +1179,7 @@ func filterOutputByBlobSize(mat *gocv.Mat, exemptMask gocv.Mat, mask gocv.Mat, m
 	if bucketSize > denoiseInkBucketMax {
 		bucketSize = denoiseInkBucketMax
 	}
-	keep, maxBlobArea := keepSupportPixelsByBlobSize(rows, cols, pixels, mask, minArea, bucketSize)
+	keep, maxBlobArea := keepSupportPixelsByBlobSize(rows, cols, pixels, minArea, bucketSize)
 	kept := 0
 	for i, px := range pixels {
 		if keep[i] {
@@ -1693,13 +1274,6 @@ func powFloat(x, p float64) float64 {
 }
 
 func minInt(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-func minUint8(a, b uint8) uint8 {
 	if a < b {
 		return a
 	}
