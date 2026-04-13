@@ -116,11 +116,8 @@ const (
 	denoiseRecoverZoneBase    = 15
 	denoiseRecoverZoneMin     = 9
 	denoiseRecoverMinAreaMult = 2
-	denoiseRecoverElongFactor = 6.0
-	denoiseRecoverMinMaxDim   = 25
 	denoiseLineLikeAreaFactor = 6.0
 
-	denoiseInkPercentile      = 10
 	denoiseInkDarkReference   = 110
 	denoiseInkOffsetMax       = 40
 	denoiseInkBucketScale     = 4
@@ -657,6 +654,7 @@ func denoiseOne(inPath, outPath string) error {
 
 	repairInput := cleaned
 	var recoveredThin gocv.Mat
+	hasRecoveredThin := false
 	if !denoiseLowQuality(gray.Rows(), gray.Cols()) {
 		recoveredThin, err = recoverThinLines(cleaned, &blurred)
 		if err != nil {
@@ -664,11 +662,12 @@ func denoiseOne(inPath, outPath string) error {
 		}
 		defer recoveredThin.Close()
 		repairInput = recoveredThin
+		hasRecoveredThin = true
 	}
 
 	exemptMask := gocv.Zeros(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U)
 	defer exemptMask.Close()
-	if !recoveredThin.Empty() {
+	if hasRecoveredThin {
 		invCleaned2 := gocv.NewMat()
 		defer invCleaned2.Close()
 		if err := gocv.BitwiseNot(cleaned, &invCleaned2); err != nil {

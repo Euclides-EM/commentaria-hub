@@ -15,7 +15,7 @@ import (
 )
 
 func TestDenoisePNGFixtures(t *testing.T) {
-	paths, err := denoiseFixtureInputs(filepath.Join("testdata", "denoise"))
+	paths, err := denoiseFixtureInputs("testdata/denoise")
 	if err != nil {
 		t.Fatalf("list denoise fixtures: %v", err)
 	}
@@ -59,24 +59,26 @@ func TestDenoisePNGFixtures(t *testing.T) {
 }
 
 func denoiseFixtureInputs(dir string) ([]string, error) {
-	entries, err := os.ReadDir(dir)
-	if err != nil {
-		return nil, err
-	}
-
-	paths := make([]string, 0, len(entries))
-	for _, entry := range entries {
-		if entry.IsDir() {
-			continue
+	paths := []string{}
+	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+		if err != nil {
+			return err
 		}
-		name := entry.Name()
+		if d.IsDir() {
+			return nil
+		}
+		name := d.Name()
 		if filepath.Ext(name) != ".png" {
-			continue
+			return nil
 		}
 		if strings.HasSuffix(name, ".snap.png") || strings.HasSuffix(name, ".stage.png") {
-			continue
+			return nil
 		}
-		paths = append(paths, filepath.Join(dir, name))
+		paths = append(paths, path)
+		return nil
+	})
+	if err != nil {
+		return nil, err
 	}
 
 	slices.Sort(paths)
