@@ -108,16 +108,6 @@ const (
 	denoiseLabelSupportMin                = 5
 	denoiseLabelSupportNeighborRadiusBase = 2
 	denoiseLabelSupportNeighborRadiusMin  = 2
-	denoiseLabelToneRecoverGrayMargin     = 8
-	denoiseLabelToneRecoverMarginGray     = 12
-	denoiseEndpointLabelHalfWidthBase     = 10
-	denoiseEndpointLabelHalfWidthMin      = 5
-	denoiseEndpointLabelDownReachBase     = 12
-	denoiseEndpointLabelDownReachMin      = 6
-	denoiseEndpointLabelUpReachBase       = 8
-	denoiseEndpointLabelUpReachMin        = 4
-	denoiseEndpointLabelGrayMargin        = 10
-	denoiseEndpointLabelMaxGray           = 225
 	denoiseFixtureLabelBoostMaxGray       = 210
 	denoiseFixtureLabelBoostNeighborCount = 1
 	denoiseFixtureLabelBoostTargetGray    = 110
@@ -153,7 +143,6 @@ const (
 	denoiseRecoverZoneBase    = 15
 	denoiseRecoverZoneMin     = 9
 	denoiseRecoverMinAreaMult = 2
-	denoiseLineLikeAreaFactor = 6.0
 
 	denoiseInkDarkReference   = 110
 	denoiseInkOffsetMax       = 40
@@ -303,18 +292,6 @@ func denoiseLabelRecoverMaxHeight(rows, cols int) int {
 
 func denoiseLabelSupportNeighborRadius(rows, cols int) int {
 	return scaledInt(denoiseLabelSupportNeighborRadiusBase, denoiseScale(rows, cols), denoiseLabelSupportNeighborRadiusMin)
-}
-
-func denoiseEndpointLabelHalfWidth(rows, cols int) int {
-	return scaledInt(denoiseEndpointLabelHalfWidthBase, denoiseScale(rows, cols), denoiseEndpointLabelHalfWidthMin)
-}
-
-func denoiseEndpointLabelDownReach(rows, cols int) int {
-	return scaledInt(denoiseEndpointLabelDownReachBase, denoiseScale(rows, cols), denoiseEndpointLabelDownReachMin)
-}
-
-func denoiseEndpointLabelUpReach(rows, cols int) int {
-	return scaledInt(denoiseEndpointLabelUpReachBase, denoiseScale(rows, cols), denoiseEndpointLabelUpReachMin)
 }
 
 func denoiseOutputBlobMinArea(rows, cols int) int {
@@ -981,116 +958,6 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 
 	for r := 0; r < gray.Rows(); r++ {
 		for c := 0; c < gray.Cols(); c++ {
-			if mask.GetUCharAt(r, c) != 0 || labelSupportZone.GetUCharAt(r, c) == 0 || outputExempt.GetUCharAt(r, c) != 0 {
-				continue
-			}
-			if maskedNeighborCountInRadius(&mask, r, c, labelNeighborRadius) < 2 {
-				continue
-			}
-			localMean, ok := localMaskedMeanGray(rawGray, &mask, r, c)
-			if !ok {
-				continue
-			}
-			localGrayMargin := denoiseLabelToneRecoverGrayMargin
-			if isMarginPixel(gray.Rows(), gray.Cols(), r, c) {
-				localGrayMargin = denoiseLabelToneRecoverMarginGray
-			}
-			if int(rawGray.GetUCharAt(r, c)) > localMean+localGrayMargin {
-				continue
-			}
-			grayVal := minUint8(gray.GetUCharAt(r, c), rawGray.GetUCharAt(r, c))
-			supportPixels = append(supportPixels, supportPixel{r: r, c: c, blended: renderRecoveredLabelPixel(grayVal)})
-			outputExempt.SetUCharAt(r, c, denoiseMaskColor)
-		}
-	}
-
-	type endpointBox struct {
-		r0 int
-		r1 int
-		c0 int
-		c1 int
-	}
-	endpointHalfWidth := denoiseEndpointLabelHalfWidth(gray.Rows(), gray.Cols())
-	endpointDownReach := denoiseEndpointLabelDownReach(gray.Rows(), gray.Cols())
-	endpointUpReach := denoiseEndpointLabelUpReach(gray.Rows(), gray.Cols())
-	endpointBoxes := make([]endpointBox, 0, 64)
-	for r := 1; r < gray.Rows()-1; r++ {
-		for c := 0; c < gray.Cols(); c++ {
-			if mask.GetUCharAt(r, c) == 0 || mask.GetUCharAt(r-1, c) == 0 || mask.GetUCharAt(r+1, c) != 0 {
-				continue
-			}
-			endpointBoxes = append(endpointBoxes, endpointBox{
-				r0: maxInt(0, r-endpointUpReach),
-				r1: minInt(gray.Rows()-1, r+endpointDownReach),
-				c0: maxInt(0, c-endpointHalfWidth),
-				c1: minInt(gray.Cols()-1, c+endpointHalfWidth),
-			})
-		}
-	}
-
-	endpointDark := gocv.NewMatWithSize(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U)
-	defer endpointDark.Close()
-	for r := 0; r < gray.Rows(); r++ {
-		for c := 0; c < gray.Cols(); c++ {
-			if mask.GetUCharAt(r, c) != 0 || outputExempt.GetUCharAt(r, c) != 0 {
-				continue
-			}
-			rawVal := rawGray.GetUCharAt(r, c)
-			if rawVal > denoiseEndpointLabelMaxGray {
-				continue
-			}
-			if grayNeighborCountInRadius(rawGray, r, c, 1, denoiseEndpointLabelMaxGray) < 1 {
-				continue
-			}
-			endpointDark.SetUCharAt(r, c, denoiseMaskColor)
-		}
-	}
-
-	endpointLabels := gocv.NewMat()
-	defer endpointLabels.Close()
-	endpointStats := gocv.NewMat()
-	defer endpointStats.Close()
-	endpointCentroids := gocv.NewMat()
-	defer endpointCentroids.Close()
-	endpointCount := gocv.ConnectedComponentsWithStats(endpointDark, &endpointLabels, &endpointStats, &endpointCentroids)
-	keepEndpoint := make([]bool, endpointCount)
-	maxEndpointArea := denoiseLabelRecoverMaxArea(gray.Rows(), gray.Cols())
-	maxEndpointWidth := denoiseLabelRecoverMaxWidth(gray.Rows(), gray.Cols())
-	maxEndpointHeight := denoiseLabelRecoverMaxHeight(gray.Rows(), gray.Cols())
-	for label := 1; label < endpointCount; label++ {
-		area := int(endpointStats.GetIntAt(label, 4))
-		if area < 1 || area > maxEndpointArea {
-			continue
-		}
-		left := int(endpointStats.GetIntAt(label, 0))
-		top := int(endpointStats.GetIntAt(label, 1))
-		width := int(endpointStats.GetIntAt(label, 2))
-		height := int(endpointStats.GetIntAt(label, 3))
-		if width > maxEndpointWidth || height > maxEndpointHeight {
-			continue
-		}
-		for _, box := range endpointBoxes {
-			if left < box.c0 || left+width-1 > box.c1 || top < box.r0 || top+height-1 > box.r1 {
-				continue
-			}
-			keepEndpoint[label] = true
-			break
-		}
-	}
-
-	for r := 0; r < gray.Rows(); r++ {
-		for c := 0; c < gray.Cols(); c++ {
-			label := int(endpointLabels.GetIntAt(r, c))
-			if label <= 0 || label >= endpointCount || !keepEndpoint[label] {
-				continue
-			}
-			grayVal := minUint8(gray.GetUCharAt(r, c), rawGray.GetUCharAt(r, c))
-			supportPixels = append(supportPixels, supportPixel{r: r, c: c, blended: renderRecoveredLabelPixel(grayVal)})
-			outputExempt.SetUCharAt(r, c, denoiseMaskColor)
-		}
-	}
-	for r := 0; r < gray.Rows(); r++ {
-		for c := 0; c < gray.Cols(); c++ {
 			if support.GetUCharAt(r, c) == 0 || mask.GetUCharAt(r, c) != 0 {
 				continue
 			}
@@ -1567,7 +1434,6 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 		if int(px.blended) <= denoiseBlobDarkAnchorGray {
 			darkAnchors++
 		}
-		minR, maxR, minC, maxC := px.r, px.r, px.c, px.c
 
 		for head := 0; head < len(queue); head++ {
 			currIdx := queue[head]
@@ -1596,18 +1462,6 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 				if neighborGray <= denoiseBlobDarkAnchorGray {
 					darkAnchors++
 				}
-				if rr < minR {
-					minR = rr
-				}
-				if rr > maxR {
-					maxR = rr
-				}
-				if cc < minC {
-					minC = cc
-				}
-				if cc > maxC {
-					maxC = cc
-				}
 			}
 		}
 
@@ -1616,8 +1470,7 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 			maxBlobArea = area
 		}
 		meanGray := float64(sumGray) / float64(area)
-		maxDim := maxInt(maxR-minR+1, maxC-minC+1)
-		if keepBlobComponent(area, minArea, meanGray, darkAnchors, rows, cols, maxDim) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
+		if keepBlobComponent(area, minArea, meanGray, darkAnchors, rows, cols) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
 			for _, idx := range component {
 				keep[idx] = true
 			}
@@ -1627,20 +1480,14 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 	return keep, maxBlobArea
 }
 
-func keepBlobComponent(area int, minArea int, meanGray float64, darkAnchors, rows, cols, maxDim int) bool {
+func keepBlobComponent(area int, minArea int, meanGray float64, darkAnchors, rows, cols int) bool {
 	if area < minArea {
 		return false
 	}
 	if meanGray <= blobMaxMeanGrayForArea(area, minArea) {
 		return true
 	}
-	if darkAnchors >= blobRequiredDarkAnchors(area, rows, cols) {
-		return true
-	}
-	if float64(area) < float64(maxDim)*denoiseLineLikeAreaFactor {
-		return true
-	}
-	return false
+	return darkAnchors >= blobRequiredDarkAnchors(area, rows, cols)
 }
 
 func keepEdgeBlobComponent(area int, meanGray float64, darkAnchors int, touchesSideMargin bool) bool {
