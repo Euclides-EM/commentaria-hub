@@ -139,6 +139,8 @@ const (
 	denoiseClusterMinNeighbors         = 3
 	denoiseClusterAreaRatioMax         = 4.0
 
+	denoiseIsolatedBlobMinAreaFactor = 3
+
 	denoiseRecoverLowC        = 5
 	denoiseRecoverZoneBase    = 15
 	denoiseRecoverZoneMin     = 9
@@ -1048,7 +1050,7 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 		if bucketSize > denoiseInkBucketMax {
 			bucketSize = denoiseInkBucketMax
 		}
-		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, outputExempt, minBlobArea, inkOffset)
+		keptPixels, maxBlobArea := filterOutputByBlobSize(&out, outputExempt, mask, minBlobArea, inkOffset)
 		debugLogf("[%s] output blobs: kept_pixels=%d min_blob_area=%d max_blob_area=%d gray_range=%d-%d bucket_size=%d", inPath, keptPixels, minBlobArea, maxBlobArea, denoiseBlobMinGray, denoiseBlobMaxGray, bucketSize)
 	}
 
@@ -1394,13 +1396,22 @@ func localMaskedMeanGray(gray *gocv.Mat, mask *gocv.Mat, r, c int) (int, bool) {
 	return sum / count, true
 }
 
-func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea int, bucketSize int) ([]bool, int) {
+func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, mask gocv.Mat, minArea int, bucketSize int) ([]bool, int) {
 	keep := make([]bool, len(pixels))
 	if len(pixels) == 0 {
 		return keep, 0
 	}
 	sideMarginWidth := denoiseSideMarginWidth(cols)
 	topMarginHeight := denoiseTopMarginHeight(rows)
+
+	strongGrid := make([]bool, rows*cols)
+	for r := 0; r < rows; r++ {
+		for c := 0; c < cols; c++ {
+			if mask.GetUCharAt(r, c) != 0 {
+				strongGrid[r*cols+c] = true
+			}
+		}
+	}
 
 	grid := make([]int, rows*cols)
 	for i := range grid {
@@ -1429,6 +1440,7 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 		sumGray := int(px.blended)
 		darkAnchors := 0
 		touchesPageMargin := px.c < sideMarginWidth || px.c >= cols-sideMarginWidth || px.r < topMarginHeight
+		touchesExempt := strongGrid[px.r*cols+px.c]
 		if int(px.blended) <= denoiseBlobDarkAnchorGray {
 			darkAnchors++
 		}
@@ -1441,6 +1453,9 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 				cc := curr.c + step[1]
 				if rr < 0 || rr >= rows || cc < 0 || cc >= cols {
 					continue
+				}
+				if strongGrid[rr*cols+cc] {
+					touchesExempt = true
 				}
 				neighborIdx := grid[rr*cols+cc]
 				if neighborIdx < 0 || seen[neighborIdx] {
@@ -1468,7 +1483,11 @@ func keepSupportPixelsByBlobSize(rows, cols int, pixels []supportPixel, minArea 
 			maxBlobArea = area
 		}
 		meanGray := float64(sumGray) / float64(area)
-		if keepBlobComponent(area, minArea, meanGray, darkAnchors, rows, cols) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
+		effectiveMinArea := minArea
+		if !touchesExempt {
+			effectiveMinArea = minArea * denoiseIsolatedBlobMinAreaFactor
+		}
+		if keepBlobComponent(area, effectiveMinArea, meanGray, darkAnchors, rows, cols) || keepEdgeBlobComponent(area, meanGray, darkAnchors, touchesPageMargin) {
 			for _, idx := range component {
 				keep[idx] = true
 			}
@@ -1564,7 +1583,7 @@ func inkLightnessOffset(gray *gocv.Mat, mask gocv.Mat) int {
 	return offset
 }
 
-func filterOutputByBlobSize(mat *gocv.Mat, exemptMask gocv.Mat, minArea int, inkOffset int) (int, int) {
+func filterOutputByBlobSize(mat *gocv.Mat, exemptMask gocv.Mat, mask gocv.Mat, minArea int, inkOffset int) (int, int) {
 	rows := mat.Rows()
 	cols := mat.Cols()
 
@@ -1589,7 +1608,7 @@ func filterOutputByBlobSize(mat *gocv.Mat, exemptMask gocv.Mat, minArea int, ink
 	if bucketSize > denoiseInkBucketMax {
 		bucketSize = denoiseInkBucketMax
 	}
-	keep, maxBlobArea := keepSupportPixelsByBlobSize(rows, cols, pixels, minArea, bucketSize)
+	keep, maxBlobArea := keepSupportPixelsByBlobSize(rows, cols, pixels, mask, minArea, bucketSize)
 	kept := 0
 	for i, px := range pixels {
 		if keep[i] {
