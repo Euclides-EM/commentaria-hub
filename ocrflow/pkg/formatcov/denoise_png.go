@@ -908,7 +908,6 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 			}
 			grayVal := minUint8(gray.GetUCharAt(r, c), rawGray.GetUCharAt(r, c))
 			supportPixels = append(supportPixels, supportPixel{r: r, c: c, blended: renderRecoveredLabelPixel(grayVal)})
-			outputExempt.SetUCharAt(r, c, denoiseMaskColor)
 		}
 	}
 
@@ -952,7 +951,6 @@ func applyForegroundMask(rawGray *gocv.Mat, gray *gocv.Mat, mask gocv.Mat, exemp
 			}
 			grayVal := minUint8(gray.GetUCharAt(r, c), rawGray.GetUCharAt(r, c))
 			supportPixels = append(supportPixels, supportPixel{r: r, c: c, blended: renderRecoveredLabelPixel(grayVal)})
-			outputExempt.SetUCharAt(r, c, denoiseMaskColor)
 		}
 	}
 
