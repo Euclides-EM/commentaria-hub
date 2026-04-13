@@ -467,27 +467,17 @@ func recoverThinLines(cleaned gocv.Mat, blurred *gocv.Mat) (gocv.Mat, error) {
 
 	n := gocv.ConnectedComponentsWithStats(candidates, &labels, &stats, &centroids)
 	minArea := denoiseMinBlobArea(rows, cols) * denoiseRecoverMinAreaMult
-	touchesZone := make([]bool, n)
-	for r := 0; r < rows; r++ {
-		for c := 0; c < cols; c++ {
-			lbl := int(labels.GetIntAt(r, c))
-			if lbl <= 0 || lbl >= n || touchesZone[lbl] {
-				continue
-			}
-			if zone.GetUCharAt(r, c) != 0 {
-				touchesZone[lbl] = true
-			}
-		}
-	}
-
 	out := cleaned.Clone()
 	for r := 0; r < rows; r++ {
 		for c := 0; c < cols; c++ {
 			lbl := int(labels.GetIntAt(r, c))
-			if lbl <= 0 || lbl >= n || !touchesZone[lbl] {
+			if lbl <= 0 || lbl >= n {
 				continue
 			}
 			if int(stats.GetIntAt(lbl, 4)) < minArea {
+				continue
+			}
+			if zone.GetUCharAt(r, c) == 0 {
 				continue
 			}
 			out.SetUCharAt(r, c, denoiseMaskColor)
