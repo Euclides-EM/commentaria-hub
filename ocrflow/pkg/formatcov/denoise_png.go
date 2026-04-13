@@ -79,7 +79,7 @@ const (
 
 	denoiseEnhanceNeighborStrength        = 0.35
 	denoiseEnhanceCoreGamma               = 1.60
-	denoiseEnhanceRecoveredLabelGamma     = 2.20
+	denoiseEnhanceRecoveredLabelGamma     = 1.35
 	denoiseEnhanceNeighborMinRatio        = 0.25
 	denoiseMaskRefineMaxGray              = 210
 	denoiseMaskRefineMarginMaxGray        = 228
@@ -120,7 +120,7 @@ const (
 	denoiseEndpointLabelMaxGray           = 225
 	denoiseFixtureLabelBoostMaxGray       = 210
 	denoiseFixtureLabelBoostNeighborCount = 1
-	denoiseFixtureLabelBoostTargetGray    = 40
+	denoiseFixtureLabelBoostTargetGray    = 110
 	denoiseMarginSeedMaxGray              = 196
 	denoiseMarginSeedNeighbors            = 1
 	denoiseMarginSeedPasses               = 3
