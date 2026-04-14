@@ -62,6 +62,10 @@ const (
 	denoiseMergeWhiteThresholdRatio = 0.90
 	// denoiseMergeForegroundThresholdRatio requires at least one stage pixel to be darker than this grayscale level before the darker-value merge is allowed to keep non-white output. Valid range: 0 <= value <= 1.
 	denoiseMergeForegroundThresholdRatio = 0.78
+	// denoiseFadeMarginRatio scales the outward fade radius for gray-box edges from the smaller image dimension. Valid range: 0 < value < 1.
+	denoiseFadeMarginRatio = 0.030
+	// denoiseFadeGrayMinRatio is the minimum brightness level treated as gray-box source for the outward fade; pixels darker than this are ink. Valid range: 0 <= value <= 1.
+	denoiseFadeGrayMinRatio = 0.39
 )
 
 func maxDenoiseWorkers() int {
@@ -178,6 +182,11 @@ func denoiseOne(inPath, outPath string) error {
 	defer combined.Close()
 	if err := removeBlankAreaSpecks(&combined, t1, proximityRadius); err != nil {
 		return fmt.Errorf("remove blank-area specks from %q: %w", inPath, err)
+	}
+
+	fadeRadius := maxInt(5, int(math.Ceil(float64(minInt(combined.Rows(), combined.Cols()))*denoiseFadeMarginRatio)))
+	if err := fadeGrayBoxMargins(&combined, gray, fadeRadius); err != nil {
+		return fmt.Errorf("fade gray box margins for %q: %w", inPath, err)
 	}
 
 	if ok := gocv.IMWrite(outPath, combined); !ok {
@@ -676,6 +685,65 @@ func pixelInComponentProximity(row, col, cols int, component []int, proximityRad
 		}
 	}
 	return false
+}
+
+func fadeGrayBoxMargins(img *gocv.Mat, orig gocv.Mat, fadeRadius int) error {
+	rows, cols := img.Rows(), img.Cols()
+	data := img.ToBytes()
+	origData := orig.ToBytes()
+	fadeGrayMin := uint8(math.Round(denoiseFadeGrayMinRatio * 255.0))
+
+	srcMask := make([]byte, len(data))
+	for i, px := range data {
+		if px >= fadeGrayMin && px < 255 {
+			srcMask[i] = 0
+		} else {
+			srcMask[i] = 255
+		}
+	}
+
+	srcMat, err := gocv.NewMatFromBytes(rows, cols, gocv.MatTypeCV8U, srcMask)
+	if err != nil {
+		return err
+	}
+	defer srcMat.Close()
+
+	distMat := gocv.NewMatWithSize(rows, cols, gocv.MatTypeCV32F)
+	defer distMat.Close()
+	labels := gocv.NewMat()
+	defer labels.Close()
+
+	if err := gocv.DistanceTransform(srcMat, &distMat, &labels, gocv.DistL2, gocv.DistanceMask5, gocv.DistanceLabelPixel); err != nil {
+		return err
+	}
+
+	distBytes := distMat.ToBytes()
+	result := make([]byte, len(data))
+	copy(result, data)
+
+	fr := float64(fadeRadius)
+	for i, px := range data {
+		if px != 255 {
+			continue
+		}
+		off := i * 4
+		bits := uint32(distBytes[off]) | uint32(distBytes[off+1])<<8 | uint32(distBytes[off+2])<<16 | uint32(distBytes[off+3])<<24
+		d := float64(math.Float32frombits(bits))
+		if d >= fr {
+			continue
+		}
+		origPx := float64(origData[i])
+		t := d / fr
+		result[i] = uint8(math.Round(origPx + t*t*(255-origPx)))
+	}
+
+	cleaned, err := gocv.NewMatFromBytes(rows, cols, gocv.MatTypeCV8U, result)
+	if err != nil {
+		return err
+	}
+	img.Close()
+	*img = cleaned
+	return nil
 }
 
 func denoiseProximityRadius(rows, cols int) int {
