@@ -33,8 +33,9 @@ const (
 	denoiseOneSpeckFillRatioMin          = 0.3
 	denoiseOneSpeckLightFraction         = 0.90
 	denoiseOneSpeckLightThresh           = 200.0
-	denoiseOneSpeckClusterRadiusFraction = 0.01
-	denoiseOneSpeckHaloFraction          = 0.003
+	denoiseOneSpeckClusterRadiusFraction  = 0.01
+	denoiseOneSpeckTextProximityFraction  = 0.02
+	denoiseOneSpeckHaloFraction           = 0.003
 )
 
 func maxDenoiseWorkers() int {
@@ -269,24 +270,44 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 		}
 	}
 
+	textProximityRadius := int(math.Round(denoiseOneSpeckTextProximityFraction * minDim))
+
 	toRemove := make([]bool, n)
 	for i := 1; i < n; i++ {
 		if !isCandidate[i] {
 			continue
 		}
+		ix0 := int(stats.GetIntAt(i, 0)) - textProximityRadius
+		iy0 := int(stats.GetIntAt(i, 1)) - textProximityRadius
+		ix1 := int(stats.GetIntAt(i, 0)) + int(stats.GetIntAt(i, 2)) - 1 + textProximityRadius
+		iy1 := int(stats.GetIntAt(i, 1)) + int(stats.GetIntAt(i, 3)) - 1 + textProximityRadius
+
 		hasNeighbor := false
+		nearText := false
 		for j := 1; j < n; j++ {
-			if j == i || !isCandidate[j] {
+			if j == i {
 				continue
 			}
-			dx := centroids2[i].cx - centroids2[j].cx
-			dy := centroids2[i].cy - centroids2[j].cy
-			if dx*dx+dy*dy <= clusterRadiusSq {
-				hasNeighbor = true
+			if isCandidate[j] {
+				dx := centroids2[i].cx - centroids2[j].cx
+				dy := centroids2[i].cy - centroids2[j].cy
+				if dx*dx+dy*dy <= clusterRadiusSq {
+					hasNeighbor = true
+				}
+			} else {
+				jx0 := int(stats.GetIntAt(j, 0))
+				jy0 := int(stats.GetIntAt(j, 1))
+				jx1 := jx0 + int(stats.GetIntAt(j, 2)) - 1
+				jy1 := jy0 + int(stats.GetIntAt(j, 3)) - 1
+				if ix0 <= jx1 && ix1 >= jx0 && iy0 <= jy1 && iy1 >= jy0 {
+					nearText = true
+				}
+			}
+			if hasNeighbor && nearText {
 				break
 			}
 		}
-		if !hasNeighbor {
+		if !hasNeighbor && !nearText {
 			toRemove[i] = true
 		}
 	}
