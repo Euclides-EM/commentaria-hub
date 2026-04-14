@@ -21,6 +21,7 @@ const (
 	denoiseMaxWorkers = 2
 
 	denoiseOneSCurveSteepness      = 12.0
+	denoiseOneDarkSCurveSteepness  = 6.0
 	denoiseOneAlphaScale           = 1.0
 	denoiseOneAlphaMinThreshold    = 0.25
 	denoiseOneSmallBlobFraction    = 0.00005
@@ -33,9 +34,9 @@ const (
 	denoiseOneSpeckFillRatioMin          = 0.3
 	denoiseOneSpeckLightFraction         = 0.90
 	denoiseOneSpeckLightThresh           = 200.0
-	denoiseOneSpeckClusterRadiusFraction  = 0.01
-	denoiseOneSpeckTextProximityFraction  = 0.02
-	denoiseOneSpeckHaloFraction           = 0.003
+	denoiseOneSpeckClusterRadiusFraction = 0.01
+	denoiseOneSpeckTextProximityFraction = 0.02
+	denoiseOneSpeckHaloFraction          = 0.003
 )
 
 func maxDenoiseWorkers() int {
@@ -124,9 +125,14 @@ func denoiseOne(inPath, outPath string) error {
 	defer gray.Close()
 	gocv.CvtColor(img, &gray, gocv.ColorBGRToGray)
 
+	sCurveSteepness, err := denoiseOneSCurveSteepnessForGray(gray)
+	if err != nil {
+		return fmt.Errorf("inspect grayscale balance: %w", err)
+	}
+
 	contrastA := gocv.NewMat()
 	defer contrastA.Close()
-	applySCurve(&gray, &contrastA)
+	applySCurve(&gray, &contrastA, sCurveSteepness)
 
 	alphaGrayThresh := float32(255.0 * (1.0 - denoiseOneAlphaMinThreshold/denoiseOneAlphaScale))
 
@@ -152,15 +158,37 @@ func denoiseOne(inPath, outPath string) error {
 	return nil
 }
 
-func applySCurve(src, dst *gocv.Mat) {
+func denoiseOneSCurveSteepnessForGray(gray gocv.Mat) (float64, error) {
+	grayData, err := gray.DataPtrUint8()
+	if err != nil {
+		return 0, err
+	}
+
+	darkPixels := 0
+	brightPixels := 0
+	for _, px := range grayData {
+		if px < 160 {
+			darkPixels++
+			continue
+		}
+		brightPixels++
+	}
+
+	if darkPixels > brightPixels {
+		return denoiseOneDarkSCurveSteepness, nil
+	}
+	return denoiseOneSCurveSteepness, nil
+}
+
+func applySCurve(src, dst *gocv.Mat, steepness float64) {
 	lut := gocv.NewMatWithSize(1, 256, gocv.MatTypeCV8U)
 	defer lut.Close()
 	lutData, _ := lut.DataPtrUint8()
-	yMin := 1.0 / (1.0 + math.Exp(denoiseOneSCurveSteepness*0.5))
-	yMax := 1.0 / (1.0 + math.Exp(-denoiseOneSCurveSteepness*0.5))
+	yMin := 1.0 / (1.0 + math.Exp(steepness*0.5))
+	yMax := 1.0 / (1.0 + math.Exp(-steepness*0.5))
 	for i := 0; i < 256; i++ {
 		x := float64(i)/255.0 - 0.5
-		y := 1.0 / (1.0 + math.Exp(-denoiseOneSCurveSteepness*x))
+		y := 1.0 / (1.0 + math.Exp(-steepness*x))
 		norm := (y - yMin) / (yMax - yMin)
 		lutData[i] = uint8(math.Round(norm * 255))
 	}
