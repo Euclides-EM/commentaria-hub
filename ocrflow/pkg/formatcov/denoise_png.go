@@ -17,15 +17,25 @@ import (
 )
 
 const (
+	// denoiseMinWorkers bounds the denoise worker pool floor. Valid range: integer >= 1.
 	denoiseMinWorkers = 1
+	// denoiseMaxWorkers bounds the denoise worker pool ceiling. Valid range: integer >= denoiseMinWorkers.
 	denoiseMaxWorkers = 2
 
-	denoiseOneSCurveSteepness      = 12.0
-	denoiseOneAlphaScale           = 1
-	denoiseOneAlphaMinThreshold    = 0
-	denoiseOneSmallBlobFraction    = 0.00005
-	denoiseOneRemoteRadiusFraction = 0.08
-	denoiseOneBlobThreshGray       = 200.0
+	// denoiseProximityRatio scales the shared Chebyshev-radius proximity window from the smaller image dimension. Valid range: 0 < value < 1.
+	denoiseProximityRatio = 0.01
+	// denoiseSigmoidStrength controls how aggressively the S-curve pushes midtones toward black or white. Valid range: value > 0.
+	denoiseSigmoidStrength = 14.0
+	// denoiseT1DarkThresholdRatio marks t1 pixels darker than this grayscale level as foreground when detecting specks. Valid range: 0 <= value <= 1.
+	denoiseT1DarkThresholdRatio = 0.92
+	// denoiseT2DarknessRatio keeps only pixels with at least this normalized darkness in t2. Valid range: 0 <= value <= 1.
+	denoiseT2DarknessRatio = 0.20
+	// denoiseSpeckAreaRatio limits the maximum connected-component area eligible for speck removal, relative to full image area. Valid range: 0 < value < 1.
+	denoiseSpeckAreaRatio = 0.00012
+	// denoiseSpeckBBoxRatio limits the maximum bounding-box area eligible for speck removal, relative to full image area. Valid range: 0 < value < 1.
+	denoiseSpeckBBoxRatio = 0.00030
+	// denoiseSpeckDensityRatio requires a candidate speck to occupy at least this share of its own bounding box. Valid range: 0 < value <= 1.
+	denoiseSpeckDensityRatio = 0.33
 )
 
 func maxDenoiseWorkers() int {
@@ -104,135 +114,335 @@ func denoiseOne(inPath, outPath string) error {
 	}
 	defer img.Close()
 
-	h, w := img.Rows(), img.Cols()
-	minDim := float64(w)
-	if h < w {
-		minDim = float64(h)
+	gray, err := denoiseGray(img)
+	if err != nil {
+		return fmt.Errorf("convert %q to grayscale: %w", inPath, err)
 	}
-
-	gray := gocv.NewMat()
 	defer gray.Close()
-	gocv.CvtColor(img, &gray, gocv.ColorBGRToGray)
 
-	contrastA := gocv.NewMat()
-	defer contrastA.Close()
-	applySCurve(&gray, &contrastA)
+	t1, err := applyDenoiseSigmoid(gray)
+	if err != nil {
+		return fmt.Errorf("apply contrast curve to %q: %w", inPath, err)
+	}
+	defer t1.Close()
 
-	alphaGrayThresh := float32(255.0 * (1.0 - denoiseOneAlphaMinThreshold/denoiseOneAlphaScale))
-
-	maskB := gocv.NewMat()
-	defer maskB.Close()
-	gocv.Threshold(gray, &maskB, alphaGrayThresh, 255, gocv.ThresholdBinaryInv)
-
-	combined := gocv.NewMatWithSize(h, w, gocv.MatTypeCV8U)
-	defer combined.Close()
-	combined.SetTo(gocv.NewScalar(255, 0, 0, 0))
-	if err := contrastA.CopyToWithMask(&combined, maskB); err != nil {
-		return fmt.Errorf("combine tracks: %w", err)
+	proximityRadius := denoiseProximityRadius(gray.Rows(), gray.Cols())
+	if err := removeIsolatedSpecks(&t1, proximityRadius); err != nil {
+		return fmt.Errorf("remove isolated specks from %q: %w", inPath, err)
 	}
 
-	filtered := combined.Clone()
-	defer filtered.Close()
-	removeSmallIsolatedBlobs(&filtered, minDim)
+	t2, err := thresholdDarkPixels(gray)
+	if err != nil {
+		return fmt.Errorf("threshold dark pixels in %q: %w", inPath, err)
+	}
+	defer t2.Close()
 
-	if ok := gocv.IMWrite(outPath, filtered); !ok {
-		return fmt.Errorf("write image %q", outPath)
+	if err := filterByProximity(&t2, t1, proximityRadius); err != nil {
+		return fmt.Errorf("filter proximity-gated dark pixels in %q: %w", inPath, err)
+	}
+
+	combined, err := mergeDenoiseStages(t1, t2)
+	if err != nil {
+		return fmt.Errorf("merge denoise stages for %q: %w", inPath, err)
+	}
+	defer combined.Close()
+
+	if ok := gocv.IMWrite(outPath, combined); !ok {
+		return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
 	}
 	return nil
 }
 
-func applySCurve(src, dst *gocv.Mat) {
-	lut := gocv.NewMatWithSize(1, 256, gocv.MatTypeCV8U)
-	defer lut.Close()
-	lutData, _ := lut.DataPtrUint8()
-	yMin := 1.0 / (1.0 + math.Exp(denoiseOneSCurveSteepness*0.5))
-	yMax := 1.0 / (1.0 + math.Exp(-denoiseOneSCurveSteepness*0.5))
-	for i := 0; i < 256; i++ {
-		x := float64(i)/255.0 - 0.5
-		y := 1.0 / (1.0 + math.Exp(-denoiseOneSCurveSteepness*x))
-		norm := (y - yMin) / (yMax - yMin)
-		lutData[i] = uint8(math.Round(norm * 255))
+func denoiseGray(src gocv.Mat) (gocv.Mat, error) {
+	gray := gocv.NewMat()
+	if err := gocv.CvtColor(src, &gray, gocv.ColorBGRToGray); err != nil {
+		gray.Close()
+		return gocv.NewMat(), err
 	}
-	gocv.LUT(*src, lut, dst)
+	return gray, nil
 }
 
-func removeSmallIsolatedBlobs(img *gocv.Mat, minDim float64) {
-	h, w := img.Rows(), img.Cols()
-	totalArea := float64(h * w)
-	smallBlobMaxArea := denoiseOneSmallBlobFraction * totalArea
-	remoteRadiusSq := math.Pow(denoiseOneRemoteRadiusFraction*minDim, 2)
-
-	binary := gocv.NewMat()
-	defer binary.Close()
-	gocv.Threshold(*img, &binary, float32(denoiseOneBlobThreshGray), 255, gocv.ThresholdBinaryInv)
-
-	labels := gocv.NewMat()
-	defer labels.Close()
-	stats := gocv.NewMat()
-	defer stats.Close()
-	centroids := gocv.NewMat()
-	defer centroids.Close()
-
-	n := gocv.ConnectedComponentsWithStats(binary, &labels, &stats, &centroids)
-	if n <= 1 {
-		return
+func applyDenoiseSigmoid(src gocv.Mat) (gocv.Mat, error) {
+	lutData := make([]byte, 256)
+	for i := range lutData {
+		x := float64(i) / 255.0
+		y := 1.0 / (1.0 + math.Exp(-denoiseSigmoidStrength*(x-0.5)))
+		lutData[i] = uint8(math.Round(y * 255.0))
 	}
 
-	type blobInfo struct {
-		cx, cy float64
-		small  bool
+	lut, err := gocv.NewMatFromBytes(1, len(lutData), gocv.MatTypeCV8U, lutData)
+	if err != nil {
+		return gocv.NewMat(), err
 	}
-	blobs := make([]blobInfo, n)
-	for i := 1; i < n; i++ {
-		area := stats.GetIntAt(i, 4)
-		blobs[i] = blobInfo{
-			cx:    centroids.GetDoubleAt(i, 0),
-			cy:    centroids.GetDoubleAt(i, 1),
-			small: float64(area) < smallBlobMaxArea,
-		}
-	}
+	defer lut.Close()
 
-	toRemove := make([]bool, n)
-	for i := 1; i < n; i++ {
-		if !blobs[i].small {
+	dst := gocv.NewMat()
+	if err := gocv.LUT(src, lut, &dst); err != nil {
+		dst.Close()
+		return gocv.NewMat(), err
+	}
+	return dst, nil
+}
+
+func thresholdDarkPixels(gray gocv.Mat) (gocv.Mat, error) {
+	threshold := uint8(math.Round((1.0 - denoiseT2DarknessRatio) * 255.0))
+	src := gray.ToBytes()
+	dst := make([]byte, len(src))
+	for i, px := range src {
+		if px <= threshold {
+			dst[i] = px
 			continue
 		}
-		remote := true
-		for j := 1; j < n; j++ {
-			if j == i {
+		dst[i] = 255
+	}
+
+	mat, err := gocv.NewMatFromBytes(gray.Rows(), gray.Cols(), gocv.MatTypeCV8U, dst)
+	if err != nil {
+		return gocv.NewMat(), err
+	}
+	return mat, nil
+}
+
+func filterByProximity(t2 *gocv.Mat, t1 gocv.Mat, proximityRadius int) error {
+	t1Data := t1.ToBytes()
+	t2Data := t2.ToBytes()
+	rows, cols := t1.Rows(), t1.Cols()
+
+	nearby := buildProximityMask(t1Data, rows, cols, proximityRadius, func(px uint8) bool {
+		return px < 255
+	})
+
+	for i, px := range t2Data {
+		if px == 255 || nearby[i] {
+			continue
+		}
+		t2Data[i] = 255
+	}
+
+	filtered, err := gocv.NewMatFromBytes(rows, cols, gocv.MatTypeCV8U, t2Data)
+	if err != nil {
+		return err
+	}
+	t2.Close()
+	*t2 = filtered
+	return nil
+}
+
+func mergeDenoiseStages(t1, t2 gocv.Mat) (gocv.Mat, error) {
+	t1Data := t1.ToBytes()
+	t2Data := t2.ToBytes()
+	merged := make([]byte, len(t1Data))
+
+	for i, px := range t1Data {
+		if px == 255 {
+			merged[i] = t2Data[i]
+			continue
+		}
+		merged[i] = px
+	}
+
+	mat, err := gocv.NewMatFromBytes(t1.Rows(), t1.Cols(), gocv.MatTypeCV8U, merged)
+	if err != nil {
+		return gocv.NewMat(), err
+	}
+	return mat, nil
+}
+
+func removeIsolatedSpecks(t1 *gocv.Mat, proximityRadius int) error {
+	rows, cols := t1.Rows(), t1.Cols()
+	data := t1.ToBytes()
+	darkThreshold := uint8(math.Round(denoiseT1DarkThresholdRatio * 255.0))
+
+	visited := make([]bool, len(data))
+	maxArea := maxInt(1, int(math.Ceil(float64(rows*cols)*denoiseSpeckAreaRatio)))
+	maxBBoxArea := maxInt(1, int(math.Ceil(float64(rows*cols)*denoiseSpeckBBoxRatio)))
+
+	for idx, px := range data {
+		if visited[idx] || px > darkThreshold {
+			continue
+		}
+
+		component, bounds := collectDarkComponent(data, rows, cols, idx, darkThreshold, visited)
+		area := len(component)
+		bboxArea := (bounds.maxRow - bounds.minRow + 1) * (bounds.maxCol - bounds.minCol + 1)
+		density := float64(area) / float64(bboxArea)
+
+		if area > maxArea || bboxArea > maxBBoxArea || density < denoiseSpeckDensityRatio {
+			continue
+		}
+		if !componentIsIsolated(data, rows, cols, component, bounds, darkThreshold, proximityRadius) {
+			continue
+		}
+
+		for _, p := range component {
+			data[p] = 255
+		}
+	}
+
+	cleaned, err := gocv.NewMatFromBytes(rows, cols, gocv.MatTypeCV8U, data)
+	if err != nil {
+		return err
+	}
+	t1.Close()
+	*t1 = cleaned
+	return nil
+}
+
+type componentBounds struct {
+	minRow int
+	maxRow int
+	minCol int
+	maxCol int
+}
+
+func collectDarkComponent(data []byte, rows, cols, start int, darkThreshold uint8, visited []bool) ([]int, componentBounds) {
+	queue := []int{start}
+	visited[start] = true
+	component := make([]int, 0, 16)
+	startRow, startCol := start/cols, start%cols
+	bounds := componentBounds{
+		minRow: startRow,
+		maxRow: startRow,
+		minCol: startCol,
+		maxCol: startCol,
+	}
+
+	for len(queue) > 0 {
+		idx := queue[len(queue)-1]
+		queue = queue[:len(queue)-1]
+		component = append(component, idx)
+
+		row, col := idx/cols, idx%cols
+		if row < bounds.minRow {
+			bounds.minRow = row
+		}
+		if row > bounds.maxRow {
+			bounds.maxRow = row
+		}
+		if col < bounds.minCol {
+			bounds.minCol = col
+		}
+		if col > bounds.maxCol {
+			bounds.maxCol = col
+		}
+
+		for dr := -1; dr <= 1; dr++ {
+			for dc := -1; dc <= 1; dc++ {
+				if dr == 0 && dc == 0 {
+					continue
+				}
+				r := row + dr
+				c := col + dc
+				if r < 0 || r >= rows || c < 0 || c >= cols {
+					continue
+				}
+				next := r*cols + c
+				if visited[next] || data[next] > darkThreshold {
+					continue
+				}
+				visited[next] = true
+				queue = append(queue, next)
+			}
+		}
+	}
+
+	return component, bounds
+}
+
+func buildProximityMask(data []byte, rows, cols, proximityRadius int, include func(uint8) bool) []bool {
+	mask := make([]bool, len(data))
+	if proximityRadius < 0 {
+		return mask
+	}
+
+	for row := 0; row < rows; row++ {
+		for col := 0; col < cols; col++ {
+			idx := row*cols + col
+			if !include(data[idx]) {
 				continue
 			}
-			dx := blobs[i].cx - blobs[j].cx
-			dy := blobs[i].cy - blobs[j].cy
-			if dx*dx+dy*dy <= remoteRadiusSq {
-				remote = false
-				break
-			}
-		}
-		if remote {
-			toRemove[i] = true
-		}
-	}
 
-	imgData, err := img.DataPtrUint8()
-	if err != nil {
-		return
-	}
+			minRow := maxInt(0, row-proximityRadius)
+			maxRow := minInt(rows-1, row+proximityRadius)
+			minCol := maxInt(0, col-proximityRadius)
+			maxCol := minInt(cols-1, col+proximityRadius)
 
-	for i := 1; i < n; i++ {
-		if !toRemove[i] {
-			continue
-		}
-		x0 := int(stats.GetIntAt(i, 0))
-		y0 := int(stats.GetIntAt(i, 1))
-		bw := int(stats.GetIntAt(i, 2))
-		bh := int(stats.GetIntAt(i, 3))
-		for ry := y0; ry < y0+bh; ry++ {
-			for rx := x0; rx < x0+bw; rx++ {
-				if int(labels.GetIntAt(ry, rx)) == i {
-					imgData[ry*w+rx] = 255
+			for r := minRow; r <= maxRow; r++ {
+				base := r * cols
+				for c := minCol; c <= maxCol; c++ {
+					mask[base+c] = true
 				}
 			}
 		}
 	}
+
+	return mask
+}
+
+func componentIsIsolated(data []byte, rows, cols int, component []int, bounds componentBounds, darkThreshold uint8, proximityRadius int) bool {
+	componentSet := make(map[int]struct{}, len(component))
+	for _, idx := range component {
+		componentSet[idx] = struct{}{}
+	}
+
+	minRow := maxInt(0, bounds.minRow-proximityRadius)
+	maxRow := minInt(rows-1, bounds.maxRow+proximityRadius)
+	minCol := maxInt(0, bounds.minCol-proximityRadius)
+	maxCol := minInt(cols-1, bounds.maxCol+proximityRadius)
+
+	for row := minRow; row <= maxRow; row++ {
+		for col := minCol; col <= maxCol; col++ {
+			idx := row*cols + col
+			if data[idx] > darkThreshold {
+				continue
+			}
+			if _, ok := componentSet[idx]; ok {
+				continue
+			}
+			if pixelInComponentProximity(row, col, cols, component, proximityRadius) {
+				return false
+			}
+		}
+	}
+
+	return true
+}
+
+func pixelInComponentProximity(row, col, cols int, component []int, proximityRadius int) bool {
+	for _, idx := range component {
+		componentRow, componentCol := idx/cols, idx%cols
+		if maxInt(absInt(row-componentRow), absInt(col-componentCol)) <= proximityRadius {
+			return true
+		}
+	}
+	return false
+}
+
+func denoiseProximityRadius(rows, cols int) int {
+	minDim := rows
+	if cols < minDim {
+		minDim = cols
+	}
+	return maxInt(1, int(math.Ceil(float64(minDim)*denoiseProximityRatio)))
+}
+
+func maxInt(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func minInt(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+func absInt(v int) int {
+	if v < 0 {
+		return -v
+	}
+	return v
 }
