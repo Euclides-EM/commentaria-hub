@@ -33,7 +33,7 @@ const (
 	// denoiseSpeckIsolationThresholdRatio marks surrounding t1 pixels darker than this grayscale level as nearby dark support when deciding whether a speck is isolated. Valid range: 0 <= value <= 1.
 	denoiseSpeckIsolationThresholdRatio = 0.58
 	// denoiseT2DarknessRatio keeps only pixels with at least this normalized darkness in t2. Valid range: 0 <= value <= 1.
-	denoiseT2DarknessRatio = 0.40
+	denoiseT2DarknessRatio = 0.20
 	// denoiseSpeckAreaRatio limits the maximum connected-component area eligible for speck removal, relative to full image area. Valid range: 0 < value < 1.
 	denoiseSpeckAreaRatio = 0.00012
 	// denoiseSpeckBBoxRatio limits the maximum bounding-box area eligible for speck removal, relative to full image area. Valid range: 0 < value < 1.
@@ -46,6 +46,22 @@ const (
 	denoiseSpeckHaloRatio = 0.35
 	// denoiseSpeckContextRatio limits how much broad t1 foreground may appear in the shared proximity neighborhood around a candidate speck before it is treated as page content instead. Valid range: 0 <= value <= 1.
 	denoiseSpeckContextRatio = 0.015
+	// denoiseBlankSpeckThresholdRatio marks merged-image pixels darker than this grayscale level as blank-area speck candidates in the final cleanup pass. Valid range: 0 <= value <= 1.
+	denoiseBlankSpeckThresholdRatio = 0.92
+	// denoiseBlankContextThresholdRatio marks merged-image pixels darker than this grayscale level as nearby content when deciding whether a final-pass speck sits in an otherwise blank area. Valid range: 0 <= value <= 1.
+	denoiseBlankContextThresholdRatio = 0.70
+	// denoiseBlankContextRatio limits how much nearby content may exist around a final-pass speck candidate before it is preserved as real page content. Valid range: 0 <= value <= 1.
+	denoiseBlankContextRatio = 0.010
+	// denoiseBlankHaloRatio expands the erased area around a final-pass blank-area speck by this share of the shared proximity radius so soft halos are cleared together with the core. Valid range: 0 <= value <= 1.
+	denoiseBlankHaloRatio = 0.50
+	// denoiseBlankSupportThresholdRatio marks t1 pixels darker than this grayscale level as real nearby content that protects a final-pass candidate from removal. Valid range: 0 <= value <= 1.
+	denoiseBlankSupportThresholdRatio = 0.88
+	// denoiseBlankSupportRadiusRatio scales the title/content protection radius for the final blank-area cleanup from the shared proximity radius. Valid range: value >= 1.
+	denoiseBlankSupportRadiusRatio = 3.00
+	// denoiseMergeWhiteThresholdRatio treats stage pixels at or above this grayscale level as white during the final merge so faint background haze does not win the darker-value comparison. Valid range: 0 <= value <= 1.
+	denoiseMergeWhiteThresholdRatio = 0.90
+	// denoiseMergeForegroundThresholdRatio requires at least one stage pixel to be darker than this grayscale level before the darker-value merge is allowed to keep non-white output. Valid range: 0 <= value <= 1.
+	denoiseMergeForegroundThresholdRatio = 0.78
 )
 
 func maxDenoiseWorkers() int {
@@ -160,6 +176,9 @@ func denoiseOne(inPath, outPath string) error {
 		return fmt.Errorf("merge denoise stages for %q: %w", inPath, err)
 	}
 	defer combined.Close()
+	if err := removeBlankAreaSpecks(&combined, t1, proximityRadius); err != nil {
+		return fmt.Errorf("remove blank-area specks from %q: %w", inPath, err)
+	}
 
 	if ok := gocv.IMWrite(outPath, combined); !ok {
 		return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
@@ -221,9 +240,10 @@ func filterByProximity(t2 *gocv.Mat, t1 gocv.Mat, proximityRadius int) error {
 	t1Data := t1.ToBytes()
 	t2Data := t2.ToBytes()
 	rows, cols := t1.Rows(), t1.Cols()
+	darkThreshold := uint8(math.Round(denoiseT1DarkThresholdRatio * 255.0))
 
 	nearby := buildProximityMask(t1Data, rows, cols, proximityRadius, func(px uint8) bool {
-		return px < 255
+		return px <= darkThreshold
 	})
 
 	for i, px := range t2Data {
@@ -246,13 +266,34 @@ func mergeDenoiseStages(t1, t2 gocv.Mat) (gocv.Mat, error) {
 	t1Data := t1.ToBytes()
 	t2Data := t2.ToBytes()
 	merged := make([]byte, len(t1Data))
+	whiteThreshold := uint8(math.Round(denoiseMergeWhiteThresholdRatio * 255.0))
+	foregroundThreshold := uint8(math.Round(denoiseMergeForegroundThresholdRatio * 255.0))
 
-	for i, px := range t1Data {
-		if px == 255 {
-			merged[i] = t2Data[i]
+	for i, t1px := range t1Data {
+		t2px := t2Data[i]
+		if t1px >= whiteThreshold {
+			t1px = 255
+		}
+		if t2px >= whiteThreshold {
+			t2px = 255
+		}
+		if t2px == 255 {
+			if t1px > foregroundThreshold {
+				merged[i] = 255
+				continue
+			}
+			merged[i] = t1px
 			continue
 		}
-		merged[i] = px
+		if t1px == 255 {
+			merged[i] = t2px
+			continue
+		}
+		if t1px < t2px {
+			merged[i] = t1px
+			continue
+		}
+		merged[i] = t2px
 	}
 
 	mat, err := gocv.NewMatFromBytes(t1.Rows(), t1.Cols(), gocv.MatTypeCV8U, merged)
@@ -349,6 +390,82 @@ func removePixelsByMask(img *gocv.Mat, removed []bool) error {
 	img.Close()
 	*img = cleaned
 	return nil
+}
+
+func removeBlankAreaSpecks(img *gocv.Mat, t1 gocv.Mat, proximityRadius int) error {
+	rows, cols := img.Rows(), img.Cols()
+	data := img.ToBytes()
+	t1Data := t1.ToBytes()
+	darkThreshold := uint8(math.Round(denoiseBlankSpeckThresholdRatio * 255.0))
+	contextThreshold := uint8(math.Round(denoiseBlankContextThresholdRatio * 255.0))
+	supportThreshold := uint8(math.Round(denoiseBlankSupportThresholdRatio * 255.0))
+
+	visited := make([]bool, len(data))
+	maxArea := maxInt(1, int(math.Ceil(float64(rows*cols)*denoiseSpeckAreaRatio)))
+	maxBBoxArea := maxInt(1, int(math.Ceil(float64(rows*cols)*denoiseSpeckBBoxRatio)))
+	haloRadius := maxInt(1, int(math.Ceil(float64(proximityRadius)*denoiseBlankHaloRatio)))
+	supportRadius := maxInt(proximityRadius, int(math.Ceil(float64(proximityRadius)*denoiseBlankSupportRadiusRatio)))
+
+	for idx, px := range data {
+		if visited[idx] || px > darkThreshold {
+			continue
+		}
+
+		component, bounds := collectDarkComponent(data, rows, cols, idx, darkThreshold, visited)
+		area := len(component)
+		bboxArea := (bounds.maxRow - bounds.minRow + 1) * (bounds.maxCol - bounds.minCol + 1)
+		if area > maxArea || bboxArea > maxBBoxArea {
+			continue
+		}
+		if !componentHasBlankContext(data, rows, cols, component, bounds, contextThreshold, proximityRadius) {
+			continue
+		}
+		if componentHasNearbySupport(t1Data, rows, cols, bounds, supportThreshold, supportRadius) {
+			continue
+		}
+
+		eraseBounds(data, rows, cols, bounds, haloRadius)
+	}
+
+	cleaned, err := gocv.NewMatFromBytes(rows, cols, gocv.MatTypeCV8U, data)
+	if err != nil {
+		return err
+	}
+	img.Close()
+	*img = cleaned
+	return nil
+}
+
+func componentHasNearbySupport(data []byte, rows, cols int, bounds componentBounds, supportThreshold uint8, supportRadius int) bool {
+	minRow := maxInt(0, bounds.minRow-supportRadius)
+	maxRow := minInt(rows-1, bounds.maxRow+supportRadius)
+	minCol := maxInt(0, bounds.minCol-supportRadius)
+	maxCol := minInt(cols-1, bounds.maxCol+supportRadius)
+
+	for row := minRow; row <= maxRow; row++ {
+		base := row * cols
+		for col := minCol; col <= maxCol; col++ {
+			if data[base+col] <= supportThreshold {
+				return true
+			}
+		}
+	}
+
+	return false
+}
+
+func eraseBounds(data []byte, rows, cols int, bounds componentBounds, haloRadius int) {
+	minRow := maxInt(0, bounds.minRow-haloRadius)
+	maxRow := minInt(rows-1, bounds.maxRow+haloRadius)
+	minCol := maxInt(0, bounds.minCol-haloRadius)
+	maxCol := minInt(cols-1, bounds.maxCol+haloRadius)
+
+	for row := minRow; row <= maxRow; row++ {
+		base := row * cols
+		for col := minCol; col <= maxCol; col++ {
+			data[base+col] = 255
+		}
+	}
 }
 
 type componentBounds struct {
@@ -496,6 +613,40 @@ func componentHasSparseContext(data []byte, rows, cols int, component []int, bou
 
 	neighborArea := (maxRow - minRow + 1) * (maxCol - minCol + 1)
 	maxContextPixels := int(math.Ceil(float64(neighborArea) * denoiseSpeckContextRatio))
+	contextPixels := 0
+
+	for row := minRow; row <= maxRow; row++ {
+		base := row * cols
+		for col := minCol; col <= maxCol; col++ {
+			idx := base + col
+			if _, ok := componentSet[idx]; ok {
+				continue
+			}
+			if data[idx] <= contextThreshold {
+				contextPixels++
+				if contextPixels > maxContextPixels {
+					return false
+				}
+			}
+		}
+	}
+
+	return true
+}
+
+func componentHasBlankContext(data []byte, rows, cols int, component []int, bounds componentBounds, contextThreshold uint8, proximityRadius int) bool {
+	componentSet := make(map[int]struct{}, len(component))
+	for _, idx := range component {
+		componentSet[idx] = struct{}{}
+	}
+
+	minRow := maxInt(0, bounds.minRow-proximityRadius)
+	maxRow := minInt(rows-1, bounds.maxRow+proximityRadius)
+	minCol := maxInt(0, bounds.minCol-proximityRadius)
+	maxCol := minInt(cols-1, bounds.maxCol+proximityRadius)
+
+	neighborArea := (maxRow - minRow + 1) * (maxCol - minCol + 1)
+	maxContextPixels := int(math.Ceil(float64(neighborArea) * denoiseBlankContextRatio))
 	contextPixels := 0
 
 	for row := minRow; row <= maxRow; row++ {
