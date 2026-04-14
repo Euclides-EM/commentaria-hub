@@ -19,23 +19,6 @@ import (
 const (
 	denoiseMinWorkers = 1
 	denoiseMaxWorkers = 2
-
-	denoiseOneSCurveSteepness      = 6.0
-	denoiseOneAlphaScale           = 1.0
-	denoiseOneAlphaMinThreshold    = 0.15
-	denoiseOneSmallBlobFraction    = 0.00005
-	denoiseOneRemoteRadiusFraction = 0.08
-	denoiseOneBlobThreshGray       = 200.0
-
-	denoiseOneSpeckMaxFraction           = 0.00003
-	denoiseOneSpeckProximityFraction     = 0.0005
-	denoiseOneSpeckAspectRatioMax        = 2.5
-	denoiseOneSpeckFillRatioMin          = 0.3
-	denoiseOneSpeckLightFraction         = 0.90
-	denoiseOneSpeckLightThresh           = 200.0
-	denoiseOneSpeckClusterRadiusFraction = 0.01
-	denoiseOneSpeckTextProximityFraction = 0.02
-	denoiseOneSpeckHaloFraction          = 0.003
 )
 
 func maxDenoiseWorkers() int {
@@ -108,6 +91,8 @@ func DenoisePNGs(src, dst string) error {
 }
 
 func denoiseOne(inPath, outPath string) error {
+	const initialSCurveSteepness = 6.0
+
 	img := gocv.IMRead(inPath, gocv.IMReadColor)
 	if img.Empty() {
 		return fmt.Errorf("read image %q: empty or unsupported format", inPath)
@@ -126,9 +111,9 @@ func denoiseOne(inPath, outPath string) error {
 
 	contrastA := gocv.NewMat()
 	defer contrastA.Close()
-	applySCurve(&gray, &contrastA)
+	applySCurve(&gray, &contrastA, initialSCurveSteepness)
 
-	alphaGrayThresh := float32(255.0 * (1.0 - denoiseOneAlphaMinThreshold/denoiseOneAlphaScale))
+	alphaGrayThresh := float32(255.0 * (1.0 - 0.15/1.0))
 
 	maskB := gocv.NewMat()
 	defer maskB.Close()
@@ -145,6 +130,7 @@ func denoiseOne(inPath, outPath string) error {
 	defer filtered.Close()
 	removeSmallIsolatedBlobs(&filtered, minDim)
 	removeSpecks(&filtered, minDim)
+	applyFinalToneMapping(&filtered)
 
 	if ok := gocv.IMWrite(outPath, filtered); !ok {
 		return fmt.Errorf("write image %q", outPath)
@@ -152,15 +138,111 @@ func denoiseOne(inPath, outPath string) error {
 	return nil
 }
 
-func applySCurve(src, dst *gocv.Mat) {
+func applyFinalToneMapping(img *gocv.Mat) {
+	const (
+		darkPixelThresh      = 230
+		brightnessBoostValue = 80
+		finalDarkSCurve      = 12.0
+	)
+
+	imgData, err := img.DataPtrUint8()
+	if err != nil || len(imgData) == 0 {
+		return
+	}
+
+	darkCount := 0
+	for _, px := range imgData {
+		if px < darkPixelThresh {
+			darkCount++
+		}
+	}
+
+	ratio := float64(darkCount) / float64(len(imgData))
+	fmt.Printf("ratio:: %f", ratio)
+	if ratio < 0.4 {
+		applyDarkenNonBrightPixels(imgData)
+		return
+	}
+
+	for i, px := range imgData {
+		boosted := int(px) + brightnessBoostValue
+		if boosted > 255 {
+			boosted = 255
+		}
+		imgData[i] = uint8(boosted)
+	}
+
+	recurved := gocv.NewMat()
+	defer recurved.Close()
+	applySCurve(img, &recurved, finalDarkSCurve)
+	recurved.CopyTo(img)
+}
+
+func applyDarkenNonBrightPixels(imgData []uint8) {
+	const (
+		brightDarkenValue    = 150
+		brightKeepPercentile = 0.25
+	)
+
+	brightKeepThreshold := percentileNonBrightPixelValue(imgData, brightKeepPercentile)
+
+	for i, px := range imgData {
+		if px >= brightKeepThreshold {
+			continue
+		}
+		darkened := int(px) - brightDarkenValue
+		if darkened < 0 {
+			darkened = 0
+		}
+		imgData[i] = uint8(darkened)
+	}
+}
+
+func percentileNonBrightPixelValue(imgData []uint8, percentile float64) uint8 {
+	var counts [256]int
+	nonBrightCount := 0
+	for _, px := range imgData {
+		if px == 255 {
+			continue
+		}
+		counts[px]++
+		nonBrightCount++
+	}
+	if nonBrightCount == 0 {
+		return 255
+	}
+
+	if percentile < 0 {
+		percentile = 0
+	} else if percentile > 1 {
+		percentile = 1
+	}
+
+	target := int(math.Ceil(percentile*float64(nonBrightCount))) - 1
+	if target < 0 {
+		target = 0
+	}
+
+	seen := 0
+	for value, count := range counts {
+		seen += count
+		if seen > target {
+			return uint8(value)
+		}
+	}
+
+	return 255
+}
+
+func applySCurve(src, dst *gocv.Mat, steepness float64) {
 	lut := gocv.NewMatWithSize(1, 256, gocv.MatTypeCV8U)
 	defer lut.Close()
 	lutData, _ := lut.DataPtrUint8()
-	yMin := 1.0 / (1.0 + math.Exp(denoiseOneSCurveSteepness*0.5))
-	yMax := 1.0 / (1.0 + math.Exp(-denoiseOneSCurveSteepness*0.5))
+	yMin := 1.0 / (1.0 + math.Exp(steepness*0.5))
+	yMax := 1.0 / (1.0 + math.Exp(-steepness*0.5))
 	for i := 0; i < 256; i++ {
 		x := float64(i)/255.0 - 0.5
-		y := 1.0 / (1.0 + math.Exp(-denoiseOneSCurveSteepness*x))
+		y := 1.0 / (1.0 + math.Exp(-steepness*x))
 		norm := (y - yMin) / (yMax - yMin)
 		lutData[i] = uint8(math.Round(norm * 255))
 	}
@@ -168,17 +250,29 @@ func applySCurve(src, dst *gocv.Mat) {
 }
 
 func removeSpecks(img *gocv.Mat, minDim float64) {
+	const (
+		speckMaxFraction           = 0.00003
+		speckProximityFraction     = 0.0005
+		speckAspectRatioMax        = 2.5
+		speckFillRatioMin          = 0.3
+		speckLightFraction         = 0.90
+		speckClusterRadiusFraction = 0.01
+		speckTextProximityFraction = 0.02
+		speckHaloFraction          = 0.003
+		oneSpeckLightThresh        = 200.0
+	)
+
 	h, w := img.Rows(), img.Cols()
 	totalArea := float64(h * w)
-	speckMaxArea := denoiseOneSpeckMaxFraction * totalArea
-	proximityRadius := int(math.Round(denoiseOneSpeckProximityFraction * minDim))
+	speckMaxArea := speckMaxFraction * totalArea
+	proximityRadius := int(math.Round(speckProximityFraction * minDim))
 	if proximityRadius < 1 {
 		proximityRadius = 1
 	}
 
 	binary := gocv.NewMat()
 	defer binary.Close()
-	gocv.Threshold(*img, &binary, float32(denoiseOneSpeckLightThresh), 255, gocv.ThresholdBinaryInv)
+	gocv.Threshold(*img, &binary, float32(oneSpeckLightThresh), 255, gocv.ThresholdBinaryInv)
 
 	labels := gocv.NewMat()
 	defer labels.Close()
@@ -206,7 +300,7 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 		}
 	}
 
-	clusterRadiusSq := math.Pow(denoiseOneSpeckClusterRadiusFraction*minDim, 2)
+	clusterRadiusSq := math.Pow(speckClusterRadiusFraction*minDim, 2)
 
 	isCandidate := make([]bool, n)
 	for i := 1; i < n; i++ {
@@ -218,11 +312,11 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 		bh := int(stats.GetIntAt(i, 3))
 
 		aspectRatio := float64(bw) / float64(bh)
-		if aspectRatio > denoiseOneSpeckAspectRatioMax || aspectRatio < 1.0/denoiseOneSpeckAspectRatioMax {
+		if aspectRatio > speckAspectRatioMax || aspectRatio < 1.0/speckAspectRatioMax {
 			continue
 		}
 		fillRatio := float64(area) / float64(bw*bh)
-		if fillRatio < denoiseOneSpeckFillRatioMin {
+		if fillRatio < speckFillRatioMin {
 			continue
 		}
 
@@ -256,7 +350,7 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 					continue
 				}
 				totalCount++
-				if imgData[ry*w+rx] >= uint8(denoiseOneSpeckLightThresh) {
+				if imgData[ry*w+rx] >= uint8(oneSpeckLightThresh) {
 					lightCount++
 				}
 			}
@@ -265,12 +359,12 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 		if totalCount == 0 {
 			continue
 		}
-		if float64(lightCount)/float64(totalCount) >= denoiseOneSpeckLightFraction {
+		if float64(lightCount)/float64(totalCount) >= speckLightFraction {
 			isCandidate[i] = true
 		}
 	}
 
-	textProximityRadius := int(math.Round(denoiseOneSpeckTextProximityFraction * minDim))
+	textProximityRadius := int(math.Round(speckTextProximityFraction * minDim))
 
 	toRemove := make([]bool, n)
 	for i := 1; i < n; i++ {
@@ -312,7 +406,7 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 		}
 	}
 
-	haloRadius := int(math.Round(denoiseOneSpeckHaloFraction * minDim))
+	haloRadius := int(math.Round(speckHaloFraction * minDim))
 	if haloRadius < 1 {
 		haloRadius = 1
 	}
@@ -355,14 +449,20 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 }
 
 func removeSmallIsolatedBlobs(img *gocv.Mat, minDim float64) {
+	const (
+		smallBlobFraction    = 0.00005
+		remoteRadiusFraction = 0.08
+		blobThreshGray       = 200.0
+	)
+
 	h, w := img.Rows(), img.Cols()
 	totalArea := float64(h * w)
-	smallBlobMaxArea := denoiseOneSmallBlobFraction * totalArea
-	remoteRadiusSq := math.Pow(denoiseOneRemoteRadiusFraction*minDim, 2)
+	smallBlobMaxArea := smallBlobFraction * totalArea
+	remoteRadiusSq := math.Pow(remoteRadiusFraction*minDim, 2)
 
 	binary := gocv.NewMat()
 	defer binary.Close()
-	gocv.Threshold(*img, &binary, float32(denoiseOneBlobThreshGray), 255, gocv.ThresholdBinaryInv)
+	gocv.Threshold(*img, &binary, float32(blobThreshGray), 255, gocv.ThresholdBinaryInv)
 
 	labels := gocv.NewMat()
 	defer labels.Close()
