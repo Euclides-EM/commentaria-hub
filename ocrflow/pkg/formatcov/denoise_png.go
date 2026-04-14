@@ -185,15 +185,14 @@ func applyFinalToneMapping(img *gocv.Mat) {
 	}
 
 	ratio := float64(darkCount) / float64(len(focusData))
-	print("dark pixel ratio: ", ratio, "\n")
+	if ratio > 0.9 {
+		applyDarkenNonBrightPixels(imgData, 0.1, 30)
+	}
 	if ratio < 0.25 {
 		applyDarkenNonBrightPixels(imgData, 0.25, 100)
 		return
-	} else {
-		applyDarkenNonBrightPixels(imgData, 0.1, 30)
-		if ratio < 0.8 {
-			return
-		}
+	} else if ratio < 0.8 {
+		return
 	}
 
 	for i, px := range imgData {
