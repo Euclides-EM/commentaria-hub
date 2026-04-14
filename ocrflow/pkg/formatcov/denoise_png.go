@@ -28,14 +28,24 @@ const (
 	denoiseSigmoidStrength = 14.0
 	// denoiseT1DarkThresholdRatio marks t1 pixels darker than this grayscale level as foreground when detecting specks. Valid range: 0 <= value <= 1.
 	denoiseT1DarkThresholdRatio = 0.92
+	// denoiseSpeckInkThresholdRatio marks t1 pixels darker than this grayscale level as true speck ink so haze does not glue specks to nearby background. Valid range: 0 <= value <= 1.
+	denoiseSpeckInkThresholdRatio = 0.82
+	// denoiseSpeckIsolationThresholdRatio marks surrounding t1 pixels darker than this grayscale level as nearby dark support when deciding whether a speck is isolated. Valid range: 0 <= value <= 1.
+	denoiseSpeckIsolationThresholdRatio = 0.58
 	// denoiseT2DarknessRatio keeps only pixels with at least this normalized darkness in t2. Valid range: 0 <= value <= 1.
-	denoiseT2DarknessRatio = 0.20
+	denoiseT2DarknessRatio = 0.40
 	// denoiseSpeckAreaRatio limits the maximum connected-component area eligible for speck removal, relative to full image area. Valid range: 0 < value < 1.
 	denoiseSpeckAreaRatio = 0.00012
 	// denoiseSpeckBBoxRatio limits the maximum bounding-box area eligible for speck removal, relative to full image area. Valid range: 0 < value < 1.
-	denoiseSpeckBBoxRatio = 0.00030
+	denoiseSpeckBBoxRatio = 0.00045
 	// denoiseSpeckDensityRatio requires a candidate speck to occupy at least this share of its own bounding box. Valid range: 0 < value <= 1.
 	denoiseSpeckDensityRatio = 0.33
+	// denoiseSpeckMeanDarknessRatio requires the average normalized darkness of a candidate speck to be at least this value before removal. Valid range: 0 <= value <= 1.
+	denoiseSpeckMeanDarknessRatio = 0.35
+	// denoiseSpeckHaloRatio expands the erased area around a removed speck by this share of the shared proximity radius so faint halos are cleared with the core blob. Valid range: 0 <= value <= 1.
+	denoiseSpeckHaloRatio = 0.35
+	// denoiseSpeckContextRatio limits how much broad t1 foreground may appear in the shared proximity neighborhood around a candidate speck before it is treated as page content instead. Valid range: 0 <= value <= 1.
+	denoiseSpeckContextRatio = 0.015
 )
 
 func maxDenoiseWorkers() int {
@@ -127,7 +137,8 @@ func denoiseOne(inPath, outPath string) error {
 	defer t1.Close()
 
 	proximityRadius := denoiseProximityRadius(gray.Rows(), gray.Cols())
-	if err := removeIsolatedSpecks(&t1, proximityRadius); err != nil {
+	removedSpecks, err := removeIsolatedSpecks(&t1, proximityRadius)
+	if err != nil {
 		return fmt.Errorf("remove isolated specks from %q: %w", inPath, err)
 	}
 
@@ -136,6 +147,9 @@ func denoiseOne(inPath, outPath string) error {
 		return fmt.Errorf("threshold dark pixels in %q: %w", inPath, err)
 	}
 	defer t2.Close()
+	if err := removePixelsByMask(&t2, removedSpecks); err != nil {
+		return fmt.Errorf("remove isolated specks from t2 in %q: %w", inPath, err)
+	}
 
 	if err := filterByProximity(&t2, t1, proximityRadius); err != nil {
 		return fmt.Errorf("filter proximity-gated dark pixels in %q: %w", inPath, err)
@@ -248,14 +262,18 @@ func mergeDenoiseStages(t1, t2 gocv.Mat) (gocv.Mat, error) {
 	return mat, nil
 }
 
-func removeIsolatedSpecks(t1 *gocv.Mat, proximityRadius int) error {
+func removeIsolatedSpecks(t1 *gocv.Mat, proximityRadius int) ([]bool, error) {
 	rows, cols := t1.Rows(), t1.Cols()
 	data := t1.ToBytes()
-	darkThreshold := uint8(math.Round(denoiseT1DarkThresholdRatio * 255.0))
+	darkThreshold := uint8(math.Round(denoiseSpeckInkThresholdRatio * 255.0))
+	isolationThreshold := uint8(math.Round(denoiseSpeckIsolationThresholdRatio * 255.0))
+	contextThreshold := uint8(math.Round(denoiseT1DarkThresholdRatio * 255.0))
+	removed := make([]bool, len(data))
 
 	visited := make([]bool, len(data))
 	maxArea := maxInt(1, int(math.Ceil(float64(rows*cols)*denoiseSpeckAreaRatio)))
 	maxBBoxArea := maxInt(1, int(math.Ceil(float64(rows*cols)*denoiseSpeckBBoxRatio)))
+	haloRadius := maxInt(1, int(math.Ceil(float64(proximityRadius)*denoiseSpeckHaloRatio)))
 
 	for idx, px := range data {
 		if visited[idx] || px > darkThreshold {
@@ -266,25 +284,70 @@ func removeIsolatedSpecks(t1 *gocv.Mat, proximityRadius int) error {
 		area := len(component)
 		bboxArea := (bounds.maxRow - bounds.minRow + 1) * (bounds.maxCol - bounds.minCol + 1)
 		density := float64(area) / float64(bboxArea)
+		meanDarkness := componentMeanDarkness(data, component)
 
-		if area > maxArea || bboxArea > maxBBoxArea || density < denoiseSpeckDensityRatio {
+		if area > maxArea || bboxArea > maxBBoxArea || density < denoiseSpeckDensityRatio || meanDarkness < denoiseSpeckMeanDarknessRatio {
 			continue
 		}
-		if !componentIsIsolated(data, rows, cols, component, bounds, darkThreshold, proximityRadius) {
+		if !componentIsIsolated(data, rows, cols, component, bounds, isolationThreshold, proximityRadius) {
+			continue
+		}
+		if !componentHasSparseContext(data, rows, cols, component, bounds, contextThreshold, proximityRadius) {
 			continue
 		}
 
-		for _, p := range component {
-			data[p] = 255
-		}
+		removeSpeckCore(data, removed, component)
+		expandRemovedSpeckMask(removed, rows, cols, bounds, haloRadius)
 	}
 
 	cleaned, err := gocv.NewMatFromBytes(rows, cols, gocv.MatTypeCV8U, data)
 	if err != nil {
-		return err
+		return nil, err
 	}
 	t1.Close()
 	*t1 = cleaned
+	return removed, nil
+}
+
+func removeSpeckCore(data []byte, removed []bool, component []int) {
+	for _, idx := range component {
+		data[idx] = 255
+		removed[idx] = true
+	}
+}
+
+func expandRemovedSpeckMask(removed []bool, rows, cols int, bounds componentBounds, haloRadius int) {
+	minRow := maxInt(0, bounds.minRow-haloRadius)
+	maxRow := minInt(rows-1, bounds.maxRow+haloRadius)
+	minCol := maxInt(0, bounds.minCol-haloRadius)
+	maxCol := minInt(cols-1, bounds.maxCol+haloRadius)
+
+	for row := minRow; row <= maxRow; row++ {
+		base := row * cols
+		for col := minCol; col <= maxCol; col++ {
+			removed[base+col] = true
+		}
+	}
+}
+
+func removePixelsByMask(img *gocv.Mat, removed []bool) error {
+	if len(removed) == 0 {
+		return nil
+	}
+
+	data := img.ToBytes()
+	for i, drop := range removed {
+		if drop {
+			data[i] = 255
+		}
+	}
+
+	cleaned, err := gocv.NewMatFromBytes(img.Rows(), img.Cols(), gocv.MatTypeCV8U, data)
+	if err != nil {
+		return err
+	}
+	img.Close()
+	*img = cleaned
 	return nil
 }
 
@@ -349,6 +412,18 @@ func collectDarkComponent(data []byte, rows, cols, start int, darkThreshold uint
 	return component, bounds
 }
 
+func componentMeanDarkness(data []byte, component []int) float64 {
+	if len(component) == 0 {
+		return 0
+	}
+
+	var darknessSum float64
+	for _, idx := range component {
+		darknessSum += 1.0 - float64(data[idx])/255.0
+	}
+	return darknessSum / float64(len(component))
+}
+
 func buildProximityMask(data []byte, rows, cols, proximityRadius int, include func(uint8) bool) []bool {
 	mask := make([]bool, len(data))
 	if proximityRadius < 0 {
@@ -401,6 +476,40 @@ func componentIsIsolated(data []byte, rows, cols int, component []int, bounds co
 			}
 			if pixelInComponentProximity(row, col, cols, component, proximityRadius) {
 				return false
+			}
+		}
+	}
+
+	return true
+}
+
+func componentHasSparseContext(data []byte, rows, cols int, component []int, bounds componentBounds, contextThreshold uint8, proximityRadius int) bool {
+	componentSet := make(map[int]struct{}, len(component))
+	for _, idx := range component {
+		componentSet[idx] = struct{}{}
+	}
+
+	minRow := maxInt(0, bounds.minRow-proximityRadius)
+	maxRow := minInt(rows-1, bounds.maxRow+proximityRadius)
+	minCol := maxInt(0, bounds.minCol-proximityRadius)
+	maxCol := minInt(cols-1, bounds.maxCol+proximityRadius)
+
+	neighborArea := (maxRow - minRow + 1) * (maxCol - minCol + 1)
+	maxContextPixels := int(math.Ceil(float64(neighborArea) * denoiseSpeckContextRatio))
+	contextPixels := 0
+
+	for row := minRow; row <= maxRow; row++ {
+		base := row * cols
+		for col := minCol; col <= maxCol; col++ {
+			idx := base + col
+			if _, ok := componentSet[idx]; ok {
+				continue
+			}
+			if data[idx] <= contextThreshold {
+				contextPixels++
+				if contextPixels > maxContextPixels {
+					return false
+				}
 			}
 		}
 	}
