@@ -34,6 +34,7 @@ const (
 	denoiseOneSpeckLightFraction         = 0.90
 	denoiseOneSpeckLightThresh           = 200.0
 	denoiseOneSpeckClusterRadiusFraction = 0.01
+	denoiseOneSpeckHaloFraction          = 0.003
 )
 
 func maxDenoiseWorkers() int {
@@ -290,6 +291,11 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 		}
 	}
 
+	haloRadius := int(math.Round(denoiseOneSpeckHaloFraction * minDim))
+	if haloRadius < 1 {
+		haloRadius = 1
+	}
+
 	for i := 1; i < n; i++ {
 		if !toRemove[i] {
 			continue
@@ -298,9 +304,28 @@ func removeSpecks(img *gocv.Mat, minDim float64) {
 		y0 := int(stats.GetIntAt(i, 1))
 		bw := int(stats.GetIntAt(i, 2))
 		bh := int(stats.GetIntAt(i, 3))
-		for ry := y0; ry < y0+bh; ry++ {
-			for rx := x0; rx < x0+bw; rx++ {
-				if int(labels.GetIntAt(ry, rx)) == i {
+
+		ex0 := x0 - haloRadius
+		if ex0 < 0 {
+			ex0 = 0
+		}
+		ey0 := y0 - haloRadius
+		if ey0 < 0 {
+			ey0 = 0
+		}
+		ex1 := x0 + bw - 1 + haloRadius
+		if ex1 >= w {
+			ex1 = w - 1
+		}
+		ey1 := y0 + bh - 1 + haloRadius
+		if ey1 >= h {
+			ey1 = h - 1
+		}
+
+		for ry := ey0; ry <= ey1; ry++ {
+			for rx := ex0; rx <= ex1; rx++ {
+				lbl := int(labels.GetIntAt(ry, rx))
+				if lbl == i || lbl == 0 || toRemove[lbl] {
 					imgData[ry*w+rx] = 255
 				}
 			}
