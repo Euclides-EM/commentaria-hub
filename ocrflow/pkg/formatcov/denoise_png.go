@@ -63,7 +63,7 @@ const (
 	// denoiseMergeForegroundThresholdRatio requires at least one stage pixel to be darker than this grayscale level before the darker-value merge is allowed to keep non-white output. Valid range: 0 <= value <= 1.
 	denoiseMergeForegroundThresholdRatio = 0.78
 	// denoiseFadeMarginRatio scales the outward fade radius for gray-box edges from the smaller image dimension. Valid range: 0 < value < 1.
-	denoiseFadeMarginRatio = 0.030
+	denoiseFadeMarginRatio = 0.040
 	// denoiseFadeGrayMinRatio is the minimum brightness level treated as gray-box source for the outward fade; pixels darker than this are ink. Valid range: 0 <= value <= 1.
 	denoiseFadeGrayMinRatio = 0.39
 )
@@ -734,7 +734,8 @@ func fadeGrayBoxMargins(img *gocv.Mat, orig gocv.Mat, fadeRadius int) error {
 		}
 		origPx := float64(origData[i])
 		t := d / fr
-		result[i] = uint8(math.Round(origPx + t*t*(255-origPx)))
+		s := t * t * t * (t*(t*6-15) + 10)
+		result[i] = uint8(math.Round(origPx + s*(255-origPx)))
 	}
 
 	cleaned, err := gocv.NewMatFromBytes(rows, cols, gocv.MatTypeCV8U, result)
