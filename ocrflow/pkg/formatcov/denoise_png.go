@@ -5,6 +5,7 @@ package formatcov
 import (
 	"context"
 	"fmt"
+	"image"
 	"log"
 	"math"
 	"os"
@@ -143,6 +144,7 @@ func applyFinalToneMapping(img *gocv.Mat) {
 		darkPixelThresh      = 230
 		brightnessBoostValue = 80
 		finalDarkSCurve      = 12.0
+		focusFraction        = 0.7
 	)
 
 	imgData, err := img.DataPtrUint8()
@@ -150,18 +152,48 @@ func applyFinalToneMapping(img *gocv.Mat) {
 		return
 	}
 
+	focusData := imgData
+	rows, cols := img.Rows(), img.Cols()
+	if rows > 0 && cols > 0 {
+		focusWidth := int(math.Round(float64(cols) * focusFraction))
+		focusHeight := int(math.Round(float64(rows) * focusFraction))
+		if focusWidth < 1 {
+			focusWidth = 1
+		}
+		if focusHeight < 1 {
+			focusHeight = 1
+		}
+
+		startX := (cols - focusWidth) / 2
+		startY := (rows - focusHeight) / 2
+		focusRegion := img.Region(image.Rect(startX, startY, startX+focusWidth, startY+focusHeight))
+		defer focusRegion.Close()
+
+		focusClone := focusRegion.Clone()
+		defer focusClone.Close()
+
+		if regionData, regionErr := focusClone.DataPtrUint8(); regionErr == nil && len(regionData) > 0 {
+			focusData = regionData
+		}
+	}
+
 	darkCount := 0
-	for _, px := range imgData {
+	for _, px := range focusData {
 		if px < darkPixelThresh {
 			darkCount++
 		}
 	}
 
-	ratio := float64(darkCount) / float64(len(imgData))
-	fmt.Printf("ratio:: %f", ratio)
-	if ratio < 0.4 {
-		applyDarkenNonBrightPixels(imgData)
+	ratio := float64(darkCount) / float64(len(focusData))
+	print("dark pixel ratio: ", ratio, "\n")
+	if ratio < 0.25 {
+		applyDarkenNonBrightPixels(imgData, 0.25, 100)
 		return
+	} else {
+		applyDarkenNonBrightPixels(imgData, 0.1, 30)
+		if ratio < 0.8 {
+			return
+		}
 	}
 
 	for i, px := range imgData {
@@ -178,12 +210,7 @@ func applyFinalToneMapping(img *gocv.Mat) {
 	recurved.CopyTo(img)
 }
 
-func applyDarkenNonBrightPixels(imgData []uint8) {
-	const (
-		brightDarkenValue    = 150
-		brightKeepPercentile = 0.25
-	)
-
+func applyDarkenNonBrightPixels(imgData []uint8, brightKeepPercentile float64, brightDarkenValue int) {
 	brightKeepThreshold := percentileNonBrightPixelValue(imgData, brightKeepPercentile)
 
 	for i, px := range imgData {
