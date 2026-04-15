@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"image"
 	"image/png"
+	"io"
 	"log"
 	"os"
 	"path/filepath"
@@ -117,6 +118,10 @@ func imageToPNG(srcPath, dstPath string) error {
 		return fmt.Errorf("create output dir: %w", err)
 	}
 
+	if strings.EqualFold(filepath.Ext(srcPath), ".png") {
+		return copyFile(srcPath, dstPath)
+	}
+
 	in, err := os.Open(srcPath)
 	if err != nil {
 		return fmt.Errorf("open src: %w", err)
@@ -136,6 +141,26 @@ func imageToPNG(srcPath, dstPath string) error {
 
 	if err := png.Encode(out, img); err != nil {
 		return fmt.Errorf("encode png: %w", err)
+	}
+
+	return nil
+}
+
+func copyFile(srcPath, dstPath string) error {
+	in, err := os.Open(srcPath)
+	if err != nil {
+		return fmt.Errorf("open src: %w", err)
+	}
+	defer in.Close()
+
+	out, err := os.Create(dstPath)
+	if err != nil {
+		return fmt.Errorf("create dst: %w", err)
+	}
+	defer out.Close()
+
+	if _, err := io.Copy(out, in); err != nil {
+		return fmt.Errorf("copy file: %w", err)
 	}
 
 	return nil
@@ -165,6 +190,7 @@ func pngDirToPNGs(srcDir, outDir string) error {
 	for _, name := range pngNames {
 		srcPath := filepath.Join(srcDir, name)
 		dstPath := filepath.Join(outDir, outputPNGName(name))
+		fmt.Printf("preparing %q -> %q\n", srcPath, dstPath)
 		if err := imageToPNG(srcPath, dstPath); err != nil {
 			return fmt.Errorf("prepare %q: %w", srcPath, err)
 		}

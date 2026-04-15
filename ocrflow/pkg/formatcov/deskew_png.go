@@ -327,6 +327,10 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 				deskewLogf("[%s] line-angle retained on shallow local peak angle=%.3f", inPath, lineAngle)
 				return clampDeskewAngle(lineAngle), nil
 			}
+			if math.Abs(lineAngle) <= 1.0 && math.Abs(refinedAngle-lineAngle) > 0.5 && math.Abs(refinedAngle) > math.Abs(lineAngle) {
+				deskewLogf("[%s] line-angle retained to avoid over-refining small tilt angle=%.3f refined=%.3f", inPath, lineAngle, refinedAngle)
+				return clampDeskewAngle(lineAngle), nil
+			}
 			if math.Abs(refinedAngle-lineAngle) <= refineTolerance && projectionImprovementOK(refinedScore, zeroScore, refinedAngle) {
 				return clampDeskewAngle(refinedAngle), nil
 			}
@@ -407,6 +411,10 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 			}
 		}
 		deskewLogf("[%s] best angle rejected due to weak improvement best=%.6f zero=%.6f", inPath, bestS, zeroScore)
+		return 0, nil
+	}
+	if !constrainProjectionSearch && math.Abs(bestA) >= 3.0 {
+		deskewLogf("[%s] best angle rejected as unsupported projection-only tilt angle=%.3f best=%.6f zero=%.6f", inPath, bestA, bestS, zeroScore)
 		return 0, nil
 	}
 	if projectionPeakAtBoundary(bestA, searchMin, searchMax) {
@@ -630,6 +638,7 @@ type lineAngleEvidence struct {
 	dispersion float64
 	ok         bool
 	houghOnly  bool
+	source     string
 }
 
 func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (lineAngleEvidence, error) {
@@ -714,6 +723,10 @@ func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (lineAngleEvidence
 		deskewLogf("[%s] line-angle rejecting inconsistent combined cluster median=%.3f", inPath, best.median)
 		best = chooseAngleCluster(contourCluster, componentCluster, houghCluster)
 	}
+	if best.source == "hough" && math.Abs(best.median) >= 2.5 && contourCluster.inliers < 2 && componentCluster.inliers < 2 {
+		deskewLogf("[%s] line-angle rejecting isolated hough-only large angle median=%.3f", inPath, best.median)
+		return lineAngleEvidence{}, nil
+	}
 	if !best.ok || best.inliers < 3 || !lineClusterStrong(best, cols) {
 		deskewLogf("[%s] line-angle rejected weak cluster source=%s peak=%.3f inliers=%d inlierWeight=%.1f", inPath, best.source, best.peak, best.inliers, best.inlierWeight)
 		return lineAngleEvidence{}, nil
@@ -730,6 +743,7 @@ func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (lineAngleEvidence
 		dispersion: best.dispersion,
 		ok:         true,
 		houghOnly:  best.source == "hough",
+		source:     best.source,
 	}, nil
 }
 
@@ -1630,15 +1644,40 @@ func logAngleCluster(inPath string, cluster angleCluster) {
 func chooseAngleCluster(clusters ...angleCluster) angleCluster {
 	best := angleCluster{}
 	bestScore := -1.0
+	type scoredCluster struct {
+		cluster angleCluster
+		score   float64
+	}
+	scored := make([]scoredCluster, 0, len(clusters))
 	for _, cluster := range clusters {
 		if !cluster.ok {
 			continue
 		}
 
 		score := cluster.inlierWeight / (1 + cluster.dispersion)
+		scored = append(scored, scoredCluster{cluster: cluster, score: score})
 		if score > bestScore {
 			best = cluster
 			bestScore = score
+		}
+	}
+	if best.source == "hough" {
+		for _, candidate := range scored {
+			cluster := candidate.cluster
+			if cluster.source == "hough" {
+				continue
+			}
+			if candidate.score < bestScore*0.85 {
+				continue
+			}
+			if math.Abs(cluster.median-best.median) < 1.0 {
+				continue
+			}
+			if cluster.dispersion > best.dispersion {
+				continue
+			}
+			best = cluster
+			bestScore = candidate.score
 		}
 	}
 	return best
