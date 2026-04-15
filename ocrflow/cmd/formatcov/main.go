@@ -152,7 +152,7 @@ func pngDirToPNGs(srcDir, outDir string) error {
 		if entry.IsDir() {
 			continue
 		}
-		if strings.EqualFold(filepath.Ext(entry.Name()), ".png") {
+		if strings.EqualFold(filepath.Ext(entry.Name()), ".png") && !strings.HasSuffix(entry.Name(), ".snap.png") && !strings.HasSuffix(entry.Name(), ".stage.png") {
 			pngNames = append(pngNames, entry.Name())
 		}
 	}
