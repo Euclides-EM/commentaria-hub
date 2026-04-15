@@ -28,6 +28,8 @@ const (
 
 	opencvRemapMaxDim = math.MaxInt16 - 1
 	deskewMarginRatio = 0.10
+	deskewFocusRatio  = 0.80
+	deskewFocusMinInk = 0.20
 
 	deskewMinWorkers = 1
 	deskewMaxWorkers = 24
@@ -273,6 +275,11 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 	} else {
 		textMask = inv
 	}
+	refineMask := textMask
+	if focusMask, ok := centralDeskewFocusMask(textMask); ok {
+		defer focusMask.Close()
+		refineMask = focusMask
+	}
 
 	lineEvidence, err := estimateSkewTextLines(textMask, inPath)
 	if err != nil {
@@ -306,7 +313,11 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 				refineTolerance = 2.0
 				deskewLogf("[%s] line-angle near limit; widening local refine window to %.2f", inPath, refineWindow)
 			}
-			refinedAngle, refinedScore, zeroScore, scoreSpan, err := refineProjectionAroundAngle(textMask, lineAngle, refineWindow, inPath)
+			refineInput := textMask
+			if math.Abs(lineAngle) <= 1.5 {
+				refineInput = refineMask
+			}
+			refinedAngle, refinedScore, zeroScore, scoreSpan, err := refineProjectionAroundAngle(refineInput, lineAngle, refineWindow, inPath)
 			if err != nil {
 				return 0, err
 			}
@@ -326,6 +337,19 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 			if math.Abs(refinedAngle-lineAngle) <= 0.5 && lineDispersion <= 0.15 && projectionFlatPeak(refinedScore, zeroScore, scoreSpan) {
 				deskewLogf("[%s] line-angle retained on shallow local peak angle=%.3f", inPath, lineAngle)
 				return clampDeskewAngle(lineAngle), nil
+			}
+			if refinedAngle*lineAngle < 0 &&
+				math.Max(math.Abs(lineAngle), math.Abs(refinedAngle)) <= 0.45 &&
+				projectionFlatPeak(refinedScore, zeroScore, scoreSpan) {
+				deskewLogf("[%s] line-angle rejected due to tiny flat sign-flipping refine line=%.3f refined=%.3f", inPath, lineAngle, refinedAngle)
+				return 0, nil
+			}
+			if math.Abs(lineAngle) <= 1.0 &&
+				refinedAngle*lineAngle > 0 &&
+				math.Abs(refinedAngle-lineAngle) <= 0.35 &&
+				refinedScore > zeroScore*1.01 {
+				deskewLogf("[%s] line-angle accepted on same-sign small-angle refine line=%.3f refined=%.3f", inPath, lineAngle, refinedAngle)
+				return clampDeskewAngle(refinedAngle), nil
 			}
 			if math.Abs(lineAngle) <= 1.0 && math.Abs(refinedAngle-lineAngle) > 0.5 && math.Abs(refinedAngle) > math.Abs(lineAngle) {
 				deskewLogf("[%s] line-angle retained to avoid over-refining small tilt angle=%.3f refined=%.3f", inPath, lineAngle, refinedAngle)
@@ -413,7 +437,7 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 		deskewLogf("[%s] best angle rejected due to weak improvement best=%.6f zero=%.6f", inPath, bestS, zeroScore)
 		return 0, nil
 	}
-	if !constrainProjectionSearch && math.Abs(bestA) >= 3.0 {
+	if !constrainProjectionSearch && math.Abs(bestA) >= 3.0 && (zeroScore <= 0 || bestS <= zeroScore*4.0) {
 		deskewLogf("[%s] best angle rejected as unsupported projection-only tilt angle=%.3f best=%.6f zero=%.6f", inPath, bestA, bestS, zeroScore)
 		return 0, nil
 	}
@@ -423,6 +447,35 @@ func estimateSkewProjection(img gocv.Mat, inPath string) (float64, error) {
 	}
 
 	return clampDeskewAngle(bestA), nil
+}
+
+func centralDeskewFocusMask(src gocv.Mat) (gocv.Mat, bool) {
+	rows := src.Rows()
+	cols := src.Cols()
+
+	marginX := int(math.Round(float64(cols) * (1 - deskewFocusRatio) / 2))
+	marginY := int(math.Round(float64(rows) * (1 - deskewFocusRatio) / 2))
+	if marginX <= 0 && marginY <= 0 {
+		return gocv.Mat{}, false
+	}
+	left := marginX
+	top := marginY
+	right := cols - marginX
+	bottom := rows - marginY
+	if left >= right || top >= bottom {
+		return gocv.Mat{}, false
+	}
+
+	region := src.Region(image.Rect(left, top, right, bottom))
+	defer region.Close()
+	totalInk := gocv.CountNonZero(src)
+	if totalInk == 0 {
+		return gocv.Mat{}, false
+	}
+	if float64(gocv.CountNonZero(region))/float64(totalInk) < deskewFocusMinInk {
+		return gocv.Mat{}, false
+	}
+	return region.Clone(), true
 }
 
 func cropDeskewMargins(src gocv.Mat) (gocv.Mat, bool) {
@@ -723,6 +776,17 @@ func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (lineAngleEvidence
 		deskewLogf("[%s] line-angle rejecting inconsistent combined cluster median=%.3f", inPath, best.median)
 		best = chooseAngleCluster(contourCluster, componentCluster, houghCluster)
 	}
+	if (best.source == "combined" || best.source == "contours") &&
+		math.Abs(best.median) > 1.0 &&
+		math.Abs(best.median) <= 1.25 &&
+		contourCluster.inliers > 0 &&
+		contourCluster.inliers <= 2 &&
+		componentCluster.inliers <= 1 &&
+		houghCluster.inlierWeight > 0 &&
+		contourCluster.inlierWeight >= houghCluster.inlierWeight*10 {
+		deskewLogf("[%s] line-angle rejecting contour-dominant small angle median=%.3f", inPath, best.median)
+		return lineAngleEvidence{}, nil
+	}
 	if best.source == "hough" && math.Abs(best.median) >= 2.5 && contourCluster.inliers < 2 && componentCluster.inliers < 2 {
 		deskewLogf("[%s] line-angle rejecting isolated hough-only large angle median=%.3f", inPath, best.median)
 		return lineAngleEvidence{}, nil
@@ -738,8 +802,23 @@ func estimateSkewTextLines(invBinary gocv.Mat, inPath string) (lineAngleEvidence
 		return lineAngleEvidence{dispersion: best.dispersion}, nil
 	}
 
+	angle := best.median
+	if best.source == "combined" &&
+		contourCluster.inliers == 0 &&
+		componentCluster.inliers <= 1 &&
+		houghCluster.inliers >= 3 &&
+		math.Abs(angle) >= 0.75 &&
+		math.Abs(angle) < 1.5 {
+		factor := 0.75
+		if math.Abs(angle) < 1.0 {
+			factor = 0.25
+		}
+		angle *= factor
+		deskewLogf("[%s] line-angle damping sparse mixed small angle to %.3f", inPath, angle)
+	}
+
 	return lineAngleEvidence{
-		angle:      best.median,
+		angle:      angle,
 		dispersion: best.dispersion,
 		ok:         true,
 		houghOnly:  best.source == "hough",
