@@ -29,6 +29,7 @@ const (
 	pageNumberWidth    = 4
 	defaultConcurrency = 4
 	maxConcurrency     = 16
+	debugPageRange     = ""
 )
 
 type pageJob struct {
@@ -47,7 +48,7 @@ func main() {
 
 func run(args []string) error {
 	if len(args) != 3 {
-		return errors.New("usage: diagrams <input-dir> <output-dir> <segmentation-model>")
+		return errors.New("usage: diagrams <input-dir> <output-dir> <segmentation-model.pt>")
 	}
 
 	inputDir := strings.TrimSpace(args[0])
@@ -118,7 +119,7 @@ func processPDF(pdfPath, outputRootDir, segmentationModel string) error {
 	}
 	defer os.RemoveAll(rawDir)
 
-	if err := formatcov.PDF2PNGs(pdfPath, rawDir, renderDPI); err != nil {
+	if err := renderPDFPages(pdfPath, rawDir); err != nil {
 		return fmt.Errorf("render pdf %q: %w", pdfPath, err)
 	}
 
@@ -158,6 +159,19 @@ func processPDF(pdfPath, outputRootDir, segmentationModel string) error {
 	log.Printf("Finished PDF %s", pdfPath)
 
 	return nil
+}
+
+func renderPDFPages(pdfPath, rawDir string) error {
+	if strings.TrimSpace(debugPageRange) == "" {
+		return formatcov.PDF2PNGs(pdfPath, rawDir, renderDPI)
+	}
+
+	pages, err := pagesparser.IntRange(debugPageRange)
+	if err != nil {
+		return fmt.Errorf("invalid debug page range %q: %w", debugPageRange, err)
+	}
+	log.Printf("Rendering only debug page range %q for %s", debugPageRange, pdfPath)
+	return formatcov.PDF2PNGsWithPages(pdfPath, rawDir, renderDPI, pages)
 }
 
 func pipelineConcurrency() int {
