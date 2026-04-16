@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"image"
 	"image/png"
+	"io"
 	"log"
 	"os"
 	"path/filepath"
@@ -117,6 +118,10 @@ func imageToPNG(srcPath, dstPath string) error {
 		return fmt.Errorf("create output dir: %w", err)
 	}
 
+	if strings.EqualFold(filepath.Ext(srcPath), ".png") {
+		return copyFile(srcPath, dstPath)
+	}
+
 	in, err := os.Open(srcPath)
 	if err != nil {
 		return fmt.Errorf("open src: %w", err)
@@ -141,6 +146,26 @@ func imageToPNG(srcPath, dstPath string) error {
 	return nil
 }
 
+func copyFile(srcPath, dstPath string) error {
+	in, err := os.Open(srcPath)
+	if err != nil {
+		return fmt.Errorf("open src: %w", err)
+	}
+	defer in.Close()
+
+	out, err := os.Create(dstPath)
+	if err != nil {
+		return fmt.Errorf("create dst: %w", err)
+	}
+	defer out.Close()
+
+	if _, err := io.Copy(out, in); err != nil {
+		return fmt.Errorf("copy file: %w", err)
+	}
+
+	return nil
+}
+
 func pngDirToPNGs(srcDir, outDir string) error {
 	entries, err := os.ReadDir(srcDir)
 	if err != nil {
@@ -152,7 +177,7 @@ func pngDirToPNGs(srcDir, outDir string) error {
 		if entry.IsDir() {
 			continue
 		}
-		if strings.EqualFold(filepath.Ext(entry.Name()), ".png") {
+		if strings.EqualFold(filepath.Ext(entry.Name()), ".png") && !strings.HasSuffix(entry.Name(), ".snap.png") && !strings.HasSuffix(entry.Name(), ".stage.png") {
 			pngNames = append(pngNames, entry.Name())
 		}
 	}
@@ -165,6 +190,7 @@ func pngDirToPNGs(srcDir, outDir string) error {
 	for _, name := range pngNames {
 		srcPath := filepath.Join(srcDir, name)
 		dstPath := filepath.Join(outDir, outputPNGName(name))
+		fmt.Printf("preparing %q -> %q\n", srcPath, dstPath)
 		if err := imageToPNG(srcPath, dstPath); err != nil {
 			return fmt.Errorf("prepare %q: %w", srcPath, err)
 		}

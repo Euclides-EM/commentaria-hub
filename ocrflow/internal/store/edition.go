@@ -296,7 +296,7 @@ func (s *EditionCSV) upsertBibliography(ed *model.Edition) error {
 		return nil
 	}
 	if err := csv.ReplaceRowsForKey(s.csvPath(relBibliography), "key", ed.Key, rows); err != nil {
-		fmt.Printf("error upserting bibliography: %w", err)
+		fmt.Printf("error upserting bibliography: %v\n", err)
 	}
 	return nil
 }
