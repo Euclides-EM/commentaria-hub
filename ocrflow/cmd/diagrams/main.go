@@ -25,7 +25,7 @@ import (
 
 const (
 	renderDPI          = 300
-	diagramRegionType  = "GraphicZone-Diagram"
+	graphicZonePrefix  = "GraphicZone-"
 	pageNumberWidth    = 4
 	defaultConcurrency = 4
 	maxConcurrency     = 16
@@ -230,7 +230,7 @@ func processPage(job pageJob) error {
 		return fmt.Errorf("page %d load diagram regions: %w", job.pageNumber, err)
 	}
 	if len(crops) == 0 {
-		log.Printf("Page %04d %s: no %s regions", job.pageNumber, job.pdfBase, diagramRegionType)
+		log.Printf("Page %04d %s: no %s* regions", job.pageNumber, job.pdfBase, graphicZonePrefix)
 		return nil
 	}
 
@@ -297,7 +297,7 @@ func loadDiagramCrops(altoPath, imagePath string) ([]alto.CropRegion, error) {
 	}
 
 	bounds := image.Rect(0, 0, cfg.Width, cfg.Height)
-	regions, err := alto.ExtractCropRegionsByCategory(doc, diagramRegionType, bounds)
+	regions, err := alto.ExtractCropRegionsByCategoryPrefix(doc, graphicZonePrefix, bounds)
 	if err != nil {
 		return nil, fmt.Errorf("extract ALTO crop regions: %w", err)
 	}
@@ -311,7 +311,7 @@ func writeCrops(imagePath string, crops []alto.CropRegion, outputDir string, pag
 	}
 
 	for _, crop := range crops {
-		outName := cropFileName(pageNumber, crop.Index, denoised)
+		outName := cropFileName(pageNumber, crop.Label, crop.Index, denoised)
 		outPath := filepath.Join(outputDir, outName)
 		if err := futils.WritePNG(outPath, futils.CropImage(src, crop.Rect)); err != nil {
 			return fmt.Errorf("write crop %q: %w", outPath, err)
@@ -321,10 +321,20 @@ func writeCrops(imagePath string, crops []alto.CropRegion, outputDir string, pag
 	return nil
 }
 
-func cropFileName(pageNumber, diagramIndex int, denoised bool) string {
-	base := fmt.Sprintf("%0*d_%d", pageNumberWidth, pageNumber, diagramIndex)
+func cropFileName(pageNumber int, zoneLabel string, diagramIndex int, denoised bool) string {
+	base := fmt.Sprintf("%0*d_%s_%d", pageNumberWidth, pageNumber, sanitizeZoneLabel(zoneLabel), diagramIndex)
 	if denoised {
 		return base + "_denoised.png"
 	}
 	return base + ".png"
+}
+
+func sanitizeZoneLabel(label string) string {
+	label = strings.TrimSpace(label)
+	if label == "" {
+		return "Unknown"
+	}
+	label = strings.ReplaceAll(label, " ", "_")
+	label = strings.ReplaceAll(label, "/", "_")
+	return label
 }
