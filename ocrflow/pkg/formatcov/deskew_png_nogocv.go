@@ -8,3 +8,11 @@ package formatcov
 func DeskewPNGs(_, _ string) error {
 	return ErrDeskewUnavailable
 }
+
+func EstimateDeskewAnglePNG(_ string) (float64, error) {
+	return 0, ErrDeskewUnavailable
+}
+
+func DeskewPNGFileWithAngle(_, _ string, _ float64) error {
+	return ErrDeskewUnavailable
+}
