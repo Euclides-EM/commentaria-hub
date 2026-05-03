@@ -1,24 +1,24 @@
 key,short_title,short_title_source,year,city,language,author_or_editor,publisher,format,volumes,ustc_id,notes,has_diagrams
 London_1685a,,,1685,London,ENGLISH,"Claude-François Milliet Dechales, Reeve Williams",Philip Lea,12,1,,,
 London_1703,,,1703,London,ENGLISH,"Claude-François Milliet Dechales, Reeve Williams",A. Lea,12,1,-,,
-Leipzig_1577,,,1577,Leipzig,LATIN,"Joachim Kammermeister, Moritz Valentin Steinmetz",Johannes Steinman,8,1,,,
-Strasbourg_1570,,,1570,Strasbourg,"GREEK, LATIN",Conrad Dasypodius,Konrad Dasypodius,8,1,,,
+Leipzig_1577,EUCLIDIS ELEMENTORUM GEOMETRICORUM LIBRI SEX conuersi in latinum sermonem à Ioach,Specified in source,1577,Leipzig,LATIN,"Joachim Kammermeister, Moritz Valentin Steinmetz",Johannes Steinman,8,1,,,
+Strasbourg_1570,EVCLIDIS ELEMENTorum Liber primus,Specified in source,1570,Strasbourg,"GREEK, LATIN",Conrad Dasypodius,Konrad Dasypodius,8,1,,,
 Strasbourg_1599,,,1599,Strasbourg,LATIN,Conrad Dasypodius (?),Rihelij,8,1,-,,
-Wittenberg_1609,Euclidis elementorum libri XIII,Specified in source,1609,Wittenberg,LATIN,Ambrosius Rhode,Paul Helwig,8,1,,,True
-Wittenberg_1634,,,1634,Wittenberg,LATIN,Ambrosius Rhode,Heirs of Paul Helwig,8,1,-,,
+Wittenberg_1609,Euclidis elementorum libri XIII,Specified in source,1609,Wittenberg,LATIN,Ambrosius Rhode,Paul Helwig,8,1,,,
+Wittenberg_1634,Euclidis elementorum libri XIII,Specified in source,1634,Wittenberg,LATIN,Ambrosius Rhode,Heirs of Paul Helwig,8,1,-,,
 Wittenberg_1661,"Euclidis Elementorum Libri XIII., Succinctis & perspicuis demonstrationibus comprehensi a D. Ambrosio Rhodio Kembergensi, Mathematum Super: Professore publico in Academia Leucorea: Editio novissima, priore Correctior & Emendatior",Provided by catalog,1661,Wittenberg,LATIN,Ambrosius Rhode,Jobi Wilh. Fincelij,8,1,2589624,,
 Basel_1550,Euclidis Megarensis philosophi et mathematici excellentissimi sex libri priores de geometricis principiis,Specified in source,1550,Basel,LATIN,Johannes Scheubel,Johann Herwagen,2,1,,"Author's name also written ""Johann Scheybl"".",
 Florence_1690,"Elementi piani, e solidi agl'illustrissimi sig. dell'Accademia de' nobili",Provided by catalog,1690,Florence,ITALIAN,Vincenzio Viviani,Cesare e Francesco Bindi,12,1,1720908,,
 Bologna_1686,,,1686,Bologna,ITALIAN,Giovanni Ricci,Giuseppe Longhi,8,1,,,
 Brussels_1688,,,1688,Brussels,SPANISH,Sebastián Fernández de Medrano,Lamberto Marchant,8,1,-,,
 Paris_1609,"Les Elémens de la géométrie d'Euclides, traduicts et restitués à leur ancienne bréveté, selon l'ordre de Théon, ausquels ont esté adjoustez les quatorze et quinziesme d'Ipsicles, le tout par Dounot,",Provided by catalog,1609,Paris,FRENCH,Didier Dounot,Jacques Le Roy,,,6026094,,
-Paris_1610,Les éléments de la géométrie d’Euclide Mégarien,Specified in source,1610,Paris,FRENCH,Didier Dounot,Jacques Le Roy,4,1,,,True
+Paris_1610,Les éléments de la géométrie d’Euclide Mégarien,Specified in source,1610,Paris,FRENCH,Didier Dounot,Jacques Le Roy,4,1,,,
 Kiel_and_Leipzig_1699,,,1699,"Kiel, Leipzig",GERMAN,Samuel Reyher,Joachim Reumann,4,1,-,,
 Lyon_1690,,,1690,Lyon,LATIN,"Claude-François Milliet Dechales, Amatus Varcin","Anisson, Jean Possuel, and Claude Rigaud",4,4,-,,
 Cambridge_1655,Euclidis Elementorum Libri XV breviter demonstrati,Specified in source,1655,Cambridge,LATIN,Isaac Barrow,Guilielmi Nealand,6,1,3067707,,
 London_1659,"Euclidis Elementorum libri xv. breviter demonstrati, opera Is. Barrow, Cantabrigiensis, Coll. Trin. Soc.",Provided by catalog,1659,London,LATIN,Isaac Barrow,,8,1,3073895,,
 Osnabrück_1676,,,1676,Osnabrück,LATIN,Isaac Barrow,Schwänderum,8,1,,,
-London_1678,,,1678,London,LATIN,Isaac Barrow,J. Redmayne,8,1,,,
+London_1678,EUCLIDIS ELEMENTORUM Libri XV. breviter demonstrati,Specified in source,1678,London,LATIN,Isaac Barrow,J. Redmayne,8,1,,,
 London_1685,,,1685,London,LATIN,Isaac Barrow,Charles Mearne,8,1,,,
 London_1687,"Euclidis Elementorum libri XV. breviter demonstrati, opera Is. Barrow, Cantabrigiensis, Coll. Trin. Soc. Et prioribus mendis typographicis nunc demum purgati.",Provided by catalog,1687,London,LATIN,Isaac Barrow,Abel Swalle,8,1,3113673,,
 Paris_1643,,,1643,Paris,FRENCH,Pierre Bourdín,François Pelican,12,,-,,
@@ -26,19 +26,19 @@ Milan_1671,,,1671,Milan,ITALIAN,Pietro Paolo Caravaggi,Lodouico Monza,12,1,-,,
 Paris_1683,,,1683,Paris,FRENCH,Claude-François Milliet Dechales,Estienne Michallet,12,1,,,
 Paris_1690,,,1690,Paris,FRENCH,Claude-François Milliet Dechales,Estienne Michallet,12,1,,,
 Paris_1677a,,,1677,Paris,FRENCH,Claude-François Milliet Dechales,Estienne Michallet,12,1,,,
-Augsburg_1555,"Das sibend, acht und neünt büch des hochberümbten mathematici Euclidis Megarensis",Specified in source,1555,Augsburg,GERMAN,Johannes Scheubel,Valentin Ottmar,4,1,,,True
+Augsburg_1555,"Das sibend, acht und neünt büch des hochberümbten mathematici Euclidis Megarensis",Specified in source,1555,Augsburg,GERMAN,Johannes Scheubel,Valentin Ottmar,4,1,,,
 Rotterdam_1661,,,1661,Rotterdam,DUTCH,Jan Pietersz Dou,Abraham van Waesberge,8,1,,,
 Amsterdam_1700b,,,1700,Amsterdam,DUTCH,Jan Pietersz Dou,Hendrik Boterenbrood,8,1,-,,
 Amsterdam_1701,,,1701,Amsterdam,DUTCH,Jan Pietersz Dou,Hendrik Boterenbrood,8,1,-,,
-Ansbach_1610,Die ersten sechs Bücher Elementorum Euclidis,Specified in source,1610,Ansbach,"GERMAN, LATIN",Simon Marius,Paulum Böhm,2,1,,,True
+Ansbach_1610,Die ersten sechs Bücher Elementorum Euclidis,Specified in source,1610,Ansbach,"GERMAN, LATIN",Simon Marius,Paulum Böhm,2,1,,,
 Amsterdam_1662,,,1662,Amsterdam,DUTCH,Frans van Schooten,Iacob van Leest,12,1,,,
 Oxford_1701,"Euclidis elementorum libri priores sex, item undecimus et duodecimus ex versione latina Federici Commandini in usum juventutis academicae",Specified in source,1701,Oxford,LATIN,John Keill,Henry Clements,8,1,-,,
-Paris_1598a,Les six premiers livres des Éléments d’Euclide,Specified in source,1598,Paris,FRENCH,Jean Errard,Guillaume Auvray,8,1,,,True
-Paris_1605,,,1605,Paris,FRENCH,Jean Errard,Guillaume Auvray,8,1,,,
+Paris_1598a,Les six premiers livres des Éléments d’Euclide,Specified in source,1598,Paris,FRENCH,Jean Errard,Guillaume Auvray,8,1,,,
+Paris_1605,Les nevf premiers livres des elemens,Specified in source,1605,Paris,FRENCH,Jean Errard,Guillaume Auvray,8,1,,,
 Paris_1629,,,1629,Paris,FRENCH,Jean Errard,Cardin Besongne,4,1,,,
 Paris_1640,,,1640,Paris,FRENCH,Jacques-Alexandre Le Tenneur,,4,,,,
-Paris_1565,"Les septième, huitième et neuvième livres des Éléments d’Euclide",Specified in source,1565,Paris,FRENCH,Pierre Forcadel,Charles Perier,4,1,,,False
-Paris_1564,"Les six premiers livres des Éléments d’Euclide, traduits et commentés",Specified in source,1564,Paris,FRENCH,Pierre Forcadel,"Jérôme de Marnef, Guillaume Cauellat",4,1,,,True
+Paris_1565,"Les septième, huitième et neuvième livres des Éléments d’Euclide",Specified in source,1565,Paris,FRENCH,Pierre Forcadel,Charles Perier,4,1,,,
+Paris_1564,"Les six premiers livres des Éléments d’Euclide, traduits et commentés",Specified in source,1564,Paris,FRENCH,Pierre Forcadel,"Jérôme de Marnef, Guillaume Cauellat",4,1,,,
 Paris_1654a,Les Elements d’Euclide,Specified in source,1654,Paris,FRENCH,Georges Fournier,Jean Henault,8,1,,,
 Brussels_1701,,,1701,Brussels,SPANISH,Sebastián Fernández de Medrano,Lamberto Marchant,8,1,-,,
 Seville_1576,Los seis libros primeros de la geometría de Euclides,Specified in source,1576,Seville,SPANISH,Rodorigo de Zamorano,Alonso de la Barrera,4,1,336161,,
@@ -51,13 +51,13 @@ Paris_1566a,Les six premiers livres des Éléments d’Euclide,Specified in sour
 Amsterdam_1702,,,1702,Amsterdam,DUTCH,Henrick Coets,Henrick en de Weduwe van Dirck Boom,8,1,,,
 Leiden_1617,,,1617,Leiden,DUTCH,Frans van Schooten,Govert Basson,12,1,,,
 Siena_1691,,,1691,Siena,LATIN,Elias Astorinus,Bonettos,12,1,-,,
-Paris_1551,In sex priores libros geometricorum elementorum Euclidis Megarensis demonstrationes,Specified in source,1551,Paris,LATIN,Oronce Finé,Reginaldo Caldera,4,1,,,True
-Paris_1536,In sex priores libros geometricorum elementorum Euclidis Megarensis demonstrationes,Specified in source,1536,Paris,"LATIN, GREEK",Oronce Finé,Simon de Colines,2,1,,,True
-Paris_1544,In sex priores libros geometricorum elementorum Euclidis Megarensis demonstrationes,Specified in source,1544,Paris,LATIN,Oronce Finé,Simon de Colines,2,1,,,True
+Paris_1551,In sex priores libros geometricorum elementorum Euclidis Megarensis demonstrationes,Specified in source,1551,Paris,LATIN,Oronce Finé,Reginaldo Caldera,4,1,,,
+Paris_1536,In sex priores libros geometricorum elementorum Euclidis Megarensis demonstrationes,Specified in source,1536,Paris,"LATIN, GREEK",Oronce Finé,Simon de Colines,2,1,,,
+Paris_1544,In sex priores libros geometricorum elementorum Euclidis Megarensis demonstrationes,Specified in source,1544,Paris,LATIN,Oronce Finé,Simon de Colines,2,1,,,
 London_1680–81,"A new systeme of the mathematicks: containing I. Arithmetick, as well natural and decimal, as in species, or the principles of Algebra. II. Practical geometry, together with the first six books of Euclid's Elements, as also the eleventh and twelfth, symbolically demonstrated. III. Trigonometry plain and spherical. IV. Cosmography, or a description of the heavens. V. Navigation, or sailing by a plain or Mercator's chart; as also by the arch of a great circle,",Provided by catalog,1680/1681,London,ENGLISH,Jonas Moore,Robert Scott,4,2,3102825,"In ustc the author is Moore, Jonas",
 Pesaro_1619,,,1619,Pesaro,LATIN,"Federico Commandino, Valerio Spacciuoli",,2,1,,,True
 Strasbourg_1564,Euclidis quindecim Elementorum Geometriae primum,Specified in source,1564,Strasbourg,"GREEK, LATIN",Conrad Dasypodius,Christian Mehl,8,1,,,
-Strasbourg_1564b,,,1564,Strasbourg,LATIN,Conrad Dasypodius,Christian Mehl,8,1,,,
+Strasbourg_1564b,PROPOSITIOnes reliquorum Librorum Geometriæ Euclidis,Specified in source,1564,Strasbourg,LATIN,Conrad Dasypodius,Christian Mehl,8,1,,,
 Strasbourg_1566,Analyseis geometricae sex librorum Euclidis,Specified in source,1566,Strasbourg,"GREEK, LATIN","Conrad Dasypodius, Christian Herlin",Josias Rihel,4,1,,The source of our facsi pdf is unknown (From De Risi drive),
 Strasbourg_1564a,Euclides: Eukleidu Tōn Pente Kai Deka Stoicheiōn Ek Tōn Tu Theōnos synusiōn to deuteron,Provided by catalog,1564,Strasbourg,"GREEK, LATIN",Conrad Dasypodius,Konrad Dasypodius,8,1,,,
 Bologna_1651,,,1651,Bologna,ITALIAN,Giovanni Ricci,Gio. Batt. Ferroni,8,1,-,italiana without dot,
@@ -91,7 +91,7 @@ Cambridge_1665,"Euclidis sex primi Elementorum geometricorum libri, commodiùs d
 Würzburg_1661,"Cursus mathematicus, sive Absoluta omnium mathematicarum disciplinarum encyclopaedia",Specified in source,1661,Würzburg,LATIN,Gaspar Schott,Job Hertz,2,1,,,
 Graz_1636,Euclidis sex primi elementorum geometricorum libri cum parte undecimi ex majoribus Clavij commentarijs in commodiorem forma contracti,Specified in source,1636,Graz,LATIN,"Christopher Clavius, Christoph Grienberger, Jacobus Honoratus Durandus",Heirs of Ernst Widmanstetter,12,1,-,,
 Bamberg_1677,,,1677,Bamberg,LATIN,Gaspar Schott,Joh. Martini Schönwetteri,2,1,,,
-Ingolstadt_1617,Euclidis elementorum geometricorum libri sex priores,Specified in source,1617,Ingolstadt,LATIN,Johann Lanz,Angermayer,8,1,,,True
+Ingolstadt_1617,Euclidis elementorum geometricorum libri sex priores,Specified in source,1617,Ingolstadt,LATIN,Johann Lanz,Angermayer,8,1,,,
 Bologna_1629,Euclidis elementorum geometricorum libri sex priores,Specified in source,1629,Bologna,LATIN,Johann Lanz,Heirs of Giovanni Rossi,8,1,,,
 Antwerp_1654,Elementa geometriae planae et solidae,Specified in source,1654,Antwerp,LATIN,André Tacquet,Jacob Meursius,8,1,-,,
 Antwerp_1672,,,1672,Antwerp,LATIN,André Tacquet,Jacob Meursius,8,1,,,
@@ -109,67 +109,67 @@ Vicenza_1491,,,1491,Vicenza,LATIN,Leonardo Achati,,2,1,-,"We don't have the titl
 Venice_1498a,,,1498,Venice,LATIN,Giorgio Valla,Simon Papiensem,2,3,,,True
 Venice_1505,Euclidis megarensis philosophi platonici mathematicarum disciplinarum Ianitoris,Specified in source,1505,Venice,LATIN,Bartolomeo Zamberti,Giovanni Tacuino,2,1,,,
 Frankfurt_1506,Algorithmus mercatorrum variis proposicionibus eorundem contractibus inseruientibus multum decoratus,Provided by catalog,1506,Frankfurt,LATIN,Ambrosius Lacher,,4,1,610758,"I suspect this is not a title page, but only a title. From eip: ""Preclarissimus liber elementorum Euclidis perspicacissimi. in artem Geometrie incipit quamfoelicissime""",
-Venice_1509,Euclidis megarensis philosophi acutissimi mathematicorumque omnium sine controversia principis opera,Specified in source,1509,Venice,LATIN,Luca Pacioli,Paganino,2,1,,,True
-Venice_1510,Euclidis megarensis philosophi platonici mathematicarum disciplinarum janitoris,Specified in source,1510,Venice,LATIN,Bartolomeo Zamberti,Giovanni Tacuino,2,1,,,True
-Paris_1516,Euclidis Megarensis geometricorum elementorum libri XV,Specified in source,1516,Paris,LATIN,Jacques Lefèvre d'Étaples,Henri Estienne,2,1,,,True
-Basel_1533,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ. Euclidis Elementa.,Specified in source,1533,Basel,"GREEK, LATIN",Simon Grynaeus,Johann Herwagen,2,1,,,True
-Basel_1537,Euclidis Megarensis mathematici clarissimi elementorum geometricorum libri XV,Specified in source,1537,Basel,LATIN,Christian Herlin,Johann Herwagen,2,1,,,True
-Strasbourg_1538,ΕΥΚΛΕΙΔΟΥ ΤΩΝ ΠΕΝΤΕ ΚΑΙ ΔΕΚΑ ΣΤΟΙΧΕΙΩΝ ἐκ τῶν τοῦ ΘΕΩΝΟΣ συνουσιῶν τὸ πρῶτον,Specified in source,1538,Strasbourg,"GREEK, LATIN",Josias Rihel (?),Josias Rihel (?),4,1,,,True
+Venice_1509,Euclidis megarensis philosophi acutissimi mathematicorumque omnium sine controversia principis opera,Specified in source,1509,Venice,LATIN,Luca Pacioli,Paganino,2,1,,,
+Venice_1510,Euclidis megarensis philosophi platonici mathematicarum disciplinarum janitoris,Specified in source,1510,Venice,LATIN,Bartolomeo Zamberti,Giovanni Tacuino,2,1,,,
+Paris_1516,Euclidis Megarensis geometricorum elementorum libri XV,Specified in source,1516,Paris,LATIN,Jacques Lefèvre d'Étaples,Henri Estienne,2,1,,,
+Basel_1533,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ. Euclidis Elementa.,Specified in source,1533,Basel,"GREEK, LATIN",Simon Grynaeus,Johann Herwagen,2,1,,,
+Basel_1537,Euclidis Megarensis mathematici clarissimi elementorum geometricorum libri XV,Specified in source,1537,Basel,LATIN,Christian Herlin,Johann Herwagen,2,1,,,
+Strasbourg_1538,ΕΥΚΛΕΙΔΟΥ ΤΩΝ ΠΕΝΤΕ ΚΑΙ ΔΕΚΑ ΣΤΟΙΧΕΙΩΝ ἐκ τῶν τοῦ ΘΕΩΝΟΣ συνουσιῶν τὸ πρῶτον,Specified in source,1538,Strasbourg,"GREEK, LATIN",Josias Rihel (?),Josias Rihel (?),4,1,,,
 Venice_1543,"Euclide Megarense philosopho, solo introduttore delle scientie mathematice",Specified in source,1543,Venice,ITALIAN,Niccolò Tartaglia,Venturino Ruffinelli,2,1,,"""Secondo le due Tradottioni"" - meaning, Campanus and Zamberti.",
 Paris_1545,Elementa mathematica,Provided by catalog,1545,Paris,LATIN,Pierre de la Ramée,Ludouicus Grandinus,8,1,200620,,
-Rome_1545,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ιε. Euclidis Elementorum libri XV,Specified in source,1545,Rome,"GREEK, LATIN",Angelo Caiani,,8,1,,,False
-Rome_1545a,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ιε. Euclidis Elementorum libri XV,Specified in source,1545,Rome,LATIN,Angelo Caiani,Antonio Blado Asolano,8,1,,,False
-Basel_1546,Euclidis Megarensis mathematici clarissimi elementorum geometricorum libri XV,Specified in source,1546,Basel,LATIN,Christian Herlin,Johann Herwagen,2,1,,,True
-Leipzig_1549,"Euclidis elementorum geometricorum libri sex, conversi in Latinum sermonem",Specified in source,1549,Leipzig,LATIN,"Joachim Kammermeister, Georg Joachim Rhäticus",Georg Joachim Rhäticus,8,1,654436,,True
-Paris_1549,Euclides,Specified in source,1549,Paris,LATIN,Pierre de la Ramée,Thomas Richardus,8,1,,,False
-Paris_1551a,Euclidis elementorum liber decimus,Specified in source,1551,Paris,LATIN,Pierre de Montdoré,Jean de Vascosan,4,1,,,True
+Rome_1545,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ιε. Euclidis Elementorum libri XV,Specified in source,1545,Rome,"GREEK, LATIN",Angelo Caiani,,8,1,,,
+Rome_1545a,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ιε. Euclidis Elementorum libri XV,Specified in source,1545,Rome,LATIN,Angelo Caiani,Antonio Blado Asolano,8,1,,,
+Basel_1546,Euclidis Megarensis mathematici clarissimi elementorum geometricorum libri XV,Specified in source,1546,Basel,LATIN,Christian Herlin,Johann Herwagen,2,1,,,
+Leipzig_1549,"Euclidis elementorum geometricorum libri sex, conversi in Latinum sermonem",Specified in source,1549,Leipzig,LATIN,"Joachim Kammermeister, Georg Joachim Rhäticus",Georg Joachim Rhäticus,8,1,654436,,
+Paris_1549,Euclides,Specified in source,1549,Paris,LATIN,Pierre de la Ramée,Thomas Richardus,8,1,,,
+Paris_1551a,Euclidis elementorum liber decimus,Specified in source,1551,Paris,LATIN,Pierre de Montdoré,Jean de Vascosan,4,1,,,
 Paris_1552,,,1552,Paris,LATIN,Pierre de Montdoré,Jean de Vascosan,4,1,-,,
-Cologne_1556,Euclidis Megarensis mathematici clarissimi elementorum geometricorum liber primus,Specified in source,1556,Cologne,LATIN,Valentin Naboth,Birckmann,8,1,,,False
+Cologne_1556,Euclidis Megarensis mathematici clarissimi elementorum geometricorum liber primus,Specified in source,1556,Cologne,LATIN,Valentin Naboth,Birckmann,8,1,,,
 Lyon_1557,In Euclidis Elementa geometrica demonstrationum libri sex,Specified in source,1557,Lyon,LATIN,Jacques Peletier,"Jean di Tournes, Guillaume Gazeau",2,1,,,
 Paris_1557,"Euclidis Elementorum libri XV, Graecè et Latinè",Specified in source,1557,Paris,LATIN,"Jean Magnien, Étienne Gracile",,8,1,,,
-Basel_1558,Euclidis Megarensis mathematici clarissimi elementorum geometricorum libri XV,Provided by catalog,1558,Basel,LATIN,Christian Herlin,"Johann Herwagen, Bernhard Brand",2,1,654852,,True
+Basel_1558,Euclidis Megarensis mathematici clarissimi elementorum geometricorum libri XV,Provided by catalog,1558,Basel,LATIN,Christian Herlin,"Johann Herwagen, Bernhard Brand",2,1,654852,,
 Paris_1558,,,1558,Paris,LATIN,"Jean Magnien, Étienne Gracile",Guillaume Cavellat,8,1,,,
-Paris_1558a,Euclides,Specified in source,1558,Paris,LATIN,Pierre de la Ramée,Thomas Richard,4,1,,,False
-Strasbourg_1559,ΕΥΚΛΕΙΔΟΥ ΤΩΝ ΠΕΝΤΕ ΚΑΙ ΔΕΚΑ ΣΤΟΙΧΕΙΩΝ ἐκ τῶν τοῦ Θέωνος συνουσιῶν τὸ πρῶτον,Specified in source,1559,Strasbourg,"GREEK, LATIN",,Josias Rihel,8,1,,,True
-Basel_1562,"Die sechs ersten Bücher Euclidis, vom Anfang oder Grund der Geometrie",Specified in source,1562,Basel,GERMAN,Wilhelm Xylander,,2,1,,,True
-Cologne_1564,"Euclidis elementorum libri XV, Graece et Latine",Specified in source,1564,Cologne,LATIN,"Jean Magnien, Étienne Gracile",Maternus Cholinus,8,1,,,True
-Wittenberg_1564,,,1564,Wittenberg,"GREEK, LATIN",Joannes Sthen,,8,1,,,False
-Venice_1565,"Euclide Megarense philosopho, solo introduttore delle scientie mathematice",Specified in source,1565,Venice,LATIN,Niccolò Tartaglia,Curtio Troiano,8,1,,,True
+Paris_1558a,Euclides,Specified in source,1558,Paris,LATIN,Pierre de la Ramée,Thomas Richard,4,1,,,
+Strasbourg_1559,ΕΥΚΛΕΙΔΟΥ ΤΩΝ ΠΕΝΤΕ ΚΑΙ ΔΕΚΑ ΣΤΟΙΧΕΙΩΝ ἐκ τῶν τοῦ Θέωνος συνουσιῶν τὸ πρῶτον,Specified in source,1559,Strasbourg,"GREEK, LATIN",,Josias Rihel,8,1,,,
+Basel_1562,"Die sechs ersten Bücher Euclidis, vom Anfang oder Grund der Geometrie",Specified in source,1562,Basel,GERMAN,Wilhelm Xylander,,2,1,,,
+Cologne_1564,"Euclidis elementorum libri XV, Graece et Latine",Specified in source,1564,Cologne,LATIN,"Jean Magnien, Étienne Gracile",Maternus Cholinus,8,1,,,
+Wittenberg_1564,Arithmetices Euclideae,Specified in source,1564,Wittenberg,"GREEK, LATIN",Joannes Sthen,,8,1,,,
+Venice_1565,"Euclide Megarense philosopho, solo introduttore delle scientie mathematice",Specified in source,1565,Venice,LATIN,Niccolò Tartaglia,Curtio Troiano,8,1,,,
 Paris_1566,Euclidis Megarensis mathematici clarissimi elementa geometrica libri XV,Specified in source,1566,Paris,LATIN,François de Foix-Candale,Johann Royer,2,1,,"scans show two different editions, although seems like same text",
-Venice_1569,,,1569,Venice,LATIN,Niccolò Tartaglia,Giovanni Bariletto,8,1,,,True
-London_1570,The elements of geometrie of the most ancient philosopher Euclide of Megara,Specified in source,1570,London,ENGLISH,"Henry Billingsley, John Dee",John Daye,2,1,,,True
+Venice_1569,"Euclide megarense acutissimo philosopho, solo introduttore delle scientie mathematice",Specified in source,1569,Venice,LATIN,Niccolò Tartaglia,Giovanni Bariletto,8,1,,,
+London_1570,The elements of geometrie of the most ancient philosopher Euclide of Megara,Specified in source,1570,London,ENGLISH,"Henry Billingsley, John Dee",John Daye,2,1,,,
 Strasbourg_1570a,,,1570,Strasbourg,"GREEK, LATIN",Conrad Dasypodius,Christian Mehl,8,1,,,
 Strasbourg_1571,,,1571,Strasbourg,LATIN,Conrad Dasypodius,,8,1,,,
 Strasbourg_1571a,,,1571,Strasbourg,LATIN,Conrad Dasypodius,,8,1,,,
-Pesaro_1572,Euclidis elementorum libri XV una cum scholiis antiquis,Specified in source,1572,Pesaro,LATIN,Federico Commandino,Camillo Franceschini,2,1,,,True
+Pesaro_1572,Euclidis elementorum libri XV una cum scholiis antiquis,Specified in source,1572,Pesaro,LATIN,Federico Commandino,Camillo Franceschini,2,1,,,
 Paris_1573,,,1573,Paris,LATIN,"Jean Magnien, Étienne Gracile","Jerome de Marnef, William Cauellat",8,1,,,
-Urbino_1575,De gli elementi d’Euclide libri quindici con gli scolii antichi,Specified in source,1575,Urbino,ITALIAN,"Federico Commandino, Valerio Spacciuoli",Domenico Frisolino,2,1,,,True
-Venice_1575,Opuscula mathematica,Specified in source,1575,Venice,LATIN,Francesco Maurolico,Francesco de Franceschi,4,1,,,True
-Paris_1578,,,1578,Paris,LATIN,François de Foix-Candale,Jean di Tournes,2,1,,,
+Urbino_1575,De gli elementi d’Euclide libri quindici con gli scolii antichi,Specified in source,1575,Urbino,ITALIAN,"Federico Commandino, Valerio Spacciuoli",Domenico Frisolino,2,1,,,
+Venice_1575,Opuscula mathematica,Specified in source,1575,Venice,LATIN,Francesco Maurolico,Francesco de Franceschi,4,1,,,
+Paris_1578,Elementa libris XV. ad Germanam geometriae intelligentiam è diversis lapsibus temporis iniuria contractis restituta,Specified in source,1578,Paris,LATIN,François de Foix-Candale,Jean di Tournes,2,1,,,
 Cologne_1580,,,1580,Cologne,LATIN,"Jean Magnien, Étienne Gracile",Maternus Cholinus,8,1,,,
-Venice_1585,"Euclide Megarense philosopho, solo introduttore delle scientie mathematice",Specified in source,1585,Venice,LATIN,Niccolò Tartaglia,Troiano,4,1,,,True
-Venice_1586,"Euclide Megarense philosopho, solo introduttore delle scientie mathematice",Specified in source,1586,Venice,LATIN,Niccolò Tartaglia,Troiano,4,1,,,True
+Venice_1585,"Euclide Megarense philosopho, solo introduttore delle scientie mathematice",Specified in source,1585,Venice,LATIN,Niccolò Tartaglia,Troiano,4,1,,,
+Venice_1586,"Euclide Megarense philosopho, solo introduttore delle scientie mathematice",Specified in source,1586,Venice,LATIN,Niccolò Tartaglia,Troiano,4,1,,,
 Cologne_1587,,,1587,Cologne,LATIN,"Jean Magnien, Étienne Gracile",Maternus Cholinus,8,1,,,
 Rome_1594,Euclidis elementorum geometricorum libri tredecim ex traditione doctissimi Nasiridini Tusini,Specified in source,1594,Rome,"ARABIC, LATIN",Nasir al-Din al-Tusi,Medicea,2,1,,,
 Paris_1598,,,1598,Paris,LATIN,"Jean Magnien, Étienne Gracile",Veuve Guillaume Cavellat,8,1,,,
-Cologne_1600,,,1600,Cologne,LATIN,"Jean Magnien, Étienne Gracile",Gosuinus Cholinus,8,1,,,
+Cologne_1600,Euclidis Elementorum Libri XV,Specified in source,1600,Cologne,LATIN,"Jean Magnien, Étienne Gracile",Gosuinus Cholinus,8,1,,,
 Cologne_1602,,,1602,Cologne,LATIN,François de Foix-Candale,Jean di Tournes,2,1,,,
 Paris_1602,,,1602,Paris,LATIN,François de Foix-Candale,Jean di Tournes,2,1,-,,
-Arnhem_1603,In geometriam Euclidis prioribus sex elementorum libris comprehensam demonstratio linealis,Specified in source,1603,Arnhem,LATIN,Christoffer Dybvad,Johannes Jansz,4,1,,,True
-Arnhem_1605a,,,1605,Arnhem,LATIN,Christoffer Dybvad,Johannes Jansz,4,1,-,,
-Leiden_1606,De ses eerste boucken Euclidis,Specified in source,1606,Leiden,DUTCH,Jan Pietersz Dou,Jan Bouwensz,4,1,,,True
+Arnhem_1603,In geometriam Euclidis prioribus sex elementorum libris comprehensam demonstratio linealis,Specified in source,1603,Arnhem,LATIN,Christoffer Dybvad,Johannes Jansz,4,1,,,
+Arnhem_1605a,In arithmeticam irrationalium Euclidis ,Specified in source,1605,Arnhem,LATIN,Christoffer Dybvad,Johannes Jansz,4,1,-,,
+Leiden_1606,De ses eerste boucken Euclidis,Specified in source,1606,Leiden,DUTCH,Jan Pietersz Dou,Jan Bouwensz,4,1,,,
 Beijing_1607,,,1607,Beijing,CHINESE,"Xu Guangqi, Matteo Ricci",,,1,,https://www.google.com/books/edition/%E5%B9%BE%E4%BD%95%E5%8E%9F%E6%9C%AC/EtcM0QEACAAJ,
 Leiden_1607,,,1607,Leiden,DUTCH,Jan Pietersz Dou,Ian Iansz. Orlers,4,1,-,,
-Geneva_1610,In Euclidis Elementa geometrica demonstrationum libri sex,Specified in source,1610,Geneva,LATIN,Jacques Peletier,Jean di Tournes,4,1,,,True
+Geneva_1610,In Euclidis Elementa geometrica demonstrationum libri sex,Specified in source,1610,Geneva,LATIN,Jacques Peletier,Jean di Tournes,4,1,,,
 Geneva_1611,Les six premiers livres des Eléments géométriques,Provided by catalog,1611,Geneva,FRENCH,"Jacques Peletier, Jean de Tournes",Jean di Tournes,4,1,6702902,,
 Beijing_1611,,,1611,Beijing,CHINESE,"Xu Guangqi, Matteo Ricci",,,1,-,,
 Cologne_1612,,,1612,Cologne,LATIN,Étienne Gracile,Gosuinus Cholinus,8,1,,,
-Paris_1612,Euclidis elementorum decimum,Specified in source,1612,Paris,LATIN,Florimond du Puy,Jean de Heuqueville,2,1,,,True
+Paris_1612,Euclidis elementorum decimum,Specified in source,1612,Paris,LATIN,Florimond du Puy,Jean de Heuqueville,2,1,,,
 Paris_1613,Les éléments de la géométrie d’Euclide Mégarien,Specified in source,1613,Paris,FRENCH,Didier Dounot,Jacques Le Roy,4,1,,,
 Paris_1615,"Les quinze livres des Éléments d’Euclide, traduits du latin en français",Specified in source,1615,Paris,FRENCH,Denis Henrion,Jean Antoine Joallin,8,1,,,
 Amsterdam_1616,,,1616,Amsterdam,DUTCH,Jan Pietersz Dou,Willem Iansz.,8,1,,,
-Pesaro_1619a,De gli elementi d’Euclide libri quindici con gli scolii antichi,Specified in source,1619,Pesaro,ITALIAN,"Federico Commandino, Valerio Spacciuoli",Flaminio Concordia,2,,,,True
-London_1620,,,1620,London,"GREEK, LATIN",Henry Briggs,William Jones,2,1,,,
+Pesaro_1619a,De gli elementi d’Euclide libri quindici con gli scolii antichi,Specified in source,1619,Pesaro,ITALIAN,"Federico Commandino, Valerio Spacciuoli",Flaminio Concordia,2,1,,,
+London_1620,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ἕγ. ELEMENTORVM EVCLIDIS LIBRI TREDECIM,Specified in source,1620,London,"GREEK, LATIN",Henry Briggs,William Jones,2,1,,,
 Paris_1621,"Les quinze livres des Éléments d’Euclide, traduits du latin en français",Specified in source,1621,Paris,FRENCH,Denis Henrion,Jean Antoine Joallin,8,1,,,
 Paris_1622,,,1622,Paris,"FRENCH, LATIN",Pierre Le Mardelé,Denys Moreau,8,1,,,
 Paris_1623,,,1623,Paris,FRENCH,Denis Henrion,I. Ant. Ioallin,8,1,-,,
@@ -181,17 +181,17 @@ Geneva_1628,Les six premiers livres des éléments géométriques d’Euclide,Sp
 Beijing_1629,,,1629,Beijing,CHINESE,"Xu Guangqi, Matteo Ricci, Li Zhizao",,,1,-,,
 Paris_1630,"Les six premiers livres des Elemens d'Euclide, traduits de latin en françois, par D. Henrion",Provided by catalog,1630,Paris,FRENCH,Denis Henrion,Samuel Thiboust,8,1,6003127,,
 Paris_1631,"Les quinze livres des Éléments d’Euclide, traduits du latin en français",Specified in source,1631,Paris,FRENCH,Denis Henrion,Isaac Dedin,8,1,,,
-Paris_1632,,,1632,Paris,FRENCH,Denis Henrion,Isaac Dedin,4,1,,,
+Paris_1632,Les quinze livres des éléments géométriques d'Euclide,Provided by catalog,1632,Paris,FRENCH,Denis Henrion,Isaac Dedin,4,1,,,
 Paris_1632a,,,1632,Paris,FRENCH,Pierre Le Mardelé,Denys Moreau,8,1,,,
 Rotterdam_1632,,,1632,Rotterdam,DUTCH,Jan Pietersz Dou,,8,1,,,
 Hamburg_1633,,,1633,Hamburg,DUTCH,Jacob Willemsz,Volrad Gaubisch,4,1,-,,
-Paris_1634,Cursus mathematicus,Specified in source,1634,Paris,"FRENCH, LATIN",Pierre Hérigone,Henri Le Gras,8,1,,"[ME]: Bilingual edition: Either ""cursus mathematicus"" or ""cours mathematique"". ",
+Paris_1634,Cursus mathematicus,Specified in source,1634,Paris,"FRENCH, LATIN",Pierre Hérigone,Henri Le Gras,8,6,,"[ME]: Bilingual edition: Either ""cursus mathematicus"" or ""cours mathematique"". ",
 Alcala_1637,,,1637,Alcala,"DUTCH, LATIN",Luis Carducci,,4,1,,,
 Hamburg_1638,,,1638,Hamburg,DUTCH,Jacob Willemsz,Hendrik Werner,4,1,-,,
 Paris_1639,"Les Six premiers livres des Éléments d'Euclide, démonstrez par notes d'une méthode très briève et intelligible,... par Pierre Hérigone,...",Provided by catalog,1639,Paris,FRENCH,Pierre Hérigone,Henri Le Gras,8,1,,,
 Venice_1641,,,1641,Venice,LATIN,Caterino Doino,,12,1,-,,
 Paris_1644,Euclides: Les six premiers livres des Éléments d'Euclide,Provided by catalog,1644,Paris,FRENCH,Pierre Hérigone,Simon Piget,8,1,,,
-Paris_1644b,"Cursus mathematicus noua, breui, et clara methodo demonstratus",Invented by enterer,1644,Paris,"FRENCH, LATIN",Pierre Hérigone,Simon Piget,8,1,,,
+Paris_1644b,"Cursus mathematicus noua, breui, et clara methodo demonstratus",Invented by enterer,1644,Paris,"FRENCH, LATIN",Pierre Hérigone,Simon Piget,8,6,,,
 Paris_1644c,,,1644,Paris,LATIN,Marin Mersenne,Antoine Bertier,4,1,,,
 Lyon_1645,,,1645,Lyon,FRENCH,Pierre Le Mardelé,Simon Rigaud,8,1,,,
 Lyon_1646,,,1646,Lyon,FRENCH,Pierre Le Mardelé,Simon Rigaud,8,1,-,,
@@ -214,7 +214,7 @@ Rouen_and_Paris_1683,,,1683,"Rouen, Paris",FRENCH,Denis Henrion,Laurent d’Hour
 Bologna_1684,,,1684,Bologna,LATIN,D. Joanni Franciso Polo,Iosephi Longi,8,1,,,
 Rouen_and_Paris_1685,"Les quinze livres des Elemens geometriques d'Euclide; et son Livre des donnez avec des commentaires beaucoup plus amples & beaucoup plus faciles que dans les editions precedentes, et un Traité sommaire de l'algebre par le Sieur Henrion.",Provided by catalog,1685,"Rouen, Paris",FRENCH,Denis Henrion,J. JOMBERT,8,2,3142241,,
 The_Hague_1690,,,1690,The Hague,FRENCH,Jacques Rohault,Henry van Bulderen,12,3,,,
-Leiden_1691,,,1691,Leiden,LATIN,Henrick Coets,Daniel van Gaesbeek,4,1,-,,
+Leiden_1691,Euclidis Elementorum Sex Libri Priores Demonstrati,Specified in source,1691,Leiden,LATIN,Henrick Coets,Daniel van Gaesbeek,4,1,-,,
 Leiden_1692,,,1692,Leiden,LATIN,Henrick Coets,Daniel van Gaesbeek,4,1,-,,
 Paris_1693,Cours de mathematique,Specified in source,1693,Paris,FRENCH,Jacques Ozanam,Jean Jombert,8,5,,"Ozanam's ""The Elemens"" is part of the ""Cours de mathematique"", which is a compendium of mathematical treatises forming parts of a course.",
 Vienna_1694,Teutsch-Redender Euclides,Specified in source,1694,Vienna,GERMAN,Anton Ernst Burckhard von Pirckenstein,Philipp Fievets,4,1,-,Author's name: PIRCKENSTEIN (or BIRCKENSTEIN).,
@@ -241,7 +241,7 @@ Uppsala_1741,Euclidis elementorum libri sex priores una cum undecimo et duodecim
 Uppsala_1744,"Euclidis Elementa eller Grundeliga inledning til geometrien, til riksens ungdoms tienst på swenska språket utgifwen",Specified in source,1744,Uppsala,SWEDISH,Mårten Strömer,Gottfried Kiesewetter,,1,-,snippets found at https://auctionet.com/sv/814060-euclidis-elementa-eller-grundeliga-inledning-til-geometrien/images,
 Pisa_1658,"Euclides restitutus, sive prisca geometriae elementa",Specified in source,1658,Pisa,LATIN,Giovanni Alfonso Borelli,Francisci Honophi,4,1,,,
 Paris_1675,"Elemens des mathematiques, ou principes generaux de toutes les sciences qui ont les grandeurs pour objet",Specified in source,1675,Paris,FRENCH,Jean Prestet,Pralard,4,1,,,
-Rome_1680,"Euclide Restituto, ovvero gli antichi elementi geometrici ristaurati e facilitati",Specified in source,1680,Rome,ITALIAN,Vitale Giordano da Bitonto,Angelo Bernabò,2,1,1750133,,
+Rome_1680,"Euclide Restituto, overo gli antichi elementi geometrici ristaurati e facilitati",Specified in source,1680,Rome,ITALIAN,Vitale Giordano da Bitonto,Angelo Bernabò,2,1,1750133,,
 Paris_1685,Les elemens de geometrie,Specified in source,1685,Paris,FRENCH,Bernard Lamy,André Pralard,8,1,,,
 Nuremberg_1625,Euclidis elementa practica oder Ausszug aller Problematum und Handarbeiten auss den 15 Büchern Euclidis,Specified in source,1625,Nuremberg,GERMAN,Lucas Brunn,Simon Halbmayer,4,1,,,
 London_1747,Elements of Plane Geometry,Specified in source,1747,London,ENGLISH,Thomas Simpson,Samuel Farrer,8,1,,,
@@ -260,7 +260,7 @@ Leipzig_1883,EUCLIDIS OPERA OMNIA,Specified in source,1883,Leipzig,"GREEK, LATIN
 Antwerp_1665,,,1665,Antwerp,LATIN,André Tacquet,Jacob Meursius,8,1,,,
 Rome_1695,,,1695,Rome,LATIN,Giovanni Alfonso Borelli,Dominicus Antonius Hercules,12,1,,,
 Paris_1695,"Les Élémens de géométrie ou de la mesure du corps, qui comprennent les Élémens d'Euclide et l'analise, les plus belles propositions d'Archimède touchant le cercle, la sphère, le cylindre et le cône",Provided by catalog,1695,Paris,FRENCH,Bernard Lamy,André Pralard,12,,6101501,https://catalogue.bnf.fr/ark:/12148/cb30730879p,
-Uppsala_1642,In geometriam Euclidis demonstrationum libri sex,Specified in source,1642,Uppsala,LATIN,Martinus Erici Gestrinius,Eschillus Matthiae,,,,,False
+Uppsala_1642,In geometriam Euclidis demonstrationum libri sex,Specified in source,1642,Uppsala,LATIN,Martinus Erici Gestrinius,Eschillus Matthiae,,1,,,
 1496,Arithmetica decem libris demonstrata,Specified in source,1496,,LATIN,Jacques Lefèvre d'Étaples,,,1,,In hoc opere contenta Arithmetica decem libris demonstrata ; Musica libris demonstrata quattuor ; Epitome i[n] libros arithmeticos diui Seuerini Boetij ; Rithmimachie ludus q[ui] [et] pugna nu[m]ero[rum] appellat[ur],True
 Mainz_1611_1612,"Geometria Practica, Arithmetica Practica, Algebra",Provided by catalog,1611/1612,Mainz,LATIN,Christopher Clavius,Reinhardus Eltz,2,1,2068332,,
 Strasbourg_1529,"Elementale geometricum, ex Euclidis geometria",Provided by catalog,1529,Strasbourg,LATIN,Johann Vögelin,,,1,710249,,True
@@ -273,7 +273,7 @@ Paris_1557a,,,1557,Paris,LATIN,Jean de la Pène,Guillaume Cavellat,4,,,,
 Paris_1557b,,,1557,Paris,"GREEK, LATIN",Jean de la Pène,Andreas Wechelus,4,,,,
 Strasbourg_1557,,,1557,Strasbourg,"GREEK, LATIN",Conrad Dasypodius,Conradum Dasypodium,4,,,,
 Messina_1558,,,1558,Messina,LATIN,Francesco Maurolico,Petrus Spira,2,,-,,
-Paris_1565a,"Les septième, huitième et neuvième livres des Éléments d’Euclide",Specified in source,1565,Paris,FRENCH,Pierre Forcadel,Charles Perier,4,,,,
+Paris_1565a,"Les septième, huitième et neuvième livres des Éléments d’Euclide",Specified in source,1565,Paris,FRENCH,Pierre Forcadel,Charles Perier,4,1,,,
 Paris_1566b,Le livre de la musique,Provided by catalog,1566,Paris,FRENCH,Pierre Forcadel,Charles Perier,8,1,30241,,
 Valencia_1569,Elementa Arithmeticae ac Geometriae,Specified in source,1569,Valencia,LATIN,Pedro Monçón,,,1,,,True
 Florence_1573,,,1573,Florence,ITALIAN,Ignazio Danti,Giunti,4,,,,True
@@ -822,7 +822,7 @@ EN496R,Les Cinq rangs de l'architecture,Specified in source,1617,Amsterdam,FRENC
 RH6KEE,La castrametation,Specified in source,1618,Leiden,FRENCH,Simon Stevin,"Bonaventura Elzevier, Matthijs Elzevier",2,1,1028284,,
 1QQS64,La castrametation,Specified in source,1618,Rotterdam,FRENCH,Simon Stevin,Janvan Waesberge,2,1,1029447,,
 N000JX,Cursus quattuor mathematicarum artium liberalium,Provided by catalog,1516,Alcala,LATIN,Pedro Ciruelo,Arnao Guillén de Brocar,2,1,335713,"Listed as part of the library of Elie Vinet (Desgraves, Louis. Élie Vinet humaniste de Bordeaux :  1509-1587, vie, bibliographie, correspondance, bibliothèque. Travaux d’Humanisme et Renaissance 156. Droz [diffusion Minard] [diffusion Champion], 1977. http://gallica.bnf.fr/ark:/12148/bpt6k5620, p. 157)",
-6PMNRZ,Arithmetica theoricen praxinque luculenter complexa,Specified in source,1526,Paris,LATIN,"Juan Martínez Silíceo, Thomas Blaurer",Simon de Colines,2,1,145738,,True
+6PMNRZ,Arithmetica theoricen praxinque luculenter complexa,Specified in source,1526,Paris,LATIN,"Juan Martínez Silíceo, Thomas Blaurer",Simon de Colines,2,1,145738,,
 XP5WU4,De logistica libri tres,Provided by catalog,1573,Bordeaux,LATIN,Elie Vinet,Simon Millanges,8,1,110030,"Arithmetic book; Mentioned in Rommevaux-Tani, Sabine. “Les ouvrages mathématiques d’Élie Vinet.” Revue française d’histoire du livre 145 (August 2024): 57–75. https://doi.org/10.47421/RFHL_145_57-75.",
 4ZSED7,"Pselli philosophi et mathematici clarissimi geometria edita studio M. Christophori meureri, mathematum professoris publici in academia Lipsiensi.",Specified in source,1589,Leipzig,LATIN,"Michael, Joachim Tancke, Philipp Melanchthon",Hans Steinmann,8,1,688550,,
 VWMZ7L,"De arithmetica, musica, geometria et Proclus de sphaera",Specified in source,1557,Paris,LATIN,Elie Vinet,Guillaume Cavellat,8,1,152233,,
@@ -933,3 +933,5 @@ WNYVAP,"Tables des sinus, tangentes, & secantes",Provided by catalog,1629,The Ha
 136K7I,Invention nouvelle en l'algebre,Provided by catalog,1629,Amsterdam,FRENCH,Albert Girard,Willem Jansz Blaeu,4,1,1016604,,
 WOQG2Q,Fortification ou architecture militaire,Provided by catalog,1627,Amsterdam,FRENCH,"Samuel Marolois, Albert Girard",Johannes Janssonius,,1,1549284,,
 MMJVXG," L'arithmique de Simon Stevin de Bruges",Provided by catalog,1625,Leiden,FRENCH,"Simon Stevin, Albert Girard",Elzevier,,1,,,
+9D1KT8,"Pratica d'arithmetica, e geometrica",Specified in source,1682,Siena,ITALIAN,Lorenzo Forestani,Giorgio Varisco,4,1,4030567,,
+T4DFPF,Euclidis megarensis mathematici clarissimi Elementorum geometricorum libri XV ,Specified in source,1558,Basel,LATIN,Marinus Neapolitanus,"Johannes Herwagen, Bernhard Brand",2,1,,,
