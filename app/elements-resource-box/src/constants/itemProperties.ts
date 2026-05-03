@@ -110,11 +110,11 @@ export const itemProperties: {
     displayName: "Has Diagrams",
     filterGroup: "Diagrams",
   },
-  //visualElementsTypes: {
-  //  displayName: "Visual Elements Types",
-  //  isArray: true,
-  //  filterGroup: "Diagrams",
-  //},
+  visualElementsTypes: {
+   displayName: "Visual Elements Types",
+   isArray: true,
+   filterGroup: "Diagrams",
+  },
   volumesCount: {
     displayName: "Number of Volumes",
     filterGroup: "Material",

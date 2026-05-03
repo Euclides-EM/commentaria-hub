@@ -2127,6 +2127,10 @@ export const UpsertEdition = () => {
                                       value: "uncatalogued",
                                       label: "Uncatalogued",
                                     },
+                                    {
+                                      value: "none",
+                                      label: "None",
+                                    },
                                   ]}
                                   value={f.state.value}
                                   onChange={(value) => {
