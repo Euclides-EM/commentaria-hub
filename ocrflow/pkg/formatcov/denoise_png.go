@@ -91,6 +91,16 @@ func DenoisePNGs(src, dst string) error {
 	return grp.Wait()
 }
 
+func DenoisePNGFile(inPath, outPath string) error {
+	if err := os.MkdirAll(filepath.Dir(outPath), 0o755); err != nil {
+		return fmt.Errorf("create output dir %q: %w", filepath.Dir(outPath), err)
+	}
+	if err := denoiseOne(inPath, outPath); err != nil {
+		return fmt.Errorf("denoise %q: %w", inPath, err)
+	}
+	return nil
+}
+
 func denoiseOne(inPath, outPath string) error {
 	const initialSCurveSteepness = 6.0
 

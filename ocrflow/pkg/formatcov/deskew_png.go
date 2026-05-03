@@ -132,6 +132,69 @@ func DeskewPNGs(src string, dst string) error {
 	return grp.Wait()
 }
 
+func EstimateDeskewAnglePNG(inPath string) (float64, error) {
+	img := gocv.IMRead(inPath, gocv.IMReadColor)
+	if img.Empty() {
+		return 0, fmt.Errorf("read image %q: empty or unsupported format", inPath)
+	}
+	defer img.Close()
+
+	small := img.Clone()
+	defer small.Close()
+
+	if deskewDownscaleMax > 0 {
+		var err error
+		small, err = resizeMaxSide(small, deskewDownscaleMax)
+		if err != nil {
+			return 0, fmt.Errorf("downscale for angle estimation: %w", err)
+		}
+	}
+
+	angle, err := estimateSkewProjection(small, inPath)
+	if err != nil {
+		return 0, err
+	}
+	return angle, nil
+}
+
+func DeskewPNGFileWithAngle(inPath, outPath string, angle float64) error {
+	if err := os.MkdirAll(filepath.Dir(outPath), 0o755); err != nil {
+		return fmt.Errorf("create output dir %q: %w", filepath.Dir(outPath), err)
+	}
+
+	img := gocv.IMRead(inPath, gocv.IMReadColor)
+	if img.Empty() {
+		return fmt.Errorf("read image %q: empty or unsupported format", inPath)
+	}
+	defer img.Close()
+
+	if math.Abs(angle) < deskewMinRotate {
+		if ok := gocv.IMWrite(outPath, img); !ok {
+			return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
+		}
+		return nil
+	}
+
+	correctionAngle := clampDeskewAngle(angle)
+	if exceedsWarpAffineLimit(img, correctionAngle) {
+		if ok := gocv.IMWrite(outPath, img); !ok {
+			return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
+		}
+		return nil
+	}
+
+	rot, err := rotateKeepAll(img, correctionAngle, deskewBackground)
+	if err != nil {
+		return fmt.Errorf("rotate %q: %w", inPath, err)
+	}
+	defer rot.Close()
+
+	if ok := gocv.IMWrite(outPath, rot); !ok {
+		return fmt.Errorf("write image %q: %w", outPath, errWriteFailed)
+	}
+	return nil
+}
+
 func deskewOneProjection(inPath, outPath string) error {
 	img := gocv.IMRead(inPath, gocv.IMReadColor)
 	if img.Empty() {

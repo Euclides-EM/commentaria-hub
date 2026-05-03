@@ -180,6 +180,7 @@ func runKrakenOCRReuseAlto(pairs [][2]string, ocrModel string) error {
 	}
 
 	var args = []string{"--alto"}
+	args = append(args, krakenDeviceArgs()...)
 
 	// For each pair: -i <img> <alto_out_tmp>
 	for _, p := range pairs {
