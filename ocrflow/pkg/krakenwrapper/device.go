@@ -1,23 +1,12 @@
 package krakenwrapper
 
 import (
-	"log"
-	"os"
-	"strings"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
+	"github.com/samber/lo"
 )
 
-const krakenDeviceEnvVar = "OCRFLOW_KRAKEN_DEVICE"
-
 func krakenDeviceArg() string {
-	switch strings.ToLower(strings.TrimSpace(os.Getenv(krakenDeviceEnvVar))) {
-	case "", "cpu":
-		return "cpu"
-	case "gpu":
-		return "cuda:0"
-	default:
-		log.Printf("Invalid %s value %q, defaulting to cpu", krakenDeviceEnvVar, os.Getenv(krakenDeviceEnvVar))
-		return "cpu"
-	}
+	return lo.Ternary(envexec.Cmd("nvidia-smi") != nil, "cpu", "cuda:0")
 }
 
 func krakenDeviceArgs() []string {
