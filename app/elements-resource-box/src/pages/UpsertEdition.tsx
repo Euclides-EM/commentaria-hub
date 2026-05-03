@@ -47,6 +47,7 @@ type EditionFormData = {
     copyright: string | null;
   }[];
   verified: boolean;
+  hasDiagrams: boolean | "";
   bibliography: string[];
   reprintOf: string | null;
   visualElements: {
@@ -104,6 +105,7 @@ function toModelEdition(data: EditionFormData): model_Edition {
       copyright: nullToUndef(s.copyright),
     })),
     verified: data.verified,
+    ...(data.hasDiagrams !== "" ? { hasDiagrams: data.hasDiagrams } : {}),
     bibliography: data.bibliography,
     reprintOf: nullToUndef(data.reprintOf),
     visualElements: data.visualElements.map((ve) => ({
@@ -186,6 +188,12 @@ function toEditionFormData(
       copyright: s.copyright ?? null,
     })),
     verified: Boolean(edition.verified),
+    hasDiagrams:
+      edition.hasDiagrams === true
+        ? true
+        : edition.hasDiagrams === false
+          ? false
+          : "",
     bibliography: edition.bibliography || [],
     reprintOf: edition.reprintOf || null,
     visualElements: (edition.visualElements || []).map((ve) => ({
@@ -421,6 +429,26 @@ const Input = styled.input`
   }
 `;
 
+const SelectInput = styled.select`
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  background-color: #fafafa;
+  color: black;
+  max-width: min(22rem, 100%);
+
+  &:focus {
+    outline: none;
+    border-color: #74b9ff;
+    background-color: white;
+  }
+
+  &:disabled {
+    background-color: #f0f0f0;
+  }
+`;
+
 const TextArea = styled.textarea`
   padding: 0.5rem;
   border: 1px solid #e0e0e0;
@@ -642,6 +670,7 @@ const defaultValues = (): EditionFormData => ({
     },
   ],
   verified: false,
+  hasDiagrams: "",
   isManuscript: false,
   year: "",
   languages: [],
@@ -2028,6 +2057,43 @@ export const UpsertEdition = () => {
                   <>
                     <FormField className="full-width">
                       <Label isTitle>Visual Elements</Label>
+                      <FormField width="max-content">
+                        <Label>Has diagrams</Label>
+                        <form.Field name="hasDiagrams">
+                          {(f) => (
+                            <>
+                              <SelectInput
+                                value={
+                                  f.state.value === ""
+                                    ? ""
+                                    : f.state.value
+                                      ? "true"
+                                      : "false"
+                                }
+                                onChange={(e) => {
+                                  const v = e.target.value;
+                                  f.handleChange(
+                                    v === ""
+                                      ? ""
+                                      : v === "true"
+                                        ? true
+                                        : false,
+                                  );
+                                }}
+                                onBlur={f.handleBlur}
+                              >
+                                <option value="">Unspecified</option>
+                                <option value="true">Yes</option>
+                                <option value="false">No</option>
+                              </SelectInput>
+                              <Label muted>
+                                Blank in the catalogue when unspecified; choose
+                                No only if you are sure there are no diagrams.
+                              </Label>
+                            </>
+                          )}
+                        </form.Field>
+                      </FormField>
                       <button
                         style={{
                           padding: 4,
