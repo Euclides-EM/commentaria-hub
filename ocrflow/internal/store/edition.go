@@ -665,6 +665,7 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 	if diagramKeys != nil {
 		_, ed.DiagramCropsAvailable = diagramKeys[key]
 	}
+	ed.VisualElementsTypes = uniqueNonEmptyVisualElementTypes(ed.VisualElements)
 	ed.TitlePageStatus = s.calcTitlePageStatus(ed)
 
 	return ed, nil
@@ -923,6 +924,7 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 	if p.diagramDirKeys != nil {
 		_, ed.DiagramCropsAvailable = p.diagramDirKeys[key]
 	}
+	ed.VisualElementsTypes = uniqueNonEmptyVisualElementTypes(ed.VisualElements)
 	ed.TitlePageStatus = s.calcTitlePageStatus(ed)
 	return ed
 }
@@ -960,6 +962,25 @@ func splitNonEmpty(s string) []string {
 		if t := strings.TrimSpace(p); t != "" {
 			out = append(out, t)
 		}
+	}
+	return out
+}
+
+func uniqueNonEmptyVisualElementTypes(visualElements []model.EditionVisualElement) []string {
+	if len(visualElements) == 0 {
+		return nil
+	}
+	seen := make(map[string]struct{}, len(visualElements))
+	var out []string
+	for _, ve := range visualElements {
+		if ve.VisualElementType == "" {
+			continue
+		}
+		if _, ok := seen[ve.VisualElementType]; ok {
+			continue
+		}
+		seen[ve.VisualElementType] = struct{}{}
+		out = append(out, ve.VisualElementType)
 	}
 	return out
 }
