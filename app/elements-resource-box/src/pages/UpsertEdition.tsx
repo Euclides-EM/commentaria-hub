@@ -2073,11 +2073,7 @@ export const UpsertEdition = () => {
                                 onChange={(e) => {
                                   const v = e.target.value;
                                   f.handleChange(
-                                    v === ""
-                                      ? ""
-                                      : v === "true"
-                                        ? true
-                                        : false,
+                                    v === "" ? "" : v === "true" ? true : false,
                                   );
                                 }}
                                 onBlur={f.handleBlur}

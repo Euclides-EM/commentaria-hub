@@ -113,12 +113,12 @@ export const itemProperties: {
   ...(inEuclidesMode()
     ? {}
     : {
-      visualElementsTypes: {
-        displayName: "Visual Elements Types",
-        isArray: true,
-        filterGroup: "Diagrams",
-      },
-    }),
+        visualElementsTypes: {
+          displayName: "Visual Elements Types",
+          isArray: true,
+          filterGroup: "Diagrams",
+        },
+      }),
   volumesCount: {
     displayName: "Number of Volumes",
     filterGroup: "Material",
