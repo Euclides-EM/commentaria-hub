@@ -487,17 +487,17 @@ bib-6,,,1604,Rome,LATIN,Christopher Clavius,Aloisius Zannetti,,,,,
 bib-7,"A geometrical practise, named Pantometria divided into three bookes, longimetra, planimetra, and stereometria, containing rules manifolde for mensuration of all lines, superficies and solides",Provided by catalog,1571,London,ENGLISH,"Leonard Digges, Thomas Digges",Henrie Bynneman,,,507303,,
 bib-8,Underweysung der messung mit dem zirckel und richtscheyt in linien ebnen unnd gantzen corporen durch Albrecht duerer zu samen getzogen mit zu gehoerigen figuren,Provided by catalog,1525,Nuremberg,GERMAN,Albrecht Dürer,Hieronymus Andreae,,1,701774,,True
 bib-9,,,1544,Strasbourg,LATIN,Oronce Finé,,,,,,
-bib-10,La practique de la geometrie,Specified in source,1570,Paris,FRENCH,"Pierre Forcadel, Oronce Finé",Gilles Gourbin,4,1,23433,,
+bib-10,La practique de la geometrie,Specified in source,1570,Paris,FRENCH,"Pierre Forcadel, Oronce Finé",Gilles Gourbin,4,1,23433,,True
 bib-12,"Opera mathematica. Ou oeuures mathematicques. Traictans de geometrie, perspective, architecture, et fortification",Provided by catalog,1614,The Hague,FRENCH,Samuel Marolois,Hendrik Hondius,,1,1031914,,True
 bib-13,"La Practique de géométrie, descripte et démonstrée par Jean de Merliers",Specified in source,1565,Paris,FRENCH,Jean Merliers,Gilles Gorbin,,1,,,True
 bib-14,"Somma di arithmetica, geometria, proporzioni e proporzionalità",Specified in source,1494,Venice,LATIN,Luca Pacioli,Paganino de’ Paganini,,,,,
 bib-15," L' Arithmetique de Jacques Peletier du Mans",Specified in source,1554,Lyon,FRENCH,Jacques Peletier,Jean di Tournes,,1,,,True
-bib-16,,,1572,Paris,FRENCH,Jacques Peletier,Gilles Gourbin,,,,,
-bib-17,,,1573,Paris,FRENCH,Jacques Peletier,Gilles Gourbin,,,,,
-bib-18,,,1568,Salamanca,SPANISH,Juan Pérez de Moya,Juan de Canova,,,,,
+bib-16,De usu geometriae liber I,Specified in source,1572,Paris,FRENCH,Jacques Peletier,Gilles Gourbin,,1,,,True
+bib-17," De l'vsage de geometrie",Specified in source,1573,Paris,FRENCH,Jacques Peletier,Gilles Gourbin,,1,,,True
+bib-18,Obra intitulada fragmentos mathematicos,Specified in source,1568,Salamanca,SPANISH,Juan Pérez de Moya,Juan de Canova,,1,,,True
 bib-19,,,1583,Alcala,SPANISH,Juan Pérez de Moya,Juan Gracián,,,,,
 bib-20,Geometria prattica tratta dagl’Elementi d’Euclide et altri auttori da Giovanni Pomodoro venetiano mathematico eccellentissimo descritta et dichiarata da Giovanni Scala mathematico,Specified in source,1599,Rome,ITALIAN,"Giovanni Pomodoro, Giovanni Scala",Stefano de Paolini,,,,,True
-bib-21,,,1569,Basel,LATIN,Pierre de la Ramée,Eusebius Episcopius,,,,,
+bib-21,P. Rami arithmeticae libri duo: geometriae septem et viginti,Specified in source,1569,Basel,LATIN,Pierre de la Ramée,Eusebius Episcopius,,1,,,True
 bib-22,,,1504,Strasbourg,LATIN,Gregor Reisch,Johann Schott,,,,,
 bib-23,,,1556,Venice,ITALIAN,Niccolò Tartaglia,Curzio Troiano,,,,,False
 bib-24,,,1575,Bordeaux,LATIN,Elie Vinet,Simon Millanges,,,,,
@@ -518,7 +518,7 @@ bib-38,,,1673,Nuremberg,GERMAN,Bernhard Cantzler,"Johann Andreae, Endter",,,,,
 bib-39,Della fortificatione delle città,Specified in source,1564,Venice,ITALIAN,"Girolamo Maggi, Jacomo Fusti Castriotto",Rutilio Borgominiero,,1,,,True
 bib-40,,,1596,Delft,GERMAN,Ludolph van Ceulen,Jan Andriesz,,,,,True
 bib-41,,,1558,Venice,LATIN,Federico Commandino,,,,,,
-bib-42,,,1570,Pesaro,LATIN,"John Dee, Federico Commandino",Hieronymus Concordia,,,,,
+bib-42,De superficierum divisionibus liber Machometo Bagdedino ascriptus,Specified in source,1570,Pesaro,LATIN,"John Dee, Federico Commandino",Hieronymus Concordia,,1,,,True
 bib-43,,,1611,Madrid,SPANISH,Sebastián de Covarrubias,Luis Sanchez,,,,,
 bib-44,,,1567,Paris,FRENCH,De l’Orme Delorme,Frédéric Morel,,,,,
 bib-45,,,1587,Venice,ITALIAN,Oronce Finé,Francesco de Franceschi,,,,,True
@@ -746,7 +746,7 @@ bib-260,,,1659,Dordrecht,DUTCH,Mattheus van Nispen,Mattheus van Nispen,,,,Astron
 bib-261,,,1683,London,ENGLISH,Joseph Moxon,Joseph Moxon,,,,"Mechanick exercises, or, The doctrine of handy-works : applied to the art of printing",
 bib-262,,,1582,Antwerp,FRENCH,Gemma Frisius,Jean Withage,,,,,
 bib-263,L'arithmetique par les gects,Provided by catalog,1558,Paris,FRENCH,Pierre Forcadel,"Benoît Prévost, Guillaume Cavellat",,,23232,https://catalogue.bnf.fr/ark:/12148/cb30449051z,
-bib-264,"Livre d'arithmetique: contenant plusieurs belles questions et demandes, propres et utiles à tous ceux qui hantent la trafique de marchandise. Ensemble une ample declaration sur le fait des changes",Provided by catalog,1573,Antwerp,FRENCH,"Valentin Mennher, Michel Coignet",Jean Waesberghe,,,75745,,
+bib-264,"Livre d'arithmetique: contenant plusieurs belles questions et demandes, propres et utiles à tous ceux qui hantent la trafique de marchandise. Ensemble une ample declaration sur le fait des changes",Provided by catalog,1573,Antwerp,FRENCH,"Valentin Mennher, Michel Coignet",Jean Waesberghe,,1,75745,,False
 bib-265,,,1609,Rotterdam,FRENCH,Valentin Mennher,Jean Waesberghe,,,,,
 bib-266,Arithmetique de M. Valentin Mennher,Specified in source,1563,Antwerp,FRENCH,Valentin Mennher,Gilles Copenius,,1,,,False
 bib-267,,,1651,Paris,FRENCH,Pierre Mallet,Pierre Mallet,,,,,
@@ -800,7 +800,7 @@ YPQYIR,Le livre d'Archimède des pois,Specified in source,1565,Paris,FRENCH,Pier
 5J1UUA,L'arithmetique entiere et abregee ,Specified in source,1573,Paris,FRENCH,Pierre Forcadel,"Guillaume Cavellat, Jérôme de Marnef",4,1,23254,,
 0CKY65,L'arithmetique ,Specified in source,1557,Paris,FRENCH,Pierre Forcadel,"Guillaume Cavellat, Benoît Prévost",4,1,45029,,
 X5YBIB,La practique de la geometrie ,Specified in source,1586,Paris,FRENCH,"Oronce Finé, Pierre Forcadel",Gilles Gourbin,4,1,39209,,
-0NKS71,La description d'un aneau horaire ,Specified in source,1568,Paris,FRENCH,Pierre Forcadel,Mathurin Prévost,8,1,30252,,
+0NKS71,La description d'un aneau horaire ,Specified in source,1568,Paris,FRENCH,Pierre Forcadel,Mathurin Prévost,8,1,30252,,False
 YBCWZV,La description d'un anneau solaire convexe ,Specified in source,1569,Paris,FRENCH,Pierre Forcadel,"Guillaume Cavellat, Jérôme de Marnef",4,1,23246,,
 TJONV6,L'arithmetique ,Specified in source,1585,Paris,FRENCH,"Gemma Frisius, Lucas Tremblay, Pierre Forcadel","Guillaume Cavellat, Charles Roger, Jérôme de Marnef",8,1,23263,,
 YQDZSW,Le premier livre des choses egallement pesantes ,Specified in source,1565,Paris,FRENCH,Pierre Forcadel,Charles Périer,4,1,24408,,
@@ -813,9 +813,9 @@ E7J0Y4,Le second livre de l'arithmetique ,Specified in source,1556,Paris,FRENCH,
 OM1R2Y,Le troysiesme livre de l'arithmetique ,Specified in source,1558,Paris,FRENCH,Pierre Forcadel,Guillaume Cavellat,4,1,41567,,
 ZNLALU,L'arithmetique ,Specified in source,1560,Paris,FRENCH,"Gemma Frisius, Pierre Forcadel",Guillaume Cavellat,4,1,37755,,
 D7OWCD,L'arithmetique ,Specified in source,1561,Paris,FRENCH,"Gemma Frisius, Pierre Forcadel","Guillaume Cavellat, Benoît Prévost",4,1,23236,,
-UEIZFO,Arithmetique entiere et abregee ,Specified in source,1565,Paris,FRENCH,Pierre Forcadel,Charles Périer,4,1,19644,,
+UEIZFO,Arithmetique entiere et abregee ,Specified in source,1565,Paris,FRENCH,Pierre Forcadel,Charles Périer,4,1,19644,,True
 E4JQEB,L'arithmetique demonstree ,Specified in source,1570,Paris,FRENCH,Pierre Forcadel,"Jérôme de Marnef, Guillaume Cavellat",4,1,23247,,
-LQNZBJ,Deux livres l'un de la sphere qui est meue et l'autre du lever et coucher des estoilles ,Specified in source,1572,Paris,FRENCH,Pierre Forcadel,"Jérôme de Marnef, Guillaume Cavellat",4,1,21203,,
+LQNZBJ,Deux livres l'un de la sphere qui est meue et l'autre du lever et coucher des estoilles ,Specified in source,1572,Paris,FRENCH,Pierre Forcadel,"Jérôme de Marnef, Guillaume Cavellat",4,1,21203,,False
 7Y5IWJ,L'arithmetique,Specified in source,1582,Antwerp,FRENCH,"Gemma Frisius, Pierre Forcadel","Jan Verwithagen, Joannes Withagius",8,1,75011,,
 LYNX18,La practique de la geometrie ,Specified in source,1585,Paris,FRENCH,"Oronce Finé, Pierre Forcadel",Gilles Gourbin,4,1,27222,,
 EN496R,Les Cinq rangs de l'architecture,Specified in source,1617,Amsterdam,FRENCH,Hans Vredeman de Vries,Jean Janson,2,1,1507693,,
@@ -839,8 +839,8 @@ YSF4K5,Liber VI. De proiectionibus,Provided by catalog,1613,Antwerp,LATIN,Franç
 G5IUDY,"Zwey Bücher, das erste von der ohne und durch die Arithmetica gefundenen Perspectiva, das andere von dem dartzu gehörigen Schatten / Andreas Albertus",Provided by catalog,1623,Nuremberg,GERMAN,Andreas Albrecht,Simon Halbmaier,4,1,2164208,,
 6MOFBH,Duo Libri: Prior De Perspectiva. Cum & Praeter Arithmeticam inventa Posterior! De Umbra ad Eam pertinente,Provided by catalog,1671,Nuremberg,LATIN,Andreas Albrecht,Paul Fürst,2,1,2658504,,
 22INUJ,"La Perspective spéculative et pratique de l'invention du feu sieur Aleaume, mise au jour",Provided by catalog,1643,Paris,FRENCH,Jacques Aleaume,Melchior Tavernier,4,1,6036870,,
-JXC181,La pratica della perspettiva,Provided by catalog,1569,Venice,ITALIAN,Daniele Barbaro,"Rutilio Borgominieri, Camillo Borgominieri",2,1,812223,,
-JTRIRS,"La pratica della perspettiua di monsignor Daniel Barbaro eletto patriarca d'Aquileia. Opera molto utile a pittori, a scultori, & ad architetti",Provided by catalog,1569,Venice,ITALIAN,Daniele Barbaro,"Rutilio Borgominieri, Camillo Borgominieri",2,1,812217,,
+JXC181,La pratica della perspettiva,Provided by catalog,1569,Venice,ITALIAN,Daniele Barbaro,"Rutilio Borgominieri, Camillo Borgominieri",2,1,812223,,True
+JTRIRS,"La pratica della perspettiua di monsignor Daniel Barbaro eletto patriarca d'Aquileia. Opera molto utile a pittori, a scultori, & ad architetti",Provided by catalog,1569,Venice,ITALIAN,Daniele Barbaro,"Rutilio Borgominieri, Camillo Borgominieri",2,1,812217,,True
 XCQGKZ,"Avvertimenti, e regole circa l'architettura civile, scultura, pittura, prospettiua, et architettura militare per offesa, e difesa di fortezze di Pietr'Antonio Barca ..",Provided by catalog,1620,Milan,ITALIAN,Pietro Antonio Barca,Pandolfo Malatesta,,1,4007828,,
 DA54XK,"Abbreviations des plus difficiles Operations de Perspective Pratique. Soulagement tres-grand aux Curieux de cet Art; Principalement aux vrais Peintres, qui operent avec connoissance de raison. Par Nicolas Baytaz, Doyen de Nostre Dame d'Annecy.",Provided by catalog,1644,Annecy,FRENCH,Nicolas Baytaz,André Leyat,12,1,6801644,,
 35H84Y,"Apiaria uninversae philosophiae mathematicae, in quibus paradoxa, et nova pleraque machinamenta ad usus eximios traducta, & facillimis demonstrationibus confirmata […] Tomus primus (1)",Provided by catalog,1642,Bologna,LATIN,Mario Bettini,Giovanni Battista Ferroni,,1,4015638,,
@@ -870,7 +870,7 @@ HFRLRC,Onderwijsinge in de perspective conste,Provided by catalog,1623,The Hague
 WFWXP4,"Grondighe onder-richtinghe in de optica, ofte perspective konste",Provided by catalog,1647,The Hague,DUTCH,Hendrik Hondius,Hendrik Hondius,2,1,1031521,,
 CCS7QJ,"Grondige onderrichtinge in de optica, ofte perspective konste",Provided by catalog,1647,Amsterdam,DUTCH,Hendrik Hondius,Frederick De Wit,,1,,,
 G2T7OK,Instruction en la science de perspective,Provided by catalog,1625,The Hague,FRENCH,Hendrik Hondius,Hendrik Hondius,2,1,1031522,,
-MIZPJ8,"Perspectiva. Corporum regulariuM. Das ist ein fleyssige fürweysung wie die fünff regulirten cörper, darvon Plato inn Timaeo unnd Euclides inn sein elementis schreibt",Provided by catalog,1568,Nuremberg,GERMAN,"Wenzel Jamnitzer, Jost Amman",Christoph Heußler,2,1,683519,,
+MIZPJ8,"Perspectiva. Corporum regulariuM. Das ist ein fleyssige fürweysung wie die fünff regulirten cörper, darvon Plato inn Timaeo unnd Euclides inn sein elementis schreibt",Provided by catalog,1568,Nuremberg,GERMAN,"Wenzel Jamnitzer, Jost Amman",Christoph Heußler,2,1,683519,,False
 C8SLYQ,"EYn schön nützlich büchlin und underweisung der kunst des messens, mit dem Zirckel, Richtscheidt oder linial. Zu nutz allen kunstliebhabern, fürnemlich den Malern, Bildhawern, Goldschmiden, Seidenstickern, Steynmetzen, schreinern, auch allen denen, so sich der kunst des Augenmes <Perspectiva zu Latin gnant> zugebrauchen lust Haben. Dariñ Man auch solche kunst leichter, Dañ aus etzlichen hieuor Getruckten büchern, Begreiffen uñ lernen Mag, mit vil schönen Darzu dienenden figuren.",Provided by catalog,1531,Simmern,GERMAN,,Hieronymus Rodler,2,1,2215506,,
 DN10G5,"Perspectiua Eyn schön nützlich büchlin vnd vnderweisung der kunst des Messens, mit dem Zirckel, Richtscheidt oder Linial",Provided by catalog,1546,Frankfurt,GERMAN,,Cyriacus Jacob,,1,,,
 N1D1J1,Ars magna lucis et umbrae in decem libros digesta,Provided by catalog,1646,Rome,LATIN,Athanasius Kircher,"Lodovico Grignani, Hermann Scheus",,1,4036982,,
@@ -905,7 +905,7 @@ NTML0S,"Tutte l'opere d'architettura et prospettiva, di Sebastiano Serlio bologn
 JT4H92,"The first booke of architecture, made by Sebastian Serly, entreating of geometrie. Translated out of Italian into Dutch, and out of Dutch into English.",Provided by catalog,1611,London,ENGLISH,Sebastiano Serlio,"Simon Stafford, Thomas Snodham, Robert Peake",2,1,3004814,,
 GGD02E,La pratica di prospettiua del cavalier Lorenzo Sirigatti al serenissimo Ferdinando Medici granduca di Toscana,Provided by catalog,1596,Venice,ITALIAN,Lorenzo Sirigatti,Girolamo De Franceschi,2,1,856542,,
 T3UM3R,La pratica di prospettiva. Libro primo [-secondo],Provided by catalog,1625,Venice,ITALIAN,Lorenzo Sirigatti,Bernardo Giunta,,1,4007460,,
-K7DERJ,Geometria et perspectiva. Hier inn etliche zerbrochne gebew den schreinr in eingelegter arbait dienstlich auch vil andern liebhabern zu sondr gefallen geordnet unnd gestelt durch lorentz stöer maller burger inn Augspurg.,Provided by catalog,1567,Augsburg,GERMAN,Lorenz Stör,Hans Rogel,2,1,659349,,
+K7DERJ,Geometria et perspectiva. Hier inn etliche zerbrochne gebew den schreinr in eingelegter arbait dienstlich auch vil andern liebhabern zu sondr gefallen geordnet unnd gestelt durch lorentz stöer maller burger inn Augspurg.,Provided by catalog,1567,Augsburg,GERMAN,Lorenz Stör,Hans Rogel,2,1,659349,,False
 N61RR8,Troisieme volume des memoires mathematiques,Invented by enterer,1605,Leiden,DUTCH,Simon Stevin,Jean Tuning,,1,,,
 XOIASP,"Perspective cilindrique et conique, ou Traicté des apparences veuës par le moyen des miroirs cilindriques & côniques, soient convexes ou concaves; ensemble la construction et position des figures objectées au mesmes miroirs, afin que leurs apparences soie",Provided by catalog,1630,Paris,FRENCH,Jean Louis Vaulézard,Julien Jacquin,8,1,6032524,,
 EFXRG3,"Abrégé ou racourcy de la perspective par l'imitation, dans lequel est traicté du moyen de changer une perspective en une autre semblable; ensemble l'invention d'approprier deux ou plusieurs perspectives, ou parties d'icelles en une mesme",Provided by catalog,1631,Paris,FRENCH,Jean Louis Vaulézard,Jean Louis Vaulézard,8,1,6032231,,
