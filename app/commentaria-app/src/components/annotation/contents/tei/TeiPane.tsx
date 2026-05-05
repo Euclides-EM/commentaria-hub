@@ -137,6 +137,7 @@ export function TeiPane({
     annotationId,
     currentPageOrKey,
     true,
+    'preview',
   )
   const featuresQuery = useDatasetFeaturesQuery(datasetId, !!datasetId)
   const featureResultsQuery = useQuery({

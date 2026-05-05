@@ -77,7 +77,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/suggested_reviews", httpwrapper.Get(h.ListSuggestedReviewForDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/images", httpwrapper.Get(h.GetDatasetImages).Delete(h.DeleteDatasetImages).Build())
 	api.HandleFunc("/datasets/{dataSetId}/images/upload", httpwrapper.CreateFile(h.UploadDatasetImage).Build())
-	api.HandleFunc("/datasets/{dataSetId}/images/{pageNumOrKey}", httpwrapper.GetPNG(h.GetDatasetImage).Build())
+	api.HandleFunc("/datasets/{dataSetId}/images/{pageNumOrKey}", h.ServeDatasetImage)
 	api.HandleFunc("/datasets/{dataSetId}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}", httpwrapper.Delete(h.DeleteAnnotation).Update(h.UpdateAnnotation).Get(h.GetAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/fromzip", httpwrapper.CreateFile(h.GetAnnotationZipFile).Build())

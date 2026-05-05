@@ -114,7 +114,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	featureRevisionSvc := service.NewRevision(featureRevisionStore, featureProperty)
-	annotationTEI := service.NewAnnotationTEI(annotationSvc, datasetSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc, datasetSvc, fileSystemManager, datasetImgSvc, featureResultSvc, featureSvc, editionSvc)
 	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 	langResolver := service.NewLanguagesResolver(editionSvc, datasetSvc)
 

@@ -23,10 +23,16 @@ type ImageMetadata struct {
 
 type ImageType string
 
+type ImageVariant string
+
 const (
 	ImageTypeFacsimile    ImageType = "facsimile"
 	ImageTypeTitlePage    ImageType = "tp"
 	ImageTypeFrontispiece ImageType = "frontispiece"
+
+	ImageVariantOriginal ImageVariant = "original"
+	ImageVariantPreview  ImageVariant = "preview"
+	ImageVariantThumb    ImageVariant = "thumb"
 )
 
 func ToImageType(s string) (ImageType, error) {
@@ -39,5 +45,18 @@ func ToImageType(s string) (ImageType, error) {
 		return ImageTypeFrontispiece, nil
 	default:
 		return "", fmt.Errorf("invalid image type: %s", s)
+	}
+}
+
+func ToImageVariant(s string) (ImageVariant, error) {
+	switch s {
+	case "", "original":
+		return ImageVariantOriginal, nil
+	case "preview":
+		return ImageVariantPreview, nil
+	case "thumb":
+		return ImageVariantThumb, nil
+	default:
+		return "", fmt.Errorf("invalid image variant: %s", s)
 	}
 }

@@ -45,6 +45,7 @@ import {
   getSearchResultPageOrKey,
 } from '../contents/navigation/annotationSearchUtils.ts'
 import { findMatchingImage } from '../../../utils/editions.ts'
+import { buildDatasetImageUrl } from '../../../utils/imageUrls.ts'
 import {
   DEFAULT_HIGHLIGHT_ZONE_FILTERS,
   filterSurfaceZones,
@@ -796,6 +797,7 @@ export function GalleryViewTab() {
     annotationId,
     pagesToFetch,
     pagesToFetch.length > 0,
+    'thumb',
   )
 
   useEffect(() => {
@@ -1020,7 +1022,7 @@ export function GalleryViewTab() {
       normalizedKey = matched?.filename || ''
     }
     if (!normalizedKey) return null
-    return `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
+    return buildDatasetImageUrl(datasetId, normalizedKey, 'thumb')
   }
 
   const cardWidth = viewMode === 'side-by-side' ? cardSize * 2 : cardSize
