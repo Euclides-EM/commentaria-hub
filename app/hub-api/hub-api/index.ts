@@ -35,6 +35,7 @@ export type { annotationrule_PipelineStage } from './models/annotationrule_Pipel
 export type { annotationrule_ReassignTextLinesByTolerance } from './models/annotationrule_ReassignTextLinesByTolerance';
 export type { annotationrule_RecategorizeByAlignment } from './models/annotationrule_RecategorizeByAlignment';
 export type { annotationrule_RecategorizeByAlignmentRelativeTo } from './models/annotationrule_RecategorizeByAlignmentRelativeTo';
+export type { annotationrule_RenameCategories } from './models/annotationrule_RenameCategories';
 export type { annotationrule_RemoveCategories } from './models/annotationrule_RemoveCategories';
 export type { annotationrule_RemoveOverlap } from './models/annotationrule_RemoveOverlap';
 export type { annotationrule_ResolveOverlapWithPriority } from './models/annotationrule_ResolveOverlapWithPriority';

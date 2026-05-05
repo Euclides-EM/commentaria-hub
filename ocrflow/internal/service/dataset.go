@@ -334,6 +334,10 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 	})
 
 	categoriesToRemove := []string{"MainZone-P--Italics", "MainZone-P--Enunciation", "MainZone-P"}
+	categoriesToRename :=
+		map[string]string{
+			"DropCapitalZone-Plane": "DropCapitalZone-Plain",
+		}
 	categoriesForOverlapRemove := []string{
 		"CatchWord",
 		"DigitizationArtefactZone",
@@ -349,6 +353,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 		"NumberingZone",
 		"QuireMarksZone",
 		"RunningTitleZone",
+		"MarginTextZone",
 	}
 	categoriesToExcludeFromLineDetection := []string{
 		"CatchWord",
@@ -368,6 +373,7 @@ func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.An
 			annotationrule.NewSlicePagesFixed(fac.MainTextPages),
 			annotationrule.NewModelDetect(lo.TernaryF(suggestedSegModel == nil, func() string { return "" }, func() string { return suggestedSegModel.ID })),
 			annotationrule.NewRemoveCategories(categoriesToRemove),
+			annotationrule.NewRenameCategories(categoriesToRename),
 			annotationrule.NewRemoveOverlap(categoriesForOverlapRemove, 1000),
 			annotationrule.NewResolveOverlapWithPriority("RunningTitleZone", "MainZone-Head--Section", 0.8),
 			annotationrule.NewRecategorizeByAlignment("MainZone-Head--Section", "RunningTitleZone", "NumberingZone", "horizontal", 2),

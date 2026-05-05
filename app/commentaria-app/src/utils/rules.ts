@@ -4,6 +4,7 @@ import type {
   annotationrule_LimitCategoryZones,
   annotationrule_RecategorizeByAlignment,
   annotationrule_ReassignTextLinesByTolerance,
+  annotationrule_RenameCategories,
   annotationrule_RemoveCategories,
   annotationrule_RemoveOverlap,
   annotationrule_ResolveOverlapWithPriority,
@@ -21,6 +22,7 @@ export type AnnotationRule = { type: string } & (
   | annotationrule_AddMargin
   | annotationrule_LinesDetect
   | annotationrule_RemoveCategories
+  | annotationrule_RenameCategories
   | annotationrule_RemoveOverlap
   | annotationrule_ResolveOverlapWithPriority
   | annotationrule_RecategorizeByAlignment
