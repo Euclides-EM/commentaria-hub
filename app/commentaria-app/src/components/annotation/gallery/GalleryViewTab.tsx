@@ -64,6 +64,7 @@ type HighlightModeOption = { value: HighlightMode; label: string }
 
 const BATCH_SIZE = 20
 const DEFAULT_CARD_SIZE = 280
+const PREVIEW_VARIANT_CARD_SIZE_THRESHOLD = 400
 
 const VIEW_MODE_OPTIONS: ViewModeOption[] = [
   { value: 'images', label: 'Images' },
@@ -577,6 +578,9 @@ export function GalleryViewTab() {
     )
   }, [currentPageIndex, filteredAvailablePages.length, visibleCount])
 
+  const imageVariant =
+    cardSize >= PREVIEW_VARIANT_CARD_SIZE_THRESHOLD ? 'preview' : 'thumb'
+
   const fetchedPageSetRef = useRef(new Set<string>())
   const pagesToFetchRef = useRef<string[]>([])
   const [teiByPage, setTeiByPage] = useState(new Map<string, string>())
@@ -584,7 +588,7 @@ export function GalleryViewTab() {
   useEffect(() => {
     fetchedPageSetRef.current = new Set()
     setTeiByPage(new Map())
-  }, [datasetId, annotationId])
+  }, [datasetId, annotationId, imageVariant])
 
   const pagesToFetch = useMemo(() => {
     if (!segmented) {
@@ -602,7 +606,7 @@ export function GalleryViewTab() {
     annotationId,
     pagesToFetch,
     pagesToFetch.length > 0,
-    'thumb',
+    imageVariant,
   )
 
   useEffect(() => {
@@ -827,7 +831,7 @@ export function GalleryViewTab() {
       normalizedKey = matched?.filename || ''
     }
     if (!normalizedKey) return null
-    return buildDatasetImageUrl(datasetId, normalizedKey, 'thumb')
+    return buildDatasetImageUrl(datasetId, normalizedKey, imageVariant)
   }
 
   const cardWidth = viewMode === 'side-by-side' ? cardSize * 2 : cardSize
