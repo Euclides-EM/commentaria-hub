@@ -8,7 +8,8 @@ const LINE_COUNT_OPTIONS = [100, 200, 500, 1000]
 
 export function LogsView() {
   const [lineCount, setLineCount] = useState(200)
-  const { data, isLoading, error, isFetching, refetch } = useLogsQuery(lineCount)
+  const { data, isLoading, error, isFetching, refetch } =
+    useLogsQuery(lineCount)
 
   return (
     <div className="h-full flex flex-col px-8 py-6 gap-4">

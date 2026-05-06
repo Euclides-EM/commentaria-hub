@@ -261,10 +261,7 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   }, [contextValue])
 
   useEffect(() => {
-    if (
-      (parsedViewMode !== 'backups' && parsedViewMode !== 'logs') ||
-      token
-    ) {
+    if ((parsedViewMode !== 'backups' && parsedViewMode !== 'logs') || token) {
       return
     }
     setQueryState((s) => ({ ...s, viewMode: '' }))
