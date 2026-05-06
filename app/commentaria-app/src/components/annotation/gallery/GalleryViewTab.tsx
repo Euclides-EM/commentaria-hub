@@ -44,7 +44,10 @@ import {
   getSearchResultPageOrKey,
 } from '../contents/navigation/annotationSearchUtils.ts'
 import { findMatchingImage } from '../../../utils/editions.ts'
-import { buildDatasetImageUrl } from '../../../utils/imageUrls.ts'
+import {
+  buildDatasetImageUrl,
+  type DatasetImageVariant,
+} from '../../../utils/imageUrls.ts'
 import {
   DEFAULT_HIGHLIGHT_ZONE_FILTERS,
   getHighlightZoneFilterLabel,
@@ -65,6 +68,8 @@ type HighlightModeOption = { value: HighlightMode; label: string }
 const BATCH_SIZE = 20
 const DEFAULT_CARD_SIZE = 280
 const PREVIEW_VARIANT_CARD_SIZE_THRESHOLD = 400
+const PREVIEW_VARIANT_ZOOM_THRESHOLD = 300
+const ORIGINAL_VARIANT_ZOOM_THRESHOLD = 600
 
 const VIEW_MODE_OPTIONS: ViewModeOption[] = [
   { value: 'images', label: 'Images' },
@@ -86,7 +91,8 @@ const annotationSearchWithinOptions: annotation_SearchWithin[] = [
 ]
 
 type GalleryImageCardProps = {
-  imageUrl: string
+  baseVariant: DatasetImageVariant
+  getVariantUrl: (variant: DatasetImageVariant) => string
   imageZoom: number
   highlightMode: HighlightMode
   highlightZoneFilters: HighlightZoneFilter[]
@@ -97,7 +103,8 @@ type GalleryImageCardProps = {
 }
 
 function GalleryImageCard({
-  imageUrl,
+  baseVariant,
+  getVariantUrl,
   imageZoom,
   highlightMode,
   highlightZoneFilters,
@@ -106,16 +113,65 @@ function GalleryImageCard({
   activeLineMatchIds,
   onHoverLineMatchIds,
 }: GalleryImageCardProps) {
+  const zoomKey = getVariantUrl(baseVariant)
+  const [zoomedVariant, setZoomedVariant] =
+    useState<DatasetImageVariant | null>(null)
+  const [baseNaturalSize, setBaseNaturalSize] = useState<{
+    width: number
+    height: number
+  } | null>(null)
+  const [prevZoomKey, setPrevZoomKey] = useState(zoomKey)
+
+  if (zoomKey !== prevZoomKey) {
+    setPrevZoomKey(zoomKey)
+    setZoomedVariant(null)
+    setBaseNaturalSize(null)
+  }
+
+  const effectiveVariant = zoomedVariant ?? baseVariant
+  const imageUrl = getVariantUrl(effectiveVariant)
+
   const {
     containerRef,
     imgRef,
     isZoomed,
     zoomTransform,
     imageDisplayBox,
-    handleContainerClick,
+    handleContainerClick: hookHandleContainerClick,
     updateCursor,
     getLocalCursor,
-  } = useZoomableImage(imageUrl, imageZoom)
+  } = useZoomableImage(imageUrl, imageZoom, zoomKey)
+
+  const zoneDisplayBox = useMemo(() => {
+    if (!zoomedVariant || !baseNaturalSize || imageDisplayBox.width === 0) {
+      return imageDisplayBox
+    }
+    return {
+      ...imageDisplayBox,
+      naturalWidth: baseNaturalSize.width,
+      naturalHeight: baseNaturalSize.height,
+    }
+  }, [imageDisplayBox, zoomedVariant, baseNaturalSize])
+
+  const handleContainerClick = (event: React.MouseEvent<HTMLDivElement>) => {
+    if (!isZoomed) {
+      setBaseNaturalSize({
+        width: imageDisplayBox.naturalWidth,
+        height: imageDisplayBox.naturalHeight,
+      })
+      const upgraded: DatasetImageVariant =
+        imageZoom >= ORIGINAL_VARIANT_ZOOM_THRESHOLD
+          ? 'original'
+          : imageZoom >= PREVIEW_VARIANT_ZOOM_THRESHOLD
+            ? 'preview'
+            : baseVariant
+      setZoomedVariant(upgraded)
+    } else {
+      setZoomedVariant(null)
+      setBaseNaturalSize(null)
+    }
+    hookHandleContainerClick(event)
+  }
 
   const activeMatchIdSet = useMemo(
     () => new Set(activeLineMatchIds),
@@ -127,12 +183,8 @@ function GalleryImageCard({
   )
   const visibleZones = useMemo(
     () =>
-      computeVisibleZones(
-        highlightableZones,
-        imageDisplayBox,
-        activeMatchIdSet,
-      ),
-    [activeMatchIdSet, highlightableZones, imageDisplayBox],
+      computeVisibleZones(highlightableZones, zoneDisplayBox, activeMatchIdSet),
+    [activeMatchIdSet, highlightableZones, zoneDisplayBox],
   )
 
   const showOverlay = highlightMode !== 'hide' && visibleZones.length > 0
@@ -225,7 +277,8 @@ function GalleryImageCard({
 }
 
 type GalleryCardBodyProps = {
-  imageUrl: string | null
+  baseVariant: DatasetImageVariant
+  getVariantUrl: ((variant: DatasetImageVariant) => string) | null
   imageZoom: number
   highlightMode: HighlightMode
   highlightZoneFilters: HighlightZoneFilter[]
@@ -245,7 +298,8 @@ type GalleryCardBodyProps = {
 }
 
 function GalleryCardBody({
-  imageUrl,
+  baseVariant,
+  getVariantUrl,
   imageZoom,
   highlightMode,
   highlightZoneFilters,
@@ -266,9 +320,10 @@ function GalleryCardBody({
   const [activeLineMatchIds, setActiveLineMatchIds] = useState<string[]>([])
   return (
     <>
-      {imageUrl && (
+      {getVariantUrl && (
         <GalleryImageCard
-          imageUrl={imageUrl}
+          baseVariant={baseVariant}
+          getVariantUrl={getVariantUrl}
           imageZoom={imageZoom}
           highlightMode={highlightMode}
           highlightZoneFilters={highlightZoneFilters}
@@ -821,7 +876,7 @@ export function GalleryViewTab() {
     el.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
   }, [currentPageKey, visiblePages])
 
-  const getImageUrl = (pageOrKey: string): string | null => {
+  const makeGetVariantUrl = (pageOrKey: string) => {
     const num = Number(pageOrKey)
     let normalizedKey: string
     if (!Number.isNaN(num) && Number.isInteger(num)) {
@@ -831,7 +886,8 @@ export function GalleryViewTab() {
       normalizedKey = matched?.filename || ''
     }
     if (!normalizedKey) return null
-    return buildDatasetImageUrl(datasetId, normalizedKey, imageVariant)
+    return (variant: DatasetImageVariant) =>
+      buildDatasetImageUrl(datasetId, normalizedKey, variant)
   }
 
   const cardWidth = viewMode === 'side-by-side' ? cardSize * 2 : cardSize
@@ -1023,7 +1079,8 @@ export function GalleryViewTab() {
                 <div className="flex-1 min-h-0 flex overflow-hidden">
                   <GalleryCardBody
                     key={`${page}:${galleryRenderKey}`}
-                    imageUrl={showImage ? getImageUrl(page) : null}
+                    baseVariant={imageVariant}
+                    getVariantUrl={showImage ? makeGetVariantUrl(page) : null}
                     imageZoom={imageZoom}
                     highlightMode={highlightMode}
                     highlightZoneFilters={highlightZoneFilters}

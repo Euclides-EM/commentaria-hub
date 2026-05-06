@@ -7,10 +7,15 @@ import {
 } from 'react'
 import type { ImageDisplayBox } from './imageZoneUtils.ts'
 
-export function useZoomableImage(imageUrl: string, zoom: number) {
+export function useZoomableImage(
+  imageUrl: string,
+  zoom: number,
+  zoomKey?: string,
+) {
+  const key = zoomKey ?? imageUrl
   const containerRef = useRef<HTMLDivElement | null>(null)
   const imgRef = useRef<HTMLImageElement | null>(null)
-  const [zoomedForUrl, setZoomedForUrl] = useState<string | null>(null)
+  const [zoomedKey, setZoomedKey] = useState<string | null>(null)
   const [cursorLocal, setCursorLocal] = useState({ x: 0, y: 0 })
   const [containerSize, setContainerSize] = useState({ width: 0, height: 0 })
   const [naturalSizeByUrl, setNaturalSizeByUrl] = useState<{
@@ -19,7 +24,7 @@ export function useZoomableImage(imageUrl: string, zoom: number) {
     height: number
   } | null>(null)
 
-  const isZoomed = zoomedForUrl === imageUrl
+  const isZoomed = zoomedKey === key
   const naturalSize = useMemo(
     () =>
       naturalSizeByUrl?.url === imageUrl
@@ -120,9 +125,9 @@ export function useZoomableImage(imageUrl: string, zoom: number) {
         x: event.clientX - rect.left,
         y: event.clientY - rect.top,
       })
-      setZoomedForUrl(imageUrl)
+      setZoomedKey(key)
     } else {
-      setZoomedForUrl(null)
+      setZoomedKey(null)
     }
   }
 
