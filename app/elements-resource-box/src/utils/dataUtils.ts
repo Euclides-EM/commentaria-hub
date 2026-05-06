@@ -75,12 +75,10 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         diagramCropsAvailable: edition.diagramCropsAvailable || null,
         hasDiagrams: edition.hasDiagrams,
         visualElementsTypes: uniq(
-          (
-            editionWithVisualElementsTypes.visualElementsTypes ||
+          (editionWithVisualElementsTypes.visualElementsTypes ||
             (edition.visualElements || [])
               .map((v) => v.visual_element_type)
-              .filter(Boolean)
-          ) as string[],
+              .filter(Boolean)) as string[],
         ),
         reprintOf: edition.reprintOf || null,
       } satisfies Item;

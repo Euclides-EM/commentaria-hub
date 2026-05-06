@@ -12,6 +12,7 @@ import (
 type Dependencies struct {
 	Env                     *config.EnvConfig
 	HealthSvc               *service.Health
+	LogsSvc                 *service.Logs
 	EditionSvc              *service.Edition
 	FacsimileSvc            *service.Facsimile
 	DatasetSvc              *service.Dataset
@@ -47,6 +48,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	h := NewHandlers(deps)
 
 	api.HandleFunc("/health", httpwrapper.Get(h.Health).Build())
+	api.HandleFunc("/logs", httpwrapper.Get(h.ListLogs).Build())
 
 	api.HandleFunc("/auth/validate", httpwrapper.Create(h.ValidateAuth).Build())
 	api.HandleFunc("/version_control/pull", httpwrapper.Create(h.VersionControlPull).Build())

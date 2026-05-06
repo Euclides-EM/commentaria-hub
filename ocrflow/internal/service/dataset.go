@@ -74,7 +74,7 @@ func (d *Dataset) CleanupDatasets(dryRun bool) ([]*model.Dataset, error) {
 	if dryRun {
 		return toRemove, nil
 	}
-	log.Printf("cleaning up %d datasets...", len(dss))
+	log.Printf("cleaning up %d datasets...", len(toRemove))
 	for _, ds := range toRemove {
 		log.Printf("Dataset %s in status %s marked for cleanup", ds.ID, ds.Status)
 		if err := d.Delete(ds.ID); err != nil {

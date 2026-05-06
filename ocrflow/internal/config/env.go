@@ -22,6 +22,9 @@ type EnvConfig struct {
 	EscriptoriumPassword     string        `env:"ESCRIPTORIUM_PASSWORD" envDefault:"admin"`
 	CommentariaPath          string        `env:"COMMENTARIA_PATH" envDefault:"https://euclides.huma-num.fr/commentaria"`
 	AllowedOriginsCORS       string        `env:"ALLOWED_ORIGINS_CORS" envDefault:""`
+	LogsSystemdUnit          string        `env:"LOGS_SYSTEMD_UNIT" envDefault:"commentaria-hub-api"`
+	LogsTailDefaultLines     int           `env:"LOGS_TAIL_DEFAULT_LINES" envDefault:"200"`
+	LogsTailMaxLines         int           `env:"LOGS_TAIL_MAX_LINES" envDefault:"2000"`
 
 	RootDir       string `env:"ROOT_DIR" envDefault:"./"`
 	StoreDir      string `env:"STORE_DIR" envDefault:"./store"`
