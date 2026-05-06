@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"slices"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -17,6 +18,15 @@ type Manager struct {
 	trainingDir string
 	modelsDir   string
 	diagramsDir string
+}
+
+var protectedTopLevelStoreDirs = map[string]struct{}{
+	"transcriptions": {},
+}
+
+var allowedDatasetEntries = map[string]struct{}{
+	"annotations": {},
+	"imgs":        {},
 }
 
 func NewFileSystemManager(baseDir, trainingDir, modelsDir, diagramsDir string) *Manager {
@@ -47,12 +57,13 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*annotatio
 	}
 
 	for _, de := range des {
+		dsID := de.Name()
+		if _, protected := protectedTopLevelStoreDirs[dsID]; protected {
+			continue
+		}
 		if !de.IsDir() {
 			p := filepath.Join(dataDir, de.Name())
 			toDelete = append(toDelete, p)
-		}
-		dsID := de.Name()
-		if dsID == "transcriptions" {
 			continue
 		}
 		if !slices.Contains(dsIDs, dsID) {
@@ -66,12 +77,17 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*annotatio
 			return nil, fmt.Errorf("cannot read dataset dir %s: %w", dsID, err)
 		}
 		for _, dde := range ddes {
+			if _, allowed := allowedDatasetEntries[dde.Name()]; allowed {
+				continue
+			}
 			if filepath.Ext(dde.Name()) == ".pdf" {
 				p := filepath.Join(dataDir, dsID, dde.Name())
 				toDelete = append(toDelete, p)
+				continue
 			}
 			if !dde.IsDir() {
-				toDelete = append(toDelete, dde.Name())
+				p := filepath.Join(dataDir, dsID, dde.Name())
+				toDelete = append(toDelete, p)
 				continue
 			}
 			if !slices.Contains([]string{"imgs", "annotations"}, dde.Name()) {
@@ -113,6 +129,9 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*annotatio
 
 	if !dryRun {
 		for _, p := range toDelete {
+			if err = ensureStorePath(dataDir, p); err != nil {
+				return nil, err
+			}
 			log.Printf("Deleting %s", p)
 			if err = os.RemoveAll(p); err != nil {
 				return nil, fmt.Errorf("failed to delete %s: %w", p, err)
@@ -121,6 +140,26 @@ func (m *Manager) CleanupLocalStore(dryRun bool, annsMap map[string][]*annotatio
 	}
 
 	return toDelete, nil
+}
+
+func ensureStorePath(dataDir, p string) error {
+	if !filepath.IsAbs(p) {
+		return fmt.Errorf("refusing to delete non-absolute path %s", p)
+	}
+
+	absPath, err := filepath.Abs(p)
+	if err != nil {
+		return fmt.Errorf("could not get abs path for %s: %w", p, err)
+	}
+
+	rel, err := filepath.Rel(dataDir, absPath)
+	if err != nil {
+		return fmt.Errorf("could not validate path %s against data dir %s: %w", p, dataDir, err)
+	}
+	if rel == "." || rel == ".." || strings.HasPrefix(rel, ".."+string(os.PathSeparator)) || filepath.IsAbs(rel) {
+		return fmt.Errorf("refusing to delete path outside data dir: %s", p)
+	}
+	return nil
 }
 
 func (m *Manager) DeleteDatasetFiles(ds *model.Dataset) error {
