@@ -78,7 +78,14 @@ export const annotationTeiQueryKey = (
   pageOrKey: number | string,
   imageVariant: DatasetImageVariant = 'original',
 ) =>
-  ['annotations', datasetId, annotationId, 'tei', pageOrKey, imageVariant] as const
+  [
+    'annotations',
+    datasetId,
+    annotationId,
+    'tei',
+    pageOrKey,
+    imageVariant,
+  ] as const
 
 export function useAnnotationTeiQuery(
   datasetId: string,
@@ -164,7 +171,14 @@ export function useAnnotationTeisQuery(
   imageVariant: DatasetImageVariant = 'original',
 ) {
   return useQuery({
-    queryKey: ['annotations', datasetId, annotationId, 'teis', pages, imageVariant],
+    queryKey: [
+      'annotations',
+      datasetId,
+      annotationId,
+      'teis',
+      pages,
+      imageVariant,
+    ],
     queryFn: async () => {
       const pageChunks = chunkPages(pages, MAX_BULK_TEI_PAGES)
       const responses = await Promise.all(
