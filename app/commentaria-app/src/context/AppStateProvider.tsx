@@ -60,7 +60,8 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
     queryState.viewMode === 'models' ||
     queryState.viewMode === 'annotations' ||
     queryState.viewMode === 'jobs' ||
-    queryState.viewMode === 'backups'
+    queryState.viewMode === 'backups' ||
+    queryState.viewMode === 'logs'
       ? queryState.viewMode
       : null
   const parsedDatasetTab: DatasetTab =
@@ -260,7 +261,10 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   }, [contextValue])
 
   useEffect(() => {
-    if (parsedViewMode !== 'backups' || token) {
+    if (
+      (parsedViewMode !== 'backups' && parsedViewMode !== 'logs') ||
+      token
+    ) {
       return
     }
     setQueryState((s) => ({ ...s, viewMode: '' }))

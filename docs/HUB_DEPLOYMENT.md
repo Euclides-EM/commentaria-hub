@@ -165,6 +165,7 @@ GITHUB_TOKEN=***
 ROBOFLOW_API_KEY=***
 UV_PATH=<path/to/uv/executable/if/not/in/PATH>
 OPENAI_API_KEY=s***A
+LOGS_SYSTEMD_UNIT=commentaria-hub-api
 ```
 
 Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_private` file.
@@ -242,6 +243,13 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now commentaria-hub-api
 sudo systemctl status commentaria-hub-api
 sudo journalctl -u commentaria-hub-api -n 200 --no-pager
+```
+
+If you want the API's authenticated `/api/v1/logs?n=200` endpoint to work, make sure the `euclides` service user can read the systemd journal for this unit without `sudo`. One way is:
+
+```bash
+sudo usermod -aG adm,systemd-journal euclides
+sudo systemctl restart commentaria-hub-api
 ```
 
 Quick check that it’s running:

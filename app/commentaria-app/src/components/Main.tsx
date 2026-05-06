@@ -10,6 +10,7 @@ import { FeaturesService } from '@hub-api'
 import { ModelsTable } from './models/ModelsTable.tsx'
 import { JobsTable } from './jobs/JobsTable.tsx'
 import { BackupsView } from './backups/BackupsView.tsx'
+import { LogsView } from './logs/LogsView.tsx'
 import { Button } from './core/Button.tsx'
 import { CreateDatasetModal } from './dataset/CreateDatasetModal.tsx'
 import { DatasetDetails } from './dataset/DatasetDetails.tsx'
@@ -57,6 +58,9 @@ export function Main() {
   }
   if (state.viewMode === 'backups') {
     return <BackupsView />
+  }
+  if (state.viewMode === 'logs') {
+    return <LogsView />
   }
 
   if (!state.datasetId) {
