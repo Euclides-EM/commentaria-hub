@@ -1,13 +1,14 @@
 import { Fragment, useMemo, useState } from 'react'
-import { useQueries } from '@tanstack/react-query'
+import { useQueries, useQueryClient } from '@tanstack/react-query'
 import type {
   annotation_Annotation,
   annotation_Group,
   annotationrule_PipelineStage,
 } from '@hub-api'
-import { AnnotationsService } from '@hub-api'
+import { AnnotationsService, ApiError } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import {
+  annotationGroupsQueryKey,
   useAnnotationGroupsQuery,
   useCreateAnnotationGroupMutation,
   useDeleteAnnotationGroupMutation,
@@ -25,6 +26,7 @@ import { LoadingSpinner } from '../core/LoadingSpinner'
 import { MultiSelectDropdown } from '../core/MultiSelectDropdown'
 import { SearchInput } from '../core/SearchInput'
 import { Timestamp } from '../core/Timestamp'
+import { DeleteAnnotationModal } from '../modal/DeleteAnnotationModal.tsx'
 import useLocalStorageState from 'use-local-storage-state'
 import { hasAnnotationPages } from '../../utils/editions.ts'
 import { useAuthStore } from '../../store/authStore'
@@ -56,6 +58,7 @@ type AnnotationGroupWithId = annotation_Group & { id: string }
 
 export function AnnotationsTable() {
   const isAuthenticated = !!useAuthStore((store) => store.token)
+  const queryClient = useQueryClient()
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
   const { data: stages } = usePipelineStages()
   const {
@@ -77,6 +80,11 @@ export function AnnotationsTable() {
   >({})
   const [selectedTargets, setSelectedTargets] = useState<SelectedTargets>({})
   const [groupActionError, setGroupActionError] = useState<string | null>(null)
+  const [deleteActionError, setDeleteActionError] = useState<string | null>(
+    null,
+  )
+  const [isDeleteSelectedOpen, setIsDeleteSelectedOpen] = useState(false)
+  const [isDeletingSelected, setIsDeletingSelected] = useState(false)
   const [searchQuery, setSearchQuery] = useLocalStorageState<string>(
     'annotationsSearch',
     {
@@ -473,6 +481,24 @@ export function AnnotationsTable() {
   const getErrorMessage = (value: unknown) =>
     value instanceof Error ? value.message : String(value)
 
+  const getDeleteActionErrorMessage = (value: unknown) =>
+    value instanceof ApiError ? String(value.body) : getErrorMessage(value)
+
+  const formatDeleteErrors = (messages: string[]) => {
+    const uniqueMessages = [...new Set(messages.map((message) => message.trim()))]
+      .filter(Boolean)
+
+    if (uniqueMessages.length === 0) {
+      return 'Failed to delete the selected annotations.'
+    }
+
+    if (uniqueMessages.length === 1) {
+      return uniqueMessages[0]
+    }
+
+    return uniqueMessages.join(' | ')
+  }
+
   const handleAddSelectedToGroups = async (groupIds: string[]) => {
     if (groupIds.length === 0 || selectedReferences.length === 0) {
       return
@@ -588,6 +614,86 @@ export function AnnotationsTable() {
       })
     } catch (error) {
       setGroupActionError(getErrorMessage(error))
+    }
+  }
+
+  const handleDeleteSelected = async () => {
+    if (selectedAnnotationRows.length === 0) {
+      setIsDeleteSelectedOpen(false)
+      return
+    }
+
+    try {
+      setDeleteActionError(null)
+      setIsDeletingSelected(true)
+
+      const targetsToDelete = selectedAnnotationRows
+        .filter(
+          (row): row is AnnotationRow & {
+            annotation: annotation_Annotation & { id: string }
+          } => !!row.annotation.id,
+        )
+        .map((row) => ({
+          key: rowKey(row),
+          datasetId: row.datasetId,
+          annotationId: row.annotation.id,
+        }))
+
+      const results = await Promise.allSettled(
+        targetsToDelete.map((target) =>
+          AnnotationsService.deleteDatasetsAnnotations({
+            dataSetId: target.datasetId,
+            id: target.annotationId,
+          }),
+        ),
+      )
+
+      const failedKeys = new Set<string>()
+      const failedReasons: string[] = []
+      results.forEach((result, index) => {
+        if (result.status === 'rejected') {
+          failedKeys.add(targetsToDelete[index].key)
+          failedReasons.push(getDeleteActionErrorMessage(result.reason))
+        }
+      })
+
+      await Promise.all([
+        queryClient.invalidateQueries({
+          queryKey: ['annotations'],
+        }),
+        queryClient.invalidateQueries({
+          queryKey: annotationGroupsQueryKey(),
+        }),
+      ])
+
+      setSelectedTargets((current) => {
+        const next = pruneSelectedTargets(current)
+        targetsToDelete.forEach((target) => {
+          if (!failedKeys.has(target.key)) {
+            delete next[target.key]
+          }
+        })
+        return next
+      })
+
+      setIsDeleteSelectedOpen(false)
+
+      if (failedReasons.length > 0) {
+        const failedCount = failedReasons.length
+        const totalCount = targetsToDelete.length
+        const combinedErrorMessage = formatDeleteErrors(failedReasons)
+        setDeleteActionError(
+          failedCount === totalCount
+            ? combinedErrorMessage
+            : `Deleted ${totalCount - failedCount} of ${totalCount} selected annotations. ${combinedErrorMessage}`,
+        )
+        return
+      }
+    } catch (error) {
+      setIsDeleteSelectedOpen(false)
+      setDeleteActionError(getDeleteActionErrorMessage(error))
+    } finally {
+      setIsDeletingSelected(false)
     }
   }
 
@@ -841,7 +947,11 @@ export function AnnotationsTable() {
                     setGroupActionError(null)
                     setIsAddToGroupsOpen(true)
                   }}
-                  disabled={selectedCount === 0 || isGroupMutationPending}
+                  disabled={
+                    selectedCount === 0 ||
+                    isGroupMutationPending ||
+                    isDeletingSelected
+                  }
                   className="px-3 py-1.5 text-sm"
                 >
                   Add to groups
@@ -853,7 +963,11 @@ export function AnnotationsTable() {
                   setGroupActionError(null)
                   setIsCreateGroupOpen(true)
                 }}
-                disabled={selectedCount === 0 || isGroupMutationPending}
+                disabled={
+                  selectedCount === 0 ||
+                  isGroupMutationPending ||
+                  isDeletingSelected
+                }
                 className="px-3 py-1.5 text-sm"
               >
                 New group
@@ -861,10 +975,22 @@ export function AnnotationsTable() {
               <Button
                 type="button"
                 onClick={() => setIsExportOpen(true)}
-                disabled={selectedCount === 0}
+                disabled={selectedCount === 0 || isDeletingSelected}
                 className="px-3 py-1.5 text-sm"
               >
                 Export selected ({selectedCount})
+              </Button>
+              <Button
+                type="button"
+                variant="danger"
+                onClick={() => {
+                  setDeleteActionError(null)
+                  setIsDeleteSelectedOpen(true)
+                }}
+                disabled={selectedCount === 0 || isDeletingSelected}
+                className="px-3 py-1.5 text-sm"
+              >
+                Delete selected ({selectedCount})
               </Button>
             </>
           )}
@@ -932,10 +1058,12 @@ export function AnnotationsTable() {
           {((annotationGroupsError &&
             !annotationGroupsLoading &&
             !groupActionError) ||
-            groupActionError) && (
+            groupActionError ||
+            deleteActionError) && (
             <div className="mb-4">
               <ErrorMessage
                 message={
+                  deleteActionError ||
                   groupActionError ||
                   (annotationGroupsError instanceof Error
                     ? annotationGroupsError.message
@@ -1142,6 +1270,22 @@ export function AnnotationsTable() {
         onClose={() => setIsExportOpen(false)}
         exportTargets={selectedRows}
         onSuccess={() => setSelectedTargets({})}
+      />
+      <DeleteAnnotationModal
+        isOpen={isDeleteSelectedOpen}
+        annotationLabel={`${selectedCount} selected ${selectedCount === 1 ? 'annotation' : 'annotations'}`}
+        title="Delete selected annotations"
+        loadingMessage="Deleting selected annotations..."
+        error={deleteActionError}
+        isDeleting={isDeletingSelected}
+        onCancel={() => {
+          if (isDeletingSelected) {
+            return
+          }
+          setDeleteActionError(null)
+          setIsDeleteSelectedOpen(false)
+        }}
+        onConfirm={() => void handleDeleteSelected()}
       />
       <CreateAnnotationGroupModal
         isOpen={isCreateGroupOpen}

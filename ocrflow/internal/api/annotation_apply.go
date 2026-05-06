@@ -169,6 +169,29 @@ func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
 	return h.applyRuleGeneric(r, &rule)
 }
 
+// ApplyRuleRenameCategories godoc
+// @Summary      Rename Categories in Annotation
+// @Description  Rename categories in an annotation.
+// @Tags         Annotations Apply Rules
+// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Param        id          path      string  true  "Annotation ID"
+// @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        annotationRule  body 	annotationrule.RenameCategories  true  "Rename categories rule"
+// @Security 	 BearerAuth
+// @Produce      json
+// @Success      200  {object}   annotation.Annotation
+// @Router       /datasets/{dataSetId}/annotations/{id}/apply/rename_categories [put]
+func (h *Handlers) ApplyRuleRenameCategories(r *http.Request) (any, error) {
+	var rule annotationrule.RenameCategories
+	if err := DecodeBody(r, &rule); err != nil {
+		return nil, err
+	}
+	rule.Type = rule.GetType()
+	rule.ApplicableStages = annotationrule.GetApplicableStages(rule.GetType())
+
+	return h.applyRuleGeneric(r, &rule)
+}
+
 // ApplyRuleRemoveOverlap godoc
 // @Summary      Remove Overlap in Annotation
 // @Description  Remove overlapping annotations in an annotation.

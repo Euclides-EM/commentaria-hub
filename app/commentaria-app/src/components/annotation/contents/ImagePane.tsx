@@ -21,6 +21,7 @@ import {
   hasAnnotationPages,
   TITLE_PAGES_DATASET_ID,
 } from '../../../utils/editions.ts'
+import { buildDatasetImageUrl } from '../../../utils/imageUrls.ts'
 import { useAuthStore } from '../../../store/authStore.ts'
 import { Button } from '../../core/Button.tsx'
 import { ReplaceImageModal } from '../../modal/ReplaceImageModal.tsx'
@@ -226,7 +227,18 @@ export function ImagePane({
     return matchedImage?.filename || ''
   })()
 
-  const imageUrl = `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}?v=${imageVersion}`
+  const imageUrl = buildDatasetImageUrl(
+    datasetId,
+    normalizedKey,
+    'preview',
+    imageVersion,
+  )
+  const originalImageUrl = buildDatasetImageUrl(
+    datasetId,
+    normalizedKey,
+    'original',
+    imageVersion,
+  )
 
   useEffect(() => {
     const viewport = viewportRef.current
@@ -545,7 +557,9 @@ export function ImagePane({
         </div>
         <Button
           type="button"
-          onClick={() => window.open(imageUrl, '_blank', 'noopener,noreferrer')}
+          onClick={() =>
+            window.open(originalImageUrl, '_blank', 'noopener,noreferrer')
+          }
           className="h-7 w-7 shrink-0 rounded-md flex items-center justify-center text-sm"
           title="Open image in new tab"
           aria-label="Open image in new tab"
