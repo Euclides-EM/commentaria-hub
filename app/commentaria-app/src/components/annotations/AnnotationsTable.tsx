@@ -485,8 +485,9 @@ export function AnnotationsTable() {
     value instanceof ApiError ? String(value.body) : getErrorMessage(value)
 
   const formatDeleteErrors = (messages: string[]) => {
-    const uniqueMessages = [...new Set(messages.map((message) => message.trim()))]
-      .filter(Boolean)
+    const uniqueMessages = [
+      ...new Set(messages.map((message) => message.trim())),
+    ].filter(Boolean)
 
     if (uniqueMessages.length === 0) {
       return 'Failed to delete the selected annotations.'
@@ -629,7 +630,9 @@ export function AnnotationsTable() {
 
       const targetsToDelete = selectedAnnotationRows
         .filter(
-          (row): row is AnnotationRow & {
+          (
+            row,
+          ): row is AnnotationRow & {
             annotation: annotation_Annotation & { id: string }
           } => !!row.annotation.id,
         )

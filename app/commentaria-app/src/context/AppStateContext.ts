@@ -1,7 +1,7 @@
 import { createContext } from 'react'
 import type { annotation_Annotation, model_Dataset } from '@hub-api'
 
-export type ViewMode = 'models' | 'annotations' | 'jobs' | 'backups'
+export type ViewMode = 'models' | 'annotations' | 'jobs' | 'backups' | 'logs'
 export type PageOrKey = number | string
 export type DatasetTab = 'details' | 'features'
 export type AnnotationTab =
