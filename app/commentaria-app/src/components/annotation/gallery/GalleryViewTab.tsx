@@ -906,6 +906,12 @@ export function GalleryViewTab() {
       <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
         <div className="border-b border-gray-200 bg-gray-50 shrink-0 flex flex-col">
           <div className="px-3 py-2 flex items-center gap-3 flex-wrap">
+            {teisQuery.isFetching && (
+              <span className="text-xs text-gray-400 flex items-center gap-1.5">
+                <span className="inline-block w-3 h-3 border border-gray-300 border-t-gray-500 rounded-full animate-spin" />
+                Loading texts…
+              </span>
+            )}
             <div className="flex items-center gap-1.5">
               <span className="text-xs text-gray-600">View</span>
               <div className="w-36">
@@ -1037,9 +1043,6 @@ export function GalleryViewTab() {
                 }
                 isFeaturesLoading={featuresQuery.isLoading}
               />
-              {teisQuery.isFetching && (
-                <span className="text-xs text-gray-400">Loading texts…</span>
-              )}
             </div>
           )}
         </div>

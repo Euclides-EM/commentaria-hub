@@ -741,6 +741,12 @@ export function TeiPane({
 
         <div className="flex-1 min-h-0 overflow-hidden p-2.5 box-border flex flex-col">
           <div className="flex gap-2 items-center flex-wrap mb-2.5">
+            {isLoading && (
+              <span className="text-xs text-gray-400 flex items-center gap-1.5">
+                <span className="inline-block w-3 h-3 border border-gray-300 border-t-gray-500 rounded-full animate-spin" />
+                Loading…
+              </span>
+            )}
             {sourceOptions.length > 1 && (
               <div className="flex items-center gap-1.5">
                 <span className="text-xs font-medium text-gray-600">
