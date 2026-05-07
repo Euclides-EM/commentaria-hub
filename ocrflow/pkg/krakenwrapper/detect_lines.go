@@ -124,13 +124,16 @@ func detectLinesInFile(imgPath string, altoPath string, detectInCategories, igno
 		baselineJsonFile.Close()
 		defer os.Remove(baselineJsonFile.Name())
 
-		if err := envexec.PythonCmd("kraken",
+		args := append(
+			krakenDeviceArgs(),
 			"-i", imgPath,
 			baselineJsonFile.Name(),
 			"segment",
 			"-bl",
 			"--mask", maskFile.Name(),
-			"--pad", "2", "2"); err != nil {
+			"--pad", "2", "2",
+		)
+		if err := envexec.PythonCmd("kraken", args...); err != nil {
 			return fmt.Errorf("kraken segmentation failed for image %s (category %q): %w", imgPath, cat, err)
 		}
 
@@ -168,13 +171,16 @@ func detectAndGlueOnce(imgPath, altoPath string, detectInCategories, ignoreCateg
 	baselineJsonFile.Close()
 	defer os.Remove(baselineJsonFile.Name())
 
-	if err := envexec.PythonCmd("kraken",
+	args := append(
+		krakenDeviceArgs(),
 		"-i", imgPath,
 		baselineJsonFile.Name(),
 		"segment",
 		"-bl",
 		"--mask", maskFile.Name(),
-		"--pad", "2", "2"); err != nil {
+		"--pad", "2", "2",
+	)
+	if err := envexec.PythonCmd("kraken", args...); err != nil {
 		return fmt.Errorf("kraken segmentation failed for image %s: %w", imgPath, err)
 	}
 

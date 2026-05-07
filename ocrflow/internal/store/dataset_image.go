@@ -28,7 +28,7 @@ func NewDatasetImageStore(filesysManager *filesys.Manager) *DatasetImageStore {
 func (s *DatasetImageStore) UploadImage(ds *model.Dataset, filename string, file multipart.File) (*model.ImageUpload, error) {
 	p := path.Join(s.FilesysManager.DatasetImagesDir(ds), filename)
 	if err := futils.WriteMultipartFileToPath(file, p); err != nil {
-		return nil, fmt.Errorf("Error saving uploaded image: %v\n", err)
+		return nil, fmt.Errorf("error saving uploaded image: %w", err)
 	}
 	return &model.ImageUpload{
 		Success:  true,
@@ -42,7 +42,7 @@ func (s *DatasetImageStore) ListImages(dataset *model.Dataset) ([]*model.ImageMe
 	imgDir := s.FilesysManager.DatasetImagesDir(dataset)
 	files, err := os.ReadDir(imgDir)
 	if err != nil {
-		return nil, fmt.Errorf("Error listing images: %v\n", err)
+		return nil, fmt.Errorf("error listing images: %w", err)
 	}
 	var images []*model.ImageMetadata
 	for _, file := range files {
@@ -63,7 +63,7 @@ func (s *DatasetImageStore) ListImages(dataset *model.Dataset) ([]*model.ImageMe
 		})
 		fi, err := file.Info()
 		if err != nil {
-			return nil, fmt.Errorf("Error getting file info: %v\n", err)
+			return nil, fmt.Errorf("error getting file info: %w", err)
 		}
 
 		images = append(images, &model.ImageMetadata{
@@ -79,7 +79,7 @@ func (s *DatasetImageStore) GetImageMetadata(dataset *model.Dataset, key string)
 	imgDir := s.FilesysManager.DatasetImagesDir(dataset)
 	files, err := os.ReadDir(imgDir)
 	if err != nil {
-		return nil, fmt.Errorf("Error listing images: %v\n", err)
+		return nil, fmt.Errorf("error listing images: %w", err)
 	}
 	var images []*model.ImageMetadata
 	for _, file := range files {
@@ -92,7 +92,7 @@ func (s *DatasetImageStore) GetImageMetadata(dataset *model.Dataset, key string)
 		if strings.HasPrefix(file.Name(), key) {
 			fi, err := file.Info()
 			if err != nil {
-				return nil, fmt.Errorf("Error getting file info: %v\n", err)
+				return nil, fmt.Errorf("error getting file info: %w", err)
 			}
 			images = append(images, &model.ImageMetadata{
 				Key:        strings.TrimSuffix(file.Name(), filepath.Ext(file.Name())),

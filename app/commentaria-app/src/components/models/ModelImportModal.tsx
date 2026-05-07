@@ -258,7 +258,7 @@ export function ModelImportModal({
             <label className="block text-sm font-medium text-gray-700">
               Base annotation groups (optional)
             </label>
-            <Select
+            <Select<AnnotationGroupOption, true>
               value={annotationGroupOptions.filter((option) =>
                 selectedBaseGroupIds.includes(option.value),
               )}
@@ -270,7 +270,7 @@ export function ModelImportModal({
               options={annotationGroupOptions}
               placeholder="Select groups..."
               isDisabled={isSaving}
-              styles={selectStyles<AnnotationGroupOption>({
+              styles={selectStyles<AnnotationGroupOption, true>({
                 controlWidth: 320,
                 isMulti: true,
               })}

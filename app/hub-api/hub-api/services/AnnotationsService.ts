@@ -576,6 +576,7 @@ export class AnnotationsService {
         pageNumOrKey,
         fallbackToOrigin,
         feature,
+        imageVariant,
     }: {
         /**
          * Dataset ID
@@ -597,6 +598,10 @@ export class AnnotationsService {
          * Features to include in TEI data (can be specified multiple times)
          */
         feature?: Array<string>,
+        /**
+         * Optional image coordinate variant: original, preview, or thumb.
+         */
+        imageVariant?: 'original' | 'preview' | 'thumb',
     }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -609,6 +614,7 @@ export class AnnotationsService {
             query: {
                 'feature': feature,
                 'fallback_to_origin': fallbackToOrigin,
+                'image_variant': imageVariant,
             },
         });
     }
@@ -624,6 +630,7 @@ export class AnnotationsService {
         pageNumOrKey,
         fallbackToOrigin,
         feature,
+        imageVariant,
     }: {
         /**
          * Dataset ID
@@ -645,6 +652,10 @@ export class AnnotationsService {
          * Features to include in TEI data (can be specified multiple times)
          */
         feature?: Array<string>,
+        /**
+         * Optional image coordinate variant: original, preview, or thumb.
+         */
+        imageVariant?: 'original' | 'preview' | 'thumb',
     }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -657,6 +668,7 @@ export class AnnotationsService {
                 'pageNumOrKey': pageNumOrKey,
                 'feature': feature,
                 'fallback_to_origin': fallbackToOrigin,
+                'image_variant': imageVariant,
             },
         });
     }

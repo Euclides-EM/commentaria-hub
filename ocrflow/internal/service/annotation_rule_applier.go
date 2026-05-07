@@ -84,6 +84,8 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 				f = func() error { return a.applyAddMarginRule(af, t) }
 			case *annotationrule.RemoveCategories:
 				f = func() error { return a.applyRemoveCategories(af, t) }
+			case *annotationrule.RenameCategories:
+				f = func() error { return a.applyRenameCategories(af, t) }
 			case *annotationrule.RemoveOverlap:
 				f = func() error { return a.applyRemoveOverlap(af, t) }
 			case *annotationrule.ResolveOverlapWithPriority:
@@ -228,6 +230,13 @@ func (a *AnnotationRuleApplier) applyTextBlockCorrection(ann *annotation.Annotat
 func (a *AnnotationRuleApplier) applyRemoveCategories(af *alto.Alto, t *annotationrule.RemoveCategories) error {
 	if err := alto.ApplyRemoveCategoriesALTO(af, t.Categories); err != nil {
 		return fmt.Errorf("failed to remove categories %v: %w", t.Categories, err)
+	}
+	return nil
+}
+
+func (a *AnnotationRuleApplier) applyRenameCategories(af *alto.Alto, t *annotationrule.RenameCategories) error {
+	if err := alto.ApplyRenameCategoriesALTO(af, t.Renames); err != nil {
+		return fmt.Errorf("failed to rename categories %v: %w", t.Renames, err)
 	}
 	return nil
 }

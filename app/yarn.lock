@@ -2992,7 +2992,6 @@ __metadata:
     react-colorful: "npm:^5.6.1"
     react-dom: "npm:^19.2.0"
     react-error-boundary: "npm:^6.1.0"
-    react-image-zooom: "npm:^1.6.0"
     react-select: "npm:^5.10.2"
     tailwindcss: "npm:^4.1.18"
     typescript: "npm:^5.9.3"
@@ -6194,16 +6193,6 @@ __metadata:
   peerDependencies:
     react: "*"
   checksum: 10c0/a24309bfc993c19cbcbfc928157e53a137851822779977b9588f6dd41ffc4d11ebc98b447f4039b0d309a858f0a42980f6bfb4477fb19f9f2d1bc2e190fcf79c
-  languageName: node
-  linkType: hard
-
-"react-image-zooom@npm:^1.6.0":
-  version: 1.7.0
-  resolution: "react-image-zooom@npm:1.7.0"
-  peerDependencies:
-    react: ^17 || ^18 || ^19
-    react-dom: ^17 || ^18 || ^19
-  checksum: 10c0/29d5eb84b9897c2902e807fc10d802e2e7234434de2944dbc4c01a88507d94717388ae7cbc2447e32ab4a9f773d0c9d60014a5eaf10f17b4627e340ad65e3922
   languageName: node
   linkType: hard
 

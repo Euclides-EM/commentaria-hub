@@ -89,6 +89,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	vcsMgtSvc := service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID(titlepage.DatasetID))
 	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
+	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
@@ -114,7 +115,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	metadataDetailsSvc := service.NewMetadataDetails()
 	diagramCropsSvc := service.NewDiagramCropsService(diagramCropsStore)
 	featureRevisionSvc := service.NewRevision(featureRevisionStore, featureProperty)
-	annotationTEI := service.NewAnnotationTEI(annotationSvc, datasetSvc, fileSystemManager, featureResultSvc, featureSvc, editionSvc)
+	annotationTEI := service.NewAnnotationTEI(annotationSvc, datasetSvc, fileSystemManager, datasetImgSvc, featureResultSvc, featureSvc, editionSvc)
 	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 	langResolver := service.NewLanguagesResolver(editionSvc, datasetSvc)
 
@@ -174,6 +175,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	deps := &api.Dependencies{
 		Env:                     env,
 		HealthSvc:               healthSvc,
+		LogsSvc:                 logsSvc,
 		EditionSvc:              editionSvc,
 		GeoSvc:                  geoSvc,
 		FacsimileSvc:            facsimileSvc,

@@ -4,6 +4,10 @@ import { ItemTypes } from "../constants";
 import type { model_Edition } from "@hub-api";
 import { toItemImageUrl } from "./util.ts";
 
+type EditionWithVisualElementsTypes = model_Edition & {
+  visualElementsTypes?: string[];
+};
+
 const firstOrNull = <T>(arr: T[]): T | null => (arr.length > 0 ? arr[0] : null);
 
 const toBookRanges = (books: number[]) => {
@@ -24,6 +28,8 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
   return editions
     .filter((edition) => edition.key)
     .map((edition) => {
+      const editionWithVisualElementsTypes =
+        edition as EditionWithVisualElementsTypes;
       const shelfmarks = edition.shelfmarks || [];
       const books = Array.isArray(edition.books)
         ? edition.books.filter((value): value is number =>
@@ -78,9 +84,10 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         diagramCropsAvailable: edition.diagramCropsAvailable || null,
         hasDiagrams: edition.hasDiagrams,
         visualElementsTypes: uniq(
-          (edition.visualElements || [])
-            .map((v) => v.visual_element_type)
-            .filter(Boolean) as string[],
+          (editionWithVisualElementsTypes.visualElementsTypes ||
+            (edition.visualElements || [])
+              .map((v) => v.visual_element_type)
+              .filter(Boolean)) as string[],
         ),
         reprintOf: edition.reprintOf || null,
       } satisfies Item;

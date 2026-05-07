@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
 
@@ -17,6 +18,7 @@ import (
 // @Param        pageNumOrKey   path      string  true  "Page Number or Key"
 // @Param        feature   query     []string  false "Features to include in TEI data (can be specified multiple times)"  collectionFormat(multi)
 // @Param        fallback_to_origin   query     bool  true "Whether to fallback to results of the origin annotation if no feature results are found. By default, it's true."
+// @Param        image_variant   query     string  false "Optional image coordinate variant: original, preview, or thumb."
 // @Produce      application/xml
 // @Success      200  {string}   string "TEI XML content"
 // @Router       /datasets/{dataSetId}/annotations/{id}/tei/{pageNumOrKey} [get]
@@ -31,12 +33,16 @@ func (h *Handlers) GetAnnotationTEI(r *http.Request) ([]byte, error) {
 		return nil, fmt.Errorf("missing page number or key in path")
 	}
 	features := r.URL.Query()["feature"]
+	imageVariant, err := model.ToImageVariant(r.URL.Query().Get("image_variant"))
+	if err != nil {
+		return nil, err
+	}
 
 	fallbackToOrigin, err := strconv.ParseBool(r.URL.Query().Get("fallback_to_origin"))
 	if err != nil {
 		fallbackToOrigin = true
 	}
-	return h.deps.AnnotationTEI.GetTEI(datasetID, annotationID, pageNumOrKey, features, fallbackToOrigin)
+	return h.deps.AnnotationTEI.GetTEI(datasetID, annotationID, pageNumOrKey, features, fallbackToOrigin, imageVariant)
 }
 
 // GetAnnotationTEIs godoc
@@ -48,6 +54,7 @@ func (h *Handlers) GetAnnotationTEI(r *http.Request) ([]byte, error) {
 // @Param        pageNumOrKey   query     []string  true  "Page Numbers or Keys (can be specified multiple times)" collectionFormat(multi)
 // @Param        feature   query     []string  false "Features to include in TEI data (can be specified multiple times)"  collectionFormat(multi)
 // @Param        fallback_to_origin   query     bool  true "Whether to fallback to results of the origin annotation if no feature results are found. By default, it's true."
+// @Param        image_variant   query     string  false "Optional image coordinate variant: original, preview, or thumb."
 // @Produce      application/xml
 // @Success      200 {string}   string "An XML document containing multiple TEI entries, each representing the TEI for a specific page number or key."
 // @Router       /datasets/{dataSetId}/annotations/{id}/teis [get]
@@ -74,12 +81,16 @@ func (h *Handlers) GetAnnotationTEIs(r *http.Request) ([]byte, error) {
 		return nil, fmt.Errorf("too many page numbers or keys requested; maximum is 100")
 	}
 	features := r.URL.Query()["feature"]
+	imageVariant, err := model.ToImageVariant(r.URL.Query().Get("image_variant"))
+	if err != nil {
+		return nil, err
+	}
 
 	fallbackToOrigin, err := strconv.ParseBool(r.URL.Query().Get("fallback_to_origin"))
 	if err != nil {
 		fallbackToOrigin = true
 	}
-	return h.deps.AnnotationTEI.GetTEIs(datasetID, annotationID, pageNumOrKeys, features, fallbackToOrigin)
+	return h.deps.AnnotationTEI.GetTEIs(datasetID, annotationID, pageNumOrKeys, features, fallbackToOrigin, imageVariant)
 }
 
 // GetEditionTEI godoc

@@ -12,6 +12,7 @@ import (
 type Dependencies struct {
 	Env                     *config.EnvConfig
 	HealthSvc               *service.Health
+	LogsSvc                 *service.Logs
 	EditionSvc              *service.Edition
 	FacsimileSvc            *service.Facsimile
 	DatasetSvc              *service.Dataset
@@ -47,6 +48,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	h := NewHandlers(deps)
 
 	api.HandleFunc("/health", httpwrapper.Get(h.Health).Build())
+	api.HandleFunc("/logs", httpwrapper.Get(h.ListLogs).Build())
 
 	api.HandleFunc("/auth/validate", httpwrapper.Create(h.ValidateAuth).Build())
 	api.HandleFunc("/version_control/pull", httpwrapper.Create(h.VersionControlPull).Build())
@@ -77,7 +79,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/suggested_reviews", httpwrapper.Get(h.ListSuggestedReviewForDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/images", httpwrapper.Get(h.GetDatasetImages).Delete(h.DeleteDatasetImages).Build())
 	api.HandleFunc("/datasets/{dataSetId}/images/upload", httpwrapper.CreateFile(h.UploadDatasetImage).Build())
-	api.HandleFunc("/datasets/{dataSetId}/images/{pageNumOrKey}", httpwrapper.GetPNG(h.GetDatasetImage).Build())
+	api.HandleFunc("/datasets/{dataSetId}/images/{pageNumOrKey}", h.ServeDatasetImage)
 	api.HandleFunc("/datasets/{dataSetId}/annotations", httpwrapper.Get(h.ListAnnotations).Create(h.CreateAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}", httpwrapper.Delete(h.DeleteAnnotation).Update(h.UpdateAnnotation).Get(h.GetAnnotation).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/fromzip", httpwrapper.CreateFile(h.GetAnnotationZipFile).Build())
@@ -95,6 +97,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/add_margin", httpwrapper.Update(h.ApplyRuleAddMargin).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/detect_lines", httpwrapper.Update(h.ApplyRuleDetectLines).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_categories", httpwrapper.Update(h.ApplyRuleRemoveCategories).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/rename_categories", httpwrapper.Update(h.ApplyRuleRenameCategories).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/remove_overlap", httpwrapper.Update(h.ApplyRuleRemoveOverlap).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/resolve_overlap_with_priority", httpwrapper.Update(h.ApplyRuleResolveOverlapWithPriority).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/recategorize_by_alignment", httpwrapper.Update(h.ApplyRuleRecategorizeByAlignment).Build())

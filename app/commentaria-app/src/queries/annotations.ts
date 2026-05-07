@@ -4,6 +4,7 @@ import {
   EditionsService,
   type annotation_SearchWithin,
 } from '@hub-api'
+import type { DatasetImageVariant } from '../utils/imageUrls.ts'
 
 const MAX_BULK_TEI_PAGES = 25
 
@@ -75,22 +76,38 @@ export const annotationTeiQueryKey = (
   datasetId: string,
   annotationId: string,
   pageOrKey: number | string,
-) => ['annotations', datasetId, annotationId, 'tei', pageOrKey] as const
+  imageVariant: DatasetImageVariant = 'original',
+) =>
+  [
+    'annotations',
+    datasetId,
+    annotationId,
+    'tei',
+    pageOrKey,
+    imageVariant,
+  ] as const
 
 export function useAnnotationTeiQuery(
   datasetId: string,
   annotationId: string,
   pageOrKey: number | string,
   enabled: boolean,
+  imageVariant: DatasetImageVariant = 'original',
 ) {
   return useQuery({
-    queryKey: annotationTeiQueryKey(datasetId, annotationId, pageOrKey),
+    queryKey: annotationTeiQueryKey(
+      datasetId,
+      annotationId,
+      pageOrKey,
+      imageVariant,
+    ),
     queryFn: () =>
       AnnotationsService.getDatasetsAnnotationsTei({
         dataSetId: datasetId,
         id: annotationId,
         pageNumOrKey: String(pageOrKey),
         fallbackToOrigin: true,
+        imageVariant,
       }),
     enabled: !!datasetId && !!annotationId && !!pageOrKey && enabled,
   })
@@ -151,9 +168,17 @@ export function useAnnotationTeisQuery(
   annotationId: string,
   pages: string[],
   enabled: boolean,
+  imageVariant: DatasetImageVariant = 'original',
 ) {
   return useQuery({
-    queryKey: ['annotations', datasetId, annotationId, 'teis', pages],
+    queryKey: [
+      'annotations',
+      datasetId,
+      annotationId,
+      'teis',
+      pages,
+      imageVariant,
+    ],
     queryFn: async () => {
       const pageChunks = chunkPages(pages, MAX_BULK_TEI_PAGES)
       const responses = await Promise.all(
@@ -163,6 +188,7 @@ export function useAnnotationTeisQuery(
             id: annotationId,
             pageNumOrKey,
             fallbackToOrigin: true,
+            imageVariant,
           }),
         ),
       )

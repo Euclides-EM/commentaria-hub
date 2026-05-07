@@ -25,23 +25,25 @@ type AnnotationTEI struct {
 	annotationSvc *Annotation
 	datasetSvc    *Dataset
 	fileSysMgt    *filesys.Manager
+	datasetImgSvc *DatasetImg
 	resultSvc     *Result
 	featureSvc    *Feature
 	editionSvc    *Edition
 }
 
-func NewAnnotationTEI(annotationSvc *Annotation, datasetSvc *Dataset, fileSysMgt *filesys.Manager, resultSvc *Result, featureSvc *Feature, editionSvc *Edition) *AnnotationTEI {
+func NewAnnotationTEI(annotationSvc *Annotation, datasetSvc *Dataset, fileSysMgt *filesys.Manager, datasetImgSvc *DatasetImg, resultSvc *Result, featureSvc *Feature, editionSvc *Edition) *AnnotationTEI {
 	return &AnnotationTEI{
 		annotationSvc: annotationSvc,
 		datasetSvc:    datasetSvc,
 		fileSysMgt:    fileSysMgt,
+		datasetImgSvc: datasetImgSvc,
 		resultSvc:     resultSvc,
 		featureSvc:    featureSvc,
 		editionSvc:    editionSvc,
 	}
 }
 
-func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrKey string, features []string, fallbackToOrigin bool) ([]byte, error) {
+func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrKey string, features []string, fallbackToOrigin bool, imageVariant model.ImageVariant) ([]byte, error) {
 	ann, err := t.annotationSvc.Get(datasetID, annotationID)
 	if err != nil {
 		return nil, err
@@ -59,6 +61,9 @@ func (t *AnnotationTEI) GetTEI(datasetID string, annotationID string, pageNumOrK
 	tei, err := t.getTEI(ann, pageNumOrKey, features, fallbackToOrigin)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get TEI for annotation %s: %v", ann.ID, err)
+	}
+	if err := t.scaleTEIToVariant(datasetID, pageNumOrKey, tei, imageVariant); err != nil {
+		return nil, fmt.Errorf("failed to scale TEI for annotation %s: %v", ann.ID, err)
 	}
 
 	xml, err := tei.ToXML()
@@ -192,7 +197,7 @@ func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []st
 	return transcription, translations, nil
 }
 
-func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []string, features []string, fallbackToOrigin bool) ([]byte, error) {
+func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []string, features []string, fallbackToOrigin bool, imageVariant model.ImageVariant) ([]byte, error) {
 	features, err := t.normalizeFeatureIDs(datasetID, features)
 	if err != nil {
 		return nil, fmt.Errorf("failed to normalize feature IDs for dataset %s: %v", datasetID, err)
@@ -213,6 +218,9 @@ func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []st
 		if err != nil {
 			return nil, fmt.Errorf("failed to get TEI for annotation %s: %v", ann.ID, err)
 		}
+		if err := t.scaleTEIToVariant(datasetID, key, tei, imageVariant); err != nil {
+			return nil, fmt.Errorf("failed to scale TEI for annotation %s page %s: %v", ann.ID, key, err)
+		}
 
 		teis[key] = tei
 	}
@@ -230,6 +238,37 @@ func (t *AnnotationTEI) GetTEIs(datasetID string, annotationID string, keys []st
 
 func (t *AnnotationTEI) annotationCanBeRepresentedAsTEI(ann *annotation.Annotation) bool {
 	return ann.Ocred || ann.LinesDetected || ann.Segmented
+}
+
+func (t *AnnotationTEI) scaleTEIToVariant(datasetID, pageNumOrKey string, tei *teimodel.TEI, imageVariant model.ImageVariant) error {
+	if tei == nil || imageVariant == model.ImageVariantOriginal {
+		return nil
+	}
+
+	origWidth, origHeight, err := t.datasetImgSvc.ImageDimensions(datasetID, pageNumOrKey, model.ImageVariantOriginal)
+	if err != nil {
+		return fmt.Errorf("get original image dimensions: %w", err)
+	}
+	varWidth, varHeight, err := t.datasetImgSvc.ImageDimensions(datasetID, pageNumOrKey, imageVariant)
+	if err != nil {
+		return fmt.Errorf("get %s image dimensions: %w", imageVariant, err)
+	}
+	if origWidth <= 0 || origHeight <= 0 || varWidth <= 0 || varHeight <= 0 {
+		return fmt.Errorf("invalid dimensions for TEI scaling")
+	}
+
+	scaleX := float64(varWidth) / float64(origWidth)
+	scaleY := float64(varHeight) / float64(origHeight)
+	for si := range tei.Facsimile.Surfaces {
+		for zi := range tei.Facsimile.Surfaces[si].Zones {
+			zone := &tei.Facsimile.Surfaces[si].Zones[zi]
+			zone.ULX *= scaleX
+			zone.ULY *= scaleY
+			zone.LRX *= scaleX
+			zone.LRY *= scaleY
+		}
+	}
+	return nil
 }
 
 func (t *AnnotationTEI) getBibleMetadata(datasetID string, pageOrKey string) *teimodel.BiblFull {

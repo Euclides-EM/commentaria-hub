@@ -15,7 +15,7 @@ func writeJSON(w http.ResponseWriter, status int, v any) {
 	enc := json.NewEncoder(w)
 	enc.SetIndent("", "  ")
 	if err := enc.Encode(v); err != nil {
-		http.Error(w, "Failed to encode response", http.StatusInternalServerError)
+		return
 	}
 
 }
@@ -77,6 +77,7 @@ func (wb *wrapperBuilder) Get(f func(*http.Request) (any, error)) *wrapperBuilde
 		resp, err := f(r)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
 		}
 		writeJSON(w, http.StatusOK, resp)
 	}
@@ -88,6 +89,7 @@ func (wb *wrapperBuilder) GetXML(f func(*http.Request) ([]byte, error)) *wrapper
 		resp, err := f(r)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
 		}
 		w.Header().Set("Content-Type", "application/xml; charset=utf-8")
 		w.WriteHeader(http.StatusOK)
@@ -101,6 +103,7 @@ func (wb *wrapperBuilder) GetSQL(f func(*http.Request) ([]byte, error)) *wrapper
 		resp, err := f(r)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
 		}
 		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
 		w.WriteHeader(http.StatusOK)
@@ -114,6 +117,7 @@ func (wb *wrapperBuilder) GetPNG(f func(*http.Request) ([]byte, error)) *wrapper
 		resp, err := f(r)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
 		}
 		w.Header().Set("Content-Type", "image/png")
 		w.WriteHeader(http.StatusOK)
