@@ -8,6 +8,7 @@ import (
 	"log"
 	"mime/multipart"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"sort"
 	"strings"
@@ -28,6 +29,9 @@ type Backup struct {
 	backupdir             string
 	restoreFromBackupPath string
 
+	rcloneRemoteName     string
+	rcloneGDriveFolderID string
+
 	shutdownFunc func() error
 	// checkpointDB, if set, is called before copying the DB file into the backup.
 	// It should run PRAGMA wal_checkpoint(FULL) so the main .db file contains all data
@@ -35,7 +39,7 @@ type Backup struct {
 	checkpointDB func() error
 }
 
-func NewBackup(baseData, models, items, db, backupDir, restoreDir string, shutdownFunc func() error) *Backup {
+func NewBackup(baseData, models, items, db, backupDir, restoreDir, rcloneRemoteName, rcloneGDriveFolderID string, shutdownFunc func() error) *Backup {
 	return &Backup{
 		baseDataDir:           baseData,
 		modelsDir:             models,
@@ -43,6 +47,8 @@ func NewBackup(baseData, models, items, db, backupDir, restoreDir string, shutdo
 		dbPath:                db,
 		backupdir:             backupDir,
 		restoreFromBackupPath: restoreDir,
+		rcloneRemoteName:      rcloneRemoteName,
+		rcloneGDriveFolderID:  rcloneGDriveFolderID,
 		shutdownFunc:          shutdownFunc,
 	}
 }
@@ -84,7 +90,7 @@ func (s *Backup) SetCheckpointFunc(f func() error) {
 }
 
 // CreateBackup creates a new backup of the current system state.
-func (s *Backup) CreateBackup() (string, error) {
+func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
 	if err := s.ensureBackupDir(); err != nil {
 		return "", err
 	}
@@ -145,7 +151,28 @@ func (s *Backup) CreateBackup() (string, error) {
 		log.Printf("warning: failed to ensure max backups after creating backup from zip: %v", err)
 	}
 
+	if syncToDrive {
+		if err := s.syncBackupToDrive(dst, name); err != nil {
+			return "", fmt.Errorf("create backup: sync to drive: %w", err)
+		}
+	}
+
 	return strings.TrimSuffix(name, ".zip"), nil
+}
+
+func (s *Backup) syncBackupToDrive(localPath, filename string) error {
+	var args []string
+	if s.rcloneGDriveFolderID != "" {
+		args = append(args, "--drive-root-folder-id="+s.rcloneGDriveFolderID)
+	}
+	args = append(args, "copy", localPath, s.rcloneRemoteName+":"+filename)
+	log.Printf("syncing backup to drive: rclone %s", strings.Join(args, " "))
+	cmd := exec.Command("rclone", args...)
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		return fmt.Errorf("rclone: %w: %s", err, string(out))
+	}
+	return nil
 }
 
 // SetupRestoreBackup restores the system state from the backup with the given ID (or latest if backupId is empty or "latest").

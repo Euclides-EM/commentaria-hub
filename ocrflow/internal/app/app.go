@@ -38,7 +38,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		return nil, fmt.Errorf("init mount proj to store: %w", err)
 	}
 	var sqlDB *sql.DB
-	bckSvc := service.NewBackup(env.DataDir(), env.ModelsDir(), env.ItemsMetadataStoreDir(), env.DBPath(), env.BackupDir(), env.RestoreDir(), func() error {
+	bckSvc := service.NewBackup(env.DataDir(), env.ModelsDir(), env.ItemsMetadataStoreDir(), env.DBPath(), env.BackupDir(), env.RestoreDir(), env.RcloneRemoteName, env.RcloneGDriveFolderID, func() error {
 		log.Printf("shutting down app for backup/restore...")
 		if sqlDB != nil {
 			log.Printf("closing db connection for backup/restore...")

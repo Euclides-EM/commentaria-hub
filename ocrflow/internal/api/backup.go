@@ -22,11 +22,13 @@ func (h *Handlers) ListBackups(r *http.Request) (any, error) {
 // @Description  Creates a new backup of the current system state.
 // @Tags         Backups
 // @Produce      json
+// @Param        sync_to_drive  query     bool    false  "If true, the backup will be copied to Google Drive using rclone after creation"
 // @Success      201  {string}  string  "Backup ID"
 // @Security 	 BearerAuth
 // @Router       /backups [post]
 func (h *Handlers) CreateBackup(r *http.Request) (any, error) {
-	return h.deps.BackupSvc.CreateBackup()
+	syncToDrive := r.URL.Query().Get("sync_to_drive") == "true"
+	return h.deps.BackupSvc.CreateBackup(syncToDrive)
 }
 
 // RestoreLatestBackup godoc
