@@ -7,8 +7,6 @@ import {
   createColumnHelper,
   ExpandedState,
   flexRender,
-  getCoreRowModel,
-  getExpandedRowModel,
   SortingState,
   useReactTable,
 } from "@tanstack/react-table";
@@ -25,9 +23,9 @@ import {
   ScrollToTopButton,
 } from "../components/common";
 import { ItemModal } from "../components/tps/modal/ItemModal";
-import { NO_EDITOR, NO_CITY, NO_YEAR } from "../constants";
+import { NO_CITY, NO_EDITOR, NO_YEAR } from "../constants";
 import { formatBookRanges, joinArr } from "../utils/util.ts";
-import { FaChevronDown, FaChevronRight, FaCheck } from "react-icons/fa";
+import { FaCheck, FaChevronDown, FaChevronRight } from "react-icons/fa";
 import { AiFillEdit, AiOutlineCopy } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
 import { AuthContext } from "../contexts/Auth.ts";
