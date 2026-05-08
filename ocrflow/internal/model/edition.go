@@ -23,7 +23,6 @@ type Edition struct {
 	ManuscriptClass             string  `json:"manuscriptClass"`
 	ManuscriptSubclass          *string `json:"manuscriptSubclass"`
 	ManuscriptElementsBooks     *string `json:"manuscriptElementsBooks"`
-	Repository                  *string `json:"repository"`
 
 	// Print-only
 	Cities          []string               `json:"cities"`
@@ -53,6 +52,7 @@ type Edition struct {
 
 type EditionShelfmark struct {
 	Volume          *int   `json:"volume"`
+	Repository      string `json:"repository"`
 	Scan            string `json:"scan"`
 	Shelfmark       string `json:"shelfmark"`
 	TitlePageImg    string `json:"title_page_img"`

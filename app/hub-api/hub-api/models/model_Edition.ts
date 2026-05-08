@@ -42,7 +42,6 @@ export type model_Edition = {
     manuscriptYearTo?: number;
     notes?: string;
     publisher?: Array<string>;
-    repository?: string;
     reprintOf?: string;
     shelfmarks?: Array<model_EditionShelfmark>;
     shortTitle?: string;

@@ -10,5 +10,6 @@ export type model_EditionShelfmark = {
     shelfmark?: string;
     title_page_img?: string;
     volume?: number;
+    repository?: string;
 };
 

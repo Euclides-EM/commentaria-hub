@@ -53,7 +53,12 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         publishers: (edition.publisher || [])
           .map((name) => name.trim())
           .filter(Boolean),
-        repository: edition.repository || null,
+        repository:
+          firstOrNull(
+            shelfmarks
+              .map((s) => s.repository?.trim())
+              .filter(Boolean) as string[],
+          ) || null,
         tpImageName:
           firstOrNull(
             shelfmarks.map((s) => s.title_page_img).filter(Boolean) as string[],

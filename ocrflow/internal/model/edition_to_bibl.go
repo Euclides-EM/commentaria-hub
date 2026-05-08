@@ -87,6 +87,9 @@ func BiblPublicationStmt(ed *Edition) *teim.BiblPublicationStmt {
 	}
 
 	for _, sh := range ed.Shelfmarks {
+		if sh.Repository != "" {
+			ps = append(ps, teim.P{Text: "Repository: " + sh.Repository})
+		}
 		if sh.Scan != "" {
 			ps = append(ps, teim.P{Text: "Digital scan: " + sh.Scan})
 		}
@@ -190,8 +193,8 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 	if ed.ManuscriptElementsBooks != nil {
 		addNote("manuscriptElementsBooks", *ed.ManuscriptElementsBooks)
 	}
-	if ed.Repository != nil {
-		addNote("repository", *ed.Repository)
+	for _, sh := range ed.Shelfmarks {
+		addNote("repository", sh.Repository)
 	}
 
 	if ed.USTCId != nil {
