@@ -58,17 +58,17 @@ func TestAddDirToZipIncludesSymlinkedDirectoryContents(t *testing.T) {
 
 func TestParseDriveBackupEntriesFiltersAndKeepsEntryType(t *testing.T) {
 	got := parseDriveBackupEntries(strings.Join([]string{
-		"backup_20260508T090000Z.zip",
-		"backup_20260507T090000Z.zip/",
+		"euclides_backup_20260508T090000Z.zip",
+		"euclides_backup_20260507T090000Z.zip/",
 		"notes.txt",
-		"nested/backup_20260506T090000Z.zip",
-		"BACKUP_20260505T090000Z.ZIP",
+		"nested/euclides_backup_20260506T090000Z.zip",
+		"EUCLIDES_BACKUP_20260505T090000Z.ZIP",
 		"",
 	}, "\n"))
 
 	want := []driveBackupEntry{
-		{name: "backup_20260508T090000Z.zip"},
-		{name: "backup_20260507T090000Z.zip", isDir: true},
+		{name: "euclides_backup_20260508T090000Z.zip"},
+		{name: "euclides_backup_20260507T090000Z.zip", isDir: true},
 	}
 	if !reflect.DeepEqual(got, want) {
 		t.Fatalf("entries = %#v, want %#v", got, want)
