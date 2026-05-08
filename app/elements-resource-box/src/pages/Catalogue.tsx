@@ -26,7 +26,7 @@ import {
 } from "../components/common";
 import { ItemModal } from "../components/tps/modal/ItemModal";
 import { ItemTypes, NO_CITY } from "../constants";
-import { formatBookRanges, joinArr } from "../utils/util.ts";
+import { joinArr } from "../utils/util.ts";
 import { FaChevronDown, FaChevronRight, FaCheck } from "react-icons/fa";
 import { AiFillEdit, AiOutlineCopy } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
@@ -688,15 +688,17 @@ export function Catalogue() {
           }),
       ].filter(Boolean) as ColumnDef<ItemWithCluster>[],
     [
-      editorsHeader,
-      hasElementsRows,
-      hasManuscriptRows,
-      hasNonElementsRows,
-      hasPrintRows,
-      showOtherColumns,
-      showElementsColumns,
-      token,
       viewMode,
+      editorsHeader,
+      showOtherColumns,
+      hasNonElementsRows,
+      hasManuscriptRows,
+      hasPrintRows,
+      showElementsColumns,
+      hasElementsRows,
+      token,
+      copiedKey,
+      copyEditionKey,
     ],
   );
 
