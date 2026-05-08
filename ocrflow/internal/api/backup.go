@@ -2,6 +2,7 @@ package api
 
 import (
 	"net/http"
+	"strconv"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
 )
@@ -27,8 +28,28 @@ func (h *Handlers) ListBackups(r *http.Request) (any, error) {
 // @Security 	 BearerAuth
 // @Router       /backups [post]
 func (h *Handlers) CreateBackup(r *http.Request) (any, error) {
-	syncToDrive := r.URL.Query().Get("sync_to_drive") == "true"
+	syncToDrive, err := strconv.ParseBool(r.URL.Query().Get("sync_to_drive"))
+	if err != nil {
+		syncToDrive = h.deps.Env.SyncBackupToRemoteByDefault()
+	}
 	return h.deps.BackupSvc.CreateBackup(syncToDrive)
+}
+
+// SyncBackupToDrive godoc
+// @Summary      Sync backup to Google Drive
+// @Description  Copies an existing backup to Google Drive using rclone.
+// @Tags         Backups
+// @Produce      json
+// @Param        backupId   path      string  true  "ID of the backup to sync"
+// @Success      200  {object}  map[string]string
+// @Security 	 BearerAuth
+// @Router       /backups/{backupId}/sync [put]
+func (h *Handlers) SyncBackupToDrive(r *http.Request) (any, error) {
+	backupId := r.PathValue("backupId")
+	if err := h.deps.BackupSvc.SyncBackupToDrive(backupId); err != nil {
+		return nil, err
+	}
+	return map[string]string{"message": "backup synced to drive"}, nil
 }
 
 // RestoreLatestBackup godoc

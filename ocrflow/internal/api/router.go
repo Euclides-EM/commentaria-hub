@@ -59,6 +59,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/backups", httpwrapper.Get(h.ListBackups).Create(h.CreateBackup).Build())
 	api.HandleFunc("/backups/fromzip", httpwrapper.CreateFile(h.CreateBackupFromZip).Build())
 	api.HandleFunc("/backups/{backupId}", httpwrapper.GetZip(h.DownloadBackup).Build())
+	api.HandleFunc("/backups/{backupId}/sync", httpwrapper.Update(h.SyncBackupToDrive).Build())
 	api.HandleFunc("/backups/{backupId}/restore", httpwrapper.Update(h.RestoreLatestBackup).Build())
 
 	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())

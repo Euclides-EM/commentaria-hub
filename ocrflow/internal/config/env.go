@@ -26,10 +26,11 @@ type EnvConfig struct {
 	LogsTailDefaultLines     int           `env:"LOGS_TAIL_DEFAULT_LINES" envDefault:"200"`
 	LogsTailMaxLines         int           `env:"LOGS_TAIL_MAX_LINES" envDefault:"2000"`
 
-	RootDir       string `env:"ROOT_DIR" envDefault:"./"`
-	StoreDir      string `env:"STORE_DIR" envDefault:"./store"`
-	TempDir       string `env:"OCRFLOW_TEMP_DIR"`
-	BackupRootDir string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
+	RootDir          string `env:"ROOT_DIR" envDefault:"./"`
+	StoreDir         string `env:"STORE_DIR" envDefault:"./store"`
+	TempDir          string `env:"OCRFLOW_TEMP_DIR"`
+	BackupRootDir    string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
+	BackupMaxToStore int    `env:"BACKUP_MAX_TO_STORE" envDefault:"5"`
 
 	FacsimilesGithubRepoUrl string `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
 	FacsimilesDiagramsPath  string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
@@ -38,8 +39,8 @@ type EnvConfig struct {
 	SkipDiagramCropsGeneration bool     `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`
 	OptMigrations              []string `env:"OPT_MIGRATIONS" envDefault:""`
 
-	RcloneRemoteName    string `env:"RCLONE_REMOTE_NAME" envDefault:"G"`
-	RcloneGDriveFolderID string `env:"RCLONE_GDRIVE_FOLDER_ID" envDefault:""`
+	RcloneRemoteName     string `env:"RCLONE_REMOTE_NAME" envDefault:"G"`
+	BackupGDriveFolderID string `env:"BACKUP_GDRIVE_FOLDER_ID" envDefault:"1ajLNSEY8WN-Dcf3D_WxHZCm88mNeua4m"`
 }
 
 func InitEnv() (*EnvConfig, error) {
@@ -124,4 +125,8 @@ func (ec *EnvConfig) defaultAllowedOriginsCORS() []string {
 		l = append(l, "http://127.0.0.1:"+port)
 	}
 	return l
+}
+
+func (ec *EnvConfig) SyncBackupToRemoteByDefault() bool {
+	return ec.BackupGDriveFolderID != ""
 }
