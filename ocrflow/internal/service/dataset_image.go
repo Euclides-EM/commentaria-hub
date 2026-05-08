@@ -2,7 +2,12 @@ package service
 
 import (
 	"fmt"
+	"image"
+	"image/jpeg"
+	_ "image/jpeg"
+	_ "image/png"
 	"log"
+	"mime"
 	"mime/multipart"
 	"os"
 	"path"
@@ -11,6 +16,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
@@ -38,6 +44,13 @@ func NewDatasetImg(datasetSvc *Dataset, fileSysMgt *filesys.Manager, datasetImgS
 	}
 }
 
+var imageVariantMaxSide = map[model.ImageVariant]int{
+	model.ImageVariantPreview: 1800,
+	model.ImageVariantThumb:   360,
+}
+
+var variantGenerationLocks sync.Map
+
 func (d *DatasetImg) GetPageImage(datasetID string, page int) ([]byte, error) {
 	ds, err := d.datasetSvc.Get(datasetID)
 	if err != nil {
@@ -53,6 +66,52 @@ func (d *DatasetImg) GetPageImage(datasetID string, page int) ([]byte, error) {
 		return nil, fmt.Errorf("failed to read page image file: %w", err)
 	}
 	return data, nil
+}
+
+func (d *DatasetImg) ResolveImagePath(datasetID string, identifier string, variant model.ImageVariant) (string, string, error) {
+	img, err := d.resolveImageMetadata(datasetID, identifier)
+	if err != nil {
+		return "", "", err
+	}
+
+	origPath := path.Join(d.fileSysMgt.DatasetImagesDirByID(datasetID), img.Filename)
+	if variant == model.ImageVariantOriginal {
+		return origPath, mime.TypeByExtension(filepath.Ext(img.Filename)), nil
+	}
+
+	maxSide, ok := imageVariantMaxSide[variant]
+	if !ok {
+		return "", "", fmt.Errorf("unsupported image variant: %s", variant)
+	}
+
+	variantPath := d.fileSysMgt.DatasetImageVariantPathByID(datasetID, string(variant), img.Filename)
+	if err := d.ensureVariant(origPath, variantPath, maxSide); err != nil {
+		return "", "", fmt.Errorf("ensure %s variant for %s: %w", variant, img.Filename, err)
+	}
+
+	return variantPath, "image/jpeg", nil
+}
+
+func (d *DatasetImg) ImageDimensions(datasetID string, identifier string, variant model.ImageVariant) (int, int, error) {
+	imgPath, _, err := d.ResolveImagePath(datasetID, identifier, variant)
+	if err != nil {
+		return 0, 0, err
+	}
+
+	f, err := os.Open(imgPath)
+	if err != nil {
+		return 0, 0, fmt.Errorf("open image for dimensions: %w", err)
+	}
+	defer f.Close()
+
+	cfg, _, err := image.DecodeConfig(f)
+	if err != nil {
+		return 0, 0, fmt.Errorf("decode image config: %w", err)
+	}
+	if cfg.Width <= 0 || cfg.Height <= 0 {
+		return 0, 0, fmt.Errorf("invalid image dimensions for %s", identifier)
+	}
+	return cfg.Width, cfg.Height, nil
 }
 
 func (d *DatasetImg) UploadImage(file multipart.File, header *multipart.FileHeader, datasetId string, typ model.ImageType, key string) (*model.ImageUpload, error) {
@@ -178,6 +237,28 @@ func (d *DatasetImg) normalizeTPSImagesMetadata(images []*model.ImageMetadata, u
 	return lo.Flatten(lo.Values(tpsImages)), nil
 }
 
+func (d *DatasetImg) resolveImageMetadata(datasetId string, identifier string) (*model.ImageMetadata, error) {
+	if identifier == "" {
+		return nil, fmt.Errorf("missing image identifier")
+	}
+
+	images, err := d.ListImagesMetadata(datasetId, false)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list images: %w", err)
+	}
+	for _, img := range images {
+		if img.Filename == identifier {
+			return img, nil
+		}
+	}
+	for _, img := range images {
+		if img.Key == identifier {
+			return img, nil
+		}
+	}
+	return nil, fmt.Errorf("no image found for identifier: %s", identifier)
+}
+
 func (d *DatasetImg) GetImageMetadata(datasetId string, key string) (*model.ImageMetadata, error) {
 	dataset, err := d.datasetSvc.Get(datasetId)
 	if err != nil {
@@ -243,4 +324,65 @@ func (d *DatasetImg) keyFromImageName(filename, typ string) (string, bool) {
 		return split[0], true
 	}
 	return "", false
+}
+
+func (d *DatasetImg) ensureVariant(origPath, variantPath string, maxSide int) error {
+	origInfo, err := os.Stat(origPath)
+	if err != nil {
+		return fmt.Errorf("stat original image: %w", err)
+	}
+	if variantInfo, err := os.Stat(variantPath); err == nil && !variantInfo.ModTime().Before(origInfo.ModTime()) {
+		return nil
+	}
+
+	log.Printf("creating image variant %s", variantPath)
+	defer log.Printf("image variant %s created", variantPath)
+
+	lock := getVariantGenerationLock(variantPath)
+	lock.Lock()
+	defer lock.Unlock()
+
+	if variantInfo, err := os.Stat(variantPath); err == nil && !variantInfo.ModTime().Before(origInfo.ModTime()) {
+		return nil
+	}
+	if err := os.MkdirAll(filepath.Dir(variantPath), 0o755); err != nil {
+		return fmt.Errorf("create variant directory: %w", err)
+	}
+
+	in, err := os.Open(origPath)
+	if err != nil {
+		return fmt.Errorf("open original image: %w", err)
+	}
+	defer in.Close()
+
+	src, _, err := image.Decode(in)
+	if err != nil {
+		return fmt.Errorf("decode original image: %w", err)
+	}
+
+	dst := futils.ResizeImageToMaxSide(src, maxSide)
+	tmpPath := variantPath + ".tmp"
+	out, err := os.Create(tmpPath)
+	if err != nil {
+		return fmt.Errorf("create temp variant file: %w", err)
+	}
+	if err := jpeg.Encode(out, dst, &jpeg.Options{Quality: 82}); err != nil {
+		out.Close()
+		_ = os.Remove(tmpPath)
+		return fmt.Errorf("encode variant jpeg: %w", err)
+	}
+	if err := out.Close(); err != nil {
+		_ = os.Remove(tmpPath)
+		return fmt.Errorf("close temp variant file: %w", err)
+	}
+	if err := os.Rename(tmpPath, variantPath); err != nil {
+		_ = os.Remove(tmpPath)
+		return fmt.Errorf("move variant into place: %w", err)
+	}
+	return nil
+}
+
+func getVariantGenerationLock(variantPath string) *sync.Mutex {
+	lock, _ := variantGenerationLocks.LoadOrStore(variantPath, &sync.Mutex{})
+	return lock.(*sync.Mutex)
 }

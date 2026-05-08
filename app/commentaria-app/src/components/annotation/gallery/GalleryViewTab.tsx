@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import useLocalStorageState from 'use-local-storage-state'
 import Select from 'react-select'
-import ImageZoom from 'react-image-zooom'
 import { useAppState } from '../../../context/useAppState.ts'
 import {
   useAnnotationCategories,
@@ -46,14 +45,19 @@ import {
 } from '../contents/navigation/annotationSearchUtils.ts'
 import { findMatchingImage } from '../../../utils/editions.ts'
 import {
+  buildDatasetImageUrl,
+  type DatasetImageVariant,
+} from '../../../utils/imageUrls.ts'
+import {
   DEFAULT_HIGHLIGHT_ZONE_FILTERS,
-  filterSurfaceZones,
   getHighlightZoneFilterLabel,
   getHighlightZoneFilterPickerLabel,
   HIGHLIGHT_ZONE_FILTER_OPTIONS,
   HIGHLIGHT_ZONE_FILTER_STORAGE_KEY,
   type HighlightZoneFilter,
 } from '../highlightControls.ts'
+import { computeVisibleZones, filterValidZones } from '../imageZoneUtils.ts'
+import { useZoomableImage } from '../useZoomableImage.ts'
 
 type GalleryViewMode = 'images' | 'texts' | 'side-by-side'
 type ViewModeOption = { value: GalleryViewMode; label: string }
@@ -63,6 +67,9 @@ type HighlightModeOption = { value: HighlightMode; label: string }
 
 const BATCH_SIZE = 20
 const DEFAULT_CARD_SIZE = 280
+const PREVIEW_VARIANT_CARD_SIZE_THRESHOLD = 400
+const PREVIEW_VARIANT_ZOOM_THRESHOLD = 300
+const ORIGINAL_VARIANT_ZOOM_THRESHOLD = 600
 
 const VIEW_MODE_OPTIONS: ViewModeOption[] = [
   { value: 'images', label: 'Images' },
@@ -83,62 +90,9 @@ const annotationSearchWithinOptions: annotation_SearchWithin[] = [
   'biblio_metadata',
 ]
 
-type RenderedImageRect = {
-  left: number
-  top: number
-  width: number
-  height: number
-  naturalWidth: number
-  naturalHeight: number
-}
-
-const getRenderedImageRect = (
-  image: HTMLImageElement,
-  viewportRect: DOMRect,
-): RenderedImageRect => {
-  const imageRect = image.getBoundingClientRect()
-  const naturalWidth = image.naturalWidth
-  const naturalHeight = image.naturalHeight
-  if (
-    naturalWidth > 0 &&
-    naturalHeight > 0 &&
-    imageRect.width > 0 &&
-    imageRect.height > 0
-  ) {
-    const containerRatio = imageRect.width / imageRect.height
-    const imageRatio = naturalWidth / naturalHeight
-    let renderedWidth = imageRect.width
-    let renderedHeight = imageRect.height
-    let offsetLeft = 0
-    let offsetTop = 0
-    if (imageRatio > containerRatio) {
-      renderedHeight = imageRect.width / imageRatio
-      offsetTop = (imageRect.height - renderedHeight) / 2
-    } else {
-      renderedWidth = imageRect.height * imageRatio
-      offsetLeft = (imageRect.width - renderedWidth) / 2
-    }
-    return {
-      left: imageRect.left - viewportRect.left + offsetLeft,
-      top: imageRect.top - viewportRect.top + offsetTop,
-      width: renderedWidth,
-      height: renderedHeight,
-      naturalWidth,
-      naturalHeight,
-    }
-  }
-  return {
-    left: imageRect.left - viewportRect.left,
-    top: imageRect.top - viewportRect.top,
-    width: imageRect.width,
-    height: imageRect.height,
-    naturalWidth,
-    naturalHeight,
-  }
-}
-
 type GalleryImageCardProps = {
-  imageUrl: string
+  baseVariant: DatasetImageVariant
+  getVariantUrl: (variant: DatasetImageVariant) => string
   imageZoom: number
   highlightMode: HighlightMode
   highlightZoneFilters: HighlightZoneFilter[]
@@ -149,7 +103,8 @@ type GalleryImageCardProps = {
 }
 
 function GalleryImageCard({
-  imageUrl,
+  baseVariant,
+  getVariantUrl,
   imageZoom,
   highlightMode,
   highlightZoneFilters,
@@ -158,176 +113,78 @@ function GalleryImageCard({
   activeLineMatchIds,
   onHoverLineMatchIds,
 }: GalleryImageCardProps) {
-  const viewportRef = useRef<HTMLDivElement | null>(null)
-  const [isImageZoomEngaged, setIsImageZoomEngaged] = useState(false)
-  const [imageDisplayBox, setImageDisplayBox] = useState<RenderedImageRect>({
-    left: 0,
-    top: 0,
-    width: 0,
-    height: 0,
-    naturalWidth: 0,
-    naturalHeight: 0,
-  })
+  const zoomKey = getVariantUrl(baseVariant)
+  const [zoomedVariant, setZoomedVariant] =
+    useState<DatasetImageVariant | null>(null)
+  const [baseNaturalSize, setBaseNaturalSize] = useState<{
+    width: number
+    height: number
+  } | null>(null)
+  const [prevZoomKey, setPrevZoomKey] = useState(zoomKey)
 
-  useEffect(() => {
-    const viewport = viewportRef.current
-    if (!viewport) return
-    const getImageElement = () =>
-      viewport.querySelector('img#imageZoom') || viewport.querySelector('img')
-    const isImageZoomedNow = () => {
-      if (viewport.querySelector('.zoomed')) return true
-      const image = getImageElement()
-      if (!(image instanceof HTMLImageElement)) return false
-      const style = window.getComputedStyle(image)
-      if (style.cursor.includes('zoom-out')) return true
-      if (style.transform && style.transform !== 'none') return true
-      const imageRect = image.getBoundingClientRect()
-      const vpRect = viewport.getBoundingClientRect()
-      return (
-        imageRect.width > vpRect.width + 1 ||
-        imageRect.height > vpRect.height + 1
-      )
-    }
-    const syncZoomEngaged = () => setIsImageZoomEngaged(isImageZoomedNow())
-    const scheduleSyncZoomEngaged = () =>
-      window.requestAnimationFrame(syncZoomEngaged)
-    const recalc = () => {
-      const image = getImageElement()
-      syncZoomEngaged()
-      if (!(image instanceof HTMLImageElement)) {
-        setImageDisplayBox({
-          left: 0,
-          top: 0,
-          width: 0,
-          height: 0,
-          naturalWidth: 0,
-          naturalHeight: 0,
-        })
-        return
-      }
-      const vpRect = viewport.getBoundingClientRect()
-      const rect = getRenderedImageRect(image, vpRect)
-      if (!rect.width || !rect.height) {
-        setImageDisplayBox({
-          left: 0,
-          top: 0,
-          width: 0,
-          height: 0,
-          naturalWidth: 0,
-          naturalHeight: 0,
-        })
-        return
-      }
-      setImageDisplayBox(rect)
-    }
-    const frame = window.requestAnimationFrame(recalc)
-    const resizeObserver = new ResizeObserver(recalc)
-    resizeObserver.observe(viewport)
-    let observedImage: HTMLImageElement | null = null
-    const attachImage = () => {
-      const image = getImageElement()
-      if (!(image instanceof HTMLImageElement) || observedImage === image)
-        return
-      if (observedImage) {
-        resizeObserver.unobserve(observedImage)
-        observedImage.removeEventListener('load', recalc)
-      }
-      observedImage = image
-      resizeObserver.observe(image)
-      image.addEventListener('load', recalc)
-      recalc()
-    }
-    const mutationObserver = new MutationObserver(() => {
-      attachImage()
-      recalc()
-      syncZoomEngaged()
-    })
-    mutationObserver.observe(viewport, {
-      childList: true,
-      subtree: true,
-      attributes: true,
-      attributeFilter: ['src', 'style', 'class'],
-    })
-    attachImage()
-    window.addEventListener('resize', recalc)
-    viewport.addEventListener('pointermove', scheduleSyncZoomEngaged)
-    viewport.addEventListener('click', scheduleSyncZoomEngaged, true)
-    return () => {
-      window.cancelAnimationFrame(frame)
-      if (observedImage) observedImage.removeEventListener('load', recalc)
-      mutationObserver.disconnect()
-      resizeObserver.disconnect()
-      window.removeEventListener('resize', recalc)
-      viewport.removeEventListener('pointermove', scheduleSyncZoomEngaged)
-      viewport.removeEventListener('click', scheduleSyncZoomEngaged, true)
-      setIsImageZoomEngaged(false)
-    }
-  }, [imageUrl, imageZoom])
+  if (zoomKey !== prevZoomKey) {
+    setPrevZoomKey(zoomKey)
+    setZoomedVariant(null)
+    setBaseNaturalSize(null)
+  }
 
-  const highlightableZones = useMemo(
-    () =>
-      filterSurfaceZones(surfaceZones, highlightZoneFilters).filter(
-        (zone) =>
-          Number.isFinite(zone.ulx) &&
-          Number.isFinite(zone.uly) &&
-          Number.isFinite(zone.lrx) &&
-          Number.isFinite(zone.lry) &&
-          Number.isFinite(zone.refUlx) &&
-          Number.isFinite(zone.refUly) &&
-          Number.isFinite(zone.refLrx) &&
-          Number.isFinite(zone.refLry) &&
-          zone.lrx > zone.ulx &&
-          zone.lry > zone.uly &&
-          zone.refLrx > zone.refUlx &&
-          zone.refLry > zone.refUly,
-      ),
-    [highlightZoneFilters, surfaceZones],
-  )
+  const effectiveVariant = zoomedVariant ?? baseVariant
+  const imageUrl = getVariantUrl(effectiveVariant)
 
-  const visibleZones = useMemo(() => {
-    if (!imageDisplayBox.width || !imageDisplayBox.height) return []
-    return highlightableZones
-      .map((zone) => {
-        const useNaturalBounds =
-          !zone.hasSurfaceBounds &&
-          imageDisplayBox.naturalWidth > 0 &&
-          imageDisplayBox.naturalHeight > 0
-        const refUlx = useNaturalBounds ? 0 : zone.refUlx
-        const refUly = useNaturalBounds ? 0 : zone.refUly
-        const refLrx = useNaturalBounds
-          ? imageDisplayBox.naturalWidth
-          : zone.refLrx
-        const refLry = useNaturalBounds
-          ? imageDisplayBox.naturalHeight
-          : zone.refLry
-        const refWidth = refLrx - refUlx
-        const refHeight = refLry - refUly
-        return {
-          ...zone,
-          left:
-            imageDisplayBox.left +
-            ((zone.ulx - refUlx) / refWidth) * imageDisplayBox.width,
-          top:
-            imageDisplayBox.top +
-            ((zone.uly - refUly) / refHeight) * imageDisplayBox.height,
-          width: ((zone.lrx - zone.ulx) / refWidth) * imageDisplayBox.width,
-          height: ((zone.lry - zone.uly) / refHeight) * imageDisplayBox.height,
-        }
+  const {
+    containerRef,
+    imgRef,
+    isZoomed,
+    zoomTransform,
+    imageDisplayBox,
+    handleContainerClick: hookHandleContainerClick,
+    updateCursor,
+    getLocalCursor,
+  } = useZoomableImage(imageUrl, imageZoom, zoomKey)
+
+  const zoneDisplayBox = useMemo(() => {
+    if (!zoomedVariant || !baseNaturalSize || imageDisplayBox.width === 0) {
+      return imageDisplayBox
+    }
+    return {
+      ...imageDisplayBox,
+      naturalWidth: baseNaturalSize.width,
+      naturalHeight: baseNaturalSize.height,
+    }
+  }, [imageDisplayBox, zoomedVariant, baseNaturalSize])
+
+  const handleContainerClick = (event: React.MouseEvent<HTMLDivElement>) => {
+    if (!isZoomed) {
+      setBaseNaturalSize({
+        width: imageDisplayBox.naturalWidth,
+        height: imageDisplayBox.naturalHeight,
       })
-      .filter(
-        (z) =>
-          z.width > 0 &&
-          z.height > 0 &&
-          z.left < imageDisplayBox.left + imageDisplayBox.width &&
-          z.top < imageDisplayBox.top + imageDisplayBox.height &&
-          z.left + z.width > imageDisplayBox.left &&
-          z.top + z.height > imageDisplayBox.top,
-      )
-  }, [highlightableZones, imageDisplayBox])
+      const upgraded: DatasetImageVariant =
+        imageZoom >= ORIGINAL_VARIANT_ZOOM_THRESHOLD
+          ? 'original'
+          : imageZoom >= PREVIEW_VARIANT_ZOOM_THRESHOLD
+            ? 'preview'
+            : baseVariant
+      setZoomedVariant(upgraded)
+    } else {
+      setZoomedVariant(null)
+      setBaseNaturalSize(null)
+    }
+    hookHandleContainerClick(event)
+  }
 
   const activeMatchIdSet = useMemo(
     () => new Set(activeLineMatchIds),
     [activeLineMatchIds],
+  )
+  const highlightableZones = useMemo(
+    () => filterValidZones(surfaceZones, highlightZoneFilters),
+    [highlightZoneFilters, surfaceZones],
+  )
+  const visibleZones = useMemo(
+    () =>
+      computeVisibleZones(highlightableZones, zoneDisplayBox, activeMatchIdSet),
+    [activeMatchIdSet, highlightableZones, zoneDisplayBox],
   )
 
   const showOverlay = highlightMode !== 'hide' && visibleZones.length > 0
@@ -339,21 +196,26 @@ function GalleryImageCard({
   const handleViewportPointerMove = (
     event: React.PointerEvent<HTMLDivElement>,
   ) => {
-    if (highlightMode !== 'hover' || isImageZoomEngaged) {
+    const rect = event.currentTarget.getBoundingClientRect()
+    const cx = event.clientX - rect.left
+    const cy = event.clientY - rect.top
+
+    updateCursor(cx, cy)
+
+    if (highlightMode !== 'hover') {
       onHoverLineMatchIds([])
       return
     }
-    const rect = event.currentTarget.getBoundingClientRect()
-    const x = event.clientX - rect.left
-    const y = event.clientY - rect.top
+
+    const { localX, localY } = getLocalCursor(cx, cy)
     let hovered: (typeof visibleZones)[number] | null = null
     for (let i = visibleZones.length - 1; i >= 0; i--) {
       const zone = visibleZones[i]
       if (
-        x >= zone.left &&
-        x <= zone.left + zone.width &&
-        y >= zone.top &&
-        y <= zone.top + zone.height
+        localX >= zone.left &&
+        localX <= zone.left + zone.width &&
+        localY >= zone.top &&
+        localY <= zone.top + zone.height
       ) {
         hovered = zone
         break
@@ -369,56 +231,54 @@ function GalleryImageCard({
   }
 
   return (
-    <div
-      className={`h-full overflow-hidden flex items-center justify-center ${half ? 'w-1/2' : 'w-full'}`}
-    >
+    <div className={`h-full overflow-hidden ${half ? 'w-1/2' : 'w-full'}`}>
       <div
-        ref={viewportRef}
-        className="relative h-full w-full flex justify-center items-center"
+        ref={containerRef}
+        className={`relative h-full w-full overflow-hidden select-none ${isZoomed ? 'cursor-zoom-out' : 'cursor-zoom-in'}`}
+        onClick={handleContainerClick}
         onPointerMove={handleViewportPointerMove}
         onPointerLeave={() => onHoverLineMatchIds([])}
       >
-        <div className="relative z-0 h-full w-full flex items-center justify-center">
-          <ImageZoom
+        <div
+          className="absolute inset-0"
+          style={{ transform: zoomTransform, transformOrigin: '0 0' }}
+        >
+          <img
+            ref={imgRef}
             key={imageUrl}
             src={imageUrl}
             alt="Page image"
-            zoom={String(imageZoom)}
-            width="100%"
-            height="100%"
-            className="max-h-full max-w-full w-full h-full overflow-hidden [&>*]:mx-auto [&_img]:h-full [&_img]:w-full [&_img]:max-w-none [&_img]:max-h-none [&_img]:object-contain [&_img]:object-center"
+            className="w-full h-full object-contain"
           />
+          {showOverlay && (
+            <div className="absolute inset-0 z-30 pointer-events-none">
+              {visibleZones.map((zone) => {
+                const isShown = highlightMode === 'show' || zone.isActive
+                if (!isShown) return null
+                return (
+                  <div
+                    key={zone.id}
+                    className={`absolute border-2 rounded-sm ${zone.zoneType === 'block' ? 'border-amber-400/60 bg-amber-200/10' : 'border-teal-400/60 bg-teal-200/10'}`}
+                    style={{
+                      left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
+                      top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
+                      width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
+                      height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
+                    }}
+                  />
+                )
+              })}
+            </div>
+          )}
         </div>
-        {showOverlay && (
-          <div className="absolute inset-0 z-30 pointer-events-none">
-            {visibleZones.map((zone) => {
-              const isShown =
-                highlightMode === 'show' ||
-                (highlightMode === 'hover' &&
-                  zone.matchIds.some((id) => activeMatchIdSet.has(id)))
-              if (!isShown) return null
-              return (
-                <div
-                  key={zone.id}
-                  className={`absolute border-2 rounded-sm ${zone.zoneType === 'block' ? 'border-amber-400/60 bg-amber-200/10' : 'border-teal-400/60 bg-teal-200/10'}`}
-                  style={{
-                    left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
-                    top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
-                    width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
-                    height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
-                  }}
-                />
-              )
-            })}
-          </div>
-        )}
       </div>
     </div>
   )
 }
 
 type GalleryCardBodyProps = {
-  imageUrl: string | null
+  baseVariant: DatasetImageVariant
+  getVariantUrl: ((variant: DatasetImageVariant) => string) | null
   imageZoom: number
   highlightMode: HighlightMode
   highlightZoneFilters: HighlightZoneFilter[]
@@ -438,7 +298,8 @@ type GalleryCardBodyProps = {
 }
 
 function GalleryCardBody({
-  imageUrl,
+  baseVariant,
+  getVariantUrl,
   imageZoom,
   highlightMode,
   highlightZoneFilters,
@@ -459,9 +320,10 @@ function GalleryCardBody({
   const [activeLineMatchIds, setActiveLineMatchIds] = useState<string[]>([])
   return (
     <>
-      {imageUrl && (
+      {getVariantUrl && (
         <GalleryImageCard
-          imageUrl={imageUrl}
+          baseVariant={baseVariant}
+          getVariantUrl={getVariantUrl}
           imageZoom={imageZoom}
           highlightMode={highlightMode}
           highlightZoneFilters={highlightZoneFilters}
@@ -771,6 +633,9 @@ export function GalleryViewTab() {
     )
   }, [currentPageIndex, filteredAvailablePages.length, visibleCount])
 
+  const imageVariant =
+    cardSize >= PREVIEW_VARIANT_CARD_SIZE_THRESHOLD ? 'preview' : 'thumb'
+
   const fetchedPageSetRef = useRef(new Set<string>())
   const pagesToFetchRef = useRef<string[]>([])
   const [teiByPage, setTeiByPage] = useState(new Map<string, string>())
@@ -778,7 +643,7 @@ export function GalleryViewTab() {
   useEffect(() => {
     fetchedPageSetRef.current = new Set()
     setTeiByPage(new Map())
-  }, [datasetId, annotationId])
+  }, [datasetId, annotationId, imageVariant])
 
   const pagesToFetch = useMemo(() => {
     if (!segmented) {
@@ -796,6 +661,7 @@ export function GalleryViewTab() {
     annotationId,
     pagesToFetch,
     pagesToFetch.length > 0,
+    imageVariant,
   )
 
   useEffect(() => {
@@ -1010,7 +876,7 @@ export function GalleryViewTab() {
     el.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
   }, [currentPageKey, visiblePages])
 
-  const getImageUrl = (pageOrKey: string): string | null => {
+  const makeGetVariantUrl = (pageOrKey: string) => {
     const num = Number(pageOrKey)
     let normalizedKey: string
     if (!Number.isNaN(num) && Number.isInteger(num)) {
@@ -1020,7 +886,8 @@ export function GalleryViewTab() {
       normalizedKey = matched?.filename || ''
     }
     if (!normalizedKey) return null
-    return `${import.meta.env.VITE_BACKEND_URL}/store/data/${datasetId}/imgs/${normalizedKey}`
+    return (variant: DatasetImageVariant) =>
+      buildDatasetImageUrl(datasetId, normalizedKey, variant)
   }
 
   const cardWidth = viewMode === 'side-by-side' ? cardSize * 2 : cardSize
@@ -1039,6 +906,12 @@ export function GalleryViewTab() {
       <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
         <div className="border-b border-gray-200 bg-gray-50 shrink-0 flex flex-col">
           <div className="px-3 py-2 flex items-center gap-3 flex-wrap">
+            {teisQuery.isFetching && (
+              <span className="text-xs text-gray-400 flex items-center gap-1.5">
+                <span className="inline-block w-3 h-3 border border-gray-300 border-t-gray-500 rounded-full animate-spin" />
+                Loading texts…
+              </span>
+            )}
             <div className="flex items-center gap-1.5">
               <span className="text-xs text-gray-600">View</span>
               <div className="w-36">
@@ -1170,9 +1043,6 @@ export function GalleryViewTab() {
                 }
                 isFeaturesLoading={featuresQuery.isLoading}
               />
-              {teisQuery.isFetching && (
-                <span className="text-xs text-gray-400">Loading texts…</span>
-              )}
             </div>
           )}
         </div>
@@ -1212,7 +1082,8 @@ export function GalleryViewTab() {
                 <div className="flex-1 min-h-0 flex overflow-hidden">
                   <GalleryCardBody
                     key={`${page}:${galleryRenderKey}`}
-                    imageUrl={showImage ? getImageUrl(page) : null}
+                    baseVariant={imageVariant}
+                    getVariantUrl={showImage ? makeGetVariantUrl(page) : null}
                     imageZoom={imageZoom}
                     highlightMode={highlightMode}
                     highlightZoneFilters={highlightZoneFilters}

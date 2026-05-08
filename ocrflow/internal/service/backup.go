@@ -8,6 +8,7 @@ import (
 	"log"
 	"mime/multipart"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"sort"
 	"strings"
@@ -17,7 +18,22 @@ import (
 	"github.com/samber/lo"
 )
 
-const maxBackupsToStore = 5
+const (
+	defaultMaxBackupsToStore = 5
+	zipProgressLogEveryFiles = 100
+	backupZipPrefix          = "euclides_backup_"
+)
+
+type dirZipStats struct {
+	files int
+	dirs  int
+	size  int64
+}
+
+type driveBackupEntry struct {
+	name  string
+	isDir bool
+}
 
 type Backup struct {
 	baseDataDir      string
@@ -28,6 +44,10 @@ type Backup struct {
 	backupdir             string
 	restoreFromBackupPath string
 
+	rcloneRemoteName     string
+	rcloneGDriveFolderID string
+	maxBackupsToStore    int
+
 	shutdownFunc func() error
 	// checkpointDB, if set, is called before copying the DB file into the backup.
 	// It should run PRAGMA wal_checkpoint(FULL) so the main .db file contains all data
@@ -35,7 +55,11 @@ type Backup struct {
 	checkpointDB func() error
 }
 
-func NewBackup(baseData, models, items, db, backupDir, restoreDir string, shutdownFunc func() error) *Backup {
+func NewBackup(baseData, models, items, db, backupDir, restoreDir, rcloneRemoteName, rcloneGDriveFolderID string, maxBackupsToStore int, shutdownFunc func() error) *Backup {
+	if maxBackupsToStore <= 0 {
+		maxBackupsToStore = defaultMaxBackupsToStore
+	}
+	log.Printf("Creating new backup service with max backups to store: %d", maxBackupsToStore)
 	return &Backup{
 		baseDataDir:           baseData,
 		modelsDir:             models,
@@ -43,6 +67,9 @@ func NewBackup(baseData, models, items, db, backupDir, restoreDir string, shutdo
 		dbPath:                db,
 		backupdir:             backupDir,
 		restoreFromBackupPath: restoreDir,
+		rcloneRemoteName:      rcloneRemoteName,
+		rcloneGDriveFolderID:  rcloneGDriveFolderID,
+		maxBackupsToStore:     maxBackupsToStore,
 		shutdownFunc:          shutdownFunc,
 	}
 }
@@ -84,13 +111,13 @@ func (s *Backup) SetCheckpointFunc(f func() error) {
 }
 
 // CreateBackup creates a new backup of the current system state.
-func (s *Backup) CreateBackup() (string, error) {
+func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
 	if err := s.ensureBackupDir(); err != nil {
 		return "", err
 	}
 
 	ts := time.Now().UTC().Format("20060102T150405Z")
-	name := fmt.Sprintf("backup_%s.zip", ts)
+	name := fmt.Sprintf("%s%s.zip", backupZipPrefix, ts)
 	dst := filepath.Join(s.backupdir, name)
 
 	log.Printf("creating backup in directory: %s", s.backupdir)
@@ -145,7 +172,113 @@ func (s *Backup) CreateBackup() (string, error) {
 		log.Printf("warning: failed to ensure max backups after creating backup from zip: %v", err)
 	}
 
+	if syncToDrive {
+		if err := s.syncBackupToDrive(dst, name); err != nil {
+			return "", fmt.Errorf("create backup: sync to drive: %w", err)
+		}
+	}
+
 	return strings.TrimSuffix(name, ".zip"), nil
+}
+
+func (s *Backup) syncBackupToDrive(localPath, filename string) error {
+	if s.rcloneRemoteName == "" {
+		return errors.New("backup: rclone remote name is not configured")
+	}
+	if _, err := s.runRclone("copy", localPath, s.rcloneRemoteName+":"+filename); err != nil {
+		return err
+	}
+	if err := s.ensureMaxDriveBackups(); err != nil {
+		return err
+	}
+	return nil
+}
+
+func (s *Backup) SyncBackupToDrive(backupId string) error {
+	zipPath, err := s.GetBackupFullPath(backupId)
+	if err != nil {
+		return err
+	}
+	if err := s.syncBackupToDrive(zipPath, filepath.Base(zipPath)); err != nil {
+		return fmt.Errorf("sync backup to drive: %w", err)
+	}
+	log.Printf("completed sync backup to drive: %s", zipPath)
+	return nil
+}
+
+func (s *Backup) ensureMaxDriveBackups() error {
+	entries, err := s.listDriveBackups()
+	if err != nil {
+		return fmt.Errorf("drive retention: list backups: %w", err)
+	}
+	if len(entries) <= s.maxBackupsToStore {
+		return nil
+	}
+
+	log.Printf("deleting %d old backups from drive to enforce maxBackupsToStore=%d", len(entries)-s.maxBackupsToStore, s.maxBackupsToStore)
+	for _, entry := range entries[s.maxBackupsToStore:] {
+		if err := s.deleteDriveBackup(entry); err != nil {
+			return fmt.Errorf("drive retention: delete %s: %w", entry.name, err)
+		}
+	}
+	log.Printf("backups deleted from drive: %d", len(entries)-s.maxBackupsToStore)
+	return nil
+}
+
+func (s *Backup) listDriveBackups() ([]driveBackupEntry, error) {
+	out, err := s.runRclone("lsf", s.rcloneRemoteName+":")
+	if err != nil {
+		return nil, err
+	}
+	entries := parseDriveBackupEntries(string(out))
+	sort.Slice(entries, func(i, j int) bool {
+		return entries[i].name > entries[j].name
+	})
+	return entries, nil
+}
+
+func parseDriveBackupEntries(listing string) []driveBackupEntry {
+	var entries []driveBackupEntry
+	for _, line := range strings.Split(listing, "\n") {
+		line = strings.TrimSpace(line)
+		if line == "" {
+			continue
+		}
+
+		isDir := strings.HasSuffix(line, "/")
+		name := strings.TrimSuffix(line, "/")
+		if filepath.Base(name) != name {
+			continue
+		}
+		if !strings.HasPrefix(name, backupZipPrefix) || !strings.EqualFold(filepath.Ext(name), ".zip") {
+			continue
+		}
+		entries = append(entries, driveBackupEntry{name: name, isDir: isDir})
+	}
+	return entries
+}
+
+func (s *Backup) deleteDriveBackup(entry driveBackupEntry) error {
+	if entry.isDir {
+		_, err := s.runRclone("purge", s.rcloneRemoteName+":"+entry.name)
+		return err
+	}
+	_, err := s.runRclone("deletefile", s.rcloneRemoteName+":"+entry.name)
+	return err
+}
+
+func (s *Backup) runRclone(args ...string) ([]byte, error) {
+	if s.rcloneGDriveFolderID != "" {
+		args = append([]string{"--drive-root-folder-id=" + s.rcloneGDriveFolderID}, args...)
+	}
+	log.Printf("running rclone %s", strings.Join(args, " "))
+	cmd := exec.Command("rclone", args...)
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		return nil, fmt.Errorf("rclone: %w: %s", err, string(out))
+	}
+	log.Printf("rclone completed: %s", string(out))
+	return out, nil
 }
 
 // SetupRestoreBackup restores the system state from the backup with the given ID (or latest if backupId is empty or "latest").
@@ -287,7 +420,7 @@ func (s *Backup) CreateBackupFromZip(file multipart.File, f func(dstPath string)
 
 	// validations can be added here if needed, e.g. check for expected files/dirs in the extracted content.
 
-	if err := futils.CopyFile(dst.Name(), filepath.Join(s.backupdir, fmt.Sprintf("backup_%s.zip", time.Now().UTC().Format("20060102T150405Z")))); err != nil {
+	if err := futils.CopyFile(dst.Name(), filepath.Join(s.backupdir, fmt.Sprintf("%s%s.zip", backupZipPrefix, time.Now().UTC().Format("20060102T150405Z")))); err != nil {
 		return "", fmt.Errorf("create backup from zip: save backup: %w", err)
 	}
 
@@ -320,8 +453,8 @@ func (s *Backup) ensureMaxBackups() error {
 	if err != nil {
 		return fmt.Errorf("list backups: %w", err)
 	}
-	if len(l) > maxBackupsToStore {
-		toDelete := l[maxBackupsToStore:]
+	if len(l) > s.maxBackupsToStore {
+		toDelete := l[s.maxBackupsToStore:]
 		for _, b := range toDelete {
 			p := filepath.Join(s.backupdir, b+".zip")
 			if err := os.Remove(p); err != nil {
@@ -337,6 +470,10 @@ func (s *Backup) ensureMaxBackups() error {
 // todo: the following should be in futils, some duplicate code...
 
 func addDirToZip(zw *zip.Writer, srcDir, zipPrefix string) error {
+	return addDirToZipWithSeen(zw, srcDir, zipPrefix, map[string]struct{}{})
+}
+
+func addDirToZipWithSeen(zw *zip.Writer, srcDir, zipPrefix string, seen map[string]struct{}) error {
 	if srcDir == "" {
 		return fmt.Errorf("zip: srcDir empty for %s", zipPrefix)
 	}
@@ -351,13 +488,34 @@ func addDirToZip(zw *zip.Writer, srcDir, zipPrefix string) error {
 	if !info.IsDir() {
 		return fmt.Errorf("zip: expected dir, got file: %s", srcDir)
 	}
+	canonicalDir, err := filepath.EvalSymlinks(srcDir)
+	if err != nil {
+		return fmt.Errorf("zip: eval symlinks %s: %w", srcDir, err)
+	}
+	if _, ok := seen[canonicalDir]; ok {
+		log.Printf("zip: skipping already visited directory %s as %s", srcDir, zipPrefix)
+		return nil
+	}
+	seen[canonicalDir] = struct{}{}
 
-	return filepath.WalkDir(srcDir, func(path string, d os.DirEntry, walkErr error) error {
+	statsSeen := copySeenDirs(seen)
+	stats, err := collectDirZipStats(srcDir, statsSeen)
+	if err != nil {
+		return err
+	}
+	log.Printf("zip: adding directory %s as %s: %d files, %d directories, %d bytes (%s)", srcDir, zipPrefix, stats.files, stats.dirs, stats.size, futils.FormatBytes(stats.size))
+	if stats.files == 0 {
+		log.Printf("zip: directory %s as %s has no files to add", srcDir, zipPrefix)
+	}
+
+	addedFiles := 0
+	addedBytes := int64(0)
+	err = filepath.WalkDir(canonicalDir, func(path string, d os.DirEntry, walkErr error) error {
 		if walkErr != nil {
 			return fmt.Errorf("zip: walk %s: %w", srcDir, walkErr)
 		}
 
-		rel, err := filepath.Rel(srcDir, path)
+		rel, err := filepath.Rel(canonicalDir, path)
 		if err != nil {
 			return fmt.Errorf("zip: rel path: %w", err)
 		}
@@ -377,8 +535,99 @@ func addDirToZip(zw *zip.Writer, srcDir, zipPrefix string) error {
 			return err
 		}
 
-		return addFileToZip(zw, path, filepath.ToSlash(filepath.Join(zipPrefix, rel)))
+		fileInfo, err := os.Stat(path)
+		if err != nil {
+			if os.IsNotExist(err) {
+				return nil
+			}
+			return fmt.Errorf("zip: stat file %s: %w", path, err)
+		}
+		if fileInfo.IsDir() {
+			if d.Type()&os.ModeSymlink == 0 {
+				return fmt.Errorf("zip: expected file, got dir: %s", path)
+			}
+			return addDirToZipWithSeen(zw, path, filepath.ToSlash(filepath.Join(zipPrefix, rel)), seen)
+		}
+
+		if err := addFileToZip(zw, path, filepath.ToSlash(filepath.Join(zipPrefix, rel))); err != nil {
+			return err
+		}
+		addedFiles++
+		addedBytes += fileInfo.Size()
+		if addedFiles%zipProgressLogEveryFiles == 0 {
+			log.Printf("zip: added %d/%d files from %s (%d/%d bytes, %s/%s)", addedFiles, stats.files, srcDir, addedBytes, stats.size, futils.FormatBytes(addedBytes), futils.FormatBytes(stats.size))
+		}
+		return nil
 	})
+	if err != nil {
+		return err
+	}
+
+	log.Printf("zip: finished adding %s as %s: %d/%d files, %d/%d bytes (%s/%s)", srcDir, zipPrefix, addedFiles, stats.files, addedBytes, stats.size, futils.FormatBytes(addedBytes), futils.FormatBytes(stats.size))
+	return nil
+}
+
+func collectDirZipStats(srcDir string, seen map[string]struct{}) (dirZipStats, error) {
+	var stats dirZipStats
+	canonicalDir, err := filepath.EvalSymlinks(srcDir)
+	if err != nil {
+		return dirZipStats{}, fmt.Errorf("zip: eval symlinks %s: %w", srcDir, err)
+	}
+	err = filepath.WalkDir(canonicalDir, func(path string, d os.DirEntry, walkErr error) error {
+		if walkErr != nil {
+			return fmt.Errorf("zip: scan %s: %w", srcDir, walkErr)
+		}
+		if d.IsDir() {
+			if path != canonicalDir {
+				stats.dirs++
+			}
+			return nil
+		}
+
+		info, err := os.Stat(path)
+		if err != nil {
+			if os.IsNotExist(err) {
+				return nil
+			}
+			return fmt.Errorf("zip: stat file %s: %w", path, err)
+		}
+		if info.IsDir() {
+			if d.Type()&os.ModeSymlink == 0 {
+				return fmt.Errorf("zip: expected file, got dir: %s", path)
+			}
+			canonicalDir, err := filepath.EvalSymlinks(path)
+			if err != nil {
+				return fmt.Errorf("zip: eval symlinks %s: %w", path, err)
+			}
+			if _, ok := seen[canonicalDir]; ok {
+				return nil
+			}
+			seen[canonicalDir] = struct{}{}
+			nestedStats, err := collectDirZipStats(canonicalDir, seen)
+			if err != nil {
+				return err
+			}
+			stats.files += nestedStats.files
+			stats.dirs += nestedStats.dirs + 1
+			stats.size += nestedStats.size
+			return nil
+		}
+		stats.files++
+		stats.size += info.Size()
+		return nil
+	})
+	if err != nil {
+		return dirZipStats{}, err
+	}
+	return stats, nil
+}
+
+func copySeenDirs(seen map[string]struct{}) map[string]struct{} {
+	cp := make(map[string]struct{}, len(seen))
+	for k, v := range seen {
+		cp[k] = v
+	}
+	return cp
 }
 
 func addFileToZip(zw *zip.Writer, srcPath, zipPath string) error {

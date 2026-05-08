@@ -30,6 +30,7 @@ const ITEM_FIELD_TO_EDITION_FIELD: Record<string, string> = {
   class: "manuscriptClass",
   format: "format",
   volumesCount: "volumes",
+  visualElementsTypes: "visualElementsTypes",
   shortTitle: "shortTitle",
   title: "title",
   titleEn: "title_EN",

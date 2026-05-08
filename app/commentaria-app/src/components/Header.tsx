@@ -133,6 +133,16 @@ export function Header({ onShowLogin }: HeaderProps) {
                       {cleanupRequested ? 'Cleanup requested' : 'Cleanup Store'}
                     </Button>
                     <Button
+                      variant="regular"
+                      onClick={() => {
+                        setState({ viewMode: 'logs' })
+                        closeMenu()
+                      }}
+                      className="w-full px-2 py-1 text-xs transition-colors mb-1"
+                    >
+                      Logs
+                    </Button>
+                    <Button
                       variant="danger"
                       onClick={clearAuth}
                       className="w-full px-2 py-1 text-xs transition-colors"

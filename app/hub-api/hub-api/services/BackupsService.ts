@@ -24,10 +24,20 @@ export class BackupsService {
      * @returns string Backup ID
      * @throws ApiError
      */
-    public static postBackups(): CancelablePromise<string> {
+    public static postBackups({
+        syncToDrive,
+    }: {
+        /**
+         * If true, the backup will be copied to Google Drive using rclone after creation
+         */
+        syncToDrive?: boolean,
+    } = {}): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/backups',
+            query: {
+                'sync_to_drive': syncToDrive,
+            },
         });
     }
     /**
@@ -69,6 +79,28 @@ export class BackupsService {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/backups/{backupId}',
+            path: {
+                'backupId': backupId,
+            },
+        });
+    }
+    /**
+     * Sync backup to Google Drive
+     * Copies an existing backup to Google Drive using rclone.
+     * @returns string OK
+     * @throws ApiError
+     */
+    public static putBackupsSync({
+        backupId,
+    }: {
+        /**
+         * ID of the backup to sync
+         */
+        backupId: string,
+    }): CancelablePromise<Record<string, string>> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/backups/{backupId}/sync',
             path: {
                 'backupId': backupId,
             },

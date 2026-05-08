@@ -145,6 +145,45 @@ sudo -u euclides ls -l /data/euclides/commentaria-hub/store
 sudo -u euclides rm /data/euclides/commentaria-hub/store/test
 ```
 
+## Automatic Backup to Google Drive (optional)
+
+On your local machine, set up rclone with a new remote for your Google Drive account:
+```bash
+sudo -v ; curl https://rclone.org/install.sh | sudo bash
+rclone config // an interactive command, choose the following:
+n // new remote
+G // remote name
+19 // GDrive
+4***k.apps.googleusercontent.com // clientid
+G***9G // client secret
+1 // full access
+Service account file leave empty
+No // dont edit advanced config
+Yes // authenticate with browser for the your real account, hit the “I trust Liri” warnings…
+```
+
+Then, to get the config file path, run:
+```bash
+rclone config file
+```
+Copy the contents of that file.
+
+On the server, install rclone as root:
+```bash
+sudo -v ; curl https://rclone.org/install.sh | sudo bash
+```
+
+Then switch to the `euclides` user and create the config file with the same contents as your local machine:
+```bash
+sudo -iu euclides
+rclone config file
+```
+This will show you the path where rclone expects the config file, likely `~/.config/rclone/rclone.conf`. Create that file and paste the contents from your local machine.
+
+Now, in the server’s `.env` file for the API, set the `RCLONE_GDRIVE_FOLDER_ID` variable to the ID of the Google Drive folder where you want the backups to be stored. You can find this ID in the URL when you open the folder in your browser. For example, if the URL is `https://drive.google.com/drive/folders/1a2b3c4d5e6f7g8h9i0j`, then the folder ID is `1a2b3c4d5e6f7g8h9i0j`.
+
+And we can merge https://github.com/Euclides-EM/commentaria-hub/pull/68
+
 ## Add env file
 
 ```bash
@@ -165,6 +204,8 @@ GITHUB_TOKEN=***
 ROBOFLOW_API_KEY=***
 UV_PATH=<path/to/uv/executable/if/not/in/PATH>
 OPENAI_API_KEY=s***A
+LOGS_SYSTEMD_UNIT=commentaria-hub-api
+BACKUP_GDRIVE_FOLDER_ID=<your-google-drive-folder-id-for-backups>
 ```
 
 Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_private` file.
@@ -242,6 +283,13 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now commentaria-hub-api
 sudo systemctl status commentaria-hub-api
 sudo journalctl -u commentaria-hub-api -n 200 --no-pager
+```
+
+If you want the API's authenticated `/api/v1/logs?n=200` endpoint to work, make sure the `euclides` service user can read the systemd journal for this unit without `sudo`. One way is:
+
+```bash
+sudo usermod -aG adm,systemd-journal euclides
+sudo systemctl restart commentaria-hub-api
 ```
 
 Quick check that it’s running:

@@ -11,6 +11,7 @@ type Edition struct {
 	Bibliography          []string               `json:"bibliography"`
 	ReprintOf             *string                `json:"reprintOf"`
 	VisualElements        []EditionVisualElement `json:"visualElements"`
+	VisualElementsTypes   []string               `json:"visualElementsTypes" readonly:"true"`
 	DiagramCropsAvailable bool                   `json:"diagramCropsAvailable"`
 	HasDiagrams           *bool                  `json:"hasDiagrams"`
 

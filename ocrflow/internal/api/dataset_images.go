@@ -115,3 +115,28 @@ func (h *Handlers) GetDatasetImage(r *http.Request) ([]byte, error) {
 	}
 	return h.deps.DatasetImgSvc.GetPageImage(datasetID, page)
 }
+
+func (h *Handlers) ServeDatasetImage(w http.ResponseWriter, r *http.Request) {
+	datasetID, err := extractDatasetID(r)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusBadRequest)
+		return
+	}
+
+	identifier := r.PathValue("pageNumOrKey")
+	variant, err := model.ToImageVariant(r.URL.Query().Get("variant"))
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusBadRequest)
+		return
+	}
+
+	imgPath, contentType, err := h.deps.DatasetImgSvc.ResolveImagePath(datasetID, identifier, variant)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusNotFound)
+		return
+	}
+
+	w.Header().Set("Content-Type", contentType)
+	w.Header().Set("Cache-Control", "public, max-age=86400")
+	http.ServeFile(w, r, imgPath)
+}

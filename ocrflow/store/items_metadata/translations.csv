@@ -1,15 +1,15 @@
 key,field,en,source
-Leipzig_1577,title,"Euclid's Elements Books Six. EUCLID'S ELEMENTS OF GEOMETRY SIX BOOKS translated into Latin by Joachim Camerarius. TO WHICH ARE ADDED the Demonstrations of the first three books, and published for the benefit and utility of students of Mathematics in the Academy of Leipzig by Maurice Steinmetz Gersbach, Licensed in Medicine.",summer_2025
-Leipzig_1577,imprint,LEIPZIG Year 1577.,summer_2025
-Strasbourg_1570,title,"EUCLID'S ELEMENTS THE FIRST. HERON OF ALEXANDRIA geometric names. EUCLID'S ELEMENTS Book One. HERON OF ALEXANDRIA geometric terms: never before published. in Greek & Latin. By Cunradus Dasypodius, for the use of the Academy of Strasbourg.",summer_2025
-Strasbourg_1570,imprint,ARGENTORATI At the heirs of Christian Mylij. 1570.,summer_2025
+Leipzig_1577,title,"Euclid's Elements Books Six. EUCLID'S ELEMENTS OF GEOMETRY SIX BOOKS translated into Latin by Joachim Camerarius. TO WHICH ARE ADDED the Demonstrations of the first three books, and published for the benefit and utility of students of Mathematics in the Academy of Leipzig by Maurice Steinmetz Gersbach, Licensed in Medicine.",
+Leipzig_1577,imprint,LEIPZIG Year 1577.,
+Strasbourg_1570,title,"EUCLID'S ELEMENTS THE FIRST. HERON OF ALEXANDRIA geometric names. EUCLID'S ELEMENTS Book One. HERON OF ALEXANDRIA geometric terms: never before published. in Greek & Latin. By Cunradus Dasypodius, for the use of the Academy of Strasbourg.",
+Strasbourg_1570,imprint,ARGENTORATI At the heirs of Christian Mylij. 1570.,
 Strasbourg_1599,title,"EUCLID'S ELEMENTS FIRST. EUCLID'S ELE-
 MENT first. FOR THE ACADEMY OF Strasbourg.",summer_2025
 Strasbourg_1599,imprint,"ARGENTORATI PRINTED BY Josias Rihelius, through Andreas Rietschius. Year 1599.",summer_2025
-Wittenberg_1609,title,"THE THIRTEEN BOOKS OF EUCLID'S ELEMENTS. Comprehended with concise & clear demonstrations by M. AMBROSIO RHODIO of Kemberg, Extraordinary Professor of Mathematics at the Leucorea Academy.",summer_2025
-Wittenberg_1609,imprint,"Printed by Gormanian types, at the expense of Paul Helwig. 1609.",summer_2025
-Wittenberg_1634,title,"THE THIRTEEN BOOKS OF EUCLID'S ELEMENTS. Comprised with concise & clear demonstrations by Mr. AMBROSIO RHODIO of Kemberg, Senior Professor of Mathematics at the University of Leucorea. Posthumous edition, more Corrected & Amended than the previous one.",summer_2025
-Wittenberg_1634,imprint,"VVITTEBERGÆ, At the expense of the heirs of Paul Helwig, Bookseller. Printed by AMBROSIO ROTHIO. Year 1634.",summer_2025
+Wittenberg_1609,title,"THE THIRTEEN BOOKS OF EUCLID'S ELEMENTS. Comprehended with concise & clear demonstrations by M. AMBROSIO RHODIO of Kemberg, Extraordinary Professor of Mathematics at the Leucorea Academy.",
+Wittenberg_1609,imprint,"Printed by Gormanian types, at the expense of Paul Helwig. 1609.",
+Wittenberg_1634,title,"THE THIRTEEN BOOKS OF EUCLID'S ELEMENTS. Comprised with concise & clear demonstrations by Mr. AMBROSIO RHODIO of Kemberg, Senior Professor of Mathematics at the University of Leucorea. Posthumous edition, more Corrected & Amended than the previous one.",
+Wittenberg_1634,imprint,"VVITTEBERGÆ, At the expense of the heirs of Paul Helwig, Bookseller. Printed by AMBROSIO ROTHIO. Year 1634.",
 Wittenberg_1661,title,"THE THIRTEEN BOOKS OF EUCLID'S ELEMENTS. Comprised with concise & clear demonstrations by Mr. Ambrosius Rhodius, of Kemberg, Senior Professor of Mathematics at the public Academy of Leucorea. Latest edition, more Correct & Improved than the previous one.",summer_2025
 Wittenberg_1661,imprint,"WITTEBERGÆ, Printed & published by Job Wilh. Fincelius, Year 1661.",summer_2025
 Basel_1550,imprint,"With grace & privilege of the Emperor, for five years.
@@ -51,8 +51,8 @@ the fourteenth & fifteenth of Ipsicles
 of Alexandria.
 All by DOVNOT DE BAR-LE-DUC, Doctor
 of Laws, & Professor in the divine Mathematics
-at the King's Academies.",summer_2025
-Paris_1610,imprint,"IN PARIS, At JACQUES LE ROY, at the Hope before the College of Cambray. M DC. X.",summer_2025
+at the King's Academies.",
+Paris_1610,imprint,"IN PARIS, At JACQUES LE ROY, at the Hope before the College of Cambray. M DC. X.",
 Kiel_and_Leipzig_1699,title,"Samuel Reyhers, JCti, At the High-Princely Holstein University Codic. and Mathematics Prof. In German Language presented EUCLIDES, Whose first VI books in a special and very easy way, With Algebraic, or from the latest Art of Solution borrowed signs, so that one can use their proofs also in other languages, arranged, also the lectures of the II. Book together with the common, in an Algebraic manner are proven.",summer_2025
 Kiel_and_Leipzig_1699,imprint,"Kiel, Printed by Joachim Reumann, Academic Book Printer, at Johann Sebastian Riecheln, Academic Bookseller there, and available in Leipzig, In the year 1699.",summer_2025
 Lyon_1690,title,"[Vol. 1]: R. P. CLAUDII FRANCISCI MILLIET DECHALES CAMBERENSIS OF THE SOCIETY OF JESUS COURSE OR MATHEMATICAL WORLD. FIRST VOLUME CONTAINING TREATISE.
@@ -81,9 +81,9 @@ London_1678,title,"EUCLID'S ELEMENTS
 Fifteen Books, briefly demonstrated,
 By the work of IS. BARROW,
 of Cambridge, Fellow of TRINITY College.
-And now at last purged of previous typographical errors.",summer_2025
+And now at last purged of previous typographical errors.",
 London_1678,imprint,"LONDON, Printed by J. Redmayne: Available however at J.
-Williams at the Sign of the Crown in St. Paul's Churchyard, & J. Dunmore at the Sign of the Three Bibles in the street commonly called Ludgate-street, 1678.",summer_2025
+Williams at the Sign of the Crown in St. Paul's Churchyard, & J. Dunmore at the Sign of the Three Bibles in the street commonly called Ludgate-street, 1678.",
 London_1678,frontispiece,"The Geometric Elements of Euclid,
 Demonstrated Almost Entirely
 According to a New Order
@@ -93,7 +93,7 @@ Engraved by W. Faithorne.
 
 London,
 Published by John Martyn at the Sign of the Bell,
-in the Churchyard of St. Paul's. 1678.",summer_2025
+in the Churchyard of St. Paul's. 1678.",
 London_1685,title,"EUCLID'S ELEMENTS Books XV. briefly demonstrated, By the work of IS. BARROW, of Cambridge, Fellow of TRIN. College. And now at last cleansed of previous typographical errors.",summer_2025
 London_1685,imprint,"LONDON, At the shop of CHARLES MEARNE, Bookseller to the King.
 1685.",summer_2025
@@ -158,16 +158,16 @@ BY P. CLAUDE FRANÇOIS
 MILLIET DECHALES,
 of the Society of JESUS.",summer_2025
 Paris_1677a,imprint,"IN PARIS, At ESTIENNE MICHALLET, Saint Jacques street, at the Image of St. Paul, near the Saint Severin Fountain. M. DC. LXXVII WITH PRIVILEGE OF THE KING.",summer_2025
-Augsburg_1555,title,"The seventh, eighth, and ninth book, of the highly renowned Mathematician Euclid of Megara, in which the operations and rules of all common calculations, cause, reason, and foundation, are shown, to please all those who love the art of calculation, by Master Johann Scheybl, of the honorable university of Tübingen, the ordinary of Euclid and Arithmetic, translated from Latin into German, and thus illustrated with common examples and published, so that every common calculator can easily understand and make use of it.",summer_2025
-Augsburg_1555,imprint,"With Roman Royal Majesty's grace and freedom, not to be reprinted for six years. 1555.",summer_2025
+Augsburg_1555,title,"The seventh, eighth, and ninth book, of the highly renowned Mathematician Euclid of Megara, in which the operations and rules of all common calculations, cause, reason, and foundation, are shown, to please all those who love the art of calculation, by Master Johann Scheybl, of the honorable university of Tübingen, the ordinary of Euclid and Arithmetic, translated from Latin into German, and thus illustrated with common examples and published, so that every common calculator can easily understand and make use of it.",
+Augsburg_1555,imprint,"With Roman Royal Majesty's grace and freedom, not to be reprinted for six years. 1555.",
 Rotterdam_1661,title,"The first six Books of EUCLID, On the principles and foun-dations of Geometry. To which are added some utilities, drawn from the same Books: Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated for the advancement and practice of all eager Lovers of this free Art. BY JAN PIETERSZ DOU, Land surveyor and Wine gauger of the City of LEYDEN. Newly reviewed and improved: Together with the added utilities, with the species in Geometric figures more broadly explained and expanded, by the same Author.",summer_2025
 Rotterdam_1661,imprint,"TO ROTTERDAM, By Abraham van Waesberge, Bookseller at the Steyger in the crowned Lion. 1661.",summer_2025
 Amsterdam_1700b,title,"The first six Books of EUCLID, On the principles and foundations of Geometry. To which are added some utilities, drawn from the same Books: Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and laid out for the advancement and practice of all eager Lovers of the same free Art. BY JAN PIETERSZ. DOU, Land-surveyor and Wine-gauger of the City of LEYDEN. This latest Edition, newly reviewed and improved: Together with the added utilities, with the species in Geometric figures more broadly explained and expanded, by the same Author.",summer_2025
 Amsterdam_1700b,imprint,"t’AMSTERDAM Printed, By HENDRIK BOTERENB-ROOT, Bookseller on the Water, directly across from the New Bridge, in the Delft Bible. 1700.",summer_2025
 Amsterdam_1701,title,"The first six Books of EUCLID, On the principles and foundations of Geometry. To which are added some utilities, drawn from the same Books: Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated for the advancement and practice of all eager Lovers of the same free Art. BY JAN PIETERSZ. DOU, Land-surveyor and Wine-gauger of the City of LEYDEN. This latest Edition, newly reviewed and improved: Together with the added utilities, with the species in Geometric figures more broadly explained and expanded, by the same Author.",summer_2025
 Amsterdam_1701,imprint,"t’AMSTERDAM Printed, By HENDRIK BOTERENB-ROOT, Bookseller on the Water, directly across from the New Bridge, in the Delft Bible. 1701.",summer_2025
-Ansbach_1610,title,"The First Six Books of EUCLID'S Elements, In which the beginnings and foundations of Geometry are orderly taught and thoroughly demonstrated, With special diligence and effort translated from Greek into our High German language, and explained with understandable examples in lines and common rational numbers, Also with new figures, in the easiest and most proper way: All for the special benefit of those who have to use Geometry in calculation, military affairs, land surveying, construction, and other arts and crafts: By order of the Noble and Honorable Lord, Hans Philip Fuchss of Bimbach, at Möhrn, Alten Rechenberg and Schwaningen, Colonel: By SIMON MARIUS of Gunzenhausen, Franconia. Appointed Mathematician of the Princely Brandenburg, and Student of both Medicine.",summer_2025
-Ansbach_1610,imprint,"WITH PRIVILEGE, Onoltzbach, Printed by Paulum Böhem, In the year of Christ, 1610.",summer_2025
+Ansbach_1610,title,"The First Six Books of EUCLID'S Elements, In which the beginnings and foundations of Geometry are orderly taught and thoroughly demonstrated, With special diligence and effort translated from Greek into our High German language, and explained with understandable examples in lines and common rational numbers, Also with new figures, in the easiest and most proper way: All for the special benefit of those who have to use Geometry in calculation, military affairs, land surveying, construction, and other arts and crafts: By order of the Noble and Honorable Lord, Hans Philip Fuchss of Bimbach, at Möhrn, Alten Rechenberg and Schwaningen, Colonel: By SIMON MARIUS of Gunzenhausen, Franconia. Appointed Mathematician of the Princely Brandenburg, and Student of both Medicine.",
+Ansbach_1610,imprint,"WITH PRIVILEGE, Onoltzbach, Printed by Paulum Böhem, In the year of Christ, 1610.",
 Amsterdam_1662,title,"The 15 Books of the ELEMENTS Of Euclid. With brief explanations of some Propositions. Translated from the Latin, By FRANS VAN SCHOTEN, in his lifetime Professor of Mathematics at the University of Leiden. And now enlarged by J. V. L. with the sixteenth Book of Christophorus Clavius, faithfully translated from Latin, and enriched with an Appendix of the Foundations of Mathematical Names and Characters, commonly used in this Art for the benefit of Beginners.",summer_2025
 Amsterdam_1662,imprint,"t’AMSTERDAM. By Iacob van Leest, on the Water in the Blue Crown. 1662.",summer_2025
 Oxford_1701,imprint,"OXFORD, FROM THE SHELDONIAN THEATRE. At the expense of Henry Clements, Oxford Bookseller. 1701.",
@@ -180,8 +180,8 @@ OF EUCLID: TRANSLATED
 BY
 I. ERRARD of Bar-le-duc, Engineer of the Most
 Christian KING of France & of Navarre.
-Dedicated to his MAJESTY.",summer_2025
-Paris_1598a,imprint,"IN PARIS, At WILLIAM AURAY'S, at the top of Saint Jean de Beauvais street at the crowned Bellerophon M.D.XCVIII. With the King's Privilege.",summer_2025
+Dedicated to his MAJESTY.",
+Paris_1598a,imprint,"IN PARIS, At WILLIAM AURAY'S, at the top of Saint Jean de Beauvais street at the crowned Bellerophon M.D.XCVIII. With the King's Privilege.",
 Paris_1605,title,"THE NINE
 FIRST
 BOOKS OF THE ELEMENTS
@@ -191,8 +191,8 @@ BY
 I. ERRARD of Bar-le-duc, Engineer of the Most
 Christian KING of France & of Navarre.
 Dedicated to HIS MAJESTY.
-Reviewed & corrected by the Author.",summer_2025
-Paris_1605,imprint,"IN PARIS, At WILLIAM AURAY's, at the top of Saint Jean de Beauvais street, at the Crowned Bellerophon. 1605. With the King's Privilege.",summer_2025
+Reviewed & corrected by the Author.",
+Paris_1605,imprint,"IN PARIS, At WILLIAM AURAY's, at the top of Saint Jean de Beauvais street, at the Crowned Bellerophon. 1605. With the King's Privilege.",
 Paris_1629,title,"THE NINE
 FIRST
 BOOKS OF THE ELEMENTS
@@ -233,8 +233,8 @@ Beziers, ordinary lecturer
 of the King in Mathema-
 tics, at the uni-
 versity of
-Paris.",summer_2025
-Paris_1565,imprint,"IN PARIS. At Charles Perier's, residing on S. Jean de Beauvais street, at the Bellerophon. 1565. WITH THE KING'S PRIVILEGE.",summer_2025
+Paris.",
+Paris_1565,imprint,"IN PARIS. At Charles Perier's, residing on S. Jean de Beauvais street, at the Bellerophon. 1565. WITH THE KING'S PRIVILEGE.",
 Paris_1564,imprint,"IN PARIS, At Hierosme de Marnef, & Guillaume Cauellat, on Mount S. Hilaire, at the sign of the Pelican. 156[4].",
 Paris_1564,imprint,"IN PARIS, At Hierosme de Marnef, & Guillaume Cauellat, on Mount S. Hilaire, at the sign of the Pelican. 156[4].",summer_2025
 Paris_1654a,title,"THE
@@ -245,10 +245,10 @@ By R. P. G. FOURNIER, of the
 Society of JESUS.
 Dedicated
 TO MONSIEUR THE CHEVALIER
-DE MESMES.",summer_2025
+DE MESMES.",
 Paris_1654a,imprint,"IN PARIS, At JEAN HENAVLT, Printer and Bookseller
 Sworn, rue Saint Jacques, at the Guardian Angel, & at the Image of Saint Raphael.
-M. DC. LIV. With the King's Privilege.",summer_2025
+M. DC. LIV. With the King's Privilege.",
 Brussels_1701,title,"THE FIRST SIX BOOKS, ELEVEN, AND TWELVE, OF THE GEOMETRIC ELEMENTS OF THE FAMOUS PHILOSOPHER
 EUCLID OF MEGARA, Amplified with new Demonstrations, By the Sergeant General of Battle Don SEBASTIAN FERNANDEZ DE MEDRANO, Director of the Royal and Military Academy of the Low Countries. And Directed To the Most Excellent Lord Marquis of BEDMAR, and of ASSENTAR, &c.",summer_2025
 Brussels_1701,imprint,"IN BRUSSELS. At the House of LAMBERTO MARCHANT
@@ -256,8 +256,8 @@ Merchant of Books to the Good Shepherd. WITH PRIVILEGE.",summer_2025
 Seville_1576,imprint,With license from the Royal Council. In Seville at the house of Alonso de la Barrera. 1576.,
 Seville_1576,imprint,With license from the Royal Council. In Seville at the house of Alonso de la Barrera. 1576.,summer_2025
 Brussels_1689,title,"GEOMETRIC ELEMENTS OF EUCLID, THE FIRST SIX BOOKS OF THE PLANES; AND THE ELEVENTH, AND TWELFTH OF THE SOLIDS: WITH SOME SELECT THEOREMS OF ARCHIMEDES. TRANSLATED, AND EXPLAINED BY P. JACOBO KRESA OF THE SOCIETY OF JESUS,
-Professor of Mathematics at the Royal Studies of the Imperial College of Madrid; and interim in the Royal Navy in Cadiz.",summer_2025
-Brussels_1689,imprint,"IN BRUSSELS By Francisco Foppens, year of 1689.",summer_2025
+Professor of Mathematics at the Royal Studies of the Imperial College of Madrid; and interim in the Royal Navy in Cadiz.",
+Brussels_1689,imprint,"IN BRUSSELS By Francisco Foppens, year of 1689.",
 Lyon_1672,imprint,"IN LYON, At BENOIST CORAL, Merciere street, at the Vic-tory. M. DC. LXXII. With the King's Privilege.",
 Lyon_1672,imprint,"IN LYON, At BENOIST CORAL, Merciere street, at the Vic-tory. M. DC. LXXII. With the King's Privilege.",summer_2025
 Paris_1682,title,"THE ELEMENTS OF EUCLID, EXPLAINED IN A new & very easy MANNER. WITH THE USE OF EACH Proposition for all parts of Mathematics. By P. CLAUDE FRANÇOIS MILLET DECHALLES, of the Society of JESUS. NEW EDITION.",summer_2025
@@ -290,23 +290,23 @@ Leiden_1617,imprint,"TO LEYDEN, BY GOVERT BASSON, 1617.",summer_2025
 Siena_1691,title,"ELEMENTS OF EUCLID For the use of the NEW ACADEMY OF THE
 NOBLES OF SIENA Demonstrated in a New Method, & succinctly by FR. ELIAS ASTORINO Carmelite from Cosenza. TO THE Most Serene PRINCE JOHN GASTON OF ETRURIA.",summer_2025
 Siena_1691,imprint,SENIS At the Public Press of Bonettos 1691. WITH PERMISSION OF THE SUPERIORS.,summer_2025
-Paris_1551,title,"Orontius Finæus of Delphi, Royal Professor of Mathematics at Paris, Demonstrations on the first six books of the Geometric Elements of Euclid of Megara, recently augmented and corrected: together with the Greek text of Euclid himself, and the Latin interpretation by Bartholomaeus Zamberti of Venice. All reviewed for geometric accuracy by the same Orontius. Third edition.",summer_2025
+Paris_1551,title,"Orontius Finæus of Delphi, Royal Professor of Mathematics at Paris, Demonstrations on the first six books of the Geometric Elements of Euclid of Megara, recently augmented and corrected: together with the Greek text of Euclid himself, and the Latin interpretation by Bartholomaeus Zamberti of Venice. All reviewed for geometric accuracy by the same Orontius. Third edition.",
 Paris_1551,imprint,"LUTETIAE PARISIORUM, At Reginald Calderius.
-1551.",summer_2025
+1551.",
 Paris_1536,imprint,"WITH THE PRIVILEGE of the King for a decade, PARIS. At Simon de Colines. 1536.",
 Paris_1536,imprint,"WITH THE PRIVILEGE of the King for a decade, PARIS. At Simon de Colines. 1536.",summer_2025
 Paris_1544,title,"ORONTIUS FINAEUS OF DAUPHINÉ, ROYAL PROFESSOR OF MATHE-
-MATICS IN PARIS, Demonstrations on the first six books of the Ge-ometry elements of Euclid of Megara: Recently augmented, & corrected: together with the Greek text of Euclid himself, & the Latin interpretation by Bartholomew Zamberti of Venice. All reviewed according to geometric faith, by the same Orontius.",summer_2025
+MATICS IN PARIS, Demonstrations on the first six books of the Ge-ometry elements of Euclid of Megara: Recently augmented, & corrected: together with the Greek text of Euclid himself, & the Latin interpretation by Bartholomew Zamberti of Venice. All reviewed according to geometric faith, by the same Orontius.",
 Paris_1544,imprint,"PARIS OF THE PARISIANS, At Simon de Colines.
-1544. With the privilege of the King.",summer_2025
+1544. With the privilege of the King.",
 Pesaro_1619,title,"THE FIFTEEN BOOKS OF EUCLID'S ELEMENTS. TOGETHER WITH THE ANCIENT SCHOLIA TRANSLATED INTO LATIN BY FEDERICO COMMANDINO of Urbino. And recently freed from the many errors with which it was previously filled. DEDICATED TO THE MOST ILLUSTRIOUS AND REVEREND LORD CARLO MEDICI, CARDINAL OF THE HOLY ROMAN CHURCH AND MOST NOBLE PRINCE.",summer_2025
 Pesaro_1619,imprint,"PISAVRI, Printed by Flaminio Concordia, 1619. WITH THE CONSENT OF THE SUPERIORS. At the expense of Guilielmus Ingenierus of Forosemproniensis.",summer_2025
 Strasbourg_1564,imprint,"ARGENTORATI
 EXCVdebat Christianus Mylius, M. D. LXIIII.",
 Strasbourg_1564,imprint,"ARGENTORATI
 EXCVdebat Christianus Mylius, M. D. LXIIII.",summer_2025
-Strasbourg_1564b,title,"PROPOSITIOnes of the remaining Books of Euclid's Geometry, in Greek & Latin, for the use of those who lack the volume of Euclid. By Cunradus Dasypodius, professor of the Strasbourg school.",summer_2025
-Strasbourg_1564b,imprint,ARGENTORATI AT Christian Mylius. 1564.,summer_2025
+Strasbourg_1564b,title,"PROPOSITIOnes of the remaining Books of Euclid's Geometry, in Greek & Latin, for the use of those who lack the volume of Euclid. By Cunradus Dasypodius, professor of the Strasbourg school.",
+Strasbourg_1564b,imprint,ARGENTORATI AT Christian Mylius. 1564.,
 Strasbourg_1566,imprint,With the Grace & Privilege of the Emperor for eight years. PRINTED BY JOSIAS RIHELIUS. 1566.,
 Strasbourg_1566,imprint,With the Grace & Privilege of the Emperor for eight years. PRINTED BY JOSIAS RIHELIUS. 1566.,summer_2025
 Strasbourg_1564a,title,"OF EUCLID
@@ -430,10 +430,10 @@ Bamberg_1677,title,"P. GASPARIS SCHOTTI REGIS -CURIANI, OF THE SOCIETY
 OF JESUS. Formerly in the Panormitan of Sicily, now in the Herbipolitan of Franconia of the same SOCIETY OF JESUS, Professor of Mathematics in the Gymnasium. MATHEMATICAL COURSE, Or COMPLETE ENCYCLOPEDIA OF ALL MATHEMATICAL DISCIPLINES,
 Arranged in 28 BOOKS, and organized in such a way that anyone, even with mediocre talent, can learn the entire Mathematics from the very foundations by their own effort. A work long desired, promised by many, attempted by not a few, completed by none in all respects. At the end, NEW MECHANICAL THEOREMS have been added, along with very comprehensive INDEXES.",summer_2025
 Bamberg_1677,imprint,"With the Privilege of the Holy Imperial Majesty. BAMBERG, At the expense of JOH. MARTIN SCHÖNWETTER, Bookseller of Frankfurt. 1677.",summer_2025
-Ingolstadt_1617,title,THE FIRST SIX BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY. Given to light with a new interpretation for the use of studious youth. BY IOANNE LANZ OF THE SOCIETY OF JESUS.,summer_2025
-Ingolstadt_1617,imprint,"YEAR 1617. With the permission of the Superiors. INGOLSTADT, From the Ederian Printing House at Elisabeth Angermaria, widow.",summer_2025
-Bologna_1629,title,"THE FIRST SIX BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY. Newly interpreted for the use of studious youth, brought to light by IOANNE LANZ OF THE SOCIETY OF JESUS. And now recently printed. DEDICATED TO THE MOST NOBLE ACADEMY OF PORTO ARDENTE.",summer_2025
-Bologna_1629,imprint,"Bologna, at the Heirs of Ioannis Rossi, & C. 1629. With permission of the superiors.",summer_2025
+Ingolstadt_1617,title,THE FIRST SIX BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY. Given to light with a new interpretation for the use of studious youth. BY IOANNE LANZ OF THE SOCIETY OF JESUS.,
+Ingolstadt_1617,imprint,"YEAR 1617. With the permission of the Superiors. INGOLSTADT, From the Ederian Printing House at Elisabeth Angermaria, widow.",
+Bologna_1629,title,"THE FIRST SIX BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY. Newly interpreted for the use of studious youth, brought to light by IOANNE LANZ OF THE SOCIETY OF JESUS. And now recently printed. DEDICATED TO THE MOST NOBLE ACADEMY OF PORTO ARDENTE.",
+Bologna_1629,imprint,"Bologna, at the Heirs of Ioannis Rossi, & C. 1629. With permission of the superiors.",
 Antwerp_1654,imprint,"ANTWERP, By JACOB MEURSIUS. YEAR
 1654.",
 Antwerp_1654,imprint,"ANTWERP, By JACOB MEURSIUS. YEAR
@@ -446,8 +446,8 @@ Padua_1694,title,"ELEMENTS OF PLANE AND SOLID GEOMETRY, TO WHICH ARE ADDED SELEC
 Padua_1694,imprint,"PADUA, 1694. From the Printing House of the Seminary.
 With the permission of the superiors.",summer_2025
 Amsterdam_1634,title,"The first six books of EUCLID, The highly learned and renowned Greek Philosopher and Mathematician: On the beginnings and foundations of Geometry. Along with various utilities drawn from these books: together with the species in geometric figures, such as making, altering, combining, subtracting, multiplying, and dividing: Through Linear Demonstrations. Translated from Mr. Ioann Petersz Dou's Dutch second edition, By Sebastian Curtius, Arithmetician &
-G. Appointed Inspector and Visitor of the German Schools in Nuremberg.",summer_2025
-Amsterdam_1634,imprint,Printed in Amsterdam by Ioann Iansz. In the year 1634.,summer_2025
+G. Appointed Inspector and Visitor of the German Schools in Nuremberg.",
+Amsterdam_1634,imprint,Printed in Amsterdam by Ioann Iansz. In the year 1634.,
 Amsterdam_1618,title,"The first six books of EUCLID, the highly learned and renowned Greek philosopher and mathematician: On the beginnings and foundations of Geometry. Along with various utilities drawn from these books: together with the species in geometric figures, such as making, altering, combining, subtracting, multiplying, and dividing: Through Linear Demonstrations. Translated from Mr. Ioann Petersz Dou's Dutch second edition, by Sebastian Curtius, Arithmetician &
 G. Appointed Inspector and Visitor of the German Schools in Nuremberg.",summer_2025
 Amsterdam_1618,imprint,Printed in Amsterdam by Wilhelm Janss. 1618.,summer_2025
@@ -504,22 +504,22 @@ Venice_1505,title,"Euclid of Megara, a Platonic philosopher, the gatekeeper of m
 Frankfurt_1506,title,The most illustrious book of the elements of the most perceptive Euclid. in the art of Geometry begins most happily,summer_2025
 Venice_1509,imprint,A. Paganius Paganinus was printing with the most elegant characters very accurately.,
 Venice_1509,imprint,A. Paganius Paganinus was printing with the most elegant characters very accurately.,summer_2025
-Venice_1510,title,"Euclidis Megarensis, the Platonic philosopher, the Janitor of Mathematical disciplines: In this volume, those who aspire to the substance of mathematics will find: thirteen books of the Elements, with the exposition of Theon, the distinguished mathematician. Many things that were missing have been added, taken from the Greek reading, and not only many things overturned and preposterously: turned in Campanus' interpretation: they have been ordered, arranged, and corrected. To which also some things constructed by that venerable Socratic philosopher with admirable judgment are attached. Namely, the fourteenth volume assigned to Euclid, with the exposition of Hypsicles of Alexandria. Likewise, Phaenomena, Specularia, and Perspectiva, with the exposition of Theon. And that marvelous book of Data with the exposition of Pappus the Mechanic, together with the protheoria of Marinus the Dialectician. Bartholomew Zamberti of Venice, Interpreter. With grace and privilege for a decade.",summer_2025
+Venice_1510,title,"Euclidis Megarensis, the Platonic philosopher, the Janitor of Mathematical disciplines: In this volume, those who aspire to the substance of mathematics will find: thirteen books of the Elements, with the exposition of Theon, the distinguished mathematician. Many things that were missing have been added, taken from the Greek reading, and not only many things overturned and preposterously: turned in Campanus' interpretation: they have been ordered, arranged, and corrected. To which also some things constructed by that venerable Socratic philosopher with admirable judgment are attached. Namely, the fourteenth volume assigned to Euclid, with the exposition of Hypsicles of Alexandria. Likewise, Phaenomena, Specularia, and Perspectiva, with the exposition of Theon. And that marvelous book of Data with the exposition of Pappus the Mechanic, together with the protheoria of Marinus the Dialectician. Bartholomew Zamberti of Venice, Interpreter. With grace and privilege for a decade.",
 Paris_1516,imprint,PARIS at the office of Henri Estienne across from the school of Decrees.,
 Paris_1516,imprint,PARIS at the office of Henri Estienne across from the school of Decrees.,summer_2025
 Basel_1533,imprint,"BASLE AT IOAN. HERVAGIUS IN THE YEAR 1533, IN THE MONTH OF SEPTEMBER.",
 Basel_1533,imprint,"BASLE AT IOAN. HERVAGIUS IN THE YEAR 1533, IN THE MONTH OF SEPTEMBER.",summer_2025
-Basel_1537,title,"EUCLID OF MEGARA, THE MOST FAMOUS MATHEMATICIAN, GEOMETRIC ELEMENTS. Book XV. With the exposition of THEON on the first XIII translated into Latin by Bartholomew of Venice, CAMPANUS on all, & HYPSICLES of Alexandria on the last two. Added to these are the Phenomena, Catoptrics & Optics, then the Protheoria of Marinus & Data, and finally, the Treatise on the Light and the Heavy, hitherto unseen, by the same author.",summer_2025
+Basel_1537,title,"EUCLID OF MEGARA, THE MOST FAMOUS MATHEMATICIAN, GEOMETRIC ELEMENTS. Book XV. With the exposition of THEON on the first XIII translated into Latin by Bartholomew of Venice, CAMPANUS on all, & HYPSICLES of Alexandria on the last two. Added to these are the Phenomena, Catoptrics & Optics, then the Protheoria of Marinus & Data, and finally, the Treatise on the Light and the Heavy, hitherto unseen, by the same author.",
 Basel_1537,imprint,"BASEL AT IOHANNES HERVAGIUS, IN THE MONTH
-OF AUGUST. YEAR 1537. With Imperial privilege.",summer_2025
-Strasbourg_1538,title,EUCLID'S ELEMENTS OF THE FIFTEEN FROM THE THEON'S COMMENTARIES the first.,summer_2025
-Strasbourg_1538,imprint,ARGENTORATI AT Vuendelina Rihelium. In the Year of Our Lord 1538. In the Month of August.,summer_2025
+OF AUGUST. YEAR 1537. With Imperial privilege.",
+Strasbourg_1538,title,EUCLID'S ELEMENTS OF THE FIFTEEN FROM THE THEON'S COMMENTARIES the first.,
+Strasbourg_1538,imprint,ARGENTORATI AT Vuendelina Rihelium. In the Year of Our Lord 1538. In the Month of August.,
 Venice_1543,title,"EVCLIDE MEGARENSE PHILOSOPHER: SOLE INTRODUCER OF MATHEMATICAL SCIENCES: DILIGENTLY REASSEMBLED, AND RESTORED TO INTEGRITY
 BY THE WORTHY Professor of such Sciences Nicolo Tartalea, FROM BRESCIA, According to the two Translations: AND FOR COMMON BENEFIT & utility translated from Latin into the vernacular. WITH A BROAD EXPLANATION BY THE SAME TRANSLATOR NEWLY ADDED. So clear, that any average intellect, without the knowledge, or support of any other science, will easily be able to understand it.",
 Paris_1545,imprint,"PARIS. At Lud. Grandinum, opposite the Marian gymnasium under the sign of the rooster. 1545.",
 Paris_1545,imprint,"PARIS. At Lud. Grandinum, opposite the Marian gymnasium under the sign of the rooster. 1545.",summer_2025
-Rome_1545,title,EUCLID'S ELEMENTS BOOKS XV. EVCLIDIS ELEMENTORVM LIBRI XV.,summer_2025
-Rome_1545,imprint,"ROME. 1545. With the privilege of Our Holy Lord Paul III, & the renowned Republic of Venice, for five years.",summer_2025
+Rome_1545,title,EUCLID'S ELEMENTS BOOKS XV. EVCLIDIS ELEMENTORVM LIBRI XV.,
+Rome_1545,imprint,"ROME. 1545. With the privilege of Our Holy Lord Paul III, & the renowned Republic of Venice, for five years.",
 Rome_1545a,imprint,"IN ROME. MDXXXXV. With the grace & privilege of His Holiness
 Paul III, & of the Most Serene Republic of Venice for five years.",
 Rome_1545a,imprint,"IN ROME. MDXXXXV. With the grace & privilege of His Holiness
@@ -537,17 +537,17 @@ Also added are the Phenomena, Catoptrics & Optics,
 then the Protheoria of Marinus & the Data.
 
 Finally, a little work on the Light and the Heavy,
-until now unseen, by the same author.",summer_2025
+until now unseen, by the same author.",
 Basel_1546,imprint,"BASEL, BY JOHANN HERVAGIUS,
 IN THE MONTH OF AUGUST, YEAR
 1546.
-With Imperial privilege.",summer_2025
+With Imperial privilege.",
 Leipzig_1549,imprint,EXPERIENCE VALENTINO POPE. YEAR 1549.,
 Leipzig_1549,imprint,EXPERIENCE VALENTINO POPE. YEAR 1549.,summer_2025
-Paris_1549,title,Euclid.,summer_2025
-Paris_1549,imprint,"PARIS. At Thomas Richard, under the Golden Bible, opposite the College of Reims. 1549.",summer_2025
-Paris_1551a,title,"Euclid's Elements BOOK TEN, translated by PETER Montaureus. To Cardinal John Bellay.",summer_2025
-Paris_1551a,imprint,"LUTETIAE, At Vascosan, via Jacobea at the sign of the Fountain. 1551. WITH PRIVILEGE.",summer_2025
+Paris_1549,title,Euclid.,
+Paris_1549,imprint,"PARIS. At Thomas Richard, under the Golden Bible, opposite the College of Reims. 1549.",
+Paris_1551a,title,"Euclid's Elements BOOK TEN, translated by PETER Montaureus. To Cardinal John Bellay.",
+Paris_1551a,imprint,"LUTETIAE, At Vascosan, via Jacobea at the sign of the Fountain. 1551. WITH PRIVILEGE.",
 Paris_1552,title,"Euclid's Elements BOOK TEN, translated by PETER Montaureus. To Cardinal John Bellay.",summer_2025
 Paris_1552,imprint,"LUTETIAE, At Vascosan's, on Jacob Street at the sign of the Fountain. 1552. WITH PRIVILEGE.",summer_2025
 Cologne_1556,imprint,"COLONIAE, At the heirs of Arnold Birckmann. 1556.",
@@ -558,9 +558,9 @@ Lyon_1557,imprint,"LYONS, AT JOHN. TORNÆSIUS AND JUL.
 GAZEIUS. 1557. With the Privilege of the King.",summer_2025
 Paris_1557,imprint,"LUTETIAE, At William Cauellat, in the Fat Hen, opposite the College of Cambrai. 1557.",
 Paris_1557,imprint,"LUTETIAE, At William Cauellat, in the Fat Hen, opposite the College of Cambrai. 1557.",summer_2025
-Basel_1558,title,"The fifteen books of the most renowned mathematician Euclid of Megara on the geometric Elements. With the exposition of Theon on the first thirteen translated into Latin by Bartholomew Zamberto of Venice, Campanus on all, and Hypsicles of Alexandria on the last two. Added to these are the Phenomena, Catoptrics & Optics, then the Protheoria of Marinus, & the Data. Finally, the treatise on the Light and the Heavy, hitherto unseen, by the same author.",summer_2025
+Basel_1558,title,"The fifteen books of the most renowned mathematician Euclid of Megara on the geometric Elements. With the exposition of Theon on the first thirteen translated into Latin by Bartholomew Zamberto of Venice, Campanus on all, and Hypsicles of Alexandria on the last two. Added to these are the Phenomena, Catoptrics & Optics, then the Protheoria of Marinus, & the Data. Finally, the treatise on the Light and the Heavy, hitherto unseen, by the same author.",
 Basel_1558,imprint,"With Imperial privilege. BASEL, BY IOANNES
-HERuagium, & Bernhardus Brand, Year 1558.",summer_2025
+HERuagium, & Bernhardus Brand, Year 1558.",
 Paris_1558,title,"EUCLID'S
 ELEMENTS
 
@@ -579,11 +579,11 @@ Pythagoras the wise received them, and Plato clearly
 taught them,
 Euclid under these brought forth a beautiful fame of wisdom.",summer_2025
 Paris_1558,imprint,"LUTETIAE, At William Cauellat's, at the sign of the Fat Hen, opposite the College of Cambrai. 1558.",summer_2025
-Paris_1558a,title,The Fifteen Books of Euclid's Elements.,summer_2025
-Paris_1558a,imprint,"PARIS, From the Printing House of Thomas Richard, under the Golden Bibles, opposite the Reims College. 1558.",summer_2025
-Strasbourg_1559,title,EUCLID'S ELEMENTS OF THE FIFTEEN FROM THE THEON'S COMMENTARIES the first.,summer_2025
-Strasbourg_1559,imprint,ARGENTORATI For Josias Rihelius. Year 1559.,summer_2025
-Basel_1562,imprint,Printed in Basel.,
+Paris_1558a,title,The Fifteen Books of Euclid's Elements.,
+Paris_1558a,imprint,"PARIS, From the Printing House of Thomas Richard, under the Golden Bibles, opposite the Reims College. 1558.",
+Strasbourg_1559,title,EUCLID'S ELEMENTS OF THE FIFTEEN FROM THE THEON'S COMMENTARIES the first.,
+Strasbourg_1559,imprint,ARGENTORATI For Josias Rihelius. Year 1559.,
+Basel_1562,imprint,Arrived in Basel.,
 Basel_1562,imprint,Arrived in Basel.,summer_2025
 Cologne_1564,title,"EUCLID’S
 BOOKS OF THE ELEMENTS
@@ -598,8 +598,8 @@ An ancient epigram.
 Five figures of Plato, wise Pythagoras
 discovered.
 Wise Pythagoras discovered them, and Plato clearly taught them,
-Euclid upon these fashioned a renowned beauty of wisdom.",summer_2025
-Cologne_1564,imprint,"COLONIAE, At the press of Maternus Cholinus. 1564.",summer_2025
+Euclid upon these fashioned a renowned beauty of wisdom.",
+Cologne_1564,imprint,"COLONIAE, At the press of Maternus Cholinus. 1564.",
 Wittenberg_1564,title,"OF EUCLIDEAN
 ARITHMETIC
 BOOK ONE.
@@ -621,19 +621,19 @@ Johannes Sthephanus of Lüneburg.
 FOR THE USE OF SCHOOLS, throughout the day,
 it is a treatise clothed in a certain way,
 with disputation indeed
-Dialectical, as is proper to Dialogues.",summer_2025
-Wittenberg_1564,imprint,1564,summer_2025
+Dialectical, as is proper to Dialogues.",
+Wittenberg_1564,imprint,1564,
 Venice_1565,title,"EUCLID OF MEGARA THE PHILOSOPHER, SOLE INTRODUCER OF MATHEMATICAL SCIENCES. DILIGENTLY
 REVISED, AND RESTORED TO INTEGRITY, by the worthy professor of such Sciences Nicolo Tartalea Brisciano. ACCORDING TO THE TWO TRANSLATIONS. WITH A BROAD EXPOSITION
-by the same translator newly added. SO CLEAR, THAT ANY MEDIOCRE intellect, without the knowledge, or support of any other science, will easily be able to understand it.",summer_2025
-Venice_1565,imprint,"IN VENICE, At Curtio Troiano. 1565.",summer_2025
+by the same translator newly added. SO CLEAR, THAT ANY MEDIOCRE intellect, without the knowledge, or support of any other science, will easily be able to understand it.",
+Venice_1565,imprint,"IN VENICE, At Curtio Troiano. 1565.",
 Paris_1566,imprint,"PARIS, At John Royer, Royal Printer. By order & privilege of the King. 1566.",
 Paris_1566,imprint,"PARIS, At John Royer, Royal Printer. By order & privilege of the King. 1566.",summer_2025
 Venice_1569,title,"EUCLID OF MEGARA, THE MOST ACUTE PHILOSOPHER, THE SOLE INTRODUCER OF MATHEMATICAL SCIENCES.
 DILIGENTLY ARRANGED, AND RESTORED to its integrity, by the worthy professor of such Sciences Nicolò Tartalea Brisciano.
 ACCORDING TO THE TWO TRANSLATIONS. WITH A BROAD EXPO-
-SITION by the same translator newly added. SO CLEAR, THAT ANY MEDIOCRE intellect, without the knowledge, or support of any other science, will easily be able to understand it.",summer_2025
-Venice_1569,imprint,"IN VENICE, At the press of Giovanni Bariletto. 1569.",summer_2025
+SITION by the same translator newly added. SO CLEAR, THAT ANY MEDIOCRE intellect, without the knowledge, or support of any other science, will easily be able to understand it.",
+Venice_1569,imprint,"IN VENICE, At the press of Giovanni Bariletto. 1569.",
 Strasbourg_1570a,title,"EUCLID'S PROPOSITIONS
 Elements 15.
 Optics.
@@ -682,22 +682,22 @@ Paris_1573,imprint,"PARIS, At the house of Hieronymus de Marnef, & Gulielmus Cau
 Urbino_1575,imprint,"WITH PRIVILEGE. IN URBINO, AT THE PRESS OF DOMENICO FRISOLINO. 1575. With permission of the Su- periors.",
 Urbino_1575,imprint,"WITH PRIVILEGE. IN URBINO, AT THE PRESS OF DOMENICO FRISOLINO. 1575. With permission of the Su- periors.",summer_2025
 Venice_1575,title,"D. FRANCISCI MAVROLYCI, ABBOT OF MESSINA,
-Mathematical Works; Now first published, with an index of all noteworthy things. A MOST COMPLETE INDEX. THE PAGE IMMEDIATELY ADJACENT contains the Catalog of them.",summer_2025
+Mathematical Works; Now first published, with an index of all noteworthy things. A MOST COMPLETE INDEX. THE PAGE IMMEDIATELY ADJACENT contains the Catalog of them.",
 Venice_1575,imprint,"CVM PRIVILEGIO.
 Venice, At Francis Francis-cius of Siena.
-M D L XXV.",summer_2025
-Paris_1578,title,"THE ELEMENTS OF EUCLID OF MEGARA, THE MOST FAMOUS MATHEMATICIAN, IN FIFTEEN BOOKS. RESTORED TO THE TRUE UNDERSTANDING OF GEOMETRY FROM VARIOUS ERRORS CONTRACTED BY THE INJURY OF TIME, WITH ADDITIONS BEYOND THE EXPECTATION OF THE ANCIENTS, WHICH HAVE HITHERTO BEEN LACKING, OF THE DISCUSSIONS AND INSCRIPTIONS OF REGULAR SOLIDS. A SIXTEENTH BOOK HAS BEEN ADDED, ON THE COMPARISONS OF REGULAR SOLIDS INSCRIBED WITHIN EACH OTHER. RECENTLY, THE SEVENTEENTH AND EIGHTEENTH HAVE BEEN ADDED, IN SOME WAY PROMISED IN THE PREVIOUS EDITION, ON THE INVENTIONS, ORDER, AND NUMBER OF COMPOSITE SOLIDS TO BE COMPOSED, INSCRIBED, AND COMPARED. BY THE AUTHOR D. Francisco Flussate Candalla. TO CHARLES IX, THE MOST CHRISTIAN KING OF THE FRANKS.",summer_2025
-Paris_1578,imprint,"LUTETIAE, AT JACOBUM DU PUYS. 1578.",summer_2025
+M D L XXV.",
+Paris_1578,title,"THE ELEMENTS OF EUCLID OF MEGARA, THE MOST FAMOUS MATHEMATICIAN, IN FIFTEEN BOOKS. RESTORED TO THE TRUE UNDERSTANDING OF GEOMETRY FROM VARIOUS ERRORS CONTRACTED BY THE INJURY OF TIME, WITH ADDITIONS BEYOND THE EXPECTATION OF THE ANCIENTS, WHICH HAVE HITHERTO BEEN LACKING, OF THE DISCUSSIONS AND INSCRIPTIONS OF REGULAR SOLIDS. A SIXTEENTH BOOK HAS BEEN ADDED, ON THE COMPARISONS OF REGULAR SOLIDS INSCRIBED WITHIN EACH OTHER. RECENTLY, THE SEVENTEENTH AND EIGHTEENTH HAVE BEEN ADDED, IN SOME WAY PROMISED IN THE PREVIOUS EDITION, ON THE INVENTIONS, ORDER, AND NUMBER OF COMPOSITE SOLIDS TO BE COMPOSED, INSCRIBED, AND COMPARED. BY THE AUTHOR D. Francisco Flussate Candalla. TO CHARLES IX, THE MOST CHRISTIAN KING OF THE FRANKS.",
+Paris_1578,imprint,"LUTETIAE, AT JACOBUM DU PUYS. 1578.",
 Cologne_1580,title,"THE FIFTEEN BOOKS OF EUCLID'S ELEMENTS. By which, both to every part of Mathematical science, and to any treatment of Geometry, an easy approach is provided.",summer_2025
 Cologne_1580,imprint,COLOGNE. At Maternus Cholinus. 1580. With the Grace & Privilege of the Imperial Majesty.,summer_2025
 Venice_1585,title,"EUCLID OF MEGARA, THE MOST ACUTE PHILOSOPHER, THE ONLY INTRODUCER OF MATHEMATICAL SCIENCES.
 DILIGENTLY ARRANGED, & restored to integrity, by the worthy professor of such Sciences Nicolò Tartaglia of Brescia. ACCORDING TO THE TWO TRANSLATIONS. WITH A BROAD EXPOSITION
-BY THE SAME translator newly added, so clear, that any average intellect, without the knowledge, or support of any other science, will easily be able to understand it. Newly corrected with every diligence, and reprinted.",summer_2025
-Venice_1585,imprint,"IN VENICE, At the Heirs of Troian Nauo, at the Lion's bookstore. 1585.",summer_2025
+BY THE SAME translator newly added, so clear, that any average intellect, without the knowledge, or support of any other science, will easily be able to understand it. Newly corrected with every diligence, and reprinted.",
+Venice_1585,imprint,"IN VENICE, At the Heirs of Troian Nauo, at the Lion's bookstore. 1585.",
 Venice_1586,title,"EUCLID OF MEGARA, THE MOST ACUTE PHILOSOPHER, THE SOLE INTRODUCER OF MATHEMATICAL SCIENCES.
 DILIGENTLY ARRANGED, & restored to its integrity, by the worthy professor of such Sciences Nicolò Tartaglia of Brescia. ACCORDING TO THE TWO TRANSLATIONS. WITH A BROAD EXPOSITION
-BY THE SAME translator newly added, so clear that any average intellect, without the knowledge, or support of any other science, will easily be able to understand it. Newly corrected with every diligence, and reprinted.",summer_2025
-Venice_1586,imprint,"IN VENICE, At the Heirs of Troian Nauo, at the Lion's bookstore. 1586.",summer_2025
+BY THE SAME translator newly added, so clear that any average intellect, without the knowledge, or support of any other science, will easily be able to understand it. Newly corrected with every diligence, and reprinted.",
+Venice_1586,imprint,"IN VENICE, At the Heirs of Troian Nauo, at the Lion's bookstore. 1586.",
 Cologne_1587,title,"THE FIFTEEN BOOKS OF EUCLID'S ELEMENTS. By which, both to every part of Mathematical science, and to any treatment of Geometry, an easy approach is provided.",summer_2025
 Cologne_1587,imprint,"COLONIAE, At Maternus Cholinus.	M. D. LXXXVII. With the Grace & Privilege of the Emperor's Majesty.",summer_2025
 Rome_1594,imprint,IN ROME At the Medicean Press. 1594. With the permission of the Superiors.,
@@ -721,25 +721,25 @@ taught them,
 Euclid upon these laid down a beautifully wise renown.",summer_2025
 Paris_1598,imprint,"PARIS, At the Widow of William CAVELLAT, under the Pelican, Mount St. Hilary. 1598.",summer_2025
 Cologne_1600,title,"THE FIFTEEN BOOKS OF EUCLID'S ELEMENTS. BY WHICH, BOTH TO EVERY PART OF MATHEMATICAL SCIENCE, AND TO
-ANY Treatment of Geometry, an easy approach is provided.",summer_2025
-Cologne_1600,imprint,COLONIAE At Gosuinus Cholinus M. D. C. With Grace & Privilege.,summer_2025
+ANY Treatment of Geometry, an easy approach is provided.",
+Cologne_1600,imprint,COLONIAE At Gosuinus Cholinus M. D. C. With Grace & Privilege.,
 Cologne_1602,title,"THE ELEMENTS OF EUCLID OF MEGARA, THE MOST FAMOUS MATHEMATICIAN, IN FIFTEEN BOOKS. RESTORED TO THE TRUE UNDERSTANDING OF GEOMETRY, FROM VARIOUS ERRORS CONTRACTED THROUGH THE INJURY OF TIME, FULFILLED BEYOND THE HOPE OF THE ANCIENTS, WITH THE ADDITION OF THE COMPARISONS AND INSCRIPTIONS OF REGULAR SOLIDS WHICH WERE HITHERTO LACKING. THE SIXTEENTH BOOK HAS BEEN ADDED, WITH COMPARISONS OF REGULAR SOLIDS INSCRIBED WITHIN EACH OTHER. MOST RECENTLY, THE SEVENTEENTH AND EIGHTEENTH HAVE BEEN ADDED, IN SOME WAY PROMISED IN THE PRIOR EDITION, COMPLETED IN ORDER AND NUMBER, ON THE INVENTIONS OF COMPOSING, INSCRIBING, AND COMPARING COMPOSITE SOLIDS. BY THE AUTHOR D. FRANCISCO FLUSSATE CANDALLA. TO CHARLES IX, THE MOST CHRISTIAN KING OF THE FRENCH.",summer_2025
 Cologne_1602,imprint,"COLOGNE, IN THE YEAR 1602.",summer_2025
 Paris_1602,title,"THE ELEMENTS OF EUCLID OF MEGARA, A MOST ILLUSTRIOUS MATHEMATICIAN, IN FIFTEEN BOOKS. RESTORED TO THE TRUE UNDERSTANDING OF GEOMETRY, FROM VARIOUS ERRORS CONTRACTED THROUGH THE INJURY OF TIME, FULFILLED BEYOND THE HOPE OF OUR ANCESTORS, WITH THE ADDITION OF WHAT WAS HITHERTO LACKING, THE COMPARISONS AND INSCRIPTIONS OF REGULAR SOLIDS. A SIXTEENTH BOOK HAS BEEN ADDED, WITH COMPARISONS OF REGULAR SOLIDS INSCRIBED WITHIN EACH OTHER. RECENTLY, THE SEVENTEENTH AND EIGHTEENTH HAVE BEEN ADDED, IN SOME WAY PROMISED IN THE EARLIER EDITION, COMPLETED IN ORDER AND NUMBER ON THE INVENTIONS OF COMPOSING, INSCRIBING, AND COMPARING COMPOSITE SOLIDS. BY THE AUTHOR D. FRANCISCO FLUSSATE CANDALLA. TO CHARLES IX, THE MOST CHRISTIAN KING OF THE FRANKS.",summer_2025
 Paris_1602,imprint,"PARIS OF THE PARISIANS, YEAR 1602.",summer_2025
-Arnhem_1603,title,"Of C. DYBVAD ON LINEAR DEMONSTRATION OF THE GEOMETRY OF EUCLID contained in the first six books of the Elements. TO CHRISTIAN IV, Most Serene King of Denmark & the North.",summer_2025
-Arnhem_1603,imprint,"ARNHEM IN GELDERLAND, At IOHANNES JANSEN. 1603.",summer_2025
+Arnhem_1603,title,"Of C. DYBVAD ON LINEAR DEMONSTRATION OF THE GEOMETRY OF EUCLID contained in the first six books of the Elements. TO CHRISTIAN IV, Most Serene King of Denmark & the North.",
+Arnhem_1603,imprint,"ARNHEM IN GELDERLAND, At IOHANNES JANSEN. 1603.",
 Arnhem_1605a,title,"C. A LINEAR & NUMERICAL DEMONSTRATION OF EUCLID'S ARITHMETIC OF THE IRRATIONALS
-CONTAINED IN THE TENTH BOOK OF THE ELEMENTS. TO HENRY, Prince of Wales; and heir to the Kingdoms of Great Britain, France & Ireland.",summer_2025
-Arnhem_1605a,imprint,"ARNHEM IN GELDERLAND, At IOHANNES JAN-SONIUS. YEAR 1605.",summer_2025
+CONTAINED IN THE TENTH BOOK OF THE ELEMENTS. TO HENRY, Prince of Wales; and heir to the Kingdoms of Great Britain, France & Ireland.",
+Arnhem_1605a,imprint,"ARNHEM IN GELDERLAND, At IOHANNES JAN-SONIUS. YEAR 1605.",
 Leiden_1606,imprint,"TO LEYDEN, By Ian Bouvvensz. residing on the Hooghelantsche Kerckgracht. Anno 1606.",
 Leiden_1606,imprint,"TO LEYDEN, By Ian Bouvvensz. residing on the Hooghelantsche Kerckgracht. Anno 1606.",summer_2025
 Beijing_1607,title,Elements of Geometry,summer_2025
 Leiden_1607,title,"The first six Books of EUCLID, On the principles and foundations of Geometry. To which are added some utilities, drawn from the same Books; Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated, for the advancement and practice, of all curious, lovers of the same liberal Art, BY IAN PIETERSZOON DOV, Land surveyor and Wine gauger of the city of Leyden.",summer_2025
 Leiden_1607,imprint,"TO LEYDEN, For Ian Iansz. Orlers, Bookseller in the German Bible, 1607.",summer_2025
 Geneva_1610,title,"JACOBUS PELETARIUS OF CENOMANUM ON EUCLID'S ELEMENTS
-OF GEOMETRY Six Books of Demonstrations. To Charles of Lorraine, the most distinguished Prince and Cardinal. Second edition, enlarged & corrected: to which the Greek text of Euclid is added. What Peletarius has particularly contributed to Euclid, you have at the end of the book.",summer_2025
-Geneva_1610,imprint,APPROVED IOANN. TORNÆSIVM. 1610.,summer_2025
+OF GEOMETRY Six Books of Demonstrations. To Charles of Lorraine, the most distinguished Prince and Cardinal. Second edition, enlarged & corrected: to which the Greek text of Euclid is added. What Peletarius has particularly contributed to Euclid, you have at the end of the book.",
+Geneva_1610,imprint,APPROVED IOANN. TORNÆSIVM. 1610.,
 Geneva_1611,title,"THE FIRST SIX BOOKS OF THE
 GEOMETRICAL ELEMENTS
 OF EUCLID,
@@ -765,12 +765,12 @@ Irrational, are accurately expressed by numbers.
 
 BY
 FLORIMOND DE PUYTAINS,
-LORD OF VATAN.",summer_2025
+LORD OF VATAN.",
 Paris_1612,imprint,"PARIS,
 At JOHN DE HEUQUEVILLE, on Jacob Street,
 under the Sign of Peace.
 1612.
-WITH THE PRIVILEGE OF THE KING.",summer_2025
+WITH THE PRIVILEGE OF THE KING.",
 Paris_1613,title,"THE
 ELEMENTS
 OF GEOMETRY
@@ -780,18 +780,18 @@ ancient brevity, according to the order of Theon. To which
 have been added the fourteenth & fifteenth
 of Hypsicles of Alexandria.
 SECOND EDITION.
-Reviewed & augmented by the Author.",summer_2025
-Paris_1613,imprint,"IN PARIS, At JACQUES LE ROY's, at the Hope, before the College of Cambray. M. DC. XIII.",summer_2025
+Reviewed & augmented by the Author.",
+Paris_1613,imprint,"IN PARIS, At JACQUES LE ROY's, at the Hope, before the College of Cambray. M. DC. XIII.",
 Paris_1615,imprint,"IN PARIS, At Jean Antoine Joallin's, St. Jean de Latran street, before the good Faith. M. DC. XV. With the King's Privilege.",
 Paris_1615,imprint,"IN PARIS, At Jean Antoine Joallin's, St. Jean de Latran street, before the good Faith. M. DC. XV. With the King's Privilege.",summer_2025
 Amsterdam_1616,title,"The first six Books of EUCLID, On the principles and foundations of Geometry. To which are added some utilities, drawn from the same Books; Together with the Species in Geometric figures, such as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and interpreted, for the advancement and practice, of all curious, enthusiasts of the same liberal Art. By IAN PIETERSZOON DOV, Land Surveyor and Wine Gauger of the city of Leiden. Newly reviewed, and improved: Together with the added utilities with the species in Geometric figures more broadly explained and expanded by the same Author.",summer_2025
 Amsterdam_1616,imprint,"TO AMSTERDAM, By Willem Iansz. on the Water, at the gilded Sundial. Year 1616.",summer_2025
 Pesaro_1619a,title,"OF THE ELEMENTS OF EUCLID FIFTEEN BOOKS. WITH
-THE ANCIENT SCHOLIA. Already translated into the vernacular by order of the most famous Mathematician FEDERIGO COMMANDINO OF URBINO; and illustrated with Commentaries. And now diligently revised, and reprinted. DEDICATED TO THE MOST SERENE DON FEDERIGO FELTRIO DELLA ROVERE PRINCE OF URBINO.",summer_2025
-Pesaro_1619a,imprint,"IN PESARO, Near Flaminio Concordia, 1619. WITH LICENSE OF THE SUPERIORS. At the request of Gio. Antonio Ingegnieri from Fossombrone.",summer_2025
+THE ANCIENT SCHOLIA. Already translated into the vernacular by order of the most famous Mathematician FEDERIGO COMMANDINO OF URBINO; and illustrated with Commentaries. And now diligently revised, and reprinted. DEDICATED TO THE MOST SERENE DON FEDERIGO FELTRIO DELLA ROVERE PRINCE OF URBINO.",
+Pesaro_1619a,imprint,"IN PESARO, Near Flaminio Concordia, 1619. WITH LICENSE OF THE SUPERIORS. At the request of Gio. Antonio Ingegnieri from Fossombrone.",
 London_1620,title,"EUCLID'S ELEMENTS BOOKS ἕγ. ELEMENTORVM EVCLIDIS LIBRI TREDECIM. RESTORED ACCORDING TO ANCIENT exemplars. FROM THE LATIN VERSION OF FEDERICI COMMANDINI
-corrected in many places.",summer_2025
-London_1620,imprint,"LONDON, Printed by William Jones. 1620.",summer_2025
+corrected in many places.",
+London_1620,imprint,"LONDON, Printed by William Jones. 1620.",
 Paris_1621,title,"THE
 FIFTEEN BOOKS
 OF THE ELEMENTS
@@ -799,9 +799,9 @@ OF EUCLID.
 Translated from Latin into French:
 By D. HENRION Mathematician,
 SECOND EDITION,
-Revised, corrected & augmented.",summer_2025
+Revised, corrected & augmented.",
 Paris_1621,imprint,"IN PARIS, At JEAN ANTOINE JOALLIN's, in the courtyard of the Palace, between the two large gates, near the Treasury barrier.
-M. DC. XXI. With the King's Privilege.",summer_2025
+M. DC. XXI. With the King's Privilege.",
 Paris_1622,title,"THE
 FIFTEEN BOOKS
 OF THE GEOMETRIC
@@ -863,9 +863,9 @@ OF EUCLID.
 Translated from Latin into French:
 By D. HENRION Mathematician
 FOURTH EDITION.
-Reviewed, corrected, & greatly augmented.",summer_2025
+Reviewed, corrected, & greatly augmented.",
 Paris_1631,imprint,"IN PARIS, Printed by Isaac Dedin for the said Sieur HENRION residing on the Isle of the Palace at the Image of St. Michael. M. DC.
-XXXI. With the privilege of the King.",summer_2025
+XXXI. With the privilege of the King.",
 Paris_1632,title,"THE FIFTEEN BOOKS
 OF THE ELEMENTS
 OF GEOMETRY
@@ -878,8 +878,8 @@ a greater number of figures than in
 all previous editions.
 Plus the Book of DATA by the same Euclid also
 translated into French by the said Henrion, &
-printed during his lifetime.",summer_2025
-Paris_1632,imprint,"IN PARIS, From the Printing House of Isaac Dedin. And sold on the Isle of the Palace, at the Image of St. Michael, by the widow of the said Henrion. M. DC. XXXII. WITH PRIVILEGE OF THE KING.",summer_2025
+printed during his lifetime.",
+Paris_1632,imprint,"IN PARIS, From the Printing House of Isaac Dedin. And sold on the Isle of the Palace, at the Image of St. Michael, by the widow of the said Henrion. M. DC. XXXII. WITH PRIVILEGE OF THE KING.",
 Paris_1632a,title,"IN.N.P.&M.
 THE
 FIFTEEN BOOKS
@@ -1100,14 +1100,14 @@ VOLUME ONE.
 Following the Paris Copy.",summer_2025
 The_Hague_1690,imprint,"[Vol. 1] AT THE HAGUE, At HENRY van BULDEREN, Bookseller, in the Pooten, at the Sign of MEZERAY. M. DC. XC.",summer_2025
 Leiden_1691,title,"THE FIRST SIX BOOKS OF EUCLID'S ELEMENTS
-Largely embellished with new demonstrations BY THE WORK & STUDY OF HENRICUS COETSIUS.",summer_2025
-Leiden_1691,imprint,"LUGDUNUM BATAVORUM, At DANIEL à GAESBEEK, M DC XCI.",summer_2025
+Largely embellished with new demonstrations BY THE WORK & STUDY OF HENRICUS COETSIUS.",
+Leiden_1691,imprint,"LUGDUNUM BATAVORUM, At DANIEL à GAESBEEK, M DC XCI.",
 Leiden_1691,frontispiece,"The First
 Six Books
 of Euclid’s Elements
 Demonstrated
 by
-Henricus Coetsius",summer_2025
+Henricus Coetsius",
 Leiden_1692,title,"THE FIRST SIX BOOKS OF EUCLID'S ELEMENTS
 Largely
 adorned with new demonstrations BY THE WORK & STUDY OF HENRICUS COETSIUS.",summer_2025
@@ -1257,11 +1257,11 @@ Royal Chancellor.
 Mathematics is not great by bulk but
 by the clarity of well-ordered reasoning.
 It is the light of divine knowledge,
-a work of goodness, of soul and of mind.",summer_2025
+a work of goodness, of soul and of mind.",
 Lyon_1603,imprint,"At Lyon,
 From the press of Christophorus Guyotius.
 At the expense of Ioannes Ioannides, bookseller of Armenia.
-1613.",summer_2025
+1613.",
 Paris_1667,imprint,"IN PARIS,
 At Charles Savreux, Licensed Bookseller, at the foot of the Tower
 of Notre-Dame, at the Sign of the Three Virtues.
@@ -1521,10 +1521,10 @@ Six Books of Demonstrations.
 In which the geometry of plane figures is presented
 and clearly explained with brief notes.
 
-At the author’s own cost and expense.",summer_2025
+At the author’s own cost and expense.",
 Uppsala_1642,imprint,"At Uppsala,
 Printed by Eschillus Matthiae, printer of the Academy.
-In the year of Christ 1632.",summer_2025
+In the year of Christ 1632.",
 Mainz_1611_1612,title,"[General title page]: CHRISTOPHER CLAVIUS OF BAMBERG FROM THE SOCIETY OF JESUS MATHEMATICAL WORKS DISTRIBUTED IN 5 VOLUMES. Now corrected again by the author, and in many places expanded. To the Most Reverend and Illustrious Prince and Lord, LORD JOHANN GODEFRIED BISHOP of Bamberg, etc.
 [Additional title page for vol. 1]: CHRISTOPHER CLAVIUS OF BAMBERG FROM THE SOCIETY OF JESUS, MATHEMATICAL WORKS
 VOLUME ONE. Comprising Commentaries On Euclid's Geometric Elements, On Theodosius's Spherics, The Ratio & Tables of Sines, Tangents & Secants: The Treatment of Triangles, both Rectilinear and Spherical.",summer_2025
@@ -1579,8 +1579,8 @@ III. From the tradition of Maurolycus of Messina, Mathematician. MENELAUS' SPHER
 CLID'S PHENOMENA Most briefly demonstrated. Demonstration & practice of three tables namely of the Right Sine, Fertile, & Beneficial pertaining to Spherical triangles. COMPENDIUM OF MATHEMATICS with remarkable brevity from the most illustrious Authors. Maurolycus' discourse on the Sphere.",summer_2025
 Paris_1565a,title,"THE BOOK OF ARCHIMEDES ON FLOATING BODIES, ALSO CALLED ON THINGS FALLING IN THE FLUID, TRANSLATED AND
 COMMENTED by Pierre Forcadel of Bezies, ordinary lecturer of the King
-in Mathematics at the University of Paris. Together with what is found from the Book of Euclid titled on the light & the heavy translated & commented by the same Forcadel.",summer_2025
-Paris_1565a,imprint,"IN PARIS. At Charles Perier's, residing on S. Jean de Beauvais street, at the Bellerophon. 1565. WITH THE KING'S PRIVILEGE.",summer_2025
+in Mathematics at the University of Paris. Together with what is found from the Book of Euclid titled on the light & the heavy translated & commented by the same Forcadel.",
+Paris_1565a,imprint,"IN PARIS. At Charles Perier's, residing on S. Jean de Beauvais street, at the Bellerophon. 1565. WITH THE KING'S PRIVILEGE.",
 Paris_1566b,title,"THE
 Book of the Mu-
 sic of Euclid
@@ -4732,32 +4732,32 @@ bib-13,title,"The Practice of Geometry, Described and Demonstrated by Jean de Me
 Professor of Mathematics to the King.
 
 Dedicated to Monseigneur Monsieur Le Febure, Sieur de Caumartin, Councillor to the King,
-and General of his finances for the district of Outre-Seine and Yonne, established at Paris.",summer_2025
+and General of his finances for the district of Outre-Seine and Yonne, established at Paris.",
 bib-13,imprint,"In Paris,
 At the shop of Gilles Gorbin, at the sign of Hope,
 opposite the College of Cambrai.
-1575.",summer_2025
+1575.",
 bib-14,title,"Summa of Arithmetic, Geometry, Proportion, and Proportionality",summer_2025
 bib-15,title,"The Arithmetic of Jacques Peletier of Le Mans,
 divided into four books.
 
-Revised and enlarged by the Author.",summer_2025
+Revised and enlarged by the Author.",
 bib-15,imprint,"At Lyon,
 By Jean de Tournes.
 1554.
 
-With privilege of the Court.",summer_2025
+With privilege of the Court.",
 bib-16,title,"Jacques Peletier, physician and mathematician,
 On the Use of Geometry, Book One.
 
 Dedicated to Charles Emmanuel,
-son of Emmanuel Philibert, most powerful Duke of Savoy.",summer_2025
+son of Emmanuel Philibert, most powerful Duke of Savoy.",
 bib-16,imprint,"Paris,
 At the press of Gilles Gourbin, at the sign of Hope,
 opposite the College of Cambrai.
 1572.
 
-With the privilege of the King.",summer_2025
+With the privilege of the King.",
 bib-17,title,"On the Use of Geometry,
 
 By Jacques Peletier,
@@ -4765,27 +4765,27 @@ Physician and Mathematician.
 
 To the Most Illustrious Lord
 Messire Albert de Gondi,
-Count of Retz.",summer_2025
+Count of Retz.",
 bib-17,imprint,"In Paris,
 At the shop of Gilles Gourbin, at the sign of Hope, opposite
 the College of Cambrai.
 
 1573.
 
-With the privilege of the King.",summer_2025
+With the privilege of the King.",
 bib-18,title,"Work entitled Fragments of Mathematics,
 in which are treated subjects of Geometry, Astronomy, Geography,
 Natural Philosophy, the Sphere, the Astrolabe, Navigation,
 and Clocks.
 
 Arranged by Bachelor Juan Pérez de Moya,
-native of Santisteban del Puerto.",summer_2025
+native of Santisteban del Puerto.",
 bib-18,imprint,"With license and Royal privilege.
 In Salamanca,
 At the house of Juan de Canova.
 1568.
 
-Priced at four maravedís per sheet.",summer_2025
+Priced at four maravedís per sheet.",
 bib-19,title,"Treatise on Geometry, Practical and Speculative.
 
 By Bachelor Juan Pérez de Moya,
@@ -4812,10 +4812,10 @@ Rome, with license of the Superiors.
 1599.",summer_2025
 bib-21,title,"The Arithmetic of Petrus Ramus,
 in Two Books: and the Geometry,
-in Twenty-Seven.",summer_2025
+in Twenty-Seven.",
 bib-21,imprint,"Basel,
 By Eusebius Episcopius, and the heirs of his brother Nicolaus.
-1569.",summer_2025
+1569.",
 bib-22,title,The philosophical pearl,summer_2025
 bib-23,title,"The Second Part
 of the General Treatise on Numbers and Measures by Niccolò Tartaglia,
@@ -4969,9 +4969,9 @@ Discourse by Captain Francesco Montemellino on the fortification of the Borgo of
 Treatise on the Ordinances and Order of Battle by Captain Giovacchino da Coniano.
 Discourse by the aforesaid Castriotto on the fortresses of France.
 
-With privilege.",summer_2025
+With privilege.",
 bib-39,imprint,"In Venice,
-Published by Rutilio Borgominiero, at the sign of Saint George, 1564.",summer_2025
+Published by Rutilio Borgominiero, at the sign of Saint George, 1564.",
 bib-40,title,"On the Circle.
 In which is taught how to find the
 nearest proportion of the circle’s diameter to its circumference, so that
@@ -5012,11 +5012,11 @@ through the work of John Dee of London
 and Federico Commandino of Urbino.
 
 A short treatise on the same subject
-by Federico Commandino.",summer_2025
+by Federico Commandino.",
 bib-42,imprint,"Pesaro, 1570.
 At the press of Hieronymus Concordia.
 
-With permission of the superiors.",summer_2025
+With permission of the superiors.",
 bib-43,title,"Treasury
 of the Castilian, or
 Spanish Language.
@@ -5070,11 +5070,11 @@ Valet de chambre to the King.
 Necessary for those who wish promptly,
 and without any dependence on arithmetic,
 to know the distance of places, survey land,
-and make topographical maps.",summer_2025
+and make topographical maps.",
 bib-46,imprint,"By command and privilege of the King.
 
 In Paris.
-1555.",summer_2025
+1555.",
 bib-47,title,"Use
 and Description
 of the Holometer.
@@ -5679,10 +5679,10 @@ On the division of the fruit of a tree growing on a boundary.
 On the necessity of knowledge of geometry for a jurist.
 On the law of Papinian, Divorce.
 On the law of Julian, “Thus it is written.”
-On the law of Africanus, “Who four hundred…”",summer_2025
+On the law of Africanus, “Who four hundred…”",
 bib-82,imprint,"Now for the first time
 printed: Lyons, 1554.
-With privilege.",summer_2025
+With privilege.",
 bib-83,title,"THE GEOMETRICAL WORKS
 OF JOANNES BUTEO,
 of Dauphiné,
@@ -7234,7 +7234,7 @@ of the philosophers:
 that is, to the philosophy  
 most excellent through  
 divine and eternal  
-principles of reasoning.",summer_2025
+principles of reasoning.",
 bib-173,title,"LOGICAL WORKS  
 Revised from the archetypes, with new commentaries on the text:  
 let them now appear for the happy success of Parisian and other schools,  
@@ -7295,13 +7295,13 @@ of Peter Ramus
 of Vermandois,  
 addressed to the most celebrated  
 and most illustrious University  
-of Paris.",summer_2025
+of Paris.",
 bib-177,imprint,"With Privilege.  
 
 Paris,  
 Printed by Jacques Bogard,  
 in the month of September,  
-1543.",summer_2025
+1543.",
 bib-178,title,"Natural Theology, or The Book of Creatures, 
 especially concerning man, and about his nature insofar as he is man, 
 and about those things which are necessary for him to know himself and about himself, 
@@ -8131,12 +8131,12 @@ nativities scarcely erring.
 
 A work  
 necessary for Astronomers, Astrologers, Physicians, Statesmen, Economists, Poets, Theologians,  
-Historians, and Grammarians.",summer_2025
+Historians, and Grammarians.",
 bib-251,imprint,"COLOGNE,  
 Printed by the heirs of Arnold Birckmann,  
 in the year of the Virgin Birth 1560.  
 
-With the Grace and Privilege of the Imperial Majesty for ten years.",summer_2025
+With the Grace and Privilege of the Imperial Majesty for ten years.",
 bib-252,title,"EPHEMERIS  
 OF JOHANNES STADIUS  
 of Leonhout, for the Year  
@@ -8275,11 +8275,11 @@ AND
 The solution of mathematical questions  
 by the computation of sines, illustrated and  
 expanded with the geometric demonstrations  
-necessary to the same.",summer_2025
+necessary to the same.",
 bib-264,imprint,"IN ANTWERP  
 At the house of Jean Waesberghe, at the sign of the Shield of Flanders.  
 With privilege.  
-1573.",summer_2025
+1573.",
 bib-265,title,"BOOK  
 OF ARITHMETIC  
 containing several fine Problems and  
@@ -8298,10 +8298,10 @@ by Mr. Valentin Mennher, containing
 several fine questions daily occurring  
 in the trade of merchandise.  
 Translated from High German, and  
-enlarged by the same author.",summer_2025
+enlarged by the same author.",
 bib-266,imprint,"AT ANTWERP.  
 With privilege of the Royal Majesty  
-for four years. 1563.",summer_2025
+for four years. 1563.",
 bib-267,title,"THE SCIENCE  
 OF NUMBERS.  
 FIRST PART  
@@ -8575,11 +8575,11 @@ singular & convenient, as much for the military art
 as for Geometry, & other calculations: Composed by Claude
 de Boissiere Dauphinois.
 Reviewed & augmented by Lucas Tremblay Parisian,
-professor of Mathematics.",summer_2025
+professor of Mathematics.",
 bib-282,imprint,"IN PARIS,
 For Guillaume Cavellat, at the sign of the Fat
 Hen, in front of the college of Cambray.
-1563.",summer_2025
+1563.",
 ,imprint,gdsdgsdgs,
 ,colophon,sdgsd,
 ,imprint,gdsdgsdgs,
@@ -8915,13 +8915,13 @@ YEAR VIII.",
 Antwerp_1645,title,"THE THIRTEEN BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY
 ISIDORUS AND HYPSICLES & More Recent Authors on Regular Solids, & PROCLUS' GEOMETRIC PROPOSITIONS and the insertion of two straight lines continuously proportional between two straight lines, both according to the Ancients and according to the More Recent Geometers, have been illustrated with almost entirely new demonstrations, and enriched with many definitions, axioms, propositions, corollaries, and observations necessary for correctly understanding Geometry, by CLAUDIUS RICHARD of the Society of JESUS, Priest, native of Ornans in the free County of Burgundy, and Royal Professor of Mathematics: and dedicated to PHILIP IV, CATHOLIC KING OF SPAIN AND THE INDIES.",
 Antwerp_1654,title,"ELEMENTS OF PLANE AND SOLID GEOMETRY. TO WHICH ARE ADDED SELECT THEOREMS FROM ARCHIMEDES. BY ANDREW TACQUET, PRIEST OF THE SOCIETY OF JESUS & Professor of Mathematics. What new has been accomplished in both will be indicated in the preface to the Reader.",summer_2025
-Basel_1533,title,"EUCLID'S ELEMENTS BOOK XV. FROM THEON'S COMMENTARIES. On the same, the first, Proclus' explanations book iv. With a preface in which something about the Mathematical disciplines.",summer_2025
+Basel_1533,title,"EUCLID'S ELEMENTS BOOK XV. FROM THEON'S COMMENTARIES. On the same, the first, Proclus' explanations book iv. With a preface in which something about the Mathematical disciplines.",
 Basel_1550,title,"EVCLIDIS of Megara, an EXCELLENT Philosopher & Mathematician, THE FIRST SIX BOOKS, ON Geometric principles, in Greek & Latin, together with the demonstrations of propositions, without the use of letters, true and proper, & with some others, concerning their use, added not without the greatest benefit to the students of this art. MOREOVER, THE RULES OF ALGEBRA, DUE TO THE examples of numbers, are added throughout the propositions, and are prefaced to these books, and the same are demonstrated. BY THE AUTHOR IOANNES SCHEVBELIUS, IN the renowned Academy of Tübingen, the ordinary professor of Euclid.",
-Basel_1562,title,"The Six First Books of Euclid, From the beginning or foundation of Geometry. In which the true foundation, not only of Geometry (understand all artificial, certain, and advantageous use of the compass, ruler or straightedge, and other tools, which are useful for all kinds of measurement) but also of the principal parts and advantages of arithmetic, is prescribed and demonstrated. Translated from the Greek language into German, properly explained, Also adorned with understandable examples, thorough figures, and all kinds of appendices presenting the utility, In a manner never before seen in the German language. All for the love and use of the art-loving Germans, who take up Geometry and arithmetic, earned with much effort and work most faithfully, and given in print, By Wilhelm Holtzman, called Xylander, from Augsburg.",summer_2025
+Basel_1562,title,"The Six First Books of Euclid, From the beginning or foundation of Geometry. In which the true foundation, not only of Geometry (understand all artificial, certain, and advantageous use of the compass, ruler or straightedge, and other tools, which are useful for all kinds of measurement) but also of the principal parts and advantages of arithmetic, is prescribed and demonstrated. Translated from the Greek language into German, properly explained, Also adorned with understandable examples, thorough figures, and all kinds of appendices presenting the utility, In a manner never before seen in the German language. All for the love and use of the art-loving Germans, who take up Geometry and arithmetic, earned with much effort and work most faithfully, and given in print, By Wilhelm Holtzman, called Xylander, from Augsburg.",
 Bologna_1651a,title,OF THE ELEMENTS OF EUCLID The First Six Books Translated into Italian TO THE MOST ILLUSTRIOUS SENATE OF BOLOGNA.,summer_2025
 Cambridge_1655,title,"The Fifteen Books of Euclid's Elements, briefly demonstrated, by the work of IS. BARROW, Fellow of TRINITY College, CAMBRIDGE.",
 Cologne_1556,title,"EVCLIDIS MEGARENSIS MATHEMATICI CLARISS. The
-first book of the Geometric Elements, to which selected Propositions from the following books have been added and arranged in such a way that they can be demonstrated by observing the Method of Geometers.",summer_2025
+first book of the Geometric Elements, to which selected Propositions from the following books have been added and arranged in such a way that they can be demonstrated by observing the Method of Geometers.",
 Glasgow_1756,title,"EUCLID’S
 ELEMENTS
 
@@ -8939,8 +8939,8 @@ By ROBERT SIMSON, M.D.
 Professor of Mathematics in the University of Glasgow.",
 Graz_1636,title,"EUCLID'S SIX FIRST BOOKS OF GEOMETRICAL
 ELEMENTS WITH PART OF THE ELEVENTH From the larger commentaries of Clavius contracted into a more convenient form By P. CHRISTOPHER GRIENBERGER of the SOCIETY OF JESUS Also added, almost entirely from Clavius, A BRIEF TRIGONOMETRY of planes, with Tables of Sines, Tangents, & Secants, to parts of Radius 100000 through the first six minutes of degrees By P. JACOB HONORATUS DURAND OF THE SAME SOCIETY.",summer_2025
-Leiden_1606,title,"The first six books of EUCLID, On the principles and foundations of Geometry. Together with a short supplement in which, firstly, some utilities from the same books are explained: Thereafter also the species in Geometric figures, as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated BY IAN PIETERSZOON DOV, Land surveyor and Wine gauger of the city of Leiden.",summer_2025
-Leipzig_1549,title,"Euclid's Elements Books Six. EUCLID'S ELEMENTS OF GEOMETRY BOOKS SIX, TRANSLATED INTO LATIN language by Joachim Camerarius. Published in Leipzig by Georg Joachim Rhet.",summer_2025
+Leiden_1606,title,"The first six books of EUCLID, On the principles and foundations of Geometry. Together with a short supplement in which, firstly, some utilities from the same books are explained: Thereafter also the species in Geometric figures, as making, changing, combining, subtracting, multiplying, and dividing. Translated, explained, and elucidated BY IAN PIETERSZOON DOV, Land surveyor and Wine gauger of the city of Leiden.",
+Leipzig_1549,title,"Euclid's Elements Books Six. EUCLID'S ELEMENTS OF GEOMETRY BOOKS SIX, TRANSLATED INTO LATIN language by Joachim Camerarius. Published in Leipzig by Georg Joachim Rhet.",
 Lisbon_1735,title,"ELEMENTS
 OF
 PLANE AND SOLID
@@ -8991,7 +8991,7 @@ ALL THAT SURVIVES.
 
 From the edition of DAVID GREGORY, M.D.
 Savilian Professor of Astronomy, & Fellow of the Royal Society.",
-Paris_1516,title,"CONTENT. EVCLIDIS of Megara's fifteen books of geometric elements. CAMPANUS of Gallia Transalpina's fifteen books of commentary on the same. THEON of Alexandria, interpreted by Bartholomew Zamberto of Venice, thirteen books of commentary on the first thirteen. HYPSICLES of Alexandria, on the last two, interpreted by the same Bartholomew Zamberto of Venice, two books of commentary. HOWEVER OUR LABOR HAS BEEN WORTHWHILE, all these have been compiled for the not insignificant (we hope) benefit of students: at the request of the Magnificent D. FRANCISCO Briconneto. If these are received kindly, and bring the fruit we desire: other works of the same author will come to light, with the success granted by God, and with the help of those (wherever they may be) well-disposed towards the establishment of good letters, whether they be French, Italians, Germans, Spaniards, or English. To all of whom we wish prosperity: and a pure and true light of knowledge worthy of their dignity.",summer_2025
+Paris_1516,title,"CONTENT. EVCLIDIS of Megara's fifteen books of geometric elements. CAMPANUS of Gallia Transalpina's fifteen books of commentary on the same. THEON of Alexandria, interpreted by Bartholomew Zamberto of Venice, thirteen books of commentary on the first thirteen. HYPSICLES of Alexandria, on the last two, interpreted by the same Bartholomew Zamberto of Venice, two books of commentary. HOWEVER OUR LABOR HAS BEEN WORTHWHILE, all these have been compiled for the not insignificant (we hope) benefit of students: at the request of the Magnificent D. FRANCISCO Briconneto. If these are received kindly, and bring the fruit we desire: other works of the same author will come to light, with the success granted by God, and with the help of those (wherever they may be) well-disposed towards the establishment of good letters, whether they be French, Italians, Germans, Spaniards, or English. To all of whom we wish prosperity: and a pure and true light of knowledge worthy of their dignity.",
 Paris_1536,title,"Orontius Fineus Delphinatus, Royal Professor of Mathematics,
 DEMONSTRATIONS ON THE FIRST SIX BOOKS
 of the geometric elements of Euclid of Megara.
@@ -9009,7 +9009,7 @@ COMMENTED BY PIERRE
 Forcadel de Bezies, Ordinary Lecturer
 of the King in Mathema-
 tics at the University
-of Paris.",summer_2025
+of Paris.",
 Paris_1566,title,"THE ELEMENTS OF GEOMETRY BY THE MOST FAMOUS MATHEMATICIAN EUCLID OF MEGARA, IN FIFTEEN BOOKS. RESTORED TO THE TRUE UNDERSTANDING OF GEOMETRY FROM VARIOUS ERRORS CONTRACTED THROUGH THE INJURY OF TIME, WITH ADDITIONS BEYOND THE EXPECTATION OF THE ELDERS, WHICH HAVE HITHERTO BEEN LACKING, OF THE COMPARISONS AND INSCRIPTIONS OF REGULAR SOLIDS. TO THIS IS ADDED A SIXTEENTH BOOK, ON THE COMPARISONS OF REGULAR SOLIDS INSCRIBED WITHIN EACH OTHER, AND ALSO A BEGUN WORK ON THE COMPLETION OF REGULAR COMPOSITE SOLIDS. BY THE AUTHOR Francis Flussate Candalla. TO Charles IX, THE MOST CHRISTIAN KING OF THE FRANKS.",
 Paris_1615,title,"THE
 FIFTEEN BOOKS
@@ -9072,7 +9072,7 @@ for the use of those who are not versed in Algebra, enriched with
 forty-seven copperplate engravings.
 
 By Abbé DEIDIER.  ",
-Pesaro_1572,title,"THE FIFTEEN BOOKS OF EUCLID'S ELEMENTS. Together with ancient Scholiums. RECENTLY TRANSLATED INTO LATIN by FEDERICO COMMANDINO OF URBINO, and illustrated with certain commentaries.",summer_2025
+Pesaro_1572,title,"THE FIFTEEN BOOKS OF EUCLID'S ELEMENTS. Together with ancient Scholiums. RECENTLY TRANSLATED INTO LATIN by FEDERICO COMMANDINO OF URBINO, and illustrated with certain commentaries.",
 Pisa_1658,title,"EUCLID
 RESTORED,
 Or,
@@ -9085,13 +9085,13 @@ are presented in a new and stronger Method
 BY IO: ALPHONSO BORELLI
 formerly in the Messina, but now in the Pisa
 Academy of Mathematics Professor.",
-Rome_1545a,title,"THE FIFTEEN BOOKS OF THE ELEMENTS OF EUCLID, TRANSLATED FROM GREEK INTO THE TUSCAN LANGUAGE.",summer_2025
+Rome_1545a,title,"THE FIFTEEN BOOKS OF THE ELEMENTS OF EUCLID, TRANSLATED FROM GREEK INTO THE TUSCAN LANGUAGE.",
 Rome_1574,title,"[vol. 1]: THE ELEMENTS OF EUCLID BOOKS XV. WITH AN ADDITIONAL XVI. ON THE COMPARISON OF REGULAR SOLIDS. ALL ILLUSTRATED WITH CLEAR DEMONSTRATIONS AND ACCURATE SCHOLIA. BY CHRISTOPHER CLAVIUS OF BAMBERG. OF THE SOCIETY OF JESUS.
 [vol. 2]: THE LATER BOOKS OF EUCLID FROM X. TO XV. WITH AN ADDITIONAL XVI. ON THE COMPARISON OF REGULAR SOLIDS. ALL ILLUSTRATED WITH CLEAR DEMONSTRATIONS AND ACCURATE SCHOLIA. BY CHRISTOPHER CLAVIUS OF BAMBERG. OF THE SOCIETY OF JESUS.",
 Rome_1589,title,"[vol. 1]: EUCLID'S ELEMENTS BOOK XV WITH AN ADDITION OF XVI.
 ON THE COMPARISON OF ANY REGULAR SOLIDS WITHIN ANY OTHER. ALL ILLUSTRATED WITH CLEAR DEMONstrations and accurate scholia: now published again, enriched with the addition of many things: BY CHRISTOPHER CLAVIUS OF BAMBERG FROM THE SOCIETY OF JESUS
 [vol. 2]: EUCLID'S LATER BOOKS IX WITH AN ADDITION OF XVI. ON THE
-COMPARISON OF ANY REGULAR SOLIDS WITHIN ANY OTHER. ALL ILLUSTRATED WITH CLEAR DEMONstrations and accurate scholia: now published again, enriched with the addition of many things: BY CHRISTOPHER CLAVIUS OF BAMBERG FROM THE SO-CIETY OF JESUS",summer_2025
+COMPARISON OF ANY REGULAR SOLIDS WITHIN ANY OTHER. ALL ILLUSTRATED WITH CLEAR DEMONstrations and accurate scholia: now published again, enriched with the addition of many things: BY CHRISTOPHER CLAVIUS OF BAMBERG FROM THE SO-CIETY OF JESUS",
 Rome_1594,title,"The Book of the Liberation of Euclid's Elements authored by Khawaja Nasir al-Din al-Tusi
 EVCLIDIS ELEMENTORVM GEOMETRICORVM Libri Tre-decim. EX TRADITIONE DOCTISSIMI NASIRIDINI TVSINI
 Now printed in Arabic for the first time.",summer_2025
@@ -9123,7 +9123,7 @@ Arranged in a new order, and adapted to the capacity of youth,
 under the direction
 of Professor Koenig,
 and revised
-by Mr. A. Kuypers.",summer_2025
+by Mr. A. Kuypers.",
 Uppsala_1741,title,"EUCLID’S
 ELEMENTS
 THE FIRST SIX BOOKS
@@ -9152,8 +9152,8 @@ Containing the first six books.
 
 With the most gracious Privilege of His Royal Majesty.",
 Urbino_1575,title,"THE ELEMENTS OF EUCLID IN FIFTEEN BOOKS. WITH THE ANCIENT SCHOLIA. FIRST TRANSLATED INTO LATIN BY M. FEDERICO COMMANDINO OF URBINO, &
-illustrated with Commentaries, AND NOW BY ORDER OF THE SAME TRANSLATED INTO OUR VERNACULAR, & reviewed by him.",summer_2025
-Venice_1509,title,"The works of Euclid of Megara, the most acute philosopher and without controversy the prince of all mathematicians, translated by Campanus, the most faithful interpreter. These works, which previously, due to the deplorable fault of scribes, were so deformed by the most foul errors that we could scarcely recognize Euclid himself. Lucas Pacioli, a distinguished theologian, exceedingly rare in the highest knowledge of mathematical disciplines, with the most discerning judgment, cleansed and corrected them. He arranged one hundred and thirty-nine figures, which in other manuscripts were inverted and deformed, into correct symmetry and added many necessary ones. In many places, he also elucidated, explained, and illustrated the same work, which was difficult to understand, with very clear and most learned commentaries. Moreover, so that it might emerge more refined, Scipio Vegius of Milan, a man renowned in both languages, the medical art, and higher studies, provided his diligence and critique.",summer_2025
+illustrated with Commentaries, AND NOW BY ORDER OF THE SAME TRANSLATED INTO OUR VERNACULAR, & reviewed by him.",
+Venice_1509,title,"The works of Euclid of Megara, the most acute philosopher and without controversy the prince of all mathematicians, translated by Campanus, the most faithful interpreter. These works, which previously, due to the deplorable fault of scribes, were so deformed by the most foul errors that we could scarcely recognize Euclid himself. Lucas Pacioli, a distinguished theologian, exceedingly rare in the highest knowledge of mathematical disciplines, with the most discerning judgment, cleansed and corrected them. He arranged one hundred and thirty-nine figures, which in other manuscripts were inverted and deformed, into correct symmetry and added many necessary ones. In many places, he also elucidated, explained, and illustrated the same work, which was difficult to understand, with very clear and most learned commentaries. Moreover, so that it might emerge more refined, Scipio Vegius of Milan, a man renowned in both languages, the medical art, and higher studies, provided his diligence and critique.",
 Würzburg_1661,title,"P. GASPARIS SCHOTTI REGISCURIANI OF THE SOCIETY
 OF JESUS Formerly in Panormitan Sicily, now in Herbipolitan Franconia of the same SOCIETY OF JESUS Gymnasium of Mathematics Professor MATHEMATICAL COURSE, Or the Complete ENCYCLOPEDIA of all Mathematical Disciplines, Arranged in 28 Books, and organized in such a way that anyone, even with moderate talent, can learn the entire Mathematics from the very foundations by their own effort. A work long desired, promised by many, attempted by not a few, completed by none in all respects. At the end, NEW MECHANICAL THEOREMS have been added.",
 Bologna_1620,title,"THE FIRST SIX BOOKS
@@ -11123,3 +11123,19 @@ MMJVXG,imprint,"At Leiden,
 from the press of
 the Elzeviers.
 1625.",
+Venice_1509,colophon,"The work of the most perceptive philosopher Euclid of Megara on the elements, concerning two kinds of quantities—namely discrete and continuous—and their proportions and proportionalities; from the excellent interpretation of Campanus.
+
+Revised with the greatest care by Master Luca Pacioli of Borgo San Sepolcro, of the Order of Friars Minor, professor of sacred theology and a most devoted cultivator of the mathematical discipline, who assisted day and night in the printing process, with many of his own useful notes added in various places and corrected most accurately by his own hand.
+
+Printed in Venice by the worthy man Paganino de’ Paganini of Brescia, by public decree that no one within that city or the entire dominion may print it, or cause it to be printed, for a period of fifteen years, nor bring into public circulation any copies printed elsewhere under any pretext, under the penalties contained in the said privilege.
+
+In the year of our redemption 1509, on the 11th day before the Kalends of June (May 22). During the rule of Leonardo Loredan in the Venetian Republic, in the sixth year of the pontificate of Julius II.",
+Ansbach_1610,colophon,"Printed in Onolzbach (Ansbach) by Paul Böhm, in the year 1610.",
+9D1KT8,title,"Practice of arithmetic and geometry by the Reverend Father Lorenzo Forestani of Pescia, of the Conventual Friars Minor of Saint Francis. Newly reprinted and corrected with the utmost diligence.",
+9D1KT8,imprint,"In Siena, at the Public Printing House, 1682. With permission of the authorities. At the instance of the heirs of Filippo Succhielli and of the Fantini of Siena.",
+T4DFPF,title,"“The fifteen books of the geometric Elements of Euclid of Megara, most renowned mathematician. With the exposition of Theon on the first thirteen [books], rendered into Latin by Bartholomeo Zamberti of Venice; that of Campanus on all, and that of Hypsicles of Alexandria on the last two. To these are added the Phaenomena, the Catoptrics, and the Optics; then the Protheoria of Marinus, and the Data.
+
+Finally, moreover, a little work On the Light and the Heavy, hitherto not seen, by the same author.",
+T4DFPF,imprint,"With Imperial privilege.
+At Basel, by Johann Herwagen and Bernhard Brand, in the year 1558.",
+2I9HSY,frontispiece,"In this present figure are shown the five regular solids of geometry (which are derived and explained point by point at the end of this present book), together with certain figures abbreviated according to this art, which, God willing, it is hoped to set out more fully for you in the second book.",

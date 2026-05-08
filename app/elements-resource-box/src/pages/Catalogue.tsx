@@ -1,6 +1,6 @@
 import { upperFirst } from "lodash";
 import { MAIN_CONTENT_ID } from "../components/layout/routes.ts";
-import { useContext, useEffect, useMemo, useState } from "react";
+import { useCallback, useContext, useEffect, useMemo, useState } from "react";
 import {
   ColumnDef,
   ColumnResizeMode,
@@ -26,9 +26,9 @@ import {
 } from "../components/common";
 import { ItemModal } from "../components/tps/modal/ItemModal";
 import { ItemTypes, NO_CITY } from "../constants";
-import { joinArr } from "../utils/util.ts";
-import { FaChevronDown, FaChevronRight } from "react-icons/fa";
-import { AiFillEdit } from "react-icons/ai";
+import { formatBookRanges, joinArr } from "../utils/util.ts";
+import { FaChevronDown, FaChevronRight, FaCheck } from "react-icons/fa";
+import { AiFillEdit, AiOutlineCopy } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
 import { AuthContext } from "../contexts/Auth.ts";
 import { Switch, SwitchOption } from "../components/map/Switch.tsx";
@@ -169,6 +169,27 @@ const ViewButton = styled.button`
   }
 `;
 
+const IconButton = styled.button`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: ${SEA_COLOR};
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:focus-visible {
+    outline: 2px solid ${SEA_COLOR};
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+`;
+
 const LanguageSpan = styled.span`
   display: inline-block;
   margin-right: 0.25rem;
@@ -272,7 +293,20 @@ export function Catalogue() {
     "reprint",
   );
   const [expanded, setExpanded] = useState<ExpandedState>({});
+  const [copiedKey, setCopiedKey] = useState<string | null>(null);
   const orderBy = useMemo(() => toServerOrderBy(sorting), [sorting]);
+
+  const copyEditionKey = useCallback(async (editionKey: string) => {
+    try {
+      await navigator.clipboard.writeText(editionKey);
+      setCopiedKey(editionKey);
+      window.setTimeout(() => {
+        setCopiedKey((current) => (current === editionKey ? null : current));
+      }, 2000);
+    } catch (err) {
+      console.error("Failed to copy edition key:", err);
+    }
+  }, []);
   const {
     items: filteredItems,
     fetchNextPage,
@@ -513,6 +547,22 @@ export function Catalogue() {
                   <AiFillEdit style={{ color: SEA_COLOR, fontSize: "1rem" }} />
                 </a>
               )}
+              <IconButton
+                type="button"
+                title={
+                  copiedKey === info.row.original.key
+                    ? "Copied!"
+                    : "Copy edition key"
+                }
+                aria-label="Copy edition key"
+                onClick={() => void copyEditionKey(info.row.original.key)}
+              >
+                {copiedKey === info.row.original.key ? (
+                  <FaCheck style={{ fontSize: "1rem" }} />
+                ) : (
+                  <AiOutlineCopy style={{ fontSize: "1rem" }} />
+                )}
+              </IconButton>
               {info.row.original.facsimiles.length > 0 && (
                 <FacsimileLinks
                   facsimiles={info.row.original.facsimiles}
@@ -533,7 +583,7 @@ export function Catalogue() {
               )}
             </Row>
           ),
-          size: 88,
+          size: 108,
         }),
         columnHelper.accessor("year", {
           header: "Year",

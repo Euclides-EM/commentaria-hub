@@ -37,7 +37,7 @@ const GitHubTokenKey contextKey = "github_token"
 const GitHubUserKey contextKey = "github_user"
 
 func authorized(r *http.Request) (*http.Request, bool) {
-	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) {
+	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) && !strings.HasSuffix(r.URL.Path, "/logs") {
 		return r, true
 	}
 	if strings.HasSuffix(r.URL.Path, "/search") && r.Method == http.MethodPost {

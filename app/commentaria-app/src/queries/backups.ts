@@ -33,6 +33,17 @@ export function useCreateBackupFromZipMutation() {
   })
 }
 
+export function useSyncBackupToDriveMutation() {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: (backupId: string) =>
+      BackupsService.putBackupsSync({ backupId }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: backupsQueryKey() })
+    },
+  })
+}
+
 export function useRestoreBackupMutation() {
   return useMutation({
     mutationFn: (backupId: string) =>

@@ -7,6 +7,7 @@ import {
   useCreateBackupFromZipMutation,
   useCreateBackupMutation,
   useRestoreBackupMutation,
+  useSyncBackupToDriveMutation,
 } from '../../queries/backups'
 import { RestoreBackupModal } from '../modal/RestoreBackupModal'
 import { API_BASE_URL } from '../../config/api'
@@ -44,12 +45,16 @@ export function BackupsView() {
   const { data: backups, isLoading, error } = useBackupsQuery()
   const createMutation = useCreateBackupMutation()
   const createFromZipMutation = useCreateBackupFromZipMutation()
+  const syncMutation = useSyncBackupToDriveMutation()
   const restoreMutation = useRestoreBackupMutation()
   const zipInputRef = useRef<HTMLInputElement>(null)
   const [downloadError, setDownloadError] = useState<unknown>(null)
   const [restoreTargetId, setRestoreTargetId] = useState<string | null>(null)
   const hasMutationError = Boolean(
-    createMutation.error || createFromZipMutation.error || downloadError,
+    createMutation.error ||
+    createFromZipMutation.error ||
+    syncMutation.error ||
+    downloadError,
   )
 
   const handleDownload = (backupId: string) => {
@@ -139,6 +144,7 @@ export function BackupsView() {
               error={
                 createMutation.error ||
                 createFromZipMutation.error ||
+                syncMutation.error ||
                 downloadError
               }
             />
@@ -190,14 +196,30 @@ export function BackupsView() {
                             Download
                           </Button>
                           {isAuthenticated && (
-                            <Button
-                              variant="danger"
-                              className="px-2 py-1 text-xs"
-                              onClick={() => setRestoreTargetId(backupId)}
-                              disabled={restoreMutation.isPending}
-                            >
-                              Restore
-                            </Button>
+                            <>
+                              <Button
+                                variant="primary"
+                                className="px-2 py-1 text-xs"
+                                onClick={() => syncMutation.mutate(backupId)}
+                                disabled={
+                                  syncMutation.isPending ||
+                                  restoreMutation.isPending
+                                }
+                              >
+                                {syncMutation.isPending &&
+                                syncMutation.variables === backupId
+                                  ? 'Syncing...'
+                                  : 'Sync to Drive'}
+                              </Button>
+                              <Button
+                                variant="danger"
+                                className="px-2 py-1 text-xs"
+                                onClick={() => setRestoreTargetId(backupId)}
+                                disabled={restoreMutation.isPending}
+                              >
+                                Restore
+                              </Button>
+                            </>
                           )}
                         </div>
                       </td>

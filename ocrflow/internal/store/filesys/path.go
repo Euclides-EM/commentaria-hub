@@ -3,6 +3,7 @@ package filesys
 import (
 	"fmt"
 	"path"
+	"path/filepath"
 	"strconv"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
@@ -51,6 +52,15 @@ func (m *Manager) DatasetImagesDir(ds *model.Dataset) string {
 
 func (m *Manager) DatasetImagesDirByID(dsID string) string {
 	return path.Join(m.DatasetDir(dsID), "imgs")
+}
+
+func (m *Manager) DatasetImageVariantsDirByID(dsID string, variant string) string {
+	return path.Join(m.DatasetImagesDirByID(dsID), "_variants", variant)
+}
+
+func (m *Manager) DatasetImageVariantPathByID(dsID string, variant string, sourceFilename string) string {
+	base := sourceFilename[:len(sourceFilename)-len(filepath.Ext(sourceFilename))]
+	return path.Join(m.DatasetImageVariantsDirByID(dsID, variant), base+".jpg")
 }
 
 func (m *Manager) baseAnnotationPath(ann *annotation.Annotation) string {

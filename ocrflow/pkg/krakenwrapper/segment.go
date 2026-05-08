@@ -162,9 +162,9 @@ func runKrakenSegment(pairs [][2]string, segmentationModel string) error {
 	}
 	args := []string{
 		"kraken",
-		"--device", "cpu",
 		"--alto",
 	}
+	args = append(args, krakenDeviceArgs()...)
 	for _, pair := range pairs {
 		args = append(args, "-i", pair[0], pair[1])
 	}

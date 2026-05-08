@@ -9,6 +9,7 @@ const (
 	TypeAddMargin                    Type = "add_margin"
 	TypeLinesDetect                  Type = "lines_detect"
 	TypeRemoveCategories             Type = "remove_categories"
+	TypeRenameCategories             Type = "rename_categories"
 	TypeRemoveOverlap                Type = "remove_overlap"
 	TypeResolveOverlapWithPriority   Type = "resolve_overlap_with_priority"
 	TypeRecategorizeByAlignment      Type = "recategorize_by_alignment"
@@ -25,6 +26,7 @@ var ruleFactories = map[Type]func() AnnotationRule{
 	TypeLinesDetect:                  func() AnnotationRule { return NewLinesDetect(nil, nil) },
 	TypeModelDetect:                  func() AnnotationRule { return NewModelDetect("") },
 	TypeRemoveCategories:             func() AnnotationRule { return NewRemoveCategories(nil) },
+	TypeRenameCategories:             func() AnnotationRule { return NewRenameCategories(nil) },
 	TypeRemoveOverlap:                func() AnnotationRule { return NewRemoveOverlap(nil, 0.0) },
 	TypeResolveOverlapWithPriority:   func() AnnotationRule { return NewResolveOverlapWithPriority("", "", 0.0) },
 	TypeRecategorizeByAlignment:      func() AnnotationRule { return NewRecategorizeByAlignment("", "", "", AlignmentHorizontal, 0.0) },
@@ -41,6 +43,7 @@ var applicableStagesByType = map[Type][]PipelineStage{
 	TypeLinesDetect:                  {PipelineStageZoneSegmentation},
 	TypeModelDetect:                  {PipelineStageRaw},
 	TypeRemoveCategories:             {PipelineStageZoneSegmentation},
+	TypeRenameCategories:             {PipelineStageZoneSegmentation},
 	TypeRemoveOverlap:                {PipelineStageZoneSegmentation},
 	TypeResolveOverlapWithPriority:   {PipelineStageZoneSegmentation},
 	TypeRecategorizeByAlignment:      {PipelineStageZoneSegmentation},
@@ -57,6 +60,7 @@ var minEnsuredStageByType = map[Type]PipelineStage{
 	TypeLinesDetect:                  PipelineStageTextLineSegmentation,
 	TypeModelDetect:                  PipelineStageZoneSegmentation,
 	TypeRemoveCategories:             PipelineStageZoneSegmentation,
+	TypeRenameCategories:             PipelineStageZoneSegmentation,
 	TypeRemoveOverlap:                PipelineStageZoneSegmentation,
 	TypeResolveOverlapWithPriority:   PipelineStageZoneSegmentation,
 	TypeRecategorizeByAlignment:      PipelineStageZoneSegmentation,
@@ -80,6 +84,7 @@ var AllAnnotationRuleTypes = []Type{
 	TypeAddMargin,
 	TypeLinesDetect,
 	TypeRemoveCategories,
+	TypeRenameCategories,
 	TypeRemoveOverlap,
 	TypeResolveOverlapWithPriority,
 	TypeRecategorizeByAlignment,
