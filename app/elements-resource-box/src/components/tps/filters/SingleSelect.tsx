@@ -52,13 +52,19 @@ export const SingleSelect = ({
           ...base,
           zIndex: 9999,
         }),
+        placeholder: (provided) => ({
+          ...provided,
+          fontSize: "14px",
+        }),
         option: (base) => ({
           ...base,
           color: "black",
+          fontSize: "14px",
         }),
         singleValue: (base) => ({
           ...base,
           color: "black",
+          fontSize: "14px",
         }),
         ...(stylesOverride || {}),
       }}
