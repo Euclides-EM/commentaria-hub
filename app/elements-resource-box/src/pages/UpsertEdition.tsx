@@ -90,7 +90,9 @@ type EditionFormData = {
   additionalContent?: string[];
 };
 
-function serializeManuscriptScans(scan: ShelfmarkFormData["scan"]): string | null {
+function serializeManuscriptScans(
+  scan: ShelfmarkFormData["scan"],
+): string | null {
   if (Array.isArray(scan)) {
     const values = scan.map((value) => value.trim()).filter(Boolean);
     return values.length > 0 ? values.join(";") : null;
@@ -211,7 +213,9 @@ function toEditionFormData(
     corpus: edition.corpus || [],
     shelfmarks: (edition.shelfmarks || []).map((s) => ({
       volume: s.volume ?? null,
-      scan: isManuscript ? deserializeManuscriptScans(s.scan) : (s.scan ?? null),
+      scan: isManuscript
+        ? deserializeManuscriptScans(s.scan)
+        : (s.scan ?? null),
       shelfmark: s.shelfmark ?? null,
       repository: s.repository ?? null,
       title_page_img: s.title_page_img ?? null,
@@ -260,7 +264,7 @@ function toEditionFormData(
       })),
     })),
     ...(isManuscript
-        ? {
+      ? {
           isManuscript: true,
           manuscriptYearFrom: edition.manuscriptYearFrom || 0,
           manuscriptYearTo: edition.manuscriptYearTo || 0,
@@ -2150,9 +2154,7 @@ export const UpsertEdition = () => {
                               onBlur: ({ value }) =>
                                 isManuscript
                                   ? Array.isArray(value) &&
-                                    value.some(
-                                      (url) => url && !isValidUrl(url),
-                                    )
+                                    value.some((url) => url && !isValidUrl(url))
                                     ? "All facsimile URLs must be valid"
                                     : undefined
                                   : value &&
@@ -2226,7 +2228,9 @@ export const UpsertEdition = () => {
                                         cursor: "pointer",
                                       }}
                                       onClick={() => {
-                                        const next = Array.isArray(f.state.value)
+                                        const next = Array.isArray(
+                                          f.state.value,
+                                        )
                                           ? [...f.state.value]
                                           : [];
                                         next.push("");
