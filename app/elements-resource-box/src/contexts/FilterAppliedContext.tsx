@@ -20,6 +20,7 @@ import { useQueryStates } from "nuqs";
 import { useQuery } from "@tanstack/react-query";
 import { listAllEditions } from "../api/editionApi";
 import { injectEuclidesEditionConstraints } from "../utils/editionSearchQuery";
+import { inEuclidesMode } from "../utils/mode";
 
 export type { FilterState } from "../utils/filterQueryState";
 
@@ -104,12 +105,16 @@ export const FilterAppliedProvider = ({
   const getDefaultState = useCallback((): FilterState => {
     return {
       filters: {
-        materialType: [
-          {
-            label: "Print",
-            value: "Print",
-          },
-        ],
+        ...(inEuclidesMode()
+          ? {}
+          : {
+              materialType: [
+                {
+                  label: "Print",
+                  value: "Print",
+                },
+              ],
+            }),
         type: [
           {
             label: "Elements",
@@ -151,6 +156,7 @@ export const FilterAppliedProvider = ({
   const appliedFilters = stableAppliedFiltersRef.current.value;
   const minYear = useMemo(
     () =>
+      !inEuclidesMode() &&
       includesManuscripts(appliedFilters.filters, appliedFilters.filtersInclude)
         ? MIN_YEAR_MS
         : MIN_YEAR,

@@ -738,6 +738,8 @@ function toOptionsFromArray(
 type OptionLists = {
   editors: string[];
   publishers: string[];
+  manuscriptClasses: string[];
+  manuscriptSubclassesByClass: Record<string, string[]>;
   manuscriptRepositories: string[];
   manuscriptSubclasses: string[];
   additionalContents: string[];
@@ -750,6 +752,13 @@ type OptionLists = {
 const buildOptionLists = (editions: model_Edition[]): OptionLists => {
   const editors = toOptionsFromArray(editions, "editor");
   const publishers = toOptionsFromArray(editions, "publisher");
+  const manuscriptClasses = uniq(
+    editions
+      .map((item) => item.manuscriptClass || "")
+      .map((item) => item.trim())
+      .filter(Boolean)
+      .sort(),
+  );
   const manuscriptRepositories = uniq(
     editions
       .map((item) => item.repository || "")
@@ -763,6 +772,21 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
       .map((item) => item.trim())
       .filter(Boolean)
       .sort(),
+  );
+  const manuscriptSubclassesByClass = Object.fromEntries(
+    manuscriptClasses.map((manuscriptClass) => [
+      manuscriptClass,
+      uniq(
+        editions
+          .filter(
+            (item) => (item.manuscriptClass || "").trim() === manuscriptClass,
+          )
+          .map((item) => item.manuscriptSubclass || "")
+          .map((item) => item.trim())
+          .filter(Boolean)
+          .sort(),
+      ),
+    ]),
   );
   const additionalContents = uniq(
     editions
@@ -817,6 +841,8 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
   return {
     editors,
     publishers,
+    manuscriptClasses,
+    manuscriptSubclassesByClass,
     manuscriptRepositories,
     manuscriptSubclasses,
     additionalContents,
@@ -939,6 +965,12 @@ export const UpsertEdition = () => {
   });
   const isManuscript = useStore(form.store, (s) => s.values.isManuscript);
   const isElements = useStore(form.store, (s) => s.values.isElements);
+  const manuscriptClass = useStore(form.store, (s) => s.values.manuscriptClass);
+  const manuscriptSubclassOptions = toSingleSelectOptions(
+    manuscriptClass
+      ? lists?.manuscriptSubclassesByClass[manuscriptClass] || []
+      : lists?.manuscriptSubclasses || [],
+  );
 
   const fetchAndMergeUstcData = async (ustcId: string) => {
     if (!ustcId || isNaN(Number(ustcId)) || !token) {
@@ -1341,11 +1373,32 @@ export const UpsertEdition = () => {
                     >
                       {(field) => (
                         <>
-                          <Input
-                            type="text"
-                            value={field.state.value}
-                            onChange={(e) => field.handleChange(e.target.value)}
+                          <SingleSelect
+                            name="manuscript class"
+                            options={toSingleSelectOptions(
+                              lists?.manuscriptClasses || [],
+                            )}
+                            value={field.state.value || null}
                             onBlur={field.handleBlur}
+                            onChange={(value) => {
+                              const nextClass = (value as string) || "";
+                              field.handleChange(nextClass);
+                              const nextSubclassOptions = nextClass
+                                ? lists?.manuscriptSubclassesByClass[
+                                    nextClass
+                                  ] || []
+                                : lists?.manuscriptSubclasses || [];
+                              const currentSubclass =
+                                form.state.values.manuscriptSubclass;
+                              if (
+                                currentSubclass &&
+                                !nextSubclassOptions.includes(currentSubclass)
+                              ) {
+                                form.setFieldValue("manuscriptSubclass", null);
+                              }
+                            }}
+                            isCreatable={true}
+                            placeholder="Choose or add manuscript class..."
                           />
                           {!field.state.meta.isValid && (
                             <em>{field.state.meta.errors.join(",")}</em>
@@ -1361,9 +1414,7 @@ export const UpsertEdition = () => {
                       {(field) => (
                         <SingleSelect
                           name="manuscript subclass"
-                          options={toSingleSelectOptions(
-                            lists?.manuscriptSubclasses || [],
-                          )}
+                          options={manuscriptSubclassOptions}
                           value={field.state.value || null}
                           onBlur={field.handleBlur}
                           onChange={(value) =>

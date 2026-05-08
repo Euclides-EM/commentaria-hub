@@ -13,10 +13,12 @@ export const injectEuclidesEditionConstraints = (
     fields_filter: {
       ...query.fields_filter,
       isElements: ["true"],
+      isManuscript: ["false"],
     },
     filter_includes: {
       ...query.filter_includes,
       isElements: true,
+      isManuscript: true,
     },
   };
 };

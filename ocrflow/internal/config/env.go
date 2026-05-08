@@ -114,7 +114,7 @@ func (ec *EnvConfig) defaultAllowedOriginsCORS() []string {
 		"localhost",
 		"127.0.0.1",
 	}
-	localhostPorts := []string{"3000", "5173", "5174", "5180", "5181", "5190", "5191", "8080"}
+	localhostPorts := []string{"3000", "5173", "5174", "5180", "5181", "5190", "5191", "5195", "8080"}
 	var l []string
 	for _, domain := range domains {
 		l = append(l, "http://"+domain)
