@@ -128,20 +128,27 @@ export const MultiSelect = ({
           ...base,
           zIndex: 9999,
         }),
+        placeholder: (provided) => ({
+          ...provided,
+          fontSize: "14px",
+        }),
         option: (base, { data }) => ({
           ...base,
           color: "black",
           backgroundColor: colors?.[data.value] || base.backgroundColor,
+          fontSize: "14px",
         }),
         multiValue: (base, { data }) => ({
           ...base,
           backgroundColor: colors?.[data.value] || base.backgroundColor,
+          fontSize: "14px",
         }),
         multiValueLabel: (base) => ({
           ...base,
           color: "black",
           userSelect: "text",
           cursor: "text",
+          fontSize: "12px",
         }),
       }}
       menuPortalTarget={document.body}
