@@ -181,13 +181,11 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 		return fmt.Errorf("error upserting manuscript item: %w", err)
 	}
 	if ed.IsElements {
-		elementsBooks := formatcov.PtrToStr(ed.ManuscriptElementsBooks)
-		if elementsBooks == "" {
-			elementsBooks = formatcov.IntsToCompressedStr(ed.Books)
-		}
 		if err := csv.UpsertRow(s.csvPath(relMDManuscript), "key", ed.Key, map[string]string{
-			"key":            ed.Key,
-			"elements_books": elementsBooks,
+			"key":                 ed.Key,
+			"elements_books":      formatcov.IntsToCompressedStr(ed.Books),
+			"additional_content":  strings.Join(ed.AdditionalContent, ", "),
+			"elements_content":    formatcov.PtrToStr(ed.ManuscriptElementsContent),
 		}); err != nil {
 			return fmt.Errorf("error upserting manuscript metadata: %w", err)
 		}
@@ -561,7 +559,9 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		_, mdRows, _ := csv.LoadCSVRecords(s.csvPath(relMDManuscript))
 		if md := findRowByKey(mdRows, "key", key); md != nil {
 			ed.IsElements = true
-			ed.ManuscriptElementsBooks = formatcov.StrToPtr(md["elements_books"])
+			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
+			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
+			ed.ManuscriptElementsContent = formatcov.StrToPtr(md["elements_content"])
 		}
 		_, tlRows, _ := csv.LoadCSVRecords(s.csvPath(relTranslations))
 		for _, r := range tlRows {
@@ -856,7 +856,9 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		ed.Title = formatcov.StrToPtr(itemRow["long_title"])
 		if md := findRowByKey(p.mdManuscript, "key", key); md != nil {
 			ed.IsElements = true
-			ed.ManuscriptElementsBooks = formatcov.StrToPtr(md["elements_books"])
+			ed.Books = formatcov.CompressedStrToInts(md["elements_books"])
+			ed.AdditionalContent = splitNonEmpty(md["additional_content"])
+			ed.ManuscriptElementsContent = formatcov.StrToPtr(md["elements_content"])
 		}
 		for _, r := range p.translations {
 			if r["key"] != key {

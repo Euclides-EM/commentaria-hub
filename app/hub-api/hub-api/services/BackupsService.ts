@@ -31,7 +31,7 @@ export class BackupsService {
          * If true, the backup will be copied to Google Drive using rclone after creation
          */
         syncToDrive?: boolean,
-    } = {}): CancelablePromise<string> {
+    }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/backups',
@@ -85,28 +85,6 @@ export class BackupsService {
         });
     }
     /**
-     * Sync backup to Google Drive
-     * Copies an existing backup to Google Drive using rclone.
-     * @returns string OK
-     * @throws ApiError
-     */
-    public static putBackupsSync({
-        backupId,
-    }: {
-        /**
-         * ID of the backup to sync
-         */
-        backupId: string,
-    }): CancelablePromise<Record<string, string>> {
-        return __request(OpenAPI, {
-            method: 'PUT',
-            url: '/backups/{backupId}/sync',
-            path: {
-                'backupId': backupId,
-            },
-        });
-    }
-    /**
      * Restore latest backup
      * Restores the system state from the latest available backup.
      * @returns string OK
@@ -123,6 +101,28 @@ export class BackupsService {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/backups/{backupId}/restore',
+            path: {
+                'backupId': backupId,
+            },
+        });
+    }
+    /**
+     * Sync backup to Google Drive
+     * Copies an existing backup to Google Drive using rclone.
+     * @returns string OK
+     * @throws ApiError
+     */
+    public static putBackupsSync({
+        backupId,
+    }: {
+        /**
+         * ID of the backup to sync
+         */
+        backupId: string,
+    }): CancelablePromise<Record<string, string>> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/backups/{backupId}/sync',
             path: {
                 'backupId': backupId,
             },

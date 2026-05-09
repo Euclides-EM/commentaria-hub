@@ -54,7 +54,6 @@ export type Item = {
   type: string;
   format: number | null;
   elementsBooks: Range[];
-  elementsBooksRaw: string | null;
   elementsBooksExpanded: number[];
   additionalContent: string[];
   volumesCount: number | null;

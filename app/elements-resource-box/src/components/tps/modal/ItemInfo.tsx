@@ -220,7 +220,7 @@ export const ItemInfo = ({
           {item.volumesCount}
         </Row>
       )}
-      {(item.elementsBooks.length > 0 || item.elementsBooksRaw) && (
+      {item.elementsBooks.length > 0 && (
         <Row justifyStart>
           <InfoTitle>Books:</InfoTitle> {formatDisplayBooks(item)}
         </Row>

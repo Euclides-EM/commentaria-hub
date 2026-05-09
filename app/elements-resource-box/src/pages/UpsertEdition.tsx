@@ -86,7 +86,7 @@ type EditionFormData = {
   frontispiece_EN?: string | null;
   isElements: boolean;
   books?: number[];
-  manuscriptElementsBooks?: string | null;
+  manuscriptElementsContent?: string | null;
   additionalContent?: string[];
 };
 
@@ -193,9 +193,9 @@ function toModelEdition(data: EditionFormData): model_Edition {
     frontispiece_EN: nullToUndef(data.frontispiece_EN),
     isElements: data.isElements,
     books: data.books,
-    manuscriptElementsBooks: nullToUndef(data.manuscriptElementsBooks),
+    manuscriptElementsContent: nullToUndef(data.manuscriptElementsContent),
     additionalContent: data.additionalContent,
-  };
+  } as model_Edition;
 }
 
 function toEditionFormData(
@@ -203,6 +203,9 @@ function toEditionFormData(
   key: string,
 ): EditionFormData {
   const isManuscript = Boolean(edition.isManuscript);
+  const editionWithManuscriptElementsContent = edition as model_Edition & {
+    manuscriptElementsContent?: string | null;
+  };
 
   return {
     key,
@@ -281,7 +284,7 @@ function toEditionFormData(
       : {
           isManuscript: false,
           manuscriptYearIsApproximate: false,
-          manuscriptElementsBooks: null,
+          manuscriptElementsContent: null,
           year: edition.year || "",
           languages: edition.languages || [],
           editor: edition.editor || [],
@@ -306,10 +309,15 @@ function toEditionFormData(
                 Number.isFinite(value),
               )
             : [],
-          manuscriptElementsBooks: edition.manuscriptElementsBooks || null,
+          manuscriptElementsContent:
+            editionWithManuscriptElementsContent.manuscriptElementsContent ||
+            null,
           additionalContent: edition.additionalContent || [],
         }
-      : { isElements: false, manuscriptElementsBooks: null }),
+      : {
+          isElements: false,
+          manuscriptElementsContent: null,
+        }),
   };
 }
 
@@ -741,7 +749,7 @@ const defaultValues = (): EditionFormData => ({
   frontispiece_EN: null,
   isElements: false,
   books: [],
-  manuscriptElementsBooks: null,
+  manuscriptElementsContent: null,
   additionalContent: [],
   bibliography: [],
   reprintOf: null,
@@ -2012,36 +2020,39 @@ export const UpsertEdition = () => {
 
                   <FormField>
                     <Label>Books</Label>
-                    {isManuscript ? (
-                      <form.Field name="manuscriptElementsBooks">
+                    <form.Field name="books">
+                      {(field) => (
+                        <MultiSelect
+                          name="books"
+                          options={Array.from({ length: 18 }, (_, i) =>
+                            (i + 1).toString(),
+                          )}
+                          value={(field.state.value || []).map(String)}
+                          onChange={(values) =>
+                            field.handleChange(values.map(Number))
+                          }
+                          onBlur={field.handleBlur}
+                          placeholder="Select which books of Elements are included..."
+                        />
+                      )}
+                    </form.Field>
+                  </FormField>
+
+                  {isManuscript && (
+                    <FormField>
+                      <Label>Manuscript Elements Content</Label>
+                      <form.Field name="manuscriptElementsContent">
                         {(field) => (
                           <TextArea
                             value={field.state.value || ""}
                             onChange={(e) => field.handleChange(e.target.value)}
                             onBlur={field.handleBlur}
-                            placeholder="Book of Elements, i.e I-XV or II.5-6"
+                            placeholder="Optional manuscript-specific Elements content..."
                           />
                         )}
                       </form.Field>
-                    ) : (
-                      <form.Field name="books">
-                        {(field) => (
-                          <MultiSelect
-                            name="books"
-                            options={Array.from({ length: 18 }, (_, i) =>
-                              (i + 1).toString(),
-                            )}
-                            value={(field.state.value || []).map(String)}
-                            onChange={(values) =>
-                              field.handleChange(values.map(Number))
-                            }
-                            onBlur={field.handleBlur}
-                            placeholder="Select which books of Elements are included..."
-                          />
-                        )}
-                      </form.Field>
-                    )}
-                  </FormField>
+                    </FormField>
+                  )}
 
                   <FormField>
                     <Label>Additional Content</Label>

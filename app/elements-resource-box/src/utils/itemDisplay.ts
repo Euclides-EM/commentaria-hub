@@ -19,15 +19,11 @@ export const formatDisplayYear = (item: Item) => {
 export const formatDisplayEditors = (item: Item) =>
   joinArr(item.editors) || NO_EDITOR;
 
-export const formatDisplayBooks = (item: Item) => {
-  if (isManuscriptItem(item)) {
-    return item.elementsBooksRaw || "";
-  }
-  return item.elementsBooks
+export const formatDisplayBooks = (item: Item) =>
+  item.elementsBooks
     .map((range) =>
       range.start === range.end
         ? `${range.start}`
         : `${range.start}-${range.end}`,
     )
     .join(", ");
-};

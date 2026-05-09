@@ -601,7 +601,7 @@ export class AnnotationsService {
         /**
          * Optional image coordinate variant: original, preview, or thumb.
          */
-        imageVariant?: 'original' | 'preview' | 'thumb',
+        imageVariant?: string,
     }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'GET',
@@ -655,7 +655,7 @@ export class AnnotationsService {
         /**
          * Optional image coordinate variant: original, preview, or thumb.
          */
-        imageVariant?: 'original' | 'preview' | 'thumb',
+        imageVariant?: string,
     }): CancelablePromise<string> {
         return __request(OpenAPI, {
             method: 'GET',

@@ -190,8 +190,8 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 	if ed.ManuscriptSubclass != nil {
 		addNote("manuscriptSubclass", *ed.ManuscriptSubclass)
 	}
-	if ed.ManuscriptElementsBooks != nil {
-		addNote("manuscriptElementsBooks", *ed.ManuscriptElementsBooks)
+	if ed.ManuscriptElementsContent != nil {
+		addNote("manuscriptElementsContent", *ed.ManuscriptElementsContent)
 	}
 	for _, sh := range ed.Shelfmarks {
 		addNote("repository", sh.Repository)

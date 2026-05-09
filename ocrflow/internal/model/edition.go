@@ -22,7 +22,7 @@ type Edition struct {
 	ManuscriptYearIsApproximate bool    `json:"manuscriptYearIsApproximate"`
 	ManuscriptClass             string  `json:"manuscriptClass"`
 	ManuscriptSubclass          *string `json:"manuscriptSubclass"`
-	ManuscriptElementsBooks     *string `json:"manuscriptElementsBooks"`
+	ManuscriptElementsContent   *string `json:"manuscriptElementsContent"`
 
 	// Print-only
 	Cities          []string               `json:"cities"`

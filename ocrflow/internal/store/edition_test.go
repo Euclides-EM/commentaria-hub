@@ -7,7 +7,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/csv"
 )
 
-func TestLoadEditionByKeyKeepsManuscriptElementsBooksSeparateFromBooks(t *testing.T) {
+func TestLoadEditionByKeyLoadsManuscriptElementsMetadataLikePrint(t *testing.T) {
 	dir := t.TempDir()
 
 	err := csv.SaveCSV(dir+"/"+relItemsManuscript, [][]string{
@@ -19,8 +19,8 @@ func TestLoadEditionByKeyKeepsManuscriptElementsBooksSeparateFromBooks(t *testin
 	}
 
 	err = csv.SaveCSV(dir+"/"+relMDManuscript, [][]string{
-		{"key", "elements_books"},
-		{"ms_1", "1-3, 5"},
+		{"key", "elements_books", "additional_content", "elements_content"},
+		{"ms_1", "1-3, 5", "scholia, diagrams", "I-XV with scholia"},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript metadata csv: %v", err)
@@ -35,51 +35,71 @@ func TestLoadEditionByKeyKeepsManuscriptElementsBooksSeparateFromBooks(t *testin
 		t.Fatal("expected edition")
 	}
 
-	if ed.Books != nil {
-		t.Fatalf("expected books to stay nil for manuscripts, got %v", ed.Books)
+	if len(ed.Books) != 4 || ed.Books[0] != 1 || ed.Books[1] != 2 || ed.Books[2] != 3 || ed.Books[3] != 5 {
+		t.Fatalf("expected manuscript books to be parsed from metadata, got %v", ed.Books)
 	}
 
-	if ed.ManuscriptElementsBooks == nil || *ed.ManuscriptElementsBooks != "1-3, 5" {
-		t.Fatalf("expected manuscriptElementsBooks to be loaded from metadata, got %v", ed.ManuscriptElementsBooks)
+	if len(ed.AdditionalContent) != 2 || ed.AdditionalContent[0] != "scholia" || ed.AdditionalContent[1] != "diagrams" {
+		t.Fatalf("expected manuscript additional content to be parsed from metadata, got %v", ed.AdditionalContent)
+	}
+
+	if ed.ManuscriptElementsContent == nil || *ed.ManuscriptElementsContent != "I-XV with scholia" {
+		t.Fatalf("expected manuscript elements content to be loaded from metadata, got %v", ed.ManuscriptElementsContent)
 	}
 }
 
-func TestLoadEditionByKeyKeepsFreeTextManuscriptElementsBooks(t *testing.T) {
+func TestUpsertManuscriptPersistsElementsMetadataLikePrint(t *testing.T) {
 	dir := t.TempDir()
 
 	err := csv.SaveCSV(dir+"/"+relItemsManuscript, [][]string{
 		{"key", "class", "subclass", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
-		{"ms_60", "Latin Boethius manuscripts", "Mc", "", "", "", "", "", "", "1500", "1600", "True", "", ""},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript items csv: %v", err)
 	}
 
 	err = csv.SaveCSV(dir+"/"+relMDManuscript, [][]string{
-		{"key", "elements_books"},
-		{"ms_60", "copy of Naples V A 13"},
+		{"key", "elements_books", "additional_content", "elements_content"},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript metadata csv: %v", err)
 	}
 
 	store := NewEditionCSV(dir, nil)
-	ed, err := store.loadEditionByKey("ms_60")
+	err = store.upsertManuscript(&model.Edition{
+		Key:                   "ms_60",
+		IsManuscript:          true,
+		IsElements:            true,
+		Books:                 []int{1, 2, 3, 5},
+		AdditionalContent:     []string{"copy of Naples V A 13", "fragment"},
+		ManuscriptElementsContent: strPtr("I-XV; abbreviated version"),
+		ManuscriptClass:       "Latin Boethius manuscripts",
+		ManuscriptSubclass:    strPtr("Mc"),
+		ShortTitle:            "Test manuscript",
+		ManuscriptYearFrom:    intPtr(1500),
+		ManuscriptYearTo:      intPtr(1600),
+		Title:                 strPtr("Long title"),
+		ShortTitleSource:      "source",
+	})
 	if err != nil {
-		t.Fatalf("load edition: %v", err)
-	}
-	if ed == nil {
-		t.Fatal("expected edition")
+		t.Fatalf("upsert manuscript: %v", err)
 	}
 
-	if ed.ManuscriptElementsBooks == nil || *ed.ManuscriptElementsBooks != "copy of Naples V A 13" {
-		t.Fatalf("expected manuscriptElementsBooks to keep free text, got %v", ed.ManuscriptElementsBooks)
+	_, rows, err := csv.LoadCSVRecords(dir + "/" + relMDManuscript)
+	if err != nil {
+		t.Fatalf("load manuscript metadata csv: %v", err)
 	}
-
-	if ed.Books != nil {
-		t.Fatalf("expected books to stay nil for free-text manuscript elements_books, got %v", ed.Books)
+	if len(rows) != 1 {
+		t.Fatalf("expected 1 manuscript metadata row, got %d", len(rows))
+	}
+	if rows[0]["elements_books"] != "1-3, 5" || rows[0]["additional_content"] != "copy of Naples V A 13, fragment" || rows[0]["elements_content"] != "I-XV; abbreviated version" {
+		t.Fatalf("unexpected manuscript metadata row: %#v", rows[0])
 	}
 }
+
+func strPtr(s string) *string { return &s }
+
+func intPtr(i int) *int { return &i }
 
 func TestLoadEditionByKeyLoadsManuscriptTitleTranslation(t *testing.T) {
 	dir := t.TempDir()
