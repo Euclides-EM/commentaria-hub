@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { useAppState } from '../../context/useAppState'
-import type { annotationrule_PipelineStage } from '@hub-api'
 import { AnnotationsApplyRulesService } from '@hub-api'
 import { RuleEditModal } from './RuleEditModal.tsx'
 import { useDatasetSuggestedRules } from '../../queries/datasets.ts'
 import {
   type AnnotationRule,
+  isAnnotationRule,
   isRuleApplied,
   type RuleRequestPayload,
 } from '../../utils/rules.ts'
@@ -32,7 +32,7 @@ export function SuggestedRulesPane() {
     isLoading,
     error,
   } = useDatasetSuggestedRules(dataset?.id || '')
-  const suggestedRules = (rules || []).flat(2) as AnnotationRule[]
+  const suggestedRules = (rules || []).flat(2).filter(isAnnotationRule)
 
   const handleRunRule = async (
     rule: RuleRequestPayload,
@@ -56,7 +56,7 @@ export function SuggestedRulesPane() {
             ...(name && { name }),
             ...(description && { description }),
           }),
-          rules: [rulePayload as AnnotationRule],
+          rules: [rulePayload],
         },
       })
 
@@ -141,12 +141,8 @@ export function SuggestedRulesPane() {
                   : false
 
                 let canRunRuleBasedOnStage = true
-                if (
-                  annotation?.pipeline_stage &&
-                  (rule as AnnotationRule).applicable_stages
-                ) {
-                  const ruleApplicableStages = (rule as AnnotationRule)
-                    .applicable_stages as annotationrule_PipelineStage[]
+                const ruleApplicableStages = rule.applicable_stages
+                if (annotation?.pipeline_stage && ruleApplicableStages) {
                   const currentAnnotationStage = annotation.pipeline_stage
 
                   canRunRuleBasedOnStage = ruleApplicableStages.includes(
@@ -171,9 +167,7 @@ export function SuggestedRulesPane() {
                     disabled={
                       isFutureRuleApplied || applied || !canRunRuleBasedOnStage
                     }
-                    applicableStages={
-                      (rule as AnnotationRule).applicable_stages
-                    }
+                    applicableStages={ruleApplicableStages}
                   />
                 )
               })}
@@ -186,7 +180,7 @@ export function SuggestedRulesPane() {
         isOpen={!!editingRule}
         onClose={() => setEditingRule(null)}
         onSubmit={handleEditRuleSubmit}
-        initialPayload={editingRule as AnnotationRule}
+        initialPayload={editingRule ?? undefined}
         ruleMetadata={undefined}
       />
 
