@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import {
   type AnnotationRule,
+  type RuleOption,
   type RuleRequestPayload,
 } from '../../utils/rules.ts'
 import {
@@ -32,6 +33,18 @@ export function RuleEditModal({
   initialPayload,
   ruleMetadata,
 }: RuleEditModalProps) {
+  const stripRuleMetaFields = (rule: object) => {
+    const editablePayload = {
+      ...(rule as {
+        type?: annotationrule_Type
+        applicable_stages?: unknown
+      } & Record<string, unknown>),
+    }
+    delete editablePayload.type
+    delete editablePayload.applicable_stages
+    return editablePayload
+  }
+
   const [payload, setPayload] = useState('')
   const [action, setAction] = useState<'overwrite' | 'create_new'>('overwrite')
   const [error, setError] = useState<string | null>(null)
@@ -48,8 +61,7 @@ export function RuleEditModal({
       setError(null)
       setCopyFeatureResults(true)
       if (initialPayload) {
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        const { type, applicable_stages, ...editablePayload } = initialPayload
+        const editablePayload = stripRuleMetaFields(initialPayload)
         setPayload(JSON.stringify(editablePayload, null, 2))
         setSelectedRuleType(initialPayload.type)
       } else if (ruleMetadata && ruleMetadata.length > 0) {
@@ -76,8 +88,7 @@ export function RuleEditModal({
         (meta) => meta.type === selectedRuleType,
       )
       if (metadata?.default) {
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        const { type, applicable_stages, ...nextPayload } = metadata.default
+        const nextPayload = stripRuleMetaFields(metadata.default)
         setPayload(JSON.stringify(nextPayload, null, 2))
       } else {
         setPayload('{}')
@@ -115,15 +126,20 @@ export function RuleEditModal({
     }
   }
 
-  const ruleOptions =
-    ruleMetadata?.map((meta) => ({
-      value: meta.type,
-      label:
-        meta.type
-          ?.split('_')
-          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-          .join(' ') || String(meta.type),
-    })) || []
+  const ruleOptions: RuleOption[] =
+    ruleMetadata?.flatMap((meta) =>
+      meta.type
+        ? [
+            {
+              value: meta.type,
+              label: meta.type
+                .split('_')
+                .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+                .join(' '),
+            },
+          ]
+        : [],
+    ) || []
 
   if (!isOpen) {
     return null
@@ -145,18 +161,17 @@ export function RuleEditModal({
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Rule type:
               </label>
-              <Select
+              <Select<RuleOption, false>
                 options={ruleOptions}
-                value={ruleOptions.find(
-                  (option) => option.value === selectedRuleType,
-                )}
+                value={
+                  ruleOptions.find(
+                    (option) => option.value === selectedRuleType,
+                  ) ?? null
+                }
                 onChange={(option) => setSelectedRuleType(option?.value)}
                 isDisabled={loading}
                 className="text-sm"
-                styles={selectStyles<{
-                  value: annotationrule_Type | undefined
-                  label: string
-                }>({ controlWidth: 256 })}
+                styles={selectStyles<RuleOption>({ controlWidth: 256 })}
                 menuPortalTarget={document.body}
                 menuPosition="fixed"
               />

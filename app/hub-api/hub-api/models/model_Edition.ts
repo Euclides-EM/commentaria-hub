@@ -50,6 +50,7 @@ export type model_Edition = {
     ustcId?: string;
     verified?: boolean;
     visualElements?: Array<model_EditionVisualElement>;
+    readonly visualElementsTypes?: Array<string>;
     volumes?: number;
     wardhaughClassification?: string;
     year?: string;

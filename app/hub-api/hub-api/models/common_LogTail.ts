@@ -7,3 +7,4 @@ export type common_LogTail = {
     lines?: Array<string>;
     service?: string;
 };
+

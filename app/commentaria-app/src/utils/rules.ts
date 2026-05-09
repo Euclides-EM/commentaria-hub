@@ -2,6 +2,7 @@ import type {
   annotationrule_AddMargin,
   annotationrule_LinesDetect,
   annotationrule_LimitCategoryZones,
+  annotationrule_PipelineStage,
   annotationrule_RecategorizeByAlignment,
   annotationrule_ReassignTextLinesByTolerance,
   annotationrule_RenameCategories,
@@ -13,27 +14,48 @@ import type {
   annotationrule_Stretch,
   annotationrule_TextBlockCorrections,
   annotation_Annotation,
+  annotationrule_Type,
 } from '@hub-api'
 
-export type AnnotationRule = { type: string } & (
-  | annotationrule_ModelDetect
-  | annotationrule_SlicePages
-  | annotationrule_Stretch
-  | annotationrule_AddMargin
-  | annotationrule_LinesDetect
-  | annotationrule_RemoveCategories
-  | annotationrule_RenameCategories
-  | annotationrule_RemoveOverlap
-  | annotationrule_ResolveOverlapWithPriority
-  | annotationrule_RecategorizeByAlignment
-  | annotationrule_LimitCategoryZones
-  | annotationrule_ReassignTextLinesByTolerance
-  | annotationrule_TextBlockCorrections
-)
+type BaseAnnotationRule = {
+  type: annotationrule_Type
+  applicable_stages?: annotationrule_PipelineStage[]
+}
+
+export type AnnotationRule = BaseAnnotationRule &
+  (
+    | annotationrule_ModelDetect
+    | annotationrule_SlicePages
+    | annotationrule_Stretch
+    | annotationrule_AddMargin
+    | annotationrule_LinesDetect
+    | annotationrule_RemoveCategories
+    | annotationrule_RenameCategories
+    | annotationrule_RemoveOverlap
+    | annotationrule_ResolveOverlapWithPriority
+    | annotationrule_RecategorizeByAlignment
+    | annotationrule_LimitCategoryZones
+    | annotationrule_ReassignTextLinesByTolerance
+    | annotationrule_TextBlockCorrections
+  )
 
 export type RuleRequestPayload = AnnotationRule & {
   name?: string
   description?: string
+}
+
+export type RuleOption = {
+  value: annotationrule_Type
+  label: string
+}
+
+export const isAnnotationRule = (value: unknown): value is AnnotationRule => {
+  return (
+    typeof value === 'object' &&
+    value !== null &&
+    'type' in value &&
+    typeof value.type === 'string'
+  )
 }
 
 export const getRuleDisplayName = (rule: AnnotationRule): string => {

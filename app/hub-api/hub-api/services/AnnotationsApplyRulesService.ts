@@ -8,11 +8,11 @@ import type { annotationrule_ApplyRules } from '../models/annotationrule_ApplyRu
 import type { annotationrule_LimitCategoryZones } from '../models/annotationrule_LimitCategoryZones';
 import type { annotationrule_LinesDetect } from '../models/annotationrule_LinesDetect';
 import type { annotationrule_ModelDetect } from '../models/annotationrule_ModelDetect';
-import type { annotationrule_RenameCategories } from '../models/annotationrule_RenameCategories';
 import type { annotationrule_ReassignTextLinesByTolerance } from '../models/annotationrule_ReassignTextLinesByTolerance';
 import type { annotationrule_RecategorizeByAlignment } from '../models/annotationrule_RecategorizeByAlignment';
 import type { annotationrule_RemoveCategories } from '../models/annotationrule_RemoveCategories';
 import type { annotationrule_RemoveOverlap } from '../models/annotationrule_RemoveOverlap';
+import type { annotationrule_RenameCategories } from '../models/annotationrule_RenameCategories';
 import type { annotationrule_ResolveOverlapWithPriority } from '../models/annotationrule_ResolveOverlapWithPriority';
 import type { annotationrule_SlicePages } from '../models/annotationrule_SlicePages';
 import type { annotationrule_Stretch } from '../models/annotationrule_Stretch';
@@ -129,48 +129,6 @@ export class AnnotationsApplyRulesService {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/detect_lines',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-            query: {
-                'action': action,
-            },
-            body: annotationRule,
-        });
-    }
-    /**
-     * Rename Categories in Annotation
-     * Rename categories in an annotation.
-     * @returns annotation_Annotation OK
-     * @throws ApiError
-     */
-    public static putDatasetsAnnotationsApplyRenameCategories({
-        dataSetId,
-        id,
-        annotationRule,
-        action = 'overwrite',
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Annotation ID
-         */
-        id: string,
-        /**
-         * Rename categories rule
-         */
-        annotationRule: annotationrule_RenameCategories,
-        /**
-         * Action to take when applying the rule
-         */
-        action?: 'overwrite' | 'create_new',
-    }): CancelablePromise<annotation_Annotation> {
-        return __request(OpenAPI, {
-            method: 'PUT',
-            url: '/datasets/{dataSetId}/annotations/{id}/apply/rename_categories',
             path: {
                 'dataSetId': dataSetId,
                 'id': id,
@@ -423,6 +381,48 @@ export class AnnotationsApplyRulesService {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply/remove_overlap',
+            path: {
+                'dataSetId': dataSetId,
+                'id': id,
+            },
+            query: {
+                'action': action,
+            },
+            body: annotationRule,
+        });
+    }
+    /**
+     * Rename Categories in Annotation
+     * Rename categories in an annotation.
+     * @returns annotation_Annotation OK
+     * @throws ApiError
+     */
+    public static putDatasetsAnnotationsApplyRenameCategories({
+        dataSetId,
+        id,
+        annotationRule,
+        action = 'overwrite',
+    }: {
+        /**
+         * Dataset ID
+         */
+        dataSetId: string,
+        /**
+         * Annotation ID
+         */
+        id: string,
+        /**
+         * Rename categories rule
+         */
+        annotationRule: annotationrule_RenameCategories,
+        /**
+         * Action to take when applying the rule
+         */
+        action?: 'overwrite' | 'create_new',
+    }): CancelablePromise<annotation_Annotation> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/datasets/{dataSetId}/annotations/{id}/apply/rename_categories',
             path: {
                 'dataSetId': dataSetId,
                 'id': id,
