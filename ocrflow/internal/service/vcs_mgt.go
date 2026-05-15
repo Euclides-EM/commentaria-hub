@@ -3,12 +3,12 @@ package service
 import (
 	"fmt"
 	"log"
+	"os"
 	"path/filepath"
 	"strings"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 )
 
@@ -19,8 +19,8 @@ type VCSMgt struct {
 }
 
 // NewVCSMgt creates a repo service. itemsMetadataStoreDir may be empty to disable.
-func NewVCSMgt(itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
-	repoPath := futils.SharedParent(itemsMetadataStoreDir, titlePageImgDir)
+func NewVCSMgt(rootDir, itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
+	repoPath := findGitRoot(rootDir)
 	relIMSD, err := filepath.Rel(repoPath, itemsMetadataStoreDir)
 	if err != nil {
 		log.Fatalf("filepath.Rel(%q, %q): %v", repoPath, itemsMetadataStoreDir, err)
@@ -33,6 +33,20 @@ func NewVCSMgt(itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
 		repoPath:              repoPath,
 		itemsMetadataStoreDir: relIMSD,
 		titlePageImgDir:       relTPID,
+	}
+}
+
+func findGitRoot(start string) string {
+	dir := filepath.Clean(start)
+	for {
+		if _, err := os.Stat(filepath.Join(dir, ".git")); err == nil {
+			return dir
+		}
+		parent := filepath.Dir(dir)
+		if parent == dir {
+			return filepath.Clean(start)
+		}
+		dir = parent
 	}
 }
 

@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/api"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
@@ -87,7 +88,11 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
-	vcsMgtSvc := service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID(titlepage.DatasetID))
+	vcsMgtSvc := service.NewVCSMgt(
+		env.RootDir,
+		filepath.Join(env.RootDir, "store", "items_metadata"),
+		filepath.Join(env.RootDir, "store", "data", titlepage.DatasetID, "imgs"),
+	)
 	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
 	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
 	geoSvc := service.NewGeoService(geoStore)

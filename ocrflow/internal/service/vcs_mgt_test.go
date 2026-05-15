@@ -1,6 +1,7 @@
 package service
 
 import (
+	"os"
 	"path/filepath"
 	"testing"
 )
@@ -10,7 +11,7 @@ func TestNewVCSMgtKeepsRepoPathAndRelativeWatchedPaths(t *testing.T) {
 	itemsMetadataDir := filepath.Join(root, "items_metadata")
 	titlePageImgDir := filepath.Join(root, "data", "titlepages", "imgs")
 
-	vcs := NewVCSMgt(itemsMetadataDir, titlePageImgDir)
+	vcs := NewVCSMgt(root, itemsMetadataDir, titlePageImgDir)
 
 	if vcs.repoPath != root {
 		t.Fatalf("repoPath = %q, want %q", vcs.repoPath, root)
@@ -19,6 +20,30 @@ func TestNewVCSMgtKeepsRepoPathAndRelativeWatchedPaths(t *testing.T) {
 		t.Fatalf("itemsMetadataStoreDir = %q, want %q", vcs.itemsMetadataStoreDir, "items_metadata")
 	}
 	wantTitlePageImgDir := filepath.Join("data", "titlepages", "imgs")
+	if vcs.titlePageImgDir != wantTitlePageImgDir {
+		t.Fatalf("titlePageImgDir = %q, want %q", vcs.titlePageImgDir, wantTitlePageImgDir)
+	}
+}
+
+func TestNewVCSMgtResolvesGitRootAboveSharedStoreDir(t *testing.T) {
+	root := t.TempDir()
+	if err := os.Mkdir(filepath.Join(root, ".git"), 0o755); err != nil {
+		t.Fatal(err)
+	}
+	appRoot := filepath.Join(root, "ocrflow")
+	itemsMetadataDir := filepath.Join(appRoot, "store", "items_metadata")
+	titlePageImgDir := filepath.Join(appRoot, "store", "data", "titlepages", "imgs")
+
+	vcs := NewVCSMgt(appRoot, itemsMetadataDir, titlePageImgDir)
+
+	if vcs.repoPath != root {
+		t.Fatalf("repoPath = %q, want %q", vcs.repoPath, root)
+	}
+	wantItemsMetadataDir := filepath.Join("ocrflow", "store", "items_metadata")
+	if vcs.itemsMetadataStoreDir != wantItemsMetadataDir {
+		t.Fatalf("itemsMetadataStoreDir = %q, want %q", vcs.itemsMetadataStoreDir, wantItemsMetadataDir)
+	}
+	wantTitlePageImgDir := filepath.Join("ocrflow", "store", "data", "titlepages", "imgs")
 	if vcs.titlePageImgDir != wantTitlePageImgDir {
 		t.Fatalf("titlePageImgDir = %q, want %q", vcs.titlePageImgDir, wantTitlePageImgDir)
 	}
