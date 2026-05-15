@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"net/url"
 	"os/exec"
 	"strings"
 	"time"
@@ -37,20 +38,33 @@ func GetRepoOwnerRepo(repoDir string) (owner, repo string, err error) {
 	if err != nil {
 		return "", "", err
 	}
-	idx := strings.Index(stdout, "github.com")
-	if idx < 0 {
-		return "", "", fmt.Errorf("remote.origin.url does not contain github.com: %s", stdout)
+	return parseGitRemoteOwnerRepo(stdout)
+}
+
+func parseGitRemoteOwnerRepo(remoteURL string) (owner, repo string, err error) {
+	remoteURL = strings.TrimSpace(remoteURL)
+	if remoteURL == "" {
+		return "", "", fmt.Errorf("remote.origin.url is empty")
 	}
-	// Match github.com:owner/repo or github.com/owner/repo
-	rest := stdout[idx+10:]
-	rest = strings.TrimPrefix(rest, "/")
-	rest = strings.TrimPrefix(rest, ":")
-	parts := strings.SplitN(rest, "/", 2)
-	if len(parts) == 2 {
-		repo = strings.TrimSuffix(parts[1], ".git")
-		return parts[0], repo, nil
+
+	var path string
+	if strings.Contains(remoteURL, "://") {
+		u, err := url.Parse(remoteURL)
+		if err != nil {
+			return "", "", fmt.Errorf("failed to parse remote.origin.url: %w", err)
+		}
+		path = u.Path
+	} else if idx := strings.Index(remoteURL, ":"); idx >= 0 {
+		path = remoteURL[idx+1:]
+	} else {
+		path = remoteURL
 	}
-	return "", "", fmt.Errorf("remote.origin.url does not match expected format: %s", stdout)
+
+	parts := strings.Split(strings.Trim(path, "/"), "/")
+	if len(parts) < 2 || parts[0] == "" || parts[1] == "" {
+		return "", "", fmt.Errorf("remote.origin.url does not match expected GitHub owner/repo format: %s", remoteURL)
+	}
+	return parts[0], strings.TrimSuffix(parts[1], ".git"), nil
 }
 
 // GetExistingPR returns open PR for branch if any.

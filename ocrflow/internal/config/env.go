@@ -40,7 +40,7 @@ type EnvConfig struct {
 	OptMigrations              []string `env:"OPT_MIGRATIONS" envDefault:""`
 
 	RcloneRemoteName     string `env:"RCLONE_REMOTE_NAME" envDefault:"G"`
-	BackupGDriveFolderID string `env:"BACKUP_GDRIVE_FOLDER_ID" envDefault:"1ajLNSEY8WN-Dcf3D_WxHZCm88mNeua4m"`
+	BackupGDriveFolderID string `env:"BACKUP_GDRIVE_FOLDER_ID" envDefault:""`
 }
 
 func InitEnv() (*EnvConfig, error) {
