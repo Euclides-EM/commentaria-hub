@@ -111,6 +111,9 @@ func CreateBranch(repoDir, name string) error {
 
 // PushBranch pushes the current branch to origin (with -u on first push).
 func PushBranch(repoDir, branch string, setUpstream bool) error {
+	if branch == "main" {
+		return fmt.Errorf("refusing to push directly to main")
+	}
 	args := []string{"push"}
 	if setUpstream {
 		args = append(args, "-u", "origin", branch)

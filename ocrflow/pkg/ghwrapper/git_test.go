@@ -54,3 +54,10 @@ func TestParseGitRemoteOwnerRepoInvalid(t *testing.T) {
 		t.Fatal("parseGitRemoteOwnerRepo() error = nil; want error")
 	}
 }
+
+func TestPushBranchRejectsMain(t *testing.T) {
+	err := PushBranch(t.TempDir(), "main", false)
+	if err == nil {
+		t.Fatal("PushBranch() error = nil; want error")
+	}
+}

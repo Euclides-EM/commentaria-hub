@@ -30,6 +30,7 @@ func NewVCSMgt(itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
 		log.Fatalf("filepath.Rel(%q, %q): %v", repoPath, titlePageImgDir, err)
 	}
 	return &VCSMgt{
+		repoPath:              repoPath,
 		itemsMetadataStoreDir: relIMSD,
 		titlePageImgDir:       relTPID,
 	}
@@ -95,6 +96,7 @@ func (r *VCSMgt) Push(token string) (*model.VCSStatus, error) {
 	if strings.TrimSpace(statusOut) == "" {
 		return status, nil
 	}
+	createdBranch := false
 	if status.BranchName == "main" {
 		// editor-YYYYMMDD-HHMM format (from TS: slice(0,16).replace(/[-:]/g,"").replace("T","-"))
 		ts := time.Now().UTC().Format("2006-01-02T15:04")
@@ -103,14 +105,12 @@ func (r *VCSMgt) Push(token string) (*model.VCSStatus, error) {
 		if err := ghwrapper.CreateBranch(r.repoPath, status.BranchName); err != nil {
 			return nil, fmt.Errorf("create branch: %w", err)
 		}
-		if err := ghwrapper.PushBranch(r.repoPath, status.BranchName, true); err != nil {
-			return nil, fmt.Errorf("push branch: %w", err)
-		}
+		createdBranch = true
 	}
 	if err := ghwrapper.AddAndCommit(r.repoPath, []string{r.titlePageImgDir, r.itemsMetadataStoreDir}, "Update documentation files"); err != nil {
 		return nil, fmt.Errorf("commit: %w", err)
 	}
-	if err := ghwrapper.PushBranch(r.repoPath, status.BranchName, false); err != nil {
+	if err := ghwrapper.PushBranch(r.repoPath, status.BranchName, createdBranch); err != nil {
 		return nil, fmt.Errorf("push: %w", err)
 	}
 	prNum, prURL, _ := ghwrapper.GetExistingPR(owner, repo, status.BranchName, token)
