@@ -48,3 +48,25 @@ func TestNewVCSMgtResolvesGitRootAboveSharedStoreDir(t *testing.T) {
 		t.Fatalf("titlePageImgDir = %q, want %q", vcs.titlePageImgDir, wantTitlePageImgDir)
 	}
 }
+
+func TestVCSMgtWatchedPathspecsExcludeTitlePageVariants(t *testing.T) {
+	vcs := &VCSMgt{
+		itemsMetadataStoreDir: filepath.Join("ocrflow", "store", "items_metadata"),
+		titlePageImgDir:       filepath.Join("ocrflow", "store", "data", "tps", "imgs"),
+	}
+
+	got := vcs.watchedPathspecs()
+	want := []string{
+		"ocrflow/store/data/tps/imgs",
+		"ocrflow/store/items_metadata",
+		":(exclude)ocrflow/store/data/tps/imgs/_variants",
+	}
+	if len(got) != len(want) {
+		t.Fatalf("watchedPathspecs() length = %d, want %d: %#v", len(got), len(want), got)
+	}
+	for i := range want {
+		if got[i] != want[i] {
+			t.Fatalf("watchedPathspecs()[%d] = %q, want %q", i, got[i], want[i])
+		}
+	}
+}

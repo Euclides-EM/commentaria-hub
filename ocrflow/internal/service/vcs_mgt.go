@@ -54,6 +54,14 @@ func (r *VCSMgt) GetCommitSHA(repoPath string) (string, error) {
 	return ghwrapper.GetLatestCommitSHA(repoPath)
 }
 
+func (r *VCSMgt) watchedPathspecs() []string {
+	return []string{
+		filepath.ToSlash(r.titlePageImgDir),
+		filepath.ToSlash(r.itemsMetadataStoreDir),
+		":(exclude)" + filepath.ToSlash(filepath.Join(r.titlePageImgDir, "_variants")),
+	}
+}
+
 // Pull runs git pull and returns the branch name (after possibly checking out main).
 func (r *VCSMgt) Pull(token string) (*model.VCSStatus, error) {
 	branch, err := ghwrapper.GetCurrentBranch(r.repoPath)
@@ -103,7 +111,8 @@ func (r *VCSMgt) Push(token string) (*model.VCSStatus, error) {
 	if err != nil {
 		return nil, err
 	}
-	statusOut, err := ghwrapper.StatusPorcelain(r.repoPath, r.itemsMetadataStoreDir, r.titlePageImgDir)
+	watchedPathspecs := r.watchedPathspecs()
+	statusOut, err := ghwrapper.StatusPorcelain(r.repoPath, watchedPathspecs...)
 	if err != nil {
 		return nil, fmt.Errorf("git status: %w", err)
 	}
@@ -121,7 +130,7 @@ func (r *VCSMgt) Push(token string) (*model.VCSStatus, error) {
 		}
 		createdBranch = true
 	}
-	if err := ghwrapper.AddAndCommit(r.repoPath, []string{r.titlePageImgDir, r.itemsMetadataStoreDir}, "Update documentation files"); err != nil {
+	if err := ghwrapper.AddAndCommit(r.repoPath, watchedPathspecs, "Update documentation files"); err != nil {
 		return nil, fmt.Errorf("commit: %w", err)
 	}
 	if err := ghwrapper.PushBranch(r.repoPath, status.BranchName, createdBranch); err != nil {

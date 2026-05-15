@@ -108,7 +108,7 @@ func GetExistingPR(owner, repo, branch, token string) (number int, htmlURL strin
 
 // StatusPorcelain returns output of git status --porcelain for the given paths.
 func StatusPorcelain(repoDir string, paths ...string) (string, error) {
-	args := append([]string{"status", "--porcelain"}, paths...)
+	args := append([]string{"status", "--porcelain", "--"}, paths...)
 	stdout, stderr, err := gitExec(repoDir, "git", args...)
 	return stdout, gitCommandError("git status --porcelain", stderr, err)
 }
@@ -139,7 +139,7 @@ func AddAndCommit(repoDir string, paths []string, message string) error {
 	if len(paths) == 0 {
 		return nil
 	}
-	args := append([]string{"add"}, paths...)
+	args := append([]string{"add", "--"}, paths...)
 	_, stderr, err := gitExec(repoDir, "git", args...)
 	if err != nil {
 		return gitCommandError("git add", stderr, err)
