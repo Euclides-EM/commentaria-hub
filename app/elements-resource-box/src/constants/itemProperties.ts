@@ -1,6 +1,5 @@
 import { FilterGroup, Range } from "../types";
 import { NO_CITY } from "./index.ts";
-import { inEuclidesMode } from "../utils/mode.ts";
 
 export type ItemProperty = {
   displayName: string;
@@ -35,13 +34,9 @@ export const itemProperties: {
     displayName: "Study Corpus",
     isArray: true,
   },
-  ...(inEuclidesMode()
-    ? {}
-    : {
-        type: {
-          displayName: "Book Classification",
-        },
-      }),
+  type: {
+    displayName: "Book Classification",
+  },
   languages: {
     displayName: "Languages",
     isArray: true,
@@ -110,15 +105,11 @@ export const itemProperties: {
     displayName: "Has Diagrams",
     filterGroup: "Diagrams",
   },
-  ...(inEuclidesMode()
-    ? {}
-    : {
-        visualElementsTypes: {
-          displayName: "Visual Elements Types",
-          isArray: true,
-          filterGroup: "Diagrams",
-        },
-      }),
+  visualElementsTypes: {
+    displayName: "Visual Elements Types",
+    isArray: true,
+    filterGroup: "Diagrams",
+  },
   volumesCount: {
     displayName: "Number of Volumes",
     filterGroup: "Material",

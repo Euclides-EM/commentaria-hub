@@ -19,7 +19,6 @@ import {
 import { useQueryStates } from "nuqs";
 import { useQuery } from "@tanstack/react-query";
 import { listAllEditions } from "../api/editionApi";
-import { injectEuclidesEditionConstraints } from "../utils/editionSearchQuery";
 
 export type { FilterState } from "../utils/filterQueryState";
 
@@ -72,7 +71,7 @@ export const FilterAppliedProvider = ({
 }) => {
   const editionsQuery = useQuery({
     queryKey: ["editions", "all", "filter-applied"],
-    queryFn: () => listAllEditions(injectEuclidesEditionConstraints()),
+    queryFn: () => listAllEditions(),
   });
   const data = useMemo<Item[]>(
     () => mapEditionsToItems(editionsQuery.data || []),
@@ -83,14 +82,7 @@ export const FilterAppliedProvider = ({
 
   const getDefaultState = useCallback((): FilterState => {
     return {
-      filters: {
-        type: [
-          {
-            label: "Elements",
-            value: "Elements",
-          },
-        ],
-      } as Record<string, FilterValue[] | undefined>,
+      filters: {} as Record<string, FilterValue[] | undefined>,
       filtersInclude: {},
       range: [minYear || 0, maxYear || 9999] as [number, number],
       includeUndated: true,
