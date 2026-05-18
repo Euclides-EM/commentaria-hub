@@ -155,9 +155,29 @@ sudo mkdir -p /data/euclides/commentaria-hub/facsimiles/diagrams
 sudo chown -R euclides:euclides /data/euclides/commentaria-hub
 ```
 
-Do not use Git LFS for facsimiles anymore. New source PDFs should arrive through the Google Drive inbox below, and diagram crops should be copied directly under `/data/euclides/commentaria-hub/facsimiles/diagrams`.
+Copy the facsimile PDFs and diagram crops from the current storage.
 
-On restart, the API scans `FACSIMILES_PDF_DIR`, creates missing facsimile DB rows, and updates existing facsimile rows to point at local `file:///data/.../*.pdf` URLs. Diagram crop metadata is generated from the local `FACSIMILES_DIAGRAMS_PATH`, and the UI receives image URLs under `FACSIMILES_DIAGRAMS_URL`.
+If they are stored in Git LFS, you can do a one-time copy from the current Git LFS checkout/repo. If they are stored elsewhere, copy them from that location instead.
+
+```bash
+sudo apt-get update
+sudo apt-get install -y git-lfs
+
+sudo -iu euclides
+source ~/.bashrc 
+mkdir -p /data/euclides/commentaria-hub/migration
+cd /data/euclides/commentaria-hub/migration
+git clone https://github.com/Euclides-EM/elements-facsimile.git elements-facsimile-migration
+cd elements-facsimile-migration
+git lfs install
+git lfs pull
+rsync -av --include='*.pdf' --exclude='*' docs/ /data/euclides/commentaria-hub/facsimiles/pdfs/
+rsync -av docs/diagrams/ /data/euclides/commentaria-hub/facsimiles/diagrams/
+cd /data/euclides/commentaria-hub
+rm -rf /data/euclides/commentaria-hub/migration/elements-facsimile-migration
+```
+
+On restart, the API scans `FACSIMILES_PDF_DIR`, creates missing facsimile DB rows, and updates existing facsimile rows to point at local `file:///data/.../*.pdf` URLs. Diagram crop metadata is generated from `FACSIMILES_DIAGRAMS_PATH`, and the UI receives image URLs under `FACSIMILES_DIAGRAMS_URL`.
 
 Useful checks:
 
