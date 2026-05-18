@@ -3,7 +3,10 @@ package service
 import (
 	"context"
 	"fmt"
+	"io"
 	"log"
+	"net/http"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
@@ -17,7 +20,6 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/formatcov"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/name"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
@@ -26,17 +28,17 @@ import (
 )
 
 type Dataset struct {
-	editionSvc       *Edition
-	facsimileSvc     *Facsimile
-	modelSvc         *Model
-	datasetStore     *store.DatasetSQL
-	fileSysMgt       *filesys.Manager
-	githubDownloader *ghwrapper.Wrapper
-	createQueue      chan struct{}
-	createQueueWait  time.Duration
+	editionSvc      *Edition
+	facsimileSvc    *Facsimile
+	modelSvc        *Model
+	datasetStore    *store.DatasetSQL
+	fileSysMgt      *filesys.Manager
+	httpBearerToken string
+	createQueue     chan struct{}
+	createQueueWait time.Duration
 }
 
-func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, githubDownloader *ghwrapper.Wrapper, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
+func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *Model, datasetStore *store.DatasetSQL, fileSystemMgt *filesys.Manager, httpBearerToken string, maxParallelCreates int, createQueueWait time.Duration) *Dataset {
 	if maxParallelCreates <= 0 {
 		maxParallelCreates = 1
 	}
@@ -44,14 +46,14 @@ func NewDatasetService(editionSvc *Edition, facsimileSvc *Facsimile, modelSvc *M
 		createQueueWait = 7 * time.Hour
 	}
 	return &Dataset{
-		editionSvc:       editionSvc,
-		facsimileSvc:     facsimileSvc,
-		modelSvc:         modelSvc,
-		datasetStore:     datasetStore,
-		fileSysMgt:       fileSystemMgt,
-		githubDownloader: githubDownloader,
-		createQueue:      make(chan struct{}, maxParallelCreates),
-		createQueueWait:  createQueueWait,
+		editionSvc:      editionSvc,
+		facsimileSvc:    facsimileSvc,
+		modelSvc:        modelSvc,
+		datasetStore:    datasetStore,
+		fileSysMgt:      fileSystemMgt,
+		httpBearerToken: strings.TrimSpace(httpBearerToken),
+		createQueue:     make(chan struct{}, maxParallelCreates),
+		createQueueWait: createQueueWait,
 	}
 }
 
@@ -109,8 +111,8 @@ func (d *Dataset) Create(ctx context.Context, ds *model.Dataset, enforceSingleDa
 	if targetFacsimile.ScanURL == "" {
 		return nil, fmt.Errorf("facsimile has no scan URL")
 	}
-	if !ghwrapper.IsGitHubTreeURL(targetFacsimile.ScanURL) && !futils.IsLocalFileURL(targetFacsimile.ScanURL) {
-		return nil, fmt.Errorf("only GitHub tree URLs and URLs pointing to locally stored files are currently supported")
+	if !futils.IsLocalFileURL(targetFacsimile.ScanURL) && !isHTTPURL(targetFacsimile.ScanURL) {
+		return nil, fmt.Errorf("only local file URLs and HTTP(S) PDF URLs are currently supported")
 	}
 	if ds.EditionID != "" && targetFacsimile.EditionID != ds.EditionID {
 		return nil, fmt.Errorf("dataset edition ID %s does not match facsimile edition ID %s", ds.EditionID, targetFacsimile.EditionID)
@@ -213,17 +215,17 @@ func (d *Dataset) runDatasetCreation(ctx context.Context, ds *model.Dataset, sca
 func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scanURL string) (*model.Dataset, error) {
 	pdfPath := d.fileSysMgt.DatasetPDFPath(ds)
 	log.Printf("Downloading facsimile from %s to %s", scanURL, pdfPath)
-	if ghwrapper.IsGitHubTreeURL(scanURL) {
-		if err := d.githubDownloader.DownloadRecursive(ctx, scanURL, pdfPath); err != nil {
-			return nil, fmt.Errorf("failed to download facsimile: %w", err)
-		}
-	} else if localPath, err := futils.URLToLocalFilePath(scanURL); err == nil {
+	if localPath, err := futils.URLToLocalFilePath(scanURL); err == nil {
 		destRootAbs, err := filepath.Abs(pdfPath)
 		if err != nil {
 			return nil, fmt.Errorf("failed to resolve dest: %w", err)
 		}
 		if err := futils.CopyFile(localPath, destRootAbs); err != nil {
 			return nil, fmt.Errorf("failed to copy local facsimile from %s to %s: %w", localPath, pdfPath, err)
+		}
+	} else if isHTTPURL(scanURL) {
+		if err := d.downloadHTTPFacsimile(ctx, scanURL, pdfPath); err != nil {
+			return nil, fmt.Errorf("failed to download HTTP facsimile: %w", err)
 		}
 	} else {
 		return nil, fmt.Errorf("unsupported scan URL format or invalid URL: %s", scanURL)
@@ -298,6 +300,45 @@ func (d *Dataset) doDatasetCreation(ctx context.Context, ds *model.Dataset, scan
 		}
 	}
 	return ds, nil
+}
+
+func isHTTPURL(raw string) bool {
+	u, err := url.Parse(raw)
+	if err != nil {
+		return false
+	}
+	return strings.EqualFold(u.Scheme, "http") || strings.EqualFold(u.Scheme, "https")
+}
+
+func (d *Dataset) downloadHTTPFacsimile(ctx context.Context, rawURL, dst string) error {
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, rawURL, nil)
+	if err != nil {
+		return err
+	}
+	if d.httpBearerToken != "" {
+		req.Header.Set("Authorization", "Bearer "+d.httpBearerToken)
+	}
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4<<10))
+		return fmt.Errorf("HTTP %d: %s", resp.StatusCode, strings.TrimSpace(string(body)))
+	}
+	if err := os.MkdirAll(filepath.Dir(dst), 0o755); err != nil {
+		return err
+	}
+	out, err := os.Create(dst)
+	if err != nil {
+		return err
+	}
+	defer out.Close()
+	if _, err := io.Copy(out, resp.Body); err != nil {
+		return err
+	}
+	return out.Sync()
 }
 
 func (d *Dataset) ListSuggestedAnnotationRules(id string) ([][]annotationrule.AnnotationRule, error) {

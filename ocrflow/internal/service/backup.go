@@ -8,7 +8,6 @@ import (
 	"log"
 	"mime/multipart"
 	"os"
-	"os/exec"
 	"path/filepath"
 	"sort"
 	"strings"
@@ -44,9 +43,8 @@ type Backup struct {
 	backupdir             string
 	restoreFromBackupPath string
 
-	rcloneRemoteName     string
-	rcloneGDriveFolderID string
-	maxBackupsToStore    int
+	rclone            *RcloneDrive
+	maxBackupsToStore int
 
 	shutdownFunc func() error
 	// checkpointDB, if set, is called before copying the DB file into the backup.
@@ -67,8 +65,7 @@ func NewBackup(baseData, models, items, db, backupDir, restoreDir, rcloneRemoteN
 		dbPath:                db,
 		backupdir:             backupDir,
 		restoreFromBackupPath: restoreDir,
-		rcloneRemoteName:      rcloneRemoteName,
-		rcloneGDriveFolderID:  rcloneGDriveFolderID,
+		rclone:                NewRcloneDrive(rcloneRemoteName, rcloneGDriveFolderID, "backup rclone"),
 		maxBackupsToStore:     maxBackupsToStore,
 		shutdownFunc:          shutdownFunc,
 	}
@@ -182,10 +179,10 @@ func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
 }
 
 func (s *Backup) syncBackupToDrive(localPath, filename string) error {
-	if s.rcloneRemoteName == "" {
+	if s.rclone.RemoteName == "" {
 		return errors.New("backup: rclone remote name is not configured")
 	}
-	if _, err := s.runRclone("copy", localPath, s.rcloneRemoteName+":"+filename); err != nil {
+	if _, err := s.rclone.Run("copy", localPath, s.rclone.RemotePath(filename)); err != nil {
 		return err
 	}
 	if err := s.ensureMaxDriveBackups(); err != nil {
@@ -226,7 +223,7 @@ func (s *Backup) ensureMaxDriveBackups() error {
 }
 
 func (s *Backup) listDriveBackups() ([]driveBackupEntry, error) {
-	out, err := s.runRclone("lsf", s.rcloneRemoteName+":")
+	out, err := s.rclone.Run("lsf", s.rclone.RemotePath(""))
 	if err != nil {
 		return nil, err
 	}
@@ -260,25 +257,11 @@ func parseDriveBackupEntries(listing string) []driveBackupEntry {
 
 func (s *Backup) deleteDriveBackup(entry driveBackupEntry) error {
 	if entry.isDir {
-		_, err := s.runRclone("purge", s.rcloneRemoteName+":"+entry.name)
+		_, err := s.rclone.Run("purge", s.rclone.RemotePath(entry.name))
 		return err
 	}
-	_, err := s.runRclone("deletefile", s.rcloneRemoteName+":"+entry.name)
+	_, err := s.rclone.Run("deletefile", s.rclone.RemotePath(entry.name))
 	return err
-}
-
-func (s *Backup) runRclone(args ...string) ([]byte, error) {
-	if s.rcloneGDriveFolderID != "" {
-		args = append([]string{"--drive-root-folder-id=" + s.rcloneGDriveFolderID}, args...)
-	}
-	log.Printf("running rclone %s", strings.Join(args, " "))
-	cmd := exec.Command("rclone", args...)
-	out, err := cmd.CombinedOutput()
-	if err != nil {
-		return nil, fmt.Errorf("rclone: %w: %s", err, string(out))
-	}
-	log.Printf("rclone completed: %s", string(out))
-	return out, nil
 }
 
 // SetupRestoreBackup restores the system state from the backup with the given ID (or latest if backupId is empty or "latest").

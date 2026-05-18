@@ -3,6 +3,7 @@ package api
 import (
 	"fmt"
 	"net/http"
+	"path/filepath"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 )
@@ -84,4 +85,58 @@ func (h *Handlers) UpdateFacsimile(r *http.Request) (any, error) {
 	}
 	facsimile.ID = id
 	return h.deps.FacsimileSvc.UpdateFacsimile(&facsimile)
+}
+
+// ImportFacsimilesFromDrive godoc
+// @Summary      Import facsimiles from Google Drive inbox
+// @Description  Copies PDFs from the configured Google Drive folder into FACSIMILES_PDF_DIR, updates facsimile records, then deletes imported PDFs from Drive.
+// @Tags         Facsimiles
+// @Produce      json
+// @Security 	 BearerAuth
+// @Success      200  {object}  model.FacsimileDriveImportResult
+// @Router       /facsimilies/import-from-drive [post]
+func (h *Handlers) ImportFacsimilesFromDrive(r *http.Request) (any, error) {
+	return h.deps.FacsimileSvc.ImportFromDriveInbox()
+}
+
+// DownloadFacsimilePDF godoc
+// @Summary      Download facsimile PDF
+// @Description  Downloads a local facsimile PDF by facsimile ID.
+// @Tags         Facsimiles
+// @Produce      application/pdf
+// @Param        id  path      string  true  "Facsimile ID"
+// @Security 	 BearerAuth
+// @Success      200  {file}  string  "Facsimile PDF"
+// @Router       /facsimilies/{id}/pdf [get]
+func (h *Handlers) DownloadFacsimilePDF(r *http.Request) (filePath string, downloadName string, err error) {
+	id := r.PathValue("id")
+	if id == "" {
+		return "", "", fmt.Errorf("missing facsimile ID")
+	}
+	filePath, err = h.deps.FacsimileSvc.GetFacsimilePDFPath(id)
+	if err != nil {
+		return "", "", err
+	}
+	return filePath, filepath.Base(filePath), nil
+}
+
+// DownloadEditionFacsimilePDF godoc
+// @Summary      Download edition facsimile PDF
+// @Description  Downloads the first local facsimile PDF for an edition.
+// @Tags         Facsimiles
+// @Produce      application/pdf
+// @Param        editionId  path      string  true  "Edition ID"
+// @Security 	 BearerAuth
+// @Success      200  {file}  string  "Facsimile PDF"
+// @Router       /editions/{editionId}/facsimile.pdf [get]
+func (h *Handlers) DownloadEditionFacsimilePDF(r *http.Request) (filePath string, downloadName string, err error) {
+	editionID, err := extractEditionId(r)
+	if err != nil {
+		return "", "", err
+	}
+	filePath, err = h.deps.FacsimileSvc.GetEditionFacsimilePDFPath(editionID)
+	if err != nil {
+		return "", "", err
+	}
+	return filePath, filepath.Base(filePath), nil
 }

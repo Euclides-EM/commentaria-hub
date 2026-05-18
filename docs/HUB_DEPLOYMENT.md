@@ -155,29 +155,9 @@ sudo mkdir -p /data/euclides/commentaria-hub/facsimiles/diagrams
 sudo chown -R euclides:euclides /data/euclides/commentaria-hub
 ```
 
-Copy the facsimile PDFs and diagram crops from the current storage.
+Do not use Git LFS for facsimiles anymore. New source PDFs should arrive through the Google Drive inbox below, and diagram crops should be copied directly under `/data/euclides/commentaria-hub/facsimiles/diagrams`.
 
-If they are stored in Git LFS, you can do a one-time copy from the current Git LFS checkout/repo. If they are stored elsewhere, copy them from that location instead.
-
-```bash
-sudo apt-get update
-sudo apt-get install -y git-lfs
-
-sudo -iu euclides
-source ~/.bashrc 
-mkdir -p /data/euclides/commentaria-hub/migration
-cd /data/euclides/commentaria-hub/migration
-git clone https://github.com/Euclides-EM/elements-facsimile.git elements-facsimile-migration
-cd elements-facsimile-migration
-git lfs install
-git lfs pull
-rsync -av --include='*.pdf' --exclude='*' docs/ /data/euclides/commentaria-hub/facsimiles/pdfs/
-rsync -av docs/diagrams/ /data/euclides/commentaria-hub/facsimiles/diagrams/
-cd /data/euclides/commentaria-hub
-rm -rf /data/euclides/commentaria-hub/migration/elements-facsimile-migration
-```
-
-On restart, the API scans `FACSIMILES_PDF_DIR`, creates missing facsimile DB rows, and updates existing facsimile rows to point at local `file:///data/.../*.pdf` URLs. Diagram crop metadata is generated from `FACSIMILES_DIAGRAMS_PATH`, and the UI receives image URLs under `FACSIMILES_DIAGRAMS_URL`.
+On restart, the API scans `FACSIMILES_PDF_DIR`, creates missing facsimile DB rows, and updates existing facsimile rows to point at local `file:///data/.../*.pdf` URLs. Diagram crop metadata is generated from the local `FACSIMILES_DIAGRAMS_PATH`, and the UI receives image URLs under `FACSIMILES_DIAGRAMS_URL`.
 
 Useful checks:
 
@@ -197,6 +177,68 @@ sqlite3 /data/euclides/commentaria-hub/store/ocrflow.db "select edition_id, url 
 ```
 
 The URL should be a local file URL such as `file:///data/euclides/commentaria-hub/facsimiles/pdfs/Paris_1615.pdf`.
+
+## Local development with server PDFs
+
+For local development, you do not need to copy the large PDFs onto your machine. Point the local API at the deployed API:
+
+```dotenv
+FACSIMILES_REMOTE_API_URL=https://euclides.huma-num.fr/commentaria/api/v1
+FACSIMILES_REMOTE_AUTH_TOKEN=<your-github-token>
+```
+
+Leave `FACSIMILES_PDF_DIR` empty locally. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
+
+## Import or download facsimile PDFs
+
+The API discovers local facsimile PDFs by scanning `FACSIMILES_PDF_DIR`. The filename is important: each PDF must be named `<edition_key>.pdf`, where `<edition_key>` is the edition key used by the metadata and UI, for example `Venice_1482.pdf`.
+
+### Google Drive inbox
+
+The easiest day-to-day path is a Google Drive inbox folder. Upload one or more PDFs to that folder, using the `<edition_key>.pdf` naming convention. Then click **Import Facsimiles** from the user menu in the hub app, or call the API endpoint below. 
+
+The import endpoint:
+
+- lists PDFs in `FACSIMILES_GDRIVE_FOLDER_ID` using `rclone`;
+- copies them into `FACSIMILES_PDF_DIR`;
+- creates or updates the local facsimile DB rows;
+- deletes only the successfully imported PDFs from the Drive folder.
+
+To call it manually:
+
+```bash
+curl -X POST \
+  -H "Authorization: Bearer <github-token>" \
+  http://127.0.0.1:8090/api/v1/facsimilies/import-from-drive
+```
+
+The endpoint returns JSON like:
+
+```json
+{
+  "imported": ["Venice_1482.pdf", "Paris_1615.pdf"],
+  "skipped": [],
+  "deleted": ["Venice_1482.pdf", "Paris_1615.pdf"]
+}
+```
+
+To download a stored PDF through the API, pass an auth bearer token:
+
+```bash
+curl -fL \
+  -H "Authorization: Bearer <github-token>" \
+  -o Venice_1482.pdf \
+  http://127.0.0.1:8090/api/v1/editions/Venice_1482/facsimile.pdf
+```
+
+You can also download by facsimile ID:
+
+```bash
+curl -fL \
+  -H "Authorization: Bearer <github-token>" \
+  -o Venice_1482.pdf \
+  http://127.0.0.1:8090/api/v1/facsimilies/<facsimile-id>/pdf
+```
 
 ## Automatic Backup to Google Drive (optional)
 
@@ -235,8 +277,6 @@ This will show you the path where rclone expects the config file, likely `~/.con
 
 Now, in the server’s `.env` file for the API, set the `RCLONE_GDRIVE_FOLDER_ID` variable to the ID of the Google Drive folder where you want the backups to be stored. You can find this ID in the URL when you open the folder in your browser. For example, if the URL is `https://drive.google.com/drive/folders/1a2b3c4d5e6f7g8h9i0j`, then the folder ID is `1a2b3c4d5e6f7g8h9i0j`.
 
-And we can merge https://github.com/Euclides-EM/commentaria-hub/pull/68
-
 ## Add env file
 
 ```bash
@@ -259,6 +299,7 @@ UV_PATH=<path/to/uv/executable/if/not/in/PATH>
 OPENAI_API_KEY=s***A
 LOGS_SYSTEMD_UNIT=commentaria-hub-api
 BACKUP_GDRIVE_FOLDER_ID=<your-google-drive-folder-id-for-backups>
+FACSIMILES_GDRIVE_FOLDER_ID=<your-google-drive-folder-id-for-facsimile-pdf-inbox>
 FACSIMILES_PDF_DIR=/data/euclides/commentaria-hub/facsimiles/pdfs
 FACSIMILES_DIAGRAMS_PATH=/data/euclides/commentaria-hub/facsimiles/diagrams
 FACSIMILES_DIAGRAMS_URL=/commentaria/facsimiles/diagrams

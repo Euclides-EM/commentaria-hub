@@ -4,6 +4,7 @@ import { useAuthStore } from '../store/authStore'
 import { BreadcrumbNav } from './BreadcrumbNav.tsx'
 import { Button } from './core/Button'
 import { useAppState } from '../context/useAppState.ts'
+import { API_BASE_URL } from '../config/api.ts'
 
 interface HeaderProps {
   onShowLogin: () => void
@@ -14,6 +15,9 @@ export function Header({ onShowLogin }: HeaderProps) {
   const { setState } = useAppState()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [cleanupRequested, setCleanupRequested] = useState(false)
+  const [facsimileImportStatus, setFacsimileImportStatus] = useState<
+    'idle' | 'running' | 'done' | 'failed'
+  >('idle')
   const [serverSha, setServerSha] = useState<string | null>(null)
   const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8085'
   const serverShaLabel =
@@ -56,9 +60,34 @@ export function Header({ onShowLogin }: HeaderProps) {
     void StoreService.deleteStoreCleanupLocal({}).catch(() => undefined)
   }
 
+  const importFacsimilesFromDrive = () => {
+    if (!token || facsimileImportStatus === 'running') {
+      return
+    }
+    setFacsimileImportStatus('running')
+    void fetch(`${API_BASE_URL}/facsimilies/import-from-drive`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    })
+      .then(async (response) => {
+        if (!response.ok) {
+          throw new Error(await response.text())
+        }
+        setFacsimileImportStatus('done')
+      })
+      .catch(() => {
+        setFacsimileImportStatus('failed')
+      })
+  }
+
   const closeMenu = () => {
     setIsMenuOpen(false)
     setCleanupRequested(false)
+    if (facsimileImportStatus !== 'running') {
+      setFacsimileImportStatus('idle')
+    }
   }
 
   return (
@@ -124,6 +153,20 @@ export function Header({ onShowLogin }: HeaderProps) {
                       className="w-full px-2 py-1 text-xs transition-colors mb-1"
                     >
                       Backups
+                    </Button>
+                    <Button
+                      variant="regular"
+                      onClick={importFacsimilesFromDrive}
+                      disabled={facsimileImportStatus === 'running'}
+                      className="w-full px-2 py-1 text-xs transition-colors mb-1"
+                    >
+                      {facsimileImportStatus === 'running'
+                        ? 'Importing facsimiles...'
+                        : facsimileImportStatus === 'done'
+                          ? 'Facsimiles imported'
+                          : facsimileImportStatus === 'failed'
+                            ? 'Import failed'
+                            : 'Import Facsimiles'}
                     </Button>
                     <Button
                       variant="regular"

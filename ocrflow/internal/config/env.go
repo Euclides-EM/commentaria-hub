@@ -32,11 +32,12 @@ type EnvConfig struct {
 	BackupRootDir    string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
 	BackupMaxToStore int    `env:"BACKUP_MAX_TO_STORE" envDefault:"5"`
 
-	FacsimilesGithubRepoUrl string `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
-	FacsimilesPDFDir        string `env:"FACSIMILES_PDF_DIR" envDefault:""`
-	FacsimilesDiagramsPath  string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
-	FacsimilesDiagramsURL   string `env:"FACSIMILES_DIAGRAMS_URL" envDefault:""`
-	OpenAIAPIKey            string `env:"OPENAI_API_KEY"`
+	FacsimilesPDFDir         string `env:"FACSIMILES_PDF_DIR" envDefault:""`
+	FacsimilesDiagramsPath   string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
+	FacsimilesDiagramsURL    string `env:"FACSIMILES_DIAGRAMS_URL" envDefault:""`
+	FacsimilesGDriveFolderID string `env:"FACSIMILES_GDRIVE_FOLDER_ID" envDefault:""`
+	FacsimilesRemoteAPIURL   string `env:"FACSIMILES_REMOTE_API_URL" envDefault:""`
+	OpenAIAPIKey             string `env:"OPENAI_API_KEY"`
 
 	SkipDiagramCropsGeneration bool     `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`
 	OptMigrations              []string `env:"OPT_MIGRATIONS" envDefault:""`

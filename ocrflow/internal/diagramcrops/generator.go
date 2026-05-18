@@ -3,9 +3,7 @@ package diagramcrops
 import (
 	"encoding/json"
 	"fmt"
-	"io"
 	"log"
-	"net/http"
 	"net/url"
 	"os"
 	"path/filepath"
@@ -17,11 +15,6 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
 )
-
-type githubContent struct {
-	Name string `json:"name"`
-	Type string `json:"type"`
-}
 
 type volumeInfo struct {
 	Key    string
@@ -45,49 +38,14 @@ type Options struct {
 }
 
 type generator struct {
-	client             *http.Client
-	headers            map[string]string
-	diagramsLocalDir   string
-	itemsMetadataDir   string
-	diagramsRemotePath string
-	diagramsSourceDir  string
-	githubAPIBase      string
-	opts               Options
+	diagramsLocalDir  string
+	itemsMetadataDir  string
+	diagramsSourceDir string
+	opts              Options
 }
 
-// ResolveGithubAPIBase converts a repo URL (e.g. https://github.com/org/repo) into the GitHub API contents base URL.
-func ResolveGithubAPIBase(repoURL string) (string, error) {
-	repoURL = strings.TrimSuffix(strings.TrimSpace(repoURL), "/")
-	parsed, err := url.Parse(repoURL)
-	if err != nil {
-		return "", fmt.Errorf("parse facsimiles repo url: %w", err)
-	}
-
-	if strings.EqualFold(parsed.Host, "api.github.com") {
-		return repoURL, nil
-	}
-
-	parts := strings.Split(strings.Trim(parsed.Path, "/"), "/")
-	if strings.EqualFold(parsed.Host, "github.com") {
-		if len(parts) < 2 {
-			return "", fmt.Errorf("unsupported github URL format: %s", repoURL)
-		}
-		return fmt.Sprintf("https://api.github.com/repos/%s/%s/contents", parts[0], parts[1]), nil
-	}
-
-	if strings.EqualFold(parsed.Host, "raw.githubusercontent.com") {
-		if len(parts) < 3 {
-			return "", fmt.Errorf("unsupported raw github URL format: %s", repoURL)
-		}
-		return fmt.Sprintf("https://api.github.com/repos/%s/%s/contents", parts[0], parts[1]), nil
-	}
-
-	return "", fmt.Errorf("unsupported host for facsimiles repo url: %s", repoURL)
-}
-
-// Generate fetches diagram directory listing and per-edition diagram data from the facsimiles GitHub repo
-// and writes them under env's store dir. It uses env for diagram path, GitHub token, and store paths.
-// If EffectiveGithubToken is empty, Generate returns nil without doing anything (allows app to start without token).
+// Generate reads diagram crop image names from FACSIMILES_DIAGRAMS_PATH and writes small metadata JSON
+// files under the app store. The source path must be an absolute local path or file:// URL.
 func Generate(env *config.EnvConfig, opts Options) error {
 	if env.SkipDiagramCropsGeneration {
 		log.Printf("diagram crops: skipping diagram metadata generation because SKIP_DIAGRAM_CROPS_GENERATION is set")
@@ -97,29 +55,16 @@ func Generate(env *config.EnvConfig, opts Options) error {
 	if err != nil {
 		return err
 	}
-	token := env.GithubToken
-	if diagramsSourceDir == "" && token == "" {
-		log.Printf("diagram crops: no GITHUB_TOKEN set, skipping diagram metadata generation")
+	if diagramsSourceDir == "" {
+		log.Printf("diagram crops: FACSIMILES_DIAGRAMS_PATH is not an absolute local path, skipping diagram metadata generation")
 		return nil
 	}
 
-	githubAPIBase := ""
-	if diagramsSourceDir == "" {
-		githubAPIBase, err = ResolveGithubAPIBase(env.FacsimilesGithubRepoUrl)
-		if err != nil {
-			return fmt.Errorf("resolve github api base: %w", err)
-		}
-	}
-
 	g := &generator{
-		client:             &http.Client{Timeout: 20 * time.Second},
-		headers:            buildHeaders(token),
-		diagramsLocalDir:   env.DiagramsDir(),
-		itemsMetadataDir:   env.ItemsMetadataStoreDir(),
-		diagramsRemotePath: strings.TrimSuffix(env.FacsimilesDiagramsPath, "/"),
-		diagramsSourceDir:  diagramsSourceDir,
-		githubAPIBase:      githubAPIBase,
-		opts:               opts,
+		diagramsLocalDir:  env.DiagramsDir(),
+		itemsMetadataDir:  env.ItemsMetadataStoreDir(),
+		diagramsSourceDir: diagramsSourceDir,
+		opts:              opts,
 	}
 
 	directories, err := g.generateDiagramDirectories()
@@ -148,93 +93,6 @@ func localDiagramsSourceDir(pathOrURL string) (string, error) {
 	return "", nil
 }
 
-func buildHeaders(githubToken string) map[string]string {
-	return map[string]string{
-		"User-Agent":    "elements-title-pages-build",
-		"Authorization": "token " + githubToken,
-	}
-}
-
-func (g *generator) fetchWithRetry(url string, retries int) ([]byte, error) {
-	var lastErr error
-
-	for i := 0; i < retries; i++ {
-		req, err := http.NewRequest(http.MethodGet, url, nil)
-		if err != nil {
-			return nil, err
-		}
-
-		for k, v := range g.headers {
-			req.Header.Set(k, v)
-		}
-
-		resp, err := g.client.Do(req)
-		if err != nil {
-			lastErr = err
-			if i < retries-1 {
-				time.Sleep(time.Second)
-				continue
-			}
-			break
-		}
-
-		body, readErr := io.ReadAll(resp.Body)
-		resp.Body.Close()
-		if readErr != nil {
-			lastErr = readErr
-			if i < retries-1 {
-				time.Sleep(time.Second)
-				continue
-			}
-			break
-		}
-
-		if resp.StatusCode >= 200 && resp.StatusCode < 300 {
-			return body, nil
-		}
-
-		if resp.StatusCode == http.StatusForbidden {
-			remaining := resp.Header.Get("X-RateLimit-Remaining")
-			resetRaw := resp.Header.Get("X-RateLimit-Reset")
-			log.Printf("rate limit hit (%s remaining), retrying in %d seconds", remaining, 1<<i)
-			if resetRaw != "" {
-				if unix, err := strconv.ParseInt(resetRaw, 10, 64); err == nil {
-					log.Printf("rate limit resets at: %s", time.Unix(unix, 0).UTC().Format(time.RFC3339))
-				}
-			}
-			if i < retries-1 {
-				time.Sleep(time.Duration(1<<i) * time.Second)
-				continue
-			}
-		}
-
-		lastErr = fmt.Errorf("http %d: %s", resp.StatusCode, strings.TrimSpace(string(body)))
-		if i < retries-1 {
-			time.Sleep(time.Second)
-		}
-	}
-
-	if lastErr == nil {
-		lastErr = fmt.Errorf("request failed")
-	}
-	return nil, lastErr
-}
-
-func (g *generator) fetchGithubContents(path string) ([]githubContent, error) {
-	contentURL := fmt.Sprintf("%s/%s", g.githubAPIBase, path)
-	body, err := g.fetchWithRetry(contentURL, 3)
-	if err != nil {
-		return nil, err
-	}
-
-	var items []githubContent
-	if err := json.Unmarshal(body, &items); err != nil {
-		return nil, err
-	}
-
-	return items, nil
-}
-
 func (g *generator) writeJSON(path string, value any) error {
 	b, err := json.MarshalIndent(value, "", "  ")
 	if err != nil {
@@ -255,42 +113,17 @@ func (g *generator) writeJSON(path string, value any) error {
 }
 
 func (g *generator) generateDiagramDirectories() ([]string, error) {
-	if g.diagramsSourceDir != "" {
-		log.Printf("fetching diagram directories from local path %s", g.diagramsSourceDir)
-		entries, err := os.ReadDir(g.diagramsSourceDir)
-		if err != nil {
-			return nil, err
-		}
-		directories := make([]string, 0, len(entries))
-		for _, entry := range entries {
-			if entry.IsDir() {
-				directories = append(directories, entry.Name())
-			}
-		}
-		slices.Sort(directories)
-
-		outputPath := filepath.Join(g.itemsMetadataDir, "diagram-directories.json")
-		if err := g.writeJSON(outputPath, directories); err != nil {
-			return nil, err
-		}
-
-		log.Printf("generated %s with %d directories", outputPath, len(directories))
-		return directories, nil
-	}
-
-	log.Printf("fetching diagram directories from GitHub API")
-	items, err := g.fetchGithubContents(g.diagramsRemotePath)
+	log.Printf("fetching diagram directories from local path %s", g.diagramsSourceDir)
+	entries, err := os.ReadDir(g.diagramsSourceDir)
 	if err != nil {
 		return nil, err
 	}
-
-	directories := make([]string, 0, len(items))
-	for _, item := range items {
-		if item.Type == "dir" {
-			directories = append(directories, item.Name)
+	directories := make([]string, 0, len(entries))
+	for _, entry := range entries {
+		if entry.IsDir() {
+			directories = append(directories, entry.Name())
 		}
 	}
-
 	slices.Sort(directories)
 
 	outputPath := filepath.Join(g.itemsMetadataDir, "diagram-directories.json")
@@ -401,32 +234,15 @@ func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo, lo
 }
 
 func (g *generator) fetchCrops(volumeKey string) ([]string, error) {
-	if g.diagramsSourceDir != "" {
-		cropsDir := filepath.Join(g.diagramsSourceDir, volumeKey, "crops")
-		items, err := os.ReadDir(cropsDir)
-		if err != nil {
-			return nil, err
-		}
-		images := make([]string, 0, len(items))
-		for _, item := range items {
-			if !item.IsDir() && strings.HasSuffix(item.Name(), ".jpg") {
-				images = append(images, item.Name())
-			}
-		}
-		slices.Sort(images)
-		return images, nil
-	}
-
-	path := g.diagramsRemotePath + "/" + volumeKey + "/crops"
-	items, err := g.fetchGithubContents(path)
+	cropsDir := filepath.Join(g.diagramsSourceDir, volumeKey, "crops")
+	items, err := os.ReadDir(cropsDir)
 	if err != nil {
 		return nil, err
 	}
-
 	images := make([]string, 0, len(items))
 	for _, item := range items {
-		if strings.HasSuffix(item.Name, ".jpg") {
-			images = append(images, item.Name)
+		if !item.IsDir() && strings.HasSuffix(item.Name(), ".jpg") {
+			images = append(images, item.Name())
 		}
 	}
 

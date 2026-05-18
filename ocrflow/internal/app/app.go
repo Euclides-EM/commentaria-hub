@@ -19,7 +19,6 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
 
@@ -83,10 +82,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureExecutionStore := store.NewFeatureExecutionStore(cache.NewCache())
 	featureStore := store.NewFeatureSQL(sqlDB)
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
-	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl, env.FacsimilesDiagramsURL)
+	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesDiagramsURL)
 	datasetImageStore := store.NewDatasetImageStore(fileSystemManager)
-
-	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
 
 	vcsMgtSvc := service.NewVCSMgt(
 		env.RootDir,
@@ -99,14 +96,21 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
-	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl), env.FacsimilesPDFDir)
+	facsimileSvc := service.NewFacsimileService(
+		facsimileStore,
+		env.FacsimilesPDFDir,
+		env.FacsimilesRemoteAPIURL,
+		env.GithubToken,
+		env.RcloneRemoteName,
+		env.FacsimilesGDriveFolderID,
+	)
 	datasetSvc := service.NewDatasetService(
 		editionSvc,
 		facsimileSvc,
 		modelSvc,
 		datasetStore,
 		fileSystemManager,
-		ghDownloader,
+		env.GithubToken,
 		env.DatasetCreateMaxParallel,
 		env.DatasetCreateQueueWait,
 	)

@@ -12,22 +12,15 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 )
 
-const (
-	diagramsPathBaseInGithubFacsimileRepo = "diagrams"
-	diagramsCropsDirInGithubFacsimileRepo = "crops"
-)
-
 type DiagramCropsStore struct {
-	fileSysMgt              *filesys.Manager
-	facsimilesGithubRepoUrl string
-	diagramsURLBase         string
+	fileSysMgt      *filesys.Manager
+	diagramsURLBase string
 }
 
-func NewDiagramCropsStore(fileSysMgt *filesys.Manager, facsimilesGithubRepoUrl, diagramsURLBase string) *DiagramCropsStore {
+func NewDiagramCropsStore(fileSysMgt *filesys.Manager, diagramsURLBase string) *DiagramCropsStore {
 	return &DiagramCropsStore{
-		fileSysMgt:              fileSysMgt,
-		facsimilesGithubRepoUrl: facsimilesGithubRepoUrl,
-		diagramsURLBase:         diagramsURLBase,
+		fileSysMgt:      fileSysMgt,
+		diagramsURLBase: diagramsURLBase,
 	}
 }
 
@@ -66,7 +59,6 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 				Key:         fileData.Volumes[i].Key,
 				HasDiagrams: fileData.Volumes[i].HasDiagrams,
 				ImageURLsByName: mapDiagramImageURLsByName(
-					s.facsimilesGithubRepoUrl,
 					s.diagramsURLBase,
 					volumeKey,
 					fileData.Volumes[i].Images,
@@ -81,7 +73,6 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 		singleKey = key
 	}
 	response.ImageURLsByName = mapDiagramImageURLsByName(
-		s.facsimilesGithubRepoUrl,
 		s.diagramsURLBase,
 		singleKey,
 		fileData.Images,
@@ -89,15 +80,15 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 	return response, nil
 }
 
-func mapDiagramImageURLsByName(githubBaseURL, diagramsURLBase, key string, images []string) map[string]string {
+func mapDiagramImageURLsByName(diagramsURLBase, key string, images []string) map[string]string {
 	out := make(map[string]string, len(images))
 	for _, imageName := range images {
-		out[imageName] = buildDiagramImageURL(githubBaseURL, diagramsURLBase, key, imageName)
+		out[imageName] = buildDiagramImageURL(diagramsURLBase, key, imageName)
 	}
 	return out
 }
 
-func buildDiagramImageURL(githubBaseURL, diagramsURLBase, key, imageName string) string {
+func buildDiagramImageURL(diagramsURLBase, key, imageName string) string {
 	if diagramsURLBase != "" {
 		base, err := url.Parse(diagramsURLBase)
 		if err == nil {
@@ -110,14 +101,7 @@ func buildDiagramImageURL(githubBaseURL, diagramsURLBase, key, imageName string)
 			return base.String()
 		}
 	}
-	return fmt.Sprintf(
-		"%s/raw/main/docs/%s/%s/%s/%s",
-		githubBaseURL,
-		diagramsPathBaseInGithubFacsimileRepo,
-		url.PathEscape(key),
-		diagramsCropsDirInGithubFacsimileRepo,
-		url.PathEscape(imageName),
-	)
+	return ""
 }
 
 type editionDiagramFileVolume struct {

@@ -52,6 +52,11 @@ func GetZip(f func(*http.Request) (zipPath string, deleteAfterServe bool, err er
 	return wb.GetZip(f)
 }
 
+func GetFile(f func(*http.Request) (filePath string, downloadName string, err error), contentType string) *wrapperBuilder {
+	wb := &wrapperBuilder{}
+	return wb.GetFile(f, contentType)
+}
+
 func Create(f func(*http.Request) (any, error)) *wrapperBuilder {
 	wb := &wrapperBuilder{}
 	return wb.Create(f)
@@ -139,6 +144,25 @@ func (wb *wrapperBuilder) GetZip(f func(r *http.Request) (zipPath string, delete
 		if deleteAfterServe {
 			_ = os.Remove(zipPath)
 		}
+	}
+	return wb
+}
+
+func (wb *wrapperBuilder) GetFile(f func(r *http.Request) (filePath string, downloadName string, err error), contentType string) *wrapperBuilder {
+	wb.get = func(w http.ResponseWriter, r *http.Request) {
+		filePath, downloadName, err := f(r)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+		if contentType != "" {
+			w.Header().Set("Content-Type", contentType)
+		}
+		if downloadName == "" {
+			downloadName = filepath.Base(filePath)
+		}
+		w.Header().Set("Content-Disposition", "attachment; filename=\""+downloadName+"\"")
+		http.ServeFile(w, r, filePath)
 	}
 	return wb
 }
