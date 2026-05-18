@@ -33,7 +33,9 @@ type EnvConfig struct {
 	BackupMaxToStore int    `env:"BACKUP_MAX_TO_STORE" envDefault:"5"`
 
 	FacsimilesGithubRepoUrl string `env:"FACSIMILES_GITHUB_REPO_URL" envDefault:"https://github.com/Euclides-EM/elements-facsimile"`
+	FacsimilesPDFDir        string `env:"FACSIMILES_PDF_DIR" envDefault:""`
 	FacsimilesDiagramsPath  string `env:"FACSIMILES_DIAGRAMS_PATH" envDefault:"docs/diagrams"`
+	FacsimilesDiagramsURL   string `env:"FACSIMILES_DIAGRAMS_URL" envDefault:""`
 	OpenAIAPIKey            string `env:"OPENAI_API_KEY"`
 
 	SkipDiagramCropsGeneration bool     `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`

@@ -50,6 +50,7 @@ type generator struct {
 	diagramsLocalDir   string
 	itemsMetadataDir   string
 	diagramsRemotePath string
+	diagramsSourceDir  string
 	githubAPIBase      string
 	opts               Options
 }
@@ -92,15 +93,22 @@ func Generate(env *config.EnvConfig, opts Options) error {
 		log.Printf("diagram crops: skipping diagram metadata generation because SKIP_DIAGRAM_CROPS_GENERATION is set")
 		return nil
 	}
+	diagramsSourceDir, err := localDiagramsSourceDir(env.FacsimilesDiagramsPath)
+	if err != nil {
+		return err
+	}
 	token := env.GithubToken
-	if token == "" {
+	if diagramsSourceDir == "" && token == "" {
 		log.Printf("diagram crops: no GITHUB_TOKEN set, skipping diagram metadata generation")
 		return nil
 	}
 
-	githubAPIBase, err := ResolveGithubAPIBase(env.FacsimilesGithubRepoUrl)
-	if err != nil {
-		return fmt.Errorf("resolve github api base: %w", err)
+	githubAPIBase := ""
+	if diagramsSourceDir == "" {
+		githubAPIBase, err = ResolveGithubAPIBase(env.FacsimilesGithubRepoUrl)
+		if err != nil {
+			return fmt.Errorf("resolve github api base: %w", err)
+		}
 	}
 
 	g := &generator{
@@ -109,6 +117,7 @@ func Generate(env *config.EnvConfig, opts Options) error {
 		diagramsLocalDir:   env.DiagramsDir(),
 		itemsMetadataDir:   env.ItemsMetadataStoreDir(),
 		diagramsRemotePath: strings.TrimSuffix(env.FacsimilesDiagramsPath, "/"),
+		diagramsSourceDir:  diagramsSourceDir,
 		githubAPIBase:      githubAPIBase,
 		opts:               opts,
 	}
@@ -119,6 +128,24 @@ func Generate(env *config.EnvConfig, opts Options) error {
 	}
 
 	return g.generateAllDiagramData(directories)
+}
+
+func localDiagramsSourceDir(pathOrURL string) (string, error) {
+	pathOrURL = strings.TrimSpace(pathOrURL)
+	if pathOrURL == "" {
+		return "", nil
+	}
+	parsed, err := url.Parse(pathOrURL)
+	if err == nil && parsed.Scheme == "file" {
+		if parsed.Host != "" && !strings.EqualFold(parsed.Host, "localhost") {
+			return "", fmt.Errorf("unsupported file URL host for diagrams path: %s", parsed.Host)
+		}
+		return parsed.Path, nil
+	}
+	if filepath.IsAbs(pathOrURL) {
+		return pathOrURL, nil
+	}
+	return "", nil
 }
 
 func buildHeaders(githubToken string) map[string]string {
@@ -228,6 +255,29 @@ func (g *generator) writeJSON(path string, value any) error {
 }
 
 func (g *generator) generateDiagramDirectories() ([]string, error) {
+	if g.diagramsSourceDir != "" {
+		log.Printf("fetching diagram directories from local path %s", g.diagramsSourceDir)
+		entries, err := os.ReadDir(g.diagramsSourceDir)
+		if err != nil {
+			return nil, err
+		}
+		directories := make([]string, 0, len(entries))
+		for _, entry := range entries {
+			if entry.IsDir() {
+				directories = append(directories, entry.Name())
+			}
+		}
+		slices.Sort(directories)
+
+		outputPath := filepath.Join(g.itemsMetadataDir, "diagram-directories.json")
+		if err := g.writeJSON(outputPath, directories); err != nil {
+			return nil, err
+		}
+
+		log.Printf("generated %s with %d directories", outputPath, len(directories))
+		return directories, nil
+	}
+
 	log.Printf("fetching diagram directories from GitHub API")
 	items, err := g.fetchGithubContents(g.diagramsRemotePath)
 	if err != nil {
@@ -351,6 +401,22 @@ func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo, lo
 }
 
 func (g *generator) fetchCrops(volumeKey string) ([]string, error) {
+	if g.diagramsSourceDir != "" {
+		cropsDir := filepath.Join(g.diagramsSourceDir, volumeKey, "crops")
+		items, err := os.ReadDir(cropsDir)
+		if err != nil {
+			return nil, err
+		}
+		images := make([]string, 0, len(items))
+		for _, item := range items {
+			if !item.IsDir() && strings.HasSuffix(item.Name(), ".jpg") {
+				images = append(images, item.Name())
+			}
+		}
+		slices.Sort(images)
+		return images, nil
+	}
+
 	path := g.diagramsRemotePath + "/" + volumeKey + "/crops"
 	items, err := g.fetchGithubContents(path)
 	if err != nil {

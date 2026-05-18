@@ -2,6 +2,7 @@ package api
 
 import (
 	"net/http"
+	"path/filepath"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
@@ -156,6 +157,13 @@ func NewRouter(deps *Dependencies) http.Handler {
 			http.FileServer(http.Dir(deps.Env.DataDir())),
 		),
 	)
+	if filepath.IsAbs(deps.Env.FacsimilesDiagramsPath) {
+		root.Handle("/facsimiles/diagrams/",
+			http.StripPrefix("/facsimiles/diagrams/",
+				http.FileServer(http.Dir(deps.Env.FacsimilesDiagramsPath)),
+			),
+		)
+	}
 
 	handler := CORSMiddleware(deps.Env.AllowedOriginsCORSList(), root)
 	return handler

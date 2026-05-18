@@ -83,7 +83,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureExecutionStore := store.NewFeatureExecutionStore(cache.NewCache())
 	featureStore := store.NewFeatureSQL(sqlDB)
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
-	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl)
+	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl, env.FacsimilesDiagramsURL)
 	datasetImageStore := store.NewDatasetImageStore(fileSystemManager)
 
 	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
@@ -99,7 +99,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
-	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl))
+	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl), env.FacsimilesPDFDir)
 	datasetSvc := service.NewDatasetService(
 		editionSvc,
 		facsimileSvc,
@@ -159,11 +159,11 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	log.Printf("finished warming edition cache")
 
-	log.Printf("updating facsimiles from github...")
-	if err := facsimileSvc.UpdateFromGithubRepo(); err != nil {
-		log.Printf("warning: failed to update facsimiles from github: %v", err)
+	log.Printf("updating facsimiles from configured source...")
+	if err := facsimileSvc.UpdateFromConfiguredSource(); err != nil {
+		log.Printf("warning: failed to update facsimiles from configured source: %v", err)
 	}
-	log.Printf("finished updating facsimiles from github")
+	log.Printf("finished updating facsimiles from configured source")
 
 	log.Printf("generating diagram crops metadata...")
 	if err := diagramcrops.Generate(env, diagramcrops.Options{}); err != nil {

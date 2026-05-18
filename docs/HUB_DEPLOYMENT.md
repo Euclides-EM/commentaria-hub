@@ -145,6 +145,59 @@ sudo -u euclides ls -l /data/euclides/commentaria-hub/store
 sudo -u euclides rm /data/euclides/commentaria-hub/store/test
 ```
 
+## Store facsimiles on the data volume
+
+The API can read facsimile PDFs directly from local `file://` URLs. In production, keep the source PDFs outside the Git working tree and under the data volume:
+
+```bash
+sudo mkdir -p /data/euclides/commentaria-hub/facsimiles/pdfs
+sudo mkdir -p /data/euclides/commentaria-hub/facsimiles/diagrams
+sudo chown -R euclides:euclides /data/euclides/commentaria-hub
+```
+
+Copy the facsimile PDFs and diagram crops from the current storage.
+
+If they are stored in Git LFS, you can do a one-time copy from the current Git LFS checkout/repo. If they are stored elsewhere, copy them from that location instead.
+
+```bash
+sudo apt-get update
+sudo apt-get install -y git-lfs
+
+sudo -iu euclides
+source ~/.bashrc 
+mkdir -p /data/euclides/commentaria-hub/migration
+cd /data/euclides/commentaria-hub/migration
+git clone https://github.com/Euclides-EM/elements-facsimile.git elements-facsimile-migration
+cd elements-facsimile-migration
+git lfs install
+git lfs pull
+rsync -av --include='*.pdf' --exclude='*' docs/ /data/euclides/commentaria-hub/facsimiles/pdfs/
+rsync -av docs/diagrams/ /data/euclides/commentaria-hub/facsimiles/diagrams/
+cd /data/euclides/commentaria-hub
+rm -rf /data/euclides/commentaria-hub/migration/elements-facsimile-migration
+```
+
+On restart, the API scans `FACSIMILES_PDF_DIR`, creates missing facsimile DB rows, and updates existing facsimile rows to point at local `file:///data/.../*.pdf` URLs. Diagram crop metadata is generated from `FACSIMILES_DIAGRAMS_PATH`, and the UI receives image URLs under `FACSIMILES_DIAGRAMS_URL`.
+
+Useful checks:
+
+```bash
+sudo -iu euclides
+find /data/euclides/commentaria-hub/facsimiles/pdfs -maxdepth 1 -name '*.pdf' | wc -l
+find /data/euclides/commentaria-hub/facsimiles/diagrams -path '*/crops/*.jpg' | wc -l
+curl -I http://127.0.0.1:8090/facsimiles/diagrams/Paris_1615/crops/page-0001_001.jpg || true
+curl -I http://euclides.huma-num.fr/commentaria/facsimiles/diagrams/Paris_1615/crops/page-0001_001.jpg || true
+```
+
+If an edition has no crop images under `FACSIMILES_DIAGRAMS_PATH`, the diagrams endpoint returns no crop URLs for it. That only means crops are unavailable locally; it does not say whether the edition itself contains diagrams. If a dataset still fails to create after migration, inspect the facsimile row:
+
+```bash
+sudo -iu euclides
+sqlite3 /data/euclides/commentaria-hub/store/ocrflow.db "select edition_id, url from facsimiles where edition_id = 'Paris_1615';"
+```
+
+The URL should be a local file URL such as `file:///data/euclides/commentaria-hub/facsimiles/pdfs/Paris_1615.pdf`.
+
 ## Automatic Backup to Google Drive (optional)
 
 On your local machine, set up rclone with a new remote for your Google Drive account:
@@ -206,6 +259,9 @@ UV_PATH=<path/to/uv/executable/if/not/in/PATH>
 OPENAI_API_KEY=s***A
 LOGS_SYSTEMD_UNIT=commentaria-hub-api
 BACKUP_GDRIVE_FOLDER_ID=<your-google-drive-folder-id-for-backups>
+FACSIMILES_PDF_DIR=/data/euclides/commentaria-hub/facsimiles/pdfs
+FACSIMILES_DIAGRAMS_PATH=/data/euclides/commentaria-hub/facsimiles/diagrams
+FACSIMILES_DIAGRAMS_URL=/commentaria/facsimiles/diagrams
 ```
 
 Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_private` file.
@@ -329,6 +385,7 @@ server {
     # Redirects for missing trailing slash
     location = /commentaria/api/v1 { return 301 /commentaria/api/v1/; }
     location = /commentaria/store/data { return 301 /commentaria/store/data/; }
+    location = /commentaria/facsimiles/diagrams { return 301 /commentaria/facsimiles/diagrams/; }
     location = /commentaria/swagger { return 301 /commentaria/swagger/; }
 
     # /commentaria/api/v1/*  ->  http://127.0.0.1:8090/api/v1/*
@@ -347,6 +404,19 @@ server {
     # /commentaria/store/data/*  ->  http://127.0.0.1:8090/store/data/*
     location ^~ /commentaria/store/data/ {
         proxy_pass http://127.0.0.1:8090/store/data/;
+
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_read_timeout 300s;
+        proxy_send_timeout 300s;
+    }
+
+    # /commentaria/facsimiles/diagrams/*  ->  http://127.0.0.1:8090/facsimiles/diagrams/*
+    location ^~ /commentaria/facsimiles/diagrams/ {
+        proxy_pass http://127.0.0.1:8090/facsimiles/diagrams/;
 
         proxy_http_version 1.1;
         proxy_set_header Host $host;

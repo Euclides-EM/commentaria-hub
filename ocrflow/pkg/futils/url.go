@@ -2,6 +2,7 @@ package futils
 
 import (
 	"net/url"
+	"path/filepath"
 	"strings"
 )
 
@@ -26,4 +27,12 @@ func URLToLocalFilePath(s string) (string, error) {
 		return "", &url.Error{Op: "parse", URL: s, Err: err}
 	}
 	return u.Path, nil
+}
+
+func LocalFilePathToURL(path string) (string, error) {
+	absPath, err := filepath.Abs(path)
+	if err != nil {
+		return "", err
+	}
+	return (&url.URL{Scheme: "file", Path: absPath}).String(), nil
 }

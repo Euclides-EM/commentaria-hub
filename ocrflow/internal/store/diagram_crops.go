@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/url"
 	"os"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
@@ -19,12 +20,14 @@ const (
 type DiagramCropsStore struct {
 	fileSysMgt              *filesys.Manager
 	facsimilesGithubRepoUrl string
+	diagramsURLBase         string
 }
 
-func NewDiagramCropsStore(fileSysMgt *filesys.Manager, facsimilesGithubRepoUrl string) *DiagramCropsStore {
+func NewDiagramCropsStore(fileSysMgt *filesys.Manager, facsimilesGithubRepoUrl, diagramsURLBase string) *DiagramCropsStore {
 	return &DiagramCropsStore{
 		fileSysMgt:              fileSysMgt,
 		facsimilesGithubRepoUrl: facsimilesGithubRepoUrl,
+		diagramsURLBase:         diagramsURLBase,
 	}
 }
 
@@ -64,6 +67,7 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 				HasDiagrams: fileData.Volumes[i].HasDiagrams,
 				ImageURLsByName: mapDiagramImageURLsByName(
 					s.facsimilesGithubRepoUrl,
+					s.diagramsURLBase,
 					volumeKey,
 					fileData.Volumes[i].Images,
 				),
@@ -78,24 +82,37 @@ func (s *DiagramCropsStore) GetEditionDiagrams(key string) (*model.DiagramCrops,
 	}
 	response.ImageURLsByName = mapDiagramImageURLsByName(
 		s.facsimilesGithubRepoUrl,
+		s.diagramsURLBase,
 		singleKey,
 		fileData.Images,
 	)
 	return response, nil
 }
 
-func mapDiagramImageURLsByName(baseURL, key string, images []string) map[string]string {
+func mapDiagramImageURLsByName(githubBaseURL, diagramsURLBase, key string, images []string) map[string]string {
 	out := make(map[string]string, len(images))
 	for _, imageName := range images {
-		out[imageName] = buildDiagramImageURL(baseURL, key, imageName)
+		out[imageName] = buildDiagramImageURL(githubBaseURL, diagramsURLBase, key, imageName)
 	}
 	return out
 }
 
-func buildDiagramImageURL(baseURL, key, imageName string) string {
+func buildDiagramImageURL(githubBaseURL, diagramsURLBase, key, imageName string) string {
+	if diagramsURLBase != "" {
+		base, err := url.Parse(diagramsURLBase)
+		if err == nil {
+			base.Path = fmt.Sprintf(
+				"%s/%s/crops/%s",
+				strings.TrimRight(base.Path, "/"),
+				url.PathEscape(key),
+				url.PathEscape(imageName),
+			)
+			return base.String()
+		}
+	}
 	return fmt.Sprintf(
 		"%s/raw/main/docs/%s/%s/%s/%s",
-		baseURL,
+		githubBaseURL,
 		diagramsPathBaseInGithubFacsimileRepo,
 		url.PathEscape(key),
 		diagramsCropsDirInGithubFacsimileRepo,

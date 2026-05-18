@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/url"
+	"os"
 	"path"
 	"path/filepath"
 	"slices"
@@ -13,6 +14,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/samber/lo"
@@ -22,13 +24,15 @@ type Facsimile struct {
 	facsimileStore   *store.FacsimileSQL
 	ghDownloader     *ghwrapper.Wrapper
 	facsimileRepoURL string
+	facsimilesPDFDir string
 }
 
-func NewFacsimileService(facsimileStore *store.FacsimileSQL, downloader *ghwrapper.Wrapper, facsimileRepoURL string) *Facsimile {
+func NewFacsimileService(facsimileStore *store.FacsimileSQL, downloader *ghwrapper.Wrapper, facsimileRepoURL, facsimilesPDFDir string) *Facsimile {
 	return &Facsimile{
 		facsimileStore:   facsimileStore,
 		ghDownloader:     downloader,
 		facsimileRepoURL: facsimileRepoURL,
+		facsimilesPDFDir: strings.TrimSpace(facsimilesPDFDir),
 	}
 }
 
@@ -98,5 +102,66 @@ func (e *Facsimile) UpdateFromGithubRepo() error {
 			log.Printf("failed to create facsimile for %s: %v", key, err)
 		}
 	}
+	return nil
+}
+
+func (e *Facsimile) UpdateFromConfiguredSource() error {
+	if e.facsimilesPDFDir != "" {
+		return e.UpdateFromLocalDir(e.facsimilesPDFDir)
+	}
+	return e.UpdateFromGithubRepo()
+}
+
+func (e *Facsimile) UpdateFromLocalDir(dir string) error {
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		return fmt.Errorf("failed to list local facsimiles in %s: %w", dir, err)
+	}
+
+	existingFacsimiles, err := e.ListFacsimiles(nil)
+	if err != nil {
+		return fmt.Errorf("failed to list existing facsimiles: %w", err)
+	}
+	existingByEditionID := lo.SliceToMap(existingFacsimiles, func(f *model.Facsimile) (string, *model.Facsimile) {
+		return f.EditionID, f
+	})
+
+	added := 0
+	updated := 0
+	for _, entry := range entries {
+		if entry.IsDir() || strings.ToLower(filepath.Ext(entry.Name())) != ".pdf" {
+			continue
+		}
+		editionID := strings.TrimSuffix(entry.Name(), filepath.Ext(entry.Name()))
+		pdfURL, err := futils.LocalFilePathToURL(filepath.Join(dir, entry.Name()))
+		if err != nil {
+			log.Printf("failed to build local file URL for %s: %v", entry.Name(), err)
+			continue
+		}
+
+		if existing := existingByEditionID[editionID]; existing != nil {
+			if existing.ScanURL == pdfURL {
+				continue
+			}
+			existing.ScanURL = pdfURL
+			if _, err := e.UpdateFacsimile(existing); err != nil {
+				log.Printf("failed to update local facsimile for %s: %v", editionID, err)
+				continue
+			}
+			updated++
+			continue
+		}
+
+		if _, err := e.CreateFacsimile(&model.Facsimile{
+			EditionID: editionID,
+			ScanURL:   pdfURL,
+		}); err != nil {
+			log.Printf("failed to create local facsimile for %s: %v", editionID, err)
+			continue
+		}
+		added++
+	}
+
+	log.Printf("local facsimile sync from %s added %d and updated %d facsimiles", dir, added, updated)
 	return nil
 }
