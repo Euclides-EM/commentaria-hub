@@ -10,6 +10,10 @@ export type integration_JobTarget = {
     api_key?: string;
     base_path?: string;
     /**
+     * For backups
+     */
+    backup_id?: string;
+    /**
      * For Commentaria
      */
     dataset_id?: string;
@@ -26,5 +30,5 @@ export type integration_JobTarget = {
      * For Roboflow
      */
     workspace_url?: string;
+    sync_to_drive?: boolean;
 };
-

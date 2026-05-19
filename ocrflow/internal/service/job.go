@@ -16,14 +16,11 @@ type Job struct {
 	jobsStore         *store.JobStore
 	annotationsUpload *AnnotationsUploader
 	facsimiles        *Facsimile
+	backups           *Backup
 }
 
 func (j *Job) ListJobs() ([]*job.Job, error) {
 	return j.jobsStore.ListAll()
-}
-
-func (j *Job) ListIntegrationJobs() ([]*job.Job, error) {
-	return j.ListJobs()
 }
 
 func (j *Job) CreateJob(ij *job.Job) (*job.Job, error) {
@@ -41,8 +38,16 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 	for _, jb := range ij.Jobs {
 		j.createJob(jb)
 		if jb.Task == job.FacsimileDriveImport {
-			j.run(jb, "facsimile drive import", func() (any, error) {
-				return j.facsimiles.ImportFromDriveInbox()
+			j.run(jb, "facsimile drive import", func() (any, error) { return j.facsimiles.ImportFromDriveInbox() })
+		}
+		if jb.Task == job.BackupCreate {
+			j.run(jb, "backup create", func() (any, error) {
+				return j.createBackup(jb)
+			})
+		}
+		if jb.Task == job.BackupSyncToDrive {
+			j.run(jb, "backup sync to drive", func() (any, error) {
+				return j.syncBackupToDrive(jb)
 			})
 		}
 		if jb.Task == job.Export && jb.Target != nil && jb.Annotation != nil {
@@ -105,6 +110,25 @@ func (j *Job) exportToCommentaria(job *job.Job) error {
 	return err
 }
 
+func (j *Job) createBackup(jb *job.Job) (map[string]string, error) {
+	backupID, err := j.backups.CreateBackup(jb.Target != nil && jb.Target.SyncToDrive)
+	if err != nil {
+		return nil, err
+	}
+	return map[string]string{"backup_id": backupID}, nil
+}
+
+func (j *Job) syncBackupToDrive(jb *job.Job) (map[string]string, error) {
+	backupID := ""
+	if jb.Target != nil {
+		backupID = jb.Target.BackupID
+	}
+	if err := j.backups.SyncBackupToDrive(backupID); err != nil {
+		return nil, err
+	}
+	return map[string]string{"backup_id": backupID, "message": "backup synced to drive"}, nil
+}
+
 func (j *Job) run(jb *job.Job, actionName string, action func() (any, error)) {
 	go func() {
 		now := time.Now()
@@ -133,14 +157,15 @@ func (j *Job) run(jb *job.Job, actionName string, action func() (any, error)) {
 	}()
 }
 
-func (j *Job) GetIntegrationJob(id string) (*job.Job, error) {
+func (j *Job) GetJob(id string) (*job.Job, error) {
 	return j.jobsStore.Get(id)
 }
 
-func NewJob(jobsStore *store.JobStore, annotationsUpload *AnnotationsUploader, facsimiles *Facsimile) *Job {
+func NewJob(jobsStore *store.JobStore, annotationsUpload *AnnotationsUploader, facsimiles *Facsimile, backups *Backup) *Job {
 	return &Job{
 		jobsStore:         jobsStore,
 		annotationsUpload: annotationsUpload,
 		facsimiles:        facsimiles,
+		backups:           backups,
 	}
 }

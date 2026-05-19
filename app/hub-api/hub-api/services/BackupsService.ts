@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { CancelablePromise } from '../core/CancelablePromise';
+import type { integration_Job } from '../models/integration_Job';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class BackupsService {
@@ -25,17 +26,23 @@ export class BackupsService {
      * @throws ApiError
      */
     public static postBackups({
+        async,
         syncToDrive,
     }: {
+        /**
+         * Create the backup in a background job instead of waiting for completion
+         */
+        async?: boolean,
         /**
          * If true, the backup will be copied to Google Drive using rclone after creation
          */
         syncToDrive?: boolean,
-    }): CancelablePromise<string> {
+    }): CancelablePromise<string | integration_Job> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/backups',
             query: {
+                'async': async,
                 'sync_to_drive': syncToDrive,
             },
         });
@@ -113,18 +120,26 @@ export class BackupsService {
      * @throws ApiError
      */
     public static putBackupsSync({
+        async,
         backupId,
     }: {
+        /**
+         * Sync the backup in a background job instead of waiting for completion
+         */
+        async?: boolean,
         /**
          * ID of the backup to sync
          */
         backupId: string,
-    }): CancelablePromise<Record<string, string>> {
+    }): CancelablePromise<Record<string, string> | integration_Job> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/backups/{backupId}/sync',
             path: {
                 'backupId': backupId,
+            },
+            query: {
+                'async': async,
             },
         });
     }

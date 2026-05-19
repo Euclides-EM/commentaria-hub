@@ -134,8 +134,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results/sqldump", httpwrapper.GetSQL(h.GetFeatureResultsDump).Build())
 
 	api.HandleFunc("/integrations/platforms", httpwrapper.Get(h.ListIntegrationPlatforms).Build())
-	api.HandleFunc("/integrations/jobs", httpwrapper.Get(h.ListIntegrationJobs).Create(h.CreateIntegrationJobs).Build())
-	api.HandleFunc("/integrations/jobs/{jobId}", httpwrapper.Get(h.GetIntegrationJob).Build())
+	api.HandleFunc("/jobs", httpwrapper.Get(h.ListJobs).Create(h.CreateJobs).Build())
+	api.HandleFunc("/jobs/{jobId}", httpwrapper.Get(h.GetJob).Build())
 
 	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).CreateFile(h.UploadModel).Build())
 	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Update(h.UpdateModel).Build())

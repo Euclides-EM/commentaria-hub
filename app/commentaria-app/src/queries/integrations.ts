@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { IntegrationService } from '@hub-api'
+import { JobsService } from '@hub-api'
 
 export const runningIntegrationJobsQueryKey = () =>
   ['integrations', 'jobs', 'running'] as const
@@ -11,7 +11,7 @@ export function useRunningIntegrationJobsQuery() {
   return useQuery({
     queryKey: runningIntegrationJobsQueryKey(),
     queryFn: async () => {
-      const jobs = (await IntegrationService.getIntegrationsJobs()) || []
+      const jobs = (await JobsService.getJobs()) || []
       return jobs.filter(
         (job) =>
           job.task === 'Export' &&
@@ -27,8 +27,7 @@ export function useNonCompletedIntegrationJobsQuery() {
   return useQuery({
     queryKey: nonCompletedIntegrationJobsQueryKey(),
     queryFn: async () => {
-      const jobs = (await IntegrationService.getIntegrationsJobs()) || []
-      return jobs.filter((job) => job.status !== 'completed')
+      return (await JobsService.getJobs()) || []
     },
     staleTime: 10 * 1000,
     refetchInterval: 10 * 1000,

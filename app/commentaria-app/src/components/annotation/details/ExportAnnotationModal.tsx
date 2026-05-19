@@ -1,7 +1,7 @@
 import { type FormEvent, useEffect, useState } from 'react'
 import {
   ApiError,
-  IntegrationService,
+  JobsService,
   type integration_JobTarget,
 } from '@hub-api'
 import { useQueryClient } from '@tanstack/react-query'
@@ -139,7 +139,7 @@ export function ExportAnnotationModal({
                 password: escriptorium.password,
               }
 
-      await IntegrationService.postIntegrationsJobs({
+      await JobsService.postJobs({
         job: {
           jobs: resolvedTargets.map((target) => ({
             annotation: {

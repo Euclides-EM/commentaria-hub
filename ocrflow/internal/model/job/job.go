@@ -22,6 +22,8 @@ type Task string
 const (
 	Export               Task = "Export"
 	FacsimileDriveImport Task = "FacsimileDriveImport"
+	BackupCreate         Task = "BackupCreate"
+	BackupSyncToDrive    Task = "BackupSyncToDrive"
 )
 
 type Status string
@@ -36,7 +38,7 @@ const (
 type Job struct {
 	common.Meta `json:",inline"`
 	Task        Task                  `json:"task"`
-	Target      *JobTarget            `json:"target"`
+	Target      *Target               `json:"target"`
 	Annotation  *annotation.Reference `json:"annotation,omitempty"`
 	Status      Status                `json:"status" readonly:"true"`
 	FinishedAt  *time.Time            `json:"finished_at,omitempty" readonly:"true"`
@@ -47,7 +49,7 @@ type Jobs struct {
 	Jobs []*Job `json:"jobs"`
 }
 
-type JobTarget struct {
+type Target struct {
 	Platform Platform `json:"platform"`
 
 	// For EScriptorium
@@ -66,4 +68,8 @@ type JobTarget struct {
 
 	// For Commentaria
 	DatasetID string `json:"dataset_id"`
+
+	// For backups
+	BackupID    string `json:"backup_id"`
+	SyncToDrive bool   `json:"sync_to_drive"`
 }

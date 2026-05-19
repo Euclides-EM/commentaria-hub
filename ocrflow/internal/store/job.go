@@ -8,7 +8,10 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 )
 
-const jobTTL = 24 * time.Hour
+const (
+	jobTTL          = 24 * time.Hour
+	completedJobTTL = time.Hour
+)
 
 var ErrJobNotFound = errors.New("job not found")
 
@@ -20,8 +23,8 @@ func NewJobStore(c *cache.Cache) *JobStore {
 	return &JobStore{cache: c}
 }
 
-func (s *JobStore) Create(job *job.Job) {
-	s.cache.SetWithTTL(job.ID, job, jobTTL)
+func (s *JobStore) Create(jb *job.Job) {
+	s.cache.SetWithTTL(jb.ID, jb, jobTTL)
 }
 
 func (s *JobStore) Get(id string) (*job.Job, error) {
@@ -36,8 +39,12 @@ func (s *JobStore) Get(id string) (*job.Job, error) {
 	return job, nil
 }
 
-func (s *JobStore) Update(job *job.Job) {
-	s.cache.SetWithTTL(job.ID, job, jobTTL)
+func (s *JobStore) Update(jb *job.Job) {
+	ttl := jobTTL
+	if jb.Status == job.StatusCompleted {
+		ttl = completedJobTTL
+	}
+	s.cache.SetWithTTL(jb.ID, jb, ttl)
 }
 
 func (s *JobStore) ListAll() ([]*job.Job, error) {

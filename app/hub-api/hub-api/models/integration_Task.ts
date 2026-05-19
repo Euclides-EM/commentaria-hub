@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type integration_Task = 'Export' | 'FacsimileDriveImport';
+export type integration_Task = 'Export' | 'FacsimileDriveImport' | 'BackupCreate' | 'BackupSyncToDrive';

@@ -1,7 +1,8 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { BackupsService } from '@hub-api'
+import { nonCompletedIntegrationJobsQueryKey } from './integrations'
 
-const backupsQueryKey = () => ['backups'] as const
+export const backupsQueryKey = () => ['backups'] as const
 
 export function useBackupsQuery() {
   return useQuery({
@@ -16,9 +17,12 @@ export function useBackupsQuery() {
 export function useCreateBackupMutation() {
   const queryClient = useQueryClient()
   return useMutation({
-    mutationFn: () => BackupsService.postBackups({}),
+    mutationFn: () => BackupsService.postBackups({ async: true }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: backupsQueryKey() })
+      queryClient.invalidateQueries({
+        queryKey: nonCompletedIntegrationJobsQueryKey(),
+      })
     },
   })
 }
@@ -37,9 +41,12 @@ export function useSyncBackupToDriveMutation() {
   const queryClient = useQueryClient()
   return useMutation({
     mutationFn: (backupId: string) =>
-      BackupsService.putBackupsSync({ backupId }),
+      BackupsService.putBackupsSync({ backupId, async: true }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: backupsQueryKey() })
+      queryClient.invalidateQueries({
+        queryKey: nonCompletedIntegrationJobsQueryKey(),
+      })
     },
   })
 }
