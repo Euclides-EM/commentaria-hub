@@ -88,8 +88,8 @@ func (h *Handlers) UpdateFacsimile(r *http.Request) (any, error) {
 }
 
 // ImportFacsimilesFromDrive godoc
-// @Summary      Import facsimiles from Google Drive inbox
-// @Description  Copies PDFs from the configured Google Drive folder into FACSIMILES_PDF_DIR, updates facsimile records, then deletes imported PDFs from Drive.
+// @Summary      Import facsimiles and diagram crops from Google Drive inbox
+// @Description  Copies PDFs from the configured Google Drive folder into FACSIMILES_PDF_DIR, installs diagram crop archives into FACSIMILES_DIAGRAMS_PATH, updates metadata, then deletes successfully imported files from Drive.
 // @Tags         Facsimiles
 // @Produce      json
 // @Security 	 BearerAuth

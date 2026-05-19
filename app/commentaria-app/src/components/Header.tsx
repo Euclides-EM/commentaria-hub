@@ -163,7 +163,7 @@ export function Header({ onShowLogin }: HeaderProps) {
                       {facsimileImportStatus === 'running'
                         ? 'Importing facsimiles...'
                         : facsimileImportStatus === 'done'
-                          ? 'Facsimiles imported'
+                          ? 'Import complete'
                           : facsimileImportStatus === 'failed'
                             ? 'Import failed'
                             : 'Import Facsimiles'}

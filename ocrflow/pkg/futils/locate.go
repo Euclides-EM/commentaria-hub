@@ -1,6 +1,10 @@
 package futils
 
-import "os"
+import (
+	"os"
+	"path/filepath"
+	"strings"
+)
 
 func LocateFileInDir(dir string, filter func(filename string) bool) string {
 	de, err := os.ReadDir(dir)
@@ -16,4 +20,17 @@ func LocateFileInDir(dir string, filter func(filename string) bool) string {
 		}
 	}
 	return ""
+}
+
+func DirIncludesByFileExt(dir, ext string) (bool, error) {
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		return false, err
+	}
+	for _, entry := range entries {
+		if !entry.IsDir() && strings.EqualFold(filepath.Ext(entry.Name()), "."+ext) {
+			return true, nil
+		}
+	}
+	return false, nil
 }

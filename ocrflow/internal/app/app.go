@@ -99,6 +99,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	facsimileSvc := service.NewFacsimileService(
 		facsimileStore,
 		env.FacsimilesPDFDir,
+		env.FacsimilesDiagramsPath,
+		env.DiagramsDir(),
+		env.ItemsMetadataStoreDir(),
 		env.FacsimilesRemoteAPIURL,
 		env.GithubToken,
 		env.RcloneRemoteName,

@@ -13,6 +13,7 @@ import (
 	"strings"
 	"time"
 
+	diagramcropmetadata "github.com/MiaMish/elements-dh/ocrflow/internal/diagramcrops"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
@@ -27,9 +28,12 @@ type Facsimile struct {
 	remoteAuthToken          string
 	driveInbox               *RcloneDrive
 	facsimilesGDriveFolderID string
+	facsimilesDiagramsPath   string
+	diagramsStoreDir         string
+	itemsMetadataStoreDir    string
 }
 
-func NewFacsimileService(facsimileStore *store.FacsimileSQL, facsimilesPDFDir, remoteAPIURL, remoteAuthToken, rcloneRemoteName, facsimilesGDriveFolderID string) *Facsimile {
+func NewFacsimileService(facsimileStore *store.FacsimileSQL, facsimilesPDFDir, facsimilesDiagramsPath, diagramsStoreDir, itemsMetadataStoreDir, remoteAPIURL, remoteAuthToken, rcloneRemoteName, facsimilesGDriveFolderID string) *Facsimile {
 	return &Facsimile{
 		facsimileStore:           facsimileStore,
 		facsimilesPDFDir:         strings.TrimSpace(facsimilesPDFDir),
@@ -37,6 +41,9 @@ func NewFacsimileService(facsimileStore *store.FacsimileSQL, facsimilesPDFDir, r
 		remoteAuthToken:          strings.TrimSpace(remoteAuthToken),
 		driveInbox:               NewRcloneDrive(rcloneRemoteName, facsimilesGDriveFolderID, "facsimile inbox rclone"),
 		facsimilesGDriveFolderID: strings.TrimSpace(facsimilesGDriveFolderID),
+		facsimilesDiagramsPath:   strings.TrimSpace(facsimilesDiagramsPath),
+		diagramsStoreDir:         strings.TrimSpace(diagramsStoreDir),
+		itemsMetadataStoreDir:    strings.TrimSpace(itemsMetadataStoreDir),
 	}
 }
 
@@ -222,20 +229,14 @@ type driveFileEntry struct {
 }
 
 func (e *Facsimile) ImportFromDriveInbox() (*model.FacsimileDriveImportResult, error) {
-	if e.facsimilesPDFDir == "" {
-		return nil, fmt.Errorf("the facsimiles PDF directory is not configured")
-	}
 	if e.driveInbox.RemoteName == "" {
 		return nil, fmt.Errorf("the rclone remote name for the facsimiles Google Drive inbox is not configured")
 	}
 	if e.facsimilesGDriveFolderID == "" {
 		return nil, fmt.Errorf("the facsimiles GDrive folder ID is not configured")
 	}
-	if err := os.MkdirAll(e.facsimilesPDFDir, 0o755); err != nil {
-		return nil, fmt.Errorf("create facsimiles pdf dir: %w", err)
-	}
 
-	entries, err := e.listDriveInboxPDFs()
+	entries, err := e.listDriveInboxFiles()
 	if err != nil {
 		return nil, err
 	}
@@ -243,34 +244,45 @@ func (e *Facsimile) ImportFromDriveInbox() (*model.FacsimileDriveImportResult, e
 	result := &model.FacsimileDriveImportResult{}
 	for _, entry := range entries {
 		name := filepath.Base(entry.Path)
-		if name != entry.Path || strings.HasPrefix(name, ".") || !strings.EqualFold(filepath.Ext(name), ".pdf") {
+		if name != entry.Path || strings.HasPrefix(name, ".") {
 			result.Skipped = append(result.Skipped, entry.Path)
 			continue
 		}
 
-		dst := filepath.Join(e.facsimilesPDFDir, name)
-		tmp := dst + ".tmp"
-		if _, err := e.driveInbox.Run("copyto", e.driveInbox.RemotePath(entry.Path), tmp); err != nil {
-			return nil, fmt.Errorf("copy drive facsimile %s: %w", entry.Path, err)
+		switch {
+		case strings.EqualFold(filepath.Ext(name), ".pdf"):
+			if err := e.importDrivePDF(entry); err != nil {
+				return nil, err
+			}
+			result.ImportedPDFs = append(result.ImportedPDFs, name)
+		case futils.IsArchive(name):
+			imported, err := e.importDriveDiagramCrops(entry)
+			if err != nil {
+				return nil, err
+			}
+			result.ImportedDiagramArchives = append(result.ImportedDiagramArchives, name)
+			result.ImportedDiagramCrops = append(result.ImportedDiagramCrops, imported...)
+		default:
+			result.Skipped = append(result.Skipped, entry.Path)
 		}
-		if err := os.Chmod(tmp, 0o644); err != nil {
-			return nil, fmt.Errorf("chmod imported facsimile %s: %w", tmp, err)
-		}
-		if err := os.Rename(tmp, dst); err != nil {
-			return nil, fmt.Errorf("move imported facsimile %s to %s: %w", tmp, dst, err)
-		}
-		result.Imported = append(result.Imported, name)
 	}
 
-	log.Printf("importing %d new files from Google Drive inbox and skipping %d files\nImporting: %v\nskipping: %v", len(result.Imported), len(result.Skipped), result.Imported, result.Skipped)
-	if len(result.Imported) > 0 {
+	log.Printf("importing %d PDFs and %d diagram crop directories from Google Drive inbox and skipping %d files\nPDFs: %v\nDiagram crops: %v\nSkipping: %v", len(result.ImportedPDFs), len(result.ImportedDiagramCrops), len(result.Skipped), result.ImportedPDFs, result.ImportedDiagramCrops, result.Skipped)
+	if len(result.ImportedPDFs) > 0 {
 		if err := e.UpdateFromLocalDir(e.facsimilesPDFDir); err != nil {
 			return nil, fmt.Errorf("update facsimiles from imported PDFs: %w", err)
 		}
 	}
+	if len(result.ImportedDiagramCrops) > 0 {
+		if err := e.regenerateDiagramCropMetadata(); err != nil {
+			return nil, fmt.Errorf("regenerate diagram crop metadata: %w", err)
+		}
+	}
 
 	log.Printf("finished importing facsimiles from Google Drive inbox, deleting imported files from Drive")
-	for _, name := range result.Imported {
+	importedDriveFiles := append([]string{}, result.ImportedPDFs...)
+	importedDriveFiles = append(importedDriveFiles, result.ImportedDiagramArchives...)
+	for _, name := range importedDriveFiles {
 		if _, err := e.driveInbox.Run("deletefile", e.driveInbox.RemotePath(name)); err != nil {
 			return nil, fmt.Errorf("delete imported drive facsimile %s: %w", name, err)
 		}
@@ -281,7 +293,7 @@ func (e *Facsimile) ImportFromDriveInbox() (*model.FacsimileDriveImportResult, e
 	return result, nil
 }
 
-func (e *Facsimile) listDriveInboxPDFs() ([]driveFileEntry, error) {
+func (e *Facsimile) listDriveInboxFiles() ([]driveFileEntry, error) {
 	out, err := e.driveInbox.Run("lsjson", "--files-only", e.driveInbox.RemotePath(""))
 	if err != nil {
 		return nil, err
@@ -290,17 +302,150 @@ func (e *Facsimile) listDriveInboxPDFs() ([]driveFileEntry, error) {
 	if err := json.Unmarshal(out, &entries); err != nil {
 		return nil, fmt.Errorf("parse drive facsimile inbox listing: %w", err)
 	}
-	var pdfs []driveFileEntry
+	files := make([]driveFileEntry, 0, len(entries))
 	for _, entry := range entries {
-		if entry.IsDir || !strings.EqualFold(filepath.Ext(entry.Path), ".pdf") {
+		if entry.IsDir {
 			continue
 		}
-		pdfs = append(pdfs, entry)
+		files = append(files, entry)
 	}
-	slices.SortFunc(pdfs, func(a, b driveFileEntry) int {
+	slices.SortFunc(files, func(a, b driveFileEntry) int {
 		return strings.Compare(a.ModTime, b.ModTime)
 	})
-	return pdfs, nil
+	return files, nil
+}
+
+func (e *Facsimile) importDrivePDF(entry driveFileEntry) error {
+	if e.facsimilesPDFDir == "" {
+		return fmt.Errorf("the facsimiles PDF directory is not configured")
+	}
+	if err := os.MkdirAll(e.facsimilesPDFDir, 0o755); err != nil {
+		return fmt.Errorf("create facsimiles pdf dir: %w", err)
+	}
+
+	name := filepath.Base(entry.Path)
+	dst := filepath.Join(e.facsimilesPDFDir, name)
+	tmp := dst + ".tmp"
+	if _, err := e.driveInbox.Run("copyto", e.driveInbox.RemotePath(entry.Path), tmp); err != nil {
+		return fmt.Errorf("copy drive facsimile %s: %w", entry.Path, err)
+	}
+	if err := os.Chmod(tmp, 0o644); err != nil {
+		return fmt.Errorf("chmod imported facsimile %s: %w", tmp, err)
+	}
+	if err := os.Rename(tmp, dst); err != nil {
+		return fmt.Errorf("move imported facsimile %s to %s: %w", tmp, dst, err)
+	}
+	return nil
+}
+
+func (e *Facsimile) importDriveDiagramCrops(entry driveFileEntry) ([]string, error) {
+	diagramsDir, err := futils.LocalDirFromPathOrURL(e.facsimilesDiagramsPath)
+	if err != nil {
+		return nil, err
+	}
+	if diagramsDir == "" {
+		return nil, fmt.Errorf("the facsimiles diagrams path must be an absolute local path or file:// URL")
+	}
+	if err := os.MkdirAll(diagramsDir, 0o755); err != nil {
+		return nil, fmt.Errorf("create facsimiles diagrams dir: %w", err)
+	}
+
+	tmpArchive, err := futils.CreateTemp("drive-diagram-crops-*" + futils.ArchiveExt(entry.Path))
+	if err != nil {
+		return nil, fmt.Errorf("create temp diagram crop archive: %w", err)
+	}
+	tmpArchivePath := tmpArchive.Name()
+	if err := tmpArchive.Close(); err != nil {
+		return nil, fmt.Errorf("close temp diagram crop archive: %w", err)
+	}
+	defer os.Remove(tmpArchivePath)
+
+	if _, err := e.driveInbox.Run("copyto", e.driveInbox.RemotePath(entry.Path), tmpArchivePath); err != nil {
+		return nil, fmt.Errorf("copy drive diagram crops %s: %w", entry.Path, err)
+	}
+
+	tmpDir, err := futils.MkdirTemp("drive-diagram-crops")
+	if err != nil {
+		return nil, fmt.Errorf("create temp diagram crop dir: %w", err)
+	}
+	defer os.RemoveAll(tmpDir)
+
+	if err := futils.ExtractArchive(tmpArchivePath, tmpDir); err != nil {
+		return nil, fmt.Errorf("extract diagram crop archive %s: %w", entry.Path, err)
+	}
+
+	cropDirs, err := findCropDirs(tmpDir)
+	if err != nil {
+		return nil, err
+	}
+	if len(cropDirs) == 0 {
+		return nil, fmt.Errorf("diagram crop archive %s contains no <edition_key>/crops/*.jpg directories", entry.Path)
+	}
+
+	imported := make([]string, 0, len(cropDirs))
+	for key, src := range cropDirs {
+		dst := filepath.Join(diagramsDir, key)
+		if err := os.RemoveAll(dst); err != nil {
+			return nil, fmt.Errorf("remove existing diagram crops for %s: %w", key, err)
+		}
+		if err := futils.CopyDir(src, dst); err != nil {
+			return nil, fmt.Errorf("install diagram crops for %s: %w", key, err)
+		}
+		if err := e.deleteDiagramCropMetadata(key); err != nil {
+			return nil, err
+		}
+		imported = append(imported, key)
+	}
+	slices.Sort(imported)
+	return imported, nil
+}
+
+func (e *Facsimile) regenerateDiagramCropMetadata() error {
+	if e.diagramsStoreDir == "" || e.itemsMetadataStoreDir == "" {
+		return fmt.Errorf("diagram metadata store directories are not configured")
+	}
+	return diagramcropmetadata.GenerateFromPaths(e.facsimilesDiagramsPath, e.diagramsStoreDir, e.itemsMetadataStoreDir, diagramcropmetadata.Options{Force: true})
+}
+
+func (e *Facsimile) deleteDiagramCropMetadata(key string) error {
+	if e.diagramsStoreDir == "" {
+		return nil
+	}
+	baseKey := diagramcropmetadata.BaseKey(key)
+	if baseKey == "" {
+		return nil
+	}
+	path := filepath.Join(e.diagramsStoreDir, baseKey+".json")
+	if err := os.Remove(path); err != nil && !os.IsNotExist(err) {
+		return fmt.Errorf("delete diagram crop metadata %s: %w", path, err)
+	}
+	return nil
+}
+
+func findCropDirs(root string) (map[string]string, error) {
+	cropDirs := map[string]string{}
+	err := filepath.WalkDir(root, func(path string, d os.DirEntry, walkErr error) error {
+		if walkErr != nil {
+			return walkErr
+		}
+		if !d.IsDir() || d.Name() != "crops" {
+			return nil
+		}
+		parent := filepath.Dir(path)
+		key := filepath.Base(parent)
+		if !diagramcropmetadata.ValidKey(key) {
+			return fmt.Errorf("invalid diagram crop directory key: %s", key)
+		}
+		hasJPG, err := futils.DirIncludesByFileExt(path, "jpg")
+		if err != nil {
+			return err
+		}
+		if hasJPG {
+			cropDirs[key] = parent
+		}
+		return filepath.SkipDir
+	})
+	return cropDirs, err
 }
 
 func (e *Facsimile) GetFacsimilePDFPath(facsimileID string) (string, error) {

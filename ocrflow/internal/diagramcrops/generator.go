@@ -7,7 +7,6 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
-	"regexp"
 	"slices"
 	"strconv"
 	"strings"
@@ -35,6 +34,7 @@ type multiVolumeData struct {
 // Options configures diagram crops generation.
 type Options struct {
 	DryRun bool
+	Force  bool
 }
 
 type generator struct {
@@ -51,7 +51,11 @@ func Generate(env *config.EnvConfig, opts Options) error {
 		log.Printf("diagram crops: skipping diagram metadata generation because SKIP_DIAGRAM_CROPS_GENERATION is set")
 		return nil
 	}
-	diagramsSourceDir, err := localDiagramsSourceDir(env.FacsimilesDiagramsPath)
+	return GenerateFromPaths(env.FacsimilesDiagramsPath, env.DiagramsDir(), env.ItemsMetadataStoreDir(), opts)
+}
+
+func GenerateFromPaths(diagramsPath, diagramsLocalDir, itemsMetadataDir string, opts Options) error {
+	diagramsSourceDir, err := localDiagramsSourceDir(diagramsPath)
 	if err != nil {
 		return err
 	}
@@ -61,8 +65,8 @@ func Generate(env *config.EnvConfig, opts Options) error {
 	}
 
 	g := &generator{
-		diagramsLocalDir:  env.DiagramsDir(),
-		itemsMetadataDir:  env.ItemsMetadataStoreDir(),
+		diagramsLocalDir:  diagramsLocalDir,
+		itemsMetadataDir:  itemsMetadataDir,
 		diagramsSourceDir: diagramsSourceDir,
 		opts:              opts,
 	}
@@ -135,8 +139,6 @@ func (g *generator) generateDiagramDirectories() ([]string, error) {
 	return directories, nil
 }
 
-var volSuffixRe = regexp.MustCompile(`^(.+)_vol([0-9]+)$`)
-
 func groupDirectoriesByBase(directories []string) map[string][]volumeInfo {
 	grouped := make(map[string][]volumeInfo, len(directories))
 
@@ -163,7 +165,7 @@ func (g *generator) generateAllDiagramData(directories []string) error {
 	missing := make([]string, 0, len(grouped))
 	for baseKey := range grouped {
 		outputPath := filepath.Join(g.diagramsLocalDir, baseKey+".json")
-		if _, err := os.Stat(outputPath); os.IsNotExist(err) || g.opts.DryRun {
+		if _, err := os.Stat(outputPath); os.IsNotExist(err) || g.opts.DryRun || g.opts.Force {
 			missing = append(missing, baseKey)
 		}
 	}
@@ -188,7 +190,7 @@ func (g *generator) generateAllDiagramData(directories []string) error {
 
 func (g *generator) generateDiagramData(baseKey string, volumes []volumeInfo, logPrefix string) error {
 	outputPath := filepath.Join(g.diagramsLocalDir, baseKey+".json")
-	if _, err := os.Stat(outputPath); err == nil && !g.opts.DryRun {
+	if _, err := os.Stat(outputPath); err == nil && !g.opts.DryRun && !g.opts.Force {
 		return nil
 	}
 

@@ -209,20 +209,64 @@ FACSIMILES_REMOTE_AUTH_TOKEN=<your-github-token>
 
 Leave `FACSIMILES_PDF_DIR` empty locally. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
 
+## Upload diagram crops
+
+If diagram crops are produced elsewhere, for example on the GPU farm, upload them to the same Google Drive inbox used for facsimile PDFs. 
+
+The archive contents should use this layout:
+
+```text
+<edition_key>/crops/*.jpg
+```
+
+For multi-volume editions, keep one crop directory per volume:
+
+```text
+<edition_key>_vol1/crops/*.jpg
+<edition_key>_vol2/crops/*.jpg
+```
+
+On the GPU farm, package one or more finished crop directories as `.zip`, `.tar.gz`, or `.tgz`. The directory names inside the archive must be the final edition or volume keys:
+
+```bash
+cd /path/to/gpu-output
+tar -czf /tmp/commentaria-diagram-crops.tar.gz Venice_1482
+```
+
+For several editions or volumes:
+
+```bash
+cd /path/to/gpu-output
+tar -czf /tmp/commentaria-diagram-crops.tar.gz Venice_1482 Paris_1615_vol1 Paris_1615_vol2
+```
+
+Upload that archive to the facsimile Google Drive inbox folder. The server import accepts both PDFs and crop archives from that folder.
+
+Then click **Import Facsimiles** from the user menu in the hub app. The import endpoint downloads the archive from Drive, installs the crop directories under `/data/euclides/commentaria-hub/facsimiles/diagrams`, clears stale metadata for the affected editions, regenerates diagram metadata, and deletes the successfully imported archive from Drive.
+
+Check one uploaded crop through the backend and through nginx:
+
+```bash
+curl -I http://127.0.0.1:8090/facsimiles/diagrams/Venice_1482/crops/5_Content_Illustration_4.jpg || true
+curl -I https://euclides.huma-num.fr/commentaria/facsimiles/diagrams/Venice_1482/crops/5_Content_Illustration_4.jpg || true
+```
+
 ## Import or download facsimile PDFs
 
 The API discovers local facsimile PDFs by scanning `FACSIMILES_PDF_DIR`. The filename is important: each PDF must be named `<edition_key>.pdf`, where `<edition_key>` is the edition key used by the metadata and UI, for example `Venice_1482.pdf`.
 
 ### Google Drive inbox
 
-The easiest day-to-day path is a Google Drive inbox folder. Upload one or more PDFs to that folder, using the `<edition_key>.pdf` naming convention. Then click **Import Facsimiles** from the user menu in the hub app, or call the API endpoint below. 
+The easiest day-to-day path is a Google Drive inbox folder. Upload one or more PDFs or diagram crop archives to that folder. PDFs must use the `<edition_key>.pdf` naming convention. Diagram crop archives must contain `<edition_key>/crops/*.jpg` directories as described above. Then click **Import Facsimiles** from the user menu in the hub app, or call the API endpoint below.
 
 The import endpoint:
 
-- lists PDFs in `FACSIMILES_GDRIVE_FOLDER_ID` using `rclone`;
+- lists PDFs and crop archives in `FACSIMILES_GDRIVE_FOLDER_ID` using `rclone`;
 - copies them into `FACSIMILES_PDF_DIR`;
 - creates or updates the local facsimile DB rows;
-- deletes only the successfully imported PDFs from the Drive folder.
+- installs crop archives into `FACSIMILES_DIAGRAMS_PATH`;
+- regenerates diagram crop metadata;
+- deletes only the successfully imported files from the Drive folder.
 
 To call it manually:
 
@@ -236,9 +280,11 @@ The endpoint returns JSON like:
 
 ```json
 {
-  "imported": ["Venice_1482.pdf", "Paris_1615.pdf"],
+  "importedPdfs": ["Venice_1482.pdf", "Paris_1615.pdf"],
+  "importedDiagramArchives": ["commentaria-diagram-crops.tar.gz"],
+  "importedDiagramCrops": ["Venice_1482", "Paris_1615_vol1", "Paris_1615_vol2"],
   "skipped": [],
-  "deleted": ["Venice_1482.pdf", "Paris_1615.pdf"]
+  "deleted": ["Venice_1482.pdf", "Paris_1615.pdf", "commentaria-diagram-crops.tar.gz"]
 }
 ```
 
