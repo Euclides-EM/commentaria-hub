@@ -48,7 +48,12 @@ func NewFacsimileService(facsimileStore *store.FacsimileSQL, facsimilesPDFDir, f
 }
 
 func (e *Facsimile) ListFacsimiles(editionIDs []string) ([]*model.Facsimile, error) {
-	return e.facsimileStore.ListFacsimiles(editionIDs)
+	facsimiles, err := e.facsimileStore.ListFacsimiles(editionIDs)
+	if err != nil {
+		return nil, err
+	}
+	e.setDiagramCropAvailability(facsimiles...)
+	return facsimiles, nil
 }
 
 func (e *Facsimile) GetFacsimile(facsimileID string) (*model.Facsimile, error) {
@@ -59,6 +64,7 @@ func (e *Facsimile) GetFacsimile(facsimileID string) (*model.Facsimile, error) {
 	if fac == nil {
 		return nil, fmt.Errorf("facsimile with id %s not found", facsimileID)
 	}
+	e.setDiagramCropAvailability(fac)
 	return fac, nil
 }
 
@@ -66,7 +72,12 @@ func (e *Facsimile) CreateFacsimile(f *model.Facsimile) (*model.Facsimile, error
 	f.ID = idgen.GenerateID(store.FacsimileIDPrefix)
 	f.CreatedAt = time.Now()
 	f.UpdatedAt = f.CreatedAt
-	return e.facsimileStore.InsertFacsimile(f)
+	created, err := e.facsimileStore.InsertFacsimile(f)
+	if err != nil {
+		return nil, err
+	}
+	e.setDiagramCropAvailability(created)
+	return created, nil
 }
 
 func (e *Facsimile) UpdateFacsimile(f *model.Facsimile) (*model.Facsimile, error) {
@@ -77,7 +88,12 @@ func (e *Facsimile) UpdateFacsimile(f *model.Facsimile) (*model.Facsimile, error
 	if existing == nil {
 		return nil, fmt.Errorf("facsimile with id %s not found", f.ID)
 	}
-	return e.facsimileStore.UpdateFacsimile(f)
+	updated, err := e.facsimileStore.UpdateFacsimile(f)
+	if err != nil {
+		return nil, err
+	}
+	e.setDiagramCropAvailability(updated)
+	return updated, nil
 }
 
 func (e *Facsimile) UpdateFromConfiguredSource() error {
@@ -219,6 +235,23 @@ func (e *Facsimile) listRemoteFacsimiles() ([]*model.Facsimile, error) {
 
 func (e *Facsimile) remoteEditionPDFURL(editionID string) string {
 	return e.remoteAPIURL + "/editions/" + url.PathEscape(editionID) + "/facsimile.pdf"
+}
+
+func (e *Facsimile) setDiagramCropAvailability(facsimiles ...*model.Facsimile) {
+	cropKeys, err := store.LoadDiagramDirectoryKeys(e.itemsMetadataStoreDir)
+	if err != nil {
+		log.Printf("failed to load diagram crop edition keys: %v", err)
+		return
+	}
+	if len(cropKeys) == 0 {
+		return
+	}
+	for _, facsimile := range facsimiles {
+		if facsimile == nil {
+			continue
+		}
+		_, facsimile.DiagramCropsAvailable = cropKeys[facsimile.EditionID]
+	}
 }
 
 type driveFileEntry struct {

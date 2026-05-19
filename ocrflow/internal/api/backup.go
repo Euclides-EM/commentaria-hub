@@ -46,7 +46,7 @@ func (h *Handlers) CreateBackup(r *http.Request) (any, error) {
 			Target: &job.Target{SyncToDrive: syncToDrive},
 		})
 	}
-	return h.deps.BackupSvc.CreateBackup(syncToDrive)
+	return h.deps.BackupSvc.CreateBackup(syncToDrive, nil)
 }
 
 // SyncBackupToDrive godoc
@@ -72,7 +72,7 @@ func (h *Handlers) SyncBackupToDrive(r *http.Request) (any, error) {
 			Target: &job.Target{BackupID: backupId},
 		})
 	}
-	if err := h.deps.BackupSvc.SyncBackupToDrive(backupId); err != nil {
+	if err := h.deps.BackupSvc.SyncBackupToDrive(backupId, nil); err != nil {
 		return nil, err
 	}
 	return map[string]string{"message": "backup synced to drive"}, nil

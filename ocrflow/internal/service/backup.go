@@ -108,7 +108,7 @@ func (s *Backup) SetCheckpointFunc(f func() error) {
 }
 
 // CreateBackup creates a new backup of the current system state.
-func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
+func (s *Backup) CreateBackup(syncToDrive bool, progress func(string)) (string, error) {
 	if err := s.ensureBackupDir(); err != nil {
 		return "", err
 	}
@@ -170,7 +170,7 @@ func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
 	}
 
 	if syncToDrive {
-		if err := s.syncBackupToDrive(dst, name); err != nil {
+		if err := s.syncBackupToDrive(dst, name, progress); err != nil {
 			return "", fmt.Errorf("create backup: sync to drive: %w", err)
 		}
 	}
@@ -178,11 +178,17 @@ func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
 	return strings.TrimSuffix(name, ".zip"), nil
 }
 
-func (s *Backup) syncBackupToDrive(localPath, filename string) error {
+func (s *Backup) syncBackupToDrive(localPath, filename string, progress func(string)) error {
 	if s.rclone.RemoteName == "" {
 		return errors.New("backup: rclone remote name is not configured")
 	}
-	if _, err := s.rclone.Run("copy", localPath, s.rclone.RemotePath(filename)); err != nil {
+	if progress == nil {
+		progress = func(message string) {
+			log.Printf("backup rclone progress: %s", strings.TrimSpace(message))
+		}
+	}
+	args := []string{"--progress", "--stats=10s", "--stats-one-line", "copy", localPath, s.rclone.RemotePath(filename)}
+	if _, err := s.rclone.RunStreaming(progress, args...); err != nil {
 		return err
 	}
 	if err := s.ensureMaxDriveBackups(); err != nil {
@@ -191,12 +197,12 @@ func (s *Backup) syncBackupToDrive(localPath, filename string) error {
 	return nil
 }
 
-func (s *Backup) SyncBackupToDrive(backupId string) error {
+func (s *Backup) SyncBackupToDrive(backupId string, progress func(string)) error {
 	zipPath, err := s.GetBackupFullPath(backupId)
 	if err != nil {
 		return err
 	}
-	if err := s.syncBackupToDrive(zipPath, filepath.Base(zipPath)); err != nil {
+	if err := s.syncBackupToDrive(zipPath, filepath.Base(zipPath), progress); err != nil {
 		return fmt.Errorf("sync backup to drive: %w", err)
 	}
 	log.Printf("completed sync backup to drive: %s", zipPath)

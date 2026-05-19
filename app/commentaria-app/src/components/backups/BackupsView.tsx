@@ -181,36 +181,48 @@ export function BackupsView() {
           </p>
         </div>
         {isAuthenticated && (
-          <div className="flex items-center gap-2">
-            <input
-              ref={zipInputRef}
-              type="file"
-              accept=".zip,application/zip"
-              className="hidden"
-              onChange={handleZipSelected}
-            />
-            <Button
-              variant="primary"
-              className="px-3 py-2 text-sm"
-              onClick={handleCreateBackup}
-              disabled={createBackupActive || createFromZipMutation.isPending}
-            >
-              {createMutation.isPending
-                ? 'Queueing...'
-                : jobStatusLabel(createBackupJob, 'Create backup')}
-            </Button>
-            <Button
-              variant="primary"
-              className="px-3 py-2 text-sm"
-              onClick={() => zipInputRef.current?.click()}
-              disabled={
-                createMutation.isPending || createFromZipMutation.isPending
-              }
-            >
-              {createFromZipMutation.isPending
-                ? 'Uploading...'
-                : 'Upload from zip'}
-            </Button>
+          <div className="flex flex-col items-end gap-1 min-w-0">
+            <div className="flex items-center gap-2">
+              <input
+                ref={zipInputRef}
+                type="file"
+                accept=".zip,application/zip"
+                className="hidden"
+                onChange={handleZipSelected}
+              />
+              <Button
+                variant="primary"
+                className="px-3 py-2 text-sm"
+                onClick={handleCreateBackup}
+                disabled={
+                  createBackupActive || createFromZipMutation.isPending
+                }
+              >
+                {createMutation.isPending
+                  ? 'Queueing...'
+                  : jobStatusLabel(createBackupJob, 'Create backup')}
+              </Button>
+              <Button
+                variant="primary"
+                className="px-3 py-2 text-sm"
+                onClick={() => zipInputRef.current?.click()}
+                disabled={
+                  createMutation.isPending || createFromZipMutation.isPending
+                }
+              >
+                {createFromZipMutation.isPending
+                  ? 'Uploading...'
+                  : 'Upload from zip'}
+              </Button>
+            </div>
+            {createBackupJob?.details ? (
+              <div
+                className="max-w-[34rem] truncate text-xs text-gray-500"
+                title={createBackupJob.details}
+              >
+                {createBackupJob.details}
+              </div>
+            ) : null}
           </div>
         )}
       </div>
@@ -272,39 +284,49 @@ export function BackupsView() {
                         )}
                       </td>
                       <td className="px-4 py-3">
-                        <div className="flex items-center justify-end gap-2">
-                          <Button
-                            variant="primary"
-                            className="px-2 py-1 text-xs"
-                            onClick={() => handleDownload(backupId)}
-                          >
-                            Download
-                          </Button>
-                          {isAuthenticated && (
-                            <>
-                              <Button
-                                variant="primary"
-                                className="px-2 py-1 text-xs"
-                                onClick={() => handleSyncToDrive(backupId)}
-                                disabled={
-                                  syncActive || restoreMutation.isPending
-                                }
-                              >
-                                {syncMutation.isPending &&
-                                syncMutation.variables === backupId
-                                  ? 'Queueing...'
-                                  : jobStatusLabel(syncJob, 'Sync to Drive')}
-                              </Button>
-                              <Button
-                                variant="danger"
-                                className="px-2 py-1 text-xs"
-                                onClick={() => setRestoreTargetId(backupId)}
-                                disabled={restoreMutation.isPending}
-                              >
-                                Restore
-                              </Button>
-                            </>
-                          )}
+                        <div className="flex flex-col items-end gap-1">
+                          <div className="flex items-center justify-end gap-2">
+                            <Button
+                              variant="primary"
+                              className="px-2 py-1 text-xs"
+                              onClick={() => handleDownload(backupId)}
+                            >
+                              Download
+                            </Button>
+                            {isAuthenticated && (
+                              <>
+                                <Button
+                                  variant="primary"
+                                  className="px-2 py-1 text-xs"
+                                  onClick={() => handleSyncToDrive(backupId)}
+                                  disabled={
+                                    syncActive || restoreMutation.isPending
+                                  }
+                                >
+                                  {syncMutation.isPending &&
+                                  syncMutation.variables === backupId
+                                    ? 'Queueing...'
+                                    : jobStatusLabel(syncJob, 'Sync to Drive')}
+                                </Button>
+                                <Button
+                                  variant="danger"
+                                  className="px-2 py-1 text-xs"
+                                  onClick={() => setRestoreTargetId(backupId)}
+                                  disabled={restoreMutation.isPending}
+                                >
+                                  Restore
+                                </Button>
+                              </>
+                            )}
+                          </div>
+                          {syncJob?.details ? (
+                            <div
+                              className="max-w-[42rem] truncate text-xs text-gray-500"
+                              title={syncJob.details}
+                            >
+                              {syncJob.details}
+                            </div>
+                          ) : null}
                         </div>
                       </td>
                     </tr>

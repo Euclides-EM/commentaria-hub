@@ -737,7 +737,12 @@ func (s *EditionCSV) loadAllCSVsOnce() (*preloadedEditionRows, error) {
 
 // loadDiagramDirectoryKeys reads diagram-directories.json and returns a set of edition keys.
 func (s *EditionCSV) loadDiagramDirectoryKeys() (map[string]struct{}, error) {
-	path := s.csvPath(relDiagramDirs)
+	return LoadDiagramDirectoryKeys(s.itemsMetadataDir)
+}
+
+// LoadDiagramDirectoryKeys reads diagram-directories.json and returns a set of edition keys.
+func LoadDiagramDirectoryKeys(itemsMetadataDir string) (map[string]struct{}, error) {
+	path := filepath.Join(itemsMetadataDir, relDiagramDirs)
 	data, err := os.ReadFile(path)
 	if err != nil {
 		if os.IsNotExist(err) {
@@ -751,6 +756,7 @@ func (s *EditionCSV) loadDiagramDirectoryKeys() (map[string]struct{}, error) {
 	}
 	out := make(map[string]struct{}, len(keys))
 	for _, k := range keys {
+		k = strings.TrimSpace(k)
 		if k != "" {
 			out[k] = struct{}{}
 		}

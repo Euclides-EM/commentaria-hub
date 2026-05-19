@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"strings"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -111,7 +112,7 @@ func (j *Job) exportToCommentaria(job *job.Job) error {
 }
 
 func (j *Job) createBackup(jb *job.Job) (map[string]string, error) {
-	backupID, err := j.backups.CreateBackup(jb.Target != nil && jb.Target.SyncToDrive)
+	backupID, err := j.backups.CreateBackup(jb.Target != nil && jb.Target.SyncToDrive, j.progressReporter(jb, "Syncing backup to Drive"))
 	if err != nil {
 		return nil, err
 	}
@@ -123,10 +124,27 @@ func (j *Job) syncBackupToDrive(jb *job.Job) (map[string]string, error) {
 	if jb.Target != nil {
 		backupID = jb.Target.BackupID
 	}
-	if err := j.backups.SyncBackupToDrive(backupID); err != nil {
+	if err := j.backups.SyncBackupToDrive(backupID, j.progressReporter(jb, "Syncing backup to Drive")); err != nil {
 		return nil, err
 	}
 	return map[string]string{"backup_id": backupID, "message": "backup synced to drive"}, nil
+}
+
+func (j *Job) progressReporter(jb *job.Job, prefix string) func(string) {
+	var last string
+	return func(message string) {
+		message = strings.TrimSpace(message)
+		if message == "" || message == last {
+			return
+		}
+		last = message
+		if prefix != "" {
+			message = prefix + ": " + message
+		}
+		jb.Details = message
+		jb.UpdatedAt = time.Now()
+		j.jobsStore.Update(jb)
+	}
 }
 
 func (j *Job) run(jb *job.Job, actionName string, action func() (any, error)) {
