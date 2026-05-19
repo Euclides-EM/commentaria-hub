@@ -11,7 +11,7 @@ import (
 // @Description  Get a list of supported integration platforms.
 // @Tags         Integrations
 // @Produce      json
-// @Success      200  {array}   integration.Platform
+// @Success      200  {array}   job.Platform
 // @Router       /integrations/platforms [get]
 func (h *Handlers) ListIntegrationPlatforms(r *http.Request) (any, error) {
 	return job.AllTypes, nil
