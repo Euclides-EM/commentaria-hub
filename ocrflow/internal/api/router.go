@@ -36,7 +36,7 @@ type Dependencies struct {
 	FeaturePropertySvc      *service.FeatureProperty
 	DiagramCropsSvc         *service.DiagramCrops
 	USTC                    *service.USTC
-	IntegrationJobSvc       *service.IntegrationJob
+	JobSvc                  *service.Job
 	GeoSvc                  *service.Geo
 	VCSMgt                  *service.VCSMgt
 	BackupSvc               *service.Backup

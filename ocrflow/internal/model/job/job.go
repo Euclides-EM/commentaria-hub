@@ -1,4 +1,4 @@
-package integration
+package job
 
 import (
 	"time"
@@ -20,16 +20,17 @@ var AllTypes = []Platform{PlatformRoboflow, PlatformEScripturium, PlatformCommen
 type Task string
 
 const (
-	Export Task = "Export"
+	Export               Task = "Export"
+	FacsimileDriveImport Task = "FacsimileDriveImport"
 )
 
-type JobStatus string
+type Status string
 
 const (
-	JobStatusPending   JobStatus = "pending"
-	JobStatusRunning   JobStatus = "running"
-	JobStatusCompleted JobStatus = "completed"
-	JobStatusFailed    JobStatus = "failed"
+	StatusPending   Status = "pending"
+	StatusRunning   Status = "running"
+	StatusCompleted Status = "completed"
+	StatusFailed    Status = "failed"
 )
 
 type Job struct {
@@ -37,7 +38,7 @@ type Job struct {
 	Task        Task                  `json:"task"`
 	Target      *JobTarget            `json:"target"`
 	Annotation  *annotation.Reference `json:"annotation,omitempty"`
-	Status      JobStatus             `json:"status" readonly:"true"`
+	Status      Status                `json:"status" readonly:"true"`
 	FinishedAt  *time.Time            `json:"finished_at,omitempty" readonly:"true"`
 	Details     string                `json:"details,omitempty"  readonly:"true"`
 }

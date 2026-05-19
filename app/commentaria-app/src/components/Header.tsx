@@ -5,6 +5,8 @@ import { BreadcrumbNav } from './BreadcrumbNav.tsx'
 import { Button } from './core/Button'
 import { useAppState } from '../context/useAppState.ts'
 import { API_BASE_URL } from '../config/api.ts'
+import { useQueryClient } from '@tanstack/react-query'
+import { nonCompletedIntegrationJobsQueryKey } from '../queries/integrations.ts'
 
 interface HeaderProps {
   onShowLogin: () => void
@@ -13,6 +15,7 @@ interface HeaderProps {
 export function Header({ onShowLogin }: HeaderProps) {
   const { token, username, clearAuth } = useAuthStore()
   const { setState } = useAppState()
+  const queryClient = useQueryClient()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [cleanupRequested, setCleanupRequested] = useState(false)
   const [facsimileImportStatus, setFacsimileImportStatus] = useState<
@@ -65,7 +68,7 @@ export function Header({ onShowLogin }: HeaderProps) {
       return
     }
     setFacsimileImportStatus('running')
-    void fetch(`${API_BASE_URL}/facsimilies/import-from-drive`, {
+    void fetch(`${API_BASE_URL}/facsimilies/import-from-drive?async=true`, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${token}`,
@@ -76,6 +79,9 @@ export function Header({ onShowLogin }: HeaderProps) {
           throw new Error(await response.text())
         }
         setFacsimileImportStatus('done')
+        void queryClient.invalidateQueries({
+          queryKey: nonCompletedIntegrationJobsQueryKey(),
+        })
       })
       .catch(() => {
         setFacsimileImportStatus('failed')
@@ -163,7 +169,7 @@ export function Header({ onShowLogin }: HeaderProps) {
                       {facsimileImportStatus === 'running'
                         ? 'Importing facsimiles...'
                         : facsimileImportStatus === 'done'
-                          ? 'Import complete'
+                          ? 'Import queued'
                           : facsimileImportStatus === 'failed'
                             ? 'Import failed'
                             : 'Import Facsimiles'}

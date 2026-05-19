@@ -4,8 +4,11 @@ import (
 	"fmt"
 	"net/http"
 	"path/filepath"
+	"strconv"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/job"
 )
 
 // ListFacsimiles godoc
@@ -93,9 +96,18 @@ func (h *Handlers) UpdateFacsimile(r *http.Request) (any, error) {
 // @Tags         Facsimiles
 // @Produce      json
 // @Security 	 BearerAuth
+// @Param        async  query     bool  false  "Create a background import job instead of waiting for completion"
 // @Success      200  {object}  model.FacsimileDriveImportResult
+// @Success      200  {object}  integration.Job
 // @Router       /facsimilies/import-from-drive [post]
 func (h *Handlers) ImportFacsimilesFromDrive(r *http.Request) (any, error) {
+	async, err := strconv.ParseBool(r.URL.Query().Get("async"))
+	if err == nil && async {
+		return h.deps.JobSvc.CreateJob(&job.Job{
+			Task: job.FacsimileDriveImport,
+			Meta: common.NewMeta("").WithName("Import facsimiles from Drive").WithDescription("Import PDFs and diagram crops from the configured Google Drive inbox"),
+		})
+	}
 	return h.deps.FacsimileSvc.ImportFromDriveInbox()
 }
 

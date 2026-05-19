@@ -211,7 +211,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeaturePropertySvc:      service.NewFeatureProperty(),
 		DiagramCropsSvc:         diagramCropsSvc,
 		USTC:                    service.NewUSTC(),
-		IntegrationJobSvc:       service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
+		JobSvc:                  service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, facsimileSvc),
 		VCSMgt:                  vcsMgtSvc,
 		BackupSvc:               bckSvc,
 	}

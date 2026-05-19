@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/integration"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/job"
 )
 
 // ListIntegrationPlatforms godoc
@@ -14,7 +14,7 @@ import (
 // @Success      200  {array}   integration.Platform
 // @Router       /integrations/platforms [get]
 func (h *Handlers) ListIntegrationPlatforms(r *http.Request) (any, error) {
-	return integration.AllTypes, nil
+	return job.AllTypes, nil
 }
 
 // ListIntegrationJobs godoc
@@ -26,7 +26,7 @@ func (h *Handlers) ListIntegrationPlatforms(r *http.Request) (any, error) {
 // @Failure 500 {string} string "Internal Server Error"
 // @Router /integrations/jobs [get]
 func (h *Handlers) ListIntegrationJobs(request *http.Request) (any, error) {
-	return h.deps.IntegrationJobSvc.ListIntegrationJobs()
+	return h.deps.JobSvc.ListIntegrationJobs()
 }
 
 // CreateIntegrationJobs godoc
@@ -40,11 +40,11 @@ func (h *Handlers) ListIntegrationJobs(request *http.Request) (any, error) {
 // @Security BearerAuth
 // @Router /integrations/jobs [post]
 func (h *Handlers) CreateIntegrationJobs(r *http.Request) (any, error) {
-	var jobs integration.Jobs
+	var jobs job.Jobs
 	if err := DecodeBody(r, &jobs); err != nil {
 		return nil, err
 	}
-	return h.deps.IntegrationJobSvc.CreateIntegrationJobs(&jobs)
+	return h.deps.JobSvc.CreateJobs(&jobs)
 }
 
 // GetIntegrationJob godoc
@@ -60,5 +60,5 @@ func (h *Handlers) GetIntegrationJob(request *http.Request) (any, error) {
 	if err != nil {
 		return nil, err
 	}
-	return h.deps.IntegrationJobSvc.GetIntegrationJob(jobId)
+	return h.deps.JobSvc.GetIntegrationJob(jobId)
 }
