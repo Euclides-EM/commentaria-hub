@@ -209,139 +209,17 @@ FACSIMILES_REMOTE_AUTH_TOKEN=<your-github-token>
 
 Leave `FACSIMILES_PDF_DIR` empty locally. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
 
-## Upload diagram crops
-
-If diagram crops are produced elsewhere, for example on the GPU farm, upload them to the same Google Drive inbox used for facsimile PDFs. 
-
-The archive contents should use this layout:
-
-```text
-<edition_key>/crops/*.jpg
-```
-
-For multi-volume editions, keep one crop directory per volume:
-
-```text
-<edition_key>_vol1/crops/*.jpg
-<edition_key>_vol2/crops/*.jpg
-```
-
-On the GPU farm, package one or more finished crop directories as `.zip`, `.tar.gz`, or `.tgz`. The directory names inside the archive must be the final edition or volume keys:
-
-```bash
-cd /path/to/gpu-output
-tar -czf /tmp/commentaria-diagram-crops.tar.gz Venice_1482
-```
-
-For several editions or volumes:
-
-```bash
-cd /path/to/gpu-output
-tar -czf /tmp/commentaria-diagram-crops.tar.gz Venice_1482 Paris_1615_vol1 Paris_1615_vol2
-```
-
-Upload that archive to the facsimile Google Drive inbox folder. The server import accepts both PDFs and crop archives from that folder.
-
-Then click **Import Facsimiles** from the user menu in the hub app. The import endpoint downloads the archive from Drive, installs the crop directories under `/data/euclides/commentaria-hub/facsimiles/diagrams`, clears stale metadata for the affected editions, regenerates diagram metadata, and deletes the successfully imported archive from Drive.
-
-Check one uploaded crop through the backend and through nginx:
-
-```bash
-curl -I http://127.0.0.1:8090/facsimiles/diagrams/Venice_1482/crops/5_Content_Illustration_4.jpg || true
-curl -I https://euclides.huma-num.fr/commentaria/facsimiles/diagrams/Venice_1482/crops/5_Content_Illustration_4.jpg || true
-```
-
-## Import or download facsimile PDFs
-
-The API discovers local facsimile PDFs by scanning `FACSIMILES_PDF_DIR`. The filename is important: each PDF must be named `<edition_key>.pdf`, where `<edition_key>` is the edition key used by the metadata and UI, for example `Venice_1482.pdf`.
-
-### Google Drive inbox
-
-The easiest day-to-day path is a Google Drive inbox folder. Upload one or more PDFs or diagram crop archives to that folder. PDFs must use the `<edition_key>.pdf` naming convention. Diagram crop archives must contain `<edition_key>/crops/*.jpg` directories as described above. Then click **Import Facsimiles** from the user menu in the hub app, or call the API endpoint below.
-
-The import endpoint:
-
-- lists PDFs and crop archives in `FACSIMILES_GDRIVE_FOLDER_ID` using `rclone`;
-- copies them into `FACSIMILES_PDF_DIR`;
-- creates or updates the local facsimile DB rows;
-- installs crop archives into `FACSIMILES_DIAGRAMS_PATH`;
-- regenerates diagram crop metadata;
-- deletes only the successfully imported files from the Drive folder.
-
-To call it manually:
-
-```bash
-curl -X POST \
-  -H "Authorization: Bearer <github-token>" \
-  http://127.0.0.1:8090/api/v1/facsimilies/import-from-drive
-```
-
-The endpoint returns JSON like:
-
-```json
-{
-  "importedPdfs": ["Venice_1482.pdf", "Paris_1615.pdf"],
-  "importedDiagramArchives": ["commentaria-diagram-crops.tar.gz"],
-  "importedDiagramCrops": ["Venice_1482", "Paris_1615_vol1", "Paris_1615_vol2"],
-  "skipped": [],
-  "deleted": ["Venice_1482.pdf", "Paris_1615.pdf", "commentaria-diagram-crops.tar.gz"]
-}
-```
-
-To download a stored PDF through the API, pass an auth bearer token:
-
-```bash
-curl -fL \
-  -H "Authorization: Bearer <github-token>" \
-  -o Venice_1482.pdf \
-  http://127.0.0.1:8090/api/v1/editions/Venice_1482/facsimile.pdf
-```
-
-You can also download by facsimile ID:
-
-```bash
-curl -fL \
-  -H "Authorization: Bearer <github-token>" \
-  -o Venice_1482.pdf \
-  http://127.0.0.1:8090/api/v1/facsimilies/<facsimile-id>/pdf
-```
-
 ## Automatic Backup to Google Drive (optional)
 
-On your local machine, set up rclone with a new remote for your Google Drive account:
-```bash
-sudo -v ; curl https://rclone.org/install.sh | sudo bash
-rclone config // an interactive command, choose the following:
-n // new remote
-G // remote name
-19 // GDrive
-4***k.apps.googleusercontent.com // clientid
-G***9G // client secret
-1 // full access
-Service account file leave empty
-No // dont edit advanced config
-Yes // authenticate with browser for the your real account, hit the “I trust Liri” warnings…
-```
+First, set up a Google Drive folder for the backups. Use the instructions in the [Google Drive Integration](GOOGLE_DRIVE_INTEGRATION.md) doc to create a new Google Drive API project, create credentials, and set up `rclone` on the server with those credentials.
 
-Then, to get the config file path, run:
-```bash
-rclone config file
-```
-Copy the contents of that file.
+Now, you can create a new folder in your Google Drive, for example "commentaria-hub-backups". Note its folder ID from the URL. In the server’s `.env` file for the API, set the `RCLONE_GDRIVE_FOLDER_ID` variable to the ID of the Google Drive folder where you want the backups to be stored. You can find this ID in the URL when you open the folder in your browser. For example, if the URL is `https://drive.google.com/drive/folders/1a2b3c4d5e6f7g8h9i0j`, then the folder ID is `1a2b3c4d5e6f7g8h9i0j`.
 
-On the server, install rclone as root:
-```bash
-sudo -v ; curl https://rclone.org/install.sh | sudo bash
-```
+## Facsimile PDF Inbox Folder (optional)
 
-Then switch to the `euclides` user and create the config file with the same contents as your local machine:
-```bash
-sudo -iu euclides
-rclone config file
-```
-This will show you the path where rclone expects the config file, likely `~/.config/rclone/rclone.conf`. Create that file and paste the contents from your local machine.
+If you want to use the facsimile PDF inbox feature, create a new folder in your Google Drive for the incoming PDFs, for example "commentaria-hub-facsimile-inbox". Note its folder ID from the URL. In the server’s `.env` file for the API, set the `FACSIMILES_GDRIVE_FOLDER_ID` variable to the ID of this Google Drive folder.
 
-Now, in the server’s `.env` file for the API, set the `RCLONE_GDRIVE_FOLDER_ID` variable to the ID of the Google Drive folder where you want the backups to be stored. You can find this ID in the URL when you open the folder in your browser. For example, if the URL is `https://drive.google.com/drive/folders/1a2b3c4d5e6f7g8h9i0j`, then the folder ID is `1a2b3c4d5e6f7g8h9i0j`.
+The Google Drive set up is the same as for the backups, so if you already set up `rclone` for the backups, you can just create a new folder in your Drive and add its ID to the `.env` file.
 
 ## Add env file
 
