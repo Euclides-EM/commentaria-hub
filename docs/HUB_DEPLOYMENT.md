@@ -215,6 +215,8 @@ First, set up a Google Drive folder for the backups. Use the instructions in the
 
 Now, you can create a new folder in your Google Drive, for example "commentaria-hub-backups". Note its folder ID from the URL. In the server’s `.env` file for the API, set the `RCLONE_GDRIVE_FOLDER_ID` variable to the ID of the Google Drive folder where you want the backups to be stored. You can find this ID in the URL when you open the folder in your browser. For example, if the URL is `https://drive.google.com/drive/folders/1a2b3c4d5e6f7g8h9i0j`, then the folder ID is `1a2b3c4d5e6f7g8h9i0j`.
 
+The app backup is a ZIP backup for the database, models, and metadata. The large facsimile PDFs and diagram crops are backed up separately with a resumable `rclone` media mirror. See [Facsimile Media Backup](FACSIMILE_MEDIA_BACKUP.md) for the physical-drive and cloud backup runbook.
+
 ## Facsimile PDF Inbox Folder (optional)
 
 If you want to use the facsimile PDF inbox feature, create a new folder in your Google Drive for the incoming PDFs, for example "commentaria-hub-facsimile-inbox". Note its folder ID from the URL. In the server’s `.env` file for the API, set the `FACSIMILES_GDRIVE_FOLDER_ID` variable to the ID of this Google Drive folder.
