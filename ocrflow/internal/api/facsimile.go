@@ -98,7 +98,7 @@ func (h *Handlers) UpdateFacsimile(r *http.Request) (any, error) {
 // @Security 	 BearerAuth
 // @Param        async  query     bool  false  "Create a background import job instead of waiting for completion"
 // @Success      200  {object}  model.FacsimileDriveImportResult
-// @Success      200  {object}  integration.Job
+// @Success      200  {object}  job.Job
 // @Router       /facsimilies/import-from-drive [post]
 func (h *Handlers) ImportFacsimilesFromDrive(r *http.Request) (any, error) {
 	async, err := strconv.ParseBool(r.URL.Query().Get("async"))

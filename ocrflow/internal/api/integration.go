@@ -22,7 +22,7 @@ func (h *Handlers) ListIntegrationPlatforms(r *http.Request) (any, error) {
 // @Description Retrieves a list of all integration jobs
 // @Tags Integration
 // @Produce json
-// @Success 200 {array} integration.Job
+// @Success 200 {array} job.Job
 // @Failure 500 {string} string "Internal Server Error"
 // @Router /integrations/jobs [get]
 func (h *Handlers) ListIntegrationJobs(request *http.Request) (any, error) {
@@ -35,8 +35,8 @@ func (h *Handlers) ListIntegrationJobs(request *http.Request) (any, error) {
 // @Tags Integration
 // @Accept json
 // @Produce json
-// @Param job body integration.Jobs true "Integration Job Details"
-// @Success 201 {object} integration.Jobs
+// @Param job body job.Jobs true "Integration Job Details"
+// @Success 201 {object} job.Jobs
 // @Security BearerAuth
 // @Router /integrations/jobs [post]
 func (h *Handlers) CreateIntegrationJobs(r *http.Request) (any, error) {
@@ -53,7 +53,7 @@ func (h *Handlers) CreateIntegrationJobs(r *http.Request) (any, error) {
 // @Tags Integration
 // @Produce json
 // @Param jobId path string true "Integration Job ID"
-// @Success 200 {object} integration.Job
+// @Success 200 {object} job.Job
 // @Router /integrations/jobs/{jobId} [get]
 func (h *Handlers) GetIntegrationJob(request *http.Request) (any, error) {
 	jobId, err := extractJobID(request)
