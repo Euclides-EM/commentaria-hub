@@ -327,6 +327,14 @@ export function FeatureCard({
                       : '—'}
                   </div>
                 )}
+                {revision.prompt && (
+                  <div>
+                    <span className="font-semibold">AI:</span>{' '}
+                    {[revision.ai_provider, revision.ai_model]
+                      .filter(Boolean)
+                      .join(' / ') || '—'}
+                  </div>
+                )}
                 <div className="text-xs text-gray-500">
                   Created: {formatDate(revision.created_at)}
                 </div>

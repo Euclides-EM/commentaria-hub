@@ -38,6 +38,7 @@ type EnvConfig struct {
 	FacsimilesGDriveFolderID string `env:"FACSIMILES_GDRIVE_FOLDER_ID" envDefault:""`
 	FacsimilesRemoteAPIURL   string `env:"FACSIMILES_REMOTE_API_URL" envDefault:""`
 	OpenAIAPIKey             string `env:"OPENAI_API_KEY"`
+	OllamaBaseURL            string `env:"OLLAMA_BASE_URL" envDefault:""`
 
 	SkipDiagramCropsGeneration bool     `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`
 	OptMigrations              []string `env:"OPT_MIGRATIONS" envDefault:""`

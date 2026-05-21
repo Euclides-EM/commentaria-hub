@@ -46,6 +46,11 @@ type executionActions struct {
 	categorizerFeatures  []*feature.Feature
 }
 
+type aiConfigKey struct {
+	provider feature.AIProvider
+	model    string
+}
+
 func (a *executionActions) empty() bool {
 	return len(a.categorizerRevisions) == 0 && len(a.promptRevisions) == 0
 }
@@ -333,14 +338,38 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 			results = append(results, categorizerResults...)
 		}
 		if len(actions.promptRevisions) > 0 {
-			promptResults, err := fe.annotationPromptApplyFunc(ann, key, actions.promptRevisions, actions.promptFeatures, exec.ID, textLanguage, fullText)()
-			if err != nil {
-				execErrs = append(execErrs, err)
+			for _, group := range groupPromptRevisionsByAIConfig(actions.promptRevisions, actions.promptFeatures) {
+				promptResults, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, exec.ID, textLanguage, fullText)()
+				if err != nil {
+					execErrs = append(execErrs, err)
+				}
+				results = append(results, promptResults...)
 			}
-			results = append(results, promptResults...)
 		}
 		return results, errors.Join(execErrs...)
 	}
+}
+
+type promptRevisionGroup struct {
+	revisions []*feature.Revision
+	features  []*feature.Feature
+}
+
+func groupPromptRevisionsByAIConfig(revisions []*feature.Revision, features []*feature.Feature) []promptRevisionGroup {
+	groupIndexes := make(map[aiConfigKey]int)
+	var groups []promptRevisionGroup
+	for i, rev := range revisions {
+		key := aiConfigKey{provider: rev.AIProvider, model: rev.AIModel}
+		groupIndex, ok := groupIndexes[key]
+		if !ok {
+			groupIndexes[key] = len(groups)
+			groups = append(groups, promptRevisionGroup{})
+			groupIndex = len(groups) - 1
+		}
+		groups[groupIndex].revisions = append(groups[groupIndex].revisions, rev)
+		groups[groupIndex].features = append(groups[groupIndex].features, features[i])
+	}
+	return groups
 }
 
 func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) applyFunc {
@@ -348,6 +377,8 @@ func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key s
 		if strings.TrimSpace(fullText) == "" {
 			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
 		}
+		aiProvider := frs[0].AIProvider
+		aiModel := frs[0].AIModel
 		dsPromptDesc := "historical title pages of translations of Euclid's Elements"
 		dsPromptShortDesc := "title page"
 		var definitions []string
@@ -387,9 +418,9 @@ Transcribed text:
 %s
 `, dsPromptDesc, dsPromptShortDesc, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
 
-		rawResponse, err := fe.llmClient.Exec(prompt, "")
+		rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
 		if err != nil {
-			return nil, fmt.Errorf("failed to execute LLM prompt for dataset %s and key %s: %w", ann.DatasetID, key, err)
+			return nil, fmt.Errorf("failed to execute LLM prompt for dataset %s and key %s using %s/%s: %w", ann.DatasetID, key, aiProvider, aiModel, err)
 		}
 		rawFields, err := llm.ParseJSON[map[string]json.RawMessage](rawResponse)
 		if err != nil {

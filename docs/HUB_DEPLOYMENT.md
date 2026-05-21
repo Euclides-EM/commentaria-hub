@@ -209,6 +209,19 @@ GITHUB_TOKEN=<your-github-token>
 
 Leave `FACSIMILES_PDF_DIR` empty locally. `GITHUB_TOKEN` should be a GitHub token for an allowlisted user; if it is not set, the API falls back to `GITHUB_TOKEN`. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
 
+## LLM integration
+
+Feature revisions must declare both `ai_provider` and `ai_model`. Existing revisions are migrated to `openai` with model `gpt-5-mini`; new revisions must provide these values explicitly.
+
+Configure the providers needed by those revisions in the API environment:
+
+```dotenv
+OPENAI_API_KEY=<openai-api-key>
+OLLAMA_BASE_URL=https://ai-tools-llm-node-a.huma-num.fr/***/
+```
+
+For Ollama revisions, set `ai_provider` to `ollama` and `ai_model` to the exact model name available on that server. The API appends `/api/generate` to `OLLAMA_BASE_URL`, preserving any path prefix in the URL.
+
 ## Automatic Backup to Google Drive (optional)
 
 First, set up a Google Drive folder for the backups. Use the instructions in the [Google Drive Integration](GOOGLE_DRIVE_INTEGRATION.md) doc to create a new Google Drive API project, create credentials, and set up `rclone` on the server with those credentials.
@@ -243,6 +256,7 @@ GITHUB_TOKEN=***
 ROBOFLOW_API_KEY=***
 UV_PATH=<path/to/uv/executable/if/not/in/PATH>
 OPENAI_API_KEY=s***A
+OLLAMA_BASE_URL=https://ai-tools-llm-node-a.huma-num.fr/***/
 LOGS_SYSTEMD_UNIT=commentaria-hub-api
 BACKUP_GDRIVE_FOLDER_ID=<your-google-drive-folder-id-for-backups>
 FACSIMILES_GDRIVE_FOLDER_ID=<your-google-drive-folder-id-for-facsimile-pdf-inbox>
@@ -254,7 +268,7 @@ FACSIMILES_DIAGRAMS_URL=/commentaria/facsimiles/diagrams
 Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_private` file.
 Use the `ESCRIPTORIUM_USERNAME` and `ESCRIPTORIUM_PASSWORD` that you set up in the eScriptorium deployment, you can check it by running:
 Use the output of `which uv` for `UV_PATH`.
-The `OPENAI_API_KEY` is only needed if you want to use the feature execution functionality with prompts.
+`OPENAI_API_KEY` is needed for prompt revisions with `ai_provider=openai`. `OLLAMA_BASE_URL` is needed for prompt revisions with `ai_provider=ollama`.
 
 ```bash
 sudo -iu euclides

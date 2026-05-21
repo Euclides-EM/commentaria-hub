@@ -64,7 +64,7 @@ export function FeatureExecutionsTab() {
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false)
 
   const featuresQueryKey = ['features', 'revisions', datasetId]
-  const executionsQueryKey = ['executions', datasetId]
+  const executionsQueryKey = ['executions', 'dataset', datasetId]
 
   const featuresQuery = useQuery({
     queryKey: featuresQueryKey,
@@ -79,7 +79,10 @@ export function FeatureExecutionsTab() {
   const executionsQuery = useQuery({
     queryKey: executionsQueryKey,
     queryFn: () =>
-      ExecutionsService.getFeaturesExecutions({ dataset: datasetId }),
+      ExecutionsService.getFeaturesExecutions({
+        scope: 'dataset',
+        dataset: datasetId,
+      }),
     refetchInterval: 5 * 1000,
     refetchOnWindowFocus: false,
   })
