@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 )
 
 func extractDatasetAndAnnotationIDs(r *http.Request) (string, string, error) {
@@ -26,28 +28,56 @@ func extractDatasetID(r *http.Request) (string, error) {
 	return datasetID, nil
 }
 
-func extractFeatureID(r *http.Request) (string, string, error) {
+func extractDatasetFeatureID(r *http.Request) (string, string, error) {
 	dataSetId, err := extractDatasetID(r)
 	if err != nil {
 		return "", "", err
 	}
-	featureId := r.PathValue("featureId")
-	if featureId == "" {
-		return "", "", fmt.Errorf("missing feature ID")
+	featureI, err := extractFeatureID(r)
+	if err != nil {
+		return "", "", err
 	}
-	return dataSetId, featureId, nil
+	return dataSetId, featureI, nil
 }
 
-func extractFeatureRevisionID(r *http.Request) (string, string, string, error) {
-	dataSetId, featureId, err := extractFeatureID(r)
+func extractFeatureID(r *http.Request) (string, error) {
+	featureId := r.PathValue("featureId")
+	if featureId == "" {
+		return "", fmt.Errorf("missing feature ID")
+	}
+	return featureId, nil
+}
+
+func extractRevisionID(r *http.Request) (string, error) {
+	revisionId := r.PathValue("revisionId")
+	if revisionId == "" {
+		return "", fmt.Errorf("missing revision ID")
+	}
+	return revisionId, nil
+}
+
+func extractDatasetFeatureRevisionID(r *http.Request) (string, string, string, error) {
+	dataSetId, featureId, err := extractDatasetFeatureID(r)
 	if err != nil {
 		return "", "", "", err
 	}
-	revisionId := r.PathValue("revisionId")
-	if revisionId == "" {
-		return "", "", "", fmt.Errorf("missing revision ID")
+	revisionId, err := extractRevisionID(r)
+	if err != nil {
+		return "", "", "", err
 	}
 	return dataSetId, featureId, revisionId, nil
+}
+
+func extractFeatureRevisionID(r *http.Request) (string, string, error) {
+	featureId, err := extractFeatureID(r)
+	if err != nil {
+		return "", "", err
+	}
+	revisionId, err := extractRevisionID(r)
+	if err != nil {
+		return "", "", err
+	}
+	return featureId, revisionId, nil
 }
 
 func extractExecutionID(r *http.Request) (string, error) {
@@ -80,6 +110,21 @@ func extractGroupId(request *http.Request) (string, error) {
 		return "", fmt.Errorf("missing group ID")
 	}
 	return groupId, nil
+}
+
+func extractScope(r *http.Request) (feature.DefScope, error) {
+	scopeType := feature.ScopeType(r.URL.Query().Get("scope"))
+	if scopeType == "" {
+		return feature.DefScope{}, fmt.Errorf("missing scope type")
+	}
+	if scopeType == feature.ScopeTypeEditions {
+		return feature.NewEditionDefScope(), nil
+	}
+	if scopeType == feature.ScopeTypeDataset {
+		datasetId := r.URL.Query().Get("dataset")
+		return feature.NewDatasetDefScope(datasetId), nil
+	}
+	return feature.DefScope{}, fmt.Errorf("invalid scope")
 }
 
 func DecodeBody(r *http.Request, dst any) error {

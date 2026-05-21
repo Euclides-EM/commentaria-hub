@@ -80,7 +80,7 @@ func (t *AnnotationTEI) normalizeFeatureIDs(datasetID string, features []string)
 	}
 
 	// if no features specified, default to all features for the dataset.
-	allFeatures, err := t.featureSvc.ListFeatures(datasetID, nil)
+	allFeatures, err := t.featureSvc.ListFeatures(feature.NewDatasetDefScope(datasetID), nil)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list features for dataset %s: %v", datasetID, err)
 	}
@@ -120,11 +120,11 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 
 func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, features []string, fallbackToOrigin bool) (*teimodel.TEI, error) {
 	// Load results + feature definitions first (shared by both ALTO and TXT paths)
-	results, err := t.resultSvc.ListResults(ann.DatasetID, ann.ID, []string{pageNumOrKey}, features, fallbackToOrigin)
+	results, err := t.resultSvc.ListResults(feature.NewDatasetExecScope(ann.DatasetID, ann.ID), []string{pageNumOrKey}, features, fallbackToOrigin)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list results for annotation %s: %v", ann.ID, err)
 	}
-	feats, err := t.featureSvc.ListFeatures(ann.DatasetID, []feature.ExpandOptions{feature.ExpandRevisions})
+	feats, err := t.featureSvc.ListFeatures(feature.NewDatasetDefScope(ann.DatasetID), []feature.ExpandOptions{feature.ExpandRevisions})
 	if err != nil {
 		return nil, fmt.Errorf("failed to list features for annotation %s: %v", ann.ID, err)
 	}
@@ -351,7 +351,7 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 
 			matches := textmatch.FindLoosePhraseMatches(fullContent, surface)
 			if len(matches) == 0 {
-				log.Printf("warning: no matches found for result, skipping: feature=%s key=%s dataset=%s annotatio=%s", res.FeatureID, res.PageKey, res.DatasetID, res.AnnotationID)
+				log.Printf("warning: no matches found for result, skipping: feature=%s key=%s dataset=%s annotatio=%s", res.FeatureID, res.Key, res.Scope.DatasetID, res.Scope.AnnotationID)
 			}
 			for _, match := range matches {
 				startIndex := match[0]

@@ -20,47 +20,32 @@ func NewRevision(store *fpstore.FeatureRevisionSQL, featureProperties *FeaturePr
 	return &Revision{store: store, featureProperties: featureProperties}
 }
 
-func (fr *Revision) ListFeatureRevisions(datasetID, featureId string) ([]*feature.Revision, error) {
-	return fr.store.ListByFeatureID(datasetID, featureId)
+func (fr *Revision) ListFeatureRevisions(featureId string) ([]*feature.Revision, error) {
+	return fr.store.ListByFeatureID(featureId)
 }
 
-func (fr *Revision) CreateFeatureRevision(datasetID, featureId string, m *feature.Revision) (*feature.Revision, error) {
+func (fr *Revision) ListFeatureRevisionsInScope(scope feature.DefScope, featureId string) ([]*feature.Revision, error) {
+	return fr.store.ListByFeatureIDInScope(scope, featureId)
+}
+
+func (fr *Revision) CreateFeatureRevision(featureId string, m *feature.Revision) (*feature.Revision, error) {
 	if err := fr.validate(m); err != nil {
 		return nil, err
 	}
-	m.DatasetID = datasetID
 	m.FeatureID = featureId
 	m.ID = idgen.GenerateID("rev")
-	if err := fr.store.Create(datasetID, featureId, m); err != nil {
+	if err := fr.store.Create(m); err != nil {
 		return nil, err
 	}
 	return m, nil
 }
 
-func (fr *Revision) GetFeatureRevision(datasetID, featureId, revisionId string) (*feature.Revision, error) {
-	return fr.store.GetByID(datasetID, featureId, revisionId)
+func (fr *Revision) GetFeatureRevision(featureId, revisionId string) (*feature.Revision, error) {
+	return fr.store.GetByID(featureId, revisionId)
 }
 
-func (fr *Revision) DeleteFeatureRevision(datasetID, featureId, revisionId string) error {
-	return fr.store.Delete(datasetID, featureId, revisionId)
-}
-
-func (fr *Revision) UpdateFeatureRevision(datasetID, featureId, revisionId string, m *feature.Revision) (*feature.Revision, error) {
-	if err := fr.validate(m); err != nil {
-		return nil, err
-	}
-	existing, err := fr.store.GetByID(datasetID, featureId, revisionId)
-	if err != nil {
-		return nil, err
-	}
-	existing.Name = m.Name
-	existing.Description = m.Description
-	existing.Prompt = m.Prompt
-	existing.Categorizer = m.Categorizer
-	if err := fr.store.Update(datasetID, featureId, revisionId, existing); err != nil {
-		return nil, err
-	}
-	return existing, nil
+func (fr *Revision) GetFeatureRevisionInScope(scope feature.DefScope, featureId, revisionId string) (*feature.Revision, error) {
+	return fr.store.GetByIDInScope(scope, featureId, revisionId)
 }
 
 func (fr *Revision) validate(m *feature.Revision) error {

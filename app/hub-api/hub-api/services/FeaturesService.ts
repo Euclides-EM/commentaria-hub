@@ -8,6 +8,29 @@ import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class FeaturesService {
     /**
+     * List Edition Features
+     * Get a list of available features for the global editions scope
+     * @returns feature_Feature OK
+     * @throws ApiError
+     */
+    public static getEditionsFeatures({
+        expand,
+    }: {
+        /**
+         * Include related entities
+         */
+        expand?: Array<string>,
+    } = {}): CancelablePromise<Array<feature_Feature>> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/editions/features',
+            query: {
+                'expand': expand,
+            },
+        });
+    }
+
+    /**
      * List Features
      * Get a list of available features for the dataset
      * @returns feature_Feature OK

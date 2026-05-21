@@ -586,10 +586,13 @@ export function TeiPane({
       )
       return {
         ...(existing || {}),
-        dataset_id: datasetId,
-        annotation_id: annotationId,
+        scope: {
+          type: 'dataset',
+          dataset_id: datasetId,
+          annotation_id: annotationId,
+        },
         feature_id: featureId,
-        page_key: existing?.page_key || String(currentPageOrKey),
+        key: existing?.key || String(currentPageOrKey),
         values: [
           ...preservedValues,
           ...toResultValues(draftByFeature[featureId] || []),

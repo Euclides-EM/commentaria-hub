@@ -204,10 +204,10 @@ For local development, you do not need to copy the large PDFs onto your machine.
 
 ```dotenv
 FACSIMILES_REMOTE_API_URL=https://euclides.huma-num.fr/commentaria/api/v1
-FACSIMILES_REMOTE_AUTH_TOKEN=<your-github-token>
+GITHUB_TOKEN=<your-github-token>
 ```
 
-Leave `FACSIMILES_PDF_DIR` empty locally. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
+Leave `FACSIMILES_PDF_DIR` empty locally. `GITHUB_TOKEN` should be a GitHub token for an allowlisted user; if it is not set, the API falls back to `GITHUB_TOKEN`. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
 
 ## Automatic Backup to Google Drive (optional)
 

@@ -21,12 +21,12 @@ func NewResult(store *fpstore.FeatureResultSql, featureSvc *Feature, featureProp
 	return &Result{store: store, featureSvc: featureSvc, featurePropSvc: featurePropSvc}
 }
 
-func (r *Result) ListResults(datasetID, annotationID string, keys []string, features []string, fallbackToOrigin bool) ([]*feature.Result, error) {
-	res, err := r.store.List(datasetID, annotationID, keys, features, fallbackToOrigin)
+func (r *Result) ListResults(scope feature.ExecScope, keys []string, features []string, fallbackToOrigin bool) (res []*feature.Result, err error) {
+	res, err = r.store.List(scope, keys, features, fallbackToOrigin)
 	if err != nil {
 		return nil, err
 	}
-	feats, err := r.featureSvc.ListFeatures(datasetID, nil)
+	feats, err := r.featureSvc.ListFeatures(scope.DefScope, nil)
 	if err != nil {
 		return nil, err
 	}
@@ -41,7 +41,7 @@ func (r *Result) ListResults(datasetID, annotationID string, keys []string, feat
 	}
 
 	slices.SortFunc(res, func(a, b *feature.Result) int {
-		return strings.Compare(a.PageKey, b.PageKey)
+		return strings.Compare(a.Key, b.Key)
 	})
 	return res, nil
 }
@@ -59,8 +59,9 @@ func (r *Result) CreateResults(results []*feature.Result, pushToOrigin bool) err
 	return r.store.CreateBatch(results, pushToOrigin)
 }
 
-func (r *Result) ListResultsForExecutionPolicy(datasetID, annotationID string, keys []string, features []string, pushToOrigin bool) ([]*feature.Result, error) {
-	return r.store.ListForExecutionPolicy(datasetID, annotationID, keys, features, pushToOrigin)
+func (r *Result) ListResultsForExecutionPolicy(exec *feature.Execution, features []string) ([]*feature.Result, error) {
+	pushToOrigin := exec.Scope.Type != feature.ScopeTypeEditions && exec.Policy != nil && exec.Policy.PushToOrigin
+	return r.store.ListForExecutionPolicy(exec.Scope, exec.Keys, features, pushToOrigin)
 }
 
 func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *feature.Feature) error {
@@ -87,12 +88,4 @@ func (r *Result) enrichWithDynamicProperties(result *feature.Result, feat *featu
 
 func (r *Result) CopyResults(datasetID, srcAnnID, dstDatasetID, dstAnnID string) error {
 	return r.store.CopyResults(datasetID, srcAnnID, dstDatasetID, dstAnnID)
-}
-
-func (r *Result) GetFeatureResultsSQLDump(dataSetId string, annotationId string) ([]byte, error) {
-	queries, err := r.store.GetSQLDump(dataSetId, annotationId)
-	if err != nil {
-		return nil, err
-	}
-	return []byte(strings.Join(queries, "\n")), nil
 }

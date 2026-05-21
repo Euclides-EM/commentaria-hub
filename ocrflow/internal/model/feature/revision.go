@@ -6,8 +6,8 @@ import (
 
 type Revision struct {
 	common.Meta
-	DatasetID   string `json:"dataset_id"`
-	FeatureID   string `json:"feature_id"`
-	Prompt      string `json:"prompt"`
-	Categorizer string `json:"categorizer"`
+	Scope       DefScope `json:"scope"`
+	FeatureID   string   `json:"feature_id"`
+	Prompt      string   `json:"prompt"`
+	Categorizer string   `json:"categorizer"`
 }

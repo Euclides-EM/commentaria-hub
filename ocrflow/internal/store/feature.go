@@ -21,16 +21,15 @@ func NewFeatureSQL(db *sql.DB) *FeatureSQL {
 	return &FeatureSQL{db: db}
 }
 
-func (s *FeatureSQL) List(datasetID string) ([]*feature.Feature, error) {
-	const q = `
+func (s *FeatureSQL) ListFeatures(scope feature.DefScope) ([]*feature.Feature, error) {
+	rows, err := s.db.Query(`
 SELECT
   id, name, description, created_at, updated_at,
-  dataset_id, is_default, is_list, color, properties
+  dataset_id, scope, is_default, is_list, color, properties
 FROM features
-WHERE dataset_id = ?
+WHERE scope = ? AND dataset_id = ?
 ORDER BY created_at DESC
-`
-	rows, err := s.db.Query(q, datasetID)
+`, scope.Type, scope.DatasetID)
 	if err != nil {
 		return nil, fmt.Errorf("list features: %w", err)
 	}
@@ -50,24 +49,38 @@ ORDER BY created_at DESC
 	return out, nil
 }
 
-func (s *FeatureSQL) GetByID(datasetID, id string) (*feature.Feature, error) {
-	return s.getByIDRow(datasetID, id)
-}
-
-func (s *FeatureSQL) getByIDRow(datasetID, id string) (*feature.Feature, error) {
-	const q = `
+func (s *FeatureSQL) GetFeatureByID(id string) (*feature.Feature, error) {
+	row := s.db.QueryRow(`
 SELECT
   id, name, description, created_at, updated_at,
-  dataset_id, is_default, is_list, color, properties
+  dataset_id, scope, is_default, is_list, color, properties
 FROM features
-WHERE dataset_id = ? AND id = ?
+WHERE id = ?
 LIMIT 1
-`
-	row := s.db.QueryRow(q, datasetID, id)
+`, id)
 	f, err := scanFeature(row.Scan)
 	if err != nil {
 		if errors.Is(err, sql.ErrNoRows) {
-			return nil, fmt.Errorf("feature not found: dataset_id=%s id=%s: %w", datasetID, id, err)
+			return nil, fmt.Errorf("feature not found: id=%s: %w", id, err)
+		}
+		return nil, fmt.Errorf("get feature: %w", err)
+	}
+	return f, nil
+}
+
+func (s *FeatureSQL) GetFeatureByIDInScope(scope feature.DefScope, id string) (*feature.Feature, error) {
+	row := s.db.QueryRow(`
+SELECT
+  id, name, description, created_at, updated_at,
+  dataset_id, scope, is_default, is_list, color, properties
+FROM features
+WHERE scope = ? AND dataset_id = ? AND id = ?
+LIMIT 1
+`, scope.Type, scope.DatasetID, id)
+	f, err := scanFeature(row.Scan)
+	if err != nil {
+		if errors.Is(err, sql.ErrNoRows) {
+			return nil, fmt.Errorf("feature not found: scope=%v id=%s: %w", scope, id, err)
 		}
 		return nil, fmt.Errorf("get feature: %w", err)
 	}
@@ -81,10 +94,6 @@ func (s *FeatureSQL) Create(f *feature.Feature) error {
 	if f.ID == "" {
 		return errors.New("create feature: missing id")
 	}
-	if f.DatasetID == "" {
-		return errors.New("create feature: missing dataset_id")
-	}
-
 	propsJSON, err := json.Marshal(f.Properties)
 	if err != nil {
 		return fmt.Errorf("create feature: marshal properties: %w", err)
@@ -92,11 +101,11 @@ func (s *FeatureSQL) Create(f *feature.Feature) error {
 
 	const q = `
 INSERT INTO features (
-  id, name, description, dataset_id,
+  id, name, description, dataset_id, scope,
   is_default, is_list, color, properties,
   created_at, updated_at
 ) VALUES (
-  ?, ?, ?, ?,
+  ?, ?, ?, ?, ?,
   ?, ?, ?, ?,
   CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
 )
@@ -106,7 +115,8 @@ INSERT INTO features (
 		f.ID,
 		f.Name,
 		f.Description,
-		f.DatasetID,
+		f.Scope.DatasetID,
+		f.Scope.Type,
 		f.IsDefault,
 		f.IsList,
 		f.Color,
@@ -117,7 +127,7 @@ INSERT INTO features (
 	}
 
 	// Refresh timestamps from DB
-	created, err := s.getByIDRow(f.DatasetID, f.ID)
+	created, err := s.GetFeatureByIDInScope(f.Scope, f.ID)
 	if err != nil {
 		return err
 	}
@@ -126,12 +136,9 @@ INSERT INTO features (
 	return nil
 }
 
-func (s *FeatureSQL) Update(datasetID, id string, f *feature.Feature) error {
+func (s *FeatureSQL) Update(f *feature.Feature) error {
 	if f == nil {
 		return errors.New("update feature: nil feature")
-	}
-	if datasetID == "" || id == "" {
-		return errors.New("update feature: missing dataset_id or id")
 	}
 
 	propsJSON, err := json.Marshal(f.Properties)
@@ -139,7 +146,7 @@ func (s *FeatureSQL) Update(datasetID, id string, f *feature.Feature) error {
 		return fmt.Errorf("update feature: marshal properties: %w", err)
 	}
 
-	const q = `
+	q := `
 UPDATE features
 SET
   name = ?,
@@ -149,8 +156,7 @@ SET
   color = ?,
   properties = ?,
   updated_at = CURRENT_TIMESTAMP
-WHERE dataset_id = ? AND id = ?
-`
+WHERE scope = ? AND id = ? AND dataset_id = ?`
 	res, err := s.db.Exec(
 		q,
 		f.Name,
@@ -159,8 +165,9 @@ WHERE dataset_id = ? AND id = ?
 		f.IsList,
 		f.Color,
 		string(propsJSON),
-		datasetID,
-		id,
+		f.Scope.Type,
+		f.ID,
+		f.Scope.DatasetID,
 	)
 	if err != nil {
 		return fmt.Errorf("update feature: %w", err)
@@ -171,32 +178,23 @@ WHERE dataset_id = ? AND id = ?
 		return fmt.Errorf("update feature: rows affected: %w", err)
 	}
 	if n == 0 {
-		return fmt.Errorf("feature not found: dataset_id=%s id=%s", datasetID, id)
+		return fmt.Errorf("feature not found: dataset_id=%s id=%s", f.Scope.DatasetID, f.ID)
 	}
 
-	updated, err := s.getByIDRow(datasetID, id)
+	updated, err := s.GetFeatureByIDInScope(f.Scope, f.ID)
 	if err != nil {
 		return err
 	}
 
 	// Keep caller’s pointer updated with server-truth metadata.
 	f.ID = updated.ID
-	f.DatasetID = updated.DatasetID
 	f.CreatedAt = updated.CreatedAt
 	f.UpdatedAt = updated.UpdatedAt
 	return nil
 }
 
-func (s *FeatureSQL) Delete(datasetID, id string) error {
-	if datasetID == "" || id == "" {
-		return errors.New("delete feature: missing dataset_id or id")
-	}
-
-	const q = `
-DELETE FROM features
-WHERE dataset_id = ? AND id = ?
-`
-	res, err := s.db.Exec(q, datasetID, id)
+func (s *FeatureSQL) DeleteFeature(scope feature.DefScope, id string) error {
+	res, err := s.db.Exec(`DELETE FROM features WHERE scope = ? AND dataset_id = ? AND id = ?`, scope.Type, scope.DatasetID, id)
 	if err != nil {
 		return fmt.Errorf("delete feature: %w", err)
 	}
@@ -206,7 +204,7 @@ WHERE dataset_id = ? AND id = ?
 		return fmt.Errorf("delete feature: rows affected: %w", err)
 	}
 	if n == 0 {
-		return fmt.Errorf("feature not found: dataset_id=%s id=%s", datasetID, id)
+		return fmt.Errorf("feature not found: scope=%v id=%v", scope, id)
 	}
 	return nil
 }
@@ -218,7 +216,8 @@ func scanFeature(scanner func(...any) error) (*feature.Feature, error) {
 		desc        string
 		createdAt   time.Time
 		updatedAt   time.Time
-		datasetID   string
+		datasetID   sql.NullString
+		scope       feature.ScopeType
 		isDefault   bool
 		isList      bool
 		color       string
@@ -233,6 +232,7 @@ func scanFeature(scanner func(...any) error) (*feature.Feature, error) {
 		&createdAt,
 		&updatedAt,
 		&datasetID,
+		&scope,
 		&isDefault,
 		&isList,
 		&color,
@@ -256,7 +256,10 @@ func scanFeature(scanner func(...any) error) (*feature.Feature, error) {
 			CreatedAt:   createdAt,
 			UpdatedAt:   updatedAt,
 		},
-		DatasetID:      datasetID,
+		Scope: feature.DefScope{
+			Type:      scope,
+			DatasetID: datasetID.String,
+		},
 		IsDefault:      isDefault,
 		IsList:         isList,
 		Color:          color,

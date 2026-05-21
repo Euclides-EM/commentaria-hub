@@ -63,21 +63,6 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/backups/{backupId}/sync", httpwrapper.Update(h.SyncBackupToDrive).Build())
 	api.HandleFunc("/backups/{backupId}/restore", httpwrapper.Update(h.RestoreLatestBackup).Build())
 
-	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
-	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())
-	api.HandleFunc("/editions/{editionId}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
-	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
-	api.HandleFunc("/editions/{editionId}/diagrams", httpwrapper.Get(h.GetEditionDiagramCrops).Build())
-	api.HandleFunc("/editions/{editionId}/facsimile.pdf", httpwrapper.GetFile(h.DownloadEditionFacsimilePDF, "application/pdf").Build())
-	api.HandleFunc("/editions/{editionId}/tei/{pageNum}", httpwrapper.GetXML(h.GetEditionTEI).Build())
-	api.HandleFunc("/editions/transcriptions", httpwrapper.Get(h.ListEditionTranscriptionsDetails).Build())
-	api.HandleFunc("/editions/{editionId}/transcriptions", httpwrapper.Update(h.UpdateEditionTranscriptionsDetails).Build())
-
-	api.HandleFunc("/facsimilies", httpwrapper.Get(h.ListFacsimiles).Create(h.CreateFacsimile).Build())
-	api.HandleFunc("/facsimilies/import-from-drive", httpwrapper.Create(h.ImportFacsimilesFromDrive).Build())
-	api.HandleFunc("/facsimilies/{id}/pdf", httpwrapper.GetFile(h.DownloadFacsimilePDF, "application/pdf").Build())
-	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Build())
-
 	api.HandleFunc("/datasets", httpwrapper.Get(h.ListDatasets).Create(h.CreateDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}", httpwrapper.Delete(h.DeleteDataset).Update(h.UpdateDataset).Build())
 	api.HandleFunc("/datasets/{dataSetId}/suggested_rules", httpwrapper.Get(h.ListSuggestedRulesForDataset).Build())
@@ -116,22 +101,46 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNumOrKey}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/teis", httpwrapper.GetXML(h.GetAnnotationTEIs).Build())
 
-	api.HandleFunc("/datasets/{dataSetId}/features", httpwrapper.Get(h.ListFeatures).Create(h.CreateFeatures).Build())
-	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}", httpwrapper.Delete(h.DeleteFeature).Get(h.GetFeature).Update(h.UpdateFeature).Build())
+	api.HandleFunc("/datasets/{dataSetId}/features", httpwrapper.Get(h.ListDatasetFeatures).Create(h.CreateFeatures).Build())
+	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}", httpwrapper.Delete(h.DeleteDatasetFeature).Get(h.GetDatasetFeature).Update(h.UpdateDatasetFeature).Build())
 
-	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions", httpwrapper.Get(h.ListFeatureRevisions).Create(h.CreateFeatureRevision).Build())
-	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions/{revisionId}", httpwrapper.Get(h.GetFeatureRevision).Build())
+	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions", httpwrapper.Get(h.ListDatasetsFeatureRevisions).Create(h.CreateDatasetsFeatureRevision).Build())
+	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions/{revisionId}", httpwrapper.Get(h.GetDatasetsFeatureRevision).Build())
 
 	api.HandleFunc("/annotation_groups", httpwrapper.Get(h.ListAnnotationGroups).Create(h.CreateAnnotationGroup).Build())
 	api.HandleFunc("/annotation_groups/{groupId}", httpwrapper.Get(h.GetAnnotationGroup).Update(h.UpdateAnnotationGroup).Delete(h.DeleteAnnotationGroup).Build())
 
 	api.HandleFunc("/features/properties", httpwrapper.Get(h.ListFeatureProperties).Build())
-	api.HandleFunc("/features/executions", httpwrapper.Get(h.ListExecutions).Create(h.CreateExecution).Build())
-	api.HandleFunc("/features/executions/{executionId}", httpwrapper.Get(h.GetExecution).Build())
-	api.HandleFunc("/features/executions/{executionId}/cancel", httpwrapper.Update(h.CancelExecution).Build())
+	api.HandleFunc("/feature_executions", httpwrapper.Get(h.ListExecutions).Create(h.CreateExecution).Build())
+	api.HandleFunc("/feature_executions/{executionId}", httpwrapper.Get(h.GetExecution).Build())
+	api.HandleFunc("/feature_executions/{executionId}/cancel", httpwrapper.Update(h.CancelExecution).Build())
+	api.HandleFunc("/features", httpwrapper.Get(h.ListFeatures).Create(h.CreateFeature).Build())
+	api.HandleFunc("/features/{featureId}", httpwrapper.Delete(h.DeleteFeature).Get(h.GetFeature).Update(h.UpdateEditionsFeature).Build())
 
-	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results", httpwrapper.Get(h.ListResults).Create(h.CreateResult).Build())
-	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results/sqldump", httpwrapper.GetSQL(h.GetFeatureResultsDump).Build())
+	api.HandleFunc("/features/{featureId}/revisions", httpwrapper.Get(h.ListFeatureRevisions).Create(h.CreateFeatureRevision).Build())
+	api.HandleFunc("/features/{featureId}/revisions/{revisionId}", httpwrapper.Get(h.GetFeatureRevision).Build())
+
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results", httpwrapper.Get(h.ListDatasetResults).Create(h.CreateDatasetResult).Build())
+
+	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
+
+	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())
+
+	api.HandleFunc("/editions/transcriptions", httpwrapper.Get(h.ListEditionTranscriptionsDetails).Build())
+
+	api.HandleFunc("/editions/{editionId}/notes", httpwrapper.Create(h.CreateEditionNote).Build())
+	api.HandleFunc("/editions/{editionId}/results", httpwrapper.Get(h.ListEditionResults).Build())
+	api.HandleFunc("/editions/{editionId}/diagrams", httpwrapper.Get(h.GetEditionDiagramCrops).Build())
+	api.HandleFunc("/editions/{editionId}/facsimile.pdf", httpwrapper.GetFile(h.DownloadEditionFacsimilePDF, "application/pdf").Build())
+	api.HandleFunc("/editions/{editionId}/tei/{pageNum}", httpwrapper.GetXML(h.GetEditionTEI).Build())
+
+	api.HandleFunc("/editions/{editionId}", httpwrapper.Get(h.GetEdition).Update(h.UpdateEdition).Delete(h.DeleteEdition).Build())
+	api.HandleFunc("/editions/{editionId}/transcriptions", httpwrapper.Update(h.UpdateEditionTranscriptionsDetails).Build())
+
+	api.HandleFunc("/facsimilies", httpwrapper.Get(h.ListFacsimiles).Create(h.CreateFacsimile).Build())
+	api.HandleFunc("/facsimilies/import-from-drive", httpwrapper.Create(h.ImportFacsimilesFromDrive).Build())
+	api.HandleFunc("/facsimilies/{id}/pdf", httpwrapper.GetFile(h.DownloadFacsimilePDF, "application/pdf").Build())
+	api.HandleFunc("/facsimilies/{id}", httpwrapper.Get(h.GetFacsimile).Update(h.UpdateFacsimile).Build())
 
 	api.HandleFunc("/integrations/platforms", httpwrapper.Get(h.ListIntegrationPlatforms).Build())
 	api.HandleFunc("/jobs", httpwrapper.Get(h.ListJobs).Create(h.CreateJobs).Build())

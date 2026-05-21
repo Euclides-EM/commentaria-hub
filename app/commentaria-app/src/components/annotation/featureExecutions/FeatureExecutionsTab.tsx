@@ -211,8 +211,11 @@ export function FeatureExecutionsTab() {
     }
 
     const executionPayload: feature_Execution = {
-      dataset_id: datasetId,
-      annotation_id: annotationId,
+      scope: {
+        type: 'dataset',
+        dataset_id: datasetId,
+        annotation_id: annotationId,
+      },
       apply,
       keys: selectedKeys,
       policy:

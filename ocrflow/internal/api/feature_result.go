@@ -10,7 +10,7 @@ import (
 	"github.com/samber/lo"
 )
 
-// ListResults godoc
+// ListDatasetResults godoc
 // @Summary List feature results
 // @Description Get a list of feature results
 // @Tags Feature Results
@@ -23,7 +23,7 @@ import (
 // @Param fallback_to_origin query bool false "Whether to fallback to results of the origin annotation if no feature results are found."
 // @Success 200 {array} feature.Result
 // @Router  /datasets/{dataSetId}/annotations/{id}/results [get]
-func (h *Handlers) ListResults(r *http.Request) (any, error) {
+func (h *Handlers) ListDatasetResults(r *http.Request) (any, error) {
 	dataSetId, annotationId, err := extractDatasetAndAnnotationIDs(r)
 	if err != nil {
 		return nil, err
@@ -43,10 +43,34 @@ func (h *Handlers) ListResults(r *http.Request) (any, error) {
 	if err != nil {
 		fallbackToOrigin = false
 	}
-	return h.deps.FeatureResultSvc.ListResults(dataSetId, annotationId, keys, features, fallbackToOrigin)
+	return h.deps.FeatureResultSvc.ListResults(feature.NewDatasetExecScope(dataSetId, annotationId), keys, features, fallbackToOrigin)
 }
 
-// CreateResult godoc
+// ListEditionResults godoc
+// @Summary List edition feature results
+// @Description Get a list of feature results for an edition
+// @Tags Feature Results
+// @Accept json
+// @Produce json
+// @Param editionId path string true "Edition ID"
+// @Param features query string false "Comma-separated list of feature IDs to filter results"
+// @Success 200 {array} feature.Result
+// @Router  /editions/{editionId}/results [get]
+func (h *Handlers) ListEditionResults(r *http.Request) (any, error) {
+	editionID, err := extractEditionId(r)
+	if err != nil {
+		return nil, err
+	}
+	var features []string
+	if featuresStr := r.URL.Query().Get("features"); featuresStr != "" {
+		features = lo.Map(strings.Split(featuresStr, ","), func(s string, _ int) string {
+			return strings.TrimSpace(s)
+		})
+	}
+	return h.deps.FeatureResultSvc.ListResults(feature.NewEditionExecScope(), []string{editionID}, features, false)
+}
+
+// CreateDatasetResult godoc
 // @Summary Create feature results
 // @Description Create new feature results (batch)
 // @Tags Feature Results
@@ -59,7 +83,7 @@ func (h *Handlers) ListResults(r *http.Request) (any, error) {
 // @Success 200 {array} feature.Result
 // @Security BearerAuth
 // @Router /datasets/{dataSetId}/annotations/{id}/results [post]
-func (h *Handlers) CreateResult(r *http.Request) (any, error) {
+func (h *Handlers) CreateDatasetResult(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
 	if err != nil {
 		return nil, err
@@ -78,8 +102,8 @@ func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 	}
 
 	for _, res := range result {
-		res.DatasetID = datasetID
-		res.AnnotationID = annotationID
+		res.Scope.DatasetID = datasetID
+		res.Scope.AnnotationID = annotationID
 		res.Source = feature.ResultSource{
 			Name: userLogin,
 			Resp: "human",
@@ -96,22 +120,4 @@ func (h *Handlers) CreateResult(r *http.Request) (any, error) {
 		return nil, err
 	}
 	return created, nil
-}
-
-// GetFeatureResultsDump godoc
-// @Summary Get feature results SQL dump
-// @Description Get a SQL dump of feature results for a specific annotation
-// @Tags Feature Results
-// @Accept json
-// @Produce application/text
-// @Param dataSetId path string true "Dataset ID"
-// @Param id path string true "Annotation ID"
-// @Success 200 {string} string "SQL dump of feature results"
-// @Router /datasets/{dataSetId}/annotations/{id}/results/sqldump [get]
-func (h *Handlers) GetFeatureResultsDump(request *http.Request) ([]byte, error) {
-	dataSetId, annotationId, err := extractDatasetAndAnnotationIDs(request)
-	if err != nil {
-		return nil, err
-	}
-	return h.deps.FeatureResultSvc.GetFeatureResultsSQLDump(dataSetId, annotationId)
 }

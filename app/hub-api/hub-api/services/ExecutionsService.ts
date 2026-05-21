@@ -15,6 +15,7 @@ export class ExecutionsService {
      */
     public static getFeaturesExecutions({
         dataset,
+        scope,
         features,
         statuses,
     }: {
@@ -22,6 +23,10 @@ export class ExecutionsService {
          * Filter by dataset ID
          */
         dataset?: string,
+        /**
+         * Filter by feature execution scope
+         */
+        scope?: 'dataset' | 'editions',
         /**
          * Filter by delimited list of feature IDs
          */
@@ -33,9 +38,10 @@ export class ExecutionsService {
     }): CancelablePromise<Array<feature_Execution>> {
         return __request(OpenAPI, {
             method: 'GET',
-            url: '/features/executions',
+            url: '/feature_executions',
             query: {
                 'dataset': dataset,
+                'scope': scope,
                 'features': features,
                 'statuses': statuses,
             },
@@ -57,7 +63,7 @@ export class ExecutionsService {
     }): CancelablePromise<feature_Execution> {
         return __request(OpenAPI, {
             method: 'POST',
-            url: '/features/executions',
+            url: '/feature_executions',
             body: execution,
         });
     }
@@ -77,7 +83,7 @@ export class ExecutionsService {
     }): CancelablePromise<feature_Execution> {
         return __request(OpenAPI, {
             method: 'GET',
-            url: '/features/executions/{executionId}',
+            url: '/feature_executions/{executionId}',
             path: {
                 'executionId': executionId,
             },
@@ -99,7 +105,7 @@ export class ExecutionsService {
     }): CancelablePromise<Record<string, string>> {
         return __request(OpenAPI, {
             method: 'PUT',
-            url: '/features/executions/{executionId}/cancel',
+            url: '/feature_executions/{executionId}/cancel',
             path: {
                 'executionId': executionId,
             },

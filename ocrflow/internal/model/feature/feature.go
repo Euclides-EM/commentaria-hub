@@ -8,7 +8,7 @@ import (
 
 type Feature struct {
 	common.Meta
-	DatasetID  string   `json:"dataset_id"`
+	Scope      DefScope `json:"scope"`
 	IsDefault  bool     `json:"is_default"`
 	IsList     bool     `json:"is_list"`
 	Color      string   `json:"color"`

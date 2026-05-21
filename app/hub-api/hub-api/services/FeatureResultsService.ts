@@ -97,32 +97,4 @@ export class FeatureResultsService {
             body: result,
         });
     }
-    /**
-     * Get feature results SQL dump
-     * Get a SQL dump of feature results for a specific annotation
-     * @returns string SQL dump of feature results
-     * @throws ApiError
-     */
-    public static getDatasetsAnnotationsResultsSqldump({
-        dataSetId,
-        id,
-    }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
-        /**
-         * Annotation ID
-         */
-        id: string,
-    }): CancelablePromise<string> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/datasets/{dataSetId}/annotations/{id}/results/sqldump',
-            path: {
-                'dataSetId': dataSetId,
-                'id': id,
-            },
-        });
-    }
 }

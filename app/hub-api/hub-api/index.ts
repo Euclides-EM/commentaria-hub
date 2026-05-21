@@ -55,6 +55,8 @@ export type { feature_ExecutionApplyItem } from './models/feature_ExecutionApply
 export type { feature_ExecutionPolicy } from './models/feature_ExecutionPolicy';
 export type { feature_ExecutionSkipIf } from './models/feature_ExecutionSkipIf';
 export type { feature_ExecutionStatus } from './models/feature_ExecutionStatus';
+export type { feature_DefScope } from './models/feature_DefScope';
+export type { feature_ExecScope } from './models/feature_ExecScope';
 export type { feature_Feature } from './models/feature_Feature';
 export type { feature_Result } from './models/feature_Result';
 export type { feature_ResultSource } from './models/feature_ResultSource';
