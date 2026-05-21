@@ -66,7 +66,17 @@ func (c *Client) Exec(prompt string, attachmentPath string) (string, error) {
 		log.Printf("debug: llm exec end model=%s duration=%s attempts=%d error=true", modelGPT5Mini, time.Since(startedAt), attempts)
 		return "", fmt.Errorf("llm exec: openai responses api call failed after %s: %w", time.Since(startedAt), err)
 	}
-	log.Printf("debug: llm exec end model=%s duration=%s attempts=%d", modelGPT5Mini, time.Since(startedAt), attempts)
+	log.Printf(
+		"debug: llm exec end model=%s duration=%s attempts=%d tokens_input=%d tokens_cached=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d",
+		modelGPT5Mini,
+		time.Since(startedAt),
+		attempts,
+		resp.Usage.InputTokens,
+		resp.Usage.InputTokensDetails.CachedTokens,
+		resp.Usage.OutputTokens,
+		resp.Usage.OutputTokensDetails.ReasoningTokens,
+		resp.Usage.TotalTokens,
+	)
 	return resp.OutputText(), nil
 }
 

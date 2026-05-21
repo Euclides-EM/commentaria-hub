@@ -29,6 +29,7 @@ type Execution struct {
 	featureResultsSvc   *Result
 	annotationSvc       *Annotation
 	annotationTEISvc    *AnnotationTEI
+	editionSvc          *Edition
 	languageResolver    *LanguagesResolver
 	featurePropertySvc  *FeatureProperty
 	store               *fpstore.FeatureExecutionStore
@@ -52,13 +53,14 @@ func (a *executionActions) empty() bool {
 type applyFunc func() ([]*feature.Result, error)
 
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionStore).
-func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, languageResolver *LanguagesResolver, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
+func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, editionSvc *Edition, languageResolver *LanguagesResolver, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
 	return &Execution{
 		featureRevisionsSvc: featureRevisionsSvc,
 		featuresSvc:         featuresSvc,
 		featureResultsSvc:   featureResultsSvc,
 		annotationSvc:       annotationSvc,
 		annotationTEISvc:    annotationTEISvc,
+		editionSvc:          editionSvc,
 		languageResolver:    languageResolver,
 		featurePropertySvc:  featurePropertySvc,
 		store:               store,
@@ -482,10 +484,16 @@ func (fe *Execution) annotationCategorizeApplyFunc(ann *annotation.Annotation, k
 
 func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string) applyFunc {
 	return func() ([]*feature.Result, error) {
+		edition, err := fe.editionSvc.GetEditionByID(editionKey)
+		if err != nil {
+			return nil, fmt.Errorf("failed to read metadata for edition %s: %w", editionKey, err)
+		}
+
 		log.Printf(
-			"stubbed edition metadata execution %s for edition %s with actions: %v",
+			"stubbed edition metadata execution %s for edition %s (%s) with actions: %v",
 			execID,
 			editionKey,
+			edition.ShortTitle,
 			actions,
 		)
 		return nil, nil
