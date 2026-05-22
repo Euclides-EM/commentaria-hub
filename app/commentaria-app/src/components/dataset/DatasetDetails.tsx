@@ -12,6 +12,7 @@ import {
 import { useAuthStore } from '../../store/authStore.ts'
 import { TabButton } from '../core/TabButton.tsx'
 import { DatasetDetailsTab } from './DatasetDetailsTab.tsx'
+import { DatasetAnnotationsTab } from './DatasetAnnotationsTab.tsx'
 import { DatasetFeaturesTab } from './DatasetFeaturesTab.tsx'
 import { TITLE_PAGES_DATASET_ID } from '../../utils/editions.ts'
 
@@ -198,6 +199,11 @@ export const DatasetDetails = () => {
           isActive={activeTab === 'details'}
         />
         <TabButton
+          onSelected={() => setState({ datasetTab: 'annotations' })}
+          title="Annotations"
+          isActive={activeTab === 'annotations'}
+        />
+        <TabButton
           onSelected={() => setState({ datasetTab: 'features' })}
           title="Dataset Features"
           isActive={activeTab === 'features'}
@@ -241,6 +247,9 @@ export const DatasetDetails = () => {
             onCancel={handleCancel}
             onSave={handleSave}
           />
+        )}
+        {activeTab === 'annotations' && (
+          <DatasetAnnotationsTab datasetId={currentDataset.id || ''} />
         )}
 
         {activeTab === 'features' && <DatasetFeaturesTab />}

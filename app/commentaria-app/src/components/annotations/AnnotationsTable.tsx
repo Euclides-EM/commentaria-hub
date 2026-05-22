@@ -4,6 +4,7 @@ import type {
   annotation_Annotation,
   annotation_Group,
   annotationrule_PipelineStage,
+  model_Dataset,
 } from '@hub-api'
 import { AnnotationsService, ApiError } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
@@ -51,12 +52,19 @@ type SortConfig = {
 type GroundTruthFilter = 'all' | 'true' | 'false'
 type HiddenFilter = 'all' | 'true' | 'false'
 type GroupSection = {
+  datasetId?: string
   group: annotation_Group | null
   rows: AnnotationRow[]
 }
 type AnnotationGroupWithId = annotation_Group & { id: string }
 
-export function AnnotationsTable() {
+interface AnnotationsTableProps {
+  datasetIds?: string[]
+}
+
+export function AnnotationsTable({
+  datasetIds: providedDatasetIds,
+}: AnnotationsTableProps = {}) {
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const queryClient = useQueryClient()
   const { data: datasets, isLoading: datasetsLoading } = useDatasetsQuery()
@@ -127,12 +135,19 @@ export function AnnotationsTable() {
       defaultValue: false,
     },
   )
+  const [datasetGroupingEnabled, setDatasetGroupingEnabled] =
+    useLocalStorageState<boolean>('annotationsDatasetGroupingEnabled', {
+      defaultValue: false,
+    })
 
-  const datasetIds = useMemo(
-    () =>
-      (datasets || []).flatMap((dataset) => (dataset.id ? [dataset.id] : [])),
-    [datasets],
-  )
+  const datasetIds = useMemo(() => {
+    if (providedDatasetIds) {
+      return providedDatasetIds.filter(Boolean)
+    }
+    return (datasets || []).flatMap((dataset) =>
+      dataset.id ? [dataset.id] : [],
+    )
+  }, [datasets, providedDatasetIds])
 
   const annotationQueries = useQueries({
     queries: datasetIds.map((datasetId) => ({
@@ -245,6 +260,16 @@ export function AnnotationsTable() {
     })
     return map
   }, [sortedGroups])
+
+  const datasetById = useMemo(() => {
+    const map = new Map<string, model_Dataset>()
+    ;(datasets || []).forEach((dataset) => {
+      if (dataset.id) {
+        map.set(dataset.id, dataset)
+      }
+    })
+    return map
+  }, [datasets])
 
   const filteredRows = useMemo(() => {
     const trimmed = searchQuery.trim().toLowerCase()
@@ -417,10 +442,8 @@ export function AnnotationsTable() {
 
   const groupedSections = useMemo<GroupSection[]>(() => {
     const trimmedGroupQuery = groupSearchQuery.trim().toLowerCase()
-    const rowsByGroupId = new Map<string, AnnotationRow[]>()
-    const ungrouped: AnnotationRow[] = []
-    sortedRows.forEach((row) => {
-      const groups = (groupsByRowKey.get(rowKey(row)) || []).filter(
+    const getMatchingGroups = (row: AnnotationRow) =>
+      (groupsByRowKey.get(rowKey(row)) || []).filter(
         (group) =>
           !!group.id &&
           (!trimmedGroupQuery ||
@@ -428,6 +451,78 @@ export function AnnotationsTable() {
               .toLowerCase()
               .includes(trimmedGroupQuery)),
       )
+
+    if (datasetGroupingEnabled) {
+      const rowsByDatasetId = new Map<string, AnnotationRow[]>()
+      sortedRows.forEach((row) => {
+        const existing = rowsByDatasetId.get(row.datasetId)
+        if (existing) {
+          existing.push(row)
+          return
+        }
+        rowsByDatasetId.set(row.datasetId, [row])
+      })
+
+      return datasetIds.flatMap((datasetId) => {
+        const datasetRows = rowsByDatasetId.get(datasetId) || []
+        if (datasetRows.length === 0) {
+          return []
+        }
+
+        if (!groupingEnabled) {
+          return [{ datasetId, group: null, rows: datasetRows }]
+        }
+
+        const rowsByGroupId = new Map<string, AnnotationRow[]>()
+        const ungrouped: AnnotationRow[] = []
+
+        datasetRows.forEach((row) => {
+          const groups = getMatchingGroups(row)
+          if (!groups.length) {
+            if (!trimmedGroupQuery) {
+              ungrouped.push(row)
+            }
+            return
+          }
+          groups.forEach((group) => {
+            if (!group.id) {
+              return
+            }
+            const existing = rowsByGroupId.get(group.id)
+            if (existing) {
+              existing.push(row)
+              return
+            }
+            rowsByGroupId.set(group.id, [row])
+          })
+        })
+
+        const sections: GroupSection[] = sortedGroups
+          .filter(
+            (group) => group.id && (rowsByGroupId.get(group.id) || []).length,
+          )
+          .map((group) => ({
+            datasetId,
+            group,
+            rows: rowsByGroupId.get(group.id!) || [],
+          }))
+
+        if (ungrouped.length > 0) {
+          sections.push({
+            datasetId,
+            group: null,
+            rows: ungrouped,
+          })
+        }
+
+        return sections
+      })
+    }
+
+    const rowsByGroupId = new Map<string, AnnotationRow[]>()
+    const ungrouped: AnnotationRow[] = []
+    sortedRows.forEach((row) => {
+      const groups = getMatchingGroups(row)
       if (!groups.length) {
         if (!trimmedGroupQuery) {
           ungrouped.push(row)
@@ -446,6 +541,11 @@ export function AnnotationsTable() {
         rowsByGroupId.set(group.id, [row])
       })
     })
+
+    if (!groupingEnabled) {
+      return []
+    }
+
     const result: GroupSection[] = sortedGroups
       .filter((group) => group.id && (rowsByGroupId.get(group.id) || []).length)
       .map((group) => ({
@@ -459,7 +559,15 @@ export function AnnotationsTable() {
       })
     }
     return result
-  }, [groupSearchQuery, groupsByRowKey, sortedGroups, sortedRows])
+  }, [
+    datasetGroupingEnabled,
+    datasetIds,
+    groupSearchQuery,
+    groupingEnabled,
+    groupsByRowKey,
+    sortedGroups,
+    sortedRows,
+  ])
 
   const mergeAnnotationReferences = (
     existing: Array<{ dataset_id?: string; id?: string }>,
@@ -701,7 +809,7 @@ export function AnnotationsTable() {
   }
 
   const getSectionKey = (section: GroupSection) =>
-    section.group?.id || '__annotations-ungrouped'
+    `${section.datasetId || '__all-datasets'}:${section.group?.id || '__annotations-ungrouped'}`
 
   const isSectionCollapsed = (section: GroupSection) =>
     collapsedSections[getSectionKey(section)] === true
@@ -712,6 +820,16 @@ export function AnnotationsTable() {
       ...current,
       [key]: !current[key],
     }))
+  }
+
+  const setAllSectionsCollapsed = (collapsed: boolean) => {
+    setCollapsedSections((current) => {
+      const next = { ...current }
+      groupedSections.forEach((section) => {
+        next[getSectionKey(section)] = collapsed
+      })
+      return next
+    })
   }
 
   const toggleSort = (key: SortKey) => {
@@ -761,6 +879,7 @@ export function AnnotationsTable() {
 
   const showSelectionControls = isAuthenticated
   const showGroupMutationControls = isAuthenticated && groupingEnabled
+  const showGroupedSections = datasetGroupingEnabled || groupingEnabled
   const visibleColumnCount = [
     showSelectionControls ? 'select' : null,
     'annotation',
@@ -775,8 +894,8 @@ export function AnnotationsTable() {
   const renderRow = (row: AnnotationRow, group: annotation_Group | null) => (
     <tr
       key={
-        groupingEnabled
-          ? `${group?.id || 'ungrouped'}:${row.datasetId}:${row.annotation.id}`
+        showGroupedSections
+          ? `${row.datasetId}:${group?.id || 'ungrouped'}:${row.annotation.id}`
           : `${row.datasetId}:${row.annotation.id}`
       }
       className="hover:bg-gray-50 cursor-default"
@@ -867,6 +986,29 @@ export function AnnotationsTable() {
     </tr>
   )
 
+  const renderDatasetSummary = (datasetId: string) => {
+    const dataset = datasetById.get(datasetId)
+    const datasetName = dataset?.name || datasetId
+    const editionId = dataset?.edition_id || 'N/A'
+    const pages = dataset?.pages || 'All'
+
+    return (
+      <div className="flex min-w-0 flex-wrap items-center gap-x-4 gap-y-1">
+        <span className="font-mono text-gray-700">{datasetId}</span>
+        {renderStateLink(
+          datasetName,
+          {
+            datasetId,
+            annotationId: '',
+          },
+          'inline text-left font-medium text-teal-700 hover:text-teal-900 hover:underline cursor-pointer',
+        )}
+        <span className="text-xs text-gray-600">Edition: {editionId}</span>
+        <span className="text-xs text-gray-600">Pages: {pages}</span>
+      </div>
+    )
+  }
+
   return (
     <div className="w-full h-full flex flex-col px-8">
       <div className="px-6 py-4 border-b border-gray-200 bg-white">
@@ -932,6 +1074,17 @@ export function AnnotationsTable() {
           </label>
         </div>
         <div className="mt-3 flex flex-wrap items-center gap-2">
+          {!providedDatasetIds && (
+            <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={datasetGroupingEnabled}
+                onChange={(e) => setDatasetGroupingEnabled(e.target.checked)}
+                className="h-4 w-4"
+              />
+              Group by dataset
+            </label>
+          )}
           <label className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
             <input
               type="checkbox"
@@ -941,6 +1094,24 @@ export function AnnotationsTable() {
             />
             Group by groups
           </label>
+          {showGroupedSections && groupedSections.length > 0 && (
+            <>
+              <Button
+                type="button"
+                onClick={() => setAllSectionsCollapsed(false)}
+                className="px-3 py-1.5 text-sm"
+              >
+                Expand all
+              </Button>
+              <Button
+                type="button"
+                onClick={() => setAllSectionsCollapsed(true)}
+                className="px-3 py-1.5 text-sm"
+              >
+                Collapse all
+              </Button>
+            </>
+          )}
           {isAuthenticated && (
             <>
               {groupOptions.length > 0 && (
@@ -1163,20 +1334,22 @@ export function AnnotationsTable() {
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
-                      {groupingEnabled
+                      {showGroupedSections
                         ? groupedSections.map((section) => (
-                            <Fragment
-                              key={
-                                section.group?.id || '__annotations-ungrouped'
-                              }
-                            >
-                              <tr className="bg-gray-100">
+                            <Fragment key={getSectionKey(section)}>
+                              <tr
+                                className={
+                                  section.datasetId && datasetGroupingEnabled
+                                    ? 'bg-slate-100'
+                                    : 'bg-gray-100'
+                                }
+                              >
                                 <td
                                   colSpan={visibleColumnCount}
                                   className="px-4 py-2 text-xs text-gray-700"
                                 >
                                   <div className="flex flex-wrap items-center justify-between gap-3">
-                                    <div className="flex min-w-0 items-center gap-2">
+                                    <div className="flex min-w-0 flex-1 items-start gap-2">
                                       <button
                                         type="button"
                                         onClick={() =>
@@ -1205,20 +1378,35 @@ export function AnnotationsTable() {
                                         onClick={() =>
                                           toggleSectionCollapsed(section)
                                         }
-                                        className="font-semibold truncate text-left hover:text-gray-900"
+                                        className="min-w-0 flex-1 font-semibold text-left hover:text-gray-900"
                                       >
-                                        {section.group
-                                          ? section.group.name ||
-                                            section.group.id
-                                          : 'Ungrouped'}
-                                        <span className="ml-2 font-normal text-gray-500">
-                                          ({section.rows.length})
-                                        </span>
+                                        <div className="flex min-w-0 flex-col items-start gap-0.5">
+                                          {section.datasetId && (
+                                            <div className="min-w-0 w-full">
+                                              {renderDatasetSummary(
+                                                section.datasetId,
+                                              )}
+                                            </div>
+                                          )}
+                                          {groupingEnabled && (
+                                            <div className="w-full truncate">
+                                              {section.group
+                                                ? section.group.name ||
+                                                  section.group.id
+                                                : 'Ungrouped'}
+                                            </div>
+                                          )}
+                                          <span className="font-normal text-gray-500">
+                                            ({section.rows.length})
+                                          </span>
+                                        </div>
                                       </button>
                                     </div>
                                     {showGroupMutationControls &&
                                       section.group && (
-                                        <div className="sticky right-4 ml-auto flex flex-wrap items-center justify-end gap-2 bg-gray-100 pl-3">
+                                        <div
+                                          className={`sticky right-4 ml-auto flex flex-wrap items-center justify-end gap-2 pl-3 ${section.datasetId && datasetGroupingEnabled ? 'bg-slate-100' : 'bg-gray-100'}`}
+                                        >
                                           <Button
                                             type="button"
                                             onClick={() => {

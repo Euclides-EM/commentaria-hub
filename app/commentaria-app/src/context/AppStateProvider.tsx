@@ -65,7 +65,11 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
       ? queryState.viewMode
       : null
   const parsedDatasetTab: DatasetTab =
-    queryState.datasetTab === 'features' ? 'features' : DEFAULT_DATASET_TAB
+    queryState.datasetTab === 'annotations'
+      ? 'annotations'
+      : queryState.datasetTab === 'features'
+        ? 'features'
+        : DEFAULT_DATASET_TAB
   const parsedAnnotationTab: AnnotationTab =
     queryState.annotationTab === 'text' ||
     queryState.annotationTab === 'gallery' ||
