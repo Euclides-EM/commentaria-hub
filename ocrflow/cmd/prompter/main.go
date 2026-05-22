@@ -32,7 +32,7 @@ type cliConfig struct {
 	revisionDesc    string
 	aiProvider      string
 	aiModel         string
-	prompt          string
+	prompts         []string
 	keys            string
 }
 
@@ -69,41 +69,59 @@ func main() {
 		log.Fatalf("target error: %v", err)
 	}
 
-	featureID := strings.TrimSpace(cfg.featureID)
-	if featureID == "" {
-		featureID = idgen.GenerateID("fea")
-	}
-	revisionID := idgen.GenerateID("rev")
-	feat := &feature.Feature{
-		Scope:      defScope,
-		IsList:     true,
-		Color:      "#000000",
-		Properties: nil,
-	}
-	feat.ID = featureID
-	feat.Name = ephemeralFeatureName(cfg, featureID)
+	var feats []*feature.Feature
+	var revs []*feature.Revision
+	var applyItems []feature.ExecutionApplyItem
 
-	rev := &feature.Revision{
-		Scope:       defScope,
-		FeatureID:   featureID,
-		Prompt:      strings.TrimSpace(cfg.prompt),
-		AIProvider:  feature.AIProvider(strings.TrimSpace(cfg.aiProvider)),
-		AIModel:     strings.TrimSpace(cfg.aiModel),
+	for i, rawInput := range cfg.prompts {
+		featName, promptText, err := parsePromptInput(rawInput)
+		if err != nil {
+			log.Fatalf("invalid prompt input: %v", err)
+		}
+
+		fID := strings.TrimSpace(cfg.featureID)
+		if fID == "" || i > 0 {
+			fID = idgen.GenerateID("fea")
+		}
+		rID := idgen.GenerateID("rev")
+
+		f := &feature.Feature{
+			Scope:       defScope,
+			IsList:      cfg.scope != string(feature.ScopeTypeEditions),
+			IsBoolean:   cfg.scope == string(feature.ScopeTypeEditions),
+			FeatureName: featName,
+			Color:       "#000000",
+			Properties:  nil,
+		}
+		f.ID = fID
+		f.Name = featName
+
+		r := &feature.Revision{
+			Scope:      defScope,
+			FeatureID:  fID,
+			Prompt:     promptText,
+			AIProvider: feature.AIProvider(strings.TrimSpace(cfg.aiProvider)),
+			AIModel:    strings.TrimSpace(cfg.aiModel),
+		}
+		r.ID = rID
+		r.Name = strings.TrimSpace(cfg.revisionName)
+		r.Description = strings.TrimSpace(cfg.revisionDesc)
+
+		feats = append(feats, f)
+		revs = append(revs, r)
+		applyItems = append(applyItems, feature.ExecutionApplyItem{
+			Feature:  fID,
+			Revision: rID,
+		})
 	}
-	rev.ID = revisionID
-	rev.Name = strings.TrimSpace(cfg.revisionName)
-	rev.Description = strings.TrimSpace(cfg.revisionDesc)
 
 	exec := &feature.Execution{
 		Scope: execScope,
 		Keys:  keys,
-		Apply: []feature.ExecutionApplyItem{{
-			Feature:  featureID,
-			Revision: revisionID,
-		}},
+		Apply: applyItems,
 	}
 	fmt.Printf("Running ephemeral execution for %s\n", targetLabel)
-	results, err := ocrApp.Deps.FeatureExecutionSvc.ExecuteEphemeral(exec, []*feature.Revision{rev}, []*feature.Feature{feat})
+	results, err := ocrApp.Deps.FeatureExecutionSvc.ExecuteEphemeral(exec, revs, feats)
 	if err != nil {
 		log.Fatalf("ephemeral execution failed: %v", err)
 	}
@@ -111,7 +129,7 @@ func main() {
 	if cfg.scope == string(feature.ScopeTypeEditions) {
 		fmt.Println("Edition execution is currently stubbed in the service layer and does not produce results yet.")
 	}
-	printResults(results)
+	printResults(results, feats)
 }
 
 func parseFlags() cliConfig {
@@ -126,10 +144,17 @@ func parseFlags() cliConfig {
 	fs.StringVar(&cfg.revisionDesc, "revision-description", "", "ephemeral revision description")
 	fs.StringVar(&cfg.aiProvider, "ai-provider", "", "AI provider: openai or ollama")
 	fs.StringVar(&cfg.aiModel, "ai-model", "", "AI model")
-	fs.StringVar(&cfg.prompt, "prompt", "", "prompt-based revision definition")
+	var promptFlag string
+	fs.StringVar(&promptFlag, "prompt", "", "prompt-based revision definition")
 	fs.StringVar(&cfg.keys, "keys", "", "comma-separated execution keys; default is inferred from target")
 
 	fs.Parse(os.Args[1:])
+	for _, line := range strings.Split(promptFlag, "\n") {
+		line = strings.TrimSpace(line)
+		if line != "" {
+			cfg.prompts = append(cfg.prompts, line)
+		}
+	}
 	fs.Visit(func(f *flag.Flag) {
 		switch f.Name {
 		case "dataset":
@@ -215,10 +240,26 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 			return err
 		}
 	}
-	if strings.TrimSpace(cfg.prompt) == "" {
-		cfg.prompt, err = promptNonEmpty(reader, "Prompt")
-		if err != nil {
-			return err
+	if len(cfg.prompts) == 0 {
+		fmt.Println("Enter prompts as \"<feature name>: <prompt>\", one per line. Empty line to finish:")
+		for {
+			v, err := prompt(reader, ">", "")
+			if err != nil {
+				return err
+			}
+			v = strings.TrimSpace(v)
+			if v == "" {
+				if len(cfg.prompts) == 0 {
+					fmt.Println("At least one prompt is required.")
+					continue
+				}
+				break
+			}
+			if _, _, parseErr := parsePromptInput(v); parseErr != nil {
+				fmt.Printf("Invalid format: %v\n", parseErr)
+				continue
+			}
+			cfg.prompts = append(cfg.prompts, v)
 		}
 	}
 	if cfg.keys == "" {
@@ -263,14 +304,6 @@ func buildExecutionTarget(ocrApp *app.OCRFlowApp, cfg cliConfig) (feature.DefSco
 	}
 }
 
-func ephemeralFeatureName(cfg cliConfig, featureID string) string {
-	target := cfg.datasetID
-	if cfg.scope == string(feature.ScopeTypeEditions) {
-		target = strings.ReplaceAll(cfg.keys, ",", "_")
-	}
-	return fmt.Sprintf("tmp-cli-%s-%s", target, featureID)
-}
-
 func normalizeScope(v string) string {
 	switch strings.TrimSpace(strings.ToLower(v)) {
 	case string(feature.ScopeTypeDataset):
@@ -307,13 +340,23 @@ func validateAIModel(provider, model string) error {
 	return fmt.Errorf("invalid ai_model %q for provider %q", model, provider)
 }
 
-func printResults(results []*feature.Result) {
+func printResults(results []*feature.Result, feats []*feature.Feature) {
 	if len(results) == 0 {
 		fmt.Println("No results.")
 		return
 	}
 
+	nameByFeatureID := make(map[string]string, len(feats))
+	for _, f := range feats {
+		nameByFeatureID[f.ID] = f.FeatureName
+	}
+
+	currentFeatureID := ""
 	for _, result := range results {
+		if result.FeatureID != currentFeatureID {
+			currentFeatureID = result.FeatureID
+			fmt.Printf("[%s]\n", nameByFeatureID[currentFeatureID])
+		}
 		fmt.Printf("%s\n", result.Key)
 		if len(result.Values) == 0 {
 			fmt.Println("  (no values)")
@@ -323,6 +366,14 @@ func printResults(results []*feature.Result) {
 			fmt.Printf("  %s\n", value.Surface)
 		}
 	}
+}
+
+func parsePromptInput(input string) (name, prompt string, err error) {
+	idx := strings.Index(input, ": ")
+	if idx < 0 {
+		return "", "", fmt.Errorf("expected format \"<feature name>: <prompt>\"")
+	}
+	return strings.TrimSpace(input[:idx]), strings.TrimSpace(input[idx+2:]), nil
 }
 
 func prompt(reader *bufio.Reader, label, defaultValue string) (string, error) {

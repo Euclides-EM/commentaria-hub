@@ -10,8 +10,10 @@ type Feature struct {
 	common.Meta
 	Scope      DefScope `json:"scope"`
 	IsDefault  bool     `json:"is_default"`
-	IsList     bool     `json:"is_list"`
-	Color      string   `json:"color"`
+	IsList      bool   `json:"is_list"`
+	IsBoolean   bool   `json:"is_boolean"`
+	FeatureName string `json:"feature_name,omitempty"`
+	Color       string `json:"color"`
 	Properties []string `json:"properties,omitempty"`
 
 	// LatestRevision is the most recent revision of this feature. It is read-only and only included if expand=latest_revision is specified in the request.
