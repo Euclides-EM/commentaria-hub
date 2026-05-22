@@ -11,7 +11,6 @@ type Feature struct {
 	Scope      DefScope `json:"scope"`
 	IsDefault  bool     `json:"is_default"`
 	IsList      bool   `json:"is_list"`
-	IsBoolean   bool   `json:"is_boolean"`
 	FeatureName string `json:"feature_name,omitempty"`
 	Color       string `json:"color"`
 	Properties []string `json:"properties,omitempty"`

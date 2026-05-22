@@ -335,8 +335,6 @@ func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (fea
 		definitions = append(definitions, fmt.Sprintf("- %s: %s", featureName, frs[i].Prompt))
 		if fes[i].IsList {
 			outputFormat += fmt.Sprintf(`  "%s": [...], // zero or more values`+"\n", featureName)
-		} else if fes[i].IsBoolean {
-			outputFormat += fmt.Sprintf(`  "%s": true or false`+"\n", featureName)
 		} else {
 			outputFormat += fmt.Sprintf(`  "%s": "...", // a single value or empty if not applicable`+"\n", featureName)
 		}
@@ -358,12 +356,6 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 			if err := json.Unmarshal(rawValue, &values); err != nil {
 				return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w", fn, contextDesc, err)
 			}
-		} else if fes[idx].IsBoolean {
-			var b bool
-			if err := json.Unmarshal(rawValue, &b); err != nil {
-				return nil, fmt.Errorf("failed to parse boolean response for field %q in %s: %w", fn, contextDesc, err)
-			}
-			values = []string{fmt.Sprintf("%t", b)}
 		} else {
 			var val string
 			if err := json.Unmarshal(rawValue, &val); err != nil {

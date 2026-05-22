@@ -74,10 +74,8 @@ func main() {
 	var applyItems []feature.ExecutionApplyItem
 
 	for i, rawInput := range cfg.prompts {
-		featName, promptText, err := parsePromptInput(rawInput)
-		if err != nil {
-			log.Fatalf("invalid prompt input: %v", err)
-		}
+		featName := fmt.Sprintf("Ephemeral feature #%d", i+1)
+		promptText := rawInput
 
 		fID := strings.TrimSpace(cfg.featureID)
 		if fID == "" || i > 0 {
@@ -87,8 +85,7 @@ func main() {
 
 		f := &feature.Feature{
 			Scope:       defScope,
-			IsList:      cfg.scope != string(feature.ScopeTypeEditions),
-			IsBoolean:   cfg.scope == string(feature.ScopeTypeEditions),
+			IsList:      true,
 			FeatureName: featName,
 			Color:       "#000000",
 			Properties:  nil,
@@ -146,11 +143,8 @@ func parseFlags() cliConfig {
 	fs.StringVar(&cfg.keys, "keys", "", "comma-separated execution keys; default is inferred from target")
 
 	fs.Parse(os.Args[1:])
-	for _, line := range strings.Split(promptFlag, "\n") {
-		line = strings.TrimSpace(line)
-		if line != "" {
-			cfg.prompts = append(cfg.prompts, line)
-		}
+	if strings.TrimSpace(promptFlag) != "" {
+		cfg.prompts = append(cfg.prompts, promptFlag)
 	}
 	fs.Visit(func(f *flag.Flag) {
 		switch f.Name {
@@ -238,26 +232,15 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 		}
 	}
 	if len(cfg.prompts) == 0 {
-		fmt.Println("Enter prompts as \"<feature name>: <prompt>\", one per line. Empty line to finish:")
-		for {
-			v, err := prompt(reader, ">", "")
-			if err != nil {
-				return err
-			}
-			v = strings.TrimSpace(v)
-			if v == "" {
-				if len(cfg.prompts) == 0 {
-					fmt.Println("At least one prompt is required.")
-					continue
-				}
-				break
-			}
-			if _, _, parseErr := parsePromptInput(v); parseErr != nil {
-				fmt.Printf("Invalid format: %v\n", parseErr)
-				continue
-			}
-			cfg.prompts = append(cfg.prompts, v)
+		fmt.Println("Enter prompt text. Multiline input is supported. Finish with a line containing only END:")
+		v, err := promptBlock(reader)
+		if err != nil {
+			return err
 		}
+		if strings.TrimSpace(v) == "" {
+			return fmt.Errorf("at least one prompt is required")
+		}
+		cfg.prompts = append(cfg.prompts, v)
 	}
 	if cfg.keys == "" {
 		cfg.keys, err = prompt(reader, "Execution keys (comma-separated, blank to use inferred default)", "")
@@ -344,10 +327,8 @@ func printResults(results []*feature.Result, feats []*feature.Feature) {
 	}
 
 	nameByFeatureID := make(map[string]string, len(feats))
-	isBooleanByFeatureID := make(map[string]bool, len(feats))
 	for _, f := range feats {
 		nameByFeatureID[f.ID] = f.FeatureName
-		isBooleanByFeatureID[f.ID] = f.IsBoolean
 	}
 
 	keyOrder := make([]string, 0)
@@ -368,21 +349,10 @@ func printResults(results []*feature.Result, feats []*feature.Feature) {
 				continue
 			}
 			for _, value := range result.Values {
-				if isBooleanByFeatureID[result.FeatureID] && value.Surface == "false" {
-					continue
-				}
 				fmt.Printf("    %s\n", value.Surface)
 			}
 		}
 	}
-}
-
-func parsePromptInput(input string) (name, prompt string, err error) {
-	idx := strings.Index(input, ": ")
-	if idx < 0 {
-		return "", "", fmt.Errorf("expected format \"<feature name>: <prompt>\"")
-	}
-	return strings.TrimSpace(input[:idx]), strings.TrimSpace(input[idx+2:]), nil
 }
 
 func prompt(reader *bufio.Reader, label, defaultValue string) (string, error) {
@@ -400,6 +370,26 @@ func prompt(reader *bufio.Reader, label, defaultValue string) (string, error) {
 		return defaultValue, nil
 	}
 	return text, nil
+}
+
+func promptBlock(reader *bufio.Reader) (string, error) {
+	var lines []string
+	for {
+		line, err := reader.ReadString('\n')
+		if err != nil {
+			if len(lines) == 0 {
+				return "", err
+			}
+			lines = append(lines, strings.TrimRight(line, "\r\n"))
+			break
+		}
+		line = strings.TrimRight(line, "\r\n")
+		if line == "END" {
+			break
+		}
+		lines = append(lines, line)
+	}
+	return strings.TrimSpace(strings.Join(lines, "\n")), nil
 }
 
 func promptNonEmpty(reader *bufio.Reader, label string) (string, error) {
