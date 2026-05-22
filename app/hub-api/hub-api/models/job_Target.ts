@@ -2,17 +2,17 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { integration_Platform } from './integration_Platform';
-export type integration_JobTarget = {
+import type { job_Platform } from './job_Platform';
+export type job_Target = {
     /**
      * For Roboflow and Commentaria
      */
     api_key?: string;
-    base_path?: string;
     /**
      * For backups
      */
     backup_id?: string;
+    base_path?: string;
     /**
      * For Commentaria
      */
@@ -20,8 +20,9 @@ export type integration_JobTarget = {
     document?: string;
     is_not_ground_truth?: boolean;
     password?: string;
-    platform?: integration_Platform;
+    platform?: job_Platform;
     project_id?: string;
+    sync_to_drive?: boolean;
     /**
      * For EScriptorium
      */
@@ -30,5 +31,5 @@ export type integration_JobTarget = {
      * For Roboflow
      */
     workspace_url?: string;
-    sync_to_drive?: boolean;
 };
+

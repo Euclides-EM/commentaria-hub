@@ -2,10 +2,11 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { feature_AIProvider } from './feature_AIProvider';
 import type { feature_DefScope } from './feature_DefScope';
 export type feature_Revision = {
     ai_model?: string;
-    ai_provider?: 'openai' | 'ollama';
+    ai_provider?: feature_AIProvider;
     categorizer?: string;
     readonly created_at?: string;
     description?: string;
@@ -16,3 +17,4 @@ export type feature_Revision = {
     scope?: feature_DefScope;
     readonly updated_at?: string;
 };
+

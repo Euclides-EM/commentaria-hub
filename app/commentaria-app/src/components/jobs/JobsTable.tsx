@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import type { integration_Job } from '@hub-api'
+import type { job_Job } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import { useNonCompletedIntegrationJobsQuery } from '../../queries/integrations'
 import { ErrorMessage } from '../core/ErrorMessage'
@@ -61,7 +61,7 @@ export function JobsTable() {
   }, [rows, searchQuery])
 
   const sortedRows = useMemo(() => {
-    const getSortValue = (job: integration_Job, key: SortKey) => {
+    const getSortValue = (job: job_Job, key: SortKey) => {
       switch (key) {
         case 'job':
           return (job.name || job.id || '').toLowerCase()

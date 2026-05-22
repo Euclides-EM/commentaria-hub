@@ -13,3 +13,4 @@ export type model_Facsimile = {
     scan_url?: string;
     readonly updated_at?: string;
 };
+

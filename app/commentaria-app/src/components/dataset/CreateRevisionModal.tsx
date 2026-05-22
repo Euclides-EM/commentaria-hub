@@ -42,7 +42,8 @@ export function CreateRevisionModal({
   const [type, setType] = useState<'prompt' | 'categorizer'>('prompt')
   const [prompt, setPrompt] = useState('')
   const [categorizer, setCategorizer] = useState('')
-  const [aiProvider, setAIProvider] = useState<feature_Revision['ai_provider']>()
+  const [aiProvider, setAIProvider] =
+    useState<feature_Revision['ai_provider']>()
   const [aiModel, setAIModel] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)

@@ -97,4 +97,34 @@ export class FeatureResultsService {
             body: result,
         });
     }
+    /**
+     * List edition feature results
+     * Get a list of feature results for an edition
+     * @returns feature_Result OK
+     * @throws ApiError
+     */
+    public static getEditionsResults({
+        editionId,
+        features,
+    }: {
+        /**
+         * Edition ID
+         */
+        editionId: string,
+        /**
+         * Comma-separated list of feature IDs to filter results
+         */
+        features?: string,
+    }): CancelablePromise<Array<feature_Result>> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/editions/{editionId}/results',
+            path: {
+                'editionId': editionId,
+            },
+            query: {
+                'features': features,
+            },
+        });
+    }
 }

@@ -13,7 +13,7 @@ export class ExecutionsService {
      * @returns feature_Execution OK
      * @throws ApiError
      */
-    public static getFeaturesExecutions({
+    public static getFeatureExecutions({
         dataset,
         scope,
         features,
@@ -53,7 +53,7 @@ export class ExecutionsService {
      * @returns feature_Execution OK
      * @throws ApiError
      */
-    public static postFeaturesExecutions({
+    public static postFeatureExecutions({
         execution,
     }: {
         /**
@@ -73,7 +73,7 @@ export class ExecutionsService {
      * @returns feature_Execution OK
      * @throws ApiError
      */
-    public static getFeaturesExecutions1({
+    public static getFeatureExecutions1({
         executionId,
     }: {
         /**
@@ -95,7 +95,7 @@ export class ExecutionsService {
      * @returns string status: cancelled
      * @throws ApiError
      */
-    public static putFeaturesExecutionsCancel({
+    public static putFeatureExecutionsCancel({
         executionId,
     }: {
         /**
