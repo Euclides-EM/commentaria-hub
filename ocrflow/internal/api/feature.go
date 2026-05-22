@@ -150,9 +150,7 @@ func (h *Handlers) DeleteFeature(r *http.Request) (any, error) {
 // @Param        scope         query     string  false "Feature scope" Enums(dataset, editions)
 // @Param        dataset       query     string  false "Dataset ID, relevant only for the dataset scope"
 // @Param        ids           query     []string  false "feature IDs" collectionFormat(multi)
-// @Accept       json
 // @Produce      json
-// @Param        request       body      deleteFeaturesRequest false "Features to delete"
 // @Success      200  {object}  map[string]any
 // @Security 	 BearerAuth
 // @Router       /features [delete]

@@ -16,8 +16,8 @@ import (
 // @Produce json
 // @Param dataSetId path string true "Dataset ID"
 // @Param id path string true "Annotation ID"
-// @Param keys query string false "list of keys to filter results" collectionFormat(multi)
-// @Param features query string false "list of feature names to filter results" collectionFormat(multi)
+// @Param keys query []string false "list of keys to filter results" collectionFormat(multi)
+// @Param features query []string false "list of feature names to filter results" collectionFormat(multi)
 // @Param fallback_to_origin query bool false "Whether to fallback to results of the origin annotation if no feature results are found."
 // @Success 200 {array} feature.Result
 // @Router  /datasets/{dataSetId}/annotations/{id}/results [get]
@@ -42,7 +42,7 @@ func (h *Handlers) ListDatasetResults(r *http.Request) (any, error) {
 // @Accept json
 // @Produce json
 // @Param editionId path string true "Edition ID"
-// @Param features query string false "list of feature IDs to filter results" collectionFormat(multi)
+// @Param features query []string false "list of feature IDs to filter results" collectionFormat(multi)
 // @Success 200 {array} feature.Result
 // @Router  /editions/{editionId}/results [get]
 func (h *Handlers) ListEditionResults(r *http.Request) (any, error) {
@@ -63,8 +63,8 @@ func (h *Handlers) ListEditionResults(r *http.Request) (any, error) {
 // @Param scope query string true "Feature execution scope" Enums(dataset, editions)
 // @Param dataset query string false "Dataset ID, required for dataset scope"
 // @Param annotation query string false "Annotation ID, required for dataset scope"
-// @Param keys query string false "list of keys to filter results" collectionFormat(multi)
-// @Param features query string false "list of feature names to filter results" collectionFormat(multi)
+// @Param keys query []string false "list of keys to filter results" collectionFormat(multi)
+// @Param features query []string false "list of feature names to filter results" collectionFormat(multi)
 // @Param fallback_to_origin query bool false "Whether to fallback to results of the origin annotation."
 // @Success 200 {array} feature.Result
 // @Router  /features_results [get]
