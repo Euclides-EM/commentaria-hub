@@ -6,51 +6,50 @@ import type { feature_Feature } from '../models/feature_Feature';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
-export class FeaturesService {
+export class EditionFeaturesService {
     /**
-     * List Features
-     * Get a list of available features for the dataset
+     * List Edition Features
+     * Get a list of available features for the global editions scope
      * @returns feature_Feature OK
      * @throws ApiError
      */
-    public static getDatasetsFeatures({
-        dataSetId,
+    public static getFeatures({
+        scope,
         expand,
+        dataset,
     }: {
         /**
-         * Dataset ID
+         * Filter by feature execution scope
          */
-        dataSetId: string,
+        scope: 'dataset' | 'editions',
         /**
          * Include related entities
          */
         expand?: Array<string>,
+        /**
+         * Filter by dataset ID, relevant only for the dataset scope
+         */
+        dataset?: string,
     }): CancelablePromise<Array<feature_Feature>> {
         return __request(OpenAPI, {
             method: 'GET',
-            url: '/datasets/{dataSetId}/features',
-            path: {
-                'dataSetId': dataSetId,
-            },
+            url: '/features',
             query: {
                 'expand': expand,
+                'scope': scope,
+                'dataset': dataset,
             },
         });
     }
     /**
-     * Create Feature
-     * Create a new feature for the dataset
+     * Create Edition Feature
+     * Create a new feature for the global editions scope
      * @returns feature_Feature OK
      * @throws ApiError
      */
-    public static postDatasetsFeatures({
-        dataSetId,
+    public static postFeatures({
         feature,
     }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
         /**
          * Feature to create
          */
@@ -58,28 +57,20 @@ export class FeaturesService {
     }): CancelablePromise<feature_Feature> {
         return __request(OpenAPI, {
             method: 'POST',
-            url: '/datasets/{dataSetId}/features',
-            path: {
-                'dataSetId': dataSetId,
-            },
+            url: '/features',
             body: feature,
         });
     }
     /**
-     * Get Feature
-     * Get details of a specific feature from the dataset
+     * Get Edition Feature
+     * Get details of a specific feature from the global editions scope
      * @returns feature_Feature OK
      * @throws ApiError
      */
-    public static getDatasetsFeatures1({
-        dataSetId,
+    public static getFeatures1({
         featureId,
         expand,
     }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
         /**
          * Feature ID
          */
@@ -91,9 +82,8 @@ export class FeaturesService {
     }): CancelablePromise<feature_Feature> {
         return __request(OpenAPI, {
             method: 'GET',
-            url: '/datasets/{dataSetId}/features/{featureId}',
+            url: '/features/{featureId}',
             path: {
-                'dataSetId': dataSetId,
                 'featureId': featureId,
             },
             query: {
@@ -102,20 +92,15 @@ export class FeaturesService {
         });
     }
     /**
-     * Update Feature
-     * Update an existing feature in the dataset.
+     * Update Edition Feature
+     * Update an existing feature in the global editions scope.
      * @returns feature_Feature OK
      * @throws ApiError
      */
-    public static putDatasetsFeatures({
-        dataSetId,
+    public static putFeatures({
         featureId,
         feature,
     }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
         /**
          * Feature ID
          */
@@ -127,29 +112,23 @@ export class FeaturesService {
     }): CancelablePromise<feature_Feature> {
         return __request(OpenAPI, {
             method: 'PUT',
-            url: '/datasets/{dataSetId}/features/{featureId}',
+            url: '/features/{featureId}',
             path: {
-                'dataSetId': dataSetId,
                 'featureId': featureId,
             },
             body: feature,
         });
     }
     /**
-     * Delete Feature
-     * Delete a feature from the dataset.
+     * Delete Edition Feature
+     * Delete a feature from the global editions scope.
      * @returns void
      * @throws ApiError
      */
-    public static deleteDatasetsFeatures({
-        dataSetId,
+    public static deleteFeatures({
         featureId,
         force,
     }: {
-        /**
-         * Dataset ID
-         */
-        dataSetId: string,
         /**
          * Feature ID
          */
@@ -161,9 +140,8 @@ export class FeaturesService {
     }): CancelablePromise<void> {
         return __request(OpenAPI, {
             method: 'DELETE',
-            url: '/datasets/{dataSetId}/features/{featureId}',
+            url: '/features/{featureId}',
             path: {
-                'dataSetId': dataSetId,
                 'featureId': featureId,
             },
             query: {

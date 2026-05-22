@@ -2,9 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { feature_ExecScope } from './feature_ExecScope';
 import type { feature_ResultSource } from './feature_ResultSource';
 import type { feature_ResultValue } from './feature_ResultValue';
-import type { feature_ExecScope } from './feature_ExecScope';
 export type feature_Result = {
     readonly created_at?: string;
     description?: string;
@@ -23,3 +23,4 @@ export type feature_Result = {
      */
     values?: Array<feature_ResultValue>;
 };
+

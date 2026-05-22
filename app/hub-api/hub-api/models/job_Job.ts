@@ -3,10 +3,10 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { annotation_Reference } from './annotation_Reference';
-import type { integration_JobStatus } from './integration_JobStatus';
-import type { integration_JobTarget } from './integration_JobTarget';
-import type { integration_Task } from './integration_Task';
-export type integration_Job = {
+import type { job_Status } from './job_Status';
+import type { job_Target } from './job_Target';
+import type { job_Task } from './job_Task';
+export type job_Job = {
     annotation?: annotation_Reference;
     readonly created_at?: string;
     description?: string;
@@ -14,9 +14,9 @@ export type integration_Job = {
     readonly finished_at?: string;
     readonly id?: string;
     name?: string;
-    readonly status?: integration_JobStatus;
-    target?: integration_JobTarget;
-    task?: integration_Task;
+    readonly status?: job_Status;
+    target?: job_Target;
+    task?: job_Task;
     readonly updated_at?: string;
 };
 

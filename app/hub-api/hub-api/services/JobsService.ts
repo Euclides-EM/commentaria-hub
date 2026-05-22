@@ -2,8 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { integration_Job } from '../models/integration_Job';
-import type { integration_Jobs } from '../models/integration_Jobs';
+import type { job_Job } from '../models/job_Job';
+import type { job_Jobs } from '../models/job_Jobs';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -11,10 +11,10 @@ export class JobsService {
     /**
      * List jobs
      * Retrieves a list of all jobs
-     * @returns integration_Job OK
+     * @returns job_Job OK
      * @throws ApiError
      */
-    public static getJobs(): CancelablePromise<Array<integration_Job>> {
+    public static getJobs(): CancelablePromise<Array<job_Job>> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/jobs',
@@ -26,7 +26,7 @@ export class JobsService {
     /**
      * Create new jobs
      * Creates new jobs based on the provided details
-     * @returns integration_Jobs Created
+     * @returns job_Jobs Created
      * @throws ApiError
      */
     public static postJobs({
@@ -35,8 +35,8 @@ export class JobsService {
         /**
          * Job details
          */
-        job: integration_Jobs,
-    }): CancelablePromise<integration_Jobs> {
+        job: job_Jobs,
+    }): CancelablePromise<job_Jobs> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/jobs',
@@ -46,7 +46,7 @@ export class JobsService {
     /**
      * Get job details
      * Retrieves details of a specific job by ID
-     * @returns integration_Job OK
+     * @returns job_Job OK
      * @throws ApiError
      */
     public static getJobs1({
@@ -56,7 +56,7 @@ export class JobsService {
          * Job ID
          */
         jobId: string,
-    }): CancelablePromise<integration_Job> {
+    }): CancelablePromise<job_Job> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/jobs/{jobId}',

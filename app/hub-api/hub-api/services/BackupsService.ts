@@ -2,8 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { job_Job } from '../models/job_Job';
 import type { CancelablePromise } from '../core/CancelablePromise';
-import type { integration_Job } from '../models/integration_Job';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
 export class BackupsService {
@@ -22,7 +22,7 @@ export class BackupsService {
     /**
      * Create backup
      * Creates a new backup of the current system state.
-     * @returns string Backup ID
+     * @returns job_Job Created
      * @throws ApiError
      */
     public static postBackups({
@@ -37,7 +37,7 @@ export class BackupsService {
          * If true, the backup will be copied to Google Drive using rclone after creation
          */
         syncToDrive?: boolean,
-    }): CancelablePromise<string | integration_Job> {
+    }): CancelablePromise<job_Job> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/backups',
@@ -116,22 +116,22 @@ export class BackupsService {
     /**
      * Sync backup to Google Drive
      * Copies an existing backup to Google Drive using rclone.
-     * @returns string OK
+     * @returns job_Job OK
      * @throws ApiError
      */
     public static putBackupsSync({
-        async,
         backupId,
+        async,
     }: {
-        /**
-         * Sync the backup in a background job instead of waiting for completion
-         */
-        async?: boolean,
         /**
          * ID of the backup to sync
          */
         backupId: string,
-    }): CancelablePromise<Record<string, string> | integration_Job> {
+        /**
+         * Sync the backup in a background job instead of waiting for completion
+         */
+        async?: boolean,
+    }): CancelablePromise<job_Job> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/backups/{backupId}/sync',

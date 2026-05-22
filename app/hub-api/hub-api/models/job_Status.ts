@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type integration_JobStatus = 'pending' | 'running' | 'completed' | 'failed';
+export type job_Status = 'pending' | 'running' | 'completed' | 'failed';

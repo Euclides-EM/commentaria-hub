@@ -1,6 +1,6 @@
 import { type ChangeEvent, useEffect, useMemo, useRef, useState } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
-import type { integration_Job } from '@hub-api'
+import type { job_Job } from '@hub-api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
@@ -44,14 +44,14 @@ const isNetworkError = (error: unknown): boolean => {
   )
 }
 
-const isJob = (value: unknown): value is integration_Job => {
+const isJob = (value: unknown): value is job_Job => {
   return Boolean(value && typeof value === 'object' && 'task' in value)
 }
 
-const isActiveJob = (job?: integration_Job): boolean =>
+const isActiveJob = (job?: job_Job): boolean =>
   job?.status === 'pending' || job?.status === 'running'
 
-const jobStatusLabel = (job: integration_Job | undefined, idle: string) => {
+const jobStatusLabel = (job: job_Job | undefined, idle: string) => {
   switch (job?.status) {
     case 'pending':
       return 'Queued'
@@ -194,9 +194,7 @@ export function BackupsView() {
                 variant="primary"
                 className="px-3 py-2 text-sm"
                 onClick={handleCreateBackup}
-                disabled={
-                  createBackupActive || createFromZipMutation.isPending
-                }
+                disabled={createBackupActive || createFromZipMutation.isPending}
               >
                 {createMutation.isPending
                   ? 'Queueing...'

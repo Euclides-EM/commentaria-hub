@@ -2,4 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type integration_Platform = 'Roboflow' | 'EScriptorium' | 'Commentaria';
+import type { job_Job } from './job_Job';
+export type job_Jobs = {
+    jobs?: Array<job_Job>;
+};
+

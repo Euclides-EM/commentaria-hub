@@ -79,7 +79,7 @@ export function FeatureExecutionsTab() {
   const executionsQuery = useQuery({
     queryKey: executionsQueryKey,
     queryFn: () =>
-      ExecutionsService.getFeaturesExecutions({
+      ExecutionsService.getFeatureExecutions({
         scope: 'dataset',
         dataset: datasetId,
       }),
@@ -100,7 +100,7 @@ export function FeatureExecutionsTab() {
 
   const cancelExecutionMutation = useMutation({
     mutationFn: (executionId: string) =>
-      ExecutionsService.putFeaturesExecutionsCancel({ executionId }),
+      ExecutionsService.putFeatureExecutionsCancel({ executionId }),
     onSuccess: async () => {
       await queryClient.invalidateQueries({ queryKey: executionsQueryKey })
     },
@@ -108,7 +108,7 @@ export function FeatureExecutionsTab() {
 
   const createExecutionMutation = useMutation({
     mutationFn: (execution: feature_Execution) =>
-      ExecutionsService.postFeaturesExecutions({ execution }),
+      ExecutionsService.postFeatureExecutions({ execution }),
     onSuccess: async () => {
       await queryClient.invalidateQueries({ queryKey: executionsQueryKey })
     },
@@ -140,7 +140,8 @@ export function FeatureExecutionsTab() {
     const executionList = executionsQuery.data ?? []
     if (executionStatusFilter === 'all') return executionList
     return executionList.filter(
-      (execution) => execution.status === executionStatusFilter,
+      (execution: feature_Execution) =>
+        execution.status === executionStatusFilter,
     )
   }, [executionsQuery.data, executionStatusFilter])
 
@@ -309,122 +310,135 @@ export function FeatureExecutionsTab() {
               : 'No executions match the selected status.'}
           </div>
         ) : (
-          filteredExecutions.map((execution, index) => {
-            const executionId = execution.id ?? ''
-            const executionCardKey =
-              executionId || execution.created_at || String(index)
-            const isCanceling = cancelingExecutionId === executionId
-            const canCancel =
-              execution.status === 'in_progress' ||
-              execution.status === 'canceling'
-            const executionKeys = Array.from(new Set(execution.keys ?? []))
-            const showExecutionEditions =
-              expandedExecutionEditions[executionCardKey] ?? false
+          filteredExecutions.map(
+            (execution: feature_Execution, index: number) => {
+              const executionId = execution.id ?? ''
+              const executionCardKey =
+                executionId || execution.created_at || String(index)
+              const isCanceling = cancelingExecutionId === executionId
+              const canCancel =
+                execution.status === 'in_progress' ||
+                execution.status === 'canceling'
+              const executionKeys = Array.from(new Set(execution.keys ?? []))
+              const showExecutionEditions =
+                expandedExecutionEditions[executionCardKey] ?? false
 
-            return (
-              <article
-                key={executionCardKey}
-                className="border border-gray-200 rounded-lg bg-white p-4 space-y-2"
-              >
-                <div className="flex items-center justify-between gap-3">
-                  <div className="text-sm font-semibold text-gray-900">
-                    {execution.name || executionId || 'Unnamed'}
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="inline-flex items-center rounded-full border border-gray-300 bg-gray-50 px-2 py-0.5 text-xs text-gray-700">
-                      {execution.status
-                        ? EXECUTION_STATUS_LABELS[execution.status] ||
-                          execution.status
-                        : 'Unknown'}
-                    </span>
-                    {canCancel && (
-                      <Button
-                        variant="danger"
-                        type="button"
-                        className="px-2 py-1 text-xs"
-                        onClick={() =>
-                          executionId && void handleCancelExecution(executionId)
-                        }
-                        disabled={isCanceling}
-                      >
-                        {isCanceling ? 'Canceling...' : 'Cancel'}
-                      </Button>
-                    )}
-                  </div>
-                </div>
-
-                {execution.description && (
-                  <div className="text-sm text-gray-700">
-                    {execution.description}
-                  </div>
-                )}
-
-                <div className="text-xs text-gray-500">
-                  Created: {formatDate(execution.created_at)}
-                </div>
-
-                {executionKeys.length > 0 && (
-                  <div className="space-y-2">
-                    <button
-                      type="button"
-                      onClick={() => toggleExecutionEditions(executionCardKey)}
-                      className="text-xs text-gray-700 hover:text-gray-900"
-                    >
-                      {showExecutionEditions ? '▾' : '▸'} Including{' '}
-                      {executionKeys.length}{' '}
-                      {executionKeys.length === 1 ? 'edition' : 'editions'}.
-                    </button>
-                    {showExecutionEditions && (
-                      <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
-                        {executionKeys.map((editionKey) => {
-                          const item = editionsByKey.get(editionKey)
-                          return (
-                            <div
-                              key={editionKey}
-                              className="px-3 py-2 text-xs text-gray-700"
-                            >
-                              {item ? (
-                                formatEditionLabel(item)
-                              ) : (
-                                <span>{editionKey} - details unavailable</span>
-                              )}
-                            </div>
-                          )
-                        })}
-                      </div>
-                    )}
-                  </div>
-                )}
-
-                {execution.apply && execution.apply.length > 0 && (
-                  <div className="text-xs text-gray-600 flex flex-wrap items-center gap-1.5">
-                    <span className="text-gray-500">Features:</span>
-                    {execution.apply.map((applyItem, itemIndex) => {
-                      const featureId = applyItem.feature ?? ''
-                      const featureInfo = featureInfoById[featureId]
-                      const label =
-                        featureInfo?.name || featureId || 'Unknown feature'
-                      return (
-                        <span
-                          key={`${featureId || 'unknown'}-${itemIndex}`}
-                          title={featureId}
-                          className="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-gray-50 px-2 py-0.5"
+              return (
+                <article
+                  key={executionCardKey}
+                  className="border border-gray-200 rounded-lg bg-white p-4 space-y-2"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="text-sm font-semibold text-gray-900">
+                      {execution.name || executionId || 'Unnamed'}
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex items-center rounded-full border border-gray-300 bg-gray-50 px-2 py-0.5 text-xs text-gray-700">
+                        {execution.status
+                          ? EXECUTION_STATUS_LABELS[execution.status] ||
+                            execution.status
+                          : 'Unknown'}
+                      </span>
+                      {canCancel && (
+                        <Button
+                          variant="danger"
+                          type="button"
+                          className="px-2 py-1 text-xs"
+                          onClick={() =>
+                            executionId &&
+                            void handleCancelExecution(executionId)
+                          }
+                          disabled={isCanceling}
                         >
-                          <span
-                            className="inline-block w-2 h-2 rounded-full border border-gray-300"
-                            style={{
-                              backgroundColor: featureInfo?.color || '#d1d5db',
-                            }}
-                          />
-                          <span>{label}</span>
-                        </span>
-                      )
-                    })}
+                          {isCanceling ? 'Canceling...' : 'Cancel'}
+                        </Button>
+                      )}
+                    </div>
                   </div>
-                )}
-              </article>
-            )
-          })
+
+                  {execution.description && (
+                    <div className="text-sm text-gray-700">
+                      {execution.description}
+                    </div>
+                  )}
+
+                  <div className="text-xs text-gray-500">
+                    Created: {formatDate(execution.created_at)}
+                  </div>
+
+                  {executionKeys.length > 0 && (
+                    <div className="space-y-2">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          toggleExecutionEditions(executionCardKey)
+                        }
+                        className="text-xs text-gray-700 hover:text-gray-900"
+                      >
+                        {showExecutionEditions ? '▾' : '▸'} Including{' '}
+                        {executionKeys.length}{' '}
+                        {executionKeys.length === 1 ? 'edition' : 'editions'}.
+                      </button>
+                      {showExecutionEditions && (
+                        <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
+                          {executionKeys.map((editionKey: string) => {
+                            const item = editionsByKey.get(editionKey)
+                            return (
+                              <div
+                                key={editionKey}
+                                className="px-3 py-2 text-xs text-gray-700"
+                              >
+                                {item ? (
+                                  formatEditionLabel(item)
+                                ) : (
+                                  <span>
+                                    {editionKey} - details unavailable
+                                  </span>
+                                )}
+                              </div>
+                            )
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {execution.apply && execution.apply.length > 0 && (
+                    <div className="text-xs text-gray-600 flex flex-wrap items-center gap-1.5">
+                      <span className="text-gray-500">Features:</span>
+                      {execution.apply.map(
+                        (
+                          applyItem: feature_ExecutionApplyItem,
+                          itemIndex: number,
+                        ) => {
+                          const featureId = applyItem.feature ?? ''
+                          const featureInfo = featureInfoById[featureId]
+                          const label =
+                            featureInfo?.name || featureId || 'Unknown feature'
+                          return (
+                            <span
+                              key={`${featureId || 'unknown'}-${itemIndex}`}
+                              title={featureId}
+                              className="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-gray-50 px-2 py-0.5"
+                            >
+                              <span
+                                className="inline-block w-2 h-2 rounded-full border border-gray-300"
+                                style={{
+                                  backgroundColor:
+                                    featureInfo?.color || '#d1d5db',
+                                }}
+                              />
+                              <span>{label}</span>
+                            </span>
+                          )
+                        },
+                      )}
+                    </div>
+                  )}
+                </article>
+              )
+            },
+          )
         )}
       </div>
 

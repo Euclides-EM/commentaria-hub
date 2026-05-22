@@ -2,8 +2,8 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { feature_Revision } from './feature_Revision';
 import type { feature_DefScope } from './feature_DefScope';
+import type { feature_Revision } from './feature_Revision';
 export type feature_Feature = {
     color?: string;
     readonly created_at?: string;
@@ -17,10 +17,11 @@ export type feature_Feature = {
     readonly latest_revision?: feature_Revision;
     name?: string;
     properties?: Array<string>;
-    scope?: feature_DefScope;
     /**
      * Revisions is the list of all revisions of this feature, ordered by created_at descending. It is read-only and only included if expand=revisions is specified in the request.
      */
     readonly revisions?: Array<feature_Revision>;
+    scope?: feature_DefScope;
     readonly updated_at?: string;
 };
+

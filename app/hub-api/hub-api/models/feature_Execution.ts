@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { feature_ExecScope } from './feature_ExecScope';
 import type { feature_ExecutionApplyItem } from './feature_ExecutionApplyItem';
 import type { feature_ExecutionPolicy } from './feature_ExecutionPolicy';
 import type { feature_ExecutionStatus } from './feature_ExecutionStatus';
-import type { feature_ExecScope } from './feature_ExecScope';
 export type feature_Execution = {
     apply?: Array<feature_ExecutionApplyItem>;
     readonly created_at?: string;
@@ -22,3 +22,4 @@ export type feature_Execution = {
     status_reason?: string;
     readonly updated_at?: string;
 };
+

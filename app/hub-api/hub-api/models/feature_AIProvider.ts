@@ -2,8 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { integration_Job } from './integration_Job';
-export type integration_Jobs = {
-    jobs?: Array<integration_Job>;
-};
-
+export type feature_AIProvider = 'ollama' | 'openai';
