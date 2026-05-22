@@ -62,6 +62,40 @@ export class EditionFeaturesService {
         });
     }
     /**
+     * Delete Edition Features
+     * Delete multiple features in a scope.
+     * @returns any OK
+     * @throws ApiError
+     */
+    public static deleteFeatures({
+        scope,
+        dataset,
+        ids,
+    }: {
+        /**
+         * Feature scope
+         */
+        scope?: 'dataset' | 'editions',
+        /**
+         * Dataset ID, relevant only for the dataset scope
+         */
+        dataset?: string,
+        /**
+         * feature IDs
+         */
+        ids?: Array<string>,
+    }): CancelablePromise<any> {
+        return __request(OpenAPI, {
+            method: 'DELETE',
+            url: '/features',
+            query: {
+                'scope': scope,
+                'dataset': dataset,
+                'ids': ids,
+            },
+        });
+    }
+    /**
      * Get Edition Feature
      * Get details of a specific feature from the global editions scope
      * @returns feature_Feature OK
@@ -125,7 +159,7 @@ export class EditionFeaturesService {
      * @returns void
      * @throws ApiError
      */
-    public static deleteFeatures({
+    public static deleteFeatures1({
         featureId,
         force,
     }: {

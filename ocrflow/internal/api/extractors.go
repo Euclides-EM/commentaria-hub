@@ -112,7 +112,7 @@ func extractGroupId(request *http.Request) (string, error) {
 	return groupId, nil
 }
 
-func extractScope(r *http.Request) (feature.DefScope, error) {
+func extractDefScope(r *http.Request) (feature.DefScope, error) {
 	scopeType := feature.ScopeType(r.URL.Query().Get("scope"))
 	if scopeType == "" {
 		return feature.DefScope{}, fmt.Errorf("missing scope type")
@@ -125,6 +125,25 @@ func extractScope(r *http.Request) (feature.DefScope, error) {
 		return feature.NewDatasetDefScope(datasetId), nil
 	}
 	return feature.DefScope{}, fmt.Errorf("invalid scope")
+}
+
+func extractExecScope(r *http.Request) (feature.ExecScope, error) {
+	scopeType := feature.ScopeType(r.URL.Query().Get("scope"))
+	switch scopeType {
+	case feature.ScopeTypeEditions:
+		return feature.NewEditionExecScope(), nil
+	case feature.ScopeTypeDataset:
+		datasetID := r.URL.Query().Get("dataset")
+		annotationID := r.URL.Query().Get("annotation")
+		if datasetID == "" || annotationID == "" {
+			return feature.ExecScope{}, fmt.Errorf("dataset and annotation are required for dataset feature results")
+		}
+		return feature.NewDatasetExecScope(datasetID, annotationID), nil
+	case "":
+		return feature.ExecScope{}, fmt.Errorf("missing scope type")
+	default:
+		return feature.ExecScope{}, fmt.Errorf("invalid scope")
+	}
 }
 
 func DecodeBody(r *http.Request, dst any) error {

@@ -35,7 +35,7 @@ func (h *Handlers) ListDatasetFeatures(r *http.Request) (any, error) {
 // @Success      200  {array}   feature.Feature
 // @Router       /features [get]
 func (h *Handlers) ListFeatures(r *http.Request) (any, error) {
-	scope, err := extractScope(r)
+	scope, err := extractDefScope(r)
 	if err != nil {
 		return nil, err
 	}
@@ -141,6 +141,30 @@ func (h *Handlers) DeleteFeature(r *http.Request) (any, error) {
 		return nil, err
 	}
 	return map[string]string{"status": "deleted"}, nil
+}
+
+// DeleteFeatures godoc
+// @Summary      Delete Edition Features
+// @Description  Delete multiple features in a scope.
+// @Tags         Edition Features
+// @Param        scope         query     string  false "Feature scope" Enums(dataset, editions)
+// @Param        dataset       query     string  false "Dataset ID, relevant only for the dataset scope"
+// @Param        ids           query     []string  false "feature IDs" collectionFormat(multi)
+// @Produce      json
+// @Success      200  {object}  map[string]any
+// @Security 	 BearerAuth
+// @Router       /features [delete]
+func (h *Handlers) DeleteFeatures(r *http.Request) (any, error) {
+	ids := r.URL.Query()["ids"]
+	scope, err := extractDefScope(r)
+	if err != nil {
+		return nil, err
+	}
+	deleted, err := h.deps.FeatureSvc.DeleteFeaturesInScope(scope, ids, false)
+	if err != nil {
+		return nil, err
+	}
+	return map[string]any{"status": "deleted", "deleted": deleted}, nil
 }
 
 // GetDatasetFeature godoc

@@ -21,7 +21,7 @@ import (
 // @Param statuses query string false "Filter by delimited list of execution statuses" Enums(pending, running, completed, failed)
 // @Router       /feature_executions [get]
 func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
-	scope, err := extractScope(r)
+	scope, err := extractDefScope(r)
 	if err != nil {
 		return nil, err
 	}
