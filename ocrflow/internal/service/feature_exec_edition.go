@@ -69,7 +69,13 @@ func formatEditionInfo(ed *model.Edition) string {
 			where = append(where, "in "+strings.Join(ed.Cities, " and "))
 		}
 		if len(ed.Languages) > 0 {
-			where = append(where, "in "+strings.Join(ed.Languages, " and "))
+			langs := make([]string, len(ed.Languages))
+			for i, l := range ed.Languages {
+				if len(l) > 0 {
+					langs[i] = strings.ToUpper(l[:1]) + l[1:]
+				}
+			}
+			where = append(where, "in "+strings.Join(langs, " and "))
 		}
 		if len(where) > 0 {
 			intro += ", " + strings.Join(where, ", ")
@@ -119,11 +125,7 @@ func formatEditionInfo(ed *model.Edition) string {
 	if ed.IsElements {
 		content := "\nThe edition covers Euclid's Elements"
 		if len(ed.Books) > 0 {
-			bookStrs := make([]string, len(ed.Books))
-			for i, n := range ed.Books {
-				bookStrs[i] = fmt.Sprintf("%d", n)
-			}
-			content += ", specifically books " + strings.Join(bookStrs, ", ")
+			content += ", specifically books " + formatBookRanges(ed.Books)
 		}
 		content += "."
 		b.WriteString(content + "\n")
@@ -143,6 +145,29 @@ func formatEditionInfo(ed *model.Edition) string {
 	}
 
 	return strings.TrimSpace(b.String())
+}
+
+func formatBookRanges(books []int) string {
+	var parts []string
+	start, end := books[0], books[0]
+	for _, n := range books[1:] {
+		if n == end+1 {
+			end = n
+		} else {
+			if start == end {
+				parts = append(parts, fmt.Sprintf("%d", start))
+			} else {
+				parts = append(parts, fmt.Sprintf("%d-%d", start, end))
+			}
+			start, end = n, n
+		}
+	}
+	if start == end {
+		parts = append(parts, fmt.Sprintf("%d", start))
+	} else {
+		parts = append(parts, fmt.Sprintf("%d-%d", start, end))
+	}
+	return strings.Join(parts, ", ")
 }
 
 func (fe *Execution) editionPromptApplyFunc(ed *model.Edition, frs []*feature.Revision, fes []*feature.Feature, execID string) applyFunc {

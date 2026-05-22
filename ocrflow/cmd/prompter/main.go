@@ -22,18 +22,18 @@ var allowedModelsByProvider = map[string][]string{
 }
 
 type cliConfig struct {
-	scope           string
-	datasetID       string
-	datasetSet      bool
-	annotationID    string
-	annotationSet   bool
-	featureID       string
-	revisionName    string
-	revisionDesc    string
-	aiProvider      string
-	aiModel         string
-	prompts         []string
-	keys            string
+	scope         string
+	datasetID     string
+	datasetSet    bool
+	annotationID  string
+	annotationSet bool
+	featureID     string
+	revisionName  string
+	revisionDesc  string
+	aiProvider    string
+	aiModel       string
+	prompts       []string
+	keys          string
 }
 
 func main() {
@@ -126,9 +126,6 @@ func main() {
 		log.Fatalf("ephemeral execution failed: %v", err)
 	}
 
-	if cfg.scope == string(feature.ScopeTypeEditions) {
-		fmt.Println("Edition execution is currently stubbed in the service layer and does not produce results yet.")
-	}
 	printResults(results, feats)
 }
 
@@ -347,23 +344,35 @@ func printResults(results []*feature.Result, feats []*feature.Feature) {
 	}
 
 	nameByFeatureID := make(map[string]string, len(feats))
+	isBooleanByFeatureID := make(map[string]bool, len(feats))
 	for _, f := range feats {
 		nameByFeatureID[f.ID] = f.FeatureName
+		isBooleanByFeatureID[f.ID] = f.IsBoolean
 	}
 
-	currentFeatureID := ""
+	keyOrder := make([]string, 0)
+	byKey := make(map[string][]*feature.Result)
 	for _, result := range results {
-		if result.FeatureID != currentFeatureID {
-			currentFeatureID = result.FeatureID
-			fmt.Printf("[%s]\n", nameByFeatureID[currentFeatureID])
+		if _, seen := byKey[result.Key]; !seen {
+			keyOrder = append(keyOrder, result.Key)
 		}
-		fmt.Printf("%s\n", result.Key)
-		if len(result.Values) == 0 {
-			fmt.Println("  (no values)")
-			continue
-		}
-		for _, value := range result.Values {
-			fmt.Printf("  %s\n", value.Surface)
+		byKey[result.Key] = append(byKey[result.Key], result)
+	}
+
+	for _, key := range keyOrder {
+		fmt.Printf("%s\n", key)
+		for _, result := range byKey[key] {
+			fmt.Printf("  [%s]\n", nameByFeatureID[result.FeatureID])
+			if len(result.Values) == 0 {
+				fmt.Println("    (no values)")
+				continue
+			}
+			for _, value := range result.Values {
+				if isBooleanByFeatureID[result.FeatureID] && value.Surface == "false" {
+					continue
+				}
+				fmt.Printf("    %s\n", value.Surface)
+			}
 		}
 	}
 }
