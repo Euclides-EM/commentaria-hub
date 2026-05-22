@@ -146,7 +146,7 @@ export function TeiPane({
       FeatureResultsService.getDatasetsAnnotationsResults({
         dataSetId: datasetId,
         id: annotationId,
-        keys: String(currentPageOrKey),
+        keys: [String(currentPageOrKey)],
         fallbackToOrigin: true,
       }),
     enabled: !!datasetId && !!annotationId,
