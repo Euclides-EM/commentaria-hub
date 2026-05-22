@@ -8,10 +8,10 @@ import (
 	"log"
 	"os"
 	"strings"
-	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/app"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 	"github.com/joho/godotenv"
 )
@@ -24,7 +24,9 @@ var allowedModelsByProvider = map[string][]string{
 type cliConfig struct {
 	scope           string
 	datasetID       string
+	datasetSet      bool
 	annotationID    string
+	annotationSet   bool
 	editionID       string
 	featureID       string
 	revisionName    string
@@ -34,11 +36,6 @@ type cliConfig struct {
 	prompt          string
 	categorizer     string
 	keys            string
-	pushToOrigin    bool
-	pushToOriginSet bool
-	skipIf          string
-	wait            time.Duration
-	poll            time.Duration
 }
 
 func main() {
@@ -74,102 +71,78 @@ func main() {
 		log.Fatalf("target error: %v", err)
 	}
 
-	if _, err := ocrApp.Deps.FeatureSvc.GetFeatureInScope(defScope, cfg.featureID, nil); err != nil {
-		log.Fatalf("feature lookup failed: %v", err)
+	featureID := strings.TrimSpace(cfg.featureID)
+	if featureID == "" {
+		featureID = idgen.GenerateID("fea")
 	}
+	revisionID := idgen.GenerateID("rev")
+	feat := &feature.Feature{
+		Scope:      defScope,
+		IsList:     true,
+		Color:      "#000000",
+		Properties: nil,
+	}
+	feat.ID = featureID
+	feat.Name = ephemeralFeatureName(cfg, featureID)
 
 	rev := &feature.Revision{
 		Scope:       defScope,
-		FeatureID:   cfg.featureID,
+		FeatureID:   featureID,
 		Prompt:      strings.TrimSpace(cfg.prompt),
 		Categorizer: strings.TrimSpace(cfg.categorizer),
 		AIProvider:  feature.AIProvider(strings.TrimSpace(cfg.aiProvider)),
 		AIModel:     strings.TrimSpace(cfg.aiModel),
 	}
+	rev.ID = revisionID
 	rev.Name = strings.TrimSpace(cfg.revisionName)
 	rev.Description = strings.TrimSpace(cfg.revisionDesc)
-
-	fmt.Printf("Creating revision for feature %s in scope %s\n", cfg.featureID, cfg.scope)
-	createdRev, err := ocrApp.Deps.FeatureRevisionSvc.CreateFeatureRevision(cfg.featureID, rev)
-	if err != nil {
-		log.Fatalf("failed to create revision: %v", err)
-	}
 
 	exec := &feature.Execution{
 		Scope: execScope,
 		Keys:  keys,
 		Apply: []feature.ExecutionApplyItem{{
-			Feature:  cfg.featureID,
-			Revision: createdRev.ID,
+			Feature:  featureID,
+			Revision: revisionID,
 		}},
 	}
-	if cfg.pushToOriginSet || len(parseCSV(cfg.skipIf)) > 0 {
-		skipIf, err := validateSkipIfList(cfg.skipIf)
-		if err != nil {
-			log.Fatalf("invalid skip policy: %v", err)
-		}
-		exec.Policy = &feature.ExecutionPolicy{
-			PushToOrigin: cfg.pushToOrigin,
-			SkipIf:       skipIf,
-		}
-	}
-
-	fmt.Printf("Creating execution for %s\n", targetLabel)
-	createdExec, err := ocrApp.Deps.FeatureExecutionSvc.CreateFeatureExecution(exec)
+	fmt.Printf("Running ephemeral execution for %s\n", targetLabel)
+	results, err := ocrApp.Deps.FeatureExecutionSvc.ExecuteEphemeral(exec, []*feature.Revision{rev}, []*feature.Feature{feat})
 	if err != nil {
-		log.Fatalf("failed to create execution: %v", err)
+		log.Fatalf("ephemeral execution failed: %v", err)
 	}
-
-	fmt.Printf("Revision ID: %s\n", createdRev.ID)
-	fmt.Printf("Execution ID: %s\n", createdExec.ID)
-	fmt.Printf("Execution status: %s\n", createdExec.Status)
 
 	if cfg.scope == string(feature.ScopeTypeEditions) {
 		fmt.Println("Edition execution is currently stubbed in the service layer and does not produce results yet.")
 	}
-
-	if cfg.wait > 0 {
-		if err := waitForExecution(ocrApp, createdExec.ID, cfg.wait, cfg.poll); err != nil {
-			log.Fatalf("execution wait failed: %v", err)
-		}
-	}
+	printResults(results)
 }
 
 func parseFlags() cliConfig {
 	var cfg cliConfig
-	var pushToOriginValue bool
-	var pushToOriginProvided bool
 
 	fs := flag.NewFlagSet(os.Args[0], flag.ExitOnError)
 	fs.StringVar(&cfg.scope, "scope", "", "feature scope: dataset or editions")
 	fs.StringVar(&cfg.datasetID, "dataset", "", "dataset ID for dataset scope")
 	fs.StringVar(&cfg.annotationID, "annotation", "", "annotation ID for dataset scope")
 	fs.StringVar(&cfg.editionID, "edition", "", "edition ID for editions scope")
-	fs.StringVar(&cfg.featureID, "feature", "", "feature ID")
-	fs.StringVar(&cfg.revisionName, "revision-name", "", "revision name")
-	fs.StringVar(&cfg.revisionDesc, "revision-description", "", "revision description")
+	fs.StringVar(&cfg.featureID, "feature-id", "", "ephemeral feature ID override")
+	fs.StringVar(&cfg.revisionName, "revision-name", "", "ephemeral revision name")
+	fs.StringVar(&cfg.revisionDesc, "revision-description", "", "ephemeral revision description")
 	fs.StringVar(&cfg.aiProvider, "ai-provider", "", "AI provider: openai or ollama")
 	fs.StringVar(&cfg.aiModel, "ai-model", "", "AI model")
 	fs.StringVar(&cfg.prompt, "prompt", "", "prompt-based revision definition")
 	fs.StringVar(&cfg.categorizer, "categorizer", "", "categorizer-based revision definition")
 	fs.StringVar(&cfg.keys, "keys", "", "comma-separated execution keys; default is inferred from target")
-	fs.StringVar(&cfg.skipIf, "skip-if", "", "comma-separated skip policy values")
-	fs.DurationVar(&cfg.wait, "wait", 30*time.Second, "time to wait for execution completion; 0 disables waiting")
-	fs.DurationVar(&cfg.poll, "poll", 1*time.Second, "poll interval while waiting")
-	fs.Func("push-to-origin", "set execution push_to_origin policy", func(v string) error {
-		parsed, err := parseBoolString(v)
-		if err != nil {
-			return err
-		}
-		pushToOriginValue = parsed
-		pushToOriginProvided = true
-		return nil
-	})
 
 	fs.Parse(os.Args[1:])
-
-	cfg.pushToOrigin = pushToOriginValue
-	cfg.pushToOriginSet = pushToOriginProvided
+	fs.Visit(func(f *flag.Flag) {
+		switch f.Name {
+		case "dataset":
+			cfg.datasetSet = true
+		case "annotation":
+			cfg.annotationSet = true
+		}
+	})
 	return cfg
 }
 
@@ -186,20 +159,30 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 
 	switch cfg.scope {
 	case string(feature.ScopeTypeDataset):
-		if cfg.datasetID == "" {
-			cfg.datasetID, err = promptNonEmpty(reader, "Dataset ID")
+		if !cfg.datasetSet {
+			cfg.datasetID, err = prompt(reader, "Dataset ID", "tps")
 			if err != nil {
 				return err
 			}
+		}
+		if strings.TrimSpace(cfg.datasetID) == "" {
+			cfg.datasetID = "tps"
 		}
 		if _, err := ocrApp.Deps.DatasetSvc.Get(cfg.datasetID); err != nil {
 			return fmt.Errorf("dataset lookup failed: %w", err)
 		}
-		if cfg.annotationID == "" {
-			cfg.annotationID, err = promptNonEmpty(reader, "Annotation ID")
+		if !cfg.annotationSet {
+			defaultAnnotationID := ""
+			if cfg.datasetID == "tps" {
+				defaultAnnotationID = "ann_1"
+			}
+			cfg.annotationID, err = prompt(reader, "Annotation ID", defaultAnnotationID)
 			if err != nil {
 				return err
 			}
+		}
+		if strings.TrimSpace(cfg.annotationID) == "" {
+			return fmt.Errorf("annotation ID is required")
 		}
 		if _, err := ocrApp.Deps.AnnotationSvc.Get(cfg.datasetID, cfg.annotationID); err != nil {
 			return fmt.Errorf("annotation lookup failed: %w", err)
@@ -218,26 +201,8 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 		return fmt.Errorf("invalid scope %q", cfg.scope)
 	}
 
-	if cfg.featureID == "" {
-		cfg.featureID, err = promptNonEmpty(reader, "Feature ID")
-		if err != nil {
-			return err
-		}
-	}
-	if cfg.revisionName == "" {
-		cfg.revisionName, err = promptNonEmpty(reader, "Revision name")
-		if err != nil {
-			return err
-		}
-	}
-	if cfg.revisionDesc == "" {
-		cfg.revisionDesc, err = prompt(reader, "Revision description", "")
-		if err != nil {
-			return err
-		}
-	}
 	if cfg.aiProvider == "" {
-		cfg.aiProvider, err = promptChoice(reader, "AI provider (openai/ollama)", []string{string(feature.AIProviderOpenAI), string(feature.AIProviderOllama)})
+		cfg.aiProvider, err = promptChoice(reader, "AI provider (openai/ollama)", []string{string(feature.AIProviderOllama), string(feature.AIProviderOpenAI)})
 		if err != nil {
 			return err
 		}
@@ -276,30 +241,8 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 			return err
 		}
 	}
-	if cfg.skipIf == "" {
-		cfg.skipIf, err = prompt(reader, "Skip policy values (comma-separated: feature_exist, revision_exist, human_reviewed)", "")
-		if err != nil {
-			return err
-		}
-	}
-	if !cfg.pushToOriginSet {
-		val, err := prompt(reader, "Push results to origin? (true/false, default false)", "false")
-		if err != nil {
-			return err
-		}
-		parsed, err := parseBoolString(val)
-		if err != nil {
-			return err
-		}
-		cfg.pushToOrigin = parsed
-		cfg.pushToOriginSet = true
-	}
-
 	cfg.aiModel = strings.TrimSpace(cfg.aiModel)
 	if err := validateAIModel(cfg.aiProvider, cfg.aiModel); err != nil {
-		return err
-	}
-	if _, err := validateSkipIfList(cfg.skipIf); err != nil {
 		return err
 	}
 	return nil
@@ -334,26 +277,12 @@ func buildExecutionTarget(ocrApp *app.OCRFlowApp, cfg cliConfig) (feature.DefSco
 	}
 }
 
-func waitForExecution(ocrApp *app.OCRFlowApp, executionID string, timeout, poll time.Duration) error {
-	deadline := time.Now().Add(timeout)
-	for {
-		exec, err := ocrApp.Deps.FeatureExecutionSvc.GetFeatureExecution(executionID)
-		if err != nil {
-			return err
-		}
-		if exec.Status != feature.ExecutionStatusInProgress && exec.Status != feature.ExecutionStatusCanceling {
-			fmt.Printf("Final execution status: %s\n", exec.Status)
-			if exec.StatusReason != "" {
-				fmt.Printf("Status reason: %s\n", exec.StatusReason)
-			}
-			return nil
-		}
-		if time.Now().After(deadline) {
-			fmt.Printf("Execution still in progress after %s\n", timeout)
-			return nil
-		}
-		time.Sleep(poll)
+func ephemeralFeatureName(cfg cliConfig, featureID string) string {
+	target := cfg.datasetID
+	if cfg.scope == string(feature.ScopeTypeEditions) {
+		target = cfg.editionID
 	}
+	return fmt.Sprintf("tmp-cli-%s-%s", target, featureID)
 }
 
 func normalizeScope(v string) string {
@@ -379,20 +308,6 @@ func parseCSV(v string) []string {
 	return out
 }
 
-func validateSkipIfList(v string) ([]feature.ExecutionSkipIf, error) {
-	raw := parseCSV(v)
-	out := make([]feature.ExecutionSkipIf, 0, len(raw))
-	for _, item := range raw {
-		switch feature.ExecutionSkipIf(item) {
-		case feature.ExecutionSkipIfFeatureExist, feature.ExecutionSkipIfRevisionExist, feature.ExecutionSkipIfHumanReviewed:
-			out = append(out, feature.ExecutionSkipIf(item))
-		default:
-			return nil, fmt.Errorf("invalid skip_if value %q", item)
-		}
-	}
-	return out, nil
-}
-
 func validateAIModel(provider, model string) error {
 	allowed, ok := allowedModelsByProvider[provider]
 	if !ok {
@@ -404,6 +319,24 @@ func validateAIModel(provider, model string) error {
 		}
 	}
 	return fmt.Errorf("invalid ai_model %q for provider %q", model, provider)
+}
+
+func printResults(results []*feature.Result) {
+	if len(results) == 0 {
+		fmt.Println("No results.")
+		return
+	}
+
+	for _, result := range results {
+		fmt.Printf("%s\n", result.Key)
+		if len(result.Values) == 0 {
+			fmt.Println("  (no values)")
+			continue
+		}
+		for _, value := range result.Values {
+			fmt.Printf("  %s\n", value.Surface)
+		}
+	}
 }
 
 func prompt(reader *bufio.Reader, label, defaultValue string) (string, error) {
@@ -452,16 +385,5 @@ func promptChoice(reader *bufio.Reader, label string, options []string) (string,
 			}
 		}
 		fmt.Printf("Invalid value. Allowed: %s\n", strings.Join(options, ", "))
-	}
-}
-
-func parseBoolString(v string) (bool, error) {
-	switch strings.TrimSpace(strings.ToLower(v)) {
-	case "true", "t", "1", "yes", "y":
-		return true, nil
-	case "false", "f", "0", "no", "n", "":
-		return false, nil
-	default:
-		return false, fmt.Errorf("invalid boolean value %q", v)
 	}
 }
