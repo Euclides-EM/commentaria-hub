@@ -27,14 +27,12 @@ type cliConfig struct {
 	datasetSet      bool
 	annotationID    string
 	annotationSet   bool
-	editionID       string
 	featureID       string
 	revisionName    string
 	revisionDesc    string
 	aiProvider      string
 	aiModel         string
 	prompt          string
-	categorizer     string
 	keys            string
 }
 
@@ -89,7 +87,6 @@ func main() {
 		Scope:       defScope,
 		FeatureID:   featureID,
 		Prompt:      strings.TrimSpace(cfg.prompt),
-		Categorizer: strings.TrimSpace(cfg.categorizer),
 		AIProvider:  feature.AIProvider(strings.TrimSpace(cfg.aiProvider)),
 		AIModel:     strings.TrimSpace(cfg.aiModel),
 	}
@@ -124,14 +121,12 @@ func parseFlags() cliConfig {
 	fs.StringVar(&cfg.scope, "scope", "", "feature scope: dataset or editions")
 	fs.StringVar(&cfg.datasetID, "dataset", "", "dataset ID for dataset scope")
 	fs.StringVar(&cfg.annotationID, "annotation", "", "annotation ID for dataset scope")
-	fs.StringVar(&cfg.editionID, "edition", "", "edition ID for editions scope")
 	fs.StringVar(&cfg.featureID, "feature-id", "", "ephemeral feature ID override")
 	fs.StringVar(&cfg.revisionName, "revision-name", "", "ephemeral revision name")
 	fs.StringVar(&cfg.revisionDesc, "revision-description", "", "ephemeral revision description")
 	fs.StringVar(&cfg.aiProvider, "ai-provider", "", "AI provider: openai or ollama")
 	fs.StringVar(&cfg.aiModel, "ai-model", "", "AI model")
 	fs.StringVar(&cfg.prompt, "prompt", "", "prompt-based revision definition")
-	fs.StringVar(&cfg.categorizer, "categorizer", "", "categorizer-based revision definition")
 	fs.StringVar(&cfg.keys, "keys", "", "comma-separated execution keys; default is inferred from target")
 
 	fs.Parse(os.Args[1:])
@@ -188,14 +183,20 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 			return fmt.Errorf("annotation lookup failed: %w", err)
 		}
 	case string(feature.ScopeTypeEditions):
-		if cfg.editionID == "" {
-			cfg.editionID, err = promptNonEmpty(reader, "Edition ID")
+		if cfg.keys == "" {
+			cfg.keys, err = promptNonEmpty(reader, "Edition IDs (comma-separated)")
 			if err != nil {
 				return err
 			}
 		}
-		if _, err := ocrApp.Deps.EditionSvc.GetEditionByID(cfg.editionID); err != nil {
-			return fmt.Errorf("edition lookup failed: %w", err)
+		keys := parseCSV(cfg.keys)
+		if len(keys) == 0 {
+			return fmt.Errorf("edition IDs are required")
+		}
+		for _, editionID := range keys {
+			if _, err := ocrApp.Deps.EditionSvc.GetEditionByID(editionID); err != nil {
+				return fmt.Errorf("edition lookup failed for %s: %w", editionID, err)
+			}
 		}
 	default:
 		return fmt.Errorf("invalid scope %q", cfg.scope)
@@ -214,26 +215,11 @@ func fillMissingInputs(reader *bufio.Reader, ocrApp *app.OCRFlowApp, cfg *cliCon
 			return err
 		}
 	}
-	if strings.TrimSpace(cfg.prompt) == "" && strings.TrimSpace(cfg.categorizer) == "" {
-		mode, err := promptChoice(reader, "Revision type (prompt/categorizer)", []string{"prompt", "categorizer"})
+	if strings.TrimSpace(cfg.prompt) == "" {
+		cfg.prompt, err = promptNonEmpty(reader, "Prompt")
 		if err != nil {
 			return err
 		}
-		if mode == "prompt" {
-			cfg.prompt, err = promptNonEmpty(reader, "Prompt")
-			if err != nil {
-				return err
-			}
-		} else {
-			props := ocrApp.Deps.FeaturePropertySvc.ListFeaturePropertyKeys()
-			cfg.categorizer, err = promptChoice(reader, "Categorizer", props)
-			if err != nil {
-				return err
-			}
-		}
-	}
-	if strings.TrimSpace(cfg.prompt) != "" && strings.TrimSpace(cfg.categorizer) != "" {
-		return errors.New("prompt and categorizer are mutually exclusive")
 	}
 	if cfg.keys == "" {
 		cfg.keys, err = prompt(reader, "Execution keys (comma-separated, blank to use inferred default)", "")
@@ -269,9 +255,9 @@ func buildExecutionTarget(ocrApp *app.OCRFlowApp, cfg cliConfig) (feature.DefSco
 	case string(feature.ScopeTypeEditions):
 		keys := parseCSV(cfg.keys)
 		if len(keys) == 0 {
-			keys = []string{cfg.editionID}
+			return feature.DefScope{}, feature.ExecScope{}, nil, "", errors.New("edition IDs are required")
 		}
-		return feature.NewEditionDefScope(), feature.NewEditionExecScope(), keys, fmt.Sprintf("edition %s", cfg.editionID), nil
+		return feature.NewEditionDefScope(), feature.NewEditionExecScope(), keys, fmt.Sprintf("edition(s) %s", strings.Join(keys, ",")), nil
 	default:
 		return feature.DefScope{}, feature.ExecScope{}, nil, "", fmt.Errorf("invalid scope %q", cfg.scope)
 	}
@@ -280,7 +266,7 @@ func buildExecutionTarget(ocrApp *app.OCRFlowApp, cfg cliConfig) (feature.DefSco
 func ephemeralFeatureName(cfg cliConfig, featureID string) string {
 	target := cfg.datasetID
 	if cfg.scope == string(feature.ScopeTypeEditions) {
-		target = cfg.editionID
+		target = strings.ReplaceAll(cfg.keys, ",", "_")
 	}
 	return fmt.Sprintf("tmp-cli-%s-%s", target, featureID)
 }
