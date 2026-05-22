@@ -61,6 +61,20 @@ func (f *Feature) DeleteFeatureInScope(scope feature.DefScope, id string, force 
 	return f.store.DeleteFeature(feat.Scope, id)
 }
 
+func (f *Feature) DeleteFeaturesInScope(scope feature.DefScope, ids []string, force bool) ([]string, error) {
+	deleted := make([]string, 0, len(ids))
+	for _, id := range ids {
+		if id == "" {
+			continue
+		}
+		if err := f.DeleteFeatureInScope(scope, id, force); err != nil {
+			return deleted, err
+		}
+		deleted = append(deleted, id)
+	}
+	return deleted, nil
+}
+
 func (f *Feature) GetFeature(id string, expandOptions []feature.ExpandOptions) (*feature.Feature, error) {
 	feat, err := f.store.GetFeatureByID(id)
 	if err != nil {

@@ -114,11 +114,13 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/feature_executions", httpwrapper.Get(h.ListExecutions).Create(h.CreateExecution).Build())
 	api.HandleFunc("/feature_executions/{executionId}", httpwrapper.Get(h.GetExecution).Build())
 	api.HandleFunc("/feature_executions/{executionId}/cancel", httpwrapper.Update(h.CancelExecution).Build())
-	api.HandleFunc("/features", httpwrapper.Get(h.ListFeatures).Create(h.CreateFeature).Build())
+	api.HandleFunc("/features", httpwrapper.Get(h.ListFeatures).Create(h.CreateFeature).Delete(h.DeleteFeatures).Build())
 	api.HandleFunc("/features/{featureId}", httpwrapper.Delete(h.DeleteFeature).Get(h.GetFeature).Update(h.UpdateEditionsFeature).Build())
 
 	api.HandleFunc("/features/{featureId}/revisions", httpwrapper.Get(h.ListFeatureRevisions).Create(h.CreateFeatureRevision).Build())
 	api.HandleFunc("/features/{featureId}/revisions/{revisionId}", httpwrapper.Get(h.GetFeatureRevision).Build())
+
+	api.HandleFunc("/features_results", httpwrapper.Get(h.ListFeaturesResults).Create(h.CreateFeaturesResult).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/results", httpwrapper.Get(h.ListDatasetResults).Create(h.CreateDatasetResult).Build())
 

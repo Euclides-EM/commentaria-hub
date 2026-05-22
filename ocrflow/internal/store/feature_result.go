@@ -201,7 +201,7 @@ WHERE r.scope = ?
 func (s *FeatureResultSql) ListForExecutionPolicy(scope feature.ExecScope, keys []string, features []string, pushToOrigin bool) ([]*feature.Result, error) {
 	switch scope.Type {
 	case feature.ScopeTypeDataset:
-		return s.listForExecutionPolicy(scope.DatasetID, scope.AnnotationID, keys, features, pushToOrigin)
+		return s.listDatasetForExecutionPolicy(scope.DatasetID, scope.AnnotationID, keys, features, pushToOrigin)
 	case feature.ScopeTypeEditions:
 		return s.listEditionsForExecutionPolicy(keys, features)
 	default:
@@ -210,7 +210,7 @@ func (s *FeatureResultSql) ListForExecutionPolicy(scope feature.ExecScope, keys 
 	}
 }
 
-func (s *FeatureResultSql) listForExecutionPolicy(datasetID, annotationID string, keys []string, features []string, pushToOrigin bool) ([]*feature.Result, error) {
+func (s *FeatureResultSql) listDatasetForExecutionPolicy(datasetID, annotationID string, keys []string, features []string, pushToOrigin bool) ([]*feature.Result, error) {
 	if datasetID == "" || annotationID == "" {
 		return nil, errors.New("list feature results for execution policy: missing dataset_id or annotation_id")
 	}
@@ -408,42 +408,39 @@ func (s *FeatureResultSql) Create(res *feature.Result, pushToOrigin bool) error 
 	if res == nil {
 		return errors.New("create feature result: nil result")
 	}
-	if res.Scope.DatasetID == "" || res.Scope.AnnotationID == "" || res.FeatureID == "" || res.Key == "" {
-		return errors.New("create feature result: missing dataset_id, annotation_id, feature_id, or page_key")
+	if res.Scope.Type == feature.ScopeTypeEditions {
+		return s.createOne(res, editionResultWriter, func(tx *sql.Tx, res *feature.Result) (*feature.Result, error) {
+			return res, nil
+		})
 	}
-	if res.Source.Resp == "" {
-		return errors.New("create feature result: missing source.resp")
-	}
-
-	tx, err := s.db.Begin()
-	if err != nil {
-		return fmt.Errorf("create feature result: begin: %w", err)
-	}
-	defer func() { _ = tx.Rollback() }()
-
-	targetAnnotationID, err := resolveTargetAnnotationIDTx(tx, res.Scope.DatasetID, res.Scope.AnnotationID, pushToOrigin)
-	if err != nil {
-		return fmt.Errorf("create feature result: resolve target annotation: %w", err)
-	}
-
-	targetRes := cloneResultWithAnnotationID(res, targetAnnotationID)
-
-	if err := upsertResult(tx, targetRes); err != nil {
-		return err
-	}
-	if err := replaceValues(tx, targetRes); err != nil {
-		return err
-	}
-
-	if err := tx.Commit(); err != nil {
-		return fmt.Errorf("create feature result: commit: %w", err)
-	}
-	return nil
+	return s.createOne(res, datasetResultWriter, func(tx *sql.Tx, res *feature.Result) (*feature.Result, error) {
+		targetAnnotationID, err := resolveTargetAnnotationIDTx(tx, res.Scope.DatasetID, res.Scope.AnnotationID, pushToOrigin)
+		if err != nil {
+			return nil, fmt.Errorf("create feature result: resolve target annotation: %w", err)
+		}
+		return cloneResultWithAnnotationID(res, targetAnnotationID), nil
+	})
 }
 
 func (s *FeatureResultSql) CreateBatch(results []*feature.Result, pushToOrigin bool) error {
 	if len(results) == 0 {
 		return nil
+	}
+	allEditions := true
+	for _, res := range results {
+		if res == nil || res.Scope.Type != feature.ScopeTypeEditions {
+			allEditions = false
+			break
+		}
+	}
+	if allEditions {
+		return s.createBatch(results, editionResultWriter, passthroughResult)
+	}
+
+	for _, res := range results {
+		if res != nil && res.Scope.Type == feature.ScopeTypeEditions {
+			return s.createMixedBatch(results, pushToOrigin)
+		}
 	}
 
 	tx, err := s.db.Begin()
@@ -468,7 +465,37 @@ func (s *FeatureResultSql) CreateBatch(results []*feature.Result, pushToOrigin b
 		return resolved, nil
 	}
 
-	upsertStmt, err := tx.Prepare(`
+	if err := writeFeatureResultsBatchTx(tx, results, datasetResultWriter, func(i int, res *feature.Result) (*feature.Result, error) {
+		targetAnnotationID, err := resolveTarget(res.Scope.DatasetID, res.Scope.AnnotationID)
+		if err != nil {
+			return nil, fmt.Errorf("create batch feature results: resolve target annotation for results[%d]: %w", i, err)
+		}
+		return cloneResultWithAnnotationID(res, targetAnnotationID), nil
+	}); err != nil {
+		return err
+	}
+
+	if err := tx.Commit(); err != nil {
+		return fmt.Errorf("create batch feature results: commit: %w", err)
+	}
+	return nil
+}
+
+type featureResultWriter struct {
+	label           string
+	upsertSQL       string
+	deleteValuesSQL string
+	insertValueSQL  string
+	validate        func(*feature.Result) error
+	upsertArgs      func(*feature.Result) []any
+	valueKeyArgs    func(*feature.Result) []any
+	insertValueArgs func(*feature.Result, feature.ResultValue) []any
+	identity        func(*feature.Result) string
+}
+
+var datasetResultWriter = featureResultWriter{
+	label: "feature result",
+	upsertSQL: `
 INSERT INTO feature_results (
   name, description, created_at, updated_at,
   dataset_id, feature_id, annotation_id, page_key,
@@ -486,89 +513,174 @@ ON CONFLICT(dataset_id, feature_id, annotation_id, page_key) DO UPDATE SET
   source_id = excluded.source_id,
   source_revision = excluded.source_revision,
   source_name = excluded.source_name
-`)
-	if err != nil {
-		return fmt.Errorf("create batch feature results: prepare upsert: %w", err)
-	}
-	defer upsertStmt.Close()
-
-	delValsStmt, err := tx.Prepare(`
+`,
+	deleteValuesSQL: `
 DELETE FROM feature_result_values
 WHERE dataset_id = ? AND annotation_id = ? AND feature_id = ? AND page_key = ?
-`)
-	if err != nil {
-		return fmt.Errorf("create batch feature results: prepare delete values: %w", err)
-	}
-	defer delValsStmt.Close()
-
-	insValStmt, err := tx.Prepare(`
+`,
+	insertValueSQL: `
 INSERT INTO feature_result_values (
   dataset_id, feature_id, annotation_id, page_key,
   surface
 ) VALUES (?, ?, ?, ?, ?)
-`)
-	if err != nil {
-		return fmt.Errorf("create batch feature results: prepare insert value: %w", err)
-	}
-	defer insValStmt.Close()
-
-	for i, res := range results {
-		if res == nil {
-			return fmt.Errorf("create batch feature results: results[%d] is nil", i)
-		}
+`,
+	validate: func(res *feature.Result) error {
 		if res.Scope.DatasetID == "" || res.Scope.AnnotationID == "" || res.FeatureID == "" || res.Key == "" {
-			return fmt.Errorf("create batch feature results: results[%d] missing ids", i)
+			return errors.New("missing dataset_id, annotation_id, feature_id, or page_key")
 		}
-		if res.Source.Resp == "" {
-			return fmt.Errorf("create batch feature results: results[%d] missing source.resp", i)
-		}
-
-		targetAnnotationID, err := resolveTarget(res.Scope.DatasetID, res.Scope.AnnotationID)
-		if err != nil {
-			return fmt.Errorf("create batch feature results: resolve target annotation for results[%d]: %w", i, err)
-		}
-
-		createdAt, updatedAt := any(nil), any(nil)
-		if !res.CreatedAt.IsZero() {
-			createdAt = res.CreatedAt
-		}
-		if !res.UpdatedAt.IsZero() {
-			updatedAt = res.UpdatedAt
-		}
-
-		if _, err := upsertStmt.Exec(
+		return validateResultSource(res)
+	},
+	upsertArgs: func(res *feature.Result) []any {
+		createdAt, updatedAt := resultTimestamps(res)
+		return []any{
 			res.Name, res.Description, createdAt, updatedAt,
-			res.Scope.DatasetID, res.FeatureID, targetAnnotationID, res.Key,
+			res.Scope.DatasetID, res.FeatureID, res.Scope.AnnotationID, res.Key,
 			res.Source.Resp, lo.EmptyableToPtr(res.Source.Id), lo.EmptyableToPtr(res.Source.Revision), lo.EmptyableToPtr(res.Source.Name),
-		); err != nil {
-			return fmt.Errorf(
-				"create batch feature results: upsert (%s/%s/%s/%s -> %s): %w",
-				res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key, targetAnnotationID, err,
-			)
 		}
+	},
+	valueKeyArgs: func(res *feature.Result) []any {
+		return []any{res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key}
+	},
+	insertValueArgs: func(res *feature.Result, v feature.ResultValue) []any {
+		return []any{res.Scope.DatasetID, res.FeatureID, res.Scope.AnnotationID, res.Key, v.Surface}
+	},
+	identity: func(res *feature.Result) string {
+		return fmt.Sprintf("%s/%s/%s/%s", res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key)
+	},
+}
 
-		if _, err := delValsStmt.Exec(res.Scope.DatasetID, targetAnnotationID, res.FeatureID, res.Key); err != nil {
-			return fmt.Errorf(
-				"create batch feature results: delete values (%s/%s/%s/%s -> %s): %w",
-				res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key, targetAnnotationID, err,
-			)
+var editionResultWriter = featureResultWriter{
+	label: "edition feature result",
+	upsertSQL: `
+INSERT INTO edition_feature_results (
+  name, description, created_at, updated_at,
+  scope, edition_id, feature_id,
+  source_resp, source_id, source_revision, source_name
+) VALUES (
+  ?, ?, COALESCE(?, CURRENT_TIMESTAMP), COALESCE(?, CURRENT_TIMESTAMP),
+  ?, ?, ?,
+  ?, ?, ?, ?
+)
+ON CONFLICT(scope, edition_id, feature_id) DO UPDATE SET
+  name = excluded.name,
+  description = excluded.description,
+  updated_at = CURRENT_TIMESTAMP,
+  source_resp = excluded.source_resp,
+  source_id = excluded.source_id,
+  source_revision = excluded.source_revision,
+  source_name = excluded.source_name
+`,
+	deleteValuesSQL: `
+DELETE FROM edition_feature_result_values
+WHERE scope = ? AND edition_id = ? AND feature_id = ?
+`,
+	insertValueSQL: `
+INSERT INTO edition_feature_result_values (
+  scope, edition_id, feature_id, surface
+) VALUES (?, ?, ?, ?)
+`,
+	validate: func(res *feature.Result) error {
+		if res.Key == "" || res.FeatureID == "" {
+			return errors.New("missing edition_id or feature_id")
 		}
+		return validateResultSource(res)
+	},
+	upsertArgs: func(res *feature.Result) []any {
+		createdAt, updatedAt := resultTimestamps(res)
+		return []any{
+			res.Name, res.Description, createdAt, updatedAt,
+			feature.ScopeTypeEditions, res.Key, res.FeatureID,
+			res.Source.Resp, lo.EmptyableToPtr(res.Source.Id), lo.EmptyableToPtr(res.Source.Revision), lo.EmptyableToPtr(res.Source.Name),
+		}
+	},
+	valueKeyArgs: func(res *feature.Result) []any {
+		return []any{feature.ScopeTypeEditions, res.Key, res.FeatureID}
+	},
+	insertValueArgs: func(res *feature.Result, v feature.ResultValue) []any {
+		return []any{feature.ScopeTypeEditions, res.Key, res.FeatureID, v.Surface}
+	},
+	identity: func(res *feature.Result) string {
+		return fmt.Sprintf("%s/%s", res.Key, res.FeatureID)
+	},
+}
 
-		for _, v := range res.Values {
-			if _, err := insValStmt.Exec(
-				res.Scope.DatasetID, res.FeatureID, targetAnnotationID, res.Key,
-				v.Surface,
-			); err != nil {
-				return fmt.Errorf(
-					"create batch feature results: insert value (%s/%s/%s/%s -> %s): %w",
-					res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key, targetAnnotationID, err,
-				)
-			}
-		}
+func resultTimestamps(res *feature.Result) (any, any) {
+	createdAt, updatedAt := any(nil), any(nil)
+	if !res.CreatedAt.IsZero() {
+		createdAt = res.CreatedAt
+	}
+	if !res.UpdatedAt.IsZero() {
+		updatedAt = res.UpdatedAt
+	}
+	return createdAt, updatedAt
+}
+
+func validateResultSource(res *feature.Result) error {
+	if res.Source.Resp == "" {
+		return errors.New("missing source.resp")
+	}
+	return nil
+}
+
+func passthroughResult(_ int, res *feature.Result) (*feature.Result, error) {
+	return res, nil
+}
+
+func (s *FeatureResultSql) createOne(
+	res *feature.Result,
+	writer featureResultWriter,
+	transform func(*sql.Tx, *feature.Result) (*feature.Result, error),
+) error {
+	if err := validateFeatureResult(res, writer); err != nil {
+		return err
+	}
+
+	tx, err := s.db.Begin()
+	if err != nil {
+		return fmt.Errorf("create %s: begin: %w", writer.label, err)
+	}
+	defer func() { _ = tx.Rollback() }()
+
+	res, err = transform(tx, res)
+	if err != nil {
+		return err
+	}
+	if err := writeFeatureResultTx(tx, res, writer); err != nil {
+		return err
 	}
 
 	if err := tx.Commit(); err != nil {
-		return fmt.Errorf("create batch feature results: commit: %w", err)
+		return fmt.Errorf("create %s: commit: %w", writer.label, err)
+	}
+	return nil
+}
+
+func (s *FeatureResultSql) createBatch(
+	results []*feature.Result,
+	writer featureResultWriter,
+	transform func(int, *feature.Result) (*feature.Result, error),
+) error {
+	tx, err := s.db.Begin()
+	if err != nil {
+		return fmt.Errorf("create batch %ss: begin: %w", writer.label, err)
+	}
+	defer func() { _ = tx.Rollback() }()
+
+	if err := writeFeatureResultsBatchTx(tx, results, writer, transform); err != nil {
+		return err
+	}
+
+	if err := tx.Commit(); err != nil {
+		return fmt.Errorf("create batch %ss: commit: %w", writer.label, err)
+	}
+	return nil
+}
+
+func (s *FeatureResultSql) createMixedBatch(results []*feature.Result, pushToOrigin bool) error {
+	for _, res := range results {
+		if err := s.Create(res, pushToOrigin); err != nil {
+			return err
+		}
 	}
 	return nil
 }
@@ -675,63 +787,84 @@ WHERE id = ? AND dataset_id = ?
 	return nil
 }
 
-func upsertResult(tx *sql.Tx, res *feature.Result) error {
-	createdAt, updatedAt := any(nil), any(nil)
-
-	if !res.CreatedAt.IsZero() {
-		createdAt = res.CreatedAt
+func validateFeatureResult(res *feature.Result, writer featureResultWriter) error {
+	if res == nil {
+		return fmt.Errorf("create %s: nil result", writer.label)
 	}
-	if !res.UpdatedAt.IsZero() {
-		updatedAt = res.UpdatedAt
-	}
-
-	_, err := tx.Exec(`
-INSERT INTO feature_results (
-  name, description, created_at, updated_at,
-  dataset_id, feature_id, annotation_id, page_key,
-  source_resp, source_id, source_revision, source_name
-) VALUES (
-  ?, ?, COALESCE(?, CURRENT_TIMESTAMP), COALESCE(?, CURRENT_TIMESTAMP),
-  ?, ?, ?, ?,
-  ?, ?, ?, ?
-)
-ON CONFLICT(dataset_id, feature_id, annotation_id, page_key) DO UPDATE SET
-  name = excluded.name,
-  description = excluded.description,
-  updated_at = CURRENT_TIMESTAMP,
-  source_resp = excluded.source_resp,
-  source_id = excluded.source_id,
-  source_revision = excluded.source_revision,
-  source_name = excluded.source_name
-`,
-		res.Name, res.Description, createdAt, updatedAt,
-		res.Scope.DatasetID, res.FeatureID, res.Scope.AnnotationID, res.Key,
-		res.Source.Resp, lo.EmptyableToPtr(res.Source.Id), lo.EmptyableToPtr(res.Source.Revision), lo.EmptyableToPtr(res.Source.Name),
-	)
-	if err != nil {
-		return fmt.Errorf("create feature result: upsert (%s/%s/%s/%s): %w", res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key, err)
+	if err := writer.validate(res); err != nil {
+		return fmt.Errorf("create %s: %w", writer.label, err)
 	}
 	return nil
 }
 
-func replaceValues(tx *sql.Tx, res *feature.Result) error {
-	_, err := tx.Exec(`
-DELETE FROM feature_result_values
-WHERE dataset_id = ? AND annotation_id = ? AND feature_id = ? AND page_key = ?
-`, res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key)
-	if err != nil {
-		return fmt.Errorf("create feature result: delete values (%s/%s/%s/%s): %w", res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key, err)
+func writeFeatureResultTx(tx *sql.Tx, res *feature.Result, writer featureResultWriter) error {
+	if err := validateFeatureResult(res, writer); err != nil {
+		return err
 	}
 
+	if _, err := tx.Exec(writer.upsertSQL, writer.upsertArgs(res)...); err != nil {
+		return fmt.Errorf("create %s: upsert (%s): %w", writer.label, writer.identity(res), err)
+	}
+	if _, err := tx.Exec(writer.deleteValuesSQL, writer.valueKeyArgs(res)...); err != nil {
+		return fmt.Errorf("create %s: delete values (%s): %w", writer.label, writer.identity(res), err)
+	}
 	for _, v := range res.Values {
-		_, err := tx.Exec(`
-INSERT INTO feature_result_values (
-  dataset_id, feature_id, annotation_id, page_key,
-  surface
-) VALUES (?, ?, ?, ?, ?)
-`, res.Scope.DatasetID, res.FeatureID, res.Scope.AnnotationID, res.Key, v.Surface)
+		if _, err := tx.Exec(writer.insertValueSQL, writer.insertValueArgs(res, v)...); err != nil {
+			return fmt.Errorf("create %s: insert value (%s): %w", writer.label, writer.identity(res), err)
+		}
+	}
+	return nil
+}
+
+func writeFeatureResultsBatchTx(
+	tx *sql.Tx,
+	results []*feature.Result,
+	writer featureResultWriter,
+	transform func(int, *feature.Result) (*feature.Result, error),
+) error {
+	upsertStmt, err := tx.Prepare(writer.upsertSQL)
+	if err != nil {
+		return fmt.Errorf("create batch %ss: prepare upsert: %w", writer.label, err)
+	}
+	defer upsertStmt.Close()
+
+	delValsStmt, err := tx.Prepare(writer.deleteValuesSQL)
+	if err != nil {
+		return fmt.Errorf("create batch %ss: prepare delete values: %w", writer.label, err)
+	}
+	defer delValsStmt.Close()
+
+	insValStmt, err := tx.Prepare(writer.insertValueSQL)
+	if err != nil {
+		return fmt.Errorf("create batch %ss: prepare insert value: %w", writer.label, err)
+	}
+	defer insValStmt.Close()
+
+	for i, res := range results {
+		if err := validateFeatureResult(res, writer); err != nil {
+			return fmt.Errorf("create batch %ss: results[%d]: %w", writer.label, i, err)
+		}
+
+		res, err = transform(i, res)
 		if err != nil {
-			return fmt.Errorf("create feature result: insert value (%s/%s/%s/%s): %w", res.Scope.DatasetID, res.Scope.AnnotationID, res.FeatureID, res.Key, err)
+			return err
+		}
+		if err := validateFeatureResult(res, writer); err != nil {
+			return fmt.Errorf("create batch %ss: results[%d]: %w", writer.label, i, err)
+		}
+
+		if _, err := upsertStmt.Exec(writer.upsertArgs(res)...); err != nil {
+			return fmt.Errorf("create batch %ss: upsert (%s): %w", writer.label, writer.identity(res), err)
+		}
+
+		if _, err := delValsStmt.Exec(writer.valueKeyArgs(res)...); err != nil {
+			return fmt.Errorf("create batch %ss: delete values (%s): %w", writer.label, writer.identity(res), err)
+		}
+
+		for _, v := range res.Values {
+			if _, err := insValStmt.Exec(writer.insertValueArgs(res, v)...); err != nil {
+				return fmt.Errorf("create batch %ss: insert value (%s): %w", writer.label, writer.identity(res), err)
+			}
 		}
 	}
 	return nil
