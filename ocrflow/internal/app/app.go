@@ -25,6 +25,7 @@ import (
 type OCRFlowApp struct {
 	Env    *config.EnvConfig
 	DB     *sql.DB
+	Deps   *api.Dependencies
 	Router http.Handler
 }
 
@@ -221,6 +222,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	return &OCRFlowApp{
 		Env:    env,
 		DB:     sqlDB,
+		Deps:   deps,
 		Router: router,
 	}, nil
 }

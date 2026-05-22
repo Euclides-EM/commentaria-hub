@@ -26,10 +26,23 @@ type AIProviderOption = {
   label: string
 }
 
+type AIModelOption = {
+  value: string
+  label: string
+}
+
 const aiProviderOptions: AIProviderOption[] = [
   { value: 'openai', label: 'OpenAI' },
   { value: 'ollama', label: 'Ollama' },
 ]
+
+const aiModelOptionsByProvider: Record<
+  NonNullable<feature_Revision['ai_provider']>,
+  AIModelOption[]
+> = {
+  openai: [{ value: 'gpt-5-mini', label: 'gpt-5-mini' }],
+  ollama: [{ value: 'gpt-oss:120b', label: 'gpt-oss:120b' }],
+}
 
 export function CreateRevisionModal({
   isOpen,
@@ -59,6 +72,10 @@ export function CreateRevisionModal({
       })),
     [categorizerOptions],
   )
+  const aiModelOptions = useMemo<AIModelOption[]>(
+    () => (aiProvider ? aiModelOptionsByProvider[aiProvider] ?? [] : []),
+    [aiProvider],
+  )
 
   useEffect(() => {
     if (isOpen) {
@@ -85,6 +102,19 @@ export function CreateRevisionModal({
     setCategorizer('')
   }, [categorizer, categorizerOptions, isOpen, type])
 
+  useEffect(() => {
+    if (!isOpen || type !== 'prompt') return
+
+    if (!aiProvider) {
+      if (aiModel) setAIModel('')
+      return
+    }
+
+    if (aiModelOptions.some((option) => option.value === aiModel)) return
+
+    setAIModel(aiModelOptions[0]?.value ?? '')
+  }, [aiModel, aiModelOptions, aiProvider, isOpen, type])
+
   const handleSubmit = async (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault()
     const trimmedPrompt = prompt.trim()
@@ -99,6 +129,17 @@ export function CreateRevisionModal({
 
     if (type === 'prompt' && !trimmedAIModel) {
       setError('AI model is required.')
+      return
+    }
+
+    if (
+      type === 'prompt' &&
+      (!aiProvider ||
+        !aiModelOptionsByProvider[aiProvider]?.some(
+          (option) => option.value === trimmedAIModel,
+        ))
+    ) {
+      setError('AI model must be selected from the allowed list.')
       return
     }
 
@@ -256,12 +297,23 @@ export function CreateRevisionModal({
                 <label className="block text-sm font-medium text-gray-700">
                   AI model
                 </label>
-                <input
-                  value={aiModel}
-                  onChange={(e) => setAIModel(e.target.value)}
-                  className="w-full p-2 border border-gray-300 rounded-md"
-                  disabled={loading}
-                  placeholder="gpt-5-mini"
+                <Select<AIModelOption, false>
+                  options={aiModelOptions}
+                  value={
+                    aiModelOptions.find((option) => option.value === aiModel) ??
+                    null
+                  }
+                  onChange={(option) => setAIModel(option?.value ?? '')}
+                  isDisabled={loading || !aiProvider}
+                  placeholder={
+                    aiProvider ? 'Select a model' : 'Select a provider first'
+                  }
+                  noOptionsMessage={() => 'No models available'}
+                  styles={selectStyles<AIModelOption>({
+                    controlWidth: '100%',
+                  })}
+                  menuPortalTarget={document.body}
+                  menuPosition="fixed"
                 />
               </div>
             </div>
