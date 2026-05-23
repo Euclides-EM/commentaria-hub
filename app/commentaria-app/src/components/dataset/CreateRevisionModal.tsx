@@ -73,7 +73,7 @@ export function CreateRevisionModal({
     [categorizerOptions],
   )
   const aiModelOptions = useMemo<AIModelOption[]>(
-    () => (aiProvider ? aiModelOptionsByProvider[aiProvider] ?? [] : []),
+    () => (aiProvider ? (aiModelOptionsByProvider[aiProvider] ?? []) : []),
     [aiProvider],
   )
 
