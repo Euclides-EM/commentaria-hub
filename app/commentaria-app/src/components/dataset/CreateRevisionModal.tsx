@@ -1,6 +1,6 @@
 import { type FormEvent, useEffect, useMemo, useState } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
-import { type feature_Revision, FeatureRevisionsService } from '@hub-api'
+import { EditionFeatureRevisionsService, type feature_Revision } from '@hub-api'
 import Select from 'react-select'
 import { useFeaturePropertiesQuery } from '../../queries/datasets.ts'
 import { selectStyles } from '../../styles/selectStyles.ts'
@@ -11,7 +11,6 @@ import { ErrorMessage } from '../core/ErrorMessage.tsx'
 interface CreateRevisionModalProps {
   isOpen: boolean
   onClose: () => void
-  datasetId: string
   featureId: string
   latestRevision?: feature_Revision
 }
@@ -47,7 +46,6 @@ const aiModelOptionsByProvider: Record<
 export function CreateRevisionModal({
   isOpen,
   onClose,
-  datasetId,
   featureId,
   latestRevision,
 }: CreateRevisionModalProps) {
@@ -161,8 +159,7 @@ export function CreateRevisionModal({
     try {
       setError(null)
       setLoading(true)
-      await FeatureRevisionsService.postDatasetsFeaturesRevisions({
-        dataSetId: datasetId,
+      await EditionFeatureRevisionsService.postFeaturesRevisions({
         featureId,
         revision: {
           ai_provider: type === 'prompt' ? aiProvider : undefined,
@@ -172,7 +169,7 @@ export function CreateRevisionModal({
         },
       })
       await queryClient.invalidateQueries({
-        queryKey: ['features', 'definitions', datasetId],
+        queryKey: ['features', 'definitions'],
       })
       onClose()
     } catch (e) {

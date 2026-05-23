@@ -138,7 +138,6 @@ export function DatasetFeaturesTab() {
       <CreateRevisionModal
         isOpen={revisionModal !== null}
         onClose={() => setRevisionModal(null)}
-        datasetId={datasetId}
         featureId={revisionModal?.featureId ?? ''}
         latestRevision={revisionModal?.latestRevision}
       />

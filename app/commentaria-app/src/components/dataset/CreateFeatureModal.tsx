@@ -1,6 +1,6 @@
 import { type FormEvent, useEffect, useMemo, useState } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
-import { FeaturesService } from '@hub-api'
+import { EditionFeaturesService } from '@hub-api'
 import { HexColorPicker } from 'react-colorful'
 import Select from 'react-select'
 import { useFeaturePropertiesQuery } from '../../queries/datasets.ts'
@@ -113,8 +113,7 @@ export function CreateFeatureModal({
     try {
       setError(null)
       setLoading(true)
-      await FeaturesService.postDatasetsFeatures({
-        dataSetId: datasetId,
+      await EditionFeaturesService.postFeatures({
         feature: {
           name: name.trim(),
           description: description.trim() || undefined,
@@ -122,6 +121,10 @@ export function CreateFeatureModal({
           is_default: false,
           properties: normalizeFeatureProperties(properties),
           is_list: true,
+          scope: {
+            type: 'dataset',
+            dataset_id: datasetId,
+          },
         },
       })
       await queryClient.invalidateQueries({

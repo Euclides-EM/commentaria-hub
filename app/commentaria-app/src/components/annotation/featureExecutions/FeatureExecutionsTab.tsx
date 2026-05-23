@@ -2,12 +2,12 @@ import { useMemo, useState } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import {
   ExecutionsService,
+  EditionFeaturesService,
   type feature_Execution,
   type feature_ExecutionApplyItem,
   type feature_ExecutionSkipIf,
   type feature_ExecutionStatus,
   type feature_Feature,
-  FeaturesService,
   type model_Edition,
 } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
@@ -73,8 +73,9 @@ export function FeatureExecutionsTab() {
   const featuresQuery = useQuery({
     queryKey: featuresQueryKey,
     queryFn: () =>
-      FeaturesService.getDatasetsFeatures({
-        dataSetId: datasetId,
+      EditionFeaturesService.getFeatures({
+        scope: 'dataset',
+        dataset: datasetId,
         expand: ['revisions'],
       }),
     refetchOnWindowFocus: false,

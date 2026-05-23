@@ -6,7 +6,7 @@ import { FeatureResultsTab } from './annotation/featureResults/FeatureResultsTab
 import { FeatureExecutionsTab } from './annotation/featureExecutions/FeatureExecutionsTab.tsx'
 import { useAppState } from '../context/useAppState'
 import { useQuery } from '@tanstack/react-query'
-import { FeaturesService } from '@hub-api'
+import { EditionFeaturesService } from '@hub-api'
 import { ModelsTable } from './models/ModelsTable.tsx'
 import { JobsTable } from './jobs/JobsTable.tsx'
 import { BackupsView } from './backups/BackupsView.tsx'
@@ -28,8 +28,9 @@ export function Main() {
   const featuresQuery = useQuery({
     queryKey: ['features', 'definitions', state.datasetId],
     queryFn: () =>
-      FeaturesService.getDatasetsFeatures({
-        dataSetId: state.datasetId!,
+      EditionFeaturesService.getFeatures({
+        scope: 'dataset',
+        dataset: state.datasetId!,
       }),
     enabled: Boolean(state.datasetId && state.annotationId),
     refetchOnWindowFocus: false,
