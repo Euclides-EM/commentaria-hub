@@ -141,12 +141,12 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 				for job := range jobs {
 					results, err := job.fn()
 					if err != nil {
-						log.Printf("error in execution %s: %v\n", executionID, err)
+						log.Printf("error in execution %s: %v", executionID, err)
 						hasError.Store(true)
 					}
 					if len(results) > 0 {
 						if err := fe.featureResultsSvc.CreateResults(results, lo.IfF(policy != nil, func() bool { return policy.PushToOrigin }).Else(false)); err != nil {
-							log.Printf("failed to create result for execution %s: %v\n", executionID, err)
+							log.Printf("failed to create result for execution %s: %v", executionID, err)
 							hasError.Store(true)
 						}
 					}
