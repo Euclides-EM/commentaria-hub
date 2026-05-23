@@ -30,7 +30,7 @@ func (h *Handlers) ListDatasetFeatures(r *http.Request) (any, error) {
 // @Tags         Edition Features
 // @Param expand query []string false "Include related entities" Enums(latest_revision,revisions) collectionFormat(multi)
 // @Param scope  query string true "Filter by feature execution scope" Enums(dataset, editions)
-// @Param dataset query string false "Filter by dataset ID, relevant only for the dataset scope"
+// @Param dataset query string false "Filter by dataset ID, relevant only for the dataset scope; if omitted, returns features from all datasets"
 // @Produce      json
 // @Success      200  {array}   feature.Feature
 // @Router       /features [get]
