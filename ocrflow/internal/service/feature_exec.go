@@ -307,6 +307,49 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execut
 	return exec, nil
 }
 
+type featureGroup struct {
+	revisions []*feature.Revision
+	features  []*feature.Feature
+}
+
+func partitionFeatures(features []*feature.Feature, revisions []*feature.Revision, pred func(*feature.Feature) bool) (match, rest featureGroup) {
+	for i, f := range features {
+		if pred(f) {
+			match.revisions = append(match.revisions, revisions[i])
+			match.features = append(match.features, f)
+		} else {
+			rest.revisions = append(rest.revisions, revisions[i])
+			rest.features = append(rest.features, f)
+		}
+	}
+	return
+}
+
+func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID, textLanguage, fullText string, catGroup, promptGroup featureGroup) ([]*feature.Result, error) {
+	var results []*feature.Result
+	var execErrs []error
+
+	if len(catGroup.revisions) > 0 && fullText != "" {
+		r, err := fe.annotationCategorizeApplyFunc(ann, key, catGroup.revisions, catGroup.features, execID, fullText)()
+		if err != nil {
+			execErrs = append(execErrs, err)
+		}
+		results = append(results, r...)
+	}
+
+	if len(promptGroup.revisions) > 0 && fullText != "" {
+		for _, group := range groupPromptRevisionsByAIConfig(promptGroup.revisions, promptGroup.features) {
+			r, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, execID, textLanguage, fullText)()
+			if err != nil {
+				execErrs = append(execErrs, err)
+			}
+			results = append(results, r...)
+		}
+	}
+
+	return results, errors.Join(execErrs...)
+}
+
 func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, actions *executionActions) applyFunc {
 	return func() ([]*feature.Result, error) {
 		textLanguages, err := fe.languageResolver.Resolve(exec.Scope.DatasetID, key)
@@ -314,38 +357,55 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 			return nil, fmt.Errorf("failed to get text language for key %s: %w", key, err)
 		}
 		textLanguage := strings.Join(textLanguages, " and ")
-		fullText, err := fe.annotationTEISvc.GetTxt(exec.Scope.DatasetID, exec.Scope.AnnotationID, key)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.Scope.AnnotationID, key, err)
-		}
-		fullText = strings.TrimSpace(fullText)
-		if fullText == "" {
-			return nil, fmt.Errorf("full text is empty for annotation %s and key %s", exec.Scope.AnnotationID, key)
-		}
 
 		ann, err := fe.annotationSvc.Get(exec.Scope.DatasetID, exec.Scope.AnnotationID)
 		if err != nil {
 			return nil, fmt.Errorf("failed to get annotation for dataset %s and annotation %s: %w", exec.Scope.DatasetID, exec.Scope.AnnotationID, err)
 		}
 
-		results := make([]*feature.Result, 0)
-		var execErrs []error
-		if len(actions.categorizerRevisions) > 0 {
-			categorizerResults, err := fe.annotationCategorizeApplyFunc(ann, key, actions.categorizerRevisions, actions.categorizerFeatures, exec.ID, fullText)()
+		isImprintFeat := func(f *feature.Feature) bool {
+			return strings.Contains(strings.ToLower(f.Name), "in imprint")
+		}
+
+		catImprint, catNonImprint := partitionFeatures(actions.categorizerFeatures, actions.categorizerRevisions, isImprintFeat)
+		promptImprint, promptNonImprint := partitionFeatures(actions.promptFeatures, actions.promptRevisions, isImprintFeat)
+
+		needImprint := len(catImprint.features)+len(promptImprint.features) > 0
+		needNonImprint := len(catNonImprint.features)+len(promptNonImprint.features) > 0
+
+		var imprintFullText string
+		if needImprint {
+			text, err := fe.annotationTEISvc.GetTxt(exec.Scope.DatasetID, exec.Scope.AnnotationID, key, lo.ToPtr(true))
 			if err != nil {
-				execErrs = append(execErrs, err)
+				return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.Scope.AnnotationID, key, err)
 			}
-			results = append(results, categorizerResults...)
+			imprintFullText = strings.TrimSpace(text)
 		}
-		if len(actions.promptRevisions) > 0 {
-			for _, group := range groupPromptRevisionsByAIConfig(actions.promptRevisions, actions.promptFeatures) {
-				promptResults, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, exec.ID, textLanguage, fullText)()
-				if err != nil {
-					execErrs = append(execErrs, err)
-				}
-				results = append(results, promptResults...)
+
+		var nonImprintFullText string
+		if needNonImprint {
+			text, err := fe.annotationTEISvc.GetTxt(exec.Scope.DatasetID, exec.Scope.AnnotationID, key, lo.ToPtr(false))
+			if err != nil {
+				return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.Scope.AnnotationID, key, err)
 			}
+			nonImprintFullText = strings.TrimSpace(text)
 		}
+
+		var results []*feature.Result
+		var execErrs []error
+
+		r, err := fe.runAnnotationGroup(ann, key, exec.ID, textLanguage, imprintFullText, catImprint, promptImprint)
+		if err != nil {
+			execErrs = append(execErrs, err)
+		}
+		results = append(results, r...)
+
+		r, err = fe.runAnnotationGroup(ann, key, exec.ID, textLanguage, nonImprintFullText, catNonImprint, promptNonImprint)
+		if err != nil {
+			execErrs = append(execErrs, err)
+		}
+		results = append(results, r...)
+
 		return results, errors.Join(execErrs...)
 	}
 }
