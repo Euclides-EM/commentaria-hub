@@ -348,18 +348,24 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 	for fn, rawValue := range rawFields {
 		idx, ok := featureNameToIndex[fn]
 		if !ok {
-			return nil, fmt.Errorf("llm response contained unknown field %q for %s", fn, contextDesc)
+			return nil, fmt.Errorf("llm response contained unknown field %q for %s\n%s", fn, contextDesc, rawValue)
 		}
 
 		var values []string
 		if fes[idx].IsList {
 			if err := json.Unmarshal(rawValue, &values); err != nil {
-				return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w", fn, contextDesc, err)
+				var val string
+				if retryErr := json.Unmarshal(rawValue, &val); retryErr != nil {
+					return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w:\n%s", fn, contextDesc, err, rawValue)
+				}
+				if val != "" {
+					values = []string{val}
+				}
 			}
 		} else {
 			var val string
 			if err := json.Unmarshal(rawValue, &val); err != nil {
-				return nil, fmt.Errorf("failed to parse scalar response for field %q in %s: %w", fn, contextDesc, err)
+				return nil, fmt.Errorf("failed to parse scalar response for field %q in %s: %w\n%s", fn, contextDesc, err, rawValue)
 			}
 			if val != "" {
 				values = []string{val}
