@@ -17,6 +17,7 @@ import { fetchDiagrams, VolumeData } from "../api/diagramsApi.ts";
 import { LAND_COLOR, SEA_COLOR } from "../utils/colors.ts";
 import { useQuery } from "@tanstack/react-query";
 import { isNil } from "lodash";
+import { FacsimilesService, OpenAPI } from "@hub-api";
 
 const DiagramsContainer = styled.div`
   max-width: 80vw;
@@ -121,10 +122,30 @@ const ModalHeader = styled.div`
   border-bottom: 1px solid #e5e7eb;
 `;
 
+const ModalTitleRow = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+`;
+
 const ModalTitle = styled.h3`
   font-size: 1.125rem;
   font-weight: 500;
   color: #111827;
+`;
+
+const ScanPageLink = styled.a`
+  padding: 0.4rem 0.75rem;
+  background-color: ${SEA_COLOR};
+  color: white;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.9;
+  }
 `;
 
 const CloseButton = styled.button`
@@ -212,6 +233,8 @@ interface ModalState {
   isOpen: boolean;
   imagePath: string;
   title: string;
+  scanKey: string;
+  pageNumber: number | null;
 }
 
 const parseImageName = (imagePath: string): ImageInfo => {
@@ -236,6 +259,9 @@ const parseImageName = (imagePath: string): ImageInfo => {
   };
 };
 
+const toScanPageURL = (scanKey: string, pageNumber: number): string =>
+  `${OpenAPI.BASE.replace(/\/$/, "")}/editions/${encodeURIComponent(scanKey)}/facsimile.pdf#page=${pageNumber}`;
+
 export const Diagrams = () => {
   const [searchParams] = useSearchParams();
   const editionKey = searchParams.get("key");
@@ -248,6 +274,8 @@ export const Diagrams = () => {
     isOpen: false,
     imagePath: "",
     title: "",
+    scanKey: "",
+    pageNumber: null,
   });
   const [pageRangeFrom, setPageRangeFrom] = useState<string>("");
   const [pageRangeTo, setPageRangeTo] = useState<string>("");
@@ -264,10 +292,43 @@ export const Diagrams = () => {
   });
 
   const diagramsData = diagramsQuery.data;
-  const volumes: VolumeData[] = diagramsData?.volumes || [];
-  const images: string[] = diagramsData?.volumes
-    ? []
-    : diagramsData?.images || [];
+  const volumes = useMemo<VolumeData[]>(
+    () => diagramsData?.volumes || [],
+    [diagramsData?.volumes],
+  );
+  const images = useMemo<string[]>(
+    () => (diagramsData?.volumes ? [] : diagramsData?.images || []),
+    [diagramsData?.images, diagramsData?.volumes],
+  );
+  const scanKeys = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          volumes.length > 0
+            ? volumes.map((volume) => volume.key).filter(Boolean)
+            : editionKey
+              ? [editionKey]
+              : [],
+        ),
+      ),
+    [editionKey, volumes],
+  );
+  const facsimilesQuery = useQuery({
+    queryKey: ["facsimiles", "download-available", scanKeys],
+    queryFn: () => FacsimilesService.getFacsimilies({ editionId: scanKeys }),
+    enabled: scanKeys.length > 0,
+  });
+  const downloadableScanKeys = useMemo(
+    () =>
+      new Set(
+        (facsimilesQuery.data || [])
+          .filter(
+            (facsimile) => facsimile.download_available && facsimile.edition_id,
+          )
+          .map((facsimile) => facsimile.edition_id!),
+      ),
+    [facsimilesQuery.data],
+  );
   const loading = diagramsQuery.isLoading;
   const error =
     (editionKey && data.length > 0 && !item ? "Edition not found" : null) ||
@@ -278,13 +339,17 @@ export const Diagrams = () => {
     imagePath: string,
     image: ImageInfo,
     volumeNumber?: number,
+    scanKey = editionKey || "",
   ) => {
+    const pageNumber = Number.parseInt(image.pageNumber, 10);
     setModal({
       isOpen: true,
       imagePath,
       title: volumeNumber
         ? `Volume ${volumeNumber} - Page ${image.pageNumber} - Diagram #${image.index}`
         : `Page ${image.pageNumber} - Diagram #${image.index}`,
+      scanKey,
+      pageNumber: Number.isFinite(pageNumber) ? pageNumber : null,
     });
   };
 
@@ -293,6 +358,8 @@ export const Diagrams = () => {
       isOpen: false,
       imagePath: "",
       title: "",
+      scanKey: "",
+      pageNumber: null,
     });
   };
 
@@ -558,7 +625,12 @@ export const Diagrams = () => {
                         <DiagramCard
                           key={`${volume.key}-${imageName}`}
                           onClick={() =>
-                            openImageModal(imagePath, imageInfo, volume.volume)
+                            openImageModal(
+                              imagePath,
+                              imageInfo,
+                              volume.volume,
+                              volume.key,
+                            )
                           }
                         >
                           <LazyImage
@@ -617,7 +689,19 @@ export const Diagrams = () => {
         <Modal isOpen={modal.isOpen} onClick={closeImageModal}>
           <ModalContent onClick={(e) => e.stopPropagation()}>
             <ModalHeader>
-              <ModalTitle>{modal.title}</ModalTitle>
+              <ModalTitleRow>
+                <ModalTitle>{modal.title}</ModalTitle>
+                {modal.pageNumber !== null &&
+                  downloadableScanKeys.has(modal.scanKey) && (
+                    <ScanPageLink
+                      href={toScanPageURL(modal.scanKey, modal.pageNumber)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View page in main scan
+                    </ScanPageLink>
+                  )}
+              </ModalTitleRow>
               <CloseButton onClick={closeImageModal}>×</CloseButton>
             </ModalHeader>
             <ModalImageContainer>

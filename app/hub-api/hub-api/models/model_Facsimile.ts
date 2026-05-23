@@ -12,5 +12,5 @@ export type model_Facsimile = {
     name?: string;
     scan_url?: string;
     readonly updated_at?: string;
+    readonly download_available?: boolean;
 };
-

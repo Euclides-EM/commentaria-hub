@@ -73,7 +73,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	})
 	editionPreferredTranscriptionStore := store.NewEditionPreferredAnnotationSql(sqlDB)
 	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir(), editionPreferredTranscriptionStore.OnDeleteEdition)
-	facsimileStore := store.NewFacsimileSql(sqlDB)
+	facsimileStore := store.NewFacsimileSql(sqlDB, env.ItemsMetadataStoreDir())
 	datasetStore := store.NewDatasetSQL(sqlDB, fileSystemManager)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
 	annotationGroupStore := store.NewAnnotationGroupSQL(sqlDB)

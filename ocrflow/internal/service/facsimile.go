@@ -48,12 +48,7 @@ func NewFacsimileService(facsimileStore *store.FacsimileSQL, facsimilesPDFDir, f
 }
 
 func (e *Facsimile) ListFacsimiles(editionIDs []string) ([]*model.Facsimile, error) {
-	facsimiles, err := e.facsimileStore.ListFacsimiles(editionIDs)
-	if err != nil {
-		return nil, err
-	}
-	e.setDiagramCropAvailability(facsimiles...)
-	return facsimiles, nil
+	return e.facsimileStore.ListFacsimiles(editionIDs)
 }
 
 func (e *Facsimile) GetFacsimile(facsimileID string) (*model.Facsimile, error) {
@@ -64,7 +59,6 @@ func (e *Facsimile) GetFacsimile(facsimileID string) (*model.Facsimile, error) {
 	if fac == nil {
 		return nil, fmt.Errorf("facsimile with id %s not found", facsimileID)
 	}
-	e.setDiagramCropAvailability(fac)
 	return fac, nil
 }
 
@@ -76,7 +70,6 @@ func (e *Facsimile) CreateFacsimile(f *model.Facsimile) (*model.Facsimile, error
 	if err != nil {
 		return nil, err
 	}
-	e.setDiagramCropAvailability(created)
 	return created, nil
 }
 
@@ -92,7 +85,6 @@ func (e *Facsimile) UpdateFacsimile(f *model.Facsimile) (*model.Facsimile, error
 	if err != nil {
 		return nil, err
 	}
-	e.setDiagramCropAvailability(updated)
 	return updated, nil
 }
 
@@ -235,23 +227,6 @@ func (e *Facsimile) listRemoteFacsimiles() ([]*model.Facsimile, error) {
 
 func (e *Facsimile) remoteEditionPDFURL(editionID string) string {
 	return e.remoteAPIURL + "/editions/" + url.PathEscape(editionID) + "/facsimile.pdf"
-}
-
-func (e *Facsimile) setDiagramCropAvailability(facsimiles ...*model.Facsimile) {
-	cropKeys, err := store.LoadDiagramDirectoryKeys(e.itemsMetadataStoreDir)
-	if err != nil {
-		log.Printf("failed to load diagram crop edition keys: %v", err)
-		return
-	}
-	if len(cropKeys) == 0 {
-		return
-	}
-	for _, facsimile := range facsimiles {
-		if facsimile == nil {
-			continue
-		}
-		_, facsimile.DiagramCropsAvailable = cropKeys[facsimile.EditionID]
-	}
 }
 
 type driveFileEntry struct {
@@ -497,7 +472,20 @@ func (e *Facsimile) GetEditionFacsimilePDFPath(editionID string) (string, error)
 	if len(facs) == 0 {
 		return "", fmt.Errorf("no facsimile found for edition %s", editionID)
 	}
-	return facsimileLocalPDFPath(facs[0])
+	path, err := downloadableFacsimilePDFPath(facs)
+	if err != nil {
+		return "", fmt.Errorf("no downloadable facsimile PDF found for edition %s", editionID)
+	}
+	return path, nil
+}
+
+func downloadableFacsimilePDFPath(facs []*model.Facsimile) (string, error) {
+	for _, fac := range facs {
+		if path, err := facsimileLocalPDFPath(fac); err == nil {
+			return path, nil
+		}
+	}
+	return "", fmt.Errorf("no local facsimile PDF available")
 }
 
 func facsimileLocalPDFPath(fac *model.Facsimile) (string, error) {
