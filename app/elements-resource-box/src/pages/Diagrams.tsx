@@ -1,18 +1,25 @@
-import {useEffect, useMemo, useState} from "react";
-import {MAIN_CONTENT_ID} from "../components/layout/routes.ts";
-import {useSearchParams} from "react-router-dom";
+import { useContext, useEffect, useMemo, useState } from "react";
+import { MAIN_CONTENT_ID } from "../components/layout/routes.ts";
+import { useSearchParams } from "react-router-dom";
 import styled from "@emotion/styled";
-import {Container, LazyImage, Row, ScrollToTopButton,} from "../components/common";
-import {useAppliedFilter} from "../contexts/FilterAppliedContext";
-import {Item} from "../types";
-import {ItemInfo} from "../components/tps/modal/ItemInfo";
-import {NO_CITY, NO_EDITOR, NO_YEAR} from "../constants";
-import {joinArr} from "../utils/util.ts";
-import {fetchDiagrams, VolumeData} from "../api/diagramsApi.ts";
-import {LAND_COLOR, SEA_COLOR} from "../utils/colors.ts";
-import {useQuery} from "@tanstack/react-query";
-import {isNil} from "lodash";
-import { FacsimilesService, OpenAPI } from "@hub-api";
+import {
+  Container,
+  LazyImage,
+  Row,
+  ScrollToTopButton,
+} from "../components/common";
+import { useAppliedFilter } from "../contexts/FilterAppliedContext";
+import { Item } from "../types";
+import { ItemInfo } from "../components/tps/modal/ItemInfo";
+import { NO_CITY, NO_EDITOR, NO_YEAR } from "../constants";
+import { joinArr } from "../utils/util.ts";
+import { fetchDiagrams, VolumeData } from "../api/diagramsApi.ts";
+import { LAND_COLOR, SEA_COLOR } from "../utils/colors.ts";
+import { useQuery } from "@tanstack/react-query";
+import { isNil } from "lodash";
+import { FacsimilesService } from "@hub-api";
+import { AuthContext } from "../contexts/Auth.ts";
+import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
 
 const DiagramsContainer = styled.div`
   max-width: 80vw;
@@ -129,13 +136,14 @@ const ModalTitle = styled.h3`
   color: #111827;
 `;
 
-const ScanPageLink = styled.a`
+const ScanPageButton = styled.button`
   padding: 0.4rem 0.75rem;
   background-color: ${SEA_COLOR};
   color: white;
+  border: none;
   border-radius: 0.25rem;
   font-size: 0.875rem;
-  text-decoration: none;
+  cursor: pointer;
   white-space: nowrap;
 
   &:hover {
@@ -254,14 +262,12 @@ const parseImageName = (imagePath: string): ImageInfo => {
   };
 };
 
-const toScanPageURL = (scanKey: string, pageNumber: number): string =>
-  `${OpenAPI.BASE.replace(/\/$/, "")}/editions/${encodeURIComponent(scanKey)}/facsimile.pdf#page=${pageNumber}`;
-
 function getImagePath(imageName: string) {
   return `${new URL(import.meta.env.VITE_BACKEND_URL).origin}${imageName}`;
 }
 
 export const Diagrams = () => {
+  const { token } = useContext(AuthContext);
   const [searchParams] = useSearchParams();
   const editionKey = searchParams.get("key");
   const { data } = useAppliedFilter();
@@ -359,6 +365,19 @@ export const Diagrams = () => {
       title: "",
       scanKey: "",
       pageNumber: null,
+    });
+  };
+
+  const openScanPage = () => {
+    if (!token || modal.pageNumber === null) {
+      return;
+    }
+    void openAuthenticatedFacsimilePDF(
+      modal.scanKey,
+      token,
+      modal.pageNumber,
+    ).catch((error) => {
+      console.error("Failed to open main scan page:", error);
     });
   };
 
@@ -690,15 +709,12 @@ export const Diagrams = () => {
             <ModalHeader>
               <ModalTitleRow>
                 <ModalTitle>{modal.title}</ModalTitle>
-                {modal.pageNumber !== null &&
+                {token &&
+                  modal.pageNumber !== null &&
                   downloadableScanKeys.has(modal.scanKey) && (
-                    <ScanPageLink
-                      href={toScanPageURL(modal.scanKey, modal.pageNumber)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <ScanPageButton type="button" onClick={openScanPage}>
                       View page in main scan
-                    </ScanPageLink>
+                    </ScanPageButton>
                   )}
               </ModalTitleRow>
               <CloseButton onClick={closeImageModal}>×</CloseButton>

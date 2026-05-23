@@ -14,11 +14,7 @@ import {
 } from "@tanstack/react-table";
 import { useQuery } from "@tanstack/react-query";
 import styled from "@emotion/styled";
-import {
-  FacsimilesService,
-  OpenAPI,
-  type search_OrderByOption,
-} from "@hub-api";
+import { FacsimilesService, type search_OrderByOption } from "@hub-api";
 import { SiMaterialdesign } from "react-icons/si";
 import { Item, STUDY_CORPUSES } from "../types";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
@@ -52,6 +48,7 @@ import { PiArrowBendDownRightBold } from "react-icons/pi";
 import { inEuclidesMode } from "../utils/mode.ts";
 import { useAutoOpenEditionFromQuery } from "../hooks/useAutoOpenEditionFromQuery.ts";
 import { FacsimileLinks } from "../components/FacsimileLinks.tsx";
+import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
 
 const TableContainer = styled.div`
   ${ScrollbarStyle};
@@ -289,9 +286,6 @@ const toServerOrderBy = (sorting: SortingState): search_OrderByOption[] => {
   return [...mapped, { field: "key", descending: false }];
 };
 
-const toMainScanURL = (editionKey: string) =>
-  `${OpenAPI.BASE.replace(/\/$/, "")}/editions/${encodeURIComponent(editionKey)}/facsimile.pdf`;
-
 export function Catalogue() {
   const { filters } = useAppliedFilter();
   const { token } = useContext(AuthContext);
@@ -336,6 +330,17 @@ export function Catalogue() {
       console.error("Failed to copy edition key:", err);
     }
   }, []);
+  const openMainScan = useCallback(
+    (editionKey: string) => {
+      if (!token) {
+        return;
+      }
+      void openAuthenticatedFacsimilePDF(editionKey, token).catch((error) => {
+        console.error("Failed to open main scan:", error);
+      });
+    },
+    [token],
+  );
   const {
     items: filteredItems,
     fetchNextPage,
@@ -584,17 +589,17 @@ export function Catalogue() {
                   <AiOutlineCopy style={{ fontSize: "1rem" }} />
                 )}
               </IconButton>
-              {downloadAvailableEditionKeys.has(info.row.original.key) && (
-                <a
-                  href={toMainScanURL(info.row.original.key)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="View main scan"
-                  aria-label="View main scan"
-                >
-                  <FaFilePdf style={{ color: SEA_COLOR, fontSize: "1rem" }} />
-                </a>
-              )}
+              {token &&
+                downloadAvailableEditionKeys.has(info.row.original.key) && (
+                  <IconButton
+                    type="button"
+                    onClick={() => openMainScan(info.row.original.key)}
+                    title="View main scan"
+                    aria-label="View main scan"
+                  >
+                    <FaFilePdf style={{ color: SEA_COLOR, fontSize: "1rem" }} />
+                  </IconButton>
+                )}
               {info.row.original.facsimiles.length > 0 && (
                 <FacsimileLinks
                   facsimiles={info.row.original.facsimiles}
@@ -731,6 +736,7 @@ export function Catalogue() {
       copiedKey,
       copyEditionKey,
       downloadAvailableEditionKeys,
+      openMainScan,
     ],
   );
 
