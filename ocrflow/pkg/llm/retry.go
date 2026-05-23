@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"log"
+	"net"
 	"net/http"
 	"regexp"
 	"strconv"
@@ -16,6 +17,7 @@ import (
 
 const (
 	maxRateLimitRetries = 5
+	maxNetworkRetries   = 3
 	baseRetryDelay      = 2 * time.Second
 	maxRetryDelay       = 30 * time.Second
 )
@@ -23,6 +25,10 @@ const (
 var retryAfterMessagePattern = regexp.MustCompile(`Please try again in ([0-9hms.]+)`)
 
 func executeWithRetries(ctx context.Context, model string, call func() error) (uint, error) {
+	return executeWithRetriesForAttempts(ctx, model, maxRateLimitRetries+1, call)
+}
+
+func executeWithRetriesForAttempts(ctx context.Context, model string, attemptsLimit uint, call func() error) (uint, error) {
 	var attempts uint
 	err := retry.Do(
 		func() error {
@@ -30,7 +36,7 @@ func executeWithRetries(ctx context.Context, model string, call func() error) (u
 			return call()
 		},
 		retry.Context(ctx),
-		retry.Attempts(maxRateLimitRetries+1),
+		retry.Attempts(attemptsLimit),
 		retry.LastErrorOnly(true),
 		retry.DelayType(func(n uint, err error, _ *retry.Config) time.Duration {
 			delay, _ := retryDelay(err, n+1)
@@ -53,24 +59,84 @@ func executeWithRetries(ctx context.Context, model string, call func() error) (u
 
 func retryDelay(err error, attempt uint) (time.Duration, bool) {
 	var apiErr *openai.Error
-	if !errors.As(err, &apiErr) {
-		return 0, false
+	if errors.As(err, &apiErr) {
+		statusCode := apiErr.StatusCode
+		if statusCode != http.StatusTooManyRequests && (statusCode < http.StatusInternalServerError || statusCode > http.StatusNetworkAuthenticationRequired) {
+			return 0, false
+		}
+
+		if delay := retryDelayFromHeaders(apiErr.Response); delay > 0 {
+			return minDuration(delay, maxRetryDelay), true
+		}
+		if delay := retryDelayFromMessage(apiErr.Error()); delay > 0 {
+			return minDuration(delay, maxRetryDelay), true
+		}
+
+		backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
+		return minDuration(backoff, maxRetryDelay), true
 	}
 
-	statusCode := apiErr.StatusCode
-	if statusCode != http.StatusTooManyRequests && (statusCode < http.StatusInternalServerError || statusCode > http.StatusNetworkAuthenticationRequired) {
-		return 0, false
+	var httpErr *retryableHTTPError
+	if errors.As(err, &httpErr) {
+		if httpErr.statusCode != http.StatusTooManyRequests && (httpErr.statusCode < http.StatusInternalServerError || httpErr.statusCode > http.StatusNetworkAuthenticationRequired) {
+			return 0, false
+		}
+		if delay := retryDelayFromHeaders(httpErr.response); delay > 0 {
+			return minDuration(delay, maxRetryDelay), true
+		}
+		backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
+		return minDuration(backoff, maxRetryDelay), true
 	}
 
-	if delay := retryDelayFromHeaders(apiErr.Response); delay > 0 {
-		return minDuration(delay, maxRetryDelay), true
-	}
-	if delay := retryDelayFromMessage(apiErr.Error()); delay > 0 {
-		return minDuration(delay, maxRetryDelay), true
+	if isRetryableNetworkError(err) {
+		backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
+		return minDuration(backoff, maxRetryDelay), true
 	}
 
-	backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
-	return minDuration(backoff, maxRetryDelay), true
+	return 0, false
+}
+
+type retryableHTTPError struct {
+	statusCode int
+	response   *http.Response
+	message    string
+}
+
+func (e *retryableHTTPError) Error() string {
+	return e.message
+}
+
+func isRetryableNetworkError(err error) bool {
+	if err == nil {
+		return false
+	}
+
+	if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+		return false
+	}
+
+	var netErr net.Error
+	if errors.As(err, &netErr) {
+		return true
+	}
+
+	message := strings.ToLower(err.Error())
+	for _, fragment := range []string{
+		"connection reset by peer",
+		"broken pipe",
+		"unexpected eof",
+		"connection refused",
+		"no route to host",
+		"network is unreachable",
+		"tls handshake timeout",
+		"i/o timeout",
+	} {
+		if strings.Contains(message, fragment) {
+			return true
+		}
+	}
+
+	return false
 }
 
 func retryDelayFromHeaders(resp *http.Response) time.Duration {
