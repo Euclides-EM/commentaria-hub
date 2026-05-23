@@ -8,6 +8,7 @@ type Facsimile struct {
 	ScanURL               string `json:"scan_url"`
 	MainTextPages         string `json:"main_text_pages"`
 	DiagramCropsAvailable bool   `json:"diagram_crops_available"`
+	DownloadAvailable     bool   `json:"download_available" readonly:"true"`
 }
 
 type FacsimileDriveImportResult struct {

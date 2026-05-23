@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import styled from "@emotion/styled";
-import { FaCheck, FaQuoteLeft } from "react-icons/fa";
+import { FaCheck, FaFilePdf, FaQuoteLeft } from "react-icons/fa";
 import { Item } from "../../../types";
 import { Row } from "../../common";
 import { ModalTextColumn } from "./ModalComponents";
@@ -17,6 +17,8 @@ import { AuthContext } from "../../../contexts/Auth.ts";
 import { useQuery } from "@tanstack/react-query";
 import { getCommentariaHubPreferredTranscriptionUrl } from "../../../utils/commentariaHub.ts";
 import { FacsimileLinks } from "../../FacsimileLinks.tsx";
+import { FacsimilesService } from "@hub-api";
+import { openAuthenticatedFacsimilePDF } from "../../../utils/facsimilePdf.ts";
 
 const InfoTitle = styled.div`
   font-size: 0.8rem;
@@ -25,6 +27,18 @@ const InfoTitle = styled.div`
 `;
 
 const StyledAnchor = styled.a`
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const IconButton = styled.button`
+  border: none;
+  background: transparent;
+  color: ${LAND_COLOR};
+  cursor: pointer;
+  padding: 0;
   font-size: 1rem;
   display: inline-flex;
   align-items: center;
@@ -151,6 +165,22 @@ export const ItemInfo = ({
     queryFn: () => getCommentariaHubPreferredTranscriptionUrl(item.key),
     enabled: !!item.key,
   });
+  const localFacsimilesQuery = useQuery({
+    queryKey: ["facsimiles", "download-available", item.key],
+    queryFn: () => FacsimilesService.getFacsimilies({ editionId: [item.key] }),
+    enabled: Boolean(token && item.key),
+  });
+  const hasMainScan = localFacsimilesQuery.data?.some(
+    (facsimile) => facsimile.download_available,
+  );
+  const openMainScan = () => {
+    if (!token) {
+      return;
+    }
+    void openAuthenticatedFacsimilePDF(item.key, token).catch((error) => {
+      console.error("Failed to open main scan:", error);
+    });
+  };
 
   return (
     <ModalTextColumn isRow={isRow}>
@@ -181,7 +211,9 @@ export const ItemInfo = ({
         <InfoTitle>{pluralize("Language", item.languages.length)}:</InfoTitle>{" "}
         {joinArr(item.languages)}
       </Row>
-      {item.facsimiles.length > 0 && (
+      {(item.facsimiles.length > 0 ||
+        hasMainScan ||
+        (showDiagramsLink && item.diagramCropsAvailable)) && (
         <Row justifyStart>
           <InfoTitle>Facsimile:</InfoTitle>
           <AnchorsRow
@@ -190,6 +222,16 @@ export const ItemInfo = ({
             data-tooltip-place="left"
           >
             <FacsimileLinks facsimiles={item.facsimiles} color={LAND_COLOR} />
+            {hasMainScan && (
+              <IconButton
+                type="button"
+                onClick={openMainScan}
+                title="View main scan"
+                aria-label="View main scan"
+              >
+                <FaFilePdf />
+              </IconButton>
+            )}
             {showDiagramsLink && item.diagramCropsAvailable && (
               <StyledAnchor
                 href={withAppBasePath(`/diagrams?key=${item.key}`)}
