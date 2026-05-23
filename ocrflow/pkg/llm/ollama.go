@@ -99,11 +99,7 @@ func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error
 			return fmt.Errorf("llm exec: read ollama response: %w", err)
 		}
 		if resp.StatusCode < http.StatusOK || resp.StatusCode >= http.StatusMultipleChoices {
-			return &retryableHTTPError{
-				statusCode: resp.StatusCode,
-				response:   resp,
-				message:    fmt.Sprintf("llm exec: ollama generate api returned %d: %s", resp.StatusCode, truncateForError(respBody)),
-			}
+			return newHTTPStatusError(resp.StatusCode, resp, fmt.Sprintf("llm exec: ollama generate api returned %d: %s", resp.StatusCode, truncateForError(respBody)))
 		}
 
 		if err := json.Unmarshal(respBody, &out); err != nil {

@@ -58,52 +58,65 @@ func executeWithRetriesForAttempts(ctx context.Context, model string, attemptsLi
 }
 
 func retryDelay(err error, attempt uint) (time.Duration, bool) {
-	var apiErr *openai.Error
-	if errors.As(err, &apiErr) {
-		statusCode := apiErr.StatusCode
-		if statusCode != http.StatusTooManyRequests && (statusCode < http.StatusInternalServerError || statusCode > http.StatusNetworkAuthenticationRequired) {
+	if statusCode, resp, ok := retryableHTTPResponse(err); ok {
+		if !isRetryableStatusCode(statusCode) {
 			return 0, false
 		}
-
-		if delay := retryDelayFromHeaders(apiErr.Response); delay > 0 {
+		if delay := retryDelayFromHeaders(resp); delay > 0 {
 			return minDuration(delay, maxRetryDelay), true
 		}
-		if delay := retryDelayFromMessage(apiErr.Error()); delay > 0 {
+		if delay := retryDelayFromMessage(err.Error()); delay > 0 {
 			return minDuration(delay, maxRetryDelay), true
 		}
-
-		backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
-		return minDuration(backoff, maxRetryDelay), true
+		return retryBackoff(attempt), true
 	}
 
-	var httpErr *retryableHTTPError
-	if errors.As(err, &httpErr) {
-		if httpErr.statusCode != http.StatusTooManyRequests && (httpErr.statusCode < http.StatusInternalServerError || httpErr.statusCode > http.StatusNetworkAuthenticationRequired) {
-			return 0, false
-		}
-		if delay := retryDelayFromHeaders(httpErr.response); delay > 0 {
-			return minDuration(delay, maxRetryDelay), true
-		}
-		backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
-		return minDuration(backoff, maxRetryDelay), true
+	if !isRetryableNetworkError(err) {
+		return 0, false
 	}
 
-	if isRetryableNetworkError(err) {
-		backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
-		return minDuration(backoff, maxRetryDelay), true
-	}
-
-	return 0, false
+	return retryBackoff(attempt), true
 }
 
-type retryableHTTPError struct {
+type httpStatusError struct {
 	statusCode int
 	response   *http.Response
 	message    string
 }
 
-func (e *retryableHTTPError) Error() string {
+func (e *httpStatusError) Error() string {
 	return e.message
+}
+
+func newHTTPStatusError(statusCode int, response *http.Response, message string) error {
+	return &httpStatusError{
+		statusCode: statusCode,
+		response:   response,
+		message:    message,
+	}
+}
+
+func retryableHTTPResponse(err error) (int, *http.Response, bool) {
+	var apiErr *openai.Error
+	if errors.As(err, &apiErr) {
+		return apiErr.StatusCode, apiErr.Response, true
+	}
+
+	var httpErr *httpStatusError
+	if errors.As(err, &httpErr) {
+		return httpErr.statusCode, httpErr.response, true
+	}
+
+	return 0, nil, false
+}
+
+func isRetryableStatusCode(statusCode int) bool {
+	return statusCode == http.StatusTooManyRequests || (statusCode >= http.StatusInternalServerError && statusCode <= http.StatusNetworkAuthenticationRequired)
+}
+
+func retryBackoff(attempt uint) time.Duration {
+	backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
+	return minDuration(backoff, maxRetryDelay)
 }
 
 func isRetryableNetworkError(err error) bool {
