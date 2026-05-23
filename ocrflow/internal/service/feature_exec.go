@@ -8,6 +8,7 @@ import (
 	"slices"
 	"strings"
 	"sync"
+	"sync/atomic"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
@@ -123,14 +124,12 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 		return nil, err
 	}
 
-	// Run all apply functions in parallel and wait for them to finish
-	go func(executionID string, funcs []applyFunc) {
+	// Run all apply functions in parallel — results are written to the DB as each job completes
+	go func(executionID string, funcs []applyFunc, policy *feature.ExecutionPolicy) {
 		var wg sync.WaitGroup
-		resultBatches := make([][]*feature.Result, len(funcs))
-		errs := make([]error, len(funcs))
+		var hasError atomic.Bool
 		type executionJob struct {
-			index int
-			fn    applyFunc
+			fn applyFunc
 		}
 		jobs := make(chan executionJob)
 
@@ -140,51 +139,38 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			go func() {
 				defer wg.Done()
 				for job := range jobs {
-					result, err := job.fn()
-					resultBatches[job.index] = result
-					errs[job.index] = err
+					results, err := job.fn()
+					if err != nil {
+						log.Printf("error in execution %s: %v\n", executionID, err)
+						hasError.Store(true)
+					}
+					if len(results) > 0 {
+						if err := fe.featureResultsSvc.CreateResults(results, lo.IfF(policy != nil, func() bool { return policy.PushToOrigin }).Else(false)); err != nil {
+							log.Printf("failed to create result for execution %s: %v\n", executionID, err)
+							hasError.Store(true)
+						}
+					}
 				}
 			}()
 		}
-		for i, fn := range funcs {
-			jobs <- executionJob{index: i, fn: fn}
+		for _, fn := range funcs {
+			jobs <- executionJob{fn: fn}
 		}
 		close(jobs)
 
 		wg.Wait()
 
-		hasError := false
-		for _, err := range errs {
-			if err != nil {
-				log.Printf("error in execution %s: %v\n", executionID, err)
-				hasError = true
-			}
-		}
-
 		newStatus := feature.ExecutionStatusSuccess
 		statusReason := ""
-		var results []*feature.Result
-		for _, batch := range resultBatches {
-			results = append(results, batch...)
-		}
-		if len(results) > 0 {
-			if err := fe.featureResultsSvc.CreateResults(results, lo.IfF(exec.Policy != nil, func() bool { return exec.Policy.PushToOrigin }).Else(false)); err != nil {
-				log.Printf("failed to create result for execution %s: %v\n", executionID, err)
-				newStatus = feature.ExecutionStatusFailed
-				statusReason = "failed to store execution results"
-			}
-		}
-		if hasError {
+		if hasError.Load() {
 			newStatus = feature.ExecutionStatusFailed
-			if statusReason == "" {
-				statusReason = "one or more actions failed, check logs"
-			}
+			statusReason = "one or more actions failed, check logs"
 		}
 		if err := fe.store.UpdateStatus(executionID, newStatus, statusReason); err != nil {
 			log.Printf("failed to update execution status for execution %s: %v\n", executionID, err)
 		}
 
-	}(exec.ID, applyFuncs)
+	}(exec.ID, applyFuncs, exec.Policy)
 
 	return exec, nil
 }
