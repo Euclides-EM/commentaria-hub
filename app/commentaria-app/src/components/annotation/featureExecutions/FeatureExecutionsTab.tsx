@@ -1,8 +1,7 @@
 import { useMemo, useState } from 'react'
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
 import {
   ExecutionsService,
-  EditionFeaturesService,
   type feature_Execution,
   type feature_ExecutionApplyItem,
   type feature_ExecutionSkipIf,
@@ -18,7 +17,11 @@ import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
 import { useAllEditionsQuery } from '../../../queries/editions.ts'
 import { useAnnotationsQuery } from '../../../queries/annotations.ts'
-import { useDatasetImageKeysQuery } from '../../../queries/datasets.ts'
+import {
+  useDatasetImageKeysQuery,
+  useDatasetFeaturesQuery,
+} from '../../../queries/datasets.ts'
+import { useFeatureExecutionsQuery } from '../../../queries/executions.ts'
 import { parsePageEntries } from '../../../utils/pages.ts'
 import { hasAnnotationPages } from '../../../utils/editions.ts'
 
@@ -67,29 +70,13 @@ export function FeatureExecutionsTab() {
   >({})
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false)
 
-  const featuresQueryKey = ['features', 'revisions', datasetId]
   const executionsQueryKey = ['executions', 'dataset', datasetId]
 
-  const featuresQuery = useQuery({
-    queryKey: featuresQueryKey,
-    queryFn: () =>
-      EditionFeaturesService.getFeatures({
-        scope: 'dataset',
-        dataset: datasetId,
-        expand: ['revisions'],
-      }),
-    refetchOnWindowFocus: false,
-  })
+  const featuresQuery = useDatasetFeaturesQuery(datasetId)
 
-  const executionsQuery = useQuery({
-    queryKey: executionsQueryKey,
-    queryFn: () =>
-      ExecutionsService.getFeatureExecutions({
-        scope: 'dataset',
-        dataset: datasetId,
-      }),
-    refetchInterval: 5 * 1000,
-    refetchOnWindowFocus: false,
+  const executionsQuery = useFeatureExecutionsQuery({
+    scope: 'dataset',
+    datasetId,
   })
 
   const annotationsQuery = useAnnotationsQuery(datasetId)

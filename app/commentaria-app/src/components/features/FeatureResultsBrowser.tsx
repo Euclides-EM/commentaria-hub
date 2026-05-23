@@ -1,17 +1,17 @@
 import { useMemo, useRef, useState } from 'react'
-import { useQuery } from '@tanstack/react-query'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import Select from 'react-select'
-import {
-  EditionFeaturesService,
-  type feature_Result,
-  FeatureResultsService,
-} from '@hub-api'
+import { type feature_Result } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import { useAuthStore } from '../../store/authStore'
-import { useDatasetsQuery, useDatasetFeaturesQuery } from '../../queries/datasets'
+import {
+  useDatasetsQuery,
+  useDatasetFeaturesQuery,
+} from '../../queries/datasets'
 import { useAnnotationsQuery } from '../../queries/annotations'
 import { useAllEditionsQuery } from '../../queries/editions'
+import { useGlobalFeaturesQuery } from '../../queries/features'
+import { useFeatureResultsQuery } from '../../queries/featureResults'
 import { SearchInput } from '../core/SearchInput'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { Button } from '../core/Button'
@@ -112,36 +112,16 @@ export function FeatureResultsBrowser() {
     datasetId,
     selectedScope === 'dataset' ? !!datasetId : false,
   )
-  const globalFeatureDefinitionsQuery = useQuery({
-    queryKey: ['features', 'editions', 'definitions', 'results-browser'],
-    queryFn: () =>
-      EditionFeaturesService.getFeatures({
-        scope: 'editions',
-        expand: ['revisions'],
-      }),
-    enabled: selectedScope === 'editions',
-    refetchOnWindowFocus: false,
-  })
+  const globalFeatureDefinitionsQuery = useGlobalFeaturesQuery(
+    ['revisions'],
+    selectedScope === 'editions',
+  )
 
-  const featureResultsQuery = useQuery({
-    queryKey: [
-      'featureResults',
-      'browser',
-      selectedScope,
-      datasetId,
-      annotationId,
-    ],
-    queryFn: () =>
-      FeatureResultsService.getFeaturesResults({
-        scope: selectedScope,
-        dataset: selectedScope === 'dataset' ? datasetId : undefined,
-        annotation: selectedScope === 'dataset' ? annotationId : undefined,
-        fallbackToOrigin: selectedScope === 'dataset' ? true : undefined,
-      }),
-    enabled:
-      selectedScope === 'editions' ||
-      (Boolean(datasetId) && Boolean(annotationId)),
-    refetchOnWindowFocus: false,
+  const featureResultsQuery = useFeatureResultsQuery({
+    scope: selectedScope,
+    datasetId,
+    annotationId,
+    enabled: true,
   })
   const editionsQuery = useAllEditionsQuery()
 
@@ -177,10 +157,13 @@ export function FeatureResultsBrowser() {
     [annotationsQuery.data],
   )
 
-  const featureDefinitions =
-    selectedScope === 'dataset'
-      ? featuresQuery.data ?? []
-      : globalFeatureDefinitionsQuery.data ?? []
+  const featureDefinitions = useMemo(
+    () =>
+      selectedScope === 'dataset'
+        ? (featuresQuery.data ?? [])
+        : (globalFeatureDefinitionsQuery.data ?? []),
+    [selectedScope, featuresQuery.data, globalFeatureDefinitionsQuery.data],
+  )
 
   const featureOptions = useMemo(
     () =>

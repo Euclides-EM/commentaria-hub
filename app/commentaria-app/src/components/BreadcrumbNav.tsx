@@ -116,7 +116,7 @@ export function BreadcrumbNav() {
       <Separator />
       <Button
         variant="primary"
-        className={`h-12 w-20 px-2 ${state.viewMode === 'models' && '!bg-teal-100 hover:!bg-white'}`}
+        className={`h-8 w-16 px-2 text-xs ${state.viewMode === 'models' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({
             viewMode: state.viewMode === 'models' ? null : 'models',
@@ -127,7 +127,7 @@ export function BreadcrumbNav() {
       </Button>
       <Button
         variant="primary"
-        className={`h-12 w-24 px-2 ${state.viewMode === 'annotations' && '!bg-teal-100 hover:!bg-white'}`}
+        className={`h-8 w-20 px-2 text-xs px-2 ${state.viewMode === 'annotations' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({
             viewMode: state.viewMode === 'annotations' ? null : 'annotations',
@@ -138,7 +138,7 @@ export function BreadcrumbNav() {
       </Button>
       <Button
         variant="primary"
-        className={`h-12 w-24 px-2 ${state.viewMode === 'features' && '!bg-teal-100 hover:!bg-white'}`}
+        className={`h-8 w-16 px-2 text-xs px-2 ${state.viewMode === 'features' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({
             viewMode: state.viewMode === 'features' ? null : 'features',
@@ -149,7 +149,7 @@ export function BreadcrumbNav() {
       </Button>
       <Button
         variant="primary"
-        className={`h-12 w-20 px-2 ${state.viewMode === 'jobs' && '!bg-teal-100 hover:!bg-white'}`}
+        className={`h-8 w-16 px-2 text-xs px-2 ${state.viewMode === 'jobs' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({
             viewMode: state.viewMode === 'jobs' ? null : 'jobs',

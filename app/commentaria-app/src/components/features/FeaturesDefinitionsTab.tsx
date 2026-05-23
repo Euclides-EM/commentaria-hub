@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { useMutation, useQueries, useQueryClient } from '@tanstack/react-query'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
 import {
   EditionFeaturesService,
   type feature_Feature,
@@ -11,6 +11,10 @@ import {
   useFeaturePropertiesQuery,
   useDatasetsQuery,
 } from '../../queries/datasets'
+import {
+  useGlobalFeaturesQuery,
+  useAllDatasetsFeaturesQueries,
+} from '../../queries/features'
 import { normalizeFeatureProperties } from '../../utils/featureProperties'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
@@ -33,9 +37,6 @@ const getScopeLabel = (row: FeatureRow) => {
   if (scopeType === 'editions') {
     return 'Editions'
   }
-  if (typeof scopeType === 'string' && scopeType.trim()) {
-    return scopeType
-  }
   return row.datasetId ? 'Dataset' : 'Editions'
 }
 
@@ -43,40 +44,20 @@ export function FeaturesDefinitionsTab() {
   const queryClient = useQueryClient()
   const { getUrlForState } = useAppState()
   const isAuthenticated = !!useAuthStore((store) => store.token)
-  const { data: datasets, isLoading: datasetsLoading, error: datasetsError } =
-    useDatasetsQuery()
   const {
-    data: availableProperties = [],
-    isLoading: isLoadingProperties,
-  } = useFeaturePropertiesQuery(true)
+    data: datasets,
+    isLoading: datasetsLoading,
+    error: datasetsError,
+  } = useDatasetsQuery()
+  const { data: availableProperties = [], isLoading: isLoadingProperties } =
+    useFeaturePropertiesQuery(true)
   const datasetIds = useMemo(
     () =>
       (datasets || []).flatMap((dataset) => (dataset.id ? [dataset.id] : [])),
     [datasets],
   )
-  const [globalFeaturesQuery, ...datasetFeatureQueries] = useQueries({
-    queries: [
-      {
-        queryKey: ['features', 'editions'] as const,
-        queryFn: () =>
-          EditionFeaturesService.getFeatures({
-            scope: 'editions',
-            expand: ['revisions'],
-          }),
-        refetchOnWindowFocus: false,
-      },
-      ...datasetIds.map((datasetId) => ({
-        queryKey: ['features', 'dataset', datasetId] as const,
-        queryFn: () =>
-          EditionFeaturesService.getFeatures({
-            scope: 'dataset',
-            dataset: datasetId,
-            expand: ['revisions'],
-          }),
-        refetchOnWindowFocus: false,
-      })),
-    ],
-  })
+  const globalFeaturesQuery = useGlobalFeaturesQuery()
+  const datasetFeatureQueries = useAllDatasetsFeaturesQueries(datasetIds)
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedDatasets, setSelectedDatasets] = useState<string[] | null>(
     null,
@@ -374,11 +355,14 @@ export function FeaturesDefinitionsTab() {
             <div className="text-sm text-gray-500">No features found.</div>
           )}
 
-          {!isLoading && !error && rows.length > 0 && filteredRows.length === 0 && (
-            <div className="text-sm text-gray-500">
-              No features match the current filters.
-            </div>
-          )}
+          {!isLoading &&
+            !error &&
+            rows.length > 0 &&
+            filteredRows.length === 0 && (
+              <div className="text-sm text-gray-500">
+                No features match the current filters.
+              </div>
+            )}
 
           {!isLoading &&
             !error &&
@@ -410,13 +394,17 @@ export function FeaturesDefinitionsTab() {
                     feature={row.feature}
                     edits={edits}
                     isEditing={!!isEditing}
-                    isExpanded={featureId ? !!expandedFeatures[featureId] : false}
+                    isExpanded={
+                      featureId ? !!expandedFeatures[featureId] : false
+                    }
                     isSaving={busyFeatureId === featureId}
                     isDirty={!!isDirty}
                     isAuthenticated={isAuthenticated}
                     availableProperties={availableProperties}
                     isLoadingProperties={isLoadingProperties}
-                    onSubmit={(event) => handleUpdateFeature(row.feature, event)}
+                    onSubmit={(event) =>
+                      handleUpdateFeature(row.feature, event)
+                    }
                     onEdit={() =>
                       featureId &&
                       setEditingFeatures((prev) => ({

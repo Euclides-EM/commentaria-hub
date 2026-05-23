@@ -4,10 +4,12 @@ import type {
   feature_Feature,
   model_Edition,
 } from '@hub-api'
+import Select from 'react-select'
 import { Button } from '../../core/Button.tsx'
 import { SearchInput } from '../../core/SearchInput.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
+import { selectStyles } from '../../../styles/selectStyles'
 
 interface CreateFeatureExecutionModalProps {
   isOpen: boolean
@@ -26,6 +28,11 @@ interface CreateFeatureExecutionModalProps {
   loadingEditions: boolean
   isSubmitting: boolean
   errorMessage: string | null
+  context?: {
+    scope: 'editions' | 'dataset'
+    datasetName?: string
+    annotationName?: string
+  }
 }
 
 const sortByNewestRevision = (feature: feature_Feature) => {
@@ -57,6 +64,7 @@ export function CreateFeatureExecutionModal({
   loadingEditions,
   isSubmitting,
   errorMessage,
+  context,
 }: CreateFeatureExecutionModalProps) {
   if (!isOpen) return null
 
@@ -72,9 +80,12 @@ export function CreateFeatureExecutionModal({
       loadingEditions={loadingEditions}
       isSubmitting={isSubmitting}
       errorMessage={errorMessage}
+      context={context}
     />
   )
 }
+
+type CorpusOption = { value: string; label: string }
 
 function OpenCreateFeatureExecutionModal({
   onClose,
@@ -87,6 +98,7 @@ function OpenCreateFeatureExecutionModal({
   loadingEditions,
   isSubmitting,
   errorMessage,
+  context,
 }: Omit<CreateFeatureExecutionModalProps, 'isOpen'>) {
   const [featureSearch, setFeatureSearch] = useState('')
   const [editionSearch, setEditionSearch] = useState('')
@@ -94,7 +106,24 @@ function OpenCreateFeatureExecutionModal({
     new Set(),
   )
   const [selectedKeys, setSelectedKeys] = useState<Set<string>>(new Set())
+  const [selectedCorpuses, setSelectedCorpuses] = useState<
+    readonly CorpusOption[]
+  >([])
   const [skipIf, setSkipIf] = useState<Set<feature_ExecutionSkipIf>>(new Set())
+
+  const corpusOptions = useMemo<CorpusOption[]>(() => {
+    const corpuses = new Set<string>()
+    for (const item of editionItems) {
+      if (item.corpus) {
+        for (const c of item.corpus) {
+          corpuses.add(c)
+        }
+      }
+    }
+    return Array.from(corpuses)
+      .sort((a, b) => a.localeCompare(b))
+      .map((c) => ({ value: c, label: c }))
+  }, [editionItems])
   const [pushToOrigin, setPushToOrigin] = useState(false)
   const [validationError, setValidationError] = useState<string | null>(null)
 
@@ -110,10 +139,19 @@ function OpenCreateFeatureExecutionModal({
 
   const filteredEditionItems = useMemo(() => {
     const queryParts = splitSearchQuery(editionSearch.trim())
-    if (queryParts.length === 0) {
-      return editionItems
-    }
+    const corpuses = selectedCorpuses.map((c) => c.value)
+
     return editionItems.filter((item) => {
+      if (corpuses.length > 0) {
+        if (!item.corpus || !item.corpus.some((c) => corpuses.includes(c))) {
+          return false
+        }
+      }
+
+      if (queryParts.length === 0) {
+        return true
+      }
+
       const haystack = [
         item.key,
         item.year,
@@ -127,7 +165,7 @@ function OpenCreateFeatureExecutionModal({
         .toLowerCase()
       return queryParts.every((queryPart) => haystack.includes(queryPart))
     })
-  }, [editionItems, editionSearch])
+  }, [editionItems, editionSearch, selectedCorpuses])
 
   const toggleFeatureSelection = (featureId: string) => {
     setSelectedFeatureIds((previous) => {
@@ -186,7 +224,20 @@ function OpenCreateFeatureExecutionModal({
         onSubmit={handleSubmit}
       >
         <div className="px-6 py-4 border-b border-gray-200 flex items-center justify-between gap-2">
-          <h2 className="text-lg font-semibold">Execute Features</h2>
+          <div className="flex flex-col">
+            <h2 className="text-lg font-semibold">Execute Features</h2>
+            {context && (
+              <div className="flex items-center gap-2 text-xs text-gray-500">
+                <span className="font-medium text-gray-700">
+                  {context.scope === 'dataset' ? 'Dataset' : 'All Editions'}
+                </span>
+                {context.datasetName && <span>{context.datasetName}</span>}
+                {context.annotationName && (
+                  <span>/ {context.annotationName}</span>
+                )}
+              </div>
+            )}
+          </div>
           <div className="text-xs text-gray-500">
             {selectedFeatureIds.size} features, {selectedKeys.size} editions
             selected
@@ -196,7 +247,12 @@ function OpenCreateFeatureExecutionModal({
         <div className="flex-1 overflow-auto p-6 space-y-5">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
             <section className="space-y-2">
-              <div className="text-sm font-medium text-gray-700">Features</div>
+              <div className="text-sm font-medium text-gray-700">
+                Features
+                <span className="ml-1 text-xs font-normal text-gray-500">
+                  ({filteredFeatures.length} of {features.length})
+                </span>
+              </div>
               <div className="flex items-center gap-2">
                 <SearchInput
                   value={featureSearch}
@@ -275,34 +331,53 @@ function OpenCreateFeatureExecutionModal({
             </section>
 
             <section className="space-y-2">
-              <div className="text-sm font-medium text-gray-700">Editions</div>
-              <div className="flex items-center gap-2">
-                <SearchInput
-                  value={editionSearch}
-                  onChange={setEditionSearch}
-                  placeholder="Search editions"
-                  className="w-full"
+              <div className="text-sm font-medium text-gray-700">
+                Editions
+                <span className="ml-1 text-xs font-normal text-gray-500">
+                  ({filteredEditionItems.length} of {editionItems.length})
+                </span>
+              </div>
+              <div className="flex flex-col gap-2">
+                <Select<CorpusOption, true>
+                  isMulti
+                  placeholder="Filter by corpus"
+                  options={corpusOptions}
+                  value={selectedCorpuses}
+                  onChange={(newValue) => setSelectedCorpuses(newValue || [])}
+                  styles={selectStyles<CorpusOption, true>({
+                    controlWidth: '100%',
+                    isMulti: true,
+                  })}
+                  className="text-xs"
                 />
-                <Button
-                  type="button"
-                  className="px-2 py-1 text-xs shrink-0"
-                  onClick={() =>
-                    setSelectedKeys(
-                      new Set(filteredEditionItems.map((item) => item.key!)),
-                    )
-                  }
-                  disabled={loadingEditions}
-                >
-                  Select all
-                </Button>
-                <Button
-                  type="button"
-                  className="px-2 py-1 text-xs shrink-0"
-                  onClick={() => setSelectedKeys(new Set())}
-                  disabled={loadingEditions}
-                >
-                  Clear
-                </Button>
+                <div className="flex items-center gap-2">
+                  <SearchInput
+                    value={editionSearch}
+                    onChange={setEditionSearch}
+                    placeholder="Search editions"
+                    className="w-full"
+                  />
+                  <Button
+                    type="button"
+                    className="px-2 py-1 text-xs shrink-0"
+                    onClick={() =>
+                      setSelectedKeys(
+                        new Set(filteredEditionItems.map((item) => item.key!)),
+                      )
+                    }
+                    disabled={loadingEditions}
+                  >
+                    Select all
+                  </Button>
+                  <Button
+                    type="button"
+                    className="px-2 py-1 text-xs shrink-0"
+                    onClick={() => setSelectedKeys(new Set())}
+                    disabled={loadingEditions}
+                  >
+                    Clear
+                  </Button>
+                </div>
               </div>
               <div className="border border-gray-200 rounded-md max-h-72 overflow-auto divide-y divide-gray-100">
                 {loadingEditions ? (

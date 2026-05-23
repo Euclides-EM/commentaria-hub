@@ -1,13 +1,7 @@
 import { useMemo, useState } from 'react'
-import {
-  useMutation,
-  useQueries,
-  useQuery,
-  useQueryClient,
-} from '@tanstack/react-query'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
 import {
   ExecutionsService,
-  EditionFeaturesService,
   type feature_Execution,
   type feature_ExecutionApplyItem,
   type feature_ExecutionSkipIf,
@@ -20,9 +14,12 @@ import { useAuthStore } from '../../store/authStore'
 import {
   useDatasetsQuery,
   useDatasetImageKeysQuery,
+  useDatasetFeaturesQuery,
 } from '../../queries/datasets'
 import { useAnnotationsQuery } from '../../queries/annotations'
 import { useAllEditionsQuery } from '../../queries/editions'
+import { useFeaturesForExecutionsQuery } from '../../queries/features'
+import { useFeatureExecutionsQuery } from '../../queries/executions'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { selectStyles } from '../../styles/selectStyles'
@@ -114,52 +111,17 @@ export function FeatureExecutionsBrowser() {
   )
   const launchAnnotationsQuery = useAnnotationsQuery(launchDatasetId)
 
-  const [globalFeaturesQuery, ...datasetFeatureQueries] = useQueries({
-    queries: [
-      {
-        queryKey: ['features', 'editions', 'executions-browser'] as const,
-        queryFn: () =>
-          EditionFeaturesService.getFeatures({
-            scope: 'editions',
-            expand: ['revisions'],
-          }),
-        refetchOnWindowFocus: false,
-      },
-      ...datasetIds.map((datasetIdValue) => ({
-        queryKey: ['features', 'dataset', datasetIdValue, 'executions-browser'] as const,
-        queryFn: () =>
-          EditionFeaturesService.getFeatures({
-            scope: 'dataset',
-            dataset: datasetIdValue,
-            expand: ['revisions'],
-          }),
-        refetchOnWindowFocus: false,
-      })),
-    ],
-  })
+  const [globalFeaturesQuery, ...datasetFeatureQueries] =
+    useFeaturesForExecutionsQuery(datasetIds)
 
-  const launchDatasetFeaturesQuery = useQuery({
-    queryKey: ['features', 'definitions', 'launch', launchDatasetId],
-    queryFn: () =>
-      EditionFeaturesService.getFeatures({
-        scope: 'dataset',
-        dataset: launchDatasetId,
-        expand: ['revisions'],
-      }),
-    enabled:
-      pendingExecutionTarget?.scope === 'dataset' && !!launchDatasetId,
-    refetchOnWindowFocus: false,
-  })
+  const launchDatasetFeaturesQuery = useDatasetFeaturesQuery(
+    launchDatasetId,
+    pendingExecutionTarget?.scope === 'dataset' && !!launchDatasetId,
+  )
 
-  const executionsQuery = useQuery({
-    queryKey: ['executions', 'browser', scopeFilter, datasetId],
-    queryFn: () =>
-      ExecutionsService.getFeatureExecutions({
-        scope: scopeFilter === 'all' ? undefined : scopeFilter,
-        dataset: datasetId || undefined,
-      }),
-    refetchInterval: 5 * 1000,
-    refetchOnWindowFocus: false,
+  const executionsQuery = useFeatureExecutionsQuery({
+    scope: scopeFilter,
+    datasetId: datasetId,
   })
 
   const editionsQuery = useAllEditionsQuery()
@@ -179,7 +141,8 @@ export function FeatureExecutionsBrowser() {
     [launchAnnotationId, launchAnnotationsQuery.data],
   )
   const launchAnnotationPageEntries = useMemo(
-    () => (launchAnnotation ? parsePageEntries(launchAnnotation.pages || '') : []),
+    () =>
+      launchAnnotation ? parsePageEntries(launchAnnotation.pages || '') : [],
     [launchAnnotation],
   )
   const launchShouldLoadAnnotationImageKeys =
@@ -199,7 +162,11 @@ export function FeatureExecutionsBrowser() {
       )
     }
     return (launchAnnotationImageKeysQuery.data ?? []).map((image) => image.key)
-  }, [launchAnnotation, launchAnnotationImageKeysQuery.data, launchAnnotationPageEntries])
+  }, [
+    launchAnnotation,
+    launchAnnotationImageKeysQuery.data,
+    launchAnnotationPageEntries,
+  ])
   const launchAnnotationEditionItems = useMemo(
     () =>
       launchAnnotationKeys.map((key) => {
@@ -268,8 +235,8 @@ export function FeatureExecutionsBrowser() {
 
   const executionModalFeatures =
     pendingExecutionTarget?.scope === 'dataset'
-      ? launchDatasetFeaturesQuery.data ?? []
-      : globalFeaturesQuery.data ?? []
+      ? (launchDatasetFeaturesQuery.data ?? [])
+      : (globalFeaturesQuery.data ?? [])
   const executionModalEditionItems =
     pendingExecutionTarget?.scope === 'dataset'
       ? launchAnnotationEditionItems
@@ -286,20 +253,20 @@ export function FeatureExecutionsBrowser() {
       : editionsQuery.isLoading
   const executionModalError =
     pendingExecutionTarget?.scope === 'dataset'
-      ? (launchDatasetFeaturesQuery.error instanceof Error
-          ? launchDatasetFeaturesQuery.error.message
-          : launchAnnotationsQuery.error instanceof Error
-            ? launchAnnotationsQuery.error.message
-            : launchAnnotationImageKeysQuery.error instanceof Error
-              ? launchAnnotationImageKeysQuery.error.message
-              : editionsQuery.error instanceof Error
-                ? editionsQuery.error.message
-                : null)
+      ? launchDatasetFeaturesQuery.error instanceof Error
+        ? launchDatasetFeaturesQuery.error.message
+        : launchAnnotationsQuery.error instanceof Error
+          ? launchAnnotationsQuery.error.message
+          : launchAnnotationImageKeysQuery.error instanceof Error
+            ? launchAnnotationImageKeysQuery.error.message
+            : editionsQuery.error instanceof Error
+              ? editionsQuery.error.message
+              : null
       : globalFeaturesQuery.error instanceof Error
         ? globalFeaturesQuery.error.message
         : editionsQuery.error instanceof Error
           ? editionsQuery.error.message
-        : null
+          : null
 
   const datasetNameById = useMemo(() => {
     const map = new Map<string, string>()
@@ -321,6 +288,16 @@ export function FeatureExecutionsBrowser() {
     return map
   }, [annotationsQuery.data])
 
+  const launchAnnotationNameById = useMemo(() => {
+    const map = new Map<string, string>()
+    for (const annotation of launchAnnotationsQuery.data ?? []) {
+      if (annotation.id) {
+        map.set(annotation.id, annotation.name || annotation.id)
+      }
+    }
+    return map
+  }, [launchAnnotationsQuery.data])
+
   const filteredExecutions = useMemo(() => {
     const executionList = executionsQuery.data ?? []
     return executionList.filter((execution) => {
@@ -338,7 +315,7 @@ export function FeatureExecutionsBrowser() {
       }
       return true
     })
-  }, [annotationId, executionStatusFilter, executionsQuery.data])
+  }, [annotationId, datasetId, executionStatusFilter, executionsQuery.data])
 
   const cancelExecutionMutation = useMutation({
     mutationFn: (executionId: string) =>
@@ -361,7 +338,8 @@ export function FeatureExecutionsBrowser() {
     if (datasetFeaturesError?.error instanceof Error) {
       return datasetFeaturesError.error.message
     }
-    if (executionsQuery.error instanceof Error) return executionsQuery.error.message
+    if (executionsQuery.error instanceof Error)
+      return executionsQuery.error.message
     if (editionsQuery.error instanceof Error) return editionsQuery.error.message
     if (
       datasetsQuery.error ||
@@ -433,8 +411,8 @@ export function FeatureExecutionsBrowser() {
     setIsCreatingExecution(true)
     const executionFeatures =
       pendingExecutionTarget.scope === 'dataset'
-        ? launchDatasetFeaturesQuery.data ?? []
-        : globalFeaturesQuery.data ?? []
+        ? (launchDatasetFeaturesQuery.data ?? [])
+        : (globalFeaturesQuery.data ?? [])
     const featureDefinitionById = new Map(
       executionFeatures
         .filter((feature): feature is feature_Feature & { id: string } =>
@@ -447,8 +425,12 @@ export function FeatureExecutionsBrowser() {
       const feature = featureDefinitionById.get(featureId)
       if (!feature) continue
       const revisions = [...(feature.revisions ?? [])].sort((left, right) => {
-        const leftTime = left.created_at ? new Date(left.created_at).getTime() : 0
-        const rightTime = right.created_at ? new Date(right.created_at).getTime() : 0
+        const leftTime = left.created_at
+          ? new Date(left.created_at).getTime()
+          : 0
+        const rightTime = right.created_at
+          ? new Date(right.created_at).getTime()
+          : 0
         return rightTime - leftTime
       })
       apply.push({
@@ -598,142 +580,156 @@ export function FeatureExecutionsBrowser() {
               : 'No executions match the selected filters.'}
           </div>
         ) : (
-          filteredExecutions.map((execution: feature_Execution, index: number) => {
-            const executionId = execution.id ?? ''
-            const executionCardKey =
-              executionId || execution.created_at || String(index)
-            const isCanceling = cancelingExecutionId === executionId
-            const canCancel =
-              execution.status === 'in_progress' ||
-              execution.status === 'canceling'
-            const executionKeys = Array.from(new Set(execution.keys ?? []))
-            const showExecutionEditions =
-              expandedExecutionEditions[executionCardKey] ?? false
-            const executionDatasetId = execution.scope?.dataset_id || ''
-            const executionAnnotationId = execution.scope?.annotation_id || ''
-            const executionDatasetName =
-              datasetNameById.get(executionDatasetId) || executionDatasetId
-            const executionAnnotationName =
-              annotationNameById.get(executionAnnotationId) || executionAnnotationId
+          filteredExecutions.map(
+            (execution: feature_Execution, index: number) => {
+              const executionId = execution.id ?? ''
+              const executionCardKey =
+                executionId || execution.created_at || String(index)
+              const isCanceling = cancelingExecutionId === executionId
+              const canCancel =
+                execution.status === 'in_progress' ||
+                execution.status === 'canceling'
+              const executionKeys = Array.from(new Set(execution.keys ?? []))
+              const showExecutionEditions =
+                expandedExecutionEditions[executionCardKey] ?? false
+              const executionDatasetId = execution.scope?.dataset_id || ''
+              const executionAnnotationId = execution.scope?.annotation_id || ''
+              const executionDatasetName =
+                datasetNameById.get(executionDatasetId) || executionDatasetId
+              const executionAnnotationName =
+                annotationNameById.get(executionAnnotationId) ||
+                executionAnnotationId
 
-            return (
-              <article
-                key={executionCardKey}
-                className="border border-gray-200 rounded-lg bg-white p-4 space-y-2"
-              >
-                <div className="flex items-center justify-between gap-3">
-                  <div className="text-sm font-semibold text-gray-900">
-                    {execution.name || executionId || 'Unnamed'}
+              return (
+                <article
+                  key={executionCardKey}
+                  className="border border-gray-200 rounded-lg bg-white p-4 space-y-2"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="text-sm font-semibold text-gray-900">
+                      {execution.name || executionId || 'Unnamed'}
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex items-center rounded-full border border-gray-300 bg-gray-50 px-2 py-0.5 text-xs text-gray-700">
+                        {execution.status
+                          ? EXECUTION_STATUS_LABELS[execution.status] ||
+                            execution.status
+                          : 'Unknown'}
+                      </span>
+                      {isAuthenticated && canCancel && (
+                        <Button
+                          variant="danger"
+                          type="button"
+                          className="px-2 py-1 text-xs"
+                          onClick={() =>
+                            executionId &&
+                            void handleCancelExecution(executionId)
+                          }
+                          disabled={isCanceling}
+                        >
+                          {isCanceling ? 'Canceling...' : 'Cancel'}
+                        </Button>
+                      )}
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <span className="inline-flex items-center rounded-full border border-gray-300 bg-gray-50 px-2 py-0.5 text-xs text-gray-700">
-                      {execution.status
-                        ? EXECUTION_STATUS_LABELS[execution.status] ||
-                          execution.status
-                        : 'Unknown'}
+
+                  <div className="flex items-center gap-2 text-xs text-gray-500 flex-wrap">
+                    <span className="rounded-full bg-gray-100 px-2 py-0.5 text-gray-700">
+                      {execution.scope?.type === 'dataset'
+                        ? 'Dataset'
+                        : 'Editions'}
                     </span>
-                    {isAuthenticated && canCancel && (
-                      <Button
-                        variant="danger"
+                    {executionDatasetName && (
+                      <span>{executionDatasetName}</span>
+                    )}
+                    {executionAnnotationName && (
+                      <span>{executionAnnotationName}</span>
+                    )}
+                  </div>
+
+                  {execution.description && (
+                    <div className="text-sm text-gray-700">
+                      {execution.description}
+                    </div>
+                  )}
+
+                  <div className="text-xs text-gray-500">
+                    Created: {formatDate(execution.created_at)}
+                  </div>
+
+                  {executionKeys.length > 0 && (
+                    <div className="space-y-2">
+                      <button
                         type="button"
-                        className="px-2 py-1 text-xs"
                         onClick={() =>
-                          executionId &&
-                          void handleCancelExecution(executionId)
+                          toggleExecutionEditions(executionCardKey)
                         }
-                        disabled={isCanceling}
+                        className="text-xs text-gray-700 hover:text-gray-900"
                       >
-                        {isCanceling ? 'Canceling...' : 'Cancel'}
-                      </Button>
-                    )}
-                  </div>
-                </div>
+                        {showExecutionEditions ? '▾' : '▸'} Including{' '}
+                        {executionKeys.length}{' '}
+                        {executionKeys.length === 1 ? 'edition' : 'editions'}.
+                      </button>
+                      {showExecutionEditions && (
+                        <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
+                          {executionKeys.map((editionKey: string) => {
+                            const item = editionsByKey.get(editionKey)
+                            return (
+                              <div
+                                key={editionKey}
+                                className="px-3 py-2 text-xs text-gray-700"
+                              >
+                                {item ? (
+                                  formatEditionLabel(item)
+                                ) : (
+                                  <span>
+                                    {editionKey} - details unavailable
+                                  </span>
+                                )}
+                              </div>
+                            )
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  )}
 
-                <div className="flex items-center gap-2 text-xs text-gray-500 flex-wrap">
-                  <span className="rounded-full bg-gray-100 px-2 py-0.5 text-gray-700">
-                    {execution.scope?.type === 'dataset'
-                      ? 'Dataset'
-                      : 'Editions'}
-                  </span>
-                  {executionDatasetName && <span>{executionDatasetName}</span>}
-                  {executionAnnotationName && <span>{executionAnnotationName}</span>}
-                </div>
-
-                {execution.description && (
-                  <div className="text-sm text-gray-700">
-                    {execution.description}
-                  </div>
-                )}
-
-                <div className="text-xs text-gray-500">
-                  Created: {formatDate(execution.created_at)}
-                </div>
-
-                {executionKeys.length > 0 && (
-                  <div className="space-y-2">
-                    <button
-                      type="button"
-                      onClick={() => toggleExecutionEditions(executionCardKey)}
-                      className="text-xs text-gray-700 hover:text-gray-900"
-                    >
-                      {showExecutionEditions ? '▾' : '▸'} Including{' '}
-                      {executionKeys.length}{' '}
-                      {executionKeys.length === 1 ? 'edition' : 'editions'}.
-                    </button>
-                    {showExecutionEditions && (
-                      <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
-                        {executionKeys.map((editionKey: string) => {
-                          const item = editionsByKey.get(editionKey)
+                  {execution.apply && execution.apply.length > 0 && (
+                    <div className="text-xs text-gray-600 flex flex-wrap items-center gap-1.5">
+                      <span className="text-gray-500">Features:</span>
+                      {execution.apply.map(
+                        (
+                          applyItem: feature_ExecutionApplyItem,
+                          itemIndex: number,
+                        ) => {
+                          const featureId = applyItem.feature ?? ''
+                          const featureInfo = featureInfoById[featureId]
+                          const label =
+                            featureInfo?.name || featureId || 'Unknown feature'
                           return (
-                            <div
-                              key={editionKey}
-                              className="px-3 py-2 text-xs text-gray-700"
-                            >
-                              {item ? (
-                                formatEditionLabel(item)
-                              ) : (
-                                <span>{editionKey} - details unavailable</span>
-                              )}
-                            </div>
-                          )
-                        })}
-                      </div>
-                    )}
-                  </div>
-                )}
-
-                {execution.apply && execution.apply.length > 0 && (
-                  <div className="text-xs text-gray-600 flex flex-wrap items-center gap-1.5">
-                    <span className="text-gray-500">Features:</span>
-                    {execution.apply.map(
-                      (applyItem: feature_ExecutionApplyItem, itemIndex: number) => {
-                        const featureId = applyItem.feature ?? ''
-                        const featureInfo = featureInfoById[featureId]
-                        const label =
-                          featureInfo?.name || featureId || 'Unknown feature'
-                        return (
-                          <span
-                            key={`${featureId || 'unknown'}-${itemIndex}`}
-                            title={featureId}
-                            className="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-gray-50 px-2 py-0.5"
-                          >
                             <span
-                              className="inline-block w-2 h-2 rounded-full border border-gray-300"
-                              style={{
-                                backgroundColor:
-                                  featureInfo?.color || '#d1d5db',
-                              }}
-                            />
-                            <span>{label}</span>
-                          </span>
-                        )
-                      },
-                    )}
-                  </div>
-                )}
-              </article>
-            )
-          })
+                              key={`${featureId || 'unknown'}-${itemIndex}`}
+                              title={featureId}
+                              className="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-gray-50 px-2 py-0.5"
+                            >
+                              <span
+                                className="inline-block w-2 h-2 rounded-full border border-gray-300"
+                                style={{
+                                  backgroundColor:
+                                    featureInfo?.color || '#d1d5db',
+                                }}
+                              />
+                              <span>{label}</span>
+                            </span>
+                          )
+                        },
+                      )}
+                    </div>
+                  )}
+                </article>
+              )
+            },
+          )
         )}
       </div>
 
@@ -760,6 +756,23 @@ export function FeatureExecutionsBrowser() {
         loadingEditions={executionModalLoadingEditions}
         isSubmitting={isCreatingExecution}
         errorMessage={actionError || executionModalError}
+        context={
+          pendingExecutionTarget
+            ? {
+                scope: pendingExecutionTarget.scope,
+                datasetName:
+                  pendingExecutionTarget.scope === 'dataset'
+                    ? datasetNameById.get(pendingExecutionTarget.datasetId)
+                    : undefined,
+                annotationName:
+                  pendingExecutionTarget.scope === 'dataset'
+                    ? launchAnnotationNameById.get(
+                        pendingExecutionTarget.annotationId,
+                      )
+                    : undefined,
+              }
+            : undefined
+        }
       />
     </section>
   )

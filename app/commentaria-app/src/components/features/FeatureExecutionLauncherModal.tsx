@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import Select from 'react-select'
 import { useAnnotationsQuery } from '../../queries/annotations'
 import { ErrorMessage } from '../core/ErrorMessage'
@@ -58,38 +58,24 @@ export function FeatureExecutionLauncherModal({
     [annotationsQuery.data],
   )
 
-  useEffect(() => {
-    if (!isOpen) return
+  if (!isOpen) return null
+
+  const resetState = () => {
     setScope('editions')
     setSelectedDataset(null)
     setSelectedAnnotation(null)
     setValidationError(null)
-  }, [isOpen])
+  }
 
-  useEffect(() => {
-    if (scope !== 'dataset') {
-      setSelectedDataset(null)
-      setSelectedAnnotation(null)
-      setValidationError(null)
-    }
-  }, [scope])
-
-  useEffect(() => {
-    setSelectedAnnotation(null)
-    setValidationError(null)
-  }, [datasetId])
-
-  useEffect(() => {
-    if (selectedAnnotation) {
-      setValidationError(null)
-    }
-  }, [selectedAnnotation])
-
-  if (!isOpen) return null
+  const handleClose = () => {
+    resetState()
+    onClose()
+  }
 
   const handleContinue = () => {
     if (scope === 'editions') {
       onContinue({ scope: 'editions' })
+      resetState()
       return
     }
     if (!selectedDataset?.value) {
@@ -105,12 +91,13 @@ export function FeatureExecutionLauncherModal({
       datasetId: selectedDataset.value,
       annotationId: selectedAnnotation.value,
     })
+    resetState()
   }
 
   return (
     <div
       className="fixed inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center z-50 text-start"
-      onClick={onClose}
+      onClick={handleClose}
     >
       <div
         className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] flex flex-col m-4"
@@ -125,7 +112,15 @@ export function FeatureExecutionLauncherModal({
             <div className="text-sm font-medium text-gray-700">Scope</div>
             <select
               value={scope}
-              onChange={(event) => setScope(event.target.value as ScopeOption)}
+              onChange={(event) => {
+                const nextScope = event.target.value as ScopeOption
+                setScope(nextScope)
+                if (nextScope !== 'dataset') {
+                  setSelectedDataset(null)
+                  setSelectedAnnotation(null)
+                  setValidationError(null)
+                }
+              }}
               className="h-9 px-3 text-sm border border-gray-300 rounded-md bg-white"
             >
               <option value="editions">Editions</option>
@@ -139,7 +134,11 @@ export function FeatureExecutionLauncherModal({
                 <div className="text-sm font-medium text-gray-700">Dataset</div>
                 <Select
                   value={selectedDataset}
-                  onChange={(option) => setSelectedDataset(option)}
+                  onChange={(option) => {
+                    setSelectedDataset(option)
+                    setSelectedAnnotation(null)
+                    setValidationError(null)
+                  }}
                   options={datasetOptions}
                   placeholder="Select dataset..."
                   styles={selectStyles<EntityOption>({ controlWidth: 320 })}
@@ -156,10 +155,15 @@ export function FeatureExecutionLauncherModal({
                 </div>
                 <Select
                   value={selectedAnnotation}
-                  onChange={(option) => setSelectedAnnotation(option)}
+                  onChange={(option) => {
+                    setSelectedAnnotation(option)
+                    if (option) setValidationError(null)
+                  }}
                   options={annotationOptions}
                   placeholder={
-                    selectedDataset ? 'Select annotation...' : 'Select dataset first'
+                    selectedDataset
+                      ? 'Select annotation...'
+                      : 'Select dataset first'
                   }
                   styles={selectStyles<EntityOption>({ controlWidth: 320 })}
                   menuPortalTarget={document.body}
@@ -185,7 +189,7 @@ export function FeatureExecutionLauncherModal({
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-2">
           <Button
             type="button"
-            onClick={onClose}
+            onClick={handleClose}
             className="px-3 py-1.5 text-sm"
           >
             Cancel
