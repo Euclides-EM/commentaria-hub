@@ -167,10 +167,6 @@ func (s *FeatureResultSql) listDataset(datasetID, annotationID string, keys []st
 }
 
 func (s *FeatureResultSql) listEdition(keys []string, features []string) ([]*feature.Result, error) {
-	if len(keys) == 0 {
-		return nil, nil
-	}
-
 	query := `
 SELECT
   r.name, r.description, r.created_at, r.updated_at,
@@ -186,8 +182,10 @@ WHERE r.scope = ?
 `
 	args := []any{feature.ScopeTypeEditions}
 
-	query += " AND r.edition_id IN (" + strings.TrimSuffix(strings.Repeat("?, ", len(keys)), ", ") + ")\n"
-	args = append(args, lo.ToAnySlice(keys)...)
+	if len(keys) > 0 {
+		query += " AND r.edition_id IN (" + strings.TrimSuffix(strings.Repeat("?, ", len(keys)), ", ") + ")\n"
+		args = append(args, lo.ToAnySlice(keys)...)
+	}
 
 	if len(features) > 0 {
 		query += " AND r.feature_id IN (" + strings.TrimSuffix(strings.Repeat("?, ", len(features)), ", ") + ")\n"
