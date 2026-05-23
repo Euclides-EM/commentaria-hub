@@ -8,16 +8,15 @@ import (
 	"slices"
 	"strings"
 	"sync"
+	"sync/atomic"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
 	"github.com/samber/lo"
 )
 
@@ -125,14 +124,12 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 		return nil, err
 	}
 
-	// Run all apply functions in parallel and wait for them to finish
-	go func(executionID string, funcs []applyFunc) {
+	// Run all apply functions in parallel — results are written to the DB as each job completes
+	go func(executionID string, funcs []applyFunc, policy *feature.ExecutionPolicy) {
 		var wg sync.WaitGroup
-		resultBatches := make([][]*feature.Result, len(funcs))
-		errs := make([]error, len(funcs))
+		var hasError atomic.Bool
 		type executionJob struct {
-			index int
-			fn    applyFunc
+			fn applyFunc
 		}
 		jobs := make(chan executionJob)
 
@@ -142,51 +139,38 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 			go func() {
 				defer wg.Done()
 				for job := range jobs {
-					result, err := job.fn()
-					resultBatches[job.index] = result
-					errs[job.index] = err
+					results, err := job.fn()
+					if err != nil {
+						log.Printf("error in execution %s: %v", executionID, err)
+						hasError.Store(true)
+					}
+					if len(results) > 0 {
+						if err := fe.featureResultsSvc.CreateResults(results, lo.IfF(policy != nil, func() bool { return policy.PushToOrigin }).Else(false)); err != nil {
+							log.Printf("failed to create result for execution %s: %v", executionID, err)
+							hasError.Store(true)
+						}
+					}
 				}
 			}()
 		}
-		for i, fn := range funcs {
-			jobs <- executionJob{index: i, fn: fn}
+		for _, fn := range funcs {
+			jobs <- executionJob{fn: fn}
 		}
 		close(jobs)
 
 		wg.Wait()
 
-		hasError := false
-		for _, err := range errs {
-			if err != nil {
-				log.Printf("error in execution %s: %v\n", executionID, err)
-				hasError = true
-			}
-		}
-
 		newStatus := feature.ExecutionStatusSuccess
 		statusReason := ""
-		var results []*feature.Result
-		for _, batch := range resultBatches {
-			results = append(results, batch...)
-		}
-		if len(results) > 0 {
-			if err := fe.featureResultsSvc.CreateResults(results, lo.IfF(exec.Policy != nil, func() bool { return exec.Policy.PushToOrigin }).Else(false)); err != nil {
-				log.Printf("failed to create result for execution %s: %v\n", executionID, err)
-				newStatus = feature.ExecutionStatusFailed
-				statusReason = "failed to store execution results"
-			}
-		}
-		if hasError {
+		if hasError.Load() {
 			newStatus = feature.ExecutionStatusFailed
-			if statusReason == "" {
-				statusReason = "one or more actions failed, check logs"
-			}
+			statusReason = "one or more actions failed, check logs"
 		}
 		if err := fe.store.UpdateStatus(executionID, newStatus, statusReason); err != nil {
 			log.Printf("failed to update execution status for execution %s: %v\n", executionID, err)
 		}
 
-	}(exec.ID, applyFuncs)
+	}(exec.ID, applyFuncs, exec.Policy)
 
 	return exec, nil
 }
@@ -307,49 +291,6 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execut
 	return exec, nil
 }
 
-func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, actions *executionActions) applyFunc {
-	return func() ([]*feature.Result, error) {
-		textLanguages, err := fe.languageResolver.Resolve(exec.Scope.DatasetID, key)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get text language for key %s: %w", key, err)
-		}
-		textLanguage := strings.Join(textLanguages, " and ")
-		fullText, err := fe.annotationTEISvc.GetTxt(exec.Scope.DatasetID, exec.Scope.AnnotationID, key)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.Scope.AnnotationID, key, err)
-		}
-		fullText = strings.TrimSpace(fullText)
-		if fullText == "" {
-			return nil, fmt.Errorf("full text is empty for annotation %s and key %s", exec.Scope.AnnotationID, key)
-		}
-
-		ann, err := fe.annotationSvc.Get(exec.Scope.DatasetID, exec.Scope.AnnotationID)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get annotation for dataset %s and annotation %s: %w", exec.Scope.DatasetID, exec.Scope.AnnotationID, err)
-		}
-
-		results := make([]*feature.Result, 0)
-		var execErrs []error
-		if len(actions.categorizerRevisions) > 0 {
-			categorizerResults, err := fe.annotationCategorizeApplyFunc(ann, key, actions.categorizerRevisions, actions.categorizerFeatures, exec.ID, fullText)()
-			if err != nil {
-				execErrs = append(execErrs, err)
-			}
-			results = append(results, categorizerResults...)
-		}
-		if len(actions.promptRevisions) > 0 {
-			for _, group := range groupPromptRevisionsByAIConfig(actions.promptRevisions, actions.promptFeatures) {
-				promptResults, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, exec.ID, textLanguage, fullText)()
-				if err != nil {
-					execErrs = append(execErrs, err)
-				}
-				results = append(results, promptResults...)
-			}
-		}
-		return results, errors.Join(execErrs...)
-	}
-}
-
 type promptRevisionGroup struct {
 	revisions []*feature.Revision
 	features  []*feature.Feature
@@ -372,161 +313,71 @@ func groupPromptRevisionsByAIConfig(revisions []*feature.Revision, features []*f
 	return groups
 }
 
-func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) applyFunc {
-	return func() ([]*feature.Result, error) {
-		if strings.TrimSpace(fullText) == "" {
-			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
+func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (featureNameToIndex map[string]int, definitions []string, outputFormat string) {
+	featureNameToIndex = make(map[string]int)
+	for i := range frs {
+		featureName := fmt.Sprintf("%s-rev-%s", fes[i].ID, frs[i].ID[0:3])
+		featureNameToIndex[featureName] = i
+		definitions = append(definitions, fmt.Sprintf("- %s: %s", featureName, frs[i].Prompt))
+		if fes[i].IsList {
+			outputFormat += fmt.Sprintf(`  "%s": [...], // zero or more values`+"\n", featureName)
+		} else {
+			outputFormat += fmt.Sprintf(`  "%s": "...", // a single value or empty if not applicable`+"\n", featureName)
 		}
-		aiProvider := frs[0].AIProvider
-		aiModel := frs[0].AIModel
-		dsPromptDesc := "historical title pages of translations of Euclid's Elements"
-		dsPromptShortDesc := "title page"
-		var definitions []string
-		var outputFormat string
-		featureNameToIndex := make(map[string]int)
-		for i, _ := range frs {
-			featureName := fmt.Sprintf("%s-rev-%s", fes[i].ID, frs[i].ID[0:3])
-			featureNameToIndex[featureName] = i
-			definitions = append(definitions, fmt.Sprintf("- %s: %s", featureName, frs[i].Prompt))
-			if fes[i].IsList {
-				outputFormat += fmt.Sprintf(`  "%s": [...], // zero or more quotes`+"\n", featureName)
-			} else {
-				outputFormat += fmt.Sprintf(`  "%s": "...", // a single quote or empty if not applicable`+"\n", featureName)
-			}
-		}
-		outputFormat = strings.TrimSpace(outputFormat)
-		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from %s.
-
-You will be given:
-- The transcribed text of a %s in %s.
-
-Your task is to extract specific paratextual features from the transcription and return them as a JSON object.
-Each field should contain the exact quoted text(s) from the input, with no modifications, rephrasing, or interpretation. Include the original whitespaces, line breaks and punctuation as they appear in the transcription.
-Some text may apply to more than one field, so you may return the same text portions in multiple fields if applicable.
-
-Return only a valid JSON. Do not include any other output.
-
-Output format:
-{
-  %s
+	}
+	outputFormat = strings.TrimSpace(outputFormat)
+	return
 }
 
-Definitions: 
-%s
-
-Transcribed text:
-%s
-`, dsPromptDesc, dsPromptShortDesc, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
-
-		rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
-		if err != nil {
-			return nil, fmt.Errorf("failed to execute LLM prompt for dataset %s and key %s using %s/%s: %w", ann.DatasetID, key, aiProvider, aiModel, err)
-		}
-		rawFields, err := llm.ParseJSON[map[string]json.RawMessage](rawResponse)
-		if err != nil {
-			return nil, fmt.Errorf("failed to parse LLM response for dataset %s and key %s: %w", ann.DatasetID, key, err)
+func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string) ([]*feature.Result, error) {
+	var results []*feature.Result
+	for fn, rawValue := range rawFields {
+		idx, ok := featureNameToIndex[fn]
+		if !ok {
+			return nil, fmt.Errorf("llm response contained unknown field %q for %s\n%s", fn, contextDesc, rawValue)
 		}
 
-		var results []*feature.Result
-		for fn, rawValue := range rawFields {
-			idx, ok := featureNameToIndex[fn]
-			if !ok {
-				return nil, fmt.Errorf("llm response contained unknown field %q for dataset %s and key %s", fn, ann.DatasetID, key)
-			}
-
-			var quotes []string
-			if fes[idx].IsList {
-				if err := json.Unmarshal(rawValue, &quotes); err != nil {
-					return nil, fmt.Errorf("failed to parse list response for field %q in dataset %s and key %s: %w", fn, ann.DatasetID, key, err)
+		var values []string
+		if fes[idx].IsList {
+			if err := json.Unmarshal(rawValue, &values); err != nil {
+				var val string
+				if retryErr := json.Unmarshal(rawValue, &val); retryErr != nil {
+					return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w:\n%s", fn, contextDesc, err, rawValue)
 				}
-			} else {
-				var quote string
-				if err := json.Unmarshal(rawValue, &quote); err != nil {
-					return nil, fmt.Errorf("failed to parse scalar response for field %q in dataset %s and key %s: %w", fn, ann.DatasetID, key, err)
-				}
-				if quote != "" {
-					quotes = []string{quote}
+				if val != "" {
+					values = []string{val}
 				}
 			}
-
-			source := feature.ResultSource{
-				Resp:     "auto",
-				Id:       execID,
-				Revision: frs[idx].ID,
-				Name:     "llm",
+		} else {
+			var val string
+			if err := json.Unmarshal(rawValue, &val); err != nil {
+				return nil, fmt.Errorf("failed to parse scalar response for field %q in %s: %w\n%s", fn, contextDesc, err, rawValue)
 			}
-			res := &feature.Result{
-				Scope:     feature.NewDatasetExecScope(ann.DatasetID, ann.ID),
-				FeatureID: fes[idx].ID,
-				Key:       key,
-				Source:    source,
+			if val != "" {
+				values = []string{val}
 			}
-			var resultValues []feature.ResultValue
-			for _, quote := range quotes {
-				resultValues = append(resultValues, feature.ResultValue{
-					Surface: quote,
-				})
-			}
-			res.Values = resultValues
-			results = append(results, res)
 		}
-		return results, nil
+
+		source := feature.ResultSource{
+			Resp:     "auto",
+			Id:       execID,
+			Revision: frs[idx].ID,
+			Name:     "llm",
+		}
+		res := &feature.Result{
+			Scope:     scope,
+			FeatureID: fes[idx].ID,
+			Key:       key,
+			Source:    source,
+		}
+		var resultValues []feature.ResultValue
+		for _, v := range values {
+			resultValues = append(resultValues, feature.ResultValue{
+				Surface: v,
+			})
+		}
+		res.Values = resultValues
+		results = append(results, res)
 	}
-}
-
-func (fe *Execution) annotationCategorizeApplyFunc(ann *annotation.Annotation, key string, revisions []*feature.Revision, features []*feature.Feature, id string, text string) applyFunc {
-	return func() ([]*feature.Result, error) {
-		if strings.TrimSpace(text) == "" {
-			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
-		}
-		results := make([]*feature.Result, 0)
-		var execErrs []error
-		for i, rev := range revisions {
-			vals, err := fe.featurePropertySvc.CalcValsByPropertyKey(text, rev.Categorizer)
-			if err != nil {
-				execErrs = append(execErrs, fmt.Errorf("failed to calculate feature property for dataset %s and key %s: %w", ann.DatasetID, key, err))
-				continue
-			}
-			source := feature.ResultSource{
-				Resp:     "auto",
-				Id:       id,
-				Revision: rev.ID,
-				Name:     "categorizer",
-			}
-			res := &feature.Result{
-				Scope:     feature.NewDatasetExecScope(ann.DatasetID, ann.ID),
-				FeatureID: features[i].ID,
-				Key:       key,
-				Source:    source,
-				Values: lo.Map(vals, func(v normalize.MappedOriginal, _ int) feature.ResultValue {
-					return feature.ResultValue{
-						Surface: v.Original,
-						Properties: map[string]string{
-							"normalized": v.Mapped,
-						},
-					}
-				}),
-			}
-			results = append(results, res)
-		}
-		return results, errors.Join(execErrs...)
-	}
-}
-
-func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string) applyFunc {
-	return func() ([]*feature.Result, error) {
-		edition, err := fe.editionSvc.GetEditionByID(editionKey)
-		if err != nil {
-			return nil, fmt.Errorf("failed to read metadata for edition %s: %w", editionKey, err)
-		}
-
-		log.Printf(
-			"stubbed edition metadata execution %s for edition %s (%s) with actions: %v",
-			execID,
-			editionKey,
-			edition.ShortTitle,
-			actions,
-		)
-		return nil, nil
-	}
+	return results, nil
 }

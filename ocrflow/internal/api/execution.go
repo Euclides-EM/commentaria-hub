@@ -29,27 +29,33 @@ func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
 	statuses := r.URL.Query().Get("statuses")
 
 	var featureIds []string
-	fs, err := h.deps.FeatureSvc.ListFeatures(scope, nil)
-	if err != nil {
-		return nil, err
-	}
+	rawFeatureIds := lo.FilterMap(strings.Split(features, ","), func(s string, _ int) (string, bool) {
+		id := strings.TrimSpace(s)
+		return id, id != ""
+	})
 
-	if scope.DatasetID != "" && scope.Type == mfeatureplat.ScopeTypeDataset {
-		fs = lo.Filter(fs, func(f *mfeatureplat.Feature, _ int) bool {
-			return f.Scope.DatasetID == scope.DatasetID
-		})
-	}
+	if scope.Type == "" {
+		featureIds = rawFeatureIds
+	} else {
+		fs, err := h.deps.FeatureSvc.ListFeatures(scope, nil)
+		if err != nil {
+			return nil, err
+		}
 
-	if features != "" {
-		rawFeatureIds := lo.Map(strings.Split(features, ","), func(s string, _ int) string {
-			return strings.TrimSpace(s)
-		})
-		fs = lo.Filter(fs, func(f *mfeatureplat.Feature, _ int) bool {
-			return lo.Contains(rawFeatureIds, f.ID)
-		})
-	}
-	for _, f := range fs {
-		featureIds = append(featureIds, f.ID)
+		if scope.DatasetID != "" && scope.Type == mfeatureplat.ScopeTypeDataset {
+			fs = lo.Filter(fs, func(f *mfeatureplat.Feature, _ int) bool {
+				return f.Scope.DatasetID == scope.DatasetID
+			})
+		}
+
+		if len(rawFeatureIds) > 0 {
+			fs = lo.Filter(fs, func(f *mfeatureplat.Feature, _ int) bool {
+				return lo.Contains(rawFeatureIds, f.ID)
+			})
+		}
+		for _, f := range fs {
+			featureIds = append(featureIds, f.ID)
+		}
 	}
 
 	var featureExecutionsStatuses []mfeatureplat.ExecutionStatus

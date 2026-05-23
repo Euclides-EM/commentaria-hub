@@ -1,22 +1,17 @@
-import { useEffect, useMemo, useState } from "react";
-import { MAIN_CONTENT_ID } from "../components/layout/routes.ts";
-import { useSearchParams } from "react-router-dom";
+import {useEffect, useMemo, useState} from "react";
+import {MAIN_CONTENT_ID} from "../components/layout/routes.ts";
+import {useSearchParams} from "react-router-dom";
 import styled from "@emotion/styled";
-import {
-  Container,
-  LazyImage,
-  Row,
-  ScrollToTopButton,
-} from "../components/common";
-import { useAppliedFilter } from "../contexts/FilterAppliedContext";
-import { Item } from "../types";
-import { ItemInfo } from "../components/tps/modal/ItemInfo";
-import { NO_EDITOR, NO_CITY, NO_YEAR } from "../constants";
-import { joinArr } from "../utils/util.ts";
-import { fetchDiagrams, VolumeData } from "../api/diagramsApi.ts";
-import { LAND_COLOR, SEA_COLOR } from "../utils/colors.ts";
-import { useQuery } from "@tanstack/react-query";
-import { isNil } from "lodash";
+import {Container, LazyImage, Row, ScrollToTopButton,} from "../components/common";
+import {useAppliedFilter} from "../contexts/FilterAppliedContext";
+import {Item} from "../types";
+import {ItemInfo} from "../components/tps/modal/ItemInfo";
+import {NO_CITY, NO_EDITOR, NO_YEAR} from "../constants";
+import {joinArr} from "../utils/util.ts";
+import {fetchDiagrams, VolumeData} from "../api/diagramsApi.ts";
+import {LAND_COLOR, SEA_COLOR} from "../utils/colors.ts";
+import {useQuery} from "@tanstack/react-query";
+import {isNil} from "lodash";
 import { FacsimilesService, OpenAPI } from "@hub-api";
 
 const DiagramsContainer = styled.div`
@@ -261,6 +256,10 @@ const parseImageName = (imagePath: string): ImageInfo => {
 
 const toScanPageURL = (scanKey: string, pageNumber: number): string =>
   `${OpenAPI.BASE.replace(/\/$/, "")}/editions/${encodeURIComponent(scanKey)}/facsimile.pdf#page=${pageNumber}`;
+
+function getImagePath(imageName: string) {
+  return `${new URL(import.meta.env.VITE_BACKEND_URL).origin}${imageName}`;
+}
 
 export const Diagrams = () => {
   const [searchParams] = useSearchParams();
@@ -619,7 +618,7 @@ export const Diagrams = () => {
                     )}
                     {volumeImages.map((imageName) => {
                       const imageInfo = parseImageName(imageName);
-                      const imagePath = imageName;
+                      const imagePath = getImagePath(imageName);
 
                       return (
                         <DiagramCard
@@ -664,7 +663,7 @@ export const Diagrams = () => {
 
             {filteredImages.map((imageName) => {
               const imageInfo = parseImageName(imageName);
-              const imagePath = imageName;
+              const imagePath = getImagePath(imageName);
 
               return (
                 <DiagramCard

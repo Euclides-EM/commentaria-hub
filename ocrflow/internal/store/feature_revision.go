@@ -63,7 +63,9 @@ SELECT
   id, name, description, created_at, updated_at,
   dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
 FROM feature_revisions
-WHERE scope = ? AND dataset_id = ? AND feature_id = ?
+WHERE scope = ?
+  AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
+  AND feature_id = ?
 ORDER BY created_at DESC
 `
 	rows, err := s.db.Query(q, scope.Type, scope.DatasetID, featureID)
@@ -120,7 +122,10 @@ SELECT
   id, name, description, created_at, updated_at,
   dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
 FROM feature_revisions
-WHERE scope = ? AND dataset_id = ? AND feature_id = ? AND id = ?
+WHERE scope = ?
+  AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
+  AND feature_id = ?
+  AND id = ?
 LIMIT 1
 `
 	row := s.db.QueryRow(q, scope.Type, scope.DatasetID, featureID, revisionID)

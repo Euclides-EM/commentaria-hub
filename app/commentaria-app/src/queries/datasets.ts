@@ -2,8 +2,8 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import {
   DatasetImagesService,
   DatasetsService,
+  EditionFeaturesService,
   FeaturePropertiesService,
-  FeaturesService,
 } from '@hub-api'
 import { normalizeFeatureProperties } from '../utils/featureProperties.ts'
 
@@ -81,8 +81,9 @@ export function useDatasetFeaturesQuery(datasetId: string, enabled = true) {
   return useQuery({
     queryKey: ['features', 'definitions', datasetId] as const,
     queryFn: () =>
-      FeaturesService.getDatasetsFeatures({
-        dataSetId: datasetId,
+      EditionFeaturesService.getFeatures({
+        scope: 'dataset',
+        dataset: datasetId,
         expand: ['revisions'],
       }),
     enabled: !!datasetId && enabled,

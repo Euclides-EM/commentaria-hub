@@ -27,9 +27,13 @@ SELECT
   id, name, description, created_at, updated_at,
   dataset_id, scope, is_default, is_list, color, properties
 FROM features
-WHERE scope = ? AND dataset_id = ?
+WHERE scope = ?
+  AND (
+    (scope = 'editions' AND dataset_id IS NULL)
+    OR (scope = 'dataset' AND (? = '' OR dataset_id = ?))
+  )
 ORDER BY created_at DESC
-`, scope.Type, scope.DatasetID)
+`, scope.Type, scope.DatasetID, scope.DatasetID)
 	if err != nil {
 		return nil, fmt.Errorf("list features: %w", err)
 	}
@@ -74,7 +78,9 @@ SELECT
   id, name, description, created_at, updated_at,
   dataset_id, scope, is_default, is_list, color, properties
 FROM features
-WHERE scope = ? AND dataset_id = ? AND id = ?
+WHERE scope = ?
+  AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
+  AND id = ?
 LIMIT 1
 `, scope.Type, scope.DatasetID, id)
 	f, err := scanFeature(row.Scan)
@@ -146,7 +152,8 @@ func (s *FeatureSQL) Update(f *feature.Feature) error {
 		return fmt.Errorf("update feature: marshal properties: %w", err)
 	}
 
-	q := `
+	res, err := s.db.Exec(
+		`
 UPDATE features
 SET
   name = ?,
@@ -156,9 +163,9 @@ SET
   color = ?,
   properties = ?,
   updated_at = CURRENT_TIMESTAMP
-WHERE scope = ? AND id = ? AND dataset_id = ?`
-	res, err := s.db.Exec(
-		q,
+WHERE scope = ?
+  AND id = ?
+  AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)`,
 		f.Name,
 		f.Description,
 		f.IsDefault,
@@ -194,7 +201,11 @@ WHERE scope = ? AND id = ? AND dataset_id = ?`
 }
 
 func (s *FeatureSQL) DeleteFeature(scope feature.DefScope, id string) error {
-	res, err := s.db.Exec(`DELETE FROM features WHERE scope = ? AND dataset_id = ? AND id = ?`, scope.Type, scope.DatasetID, id)
+	res, err := s.db.Exec(`
+DELETE FROM features
+WHERE scope = ?
+  AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
+  AND id = ?`, scope.Type, scope.DatasetID, id)
 	if err != nil {
 		return fmt.Errorf("delete feature: %w", err)
 	}

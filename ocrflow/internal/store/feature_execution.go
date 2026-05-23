@@ -48,10 +48,10 @@ func (s *FeatureExecutionStore) List(scope feature.DefScope, featureIDs []string
 			continue
 		}
 
-		if exec.Scope.Type != scope.Type {
+		if scope.Type != "" && exec.Scope.Type != scope.Type {
 			continue
 		}
-		if exec.Scope.DatasetID != scope.DatasetID {
+		if scope.DatasetID != "" && exec.Scope.DatasetID != scope.DatasetID {
 			continue
 		}
 

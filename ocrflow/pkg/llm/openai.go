@@ -19,8 +19,8 @@ import (
 
 const (
 	unboundedOutputTokens = true
-	requestTimeout        = 5 * time.Minute
-	totalTimeout          = 3 * time.Minute
+	requestTimeout        = 15 * time.Minute
+	totalTimeout          = 15 * time.Minute
 )
 
 type OpenAIClient struct {

@@ -101,12 +101,6 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/tei/{pageNumOrKey}", httpwrapper.GetXML(h.GetAnnotationTEI).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/teis", httpwrapper.GetXML(h.GetAnnotationTEIs).Build())
 
-	api.HandleFunc("/datasets/{dataSetId}/features", httpwrapper.Get(h.ListDatasetFeatures).Create(h.CreateFeatures).Build())
-	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}", httpwrapper.Delete(h.DeleteDatasetFeature).Get(h.GetDatasetFeature).Update(h.UpdateDatasetFeature).Build())
-
-	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions", httpwrapper.Get(h.ListDatasetsFeatureRevisions).Create(h.CreateDatasetsFeatureRevision).Build())
-	api.HandleFunc("/datasets/{dataSetId}/features/{featureId}/revisions/{revisionId}", httpwrapper.Get(h.GetDatasetsFeatureRevision).Build())
-
 	api.HandleFunc("/annotation_groups", httpwrapper.Get(h.ListAnnotationGroups).Create(h.CreateAnnotationGroup).Build())
 	api.HandleFunc("/annotation_groups/{groupId}", httpwrapper.Get(h.GetAnnotationGroup).Update(h.UpdateAnnotationGroup).Delete(h.DeleteAnnotationGroup).Build())
 

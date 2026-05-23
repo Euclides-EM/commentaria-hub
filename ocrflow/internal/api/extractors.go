@@ -28,18 +28,6 @@ func extractDatasetID(r *http.Request) (string, error) {
 	return datasetID, nil
 }
 
-func extractDatasetFeatureID(r *http.Request) (string, string, error) {
-	dataSetId, err := extractDatasetID(r)
-	if err != nil {
-		return "", "", err
-	}
-	featureI, err := extractFeatureID(r)
-	if err != nil {
-		return "", "", err
-	}
-	return dataSetId, featureI, nil
-}
-
 func extractFeatureID(r *http.Request) (string, error) {
 	featureId := r.PathValue("featureId")
 	if featureId == "" {
@@ -54,18 +42,6 @@ func extractRevisionID(r *http.Request) (string, error) {
 		return "", fmt.Errorf("missing revision ID")
 	}
 	return revisionId, nil
-}
-
-func extractDatasetFeatureRevisionID(r *http.Request) (string, string, string, error) {
-	dataSetId, featureId, err := extractDatasetFeatureID(r)
-	if err != nil {
-		return "", "", "", err
-	}
-	revisionId, err := extractRevisionID(r)
-	if err != nil {
-		return "", "", "", err
-	}
-	return dataSetId, featureId, revisionId, nil
 }
 
 func extractFeatureRevisionID(r *http.Request) (string, string, error) {
@@ -115,7 +91,11 @@ func extractGroupId(request *http.Request) (string, error) {
 func extractDefScope(r *http.Request) (feature.DefScope, error) {
 	scopeType := feature.ScopeType(r.URL.Query().Get("scope"))
 	if scopeType == "" {
-		return feature.DefScope{}, fmt.Errorf("missing scope type")
+		datasetID := r.URL.Query().Get("dataset")
+		if datasetID != "" {
+			return feature.NewDatasetDefScope(datasetID), nil
+		}
+		return feature.DefScope{}, nil
 	}
 	if scopeType == feature.ScopeTypeEditions {
 		return feature.NewEditionDefScope(), nil

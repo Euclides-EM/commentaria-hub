@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
 import {
   ExecutionsService,
   type feature_Execution,
@@ -7,7 +7,6 @@ import {
   type feature_ExecutionSkipIf,
   type feature_ExecutionStatus,
   type feature_Feature,
-  FeaturesService,
   type model_Edition,
 } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
@@ -17,6 +16,14 @@ import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
 import { useAllEditionsQuery } from '../../../queries/editions.ts'
+import { useAnnotationsQuery } from '../../../queries/annotations.ts'
+import {
+  useDatasetImageKeysQuery,
+  useDatasetFeaturesQuery,
+} from '../../../queries/datasets.ts'
+import { useFeatureExecutionsQuery } from '../../../queries/executions.ts'
+import { parsePageEntries } from '../../../utils/pages.ts'
+import { hasAnnotationPages } from '../../../utils/editions.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
@@ -63,29 +70,44 @@ export function FeatureExecutionsTab() {
   >({})
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false)
 
-  const featuresQueryKey = ['features', 'revisions', datasetId]
   const executionsQueryKey = ['executions', 'dataset', datasetId]
 
-  const featuresQuery = useQuery({
-    queryKey: featuresQueryKey,
-    queryFn: () =>
-      FeaturesService.getDatasetsFeatures({
-        dataSetId: datasetId,
-        expand: ['revisions'],
-      }),
-    refetchOnWindowFocus: false,
+  const featuresQuery = useDatasetFeaturesQuery(datasetId)
+
+  const executionsQuery = useFeatureExecutionsQuery({
+    scope: 'dataset',
+    datasetId,
   })
 
-  const executionsQuery = useQuery({
-    queryKey: executionsQueryKey,
-    queryFn: () =>
-      ExecutionsService.getFeatureExecutions({
-        scope: 'dataset',
-        dataset: datasetId,
-      }),
-    refetchInterval: 5 * 1000,
-    refetchOnWindowFocus: false,
-  })
+  const annotationsQuery = useAnnotationsQuery(datasetId)
+  const annotation = useMemo(
+    () =>
+      (annotationsQuery.data ?? []).find((item) => item.id === annotationId) ??
+      null,
+    [annotationId, annotationsQuery.data],
+  )
+  const annotationPageEntries = useMemo(
+    () => (annotation ? parsePageEntries(annotation.pages || '') : []),
+    [annotation],
+  )
+  const shouldLoadAnnotationImageKeys =
+    !!annotation && !hasAnnotationPages(annotation)
+  const annotationImageKeysQuery = useDatasetImageKeysQuery(
+    datasetId,
+    shouldLoadAnnotationImageKeys,
+    annotationPageEntries.length > 0 ? annotationPageEntries : null,
+  )
+  const annotationKeys = useMemo(() => {
+    if (!annotation) {
+      return []
+    }
+    if (annotationPageEntries.length > 0) {
+      return [...new Set(annotationPageEntries)].sort((left, right) =>
+        left.localeCompare(right, undefined, { numeric: true }),
+      )
+    }
+    return (annotationImageKeysQuery.data ?? []).map((image) => image.key)
+  }, [annotation, annotationImageKeysQuery.data, annotationPageEntries])
 
   const editionsQuery = useAllEditionsQuery({
     titlePageStatus: ['No', 'Unknown'],
@@ -97,6 +119,15 @@ export function FeatureExecutionsTab() {
     }
     return map
   }, [editionsQuery.data])
+  const annotationEditionItems = useMemo(
+    () =>
+      annotationKeys.map((key) => {
+        const edition = editionsByKey.get(key)
+        if (edition) return edition
+        return { key } as model_Edition
+      }),
+    [annotationKeys, editionsByKey],
+  )
 
   const cancelExecutionMutation = useMutation({
     mutationFn: (executionId: string) =>
@@ -150,13 +181,25 @@ export function FeatureExecutionsTab() {
     if (featuresQuery.error instanceof Error) return featuresQuery.error.message
     if (executionsQuery.error instanceof Error)
       return executionsQuery.error.message
+    if (annotationsQuery.error instanceof Error)
+      return annotationsQuery.error.message
+    if (annotationImageKeysQuery.error instanceof Error)
+      return annotationImageKeysQuery.error.message
     if (editionsQuery.error instanceof Error) return editionsQuery.error.message
-    if (featuresQuery.error || executionsQuery.error || editionsQuery.error) {
+    if (
+      featuresQuery.error ||
+      executionsQuery.error ||
+      editionsQuery.error ||
+      annotationsQuery.error ||
+      annotationImageKeysQuery.error
+    ) {
       return 'Failed to load feature executions data.'
     }
     return null
   }, [
     actionError,
+    annotationImageKeysQuery.error,
+    annotationsQuery.error,
     editionsQuery.error,
     executionsQuery.error,
     featuresQuery.error,
@@ -447,11 +490,13 @@ export function FeatureExecutionsTab() {
         onClose={() => setIsCreateModalOpen(false)}
         onSubmit={handleCreateExecution}
         features={sortedFeatures}
-        editionItems={editionsQuery.data ?? []}
+        editionItems={annotationEditionItems}
         skipIfOptions={EXECUTION_SKIP_IF_OPTIONS}
         skipIfLabels={EXECUTION_SKIP_IF_LABELS}
         loadingFeatures={featuresQuery.isLoading}
-        loadingEditions={editionsQuery.isLoading}
+        loadingEditions={
+          annotationsQuery.isLoading || annotationImageKeysQuery.isLoading
+        }
         isSubmitting={creatingExecution}
         errorMessage={executionsError}
       />
