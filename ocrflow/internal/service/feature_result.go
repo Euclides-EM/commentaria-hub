@@ -9,19 +9,33 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
 )
 
 type Result struct {
 	store          *fpstore.FeatureResultSql
+	annotationStore *fpstore.AnnotationSQL
 	featureSvc     *Feature
 	featurePropSvc *FeatureProperty
 }
 
-func NewResult(store *fpstore.FeatureResultSql, featureSvc *Feature, featurePropSvc *FeatureProperty) *Result {
-	return &Result{store: store, featureSvc: featureSvc, featurePropSvc: featurePropSvc}
+func NewResult(store *fpstore.FeatureResultSql, annotationStore *fpstore.AnnotationSQL, featureSvc *Feature, featurePropSvc *FeatureProperty) *Result {
+	return &Result{store: store, annotationStore: annotationStore, featureSvc: featureSvc, featurePropSvc: featurePropSvc}
 }
 
 func (r *Result) ListResults(scope feature.ExecScope, keys []string, features []string, fallbackToOrigin bool) (res []*feature.Result, err error) {
+	if fallbackToOrigin && scope.Type == feature.ScopeTypeDataset && len(keys) == 0 {
+		ann, err := r.annotationStore.GetAnnotation(scope.DatasetID, scope.AnnotationID)
+		if err != nil {
+			return nil, err
+		}
+		if ann != nil && strings.TrimSpace(ann.Pages) != "" {
+			keys, err = pagesparser.Range(ann.Pages)
+			if err != nil {
+				return nil, fmt.Errorf("parse annotation pages: %w", err)
+			}
+		}
+	}
 	res, err = r.store.List(scope, keys, features, fallbackToOrigin)
 	if err != nil {
 		return nil, err

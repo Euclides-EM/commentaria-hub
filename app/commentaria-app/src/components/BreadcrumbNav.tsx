@@ -138,6 +138,17 @@ export function BreadcrumbNav() {
       </Button>
       <Button
         variant="primary"
+        className={`h-12 w-24 px-2 ${state.viewMode === 'features' && '!bg-teal-100 hover:!bg-white'}`}
+        onClick={() =>
+          setState({
+            viewMode: state.viewMode === 'features' ? null : 'features',
+          })
+        }
+      >
+        Features
+      </Button>
+      <Button
+        variant="primary"
         className={`h-12 w-20 px-2 ${state.viewMode === 'jobs' && '!bg-teal-100 hover:!bg-white'}`}
         onClick={() =>
           setState({

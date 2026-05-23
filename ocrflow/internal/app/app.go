@@ -121,7 +121,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	datasetImgSvc := service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc)
 	featureProperty := service.NewFeatureProperty()
 	featureSvc := service.NewFeature(featureStore, featureRevisionStore, featureProperty)
-	featureResultSvc := service.NewResult(featureResultStore, featureSvc, featureProperty)
+	featureResultSvc := service.NewResult(featureResultStore, annotationStore, featureSvc, featureProperty)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, featureResultSvc, fileSystemManager, annotationStore)
 	annotationGroupSvc := service.NewAnnotationGroupService(annotationSvc, annotationGroupStore)
 	editionTranscriptionSvc := service.NewEditionTranscription(editionPreferredTranscriptionStore, editionSvc, datasetSvc, annotationSvc)

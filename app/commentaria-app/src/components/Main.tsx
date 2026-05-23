@@ -9,6 +9,7 @@ import { useQuery } from '@tanstack/react-query'
 import { EditionFeaturesService } from '@hub-api'
 import { ModelsTable } from './models/ModelsTable.tsx'
 import { JobsTable } from './jobs/JobsTable.tsx'
+import { FeaturesTable } from './features/FeaturesTable.tsx'
 import { BackupsView } from './backups/BackupsView.tsx'
 import { LogsView } from './logging/LogsView.tsx'
 import { Button } from './core/Button.tsx'
@@ -53,6 +54,9 @@ export function Main() {
   }
   if (state.viewMode === 'annotations') {
     return <AnnotationsTable />
+  }
+  if (state.viewMode === 'features') {
+    return <FeaturesTable />
   }
   if (state.viewMode === 'jobs') {
     return <JobsTable />
