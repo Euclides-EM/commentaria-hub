@@ -11,13 +11,11 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
 	"github.com/samber/lo"
 )
 
@@ -307,109 +305,6 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execut
 	return exec, nil
 }
 
-type featureGroup struct {
-	revisions []*feature.Revision
-	features  []*feature.Feature
-}
-
-func partitionFeatures(features []*feature.Feature, revisions []*feature.Revision, pred func(*feature.Feature) bool) (match, rest featureGroup) {
-	for i, f := range features {
-		if pred(f) {
-			match.revisions = append(match.revisions, revisions[i])
-			match.features = append(match.features, f)
-		} else {
-			rest.revisions = append(rest.revisions, revisions[i])
-			rest.features = append(rest.features, f)
-		}
-	}
-	return
-}
-
-func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID, textLanguage, fullText string, catGroup, promptGroup featureGroup) ([]*feature.Result, error) {
-	var results []*feature.Result
-	var execErrs []error
-
-	if len(catGroup.revisions) > 0 && fullText != "" {
-		r, err := fe.annotationCategorizeApplyFunc(ann, key, catGroup.revisions, catGroup.features, execID, fullText)()
-		if err != nil {
-			execErrs = append(execErrs, err)
-		}
-		results = append(results, r...)
-	}
-
-	if len(promptGroup.revisions) > 0 && fullText != "" {
-		for _, group := range groupPromptRevisionsByAIConfig(promptGroup.revisions, promptGroup.features) {
-			r, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, execID, textLanguage, fullText)()
-			if err != nil {
-				execErrs = append(execErrs, err)
-			}
-			results = append(results, r...)
-		}
-	}
-
-	return results, errors.Join(execErrs...)
-}
-
-func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, actions *executionActions) applyFunc {
-	return func() ([]*feature.Result, error) {
-		textLanguages, err := fe.languageResolver.Resolve(exec.Scope.DatasetID, key)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get text language for key %s: %w", key, err)
-		}
-		textLanguage := strings.Join(textLanguages, " and ")
-
-		ann, err := fe.annotationSvc.Get(exec.Scope.DatasetID, exec.Scope.AnnotationID)
-		if err != nil {
-			return nil, fmt.Errorf("failed to get annotation for dataset %s and annotation %s: %w", exec.Scope.DatasetID, exec.Scope.AnnotationID, err)
-		}
-
-		isImprintFeat := func(f *feature.Feature) bool {
-			return strings.Contains(strings.ToLower(f.Name), "in imprint")
-		}
-
-		catImprint, catNonImprint := partitionFeatures(actions.categorizerFeatures, actions.categorizerRevisions, isImprintFeat)
-		promptImprint, promptNonImprint := partitionFeatures(actions.promptFeatures, actions.promptRevisions, isImprintFeat)
-
-		needImprint := len(catImprint.features)+len(promptImprint.features) > 0
-		needNonImprint := len(catNonImprint.features)+len(promptNonImprint.features) > 0
-
-		var imprintFullText string
-		if needImprint {
-			text, err := fe.annotationTEISvc.GetTxt(exec.Scope.DatasetID, exec.Scope.AnnotationID, key, lo.ToPtr(true))
-			if err != nil {
-				return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.Scope.AnnotationID, key, err)
-			}
-			imprintFullText = strings.TrimSpace(text)
-		}
-
-		var nonImprintFullText string
-		if needNonImprint {
-			text, err := fe.annotationTEISvc.GetTxt(exec.Scope.DatasetID, exec.Scope.AnnotationID, key, lo.ToPtr(false))
-			if err != nil {
-				return nil, fmt.Errorf("failed to get full text for annotation %s and key %s: %w", exec.Scope.AnnotationID, key, err)
-			}
-			nonImprintFullText = strings.TrimSpace(text)
-		}
-
-		var results []*feature.Result
-		var execErrs []error
-
-		r, err := fe.runAnnotationGroup(ann, key, exec.ID, textLanguage, imprintFullText, catImprint, promptImprint)
-		if err != nil {
-			execErrs = append(execErrs, err)
-		}
-		results = append(results, r...)
-
-		r, err = fe.runAnnotationGroup(ann, key, exec.ID, textLanguage, nonImprintFullText, catNonImprint, promptNonImprint)
-		if err != nil {
-			execErrs = append(execErrs, err)
-		}
-		results = append(results, r...)
-
-		return results, errors.Join(execErrs...)
-	}
-}
-
 type promptRevisionGroup struct {
 	revisions []*feature.Revision
 	features  []*feature.Feature
@@ -432,161 +327,71 @@ func groupPromptRevisionsByAIConfig(revisions []*feature.Revision, features []*f
 	return groups
 }
 
-func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) applyFunc {
-	return func() ([]*feature.Result, error) {
-		if strings.TrimSpace(fullText) == "" {
-			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
+func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (featureNameToIndex map[string]int, definitions []string, outputFormat string) {
+	featureNameToIndex = make(map[string]int)
+	for i := range frs {
+		featureName := fmt.Sprintf("%s-rev-%s", fes[i].ID, frs[i].ID[0:3])
+		featureNameToIndex[featureName] = i
+		definitions = append(definitions, fmt.Sprintf("- %s: %s", featureName, frs[i].Prompt))
+		if fes[i].IsList {
+			outputFormat += fmt.Sprintf(`  "%s": [...], // zero or more values`+"\n", featureName)
+		} else {
+			outputFormat += fmt.Sprintf(`  "%s": "...", // a single value or empty if not applicable`+"\n", featureName)
 		}
-		aiProvider := frs[0].AIProvider
-		aiModel := frs[0].AIModel
-		dsPromptDesc := "historical title pages of translations of Euclid's Elements"
-		dsPromptShortDesc := "title page"
-		var definitions []string
-		var outputFormat string
-		featureNameToIndex := make(map[string]int)
-		for i, _ := range frs {
-			featureName := fmt.Sprintf("%s-rev-%s", fes[i].ID, frs[i].ID[0:3])
-			featureNameToIndex[featureName] = i
-			definitions = append(definitions, fmt.Sprintf("- %s: %s", featureName, frs[i].Prompt))
-			if fes[i].IsList {
-				outputFormat += fmt.Sprintf(`  "%s": [...], // zero or more quotes`+"\n", featureName)
-			} else {
-				outputFormat += fmt.Sprintf(`  "%s": "...", // a single quote or empty if not applicable`+"\n", featureName)
-			}
-		}
-		outputFormat = strings.TrimSpace(outputFormat)
-		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from %s.
-
-You will be given:
-- The transcribed text of a %s in %s.
-
-Your task is to extract specific paratextual features from the transcription and return them as a JSON object.
-Each field should contain the exact quoted text(s) from the input, with no modifications, rephrasing, or interpretation. Include the original whitespaces, line breaks and punctuation as they appear in the transcription.
-Some text may apply to more than one field, so you may return the same text portions in multiple fields if applicable.
-
-Return only a valid JSON. Do not include any other output.
-
-Output format:
-{
-  %s
+	}
+	outputFormat = strings.TrimSpace(outputFormat)
+	return
 }
 
-Definitions: 
-%s
-
-Transcribed text:
-%s
-`, dsPromptDesc, dsPromptShortDesc, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
-
-		rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
-		if err != nil {
-			return nil, fmt.Errorf("failed to execute LLM prompt for dataset %s and key %s using %s/%s: %w", ann.DatasetID, key, aiProvider, aiModel, err)
-		}
-		rawFields, err := llm.ParseJSON[map[string]json.RawMessage](rawResponse)
-		if err != nil {
-			return nil, fmt.Errorf("failed to parse LLM response for dataset %s and key %s: %w", ann.DatasetID, key, err)
+func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string) ([]*feature.Result, error) {
+	var results []*feature.Result
+	for fn, rawValue := range rawFields {
+		idx, ok := featureNameToIndex[fn]
+		if !ok {
+			return nil, fmt.Errorf("llm response contained unknown field %q for %s\n%s", fn, contextDesc, rawValue)
 		}
 
-		var results []*feature.Result
-		for fn, rawValue := range rawFields {
-			idx, ok := featureNameToIndex[fn]
-			if !ok {
-				return nil, fmt.Errorf("llm response contained unknown field %q for dataset %s and key %s", fn, ann.DatasetID, key)
-			}
-
-			var quotes []string
-			if fes[idx].IsList {
-				if err := json.Unmarshal(rawValue, &quotes); err != nil {
-					return nil, fmt.Errorf("failed to parse list response for field %q in dataset %s and key %s: %w", fn, ann.DatasetID, key, err)
+		var values []string
+		if fes[idx].IsList {
+			if err := json.Unmarshal(rawValue, &values); err != nil {
+				var val string
+				if retryErr := json.Unmarshal(rawValue, &val); retryErr != nil {
+					return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w:\n%s", fn, contextDesc, err, rawValue)
 				}
-			} else {
-				var quote string
-				if err := json.Unmarshal(rawValue, &quote); err != nil {
-					return nil, fmt.Errorf("failed to parse scalar response for field %q in dataset %s and key %s: %w", fn, ann.DatasetID, key, err)
-				}
-				if quote != "" {
-					quotes = []string{quote}
+				if val != "" {
+					values = []string{val}
 				}
 			}
-
-			source := feature.ResultSource{
-				Resp:     "auto",
-				Id:       execID,
-				Revision: frs[idx].ID,
-				Name:     "llm",
+		} else {
+			var val string
+			if err := json.Unmarshal(rawValue, &val); err != nil {
+				return nil, fmt.Errorf("failed to parse scalar response for field %q in %s: %w\n%s", fn, contextDesc, err, rawValue)
 			}
-			res := &feature.Result{
-				Scope:     feature.NewDatasetExecScope(ann.DatasetID, ann.ID),
-				FeatureID: fes[idx].ID,
-				Key:       key,
-				Source:    source,
+			if val != "" {
+				values = []string{val}
 			}
-			var resultValues []feature.ResultValue
-			for _, quote := range quotes {
-				resultValues = append(resultValues, feature.ResultValue{
-					Surface: quote,
-				})
-			}
-			res.Values = resultValues
-			results = append(results, res)
 		}
-		return results, nil
+
+		source := feature.ResultSource{
+			Resp:     "auto",
+			Id:       execID,
+			Revision: frs[idx].ID,
+			Name:     "llm",
+		}
+		res := &feature.Result{
+			Scope:     scope,
+			FeatureID: fes[idx].ID,
+			Key:       key,
+			Source:    source,
+		}
+		var resultValues []feature.ResultValue
+		for _, v := range values {
+			resultValues = append(resultValues, feature.ResultValue{
+				Surface: v,
+			})
+		}
+		res.Values = resultValues
+		results = append(results, res)
 	}
-}
-
-func (fe *Execution) annotationCategorizeApplyFunc(ann *annotation.Annotation, key string, revisions []*feature.Revision, features []*feature.Feature, id string, text string) applyFunc {
-	return func() ([]*feature.Result, error) {
-		if strings.TrimSpace(text) == "" {
-			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
-		}
-		results := make([]*feature.Result, 0)
-		var execErrs []error
-		for i, rev := range revisions {
-			vals, err := fe.featurePropertySvc.CalcValsByPropertyKey(text, rev.Categorizer)
-			if err != nil {
-				execErrs = append(execErrs, fmt.Errorf("failed to calculate feature property for dataset %s and key %s: %w", ann.DatasetID, key, err))
-				continue
-			}
-			source := feature.ResultSource{
-				Resp:     "auto",
-				Id:       id,
-				Revision: rev.ID,
-				Name:     "categorizer",
-			}
-			res := &feature.Result{
-				Scope:     feature.NewDatasetExecScope(ann.DatasetID, ann.ID),
-				FeatureID: features[i].ID,
-				Key:       key,
-				Source:    source,
-				Values: lo.Map(vals, func(v normalize.MappedOriginal, _ int) feature.ResultValue {
-					return feature.ResultValue{
-						Surface: v.Original,
-						Properties: map[string]string{
-							"normalized": v.Mapped,
-						},
-					}
-				}),
-			}
-			results = append(results, res)
-		}
-		return results, errors.Join(execErrs...)
-	}
-}
-
-func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string) applyFunc {
-	return func() ([]*feature.Result, error) {
-		edition, err := fe.editionSvc.GetEditionByID(editionKey)
-		if err != nil {
-			return nil, fmt.Errorf("failed to read metadata for edition %s: %w", editionKey, err)
-		}
-
-		log.Printf(
-			"stubbed edition metadata execution %s for edition %s (%s) with actions: %v",
-			execID,
-			editionKey,
-			edition.ShortTitle,
-			actions,
-		)
-		return nil, nil
-	}
+	return results, nil
 }

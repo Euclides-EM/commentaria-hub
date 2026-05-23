@@ -27,7 +27,7 @@ export class EditionFeaturesService {
          */
         expand?: Array<string>,
         /**
-         * Filter by dataset ID, relevant only for the dataset scope
+         * Filter by dataset ID, relevant only for the dataset scope; if omitted, returns features from all datasets
          */
         dataset?: string,
     }): CancelablePromise<Array<feature_Feature>> {

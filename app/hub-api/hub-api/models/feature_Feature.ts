@@ -8,6 +8,7 @@ export type feature_Feature = {
     color?: string;
     readonly created_at?: string;
     description?: string;
+    feature_name?: string;
     readonly id?: string;
     is_default?: boolean;
     is_list?: boolean;
