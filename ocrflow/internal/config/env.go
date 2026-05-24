@@ -74,10 +74,6 @@ func (ec *EnvConfig) DiagramsDir() string {
 	return filepath.Join(ec.StoreDir, "diagrams")
 }
 
-func (ec *EnvConfig) TrainingDir() string {
-	return filepath.Join(ec.StoreDir, "training_data")
-}
-
 func (ec *EnvConfig) ModelsDir() string {
 	return filepath.Join(ec.StoreDir, "models")
 }

@@ -61,7 +61,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	log.Printf("finished app for backup/restore if needed")
 
-	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.TrainingDir(), env.ModelsDir(), env.DiagramsDir())
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir())
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
 	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow", env.OptionalMigrations())
 	if err != nil {
@@ -152,7 +152,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		modelSvc,
 		fileSystemManager,
 	)
-	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir())
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
 	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc)
 	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
@@ -200,7 +199,6 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		AnnotationRuleExecution: annotationRuleExecutionSvc,
 		AnnotationGroupSvc:      annotationGroupSvc,
 		ModelSvc:                modelSvc,
-		TrainSvc:                trainSvc,
 		MetadataDetailsSvc:      metadataDetailsSvc,
 		MetaStoreManager:        metaStoreManager,
 		AnnotationsUploader:     annotationUploader,
