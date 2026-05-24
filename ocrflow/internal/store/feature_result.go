@@ -312,7 +312,7 @@ func (s *FeatureResultSql) listEditionByQuery(query string, args []any) ([]*feat
 			order = append(order, k)
 		}
 
-		if surfaceNS.Valid {
+		if surfaceNS.Valid && strings.TrimSpace(surfaceNS.String) != "" {
 			r.Values = append(r.Values, feature.ResultValue{
 				Surface: surfaceNS.String,
 			})
@@ -325,6 +325,9 @@ func (s *FeatureResultSql) listEditionByQuery(query string, args []any) ([]*feat
 
 	out := make([]*feature.Result, 0, len(order))
 	for _, k := range order {
+		if len(byKey[k].Values) == 0 {
+			continue
+		}
 		out = append(out, byKey[k])
 	}
 	return out, nil
@@ -384,7 +387,7 @@ func (s *FeatureResultSql) listDatasetsByQuery(query string, args []any) ([]*fea
 			order = append(order, k)
 		}
 
-		if surfaceNS.Valid {
+		if surfaceNS.Valid && strings.TrimSpace(surfaceNS.String) != "" {
 			r.Values = append(r.Values, feature.ResultValue{
 				Surface: surfaceNS.String,
 			})
@@ -397,6 +400,9 @@ func (s *FeatureResultSql) listDatasetsByQuery(query string, args []any) ([]*fea
 
 	out := make([]*feature.Result, 0, len(order))
 	for _, k := range order {
+		if len(byKey[k].Values) == 0 {
+			continue
+		}
 		out = append(out, byKey[k])
 	}
 	return out, nil
