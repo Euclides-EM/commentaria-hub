@@ -93,3 +93,9 @@ var AllAnnotationRuleTypes = []Type{
 	TypeTextBlocksCorrections,
 	TypeDetectText,
 }
+
+var PreferAsyncTypes = []Type{
+	TypeModelDetect,
+	TypeLinesDetect,
+	TypeDetectText,
+}
