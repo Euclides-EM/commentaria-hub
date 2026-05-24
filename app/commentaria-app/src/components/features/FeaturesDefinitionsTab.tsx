@@ -29,6 +29,36 @@ type FeatureRow = {
   feature: feature_Feature
 }
 
+const areFeatureEditsEqual = (
+  left: Record<string, FeatureEditState>,
+  right: Record<string, FeatureEditState>,
+) => {
+  const leftKeys = Object.keys(left)
+  const rightKeys = Object.keys(right)
+
+  if (leftKeys.length !== rightKeys.length) {
+    return false
+  }
+
+  for (const key of leftKeys) {
+    const leftEdit = left[key]
+    const rightEdit = right[key]
+    if (!rightEdit) {
+      return false
+    }
+    if (
+      leftEdit.name !== rightEdit.name ||
+      leftEdit.description !== rightEdit.description ||
+      leftEdit.color !== rightEdit.color ||
+      leftEdit.properties.join('|') !== rightEdit.properties.join('|')
+    ) {
+      return false
+    }
+  }
+
+  return true
+}
+
 const getScopeLabel = (row: FeatureRow) => {
   const scopeType = row.feature.scope?.type
   if (scopeType === 'dataset') {
@@ -139,7 +169,7 @@ export function FeaturesDefinitionsTab() {
           properties: normalizeFeatureProperties(feature.properties ?? []),
         }
       }
-      return next
+      return areFeatureEditsEqual(previous, next) ? previous : next
     })
   }, [rows, editingFeatures])
 
