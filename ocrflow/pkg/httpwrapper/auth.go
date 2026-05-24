@@ -12,8 +12,9 @@ import (
 )
 
 var allowList = map[string]struct{}{
-	"reallyliri": {},
-	"miamish":    {},
+	"reallyliri":          {},
+	"miamish":             {},
+	"github-actions[bot]": {},
 }
 
 var cache *ttlcache.Cache[string, *GitHubUser]
