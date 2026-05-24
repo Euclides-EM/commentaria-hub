@@ -6,6 +6,7 @@ import (
 	"log"
 	"net"
 	"net/http"
+	"os"
 	"regexp"
 	"strconv"
 	"strings"
@@ -124,7 +125,7 @@ func isRetryableNetworkError(err error) bool {
 		return false
 	}
 
-	if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+	if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) || os.IsTimeout(err) {
 		return false
 	}
 
@@ -133,20 +134,14 @@ func isRetryableNetworkError(err error) bool {
 		return true
 	}
 
-	message := strings.ToLower(err.Error())
-	for _, fragment := range []string{
-		"connection reset by peer",
-		"broken pipe",
-		"unexpected eof",
-		"connection refused",
-		"no route to host",
-		"network is unreachable",
-		"tls handshake timeout",
-		"i/o timeout",
-	} {
-		if strings.Contains(message, fragment) {
-			return true
-		}
+	var dnsErr *net.DNSError
+	if errors.As(err, &dnsErr) {
+		return true
+	}
+
+	var opErr *net.OpError
+	if errors.As(err, &opErr) {
+		return true
 	}
 
 	return false
