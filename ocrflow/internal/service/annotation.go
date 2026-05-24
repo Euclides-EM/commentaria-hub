@@ -1,11 +1,13 @@
 package service
 
 import (
+	"errors"
 	"fmt"
 	"log"
 	"os"
 	"path"
 	"slices"
+	"sync"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -33,7 +35,10 @@ type Annotation struct {
 	featureResultsSvc *Result
 	fileSysMgt        *filesys.Manager
 	annotationStore   *store.AnnotationSQL
+	activeRuleRuns    sync.Map
 }
+
+var ErrAnnotationRuleRunInProgress = errors.New("annotation rule application already in progress")
 
 func NewAnnotationsService(datasetSvc *Dataset, datasetImgSvc *DatasetImg, ruleApplier *AnnotationRuleApplier, featureResultsSvc *Result, fileSysMgt *filesys.Manager, annotationStore *store.AnnotationSQL) *Annotation {
 	return &Annotation{
@@ -227,6 +232,12 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 		ann.GroundTruth = false
 	}
 
+	release, err := a.acquireRuleRun(ann.DatasetID, ann.ID)
+	if err != nil {
+		return nil, err
+	}
+	defer release()
+
 	// apply rules...
 	if err := a.ruleApplier.ApplyRules(a.fileSysMgt.DatasetImagesDir(ds), ann, aar.Rules); err != nil {
 		return nil, fmt.Errorf("failed to apply annotation rules: %w", err)
@@ -239,6 +250,16 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 	}
 
 	return ann, nil
+}
+
+func (a *Annotation) acquireRuleRun(datasetID string, id string) (func(), error) {
+	key := datasetID + "/" + id
+	if _, loaded := a.activeRuleRuns.LoadOrStore(key, struct{}{}); loaded {
+		return nil, ErrAnnotationRuleRunInProgress
+	}
+	return func() {
+		a.activeRuleRuns.Delete(key)
+	}, nil
 }
 
 func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, error) {

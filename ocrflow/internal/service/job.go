@@ -16,6 +16,7 @@ import (
 type Job struct {
 	jobsStore         *store.JobStore
 	annotationsUpload *AnnotationsUploader
+	annotations       *Annotation
 	facsimiles        *Facsimile
 	backups           *Backup
 }
@@ -51,6 +52,9 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 				return j.syncBackupToDrive(jb)
 			})
 		}
+		if jb.Task == job.AnnotationRuleApply && jb.Annotation != nil && jb.Rules != nil {
+			j.runAnnotationRuleApply(jb)
+		}
 		if jb.Task == job.Export && jb.Target != nil && jb.Annotation != nil {
 			switch jb.Target.Platform {
 			case job.PlatformRoboflow:
@@ -69,6 +73,19 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 		}
 	}
 	return ij, nil
+}
+
+func (j *Job) runAnnotationRuleApply(jb *job.Job) {
+	j.run(jb, "annotation rule apply", func() (any, error) {
+		ann, err := j.annotations.ApplyRules(jb.Annotation.DatasetID, jb.Annotation.ID, jb.Rules)
+		if err != nil {
+			return nil, err
+		}
+		return map[string]string{
+			"annotation_id": ann.ID,
+			"dataset_id":    ann.DatasetID,
+		}, nil
+	})
 }
 
 func (j *Job) createJob(jb *job.Job) {
@@ -179,10 +196,11 @@ func (j *Job) GetJob(id string) (*job.Job, error) {
 	return j.jobsStore.Get(id)
 }
 
-func NewJob(jobsStore *store.JobStore, annotationsUpload *AnnotationsUploader, facsimiles *Facsimile, backups *Backup) *Job {
+func NewJob(jobsStore *store.JobStore, annotationsUpload *AnnotationsUploader, annotations *Annotation, facsimiles *Facsimile, backups *Backup) *Job {
 	return &Job{
 		jobsStore:         jobsStore,
 		annotationsUpload: annotationsUpload,
+		annotations:       annotations,
 		facsimiles:        facsimiles,
 		backups:           backups,
 	}

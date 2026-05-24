@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 )
 
@@ -24,6 +25,7 @@ const (
 	FacsimileDriveImport Task = "FacsimileDriveImport"
 	BackupCreate         Task = "BackupCreate"
 	BackupSyncToDrive    Task = "BackupSyncToDrive"
+	AnnotationRuleApply  Task = "AnnotationRuleApply"
 )
 
 type Status string
@@ -37,12 +39,13 @@ const (
 
 type Job struct {
 	common.Meta `json:",inline"`
-	Task        Task                  `json:"task"`
-	Target      *Target               `json:"target"`
-	Annotation  *annotation.Reference `json:"annotation,omitempty"`
-	Status      Status                `json:"status" readonly:"true"`
-	FinishedAt  *time.Time            `json:"finished_at,omitempty" readonly:"true"`
-	Details     string                `json:"details,omitempty"  readonly:"true"`
+	Task        Task                       `json:"task"`
+	Target      *Target                    `json:"target"`
+	Annotation  *annotation.Reference      `json:"annotation,omitempty"`
+	Rules       *annotationrule.ApplyRules `json:"rules,omitempty"`
+	Status      Status                     `json:"status" readonly:"true"`
+	FinishedAt  *time.Time                 `json:"finished_at,omitempty" readonly:"true"`
+	Details     string                     `json:"details,omitempty"  readonly:"true"`
 }
 
 type Jobs struct {

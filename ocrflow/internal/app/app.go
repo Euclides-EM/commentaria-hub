@@ -154,6 +154,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	)
 	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir())
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
+	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc)
+	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
 
 	log.Printf("warming geo cache...")
 	if err := geoStore.WarmCache(); err != nil {
@@ -195,6 +197,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DatasetSvc:              datasetSvc,
 		DatasetImgSvc:           datasetImgSvc,
 		AnnotationSvc:           annotationSvc,
+		AnnotationRuleExecution: annotationRuleExecutionSvc,
 		AnnotationGroupSvc:      annotationGroupSvc,
 		ModelSvc:                modelSvc,
 		TrainSvc:                trainSvc,
@@ -212,7 +215,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeaturePropertySvc:      service.NewFeatureProperty(),
 		DiagramCropsSvc:         diagramCropsSvc,
 		USTC:                    service.NewUSTC(),
-		JobSvc:                  service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, facsimileSvc, bckSvc),
+		JobSvc:                  jobSvc,
 		VCSMgt:                  vcsMgtSvc,
 		BackupSvc:               bckSvc,
 	}

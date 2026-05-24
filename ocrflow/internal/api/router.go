@@ -19,6 +19,7 @@ type Dependencies struct {
 	DatasetSvc              *service.Dataset
 	DatasetImgSvc           *service.DatasetImg
 	AnnotationSvc           *service.Annotation
+	AnnotationRuleExecution *service.AnnotationRuleExecution
 	AnnotationGroupSvc      *service.AnnotationGroup
 	ModelSvc                *service.Model
 	TrainSvc                *service.Train
