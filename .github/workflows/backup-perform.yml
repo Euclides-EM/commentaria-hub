@@ -2,7 +2,7 @@ name: backup-perform
 
 on:
   schedule:
-    - cron: '0 0 * * *' # every day at midnight UTC
+    - cron: "0 0 * * *" # every day at midnight UTC
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Trigger backup
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.PAT_LIRI }}
         run: |
           curl --fail --silent --show-error \
             "${API_BASE}/v1/backups?async=true&sync_to_drive=true" \
