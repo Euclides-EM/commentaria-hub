@@ -26,6 +26,7 @@ export type { annotationrule_ApplyRules } from './models/annotationrule_ApplyRul
 export type { annotationrule_ApplyRulesAction } from './models/annotationrule_ApplyRulesAction';
 export type { annotationrule_ContactSide } from './models/annotationrule_ContactSide';
 export type { annotationrule_ContactType } from './models/annotationrule_ContactType';
+export type { annotationrule_ExecutionMode } from './models/annotationrule_ExecutionMode';
 export type { annotationrule_KeepPosition } from './models/annotationrule_KeepPosition';
 export type { annotationrule_LimitCategoryZones } from './models/annotationrule_LimitCategoryZones';
 export type { annotationrule_LinesDetect } from './models/annotationrule_LinesDetect';

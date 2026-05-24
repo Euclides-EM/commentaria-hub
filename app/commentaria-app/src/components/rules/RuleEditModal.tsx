@@ -5,6 +5,7 @@ import {
   type RuleRequestPayload,
 } from '../../utils/rules.ts'
 import {
+  type annotationrule_ExecutionMode,
   type annotationrule_MetadataDetails,
   type annotationrule_Type,
   ApiError,
@@ -38,10 +39,12 @@ export function RuleEditModal({
       ...(rule as {
         type?: annotationrule_Type
         applicable_stages?: unknown
+        execution_mode?: unknown
       } & Record<string, unknown>),
     }
     delete editablePayload.type
     delete editablePayload.applicable_stages
+    delete editablePayload.execution_mode
     return editablePayload
   }
 
@@ -52,14 +55,21 @@ export function RuleEditModal({
   const [newAnnotationName, setNewAnnotationName] = useState('')
   const [newAnnotationDescription, setNewAnnotationDescription] = useState('')
   const [copyFeatureResults, setCopyFeatureResults] = useState(true)
+  const [useAsyncExecution, setUseAsyncExecution] = useState(true)
   const [selectedRuleType, setSelectedRuleType] = useState<
     annotationrule_Type | undefined
   >(initialPayload?.type || ruleMetadata?.[0]?.type)
+
+  const selectedRuleMetadata = ruleMetadata?.find(
+    (meta) => meta.type === selectedRuleType,
+  )
+  const supportsAsyncPreference = selectedRuleMetadata?.prefer_async === true
 
   useEffect(() => {
     if (isOpen) {
       setError(null)
       setCopyFeatureResults(true)
+      setUseAsyncExecution(true)
       if (initialPayload) {
         const editablePayload = stripRuleMetaFields(initialPayload)
         setPayload(JSON.stringify(editablePayload, null, 2))
@@ -109,6 +119,13 @@ export function RuleEditModal({
       const fullPayload = {
         ...parsedPayload,
         type: selectedRuleType,
+        ...(supportsAsyncPreference
+          ? ({
+              execution_mode: (useAsyncExecution
+                ? 'async'
+                : 'sync') as annotationrule_ExecutionMode,
+            } satisfies { execution_mode: annotationrule_ExecutionMode })
+          : {}),
         ...(action === 'create_new' && newAnnotationName
           ? { name: newAnnotationName }
           : {}),
@@ -244,6 +261,22 @@ export function RuleEditModal({
                 </label>
               </div>
             </div>
+
+            {supportsAsyncPreference && (
+              <div>
+                <label className="flex items-center gap-2 text-sm text-gray-700">
+                  <input
+                    type="checkbox"
+                    checked={useAsyncExecution}
+                    onChange={(event) =>
+                      setUseAsyncExecution(event.target.checked)
+                    }
+                    disabled={loading}
+                  />
+                  <span>Execute asynchronously</span>
+                </label>
+              </div>
+            )}
 
             {action === 'create_new' && (
               <div className="space-y-3">

@@ -1,4 +1,5 @@
 import type {
+  annotationrule_ExecutionMode,
   annotationrule_AddMargin,
   annotationrule_LinesDetect,
   annotationrule_LimitCategoryZones,
@@ -40,6 +41,7 @@ export type AnnotationRule = BaseAnnotationRule &
   )
 
 export type RuleRequestPayload = AnnotationRule & {
+  execution_mode?: annotationrule_ExecutionMode
   name?: string
   description?: string
 }

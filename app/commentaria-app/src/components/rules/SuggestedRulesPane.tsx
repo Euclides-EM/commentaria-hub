@@ -181,7 +181,7 @@ export function SuggestedRulesPane() {
         onClose={() => setEditingRule(null)}
         onSubmit={handleEditRuleSubmit}
         initialPayload={editingRule ?? undefined}
-        ruleMetadata={undefined}
+        ruleMetadata={allRules}
       />
 
       <RuleEditModal

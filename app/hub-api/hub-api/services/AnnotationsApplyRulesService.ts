@@ -66,6 +66,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -83,6 +84,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -93,6 +98,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -108,6 +114,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -125,6 +132,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -135,6 +146,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -150,6 +162,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -167,6 +180,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -177,6 +194,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -192,6 +210,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationModelDetectRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -209,6 +228,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -219,6 +242,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationModelDetectRule,
         });
@@ -234,6 +258,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -251,6 +276,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -261,6 +290,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -276,6 +306,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -293,6 +324,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -303,6 +338,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -318,6 +354,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -335,6 +372,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -345,6 +386,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -360,6 +402,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -377,6 +420,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -387,6 +434,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -402,6 +450,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -419,6 +468,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -429,6 +482,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -444,6 +498,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -461,6 +516,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -471,6 +530,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -486,6 +546,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -503,6 +564,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -513,6 +578,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -528,6 +594,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationRule,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -545,6 +612,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -555,6 +626,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationRule,
         });
@@ -570,6 +642,7 @@ export class AnnotationsApplyRulesService {
         id,
         annotationTextBlockCorrections,
         action = 'overwrite',
+        executionMode = 'sync',
     }: {
         /**
          * Dataset ID
@@ -587,6 +660,10 @@ export class AnnotationsApplyRulesService {
          * Action to take when applying the rule
          */
         action?: 'overwrite' | 'create_new',
+        /**
+         * Execution mode for applying the rule
+         */
+        executionMode?: 'sync' | 'async',
     }): CancelablePromise<annotation_Annotation> {
         return __request(OpenAPI, {
             method: 'PUT',
@@ -597,6 +674,7 @@ export class AnnotationsApplyRulesService {
             },
             query: {
                 'action': action,
+                'execution_mode': executionMode,
             },
             body: annotationTextBlockCorrections,
         });
