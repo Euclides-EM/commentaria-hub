@@ -54,7 +54,7 @@ func (h *Handlers) ListModels(r *http.Request) (any, error) {
 // @Param        base_model_id  formData  string  false  "ID of the base model this model is derived from"
 // @Security 	 BearerAuth
 // @Success      200   {object}  model.Model
-// @Router       /models [post]
+// @Router       /models_upload [post]
 func (h *Handlers) UploadModel(r *http.Request) (any, error) {
 	name := r.FormValue("name")
 	description := r.FormValue("description")

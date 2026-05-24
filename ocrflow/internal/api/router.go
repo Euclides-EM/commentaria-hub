@@ -142,7 +142,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/jobs", httpwrapper.Get(h.ListJobs).Create(h.CreateJobs).Build())
 	api.HandleFunc("/jobs/{jobId}", httpwrapper.Get(h.GetJob).Build())
 
-	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).CreateFile(h.UploadModel).Build())
+	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
+	api.HandleFunc("/models_upload", httpwrapper.CreateFile(h.UploadModel).Build())
 	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Update(h.UpdateModel).Build())
 
 	api.HandleFunc("/annotation_rules", httpwrapper.Get(h.ListAnnotationRules).Build())
