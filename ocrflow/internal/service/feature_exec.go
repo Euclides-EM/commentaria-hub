@@ -332,43 +332,49 @@ func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (fea
 }
 
 func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string, sourceText string) ([]*feature.Result, error) {
-	var results []*feature.Result
 	for fn, rawValue := range rawFields {
-		idx, ok := featureNameToIndex[fn]
+		_, ok := featureNameToIndex[fn]
 		if !ok {
 			return nil, fmt.Errorf("llm response contained unknown field %q for %s\n%s", fn, contextDesc, rawValue)
 		}
+	}
 
+	results := make([]*feature.Result, 0, len(frs))
+	for i := range frs {
+		fn := fmt.Sprintf("%s-rev-%s", fes[i].ID, frs[i].ID[0:3])
+		rawValue, ok := rawFields[fn]
 		var values []string
-		if fes[idx].IsList {
-			if err := json.Unmarshal(rawValue, &values); err != nil {
+		if ok {
+			if fes[i].IsList {
+				if err := json.Unmarshal(rawValue, &values); err != nil {
+					var val string
+					if retryErr := json.Unmarshal(rawValue, &val); retryErr != nil {
+						return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w:\n%s", fn, contextDesc, err, rawValue)
+					}
+					if val != "" {
+						values = []string{val}
+					}
+				}
+			} else {
 				var val string
-				if retryErr := json.Unmarshal(rawValue, &val); retryErr != nil {
-					return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w:\n%s", fn, contextDesc, err, rawValue)
+				if err := json.Unmarshal(rawValue, &val); err != nil {
+					return nil, fmt.Errorf("failed to parse scalar response for field %q in %s: %w\n%s", fn, contextDesc, err, rawValue)
 				}
 				if val != "" {
 					values = []string{val}
 				}
-			}
-		} else {
-			var val string
-			if err := json.Unmarshal(rawValue, &val); err != nil {
-				return nil, fmt.Errorf("failed to parse scalar response for field %q in %s: %w\n%s", fn, contextDesc, err, rawValue)
-			}
-			if val != "" {
-				values = []string{val}
 			}
 		}
 
 		source := feature.ResultSource{
 			Resp:     "auto",
 			Id:       execID,
-			Revision: frs[idx].ID,
+			Revision: frs[i].ID,
 			Name:     "llm",
 		}
 		res := &feature.Result{
 			Scope:     scope,
-			FeatureID: fes[idx].ID,
+			FeatureID: fes[i].ID,
 			Key:       key,
 			Source:    source,
 		}
@@ -379,7 +385,7 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 				continue
 			}
 			if len(textmatch.FindLoosePhraseMatches(sourceText, v)) == 0 {
-				log.Printf("!!! llm hallucination omitted: feature=%s revision=%s key=%s context=%s value=%q", fes[idx].ID, frs[idx].ID, key, contextDesc, v)
+				log.Printf("!!! llm hallucination omitted: feature=%s revision=%s key=%s context=%s value=%q", fes[i].ID, frs[i].ID, key, contextDesc, v)
 				continue
 			}
 			resultValues = append(resultValues, feature.ResultValue{
