@@ -58,6 +58,11 @@ func (a *executionActions) empty() bool {
 
 type applyFunc func() ([]*feature.Result, error)
 
+type llmParseResult struct {
+	results                []*feature.Result
+	hallucinatedFeatureIDs []string
+}
+
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionStore).
 func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, editionSvc *Edition, languageResolver *LanguagesResolver, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
 	return &Execution{
@@ -331,7 +336,7 @@ func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (fea
 	return
 }
 
-func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string, sourceText string) ([]*feature.Result, error) {
+func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string, sourceText string, checkHallucinations bool) (*llmParseResult, error) {
 	for fn, rawValue := range rawFields {
 		_, ok := featureNameToIndex[fn]
 		if !ok {
@@ -340,6 +345,7 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 	}
 
 	results := make([]*feature.Result, 0, len(frs))
+	hallucinatedFeatureIDs := make([]string, 0)
 	for i := range frs {
 		fn := fmt.Sprintf("%s-rev-%s", fes[i].ID, frs[i].ID[0:3])
 		rawValue, ok := rawFields[fn]
@@ -384,8 +390,11 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 			if v == "" {
 				continue
 			}
-			if len(textmatch.FindLoosePhraseMatches(sourceText, v)) == 0 {
+			if checkHallucinations && len(textmatch.FindLoosePhraseMatches(sourceText, v)) == 0 {
 				log.Printf("!!! llm hallucination omitted: feature=%s revision=%s key=%s context=%s value=%q", fes[i].ID, frs[i].ID, key, contextDesc, v)
+				if !slices.Contains(hallucinatedFeatureIDs, fes[i].ID) {
+					hallucinatedFeatureIDs = append(hallucinatedFeatureIDs, fes[i].ID)
+				}
 				continue
 			}
 			resultValues = append(resultValues, feature.ResultValue{
@@ -395,7 +404,10 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 		res.Values = resultValues
 		results = append(results, res)
 	}
-	return results, nil
+	return &llmParseResult{
+		results:                results,
+		hallucinatedFeatureIDs: hallucinatedFeatureIDs,
+	}, nil
 }
 
 func trimFeatureValue(s string) string {

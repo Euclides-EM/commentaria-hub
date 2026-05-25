@@ -206,6 +206,10 @@ Edition metadata:
 		if err != nil {
 			return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
 		}
-		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewEditionExecScope(), ed.Key, contextDesc, formatEditionInfo(ed))
+		parsed, err := parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewEditionExecScope(), ed.Key, contextDesc, formatEditionInfo(ed), false)
+		if err != nil {
+			return nil, err
+		}
+		return parsed.results, nil
 	}
 }

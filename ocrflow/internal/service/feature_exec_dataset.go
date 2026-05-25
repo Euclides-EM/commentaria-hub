@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"slices"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -121,10 +122,14 @@ func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key s
 		if strings.TrimSpace(fullText) == "" {
 			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
 		}
-		aiProvider := frs[0].AIProvider
-		aiModel := frs[0].AIModel
-		featureNameToIndex, definitions, outputFormat := buildPromptComponents(frs, fes)
-		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from title pages of early modern European textbooks.
+		activeRevisions := frs
+		activeFeatures := fes
+		resultsByFeatureID := make(map[string]*feature.Result, len(fes))
+		for attempt := 0; attempt < 3 && len(activeRevisions) > 0; attempt++ {
+			aiProvider := activeRevisions[0].AIProvider
+			aiModel := activeRevisions[0].AIModel
+			featureNameToIndex, definitions, outputFormat := buildPromptComponents(activeRevisions, activeFeatures)
+			prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from title pages of early modern European textbooks.
 
 You will be given:
 - The transcribed text of a title page in %s.
@@ -154,16 +159,44 @@ Transcribed text:
 %s
 `, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
 
-		contextDesc := fmt.Sprintf("dataset %s and key %s", ann.DatasetID, key)
-		rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
-		if err != nil {
-			return nil, fmt.Errorf("failed to execute LLM prompt for %s using %s/%s: %w", contextDesc, aiProvider, aiModel, err)
+			contextDesc := fmt.Sprintf("dataset %s and key %s", ann.DatasetID, key)
+			rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
+			if err != nil {
+				return nil, fmt.Errorf("failed to execute LLM prompt for %s using %s/%s: %w", contextDesc, aiProvider, aiModel, err)
+			}
+			rawFields, err := llm.ParseJSON[map[string]json.RawMessage](rawResponse)
+			if err != nil {
+				return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
+			}
+			parsed, err := parseLLMResults(rawFields, activeRevisions, activeFeatures, featureNameToIndex, execID, feature.NewDatasetExecScope(ann.DatasetID, ann.ID), key, contextDesc, fullText, true)
+			if err != nil {
+				return nil, err
+			}
+			for _, result := range parsed.results {
+				resultsByFeatureID[result.FeatureID] = result
+			}
+			if len(parsed.hallucinatedFeatureIDs) == 0 {
+				break
+			}
+			nextRevisions := make([]*feature.Revision, 0, len(parsed.hallucinatedFeatureIDs))
+			nextFeatures := make([]*feature.Feature, 0, len(parsed.hallucinatedFeatureIDs))
+			for i, featureItem := range activeFeatures {
+				if slices.Contains(parsed.hallucinatedFeatureIDs, featureItem.ID) {
+					nextRevisions = append(nextRevisions, activeRevisions[i])
+					nextFeatures = append(nextFeatures, activeFeatures[i])
+				}
+			}
+			activeRevisions = nextRevisions
+			activeFeatures = nextFeatures
 		}
-		rawFields, err := llm.ParseJSON[map[string]json.RawMessage](rawResponse)
-		if err != nil {
-			return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
+
+		results := make([]*feature.Result, 0, len(fes))
+		for _, featureItem := range fes {
+			if result, ok := resultsByFeatureID[featureItem.ID]; ok {
+				results = append(results, result)
+			}
 		}
-		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewDatasetExecScope(ann.DatasetID, ann.ID), key, contextDesc, fullText)
+		return results, nil
 	}
 }
 
