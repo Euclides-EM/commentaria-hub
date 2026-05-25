@@ -269,7 +269,7 @@ INSERT INTO feature_revisions (
     'dataset',
     'origin_language',
     -- v1 prompt: Mentions of the source language (e.g., Latin or Greek) and/or the target language.
-    'Mentions of the source language and/or target language of the work, translation, or edition, including both specific language names (e.g., Latin, Greek, English) and broader or vernacular designations (e.g., “volgare”, “vvulgare”, “teutsch”). Extract only the language name or linguistic designation itself, without surrounding words, prepositions, or descriptive phrasing.',
+    'Explicit mentions of the source language and/or target language of the work, translation, or edition, including both specific language names (e.g., Latin, Greek, English) and broader or vernacular designations (e.g., “volgare”, “vvulgare”, “teutsch”), but not language abbreviations ("Fr"). Extract only the language name or linguistic designation itself, without surrounding words, prepositions, or descriptive phrasing.',
     '',
     'ollama',
     'gpt-oss:120b'

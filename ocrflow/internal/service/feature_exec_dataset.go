@@ -14,6 +14,8 @@ import (
 	"github.com/samber/lo"
 )
 
+const datasetFeatureBatchSize = 5
+
 type featureGroup struct {
 	revisions []*feature.Revision
 	features  []*feature.Feature
@@ -32,6 +34,22 @@ func partitionFeatures(features []*feature.Feature, revisions []*feature.Revisio
 	return
 }
 
+func chunkFeatureGroup(group featureGroup, size int) []featureGroup {
+	if size <= 0 || len(group.features) == 0 {
+		return nil
+	}
+
+	chunks := make([]featureGroup, 0, (len(group.features)+size-1)/size)
+	for start := 0; start < len(group.features); start += size {
+		end := min(start+size, len(group.features))
+		chunks = append(chunks, featureGroup{
+			revisions: group.revisions[start:end],
+			features:  group.features[start:end],
+		})
+	}
+	return chunks
+}
+
 func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID, textLanguage, fullText string, catGroup, promptGroup featureGroup) ([]*feature.Result, error) {
 	var results []*feature.Result
 	var execErrs []error
@@ -46,11 +64,16 @@ func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID,
 
 	if len(promptGroup.revisions) > 0 && fullText != "" {
 		for _, group := range groupPromptRevisionsByAIConfig(promptGroup.revisions, promptGroup.features) {
-			r, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, execID, textLanguage, fullText)()
-			if err != nil {
-				execErrs = append(execErrs, err)
+			for _, chunk := range chunkFeatureGroup(featureGroup{
+				revisions: group.revisions,
+				features:  group.features,
+			}, datasetFeatureBatchSize) {
+				r, err := fe.annotationPromptApplyFunc(ann, key, chunk.revisions, chunk.features, execID, textLanguage, fullText)()
+				if err != nil {
+					execErrs = append(execErrs, err)
+				}
+				results = append(results, r...)
 			}
-			results = append(results, r...)
 		}
 	}
 
@@ -140,7 +163,7 @@ Extraction rules:
 - Extract only the minimal text span that corresponds to the requested feature.
 - Omit surrounding adjectives, descriptive phrases, function words, and punctuation unless they are intrinsically part of the feature itself.
 - Preserve the original spelling, capitalization, whitespace, line breaks, and punctuation within the extracted span exactly as they appear in the transcription.
-- Early modern orthography may differ from modern spelling. For example, “v” may be used where modern texts use “u”, and similar historical character substitutions may occur. Treat these as normal spellings and reproduce them exactly as written.
+- Early modern orthography may differ from modern spelling and letter usage. For example, “v” and “u” or “i” and “j” may be interchangeable (“vpon,” “Iesus”), and other historical spellings may vary. Treat these as normal forms and reproduce the text exactly as written, without modernization or normalization.
 - Words or phrases may be split across lines or interrupted by characters such as "-", "=" or similar separators. Interpret these as part of the transcription layout and extract the relevant text accurately.
 - Some text may apply to more than one field, so the same text may appear in multiple fields if applicable.
 - Do not normalize, modernize, interpret, or correct the text.
