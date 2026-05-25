@@ -1,6 +1,10 @@
 import { useState } from 'react'
+import { useQueryClient } from '@tanstack/react-query'
 import { useAppState } from '../../context/useAppState'
-import { AnnotationsApplyRulesService } from '@hub-api'
+import {
+  AnnotationsApplyRulesService,
+  type annotation_Annotation,
+} from '@hub-api'
 import { RuleEditModal } from './RuleEditModal.tsx'
 import { useDatasetSuggestedRules } from '../../queries/datasets.ts'
 import {
@@ -13,8 +17,21 @@ import { RuleDisplay } from './RuleDisplay.tsx'
 import { useAnnotationRules } from '../../queries/metadata.ts'
 import { useAuthStore } from '../../store/authStore.ts'
 import { ErrorMessage } from '../core/ErrorMessage'
+import {
+  isAnnotationRuleApplyJob,
+  runningIntegrationJobsQueryKey,
+  useRunningIntegrationJobsQuery,
+} from '../../queries/integrations.ts'
+
+const isAnnotationResponse = (
+  value: unknown,
+): value is annotation_Annotation & { id?: string; dataset_id?: string } =>
+  typeof value === 'object' &&
+  value !== null &&
+  ('dataset_id' in value || 'applied_rules' in value || 'pages' in value)
 
 export function SuggestedRulesPane() {
+  const queryClient = useQueryClient()
   const {
     dataset,
     annotation,
@@ -24,6 +41,7 @@ export function SuggestedRulesPane() {
   const [editingRule, setEditingRule] = useState<AnnotationRule | null>(null)
   const [isManualModalOpen, setIsManualModalOpen] = useState(false)
   const { data: allRules } = useAnnotationRules()
+  const { data: runningJobs } = useRunningIntegrationJobsQuery()
   const isAuthenticated = !!useAuthStore((store) => store.token)
 
   const {
@@ -33,6 +51,12 @@ export function SuggestedRulesPane() {
     error,
   } = useDatasetSuggestedRules(dataset?.id || '')
   const suggestedRules = (rules || []).flat(2).filter(isAnnotationRule)
+  const hasRunningApplyRulesJob = !!runningJobs?.some(
+    (job) =>
+      isAnnotationRuleApplyJob(job) &&
+      job.annotation?.dataset_id === dataset?.id &&
+      job.annotation?.id === annotation?.id,
+  )
 
   const handleRunRule = async (
     rule: RuleRequestPayload,
@@ -45,8 +69,7 @@ export function SuggestedRulesPane() {
 
     const { name, description, ...rulePayload } = rule
     const isCreate = action === 'create_new'
-    const isAsyncExecution = rule.execution_mode === 'async'
-    const annotationResult =
+    const result =
       await AnnotationsApplyRulesService.putDatasetsAnnotationsApply({
         dataSetId: dataset.id,
         id: annotation.id,
@@ -62,15 +85,17 @@ export function SuggestedRulesPane() {
         },
       })
 
+    void queryClient.invalidateQueries({
+      queryKey: runningIntegrationJobsQueryKey(),
+    })
     refetchRules()
     refetchAnnotation()
     if (
-      isCreate &&
-      !isAsyncExecution &&
-      annotationResult.id &&
-      annotationResult.id !== annotation.id
+      isAnnotationResponse(result) &&
+      result.id &&
+      result.id !== annotation.id
     ) {
-      setState({ annotationId: annotationResult.id })
+      setState({ annotationId: result.id })
     }
   }
 
@@ -121,6 +146,18 @@ export function SuggestedRulesPane() {
         </div>
 
         <div className="flex-1 min-h-0 overflow-auto p-2.5 box-border">
+          {hasRunningApplyRulesJob && (
+            <div className="mb-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900">
+              Async rule execution is running for this annotation.{' '}
+              <button
+                type="button"
+                className="font-medium text-teal-700 underline underline-offset-2 hover:text-teal-900"
+                onClick={() => setState({ viewMode: 'jobs' })}
+              >
+                View jobs
+              </button>
+            </div>
+          )}
           {isLoading && (
             <div className="text-gray-500 text-sm p-2">Loading rules...</div>
           )}
@@ -189,6 +226,7 @@ export function SuggestedRulesPane() {
         onSubmit={handleEditRuleSubmit}
         initialPayload={editingRule ?? undefined}
         ruleMetadata={allRules}
+        disableOverwrite={hasRunningApplyRulesJob}
       />
 
       <RuleEditModal
@@ -196,6 +234,7 @@ export function SuggestedRulesPane() {
         onClose={() => setIsManualModalOpen(false)}
         onSubmit={handleManualRuleSubmit}
         ruleMetadata={allRules}
+        disableOverwrite={hasRunningApplyRulesJob}
       />
     </>
   )

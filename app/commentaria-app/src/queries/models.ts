@@ -40,7 +40,7 @@ export function useCreateModelMutation() {
       baseModelId?: string
       baseAnnotations?: string
     }) =>
-      ModelsService.postModels({
+      ModelsService.postModelsUpload({
         file,
         name,
         description,
