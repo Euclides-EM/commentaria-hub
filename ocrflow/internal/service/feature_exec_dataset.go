@@ -130,10 +130,17 @@ You will be given:
 - The transcribed text of a title page in %s.
 
 Your task is to extract specific paratextual features from the transcription and return them as a JSON object.
-Each field should contain the exact quoted text(s) from the input, with no modifications, rephrasing, or interpretation. Include the original whitespaces, line breaks and punctuation as they appear in the transcription.
-Some text may apply to more than one field, so you may return the same text portions in multiple fields if applicable.
 
-Return only a valid JSON. Do not include any other output.
+Extraction rules:
+- Extract only the minimal text span that corresponds to the requested feature.
+- Omit surrounding adjectives, descriptive phrases, function words, and punctuation unless they are intrinsically part of the feature itself.
+- Preserve the original spelling, capitalization, whitespace, line breaks, and punctuation within the extracted span exactly as they appear in the transcription.
+- Early modern orthography may differ from modern spelling. For example, “v” may be used where modern texts use “u”, and similar historical character substitutions may occur. Treat these as normal spellings and reproduce them exactly as written.
+- Words or phrases may be split across lines or interrupted by characters such as "-", "=" or similar separators. Interpret these as part of the transcription layout and extract the relevant text accurately.
+- Some text may apply to more than one field, so the same text may appear in multiple fields if applicable.
+- Do not normalize, modernize, interpret, or correct the text.
+
+Return only a valid JSON object. Do not include explanations or any other output.
 
 Output format:
 {
@@ -156,7 +163,7 @@ Transcribed text:
 		if err != nil {
 			return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
 		}
-		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewDatasetExecScope(ann.DatasetID, ann.ID), key, contextDesc)
+		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewDatasetExecScope(ann.DatasetID, ann.ID), key, contextDesc, fullText)
 	}
 }
 

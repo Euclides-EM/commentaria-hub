@@ -10,6 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+	"unicode"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
@@ -17,6 +18,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/textmatch"
 	"github.com/samber/lo"
 )
 
@@ -329,7 +331,7 @@ func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (fea
 	return
 }
 
-func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string) ([]*feature.Result, error) {
+func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string, sourceText string) ([]*feature.Result, error) {
 	var results []*feature.Result
 	for fn, rawValue := range rawFields {
 		idx, ok := featureNameToIndex[fn]
@@ -372,6 +374,14 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 		}
 		var resultValues []feature.ResultValue
 		for _, v := range values {
+			v = trimFeatureValue(v)
+			if v == "" {
+				continue
+			}
+			if len(textmatch.FindLoosePhraseMatches(sourceText, v)) == 0 {
+				log.Printf("!!! llm hallucination omitted: feature=%s revision=%s key=%s context=%s value=%q", fes[idx].ID, frs[idx].ID, key, contextDesc, v)
+				continue
+			}
 			resultValues = append(resultValues, feature.ResultValue{
 				Surface: v,
 			})
@@ -380,4 +390,10 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 		results = append(results, res)
 	}
 	return results, nil
+}
+
+func trimFeatureValue(s string) string {
+	return strings.TrimFunc(strings.TrimSpace(s), func(r rune) bool {
+		return unicode.IsSpace(r) || unicode.IsPunct(r)
+	})
 }

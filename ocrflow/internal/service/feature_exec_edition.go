@@ -109,16 +109,16 @@ func formatEditionInfo(ed *model.Edition) string {
 		}
 
 		if ed.Title != nil {
-			b.WriteString("\nTitle page reads: " + *ed.Title + "\n")
+			b.WriteString("\nTitle page reads: \n" + *ed.Title + "\n")
 		}
 		if ed.Imprint != nil {
-			b.WriteString("\nImprint reads: " + *ed.Imprint + "\n")
+			b.WriteString("\nImprint reads: \n" + *ed.Imprint + "\n")
 		}
 		if ed.Colophon != nil {
-			b.WriteString("\nColophon reads: " + *ed.Colophon + "\n")
+			b.WriteString("\nColophon reads: \n" + *ed.Colophon + "\n")
 		}
 		if ed.Frontispiece != nil {
-			b.WriteString("\nFrontispiece reads: " + *ed.Frontispiece + "\n")
+			b.WriteString("\nFrontispiece reads: \n" + *ed.Frontispiece + "\n")
 		}
 	}
 
@@ -206,6 +206,6 @@ Edition metadata:
 		if err != nil {
 			return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
 		}
-		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewEditionExecScope(), ed.Key, contextDesc)
+		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewEditionExecScope(), ed.Key, contextDesc, formatEditionInfo(ed))
 	}
 }
