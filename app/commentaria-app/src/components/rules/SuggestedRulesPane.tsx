@@ -45,12 +45,14 @@ export function SuggestedRulesPane() {
 
     const { name, description, ...rulePayload } = rule
     const isCreate = action === 'create_new'
+    const isAsyncExecution = rule.execution_mode === 'async'
     const annotationResult =
       await AnnotationsApplyRulesService.putDatasetsAnnotationsApply({
         dataSetId: dataset.id,
         id: annotation.id,
         annotationApplyRules: {
           action,
+          execution_mode: rule.execution_mode,
           ...(isCreate && {
             copy_feature_results: copyFeatureResults,
             ...(name && { name }),
@@ -62,7 +64,12 @@ export function SuggestedRulesPane() {
 
     refetchRules()
     refetchAnnotation()
-    if (annotationResult.id !== annotation.id) {
+    if (
+      isCreate &&
+      !isAsyncExecution &&
+      annotationResult.id &&
+      annotationResult.id !== annotation.id
+    ) {
       setState({ annotationId: annotationResult.id })
     }
   }
