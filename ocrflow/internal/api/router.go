@@ -151,6 +151,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 
 	api.HandleFunc("/store/cleanup/local", httpwrapper.Delete(h.CleanupLocalStore).Build())
 
+	api.HandleFunc("/ollama-proxy", httpwrapper.Create(h.CreateOllamaRequest).Build())
 	// mount API under /api/v1
 	root.Handle("/api/v1/", http.StripPrefix("/api/v1", api))
 

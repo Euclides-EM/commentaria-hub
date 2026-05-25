@@ -21,10 +21,10 @@ type Client struct {
 	limiters map[string]chan struct{}
 }
 
-func NewClient(openAIKey string, ollamaBaseURL string) *Client {
+func NewClient(openAIKey string, ollamaBaseURL, ollamaAuthToken string) *Client {
 	return &Client{
 		openAI:   NewOpenAIClient(openAIKey),
-		ollama:   NewOllamaClient(ollamaBaseURL),
+		ollama:   NewOllamaClient(ollamaBaseURL, ollamaAuthToken),
 		limiters: makeProviderLimiters(providerConcurrencyLimits),
 	}
 }

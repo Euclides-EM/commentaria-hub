@@ -19,23 +19,24 @@ import (
 
 type OllamaClient struct {
 	baseURL    string
+	authToken  string
 	httpClient *http.Client
 }
 
-type ollamaGenerateRequest struct {
+type OllamaGenerateRequest struct {
 	Model  string   `json:"model"`
 	Prompt string   `json:"prompt"`
 	Stream bool     `json:"stream"`
 	Images []string `json:"images,omitempty"`
 }
 
-type ollamaGenerateResponse struct {
+type OllamaGenerateResponse struct {
 	Response string `json:"response"`
 	Done     bool   `json:"done"`
 	Error    string `json:"error,omitempty"`
 }
 
-func NewOllamaClient(baseURL string) *OllamaClient {
+func NewOllamaClient(baseURL, authToken string) *OllamaClient {
 	return &OllamaClient{
 		baseURL: strings.TrimSpace(baseURL),
 		httpClient: &http.Client{
@@ -59,7 +60,7 @@ func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error
 	if err != nil {
 		return "", err
 	}
-	payload := ollamaGenerateRequest{
+	payload := OllamaGenerateRequest{
 		Model:  model,
 		Prompt: prompt,
 		Stream: false,
@@ -86,6 +87,9 @@ func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error
 	}
 	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Accept", "application/json")
+	if c.authToken != "" {
+		req.Header.Set("Authorization", "Bearer "+c.authToken)
+	}
 
 	resp, err := c.httpClient.Do(req)
 	if err != nil {
@@ -103,7 +107,7 @@ func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error
 		return "", fmt.Errorf("llm exec: ollama generate api returned %d after %s: %s", resp.StatusCode, time.Since(startedAt), truncateForError(respBody))
 	}
 
-	var out ollamaGenerateResponse
+	var out OllamaGenerateResponse
 	if err := json.Unmarshal(respBody, &out); err != nil {
 		return "", fmt.Errorf("llm exec: decode ollama response: %w", err)
 	}
