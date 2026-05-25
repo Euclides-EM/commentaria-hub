@@ -38,7 +38,8 @@ type OllamaGenerateResponse struct {
 
 func NewOllamaClient(baseURL, authToken string) *OllamaClient {
 	return &OllamaClient{
-		baseURL: strings.TrimSpace(baseURL),
+		baseURL:   strings.TrimSpace(baseURL),
+		authToken: strings.TrimSpace(authToken),
 		httpClient: &http.Client{
 			Timeout: requestTimeout,
 		},
