@@ -39,6 +39,7 @@ type EnvConfig struct {
 	FacsimilesRemoteAPIURL   string `env:"FACSIMILES_REMOTE_API_URL" envDefault:""`
 	OpenAIAPIKey             string `env:"OPENAI_API_KEY"`
 	OllamaBaseURL            string `env:"OLLAMA_BASE_URL" envDefault:""`
+	OllamaAuthToken          string `env:"OLLAMA_AUTH_TOKEN" envDefault:""`
 
 	SkipDiagramCropsGeneration bool     `env:"SKIP_DIAGRAM_CROPS_GENERATION" envDefault:"false"`
 	OptMigrations              []string `env:"OPT_MIGRATIONS" envDefault:""`
