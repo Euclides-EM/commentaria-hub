@@ -1,5 +1,6 @@
 UPDATE features
-SET is_list = 1
+SET is_list = 1,
+    updated_at = datetime('now')
 WHERE id IN (
     'dedicatee_name',
     'editor_name',
@@ -8,7 +9,9 @@ WHERE id IN (
 );
 
 UPDATE features
-SET name = 'Bound With - Description'
+SET name = 'Bound With - Description',
+    description = 'Descriptions of additional treatises or works physically bound together with the main work in the volume.',
+    updated_at = datetime('now')
 WHERE id = 'bound_with';
 
 -- v1 prompt: Mentions of other works that are included in the work, in addition to Euclid's Elements, such as 'Optics', 'Data', theorems by Archimedes. Mentions of additions ingrained in the core text and written by the adapter/translator of the text, such as examples or explanations, should not be included here. Try to mark the minimal unit of the bound work and break down the bound works into their components when possible.
@@ -18,13 +21,13 @@ INSERT INTO features (
 ) VALUES (
     'bound_with_minimal',
     'Bound With - Minimal',
-    'Mentions of other treatises or works physically bound together with the main work in the volume. Extract only the title of the additional treatise or bound work itself (e.g. ''Optics''), not surrounding descriptive text.',
+    'Names or titles of additional treatises or works physically bound together with the main work in the volume.',
     '2026-03-01T15:37:08Z',
     '2026-03-01T15:37:08Z',
     'tps',
     1,
     1,
-    '#7BC8A4',
+    '#FFB6C1',
     '[]'
 ) ON CONFLICT(id) DO UPDATE SET
     name = excluded.name,
