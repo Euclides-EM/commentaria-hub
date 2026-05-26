@@ -74,3 +74,18 @@ func TestParseDriveBackupEntriesFiltersAndKeepsEntryType(t *testing.T) {
 		t.Fatalf("entries = %#v, want %#v", got, want)
 	}
 }
+
+func TestBackupDriveCopyArgsUsesCopyToSingleRemoteFile(t *testing.T) {
+	got := backupDriveCopyArgs("/tmp/euclides_backup_20260508T090000Z.zip", "gdrive:euclides_backup_20260508T090000Z.zip")
+	want := []string{
+		"--progress",
+		"--stats=10s",
+		"--stats-one-line",
+		"copyto",
+		"/tmp/euclides_backup_20260508T090000Z.zip",
+		"gdrive:euclides_backup_20260508T090000Z.zip",
+	}
+	if !reflect.DeepEqual(got, want) {
+		t.Fatalf("args = %#v, want %#v", got, want)
+	}
+}
