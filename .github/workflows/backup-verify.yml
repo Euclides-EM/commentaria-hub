@@ -17,7 +17,7 @@ jobs:
   verify-backup:
     runs-on: ubuntu-latest
     env:
-      RCLONE_CONFIG: ${{ secrets.RCLONE_CONFIG }}
+      RCLONE_CONFIG_CONTENT: ${{ secrets.RCLONE_CONFIG }}
     steps:
       - name: Install rclone
         run: |
@@ -26,7 +26,7 @@ jobs:
       - name: Write rclone config
         run: |
           mkdir -p ~/.config/rclone
-          printf '%s\n' "$RCLONE_CONFIG" > ~/.config/rclone/rclone.conf
+          printf '%s\n' "$RCLONE_CONFIG_CONTENT" > ~/.config/rclone/rclone.conf
           chmod 600 ~/.config/rclone/rclone.conf
 
       - name: Verify recent backup exists
