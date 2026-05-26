@@ -222,11 +222,15 @@ export function FeatureExecutionsTab() {
   const handleCreateExecution = async ({
     selectedFeatureIds,
     selectedKeys,
+    aiProvider,
+    aiModel,
     skipIf,
     pushToOrigin,
   }: {
     selectedFeatureIds: string[]
     selectedKeys: string[]
+    aiProvider: feature_Execution['ai_provider']
+    aiModel: string
     skipIf: feature_ExecutionSkipIf[]
     pushToOrigin: boolean
   }) => {
@@ -264,6 +268,8 @@ export function FeatureExecutionsTab() {
         annotation_id: annotationId,
       },
       apply,
+      ai_provider: aiProvider,
+      ai_model: aiModel,
       keys: selectedKeys,
       policy:
         skipIf.length || pushToOrigin
@@ -407,6 +413,13 @@ export function FeatureExecutionsTab() {
 
                   <div className="text-xs text-gray-500">
                     Created: {formatDate(execution.created_at)}
+                  </div>
+
+                  <div className="text-xs text-gray-500">
+                    AI:{' '}
+                    {[execution.ai_provider, execution.ai_model]
+                      .filter(Boolean)
+                      .join(' / ') || '—'}
                   </div>
 
                   {executionKeys.length > 0 && (

@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
@@ -31,12 +32,12 @@ func partitionFeatures(features []*feature.Feature, revisions []*feature.Revisio
 	return
 }
 
-func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID, textLanguage, fullText string, catGroup, promptGroup featureGroup) ([]*feature.Result, error) {
+func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID, textLanguage, fullText string, execAIProvider feature.AIProvider, execAIModel string, catGroup, promptGroup featureGroup) ([]*feature.Result, error) {
 	var results []*feature.Result
 	var execErrs []error
 
 	if len(catGroup.revisions) > 0 && fullText != "" {
-		r, err := fe.annotationCategorizeApplyFunc(ann, key, catGroup.revisions, catGroup.features, execID, fullText)()
+		r, err := fe.annotationCategorizeApplyFunc(ann, key, catGroup.revisions, catGroup.features, execID, fullText, execAIProvider, execAIModel)()
 		if err != nil {
 			execErrs = append(execErrs, err)
 		}
@@ -44,13 +45,11 @@ func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID,
 	}
 
 	if len(promptGroup.revisions) > 0 && fullText != "" {
-		for _, group := range groupPromptRevisionsByAIConfig(promptGroup.revisions, promptGroup.features) {
-			r, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, execID, textLanguage, fullText)()
-			if err != nil {
-				execErrs = append(execErrs, err)
-			}
-			results = append(results, r...)
+		r, err := fe.annotationPromptApplyFunc(ann, key, promptGroup.revisions, promptGroup.features, execID, textLanguage, fullText, execAIProvider, execAIModel)()
+		if err != nil {
+			execErrs = append(execErrs, err)
 		}
+		results = append(results, r...)
 	}
 
 	return results, errors.Join(execErrs...)
@@ -100,13 +99,13 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 		var results []*feature.Result
 		var execErrs []error
 
-		r, err := fe.runAnnotationGroup(ann, key, exec.ID, textLanguage, imprintFullText, catImprint, promptImprint)
+		r, err := fe.runAnnotationGroup(ann, key, exec.ID, textLanguage, imprintFullText, exec.AIProvider, exec.AIModel, catImprint, promptImprint)
 		if err != nil {
 			execErrs = append(execErrs, err)
 		}
 		results = append(results, r...)
 
-		r, err = fe.runAnnotationGroup(ann, key, exec.ID, textLanguage, nonImprintFullText, catNonImprint, promptNonImprint)
+		r, err = fe.runAnnotationGroup(ann, key, exec.ID, textLanguage, nonImprintFullText, exec.AIProvider, exec.AIModel, catNonImprint, promptNonImprint)
 		if err != nil {
 			execErrs = append(execErrs, err)
 		}
@@ -116,13 +115,11 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 	}
 }
 
-func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) applyFunc {
+func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string, aiProvider feature.AIProvider, aiModel string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		if strings.TrimSpace(fullText) == "" {
 			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
 		}
-		aiProvider := frs[0].AIProvider
-		aiModel := frs[0].AIModel
 		featureNameToIndex, definitions, outputFormat := buildPromptComponents(frs, fes)
 		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from title pages of early modern European textbooks.
 
@@ -156,11 +153,11 @@ Transcribed text:
 		if err != nil {
 			return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
 		}
-		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewDatasetExecScope(ann.DatasetID, ann.ID), key, contextDesc)
+		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewDatasetExecScope(ann.DatasetID, ann.ID), key, contextDesc, aiProvider, aiModel)
 	}
 }
 
-func (fe *Execution) annotationCategorizeApplyFunc(ann *annotation.Annotation, key string, revisions []*feature.Revision, features []*feature.Feature, id string, text string) applyFunc {
+func (fe *Execution) annotationCategorizeApplyFunc(ann *annotation.Annotation, key string, revisions []*feature.Revision, features []*feature.Feature, id string, text string, aiProvider feature.AIProvider, aiModel string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		if strings.TrimSpace(text) == "" {
 			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
@@ -180,6 +177,10 @@ func (fe *Execution) annotationCategorizeApplyFunc(ann *annotation.Annotation, k
 				Name:     "categorizer",
 			}
 			res := &feature.Result{
+				Meta: common.Meta{
+					Name:        features[i].Name,
+					Description: executionResultDescription(aiProvider, aiModel),
+				},
 				Scope:     feature.NewDatasetExecScope(ann.DatasetID, ann.ID),
 				FeatureID: features[i].ID,
 				Key:       key,

@@ -28,7 +28,7 @@ func (s *FeatureRevisionSQL) ListByFeatureID(featureID string) ([]*feature.Revis
 	const q = `
 SELECT
   id, name, description, created_at, updated_at,
-  dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+  dataset_id, scope, feature_id, prompt, categorizer
 FROM feature_revisions
 WHERE feature_id = ?
 ORDER BY created_at DESC
@@ -61,7 +61,7 @@ func (s *FeatureRevisionSQL) ListByFeatureIDInScope(scope feature.DefScope, feat
 	const q = `
 SELECT
   id, name, description, created_at, updated_at,
-  dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+  dataset_id, scope, feature_id, prompt, categorizer
 FROM feature_revisions
 WHERE scope = ?
   AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
@@ -96,7 +96,7 @@ func (s *FeatureRevisionSQL) GetByID(featureID, revisionID string) (*feature.Rev
 	const q = `
 SELECT
   id, name, description, created_at, updated_at,
-  dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+  dataset_id, scope, feature_id, prompt, categorizer
 FROM feature_revisions
 WHERE feature_id = ? AND id = ?
 LIMIT 1
@@ -120,7 +120,7 @@ func (s *FeatureRevisionSQL) GetByIDInScope(scope feature.DefScope, featureID, r
 	const q = `
 SELECT
   id, name, description, created_at, updated_at,
-  dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+  dataset_id, scope, feature_id, prompt, categorizer
 FROM feature_revisions
 WHERE scope = ?
   AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
@@ -143,11 +143,11 @@ func (s *FeatureRevisionSQL) Create(rev *feature.Revision) error {
 	const q = `
 INSERT INTO feature_revisions (
   id, name, description, dataset_id, scope, feature_id,
-  prompt, categorizer, ai_provider, ai_model,
+  prompt, categorizer,
   created_at, updated_at
 ) VALUES (
   ?, ?, ?, ?, ?, ?,
-  ?, ?, ?, ?,
+  ?, ?,
   CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
 )
 `
@@ -161,8 +161,6 @@ INSERT INTO feature_revisions (
 		rev.FeatureID,
 		rev.Prompt,
 		rev.Categorizer,
-		rev.AIProvider,
-		rev.AIModel,
 	)
 	if err != nil {
 		return fmt.Errorf("create feature revision: %w", err)
@@ -189,8 +187,6 @@ func scanFeatureRevision(scanner func(...any) error) (*feature.Revision, error) 
 		featureID   string
 		prompt      string
 		categorizer string
-		aiProvider  feature.AIProvider
-		aiModel     string
 	)
 
 	if err := scanner(
@@ -204,8 +200,6 @@ func scanFeatureRevision(scanner func(...any) error) (*feature.Revision, error) 
 		&featureID,
 		&prompt,
 		&categorizer,
-		&aiProvider,
-		&aiModel,
 	); err != nil {
 		return nil, err
 	}
@@ -231,7 +225,5 @@ func scanFeatureRevision(scanner func(...any) error) (*feature.Revision, error) 
 		FeatureID:   featureID,
 		Prompt:      prompt,
 		Categorizer: categorizer,
-		AIProvider:  aiProvider,
-		AIModel:     aiModel,
 	}, nil
 }

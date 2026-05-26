@@ -10,6 +10,8 @@ type Execution struct {
 	// Keys is optional, if not provided, the execution will run on all keys of the dataset.
 	Keys         []string             `json:"keys,omitempty"`
 	Apply        []ExecutionApplyItem `json:"apply"`
+	AIProvider   AIProvider           `json:"ai_provider"`
+	AIModel      string               `json:"ai_model"`
 	Policy       *ExecutionPolicy     `json:"policy,omitempty"`
 	Status       ExecutionStatus      `json:"status"`
 	StatusReason string               `json:"status_reason"`

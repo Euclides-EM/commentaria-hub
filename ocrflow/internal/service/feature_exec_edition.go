@@ -11,7 +11,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
 
-func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string) applyFunc {
+func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string, aiProvider feature.AIProvider, aiModel string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		edition, err := fe.editionSvc.GetEditionByID(editionKey)
 		if err != nil {
@@ -21,13 +21,11 @@ func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActio
 		results := make([]*feature.Result, 0)
 		var execErrs []error
 		if len(actions.promptRevisions) > 0 {
-			for _, group := range groupPromptRevisionsByAIConfig(actions.promptRevisions, actions.promptFeatures) {
-				promptResults, err := fe.editionPromptApplyFunc(edition, group.revisions, group.features, execID)()
-				if err != nil {
-					execErrs = append(execErrs, err)
-				}
-				results = append(results, promptResults...)
+			promptResults, err := fe.editionPromptApplyFunc(edition, actions.promptRevisions, actions.promptFeatures, execID, aiProvider, aiModel)()
+			if err != nil {
+				execErrs = append(execErrs, err)
 			}
+			results = append(results, promptResults...)
 		}
 		return results, errors.Join(execErrs...)
 	}
@@ -170,10 +168,8 @@ func formatBookRanges(books []int) string {
 	return strings.Join(parts, ", ")
 }
 
-func (fe *Execution) editionPromptApplyFunc(ed *model.Edition, frs []*feature.Revision, fes []*feature.Feature, execID string) applyFunc {
+func (fe *Execution) editionPromptApplyFunc(ed *model.Edition, frs []*feature.Revision, fes []*feature.Feature, execID string, aiProvider feature.AIProvider, aiModel string) applyFunc {
 	return func() ([]*feature.Result, error) {
-		aiProvider := frs[0].AIProvider
-		aiModel := frs[0].AIModel
 		featureNameToIndex, definitions, outputFormat := buildPromptComponents(frs, fes)
 		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata about historical textbook editions.
 
@@ -206,6 +202,6 @@ Edition metadata:
 		if err != nil {
 			return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
 		}
-		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewEditionExecScope(), ed.Key, contextDesc)
+		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewEditionExecScope(), ed.Key, contextDesc, aiProvider, aiModel)
 	}
 }

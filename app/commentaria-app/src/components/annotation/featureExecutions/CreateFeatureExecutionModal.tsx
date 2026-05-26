@@ -1,5 +1,6 @@
 import { type FormEvent, useMemo, useState } from 'react'
 import type {
+  feature_AIProvider,
   feature_ExecutionSkipIf,
   feature_Feature,
   model_Edition,
@@ -10,6 +11,12 @@ import { SearchInput } from '../../core/SearchInput.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
 import { selectStyles } from '../../../styles/selectStyles'
+import {
+  aiModelOptionsByProvider,
+  aiProviderOptions,
+  type AIModelOption,
+  type AIProviderOption,
+} from '../../../utils/aiConfig.ts'
 
 interface CreateFeatureExecutionModalProps {
   isOpen: boolean
@@ -17,6 +24,8 @@ interface CreateFeatureExecutionModalProps {
   onSubmit: (values: {
     selectedFeatureIds: string[]
     selectedKeys: string[]
+    aiProvider: feature_AIProvider
+    aiModel: string
     skipIf: feature_ExecutionSkipIf[]
     pushToOrigin: boolean
   }) => Promise<void>
@@ -110,6 +119,8 @@ function OpenCreateFeatureExecutionModal({
     readonly CorpusOption[]
   >([])
   const [skipIf, setSkipIf] = useState<Set<feature_ExecutionSkipIf>>(new Set())
+  const [aiProvider, setAIProvider] = useState<feature_AIProvider>('openai')
+  const [aiModel, setAIModel] = useState('gpt-5-mini')
 
   const corpusOptions = useMemo<CorpusOption[]>(() => {
     const corpuses = new Set<string>()
@@ -126,6 +137,10 @@ function OpenCreateFeatureExecutionModal({
   }, [editionItems])
   const [pushToOrigin, setPushToOrigin] = useState(false)
   const [validationError, setValidationError] = useState<string | null>(null)
+  const aiModelOptions = useMemo<AIModelOption[]>(
+    () => aiModelOptionsByProvider[aiProvider] ?? [],
+    [aiProvider],
+  )
 
   const filteredFeatures = useMemo(() => {
     const query = featureSearch.trim().toLowerCase()
@@ -204,10 +219,20 @@ function OpenCreateFeatureExecutionModal({
       setValidationError('Select at least one edition.')
       return
     }
+    if (!aiModel) {
+      setValidationError('Select an AI model.')
+      return
+    }
+    if (!aiModelOptions.some((option) => option.value === aiModel)) {
+      setValidationError('AI model must be selected from the allowed list.')
+      return
+    }
     setValidationError(null)
     await onSubmit({
       selectedFeatureIds: Array.from(selectedFeatureIds),
       selectedKeys: Array.from(selectedKeys),
+      aiProvider,
+      aiModel,
       skipIf: Array.from(skipIf),
       pushToOrigin,
     })
@@ -428,6 +453,60 @@ function OpenCreateFeatureExecutionModal({
             </section>
 
             <section className="space-y-2">
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div className="flex flex-col gap-2">
+                  <label className="block text-sm font-medium text-gray-700">
+                    AI provider
+                  </label>
+                  <Select<AIProviderOption, false>
+                    options={aiProviderOptions}
+                    value={
+                      aiProviderOptions.find(
+                        (option) => option.value === aiProvider,
+                      ) ?? null
+                    }
+                    onChange={(option) => {
+                      const nextProvider = option?.value ?? 'openai'
+                      setAIProvider(nextProvider)
+                      setAIModel(
+                        aiModelOptionsByProvider[nextProvider]?.[0]?.value ??
+                          '',
+                      )
+                    }}
+                    isDisabled={isSubmitting}
+                    placeholder="Select a provider"
+                    styles={selectStyles<AIProviderOption>({
+                      controlWidth: '100%',
+                    })}
+                    menuPortalTarget={document.body}
+                    menuPosition="fixed"
+                  />
+                </div>
+
+                <div className="flex flex-col gap-2">
+                  <label className="block text-sm font-medium text-gray-700">
+                    AI model
+                  </label>
+                  <Select<AIModelOption, false>
+                    options={aiModelOptions}
+                    value={
+                      aiModelOptions.find(
+                        (option) => option.value === aiModel,
+                      ) ?? null
+                    }
+                    onChange={(option) => setAIModel(option?.value ?? '')}
+                    isDisabled={isSubmitting}
+                    placeholder="Select a model"
+                    noOptionsMessage={() => 'No models available'}
+                    styles={selectStyles<AIModelOption>({
+                      controlWidth: '100%',
+                    })}
+                    menuPortalTarget={document.body}
+                    menuPosition="fixed"
+                  />
+                </div>
+              </div>
+
               <label className="inline-flex items-center gap-2 text-xs text-gray-700">
                 <input
                   type="checkbox"

@@ -20,29 +20,6 @@ type CategorizerOption = {
   label: string
 }
 
-type AIProviderOption = {
-  value: NonNullable<feature_Revision['ai_provider']>
-  label: string
-}
-
-type AIModelOption = {
-  value: string
-  label: string
-}
-
-const aiProviderOptions: AIProviderOption[] = [
-  { value: 'openai', label: 'OpenAI' },
-  { value: 'ollama', label: 'Ollama' },
-]
-
-const aiModelOptionsByProvider: Record<
-  NonNullable<feature_Revision['ai_provider']>,
-  AIModelOption[]
-> = {
-  openai: [{ value: 'gpt-5-mini', label: 'gpt-5-mini' }],
-  ollama: [{ value: 'gpt-oss:120b', label: 'gpt-oss:120b' }],
-}
-
 export function CreateRevisionModal({
   isOpen,
   onClose,
@@ -53,9 +30,6 @@ export function CreateRevisionModal({
   const [type, setType] = useState<'prompt' | 'categorizer'>('prompt')
   const [prompt, setPrompt] = useState('')
   const [categorizer, setCategorizer] = useState('')
-  const [aiProvider, setAIProvider] =
-    useState<feature_Revision['ai_provider']>()
-  const [aiModel, setAIModel] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const {
@@ -70,11 +44,6 @@ export function CreateRevisionModal({
       })),
     [categorizerOptions],
   )
-  const aiModelOptions = useMemo<AIModelOption[]>(
-    () => (aiProvider ? (aiModelOptionsByProvider[aiProvider] ?? []) : []),
-    [aiProvider],
-  )
-
   useEffect(() => {
     if (isOpen) {
       const latestType = latestRevision?.prompt?.trim()
@@ -85,8 +54,6 @@ export function CreateRevisionModal({
       setType(latestType)
       setPrompt(latestRevision?.prompt ?? '')
       setCategorizer(latestRevision?.categorizer ?? '')
-      setAIProvider(latestRevision?.ai_provider)
-      setAIModel(latestRevision?.ai_model ?? '')
       setError(null)
       setLoading(false)
     }
@@ -100,46 +67,11 @@ export function CreateRevisionModal({
     setCategorizer('')
   }, [categorizer, categorizerOptions, isOpen, type])
 
-  useEffect(() => {
-    if (!isOpen || type !== 'prompt') return
-
-    if (!aiProvider) {
-      if (aiModel) setAIModel('')
-      return
-    }
-
-    if (aiModelOptions.some((option) => option.value === aiModel)) return
-
-    setAIModel(aiModelOptions[0]?.value ?? '')
-  }, [aiModel, aiModelOptions, aiProvider, isOpen, type])
-
   const handleSubmit = async (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault()
     const trimmedPrompt = prompt.trim()
     const trimmedCategorizer = categorizer.trim()
-    const trimmedAIModel = aiModel.trim()
     const selectedValue = type === 'prompt' ? trimmedPrompt : trimmedCategorizer
-
-    if (type === 'prompt' && !aiProvider) {
-      setError('AI provider is required.')
-      return
-    }
-
-    if (type === 'prompt' && !trimmedAIModel) {
-      setError('AI model is required.')
-      return
-    }
-
-    if (
-      type === 'prompt' &&
-      (!aiProvider ||
-        !aiModelOptionsByProvider[aiProvider]?.some(
-          (option) => option.value === trimmedAIModel,
-        ))
-    ) {
-      setError('AI model must be selected from the allowed list.')
-      return
-    }
 
     if (!selectedValue) {
       setError(
@@ -162,8 +94,6 @@ export function CreateRevisionModal({
       await EditionFeatureRevisionsService.postFeaturesRevisions({
         featureId,
         revision: {
-          ai_provider: type === 'prompt' ? aiProvider : undefined,
-          ai_model: type === 'prompt' ? trimmedAIModel : undefined,
           prompt: type === 'prompt' ? trimmedPrompt : undefined,
           categorizer: type === 'categorizer' ? trimmedCategorizer : undefined,
         },
@@ -265,57 +195,6 @@ export function CreateRevisionModal({
               />
             </div>
           )}
-
-          {type === 'prompt' && (
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div className="flex flex-col gap-2">
-                <label className="block text-sm font-medium text-gray-700">
-                  AI provider
-                </label>
-                <Select<AIProviderOption, false>
-                  options={aiProviderOptions}
-                  value={
-                    aiProviderOptions.find(
-                      (option) => option.value === aiProvider,
-                    ) ?? null
-                  }
-                  onChange={(option) => setAIProvider(option?.value)}
-                  isDisabled={loading}
-                  placeholder="Select a provider"
-                  styles={selectStyles<AIProviderOption>({
-                    controlWidth: '100%',
-                  })}
-                  menuPortalTarget={document.body}
-                  menuPosition="fixed"
-                />
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <label className="block text-sm font-medium text-gray-700">
-                  AI model
-                </label>
-                <Select<AIModelOption, false>
-                  options={aiModelOptions}
-                  value={
-                    aiModelOptions.find((option) => option.value === aiModel) ??
-                    null
-                  }
-                  onChange={(option) => setAIModel(option?.value ?? '')}
-                  isDisabled={loading || !aiProvider}
-                  placeholder={
-                    aiProvider ? 'Select a model' : 'Select a provider first'
-                  }
-                  noOptionsMessage={() => 'No models available'}
-                  styles={selectStyles<AIModelOption>({
-                    controlWidth: '100%',
-                  })}
-                  menuPortalTarget={document.body}
-                  menuPosition="fixed"
-                />
-              </div>
-            </div>
-          )}
-
           <ErrorMessage message={error} />
         </div>
 

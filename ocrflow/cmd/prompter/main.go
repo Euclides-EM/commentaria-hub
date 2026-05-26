@@ -94,11 +94,9 @@ func main() {
 		f.Name = featName
 
 		r := &feature.Revision{
-			Scope:      defScope,
-			FeatureID:  fID,
-			Prompt:     promptText,
-			AIProvider: feature.AIProvider(strings.TrimSpace(cfg.aiProvider)),
-			AIModel:    strings.TrimSpace(cfg.aiModel),
+			Scope:     defScope,
+			FeatureID: fID,
+			Prompt:    promptText,
 		}
 		r.ID = rID
 		r.Name = strings.TrimSpace(cfg.revisionName)
@@ -113,9 +111,11 @@ func main() {
 	}
 
 	exec := &feature.Execution{
-		Scope: execScope,
-		Keys:  keys,
-		Apply: applyItems,
+		Scope:      execScope,
+		Keys:       keys,
+		Apply:      applyItems,
+		AIProvider: feature.AIProvider(strings.TrimSpace(cfg.aiProvider)),
+		AIModel:    strings.TrimSpace(cfg.aiModel),
 	}
 	fmt.Printf("Running ephemeral execution for %s\n", targetLabel)
 	results, err := ocrApp.Deps.FeatureExecutionSvc.ExecuteEphemeral(exec, revs, feats)

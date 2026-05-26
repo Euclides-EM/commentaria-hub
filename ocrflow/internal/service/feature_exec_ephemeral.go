@@ -16,6 +16,9 @@ func (fe *Execution) ExecuteEphemeral(exec *feature.Execution, revisions []*feat
 	if exec == nil {
 		return nil, fmt.Errorf("execution is required")
 	}
+	if err := validateExecutionAIConfig(exec); err != nil {
+		return nil, err
+	}
 	if len(exec.Apply) == 0 {
 		return nil, fmt.Errorf("execution apply is required")
 	}
@@ -53,7 +56,7 @@ func (fe *Execution) ExecuteEphemeral(exec *feature.Execution, revisions []*feat
 		case feature.ScopeTypeDataset:
 			batch, err = fe.annotationApplyFunc(exec, key, actions)()
 		case feature.ScopeTypeEditions:
-			batch, err = fe.editionApplyFunc(key, actions, exec.ID)()
+			batch, err = fe.editionApplyFunc(key, actions, exec.ID, exec.AIProvider, exec.AIModel)()
 		default:
 			return nil, fmt.Errorf("invalid execution scope: %s", exec.Scope.Type)
 		}

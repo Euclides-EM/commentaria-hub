@@ -50,21 +50,8 @@ func (fr *Revision) GetFeatureRevisionInScope(scope feature.DefScope, featureId,
 }
 
 func (fr *Revision) validate(m *feature.Revision) error {
-	m.AIProvider = feature.AIProvider(strings.TrimSpace(string(m.AIProvider)))
-	m.AIModel = strings.TrimSpace(m.AIModel)
 	m.Prompt = strings.TrimSpace(m.Prompt)
 	m.Categorizer = strings.TrimSpace(m.Categorizer)
-	if m.AIProvider == "" {
-		return errors.New("ai_provider is required")
-	}
-	switch m.AIProvider {
-	case feature.AIProviderOpenAI, feature.AIProviderOllama:
-	default:
-		return fmt.Errorf("ai_provider %q is not supported", m.AIProvider)
-	}
-	if m.AIModel == "" {
-		return errors.New("ai_model is required")
-	}
 	if m.Prompt == "" && m.Categorizer == "" {
 		return errors.New("either prompt or categorizer is required")
 	}

@@ -2,11 +2,14 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { feature_AIProvider } from './feature_AIProvider';
 import type { feature_ExecScope } from './feature_ExecScope';
 import type { feature_ExecutionApplyItem } from './feature_ExecutionApplyItem';
 import type { feature_ExecutionPolicy } from './feature_ExecutionPolicy';
 import type { feature_ExecutionStatus } from './feature_ExecutionStatus';
 export type feature_Execution = {
+    ai_model?: string;
+    ai_provider?: feature_AIProvider;
     apply?: Array<feature_ExecutionApplyItem>;
     readonly created_at?: string;
     description?: string;

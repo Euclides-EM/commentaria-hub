@@ -30,52 +30,6 @@ export class ModelsService {
         });
     }
     /**
-     * Upload a Model
-     * Upload a new model to the system.
-     * @returns model_Model OK
-     * @throws ApiError
-     */
-    public static postModels({
-        file,
-        name,
-        description,
-        baseAnnotations,
-        baseModelId,
-    }: {
-        /**
-         * Model file to upload
-         */
-        file: Blob,
-        /**
-         * Name of the model
-         */
-        name?: string,
-        /**
-         * Description of the model
-         */
-        description?: string,
-        /**
-         * Comma-separated list of base annotation IDs in the format <dataset_id>:<annotation_id>
-         */
-        baseAnnotations?: string,
-        /**
-         * ID of the base model this model is derived from
-         */
-        baseModelId?: string,
-    }): CancelablePromise<model_Model> {
-        return __request(OpenAPI, {
-            method: 'POST',
-            url: '/models_upload',
-            formData: {
-                'file': file,
-                'name': name,
-                'description': description,
-                'base_annotations': baseAnnotations,
-                'base_model_id': baseModelId,
-            },
-        });
-    }
-    /**
      * Update a Model
      * Update an existing model.
      * @returns model_Model OK
@@ -130,6 +84,52 @@ export class ModelsService {
             },
             query: {
                 'deep': deep,
+            },
+        });
+    }
+    /**
+     * Upload a Model
+     * Upload a new model to the system.
+     * @returns model_Model OK
+     * @throws ApiError
+     */
+    public static postModelsUpload({
+        file,
+        name,
+        description,
+        baseAnnotations,
+        baseModelId,
+    }: {
+        /**
+         * Model file to upload
+         */
+        file: Blob,
+        /**
+         * Name of the model
+         */
+        name?: string,
+        /**
+         * Description of the model
+         */
+        description?: string,
+        /**
+         * Comma-separated list of base annotation IDs in the format <dataset_id>:<annotation_id>
+         */
+        baseAnnotations?: string,
+        /**
+         * ID of the base model this model is derived from
+         */
+        baseModelId?: string,
+    }): CancelablePromise<model_Model> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/models_upload',
+            formData: {
+                'file': file,
+                'name': name,
+                'description': description,
+                'base_annotations': baseAnnotations,
+                'base_model_id': baseModelId,
             },
         });
     }

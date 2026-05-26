@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	fpstore "github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
@@ -43,11 +44,6 @@ type executionActions struct {
 	promptFeatures       []*feature.Feature
 	categorizerRevisions []*feature.Revision
 	categorizerFeatures  []*feature.Feature
-}
-
-type aiConfigKey struct {
-	provider feature.AIProvider
-	model    string
 }
 
 func (a *executionActions) empty() bool {
@@ -90,6 +86,9 @@ func (fe *Execution) GetFeatureExecution(executionId string) (*feature.Execution
 }
 
 func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.Execution, error) {
+	if err := validateExecutionAIConfig(exec); err != nil {
+		return nil, err
+	}
 	exec.ID = idgen.GenerateID("exec")
 	exec.Status = feature.ExecutionStatusInProgress
 	exec.StatusReason = ""
@@ -113,7 +112,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 		case feature.ScopeTypeDataset:
 			applyFuncs = append(applyFuncs, fe.annotationApplyFunc(exec, key, actions))
 		case feature.ScopeTypeEditions:
-			applyFuncs = append(applyFuncs, fe.editionApplyFunc(key, actions, exec.ID))
+			applyFuncs = append(applyFuncs, fe.editionApplyFunc(key, actions, exec.ID, exec.AIProvider, exec.AIModel))
 		default:
 			return nil, fmt.Errorf("invalid execution scope: %s", exec.Scope.Type)
 		}
@@ -173,6 +172,23 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	}(exec.ID, applyFuncs, exec.Policy)
 
 	return exec, nil
+}
+
+func validateExecutionAIConfig(exec *feature.Execution) error {
+	if exec == nil {
+		return errors.New("execution is required")
+	}
+	exec.AIProvider = feature.AIProvider(strings.TrimSpace(string(exec.AIProvider)))
+	exec.AIModel = strings.TrimSpace(exec.AIModel)
+	switch exec.AIProvider {
+	case feature.AIProviderOpenAI, feature.AIProviderOllama:
+	default:
+		return fmt.Errorf("ai_provider %q is not supported", exec.AIProvider)
+	}
+	if exec.AIModel == "" {
+		return errors.New("ai_model is required")
+	}
+	return nil
 }
 
 func (fe *Execution) loadExecutionSkipState(exec *feature.Execution) (*features.ExecutionSkipState, error) {
@@ -291,28 +307,6 @@ func (fe *Execution) CancelFeatureExecution(executionId string) (*feature.Execut
 	return exec, nil
 }
 
-type promptRevisionGroup struct {
-	revisions []*feature.Revision
-	features  []*feature.Feature
-}
-
-func groupPromptRevisionsByAIConfig(revisions []*feature.Revision, features []*feature.Feature) []promptRevisionGroup {
-	groupIndexes := make(map[aiConfigKey]int)
-	var groups []promptRevisionGroup
-	for i, rev := range revisions {
-		key := aiConfigKey{provider: rev.AIProvider, model: rev.AIModel}
-		groupIndex, ok := groupIndexes[key]
-		if !ok {
-			groupIndexes[key] = len(groups)
-			groups = append(groups, promptRevisionGroup{})
-			groupIndex = len(groups) - 1
-		}
-		groups[groupIndex].revisions = append(groups[groupIndex].revisions, rev)
-		groups[groupIndex].features = append(groups[groupIndex].features, features[i])
-	}
-	return groups
-}
-
 func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (featureNameToIndex map[string]int, definitions []string, outputFormat string) {
 	featureNameToIndex = make(map[string]int)
 	for i := range frs {
@@ -329,8 +323,13 @@ func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (fea
 	return
 }
 
-func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string) ([]*feature.Result, error) {
+func executionResultDescription(aiProvider feature.AIProvider, aiModel string) string {
+	return fmt.Sprintf("%s / %s", aiProvider, aiModel)
+}
+
+func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string, aiProvider feature.AIProvider, aiModel string) ([]*feature.Result, error) {
 	var results []*feature.Result
+	description := executionResultDescription(aiProvider, aiModel)
 	for fn, rawValue := range rawFields {
 		idx, ok := featureNameToIndex[fn]
 		if !ok {
@@ -365,6 +364,10 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 			Name:     "llm",
 		}
 		res := &feature.Result{
+			Meta: common.Meta{
+				Name:        fes[idx].Name,
+				Description: description,
+			},
 			Scope:     scope,
 			FeatureID: fes[idx].ID,
 			Key:       key,
