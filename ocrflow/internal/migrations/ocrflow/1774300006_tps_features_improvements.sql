@@ -105,6 +105,68 @@ INSERT INTO feature_revisions (
     id, name, description, created_at, updated_at,
     dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
 ) VALUES (
+    '71d1be08-4bb6-47d0-b31b-0c599353e775',
+    'v2',
+    'Updated revision after llm change',
+    '2026-03-01T15:37:08Z',
+    '2026-03-01T15:37:08Z',
+    'tps',
+    'dataset',
+    'date_in_imprint',
+    -- v1 prompt: Mentions of the date, usually in the form of a year, when the book was printed or published.
+    'Mentions of the year the book was printed or published. The year may appear in standard decimal numerals (e.g. 1604) but is more commonly written in Roman numerals (e.g. MDCIV). Identify and extract only the year itself, not surrounding words, dates, printers, or publication details.',
+    '',
+    'ollama',
+    'gpt-oss:120b'
+)
+ON CONFLICT(id) DO UPDATE SET
+    name = excluded.name,
+    description = excluded.description,
+    created_at = excluded.created_at,
+    updated_at = excluded.updated_at,
+    dataset_id = excluded.dataset_id,
+    scope = excluded.scope,
+    feature_id = excluded.feature_id,
+    prompt = excluded.prompt,
+    categorizer = excluded.categorizer,
+    ai_provider = excluded.ai_provider,
+    ai_model = excluded.ai_model;
+
+INSERT INTO feature_revisions (
+    id, name, description, created_at, updated_at,
+    dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+) VALUES (
+    '475f6bcb-b233-4fe1-b290-f15ce52e1f62',
+    'v2',
+    'Updated revision after llm change',
+    '2026-03-01T15:37:08Z',
+    '2026-03-01T15:37:08Z',
+    'tps',
+    'dataset',
+    'location_in_imprint',
+    -- v1 prompt: Mentions of the city or town where the book was printed or published. Do not include full addresses, just the city or town name.
+    'Mentions of the city or town where the book was printed or published. The location name may appear in early modern, Latinized, archaic, or historical spellings/forms (e.g. ARGENTORATI for Strasbourg). Identify and extract only the city or town name itself, not printers, publishers, countries, regions, or full addresses.',
+    '',
+    'ollama',
+    'gpt-oss:120b'
+)
+ON CONFLICT(id) DO UPDATE SET
+    name = excluded.name,
+    description = excluded.description,
+    created_at = excluded.created_at,
+    updated_at = excluded.updated_at,
+    dataset_id = excluded.dataset_id,
+    scope = excluded.scope,
+    feature_id = excluded.feature_id,
+    prompt = excluded.prompt,
+    categorizer = excluded.categorizer,
+    ai_provider = excluded.ai_provider,
+    ai_model = excluded.ai_model;
+
+INSERT INTO feature_revisions (
+    id, name, description, created_at, updated_at,
+    dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+) VALUES (
     '26d7bc25-4ed8-4b2f-b8f7-6ca2a4f7d102',
     'v2',
     'Updated revision after llm change',
@@ -472,3 +534,83 @@ ON CONFLICT(id) DO UPDATE SET
     categorizer = excluded.categorizer,
     ai_provider = excluded.ai_provider,
     ai_model = excluded.ai_model;
+
+INSERT INTO feature_revisions (
+    id, name, description, created_at, updated_at,
+    dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+) VALUES (
+             '86e6ad11-7f39-4672-aaa9-3ae11092b479',
+             'v2',
+             'Updated revision after llm change',
+             '2026-05-22T14:19:49Z',
+             '2026-05-22T14:19:49Z',
+             NULL,
+             'editions',
+             'm_classifier',
+             'a list of category classification strings.
+
+For each category below, determine whether the edition should be classified as:
+- **"primary"**
+  The category is a central, explicit, and substantial subject of the edition. The work is significantly devoted to teaching, discussing, or treating the topic itself. A work may contain multiple primary categories.
+- **"secondary"**
+  The category is clearly present and meaningfully relevant, but not a principal focus of the edition. The topic appears in support of another subject, or occupies only a limited portion of the work.
+- **"unrelated"**
+  The category is not meaningfully relevant to the edition based on the provided metadata.
+- **"unknown"**
+  The metadata is insufficient, ambiguous, or unclear for determining relevance.
+
+Important Classification Principles:
+
+- Classify categories based on whether the work is explicitly about that subject, not merely because the subject is indirectly required or incidentally used.
+  - Example: a military engineering text that uses arithmetic is **not** automatically about Arithmetic.
+  - Example: an astronomy text using trigonometric calculations is **not** automatically about Trigonometry unless trigonometric methods themselves are taught or discussed.
+
+- Prefer specificity:
+  - If a topic is primarily covered under a more specific category, avoid assigning broader overlapping categories as primary unless the broader topic is also explicitly treated in its own right.
+
+- Do not infer categories from general mathematical content alone.
+  - Only assign a category when the metadata suggests explicit instructional, theoretical, or practical treatment of that subject.
+
+Return one string per category using this exact format:
+
+`"Category Name::classification_value"`
+
+Use only the exact category names below and only the allowed classification values.
+
+Classify every category:
+- **Arithmetic**: explicit treatment of numerical calculation, arithmetic instruction, operations with numbers, fractions, roots, numerical methods, or numerical tables. Do not classify works as Arithmetic merely because calculations are used incidentally.
+- **Commercial Mathematics**: commercial arithmetic, bookkeeping, currency exchange, profit and loss, interest, partnerships, barter, or trade-related weights and measures.
+- **Military Engineering**: artillery, fortification, siegecraft, military surveying, camp organization, or mathematics explicitly applied to military practice.
+- **Construction**: building practice, construction methods, masonry, carpentry, structural work, or practical building operations.
+- **Practical Geometry**: explicitly practical or operational geometry for measurement, construction, mensuration, or applied geometrical procedures. Use this category mainly for general practical geometry works or practical geometrical material not more specifically covered by other categories such as Surveying, Perspective, Architecture, or Cartography.
+- **Surveying**: land measurement only, including fields, boundaries, triangulation, agrimensura, and terrestrial distance or height measurement. Do not classify general measurement, navigation, or astronomical distance calculation as Surveying.
+- **Perspective**: artistic or mathematical perspective, visual projection, scenography, pictorial space, or perspective grids.
+- **Cartography**: mapmaking, map projection, topographical mapping, chart production, or mapping techniques.
+- **Architecture**: architectural theory, orders, building design, architectural proportion, or architectural drawing.
+- **Gnomonics & Horology**: sundials, clocks, dials, calendar devices, or methods and instruments for measuring time.
+- **Astronomy**: celestial motions, planets, stars, eclipses, astronomical tables, zodiac, planetary theory, spheres, or mathematical astronomy.
+- **Cosmography**: integrated descriptions of the cosmos combining celestial and terrestrial knowledge, often linking astronomy, geography, climates, coordinates, spheres, and world description.
+- **Geography**: terrestrial description, regions, climates, chorography, topography, latitude/longitude, places, or earth-focused spatial knowledge.
+- **Instrument Construction**: explicit instructions for designing or constructing mathematical, astronomical, surveying, navigational, or measuring instruments. This category applies to making instruments, not merely using them.
+- **Instrument Use**: instructions for operating or applying instruments such as astrolabes, quadrants, sectors, compasses, globes, geometric squares, or other measuring devices.
+- **Mechanics**: machines, statics, balances, weights, motion, hydraulics, mechanical devices, or mechanical principles.
+- **Theoretical Mathematics**: abstract, speculative, demonstrative, or foundational mathematics, including Euclidean geometry, algebra, theoretical arithmetic, proportions, conics, solid geometry, mathematical proofs, or mathematical method.
+- **Navigation**: nautical navigation, sailing, hydrography, pilotage, maritime routes, nautical astronomy, or sea charts.
+- **Music Theory**: mathematical music theory, harmonics, musical ratios, intervals, or quadrivial music.
+- **Trigonometry**: explicit treatment or instruction in plane or spherical trigonometry, including sine, cosine, tangent, secant functions, trigonometric tables, triangle calculation, or trigonometric methods themselves. Do not classify works as Trigonometry merely because trigonometric calculations are used in astronomy, surveying, or navigation.',
+             '',
+             'ollama',
+             'gpt-oss:120b'
+         )
+ON CONFLICT(id) DO UPDATE SET
+                              name = excluded.name,
+                              description = excluded.description,
+                              created_at = excluded.created_at,
+                              updated_at = excluded.updated_at,
+                              dataset_id = excluded.dataset_id,
+                              scope = excluded.scope,
+                              feature_id = excluded.feature_id,
+                              prompt = excluded.prompt,
+                              categorizer = excluded.categorizer,
+                              ai_provider = excluded.ai_provider,
+                              ai_model = excluded.ai_model;

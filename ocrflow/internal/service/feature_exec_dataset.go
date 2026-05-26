@@ -17,8 +17,9 @@ import (
 const datasetFeatureBatchSize = 5
 
 type featureGroup struct {
-	revisions []*feature.Revision
-	features  []*feature.Feature
+	revisions       []*feature.Revision
+	features        []*feature.Feature
+	textDescription string
 }
 
 func partitionFeatures(features []*feature.Feature, revisions []*feature.Revision, pred func(*feature.Feature) bool) (match, rest featureGroup) {
@@ -68,7 +69,7 @@ func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID,
 				revisions: group.revisions,
 				features:  group.features,
 			}, datasetFeatureBatchSize) {
-				r, err := fe.annotationPromptApplyFunc(ann, key, chunk.revisions, chunk.features, execID, textLanguage, fullText)()
+				r, err := fe.annotationPromptApplyFunc(ann, key, chunk.revisions, chunk.features, execID, textLanguage, fullText, promptGroup.textDescription)()
 				if err != nil {
 					execErrs = append(execErrs, err)
 				}
@@ -99,6 +100,8 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 
 		catImprint, catNonImprint := partitionFeatures(actions.categorizerFeatures, actions.categorizerRevisions, isImprintFeat)
 		promptImprint, promptNonImprint := partitionFeatures(actions.promptFeatures, actions.promptRevisions, isImprintFeat)
+		promptImprint.textDescription = "a title page"
+		promptNonImprint.textDescription = "the imprint section of a title page"
 
 		needImprint := len(catImprint.features)+len(promptImprint.features) > 0
 		needNonImprint := len(catNonImprint.features)+len(promptNonImprint.features) > 0
@@ -140,7 +143,7 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 	}
 }
 
-func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) applyFunc {
+func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string, textDescription string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		if strings.TrimSpace(fullText) == "" {
 			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
@@ -155,7 +158,7 @@ func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key s
 			prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from title pages of early modern European textbooks.
 
 You will be given:
-- The transcribed text of a title page in %s.
+- The transcribed text of %s in %s.
 
 Your task is to extract specific paratextual features from the transcription and return them as a JSON object.
 
@@ -180,7 +183,7 @@ Definitions:
 
 Transcribed text:
 %s
-`, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
+`, textDescription, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
 
 			contextDesc := fmt.Sprintf("dataset %s and key %s", ann.DatasetID, key)
 			rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
