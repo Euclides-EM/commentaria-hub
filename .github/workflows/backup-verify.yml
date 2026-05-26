@@ -39,8 +39,7 @@ jobs:
           max_backup_size_bytes=$((MAX_BACKUP_SIZE_GB * 1024 * 1024 * 1024))
           backup_listing_json="$(
             rclone lsjson "${DRIVE_REMOTE_NAME}:" \
-              --drive-root-folder-id="${DRIVE_ROOT_FOLDER_ID}" \
-              --files-only
+              --drive-root-folder-id="${DRIVE_ROOT_FOLDER_ID}"
           )"
 
           mapfile -t backups < <(
@@ -54,7 +53,7 @@ jobs:
           )
 
           if [ "${#backups[@]}" -eq 0 ]; then
-            echo "No backup ZIPs found in drive root folder ${DRIVE_ROOT_FOLDER_ID}."
+            echo "No backup entries found in drive root folder ${DRIVE_ROOT_FOLDER_ID}."
             exit 1
           fi
 
@@ -78,7 +77,7 @@ jobs:
           done
 
           if [ "${found_recent}" != true ]; then
-            echo "No recent backup ZIP was updated in the last ${LOOKBACK_HOURS} hours."
+            echo "No recent backup entry was updated in the last ${LOOKBACK_HOURS} hours."
             if [ -n "${latest_backup_name}" ]; then
               echo "Latest backup found: ${latest_backup_name} at ${latest_backup_time}"
             fi
