@@ -219,7 +219,13 @@ export function FeaturesDefinitionsTab() {
         .toLowerCase()
       return haystack.includes(trimmed)
     })
-  }, [datasetFilterItems.length, rows, searchQuery, selectedDatasets, selectedScopes])
+  }, [
+    datasetFilterItems.length,
+    rows,
+    searchQuery,
+    selectedDatasets,
+    selectedScopes,
+  ])
 
   const updateFeatureMutation = useMutation({
     mutationFn: ({
