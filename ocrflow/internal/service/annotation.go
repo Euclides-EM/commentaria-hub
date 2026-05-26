@@ -212,24 +212,13 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 }
 
 func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule.ApplyRules) (*annotation.Annotation, error) {
-	ann, err := a.annotationStore.GetAnnotation(datasetID, id)
+	ann, err := a.prepareApplyRulesTarget(datasetID, id, aar)
 	if err != nil {
-		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
-	}
-	if ann == nil {
-		return nil, fmt.Errorf("annotation not found")
+		return nil, err
 	}
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
-	}
-
-	if aar.Action == annotationrule.ApplyRulesActionCreateNew {
-		ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description, aar.CopyFeatureResults)
-		if err != nil {
-			return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
-		}
-		ann.GroundTruth = false
 	}
 
 	release, err := a.acquireRuleRun(ann.DatasetID, ann.ID)
@@ -247,6 +236,31 @@ func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule
 
 	if err := a.annotationStore.UpdateAnnotation(ann); err != nil {
 		return nil, fmt.Errorf("failed to update annotation in store: %w", err)
+	}
+
+	return ann, nil
+}
+
+func (a *Annotation) prepareApplyRulesTarget(datasetID string, id string, aar *annotationrule.ApplyRules) (*annotation.Annotation, error) {
+	ann, err := a.annotationStore.GetAnnotation(datasetID, id)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
+	}
+	if ann == nil {
+		return nil, fmt.Errorf("annotation not found")
+	}
+
+	if aar.Action != annotationrule.ApplyRulesActionCreateNew {
+		return ann, nil
+	}
+
+	ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description, aar.CopyFeatureResults)
+	if err != nil {
+		return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
+	}
+	ann.GroundTruth = false
+	if err := a.annotationStore.UpdateAnnotation(ann); err != nil {
+		return nil, fmt.Errorf("failed to update duplicated annotation in store: %w", err)
 	}
 
 	return ann, nil

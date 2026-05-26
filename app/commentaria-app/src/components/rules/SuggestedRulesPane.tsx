@@ -1,10 +1,7 @@
 import { useState } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
 import { useAppState } from '../../context/useAppState'
-import {
-  AnnotationsApplyRulesService,
-  type annotation_Annotation,
-} from '@hub-api'
+import { AnnotationsApplyRulesService } from '@hub-api'
 import { RuleEditModal } from './RuleEditModal.tsx'
 import { useDatasetSuggestedRules } from '../../queries/datasets.ts'
 import {
@@ -22,13 +19,6 @@ import {
   runningIntegrationJobsQueryKey,
   useRunningIntegrationJobsQuery,
 } from '../../queries/integrations.ts'
-
-const isAnnotationResponse = (
-  value: unknown,
-): value is annotation_Annotation & { id?: string; dataset_id?: string } =>
-  typeof value === 'object' &&
-  value !== null &&
-  ('dataset_id' in value || 'applied_rules' in value || 'pages' in value)
 
 export function SuggestedRulesPane() {
   const queryClient = useQueryClient()
@@ -90,11 +80,7 @@ export function SuggestedRulesPane() {
     })
     refetchRules()
     refetchAnnotation()
-    if (
-      isAnnotationResponse(result) &&
-      result.id &&
-      result.id !== annotation.id
-    ) {
+    if (result.id && result.id !== annotation.id) {
       setState({ annotationId: result.id })
     }
   }
