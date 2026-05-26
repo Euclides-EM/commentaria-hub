@@ -37,17 +37,19 @@ jobs:
           cutoff_epoch="$(date -u -d "${LOOKBACK_HOURS} hours ago" +%s)"
           min_backup_size_bytes=$((MIN_BACKUP_SIZE_GB * 1024 * 1024 * 1024))
           max_backup_size_bytes=$((MAX_BACKUP_SIZE_GB * 1024 * 1024 * 1024))
-          mapfile -t backups < <(
+          backup_listing_json="$(
             rclone lsjson "${DRIVE_REMOTE_NAME}:" \
               --drive-root-folder-id="${DRIVE_ROOT_FOLDER_ID}" \
-              --files-only \
+              --files-only
+          )"
+
+          mapfile -t backups < <(
+            printf '%s\n' "${backup_listing_json}" \
             | jq -r --arg prefix "${BACKUP_FILE_PREFIX}" '.[] | select(.Name | startswith($prefix)) | [.Name, .ModTime] | @tsv'
           )
 
           mapfile -t recent_backups < <(
-            rclone lsjson "${DRIVE_REMOTE_NAME}:" \
-              --drive-root-folder-id="${DRIVE_ROOT_FOLDER_ID}" \
-              --files-only \
+            printf '%s\n' "${backup_listing_json}" \
             | jq -r --arg prefix "${BACKUP_FILE_PREFIX}" '.[] | select(.Name | startswith($prefix)) | [.Name, .ModTime, (.Size | tostring)] | @tsv'
           )
 
