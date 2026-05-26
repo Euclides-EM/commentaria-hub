@@ -57,18 +57,29 @@ jobs:
           fi
 
           found_recent=false
+          latest_backup_name=""
+          latest_backup_time=""
+          latest_backup_epoch=0
           for entry in "${backups[@]}"; do
             name="${entry%%$'\t'*}"
             mod_time="${entry#*$'\t'}"
             mod_epoch="$(date -u -d "${mod_time}" +%s)"
             echo "${name} ${mod_time}"
+            if [ "${mod_epoch}" -gt "${latest_backup_epoch}" ]; then
+              latest_backup_epoch="${mod_epoch}"
+              latest_backup_name="${name}"
+              latest_backup_time="${mod_time}"
+            fi
             if [ "${mod_epoch}" -ge "${cutoff_epoch}" ]; then
               found_recent=true
             fi
           done
 
           if [ "${found_recent}" != true ]; then
-            echo "No backup ZIP was updated in the last ${LOOKBACK_HOURS} hours."
+            echo "No recent backup ZIP was updated in the last ${LOOKBACK_HOURS} hours."
+            if [ -n "${latest_backup_name}" ]; then
+              echo "Latest backup found: ${latest_backup_name} at ${latest_backup_time}"
+            fi
             exit 1
           fi
 
