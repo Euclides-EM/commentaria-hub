@@ -1,3 +1,5 @@
+-- Drops ai_provider and ai_model from feature_revisions by rebuilding the table
+-- without those columns, because AI configuration now lives on feature executions.
 PRAGMA foreign_keys = OFF;
 
 CREATE TABLE IF NOT EXISTS feature_revisions_execution_ai_config_new
