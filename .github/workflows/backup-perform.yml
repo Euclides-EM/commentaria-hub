@@ -1,0 +1,26 @@
+name: backup-perform
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # every day at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  API_BASE: https://euclides.huma-num.fr/commentaria
+
+jobs:
+  perform-backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger backup
+        env:
+          GH_TOKEN: ${{ secrets.PAT_LIRI }}
+        run: |
+          curl --fail --silent --show-error \
+            "${API_BASE}/v1/backups?async=true&sync_to_drive=true" \
+            -X POST \
+            -H 'Accept: application/json' \
+            -H "Authorization: Bearer ${GH_TOKEN}"
