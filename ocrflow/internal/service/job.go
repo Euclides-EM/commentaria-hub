@@ -77,7 +77,6 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 
 func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 	j.run(jb, "annotation rule apply", func() (any, error) {
-		time.Sleep(2 * time.Minute)
 		ann, err := j.annotations.ExecuteApplyRules(jb.Annotation.DatasetID, jb.Annotation.ID, jb.Rules)
 		if err != nil {
 			return nil, err
