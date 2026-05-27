@@ -2,18 +2,13 @@ package llm
 
 import (
 	"context"
-	"errors"
 	"log"
-	"net"
-	"net/http"
-	"os"
 	"regexp"
-	"strconv"
-	"strings"
 	"time"
 
+	phttp "github.com/MiaMish/elements-dh/ocrflow/pkg/http"
 	"github.com/avast/retry-go"
-	"github.com/openai/openai-go/v3"
+	"github.com/samber/lo"
 )
 
 const (
@@ -25,11 +20,11 @@ const (
 
 var retryAfterMessagePattern = regexp.MustCompile(`Please try again in ([0-9hms.]+)`)
 
-func executeWithRetries(ctx context.Context, model string, call func() error) (uint, error) {
-	return executeWithRetriesForAttempts(ctx, model, maxRateLimitRetries+1, call)
+func executeWithRetries(ctx context.Context, call func() error) (uint, error) {
+	return executeWithRetriesForAttempts(ctx, maxRateLimitRetries+1, call)
 }
 
-func executeWithRetriesForAttempts(ctx context.Context, model string, attemptsLimit uint, call func() error) (uint, error) {
+func executeWithRetriesForAttempts(ctx context.Context, attemptsLimit uint, call func() error) (uint, error) {
 	var attempts uint
 	err := retry.Do(
 		func() error {
@@ -52,133 +47,37 @@ func executeWithRetriesForAttempts(ctx context.Context, model string, attemptsLi
 		}),
 		retry.OnRetry(func(n uint, err error) {
 			delay, _ := retryDelay(err, n+1)
-			log.Printf("debug: llm exec retry model=%s attempt=%d retry_in=%s", model, n+1, delay)
+			log.Printf("debug: llm exec retry attempt=%d retry_in=%s", n+1, delay)
 		}),
 	)
 	return attempts, err
 }
 
 func retryDelay(err error, attempt uint) (time.Duration, bool) {
-	if statusCode, resp, ok := retryableHTTPResponse(err); ok {
-		if !isRetryableStatusCode(statusCode) {
+	if statusCode, delay, ok := phttp.RetryableHTTPResponse(err); ok {
+
+		if !phttp.IsRetryableStatusCode(statusCode) {
 			return 0, false
 		}
-		if delay := retryDelayFromHeaders(resp); delay > 0 {
-			return minDuration(delay, maxRetryDelay), true
+		if delay > 0 {
+			return lo.Min([]time.Duration{delay, maxRetryDelay}), true
 		}
 		if delay := retryDelayFromMessage(err.Error()); delay > 0 {
-			return minDuration(delay, maxRetryDelay), true
+			return lo.Min([]time.Duration{delay, maxRetryDelay}), true
 		}
 		return retryBackoff(attempt), true
 	}
 
-	if !isRetryableNetworkError(err) {
+	if !phttp.IsRetryableNetworkError(err) {
 		return 0, false
 	}
 
 	return retryBackoff(attempt), true
 }
 
-type httpStatusError struct {
-	statusCode int
-	response   *http.Response
-	message    string
-}
-
-func (e *httpStatusError) Error() string {
-	return e.message
-}
-
-func newHTTPStatusError(statusCode int, response *http.Response, message string) error {
-	return &httpStatusError{
-		statusCode: statusCode,
-		response:   response,
-		message:    message,
-	}
-}
-
-func retryableHTTPResponse(err error) (int, *http.Response, bool) {
-	var apiErr *openai.Error
-	if errors.As(err, &apiErr) {
-		return apiErr.StatusCode, apiErr.Response, true
-	}
-
-	var httpErr *httpStatusError
-	if errors.As(err, &httpErr) {
-		return httpErr.statusCode, httpErr.response, true
-	}
-
-	return 0, nil, false
-}
-
-func isRetryableStatusCode(statusCode int) bool {
-	return statusCode == http.StatusTooManyRequests || (statusCode >= http.StatusInternalServerError && statusCode <= http.StatusNetworkAuthenticationRequired)
-}
-
 func retryBackoff(attempt uint) time.Duration {
 	backoff := baseRetryDelay * time.Duration(1<<(attempt-1))
-	return minDuration(backoff, maxRetryDelay)
-}
-
-func isRetryableNetworkError(err error) bool {
-	if err == nil {
-		return false
-	}
-
-	if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) || os.IsTimeout(err) {
-		return false
-	}
-
-	var netErr net.Error
-	if errors.As(err, &netErr) {
-		return true
-	}
-
-	var dnsErr *net.DNSError
-	if errors.As(err, &dnsErr) {
-		return true
-	}
-
-	var opErr *net.OpError
-	if errors.As(err, &opErr) {
-		return true
-	}
-
-	return false
-}
-
-func retryDelayFromHeaders(resp *http.Response) time.Duration {
-	if resp == nil {
-		return 0
-	}
-
-	for _, key := range []string{"retry-after-ms", "Retry-After-Ms"} {
-		if value := strings.TrimSpace(resp.Header.Get(key)); value != "" {
-			ms, err := strconv.Atoi(value)
-			if err == nil && ms > 0 {
-				return time.Duration(ms) * time.Millisecond
-			}
-		}
-	}
-
-	if value := strings.TrimSpace(resp.Header.Get("Retry-After")); value != "" {
-		if seconds, err := strconv.Atoi(value); err == nil && seconds > 0 {
-			return time.Duration(seconds) * time.Second
-		}
-		if at, err := http.ParseTime(value); err == nil {
-			return time.Until(at)
-		}
-	}
-
-	for _, key := range []string{"x-ratelimit-reset-requests", "x-ratelimit-reset-tokens"} {
-		if value := strings.TrimSpace(resp.Header.Get(key)); value != "" {
-			if delay, err := time.ParseDuration(value); err == nil && delay > 0 {
-				return delay
-			}
-		}
-	}
-
-	return 0
+	return lo.Min([]time.Duration{backoff, maxRetryDelay})
 }
 
 func retryDelayFromMessage(message string) time.Duration {
@@ -191,11 +90,4 @@ func retryDelayFromMessage(message string) time.Duration {
 		return 0
 	}
 	return delay
-}
-
-func minDuration(a, b time.Duration) time.Duration {
-	if a < b {
-		return a
-	}
-	return b
 }

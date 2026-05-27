@@ -15,6 +15,8 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	phttp "github.com/MiaMish/elements-dh/ocrflow/pkg/http"
 )
 
 type OllamaClient struct {
@@ -82,16 +84,16 @@ func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error
 	defer cancel()
 	log.Printf("debug: llm exec start provider=ollama model=%s attachment=%t", model, strings.TrimSpace(attachmentPath) != "")
 	var out OllamaGenerateResponse
-	attempts, err := executeWithRetriesForAttempts(ctx, model, maxNetworkRetries, func() error {
+	attempts, err := executeWithRetriesForAttempts(ctx, maxNetworkRetries, func() error {
 		req, err := http.NewRequestWithContext(ctx, http.MethodPost, endpoint, bytes.NewReader(body))
 		if err != nil {
 			return fmt.Errorf("llm exec: create ollama request: %w", err)
 		}
 		req.Header.Set("Content-Type", "application/json")
 		req.Header.Set("Accept", "application/json")
-	if c.authToken != "" {
-		req.Header.Set("Authorization", "Bearer "+c.authToken)
-	}
+		if c.authToken != "" {
+			req.Header.Set("Authorization", "Bearer "+c.authToken)
+		}
 
 		resp, err := c.httpClient.Do(req)
 		if err != nil {
@@ -104,17 +106,17 @@ func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error
 			return fmt.Errorf("llm exec: read ollama response: %w", err)
 		}
 		if resp.StatusCode < http.StatusOK || resp.StatusCode >= http.StatusMultipleChoices {
-			return newHTTPStatusError(resp.StatusCode, resp, fmt.Sprintf("llm exec: ollama generate api returned %d: %s", resp.StatusCode, truncateForError(respBody)))
+			return phttp.NewHTTPStatusError(resp.StatusCode, resp, fmt.Sprintf("llm exec: ollama generate api returned %d: %s", resp.StatusCode, truncateForError(respBody)))
 		}
 
-	if err := json.Unmarshal(respBody, &out); err != nil {
-		return fmt.Errorf("llm exec: decode ollama response: %w", err)
-	}
-	if strings.TrimSpace(out.Error) != "" {
-		log.Printf("debug: llm exec end provider=ollama model=%s duration=%s error=true", model, time.Since(startedAt))
-		return fmt.Errorf("llm exec: ollama generate api error after %s: %s", time.Since(startedAt), out.Error)
-	}
-	return nil
+		if err := json.Unmarshal(respBody, &out); err != nil {
+			return fmt.Errorf("llm exec: decode ollama response: %w", err)
+		}
+		if strings.TrimSpace(out.Error) != "" {
+			log.Printf("debug: llm exec end provider=ollama model=%s duration=%s error=true", model, time.Since(startedAt))
+			return fmt.Errorf("llm exec: ollama generate api error after %s: %s", time.Since(startedAt), out.Error)
+		}
+		return nil
 	})
 	if err != nil {
 		log.Printf("debug: llm exec end provider=ollama model=%s duration=%s attempts=%d error=true", model, time.Since(startedAt), attempts)
