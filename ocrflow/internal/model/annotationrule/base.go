@@ -40,7 +40,26 @@ type ApplyRules struct {
 	// Description is used only if the action is ApplyRulesActionCreateNew
 	Description string `json:"description"`
 	// CopyFeatureResults is used only if the action is ApplyRulesActionCreateNew. If true, the feature results of the original annotation will be copied to the new annotation.
-	CopyFeatureResults bool `json:"copy_feature_results"`
+	CopyFeatureResults bool          `json:"copy_feature_results"`
+	ExecutionMode      ExecutionMode `json:"execution_mode,omitempty"`
+}
+
+type ExecutionMode string
+
+const (
+	ExecutionModeSync  ExecutionMode = "sync"
+	ExecutionModeAsync ExecutionMode = "async"
+)
+
+func ToExecutionMode(value string, defaultVal ExecutionMode) ExecutionMode {
+	switch ExecutionMode(strings.ToLower(strings.TrimSpace(value))) {
+	case ExecutionModeAsync:
+		return ExecutionModeAsync
+	case ExecutionModeSync:
+		return ExecutionModeSync
+	default:
+		return defaultVal
+	}
 }
 
 type AnnotationRule interface {

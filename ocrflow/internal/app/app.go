@@ -61,7 +61,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	log.Printf("finished app for backup/restore if needed")
 
-	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.TrainingDir(), env.ModelsDir(), env.DiagramsDir())
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir())
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
 	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow", env.OptionalMigrations())
 	if err != nil {
@@ -132,7 +132,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 	langResolver := service.NewLanguagesResolver(editionSvc, datasetSvc)
 
-	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, editionSvc, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL))
+	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, editionSvc, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL, env.OllamaAuthToken))
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
@@ -152,8 +152,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		modelSvc,
 		fileSystemManager,
 	)
-	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir())
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
+	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc)
+	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
 
 	log.Printf("warming geo cache...")
 	if err := geoStore.WarmCache(); err != nil {
@@ -195,9 +196,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DatasetSvc:              datasetSvc,
 		DatasetImgSvc:           datasetImgSvc,
 		AnnotationSvc:           annotationSvc,
+		AnnotationRuleExecution: annotationRuleExecutionSvc,
 		AnnotationGroupSvc:      annotationGroupSvc,
 		ModelSvc:                modelSvc,
-		TrainSvc:                trainSvc,
 		MetadataDetailsSvc:      metadataDetailsSvc,
 		MetaStoreManager:        metaStoreManager,
 		AnnotationsUploader:     annotationUploader,
@@ -212,7 +213,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeaturePropertySvc:      service.NewFeatureProperty(),
 		DiagramCropsSvc:         diagramCropsSvc,
 		USTC:                    service.NewUSTC(),
-		JobSvc:                  service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, facsimileSvc, bckSvc),
+		JobSvc:                  jobSvc,
 		VCSMgt:                  vcsMgtSvc,
 		BackupSvc:               bckSvc,
 	}

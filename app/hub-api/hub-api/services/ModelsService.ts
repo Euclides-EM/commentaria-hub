@@ -65,7 +65,7 @@ export class ModelsService {
     }): CancelablePromise<model_Model> {
         return __request(OpenAPI, {
             method: 'POST',
-            url: '/models',
+            url: '/models_upload',
             formData: {
                 'file': file,
                 'name': name,

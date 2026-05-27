@@ -15,7 +15,6 @@ import (
 
 type Manager struct {
 	baseDir     string
-	trainingDir string
 	modelsDir   string
 	diagramsDir string
 }
@@ -29,10 +28,9 @@ var allowedDatasetEntries = map[string]struct{}{
 	"imgs":        {},
 }
 
-func NewFileSystemManager(baseDir, trainingDir, modelsDir, diagramsDir string) *Manager {
+func NewFileSystemManager(baseDir, modelsDir, diagramsDir string) *Manager {
 	return &Manager{
 		baseDir:     baseDir,
-		trainingDir: trainingDir,
 		modelsDir:   modelsDir,
 		diagramsDir: diagramsDir,
 	}

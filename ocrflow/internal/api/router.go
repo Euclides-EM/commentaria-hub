@@ -19,9 +19,9 @@ type Dependencies struct {
 	DatasetSvc              *service.Dataset
 	DatasetImgSvc           *service.DatasetImg
 	AnnotationSvc           *service.Annotation
+	AnnotationRuleExecution *service.AnnotationRuleExecution
 	AnnotationGroupSvc      *service.AnnotationGroup
 	ModelSvc                *service.Model
-	TrainSvc                *service.Train
 	MetadataDetailsSvc      *service.MetadataDetails
 	MetaStoreManager        *service.MetaStoreManager
 	AnnotationsUploader     *service.AnnotationsUploader
@@ -142,15 +142,16 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/jobs", httpwrapper.Get(h.ListJobs).Create(h.CreateJobs).Build())
 	api.HandleFunc("/jobs/{jobId}", httpwrapper.Get(h.GetJob).Build())
 
-	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).CreateFile(h.UploadModel).Build())
+	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
+	api.HandleFunc("/models_upload", httpwrapper.CreateFile(h.UploadModel).Build())
 	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Update(h.UpdateModel).Build())
-	api.HandleFunc("/train", httpwrapper.Create(h.TrainModel).Build())
 
 	api.HandleFunc("/annotation_rules", httpwrapper.Get(h.ListAnnotationRules).Build())
 	api.HandleFunc("/pipeline_stages", httpwrapper.Get(h.ListPipelineStages).Build())
 
 	api.HandleFunc("/store/cleanup/local", httpwrapper.Delete(h.CleanupLocalStore).Build())
 
+	api.HandleFunc("/ollama-proxy/api/generate", httpwrapper.Create(h.CreateOllamaRequest).Build())
 	// mount API under /api/v1
 	root.Handle("/api/v1/", http.StripPrefix("/api/v1", api))
 

@@ -79,10 +79,6 @@ func (m *Manager) ModelPath(model *model.Model) string {
 	return path.Join(m.modelsDir, model.LocalPath)
 }
 
-func (m *Manager) TrainingDir(t *model.Training) string {
-	return path.Join(m.trainingDir, t.ID)
-}
-
 func (m *Manager) DiagramCropsMetadataFile(editionKey string) string {
 	return path.Join(m.diagramsDir, editionKey+".json")
 }
