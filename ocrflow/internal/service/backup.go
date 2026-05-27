@@ -187,7 +187,7 @@ func (s *Backup) syncBackupToDrive(localPath, filename string, progress func(str
 			log.Printf("backup rclone progress: %s", strings.TrimSpace(message))
 		}
 	}
-	args := []string{"--progress", "--stats=10s", "--stats-one-line", "copy", localPath, s.rclone.RemotePath(filename)}
+	args := []string{"--progress", "--stats=10s", "--stats-one-line", "copyto", localPath, s.rclone.RemotePath(filename)}
 	if _, err := s.rclone.RunStreaming(progress, args...); err != nil {
 		return err
 	}
