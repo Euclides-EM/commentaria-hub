@@ -14,7 +14,7 @@ import (
 	"github.com/samber/lo"
 )
 
-const datasetFeatureBatchSize = 5
+const datasetFeatureBatchSize = 7
 
 type featureGroup struct {
 	revisions       []*feature.Revision
