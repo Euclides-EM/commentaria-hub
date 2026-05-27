@@ -61,7 +61,7 @@ func (c *OpenAIClient) Exec(model, prompt, attachmentPath string) (string, error
 	log.Printf("debug: llm exec start provider=openai model=%s attachment=%t", model, strings.TrimSpace(attachmentPath) != "")
 
 	var resp responses.Response
-	attempts, err := executeWithRetries(ctx, model, func() error {
+	attempts, err := executeWithRetries(ctx, func() error {
 		return client.Post(ctx, "/responses", payload, &resp, option.WithRequestTimeout(requestTimeout))
 	})
 	if err != nil {
