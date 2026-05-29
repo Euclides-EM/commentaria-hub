@@ -2,7 +2,7 @@ name: backup-perform
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight UTC
+    - cron: "0 0 * * 0" # between 00:00 and 01:00 every night of Sat-Sun UTC
   workflow_dispatch:
 
 permissions:
