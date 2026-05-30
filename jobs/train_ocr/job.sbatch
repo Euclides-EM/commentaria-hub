@@ -48,6 +48,7 @@ echo "WORK_DIR=${WORK_DIR}"
 echo "OUTPUT_DIR=${OUTPUT_DIR}"
 echo "MODEL_PREFIX=${MODEL_PREFIX}"
 echo "BASE_MODEL_PATH=${BASE_MODEL_PATH}"
+echo "MODEL_UPLOAD_URL=${MODEL_UPLOAD_URL:-}"
 echo "ZIP_PATHS=${ZIP_PATHS[*]}"
 
 if [[ -n "${BASE_MODEL_PATH}" && ! -f "${BASE_MODEL_PATH}" ]]; then
@@ -62,18 +63,32 @@ for z in "${ZIP_PATHS[@]}"; do
   fi
 done
 
-ZIP_ARGS=()
+TRAIN_ARGS=()
 for z in "${ZIP_PATHS[@]}"; do
-  ZIP_ARGS+=(--zip-path "$z")
+  TRAIN_ARGS+=(--zip-path "$z")
 done
 
-python "${PROJECT_ROOT}/script.py" \
-  "${ZIP_ARGS[@]}" \
-  --base-model-path "${BASE_MODEL_PATH}" \
-  --output-dir "${OUTPUT_DIR}" \
-  --work-dir "${WORK_DIR}" \
-  --model-file-prefix "${MODEL_PREFIX}" \
-  --unicode-norm "NFD" \
-  --batch-size 2 \
-  --learning-rate 1e-4 \
-  --device "cuda:0"
+if [[ -n "${MODEL_UPLOAD_URL:-}" ]]; then
+  TRAIN_ARGS+=(--model-upload-url "$MODEL_UPLOAD_URL")
+  TRAIN_ARGS+=(--model-name "${MODEL_NAME:-}")
+  TRAIN_ARGS+=(--model-description "${MODEL_DESCRIPTION:-}")
+  TRAIN_ARGS+=(--model-base-annotations "${MODEL_BASE_ANNOTATIONS:-}")
+  TRAIN_ARGS+=(--model-base-model-id "${MODEL_BASE_MODEL_ID:-}")
+  if [[ -n "${MODEL_UPLOAD_TOKEN:-}" ]]; then
+    TRAIN_ARGS+=(--model-upload-token "$MODEL_UPLOAD_TOKEN")
+  fi
+fi
+
+TRAIN_ARGS+=(--base-model-path "${BASE_MODEL_PATH}")
+TRAIN_ARGS+=(--output-dir "${OUTPUT_DIR}")
+TRAIN_ARGS+=(--work-dir "${WORK_DIR}")
+TRAIN_ARGS+=(--model-file-prefix "${MODEL_PREFIX}")
+TRAIN_ARGS+=(--unicode-norm "NFD")
+TRAIN_ARGS+=(--batch-size 2)
+TRAIN_ARGS+=(--learning-rate 1e-4)
+TRAIN_ARGS+=(--device "cuda:0")
+if [[ -n "${TRAIN_EPOCHS:-}" ]]; then
+  TRAIN_ARGS+=(--epochs "$TRAIN_EPOCHS")
+fi
+
+python "${PROJECT_ROOT}/script.py" "${TRAIN_ARGS[@]}"

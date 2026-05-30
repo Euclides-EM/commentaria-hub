@@ -16,54 +16,71 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/gpufarm"
 )
 
-type OCRModelTraining struct {
-	models      *Model
-	fileSysMgt  *filesys.Manager
-	datasets    *Dataset
-	annotations *Annotation
-	submitter   gpufarm.Submitter
+type ModelTrainingOCR struct {
+	models                *Model
+	fileSysMgt            *filesys.Manager
+	datasets              *Dataset
+	annotations           *Annotation
+	submitter             gpufarm.Submitter
+	modelTrainUploadURL   string
+	modelTrainUploadToken string
 
 	rootDir string
 }
 
-// /pbs/home/m/mjoskowicz/jobs/train_ocr/
-//├── script.py
-//├── requirements.txt
-//├── job.sbatch
-//├── .venv/
-//├── assets/
-//│   ├── models/
-//│   │   └── <base-model>.mlmodel
-//│   └── zips/
-//│       └── <uploaded-training-export>.zip
-//├── run_<YYMMDD-HHMMSS>-<suffix>/
-//│   ├── manifest.env
-//│   ├── logs/
-//│   ├── trained_models/
-//│   └── workspace/
-//│       ├── pages_unzipped/
-//│       │   └── <zip-stem>/
-//│       │       └── ...
-//│       ├── alto_files.txt
-//│       └── dataset.arrow
+// Remote layout under ${GPU_FARM_JOB_ROOT}/train_ocr:
+//
+//	train_ocr/
+//	├── script.py
+//	├── requirements.txt
+//	├── job.sbatch
+//	├── .venv/
+//	├── assets/                         # shared across runs
+//	│   ├── models/
+//	│   │   └── <base-model>.mlmodel
+//	│   └── zips/
+//	│       └── <dataset-id>_<annotation-id>.zip
+//	└── run_<YYMMDD-HHMMSS>-<suffix>/   # one directory per submission
+//	    ├── manifest.env
+//	    ├── logs/
+//	    │   ├── kraken_train_<slurm-job-id>.out
+//	    │   └── kraken_train_<slurm-job-id>.err
+//	    ├── trained_models/
+//	    │   ├── kraken_model_<epoch>.mlmodel
+//	    │   └── kraken_model_best.mlmodel
+//	    └── workspace/
+//	        ├── pages_unzipped/
+//	        │   └── <zip-stem>/
+//	        │       ├── <page>.xml
+//	        │       └── <page>.<image-ext>
+//	        ├── alto_files.txt
+//	        └── dataset.arrow
 
-func NewOCRModelTraining(models *Model,
+func NewModelTrainingOCR(models *Model,
 	fileSysMgt *filesys.Manager,
 	datasets *Dataset,
 	annotations *Annotation,
 	rootDir string,
-	submitter gpufarm.Submitter) *OCRModelTraining {
-	return &OCRModelTraining{
-		models:      models,
-		fileSysMgt:  fileSysMgt,
-		datasets:    datasets,
-		annotations: annotations,
-		submitter:   submitter,
-		rootDir:     rootDir,
+	modelTrainUploadURL string,
+	modelTrainUploadToken string,
+	submitter gpufarm.Submitter) *ModelTrainingOCR {
+	return &ModelTrainingOCR{
+		models:                models,
+		fileSysMgt:            fileSysMgt,
+		datasets:              datasets,
+		annotations:           annotations,
+		submitter:             submitter,
+		modelTrainUploadURL:   modelTrainUploadURL,
+		modelTrainUploadToken: modelTrainUploadToken,
+		rootDir:               rootDir,
 	}
 }
 
-func (j *OCRModelTraining) Submit(mo *model.Model, progress func(string)) (*model.ModelTraining, error) {
+func (j *ModelTrainingOCR) Submit(training *model.ModelTraining, progress func(string)) (*model.ModelTraining, error) {
+	if training == nil {
+		return nil, fmt.Errorf("missing model training request")
+	}
+	mo := training.Model
 	if err := j.verify(mo); err != nil {
 		return nil, err
 	}
@@ -98,14 +115,14 @@ func (j *OCRModelTraining) Submit(mo *model.Model, progress func(string)) (*mode
 		}
 	}
 
-	result, err := j.submitModelTraining(tmpDir, zipPaths, baseModelPath, progress)
+	result, err := j.submitModelTraining(training, tmpDir, zipPaths, baseModelPath, progress)
 	if err != nil {
 		return nil, err
 	}
 	return result, nil
 }
 
-func (j *OCRModelTraining) verify(mo *model.Model) error {
+func (j *ModelTrainingOCR) verify(mo *model.Model) error {
 	if mo == nil {
 		return fmt.Errorf("missing model")
 	}
@@ -118,7 +135,8 @@ func (j *OCRModelTraining) verify(mo *model.Model) error {
 	return nil
 }
 
-func (j *OCRModelTraining) submitModelTraining(tmpDir string, zipPaths []string, baseModelPath string, progress func(string)) (*model.ModelTraining, error) {
+func (j *ModelTrainingOCR) submitModelTraining(training *model.ModelTraining, tmpDir string, zipPaths []string, baseModelPath string, progress func(string)) (*model.ModelTraining, error) {
+	mo := training.Model
 	progress("preparing remote OCR training Python environment")
 	remoteEnv, err := j.submitter.PreparePythonEnv(gpufarm.NewPythonEnvRequest(filepath.Join(j.rootDir, "jobs", "train_ocr")))
 	if err != nil {
@@ -156,7 +174,7 @@ func (j *OCRModelTraining) submitModelTraining(tmpDir string, zipPaths []string,
 
 	manifestPath := filepath.Join(tmpDir, "manifest.env")
 
-	if err := os.WriteFile(manifestPath, []byte(trainingManifest(remoteEnv, remoteBaseModelPath, remoteZipPaths)), 0o600); err != nil {
+	if err := os.WriteFile(manifestPath, []byte(j.trainingManifest(training, remoteEnv, remoteBaseModelPath, remoteZipPaths)), 0o600); err != nil {
 		return nil, fmt.Errorf("write training manifest: %w", err)
 	}
 	if err := j.submitter.CopyTo(manifestPath, path.Join(remoteEnv.RemoteRunDir, "manifest.env")); err != nil {
@@ -173,6 +191,9 @@ func (j *OCRModelTraining) submitModelTraining(tmpDir string, zipPaths []string,
 		"submit_output":   submission.SubmitOutput,
 		"monitor_command": fmt.Sprintf("ssh %s %s", submission.Host, envexec.ShellQuote("tail -f "+path.Join(remoteEnv.LogsDir, "*.*"))),
 	}
+	if j.modelTrainUploadURL != "" {
+		statusDetails["model_upload_url"] = j.modelTrainUploadURL
+	}
 	if submission.SchedulerJobID != "" {
 		statusDetails["scheduler_job_id"] = submission.SchedulerJobID
 		if submission.Backend == "slurm" {
@@ -185,10 +206,12 @@ func (j *OCRModelTraining) submitModelTraining(tmpDir string, zipPaths []string,
 		Backend:       submission.Backend,
 		GPUFarmHost:   submission.Host,
 		RemoteRunDir:  remoteEnv.RemoteRunDir,
+		Model:         mo,
+		Epochs:        training.Epochs,
 	}, nil
 }
 
-func (j *OCRModelTraining) stageTrainingAnnotation(tmpDir string, ref *annotation.Reference) (string, error) {
+func (j *ModelTrainingOCR) stageTrainingAnnotation(tmpDir string, ref *annotation.Reference) (string, error) {
 	if ref.DatasetID == "" || ref.ID == "" {
 		return "", fmt.Errorf("invalid base annotation reference")
 	}
@@ -258,7 +281,7 @@ func findTrainingImage(imgDir string, stem string) (string, error) {
 	return "", fmt.Errorf("no matching image found in %s", imgDir)
 }
 
-func (j *OCRModelTraining) localBaseModelPath(modelID string) (string, error) {
+func (j *ModelTrainingOCR) localBaseModelPath(modelID string) (string, error) {
 	baseModel, err := j.models.Get(modelID)
 	if err != nil {
 		return "", fmt.Errorf("get base model %s: %w", modelID, err)
@@ -279,10 +302,18 @@ func (j *OCRModelTraining) localBaseModelPath(modelID string) (string, error) {
 	return p, nil
 }
 
-func trainingManifest(remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, remoteZipPaths []string) string {
+func (j *ModelTrainingOCR) trainingManifest(training *model.ModelTraining, remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, remoteZipPaths []string) string {
+	mo := training.Model
 	remoteRoot := remoteEnv.RemoteDir
 	remoteRunDir := remoteEnv.RemoteRunDir
 	logsDir := remoteEnv.LogsDir
+	baseAnnotations := make([]string, 0, len(mo.BaseAnnotations))
+	for _, ref := range mo.BaseAnnotations {
+		if ref == nil {
+			continue
+		}
+		baseAnnotations = append(baseAnnotations, ref.DatasetID+":"+ref.ID)
+	}
 
 	var b strings.Builder
 	fmt.Fprintf(&b, "export PROJECT_ROOT=%s\n", envexec.ShellQuote(remoteRoot))
@@ -293,6 +324,17 @@ func trainingManifest(remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, 
 	fmt.Fprintf(&b, "export WORK_DIR=%s\n", envexec.ShellQuote(path.Join(remoteRunDir, "workspace")))
 	fmt.Fprintf(&b, "export OUTPUT_DIR=%s\n", envexec.ShellQuote(path.Join(remoteRunDir, "trained_models")))
 	fmt.Fprintf(&b, "export LOGS_DIR=%s\n", envexec.ShellQuote(logsDir))
+	fmt.Fprintf(&b, "export MODEL_UPLOAD_URL=%s\n", envexec.ShellQuote(j.modelTrainUploadURL))
+	fmt.Fprintf(&b, "export MODEL_UPLOAD_TOKEN=%s\n", envexec.ShellQuote(j.modelTrainUploadToken))
+	fmt.Fprintf(&b, "export MODEL_NAME=%s\n", envexec.ShellQuote(mo.Name))
+	fmt.Fprintf(&b, "export MODEL_DESCRIPTION=%s\n", envexec.ShellQuote(mo.Description))
+	fmt.Fprintf(&b, "export MODEL_BASE_MODEL_ID=%s\n", envexec.ShellQuote(mo.BaseModelID))
+	fmt.Fprintf(&b, "export MODEL_BASE_ANNOTATIONS=%s\n", envexec.ShellQuote(strings.Join(baseAnnotations, ",")))
+	if training.Epochs > 0 {
+		fmt.Fprintf(&b, "export TRAIN_EPOCHS=%s\n", envexec.ShellQuote(fmt.Sprintf("%d", training.Epochs)))
+	} else {
+		fmt.Fprintf(&b, "export TRAIN_EPOCHS=%s\n", envexec.ShellQuote(""))
+	}
 	b.WriteString("export ZIP_PATHS=(\n")
 	for _, zipPath := range remoteZipPaths {
 		fmt.Fprintf(&b, "  %s\n", envexec.ShellQuote(zipPath))

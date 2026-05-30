@@ -37,6 +37,8 @@ const ModelTrainingStatusSubmitted = "submitted"
 
 type ModelTraining struct {
 	common.Meta   `json:",inline"`
+	Model         *Model              `json:"model"`
+	Epochs        int                 `json:"epochs,omitempty"`
 	Status        ModelTrainingStatus `json:"status"`
 	StatusDetails map[string]string   `json:"status_details"`
 	Backend       string              `json:"backend"`

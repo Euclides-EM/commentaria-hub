@@ -3,6 +3,7 @@ import type {
   common_OCRModelType,
   annotation_Annotation,
   model_Model,
+  model_ModelTraining,
 } from '@hub-api'
 import { AnnotationsService, ApiError } from '@hub-api'
 import { Button } from '../core/Button'
@@ -418,8 +419,8 @@ export function ModelsTable() {
     trainMutation.reset()
   }
 
-  const handleTrainSubmit = (model: model_Model) => {
-    trainMutation.mutate(model, {
+  const handleTrainSubmit = (training: model_ModelTraining) => {
+    trainMutation.mutate(training, {
       onSuccess: () => {
         setIsTrainOpen(false)
       },

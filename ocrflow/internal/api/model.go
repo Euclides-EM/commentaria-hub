@@ -8,7 +8,6 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/job"
 	"github.com/samber/lo"
 )
 
@@ -44,23 +43,20 @@ func (h *Handlers) ListModels(r *http.Request) (any, error) {
 
 // TrainModel godoc
 // @Summary      Train a Model
-// @Description  Creates a job that submits OCR model training to the GPU farm.
+// @Description  Submits model training to the GPU farm.
 // @Tags         Models
 // @Accept       json
 // @Produce      json
-// @Param        model  body      model.Model  true  "Model training details"
+// @Param        training  body      model.ModelTraining  true  "Model training details"
 // @Security 	 BearerAuth
-// @Success      201  {object}  job.Job
-// @Router       /models [post]
+// @Success      201  {object}  model.ModelTraining
+// @Router       /models_train [post]
 func (h *Handlers) TrainModel(r *http.Request) (any, error) {
-	var modelToTrain model.Model
-	if err := DecodeBody(r, &modelToTrain); err != nil {
+	var training model.ModelTraining
+	if err := DecodeBody(r, &training); err != nil {
 		return nil, err
 	}
-	return h.deps.JobSvc.CreateJob(&job.Job{
-		Task:  job.ModelTrain,
-		Model: &modelToTrain,
-	})
+	return h.deps.ModelTrainingSvc.Submit(&training)
 }
 
 // UploadModel godoc

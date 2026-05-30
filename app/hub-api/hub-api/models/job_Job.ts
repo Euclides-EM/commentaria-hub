@@ -6,7 +6,7 @@ import type { annotation_Reference } from './annotation_Reference';
 import type { job_Status } from './job_Status';
 import type { job_Target } from './job_Target';
 import type { job_Task } from './job_Task';
-import type { model_Model } from './model_Model';
+import type { model_ModelTraining } from './model_ModelTraining';
 export type job_Job = {
     annotation?: annotation_Reference;
     readonly created_at?: string;
@@ -16,7 +16,7 @@ export type job_Job = {
     readonly id?: string;
     name?: string;
     readonly status?: job_Status;
-    model?: model_Model;
+    model_training?: model_ModelTraining;
     target?: job_Target;
     task?: job_Task;
     readonly updated_at?: string;

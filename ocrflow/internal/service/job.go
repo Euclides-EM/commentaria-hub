@@ -19,7 +19,7 @@ type Job struct {
 	annotations       *Annotation
 	facsimiles        *Facsimile
 	backups           *Backup
-	modelTrain        *OCRModelTraining
+	modelTrain        *ModelTrainingOCR
 }
 
 func (j *Job) ListJobs() ([]*job.Job, error) {
@@ -56,7 +56,7 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 		if jb.Task == job.AnnotationRuleApply && jb.Annotation != nil && jb.Rules != nil {
 			j.runAnnotationRuleApply(jb)
 		}
-		if jb.Task == job.ModelTrain && jb.Model != nil {
+		if jb.Task == job.ModelTrain && jb.ModelTraining != nil {
 			j.runModelTrain(jb)
 		}
 		if jb.Task == job.Export && jb.Target != nil && jb.Annotation != nil {
@@ -94,7 +94,7 @@ func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 
 func (j *Job) runModelTrain(jb *job.Job) {
 	j.run(jb, "model training", func() (any, error) {
-		return j.modelTrain.Submit(jb.Model, j.progressReporter(jb, "Submitting model training"))
+		return j.modelTrain.Submit(jb.ModelTraining, j.progressReporter(jb, "Submitting model training"))
 	})
 }
 
@@ -170,6 +170,7 @@ func (j *Job) progressReporter(jb *job.Job, prefix string) func(string) {
 		}
 		jb.Details = message
 		jb.UpdatedAt = time.Now()
+		log.Printf("job %s progress: %s", jb.ID, message)
 		j.jobsStore.Update(jb)
 	}
 }
@@ -206,7 +207,7 @@ func (j *Job) GetJob(id string) (*job.Job, error) {
 	return j.jobsStore.Get(id)
 }
 
-func NewJob(jobsStore *store.JobStore, annotationsUpload *AnnotationsUploader, annotations *Annotation, facsimiles *Facsimile, backups *Backup, modelTrain *OCRModelTraining) *Job {
+func NewJob(jobsStore *store.JobStore, annotationsUpload *AnnotationsUploader, annotations *Annotation, facsimiles *Facsimile, backups *Backup, modelTrain *ModelTrainingOCR) *Job {
 	return &Job{
 		jobsStore:         jobsStore,
 		annotationsUpload: annotationsUpload,

@@ -3,7 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { model_Model } from '../models/model_Model';
-import type { job_Job } from '../models/job_Job';
+import type { model_ModelTraining } from '../models/model_ModelTraining';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -32,22 +32,22 @@ export class ModelsService {
     }
     /**
      * Train a Model
-     * Creates a job that submits OCR model training to the GPU farm.
-     * @returns job_Job Created
+     * Submits model training to the GPU farm.
+     * @returns model_ModelTraining Created
      * @throws ApiError
      */
-    public static postModels({
-        model,
+    public static postModelsTrain({
+        training,
     }: {
         /**
          * Model training details
          */
-        model: model_Model,
-    }): CancelablePromise<job_Job> {
+        training: model_ModelTraining,
+    }): CancelablePromise<model_ModelTraining> {
         return __request(OpenAPI, {
             method: 'POST',
-            url: '/models',
-            body: model,
+            url: '/models_train',
+            body: training,
             mediaType: 'application/json',
         });
     }

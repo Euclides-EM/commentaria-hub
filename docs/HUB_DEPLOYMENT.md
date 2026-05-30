@@ -284,7 +284,10 @@ Use the alias in the API environment:
 ```dotenv
 GPU_FARM_HOST=cca-ocr
 GPU_FARM_JOB_ROOT=/pbs/home/m/mjoskowicz/jobs
+MODEL_TRAIN_UPLOAD_URL=https://euclides.huma-num.fr/commentaria/api/v1/models_upload
 ```
+
+`MODEL_TRAIN_UPLOAD_URL` must be reachable from the Slurm job host, because `jobs/train_ocr/script.py` uploads the finished `.mlmodel` after training completes. If the upload endpoint starts requiring a bearer token, set `MODEL_TRAIN_UPLOAD_TOKEN` too; it is copied into the per-run `manifest.env`, so use a narrow token.
 
 For local development, do the same setup as your local user instead of `euclides`:
 
@@ -305,6 +308,8 @@ When running the backend locally, set:
 GPU_FARM_HOST=cca-ocr
 GPU_FARM_JOB_ROOT=/pbs/home/m/mjoskowicz/jobs
 ```
+
+For local end-to-end training imports, `localhost` will not work in `MODEL_TRAIN_UPLOAD_URL` because the Slurm job runs on CCA, not on your laptop. Use a deployed backend URL, or expose your local backend through a reachable tunnel and set `MODEL_TRAIN_UPLOAD_URL` to that public `/api/v1/models_upload` URL.
 
 ## Add env file
 

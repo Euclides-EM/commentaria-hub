@@ -155,8 +155,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
 	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
-	modelTrainSvc := service.NewOCRModelTraining(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, slurmSubmitterSvc)
-	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainSvc)
+	modelTrainOCRSvc := service.NewModelTrainingOCR(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.ModelTrainUploadURL, env.GithubToken, slurmSubmitterSvc)
+	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainOCRSvc)
+	modelTrainingSvc := service.NewModelTraining(jobSvc)
 	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
 
 	log.Printf("warming geo cache...")
@@ -217,6 +218,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DiagramCropsSvc:         diagramCropsSvc,
 		USTC:                    service.NewUSTC(),
 		JobSvc:                  jobSvc,
+		ModelTrainingSvc:        modelTrainingSvc,
 		VCSMgt:                  vcsMgtSvc,
 		BackupSvc:               bckSvc,
 	}

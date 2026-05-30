@@ -27,6 +27,7 @@ type EnvConfig struct {
 	LogsTailMaxLines         int           `env:"LOGS_TAIL_MAX_LINES" envDefault:"2000"`
 	GPUFarmHost              string        `env:"GPU_FARM_HOST" envDefault:""`
 	GPUFarmJobRoot           string        `env:"GPU_FARM_JOB_ROOT" envDefault:""`
+	ModelTrainUploadURL      string        `env:"MODEL_TRAIN_UPLOAD_URL" envDefault:""`
 
 	RootDir          string `env:"ROOT_DIR" envDefault:"../"`
 	StoreDir         string `env:"STORE_DIR" envDefault:"./store"`
@@ -102,12 +103,13 @@ func (ec *EnvConfig) TmpDir() string {
 }
 
 func (ec *EnvConfig) AllowedOriginsCORSList() []string {
-	if ec.AllowedOriginsCORS == "" {
-		return ec.defaultAllowedOriginsCORS()
+	corsOrigins := ec.defaultAllowedOriginsCORS()
+	if ec.AllowedOriginsCORS != "" {
+		lo.ForEach(strings.Split(ec.AllowedOriginsCORS, ","), func(origin string, _ int) {
+			corsOrigins = append(corsOrigins, strings.TrimSpace(origin))
+		})
 	}
-	return lo.Map(strings.Split(ec.AllowedOriginsCORS, ","), func(origin string, _ int) string {
-		return strings.TrimSpace(origin)
-	})
+	return corsOrigins
 }
 
 func (ec *EnvConfig) defaultAllowedOriginsCORS() []string {

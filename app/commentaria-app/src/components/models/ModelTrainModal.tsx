@@ -5,7 +5,9 @@ import {
   AnnotationsService,
   type annotation_Annotation,
   type annotation_Reference,
+  type common_OCRModelType,
   type model_Model,
+  type model_ModelTraining,
 } from '@hub-api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
@@ -20,7 +22,7 @@ interface ModelTrainModalProps {
   isOpen: boolean
   models: model_Model[]
   onClose: () => void
-  onSubmit: (model: model_Model) => void
+  onSubmit: (training: model_ModelTraining) => void
   isSaving?: boolean
   errorMessage?: string | null
 }
@@ -42,6 +44,11 @@ type AnnotationGroupOption = {
   label: string
 }
 
+const trainableModelTypes: Array<{
+  value: common_OCRModelType
+  label: string
+}> = [{ value: 'text', label: 'Text recognition' }]
+
 const annotationKey = (
   datasetId: string | undefined,
   annotationId: string | undefined,
@@ -57,6 +64,8 @@ export function ModelTrainModal({
 }: ModelTrainModalProps) {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
+  const [modelType, setModelType] = useState<common_OCRModelType>('text')
+  const [epochs, setEpochs] = useState('')
   const [baseModelId, setBaseModelId] = useState<string | null>(null)
   const [selectedBaseGroupIds, setSelectedBaseGroupIds] = useState<string[]>([])
   const [baseAnnotationRows, setBaseAnnotationRows] = useState<
@@ -78,7 +87,7 @@ export function ModelTrainModal({
         AnnotationsService.getDatasetsAnnotations({ dataSetId: datasetId }),
     })),
   })
-  const ocredAnnotationKeys = useMemo(() => {
+  const eligibleAnnotationKeys = useMemo(() => {
     const keys = new Set<string>()
     annotationQueries.forEach((query) => {
       const annotations = query.data as annotation_Annotation[] | undefined
@@ -90,23 +99,23 @@ export function ModelTrainModal({
     })
     return keys
   }, [annotationQueries])
-  const ocredDatasetIds = useMemo(() => {
+  const eligibleDatasetIds = useMemo(() => {
     const ids = new Set<string>()
-    ocredAnnotationKeys.forEach((key) => {
+    eligibleAnnotationKeys.forEach((key) => {
       const [datasetId] = key.split(':', 1)
       if (datasetId) ids.add(datasetId)
     })
     return ids
-  }, [ocredAnnotationKeys])
+  }, [eligibleAnnotationKeys])
 
   const baseModelOptions = useMemo(() => {
     return models
-      .filter((model) => model.id && model.type === 'text')
+      .filter((model) => model.id && model.type === modelType)
       .map((model) => ({
         value: model.id as string,
         label: model.name || (model.id as string),
       }))
-  }, [models])
+  }, [modelType, models])
 
   const annotationGroupOptions = useMemo<AnnotationGroupOption[]>(() => {
     return (annotationGroups ?? [])
@@ -117,7 +126,7 @@ export function ModelTrainModal({
             (annotation) =>
               annotation.dataset_id &&
               annotation.id &&
-              ocredAnnotationKeys.has(
+              eligibleAnnotationKeys.has(
                 annotationKey(annotation.dataset_id, annotation.id),
               ),
           ).length ?? 0
@@ -130,7 +139,7 @@ export function ModelTrainModal({
           },
         ]
       })
-  }, [annotationGroups, ocredAnnotationKeys])
+  }, [annotationGroups, eligibleAnnotationKeys])
 
   const handleAddBaseAnnotation = () => {
     setBaseAnnotationRows((current) => [...current, emptyRow(rowCounter + 1)])
@@ -163,6 +172,14 @@ export function ModelTrainModal({
       setError('Please select both dataset and annotation for each base row.')
       return
     }
+    const parsedEpochs = epochs.trim() ? Number(epochs) : 0
+    if (
+      !Number.isInteger(parsedEpochs) ||
+      (epochs.trim() && parsedEpochs < 1)
+    ) {
+      setError('Epochs must be a positive whole number.')
+      return
+    }
 
     const explicitAnnotations: annotation_Reference[] = baseAnnotationRows
       .filter(
@@ -174,7 +191,9 @@ export function ModelTrainModal({
         } =>
           !!row.datasetId &&
           !!row.annotationId &&
-          ocredAnnotationKeys.has(annotationKey(row.datasetId, row.annotationId)),
+          eligibleAnnotationKeys.has(
+            annotationKey(row.datasetId, row.annotationId),
+          ),
       )
       .map((row) => ({ dataset_id: row.datasetId, id: row.annotationId }))
 
@@ -186,7 +205,7 @@ export function ModelTrainModal({
             ?.annotations?.flatMap((annotation) =>
               annotation.dataset_id &&
               annotation.id &&
-              ocredAnnotationKeys.has(
+              eligibleAnnotationKeys.has(
                 annotationKey(annotation.dataset_id, annotation.id),
               )
                 ? [{ dataset_id: annotation.dataset_id, id: annotation.id }]
@@ -207,17 +226,20 @@ export function ModelTrainModal({
     })
 
     if (baseAnnotations.length === 0) {
-      setError('Please select at least one OCRed base annotation or group.')
+      setError('Please select at least one training annotation or group.')
       return
     }
 
     setError(null)
     onSubmit({
-      name: name.trim(),
-      description: description.trim() || undefined,
-      type: 'text',
-      base_model_id: baseModelId || undefined,
-      base_annotations: baseAnnotations,
+      model: {
+        name: name.trim(),
+        description: description.trim() || undefined,
+        type: modelType,
+        base_model_id: baseModelId || undefined,
+        base_annotations: baseAnnotations,
+      },
+      epochs: parsedEpochs || undefined,
     })
   }
 
@@ -240,6 +262,35 @@ export function ModelTrainModal({
         </div>
 
         <div className="flex-1 overflow-auto p-6 space-y-4 text-sm">
+          <div className="space-y-2">
+            <label className="block text-sm font-medium text-gray-700">
+              Model type
+            </label>
+            <Select
+              value={
+                trainableModelTypes.find(
+                  (option) => option.value === modelType,
+                ) || null
+              }
+              onChange={(
+                option: { value: common_OCRModelType; label: string } | null,
+              ) => {
+                setModelType(option?.value || 'text')
+                setBaseModelId(null)
+              }}
+              options={trainableModelTypes}
+              isDisabled={isSaving}
+              styles={selectStyles<{
+                value: common_OCRModelType
+                label: string
+              }>({
+                controlWidth: 260,
+              })}
+              menuPortalTarget={document.body}
+              menuPosition="fixed"
+            />
+          </div>
+
           <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-700">
               Model name
@@ -270,6 +321,21 @@ export function ModelTrainModal({
 
           <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-700">
+              Epochs (optional)
+            </label>
+            <input
+              type="number"
+              min={1}
+              step={1}
+              value={epochs}
+              onChange={(e) => setEpochs(e.target.value)}
+              className="w-40 p-2 border border-gray-300 rounded-md"
+              disabled={isSaving}
+            />
+          </div>
+
+          <div className="space-y-2">
+            <label className="block text-sm font-medium text-gray-700">
               Base model (optional)
             </label>
             <Select
@@ -282,7 +348,7 @@ export function ModelTrainModal({
                 setBaseModelId(option?.value || null)
               }
               options={baseModelOptions}
-              placeholder="Select base OCR model..."
+              placeholder="Select base model..."
               isDisabled={isSaving}
               styles={selectStyles<{ value: string; label: string }>({
                 controlWidth: 260,
@@ -295,7 +361,7 @@ export function ModelTrainModal({
 
           <div className="space-y-2">
             <label className="block text-sm font-medium text-gray-700">
-              Base annotation groups
+              Training annotation groups
             </label>
             <Select<AnnotationGroupOption, true>
               value={annotationGroupOptions.filter((option) =>
@@ -320,16 +386,16 @@ export function ModelTrainModal({
           </div>
 
           <ListAdder
-            label="Base annotations"
+            label="Training annotations"
             items={baseAnnotationRows}
             onAdd={handleAddBaseAnnotation}
             isDisabled={isSaving}
-            emptyLabel="No individual base annotations selected."
+            emptyLabel="No individual training annotations selected."
             renderItem={(row) => (
               <BaseAnnotationPicker
                 row={row}
                 datasets={datasets ?? []}
-                ocredDatasetIds={ocredDatasetIds}
+                eligibleDatasetIds={eligibleDatasetIds}
                 isSaving={isSaving}
                 onChange={(updates) =>
                   handleUpdateBaseAnnotation(row.id, updates)
@@ -345,7 +411,7 @@ export function ModelTrainModal({
 
         <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-2">
           {isSaving ? (
-            <LoadingSpinner size="sm" message="Creating training job..." />
+            <LoadingSpinner size="sm" message="Submitting training..." />
           ) : (
             <>
               <Button
@@ -373,7 +439,7 @@ export function ModelTrainModal({
 type BaseAnnotationPickerProps = {
   row: BaseAnnotationRow
   datasets: Array<{ id?: string; name?: string }>
-  ocredDatasetIds: Set<string>
+  eligibleDatasetIds: Set<string>
   isSaving: boolean
   onChange: (updates: Partial<BaseAnnotationRow>) => void
   onRemove: () => void
@@ -382,7 +448,7 @@ type BaseAnnotationPickerProps = {
 function BaseAnnotationPicker({
   row,
   datasets,
-  ocredDatasetIds,
+  eligibleDatasetIds,
   isSaving,
   onChange,
   onRemove,
@@ -394,12 +460,12 @@ function BaseAnnotationPicker({
   const datasetOptions = useMemo(
     () =>
       datasets
-        .filter((dataset) => dataset.id && ocredDatasetIds.has(dataset.id))
+        .filter((dataset) => dataset.id && eligibleDatasetIds.has(dataset.id))
         .map((dataset) => ({
           value: dataset.id as string,
           label: dataset.name || (dataset.id as string),
         })),
-    [datasets, ocredDatasetIds],
+    [datasets, eligibleDatasetIds],
   )
 
   const annotationOptions = useMemo(() => {
