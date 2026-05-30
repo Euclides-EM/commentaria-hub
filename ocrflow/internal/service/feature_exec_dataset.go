@@ -14,8 +14,6 @@ import (
 	"github.com/samber/lo"
 )
 
-const datasetFeatureBatchSize = 7
-
 type featureGroup struct {
 	revisions       []*feature.Revision
 	features        []*feature.Feature
@@ -35,22 +33,6 @@ func partitionFeatures(features []*feature.Feature, revisions []*feature.Revisio
 	return
 }
 
-func chunkFeatureGroup(group featureGroup, size int) []featureGroup {
-	if size <= 0 || len(group.features) == 0 {
-		return nil
-	}
-
-	chunks := make([]featureGroup, 0, (len(group.features)+size-1)/size)
-	for start := 0; start < len(group.features); start += size {
-		end := min(start+size, len(group.features))
-		chunks = append(chunks, featureGroup{
-			revisions: group.revisions[start:end],
-			features:  group.features[start:end],
-		})
-	}
-	return chunks
-}
-
 func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID, textLanguage, fullText string, catGroup, promptGroup featureGroup) ([]*feature.Result, error) {
 	var results []*feature.Result
 	var execErrs []error
@@ -65,16 +47,11 @@ func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID,
 
 	if len(promptGroup.revisions) > 0 && fullText != "" {
 		for _, group := range groupPromptRevisionsByAIConfig(promptGroup.revisions, promptGroup.features) {
-			for _, chunk := range chunkFeatureGroup(featureGroup{
-				revisions: group.revisions,
-				features:  group.features,
-			}, datasetFeatureBatchSize) {
-				r, err := fe.annotationPromptApplyFunc(ann, key, chunk.revisions, chunk.features, execID, textLanguage, fullText, promptGroup.textDescription)()
-				if err != nil {
-					execErrs = append(execErrs, err)
-				}
-				results = append(results, r...)
+			r, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, execID, textLanguage, fullText, promptGroup.textDescription)()
+			if err != nil {
+				execErrs = append(execErrs, err)
 			}
+			results = append(results, r...)
 		}
 	}
 

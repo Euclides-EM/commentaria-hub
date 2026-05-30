@@ -135,6 +135,8 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	go func(executionID string, funcs []applyFunc, policy *feature.ExecutionPolicy) {
 		var wg sync.WaitGroup
 		var hasError atomic.Bool
+		var completedKeys atomic.Int64
+		totalKeys := int64(len(funcs))
 		type executionJob struct {
 			fn applyFunc
 		}
@@ -157,6 +159,8 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 							hasError.Store(true)
 						}
 					}
+					done := completedKeys.Add(1)
+					log.Printf("execution %s progress: key #%d/%d (%d%%)", executionID, done, totalKeys, done*100/totalKeys)
 				}
 			}()
 		}

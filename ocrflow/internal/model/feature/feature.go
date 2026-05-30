@@ -8,12 +8,12 @@ import (
 
 type Feature struct {
 	common.Meta
-	Scope      DefScope `json:"scope"`
-	IsDefault  bool     `json:"is_default"`
-	IsList      bool   `json:"is_list"`
-	FeatureName string `json:"feature_name,omitempty"`
-	Color       string `json:"color"`
-	Properties []string `json:"properties,omitempty"`
+	Scope       DefScope `json:"scope"`
+	IsDefault   bool     `json:"is_default"`
+	IsList      bool     `json:"is_list"`
+	FeatureName string   `json:"feature_name,omitempty"`
+	Color       string   `json:"color"`
+	Properties  []string `json:"properties,omitempty"`
 
 	// LatestRevision is the most recent revision of this feature. It is read-only and only included if expand=latest_revision is specified in the request.
 	LatestRevision *Revision `json:"latest_revision,omitempty" readonly:"true"`
