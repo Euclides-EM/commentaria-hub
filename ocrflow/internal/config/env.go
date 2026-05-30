@@ -25,8 +25,10 @@ type EnvConfig struct {
 	LogsSystemdUnit          string        `env:"LOGS_SYSTEMD_UNIT" envDefault:"commentaria-hub-api"`
 	LogsTailDefaultLines     int           `env:"LOGS_TAIL_DEFAULT_LINES" envDefault:"200"`
 	LogsTailMaxLines         int           `env:"LOGS_TAIL_MAX_LINES" envDefault:"2000"`
+	GPUFarmHost              string        `env:"GPU_FARM_HOST" envDefault:""`
+	GPUFarmJobRoot           string        `env:"GPU_FARM_JOB_ROOT" envDefault:""`
 
-	RootDir          string `env:"ROOT_DIR" envDefault:"./"`
+	RootDir          string `env:"ROOT_DIR" envDefault:"../"`
 	StoreDir         string `env:"STORE_DIR" envDefault:"./store"`
 	TempDir          string `env:"OCRFLOW_TEMP_DIR"`
 	BackupRootDir    string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`

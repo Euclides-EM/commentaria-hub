@@ -19,6 +19,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/gpufarm"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
 
@@ -88,8 +89,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	vcsMgtSvc := service.NewVCSMgt(
 		env.RootDir,
-		filepath.Join(env.RootDir, "store", "items_metadata"),
-		filepath.Join(env.RootDir, "store", "data", titlepage.DatasetID, "imgs"),
+		filepath.Join(env.RootDir, "ocrflow", "store", "items_metadata"),
+		filepath.Join(env.RootDir, "ocrflow", "store", "data", titlepage.DatasetID, "imgs"),
 	)
 	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
 	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
@@ -153,7 +154,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		fileSystemManager,
 	)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
-	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc)
+	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
+	modelTrainSvc := service.NewOCRModelTraining(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, slurmSubmitterSvc)
+	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainSvc)
 	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
 
 	log.Printf("warming geo cache...")

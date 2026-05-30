@@ -3,6 +3,7 @@ package job
 import (
 	"time"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
@@ -26,6 +27,7 @@ const (
 	BackupCreate         Task = "BackupCreate"
 	BackupSyncToDrive    Task = "BackupSyncToDrive"
 	AnnotationRuleApply  Task = "AnnotationRuleApply"
+	ModelTrain           Task = "ModelTrain"
 )
 
 type Status string
@@ -42,6 +44,7 @@ type Job struct {
 	Task        Task                       `json:"task"`
 	Target      *Target                    `json:"target"`
 	Annotation  *annotation.Reference      `json:"annotation,omitempty"`
+	Model       *model.Model               `json:"model,omitempty"`
 	Rules       *annotationrule.ApplyRules `json:"rules,omitempty"`
 	Status      Status                     `json:"status" readonly:"true"`
 	FinishedAt  *time.Time                 `json:"finished_at,omitempty" readonly:"true"`

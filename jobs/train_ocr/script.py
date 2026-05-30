@@ -102,7 +102,7 @@ def main() -> int:
     )
     parser.add_argument(
         "--work-dir",
-        default="work_kraken",
+        default="workspace",
         help="Working directory for extracted pages, manifest, and dataset.arrow",
     )
     parser.add_argument(

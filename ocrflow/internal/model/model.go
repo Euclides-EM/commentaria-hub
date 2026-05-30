@@ -30,3 +30,16 @@ type Model struct {
 	BaseAnnotations   []*annotation.Reference `json:"base_annotations,omitempty"`
 	UsedInAnnotations []*annotation.Reference `json:"used_in_annotations,omitempty"`
 }
+
+type ModelTrainingStatus string
+
+const ModelTrainingStatusSubmitted = "submitted"
+
+type ModelTraining struct {
+	common.Meta   `json:",inline"`
+	Status        ModelTrainingStatus `json:"status"`
+	StatusDetails map[string]string   `json:"status_details"`
+	Backend       string              `json:"backend"`
+	GPUFarmHost   string              `json:"gpu_farm_host"`
+	RemoteRunDir  string              `json:"remote_run_dir"`
+}

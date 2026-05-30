@@ -40,7 +40,7 @@ export function useCreateModelMutation() {
       baseModelId?: string
       baseAnnotations?: string
     }) =>
-      ModelsService.postModels({
+      ModelsService.postModelsUpload({
         file,
         name,
         description,
@@ -49,6 +49,16 @@ export function useCreateModelMutation() {
       }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: modelsQueryKey() })
+    },
+  })
+}
+
+export function useTrainModelMutation() {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: (model: model_Model) => ModelsService.postModels({ model }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['jobs'] })
     },
   })
 }

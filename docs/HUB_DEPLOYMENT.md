@@ -236,6 +236,76 @@ If you want to use the facsimile PDF inbox feature, create a new folder in your 
 
 The Google Drive set up is the same as for the backups, so if you already set up `rclone` for the backups, you can just create a new folder in your Drive and add its ID to the `.env` file.
 
+## GPU farm SSH for OCR model training
+
+OCR model training submits Slurm jobs over SSH to `mjoskowicz@cca.in2p3.fr`. The API runs `ssh` and `scp` from Go without an interactive terminal, so password prompts will hang or fail. Configure passwordless SSH for the user that runs the API. In production, that is `euclides`; in local development, use your own local user.
+
+Run as `euclides` on the server:
+
+```bash
+sudo -iu euclides
+ssh-keygen -t ed25519 -f ~/.ssh/cca_ocr_training -C commentaria-hub-ocr-training -N ""
+cat ~/.ssh/cca_ocr_training.pub
+```
+
+Add the printed public key to `~/.ssh/authorized_keys` on `mjoskowicz@cca.in2p3.fr`. If password SSH is still available, you can install it directly:
+
+```bash
+sudo -iu euclides
+ssh-copy-id -i ~/.ssh/cca_ocr_training.pub mjoskowicz@cca.in2p3.fr
+```
+
+Add an SSH alias:
+
+```bash
+sudo -iu euclides
+cat >> ~/.ssh/config <<'EOF'
+
+# OCR model training GPU farm
+Host cca-ocr
+HostName cca.in2p3.fr
+User mjoskowicz
+IdentityFile ~/.ssh/cca_ocr_training
+IdentitiesOnly yes
+EOF
+
+chmod 600 ~/.ssh/config
+```
+
+Test that the API user can connect without a password prompt and that Slurm is available:
+
+```bash
+sudo -iu euclides
+ssh cca-ocr 'hostname && sbatch --version'
+```
+
+Use the alias in the API environment:
+
+```dotenv
+GPU_FARM_HOST=cca-ocr
+GPU_FARM_JOB_ROOT=/pbs/home/m/mjoskowicz/jobs
+```
+
+For local development, do the same setup as your local user instead of `euclides`:
+
+```bash
+ssh-keygen -t ed25519 -f ~/.ssh/cca_ocr_training -C local-ocr-training -N ""
+ssh-copy-id -i ~/.ssh/cca_ocr_training.pub mjoskowicz@cca.in2p3.fr
+```
+
+Add the same `cca-ocr` host block to your local `~/.ssh/config`, then verify:
+
+```bash
+ssh cca-ocr 'hostname && sbatch --version'
+```
+
+When running the backend locally, set:
+
+```dotenv
+GPU_FARM_HOST=cca-ocr
+GPU_FARM_JOB_ROOT=/pbs/home/m/mjoskowicz/jobs
+```
+
 ## Add env file
 
 ```bash
@@ -247,7 +317,7 @@ sudo vim /etc/euclides/commentaria-hub-api.env
 Add (minimally):
 ```dotenv
 HTTP_ADDR=127.0.0.1:8090
-ROOT_DIR=/srv/euclides/projects/commentaria-hub/ocrflow
+ROOT_DIR=/srv/euclides/projects/commentaria-hub
 STORE_DIR=/data/euclides/commentaria-hub/store
 BACKUP_ROOT_DIR=/data/euclides/commentaria-hub/full_backups
 ESCRIPTORIUM_USERNAME=admin

@@ -10,7 +10,12 @@
 
 set -euo pipefail
 
-PROJECT_ROOT="/pbs/home/m/mjoskowicz/jobs/train_ocr"
+if command -v module >/dev/null 2>&1; then
+  module purge || true
+fi
+unset PYTHONHOME PYTHONPATH LD_LIBRARY_PATH
+
+PROJECT_ROOT="${PROJECT_ROOT:-/pbs/home/m/mjoskowicz/jobs/train_ocr}"
 
 cd "$SLURM_SUBMIT_DIR"
 
@@ -21,7 +26,7 @@ fi
 
 source manifest.env
 
-mkdir -p "${LOGS_DIR}" "${ARTIFACTS_DIR}" "${OUTPUT_DIR}"
+mkdir -p "${LOGS_DIR}" "${OUTPUT_DIR}"
 
 echo "host=$(hostname)"
 echo "pwd=$(pwd)"
@@ -45,7 +50,7 @@ echo "MODEL_PREFIX=${MODEL_PREFIX}"
 echo "BASE_MODEL_PATH=${BASE_MODEL_PATH}"
 echo "ZIP_PATHS=${ZIP_PATHS[*]}"
 
-if [[ ! -f "${BASE_MODEL_PATH}" ]]; then
+if [[ -n "${BASE_MODEL_PATH}" && ! -f "${BASE_MODEL_PATH}" ]]; then
   echo "Base model not found: ${BASE_MODEL_PATH}" >&2
   exit 1
 fi
