@@ -1,5 +1,9 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import { ModelsService, type model_Model } from '@hub-api'
+import {
+  ModelsService,
+  type model_Model,
+  type model_ModelTraining,
+} from '@hub-api'
 
 const modelsQueryKey = () => ['models'] as const
 
@@ -40,7 +44,7 @@ export function useCreateModelMutation() {
       baseModelId?: string
       baseAnnotations?: string
     }) =>
-      ModelsService.postModels({
+      ModelsService.postModelsUpload({
         file,
         name,
         description,
@@ -52,6 +56,20 @@ export function useCreateModelMutation() {
     },
   })
 }
+
+export function useTrainModelMutation() {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: (training: model_ModelTraining) =>
+      ModelsService.postModelsTrain({ training }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: modelsQueryKey() })
+      queryClient.invalidateQueries({ queryKey: ['jobs'] })
+    },
+  })
+}
+
+export type TrainModelResult = model_ModelTraining
 
 export function useUpdateModelMutation() {
   const queryClient = useQueryClient()

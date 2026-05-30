@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { model_Model } from '../models/model_Model';
+import type { model_ModelTraining } from '../models/model_ModelTraining';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -30,12 +31,33 @@ export class ModelsService {
         });
     }
     /**
+     * Train a Model
+     * Submits model training to the GPU farm.
+     * @returns model_ModelTraining Created
+     * @throws ApiError
+     */
+    public static postModelsTrain({
+        training,
+    }: {
+        /**
+         * Model training details
+         */
+        training: model_ModelTraining,
+    }): CancelablePromise<model_ModelTraining> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/models_train',
+            body: training,
+            mediaType: 'application/json',
+        });
+    }
+    /**
      * Upload a Model
      * Upload a new model to the system.
      * @returns model_Model OK
      * @throws ApiError
      */
-    public static postModels({
+    public static postModelsUpload({
         file,
         name,
         description,

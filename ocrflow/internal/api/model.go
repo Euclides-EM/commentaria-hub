@@ -41,6 +41,24 @@ func (h *Handlers) ListModels(r *http.Request) (any, error) {
 	return models, nil
 }
 
+// TrainModel godoc
+// @Summary      Train a Model
+// @Description  Submits model training to the GPU farm.
+// @Tags         Models
+// @Accept       json
+// @Produce      json
+// @Param        training  body      model.ModelTraining  true  "Model training details"
+// @Security 	 BearerAuth
+// @Success      201  {object}  model.ModelTraining
+// @Router       /models_train [post]
+func (h *Handlers) TrainModel(r *http.Request) (any, error) {
+	var training model.ModelTraining
+	if err := DecodeBody(r, &training); err != nil {
+		return nil, err
+	}
+	return h.deps.ModelTrainingSvc.Submit(&training)
+}
+
 // UploadModel godoc
 // @Summary      Upload a Model
 // @Description  Upload a new model to the system.
