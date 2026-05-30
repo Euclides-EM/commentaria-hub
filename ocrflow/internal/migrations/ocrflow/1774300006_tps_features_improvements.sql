@@ -9,6 +9,11 @@ WHERE id IN (
 );
 
 UPDATE features
+SET name = 'Dedication',
+    updated_at = datetime('now')
+WHERE id = 'dedicatee_name';
+
+UPDATE features
 SET name = 'Bound With - Description',
     description = 'Descriptions of additional treatises or works physically bound together with the main work in the volume.',
     updated_at = datetime('now')
@@ -58,6 +63,99 @@ INSERT INTO feature_revisions (
     'ollama',
     'gpt-oss:120b'
 ) ON CONFLICT(id) DO UPDATE SET
+    name = excluded.name,
+    description = excluded.description,
+    created_at = excluded.created_at,
+    updated_at = excluded.updated_at,
+    dataset_id = excluded.dataset_id,
+    scope = excluded.scope,
+    feature_id = excluded.feature_id,
+    prompt = excluded.prompt,
+    categorizer = excluded.categorizer,
+    ai_provider = excluded.ai_provider,
+    ai_model = excluded.ai_model;
+
+INSERT INTO feature_revisions (
+    id, name, description, created_at, updated_at,
+    dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+) VALUES (
+    '26b1bd16-333e-416f-904d-44a9d35c4f8e',
+    'v2',
+    'Updated revision after llm change',
+    datetime('now'),
+    datetime('now'),
+    'tps',
+    'dataset',
+    'dedicatee_name',
+    -- v1 prompt: Mentions of patrons or dedication.
+    'Mentions of patrons or dedications, including cases where the dedicatee is referred to by name, title, honorific, role, or other descriptive designation.',
+    '',
+    'ollama',
+    'gpt-oss:120b'
+)
+ON CONFLICT(id) DO UPDATE SET
+    name = excluded.name,
+    description = excluded.description,
+    created_at = excluded.created_at,
+    updated_at = excluded.updated_at,
+    dataset_id = excluded.dataset_id,
+    scope = excluded.scope,
+    feature_id = excluded.feature_id,
+    prompt = excluded.prompt,
+    categorizer = excluded.categorizer,
+    ai_provider = excluded.ai_provider,
+    ai_model = excluded.ai_model;
+
+INSERT INTO feature_revisions (
+    id, name, description, created_at, updated_at,
+    dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+) VALUES (
+    '46fee541-0f06-4d0b-9b19-775abe81ae84',
+    'v2',
+    'Updated revision after llm change',
+    datetime('now'),
+    datetime('now'),
+    'tps',
+    'dataset',
+    'dedication_in_imprint',
+    -- v1 prompt: Mentions of patrons or dedications.
+    'Mentions of patrons or dedications, including cases where the dedicatee is referred to by name, title, honorific, role, or other descriptive designation.',
+    '',
+    'ollama',
+    'gpt-oss:120b'
+)
+ON CONFLICT(id) DO UPDATE SET
+    name = excluded.name,
+    description = excluded.description,
+    created_at = excluded.created_at,
+    updated_at = excluded.updated_at,
+    dataset_id = excluded.dataset_id,
+    scope = excluded.scope,
+    feature_id = excluded.feature_id,
+    prompt = excluded.prompt,
+    categorizer = excluded.categorizer,
+    ai_provider = excluded.ai_provider,
+    ai_model = excluded.ai_model;
+
+INSERT INTO feature_revisions (
+    id, name, description, created_at, updated_at,
+    dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+) VALUES (
+    '17990f23-7917-490f-917e-96427a004ff7',
+    'v2',
+    'Updated revision after llm change',
+    datetime('now'),
+    datetime('now'),
+    'tps',
+    'dataset',
+    'elements_designation',
+    -- v1 prompt: The designation of the Elements, such as 'Elements of Geometry' or 'Euclid’s Elements', as it appears on the title page.
+    'The designation of the Euclid''s Elements in any form (e.g., Elements, Elementa, Elementorum, Elemens, etc.), and any explicit indication of which books are included by their numbers.',
+    '',
+    'ollama',
+    'gpt-oss:120b'
+)
+ON CONFLICT(id) DO UPDATE SET
     name = excluded.name,
     description = excluded.description,
     created_at = excluded.created_at,
@@ -176,7 +274,7 @@ INSERT INTO feature_revisions (
     'dataset',
     'audience',
     -- v1 prompt: Explicit mentions of the work's intended recipients or audience.
-    'Explicit mentions of the work''s intended recipients or audience, including descriptions of their abilities, level of learning, social role, or educational background. Extract references to the characteristics or qualifications of the intended readership, not dedicatees, patrons, or descriptions of the adapter, editor, or publisher themselves.',
+    'Explicit mentions of the work''s intended recipients or audience, including descriptions of their abilities, level of learning, social role, or educational background. Extract references to the characteristics or qualifications of the intended readership, not dedications, dedicatees, patrons, or descriptions of the adapter, editor, or publisher themselves.',
     '',
     'ollama',
     'gpt-oss:120b'
@@ -207,8 +305,8 @@ INSERT INTO feature_revisions (
     'dataset',
     'enriched_with',
     -- v1 prompt: Mentions of additional content that is not part of the core text, such as illustrations, diagrams, explanations, expositions, examples or other supplementary material that enriches the text. Try to mark the minimal unit of enrichment and break down the enrichment into components when possible.
-    'Mentions of supplementary material explicitly presented as enriching, clarifying, or supporting Euclid''s Elements, such as illustrations, diagrams, explanations, expositions, examples, annotations, or similar additions to the core text. Do not include separate treatises, appended works, or other independently titled texts bound with the volume. When possible, extract each distinct enrichment as a separate minimal unit.',
-    '',
+'Mentions of content that supplements the main text rather than constituting the core text itself, including illustrations, diagrams, figures, explanations, expositions, examples, annotations, scholia, notes, or similar additions. Exclude separately titled works, treatises, appendices, or other independent texts merely bound together with the volume. When possible, identify each distinct supplementary component as a separate minimal unit rather than grouping multiple enrichments together.',
+          '',
     'ollama',
     'gpt-oss:120b'
 )
@@ -547,58 +645,107 @@ INSERT INTO feature_revisions (
              NULL,
              'editions',
              'm_classifier',
-             'a list of category classification strings.
+             'A list of category classification strings.
 
 For each category below, determine whether the edition should be classified as:
+
 - **"primary"**
-  The category is a central, explicit, and substantial subject of the edition. The work is significantly devoted to teaching, discussing, or treating the topic itself. A work may contain multiple primary categories.
+  The category is a central or major subject of the edition, either across the work as a whole or within a substantial portion of it. A work may have multiple primary categories.
+
 - **"secondary"**
-  The category is clearly present and meaningfully relevant, but not a principal focus of the edition. The topic appears in support of another subject, or occupies only a limited portion of the work.
+  The category is clearly present and meaningfully relevant, but is not among the principal subjects of the edition. The work contains substantive material related to the category, even if the category is used in support of another topic.
+
 - **"unrelated"**
   The category is not meaningfully relevant to the edition based on the provided metadata.
+
 - **"unknown"**
-  The metadata is insufficient, ambiguous, or unclear for determining relevance.
+  The metadata provides insufficient, ambiguous, or unclear evidence to determine whether the category is relevant.
 
-Important Classification Principles:
+## Classification Principles
 
-- Classify categories based on whether the work is explicitly about that subject, not merely because the subject is indirectly required or incidentally used.
-  - Example: a military engineering text that uses arithmetic is **not** automatically about Arithmetic.
-  - Example: an astronomy text using trigonometric calculations is **not** automatically about Trigonometry unless trigonometric methods themselves are taught or discussed.
+### 1. Use evidence from the metadata
 
-- Prefer specificity:
-  - If a topic is primarily covered under a more specific category, avoid assigning broader overlapping categories as primary unless the broader topic is also explicitly treated in its own right.
+Classify categories based on the subjects, activities, instruments, methods, applications, or domains clearly indicated by the metadata.
 
-- Do not infer categories from general mathematical content alone.
-  - Only assign a category when the metadata suggests explicit instructional, theoretical, or practical treatment of that subject.
+Do not require that a category be the sole or explicit focus of the work in order to assign **secondary**.
 
-Return one string per category using this exact format:
+### 2. Distinguish primary from secondary
 
-`"Category Name::classification_value"`
+Assign **primary** when the category appears to be a major topic that the work substantially teaches, discusses, demonstrates, or develops.
+
+Assign **secondary** when the category is clearly present and relevant but appears subordinate, supportive, or more limited in scope.
+
+### 3. Allow multiple categories
+
+Historical works often combine several subjects.
+
+Do not force a single primary category. Multiple categories may be classified as **primary** when supported by the metadata.
+
+Likewise, a work may contain several **secondary** categories.
+
+### 4. Avoid automatic inference
+
+Do not assign a category solely because it is commonly used by another subject.
+
+Examples:
+
+- A military engineering work is not automatically **Arithmetic** merely because calculations are required.
+- An astronomy work is not automatically **Trigonometry** merely because trigonometric calculations may be used.
+- A surveying work is not automatically **Instrument Construction** merely because instruments are mentioned.
+
+However, if the metadata indicates actual treatment, instruction, discussion, application, or substantial use of the category, classify it accordingly.
+
+### 5. Prefer evidence over hierarchy
+
+Related categories are not mutually exclusive.
+
+When metadata supports both a broad and a specific category, both may be assigned.
+
+Example:
+
+- A surveying manual may be both **Surveying** and **Practical Geometry**.
+- A cosmography may also be **Astronomy** and **Geography**.
+- A navigation text may also include **Instrument Use**.
+
+Do not suppress a category merely because another related category is present.
+
+### 6. Use unknown sparingly
+
+Use **unknown** only when the metadata genuinely does not provide enough information.
+
+When there is reasonable evidence that a category is relevant but not central, prefer **secondary** over **unknown**.
+
+## Output Format
+
+Return exactly one line for every category using this format:
+
+"Category Name::classification_value"
 
 Use only the exact category names below and only the allowed classification values.
 
-Classify every category:
-- **Arithmetic**: explicit treatment of numerical calculation, arithmetic instruction, operations with numbers, fractions, roots, numerical methods, or numerical tables. Do not classify works as Arithmetic merely because calculations are used incidentally.
-- **Commercial Mathematics**: commercial arithmetic, bookkeeping, currency exchange, profit and loss, interest, partnerships, barter, or trade-related weights and measures.
-- **Military Engineering**: artillery, fortification, siegecraft, military surveying, camp organization, or mathematics explicitly applied to military practice.
-- **Construction**: building practice, construction methods, masonry, carpentry, structural work, or practical building operations.
-- **Practical Geometry**: explicitly practical or operational geometry for measurement, construction, mensuration, or applied geometrical procedures. Use this category mainly for general practical geometry works or practical geometrical material not more specifically covered by other categories such as Surveying, Perspective, Architecture, or Cartography.
-- **Surveying**: land measurement only, including fields, boundaries, triangulation, agrimensura, and terrestrial distance or height measurement. Do not classify general measurement, navigation, or astronomical distance calculation as Surveying.
-- **Perspective**: artistic or mathematical perspective, visual projection, scenography, pictorial space, or perspective grids.
-- **Cartography**: mapmaking, map projection, topographical mapping, chart production, or mapping techniques.
-- **Architecture**: architectural theory, orders, building design, architectural proportion, or architectural drawing.
-- **Gnomonics & Horology**: sundials, clocks, dials, calendar devices, or methods and instruments for measuring time.
-- **Astronomy**: celestial motions, planets, stars, eclipses, astronomical tables, zodiac, planetary theory, spheres, or mathematical astronomy.
-- **Cosmography**: integrated descriptions of the cosmos combining celestial and terrestrial knowledge, often linking astronomy, geography, climates, coordinates, spheres, and world description.
-- **Geography**: terrestrial description, regions, climates, chorography, topography, latitude/longitude, places, or earth-focused spatial knowledge.
-- **Instrument Construction**: explicit instructions for designing or constructing mathematical, astronomical, surveying, navigational, or measuring instruments. This category applies to making instruments, not merely using them.
+## Categories
+
+- Arithmetic: numerical calculation, arithmetic instruction, operations with numbers, fractions, roots, numerical methods, or numerical tables.
+- Commercial Mathematics: commercial arithmetic, bookkeeping, currency exchange, profit and loss, interest, partnerships, barter, or trade-related weights and measures.
+- Military Engineering: artillery, fortification, siegecraft, military surveying, camp organization, or mathematics applied to military practice.
+- Construction: building practice, construction methods, masonry, carpentry, structural work, or practical building operations.
+- Practical Geometry: operational geometry for measurement, mensuration, construction, geometric procedures, applied geometrical problems, or practical geometric instruction.
+- Surveying: land measurement, fields, boundaries, triangulation, agrimensura, terrestrial distances, heights, depths, or related measurement practices.
+- Perspective: artistic or mathematical perspective, visual projection, scenography, pictorial space, or perspective methods.
+- Cartography: mapmaking, map projection, chart production, topographical mapping, or mapping techniques.
+- Architecture: architectural theory, orders, building design, architectural proportion, architectural drawing, or buildings.
+- Gnomonics & Horology: sundials, clocks, dials, calendar devices, or methods of measuring time.
+- Astronomy: celestial motions, planets, stars, eclipses, astronomical tables, zodiac, planetary theory, spheres, or mathematical astronomy.
+- Cosmography: integrated descriptions of the cosmos combining celestial and terrestrial knowledge, often linking astronomy, geography, climates, coordinates, spheres, and world description.
+- Geography: terrestrial description, regions, places, climates, chorography, topography, latitude/longitude, or earth-focused spatial knowledge.
+- Instrument Construction: construction, design, fabrication, or making of mathematical, astronomical, surveying, navigational, or measuring instruments.
 - **Instrument Use**: instructions for operating or applying instruments such as astrolabes, quadrants, sectors, compasses, globes, geometric squares, or other measuring devices.
-- **Mechanics**: machines, statics, balances, weights, motion, hydraulics, mechanical devices, or mechanical principles.
-- **Theoretical Mathematics**: abstract, speculative, demonstrative, or foundational mathematics, including Euclidean geometry, algebra, theoretical arithmetic, proportions, conics, solid geometry, mathematical proofs, or mathematical method.
-- **Navigation**: nautical navigation, sailing, hydrography, pilotage, maritime routes, nautical astronomy, or sea charts.
-- **Music Theory**: mathematical music theory, harmonics, musical ratios, intervals, or quadrivial music.
-- **Trigonometry**: explicit treatment or instruction in plane or spherical trigonometry, including sine, cosine, tangent, secant functions, trigonometric tables, triangle calculation, or trigonometric methods themselves. Do not classify works as Trigonometry merely because trigonometric calculations are used in astronomy, surveying, or navigation.',
-             '',
+- Mechanics: machines, statics, balances, weights, motion, hydraulics, mechanical devices, or mechanical principles.
+- Theoretical Mathematics: abstract, speculative, demonstrative, foundational, or theoretical mathematics, including Euclidean geometry, algebra, proportions, conics, solid geometry, proofs, or mathematical method.
+- Navigation: nautical navigation, sailing, hydrography, pilotage, maritime routes, nautical astronomy, or sea charts.
+- Music Theory: mathematical music theory, harmonics, musical ratios, intervals, or quadrivial music.
+- Trigonometry: plane or spherical trigonometry, trigonometric functions, trigonometric tables, triangle calculation, or trigonometric methods.',
+          '',
              'ollama',
              'gpt-oss:120b'
          )

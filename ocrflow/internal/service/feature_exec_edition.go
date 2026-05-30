@@ -75,7 +75,7 @@ func formatEditionInfo(ed *model.Edition) string {
 					langs[i] = strings.ToUpper(l[:1]) + l[1:]
 				}
 			}
-			where = append(where, "in "+strings.Join(langs, " and "))
+			where = append(where, "originally in "+strings.Join(langs, " and "))
 		}
 		if len(where) > 0 {
 			intro += ", " + strings.Join(where, ", ")
@@ -108,17 +108,10 @@ func formatEditionInfo(ed *model.Edition) string {
 			b.WriteString("This edition is a reprint.\n")
 		}
 
-		if ed.Title != nil {
+		if ed.TitleEN != nil {
+			b.WriteString("\nTitle page reads: \n" + *ed.TitleEN + "\n")
+		} else if ed.Title != nil {
 			b.WriteString("\nTitle page reads: \n" + *ed.Title + "\n")
-		}
-		if ed.Imprint != nil {
-			b.WriteString("\nImprint reads: \n" + *ed.Imprint + "\n")
-		}
-		if ed.Colophon != nil {
-			b.WriteString("\nColophon reads: \n" + *ed.Colophon + "\n")
-		}
-		if ed.Frontispiece != nil {
-			b.WriteString("\nFrontispiece reads: \n" + *ed.Frontispiece + "\n")
 		}
 	}
 
