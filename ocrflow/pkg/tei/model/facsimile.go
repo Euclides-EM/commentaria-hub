@@ -15,6 +15,7 @@ type Surface struct {
 type Zone struct {
 	XmlID string `xml:"xml:id,attr,omitempty"`
 	Type  string `xml:"type,attr,omitempty"`
+	Ana   string `xml:"ana,attr,omitempty"`
 
 	ULX float64 `xml:"ulx,attr,omitempty"`
 	ULY float64 `xml:"uly,attr,omitempty"`
