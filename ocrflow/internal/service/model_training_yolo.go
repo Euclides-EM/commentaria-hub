@@ -42,7 +42,6 @@ func (r *ModelTrainingRemote) submitYOLO(training *model.ModelTraining, progress
 		Training:      training,
 		TmpDir:        tmpDir,
 		JobName:       "train_yolo",
-		DisplayName:   "YOLO",
 		BaseModelPath: baseModelPath,
 		Assets: []trainingRemoteAsset{{
 			LocalPath: datasetZipPath,

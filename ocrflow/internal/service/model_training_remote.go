@@ -36,7 +36,6 @@ type trainingRemoteRequest struct {
 	Training      *model.ModelTraining
 	TmpDir        string
 	JobName       string
-	DisplayName   string
 	BaseModelPath string
 	Assets        []trainingRemoteAsset
 	StatusDetails map[string]string
@@ -114,10 +113,10 @@ func (r *ModelTrainingRemote) submit(req trainingRemoteRequest, progress func(st
 		return nil, fmt.Errorf("missing model training request")
 	}
 	if req.Manifest == nil {
-		return nil, fmt.Errorf("missing %s training manifest builder", req.DisplayName)
+		return nil, errors.New("missing training manifest builder")
 	}
 
-	progress(fmt.Sprintf("preparing remote %s training Python environment", req.DisplayName))
+	progress("preparing remote training Python environment")
 	remoteEnv, err := r.submitter.PreparePythonEnv(gpufarm.NewPythonEnvRequest(filepath.Join(r.rootDir, "jobs", req.JobName)))
 	if err != nil {
 		return nil, err
@@ -126,7 +125,7 @@ func (r *ModelTrainingRemote) submit(req trainingRemoteRequest, progress func(st
 	remoteBaseModelPath := ""
 	if req.BaseModelPath != "" {
 		remoteBaseModelPath = path.Join(remoteEnv.RemoteDir, "assets", "models", filepath.Base(req.BaseModelPath))
-		progress(fmt.Sprintf("syncing base %s model", req.DisplayName))
+		progress("syncing base model to remote")
 		exists, err := r.submitter.FileExists(remoteBaseModelPath)
 		if err != nil {
 			return nil, err
@@ -155,13 +154,13 @@ func (r *ModelTrainingRemote) submit(req trainingRemoteRequest, progress func(st
 
 	manifestPath := filepath.Join(req.TmpDir, "manifest.env")
 	if err := os.WriteFile(manifestPath, []byte(req.Manifest(remoteEnv, remoteBaseModelPath, remoteAssetPaths)), 0o600); err != nil {
-		return nil, fmt.Errorf("write %s training manifest: %w", req.DisplayName, err)
+		return nil, fmt.Errorf("write training manifest: %w", err)
 	}
 	if err := r.submitter.CopyTo(manifestPath, path.Join(remoteEnv.RemoteRunDir, "manifest.env")); err != nil {
 		return nil, err
 	}
 
-	progress(fmt.Sprintf("submitting %s training job", req.DisplayName))
+	progress("submitting training job")
 	submission, err := r.submitter.Submit(remoteEnv)
 	if err != nil {
 		return nil, err

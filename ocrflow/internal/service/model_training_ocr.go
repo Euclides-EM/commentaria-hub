@@ -82,7 +82,6 @@ func (r *ModelTrainingRemote) submitOCR(training *model.ModelTraining, progress 
 		Training:      training,
 		TmpDir:        tmpDir,
 		JobName:       "train_ocr",
-		DisplayName:   "OCR",
 		BaseModelPath: baseModelPath,
 		Assets:        assets,
 		Manifest: func(remoteEnv *gpufarm.RemoteEnv, remoteBaseModelPath string, remoteAssetPaths []string) string {

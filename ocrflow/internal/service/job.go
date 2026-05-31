@@ -94,7 +94,7 @@ func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 
 func (j *Job) runModelTrain(jb *job.Job) {
 	j.run(jb, "model training", func() (any, error) {
-		return j.modelTrain.Submit(jb.ModelTraining, j.progressReporter(jb, "Submitting model training"))
+		return j.modelTrain.Submit(jb.ModelTraining, j.progressReporter(jb, fmt.Sprintf("Submitting %s model training", jb.ModelTraining.Model.Type)))
 	})
 }
 
