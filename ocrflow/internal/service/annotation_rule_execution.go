@@ -31,7 +31,11 @@ func (e *AnnotationRuleExecution) ApplyRules(datasetID string, annotationID stri
 	jobResult, err := e.jobs.CreateJob(&job.Job{
 		Task: job.AnnotationRuleApply,
 		Annotation: &annotation.Reference{
-			DatasetID: ann.DatasetID,
+			DatasetID: datasetID,
+			ID:        annotationID,
+		},
+		EffectiveAnnotation: &annotation.Reference{
+			DatasetID: datasetID,
 			ID:        ann.ID,
 		},
 		Rules: rules,

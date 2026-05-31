@@ -40,15 +40,16 @@ const (
 )
 
 type Job struct {
-	common.Meta   `json:",inline"`
-	Task          Task                       `json:"task"`
-	Target        *Target                    `json:"target"`
-	Annotation    *annotation.Reference      `json:"annotation,omitempty"`
-	ModelTraining *model.ModelTraining       `json:"model_training,omitempty"`
-	Rules         *annotationrule.ApplyRules `json:"rules,omitempty"`
-	Status        Status                     `json:"status" readonly:"true"`
-	FinishedAt    *time.Time                 `json:"finished_at,omitempty" readonly:"true"`
-	Details       string                     `json:"details,omitempty"  readonly:"true"`
+	common.Meta         `json:",inline"`
+	Task                Task                       `json:"task"`
+	Target              *Target                    `json:"target"`
+	Annotation          *annotation.Reference      `json:"annotation,omitempty"`
+	EffectiveAnnotation *annotation.Reference      `json:"effectiveAnnotation,omitempty"`
+	ModelTraining       *model.ModelTraining       `json:"model_training,omitempty"`
+	Rules               *annotationrule.ApplyRules `json:"rules,omitempty"`
+	Status              Status                     `json:"status" readonly:"true"`
+	FinishedAt          *time.Time                 `json:"finished_at,omitempty" readonly:"true"`
+	Details             string                     `json:"details,omitempty"  readonly:"true"`
 }
 
 type Jobs struct {

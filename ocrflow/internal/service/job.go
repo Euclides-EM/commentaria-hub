@@ -53,13 +53,13 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 				return j.syncBackupToDrive(jb)
 			})
 		}
-		if jb.Task == job.AnnotationRuleApply && jb.Annotation != nil && jb.Rules != nil {
+		if jb.Task == job.AnnotationRuleApply && jb.EffectiveAnnotation != nil && jb.Rules != nil {
 			j.runAnnotationRuleApply(jb)
 		}
 		if jb.Task == job.ModelTrain && jb.ModelTraining != nil {
 			j.runModelTrain(jb)
 		}
-		if jb.Task == job.Export && jb.Target != nil && jb.Annotation != nil {
+		if jb.Task == job.Export && jb.Target != nil && jb.EffectiveAnnotation != nil {
 			switch jb.Target.Platform {
 			case job.PlatformRoboflow:
 				j.run(jb, "roboflow export", func() (any, error) {
@@ -81,7 +81,7 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 
 func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 	j.run(jb, "annotation rule apply", func() (any, error) {
-		ann, err := j.annotations.ExecuteApplyRules(jb.Annotation.DatasetID, jb.Annotation.ID, jb.Rules)
+		ann, err := j.annotations.ExecuteApplyRules(jb.EffectiveAnnotation.DatasetID, jb.EffectiveAnnotation.ID, jb.Rules)
 		if err != nil {
 			return nil, err
 		}
@@ -113,7 +113,7 @@ func (j *Job) exportToRoboflow(job *job.Job) error {
 		ProjectID:        job.Target.ProjectID,
 		IsNotGroundTruth: job.Target.IsNotGroundTruth,
 	}
-	_, err := j.annotationsUpload.UploadToRoboflow(job.Annotation.DatasetID, job.Annotation.ID, rbu)
+	_, err := j.annotationsUpload.UploadToRoboflow(job.EffectiveAnnotation.DatasetID, job.EffectiveAnnotation.ID, rbu)
 	return err
 }
 
@@ -124,7 +124,7 @@ func (j *Job) exportToEScriptorium(job *job.Job) error {
 		Password: job.Target.Password,
 		Document: job.Target.Document,
 	}
-	_, err := j.annotationsUpload.UploadToEscriptorium(job.Annotation.DatasetID, job.Annotation.ID, ebu)
+	_, err := j.annotationsUpload.UploadToEscriptorium(job.EffectiveAnnotation.DatasetID, job.EffectiveAnnotation.ID, ebu)
 	return err
 }
 
@@ -134,7 +134,7 @@ func (j *Job) exportToCommentaria(job *job.Job) error {
 		APIKey:    job.Target.APIKey,
 		DatasetID: job.Target.DatasetID,
 	}
-	_, err := j.annotationsUpload.UploadToCommentaria(job.Annotation.DatasetID, job.Annotation.ID, cbu)
+	_, err := j.annotationsUpload.UploadToCommentaria(job.EffectiveAnnotation.DatasetID, job.EffectiveAnnotation.ID, cbu)
 	return err
 }
 
