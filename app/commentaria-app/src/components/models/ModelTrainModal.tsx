@@ -47,7 +47,10 @@ type AnnotationGroupOption = {
 const trainableModelTypes: Array<{
   value: common_OCRModelType
   label: string
-}> = [{ value: 'text', label: 'Text recognition' }]
+}> = [
+  { value: 'text', label: 'Text recognition' },
+  { value: 'segment', label: 'Segmentation' },
+]
 
 const annotationKey = (
   datasetId: string | undefined,
@@ -92,13 +95,14 @@ export function ModelTrainModal({
     annotationQueries.forEach((query) => {
       const annotations = query.data as annotation_Annotation[] | undefined
       annotations?.forEach((annotation) => {
-        if (!annotation.ocred) return
+        if (modelType === 'text' && !annotation.ocred) return
+        if (modelType === 'segment' && !annotation.segmented) return
         const key = annotationKey(annotation.dataset_id, annotation.id)
         if (key) keys.add(key)
       })
     })
     return keys
-  }, [annotationQueries])
+  }, [annotationQueries, modelType])
   const eligibleDatasetIds = useMemo(() => {
     const ids = new Set<string>()
     eligibleAnnotationKeys.forEach((key) => {
@@ -236,6 +240,7 @@ export function ModelTrainModal({
         name: name.trim(),
         description: description.trim() || undefined,
         type: modelType,
+        algorithm_family: modelType === 'segment' ? 'yolo' : undefined,
         base_model_id: baseModelId || undefined,
         base_annotations: baseAnnotations,
       },
@@ -395,6 +400,7 @@ export function ModelTrainModal({
               <BaseAnnotationPicker
                 row={row}
                 datasets={datasets ?? []}
+                modelType={modelType}
                 eligibleDatasetIds={eligibleDatasetIds}
                 isSaving={isSaving}
                 onChange={(updates) =>
@@ -439,6 +445,7 @@ export function ModelTrainModal({
 type BaseAnnotationPickerProps = {
   row: BaseAnnotationRow
   datasets: Array<{ id?: string; name?: string }>
+  modelType: common_OCRModelType
   eligibleDatasetIds: Set<string>
   isSaving: boolean
   onChange: (updates: Partial<BaseAnnotationRow>) => void
@@ -448,6 +455,7 @@ type BaseAnnotationPickerProps = {
 function BaseAnnotationPicker({
   row,
   datasets,
+  modelType,
   eligibleDatasetIds,
   isSaving,
   onChange,
@@ -471,12 +479,16 @@ function BaseAnnotationPicker({
   const annotationOptions = useMemo(() => {
     if (!annotations) return []
     return annotations
-      .filter((annotation) => annotation.id && annotation.ocred)
+      .filter(
+        (annotation) =>
+          annotation.id &&
+          (modelType === 'segment' ? annotation.segmented : annotation.ocred),
+      )
       .map((annotation) => ({
         value: annotation.id as string,
         label: annotation.name || (annotation.id as string),
       }))
-  }, [annotations])
+  }, [annotations, modelType])
 
   return (
     <div className="flex flex-col sm:flex-row sm:items-center gap-2">

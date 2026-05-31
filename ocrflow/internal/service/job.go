@@ -19,7 +19,7 @@ type Job struct {
 	annotations       *Annotation
 	facsimiles        *Facsimile
 	backups           *Backup
-	modelTrain        *ModelTrainingOCR
+	modelTrain        *ModelTrainingRemote
 }
 
 func (j *Job) ListJobs() ([]*job.Job, error) {
@@ -207,7 +207,7 @@ func (j *Job) GetJob(id string) (*job.Job, error) {
 	return j.jobsStore.Get(id)
 }
 
-func NewJob(jobsStore *store.JobStore, annotationsUpload *AnnotationsUploader, annotations *Annotation, facsimiles *Facsimile, backups *Backup, modelTrain *ModelTrainingOCR) *Job {
+func NewJob(jobsStore *store.JobStore, annotationsUpload *AnnotationsUploader, annotations *Annotation, facsimiles *Facsimile, backups *Backup, modelTrain *ModelTrainingRemote) *Job {
 	return &Job{
 		jobsStore:         jobsStore,
 		annotationsUpload: annotationsUpload,

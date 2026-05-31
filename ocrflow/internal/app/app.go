@@ -155,8 +155,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
 	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
-	modelTrainOCRSvc := service.NewModelTrainingOCR(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.ModelTrainUploadURL, env.GithubToken, slurmSubmitterSvc)
-	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainOCRSvc)
+	modelTrainRemoteSvc := service.NewModelTrainingRemote(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.ModelTrainUploadURL, env.GithubToken, slurmSubmitterSvc)
+	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainRemoteSvc)
 	modelTrainingSvc := service.NewModelTraining(jobSvc)
 	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
 

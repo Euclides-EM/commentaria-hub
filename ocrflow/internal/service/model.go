@@ -90,6 +90,9 @@ func (m *Model) Upload(file multipart.File, filename, name, description string, 
 		BaseAnnotations: baseAnnotations,
 		BaseModelID:     baseModelID,
 	}
+	if modelType == common.OCRModelTypeSegment {
+		mo.AlgorithmFamily = model.OCRModelAlgorithmFamilyYOLO
+	}
 
 	p := m.fileSysMgt.ModelPath(mo)
 	if err := futils.WriteMultipartFileToPath(file, p); err != nil {
