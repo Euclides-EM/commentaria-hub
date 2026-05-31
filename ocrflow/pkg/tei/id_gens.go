@@ -19,6 +19,9 @@ const (
 	InterpGrpCategoriesID   = "categories"
 	InterpGrpCategoriesType = "highlight-categories"
 
+	InterpGrpAltoCategoriesID   = "zone_categories"
+	InterpGrpAltoCategoriesType = "zone_categories"
+
 	InterpGrpPropsID   = "props"
 	InterpGrpPropsType = "highlight-props"
 
@@ -60,6 +63,10 @@ func endMentionAnchorID(mentionIdx int) string {
 
 func interpCategoryID(cat string) string {
 	return "cat_" + sanitizeID(cat)
+}
+
+func interpAltoCategoryID(cat string) string {
+	return "zone_cat_" + sanitizeID(cat)
 }
 
 func interpPropID(prop string) string {

@@ -43,6 +43,7 @@ func buildFacsimileForAlto(pageKey, imageUrl string, a *alto.Alto) model.Facsimi
 		textBlockZones = append(textBlockZones, model.Zone{
 			XmlID:   textBlockZoneID,
 			Type:    textBlockZoneType,
+			Ana:     altoCategoryAna(textBlock.TagRefs, a.Tags),
 			ULX:     textBlock.HPOS,
 			ULY:     textBlock.VPOS,
 			LRX:     textBlock.HPOS + textBlock.Width,

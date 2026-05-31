@@ -12,7 +12,7 @@ func InitMountProjToStore(rootPath, storePath string) error {
 	if err != nil {
 		return err
 	}
-	repoStorePath := filepath.Join(absRoot, "store")
+	repoStorePath := filepath.Join(absRoot, "ocrflow", "store")
 
 	absStore, err := filepath.Abs(storePath)
 	if err != nil {
