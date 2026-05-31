@@ -37,12 +37,14 @@ const EXECUTION_SKIP_IF_OPTIONS: feature_ExecutionSkipIf[] = [
   'feature_exist',
   'revision_exist',
   'human_reviewed',
+  'value_not_empty',
 ]
 
 const EXECUTION_SKIP_IF_LABELS: Record<feature_ExecutionSkipIf, string> = {
   feature_exist: 'Feature exist',
   revision_exist: 'Revision exist',
   human_reviewed: 'Human reviewed',
+  value_not_empty: 'Value not empty',
 }
 
 const formatDate = (value?: string) => {

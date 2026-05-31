@@ -193,7 +193,7 @@ func (fe *Execution) loadExecutionSkipState(exec *feature.Execution) (*features.
 		if result == nil {
 			continue
 		}
-		state.Add(result.FeatureID, result.Key, result.Source.Revision, result.Source.Resp == "human")
+		state.Add(result)
 	}
 
 	return state, nil
