@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type feature_ExecutionSkipIf = 'feature_exist' | 'revision_exist' | 'human_reviewed' | 'value_not_empty';
+export type model_ModelTrainingStatus = "submitted";

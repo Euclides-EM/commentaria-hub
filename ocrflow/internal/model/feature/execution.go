@@ -58,4 +58,5 @@ const (
 	ExecutionSkipIfFeatureExist  ExecutionSkipIf = "feature_exist"
 	ExecutionSkipIfRevisionExist ExecutionSkipIf = "revision_exist"
 	ExecutionSkipIfHumanReviewed ExecutionSkipIf = "human_reviewed"
+	ExecutionSkipIfValueNotEmpty ExecutionSkipIf = "value_not_empty"
 )

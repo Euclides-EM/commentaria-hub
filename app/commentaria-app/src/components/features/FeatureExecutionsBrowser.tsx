@@ -43,12 +43,14 @@ const EXECUTION_SKIP_IF_OPTIONS: feature_ExecutionSkipIf[] = [
   'feature_exist',
   'revision_exist',
   'human_reviewed',
+  'value_not_empty',
 ]
 
 const EXECUTION_SKIP_IF_LABELS: Record<feature_ExecutionSkipIf, string> = {
   feature_exist: 'Feature exist',
   revision_exist: 'Revision exist',
   human_reviewed: 'Human reviewed',
+  value_not_empty: 'Value not empty',
 }
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
@@ -310,10 +312,8 @@ export function FeatureExecutionsBrowser() {
       if (datasetId && execution.scope?.dataset_id !== datasetId) {
         return false
       }
-      if (annotationId && execution.scope?.annotation_id !== annotationId) {
-        return false
-      }
-      return true
+      return !(annotationId && execution.scope?.annotation_id !== annotationId);
+
     })
   }, [annotationId, datasetId, executionStatusFilter, executionsQuery.data])
 

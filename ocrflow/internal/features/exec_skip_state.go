@@ -10,6 +10,7 @@ type ExecutionSkipState struct {
 	featureExists  map[string]struct{}
 	revisionExists map[string]struct{}
 	humanReviewed  map[string]struct{}
+	valueExists    map[string]struct{}
 }
 
 func NewExecutionSkipState() *ExecutionSkipState {
@@ -17,6 +18,7 @@ func NewExecutionSkipState() *ExecutionSkipState {
 		featureExists:  make(map[string]struct{}),
 		revisionExists: make(map[string]struct{}),
 		humanReviewed:  make(map[string]struct{}),
+		valueExists:    make(map[string]struct{}),
 	}
 }
 
@@ -46,17 +48,32 @@ func (s *ExecutionSkipState) SkipReasons(policy *feature.ExecutionPolicy, key, f
 			if _, ok := s.humanReviewed[featureKey]; ok {
 				reasons = append(reasons, rule)
 			}
+		case feature.ExecutionSkipIfValueNotEmpty:
+			if _, ok := s.valueExists[featureKey]; ok {
+				reasons = append(reasons, rule)
+			}
 		}
 	}
 	return reasons
 }
 
-func (s *ExecutionSkipState) Add(featureID, key, revisionID string, reviewed bool) {
-	s.featureExists[featureID+"::"+key] = struct{}{}
-	if strings.TrimSpace(revisionID) != "" {
-		s.revisionExists[featureID+"::"+key+"::"+revisionID] = struct{}{}
+func (s *ExecutionSkipState) Add(result *feature.Result) {
+	if result == nil {
+		return
 	}
-	if reviewed {
-		s.humanReviewed[featureID+"::"+key] = struct{}{}
+
+	featureKey := result.FeatureID + "::" + result.Key
+	s.featureExists[featureKey] = struct{}{}
+	if strings.TrimSpace(result.Source.Revision) != "" {
+		s.revisionExists[featureKey+"::"+result.Source.Revision] = struct{}{}
+	}
+	if result.Source.Resp == "human" {
+		s.humanReviewed[featureKey] = struct{}{}
+	}
+	for _, value := range result.Values {
+		if strings.TrimSpace(value.Surface) != "" {
+			s.valueExists[featureKey] = struct{}{}
+			break
+		}
 	}
 }

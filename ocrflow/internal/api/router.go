@@ -37,6 +37,7 @@ type Dependencies struct {
 	DiagramCropsSvc         *service.DiagramCrops
 	USTC                    *service.USTC
 	JobSvc                  *service.Job
+	ModelTrainingSvc        *service.ModelTraining
 	GeoSvc                  *service.Geo
 	VCSMgt                  *service.VCSMgt
 	BackupSvc               *service.Backup
@@ -143,6 +144,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/jobs/{jobId}", httpwrapper.Get(h.GetJob).Build())
 
 	api.HandleFunc("/models", httpwrapper.Get(h.ListModels).Build())
+	api.HandleFunc("/models_train", httpwrapper.Create(h.TrainModel).Build())
 	api.HandleFunc("/models_upload", httpwrapper.CreateFile(h.UploadModel).Build())
 	api.HandleFunc("/models/{id}", httpwrapper.Delete(h.DeleteModel).Update(h.UpdateModel).Build())
 

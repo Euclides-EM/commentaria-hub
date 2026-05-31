@@ -3,7 +3,6 @@ package service
 import (
 	"fmt"
 	"log"
-	"os"
 	"path/filepath"
 	"strings"
 	"time"
@@ -20,33 +19,18 @@ type VCSMgt struct {
 
 // NewVCSMgt creates a repo service. itemsMetadataStoreDir may be empty to disable.
 func NewVCSMgt(rootDir, itemsMetadataStoreDir, titlePageImgDir string) *VCSMgt {
-	repoPath := findGitRoot(rootDir)
-	relIMSD, err := filepath.Rel(repoPath, itemsMetadataStoreDir)
+	relIMSD, err := filepath.Rel(rootDir, itemsMetadataStoreDir)
 	if err != nil {
-		log.Fatalf("filepath.Rel(%q, %q): %v", repoPath, itemsMetadataStoreDir, err)
+		log.Fatalf("filepath.Rel(%q, %q): %v", rootDir, itemsMetadataStoreDir, err)
 	}
-	relTPID, err := filepath.Rel(repoPath, titlePageImgDir)
+	relTPID, err := filepath.Rel(rootDir, titlePageImgDir)
 	if err != nil {
-		log.Fatalf("filepath.Rel(%q, %q): %v", repoPath, titlePageImgDir, err)
+		log.Fatalf("filepath.Rel(%q, %q): %v", rootDir, titlePageImgDir, err)
 	}
 	return &VCSMgt{
-		repoPath:              repoPath,
+		repoPath:              rootDir,
 		itemsMetadataStoreDir: relIMSD,
 		titlePageImgDir:       relTPID,
-	}
-}
-
-func findGitRoot(start string) string {
-	dir := filepath.Clean(start)
-	for {
-		if _, err := os.Stat(filepath.Join(dir, ".git")); err == nil {
-			return dir
-		}
-		parent := filepath.Dir(dir)
-		if parent == dir {
-			return filepath.Clean(start)
-		}
-		dir = parent
 	}
 }
 

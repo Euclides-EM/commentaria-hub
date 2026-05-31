@@ -25,8 +25,11 @@ type EnvConfig struct {
 	LogsSystemdUnit          string        `env:"LOGS_SYSTEMD_UNIT" envDefault:"commentaria-hub-api"`
 	LogsTailDefaultLines     int           `env:"LOGS_TAIL_DEFAULT_LINES" envDefault:"200"`
 	LogsTailMaxLines         int           `env:"LOGS_TAIL_MAX_LINES" envDefault:"2000"`
+	GPUFarmHost              string        `env:"GPU_FARM_HOST" envDefault:""`
+	GPUFarmJobRoot           string        `env:"GPU_FARM_JOB_ROOT" envDefault:""`
+	ModelTrainUploadURL      string        `env:"MODEL_TRAIN_UPLOAD_URL" envDefault:""`
 
-	RootDir          string `env:"ROOT_DIR" envDefault:"./"`
+	RootDir          string `env:"ROOT_DIR" envDefault:"../"`
 	StoreDir         string `env:"STORE_DIR" envDefault:"./store"`
 	TempDir          string `env:"OCRFLOW_TEMP_DIR"`
 	BackupRootDir    string `env:"BACKUP_ROOT_DIR" envDefault:"./full_backups"`
@@ -100,12 +103,13 @@ func (ec *EnvConfig) TmpDir() string {
 }
 
 func (ec *EnvConfig) AllowedOriginsCORSList() []string {
-	if ec.AllowedOriginsCORS == "" {
-		return ec.defaultAllowedOriginsCORS()
+	corsOrigins := ec.defaultAllowedOriginsCORS()
+	if ec.AllowedOriginsCORS != "" {
+		lo.ForEach(strings.Split(ec.AllowedOriginsCORS, ","), func(origin string, _ int) {
+			corsOrigins = append(corsOrigins, strings.TrimSpace(origin))
+		})
 	}
-	return lo.Map(strings.Split(ec.AllowedOriginsCORS, ","), func(origin string, _ int) string {
-		return strings.TrimSpace(origin)
-	})
+	return corsOrigins
 }
 
 func (ec *EnvConfig) defaultAllowedOriginsCORS() []string {

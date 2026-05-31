@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type job_Task = 'Export' | 'FacsimileDriveImport' | 'BackupCreate' | 'BackupSyncToDrive';
+export type job_Task = 'Export' | 'FacsimileDriveImport' | 'BackupCreate' | 'BackupSyncToDrive' | 'AnnotationRuleApply' | 'ModelTrain';
