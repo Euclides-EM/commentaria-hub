@@ -91,7 +91,6 @@ export type { model_ImageMetadata } from './models/model_ImageMetadata';
 export type { model_ImageUpload } from './models/model_ImageUpload';
 export type { model_Model } from './models/model_Model';
 export type { model_ModelTraining } from './models/model_ModelTraining';
-export type { model_ModelTrainingStatus } from './models/model_ModelTrainingStatus';
 export type { model_Note } from './models/model_Note';
 export type { model_OCRModelAlgorithmFamily } from './models/model_OCRModelAlgorithmFamily';
 export type { model_OCRModelLocation } from './models/model_OCRModelLocation';

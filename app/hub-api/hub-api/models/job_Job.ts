@@ -15,11 +15,12 @@ export type job_Job = {
     readonly details?: string;
     readonly finished_at?: string;
     readonly id?: string;
+    model_training?: model_ModelTraining;
     name?: string;
     rules?: annotationrule_ApplyRules;
     readonly status?: job_Status;
-    model_training?: model_ModelTraining;
     target?: job_Target;
     task?: job_Task;
     readonly updated_at?: string;
 };
+
