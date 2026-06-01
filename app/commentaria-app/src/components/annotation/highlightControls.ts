@@ -31,6 +31,13 @@ export const getHighlightZoneFilterPickerLabel = ({
   return items.map(getHighlightZoneFilterLabel).join(', ')
 }
 
+export const zoneCategoryLabel = (category: string) =>
+  category
+    .replace(/^zone_cat_/i, '')
+    .split('_')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+
 export const filterSurfaceZones = (
   surfaceZones: TeiSurfaceZone[],
   selectedFilters: HighlightZoneFilter[],

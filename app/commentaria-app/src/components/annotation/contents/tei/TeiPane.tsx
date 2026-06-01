@@ -1,4 +1,5 @@
 import {
+  getTeiAllZoneCategories,
   getTeiHighlightCategories,
   getTeiSurfaceZones,
   getTeiTranslations,
@@ -57,12 +58,14 @@ type TeiPaneProps = {
   activeLineMatchIds: string[]
   onHoverLineMatchIds: (ids: string[]) => void
   onSurfaceZonesChange: (zones: TeiSurfaceZone[]) => void
+  onAllZoneCategoriesChange: (categories: string[]) => void
 }
 
 export function TeiPane({
   activeLineMatchIds,
   onHoverLineMatchIds,
   onSurfaceZonesChange,
+  onAllZoneCategoriesChange,
 }: TeiPaneProps) {
   const {
     annotation,
@@ -250,6 +253,21 @@ export function TeiPane({
       onSurfaceZonesChange([])
     },
     [onSurfaceZonesChange],
+  )
+
+  useEffect(() => {
+    onAllZoneCategoriesChange(
+      surfaceZoneTeiContents
+        ? getTeiAllZoneCategories(surfaceZoneTeiContents)
+        : [],
+    )
+  }, [currentPageOrKey, onAllZoneCategoriesChange, surfaceZoneTeiContents])
+
+  useEffect(
+    () => () => {
+      onAllZoneCategoriesChange([])
+    },
+    [onAllZoneCategoriesChange],
   )
 
   const teiCategories = useMemo(
