@@ -36,7 +36,9 @@ import {
   HIGHLIGHT_ZONE_FILTER_OPTIONS,
   HIGHLIGHT_ZONE_FILTER_STORAGE_KEY,
   type HighlightZoneFilter,
+  zoneCategoryLabel,
 } from '../highlightControls.ts'
+import { colorFromText } from '../../../utils/colorFromText.ts'
 import { computeVisibleZones, filterValidZones } from '../imageZoneUtils.ts'
 import { useZoomableImage } from '../useZoomableImage.ts'
 
@@ -83,6 +85,7 @@ type ImagePaneProps = {
   showResizeHandle?: boolean
   onResizeStart?: () => void
   surfaceZones?: TeiSurfaceZone[]
+  allZoneCategories?: string[]
   activeLineMatchIds?: string[]
   onHoverLineMatchIds?: (ids: string[]) => void
 }
@@ -91,6 +94,7 @@ export function ImagePane({
   showResizeHandle = false,
   onResizeStart,
   surfaceZones = [],
+  allZoneCategories = [],
   activeLineMatchIds = [],
   onHoverLineMatchIds,
 }: ImagePaneProps) {
@@ -112,6 +116,23 @@ export function ImagePane({
     defaultValue: DEFAULT_HIGHLIGHT_ZONE_FILTERS,
     storageSync: false,
   })
+  const [selectedZoneCategoryIds, setSelectedZoneCategoryIds] =
+    useLocalStorageState<string[] | null>('imagePaneSelectedZoneCategories', {
+      defaultValue: null,
+      storageSync: false,
+    })
+  const [isLegendMinimized, setIsLegendMinimized] = useLocalStorageState(
+    'imagePaneZoneLegendMinimized',
+    { defaultValue: false, storageSync: false },
+  )
+  const [legendPos, setLegendPos] = useState({ x: 8, y: 8 })
+  const legendDragRef = useRef<{
+    pointerX: number
+    pointerY: number
+    legendX: number
+    legendY: number
+    moved: boolean
+  } | null>(null)
   const fileInputRef = useRef<HTMLInputElement | null>(null)
   const lastHoverIdsKeyRef = useRef('')
   const isAuthenticated = !!useAuthStore((store) => store.token)
@@ -167,10 +188,91 @@ export function ImagePane({
     () => new Set(activeLineMatchIds),
     [activeLineMatchIds],
   )
-  const highlightableZones = useMemo(
-    () => filterValidZones(surfaceZones, highlightZoneFilters),
-    [highlightZoneFilters, surfaceZones],
+  const blockZoneCategories = useMemo(
+    () =>
+      [
+        ...new Set(
+          surfaceZones
+            .filter((z) => z.zoneType === 'block' && z.zoneCategory)
+            .map((z) => z.zoneCategory),
+        ),
+      ].sort(),
+    [surfaceZones],
   )
+  const allBlockCategoryItems = useMemo(() => {
+    const presentSet = new Set(blockZoneCategories)
+    const source =
+      allZoneCategories.length > 0 ? allZoneCategories : blockZoneCategories
+    return source
+      .map((id) => ({
+        id,
+        label: zoneCategoryLabel(id),
+        color: colorFromText(id),
+        isPresent: presentSet.has(id),
+      }))
+      .sort((a, b) => a.label.localeCompare(b.label))
+  }, [allZoneCategories, blockZoneCategories])
+
+  const handleLegendHeaderPointerDown = (
+    e: ReactPointerEvent<HTMLButtonElement>,
+  ) => {
+    e.preventDefault()
+    e.stopPropagation()
+    legendDragRef.current = {
+      pointerX: e.clientX,
+      pointerY: e.clientY,
+      legendX: legendPos.x,
+      legendY: legendPos.y,
+      moved: false,
+    }
+    const onMove = (moveEvent: PointerEvent) => {
+      if (!legendDragRef.current) return
+      const dx = moveEvent.clientX - legendDragRef.current.pointerX
+      const dy = moveEvent.clientY - legendDragRef.current.pointerY
+      if (
+        !legendDragRef.current.moved &&
+        (Math.abs(dx) > 3 || Math.abs(dy) > 3)
+      ) {
+        legendDragRef.current.moved = true
+      }
+      if (legendDragRef.current.moved) {
+        setLegendPos({
+          x: Math.max(0, legendDragRef.current.legendX + dx),
+          y: Math.max(0, legendDragRef.current.legendY + dy),
+        })
+      }
+    }
+    const onUp = () => {
+      if (legendDragRef.current && !legendDragRef.current.moved) {
+        setIsLegendMinimized((prev) => !prev)
+      }
+      legendDragRef.current = null
+      window.removeEventListener('pointermove', onMove)
+      window.removeEventListener('pointerup', onUp)
+    }
+    window.addEventListener('pointermove', onMove)
+    window.addEventListener('pointerup', onUp)
+  }
+
+  const toggleZoneCategory = (id: string) => {
+    const current = selectedZoneCategoryIds ?? blockZoneCategories
+    if (current.includes(id)) {
+      setSelectedZoneCategoryIds(current.filter((c) => c !== id))
+    } else {
+      const next = [...current, id]
+      setSelectedZoneCategoryIds(
+        next.length >= blockZoneCategories.length ? null : next,
+      )
+    }
+  }
+  const highlightableZones = useMemo(() => {
+    const typeFiltered = filterValidZones(surfaceZones, highlightZoneFilters)
+    if (selectedZoneCategoryIds === null) return typeFiltered
+    const selected = new Set(selectedZoneCategoryIds)
+    return typeFiltered.filter(
+      (zone) => zone.zoneType !== 'block' || selected.has(zone.zoneCategory),
+    )
+  }, [highlightZoneFilters, surfaceZones, selectedZoneCategoryIds])
   const hasHighlightableZones = highlightableZones.length > 0
   const visibleZones = useMemo(
     () =>
@@ -402,22 +504,36 @@ export function ImagePane({
                     if (!isShown) {
                       return null
                     }
-                    const className = zone.isActive
-                      ? zone.zoneType === 'block'
-                        ? 'border-amber-500 bg-amber-300/20'
-                        : 'border-teal-500 bg-teal-300/20'
-                      : zone.zoneType === 'block'
-                        ? 'border-amber-400/60 bg-amber-200/10'
-                        : 'border-teal-400/60 bg-teal-200/10'
+                    if (zone.zoneType === 'block') {
+                      const color = colorFromText(zone.zoneCategory)
+                      return (
+                        <div
+                          key={zone.id}
+                          className="absolute border-2 rounded-sm"
+                          style={{
+                            left: `${zone.left}px`,
+                            top: `${zone.top}px`,
+                            width: `${zone.width}px`,
+                            height: `${zone.height}px`,
+                            borderColor: color,
+                            backgroundColor: color,
+                            opacity: zone.isActive ? 0.6 : 0.25,
+                          }}
+                        />
+                      )
+                    }
+                    const lineClassName = zone.isActive
+                      ? 'border-teal-500 bg-teal-300/20'
+                      : 'border-teal-400/60 bg-teal-200/10'
                     return (
                       <div
                         key={zone.id}
-                        className={`absolute border-2 rounded-sm ${className}`}
+                        className={`absolute border-2 rounded-sm ${lineClassName}`}
                         style={{
-                          left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
-                          top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
-                          width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
-                          height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
+                          left: `${zone.left - 1}px`,
+                          top: `${zone.top - 1}px`,
+                          width: `${zone.width + 2}px`,
+                          height: `${zone.height + 2}px`,
                         }}
                       />
                     )
@@ -425,6 +541,88 @@ export function ImagePane({
                 </div>
               )}
             </div>
+            {hasSurfaceZones &&
+              highlightZoneFilters.includes('block') &&
+              allBlockCategoryItems.length > 0 && (
+                <div
+                  className="absolute z-30 bg-white/90 border border-gray-200 rounded-md shadow-sm text-xs"
+                  style={{ left: legendPos.x, top: legendPos.y }}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <button
+                    type="button"
+                    className="flex items-center justify-between gap-2 px-2 py-1.5 border-b border-gray-200 w-full cursor-grab hover:bg-black/5 active:cursor-grabbing"
+                    onPointerDown={handleLegendHeaderPointerDown}
+                    aria-label={
+                      isLegendMinimized ? 'Expand legend' : 'Minimize legend'
+                    }
+                  >
+                    <span className="font-medium text-gray-600 select-none">
+                      Region types
+                    </span>
+                    <span className="text-gray-400 leading-none">
+                      {isLegendMinimized ? '▸' : '▾'}
+                    </span>
+                  </button>
+                  {!isLegendMinimized && (
+                    <>
+                      <div className="flex gap-2 px-2 py-1 border-b border-gray-100">
+                        <button
+                          type="button"
+                          className="text-blue-600 hover:underline"
+                          onClick={() => setSelectedZoneCategoryIds(null)}
+                        >
+                          All
+                        </button>
+                        <button
+                          type="button"
+                          className="text-blue-600 hover:underline"
+                          onClick={() => setSelectedZoneCategoryIds([])}
+                        >
+                          None
+                        </button>
+                      </div>
+                      <div className="p-2 space-y-0.5">
+                        {allBlockCategoryItems.map(
+                          ({ id, label, color, isPresent }) => {
+                            const isSelected =
+                              isPresent &&
+                              (selectedZoneCategoryIds === null ||
+                                selectedZoneCategoryIds.includes(id))
+                            return (
+                              <label
+                                key={id}
+                                className={`flex items-center gap-1.5 py-0.5 select-none ${isPresent ? 'cursor-pointer' : 'opacity-40 cursor-default'}`}
+                              >
+                                <input
+                                  type="checkbox"
+                                  checked={isSelected}
+                                  disabled={!isPresent}
+                                  onChange={() => toggleZoneCategory(id)}
+                                  className="rounded"
+                                />
+                                <span
+                                  className="inline-block w-3 h-3 rounded-sm shrink-0 border border-black/10"
+                                  style={{ backgroundColor: color }}
+                                />
+                                <span
+                                  className={
+                                    isPresent
+                                      ? 'text-gray-700'
+                                      : 'text-gray-400'
+                                  }
+                                >
+                                  {label}
+                                </span>
+                              </label>
+                            )
+                          },
+                        )}
+                      </div>
+                    </>
+                  )}
+                </div>
+              )}
           </div>
         </div>
       </div>

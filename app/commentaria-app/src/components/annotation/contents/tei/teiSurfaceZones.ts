@@ -1,6 +1,7 @@
 import {
   getElementAttr,
   getXmlId,
+  parseAnaRefs,
   parseCorrespRefs,
   parseXml,
   toUniqueSorted,
@@ -144,6 +145,27 @@ const getZoneToTextMatchIds = (doc: Document) => {
   return links
 }
 
+export const getTeiAllZoneCategories = (tei: string): string[] => {
+  try {
+    const doc = parseXml(tei.trim())
+    const interpGroups = doc.getElementsByTagNameNS('*', 'interpGrp')
+    for (let i = 0; i < interpGroups.length; i++) {
+      const group = interpGroups[i]
+      if (getElementAttr(group, 'type') !== 'zone_categories') continue
+      const interps = group.getElementsByTagNameNS('*', 'interp')
+      const cats: string[] = []
+      for (let j = 0; j < interps.length; j++) {
+        const id = getXmlId(interps[j])
+        if (id) cats.push(id)
+      }
+      return cats
+    }
+    return []
+  } catch {
+    return []
+  }
+}
+
 export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
   try {
     const doc = parseXml(tei.trim())
@@ -192,9 +214,12 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
         ...parseCorrespRefs(zone.getAttribute('facs')),
       ])
       const parentBounds = parseBoundsFromElement(zone.closest('surface'))
+      const anaRefs = parseAnaRefs(zone.getAttribute('ana'))
+      const zoneCategory = anaRefs[0] || ''
       parsed.push({
         id,
         matchIds: matchIds.length ? matchIds : [id],
+        zoneCategory,
         ulx,
         uly,
         lrx,
@@ -292,6 +317,7 @@ export const getTeiSurfaceZones = (tei: string): TeiSurfaceZone[] => {
           ...(hoverMatchIdsByZoneId.get(zone.id) || new Set(zone.matchIds)),
         ].sort(),
         zoneType: isTextBlockType(zone.type) ? 'block' : 'line',
+        zoneCategory: zone.zoneCategory,
         ulx: zone.ulx,
         uly: zone.uly,
         lrx: zone.lrx,
