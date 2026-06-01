@@ -37,8 +37,8 @@ import {
   HIGHLIGHT_ZONE_FILTER_STORAGE_KEY,
   type HighlightZoneFilter,
   zoneCategoryLabel,
-  zoneCategoryToColor,
 } from '../highlightControls.ts'
+import { colorFromText } from '../../../utils/colorFromText.ts'
 import { computeVisibleZones, filterValidZones } from '../imageZoneUtils.ts'
 import { useZoomableImage } from '../useZoomableImage.ts'
 
@@ -207,7 +207,7 @@ export function ImagePane({
       .map((id) => ({
         id,
         label: zoneCategoryLabel(id),
-        color: zoneCategoryToColor(id).activeBorder,
+        color: colorFromText(id),
         isPresent: presentSet.has(id),
       }))
       .sort((a, b) => a.label.localeCompare(b.label))
@@ -229,7 +229,10 @@ export function ImagePane({
       if (!legendDragRef.current) return
       const dx = moveEvent.clientX - legendDragRef.current.pointerX
       const dy = moveEvent.clientY - legendDragRef.current.pointerY
-      if (!legendDragRef.current.moved && (Math.abs(dx) > 3 || Math.abs(dy) > 3)) {
+      if (
+        !legendDragRef.current.moved &&
+        (Math.abs(dx) > 3 || Math.abs(dy) > 3)
+      ) {
         legendDragRef.current.moved = true
       }
       if (legendDragRef.current.moved) {
@@ -502,7 +505,7 @@ export function ImagePane({
                       return null
                     }
                     if (zone.zoneType === 'block') {
-                      const colors = zoneCategoryToColor(zone.zoneCategory)
+                      const color = colorFromText(zone.zoneCategory)
                       return (
                         <div
                           key={zone.id}
@@ -512,12 +515,9 @@ export function ImagePane({
                             top: `${zone.top}px`,
                             width: `${zone.width}px`,
                             height: `${zone.height}px`,
-                            borderColor: zone.isActive
-                              ? colors.activeBorder
-                              : colors.inactiveBorder,
-                            backgroundColor: zone.isActive
-                              ? colors.activeBg
-                              : colors.inactiveBg,
+                            borderColor: color,
+                            backgroundColor: color,
+                            opacity: zone.isActive ? 0.6 : 0.25,
                           }}
                         />
                       )

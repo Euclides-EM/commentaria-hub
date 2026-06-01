@@ -56,8 +56,8 @@ import {
   HIGHLIGHT_ZONE_FILTER_STORAGE_KEY,
   type HighlightZoneFilter,
   zoneCategoryLabel,
-  zoneCategoryToColor,
 } from '../highlightControls.ts'
+import { colorFromText } from '../../../utils/colorFromText.ts'
 import { computeVisibleZones, filterValidZones } from '../imageZoneUtils.ts'
 import { useZoomableImage } from '../useZoomableImage.ts'
 
@@ -264,7 +264,7 @@ function GalleryImageCard({
                 const isShown = highlightMode === 'show' || zone.isActive
                 if (!isShown) return null
                 if (zone.zoneType === 'block') {
-                  const colors = zoneCategoryToColor(zone.zoneCategory)
+                  const color = colorFromText(zone.zoneCategory)
                   return (
                     <div
                       key={zone.id}
@@ -274,12 +274,9 @@ function GalleryImageCard({
                         top: `${zone.top}px`,
                         width: `${zone.width}px`,
                         height: `${zone.height}px`,
-                        borderColor: zone.isActive
-                          ? colors.activeBorder
-                          : colors.inactiveBorder,
-                        backgroundColor: zone.isActive
-                          ? colors.activeBg
-                          : colors.inactiveBg,
+                        borderColor: color,
+                        backgroundColor: color,
+                        opacity: zone.isActive ? 0.6 : 0.25,
                       }}
                     />
                   )
@@ -1057,9 +1054,7 @@ export function GalleryViewTab() {
                           }
                           itemsLabel="region types"
                           getItemLabel={zoneCategoryLabel}
-                          getItemColor={(id) =>
-                            zoneCategoryToColor(id).activeBorder
-                          }
+                          getItemColor={(id) => colorFromText(id)}
                           minWidth="130px"
                         />
                       </div>
