@@ -44,8 +44,8 @@ export function SuggestedRulesPane() {
   const hasRunningApplyRulesJob = !!runningJobs?.some(
     (job) =>
       isAnnotationRuleApplyJob(job) &&
-      job.annotation?.dataset_id === dataset?.id &&
-      job.annotation?.id === annotation?.id,
+      job.effectiveAnnotation?.dataset_id === dataset?.id &&
+      job.effectiveAnnotation?.id === annotation?.id,
   )
 
   const handleRunRule = async (
