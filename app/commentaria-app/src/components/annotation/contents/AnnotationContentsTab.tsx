@@ -20,6 +20,7 @@ export function AnnotationContentsTab() {
   const [isResizingImagePane, setIsResizingImagePane] = useState(false)
   const [activeLineMatchIds, setActiveLineMatchIds] = useState<string[]>([])
   const [surfaceZones, setSurfaceZones] = useState<TeiSurfaceZone[]>([])
+  const [allZoneCategories, setAllZoneCategories] = useState<string[]>([])
   const contentRef = useRef<HTMLDivElement | null>(null)
 
   const handleHoverLineMatchIds = (ids: string[]) => {
@@ -90,6 +91,7 @@ export function AnnotationContentsTab() {
             showResizeHandle
             onResizeStart={() => setIsResizingImagePane(true)}
             surfaceZones={surfaceZones}
+            allZoneCategories={allZoneCategories}
             activeLineMatchIds={activeLineMatchIds}
             onHoverLineMatchIds={handleHoverLineMatchIds}
           />
@@ -100,6 +102,7 @@ export function AnnotationContentsTab() {
             activeLineMatchIds={activeLineMatchIds}
             onHoverLineMatchIds={handleHoverLineMatchIds}
             onSurfaceZonesChange={setSurfaceZones}
+            onAllZoneCategoriesChange={setAllZoneCategories}
           />
         </div>
       </div>

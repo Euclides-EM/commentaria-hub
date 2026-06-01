@@ -17,6 +17,7 @@ interface MultiSelectDropdownProps<T> {
   bulkActionItems?: T[]
   bulkActionLabel?: string
   showBulkActions?: boolean
+  getItemColor?: (item: T) => string | undefined
   showSeparatorBeforeItem?: (item: T) => boolean
   minWidth?: string
   disabled?: boolean
@@ -30,6 +31,7 @@ export function MultiSelectDropdown<T>({
   getItemLabel,
   getPickerLabel,
   getItemKey,
+  getItemColor,
   bulkActionItems,
   bulkActionLabel,
   showBulkActions = true,
@@ -235,6 +237,12 @@ export function MultiSelectDropdown<T>({
                         onChange={() => toggleItem(item)}
                         className="text-blue-600"
                       />
+                      {getItemColor && (
+                        <span
+                          className="inline-block w-3 h-3 rounded-sm shrink-0 border border-black/10"
+                          style={{ backgroundColor: getItemColor(item) }}
+                        />
+                      )}
                       <span className="text-gray-700 break-words">
                         {getItemLabel(item)}
                       </span>
