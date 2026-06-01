@@ -17,6 +17,7 @@ import type { annotationrule_ResolveOverlapWithPriority } from '../models/annota
 import type { annotationrule_SlicePages } from '../models/annotationrule_SlicePages';
 import type { annotationrule_Stretch } from '../models/annotationrule_Stretch';
 import type { annotationrule_TextBlockCorrections } from '../models/annotationrule_TextBlockCorrections';
+import type { job_Job } from '../models/job_Job';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -25,6 +26,7 @@ export class AnnotationsApplyRulesService {
      * Apply Rules to Annotation
      * Apply specific rules to an annotation.
      * @returns annotation_Annotation OK
+     * @returns job_Job Accepted
      * @throws ApiError
      */
     public static putDatasetsAnnotationsApply({
@@ -44,7 +46,7 @@ export class AnnotationsApplyRulesService {
          * Annotation apply rules
          */
         annotationApplyRules: annotationrule_ApplyRules,
-    }): CancelablePromise<annotation_Annotation> {
+    }): CancelablePromise<annotation_Annotation | job_Job> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/datasets/{dataSetId}/annotations/{id}/apply',

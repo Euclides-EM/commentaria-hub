@@ -80,7 +80,13 @@ export function SuggestedRulesPane() {
     })
     refetchRules()
     refetchAnnotation()
-    if (result.id && result.id !== annotation.id) {
+    if ("target" in result) {
+      if (result.target?.annotation_id && result.target.annotation_id !== annotation.id) {
+        setState({ annotationId: result.target.annotation_id })
+
+      }
+    }
+    else if (result.id && result.id !== annotation.id) {
       setState({ annotationId: result.id })
     }
   }
