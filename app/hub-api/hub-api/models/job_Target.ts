@@ -5,6 +5,10 @@
 import type { job_Platform } from './job_Platform';
 export type job_Target = {
     /**
+     * For AnnotationRuleApply
+     */
+    annotation_id?: string;
+    /**
      * For Roboflow and Commentaria
      */
     api_key?: string;
@@ -14,7 +18,7 @@ export type job_Target = {
     backup_id?: string;
     base_path?: string;
     /**
-     * For Commentaria
+     * For Commentaria and AnnotationRuleApply
      */
     dataset_id?: string;
     document?: string;

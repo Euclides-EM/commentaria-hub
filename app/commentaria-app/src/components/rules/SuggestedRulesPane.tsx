@@ -44,8 +44,8 @@ export function SuggestedRulesPane() {
   const hasRunningApplyRulesJob = !!runningJobs?.some(
     (job) =>
       isAnnotationRuleApplyJob(job) &&
-      job.effectiveAnnotation?.dataset_id === dataset?.id &&
-      job.effectiveAnnotation?.id === annotation?.id,
+      job.target?.dataset_id === dataset?.id &&
+      job.target?.annotation_id === annotation?.id,
   )
 
   const handleRunRule = async (
@@ -53,7 +53,7 @@ export function SuggestedRulesPane() {
     action: 'overwrite' | 'create_new',
     copyFeatureResults: boolean,
   ) => {
-    if (!dataset?.id || !annotation?.id) {
+    if (!dataset?.id || !annotation?.id || hasRunningApplyRulesJob) {
       return
     }
 
@@ -124,7 +124,8 @@ export function SuggestedRulesPane() {
           {annotation && isAuthenticated && (
             <button
               onClick={() => setIsManualModalOpen(true)}
-              className="ml-auto px-2 py-1 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              disabled={hasRunningApplyRulesJob}
+              className="ml-auto px-2 py-1 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Run Manually
             </button>
@@ -134,7 +135,8 @@ export function SuggestedRulesPane() {
         <div className="flex-1 min-h-0 overflow-auto p-2.5 box-border">
           {hasRunningApplyRulesJob && (
             <div className="mb-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900">
-              Async rule execution is running for this annotation.{' '}
+              A job is running for this annotation. Applying rules is
+              unavailable until it finishes.{' '}
               <button
                 type="button"
                 className="font-medium text-teal-700 underline underline-offset-2 hover:text-teal-900"
@@ -188,6 +190,7 @@ export function SuggestedRulesPane() {
                     onRun={
                       isAuthenticated &&
                       annotation &&
+                      !hasRunningApplyRulesJob &&
                       !isFutureRuleApplied &&
                       !applied &&
                       canRunRuleBasedOnStage
@@ -195,7 +198,10 @@ export function SuggestedRulesPane() {
                         : undefined
                     }
                     disabled={
-                      isFutureRuleApplied || applied || !canRunRuleBasedOnStage
+                      isFutureRuleApplied ||
+                      applied ||
+                      !canRunRuleBasedOnStage ||
+                      hasRunningApplyRulesJob
                     }
                     applicableStages={ruleApplicableStages}
                   />
@@ -212,7 +218,6 @@ export function SuggestedRulesPane() {
         onSubmit={handleEditRuleSubmit}
         initialPayload={editingRule ?? undefined}
         ruleMetadata={allRules}
-        disableOverwrite={hasRunningApplyRulesJob}
       />
 
       <RuleEditModal
@@ -220,7 +225,6 @@ export function SuggestedRulesPane() {
         onClose={() => setIsManualModalOpen(false)}
         onSubmit={handleManualRuleSubmit}
         ruleMetadata={allRules}
-        disableOverwrite={hasRunningApplyRulesJob}
       />
     </>
   )

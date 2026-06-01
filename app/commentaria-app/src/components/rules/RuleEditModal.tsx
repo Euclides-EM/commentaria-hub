@@ -25,7 +25,6 @@ interface RuleEditModalProps {
   ) => Promise<void>
   initialPayload?: AnnotationRule
   ruleMetadata: annotationrule_MetadataDetails[] | undefined
-  disableOverwrite?: boolean
 }
 
 export function RuleEditModal({
@@ -34,7 +33,6 @@ export function RuleEditModal({
                                 onSubmit,
                                 initialPayload,
                                 ruleMetadata,
-                                disableOverwrite = false,
                               }: RuleEditModalProps) {
   const stripRuleMetaFields = (rule: object) => {
     const editablePayload = {
@@ -70,7 +68,7 @@ export function RuleEditModal({
   useEffect(() => {
     if (isOpen) {
       setError(null)
-      setAction(disableOverwrite ? 'create_new' : 'overwrite')
+      setAction('overwrite')
       setCopyFeatureResults(true)
       setUseAsyncExecution(true)
       if (initialPayload) {
@@ -93,7 +91,7 @@ export function RuleEditModal({
         setPayload('{}')
       }
     }
-  }, [disableOverwrite, initialPayload, isOpen, ruleMetadata, selectedRuleType])
+  }, [initialPayload, isOpen, ruleMetadata, selectedRuleType])
 
   useEffect(() => {
     if (isOpen && !initialPayload && selectedRuleType && ruleMetadata) {
@@ -108,12 +106,6 @@ export function RuleEditModal({
       }
     }
   }, [selectedRuleType, ruleMetadata, isOpen, initialPayload])
-
-  useEffect(() => {
-    if (disableOverwrite && action === 'overwrite') {
-      setAction('create_new')
-    }
-  }, [action, disableOverwrite])
 
   const handleSubmit = async () => {
     if (!selectedRuleType) {
@@ -247,19 +239,13 @@ export function RuleEditModal({
                         checked={action === 'overwrite'}
                         onChange={() => setAction('overwrite')}
                         className="mr-2"
-                        disabled={loading || disableOverwrite}
+                        disabled={loading}
                     />
                     <span className="text-sm">
                     <span className="font-medium">Overwrite</span> - Replace
                     current annotation
                   </span>
                   </label>
-                  {disableOverwrite && (
-                      <div className="text-xs text-amber-700">
-                        Overwrite is unavailable while an async rule execution is
-                        running for this annotation.
-                      </div>
-                  )}
                   <label className="flex items-center">
                     <input
                         type="radio"

@@ -13,7 +13,6 @@ export type job_Job = {
     readonly created_at?: string;
     description?: string;
     readonly details?: string;
-    effectiveAnnotation?: annotation_Reference;
     readonly finished_at?: string;
     readonly id?: string;
     model_training?: model_ModelTraining;

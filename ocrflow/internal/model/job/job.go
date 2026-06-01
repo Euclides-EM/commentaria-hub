@@ -40,16 +40,15 @@ const (
 )
 
 type Job struct {
-	common.Meta         `json:",inline"`
-	Task                Task                       `json:"task"`
-	Target              *Target                    `json:"target"`
-	Annotation          *annotation.Reference      `json:"annotation,omitempty"`
-	EffectiveAnnotation *annotation.Reference      `json:"effectiveAnnotation,omitempty"`
-	ModelTraining       *model.ModelTraining       `json:"model_training,omitempty"`
-	Rules               *annotationrule.ApplyRules `json:"rules,omitempty"`
-	Status              Status                     `json:"status" readonly:"true"`
-	FinishedAt          *time.Time                 `json:"finished_at,omitempty" readonly:"true"`
-	Details             string                     `json:"details,omitempty"  readonly:"true"`
+	common.Meta   `json:",inline"`
+	Task          Task                       `json:"task"`
+	Target        *Target                    `json:"target"`
+	Annotation    *annotation.Reference      `json:"annotation,omitempty"`
+	ModelTraining *model.ModelTraining       `json:"model_training,omitempty"`
+	Rules         *annotationrule.ApplyRules `json:"rules,omitempty"`
+	Status        Status                     `json:"status" readonly:"true"`
+	FinishedAt    *time.Time                 `json:"finished_at,omitempty" readonly:"true"`
+	Details       string                     `json:"details,omitempty"  readonly:"true"`
 }
 
 type Jobs struct {
@@ -73,8 +72,11 @@ type Target struct {
 	ProjectID        string `json:"project_id" example:"dec06miamia-afl6i"`
 	IsNotGroundTruth bool   `json:"is_not_ground_truth"`
 
-	// For Commentaria
+	// For Commentaria and AnnotationRuleApply
 	DatasetID string `json:"dataset_id"`
+
+	// For AnnotationRuleApply
+	AnnotationID string `json:"annotation_id"`
 
 	// For backups
 	BackupID    string `json:"backup_id"`

@@ -34,9 +34,9 @@ func (e *AnnotationRuleExecution) ApplyRules(datasetID string, annotationID stri
 			DatasetID: datasetID,
 			ID:        annotationID,
 		},
-		EffectiveAnnotation: &annotation.Reference{
-			DatasetID: datasetID,
-			ID:        ann.ID,
+		Target: &job.Target{
+			DatasetID:    datasetID,
+			AnnotationID: ann.ID,
 		},
 		Rules: rules,
 	})
