@@ -125,6 +125,14 @@ export function ImagePane({
     'imagePaneZoneLegendMinimized',
     { defaultValue: false, storageSync: false },
   )
+  const [legendPos, setLegendPos] = useState({ x: 8, y: 8 })
+  const legendDragRef = useRef<{
+    pointerX: number
+    pointerY: number
+    legendX: number
+    legendY: number
+    moved: boolean
+  } | null>(null)
   const fileInputRef = useRef<HTMLInputElement | null>(null)
   const lastHoverIdsKeyRef = useRef('')
   const isAuthenticated = !!useAuthStore((store) => store.token)
@@ -204,6 +212,44 @@ export function ImagePane({
       }))
       .sort((a, b) => a.label.localeCompare(b.label))
   }, [allZoneCategories, blockZoneCategories])
+
+  const handleLegendHeaderPointerDown = (
+    e: ReactPointerEvent<HTMLButtonElement>,
+  ) => {
+    e.preventDefault()
+    e.stopPropagation()
+    legendDragRef.current = {
+      pointerX: e.clientX,
+      pointerY: e.clientY,
+      legendX: legendPos.x,
+      legendY: legendPos.y,
+      moved: false,
+    }
+    const onMove = (moveEvent: PointerEvent) => {
+      if (!legendDragRef.current) return
+      const dx = moveEvent.clientX - legendDragRef.current.pointerX
+      const dy = moveEvent.clientY - legendDragRef.current.pointerY
+      if (!legendDragRef.current.moved && (Math.abs(dx) > 3 || Math.abs(dy) > 3)) {
+        legendDragRef.current.moved = true
+      }
+      if (legendDragRef.current.moved) {
+        setLegendPos({
+          x: Math.max(0, legendDragRef.current.legendX + dx),
+          y: Math.max(0, legendDragRef.current.legendY + dy),
+        })
+      }
+    }
+    const onUp = () => {
+      if (legendDragRef.current && !legendDragRef.current.moved) {
+        setIsLegendMinimized((prev) => !prev)
+      }
+      legendDragRef.current = null
+      window.removeEventListener('pointermove', onMove)
+      window.removeEventListener('pointerup', onUp)
+    }
+    window.addEventListener('pointermove', onMove)
+    window.addEventListener('pointerup', onUp)
+  }
 
   const toggleZoneCategory = (id: string) => {
     const current = selectedZoneCategoryIds ?? blockZoneCategories
@@ -499,13 +545,14 @@ export function ImagePane({
               highlightZoneFilters.includes('block') &&
               allBlockCategoryItems.length > 0 && (
                 <div
-                  className="absolute top-2 left-2 z-30 bg-white/90 border border-gray-200 rounded-md shadow-sm text-xs"
+                  className="absolute z-30 bg-white/90 border border-gray-200 rounded-md shadow-sm text-xs"
+                  style={{ left: legendPos.x, top: legendPos.y }}
                   onClick={(e) => e.stopPropagation()}
                 >
                   <button
                     type="button"
-                    className="flex items-center justify-between gap-2 px-2 py-1.5 border-b border-gray-200 w-full cursor-pointer hover:bg-black/5"
-                    onClick={() => setIsLegendMinimized(!isLegendMinimized)}
+                    className="flex items-center justify-between gap-2 px-2 py-1.5 border-b border-gray-200 w-full cursor-grab hover:bg-black/5 active:cursor-grabbing"
+                    onPointerDown={handleLegendHeaderPointerDown}
                     aria-label={
                       isLegendMinimized ? 'Expand legend' : 'Minimize legend'
                     }
