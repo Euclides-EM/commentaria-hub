@@ -53,13 +53,13 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 				return j.syncBackupToDrive(jb)
 			})
 		}
-		if jb.Task == job.AnnotationRuleApply && jb.Annotation != nil && jb.Rules != nil {
+		if jb.Task == job.AnnotationRuleApply && jb.Target != nil && jb.Target.AnnotationID != "" && jb.Rules != nil {
 			j.runAnnotationRuleApply(jb)
 		}
 		if jb.Task == job.ModelTrain && jb.ModelTraining != nil {
 			j.runModelTrain(jb)
 		}
-		if jb.Task == job.Export && jb.Target != nil && jb.Annotation != nil {
+		if jb.Task == job.Export && jb.Target != nil && jb.Target.AnnotationID != "" {
 			switch jb.Target.Platform {
 			case job.PlatformRoboflow:
 				j.run(jb, "roboflow export", func() (any, error) {
@@ -81,7 +81,7 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 
 func (j *Job) runAnnotationRuleApply(jb *job.Job) {
 	j.run(jb, "annotation rule apply", func() (any, error) {
-		ann, err := j.annotations.ApplyRules(jb.Annotation.DatasetID, jb.Annotation.ID, jb.Rules)
+		ann, err := j.annotations.ExecuteApplyRules(jb.Target.DatasetID, jb.Target.AnnotationID, jb.Rules)
 		if err != nil {
 			return nil, err
 		}

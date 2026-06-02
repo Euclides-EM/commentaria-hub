@@ -31,73 +31,6 @@ export class ModelsService {
         });
     }
     /**
-     * Train a Model
-     * Submits model training to the GPU farm.
-     * @returns model_ModelTraining Created
-     * @throws ApiError
-     */
-    public static postModelsTrain({
-        training,
-    }: {
-        /**
-         * Model training details
-         */
-        training: model_ModelTraining,
-    }): CancelablePromise<model_ModelTraining> {
-        return __request(OpenAPI, {
-            method: 'POST',
-            url: '/models_train',
-            body: training,
-            mediaType: 'application/json',
-        });
-    }
-    /**
-     * Upload a Model
-     * Upload a new model to the system.
-     * @returns model_Model OK
-     * @throws ApiError
-     */
-    public static postModelsUpload({
-        file,
-        name,
-        description,
-        baseAnnotations,
-        baseModelId,
-    }: {
-        /**
-         * Model file to upload
-         */
-        file: Blob,
-        /**
-         * Name of the model
-         */
-        name?: string,
-        /**
-         * Description of the model
-         */
-        description?: string,
-        /**
-         * Comma-separated list of base annotation IDs in the format <dataset_id>:<annotation_id>
-         */
-        baseAnnotations?: string,
-        /**
-         * ID of the base model this model is derived from
-         */
-        baseModelId?: string,
-    }): CancelablePromise<model_Model> {
-        return __request(OpenAPI, {
-            method: 'POST',
-            url: '/models_upload',
-            formData: {
-                'file': file,
-                'name': name,
-                'description': description,
-                'base_annotations': baseAnnotations,
-                'base_model_id': baseModelId,
-            },
-        });
-    }
-    /**
      * Update a Model
      * Update an existing model.
      * @returns model_Model OK
@@ -152,6 +85,72 @@ export class ModelsService {
             },
             query: {
                 'deep': deep,
+            },
+        });
+    }
+    /**
+     * Train a Model
+     * Submits model training to the GPU farm.
+     * @returns model_ModelTraining Created
+     * @throws ApiError
+     */
+    public static postModelsTrain({
+        training,
+    }: {
+        /**
+         * Model training details
+         */
+        training: model_ModelTraining,
+    }): CancelablePromise<model_ModelTraining> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/models_train',
+            body: training,
+        });
+    }
+    /**
+     * Upload a Model
+     * Upload a new model to the system.
+     * @returns model_Model OK
+     * @throws ApiError
+     */
+    public static postModelsUpload({
+        file,
+        name,
+        description,
+        baseAnnotations,
+        baseModelId,
+    }: {
+        /**
+         * Model file to upload
+         */
+        file: Blob,
+        /**
+         * Name of the model
+         */
+        name?: string,
+        /**
+         * Description of the model
+         */
+        description?: string,
+        /**
+         * Comma-separated list of base annotation IDs in the format <dataset_id>:<annotation_id>
+         */
+        baseAnnotations?: string,
+        /**
+         * ID of the base model this model is derived from
+         */
+        baseModelId?: string,
+    }): CancelablePromise<model_Model> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/models_upload',
+            formData: {
+                'file': file,
+                'name': name,
+                'description': description,
+                'base_annotations': baseAnnotations,
+                'base_model_id': baseModelId,
             },
         });
     }

@@ -16,6 +16,7 @@ import (
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   annotation.Annotation
+// @Success      202  {object}   job.Job
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply [put]
 func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)

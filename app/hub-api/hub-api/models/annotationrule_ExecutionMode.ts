@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type model_ModelTrainingStatus = "submitted";
+export type annotationrule_ExecutionMode = 'sync' | 'async';
