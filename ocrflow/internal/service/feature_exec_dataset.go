@@ -77,8 +77,8 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 
 		catImprint, catNonImprint := partitionFeatures(actions.categorizerFeatures, actions.categorizerRevisions, isImprintFeat)
 		promptImprint, promptNonImprint := partitionFeatures(actions.promptFeatures, actions.promptRevisions, isImprintFeat)
-		promptImprint.textDescription = "a title page"
-		promptNonImprint.textDescription = "the imprint section of a title page"
+		promptImprint.textDescription = "the imprint section of a title page"
+		promptNonImprint.textDescription = "a title page excluding the imprint section"
 
 		needImprint := len(catImprint.features)+len(promptImprint.features) > 0
 		needNonImprint := len(catNonImprint.features)+len(promptNonImprint.features) > 0
@@ -140,12 +140,14 @@ You will be given:
 Your task is to extract specific paratextual features from the transcription and return them as a JSON object.
 
 Extraction rules:
-- Extract only the minimal text span that corresponds to the requested feature.
-- Omit surrounding adjectives, descriptive phrases, function words, and punctuation unless they are intrinsically part of the feature itself.
+- Extract the exact source span that best satisfies each feature definition. Some features require a minimal unit; others require the fuller title, name, or descriptive phrase. Follow the span guidance in each feature definition.
+- Do not over-trim titles, names, book counts, language references, or descriptors that are part of the requested feature.
+- Omit only surrounding text, outer punctuation, or layout noise that is not part of the selected span.
 - Preserve the original spelling, capitalization, whitespace, line breaks, and punctuation within the extracted span exactly as they appear in the transcription.
 - Early modern orthography may differ from modern spelling and letter usage. For example, “v” and “u” or “i” and “j” may be interchangeable (“vpon,” “Iesus”), and other historical spellings may vary. Treat these as normal forms and reproduce the text exactly as written, without modernization or normalization.
 - Words or phrases may be split across lines or interrupted by characters such as "-", "=" or similar separators. Interpret these as part of the transcription layout and extract the relevant text accurately.
 - Some text may apply to more than one field, so the same text may appear in multiple fields if applicable.
+- If a list-valued feature contains multiple distinct values in a coordinated phrase, return each distinct value separately unless the feature definition asks for a combined phrase.
 - Do not normalize, modernize, interpret, or correct the text.
 
 Return only a valid JSON object. Do not include explanations or any other output.
