@@ -8,6 +8,9 @@ This folder keeps the compact context needed for the V6 TPS feature-extraction r
 - Some features need fuller spans: `Base Content`, `Elements Designation`, `Adapter Attribution`, `Verbs`, `Enriched With`.
 - Some features benefit from cleaned spans: `Euclid References`, `Date in Imprint`, some `Institutions`, some `Adapter Description`, and some imprint fields.
 - V5 had a likely wrapper bug: imprint and non-imprint prompt descriptions were reversed. The V6 code patch fixes that.
+- Adapter names should include initials when they are name initials, but not professional honorifics. A title-like `P.` for Professor belongs in adapter description; honorifics in `Other Educational Authorities` can stay because there is no separate field for them.
+- `Place in Imprint` should preserve internal punctuation such as commas in a place phrase, but drop terminal punctuation such as a final dot.
+- `Verbs` should split distinct verbs/verbal expressions into separate list values.
 
 ## Files
 

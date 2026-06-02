@@ -33,6 +33,14 @@ The user filled 52 of 90 diagnostic rows. High-level signal:
 
 Interpretation: V6 should be feature-specific. Do not make it universally more minimal or universally fuller.
 
+Additional user clarifications before V6:
+
+- `Base Content` and `Elements Designation` should include Euclid and book counts/ranges when they are part of the title/designation.
+- `Verbs` should split distinct verbs/verbal expressions into separate list values.
+- `Base Content Description` vs `Enriched With` distinction is acceptable as documented.
+- `Adapter Attribution` should include initials only when they are name initials. Professional honorifics/titles such as `P.` for Professor should move to `Adapter Description`. In `Other Educational Authorities`, honorifics can stay because there is no separate field to store them.
+- `Place in Imprint` should preserve internal punctuation such as commas in `Paris, France`, but remove terminal punctuation such as a final period.
+
 ## Files To Use After V6 Runs
 
 - `v6_diagnostic_review.csv`
