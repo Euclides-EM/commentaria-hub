@@ -31,7 +31,7 @@ SELECT
   dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
 FROM feature_revisions
 WHERE feature_id = ?
-ORDER BY created_at DESC
+ORDER BY datetime(created_at) DESC, rowid DESC
 `
 	rows, err := s.db.Query(q, featureID)
 	if err != nil {
@@ -66,7 +66,7 @@ FROM feature_revisions
 WHERE scope = ?
   AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
   AND feature_id = ?
-ORDER BY created_at DESC
+ORDER BY datetime(created_at) DESC, rowid DESC
 `
 	rows, err := s.db.Query(q, scope.Type, scope.DatasetID, featureID)
 	if err != nil {
