@@ -163,12 +163,50 @@ func formatBookRanges(books []int) string {
 	return strings.Join(parts, ", ")
 }
 
+func isEditionSubjectClassifierPrompt(fes []*feature.Feature) bool {
+	if len(fes) == 0 {
+		return false
+	}
+	for _, fe := range fes {
+		if fe.ID != "m_classifier" {
+			return false
+		}
+	}
+	return true
+}
+
 func (fe *Execution) editionPromptApplyFunc(ed *model.Edition, frs []*feature.Revision, fes []*feature.Feature, execID string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		aiProvider := frs[0].AIProvider
 		aiModel := frs[0].AIModel
 		featureNameToIndex, definitions, outputFormat := buildPromptComponents(frs, fes)
-		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata about historical textbook editions.
+		var prompt string
+		if isEditionSubjectClassifierPrompt(fes) {
+			prompt = fmt.Sprintf(`You are an AI agent designed to classify historical textbook editions into subject categories.
+
+You will be given structured metadata about a specific edition.
+
+Your task is to answer the classification question based only on the provided metadata and return it as a JSON object.
+Each output value must use only the exact category/classification strings requested in the definition.
+Do not quote, translate, paraphrase, or add metadata text unless the definition explicitly asks for that format.
+Do not infer subject relevance from editor, publisher, city, language, date, or general reputation alone.
+Use "unknown" when the metadata is insufficient or ambiguous; use "unrelated" when the metadata provides no meaningful evidence for a category.
+
+Return only a valid JSON. Do not include any other output.
+
+Output format:
+{
+  %s
+}
+
+Definitions:
+%s
+
+Edition metadata:
+%s
+`, outputFormat, strings.Join(definitions, "\n"), formatEditionInfo(ed))
+		} else {
+			prompt = fmt.Sprintf(`You are an AI agent designed to extract structured metadata about historical textbook editions.
 
 You will be given structured metadata about a specific edition.
 
@@ -189,6 +227,7 @@ Definitions:
 Edition metadata:
 %s
 `, outputFormat, strings.Join(definitions, "\n"), formatEditionInfo(ed))
+		}
 
 		contextDesc := fmt.Sprintf("edition %s", ed.Key)
 		rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
