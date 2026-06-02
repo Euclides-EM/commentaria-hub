@@ -211,25 +211,37 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 	return ann, nil
 }
 
-func (a *Annotation) ApplyRules(datasetID string, id string, aar *annotationrule.ApplyRules) (*annotation.Annotation, error) {
-	ann, err := a.annotationStore.GetAnnotation(datasetID, id)
+func (a *Annotation) PrepareApplyRules(datasetID string, id string, aar *annotationrule.ApplyRules) (*annotation.Annotation, error) {
+	ann, err := a.Get(datasetID, id)
 	if err != nil {
-		return nil, fmt.Errorf("failed to get annotation from store: %w", err)
+		return nil, err
 	}
-	if ann == nil {
-		return nil, fmt.Errorf("annotation not found")
+
+	if aar.Action != annotationrule.ApplyRulesActionCreateNew {
+		return ann, nil
 	}
+
+	ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description, aar.CopyFeatureResults)
+	if err != nil {
+		return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
+	}
+	ann.GroundTruth = false
+	if err := a.annotationStore.UpdateAnnotation(ann); err != nil {
+		return nil, fmt.Errorf("failed to update duplicated annotation in store: %w", err)
+	}
+
+	return ann, nil
+}
+
+func (a *Annotation) ExecuteApplyRules(datasetID string, id string, aar *annotationrule.ApplyRules) (*annotation.Annotation, error) {
+	ann, err := a.Get(datasetID, id)
+	if err != nil {
+		return nil, err
+	}
+
 	ds, err := a.datasetSvc.Get(datasetID)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get dataset: %w", err)
-	}
-
-	if aar.Action == annotationrule.ApplyRulesActionCreateNew {
-		ann, err = a.Duplicate(datasetID, id, aar.Name, aar.Description, aar.CopyFeatureResults)
-		if err != nil {
-			return nil, fmt.Errorf("failed to duplicate annotation for applying rules: %w", err)
-		}
-		ann.GroundTruth = false
 	}
 
 	release, err := a.acquireRuleRun(ann.DatasetID, ann.ID)

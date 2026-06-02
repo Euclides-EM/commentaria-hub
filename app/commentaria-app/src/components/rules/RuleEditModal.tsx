@@ -5,6 +5,7 @@ import {
   type RuleRequestPayload,
 } from '../../utils/rules.ts'
 import {
+  type annotationrule_ExecutionMode,
   type annotationrule_MetadataDetails,
   type annotationrule_Type,
   ApiError,
@@ -18,30 +19,32 @@ interface RuleEditModalProps {
   isOpen: boolean
   onClose: () => void
   onSubmit: (
-    payload: RuleRequestPayload,
-    action: 'overwrite' | 'create_new',
-    copyFeatureResults: boolean,
+      payload: RuleRequestPayload,
+      action: 'overwrite' | 'create_new',
+      copyFeatureResults: boolean,
   ) => Promise<void>
   initialPayload?: AnnotationRule
   ruleMetadata: annotationrule_MetadataDetails[] | undefined
 }
 
 export function RuleEditModal({
-  isOpen,
-  onClose,
-  onSubmit,
-  initialPayload,
-  ruleMetadata,
-}: RuleEditModalProps) {
+                                isOpen,
+                                onClose,
+                                onSubmit,
+                                initialPayload,
+                                ruleMetadata,
+                              }: RuleEditModalProps) {
   const stripRuleMetaFields = (rule: object) => {
     const editablePayload = {
       ...(rule as {
         type?: annotationrule_Type
         applicable_stages?: unknown
+        execution_mode?: unknown
       } & Record<string, unknown>),
     }
     delete editablePayload.type
     delete editablePayload.applicable_stages
+    delete editablePayload.execution_mode
     return editablePayload
   }
 
@@ -52,14 +55,22 @@ export function RuleEditModal({
   const [newAnnotationName, setNewAnnotationName] = useState('')
   const [newAnnotationDescription, setNewAnnotationDescription] = useState('')
   const [copyFeatureResults, setCopyFeatureResults] = useState(true)
+  const [useAsyncExecution, setUseAsyncExecution] = useState(true)
   const [selectedRuleType, setSelectedRuleType] = useState<
-    annotationrule_Type | undefined
+      annotationrule_Type | undefined
   >(initialPayload?.type || ruleMetadata?.[0]?.type)
+
+  const selectedRuleMetadata = ruleMetadata?.find(
+      (meta) => meta.type === selectedRuleType,
+  )
+  const supportsAsyncPreference = selectedRuleMetadata?.prefer_async === true
 
   useEffect(() => {
     if (isOpen) {
       setError(null)
+      setAction('overwrite')
       setCopyFeatureResults(true)
+      setUseAsyncExecution(true)
       if (initialPayload) {
         const editablePayload = stripRuleMetaFields(initialPayload)
         setPayload(JSON.stringify(editablePayload, null, 2))
@@ -69,7 +80,7 @@ export function RuleEditModal({
           setSelectedRuleType(ruleMetadata[0].type)
         }
         const metadata = ruleMetadata.find(
-          (meta) => meta.type === selectedRuleType,
+            (meta) => meta.type === selectedRuleType,
         )
         if (metadata?.default) {
           setPayload(JSON.stringify(metadata.default, null, 2))
@@ -80,12 +91,12 @@ export function RuleEditModal({
         setPayload('{}')
       }
     }
-  }, [isOpen, initialPayload, ruleMetadata, selectedRuleType])
+  }, [initialPayload, isOpen, ruleMetadata, selectedRuleType])
 
   useEffect(() => {
     if (isOpen && !initialPayload && selectedRuleType && ruleMetadata) {
       const metadata = ruleMetadata.find(
-        (meta) => meta.type === selectedRuleType,
+          (meta) => meta.type === selectedRuleType,
       )
       if (metadata?.default) {
         const nextPayload = stripRuleMetaFields(metadata.default)
@@ -109,12 +120,19 @@ export function RuleEditModal({
       const fullPayload = {
         ...parsedPayload,
         type: selectedRuleType,
+        ...(supportsAsyncPreference
+            ? ({
+              execution_mode: (useAsyncExecution
+                  ? 'async'
+                  : 'sync') as annotationrule_ExecutionMode,
+            } satisfies { execution_mode: annotationrule_ExecutionMode })
+            : {}),
         ...(action === 'create_new' && newAnnotationName
-          ? { name: newAnnotationName }
-          : {}),
+            ? { name: newAnnotationName }
+            : {}),
         ...(action === 'create_new' && newAnnotationDescription
-          ? { description: newAnnotationDescription }
-          : {}),
+            ? { description: newAnnotationDescription }
+            : {}),
       } as RuleRequestPayload
       await onSubmit(fullPayload, action, copyFeatureResults)
       onClose()
@@ -127,190 +145,206 @@ export function RuleEditModal({
   }
 
   const ruleOptions: RuleOption[] =
-    ruleMetadata?.flatMap((meta) =>
-      meta.type
-        ? [
-            {
-              value: meta.type,
-              label: meta.type
-                .split('_')
-                .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-                .join(' '),
-            },
-          ]
-        : [],
-    ) || []
+      ruleMetadata?.flatMap((meta) =>
+          meta.type
+              ? [
+                {
+                  value: meta.type,
+                  label: meta.type
+                      .split('_')
+                      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+                      .join(' '),
+                },
+              ]
+              : [],
+      ) || []
 
   if (!isOpen) {
     return null
   }
 
   return (
-    <div
-      className="fixed inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center z-50"
-      onClick={loading ? undefined : onClose}
-    >
       <div
-        className="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] flex flex-col m-4"
-        onClick={(e) => e.stopPropagation()}
+          className="fixed inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center z-50"
+          onClick={loading ? undefined : onClose}
       >
-        <div className="px-6 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-semibold">Run Rule</h2>
-          {!initialPayload && ruleMetadata && (
-            <div className="mt-2 w-full flex flex-row gap-2 items-center">
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Rule type:
-              </label>
-              <Select<RuleOption, false>
-                options={ruleOptions}
-                value={
-                  ruleOptions.find(
-                    (option) => option.value === selectedRuleType,
-                  ) ?? null
-                }
-                onChange={(option) => setSelectedRuleType(option?.value)}
-                isDisabled={loading}
-                className="text-sm"
-                styles={selectStyles<RuleOption>({ controlWidth: 256 })}
-                menuPortalTarget={document.body}
-                menuPosition="fixed"
-              />
-            </div>
-          )}
-          {initialPayload && (
-            <p className="text-sm text-gray-600 mt-1">
-              Type:{' '}
-              {initialPayload.type
-                ?.split('_')
-                .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-                .join(' ')}
-            </p>
-          )}
-        </div>
-
-        <div className="flex-1 overflow-auto p-6">
-          <div className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Parameters (type: {selectedRuleType})
-              </label>
-              <textarea
-                value={payload}
-                onChange={(e) => {
-                  setPayload(e.target.value)
-                  setError(null)
-                }}
-                className="w-full h-64 p-3 border border-gray-300 rounded-md font-mono text-sm focus:ring-blue-500 focus:border-blue-500"
-                spellCheck={false}
-                disabled={loading}
-              />
-              <div className="mt-2">
-                <ErrorMessage message={error} />
-              </div>
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Action
-              </label>
-              <div className="space-y-2">
-                <label className="flex items-center">
-                  <input
-                    type="radio"
-                    value="overwrite"
-                    checked={action === 'overwrite'}
-                    onChange={() => setAction('overwrite')}
-                    className="mr-2"
-                    disabled={loading}
+        <div
+            className="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] flex flex-col m-4"
+            onClick={(e) => e.stopPropagation()}
+        >
+          <div className="px-6 py-4 border-b border-gray-200">
+            <h2 className="text-lg font-semibold">Run Rule</h2>
+            {!initialPayload && ruleMetadata && (
+                <div className="mt-2 w-full flex flex-row gap-2 items-center">
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    Rule type:
+                  </label>
+                  <Select<RuleOption, false>
+                      options={ruleOptions}
+                      value={
+                          ruleOptions.find(
+                              (option) => option.value === selectedRuleType,
+                          ) ?? null
+                      }
+                      onChange={(option) => setSelectedRuleType(option?.value)}
+                      isDisabled={loading}
+                      className="text-sm"
+                      styles={selectStyles<RuleOption>({ controlWidth: 256 })}
+                      menuPortalTarget={document.body}
+                      menuPosition="fixed"
                   />
-                  <span className="text-sm">
+                </div>
+            )}
+            {initialPayload && (
+                <p className="text-sm text-gray-600 mt-1">
+                  Type:{' '}
+                  {initialPayload.type
+                      ?.split('_')
+                      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+                      .join(' ')}
+                </p>
+            )}
+          </div>
+
+          <div className="flex-1 overflow-auto p-6">
+            <div className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Parameters (type: {selectedRuleType})
+                </label>
+                <textarea
+                    value={payload}
+                    onChange={(e) => {
+                      setPayload(e.target.value)
+                      setError(null)
+                    }}
+                    className="w-full h-64 p-3 border border-gray-300 rounded-md font-mono text-sm focus:ring-blue-500 focus:border-blue-500"
+                    spellCheck={false}
+                    disabled={loading}
+                />
+                <div className="mt-2">
+                  <ErrorMessage message={error} />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Action
+                </label>
+                <div className="space-y-2">
+                  <label className="flex items-center">
+                    <input
+                        type="radio"
+                        value="overwrite"
+                        checked={action === 'overwrite'}
+                        onChange={() => setAction('overwrite')}
+                        className="mr-2"
+                        disabled={loading}
+                    />
+                    <span className="text-sm">
                     <span className="font-medium">Overwrite</span> - Replace
                     current annotation
                   </span>
-                </label>
-                <label className="flex items-center">
-                  <input
-                    type="radio"
-                    value="create_new"
-                    checked={action === 'create_new'}
-                    onChange={() => setAction('create_new')}
-                    className="mr-2"
-                    disabled={loading}
-                  />
-                  <span className="text-sm">
+                  </label>
+                  <label className="flex items-center">
+                    <input
+                        type="radio"
+                        value="create_new"
+                        checked={action === 'create_new'}
+                        onChange={() => setAction('create_new')}
+                        className="mr-2"
+                        disabled={loading}
+                    />
+                    <span className="text-sm">
                     <span className="font-medium">Create New</span> - Create a
                     new annotation
                   </span>
-                </label>
+                  </label>
+                </div>
               </div>
-            </div>
 
-            {action === 'create_new' && (
-              <div className="space-y-3">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
-                    New annotation name (optional)
-                  </label>
-                  <input
-                    type="text"
-                    autoComplete="on"
-                    value={newAnnotationName}
-                    onChange={(e) => setNewAnnotationName(e.target.value)}
-                    className="w-full p-2 border border-gray-300 rounded-md text-sm focus:ring-blue-500 focus:border-blue-500"
-                    disabled={loading}
-                  />
+              {supportsAsyncPreference && (
+                  <div>
+                    <label className="flex items-center gap-2 text-sm text-gray-700">
+                      <input
+                          type="checkbox"
+                          checked={useAsyncExecution}
+                          onChange={(event) =>
+                              setUseAsyncExecution(event.target.checked)
+                          }
+                          disabled={loading}
+                      />
+                      <span>Execute asynchronously</span>
+                    </label>
+                  </div>
+              )}
+
+              {action === 'create_new' && (
+                  <div className="space-y-3">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        New annotation name (optional)
+                      </label>
+                      <input
+                          type="text"
+                          autoComplete="on"
+                          value={newAnnotationName}
+                          onChange={(e) => setNewAnnotationName(e.target.value)}
+                          className="w-full p-2 border border-gray-300 rounded-md text-sm focus:ring-blue-500 focus:border-blue-500"
+                          disabled={loading}
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        New annotation description (optional)
+                      </label>
+                      <textarea
+                          value={newAnnotationDescription}
+                          onChange={(e) =>
+                              setNewAnnotationDescription(e.target.value)
+                          }
+                          className="w-full p-2 border border-gray-300 rounded-md text-sm focus:ring-blue-500 focus:border-blue-500"
+                          rows={3}
+                          disabled={loading}
+                      />
+                    </div>
+                    <label className="flex items-center gap-2 text-sm text-gray-700">
+                      <input
+                          type="checkbox"
+                          checked={copyFeatureResults}
+                          onChange={(e) => setCopyFeatureResults(e.target.checked)}
+                          className="h-4 w-4"
+                          disabled={loading}
+                      />
+                      Copy feature results
+                    </label>
+                  </div>
+              )}
+            </div>
+          </div>
+
+          <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-3">
+            {loading ? (
+                <div className="flex items-center gap-3">
+                  <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
+                  <span className="text-sm text-gray-600">Applying rule...</span>
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
-                    New annotation description (optional)
-                  </label>
-                  <textarea
-                    value={newAnnotationDescription}
-                    onChange={(e) =>
-                      setNewAnnotationDescription(e.target.value)
-                    }
-                    className="w-full p-2 border border-gray-300 rounded-md text-sm focus:ring-blue-500 focus:border-blue-500"
-                    rows={3}
-                    disabled={loading}
-                  />
-                </div>
-                <label className="flex items-center gap-2 text-sm text-gray-700">
-                  <input
-                    type="checkbox"
-                    checked={copyFeatureResults}
-                    onChange={(e) => setCopyFeatureResults(e.target.checked)}
-                    className="h-4 w-4"
-                    disabled={loading}
-                  />
-                  Copy feature results
-                </label>
-              </div>
+            ) : (
+                <>
+                  <Button onClick={onClose} className="px-4 py-2 text-sm">
+                    Cancel
+                  </Button>
+                  <Button
+                      onClick={handleSubmit}
+                      variant="primary"
+                      className="px-4 py-2 text-sm"
+                  >
+                    Run Rule
+                  </Button>
+                </>
             )}
           </div>
         </div>
-
-        <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-3">
-          {loading ? (
-            <div className="flex items-center gap-3">
-              <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
-              <span className="text-sm text-gray-600">Applying rule...</span>
-            </div>
-          ) : (
-            <>
-              <Button onClick={onClose} className="px-4 py-2 text-sm">
-                Cancel
-              </Button>
-              <Button
-                onClick={handleSubmit}
-                variant="primary"
-                className="px-4 py-2 text-sm"
-              >
-                Run Rule
-              </Button>
-            </>
-          )}
-        </div>
       </div>
-    </div>
   )
 }

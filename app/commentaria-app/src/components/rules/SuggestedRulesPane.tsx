@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useQueryClient } from '@tanstack/react-query'
 import { useAppState } from '../../context/useAppState'
 import { AnnotationsApplyRulesService } from '@hub-api'
 import { RuleEditModal } from './RuleEditModal.tsx'
@@ -13,8 +14,14 @@ import { RuleDisplay } from './RuleDisplay.tsx'
 import { useAnnotationRules } from '../../queries/metadata.ts'
 import { useAuthStore } from '../../store/authStore.ts'
 import { ErrorMessage } from '../core/ErrorMessage'
+import {
+  isAnnotationRuleApplyJob,
+  runningIntegrationJobsQueryKey,
+  useRunningIntegrationJobsQuery,
+} from '../../queries/integrations.ts'
 
 export function SuggestedRulesPane() {
+  const queryClient = useQueryClient()
   const {
     dataset,
     annotation,
@@ -24,6 +31,7 @@ export function SuggestedRulesPane() {
   const [editingRule, setEditingRule] = useState<AnnotationRule | null>(null)
   const [isManualModalOpen, setIsManualModalOpen] = useState(false)
   const { data: allRules } = useAnnotationRules()
+  const { data: runningJobs } = useRunningIntegrationJobsQuery()
   const isAuthenticated = !!useAuthStore((store) => store.token)
 
   const {
@@ -33,24 +41,31 @@ export function SuggestedRulesPane() {
     error,
   } = useDatasetSuggestedRules(dataset?.id || '')
   const suggestedRules = (rules || []).flat(2).filter(isAnnotationRule)
+  const hasRunningApplyRulesJob = !!runningJobs?.some(
+    (job) =>
+      isAnnotationRuleApplyJob(job) &&
+      job.target?.dataset_id === dataset?.id &&
+      job.target?.annotation_id === annotation?.id,
+  )
 
   const handleRunRule = async (
     rule: RuleRequestPayload,
     action: 'overwrite' | 'create_new',
     copyFeatureResults: boolean,
   ) => {
-    if (!dataset?.id || !annotation?.id) {
+    if (!dataset?.id || !annotation?.id || hasRunningApplyRulesJob) {
       return
     }
 
     const { name, description, ...rulePayload } = rule
     const isCreate = action === 'create_new'
-    const annotationResult =
+    const result =
       await AnnotationsApplyRulesService.putDatasetsAnnotationsApply({
         dataSetId: dataset.id,
         id: annotation.id,
         annotationApplyRules: {
           action,
+          execution_mode: rule.execution_mode,
           ...(isCreate && {
             copy_feature_results: copyFeatureResults,
             ...(name && { name }),
@@ -60,10 +75,19 @@ export function SuggestedRulesPane() {
         },
       })
 
+    void queryClient.invalidateQueries({
+      queryKey: runningIntegrationJobsQueryKey(),
+    })
     refetchRules()
     refetchAnnotation()
-    if (annotationResult.id !== annotation.id) {
-      setState({ annotationId: annotationResult.id })
+    if ("target" in result) {
+      if (result.target?.annotation_id && result.target.annotation_id !== annotation.id) {
+        setState({ annotationId: result.target.annotation_id })
+
+      }
+    }
+    else if (result.id && result.id !== annotation.id) {
+      setState({ annotationId: result.id })
     }
   }
 
@@ -106,7 +130,8 @@ export function SuggestedRulesPane() {
           {annotation && isAuthenticated && (
             <button
               onClick={() => setIsManualModalOpen(true)}
-              className="ml-auto px-2 py-1 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              disabled={hasRunningApplyRulesJob}
+              className="ml-auto px-2 py-1 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Run Manually
             </button>
@@ -114,6 +139,19 @@ export function SuggestedRulesPane() {
         </div>
 
         <div className="flex-1 min-h-0 overflow-auto p-2.5 box-border">
+          {hasRunningApplyRulesJob && (
+            <div className="mb-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900">
+              A job is running for this annotation. Applying rules is
+              unavailable until it finishes.{' '}
+              <button
+                type="button"
+                className="font-medium text-teal-700 underline underline-offset-2 hover:text-teal-900"
+                onClick={() => setState({ viewMode: 'jobs' })}
+              >
+                View jobs
+              </button>
+            </div>
+          )}
           {isLoading && (
             <div className="text-gray-500 text-sm p-2">Loading rules...</div>
           )}
@@ -158,6 +196,7 @@ export function SuggestedRulesPane() {
                     onRun={
                       isAuthenticated &&
                       annotation &&
+                      !hasRunningApplyRulesJob &&
                       !isFutureRuleApplied &&
                       !applied &&
                       canRunRuleBasedOnStage
@@ -165,7 +204,10 @@ export function SuggestedRulesPane() {
                         : undefined
                     }
                     disabled={
-                      isFutureRuleApplied || applied || !canRunRuleBasedOnStage
+                      isFutureRuleApplied ||
+                      applied ||
+                      !canRunRuleBasedOnStage ||
+                      hasRunningApplyRulesJob
                     }
                     applicableStages={ruleApplicableStages}
                   />
@@ -181,7 +223,7 @@ export function SuggestedRulesPane() {
         onClose={() => setEditingRule(null)}
         onSubmit={handleEditRuleSubmit}
         initialPayload={editingRule ?? undefined}
-        ruleMetadata={undefined}
+        ruleMetadata={allRules}
       />
 
       <RuleEditModal

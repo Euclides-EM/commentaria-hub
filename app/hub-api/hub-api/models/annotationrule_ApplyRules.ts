@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { annotationrule_ApplyRulesAction } from './annotationrule_ApplyRulesAction';
+import type { annotationrule_ExecutionMode } from './annotationrule_ExecutionMode';
 export type annotationrule_ApplyRules = {
     action?: annotationrule_ApplyRulesAction;
     /**
@@ -13,6 +14,7 @@ export type annotationrule_ApplyRules = {
      * Description is used only if the action is ApplyRulesActionCreateNew
      */
     description?: string;
+    execution_mode?: annotationrule_ExecutionMode;
     /**
      * Name is used only if the action is ApplyRulesActionCreateNew
      */
