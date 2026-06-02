@@ -19,15 +19,32 @@ func NewAnnotationRuleExecution(annotations *Annotation, jobs *Job) *AnnotationR
 }
 
 func (e *AnnotationRuleExecution) ApplyRules(datasetID string, annotationID string, rules *annotationrule.ApplyRules) (any, error) {
-	if rules.ExecutionMode != annotationrule.ExecutionModeAsync {
-		return e.annotations.ApplyRules(datasetID, annotationID, rules)
+	ann, err := e.annotations.PrepareApplyRules(datasetID, annotationID, rules)
+	if err != nil {
+		return nil, err
 	}
-	return e.jobs.CreateJob(&job.Job{
+
+	if rules.ExecutionMode != annotationrule.ExecutionModeAsync {
+		return e.annotations.ExecuteApplyRules(ann.DatasetID, ann.ID, rules)
+	}
+
+	jobResult, err := e.jobs.CreateJob(&job.Job{
 		Task: job.AnnotationRuleApply,
 		Annotation: &annotation.Reference{
 			DatasetID: datasetID,
 			ID:        annotationID,
 		},
+		Target: &job.Target{
+			DatasetID:    datasetID,
+			AnnotationID: ann.ID,
+		},
 		Rules: rules,
 	})
+	if err != nil {
+		return nil, err
+	}
+	if rules.Action == annotationrule.ApplyRulesActionCreateNew {
+		return ann, nil
+	}
+	return jobResult, nil
 }

@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { annotation_Reference } from './annotation_Reference';
+import type { annotationrule_ApplyRules } from './annotationrule_ApplyRules';
 import type { job_Status } from './job_Status';
 import type { job_Target } from './job_Target';
 import type { job_Task } from './job_Task';
@@ -14,10 +15,12 @@ export type job_Job = {
     readonly details?: string;
     readonly finished_at?: string;
     readonly id?: string;
-    name?: string;
-    readonly status?: job_Status;
     model_training?: model_ModelTraining;
+    name?: string;
+    rules?: annotationrule_ApplyRules;
+    readonly status?: job_Status;
     target?: job_Target;
     task?: job_Task;
     readonly updated_at?: string;
 };
+

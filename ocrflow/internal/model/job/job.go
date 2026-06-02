@@ -72,8 +72,11 @@ type Target struct {
 	ProjectID        string `json:"project_id" example:"dec06miamia-afl6i"`
 	IsNotGroundTruth bool   `json:"is_not_ground_truth"`
 
-	// For Commentaria
+	// For Commentaria and AnnotationRuleApply
 	DatasetID string `json:"dataset_id"`
+
+	// For AnnotationRuleApply
+	AnnotationID string `json:"annotation_id"`
 
 	// For backups
 	BackupID    string `json:"backup_id"`

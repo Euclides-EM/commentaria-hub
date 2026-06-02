@@ -55,7 +55,9 @@ import {
   HIGHLIGHT_ZONE_FILTER_OPTIONS,
   HIGHLIGHT_ZONE_FILTER_STORAGE_KEY,
   type HighlightZoneFilter,
+  zoneCategoryLabel,
 } from '../highlightControls.ts'
+import { colorFromText } from '../../../utils/colorFromText.ts'
 import { computeVisibleZones, filterValidZones } from '../imageZoneUtils.ts'
 import { useZoomableImage } from '../useZoomableImage.ts'
 
@@ -96,6 +98,7 @@ type GalleryImageCardProps = {
   imageZoom: number
   highlightMode: HighlightMode
   highlightZoneFilters: HighlightZoneFilter[]
+  selectedZoneCategoryIds: string[] | null
   surfaceZones: TeiSurfaceZone[]
   half: boolean
   activeLineMatchIds: string[]
@@ -108,6 +111,7 @@ function GalleryImageCard({
   imageZoom,
   highlightMode,
   highlightZoneFilters,
+  selectedZoneCategoryIds,
   surfaceZones,
   half,
   activeLineMatchIds,
@@ -177,10 +181,14 @@ function GalleryImageCard({
     () => new Set(activeLineMatchIds),
     [activeLineMatchIds],
   )
-  const highlightableZones = useMemo(
-    () => filterValidZones(surfaceZones, highlightZoneFilters),
-    [highlightZoneFilters, surfaceZones],
-  )
+  const highlightableZones = useMemo(() => {
+    const typeFiltered = filterValidZones(surfaceZones, highlightZoneFilters)
+    if (selectedZoneCategoryIds === null) return typeFiltered
+    const selected = new Set(selectedZoneCategoryIds)
+    return typeFiltered.filter(
+      (zone) => zone.zoneType !== 'block' || selected.has(zone.zoneCategory),
+    )
+  }, [highlightZoneFilters, surfaceZones, selectedZoneCategoryIds])
   const visibleZones = useMemo(
     () =>
       computeVisibleZones(highlightableZones, zoneDisplayBox, activeMatchIdSet),
@@ -255,15 +263,36 @@ function GalleryImageCard({
               {visibleZones.map((zone) => {
                 const isShown = highlightMode === 'show' || zone.isActive
                 if (!isShown) return null
+                if (zone.zoneType === 'block') {
+                  const color = colorFromText(zone.zoneCategory)
+                  return (
+                    <div
+                      key={zone.id}
+                      className="absolute border-2 rounded-sm"
+                      style={{
+                        left: `${zone.left}px`,
+                        top: `${zone.top}px`,
+                        width: `${zone.width}px`,
+                        height: `${zone.height}px`,
+                        borderColor: color,
+                        backgroundColor: color,
+                        opacity: zone.isActive ? 0.6 : 0.25,
+                      }}
+                    />
+                  )
+                }
+                const lineClassName = zone.isActive
+                  ? 'border-teal-500 bg-teal-300/20'
+                  : 'border-teal-400/60 bg-teal-200/10'
                 return (
                   <div
                     key={zone.id}
-                    className={`absolute border-2 rounded-sm ${zone.zoneType === 'block' ? 'border-amber-400/60 bg-amber-200/10' : 'border-teal-400/60 bg-teal-200/10'}`}
+                    className={`absolute border-2 rounded-sm ${lineClassName}`}
                     style={{
-                      left: `${zone.zoneType === 'line' ? zone.left - 1 : zone.left}px`,
-                      top: `${zone.zoneType === 'line' ? zone.top - 1 : zone.top}px`,
-                      width: `${zone.zoneType === 'line' ? zone.width + 2 : zone.width}px`,
-                      height: `${zone.zoneType === 'line' ? zone.height + 2 : zone.height}px`,
+                      left: `${zone.left - 1}px`,
+                      top: `${zone.top - 1}px`,
+                      width: `${zone.width + 2}px`,
+                      height: `${zone.height + 2}px`,
                     }}
                   />
                 )
@@ -282,6 +311,7 @@ type GalleryCardBodyProps = {
   imageZoom: number
   highlightMode: HighlightMode
   highlightZoneFilters: HighlightZoneFilter[]
+  selectedZoneCategoryIds: string[] | null
   surfaceZones: TeiSurfaceZone[]
   sideBySide: boolean
   showText: boolean
@@ -303,6 +333,7 @@ function GalleryCardBody({
   imageZoom,
   highlightMode,
   highlightZoneFilters,
+  selectedZoneCategoryIds,
   surfaceZones,
   sideBySide,
   showText,
@@ -327,6 +358,7 @@ function GalleryCardBody({
           imageZoom={imageZoom}
           highlightMode={highlightMode}
           highlightZoneFilters={highlightZoneFilters}
+          selectedZoneCategoryIds={selectedZoneCategoryIds}
           surfaceZones={surfaceZones}
           half={sideBySide}
           activeLineMatchIds={activeLineMatchIds}
@@ -556,6 +588,11 @@ export function GalleryViewTab() {
     defaultValue: DEFAULT_HIGHLIGHT_ZONE_FILTERS,
     storageSync: false,
   })
+  const [selectedZoneCategoryIds, setSelectedZoneCategoryIds] =
+    useLocalStorageState<string[] | null>('imagePaneSelectedZoneCategories', {
+      defaultValue: null,
+      storageSync: false,
+    })
 
   const [showTeiLineHighlights, setShowTeiLineHighlights] =
     useLocalStorageState('showTeiLineHighlights', { defaultValue: true })
@@ -857,6 +894,18 @@ export function GalleryViewTab() {
   }, [teiByPage])
   const hasSurfaceZones = surfaceZonesByPage.size > 0
 
+  const blockZoneCategoriesPresent = useMemo(() => {
+    const set = new Set<string>()
+    for (const zones of surfaceZonesByPage.values()) {
+      for (const zone of zones) {
+        if (zone.zoneType === 'block' && zone.zoneCategory) {
+          set.add(zone.zoneCategory)
+        }
+      }
+    }
+    return [...set].sort()
+  }, [surfaceZonesByPage])
+
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
   const lastScrolledPageRef = useRef('')
 
@@ -988,6 +1037,28 @@ export function GalleryViewTab() {
                       minWidth="120px"
                     />
                   </div>
+                  {blockZoneCategoriesPresent.length > 0 &&
+                    highlightZoneFilters.includes('block') && (
+                      <div className="flex items-center gap-1.5">
+                        <MultiSelectDropdown<string>
+                          allItems={blockZoneCategoriesPresent}
+                          selectedItems={selectedZoneCategoryIds}
+                          setSelectedItems={(items) =>
+                            setSelectedZoneCategoryIds(
+                              items !== null &&
+                                items.length ===
+                                  blockZoneCategoriesPresent.length
+                                ? null
+                                : items,
+                            )
+                          }
+                          itemsLabel="region types"
+                          getItemLabel={zoneCategoryLabel}
+                          getItemColor={(id) => colorFromText(id)}
+                          minWidth="130px"
+                        />
+                      </div>
+                    )}
                 </div>
               )}
               <RangeInput
@@ -1087,6 +1158,7 @@ export function GalleryViewTab() {
                     imageZoom={imageZoom}
                     highlightMode={highlightMode}
                     highlightZoneFilters={highlightZoneFilters}
+                    selectedZoneCategoryIds={selectedZoneCategoryIds}
                     surfaceZones={surfaceZonesByPage.get(page) ?? []}
                     sideBySide={viewMode === 'side-by-side'}
                     showText={showText}

@@ -312,8 +312,7 @@ export function FeatureExecutionsBrowser() {
       if (datasetId && execution.scope?.dataset_id !== datasetId) {
         return false
       }
-      return !(annotationId && execution.scope?.annotation_id !== annotationId);
-
+      return !(annotationId && execution.scope?.annotation_id !== annotationId)
     })
   }, [annotationId, datasetId, executionStatusFilter, executionsQuery.data])
 

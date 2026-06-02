@@ -26,6 +26,7 @@ export type { annotationrule_ApplyRules } from './models/annotationrule_ApplyRul
 export type { annotationrule_ApplyRulesAction } from './models/annotationrule_ApplyRulesAction';
 export type { annotationrule_ContactSide } from './models/annotationrule_ContactSide';
 export type { annotationrule_ContactType } from './models/annotationrule_ContactType';
+export type { annotationrule_ExecutionMode } from './models/annotationrule_ExecutionMode';
 export type { annotationrule_KeepPosition } from './models/annotationrule_KeepPosition';
 export type { annotationrule_LimitCategoryZones } from './models/annotationrule_LimitCategoryZones';
 export type { annotationrule_LinesDetect } from './models/annotationrule_LinesDetect';
@@ -90,7 +91,6 @@ export type { model_ImageMetadata } from './models/model_ImageMetadata';
 export type { model_ImageUpload } from './models/model_ImageUpload';
 export type { model_Model } from './models/model_Model';
 export type { model_ModelTraining } from './models/model_ModelTraining';
-export type { model_ModelTrainingStatus } from './models/model_ModelTrainingStatus';
 export type { model_Note } from './models/model_Note';
 export type { model_OCRModelAlgorithmFamily } from './models/model_OCRModelAlgorithmFamily';
 export type { model_OCRModelLocation } from './models/model_OCRModelLocation';
