@@ -1,29 +1,45 @@
-# TPS V6 Prep Review
+# TPS Feature Extraction V7 Handoff
 
-This folder keeps the compact context needed for the V6 TPS feature-extraction run.
+This folder is the clean handoff packet for the TPS V7 feature-extraction run.
 
-## What We Learned
+## Current Status
 
-- V6 should not use a global "minimal span" rule.
-- Some features need fuller spans: `Base Content`, `Elements Designation`, `Adapter Attribution`, `Verbs`, `Enriched With`.
-- Some features benefit from cleaned spans: `Euclid References`, `Date in Imprint`, some `Institutions`, some `Adapter Description`, and some imprint fields.
-- V5 had a likely wrapper bug: imprint and non-imprint prompt descriptions were reversed. The V6 code patch fixes that.
-- Adapter names should include initials when they are name initials, but not professional honorifics. A title-like `P.` for Professor belongs in adapter description; honorifics in `Other Educational Authorities` can stay because there is no separate field for them.
-- `Place in Imprint` should preserve internal punctuation such as commas in a place phrase, but drop terminal punctuation such as a final dot.
-- `Verbs` should split distinct verbs/verbal expressions into separate list values.
+- V6 is useful as a diagnostic run, but not ready as the default.
+- V6 matched 19 of 52 human-targeted diagnostic rows and had 1 missing targeted value.
+- V7 is prepared as a targeted prompt-boundary revision in:
+  `ocrflow/internal/migrations/ocrflow/1774300009_tps_v7_targeted_feature_revisions.sql`
+- Do not rerun or revise V6 unless explicitly requested. The next run should use V7.
 
 ## Files
 
-- `v6_diagnostic_review.csv`: the filled diagnostic review used to infer V6 behavior.
-- `v6_feedback_summary.md`: concise interpretation of the filled review.
-- `v6_feature_rules.csv`: feature-level span/prompt rules for V6.
-- `working_final_dataset_orig_rows.csv`: working final dataset for rows that already had `Value_orig`, with decision tiers used as KPI buckets.
-- `CODEX_CONTEXT.md`: implementation notes for the next Codex pass, especially when comparing V6 results.
+- `CODEX_CONTEXT.md`: start here in future Codex sessions.
+- `v6_evaluation_report.md`: V6 baseline and failure clusters.
+- `v6_diagnostic_review.csv`: original diagnostic review rows and human feedback.
+- `working_final_dataset_orig_rows.csv`: KPI baseline rows with decision tiers.
+- `v7_policy_review.csv`: targeted pre-V7 review sheet, including the latest reviewed `human_final_value` corrections.
 
-## Next Step
+## V7 Review Columns
 
-Run V6 using the patched code and the V6 feature revisions. After results are available, compare V6 against:
+In `v7_policy_review.csv`, treat either of these as reviewed target values:
 
-1. the 90 rows in `v6_diagnostic_review.csv`;
-2. the decision tiers in `working_final_dataset_orig_rows.csv`;
-3. the feature-level expectations in `v6_feature_rules.csv`.
+- `human_final_value`
+- `reviewer_v7_value`
+
+If both are present, prefer `reviewer_v7_value`. Use `EMPTY` when the feature should return no value.
+
+## Important V7 Rules
+
+- `Base Content`: include book counts/ranges when they are part of the core title, including `TREDECIM` in `EVCLIDIS ELEMENTORVM GEOMETRICORVM LIBROS TREDECIM`; stop before separately bound works.
+- `Base Content Description` vs `Enriched With`: follow the title page framing. Added/supplementary material goes to `Enriched With`; material framed as inherent core content can stay in `Base Content Description`.
+- `Adapter Attribution`: keep family/name-origin geography, such as `de Mans`; do not keep role, institutional, office, or residence geography.
+- `Adapter Description`: professional descriptors always belong here, as do institutional/role/geographic settings.
+- `Place in Imprint`: V7 makes `location_in_imprint` list-valued and should prefer full publication address/place phrases.
+- `Verbs`: include action participles when they function as edition or adapter action claims.
+
+## Next Codex Task
+
+1. Apply/run V7 revisions.
+2. Join V7 results to `v6_diagnostic_review.csv`.
+3. Use reviewed targets from `v7_policy_review.csv` where available.
+4. Compare V7 against `v6_evaluation_report.md`, especially the 19/52 diagnostic baseline.
+5. Check KPI movement by decision tier using `working_final_dataset_orig_rows.csv`.

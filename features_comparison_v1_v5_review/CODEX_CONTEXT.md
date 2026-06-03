@@ -1,72 +1,91 @@
-# Codex Context For V6 Results
+# Codex Context: TPS V7 Run
 
-## Branch And Version Mapping
+Use this file to continue the TPS feature-extraction work in future Codex sessions.
 
-- V1/current-main comparison column: `Value_llm`, commit `7583b49`.
-- V4 comparison column was intentionally dropped from decision-making because it behaved similarly to V5.
-- V5/current-PR comparison column: `Value_llm5`, branch `origin/liri/features-v2`, commit `f932d03`.
-- Current prep branch: `codex/v6-prep`.
+## Version Map
 
-## V6 Code Changes Made
+- V1 comparison column: `Value_llm`, commit `7583b49`.
+- V4 was dropped from decision-making because it behaved similarly to V5.
+- V5 comparison column: `Value_llm5`, branch `origin/liri/features-v2`, commit `f932d03`.
+- V6 evaluated DB annotation: `ann_4kp7fc` (`Title Page Experiment Reviewed`).
+- V7 prepared migration:
+  `ocrflow/internal/migrations/ocrflow/1774300009_tps_v7_targeted_feature_revisions.sql`
 
-- `ocrflow/internal/service/feature_exec_dataset.go`
-  - Fixed prompt text scope labels:
-    - imprint features now receive `the imprint section of a title page`;
-    - non-imprint features now receive `a title page excluding the imprint section`.
-  - Replaced the global "minimal text span" rule with feature-definition-driven span guidance.
-  - Added explicit instructions not to over-trim titles, names, book counts, language references, or descriptors that are part of the requested feature.
-  - Kept V5-style source fidelity, JSON-only output, and hallucination checking.
+## V6 Baseline
 
-- `ocrflow/internal/migrations/ocrflow/1774300007_tps_v6_feature_revisions.sql`
-  - Adds V6 feature revisions for the features where the diagnostic review gave useful signal.
-  - The V6 revisions encode feature-specific span behavior from `v6_feature_rules.csv`.
+V6 is not ready as the default, but it is the baseline for V7.
 
-## Review Signal
+- Human-targeted diagnostic rows: 52
+- V6 exact matches: 19/52
+- Missing targeted values: 1
+- Weak clusters: `Verbs`, `Base Content Description`, `Enriched With`, adapter fields, `Elements Designation`, `Bound With`, `Publisher in Imprint`
+- Non-V6 revision coverage to fix/measure in V7: `Date in Imprint`, `Edition Statement`, `Euclid Description`, privilege fields
 
-The user filled 52 of 90 diagnostic rows. High-level signal:
+Read `v6_evaluation_report.md` for the detailed V6 mismatch table.
 
-- `orig` preferred: 27 rows.
-- working/LLM candidate preferred: 19 rows.
-- `v1` preferred: 1 row.
-- `v5` preferred: 3 rows.
-- custom target in `preferred_source`: 2 rows.
+## Clean Folder Files
 
-Interpretation: V6 should be feature-specific. Do not make it universally more minimal or universally fuller.
+- `README.md`: high-level handoff.
+- `CODEX_CONTEXT.md`: this future-session guide.
+- `v6_evaluation_report.md`: V6 diagnostic/KPI baseline.
+- `v6_diagnostic_review.csv`: original diagnostic review rows.
+- `working_final_dataset_orig_rows.csv`: KPI baseline rows with decision tiers.
+- `v7_policy_review.csv`: targeted pre-V7 review sheet and latest human corrections.
 
-Additional user clarifications before V6:
+## Target Selection For V7 Evaluation
 
-- `Base Content` and `Elements Designation` should include Euclid and book counts/ranges when they are part of the title/designation.
-- `Verbs` should split distinct verbs/verbal expressions into separate list values.
-- `Base Content Description` vs `Enriched With` distinction is acceptable as documented.
-- `Adapter Attribution` should include initials only when they are name initials. Professional honorifics/titles such as `P.` for Professor should move to `Adapter Description`. In `Other Educational Authorities`, honorifics can stay because there is no separate field to store them.
-- `Place in Imprint` should preserve internal punctuation such as commas in `Paris, France`, but remove terminal punctuation such as a final period.
+When evaluating V7 diagnostic rows, derive the target in this order:
 
-## Files To Use After V6 Runs
+1. If `v7_policy_review.csv` has `reviewer_v7_value`, use it.
+2. Else if `v7_policy_review.csv` has `human_final_value`, use it.
+3. Else if `v6_diagnostic_review.csv` has `human_final_value`, use it.
+4. Else if `preferred_source = orig`, use `Value_orig`.
+5. Else if `preferred_source = v1`, use `Value_llm`.
+6. Else if `preferred_source = v5`, use `Value_llm5`.
+7. Else if `preferred_source = working`, use `working_final_value`.
+8. Else if `preferred_source` looks like a custom text value, use that text.
 
-- `v6_diagnostic_review.csv`
-  - Compare V6 output on these rows first.
-  - Treat `preferred_source`, `error_type`, and `human_final_value` as the user's signal even if formatting is informal.
+Treat `EMPTY` as an explicit target for no extracted value.
 
-- `v6_feature_rules.csv`
-  - Use to interpret whether V6 followed the intended feature-level span policy.
+## Latest Human Corrections
 
-- `working_final_dataset_orig_rows.csv`
-  - Use the `decision_tier` column as KPI buckets:
-    - `A_confirmed`
-    - `B_keep_manual_no_llm`
-    - `C_llm_agreement_overrides_manual`
-    - `D_prompt_policy_choice`
-    - `E_single_llm_over_manual`
+The user filled `human_final_value` in `v7_policy_review.csv` for these rows:
 
-## Suggested V6 Evaluation
+- `R0139`, Adapter Attribution, `Amsterdam_1695`:
+  `CLAAS JANSZ. VOOGHT`
+- `R0171`, Adapter Attribution, `Amsterdam_1700`:
+  `CLAUDE FRANÇOIS MILLET DECHALLES`
+- `R0202`, Adapter Attribution, `Ansbach_1610`:
+  `SIMONEM MARIUM`
+- `R0019`, Adapter Description, `Amsterdam_1616`:
+  `der stadt Leyden Landtmeter ende Wijnroeyer`
+- `R0104`, Adapter Description, `Amsterdam_1662`:
+  `Professer Matheseos der Hooge Schoole tot Leyden`
+- `R0868`, Adapter Description, `Frankfurt_1674`:
+  `REGISCURIANI E SOCIET. JESU, Gymnasio Matheseos Professoris CURSUS MATHEMATICUS`
+- `R0222`, Base Content, `Antwerp_1645`:
+  `EVCLIDIS ELEMENTORVM GEOMETRICORVM LIBROS TREDECIM`
+- `R0009`, Enriched With, `Alcala_1637`:
+  `comentado`
 
-1. Join V6 results to `v6_diagnostic_review.csv` by `Page/Key` and `Feature Name`.
-2. Count how often V6 matches the user's preferred target:
-   - if `human_final_value` is filled, use it;
-   - else if `preferred_source` is `orig`, use `Value_orig`;
-   - else if `preferred_source` is `v1`, use `Value_llm`;
-   - else if `preferred_source` is `v5`, use `Value_llm5`;
-   - else if `preferred_source` is `working`, use `working_final_value`;
-   - else if `preferred_source` looks like a custom value, use that text.
-3. Separately check whether V6 improves the risky buckets in `working_final_dataset_orig_rows.csv`.
-4. Only consider V7 if V6 clearly fixes one feature family but breaks another.
+Important correction: `R0222` must include `TREDECIM`. The earlier shorter value without `TREDECIM` was a mistake.
+
+## V7 Prompt Policy
+
+- `Base Content`: include Euclid references, title qualifiers, and book counts/ranges when part of the core title; stop before separately bound works.
+- `Elements Designation`: keep book counts/ranges when part of the designation, but avoid edition/enrichment clauses.
+- `Base Content Description` vs `Enriched With`: follow title-page framing. Added/supplementary material goes to `Enriched With`; material framed as inherent core content may belong to `Base Content Description`.
+- `Adapter Attribution`: include personal names and family/name-origin geography; exclude professional descriptors, offices, residences, and institutional settings.
+- `Adapter Description`: professional descriptors always belong here; institutional/role/geographic settings belong here.
+- `Place in Imprint`: V7 sets `location_in_imprint` to list-valued and should prefer full publication address/place phrases.
+- `Verbs`: include coordinated action verbs and action participles; do not include surrounding non-verbal phrases.
+
+## Suggested V7 Evaluation
+
+1. Run V7 using the migration above.
+2. Join V7 results to `v6_diagnostic_review.csv` by `Page/Key` and `Feature Name`.
+3. Apply the target-selection order above.
+4. Report exact diagnostic matches against the V6 baseline of 19/52.
+5. Report per-feature results for the V6 weak clusters.
+6. Run a KPI continuity check against `working_final_dataset_orig_rows.csv`, grouped by `decision_tier`.
+7. Only propose V8 if V7 clearly fixes one family but breaks another.
