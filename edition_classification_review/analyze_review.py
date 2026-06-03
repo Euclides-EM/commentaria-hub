@@ -6,18 +6,28 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-INPUT = ROOT / "features-comparison-May-23 - editions_results_with_v6.csv"
+INPUT_CANDIDATES = [
+    ROOT / "features-comparison-May-23 - editions_results_with_v7.csv",
+    ROOT / "features-comparison-May-23 - editions_results_with_v6.csv",
+    ROOT / "features-comparison-May-23 - editions_results.csv",
+]
 FULL = ROOT / "full_row_suggestions.csv"
-REVIEW = ROOT / "v6_diagnostic_review.csv"
 SUMMARY = ROOT / "kpi_summary.csv"
 REPORT = ROOT / "analysis_report.md"
 
-LLM_COLS = ["llm_Value_1", "llm_Value_3", "llm_Value_4", "llm_Value_6"]
+BASE_LLM_COLS = ["llm_Value_1", "llm_Value_3", "llm_Value_4", "llm_Value_6", "llm_Value_7"]
 LABELS = {"primary", "secondary", "unrelated", "unknown", ""}
 MANUAL_LABELS = {"primary", "secondary", "unrelated"}
 RELATED = {"primary", "secondary"}
 VALUE_RANK = {"primary": 4, "secondary": 3, "unrelated": 2, "unknown": 1, "": 0}
 BASE_FIELDS = ["Page/Key", "language", "year", "city", "Classification", "Orig_Value"]
+
+
+def input_path():
+    for path in INPUT_CANDIDATES:
+        if path.exists():
+            return path
+    raise FileNotFoundError("no edition classification comparison CSV found")
 
 
 def clean(row, col):
@@ -36,17 +46,24 @@ def prompt_label(col):
     return col.replace("llm_Value_", "v")
 
 
-def majority_threshold():
-    return len(LLM_COLS) // 2 + 1
+def review_output_path(latest_col):
+    if latest_col == "llm_Value_6":
+        return ROOT / "v6_diagnostic_review_regenerated.csv"
+    return ROOT / f"{prompt_label(latest_col)}_diagnostic_review.csv"
 
 
-def read_rows():
-    with INPUT.open(newline="", encoding="utf-8-sig") as f:
+def majority_threshold(llm_cols):
+    return len(llm_cols) // 2 + 1
+
+
+def read_rows(path):
+    with path.open(newline="", encoding="utf-8-sig") as f:
         rows = list(csv.DictReader(f))
-    bad = [(i + 2, c, clean(r, c)) for i, r in enumerate(rows) for c in ["Orig_Value", *LLM_COLS] if clean(r, c) not in LABELS]
+    llm_cols = [col for col in BASE_LLM_COLS if col in rows[0]]
+    bad = [(i + 2, c, clean(r, c)) for i, r in enumerate(rows) for c in ["Orig_Value", *llm_cols] if clean(r, c) not in LABELS]
     if bad:
         raise ValueError(f"unexpected labels: {bad[:10]}")
-    return rows
+    return rows, llm_cols
 
 
 def metrics(rows, col):
@@ -76,27 +93,27 @@ def metrics(rows, col):
     }
 
 
-def consensus(row):
-    votes = [clean(row, c) for c in LLM_COLS]
+def consensus(row, llm_cols):
+    votes = [clean(row, c) for c in llm_cols]
     counts = Counter(votes)
     value, count = counts.most_common(1)[0]
-    if count >= majority_threshold():
+    if count >= majority_threshold(llm_cols):
         return value, count
     return max(votes, key=lambda v: VALUE_RANK.get(v, 0)), 1
 
 
-def status_for(row):
+def status_for(row, llm_cols):
     manual = clean(row, "Orig_Value")
-    votes = [clean(row, c) for c in LLM_COLS]
+    votes = [clean(row, c) for c in llm_cols]
     positives = [v for v in votes if v in RELATED]
-    cons, count = consensus(row)
+    cons, count = consensus(row, llm_cols)
 
     if manual in RELATED:
         if positives:
             return manual, "keep_manual_positive", "manual positive; at least one LLM also says related"
         return manual, "review_manual_positive", "manual positive but no LLM confirms"
     if manual == "unrelated":
-        if len(positives) >= majority_threshold():
+        if len(positives) >= majority_threshold(llm_cols):
             return cons, "majority_llm_related_manual_unrelated", "manual unrelated but an LLM majority says related"
         if len(positives) > 1:
             return "unrelated", "split_llm_related_manual_unrelated", "manual unrelated but multiple LLMs say related without a majority"
@@ -141,9 +158,11 @@ def priority_score(row, status):
     }.get(status, 0)
     if classification in noisy:
         score += 10
-    if clean(row, "llm_Value_6") in RELATED:
+    latest_col = "llm_Value_7" if "llm_Value_7" in row else "llm_Value_6"
+    if clean(row, latest_col) in RELATED:
         score += 3
-    if len({clean(row, c) for c in LLM_COLS}) == 1:
+    llm_cols = [col for col in BASE_LLM_COLS if col in row]
+    if len({clean(row, c) for c in llm_cols}) == 1:
         score += 2
     return score
 
@@ -163,14 +182,16 @@ def md_table(headers, rows):
 
 
 def main():
-    rows = read_rows()
+    current_input = input_path()
+    rows, llm_cols = read_rows(current_input)
+    latest_col = llm_cols[-1]
     full_rows = []
     for r in rows:
-        cons, count = consensus(r)
-        suggestion, status, reason = status_for(r)
+        cons, count = consensus(r, llm_cols)
+        suggestion, status, reason = status_for(r, llm_cols)
         out = {
             **{field: clean(r, field) for field in BASE_FIELDS},
-            **{col: clean(r, col) for col in LLM_COLS},
+            **{col: clean(r, col) for col in llm_cols},
             "llm_consensus": cons,
             "llm_consensus_count": count,
             "suggested_final_value": suggestion,
@@ -228,7 +249,8 @@ def main():
         r["review_id"] = i
 
     review_fields = ["review_id"] + [f for f in selected[0].keys() if f != "review_id"]
-    write_csv(REVIEW, selected, review_fields)
+    review_output = review_output_path(latest_col)
+    write_csv(review_output, selected, review_fields)
 
     summary_rows = []
     for scope_type, groups in [
@@ -243,7 +265,7 @@ def main():
             for r in rows:
                 groups[clean(r, "Classification")].append(r)
         for scope, subrows in groups.items():
-            for col in LLM_COLS:
+            for col in llm_cols:
                 m = metrics(subrows, col)
                 if not m:
                     continue
@@ -266,13 +288,13 @@ def main():
 
     manual_counts = Counter(clean(r, "Orig_Value") or "blank" for r in rows)
     status_counts = Counter(r["decision_status"] for r in full_rows)
-    overall = [(col, metrics(rows, col)) for col in LLM_COLS]
+    overall = [(col, metrics(rows, col)) for col in llm_cols]
     v4_metrics = metrics(rows, "llm_Value_4")
-    v6_metrics = metrics(rows, "llm_Value_6")
+    latest_metrics = metrics(rows, latest_col)
     report = [
         "# Edition Classification Analysis Report",
         "",
-        f"This uses `{INPUT.relative_to(ROOT.parent)}`. `Orig_Value` is treated as an imperfect reference, not ground truth.",
+        f"This uses `{current_input.relative_to(ROOT.parent)}`. `Orig_Value` is treated as an imperfect reference, not ground truth.",
         "",
         "## Dataset",
         "",
@@ -293,17 +315,17 @@ def main():
         "",
         "Interpretation: exact accuracy is limited by noisy manual labels and the dominance of `unrelated`. Related precision, recall, false-related count, and unknown rate are the more useful prompt-comparison signals.",
         "",
-        "## Current DB Run Delta vs V4",
+        f"## Latest Run Delta vs V4",
         "",
         md_table(
-            ["Metric", "v4", "v6", "Delta"],
+            ["Metric", "v4", prompt_label(latest_col), "Delta"],
             [
-                ["Exact", pct(v4_metrics["exact"]), pct(v6_metrics["exact"]), pp(v6_metrics["exact"] - v4_metrics["exact"])],
-                ["Covered exact", pct(v4_metrics["covered_exact"]), pct(v6_metrics["covered_exact"]), pp(v6_metrics["covered_exact"] - v4_metrics["covered_exact"])],
-                ["Unknown", pct(v4_metrics["unknown"]), pct(v6_metrics["unknown"]), pp(v6_metrics["unknown"] - v4_metrics["unknown"])],
-                ["Related precision", pct(v4_metrics["related_precision"]), pct(v6_metrics["related_precision"]), pp(v6_metrics["related_precision"] - v4_metrics["related_precision"])],
-                ["Related recall", pct(v4_metrics["related_recall"]), pct(v6_metrics["related_recall"]), pp(v6_metrics["related_recall"] - v4_metrics["related_recall"])],
-                ["False related", v4_metrics["false_related"], v6_metrics["false_related"], f"{v6_metrics['false_related'] - v4_metrics['false_related']:+d}"],
+                ["Exact", pct(v4_metrics["exact"]), pct(latest_metrics["exact"]), pp(latest_metrics["exact"] - v4_metrics["exact"])],
+                ["Covered exact", pct(v4_metrics["covered_exact"]), pct(latest_metrics["covered_exact"]), pp(latest_metrics["covered_exact"] - v4_metrics["covered_exact"])],
+                ["Unknown", pct(v4_metrics["unknown"]), pct(latest_metrics["unknown"]), pp(latest_metrics["unknown"] - v4_metrics["unknown"])],
+                ["Related precision", pct(v4_metrics["related_precision"]), pct(latest_metrics["related_precision"]), pp(latest_metrics["related_precision"] - v4_metrics["related_precision"])],
+                ["Related recall", pct(v4_metrics["related_recall"]), pct(latest_metrics["related_recall"]), pp(latest_metrics["related_recall"] - v4_metrics["related_recall"])],
+                ["False related", v4_metrics["false_related"], latest_metrics["false_related"], f"{latest_metrics['false_related'] - v4_metrics['false_related']:+d}"],
             ],
         ),
         "",
@@ -313,7 +335,7 @@ def main():
         "",
         "## What To Review Now",
         "",
-        f"`v6_diagnostic_review.csv` contains {len(selected)} rows. Fill `your_final_value`, `your_error_type`, and `your_notes_for_v6`.",
+        f"`{review_output.name}` contains {len(selected)} rows. Fill `your_final_value`, `your_error_type`, and `your_notes_for_v6`.",
         "",
         "Suggested `your_final_value`: `primary`, `secondary`, `unrelated`, `unknown`, or `unsure`.",
         "",
@@ -323,7 +345,7 @@ def main():
         "",
         "- `llm_Value_6` was merged from the current `ocrflow/store/ocrflow.db` values for `scope='editions'` and `feature_id='m_classifier'`.",
         "- The active DB result metadata reports `source_revision='f96afd86-79f0-4736-a91a-d58e37b6db65'`, which is the stored `v1` revision.",
-        "- The intended V6 prompt revision in migrations is `6f4aafde-a8d9-4a50-8cae-7947b470c6f6`; the DB values are therefore a complete current DB run comparison, but they are not provenance-confirmed as V6.",
+        "- The intended V6 prompt revision in migrations is `6f4aafde-a8d9-4a50-8cae-7947b470c6f6`; the intended V7 prompt revision is `7a3f3e5a-8f8a-4c47-b1e7-56c31c9ab7d0`.",
         "",
     ]
     REPORT.write_text("\n".join(report), encoding="utf-8")

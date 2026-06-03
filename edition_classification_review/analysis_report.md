@@ -20,7 +20,7 @@ This uses `edition_classification_review/features-comparison-May-23 - editions_r
 
 Interpretation: exact accuracy is limited by noisy manual labels and the dominance of `unrelated`. Related precision, recall, false-related count, and unknown rate are the more useful prompt-comparison signals.
 
-## Current DB Run Delta vs V4
+## Latest Run Delta vs V4
 
 | Metric | v4 | v6 | Delta |
 | --- | --- | --- | --- |
@@ -46,16 +46,14 @@ Interpretation: exact accuracy is limited by noisy manual labels and the dominan
 | blank_no_majority | 20 |
 | review_manual_positive | 16 |
 
-## What To Review Now
+## Review Status
 
-`v6_diagnostic_review.csv` contains 159 rows. Fill `your_final_value`, `your_error_type`, and `your_notes_for_v6`.
+`v6_diagnostic_review.csv` contains the preserved V6 diagnostic queue. Mia has filled 42 rows; see `v6_human_review_summary.md`.
 
-Suggested `your_final_value`: `primary`, `secondary`, `unrelated`, `unknown`, or `unsure`.
-
-Suggested `your_error_type`: `manual_missed_related`, `llm_overclassified`, `primary_secondary_wrong`, `needs_more_metadata`, `definition_unclear`, or `other`.
+No more manual review is needed before the V7 run. After V7, generate a new V7 diagnostic queue and review only disagreements in the V7 focus categories.
 
 ## Current DB Run Provenance
 
 - `llm_Value_6` was merged from the current `ocrflow/store/ocrflow.db` values for `scope='editions'` and `feature_id='m_classifier'`.
 - The active DB result metadata reports `source_revision='f96afd86-79f0-4736-a91a-d58e37b6db65'`, which is the stored `v1` revision.
-- The intended V6 prompt revision in migrations is `6f4aafde-a8d9-4a50-8cae-7947b470c6f6`; the DB values are therefore a complete current DB run comparison, but they are not provenance-confirmed as V6.
+- The intended V6 prompt revision in migrations is `6f4aafde-a8d9-4a50-8cae-7947b470c6f6`; the intended V7 prompt revision is `7a3f3e5a-8f8a-4c47-b1e7-56c31c9ab7d0`.

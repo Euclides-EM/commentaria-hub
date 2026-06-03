@@ -1,110 +1,100 @@
-# Codex Context: Edition Classification
+# Codex Context: Edition Classification V7
 
-Use this file to resume analysis after the V6 run.
+Use this file to continue the edition subject-classification work in future Codex sessions.
 
-## Source Data
+## Version Map
 
-Current source CSV:
+- Source comparison file:
+  `edition_classification_review/features-comparison-May-23 - editions_results_with_v6.csv`
+- Original comparison file:
+  `edition_classification_review/features-comparison-May-23 - editions_results.csv`
+- Prompt columns:
+  - `llm_Value_1`: `main`
+  - `llm_Value_3`: `7e62f6a`
+  - `llm_Value_4`: `f932d03`
+  - `llm_Value_6`: latest/current behavioral run
+- V6 prompt revision:
+  `6f4aafde-a8d9-4a50-8cae-7947b470c6f6`
+- V7 prompt revision:
+  `7a3f3e5a-8f8a-4c47-b1e7-56c31c9ab7d0`
+- V7 migration:
+  `ocrflow/internal/migrations/ocrflow/1774300010_edition_classification_v7.sql`
 
-`edition_classification_review/features-comparison-May-23 - editions_results.csv`
+## Provenance Note
 
-Columns:
+The latest `llm_Value_6` run was executed on another machine and merged into the CSV. Treat the CSV as the behavioral source of truth. Local DB provenance may not match the intended revision id.
 
-`Page/Key, language, year, city, Classification, Orig_Value, llm_Value_1, llm_Value_3, llm_Value_4`
+For V7, make provenance clean: generated results should point to revision `7a3f3e5a-8f8a-4c47-b1e7-56c31c9ab7d0`.
 
-The prompt mapping from Mia:
+## V6 Baseline
 
-- `llm_Value_1`: `main`
-- `llm_Value_3`: `7e62f6a`
-- `llm_Value_4`: `f932d03`
+From `analysis_report.md`, latest run vs V4:
 
-## Prompt Provenance
+| Metric | V4 | V6/latest | Delta |
+| --- | ---: | ---: | ---: |
+| Exact | 77.7% | 78.2% | +0.5 pp |
+| Covered exact | 86.0% | 89.1% | +3.1 pp |
+| Unknown | 9.6% | 12.3% | +2.6 pp |
+| Related precision | 40.2% | 47.9% | +7.7 pp |
+| Related recall | 89.1% | 87.0% | -2.1 pp |
+| False related | 317 | 226 | -91 |
 
-The SQL classifier prompt did not change across `main`, `7e62f6a`, and `f932d03`.
+V6 direction is good: higher precision and fewer false-related labels. Do not revert to broad, eager related classification.
 
-It lives in:
+## Human Review Signal
 
-`ocrflow/internal/migrations/ocrflow/1774300003_edition_subject_categories_feature.sql`
+Mia reviewed 42 rows in `v6_diagnostic_review.csv`.
 
-The output format is one list feature containing values like:
+- `Orig_Value` matched 12/42 reviewed values.
+- `llm_Value_6` matched 29/42 reviewed values.
+- Manual `unrelated` was often too conservative: 28 reviewed manual-unrelated rows were marked `primary` or `secondary`.
 
-`Category Name::primary`
+Good reviewed categories:
 
-Allowed values:
+- `Architecture`: 4/4
+- `Construction`: 3/3
+- `Instrument Use`: 11/12
+- `Practical Geometry`: 3/3
 
-`primary`, `secondary`, `unrelated`, `unknown`
+Needs focused tightening:
 
-The wrapper did change:
+- `Trigonometry`
+- `Instrument Construction`
+- `Commercial Mathematics`
+- `Theoretical Mathematics`
+- selected `Cartography` false positives
 
-- `main` / `llm_Value_1`: edition metadata includes original title, imprint, colophon, and frontispiece.
-- `7e62f6a` / `llm_Value_3`: mostly same metadata, with title/imprint/colophon/frontispiece on following lines and newer parsing.
-- `f932d03` / `llm_Value_4`: uses English title when available, drops imprint/colophon/frontispiece, says language is "originally in ...", and keeps hallucination checking off for edition prompts.
+Read `v6_human_review_summary.md` for the detailed category table and Mia's notes.
 
-## V6 Code Changes
+## V7 Prompt Policy
 
-Wrapper change:
+V7 keeps V6 intact except for focused category wording:
 
-`ocrflow/internal/service/feature_exec_edition.go`
+- `Trigonometry`: require explicit trigonometric methods/tables/vocabulary. Sundials, astronomy, triangles, proportional geometry, or practical geometry alone are not enough.
+- `Instrument Construction`: require making/designing/fabricating/calibrating real instruments. Instrument use, theory, depiction, naming, or speculation alone is unrelated.
+- `Commercial Mathematics`: require commercial/accounting/trade/merchant/money/interest/exchange/commercial-measures evidence.
+- `Theoretical Mathematics`: require a clear theoretical/speculative mathematical aim beyond practical, mixed-math, school, instrument, construction, military, or applied Euclidean material.
+- `Cartography`: require maps/charts/mapmaking/chartmaking or map/chart content. Geography, place names, routes, diagrams, and surveying alone are not enough.
 
-When the active edition feature is `m_classifier`, the wrapper now says this is a classification task and tells the model to return only the requested category/classification strings. This avoids the old extraction wording:
+## Analyzer Behavior
 
-`Each field should contain the exact value(s) from the input metadata`
+`analyze_review.py` automatically picks the newest available input:
 
-That old line conflicts with labels such as `primary` and `secondary`.
+1. `features-comparison-May-23 - editions_results_with_v7.csv`
+2. `features-comparison-May-23 - editions_results_with_v6.csv`
+3. `features-comparison-May-23 - editions_results.csv`
 
-V6 SQL prompt:
+It includes `llm_Value_7` when present. When run on V6 data, it writes `v6_diagnostic_review_regenerated.csv` so it does not overwrite the reviewed `v6_diagnostic_review.csv`.
 
-`ocrflow/internal/migrations/ocrflow/1774300008_edition_classification_v6.sql`
+## Suggested V7 Evaluation
 
-Main V6 prompt changes:
-
-- First decide related vs unrelated, then primary vs secondary.
-- Require explicit evidence in title, title-page text, additional content, book/section notes, or notes.
-- Do not infer subject relevance from editor, publisher, city, language, date, format, or reputation.
-- Do not classify a category as related only because this is an edition of Euclid or because Euclid book numbers are listed.
-- Tighten noisy categories, especially Theoretical Mathematics, Practical Geometry, Instrument Use, Instrument Construction, Construction, Architecture, Cosmography, and Trigonometry.
-- Incorporate Mia's first 34 reviewed rows:
-  - Construction can include military/architecture-adjacent material when it is practical construction, but not if it is only artistic/theoretical/general.
-  - Instrument Construction requires actual making/design/fabrication/calibration, not just an instrument being named or depicted.
-  - Instrument Use requires real instrument-use instructions; ordinary compass-and-ruler geometry and imaginary/speculative devices do not count.
-  - Theoretical Mathematics has a high threshold; basic school mathematics, practical mathematics, mixed arts, or a generic Euclid base text should not automatically count.
-  - Commercial Mathematics requires trade/accounting/merchant evidence.
-  - Mechanics requires mechanics content, not just practical mathematics.
-
-## Current Baseline KPIs
-
-From `analysis_report.md`:
-
-| Prompt | Exact | Covered exact | Unknown | Related precision | Related recall | False related |
-| --- | --- | --- | --- | --- | --- | --- |
-| v1 | 76.7% | 86.4% | 11.2% | 41.7% | 88.3% | 295 |
-| v3 | 75.2% | 85.0% | 11.4% | 39.2% | 89.1% | 330 |
-| v4 | 77.7% | 86.0% | 9.6% | 40.2% | 89.1% | 317 |
-
-Decision buckets:
-
-- `stable_unrelated`: 2,142
-- `majority_llm_related_manual_unrelated`: 286
-- `keep_manual_positive`: 223
-- `single_llm_related_manual_unrelated`: 173
-- `blank_with_llm_unrelated_consensus`: 162
-- `blank_needs_evidence`: 55
-- `blank_with_llm_related_consensus`: 36
-- `review_manual_positive`: 16
-- `blank_no_majority`: 7
-
-## How To Analyze V6 Later
-
-Add the V6 column to the source comparison CSV or make a new CSV with the same row keys and a `llm_Value_6` column.
-
-Then update `LLM_COLS` in `analyze_review.py` to include `llm_Value_6` and rerun:
-
-`python3 edition_classification_review/analyze_review.py`
-
-Compare V6 on:
-
-- related precision, especially in Theoretical Mathematics and Practical Geometry;
-- false-related count;
-- unknown rate;
-- recall on manual positives;
-- how many `majority_llm_related_manual_unrelated` rows remain.
+1. Run V7 on the same edition batch.
+2. Merge/export results into `features-comparison-May-23 - editions_results_with_v7.csv` with column `llm_Value_7`.
+3. Run `python3 edition_classification_review/analyze_review.py`.
+4. Compare V7 to V6 on:
+   - related precision;
+   - related recall;
+   - false-related count;
+   - unknown rate;
+   - reviewed-row agreement in the five focus categories.
+5. Review only new V7 disagreement rows in the focus categories.

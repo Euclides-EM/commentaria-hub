@@ -1,47 +1,43 @@
-# Edition Classification V6 Prep
+# Edition Classification V7 Handoff
 
-This folder is for the edition subject-classification review only. It uses:
+This folder is the clean handoff packet for the edition subject-classification V7 run.
 
-- `features-comparison-May-23 - editions_results.csv`: source comparison file.
-- `analysis_report.md`: human-readable KPI/report summary.
-- `v6_diagnostic_review.csv`: small review queue for Mia.
-- `full_row_suggestions.csv`: row-level suggestions for all 3,100 rows.
-- `kpi_summary.csv`: prompt KPIs overall, by language, and by classification.
-- `analyze_review.py`: reproducible generator for the CSV/report files.
-- `CODEX_CONTEXT.md`: prompt provenance and V6 run context.
+## Current Status
 
-## What To Review
+- Latest behavioral comparison column: `llm_Value_6`
+- V6 improved precision and reduced false-related classifications, but still misses reviewed policy boundaries in a few categories.
+- V7 is prepared as a focused prompt revision in:
+  `ocrflow/internal/migrations/ocrflow/1774300010_edition_classification_v7.sql`
+- Do not broad-rewrite the classifier. V7 should only tighten the categories identified by human review.
 
-Open `v6_diagnostic_review.csv`. You do not need to review all 3,100 rows.
+## Files
 
-Fill only these columns:
+- `CODEX_CONTEXT.md`: start here in future Codex sessions.
+- `analysis_report.md`: latest V6/current-run KPI baseline.
+- `v6_human_review_summary.md`: summary of Mia's 42 reviewed diagnostic rows and policy implications.
+- `v6_diagnostic_review.csv`: reviewed V6 diagnostic queue; preserve the filled `your_*` columns.
+- `features-comparison-May-23 - editions_results.csv`: original comparison source.
+- `features-comparison-May-23 - editions_results_with_v6.csv`: latest comparison source with `llm_Value_6`.
+- `analyze_review.py`: reproducible analyzer. It will automatically use `features-comparison-May-23 - editions_results_with_v7.csv` if that file exists.
 
-- `your_final_value`: use `primary`, `secondary`, `unrelated`, `unknown`, or `unsure`.
-- `your_error_type`: use `manual_missed_related`, `llm_overclassified`, `primary_secondary_wrong`, `needs_more_metadata`, `definition_unclear`, or `other`.
-- `your_notes_for_v6`: short note only when it helps improve the prompt, for example "Euclid alone should not count as theoretical math" or "instrument is named but no use/construction instructions".
+## V7 Focus
 
-Highest-value rows are at the top. The key question is whether LLM-majority related rows are real manual misses or prompt over-classification.
+Keep V6 behavior broadly intact. V7 only tightens:
 
-As of the first review pass, 34 rows were filled. That is enough to move to V6. Continue only if you want more examples for a specific category; the main prompt changes are already clear.
+- `Trigonometry`: be conservative; sundials, astronomy, triangles, and proportional geometry are not enough without trigonometric method/table vocabulary.
+- `Instrument Construction`: require actual making/designing/fabricating/calibrating; instrument use or theory alone is not construction.
+- `Commercial Mathematics`: require trade/accounting/merchant/money/interest/exchange/commercial-measures evidence.
+- `Theoretical Mathematics`: practical or mixed-math Euclidean works are not theoretical unless a theoretical/speculative aim is clear.
+- `Cartography`: require map/chart making or map/chart content, not geography/place/route/diagram evidence alone.
 
-## KPIs To Watch
+## Next Steps
 
-For the old runs, exact accuracy is not enough because most rows are `unrelated` and manual labels are imperfect.
+1. Apply/run V7 revision `7a3f3e5a-8f8a-4c47-b1e7-56c31c9ab7d0`.
+2. Export/merge V7 results as `features-comparison-May-23 - editions_results_with_v7.csv` with a column named `llm_Value_7`.
+3. Run `python3 edition_classification_review/analyze_review.py`.
+4. Compare V7 against the V6 baseline in `analysis_report.md` and `v6_human_review_summary.md`.
+5. Review only the new V7 disagreement rows in the five V7 focus categories.
 
-The main KPIs are:
+## Important Warning
 
-- Related precision: among LLM `primary`/`secondary`, how many are manually related.
-- Related recall: among manual related rows, how many the LLM catches.
-- False-related count: likely over-classification plus manual misses.
-- Review burden: number of manual-unrelated rows where 2-3 LLMs say related.
-- Unknown rate: how often the prompt abstains.
-
-## V6 Plan
-
-V6 changes two things:
-
-- Go wrapper: subject classification now gets a classification-specific wrapper instead of the old extraction wrapper.
-- SQL prompt: stricter evidence rules and clearer disambiguation for noisy categories.
-- Mia review notes folded into V6: high threshold for Theoretical Mathematics; compass/ruler geometry is not Instrument Use; imaginary/speculative devices are not Instrument Use; Instrument Construction needs actual fabrication/design instructions; Commercial Mathematics needs actual trade/accounting/merchant evidence; Mechanics needs mechanics, not just practical math.
-
-Run V6 on the same edition batch, then compare V6 against `llm_Value_1`, `llm_Value_3`, and `llm_Value_4` using this folder as the baseline.
+Do not overwrite `v6_diagnostic_review.csv`; it contains Mia's reviewed values. The analyzer writes a separate regenerated V6 diagnostic file when run without V7 input.
