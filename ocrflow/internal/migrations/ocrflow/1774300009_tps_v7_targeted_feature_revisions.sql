@@ -189,7 +189,7 @@ INSERT INTO feature_revisions (
     'v7',
     'V7 targeted span-boundary revision',
     datetime('now'), datetime('now'),
-    'tps', 'dataset', 'edition_statement',
+    'tps', 'dataset', 'edition_details',
     'Statements describing the edition, revision, correction, enlargement, or version of this publication. Include the edition statement phrase itself, including coordinated added-material wording when it is part of the edition statement. Do not reduce the value to only a generic phrase such as new edition when the printed statement includes the relevant revision, correction, enlargement, or authorial continuation.',
     '', 'ollama', 'gpt-oss:120b'
 ),
