@@ -6,17 +6,18 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-INPUT = ROOT / "features-comparison-May-23 - editions_results.csv"
+INPUT = ROOT / "features-comparison-May-23 - editions_results_with_v6.csv"
 FULL = ROOT / "full_row_suggestions.csv"
 REVIEW = ROOT / "v6_diagnostic_review.csv"
 SUMMARY = ROOT / "kpi_summary.csv"
 REPORT = ROOT / "analysis_report.md"
 
-LLM_COLS = ["llm_Value_1", "llm_Value_3", "llm_Value_4"]
+LLM_COLS = ["llm_Value_1", "llm_Value_3", "llm_Value_4", "llm_Value_6"]
 LABELS = {"primary", "secondary", "unrelated", "unknown", ""}
 MANUAL_LABELS = {"primary", "secondary", "unrelated"}
 RELATED = {"primary", "secondary"}
 VALUE_RANK = {"primary": 4, "secondary": 3, "unrelated": 2, "unknown": 1, "": 0}
+BASE_FIELDS = ["Page/Key", "language", "year", "city", "Classification", "Orig_Value"]
 
 
 def clean(row, col):
@@ -25,6 +26,18 @@ def clean(row, col):
 
 def pct(x):
     return "" if x is None or math.isnan(x) else f"{x:.1%}"
+
+
+def pp(x):
+    return "" if x is None or math.isnan(x) else f"{x * 100:+.1f} pp"
+
+
+def prompt_label(col):
+    return col.replace("llm_Value_", "v")
+
+
+def majority_threshold():
+    return len(LLM_COLS) // 2 + 1
 
 
 def read_rows():
@@ -67,7 +80,7 @@ def consensus(row):
     votes = [clean(row, c) for c in LLM_COLS]
     counts = Counter(votes)
     value, count = counts.most_common(1)[0]
-    if count >= 2:
+    if count >= majority_threshold():
         return value, count
     return max(votes, key=lambda v: VALUE_RANK.get(v, 0)), 1
 
@@ -83,8 +96,10 @@ def status_for(row):
             return manual, "keep_manual_positive", "manual positive; at least one LLM also says related"
         return manual, "review_manual_positive", "manual positive but no LLM confirms"
     if manual == "unrelated":
-        if len(positives) >= 2:
-            return cons, "majority_llm_related_manual_unrelated", "manual unrelated but 2-3 LLMs say related"
+        if len(positives) >= majority_threshold():
+            return cons, "majority_llm_related_manual_unrelated", "manual unrelated but an LLM majority says related"
+        if len(positives) > 1:
+            return "unrelated", "split_llm_related_manual_unrelated", "manual unrelated but multiple LLMs say related without a majority"
         if len(positives) == 1:
             return "unrelated", "single_llm_related_manual_unrelated", "manual unrelated but one LLM says related"
         return "unrelated", "stable_unrelated", "manual unrelated and LLMs do not give a related majority"
@@ -106,6 +121,8 @@ def review_question(status):
         return "Can we fill this blank as related? If yes, is the value primary or secondary?"
     if status == "single_llm_related_manual_unrelated":
         return "Is this a useful weak signal or a false positive pattern V6 should suppress?"
+    if status == "split_llm_related_manual_unrelated":
+        return "Is the split related signal a manual miss or lingering over-classification?"
     if status == "blank_no_majority":
         return "Which final value is defensible from the metadata?"
     return ""
@@ -124,7 +141,7 @@ def priority_score(row, status):
     }.get(status, 0)
     if classification in noisy:
         score += 10
-    if clean(row, "llm_Value_4") in RELATED:
+    if clean(row, "llm_Value_6") in RELATED:
         score += 3
     if len({clean(row, c) for c in LLM_COLS}) == 1:
         score += 2
@@ -152,15 +169,8 @@ def main():
         cons, count = consensus(r)
         suggestion, status, reason = status_for(r)
         out = {
-            "Page/Key": clean(r, "Page/Key"),
-            "language": clean(r, "language"),
-            "year": clean(r, "year"),
-            "city": clean(r, "city"),
-            "Classification": clean(r, "Classification"),
-            "Orig_Value": clean(r, "Orig_Value"),
-            "llm_Value_1": clean(r, "llm_Value_1"),
-            "llm_Value_3": clean(r, "llm_Value_3"),
-            "llm_Value_4": clean(r, "llm_Value_4"),
+            **{field: clean(r, field) for field in BASE_FIELDS},
+            **{col: clean(r, col) for col in LLM_COLS},
             "llm_consensus": cons,
             "llm_consensus_count": count,
             "suggested_final_value": suggestion,
@@ -186,6 +196,7 @@ def main():
             "blank_with_llm_related_consensus",
             "review_manual_positive",
             "single_llm_related_manual_unrelated",
+            "split_llm_related_manual_unrelated",
             "blank_no_majority",
         }
     ]
@@ -198,6 +209,7 @@ def main():
         "majority_llm_related_manual_unrelated": 75,
         "blank_with_llm_related_consensus": 30,
         "review_manual_positive": 20,
+        "split_llm_related_manual_unrelated": 35,
         "single_llm_related_manual_unrelated": 25,
         "blank_no_majority": 10,
     }
@@ -255,10 +267,12 @@ def main():
     manual_counts = Counter(clean(r, "Orig_Value") or "blank" for r in rows)
     status_counts = Counter(r["decision_status"] for r in full_rows)
     overall = [(col, metrics(rows, col)) for col in LLM_COLS]
+    v4_metrics = metrics(rows, "llm_Value_4")
+    v6_metrics = metrics(rows, "llm_Value_6")
     report = [
         "# Edition Classification Analysis Report",
         "",
-        "This uses only `edition_classification_review/features-comparison-May-23 - editions_results.csv`. `Orig_Value` is treated as an imperfect reference, not ground truth.",
+        f"This uses `{INPUT.relative_to(ROOT.parent)}`. `Orig_Value` is treated as an imperfect reference, not ground truth.",
         "",
         "## Dataset",
         "",
@@ -272,12 +286,26 @@ def main():
         md_table(
             ["Prompt", "Exact", "Covered exact", "Unknown", "Related precision", "Related recall", "False related"],
             [
-                [col.replace("llm_Value_", "v"), pct(m["exact"]), pct(m["covered_exact"]), pct(m["unknown"]), pct(m["related_precision"]), pct(m["related_recall"]), m["false_related"]]
+                [prompt_label(col), pct(m["exact"]), pct(m["covered_exact"]), pct(m["unknown"]), pct(m["related_precision"]), pct(m["related_recall"]), m["false_related"]]
                 for col, m in overall
             ],
         ),
         "",
-        "Interpretation: all three runs have high related recall, but weak related precision against the manual labels. Because the manual labels are known to be sloppy, the most important KPI is not exact accuracy; it is how much review is needed to separate manual misses from LLM over-classification.",
+        "Interpretation: exact accuracy is limited by noisy manual labels and the dominance of `unrelated`. Related precision, recall, false-related count, and unknown rate are the more useful prompt-comparison signals.",
+        "",
+        "## Current DB Run Delta vs V4",
+        "",
+        md_table(
+            ["Metric", "v4", "v6", "Delta"],
+            [
+                ["Exact", pct(v4_metrics["exact"]), pct(v6_metrics["exact"]), pp(v6_metrics["exact"] - v4_metrics["exact"])],
+                ["Covered exact", pct(v4_metrics["covered_exact"]), pct(v6_metrics["covered_exact"]), pp(v6_metrics["covered_exact"] - v4_metrics["covered_exact"])],
+                ["Unknown", pct(v4_metrics["unknown"]), pct(v6_metrics["unknown"]), pp(v6_metrics["unknown"] - v4_metrics["unknown"])],
+                ["Related precision", pct(v4_metrics["related_precision"]), pct(v6_metrics["related_precision"]), pp(v6_metrics["related_precision"] - v4_metrics["related_precision"])],
+                ["Related recall", pct(v4_metrics["related_recall"]), pct(v6_metrics["related_recall"]), pp(v6_metrics["related_recall"] - v4_metrics["related_recall"])],
+                ["False related", v4_metrics["false_related"], v6_metrics["false_related"], f"{v6_metrics['false_related'] - v4_metrics['false_related']:+d}"],
+            ],
+        ),
         "",
         "## Adjudication Buckets",
         "",
@@ -291,13 +319,11 @@ def main():
         "",
         "Suggested `your_error_type`: `manual_missed_related`, `llm_overclassified`, `primary_secondary_wrong`, `needs_more_metadata`, `definition_unclear`, or `other`.",
         "",
-        "## V6 Direction",
+        "## Current DB Run Provenance",
         "",
-        "- Use a classification-specific edition wrapper. The old wrapper says each field should contain exact metadata text, which conflicts with returning labels like `primary` and `secondary`.",
-        "- Keep the v4 metadata shape as the base because it had the best exact score and lowest unknown rate.",
-        "- Tighten the SQL prompt around the noisy categories: Practical Geometry vs Theoretical Mathematics, Instrument Use vs Instrument Construction, Construction vs Architecture, and Geography/Cosmography/Astronomy/Cartography.",
-        "- Require explicit evidence for `primary`/`secondary`; do not classify from a person's profession, publisher, city, or generic Euclid-only metadata alone.",
-        "- Treat `primary` vs `secondary` as the second decision. First decide whether the category is meaningfully related at all.",
+        "- `llm_Value_6` was merged from the current `ocrflow/store/ocrflow.db` values for `scope='editions'` and `feature_id='m_classifier'`.",
+        "- The active DB result metadata reports `source_revision='f96afd86-79f0-4736-a91a-d58e37b6db65'`, which is the stored `v1` revision.",
+        "- The intended V6 prompt revision in migrations is `6f4aafde-a8d9-4a50-8cae-7947b470c6f6`; the DB values are therefore a complete current DB run comparison, but they are not provenance-confirmed as V6.",
         "",
     ]
     REPORT.write_text("\n".join(report), encoding="utf-8")

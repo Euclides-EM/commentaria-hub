@@ -2,87 +2,116 @@ scope_type,scope_value,prompt,manual_rows,exact,covered_exact,unknown,related_pr
 overall,all,llm_Value_1,2840,76.7%,86.4%,11.2%,41.7%,88.3%,211,295,15,13
 overall,all,llm_Value_3,2840,75.2%,85.0%,11.4%,39.2%,89.1%,213,330,16,10
 overall,all,llm_Value_4,2840,77.7%,86.0%,9.6%,40.2%,89.1%,213,317,12,14
+overall,all,llm_Value_6,2840,78.2%,89.1%,12.3%,47.9%,87.0%,208,226,17,14
 language,FRENCH,llm_Value_1,860,80.7%,90.2%,10.6%,43.2%,96.4%,54,71,1,1
 language,FRENCH,llm_Value_3,860,77.7%,88.7%,12.4%,39.8%,94.6%,53,80,2,1
 language,FRENCH,llm_Value_4,860,76.5%,88.8%,13.8%,41.0%,98.2%,55,79,1,0
+language,FRENCH,llm_Value_6,860,78.8%,91.0%,13.4%,47.0%,98.2%,55,62,1,0
 language,ITALIAN,llm_Value_1,460,73.7%,83.5%,11.7%,41.0%,91.1%,41,59,3,1
 language,ITALIAN,llm_Value_3,460,71.3%,82.0%,13.0%,39.3%,93.3%,42,65,2,1
 language,ITALIAN,llm_Value_4,460,80.9%,83.6%,3.3%,40.6%,95.6%,43,63,2,0
+language,ITALIAN,llm_Value_6,460,72.8%,88.4%,17.6%,54.5%,93.3%,42,35,2,1
 language,LATIN,llm_Value_1,900,74.2%,86.1%,13.8%,39.5%,77.3%,58,89,7,10
 language,LATIN,llm_Value_3,900,70.1%,82.4%,14.9%,35.6%,84.0%,63,114,6,6
 language,LATIN,llm_Value_4,900,74.2%,85.4%,13.1%,37.5%,76.0%,57,95,5,13
+language,LATIN,llm_Value_6,900,76.7%,88.5%,13.3%,45.2%,76.0%,57,69,10,8
 language,ENGLISH,llm_Value_1,180,83.9%,85.3%,1.7%,45.7%,88.9%,16,19,2,0
 language,ENGLISH,llm_Value_3,180,86.1%,86.6%,0.6%,48.5%,88.9%,16,17,2,0
 language,ENGLISH,llm_Value_4,180,81.7%,84.0%,2.8%,40.0%,88.9%,16,24,2,0
+language,ENGLISH,llm_Value_6,180,81.7%,86.5%,5.6%,42.4%,77.8%,14,19,1,3
 language,DUTCH,llm_Value_1,120,78.3%,82.5%,5.0%,44.8%,92.9%,13,16,1,0
 language,DUTCH,llm_Value_3,120,82.5%,84.6%,2.5%,40.7%,78.6%,11,16,1,2
 language,DUTCH,llm_Value_4,120,83.3%,87.0%,4.2%,52.2%,85.7%,12,11,2,0
+language,DUTCH,llm_Value_6,120,88.3%,89.8%,1.7%,52.6%,71.4%,10,9,3,1
 language,GERMAN,llm_Value_1,260,75.4%,83.1%,9.2%,36.2%,91.3%,21,37,1,1
 language,GERMAN,llm_Value_3,260,80.8%,85.0%,5.0%,37.7%,87.0%,20,33,3,0
 language,GERMAN,llm_Value_4,260,81.5%,83.1%,1.9%,35.4%,100.0%,23,42,0,0
+language,GERMAN,llm_Value_6,260,81.9%,86.2%,5.0%,43.4%,100.0%,23,30,0,0
 language,"LATIN, FRENCH",llm_Value_1,20,80.0%,94.1%,15.0%,50.0%,100.0%,1,1,0,0
 language,"LATIN, FRENCH",llm_Value_3,20,95.0%,100.0%,5.0%,100.0%,100.0%,1,0,0,0
 language,"LATIN, FRENCH",llm_Value_4,20,95.0%,95.0%,0.0%,50.0%,100.0%,1,1,0,0
+language,"LATIN, FRENCH",llm_Value_6,20,100.0%,100.0%,0.0%,100.0%,100.0%,1,0,0,0
 language,SPANISH,llm_Value_1,40,52.5%,80.8%,35.0%,70.0%,100.0%,7,3,0,0
 language,SPANISH,llm_Value_3,40,67.5%,79.4%,15.0%,58.3%,100.0%,7,5,0,0
 language,SPANISH,llm_Value_4,40,75.0%,90.9%,17.5%,75.0%,85.7%,6,2,0,1
+language,SPANISH,llm_Value_6,40,77.5%,93.9%,17.5%,75.0%,85.7%,6,2,0,1
 classification,Architecture,llm_Value_1,142,72.5%,80.5%,9.9%,29.4%,100.0%,10,24,0,0
 classification,Architecture,llm_Value_3,142,77.5%,85.3%,9.2%,35.7%,100.0%,10,18,0,0
 classification,Architecture,llm_Value_4,142,77.5%,84.0%,7.7%,32.3%,100.0%,10,21,0,0
+classification,Architecture,llm_Value_6,142,78.2%,88.8%,12.0%,40.9%,90.0%,9,13,0,1
 classification,Arithmetic,llm_Value_1,142,73.9%,82.7%,10.6%,67.2%,100.0%,43,21,0,0
 classification,Arithmetic,llm_Value_3,142,66.9%,76.6%,12.7%,60.0%,97.7%,42,28,0,1
 classification,Arithmetic,llm_Value_4,142,66.9%,76.6%,12.7%,60.6%,100.0%,43,28,0,0
+classification,Arithmetic,llm_Value_6,142,75.4%,86.3%,12.7%,74.1%,100.0%,43,15,0,0
 classification,Astronomy,llm_Value_1,142,84.5%,93.0%,9.2%,55.6%,90.9%,10,8,0,1
 classification,Astronomy,llm_Value_3,142,80.3%,90.5%,11.3%,52.4%,100.0%,11,10,0,0
 classification,Astronomy,llm_Value_4,142,82.4%,90.0%,8.5%,45.0%,81.8%,9,11,0,2
+classification,Astronomy,llm_Value_6,142,83.8%,90.8%,7.7%,52.6%,90.9%,10,9,1,0
 classification,Cartography,llm_Value_1,142,86.6%,96.1%,9.9%,42.9%,75.0%,3,4,0,1
 classification,Cartography,llm_Value_3,142,85.9%,93.8%,8.5%,40.0%,100.0%,4,6,0,0
 classification,Cartography,llm_Value_4,142,89.4%,95.5%,6.3%,37.5%,75.0%,3,5,0,1
+classification,Cartography,llm_Value_6,142,86.6%,93.9%,7.7%,33.3%,75.0%,3,6,1,0
 classification,Commercial Mathematics,llm_Value_1,142,83.1%,88.1%,5.6%,21.4%,42.9%,3,11,3,1
 classification,Commercial Mathematics,llm_Value_3,142,82.4%,88.0%,6.3%,8.3%,14.3%,1,11,5,1
 classification,Commercial Mathematics,llm_Value_4,142,83.8%,87.5%,4.2%,18.8%,42.9%,3,13,4,0
+classification,Commercial Mathematics,llm_Value_6,142,83.8%,88.8%,5.6%,20.0%,42.9%,3,12,2,2
 classification,Construction,llm_Value_1,142,75.4%,83.6%,9.9%,29.2%,100.0%,7,17,0,0
 classification,Construction,llm_Value_3,142,76.8%,83.8%,8.5%,28.0%,100.0%,7,18,0,0
 classification,Construction,llm_Value_4,142,71.8%,76.7%,6.3%,20.6%,100.0%,7,27,0,0
+classification,Construction,llm_Value_6,142,76.8%,83.2%,7.7%,29.2%,100.0%,7,17,0,0
 classification,Cosmography,llm_Value_1,142,89.4%,98.4%,9.2%,71.4%,100.0%,5,2,0,0
 classification,Cosmography,llm_Value_3,142,84.5%,93.8%,9.9%,38.5%,100.0%,5,8,0,0
 classification,Cosmography,llm_Value_4,142,90.1%,97.0%,7.0%,55.6%,100.0%,5,4,0,0
+classification,Cosmography,llm_Value_6,142,90.1%,97.7%,7.7%,62.5%,100.0%,5,3,0,0
 classification,Geography,llm_Value_1,142,81.0%,88.5%,8.5%,18.8%,50.0%,3,13,2,1
 classification,Geography,llm_Value_3,142,80.3%,87.7%,8.5%,22.2%,66.7%,4,14,2,0
 classification,Geography,llm_Value_4,142,85.2%,89.6%,4.9%,25.0%,66.7%,4,12,1,1
+classification,Geography,llm_Value_6,142,88.0%,92.6%,4.9%,27.3%,50.0%,3,8,2,1
 classification,Gnomonics & Horology,llm_Value_1,142,92.3%,97.8%,5.6%,71.4%,83.3%,5,2,1,0
 classification,Gnomonics & Horology,llm_Value_3,142,88.0%,97.7%,9.9%,66.7%,100.0%,6,3,0,0
 classification,Gnomonics & Horology,llm_Value_4,142,92.3%,97.8%,5.6%,66.7%,100.0%,6,3,0,0
+classification,Gnomonics & Horology,llm_Value_6,142,90.1%,98.5%,8.5%,75.0%,100.0%,6,2,0,0
 classification,Instrument Construction,llm_Value_1,142,69.7%,85.3%,18.3%,18.8%,60.0%,3,13,2,0
 classification,Instrument Construction,llm_Value_3,142,69.7%,83.2%,16.2%,15.0%,60.0%,3,17,1,1
 classification,Instrument Construction,llm_Value_4,142,71.8%,86.4%,16.9%,13.3%,40.0%,2,13,2,1
+classification,Instrument Construction,llm_Value_6,142,71.1%,85.6%,16.9%,17.6%,60.0%,3,14,1,1
 classification,Instrument Use,llm_Value_1,142,66.2%,79.7%,16.9%,16.0%,66.7%,4,21,2,0
 classification,Instrument Use,llm_Value_3,142,67.6%,78.7%,14.1%,14.3%,66.7%,4,24,1,1
 classification,Instrument Use,llm_Value_4,142,69.0%,79.0%,12.7%,14.3%,66.7%,4,24,1,1
+classification,Instrument Use,llm_Value_6,142,64.8%,78.0%,16.9%,14.3%,66.7%,4,24,2,0
 classification,Mechanics,llm_Value_1,142,82.4%,89.3%,7.7%,33.3%,85.7%,6,12,0,1
 classification,Mechanics,llm_Value_3,142,80.3%,87.7%,8.5%,35.0%,100.0%,7,13,0,0
 classification,Mechanics,llm_Value_4,142,86.6%,91.8%,5.6%,41.2%,100.0%,7,10,0,0
+classification,Mechanics,llm_Value_6,142,82.4%,92.9%,11.3%,50.0%,100.0%,7,7,0,0
 classification,Military Engineering,llm_Value_1,142,89.4%,94.1%,4.9%,78.6%,84.6%,11,3,2,0
 classification,Military Engineering,llm_Value_3,142,87.3%,92.5%,5.6%,71.4%,76.9%,10,4,3,0
 classification,Military Engineering,llm_Value_4,142,89.4%,93.4%,4.2%,70.6%,92.3%,12,5,1,0
+classification,Military Engineering,llm_Value_6,142,88.7%,92.0%,3.5%,68.8%,84.6%,11,5,2,0
 classification,Music Theory,llm_Value_1,142,93.7%,98.5%,4.9%,66.7%,100.0%,4,2,0,0
 classification,Music Theory,llm_Value_3,142,93.0%,98.5%,5.6%,66.7%,100.0%,4,2,0,0
 classification,Music Theory,llm_Value_4,142,95.1%,99.3%,4.2%,80.0%,100.0%,4,1,0,0
+classification,Music Theory,llm_Value_6,142,95.8%,99.3%,3.5%,80.0%,100.0%,4,1,0,0
 classification,Navigation,llm_Value_1,142,91.5%,97.7%,6.3%,66.7%,50.0%,2,1,1,1
 classification,Navigation,llm_Value_3,142,88.0%,97.7%,9.9%,100.0%,25.0%,1,0,3,0
 classification,Navigation,llm_Value_4,142,90.8%,97.0%,6.3%,40.0%,50.0%,2,3,0,2
+classification,Navigation,llm_Value_6,142,89.4%,97.7%,8.5%,66.7%,50.0%,2,1,1,1
 classification,Perspective,llm_Value_1,142,84.5%,94.5%,10.6%,80.0%,95.2%,20,5,1,0
 classification,Perspective,llm_Value_3,142,83.1%,92.9%,10.6%,74.1%,95.2%,20,7,1,0
 classification,Perspective,llm_Value_4,142,87.3%,93.9%,7.0%,74.1%,95.2%,20,7,1,0
+classification,Perspective,llm_Value_6,142,87.3%,97.6%,10.6%,90.9%,95.2%,20,2,1,0
 classification,Practical Geometry,llm_Value_1,142,52.1%,61.7%,15.5%,51.2%,88.0%,44,42,1,5
 classification,Practical Geometry,llm_Value_3,142,52.1%,59.2%,12.0%,52.2%,94.0%,47,43,0,3
 classification,Practical Geometry,llm_Value_4,142,52.8%,59.5%,11.3%,50.0%,88.0%,44,44,1,5
+classification,Practical Geometry,llm_Value_6,142,57.7%,71.9%,19.7%,60.9%,84.0%,42,27,3,5
 classification,Surveying,llm_Value_1,142,71.8%,85.7%,16.2%,50.0%,100.0%,13,13,0,0
 classification,Surveying,llm_Value_3,142,73.9%,86.1%,14.1%,44.4%,92.3%,12,15,0,1
 classification,Surveying,llm_Value_4,142,76.1%,85.7%,11.3%,50.0%,100.0%,13,13,0,0
+classification,Surveying,llm_Value_6,142,77.5%,93.2%,16.9%,66.7%,92.3%,12,6,0,1
 classification,Theoretical Mathematics,llm_Value_1,142,41.5%,48.0%,13.4%,17.8%,86.7%,13,60,0,2
 classification,Theoretical Mathematics,llm_Value_3,142,36.6%,43.0%,14.8%,16.5%,86.7%,13,66,0,2
 classification,Theoretical Mathematics,llm_Value_4,142,42.3%,50.4%,16.2%,19.4%,86.7%,13,54,1,1
+classification,Theoretical Mathematics,llm_Value_6,142,43.0%,54.0%,20.4%,20.0%,80.0%,12,48,1,2
 classification,Trigonometry,llm_Value_1,142,52.8%,77.3%,31.7%,8.7%,100.0%,2,21,0,0
 classification,Trigonometry,llm_Value_3,142,50.7%,75.8%,33.1%,8.0%,100.0%,2,23,0,0
 classification,Trigonometry,llm_Value_4,142,52.8%,79.8%,33.8%,9.5%,100.0%,2,19,0,0
+classification,Trigonometry,llm_Value_6,142,52.8%,91.5%,42.3%,25.0%,100.0%,2,6,0,0
