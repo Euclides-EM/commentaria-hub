@@ -21,7 +21,7 @@ func RetryableHTTPResponse(err error) (int, time.Duration, bool) {
 
 	var httpErr *StatusError
 	if errors.As(err, &httpErr) {
-		return httpErr.statusCode, retryDelayFromHeaders(apiErr.Response), true
+		return httpErr.statusCode, retryDelayFromHeaders(httpErr.response), true
 	}
 
 	return 0, 0, false
