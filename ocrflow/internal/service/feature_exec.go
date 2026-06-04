@@ -120,7 +120,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 		case feature.ScopeTypeDataset:
 			applyFuncs = append(applyFuncs, fe.annotationApplyFunc(exec, key, actions))
 		case feature.ScopeTypeEditions:
-			applyFuncs = append(applyFuncs, fe.editionApplyFunc(key, actions, exec.ID))
+			applyFuncs = append(applyFuncs, fe.editionApplyFunc(key, actions, exec.ID, ""))
 		default:
 			return nil, fmt.Errorf("invalid execution scope: %s", exec.Scope.Type)
 		}

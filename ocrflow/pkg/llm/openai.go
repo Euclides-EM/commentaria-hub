@@ -28,6 +28,10 @@ type OpenAIClient struct {
 }
 
 func (c *OpenAIClient) Exec(model, prompt, attachmentPath string) (string, error) {
+	return c.ExecWithLogLabel(model, prompt, attachmentPath, "")
+}
+
+func (c *OpenAIClient) ExecWithLogLabel(model, prompt, attachmentPath string, logLabel string) (string, error) {
 	if strings.TrimSpace(c.openAIKey) == "" {
 		return "", fmt.Errorf("llm exec: openai api key is empty")
 	}
@@ -58,18 +62,20 @@ func (c *OpenAIClient) Exec(model, prompt, attachmentPath string) (string, error
 	startedAt := time.Now()
 	ctx, cancel := context.WithTimeout(context.Background(), totalTimeout)
 	defer cancel()
-	log.Printf("debug: llm exec start provider=openai model=%s attachment=%t", model, strings.TrimSpace(attachmentPath) != "")
+	logPrefix := logPrefix(logLabel)
+	log.Printf("debug:%s llm exec start provider=openai model=%s attachment=%t", logPrefix, model, strings.TrimSpace(attachmentPath) != "")
 
 	var resp responses.Response
 	attempts, err := executeWithRetries(ctx, func() error {
 		return client.Post(ctx, "/responses", payload, &resp, option.WithRequestTimeout(requestTimeout))
 	})
 	if err != nil {
-		log.Printf("debug: llm exec end provider=openai model=%s duration=%s attempts=%d error=true", model, time.Since(startedAt), attempts)
+		log.Printf("debug:%s llm exec end provider=openai model=%s duration=%s attempts=%d error=true", logPrefix, model, time.Since(startedAt), attempts)
 		return "", fmt.Errorf("llm exec: openai responses api call failed after %s: %w", time.Since(startedAt), err)
 	}
 	log.Printf(
-		"debug: llm exec end provider=openai model=%s duration=%s attempts=%d tokens_input=%d tokens_cached=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d",
+		"debug:%s llm exec end provider=openai model=%s duration=%s attempts=%d tokens_input=%d tokens_cached=%d tokens_output=%d tokens_reasoning=%d tokens_total=%d",
+		logPrefix,
 		model,
 		time.Since(startedAt),
 		attempts,

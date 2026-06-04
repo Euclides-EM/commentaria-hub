@@ -11,7 +11,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
 
-func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string) applyFunc {
+func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string, logLabel string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		edition, err := fe.editionSvc.GetEditionByID(editionKey)
 		if err != nil {
@@ -22,7 +22,7 @@ func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActio
 		var execErrs []error
 		if len(actions.promptRevisions) > 0 {
 			for _, group := range groupPromptRevisionsByAIConfig(actions.promptRevisions, actions.promptFeatures) {
-				promptResults, err := fe.editionPromptApplyFunc(edition, group.revisions, group.features, execID)()
+				promptResults, err := fe.editionPromptApplyFunc(edition, group.revisions, group.features, execID, logLabel)()
 				if err != nil {
 					execErrs = append(execErrs, err)
 				}
@@ -175,7 +175,7 @@ func isEditionSubjectClassifierPrompt(fes []*feature.Feature) bool {
 	return true
 }
 
-func (fe *Execution) editionPromptApplyFunc(ed *model.Edition, frs []*feature.Revision, fes []*feature.Feature, execID string) applyFunc {
+func (fe *Execution) editionPromptApplyFunc(ed *model.Edition, frs []*feature.Revision, fes []*feature.Feature, execID string, llmLogLabel string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		aiProvider := frs[0].AIProvider
 		aiModel := frs[0].AIModel
@@ -230,7 +230,7 @@ Edition metadata:
 		}
 
 		contextDesc := fmt.Sprintf("edition %s", ed.Key)
-		rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
+		rawResponse, err := fe.llmClient.ExecWithLogLabel(aiProvider.ToLLMAIProvider(), aiModel, prompt, "", llmLogLabel)
 		if err != nil {
 			return nil, fmt.Errorf("failed to execute LLM prompt for %s using %s/%s: %w", contextDesc, aiProvider, aiModel, err)
 		}
