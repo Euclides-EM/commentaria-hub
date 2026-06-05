@@ -20,13 +20,15 @@ const (
 )
 
 type cliConfig struct {
-	keys         string
-	keysFile     string
-	featureID    string
-	revisionID   string
-	outputCSV    string
-	dryRun       bool
-	skipExisting bool
+	keys           string
+	keysFile       string
+	featureID      string
+	revisionID     string
+	outputCSV      string
+	checkpointFile string
+	dryRun         bool
+	resume         bool
+	skipExisting   bool
 }
 
 func main() {
@@ -69,42 +71,77 @@ func main() {
 		log.Fatalf("revision lookup failed for %s/%s: %v", cfg.featureID, cfg.revisionID, err)
 	}
 
-	exec := &feature.Execution{
-		Scope: feature.NewEditionExecScope(),
-		Keys:  keys,
-		Apply: []feature.ExecutionApplyItem{{
-			Feature:  cfg.featureID,
-			Revision: cfg.revisionID,
-		}},
+	completed, err := loadCompletedKeys(cfg)
+	if err != nil {
+		log.Fatal(err)
 	}
+	if !cfg.resume && cfg.outputCSV != "" {
+		if err := resetCSV(cfg.outputCSV); err != nil {
+			log.Fatalf("initialize output CSV: %v", err)
+		}
+	}
+
+	applyItems := []feature.ExecutionApplyItem{{
+		Feature:  cfg.featureID,
+		Revision: cfg.revisionID,
+	}}
+	policy := (*feature.ExecutionPolicy)(nil)
 	if cfg.skipExisting {
-		exec.Policy = &feature.ExecutionPolicy{
+		policy = &feature.ExecutionPolicy{
 			SkipIf: []feature.ExecutionSkipIf{feature.ExecutionSkipIfRevisionExist},
 		}
 	}
 
+	totalResults := 0
+	completedThisRun := 0
 	fmt.Printf("Running edition classification revision %s for %d selected keys\n", cfg.revisionID, len(keys))
-	results, err := ocrApp.Deps.FeatureExecutionSvc.ExecuteEphemeral(exec, []*feature.Revision{rev}, []*feature.Feature{feat})
-	if err != nil {
-		log.Fatalf("execution failed: %v", err)
+	for i, key := range keys {
+		if _, ok := completed[key]; ok {
+			fmt.Printf("[%d/%d] skipping completed key %s\n", i+1, len(keys), key)
+			continue
+		}
+
+		exec := &feature.Execution{
+			Scope:  feature.NewEditionExecScope(),
+			Keys:   []string{key},
+			Apply:  applyItems,
+			Policy: policy,
+		}
+
+		fmt.Printf("[%d/%d] running key %s\n", i+1, len(keys), key)
+		results, err := ocrApp.Deps.FeatureExecutionSvc.ExecuteEphemeral(exec, []*feature.Revision{rev}, []*feature.Feature{feat})
+		if err != nil {
+			log.Fatalf("execution failed for key %s: %v\nResume with the same command; completed keys are recorded in %s", key, err, checkpointPath(cfg))
+		}
+
+		if cfg.outputCSV != "" {
+			if err := appendResultsCSV(cfg.outputCSV, results); err != nil {
+				log.Fatalf("append output CSV for key %s: %v", key, err)
+			}
+		}
+
+		if !cfg.dryRun {
+			if err := ocrApp.Deps.FeatureResultSvc.CreateResults(results, false); err != nil {
+				log.Fatalf("store results for key %s: %v", key, err)
+			}
+		}
+
+		if err := markCompletedKey(cfg, key); err != nil {
+			log.Fatalf("write checkpoint for key %s: %v", key, err)
+		}
+		totalResults += len(results)
+		completedThisRun++
+		fmt.Printf("[%d/%d] completed key %s with %d result rows\n", i+1, len(keys), key, len(results))
 	}
 
 	if cfg.outputCSV != "" {
-		if err := writeResultsCSV(cfg.outputCSV, results); err != nil {
-			log.Fatalf("write output CSV: %v", err)
-		}
 		fmt.Printf("Wrote result preview CSV: %s\n", cfg.outputCSV)
 	}
-
 	if cfg.dryRun {
-		fmt.Printf("Dry run complete: %d result rows produced, none written to DB\n", len(results))
+		fmt.Printf("Dry run complete: %d keys completed in this run, %d result rows produced, none written to DB\n", completedThisRun, totalResults)
 		return
 	}
-
-	if err := ocrApp.Deps.FeatureResultSvc.CreateResults(results, false); err != nil {
-		log.Fatalf("store results: %v", err)
-	}
-	fmt.Printf("Stored %d result rows for feature %s revision %s\n", len(results), cfg.featureID, cfg.revisionID)
+	fmt.Printf("Stored %d result rows for feature %s revision %s\n", totalResults, cfg.featureID, cfg.revisionID)
 }
 
 func parseFlags() cliConfig {
@@ -115,7 +152,9 @@ func parseFlags() cliConfig {
 	fs.StringVar(&cfg.featureID, "feature", defaultFeatureID, "edition feature id to run")
 	fs.StringVar(&cfg.revisionID, "revision", defaultRevisionID, "feature revision id to run")
 	fs.StringVar(&cfg.outputCSV, "output-csv", "", "optional CSV preview path for produced results")
+	fs.StringVar(&cfg.checkpointFile, "checkpoint-file", "", "path to resume checkpoint file; defaults to output CSV path plus .done")
 	fs.BoolVar(&cfg.dryRun, "dry-run", false, "run the LLM and print/export results without storing them")
+	fs.BoolVar(&cfg.resume, "resume", true, "skip keys already recorded in the checkpoint file")
 	fs.BoolVar(&cfg.skipExisting, "skip-existing-revision", false, "skip keys whose current stored result already uses the selected revision")
 	fs.BoolVar(&cfg.skipExisting, "skip-existing-v7", false, "deprecated alias for -skip-existing-revision")
 	fs.Parse(os.Args[1:])
@@ -173,7 +212,91 @@ func validateEditionKeys(ocrApp *app.OCRFlowApp, keys []string) error {
 	return nil
 }
 
-func writeResultsCSV(path string, results []*feature.Result) error {
+func checkpointPath(cfg cliConfig) string {
+	if strings.TrimSpace(cfg.checkpointFile) != "" {
+		return cfg.checkpointFile
+	}
+	if strings.TrimSpace(cfg.outputCSV) != "" {
+		return cfg.outputCSV + ".done"
+	}
+	return ""
+}
+
+func loadCompletedKeys(cfg cliConfig) (map[string]struct{}, error) {
+	completed := make(map[string]struct{})
+	if !cfg.resume {
+		path := checkpointPath(cfg)
+		if path != "" {
+			if err := os.Remove(path); err != nil && !errors.Is(err, os.ErrNotExist) {
+				return nil, err
+			}
+		}
+		return completed, nil
+	}
+
+	path := checkpointPath(cfg)
+	if path == "" {
+		return completed, nil
+	}
+	file, err := os.Open(path)
+	if errors.Is(err, os.ErrNotExist) {
+		return completed, nil
+	}
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	r := csv.NewReader(file)
+	rows, err := r.ReadAll()
+	if err != nil {
+		return nil, err
+	}
+	for _, row := range rows {
+		if len(row) == 0 || row[0] == "" || row[0] == "edition_id" {
+			continue
+		}
+		completed[row[0]] = struct{}{}
+	}
+	if len(completed) > 0 {
+		fmt.Printf("Resuming from checkpoint %s with %d completed keys\n", path, len(completed))
+	}
+	return completed, nil
+}
+
+func markCompletedKey(cfg cliConfig, key string) error {
+	path := checkpointPath(cfg)
+	if path == "" {
+		return nil
+	}
+	file, err := os.OpenFile(path, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	needsHeader, err := fileNeedsHeader(file)
+	if err != nil {
+		return err
+	}
+
+	w := csv.NewWriter(file)
+	if needsHeader {
+		if err := w.Write([]string{"edition_id"}); err != nil {
+			return err
+		}
+	}
+	if err := w.Write([]string{key}); err != nil {
+		return err
+	}
+	w.Flush()
+	if err := w.Error(); err != nil {
+		return err
+	}
+	return file.Sync()
+}
+
+func resetCSV(path string) error {
 	file, err := os.Create(path)
 	if err != nil {
 		return err
@@ -181,10 +304,30 @@ func writeResultsCSV(path string, results []*feature.Result) error {
 	defer file.Close()
 
 	w := csv.NewWriter(file)
-	defer w.Flush()
-
 	if err := w.Write([]string{"edition_id", "feature_id", "source_id", "source_revision", "source_name", "value"}); err != nil {
 		return err
+	}
+	w.Flush()
+	return w.Error()
+}
+
+func appendResultsCSV(path string, results []*feature.Result) error {
+	file, err := os.OpenFile(path, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	needsHeader, err := fileNeedsHeader(file)
+	if err != nil {
+		return err
+	}
+
+	w := csv.NewWriter(file)
+	if needsHeader {
+		if err := w.Write([]string{"edition_id", "feature_id", "source_id", "source_revision", "source_name", "value"}); err != nil {
+			return err
+		}
 	}
 	for _, result := range results {
 		if result == nil {
@@ -202,5 +345,17 @@ func writeResultsCSV(path string, results []*feature.Result) error {
 			}
 		}
 	}
-	return w.Error()
+	w.Flush()
+	if err := w.Error(); err != nil {
+		return err
+	}
+	return file.Sync()
+}
+
+func fileNeedsHeader(file *os.File) (bool, error) {
+	info, err := file.Stat()
+	if err != nil {
+		return false, err
+	}
+	return info.Size() == 0, nil
 }

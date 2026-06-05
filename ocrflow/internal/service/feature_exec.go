@@ -395,11 +395,17 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 				continue
 			}
 			if checkHallucinations && len(textmatch.FindLoosePhraseMatches(sourceText, v)) == 0 {
-				log.Printf("!!! llm hallucination omitted: feature=%s revision=%s key=%s context=%s value=%q", fes[i].ID, frs[i].ID, key, contextDesc, v)
-				if !slices.Contains(hallucinatedFeatureIDs, fes[i].ID) {
-					hallucinatedFeatureIDs = append(hallucinatedFeatureIDs, fes[i].ID)
+				if span, ok := textmatch.FindFuzzyPhraseMatch(sourceText, v, 2); ok {
+					sourceValue := strings.TrimSpace(sourceText[span[0]:span[1]])
+					log.Printf("warning: llm fuzzy-grounded near hallucination: feature=%s revision=%s key=%s context=%s value=%q source_value=%q", fes[i].ID, frs[i].ID, key, contextDesc, v, sourceValue)
+					v = sourceValue
+				} else {
+					log.Printf("!!! llm hallucination omitted: feature=%s revision=%s key=%s context=%s value=%q", fes[i].ID, frs[i].ID, key, contextDesc, v)
+					if !slices.Contains(hallucinatedFeatureIDs, fes[i].ID) {
+						hallucinatedFeatureIDs = append(hallucinatedFeatureIDs, fes[i].ID)
+					}
+					continue
 				}
-				continue
 			}
 			resultValues = append(resultValues, feature.ResultValue{
 				Surface: v,
