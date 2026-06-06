@@ -87,7 +87,12 @@ export const FilterAppliedProvider = ({
       range: [minYear || 0, maxYear || 9999] as [number, number],
       includeUndated: true,
       textSearch: "",
-      textSearchFields: ["shortTitle", "title", "titleEn"] as (keyof Item)[],
+      textSearchFields: [
+        "key",
+        "shortTitle",
+        "title",
+        "titleEn",
+      ] as (keyof Item)[],
     };
   }, [minYear, maxYear]);
   const [queryFilters, setQueryFilters] = useQueryStates(filterQueryParsers, {
