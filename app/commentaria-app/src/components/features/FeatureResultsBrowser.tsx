@@ -15,6 +15,10 @@ import { useFeatureResultsQuery } from '../../queries/featureResults'
 import { SearchInput } from '../core/SearchInput'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { Button } from '../core/Button'
+import {
+  EditionFilterSelect,
+  type EditionFilterOption,
+} from '../featureResults/EditionFilterSelect'
 import { selectStyles } from '../../styles/selectStyles'
 import { formatEditionLabel } from '../../utils/editions'
 
@@ -24,11 +28,6 @@ type FeatureOption = {
   value: string
   label: string
   color: string
-}
-
-type EditionOption = {
-  value: string
-  label: string
 }
 
 type EntityOption = {
@@ -96,7 +95,7 @@ export function FeatureResultsBrowser() {
   const [selectedFeatureOption, setSelectedFeatureOption] =
     useState<FeatureOption | null>(null)
   const [selectedEditionOption, setSelectedEditionOption] =
-    useState<EditionOption | null>(null)
+    useState<EditionFilterOption | null>(null)
   const [sortKey, setSortKey] = useState<SortKey>('editionDetails')
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
   const tableContainerRef = useRef<HTMLDivElement | null>(null)
@@ -303,7 +302,7 @@ export function FeatureResultsBrowser() {
 
   const editionOptions = useMemo(() => {
     const seen = new Set<string>()
-    const options: EditionOption[] = []
+    const options: EditionFilterOption[] = []
 
     for (const row of rows) {
       const pageKey = normalizeText(row.result.key)
@@ -581,18 +580,11 @@ export function FeatureResultsBrowser() {
             isClearable
             isDisabled={featureOptions.length === 0}
           />
-          {editionOptions.length > 0 && (
-            <Select
-              value={selectedEditionOption}
-              onChange={(option) => setSelectedEditionOption(option)}
-              options={editionOptions}
-              placeholder="Filter by edition..."
-              styles={selectStyles<EditionOption>({ controlWidth: 320 })}
-              menuPortalTarget={document.body}
-              menuPosition="fixed"
-              isClearable
-            />
-          )}
+          <EditionFilterSelect
+            value={selectedEditionOption}
+            onChange={setSelectedEditionOption}
+            options={editionOptions}
+          />
           <div className="text-xs text-gray-500 shrink-0">
             {searchQuery.trim() ||
             selectedFeatureOption ||

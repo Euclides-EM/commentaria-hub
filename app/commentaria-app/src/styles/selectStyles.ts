@@ -3,7 +3,15 @@ import type { StylesConfig } from 'react-select'
 type SelectStylesConfig = {
   controlWidth: number | string
   isMulti: boolean
+  menuMaxWidth: number | string
+  menuWidth: number | string
+  wrapOptions: boolean
 }
+
+type WrappedOptionSelectStylesConfig = Omit<
+  Partial<SelectStylesConfig>,
+  'wrapOptions'
+>
 
 export const selectStyles = <
   OptionType extends { value: unknown; label: string },
@@ -27,6 +35,7 @@ export const selectStyles = <
   }),
   valueContainer: (base) => ({
     ...base,
+    minWidth: 0,
     padding: '2px 8px',
     ...(config.isMulti ? {} : { height: '30px' }),
   }),
@@ -35,6 +44,10 @@ export const selectStyles = <
     color: '#374151',
     lineHeight: '1.5',
     margin: 0,
+    maxWidth: '100%',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
   }),
   input: (base) => ({
     ...base,
@@ -68,7 +81,10 @@ export const selectStyles = <
   menu: (base) => ({
     ...base,
     minWidth: config.controlWidth || '200px',
-    width: 'max-content',
+    width:
+      config.menuWidth ||
+      (config.wrapOptions ? config.controlWidth || '200px' : 'max-content'),
+    maxWidth: config.menuMaxWidth,
     fontSize: '14px',
     border: '1px solid #d1d5db',
     boxShadow:
@@ -88,6 +104,13 @@ export const selectStyles = <
         ? '#f3f4f6'
         : 'white',
     color: state.isSelected ? 'white' : '#374151',
+    ...(config.wrapOptions
+      ? {
+          overflowWrap: 'anywhere',
+          whiteSpace: 'normal',
+          wordBreak: 'break-word',
+        }
+      : {}),
     '&:hover': {
       backgroundColor: state.isSelected ? '#14b8a6' : '#f3f4f6',
     },
@@ -97,6 +120,9 @@ export const selectStyles = <
     color: '#9ca3af',
     lineHeight: '1.5',
     margin: 0,
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
   }),
   multiValue: (base) => ({
     ...base,
@@ -117,3 +143,19 @@ export const selectStyles = <
     },
   }),
 })
+
+export const wrappedOptionSelectStyles = <
+  OptionType extends { value: unknown; label: string },
+  IsMulti extends boolean = false,
+>(
+  config: WrappedOptionSelectStylesConfig = {},
+): StylesConfig<OptionType, IsMulti> => {
+  const menuWidth = config.menuWidth ?? config.controlWidth
+
+  return selectStyles<OptionType, IsMulti>({
+    ...config,
+    menuMaxWidth: config.menuMaxWidth ?? 'calc(100vw - 2rem)',
+    ...(menuWidth === undefined ? {} : { menuWidth }),
+    wrapOptions: true,
+  })
+}
