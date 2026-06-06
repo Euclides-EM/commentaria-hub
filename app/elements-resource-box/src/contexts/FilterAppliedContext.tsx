@@ -1,25 +1,24 @@
 import React, {
   createContext,
   ReactNode,
+  useCallback,
   useContext,
   useMemo,
   useRef,
   useState,
-  useCallback,
 } from "react";
 import { Item, MAX_YEAR, MIN_YEAR, MIN_YEAR_MS } from "../types";
 import { FilterValue } from "../components/map/Filter";
 import { mapEditionsToItems } from "../utils/dataUtils";
 import {
-  FilterState,
   filterQueryParsers,
+  FilterState,
   getFilterStateSignature,
   mergeFilterQueryWithDefaults,
 } from "../utils/filterQueryState";
 import { useQueryStates } from "nuqs";
 import { useQuery } from "@tanstack/react-query";
 import { listAllEditions } from "../api/editionApi";
-import { injectEuclidesEditionConstraints } from "../utils/editionSearchQuery";
 import { inEuclidesMode } from "../utils/mode";
 
 export type { FilterState } from "../utils/filterQueryState";

@@ -7,8 +7,6 @@ import {
   createColumnHelper,
   ExpandedState,
   flexRender,
-  getCoreRowModel,
-  getExpandedRowModel,
   SortingState,
   useReactTable,
 } from "@tanstack/react-table";
@@ -28,7 +26,12 @@ import {
 import { ItemModal } from "../components/tps/modal/ItemModal";
 import { ItemTypes, NO_CITY } from "../constants";
 import { joinArr } from "../utils/util.ts";
-import { FaChevronDown, FaChevronRight, FaCheck } from "react-icons/fa";
+import {
+  FaCheck,
+  FaChevronDown,
+  FaChevronRight,
+  FaFilePdf,
+} from "react-icons/fa";
 import { AiFillEdit, AiOutlineCopy } from "react-icons/ai";
 import { SEA_COLOR } from "../utils/colors.ts";
 import { AuthContext } from "../contexts/Auth.ts";

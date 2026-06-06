@@ -6,20 +6,19 @@ import { Row } from "../../common";
 import { ModalTextColumn } from "./ModalComponents";
 import { personDisplayName } from "../../../utils/dataUtils";
 import { joinArr } from "../../../utils/util";
-import { withAppBasePath } from "../../../utils/basePath";
 import { NO_EDITOR } from "../../../constants";
 import { LAND_COLOR } from "../../../utils/colors.ts";
 import pluralize from "pluralize";
 import { AuthContext } from "../../../contexts/Auth.ts";
 import { useQuery } from "@tanstack/react-query";
 import { getCommentariaHubPreferredTranscriptionUrl } from "../../../utils/commentariaHub.ts";
-import { FacsimileLinks } from "../../FacsimileLinks.tsx";
 import {
-  formatDisplayEditors,
   formatDisplayBooks,
+  formatDisplayEditors,
   formatDisplayYear,
   isManuscriptItem,
 } from "../../../utils/itemDisplay.ts";
+import {ItemLinksRow} from "../../ItemLinksRow.tsx";
 
 const InfoTitle = styled.div`
   font-size: 0.8rem;

@@ -1,5 +1,6 @@
 import { FilterGroup, Range } from "../types";
 import { NO_CITY } from "./index.ts";
+import { inEuclidesMode } from "../utils/mode.ts";
 
 export type ItemProperty = {
   displayName: string;

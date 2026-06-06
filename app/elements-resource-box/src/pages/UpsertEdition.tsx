@@ -2380,37 +2380,76 @@ export const UpsertEdition = () => {
                           </form.Field>
                         </FormField>
                         {!isManuscript && (
-                        <FormField>
-                          <form.Field name={`shelfmarks[${i}].title_page_img`}>
-                            {(f) => {
-                              const previewUrl = !images[f.state.value || ""]
-                                ? resolvePreviewImageUrl(f.state.value)
-                                : null;
-                              return (
-                                <>
-                                  <Label>
-                                    Title Page Image{" "}
-                                    {f.state.value && (
-                                      <>
+                          <FormField>
+                            <form.Field
+                              name={`shelfmarks[${i}].title_page_img`}
+                            >
+                              {(f) => {
+                                const previewUrl = !images[f.state.value || ""]
+                                  ? resolvePreviewImageUrl(f.state.value)
+                                  : null;
+                                return (
+                                  <>
+                                    <Label>
+                                      Title Page Image{" "}
+                                      {f.state.value && (
+                                        <>
+                                          <SelectedImage>
+                                            Image is set
+                                          </SelectedImage>
+                                          {previewUrl && (
+                                            <ExistingImagePreview
+                                              href={previewUrl}
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              title="Open image in new tab"
+                                            >
+                                              <ExistingImageThumbnail
+                                                src={previewUrl}
+                                                alt="Title page preview"
+                                              />
+                                            </ExistingImagePreview>
+                                          )}
+                                        </>
+                                      )}
+                                    </Label>
+                                    <FileInput
+                                      type="file"
+                                      accept="image/*"
+                                      onChange={(e) => {
+                                        if (!e.target.files?.[0]) {
+                                          f.handleChange(null);
+                                        } else {
+                                          const id = uniqueId();
+                                          setImages((m) => ({
+                                            ...m,
+                                            [id]: e.target.files![0],
+                                          }));
+                                          f.handleChange(id);
+                                        }
+                                      }}
+                                    />
+                                    {f.state.value && images[f.state.value] && (
+                                      <div>
                                         <SelectedImage>
-                                          Image is set
+                                          Selected: {images[f.state.value].name}
                                         </SelectedImage>
-                                        {previewUrl && (
-                                          <ExistingImagePreview
-                                            href={previewUrl}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            title="Open image in new tab"
-                                          >
-                                            <ExistingImageThumbnail
-                                              src={previewUrl}
-                                              alt="Title page preview"
-                                            />
-                                          </ExistingImagePreview>
-                                        )}
-                                      </>
+                                      </div>
                                     )}
-                                  </Label>
+                                  </>
+                                );
+                              }}
+                            </form.Field>
+                          </FormField>
+                        )}
+                        {!isManuscript && (
+                          <FormField>
+                            <Label>Frontispiece Image</Label>
+                            <form.Field
+                              name={`shelfmarks[${i}].frontispiece_img`}
+                            >
+                              {(f) => (
+                                <>
                                   <FileInput
                                     type="file"
                                     accept="image/*"
@@ -2427,55 +2466,18 @@ export const UpsertEdition = () => {
                                       }
                                     }}
                                   />
-                                  {f.state.value && images[f.state.value] && (
-                                    <div>
-                                      <SelectedImage>
-                                        Selected: {images[f.state.value].name}
-                                      </SelectedImage>
-                                    </div>
+                                  {f.state.value && (
+                                    <SelectedImage>
+                                      {images[f.state.value]
+                                        ? `Selected: ${images[f.state.value].name}`
+                                        : "Image is set"}
+                                    </SelectedImage>
                                   )}
                                 </>
-                              );
-                            }}
-                          </form.Field>
-                        </FormField>
-                            )}
-                        {!isManuscript && (
-                        <FormField>
-                          <Label>Frontispiece Image</Label>
-                          <form.Field
-                            name={`shelfmarks[${i}].frontispiece_img`}
-                          >
-                            {(f) => (
-                              <>
-                                <FileInput
-                                  type="file"
-                                  accept="image/*"
-                                  onChange={(e) => {
-                                    if (!e.target.files?.[0]) {
-                                      f.handleChange(null);
-                                    } else {
-                                      const id = uniqueId();
-                                      setImages((m) => ({
-                                        ...m,
-                                        [id]: e.target.files![0],
-                                      }));
-                                      f.handleChange(id);
-                                    }
-                                  }}
-                                />
-                                {f.state.value && (
-                                  <SelectedImage>
-                                    {images[f.state.value]
-                                      ? `Selected: ${images[f.state.value].name}`
-                                      : "Image is set"}
-                                  </SelectedImage>
-                                )}
-                              </>
-                            )}
-                          </form.Field>
-                        </FormField>
-                            )}
+                              )}
+                            </form.Field>
+                          </FormField>
+                        )}
 
                         <FormField>
                           <Label>Annotations</Label>
