@@ -8,7 +8,6 @@ import {
   Row,
   ScrollToTopButton,
 } from "../components/common";
-import { useAppliedFilter } from "../contexts/FilterAppliedContext";
 import { Item } from "../types";
 import { ItemInfo } from "../components/tps/modal/ItemInfo";
 import { NO_CITY, NO_EDITOR, NO_YEAR } from "../constants";
@@ -17,9 +16,11 @@ import { fetchDiagrams, VolumeData } from "../api/diagramsApi.ts";
 import { LAND_COLOR, SEA_COLOR } from "../utils/colors.ts";
 import { useQuery } from "@tanstack/react-query";
 import { isNil } from "lodash";
-import { FacsimilesService } from "@hub-api";
+import { FacsimilesService, model_Edition } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
+import { getEdition } from "../api/editionApi.ts";
+import { mapEditionsToItems } from "../utils/dataUtils.ts";
 
 const DiagramsContainer = styled.div`
   max-width: 80vw;
@@ -270,7 +271,6 @@ export const Diagrams = () => {
   const { token } = useContext(AuthContext);
   const [searchParams] = useSearchParams();
   const editionKey = searchParams.get("key");
-  const { data } = useAppliedFilter();
   const [collapsedVolumes, setCollapsedVolumes] = useState<Set<string>>(
     new Set(),
   );
@@ -285,9 +285,19 @@ export const Diagrams = () => {
   const [pageRangeFrom, setPageRangeFrom] = useState<string>("");
   const [pageRangeTo, setPageRangeTo] = useState<string>("");
 
+  const editionQuery = useQuery({
+    queryKey: ["edition", editionKey],
+    queryFn: () => getEdition(editionKey!),
+    enabled: Boolean(editionKey),
+    retry: false,
+  });
+
   const item = useMemo<Item | null>(
-    () => data.find((row) => row.key === editionKey) || null,
-    [data, editionKey],
+    () =>
+      editionQuery.data
+        ? (mapEditionsToItems([editionQuery.data as model_Edition])[0] ?? null)
+        : null,
+    [editionQuery.data],
   );
 
   const diagramsQuery = useQuery({
@@ -334,9 +344,9 @@ export const Diagrams = () => {
       ),
     [facsimilesQuery.data],
   );
-  const loading = diagramsQuery.isLoading;
+  const loading = diagramsQuery.isLoading || editionQuery.isLoading;
   const error =
-    (editionKey && data.length > 0 && !item ? "Edition not found" : null) ||
+    (editionQuery.isError ? "Edition not found" : null) ||
     diagramsData?.error ||
     null;
 
