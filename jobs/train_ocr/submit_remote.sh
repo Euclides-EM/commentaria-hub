@@ -103,15 +103,18 @@ log "Using base model: ${LOCAL_BASE_MODEL}"
 log "==> Preparing remote directories..."
 ssh_remote "${REMOTE_HOST}" bash <<EOF
 set -euo pipefail
+if command -v module >/dev/null 2>&1; then
+  module purge || true
+fi
+unset PYTHONHOME PYTHONPATH LD_LIBRARY_PATH
 
 PROJECT_ROOT=${REMOTE_ROOT}
 
 mkdir -p "\${PROJECT_ROOT}" \
-         "\${PROJECT_ROOT}/assets/models" \
-         "\${PROJECT_ROOT}/assets/zips" \
-         "\${PROJECT_ROOT}/runs" \
-         "\${PROJECT_ROOT}/logs" \
-         "\${PROJECT_ROOT}/artifacts"
+	         "\${PROJECT_ROOT}/assets/models" \
+	         "\${PROJECT_ROOT}/assets/zips" \
+	         "\${PROJECT_ROOT}/runs" \
+	         "\${PROJECT_ROOT}/logs"
 EOF
 
 log "==> Syncing job files..."
@@ -122,6 +125,10 @@ scp_remote "${LOCAL_JOB_SBATCH}" "${REMOTE_HOST}:${REMOTE_ROOT}/job.sbatch"
 log "==> Ensuring remote Python environment..."
 ssh_remote "${REMOTE_HOST}" bash <<EOF
 set -euo pipefail
+if command -v module >/dev/null 2>&1; then
+  module purge || true
+fi
+unset PYTHONHOME PYTHONPATH LD_LIBRARY_PATH
 
 PROJECT_ROOT=${REMOTE_ROOT}
 
@@ -131,8 +138,8 @@ if [[ ! -d "\${PROJECT_ROOT}/.venv" ]]; then
 fi
 
 source "\${PROJECT_ROOT}/.venv/bin/activate"
-pip install -U pip wheel
-pip install -r "\${PROJECT_ROOT}/requirements.txt"
+python -m pip install -U pip wheel
+python -m pip install -r "\${PROJECT_ROOT}/requirements.txt"
 deactivate
 EOF
 
@@ -171,10 +178,9 @@ tmp_manifest="$(mktemp)"
   echo "export RUN_NAME=\"${RUN_NAME}\""
   echo "export RUN_DIR=\"${REMOTE_RUN_DIR}\""
   echo "export BASE_MODEL_PATH=\"${REMOTE_MODEL_PATH}\""
-  echo "export MODEL_PREFIX=\"kraken_model_${RUN_ID}\""
-  echo "export WORK_DIR=\"${REMOTE_RUN_DIR}/work_kraken_${RUN_ID}\""
+  echo "export MODEL_PREFIX=\"kraken_model\""
+  echo "export WORK_DIR=\"${REMOTE_RUN_DIR}/workspace\""
   echo "export OUTPUT_DIR=\"${REMOTE_RUN_DIR}/trained_models\""
-  echo "export ARTIFACTS_DIR=\"${REMOTE_RUN_DIR}/artifacts\""
   echo "export LOGS_DIR=\"${REMOTE_RUN_DIR}/logs\""
   echo "export ZIP_PATHS=("
   for rz in "${REMOTE_ZIP_PATHS[@]}"; do

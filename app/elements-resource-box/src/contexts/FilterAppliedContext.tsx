@@ -95,7 +95,7 @@ export const FilterAppliedProvider = ({
 }) => {
   const editionsQuery = useQuery({
     queryKey: ["editions", "all", "filter-applied"],
-    queryFn: () => listAllEditions(injectEuclidesEditionConstraints()),
+    queryFn: () => listAllEditions(),
   });
   const data = useMemo<Item[]>(
     () => mapEditionsToItems(editionsQuery.data || []),
@@ -126,7 +126,12 @@ export const FilterAppliedProvider = ({
       range: [MIN_YEAR, MAX_YEAR] as [number, number],
       includeUndated: true,
       textSearch: "",
-      textSearchFields: ["shortTitle", "title", "titleEn"] as (keyof Item)[],
+      textSearchFields: [
+        "key",
+        "shortTitle",
+        "title",
+        "titleEn",
+      ] as (keyof Item)[],
     };
   }, []);
   const [queryFilters, setQueryFilters] = useQueryStates(filterQueryParsers, {

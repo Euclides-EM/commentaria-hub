@@ -22,7 +22,10 @@ export {
   getTeiTranslations,
   hasTeiCertaintyDegrees,
 } from './teiExtractors.ts'
-export { getTeiSurfaceZones } from './teiSurfaceZones.ts'
+export {
+  getTeiAllZoneCategories,
+  getTeiSurfaceZones,
+} from './teiSurfaceZones.ts'
 
 import { parseXml } from './teiDom.ts'
 import { renderTeiHtml } from './teiRendering.ts'

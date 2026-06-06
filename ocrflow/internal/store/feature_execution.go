@@ -21,11 +21,7 @@ func NewFeatureExecutionStore(c *cache.Cache) *FeatureExecutionStore {
 	return &FeatureExecutionStore{cache: c}
 }
 
-func (s *FeatureExecutionStore) List(datasetID string, featureIDs []string, statuses []feature.ExecutionStatus) ([]*feature.Execution, error) {
-	if datasetID == "" {
-		return nil, errors.New("list executions: missing dataset_id")
-	}
-
+func (s *FeatureExecutionStore) List(scope feature.DefScope, featureIDs []string, statuses []feature.ExecutionStatus) ([]*feature.Execution, error) {
 	featureSet := map[string]struct{}{}
 	for _, fid := range featureIDs {
 		featureSet[fid] = struct{}{}
@@ -52,7 +48,10 @@ func (s *FeatureExecutionStore) List(datasetID string, featureIDs []string, stat
 			continue
 		}
 
-		if exec.DatasetID != datasetID {
+		if scope.Type != "" && exec.Scope.Type != scope.Type {
+			continue
+		}
+		if scope.DatasetID != "" && exec.Scope.DatasetID != scope.DatasetID {
 			continue
 		}
 
@@ -103,9 +102,6 @@ func (s *FeatureExecutionStore) Create(exec *feature.Execution) error {
 	}
 	if exec.ID == "" {
 		return errors.New("create execution: missing id")
-	}
-	if exec.DatasetID == "" {
-		return errors.New("create execution: missing dataset_id")
 	}
 	if len(exec.Apply) == 0 {
 		return errors.New("create execution: apply is empty")

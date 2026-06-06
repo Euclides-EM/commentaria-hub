@@ -20,20 +20,20 @@ func NewFeatureRevisionSQL(db *sql.DB) *FeatureRevisionSQL {
 	return &FeatureRevisionSQL{db: db}
 }
 
-func (s *FeatureRevisionSQL) ListByFeatureID(datasetID, featureID string) ([]*feature.Revision, error) {
-	if datasetID == "" || featureID == "" {
-		return nil, errors.New("list feature revisions: missing dataset_id or feature_id")
+func (s *FeatureRevisionSQL) ListByFeatureID(featureID string) ([]*feature.Revision, error) {
+	if featureID == "" {
+		return nil, errors.New("list feature revisions: missing feature_id")
 	}
 
 	const q = `
 SELECT
   id, name, description, created_at, updated_at,
-  dataset_id, feature_id, prompt, categorizer
+  dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
 FROM feature_revisions
-WHERE dataset_id = ? AND feature_id = ?
-ORDER BY created_at DESC
+WHERE feature_id = ?
+ORDER BY datetime(created_at) DESC, rowid DESC
 `
-	rows, err := s.db.Query(q, datasetID, featureID)
+	rows, err := s.db.Query(q, featureID)
 	if err != nil {
 		return nil, fmt.Errorf("list feature revisions: %w", err)
 	}
@@ -53,53 +53,101 @@ ORDER BY created_at DESC
 	return out, nil
 }
 
-func (s *FeatureRevisionSQL) GetByID(datasetID, featureID, revisionID string) (*feature.Revision, error) {
-	if datasetID == "" || featureID == "" || revisionID == "" {
-		return nil, errors.New("get feature revision: missing dataset_id, feature_id, or revision_id")
+func (s *FeatureRevisionSQL) ListByFeatureIDInScope(scope feature.DefScope, featureID string) ([]*feature.Revision, error) {
+	if featureID == "" {
+		return nil, errors.New("list feature revisions: missing feature_id")
 	}
 
 	const q = `
 SELECT
   id, name, description, created_at, updated_at,
-  dataset_id, feature_id, prompt, categorizer
+  dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
 FROM feature_revisions
-WHERE dataset_id = ? AND feature_id = ? AND id = ?
+WHERE scope = ?
+  AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
+  AND feature_id = ?
+ORDER BY datetime(created_at) DESC, rowid DESC
+`
+	rows, err := s.db.Query(q, scope.Type, scope.DatasetID, featureID)
+	if err != nil {
+		return nil, fmt.Errorf("list feature revisions: %w", err)
+	}
+	defer rows.Close()
+
+	var out []*feature.Revision
+	for rows.Next() {
+		rev, err := scanFeatureRevision(rows.Scan)
+		if err != nil {
+			return nil, fmt.Errorf("list feature revisions scan: %w", err)
+		}
+		out = append(out, rev)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("list feature revisions rows: %w", err)
+	}
+	return out, nil
+}
+
+func (s *FeatureRevisionSQL) GetByID(featureID, revisionID string) (*feature.Revision, error) {
+	if featureID == "" || revisionID == "" {
+		return nil, errors.New("get feature revision: missing feature_id or revision_id")
+	}
+
+	const q = `
+SELECT
+  id, name, description, created_at, updated_at,
+  dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+FROM feature_revisions
+WHERE feature_id = ? AND id = ?
 LIMIT 1
 `
-	row := s.db.QueryRow(q, datasetID, featureID, revisionID)
+	row := s.db.QueryRow(q, featureID, revisionID)
 	rev, err := scanFeatureRevision(row.Scan)
 	if err != nil {
 		if errors.Is(err, sql.ErrNoRows) {
-			return nil, fmt.Errorf("feature revision not found: dataset_id=%s feature_id=%s revision_id=%s: %w", datasetID, featureID, revisionID, err)
+			return nil, fmt.Errorf("feature revision not found: feature_id=%s revision_id=%s: %w", featureID, revisionID, err)
 		}
 		return nil, fmt.Errorf("get feature revision: %w", err)
 	}
 	return rev, nil
 }
 
-func (s *FeatureRevisionSQL) Create(datasetID, featureID string, rev *feature.Revision) error {
-	if rev == nil {
-		return errors.New("create feature revision: nil revision")
+func (s *FeatureRevisionSQL) GetByIDInScope(scope feature.DefScope, featureID, revisionID string) (*feature.Revision, error) {
+	if featureID == "" || revisionID == "" {
+		return nil, errors.New("get feature revision: missing feature_id or revision_id")
 	}
-	if datasetID == "" || featureID == "" {
-		return errors.New("create feature revision: missing dataset_id or feature_id")
-	}
-	if rev.ID == "" {
-		return errors.New("create feature revision: missing id")
-	}
-
-	// Ensure DB truth for these
-	rev.DatasetID = datasetID
-	rev.FeatureID = featureID
 
 	const q = `
+SELECT
+  id, name, description, created_at, updated_at,
+  dataset_id, scope, feature_id, prompt, categorizer, ai_provider, ai_model
+FROM feature_revisions
+WHERE scope = ?
+  AND ((scope = 'editions' AND dataset_id IS NULL) OR dataset_id = ?)
+  AND feature_id = ?
+  AND id = ?
+LIMIT 1
+`
+	row := s.db.QueryRow(q, scope.Type, scope.DatasetID, featureID, revisionID)
+	rev, err := scanFeatureRevision(row.Scan)
+	if err != nil {
+		if errors.Is(err, sql.ErrNoRows) {
+			return nil, fmt.Errorf("feature revision not found: scope=%v feature_id=%s revision_id=%s: %w", scope, featureID, revisionID, err)
+		}
+		return nil, fmt.Errorf("get feature revision: %w", err)
+	}
+	return rev, nil
+}
+
+func (s *FeatureRevisionSQL) Create(rev *feature.Revision) error {
+	const q = `
 INSERT INTO feature_revisions (
-  id, name, description, dataset_id, feature_id,
-  prompt, categorizer,
+  id, name, description, dataset_id, scope, feature_id,
+  prompt, categorizer, ai_provider, ai_model,
   created_at, updated_at
 ) VALUES (
-  ?, ?, ?, ?, ?,
-  ?, ?,
+  ?, ?, ?, ?, ?, ?,
+  ?, ?, ?, ?,
   CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
 )
 `
@@ -108,97 +156,23 @@ INSERT INTO feature_revisions (
 		rev.ID,
 		rev.Name,
 		rev.Description,
-		rev.DatasetID,
+		rev.Scope.DatasetID,
+		rev.Scope.Type,
 		rev.FeatureID,
 		rev.Prompt,
 		rev.Categorizer,
+		rev.AIProvider,
+		rev.AIModel,
 	)
 	if err != nil {
 		return fmt.Errorf("create feature revision: %w", err)
 	}
 
 	// Refresh timestamps
-	created, err := s.GetByID(datasetID, featureID, rev.ID)
+	created, err := s.GetByIDInScope(rev.Scope, rev.FeatureID, rev.ID)
 	if err == nil && created != nil {
 		rev.CreatedAt = created.CreatedAt
 		rev.UpdatedAt = created.UpdatedAt
-	}
-	return nil
-}
-
-func (s *FeatureRevisionSQL) Update(datasetID, featureID, revisionID string, rev *feature.Revision) error {
-	if rev == nil {
-		return errors.New("update feature revision: nil revision")
-	}
-	if datasetID == "" || featureID == "" || revisionID == "" {
-		return errors.New("update feature revision: missing dataset_id, feature_id, or revision_id")
-	}
-
-	const q = `
-UPDATE feature_revisions
-SET
-  name = ?,
-  description = ?,
-  prompt = ?,
-  categorizer = ?,
-  updated_at = CURRENT_TIMESTAMP
-WHERE dataset_id = ? AND feature_id = ? AND id = ?
-`
-	res, err := s.db.Exec(
-		q,
-		rev.Name,
-		rev.Description,
-		rev.Prompt,
-		rev.Categorizer,
-		datasetID,
-		featureID,
-		revisionID,
-	)
-	if err != nil {
-		return fmt.Errorf("update feature revision: %w", err)
-	}
-
-	n, err := res.RowsAffected()
-	if err != nil {
-		return fmt.Errorf("update feature revision: rows affected: %w", err)
-	}
-	if n == 0 {
-		return fmt.Errorf("feature revision not found: dataset_id=%s feature_id=%s revision_id=%s", datasetID, featureID, revisionID)
-	}
-
-	// Keep caller pointer consistent
-	rev.ID = revisionID
-	rev.DatasetID = datasetID
-	rev.FeatureID = featureID
-
-	updated, err := s.GetByID(datasetID, featureID, revisionID)
-	if err == nil && updated != nil {
-		rev.CreatedAt = updated.CreatedAt
-		rev.UpdatedAt = updated.UpdatedAt
-	}
-	return nil
-}
-
-func (s *FeatureRevisionSQL) Delete(datasetID, featureID, revisionID string) error {
-	if datasetID == "" || featureID == "" || revisionID == "" {
-		return errors.New("delete feature revision: missing dataset_id, feature_id, or revision_id")
-	}
-
-	const q = `
-DELETE FROM feature_revisions
-WHERE dataset_id = ? AND feature_id = ? AND id = ?
-`
-	res, err := s.db.Exec(q, datasetID, featureID, revisionID)
-	if err != nil {
-		return fmt.Errorf("delete feature revision: %w", err)
-	}
-
-	n, err := res.RowsAffected()
-	if err != nil {
-		return fmt.Errorf("delete feature revision: rows affected: %w", err)
-	}
-	if n == 0 {
-		return fmt.Errorf("feature revision not found: dataset_id=%s feature_id=%s revision_id=%s", datasetID, featureID, revisionID)
 	}
 	return nil
 }
@@ -210,10 +184,13 @@ func scanFeatureRevision(scanner func(...any) error) (*feature.Revision, error) 
 		desc        string
 		createdAt   time.Time
 		updatedAt   time.Time
-		datasetID   string
+		datasetID   sql.NullString
+		scopeType   feature.ScopeType
 		featureID   string
 		prompt      string
 		categorizer string
+		aiProvider  feature.AIProvider
+		aiModel     string
 	)
 
 	if err := scanner(
@@ -223,13 +200,25 @@ func scanFeatureRevision(scanner func(...any) error) (*feature.Revision, error) 
 		&createdAt,
 		&updatedAt,
 		&datasetID,
+		&scopeType,
 		&featureID,
 		&prompt,
 		&categorizer,
+		&aiProvider,
+		&aiModel,
 	); err != nil {
 		return nil, err
 	}
 
+	var scp feature.DefScope
+	switch scopeType {
+	case feature.ScopeTypeEditions:
+		scp = feature.NewEditionDefScope()
+	case feature.ScopeTypeDataset:
+		scp = feature.NewDatasetDefScope(datasetID.String)
+	default:
+		return nil, fmt.Errorf("invalid scope type: %s", scopeType)
+	}
 	return &feature.Revision{
 		Meta: common.Meta{
 			ID:          id,
@@ -238,9 +227,11 @@ func scanFeatureRevision(scanner func(...any) error) (*feature.Revision, error) 
 			CreatedAt:   createdAt,
 			UpdatedAt:   updatedAt,
 		},
-		DatasetID:   datasetID,
+		Scope:       scp,
 		FeatureID:   featureID,
 		Prompt:      prompt,
 		Categorizer: categorizer,
+		AIProvider:  aiProvider,
+		AIModel:     aiModel,
 	}, nil
 }

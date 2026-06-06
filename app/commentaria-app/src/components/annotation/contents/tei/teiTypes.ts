@@ -49,6 +49,7 @@ export type TeiSurfaceZone = {
   matchIds: string[]
   hoverMatchIds: string[]
   zoneType: 'line' | 'block'
+  zoneCategory: string
   ulx: number
   uly: number
   lrx: number

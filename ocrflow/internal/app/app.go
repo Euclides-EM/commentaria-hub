@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/api"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
@@ -18,13 +19,14 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/ghwrapper"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/gpufarm"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
 
 type OCRFlowApp struct {
 	Env    *config.EnvConfig
 	DB     *sql.DB
+	Deps   *api.Dependencies
 	Router http.Handler
 }
 
@@ -60,7 +62,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	log.Printf("finished app for backup/restore if needed")
 
-	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.TrainingDir(), env.ModelsDir(), env.DiagramsDir())
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir())
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
 	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow", env.OptionalMigrations())
 	if err != nil {
@@ -73,7 +75,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	})
 	editionPreferredTranscriptionStore := store.NewEditionPreferredAnnotationSql(sqlDB)
 	editionStore := store.NewEditionCSV(env.ItemsMetadataStoreDir(), editionPreferredTranscriptionStore.OnDeleteEdition)
-	facsimileStore := store.NewFacsimileSql(sqlDB)
+	facsimileStore := store.NewFacsimileSql(sqlDB, env.ItemsMetadataStoreDir())
 	datasetStore := store.NewDatasetSQL(sqlDB, fileSystemManager)
 	annotationStore := store.NewAnnotationSQL(sqlDB)
 	annotationGroupStore := store.NewAnnotationGroupSQL(sqlDB)
@@ -82,33 +84,45 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	featureExecutionStore := store.NewFeatureExecutionStore(cache.NewCache())
 	featureStore := store.NewFeatureSQL(sqlDB)
 	featureResultStore := store.NewFeatureResultSQL(sqlDB)
-	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesGithubRepoUrl)
+	diagramCropsStore := store.NewDiagramCropsStore(fileSystemManager, env.FacsimilesDiagramsURL)
 	datasetImageStore := store.NewDatasetImageStore(fileSystemManager)
 
-	ghDownloader := ghwrapper.NewWrapper(env.GithubToken, env.GithubDownloaderTimeout)
-
-	vcsMgtSvc := service.NewVCSMgt(env.ItemsMetadataStoreDir(), fileSystemManager.DatasetImagesDirByID(titlepage.DatasetID))
+	vcsMgtSvc := service.NewVCSMgt(
+		env.RootDir,
+		filepath.Join(env.RootDir, "ocrflow", "store", "items_metadata"),
+		filepath.Join(env.RootDir, "ocrflow", "store", "data", titlepage.DatasetID, "imgs"),
+	)
 	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
 	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
-	facsimileSvc := service.NewFacsimileService(facsimileStore, ghDownloader, fmt.Sprintf("%s/blob/main/docs", env.FacsimilesGithubRepoUrl))
+	facsimileSvc := service.NewFacsimileService(
+		facsimileStore,
+		env.FacsimilesPDFDir,
+		env.FacsimilesDiagramsPath,
+		env.DiagramsDir(),
+		env.ItemsMetadataStoreDir(),
+		env.FacsimilesRemoteAPIURL,
+		env.GithubToken,
+		env.RcloneRemoteName,
+		env.FacsimilesGDriveFolderID,
+	)
 	datasetSvc := service.NewDatasetService(
 		editionSvc,
 		facsimileSvc,
 		modelSvc,
 		datasetStore,
 		fileSystemManager,
-		ghDownloader,
+		env.GithubToken,
 		env.DatasetCreateMaxParallel,
 		env.DatasetCreateQueueWait,
 	)
 	datasetImgSvc := service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc)
 	featureProperty := service.NewFeatureProperty()
 	featureSvc := service.NewFeature(featureStore, featureRevisionStore, featureProperty)
-	featureResultSvc := service.NewResult(featureResultStore, featureSvc, featureProperty)
+	featureResultSvc := service.NewResult(featureResultStore, annotationStore, featureSvc, featureProperty)
 	annotationSvc := service.NewAnnotationsService(datasetSvc, datasetImgSvc, ruleApplier, featureResultSvc, fileSystemManager, annotationStore)
 	annotationGroupSvc := service.NewAnnotationGroupService(annotationSvc, annotationGroupStore)
 	editionTranscriptionSvc := service.NewEditionTranscription(editionPreferredTranscriptionStore, editionSvc, datasetSvc, annotationSvc)
@@ -119,7 +133,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	titlePageProvisionSvc := service.NewTitlePageProvision(annotationSvc, datasetSvc, editionSvc)
 	langResolver := service.NewLanguagesResolver(editionSvc, datasetSvc)
 
-	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey))
+	featureExecutionSvc := service.NewExecution(featureRevisionSvc, featureSvc, featureResultSvc, annotationSvc, annotationTEI, editionSvc, langResolver, featureProperty, featureExecutionStore, fileSystemManager, service.NewDatasetImg(datasetSvc, fileSystemManager, datasetImageStore, editionSvc), llm.NewClient(env.OpenAIAPIKey, env.OllamaBaseURL, env.OllamaAuthToken))
 	annotationUploader := service.NewAnnotationsUploader(
 		annotationSvc,
 		datasetSvc,
@@ -139,8 +153,12 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		modelSvc,
 		fileSystemManager,
 	)
-	trainSvc := service.NewTrainService(annotationSvc, modelSvc, fileSystemManager, env.TrainingDir())
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
+	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
+	modelTrainRemoteSvc := service.NewModelTrainingRemote(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.ModelTrainUploadURL, env.GithubToken, slurmSubmitterSvc)
+	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainRemoteSvc)
+	modelTrainingSvc := service.NewModelTraining(jobSvc)
+	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
 
 	log.Printf("warming geo cache...")
 	if err := geoStore.WarmCache(); err != nil {
@@ -154,11 +172,11 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	log.Printf("finished warming edition cache")
 
-	log.Printf("updating facsimiles from github...")
-	if err := facsimileSvc.UpdateFromGithubRepo(); err != nil {
-		log.Printf("warning: failed to update facsimiles from github: %v", err)
+	log.Printf("updating facsimiles from configured source...")
+	if err := facsimileSvc.UpdateFromConfiguredSource(); err != nil {
+		log.Printf("warning: failed to update facsimiles from configured source: %v", err)
 	}
-	log.Printf("finished updating facsimiles from github")
+	log.Printf("finished updating facsimiles from configured source")
 
 	log.Printf("generating diagram crops metadata...")
 	if err := diagramcrops.Generate(env, diagramcrops.Options{}); err != nil {
@@ -182,9 +200,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		DatasetSvc:              datasetSvc,
 		DatasetImgSvc:           datasetImgSvc,
 		AnnotationSvc:           annotationSvc,
+		AnnotationRuleExecution: annotationRuleExecutionSvc,
 		AnnotationGroupSvc:      annotationGroupSvc,
 		ModelSvc:                modelSvc,
-		TrainSvc:                trainSvc,
 		MetadataDetailsSvc:      metadataDetailsSvc,
 		MetaStoreManager:        metaStoreManager,
 		AnnotationsUploader:     annotationUploader,
@@ -199,7 +217,8 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		FeaturePropertySvc:      service.NewFeatureProperty(),
 		DiagramCropsSvc:         diagramCropsSvc,
 		USTC:                    service.NewUSTC(),
-		IntegrationJobSvc:       service.NewIntegrationJob(store.NewIntegrationJobStore(cache.NewCache()), annotationUploader),
+		JobSvc:                  jobSvc,
+		ModelTrainingSvc:        modelTrainingSvc,
 		VCSMgt:                  vcsMgtSvc,
 		BackupSvc:               bckSvc,
 	}
@@ -209,6 +228,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	return &OCRFlowApp{
 		Env:    env,
 		DB:     sqlDB,
+		Deps:   deps,
 		Router: router,
 	}, nil
 }

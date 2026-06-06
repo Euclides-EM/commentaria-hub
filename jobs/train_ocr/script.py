@@ -3,11 +3,16 @@
 from __future__ import annotations
 
 import argparse
+import mimetypes
 import os
+import shutil
 import shlex
 import subprocess
 import sys
 import time
+import urllib.error
+import urllib.request
+import uuid
 from pathlib import Path
 from typing import Optional
 from zipfile import ZipFile
@@ -25,6 +30,112 @@ def log(msg: str) -> None:
 def run(cmd: list[str]) -> None:
     log("+ " + " ".join(shlex.quote(x) for x in cmd))
     subprocess.check_call(cmd)
+
+
+def find_latest_model(output_dir: Path) -> Path:
+    models = sorted(output_dir.glob("*.mlmodel"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if not models:
+        raise RuntimeError(f"No .mlmodel output found in {output_dir}")
+    return models[0]
+
+
+def encode_multipart(fields: dict[str, str], file_field: str, file_path: Path) -> tuple[bytes, str]:
+    boundary = "----commentaria-ocr-" + uuid.uuid4().hex
+    chunks: list[bytes] = []
+
+    for name, value in fields.items():
+        chunks.append(f"--{boundary}\r\n".encode("utf-8"))
+        chunks.append(f'Content-Disposition: form-data; name="{name}"\r\n\r\n'.encode("utf-8"))
+        chunks.append(value.encode("utf-8"))
+        chunks.append(b"\r\n")
+
+    content_type = mimetypes.guess_type(file_path.name)[0] or "application/octet-stream"
+    chunks.append(f"--{boundary}\r\n".encode("utf-8"))
+    chunks.append(
+        (
+            f'Content-Disposition: form-data; name="{file_field}"; filename="{file_path.name}"\r\n'
+            f"Content-Type: {content_type}\r\n\r\n"
+        ).encode("utf-8")
+    )
+    chunks.append(file_path.read_bytes())
+    chunks.append(b"\r\n")
+    chunks.append(f"--{boundary}--\r\n".encode("utf-8"))
+
+    return b"".join(chunks), f"multipart/form-data; boundary={boundary}"
+
+
+def upload_model(
+    upload_url: str,
+    upload_token: str,
+    model_path: Path,
+    name: str,
+    description: str,
+    base_annotations: str,
+    base_model_id: str,
+) -> None:
+    curl_path = shutil.which("curl")
+    if curl_path:
+        cmd = [
+            curl_path,
+            "--fail",
+            "--show-error",
+            "--silent",
+            "--location",
+            "-H",
+            "Expect:",
+            "-F",
+            f"file=@{model_path};type=application/octet-stream",
+            "-F",
+            f"name={name}",
+            "-F",
+            f"description={description}",
+            "-F",
+            f"base_annotations={base_annotations}",
+            "-F",
+            f"base_model_id={base_model_id}",
+            upload_url,
+        ]
+        if upload_token:
+            cmd[7:7] = ["-H", f"Authorization: Bearer {upload_token}"]
+
+        redacted_cmd = [
+            "Authorization: Bearer <redacted>" if part.startswith("Authorization: Bearer ") else part
+            for part in cmd
+        ]
+        log("+ " + " ".join(shlex.quote(x) for x in redacted_cmd))
+        result = subprocess.run(cmd, text=True, capture_output=True, check=False)
+        if result.returncode != 0:
+            detail = "\n".join(
+                part for part in [result.stdout.strip(), result.stderr.strip()] if part
+            )
+            raise RuntimeError(f"Model upload failed with curl exit {result.returncode}: {detail}")
+        if result.stdout.strip():
+            log(f"Import response: {result.stdout.strip()}")
+        log(f"Uploaded trained model to {upload_url}")
+        return
+
+    log("curl not found; falling back to Python urllib upload")
+    fields = {
+        "name": name,
+        "description": description,
+        "base_annotations": base_annotations,
+        "base_model_id": base_model_id,
+    }
+    body, content_type = encode_multipart(fields, "file", model_path)
+    headers = {"Content-Type": content_type}
+    if upload_token:
+        headers["Authorization"] = f"Bearer {upload_token}"
+
+    request = urllib.request.Request(upload_url, data=body, headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(request, timeout=300) as response:
+            response_body = response.read().decode("utf-8", errors="replace")
+            log(f"Uploaded trained model to {upload_url}: HTTP {response.status}")
+            if response_body:
+                log(f"Import response: {response_body}")
+    except urllib.error.HTTPError as exc:
+        response_body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Model upload failed with HTTP {exc.code}: {response_body}") from exc
 
 
 def find_image_for(xml_path: Path) -> Optional[Path]:
@@ -102,7 +213,7 @@ def main() -> int:
     )
     parser.add_argument(
         "--work-dir",
-        default="work_kraken",
+        default="workspace",
         help="Working directory for extracted pages, manifest, and dataset.arrow",
     )
     parser.add_argument(
@@ -129,6 +240,12 @@ def main() -> int:
         help="Learning rate",
     )
     parser.add_argument(
+        "--epochs",
+        type=int,
+        default=int(os.environ.get("TRAIN_EPOCHS", "0") or "0"),
+        help="Maximum number of training epochs. Leave unset or 0 to use Kraken defaults.",
+    )
+    parser.add_argument(
         "--device",
         default="cuda:0",
         help="Torch/Ketos device, for example cuda:0 or cpu",
@@ -143,6 +260,36 @@ def main() -> int:
         "--overwrite",
         action="store_true",
         help="Allow reusing and overwriting work files",
+    )
+    parser.add_argument(
+        "--model-upload-url",
+        default=os.environ.get("MODEL_UPLOAD_URL", ""),
+        help="Optional Commentaria /models_upload endpoint to import the trained model after training",
+    )
+    parser.add_argument(
+        "--model-upload-token",
+        default=os.environ.get("MODEL_UPLOAD_TOKEN", ""),
+        help="Optional bearer token for the model upload endpoint",
+    )
+    parser.add_argument(
+        "--model-name",
+        default=os.environ.get("MODEL_NAME", ""),
+        help="Name for the imported model",
+    )
+    parser.add_argument(
+        "--model-description",
+        default=os.environ.get("MODEL_DESCRIPTION", ""),
+        help="Description for the imported model",
+    )
+    parser.add_argument(
+        "--model-base-annotations",
+        default=os.environ.get("MODEL_BASE_ANNOTATIONS", ""),
+        help="Comma-separated <dataset_id>:<annotation_id> references for the imported model",
+    )
+    parser.add_argument(
+        "--model-base-model-id",
+        default=os.environ.get("MODEL_BASE_MODEL_ID", ""),
+        help="Base model ID for the imported model",
     )
 
     args = parser.parse_args()
@@ -175,6 +322,7 @@ def main() -> int:
     log(f"Unicode norm   = {args.unicode_norm}")
     log(f"Batch size     = {args.batch_size}")
     log(f"Learning rate  = {args.learning_rate}")
+    log(f"Epochs         = {args.epochs if args.epochs > 0 else '(Kraken default)'}")
     log(f"Device         = {args.device}")
 
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -209,6 +357,8 @@ def main() -> int:
         "-o", str(model_prefix),
         str(dataset_path),
     ]
+    if args.epochs > 0:
+        train_cmd.extend(["--quit", "fixed", "-N", str(args.epochs)])
 
     if base_model_path:
         if not base_model_path.exists():
@@ -218,6 +368,23 @@ def main() -> int:
     run(train_cmd)
 
     log("Training finished successfully")
+    trained_model_path = find_latest_model(output_dir)
+    log(f"Latest trained model: {trained_model_path}")
+
+    if args.model_upload_url:
+        log(f"Importing trained model via {args.model_upload_url}")
+        upload_model(
+            args.model_upload_url,
+            args.model_upload_token,
+            trained_model_path,
+            args.model_name,
+            args.model_description,
+            args.model_base_annotations,
+            args.model_base_model_id,
+        )
+    else:
+        log("MODEL_UPLOAD_URL is not configured; skipping trained model import")
+
     return 0
 
 

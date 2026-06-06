@@ -29,13 +29,13 @@ export class FeatureResultsService {
          */
         id: string,
         /**
-         * Comma-separated list of keys to filter results
+         * list of keys to filter results
          */
-        keys?: string,
+        keys?: Array<string>,
         /**
-         * Comma-separated list of feature names to filter results
+         * list of feature names to filter results
          */
-        features?: string,
+        features?: Array<string>,
         /**
          * Whether to fallback to results of the origin annotation if no feature results are found.
          */
@@ -98,31 +98,113 @@ export class FeatureResultsService {
         });
     }
     /**
-     * Get feature results SQL dump
-     * Get a SQL dump of feature results for a specific annotation
-     * @returns string SQL dump of feature results
+     * List edition feature results
+     * Get a list of feature results for an edition
+     * @returns feature_Result OK
      * @throws ApiError
      */
-    public static getDatasetsAnnotationsResultsSqldump({
-        dataSetId,
-        id,
+    public static getEditionsResults({
+        editionId,
+        features,
     }: {
         /**
-         * Dataset ID
+         * Edition ID
          */
-        dataSetId: string,
+        editionId: string,
         /**
-         * Annotation ID
+         * list of feature IDs to filter results
          */
-        id: string,
-    }): CancelablePromise<string> {
+        features?: Array<string>,
+    }): CancelablePromise<Array<feature_Result>> {
         return __request(OpenAPI, {
             method: 'GET',
-            url: '/datasets/{dataSetId}/annotations/{id}/results/sqldump',
+            url: '/editions/{editionId}/results',
             path: {
-                'dataSetId': dataSetId,
-                'id': id,
+                'editionId': editionId,
             },
+            query: {
+                'features': features,
+            },
+        });
+    }
+    /**
+     * List feature results
+     * Get a list of feature results for a dataset annotation or for editions.
+     * @returns feature_Result OK
+     * @throws ApiError
+     */
+    public static getFeaturesResults({
+        scope,
+        dataset,
+        annotation,
+        keys,
+        features,
+        fallbackToOrigin,
+    }: {
+        /**
+         * Feature execution scope
+         */
+        scope: 'dataset' | 'editions',
+        /**
+         * Dataset ID, required for dataset scope
+         */
+        dataset?: string,
+        /**
+         * Annotation ID, required for dataset scope
+         */
+        annotation?: string,
+        /**
+         * list of keys to filter results
+         */
+        keys?: Array<string>,
+        /**
+         * list of feature names to filter results
+         */
+        features?: Array<string>,
+        /**
+         * Whether to fallback to results of the origin annotation.
+         */
+        fallbackToOrigin?: boolean,
+    }): CancelablePromise<Array<feature_Result>> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/features_results',
+            query: {
+                'scope': scope,
+                'dataset': dataset,
+                'annotation': annotation,
+                'keys': keys,
+                'features': features,
+                'fallback_to_origin': fallbackToOrigin,
+            },
+        });
+    }
+    /**
+     * Create feature results
+     * Create new feature results (batch) for dataset or edition scopes.
+     * @returns feature_Result OK
+     * @throws ApiError
+     */
+    public static postFeaturesResults({
+        result,
+        pushToOrigin,
+    }: {
+        /**
+         * Feature results data
+         */
+        result: Array<feature_Result>,
+        /**
+         * Whether to push dataset results to the origin annotation.
+         */
+        pushToOrigin?: boolean,
+    }): CancelablePromise<Array<feature_Result>> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/features_results',
+            query: {
+                'push_to_origin': pushToOrigin,
+            },
+            body: result,
         });
     }
 }

@@ -5,6 +5,8 @@
 export type model_Facsimile = {
     readonly created_at?: string;
     description?: string;
+    diagram_crops_available?: boolean;
+    readonly download_available?: boolean;
     edition_id?: string;
     readonly id?: string;
     main_text_pages?: string;

@@ -16,37 +16,45 @@ import (
 // @Produce      json
 // @Success      200  {array}   feature.Execution
 // @Param dataset query string false "Filter by dataset ID"
+// @Param scope query string false "Filter by feature execution scope" Enums(dataset, editions)
 // @Param features query string false "Filter by delimited list of feature IDs"
 // @Param statuses query string false "Filter by delimited list of execution statuses" Enums(pending, running, completed, failed)
-// @Router       /features/executions [get]
+// @Router       /feature_executions [get]
 func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
-	dataset := r.URL.Query().Get("dataset")
+	scope, err := extractDefScope(r)
+	if err != nil {
+		return nil, err
+	}
 	features := r.URL.Query().Get("features")
 	statuses := r.URL.Query().Get("statuses")
 
 	var featureIds []string
-	if dataset != "" || features == "" {
-		fs, err := h.deps.FeatureSvc.ListFeatures(dataset, nil)
+	rawFeatureIds := lo.FilterMap(strings.Split(features, ","), func(s string, _ int) (string, bool) {
+		id := strings.TrimSpace(s)
+		return id, id != ""
+	})
+
+	if scope.Type == "" {
+		featureIds = rawFeatureIds
+	} else {
+		fs, err := h.deps.FeatureSvc.ListFeatures(scope, nil)
 		if err != nil {
 			return nil, err
 		}
-		if dataset != "" {
+
+		if scope.DatasetID != "" && scope.Type == mfeatureplat.ScopeTypeDataset {
 			fs = lo.Filter(fs, func(f *mfeatureplat.Feature, _ int) bool {
-				return f.DatasetID == dataset
+				return f.Scope.DatasetID == scope.DatasetID
 			})
 		}
-		if features == "" {
-			for _, f := range fs {
-				featureIds = append(featureIds, f.ID)
-			}
-		}
-		if features != "" {
-			rawFeatureIds := lo.Map(strings.Split(features, ","), func(s string, _ int) string {
-				return strings.TrimSpace(s)
-			})
+
+		if len(rawFeatureIds) > 0 {
 			fs = lo.Filter(fs, func(f *mfeatureplat.Feature, _ int) bool {
 				return lo.Contains(rawFeatureIds, f.ID)
 			})
+		}
+		for _, f := range fs {
+			featureIds = append(featureIds, f.ID)
 		}
 	}
 
@@ -61,7 +69,7 @@ func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
 		}
 	}
 
-	return h.deps.FeatureExecutionSvc.ListFeatureExecutions(dataset, featureIds, featureExecutionsStatuses)
+	return h.deps.FeatureExecutionSvc.ListFeatureExecutions(scope, featureIds, featureExecutionsStatuses)
 }
 
 // GetExecution godoc
@@ -71,7 +79,7 @@ func (h *Handlers) ListExecutions(r *http.Request) (any, error) {
 // @Produce      json
 // @Success      200  {object}  feature.Execution
 // @Param executionId path string true "Execution ID"
-// @Router       /features/executions/{executionId} [get]
+// @Router       /feature_executions/{executionId} [get]
 func (h *Handlers) GetExecution(r *http.Request) (any, error) {
 	executionId, err := extractExecutionID(r)
 	if err != nil {
@@ -89,7 +97,7 @@ func (h *Handlers) GetExecution(r *http.Request) (any, error) {
 // @Param        execution  body      feature.Execution  true  "Execution to create"
 // @Security 	 BearerAuth
 // @Success      200  {object}  feature.Execution
-// @Router       /features/executions [post]
+// @Router       /feature_executions [post]
 func (h *Handlers) CreateExecution(r *http.Request) (any, error) {
 	var exec mfeatureplat.Execution
 	if err := DecodeBody(r, &exec); err != nil {
@@ -110,7 +118,7 @@ func (h *Handlers) CreateExecution(r *http.Request) (any, error) {
 // @Produce      json
 // @Success      200  {object}  map[string]string "status: cancelled"
 // @Security 	 BearerAuth
-// @Router       /features/executions/{executionId}/cancel [put]
+// @Router       /feature_executions/{executionId}/cancel [put]
 func (h *Handlers) CancelExecution(r *http.Request) (any, error) {
 	executionId, err := extractExecutionID(r)
 	if err != nil {

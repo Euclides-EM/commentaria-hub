@@ -3,6 +3,7 @@ import type {
   common_OCRModelType,
   annotation_Annotation,
   model_Model,
+  model_ModelTraining,
 } from '@hub-api'
 import { AnnotationsService, ApiError } from '@hub-api'
 import { Button } from '../core/Button'
@@ -13,6 +14,7 @@ import {
   useCreateModelMutation,
   useDeleteModelMutation,
   useModelsQuery,
+  useTrainModelMutation,
   useUpdateModelMutation,
 } from '../../queries/models'
 import { SearchInput } from '../core/SearchInput'
@@ -22,6 +24,7 @@ import { useAppState } from '../../context/useAppState'
 import { useAuthStore } from '../../store/authStore.ts'
 import { Timestamp } from '../core/Timestamp'
 import { ModelImportModal } from './ModelImportModal'
+import { ModelTrainModal } from './ModelTrainModal'
 import { useDatasetsQuery } from '../../queries/datasets'
 import { useQueries } from '@tanstack/react-query'
 
@@ -214,10 +217,12 @@ export function ModelsTable() {
   const { data: models, isLoading, error } = useModelsQuery()
   const createMutation = useCreateModelMutation()
   const deleteMutation = useDeleteModelMutation()
+  const trainMutation = useTrainModelMutation()
   const updateMutation = useUpdateModelMutation()
   const [modelToDelete, setModelToDelete] = useState<model_Model | null>(null)
   const [modelToEdit, setModelToEdit] = useState<model_Model | null>(null)
   const [isImportOpen, setIsImportOpen] = useState(false)
+  const [isTrainOpen, setIsTrainOpen] = useState(false)
   const [copiedId, setCopiedId] = useState<string | null>(null)
   const { modelSearchPrefill, setModelSearchPrefill } = useAppState()
   const isAuthenticated = !!useAuthStore((store) => store.token)
@@ -254,6 +259,12 @@ export function ModelsTable() {
       ? createMutation.error.body
       : createMutation.error
         ? String(createMutation.error)
+        : null
+  const trainErrorMessage =
+    trainMutation.error instanceof ApiError
+      ? trainMutation.error.body
+      : trainMutation.error
+        ? String(trainMutation.error)
         : null
 
   const queryErrorMessage =
@@ -403,6 +414,19 @@ export function ModelsTable() {
     createMutation.reset()
   }
 
+  const handleTrainClose = () => {
+    setIsTrainOpen(false)
+    trainMutation.reset()
+  }
+
+  const handleTrainSubmit = (training: model_ModelTraining) => {
+    trainMutation.mutate(training, {
+      onSuccess: () => {
+        setIsTrainOpen(false)
+      },
+    })
+  }
+
   const handleCopyId = (id: string | undefined) => {
     if (!id) return
     void navigator.clipboard.writeText(id).then(() => {
@@ -441,6 +465,12 @@ export function ModelsTable() {
         {isAuthenticated && (
           <div className="flex items-center gap-2">
             <Button
+              className="px-3 py-1.5 text-sm font-semibold"
+              onClick={() => setIsTrainOpen(true)}
+            >
+              Train a model
+            </Button>
+            <Button
               variant="primary"
               className="px-3 py-1.5 text-sm font-semibold"
               onClick={() => setIsImportOpen(true)}
@@ -459,7 +489,6 @@ export function ModelsTable() {
               <ErrorMessage message={queryErrorMessage} />
             </div>
           )}
-
           {!isLoading && rows.length === 0 && !queryErrorMessage && (
             <div className="text-sm text-gray-500">No models available.</div>
           )}
@@ -606,6 +635,16 @@ export function ModelsTable() {
           onSubmit={handleImportSubmit}
           isSaving={createMutation.isPending}
           errorMessage={createErrorMessage}
+        />
+      )}
+      {isTrainOpen && (
+        <ModelTrainModal
+          isOpen={isTrainOpen}
+          models={rows}
+          onClose={handleTrainClose}
+          onSubmit={handleTrainSubmit}
+          isSaving={trainMutation.isPending}
+          errorMessage={trainErrorMessage}
         />
       )}
     </div>

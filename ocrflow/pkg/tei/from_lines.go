@@ -5,6 +5,7 @@ import (
 	"sort"
 	"strconv"
 
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
 	"github.com/samber/lo"
 )
@@ -22,7 +23,7 @@ func BuildTEIFromLines(
 		Xmlns:   "http://www.tei-c.org/ns/1.0",
 		Header: model.Header{
 			FileDesc: buildFileDesc(biblMetadata),
-			StandOff: buildStandOff(pageKey, entities, nil),
+			StandOff: buildStandOff(pageKey, entities, nil, alto.Tags{}),
 		},
 		Facsimile: buildFacsimileForLines(pageKey, imageUrl, lines.TranscriptionLines),
 		Text:      model.Text{Body: model.Body{}},

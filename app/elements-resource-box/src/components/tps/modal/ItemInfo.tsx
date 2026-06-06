@@ -8,11 +8,8 @@ import { personDisplayName } from "../../../utils/dataUtils";
 import { joinArr } from "../../../utils/util";
 import { withAppBasePath } from "../../../utils/basePath";
 import { NO_EDITOR } from "../../../constants";
-import { LAND_COLOR } from "../../../utils/colors";
-import { TOOLTIP_SCAN } from "../../map/MapTooltips";
-import { SiMaterialdesign } from "react-icons/si";
+import { LAND_COLOR } from "../../../utils/colors.ts";
 import pluralize from "pluralize";
-import { ITEM_EDIT_ROUTE } from "../../layout/routes.ts";
 import { AuthContext } from "../../../contexts/Auth.ts";
 import { useQuery } from "@tanstack/react-query";
 import { getCommentariaHubPreferredTranscriptionUrl } from "../../../utils/commentariaHub.ts";
@@ -28,19 +25,6 @@ const InfoTitle = styled.div`
   font-size: 0.8rem;
   color: darkgray;
   min-width: 4rem;
-`;
-
-const StyledAnchor = styled.a`
-  font-size: 1rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const AnchorsRow = styled.div`
-  display: flex !important;
-  flex-direction: row;
-  gap: 0.5rem;
 `;
 
 const CitationButton = styled.button<{ copied?: boolean }>`
@@ -65,15 +49,7 @@ const CitationButton = styled.button<{ copied?: boolean }>`
   }
 `;
 
-const StyledDiagramIcon = styled(SiMaterialdesign)`
-  color: white !important;
-  background-color: ${LAND_COLOR};
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-`;
-
-const EditLink = styled.a`
+const CommentariaHubLink = styled.a`
   display: block;
   margin-left: 0;
   padding: 0.5rem;
@@ -87,16 +63,13 @@ const EditLink = styled.a`
   height: fit-content;
   width: max-content;
   justify-self: end;
+  max-width: 200px;
+  white-space: normal;
+  overflow-wrap: anywhere;
 
   &:hover {
     background-color: #e0e0e0;
   }
-`;
-
-const CommentariaHubLink = styled(EditLink)`
-  max-width: 200px;
-  white-space: normal;
-  overflow-wrap: anywhere;
 `;
 
 const ActionsRow = styled.div`
@@ -187,26 +160,12 @@ export const ItemInfo = ({
         <InfoTitle>{pluralize("Language", item.languages.length)}:</InfoTitle>{" "}
         {joinArr(item.languages)}
       </Row>
-      {item.facsimiles.length > 0 && (
+      {(item.facsimiles.length > 0 ||
+        (showDiagramsLink && item.diagramCropsAvailable) ||
+        token) && (
         <Row justifyStart>
-          <InfoTitle>Facsimile:</InfoTitle>
-          <AnchorsRow
-            data-tooltip-id={TOOLTIP_SCAN}
-            data-tooltip-content="View Facsimile Online"
-            data-tooltip-place="left"
-          >
-            <FacsimileLinks facsimiles={item.facsimiles} color={LAND_COLOR} />
-            {showDiagramsLink && item.diagramCropsAvailable && (
-              <StyledAnchor
-                href={withAppBasePath(`/diagrams?key=${item.key}`)}
-                target="_blank"
-                rel="noopener noreferrer"
-                title="View Diagrams"
-              >
-                <StyledDiagramIcon />
-              </StyledAnchor>
-            )}
-          </AnchorsRow>
+          <InfoTitle>Links:</InfoTitle>
+          <ItemLinksRow item={item} showDiagramsLink={showDiagramsLink} />
         </Row>
       )}
       {item.format && (
@@ -249,15 +208,6 @@ export const ItemInfo = ({
             >
               View transcription in Commentaria Hub
             </CommentariaHubLink>
-          )}
-          {token && (
-            <EditLink
-              href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Edit Item
-            </EditLink>
           )}
         </ActionsRow>
       )}

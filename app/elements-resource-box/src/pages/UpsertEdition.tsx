@@ -23,10 +23,12 @@ import {
   ModalClose,
   ModalContent,
 } from "../components/tps/modal/ModalComponents.tsx";
-import { isValidUrl } from "../utils/util.ts";
+import { isValidUrl, toItemImageUrl } from "../utils/util.ts";
 import { useNavigateWithQuery } from "../utils/navigationUtils.ts";
 import { useQuery } from "@tanstack/react-query";
 import { STUDY_CORPUSES } from "../types";
+import { ItemLinksRow } from "../components/ItemLinksRow.tsx";
+import { mapEditionsToItems } from "../utils/dataUtils.ts";
 
 type Locator = model_EditionLocator;
 type ShelfmarkFormData = {
@@ -415,6 +417,12 @@ const Title = styled.h1`
   color: #333;
 `;
 
+const ExistingItemActions = styled.div`
+  display: flex;
+  align-items: center;
+  margin: -1rem 0 1.5rem 0;
+`;
+
 const FormGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -601,6 +609,31 @@ const SelectedImage = styled.span`
   padding: 4px;
   border-radius: 4px;
 `;
+
+const ExistingImagePreview = styled.a`
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #d0d0d0;
+  vertical-align: middle;
+`;
+
+const ExistingImageThumbnail = styled.img`
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  background-color: white;
+`;
+
+const resolvePreviewImageUrl = (value: string | null) => {
+  if (!value) {
+    return null;
+  }
+  return toItemImageUrl(value);
+};
 
 const LoadingOverlay = styled.div`
   position: fixed;
@@ -940,6 +973,10 @@ export const UpsertEdition = () => {
   });
   const valuesLoading = Boolean(key) && existingItemQuery.isLoading;
   const listsLoading = !lists && editionsForListsQuery.isLoading;
+  const existingEdition = existingItemQuery.data?.edition;
+  const existingItem = existingEdition
+    ? (mapEditionsToItems([existingEdition])[0] ?? null)
+    : null;
 
   const form = useForm({
     defaultValues: values,
@@ -1216,6 +1253,11 @@ export const UpsertEdition = () => {
             </DeleteButton>
           )}
         </TitleContainer>
+        {key && existingItem && (
+          <ExistingItemActions>
+            <ItemLinksRow item={existingItem} showEditLink={false} />
+          </ExistingItemActions>
+        )}
         {valuesLoading || listsLoading ? (
           <div>Loading...</div>
         ) : (
@@ -2337,20 +2379,36 @@ export const UpsertEdition = () => {
                             )}
                           </form.Field>
                         </FormField>
-
                         {!isManuscript && (
-                          <FormField>
-                            <form.Field
-                              name={`shelfmarks[${i}].title_page_img`}
-                            >
-                              {(f) => (
+                        <FormField>
+                          <form.Field name={`shelfmarks[${i}].title_page_img`}>
+                            {(f) => {
+                              const previewUrl = !images[f.state.value || ""]
+                                ? resolvePreviewImageUrl(f.state.value)
+                                : null;
+                              return (
                                 <>
                                   <Label>
                                     Title Page Image{" "}
                                     {f.state.value && (
-                                      <SelectedImage>
-                                        Image is set
-                                      </SelectedImage>
+                                      <>
+                                        <SelectedImage>
+                                          Image is set
+                                        </SelectedImage>
+                                        {previewUrl && (
+                                          <ExistingImagePreview
+                                            href={previewUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            title="Open image in new tab"
+                                          >
+                                            <ExistingImageThumbnail
+                                              src={previewUrl}
+                                              alt="Title page preview"
+                                            />
+                                          </ExistingImagePreview>
+                                        )}
+                                      </>
                                     )}
                                   </Label>
                                   <FileInput
@@ -2377,47 +2435,47 @@ export const UpsertEdition = () => {
                                     </div>
                                   )}
                                 </>
-                              )}
-                            </form.Field>
-                          </FormField>
-                        )}
-
+                              );
+                            }}
+                          </form.Field>
+                        </FormField>
+                            )}
                         {!isManuscript && (
-                          <FormField>
-                            <Label>Frontispiece Image</Label>
-                            <form.Field
-                              name={`shelfmarks[${i}].frontispiece_img`}
-                            >
-                              {(f) => (
-                                <>
-                                  <FileInput
-                                    type="file"
-                                    accept="image/*"
-                                    onChange={(e) => {
-                                      if (!e.target.files?.[0]) {
-                                        f.handleChange(null);
-                                      } else {
-                                        const id = uniqueId();
-                                        setImages((m) => ({
-                                          ...m,
-                                          [id]: e.target.files![0],
-                                        }));
-                                        f.handleChange(id);
-                                      }
-                                    }}
-                                  />
-                                  {f.state.value && (
-                                    <SelectedImage>
-                                      {images[f.state.value]
-                                        ? `Selected: ${images[f.state.value].name}`
-                                        : "Image is set"}
-                                    </SelectedImage>
-                                  )}
-                                </>
-                              )}
-                            </form.Field>
-                          </FormField>
-                        )}
+                        <FormField>
+                          <Label>Frontispiece Image</Label>
+                          <form.Field
+                            name={`shelfmarks[${i}].frontispiece_img`}
+                          >
+                            {(f) => (
+                              <>
+                                <FileInput
+                                  type="file"
+                                  accept="image/*"
+                                  onChange={(e) => {
+                                    if (!e.target.files?.[0]) {
+                                      f.handleChange(null);
+                                    } else {
+                                      const id = uniqueId();
+                                      setImages((m) => ({
+                                        ...m,
+                                        [id]: e.target.files![0],
+                                      }));
+                                      f.handleChange(id);
+                                    }
+                                  }}
+                                />
+                                {f.state.value && (
+                                  <SelectedImage>
+                                    {images[f.state.value]
+                                      ? `Selected: ${images[f.state.value].name}`
+                                      : "Image is set"}
+                                  </SelectedImage>
+                                )}
+                              </>
+                            )}
+                          </form.Field>
+                        </FormField>
+                            )}
 
                         <FormField>
                           <Label>Annotations</Label>

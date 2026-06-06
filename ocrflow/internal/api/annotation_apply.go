@@ -16,6 +16,7 @@ import (
 // @Security 	 BearerAuth
 // @Produce      json
 // @Success      200  {object}   annotation.Annotation
+// @Success      202  {object}   job.Job
 // @Router       /datasets/{dataSetId}/annotations/{id}/apply [put]
 func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 	datasetID, annotationID, err := extractDatasetAndAnnotationIDs(r)
@@ -28,7 +29,7 @@ func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 		return nil, err
 	}
 
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, &a)
+	return h.deps.AnnotationRuleExecution.ApplyRules(datasetID, annotationID, &a)
 }
 
 // ApplyRuleModelDetect godoc
@@ -38,6 +39,7 @@ func (h *Handlers) ApplyRules(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationModelDetectRule  body 	annotationrule.ModelDetect  true  "Annotation model detect rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -61,6 +63,7 @@ func (h *Handlers) ApplyRuleModelDetect(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.SlicePages  true  "Annotation slice pages rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -84,6 +87,7 @@ func (h *Handlers) ApplyRuleSlicePages(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.Stretch  true  "Annotation stretch rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -107,6 +111,7 @@ func (h *Handlers) ApplyRuleStretch(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.AddMargin  true  "Annotation add margin rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -130,6 +135,7 @@ func (h *Handlers) ApplyRuleAddMargin(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.LinesDetect  true  "Annotation detect lines rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -153,6 +159,7 @@ func (h *Handlers) ApplyRuleDetectLines(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.RemoveCategories  true  "Remove categories rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -176,6 +183,7 @@ func (h *Handlers) ApplyRuleRemoveCategories(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.RenameCategories  true  "Rename categories rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -199,6 +207,7 @@ func (h *Handlers) ApplyRuleRenameCategories(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.RemoveOverlap  true  "Remove overlap rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -222,6 +231,7 @@ func (h *Handlers) ApplyRuleRemoveOverlap(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.ResolveOverlapWithPriority  true  "Resolve overlap with priority rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -245,6 +255,7 @@ func (h *Handlers) ApplyRuleResolveOverlapWithPriority(r *http.Request) (any, er
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.RecategorizeByAlignment  true  "Recategorize by alignment rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -268,6 +279,7 @@ func (h *Handlers) ApplyRuleRecategorizeByAlignment(r *http.Request) (any, error
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.LimitCategoryZones  true  "Limit category zones rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -291,6 +303,7 @@ func (h *Handlers) ApplyRuleLimitCategoryZones(r *http.Request) (any, error) {
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationRule  body 	annotationrule.ReassignTextLinesByTolerance  true  "Reassign text lines by tolerance rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -314,6 +327,7 @@ func (h *Handlers) ApplyRuleReassignTextLinesByTolerance(r *http.Request) (any, 
 // @Param        dataSetId   path      string  true  "Dataset ID"
 // @Param        id          path      string  true  "Annotation ID"
 // @Param        action      query     string  false "Action to take when applying the rule" Enums(overwrite,create_new) default(overwrite)
+// @Param        execution_mode query  string  false "Execution mode for applying the rule" Enums(sync,async) default(sync)
 // @Param        annotationTextBlockCorrections  body 	annotationrule.TextBlockCorrections  true  "Text block corrections rule"
 // @Security 	 BearerAuth
 // @Produce      json
@@ -337,11 +351,12 @@ func (h *Handlers) applyRuleGeneric(r *http.Request, rule annotationrule.Annotat
 	}
 
 	rules := &annotationrule.ApplyRules{
-		Action: annotationrule.ToApplyRulesAction(r.FormValue("action"), annotationrule.ApplyRulesActionOverwrite),
+		Action:        annotationrule.ToApplyRulesAction(r.FormValue("action"), annotationrule.ApplyRulesActionOverwrite),
+		ExecutionMode: annotationrule.ToExecutionMode(r.FormValue("execution_mode"), annotationrule.ExecutionModeSync),
 		Rules: []annotationrule.AnnotationRule{
 			rule,
 		},
 	}
 
-	return h.deps.AnnotationSvc.ApplyRules(datasetID, annotationID, rules)
+	return h.deps.AnnotationRuleExecution.ApplyRules(datasetID, annotationID, rules)
 }

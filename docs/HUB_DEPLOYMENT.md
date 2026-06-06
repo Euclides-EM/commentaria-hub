@@ -145,44 +145,171 @@ sudo -u euclides ls -l /data/euclides/commentaria-hub/store
 sudo -u euclides rm /data/euclides/commentaria-hub/store/test
 ```
 
-## Automatic Backup to Google Drive (optional)
+## Store facsimiles on the data volume
 
-On your local machine, set up rclone with a new remote for your Google Drive account:
+The API can read facsimile PDFs directly from local `file://` URLs. In production, keep the source PDFs outside the Git working tree and under the data volume:
+
 ```bash
-sudo -v ; curl https://rclone.org/install.sh | sudo bash
-rclone config // an interactive command, choose the following:
-n // new remote
-G // remote name
-19 // GDrive
-4***k.apps.googleusercontent.com // clientid
-G***9G // client secret
-1 // full access
-Service account file leave empty
-No // dont edit advanced config
-Yes // authenticate with browser for the your real account, hit the “I trust Liri” warnings…
+sudo mkdir -p /data/euclides/commentaria-hub/facsimiles/pdfs
+sudo mkdir -p /data/euclides/commentaria-hub/facsimiles/diagrams
+sudo chown -R euclides:euclides /data/euclides/commentaria-hub
 ```
 
-Then, to get the config file path, run:
-```bash
-rclone config file
-```
-Copy the contents of that file.
+Copy the facsimile PDFs and diagram crops from the current storage.
 
-On the server, install rclone as root:
+If they are stored in Git LFS, you can do a one-time copy from the current Git LFS checkout/repo. If they are stored elsewhere, copy them from that location instead.
+
 ```bash
-sudo -v ; curl https://rclone.org/install.sh | sudo bash
+sudo apt-get update
+sudo apt-get install -y git-lfs
+
+sudo -iu euclides
+source ~/.bashrc 
+mkdir -p /data/euclides/commentaria-hub/migration
+cd /data/euclides/commentaria-hub/migration
+git clone https://github.com/Euclides-EM/elements-facsimile.git elements-facsimile-migration
+cd elements-facsimile-migration
+git lfs install
+git lfs pull
+rsync -av --include='*.pdf' --exclude='*' docs/ /data/euclides/commentaria-hub/facsimiles/pdfs/
+rsync -av docs/diagrams/ /data/euclides/commentaria-hub/facsimiles/diagrams/
+cd /data/euclides/commentaria-hub
+rm -rf /data/euclides/commentaria-hub/migration/elements-facsimile-migration
 ```
 
-Then switch to the `euclides` user and create the config file with the same contents as your local machine:
+On restart, the API scans `FACSIMILES_PDF_DIR`, creates missing facsimile DB rows, and updates existing facsimile rows to point at local `file:///data/.../*.pdf` URLs. Diagram crop metadata is generated from `FACSIMILES_DIAGRAMS_PATH`, and the UI receives image URLs under `FACSIMILES_DIAGRAMS_URL`.
+
+Useful checks:
+
 ```bash
 sudo -iu euclides
-rclone config file
+find /data/euclides/commentaria-hub/facsimiles/pdfs -maxdepth 1 -name '*.pdf' | wc -l
+find /data/euclides/commentaria-hub/facsimiles/diagrams -path '*/crops/*.jpg' | wc -l
+curl -I http://127.0.0.1:8090/facsimiles/diagrams/Paris_1615/crops/page-0001_001.jpg || true
+curl -I http://euclides.huma-num.fr/commentaria/facsimiles/diagrams/Paris_1615/crops/page-0001_001.jpg || true
 ```
-This will show you the path where rclone expects the config file, likely `~/.config/rclone/rclone.conf`. Create that file and paste the contents from your local machine.
 
-Now, in the server’s `.env` file for the API, set the `RCLONE_GDRIVE_FOLDER_ID` variable to the ID of the Google Drive folder where you want the backups to be stored. You can find this ID in the URL when you open the folder in your browser. For example, if the URL is `https://drive.google.com/drive/folders/1a2b3c4d5e6f7g8h9i0j`, then the folder ID is `1a2b3c4d5e6f7g8h9i0j`.
+If an edition has no crop images under `FACSIMILES_DIAGRAMS_PATH`, the diagrams endpoint returns no crop URLs for it. That only means crops are unavailable locally; it does not say whether the edition itself contains diagrams. If a dataset still fails to create after migration, inspect the facsimile row:
 
-And we can merge https://github.com/Euclides-EM/commentaria-hub/pull/68
+```bash
+sudo -iu euclides
+sqlite3 /data/euclides/commentaria-hub/store/ocrflow.db "select edition_id, url from facsimiles where edition_id = 'Paris_1615';"
+```
+
+The URL should be a local file URL such as `file:///data/euclides/commentaria-hub/facsimiles/pdfs/Paris_1615.pdf`.
+
+## Local development with server PDFs
+
+For local development, you do not need to copy the large PDFs onto your machine. Point the local API at the deployed API:
+
+```dotenv
+FACSIMILES_REMOTE_API_URL=https://euclides.huma-num.fr/commentaria/api/v1
+GITHUB_TOKEN=<your-github-token>
+```
+
+Leave `FACSIMILES_PDF_DIR` empty locally. `GITHUB_TOKEN` should be a GitHub token for an allowlisted user; if it is not set, the API falls back to `GITHUB_TOKEN`. On startup, the local API will read the deployed facsimile list and create local facsimile rows whose `scan_url` values point to authenticated server PDF download URLs. When you create a local dataset, the local API downloads the source PDF from the deployed server using the bearer token and then processes it locally.
+
+## LLM integration
+
+Feature revisions must declare both `ai_provider` and `ai_model`. Existing revisions are migrated to `openai` with model `gpt-5-mini`; new revisions must provide these values explicitly.
+
+Configure the providers needed by those revisions in the API environment:
+
+```dotenv
+OPENAI_API_KEY=<openai-api-key>
+OLLAMA_BASE_URL=https://ai-tools-llm-node-a.huma-num.fr/***/
+```
+
+For Ollama revisions, set `ai_provider` to `ollama` and `ai_model` to the exact model name available on that server. The API appends `/api/generate` to `OLLAMA_BASE_URL`, preserving any path prefix in the URL.
+
+## Automatic Backup to Google Drive (optional)
+
+First, set up a Google Drive folder for the backups. Use the instructions in the [Google Drive Integration](GOOGLE_DRIVE_INTEGRATION.md) doc to create a new Google Drive API project, create credentials, and set up `rclone` on the server with those credentials.
+
+Now, you can create a new folder in your Google Drive, for example "commentaria-hub-backups". Note its folder ID from the URL. In the server’s `.env` file for the API, set the `RCLONE_GDRIVE_FOLDER_ID` variable to the ID of the Google Drive folder where you want the backups to be stored. You can find this ID in the URL when you open the folder in your browser. For example, if the URL is `https://drive.google.com/drive/folders/1a2b3c4d5e6f7g8h9i0j`, then the folder ID is `1a2b3c4d5e6f7g8h9i0j`.
+
+The app backup is a ZIP backup for the database, models, and metadata. The large facsimile PDFs and diagram crops are backed up separately with a resumable `rclone` media mirror. See [Facsimile Media Backup](FACSIMILE_MEDIA_BACKUP.md) for the physical-drive and cloud backup runbook.
+
+## Facsimile PDF Inbox Folder (optional)
+
+If you want to use the facsimile PDF inbox feature, create a new folder in your Google Drive for the incoming PDFs, for example "commentaria-hub-facsimile-inbox". Note its folder ID from the URL. In the server’s `.env` file for the API, set the `FACSIMILES_GDRIVE_FOLDER_ID` variable to the ID of this Google Drive folder.
+
+The Google Drive set up is the same as for the backups, so if you already set up `rclone` for the backups, you can just create a new folder in your Drive and add its ID to the `.env` file.
+
+## GPU farm SSH for OCR model training
+
+OCR model training submits Slurm jobs over SSH to `mjoskowicz@cca.in2p3.fr`. The API runs `ssh` and `scp` from Go without an interactive terminal, so password prompts will hang or fail. Configure passwordless SSH for the user that runs the API. In production, that is `euclides`; in local development, use your own local user.
+
+Run as `euclides` on the server:
+
+```bash
+sudo -iu euclides
+ssh-keygen -t ed25519 -f ~/.ssh/cca_ocr_training -C commentaria-hub-ocr-training -N ""
+cat ~/.ssh/cca_ocr_training.pub
+```
+
+Add the printed public key to `~/.ssh/authorized_keys` on `mjoskowicz@cca.in2p3.fr`. If password SSH is still available, you can install it directly:
+
+```bash
+sudo -iu euclides
+ssh-copy-id -i ~/.ssh/cca_ocr_training.pub mjoskowicz@cca.in2p3.fr
+```
+
+Add an SSH alias:
+
+```bash
+sudo -iu euclides
+cat >> ~/.ssh/config <<'EOF'
+
+# OCR model training GPU farm
+Host cca-ocr
+HostName cca.in2p3.fr
+User mjoskowicz
+IdentityFile ~/.ssh/cca_ocr_training
+IdentitiesOnly yes
+EOF
+
+chmod 600 ~/.ssh/config
+```
+
+Test that the API user can connect without a password prompt and that Slurm is available:
+
+```bash
+sudo -iu euclides
+ssh cca-ocr 'hostname && sbatch --version'
+```
+
+Use the alias in the API environment:
+
+```dotenv
+GPU_FARM_HOST=cca-ocr
+GPU_FARM_JOB_ROOT=/pbs/home/m/mjoskowicz/jobs
+MODEL_TRAIN_UPLOAD_URL=https://euclides.huma-num.fr/commentaria/api/v1/models_upload
+```
+
+`MODEL_TRAIN_UPLOAD_URL` must be reachable from the Slurm job host, because `jobs/train_ocr/script.py` uploads the finished `.mlmodel` after training completes. If the upload endpoint starts requiring a bearer token, set `MODEL_TRAIN_UPLOAD_TOKEN` too; it is copied into the per-run `manifest.env`, so use a narrow token.
+
+For local development, do the same setup as your local user instead of `euclides`:
+
+```bash
+ssh-keygen -t ed25519 -f ~/.ssh/cca_ocr_training -C local-ocr-training -N ""
+ssh-copy-id -i ~/.ssh/cca_ocr_training.pub mjoskowicz@cca.in2p3.fr
+```
+
+Add the same `cca-ocr` host block to your local `~/.ssh/config`, then verify:
+
+```bash
+ssh cca-ocr 'hostname && sbatch --version'
+```
+
+When running the backend locally, set:
+
+```dotenv
+GPU_FARM_HOST=cca-ocr
+GPU_FARM_JOB_ROOT=/pbs/home/m/mjoskowicz/jobs
+```
+
+For local end-to-end training imports, `localhost` will not work in `MODEL_TRAIN_UPLOAD_URL` because the Slurm job runs on CCA, not on your laptop. Use a deployed backend URL, or expose your local backend through a reachable tunnel and set `MODEL_TRAIN_UPLOAD_URL` to that public `/api/v1/models_upload` URL.
 
 ## Add env file
 
@@ -195,7 +322,7 @@ sudo vim /etc/euclides/commentaria-hub-api.env
 Add (minimally):
 ```dotenv
 HTTP_ADDR=127.0.0.1:8090
-ROOT_DIR=/srv/euclides/projects/commentaria-hub/ocrflow
+ROOT_DIR=/srv/euclides/projects/commentaria-hub
 STORE_DIR=/data/euclides/commentaria-hub/store
 BACKUP_ROOT_DIR=/data/euclides/commentaria-hub/full_backups
 ESCRIPTORIUM_USERNAME=admin
@@ -204,14 +331,19 @@ GITHUB_TOKEN=***
 ROBOFLOW_API_KEY=***
 UV_PATH=<path/to/uv/executable/if/not/in/PATH>
 OPENAI_API_KEY=s***A
+OLLAMA_BASE_URL=https://ai-tools-llm-node-a.huma-num.fr/***/
 LOGS_SYSTEMD_UNIT=commentaria-hub-api
 BACKUP_GDRIVE_FOLDER_ID=<your-google-drive-folder-id-for-backups>
+FACSIMILES_GDRIVE_FOLDER_ID=<your-google-drive-folder-id-for-facsimile-pdf-inbox>
+FACSIMILES_PDF_DIR=/data/euclides/commentaria-hub/facsimiles/pdfs
+FACSIMILES_DIAGRAMS_PATH=/data/euclides/commentaria-hub/facsimiles/diagrams
+FACSIMILES_DIAGRAMS_URL=/commentaria/facsimiles/diagrams
 ```
 
 Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_private` file.
 Use the `ESCRIPTORIUM_USERNAME` and `ESCRIPTORIUM_PASSWORD` that you set up in the eScriptorium deployment, you can check it by running:
 Use the output of `which uv` for `UV_PATH`.
-The `OPENAI_API_KEY` is only needed if you want to use the feature execution functionality with prompts.
+`OPENAI_API_KEY` is needed for prompt revisions with `ai_provider=openai`. `OLLAMA_BASE_URL` is needed for prompt revisions with `ai_provider=ollama`.
 
 ```bash
 sudo -iu euclides
@@ -329,6 +461,7 @@ server {
     # Redirects for missing trailing slash
     location = /commentaria/api/v1 { return 301 /commentaria/api/v1/; }
     location = /commentaria/store/data { return 301 /commentaria/store/data/; }
+    location = /commentaria/facsimiles/diagrams { return 301 /commentaria/facsimiles/diagrams/; }
     location = /commentaria/swagger { return 301 /commentaria/swagger/; }
 
     # /commentaria/api/v1/*  ->  http://127.0.0.1:8090/api/v1/*
@@ -347,6 +480,19 @@ server {
     # /commentaria/store/data/*  ->  http://127.0.0.1:8090/store/data/*
     location ^~ /commentaria/store/data/ {
         proxy_pass http://127.0.0.1:8090/store/data/;
+
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_read_timeout 300s;
+        proxy_send_timeout 300s;
+    }
+
+    # /commentaria/facsimiles/diagrams/*  ->  http://127.0.0.1:8090/facsimiles/diagrams/*
+    location ^~ /commentaria/facsimiles/diagrams/ {
+        proxy_pass http://127.0.0.1:8090/facsimiles/diagrams/;
 
         proxy_http_version 1.1;
         proxy_set_header Host $host;

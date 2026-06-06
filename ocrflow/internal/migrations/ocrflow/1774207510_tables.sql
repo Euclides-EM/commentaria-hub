@@ -96,7 +96,8 @@ CREATE TABLE IF NOT EXISTS features
     created_at  TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at  TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
-    dataset_id  TEXT         NOT NULL REFERENCES datasets (id) ON DELETE CASCADE,
+    dataset_id  TEXT REFERENCES datasets (id) ON DELETE CASCADE,
+    scope       TEXT         NOT NULL DEFAULT 'dataset',
 
     is_default  BOOLEAN      NOT NULL DEFAULT FALSE,
     is_list     BOOLEAN      NOT NULL DEFAULT FALSE,
@@ -113,7 +114,8 @@ CREATE TABLE IF NOT EXISTS feature_revisions
     created_at  TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at  TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
-    dataset_id  TEXT         NOT NULL REFERENCES datasets (id) ON DELETE CASCADE,
+    dataset_id  TEXT REFERENCES datasets (id) ON DELETE CASCADE,
+    scope       TEXT         NOT NULL DEFAULT 'dataset',
     feature_id  TEXT         NOT NULL REFERENCES features (id) ON DELETE CASCADE,
 
     prompt      TEXT         NOT NULL,

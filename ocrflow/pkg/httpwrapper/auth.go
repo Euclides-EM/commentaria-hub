@@ -37,7 +37,7 @@ const GitHubTokenKey contextKey = "github_token"
 const GitHubUserKey contextKey = "github_user"
 
 func authorized(r *http.Request) (*http.Request, bool) {
-	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) && !strings.HasSuffix(r.URL.Path, "/logs") {
+	if lo.Contains([]string{http.MethodGet, http.MethodHead, http.MethodOptions}, r.Method) && isPublicReadPath(r.URL.Path) {
 		return r, true
 	}
 	if strings.HasSuffix(r.URL.Path, "/search") && r.Method == http.MethodPost {
@@ -68,6 +68,19 @@ func authorized(r *http.Request) (*http.Request, bool) {
 		return r.WithContext(ctx), true
 	}
 	return r, false
+}
+
+func isPublicReadPath(path string) bool {
+	if strings.HasSuffix(path, "/logs") {
+		return false
+	}
+	if strings.HasPrefix(path, "/facsimilies/") && strings.HasSuffix(path, "/pdf") {
+		return false
+	}
+	if strings.HasPrefix(path, "/editions/") && strings.HasSuffix(path, "/facsimile.pdf") {
+		return false
+	}
+	return true
 }
 
 func authInGithub(token string) (*GitHubUser, bool) {

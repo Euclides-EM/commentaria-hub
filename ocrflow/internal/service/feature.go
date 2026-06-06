@@ -17,11 +17,11 @@ type Feature struct {
 }
 
 func NewFeature(store *store2.FeatureSQL, revisionStore *store2.FeatureRevisionSQL, featureProperty *FeatureProperty) *Feature {
-	return &Feature{store: store, revisionStore: revisionStore}
+	return &Feature{store: store, revisionStore: revisionStore, featureProperty: featureProperty}
 }
 
-func (f *Feature) ListFeatures(datasetID string, expandOptions []feature.ExpandOptions) ([]*feature.Feature, error) {
-	fs, err := f.store.List(datasetID)
+func (f *Feature) ListFeatures(scope feature.DefScope, expandOptions []feature.ExpandOptions) ([]*feature.Feature, error) {
+	fs, err := f.store.ListFeatures(scope)
 	if err != nil {
 		return nil, err
 	}
@@ -34,11 +34,10 @@ func (f *Feature) ListFeatures(datasetID string, expandOptions []feature.ExpandO
 	return fs, nil
 }
 
-func (f *Feature) CreateFeature(datasetID string, m *feature.Feature) (*feature.Feature, error) {
+func (f *Feature) Create(m *feature.Feature) (*feature.Feature, error) {
 	if err := f.validate(m); err != nil {
 		return nil, err
 	}
-	m.DatasetID = datasetID
 	m.ID = idgen.GenerateID("fea")
 	if err := f.store.Create(m); err != nil {
 		return nil, err
@@ -46,15 +45,50 @@ func (f *Feature) CreateFeature(datasetID string, m *feature.Feature) (*feature.
 	return m, nil
 }
 
-func (f *Feature) Delete(datasetID, id string, force bool) error {
-	if _, err := f.GetFeature(datasetID, id, nil); err != nil {
+func (f *Feature) DeleteFeature(id string, force bool) error {
+	feat, err := f.GetFeature(id, nil)
+	if err != nil {
 		return err
 	}
-	return f.store.Delete(datasetID, id)
+	return f.store.DeleteFeature(feat.Scope, id)
 }
 
-func (f *Feature) GetFeature(datasetID, id string, expandOptions []feature.ExpandOptions) (*feature.Feature, error) {
-	feat, err := f.store.GetByID(datasetID, id)
+func (f *Feature) DeleteFeatureInScope(scope feature.DefScope, id string, force bool) error {
+	feat, err := f.GetFeatureInScope(scope, id, nil)
+	if err != nil {
+		return err
+	}
+	return f.store.DeleteFeature(feat.Scope, id)
+}
+
+func (f *Feature) DeleteFeaturesInScope(scope feature.DefScope, ids []string, force bool) ([]string, error) {
+	deleted := make([]string, 0, len(ids))
+	for _, id := range ids {
+		if id == "" {
+			continue
+		}
+		if err := f.DeleteFeatureInScope(scope, id, force); err != nil {
+			return deleted, err
+		}
+		deleted = append(deleted, id)
+	}
+	return deleted, nil
+}
+
+func (f *Feature) GetFeature(id string, expandOptions []feature.ExpandOptions) (*feature.Feature, error) {
+	feat, err := f.store.GetFeatureByID(id)
+	if err != nil {
+		return nil, err
+	}
+	if err := f.applyExpand(feat, expandOptions); err != nil {
+		return nil, err
+	}
+	feat.Properties = lo.Uniq(append(feat.Properties, f.featureProperty.ListDefaultFeaturePropertyKeys()...))
+	return feat, nil
+}
+
+func (f *Feature) GetFeatureInScope(scope feature.DefScope, id string, expandOptions []feature.ExpandOptions) (*feature.Feature, error) {
+	feat, err := f.store.GetFeatureByIDInScope(scope, id)
 	if err != nil {
 		return nil, err
 	}
@@ -69,13 +103,13 @@ func (f *Feature) applyExpand(feat *feature.Feature, expandOptions []feature.Exp
 	for _, opt := range expandOptions {
 		switch opt {
 		case feature.ExpandRevisions:
-			revisions, err := f.revisionStore.ListByFeatureID(feat.DatasetID, feat.ID)
+			revisions, err := f.revisionStore.ListByFeatureIDInScope(feat.Scope, feat.ID)
 			if err != nil {
 				return err
 			}
 			feat.Revisions = revisions
 		case feature.ExpandLatestRevision:
-			revisions, err := f.revisionStore.ListByFeatureID(feat.DatasetID, feat.ID)
+			revisions, err := f.revisionStore.ListByFeatureIDInScope(feat.Scope, feat.ID)
 			if err != nil {
 				return err
 			}
@@ -87,11 +121,12 @@ func (f *Feature) applyExpand(feat *feature.Feature, expandOptions []feature.Exp
 	return nil
 }
 
-func (f *Feature) UpdateFeature(datasetID, id string, updated *feature.Feature) (*feature.Feature, error) {
-	if err := f.validate(updated); err != nil {
+func (f *Feature) UpdateFeature(updated *feature.Feature) (*feature.Feature, error) {
+	err := f.validate(updated)
+	if err != nil {
 		return nil, err
 	}
-	existing, err := f.store.GetByID(datasetID, id)
+	existing, err := f.store.GetFeatureByIDInScope(updated.Scope, updated.ID)
 	if err != nil {
 		return nil, err
 	}
@@ -100,7 +135,7 @@ func (f *Feature) UpdateFeature(datasetID, id string, updated *feature.Feature) 
 	existing.IsDefault = updated.IsDefault
 	existing.Color = updated.Color
 	existing.Properties = updated.Properties
-	if err := f.store.Update(datasetID, id, existing); err != nil {
+	if err := f.store.Update(existing); err != nil {
 		return nil, err
 	}
 	return existing, nil

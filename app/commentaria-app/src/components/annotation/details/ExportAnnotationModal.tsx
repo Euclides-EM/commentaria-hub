@@ -1,9 +1,5 @@
 import { type FormEvent, useEffect, useState } from 'react'
-import {
-  ApiError,
-  IntegrationService,
-  type integration_JobTarget,
-} from '@hub-api'
+import { ApiError, JobsService, type job_Target } from '@hub-api'
 import { useQueryClient } from '@tanstack/react-query'
 import { Button } from '../../core/Button.tsx'
 import { LoadingSpinner } from '../../core/LoadingSpinner.tsx'
@@ -29,18 +25,15 @@ export type ExportAnnotationTarget = {
 }
 
 type RoboflowSettings = Required<
-  Pick<integration_JobTarget, 'api_key' | 'workspace_url' | 'project_id'>
+  Pick<job_Target, 'api_key' | 'workspace_url' | 'project_id'>
 >
 
 type EscriptoriumSettings = Required<
-  Pick<
-    integration_JobTarget,
-    'base_path' | 'document' | 'username' | 'password'
-  >
+  Pick<job_Target, 'base_path' | 'document' | 'username' | 'password'>
 >
 
 type CommentariaSettings = Required<
-  Pick<integration_JobTarget, 'api_key' | 'base_path' | 'dataset_id'>
+  Pick<job_Target, 'api_key' | 'base_path' | 'dataset_id'>
 >
 
 const exportOptions = [
@@ -139,7 +132,7 @@ export function ExportAnnotationModal({
                 password: escriptorium.password,
               }
 
-      await IntegrationService.postIntegrationsJobs({
+      await JobsService.postJobs({
         job: {
           jobs: resolvedTargets.map((target) => ({
             annotation: {

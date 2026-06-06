@@ -8,43 +8,39 @@ import (
 )
 
 // ListFeatures godoc
-// @Summary      List Features
-// @Description  Get a list of available features for the dataset
-// @Tags         Features
-// @Param        dataSetId  path      string  true  "Dataset ID"
+// @Summary      List Edition Features
+// @Description  Get a list of available features for the global editions scope
+// @Tags         Edition Features
 // @Param expand query []string false "Include related entities" Enums(latest_revision,revisions) collectionFormat(multi)
+// @Param scope  query string true "Filter by feature execution scope" Enums(dataset, editions)
+// @Param dataset query string false "Filter by dataset ID, relevant only for the dataset scope; if omitted, returns features from all datasets"
 // @Produce      json
 // @Success      200  {array}   feature.Feature
-// @Router       /datasets/{dataSetId}/features [get]
+// @Router       /features [get]
 func (h *Handlers) ListFeatures(r *http.Request) (any, error) {
-	dataSetId, err := extractDatasetID(r)
+	scope, err := extractDefScope(r)
 	if err != nil {
 		return nil, err
 	}
-	return h.deps.FeatureSvc.ListFeatures(dataSetId, feature.ToExpandOptions(r.URL.Query()["expand"]))
+	return h.deps.FeatureSvc.ListFeatures(scope, feature.ToExpandOptions(r.URL.Query()["expand"]))
 }
 
-// CreateFeatures godoc
-// @Summary      Create Feature
-// @Description  Create a new feature for the dataset
-// @Tags         Features
+// CreateFeature godoc
+// @Summary      Create Edition Feature
+// @Description  Create a new feature for the global editions scope
+// @Tags         Edition Features
 // @Accept       json
 // @Produce      json
-// @Param        dataSetId path      string  true  "Dataset ID"
 // @Param        feature  body      feature.Feature  true  "Feature to create"
 // @Success      200  {object}  feature.Feature
 // @Security 	 BearerAuth
-// @Router        /datasets/{dataSetId}/features [post]
-func (h *Handlers) CreateFeatures(r *http.Request) (any, error) {
-	dataSetId, err := extractDatasetID(r)
-	if err != nil {
-		return nil, err
-	}
+// @Router       /features [post]
+func (h *Handlers) CreateFeature(r *http.Request) (any, error) {
 	var f feature.Feature
 	if err := DecodeBody(r, &f); err != nil {
 		return nil, err
 	}
-	created, err := h.deps.FeatureSvc.CreateFeature(dataSetId, &f)
+	created, err := h.deps.FeatureSvc.Create(&f)
 	if err != nil {
 		return nil, err
 	}
@@ -52,66 +48,87 @@ func (h *Handlers) CreateFeatures(r *http.Request) (any, error) {
 }
 
 // DeleteFeature godoc
-// @Summary      Delete Feature
-// @Description  Delete a feature from the dataset.
-// @Tags         Features
-// @Param        dataSetId    path      string  true  "Dataset ID"
+// @Summary      Delete Edition Feature
+// @Description  Delete a feature from the global editions scope.
+// @Tags         Edition Features
 // @Param        featureId     path      string  true  "Feature ID"
 // @Param        force         query     bool  false "Force deletion"
 // @Produce      json
 // @Success      204  "No Content"
 // @Security 	 BearerAuth
-// @Router        /datasets/{dataSetId}/features/{featureId} [delete]
+// @Router       /features/{featureId} [delete]
 func (h *Handlers) DeleteFeature(r *http.Request) (any, error) {
-	dataSetId, featureId, err := extractFeatureID(r)
+	featureId, err := extractFeatureID(r)
 	if err != nil {
 		return nil, err
 	}
 	force, err := strconv.ParseBool(r.URL.Query().Get("force"))
 	if err != nil {
-		force = false // default to false if parsing fails or not provided
+		force = false
 	}
-	if err = h.deps.FeatureSvc.Delete(dataSetId, featureId, force); err != nil {
+	if err = h.deps.FeatureSvc.DeleteFeature(featureId, force); err != nil {
 		return nil, err
 	}
 	return map[string]string{"status": "deleted"}, nil
 }
 
+// DeleteFeatures godoc
+// @Summary      Delete Edition Features
+// @Description  Delete multiple features in a scope.
+// @Tags         Edition Features
+// @Param        scope         query     string  false "Feature scope" Enums(dataset, editions)
+// @Param        dataset       query     string  false "Dataset ID, relevant only for the dataset scope"
+// @Param        ids           query     []string  false "feature IDs" collectionFormat(multi)
+// @Produce      json
+// @Success      200  {object}  map[string]any
+// @Security 	 BearerAuth
+// @Router       /features [delete]
+func (h *Handlers) DeleteFeatures(r *http.Request) (any, error) {
+	ids := r.URL.Query()["ids"]
+	scope, err := extractDefScope(r)
+	if err != nil {
+		return nil, err
+	}
+	deleted, err := h.deps.FeatureSvc.DeleteFeaturesInScope(scope, ids, false)
+	if err != nil {
+		return nil, err
+	}
+	return map[string]any{"status": "deleted", "deleted": deleted}, nil
+}
+
 // GetFeature godoc
-// @Summary      Get Feature
-// @Description  Get details of a specific feature from the dataset
-// @Tags         Features
-// @Param        dataSetId   path      string  true  "Dataset ID"
+// @Summary      Get Edition Feature
+// @Description  Get details of a specific feature from the global editions scope
+// @Tags         Edition Features
 // @Param        featureId     path      string  true  "Feature ID"
 // @Param        expand query []string false "Include related entities" Enums(latest_revision,revisions) collectionFormat(multi)
 // @Produce      json
 // @Success      200  {object}  feature.Feature
-// @Router        /datasets/{dataSetId}/features/{featureId} [get]
+// @Router        /features/{featureId} [get]
 func (h *Handlers) GetFeature(r *http.Request) (any, error) {
-	dataSetId, featureId, err := extractFeatureID(r)
-	if featureId == "" {
+	featureId, err := extractFeatureID(r)
+	if err != nil {
 		return nil, err
 	}
-	feat, err := h.deps.FeatureSvc.GetFeature(dataSetId, featureId, feature.ToExpandOptions(r.URL.Query()["expand"]))
+	feat, err := h.deps.FeatureSvc.GetFeature(featureId, feature.ToExpandOptions(r.URL.Query()["expand"]))
 	if err != nil {
 		return nil, err
 	}
 	return feat, nil
 }
 
-// UpdateFeature godoc
-// @Summary      Update Feature
-// @Description  Update an existing feature in the dataset.
-// @Tags         Features
-// @Param        dataSetId  path      string  true  "Dataset ID"
+// UpdateEditionsFeature godoc
+// @Summary      Update Edition Feature
+// @Description  Update an existing feature in the global editions scope.
+// @Tags         Edition Features
 // @Param        featureId     path      string  true  "Feature ID"
 // @Param        feature       body      feature.Feature  true  "Updated feature data"
 // @Produce      json
 // @Success      200  {object}  feature.Feature
 // @Security 	 BearerAuth
-// @Router        /datasets/{dataSetId}/features/{featureId} [put]
-func (h *Handlers) UpdateFeature(r *http.Request) (any, error) {
-	dataSetId, featureId, err := extractFeatureID(r)
+// @Router        /features/{featureId} [put]
+func (h *Handlers) UpdateEditionsFeature(r *http.Request) (any, error) {
+	featureId, err := extractFeatureID(r)
 	if err != nil {
 		return nil, err
 	}
@@ -119,7 +136,8 @@ func (h *Handlers) UpdateFeature(r *http.Request) (any, error) {
 	if err := DecodeBody(r, &f); err != nil {
 		return nil, err
 	}
-	updated, err := h.deps.FeatureSvc.UpdateFeature(dataSetId, featureId, &f)
+	f.ID = featureId
+	updated, err := h.deps.FeatureSvc.UpdateFeature(&f)
 	if err != nil {
 		return nil, err
 	}

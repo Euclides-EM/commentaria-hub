@@ -80,7 +80,7 @@ func (t *AnnotationTEI) normalizeFeatureIDs(datasetID string, features []string)
 	}
 
 	// if no features specified, default to all features for the dataset.
-	allFeatures, err := t.featureSvc.ListFeatures(datasetID, nil)
+	allFeatures, err := t.featureSvc.ListFeatures(feature.NewDatasetDefScope(datasetID), nil)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list features for dataset %s: %v", datasetID, err)
 	}
@@ -89,7 +89,7 @@ func (t *AnnotationTEI) normalizeFeatureIDs(datasetID string, features []string)
 	}), nil
 }
 
-func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrKey string) (string, error) {
+func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrKey string, imprintOnly *bool) (string, error) {
 	ann, err := t.annotationSvc.Get(datasetID, annotationID)
 	if err != nil {
 		return "", err
@@ -107,7 +107,7 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 	// 2) TXT fallback: transcription
 	var lines []string
 	if ann.DatasetID == titlepage.DatasetID {
-		if lines, _, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
+		if lines, _, err = t.getTitlePageTexts(pageNumOrKey, imprintOnly); err != nil {
 			return "", fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}
 	} else {
@@ -120,11 +120,11 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 
 func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, features []string, fallbackToOrigin bool) (*teimodel.TEI, error) {
 	// Load results + feature definitions first (shared by both ALTO and TXT paths)
-	results, err := t.resultSvc.ListResults(ann.DatasetID, ann.ID, []string{pageNumOrKey}, features, fallbackToOrigin)
+	results, err := t.resultSvc.ListResults(feature.NewDatasetExecScope(ann.DatasetID, ann.ID), []string{pageNumOrKey}, features, fallbackToOrigin)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list results for annotation %s: %v", ann.ID, err)
 	}
-	feats, err := t.featureSvc.ListFeatures(ann.DatasetID, []feature.ExpandOptions{feature.ExpandRevisions})
+	feats, err := t.featureSvc.ListFeatures(feature.NewDatasetDefScope(ann.DatasetID), []feature.ExpandOptions{feature.ExpandRevisions})
 	if err != nil {
 		return nil, fmt.Errorf("failed to list features for annotation %s: %v", ann.ID, err)
 	}
@@ -144,7 +144,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 	)
 
 	if ann.DatasetID == titlepage.DatasetID {
-		if lines, translations, err = t.getTitlePageTexts(pageNumOrKey); err != nil {
+		if lines, translations, err = t.getTitlePageTexts(pageNumOrKey, nil); err != nil {
 			return nil, fmt.Errorf("failed to get title page texts for TPS annotation: %v", err)
 		}
 		imageURL = futils.LocateFileInDir(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID),
@@ -170,7 +170,7 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 	return tei2.BuildTEIFromLines(pageNumOrKey, pageLines, buildItems(results, feats, lines), imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 }
 
-func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []string, translations map[string][]string, err error) {
+func (t *AnnotationTEI) getTitlePageTexts(editionKey string, imprintOnly *bool) (transcription []string, translations map[string][]string, err error) {
 	edition, err := t.editionSvc.GetEditionByID(editionKey)
 	if err != nil {
 		return nil, nil, fmt.Errorf("failed to get edition by ID %s: %v", editionKey, err)
@@ -181,19 +181,42 @@ func (t *AnnotationTEI) getTitlePageTexts(editionKey string) (transcription []st
 	if edition.Title == nil {
 		return nil, nil, fmt.Errorf("edition %s does not have a title page transcription", editionKey)
 	}
-	transcription = strings.Split(*edition.Title, "\n")
+
+	titleLines := strings.Split(*edition.Title, "\n")
+	var imprintLines []string
 	if edition.Imprint != nil {
-		transcription = append(transcription, strings.Split(*edition.Imprint, "\n")...)
+		imprintLines = strings.Split(*edition.Imprint, "\n")
 	}
+
+	switch {
+	case imprintOnly == nil:
+		transcription = append(titleLines, imprintLines...)
+	case *imprintOnly:
+		transcription = imprintLines
+	default:
+		transcription = titleLines
+	}
+
 	if edition.TitleEN == nil {
 		return transcription, nil, nil
 	}
-	translations = map[string][]string{
-		"en": strings.Split(*edition.TitleEN, "\n"),
-	}
+
+	titleENLines := strings.Split(*edition.TitleEN, "\n")
+	var imprintENLines []string
 	if edition.ImprintEN != nil {
-		translations["en"] = append(translations["en"], strings.Split(*edition.ImprintEN, "\n")...)
+		imprintENLines = strings.Split(*edition.ImprintEN, "\n")
 	}
+
+	translations = map[string][]string{}
+	switch {
+	case imprintOnly == nil:
+		translations["en"] = append(titleENLines, imprintENLines...)
+	case *imprintOnly:
+		translations["en"] = imprintENLines
+	default:
+		translations["en"] = titleENLines
+	}
+
 	return transcription, translations, nil
 }
 
@@ -351,7 +374,7 @@ func buildItems(results []*feature.Result, feats []*feature.Feature, transcripti
 
 			matches := textmatch.FindLoosePhraseMatches(fullContent, surface)
 			if len(matches) == 0 {
-				log.Printf("warning: no matches found for result, skipping: feature=%s key=%s dataset=%s annotatio=%s", res.FeatureID, res.PageKey, res.DatasetID, res.AnnotationID)
+				log.Printf("warning: no matches found for result, skipping: feature=%s key=%s dataset=%s annotatio=%s", res.FeatureID, res.Key, res.Scope.DatasetID, res.Scope.AnnotationID)
 			}
 			for _, match := range matches {
 				startIndex := match[0]

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import { type feature_Feature, FeaturesService } from '@hub-api'
+import { EditionFeaturesService, type feature_Feature } from '@hub-api'
 import { useFeaturePropertiesQuery } from '../../queries/datasets.ts'
 import { normalizeFeatureProperties } from '../../utils/featureProperties.ts'
 import type { FeatureEditState } from './FeatureCard.tsx'
@@ -26,8 +26,9 @@ export function useDatasetFeatures(datasetId: string) {
   const featuresQuery = useQuery({
     queryKey: featuresQueryKey,
     queryFn: () =>
-      FeaturesService.getDatasetsFeatures({
-        dataSetId: datasetId,
+      EditionFeaturesService.getFeatures({
+        scope: 'dataset',
+        dataset: datasetId,
         expand: ['revisions'],
       }),
     refetchOnWindowFocus: false,
@@ -86,8 +87,7 @@ export function useDatasetFeatures(datasetId: string) {
       featureId: string
       feature: feature_Feature
     }) =>
-      FeaturesService.putDatasetsFeatures({
-        dataSetId: datasetId,
+      EditionFeaturesService.putFeatures({
         featureId,
         feature,
       }),
@@ -98,8 +98,7 @@ export function useDatasetFeatures(datasetId: string) {
 
   const deleteFeatureMutation = useMutation({
     mutationFn: (featureId: string) =>
-      FeaturesService.deleteDatasetsFeatures({
-        dataSetId: datasetId,
+      EditionFeaturesService.deleteFeatures1({
         featureId,
       }),
     onSuccess: async () => {

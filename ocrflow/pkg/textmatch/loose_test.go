@@ -68,3 +68,60 @@ func TestFindLoosePhraseMatches(t *testing.T) {
 		})
 	}
 }
+
+func TestFindFuzzyPhraseMatch(t *testing.T) {
+	tests := []struct {
+		name         string
+		text         string
+		featureValue string
+		maxEdits     int
+		want         string
+		wantOK       bool
+	}{
+		{
+			name:         "rescues one letter source spelling variation",
+			text:         "De ses eerste Boecken EVCLIDIS, Van de beginselen ende fondamenten der Geometrie. Waer by ghevoecht zijn",
+			featureValue: "EVCLIDIS, Van de beginselen ende fundamenten der Geometrie",
+			maxEdits:     2,
+			want:         "EVCLIDIS, Van de beginselen ende fondamenten der Geometrie",
+			wantOK:       true,
+		},
+		{
+			name:         "rescues two letter source spelling variation",
+			text:         "Written by IAN PIETERSZOON DOV, der stadt Leyden Landtmeter.",
+			featureValue: "IAN PIETERSZOON DOU",
+			maxEdits:     2,
+			want:         "IAN PIETERSZOON DOV",
+			wantOK:       true,
+		},
+		{
+			name:         "rejects unrelated value",
+			text:         "EVCLIDIS, Van de beginselen ende fondamenten der Geometrie.",
+			featureValue: "Apollonius and Archimedes in a later appendix",
+			maxEdits:     2,
+			wantOK:       false,
+		},
+		{
+			name:         "rejects very short values",
+			text:         "DOV",
+			featureValue: "DOU",
+			maxEdits:     2,
+			wantOK:       false,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got, ok := FindFuzzyPhraseMatch(tt.text, tt.featureValue, tt.maxEdits)
+			if ok != tt.wantOK {
+				t.Fatalf("FindFuzzyPhraseMatch() ok = %v, want %v", ok, tt.wantOK)
+			}
+			if !ok {
+				return
+			}
+			if match := tt.text[got[0]:got[1]]; match != tt.want {
+				t.Fatalf("FindFuzzyPhraseMatch() = %q, want %q", match, tt.want)
+			}
+		})
+	}
+}

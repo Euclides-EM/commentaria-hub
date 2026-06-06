@@ -59,13 +59,18 @@ export function AppStateProvider({ children }: AppStateProviderProps) {
   const parsedViewMode: ViewMode | null =
     queryState.viewMode === 'models' ||
     queryState.viewMode === 'annotations' ||
+    queryState.viewMode === 'features' ||
     queryState.viewMode === 'jobs' ||
     queryState.viewMode === 'backups' ||
     queryState.viewMode === 'logs'
       ? queryState.viewMode
       : null
   const parsedDatasetTab: DatasetTab =
-    queryState.datasetTab === 'features' ? 'features' : DEFAULT_DATASET_TAB
+    queryState.datasetTab === 'annotations'
+      ? 'annotations'
+      : queryState.datasetTab === 'features'
+        ? 'features'
+        : DEFAULT_DATASET_TAB
   const parsedAnnotationTab: AnnotationTab =
     queryState.annotationTab === 'text' ||
     queryState.annotationTab === 'gallery' ||

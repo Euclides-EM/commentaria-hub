@@ -6,8 +6,7 @@ import (
 
 type Execution struct {
 	common.Meta
-	DatasetID    string `json:"dataset_id"`
-	AnnotationID string `json:"annotation_id"`
+	Scope ExecScope `json:"scope"`
 	// Keys is optional, if not provided, the execution will run on all keys of the dataset.
 	Keys         []string             `json:"keys,omitempty"`
 	Apply        []ExecutionApplyItem `json:"apply"`
@@ -59,4 +58,5 @@ const (
 	ExecutionSkipIfFeatureExist  ExecutionSkipIf = "feature_exist"
 	ExecutionSkipIfRevisionExist ExecutionSkipIf = "revision_exist"
 	ExecutionSkipIfHumanReviewed ExecutionSkipIf = "human_reviewed"
+	ExecutionSkipIfValueNotEmpty ExecutionSkipIf = "value_not_empty"
 )

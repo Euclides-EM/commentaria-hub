@@ -2,6 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { job_Job } from '../models/job_Job';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
 import { request as __request } from '../core/request';
@@ -21,21 +22,27 @@ export class BackupsService {
     /**
      * Create backup
      * Creates a new backup of the current system state.
-     * @returns string Backup ID
+     * @returns job_Job Created
      * @throws ApiError
      */
     public static postBackups({
+        async,
         syncToDrive,
     }: {
+        /**
+         * Create the backup in a background job instead of waiting for completion
+         */
+        async?: boolean,
         /**
          * If true, the backup will be copied to Google Drive using rclone after creation
          */
         syncToDrive?: boolean,
-    }): CancelablePromise<string> {
+    }): CancelablePromise<job_Job> {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/backups',
             query: {
+                'async': async,
                 'sync_to_drive': syncToDrive,
             },
         });
@@ -109,22 +116,30 @@ export class BackupsService {
     /**
      * Sync backup to Google Drive
      * Copies an existing backup to Google Drive using rclone.
-     * @returns string OK
+     * @returns job_Job OK
      * @throws ApiError
      */
     public static putBackupsSync({
         backupId,
+        async,
     }: {
         /**
          * ID of the backup to sync
          */
         backupId: string,
-    }): CancelablePromise<Record<string, string>> {
+        /**
+         * Sync the backup in a background job instead of waiting for completion
+         */
+        async?: boolean,
+    }): CancelablePromise<job_Job> {
         return __request(OpenAPI, {
             method: 'PUT',
             url: '/backups/{backupId}/sync',
             path: {
                 'backupId': backupId,
+            },
+            query: {
+                'async': async,
             },
         });
     }

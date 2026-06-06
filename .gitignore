@@ -27,7 +27,10 @@ ocrflow/store/data/*
 */internal/docs
 ocrflow/store/items_metadata/diagram-directories.json
 ocrflow/store/diagrams/
+ocrflow/store/models/
 
 dh_datasets_create.state.json
 
 **/testdata/**/*.stage.png
+
+**/imgs/_variants/

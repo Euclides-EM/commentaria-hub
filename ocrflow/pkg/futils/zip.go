@@ -9,52 +9,74 @@ import (
 )
 
 func Unzip(srcZip, destDir string) error {
-	r, err := zip.OpenReader(srcZip)
+	if err := os.MkdirAll(destDir, 0o755); err != nil {
+		return err
+	}
+	return extractZipWithMode(srcZip, destDir, true)
+}
+
+func extractZip(src, dst string) error {
+	return extractZipWithMode(src, dst, false)
+}
+
+func extractZipWithMode(src, dst string, preserveMode bool) error {
+	r, err := zip.OpenReader(src)
 	if err != nil {
 		return err
 	}
 	defer r.Close()
 
-	if err := os.MkdirAll(destDir, 0o755); err != nil {
-		return err
-	}
-
-	for _, f := range r.File {
-		fpath, err := SafeJoin(destDir, f.Name)
-		if err != nil {
-			return fmt.Errorf("invalid file path: %w", err)
+	for _, item := range r.File {
+		info := item.FileInfo()
+		if info.Mode()&os.ModeSymlink != 0 {
+			return fmt.Errorf("refusing symlink in zip archive: %s", item.Name)
 		}
-		if f.FileInfo().IsDir() {
-			if err := os.MkdirAll(fpath, f.Mode()); err != nil {
+
+		target, err := SafeJoin(dst, item.Name)
+		if err != nil {
+			return err
+		}
+
+		if info.IsDir() {
+			if err := os.MkdirAll(target, zipEntryMode(info, preserveMode, 0o755)); err != nil {
 				return err
 			}
 			continue
 		}
 
-		if err := os.MkdirAll(filepath.Dir(fpath), 0o755); err != nil {
+		if err := os.MkdirAll(filepath.Dir(target), 0o755); err != nil {
 			return err
 		}
 
-		rc, err := f.Open()
+		in, err := item.Open()
 		if err != nil {
 			return err
 		}
 
-		outFile, err := os.OpenFile(fpath, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, f.Mode())
+		out, err := os.OpenFile(target, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, zipEntryMode(info, preserveMode, 0o644))
 		if err != nil {
-			rc.Close()
+			in.Close()
 			return err
 		}
 
-		if _, err := io.Copy(outFile, rc); err != nil {
-			rc.Close()
-			outFile.Close()
-			return err
+		_, copyErr := io.Copy(out, in)
+		closeErr := out.Close()
+		in.Close()
+		if copyErr != nil {
+			return copyErr
 		}
-		rc.Close()
-		outFile.Close()
+		if closeErr != nil {
+			return closeErr
+		}
 	}
 	return nil
+}
+
+func zipEntryMode(info os.FileInfo, preserveMode bool, fallback os.FileMode) os.FileMode {
+	if preserveMode {
+		return info.Mode()
+	}
+	return fallback
 }
 
 func Zip(srcDir, destZip string) error {

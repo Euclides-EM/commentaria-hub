@@ -19,8 +19,9 @@ func (m *MetadataDetails) ListAnnotationRules() ([]*annotationrule.MetadataDetai
 		mdef := annotationrule.ZeroFromType(rule)
 		mdef.SetDefaultValues()
 		md := &annotationrule.MetadataDetails{
-			Type:    rule,
-			Default: mdef,
+			Type:        rule,
+			Default:     mdef,
+			PreferAsync: slices.Contains(annotationrule.PreferAsyncTypes, rule),
 		}
 		res = append(res, md)
 	}

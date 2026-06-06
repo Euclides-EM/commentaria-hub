@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
 import {
   ExecutionsService,
   type feature_Execution,
@@ -7,7 +7,6 @@ import {
   type feature_ExecutionSkipIf,
   type feature_ExecutionStatus,
   type feature_Feature,
-  FeaturesService,
   type model_Edition,
 } from '@hub-api'
 import { useAppState } from '../../../context/useAppState.ts'
@@ -17,6 +16,14 @@ import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { CreateFeatureExecutionModal } from './CreateFeatureExecutionModal.tsx'
 import { formatEditionLabel } from '../../../utils/editions.ts'
 import { useAllEditionsQuery } from '../../../queries/editions.ts'
+import { useAnnotationsQuery } from '../../../queries/annotations.ts'
+import {
+  useDatasetImageKeysQuery,
+  useDatasetFeaturesQuery,
+} from '../../../queries/datasets.ts'
+import { useFeatureExecutionsQuery } from '../../../queries/executions.ts'
+import { parsePageEntries } from '../../../utils/pages.ts'
+import { hasAnnotationPages } from '../../../utils/editions.ts'
 
 const EXECUTION_STATUS_LABELS: Record<feature_ExecutionStatus, string> = {
   success: 'Completed',
@@ -30,12 +37,14 @@ const EXECUTION_SKIP_IF_OPTIONS: feature_ExecutionSkipIf[] = [
   'feature_exist',
   'revision_exist',
   'human_reviewed',
+  'value_not_empty',
 ]
 
 const EXECUTION_SKIP_IF_LABELS: Record<feature_ExecutionSkipIf, string> = {
   feature_exist: 'Feature exist',
   revision_exist: 'Revision exist',
   human_reviewed: 'Human reviewed',
+  value_not_empty: 'Value not empty',
 }
 
 const formatDate = (value?: string) => {
@@ -63,26 +72,44 @@ export function FeatureExecutionsTab() {
   >({})
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false)
 
-  const featuresQueryKey = ['features', 'revisions', datasetId]
-  const executionsQueryKey = ['executions', datasetId]
+  const executionsQueryKey = ['executions', 'dataset', datasetId]
 
-  const featuresQuery = useQuery({
-    queryKey: featuresQueryKey,
-    queryFn: () =>
-      FeaturesService.getDatasetsFeatures({
-        dataSetId: datasetId,
-        expand: ['revisions'],
-      }),
-    refetchOnWindowFocus: false,
+  const featuresQuery = useDatasetFeaturesQuery(datasetId)
+
+  const executionsQuery = useFeatureExecutionsQuery({
+    scope: 'dataset',
+    datasetId,
   })
 
-  const executionsQuery = useQuery({
-    queryKey: executionsQueryKey,
-    queryFn: () =>
-      ExecutionsService.getFeaturesExecutions({ dataset: datasetId }),
-    refetchInterval: 5 * 1000,
-    refetchOnWindowFocus: false,
-  })
+  const annotationsQuery = useAnnotationsQuery(datasetId)
+  const annotation = useMemo(
+    () =>
+      (annotationsQuery.data ?? []).find((item) => item.id === annotationId) ??
+      null,
+    [annotationId, annotationsQuery.data],
+  )
+  const annotationPageEntries = useMemo(
+    () => (annotation ? parsePageEntries(annotation.pages || '') : []),
+    [annotation],
+  )
+  const shouldLoadAnnotationImageKeys =
+    !!annotation && !hasAnnotationPages(annotation)
+  const annotationImageKeysQuery = useDatasetImageKeysQuery(
+    datasetId,
+    shouldLoadAnnotationImageKeys,
+    annotationPageEntries.length > 0 ? annotationPageEntries : null,
+  )
+  const annotationKeys = useMemo(() => {
+    if (!annotation) {
+      return []
+    }
+    if (annotationPageEntries.length > 0) {
+      return [...new Set(annotationPageEntries)].sort((left, right) =>
+        left.localeCompare(right, undefined, { numeric: true }),
+      )
+    }
+    return (annotationImageKeysQuery.data ?? []).map((image) => image.key)
+  }, [annotation, annotationImageKeysQuery.data, annotationPageEntries])
 
   const editionsQuery = useAllEditionsQuery({
     titlePageStatus: ['No', 'Unknown'],
@@ -94,10 +121,19 @@ export function FeatureExecutionsTab() {
     }
     return map
   }, [editionsQuery.data])
+  const annotationEditionItems = useMemo(
+    () =>
+      annotationKeys.map((key) => {
+        const edition = editionsByKey.get(key)
+        if (edition) return edition
+        return { key } as model_Edition
+      }),
+    [annotationKeys, editionsByKey],
+  )
 
   const cancelExecutionMutation = useMutation({
     mutationFn: (executionId: string) =>
-      ExecutionsService.putFeaturesExecutionsCancel({ executionId }),
+      ExecutionsService.putFeatureExecutionsCancel({ executionId }),
     onSuccess: async () => {
       await queryClient.invalidateQueries({ queryKey: executionsQueryKey })
     },
@@ -105,7 +141,7 @@ export function FeatureExecutionsTab() {
 
   const createExecutionMutation = useMutation({
     mutationFn: (execution: feature_Execution) =>
-      ExecutionsService.postFeaturesExecutions({ execution }),
+      ExecutionsService.postFeatureExecutions({ execution }),
     onSuccess: async () => {
       await queryClient.invalidateQueries({ queryKey: executionsQueryKey })
     },
@@ -137,7 +173,8 @@ export function FeatureExecutionsTab() {
     const executionList = executionsQuery.data ?? []
     if (executionStatusFilter === 'all') return executionList
     return executionList.filter(
-      (execution) => execution.status === executionStatusFilter,
+      (execution: feature_Execution) =>
+        execution.status === executionStatusFilter,
     )
   }, [executionsQuery.data, executionStatusFilter])
 
@@ -146,13 +183,25 @@ export function FeatureExecutionsTab() {
     if (featuresQuery.error instanceof Error) return featuresQuery.error.message
     if (executionsQuery.error instanceof Error)
       return executionsQuery.error.message
+    if (annotationsQuery.error instanceof Error)
+      return annotationsQuery.error.message
+    if (annotationImageKeysQuery.error instanceof Error)
+      return annotationImageKeysQuery.error.message
     if (editionsQuery.error instanceof Error) return editionsQuery.error.message
-    if (featuresQuery.error || executionsQuery.error || editionsQuery.error) {
+    if (
+      featuresQuery.error ||
+      executionsQuery.error ||
+      editionsQuery.error ||
+      annotationsQuery.error ||
+      annotationImageKeysQuery.error
+    ) {
       return 'Failed to load feature executions data.'
     }
     return null
   }, [
     actionError,
+    annotationImageKeysQuery.error,
+    annotationsQuery.error,
     editionsQuery.error,
     executionsQuery.error,
     featuresQuery.error,
@@ -211,8 +260,11 @@ export function FeatureExecutionsTab() {
     }
 
     const executionPayload: feature_Execution = {
-      dataset_id: datasetId,
-      annotation_id: annotationId,
+      scope: {
+        type: 'dataset',
+        dataset_id: datasetId,
+        annotation_id: annotationId,
+      },
       apply,
       keys: selectedKeys,
       policy:
@@ -303,122 +355,135 @@ export function FeatureExecutionsTab() {
               : 'No executions match the selected status.'}
           </div>
         ) : (
-          filteredExecutions.map((execution, index) => {
-            const executionId = execution.id ?? ''
-            const executionCardKey =
-              executionId || execution.created_at || String(index)
-            const isCanceling = cancelingExecutionId === executionId
-            const canCancel =
-              execution.status === 'in_progress' ||
-              execution.status === 'canceling'
-            const executionKeys = Array.from(new Set(execution.keys ?? []))
-            const showExecutionEditions =
-              expandedExecutionEditions[executionCardKey] ?? false
+          filteredExecutions.map(
+            (execution: feature_Execution, index: number) => {
+              const executionId = execution.id ?? ''
+              const executionCardKey =
+                executionId || execution.created_at || String(index)
+              const isCanceling = cancelingExecutionId === executionId
+              const canCancel =
+                execution.status === 'in_progress' ||
+                execution.status === 'canceling'
+              const executionKeys = Array.from(new Set(execution.keys ?? []))
+              const showExecutionEditions =
+                expandedExecutionEditions[executionCardKey] ?? false
 
-            return (
-              <article
-                key={executionCardKey}
-                className="border border-gray-200 rounded-lg bg-white p-4 space-y-2"
-              >
-                <div className="flex items-center justify-between gap-3">
-                  <div className="text-sm font-semibold text-gray-900">
-                    {execution.name || executionId || 'Unnamed'}
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="inline-flex items-center rounded-full border border-gray-300 bg-gray-50 px-2 py-0.5 text-xs text-gray-700">
-                      {execution.status
-                        ? EXECUTION_STATUS_LABELS[execution.status] ||
-                          execution.status
-                        : 'Unknown'}
-                    </span>
-                    {canCancel && (
-                      <Button
-                        variant="danger"
-                        type="button"
-                        className="px-2 py-1 text-xs"
-                        onClick={() =>
-                          executionId && void handleCancelExecution(executionId)
-                        }
-                        disabled={isCanceling}
-                      >
-                        {isCanceling ? 'Canceling...' : 'Cancel'}
-                      </Button>
-                    )}
-                  </div>
-                </div>
-
-                {execution.description && (
-                  <div className="text-sm text-gray-700">
-                    {execution.description}
-                  </div>
-                )}
-
-                <div className="text-xs text-gray-500">
-                  Created: {formatDate(execution.created_at)}
-                </div>
-
-                {executionKeys.length > 0 && (
-                  <div className="space-y-2">
-                    <button
-                      type="button"
-                      onClick={() => toggleExecutionEditions(executionCardKey)}
-                      className="text-xs text-gray-700 hover:text-gray-900"
-                    >
-                      {showExecutionEditions ? '▾' : '▸'} Including{' '}
-                      {executionKeys.length}{' '}
-                      {executionKeys.length === 1 ? 'edition' : 'editions'}.
-                    </button>
-                    {showExecutionEditions && (
-                      <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
-                        {executionKeys.map((editionKey) => {
-                          const item = editionsByKey.get(editionKey)
-                          return (
-                            <div
-                              key={editionKey}
-                              className="px-3 py-2 text-xs text-gray-700"
-                            >
-                              {item ? (
-                                formatEditionLabel(item)
-                              ) : (
-                                <span>{editionKey} - details unavailable</span>
-                              )}
-                            </div>
-                          )
-                        })}
-                      </div>
-                    )}
-                  </div>
-                )}
-
-                {execution.apply && execution.apply.length > 0 && (
-                  <div className="text-xs text-gray-600 flex flex-wrap items-center gap-1.5">
-                    <span className="text-gray-500">Features:</span>
-                    {execution.apply.map((applyItem, itemIndex) => {
-                      const featureId = applyItem.feature ?? ''
-                      const featureInfo = featureInfoById[featureId]
-                      const label =
-                        featureInfo?.name || featureId || 'Unknown feature'
-                      return (
-                        <span
-                          key={`${featureId || 'unknown'}-${itemIndex}`}
-                          title={featureId}
-                          className="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-gray-50 px-2 py-0.5"
+              return (
+                <article
+                  key={executionCardKey}
+                  className="border border-gray-200 rounded-lg bg-white p-4 space-y-2"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="text-sm font-semibold text-gray-900">
+                      {execution.name || executionId || 'Unnamed'}
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex items-center rounded-full border border-gray-300 bg-gray-50 px-2 py-0.5 text-xs text-gray-700">
+                        {execution.status
+                          ? EXECUTION_STATUS_LABELS[execution.status] ||
+                            execution.status
+                          : 'Unknown'}
+                      </span>
+                      {canCancel && (
+                        <Button
+                          variant="danger"
+                          type="button"
+                          className="px-2 py-1 text-xs"
+                          onClick={() =>
+                            executionId &&
+                            void handleCancelExecution(executionId)
+                          }
+                          disabled={isCanceling}
                         >
-                          <span
-                            className="inline-block w-2 h-2 rounded-full border border-gray-300"
-                            style={{
-                              backgroundColor: featureInfo?.color || '#d1d5db',
-                            }}
-                          />
-                          <span>{label}</span>
-                        </span>
-                      )
-                    })}
+                          {isCanceling ? 'Canceling...' : 'Cancel'}
+                        </Button>
+                      )}
+                    </div>
                   </div>
-                )}
-              </article>
-            )
-          })
+
+                  {execution.description && (
+                    <div className="text-sm text-gray-700">
+                      {execution.description}
+                    </div>
+                  )}
+
+                  <div className="text-xs text-gray-500">
+                    Created: {formatDate(execution.created_at)}
+                  </div>
+
+                  {executionKeys.length > 0 && (
+                    <div className="space-y-2">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          toggleExecutionEditions(executionCardKey)
+                        }
+                        className="text-xs text-gray-700 hover:text-gray-900"
+                      >
+                        {showExecutionEditions ? '▾' : '▸'} Including{' '}
+                        {executionKeys.length}{' '}
+                        {executionKeys.length === 1 ? 'edition' : 'editions'}.
+                      </button>
+                      {showExecutionEditions && (
+                        <div className="border border-gray-200 rounded-md max-h-52 overflow-auto divide-y divide-gray-100">
+                          {executionKeys.map((editionKey: string) => {
+                            const item = editionsByKey.get(editionKey)
+                            return (
+                              <div
+                                key={editionKey}
+                                className="px-3 py-2 text-xs text-gray-700"
+                              >
+                                {item ? (
+                                  formatEditionLabel(item)
+                                ) : (
+                                  <span>
+                                    {editionKey} - details unavailable
+                                  </span>
+                                )}
+                              </div>
+                            )
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {execution.apply && execution.apply.length > 0 && (
+                    <div className="text-xs text-gray-600 flex flex-wrap items-center gap-1.5">
+                      <span className="text-gray-500">Features:</span>
+                      {execution.apply.map(
+                        (
+                          applyItem: feature_ExecutionApplyItem,
+                          itemIndex: number,
+                        ) => {
+                          const featureId = applyItem.feature ?? ''
+                          const featureInfo = featureInfoById[featureId]
+                          const label =
+                            featureInfo?.name || featureId || 'Unknown feature'
+                          return (
+                            <span
+                              key={`${featureId || 'unknown'}-${itemIndex}`}
+                              title={featureId}
+                              className="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-gray-50 px-2 py-0.5"
+                            >
+                              <span
+                                className="inline-block w-2 h-2 rounded-full border border-gray-300"
+                                style={{
+                                  backgroundColor:
+                                    featureInfo?.color || '#d1d5db',
+                                }}
+                              />
+                              <span>{label}</span>
+                            </span>
+                          )
+                        },
+                      )}
+                    </div>
+                  )}
+                </article>
+              )
+            },
+          )
         )}
       </div>
 
@@ -427,11 +492,13 @@ export function FeatureExecutionsTab() {
         onClose={() => setIsCreateModalOpen(false)}
         onSubmit={handleCreateExecution}
         features={sortedFeatures}
-        editionItems={editionsQuery.data ?? []}
+        editionItems={annotationEditionItems}
         skipIfOptions={EXECUTION_SKIP_IF_OPTIONS}
         skipIfLabels={EXECUTION_SKIP_IF_LABELS}
         loadingFeatures={featuresQuery.isLoading}
-        loadingEditions={editionsQuery.isLoading}
+        loadingEditions={
+          annotationsQuery.isLoading || annotationImageKeysQuery.isLoading
+        }
         isSubmitting={creatingExecution}
         errorMessage={executionsError}
       />

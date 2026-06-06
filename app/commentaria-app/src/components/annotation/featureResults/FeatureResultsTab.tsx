@@ -8,6 +8,10 @@ import { SearchInput } from '../../core/SearchInput.tsx'
 import { ErrorMessage } from '../../core/ErrorMessage.tsx'
 import { Button } from '../../core/Button.tsx'
 import { useDatasetFeaturesQuery } from '../../../queries/datasets.ts'
+import {
+  EditionFilterSelect,
+  type EditionFilterOption,
+} from '../../featureResults/EditionFilterSelect.tsx'
 import { selectStyles } from '../../../styles/selectStyles.ts'
 import { formatEditionLabel } from '../../../utils/editions.ts'
 import { useAllEditionsQuery } from '../../../queries/editions.ts'
@@ -16,11 +20,6 @@ type FeatureOption = {
   value: string
   label: string
   color: string
-}
-
-type EditionOption = {
-  value: string
-  label: string
 }
 
 type FeatureResultRow = {
@@ -79,7 +78,7 @@ export function FeatureResultsTab() {
   const [selectedFeatureOption, setSelectedFeatureOption] =
     useState<FeatureOption | null>(null)
   const [selectedEditionOption, setSelectedEditionOption] =
-    useState<EditionOption | null>(null)
+    useState<EditionFilterOption | null>(null)
   const [sortKey, setSortKey] = useState<SortKey>('editionDetails')
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
   const tableContainerRef = useRef<HTMLDivElement | null>(null)
@@ -187,7 +186,7 @@ export function FeatureResultsTab() {
             normalizeText(result.source?.revision) ||
             normalizeText(latestRevisionByFeatureId.get(featureId)) ||
             '',
-          editionDetails: editionDetailsByKey.get(result.page_key || '') || '',
+          editionDetails: editionDetailsByKey.get(result.key || '') || '',
           value: formatValue(result),
         }
       }),
@@ -210,7 +209,7 @@ export function FeatureResultsTab() {
       }
       if (
         selectedEditionOption &&
-        row.result.page_key !== selectedEditionOption.value
+        row.result.key !== selectedEditionOption.value
       ) {
         return false
       }
@@ -218,7 +217,7 @@ export function FeatureResultsTab() {
         return true
       }
       const haystack = [
-        row.result.page_key,
+        row.result.key,
         row.result.feature_id,
         row.featureName,
         row.featureDescription,
@@ -235,10 +234,10 @@ export function FeatureResultsTab() {
 
   const editionOptions = useMemo(() => {
     const seen = new Set<string>()
-    const options: EditionOption[] = []
+    const options: EditionFilterOption[] = []
 
     for (const row of rows) {
-      const pageKey = normalizeText(row.result.page_key)
+      const pageKey = normalizeText(row.result.key)
       if (!pageKey || !row.editionDetails || seen.has(pageKey)) {
         continue
       }
@@ -260,7 +259,7 @@ export function FeatureResultsTab() {
     const getSortValue = (row: FeatureResultRow, key: SortKey) => {
       switch (key) {
         case 'pageKey':
-          return normalizeSearchValue(row.result.page_key)
+          return normalizeSearchValue(row.result.key)
         case 'editionDetails':
           return normalizeSearchValue(row.editionDetails)
         case 'featureName':
@@ -305,7 +304,7 @@ export function FeatureResultsTab() {
       header.map((value) => escapeCsvValue(value)).join(','),
       ...sortedRows.map((row) =>
         [
-          row.result.page_key || '',
+          row.result.key || '',
           row.editionDetails,
           row.featureName || row.result.name || '',
           row.featureDescription || row.result.description || '',
@@ -325,31 +324,6 @@ export function FeatureResultsTab() {
 
     link.href = url
     link.download = `feature-results-${suffix}.csv`
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-    URL.revokeObjectURL(url)
-  }
-
-  const handleExportSql = async () => {
-    if (!datasetId || !annotationId) {
-      return
-    }
-
-    const sqlDump =
-      await FeatureResultsService.getDatasetsAnnotationsResultsSqldump({
-        dataSetId: datasetId,
-        id: annotationId,
-      })
-
-    const blob = new Blob([sqlDump], {
-      type: 'application/sql;charset=utf-8;',
-    })
-    const url = URL.createObjectURL(blob)
-    const link = document.createElement('a')
-
-    link.href = url
-    link.download = `feature_results_${datasetId}_${annotationId}.sql`
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -424,16 +398,6 @@ export function FeatureResultsTab() {
           >
             Export CSV
           </Button>
-          <Button
-            type="button"
-            className="px-2 py-1 text-xs"
-            onClick={() => {
-              void handleExportSql()
-            }}
-            disabled={!datasetId || !annotationId}
-          >
-            Export to SQL
-          </Button>
         </div>
       </div>
 
@@ -464,18 +428,11 @@ export function FeatureResultsTab() {
             menuPosition="fixed"
             isClearable
           />
-          {editionOptions.length > 0 && (
-            <Select
-              value={selectedEditionOption}
-              onChange={(option) => setSelectedEditionOption(option)}
-              options={editionOptions}
-              placeholder="Filter by edition..."
-              styles={selectStyles<EditionOption>({ controlWidth: 320 })}
-              menuPortalTarget={document.body}
-              menuPosition="fixed"
-              isClearable
-            />
-          )}
+          <EditionFilterSelect
+            value={selectedEditionOption}
+            onChange={setSelectedEditionOption}
+            options={editionOptions}
+          />
           <div className="text-xs text-gray-500 shrink-0">
             {searchQuery.trim() ||
             selectedFeatureOption ||
@@ -549,7 +506,7 @@ export function FeatureResultsTab() {
                   const row = sortedRows[virtualRow.index]
                   return (
                     <div
-                      key={`${row.result.id || row.result.feature_id || 'feature-result'}-${row.result.page_key || ''}-${virtualRow.index}`}
+                      key={`${row.result.id || row.result.feature_id || 'feature-result'}-${row.result.key || ''}-${virtualRow.index}`}
                       ref={rowVirtualizer.measureElement}
                       data-index={virtualRow.index}
                       className="absolute left-0 top-0 flex w-full border-b border-gray-200 bg-white text-sm hover:bg-gray-50"
@@ -560,16 +517,14 @@ export function FeatureResultsTab() {
                       <div
                         className={`${COLUMN_CLASS_NAMES.pageKey} flex items-start px-4 py-3 text-xs text-gray-700 font-mono`}
                       >
-                        {row.result.page_key ? (
+                        {row.result.key ? (
                           <button
                             type="button"
                             className="max-w-28 truncate whitespace-nowrap text-left text-sky-700 hover:text-sky-900 hover:underline cursor-pointer"
-                            title={`Open ${row.result.page_key} in page view`}
-                            onClick={() =>
-                              handleJumpToPageView(row.result.page_key)
-                            }
+                            title={`Open ${row.result.key} in page view`}
+                            onClick={() => handleJumpToPageView(row.result.key)}
                           >
-                            {row.result.page_key}
+                            {row.result.key}
                           </button>
                         ) : (
                           <div

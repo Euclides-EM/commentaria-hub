@@ -12,8 +12,9 @@ import {
   SortingState,
   useReactTable,
 } from "@tanstack/react-table";
+import { useQuery } from "@tanstack/react-query";
 import styled from "@emotion/styled";
-import type { search_OrderByOption } from "@hub-api";
+import { FacsimilesService, type search_OrderByOption } from "@hub-api";
 import { SiMaterialdesign } from "react-icons/si";
 import { Item, STUDY_CORPUSES } from "../types";
 import { useAppliedFilter } from "../contexts/FilterAppliedContext";
@@ -45,6 +46,7 @@ import {
   formatDisplayEditors,
   formatDisplayYear,
 } from "../utils/itemDisplay.ts";
+import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
 
 const TableContainer = styled.div`
   ${ScrollbarStyle};
@@ -295,6 +297,21 @@ export function Catalogue() {
   const [expanded, setExpanded] = useState<ExpandedState>({});
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
   const orderBy = useMemo(() => toServerOrderBy(sorting), [sorting]);
+  const { data: localFacsimiles = [] } = useQuery({
+    queryKey: ["facsimiles", "download-available"],
+    queryFn: () => FacsimilesService.getFacsimilies({}),
+  });
+  const downloadAvailableEditionKeys = useMemo(
+    () =>
+      new Set(
+        localFacsimiles
+          .filter(
+            (facsimile) => facsimile.download_available && facsimile.edition_id,
+          )
+          .map((facsimile) => facsimile.edition_id!),
+      ),
+    [localFacsimiles],
+  );
 
   const copyEditionKey = useCallback(async (editionKey: string) => {
     try {
@@ -307,6 +324,17 @@ export function Catalogue() {
       console.error("Failed to copy edition key:", err);
     }
   }, []);
+  const openMainScan = useCallback(
+    (editionKey: string) => {
+      if (!token) {
+        return;
+      }
+      void openAuthenticatedFacsimilePDF(editionKey, token).catch((error) => {
+        console.error("Failed to open main scan:", error);
+      });
+    },
+    [token],
+  );
   const {
     items: filteredItems,
     fetchNextPage,
@@ -563,6 +591,17 @@ export function Catalogue() {
                   <AiOutlineCopy style={{ fontSize: "1rem" }} />
                 )}
               </IconButton>
+              {token &&
+                downloadAvailableEditionKeys.has(info.row.original.key) && (
+                  <IconButton
+                    type="button"
+                    onClick={() => openMainScan(info.row.original.key)}
+                    title="View main scan"
+                    aria-label="View main scan"
+                  >
+                    <FaFilePdf style={{ color: SEA_COLOR, fontSize: "1rem" }} />
+                  </IconButton>
+                )}
               {info.row.original.facsimiles.length > 0 && (
                 <FacsimileLinks
                   facsimiles={info.row.original.facsimiles}
@@ -699,6 +738,8 @@ export function Catalogue() {
       token,
       copiedKey,
       copyEditionKey,
+      downloadAvailableEditionKeys,
+      openMainScan,
     ],
   );
 

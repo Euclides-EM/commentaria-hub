@@ -1,107 +1,77 @@
 package llm
 
 import (
-	"context"
-	"encoding/base64"
 	"fmt"
-	"log"
-	"mime"
-	"net/http"
-	"os"
-	"path/filepath"
 	"strings"
-	"time"
-
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/responses"
 )
 
 const (
-	modelGPT5Mini         = "gpt-5-mini"
-	unboundedOutputTokens = true
-	requestTimeout        = 5 * time.Minute
-	totalTimeout          = 3 * time.Minute
+	ProviderOpenAI = "openai"
+	ProviderOllama = "ollama"
 )
 
+var providerConcurrencyLimits = map[string]int{
+	ProviderOpenAI: 8,
+	ProviderOllama: 1,
+}
+
 type Client struct {
-	openAIKey string
+	openAI   *OpenAIClient
+	ollama   *OllamaClient
+	limiters map[string]chan struct{}
 }
 
-func (c *Client) Exec(prompt string, attachmentPath string) (string, error) {
-	if strings.TrimSpace(c.openAIKey) == "" {
-		return "", fmt.Errorf("llm exec: openai api key is empty")
+func NewClient(openAIKey string, ollamaBaseURL, ollamaAuthToken string) *Client {
+	return &Client{
+		openAI:   NewOpenAIClient(openAIKey),
+		ollama:   NewOllamaClient(ollamaBaseURL, ollamaAuthToken),
+		limiters: makeProviderLimiters(providerConcurrencyLimits),
 	}
-	if strings.TrimSpace(prompt) == "" {
-		return "", fmt.Errorf("llm exec: prompt is empty")
-	}
-
-	client := openai.NewClient(
-		option.WithAPIKey(c.openAIKey),
-		option.WithMaxRetries(0),
-	)
-	payload := map[string]any{
-		"model": modelGPT5Mini,
-	}
-	if unboundedOutputTokens {
-		payload["max_output_tokens"] = nil
-	}
-
-	input, err := buildInputPayload(prompt, attachmentPath)
-	if err != nil {
-		return "", err
-	}
-	payload["input"] = input
-
-	startedAt := time.Now()
-	ctx, cancel := context.WithTimeout(context.Background(), totalTimeout)
-	defer cancel()
-	log.Printf("debug: llm exec start model=%s attachment=%t", modelGPT5Mini, strings.TrimSpace(attachmentPath) != "")
-
-	var resp responses.Response
-	attempts, err := executeWithRetries(ctx, modelGPT5Mini, func() error {
-		return client.Post(ctx, "/responses", payload, &resp, option.WithRequestTimeout(requestTimeout))
-	})
-	if err != nil {
-		log.Printf("debug: llm exec end model=%s duration=%s attempts=%d error=true", modelGPT5Mini, time.Since(startedAt), attempts)
-		return "", fmt.Errorf("llm exec: openai responses api call failed after %s: %w", time.Since(startedAt), err)
-	}
-	log.Printf("debug: llm exec end model=%s duration=%s attempts=%d", modelGPT5Mini, time.Since(startedAt), attempts)
-	return resp.OutputText(), nil
 }
 
-func NewClient(openAIKey string) *Client {
-	return &Client{openAIKey: openAIKey}
+func (c *Client) Exec(provider string, model string, prompt string, attachmentPath string) (string, error) {
+	return c.ExecWithLogLabel(provider, model, prompt, attachmentPath, "")
 }
 
-func buildInputPayload(prompt string, attachmentPath string) (any, error) {
-	if strings.TrimSpace(attachmentPath) == "" {
-		return prompt, nil
+func (c *Client) ExecWithLogLabel(provider string, model string, prompt string, attachmentPath string, logLabel string) (string, error) {
+	normalizedProvider := strings.ToLower(strings.TrimSpace(provider))
+	var clt AIProviderClient
+	switch normalizedProvider {
+	case ProviderOpenAI:
+		clt = c.openAI
+	case ProviderOllama:
+		clt = c.ollama
+	default:
+		return "", fmt.Errorf("llm exec: unsupported ai provider %q", provider)
 	}
+	slots, ok := c.limiters[normalizedProvider]
+	if !ok {
+		slots = makeLimiter(1)
+		c.limiters[normalizedProvider] = slots
+	}
+	slots <- struct{}{}
+	defer func() {
+		<-slots
+	}()
+	return clt.ExecWithLogLabel(model, prompt, attachmentPath, logLabel)
+}
 
-	fileData, err := os.ReadFile(attachmentPath)
-	if err != nil {
-		return nil, fmt.Errorf("llm exec: read attachment %s: %w", attachmentPath, err)
+type AIProviderClient interface {
+	Exec(model string, prompt string, attachmentPath string) (string, error)
+	ExecWithLogLabel(model string, prompt string, attachmentPath string, logLabel string) (string, error)
+}
+
+func makeLimiter(limit int) chan struct{} {
+	if limit < 1 {
+		limit = 1
 	}
-	mimeType := mime.TypeByExtension(filepath.Ext(attachmentPath))
-	if mimeType == "" {
-		mimeType = http.DetectContentType(fileData)
+	return make(chan struct{}, limit)
+}
+
+func makeProviderLimiters(limits map[string]int) map[string]chan struct{} {
+	limiters := make(map[string]chan struct{}, len(limits))
+	for provider, limit := range limits {
+		limiters[provider] = makeLimiter(limit)
 	}
-	encoded := base64.StdEncoding.EncodeToString(fileData)
-	return []map[string]any{
-		{
-			"role": "user",
-			"content": []map[string]any{
-				{
-					"type":      "input_file",
-					"filename":  filepath.Base(attachmentPath),
-					"file_data": fmt.Sprintf("data:%s;base64,%s", mimeType, encoded),
-				},
-				{
-					"type": "input_text",
-					"text": prompt,
-				},
-			},
-		},
-	}, nil
+	return limiters
 }

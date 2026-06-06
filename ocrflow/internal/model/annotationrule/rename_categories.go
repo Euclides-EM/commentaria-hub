@@ -2,7 +2,7 @@ package annotationrule
 
 type RenameCategories struct {
 	Base    `json:",inline"`
-	Renames map[string]string `json:"renames" example:""`
+	Renames map[string]string `json:"renames"`
 }
 
 func (r *RenameCategories) GetType() Type {

@@ -1,4 +1,5 @@
 import {
+  getTeiAllZoneCategories,
   getTeiHighlightCategories,
   getTeiSurfaceZones,
   getTeiTranslations,
@@ -57,12 +58,14 @@ type TeiPaneProps = {
   activeLineMatchIds: string[]
   onHoverLineMatchIds: (ids: string[]) => void
   onSurfaceZonesChange: (zones: TeiSurfaceZone[]) => void
+  onAllZoneCategoriesChange: (categories: string[]) => void
 }
 
 export function TeiPane({
   activeLineMatchIds,
   onHoverLineMatchIds,
   onSurfaceZonesChange,
+  onAllZoneCategoriesChange,
 }: TeiPaneProps) {
   const {
     annotation,
@@ -146,7 +149,7 @@ export function TeiPane({
       FeatureResultsService.getDatasetsAnnotationsResults({
         dataSetId: datasetId,
         id: annotationId,
-        keys: String(currentPageOrKey),
+        keys: [String(currentPageOrKey)],
         fallbackToOrigin: true,
       }),
     enabled: !!datasetId && !!annotationId,
@@ -250,6 +253,21 @@ export function TeiPane({
       onSurfaceZonesChange([])
     },
     [onSurfaceZonesChange],
+  )
+
+  useEffect(() => {
+    onAllZoneCategoriesChange(
+      surfaceZoneTeiContents
+        ? getTeiAllZoneCategories(surfaceZoneTeiContents)
+        : [],
+    )
+  }, [currentPageOrKey, onAllZoneCategoriesChange, surfaceZoneTeiContents])
+
+  useEffect(
+    () => () => {
+      onAllZoneCategoriesChange([])
+    },
+    [onAllZoneCategoriesChange],
   )
 
   const teiCategories = useMemo(
@@ -586,10 +604,13 @@ export function TeiPane({
       )
       return {
         ...(existing || {}),
-        dataset_id: datasetId,
-        annotation_id: annotationId,
+        scope: {
+          type: 'dataset',
+          dataset_id: datasetId,
+          annotation_id: annotationId,
+        },
         feature_id: featureId,
-        page_key: existing?.page_key || String(currentPageOrKey),
+        key: existing?.key || String(currentPageOrKey),
         values: [
           ...preservedValues,
           ...toResultValues(draftByFeature[featureId] || []),

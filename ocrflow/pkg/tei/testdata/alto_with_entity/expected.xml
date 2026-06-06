@@ -20,11 +20,14 @@
         <interp xml:id="cat_philosopher">philosopher</interp>
       </interpGrp>
       <interpGrp xml:id="props" type="highlight-props"></interpGrp>
+      <interpGrp xml:id="zone_categories" type="zone_categories">
+        <interp xml:id="zone_cat_running_title">running_title</interp>
+      </interpGrp>
     </standOff>
   </teiHeader>
   <facsimile>
     <surface xml:id="page_page1" facs="https://example.com/alto_page1.png" n="page1">
-      <zone xml:id="zone_blk_page_page1_1" type="text-block" ulx="100" uly="200" lrx="900" lry="240" corresp="alto:textblock:b1"></zone>
+      <zone xml:id="zone_blk_page_page1_1" type="text-block" ana="#zone_cat_running_title" ulx="100" uly="200" lrx="900" lry="240" corresp="alto:textblock:b1"></zone>
       <zone xml:id="z_line_page_page1_1_1" type="text-line" ulx="100" uly="200" lrx="900" lry="240" corresp="alto:textline:l1"></zone>
     </surface>
   </facsimile>

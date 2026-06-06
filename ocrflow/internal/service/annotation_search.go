@@ -12,6 +12,7 @@ import (
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
@@ -123,15 +124,15 @@ func (s *AnnotationSearch) listAnnotationKeys(as *annotation.Search, ann *annota
 		}
 	}
 
-	results, err := s.resultSvc.ListResults(as.DatasetID, ann.ID, nil, nil, true)
+	results, err := s.resultSvc.ListResults(feature.NewDatasetExecScope(as.DatasetID, ann.ID), nil, nil, true)
 	if err != nil {
 		return nil, err
 	}
 	for _, result := range results {
-		if strings.TrimSpace(result.PageKey) == "" {
+		if strings.TrimSpace(result.Key) == "" {
 			continue
 		}
-		keySet[result.PageKey] = struct{}{}
+		keySet[result.Key] = struct{}{}
 	}
 
 	altoDir := s.fileSysMgt.DatasetAnnotationAltoDir(ann)

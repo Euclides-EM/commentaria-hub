@@ -1,0 +1,107 @@
+name: backup-verify
+
+on:
+  schedule:
+    - cron: '0 7 * * 0' # weekly at Sunday 7am UTC
+  workflow_dispatch:
+
+env:
+  BACKUP_FILE_PREFIX: euclides_backup_
+  DRIVE_REMOTE_NAME: Gdrive
+  DRIVE_ROOT_FOLDER_ID: 1ajLNSEY8WN-Dcf3D_WxHZCm88mNeua4m
+  LOOKBACK_HOURS: '7'
+  MIN_BACKUP_SIZE_GB: '20'
+  MAX_BACKUP_SIZE_GB: '80'
+
+jobs:
+  verify-backup:
+    runs-on: ubuntu-latest
+    env:
+      RCLONE_CONFIG_CONTENT: ${{ secrets.RCLONE_CONFIG }}
+    steps:
+      - name: Install rclone
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Write rclone config
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONFIG_CONTENT" > ~/.config/rclone/rclone.conf
+          chmod 600 ~/.config/rclone/rclone.conf
+
+      - name: Verify recent backup exists
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          cutoff_epoch="$(date -u -d "${LOOKBACK_HOURS} hours ago" +%s)"
+          min_backup_size_bytes=$((MIN_BACKUP_SIZE_GB * 1024 * 1024 * 1024))
+          max_backup_size_bytes=$((MAX_BACKUP_SIZE_GB * 1024 * 1024 * 1024))
+          backup_listing_json="$(
+            rclone lsjson "${DRIVE_REMOTE_NAME}:" \
+              --drive-root-folder-id="${DRIVE_ROOT_FOLDER_ID}"
+          )"
+
+          mapfile -t backups < <(
+            printf '%s\n' "${backup_listing_json}" \
+            | jq -r --arg prefix "${BACKUP_FILE_PREFIX}" '.[] | select(.Name | startswith($prefix)) | [.Name, .ModTime] | @tsv'
+          )
+
+          mapfile -t recent_backups < <(
+            printf '%s\n' "${backup_listing_json}" \
+            | jq -r --arg prefix "${BACKUP_FILE_PREFIX}" '.[] | select(.Name | startswith($prefix)) | [.Name, .ModTime, (.Size | tostring)] | @tsv'
+          )
+
+          if [ "${#backups[@]}" -eq 0 ]; then
+            echo "No backup entries found in drive root folder ${DRIVE_ROOT_FOLDER_ID}."
+            exit 1
+          fi
+
+          found_recent=false
+          latest_backup_name=""
+          latest_backup_time=""
+          latest_backup_epoch=0
+          for entry in "${backups[@]}"; do
+            name="${entry%%$'\t'*}"
+            mod_time="${entry#*$'\t'}"
+            mod_epoch="$(date -u -d "${mod_time}" +%s)"
+            echo "${name} ${mod_time}"
+            if [ "${mod_epoch}" -gt "${latest_backup_epoch}" ]; then
+              latest_backup_epoch="${mod_epoch}"
+              latest_backup_name="${name}"
+              latest_backup_time="${mod_time}"
+            fi
+            if [ "${mod_epoch}" -ge "${cutoff_epoch}" ]; then
+              found_recent=true
+            fi
+          done
+
+          if [ "${found_recent}" != true ]; then
+            echo "No recent backup entry was updated in the last ${LOOKBACK_HOURS} hours."
+            if [ -n "${latest_backup_name}" ]; then
+              echo "Latest backup found: ${latest_backup_name} at ${latest_backup_time}"
+            fi
+            exit 1
+          fi
+
+          found_recent_valid_size=false
+          for entry in "${recent_backups[@]}"; do
+            name="${entry%%$'\t'*}"
+            rest="${entry#*$'\t'}"
+            mod_time="${rest%%$'\t'*}"
+            size_bytes="${rest##*$'\t'}"
+            mod_epoch="$(date -u -d "${mod_time}" +%s)"
+            if [ "${mod_epoch}" -lt "${cutoff_epoch}" ]; then
+              continue
+            fi
+            echo "Recent backup ${name} has size ${size_bytes} bytes"
+            if [ "${size_bytes}" -ge "${min_backup_size_bytes}" ] && [ "${size_bytes}" -le "${max_backup_size_bytes}" ]; then
+              found_recent_valid_size=true
+              break
+            fi
+          done
+
+          if [ "${found_recent_valid_size}" != true ]; then
+            echo "No recent backup had a size in the expected range ${MIN_BACKUP_SIZE_GB}-${MAX_BACKUP_SIZE_GB} GiB."
+            exit 1
+          fi

@@ -25,3 +25,13 @@ func (m Meta) WithDescription(description string) Meta {
 	m.Description = description
 	return m
 }
+
+func (m Meta) WithCreatedAt(createdAt time.Time) Meta {
+	m.CreatedAt = createdAt
+	return m
+}
+
+func (m Meta) WithUpdatedAt(updatedAt time.Time) Meta {
+	m.UpdatedAt = updatedAt
+	return m
+}

@@ -19,7 +19,7 @@ import { MAIN_CONTENT_ID } from "../components/layout/routes.ts";
 import { groupByMap } from "../utils/util.ts";
 import { useEditionsSearchInfinite } from "../hooks/useEditionsSearch.ts";
 import { feature_Feature } from "@hub-api";
-import { FeaturesService } from "@hub-api";
+import { EditionFeaturesService } from "@hub-api";
 import { MultiSelect } from "../components/tps/filters/MultiSelect.tsx";
 import { Radio } from "../components/tps/filters/Radio.tsx";
 import { ItemView } from "../components/tps/features/ItemView.tsx";
@@ -56,8 +56,9 @@ export function Gallery({ titlePagesModeOn }: { titlePagesModeOn: boolean }) {
   const featuresQuery = useQuery({
     queryKey: ["title-pages", "features", TITLE_PAGES_DATASET_ID],
     queryFn: () =>
-      FeaturesService.getDatasetsFeatures({
-        dataSetId: TITLE_PAGES_DATASET_ID,
+      EditionFeaturesService.getFeatures({
+        scope: "dataset",
+        dataset: TITLE_PAGES_DATASET_ID,
       }),
     enabled: titlePagesModeOn,
   });

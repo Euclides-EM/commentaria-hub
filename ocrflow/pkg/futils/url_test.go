@@ -22,3 +22,14 @@ func TestIsLocalFileURL(t *testing.T) {
 		})
 	}
 }
+
+func TestLocalFilePathToURL(t *testing.T) {
+	got, err := LocalFilePathToURL("/tmp/a file.pdf")
+	if err != nil {
+		t.Fatalf("LocalFilePathToURL returned error: %v", err)
+	}
+	want := "file:///tmp/a%20file.pdf"
+	if got != want {
+		t.Fatalf("LocalFilePathToURL() = %q, want %q", got, want)
+	}
+}

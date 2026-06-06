@@ -8,7 +8,6 @@ import (
 	"log"
 	"mime/multipart"
 	"os"
-	"os/exec"
 	"path/filepath"
 	"sort"
 	"strings"
@@ -44,9 +43,8 @@ type Backup struct {
 	backupdir             string
 	restoreFromBackupPath string
 
-	rcloneRemoteName     string
-	rcloneGDriveFolderID string
-	maxBackupsToStore    int
+	rclone            *RcloneDrive
+	maxBackupsToStore int
 
 	shutdownFunc func() error
 	// checkpointDB, if set, is called before copying the DB file into the backup.
@@ -67,8 +65,7 @@ func NewBackup(baseData, models, items, db, backupDir, restoreDir, rcloneRemoteN
 		dbPath:                db,
 		backupdir:             backupDir,
 		restoreFromBackupPath: restoreDir,
-		rcloneRemoteName:      rcloneRemoteName,
-		rcloneGDriveFolderID:  rcloneGDriveFolderID,
+		rclone:                NewRcloneDrive(rcloneRemoteName, rcloneGDriveFolderID, "backup rclone"),
 		maxBackupsToStore:     maxBackupsToStore,
 		shutdownFunc:          shutdownFunc,
 	}
@@ -111,7 +108,7 @@ func (s *Backup) SetCheckpointFunc(f func() error) {
 }
 
 // CreateBackup creates a new backup of the current system state.
-func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
+func (s *Backup) CreateBackup(syncToDrive bool, progress func(string)) (string, error) {
 	if err := s.ensureBackupDir(); err != nil {
 		return "", err
 	}
@@ -173,7 +170,7 @@ func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
 	}
 
 	if syncToDrive {
-		if err := s.syncBackupToDrive(dst, name); err != nil {
+		if err := s.syncBackupToDrive(dst, name, progress); err != nil {
 			return "", fmt.Errorf("create backup: sync to drive: %w", err)
 		}
 	}
@@ -181,11 +178,17 @@ func (s *Backup) CreateBackup(syncToDrive bool) (string, error) {
 	return strings.TrimSuffix(name, ".zip"), nil
 }
 
-func (s *Backup) syncBackupToDrive(localPath, filename string) error {
-	if s.rcloneRemoteName == "" {
+func (s *Backup) syncBackupToDrive(localPath, filename string, progress func(string)) error {
+	if s.rclone.RemoteName == "" {
 		return errors.New("backup: rclone remote name is not configured")
 	}
-	if _, err := s.runRclone("copy", localPath, s.rcloneRemoteName+":"+filename); err != nil {
+	if progress == nil {
+		progress = func(message string) {
+			log.Printf("backup rclone progress: %s", strings.TrimSpace(message))
+		}
+	}
+	args := []string{"--progress", "--stats=10s", "--stats-one-line", "copyto", localPath, s.rclone.RemotePath(filename)}
+	if _, err := s.rclone.RunStreaming(progress, args...); err != nil {
 		return err
 	}
 	if err := s.ensureMaxDriveBackups(); err != nil {
@@ -194,12 +197,12 @@ func (s *Backup) syncBackupToDrive(localPath, filename string) error {
 	return nil
 }
 
-func (s *Backup) SyncBackupToDrive(backupId string) error {
+func (s *Backup) SyncBackupToDrive(backupId string, progress func(string)) error {
 	zipPath, err := s.GetBackupFullPath(backupId)
 	if err != nil {
 		return err
 	}
-	if err := s.syncBackupToDrive(zipPath, filepath.Base(zipPath)); err != nil {
+	if err := s.syncBackupToDrive(zipPath, filepath.Base(zipPath), progress); err != nil {
 		return fmt.Errorf("sync backup to drive: %w", err)
 	}
 	log.Printf("completed sync backup to drive: %s", zipPath)
@@ -226,7 +229,7 @@ func (s *Backup) ensureMaxDriveBackups() error {
 }
 
 func (s *Backup) listDriveBackups() ([]driveBackupEntry, error) {
-	out, err := s.runRclone("lsf", s.rcloneRemoteName+":")
+	out, err := s.rclone.Run("lsf", s.rclone.RemotePath(""))
 	if err != nil {
 		return nil, err
 	}
@@ -260,25 +263,11 @@ func parseDriveBackupEntries(listing string) []driveBackupEntry {
 
 func (s *Backup) deleteDriveBackup(entry driveBackupEntry) error {
 	if entry.isDir {
-		_, err := s.runRclone("purge", s.rcloneRemoteName+":"+entry.name)
+		_, err := s.rclone.Run("purge", s.rclone.RemotePath(entry.name))
 		return err
 	}
-	_, err := s.runRclone("deletefile", s.rcloneRemoteName+":"+entry.name)
+	_, err := s.rclone.Run("deletefile", s.rclone.RemotePath(entry.name))
 	return err
-}
-
-func (s *Backup) runRclone(args ...string) ([]byte, error) {
-	if s.rcloneGDriveFolderID != "" {
-		args = append([]string{"--drive-root-folder-id=" + s.rcloneGDriveFolderID}, args...)
-	}
-	log.Printf("running rclone %s", strings.Join(args, " "))
-	cmd := exec.Command("rclone", args...)
-	out, err := cmd.CombinedOutput()
-	if err != nil {
-		return nil, fmt.Errorf("rclone: %w: %s", err, string(out))
-	}
-	log.Printf("rclone completed: %s", string(out))
-	return out, nil
 }
 
 // SetupRestoreBackup restores the system state from the backup with the given ID (or latest if backupId is empty or "latest").

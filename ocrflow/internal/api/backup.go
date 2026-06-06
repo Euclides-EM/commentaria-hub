@@ -4,6 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+	"github.com/MiaMish/elements-dh/ocrflow/internal/model/job"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
 )
 
@@ -23,8 +25,10 @@ func (h *Handlers) ListBackups(r *http.Request) (any, error) {
 // @Description  Creates a new backup of the current system state.
 // @Tags         Backups
 // @Produce      json
+// @Param        async         query     bool    false  "Create the backup in a background job instead of waiting for completion"
 // @Param        sync_to_drive  query     bool    false  "If true, the backup will be copied to Google Drive using rclone after creation"
 // @Success      201  {string}  string  "Backup ID"
+// @Success      201  {object}  job.Job
 // @Security 	 BearerAuth
 // @Router       /backups [post]
 func (h *Handlers) CreateBackup(r *http.Request) (any, error) {
@@ -32,7 +36,17 @@ func (h *Handlers) CreateBackup(r *http.Request) (any, error) {
 	if err != nil {
 		syncToDrive = h.deps.Env.SyncBackupToRemoteByDefault()
 	}
-	return h.deps.BackupSvc.CreateBackup(syncToDrive)
+	async, err := strconv.ParseBool(r.URL.Query().Get("async"))
+	if err == nil && async {
+		return h.deps.JobSvc.CreateJob(&job.Job{
+			Task: job.BackupCreate,
+			Meta: common.NewMeta("").
+				WithName("Create backup").
+				WithDescription("Create backup" + map[bool]string{true: " and sync to Drive", false: ""}[syncToDrive]),
+			Target: &job.Target{SyncToDrive: syncToDrive},
+		})
+	}
+	return h.deps.BackupSvc.CreateBackup(syncToDrive, nil)
 }
 
 // SyncBackupToDrive godoc
@@ -41,12 +55,24 @@ func (h *Handlers) CreateBackup(r *http.Request) (any, error) {
 // @Tags         Backups
 // @Produce      json
 // @Param        backupId   path      string  true  "ID of the backup to sync"
+// @Param        async      query     bool    false  "Sync the backup in a background job instead of waiting for completion"
 // @Success      200  {object}  map[string]string
+// @Success      200  {object}  job.Job
 // @Security 	 BearerAuth
 // @Router       /backups/{backupId}/sync [put]
 func (h *Handlers) SyncBackupToDrive(r *http.Request) (any, error) {
 	backupId := r.PathValue("backupId")
-	if err := h.deps.BackupSvc.SyncBackupToDrive(backupId); err != nil {
+	async, err := strconv.ParseBool(r.URL.Query().Get("async"))
+	if err == nil && async {
+		return h.deps.JobSvc.CreateJob(&job.Job{
+			Task: job.BackupSyncToDrive,
+			Meta: common.NewMeta("").
+				WithName("Sync backup to Drive").
+				WithDescription("Sync backup " + backupId + " to Drive"),
+			Target: &job.Target{BackupID: backupId},
+		})
+	}
+	if err := h.deps.BackupSvc.SyncBackupToDrive(backupId, nil); err != nil {
 		return nil, err
 	}
 	return map[string]string{"message": "backup synced to drive"}, nil

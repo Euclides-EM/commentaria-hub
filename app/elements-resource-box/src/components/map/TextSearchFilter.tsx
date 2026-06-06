@@ -28,7 +28,7 @@ const FieldSelector = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
 `;
 
 const FilterTitle = styled.div`
@@ -45,7 +45,7 @@ const Label = styled.label`
 const CheckboxGroup = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 1.5rem;
+  gap: 1rem;
 `;
 
 const CheckboxLabel = styled.label`
@@ -68,6 +68,7 @@ type TextSearchFilterProps = {
 };
 
 const FIELD_OPTIONS: { value: keyof Item; label: string }[] = [
+  { value: "key", label: "Key" },
   { value: "shortTitle", label: "Short Title" },
   { value: "title", label: "Title" },
   { value: "titleEn", label: "Title (English)" },

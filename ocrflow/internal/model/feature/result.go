@@ -5,11 +5,10 @@ import (
 )
 
 type Result struct {
-	common.Meta  `json:",inline"`
-	DatasetID    string `json:"dataset_id"`
-	AnnotationID string `json:"annotation_id"`
-	FeatureID    string `json:"feature_id"`
-	PageKey      string `json:"page_key"`
+	common.Meta `json:",inline"`
+	Scope       ExecScope `json:"scope"`
+	FeatureID   string    `json:"feature_id"`
+	Key         string    `json:"key"`
 	// Source indicates the origin of the value, such as which OCR process or manual correction it came from. This is important for traceability and debugging.
 	Source ResultSource `json:"source"`
 	// Values is a list of all the values that were extracted for this feature. There may be multiple values if the feature appears multiple times in the document.

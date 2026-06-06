@@ -3,11 +3,15 @@ package store
 import (
 	"database/sql"
 	"fmt"
+	"log"
+	"os"
+	"path/filepath"
 	"slices"
 	"strings"
 	"time"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
 	"github.com/samber/lo"
 )
 
@@ -15,6 +19,7 @@ const FacsimileIDPrefix = "fac"
 
 type FacsimileSQL struct {
 	BaseSQL
+	itemsMetadataDir string
 }
 
 func (s *FacsimileSQL) ListFacsimiles(editionIDs []string) ([]*model.Facsimile, error) {
@@ -48,6 +53,7 @@ func (s *FacsimileSQL) ListFacsimiles(editionIDs []string) ([]*model.Facsimile, 
 	if err = rows.Err(); err != nil {
 		return nil, err
 	}
+	s.setAvailability(facsimiles...)
 	return facsimiles, nil
 }
 
@@ -75,6 +81,7 @@ func (s *FacsimileSQL) GetFacsimileByID(facsimileID string) (*model.Facsimile, e
 		return nil, err
 	}
 
+	s.setAvailability(f)
 	return f, nil
 }
 
@@ -86,7 +93,7 @@ func (s *FacsimileSQL) InsertFacsimile(f *model.Facsimile) (*model.Facsimile, er
 	if err != nil {
 		return nil, err
 	}
-	return f, nil
+	return s.GetFacsimileByID(f.ID)
 }
 
 func (s *FacsimileSQL) UpdateFacsimile(f *model.Facsimile) (*model.Facsimile, error) {
@@ -110,8 +117,37 @@ func (s *FacsimileSQL) DeleteFacsimile(id string) error {
 	return err
 }
 
-func NewFacsimileSql(db *sql.DB) *FacsimileSQL {
+func (s *FacsimileSQL) setAvailability(facsimiles ...*model.Facsimile) {
+	diagramKeys, err := LoadDiagramDirectoryKeys(s.itemsMetadataDir)
+	if err != nil {
+		log.Printf("failed to load diagram crop edition keys: %v", err)
+	}
+	for _, facsimile := range facsimiles {
+		if facsimile == nil {
+			continue
+		}
+		facsimile.DownloadAvailable = facsimileDownloadAvailable(facsimile)
+		if err == nil {
+			_, facsimile.DiagramCropsAvailable = diagramKeys[facsimile.EditionID]
+		}
+	}
+}
+
+func facsimileDownloadAvailable(facsimile *model.Facsimile) bool {
+	if facsimile == nil || facsimile.ScanURL == "" {
+		return false
+	}
+	path, err := futils.URLToLocalFilePath(facsimile.ScanURL)
+	if err != nil || strings.ToLower(filepath.Ext(path)) != ".pdf" {
+		return false
+	}
+	_, err = os.Stat(path)
+	return err == nil
+}
+
+func NewFacsimileSql(db *sql.DB, itemsMetadataDir string) *FacsimileSQL {
 	return &FacsimileSQL{
-		BaseSQL{db: db},
+		BaseSQL:          BaseSQL{db: db},
+		itemsMetadataDir: strings.TrimSpace(itemsMetadataDir),
 	}
 }

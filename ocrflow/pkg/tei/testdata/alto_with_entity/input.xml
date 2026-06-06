@@ -8,11 +8,13 @@
       <fileName>page1.png</fileName>
     </sourceImageInformation>
   </Description>
-  <Tags></Tags>
+  <Tags>
+    <OtherTag ID="BT1" LABEL="RunningTitleZone" DESCRIPTION="region type"></OtherTag>
+  </Tags>
   <Layout>
     <Page WIDTH="1000" HEIGHT="1400" ID="page1">
       <PrintSpace HPOS="0" VPOS="0" WIDTH="1000" HEIGHT="1400">
-        <TextBlock ID="b1" HPOS="100" VPOS="200" WIDTH="800" HEIGHT="40">
+        <TextBlock ID="b1" HPOS="100" VPOS="200" WIDTH="800" HEIGHT="40" TAGREFS="BT1">
           <Shape><Polygon POINTS="100 200 900 200 900 240 100 240 100 200"/></Shape>
           <TextLine ID="l1" HPOS="100" VPOS="200" WIDTH="800" HEIGHT="40">
             <Shape><Polygon POINTS="100 200 900 200 900 240 100 240 100 200"/></Shape>

@@ -1,14 +1,18 @@
-import { type ChangeEvent, useRef, useState } from 'react'
+import { type ChangeEvent, useEffect, useMemo, useRef, useState } from 'react'
+import { useQueryClient } from '@tanstack/react-query'
+import type { job_Job } from '@hub-api'
 import { Button } from '../core/Button'
 import { ErrorMessage } from '../core/ErrorMessage'
 import { LoadingSpinner } from '../core/LoadingSpinner'
 import {
   useBackupsQuery,
+  backupsQueryKey,
   useCreateBackupFromZipMutation,
   useCreateBackupMutation,
   useRestoreBackupMutation,
   useSyncBackupToDriveMutation,
 } from '../../queries/backups'
+import { useNonCompletedIntegrationJobsQuery } from '../../queries/integrations'
 import { RestoreBackupModal } from '../modal/RestoreBackupModal'
 import { API_BASE_URL } from '../../config/api'
 import { timeAgo } from '../../utils/timeAgo'
@@ -40,9 +44,33 @@ const isNetworkError = (error: unknown): boolean => {
   )
 }
 
+const isJob = (value: unknown): value is job_Job => {
+  return Boolean(value && typeof value === 'object' && 'task' in value)
+}
+
+const isActiveJob = (job?: job_Job): boolean =>
+  job?.status === 'pending' || job?.status === 'running'
+
+const jobStatusLabel = (job: job_Job | undefined, idle: string) => {
+  switch (job?.status) {
+    case 'pending':
+      return 'Queued'
+    case 'running':
+      return 'Running...'
+    case 'completed':
+      return 'Completed'
+    case 'failed':
+      return 'Failed'
+    default:
+      return idle
+  }
+}
+
 export function BackupsView() {
+  const queryClient = useQueryClient()
   const isAuthenticated = !!useAuthStore((store) => store.token)
   const { data: backups, isLoading, error } = useBackupsQuery()
+  const { data: jobs } = useNonCompletedIntegrationJobsQuery()
   const createMutation = useCreateBackupMutation()
   const createFromZipMutation = useCreateBackupFromZipMutation()
   const syncMutation = useSyncBackupToDriveMutation()
@@ -50,12 +78,48 @@ export function BackupsView() {
   const zipInputRef = useRef<HTMLInputElement>(null)
   const [downloadError, setDownloadError] = useState<unknown>(null)
   const [restoreTargetId, setRestoreTargetId] = useState<string | null>(null)
+  const [createBackupJobId, setCreateBackupJobId] = useState<string | null>(
+    null,
+  )
+  const [syncJobIds, setSyncJobIds] = useState<Record<string, string>>({})
   const hasMutationError = Boolean(
     createMutation.error ||
     createFromZipMutation.error ||
     syncMutation.error ||
     downloadError,
   )
+  const backupJobs = useMemo(
+    () =>
+      (jobs || []).filter(
+        (job) =>
+          job.task === 'BackupCreate' || job.task === 'BackupSyncToDrive',
+      ),
+    [jobs],
+  )
+  const createBackupJob =
+    backupJobs.find((job) => job.id && job.id === createBackupJobId) ||
+    backupJobs.find((job) => job.task === 'BackupCreate' && isActiveJob(job))
+  const createBackupActive =
+    createMutation.isPending || isActiveJob(createBackupJob)
+
+  const getSyncJob = (backupId: string) =>
+    backupJobs.find((job) => job.id && job.id === syncJobIds[backupId]) ||
+    backupJobs.find(
+      (job) =>
+        job.task === 'BackupSyncToDrive' &&
+        job.target?.backup_id === backupId &&
+        isActiveJob(job),
+    ) ||
+    backupJobs.find(
+      (job) =>
+        job.task === 'BackupSyncToDrive' && job.target?.backup_id === backupId,
+    )
+
+  useEffect(() => {
+    if (createBackupJob?.status === 'completed') {
+      queryClient.invalidateQueries({ queryKey: backupsQueryKey() })
+    }
+  }, [createBackupJob?.status, queryClient])
 
   const handleDownload = (backupId: string) => {
     setDownloadError(null)
@@ -73,6 +137,22 @@ export function BackupsView() {
     } finally {
       event.target.value = ''
     }
+  }
+
+  const handleCreateBackup = () => {
+    void createMutation.mutateAsync().then((result) => {
+      if (isJob(result) && result.id) {
+        setCreateBackupJobId(result.id)
+      }
+    })
+  }
+
+  const handleSyncToDrive = (backupId: string) => {
+    void syncMutation.mutateAsync(backupId).then((result) => {
+      if (isJob(result) && result.id) {
+        setSyncJobIds((current) => ({ ...current, [backupId]: result.id! }))
+      }
+    })
   }
 
   const handleConfirmRestore = async () => {
@@ -101,36 +181,46 @@ export function BackupsView() {
           </p>
         </div>
         {isAuthenticated && (
-          <div className="flex items-center gap-2">
-            <input
-              ref={zipInputRef}
-              type="file"
-              accept=".zip,application/zip"
-              className="hidden"
-              onChange={handleZipSelected}
-            />
-            <Button
-              variant="primary"
-              className="px-3 py-2 text-sm"
-              onClick={() => createMutation.mutate()}
-              disabled={
-                createMutation.isPending || createFromZipMutation.isPending
-              }
-            >
-              {createMutation.isPending ? 'Creating...' : 'Create backup'}
-            </Button>
-            <Button
-              variant="primary"
-              className="px-3 py-2 text-sm"
-              onClick={() => zipInputRef.current?.click()}
-              disabled={
-                createMutation.isPending || createFromZipMutation.isPending
-              }
-            >
-              {createFromZipMutation.isPending
-                ? 'Uploading...'
-                : 'Upload from zip'}
-            </Button>
+          <div className="flex flex-col items-end gap-1 min-w-0">
+            <div className="flex items-center gap-2">
+              <input
+                ref={zipInputRef}
+                type="file"
+                accept=".zip,application/zip"
+                className="hidden"
+                onChange={handleZipSelected}
+              />
+              <Button
+                variant="primary"
+                className="px-3 py-2 text-sm"
+                onClick={handleCreateBackup}
+                disabled={createBackupActive || createFromZipMutation.isPending}
+              >
+                {createMutation.isPending
+                  ? 'Queueing...'
+                  : jobStatusLabel(createBackupJob, 'Create backup')}
+              </Button>
+              <Button
+                variant="primary"
+                className="px-3 py-2 text-sm"
+                onClick={() => zipInputRef.current?.click()}
+                disabled={
+                  createMutation.isPending || createFromZipMutation.isPending
+                }
+              >
+                {createFromZipMutation.isPending
+                  ? 'Uploading...'
+                  : 'Upload from zip'}
+              </Button>
+            </div>
+            {createBackupJob?.details ? (
+              <div
+                className="max-w-[34rem] truncate text-xs text-gray-500"
+                title={createBackupJob.details}
+              >
+                {createBackupJob.details}
+              </div>
+            ) : null}
           </div>
         )}
       </div>
@@ -170,6 +260,11 @@ export function BackupsView() {
               <tbody className="divide-y divide-gray-200">
                 {backups?.map((backupId) => {
                   const createdAt = getBackupCreatedAt(backupId)
+                  const syncJob = getSyncJob(backupId)
+                  const syncActive =
+                    (syncMutation.isPending &&
+                      syncMutation.variables === backupId) ||
+                    isActiveJob(syncJob)
                   return (
                     <tr key={backupId} className="hover:bg-gray-50">
                       <td className="px-4 py-3 text-left">
@@ -187,40 +282,49 @@ export function BackupsView() {
                         )}
                       </td>
                       <td className="px-4 py-3">
-                        <div className="flex items-center justify-end gap-2">
-                          <Button
-                            variant="primary"
-                            className="px-2 py-1 text-xs"
-                            onClick={() => handleDownload(backupId)}
-                          >
-                            Download
-                          </Button>
-                          {isAuthenticated && (
-                            <>
-                              <Button
-                                variant="primary"
-                                className="px-2 py-1 text-xs"
-                                onClick={() => syncMutation.mutate(backupId)}
-                                disabled={
-                                  syncMutation.isPending ||
-                                  restoreMutation.isPending
-                                }
-                              >
-                                {syncMutation.isPending &&
-                                syncMutation.variables === backupId
-                                  ? 'Syncing...'
-                                  : 'Sync to Drive'}
-                              </Button>
-                              <Button
-                                variant="danger"
-                                className="px-2 py-1 text-xs"
-                                onClick={() => setRestoreTargetId(backupId)}
-                                disabled={restoreMutation.isPending}
-                              >
-                                Restore
-                              </Button>
-                            </>
-                          )}
+                        <div className="flex flex-col items-end gap-1">
+                          <div className="flex items-center justify-end gap-2">
+                            <Button
+                              variant="primary"
+                              className="px-2 py-1 text-xs"
+                              onClick={() => handleDownload(backupId)}
+                            >
+                              Download
+                            </Button>
+                            {isAuthenticated && (
+                              <>
+                                <Button
+                                  variant="primary"
+                                  className="px-2 py-1 text-xs"
+                                  onClick={() => handleSyncToDrive(backupId)}
+                                  disabled={
+                                    syncActive || restoreMutation.isPending
+                                  }
+                                >
+                                  {syncMutation.isPending &&
+                                  syncMutation.variables === backupId
+                                    ? 'Queueing...'
+                                    : jobStatusLabel(syncJob, 'Sync to Drive')}
+                                </Button>
+                                <Button
+                                  variant="danger"
+                                  className="px-2 py-1 text-xs"
+                                  onClick={() => setRestoreTargetId(backupId)}
+                                  disabled={restoreMutation.isPending}
+                                >
+                                  Restore
+                                </Button>
+                              </>
+                            )}
+                          </div>
+                          {syncJob?.details ? (
+                            <div
+                              className="max-w-[42rem] truncate text-xs text-gray-500"
+                              title={syncJob.details}
+                            >
+                              {syncJob.details}
+                            </div>
+                          ) : null}
                         </div>
                       </td>
                     </tr>
