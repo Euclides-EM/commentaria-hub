@@ -26,7 +26,6 @@ const ITEM_FIELD_TO_EDITION_FIELD: Record<string, string> = {
   study_corpora: "corpus",
   elementsBooksExpanded: "books",
   additionalContent: "additionalContent",
-  class: "manuscriptClass",
   format: "format",
   volumesCount: "volumes",
   visualElementsTypes: "visualElementsTypes",

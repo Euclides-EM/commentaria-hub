@@ -16,9 +16,8 @@ import {
   formatDisplayBooks,
   formatDisplayEditors,
   formatDisplayYear,
-  isManuscriptItem,
 } from "../../../utils/itemDisplay.ts";
-import {ItemLinksRow} from "../../ItemLinksRow.tsx";
+import { ItemLinksRow } from "../../ItemLinksRow.tsx";
 
 const InfoTitle = styled.div`
   font-size: 0.8rem;
@@ -182,13 +181,6 @@ export const ItemInfo = ({
         <Row justifyStart>
           <InfoTitle>Books:</InfoTitle> {formatDisplayBooks(item)}
         </Row>
-      )}
-      {item.class && !isManuscriptItem(item) && (
-        <>
-          <Row justifyStart>
-            <InfoTitle>Class:</InfoTitle> {item.class}
-          </Row>
-        </>
       )}
       {item.additionalContent && item.additionalContent.length > 0 && (
         <Row justifyStart>

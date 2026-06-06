@@ -80,8 +80,6 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         elementsBooksExpanded: books,
         additionalContent: edition.additionalContent || [],
         volumesCount: edition.volumes ?? null,
-        class: edition.manuscriptClass || null,
-        subclass: edition.manuscriptSubclass || null,
         titlePageStatus: edition.titlePageStatus || "Unknown",
         study_corpora: edition.corpus || [],
         notes: edition.notes || null,

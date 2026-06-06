@@ -1,346 +1,615 @@
-key,class,subclass,city,languages,compositors,long_title,short_title,short_title_source,year_from,year_to,year_is_approximate,notes,has_diagrams
-ms_1,Greek manuscripts,Greek Cardinal Manuscripts,,,,,,,800,900,True,,True
-ms_2,Greek manuscripts,Greek Cardinal Manuscripts,,,,,,,800,1200,True,,
-ms_3,Greek manuscripts,Greek Cardinal Manuscripts,,,,,,,800,900,True,,True
-ms_4,Greek manuscripts,Greek Cardinal Manuscripts,,,,,,,900,1000,True,,
-ms_5,Greek manuscripts,Greek Cardinal Manuscripts,,,,,,,1000,1100,True,,
-ms_6,Greek manuscripts,Greek Cardinal Manuscripts,,,,,,,1000,1100,True,,
-ms_7,Greek manuscripts,Greek Cardinal Manuscripts,,,,,,,1100,1200,True,,
-ms_8,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1000,1100,True,,
-ms_9,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1100,1200,True,,
-ms_10,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1200,1300,True,,
-ms_11,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1200,1300,True,,
-ms_12,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1200,1300,True,,
-ms_13,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1200,1300,True,,
-ms_14,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1200,1300,True,,
-ms_15,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1200,1300,True,,
-ms_16,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_17,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_18,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_19,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_20,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_21,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_22,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_23,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_24,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1300,1400,True,,
-ms_25,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1400,1500,True,,
-ms_26,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1400,1500,True,,
-ms_27,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1400,1500,True,,
-ms_28,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1400,1500,True,,
-ms_29,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1400,1500,True,,
-ms_30,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1400,1500,True,,
-ms_31,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1400,1500,True,,
-ms_32,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1500,1600,True,,
-ms_33,Greek manuscripts,Greek Secondary manuscripts,,,,,,,1500,1600,True,,
-ms_34,Greek manuscripts,Greek Secondary manuscripts,,,,,,,,,True,,
-ms_35,Greek manuscripts,Greek Secondary manuscripts,,,,,,,,,True,,
-ms_36,Arabic manuscripts,Ishāq-Thābit text,,,,,,,,,True,,
-ms_37,Arabic manuscripts,Ishāq-Thābit text,,,,,,,1270,1270,True,,
-ms_38,Arabic manuscripts,Ishāq-Thābit text,,,,,,,1200,1300,True,,
-ms_39,Arabic manuscripts,Ishāq-Thābit text,,,,,,,,,True,,
-ms_40,Arabic manuscripts,Ishāq-Thābit text,,,,,,,1238,1238,True,,
-ms_41,Arabic manuscripts,Ishāq-Thābit text,,,,,,,1607,1607,True,,
-ms_42,Arabic manuscripts,Ishāq-Thābit text,,,,,,,,,True,,
-ms_43,Arabic manuscripts,Ishāq-Thābit text,,,,,,,1400,1500,True,,
-ms_44,Arabic manuscripts,Ishāq-Thābit text,,,,,,,954,954,True,,
-ms_45,Arabic manuscripts,Ishāq-Thābit text,,,,,,,1042,1042,True,,
-ms_46,Latin Boethius manuscripts,Ma,,,,,,,1004,1004,True,,
-ms_47,Latin Boethius manuscripts,Ma,,,,,,,800,900,True,,
-ms_48,Latin Boethius manuscripts,Ma,,,,,,,900,1000,True,,
-ms_49,Latin Boethius manuscripts,Ma,,,,,,,900,1000,True,,
-ms_50,Latin Boethius manuscripts,Ma,,,,,,,900,1000,True,,
-ms_51,Latin Boethius manuscripts,Ma,,,,,,,900,1000,True,,
-ms_52,Latin Boethius manuscripts,Ma,,,,,,,900,1000,True,,
-ms_53,Latin Boethius manuscripts,Mb,,,,,,,900,1000,True,,
-ms_54,Latin Boethius manuscripts,Mb,,,,,,,800,900,True,,
-ms_55,Latin Boethius manuscripts,Mb,,,,,,,800,900,True,,
-ms_56,Latin Boethius manuscripts,Mc,,,,,,,900,1000,True,,
-ms_57,Latin Boethius manuscripts,Mc,,,,,,,1200,1300,True,,
-ms_58,Latin Boethius manuscripts,Mc,,,,,,,1000,1100,True,,
-ms_59,Latin Boethius manuscripts,Mc,,,,,,,800,900,True,,
-ms_60,Latin Boethius manuscripts,Mc,,,,,,,1500,1600,True,,
-ms_61,Latin Boethius manuscripts,Mc,,,,,,,900,1000,True,,
-ms_62,Latin Boethius manuscripts,Mc,,,,,,,800,900,True,,
-ms_63,Latin Boethius manuscripts,Mc,,,,,,,800,900,True,,
-ms_64,Latin Boethius manuscripts,Mc,,,,,,,1000,1100,True,,
-ms_65,Latin Boethius manuscripts,Mc,,,,,,,1500,1600,True,,
-ms_66,Latin Boethius manuscripts,Mc,,,,,,,1500,1600,True,,
-ms_67,Latin Boethius manuscripts,Mc,,,,,,,800,900,True,,
-ms_68,Latin Boethius manuscripts,Mc,,,,,,,1100,1200,True,,
-ms_69,Latin Boethius manuscripts,Md,,,,,,,1000,1100,True,,
-ms_70,Latin Boethius manuscripts,Md,,,,,,,1100,1200,True,,
-ms_71,Latin Boethius manuscripts,Md,,,,,,,1500,1600,True,copy of Vat.lat.3123,
-ms_72,Latin Boethius manuscripts,Md,,,,,,,1100,1200,True,,
-ms_73,Latin Boethius manuscripts,Md,,,,,,,1100,1200,True,,
-ms_74,Latin manuscripts,Early texts based upon the Greek,,,,,,,500,500,True,,
-ms_75,Latin manuscripts,Early texts based upon the Greek,,,,,,,800,900,True,,
-ms_76,Latin manuscripts,Greek-Latin Translation from the twelfth century,,,,,,,1100,1300,True,,True
-ms_77,Latin manuscripts,Greek-Latin Translation from the twelfth century,,,,,,,1300,1400,True,,
-ms_78,Latin manuscripts,An-Nayrizi's Commentary on Books I-X,,,,,,,1200,1400,True,,
-ms_79,Latin manuscripts,Version I (Adelard of Bath),,,,,,,1200,1300,True,,
-ms_80,Latin manuscripts,Version I (Adelard of Bath),,,,,,,1300,14,True,,
-ms_81,Latin manuscripts,Version I (Adelard of Bath),,,,,,,1100,1200,True,https://medieval.bodleian.ox.ac.uk/pdfs/trinity/MS_47.pdf,
-ms_82,Latin manuscripts,Version I (Adelard of Bath),,,,,,,1100,1200,True,,
-ms_83,Latin manuscripts,Hermann of Carinthia,,,,,,,1200,1300,True,,
-ms_84,Latin manuscripts,Hermann of Carinthia,,,,,,,1100,1300,True,,
-ms_85,Latin manuscripts,Gerard of Cremona,,,,,,,1200,1300,True,,
-ms_86,Latin manuscripts,Gerard of Cremona,,,,,,,1300,1400,True,,
-ms_87,Latin manuscripts,Gerard of Cremona,,,,,,,1400,1500,True,,
-ms_88,Latin manuscripts,Gerard of Cremona,,,,,,,1300,1500,True,,
-ms_89,Latin manuscripts,Gerard of Cremona,,,,,,,1500,1600,True,,
-ms_90,Latin manuscripts,Gerard of Cremona,,,,,,,1300,1400,True,,
-ms_91,Latin manuscripts,Gerard of Cremona,,,,,,,1300,1400,True,,
-ms_92,Latin manuscripts,Gerard of Cremona,,,,,,,1300,1400,True,,
-ms_93,Latin manuscripts,Version II (Robert of Chester),,,,,,,1100,1300,True,,
-ms_94,Latin manuscripts,Version II (Robert of Chester),,,,,,,1200,1300,True,,
-ms_95,Latin manuscripts,Version II (Robert of Chester),,,,,,,1100,1200,True,,
-ms_96,Latin manuscripts,Version II (Robert of Chester),,,,,,,1200,1400,True,,
-ms_97,Latin manuscripts,Version II (Robert of Chester),,,,,,,1200,1300,True,,
-ms_98,Latin manuscripts,Version II (Robert of Chester),,,,,,,1200,1300,True,,
-ms_99,Latin manuscripts,Version II (Robert of Chester),,,,,,,1200,1300,True,,
-ms_100,Latin manuscripts,Version II (Robert of Chester),,,,,,,1200,1300,True,,
-ms_101,Latin manuscripts,Mélanges of the Robert and the Boethius Texts,,,,,,,1100,1200,True,,
-ms_102,Latin manuscripts,Version III (Johannes de Tinemue),,,,,,,1200,1300,True,,
-ms_103,Latin manuscripts,Version III (Johannes de Tinemue),,,,,,,1200,1300,True,,
-ms_104,Latin manuscripts,Commentary from the early thirteenth century,,,,,,,1200,1300,True,,
-ms_105,Latin manuscripts,Commentary from the early thirteenth century,,,,,,,1400,1500,True,,
-ms_106,Latin manuscripts,Commentary from the early thirteenth century,,,,,,,1200,1300,True,,
-ms_107,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_108,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_109,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_110,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_111,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_112,Latin manuscripts,Campanus of Novara,,,,,,,1200,1300,True,,True
-ms_113,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_114,Latin manuscripts,Campanus of Novara,,,,,,,1200,1400,True,,
-ms_115,Latin manuscripts,Campanus of Novara,,,,,,,1300,1300,True,,
-ms_116,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_117,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_118,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_119,Latin manuscripts,Campanus of Novara,,,,,,,1200,1300,True,,
-ms_120,Latin manuscripts,Campanus of Novara,,,,,,,1200,1300,True,,
-ms_121,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_122,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_123,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_124,Latin manuscripts,Campanus of Novara,,,,,,,1200,1300,True,,
-ms_125,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_126,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_127,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_128,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_129,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_130,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_131,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_132,Latin manuscripts,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_133,Latin manuscripts,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_134,Latin manuscripts,An-Nayrizi's Commentary on Books I-X,,,,,,,1300,1400,True,,
-ms_135,Greek manuscripts,Recentiores,,,,,,,1300,1400,True,,
-ms_136,Greek manuscripts,Novelli,,,,,,,1500,1600,True,,
-ms_137,Greek manuscripts,Novelli,,,,,,,1500,1600,True,,
-ms_138,Greek manuscripts,Novelli,,,,,,,1400,1500,True,,
-ms_139,Greek manuscripts,Novelli,,,,,,,1400,1500,True,,
-ms_140,Greek manuscripts,Epitomes,,,,,,,1400,1600,True,,
-ms_141,Greek manuscripts,Secondary,,,,,,,1533,1533,True,this is Basel_1533 which has books 1-13,
-ms_143,,,,,,,,,1695,1695,True,,True
-ms_144,,,,,,,,,1300,1500,True,,
-ms_145,,,,,,,,,1400,1600,True,,
-ms_147,,,,,,,,,1600,1700,True,"A notebook (not a manual) from the 17th century, including algebraic+arithmetic interpretation of book 2
+key,city,languages,compositors,long_title,short_title,short_title_source,year_from,year_to,year_is_approximate,notes,has_diagrams
+ms_1,,,,,,,800,900,True,"class: Greek manuscripts
+subclass: Greek Cardinal Manuscripts",True
+ms_2,,,,,,,800,1200,True,"class: Greek manuscripts
+subclass: Greek Cardinal Manuscripts",
+ms_3,,,,,,,800,900,True,"class: Greek manuscripts
+subclass: Greek Cardinal Manuscripts",True
+ms_4,,,,,,,900,1000,True,"class: Greek manuscripts
+subclass: Greek Cardinal Manuscripts",
+ms_5,,,,,,,1000,1100,True,"class: Greek manuscripts
+subclass: Greek Cardinal Manuscripts",
+ms_6,,,,,,,1000,1100,True,"class: Greek manuscripts
+subclass: Greek Cardinal Manuscripts",
+ms_7,,,,,,,1100,1200,True,"class: Greek manuscripts
+subclass: Greek Cardinal Manuscripts",
+ms_8,,,,,,,1000,1100,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_9,,,,,,,1100,1200,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_10,,,,,,,1200,1300,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_11,,,,,,,1200,1300,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_12,,,,,,,1200,1300,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_13,,,,,,,1200,1300,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_14,,,,,,,1200,1300,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_15,,,,,,,1200,1300,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_16,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_17,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_18,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_19,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_20,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_21,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_22,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_23,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_24,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_25,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_26,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_27,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_28,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_29,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_30,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_31,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_32,,,,,,,1500,1600,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_33,,,,,,,1500,1600,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_34,,,,,,,,,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_35,,,,,,,,,True,"class: Greek manuscripts
+subclass: Greek Secondary manuscripts",
+ms_36,,,,,,,,,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_37,,,,,,,1270,1270,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_38,,,,,,,1200,1300,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_39,,,,,,,,,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_40,,,,,,,1238,1238,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_41,,,,,,,1607,1607,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_42,,,,,,,,,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_43,,,,,,,1400,1500,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_44,,,,,,,954,954,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_45,,,,,,,1042,1042,True,"class: Arabic manuscripts
+subclass: Ishāq-Thābit text",
+ms_46,,,,,,,1004,1004,True,"class: Latin Boethius manuscripts
+subclass: Ma",
+ms_47,,,,,,,800,900,True,"class: Latin Boethius manuscripts
+subclass: Ma",
+ms_48,,,,,,,900,1000,True,"class: Latin Boethius manuscripts
+subclass: Ma",
+ms_49,,,,,,,900,1000,True,"class: Latin Boethius manuscripts
+subclass: Ma",
+ms_50,,,,,,,900,1000,True,"class: Latin Boethius manuscripts
+subclass: Ma",
+ms_51,,,,,,,900,1000,True,"class: Latin Boethius manuscripts
+subclass: Ma",
+ms_52,,,,,,,900,1000,True,"class: Latin Boethius manuscripts
+subclass: Ma",
+ms_53,,,,,,,900,1000,True,"class: Latin Boethius manuscripts
+subclass: Mb",
+ms_54,,,,,,,800,900,True,"class: Latin Boethius manuscripts
+subclass: Mb",
+ms_55,,,,,,,800,900,True,"class: Latin Boethius manuscripts
+subclass: Mb",
+ms_56,,,,,,,900,1000,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_57,,,,,,,1200,1300,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_58,,,,,,,1000,1100,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_59,,,,,,,800,900,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_60,,,,,,,1500,1600,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_61,,,,,,,900,1000,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_62,,,,,,,800,900,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_63,,,,,,,800,900,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_64,,,,,,,1000,1100,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_65,,,,,,,1500,1600,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_66,,,,,,,1500,1600,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_67,,,,,,,800,900,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_68,,,,,,,1100,1200,True,"class: Latin Boethius manuscripts
+subclass: Mc",
+ms_69,,,,,,,1000,1100,True,"class: Latin Boethius manuscripts
+subclass: Md",
+ms_70,,,,,,,1100,1200,True,"class: Latin Boethius manuscripts
+subclass: Md",
+ms_71,,,,,,,1500,1600,True,"class: Latin Boethius manuscripts
+subclass: Md
+copy of Vat.lat.3123",
+ms_72,,,,,,,1100,1200,True,"class: Latin Boethius manuscripts
+subclass: Md",
+ms_73,,,,,,,1100,1200,True,"class: Latin Boethius manuscripts
+subclass: Md",
+ms_74,,,,,,,500,500,True,"class: Latin manuscripts
+subclass: Early texts based upon the Greek",
+ms_75,,,,,,,800,900,True,"class: Latin manuscripts
+subclass: Early texts based upon the Greek",
+ms_76,,,,,,,1100,1300,True,"class: Latin manuscripts
+subclass: Greek-Latin Translation from the twelfth century",True
+ms_77,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Greek-Latin Translation from the twelfth century",
+ms_78,,,,,,,1200,1400,True,"class: Latin manuscripts
+subclass: An-Nayrizi's Commentary on Books I-X",
+ms_79,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Version I (Adelard of Bath)",
+ms_80,,,,,,,1300,14,True,"class: Latin manuscripts
+subclass: Version I (Adelard of Bath)",
+ms_81,,,,,,,1100,1200,True,"class: Latin manuscripts
+subclass: Version I (Adelard of Bath)
+https://medieval.bodleian.ox.ac.uk/pdfs/trinity/MS_47.pdf",
+ms_82,,,,,,,1100,1200,True,"class: Latin manuscripts
+subclass: Version I (Adelard of Bath)",
+ms_83,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Hermann of Carinthia",
+ms_84,,,,,,,1100,1300,True,"class: Latin manuscripts
+subclass: Hermann of Carinthia",
+ms_85,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Gerard of Cremona",
+ms_86,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Gerard of Cremona",
+ms_87,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Gerard of Cremona",
+ms_88,,,,,,,1300,1500,True,"class: Latin manuscripts
+subclass: Gerard of Cremona",
+ms_89,,,,,,,1500,1600,True,"class: Latin manuscripts
+subclass: Gerard of Cremona",
+ms_90,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Gerard of Cremona",
+ms_91,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Gerard of Cremona",
+ms_92,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Gerard of Cremona",
+ms_93,,,,,,,1100,1300,True,"class: Latin manuscripts
+subclass: Version II (Robert of Chester)",
+ms_94,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Version II (Robert of Chester)",
+ms_95,,,,,,,1100,1200,True,"class: Latin manuscripts
+subclass: Version II (Robert of Chester)",
+ms_96,,,,,,,1200,1400,True,"class: Latin manuscripts
+subclass: Version II (Robert of Chester)",
+ms_97,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Version II (Robert of Chester)",
+ms_98,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Version II (Robert of Chester)",
+ms_99,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Version II (Robert of Chester)",
+ms_100,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Version II (Robert of Chester)",
+ms_101,,,,,,,1100,1200,True,"class: Latin manuscripts
+subclass: Mélanges of the Robert and the Boethius Texts",
+ms_102,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Version III (Johannes de Tinemue)",
+ms_103,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Version III (Johannes de Tinemue)",
+ms_104,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Commentary from the early thirteenth century",
+ms_105,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Commentary from the early thirteenth century",
+ms_106,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Commentary from the early thirteenth century",
+ms_107,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_108,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_109,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_110,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_111,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_112,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Campanus of Novara",True
+ms_113,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_114,,,,,,,1200,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_115,,,,,,,1300,1300,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_116,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_117,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_118,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_119,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_120,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_121,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_122,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_123,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_124,,,,,,,1200,1300,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_125,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_126,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_127,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_128,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_129,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_130,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_131,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_132,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_133,,,,,,,1400,1500,True,"class: Latin manuscripts
+subclass: Campanus of Novara",
+ms_134,,,,,,,1300,1400,True,"class: Latin manuscripts
+subclass: An-Nayrizi's Commentary on Books I-X",
+ms_135,,,,,,,1300,1400,True,"class: Greek manuscripts
+subclass: Recentiores",
+ms_136,,,,,,,1500,1600,True,"class: Greek manuscripts
+subclass: Novelli",
+ms_137,,,,,,,1500,1600,True,"class: Greek manuscripts
+subclass: Novelli",
+ms_138,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Novelli",
+ms_139,,,,,,,1400,1500,True,"class: Greek manuscripts
+subclass: Novelli",
+ms_140,,,,,,,1400,1600,True,"class: Greek manuscripts
+subclass: Epitomes",
+ms_141,,,,,,,1533,1533,True,"class: Greek manuscripts
+subclass: Secondary
+this is Basel_1533 which has books 1-13",
+ms_143,,,,,,,1695,1695,True,,True
+ms_144,,,,,,,1300,1500,True,,
+ms_145,,,,,,,1400,1600,True,,
+ms_147,,,,,,,1600,1700,True,"A notebook (not a manual) from the 17th century, including algebraic+arithmetic interpretation of book 2
 http://ds.lib.berkeley.edu/PlimptonMS244_20",
-ms_148,,,,,,,,,1478,1478,True,"The Treviso Arithmetic, an anonymous textbook in commercial arithmetic, the earliest known printed mathematics book.
+ms_148,,,,,,,1478,1478,True,"The Treviso Arithmetic, an anonymous textbook in commercial arithmetic, the earliest known printed mathematics book.
 https://data.cerl.org/istc/ia01141000
 USTC no 760385
 Translation:
 https://tau.primo.exlibrisgroup.com/permalink/972TAU_INST/quev9q/alma990011438890204146
 Partial translation pdf:
 https://drive.google.com/file/d/135ECwlowRXKYIIgy-mXsVohWQpj0AlVg/view",
-ms_149,,,,,,,,,1100,1300,True,,
-ms_150,,,,,,,,,1594,1594,True,"Euclid.; Ṭūsī, Naṣīr al-Dīn Muḥammad ibn Muḥammad, 1201-1274 translator; This copy dated 1594",True
-ms_151,,Adelard II,,,,,,,1300,1400,True,Verschiedene Schriften 16,
-ms_152,,Adelard II,,,,,,,1100,1200,True,"Balliol College MS 257, 12th century, appears to be fully digitized. Mentioned by Heath, 1925 as  Ball. Coll. 257I, Chap 8. The digitized copy is, however, not well photographed, with a number of pages heavily cropped. Surprisingly the photographs are stored on flickr.",
-ms_153,,Adelard II,,,,,,,,,True,"Vatican  Reg Lat. 1137, fully digitized (listed by Folkerts) - it looks like only a very small part of this is Adelard I. Folkerts suggests f.73-74 to include X 24, X 27",
-ms_154,,Adelard II,,,,,,,1300,1400,True,"https://www.davidboeno.org/GROEUVRE//I1p/BritLib/Harley5404.html
+ms_149,,,,,,,1100,1300,True,,
+ms_150,,,,,,,1594,1594,True,"Euclid.; Ṭūsī, Naṣīr al-Dīn Muḥammad ibn Muḥammad, 1201-1274 translator; This copy dated 1594",True
+ms_151,,,,,,,1300,1400,True,"subclass: Adelard II
+Verschiedene Schriften 16",
+ms_152,,,,,,,1100,1200,True,"subclass: Adelard II
+Balliol College MS 257, 12th century, appears to be fully digitized. Mentioned by Heath, 1925 as  Ball. Coll. 257I, Chap 8. The digitized copy is, however, not well photographed, with a number of pages heavily cropped. Surprisingly the photographs are stored on flickr.",
+ms_153,,,,,,,,,True,"subclass: Adelard II
+Vatican  Reg Lat. 1137, fully digitized (listed by Folkerts) - it looks like only a very small part of this is Adelard I. Folkerts suggests f.73-74 to include X 24, X 27",
+ms_154,,,,,,,1300,1400,True,"subclass: Adelard II
+https://www.davidboeno.org/GROEUVRE//I1p/BritLib/Harley5404.html
 https://www.davidboeno.org/GROEUVRE//I1p/BritLib/Harley5404iv03.html",
-ms_155,,Adelard II,,,,,,,1480,1480,True,,
-ms_156,,,,,,,,,1300,1400,True,,
-ms_157,Al-Khazini's Epitome of his Zij as-Sanjari,,,,,,,,,,True,"A PDF of a photocopy of manuscript 682 in the library of the Sipahsalar Mosque in Tehran, Iran containing the Zij as-Sanjari (Arabic). [This manuscript includes the astronomical tables of the Zij. ] (From the collection of David E. Pingree)",False
-ms_158,Al-Khazini's Epitome of his Zij as-Sanjari,,,,,,,,,,True,A PDF of a photocopy of a microfilm of manuscript 859 of the Hamidiye collection in the Suleymaniye Library in Istanbul containing the Zij as-Sanjari (Arabic). [This manuscript does not contain the astronomical tables of the Zij.] (From the collection of David E. Pingree),
-ms_327,Galileo,,,,,,,,1400,1500,True,,
-ms_328,Boethius tradition,"Cassiodorus, Institutiones, third recension",,,,,,,800,900,True,,
-ms_329,Boethius tradition,"Cassiodorus, Institutiones, third recension",,,,,,,900,1100,True,,
-ms_330,Boethius tradition,"Cassiodorus, Institutiones, third recension",,,,,,,900,1000,True,,
-ms_331,Boethius tradition,"Cassiodorus, Institutiones, third recension",,,,,,,900,1000,True,,
-ms_332,Boethius tradition,"Cassiodorus, Institutiones, third recension",,,,,,,800,900,True,,
-ms_333,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,1004,1004,True,,
-ms_334,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,1100,1200,True,,
-ms_335,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,1100,1200,True,,
-ms_336,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,1100,1200,True,,
-ms_337,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,900,1000,True,,
-ms_338,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,1500,1600,True,,
-ms_339,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,1100,1200,True,,
-ms_340,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,800,900,True,,
-ms_341,Boethius tradition,Manuscripts of the Corpus agrimensorum,,,,,,,800,900,True,,
-ms_342,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,900,1000,True,,
-ms_343,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1004,1004,True,,
-ms_344,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1000,1100,True,,
-ms_345,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,900,1000,True,,
-ms_346,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1400,1500,True,,
-ms_347,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1100,1200,True,,
-ms_348,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,900,1100,True,,
-ms_349,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1200,1300,True,,
-ms_350,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1100,1200,True,,
-ms_351,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1100,1200,True,,
-ms_352,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1200,1300,True,,
-ms_353,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,900,1000,True,,
-ms_354,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1500,1600,True,,
-ms_355,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1000,1100,True,,
-ms_356,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,800,900,True,,
-ms_357,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,900,1000,True,,
-ms_358,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1200,1300,True,,
-ms_359,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1100,1200,True,,
-ms_360,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1100,1200,True,,
-ms_361,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1000,1100,True,,
-ms_362,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1200,1300,True,,
-ms_363,Boethius tradition,"Pseudo-Boethius, Geometry I",,,,,,,1400,1500,True,,
-ms_364,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1200,True,,
-ms_365,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1200,True,,
-ms_366,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1400,1500,True,,
-ms_367,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1200,True,,
-ms_368,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1200,True,It seems that this is a Geometry II (not a Geometry I) manuscript,
-ms_369,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1000,1100,True,,
-ms_370,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1500,1600,True,,
-ms_371,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1200,True,,
-ms_372,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1200,1300,True,,
-ms_373,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1400,1500,True,,
-ms_374,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1200,1300,True,,
-ms_375,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1300,True,,
-ms_376,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1000,1100,True,,
-ms_377,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1200,1300,True,,
-ms_378,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1200,True,,
-ms_379,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1200,True,,
-ms_380,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1200,True,,
-ms_381,Boethius tradition,"Pseudo-Boethius, Geometry II",,,,,,,1100,1500,True,,
-ms_382,Verona palimpsest,,,,,,,,,6,True,,
-ms_383,Munich fragment,,,,,,,,800,900,True,,
-ms_384,Greek-Latin translation (twelfth century),,,,,,,,1200,1300,True,"f.2-2v has definitions, postulates, and common notions of book I in the Campanus version, s.XIV",
-ms_385,Greek-Latin translation (twelfth century),,,,,,,,1300,1400,True,,
-ms_386,Greek-Latin translation (twelfth century),,,,,,,,1400,1500,True,,
-ms_387,Liber ysagogarum Alchorismi,,,,,,,,1300,1400,True,,
-ms_388,Liber ysagogarum Alchorismi,,,,,,,,1400,1500,True,,
-ms_389,Liber ysagogarum Alchorismi,,,,,,,,1100,1200,True,,
-ms_390,Liber ysagogarum Alchorismi,,,,,,,,1100,1200,True,,
-ms_391,Liber ysagogarum Alchorismi,,,,,,,,1200,1300,True,,
-ms_392,Liber ysagogarum Alchorismi,,,,,,,,1300,1400,True,,
-ms_393,Liber ysagogarum Alchorismi,,,,,,,,1100,1200,True,,
-ms_394,Liber ysagogarum Alchorismi,1143,,,,,,,1143,folkerts,True,NULL,
-ms_395,Early Arabian Manuscripts,Hajjaj text,,,,,,,,,True,,
-ms_396,Early Arabian Manuscripts,Hajjaj text,,,,,,,,,True,,
-ms_397,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_398,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_399,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_400,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_401,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_402,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_403,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_404,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_405,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_406,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_407,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_408,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_409,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_410,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,954,954,True,"part of the same manuscript as Teheran, Malik 3586",
-ms_411,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,,,True,,
-ms_412,Early Arabian Manuscripts,Ishaq-Thabit text,,,,,,,954,954,True,"the missing part of book VII is Teheran, Danishgah 2120",
-ms_413,Adelard I,,,,,,,,1200,1300,True,,
-ms_414,Adelard I,,,,,,,,1200,1400,True,,
-ms_415,Adelard I,,,,,,,,1100,1200,True,,
-ms_416,Adelard I,,,,,,,,1200,1300,True,,
-ms_417,Adelard I,,,,,,,,1300,1400,True,,
-ms_418,Hermann of Carinthia,,,,,,,,1200,1300,True,going back to a Hermann version,
-ms_419,Hermann of Carinthia,,,,,,,,1300,1400,True,in agreement with Digby 174,
-ms_420,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_421,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_422,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_423,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_424,Gerard of Gremona,,,,,,,,1400,1500,True,,
-ms_425,Gerard of Gremona,,,,,,,,1200,1300,True,,
-ms_426,Gerard of Gremona,,,,,,,,1400,1500,True,,
-ms_427,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_428,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_429,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_430,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_431,Gerard of Gremona,,,,,,,,1400,1600,True,,
-ms_432,Gerard of Gremona,,,,,,,,1300,1400,True,,
-ms_433,Adelard II,,,,,,,,1200,1300,True,,
-ms_434,Adelard II,,,,,,,,1300,1400,True,,
-ms_435,Adelard II,,,,,,,,1200,1300,True,,
-ms_436,Texts in the Adelard II tradition,Adelard III,,,,,,,1200,1300,True,,
-ms_437,Texts in the Adelard II tradition,Adelard III,,,,,,,1100,1200,True,,
-ms_438,Texts in the Adelard II tradition,Adelard III,,,,,,,1100,1200,True,,
-ms_439,Texts in the Adelard II tradition,Adelard III,,,,,,,1200,1300,True,,
-ms_440,Texts in the Adelard II tradition,Adelard III,,,,,,,1200,1300,True,the so-called Version IIIB,
-ms_441,Texts in the Adelard II tradition,Adelard III,,,,,,,1200,1300,True,together with Adelard II,
-ms_442,Texts in the Adelard II tradition,Adelard III,,,,,,,1300,1400,True,,
-ms_443,Texts in the Adelard II tradition,Thirteenth century commentary,,,,,,,1200,1300,True,,
-ms_444,Texts in the Adelard II tradition,Thirteenth century commentary,,,,,,,1300,1400,True,,
-ms_445,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_446,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1400,1500,True,the proofs in book I in a different version,
-ms_447,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_448,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_449,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1300,1500,True,,
-ms_450,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_451,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_452,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_453,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_454,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1300,1400,True,,
-ms_455,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1300,1400,True,The text of the first proofs differs from the usual Campanus text,
-ms_456,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_457,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,,,True,,
-ms_458,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1300,1500,True,,
-ms_459,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1457,1457,True,,
-ms_460,Texts in the Adelard II tradition,Campanus of Novara,,,,,,,1400,1500,True,,
-ms_461,Texts in the Adelard II tradition,"Reworking Paris, BN Lat. 7374",,,,,,,1200,1300,True,,
-ms_462,Texts in the Adelard II tradition,"Reworking London, Sloane 285",,,,,,,1200,1300,True,,
-ms_463,Reworking Vat. Reg. lat. 1268,,,,,,,,1300,1400,True,,
-ms_464,an-Nayrizi's commentary on books I-X,,,,,,,,1300,1400,True,,
-ms_465,an-Nayrizi's commentary on books I-X,,,,,,,,1300,1400,True,,
-ms_466,an-Nayrizi's commentary on books I-X,,,,,,,,1300,1400,True,,
-ms_467,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,,,,,,,1300,1400,True,,
-ms_468,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,,,,,,,1300,1400,True,,
-ms_469,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,,,,,,,1200,1400,True,,
-ms_470,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,,,,,,,1200,1300,True,,
-ms_471,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,,,,,,,1300,1400,True,,
-ms_472,Commentary on book X by Pappus,,,,,,,,1200,1300,True,,
-ms_473,Commentary of Albertus Magnus (?),,,,,,,,1300,1400,True,,
-ms_474,Commentary ascribed to Roger Bacon,,,,,,,,1400,1500,True,,
-ms_475,"Nicole Oresme, Quaestiones super geometriam Euclidis",,,,,,,,1300,1400,True,,
-ms_476,"Nicole Oresme, Quaestiones super geometriam Euclidis",,,,,,,,1400,1500,True,,
-ms_477,"Nicole Oresme, Quaestiones super geometriam Euclidis",,,,,,,,1300,1400,True,,
-ms_478,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1400,1500,True,,
-ms_479,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1400,1500,True,Brani d'... Euclide,
-ms_480,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1400,1500,True,"G. Valla, with dedication letter to Petrus Barocius",
-ms_481,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1300,1400,True,"M 100; Quaestiones about Euclid, book I. On f.49v-50, 52v-53 there are notes, commentaries and small extracts from Euclid",
-ms_482,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1400,1500,True,"as it seems, from the university lecture",
-ms_483,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1500,1600,True,Zamberti,
-ms_484,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1300,1400,True,,
-ms_485,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1500,1600,True,,
-ms_486,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1500,1600,True,,
-ms_487,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1500,1600,True,G. Valla with dedication letter to princeps Albertus pius Carpensis,
-ms_488,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1500,1600,True,Michael Stifel,
-ms_489,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,,,,,,,1400,1500,True,"enunciations only, in the Campanus version. Only those enunciations are givenwhich are necessary for the proofs in the treatise De sinibus et cordis ac eorum arcubus. See London, Add. 24071",
-GLYTWZ,,,,,Francesco Maurolico,,Euclidis elementorum compendia,Specified in source,1567,1567,False,,
-G8MDPE,,,,,Evangelista Torricelli,,De proportionibus liber,Specified in source,1647,1647,False,,
-SLWQ7N,,,,,John Wallis,,In Elementa Euclidis Praelectiones,Specified in source,1651,1651,False,,
-GJXHA3,,,,,Blaise Pascal,,Introduction à la géométrie,Specified in source,1655,1655,False,,
-85GZV3,,,,,Gilles Personne de Roberval,,Éléments de géométrie,Specified in source,1673,1675,True,,
-LOFE5H,,,,,Isaac Newton,,The Science of Axiomatc Deduction,Specified in source,1693,1706,True,,
-2KGVZD,,,,,,,Manuel d'un ingénieur-architecte de la première moitié du XVIIe siècle.,Specified in source,1600,1700,True,"Métin (2016, p. ) mentions this MS; includes extraits from multiple mathematical related books; notebook of Jacques Gentillâtre (1578-around 1622), architecte.",
-IYXX6N,,,,,,,Traitté des cinq ordres d'architecture selon la métode de Vignolle,Specified in source,1700,1800,True,,
-M2BQJ8,,,,,,,"Opera decta et chiamata Pratica Leonardi Giamboni di geometria, composta in Cornuola apud Castrum Emporii per lo decto prete Leonardo Fiorentino et ferta al B. P. Clemente papa VII nell' anno secondo del pontificato di Sua Sanctità",Specified in source,1500,1600,True,,
-SBTLU7,,,,,,,"Traduction de l'Algèbre en arithmétique et géométrie, de Pierre Nunès.",Specified in source,1600,1700,True,,
-UV2ZS6,,,,,,,"Traité, pour la défense de la carte de naviguer",Specified in source,1600,1700,True,,
-FRXJUH,,,,,,,Traité de géométrie,Specified in source,1600,1700,True,,
-16NH5R,,,,,,,Mélanges scientifiques et philosophiques,Specified in source,1600,1800,True,,
-IXI8N3,,,,,,,"Opera decta et chiamata Pratica Leonardi Giamboni di geometria, composta in Cornuola apud Castrum Emporii per lo decto prete Leonardo Fiorentino et ferta al B. P. Clemente papa VII nell' anno secondo del pontificato di Sua Sanctità",Specified in source,1500,1600,True,,
-H55LLR,,,,,,,Miscellanea mathematica et astronomica,Specified in source,1500,1600,True,,
-ME5WYH,,,,,,,Grec 2348,Provided by catalog,1600,1700,True, it was copied by Joseph Auria; includes euclid's data with scholia + Marinus' preface,
-SQKVP9,,,,,,,Florilège de textes scientifiques réuni par Ismaël Boulliau,Specified in source,1651,1651,False,includes the def for the 1st book of the Elements,
-NCXCIA,,,,,,,Cours d'arithmétique,Provided by catalog,1567,1567,False,,
+ms_155,,,,,,,1480,1480,True,subclass: Adelard II,
+ms_156,,,,,,,1300,1400,True,,
+ms_157,,,,,,,,,True,"class: Al-Khazini's Epitome of his Zij as-Sanjari
+A PDF of a photocopy of manuscript 682 in the library of the Sipahsalar Mosque in Tehran, Iran containing the Zij as-Sanjari (Arabic). [This manuscript includes the astronomical tables of the Zij. ] (From the collection of David E. Pingree)",False
+ms_158,,,,,,,,,True,"class: Al-Khazini's Epitome of his Zij as-Sanjari
+A PDF of a photocopy of a microfilm of manuscript 859 of the Hamidiye collection in the Suleymaniye Library in Istanbul containing the Zij as-Sanjari (Arabic). [This manuscript does not contain the astronomical tables of the Zij.] (From the collection of David E. Pingree)",
+ms_327,,,,,,,1400,1500,True,class: Galileo,
+ms_328,,,,,,,800,900,True,"class: Boethius tradition
+subclass: Cassiodorus, Institutiones, third recension",
+ms_329,,,,,,,900,1100,True,"class: Boethius tradition
+subclass: Cassiodorus, Institutiones, third recension",
+ms_330,,,,,,,900,1000,True,"class: Boethius tradition
+subclass: Cassiodorus, Institutiones, third recension",
+ms_331,,,,,,,900,1000,True,"class: Boethius tradition
+subclass: Cassiodorus, Institutiones, third recension",
+ms_332,,,,,,,800,900,True,"class: Boethius tradition
+subclass: Cassiodorus, Institutiones, third recension",
+ms_333,,,,,,,1004,1004,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_334,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_335,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_336,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_337,,,,,,,900,1000,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_338,,,,,,,1500,1600,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_339,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_340,,,,,,,800,900,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_341,,,,,,,800,900,True,"class: Boethius tradition
+subclass: Manuscripts of the Corpus agrimensorum",
+ms_342,,,,,,,900,1000,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_343,,,,,,,1004,1004,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_344,,,,,,,1000,1100,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_345,,,,,,,900,1000,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_346,,,,,,,1400,1500,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_347,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_348,,,,,,,900,1100,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_349,,,,,,,1200,1300,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_350,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_351,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_352,,,,,,,1200,1300,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_353,,,,,,,900,1000,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_354,,,,,,,1500,1600,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_355,,,,,,,1000,1100,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_356,,,,,,,800,900,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_357,,,,,,,900,1000,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_358,,,,,,,1200,1300,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_359,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_360,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_361,,,,,,,1000,1100,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_362,,,,,,,1200,1300,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_363,,,,,,,1400,1500,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry I",
+ms_364,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_365,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_366,,,,,,,1400,1500,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_367,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_368,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II
+It seems that this is a Geometry II (not a Geometry I) manuscript",
+ms_369,,,,,,,1000,1100,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_370,,,,,,,1500,1600,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_371,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_372,,,,,,,1200,1300,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_373,,,,,,,1400,1500,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_374,,,,,,,1200,1300,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_375,,,,,,,1100,1300,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_376,,,,,,,1000,1100,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_377,,,,,,,1200,1300,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_378,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_379,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_380,,,,,,,1100,1200,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_381,,,,,,,1100,1500,True,"class: Boethius tradition
+subclass: Pseudo-Boethius, Geometry II",
+ms_382,,,,,,,,6,True,class: Verona palimpsest,
+ms_383,,,,,,,800,900,True,class: Munich fragment,
+ms_384,,,,,,,1200,1300,True,"class: Greek-Latin translation (twelfth century)
+f.2-2v has definitions, postulates, and common notions of book I in the Campanus version, s.XIV",
+ms_385,,,,,,,1300,1400,True,class: Greek-Latin translation (twelfth century),
+ms_386,,,,,,,1400,1500,True,class: Greek-Latin translation (twelfth century),
+ms_387,,,,,,,1300,1400,True,class: Liber ysagogarum Alchorismi,
+ms_388,,,,,,,1400,1500,True,class: Liber ysagogarum Alchorismi,
+ms_389,,,,,,,1100,1200,True,class: Liber ysagogarum Alchorismi,
+ms_390,,,,,,,1100,1200,True,class: Liber ysagogarum Alchorismi,
+ms_391,,,,,,,1200,1300,True,class: Liber ysagogarum Alchorismi,
+ms_392,,,,,,,1300,1400,True,class: Liber ysagogarum Alchorismi,
+ms_393,,,,,,,1100,1200,True,class: Liber ysagogarum Alchorismi,
+ms_394,,,,,,,1143,folkerts,True,"class: Liber ysagogarum Alchorismi
+subclass: 1143
+NULL",
+ms_395,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Hajjaj text",
+ms_396,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Hajjaj text",
+ms_397,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_398,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_399,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_400,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_401,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_402,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_403,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_404,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_405,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_406,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_407,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_408,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_409,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_410,,,,,,,954,954,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text
+part of the same manuscript as Teheran, Malik 3586",
+ms_411,,,,,,,,,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text",
+ms_412,,,,,,,954,954,True,"class: Early Arabian Manuscripts
+subclass: Ishaq-Thabit text
+the missing part of book VII is Teheran, Danishgah 2120",
+ms_413,,,,,,,1200,1300,True,class: Adelard I,
+ms_414,,,,,,,1200,1400,True,class: Adelard I,
+ms_415,,,,,,,1100,1200,True,class: Adelard I,
+ms_416,,,,,,,1200,1300,True,class: Adelard I,
+ms_417,,,,,,,1300,1400,True,class: Adelard I,
+ms_418,,,,,,,1200,1300,True,"class: Hermann of Carinthia
+going back to a Hermann version",
+ms_419,,,,,,,1300,1400,True,"class: Hermann of Carinthia
+in agreement with Digby 174",
+ms_420,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_421,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_422,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_423,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_424,,,,,,,1400,1500,True,class: Gerard of Gremona,
+ms_425,,,,,,,1200,1300,True,class: Gerard of Gremona,
+ms_426,,,,,,,1400,1500,True,class: Gerard of Gremona,
+ms_427,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_428,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_429,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_430,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_431,,,,,,,1400,1600,True,class: Gerard of Gremona,
+ms_432,,,,,,,1300,1400,True,class: Gerard of Gremona,
+ms_433,,,,,,,1200,1300,True,class: Adelard II,
+ms_434,,,,,,,1300,1400,True,class: Adelard II,
+ms_435,,,,,,,1200,1300,True,class: Adelard II,
+ms_436,,,,,,,1200,1300,True,"class: Texts in the Adelard II tradition
+subclass: Adelard III",
+ms_437,,,,,,,1100,1200,True,"class: Texts in the Adelard II tradition
+subclass: Adelard III",
+ms_438,,,,,,,1100,1200,True,"class: Texts in the Adelard II tradition
+subclass: Adelard III",
+ms_439,,,,,,,1200,1300,True,"class: Texts in the Adelard II tradition
+subclass: Adelard III",
+ms_440,,,,,,,1200,1300,True,"class: Texts in the Adelard II tradition
+subclass: Adelard III
+the so-called Version IIIB",
+ms_441,,,,,,,1200,1300,True,"class: Texts in the Adelard II tradition
+subclass: Adelard III
+together with Adelard II",
+ms_442,,,,,,,1300,1400,True,"class: Texts in the Adelard II tradition
+subclass: Adelard III",
+ms_443,,,,,,,1200,1300,True,"class: Texts in the Adelard II tradition
+subclass: Thirteenth century commentary",
+ms_444,,,,,,,1300,1400,True,"class: Texts in the Adelard II tradition
+subclass: Thirteenth century commentary",
+ms_445,,,,,,,1400,1500,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_446,,,,,,,1400,1500,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara
+the proofs in book I in a different version",
+ms_447,,,,,,,1300,1400,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_448,,,,,,,1300,1400,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_449,,,,,,,1300,1500,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_450,,,,,,,1400,1500,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_451,,,,,,,1300,1400,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_452,,,,,,,1400,1500,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_453,,,,,,,1300,1400,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_454,,,,,,,1300,1400,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_455,,,,,,,1300,1400,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara
+The text of the first proofs differs from the usual Campanus text",
+ms_456,,,,,,,1400,1500,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_457,,,,,,,,,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_458,,,,,,,1300,1500,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_459,,,,,,,1457,1457,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_460,,,,,,,1400,1500,True,"class: Texts in the Adelard II tradition
+subclass: Campanus of Novara",
+ms_461,,,,,,,1200,1300,True,"class: Texts in the Adelard II tradition
+subclass: Reworking Paris, BN Lat. 7374",
+ms_462,,,,,,,1200,1300,True,"class: Texts in the Adelard II tradition
+subclass: Reworking London, Sloane 285",
+ms_463,,,,,,,1300,1400,True,class: Reworking Vat. Reg. lat. 1268,
+ms_464,,,,,,,1300,1400,True,class: an-Nayrizi's commentary on books I-X,
+ms_465,,,,,,,1300,1400,True,class: an-Nayrizi's commentary on books I-X,
+ms_466,,,,,,,1300,1400,True,class: an-Nayrizi's commentary on books I-X,
+ms_467,,,,,,,1300,1400,True,"class: Muhammad ibn `Abd al-Baqi, Commentary on book X",
+ms_468,,,,,,,1300,1400,True,"class: Muhammad ibn `Abd al-Baqi, Commentary on book X",
+ms_469,,,,,,,1200,1400,True,"class: Muhammad ibn `Abd al-Baqi, Commentary on book X",
+ms_470,,,,,,,1200,1300,True,"class: Muhammad ibn `Abd al-Baqi, Commentary on book X",
+ms_471,,,,,,,1300,1400,True,"class: Muhammad ibn `Abd al-Baqi, Commentary on book X",
+ms_472,,,,,,,1200,1300,True,class: Commentary on book X by Pappus,
+ms_473,,,,,,,1300,1400,True,class: Commentary of Albertus Magnus (?),
+ms_474,,,,,,,1400,1500,True,class: Commentary ascribed to Roger Bacon,
+ms_475,,,,,,,1300,1400,True,"class: Nicole Oresme, Quaestiones super geometriam Euclidis",
+ms_476,,,,,,,1400,1500,True,"class: Nicole Oresme, Quaestiones super geometriam Euclidis",
+ms_477,,,,,,,1300,1400,True,"class: Nicole Oresme, Quaestiones super geometriam Euclidis",
+ms_478,,,,,,,1400,1500,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified",
+ms_479,,,,,,,1400,1500,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified
+Brani d'... Euclide",
+ms_480,,,,,,,1400,1500,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified
+G. Valla, with dedication letter to Petrus Barocius",
+ms_481,,,,,,,1300,1400,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified
+M 100; Quaestiones about Euclid, book I. On f.49v-50, 52v-53 there are notes, commentaries and small extracts from Euclid",
+ms_482,,,,,,,1400,1500,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified
+as it seems, from the university lecture",
+ms_483,,,,,,,1500,1600,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified
+Zamberti",
+ms_484,,,,,,,1300,1400,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified",
+ms_485,,,,,,,1500,1600,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified",
+ms_486,,,,,,,1500,1600,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified",
+ms_487,,,,,,,1500,1600,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified
+G. Valla with dedication letter to princeps Albertus pius Carpensis",
+ms_488,,,,,,,1500,1600,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified
+Michael Stifel",
+ms_489,,,,,,,1400,1500,True,"class: Translations, reworkings and commentaries from the fifteenth century; texts not identified
+enunciations only, in the Campanus version. Only those enunciations are givenwhich are necessary for the proofs in the treatise De sinibus et cordis ac eorum arcubus. See London, Add. 24071",
+GLYTWZ,,,Francesco Maurolico,,Euclidis elementorum compendia,Specified in source,1567,1567,False,,
+G8MDPE,,,Evangelista Torricelli,,De proportionibus liber,Specified in source,1647,1647,False,,
+SLWQ7N,,,John Wallis,,In Elementa Euclidis Praelectiones,Specified in source,1651,1651,False,,
+GJXHA3,,,Blaise Pascal,,Introduction à la géométrie,Specified in source,1655,1655,False,,
+85GZV3,,,Gilles Personne de Roberval,,Éléments de géométrie,Specified in source,1673,1675,True,,
+LOFE5H,,,Isaac Newton,,The Science of Axiomatc Deduction,Specified in source,1693,1706,True,,
+2KGVZD,,,,,Manuel d'un ingénieur-architecte de la première moitié du XVIIe siècle.,Specified in source,1600,1700,True,"Métin (2016, p. ) mentions this MS; includes extraits from multiple mathematical related books; notebook of Jacques Gentillâtre (1578-around 1622), architecte.",
+IYXX6N,,,,,Traitté des cinq ordres d'architecture selon la métode de Vignolle,Specified in source,1700,1800,True,,
+M2BQJ8,,,,,"Opera decta et chiamata Pratica Leonardi Giamboni di geometria, composta in Cornuola apud Castrum Emporii per lo decto prete Leonardo Fiorentino et ferta al B. P. Clemente papa VII nell' anno secondo del pontificato di Sua Sanctità",Specified in source,1500,1600,True,,
+SBTLU7,,,,,"Traduction de l'Algèbre en arithmétique et géométrie, de Pierre Nunès.",Specified in source,1600,1700,True,,
+UV2ZS6,,,,,"Traité, pour la défense de la carte de naviguer",Specified in source,1600,1700,True,,
+FRXJUH,,,,,Traité de géométrie,Specified in source,1600,1700,True,,
+16NH5R,,,,,Mélanges scientifiques et philosophiques,Specified in source,1600,1800,True,,
+IXI8N3,,,,,"Opera decta et chiamata Pratica Leonardi Giamboni di geometria, composta in Cornuola apud Castrum Emporii per lo decto prete Leonardo Fiorentino et ferta al B. P. Clemente papa VII nell' anno secondo del pontificato di Sua Sanctità",Specified in source,1500,1600,True,,
+H55LLR,,,,,Miscellanea mathematica et astronomica,Specified in source,1500,1600,True,,
+ME5WYH,,,,,Grec 2348,Provided by catalog,1600,1700,True, it was copied by Joseph Auria; includes euclid's data with scholia + Marinus' preface,
+SQKVP9,,,,,Florilège de textes scientifiques réuni par Ismaël Boulliau,Specified in source,1651,1651,False,includes the def for the 1st book of the Elements,
+NCXCIA,,,,,Cours d'arithmétique,Provided by catalog,1567,1567,False,,

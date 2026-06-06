@@ -57,8 +57,6 @@ export type Item = {
   elementsBooksExpanded: number[];
   additionalContent: string[];
   volumesCount: number | null;
-  class: string | null;
-  subclass: string | null;
   notes: string | null;
   study_corpora: string[];
   diagramCropsAvailable: boolean | null;

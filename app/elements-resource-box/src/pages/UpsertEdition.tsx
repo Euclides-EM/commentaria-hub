@@ -69,8 +69,6 @@ type EditionFormData = {
   manuscriptYearFrom?: number;
   manuscriptYearTo?: number;
   manuscriptYearIsApproximate?: boolean;
-  manuscriptClass?: string;
-  manuscriptSubclass?: string | null;
   year?: string | null;
   languages?: string[];
   editor?: string[];
@@ -176,8 +174,6 @@ function toModelEdition(data: EditionFormData): model_Edition {
     manuscriptYearFrom: data.manuscriptYearFrom,
     manuscriptYearTo: data.manuscriptYearTo,
     manuscriptYearIsApproximate: data.manuscriptYearIsApproximate,
-    manuscriptClass: data.manuscriptClass,
-    manuscriptSubclass: nullToUndef(data.manuscriptSubclass),
     year: nullToUndef(data.year),
     languages: data.languages,
     editor: data.editor,
@@ -276,8 +272,6 @@ function toEditionFormData(
           manuscriptYearIsApproximate: Boolean(
             edition.manuscriptYearIsApproximate,
           ),
-          manuscriptClass: edition.manuscriptClass || "",
-          manuscriptSubclass: edition.manuscriptSubclass || null,
           languages: edition.languages || [],
           editor: edition.editor || [],
           title: edition.title || null,
@@ -805,9 +799,6 @@ function toOptionsFromArray(
 type OptionLists = {
   editors: string[];
   publishers: string[];
-  manuscriptClasses: string[];
-  manuscriptSubclassesByClass: Record<string, string[]>;
-  manuscriptSubclasses: string[];
   additionalContents: string[];
   cities: string[];
   reprintOptions: { value: string; label: string }[];
@@ -818,35 +809,6 @@ type OptionLists = {
 const buildOptionLists = (editions: model_Edition[]): OptionLists => {
   const editors = toOptionsFromArray(editions, "editor");
   const publishers = toOptionsFromArray(editions, "publisher");
-  const manuscriptClasses = uniq(
-    editions
-      .map((item) => item.manuscriptClass || "")
-      .map((item) => item.trim())
-      .filter(Boolean)
-      .sort(),
-  );
-  const manuscriptSubclasses = uniq(
-    editions
-      .map((item) => item.manuscriptSubclass || "")
-      .map((item) => item.trim())
-      .filter(Boolean)
-      .sort(),
-  );
-  const manuscriptSubclassesByClass = Object.fromEntries(
-    manuscriptClasses.map((manuscriptClass) => [
-      manuscriptClass,
-      uniq(
-        editions
-          .filter(
-            (item) => (item.manuscriptClass || "").trim() === manuscriptClass,
-          )
-          .map((item) => item.manuscriptSubclass || "")
-          .map((item) => item.trim())
-          .filter(Boolean)
-          .sort(),
-      ),
-    ]),
-  );
   const additionalContents = uniq(
     editions
       .flatMap((item) => item.additionalContent || [])
@@ -900,9 +862,6 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
   return {
     editors,
     publishers,
-    manuscriptClasses,
-    manuscriptSubclassesByClass,
-    manuscriptSubclasses,
     additionalContents,
     cities: cityNames,
     reprintOptions,
@@ -1034,12 +993,6 @@ export const UpsertEdition = () => {
   });
   const isManuscript = useStore(form.store, (s) => s.values.isManuscript);
   const isElements = useStore(form.store, (s) => s.values.isElements);
-  const manuscriptClass = useStore(form.store, (s) => s.values.manuscriptClass);
-  const manuscriptSubclassOptions = toSingleSelectOptions(
-    manuscriptClass
-      ? lists?.manuscriptSubclassesByClass[manuscriptClass] || []
-      : lists?.manuscriptSubclasses || [],
-  );
 
   const fetchAndMergeUstcData = async (ustcId: string) => {
     if (!ustcId || isNaN(Number(ustcId)) || !token) {
@@ -1432,71 +1385,6 @@ export const UpsertEdition = () => {
                           checked={Boolean(field.state.value)}
                           onChange={(e) => field.handleChange(e.target.checked)}
                           onBlur={field.handleBlur}
-                        />
-                      )}
-                    </form.Field>
-                  </FormField>
-
-                  <FormField>
-                    <Label className="required">Manuscript Class</Label>
-                    <form.Field
-                      name="manuscriptClass"
-                      validators={{
-                        onBlur: ({ value }) =>
-                          !value && "Manuscript class is required",
-                      }}
-                    >
-                      {(field) => (
-                        <>
-                          <SingleSelect
-                            name="manuscript class"
-                            options={toSingleSelectOptions(
-                              lists?.manuscriptClasses || [],
-                            )}
-                            value={field.state.value || null}
-                            onBlur={field.handleBlur}
-                            onChange={(value) => {
-                              const nextClass = (value as string) || "";
-                              field.handleChange(nextClass);
-                              const nextSubclassOptions = nextClass
-                                ? lists?.manuscriptSubclassesByClass[
-                                    nextClass
-                                  ] || []
-                                : lists?.manuscriptSubclasses || [];
-                              const currentSubclass =
-                                form.state.values.manuscriptSubclass;
-                              if (
-                                currentSubclass &&
-                                !nextSubclassOptions.includes(currentSubclass)
-                              ) {
-                                form.setFieldValue("manuscriptSubclass", null);
-                              }
-                            }}
-                            isCreatable={true}
-                            placeholder="Choose or add manuscript class..."
-                          />
-                          {!field.state.meta.isValid && (
-                            <em>{field.state.meta.errors.join(",")}</em>
-                          )}
-                        </>
-                      )}
-                    </form.Field>
-                  </FormField>
-
-                  <FormField>
-                    <Label>Manuscript Subclass</Label>
-                    <form.Field name="manuscriptSubclass">
-                      {(field) => (
-                        <SingleSelect
-                          name="manuscript subclass"
-                          options={manuscriptSubclassOptions}
-                          value={field.state.value || null}
-                          onBlur={field.handleBlur}
-                          onChange={(value) =>
-                            field.handleChange((value as string) || null)
-                          }
-                          isCreatable={true}
-                          placeholder="Choose or add manuscript subclass..."
                         />
                       )}
                     </form.Field>

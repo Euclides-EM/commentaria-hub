@@ -163,8 +163,6 @@ func (s *EditionCSV) upsertManuscript(ed *model.Edition) error {
 	}
 	row := map[string]string{
 		"key":                 ed.Key,
-		"class":               ed.ManuscriptClass,
-		"subclass":            formatcov.PtrToStr(ed.ManuscriptSubclass),
 		"city":                strings.Join(ed.Cities, ", "),
 		"languages":           strings.Join(langs, ", "),
 		"compositors":         strings.Join(ed.Editor, ", "),
@@ -550,8 +548,6 @@ func (s *EditionCSV) loadEditionByKey(key string) (*model.Edition, error) {
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
 		ed.ManuscriptYearIsApproximate = itemRow["year_is_approximate"] == "True" || itemRow["year_is_approximate"] == "true"
-		ed.ManuscriptClass = itemRow["class"]
-		ed.ManuscriptSubclass = formatcov.StrToPtr(itemRow["subclass"])
 		ed.Cities = splitNonEmpty(itemRow["city"])
 		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["languages"]))
 		ed.Editor = splitNonEmpty(itemRow["compositors"])
@@ -854,8 +850,6 @@ func (s *EditionCSV) buildEditionFromPreloaded(key string, p *preloadedEditionRo
 		ed.ManuscriptYearFrom = formatcov.IntOpt(itemRow["year_from"])
 		ed.ManuscriptYearTo = formatcov.IntOpt(itemRow["year_to"])
 		ed.ManuscriptYearIsApproximate = itemRow["year_is_approximate"] == "True" || itemRow["year_is_approximate"] == "true"
-		ed.ManuscriptClass = itemRow["class"]
-		ed.ManuscriptSubclass = formatcov.StrToPtr(itemRow["subclass"])
 		ed.Cities = splitNonEmpty(itemRow["city"])
 		ed.Languages = splitNonEmpty(strings.ToLower(itemRow["languages"]))
 		ed.Editor = splitNonEmpty(itemRow["compositors"])

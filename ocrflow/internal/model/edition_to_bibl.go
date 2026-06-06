@@ -185,11 +185,6 @@ func buildNotesStmt(ed *Edition) *teim.NotesStmt {
 		addNote("manuscriptYearTo", strconv.Itoa(*ed.ManuscriptYearTo))
 	}
 	addNote("manuscriptYearIsApproximate", strconv.FormatBool(ed.ManuscriptYearIsApproximate))
-
-	addNote("manuscriptClass", ed.ManuscriptClass)
-	if ed.ManuscriptSubclass != nil {
-		addNote("manuscriptSubclass", *ed.ManuscriptSubclass)
-	}
 	if ed.ManuscriptElementsContent != nil {
 		addNote("manuscriptElementsContent", *ed.ManuscriptElementsContent)
 	}

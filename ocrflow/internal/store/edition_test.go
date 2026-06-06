@@ -11,8 +11,8 @@ func TestLoadEditionByKeyLoadsManuscriptElementsMetadataLikePrint(t *testing.T) 
 	dir := t.TempDir()
 
 	err := csv.SaveCSV(dir+"/"+relItemsManuscript, [][]string{
-		{"key", "class", "subclass", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
-		{"ms_1", "Latin manuscripts", "Subclass A", "", "", "", "", "Test manuscript", "source", "1200", "1250", "True", "", ""},
+		{"key", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
+		{"ms_1", "", "", "", "", "Test manuscript", "source", "1200", "1250", "True", "", ""},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript items csv: %v", err)
@@ -52,7 +52,7 @@ func TestUpsertManuscriptPersistsElementsMetadataLikePrint(t *testing.T) {
 	dir := t.TempDir()
 
 	err := csv.SaveCSV(dir+"/"+relItemsManuscript, [][]string{
-		{"key", "class", "subclass", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
+		{"key", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript items csv: %v", err)
@@ -73,8 +73,6 @@ func TestUpsertManuscriptPersistsElementsMetadataLikePrint(t *testing.T) {
 		Books:                 []int{1, 2, 3, 5},
 		AdditionalContent:     []string{"copy of Naples V A 13", "fragment"},
 		ManuscriptElementsContent: strPtr("I-XV; abbreviated version"),
-		ManuscriptClass:       "Latin Boethius manuscripts",
-		ManuscriptSubclass:    strPtr("Mc"),
 		ShortTitle:            "Test manuscript",
 		ManuscriptYearFrom:    intPtr(1500),
 		ManuscriptYearTo:      intPtr(1600),
@@ -105,8 +103,8 @@ func TestLoadEditionByKeyLoadsManuscriptTitleTranslation(t *testing.T) {
 	dir := t.TempDir()
 
 	err := csv.SaveCSV(dir+"/"+relItemsManuscript, [][]string{
-		{"key", "class", "subclass", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
-		{"ms_1", "Latin manuscripts", "Subclass A", "", "", "", "Titulus longus", "Test manuscript", "source", "1200", "1250", "True", "", ""},
+		{"key", "city", "languages", "compositors", "long_title", "short_title", "short_title_source", "year_from", "year_to", "year_is_approximate", "notes", "has_diagrams"},
+		{"ms_1", "", "", "", "Titulus longus", "Test manuscript", "source", "1200", "1250", "True", "", ""},
 	})
 	if err != nil {
 		t.Fatalf("save manuscript items csv: %v", err)
