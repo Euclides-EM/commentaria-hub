@@ -9,28 +9,45 @@ go.work.sum
 
 .DS_*
 *.log
-logs
+logs/
 
-node_modules
+node_modules/
+.idea/
 
-.idea
-
+# Local env / DB / dumps
 ocrflow/.env_private
-
 *.db*
-ocrflow/full_backups
-!ocrflow/backups/*.db*
+*.sqlite
+*.sqlite-*
+app/full_dump.sql
+identifier.sqlite
+
+# Go / Python caches
+ocrflow/.gocache/
+**/__pycache__/
+*.py[cod]
+
+# Backups and generated app data
+ocrflow/full_backups/
+ocrflow/uploads/
+ocrflow.zip
+dh_datasets_create.state.json
+
+# Generated OCR/data exports
 ocrflow/store/data/*
 !ocrflow/store/data/tps/
 !ocrflow/store/data/transcriptions/
-*/internal/*/docs
-*/internal/docs
 ocrflow/store/items_metadata/diagram-directories.json
 ocrflow/store/diagrams/
 ocrflow/store/models/
+alto2tei/data/
 
-dh_datasets_create.state.json
+# Scratch / experiments
+tmp/
+tmp_*/
 
+# Generated docs/assets
+*/internal/*/docs/
+*/internal/docs/
 **/testdata/**/*.stage.png
-
 **/imgs/_variants/

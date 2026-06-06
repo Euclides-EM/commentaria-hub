@@ -1,4 +1,4 @@
-Page/Key,language,year,city,Classification,final_value,final_source,final_reason,concerns,review_file,review_notes,review_error_type,Orig_Value,llm_Value_6,llm_Value_7,llm_Value_8
+edition_id,language,year,city,category,final_value,final_source,final_reason,concerns,review_file,review_notes,review_error_type,Orig_Value,llm_Value_6,llm_Value_7,llm_Value_8
 0NKS71,FRENCH,1568,Paris,Architecture,unrelated,llm_Value_6,category policy: V6 was strongest on reviewed examples for this category,,,,,unrelated,unrelated,unrelated,unrelated
 0NKS71,FRENCH,1568,Paris,Arithmetic,unrelated,llm_Value_8,category policy: V8 is the latest completed full run and was strongest or tied best on reviewed examples for this category,,,,,unrelated,unrelated,unrelated,unrelated
 0NKS71,FRENCH,1568,Paris,Astronomy,unrelated,llm_Value_8,category policy: V8 is the latest completed full run and was strongest or tied best on reviewed examples for this category,prompt-disagreement,,,,unrelated,secondary,unrelated,unrelated

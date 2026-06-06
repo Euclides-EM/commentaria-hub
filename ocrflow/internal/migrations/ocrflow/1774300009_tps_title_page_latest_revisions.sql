@@ -148,7 +148,7 @@ INSERT INTO features (id, name, description, created_at, updated_at, dataset_id,
     properties = excluded.properties;
 
 INSERT INTO features (id, name, description, created_at, updated_at, dataset_id, is_default, is_list, color, properties) VALUES (
-    'editor_name', 'Adapter Attribution', 'The full printed name of the contemporary adapter.', datetime('now'), datetime('now'), 'tps', 1, 0, '#909fd7', '[]'
+    'editor_name', 'Adapter Attribution', 'The full printed name of the contemporary adapter.', datetime('now'), datetime('now'), 'tps', 1, 1, '#909fd7', '[]'
 ) ON CONFLICT(id) DO UPDATE SET
     name = excluded.name,
     description = excluded.description,

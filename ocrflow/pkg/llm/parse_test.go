@@ -50,6 +50,14 @@ func TestParseJSON(t *testing.T) {
 			input:   `{"title":["Elements"]}`,
 			wantErr: "decode extracted json object",
 		},
+		{
+			name:  "repairs invalid string escape",
+			input: `{"title":"D\. HENRION","author":"Line\nBreak"}`,
+			want: map[string]string{
+				"title":  "D. HENRION",
+				"author": "Line\nBreak",
+			},
+		},
 	}
 
 	for _, tt := range tests {

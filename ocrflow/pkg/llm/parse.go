@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/jsonrepair"
 )
 
 func ParseJSON[T any](rawText string) (T, error) {
@@ -15,7 +17,14 @@ func ParseJSON[T any](rawText string) (T, error) {
 	}
 
 	if err := json.Unmarshal([]byte(jsonText), &out); err != nil {
-		return out, fmt.Errorf("decode extracted json object: %w", err)
+		repaired, changed := jsonrepair.RepairInvalidStringEscapes(jsonText)
+		if !changed {
+			return out, fmt.Errorf("decode extracted json object: %w", err)
+		}
+		if retryErr := json.Unmarshal([]byte(repaired), &out); retryErr != nil {
+			return out, fmt.Errorf("decode extracted json object: %w", err)
+		}
+		log.Printf("llm parse json: repaired invalid string escape in extracted json object")
 	}
 
 	return out, nil
