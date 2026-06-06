@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import styled from "@emotion/styled";
 import { FaCheck, FaFilePdf, FaQuoteLeft } from "react-icons/fa";
+import { AiFillEdit } from "react-icons/ai";
 import { Item } from "../../../types";
 import { Row } from "../../common";
 import { ModalTextColumn } from "./ModalComponents";
@@ -81,7 +82,16 @@ const StyledDiagramIcon = styled(SiMaterialdesign)`
   border-radius: 4px;
 `;
 
-const EditLink = styled.a`
+const ActionLink = styled.a`
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: ${LAND_COLOR};
+  text-decoration: none;
+`;
+
+const CommentariaHubLink = styled.a`
   display: block;
   margin-left: 0;
   padding: 0.5rem;
@@ -95,16 +105,13 @@ const EditLink = styled.a`
   height: fit-content;
   width: max-content;
   justify-self: end;
+  max-width: 200px;
+  white-space: normal;
+  overflow-wrap: anywhere;
 
   &:hover {
     background-color: #e0e0e0;
   }
-`;
-
-const CommentariaHubLink = styled(EditLink)`
-  max-width: 200px;
-  white-space: normal;
-  overflow-wrap: anywhere;
 `;
 
 const ActionsRow = styled.div`
@@ -213,9 +220,10 @@ export const ItemInfo = ({
       </Row>
       {(item.facsimiles.length > 0 ||
         hasMainScan ||
-        (showDiagramsLink && item.diagramCropsAvailable)) && (
+        (showDiagramsLink && item.diagramCropsAvailable) ||
+        token) && (
         <Row justifyStart>
-          <InfoTitle>Facsimile:</InfoTitle>
+          <InfoTitle>Links:</InfoTitle>
           <AnchorsRow
             data-tooltip-id={TOOLTIP_SCAN}
             data-tooltip-content="View Facsimile Online"
@@ -231,6 +239,16 @@ export const ItemInfo = ({
               >
                 <FaFilePdf />
               </IconButton>
+            )}
+            {token && (
+              <ActionLink
+                href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Edit Item"
+              >
+                <AiFillEdit />
+              </ActionLink>
             )}
             {showDiagramsLink && item.diagramCropsAvailable && (
               <StyledAnchor
@@ -285,15 +303,6 @@ export const ItemInfo = ({
             >
               View transcription in Commentaria Hub
             </CommentariaHubLink>
-          )}
-          {token && (
-            <EditLink
-              href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Edit Item
-            </EditLink>
           )}
         </ActionsRow>
       )}
