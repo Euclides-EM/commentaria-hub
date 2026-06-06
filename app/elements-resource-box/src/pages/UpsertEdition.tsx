@@ -27,6 +27,8 @@ import { isValidUrl } from "../utils/util.ts";
 import { useNavigateWithQuery } from "../utils/navigationUtils.ts";
 import { useQuery } from "@tanstack/react-query";
 import { STUDY_CORPUSES } from "../types";
+import { ItemLinksRow } from "../components/ItemLinksRow.tsx";
+import { mapEditionsToItems } from "../utils/dataUtils.ts";
 
 type Locator = model_EditionLocator;
 
@@ -355,6 +357,12 @@ const Title = styled.h1`
   margin: 0;
   font-size: 2rem;
   color: #333;
+`;
+
+const ExistingItemActions = styled.div`
+  display: flex;
+  align-items: center;
+  margin: -1rem 0 1.5rem 0;
 `;
 
 const FormGrid = styled.div`
@@ -838,6 +846,10 @@ export const UpsertEdition = () => {
   });
   const valuesLoading = Boolean(key) && existingItemQuery.isLoading;
   const listsLoading = !lists && editionsForListsQuery.isLoading;
+  const existingEdition = existingItemQuery.data?.edition;
+  const existingItem = existingEdition
+    ? (mapEditionsToItems([existingEdition])[0] ?? null)
+    : null;
 
   const form = useForm({
     defaultValues: values,
@@ -1100,6 +1112,11 @@ export const UpsertEdition = () => {
             </DeleteButton>
           )}
         </TitleContainer>
+        {key && existingItem && (
+          <ExistingItemActions>
+            <ItemLinksRow item={existingItem} showEditLink={false} />
+          </ExistingItemActions>
+        )}
         {valuesLoading || listsLoading ? (
           <div>Loading...</div>
         ) : (

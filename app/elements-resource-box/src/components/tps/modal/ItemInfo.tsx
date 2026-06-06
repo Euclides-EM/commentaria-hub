@@ -1,55 +1,23 @@
 import { useContext, useState } from "react";
 import styled from "@emotion/styled";
-import { FaCheck, FaFilePdf, FaQuoteLeft } from "react-icons/fa";
-import { AiFillEdit } from "react-icons/ai";
+import { FaCheck, FaQuoteLeft } from "react-icons/fa";
 import { Item } from "../../../types";
 import { Row } from "../../common";
 import { ModalTextColumn } from "./ModalComponents";
 import { personDisplayName } from "../../../utils/dataUtils";
 import { formatBookRanges, joinArr } from "../../../utils/util";
-import { withAppBasePath } from "../../../utils/basePath";
 import { NO_EDITOR } from "../../../constants";
-import { LAND_COLOR } from "../../../utils/colors";
-import { TOOLTIP_SCAN } from "../../map/MapTooltips";
-import { SiMaterialdesign } from "react-icons/si";
+import { LAND_COLOR } from "../../../utils/colors.ts";
 import pluralize from "pluralize";
-import { ITEM_EDIT_ROUTE } from "../../layout/routes.ts";
 import { AuthContext } from "../../../contexts/Auth.ts";
 import { useQuery } from "@tanstack/react-query";
 import { getCommentariaHubPreferredTranscriptionUrl } from "../../../utils/commentariaHub.ts";
-import { FacsimileLinks } from "../../FacsimileLinks.tsx";
-import { FacsimilesService } from "@hub-api";
-import { openAuthenticatedFacsimilePDF } from "../../../utils/facsimilePdf.ts";
+import { ItemLinksRow } from "../../ItemLinksRow.tsx";
 
 const InfoTitle = styled.div`
   font-size: 0.8rem;
   color: darkgray;
   min-width: 4rem;
-`;
-
-const StyledAnchor = styled.a`
-  font-size: 1rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const IconButton = styled.button`
-  border: none;
-  background: transparent;
-  color: ${LAND_COLOR};
-  cursor: pointer;
-  padding: 0;
-  font-size: 1rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const AnchorsRow = styled.div`
-  display: flex !important;
-  flex-direction: row;
-  gap: 0.5rem;
 `;
 
 const CitationButton = styled.button<{ copied?: boolean }>`
@@ -72,23 +40,6 @@ const CitationButton = styled.button<{ copied?: boolean }>`
   svg {
     font-size: 0.8rem;
   }
-`;
-
-const StyledDiagramIcon = styled(SiMaterialdesign)`
-  color: white !important;
-  background-color: ${LAND_COLOR};
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-`;
-
-const ActionLink = styled.a`
-  font-size: 1rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: ${LAND_COLOR};
-  text-decoration: none;
 `;
 
 const CommentariaHubLink = styled.a`
@@ -172,22 +123,6 @@ export const ItemInfo = ({
     queryFn: () => getCommentariaHubPreferredTranscriptionUrl(item.key),
     enabled: !!item.key,
   });
-  const localFacsimilesQuery = useQuery({
-    queryKey: ["facsimiles", "download-available", item.key],
-    queryFn: () => FacsimilesService.getFacsimilies({ editionId: [item.key] }),
-    enabled: Boolean(token && item.key),
-  });
-  const hasMainScan = localFacsimilesQuery.data?.some(
-    (facsimile) => facsimile.download_available,
-  );
-  const openMainScan = () => {
-    if (!token) {
-      return;
-    }
-    void openAuthenticatedFacsimilePDF(item.key, token).catch((error) => {
-      console.error("Failed to open main scan:", error);
-    });
-  };
 
   return (
     <ModalTextColumn isRow={isRow}>
@@ -219,48 +154,11 @@ export const ItemInfo = ({
         {joinArr(item.languages)}
       </Row>
       {(item.facsimiles.length > 0 ||
-        hasMainScan ||
         (showDiagramsLink && item.diagramCropsAvailable) ||
         token) && (
         <Row justifyStart>
           <InfoTitle>Links:</InfoTitle>
-          <AnchorsRow
-            data-tooltip-id={TOOLTIP_SCAN}
-            data-tooltip-content="View Facsimile Online"
-            data-tooltip-place="left"
-          >
-            <FacsimileLinks facsimiles={item.facsimiles} color={LAND_COLOR} />
-            {hasMainScan && (
-              <IconButton
-                type="button"
-                onClick={openMainScan}
-                title="View main scan"
-                aria-label="View main scan"
-              >
-                <FaFilePdf />
-              </IconButton>
-            )}
-            {token && (
-              <ActionLink
-                href={withAppBasePath(`${ITEM_EDIT_ROUTE}?key=${item.key}`)}
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Edit Item"
-              >
-                <AiFillEdit />
-              </ActionLink>
-            )}
-            {showDiagramsLink && item.diagramCropsAvailable && (
-              <StyledAnchor
-                href={withAppBasePath(`/diagrams?key=${item.key}`)}
-                target="_blank"
-                rel="noopener noreferrer"
-                title="View Diagrams"
-              >
-                <StyledDiagramIcon />
-              </StyledAnchor>
-            )}
-          </AnchorsRow>
+          <ItemLinksRow item={item} showDiagramsLink={showDiagramsLink} />
         </Row>
       )}
       {item.format && (
