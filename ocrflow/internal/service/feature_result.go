@@ -13,10 +13,10 @@ import (
 )
 
 type Result struct {
-	store          *fpstore.FeatureResultSql
+	store           *fpstore.FeatureResultSql
 	annotationStore *fpstore.AnnotationSQL
-	featureSvc     *Feature
-	featurePropSvc *FeatureProperty
+	featureSvc      *Feature
+	featurePropSvc  *FeatureProperty
 }
 
 func NewResult(store *fpstore.FeatureResultSql, annotationStore *fpstore.AnnotationSQL, featureSvc *Feature, featurePropSvc *FeatureProperty) *Result {

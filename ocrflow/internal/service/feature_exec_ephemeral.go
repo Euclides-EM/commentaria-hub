@@ -39,7 +39,7 @@ func (fe *Execution) ExecuteEphemeral(exec *feature.Execution, revisions []*feat
 
 	var allResults []*feature.Result
 	var execErrs []error
-	for _, key := range exec.Keys {
+	for i, key := range exec.Keys {
 		actions, err := fe.loadExecutionActionsEphemeral(exec, key, skipState, revisionsByKey, featuresByKey)
 		if err != nil {
 			return nil, err
@@ -53,7 +53,7 @@ func (fe *Execution) ExecuteEphemeral(exec *feature.Execution, revisions []*feat
 		case feature.ScopeTypeDataset:
 			batch, err = fe.annotationApplyFunc(exec, key, actions)()
 		case feature.ScopeTypeEditions:
-			batch, err = fe.editionApplyFunc(key, actions, exec.ID)()
+			batch, err = fe.editionApplyFunc(key, actions, exec.ID, fmt.Sprintf("[%d/%d]", i+1, len(exec.Keys)))()
 		default:
 			return nil, fmt.Errorf("invalid execution scope: %s", exec.Scope.Type)
 		}

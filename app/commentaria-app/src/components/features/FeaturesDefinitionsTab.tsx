@@ -187,9 +187,15 @@ export function FeaturesDefinitionsTab() {
 
   const filteredRows = useMemo(() => {
     const trimmed = searchQuery.trim().toLowerCase()
+    const isAllDatasetsSelected =
+      selectedDatasets == null ||
+      selectedDatasets.length === datasetFilterItems.length
     return rows.filter((row) => {
+      const isEditionsScope = getScopeLabel(row) === 'Editions'
       const matchesDataset =
-        selectedDatasets == null || selectedDatasets.includes(row.datasetName)
+        selectedDatasets == null ||
+        selectedDatasets.includes(row.datasetName) ||
+        (isAllDatasetsSelected && isEditionsScope)
       const matchesScope =
         selectedScopes == null || selectedScopes.includes(getScopeLabel(row))
       if (!matchesDataset || !matchesScope) {
@@ -213,7 +219,13 @@ export function FeaturesDefinitionsTab() {
         .toLowerCase()
       return haystack.includes(trimmed)
     })
-  }, [rows, searchQuery, selectedDatasets, selectedScopes])
+  }, [
+    datasetFilterItems.length,
+    rows,
+    searchQuery,
+    selectedDatasets,
+    selectedScopes,
+  ])
 
   const updateFeatureMutation = useMutation({
     mutationFn: ({

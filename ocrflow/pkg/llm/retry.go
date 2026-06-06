@@ -47,7 +47,7 @@ func executeWithRetriesForAttempts(ctx context.Context, attemptsLimit uint, call
 		}),
 		retry.OnRetry(func(n uint, err error) {
 			delay, _ := retryDelay(err, n+1)
-			log.Printf("debug: llm exec retry attempt=%d retry_in=%s", n+1, delay)
+			log.Printf("debug: llm exec retry attempt=%d retry_in=%s: err %v", n+1, delay, err)
 		}),
 	)
 	return attempts, err

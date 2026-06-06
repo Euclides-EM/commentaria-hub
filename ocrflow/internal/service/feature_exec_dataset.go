@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"slices"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
@@ -14,8 +15,9 @@ import (
 )
 
 type featureGroup struct {
-	revisions []*feature.Revision
-	features  []*feature.Feature
+	revisions       []*feature.Revision
+	features        []*feature.Feature
+	textDescription string
 }
 
 func partitionFeatures(features []*feature.Feature, revisions []*feature.Revision, pred func(*feature.Feature) bool) (match, rest featureGroup) {
@@ -45,7 +47,7 @@ func (fe *Execution) runAnnotationGroup(ann *annotation.Annotation, key, execID,
 
 	if len(promptGroup.revisions) > 0 && fullText != "" {
 		for _, group := range groupPromptRevisionsByAIConfig(promptGroup.revisions, promptGroup.features) {
-			r, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, execID, textLanguage, fullText)()
+			r, err := fe.annotationPromptApplyFunc(ann, key, group.revisions, group.features, execID, textLanguage, fullText, promptGroup.textDescription)()
 			if err != nil {
 				execErrs = append(execErrs, err)
 			}
@@ -75,6 +77,8 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 
 		catImprint, catNonImprint := partitionFeatures(actions.categorizerFeatures, actions.categorizerRevisions, isImprintFeat)
 		promptImprint, promptNonImprint := partitionFeatures(actions.promptFeatures, actions.promptRevisions, isImprintFeat)
+		promptImprint.textDescription = "the imprint section of a title page"
+		promptNonImprint.textDescription = "a title page excluding the imprint section"
 
 		needImprint := len(catImprint.features)+len(promptImprint.features) > 0
 		needNonImprint := len(catNonImprint.features)+len(promptNonImprint.features) > 0
@@ -116,24 +120,37 @@ func (fe *Execution) annotationApplyFunc(exec *feature.Execution, key string, ac
 	}
 }
 
-func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string) applyFunc {
+func (fe *Execution) annotationPromptApplyFunc(ann *annotation.Annotation, key string, frs []*feature.Revision, fes []*feature.Feature, execID string, textLanguage string, fullText string, textDescription string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		if strings.TrimSpace(fullText) == "" {
 			return nil, fmt.Errorf("full text is empty for dataset %s and key %s", ann.DatasetID, key)
 		}
-		aiProvider := frs[0].AIProvider
-		aiModel := frs[0].AIModel
-		featureNameToIndex, definitions, outputFormat := buildPromptComponents(frs, fes)
-		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from title pages of early modern European textbooks.
+		activeRevisions := frs
+		activeFeatures := fes
+		resultsByFeatureID := make(map[string]*feature.Result, len(fes))
+		for attempt := 0; attempt < 3 && len(activeRevisions) > 0; attempt++ {
+			aiProvider := activeRevisions[0].AIProvider
+			aiModel := activeRevisions[0].AIModel
+			featureNameToIndex, definitions, outputFormat := buildPromptComponents(activeRevisions, activeFeatures)
+			prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata from title pages of early modern European textbooks.
 
 You will be given:
-- The transcribed text of a title page in %s.
+- The transcribed text of %s in %s.
 
 Your task is to extract specific paratextual features from the transcription and return them as a JSON object.
-Each field should contain the exact quoted text(s) from the input, with no modifications, rephrasing, or interpretation. Include the original whitespaces, line breaks and punctuation as they appear in the transcription.
-Some text may apply to more than one field, so you may return the same text portions in multiple fields if applicable.
 
-Return only a valid JSON. Do not include any other output.
+Extraction rules:
+- Extract the exact source span that best satisfies each feature definition. Some features require a minimal unit; others require the fuller title, name, or descriptive phrase. Follow the span guidance in each feature definition.
+- Do not over-trim titles, names, book counts, language references, or descriptors that are part of the requested feature.
+- Omit only surrounding text, outer punctuation, or layout noise that is not part of the selected span.
+- Preserve the original spelling, capitalization, whitespace, line breaks, and punctuation within the extracted span exactly as they appear in the transcription.
+- Early modern orthography may differ from modern spelling and letter usage. For example, “v” and “u” or “i” and “j” may be interchangeable (“vpon,” “Iesus”), and other historical spellings may vary. Treat these as normal forms and reproduce the text exactly as written, without modernization or normalization.
+- Words or phrases may be split across lines or interrupted by characters such as "-", "=" or similar separators. Interpret these as part of the transcription layout and extract the relevant text accurately.
+- Some text may apply to more than one field, so the same text may appear in multiple fields if applicable.
+- If a list-valued feature contains multiple distinct values in a coordinated phrase, return each distinct value separately unless the feature definition asks for a combined phrase.
+- Do not normalize, modernize, interpret, or correct the text.
+
+Return only a valid JSON object. Do not include explanations or any other output.
 
 Output format:
 {
@@ -145,18 +162,46 @@ Definitions:
 
 Transcribed text:
 %s
-`, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
+`, textDescription, textLanguage, outputFormat, strings.Join(definitions, "\n"), fullText)
 
-		contextDesc := fmt.Sprintf("dataset %s and key %s", ann.DatasetID, key)
-		rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
-		if err != nil {
-			return nil, fmt.Errorf("failed to execute LLM prompt for %s using %s/%s: %w", contextDesc, aiProvider, aiModel, err)
+			contextDesc := fmt.Sprintf("dataset %s and key %s", ann.DatasetID, key)
+			rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
+			if err != nil {
+				return nil, fmt.Errorf("failed to execute LLM prompt for %s using %s/%s: %w", contextDesc, aiProvider, aiModel, err)
+			}
+			rawFields, err := llm.ParseJSON[map[string]json.RawMessage](rawResponse)
+			if err != nil {
+				return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
+			}
+			parsed, err := parseLLMResults(rawFields, activeRevisions, activeFeatures, featureNameToIndex, execID, feature.NewDatasetExecScope(ann.DatasetID, ann.ID), key, contextDesc, fullText, true)
+			if err != nil {
+				return nil, err
+			}
+			for _, result := range parsed.results {
+				resultsByFeatureID[result.FeatureID] = result
+			}
+			if len(parsed.hallucinatedFeatureIDs) == 0 {
+				break
+			}
+			nextRevisions := make([]*feature.Revision, 0, len(parsed.hallucinatedFeatureIDs))
+			nextFeatures := make([]*feature.Feature, 0, len(parsed.hallucinatedFeatureIDs))
+			for i, featureItem := range activeFeatures {
+				if slices.Contains(parsed.hallucinatedFeatureIDs, featureItem.ID) {
+					nextRevisions = append(nextRevisions, activeRevisions[i])
+					nextFeatures = append(nextFeatures, activeFeatures[i])
+				}
+			}
+			activeRevisions = nextRevisions
+			activeFeatures = nextFeatures
 		}
-		rawFields, err := llm.ParseJSON[map[string]json.RawMessage](rawResponse)
-		if err != nil {
-			return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
+
+		results := make([]*feature.Result, 0, len(fes))
+		for _, featureItem := range fes {
+			if result, ok := resultsByFeatureID[featureItem.ID]; ok {
+				results = append(results, result)
+			}
 		}
-		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewDatasetExecScope(ann.DatasetID, ann.ID), key, contextDesc)
+		return results, nil
 	}
 }
 

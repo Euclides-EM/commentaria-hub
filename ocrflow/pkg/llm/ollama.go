@@ -49,6 +49,10 @@ func NewOllamaClient(baseURL, authToken string) *OllamaClient {
 }
 
 func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error) {
+	return c.ExecWithLogLabel(model, prompt, attachmentPath, "")
+}
+
+func (c *OllamaClient) ExecWithLogLabel(model, prompt, attachmentPath string, logLabel string) (string, error) {
 	if strings.TrimSpace(c.baseURL) == "" {
 		return "", fmt.Errorf("llm exec: ollama base url is empty")
 	}
@@ -82,7 +86,8 @@ func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error
 	startedAt := time.Now()
 	ctx, cancel := context.WithTimeout(context.Background(), totalTimeout)
 	defer cancel()
-	log.Printf("debug: llm exec start provider=ollama model=%s attachment=%t", model, strings.TrimSpace(attachmentPath) != "")
+	logPrefix := logPrefix(logLabel)
+	log.Printf("debug:%s llm exec start provider=ollama model=%s attachment=%t", logPrefix, model, strings.TrimSpace(attachmentPath) != "")
 	var out OllamaGenerateResponse
 	attempts, err := executeWithRetriesForAttempts(ctx, maxNetworkRetries, func() error {
 		req, err := http.NewRequestWithContext(ctx, http.MethodPost, endpoint, bytes.NewReader(body))
@@ -113,16 +118,16 @@ func (c *OllamaClient) Exec(model, prompt, attachmentPath string) (string, error
 			return fmt.Errorf("llm exec: decode ollama response: %w", err)
 		}
 		if strings.TrimSpace(out.Error) != "" {
-			log.Printf("debug: llm exec end provider=ollama model=%s duration=%s error=true", model, time.Since(startedAt))
+			log.Printf("debug:%s llm exec end provider=ollama model=%s duration=%s error=true", logPrefix, model, time.Since(startedAt))
 			return fmt.Errorf("llm exec: ollama generate api error after %s: %s", time.Since(startedAt), out.Error)
 		}
 		return nil
 	})
 	if err != nil {
-		log.Printf("debug: llm exec end provider=ollama model=%s duration=%s attempts=%d error=true", model, time.Since(startedAt), attempts)
+		log.Printf("debug:%s llm exec end provider=ollama model=%s duration=%s attempts=%d error=true", logPrefix, model, time.Since(startedAt), attempts)
 		return "", fmt.Errorf("llm exec: ollama generate api call failed after %s: %w", time.Since(startedAt), err)
 	}
-	log.Printf("debug: llm exec end provider=ollama model=%s duration=%s attempts=%d done=%t", model, time.Since(startedAt), attempts, out.Done)
+	log.Printf("debug:%s llm exec end provider=ollama model=%s duration=%s attempts=%d done=%t", logPrefix, model, time.Since(startedAt), attempts, out.Done)
 	return out.Response, nil
 }
 

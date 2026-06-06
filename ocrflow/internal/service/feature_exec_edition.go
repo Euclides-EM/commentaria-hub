@@ -11,7 +11,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
 
-func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string) applyFunc {
+func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActions, execID string, logLabel string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		edition, err := fe.editionSvc.GetEditionByID(editionKey)
 		if err != nil {
@@ -22,7 +22,7 @@ func (fe *Execution) editionApplyFunc(editionKey string, actions *executionActio
 		var execErrs []error
 		if len(actions.promptRevisions) > 0 {
 			for _, group := range groupPromptRevisionsByAIConfig(actions.promptRevisions, actions.promptFeatures) {
-				promptResults, err := fe.editionPromptApplyFunc(edition, group.revisions, group.features, execID)()
+				promptResults, err := fe.editionPromptApplyFunc(edition, group.revisions, group.features, execID, logLabel)()
 				if err != nil {
 					execErrs = append(execErrs, err)
 				}
@@ -75,7 +75,7 @@ func formatEditionInfo(ed *model.Edition) string {
 					langs[i] = strings.ToUpper(l[:1]) + l[1:]
 				}
 			}
-			where = append(where, "in "+strings.Join(langs, " and "))
+			where = append(where, "originally in "+strings.Join(langs, " and "))
 		}
 		if len(where) > 0 {
 			intro += ", " + strings.Join(where, ", ")
@@ -108,17 +108,10 @@ func formatEditionInfo(ed *model.Edition) string {
 			b.WriteString("This edition is a reprint.\n")
 		}
 
-		if ed.Title != nil {
-			b.WriteString("\nTitle page reads: " + *ed.Title + "\n")
-		}
-		if ed.Imprint != nil {
-			b.WriteString("\nImprint reads: " + *ed.Imprint + "\n")
-		}
-		if ed.Colophon != nil {
-			b.WriteString("\nColophon reads: " + *ed.Colophon + "\n")
-		}
-		if ed.Frontispiece != nil {
-			b.WriteString("\nFrontispiece reads: " + *ed.Frontispiece + "\n")
+		if ed.TitleEN != nil {
+			b.WriteString("\nTitle page reads: \n" + *ed.TitleEN + "\n")
+		} else if ed.Title != nil {
+			b.WriteString("\nTitle page reads: \n" + *ed.Title + "\n")
 		}
 	}
 
@@ -170,12 +163,50 @@ func formatBookRanges(books []int) string {
 	return strings.Join(parts, ", ")
 }
 
-func (fe *Execution) editionPromptApplyFunc(ed *model.Edition, frs []*feature.Revision, fes []*feature.Feature, execID string) applyFunc {
+func isEditionSubjectClassifierPrompt(fes []*feature.Feature) bool {
+	if len(fes) == 0 {
+		return false
+	}
+	for _, fe := range fes {
+		if fe.ID != "m_classifier" {
+			return false
+		}
+	}
+	return true
+}
+
+func (fe *Execution) editionPromptApplyFunc(ed *model.Edition, frs []*feature.Revision, fes []*feature.Feature, execID string, llmLogLabel string) applyFunc {
 	return func() ([]*feature.Result, error) {
 		aiProvider := frs[0].AIProvider
 		aiModel := frs[0].AIModel
 		featureNameToIndex, definitions, outputFormat := buildPromptComponents(frs, fes)
-		prompt := fmt.Sprintf(`You are an AI agent designed to extract structured metadata about historical textbook editions.
+		var prompt string
+		if isEditionSubjectClassifierPrompt(fes) {
+			prompt = fmt.Sprintf(`You are an AI agent designed to classify historical textbook editions into subject categories.
+
+You will be given structured metadata about a specific edition.
+
+Your task is to answer the classification question based only on the provided metadata and return it as a JSON object.
+Each output value must use only the exact category/classification strings requested in the definition.
+Do not quote, translate, paraphrase, or add metadata text unless the definition explicitly asks for that format.
+Do not infer subject relevance from editor, publisher, city, language, date, or general reputation alone.
+Use "unknown" when the metadata is insufficient or ambiguous; use "unrelated" when the metadata provides no meaningful evidence for a category.
+
+Return only a valid JSON. Do not include any other output.
+
+Output format:
+{
+  %s
+}
+
+Definitions:
+%s
+
+Edition metadata:
+%s
+`, outputFormat, strings.Join(definitions, "\n"), formatEditionInfo(ed))
+		} else {
+			prompt = fmt.Sprintf(`You are an AI agent designed to extract structured metadata about historical textbook editions.
 
 You will be given structured metadata about a specific edition.
 
@@ -196,9 +227,10 @@ Definitions:
 Edition metadata:
 %s
 `, outputFormat, strings.Join(definitions, "\n"), formatEditionInfo(ed))
+		}
 
 		contextDesc := fmt.Sprintf("edition %s", ed.Key)
-		rawResponse, err := fe.llmClient.Exec(aiProvider.ToLLMAIProvider(), aiModel, prompt, "")
+		rawResponse, err := fe.llmClient.ExecWithLogLabel(aiProvider.ToLLMAIProvider(), aiModel, prompt, "", llmLogLabel)
 		if err != nil {
 			return nil, fmt.Errorf("failed to execute LLM prompt for %s using %s/%s: %w", contextDesc, aiProvider, aiModel, err)
 		}
@@ -206,6 +238,10 @@ Edition metadata:
 		if err != nil {
 			return nil, fmt.Errorf("failed to parse LLM response for %s: %w", contextDesc, err)
 		}
-		return parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewEditionExecScope(), ed.Key, contextDesc)
+		parsed, err := parseLLMResults(rawFields, frs, fes, featureNameToIndex, execID, feature.NewEditionExecScope(), ed.Key, contextDesc, formatEditionInfo(ed), false)
+		if err != nil {
+			return nil, err
+		}
+		return parsed.results, nil
 	}
 }

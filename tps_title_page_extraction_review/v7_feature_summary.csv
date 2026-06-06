@@ -1,0 +1,18 @@
+feature_id,feature_name,rows,non_empty_values,keys_with_value,empty_keys,multi_value_keys,max_values_for_key
+base_content,Base Content,230,221,208,9,13,2
+references_to_euclid,Euclid References,253,235,199,18,34,3
+editor_name,Adapter Attribution,226,181,172,45,8,3
+action_verbs,Verbs,479,425,163,54,115,9
+editor_description,Adapter Description,230,162,149,68,12,3
+edition_details,Edition Statement,242,133,108,109,24,3
+enriched_with,Enriched With,250,127,94,123,26,5
+institutions,Institutions,229,100,88,129,10,3
+bound_with_minimal,Bound With - Minimal,332,190,75,142,33,24
+bound_with,Bound With - Description,296,153,74,143,30,24
+destination_language,Destination Language,225,68,60,157,8,2
+audience,Intended Audience,224,63,56,161,7,2
+dedicatee_name,Dedication,217,45,45,172,0,1
+educational_authorities_references,Other Educational Authorities,268,95,44,173,20,16
+description_of_euclid,Euclid Description,219,42,40,177,2,2
+origin_language,Explicit Language References,223,46,40,177,6,2
+printing_privilege,Publishing Privileges,217,5,5,212,0,1

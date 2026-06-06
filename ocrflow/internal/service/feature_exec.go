@@ -10,6 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+	"unicode"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/features"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
@@ -17,6 +18,7 @@ import (
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/textmatch"
 	"github.com/samber/lo"
 )
 
@@ -55,6 +57,11 @@ func (a *executionActions) empty() bool {
 }
 
 type applyFunc func() ([]*feature.Result, error)
+
+type llmParseResult struct {
+	results                []*feature.Result
+	hallucinatedFeatureIDs []string
+}
 
 // NewExecution returns a new Execution service using the given store (e.g. *storefeatureplat.FeatureExecutionStore).
 func NewExecution(featureRevisionsSvc *Revision, featuresSvc *Feature, featureResultsSvc *Result, annotationSvc *Annotation, annotationTEISvc *AnnotationTEI, editionSvc *Edition, languageResolver *LanguagesResolver, featurePropertySvc *FeatureProperty, store *fpstore.FeatureExecutionStore, filesysManager *filesys.Manager, datasetImg *DatasetImg, llmClient *llm.Client) *Execution {
@@ -113,7 +120,7 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 		case feature.ScopeTypeDataset:
 			applyFuncs = append(applyFuncs, fe.annotationApplyFunc(exec, key, actions))
 		case feature.ScopeTypeEditions:
-			applyFuncs = append(applyFuncs, fe.editionApplyFunc(key, actions, exec.ID))
+			applyFuncs = append(applyFuncs, fe.editionApplyFunc(key, actions, exec.ID, ""))
 		default:
 			return nil, fmt.Errorf("invalid execution scope: %s", exec.Scope.Type)
 		}
@@ -128,6 +135,8 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 	go func(executionID string, funcs []applyFunc, policy *feature.ExecutionPolicy) {
 		var wg sync.WaitGroup
 		var hasError atomic.Bool
+		var completedKeys atomic.Int64
+		totalKeys := int64(len(funcs))
 		type executionJob struct {
 			fn applyFunc
 		}
@@ -150,6 +159,8 @@ func (fe *Execution) CreateFeatureExecution(exec *feature.Execution) (*feature.E
 							hasError.Store(true)
 						}
 					}
+					done := completedKeys.Add(1)
+					log.Printf("execution %s progress: key #%d/%d (%d%%)", executionID, done, totalKeys, done*100/totalKeys)
 				}
 			}()
 		}
@@ -329,49 +340,73 @@ func buildPromptComponents(frs []*feature.Revision, fes []*feature.Feature) (fea
 	return
 }
 
-func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string) ([]*feature.Result, error) {
-	var results []*feature.Result
+func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revision, fes []*feature.Feature, featureNameToIndex map[string]int, execID string, scope feature.ExecScope, key string, contextDesc string, sourceText string, checkHallucinations bool) (*llmParseResult, error) {
 	for fn, rawValue := range rawFields {
-		idx, ok := featureNameToIndex[fn]
+		_, ok := featureNameToIndex[fn]
 		if !ok {
 			return nil, fmt.Errorf("llm response contained unknown field %q for %s\n%s", fn, contextDesc, rawValue)
 		}
+	}
 
+	results := make([]*feature.Result, 0, len(frs))
+	hallucinatedFeatureIDs := make([]string, 0)
+	for i := range frs {
+		fn := fmt.Sprintf("%s-rev-%s", fes[i].ID, frs[i].ID[0:3])
+		rawValue, ok := rawFields[fn]
 		var values []string
-		if fes[idx].IsList {
-			if err := json.Unmarshal(rawValue, &values); err != nil {
+		if ok {
+			if fes[i].IsList {
+				if err := json.Unmarshal(rawValue, &values); err != nil {
+					var val string
+					if retryErr := json.Unmarshal(rawValue, &val); retryErr != nil {
+						return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w:\n%s", fn, contextDesc, err, rawValue)
+					}
+					if val != "" {
+						values = []string{val}
+					}
+				}
+			} else {
 				var val string
-				if retryErr := json.Unmarshal(rawValue, &val); retryErr != nil {
-					return nil, fmt.Errorf("failed to parse list response for field %q in %s: %w:\n%s", fn, contextDesc, err, rawValue)
+				if err := json.Unmarshal(rawValue, &val); err != nil {
+					return nil, fmt.Errorf("failed to parse scalar response for field %q in %s: %w\n%s", fn, contextDesc, err, rawValue)
 				}
 				if val != "" {
 					values = []string{val}
 				}
-			}
-		} else {
-			var val string
-			if err := json.Unmarshal(rawValue, &val); err != nil {
-				return nil, fmt.Errorf("failed to parse scalar response for field %q in %s: %w\n%s", fn, contextDesc, err, rawValue)
-			}
-			if val != "" {
-				values = []string{val}
 			}
 		}
 
 		source := feature.ResultSource{
 			Resp:     "auto",
 			Id:       execID,
-			Revision: frs[idx].ID,
+			Revision: frs[i].ID,
 			Name:     "llm",
 		}
 		res := &feature.Result{
 			Scope:     scope,
-			FeatureID: fes[idx].ID,
+			FeatureID: fes[i].ID,
 			Key:       key,
 			Source:    source,
 		}
 		var resultValues []feature.ResultValue
 		for _, v := range values {
+			v = trimFeatureValue(v)
+			if v == "" {
+				continue
+			}
+			if checkHallucinations && len(textmatch.FindLoosePhraseMatches(sourceText, v)) == 0 {
+				if span, ok := textmatch.FindFuzzyPhraseMatch(sourceText, v, 2); ok {
+					sourceValue := strings.TrimSpace(sourceText[span[0]:span[1]])
+					log.Printf("warning: llm fuzzy-grounded near hallucination: feature=%s revision=%s key=%s context=%s value=%q source_value=%q", fes[i].ID, frs[i].ID, key, contextDesc, v, sourceValue)
+					v = sourceValue
+				} else {
+					log.Printf("!!! llm hallucination omitted: feature=%s revision=%s key=%s context=%s value=%q", fes[i].ID, frs[i].ID, key, contextDesc, v)
+					if !slices.Contains(hallucinatedFeatureIDs, fes[i].ID) {
+						hallucinatedFeatureIDs = append(hallucinatedFeatureIDs, fes[i].ID)
+					}
+					continue
+				}
+			}
 			resultValues = append(resultValues, feature.ResultValue{
 				Surface: v,
 			})
@@ -379,5 +414,14 @@ func parseLLMResults(rawFields map[string]json.RawMessage, frs []*feature.Revisi
 		res.Values = resultValues
 		results = append(results, res)
 	}
-	return results, nil
+	return &llmParseResult{
+		results:                results,
+		hallucinatedFeatureIDs: hallucinatedFeatureIDs,
+	}, nil
+}
+
+func trimFeatureValue(s string) string {
+	return strings.TrimFunc(strings.TrimSpace(s), func(r rune) bool {
+		return unicode.IsSpace(r) || unicode.IsPunct(r)
+	})
 }

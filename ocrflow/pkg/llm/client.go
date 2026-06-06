@@ -30,6 +30,10 @@ func NewClient(openAIKey string, ollamaBaseURL, ollamaAuthToken string) *Client 
 }
 
 func (c *Client) Exec(provider string, model string, prompt string, attachmentPath string) (string, error) {
+	return c.ExecWithLogLabel(provider, model, prompt, attachmentPath, "")
+}
+
+func (c *Client) ExecWithLogLabel(provider string, model string, prompt string, attachmentPath string, logLabel string) (string, error) {
 	normalizedProvider := strings.ToLower(strings.TrimSpace(provider))
 	var clt AIProviderClient
 	switch normalizedProvider {
@@ -49,11 +53,12 @@ func (c *Client) Exec(provider string, model string, prompt string, attachmentPa
 	defer func() {
 		<-slots
 	}()
-	return clt.Exec(model, prompt, attachmentPath)
+	return clt.ExecWithLogLabel(model, prompt, attachmentPath, logLabel)
 }
 
 type AIProviderClient interface {
 	Exec(model string, prompt string, attachmentPath string) (string, error)
+	ExecWithLogLabel(model string, prompt string, attachmentPath string, logLabel string) (string, error)
 }
 
 func makeLimiter(limit int) chan struct{} {
