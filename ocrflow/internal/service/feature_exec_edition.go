@@ -38,12 +38,6 @@ func formatEditionInfo(ed *model.Edition) string {
 
 	if ed.IsManuscript {
 		intro := "This is a manuscript"
-		if ed.ManuscriptClass != "" {
-			intro += " of the " + ed.ManuscriptClass + " class"
-			if ed.ManuscriptSubclass != nil {
-				intro += " (" + *ed.ManuscriptSubclass + ")"
-			}
-		}
 		switch {
 		case ed.ManuscriptYearFrom != nil && ed.ManuscriptYearTo != nil:
 			intro += fmt.Sprintf(", dated approximately %d–%d", *ed.ManuscriptYearFrom, *ed.ManuscriptYearTo)

@@ -6,6 +6,7 @@ export type model_EditionShelfmark = {
     annotations?: string;
     copyright?: string;
     frontispiece_img?: string;
+    repository?: string;
     scan?: string;
     shelfmark?: string;
     title_page_img?: string;

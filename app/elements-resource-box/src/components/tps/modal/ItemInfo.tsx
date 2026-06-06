@@ -5,13 +5,18 @@ import { Item } from "../../../types";
 import { Row } from "../../common";
 import { ModalTextColumn } from "./ModalComponents";
 import { personDisplayName } from "../../../utils/dataUtils";
-import { formatBookRanges, joinArr } from "../../../utils/util";
+import { joinArr } from "../../../utils/util";
 import { NO_EDITOR } from "../../../constants";
 import { LAND_COLOR } from "../../../utils/colors.ts";
 import pluralize from "pluralize";
 import { AuthContext } from "../../../contexts/Auth.ts";
 import { useQuery } from "@tanstack/react-query";
 import { getCommentariaHubPreferredTranscriptionUrl } from "../../../utils/commentariaHub.ts";
+import {
+  formatDisplayBooks,
+  formatDisplayEditors,
+  formatDisplayYear,
+} from "../../../utils/itemDisplay.ts";
 import { ItemLinksRow } from "../../ItemLinksRow.tsx";
 
 const InfoTitle = styled.div`
@@ -128,11 +133,11 @@ export const ItemInfo = ({
     <ModalTextColumn isRow={isRow}>
       <Row justifyStart>
         <InfoTitle>Year: </InfoTitle>
-        {item.year || "s.d."}
+        {formatDisplayYear(item)}
       </Row>
       <Row justifyStart>
         <InfoTitle>{pluralize("Editor", item.editors.length)}:</InfoTitle>{" "}
-        {joinArr(item.editors) || NO_EDITOR}
+        {formatDisplayEditors(item)}
         <CitationButton
           copied={copied}
           onClick={() => copyCitation(item, setCopied)}
@@ -172,17 +177,10 @@ export const ItemInfo = ({
           {item.volumesCount}
         </Row>
       )}
-      {item.elementsBooks && (
+      {item.elementsBooks.length > 0 && (
         <Row justifyStart>
-          <InfoTitle>Books:</InfoTitle> {formatBookRanges(item.elementsBooks)}
+          <InfoTitle>Books:</InfoTitle> {formatDisplayBooks(item)}
         </Row>
-      )}
-      {item.class && (
-        <>
-          <Row justifyStart>
-            <InfoTitle>Class:</InfoTitle> {item.class}
-          </Row>
-        </>
       )}
       {item.additionalContent && item.additionalContent.length > 0 && (
         <Row justifyStart>

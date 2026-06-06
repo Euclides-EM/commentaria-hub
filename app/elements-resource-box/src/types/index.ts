@@ -21,6 +21,7 @@ export type Range = {
 };
 
 export const MIN_YEAR = 1482;
+export const MIN_YEAR_MS = 500;
 export const MAX_YEAR = 1883;
 
 export const FLOATING_CITY_ENTRY: Required<model_City> = {
@@ -33,10 +34,15 @@ export type Item = {
   key: string;
   reprintOf?: string | null;
   year: string | null;
+  yearFrom: number | null;
+  yearTo: number | null;
+  yearIsApproximate: boolean;
+  materialType: string | null;
   cities: string[];
   languages: string[];
   editors: string[];
   publishers: string[];
+  repository: string | null;
   tpImageName: string | null;
   titlePageStatus: model_EditionTitlePageStatus;
   shortTitle: string | null;
@@ -51,7 +57,6 @@ export type Item = {
   elementsBooksExpanded: number[];
   additionalContent: string[];
   volumesCount: number | null;
-  class: string | null;
   notes: string | null;
   study_corpora: string[];
   diagramCropsAvailable: boolean | null;

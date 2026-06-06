@@ -16,11 +16,11 @@ type Edition struct {
 	HasDiagrams           *bool                  `json:"hasDiagrams"`
 
 	// Manuscript-only
-	IsManuscript       bool    `json:"isManuscript"`
-	ManuscriptYearFrom *int    `json:"manuscriptYearFrom"`
-	ManuscriptYearTo   *int    `json:"manuscriptYearTo"`
-	ManuscriptClass    string  `json:"manuscriptClass"`
-	ManuscriptSubclass *string `json:"manuscriptSubclass"`
+	IsManuscript                bool    `json:"isManuscript"`
+	ManuscriptYearFrom          *int    `json:"manuscriptYearFrom"`
+	ManuscriptYearTo            *int    `json:"manuscriptYearTo"`
+	ManuscriptYearIsApproximate bool    `json:"manuscriptYearIsApproximate"`
+	ManuscriptElementsContent   *string `json:"manuscriptElementsContent"`
 
 	// Print-only
 	Cities          []string               `json:"cities"`
@@ -50,6 +50,7 @@ type Edition struct {
 
 type EditionShelfmark struct {
 	Volume          *int   `json:"volume"`
+	Repository      string `json:"repository"`
 	Scan            string `json:"scan"`
 	Shelfmark       string `json:"shelfmark"`
 	TitlePageImg    string `json:"title_page_img"`

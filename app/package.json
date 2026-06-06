@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "dev:all": "yarn workspaces foreach -Api --exclude hub-api run dev",
+    "euclides:all": "yarn workspaces foreach -Api --exclude hub-api run euclides",
     "dev:huma-num": "VITE_BACKEND_URL=https://euclides.huma-num.fr/commentaria yarn dev:all",
     "euclides:huma-num": "VITE_BACKEND_URL=https://euclides.huma-num.fr/commentaria VITE_RESOURCEBOX_APP_URL=https://euclides.huma-num.fr/resourcebox VITE_COMMENTARIA_APP_URL=https://euclides.huma-num.fr/hub yarn workspaces foreach -Api --exclude hub-api run euclides:huma-num",
     "build:all": "yarn workspaces foreach -Ap run build",

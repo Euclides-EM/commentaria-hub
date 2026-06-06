@@ -1,145 +1,145 @@
-key,class,subclass,elements_books
-ms_1,Greek manuscripts,Greek Cardinal Manuscripts,
-ms_2,Greek manuscripts,Greek Cardinal Manuscripts,
-ms_3,Greek manuscripts,Greek Cardinal Manuscripts,
-ms_4,Greek manuscripts,Greek Cardinal Manuscripts,
-ms_5,Greek manuscripts,Greek Cardinal Manuscripts,
-ms_6,Greek manuscripts,Greek Cardinal Manuscripts,
-ms_7,Greek manuscripts,Greek Cardinal Manuscripts,
-ms_8,Greek manuscripts,Greek Secondary manuscripts,
-ms_9,Greek manuscripts,Greek Secondary manuscripts,
-ms_10,Greek manuscripts,Greek Secondary manuscripts,
-ms_11,Greek manuscripts,Greek Secondary manuscripts,
-ms_12,Greek manuscripts,Greek Secondary manuscripts,
-ms_13,Greek manuscripts,Greek Secondary manuscripts,
-ms_14,Greek manuscripts,Greek Secondary manuscripts,
-ms_15,Greek manuscripts,Greek Secondary manuscripts,
-ms_16,Greek manuscripts,Greek Secondary manuscripts,
-ms_17,Greek manuscripts,Greek Secondary manuscripts,
-ms_18,Greek manuscripts,Greek Secondary manuscripts,
-ms_19,Greek manuscripts,Greek Secondary manuscripts,
-ms_20,Greek manuscripts,Greek Secondary manuscripts,
-ms_21,Greek manuscripts,Greek Secondary manuscripts,
-ms_22,Greek manuscripts,Greek Secondary manuscripts,
-ms_23,Greek manuscripts,Greek Secondary manuscripts,
-ms_24,Greek manuscripts,Greek Secondary manuscripts,
-ms_25,Greek manuscripts,Greek Secondary manuscripts,
-ms_26,Greek manuscripts,Greek Secondary manuscripts,
-ms_27,Greek manuscripts,Greek Secondary manuscripts,
-ms_28,Greek manuscripts,Greek Secondary manuscripts,
-ms_29,Greek manuscripts,Greek Secondary manuscripts,
-ms_30,Greek manuscripts,Greek Secondary manuscripts,
-ms_31,Greek manuscripts,Greek Secondary manuscripts,
-ms_32,Greek manuscripts,Greek Secondary manuscripts,
-ms_33,Greek manuscripts,Greek Secondary manuscripts,
-ms_34,Greek manuscripts,Greek Secondary manuscripts,
-ms_35,Greek manuscripts,Greek Secondary manuscripts,
-ms_36,Arabic manuscripts,Ishāq-Thābit text,
-ms_37,Arabic manuscripts,Ishāq-Thābit text,I.39-XV
-ms_38,Arabic manuscripts,Ishāq-Thābit text,I-XV
-ms_39,Arabic manuscripts,Ishāq-Thābit text,I.13-XV
-ms_40,Arabic manuscripts,Ishāq-Thābit text,I-XV
-ms_41,Arabic manuscripts,Ishāq-Thābit text,I-V
-ms_42,Arabic manuscripts,Ishāq-Thābit text,
-ms_43,Arabic manuscripts,Ishāq-Thābit text,I-XV
-ms_44,Arabic manuscripts,Ishāq-Thābit text,
-ms_45,Arabic manuscripts,Ishāq-Thābit text,
-ms_46,Latin Boethius manuscripts,Ma,excerpts of the Institutiones II.5-6 and extracts of Euclid [II.def.2; V.deff.]
-ms_47,Latin Boethius manuscripts,Ma,
-ms_48,Latin Boethius manuscripts,Ma,excerpts of the Institutiones II.5-6 and extracts of Euclid
-ms_49,Latin Boethius manuscripts,Ma,
-ms_50,Latin Boethius manuscripts,Ma,
-ms_51,Latin Boethius manuscripts,Ma,
-ms_52,Latin Boethius manuscripts,Ma,
-ms_53,Latin Boethius manuscripts,Mb,"only I def. 19-23, post. 1-5, ax. 1.3.2.7"
-ms_54,Latin Boethius manuscripts,Mb,
-ms_55,Latin Boethius manuscripts,Mb,
-ms_56,Latin Boethius manuscripts,Mc,
-ms_57,Latin Boethius manuscripts,Mc,
-ms_58,Latin Boethius manuscripts,Mc,
-ms_59,Latin Boethius manuscripts,Mc,
-ms_60,Latin Boethius manuscripts,Mc,copy of Naples V A 13
-ms_61,Latin Boethius manuscripts,Mc,
-ms_62,Latin Boethius manuscripts,Mc,
-ms_63,Latin Boethius manuscripts,Mc,
-ms_64,Latin Boethius manuscripts,Mc,
-ms_65,Latin Boethius manuscripts,Mc,incomplete
-ms_66,Latin Boethius manuscripts,Mc,fragment
-ms_67,Latin Boethius manuscripts,Mc,fragment
-ms_68,Latin Boethius manuscripts,Mc,
-ms_69,Latin Boethius manuscripts,Md,Md
-ms_70,Latin Boethius manuscripts,Md,
-ms_71,Latin Boethius manuscripts,Md,
-ms_72,Latin Boethius manuscripts,Md,
-ms_73,Latin Boethius manuscripts,Md,
-ms_74,Latin manuscripts,Early texts based upon the Greek,XI.24-25; XII.2-3.8; XIII.2-3.7.
-ms_75,Latin manuscripts,Early texts based upon the Greek,
-ms_76,Latin manuscripts,Greek-Latin Translation from the twelfth century,"I-XIII, XV; abbreviated version of books 14 and 15"
-ms_77,Latin manuscripts,Greek-Latin Translation from the twelfth century,incomplete; ends within X.48
-ms_78,Latin manuscripts,An-Nayrizi's Commentary on Books I-X,
-ms_79,Latin manuscripts,Version I (Adelard of Bath),I-VIII.25
-ms_80,Latin manuscripts,Version I (Adelard of Bath),VII.3-VIII.25
-ms_81,Latin manuscripts,Version I (Adelard of Bath),I-VIII.22
-ms_82,Latin manuscripts,Version I (Adelard of Bath),I-VIII.22
-ms_83,Latin manuscripts,Hermann of Carinthia,I-XII
-ms_84,Latin manuscripts,Hermann of Carinthia,XI-XI.4; XI.5-XIV.1
-ms_85,Latin manuscripts,Gerard of Cremona,I-XV; scholia I-XIX
-ms_86,Latin manuscripts,Gerard of Cremona,I-XV; scholia I-XVII
-ms_87,Latin manuscripts,Gerard of Cremona,I-XV; scholia XVIII-XIX
-ms_88,Latin manuscripts,Gerard of Cremona,scholia I-XVII; scholium XVII twice: at the end and after scholium III
-ms_89,Latin manuscripts,Gerard of Cremona,"scholia IV-XVII, XX-XXII"
-ms_90,Latin manuscripts,Gerard of Cremona,I-XV; scholia I-XVII
-ms_91,Latin manuscripts,Gerard of Cremona,XI.5-XV; scholia I-III
-ms_92,Latin manuscripts,Gerard of Cremona,I-XV; scholia I-XVII
-ms_93,Latin manuscripts,Version II (Robert of Chester),
-ms_94,Latin manuscripts,Version II (Robert of Chester),VI.5-XV.5
-ms_95,Latin manuscripts,Version II (Robert of Chester),
-ms_96,Latin manuscripts,Version II (Robert of Chester),I-XI; proofs only up to IV.1
-ms_97,Latin manuscripts,Version II (Robert of Chester),I-XV
-ms_98,Latin manuscripts,Version II (Robert of Chester),I-XV
-ms_99,Latin manuscripts,Version II (Robert of Chester),I.1-I.46; intro to book 10
-ms_100,Latin manuscripts,Version II (Robert of Chester),X.def.-XV end
-ms_101,Latin manuscripts,Mélanges of the Robert and the Boethius Texts,I-XV; I-III
-ms_102,Latin manuscripts,Version III (Johannes de Tinemue),VII.7-X.36
-ms_103,Latin manuscripts,Version III (Johannes de Tinemue),X-XV
-ms_104,Latin manuscripts,Commentary from the early thirteenth century,I-XV
-ms_105,Latin manuscripts,Commentary from the early thirteenth century,I-II.13
-ms_106,Latin manuscripts,Commentary from the early thirteenth century,I-V; VI-XV
-ms_107,Latin manuscripts,Campanus of Novara,I-XV
-ms_108,Latin manuscripts,Campanus of Novara,"I-II.4, enunciations only"
-ms_109,Latin manuscripts,Campanus of Novara,I-XV
-ms_110,Latin manuscripts,Campanus of Novara,I-XV
-ms_111,Latin manuscripts,Campanus of Novara,I-XII
-ms_112,Latin manuscripts,Campanus of Novara,I-XV
-ms_113,Latin manuscripts,Campanus of Novara,I-VI.32
-ms_114,Latin manuscripts,Campanus of Novara,I-XV
-ms_115,Latin manuscripts,Campanus of Novara,I-XV
-ms_116,Latin manuscripts,Campanus of Novara,I
-ms_117,Latin manuscripts,Campanus of Novara,II.3 end – II.7 beginning
-ms_118,Latin manuscripts,Campanus of Novara,"I-III.29 beginning, III.8 end – V.12"
-ms_119,Latin manuscripts,Campanus of Novara,I-XV
-ms_120,Latin manuscripts,Campanus of Novara,I-XV
-ms_121,Latin manuscripts,Campanus of Novara,I-VI
-ms_122,Latin manuscripts,Campanus of Novara,I-XV
-ms_123,Latin manuscripts,Campanus of Novara,I-VI.2
-ms_124,Latin manuscripts,Campanus of Novara,I-XV
-ms_125,Latin manuscripts,Campanus of Novara,I-XV
-ms_126,Latin manuscripts,Campanus of Novara,I.3 end – XV
-ms_127,Latin manuscripts,Campanus of Novara,I-XV
-ms_128,Latin manuscripts,Campanus of Novara,"I-X.3 beg., X-XV"
-ms_129,Latin manuscripts,Campanus of Novara,I-III
-ms_130,Latin manuscripts,Campanus of Novara,I-XV
-ms_131,Latin manuscripts,Campanus of Novara,I-XV
-ms_132,Latin manuscripts,Campanus of Novara,I-XI.30
-ms_133,Latin manuscripts,Campanus of Novara,I-III
-ms_134,Latin manuscripts,An-Nayrizi's Commentary on Books I-X,
-ms_135,Greek manuscripts,Recentiores,
-ms_136,Greek manuscripts,Novelli,
-ms_137,Greek manuscripts,Novelli,
-ms_138,Greek manuscripts,Novelli,
-ms_139,Greek manuscripts,Novelli,
-ms_140,Greek manuscripts,Epitomes,
-ms_141,Greek manuscripts,Secondary,
+key,elements_books,additional_content,elements_content
+ms_1,,,
+ms_2,,,
+ms_3,,,
+ms_4,,,
+ms_5,,,
+ms_6,,,
+ms_7,,,
+ms_8,,,
+ms_9,,,
+ms_10,,,
+ms_11,,,
+ms_12,,,
+ms_13,,,
+ms_14,,,
+ms_15,,,
+ms_16,,,
+ms_17,,,
+ms_18,,,
+ms_19,,,
+ms_20,,,
+ms_21,,,
+ms_22,,,
+ms_23,,,
+ms_24,,,
+ms_25,,,
+ms_26,,,
+ms_27,,,
+ms_28,,,
+ms_29,,,
+ms_30,,,
+ms_31,,,
+ms_32,,,
+ms_33,,,
+ms_34,,,
+ms_35,,,
+ms_36,,,
+ms_37,1-15,,I.39-XV
+ms_38,1-15,,I-XV
+ms_39,1-15,,I.13-XV
+ms_40,1-15,,I-XV
+ms_41,1-5,,I-V
+ms_42,,,
+ms_43,1-15,,I-XV
+ms_44,,,
+ms_45,,,
+ms_46,"2, 5",,excerpts of the Institutiones II.5-6 and extracts of Euclid [II.def.2; V.deff.]
+ms_47,,,
+ms_48,2,,excerpts of the Institutiones II.5-6 and extracts of Euclid
+ms_49,,,
+ms_50,,,
+ms_51,,,
+ms_52,,,
+ms_53,1,,"only I def. 19-23, post. 1-5, ax. 1.3.2.7"
+ms_54,,,
+ms_55,,,
+ms_56,,,
+ms_57,,,
+ms_58,,,
+ms_59,,,
+ms_60,5,,copy of Naples V A 13
+ms_61,,,
+ms_62,,,
+ms_63,,,
+ms_64,,,
+ms_65,,,incomplete
+ms_66,,,fragment
+ms_67,,,fragment
+ms_68,,,
+ms_69,,,Md
+ms_70,,,
+ms_71,,,
+ms_72,,,
+ms_73,,,
+ms_74,11-13,,XI.24-25; XII.2-3.8; XIII.2-3.7.
+ms_75,,,
+ms_76,"1-13, 15",,"I-XIII, XV; abbreviated version of books 14 and 15"
+ms_77,10,,incomplete; ends within X.48
+ms_78,,,
+ms_79,1-8,,I-VIII.25
+ms_80,7-8,,VII.3-VIII.25
+ms_81,1-8,,I-VIII.22
+ms_82,1-8,,I-VIII.22
+ms_83,1-12,,I-XII
+ms_84,11-14,,XI-XI.4; XI.5-XIV.1
+ms_85,1-16,,I-XV; scholia I-XIX
+ms_86,1-16,,I-XV; scholia I-XVII
+ms_87,1-15,,I-XV; scholia XVIII-XIX
+ms_88,1-16,,scholia I-XVII; scholium XVII twice: at the end and after scholium III
+ms_89,4-16,,"scholia IV-XVII, XX-XXII"
+ms_90,1-16,,I-XV; scholia I-XVII
+ms_91,"1-3, 11-15",,XI.5-XV; scholia I-III
+ms_92,1-16,,I-XV; scholia I-XVII
+ms_93,,,
+ms_94,6-15,,VI.5-XV.5
+ms_95,,,
+ms_96,1-11,,I-XI; proofs only up to IV.1
+ms_97,1-15,,I-XV
+ms_98,1-15,,I-XV
+ms_99,1,,I.1-I.46; intro to book 10
+ms_100,10-15,,X.def.-XV end
+ms_101,1-15,,I-XV; I-III
+ms_102,7-10,,VII.7-X.36
+ms_103,10-15,,X-XV
+ms_104,1-15,,I-XV
+ms_105,1-2,,I-II.13
+ms_106,1-15,,I-V; VI-XV
+ms_107,1-15,,I-XV
+ms_108,1-2,,"I-II.4, enunciations only"
+ms_109,1-15,,I-XV
+ms_110,1-15,,I-XV
+ms_111,1-12,,I-XII
+ms_112,1-15,,I-XV
+ms_113,1-6,,I-VI.32
+ms_114,1-15,,I-XV
+ms_115,1-15,,I-XV
+ms_116,1,,I
+ms_117,2,,II.3 end – II.7 beginning
+ms_118,"1-3, 5",,"I-III.29 beginning, III.8 end – V.12"
+ms_119,1-15,,I-XV
+ms_120,1-15,,I-XV
+ms_121,1-6,,I-VI
+ms_122,1-15,,I-XV
+ms_123,1-6,,I-VI.2
+ms_124,1-15,,I-XV
+ms_125,1-15,,I-XV
+ms_126,"1, 15",,I.3 end – XV
+ms_127,1-15,,I-XV
+ms_128,1-15,,"I-X.3 beg., X-XV"
+ms_129,1-3,,I-III
+ms_130,1-15,,I-XV
+ms_131,1-15,,I-XV
+ms_132,1-11,,I-XI.30
+ms_133,1-3,,I-III
+ms_134,,,
+ms_135,,,
+ms_136,,,
+ms_137,,,
+ms_138,,,
+ms_139,,,
+ms_140,,,
+ms_141,,,
 ms_143,,,
 ms_144,,,
 ms_145,,,
@@ -147,180 +147,180 @@ ms_147,,,
 ms_148,,,
 ms_149,,,
 ms_150,,,
-ms_151,,Adelard II,
-ms_152,,Adelard II,
-ms_153,,Adelard II,
-ms_154,,Adelard II,I-XII
-ms_155,,Adelard II,
-ms_156,,1300,I-XXV.2
-ms_157,Al-Khazini's Epitome of his Zij as-Sanjari,,
-ms_158,Al-Khazini's Epitome of his Zij as-Sanjari,,
-ms_327,Galileo,,
-ms_328,Boethius tradition,"Cassiodorus, Institutiones, third recension",
-ms_329,Boethius tradition,"Cassiodorus, Institutiones, third recension",
-ms_330,Boethius tradition,"Cassiodorus, Institutiones, third recension",
-ms_331,Boethius tradition,"Cassiodorus, Institutiones, third recension",only II def. 2; V def. 1-8.11.9.10.13.12.14-16.18.17
-ms_332,Boethius tradition,"Cassiodorus, Institutiones, third recension",
-ms_333,Boethius tradition,Manuscripts of the Corpus agrimensorum,only I prop. 1-3 with proofs
-ms_334,Boethius tradition,Manuscripts of the Corpus agrimensorum,only I def. 19-23
-ms_335,Boethius tradition,Manuscripts of the Corpus agrimensorum,
-ms_336,Boethius tradition,Manuscripts of the Corpus agrimensorum,only I def. 19-23
-ms_337,Boethius tradition,Manuscripts of the Corpus agrimensorum,only I prop. 1-3 with proofs
-ms_338,Boethius tradition,Manuscripts of the Corpus agrimensorum,
-ms_339,Boethius tradition,Manuscripts of the Corpus agrimensorum,only I def. 19-23
-ms_340,Boethius tradition,Manuscripts of the Corpus agrimensorum,
-ms_341,Boethius tradition,Manuscripts of the Corpus agrimensorum,
-ms_342,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_343,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_344,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_345,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_346,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_347,Boethius tradition,"Pseudo-Boethius, Geometry I",excerpts; no Euclid texts
-ms_348,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_349,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_350,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_351,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_352,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_353,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_354,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_355,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_356,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_357,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_358,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_359,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_360,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_361,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_362,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_363,Boethius tradition,"Pseudo-Boethius, Geometry I",
-ms_364,Boethius tradition,"Pseudo-Boethius, Geometry II",excerpts; no Euclid text
-ms_365,Boethius tradition,"Pseudo-Boethius, Geometry II",excerpts; no Euclid text
-ms_366,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_367,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_368,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_369,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_370,Boethius tradition,"Pseudo-Boethius, Geometry II",excerpts
-ms_371,Boethius tradition,"Pseudo-Boethius, Geometry II",excerpts; no Euclid text
-ms_372,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_373,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_374,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_375,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_376,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_377,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_378,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_379,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_380,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_381,Boethius tradition,"Pseudo-Boethius, Geometry II",
-ms_382,Verona palimpsest,,
-ms_383,Munich fragment,,
-ms_384,Greek-Latin translation (twelfth century),,
-ms_385,Greek-Latin translation (twelfth century),,incomplete; ends within X 48
-ms_386,Greek-Latin translation (twelfth century),,I def. 1-20
-ms_387,Liber ysagogarum Alchorismi,,
-ms_388,Liber ysagogarum Alchorismi,,
-ms_389,Liber ysagogarum Alchorismi,,interpolated version
-ms_390,Liber ysagogarum Alchorismi,,
-ms_391,Liber ysagogarum Alchorismi,,
-ms_392,Liber ysagogarum Alchorismi,,interpolated version
-ms_393,Liber ysagogarum Alchorismi,,interpolated version
-ms_394,Liber ysagogarum Alchorismi,1143,"Wien, Österreichische Nationalbibliothek 275, f.27"
-ms_395,Early Arabian Manuscripts,Hajjaj text,XI-XIII
-ms_396,Early Arabian Manuscripts,Hajjaj text,I - VII beginning
-ms_397,Early Arabian Manuscripts,Ishaq-Thabit text,I def.19 - XV
-ms_398,Early Arabian Manuscripts,Ishaq-Thabit text,I 39 - XV
-ms_399,Early Arabian Manuscripts,Ishaq-Thabit text,I-XV
-ms_400,Early Arabian Manuscripts,Ishaq-Thabit text,IV 14 - XV
-ms_401,Early Arabian Manuscripts,Ishaq-Thabit text,
-ms_402,Early Arabian Manuscripts,Ishaq-Thabit text,I-XV; I-XV
-ms_403,Early Arabian Manuscripts,Ishaq-Thabit text,
-ms_404,Early Arabian Manuscripts,Ishaq-Thabit text,I 13 - XV
-ms_405,Early Arabian Manuscripts,Ishaq-Thabit text,I-XV
-ms_406,Early Arabian Manuscripts,Ishaq-Thabit text,
-ms_407,Early Arabian Manuscripts,Ishaq-Thabit text,I-XV
-ms_408,Early Arabian Manuscripts,Ishaq-Thabit text,I-VIII
-ms_409,Early Arabian Manuscripts,Ishaq-Thabit text,I-XV; I-XV
-ms_410,Early Arabian Manuscripts,Ishaq-Thabit text,part of VII
-ms_411,Early Arabian Manuscripts,Ishaq-Thabit text,I-XV
-ms_412,Early Arabian Manuscripts,Ishaq-Thabit text,I-XV
-ms_413,Adelard I,,I - VIII 25
-ms_414,Adelard I,,X 36 - XV 2
-ms_415,Adelard I,,I - VIII 22
-ms_416,Adelard I,,"X 24, X 17"
-ms_417,Adelard I,,X 36-49
-ms_418,Hermann of Carinthia,,XI 1-4
-ms_419,Hermann of Carinthia,,XI 1-4
-ms_420,Gerard of Gremona,,I-XV; scholia I-XIX
-ms_421,Gerard of Gremona,,I-XV; scholia I-XVII
-ms_422,Gerard of Gremona,,"scholia IV-XVII, XX-XXII"
-ms_423,Gerard of Gremona,,I - X 101
-ms_424,Gerard of Gremona,,"I - X 109, XIII 11 - XV 5; scholia I-XVII"
-ms_425,Gerard of Gremona,,XI 5 - XIV 1
-ms_426,Gerard of Gremona,,"III def., III 1 porism, III 2-7 enunciations"
-ms_427,Gerard of Gremona,,I - X 17
-ms_428,Gerard of Gremona,,I - I 5
-ms_429,Gerard of Gremona,,I-XV; scholia I-XVII
-ms_430,Gerard of Gremona,,XI 5 - XV; scholia I-III
-ms_431,Gerard of Gremona,,"XV 1-5, XIII 16"
-ms_432,Gerard of Gremona,,I-XV; scholia I-XVII
-ms_433,Adelard II,,"I - III 7, V - VIII 5"
-ms_434,Adelard II,,I - I 20
-ms_435,Adelard II,,I-XV
-ms_436,Texts in the Adelard II tradition,Adelard III,X 91 - XI 37
-ms_437,Texts in the Adelard II tradition,Adelard III,I - XV 3
-ms_438,Texts in the Adelard II tradition,Adelard III,I-XI; repetition of 125-132v; I - V 2; VI 11 - X
-ms_439,Texts in the Adelard II tradition,Adelard III,VII 7 - X 36
-ms_440,Texts in the Adelard II tradition,Adelard III,I-VI def.
-ms_441,Texts in the Adelard II tradition,Adelard III,I-XV
-ms_442,Texts in the Adelard II tradition,Adelard III,VII 7 - X 36
-ms_443,Texts in the Adelard II tradition,Thirteenth century commentary,I - VII 6
-ms_444,Texts in the Adelard II tradition,Thirteenth century commentary,I - VII 6
-ms_445,Texts in the Adelard II tradition,Campanus of Novara,"excerpts from books I, II, III, VII, VIII, X; IX"
-ms_446,Texts in the Adelard II tradition,Campanus of Novara,I - XV
-ms_447,Texts in the Adelard II tradition,Campanus of Novara,I-XV
-ms_448,Texts in the Adelard II tradition,Campanus of Novara,I - VII 3
-ms_449,Texts in the Adelard II tradition,Campanus of Novara,I - XV
-ms_450,Texts in the Adelard II tradition,Campanus of Novara,"I-XV, enunciations only"
-ms_451,Texts in the Adelard II tradition,Campanus of Novara,I - XV
-ms_452,Texts in the Adelard II tradition,Campanus of Novara,I 24 end - VII 30 beg.; X 20 end - XV
-ms_453,Texts in the Adelard II tradition,Campanus of Novara,I-VI
-ms_454,Texts in the Adelard II tradition,Campanus of Novara,I - XV
-ms_455,Texts in the Adelard II tradition,Campanus of Novara,I - I 37
-ms_456,Texts in the Adelard II tradition,Campanus of Novara,I
-ms_457,Texts in the Adelard II tradition,Campanus of Novara,"XV 7-13, enunciations only"
-ms_458,Texts in the Adelard II tradition,Campanus of Novara,I - II 12
-ms_459,Texts in the Adelard II tradition,Campanus of Novara,I-XV
-ms_460,Texts in the Adelard II tradition,Campanus of Novara,I - VI
-ms_461,Texts in the Adelard II tradition,"Reworking Paris, BN Lat. 7374",
-ms_462,Texts in the Adelard II tradition,"Reworking London, Sloane 285",I - VI 4
-ms_463,Reworking Vat. Reg. lat. 1268,,"V-VI; X, XI def. - XI 4"
-ms_464,an-Nayrizi's commentary on books I-X,,pp.7-51
-ms_465,an-Nayrizi's commentary on books I-X,,abridgement
-ms_466,an-Nayrizi's commentary on books I-X,,
-ms_467,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,
-ms_468,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,
-ms_469,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,
-ms_470,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,
-ms_471,"Muhammad ibn `Abd al-Baqi, Commentary on book X",,
-ms_472,Commentary on book X by Pappus,,
-ms_473,Commentary of Albertus Magnus (?),,I-IV
-ms_474,Commentary ascribed to Roger Bacon,,
-ms_475,"Nicole Oresme, Quaestiones super geometriam Euclidis",,
-ms_476,"Nicole Oresme, Quaestiones super geometriam Euclidis",,
-ms_477,"Nicole Oresme, Quaestiones super geometriam Euclidis",,
-ms_478,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,"I - VI, diagrams only"
-ms_479,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,
-ms_480,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,XIV - XV
-ms_481,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,
-ms_482,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,Commentary to I-VI
-ms_483,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,"I-VIII, Enunciations only"
-ms_484,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,
-ms_485,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,
-ms_486,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,
-ms_487,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,XIV-XV
-ms_488,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,commentary to book X
-ms_489,"Translations, reworkings and commentaries from the fifteenth century; texts not identified",,I 2 - XIII 10
-GLYTWZ,Francesco Maurolico,,
-G8MDPE,Evangelista Torricelli,,
-SLWQ7N,John Wallis,,
-GJXHA3,Blaise Pascal,,
-85GZV3,Gilles Personne de Roberval,,
-LOFE5H,Isaac Newton,,
+ms_151,,,
+ms_152,,,
+ms_153,,,
+ms_154,1-12,,I-XII
+ms_155,,,
+ms_156,1-16,,I-XXV.2
+ms_157,,,
+ms_158,,,
+ms_327,,,
+ms_328,,,
+ms_329,,,
+ms_330,,,
+ms_331,"2, 5",,only II def. 2; V def. 1-8.11.9.10.13.12.14-16.18.17
+ms_332,,,
+ms_333,1,,only I prop. 1-3 with proofs
+ms_334,1,,only I def. 19-23
+ms_335,,,
+ms_336,1,,only I def. 19-23
+ms_337,1,,only I prop. 1-3 with proofs
+ms_338,,,
+ms_339,1,,only I def. 19-23
+ms_340,,,
+ms_341,,,
+ms_342,,,
+ms_343,,,
+ms_344,,,
+ms_345,,,
+ms_346,,,
+ms_347,,,excerpts; no Euclid texts
+ms_348,,,
+ms_349,,,
+ms_350,,,
+ms_351,,,
+ms_352,,,
+ms_353,,,
+ms_354,,,
+ms_355,,,
+ms_356,,,
+ms_357,,,
+ms_358,,,
+ms_359,,,
+ms_360,,,
+ms_361,,,
+ms_362,,,
+ms_363,,,
+ms_364,,,excerpts; no Euclid text
+ms_365,,,excerpts; no Euclid text
+ms_366,,,
+ms_367,,,
+ms_368,,,
+ms_369,,,
+ms_370,,,excerpts
+ms_371,,,excerpts; no Euclid text
+ms_372,,,
+ms_373,,,
+ms_374,,,
+ms_375,,,
+ms_376,,,
+ms_377,,,
+ms_378,,,
+ms_379,,,
+ms_380,,,
+ms_381,,,
+ms_382,,,
+ms_383,,,
+ms_384,,,
+ms_385,10,,incomplete; ends within X 48
+ms_386,1,,I def. 1-20
+ms_387,,,
+ms_388,,,
+ms_389,,,interpolated version
+ms_390,,,
+ms_391,,,
+ms_392,,,interpolated version
+ms_393,,,interpolated version
+ms_394,,,"Wien, Österreichische Nationalbibliothek 275, f.27"
+ms_395,11-13,,XI-XIII
+ms_396,1-7,,I - VII beginning
+ms_397,"1, 15",,I def.19 - XV
+ms_398,1-15,,I 39 - XV
+ms_399,1-15,,I-XV
+ms_400,4-15,,IV 14 - XV
+ms_401,,,
+ms_402,1-15,,I-XV; I-XV
+ms_403,,,
+ms_404,1-15,,I 13 - XV
+ms_405,1-15,,I-XV
+ms_406,,,
+ms_407,1-15,,I-XV
+ms_408,1-8,,I-VIII
+ms_409,1-15,,I-XV; I-XV
+ms_410,7,,part of VII
+ms_411,1-15,,I-XV
+ms_412,1-15,,I-XV
+ms_413,1-8,,I - VIII 25
+ms_414,10-15,,X 36 - XV 2
+ms_415,1-8,,I - VIII 22
+ms_416,10,,"X 24, X 17"
+ms_417,10,,X 36-49
+ms_418,11,,XI 1-4
+ms_419,11,,XI 1-4
+ms_420,1-16,,I-XV; scholia I-XIX
+ms_421,1-16,,I-XV; scholia I-XVII
+ms_422,4-16,,"scholia IV-XVII, XX-XXII"
+ms_423,1-10,,I - X 101
+ms_424,1-16,,"I - X 109, XIII 11 - XV 5; scholia I-XVII"
+ms_425,11-14,,XI 5 - XIV 1
+ms_426,3,,"III def., III 1 porism, III 2-7 enunciations"
+ms_427,1-10,,I - X 17
+ms_428,1,,I - I 5
+ms_429,1-16,,I-XV; scholia I-XVII
+ms_430,"1-3, 11-15",,XI 5 - XV; scholia I-III
+ms_431,"13, 15",,"XV 1-5, XIII 16"
+ms_432,1-16,,I-XV; scholia I-XVII
+ms_433,"1-3, 5-8",,"I - III 7, V - VIII 5"
+ms_434,1,,I - I 20
+ms_435,1-15,,I-XV
+ms_436,10-11,,X 91 - XI 37
+ms_437,1-15,,I - XV 3
+ms_438,1-11,,I-XI; repetition of 125-132v; I - V 2; VI 11 - X
+ms_439,7-10,,VII 7 - X 36
+ms_440,1-6,,I-VI def.
+ms_441,1-15,,I-XV
+ms_442,7-10,,VII 7 - X 36
+ms_443,1-7,,I - VII 6
+ms_444,1-7,,I - VII 6
+ms_445,"1-3, 7-10",,"excerpts from books I, II, III, VII, VIII, X; IX"
+ms_446,1-15,,I - XV
+ms_447,1-15,,I-XV
+ms_448,1-7,,I - VII 3
+ms_449,1-15,,I - XV
+ms_450,1-15,,"I-XV, enunciations only"
+ms_451,1-15,,I - XV
+ms_452,"1, 7, 10, 15",,I 24 end - VII 30 beg.; X 20 end - XV
+ms_453,1-6,,I-VI
+ms_454,1-15,,I - XV
+ms_455,1,,I - I 37
+ms_456,1,,I
+ms_457,15,,"XV 7-13, enunciations only"
+ms_458,1-2,,I - II 12
+ms_459,1-15,,I-XV
+ms_460,1-6,,I - VI
+ms_461,,,
+ms_462,1-6,,I - VI 4
+ms_463,"5-6, 10-11",,"V-VI; X, XI def. - XI 4"
+ms_464,,,pp.7-51
+ms_465,,,abridgement
+ms_466,,,
+ms_467,,,
+ms_468,,,
+ms_469,,,
+ms_470,,,
+ms_471,,,
+ms_472,,,
+ms_473,1-4,,I-IV
+ms_474,,,
+ms_475,,,
+ms_476,,,
+ms_477,,,
+ms_478,1-6,,"I - VI, diagrams only"
+ms_479,,,
+ms_480,14-15,,XIV - XV
+ms_481,,,
+ms_482,1-6,,Commentary to I-VI
+ms_483,1-8,,"I-VIII, Enunciations only"
+ms_484,,,
+ms_485,,,
+ms_486,,,
+ms_487,14-15,,XIV-XV
+ms_488,10,,commentary to book X
+ms_489,1-13,,I 2 - XIII 10
+GLYTWZ,,,
+G8MDPE,,,
+SLWQ7N,,,
+GJXHA3,,,
+85GZV3,,,
+LOFE5H,,,

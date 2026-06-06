@@ -31,12 +31,18 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
       const editionWithVisualElementsTypes =
         edition as EditionWithVisualElementsTypes;
       const shelfmarks = edition.shelfmarks || [];
-      const books = (edition.books || []).filter((value): value is number =>
-        Number.isFinite(value),
-      );
+      const books = Array.isArray(edition.books)
+        ? edition.books.filter((value): value is number =>
+            Number.isFinite(value),
+          )
+        : [];
       return {
         key: edition.key!,
         year: edition.year || null,
+        yearFrom: edition.manuscriptYearFrom ?? null,
+        yearTo: edition.manuscriptYearTo ?? null,
+        yearIsApproximate: Boolean(edition.manuscriptYearIsApproximate),
+        materialType: edition.isManuscript ? "Manuscript" : "Print",
         cities: edition.cities || [],
         languages: (edition.languages || [])
           .map((lang) => startCase(lang.trim().toLowerCase()))
@@ -47,6 +53,12 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         publishers: (edition.publisher || [])
           .map((name) => name.trim())
           .filter(Boolean),
+        repository:
+          firstOrNull(
+            shelfmarks
+              .map((s) => s.repository?.trim())
+              .filter(Boolean) as string[],
+          ) || null,
         tpImageName:
           firstOrNull(
             shelfmarks.map((s) => s.title_page_img).filter(Boolean) as string[],
@@ -68,7 +80,6 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         elementsBooksExpanded: books,
         additionalContent: edition.additionalContent || [],
         volumesCount: edition.volumes ?? null,
-        class: edition.manuscriptClass || null,
         titlePageStatus: edition.titlePageStatus || "Unknown",
         study_corpora: edition.corpus || [],
         notes: edition.notes || null,
@@ -82,12 +93,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         ),
         reprintOf: edition.reprintOf || null,
       } satisfies Item;
-    })
-    .sort(
-      (a, b) =>
-        (a.year || "").localeCompare(b.year || "") ||
-        a.key.localeCompare(b.key),
-    );
+    });
 };
 
 export const personDisplayName = (person: string) => {
