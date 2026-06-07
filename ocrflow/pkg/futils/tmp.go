@@ -10,6 +10,11 @@ import (
 var TmpDir = os.TempDir()
 
 func SetTmpDir(dir string) {
+	if dir != "" {
+		if err := os.MkdirAll(dir, 0o755); err != nil {
+			log.Fatalf("Failed to create temp dir %q: %v", TmpDir, err)
+		}
+	}
 	if dir == "" {
 		dir = os.TempDir()
 	}

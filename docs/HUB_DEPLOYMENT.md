@@ -324,6 +324,7 @@ Add (minimally):
 HTTP_ADDR=127.0.0.1:8090
 ROOT_DIR=/srv/euclides/projects/commentaria-hub
 STORE_DIR=/data/euclides/commentaria-hub/store
+OCRFLOW_TEMP_DIR=/data/euclides/commentaria-hub/store/tmp
 BACKUP_ROOT_DIR=/data/euclides/commentaria-hub/full_backups
 ESCRIPTORIUM_USERNAME=admin
 ESCRIPTORIUM_PASSWORD=
@@ -344,6 +345,7 @@ Use the `GITHUB_TOKEN` and `ROBOFLOW_API_KEY` secrets from your own `.env_privat
 Use the `ESCRIPTORIUM_USERNAME` and `ESCRIPTORIUM_PASSWORD` that you set up in the eScriptorium deployment, you can check it by running:
 Use the output of `which uv` for `UV_PATH`.
 `OPENAI_API_KEY` is needed for prompt revisions with `ai_provider=openai`. `OLLAMA_BASE_URL` is needed for prompt revisions with `ai_provider=ollama`.
+`OCRFLOW_TEMP_DIR` is where the API stages large Drive imports and other temporary files. 
 
 ```bash
 sudo -iu euclides
