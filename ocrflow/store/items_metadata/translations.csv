@@ -376,8 +376,8 @@ and accurate scholia: now published for the fourth time, and enriched with many 
 [Vol. 2]: THE LATER BOOKS OF EUCLID IX. Added BOOK
 XVI. On the comparison of any regular solids within any other. ALL ILLUSTRATED WITH CLEAR DEMONSTRATIONS, and accurate
 scholia: now published for the fourth time, and enriched with many additions
-since the first edition. By the author CHRISTOPHER CLAVIUS OF BAMBERG from the Society of JESUS.",summer_2025
-Rome_1603,imprint,"[BOTH VOLUMES] ROME, At Aloysius Zannettus. 1603. WITH PERMISSION OF THE SUPERIORS.",summer_2025
+since the first edition. By the author CHRISTOPHER CLAVIUS OF BAMBERG from the Society of JESUS.",
+Rome_1603,imprint,"[BOTH VOLUMES] ROME, At Aloysius Zannettus. 1603. WITH PERMISSION OF THE SUPERIORS.",
 Douai_1620,title,"THE FIRST SIX BOOKS OF EUCLID'S ELEMENTS. Whose
 demonstrations both elsewhere scattered, and especially in the fifth book, have been adapted for easier understanding by CAROLUS MALAPERTIUS of Mons from the Society of JESUS.",summer_2025
 Douai_1620,imprint,"DVACI, Printed by BALTAZARIS BELLERI under the Golden Compass YEAR 1620.",summer_2025
@@ -407,16 +407,16 @@ Paris_1654,title,"THE SIX BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY
 demonstrated more briefly by A.P. GEORGIO FOURNIER of the Society of JESUS. SECOND EDITION, more correct.",
 Paris_1654,imprint,"PARIS, At IOANNEM HENAVLT, Sworn Bookseller on Jacob Street: at the sign of St. Raphael. 1654. With the Privilege of the King.",
 Rome_1655,title,"EUCLID'S SIX FIRST BOOKS OF THE ELEMENTS OF GEOMETRY
-With part of the Eleventh From the larger COMMENTARIES OF CLAVIUS Condensed into a more convenient form. AND MATHEMATICAL MATTERS OF CHRISTOPHER Grienberger of Oenohal-lensis from the Society of JESUS FIRST WORK. Added are ISAAC THE MONK'S Notes On the same six Books.",summer_2025
-Rome_1655,imprint,"ROME, Printed by Nicolai Angeli Tinassij. 1655. With permission of the superiors. At the expense of Dominici Grialdi.",summer_2025
+With part of the Eleventh From the larger COMMENTARIES OF CLAVIUS Condensed into a more convenient form. AND MATHEMATICAL MATTERS OF CHRISTOPHER Grienberger of Oenohal-lensis from the Society of JESUS FIRST WORK. Added are ISAAC THE MONK'S Notes On the same six Books.",
+Rome_1655,imprint,"ROME, Printed by Nicolai Angeli Tinassij. 1655. With permission of the superiors. At the expense of Dominici Grialdi.",
 Lyon_1674,title,"[Vol. 1]: R. P. CLAUDE FRANCIS MILLIET DECHALES OF CHAMBERY FROM THE SOCIETY OF JESUS. COURSE OR MATHEMATICAL WORLD VOLUME ONE ENCOMPASSING EUCLID'S EIGHT BOOKS, ARITHMETIC, Theodosius's Spherics, Trigonometry, Practical Geometry, Mechanics, Statics, Universal Geography, Treatise on the Magnet, Civil Architecture, & the Art of Carpentry. NOW FOR THE FIRST TIME BROUGHT TO LIGHT.",summer_2025
 Lyon_1674,imprint,"[Vol. 1] LYONS, From the ANISSONIAN Office. 1674. WITH THE KING'S PRIVILEGE.",summer_2025
 Frankfurt_1607,title,"[Vol. 1]: THE ELEMENTS OF EUCLID BOOKS XV. A sixteenth book has been added
 On the comparison of any regular solids within any other. ALL ILLUSTRATED WITH CLEAR DEMONSTRATIONS, and accurate scholia: now published for the fourth time, and enriched with many additions since the first edition. By the author CHRISTOPHER CLAVIUS of Bamberg from the Society of JESUS.
 [Vol. 2]: THE LATER BOOKS OF EUCLID IX. A sixteenth book has been added
-On the comparison of any regular solids within any other. ALL ILLUSTRATED WITH CLEAR DEMONSTRATIONS, and accurate scholia: now published for the fourth time, and enriched with many additions since the first edition. By the author CHRISTOPHER CLAVIUS of Bamberg from the Society of JESUS.",summer_2025
+On the comparison of any regular solids within any other. ALL ILLUSTRATED WITH CLEAR DEMONSTRATIONS, and accurate scholia: now published for the fourth time, and enriched with many additions since the first edition. By the author CHRISTOPHER CLAVIUS of Bamberg from the Society of JESUS.",
 Frankfurt_1607,imprint,"[Vol. 1] FRANKFURT, From the Typographic Office of Nicolaus Hoffmann, At the expense of Jonas Rhodius. 1607.
-[Vol. 2] FRANKFURT From the typographic office of Nicolaus Hoff-mann, at the expense of JONAS RHODIUS. 1607.",summer_2025
+[Vol. 2] FRANKFURT From the typographic office of Nicolaus Hoff-mann, at the expense of JONAS RHODIUS. 1607.",
 London_1654,title,"THE SIX FIRST BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY, Contracted and demonstrated in a more convenient form. By P. GEORG: FOURNIER of the Society of JESUS. An edition more complete and corrected than the previous ones.",summer_2025
 London_1654,imprint,"LONDON, Printed by J. F. at the expense of Edward Story, at
 whose place they are available for sale in the renowned University of Cambridge. MDC L IV.",summer_2025
@@ -4685,11 +4685,11 @@ With the King’s Privilege.",summer_2025
 bib-6,title,"Christopher Clavius of Bamberg,
 of the Society of Jesus.
 
-Practical Geometry.",summer_2025
+Practical Geometry.",
 bib-6,imprint,"Rome,
 From the press of Aloisius Zannetti. 1603.
 
-With permission of the superiors",summer_2025
+With permission of the superiors",
 bib-7,title,"A Geometrical Practice, called Pantometria,
 divided into three books: Longimetry, Planimetry, and Stereometry, containing manifold rules for the measurement of all lines, surfaces, and solids, together with sundry curious conclusions, both by instruments and without; and also by perspective glasses, to set forth the true description or exact map of any whole region. First framed by Leonard Digges, Gentleman, and lately completed by his son, Thomas Digges.
 
@@ -11149,3 +11149,993 @@ With the commentary of Theon of Alexandria on the first thirteen books, rendered
 Added to these are the Phaenomena, Catoptrics, and Optics; then the introductory treatise (Protheoria) of Marinus of Neapolis and the Data; and finally a short work On the Light and Heavy, hitherto unseen, by the same author.",
 D40ZCO,title,"German Euclid, that is, the First Part of his Geometry, on the Elements thereof, by Heinrich Hofmann, Professor of Mathematics at the University of Jena.",
 D40ZCO,imprint,"Printed there by the widow of Johann Weidner, at the author’s expense. 1628. ",
+7BQW8D,title,"CHRISTOPHER CLAVIUS
+OF BAMBERG
+
+OF THE SOCIETY OF JESUS (Jesuit Order)
+
+COMMENTARY ON THE SPHERE
+OF JOHANNES DE SACROBOSCO
+
+COMMENTARY
+
+Now once again revised by the author himself, and enriched
+in many and various places.
+
+WITH PERMISSION OF THE SUPERIORS.",
+7BQW8D,imprint,"AT ROME, 1581.
+
+From the press of Domenico Basa.",
+S66LMV,title,"CHRISTOPHER CLAVIUS
+
+OF BAMBERG
+
+OF THE SOCIETY OF JESUS
+
+EPITOME OF PRACTICAL
+ARITHMETIC.
+
+WITH PERMISSION OF THE SUPERIORS.",
+S66LMV,imprint,"AT ROME, from the printing house of Domenico Basa. 1583.",
+AKQ4ZK,title,"CHRISTOPHER CLAVIUS
+
+OF BAMBERG
+
+OF THE SOCIETY OF JESUS
+
+EPITOME OF PRACTICAL
+ARITHMETIC,
+now once again revised by the author himself.",
+AKQ4ZK,imprint,"WITH PERMISSION OF THE SUPERIORS.
+
+AT ROME, from the printing house of Domenico Basa. 1585.",
+NK4GX0,title,"CHRISTOPHER CLAVIUS
+OF BAMBERG
+
+OF THE SOCIETY OF JESUS
+
+COMMENTARY ON THE SPHERE
+OF JOHANNES DE SACROBOSCO
+
+COMMENTARY
+
+Now for the third time revised by the author himself, and carefully reviewed,
+and enriched in its passages.
+
+WITH PERMISSION OF THE SUPERIORS.",
+NK4GX0,imprint,"AT ROME.
+From the workshop of Domenico Basa. 1585.",
+YD6GFC,title,"THEODOSIUS
+
+OF TRIPOLI
+
+THREE BOOKS
+
+ON SPHERICS.
+
+By CHRISTOPHER CLAVIUS OF BAMBERG,
+of the Society of Jesus,
+
+illustrated with clear demonstrations
+and scholia (explanatory notes).
+
+Also by the same author,
+
+CHRISTOPHER CLAVIUS:
+
+SINES, TANGENT LINES, AND SECANT LINES;
+RECTILINEAR TRIANGLES, AND SPHERICAL TRIANGLES.",
+YD6GFC,imprint,"AT ROME.
+
+From the printing house of Domenico Basa. 1586.
+
+WITH PERMISSION OF THE SUPERIORS.",
+220OQK,title,"CHRISTOPHER CLAVIUS
+
+OF BAMBERG,
+
+OF THE SOCIETY OF JESUS,
+
+COMMENTARY ON THE SPHERE OF JOHANNES
+
+DE SACROBOSCO
+
+COMMENTARY",
+220OQK,imprint,"AT ROME, 1560.
+
+At the press of Vittorio Heliano.
+
+WITH PRIVILEGE.",
+0CXTNP,title,"ARITHMETIC
+
+PRACTICAL
+
+Composed by the Very Reverend
+Father Christopher Clavius,
+of Bamberg, of the Society
+of Jesus.
+
+And translated from Latin into Italian by Signor
+Lorenzo Castellano, Roman
+Patrician.
+
+WITH PERMISSION OF THE SUPERIORS.",
+0CXTNP,imprint,"IN ROME,
+
+At the printing house of Domenico Basa.
+
+1586.",
+E38BVC,title,"A DEFENSE
+
+OF THE NEW
+
+ROMAN CALENDAR,
+
+Against Michael Maestlin of Göppingen,
+Mathematician in the University of Tübingen,
+
+Set forth in three books.
+
+By
+
+CHRISTOPHER CLAVIUS,
+
+OF BAMBERG, OF THE SOCIETY OF JESUS.",
+E38BVC,imprint,"AT ROME,
+
+At the press of Santius and Company. 1588.
+
+WITH PERMISSION OF THE SUPERIORS.",
+XLKFZ8,title,"CHRISTOPHER CLAVIUS
+
+OF BAMBERG
+
+OF THE SOCIETY OF JESUS
+
+COMMENTARY ON THE SPHERE
+
+OF JOHANNES DE SACROBOSCO
+
+COMMENTARY,
+
+Now for the third time revised by the author himself, and enriched
+in very many places.
+
+WITH PERMISSION OF THE SUPERIORS.",
+XLKFZ8,imprint,"AT VENICE, 1591.
+
+At the establishment of Giovanni Battista Ciotti of Siena, under the sign of Minerva.",
+H5H6K4,title,"CHRISTOPHER
+
+CLAVIUS
+
+OF BAMBERG,
+
+OF THE SOCIETY OF JESUS.
+
+EPITOME OF PRACTICAL
+
+ARITHMETIC,
+
+now once again revised and enlarged by the author himself.",
+H5H6K4,imprint,"AT COLOGNE,
+
+At the press of Heinrich Falckenburg.
+
+IN THE YEAR ’92.",
+EUARD4,title,"A TABLE FOR
+
+DETERMINING
+
+THE LENGTH
+
+OF DAY AND NIGHT:
+
+The hour of sunrise and sunset
+
+of the Sun; the time of noon and midnight; and
+
+which hour from sunrise or sunset corre-
+
+sponds to a given hour measured from noon or mid-
+
+night, calculated for any
+
+elevation of the pole (latitude).
+
+BY
+
+CHRISTOPHER CLAVIUS
+
+OF THE SOCIETY OF JESUS",
+EUARD4,imprint,"AT ROME, at the press of Aloysius Zanetti,
+
+1592.
+
+WITH PERMISSION OF THE SUPERIORS.",
+2F464H,title,"CHRISTOPHER CLAVIUS
+
+OF BAMBERG
+
+OF THE SOCIETY OF JESUS,
+
+COMMENTARY ON THE SPHERE
+
+OF JOHANNES DE SACROBOSCO.
+
+COMMENTARY.
+
+Now for the fourth time revised by the author himself, and enriched
+in very many places.",
+2F464H,imprint,"AT LYONS,
+
+AT THE EXPENSE OF THE BROTHERS DE GABIANO.
+
+1593.
+
+WITH PRIVILEGE.",
+4QQF4D,title,"CHRISTOPHER CLAVIUS
+
+OF BAMBERG
+
+OF THE SOCIETY OF JESUS.
+
+THE ASTROLABE.",
+4QQF4D,imprint,"WITH PRIVILEGE.
+
+AT ROME,
+
+At the expense of Bartolomeo Grassi.
+
+From the Gabiana Press. 1593.
+
+WITH THE PERMISSION OF THE SUPERIORS.",
+7GBVNE,title,"CHRISTOPHER CLAVIUS
+
+OF BAMBERG
+
+OF THE SOCIETY OF JESUS,
+
+COMMENTARY ON THE SPHERE
+
+OF JOHANNES DE SACROBOSCO.
+
+COMMENTARY.
+
+Now for the fourth time revised by the author himself, and enriched
+in very many places.",
+7GBVNE,imprint,"AT LYONS,
+
+AT THE EXPENSE OF THE BROTHERS DE GABIANO.
+
+1594.
+
+WITH PRIVILEGE.",
+IE7UPT,title,"An Easy Method
+
+for Clearly Constructing
+
+all kinds of sundials
+
+for the south and for the middle of the night, on any
+
+plane, whether it is equally distant from the horizon or
+
+perpendicular to it, and for any elevation of the pole; drawn
+
+from the booklet of Reverend Father Christopher Clavius of the
+
+Society of Jesus, the foremost mathematician of our memory;
+
+excerpted and explained, and illustrated from engraved
+
+copper plates.
+
+To the illustrious Lord Charles Clavenius, of the Order of Saint
+
+Michael, a most valiant knight.",
+IE7UPT,imprint,"At Leuven,
+
+Available from Johann Baptist Zangrius, sworn bookseller.
+
+In the year 1595.",
+GD6MNQ,title,"Joseph Scaliger’s
+
+Refutation,
+
+and Correction of the Gregorian Calendar,
+
+corrected by
+
+Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus.
+
+Revised.",
+GD6MNQ,imprint,"With permission of the superiors.
+
+At Rome, printed by Luigi Zannetti, 1595.",
+FN4YWP,title,"Commentary of Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus,
+
+on the Sphere of Johannes
+
+de Sacrobosco.
+
+Commentary,
+
+now for the third time reviewed by the author himself, and
+
+enlarged in many places; likewise corrected with greater care.
+
+With permission of the superiors.",
+FN4YWP,imprint,"At Venice, printed by Bernardus Basa, at the sign of the Sun, 1596.",
+FO2GHY,title,"Ecclesiastical Computation
+
+(the calculation of the Church calendar)
+
+Taught by Means of the Finger Joints
+
+with remarkable ease.
+
+By
+
+Christopher Clavius,
+
+of Bamberg, of the Society of Jesus.",
+FO2GHY,imprint,"At Rome,
+
+printed by Bernardus Basa, 1597.
+
+With permission of the superiors.",
+U0TF6J,title,"A New Description
+
+of Clocks
+
+by Christopher Clavius of Bamberg,
+
+of the Society of Jesus.",
+U0TF6J,imprint,"At Rome,
+
+printed by Luigi Zannetti, 1599.
+
+With permission of the superiors.",
+6HQEPW,title,"Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus.
+
+Abridgment of Practical Arithmetic,
+
+now once again reviewed and enlarged
+
+by the author himself.",
+6HQEPW,imprint,"At Cologne,
+
+printed by Bernardus Gualtherius.
+
+In the Year of Our Lord 1601.",
+19DYVJ,imprint,"At Venice, at the Sign of the Sun. 1601.",
+19DYVJ,title,"Commentary of Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus,
+
+on the Sphere of Johannes
+
+de Sacrobosco.
+
+Commentary.
+
+Now for the third time reviewed by the author himself, and
+
+enlarged in many places; likewise corrected with greater care.
+
+With permission of the superiors.",
+5UCE2B,title,"Practical Arithmetic
+
+composed by the very Reverend
+
+Father Christopher Clavius,
+
+a native of Bamberg, of the
+
+Society of Jesus.
+
+And translated from Latin into Italian by Signor Lorenzo
+
+Castellano, Roman patrician.
+
+Revised by the same Father Clavius
+
+with some additions.
+
+With permission of the superiors.",
+5UCE2B,imprint,"In Rome,
+
+printed by the Heirs of Niccolò Muti.
+
+1602.",
+0PU4US,title,"Commentary of Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus,
+
+on the Sphere of Johannes
+
+de Sacrobosco.
+
+Commentary.
+
+Now for the fourth time reviewed by the author himself, and
+
+enlarged in many places.",
+0PU4US,imprint,"At Lyon,
+
+at the expense of Jean de Gabiano.
+
+1602.
+
+With privilege.
+
+From the library of
+
+Jean Gringallet.",
+PI9E6Q,title,"Table of the Sun’s Altitudes
+
+for Astronomical Hours
+
+at the beginnings of the zodiacal signs, for every degree of
+
+the elevation of the north pole.
+
+Calculated
+
+by Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus.",
+PI9E6Q,imprint,"At Rome, printed by Luigi Zannetti, 1603.
+
+With permission of the superiors.",
+RC8QCW,title,"Ecclesiastical Computation
+
+Presented by Means of the Finger Joints,
+
+and by Tables.
+
+By
+
+Christopher Clavius,
+
+of Bamberg, of the Society of Jesus.",
+RC8QCW,imprint,"At Rome,
+
+printed by Luigi Zannetti.
+
+1603.
+
+With permission of the superiors.",
+Z03ON6,title,"Explanation
+
+of the Roman Calendar
+
+restored by Gregory XIII,
+
+Supreme Pontiff,
+
+published
+
+by order of Our Most Holy Lord Clement VIII,
+
+Supreme Pontiff.
+
+By
+
+Christopher Clavius,
+
+of Bamberg, of the Society of Jesus.
+
+To this has been added a refutation of those who maintained
+
+that the calendar ought to be reformed in a different manner.",
+Z03ON6,imprint,"At Rome, printed by Aloysius (Luigi) Zannetti, 1603.
+
+With permission of the superiors.
+
+With privilege.",
+H2HKOI,title,"A Very Brief Compendium
+
+on the Construction
+
+of Horizontal and Declining Sundials.
+
+By
+
+Christopher Clavius,
+
+of Bamberg, of the Society of Jesus.",
+H2HKOI,imprint,"At Rome, printed by Luigi Zannetti.
+
+1603.
+
+With permission of the superiors.",
+K08Z9W,title,"Certain Astronomical Tables
+
+Most Useful
+
+for the Construction of Sundials.
+
+And
+
+Notes on the New Description of Sundials,
+
+which are likewise of great assistance
+
+for the construction of sundials.
+
+By
+
+Christopher Clavius,
+
+of Bamberg, of the Society of Jesus.",
+K08Z9W,imprint,"At Rome, from the press of Luigi Zannetti. 1605.
+
+With permission of the superiors.",
+YF9WE1,title,"Commentary of Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus,
+
+on the Sphere of Johannes
+
+de Sacrobosco.
+
+Commentary.
+
+Now for the fifth time reviewed by the author himself in this year 1606, and
+
+enlarged in many places.
+
+There has been added
+
+a treatise on Geometry, and a very full Treatise on Twilight.",
+YF9WE1,imprint,"At Rome, at the expense of Giovanni Paolo Gelli,
+
+at the sign of the Ship. 1606.
+
+Printed by Luigi Zannetti. With permission of the superiors.",
+545ZC8,title,"Practical Geometry
+
+by
+
+Christopher Clavius
+
+of Bamberg, of the Society of Jesus.",
+545ZC8,imprint,"With the favor and privilege of the Sacred Imperial Majesty,
+
+and with permission of the superiors.
+
+At Mainz,
+
+from the printing house of Johann Albin.
+
+In the year 1606.",
+TSQJVT,title,"Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus.
+
+Abridgment of Practical Arithmetic,
+
+now for the fifth time revised by the author himself
+
+in the year 1606, and
+
+enlarged in many places.",
+TSQJVT,imprint,"At Cologne,
+
+printed by Bernardus Gualtherius.
+
+In the year 1607.
+
+With the privilege of the Sacred Imperial Majesty, and with the consent of the superiors.",
+M87KXQ,title,"Commentary of Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus,
+
+on the Sphere of Johannes
+
+de Sacrobosco.
+
+Commentary.
+
+Now for the fifth time reviewed by the author himself in this year 1606, and
+
+enlarged in many places.
+
+There has been added
+
+a treatise on Geometry, and a very full Treatise on Twilight.",
+M87KXQ,imprint,"At Rome, at the expense of Giovanni Paolo Gelli,
+
+at the sign of the Ship. 1607.
+
+Printed by Luigi Zannetti. With permission of the superiors.",
+EWSGC5,title,"Tables
+
+of Sines, Tangents, and Secants,
+
+to a radius of 10,000,000 parts, and to the first minutes
+
+of the quadrant; together with a brief introduction to their use,
+
+drawn from a more extensive treatise
+
+of Christopher Clavius of Bamberg,
+
+of the Society of Jesus.",
+EWSGC5,imprint,"At Mainz,
+
+from the printing house of Johann Albin.
+
+In the year 1607.
+
+With permission of the superiors.",
+HGZZ0J,title,"Algebra
+
+of
+
+Christopher Clavius,
+
+of Bamberg,
+
+of the Society of Jesus.",
+HGZZ0J,imprint,"At Rome,
+
+printed by Bartolomeo Zannetti.
+
+In the year 1608.
+
+With permission of the superiors.",
+VSYL9N,imprint,"At Saint-Gervais,
+
+printed by Samuel Crispin.
+
+1608.
+
+With privilege.",
+VSYL9N,title,"Commentary of Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus,
+
+on the Sphere of Johannes
+
+de Sacrobosco.
+
+Commentary.
+
+Now finally reviewed by the author himself, and
+
+enlarged in many places.
+
+There has been added a treatise on Geometry
+
+and a very full Treatise on Twilight.",
+CXRQO5,title,"Algebra
+
+of
+
+Christopher Clavius,
+
+of Bamberg,
+
+of the Society of Jesus.",
+CXRQO5,imprint,"At Geneva,
+
+printed by Étienne Gamonet.
+
+In the year 1609.",
+H1SYB3,imprint,"At Mainz,
+
+printed by Johann Albin.
+
+With the favor and privilege of the Sacred Imperial Majesty.
+
+In the Year of Our Lord 1609.",
+H1SYB3,title,"Refutation of the Cyclometry
+
+of Joseph Scaliger,
+
+by
+
+Christopher Clavius,
+
+of Bamberg, of the Society of Jesus.
+
+With permission of the superiors.",
+NKO7F6,title,"Response
+
+to the Insults
+
+and Slanders of Joseph Scaliger
+
+against the Gregorian Calendar.
+
+Likewise,
+
+A Refutation of His Cyclometry.
+
+By
+
+Christopher Clavius,
+
+of Bamberg, of the Society of Jesus.",
+NKO7F6,imprint,"With permission of the superiors.
+
+At Mainz,
+
+printed by Johann Albin.
+
+With the favor and privilege of the Sacred Imperial Majesty.
+
+In the Year of Our Lord 1609.",
+3GQBBJ,title,"The Algebra
+
+of
+
+Christopher Clavius,
+
+of the Society of Jesus,
+
+Mathematician.
+
+Briefly compiled and translated from Latin
+
+by
+
+Gilles Gvilion, priest of Liège,
+
+of the College of Saint Martin.
+
+Enriched with a preface treating everything
+
+required concerning numbers for the understanding
+
+of the art.
+
+Moreover, with an expansion of algebra to all
+
+the rules upon which arithmetic is founded,
+
+demonstrating thereby its superiority.
+
+The whole arranged with such order and with such
+
+clarification of the most obscure passages that the lover
+
+of learning will have no cause for dissatisfaction.",
+3GQBBJ,imprint,"At Liège,
+
+at the shop of Léonard Streel, sworn printer,
+
+at Saint Sebastian, behind Saint Peter's.
+
+1612.",
+FRR0IA,title,"Practical Arithmetic
+
+composed by the very Reverend
+
+Father Christopher Clavius,
+
+a native of Bamberg, of the
+
+Society of Jesus.
+
+And translated from Latin into Italian by Signor Lorenzo
+
+Castellano, Roman patrician.
+
+Revised by the same Father Clavius
+
+with some additions.",
+FRR0IA,imprint,"In Rome,
+
+printed by Guglielmo Facciotti. 1613.
+
+With permission of the superiors.",
+6ONUG1,imprint,"At Mainz,
+
+at the expense of Bernard Gualther, bookseller of Cologne,
+
+printed by Johannes Volmar.
+
+In the year 1614.
+
+With the privilege of the Sacred Imperial Majesty, and with the consent of the superiors.",
+6ONUG1,title,"Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus.
+
+Abridgment of Practical Arithmetic,
+
+now for the fifth time revised by the author himself
+
+in the year 1606, and enlarged
+
+in many places.",
+WQOLVK,title,"Practical Arithmetic
+
+composed by the very Reverend
+
+Father Christopher Clavius,
+
+a native of Bamberg, of the
+
+Society of Jesus.
+
+And translated from Latin into Italian by Signor Lorenzo
+
+Castellano, Roman patrician.
+
+Revised by the same Father Clavius
+
+with some additions.",
+WQOLVK,imprint,"In Rome,
+
+published by Guglielmo Facciotti. 1618.
+
+With permission of the superiors.",
+MUAMS7,title,"Commentary of Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus,
+
+on the Sphere of Johannes
+
+de Sacrobosco.
+
+Commentary.
+
+Final Edition. Revised by the author,
+
+and enlarged in many places.
+
+There has been added
+
+a geometrical treatise, and a very full Treatise on Twilight.",
+MUAMS7,imprint,"At Lyon,
+
+at the expense of Pierre Rigaud, in the Merchants' Street, at the sign
+
+of Fortune and the Clock.
+
+1618.",
+BOPZK9,title,"Practical Arithmetic
+
+composed by the very Reverend Father
+
+Christopher Clavius,
+
+of Bamberg, of the Society
+
+of Jesus.
+
+And translated from Latin into Italian
+
+by Signor Lorenzo Castellano,
+
+Roman patrician.
+
+Revised by the same Father Clavius
+
+with some additions.",
+BOPZK9,imprint,"In Rome,
+
+published by Guglielmo Facciotti.
+
+1626.
+
+With permission of the superiors.",
+1QD2VS,title,"Practical Arithmetic
+
+composed by the very Reverend Father
+
+Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus.
+
+And translated from Latin into Italian
+
+by Signor Lorenzo Castellano,
+
+Roman patrician.
+
+Revised by the same Father Clavius
+
+with some additions.",
+1QD2VS,imprint,"At Venice, 1656.
+
+Published by the Giunti.
+
+With permission of the superiors and with privilege.",
+0HNMAK,imprint,"At Venice, 1678.
+
+Published by Domenico Frigido.
+
+With permission of the superiors.",
+0HNMAK,title,"Practical Arithmetic
+
+composed by the very Reverend Father
+
+Christopher Clavius
+
+of Bamberg,
+
+of the Society of Jesus.
+
+And translated from Latin into Italian by Signor
+
+Lorenzo Castellano,
+
+Roman patrician.
+
+Revised by the same Father Clavius
+
+with some additions.",
+YXV7JU,title,"The History of the Two Worlds,
+namely the Greater and Lesser Cosmos, in their metaphysical, physical, and technical aspects.
+
+Divided into two volumes according to the distinction between the two cosmoses.
+
+By Robert Fludd (Robertus Fludd), also called ""of the Waves,"" Esquire, and Doctor of Medicine of Oxford.
+
+First Volume
+
+The history of the Macrocosm divided into two treatises.
+
+Of these:
+
+The First concerns:
+
+The metaphysical Macrocosm and the origin of its creatures.
+The physical Macrocosm in its processes of generation and corruption.
+
+The Second concerns:
+
+The art that imitates nature, produced from the Macrocosm and multiplied within it, whose principal daughters are here set forth in a living anatomy, namely:
+Arithmetic
+Music
+Geometry
+Perspective
+Painting
+Military Art
+The science of Motion
+The science of Time
+Cosmography
+Astrology
+Geomancy",
+YXV7JU,imprint,"At Oppenheim.
+Published at the expense of Johann Theodor de Bry,
+printed by Hieronymus Galler,
+in 1617",
