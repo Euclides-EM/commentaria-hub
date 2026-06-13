@@ -1,0 +1,8 @@
+row_type,ancient_humanist_scholia,any_commentary_split,clavius_jesuit_commentary,contracted_or_extracted_commentary,notes_annotations_observations,pedagogical_explanation,scholia_general
+ancient_humanist_scholia,100.0,100.0,0.0,0.0,13.9,13.9,13.9
+any_commentary_split,39.1,100.0,10.9,5.4,17.4,40.2,15.2
+clavius_jesuit_commentary,0.0,100.0,100.0,30.0,0.0,0.0,60.0
+contracted_or_extracted_commentary,0.0,100.0,60.0,100.0,0.0,0.0,20.0
+notes_annotations_observations,31.2,100.0,0.0,0.0,100.0,12.5,18.8
+pedagogical_explanation,13.5,100.0,0.0,0.0,5.4,100.0,5.4
+scholia_general,35.7,100.0,42.9,7.1,21.4,14.3,100.0

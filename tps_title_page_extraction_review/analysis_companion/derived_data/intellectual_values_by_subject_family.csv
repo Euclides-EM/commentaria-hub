@@ -1,0 +1,64 @@
+subject_family,n_primary_family,value,count,pct
+Arithmetic/Commerce,144,clarity_ease,8,5.6
+Arithmetic/Commerce,144,utility_use,17,11.8
+Arithmetic/Commerce,144,correction_revision,23,16.0
+Arithmetic/Commerce,144,novelty_invention,7,4.9
+Arithmetic/Commerce,144,translation_language,1,0.7
+Arithmetic/Commerce,144,demonstration_method,20,13.9
+Arithmetic/Commerce,144,enrichment_addition,23,16.0
+Arithmetic/Commerce,144,restoration_ancient_authority,2,1.4
+Arithmetic/Commerce,144,community_professional,18,12.5
+Geometry/Theory,424,clarity_ease,18,4.2
+Geometry/Theory,424,utility_use,41,9.7
+Geometry/Theory,424,correction_revision,39,9.2
+Geometry/Theory,424,novelty_invention,23,5.4
+Geometry/Theory,424,translation_language,31,7.3
+Geometry/Theory,424,demonstration_method,51,12.0
+Geometry/Theory,424,enrichment_addition,66,15.6
+Geometry/Theory,424,restoration_ancient_authority,36,8.5
+Geometry/Theory,424,community_professional,57,13.4
+Visual/Spatial Arts,110,clarity_ease,0,0.0
+Visual/Spatial Arts,110,utility_use,8,7.3
+Visual/Spatial Arts,110,correction_revision,5,4.5
+Visual/Spatial Arts,110,novelty_invention,4,3.6
+Visual/Spatial Arts,110,translation_language,4,3.6
+Visual/Spatial Arts,110,demonstration_method,8,7.3
+Visual/Spatial Arts,110,enrichment_addition,6,5.5
+Visual/Spatial Arts,110,restoration_ancient_authority,1,0.9
+Visual/Spatial Arts,110,community_professional,8,7.3
+Instruments/Measurement,104,clarity_ease,9,8.7
+Instruments/Measurement,104,utility_use,21,20.2
+Instruments/Measurement,104,correction_revision,11,10.6
+Instruments/Measurement,104,novelty_invention,10,9.6
+Instruments/Measurement,104,translation_language,1,1.0
+Instruments/Measurement,104,demonstration_method,19,18.3
+Instruments/Measurement,104,enrichment_addition,18,17.3
+Instruments/Measurement,104,restoration_ancient_authority,2,1.9
+Instruments/Measurement,104,community_professional,14,13.5
+Cosmos/Earth,80,clarity_ease,4,5.0
+Cosmos/Earth,80,utility_use,8,10.0
+Cosmos/Earth,80,correction_revision,1,1.2
+Cosmos/Earth,80,novelty_invention,5,6.2
+Cosmos/Earth,80,translation_language,1,1.2
+Cosmos/Earth,80,demonstration_method,7,8.8
+Cosmos/Earth,80,enrichment_addition,16,20.0
+Cosmos/Earth,80,restoration_ancient_authority,1,1.2
+Cosmos/Earth,80,community_professional,8,10.0
+Applied Mechanics/Military,57,clarity_ease,2,3.5
+Applied Mechanics/Military,57,utility_use,10,17.5
+Applied Mechanics/Military,57,correction_revision,10,17.5
+Applied Mechanics/Military,57,novelty_invention,5,8.8
+Applied Mechanics/Military,57,translation_language,2,3.5
+Applied Mechanics/Military,57,demonstration_method,6,10.5
+Applied Mechanics/Military,57,enrichment_addition,6,10.5
+Applied Mechanics/Military,57,restoration_ancient_authority,1,1.8
+Applied Mechanics/Military,57,community_professional,13,22.8
+Music,18,clarity_ease,0,0.0
+Music,18,utility_use,1,5.6
+Music,18,correction_revision,0,0.0
+Music,18,novelty_invention,0,0.0
+Music,18,translation_language,3,16.7
+Music,18,demonstration_method,0,0.0
+Music,18,enrichment_addition,3,16.7
+Music,18,restoration_ancient_authority,2,11.1
+Music,18,community_professional,2,11.1

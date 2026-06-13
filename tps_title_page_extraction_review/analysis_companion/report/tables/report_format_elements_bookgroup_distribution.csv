@@ -1,0 +1,8 @@
+format_group,count_books_1_13,count_books_1_6,count_books_1_6_plus_solids,count_mixed_or_other_books,count_near_complete_or_expanded,count_near_complete_or_expanded_enunciations,count_partial_from_book_1,count_selected_later_books,count_selected_later_books_enunciations,count_unknown_books,pct_within_format_books_1_13,pct_within_format_books_1_6,pct_within_format_books_1_6_plus_solids,pct_within_format_mixed_or_other_books,pct_within_format_near_complete_or_expanded,pct_within_format_near_complete_or_expanded_enunciations,pct_within_format_partial_from_book_1,pct_within_format_selected_later_books,pct_within_format_selected_later_books_enunciations,pct_within_format_unknown_books
+folio,1,10,0,1,21,0,0,2,0,19,1.9,18.5,0.0,1.9,38.9,0.0,0.0,3.7,0.0,35.2
+quarto,0,20,7,0,8,1,5,9,0,17,0.0,29.9,10.4,0.0,11.9,1.5,7.5,13.4,0.0,25.4
+octavo,2,31,17,0,33,4,3,9,1,11,1.8,27.9,15.3,0.0,29.7,3.6,2.7,8.1,0.9,9.9
+duodecimo,1,10,10,0,3,2,0,0,0,4,3.3,33.3,33.3,0.0,10.0,6.7,0.0,0.0,0.0,13.3
+6,0,2,1,0,1,0,0,0,0,1,0.0,40.0,20.0,0.0,20.0,0.0,0.0,0.0,0.0,20.0
+18,0,0,1,0,0,0,0,0,0,0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+missing/unknown,1,8,3,0,1,0,0,1,0,4,5.6,44.4,16.7,0.0,5.6,0.0,0.0,5.6,0.0,22.2

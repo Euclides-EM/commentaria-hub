@@ -1,0 +1,64 @@
+social_arena,n_arena,subject_family,count,pct,overall_primary_pct,delta
+pedagogical_school_arena,133,Geometry/Theory,75,56.4,50.3,6.1
+pedagogical_school_arena,133,Arithmetic/Commerce,12,9.0,17.1,-8.1
+pedagogical_school_arena,133,Visual/Spatial Arts,3,2.3,13.0,-10.8
+pedagogical_school_arena,133,Instruments/Measurement,17,12.8,12.3,0.4
+pedagogical_school_arena,133,Cosmos/Earth,23,17.3,9.5,7.8
+pedagogical_school_arena,133,Applied Mechanics/Military,6,4.5,6.8,-2.3
+pedagogical_school_arena,133,Music,2,1.5,2.1,-0.6
+court_state_service_arena,104,Geometry/Theory,54,51.9,50.3,1.6
+court_state_service_arena,104,Arithmetic/Commerce,8,7.7,17.1,-9.4
+court_state_service_arena,104,Visual/Spatial Arts,12,11.5,13.0,-1.5
+court_state_service_arena,104,Instruments/Measurement,20,19.2,12.3,6.9
+court_state_service_arena,104,Cosmos/Earth,9,8.7,9.5,-0.8
+court_state_service_arena,104,Applied Mechanics/Military,14,13.5,6.8,6.7
+court_state_service_arena,104,Music,1,1.0,2.1,-1.2
+military_fortification_arena,22,Geometry/Theory,12,54.5,50.3,4.2
+military_fortification_arena,22,Arithmetic/Commerce,4,18.2,17.1,1.1
+military_fortification_arena,22,Visual/Spatial Arts,2,9.1,13.0,-4.0
+military_fortification_arena,22,Instruments/Measurement,3,13.6,12.3,1.3
+military_fortification_arena,22,Cosmos/Earth,3,13.6,9.5,4.1
+military_fortification_arena,22,Applied Mechanics/Military,5,22.7,6.8,16.0
+military_fortification_arena,22,Music,0,0.0,2.1,-2.1
+professional_practical_arena,57,Geometry/Theory,31,54.4,50.3,4.1
+professional_practical_arena,57,Arithmetic/Commerce,9,15.8,17.1,-1.3
+professional_practical_arena,57,Visual/Spatial Arts,16,28.1,13.0,15.0
+professional_practical_arena,57,Instruments/Measurement,11,19.3,12.3,7.0
+professional_practical_arena,57,Cosmos/Earth,5,8.8,9.5,-0.7
+professional_practical_arena,57,Applied Mechanics/Military,10,17.5,6.8,10.8
+professional_practical_arena,57,Music,0,0.0,2.1,-2.1
+religious_institutional_arena,101,Geometry/Theory,51,50.5,50.3,0.2
+religious_institutional_arena,101,Arithmetic/Commerce,11,10.9,17.1,-6.2
+religious_institutional_arena,101,Visual/Spatial Arts,8,7.9,13.0,-5.1
+religious_institutional_arena,101,Instruments/Measurement,6,5.9,12.3,-6.4
+religious_institutional_arena,101,Cosmos/Earth,13,12.9,9.5,3.4
+religious_institutional_arena,101,Applied Mechanics/Military,4,4.0,6.8,-2.8
+religious_institutional_arena,101,Music,5,5.0,2.1,2.8
+learned_scholarly_arena,202,Geometry/Theory,112,55.4,50.3,5.1
+learned_scholarly_arena,202,Arithmetic/Commerce,23,11.4,17.1,-5.7
+learned_scholarly_arena,202,Visual/Spatial Arts,12,5.9,13.0,-7.1
+learned_scholarly_arena,202,Instruments/Measurement,24,11.9,12.3,-0.5
+learned_scholarly_arena,202,Cosmos/Earth,31,15.3,9.5,5.9
+learned_scholarly_arena,202,Applied Mechanics/Military,13,6.4,6.8,-0.3
+learned_scholarly_arena,202,Music,5,2.5,2.1,0.3
+general_public_lovers_arena,56,Geometry/Theory,30,53.6,50.3,3.3
+general_public_lovers_arena,56,Arithmetic/Commerce,10,17.9,17.1,0.8
+general_public_lovers_arena,56,Visual/Spatial Arts,4,7.1,13.0,-5.9
+general_public_lovers_arena,56,Instruments/Measurement,16,28.6,12.3,16.2
+general_public_lovers_arena,56,Cosmos/Earth,7,12.5,9.5,3.0
+general_public_lovers_arena,56,Applied Mechanics/Military,5,8.9,6.8,2.2
+general_public_lovers_arena,56,Music,0,0.0,2.1,-2.1
+patronage_prestige_arena,72,Geometry/Theory,42,58.3,50.3,8.0
+patronage_prestige_arena,72,Arithmetic/Commerce,6,8.3,17.1,-8.7
+patronage_prestige_arena,72,Visual/Spatial Arts,12,16.7,13.0,3.6
+patronage_prestige_arena,72,Instruments/Measurement,10,13.9,12.3,1.6
+patronage_prestige_arena,72,Cosmos/Earth,6,8.3,9.5,-1.2
+patronage_prestige_arena,72,Applied Mechanics/Military,6,8.3,6.8,1.6
+patronage_prestige_arena,72,Music,1,1.4,2.1,-0.7
+no_visible_social_arena,462,Geometry/Theory,216,46.8,50.3,-3.5
+no_visible_social_arena,462,Arithmetic/Commerce,97,21.0,17.1,3.9
+no_visible_social_arena,462,Visual/Spatial Arts,70,15.2,13.0,2.1
+no_visible_social_arena,462,Instruments/Measurement,51,11.0,12.3,-1.3
+no_visible_social_arena,462,Cosmos/Earth,37,8.0,9.5,-1.5
+no_visible_social_arena,462,Applied Mechanics/Military,23,5.0,6.8,-1.8
+no_visible_social_arena,462,Music,11,2.4,2.1,0.2

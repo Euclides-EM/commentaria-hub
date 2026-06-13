@@ -1,0 +1,19 @@
+group,marker,count,denominator,pct
+metadata Elements,visual title claim,51,286,17.8
+metadata Elements,metadata diagrams,9,286,3.1
+metadata Elements,figures as proof apparatus,28,286,9.8
+metadata Elements,figures as practical operation,9,286,3.1
+metadata Elements,figures as visual pedagogy,16,286,5.6
+metadata Elements,figures as edition furnishing,42,286,14.7
+metadata Elements,figures as ancient/learned apparatus,50,286,17.5
+metadata Elements,visual claim but no metadata diagrams,50,286,17.5
+metadata Elements,metadata diagrams but no visual claim,8,286,2.8
+non-Elements,visual title claim,93,557,16.7
+non-Elements,metadata diagrams,138,557,24.8
+non-Elements,figures as proof apparatus,29,557,5.2
+non-Elements,figures as practical operation,39,557,7.0
+non-Elements,figures as visual pedagogy,28,557,5.0
+non-Elements,figures as edition furnishing,65,557,11.7
+non-Elements,figures as ancient/learned apparatus,21,557,3.8
+non-Elements,visual claim but no metadata diagrams,67,557,12.0
+non-Elements,metadata diagrams but no visual claim,112,557,20.1

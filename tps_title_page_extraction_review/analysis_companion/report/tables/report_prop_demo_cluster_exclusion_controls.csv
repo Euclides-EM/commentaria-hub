@@ -1,0 +1,529 @@
+elements_books_group,excluded_cluster_pattern,motif,count_after_exclusion,denominator_after_exclusion,pct_after_exclusion,original_count,original_denominator,original_pct
+books_1_13,Dechales/Reeve/Williams,proposition_any,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams,proposition_use_application,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams,proposition_selection_extraction,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams,proposition_ordering_reduction,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams,proposition_explanation_commentary,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams,demonstration_any,2,5,40.0,2,5,40.0
+books_1_13,Dechales/Reeve/Williams,demonstration_easy_clear,2,5,40.0,2,5,40.0
+books_1_13,Dechales/Reeve/Williams,demonstration_new,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams,demonstration_order_method,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams,demonstration_adapted_to_capacity,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams,proposition_and_demonstration,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,proposition_any,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,proposition_use_application,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,proposition_selection_extraction,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,proposition_ordering_reduction,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,proposition_explanation_commentary,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,demonstration_any,2,5,40.0,2,5,40.0
+books_1_13,Tacquet,demonstration_easy_clear,2,5,40.0,2,5,40.0
+books_1_13,Tacquet,demonstration_new,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,demonstration_order_method,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,demonstration_adapted_to_capacity,0,5,0.0,0,5,0.0
+books_1_13,Tacquet,proposition_and_demonstration,0,5,0.0,0,5,0.0
+books_1_13,Dou,proposition_any,0,5,0.0,0,5,0.0
+books_1_13,Dou,proposition_use_application,0,5,0.0,0,5,0.0
+books_1_13,Dou,proposition_selection_extraction,0,5,0.0,0,5,0.0
+books_1_13,Dou,proposition_ordering_reduction,0,5,0.0,0,5,0.0
+books_1_13,Dou,proposition_explanation_commentary,0,5,0.0,0,5,0.0
+books_1_13,Dou,demonstration_any,2,5,40.0,2,5,40.0
+books_1_13,Dou,demonstration_easy_clear,2,5,40.0,2,5,40.0
+books_1_13,Dou,demonstration_new,0,5,0.0,0,5,0.0
+books_1_13,Dou,demonstration_order_method,0,5,0.0,0,5,0.0
+books_1_13,Dou,demonstration_adapted_to_capacity,0,5,0.0,0,5,0.0
+books_1_13,Dou,proposition_and_demonstration,0,5,0.0,0,5,0.0
+books_1_13,Henrion,proposition_any,0,5,0.0,0,5,0.0
+books_1_13,Henrion,proposition_use_application,0,5,0.0,0,5,0.0
+books_1_13,Henrion,proposition_selection_extraction,0,5,0.0,0,5,0.0
+books_1_13,Henrion,proposition_ordering_reduction,0,5,0.0,0,5,0.0
+books_1_13,Henrion,proposition_explanation_commentary,0,5,0.0,0,5,0.0
+books_1_13,Henrion,demonstration_any,2,5,40.0,2,5,40.0
+books_1_13,Henrion,demonstration_easy_clear,2,5,40.0,2,5,40.0
+books_1_13,Henrion,demonstration_new,0,5,0.0,0,5,0.0
+books_1_13,Henrion,demonstration_order_method,0,5,0.0,0,5,0.0
+books_1_13,Henrion,demonstration_adapted_to_capacity,0,5,0.0,0,5,0.0
+books_1_13,Henrion,proposition_and_demonstration,0,5,0.0,0,5,0.0
+books_1_13,Clavius,proposition_any,0,5,0.0,0,5,0.0
+books_1_13,Clavius,proposition_use_application,0,5,0.0,0,5,0.0
+books_1_13,Clavius,proposition_selection_extraction,0,5,0.0,0,5,0.0
+books_1_13,Clavius,proposition_ordering_reduction,0,5,0.0,0,5,0.0
+books_1_13,Clavius,proposition_explanation_commentary,0,5,0.0,0,5,0.0
+books_1_13,Clavius,demonstration_any,2,5,40.0,2,5,40.0
+books_1_13,Clavius,demonstration_easy_clear,2,5,40.0,2,5,40.0
+books_1_13,Clavius,demonstration_new,0,5,0.0,0,5,0.0
+books_1_13,Clavius,demonstration_order_method,0,5,0.0,0,5,0.0
+books_1_13,Clavius,demonstration_adapted_to_capacity,0,5,0.0,0,5,0.0
+books_1_13,Clavius,proposition_and_demonstration,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,proposition_any,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,proposition_use_application,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,proposition_selection_extraction,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,proposition_ordering_reduction,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,proposition_explanation_commentary,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,demonstration_any,2,5,40.0,2,5,40.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,demonstration_easy_clear,2,5,40.0,2,5,40.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,demonstration_new,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,demonstration_order_method,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,demonstration_adapted_to_capacity,0,5,0.0,0,5,0.0
+books_1_13,Dechales/Reeve/Williams; Tacquet,proposition_and_demonstration,0,5,0.0,0,5,0.0
+books_1_6,Dechales/Reeve/Williams,proposition_any,1,81,1.2,1,81,1.2
+books_1_6,Dechales/Reeve/Williams,proposition_use_application,1,81,1.2,1,81,1.2
+books_1_6,Dechales/Reeve/Williams,proposition_selection_extraction,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams,proposition_ordering_reduction,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams,proposition_explanation_commentary,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams,demonstration_any,19,81,23.5,19,81,23.5
+books_1_6,Dechales/Reeve/Williams,demonstration_easy_clear,2,81,2.5,2,81,2.5
+books_1_6,Dechales/Reeve/Williams,demonstration_new,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams,demonstration_order_method,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams,demonstration_adapted_to_capacity,2,81,2.5,2,81,2.5
+books_1_6,Dechales/Reeve/Williams,proposition_and_demonstration,1,81,1.2,1,81,1.2
+books_1_6,Tacquet,proposition_any,1,81,1.2,1,81,1.2
+books_1_6,Tacquet,proposition_use_application,1,81,1.2,1,81,1.2
+books_1_6,Tacquet,proposition_selection_extraction,0,81,0.0,0,81,0.0
+books_1_6,Tacquet,proposition_ordering_reduction,0,81,0.0,0,81,0.0
+books_1_6,Tacquet,proposition_explanation_commentary,0,81,0.0,0,81,0.0
+books_1_6,Tacquet,demonstration_any,19,81,23.5,19,81,23.5
+books_1_6,Tacquet,demonstration_easy_clear,2,81,2.5,2,81,2.5
+books_1_6,Tacquet,demonstration_new,0,81,0.0,0,81,0.0
+books_1_6,Tacquet,demonstration_order_method,0,81,0.0,0,81,0.0
+books_1_6,Tacquet,demonstration_adapted_to_capacity,2,81,2.5,2,81,2.5
+books_1_6,Tacquet,proposition_and_demonstration,1,81,1.2,1,81,1.2
+books_1_6,Dou,proposition_any,1,69,1.4,1,81,1.2
+books_1_6,Dou,proposition_use_application,1,69,1.4,1,81,1.2
+books_1_6,Dou,proposition_selection_extraction,0,69,0.0,0,81,0.0
+books_1_6,Dou,proposition_ordering_reduction,0,69,0.0,0,81,0.0
+books_1_6,Dou,proposition_explanation_commentary,0,69,0.0,0,81,0.0
+books_1_6,Dou,demonstration_any,19,69,27.5,19,81,23.5
+books_1_6,Dou,demonstration_easy_clear,2,69,2.9,2,81,2.5
+books_1_6,Dou,demonstration_new,0,69,0.0,0,81,0.0
+books_1_6,Dou,demonstration_order_method,0,69,0.0,0,81,0.0
+books_1_6,Dou,demonstration_adapted_to_capacity,2,69,2.9,2,81,2.5
+books_1_6,Dou,proposition_and_demonstration,1,69,1.4,1,81,1.2
+books_1_6,Henrion,proposition_any,1,80,1.2,1,81,1.2
+books_1_6,Henrion,proposition_use_application,1,80,1.2,1,81,1.2
+books_1_6,Henrion,proposition_selection_extraction,0,80,0.0,0,81,0.0
+books_1_6,Henrion,proposition_ordering_reduction,0,80,0.0,0,81,0.0
+books_1_6,Henrion,proposition_explanation_commentary,0,80,0.0,0,81,0.0
+books_1_6,Henrion,demonstration_any,19,80,23.8,19,81,23.5
+books_1_6,Henrion,demonstration_easy_clear,2,80,2.5,2,81,2.5
+books_1_6,Henrion,demonstration_new,0,80,0.0,0,81,0.0
+books_1_6,Henrion,demonstration_order_method,0,80,0.0,0,81,0.0
+books_1_6,Henrion,demonstration_adapted_to_capacity,2,80,2.5,2,81,2.5
+books_1_6,Henrion,proposition_and_demonstration,1,80,1.2,1,81,1.2
+books_1_6,Clavius,proposition_any,1,78,1.3,1,81,1.2
+books_1_6,Clavius,proposition_use_application,1,78,1.3,1,81,1.2
+books_1_6,Clavius,proposition_selection_extraction,0,78,0.0,0,81,0.0
+books_1_6,Clavius,proposition_ordering_reduction,0,78,0.0,0,81,0.0
+books_1_6,Clavius,proposition_explanation_commentary,0,78,0.0,0,81,0.0
+books_1_6,Clavius,demonstration_any,19,78,24.4,19,81,23.5
+books_1_6,Clavius,demonstration_easy_clear,2,78,2.6,2,81,2.5
+books_1_6,Clavius,demonstration_new,0,78,0.0,0,81,0.0
+books_1_6,Clavius,demonstration_order_method,0,78,0.0,0,81,0.0
+books_1_6,Clavius,demonstration_adapted_to_capacity,2,78,2.6,2,81,2.5
+books_1_6,Clavius,proposition_and_demonstration,1,78,1.3,1,81,1.2
+books_1_6,Dechales/Reeve/Williams; Tacquet,proposition_any,1,81,1.2,1,81,1.2
+books_1_6,Dechales/Reeve/Williams; Tacquet,proposition_use_application,1,81,1.2,1,81,1.2
+books_1_6,Dechales/Reeve/Williams; Tacquet,proposition_selection_extraction,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams; Tacquet,proposition_ordering_reduction,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams; Tacquet,proposition_explanation_commentary,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams; Tacquet,demonstration_any,19,81,23.5,19,81,23.5
+books_1_6,Dechales/Reeve/Williams; Tacquet,demonstration_easy_clear,2,81,2.5,2,81,2.5
+books_1_6,Dechales/Reeve/Williams; Tacquet,demonstration_new,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams; Tacquet,demonstration_order_method,0,81,0.0,0,81,0.0
+books_1_6,Dechales/Reeve/Williams; Tacquet,demonstration_adapted_to_capacity,2,81,2.5,2,81,2.5
+books_1_6,Dechales/Reeve/Williams; Tacquet,proposition_and_demonstration,1,81,1.2,1,81,1.2
+books_1_6_plus_solids,Dechales/Reeve/Williams,proposition_any,3,24,12.5,14,39,35.9
+books_1_6_plus_solids,Dechales/Reeve/Williams,proposition_use_application,0,24,0.0,8,39,20.5
+books_1_6_plus_solids,Dechales/Reeve/Williams,proposition_selection_extraction,0,24,0.0,0,39,0.0
+books_1_6_plus_solids,Dechales/Reeve/Williams,proposition_ordering_reduction,0,24,0.0,0,39,0.0
+books_1_6_plus_solids,Dechales/Reeve/Williams,proposition_explanation_commentary,0,24,0.0,9,39,23.1
+books_1_6_plus_solids,Dechales/Reeve/Williams,demonstration_any,3,24,12.5,5,39,12.8
+books_1_6_plus_solids,Dechales/Reeve/Williams,demonstration_easy_clear,2,24,8.3,4,39,10.3
+books_1_6_plus_solids,Dechales/Reeve/Williams,demonstration_new,1,24,4.2,3,39,7.7
+books_1_6_plus_solids,Dechales/Reeve/Williams,demonstration_order_method,2,24,8.3,4,39,10.3
+books_1_6_plus_solids,Dechales/Reeve/Williams,demonstration_adapted_to_capacity,0,24,0.0,0,39,0.0
+books_1_6_plus_solids,Dechales/Reeve/Williams,proposition_and_demonstration,0,24,0.0,0,39,0.0
+books_1_6_plus_solids,Tacquet,proposition_any,13,32,40.6,14,39,35.9
+books_1_6_plus_solids,Tacquet,proposition_use_application,8,32,25.0,8,39,20.5
+books_1_6_plus_solids,Tacquet,proposition_selection_extraction,0,32,0.0,0,39,0.0
+books_1_6_plus_solids,Tacquet,proposition_ordering_reduction,0,32,0.0,0,39,0.0
+books_1_6_plus_solids,Tacquet,proposition_explanation_commentary,9,32,28.1,9,39,23.1
+books_1_6_plus_solids,Tacquet,demonstration_any,5,32,15.6,5,39,12.8
+books_1_6_plus_solids,Tacquet,demonstration_easy_clear,4,32,12.5,4,39,10.3
+books_1_6_plus_solids,Tacquet,demonstration_new,3,32,9.4,3,39,7.7
+books_1_6_plus_solids,Tacquet,demonstration_order_method,4,32,12.5,4,39,10.3
+books_1_6_plus_solids,Tacquet,demonstration_adapted_to_capacity,0,32,0.0,0,39,0.0
+books_1_6_plus_solids,Tacquet,proposition_and_demonstration,0,32,0.0,0,39,0.0
+books_1_6_plus_solids,Dou,proposition_any,14,39,35.9,14,39,35.9
+books_1_6_plus_solids,Dou,proposition_use_application,8,39,20.5,8,39,20.5
+books_1_6_plus_solids,Dou,proposition_selection_extraction,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Dou,proposition_ordering_reduction,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Dou,proposition_explanation_commentary,9,39,23.1,9,39,23.1
+books_1_6_plus_solids,Dou,demonstration_any,5,39,12.8,5,39,12.8
+books_1_6_plus_solids,Dou,demonstration_easy_clear,4,39,10.3,4,39,10.3
+books_1_6_plus_solids,Dou,demonstration_new,3,39,7.7,3,39,7.7
+books_1_6_plus_solids,Dou,demonstration_order_method,4,39,10.3,4,39,10.3
+books_1_6_plus_solids,Dou,demonstration_adapted_to_capacity,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Dou,proposition_and_demonstration,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Henrion,proposition_any,14,39,35.9,14,39,35.9
+books_1_6_plus_solids,Henrion,proposition_use_application,8,39,20.5,8,39,20.5
+books_1_6_plus_solids,Henrion,proposition_selection_extraction,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Henrion,proposition_ordering_reduction,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Henrion,proposition_explanation_commentary,9,39,23.1,9,39,23.1
+books_1_6_plus_solids,Henrion,demonstration_any,5,39,12.8,5,39,12.8
+books_1_6_plus_solids,Henrion,demonstration_easy_clear,4,39,10.3,4,39,10.3
+books_1_6_plus_solids,Henrion,demonstration_new,3,39,7.7,3,39,7.7
+books_1_6_plus_solids,Henrion,demonstration_order_method,4,39,10.3,4,39,10.3
+books_1_6_plus_solids,Henrion,demonstration_adapted_to_capacity,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Henrion,proposition_and_demonstration,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Clavius,proposition_any,14,39,35.9,14,39,35.9
+books_1_6_plus_solids,Clavius,proposition_use_application,8,39,20.5,8,39,20.5
+books_1_6_plus_solids,Clavius,proposition_selection_extraction,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Clavius,proposition_ordering_reduction,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Clavius,proposition_explanation_commentary,9,39,23.1,9,39,23.1
+books_1_6_plus_solids,Clavius,demonstration_any,5,39,12.8,5,39,12.8
+books_1_6_plus_solids,Clavius,demonstration_easy_clear,4,39,10.3,4,39,10.3
+books_1_6_plus_solids,Clavius,demonstration_new,3,39,7.7,3,39,7.7
+books_1_6_plus_solids,Clavius,demonstration_order_method,4,39,10.3,4,39,10.3
+books_1_6_plus_solids,Clavius,demonstration_adapted_to_capacity,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Clavius,proposition_and_demonstration,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,proposition_any,14,39,35.9,14,39,35.9
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,proposition_use_application,8,39,20.5,8,39,20.5
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,proposition_selection_extraction,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,proposition_ordering_reduction,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,proposition_explanation_commentary,9,39,23.1,9,39,23.1
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,demonstration_any,5,39,12.8,5,39,12.8
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,demonstration_easy_clear,4,39,10.3,4,39,10.3
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,demonstration_new,3,39,7.7,3,39,7.7
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,demonstration_order_method,4,39,10.3,4,39,10.3
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,demonstration_adapted_to_capacity,0,39,0.0,0,39,0.0
+books_1_6_plus_solids,Dechales/Reeve/Williams; Tacquet,proposition_and_demonstration,0,39,0.0,0,39,0.0
+near_complete_or_expanded,Dechales/Reeve/Williams,proposition_any,6,66,9.1,6,67,9.0
+near_complete_or_expanded,Dechales/Reeve/Williams,proposition_use_application,0,66,0.0,0,67,0.0
+near_complete_or_expanded,Dechales/Reeve/Williams,proposition_selection_extraction,1,66,1.5,1,67,1.5
+near_complete_or_expanded,Dechales/Reeve/Williams,proposition_ordering_reduction,1,66,1.5,1,67,1.5
+near_complete_or_expanded,Dechales/Reeve/Williams,proposition_explanation_commentary,0,66,0.0,0,67,0.0
+near_complete_or_expanded,Dechales/Reeve/Williams,demonstration_any,22,66,33.3,22,67,32.8
+near_complete_or_expanded,Dechales/Reeve/Williams,demonstration_easy_clear,6,66,9.1,6,67,9.0
+near_complete_or_expanded,Dechales/Reeve/Williams,demonstration_new,1,66,1.5,1,67,1.5
+near_complete_or_expanded,Dechales/Reeve/Williams,demonstration_order_method,2,66,3.0,2,67,3.0
+near_complete_or_expanded,Dechales/Reeve/Williams,demonstration_adapted_to_capacity,0,66,0.0,0,67,0.0
+near_complete_or_expanded,Dechales/Reeve/Williams,proposition_and_demonstration,2,66,3.0,2,67,3.0
+near_complete_or_expanded,Tacquet,proposition_any,6,67,9.0,6,67,9.0
+near_complete_or_expanded,Tacquet,proposition_use_application,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Tacquet,proposition_selection_extraction,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Tacquet,proposition_ordering_reduction,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Tacquet,proposition_explanation_commentary,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Tacquet,demonstration_any,22,67,32.8,22,67,32.8
+near_complete_or_expanded,Tacquet,demonstration_easy_clear,6,67,9.0,6,67,9.0
+near_complete_or_expanded,Tacquet,demonstration_new,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Tacquet,demonstration_order_method,2,67,3.0,2,67,3.0
+near_complete_or_expanded,Tacquet,demonstration_adapted_to_capacity,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Tacquet,proposition_and_demonstration,2,67,3.0,2,67,3.0
+near_complete_or_expanded,Dou,proposition_any,6,67,9.0,6,67,9.0
+near_complete_or_expanded,Dou,proposition_use_application,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Dou,proposition_selection_extraction,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Dou,proposition_ordering_reduction,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Dou,proposition_explanation_commentary,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Dou,demonstration_any,22,67,32.8,22,67,32.8
+near_complete_or_expanded,Dou,demonstration_easy_clear,6,67,9.0,6,67,9.0
+near_complete_or_expanded,Dou,demonstration_new,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Dou,demonstration_order_method,2,67,3.0,2,67,3.0
+near_complete_or_expanded,Dou,demonstration_adapted_to_capacity,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Dou,proposition_and_demonstration,2,67,3.0,2,67,3.0
+near_complete_or_expanded,Henrion,proposition_any,6,59,10.2,6,67,9.0
+near_complete_or_expanded,Henrion,proposition_use_application,0,59,0.0,0,67,0.0
+near_complete_or_expanded,Henrion,proposition_selection_extraction,1,59,1.7,1,67,1.5
+near_complete_or_expanded,Henrion,proposition_ordering_reduction,1,59,1.7,1,67,1.5
+near_complete_or_expanded,Henrion,proposition_explanation_commentary,0,59,0.0,0,67,0.0
+near_complete_or_expanded,Henrion,demonstration_any,22,59,37.3,22,67,32.8
+near_complete_or_expanded,Henrion,demonstration_easy_clear,6,59,10.2,6,67,9.0
+near_complete_or_expanded,Henrion,demonstration_new,1,59,1.7,1,67,1.5
+near_complete_or_expanded,Henrion,demonstration_order_method,2,59,3.4,2,67,3.0
+near_complete_or_expanded,Henrion,demonstration_adapted_to_capacity,0,59,0.0,0,67,0.0
+near_complete_or_expanded,Henrion,proposition_and_demonstration,2,59,3.4,2,67,3.0
+near_complete_or_expanded,Clavius,proposition_any,6,61,9.8,6,67,9.0
+near_complete_or_expanded,Clavius,proposition_use_application,0,61,0.0,0,67,0.0
+near_complete_or_expanded,Clavius,proposition_selection_extraction,1,61,1.6,1,67,1.5
+near_complete_or_expanded,Clavius,proposition_ordering_reduction,1,61,1.6,1,67,1.5
+near_complete_or_expanded,Clavius,proposition_explanation_commentary,0,61,0.0,0,67,0.0
+near_complete_or_expanded,Clavius,demonstration_any,17,61,27.9,22,67,32.8
+near_complete_or_expanded,Clavius,demonstration_easy_clear,6,61,9.8,6,67,9.0
+near_complete_or_expanded,Clavius,demonstration_new,1,61,1.6,1,67,1.5
+near_complete_or_expanded,Clavius,demonstration_order_method,2,61,3.3,2,67,3.0
+near_complete_or_expanded,Clavius,demonstration_adapted_to_capacity,0,61,0.0,0,67,0.0
+near_complete_or_expanded,Clavius,proposition_and_demonstration,2,61,3.3,2,67,3.0
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,proposition_any,6,67,9.0,6,67,9.0
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,proposition_use_application,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,proposition_selection_extraction,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,proposition_ordering_reduction,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,proposition_explanation_commentary,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,demonstration_any,22,67,32.8,22,67,32.8
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,demonstration_easy_clear,6,67,9.0,6,67,9.0
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,demonstration_new,1,67,1.5,1,67,1.5
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,demonstration_order_method,2,67,3.0,2,67,3.0
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,demonstration_adapted_to_capacity,0,67,0.0,0,67,0.0
+near_complete_or_expanded,Dechales/Reeve/Williams; Tacquet,proposition_and_demonstration,2,67,3.0,2,67,3.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,proposition_any,2,7,28.6,2,7,28.6
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,proposition_use_application,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,proposition_selection_extraction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,proposition_ordering_reduction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,proposition_explanation_commentary,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,demonstration_any,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,demonstration_easy_clear,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,demonstration_new,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,demonstration_order_method,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,demonstration_adapted_to_capacity,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams,proposition_and_demonstration,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,proposition_any,2,7,28.6,2,7,28.6
+near_complete_or_expanded_enunciations,Tacquet,proposition_use_application,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,proposition_selection_extraction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,proposition_ordering_reduction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,proposition_explanation_commentary,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,demonstration_any,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,demonstration_easy_clear,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,demonstration_new,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,demonstration_order_method,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,demonstration_adapted_to_capacity,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Tacquet,proposition_and_demonstration,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,proposition_any,2,7,28.6,2,7,28.6
+near_complete_or_expanded_enunciations,Dou,proposition_use_application,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,proposition_selection_extraction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,proposition_ordering_reduction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,proposition_explanation_commentary,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,demonstration_any,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,demonstration_easy_clear,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,demonstration_new,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,demonstration_order_method,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,demonstration_adapted_to_capacity,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dou,proposition_and_demonstration,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,proposition_any,2,7,28.6,2,7,28.6
+near_complete_or_expanded_enunciations,Henrion,proposition_use_application,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,proposition_selection_extraction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,proposition_ordering_reduction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,proposition_explanation_commentary,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,demonstration_any,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,demonstration_easy_clear,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,demonstration_new,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,demonstration_order_method,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,demonstration_adapted_to_capacity,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Henrion,proposition_and_demonstration,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,proposition_any,1,6,16.7,2,7,28.6
+near_complete_or_expanded_enunciations,Clavius,proposition_use_application,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,proposition_selection_extraction,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,proposition_ordering_reduction,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,proposition_explanation_commentary,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,demonstration_any,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,demonstration_easy_clear,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,demonstration_new,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,demonstration_order_method,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,demonstration_adapted_to_capacity,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Clavius,proposition_and_demonstration,0,6,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,proposition_any,2,7,28.6,2,7,28.6
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,proposition_use_application,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,proposition_selection_extraction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,proposition_ordering_reduction,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,proposition_explanation_commentary,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,demonstration_any,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,demonstration_easy_clear,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,demonstration_new,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,demonstration_order_method,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,demonstration_adapted_to_capacity,0,7,0.0,0,7,0.0
+near_complete_or_expanded_enunciations,Dechales/Reeve/Williams; Tacquet,proposition_and_demonstration,0,7,0.0,0,7,0.0
+partial_from_book_1,Dechales/Reeve/Williams,proposition_any,2,8,25.0,2,8,25.0
+partial_from_book_1,Dechales/Reeve/Williams,proposition_use_application,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams,proposition_selection_extraction,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams,proposition_ordering_reduction,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams,proposition_explanation_commentary,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams,demonstration_any,1,8,12.5,1,8,12.5
+partial_from_book_1,Dechales/Reeve/Williams,demonstration_easy_clear,1,8,12.5,1,8,12.5
+partial_from_book_1,Dechales/Reeve/Williams,demonstration_new,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams,demonstration_order_method,1,8,12.5,1,8,12.5
+partial_from_book_1,Dechales/Reeve/Williams,demonstration_adapted_to_capacity,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams,proposition_and_demonstration,0,8,0.0,0,8,0.0
+partial_from_book_1,Tacquet,proposition_any,2,8,25.0,2,8,25.0
+partial_from_book_1,Tacquet,proposition_use_application,0,8,0.0,0,8,0.0
+partial_from_book_1,Tacquet,proposition_selection_extraction,0,8,0.0,0,8,0.0
+partial_from_book_1,Tacquet,proposition_ordering_reduction,0,8,0.0,0,8,0.0
+partial_from_book_1,Tacquet,proposition_explanation_commentary,0,8,0.0,0,8,0.0
+partial_from_book_1,Tacquet,demonstration_any,1,8,12.5,1,8,12.5
+partial_from_book_1,Tacquet,demonstration_easy_clear,1,8,12.5,1,8,12.5
+partial_from_book_1,Tacquet,demonstration_new,0,8,0.0,0,8,0.0
+partial_from_book_1,Tacquet,demonstration_order_method,1,8,12.5,1,8,12.5
+partial_from_book_1,Tacquet,demonstration_adapted_to_capacity,0,8,0.0,0,8,0.0
+partial_from_book_1,Tacquet,proposition_and_demonstration,0,8,0.0,0,8,0.0
+partial_from_book_1,Dou,proposition_any,2,8,25.0,2,8,25.0
+partial_from_book_1,Dou,proposition_use_application,0,8,0.0,0,8,0.0
+partial_from_book_1,Dou,proposition_selection_extraction,0,8,0.0,0,8,0.0
+partial_from_book_1,Dou,proposition_ordering_reduction,0,8,0.0,0,8,0.0
+partial_from_book_1,Dou,proposition_explanation_commentary,0,8,0.0,0,8,0.0
+partial_from_book_1,Dou,demonstration_any,1,8,12.5,1,8,12.5
+partial_from_book_1,Dou,demonstration_easy_clear,1,8,12.5,1,8,12.5
+partial_from_book_1,Dou,demonstration_new,0,8,0.0,0,8,0.0
+partial_from_book_1,Dou,demonstration_order_method,1,8,12.5,1,8,12.5
+partial_from_book_1,Dou,demonstration_adapted_to_capacity,0,8,0.0,0,8,0.0
+partial_from_book_1,Dou,proposition_and_demonstration,0,8,0.0,0,8,0.0
+partial_from_book_1,Henrion,proposition_any,2,8,25.0,2,8,25.0
+partial_from_book_1,Henrion,proposition_use_application,0,8,0.0,0,8,0.0
+partial_from_book_1,Henrion,proposition_selection_extraction,0,8,0.0,0,8,0.0
+partial_from_book_1,Henrion,proposition_ordering_reduction,0,8,0.0,0,8,0.0
+partial_from_book_1,Henrion,proposition_explanation_commentary,0,8,0.0,0,8,0.0
+partial_from_book_1,Henrion,demonstration_any,1,8,12.5,1,8,12.5
+partial_from_book_1,Henrion,demonstration_easy_clear,1,8,12.5,1,8,12.5
+partial_from_book_1,Henrion,demonstration_new,0,8,0.0,0,8,0.0
+partial_from_book_1,Henrion,demonstration_order_method,1,8,12.5,1,8,12.5
+partial_from_book_1,Henrion,demonstration_adapted_to_capacity,0,8,0.0,0,8,0.0
+partial_from_book_1,Henrion,proposition_and_demonstration,0,8,0.0,0,8,0.0
+partial_from_book_1,Clavius,proposition_any,2,8,25.0,2,8,25.0
+partial_from_book_1,Clavius,proposition_use_application,0,8,0.0,0,8,0.0
+partial_from_book_1,Clavius,proposition_selection_extraction,0,8,0.0,0,8,0.0
+partial_from_book_1,Clavius,proposition_ordering_reduction,0,8,0.0,0,8,0.0
+partial_from_book_1,Clavius,proposition_explanation_commentary,0,8,0.0,0,8,0.0
+partial_from_book_1,Clavius,demonstration_any,1,8,12.5,1,8,12.5
+partial_from_book_1,Clavius,demonstration_easy_clear,1,8,12.5,1,8,12.5
+partial_from_book_1,Clavius,demonstration_new,0,8,0.0,0,8,0.0
+partial_from_book_1,Clavius,demonstration_order_method,1,8,12.5,1,8,12.5
+partial_from_book_1,Clavius,demonstration_adapted_to_capacity,0,8,0.0,0,8,0.0
+partial_from_book_1,Clavius,proposition_and_demonstration,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,proposition_any,2,8,25.0,2,8,25.0
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,proposition_use_application,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,proposition_selection_extraction,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,proposition_ordering_reduction,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,proposition_explanation_commentary,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,demonstration_any,1,8,12.5,1,8,12.5
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,demonstration_easy_clear,1,8,12.5,1,8,12.5
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,demonstration_new,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,demonstration_order_method,1,8,12.5,1,8,12.5
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,demonstration_adapted_to_capacity,0,8,0.0,0,8,0.0
+partial_from_book_1,Dechales/Reeve/Williams; Tacquet,proposition_and_demonstration,0,8,0.0,0,8,0.0
+selected_later_books,Dechales/Reeve/Williams,proposition_any,1,21,4.8,1,21,4.8
+selected_later_books,Dechales/Reeve/Williams,proposition_use_application,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams,proposition_selection_extraction,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams,proposition_ordering_reduction,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams,proposition_explanation_commentary,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams,demonstration_any,4,21,19.0,4,21,19.0
+selected_later_books,Dechales/Reeve/Williams,demonstration_easy_clear,1,21,4.8,1,21,4.8
+selected_later_books,Dechales/Reeve/Williams,demonstration_new,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams,demonstration_order_method,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams,demonstration_adapted_to_capacity,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams,proposition_and_demonstration,1,21,4.8,1,21,4.8
+selected_later_books,Tacquet,proposition_any,1,21,4.8,1,21,4.8
+selected_later_books,Tacquet,proposition_use_application,0,21,0.0,0,21,0.0
+selected_later_books,Tacquet,proposition_selection_extraction,0,21,0.0,0,21,0.0
+selected_later_books,Tacquet,proposition_ordering_reduction,0,21,0.0,0,21,0.0
+selected_later_books,Tacquet,proposition_explanation_commentary,0,21,0.0,0,21,0.0
+selected_later_books,Tacquet,demonstration_any,4,21,19.0,4,21,19.0
+selected_later_books,Tacquet,demonstration_easy_clear,1,21,4.8,1,21,4.8
+selected_later_books,Tacquet,demonstration_new,0,21,0.0,0,21,0.0
+selected_later_books,Tacquet,demonstration_order_method,0,21,0.0,0,21,0.0
+selected_later_books,Tacquet,demonstration_adapted_to_capacity,0,21,0.0,0,21,0.0
+selected_later_books,Tacquet,proposition_and_demonstration,1,21,4.8,1,21,4.8
+selected_later_books,Dou,proposition_any,1,21,4.8,1,21,4.8
+selected_later_books,Dou,proposition_use_application,0,21,0.0,0,21,0.0
+selected_later_books,Dou,proposition_selection_extraction,0,21,0.0,0,21,0.0
+selected_later_books,Dou,proposition_ordering_reduction,0,21,0.0,0,21,0.0
+selected_later_books,Dou,proposition_explanation_commentary,0,21,0.0,0,21,0.0
+selected_later_books,Dou,demonstration_any,4,21,19.0,4,21,19.0
+selected_later_books,Dou,demonstration_easy_clear,1,21,4.8,1,21,4.8
+selected_later_books,Dou,demonstration_new,0,21,0.0,0,21,0.0
+selected_later_books,Dou,demonstration_order_method,0,21,0.0,0,21,0.0
+selected_later_books,Dou,demonstration_adapted_to_capacity,0,21,0.0,0,21,0.0
+selected_later_books,Dou,proposition_and_demonstration,1,21,4.8,1,21,4.8
+selected_later_books,Henrion,proposition_any,1,21,4.8,1,21,4.8
+selected_later_books,Henrion,proposition_use_application,0,21,0.0,0,21,0.0
+selected_later_books,Henrion,proposition_selection_extraction,0,21,0.0,0,21,0.0
+selected_later_books,Henrion,proposition_ordering_reduction,0,21,0.0,0,21,0.0
+selected_later_books,Henrion,proposition_explanation_commentary,0,21,0.0,0,21,0.0
+selected_later_books,Henrion,demonstration_any,4,21,19.0,4,21,19.0
+selected_later_books,Henrion,demonstration_easy_clear,1,21,4.8,1,21,4.8
+selected_later_books,Henrion,demonstration_new,0,21,0.0,0,21,0.0
+selected_later_books,Henrion,demonstration_order_method,0,21,0.0,0,21,0.0
+selected_later_books,Henrion,demonstration_adapted_to_capacity,0,21,0.0,0,21,0.0
+selected_later_books,Henrion,proposition_and_demonstration,1,21,4.8,1,21,4.8
+selected_later_books,Clavius,proposition_any,1,21,4.8,1,21,4.8
+selected_later_books,Clavius,proposition_use_application,0,21,0.0,0,21,0.0
+selected_later_books,Clavius,proposition_selection_extraction,0,21,0.0,0,21,0.0
+selected_later_books,Clavius,proposition_ordering_reduction,0,21,0.0,0,21,0.0
+selected_later_books,Clavius,proposition_explanation_commentary,0,21,0.0,0,21,0.0
+selected_later_books,Clavius,demonstration_any,4,21,19.0,4,21,19.0
+selected_later_books,Clavius,demonstration_easy_clear,1,21,4.8,1,21,4.8
+selected_later_books,Clavius,demonstration_new,0,21,0.0,0,21,0.0
+selected_later_books,Clavius,demonstration_order_method,0,21,0.0,0,21,0.0
+selected_later_books,Clavius,demonstration_adapted_to_capacity,0,21,0.0,0,21,0.0
+selected_later_books,Clavius,proposition_and_demonstration,1,21,4.8,1,21,4.8
+selected_later_books,Dechales/Reeve/Williams; Tacquet,proposition_any,1,21,4.8,1,21,4.8
+selected_later_books,Dechales/Reeve/Williams; Tacquet,proposition_use_application,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams; Tacquet,proposition_selection_extraction,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams; Tacquet,proposition_ordering_reduction,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams; Tacquet,proposition_explanation_commentary,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams; Tacquet,demonstration_any,4,21,19.0,4,21,19.0
+selected_later_books,Dechales/Reeve/Williams; Tacquet,demonstration_easy_clear,1,21,4.8,1,21,4.8
+selected_later_books,Dechales/Reeve/Williams; Tacquet,demonstration_new,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams; Tacquet,demonstration_order_method,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams; Tacquet,demonstration_adapted_to_capacity,0,21,0.0,0,21,0.0
+selected_later_books,Dechales/Reeve/Williams; Tacquet,proposition_and_demonstration,1,21,4.8,1,21,4.8
+unknown_books,Dechales/Reeve/Williams,proposition_any,3,56,5.4,3,56,5.4
+unknown_books,Dechales/Reeve/Williams,proposition_use_application,0,56,0.0,0,56,0.0
+unknown_books,Dechales/Reeve/Williams,proposition_selection_extraction,1,56,1.8,1,56,1.8
+unknown_books,Dechales/Reeve/Williams,proposition_ordering_reduction,1,56,1.8,1,56,1.8
+unknown_books,Dechales/Reeve/Williams,proposition_explanation_commentary,1,56,1.8,1,56,1.8
+unknown_books,Dechales/Reeve/Williams,demonstration_any,5,56,8.9,5,56,8.9
+unknown_books,Dechales/Reeve/Williams,demonstration_easy_clear,3,56,5.4,3,56,5.4
+unknown_books,Dechales/Reeve/Williams,demonstration_new,0,56,0.0,0,56,0.0
+unknown_books,Dechales/Reeve/Williams,demonstration_order_method,0,56,0.0,0,56,0.0
+unknown_books,Dechales/Reeve/Williams,demonstration_adapted_to_capacity,0,56,0.0,0,56,0.0
+unknown_books,Dechales/Reeve/Williams,proposition_and_demonstration,1,56,1.8,1,56,1.8
+unknown_books,Tacquet,proposition_any,3,55,5.5,3,56,5.4
+unknown_books,Tacquet,proposition_use_application,0,55,0.0,0,56,0.0
+unknown_books,Tacquet,proposition_selection_extraction,1,55,1.8,1,56,1.8
+unknown_books,Tacquet,proposition_ordering_reduction,1,55,1.8,1,56,1.8
+unknown_books,Tacquet,proposition_explanation_commentary,1,55,1.8,1,56,1.8
+unknown_books,Tacquet,demonstration_any,5,55,9.1,5,56,8.9
+unknown_books,Tacquet,demonstration_easy_clear,3,55,5.5,3,56,5.4
+unknown_books,Tacquet,demonstration_new,0,55,0.0,0,56,0.0
+unknown_books,Tacquet,demonstration_order_method,0,55,0.0,0,56,0.0
+unknown_books,Tacquet,demonstration_adapted_to_capacity,0,55,0.0,0,56,0.0
+unknown_books,Tacquet,proposition_and_demonstration,1,55,1.8,1,56,1.8
+unknown_books,Dou,proposition_any,3,56,5.4,3,56,5.4
+unknown_books,Dou,proposition_use_application,0,56,0.0,0,56,0.0
+unknown_books,Dou,proposition_selection_extraction,1,56,1.8,1,56,1.8
+unknown_books,Dou,proposition_ordering_reduction,1,56,1.8,1,56,1.8
+unknown_books,Dou,proposition_explanation_commentary,1,56,1.8,1,56,1.8
+unknown_books,Dou,demonstration_any,5,56,8.9,5,56,8.9
+unknown_books,Dou,demonstration_easy_clear,3,56,5.4,3,56,5.4
+unknown_books,Dou,demonstration_new,0,56,0.0,0,56,0.0
+unknown_books,Dou,demonstration_order_method,0,56,0.0,0,56,0.0
+unknown_books,Dou,demonstration_adapted_to_capacity,0,56,0.0,0,56,0.0
+unknown_books,Dou,proposition_and_demonstration,1,56,1.8,1,56,1.8
+unknown_books,Henrion,proposition_any,3,56,5.4,3,56,5.4
+unknown_books,Henrion,proposition_use_application,0,56,0.0,0,56,0.0
+unknown_books,Henrion,proposition_selection_extraction,1,56,1.8,1,56,1.8
+unknown_books,Henrion,proposition_ordering_reduction,1,56,1.8,1,56,1.8
+unknown_books,Henrion,proposition_explanation_commentary,1,56,1.8,1,56,1.8
+unknown_books,Henrion,demonstration_any,5,56,8.9,5,56,8.9
+unknown_books,Henrion,demonstration_easy_clear,3,56,5.4,3,56,5.4
+unknown_books,Henrion,demonstration_new,0,56,0.0,0,56,0.0
+unknown_books,Henrion,demonstration_order_method,0,56,0.0,0,56,0.0
+unknown_books,Henrion,demonstration_adapted_to_capacity,0,56,0.0,0,56,0.0
+unknown_books,Henrion,proposition_and_demonstration,1,56,1.8,1,56,1.8
+unknown_books,Clavius,proposition_any,3,56,5.4,3,56,5.4
+unknown_books,Clavius,proposition_use_application,0,56,0.0,0,56,0.0
+unknown_books,Clavius,proposition_selection_extraction,1,56,1.8,1,56,1.8
+unknown_books,Clavius,proposition_ordering_reduction,1,56,1.8,1,56,1.8
+unknown_books,Clavius,proposition_explanation_commentary,1,56,1.8,1,56,1.8
+unknown_books,Clavius,demonstration_any,5,56,8.9,5,56,8.9
+unknown_books,Clavius,demonstration_easy_clear,3,56,5.4,3,56,5.4
+unknown_books,Clavius,demonstration_new,0,56,0.0,0,56,0.0
+unknown_books,Clavius,demonstration_order_method,0,56,0.0,0,56,0.0
+unknown_books,Clavius,demonstration_adapted_to_capacity,0,56,0.0,0,56,0.0
+unknown_books,Clavius,proposition_and_demonstration,1,56,1.8,1,56,1.8
+unknown_books,Dechales/Reeve/Williams; Tacquet,proposition_any,3,56,5.4,3,56,5.4
+unknown_books,Dechales/Reeve/Williams; Tacquet,proposition_use_application,0,56,0.0,0,56,0.0
+unknown_books,Dechales/Reeve/Williams; Tacquet,proposition_selection_extraction,1,56,1.8,1,56,1.8
+unknown_books,Dechales/Reeve/Williams; Tacquet,proposition_ordering_reduction,1,56,1.8,1,56,1.8
+unknown_books,Dechales/Reeve/Williams; Tacquet,proposition_explanation_commentary,1,56,1.8,1,56,1.8
+unknown_books,Dechales/Reeve/Williams; Tacquet,demonstration_any,5,56,8.9,5,56,8.9
+unknown_books,Dechales/Reeve/Williams; Tacquet,demonstration_easy_clear,3,56,5.4,3,56,5.4
+unknown_books,Dechales/Reeve/Williams; Tacquet,demonstration_new,0,56,0.0,0,56,0.0
+unknown_books,Dechales/Reeve/Williams; Tacquet,demonstration_order_method,0,56,0.0,0,56,0.0
+unknown_books,Dechales/Reeve/Williams; Tacquet,demonstration_adapted_to_capacity,0,56,0.0,0,56,0.0
+unknown_books,Dechales/Reeve/Williams; Tacquet,proposition_and_demonstration,1,56,1.8,1,56,1.8

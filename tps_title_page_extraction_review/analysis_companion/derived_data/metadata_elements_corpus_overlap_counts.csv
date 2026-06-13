@@ -1,0 +1,13 @@
+category,count,pct_of_representatives,pct_of_metadata_elements_representatives
+all representatives in title-page analysis corpus,843,100.0,
+metadata Elements edition keys total,321,,
+metadata Elements edition keys present in title-page corpus,320,,
+metadata Elements edition keys not in title-page corpus,1,,
+metadata Elements representatives in title-page corpus,286,33.9,100.0
+title-page Euclid/Elements signal,332,39.4,116.1
+both metadata Elements and title-page signal,254,30.1,88.8
+metadata Elements without title-page signal,32,3.8,11.2
+title-page signal but not metadata Elements,78,9.3,27.3
+metadata Elements with no primary subject,88,10.4,30.8
+metadata Elements with Geometry/Theory primary,179,21.2,62.6
+metadata Elements with Practical Geometry primary,18,2.1,6.3

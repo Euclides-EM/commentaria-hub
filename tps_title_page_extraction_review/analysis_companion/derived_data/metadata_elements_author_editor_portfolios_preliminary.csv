@@ -1,0 +1,69 @@
+author_or_editor,total_reps_in_titlepage_corpus,metadata_elements_reps,non_elements_reps,cities,languages,formats,elements_bookgroups,sparse/canonical_elements_count,pedagogical/method_elements_count,vernacular/transfer_elements_count,institutional/authority_elements_count,composite/apparatus_elements_count,practical/public_elements_count,corrected/updated_elements_count,humanist/ancient_elements_count,claim_method_demonstration_order_elements_pct,claim_method_demonstration_order_non_elements_pct,claim_accessibility_clarity_pedagogy_elements_pct,claim_accessibility_clarity_pedagogy_non_elements_pct,claim_utility_practice_application_elements_pct,claim_utility_practice_application_non_elements_pct,claim_correction_revision_accuracy_elements_pct,claim_correction_revision_accuracy_non_elements_pct,claim_augmentation_enrichment_composition_elements_pct,claim_augmentation_enrichment_composition_non_elements_pct,religious_institutional_arena_elements_pct,religious_institutional_arena_non_elements_pct,military_fortification_arena_elements_pct,military_fortification_arena_non_elements_pct,pedagogical_school_arena_elements_pct,pedagogical_school_arena_non_elements_pct
+Claude-François Milliet Dechales,14,13,1,"Amsterdam | Lausanne | London | Lyon | Oxford | Oxford, London | Paris",ENGLISH | FRENCH | LATIN,12 | 18 | 4 | 6 | 8,books_1_6_plus_solids,2,11,3,13,9,10,9,13,69.2,0.0,69.2,0.0,61.5,0.0,30.8,0.0,38.5,100.0,76.9,100.0,0.0,0.0,0.0,0.0
+Jan Pietersz Dou,11,10,1,Amsterdam | Dordrecht | Leiden | Rotterdam,DUTCH,4 | 8,books_1_6,0,10,2,10,10,9,8,10,100.0,0.0,50.0,0.0,40.0,0.0,80.0,0.0,80.0,0.0,0.0,0.0,0.0,0.0,50.0,0.0
+Denis Henrion,26,9,17,"Lyon | Paris | Rouen | Rouen, Paris",FRENCH,4 | 8,books_1_6 | near_complete_or_expanded,0,9,8,9,8,3,7,9,0.0,17.6,33.3,5.9,0.0,29.4,77.8,17.6,88.9,41.2,0.0,0.0,0.0,0.0,0.0,0.0
+Conrad Dasypodius,9,9,0,Strasbourg,"GREEK, LATIN | LATIN",4 | 8,near_complete_or_expanded | selected_later_books | unknown_books,3,7,8,5,8,0,4,8,55.6,,0.0,,0.0,,0.0,,22.2,,0.0,,0.0,,44.4,
+Isaac Barrow,9,9,0,Cambridge | London | Osnabrück,ENGLISH | LATIN,12 | 6 | 8,near_complete_or_expanded | selected_later_books | unknown_books,0,9,3,9,6,1,5,9,100.0,,11.1,,0.0,,33.3,,22.2,,0.0,,0.0,,11.1,
+André Tacquet,7,7,0,Amsterdam | Antwerp | Leuven | Padua,LATIN,8,books_1_6_plus_solids | unknown_books,0,7,0,7,6,0,4,6,85.7,,0.0,,0.0,,28.6,,14.3,,100.0,,0.0,,100.0,
+"Jean Magnien, Étienne Gracile",7,7,0,Cologne | Paris,LATIN,8,near_complete_or_expanded | near_complete_or_expanded_enunciations | unknown_books,0,7,3,2,6,4,2,7,0.0,,57.1,,0.0,,28.6,,57.1,,0.0,,0.0,,0.0,
+Johannes de Sacrobosco,7,7,0,Paris,LATIN,2,unknown_books,0,7,0,7,7,1,5,7,0.0,,0.0,,14.3,,0.0,,100.0,,0.0,,0.0,,100.0,
+Christopher Clavius,10,6,4,Cologne | Frankfurt | Mainz | Rome,LATIN,2 | 4 | 8,near_complete_or_expanded,0,6,0,6,6,1,6,6,83.3,25.0,0.0,0.0,0.0,0.0,100.0,0.0,83.3,50.0,100.0,75.0,0.0,0.0,0.0,0.0
+Georges Fournier,6,5,1,Cambridge | London | Paris,FRENCH | LATIN,12 | 8,books_1_6,1,4,0,5,2,0,4,5,80.0,0.0,0.0,0.0,0.0,100.0,60.0,0.0,20.0,0.0,80.0,0.0,0.0,0.0,20.0,0.0
+Pierre Forcadel,17,4,13,Paris,FRENCH,4 | 8,books_1_6 | selected_later_books | unknown_books,1,3,2,3,3,3,1,3,0.0,38.5,0.0,7.7,0.0,7.7,0.0,7.7,50.0,30.8,0.0,0.0,0.0,0.0,75.0,53.8
+Pierre Hérigone,5,4,1,Paris,"FRENCH | FRENCH, LATIN | LATIN",8,books_1_6 | near_complete_or_expanded,0,4,0,4,4,0,0,2,100.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0
+Christoffer Dybvad,4,4,0,Arnhem | Lyon,LATIN,4,books_1_6 | selected_later_books,2,3,0,2,0,0,0,3,75.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,
+Jean de la Pène,4,4,0,Leiden | Paris,"GREEK, LATIN | LATIN",4,unknown_books,0,1,4,4,4,0,2,4,0.0,,0.0,,0.0,,0.0,,75.0,,100.0,,0.0,,0.0,
+Pierre Le Mardelé,4,4,0,Lyon | Paris,"FRENCH | FRENCH, LATIN",8,near_complete_or_expanded,0,4,4,4,4,0,4,4,100.0,,0.0,,0.0,,100.0,,100.0,,100.0,,0.0,,0.0,
+Jean Errard,7,3,4,Paris,FRENCH,4 | 8,books_1_6 | partial_from_book_1,0,3,0,3,3,3,2,3,0.0,0.0,0.0,0.0,0.0,0.0,66.7,50.0,100.0,50.0,0.0,0.0,0.0,0.0,0.0,0.0
+Jacques Ozanam,6,3,3,Amsterdam | Paris,"FRENCH | FRENCH, LATIN",8,books_1_6_plus_solids,0,0,0,3,0,3,2,2,0.0,33.3,0.0,33.3,0.0,33.3,66.7,33.3,0.0,33.3,0.0,0.0,100.0,0.0,0.0,0.0
+Antonio Possevino,3,3,0,Cologne | Rome | Venice,LATIN,2,unknown_books,0,0,0,3,3,0,2,0,0.0,,0.0,,0.0,,66.7,,66.7,,100.0,,0.0,,0.0,
+Caterino Doino,3,3,0,Ferrara | Venice,LATIN,12 | 8,books_1_6,1,0,0,1,1,0,0,2,0.0,,0.0,,0.0,,0.0,,33.3,,0.0,,0.0,,0.0,
+François de Foix-Candale,3,3,0,Cologne | Paris,LATIN,2,near_complete_or_expanded,0,3,2,3,3,0,2,3,33.3,,0.0,,0.0,,0.0,,100.0,,0.0,,0.0,,0.0,
+Gaspar Schott,3,3,0,Bamberg | Frankfurt | Würzburg,LATIN,2,books_1_6,0,3,0,3,3,0,0,0,100.0,,0.0,,0.0,,0.0,,100.0,,100.0,,0.0,,66.7,
+Giorgio Valla,3,3,0,Venice,LATIN,2,selected_later_books | unknown_books,1,1,0,1,3,2,0,3,33.3,,0.0,,33.3,,0.0,,66.7,,0.0,,0.0,,0.0,
+Giovanni Ricci,3,3,0,Bologna,ITALIAN,8,books_1_6,3,0,3,3,0,0,1,3,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,
+Jacob Willemsz,3,3,0,Amsterdam | Hamburg,DUTCH,4,books_1_6,1,2,3,2,0,0,0,1,66.7,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,
+Pierre de la Ramée,7,2,5,Basel | Frankfurt | Paris,LATIN,8,near_complete_or_expanded | unknown_books,2,0,0,0,0,0,0,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0
+Oronce Finé,6,2,4,Paris | Strasbourg | Venice,"FRENCH | ITALIAN | LATIN | LATIN, GREEK",2,books_1_6,0,2,2,2,2,0,2,2,100.0,25.0,0.0,0.0,0.0,75.0,100.0,0.0,0.0,25.0,0.0,0.0,0.0,0.0,50.0,100.0
+Niccolò Tartaglia,5,2,3,Paris | Venice,FRENCH | ITALIAN | LATIN,2 | 8,near_complete_or_expanded,0,2,2,2,2,0,2,2,0.0,0.0,0.0,0.0,0.0,33.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0
+Frans van Schooten,3,2,1,Amsterdam | Leiden,DUTCH | LATIN,12,near_complete_or_expanded_enunciations,0,2,2,2,2,1,1,2,0.0,0.0,50.0,0.0,0.0,100.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,100.0,0.0
+Giovanni Alfonso Borelli,3,2,1,Bologna | Rome,ITALIAN | LATIN,12 | 4,books_1_13 | partial_from_book_1,0,2,0,2,2,2,2,2,50.0,100.0,100.0,100.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,50.0,0.0
+Honorat de Meynier,3,2,1,Paris,FRENCH,12 | 4 | 8,selected_later_books | unknown_books,0,1,0,2,2,0,1,2,50.0,100.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ambrosius Rhode,2,2,0,Wittenberg,LATIN,8,books_1_13,0,2,0,2,0,2,2,2,100.0,,0.0,,0.0,,100.0,,0.0,,0.0,,0.0,,100.0,
+Angelo Caiani,2,2,0,Rome,"GREEK, LATIN | LATIN",8,near_complete_or_expanded | unknown_books,2,0,1,0,0,0,0,2,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,
+Anton Ernst Burckhard von Pirckenstein,2,2,0,"Lübeck, Frankfurt | Vienna",GERMAN,4,books_1_6_plus_solids,0,0,2,0,0,2,0,2,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,100.0,,0.0,
+Bartolomeo Zamberti,2,2,0,Basel | Venice,LATIN,2 | 4,near_complete_or_expanded,0,2,2,1,2,1,2,2,50.0,,0.0,,0.0,,50.0,,100.0,,0.0,,0.0,,0.0,
+Charles Malapert de Mons,2,2,0,Douai,LATIN,12 | 8,books_1_6,0,2,0,2,2,2,1,2,100.0,,100.0,,0.0,,50.0,,0.0,,100.0,,0.0,,0.0,
+"Christopher Clavius, Christoph Grienberger",2,2,0,Rome,LATIN,12,books_1_6,0,2,0,2,2,0,2,2,0.0,,0.0,,0.0,,0.0,,100.0,,100.0,,0.0,,0.0,
+"Claude-François Milliet Dechales, Reeve Williams",2,2,0,London,ENGLISH,12,books_1_6_plus_solids,0,2,2,2,2,2,2,2,100.0,,100.0,,0.0,,100.0,,100.0,,100.0,,0.0,,0.0,
+Didier Dounot,2,2,0,Paris,FRENCH,4,near_complete_or_expanded,0,2,2,2,2,2,2,2,100.0,,100.0,,0.0,,50.0,,50.0,,0.0,,0.0,,100.0,
+Elias Astorinus,2,2,0,Naples | Siena,LATIN,12 | 8,near_complete_or_expanded,0,2,0,2,0,1,1,2,100.0,,50.0,,0.0,,50.0,,0.0,,0.0,,0.0,,50.0,
+"Federico Commandino, Valerio Spacciuoli",2,2,0,Pesaro | Urbino,ITALIAN | LATIN,2,near_complete_or_expanded,0,2,2,2,2,0,2,2,50.0,,0.0,,0.0,,0.0,,100.0,,0.0,,0.0,,0.0,
+Francesco Maurolico,2,2,0,Messina | Venice,LATIN,2 | 4,selected_later_books | unknown_books,0,1,0,0,2,1,2,1,50.0,,50.0,,0.0,,50.0,,50.0,,0.0,,0.0,,0.0,
+Guiseppe Auria,2,2,0,Rome,LATIN,4,unknown_books,0,2,2,2,2,2,2,2,0.0,,100.0,,0.0,,0.0,,50.0,,0.0,,0.0,,0.0,
+Henrick Coets,2,2,0,Amsterdam | Leiden,DUTCH | LATIN,4 | 8,books_1_6 | selected_later_books,0,2,0,2,1,0,1,2,100.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,50.0,
+"Jan Pietersz Dou, Sebastian Curtius",2,2,0,Amsterdam,"GERMAN | GERMAN, LATIN",4 | 8,books_1_6,0,2,2,2,2,0,2,2,100.0,,0.0,,0.0,,0.0,,50.0,,0.0,,0.0,,0.0,
+Johannes Scheubel,2,2,0,Augsburg | Basel,GERMAN | LATIN,2 | 4,books_1_6 | selected_later_books,0,2,2,2,2,1,0,2,100.0,,0.0,,50.0,,0.0,,50.0,,0.0,,0.0,,50.0,
+Pierre de Montdoré,2,2,0,Paris,LATIN,4,selected_later_books,0,0,0,2,0,0,0,2,0.0,,0.0,,0.0,,0.0,,0.0,,100.0,,0.0,,0.0,
+Pietro Paolo Caravaggi,2,2,0,Milan,ITALIAN,12 | 6,books_1_6,2,0,1,0,0,0,0,2,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,
+Robert Simson,2,2,0,Glasgow,ENGLISH | LATIN,4,books_1_6 | books_1_6_plus_solids,0,2,1,2,1,0,2,2,50.0,,0.0,,0.0,,50.0,,50.0,,0.0,,0.0,,100.0,
+Samuel Reyher,2,2,0,"Hamburg, Leipzig | Kiel, Leipzig",GERMAN,4,books_1_6,0,2,2,2,2,0,0,2,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,0.0,,100.0,
+Sebastián Fernández de Medrano,2,2,0,Brussels,SPANISH,8,books_1_6_plus_solids,0,2,0,2,2,2,0,2,50.0,,50.0,,50.0,,0.0,,50.0,,0.0,,100.0,,50.0,
+Thomas Simpson,2,2,0,London,ENGLISH,8,books_1_6 | unknown_books,0,2,0,2,2,2,1,0,0.0,,50.0,,0.0,,0.0,,100.0,,0.0,,0.0,,100.0,
+Marin Mersenne,16,1,15,Paris,FRENCH | LATIN,4,near_complete_or_expanded_enunciations,0,0,0,1,1,0,0,0,0.0,6.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.3,0.0,6.7,0.0,0.0,0.0,0.0
+Claude Hardy,9,1,8,Paris,"FRENCH | GREEK, LATIN",4,unknown_books,0,1,1,1,1,0,1,1,0.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Simon Stevin,7,1,6,Antwerp | Leiden,DUTCH | FRENCH | LATIN,2,unknown_books,0,0,0,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.7,0.0,50.0,0.0,0.0,100.0,0.0,0.0,0.0
+Jacques Lefèvre d'Étaples,4,1,3,Paris,LATIN,2,near_complete_or_expanded,0,1,0,1,1,0,0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.3,100.0,33.3,0.0,0.0,0.0,0.0,0.0,0.0
+Jacques Peletier,4,1,3,Lyon | Paris,FRENCH | LATIN,4,books_1_6,0,1,1,1,1,0,1,1,100.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,100.0,33.3,100.0,0.0,0.0,0.0,0.0,0.0
+Bernard Lamy,3,1,2,Paris,FRENCH,12 | 8,partial_from_book_1,0,1,0,1,0,0,0,1,100.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Honoré Fabri,3,1,2,Lyon | Rome,LATIN,12,unknown_books,1,0,0,1,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,0.0,0.0,0.0,0.0
+Pierre Bourdín,3,1,2,Paris,FRENCH,12,unknown_books,0,1,0,1,0,1,0,1,100.0,0.0,100.0,0.0,0.0,50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Erhard Ratdolt,2,1,1,Augsburg | Venice,LATIN,2 | 4,near_complete_or_expanded,1,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Federico Commandino,2,1,1,Pesaro | Venice,LATIN,2,near_complete_or_expanded,0,1,1,1,1,0,1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Geminiano Rondelli,2,1,1,Bologna,LATIN,,books_1_6,1,0,0,1,1,0,1,1,0.0,100.0,0.0,100.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Jean Prestet,2,1,1,Paris,FRENCH,4,partial_from_book_1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0
+Luca Pacioli,2,1,1,Venice,LATIN,2,near_complete_or_expanded,0,1,0,1,1,0,1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+Lucas Brunn,2,1,1,"Nuremberg | Nuremberg, Leipzig",GERMAN,2 | 4,near_complete_or_expanded,0,1,1,1,1,1,0,1,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pietro Antonio Cataldi,2,1,1,Bologna,ITALIAN,,books_1_6,1,0,0,0,0,1,0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Robert Recorde,2,1,1,London,ENGLISH,4,unknown_books,1,0,0,0,0,1,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Thomas Rudd,2,1,1,London,ENGLISH,4,books_1_6,0,1,0,1,1,1,0,1,100.0,100.0,0.0,0.0,0.0,100.0,0.0,0.0,100.0,100.0,0.0,0.0,100.0,0.0,0.0,100.0

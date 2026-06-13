@@ -1,0 +1,209 @@
+group,marker,count,denominator,pct
+books_1_13,Canonical/textual identity,5,5,100.0
+books_1_13,Method/demonstration/order,2,5,40.0
+books_1_13,Access/clarity/pedagogy,1,5,20.0
+books_1_13,Utility/practice/application,0,5,0.0
+books_1_13,Correction/revision,2,5,40.0
+books_1_13,Augmentation/composition,1,5,20.0
+books_1_13,Translation/transfer,0,5,0.0
+books_1_13,Ancient authority/restoration,5,5,100.0
+books_1_13,Novelty/modernity,1,5,20.0
+books_1_13,Visual aids,0,5,0.0
+books_1_13,Completeness/system,1,5,20.0
+books_1_13,Selection/extraction,0,5,0.0
+books_1_13,Students/learners,0,5,0.0
+books_1_13,General readers/lovers,0,5,0.0
+books_1_13,Surveyors/engineers,0,5,0.0
+books_1_13,Military users,0,5,0.0
+books_1_13,Universities/academies,0,5,0.0
+books_1_13,Jesuit,0,5,0.0
+books_1_13,Math professor/lecturer,0,5,0.0
+books_1_13,Any named deductive part,3,5,60.0
+books_1_13,Demonstrations/proofs,2,5,40.0
+books_1_13,Propositions,0,5,0.0
+books_1_13,Scholia/commentary,0,5,0.0
+books_1_13,Figures/diagrams,0,5,0.0
+books_1_13,Problems,0,5,0.0
+books_1_13,Operations/constructions,0,5,0.0
+books_1_6,Canonical/textual identity,71,81,87.7
+books_1_6,Method/demonstration/order,39,81,48.1
+books_1_6,Access/clarity/pedagogy,10,81,12.3
+books_1_6,Utility/practice/application,5,81,6.2
+books_1_6,Correction/revision,18,81,22.2
+books_1_6,Augmentation/composition,34,81,42.0
+books_1_6,Translation/transfer,17,81,21.0
+books_1_6,Ancient authority/restoration,67,81,82.7
+books_1_6,Novelty/modernity,10,81,12.3
+books_1_6,Visual aids,11,81,13.6
+books_1_6,Completeness/system,5,81,6.2
+books_1_6,Selection/extraction,26,81,32.1
+books_1_6,Students/learners,9,81,11.1
+books_1_6,General readers/lovers,0,81,0.0
+books_1_6,Surveyors/engineers,0,81,0.0
+books_1_6,Military users,0,81,0.0
+books_1_6,Universities/academies,0,81,0.0
+books_1_6,Jesuit,6,81,7.4
+books_1_6,Math professor/lecturer,5,81,6.2
+books_1_6,Any named deductive part,51,81,63.0
+books_1_6,Demonstrations/proofs,20,81,24.7
+books_1_6,Propositions,1,81,1.2
+books_1_6,Scholia/commentary,8,81,9.9
+books_1_6,Figures/diagrams,10,81,12.3
+books_1_6,Problems,1,81,1.2
+books_1_6,Operations/constructions,1,81,1.2
+books_1_6_plus_solids,Canonical/textual identity,38,39,97.4
+books_1_6_plus_solids,Method/demonstration/order,25,39,64.1
+books_1_6_plus_solids,Access/clarity/pedagogy,14,39,35.9
+books_1_6_plus_solids,Utility/practice/application,11,39,28.2
+books_1_6_plus_solids,Correction/revision,12,39,30.8
+books_1_6_plus_solids,Augmentation/composition,10,39,25.6
+books_1_6_plus_solids,Translation/transfer,1,39,2.6
+books_1_6_plus_solids,Ancient authority/restoration,38,39,97.4
+books_1_6_plus_solids,Novelty/modernity,9,39,23.1
+books_1_6_plus_solids,Visual aids,4,39,10.3
+books_1_6_plus_solids,Completeness/system,8,39,20.5
+books_1_6_plus_solids,Selection/extraction,7,39,17.9
+books_1_6_plus_solids,Students/learners,1,39,2.6
+books_1_6_plus_solids,General readers/lovers,8,39,20.5
+books_1_6_plus_solids,Surveyors/engineers,0,39,0.0
+books_1_6_plus_solids,Military users,3,39,7.7
+books_1_6_plus_solids,Universities/academies,1,39,2.6
+books_1_6_plus_solids,Jesuit,13,39,33.3
+books_1_6_plus_solids,Math professor/lecturer,6,39,15.4
+books_1_6_plus_solids,Any named deductive part,24,39,61.5
+books_1_6_plus_solids,Demonstrations/proofs,5,39,12.8
+books_1_6_plus_solids,Propositions,14,39,35.9
+books_1_6_plus_solids,Scholia/commentary,0,39,0.0
+books_1_6_plus_solids,Figures/diagrams,1,39,2.6
+books_1_6_plus_solids,Problems,0,39,0.0
+books_1_6_plus_solids,Operations/constructions,0,39,0.0
+near_complete_or_expanded,Canonical/textual identity,63,67,94.0
+near_complete_or_expanded,Method/demonstration/order,33,67,49.3
+near_complete_or_expanded,Access/clarity/pedagogy,9,67,13.4
+near_complete_or_expanded,Utility/practice/application,1,67,1.5
+near_complete_or_expanded,Correction/revision,23,67,34.3
+near_complete_or_expanded,Augmentation/composition,37,67,55.2
+near_complete_or_expanded,Translation/transfer,28,67,41.8
+near_complete_or_expanded,Ancient authority/restoration,62,67,92.5
+near_complete_or_expanded,Novelty/modernity,2,67,3.0
+near_complete_or_expanded,Visual aids,17,67,25.4
+near_complete_or_expanded,Completeness/system,23,67,34.3
+near_complete_or_expanded,Selection/extraction,7,67,10.4
+near_complete_or_expanded,Students/learners,0,67,0.0
+near_complete_or_expanded,General readers/lovers,2,67,3.0
+near_complete_or_expanded,Surveyors/engineers,0,67,0.0
+near_complete_or_expanded,Military users,0,67,0.0
+near_complete_or_expanded,Universities/academies,1,67,1.5
+near_complete_or_expanded,Jesuit,3,67,4.5
+near_complete_or_expanded,Math professor/lecturer,10,67,14.9
+near_complete_or_expanded,Any named deductive part,41,67,61.2
+near_complete_or_expanded,Demonstrations/proofs,23,67,34.3
+near_complete_or_expanded,Propositions,6,67,9.0
+near_complete_or_expanded,Scholia/commentary,16,67,23.9
+near_complete_or_expanded,Figures/diagrams,9,67,13.4
+near_complete_or_expanded,Problems,1,67,1.5
+near_complete_or_expanded,Operations/constructions,0,67,0.0
+near_complete_or_expanded_enunciations,Canonical/textual identity,6,7,85.7
+near_complete_or_expanded_enunciations,Method/demonstration/order,0,7,0.0
+near_complete_or_expanded_enunciations,Access/clarity/pedagogy,4,7,57.1
+near_complete_or_expanded_enunciations,Utility/practice/application,0,7,0.0
+near_complete_or_expanded_enunciations,Correction/revision,1,7,14.3
+near_complete_or_expanded_enunciations,Augmentation/composition,4,7,57.1
+near_complete_or_expanded_enunciations,Translation/transfer,4,7,57.1
+near_complete_or_expanded_enunciations,Ancient authority/restoration,6,7,85.7
+near_complete_or_expanded_enunciations,Novelty/modernity,0,7,0.0
+near_complete_or_expanded_enunciations,Visual aids,0,7,0.0
+near_complete_or_expanded_enunciations,Completeness/system,4,7,57.1
+near_complete_or_expanded_enunciations,Selection/extraction,2,7,28.6
+near_complete_or_expanded_enunciations,Students/learners,0,7,0.0
+near_complete_or_expanded_enunciations,General readers/lovers,0,7,0.0
+near_complete_or_expanded_enunciations,Surveyors/engineers,0,7,0.0
+near_complete_or_expanded_enunciations,Military users,0,7,0.0
+near_complete_or_expanded_enunciations,Universities/academies,1,7,14.3
+near_complete_or_expanded_enunciations,Jesuit,1,7,14.3
+near_complete_or_expanded_enunciations,Math professor/lecturer,1,7,14.3
+near_complete_or_expanded_enunciations,Any named deductive part,3,7,42.9
+near_complete_or_expanded_enunciations,Demonstrations/proofs,0,7,0.0
+near_complete_or_expanded_enunciations,Propositions,2,7,28.6
+near_complete_or_expanded_enunciations,Scholia/commentary,0,7,0.0
+near_complete_or_expanded_enunciations,Figures/diagrams,0,7,0.0
+near_complete_or_expanded_enunciations,Problems,0,7,0.0
+near_complete_or_expanded_enunciations,Operations/constructions,0,7,0.0
+partial_from_book_1,Canonical/textual identity,5,8,62.5
+partial_from_book_1,Method/demonstration/order,2,8,25.0
+partial_from_book_1,Access/clarity/pedagogy,1,8,12.5
+partial_from_book_1,Utility/practice/application,0,8,0.0
+partial_from_book_1,Correction/revision,3,8,37.5
+partial_from_book_1,Augmentation/composition,4,8,50.0
+partial_from_book_1,Translation/transfer,1,8,12.5
+partial_from_book_1,Ancient authority/restoration,5,8,62.5
+partial_from_book_1,Novelty/modernity,1,8,12.5
+partial_from_book_1,Visual aids,0,8,0.0
+partial_from_book_1,Completeness/system,2,8,25.0
+partial_from_book_1,Selection/extraction,2,8,25.0
+partial_from_book_1,Students/learners,0,8,0.0
+partial_from_book_1,General readers/lovers,0,8,0.0
+partial_from_book_1,Surveyors/engineers,0,8,0.0
+partial_from_book_1,Military users,0,8,0.0
+partial_from_book_1,Universities/academies,0,8,0.0
+partial_from_book_1,Jesuit,0,8,0.0
+partial_from_book_1,Math professor/lecturer,0,8,0.0
+partial_from_book_1,Any named deductive part,7,8,87.5
+partial_from_book_1,Demonstrations/proofs,1,8,12.5
+partial_from_book_1,Propositions,2,8,25.0
+partial_from_book_1,Scholia/commentary,2,8,25.0
+partial_from_book_1,Figures/diagrams,0,8,0.0
+partial_from_book_1,Problems,0,8,0.0
+partial_from_book_1,Operations/constructions,0,8,0.0
+selected_later_books,Canonical/textual identity,18,21,85.7
+selected_later_books,Method/demonstration/order,8,21,38.1
+selected_later_books,Access/clarity/pedagogy,0,21,0.0
+selected_later_books,Utility/practice/application,1,21,4.8
+selected_later_books,Correction/revision,1,21,4.8
+selected_later_books,Augmentation/composition,5,21,23.8
+selected_later_books,Translation/transfer,5,21,23.8
+selected_later_books,Ancient authority/restoration,17,21,81.0
+selected_later_books,Novelty/modernity,1,21,4.8
+selected_later_books,Visual aids,2,21,9.5
+selected_later_books,Completeness/system,1,21,4.8
+selected_later_books,Selection/extraction,1,21,4.8
+selected_later_books,Students/learners,0,21,0.0
+selected_later_books,General readers/lovers,1,21,4.8
+selected_later_books,Surveyors/engineers,0,21,0.0
+selected_later_books,Military users,0,21,0.0
+selected_later_books,Universities/academies,0,21,0.0
+selected_later_books,Jesuit,0,21,0.0
+selected_later_books,Math professor/lecturer,2,21,9.5
+selected_later_books,Any named deductive part,9,21,42.9
+selected_later_books,Demonstrations/proofs,4,21,19.0
+selected_later_books,Propositions,1,21,4.8
+selected_later_books,Scholia/commentary,3,21,14.3
+selected_later_books,Figures/diagrams,0,21,0.0
+selected_later_books,Problems,0,21,0.0
+selected_later_books,Operations/constructions,1,21,4.8
+unknown_books,Canonical/textual identity,40,56,71.4
+unknown_books,Method/demonstration/order,11,56,19.6
+unknown_books,Access/clarity/pedagogy,6,56,10.7
+unknown_books,Utility/practice/application,3,56,5.4
+unknown_books,Correction/revision,6,56,10.7
+unknown_books,Augmentation/composition,22,56,39.3
+unknown_books,Translation/transfer,18,56,32.1
+unknown_books,Ancient authority/restoration,36,56,64.3
+unknown_books,Novelty/modernity,3,56,5.4
+unknown_books,Visual aids,11,56,19.6
+unknown_books,Completeness/system,4,56,7.1
+unknown_books,Selection/extraction,6,56,10.7
+unknown_books,Students/learners,0,56,0.0
+unknown_books,General readers/lovers,0,56,0.0
+unknown_books,Surveyors/engineers,0,56,0.0
+unknown_books,Military users,0,56,0.0
+unknown_books,Universities/academies,2,56,3.6
+unknown_books,Jesuit,2,56,3.6
+unknown_books,Math professor/lecturer,2,56,3.6
+unknown_books,Any named deductive part,27,56,48.2
+unknown_books,Demonstrations/proofs,5,56,8.9
+unknown_books,Propositions,3,56,5.4
+unknown_books,Scholia/commentary,10,56,17.9
+unknown_books,Figures/diagrams,1,56,1.8
+unknown_books,Problems,2,56,3.6
+unknown_books,Operations/constructions,1,56,1.8

@@ -1,0 +1,225 @@
+family,metric,label,group,n,count,pct
+subject,Practical Geometry_present,Practical Geometry class present,plus_1_6_11_12,39,8,20.5
+subject,Practical Geometry_present,Practical Geometry class present,plain_1_6,81,16,19.8
+subject,Practical Geometry_present,Practical Geometry class present,other_metadata_elements,247,28,11.3
+subject,Practical Geometry_present,Practical Geometry class present,nonmetadata_practical_geometry,260,260,100.0
+subject,Practical Geometry_present,Practical Geometry class present,nonmetadata_military_applied,89,53,59.6
+subject,Practical Geometry_present,Practical Geometry class present,nonmetadata_practical_or_military,296,260,87.8
+subject,Practical Geometry_present,Practical Geometry class present,all_nonmetadata,557,260,46.7
+subject,Theoretical Mathematics_present,Theoretical Mathematics class present,plus_1_6_11_12,39,22,56.4
+subject,Theoretical Mathematics_present,Theoretical Mathematics class present,plain_1_6,81,43,53.1
+subject,Theoretical Mathematics_present,Theoretical Mathematics class present,other_metadata_elements,247,166,67.2
+subject,Theoretical Mathematics_present,Theoretical Mathematics class present,nonmetadata_practical_geometry,260,70,26.9
+subject,Theoretical Mathematics_present,Theoretical Mathematics class present,nonmetadata_military_applied,89,20,22.5
+subject,Theoretical Mathematics_present,Theoretical Mathematics class present,nonmetadata_practical_or_military,296,74,25.0
+subject,Theoretical Mathematics_present,Theoretical Mathematics class present,all_nonmetadata,557,168,30.2
+subject,Geometry/Theory_present,Geometry/Theory family present,plus_1_6_11_12,39,27,69.2
+subject,Geometry/Theory_present,Geometry/Theory family present,plain_1_6,81,51,63.0
+subject,Geometry/Theory_present,Geometry/Theory family present,other_metadata_elements,247,179,72.5
+subject,Geometry/Theory_present,Geometry/Theory family present,nonmetadata_practical_geometry,260,260,100.0
+subject,Geometry/Theory_present,Geometry/Theory family present,nonmetadata_military_applied,89,58,65.2
+subject,Geometry/Theory_present,Geometry/Theory family present,nonmetadata_practical_or_military,296,265,89.5
+subject,Geometry/Theory_present,Geometry/Theory family present,all_nonmetadata,557,361,64.8
+subject,Applied Mechanics/Military_present,Applied Mechanics/Military family present,plus_1_6_11_12,39,4,10.3
+subject,Applied Mechanics/Military_present,Applied Mechanics/Military family present,plain_1_6,81,4,4.9
+subject,Applied Mechanics/Military_present,Applied Mechanics/Military family present,other_metadata_elements,247,10,4.0
+subject,Applied Mechanics/Military_present,Applied Mechanics/Military family present,nonmetadata_practical_geometry,260,47,18.1
+subject,Applied Mechanics/Military_present,Applied Mechanics/Military family present,nonmetadata_military_applied,89,81,91.0
+subject,Applied Mechanics/Military_present,Applied Mechanics/Military family present,nonmetadata_practical_or_military,296,81,27.4
+subject,Applied Mechanics/Military_present,Applied Mechanics/Military family present,all_nonmetadata,557,81,14.5
+subject,Military Engineering_present,Military Engineering class present,plus_1_6_11_12,39,0,0.0
+subject,Military Engineering_present,Military Engineering class present,plain_1_6,81,1,1.2
+subject,Military Engineering_present,Military Engineering class present,other_metadata_elements,247,4,1.6
+subject,Military Engineering_present,Military Engineering class present,nonmetadata_practical_geometry,260,32,12.3
+subject,Military Engineering_present,Military Engineering class present,nonmetadata_military_applied,89,48,53.9
+subject,Military Engineering_present,Military Engineering class present,nonmetadata_practical_or_military,296,48,16.2
+subject,Military Engineering_present,Military Engineering class present,all_nonmetadata,557,48,8.6
+subject,Perspective_present,Perspective class present,plus_1_6_11_12,39,0,0.0
+subject,Perspective_present,Perspective class present,plain_1_6,81,0,0.0
+subject,Perspective_present,Perspective class present,other_metadata_elements,247,7,2.8
+subject,Perspective_present,Perspective class present,nonmetadata_practical_geometry,260,44,16.9
+subject,Perspective_present,Perspective class present,nonmetadata_military_applied,89,12,13.5
+subject,Perspective_present,Perspective class present,nonmetadata_practical_or_military,296,49,16.6
+subject,Perspective_present,Perspective class present,all_nonmetadata,557,79,14.2
+subject,Architecture_present,Architecture class present,plus_1_6_11_12,39,1,2.6
+subject,Architecture_present,Architecture class present,plain_1_6,81,0,0.0
+subject,Architecture_present,Architecture class present,other_metadata_elements,247,2,0.8
+subject,Architecture_present,Architecture class present,nonmetadata_practical_geometry,260,62,23.8
+subject,Architecture_present,Architecture class present,nonmetadata_military_applied,89,23,25.8
+subject,Architecture_present,Architecture class present,nonmetadata_practical_or_military,296,70,23.6
+subject,Architecture_present,Architecture class present,all_nonmetadata,557,78,14.0
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,plus_1_6_11_12,39,26,66.7
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,plain_1_6,81,44,54.3
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,other_metadata_elements,247,137,55.5
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,nonmetadata_practical_geometry,260,37,14.2
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,nonmetadata_military_applied,89,10,11.2
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,nonmetadata_practical_or_military,296,40,13.5
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,all_nonmetadata,557,59,10.6
+archetype,utility_public_book,Utility public book,plus_1_6_11_12,39,10,25.6
+archetype,utility_public_book,Utility public book,plain_1_6,81,0,0.0
+archetype,utility_public_book,Utility public book,other_metadata_elements,247,3,1.2
+archetype,utility_public_book,Utility public book,nonmetadata_practical_geometry,260,41,15.8
+archetype,utility_public_book,Utility public book,nonmetadata_military_applied,89,16,18.0
+archetype,utility_public_book,Utility public book,nonmetadata_practical_or_military,296,44,14.9
+archetype,utility_public_book,Utility public book,all_nonmetadata,557,47,8.4
+archetype,method_access_book,Method/access book,plus_1_6_11_12,39,11,28.2
+archetype,method_access_book,Method/access book,plain_1_6,81,8,9.9
+archetype,method_access_book,Method/access book,other_metadata_elements,247,17,6.9
+archetype,method_access_book,Method/access book,nonmetadata_practical_geometry,260,14,5.4
+archetype,method_access_book,Method/access book,nonmetadata_military_applied,89,5,5.6
+archetype,method_access_book,Method/access book,nonmetadata_practical_or_military,296,15,5.1
+archetype,method_access_book,Method/access book,all_nonmetadata,557,24,4.3
+archetype,composite_workshop_book,Composite workshop book,plus_1_6_11_12,39,7,17.9
+archetype,composite_workshop_book,Composite workshop book,plain_1_6,81,29,35.8
+archetype,composite_workshop_book,Composite workshop book,other_metadata_elements,247,95,38.5
+archetype,composite_workshop_book,Composite workshop book,nonmetadata_practical_geometry,260,64,24.6
+archetype,composite_workshop_book,Composite workshop book,nonmetadata_military_applied,89,28,31.5
+archetype,composite_workshop_book,Composite workshop book,nonmetadata_practical_or_military,296,78,26.4
+archetype,composite_workshop_book,Composite workshop book,all_nonmetadata,557,141,25.3
+claim,claim_method_demonstration_order,Method/demonstration/order,plus_1_6_11_12,39,25,64.1
+claim,claim_method_demonstration_order,Method/demonstration/order,plain_1_6,81,39,48.1
+claim,claim_method_demonstration_order,Method/demonstration/order,other_metadata_elements,247,95,38.5
+claim,claim_method_demonstration_order,Method/demonstration/order,nonmetadata_practical_geometry,260,47,18.1
+claim,claim_method_demonstration_order,Method/demonstration/order,nonmetadata_military_applied,89,18,20.2
+claim,claim_method_demonstration_order,Method/demonstration/order,nonmetadata_practical_or_military,296,52,17.6
+claim,claim_method_demonstration_order,Method/demonstration/order,all_nonmetadata,557,91,16.3
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy,plus_1_6_11_12,39,14,35.9
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy,plain_1_6,81,10,12.3
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy,other_metadata_elements,247,31,12.6
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy,nonmetadata_practical_geometry,260,30,11.5
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy,nonmetadata_military_applied,89,9,10.1
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy,nonmetadata_practical_or_military,296,33,11.1
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy,all_nonmetadata,557,52,9.3
+claim,claim_utility_practice_application,Utility/practice/application,plus_1_6_11_12,39,11,28.2
+claim,claim_utility_practice_application,Utility/practice/application,plain_1_6,81,5,6.2
+claim,claim_utility_practice_application,Utility/practice/application,other_metadata_elements,247,11,4.5
+claim,claim_utility_practice_application,Utility/practice/application,nonmetadata_practical_geometry,260,72,27.7
+claim,claim_utility_practice_application,Utility/practice/application,nonmetadata_military_applied,89,32,36.0
+claim,claim_utility_practice_application,Utility/practice/application,nonmetadata_practical_or_military,296,81,27.4
+claim,claim_utility_practice_application,Utility/practice/application,all_nonmetadata,557,99,17.8
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy,plus_1_6_11_12,39,12,30.8
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy,plain_1_6,81,18,22.2
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy,other_metadata_elements,247,54,21.9
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy,nonmetadata_practical_geometry,260,28,10.8
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy,nonmetadata_military_applied,89,13,14.6
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy,nonmetadata_practical_or_military,296,34,11.5
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy,all_nonmetadata,557,64,11.5
+claim,claim_visual_material_aids,Visual/material aids,plus_1_6_11_12,39,4,10.3
+claim,claim_visual_material_aids,Visual/material aids,plain_1_6,81,11,13.6
+claim,claim_visual_material_aids,Visual/material aids,other_metadata_elements,247,41,16.6
+claim,claim_visual_material_aids,Visual/material aids,nonmetadata_practical_geometry,260,53,20.4
+claim,claim_visual_material_aids,Visual/material aids,nonmetadata_military_applied,89,20,22.5
+claim,claim_visual_material_aids,Visual/material aids,nonmetadata_practical_or_military,296,57,19.3
+claim,claim_visual_material_aids,Visual/material aids,all_nonmetadata,557,80,14.4
+claim,claim_augmentation_enrichment_composition,Augmentation/composition,plus_1_6_11_12,39,10,25.6
+claim,claim_augmentation_enrichment_composition,Augmentation/composition,plain_1_6,81,34,42.0
+claim,claim_augmentation_enrichment_composition,Augmentation/composition,other_metadata_elements,247,107,43.3
+claim,claim_augmentation_enrichment_composition,Augmentation/composition,nonmetadata_practical_geometry,260,73,28.1
+claim,claim_augmentation_enrichment_composition,Augmentation/composition,nonmetadata_military_applied,89,32,36.0
+claim,claim_augmentation_enrichment_composition,Augmentation/composition,nonmetadata_practical_or_military,296,89,30.1
+claim,claim_augmentation_enrichment_composition,Augmentation/composition,all_nonmetadata,557,160,28.7
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer,plus_1_6_11_12,39,1,2.6
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer,plain_1_6,81,17,21.0
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer,other_metadata_elements,247,74,30.0
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer,nonmetadata_practical_geometry,260,16,6.2
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer,nonmetadata_military_applied,89,7,7.9
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer,nonmetadata_practical_or_military,296,20,6.8
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer,all_nonmetadata,557,47,8.4
+social,military_fortification_arena,Military/fortification arena,plus_1_6_11_12,39,8,20.5
+social,military_fortification_arena,Military/fortification arena,plain_1_6,81,1,1.2
+social,military_fortification_arena,Military/fortification arena,other_metadata_elements,247,2,0.8
+social,military_fortification_arena,Military/fortification arena,nonmetadata_practical_geometry,260,9,3.5
+social,military_fortification_arena,Military/fortification arena,nonmetadata_military_applied,89,12,13.5
+social,military_fortification_arena,Military/fortification arena,nonmetadata_practical_or_military,296,12,4.1
+social,military_fortification_arena,Military/fortification arena,all_nonmetadata,557,12,2.2
+social,professional_practical_arena,Professional/practical arena,plus_1_6_11_12,39,1,2.6
+social,professional_practical_arena,Professional/practical arena,plain_1_6,81,7,8.6
+social,professional_practical_arena,Professional/practical arena,other_metadata_elements,247,11,4.5
+social,professional_practical_arena,Professional/practical arena,nonmetadata_practical_geometry,260,33,12.7
+social,professional_practical_arena,Professional/practical arena,nonmetadata_military_applied,89,13,14.6
+social,professional_practical_arena,Professional/practical arena,nonmetadata_practical_or_military,296,38,12.8
+social,professional_practical_arena,Professional/practical arena,all_nonmetadata,557,45,8.1
+social,pedagogical_school_arena,Pedagogical/school arena,plus_1_6_11_12,39,13,33.3
+social,pedagogical_school_arena,Pedagogical/school arena,plain_1_6,81,20,24.7
+social,pedagogical_school_arena,Pedagogical/school arena,other_metadata_elements,247,54,21.9
+social,pedagogical_school_arena,Pedagogical/school arena,nonmetadata_practical_geometry,260,31,11.9
+social,pedagogical_school_arena,Pedagogical/school arena,nonmetadata_military_applied,89,9,10.1
+social,pedagogical_school_arena,Pedagogical/school arena,nonmetadata_practical_or_military,296,35,11.8
+social,pedagogical_school_arena,Pedagogical/school arena,all_nonmetadata,557,66,11.8
+social,religious_institutional_arena,Religious institutional arena,plus_1_6_11_12,39,19,48.7
+social,religious_institutional_arena,Religious institutional arena,plain_1_6,81,14,17.3
+social,religious_institutional_arena,Religious institutional arena,other_metadata_elements,247,41,16.6
+social,religious_institutional_arena,Religious institutional arena,nonmetadata_practical_geometry,260,16,6.2
+social,religious_institutional_arena,Religious institutional arena,nonmetadata_military_applied,89,6,6.7
+social,religious_institutional_arena,Religious institutional arena,nonmetadata_practical_or_military,296,19,6.4
+social,religious_institutional_arena,Religious institutional arena,all_nonmetadata,557,41,7.4
+social,learned_scholarly_arena,Learned/scholarly arena,plus_1_6_11_12,39,17,43.6
+social,learned_scholarly_arena,Learned/scholarly arena,plain_1_6,81,20,24.7
+social,learned_scholarly_arena,Learned/scholarly arena,other_metadata_elements,247,75,30.4
+social,learned_scholarly_arena,Learned/scholarly arena,nonmetadata_practical_geometry,260,52,20.0
+social,learned_scholarly_arena,Learned/scholarly arena,nonmetadata_military_applied,89,16,18.0
+social,learned_scholarly_arena,Learned/scholarly arena,nonmetadata_practical_or_military,296,59,19.9
+social,learned_scholarly_arena,Learned/scholarly arena,all_nonmetadata,557,110,19.7
+social,general_public_lovers_arena,General public/lovers arena,plus_1_6_11_12,39,3,7.7
+social,general_public_lovers_arena,General public/lovers arena,plain_1_6,81,10,12.3
+social,general_public_lovers_arena,General public/lovers arena,other_metadata_elements,247,15,6.1
+social,general_public_lovers_arena,General public/lovers arena,nonmetadata_practical_geometry,260,28,10.8
+social,general_public_lovers_arena,General public/lovers arena,nonmetadata_military_applied,89,7,7.9
+social,general_public_lovers_arena,General public/lovers arena,nonmetadata_practical_or_military,296,30,10.1
+social,general_public_lovers_arena,General public/lovers arena,all_nonmetadata,557,38,6.8
+social,no_visible_social_arena,No visible social arena,plus_1_6_11_12,39,7,17.9
+social,no_visible_social_arena,No visible social arena,plain_1_6,81,37,45.7
+social,no_visible_social_arena,No visible social arena,other_metadata_elements,247,118,47.8
+social,no_visible_social_arena,No visible social arena,nonmetadata_practical_geometry,260,141,54.2
+social,no_visible_social_arena,No visible social arena,nonmetadata_military_applied,89,44,49.4
+social,no_visible_social_arena,No visible social arena,nonmetadata_practical_or_military,296,160,54.1
+social,no_visible_social_arena,No visible social arena,all_nonmetadata,557,337,60.5
+audience,aud_general_readers_lovers,General readers/lovers audience,plus_1_6_11_12,39,8,20.5
+audience,aud_general_readers_lovers,General readers/lovers audience,plain_1_6,81,0,0.0
+audience,aud_general_readers_lovers,General readers/lovers audience,other_metadata_elements,247,3,1.2
+audience,aud_general_readers_lovers,General readers/lovers audience,nonmetadata_practical_geometry,260,23,8.8
+audience,aud_general_readers_lovers,General readers/lovers audience,nonmetadata_military_applied,89,8,9.0
+audience,aud_general_readers_lovers,General readers/lovers audience,nonmetadata_practical_or_military,296,26,8.8
+audience,aud_general_readers_lovers,General readers/lovers audience,all_nonmetadata,557,29,5.2
+audience,aud_military_users,Military users audience,plus_1_6_11_12,39,3,7.7
+audience,aud_military_users,Military users audience,plain_1_6,81,0,0.0
+audience,aud_military_users,Military users audience,other_metadata_elements,247,0,0.0
+audience,aud_military_users,Military users audience,nonmetadata_practical_geometry,260,5,1.9
+audience,aud_military_users,Military users audience,nonmetadata_military_applied,89,5,5.6
+audience,aud_military_users,Military users audience,nonmetadata_practical_or_military,296,6,2.0
+audience,aud_military_users,Military users audience,all_nonmetadata,557,6,1.1
+audience,aud_artisans_visual_trades,Artisans/visual trades audience,plus_1_6_11_12,39,0,0.0
+audience,aud_artisans_visual_trades,Artisans/visual trades audience,plain_1_6,81,0,0.0
+audience,aud_artisans_visual_trades,Artisans/visual trades audience,other_metadata_elements,247,0,0.0
+audience,aud_artisans_visual_trades,Artisans/visual trades audience,nonmetadata_practical_geometry,260,3,1.2
+audience,aud_artisans_visual_trades,Artisans/visual trades audience,nonmetadata_military_applied,89,3,3.4
+audience,aud_artisans_visual_trades,Artisans/visual trades audience,nonmetadata_practical_or_military,296,3,1.0
+audience,aud_artisans_visual_trades,Artisans/visual trades audience,all_nonmetadata,557,3,0.5
+audience,aud_architects_builders,Architects/builders audience,plus_1_6_11_12,39,0,0.0
+audience,aud_architects_builders,Architects/builders audience,plain_1_6,81,0,0.0
+audience,aud_architects_builders,Architects/builders audience,other_metadata_elements,247,0,0.0
+audience,aud_architects_builders,Architects/builders audience,nonmetadata_practical_geometry,260,0,0.0
+audience,aud_architects_builders,Architects/builders audience,nonmetadata_military_applied,89,0,0.0
+audience,aud_architects_builders,Architects/builders audience,nonmetadata_practical_or_military,296,0,0.0
+audience,aud_architects_builders,Architects/builders audience,all_nonmetadata,557,0,0.0
+audience,aud_surveyors_geometers_engineers,Surveyors/geometers/engineers audience,plus_1_6_11_12,39,0,0.0
+audience,aud_surveyors_geometers_engineers,Surveyors/geometers/engineers audience,plain_1_6,81,0,0.0
+audience,aud_surveyors_geometers_engineers,Surveyors/geometers/engineers audience,other_metadata_elements,247,0,0.0
+audience,aud_surveyors_geometers_engineers,Surveyors/geometers/engineers audience,nonmetadata_practical_geometry,260,8,3.1
+audience,aud_surveyors_geometers_engineers,Surveyors/geometers/engineers audience,nonmetadata_military_applied,89,1,1.1
+audience,aud_surveyors_geometers_engineers,Surveyors/geometers/engineers audience,nonmetadata_practical_or_military,296,8,2.7
+audience,aud_surveyors_geometers_engineers,Surveyors/geometers/engineers audience,all_nonmetadata,557,8,1.4
+role,role_engineer_practitioner,Engineer/practitioner role,plus_1_6_11_12,39,1,2.6
+role,role_engineer_practitioner,Engineer/practitioner role,plain_1_6,81,2,2.5
+role,role_engineer_practitioner,Engineer/practitioner role,other_metadata_elements,247,4,1.6
+role,role_engineer_practitioner,Engineer/practitioner role,nonmetadata_practical_geometry,260,9,3.5
+role,role_engineer_practitioner,Engineer/practitioner role,nonmetadata_military_applied,89,3,3.4
+role,role_engineer_practitioner,Engineer/practitioner role,nonmetadata_practical_or_military,296,10,3.4
+role,role_engineer_practitioner,Engineer/practitioner role,all_nonmetadata,557,11,2.0
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,plus_1_6_11_12,39,6,15.4
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,plain_1_6,81,5,6.2
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,other_metadata_elements,247,20,8.1
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,nonmetadata_practical_geometry,260,21,8.1
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,nonmetadata_military_applied,89,9,10.1
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,nonmetadata_practical_or_military,296,25,8.4
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,all_nonmetadata,557,38,6.8

@@ -1,0 +1,33 @@
+family,metric,label,plus_1_6_11_12_n,plus_1_6_11_12_count,plus_1_6_11_12_pct,plain_1_6_n,plain_1_6_count,plain_1_6_pct,other_metadata_elements_n,other_metadata_elements_count,other_metadata_elements_pct,nonmetadata_practical_geometry_n,nonmetadata_practical_geometry_count,nonmetadata_practical_geometry_pct,nonmetadata_military_applied_n,nonmetadata_military_applied_count,nonmetadata_military_applied_pct,nonmetadata_practical_or_military_n,nonmetadata_practical_or_military_count,nonmetadata_practical_or_military_pct,all_nonmetadata_n,all_nonmetadata_count,all_nonmetadata_pct,delta_plus_minus_nonmetadata_practical,delta_plus_minus_nonmetadata_military
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,39,26,66.7,81,44,54.3,247,137,55.5,260,37,14.2,89,10,11.2,296,40,13.5,557,59,10.6,52.5,55.5
+claim,claim_method_demonstration_order,Method/demonstration/order,39,25,64.1,81,39,48.1,247,95,38.5,260,47,18.1,89,18,20.2,296,52,17.6,557,91,16.3,46.0,43.9
+social,religious_institutional_arena,Religious institutional arena,39,19,48.7,81,14,17.3,247,41,16.6,260,16,6.2,89,6,6.7,296,19,6.4,557,41,7.4,42.5,42.0
+subject,Theoretical Mathematics_present,Theoretical Mathematics class present,39,22,56.4,81,43,53.1,247,166,67.2,260,70,26.9,89,20,22.5,296,74,25.0,557,168,30.2,29.5,33.9
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy,39,14,35.9,81,10,12.3,247,31,12.6,260,30,11.5,89,9,10.1,296,33,11.1,557,52,9.3,24.4,25.8
+social,learned_scholarly_arena,Learned/scholarly arena,39,17,43.6,81,20,24.7,247,75,30.4,260,52,20.0,89,16,18.0,296,59,19.9,557,110,19.7,23.6,25.6
+archetype,method_access_book,Method/access book,39,11,28.2,81,8,9.9,247,17,6.9,260,14,5.4,89,5,5.6,296,15,5.1,557,24,4.3,22.8,22.6
+social,pedagogical_school_arena,Pedagogical/school arena,39,13,33.3,81,20,24.7,247,54,21.9,260,31,11.9,89,9,10.1,296,35,11.8,557,66,11.8,21.4,23.2
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy,39,12,30.8,81,18,22.2,247,54,21.9,260,28,10.8,89,13,14.6,296,34,11.5,557,64,11.5,20.0,16.2
+social,military_fortification_arena,Military/fortification arena,39,8,20.5,81,1,1.2,247,2,0.8,260,9,3.5,89,12,13.5,296,12,4.1,557,12,2.2,17.0,7.0
+audience,aud_general_readers_lovers,General readers/lovers audience,39,8,20.5,81,0,0.0,247,3,1.2,260,23,8.8,89,8,9.0,296,26,8.8,557,29,5.2,11.7,11.5
+archetype,utility_public_book,Utility public book,39,10,25.6,81,0,0.0,247,3,1.2,260,41,15.8,89,16,18.0,296,44,14.9,557,47,8.4,9.8,7.6
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,39,6,15.4,81,5,6.2,247,20,8.1,260,21,8.1,89,9,10.1,296,25,8.4,557,38,6.8,7.3,5.3
+audience,aud_military_users,Military users audience,39,3,7.7,81,0,0.0,247,0,0.0,260,5,1.9,89,5,5.6,296,6,2.0,557,6,1.1,5.8,2.1
+claim,claim_utility_practice_application,Utility/practice/application,39,11,28.2,81,5,6.2,247,11,4.5,260,72,27.7,89,32,36.0,296,81,27.4,557,99,17.8,0.5,-7.8
+audience,aud_architects_builders,Architects/builders audience,39,0,0.0,81,0,0.0,247,0,0.0,260,0,0.0,89,0,0.0,296,0,0.0,557,0,0.0,0.0,0.0
+role,role_engineer_practitioner,Engineer/practitioner role,39,1,2.6,81,2,2.5,247,4,1.6,260,9,3.5,89,3,3.4,296,10,3.4,557,11,2.0,-0.9,-0.8
+audience,aud_artisans_visual_trades,Artisans/visual trades audience,39,0,0.0,81,0,0.0,247,0,0.0,260,3,1.2,89,3,3.4,296,3,1.0,557,3,0.5,-1.2,-3.4
+claim,claim_augmentation_enrichment_composition,Augmentation/composition,39,10,25.6,81,34,42.0,247,107,43.3,260,73,28.1,89,32,36.0,296,89,30.1,557,160,28.7,-2.5,-10.4
+social,general_public_lovers_arena,General public/lovers arena,39,3,7.7,81,10,12.3,247,15,6.1,260,28,10.8,89,7,7.9,296,30,10.1,557,38,6.8,-3.1,-0.2
+audience,aud_surveyors_geometers_engineers,Surveyors/geometers/engineers audience,39,0,0.0,81,0,0.0,247,0,0.0,260,8,3.1,89,1,1.1,296,8,2.7,557,8,1.4,-3.1,-1.1
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer,39,1,2.6,81,17,21.0,247,74,30.0,260,16,6.2,89,7,7.9,296,20,6.8,557,47,8.4,-3.6,-5.3
+archetype,composite_workshop_book,Composite workshop book,39,7,17.9,81,29,35.8,247,95,38.5,260,64,24.6,89,28,31.5,296,78,26.4,557,141,25.3,-6.7,-13.6
+subject,Applied Mechanics/Military_present,Applied Mechanics/Military family present,39,4,10.3,81,4,4.9,247,10,4.0,260,47,18.1,89,81,91.0,296,81,27.4,557,81,14.5,-7.8,-80.7
+social,professional_practical_arena,Professional/practical arena,39,1,2.6,81,7,8.6,247,11,4.5,260,33,12.7,89,13,14.6,296,38,12.8,557,45,8.1,-10.1,-12.0
+claim,claim_visual_material_aids,Visual/material aids,39,4,10.3,81,11,13.6,247,41,16.6,260,53,20.4,89,20,22.5,296,57,19.3,557,80,14.4,-10.1,-12.2
+subject,Military Engineering_present,Military Engineering class present,39,0,0.0,81,1,1.2,247,4,1.6,260,32,12.3,89,48,53.9,296,48,16.2,557,48,8.6,-12.3,-53.9
+subject,Perspective_present,Perspective class present,39,0,0.0,81,0,0.0,247,7,2.8,260,44,16.9,89,12,13.5,296,49,16.6,557,79,14.2,-16.9,-13.5
+subject,Architecture_present,Architecture class present,39,1,2.6,81,0,0.0,247,2,0.8,260,62,23.8,89,23,25.8,296,70,23.6,557,78,14.0,-21.2,-23.2
+subject,Geometry/Theory_present,Geometry/Theory family present,39,27,69.2,81,51,63.0,247,179,72.5,260,260,100.0,89,58,65.2,296,265,89.5,557,361,64.8,-30.8,4.0
+social,no_visible_social_arena,No visible social arena,39,7,17.9,81,37,45.7,247,118,47.8,260,141,54.2,89,44,49.4,296,160,54.1,557,337,60.5,-36.3,-31.5
+subject,Practical Geometry_present,Practical Geometry class present,39,8,20.5,81,16,19.8,247,28,11.3,260,260,100.0,89,53,59.6,296,260,87.8,557,260,46.7,-79.5,-39.1

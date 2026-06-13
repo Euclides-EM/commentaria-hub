@@ -1,0 +1,8 @@
+subject,primary_count,secondary_count,unknown_count,any_primary_or_secondary_count,total_rows,primary_pct,any_primary_or_secondary_pct
+Arithmetic/Commerce,144,29,9,173,843,17.1,20.5
+Geometry/Theory,424,66,77,490,843,50.3,58.1
+Visual/Spatial Arts,110,36,17,146,843,13.0,17.3
+Instruments/Measurement,104,46,40,150,843,12.3,17.8
+Cosmos/Earth,80,30,17,110,843,9.5,13.0
+Applied Mechanics/Military,57,29,9,86,843,6.8,10.2
+Music,18,6,12,24,843,2.1,2.8

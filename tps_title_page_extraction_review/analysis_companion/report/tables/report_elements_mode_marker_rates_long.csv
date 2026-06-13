@@ -1,0 +1,209 @@
+group,marker,count,denominator,pct
+composite/apparatus,Canonical/textual identity,1,6,16.7
+composite/apparatus,Method/demonstration/order,0,6,0.0
+composite/apparatus,Access/clarity/pedagogy,0,6,0.0
+composite/apparatus,Utility/practice/application,0,6,0.0
+composite/apparatus,Correction/revision,0,6,0.0
+composite/apparatus,Augmentation/composition,2,6,33.3
+composite/apparatus,Translation/transfer,1,6,16.7
+composite/apparatus,Ancient authority/restoration,1,6,16.7
+composite/apparatus,Novelty/modernity,0,6,0.0
+composite/apparatus,Visual aids,0,6,0.0
+composite/apparatus,Completeness/system,0,6,0.0
+composite/apparatus,Selection/extraction,0,6,0.0
+composite/apparatus,Students/learners,0,6,0.0
+composite/apparatus,General readers/lovers,0,6,0.0
+composite/apparatus,Surveyors/engineers,0,6,0.0
+composite/apparatus,Military users,0,6,0.0
+composite/apparatus,Universities/academies,0,6,0.0
+composite/apparatus,Jesuit,0,6,0.0
+composite/apparatus,Math professor/lecturer,0,6,0.0
+composite/apparatus,Any named deductive part,2,6,33.3
+composite/apparatus,Demonstrations/proofs,0,6,0.0
+composite/apparatus,Propositions,0,6,0.0
+composite/apparatus,Scholia/commentary,0,6,0.0
+composite/apparatus,Figures/diagrams,0,6,0.0
+composite/apparatus,Problems,0,6,0.0
+composite/apparatus,Operations/constructions,0,6,0.0
+humanist/vernacular transfer,Canonical/textual identity,23,23,100.0
+humanist/vernacular transfer,Method/demonstration/order,5,23,21.7
+humanist/vernacular transfer,Access/clarity/pedagogy,0,23,0.0
+humanist/vernacular transfer,Utility/practice/application,0,23,0.0
+humanist/vernacular transfer,Correction/revision,1,23,4.3
+humanist/vernacular transfer,Augmentation/composition,2,23,8.7
+humanist/vernacular transfer,Translation/transfer,18,23,78.3
+humanist/vernacular transfer,Ancient authority/restoration,23,23,100.0
+humanist/vernacular transfer,Novelty/modernity,0,23,0.0
+humanist/vernacular transfer,Visual aids,0,23,0.0
+humanist/vernacular transfer,Completeness/system,5,23,21.7
+humanist/vernacular transfer,Selection/extraction,1,23,4.3
+humanist/vernacular transfer,Students/learners,0,23,0.0
+humanist/vernacular transfer,General readers/lovers,2,23,8.7
+humanist/vernacular transfer,Surveyors/engineers,0,23,0.0
+humanist/vernacular transfer,Military users,0,23,0.0
+humanist/vernacular transfer,Universities/academies,0,23,0.0
+humanist/vernacular transfer,Jesuit,0,23,0.0
+humanist/vernacular transfer,Math professor/lecturer,0,23,0.0
+humanist/vernacular transfer,Any named deductive part,5,23,21.7
+humanist/vernacular transfer,Demonstrations/proofs,2,23,8.7
+humanist/vernacular transfer,Propositions,2,23,8.7
+humanist/vernacular transfer,Scholia/commentary,0,23,0.0
+humanist/vernacular transfer,Figures/diagrams,0,23,0.0
+humanist/vernacular transfer,Problems,0,23,0.0
+humanist/vernacular transfer,Operations/constructions,0,23,0.0
+institutional-composite,Canonical/textual identity,100,113,88.5
+institutional-composite,Method/demonstration/order,51,113,45.1
+institutional-composite,Access/clarity/pedagogy,0,113,0.0
+institutional-composite,Utility/practice/application,0,113,0.0
+institutional-composite,Correction/revision,32,113,28.3
+institutional-composite,Augmentation/composition,64,113,56.6
+institutional-composite,Translation/transfer,37,113,32.7
+institutional-composite,Ancient authority/restoration,100,113,88.5
+institutional-composite,Novelty/modernity,7,113,6.2
+institutional-composite,Visual aids,30,113,26.5
+institutional-composite,Completeness/system,21,113,18.6
+institutional-composite,Selection/extraction,13,113,11.5
+institutional-composite,Students/learners,3,113,2.7
+institutional-composite,General readers/lovers,3,113,2.7
+institutional-composite,Surveyors/engineers,0,113,0.0
+institutional-composite,Military users,0,113,0.0
+institutional-composite,Universities/academies,1,113,0.9
+institutional-composite,Jesuit,14,113,12.4
+institutional-composite,Math professor/lecturer,13,113,11.5
+institutional-composite,Any named deductive part,75,113,66.4
+institutional-composite,Demonstrations/proofs,30,113,26.5
+institutional-composite,Propositions,5,113,4.4
+institutional-composite,Scholia/commentary,26,113,23.0
+institutional-composite,Figures/diagrams,11,113,9.7
+institutional-composite,Problems,0,113,0.0
+institutional-composite,Operations/constructions,0,113,0.0
+institutional/authority,Canonical/textual identity,4,8,50.0
+institutional/authority,Method/demonstration/order,0,8,0.0
+institutional/authority,Access/clarity/pedagogy,0,8,0.0
+institutional/authority,Utility/practice/application,0,8,0.0
+institutional/authority,Correction/revision,2,8,25.0
+institutional/authority,Augmentation/composition,0,8,0.0
+institutional/authority,Translation/transfer,0,8,0.0
+institutional/authority,Ancient authority/restoration,4,8,50.0
+institutional/authority,Novelty/modernity,0,8,0.0
+institutional/authority,Visual aids,0,8,0.0
+institutional/authority,Completeness/system,0,8,0.0
+institutional/authority,Selection/extraction,0,8,0.0
+institutional/authority,Students/learners,0,8,0.0
+institutional/authority,General readers/lovers,3,8,37.5
+institutional/authority,Surveyors/engineers,0,8,0.0
+institutional/authority,Military users,3,8,37.5
+institutional/authority,Universities/academies,0,8,0.0
+institutional/authority,Jesuit,0,8,0.0
+institutional/authority,Math professor/lecturer,3,8,37.5
+institutional/authority,Any named deductive part,0,8,0.0
+institutional/authority,Demonstrations/proofs,0,8,0.0
+institutional/authority,Propositions,0,8,0.0
+institutional/authority,Scholia/commentary,0,8,0.0
+institutional/authority,Figures/diagrams,0,8,0.0
+institutional/authority,Problems,0,8,0.0
+institutional/authority,Operations/constructions,0,8,0.0
+low-signal/other,Canonical/textual identity,0,12,0.0
+low-signal/other,Method/demonstration/order,0,12,0.0
+low-signal/other,Access/clarity/pedagogy,0,12,0.0
+low-signal/other,Utility/practice/application,0,12,0.0
+low-signal/other,Correction/revision,0,12,0.0
+low-signal/other,Augmentation/composition,0,12,0.0
+low-signal/other,Translation/transfer,1,12,8.3
+low-signal/other,Ancient authority/restoration,0,12,0.0
+low-signal/other,Novelty/modernity,0,12,0.0
+low-signal/other,Visual aids,0,12,0.0
+low-signal/other,Completeness/system,2,12,16.7
+low-signal/other,Selection/extraction,0,12,0.0
+low-signal/other,Students/learners,0,12,0.0
+low-signal/other,General readers/lovers,0,12,0.0
+low-signal/other,Surveyors/engineers,0,12,0.0
+low-signal/other,Military users,0,12,0.0
+low-signal/other,Universities/academies,0,12,0.0
+low-signal/other,Jesuit,0,12,0.0
+low-signal/other,Math professor/lecturer,0,12,0.0
+low-signal/other,Any named deductive part,2,12,16.7
+low-signal/other,Demonstrations/proofs,0,12,0.0
+low-signal/other,Propositions,1,12,8.3
+low-signal/other,Scholia/commentary,0,12,0.0
+low-signal/other,Figures/diagrams,0,12,0.0
+low-signal/other,Problems,0,12,0.0
+low-signal/other,Operations/constructions,0,12,0.0
+pedagogical/method,Canonical/textual identity,27,29,93.1
+pedagogical/method,Method/demonstration/order,23,29,79.3
+pedagogical/method,Access/clarity/pedagogy,0,29,0.0
+pedagogical/method,Utility/practice/application,0,29,0.0
+pedagogical/method,Correction/revision,5,29,17.2
+pedagogical/method,Augmentation/composition,5,29,17.2
+pedagogical/method,Translation/transfer,1,29,3.4
+pedagogical/method,Ancient authority/restoration,23,29,79.3
+pedagogical/method,Novelty/modernity,1,29,3.4
+pedagogical/method,Visual aids,0,29,0.0
+pedagogical/method,Completeness/system,6,29,20.7
+pedagogical/method,Selection/extraction,7,29,24.1
+pedagogical/method,Students/learners,3,29,10.3
+pedagogical/method,General readers/lovers,0,29,0.0
+pedagogical/method,Surveyors/engineers,0,29,0.0
+pedagogical/method,Military users,0,29,0.0
+pedagogical/method,Universities/academies,1,29,3.4
+pedagogical/method,Jesuit,2,29,6.9
+pedagogical/method,Math professor/lecturer,1,29,3.4
+pedagogical/method,Any named deductive part,23,29,79.3
+pedagogical/method,Demonstrations/proofs,13,29,44.8
+pedagogical/method,Propositions,7,29,24.1
+pedagogical/method,Scholia/commentary,0,29,0.0
+pedagogical/method,Figures/diagrams,0,29,0.0
+pedagogical/method,Problems,0,29,0.0
+pedagogical/method,Operations/constructions,0,29,0.0
+practical-pedagogical,Canonical/textual identity,72,72,100.0
+practical-pedagogical,Method/demonstration/order,41,72,56.9
+practical-pedagogical,Access/clarity/pedagogy,45,72,62.5
+practical-pedagogical,Utility/practice/application,22,72,30.6
+practical-pedagogical,Correction/revision,26,72,36.1
+practical-pedagogical,Augmentation/composition,44,72,61.1
+practical-pedagogical,Translation/transfer,16,72,22.2
+practical-pedagogical,Ancient authority/restoration,69,72,95.8
+practical-pedagogical,Novelty/modernity,19,72,26.4
+practical-pedagogical,Visual aids,15,72,20.8
+practical-pedagogical,Completeness/system,12,72,16.7
+practical-pedagogical,Selection/extraction,30,72,41.7
+practical-pedagogical,Students/learners,4,72,5.6
+practical-pedagogical,General readers/lovers,3,72,4.2
+practical-pedagogical,Surveyors/engineers,0,72,0.0
+practical-pedagogical,Military users,0,72,0.0
+practical-pedagogical,Universities/academies,3,72,4.2
+practical-pedagogical,Jesuit,8,72,11.1
+practical-pedagogical,Math professor/lecturer,9,72,12.5
+practical-pedagogical,Any named deductive part,57,72,79.2
+practical-pedagogical,Demonstrations/proofs,15,72,20.8
+practical-pedagogical,Propositions,14,72,19.4
+practical-pedagogical,Scholia/commentary,13,72,18.1
+practical-pedagogical,Figures/diagrams,10,72,13.9
+practical-pedagogical,Problems,4,72,5.6
+practical-pedagogical,Operations/constructions,3,72,4.2
+sparse/canonical,Canonical/textual identity,21,21,100.0
+sparse/canonical,Method/demonstration/order,0,21,0.0
+sparse/canonical,Access/clarity/pedagogy,0,21,0.0
+sparse/canonical,Utility/practice/application,0,21,0.0
+sparse/canonical,Correction/revision,0,21,0.0
+sparse/canonical,Augmentation/composition,0,21,0.0
+sparse/canonical,Translation/transfer,1,21,4.8
+sparse/canonical,Ancient authority/restoration,18,21,85.7
+sparse/canonical,Novelty/modernity,0,21,0.0
+sparse/canonical,Visual aids,0,21,0.0
+sparse/canonical,Completeness/system,2,21,9.5
+sparse/canonical,Selection/extraction,0,21,0.0
+sparse/canonical,Students/learners,0,21,0.0
+sparse/canonical,General readers/lovers,0,21,0.0
+sparse/canonical,Surveyors/engineers,0,21,0.0
+sparse/canonical,Military users,0,21,0.0
+sparse/canonical,Universities/academies,0,21,0.0
+sparse/canonical,Jesuit,1,21,4.8
+sparse/canonical,Math professor/lecturer,0,21,0.0
+sparse/canonical,Any named deductive part,1,21,4.8
+sparse/canonical,Demonstrations/proofs,0,21,0.0
+sparse/canonical,Propositions,0,21,0.0
+sparse/canonical,Scholia/commentary,0,21,0.0
+sparse/canonical,Figures/diagrams,0,21,0.0
+sparse/canonical,Problems,0,21,0.0
+sparse/canonical,Operations/constructions,0,21,0.0

@@ -1,0 +1,71 @@
+subject,marker,count,denominator,pct
+Arithmetic/Commerce,Ease/clarity,9,144,6.2
+Arithmetic/Commerce,Utility/application,19,144,13.2
+Arithmetic/Commerce,Correction/revision,18,144,12.5
+Arithmetic/Commerce,Augmentation/enrichment,30,144,20.8
+Arithmetic/Commerce,Novelty/modernity,7,144,4.9
+Arithmetic/Commerce,Translation/vernacular,4,144,2.8
+Arithmetic/Commerce,Demonstration/method,24,144,16.7
+Arithmetic/Commerce,Ancient restoration,3,144,2.1
+Arithmetic/Commerce,Visual materiality,7,144,4.9
+Arithmetic/Commerce,Abridgment/selection,8,144,5.6
+Geometry/Theory,Ease/clarity,23,424,5.4
+Geometry/Theory,Utility/application,30,424,7.1
+Geometry/Theory,Correction/revision,26,424,6.1
+Geometry/Theory,Augmentation/enrichment,67,424,15.8
+Geometry/Theory,Novelty/modernity,23,424,5.4
+Geometry/Theory,Translation/vernacular,37,424,8.7
+Geometry/Theory,Demonstration/method,60,424,14.2
+Geometry/Theory,Ancient restoration,50,424,11.8
+Geometry/Theory,Visual materiality,27,424,6.4
+Geometry/Theory,Abridgment/selection,10,424,2.4
+Visual/Spatial Arts,Ease/clarity,0,110,0.0
+Visual/Spatial Arts,Utility/application,5,110,4.5
+Visual/Spatial Arts,Correction/revision,4,110,3.6
+Visual/Spatial Arts,Augmentation/enrichment,4,110,3.6
+Visual/Spatial Arts,Novelty/modernity,4,110,3.6
+Visual/Spatial Arts,Translation/vernacular,6,110,5.5
+Visual/Spatial Arts,Demonstration/method,10,110,9.1
+Visual/Spatial Arts,Ancient restoration,1,110,0.9
+Visual/Spatial Arts,Visual materiality,7,110,6.4
+Visual/Spatial Arts,Abridgment/selection,0,110,0.0
+Instruments/Measurement,Ease/clarity,10,104,9.6
+Instruments/Measurement,Utility/application,17,104,16.3
+Instruments/Measurement,Correction/revision,10,104,9.6
+Instruments/Measurement,Augmentation/enrichment,22,104,21.2
+Instruments/Measurement,Novelty/modernity,10,104,9.6
+Instruments/Measurement,Translation/vernacular,3,104,2.9
+Instruments/Measurement,Demonstration/method,21,104,20.2
+Instruments/Measurement,Ancient restoration,4,104,3.8
+Instruments/Measurement,Visual materiality,14,104,13.5
+Instruments/Measurement,Abridgment/selection,5,104,4.8
+Cosmos/Earth,Ease/clarity,4,80,5.0
+Cosmos/Earth,Utility/application,7,80,8.8
+Cosmos/Earth,Correction/revision,1,80,1.2
+Cosmos/Earth,Augmentation/enrichment,12,80,15.0
+Cosmos/Earth,Novelty/modernity,5,80,6.2
+Cosmos/Earth,Translation/vernacular,1,80,1.2
+Cosmos/Earth,Demonstration/method,7,80,8.8
+Cosmos/Earth,Ancient restoration,8,80,10.0
+Cosmos/Earth,Visual materiality,1,80,1.2
+Cosmos/Earth,Abridgment/selection,3,80,3.8
+Applied Mechanics/Military,Ease/clarity,2,57,3.5
+Applied Mechanics/Military,Utility/application,4,57,7.0
+Applied Mechanics/Military,Correction/revision,5,57,8.8
+Applied Mechanics/Military,Augmentation/enrichment,9,57,15.8
+Applied Mechanics/Military,Novelty/modernity,5,57,8.8
+Applied Mechanics/Military,Translation/vernacular,4,57,7.0
+Applied Mechanics/Military,Demonstration/method,10,57,17.5
+Applied Mechanics/Military,Ancient restoration,1,57,1.8
+Applied Mechanics/Military,Visual materiality,5,57,8.8
+Applied Mechanics/Military,Abridgment/selection,2,57,3.5
+Music,Ease/clarity,0,18,0.0
+Music,Utility/application,1,18,5.6
+Music,Correction/revision,0,18,0.0
+Music,Augmentation/enrichment,3,18,16.7
+Music,Novelty/modernity,0,18,0.0
+Music,Translation/vernacular,3,18,16.7
+Music,Demonstration/method,0,18,0.0
+Music,Ancient restoration,2,18,11.1
+Music,Visual materiality,0,18,0.0
+Music,Abridgment/selection,0,18,0.0

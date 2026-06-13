@@ -1,0 +1,129 @@
+group,marker,count,denominator,pct
+books_1_13,Any named deductive part,3,5,60.0
+books_1_13,Demonstrations/proofs,2,5,40.0
+books_1_13,Propositions,0,5,0.0
+books_1_13,Theorems,1,5,20.0
+books_1_13,Problems,0,5,0.0
+books_1_13,Figures/diagrams,0,5,0.0
+books_1_13,Scholia/commentary,0,5,0.0
+books_1_13,Notes/observations,0,5,0.0
+books_1_13,Corollaries,0,5,0.0
+books_1_13,Definitions,0,5,0.0
+books_1_13,Axioms/common notions,0,5,0.0
+books_1_13,Enunciations,0,5,0.0
+books_1_13,Examples,0,5,0.0
+books_1_13,Operations/constructions,0,5,0.0
+books_1_13,Principles,0,5,0.0
+books_1_13,Paradoxes,0,5,0.0
+books_1_6,Any named deductive part,51,81,63.0
+books_1_6,Demonstrations/proofs,20,81,24.7
+books_1_6,Propositions,1,81,1.2
+books_1_6,Theorems,3,81,3.7
+books_1_6,Problems,1,81,1.2
+books_1_6,Figures/diagrams,10,81,12.3
+books_1_6,Scholia/commentary,8,81,9.9
+books_1_6,Notes/observations,4,81,4.9
+books_1_6,Corollaries,0,81,0.0
+books_1_6,Definitions,1,81,1.2
+books_1_6,Axioms/common notions,0,81,0.0
+books_1_6,Enunciations,0,81,0.0
+books_1_6,Examples,3,81,3.7
+books_1_6,Operations/constructions,1,81,1.2
+books_1_6,Principles,17,81,21.0
+books_1_6,Paradoxes,0,81,0.0
+books_1_6_plus_solids,Any named deductive part,24,39,61.5
+books_1_6_plus_solids,Demonstrations/proofs,5,39,12.8
+books_1_6_plus_solids,Propositions,14,39,35.9
+books_1_6_plus_solids,Theorems,8,39,20.5
+books_1_6_plus_solids,Problems,0,39,0.0
+books_1_6_plus_solids,Figures/diagrams,1,39,2.6
+books_1_6_plus_solids,Scholia/commentary,0,39,0.0
+books_1_6_plus_solids,Notes/observations,1,39,2.6
+books_1_6_plus_solids,Corollaries,1,39,2.6
+books_1_6_plus_solids,Definitions,0,39,0.0
+books_1_6_plus_solids,Axioms/common notions,0,39,0.0
+books_1_6_plus_solids,Enunciations,0,39,0.0
+books_1_6_plus_solids,Examples,0,39,0.0
+books_1_6_plus_solids,Operations/constructions,0,39,0.0
+books_1_6_plus_solids,Principles,2,39,5.1
+books_1_6_plus_solids,Paradoxes,0,39,0.0
+near_complete_or_expanded,Any named deductive part,41,67,61.2
+near_complete_or_expanded,Demonstrations/proofs,23,67,34.3
+near_complete_or_expanded,Propositions,6,67,9.0
+near_complete_or_expanded,Theorems,1,67,1.5
+near_complete_or_expanded,Problems,1,67,1.5
+near_complete_or_expanded,Figures/diagrams,9,67,13.4
+near_complete_or_expanded,Scholia/commentary,16,67,23.9
+near_complete_or_expanded,Notes/observations,2,67,3.0
+near_complete_or_expanded,Corollaries,2,67,3.0
+near_complete_or_expanded,Definitions,2,67,3.0
+near_complete_or_expanded,Axioms/common notions,1,67,1.5
+near_complete_or_expanded,Enunciations,3,67,4.5
+near_complete_or_expanded,Examples,0,67,0.0
+near_complete_or_expanded,Operations/constructions,0,67,0.0
+near_complete_or_expanded,Principles,3,67,4.5
+near_complete_or_expanded,Paradoxes,0,67,0.0
+near_complete_or_expanded_enunciations,Any named deductive part,3,7,42.9
+near_complete_or_expanded_enunciations,Demonstrations/proofs,0,7,0.0
+near_complete_or_expanded_enunciations,Propositions,2,7,28.6
+near_complete_or_expanded_enunciations,Theorems,0,7,0.0
+near_complete_or_expanded_enunciations,Problems,0,7,0.0
+near_complete_or_expanded_enunciations,Figures/diagrams,0,7,0.0
+near_complete_or_expanded_enunciations,Scholia/commentary,0,7,0.0
+near_complete_or_expanded_enunciations,Notes/observations,0,7,0.0
+near_complete_or_expanded_enunciations,Corollaries,0,7,0.0
+near_complete_or_expanded_enunciations,Definitions,0,7,0.0
+near_complete_or_expanded_enunciations,Axioms/common notions,0,7,0.0
+near_complete_or_expanded_enunciations,Enunciations,1,7,14.3
+near_complete_or_expanded_enunciations,Examples,0,7,0.0
+near_complete_or_expanded_enunciations,Operations/constructions,0,7,0.0
+near_complete_or_expanded_enunciations,Principles,0,7,0.0
+near_complete_or_expanded_enunciations,Paradoxes,0,7,0.0
+partial_from_book_1,Any named deductive part,7,8,87.5
+partial_from_book_1,Demonstrations/proofs,1,8,12.5
+partial_from_book_1,Propositions,2,8,25.0
+partial_from_book_1,Theorems,1,8,12.5
+partial_from_book_1,Problems,0,8,0.0
+partial_from_book_1,Figures/diagrams,0,8,0.0
+partial_from_book_1,Scholia/commentary,2,8,25.0
+partial_from_book_1,Notes/observations,1,8,12.5
+partial_from_book_1,Corollaries,0,8,0.0
+partial_from_book_1,Definitions,0,8,0.0
+partial_from_book_1,Axioms/common notions,0,8,0.0
+partial_from_book_1,Enunciations,0,8,0.0
+partial_from_book_1,Examples,0,8,0.0
+partial_from_book_1,Operations/constructions,0,8,0.0
+partial_from_book_1,Principles,1,8,12.5
+partial_from_book_1,Paradoxes,0,8,0.0
+selected_later_books,Any named deductive part,9,21,42.9
+selected_later_books,Demonstrations/proofs,4,21,19.0
+selected_later_books,Propositions,1,21,4.8
+selected_later_books,Theorems,1,21,4.8
+selected_later_books,Problems,0,21,0.0
+selected_later_books,Figures/diagrams,0,21,0.0
+selected_later_books,Scholia/commentary,3,21,14.3
+selected_later_books,Notes/observations,1,21,4.8
+selected_later_books,Corollaries,0,21,0.0
+selected_later_books,Definitions,1,21,4.8
+selected_later_books,Axioms/common notions,0,21,0.0
+selected_later_books,Enunciations,0,21,0.0
+selected_later_books,Examples,0,21,0.0
+selected_later_books,Operations/constructions,1,21,4.8
+selected_later_books,Principles,1,21,4.8
+selected_later_books,Paradoxes,0,21,0.0
+unknown_books,Any named deductive part,27,56,48.2
+unknown_books,Demonstrations/proofs,5,56,8.9
+unknown_books,Propositions,3,56,5.4
+unknown_books,Theorems,2,56,3.6
+unknown_books,Problems,2,56,3.6
+unknown_books,Figures/diagrams,1,56,1.8
+unknown_books,Scholia/commentary,10,56,17.9
+unknown_books,Notes/observations,2,56,3.6
+unknown_books,Corollaries,0,56,0.0
+unknown_books,Definitions,0,56,0.0
+unknown_books,Axioms/common notions,0,56,0.0
+unknown_books,Enunciations,4,56,7.1
+unknown_books,Examples,0,56,0.0
+unknown_books,Operations/constructions,1,56,1.8
+unknown_books,Principles,3,56,5.4
+unknown_books,Paradoxes,0,56,0.0

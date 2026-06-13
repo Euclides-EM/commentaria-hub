@@ -1,0 +1,71 @@
+subject_family,n_primary_family,intellectual_value,count,pct,overall_pct,delta
+Applied Mechanics/Military,57,demonstration_method_order,10,17.5,13.2,4.4
+Applied Mechanics/Military,57,visual_materiality_diagrams,5,8.8,5.7,3.1
+Applied Mechanics/Military,57,correction_revision_accuracy,5,8.8,6.5,2.2
+Applied Mechanics/Military,57,novelty_invention_modernity,5,8.8,6.6,2.1
+Applied Mechanics/Military,57,augmentation_enrichment_completeness,9,15.8,13.9,1.9
+Applied Mechanics/Military,57,abridgment_contraction_selection,2,3.5,3.1,0.4
+Applied Mechanics/Military,57,utility_application_practice,4,7.0,6.9,0.1
+Applied Mechanics/Military,57,translation_vernacularization,4,7.0,7.5,-0.5
+Applied Mechanics/Military,57,ease_clarity_accessibility,2,3.5,5.7,-2.2
+Applied Mechanics/Military,57,ancient_restoration_humanist,1,1.8,8.5,-6.8
+Arithmetic/Commerce,144,augmentation_enrichment_completeness,30,20.8,13.9,7.0
+Arithmetic/Commerce,144,utility_application_practice,19,13.2,6.9,6.3
+Arithmetic/Commerce,144,correction_revision_accuracy,18,12.5,6.5,6.0
+Arithmetic/Commerce,144,demonstration_method_order,24,16.7,13.2,3.5
+Arithmetic/Commerce,144,abridgment_contraction_selection,8,5.6,3.1,2.5
+Arithmetic/Commerce,144,ease_clarity_accessibility,9,6.2,5.7,0.6
+Arithmetic/Commerce,144,visual_materiality_diagrams,7,4.9,5.7,-0.8
+Arithmetic/Commerce,144,novelty_invention_modernity,7,4.9,6.6,-1.8
+Arithmetic/Commerce,144,translation_vernacularization,4,2.8,7.5,-4.7
+Arithmetic/Commerce,144,ancient_restoration_humanist,3,2.1,8.5,-6.5
+Cosmos/Earth,80,utility_application_practice,7,8.8,6.9,1.9
+Cosmos/Earth,80,ancient_restoration_humanist,8,10.0,8.5,1.5
+Cosmos/Earth,80,augmentation_enrichment_completeness,12,15.0,13.9,1.1
+Cosmos/Earth,80,abridgment_contraction_selection,3,3.8,3.1,0.7
+Cosmos/Earth,80,novelty_invention_modernity,5,6.2,6.6,-0.4
+Cosmos/Earth,80,ease_clarity_accessibility,4,5.0,5.7,-0.7
+Cosmos/Earth,80,demonstration_method_order,7,8.8,13.2,-4.4
+Cosmos/Earth,80,visual_materiality_diagrams,1,1.2,5.7,-4.4
+Cosmos/Earth,80,correction_revision_accuracy,1,1.2,6.5,-5.3
+Cosmos/Earth,80,translation_vernacularization,1,1.2,7.5,-6.2
+Geometry/Theory,424,ancient_restoration_humanist,50,11.8,8.5,3.3
+Geometry/Theory,424,augmentation_enrichment_completeness,67,15.8,13.9,1.9
+Geometry/Theory,424,translation_vernacularization,37,8.7,7.5,1.3
+Geometry/Theory,424,demonstration_method_order,60,14.2,13.2,1.0
+Geometry/Theory,424,visual_materiality_diagrams,27,6.4,5.7,0.7
+Geometry/Theory,424,utility_application_practice,30,7.1,6.9,0.2
+Geometry/Theory,424,ease_clarity_accessibility,23,5.4,5.7,-0.3
+Geometry/Theory,424,correction_revision_accuracy,26,6.1,6.5,-0.4
+Geometry/Theory,424,abridgment_contraction_selection,10,2.4,3.1,-0.7
+Geometry/Theory,424,novelty_invention_modernity,23,5.4,6.6,-1.2
+Instruments/Measurement,104,utility_application_practice,17,16.3,6.9,9.5
+Instruments/Measurement,104,visual_materiality_diagrams,14,13.5,5.7,7.8
+Instruments/Measurement,104,augmentation_enrichment_completeness,22,21.2,13.9,7.3
+Instruments/Measurement,104,demonstration_method_order,21,20.2,13.2,7.0
+Instruments/Measurement,104,ease_clarity_accessibility,10,9.6,5.7,3.9
+Instruments/Measurement,104,correction_revision_accuracy,10,9.6,6.5,3.1
+Instruments/Measurement,104,novelty_invention_modernity,10,9.6,6.6,3.0
+Instruments/Measurement,104,abridgment_contraction_selection,5,4.8,3.1,1.7
+Instruments/Measurement,104,translation_vernacularization,3,2.9,7.5,-4.6
+Instruments/Measurement,104,ancient_restoration_humanist,4,3.8,8.5,-4.7
+Music,18,translation_vernacularization,3,16.7,7.5,9.2
+Music,18,augmentation_enrichment_completeness,3,16.7,13.9,2.8
+Music,18,ancient_restoration_humanist,2,11.1,8.5,2.6
+Music,18,utility_application_practice,1,5.6,6.9,-1.3
+Music,18,abridgment_contraction_selection,0,0.0,3.1,-3.1
+Music,18,ease_clarity_accessibility,0,0.0,5.7,-5.7
+Music,18,visual_materiality_diagrams,0,0.0,5.7,-5.7
+Music,18,correction_revision_accuracy,0,0.0,6.5,-6.5
+Music,18,novelty_invention_modernity,0,0.0,6.6,-6.6
+Music,18,demonstration_method_order,0,0.0,13.2,-13.2
+Visual/Spatial Arts,110,visual_materiality_diagrams,7,6.4,5.7,0.7
+Visual/Spatial Arts,110,translation_vernacularization,6,5.5,7.5,-2.0
+Visual/Spatial Arts,110,utility_application_practice,5,4.5,6.9,-2.3
+Visual/Spatial Arts,110,correction_revision_accuracy,4,3.6,6.5,-2.9
+Visual/Spatial Arts,110,novelty_invention_modernity,4,3.6,6.6,-3.0
+Visual/Spatial Arts,110,abridgment_contraction_selection,0,0.0,3.1,-3.1
+Visual/Spatial Arts,110,demonstration_method_order,10,9.1,13.2,-4.1
+Visual/Spatial Arts,110,ease_clarity_accessibility,0,0.0,5.7,-5.7
+Visual/Spatial Arts,110,ancient_restoration_humanist,1,0.9,8.5,-7.6
+Visual/Spatial Arts,110,augmentation_enrichment_completeness,4,3.6,13.9,-10.2

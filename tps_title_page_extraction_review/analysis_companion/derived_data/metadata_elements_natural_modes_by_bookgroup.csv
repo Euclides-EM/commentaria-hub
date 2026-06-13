@@ -1,0 +1,9 @@
+elements_books_group,n,sparse_canonical_pct,sparse_canonical_n,pedagogical_method_pct,pedagogical_method_n,vernacular_transfer_pct,vernacular_transfer_n,institutional_authority_pct,institutional_authority_n,composite_apparatus_pct,composite_apparatus_n,practical_public_pct,practical_public_n,corrected_updated_pct,corrected_updated_n,humanist_ancient_pct,humanist_ancient_n,avg_mode_count
+books_1_6,81,23.5,19,67.9,55,37.0,30,76.5,62,63.0,51,23.5,19,45.7,37,82.7,67,4.2
+near_complete_or_expanded,67,9.0,6,88.1,59,50.7,34,77.6,52,83.6,56,17.9,12,61.2,41,94.0,63,4.82
+unknown_books,56,17.9,10,51.8,29,35.7,20,71.4,40,71.4,40,23.2,13,44.6,25,67.9,38,3.84
+books_1_6_plus_solids,39,10.3,4,79.5,31,23.1,9,89.7,35,59.0,23,59.0,23,59.0,23,97.4,38,4.77
+selected_later_books,21,14.3,3,57.1,12,28.6,6,71.4,15,61.9,13,14.3,3,33.3,7,90.5,19,3.71
+partial_from_book_1,8,0.0,0,50.0,4,12.5,1,75.0,6,50.0,4,37.5,3,50.0,4,62.5,5,3.38
+near_complete_or_expanded_enunciations,7,0.0,0,85.7,6,57.1,4,57.1,4,100.0,7,57.1,4,28.6,2,85.7,6,4.71
+books_1_13,5,40.0,2,60.0,3,20.0,1,60.0,3,20.0,1,60.0,3,80.0,4,100.0,5,4.4

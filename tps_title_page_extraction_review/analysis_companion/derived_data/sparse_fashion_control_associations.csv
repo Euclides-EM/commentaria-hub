@@ -1,0 +1,64 @@
+field,metric,label,association_type,association,n
+any_school_or_institution,no_visible_social_arena,No visible social arena,cramers_v,0.685,286
+city,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.487,286
+pedagogical_school_arena,no_visible_social_arena,No visible social arena,cramers_v,0.487,286
+any_school_or_institution,social_arena_count,social_arena_count,eta_squared,0.482,286
+religious_institutional_arena,no_visible_social_arena,No visible social arena,cramers_v,0.454,286
+pedagogical_school_arena,social_arena_count,social_arena_count,eta_squared,0.446,286
+city,no_visible_social_arena,No visible social arena,cramers_v,0.32,286
+language_first,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.306,286
+any_school_or_institution,density_score,density_score,eta_squared,0.278,286
+city,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.276,286
+any_school_or_institution,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.273,286
+language_first,no_visible_social_arena,No visible social arena,cramers_v,0.248,286
+elements_books_group,no_visible_social_arena,No visible social arena,cramers_v,0.234,286
+period,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.215,286
+elements_books_group,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.208,286
+religious_institutional_arena,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.196,286
+primary_subject_family,no_visible_social_arena,No visible social arena,cramers_v,0.19,286
+pedagogical_school_arena,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.19,286
+format_group,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.187,286
+format_group,no_visible_social_arena,No visible social arena,cramers_v,0.181,286
+format_group,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.179,286
+period,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.165,286
+pedagogical_school_arena,density_score,density_score,eta_squared,0.162,286
+language_first,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.148,286
+period,no_visible_social_arena,No visible social arena,cramers_v,0.137,286
+any_school_or_institution,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.135,286
+religious_institutional_arena,social_arena_count,social_arena_count,eta_squared,0.132,286
+elements_books_group,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.13,286
+language_first,rich_claim_count,rich_claim_count,eta_squared,0.126,286
+city,rich_claim_count,rich_claim_count,eta_squared,0.117,286
+city,density_score,density_score,eta_squared,0.114,286
+language_first,density_score,density_score,eta_squared,0.111,286
+elements_books_group,rich_claim_count,rich_claim_count,eta_squared,0.105,286
+religious_institutional_arena,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.103,286
+city,social_arena_count,social_arena_count,eta_squared,0.103,286
+any_school_or_institution,tps_feature_has_count,tps_feature_has_count,eta_squared,0.095,286
+primary_subject_family,mode_sparse_canonical,Natural sparse/canonical mode,cramers_v,0.092,286
+religious_institutional_arena,density_score,density_score,eta_squared,0.091,286
+primary_subject_family,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.083,286
+pedagogical_school_arena,sparse_canonical_identity,Sparse-canonical archetype,cramers_v,0.081,286
+elements_books_group,tps_feature_has_count,tps_feature_has_count,eta_squared,0.08,286
+elements_books_group,density_score,density_score,eta_squared,0.079,286
+any_school_or_institution,rich_claim_count,rich_claim_count,eta_squared,0.078,286
+city,tps_feature_has_count,tps_feature_has_count,eta_squared,0.073,286
+elements_books_group,social_arena_count,social_arena_count,eta_squared,0.063,286
+format_group,rich_claim_count,rich_claim_count,eta_squared,0.059,286
+pedagogical_school_arena,tps_feature_has_count,tps_feature_has_count,eta_squared,0.056,286
+language_first,social_arena_count,social_arena_count,eta_squared,0.051,286
+period,density_score,density_score,eta_squared,0.045,286
+period,rich_claim_count,rich_claim_count,eta_squared,0.043,286
+primary_subject_family,tps_feature_has_count,tps_feature_has_count,eta_squared,0.041,286
+format_group,density_score,density_score,eta_squared,0.041,286
+language_first,tps_feature_has_count,tps_feature_has_count,eta_squared,0.037,286
+religious_institutional_arena,tps_feature_has_count,tps_feature_has_count,eta_squared,0.033,286
+religious_institutional_arena,rich_claim_count,rich_claim_count,eta_squared,0.032,286
+primary_subject_family,social_arena_count,social_arena_count,eta_squared,0.029,286
+primary_subject_family,density_score,density_score,eta_squared,0.026,286
+period,tps_feature_has_count,tps_feature_has_count,eta_squared,0.025,286
+format_group,social_arena_count,social_arena_count,eta_squared,0.024,286
+format_group,tps_feature_has_count,tps_feature_has_count,eta_squared,0.023,286
+period,social_arena_count,social_arena_count,eta_squared,0.018,286
+pedagogical_school_arena,rich_claim_count,rich_claim_count,eta_squared,0.017,286
+primary_subject_family,rich_claim_count,rich_claim_count,eta_squared,0.013,286

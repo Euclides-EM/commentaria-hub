@@ -1,0 +1,118 @@
+group,marker,count,denominator,pct
+ARABIC,visual title claim,0,1,0.0
+ARABIC,metadata diagrams,0,1,0.0
+ARABIC,figures as proof apparatus,0,1,0.0
+ARABIC,figures as practical operation,0,1,0.0
+ARABIC,figures as visual pedagogy,0,1,0.0
+ARABIC,figures as edition furnishing,0,1,0.0
+ARABIC,figures as ancient/learned apparatus,0,1,0.0
+ARABIC,visual claim but no metadata diagrams,0,1,0.0
+ARABIC,metadata diagrams but no visual claim,0,1,0.0
+CHINESE,visual title claim,0,2,0.0
+CHINESE,metadata diagrams,0,2,0.0
+CHINESE,figures as proof apparatus,0,2,0.0
+CHINESE,figures as practical operation,0,2,0.0
+CHINESE,figures as visual pedagogy,0,2,0.0
+CHINESE,figures as edition furnishing,0,2,0.0
+CHINESE,figures as ancient/learned apparatus,0,2,0.0
+CHINESE,visual claim but no metadata diagrams,0,2,0.0
+CHINESE,metadata diagrams but no visual claim,0,2,0.0
+DUTCH,visual title claim,13,51,25.5
+DUTCH,metadata diagrams,6,51,11.8
+DUTCH,figures as proof apparatus,11,51,21.6
+DUTCH,figures as practical operation,8,51,15.7
+DUTCH,figures as visual pedagogy,9,51,17.6
+DUTCH,figures as edition furnishing,12,51,23.5
+DUTCH,figures as ancient/learned apparatus,11,51,21.6
+DUTCH,visual claim but no metadata diagrams,13,51,25.5
+DUTCH,metadata diagrams but no visual claim,6,51,11.8
+Dutch,visual title claim,0,1,0.0
+Dutch,metadata diagrams,0,1,0.0
+Dutch,figures as proof apparatus,0,1,0.0
+Dutch,figures as practical operation,0,1,0.0
+Dutch,figures as visual pedagogy,0,1,0.0
+Dutch,figures as edition furnishing,0,1,0.0
+Dutch,figures as ancient/learned apparatus,0,1,0.0
+Dutch,visual claim but no metadata diagrams,0,1,0.0
+Dutch,metadata diagrams but no visual claim,0,1,0.0
+ENGLISH,visual title claim,20,67,29.9
+ENGLISH,metadata diagrams,6,67,9.0
+ENGLISH,figures as proof apparatus,6,67,9.0
+ENGLISH,figures as practical operation,13,67,19.4
+ENGLISH,figures as visual pedagogy,12,67,17.9
+ENGLISH,figures as edition furnishing,20,67,29.9
+ENGLISH,figures as ancient/learned apparatus,3,67,4.5
+ENGLISH,visual claim but no metadata diagrams,19,67,28.4
+ENGLISH,metadata diagrams but no visual claim,5,67,7.5
+FRENCH,visual title claim,40,262,15.3
+FRENCH,metadata diagrams,40,262,15.3
+FRENCH,figures as proof apparatus,16,262,6.1
+FRENCH,figures as practical operation,18,262,6.9
+FRENCH,figures as visual pedagogy,9,262,3.4
+FRENCH,figures as edition furnishing,31,262,11.8
+FRENCH,figures as ancient/learned apparatus,13,262,5.0
+FRENCH,visual claim but no metadata diagrams,35,262,13.4
+FRENCH,metadata diagrams but no visual claim,35,262,13.4
+GERMAN,visual title claim,12,58,20.7
+GERMAN,metadata diagrams,15,58,25.9
+GERMAN,figures as proof apparatus,4,58,6.9
+GERMAN,figures as practical operation,2,58,3.4
+GERMAN,figures as visual pedagogy,4,58,6.9
+GERMAN,figures as edition furnishing,3,58,5.2
+GERMAN,figures as ancient/learned apparatus,5,58,8.6
+GERMAN,visual claim but no metadata diagrams,8,58,13.8
+GERMAN,metadata diagrams but no visual claim,11,58,19.0
+GREEK,visual title claim,2,16,12.5
+GREEK,metadata diagrams,0,16,0.0
+GREEK,figures as proof apparatus,1,16,6.2
+GREEK,figures as practical operation,0,16,0.0
+GREEK,figures as visual pedagogy,0,16,0.0
+GREEK,figures as edition furnishing,2,16,12.5
+GREEK,figures as ancient/learned apparatus,2,16,12.5
+GREEK,visual claim but no metadata diagrams,2,16,12.5
+GREEK,metadata diagrams but no visual claim,0,16,0.0
+ITALIAN,visual title claim,13,64,20.3
+ITALIAN,metadata diagrams,27,64,42.2
+ITALIAN,figures as proof apparatus,1,64,1.6
+ITALIAN,figures as practical operation,2,64,3.1
+ITALIAN,figures as visual pedagogy,4,64,6.2
+ITALIAN,figures as edition furnishing,1,64,1.6
+ITALIAN,figures as ancient/learned apparatus,7,64,10.9
+ITALIAN,visual claim but no metadata diagrams,7,64,10.9
+ITALIAN,metadata diagrams but no visual claim,21,64,32.8
+LATIN,visual title claim,44,306,14.4
+LATIN,metadata diagrams,51,306,16.7
+LATIN,figures as proof apparatus,18,306,5.9
+LATIN,figures as practical operation,5,306,1.6
+LATIN,figures as visual pedagogy,6,306,2.0
+LATIN,figures as edition furnishing,38,306,12.4
+LATIN,figures as ancient/learned apparatus,30,306,9.8
+LATIN,visual claim but no metadata diagrams,33,306,10.8
+LATIN,metadata diagrams but no visual claim,40,306,13.1
+PORTUGUESE,visual title claim,0,1,0.0
+PORTUGUESE,metadata diagrams,0,1,0.0
+PORTUGUESE,figures as proof apparatus,0,1,0.0
+PORTUGUESE,figures as practical operation,0,1,0.0
+PORTUGUESE,figures as visual pedagogy,0,1,0.0
+PORTUGUESE,figures as edition furnishing,0,1,0.0
+PORTUGUESE,figures as ancient/learned apparatus,0,1,0.0
+PORTUGUESE,visual claim but no metadata diagrams,0,1,0.0
+PORTUGUESE,metadata diagrams but no visual claim,0,1,0.0
+SPANISH,visual title claim,0,12,0.0
+SPANISH,metadata diagrams,2,12,16.7
+SPANISH,figures as proof apparatus,0,12,0.0
+SPANISH,figures as practical operation,0,12,0.0
+SPANISH,figures as visual pedagogy,0,12,0.0
+SPANISH,figures as edition furnishing,0,12,0.0
+SPANISH,figures as ancient/learned apparatus,0,12,0.0
+SPANISH,visual claim but no metadata diagrams,0,12,0.0
+SPANISH,metadata diagrams but no visual claim,2,12,16.7
+SWEDISH,visual title claim,0,2,0.0
+SWEDISH,metadata diagrams,0,2,0.0
+SWEDISH,figures as proof apparatus,0,2,0.0
+SWEDISH,figures as practical operation,0,2,0.0
+SWEDISH,figures as visual pedagogy,0,2,0.0
+SWEDISH,figures as edition furnishing,0,2,0.0
+SWEDISH,figures as ancient/learned apparatus,0,2,0.0
+SWEDISH,visual claim but no metadata diagrams,0,2,0.0
+SWEDISH,metadata diagrams but no visual claim,0,2,0.0

@@ -1,0 +1,13 @@
+marker,value,n,mode_sparse_canonical_pct,mode_sparse_canonical_count,sparse_canonical_identity_pct,sparse_canonical_identity_count,no_visible_social_arena_pct,no_visible_social_arena_count,avg_rich_claim_count,avg_social_arena_count,avg_tps_feature_has_count,avg_density_score
+any_school_or_institution,0,170,23.5,40,9.4,16,71.8,122,3.39,0.42,10.21,5.85
+any_school_or_institution,1,116,3.4,4,2.6,3,2.6,3,4.53,2.11,12.45,9.14
+pedagogical_school_arena,0,219,19.2,42,7.8,17,57.1,125,3.71,0.66,10.65,6.5
+pedagogical_school_arena,1,67,3.0,2,3.0,2,0.0,0,4.33,2.55,12.64,9.41
+religious_institutional_arena,0,226,19.0,43,8.0,18,55.3,125,3.67,0.88,10.79,6.71
+religious_institutional_arena,1,60,1.7,1,1.7,1,0.0,0,4.55,1.95,12.37,8.97
+inst_jesuit,0,261,16.5,43,7.3,19,46.7,122,3.78,1.05,10.95,7.01
+inst_jesuit,1,25,4.0,1,0.0,0,12.0,3,4.64,1.72,12.88,8.94
+inst_universities_academies_colleges,0,281,15.7,44,6.8,19,44.5,125,3.85,1.09,11.07,7.16
+inst_universities_academies_colleges,1,5,0.0,0,0.0,0,0.0,0,3.8,2.0,13.8,8.56
+aud_students_learners,0,276,15.9,44,6.9,19,44.6,123,3.82,1.08,11.08,7.12
+aud_students_learners,1,10,0.0,0,0.0,0,20.0,2,4.7,1.7,12.3,8.86

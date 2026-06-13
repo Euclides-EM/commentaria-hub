@@ -1,0 +1,33 @@
+family,metric,label,plain_1_6_n,plain_1_6_count,plain_1_6_pct,plus_solids_n,plus_solids_count,plus_solids_pct,delta_plus_solids_minus_plain
+natural_mode,mode_practical_public,Practical/public natural mode,81,19,23.5,39,23,59.0,35.5
+social,religious_institutional_arena,Religious institutional arena,81,14,17.3,39,19,48.7,31.4
+institution,inst_jesuit,Jesuit institution marker,81,6,7.4,39,13,33.3,25.9
+archetype,utility_public_book,Utility public book,81,0,0.0,39,10,25.6,25.6
+claim,claim_accessibility_clarity_pedagogy,Accessibility/ease/pedagogy claim,81,10,12.3,39,14,35.9,23.6
+claim,claim_utility_practice_application,Utility/practice/application claim,81,5,6.2,39,11,28.2,22.0
+audience,aud_general_readers_lovers,General readers/lovers audience,81,0,0.0,39,8,20.5,20.5
+social,military_fortification_arena,Military/fortification arena,81,1,1.2,39,8,20.5,19.3
+social,learned_scholarly_arena,Learned/scholarly arena,81,20,24.7,39,17,43.6,18.9
+archetype,method_access_book,Method/access book,81,8,9.9,39,11,28.2,18.3
+claim,claim_method_demonstration_order,Method/demonstration/order claim,81,39,48.1,39,25,64.1,16.0
+natural_mode,mode_humanist_ancient,Humanist/ancient natural mode,81,67,82.7,39,38,97.4,14.7
+natural_mode,mode_institutional_authority,Institutional authority natural mode,81,62,76.5,39,35,89.7,13.2
+archetype,procedural_pedagogical_identity,Procedural/pedagogical identity,81,44,54.3,39,26,66.7,12.3
+natural_mode,mode_pedagogical_method,Pedagogical/method natural mode,81,55,67.9,39,31,79.5,11.6
+role,role_mathematics_professor_lecturer,Mathematics professor/lecturer role,81,5,6.2,39,6,15.4,9.2
+social,pedagogical_school_arena,Pedagogical/school arena,81,20,24.7,39,13,33.3,8.6
+claim,claim_correction_revision_accuracy,Correction/revision/accuracy claim,81,18,22.2,39,12,30.8,8.5
+audience,aud_military_users,Military users audience,81,0,0.0,39,3,7.7,7.7
+institution,inst_engineering_military_schools,Engineering/military school marker,81,0,0.0,39,1,2.6,2.6
+archetype,sparse_canonical_identity,Sparse canonical identity,81,6,7.4,39,2,5.1,-2.3
+claim,claim_visual_material_aids,Visual/material aid claim,81,11,13.6,39,4,10.3,-3.3
+natural_mode,mode_composite_apparatus,Composite/apparatus natural mode,81,51,63.0,39,23,59.0,-4.0
+social,general_public_lovers_arena,General public/lovers arena,81,10,12.3,39,3,7.7,-4.7
+social,professional_practical_arena,Professional/practical arena,81,7,8.6,39,1,2.6,-6.1
+audience,aud_students_learners,Students/learners audience,81,9,11.1,39,1,2.6,-8.5
+natural_mode,mode_sparse_canonical,Sparse/canonical natural mode,81,19,23.5,39,4,10.3,-13.2
+natural_mode,mode_vernacular_transfer,Vernacular/transfer natural mode,81,30,37.0,39,9,23.1,-14.0
+claim,claim_augmentation_enrichment_composition,Augmentation/enrichment/composition claim,81,34,42.0,39,10,25.6,-16.3
+archetype,composite_workshop_book,Composite workshop book,81,29,35.8,39,7,17.9,-17.9
+claim,claim_translation_vernacularization_transfer,Translation/vernacular transfer claim,81,17,21.0,39,1,2.6,-18.4
+social,no_visible_social_arena,No visible social arena,81,37,45.7,39,7,17.9,-27.7

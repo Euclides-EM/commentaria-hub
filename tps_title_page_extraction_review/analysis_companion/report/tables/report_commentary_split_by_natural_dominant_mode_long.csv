@@ -1,0 +1,57 @@
+group,commentary_type,count,denominator,pct
+composite/apparatus,ancient_humanist_scholia,1,6,16.7
+composite/apparatus,clavius_jesuit_commentary,0,6,0.0
+composite/apparatus,pedagogical_explanation,1,6,16.7
+composite/apparatus,notes_annotations_observations,2,6,33.3
+composite/apparatus,contracted_or_extracted_commentary,0,6,0.0
+composite/apparatus,scholia_general,0,6,0.0
+composite/apparatus,any_commentary_split,2,6,33.3
+humanist/vernacular transfer,ancient_humanist_scholia,7,23,30.4
+humanist/vernacular transfer,clavius_jesuit_commentary,0,23,0.0
+humanist/vernacular transfer,pedagogical_explanation,1,23,4.3
+humanist/vernacular transfer,notes_annotations_observations,0,23,0.0
+humanist/vernacular transfer,contracted_or_extracted_commentary,0,23,0.0
+humanist/vernacular transfer,scholia_general,0,23,0.0
+humanist/vernacular transfer,any_commentary_split,7,23,30.4
+institutional-composite,ancient_humanist_scholia,20,113,17.7
+institutional-composite,clavius_jesuit_commentary,8,113,7.1
+institutional-composite,pedagogical_explanation,11,113,9.7
+institutional-composite,notes_annotations_observations,9,113,8.0
+institutional-composite,contracted_or_extracted_commentary,3,113,2.7
+institutional-composite,scholia_general,12,113,10.6
+institutional-composite,any_commentary_split,45,113,39.8
+institutional/authority,ancient_humanist_scholia,0,8,0.0
+institutional/authority,clavius_jesuit_commentary,0,8,0.0
+institutional/authority,pedagogical_explanation,0,8,0.0
+institutional/authority,notes_annotations_observations,0,8,0.0
+institutional/authority,contracted_or_extracted_commentary,0,8,0.0
+institutional/authority,scholia_general,0,8,0.0
+institutional/authority,any_commentary_split,0,8,0.0
+low-signal/other,ancient_humanist_scholia,0,12,0.0
+low-signal/other,clavius_jesuit_commentary,0,12,0.0
+low-signal/other,pedagogical_explanation,0,12,0.0
+low-signal/other,notes_annotations_observations,0,12,0.0
+low-signal/other,contracted_or_extracted_commentary,0,12,0.0
+low-signal/other,scholia_general,0,12,0.0
+low-signal/other,any_commentary_split,0,12,0.0
+pedagogical/method,ancient_humanist_scholia,3,29,10.3
+pedagogical/method,clavius_jesuit_commentary,0,29,0.0
+pedagogical/method,pedagogical_explanation,3,29,10.3
+pedagogical/method,notes_annotations_observations,1,29,3.4
+pedagogical/method,contracted_or_extracted_commentary,2,29,6.9
+pedagogical/method,scholia_general,0,29,0.0
+pedagogical/method,any_commentary_split,8,29,27.6
+practical-pedagogical,ancient_humanist_scholia,5,72,6.9
+practical-pedagogical,clavius_jesuit_commentary,2,72,2.8
+practical-pedagogical,pedagogical_explanation,21,72,29.2
+practical-pedagogical,notes_annotations_observations,4,72,5.6
+practical-pedagogical,contracted_or_extracted_commentary,0,72,0.0
+practical-pedagogical,scholia_general,2,72,2.8
+practical-pedagogical,any_commentary_split,30,72,41.7
+sparse/canonical,ancient_humanist_scholia,0,21,0.0
+sparse/canonical,clavius_jesuit_commentary,0,21,0.0
+sparse/canonical,pedagogical_explanation,0,21,0.0
+sparse/canonical,notes_annotations_observations,0,21,0.0
+sparse/canonical,contracted_or_extracted_commentary,0,21,0.0
+sparse/canonical,scholia_general,0,21,0.0
+sparse/canonical,any_commentary_split,0,21,0.0

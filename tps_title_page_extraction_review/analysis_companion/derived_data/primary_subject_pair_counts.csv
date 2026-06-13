@@ -1,0 +1,136 @@
+subject_a,subject_b,count
+Instrument Use,Practical Geometry,36
+Practical Geometry,Surveying,35
+Practical Geometry,Theoretical Mathematics,27
+Arithmetic,Commercial Mathematics,27
+Arithmetic,Theoretical Mathematics,25
+Arithmetic,Practical Geometry,24
+Theoretical Mathematics,Trigonometry,18
+Practical Geometry,Trigonometry,17
+Arithmetic,Trigonometry,16
+Astronomy,Geography,14
+Perspective,Practical Geometry,13
+Astronomy,Theoretical Mathematics,12
+Instrument Construction,Instrument Use,12
+Arithmetic,Astronomy,12
+Construction,Practical Geometry,11
+Astronomy,Instrument Use,11
+Construction,Military Engineering,11
+Military Engineering,Practical Geometry,11
+Instrument Use,Surveying,10
+Arithmetic,Military Engineering,9
+Architecture,Practical Geometry,9
+Arithmetic,Music Theory,9
+Instrument Construction,Practical Geometry,9
+Architecture,Military Engineering,8
+Astronomy,Practical Geometry,8
+Architecture,Perspective,8
+Astronomy,Cosmography,8
+Arithmetic,Geography,8
+Military Engineering,Trigonometry,8
+Arithmetic,Surveying,8
+Astronomy,Gnomonics & Horology,7
+Astronomy,Navigation,7
+Gnomonics & Horology,Instrument Construction,6
+Astronomy,Trigonometry,6
+Architecture,Construction,6
+Instrument Use,Trigonometry,6
+Arithmetic,Instrument Use,6
+Cosmography,Geography,6
+Gnomonics & Horology,Instrument Use,6
+Arithmetic,Mechanics,6
+Gnomonics & Horology,Practical Geometry,6
+Cartography,Practical Geometry,6
+Military Engineering,Perspective,6
+Arithmetic,Cosmography,6
+Military Engineering,Surveying,5
+Instrument Use,Perspective,5
+Construction,Trigonometry,5
+Astronomy,Instrument Construction,5
+Arithmetic,Gnomonics & Horology,5
+Cosmography,Navigation,4
+Commercial Mathematics,Practical Geometry,4
+Geography,Trigonometry,4
+Music Theory,Theoretical Mathematics,4
+Cosmography,Gnomonics & Horology,4
+Commercial Mathematics,Surveying,4
+Instrument Use,Navigation,4
+Surveying,Theoretical Mathematics,4
+Instrument Use,Theoretical Mathematics,4
+Arithmetic,Construction,4
+Cartography,Instrument Use,4
+Gnomonics & Horology,Mechanics,3
+Geography,Navigation,3
+Geography,Practical Geometry,3
+Astronomy,Music Theory,3
+Navigation,Trigonometry,3
+Architecture,Arithmetic,3
+Gnomonics & Horology,Theoretical Mathematics,3
+Gnomonics & Horology,Trigonometry,3
+Geography,Gnomonics & Horology,3
+Instrument Construction,Trigonometry,3
+Military Engineering,Theoretical Mathematics,3
+Instrument Use,Military Engineering,3
+Architecture,Theoretical Mathematics,3
+Astronomy,Cartography,3
+Navigation,Theoretical Mathematics,3
+Cosmography,Practical Geometry,3
+Construction,Perspective,3
+Cosmography,Instrument Use,3
+Cartography,Geography,3
+Astronomy,Perspective,3
+Cosmography,Theoretical Mathematics,2
+Arithmetic,Instrument Construction,2
+Arithmetic,Perspective,2
+Instrument Construction,Theoretical Mathematics,2
+Commercial Mathematics,Trigonometry,2
+Architecture,Geography,2
+Arithmetic,Navigation,2
+Cartography,Surveying,2
+Surveying,Trigonometry,2
+Construction,Instrument Use,2
+Cartography,Navigation,2
+Architecture,Trigonometry,2
+Mechanics,Practical Geometry,2
+Mechanics,Theoretical Mathematics,2
+Instrument Construction,Navigation,2
+Construction,Mechanics,2
+Cosmography,Trigonometry,2
+Cartography,Cosmography,2
+Geography,Instrument Use,2
+Cosmography,Mechanics,2
+Navigation,Practical Geometry,2
+Architecture,Mechanics,2
+Perspective,Surveying,2
+Perspective,Theoretical Mathematics,2
+Mechanics,Trigonometry,2
+Construction,Surveying,2
+Gnomonics & Horology,Navigation,2
+Architecture,Cosmography,1
+Music Theory,Perspective,1
+Architecture,Gnomonics & Horology,1
+Arithmetic,Cartography,1
+Perspective,Trigonometry,1
+Architecture,Surveying,1
+Music Theory,Practical Geometry,1
+Cartography,Gnomonics & Horology,1
+Mechanics,Perspective,1
+Mechanics,Military Engineering,1
+Cartography,Theoretical Mathematics,1
+Cartography,Trigonometry,1
+Commercial Mathematics,Instrument Use,1
+Commercial Mathematics,Theoretical Mathematics,1
+Construction,Geography,1
+Astronomy,Surveying,1
+Construction,Theoretical Mathematics,1
+Architecture,Astronomy,1
+Cosmography,Instrument Construction,1
+Geography,Mechanics,1
+Geography,Military Engineering,1
+Geography,Perspective,1
+Geography,Theoretical Mathematics,1
+Astronomy,Mechanics,1
+Gnomonics & Horology,Military Engineering,1
+Instrument Construction,Surveying,1
+Instrument Use,Mechanics,1
+Gnomonics & Horology,Perspective,1

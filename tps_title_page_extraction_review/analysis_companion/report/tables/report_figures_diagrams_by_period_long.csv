@@ -1,0 +1,55 @@
+group,marker,count,denominator,pct
+1550-1599,visual title claim,29,180,16.1
+1550-1599,metadata diagrams,91,180,50.6
+1550-1599,figures as proof apparatus,12,180,6.7
+1550-1599,figures as practical operation,5,180,2.8
+1550-1599,figures as visual pedagogy,3,180,1.7
+1550-1599,figures as edition furnishing,18,180,10.0
+1550-1599,figures as ancient/learned apparatus,16,180,8.9
+1550-1599,visual claim but no metadata diagrams,10,180,5.6
+1550-1599,metadata diagrams but no visual claim,72,180,40.0
+1600-1649,visual title claim,59,323,18.3
+1600-1649,metadata diagrams,17,323,5.3
+1600-1649,figures as proof apparatus,28,323,8.7
+1600-1649,figures as practical operation,23,323,7.1
+1600-1649,figures as visual pedagogy,18,323,5.6
+1600-1649,figures as edition furnishing,45,323,13.9
+1600-1649,figures as ancient/learned apparatus,27,323,8.4
+1600-1649,visual claim but no metadata diagrams,57,323,17.6
+1600-1649,metadata diagrams but no visual claim,15,323,4.6
+1650-1699,visual title claim,28,203,13.8
+1650-1699,metadata diagrams,8,203,3.9
+1650-1699,figures as proof apparatus,11,203,5.4
+1650-1699,figures as practical operation,10,203,4.9
+1650-1699,figures as visual pedagogy,14,203,6.9
+1650-1699,figures as edition furnishing,22,203,10.8
+1650-1699,figures as ancient/learned apparatus,10,203,4.9
+1650-1699,visual claim but no metadata diagrams,27,203,13.3
+1650-1699,metadata diagrams but no visual claim,7,203,3.4
+1700+,visual title claim,15,55,27.3
+1700+,metadata diagrams,0,55,0.0
+1700+,figures as proof apparatus,6,55,10.9
+1700+,figures as practical operation,9,55,16.4
+1700+,figures as visual pedagogy,7,55,12.7
+1700+,figures as edition furnishing,12,55,21.8
+1700+,figures as ancient/learned apparatus,9,55,16.4
+1700+,visual claim but no metadata diagrams,15,55,27.3
+1700+,metadata diagrams but no visual claim,0,55,0.0
+pre-1550,visual title claim,13,81,16.0
+pre-1550,metadata diagrams,31,81,38.3
+pre-1550,figures as proof apparatus,0,81,0.0
+pre-1550,figures as practical operation,1,81,1.2
+pre-1550,figures as visual pedagogy,2,81,2.5
+pre-1550,figures as edition furnishing,10,81,12.3
+pre-1550,figures as ancient/learned apparatus,9,81,11.1
+pre-1550,visual claim but no metadata diagrams,8,81,9.9
+pre-1550,metadata diagrams but no visual claim,26,81,32.1
+unknown,visual title claim,0,1,0.0
+unknown,metadata diagrams,0,1,0.0
+unknown,figures as proof apparatus,0,1,0.0
+unknown,figures as practical operation,0,1,0.0
+unknown,figures as visual pedagogy,0,1,0.0
+unknown,figures as edition furnishing,0,1,0.0
+unknown,figures as ancient/learned apparatus,0,1,0.0
+unknown,visual claim but no metadata diagrams,0,1,0.0
+unknown,metadata diagrams but no visual claim,0,1,0.0

@@ -1,0 +1,1793 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Place of Euclid's Elements in Early Modern Mathematical Print</title>
+<style>
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #111;
+  line-height: 1.48;
+  max-width: 980px;
+  margin: 2.2rem auto;
+  padding: 0 2rem 4rem;
+}
+h1, h2, h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+h2 {
+  border-top: 1px solid #ddd;
+  padding-top: 1.1rem;
+  margin-top: 2.4rem;
+}
+h3 {
+  margin-top: 1.8rem;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0 1.4rem;
+  font-size: 0.88rem;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.35rem 0.45rem;
+  vertical-align: top;
+}
+th {
+  background: #f2f2f2;
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin: 1rem auto 1.6rem;
+  page-break-inside: avoid;
+}
+code {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.9em;
+}
+blockquote {
+  border-left: 3px solid #bbb;
+  margin-left: 0;
+  padding-left: 1rem;
+  color: #333;
+}
+@media print {
+  body {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10.5pt;
+  }
+  h1, h2 {
+    page-break-after: avoid;
+  }
+  table, img {
+    page-break-inside: avoid;
+  }
+}
+</style>
+</head>
+<body>
+<h1 id="the-place-of-euclids-elements-in-early-modern-mathematical-print-a-title-page-ecology">The Place of Euclid's Elements in Early Modern Mathematical Print: A Title-Page Ecology</h1>
+<p>Leading question:</p>
+<p><strong>What place did the metadata-defined Elements corpus occupy in the broader ecology of early modern mathematical print, and how did title pages construct that place through social address, intellectual values, and acts of textual/mathematical mediation?</strong></p>
+<p>Reader's note:</p>
+<p>This report is written for later reading and annotation. It assumes no memory of the exploratory analysis that produced it. Technical feature names, generated tables, and classification details are kept in the appendices where possible; the main text uses historical descriptions and defines the few repeated analytical terms it needs.</p>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Section</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">-</td>
+<td>Key Terms</td>
+</tr>
+<tr>
+<td style="text-align: right;">0</td>
+<td>Executive Argument</td>
+</tr>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Corpus, Object, And Reading Strategy</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>The Surrounding Mathematical Print Ecology</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Locating The Elements Within The Ecology</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>The Internal Ecology Of The Elements Corpus</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>Book Coverage As Historical Repackaging</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>Format, Size, And Material Presentation</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>Social Worlds Of The Elements</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>Intellectual Values Of The Elements</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td>Mathematical Parts Of Euclid On Title Pages</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td>Restoration, Reconstruction, And Competing Euclids</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td>Boundaries And Gradients</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td>Silence, Density, And Title-Page Fashion</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td>Final Synthesis</td>
+</tr>
+<tr>
+<td style="text-align: right;">14</td>
+<td>Next Directions</td>
+</tr>
+<tr>
+<td style="text-align: right;">-</td>
+<td>Appendices</td>
+</tr>
+</tbody>
+</table>
+<h2 id="key-terms">Key Terms</h2>
+<p>The report uses a few repeated analytical terms. These are not self-evident historical categories; they are operational terms derived from title-page features.</p>
+<table>
+<thead>
+<tr>
+<th>Term in prose</th>
+<th>Operational meaning in the data</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Metadata-defined Elements corpus</strong></td>
+<td>The representatives manually identified in the metadata as primarily editions of Euclid's <em>Elements</em>.</td>
+<td>This is the report's object. It is not defined by whether the title page happens to say "Euclid" or "Elements."</td>
+</tr>
+<tr>
+<td><strong>Surrounding mathematical ecology</strong></td>
+<td>The other representative mathematical title pages in the corpus: arithmetic, instruments, practical geometry, cosmography, mechanics, perspective, architecture, commerce, music, etc.</td>
+<td>This is the comparison field that lets us see what is distinctive about the Elements.</td>
+</tr>
+<tr>
+<td><strong>Explicit Euclid/book identity</strong></td>
+<td>The feature formerly labeled <code>claim_canonical_textual_identity</code>: title-page language presenting the work through Euclid, the <em>Elements</em>, numbered books, textual corpus identity, edition identity, or author/title authority.</td>
+<td>This measures whether a title page makes a book legible through an authoritative textual object, not merely through a practical use or subject.</td>
+</tr>
+<tr>
+<td><strong>Canon / canonical</strong></td>
+<td>In this report, "canonical" does <strong>not</strong> mean timeless, universally fixed, or inherently superior. It means that a title page treats a work, author, or textual corpus as an authoritative point of reference that can organize later mathematical labor: correction, translation, commentary, teaching, selection, reform, or application.</td>
+<td>This lets us say that Euclid is authoritative without assuming that the <em>Elements</em> was stable, uniform, or untouched.</td>
+</tr>
+<tr>
+<td><strong>Ancient authority/restoration</strong></td>
+<td>Claims that attach the work to ancient authority, recovery, correction of tradition, Greek/Latin humanist mediation, or restoration of an older text.</td>
+<td>This separates Euclid as an ancient textual authority from geometry as a general subject.</td>
+</tr>
+<tr>
+<td><strong>Mediation</strong></td>
+<td>Advertised acts performed on mathematical knowledge: translating, correcting, explaining, demonstrating, selecting, augmenting, furnishing with figures, reorganizing, or adapting.</td>
+<td>The core argument is about how title pages make the Elements into different kinds of usable object.</td>
+</tr>
+<tr>
+<td><strong>Direct practical/procedural application</strong></td>
+<td>Claims of use, practice, operation, construction, measurement, instruments, profession, examples, problems, or applied procedure.</td>
+<td>This is the strongest contrast with many non-Elements mathematical books.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="0-executive-argument">0. Executive Argument</h2>
+<p>The metadata-defined corpus of Euclid's <em>Elements</em> occupied a distinctive but flexible place in early modern mathematical print. Its title pages do not present it merely as a stable ancient text, nor simply as one branch of geometry. They present it as an authoritative demonstrative corpus repeatedly mediated through translation, correction, commentary, selection, explanation, new demonstrations, added figures, institutional authority, and practical adaptation.</p>
+<p>The broadest pattern is not a simple opposition between "theoretical Euclid" and "practical mathematics." The better distinction is between <strong>mediating an authoritative text</strong> and <strong>advertising direct practical or procedural application</strong>. Elements title pages overwhelmingly emphasize ancient authority, explicit Euclid/book identity, translation, correction, demonstration, and apparatus. Surrounding mathematical books more often advertise operations, instruments, professional users, visual aids, problems, examples, and direct utility. But the two zones are not sealed off from one another: Euclid also appears outside the Elements corpus as a foundation for practical geometry, and some Elements editions turn Euclid toward public, pedagogical, or practical use.</p>
+<p>This report therefore treats the Elements as a corpus with a stable metadata boundary but porous intellectual and social boundaries. Early modern print could make Euclid into several different things: an ancient text to be restored, a school object to be explained, a vernacular book to be transferred, a Jesuit or institutional corpus to be furnished, a sequence of propositions to be used, a set of demonstrations to be improved, or a foundation for practical geometrical work beyond the Elements itself.</p>
+<p>The central historical claim is that the title page is not only a label. It is a public statement of what kind of mathematical work the book performs. Across the corpus, title pages advertise acts: translating, correcting, augmenting, demonstrating, explaining, selecting, reducing, furnishing, and reorganizing. The Elements is especially visible as a corpus on which these acts are repeatedly performed.</p>
+<p><strong>Core contrast, in one table:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Title-page feature</th>
+<th style="text-align: right;">Elements</th>
+<th style="text-align: right;">Non-Elements</th>
+<th style="text-align: right;">Difference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ancient authority/restoration</td>
+<td style="text-align: right;">83.2%</td>
+<td style="text-align: right;">12.0%</td>
+<td style="text-align: right;">+71.2 pp</td>
+</tr>
+<tr>
+<td>Explicit Euclid/book identity</td>
+<td style="text-align: right;">86.7%</td>
+<td style="text-align: right;">26.6%</td>
+<td style="text-align: right;">+60.1 pp</td>
+</tr>
+<tr>
+<td>Method/demonstration/order</td>
+<td style="text-align: right;">42.0%</td>
+<td style="text-align: right;">16.3%</td>
+<td style="text-align: right;">+25.6 pp</td>
+</tr>
+<tr>
+<td>Any named deductive part</td>
+<td style="text-align: right;">57.7%</td>
+<td style="text-align: right;">34.8%</td>
+<td style="text-align: right;">+22.9 pp</td>
+</tr>
+<tr>
+<td>Translation/transfer</td>
+<td style="text-align: right;">26.2%</td>
+<td style="text-align: right;">8.4%</td>
+<td style="text-align: right;">+17.8 pp</td>
+</tr>
+<tr>
+<td>Augmentation/composition</td>
+<td style="text-align: right;">40.9%</td>
+<td style="text-align: right;">28.7%</td>
+<td style="text-align: right;">+12.2 pp</td>
+</tr>
+<tr>
+<td>Selection/extraction</td>
+<td style="text-align: right;">17.8%</td>
+<td style="text-align: right;">7.0%</td>
+<td style="text-align: right;">+10.8 pp</td>
+</tr>
+<tr>
+<td>Utility/practice/application</td>
+<td style="text-align: right;">7.7%</td>
+<td style="text-align: right;">17.8%</td>
+<td style="text-align: right;">-10.1 pp</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: the Elements does not stand apart because it is simply "theoretical." It stands apart because title pages attach practical, pedagogical, and editorial acts to an authoritative ancient proof-corpus. Non-Elements books more often present mathematical knowledge as immediate procedure, operation, use, or professional practice.</p>
+<p>Figure:</p>
+<p><img alt="Top Elements versus non-Elements contrasts" src="figures/bar_elements_vs_non_elements_top_contrasts.png"></p>
+<h2 id="1-corpus-object-and-reading-strategy">1. Corpus, Object, And Reading Strategy</h2>
+<p>This report studies a corpus of 843 representative title-page records from early modern mathematical print. Within it, 286 representatives are identified in the metadata as editions primarily belonging to Euclid's <em>Elements</em>. The remaining 557 representatives form the surrounding mathematical ecology: arithmetic, practical geometry, instruments, astronomy and cosmography, mechanics, military mathematics, perspective, architecture, commerce, music theory, and other mathematical or mixed mathematical books.</p>
+<p>The central object is not every book that mentions Euclid or uses the word "Elements" on its title page. The central object is the metadata-defined Elements corpus. Mentions of Euclid or "elements" outside that corpus are important, but they are treated as ecological comparison: they show how Euclidean authority and elementary mathematical organization circulated beyond books primarily identified as editions of Euclid's <em>Elements</em>.</p>
+<p>The evidence here is title-page evidence. A title page does not tell us everything in the book. It tells us how the book publicly presents itself: what authority it claims, what audiences it names, what intellectual values it advertises, what transformations it says have been performed, and what parts of mathematical knowledge it foregrounds. The report therefore distinguishes between three levels of evidence:</p>
+<ol>
+<li><strong>Advertised claims</strong>: words and phrases on the title page, such as translated, corrected, explained, augmented, demonstrated, or illustrated.</li>
+<li><strong>Inferred positioning</strong>: broader social or intellectual roles suggested by these claims, such as learned restoration, institutional teaching, practical utility, or vernacular access.</li>
+<li><strong>Book contents</strong>: the full internal structure of the edition, which would require separate reading beyond the title page.</li>
+</ol>
+<p>This distinction matters because silence on a title page is not absence from the book. A book can contain diagrams without advertising diagrams; it can contain axioms without making axioms a selling point. The report therefore reads title pages as public framing, not as full bibliographical or textual description.</p>
+<p>The data includes subject classifications, title-page feature tags, social markers, intellectual-value markers, metadata fields such as format, and derived groupings for the Elements corpus. These technical classifications are useful for aggregation, but the prose uses human descriptions: for example, "apparatus-rich Euclid" rather than an internal mode label, and "Euclid made teachable or usable" rather than a code name.</p>
+<p><strong>Corpus count:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Unit</th>
+<th style="text-align: right;">Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Representative title-page rows</td>
+<td style="text-align: right;">843</td>
+</tr>
+<tr>
+<td>Metadata-defined Elements representatives</td>
+<td style="text-align: right;">286</td>
+</tr>
+<tr>
+<td>Non-Elements representatives</td>
+<td style="text-align: right;">557</td>
+</tr>
+<tr>
+<td>Rows with at least one named deductive/mathematical part</td>
+<td style="text-align: right;">359</td>
+</tr>
+</tbody>
+</table>
+<p>The percentages in the report use these representative rows as denominators unless otherwise stated.</p>
+<h2 id="2-the-surrounding-mathematical-print-ecology">2. The Surrounding Mathematical Print Ecology</h2>
+<p>Before asking what is distinctive about the Elements, we need to understand the mathematical print ecology around it. That ecology is not organized by a simple pure/applied hierarchy. It is better understood as overlapping zones of mathematical work: geometry and theory, practical geometry and surveying, instruments and measurement, arithmetic and commerce, cosmography and astronomy, mechanics and military mathematics, visual and spatial arts, and music.</p>
+<p>The first non-trivial result is that subject zones have different title-page grammars. They do not merely name different content; they promote different virtues of mathematical knowledge.</p>
+<p><strong>Selected intellectual-value rates by subject zone:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Primary subject zone</th>
+<th style="text-align: right;">Augmentation/enrichment</th>
+<th style="text-align: right;">Method/demonstration</th>
+<th style="text-align: right;">Utility/application</th>
+<th style="text-align: right;">Correction/revision</th>
+<th style="text-align: right;">Visual materiality</th>
+<th style="text-align: right;">Ancient restoration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Instruments/Measurement</td>
+<td style="text-align: right;">21.2%</td>
+<td style="text-align: right;">20.2%</td>
+<td style="text-align: right;">16.3%</td>
+<td style="text-align: right;">9.6%</td>
+<td style="text-align: right;">13.5%</td>
+<td style="text-align: right;">3.8%</td>
+</tr>
+<tr>
+<td>Arithmetic/Commerce</td>
+<td style="text-align: right;">20.8%</td>
+<td style="text-align: right;">16.7%</td>
+<td style="text-align: right;">13.2%</td>
+<td style="text-align: right;">12.5%</td>
+<td style="text-align: right;">4.9%</td>
+<td style="text-align: right;">2.1%</td>
+</tr>
+<tr>
+<td>Applied Mechanics/Military</td>
+<td style="text-align: right;">15.8%</td>
+<td style="text-align: right;">17.5%</td>
+<td style="text-align: right;">7.0%</td>
+<td style="text-align: right;">8.8%</td>
+<td style="text-align: right;">8.8%</td>
+<td style="text-align: right;">1.8%</td>
+</tr>
+<tr>
+<td>Geometry/Theory</td>
+<td style="text-align: right;">15.8%</td>
+<td style="text-align: right;">14.2%</td>
+<td style="text-align: right;">7.1%</td>
+<td style="text-align: right;">6.1%</td>
+<td style="text-align: right;">6.4%</td>
+<td style="text-align: right;">11.8%</td>
+</tr>
+<tr>
+<td>Cosmos/Earth</td>
+<td style="text-align: right;">15.0%</td>
+<td style="text-align: right;">8.8%</td>
+<td style="text-align: right;">8.8%</td>
+<td style="text-align: right;">1.2%</td>
+<td style="text-align: right;">1.2%</td>
+<td style="text-align: right;">10.0%</td>
+</tr>
+<tr>
+<td>Visual/Spatial Arts</td>
+<td style="text-align: right;">3.6%</td>
+<td style="text-align: right;">9.1%</td>
+<td style="text-align: right;">4.5%</td>
+<td style="text-align: right;">3.6%</td>
+<td style="text-align: right;">6.4%</td>
+<td style="text-align: right;">0.9%</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: the practical zones are not simply "applied" in a flat sense. Instruments/measurement books sell mathematics as method plus utility plus visual/material apparatus. Arithmetic/commercial books sell it as corrected, augmented, usable procedure. Geometry/theory is the zone most naturally adjacent to the Elements because it has higher ancient-restoration and translation signals, but it is not isolated from utility or method.</p>
+<p>Figure:</p>
+<p><img alt="Subject zones by intellectual-value markers" src="figures/heatmap_subject_intellectual_rates.png"></p>
+<p>The second result is about social address. Explicit occupational audiences exist, but they are not the only social mechanism on title pages. Mathematical books also gain authority through offices, institutions, patrons, translators, editors, professors, religious orders, and civic or courtly affiliation.</p>
+<p><strong>Selected social rates by subject zone:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Primary subject zone</th>
+<th style="text-align: right;">General readers/lovers</th>
+<th style="text-align: right;">Math professor/lecturer</th>
+<th style="text-align: right;">Engineer/practitioner</th>
+<th style="text-align: right;">Surveyors/engineers</th>
+<th style="text-align: right;">Royal official</th>
+<th style="text-align: right;">Named private patron</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Applied Mechanics/Military</td>
+<td style="text-align: right;">10.5%</td>
+<td style="text-align: right;">10.5%</td>
+<td style="text-align: right;">5.3%</td>
+<td style="text-align: right;">1.8%</td>
+<td style="text-align: right;">21.1%</td>
+<td style="text-align: right;">21.1%</td>
+</tr>
+<tr>
+<td>Instruments/Measurement</td>
+<td style="text-align: right;">7.7%</td>
+<td style="text-align: right;">10.6%</td>
+<td style="text-align: right;">2.9%</td>
+<td style="text-align: right;">6.7%</td>
+<td style="text-align: right;">12.5%</td>
+<td style="text-align: right;">20.2%</td>
+</tr>
+<tr>
+<td>Geometry/Theory</td>
+<td style="text-align: right;">6.6%</td>
+<td style="text-align: right;">7.8%</td>
+<td style="text-align: right;">2.1%</td>
+<td style="text-align: right;">1.7%</td>
+<td style="text-align: right;">6.1%</td>
+<td style="text-align: right;">21.2%</td>
+</tr>
+<tr>
+<td>Arithmetic/Commerce</td>
+<td style="text-align: right;">4.9%</td>
+<td style="text-align: right;">8.3%</td>
+<td style="text-align: right;">1.4%</td>
+<td style="text-align: right;">1.4%</td>
+<td style="text-align: right;">3.5%</td>
+<td style="text-align: right;">10.4%</td>
+</tr>
+<tr>
+<td>Visual/Spatial Arts</td>
+<td style="text-align: right;">10.0%</td>
+<td style="text-align: right;">2.7%</td>
+<td style="text-align: right;">3.6%</td>
+<td style="text-align: right;">0.9%</td>
+<td style="text-align: right;">2.7%</td>
+<td style="text-align: right;">21.8%</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: title pages often authorize mathematical knowledge socially without naming a schoolroom or a profession. A named private patron, royal official, professor, city surveyor, Jesuit author, or translator can matter as much as an explicit "for students" or "for surveyors." This will matter later because Elements editions often relocate Euclid through institutional and editorial authority rather than through direct occupational audiences.</p>
+<p>Figure:</p>
+<p><img alt="Subject zones by social markers" src="figures/heatmap_subject_social_rates.png"></p>
+<p>The surrounding ecology therefore matters not as background noise but as the comparison that makes the Elements historically visible. It shows that early modern mathematical print offered multiple ways of making mathematics public: as professional tool, practical operation, visual method, learned text, pedagogical sequence, institutional curriculum, or corrected ancient authority.</p>
+<h2 id="3-locating-the-elements-within-the-ecology">3. Locating The Elements Within The Ecology</h2>
+<p>The metadata-defined Elements corpus is sharply distinctive, but not in the simple sense that it is "theoretical." Its title pages are distinctive because they bind an authoritative textual object to repeated acts of mediation.</p>
+<p><strong>Main Elements/non-Elements contrasts:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Definition used in this report</th>
+<th style="text-align: right;">Elements</th>
+<th style="text-align: right;">Non-Elements</th>
+<th>Historical reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ancient authority/restoration</td>
+<td>Ancient, Greek/Latin, recovered, corrected tradition, humanist authority</td>
+<td style="text-align: right;">83.2%</td>
+<td style="text-align: right;">12.0%</td>
+<td>The Elements is overwhelmingly framed as inherited authority.</td>
+</tr>
+<tr>
+<td>Explicit Euclid/book identity</td>
+<td>Euclid, Elements, numbered books, textual corpus identity, edition identity</td>
+<td style="text-align: right;">86.7%</td>
+<td style="text-align: right;">26.6%</td>
+<td>Elements title pages make the book legible as an authoritative corpus, not just a topic.</td>
+</tr>
+<tr>
+<td>Method/demonstration/order</td>
+<td>Demonstrated, methodized, ordered, proved, newly demonstrated</td>
+<td style="text-align: right;">42.0%</td>
+<td style="text-align: right;">16.3%</td>
+<td>Euclid's authority is often tied to demonstrative form.</td>
+</tr>
+<tr>
+<td>Named deductive/mathematical part</td>
+<td>Propositions, demonstrations, scholia, figures, corollaries, problems, etc.</td>
+<td style="text-align: right;">57.7%</td>
+<td style="text-align: right;">34.8%</td>
+<td>Elements title pages often advertise internal mathematical parts.</td>
+</tr>
+<tr>
+<td>Translation/transfer</td>
+<td>Translated, made vernacular, moved from Greek/Latin/French/etc.</td>
+<td style="text-align: right;">26.2%</td>
+<td style="text-align: right;">8.4%</td>
+<td>Translation is a major way Euclid is made socially portable.</td>
+</tr>
+<tr>
+<td>Utility/practice/application</td>
+<td>Use, practice, application, professional operation</td>
+<td style="text-align: right;">7.7%</td>
+<td style="text-align: right;">17.8%</td>
+<td>Non-Elements books advertise direct use more often.</td>
+</tr>
+</tbody>
+</table>
+<p>This table yields a sharper claim than the earlier prose: the Elements is a <strong>high-mediation corpus</strong>. Its title pages do not merely say "Euclid." They repeatedly say what has been done to Euclid: he has been restored, translated, corrected, demonstrated, selected, augmented, explained, or furnished.</p>
+<p>The named-parts evidence makes the intellectual difference more concrete:</p>
+<table>
+<thead>
+<tr>
+<th>Named part</th>
+<th style="text-align: right;">Elements</th>
+<th style="text-align: right;">Non-Elements</th>
+<th>Historical reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Demonstrations/proofs</td>
+<td style="text-align: right;">21.0%</td>
+<td style="text-align: right;">7.5%</td>
+<td>Demonstration is a distinctive selling point of Elements editions.</td>
+</tr>
+<tr>
+<td>Scholia/commentary</td>
+<td style="text-align: right;">13.6%</td>
+<td style="text-align: right;">6.5%</td>
+<td>Euclid is often presented as a commented or apparatus-bearing corpus.</td>
+</tr>
+<tr>
+<td>Propositions</td>
+<td style="text-align: right;">10.1%</td>
+<td style="text-align: right;">4.5%</td>
+<td>Propositions can become proof units, teaching units, or usable units.</td>
+</tr>
+<tr>
+<td>Principles</td>
+<td style="text-align: right;">9.4%</td>
+<td style="text-align: right;">3.1%</td>
+<td>Elements title pages often foreground foundations.</td>
+</tr>
+<tr>
+<td>Figures/diagrams</td>
+<td style="text-align: right;">7.3%</td>
+<td style="text-align: right;">7.7%</td>
+<td>Figures are not Elements-specific; their function must be interpreted.</td>
+</tr>
+<tr>
+<td>Operations/constructions</td>
+<td style="text-align: right;">1.0%</td>
+<td style="text-align: right;">4.1%</td>
+<td>Non-Elements books more often advertise operational mathematics.</td>
+</tr>
+<tr>
+<td>Problems</td>
+<td style="text-align: right;">1.4%</td>
+<td style="text-align: right;">3.8%</td>
+<td>Non-Elements books more often foreground problem-solving units.</td>
+</tr>
+<tr>
+<td>Examples</td>
+<td style="text-align: right;">1.0%</td>
+<td style="text-align: right;">2.2%</td>
+<td>Examples belong more to procedural/practical title-page rhetoric.</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: Elements title pages construct Euclid as a demonstrative-commentarial corpus. Neighboring mathematical books more often construct mathematics as problems, examples, operations, constructions, instruments, or uses. This is a more precise distinction than theory versus practice.</p>
+<p>The boundary is still porous. The bridge-case analysis treats four routes as overlapping, not mutually exclusive:</p>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th style="text-align: right;">Count</th>
+<th>What it means</th>
+<th style="text-align: right;">Important overlap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Euclid as restored/authoritative text</td>
+<td style="text-align: right;">162</td>
+<td>Metadata Elements editions framed through ancient authority, textual identity, correction, translation, apparatus</td>
+<td style="text-align: right;">17 also count as usable Elements</td>
+</tr>
+<tr>
+<td>Euclid made usable</td>
+<td style="text-align: right;">31</td>
+<td>Metadata Elements editions framed through explanation, method, utility, selection, students, propositions, or practice</td>
+<td style="text-align: right;">17 also count as restored/authoritative text</td>
+</tr>
+<tr>
+<td>Euclidean practical geometry</td>
+<td style="text-align: right;">67</td>
+<td>Non-Elements books invoking Euclid/Elements as foundation, method, or authority for practical geometry</td>
+<td style="text-align: right;">43 also count as professional/material practical arts</td>
+</tr>
+<tr>
+<td>Professional/material mathematical arts</td>
+<td style="text-align: right;">126</td>
+<td>Non-Elements books centered on instruments, surveying, construction, commerce, military, visual or material practice</td>
+<td style="text-align: right;">43 also count as Euclidean practical geometry</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: usability is usually not the opposite of canonical authority. More than half of the "Euclid made usable" route also belongs to the restored/authoritative-text route. The same is true from the other side: many practical mathematical books are not anti-Euclidean; they use Euclid as foundation or warrant.</p>
+<p>Figure:</p>
+<p><img alt="Bridge routes across Elements and non-Elements mathematical print" src="figures/heatmap_bridge_route_marker_rates.png"></p>
+<p>Two cases show the gradient clearly. <code>Paris_1622</code> presents the fifteen geometrical books of Euclid as translated from Greek into French, augmented with figures and demonstrations, and corrected against errors in other translations. It is not merely "vernacular" and not merely "learned"; it combines translation, correction, demonstration, visual furnishing, and ancient authority. <code>bib-9</code>, a 1544 Strasbourg practical geometry, is not a metadata Elements edition, but presents practical measurements of lines, surfaces, and bodies as derived from demonstrated Euclidean Elements. These two cases show the two directions of movement: Elements editions can become usable and vernacular, while non-Elements practical geometry can remain explicitly Euclidean.</p>
+<p>This is the first major answer to the leading question. The place of the Elements in early modern mathematical print was not fixed at one point on a pure/applied spectrum. It was a canonical proof-corpus whose authority made it available for many acts of mediation, and whose methods could also authorize books outside the Elements corpus.</p>
+<h2 id="4-the-internal-ecology-of-the-elements-corpus">4. The Internal Ecology Of The Elements Corpus</h2>
+<p>The metadata-defined Elements corpus is not internally uniform. It has several recurring title-page postures. These are not hard subcorpora or mutually exclusive species. They are patterns in how title pages make Euclid public.</p>
+<table>
+<thead>
+<tr>
+<th>Human-facing mode</th>
+<th>Operational definition</th>
+<th>Main historical function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apparatus-rich learned Euclid</td>
+<td>Editions advertised through additions, scholia, demonstrations, commentary, figures, correction, related texts, or institutional furnishing.</td>
+<td>Euclid as a learned corpus requiring equipment.</td>
+</tr>
+<tr>
+<td>Pedagogical or methodized Euclid</td>
+<td>Editions advertised through method, order, easy demonstrations, explanation, propositions, or teaching value.</td>
+<td>Euclid as a teachable sequence of mathematical reasoning.</td>
+</tr>
+<tr>
+<td>Practical-pedagogical Euclid</td>
+<td>Editions joining method or explanation to utility, selection, proposition-use, practical readers, or mathematical application.</td>
+<td>Euclid made usable without ceasing to be Euclid.</td>
+</tr>
+<tr>
+<td>Humanist or vernacular transfer</td>
+<td>Editions emphasizing translation, ancient authority, Greek/Latin mediation, or movement into a vernacular language.</td>
+<td>Euclid as cultural and textual transfer.</td>
+</tr>
+<tr>
+<td>Sparse authoritative Euclid</td>
+<td>Editions relying mainly on Euclid/<em>Elements</em> identity with few explicit social or intellectual claims.</td>
+<td>Euclid as a name strong enough to do title-page work, but this must be controlled for format/place/title fashion.</td>
+</tr>
+</tbody>
+</table>
+<p>The strongest data result is that the center of the Elements corpus is not sparse. It is dense. Many title pages combine ancient authority, explicit Euclid/book identity, method, apparatus, correction, translation, and named mathematical parts.</p>
+<p><strong>Selected rates by Elements posture:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Elements posture</th>
+<th style="text-align: right;">Explicit Euclid/book identity</th>
+<th style="text-align: right;">Ancient authority</th>
+<th style="text-align: right;">Method/order</th>
+<th style="text-align: right;">Any named part</th>
+<th style="text-align: right;">Augmentation</th>
+<th style="text-align: right;">Utility/practice</th>
+<th style="text-align: right;">Translation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Practical-pedagogical</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">95.8%</td>
+<td style="text-align: right;">56.9%</td>
+<td style="text-align: right;">79.2%</td>
+<td style="text-align: right;">61.1%</td>
+<td style="text-align: right;">30.6%</td>
+<td style="text-align: right;">22.2%</td>
+</tr>
+<tr>
+<td>Pedagogical/method</td>
+<td style="text-align: right;">93.1%</td>
+<td style="text-align: right;">79.3%</td>
+<td style="text-align: right;">79.3%</td>
+<td style="text-align: right;">79.3%</td>
+<td style="text-align: right;">17.2%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">3.4%</td>
+</tr>
+<tr>
+<td>Institutional-composite</td>
+<td style="text-align: right;">88.5%</td>
+<td style="text-align: right;">88.5%</td>
+<td style="text-align: right;">45.1%</td>
+<td style="text-align: right;">66.4%</td>
+<td style="text-align: right;">56.6%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">32.7%</td>
+</tr>
+<tr>
+<td>Humanist/vernacular transfer</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">21.7%</td>
+<td style="text-align: right;">21.7%</td>
+<td style="text-align: right;">8.7%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">78.3%</td>
+</tr>
+<tr>
+<td>Sparse authoritative</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">85.7%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">4.8%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">4.8%</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: practical or pedagogical Euclid is not a break from canonical Euclid. The practical-pedagogical route is also 100.0% explicit Euclid/book identity and 95.8% ancient authority. Use and pedagogy are added onto authority rather than replacing it.</p>
+<p>Figure:</p>
+<p><img alt="Elements postures by selected markers" src="figures/heatmap_elements_mode_marker_rates.png"></p>
+<p>The sparse authoritative route is the cautionary opposite. It shows that some Elements title pages rely heavily on Euclid's name or book identity and say little else. But because sparse presentation correlates with title-page fashion, city, language, format, and book coverage, it should not be turned into a major claim about intellectual silence. It is a controlled contrast, not the center of the argument.</p>
+<h2 id="5-book-coverage-as-historical-repackaging">5. Book Coverage As Historical Repackaging</h2>
+<p>The number of books of the <em>Elements</em> included is not merely bibliographic extent. It often corresponds to a different public version of Euclid.</p>
+<table>
+<thead>
+<tr>
+<th>Book group</th>
+<th>Operational definition</th>
+<th>Main title-page tendency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First six books</td>
+<td>Editions centered on books 1-6, usually plane geometry and foundations.</td>
+<td>Elementary, foundational, often portable; sometimes vernacular and practical.</td>
+</tr>
+<tr>
+<td>First six plus solid geometry</td>
+<td>Editions combining books 1-6 with books 11-12 or equivalent solid geometry.</td>
+<td>A more usable package: plane foundations plus enough solid geometry for practical or institutional mathematics.</td>
+</tr>
+<tr>
+<td>Near-complete or expanded</td>
+<td>Editions presenting most or all of the <em>Elements</em>, often with other Euclidean or mathematical material.</td>
+<td>Learned, apparatus-rich, translated, corrected, demonstrated Euclid.</td>
+</tr>
+<tr>
+<td>Selected later books</td>
+<td>Editions extracting later/difficult books or parts.</td>
+<td>Selection as learned handling or reform, not necessarily simplification.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Book coverage and advertised work:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Book group</th>
+<th style="text-align: right;">Method/order</th>
+<th style="text-align: right;">Any named part</th>
+<th style="text-align: right;">Propositions</th>
+<th style="text-align: right;">Demonstrations</th>
+<th style="text-align: right;">Commentary/scholia</th>
+<th style="text-align: right;">Utility/practice</th>
+<th style="text-align: right;">Translation</th>
+<th style="text-align: right;">Augmentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First six books</td>
+<td style="text-align: right;">48.1%</td>
+<td style="text-align: right;">63.0%</td>
+<td style="text-align: right;">1.2%</td>
+<td style="text-align: right;">24.7%</td>
+<td style="text-align: right;">9.9%</td>
+<td style="text-align: right;">6.2%</td>
+<td style="text-align: right;">21.0%</td>
+<td style="text-align: right;">42.0%</td>
+</tr>
+<tr>
+<td>First six plus solid geometry</td>
+<td style="text-align: right;">64.1%</td>
+<td style="text-align: right;">61.5%</td>
+<td style="text-align: right;">35.9%</td>
+<td style="text-align: right;">12.8%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">28.2%</td>
+<td style="text-align: right;">2.6%</td>
+<td style="text-align: right;">25.6%</td>
+</tr>
+<tr>
+<td>Near-complete/expanded</td>
+<td style="text-align: right;">49.3%</td>
+<td style="text-align: right;">61.2%</td>
+<td style="text-align: right;">9.0%</td>
+<td style="text-align: right;">34.3%</td>
+<td style="text-align: right;">23.9%</td>
+<td style="text-align: right;">1.5%</td>
+<td style="text-align: right;">41.8%</td>
+<td style="text-align: right;">55.2%</td>
+</tr>
+<tr>
+<td>Selected later books</td>
+<td style="text-align: right;">38.1%</td>
+<td style="text-align: right;">42.9%</td>
+<td style="text-align: right;">4.8%</td>
+<td style="text-align: right;">19.0%</td>
+<td style="text-align: right;">14.3%</td>
+<td style="text-align: right;">4.8%</td>
+<td style="text-align: right;">23.8%</td>
+<td style="text-align: right;">23.8%</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: first-six-books Euclid and first-six-plus-solid-geometry Euclid are not just shorter and longer versions of the same thing. They advertise different uses. First-six-books editions emphasize foundations, selection, translation, demonstrations, and sometimes practical vernacular operation. First-six-plus-solid-geometry editions are much more likely to advertise propositions and utility. Near-complete editions are more likely to be translated, augmented, corrected, demonstrated, and furnished with commentary.</p>
+<p>Figure:</p>
+<p><img alt="Elements book groups by selected markers" src="figures/heatmap_elements_bookgroup_marker_rates.png"></p>
+<p>The proposition-use result makes this sharper:</p>
+<table>
+<thead>
+<tr>
+<th>Book group</th>
+<th style="text-align: right;">Any proposition motif</th>
+<th style="text-align: right;">Use/application of propositions</th>
+<th style="text-align: right;">Demonstration motif</th>
+<th style="text-align: right;">Easy/clear demonstrations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First six books</td>
+<td style="text-align: right;">1.2%</td>
+<td style="text-align: right;">1.2%</td>
+<td style="text-align: right;">23.5%</td>
+<td style="text-align: right;">2.5%</td>
+</tr>
+<tr>
+<td>First six plus solid geometry</td>
+<td style="text-align: right;">35.9%</td>
+<td style="text-align: right;">20.5%</td>
+<td style="text-align: right;">12.8%</td>
+<td style="text-align: right;">10.3%</td>
+</tr>
+<tr>
+<td>Near-complete/expanded</td>
+<td style="text-align: right;">9.0%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">32.8%</td>
+<td style="text-align: right;">9.0%</td>
+</tr>
+<tr>
+<td>Selected later books</td>
+<td style="text-align: right;">4.8%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">19.0%</td>
+<td style="text-align: right;">4.8%</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: "use of propositions" is not a general Elements trait. It is concentrated in the first-six-plus-solid-geometry route, especially the Dechales/Reeve/Williams style of practical-pedagogical Euclid. Near-complete editions are more demonstration-heavy than proposition-use heavy. Plain first-six-books editions are often foundational and pedagogical, but not usually through explicit "use of every proposition" rhetoric.</p>
+<p>Two cases anchor this contrast. <code>Rotterdam_1647</code> presents the first six books through foundations of geometry, Dutch translation, explanation, correction, utilities drawn from Euclid, geometrical operations, public lovers of mathematics, and surveyor authority. It is practical without books 11-12. <code>London_1685a</code>, by contrast, presents the first six books plus solid geometry through explanation, demonstration, easy method, uses of each proposition, copper plates, translation, correction, and augmentation. It is practical-pedagogical through proposition-use and method.</p>
+<h2 id="6-format-size-and-material-presentation">6. Format, Size, And Material Presentation</h2>
+<p>Format is not a direct audience label. A folio is not automatically institutional, an octavo is not automatically a student book, and a duodecimo is not automatically popular. But format is material evidence: it changes price, portability, space for apparatus, likely reading setting, and local title-page convention. In this report, format is therefore used in two ways: as a historical clue about how an edition was packaged, and as a control against over-reading silence or density.</p>
+<p>Format codes follow the metadata: <code>2</code> = folio, <code>4</code> = quarto, <code>8</code> = octavo, <code>12</code> = duodecimo. The strongest evidence below is internal to the metadata-defined Elements corpus, where format is available for most representatives. Corpus-wide format comparison is weaker because many non-Elements rows have missing format metadata.</p>
+<p><strong>Elements format profile:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th style="text-align: right;">Elements reps.</th>
+<th style="text-align: right;">Share</th>
+<th style="text-align: right;">Sparse authoritative</th>
+<th style="text-align: right;">Avg. rich claims</th>
+<th style="text-align: right;">Avg. social arenas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Folio</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">18.9%</td>
+<td style="text-align: right;">9.3%</td>
+<td style="text-align: right;">3.67</td>
+<td style="text-align: right;">1.04</td>
+</tr>
+<tr>
+<td>Quarto</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">23.4%</td>
+<td style="text-align: right;">11.9%</td>
+<td style="text-align: right;">3.37</td>
+<td style="text-align: right;">1.27</td>
+</tr>
+<tr>
+<td>Octavo</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">38.8%</td>
+<td style="text-align: right;">15.3%</td>
+<td style="text-align: right;">4.30</td>
+<td style="text-align: right;">1.19</td>
+</tr>
+<tr>
+<td>Duodecimo</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">10.5%</td>
+<td style="text-align: right;">16.7%</td>
+<td style="text-align: right;">4.40</td>
+<td style="text-align: right;">0.93</td>
+</tr>
+<tr>
+<td>Other small formats</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">2.1%</td>
+<td style="text-align: right;">50.0%</td>
+<td style="text-align: right;">2.67</td>
+<td style="text-align: right;">0.17</td>
+</tr>
+<tr>
+<td>Missing/unknown</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">6.3%</td>
+<td style="text-align: right;">33.3%</td>
+<td style="text-align: right;">2.94</td>
+<td style="text-align: right;">0.78</td>
+</tr>
+</tbody>
+</table>
+<p>The first result is negative but important: smaller format does not mean thinner title-page rhetoric. Octavos and duodecimos have the highest average rich-claim counts in the Elements corpus. Their sparse-authoritative rates are higher than folios and quartos, but only modestly so for the main formats: 15.3% in octavos and 16.7% in duodecimos, compared with 9.3% in folios and 11.9% in quartos. This means format can help explain some silence, but it cannot explain away the dense pedagogical and methodological rhetoric of many small-format Elements editions.</p>
+<p>The second result is that each format packages Euclid differently.</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Strongest mode signals</th>
+<th>Main historical reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Folio</td>
+<td>composite apparatus 85.2%; humanist/ancient 81.5%; institutional authority 75.9%; augmentation 57.4%</td>
+<td>Folio Euclid most often appears as furnished learned apparatus: ancient authority, additions, commentary, and institutional weight.</td>
+</tr>
+<tr>
+<td>Quarto</td>
+<td>institutional authority 74.6%; humanist/ancient 77.6%; vernacular transfer 53.7%; composite apparatus 65.7%</td>
+<td>Quarto Euclid is the most mixed large-middle format: learned/institutional, but also strongly associated with translation and transfer.</td>
+</tr>
+<tr>
+<td>Octavo</td>
+<td>humanist/ancient 91.0%; pedagogical/method 79.3%; institutional authority 78.4%; correction 33.3%</td>
+<td>Octavo Euclid is not merely a cheap or stripped school object. It often combines portability with explicit authority, method, and correction.</td>
+</tr>
+<tr>
+<td>Duodecimo</td>
+<td>institutional authority 90.0%; humanist/ancient 90.0%; pedagogical/method 76.7%; practical/public 40.0%; access/clarity 40.0%; Jesuit 26.7%</td>
+<td>Duodecimo Euclid is the clearest case where small format looks pedagogical-institutional rather than simply popular.</td>
+</tr>
+</tbody>
+</table>
+<p>This matters for the report's social-intellectual argument. The small-format Elements editions do not simply move Euclid from learned culture into a public marketplace. They often make Euclid portable while keeping him tied to ancient authority, method, institutional legitimacy, and correction. The social signal is sometimes not a named reader but a teaching regime: Jesuit identity, university/academy markers, professorial roles, method, correction, and clarity.</p>
+<p>Book coverage sharpens this. Folios have the highest near-complete/expanded share among known formats: 38.9%, with a large unknown-book group as well. Duodecimos cluster around first-six-books and first-six-plus-solid-geometry packages: 33.3% each. Quartos and octavos are more mixed. This suggests that material packaging and textual packaging moved together: large formats more often support expanded or apparatus-heavy Euclid, while smaller formats often support foundational, teachable, or selectively useful Euclid. But the boundary is flexible, not absolute; octavos also include near-complete/expanded editions at 29.7%.</p>
+<p><strong>Book coverage by Elements format:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th style="text-align: right;">First six</th>
+<th style="text-align: right;">First six + solids</th>
+<th style="text-align: right;">Near-complete/expanded</th>
+<th style="text-align: right;">Selected later books</th>
+<th style="text-align: right;">Unknown books</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Folio</td>
+<td style="text-align: right;">18.5%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">38.9%</td>
+<td style="text-align: right;">3.7%</td>
+<td style="text-align: right;">35.2%</td>
+</tr>
+<tr>
+<td>Quarto</td>
+<td style="text-align: right;">29.9%</td>
+<td style="text-align: right;">10.4%</td>
+<td style="text-align: right;">11.9%</td>
+<td style="text-align: right;">13.4%</td>
+<td style="text-align: right;">25.4%</td>
+</tr>
+<tr>
+<td>Octavo</td>
+<td style="text-align: right;">27.9%</td>
+<td style="text-align: right;">15.3%</td>
+<td style="text-align: right;">29.7%</td>
+<td style="text-align: right;">8.1%</td>
+<td style="text-align: right;">9.9%</td>
+</tr>
+<tr>
+<td>Duodecimo</td>
+<td style="text-align: right;">33.3%</td>
+<td style="text-align: right;">33.3%</td>
+<td style="text-align: right;">10.0%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">13.3%</td>
+</tr>
+</tbody>
+</table>
+<p>The figure/diagram evidence adds a final warning. Across known-format rows in the broader corpus, folios and quartos have much higher metadata diagram rates than octavos and duodecimos, but octavos still have frequent visual title-page claims. In other words, visuality is not only a matter of physical diagram abundance. A title page may advertise figures, demonstrations, or visual method even when the metadata does not mark the book as diagram-rich.</p>
+<p><img alt="Figure and diagram functions by format" src="figures/heatmap_figures_diagrams_by_format.png"></p>
+<p><img alt="Elements title-page modes by format" src="figures/heatmap_format_elements_modes.png"></p>
+<p><img alt="Elements social and intellectual markers by format" src="figures/heatmap_format_elements_markers.png"></p>
+<p>Historical payoff: format should change how we interpret both audience and intellectual values. A sparse folio and a sparse octavo are not the same kind of silence. A duodecimo with Jesuit, method, correction, and ancient-authority language is not simply a small popular Euclid; it is a compact institutional-pedagogical Euclid. Conversely, a folio with augmentation and ancient apparatus is not just a larger container; it presents Euclid as a learned textual object capable of bearing correction, commentary, enrichment, and visual furnishing.</p>
+<h2 id="7-social-worlds-of-the-elements">7. Social Worlds Of The Elements</h2>
+<p>The title pages do not define the social place of the Elements only by naming readers. They also construct social authority through editors, translators, professors, Jesuits, city officers, patrons, and institutions. The key question is therefore not simply "who was Euclid for?" but "what social authority made this Euclid credible, teachable, or useful?"</p>
+<p>The Elements corpus has relatively low explicit occupational audience rates. For example, in the overall Elements/non-Elements contrast, surveyors/engineers appear in 0.0% of Elements representatives and 1.4% of non-Elements representatives; military users appear in about 1.0% of Elements and 1.1% of non-Elements. This does not mean the Elements has no social life. It means its social life is often mediated indirectly: through institutions, editors, translators, professors, religious orders, or public language rather than direct profession labels.</p>
+<p><strong>Social signals in major Elements book groups:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Book group</th>
+<th style="text-align: right;">Jesuit</th>
+<th style="text-align: right;">Math professor/lecturer</th>
+<th style="text-align: right;">General readers/lovers</th>
+<th style="text-align: right;">Students/learners</th>
+<th style="text-align: right;">Universities/academies</th>
+<th style="text-align: right;">Utility/practice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First six books</td>
+<td style="text-align: right;">7.4%</td>
+<td style="text-align: right;">6.2%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">11.1%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">6.2%</td>
+</tr>
+<tr>
+<td>First six plus solid geometry</td>
+<td style="text-align: right;">33.3%</td>
+<td style="text-align: right;">15.4%</td>
+<td style="text-align: right;">20.5%</td>
+<td style="text-align: right;">2.6%</td>
+<td style="text-align: right;">2.6%</td>
+<td style="text-align: right;">28.2%</td>
+</tr>
+<tr>
+<td>Near-complete/expanded</td>
+<td style="text-align: right;">4.5%</td>
+<td style="text-align: right;">14.9%</td>
+<td style="text-align: right;">3.0%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">1.5%</td>
+<td style="text-align: right;">1.5%</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: the social difference between book groups is real. First-six-plus-solid-geometry editions are much more socially explicit: high Jesuit signal, more professor/lecturer signal, more general readers/lovers, and much more utility. Near-complete editions are more learned and professorial but far less directly useful. First-six-books editions are relatively quiet socially but can still become practical through local cases such as the Dutch/Dou tradition.</p>
+<p>Cases show why percentages alone are not enough. <code>Rotterdam_1647</code> names public lovers of the liberal art and carries the authority of a city surveyor and wine-gauger. That is not a generic schoolbook social world; it is civic, vernacular, and practical. <code>Cologne_1591</code> and <code>Frankfurt_1607</code> point toward a different social world: Jesuit and Clavius-style institutional authority, where Euclid is furnished through demonstrations, scholia, correction, and learned apparatus. <code>London_1685a</code> then combines a Jesuit authorial source with English translation and practical-pedagogical proposition-use.</p>
+<p>This is the social-intellectual hinge of the report. Social address does not merely tell us who might read the book. It changes what counts as valuable Euclid: ancient restoration in a humanist setting, institutional apparatus in a Jesuit setting, public explanation in a vernacular setting, proposition-use in a practical-pedagogical setting, or civic operation in a surveyor's setting.</p>
+<h2 id="8-intellectual-values-of-the-elements">8. Intellectual Values Of The Elements</h2>
+<p>The intellectual values of the Elements are best understood as advertised acts of mediation. A title page can make Euclid valuable by saying he has been restored, translated, corrected, explained, demonstrated, selected, augmented, illustrated, or reorganized.</p>
+<p>Commentary is the clearest example of why the report must split broad labels into historical functions. "Commentary" does not always mean the same thing.</p>
+<p><strong>Commentary/explanation by corpus:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Commentary function</th>
+<th style="text-align: right;">Elements</th>
+<th style="text-align: right;">Non-Elements</th>
+<th>Historical reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Any commentary/explanation</td>
+<td style="text-align: right;">32.2%</td>
+<td style="text-align: right;">13.8%</td>
+<td>Commentary is much more central to the Elements.</td>
+</tr>
+<tr>
+<td>Ancient/humanist scholia</td>
+<td style="text-align: right;">12.6%</td>
+<td style="text-align: right;">1.4%</td>
+<td>The Elements often carries learned ancient apparatus.</td>
+</tr>
+<tr>
+<td>Pedagogical explanation</td>
+<td style="text-align: right;">12.9%</td>
+<td style="text-align: right;">5.6%</td>
+<td>Explanation is a major route for making Euclid teachable.</td>
+</tr>
+<tr>
+<td>Clavius/Jesuit commentary</td>
+<td style="text-align: right;">3.5%</td>
+<td style="text-align: right;">1.1%</td>
+<td>Institutional commentary is a smaller but important route.</td>
+</tr>
+<tr>
+<td>Notes/annotations/observations</td>
+<td style="text-align: right;">5.6%</td>
+<td style="text-align: right;">6.6%</td>
+<td>Notes are broad mathematical apparatus, not Elements-specific.</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: the Elements is not merely "commented." Commentary can perform at least three different jobs: restore ancient authority, furnish an institutional corpus, or explain Euclid to learners and vernacular readers.</p>
+<p>The split by Elements posture makes this clearer:</p>
+<table>
+<thead>
+<tr>
+<th>Elements posture</th>
+<th style="text-align: right;">Any commentary</th>
+<th style="text-align: right;">Ancient/humanist scholia</th>
+<th style="text-align: right;">Pedagogical explanation</th>
+<th style="text-align: right;">Clavius/Jesuit commentary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Practical-pedagogical</td>
+<td style="text-align: right;">41.7%</td>
+<td style="text-align: right;">6.9%</td>
+<td style="text-align: right;">29.2%</td>
+<td style="text-align: right;">2.8%</td>
+</tr>
+<tr>
+<td>Institutional-composite</td>
+<td style="text-align: right;">39.8%</td>
+<td style="text-align: right;">17.7%</td>
+<td style="text-align: right;">9.7%</td>
+<td style="text-align: right;">7.1%</td>
+</tr>
+<tr>
+<td>Humanist/vernacular transfer</td>
+<td style="text-align: right;">30.4%</td>
+<td style="text-align: right;">30.4%</td>
+<td style="text-align: right;">4.3%</td>
+<td style="text-align: right;">0.0%</td>
+</tr>
+<tr>
+<td>Pedagogical/method</td>
+<td style="text-align: right;">27.6%</td>
+<td style="text-align: right;">10.3%</td>
+<td style="text-align: right;">10.3%</td>
+<td style="text-align: right;">0.0%</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: vernacular transfer is not automatically popular simplification. In the humanist/vernacular-transfer route, commentary is overwhelmingly ancient/humanist scholia. By contrast, in the practical-pedagogical route, commentary becomes explanation. The same act, adding commentary, changes meaning depending on the social and intellectual setting.</p>
+<p><code>Urbino_1575</code> is useful here because it is vernacular but still learned: Italian Euclid with ancient scholia and humanist apparatus. <code>Rome_1591</code> and <code>Rome_1609</code> show commentary as recovery and learned furnishing: ancient scholia, figures, Greek-to-Latin transfer, and Maurolico annotations. <code>London_1570</code> shows another route: English Euclid with scholies, annotations, inventions, and Dee's preface, where vernacular access, commentary, and public mathematical ambition meet.</p>
+<p>The intellectual values suppressed or rarely advertised are also important. Axioms/common notions appear in only 0.3% of Elements representatives; definitions in 1.4%; postulates are not a major title-page selling point. Title pages do not usually sell the Elements by naming the axiomatic base. They sell it through demonstrations, propositions, scholia, principles, translation, correction, and apparatus. This matters because the title-page Euclid is less "axiomatic foundations" than "mediated demonstrative corpus."</p>
+<h2 id="9-mathematical-parts-of-euclid-on-title-pages">9. Mathematical Parts Of Euclid On Title Pages</h2>
+<p>Title pages sometimes describe mathematics by naming its parts: demonstrations, propositions, scholia, figures, corollaries, principles, problems, operations, examples, and so on. These named parts show what the title page thinks mathematical knowledge is made of.</p>
+<p>The Elements is much more likely than the surrounding ecology to name at least one such part: 57.7% of Elements representatives, compared with 34.8% of non-Elements representatives. But the important point is the kind of part named.</p>
+<p><strong>Named mathematical parts, interpreted:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th style="text-align: right;">Elements</th>
+<th style="text-align: right;">Non-Elements</th>
+<th>Main interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Demonstrations/proofs</td>
+<td style="text-align: right;">21.0%</td>
+<td style="text-align: right;">7.5%</td>
+<td>Euclid as proof-corpus.</td>
+</tr>
+<tr>
+<td>Scholia/commentary</td>
+<td style="text-align: right;">13.6%</td>
+<td style="text-align: right;">6.5%</td>
+<td>Euclid as commented corpus.</td>
+</tr>
+<tr>
+<td>Propositions</td>
+<td style="text-align: right;">10.1%</td>
+<td style="text-align: right;">4.5%</td>
+<td>Euclid as sequence of units that can be taught, selected, or used.</td>
+</tr>
+<tr>
+<td>Principles</td>
+<td style="text-align: right;">9.4%</td>
+<td style="text-align: right;">3.1%</td>
+<td>Euclid as foundation.</td>
+</tr>
+<tr>
+<td>Theorems</td>
+<td style="text-align: right;">5.9%</td>
+<td style="text-align: right;">3.8%</td>
+<td>Euclid as theorem-bearing demonstrative text.</td>
+</tr>
+<tr>
+<td>Figures/diagrams</td>
+<td style="text-align: right;">7.3%</td>
+<td style="text-align: right;">7.7%</td>
+<td>Shared visual technology, not a distinctive Elements signal.</td>
+</tr>
+<tr>
+<td>Operations/constructions</td>
+<td style="text-align: right;">1.0%</td>
+<td style="text-align: right;">4.1%</td>
+<td>More characteristic of practical/procedural books.</td>
+</tr>
+<tr>
+<td>Problems</td>
+<td style="text-align: right;">1.4%</td>
+<td style="text-align: right;">3.8%</td>
+<td>More characteristic of problem-solving mathematical print.</td>
+</tr>
+<tr>
+<td>Examples</td>
+<td style="text-align: right;">1.0%</td>
+<td style="text-align: right;">2.2%</td>
+<td>More characteristic of procedural pedagogy outside Elements.</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: the Elements is advertised less as geometry in general than as a corpus of demonstrative and commentarial parts. Non-Elements mathematics more often appears as operation, construction, problem, example, or direct use.</p>
+<p>Propositions deserve special attention because they can do different kinds of work. In some title pages a proposition is a proof unit; in others it becomes a teaching unit, a selected extract, a reduced sequence, or a usable/application unit.</p>
+<p><code>London_1685a</code> and <code>London_1703</code> advertise the uses of each proposition in all parts of mathematics. That is a very specific kind of practical Euclid: not merely "Euclid is useful," but "each proposition can be attached to mathematical uses." <code>Paris_1640</code> is different: it reduces Euclid's tenth book to 62 propositions with easier and shorter demonstrations. Here propositions are not primarily application units; they are units to be reorganized for intelligibility and method. <code>Cologne_1556</code> is different again: selected propositions are ordered so that they can be demonstrated according to geometrical method.</p>
+<p>Figures and diagrams require the same caution. Visual title-page claims appear at almost the same rate in Elements and non-Elements, 17.8% versus 16.7%. Metadata diagram tags are actually higher in non-Elements, 24.8% versus 3.1%, which probably reflects the diagrammatic character of instruments, perspective, architecture, surveying, and other visual/material mathematical arts, as well as uneven metadata capture.</p>
+<p><strong>Figure/diagram functions:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Visual function</th>
+<th style="text-align: right;">Elements</th>
+<th style="text-align: right;">Non-Elements</th>
+<th>Historical reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visual title claim</td>
+<td style="text-align: right;">17.8%</td>
+<td style="text-align: right;">16.7%</td>
+<td>Visuality is shared across mathematical print.</td>
+</tr>
+<tr>
+<td>Figures as proof apparatus</td>
+<td style="text-align: right;">9.8%</td>
+<td style="text-align: right;">5.2%</td>
+<td>In Elements, figures more often support demonstration.</td>
+</tr>
+<tr>
+<td>Figures as ancient/learned apparatus</td>
+<td style="text-align: right;">17.5%</td>
+<td style="text-align: right;">3.8%</td>
+<td>Elements figures often belong to restored/commented Euclid.</td>
+</tr>
+<tr>
+<td>Figures as practical operation</td>
+<td style="text-align: right;">3.1%</td>
+<td style="text-align: right;">7.0%</td>
+<td>Non-Elements figures more often support operation or use.</td>
+</tr>
+<tr>
+<td>Figures as edition furnishing</td>
+<td style="text-align: right;">14.7%</td>
+<td style="text-align: right;">11.7%</td>
+<td>Both corpora advertise visual furnishing.</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: figures are not an Elements marker by themselves. They become meaningful when attached to a function. In <code>Paris_1622</code>, figures join translation, correction, and demonstrations. In the Dutch/Dou route, figures join foundations, utility, and geometrical operations. In non-Elements practical geometry, figures more often belong to instruments, surveying, perspective, construction, or measurement.</p>
+<p>Figures:</p>
+<p><img alt="Deductive and mathematical parts by corpus" src="figures/heatmap_deductive_parts_by_corpus.png"></p>
+<p><img alt="Figure and diagram functions by corpus" src="figures/heatmap_figures_diagrams_by_corpus.png"></p>
+<p>The section's main conclusion is therefore precise: the title-page Elements is not merely a book of geometry. It is a manipulable proof-corpus whose parts can be advertised, selected, explained, used, reordered, illustrated, and socially redirected.</p>
+<h2 id="10-restoration-reconstruction-and-competing-euclids">10. Restoration, Reconstruction, And Competing Euclids</h2>
+<p>Some title pages do more than transmit, translate, or correct Euclid. They claim to reorder, reform, reduce, newly demonstrate, or otherwise reconstruct the Elements. This is not simply an opposition between fidelity to the ancients and modern freedom. The better question is: <strong>what did a title page claim had to be restored in Euclid for the Elements to work?</strong></p>
+<table>
+<thead>
+<tr>
+<th>Restoration ideal</th>
+<th>What is restored</th>
+<th>Typical title-page actions</th>
+<th>Main historical meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ancient-text restoration</td>
+<td>The authentic ancient text, transmission, or commentary tradition</td>
+<td>correct, emend, restore, purge errors, return to Greek/ancient scholia</td>
+<td>Fidelity to Euclid as inherited textual authority.</td>
+</tr>
+<tr>
+<td>Corrective-pedagogical mediation</td>
+<td>The canonical text as teachable and usable</td>
+<td>correct, translate, augment, explain, illustrate, demonstrate</td>
+<td>Euclid remains authoritative but is made pedagogically functional.</td>
+</tr>
+<tr>
+<td>Logical/demonstrative restoration</td>
+<td>Euclid's order, proof, clarity, and rational force</td>
+<td>new order, new demonstrations, reduced propositions, easier proofs</td>
+<td>Fidelity to Euclidean reason rather than inherited arrangement.</td>
+</tr>
+<tr>
+<td>Symbolic/analytic retooling</td>
+<td>The portability or generality of proof</td>
+<td>algebraic signs, analytic notation, symbolic demonstration</td>
+<td>Euclid is modernized as a formal proof system.</td>
+</tr>
+<tr>
+<td>Practical/technical refunctionalization</td>
+<td>Euclid's usefulness for mathematical work</td>
+<td>use of propositions, easy method, technical audiences, plane/solid geometry</td>
+<td>Euclid becomes operational for practical users.</td>
+</tr>
+<tr>
+<td>Selection/contraction</td>
+<td>A manageable, teachable Euclid</td>
+<td>select, contract, abridge, extract, make succinct</td>
+<td>Euclid is scaled to curriculum, convenience, or portability.</td>
+</tr>
+</tbody>
+</table>
+<p>The strict "new Elements" pole is small. A broad search for new, reordered, reduced, contracted, symbolically retooled, or newly demonstrated Elements found 80 candidates, but only a few are strong cases of full reconstructive ambition.</p>
+<p><strong>Reconstructive rhetoric by type:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Reconstructive type</th>
+<th style="text-align: right;">Cases</th>
+<th style="text-align: right;">Novelty claim</th>
+<th style="text-align: right;">Method/order</th>
+<th style="text-align: right;">Ancient restoration</th>
+<th>Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Strong new Elements</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">50.0%</td>
+<td>Rare, explicit remaking.</td>
+</tr>
+<tr>
+<td>New order and demonstration</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">100.0%</td>
+<td>New method can still coexist with restoration.</td>
+</tr>
+<tr>
+<td>Reordered or new demonstrations</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">33.3%</td>
+<td style="text-align: right;">77.8%</td>
+<td style="text-align: right;">83.3%</td>
+<td>Most cases remain hybrid.</td>
+</tr>
+<tr>
+<td>Selected/reduced/contracted</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">10.7%</td>
+<td style="text-align: right;">71.4%</td>
+<td style="text-align: right;">96.4%</td>
+<td>Reshaping often preserves Euclidean authority.</td>
+</tr>
+<tr>
+<td>Method/ease/retooling</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">3.4%</td>
+<td style="text-align: right;">65.5%</td>
+<td style="text-align: right;">93.1%</td>
+<td>Pedagogical modernization usually remains canonical.</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: reconstruction is usually not anti-Euclidean. Most title pages that reshape Euclid still preserve ancient authority or Euclidean identity. The exception is not "modernity versus tradition," but a set of competing restoration ideals.</p>
+<p><code>Paris_1667</code>, Arnauld's <em>Nouveaux Elemens de Geometrie</em>, is the cleanest case of strict reconstruction. Its title page advertises a new order, new demonstrations of common propositions, new ways to show incommensurable lines, new measures of angles, and new ways to find and demonstrate line proportions. Its authority is not primarily fidelity to ancient wording. It claims that geometry works better when its order and demonstrations are remade.</p>
+<p><code>Livorno_1709</code>, <em>Euclides Reformatus</em>, keeps Euclid's name but makes reform the central act. It advertises plane and solid geometry through a new method and clearer, easier, firmer, more evident exposition and demonstration. This is not a rejection of Euclid. It is a claim that Euclid can be more truly Euclidean if his method and demonstration are reformed.</p>
+<p>Earlier and narrower cases show that reconstruction had roots before the strongest late examples. <code>Cologne_1556</code> selects propositions from later books and orders them so they can be demonstrated according to geometrical method. <code>Paris_1640</code> reduces Euclid's tenth book to 62 propositions and supplies easier, shorter demonstrations, alongside a discourse on explaining the sciences in French. These cases show reconstruction as selection, reduction, and pedagogical reordering rather than wholesale replacement.</p>
+<p>The report should therefore avoid saying that reconstructive Euclid is the opposite of philological Euclid. It is better to say that early modern title pages imagine several Euclids worth restoring: Euclid the ancient text, Euclid the corrected tradition, Euclid the demonstrative order, Euclid the teachable method, Euclid the usable proposition-sequence, and Euclid the portable proof system.</p>
+<h2 id="11-boundaries-and-gradients">11. Boundaries And Gradients</h2>
+<p>The metadata-defined Elements corpus has a clear boundary for this report, but the title-page ecology around it does not. Euclid can appear as text, method, foundation, authority, school object, practical extract, or style of mathematical organization.</p>
+<p>The bridge-case table in Section 3 already showed the main gradient:</p>
+<ol>
+<li>Euclid as restored or authoritative text.</li>
+<li>Euclid made usable.</li>
+<li>Euclidean practical geometry outside the metadata Elements corpus.</li>
+<li>Professional and material mathematical arts.</li>
+</ol>
+<p>The important point is overlap. Usability often overlaps with canonical authority: 17 of 31 "Euclid made usable" cases also belong to the restored/authoritative route. Practical mathematics also overlaps with Euclidean authority: 43 of 67 Euclidean practical-geometry cases also belong to professional/material practical arts.</p>
+<p>This gives the report a more precise boundary claim. The Elements is not dissolved into the broader ecology; the metadata-defined corpus remains distinctive in ancient authority, explicit book identity, demonstration, commentary, translation, and named mathematical parts. But the functions of the Elements travel. Outside the corpus, Euclid can authorize practical geometry. Inside the corpus, Euclid can be made useful, vernacular, pedagogical, institutional, or practical.</p>
+<p><code>Paris_1622</code> and <code>bib-9</code> are the best paired examples. <code>Paris_1622</code> is firmly within the Elements corpus but makes Euclid vernacular, corrected, demonstrated, and visually furnished. <code>bib-9</code> is outside the Elements corpus but grounds practical geometry in demonstrated Euclidean Elements. The pair shows that corpus boundary and intellectual function do not always align.</p>
+<p><code>Cambridge_1703</code> adds a further complication. It advertises elements of plane and solid geometry with selected Archimedean theorems, corollaries, applications, corrections, diagrams, and Lucasian professorial authority, without depending on explicit Euclid as the main identity. It is not simply an Elements edition, but it occupies an Elements-like space: ordered geometry, proof apparatus, applications, and institutional authority.</p>
+<p>Historical payoff: the place of the Elements in early modern print is best described as a <strong>central canonical corpus with mobile functions</strong>. Its authority can be internalized in editions of Euclid, exported to practical geometry, imitated in Elements-like geometries, or transformed into pedagogical and technical packages.</p>
+<h2 id="12-silence-density-and-title-page-fashion">12. Silence, Density, And Title-Page Fashion</h2>
+<p>Some Elements title pages say very little beyond Euclid, the <em>Elements</em>, or the books included. It is tempting to interpret this as authority-sufficient presentation: Euclid's name was strong enough that nothing more needed to be advertised. That may sometimes be true, but it cannot be assumed.</p>
+<p>The analysis tested sparse authoritative presentation against controls such as city, language, format, period, book coverage, and institutional visibility. The result is methodological caution.</p>
+<table>
+<thead>
+<tr>
+<th>Control or condition</th>
+<th style="text-align: right;">Association with sparse/silent presentation</th>
+<th>Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>City and sparse authoritative mode</td>
+<td style="text-align: right;">Cramer's V = 0.487</td>
+<td>Local title-page fashion is a strong factor.</td>
+</tr>
+<tr>
+<td>Language and sparse authoritative mode</td>
+<td style="text-align: right;">Cramer's V = 0.306</td>
+<td>Language communities differ in title-page density.</td>
+</tr>
+<tr>
+<td>Format and sparse authoritative mode</td>
+<td style="text-align: right;">Cramer's V = 0.179</td>
+<td>Format matters, but less than city/language.</td>
+</tr>
+<tr>
+<td>Period and sparse authoritative mode</td>
+<td style="text-align: right;">Cramer's V = 0.165</td>
+<td>Chronology matters, but is not the strongest driver.</td>
+</tr>
+<tr>
+<td>Any school/institution marker absent</td>
+<td style="text-align: right;">23.5% sparse authoritative</td>
+<td>Lack of institutional markers increases apparent sparseness.</td>
+</tr>
+<tr>
+<td>Any school/institution marker present</td>
+<td style="text-align: right;">3.4% sparse authoritative</td>
+<td>Explicit institutions make title pages socially denser.</td>
+</tr>
+</tbody>
+</table>
+<p>Historical payoff: sparse presentation is real, but it is not a pure intellectual signal. Some sparse title pages may rely on Euclid's authority. Others may reflect local printing style, language convention, format, schoolbook convention, or incomplete/quiet title-page rhetoric.</p>
+<p>The high-risk zones confirm the caution. Bologna, Leipzig, Italian-language cases, pre-1550 Latin octavos, and some first-six-books formats show elevated sparse behavior. This means that a short Italian octavo Elements title page, for example, should not immediately be interpreted as a philosophical statement about Euclid's self-sufficient authority.</p>
+<p>The safest claim is therefore:</p>
+<p>Sparse authoritative presentation is a contrast mode inside the Elements corpus, not a main thesis. It can help identify cases where Euclid's name and book identity do much of the work, but only after controlling for title-page fashion.</p>
+<p>This control also protects the broader argument. The report is not claiming that dense title pages are intellectually serious and sparse title pages are not. Both can be meaningful. The point is that density and silence are themselves historically conditioned forms of title-page rhetoric.</p>
+<h2 id="13-final-synthesis">13. Final Synthesis</h2>
+<p>The leading question asked what place the metadata-defined Elements corpus occupied in the broader ecology of early modern mathematical print, and how title pages constructed that place through social address, intellectual values, and acts of textual or mathematical mediation.</p>
+<p>The answer is not that the Elements was simply stable, theoretical, or separate from practical mathematics. The stronger answer is:</p>
+<p><strong>The Elements functioned as a canonical proof-corpus whose authority made it unusually available for mediation.</strong></p>
+<p>Title pages repeatedly make Euclid valuable by showing what has been done to him:</p>
+<ul>
+<li>restored as an ancient text;</li>
+<li>corrected against errors;</li>
+<li>translated across languages;</li>
+<li>explained for readers;</li>
+<li>demonstrated in new or easier ways;</li>
+<li>selected, contracted, or reduced;</li>
+<li>augmented with scholia, figures, corollaries, related texts, or applications;</li>
+<li>reorganized for method, pedagogy, or use;</li>
+<li>attached to institutions, professors, Jesuits, surveyors, translators, patrons, and publics.</li>
+</ul>
+<p>This is why the Elements is distinctive in the data. Compared with the surrounding corpus, Elements title pages far more often advertise ancient authority, explicit Euclid/book identity, method and demonstration, named mathematical parts, translation, commentary, and apparatus. Surrounding mathematical books more often advertise direct practical use, operations, instruments, examples, problems, visual/material work, and professional application.</p>
+<p>But the distinction is not a wall. It is a structured gradient. Some Elements editions become practical, public, vernacular, or pedagogical. Some non-Elements practical geometries remain explicitly Euclidean. Some later geometries imitate Elements-like structure without centering Euclid as the named author. The Elements therefore lives in the broader ecology not only as a text, but as a repertoire of authority, method, sequence, proof, and mediation.</p>
+<p>The social and intellectual halves of the argument are inseparable. Social setting changes what Euclid is for. Humanist and learned settings make commentary into ancient apparatus. Jesuit and institutional settings make Euclid into a furnished curriculum. Dutch civic-vernacular settings make the first six books into foundations, utilities, and geometrical operations. English practical-pedagogical settings turn propositions into usable units. Reconstructive settings ask whether Euclid is best restored as text, order, method, proof, or use.</p>
+<p>The final claim is therefore not that early modern title pages preserve one Euclid. They preserve the possibility of many Euclids under the authority of one corpus. The <em>Elements</em> becomes a place where early modern mathematical print negotiates the relation between ancient authority and present use: not by abandoning the ancient text, but by repeatedly remaking what fidelity to it could mean.</p>
+<h2 id="14-next-directions">14. Next Directions</h2>
+<p>These are not required for the current argument, but they would strengthen or refine it.</p>
+<h3 id="controlled-local-comparisons">Controlled Local Comparisons</h3>
+<p>The strongest next analysis would not rely primarily on same-author or same-editor comparison, because the corpus does not contain complete bibliographies for every named person. A stronger control would compare title pages within shared local and material conditions:</p>
+<ul>
+<li>same city or region;</li>
+<li>same language;</li>
+<li>same period or narrow date window;</li>
+<li>same format;</li>
+<li>same or similar subject zone;</li>
+<li>intersections of these controls, such as same city + same language + same format + within five or ten years.</li>
+</ul>
+<p>This would test whether the Elements/non-Elements contrasts survive when title-page fashion, local printing habits, language, format, and chronology are held more constant. It would also help identify cases where an apparent Elements feature is really a local title-page convention.</p>
+<p>Possible outputs:</p>
+<ul>
+<li>controlled contrast tables by city/language/format/period strata;</li>
+<li>local case clusters for Paris, Amsterdam/Rotterdam/Leiden, London/Oxford/Cambridge, Rome, Venice, Basel/Strasbourg, and German university or printing centers;</li>
+<li>paired close readings where Elements and non-Elements books share format, language, place, and date range.</li>
+</ul>
+<h3 id="format-and-material-use">Format And Material Use</h3>
+<p>The format section above is now filled, but future work should refine it through controlled local comparisons rather than treating format as a standalone cause. Format may affect title-page density, audience, portability, institutional use, price, diagrammatic apparatus, and the degree to which a title page advertises practical or pedagogical functions. It should be treated as historical evidence and as a control variable.</p>
+<h3 id="case-level-verification">Case-Level Verification</h3>
+<p>Before final citation, major examples should be checked against full title-page transcriptions or images where possible. This is especially important for:</p>
+<ul>
+<li>sparse or silent title pages;</li>
+<li>cases used to define a route;</li>
+<li>translated or multilingual title pages;</li>
+<li>figure/diagram claims;</li>
+<li>reconstructive cases such as <code>Paris_1667</code>, <code>Livorno_1709</code>, <code>Paris_1640</code>, and <code>Cologne_1556</code>.</li>
+</ul>
+<h2 id="appendices">Appendices</h2>
+<p>The appendices are drafted separately in <code>REPORT_APPENDICES.md</code>.</p>
+<hr>
+<h1 id="appendices_1">Appendices</h1>
+<p><strong>The Place of Euclid's Elements in Early Modern Mathematical Print: A Title-Page Ecology</strong></p>
+<p>These appendices document the data sources, operational definitions, generated tables, figures, case clusters, and caveats behind the report. They are meant as reading support, not as a second narrative argument.</p>
+<h2 id="appendix-a-corpus-and-data-construction">Appendix A: Corpus And Data Construction</h2>
+<p>The report counts representative title-page records. The main object is the metadata-defined Elements corpus: editions manually identified in <code>ocrflow/store/items_metadata</code> as primarily editions of Euclid's <em>Elements</em>. The comparison field is the remaining representative mathematical title-page corpus.</p>
+<p>Important construction rules:</p>
+<ul>
+<li>representative-row logic;</li>
+<li>metadata-defined Elements corpus definition;</li>
+<li>non-Elements comparison corpus definition;</li>
+<li>reprints and representative keys;</li>
+<li>subject classification source;</li>
+<li>title-page feature extraction source;</li>
+<li>metadata source: <code>ocrflow/store/items_metadata</code>;</li>
+<li>known exclusions and old files not used.</li>
+</ul>
+<p>Core count used in the report:</p>
+<table>
+<thead>
+<tr>
+<th>Unit</th>
+<th style="text-align: right;">Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Representative title-page rows</td>
+<td style="text-align: right;">843</td>
+</tr>
+<tr>
+<td>Metadata-defined Elements representatives</td>
+<td style="text-align: right;">286</td>
+</tr>
+<tr>
+<td>Non-Elements representatives</td>
+<td style="text-align: right;">557</td>
+</tr>
+<tr>
+<td>Rows with at least one named deductive/mathematical part</td>
+<td style="text-align: right;">359</td>
+</tr>
+</tbody>
+</table>
+<p>Key files for checking the corpus:</p>
+<ul>
+<li><code>tables/report_corpus_accounting.csv</code></li>
+<li><code>../derived_data/metadata_elements_corpus_ecology_matrix.csv</code></li>
+<li><code>../derived_data/title_page_analysis_matrix.csv</code></li>
+</ul>
+<h2 id="appendix-b-terms-and-feature-definitions">Appendix B: Terms And Feature Definitions</h2>
+<p>The report uses human-readable terms in the prose, but each term corresponds to one or more feature fields. The table below is the quick audit map.</p>
+<table>
+<thead>
+<tr>
+<th>Report term</th>
+<th>Data source / feature</th>
+<th>Working definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metadata-defined Elements corpus</td>
+<td>metadata fields from <code>ocrflow/store/items_metadata</code></td>
+<td>Editions manually identified in the metadata as primarily Euclid's <em>Elements</em>.</td>
+</tr>
+<tr>
+<td>Explicit Euclid/book identity</td>
+<td><code>claim_canonical_textual_identity</code></td>
+<td>Title-page language presenting the work through Euclid, the <em>Elements</em>, numbered books, textual corpus identity, edition identity, or author/title authority.</td>
+</tr>
+<tr>
+<td>Ancient authority/restoration</td>
+<td><code>claim_ancient_authority_restoration</code>; related value markers</td>
+<td>Ancient, Greek/Latin, recovered, corrected tradition, humanist authority, restoration of an older text.</td>
+</tr>
+<tr>
+<td>Mediation</td>
+<td>multiple claim/action fields</td>
+<td>Advertised acts performed on knowledge: translating, correcting, explaining, demonstrating, selecting, augmenting, furnishing, reforming, adapting.</td>
+</tr>
+<tr>
+<td>Utility/practice/application</td>
+<td><code>claim_utility_practice_application</code></td>
+<td>Use, practice, application, professional operation, measurement, construction, or applied procedure.</td>
+</tr>
+<tr>
+<td>Named mathematical/deductive part</td>
+<td><code>deductive_parts_cases.csv</code></td>
+<td>Propositions, demonstrations, scholia, figures, corollaries, problems, operations, examples, definitions, principles, etc.</td>
+</tr>
+<tr>
+<td>Sparse authoritative presentation</td>
+<td>sparse/canonical mode and related controls</td>
+<td>Title pages relying heavily on Euclid/book identity with few explicit social/intellectual claims; use only with fashion controls.</td>
+</tr>
+</tbody>
+</table>
+<p>Full term source:</p>
+<ul>
+<li><code>../orientation/ANALYSIS_TERMS.md</code></li>
+</ul>
+<h2 id="appendix-c-core-tables">Appendix C: Core Tables</h2>
+<p>The report's main quantitative tables are generated as CSV files in <code>report/tables/</code>. The most important tables for rechecking the main claims are:</p>
+<ul>
+<li><code>tables/report_elements_vs_non_elements_core_contrasts.csv</code></li>
+<li><code>tables/report_subject_intellectual_rates_matrix.csv</code></li>
+<li><code>tables/report_subject_social_rates_matrix.csv</code></li>
+<li><code>tables/report_elements_mode_marker_rates_matrix.csv</code></li>
+<li><code>tables/report_elements_bookgroup_marker_rates_matrix.csv</code></li>
+<li><code>tables/report_deductive_parts_by_corpus_matrix.csv</code></li>
+<li><code>tables/report_deductive_parts_by_bookgroup_matrix.csv</code></li>
+<li><code>tables/report_commentary_split_by_corpus_matrix.csv</code></li>
+<li><code>tables/report_commentary_split_by_elements_books_group_matrix.csv</code></li>
+<li><code>tables/report_prop_demo_motifs_by_elements_books_group_matrix.csv</code></li>
+<li><code>tables/report_figures_diagrams_by_corpus_matrix.csv</code></li>
+<li><code>tables/report_bridge_case_route_marker_rates_matrix.csv</code></li>
+<li><code>tables/report_bridge_case_route_overlap_matrix.csv</code></li>
+<li><code>tables/report_format_elements_marker_rates_matrix.csv</code></li>
+<li><code>tables/report_format_elements_mode_rates_matrix.csv</code></li>
+<li><code>tables/report_format_elements_bookgroup_distribution.csv</code></li>
+<li><code>tables/report_format_elements_density_summary.csv</code></li>
+<li><code>tables/report_format_full_corpus_subject_rates.csv</code></li>
+</ul>
+<h2 id="appendix-d-figures-and-visualizations">Appendix D: Figures And Visualizations</h2>
+<p>Figures are generated PNG files in <code>report/figures/</code>. The recommended main-report figures are:</p>
+<table>
+<thead>
+<tr>
+<th>Figure</th>
+<th>File</th>
+<th>Best section</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Top Elements vs non-Elements contrasts</td>
+<td><code>figures/bar_elements_vs_non_elements_top_contrasts.png</code></td>
+<td>Executive argument / Section 3</td>
+</tr>
+<tr>
+<td>Subject zones by intellectual values</td>
+<td><code>figures/heatmap_subject_intellectual_rates.png</code></td>
+<td>Section 2</td>
+</tr>
+<tr>
+<td>Subject zones by social markers</td>
+<td><code>figures/heatmap_subject_social_rates.png</code></td>
+<td>Section 2, with caution</td>
+</tr>
+<tr>
+<td>Bridge routes</td>
+<td><code>figures/heatmap_bridge_route_marker_rates.png</code></td>
+<td>Section 3 / Section 11</td>
+</tr>
+<tr>
+<td>Elements postures/modes</td>
+<td><code>figures/heatmap_elements_mode_marker_rates.png</code></td>
+<td>Section 4</td>
+</tr>
+<tr>
+<td>Elements book groups</td>
+<td><code>figures/heatmap_elements_bookgroup_marker_rates.png</code></td>
+<td>Section 5</td>
+</tr>
+<tr>
+<td>Deductive parts by corpus</td>
+<td><code>figures/heatmap_deductive_parts_by_corpus.png</code></td>
+<td>Section 9</td>
+</tr>
+<tr>
+<td>Figure/diagram functions by corpus</td>
+<td><code>figures/heatmap_figures_diagrams_by_corpus.png</code></td>
+<td>Section 9</td>
+</tr>
+<tr>
+<td>Figure/diagram functions by format</td>
+<td><code>figures/heatmap_figures_diagrams_by_format.png</code></td>
+<td>Section 6</td>
+</tr>
+<tr>
+<td>Elements modes by format</td>
+<td><code>figures/heatmap_format_elements_modes.png</code></td>
+<td>Section 6</td>
+</tr>
+<tr>
+<td>Elements social/intellectual markers by format</td>
+<td><code>figures/heatmap_format_elements_markers.png</code></td>
+<td>Section 6</td>
+</tr>
+<tr>
+<td>Commentary by book group</td>
+<td><code>figures/heatmap_commentary_split_by_elements_books_group.png</code></td>
+<td>Section 8</td>
+</tr>
+</tbody>
+</table>
+<p>Diagnostic figures to use with caution:</p>
+<ul>
+<li><code>figures/pca_full_corpus_report_features.png</code></li>
+<li><code>figures/pca_elements_only_report_features.png</code></li>
+</ul>
+<p>The PCA plots are useful diagnostics for gradients, but they should not carry a proof claim by themselves because explained variance is modest.</p>
+<h2 id="appendix-e-casebook">Appendix E: Casebook</h2>
+<p>The report uses cases to anchor quantitative claims. Each case should have one main argumentative job, so that examples do not become decorative.</p>
+<p>Primary source:</p>
+<ul>
+<li><code>supporting_notes/REPORT_CASEBOOK_SHORTLIST.md</code></li>
+</ul>
+<p>Case clusters:</p>
+<table>
+<thead>
+<tr>
+<th>Cluster</th>
+<th>Cases</th>
+<th>Main job</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vernacular/practical first-six-books Euclid</td>
+<td><code>Rotterdam_1647</code>, <code>Amsterdam_1616</code>, <code>Amsterdam_1700b</code>, <code>Amsterdam_1701</code></td>
+<td>Dutch/Dou route: practical Euclid without books 11-12.</td>
+</tr>
+<tr>
+<td>Proposition-use practical pedagogy</td>
+<td><code>London_1685a</code>, <code>London_1703</code>, <code>Oxford_London_1700</code></td>
+<td>Uses of propositions, easy method, translation, correction.</td>
+</tr>
+<tr>
+<td>Humanist/learned apparatus</td>
+<td><code>Urbino_1575</code>, <code>Rome_1591</code>, <code>Rome_1609</code>, <code>Paris_1622</code></td>
+<td>Translation, ancient scholia, figures, correction, demonstrations.</td>
+</tr>
+<tr>
+<td>Jesuit/institutional apparatus</td>
+<td><code>Cologne_1591</code>, <code>Frankfurt_1607</code>, <code>Rome_1603</code></td>
+<td>Euclid as furnished institutional curriculum.</td>
+</tr>
+<tr>
+<td>Reconstruction/logical restoration</td>
+<td><code>Paris_1667</code>, <code>Livorno_1709</code>, <code>Paris_1640</code>, <code>Cologne_1556</code></td>
+<td>New order, reform, reduced propositions, easier demonstrations.</td>
+</tr>
+<tr>
+<td>Euclidean practical geometry outside Elements</td>
+<td><code>bib-9</code>, <code>bib-135</code></td>
+<td>Euclid as foundation/method outside metadata Elements corpus.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="appendix-f-methodological-caveats">Appendix F: Methodological Caveats</h2>
+<p>These caveats should travel with the report's claims:</p>
+<ul>
+<li>Title pages are evidence of public framing, not full book contents.</li>
+<li>Metadata Elements is the report's corpus definition; title-page mentions of Euclid/Elements are comparison evidence, not corpus definition.</li>
+<li>Subject classification and title-page feature tags must be read together.</li>
+<li>Rich tags are useful for navigation and aggregation but should be verified by close reading for major claims.</li>
+<li>Sparse or silent title pages cannot be interpreted without period/place/language/format controls.</li>
+<li>Format is historical evidence and a control variable.</li>
+<li>Patronage is not readership.</li>
+<li>Author/editor portfolio evidence is corpus-internal, not full bibliography.</li>
+</ul>
+<h2 id="appendix-g-next-direction-analysis-plan">Appendix G: Next-Direction Analysis Plan</h2>
+<p>The strongest future analysis would refine the report through controlled local comparisons.</p>
+<p>Controlled local comparisons by:</p>
+<ul>
+<li>city or region;</li>
+<li>language;</li>
+<li>format;</li>
+<li>period/date window;</li>
+<li>subject zone;</li>
+<li>intersections such as city + language + format + period.</li>
+</ul>
+<p>This would test whether the Elements/non-Elements contrasts survive local title-page fashion and material book conventions better than same-author analysis alone.</p>
+</body>
+</html>

@@ -1,0 +1,61 @@
+primary_subject_family,n_euclid_elements_family,mode,count,pct,overall_euclid_pct,delta
+Geometry/Theory,211,euclid_sparse_canonical,22,10.4,9.9,0.5
+Geometry/Theory,211,euclid_procedural_pedagogical,127,60.2,59.6,0.6
+Geometry/Theory,211,euclid_composite_workshop,72,34.1,32.8,1.3
+Geometry/Theory,211,euclid_utility_public,13,6.2,6.3,-0.2
+Geometry/Theory,211,euclid_humanist_transfer,50,23.7,23.5,0.2
+Geometry/Theory,211,euclid_method_access,16,7.6,10.5,-3.0
+Geometry/Theory,211,elements_language_no_euclid,19,9.0,9.3,-0.3
+Geometry/Theory,211,euclid_no_primary_subject,0,0.0,27.7,-27.7
+Geometry/Theory,211,euclid_geometry_theory_primary,211,100.0,63.6,36.4
+Geometry/Theory,211,euclid_practical_geometry_primary,40,19.0,12.0,6.9
+Arithmetic/Commerce,22,euclid_sparse_canonical,5,22.7,9.9,12.8
+Arithmetic/Commerce,22,euclid_procedural_pedagogical,11,50.0,59.6,-9.6
+Arithmetic/Commerce,22,euclid_composite_workshop,8,36.4,32.8,3.5
+Arithmetic/Commerce,22,euclid_utility_public,2,9.1,6.3,2.8
+Arithmetic/Commerce,22,euclid_humanist_transfer,1,4.5,23.5,-18.9
+Arithmetic/Commerce,22,euclid_method_access,0,0.0,10.5,-10.5
+Arithmetic/Commerce,22,elements_language_no_euclid,7,31.8,9.3,22.5
+Arithmetic/Commerce,22,euclid_no_primary_subject,0,0.0,27.7,-27.7
+Arithmetic/Commerce,22,euclid_geometry_theory_primary,11,50.0,63.6,-13.6
+Arithmetic/Commerce,22,euclid_practical_geometry_primary,3,13.6,12.0,1.6
+Instruments/Measurement,11,euclid_sparse_canonical,1,9.1,9.9,-0.8
+Instruments/Measurement,11,euclid_procedural_pedagogical,7,63.6,59.6,4.0
+Instruments/Measurement,11,euclid_composite_workshop,3,27.3,32.8,-5.6
+Instruments/Measurement,11,euclid_utility_public,2,18.2,6.3,11.9
+Instruments/Measurement,11,euclid_humanist_transfer,1,9.1,23.5,-14.4
+Instruments/Measurement,11,euclid_method_access,1,9.1,10.5,-1.5
+Instruments/Measurement,11,elements_language_no_euclid,3,27.3,9.3,17.9
+Instruments/Measurement,11,euclid_no_primary_subject,0,0.0,27.7,-27.7
+Instruments/Measurement,11,euclid_geometry_theory_primary,9,81.8,63.6,18.3
+Instruments/Measurement,11,euclid_practical_geometry_primary,7,63.6,12.0,51.6
+Visual/Spatial Arts,11,euclid_sparse_canonical,0,0.0,9.9,-9.9
+Visual/Spatial Arts,11,euclid_procedural_pedagogical,4,36.4,59.6,-23.3
+Visual/Spatial Arts,11,euclid_composite_workshop,0,0.0,32.8,-32.8
+Visual/Spatial Arts,11,euclid_utility_public,1,9.1,6.3,2.8
+Visual/Spatial Arts,11,euclid_humanist_transfer,5,45.5,23.5,22.0
+Visual/Spatial Arts,11,euclid_method_access,0,0.0,10.5,-10.5
+Visual/Spatial Arts,11,elements_language_no_euclid,0,0.0,9.3,-9.3
+Visual/Spatial Arts,11,euclid_no_primary_subject,0,0.0,27.7,-27.7
+Visual/Spatial Arts,11,euclid_geometry_theory_primary,6,54.5,63.6,-9.0
+Visual/Spatial Arts,11,euclid_practical_geometry_primary,5,45.5,12.0,33.4
+Cosmos/Earth,20,euclid_sparse_canonical,0,0.0,9.9,-9.9
+Cosmos/Earth,20,euclid_procedural_pedagogical,15,75.0,59.6,15.4
+Cosmos/Earth,20,euclid_composite_workshop,12,60.0,32.8,27.2
+Cosmos/Earth,20,euclid_utility_public,2,10.0,6.3,3.7
+Cosmos/Earth,20,euclid_humanist_transfer,3,15.0,23.5,-8.5
+Cosmos/Earth,20,euclid_method_access,3,15.0,10.5,4.5
+Cosmos/Earth,20,elements_language_no_euclid,6,30.0,9.3,20.7
+Cosmos/Earth,20,euclid_no_primary_subject,0,0.0,27.7,-27.7
+Cosmos/Earth,20,euclid_geometry_theory_primary,8,40.0,63.6,-23.6
+Cosmos/Earth,20,euclid_practical_geometry_primary,3,15.0,12.0,3.0
+Applied Mechanics/Military,7,euclid_sparse_canonical,0,0.0,9.9,-9.9
+Applied Mechanics/Military,7,euclid_procedural_pedagogical,3,42.9,59.6,-16.8
+Applied Mechanics/Military,7,euclid_composite_workshop,1,14.3,32.8,-18.5
+Applied Mechanics/Military,7,euclid_utility_public,1,14.3,6.3,8.0
+Applied Mechanics/Military,7,euclid_humanist_transfer,2,28.6,23.5,5.1
+Applied Mechanics/Military,7,euclid_method_access,1,14.3,10.5,3.7
+Applied Mechanics/Military,7,elements_language_no_euclid,1,14.3,9.3,4.9
+Applied Mechanics/Military,7,euclid_no_primary_subject,0,0.0,27.7,-27.7
+Applied Mechanics/Military,7,euclid_geometry_theory_primary,4,57.1,63.6,-6.4
+Applied Mechanics/Military,7,euclid_practical_geometry_primary,2,28.6,12.0,16.5
