@@ -73,7 +73,7 @@ Lyon_1675,,,1675,Lyon,LATIN,Claude-François Milliet Dechales,,6,1,,,
 Frankfurt_1674,,,1674,Frankfurt,LATIN,Gaspar Schott,Johann Arnold Cholini,2,1,,,
 Rome_1589,Euclidis elementorum libri XV,Specified in source,1589,Rome,LATIN,Christopher Clavius,,8,1,,,
 Cologne_1591,Euclidis elementorum libri XV; accessit XVI de solidorum regularium cuiuslibet intra quodlibet comparatione,Specified in source,1591,Cologne,LATIN,Christopher Clavius,Giovanni Battista Ciotti,4,1,,"In letter n. 72 in Clavius' correspondence, Jacob Curtz complains that the Cologne edition of Clavius’s Euclides was printed ""infeliciter et plenus omnino mendis excusus est, id me ut primum vidi ex animo male habuit"" (unhappily and full of all manner of errors, when I first saw it, it truly pained me), and recommends using Sartorius in Ingolstadt or the Wechel heirs in Frankfurt for future work in Germany [Source: Clavius, C. 1992. Corrispondenza. Baldini, U. and Napolitani, P.D., Eds. Università di Pisa, Dipartimento di matematica, Pisa., https://echo.mpiwg-berlin.mpg.de/content/mpiwglib/clavius/pdf/clavius_1992_bd_2_1.pdf p. 178]",
-Rome_1603,,,1603,Rome,LATIN,Christopher Clavius,Aloysius Zannettus,8,2,,,
+Rome_1603,"Elementorum libri 15, accessit Liber XVI",Provided by catalog,1603,Rome,LATIN,Christopher Clavius,Luigi Zannetti,8,1,,,
 Douai_1620,,,1620,Douai,LATIN,Charles Malapert de Mons,Belleri,8,1,-,,
 Douai_1625,,,1625,Douai,LATIN,Charles Malapert de Mons,,12,1,-,,
 Rome_1629,,,1629,Rome,LATIN,"Christopher Clavius, Christoph Grienberger",Heirs of Bartolomeo Zannetti,12,1,-,,
@@ -83,9 +83,9 @@ Paris_1644a,,,1644,Paris,LATIN,Georges Fournier,Mathurinum Henault,8,1,,,
 Antwerp_1645,"Euclidis elementorum geometricorum libros tredecim Isidorum et Hypsiclem & recentiores de corporibus regularibus, & Procli propositiones geometricas",Provided by catalog,1645,Antwerp,LATIN,Claude Richard,Jérôme Verdussi,2,1,1004036,TP is after 14 pages of figures,
 Frankfurt_1654,"Euclidis Posteriores Libri IX Accessit liber XVI. De Solidorum Regularium cuiuslibet intra quodlibet comparatione, Omnes Perspicuis Demonstrationibus, accuratisque scholiis illustrati Auctore Christophoro Clavio Bambergensi e Societate Jesu: nunc quarto editi, ac multarum rerum accessione post primam editionem locupletati",Provided by catalog,1654,Frankfurt,LATIN,Christopher Clavius,Heirs of Jonas Rose,8,2,2658335,,
 Paris_1654,Euclidis elementorum geometricorum libri,Provided by catalog,1654,Paris,LATIN,Georges Fournier,Jean Hénault,8,1,,,
-Rome_1655,,,1655,Rome,LATIN,"Christopher Clavius, Christoph Grienberger",Nicolai Angeli Tinassij,12,1,-,,
+Rome_1655,Euclidis sex primi elementorum geometricorum libri cum parte vndecimi ex maioribus Clavuii commentarijs in commodiorem formam contracti. Rerumque mathematicarum Christophori Grienbergeri Oenohallensis è Societate Iesu opusculum primum. Accessere Isaaci Monachi In sex eosdem libros scholia,Provided by catalog,1655,Rome,LATIN,"Christopher Clavius, Christoph Grienberger",Nicolai Angeli Tinassij,12,1,-,,
 Lyon_1674,,,1674,Lyon,LATIN,Claude-François Milliet Dechales,Anisson,4,3,,,
-Frankfurt_1607,,,1607,Frankfurt,LATIN,Christopher Clavius,Nicolai Hoffmanni,8,2,,,
+Frankfurt_1607,"Elementorum libri 15, accessit Liber XVI",Provided by catalog,1607,Frankfurt,LATIN,Christopher Clavius,Nicolai Hoffmanni,8,2,,,
 London_1654,,,1654,London,LATIN,Georges Fournier,Edwardi Story,12,1,,,
 Cambridge_1665,"Euclidis sex primi Elementorum geometricorum libri, commodiùs demonstrati. A.P. Georg. Fournier è societate Jesu. Accesserunt elementa astronomica, ubi Theodosii Tripolitæ sphæricorum libri tres, & universa triangulorum resolutio demonstrantur per Johannem Baptistam Duhamel, Mathesews Professorem.",Provided by catalog,1665,Cambridge,LATIN,Georges Fournier,,12,1,3083853,"digital copy exist, but doesn;t contain title page...",
 Würzburg_1661,"Cursus mathematicus, sive Absoluta omnium mathematicarum disciplinarum encyclopaedia",Specified in source,1661,Würzburg,LATIN,Gaspar Schott,Job Hertz,2,1,,,
@@ -117,7 +117,7 @@ Basel_1537,Euclidis Megarensis mathematici clarissimi elementorum geometricorum 
 Strasbourg_1538,ΕΥΚΛΕΙΔΟΥ ΤΩΝ ΠΕΝΤΕ ΚΑΙ ΔΕΚΑ ΣΤΟΙΧΕΙΩΝ ἐκ τῶν τοῦ ΘΕΩΝΟΣ συνουσιῶν τὸ πρῶτον,Specified in source,1538,Strasbourg,"GREEK, LATIN",Josias Rihel (?),Josias Rihel (?),4,1,,,
 Venice_1543,"Euclide Megarense philosopho, solo introduttore delle scientie mathematice",Specified in source,1543,Venice,ITALIAN,Niccolò Tartaglia,Venturino Ruffinelli,2,1,,"""Secondo le due Tradottioni"" - meaning, Campanus and Zamberti.",
 Paris_1545,Elementa mathematica,Provided by catalog,1545,Paris,LATIN,Pierre de la Ramée,Ludouicus Grandinus,8,1,200620,,
-Rome_1545,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ιε. Euclidis Elementorum libri XV,Specified in source,1545,Rome,"GREEK, LATIN",Angelo Caiani,,8,1,,,
+Rome_1545,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ιε. Euclidis Elementorum libri XV,Specified in source,1545,Rome,GREEK,Angelo Caiani,,8,1,,,
 Rome_1545a,ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΩΝ ΒΙΒΛΙΑ ιε. Euclidis Elementorum libri XV,Specified in source,1545,Rome,LATIN,Angelo Caiani,Antonio Blado Asolano,8,1,,,
 Basel_1546,Euclidis Megarensis mathematici clarissimi elementorum geometricorum libri XV,Specified in source,1546,Basel,LATIN,Christian Herlin,Johann Herwagen,2,1,,,
 Leipzig_1549,"Euclidis elementorum geometricorum libri sex, conversi in Latinum sermonem",Specified in source,1549,Leipzig,LATIN,"Joachim Kammermeister, Georg Joachim Rhäticus",Georg Joachim Rhäticus,8,1,654436,,
@@ -483,7 +483,7 @@ bib-2,,,1547,Paris,FRENCH,Charles de Bovelles,"Regnaud Chaudiere, Claude Chaudie
 bib-3,Petit traicte de geometrie et d'horologiographie pratique,Provided by catalog,1562,Paris,FRENCH,Jean Bullant,"Guillaume Cavellat, Fleury Prévost",,,23239,,
 bib-4,Petit traicte de geometrie et d'horologiographie pratique,Provided by catalog,1564,Paris,FRENCH,Jean Bullant,Guillaume Cavellat,,1,30232,,True
 bib-5,,,1585,Paris,FRENCH,Jacques Chauvet,Henry Thierry,,,,,True
-bib-6,,,1604,Rome,LATIN,Christopher Clavius,Aloisius Zannetti,,,,,
+bib-6,Geometria practica,Provided by catalog,1604,Rome,LATIN,Christopher Clavius,Luigi Zannetti,,1,4030093,,
 bib-7,"A geometrical practise, named Pantometria divided into three bookes, longimetra, planimetra, and stereometria, containing rules manifolde for mensuration of all lines, superficies and solides",Provided by catalog,1571,London,ENGLISH,"Leonard Digges, Thomas Digges",Henrie Bynneman,,,507303,,True
 bib-8,Underweysung der messung mit dem zirckel und richtscheyt in linien ebnen unnd gantzen corporen durch Albrecht duerer zu samen getzogen mit zu gehoerigen figuren,Provided by catalog,1525,Nuremberg,GERMAN,Albrecht Dürer,Hieronymus Andreae,,1,701774,,True
 bib-9,,,1544,Strasbourg,LATIN,Oronce Finé,,,,,,True
@@ -491,9 +491,9 @@ bib-10,La practique de la geometrie,Specified in source,1570,Paris,FRENCH,"Pierr
 bib-12,"Opera mathematica. Ou oeuures mathematicques. Traictans de geometrie, perspective, architecture, et fortification",Provided by catalog,1614,The Hague,FRENCH,Samuel Marolois,Hendrik Hondius,,1,1031914,,True
 bib-13,"La Practique de géométrie, descripte et démonstrée par Jean de Merliers",Specified in source,1565,Paris,FRENCH,Jean Merliers,Gilles Gorbin,,1,,,True
 bib-14,"Somma di arithmetica, geometria, proporzioni e proporzionalità",Specified in source,1494,Venice,LATIN,Luca Pacioli,Paganino de’ Paganini,,,,,True
-bib-15, L' Arithmetique de Jacques Peletier du Mans,Specified in source,1554,Lyon,FRENCH,Jacques Peletier,Jean di Tournes,,1,,,True
+bib-15," L' Arithmetique de Jacques Peletier du Mans",Specified in source,1554,Lyon,FRENCH,Jacques Peletier,Jean di Tournes,,1,,,True
 bib-16,De usu geometriae liber I,Specified in source,1572,Paris,FRENCH,Jacques Peletier,Gilles Gourbin,,1,,,True
-bib-17, De l'vsage de geometrie,Specified in source,1573,Paris,FRENCH,Jacques Peletier,Gilles Gourbin,,1,,,True
+bib-17," De l'vsage de geometrie",Specified in source,1573,Paris,FRENCH,Jacques Peletier,Gilles Gourbin,,1,,,True
 bib-18,Obra intitulada fragmentos mathematicos,Specified in source,1568,Salamanca,SPANISH,Juan Pérez de Moya,Juan de Canova,,1,,,True
 bib-19,,,1583,Alcala,SPANISH,Juan Pérez de Moya,Juan Gracián,,,,,True
 bib-20,Geometria prattica tratta dagl’Elementi d’Euclide et altri auttori da Giovanni Pomodoro venetiano mathematico eccellentissimo descritta et dichiarata da Giovanni Scala mathematico,Specified in source,1599,Rome,ITALIAN,"Giovanni Pomodoro, Giovanni Scala",Stefano de Paolini,,,,,True
@@ -522,7 +522,7 @@ bib-42,De superficierum divisionibus liber Machometo Bagdedino ascriptus,Specifi
 bib-43,,,1611,Madrid,SPANISH,Sebastián de Covarrubias,Luis Sanchez,,,,,
 bib-44,,,1567,Paris,FRENCH,De l’Orme Delorme,Frédéric Morel,,,,,True
 bib-45,,,1587,Venice,ITALIAN,Oronce Finé,Francesco de Franceschi,,,,,True
-bib-46, Usaige Et description de l'holometre,Specified in source,1555,Paris,FRENCH,Abel Foullon,,,1,,,True
+bib-46," Usaige Et description de l'holometre",Specified in source,1555,Paris,FRENCH,Abel Foullon,,,1,,,True
 bib-47,,,1561,Paris,FRENCH,Abel Foullon,Pierre Beguin,,,,,
 bib-48,,,1564,Venice,ITALIAN,Abel Foullon,Giordano Ziletti,,,,,True
 bib-49,,,1567,Paris,FRENCH,Abel Foullon,Pierre Beguin,,,,,
@@ -622,7 +622,7 @@ bib-144,,,1668,Paris,LATIN,Girolamo Vitali,Ludovic Billaine,,,,,
 bib-145,"Euclides nuevo-antiguo geometria especulativa y practica de los planos, y solidos",Provided by catalog,1678,Madrid,SPANISH,José Zaragoza,Antonio Francisco de Zafra,,,5056363,,
 bib-146,"Geometria especulativa y pratica de los planos, y solidos",Provided by catalog,1671,Valencia,SPANISH,José Zaragoza,Geronimo Villagrassa,,,5056364,,
 bib-147,Due dialoghi di m. Iacomo de' Lanteri da Paratico bresciano; ne i quali s'introduce messer Girolamo Catanio novarese & messer Francesco Trevisi ingegnero veronese con un giovene bresciano a ragionare del modo di disegnare le piante delle fortezze secondo Euclide; et del modo di comporre i modelli et torre in disegno le piante della città,Specified in source,1557,Venice,ITALIAN,Giacomo Lanteri,"Vincenzo Valgrisi, Baldessar Costantini",4,1,837348,,True
-bib-148,,,1598,Paris,FRENCH,Ambroise Bachot, Ambroise Bachot,,,,,True
+bib-148,,,1598,Paris,FRENCH,Ambroise Bachot," Ambroise Bachot",,,,,True
 bib-149,,,1606,Milan,"ITALIAN, LATIN",Luigi Colliado,"Girolamo Bordoni, Pietromartire Locarni",,,,,
 bib-150,The theorike and practike of moderne warres discoursed in dialogue wise,Provided by catalog,1598,London,ENGLISH,Robert Barret,William Ponsonby,,,513584,,True
 bib-151,,,1567,Brescia,ITALIAN,Girolamo Cataneo,Thomaso Bozola,,,,,True
@@ -775,7 +775,7 @@ bib-283,,,1603,London,ENGLISH,Humfrey Baker,Thomas Purfoot,,,,,False
 bib-284,,,1687,London,ENGLISH,"Humfrey Baker, Henry Phillippes","J. Richardson, William Thackery",,,,,
 bib-285,,,1564,London,ENGLISH,Humfrey Baker,"Henry Denham, James Rowbothum",,,,,False
 X2T7PY,Fabrica et usus instrumenti ad horologiorum descriptionem,Provided by catalog,1586,Rome,LATIN,Christopher Clavius,Bartholomaeus Grassium,,1,,"In letter n. 35 from 1587 in Clavius correspondence Francesco Barozzi relays Clavius's complaint that the printers of his Horologiis had ""lasciato fuori le righe intiere, et aggiontone di quelle, che non andavano"" (left out entire lines and added ones that didn't belong) [Source: Clavius, C. 1992. Corrispondenza. Baldini, U. and Napolitani, P.D., Eds. Università di Pisa, Dipartimento di matematica, Pisa., https://echo.mpiwg-berlin.mpg.de/content/mpiwglib/clavius/pdf/clavius_1992_bd_2_1.pdf p. 95]",True
-ZGOHUR,Gnomonices libri octo,Specified in source,1581,Rome,LATIN,Christopher Clavius,Francesco Zanetii,,1,,,True
+ZGOHUR,Gnomonices libri octo,Specified in source,1581,Rome,LATIN,Christopher Clavius,,,1,,,True
 Z0K13S,"De revolutionibus orbium coelestium, libri VI.",Specified in source,1543,Nuremberg,LATIN,Nicolaus Copernicus,Johannes Petreius,,1,,,True
 70Q8M8,Breve compendium artis geometrie,Specified in source,1495,Paris,LATIN,"Thomas Bradwardine, Pedro Ciruelo",Guy Marchant,4,1,201284,,
 IC4Y79,De expetendis et fugiendis rerum opus,Specified in source,1501,Venice,LATIN,Giorgio Valla,"Aldo Manuzio, Giampietro Valla",2,1,861868,,
@@ -916,7 +916,8 @@ L8FLF5,"Abrégé ou racourcy de la perspective par l'imitation, dans lequel est 
 BFI81M,"Della architettura libri due ne' quali con nuova simmetria, & facoltà si mostrano le giuste regole dei cinque ordini di detta architettura, & osservationi de' piu eccellenti architetti",Provided by catalog,1629,Padua,ITALIAN,Giuseppe Viola Zanini,Francesco Bolzetta,,1,4007830,,
 OT231L,"Scenographiae, sive perspectivae",Provided by catalog,1560,Antwerp,LATIN,Hans Vredeman de Vries,Hieronymus Cock,2,1,409189,,
 YB32U5,"Perspective c'est a dire, le tresrenommé art du poinct oculaire",Provided by catalog,1604,Leiden,FRENCH,Hans Vredeman de Vries,"Beuckel Cornelisz Nieulandt, Henricus Hondius",2,1,1031332,,
-TDJC06,Opera Mathematica: V. Tomis distributa,Provided by catalog,1612,Mainz,LATIN,Christopher Clavius,"Johann Volmar, Johann Albin",,1,2536684,,
+TDJC06,Opera Mathematica: V. Tomis distributa,Provided by catalog,1612,Mainz,LATIN,Christopher Clavius,"Johann Volmar, Johann Albin",,1,2536684,"volume 2: https://www.ustc.ac.uk/editions/2120266
+volume 3: https://www.ustc.ac.uk/editions/2003010",
 P3JCQH,Euclides logisticus sive De ratione Euclidea,Provided by catalog,1652,Leuven,LATIN,Francies de Nonancourt,Andreas Bouvet,12,1,1550191,,
 EJGRZN,"Élémens de géométrie, où par une méthode courte & aisée l'on peut apprendre ce qu'il faut sçavoir d'Euclide, d'Archimède, d'Apollonius, & les plus belles inventions des anciens & des nouveaux géomètres",Provided by catalog,1671,Paris,FRENCH,Ignace-Gaston Pardies,Sébastien Mabre-Cramoisy,,1,6164614,,
 144JC3,"Della nuova geometria di Franc. Patrici libri XV. Ne' quali con mirabile ordine, e con dimostrazioni a maraviglia più facili, e più forti delle usate si vede che le matematiche per via regia, e più piana che da gli antichi fatto non si è, si possonotrattare",Provided by catalog,1586,Ferrara,ITALIAN,Francesco Patrizi,Vittorio Baldini,4,1,847045,,True
@@ -932,8 +933,64 @@ OGXS5A,"Mirifici logarithmorum canonis constructio, et eorum ad naturales ipsoru
 WNYVAP,"Tables des sinus, tangentes, & secantes",Provided by catalog,1629,The Hague,FRENCH,Albert Girard,Jacob Elzevier,12,1,1030928,,
 136K7I,Invention nouvelle en l'algebre,Provided by catalog,1629,Amsterdam,FRENCH,Albert Girard,Willem Jansz Blaeu,4,1,1016604,,
 WOQG2Q,Fortification ou architecture militaire,Provided by catalog,1627,Amsterdam,FRENCH,"Samuel Marolois, Albert Girard",Johannes Janssonius,,1,1549284,,
-MMJVXG, L'arithmique de Simon Stevin de Bruges,Provided by catalog,1625,Leiden,FRENCH,"Simon Stevin, Albert Girard",Elzevier,,1,,,
+MMJVXG," L'arithmique de Simon Stevin de Bruges",Provided by catalog,1625,Leiden,FRENCH,"Simon Stevin, Albert Girard",Elzevier,,1,,,
 9D1KT8,"Pratica d'arithmetica, e geometrica",Specified in source,1682,Siena,ITALIAN,Lorenzo Forestani,Giorgio Varisco,4,1,4030567,,
 T4DFPF,Euclidis megarensis mathematici clarissimi Elementorum geometricorum libri XV ,Specified in source,1558,Basel,LATIN,Marinus Neapolitanus,"Johannes Herwagen, Bernhard Brand",2,1,,,True
 GY5QLD,Euclidis Megarensis Mathematici Clarissimi Elementorum geometricorum Lib. XV,Specified in source,1537,Basel,LATIN,Bartolomeo Zamberti,Johann Herwagen,4,1,,,
 D40ZCO,"Heinrici Hofmanni Professoris Mathematici in der Universitet Jehna Teutscher Euclides, Das ist seiner Geometriæ Erster Theil/ Von derselben Elementen",Specified in source,1628,Jena,GERMAN,Heinrich Hofmann,Johan Weidner's Widow,4,1,,,
+7BQW8D,"In Sphaeram Ioannis de Sacro Bosco commentarius nunc iterum ab ipso auctore recognitus, et multis ac variis locis locupletatus",Provided by catalog,1581,Rome,LATIN,"Christopher Clavius, Johannes de Sacrobosco","Francesco Zanetti, Domenico Basa",4,1,822863,,
+S66LMV,Epitome arithmeticae practicae,Provided by catalog,1583,Rome,LATIN,Christopher Clavius,Domenico Basa,8,1,822864,,
+AKQ4ZK,Epitome arithmeticae practicae nunc denuo ab ipso auctore recognita,Provided by catalog,1585,Rome,LATIN,Christopher Clavius,Domenico Basa,8,1,822865,,
+NK4GX0,"In Sphaeram Ioannis de Sacro Bosco commentarius nunc tertio ab ipso auctore recognitus, & plerisque in locis locupletatus",Provided by catalog,1585,Rome,LATIN,"Christopher Clavius, Johannes de Sacrobosco",Domenico Basa,4,1,822866,,
+YD6GFC,"Sphaericorum libri III. A Christophoro Clauio Bambergensi Societatis Iesu perspicuis demonstrationibus, ac scholiis illustrati. Item eiusdem Christophori Clauii Sinus, lineae tangentes, et secantes, triangula rectilinea, atque sphaerica",Provided by catalog,1586,Rome,LATIN,Christopher Clavius,Domenico Basa,4,1,858965,,
+220OQK,In Sphaeram Ioannis de Sacro Bosco commentarius,Provided by catalog,1570,Rome,LATIN,"Christopher Clavius, Johannes de Sacrobosco",Vittorio Eliano,4,1,822861,,
+0CXTNP,Aritmetica prattica,Provided by catalog,1586,Rome,ITALIAN,"Christopher Clavius, Lorenzo Castellano",Domenico Basa,8,1,822867,,
+E38BVC,"Novi calendarii Romani apologia, adversus Michaelem Maestlinum Gaeppingensem in Tubingensi Academia mathematicum tribus libris explicata",Provided by catalog,1588,Rome,LATIN,Christopher Clavius,Santius,4,1,822870,,
+XLKFZ8,"In Sphaeram Ioannis de Sacro Bosco commentarius, nunc tertio ab ipso auctore recognitus, et plerisque in locis locupletatus",Provided by catalog,1591,Venice,LATIN,"Christopher Clavius, Johannes de Sacrobosco","Giovanni Battista Ciotti, Francesco De Franceschi",4,1,822871,,
+H5H6K4,"Epitome arithmeticae praticae, nunc denuo ab ipso auctore recognita, et aucta.",Provided by catalog,1592,Cologne,LATIN,Christopher Clavius,Heinrich Falckenburg,8,1,622187,,
+EUARD4,Tabula ad cognoscendam magnitudinem diei ac noctis,Provided by catalog,1592,Rome,LATIN,Christopher Clavius,Luigi Zannetti,8,1,822872,,
+2F464H,"In Sphaeram Joannis de Sacro Bosco commentarius, nunc quarto ab ipso auctore recognitus et plerisque in locis locupletatus cum ejusdem textu",Provided by catalog,1593,Lyon,LATIN,"Christopher Clavius, Johannes de Sacrobosco","Guichard Julliéron, Gabiano",4,1,146336,,
+4QQF4D,Astrolabium,Provided by catalog,1593,Rome,LATIN,Christopher Clavius,"Bartolomeo Grassi, Tipografia Gabiana",4,1,822860,,
+7GBVNE,In Sphaeram Joannis de Sacro Bosco commentarius. Nunc quarto ab ipso Auctore recognitus et plerisque in locis locupletatur,Provided by catalog,1594,Lyon,LATIN,"Christopher Clavius, Johannes de Sacrobosco","Guichard Julliéron, Gabiano",4,1,146400,,
+IE7UPT,"Ratio facilis et perspicua conficiendi omnis generis solaria a meridie et media nocte in quovis plano, quod ab horizonte vel aeque distat, vel ad eundem rectum est, ad quamvis poli altitudinem",Provided by catalog,1595,Leuven,LATIN,Christopher Clavius,"Joannes Baptista Zangrius, Jacobus Heybergius",4,1,413144,,
+GD6MNQ,"Iosephi Scaligeri elenchus, et castigatio calendarii Gregoriani a Christophoro Clauio Bambergensi Societatis Iesu castigata",Provided by catalog,1595,Rome,LATIN,"Joseph Justus Scaliger, Christopher Clavius",Luigi Zannetti,8,1,822873,,
+FN4YWP,"In Sphaeram Ioannis de Sacro Bosco commentarius, nunc tertio ab ipso auctore recognitus, & plerisque in locis locupletatus",Provided by catalog,1596,Venice,LATIN,"Christopher Clavius, Johannes de Sacrobosco",Bernardo Basa,4,1,822874,,
+FO2GHY,Computus ecclesiasticus per digitorum articulos mira facilitate traditus,Provided by catalog,1597,Rome,LATIN,Christopher Clavius,Bernardo Basa,16,1,822875,,
+5H4T1E,Computus ecclesiasticus per digitorum articulos mira facilitate traditus,Provided by catalog,1599,Mainz,LATIN,Christopher Clavius,Balthasar Lipp,16,1,624004,,
+U0TF6J,Horologiorum nova descriptio,Provided by catalog,1599,Rome,LATIN,Christopher Clavius,Luigi Zannetti,4,1,822877,,
+6HQEPW,Christophori Clavii Bambergensis E Societate Jesu. Epitome Arithmeticae Practicae,Provided by catalog,1601,Cologne,LATIN,Christopher Clavius,Bernhard Wolter,8,1,2078245,,
+19DYVJ,"In sphaeram Ioannis de Sacro Bosco commentarius. Nunc tertio ab ipso auctore recognitus, & plerisque in locis locupletatus. Maiori item cura correctus",Provided by catalog,1601,Venice,LATIN,"Christopher Clavius, Johannes de Sacrobosco",Isabetta Basa,,1,4031224,,
+5UCE2B,Aritmetica prattica tradotta da latino in italiano dal signor Lorenzo Castellano. Revista con alcune aggiunte,Provided by catalog,1602,Rome,ITALIAN,"Lorenzo Castellano, Christopher Clavius",Niccolò Muzi,8,1,4036435,,
+0PU4US,In sphaeram Ioannis de Sacro Bosco. Commentarius,Provided by catalog,1602,Lyon,LATIN,"Christopher Clavius, Johannes de Sacrobosco",Samuel Crispin,4,1,6807488,,
+PI9E6Q,"Tabula altitudinum solis pro horis astronomicis in signorum initiis, ad omnes gradus altitudinis poli borealis. Supputata per Christophorum Clauium Bambergensem Societatis Iesu",Provided by catalog,1603,Rome,LATIN,Christopher Clavius,Luigi Zannetti,4,1,4034015,,
+RC8QCW,"Computus ecclesiasticus per digitorum articulos, & tabulas traditus.",Provided by catalog,1603,Rome,LATIN,Christopher Clavius,Luigi Zannetti,,1,4029873,,
+Z03ON6,"Romani calendarii a Gregorio 13. P.M. restituti explicatio S.D.N. Clementis 8. P.M. iussu edita. Auctore Christophoro Clauio Bambergensi Societatis Iesu. Accessit confutatio eorum, qui Calendarium aliter instaurandum esse contenderunt",Provided by catalog,1603,Rome,LATIN,Christopher Clavius,Luigi Zannetti,2,1,4031882,,
+H2HKOI,Compendium brevissimum describendorum horologiorum horientalium ad declinantium,Provided by catalog,1603,Rome,LATIN,Christopher Clavius,Luigi Zannetti,,1,4034014,,
+204SL8,"In sphaeram Ioannis de Sacro Bosco commentarius. Nunc septimo ab ipso auctore recognitus, & plerisque in locis locupletatus. Maiori item cura correctus",Provided by catalog,1603,Venice,LATIN,"Christopher Clavius, Johannes de Sacrobosco",Giovanni Battista Ciotti,,1,4032963,,
+K08Z9W,Tabulae astronomicae nonnullae ad horologiorum constructionem maxime utiles. …,Provided by catalog,1605,Rome,LATIN,Christopher Clavius,Luigi Zannetti,4,1,4033501,,
+YF9WE1,In Sphaeram Ioannis de Sacro Bosco commentarius,Provided by catalog,1606,Rome,LATIN,"Christopher Clavius, Johannes de Sacrobosco","Luigi Zannetti, Giovanni Paolo Gelli",,1,4033299,,
+545ZC8,Geometria Practica,Provided by catalog,1606,Mainz,LATIN,Christopher Clavius,Johann Albin,4,1,2040263,,
+TSQJVT,Epitome Arithmeticae Practicae,Provided by catalog,1607,Cologne,LATIN,Christopher Clavius,Bernhard Wolter,8,1,2014429,,
+M87KXQ,"In sphaeram Ioannis de Sacro Bosco. Commentarius. Nunc quinto ab ipso auctore hoc anno 1606. recognitus, & plerisq. In locis locupletatus. Accessit geometrica, atque uberrima de crepusculis tractatio",Provided by catalog,1607,Rome,LATIN,"Christopher Clavius, Johannes de Sacrobosco","Luigi Zannetti, Giovanni Paolo Gelli",,1,4036508,,
+EWSGC5,"Tabulae Sinuum, Tangentium Et Secantium : Ad partes radii 10,000,000. [et] ad scrupula prima Quadrantis, Et ad earum praxin brevis introductio , ex pleniore Tractatu Christophori Clavii Bambergensis, E Societate Jesu",Provided by catalog,1607,Mainz,LATIN,Christopher Clavius,Johann Albin,4,1,2066526,,
+HGZZ0J,Algebra,Provided by catalog,1608,Rome,LATIN,Christopher Clavius,Bartolomeo Zannetti,,1,4037117,,
+VSYL9N,in Sphæram Joannis de Sacro Bosco commentarius,Provided by catalog,1608,Saint-Gervais,LATIN,"Christopher Clavius, Johannes de Sacrobosco",Samuel Crispin,4,1,6810827,,
+CXRQO5,Algebra,Provided by catalog,1609,Geneva,LATIN,Christopher Clavius,Étienne Gamonet,4,1,6703661,,
+H1SYB3,"Refutatio Cyclometriae Josephi Scaligeri , Auctore Christophoro Clavio Bambergensi, E Societate Jesu",Provided by catalog,1609,Mainz,LATIN,Christopher Clavius,Johann Albin,4,1,2053939,,
+NKO7F6,"Responsio Ad Convicia, Et Calumnias Josephi Scaligeri, In Calendarium Gregorianum Item Refutatio Cyclometriae Eiusdem , Auctore Christophoro Clavio Bambergensi, E Societate Jesu",Provided by catalog,1609,Mainz,LATIN,Christopher Clavius,Johann Albin,4,1,2028025,,
+C3JZRM,"Confutatio Calendarii Georgii Germanni Wartenbergensis Borussi , Auctore Christophoro Clavio Bambergensi Societatis Jesu",Provided by catalog,1610,Mainz,LATIN,Christopher Clavius,Reinhard Eltz,8,1,2093666,,
+0MHR7M,"Computus Ecclesiasticus , Ex R. P. Christophori Clavii Apologia Pro Novo Calendario magna ex parte collectus",Provided by catalog,1611,Dillingen,LATIN,Christopher Clavius,Johann Mayer,8,1,2042027,,
+3GQBBJ,L'algebre,Provided by catalog,1612,Liège,FRENCH,"Gilles Guillion, Christopher Clavius",Léonard Streel,4,1,1116925,,
+FRR0IA,Aritmetica prattica,Provided by catalog,1613,Rome,ITALIAN,"Christopher Clavius, Lorenzo Castellano",Guglielmo Facciotti,,1,4021558,,
+6ONUG1,Epitome Arithmeticae Practicae,Provided by catalog,1614,Mainz,LATIN,Christopher Clavius,"Johann Volmar, Bernhard Wolter",8,1,2137139,,
+WQOLVK,Aritmetica prattica,Provided by catalog,1618,Rome,ITALIAN,"Lorenzo Castellano, Christopher Clavius",Guglielmo Facciotti,,1,4021942,,
+MUAMS7,"In Sphaeram Joannis de Sacro Bosco, commentarius. Geometrica atque uberrima de crepusculis tractatio",Provided by catalog,1618,Lyon,LATIN,"Christopher Clavius, Johannes de Sacrobosco","Amédée Polère, Pierre Rigaud",8,1,6902377,,
+BOPZK9,Aritmetica prattica,Provided by catalog,1626,Rome,ITALIAN,"Christopher Clavius, Lorenzo Castellano",Guglielmo Facciotti,8,1,4000544,,
+DV4325,"Aritmetica prattica, tradotta da latino in italiano dal signor Lorenzo Castellano patritio romano. Revista dal medesimo p. Clavio con alcune aggiunte",Provided by catalog,1644,Venice,ITALIAN,"Christopher Clavius, Lorenzo Castellano","Tommaso Giunta, Francesco Baba",,1,4016200,,
+WW7RFC,Aritmetica prattica,Provided by catalog,1652,,ITALIAN,"Christopher Clavius, Lorenzo Castellano","Giunta, Tommaso Giunta",8,1,1731048,,
+1QD2VS,Aritmetica prattica,Provided by catalog,1656,Venice,ITALIAN,"Christopher Clavius, Lorenzo Castellano",Giunta,8,1,1701887,,
+J3ZMM5,Aritmetica prattica,Provided by catalog,1662,Venice,ITALIAN,"Christopher Clavius, Lorenzo Castellano","Sebastiano Combi, Giovanni La Noù",8,1,1718961,,
+CGKUUG,"Aritmetica prattica composta dal molto r.p. Christophoro Clauio Bambergense, della Compagnia di Giesù. Et tradotta dal latino in italiano dal signor Lorenzo Castellano patritio romano. Reuista dal medesimo p. Clauio con alcune aggiunte",Provided by catalog,1671,Venice,ITALIAN,"Christopher Clavius, Lorenzo Castellano",Nicolò Pezzana,8,1,1735394,,
+0HNMAK,Aritmetica prattica,Provided by catalog,1678,Venice,ITALIAN,"Christopher Clavius, Lorenzo Castellano",Stefano Curti,8,1,1702350,,
+OA7UOG,Aritmetica prattica,Provided by catalog,1686,Venice,ITALIAN,"Christopher Clavius, Lorenzo Castellano",Stefano Curti,8,1,1709191,,
+YXV7JU,"Utriusque Cosmi ... metaphysica, physica atque technica Historia",Provided by catalog,1617,Oppenheim,LATIN,Robert Fludd,"Johann Theodor de Bry, Hieronymus Galler",,1,,,True
