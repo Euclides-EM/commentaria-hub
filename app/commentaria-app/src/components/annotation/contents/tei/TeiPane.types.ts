@@ -3,6 +3,7 @@ import type {
   feature_Result,
   feature_ResultValue,
 } from '@hub-api'
+import type { TeiOriginalEditableLine } from './tei.ts'
 
 export type ResolvedTeiFeature = {
   id: string
@@ -77,6 +78,10 @@ export type FeatureOption = {
   color?: string
   description: string
   isAction?: boolean
+}
+
+export type EditableOriginalLine = TeiOriginalEditableLine & {
+  originalText: string
 }
 
 export type TeiFeatureResult = feature_Result
