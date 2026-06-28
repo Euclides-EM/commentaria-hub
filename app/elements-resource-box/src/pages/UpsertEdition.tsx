@@ -12,6 +12,7 @@ import {
 } from "../api/editionApi";
 import type { model_Edition, model_USTC } from "@hub-api";
 import type { model_EditionLocator } from "@hub-api";
+import { MetadataService } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
 import { isNil, startCase, uniq, uniqBy, uniqueId } from "lodash";
@@ -29,6 +30,10 @@ import { useQuery } from "@tanstack/react-query";
 import { STUDY_CORPUSES } from "../types";
 import { ItemLinksRow } from "../components/ItemLinksRow.tsx";
 import { mapEditionsToItems } from "../utils/dataUtils.ts";
+import {
+  buildPseudonymAutocompleteIndex,
+  createPseudonymAutocompleteMatcher,
+} from "../utils/pseudonymAutocomplete.ts";
 
 type Locator = model_EditionLocator;
 
@@ -869,6 +874,12 @@ export const UpsertEdition = () => {
     staleTime: Infinity,
     refetchOnWindowFocus: false,
   });
+  const pseudonymsQuery = useQuery({
+    queryKey: ["metadata", "pseudonyms"],
+    queryFn: () => MetadataService.getPseudonyms(),
+    staleTime: Infinity,
+    refetchOnWindowFocus: false,
+  });
   const valuesLoading = Boolean(key) && existingItemQuery.isLoading;
   const listsLoading = !lists && editionsForListsQuery.isLoading;
   const existingEdition = existingItemQuery.data?.edition;
@@ -1054,6 +1065,18 @@ export const UpsertEdition = () => {
     );
     alert("Failed to load existing item");
   }, [existingItemQuery.error, key]);
+
+  const pseudonymIndex = buildPseudonymAutocompleteIndex(
+    pseudonymsQuery.data || [],
+  );
+  const editorFilterOption = createPseudonymAutocompleteMatcher(
+    pseudonymIndex,
+    "Editors",
+  );
+  const publisherFilterOption = createPseudonymAutocompleteMatcher(
+    pseudonymIndex,
+    "Publishers",
+  );
 
   const isSubmitting = useStore(form.store, (state) => state.isSubmitting);
 
@@ -1461,6 +1484,7 @@ export const UpsertEdition = () => {
                             onBlur={field.handleBlur}
                             isCreatable={true}
                             placeholder="Choose or add editors/authors..."
+                            filterOption={editorFilterOption}
                           />
                           {!field.state.meta.isValid && (
                             <em>{field.state.meta.errors.join(",")}</em>
@@ -1493,6 +1517,7 @@ export const UpsertEdition = () => {
                             onBlur={field.handleBlur}
                             isCreatable={true}
                             placeholder="Choose or add publishers..."
+                            filterOption={publisherFilterOption}
                           />
                           {!field.state.meta.isValid && (
                             <em>{field.state.meta.errors.join(",")}</em>

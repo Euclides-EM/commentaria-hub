@@ -1,4 +1,4 @@
-import Select, { components } from "react-select";
+import Select, { components, createFilter } from "react-select";
 import { LAND_COLOR, SEA_COLOR } from "../../utils/colors";
 import styled from "@emotion/styled";
 import { MdQuestionMark } from "react-icons/md";
@@ -8,6 +8,8 @@ import { Switch, SwitchOption } from "./Switch.tsx";
 
 export type FilterValue = { label: string; value: string };
 
+const defaultFilterOption = createFilter<FilterValue>();
+
 type FilterProps = {
   field: keyof Item;
   label: string;
@@ -16,6 +18,7 @@ type FilterProps = {
   value: FilterValue[] | undefined;
   setValue: (value: readonly FilterValue[] | undefined) => void;
   options: readonly FilterValue[];
+  filterOption?: (optionValue: string, inputValue: string) => boolean;
 };
 
 const FilterTitle = styled.div`
@@ -83,6 +86,7 @@ export const Filter = ({
   options,
   include,
   setInclude,
+  filterOption,
 }: FilterProps) => {
   return (
     <>
@@ -114,6 +118,11 @@ export const Filter = ({
         value={value || []}
         options={options}
         isMulti
+        filterOption={(candidate, inputValue) =>
+          filterOption
+            ? filterOption(candidate.value, inputValue)
+            : defaultFilterOption(candidate, inputValue)
+        }
         onChange={(value) => setValue(value)}
         components={{
           MultiValueLabel: (props) => (

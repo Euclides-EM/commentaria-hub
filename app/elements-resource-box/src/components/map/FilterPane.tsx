@@ -1,4 +1,6 @@
 import styled from "@emotion/styled";
+import { MetadataService } from "@hub-api";
+import { useQuery } from "@tanstack/react-query";
 import { PANE_BORDER } from "../../utils/colors";
 import { FiltersGroup } from "./FiltersGroup";
 import { useAppliedFilter } from "../../contexts/FilterAppliedContext";
@@ -19,6 +21,10 @@ import { FilterValue } from "./Filter";
 import { Item } from "../../types";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
+import {
+  buildPseudonymAutocompleteIndex,
+  createPseudonymAutocompleteMatcher,
+} from "../../utils/pseudonymAutocomplete.ts";
 
 const FILTER_PANE_WIDTH = "26rem";
 
@@ -178,6 +184,12 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
   } = useAppliedFilter();
   const isFiltering = useEditionsSearchIsFetching();
   const location = useLocation();
+  const pseudonymsQuery = useQuery({
+    queryKey: ["metadata", "pseudonyms"],
+    queryFn: () => MetadataService.getPseudonyms(),
+    staleTime: Infinity,
+    refetchOnWindowFocus: false,
+  });
 
   const { filterOpen } = useEditFilter();
 
@@ -300,6 +312,17 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [filterOpen, handleApply]);
 
+  const pseudonymIndex = buildPseudonymAutocompleteIndex(
+    pseudonymsQuery.data || [],
+  );
+  const filterOptions = {
+    editors: createPseudonymAutocompleteMatcher(pseudonymIndex, "Editors"),
+    publishers: createPseudonymAutocompleteMatcher(
+      pseudonymIndex,
+      "Publishers",
+    ),
+  };
+
   if (
     !filterOpen ||
     !range[0] ||
@@ -381,6 +404,7 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
         setFilters={setFilters}
         filtersInclude={filtersInclude}
         setFiltersInclude={setFiltersInclude}
+        filterOptions={filterOptions}
       />
     </Pane>
   );
