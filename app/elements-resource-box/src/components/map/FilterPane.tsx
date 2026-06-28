@@ -1,10 +1,9 @@
 import styled from "@emotion/styled";
-import { MetadataService } from "@hub-api";
-import { useQuery } from "@tanstack/react-query";
 import { PANE_BORDER } from "../../utils/colors";
 import { FiltersGroup } from "./FiltersGroup";
 import { useAppliedFilter } from "../../contexts/FilterAppliedContext";
 import { useEditionsSearchIsFetching } from "../../hooks/useEditionsSearch";
+import { usePseudonyms } from "../../hooks/usePseudonyms.ts";
 import { useEditFilter } from "../../contexts/FilterEditContext";
 import { ScrollbarStyle } from "../common";
 import { RangeSlider } from "../tps/filters/RangeSlider";
@@ -184,12 +183,7 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
   } = useAppliedFilter();
   const isFiltering = useEditionsSearchIsFetching();
   const location = useLocation();
-  const pseudonymsQuery = useQuery({
-    queryKey: ["metadata", "pseudonyms"],
-    queryFn: () => MetadataService.getPseudonyms(),
-    staleTime: Infinity,
-    refetchOnWindowFocus: false,
-  });
+  const pseudonymsQuery = usePseudonyms();
 
   const { filterOpen } = useEditFilter();
 

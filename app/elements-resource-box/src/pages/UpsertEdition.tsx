@@ -12,7 +12,6 @@ import {
 } from "../api/editionApi";
 import type { model_Edition, model_USTC } from "@hub-api";
 import type { model_EditionLocator } from "@hub-api";
-import { MetadataService } from "@hub-api";
 import { AuthContext } from "../contexts/Auth.ts";
 import { CATALOGUE_ROUTE } from "../components/layout/routes.ts";
 import { isNil, startCase, uniq, uniqBy, uniqueId } from "lodash";
@@ -34,6 +33,7 @@ import {
   buildPseudonymAutocompleteIndex,
   createPseudonymAutocompleteMatcher,
 } from "../utils/pseudonymAutocomplete.ts";
+import { usePseudonyms } from "../hooks/usePseudonyms.ts";
 
 type Locator = model_EditionLocator;
 
@@ -874,12 +874,7 @@ export const UpsertEdition = () => {
     staleTime: Infinity,
     refetchOnWindowFocus: false,
   });
-  const pseudonymsQuery = useQuery({
-    queryKey: ["metadata", "pseudonyms"],
-    queryFn: () => MetadataService.getPseudonyms(),
-    staleTime: Infinity,
-    refetchOnWindowFocus: false,
-  });
+  const pseudonymsQuery = usePseudonyms();
   const valuesLoading = Boolean(key) && existingItemQuery.isLoading;
   const listsLoading = !lists && editionsForListsQuery.isLoading;
   const existingEdition = existingItemQuery.data?.edition;
