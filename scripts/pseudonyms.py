@@ -277,7 +277,7 @@ def collect_rows(xlsx_path: Path) -> list[MappingRow]:
 
 
 def default_output_path() -> Path:
-    return Path.cwd() / "pseudonyms.csv"
+    return Path.cwd() / "../ocrflow/store/items_metadata/pseudonyms.csv"
 
 
 def write_csv(output_path: Path, rows: list[MappingRow]) -> None:

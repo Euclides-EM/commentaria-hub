@@ -64,6 +64,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 
 	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir())
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
+	pseudonymStore := store.NewPseudonymCSV(env.ItemsMetadataStoreDir())
 	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow", env.OptionalMigrations())
 	if err != nil {
 		return nil, fmt.Errorf("init db: %w", err)
@@ -95,6 +96,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	healthSvc := service.NewHealthService(sqlDB, vcsMgtSvc)
 	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
 	geoSvc := service.NewGeoService(geoStore)
+	pseudonymSvc := service.NewPseudonymService(pseudonymStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
 	editionSvc := service.NewEditionService(editionStore, facsimileStore)
@@ -166,6 +168,12 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	log.Printf("finished warming geo cache")
 
+	log.Printf("warming pseudonym cache...")
+	if err := pseudonymStore.WarmCache(); err != nil {
+		log.Fatalf("pseudonym cache warm failed: %v", err)
+	}
+	log.Printf("finished warming pseudonym cache")
+
 	log.Printf("warming edition cache...")
 	if err := editionStore.WarmCache(); err != nil {
 		log.Fatalf("edition cache warm failed: %v", err)
@@ -196,6 +204,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		LogsSvc:                 logsSvc,
 		EditionSvc:              editionSvc,
 		GeoSvc:                  geoSvc,
+		PseudonymSvc:            pseudonymSvc,
 		FacsimileSvc:            facsimileSvc,
 		DatasetSvc:              datasetSvc,
 		DatasetImgSvc:           datasetImgSvc,
