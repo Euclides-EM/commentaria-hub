@@ -47,6 +47,9 @@ type FiltersGroupProps = {
   setFiltersInclude: React.Dispatch<
     React.SetStateAction<Record<string, boolean>>
   >;
+  filterOptions?: Partial<
+    Record<string, (optionValue: string, inputValue: string) => boolean>
+  >;
 };
 
 const mapStudyCorpus = (s: string): string => {
@@ -95,6 +98,7 @@ export const FiltersGroup = ({
   setFilters,
   filtersInclude,
   setFiltersInclude,
+  filterOptions,
 }: FiltersGroupProps) => {
   const keys = useMemo(
     () =>
@@ -215,6 +219,7 @@ export const FiltersGroup = ({
                     }))
                   }
                   options={optionsByFilter[field]}
+                  filterOption={filterOptions?.[field]}
                   include={
                     isNil(filtersInclude[field]) ? true : filtersInclude[field]
                   }

@@ -39,6 +39,7 @@ type Dependencies struct {
 	JobSvc                  *service.Job
 	ModelTrainingSvc        *service.ModelTraining
 	GeoSvc                  *service.Geo
+	PseudonymSvc            *service.Pseudonym
 	VCSMgt                  *service.VCSMgt
 	BackupSvc               *service.Backup
 }
@@ -57,6 +58,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/version_control/push", httpwrapper.Create(h.VersionControlPush).Build())
 	api.HandleFunc("/catalogs/ustc/lookup", httpwrapper.Create(h.USTCLookup).Build())
 	api.HandleFunc("/cities", httpwrapper.Get(h.ListCities).Build())
+	api.HandleFunc("/pseudonyms", httpwrapper.Get(h.ListPseudonyms).Build())
 
 	api.HandleFunc("/backups", httpwrapper.Get(h.ListBackups).Create(h.CreateBackup).Build())
 	api.HandleFunc("/backups/fromzip", httpwrapper.CreateFile(h.CreateBackupFromZip).Build())

@@ -1,5 +1,6 @@
 import Select, {
   components,
+  createFilter,
   MultiValueGenericProps,
   GroupBase,
   MultiValue,
@@ -22,6 +23,11 @@ const OptionLabel = ({ label, tooltip }: OptionLabelProps) => (
   </span>
 );
 
+const defaultFilterOption = createFilter<{
+  value: string;
+  label: string | JSX.Element;
+}>();
+
 type MultiSelectProps = {
   name: string;
   options: string[];
@@ -35,6 +41,7 @@ type MultiSelectProps = {
   className?: string;
   isCreatable?: boolean;
   placeholder?: string;
+  filterOption?: (optionValue: string, inputValue: string) => boolean;
 };
 
 export const MultiSelect = ({
@@ -50,6 +57,7 @@ export const MultiSelect = ({
   className,
   isCreatable = false,
   placeholder,
+  filterOption,
 }: MultiSelectProps) => {
   const SelectComponent = isCreatable ? CreatableSelect : Select;
   const displayLabel = (opt: string) => (labelFn ? labelFn(opt) : opt);
@@ -104,6 +112,11 @@ export const MultiSelect = ({
           displayLabel(option)
         ),
       }))}
+      filterOption={(candidate, inputValue) =>
+        filterOption
+          ? filterOption(candidate.value, inputValue)
+          : defaultFilterOption(candidate, inputValue)
+      }
       className={`basic-multi-select ${className}`}
       classNamePrefix="select"
       onBlur={onBlur}

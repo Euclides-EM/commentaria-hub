@@ -95,6 +95,7 @@ export type { model_Note } from './models/model_Note';
 export type { model_OCRModelAlgorithmFamily } from './models/model_OCRModelAlgorithmFamily';
 export type { model_OCRModelLocation } from './models/model_OCRModelLocation';
 export type { model_PRDetails } from './models/model_PRDetails';
+export type { model_Pseudonym } from './models/model_Pseudonym';
 export type { model_USTC } from './models/model_USTC';
 export type { model_VCSStatus } from './models/model_VCSStatus';
 export type { search_OrderByOption } from './models/search_OrderByOption';

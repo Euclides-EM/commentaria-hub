@@ -3,6 +3,7 @@ import { PANE_BORDER } from "../../utils/colors";
 import { FiltersGroup } from "./FiltersGroup";
 import { useAppliedFilter } from "../../contexts/FilterAppliedContext";
 import { useEditionsSearchIsFetching } from "../../hooks/useEditionsSearch";
+import { usePseudonyms } from "../../hooks/usePseudonyms.ts";
 import { useEditFilter } from "../../contexts/FilterEditContext";
 import { ScrollbarStyle } from "../common";
 import { RangeSlider } from "../tps/filters/RangeSlider";
@@ -19,6 +20,10 @@ import { FilterValue } from "./Filter";
 import { Item } from "../../types";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
+import {
+  buildPseudonymAutocompleteIndex,
+  createPseudonymAutocompleteMatcher,
+} from "../../utils/pseudonymAutocomplete.ts";
 
 const FILTER_PANE_WIDTH = "26rem";
 
@@ -178,6 +183,7 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
   } = useAppliedFilter();
   const isFiltering = useEditionsSearchIsFetching();
   const location = useLocation();
+  const pseudonymsQuery = usePseudonyms();
 
   const { filterOpen } = useEditFilter();
 
@@ -300,6 +306,17 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [filterOpen, handleApply]);
 
+  const pseudonymIndex = buildPseudonymAutocompleteIndex(
+    pseudonymsQuery.data || [],
+  );
+  const filterOptions = {
+    editors: createPseudonymAutocompleteMatcher(pseudonymIndex, "Editors"),
+    publishers: createPseudonymAutocompleteMatcher(
+      pseudonymIndex,
+      "Publishers",
+    ),
+  };
+
   if (
     !filterOpen ||
     !range[0] ||
@@ -381,6 +398,7 @@ export const FilterPane = ({ overlay }: FilterPaneProps) => {
         setFilters={setFilters}
         filtersInclude={filtersInclude}
         setFiltersInclude={setFiltersInclude}
+        filterOptions={filterOptions}
       />
     </Pane>
   );
