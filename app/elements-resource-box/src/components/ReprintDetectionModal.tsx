@@ -57,6 +57,7 @@ const Button = styled.button<{ primary?: boolean }>`
 
 const TableWrap = styled.div`
   overflow: auto;
+  max-height: min(65vh, 900px);
   border: 1px solid #d7e0e8;
   border-radius: 0.4rem;
 `;
@@ -87,6 +88,12 @@ const Table = styled.table`
   }
 `;
 
+const EditionMeta = styled.div`
+  margin-top: 0.2rem;
+  color: #52606d;
+  font-size: 0.8rem;
+`;
+
 const ErrorText = styled.p`
   color: #a61b1b;
   margin: 0.5rem 0;
@@ -102,21 +109,20 @@ type Props = {
 const editionUrl = (key: string) =>
   withAppBasePath(`/item/edit?key=${encodeURIComponent(key)}`);
 
-const PAGE_SIZE = 10;
-
 const editionLabel = (
   edition: model_Edition | undefined,
   fallbackKey: string,
-) =>
-  edition
-    ? [
-        edition.shortTitle || edition.title || fallbackKey,
-        edition.cities?.join(", "),
-        edition.year,
-      ]
-        .filter(Boolean)
-        .join(" · ")
-    : fallbackKey;
+) => edition?.shortTitle || edition?.title || fallbackKey;
+
+const editionEditorNames = (edition: model_Edition | undefined) => {
+  const editors = (edition as model_Edition & { editor?: string[] })?.editor;
+  return editors?.filter(Boolean).join(", ") || "";
+};
+
+const editionMetaLine = (edition: model_Edition | undefined, key: string) =>
+  [key, edition?.cities?.join(", "), edition?.year, editionEditorNames(edition)]
+    .filter(Boolean)
+    .join(" · ");
 
 export function ReprintDetectionModal({
   candidates,
@@ -124,40 +130,26 @@ export function ReprintDetectionModal({
   onClose,
   onApplied,
 }: Props) {
-  const allKeys = useMemo(
-    () => candidates.map((candidate) => candidate.editionKey),
-    [candidates],
-  );
+  const allKeys = useMemo(() => {
+    const keys = new Set<string>();
+    for (const candidate of candidates) {
+      keys.add(candidate.editionKey);
+      keys.add(candidate.reprintOf);
+    }
+    return Array.from(keys);
+  }, [candidates]);
   const [selected, setSelected] = useState(() => new Set<string>());
-  const [page, setPage] = useState(0);
   const [isApplying, setIsApplying] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const pageCount = Math.max(1, Math.ceil(candidates.length / PAGE_SIZE));
-  const pageCandidates = useMemo(
-    () => candidates.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE),
-    [candidates, page],
-  );
-  const pageEditionKeys = useMemo(
-    () =>
-      Array.from(
-        new Set(
-          pageCandidates.flatMap(({ editionKey, reprintOf }) => [
-            editionKey,
-            reprintOf,
-          ]),
-        ),
-      ),
-    [pageCandidates],
-  );
   const editionsQuery = useQuery({
-    queryKey: ["editions", "reprint-review", pageEditionKeys],
+    queryKey: ["editions", "reprint-review", allKeys],
     queryFn: () =>
       searchEditionsPage({
-        fields_filter: { key: pageEditionKeys },
+        fields_filter: { key: allKeys },
         offset: 0,
-        limit: pageEditionKeys.length,
+        limit: allKeys.length,
       }),
-    enabled: pageEditionKeys.length > 0,
+    enabled: allKeys.length > 0,
   });
   const editionsByKey = useMemo(
     () =>
@@ -221,7 +213,9 @@ export function ReprintDetectionModal({
         <Header>
           <div>
             <h2 id="reprint-dialog-title">Review suspected reprints</h2>
-            <p>No catalog data changes until you approve the selected rows.</p>
+            <p>
+              Changes will be applied only to the rows you select and confirm.
+            </p>
           </div>
         </Header>
 
@@ -233,7 +227,13 @@ export function ReprintDetectionModal({
               <div>
                 <Button
                   type="button"
-                  onClick={() => setSelected(new Set(allKeys))}
+                  onClick={() =>
+                    setSelected(
+                      new Set(
+                        candidates.map((candidate) => candidate.editionKey),
+                      ),
+                    )
+                  }
                 >
                   Select all
                 </Button>{" "}
@@ -255,7 +255,7 @@ export function ReprintDetectionModal({
                   </tr>
                 </thead>
                 <tbody>
-                  {pageCandidates.map((candidate) => (
+                  {candidates.map((candidate) => (
                     <tr key={candidate.editionKey}>
                       <td>
                         <input
@@ -279,8 +279,12 @@ export function ReprintDetectionModal({
                             candidate.editionKey,
                           )}
                         </a>
-                        <br />
-                        <small>{candidate.editionKey}</small>
+                        <EditionMeta>
+                          {editionMetaLine(
+                            editionsByKey.get(candidate.editionKey),
+                            candidate.editionKey,
+                          )}
+                        </EditionMeta>
                       </td>
                       <td>
                         <a
@@ -296,8 +300,12 @@ export function ReprintDetectionModal({
                             candidate.reprintOf,
                           )}
                         </a>
-                        <br />
-                        <small>{candidate.reprintOf}</small>
+                        <EditionMeta>
+                          {editionMetaLine(
+                            editionsByKey.get(candidate.reprintOf),
+                            candidate.reprintOf,
+                          )}
+                        </EditionMeta>
                       </td>
                     </tr>
                   ))}
@@ -310,25 +318,6 @@ export function ReprintDetectionModal({
                 Could not load edition details.
               </ErrorText>
             )}
-            <Actions>
-              <Button
-                type="button"
-                disabled={page === 0}
-                onClick={() => setPage((current) => current - 1)}
-              >
-                Previous
-              </Button>
-              <span>
-                Page {page + 1} of {pageCount}
-              </span>
-              <Button
-                type="button"
-                disabled={page + 1 >= pageCount}
-                onClick={() => setPage((current) => current + 1)}
-              >
-                Next
-              </Button>
-            </Actions>
           </>
         )}
         {error && <ErrorText role="alert">{error}</ErrorText>}
