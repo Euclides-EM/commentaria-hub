@@ -1,9 +1,0 @@
-origin_language,destination_language,count,earliest_year,latest_year,cities,examples
-DE LATIN,EN FRANÇOIS,6,1615.0,1649.0,Paris | Rouen,Paris_1615 | Paris_1621 | Paris_1623 | Paris_1630 | Paris_1631 | Rouen_1649
-DE GREC,EN FRANÇOIS,4,1622.0,1646.0,Lyon | Paris,Paris_1622 | Paris_1632a | Lyon_1645 | Lyon_1646
-FRENCH,ENGLISH,3,1685.0,1700.0,"London | Oxford | Oxford, London",Oxford_1685 | London_1696 | Oxford_London_1700
-FRANÇOIS,EN FRANÇOIS,1,1663.0,1663.0,Le Mans,Le_Mans_1663
-GREC,EN FRANÇOIS,1,1663.0,1663.0,Le Mans,Le_Mans_1663
-GRÆCI,LATINI,1,1550.0,1550.0,Basel,Basel_1550
-GRÆCUS,LATINA,1,1536.0,1536.0,Paris,Paris_1536
-LATEIN,TEÜTSCH,1,1555.0,1555.0,Augsburg,Augsburg_1555

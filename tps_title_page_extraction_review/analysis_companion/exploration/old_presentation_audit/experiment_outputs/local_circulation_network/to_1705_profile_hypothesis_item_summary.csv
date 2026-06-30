@@ -1,5 +1,0 @@
-circulation_profile,matched_edition_count,author_line_count,practical_title_page_claim_count,practical_title_page_claim_share,book_1_6_or_1_6_plus_solids_count,book_1_6_or_1_6_plus_solids_share,non_latin_language_count,non_latin_language_share,mentions_institution_count,mentions_institution_share,jesuit_marker_count,jesuit_marker_share
-multi_city_latin_institutional,45,14,0,0.0,16,0.35555555555555557,0,0.0,24,0.5333333333333333,9,0.2
-multi_language_mediation,47,9,11,0.23404255319148937,25,0.5319148936170213,27,0.574468085106383,30,0.6382978723404256,13,0.2765957446808511
-regional_vernacular_series,28,6,4,0.14285714285714285,18,0.6428571428571429,28,1.0,3,0.10714285714285714,0,0.0
-single_city_series,133,90,11,0.08270676691729323,45,0.3383458646616541,68,0.5112781954887218,51,0.38345864661654133,2,0.015037593984962405

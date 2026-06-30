@@ -1,9 +1,0 @@
-mode,column,count,pct_of_metadata_elements
-humanist/ancient,mode_humanist_ancient,243,85.0
-institutional/authority,mode_institutional_authority,219,76.6
-pedagogical/method,mode_pedagogical_method,201,70.3
-composite/apparatus,mode_composite_apparatus,196,68.5
-corrected/updated,mode_corrected_updated,144,50.3
-vernacular/transfer,mode_vernacular_transfer,106,37.1
-practical/public,mode_practical_public,81,28.3
-sparse/canonical,mode_sparse_canonical,44,15.4

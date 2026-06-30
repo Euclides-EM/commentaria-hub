@@ -1,6 +1,0 @@
-neighbor_bucket,n,avg_similarity,avg_overlap
-euclid_language_practical_neighbor,39,0.653,19.7
-professional_practical_neighbor,13,0.565,18.5
-general_practical_geometry_neighbor,129,0.505,12.9
-visual_artisan_practical_geometry_neighbor,65,0.462,11.5
-military_engineering_neighbor,50,0.458,13.7
