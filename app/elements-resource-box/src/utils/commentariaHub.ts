@@ -5,6 +5,22 @@ const getCommentariaAppUrl = () => {
   return typeof baseUrl === "string" && baseUrl.length > 0 ? baseUrl : null;
 };
 
+export const buildCommentariaHubFeatureResultsUrl = (featureId: string) => {
+  let baseUrl = getCommentariaAppUrl();
+  if (!baseUrl) {
+    return null;
+  }
+  if (!baseUrl.endsWith("/")) {
+    baseUrl += "/";
+  }
+
+  const url = new URL(baseUrl);
+  url.searchParams.set("viewMode", "features");
+  url.searchParams.set("featuresTab", "results");
+  url.searchParams.set("featureId", featureId);
+  return url.toString();
+};
+
 export const buildCommentariaHubTranscriptionUrl = ({
   annotationId,
   datasetId,

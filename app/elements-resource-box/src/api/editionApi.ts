@@ -1,5 +1,10 @@
 import type { model_Edition, model_USTC, search_Query } from "@hub-api";
-import { EditionsService, OpenAPI, ThirdPartyCatalogsService } from "@hub-api";
+import {
+  EditionsService,
+  FeatureResultsService,
+  OpenAPI,
+  ThirdPartyCatalogsService,
+} from "@hub-api";
 import { uploadImage } from "./imageApi.ts";
 
 export const upsertEdition = async (
@@ -70,6 +75,24 @@ export const upsertEdition = async (
 
 export const deleteEdition = async (editionId: string): Promise<void> => {
   await EditionsService.deleteEditions({ editionId });
+};
+
+export const updateEditionSubjectCategories = async (
+  editionId: string,
+  categories: { category: string; classification: string }[],
+): Promise<void> => {
+  await FeatureResultsService.postFeaturesResults({
+    result: [
+      {
+        scope: { type: "editions" },
+        key: editionId,
+        feature_id: "m_classifier",
+        values: categories.map(({ category, classification }) => ({
+          surface: `${category}::${classification}`,
+        })),
+      },
+    ],
+  });
 };
 
 export const ustcLookup = async (
