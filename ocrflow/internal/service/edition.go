@@ -3,11 +3,13 @@ package service
 import (
 	"errors"
 	"fmt"
+	"maps"
 	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/search"
 	"github.com/samber/lo"
 )
 
@@ -16,6 +18,12 @@ import (
 var ErrEditionNotFound = errors.New("edition not found")
 
 const subjectCategoriesFeatureID = "m_classifier"
+const editionFeatureFilterPrefix = "feature:"
+
+type editionFeatureFilter struct {
+	matchingEditionIDs map[string]struct{}
+	include            bool
+}
 
 type Edition struct {
 	editionStore       *store.EditionCSV
@@ -31,11 +39,71 @@ func NewEditionService(editionStore *store.EditionCSV, facsimileStore *store.Fac
 	}
 }
 
-// ListEditions returns a paginated list of editions, optionally filtered by corpus.
+// SearchEditions applies API search filters, including edition feature-backed fields.
+func (e *Edition) SearchEditions(query search.Query, offset, limit int) (*model.EditionListResult, error) {
+	query.FieldsFilter = maps.Clone(query.FieldsFilter)
+	query.FilterIncludes = maps.Clone(query.FilterIncludes)
+	features := make(map[string][]string)
+	featureFilters := make([]editionFeatureFilter, 0)
+	for field, allowed := range query.FieldsFilter {
+		if !strings.HasPrefix(field, editionFeatureFilterPrefix) || len(allowed) == 0 {
+			continue
+		}
+		featureID := strings.TrimPrefix(field, editionFeatureFilterPrefix)
+		if featureID == "" {
+			continue
+		}
+
+		features[featureID] = allowed
+
+		matchingIDs, err := e.featureResultStore.ListEditionIDsByFeatureValues(featureID, allowed)
+		if err != nil {
+			return nil, fmt.Errorf("filter editions by feature %q: %w", featureID, err)
+		}
+		include := true
+		if configured, exists := query.FilterIncludes[field]; exists {
+			include = configured
+		}
+		featureFilters = append(featureFilters, editionFeatureFilter{
+			matchingEditionIDs: matchingIDs,
+			include:            include,
+		})
+		delete(query.FieldsFilter, field)
+		delete(query.FilterIncludes, field)
+	}
+
+	baseFilter := query.FilterFunc()
+	filter := func(value any) bool {
+		if !baseFilter(value) {
+			return false
+		}
+		edition, ok := value.(*model.Edition)
+		if !ok {
+			return false
+		}
+		for _, featureFilter := range featureFilters {
+			_, matched := featureFilter.matchingEditionIDs[edition.Key]
+			if matched != featureFilter.include {
+				return false
+			}
+		}
+		return true
+	}
+
+	items, total, err := e.editionStore.ListEditions(filter, query.OrderByFunc(), offset, limit)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list editions from store: %w", err)
+	}
+	if err := e.addSubjectCategories(items); err != nil {
+		return nil, err
+	}
+	return &model.EditionListResult{Items: items, Total: total, Offset: offset, Limit: limit}, nil
+}
+
 func (e *Edition) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any) int, offset, limit int) (*model.EditionListResult, error) {
 	items, total, err := e.editionStore.ListEditions(filter, orderBy, offset, limit)
 	if err != nil {
-		return nil, fmt.Errorf("failed to list editions from store: %w", err)
+		return nil, err
 	}
 	if err := e.addSubjectCategories(items); err != nil {
 		return nil, err

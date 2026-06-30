@@ -80,6 +80,10 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
               .map((v) => v.visual_element_type)
               .filter(Boolean)) as string[],
         ),
+        subjectCategories: edition.subjectCategories || [],
+        subjectCategoryValues: (edition.subjectCategories || [])
+          .filter((item) => item.category && item.classification)
+          .map((item) => `${item.category}::${item.classification}`),
         reprintOf: edition.reprintOf || null,
       } satisfies Item;
     })

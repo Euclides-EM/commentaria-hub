@@ -29,6 +29,7 @@ const ITEM_FIELD_TO_EDITION_FIELD: Record<string, string> = {
   format: "format",
   volumesCount: "volumes",
   visualElementsTypes: "visualElementsTypes",
+  subjectCategoryValues: "feature:m_classifier",
   shortTitle: "shortTitle",
   title: "title",
   titleEn: "title_EN",

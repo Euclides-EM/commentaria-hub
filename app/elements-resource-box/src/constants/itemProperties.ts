@@ -127,4 +127,9 @@ export const itemProperties: {
     displayName: "Has Title Page",
     filterGroup: "Title Page",
   },
+  subjectCategoryValues: {
+    displayName: "Subject Categories",
+    filterGroup: "Subject Categories",
+    isArray: true,
+  },
 };

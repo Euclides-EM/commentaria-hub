@@ -40,6 +40,55 @@ func (s *FeatureResultSql) ListEditionFeatureValues(featureID string, editionIDs
 	return valuesByEdition, nil
 }
 
+// ListEditionIDsByFeatureValues returns edition IDs whose current feature result
+// contains at least one of the requested values.
+func (s *FeatureResultSql) ListEditionIDsByFeatureValues(featureID string, values []string) (map[string]struct{}, error) {
+	matchingIDs := make(map[string]struct{})
+	const batchSize = 500
+	for start := 0; start < len(values); start += batchSize {
+		end := min(start+batchSize, len(values))
+		batchIDs, err := s.listEditionIDsByFeatureValuesBatch(featureID, values[start:end])
+		if err != nil {
+			return nil, err
+		}
+		for editionID := range batchIDs {
+			matchingIDs[editionID] = struct{}{}
+		}
+	}
+	return matchingIDs, nil
+}
+
+func (s *FeatureResultSql) listEditionIDsByFeatureValuesBatch(featureID string, values []string) (map[string]struct{}, error) {
+	matchingIDs := make(map[string]struct{})
+	placeholders := strings.TrimSuffix(strings.Repeat("?, ", len(values)), ", ")
+	query := `
+SELECT DISTINCT edition_id
+FROM edition_feature_result_values
+WHERE scope = ?
+  AND feature_id = ?
+  AND surface COLLATE NOCASE IN (` + placeholders + `)
+`
+	args := []any{feature.ScopeTypeEditions, featureID}
+	args = append(args, lo.ToAnySlice(values)...)
+	rows, err := s.db.Query(query, args...)
+	if err != nil {
+		return nil, fmt.Errorf("list edition ids by feature values: query: %w", err)
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		var editionID string
+		if err := rows.Scan(&editionID); err != nil {
+			return nil, fmt.Errorf("list edition ids by feature values: scan: %w", err)
+		}
+		matchingIDs[editionID] = struct{}{}
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("list edition ids by feature values: rows: %w", err)
+	}
+	return matchingIDs, nil
+}
+
 func (s *FeatureResultSql) listEditionFeatureValuesBatch(featureID string, editionIDs []string) (map[string][]string, error) {
 	valuesByEdition := make(map[string][]string, len(editionIDs))
 	query := `

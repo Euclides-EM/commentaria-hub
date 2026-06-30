@@ -39,7 +39,7 @@ func (h *Handlers) ListEditions(r *http.Request) (any, error) {
 	} else if limit > maxListLimit {
 		limit = maxListLimit
 	}
-	return h.deps.EditionSvc.ListEditions(query.FilterFunc(), query.OrderByFunc(), offset, limit)
+	return h.deps.EditionSvc.SearchEditions(query, offset, limit)
 }
 
 // DetectEditionReprints godoc

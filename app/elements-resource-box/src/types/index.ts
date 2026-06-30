@@ -3,6 +3,7 @@ import {
   feature_Feature,
   model_City,
   model_EditionShelfmark,
+  model_EditionSubjectCategory,
   type model_EditionTitlePageStatus,
 } from "@hub-api";
 
@@ -13,7 +14,8 @@ export type FilterGroup =
   | "Elements"
   | "Title Page"
   | "Material"
-  | "Diagrams";
+  | "Diagrams"
+  | "Subject Categories";
 
 export type Range = {
   start: number;
@@ -57,6 +59,8 @@ export type Item = {
   diagramCropsAvailable: boolean | null;
   hasDiagrams: boolean | undefined;
   visualElementsTypes: string[];
+  subjectCategories: model_EditionSubjectCategory[];
+  subjectCategoryValues: string[];
 };
 
 export type RadioProps = {
