@@ -1,5 +1,5 @@
 import type { model_Edition, model_USTC, search_Query } from "@hub-api";
-import { EditionsService, ThirdPartyCatalogsService } from "@hub-api";
+import { EditionsService, OpenAPI, ThirdPartyCatalogsService } from "@hub-api";
 import { uploadImage } from "./imageApi.ts";
 
 export const upsertEdition = async (
@@ -86,6 +86,48 @@ export const getEdition = async (editionId: string): Promise<model_Edition> => {
 
 export const searchEditionsPage = async (query?: search_Query) =>
   EditionsService.postEditionsSearch({ edition: query });
+
+export type ReprintRelationship = {
+  editionKey: string;
+  reprintOf: string;
+};
+
+const postReprintRequest = async <T>(
+  path: string,
+  body: unknown,
+  token: string,
+): Promise<T> => {
+  const response = await fetch(`${OpenAPI.BASE}${path}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    const detail = await response.text();
+    throw new Error(detail || `Request failed (${response.status})`);
+  }
+  return response.json() as Promise<T>;
+};
+
+export const detectReprints = async (token: string) =>
+  postReprintRequest<{ candidates: ReprintRelationship[] }>(
+    "/editions/reprints/detect",
+    {},
+    token,
+  );
+
+export const applyReprints = async (
+  token: string,
+  relationships: ReprintRelationship[],
+) =>
+  postReprintRequest<{ updated: string[]; skipped: string[] }>(
+    "/editions/reprints/apply",
+    { relationships },
+    token,
+  );
 
 const pageSignature = (items: model_Edition[] | undefined) =>
   (items || []).map((item) => item.key || "").join("|");

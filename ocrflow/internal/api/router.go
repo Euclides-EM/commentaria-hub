@@ -15,6 +15,7 @@ type Dependencies struct {
 	HealthSvc               *service.Health
 	LogsSvc                 *service.Logs
 	EditionSvc              *service.Edition
+	ReprintSvc              *service.Reprint
 	FacsimileSvc            *service.Facsimile
 	DatasetSvc              *service.Dataset
 	DatasetImgSvc           *service.DatasetImg
@@ -122,6 +123,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
 
 	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())
+	api.HandleFunc("/editions/reprints/detect", httpwrapper.Create(h.DetectEditionReprints).Build())
+	api.HandleFunc("/editions/reprints/apply", httpwrapper.Create(h.ApplyEditionReprints).Build())
 
 	api.HandleFunc("/editions/transcriptions", httpwrapper.Get(h.ListEditionTranscriptionsDetails).Build())
 

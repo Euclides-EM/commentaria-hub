@@ -12,7 +12,7 @@ import {
   SortingState,
   useReactTable,
 } from "@tanstack/react-table";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import styled from "@emotion/styled";
 import { FacsimilesService, type search_OrderByOption } from "@hub-api";
 import { SiMaterialdesign } from "react-icons/si";
@@ -49,6 +49,8 @@ import { inEuclidesMode } from "../utils/mode.ts";
 import { useAutoOpenEditionFromQuery } from "../hooks/useAutoOpenEditionFromQuery.ts";
 import { FacsimileLinks } from "../components/FacsimileLinks.tsx";
 import { openAuthenticatedFacsimilePDF } from "../utils/facsimilePdf.ts";
+import { detectReprints, type ReprintRelationship } from "../api/editionApi.ts";
+import { ReprintDetectionModal } from "../components/ReprintDetectionModal.tsx";
 
 const TableContainer = styled.div`
   ${ScrollbarStyle};
@@ -289,6 +291,7 @@ const toServerOrderBy = (sorting: SortingState): search_OrderByOption[] => {
 export function Catalogue() {
   const { filters } = useAppliedFilter();
   const { token } = useContext(AuthContext);
+  const queryClient = useQueryClient();
   const [sorting, setSorting] = useState<SortingState>([
     { id: "year", desc: false },
   ]);
@@ -296,6 +299,11 @@ export function Catalogue() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [isExporting, setIsExporting] = useState(false);
+  const [isDetectingReprints, setIsDetectingReprints] = useState(false);
+  const [reprintCandidates, setReprintCandidates] = useState<
+    ReprintRelationship[] | null
+  >(null);
+  const [reprintMessage, setReprintMessage] = useState<string | null>(null);
   const [viewMode, setViewMode] = useLocalStorage<ViewMode>(
     "catalogue-view-mode",
     "reprint",
@@ -372,6 +380,22 @@ export function Catalogue() {
       );
     } finally {
       setIsExporting(false);
+    }
+  };
+
+  const handleDetectReprints = async () => {
+    if (!token) return;
+    setIsDetectingReprints(true);
+    setReprintMessage(null);
+    try {
+      const result = await detectReprints(token);
+      setReprintCandidates(result.candidates || []);
+    } catch (error) {
+      setReprintMessage(
+        error instanceof Error ? error.message : "Could not detect reprints.",
+      );
+    } finally {
+      setIsDetectingReprints(false);
     }
   };
 
@@ -793,7 +817,17 @@ export function Catalogue() {
             ? "Exporting citations..."
             : "Export Citations (Chicago Style)"}
         </ExportButton>
+        {token && (
+          <ExportButton
+            onClick={handleDetectReprints}
+            disabled={isDetectingReprints}
+          >
+            {isDetectingReprints ? "Detecting reprints..." : "Detect reprints"}
+          </ExportButton>
+        )}
       </Row>
+
+      {reprintMessage && <p role="status">{reprintMessage}</p>}
 
       <TableContainer>
         <StyledTable>
@@ -879,6 +913,22 @@ export function Catalogue() {
           item={selectedItem}
           featuresById={{}}
           onClose={() => setSelectedItem(null)}
+        />
+      )}
+      {token && reprintCandidates && (
+        <ReprintDetectionModal
+          candidates={reprintCandidates}
+          token={token}
+          onClose={() => setReprintCandidates(null)}
+          onApplied={(updated, skipped) => {
+            setReprintCandidates(null);
+            setReprintMessage(
+              skipped > 0
+                ? `Updated ${updated} reprints; skipped ${skipped} editions that had already changed.`
+                : `Updated ${updated} reprint${updated === 1 ? "" : "s"}.`,
+            );
+            void queryClient.invalidateQueries({ queryKey: ["editions"] });
+          }}
         />
       )}
     </Container>

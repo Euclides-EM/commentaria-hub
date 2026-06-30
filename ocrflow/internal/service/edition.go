@@ -34,6 +34,21 @@ func (e *Edition) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any)
 	return &model.EditionListResult{Items: items, Total: total, Offset: offset, Limit: limit}, nil
 }
 
+func (e *Edition) ListAllEditions() ([]*model.Edition, error) {
+	const pageSize = 5000
+	all := make([]*model.Edition, 0, pageSize)
+	for offset := 0; ; offset += pageSize {
+		page, err := e.ListEditions(nil, nil, offset, pageSize)
+		if err != nil {
+			return nil, err
+		}
+		all = append(all, page.Items...)
+		if len(page.Items) < pageSize || len(all) >= page.Total {
+			return all, nil
+		}
+	}
+}
+
 func (e *Edition) CreateEdition(ed *model.Edition, login string) (*model.Edition, error) {
 	if ed.Key == "" {
 		ed.Key = idgen.GenerateID("ed")

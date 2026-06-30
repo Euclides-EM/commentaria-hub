@@ -9,6 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/editdistance"
 	"github.com/samber/lo"
 )
 
@@ -431,40 +432,8 @@ func normalizedEditDistance(a, b string) float64 {
 	if den == 0 {
 		return 0
 	}
-	d := float64(levenshteinRunes([]rune(a), []rune(b)))
+	d := float64(editdistance.Runes([]rune(a), []rune(b)))
 	return d / den
-}
-
-func levenshteinRunes(a, b []rune) int {
-	if len(a) == 0 {
-		return len(b)
-	}
-	if len(b) == 0 {
-		return len(a)
-	}
-
-	prev := make([]int, len(b)+1)
-	cur := make([]int, len(b)+1)
-	for j := 0; j <= len(b); j++ {
-		prev[j] = j
-	}
-
-	for i := 1; i <= len(a); i++ {
-		cur[0] = i
-		for j := 1; j <= len(b); j++ {
-			cost := 0
-			if a[i-1] != b[j-1] {
-				cost = 1
-			}
-			cur[j] = lo.Min([]int{
-				prev[j] + 1,
-				cur[j-1] + 1,
-				prev[j-1] + cost,
-			})
-		}
-		prev, cur = cur, prev
-	}
-	return prev[len(b)]
 }
 
 func isFinite(x float64) bool { return !math.IsInf(x, 0) && !math.IsNaN(x) }

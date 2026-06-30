@@ -42,6 +42,39 @@ func (h *Handlers) ListEditions(r *http.Request) (any, error) {
 	return h.deps.EditionSvc.ListEditions(query.FilterFunc(), query.OrderByFunc(), offset, limit)
 }
 
+// DetectEditionReprints godoc
+// @Summary Detect likely reprints without modifying the catalog
+// @Tags Editions
+// @Produce json
+// @Security BearerAuth
+// @Success 200 {object} model.ReprintDetection
+// @Router /editions/reprints/detect [post]
+func (h *Handlers) DetectEditionReprints(r *http.Request) (any, error) {
+	return h.deps.ReprintSvc.DetectReprints()
+}
+
+// ApplyEditionReprints godoc
+// @Summary Apply reviewed reprint relationships in bulk
+// @Tags Editions
+// @Accept json
+// @Produce json
+// @Param request body model.ApplyReprints true "Approved relationships"
+// @Security BearerAuth
+// @Success 200 {object} model.ApplyReprints
+// @Router /editions/reprints/apply [post]
+func (h *Handlers) ApplyEditionReprints(r *http.Request) (any, error) {
+	var request model.ApplyReprints
+	if err := DecodeBody(r, &request); err != nil {
+		return nil, err
+	}
+	user, _ := r.Context().Value(httpwrapper.GitHubUserKey).(*httpwrapper.GitHubUser)
+	login := ""
+	if user != nil {
+		login = user.Login
+	}
+	return h.deps.ReprintSvc.ApplyReprints(&request, login)
+}
+
 // GetEdition godoc
 // @Summary      Get Edition by ID
 // @Description  Get a single edition by its ID.
