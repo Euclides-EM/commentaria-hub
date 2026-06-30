@@ -17,7 +17,8 @@ Do not run Ollama-backed extraction directly unless Mia asks for it or has coord
 - Existing production/paper snapshot is preserved in `ann_1` by `ocrflow/internal/migrations/ocrflow/1774207517_tps_feature_results_opt.sql`.
 - Final reviewed V8 results are inserted into `ann_tps_v8_reviewed` by `ocrflow/internal/migrations/ocrflow/1774300011_tps_title_page_v8_reviewed_results.sql`.
 - Final latest V8 feature definitions/prompts are in `ocrflow/internal/migrations/ocrflow/1774300009_tps_title_page_latest_revisions.sql`.
-- Source CSV for the V8 result migration: `tps_title_page_extraction_review/v8_results_preview_reviewed.csv`.
+- Source CSV for the V8 result migration: `tps_title_page_extraction_review/data/reviewed_elements_v8/v8_results_preview_reviewed.csv`.
+- Latest larger-corpus TPS preview CSV for research analysis: `tps_title_page_extraction_review/data/latest_larger_corpus/printed_missing_tps_v8_preview.csv`.
 
 ## Final V8 Run Summary
 
@@ -28,6 +29,15 @@ Do not run Ollama-backed extraction directly unless Mia asks for it or has coord
 - Two `Enriched With` rows were manually dropped after review:
   - `Amsterdam_1626`: purpose/audience phrase, not enrichment.
   - `Rotterdam_1661`: purpose phrase, not enrichment.
+
+## Larger-Corpus TPS Run
+
+- Former location: `edition_classification_final_data/tps/`.
+- Current organized location: `tps_title_page_extraction_review/data/latest_larger_corpus/`.
+- Target keys with title-page transcriptions: 690.
+- Editions with at least one non-empty extracted feature row in the preview CSV: 650.
+- Non-empty feature rows: 7,169.
+- Run artifacts are in `tps_title_page_extraction_review/run_artifacts/`.
 
 ## Final Feature Set
 
@@ -77,7 +87,7 @@ The production runner is now only:
 cd /Users/mia/dev/personal/elements-dh/ocrflow
 
 go run ./cmd/title-page-extraction-offline \
-  -output-csv ../tps_title_page_extraction_review/v8_offline_results_preview.csv
+  -output-csv ../tps_title_page_extraction_review/data/latest_larger_corpus/v8_offline_results_preview.csv
 ```
 
 Resume is on by default and uses `<output-csv>.done`. The command accepts `-keys`, `-keys-file`, `-features`, `-checkpoint-file`, and `-resume=false`.

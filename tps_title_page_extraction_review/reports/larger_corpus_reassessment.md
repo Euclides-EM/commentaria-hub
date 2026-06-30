@@ -1,0 +1,41 @@
+# Title-page extraction: larger-corpus reassessment
+
+- New extraction file: `tps_title_page_extraction_review/data/latest_larger_corpus/printed_missing_tps_v8_preview.csv` (7,169 non-empty feature rows, 650 editions, 22 features).
+- Target accounting: the new missing-TPS run had 690 target keys with title-page transcriptions; 650 produced at least one non-empty feature row in the preview CSV. The earlier reviewed Elements-oriented V8 file covers 217 editions. Combined, the two non-empty TPS result sets cover 867 editions.
+- Metadata join: 650/650 editions have print metadata in `items_print.csv`.
+- Genre classification: `final_hybrid_classifications.csv` covers 155 editions; 138 overlap with the title-page extraction.
+
+## Main quantitative corrections
+
+- Euclid is present but not dominant in the new larger extracted batch: 131/650 editions with non-empty rows (20.2%) mention Euclid in any extracted title-page feature. In the older reviewed batch, by contrast, 199/217 editions (91.7%) mention Euclid. Across both non-empty result sets, 330/867 editions (38.1%) mention Euclid.
+- Element/elementa/elemens vocabulary is broader than Euclid: in the new batch, 101/650 editions (15.5%) use element-word vocabulary and 21 use it without a Euclid reference. Across both result sets, 260/867 editions (30.0%) use element-word vocabulary and 26 do so without a Euclid reference.
+- Among Euclid-mentioned editions, 122/131 (93.1%) have an `Elements Designation` extraction, but that designation is not always literally “Euclid’s Elements.”
+- Euclid-mentioned editions are more likely than non-Euclid items to foreground enrichment (48.9% vs 39.1%), bound-with/additional works (31.3% vs 13.5%), and institutions (38.2% vs 23.7%).
+
+## Rebuilt argument
+
+1. Replace “base designation is highly consistent” with: Euclid’s Elements participates in a wider early-modern vocabulary of elements, geometry, elementary method, and mathematical foundations. The Euclidean label is strong, but it is neither exclusive nor always literal.
+2. Keep “canonical text in motion,” but make the motion comparative: Euclid title pages are unusually dense in enrichments, bound-with works, institutional credentials, and references to other authorities, so canonicity appears through accumulation and mediation rather than simple name stability.
+3. Treat the title page as a sorting device for communities of use. The classified subset is led by Practical Geometry (59 primary), Arithmetic (47), Perspective (22), Theoretical Mathematics (16), Instrument Use (15), Astronomy (12), Architecture and Commercial Mathematics (11 each). This makes “mathematical education” broader than Elements reception alone.
+4. Reframe locality/network claims with genres: local printers and cities still matter, but the pan-European story is not only Euclid moving across Europe; it is also the reuse of title-page formulas across arithmetic, practical geometry, perspective, instruments, and architecture.
+
+## Useful edge cases
+
+- **35H84Y (1642, Bologna, LATIN)**: base_content: EVCLIDES APPLICATVS; elements_designation: EVCLIDES APPLICATVS; references_to_euclid: EVCLIDES | Euclideorum; enriched_with: noua pleraque Machinamenta ad vsus eximios traducta | facillimis demonstrationibus confirmata | curiosissimis inuentis refertum | figurarum æreis formis cusarum numerosa | speciosa varietate ornatum | gemino copiosissimo; bound_with_minimal: EVCLIDES APPLICATVS; audience: Philosophis Mathematicis, sed & Physicis, Anatomicis, Militaribus viris, Machinariæ, Musicæ, Poeticæ, Agrariæ, Architecturæ, Mercaturæ professoribus; institutions: Coll. Tridentino Soc. Iesu | Parmensi Gymnasio Philosophiæ Mathematicæ | Parmensi Gymnasio
+- **5V691B (1583, Basel, LATIN)**: base_content: in Euclidis & Rami ἐννέαϐι- ϐλια; elements_designation: in Euclidis & Rami ἐννέαϐι- ϐλια; references_to_euclid: Euclidis
+- **Amsterdam_1672 (1672, Amsterdam, DUTCH)**: base_content: de ses eerste Boecken Euclidis; elements_designation: de ses eerste Boecken Euclidis; references_to_euclid: EUCLIDES DANICUS | Euclidis; description_of_euclid: EUCLIDES DANICUS; enriched_with: Alleenigh met een Passer te wercken (sonder Rye ofte Liniael te gebruycken) door Snijding van Roeden; bound_with_minimal: aanleyding om verscheyde Werckstucken te maecken
+- **Amsterdam_1701 (1701, Amsterdam, DUTCH)**: base_content: De zes eerste Boecken EUCLIDIS; elements_designation: De zes eerste Boecken EUCLIDIS; references_to_euclid: EUCLIDIS; enriched_with: by-gevoeght zijn eenige nut-tigheden, uyt deselve Boecken getrocken: Mitsgaders de Specien in Geometrische figuren, als ’t maken, veranderen, t’samen voegen, aftrecken, vermeenighvuldigen, ende deelen | Over-geset, verkl; audience: alle leer-gierige Liefhebbers der selver vrye Konste
+- **Amsterdam_1702 (1702, Amsterdam, DUTCH)**: base_content: DE SES EERSTE BOEKEN DER BEGINSELEN EUCLIDIS; elements_designation: DE SES EERSTE BOEKEN DER BEGINSELEN EUCLIDIS; references_to_euclid: EUCLIDIS
+- **Bologna_1629a (1629, Bologna, LATIN)**: base_content: SPECVLVM EVCLIDIANVM; elements_designation: SPECVLVM EVCLIDIANVM; references_to_euclid: EVCLIDIANVM | Euclidis; audience: Illustrissimos, & Sapientissimos SENATVS BONONIENSIS Quinquaginta Viros; institutions: Collegiatò Bonon | Patriæ Archigymnasij | SENATVS BONONIENSIS
+- **Florence_1573 (1573, Florence, ITALIAN)**: base_content: LA PROSPETTIVA DI EVCLIDE; elements_designation: LA PROSPETTIVA DI EVCLIDE; references_to_euclid: EVCLIDE; enriched_with: Con alcune sue An-notationi de’luoghi piu importanti; bound_with_minimal: LA PROSPET-TIVA DI Eliodoro Larisseo; institutions: Libreria Vaticana
+- **Hardy-1 (1643, Paris, FRENCH)**: references_to_euclid: Euclide
+- **Hardy-5 (1644, Paris, FRENCH)**: base_content: du premier livre d'Euclide; elements_designation: du premier livre d'Euclide; references_to_euclid: Euclide
+- **Le_Mans_1663 (1663, Le Mans, FRENCH)**: base_content: LA PERSPECTIVE D’EVCLIDE; elements_designation: LA PERSPECTIVE D’EVCLIDE; references_to_euclid: EVCLIDE
+- **6XTAVU (1760, London, ENGLISH)**: base_content: ELEMENTS OF GEOMETRY; elements_designation: ELEMENTS OF GEOMETRY; institutions: Royal Academy of Sciences at STOCKHOLM
+- **Amsterdam_1701b (1701, Amsterdam, LATIN)**: base_content: ELEMENTA GEOMETRIÆ PLANÆ AC SOLIDÆ; elements_designation: ELEMENTA GEOMETRIÆ PLANÆ AC SOLIDÆ; enriched_with: selecta EX ARCHIMEDE THEOREMATA; institutions: SOC. JESU
+- **Antwerp_1665 (1665, Antwerp, LATIN)**: base_content: ELEMENTA GEOMETRIÆ PLANÆ AC SOLIDÆ; elements_designation: ELEMENTA GEOMETRIÆ PLANÆ AC SOLIDÆ; bound_with_minimal: EX ARCHIMEDE THEOREMATA; audience: ad Lectorem; institutions: SOCIETATIS IESV
+- **Cambridge_1703 (1703, Cambridge, LATIN)**: base_content: ELEMENTA GEOMETRIÆ PLANÆ AC SOLIDÆ; elements_designation: ELEMENTA GEOMETRIÆ PLANÆ AC SOLIDÆ; enriched_with: COROLLARIA non pauca illustrandis Elementis accommodata | varios propositionum pluri-marum USUS continentia | XL Schematibus novis æri incisis illustrata; bound_with_minimal: SELECTA EX ARCHIMEDE THEOREMATA; institutions: SOC. JESU | CANTABRIGIENSES
+- **E8K2CK (1659, Bologna, LATIN)**: base_content: GEOMETRIAE SPECIOSAE ELEMENTA; elements_designation: GEOMETRIAE SPECIOSAE ELEMENTA; institutions: Coll. Patr. Bonon | Archigymn. Mechanici
+- **KVSFF1 (1799, Paris, FRENCH)**: base_content: ÉLÉMENTS DE GÉOMÉTRIE; elements_designation: ÉLÉMENTS DE GÉOMÉTRIE; enriched_with: AVEC DES NOTES; institutions: Institut national
+- **London_1747 (1747, London, ENGLISH)**: base_content: ELEMENTS OF   Plane Geometry; elements_designation: ELEMENTS OF Plane Geometry; bound_with_minimal: ESSAY on the MAXIMA and MINIMA of Geometrical Quantities | Treatise of regular SOLIDS | MENSURATION of both SUPERFICIES and SOLIDS; audience: SCHOOLS; institutions: ROYAL SOCIETY | Royal Academy at Woolwich
+- **Paris_1667 (1667, Paris, FRENCH)**: base_content: NOVVEAVX ELEMENS DE GEOMETRIE; elements_designation: NOVVEAVX ELEMENS DE GEOMETRIE; enriched_with: de nouvelles demonstrations des propositions les plus com- munes | De nouveaux moyens de faire voir quelles lignes sont incommensurables | De nouvelles mesures de l’angle, dont on ne s’estoit point encore avisé | Et de n

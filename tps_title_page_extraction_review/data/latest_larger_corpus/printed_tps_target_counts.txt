@@ -1,0 +1,9 @@
+printed keys: 909
+printed keys with existing final TPS V8 values: 217
+printed keys missing TPS V8 values: 692
+missing printed keys with title-page transcription: 690
+missing printed keys without title-page transcription: 2
+accidental current-run completed keys, if any: 39
+accidental completed keys also in corrected missing set: 29
+corrected key file: /Users/mia/dev/personal/elements-dh/edition_classification_final_data/printed_missing_tps_v8_keys.txt
+missing transcription file: /Users/mia/dev/personal/elements-dh/edition_classification_final_data/printed_missing_tps_without_transcription_keys.txt

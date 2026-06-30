@@ -1,0 +1,267 @@
+variable,comparison_group,category,count,denominator,share
+subject family,Elements: Jesuit-marked,Geometry/Theory,12,24,0.5
+subject family,Elements: Jesuit-marked,No primary family,11,24,0.4583333333333333
+subject family,Elements: Jesuit-marked,Geometry/Theory | Arithmetic/Commerce,1,24,0.041666666666666664
+subject family,Elements: other,Geometry/Theory,127,235,0.5404255319148936
+subject family,Elements: other,No primary family,72,235,0.30638297872340425
+subject family,Elements: other,Cosmos/Earth,6,235,0.02553191489361702
+subject family,Elements: other,Geometry/Theory | Cosmos/Earth,6,235,0.02553191489361702
+subject family,Elements: other,Geometry/Theory | Arithmetic/Commerce,4,235,0.01702127659574468
+subject family,Elements: other,Arithmetic/Commerce,3,235,0.01276595744680851
+subject family,Elements: other,Visual/Spatial Arts,3,235,0.01276595744680851
+subject family,Elements: other,Music,3,235,0.01276595744680851
+subject family,Elements: other,Geometry/Theory | Visual/Spatial Arts,2,235,0.00851063829787234
+subject family,Elements: other,Arithmetic/Commerce | Music,1,235,0.00425531914893617
+subject family,Elements: other,Geometry/Theory | Arithmetic/Commerce | Music,1,235,0.00425531914893617
+subject family,Elements: other,Geometry/Theory | Instruments/Measurement,1,235,0.00425531914893617
+subject family,Elements: other,Geometry/Theory | Visual/Spatial Arts | Instruments/Measurement,1,235,0.00425531914893617
+subject family,Elements: other,Geometry/Theory | Arithmetic/Commerce | Visual/Spatial Arts | Cosmos/Earth | Applied Mechanics/Military,1,235,0.00425531914893617
+subject family,Elements: other,Geometry/Theory | Instruments/Measurement | Cosmos/Earth,1,235,0.00425531914893617
+subject family,Elements: other,Instruments/Measurement | Cosmos/Earth,1,235,0.00425531914893617
+subject family,Elements: other,Applied Mechanics/Military,1,235,0.00425531914893617
+subject family,Elements: other,Visual/Spatial Arts | Cosmos/Earth | Music,1,235,0.00425531914893617
+subject family,Non-Elements: Jesuit-marked,Visual/Spatial Arts,3,17,0.17647058823529413
+subject family,Non-Elements: Jesuit-marked,Applied Mechanics/Military,2,17,0.11764705882352941
+subject family,Non-Elements: Jesuit-marked,Geometry/Theory,2,17,0.11764705882352941
+subject family,Non-Elements: Jesuit-marked,Geometry/Theory | Arithmetic/Commerce | Music,2,17,0.11764705882352941
+subject family,Non-Elements: Jesuit-marked,Instruments/Measurement,2,17,0.11764705882352941
+subject family,Non-Elements: Jesuit-marked,Music,1,17,0.058823529411764705
+subject family,Non-Elements: Jesuit-marked,Cosmos/Earth,1,17,0.058823529411764705
+subject family,Non-Elements: Jesuit-marked,Visual/Spatial Arts | Applied Mechanics/Military,1,17,0.058823529411764705
+subject family,Non-Elements: Jesuit-marked,Arithmetic/Commerce | Instruments/Measurement,1,17,0.058823529411764705
+subject family,Non-Elements: Jesuit-marked,Arithmetic/Commerce | Instruments/Measurement | Cosmos/Earth,1,17,0.058823529411764705
+subject family,Non-Elements: Jesuit-marked,No primary family,1,17,0.058823529411764705
+subject family,Non-Elements: other,Geometry/Theory,128,533,0.2401500938086304
+subject family,Non-Elements: other,No primary family,71,533,0.13320825515947468
+subject family,Non-Elements: other,Arithmetic/Commerce,68,533,0.1275797373358349
+subject family,Non-Elements: other,Visual/Spatial Arts,57,533,0.10694183864915573
+subject family,Non-Elements: other,Geometry/Theory | Instruments/Measurement,37,533,0.06941838649155722
+subject family,Non-Elements: other,Cosmos/Earth,27,533,0.05065666041275797
+subject family,Non-Elements: other,Applied Mechanics/Military,18,533,0.03377110694183865
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce,16,533,0.0300187617260788
+subject family,Non-Elements: other,Geometry/Theory | Visual/Spatial Arts,11,533,0.020637898686679174
+subject family,Non-Elements: other,Instruments/Measurement,11,533,0.020637898686679174
+subject family,Non-Elements: other,Visual/Spatial Arts | Applied Mechanics/Military,10,533,0.01876172607879925
+subject family,Non-Elements: other,Geometry/Theory | Instruments/Measurement | Cosmos/Earth,9,533,0.016885553470919325
+subject family,Non-Elements: other,Instruments/Measurement | Cosmos/Earth,7,533,0.013133208255159476
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Instruments/Measurement,7,533,0.013133208255159476
+subject family,Non-Elements: other,Geometry/Theory | Visual/Spatial Arts | Instruments/Measurement,6,533,0.01125703564727955
+subject family,Non-Elements: other,Music,4,533,0.0075046904315197
+subject family,Non-Elements: other,Arithmetic/Commerce | Instruments/Measurement,4,533,0.0075046904315197
+subject family,Non-Elements: other,Geometry/Theory | Cosmos/Earth,3,533,0.005628517823639775
+subject family,Non-Elements: other,Geometry/Theory | Applied Mechanics/Military,3,533,0.005628517823639775
+subject family,Non-Elements: other,Arithmetic/Commerce | Cosmos/Earth,3,533,0.005628517823639775
+subject family,Non-Elements: other,Arithmetic/Commerce | Applied Mechanics/Military,3,533,0.005628517823639775
+subject family,Non-Elements: other,Geometry/Theory | Visual/Spatial Arts | Applied Mechanics/Military,3,533,0.005628517823639775
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Visual/Spatial Arts | Instruments/Measurement | Applied Mechanics/Military,2,533,0.00375234521575985
+subject family,Non-Elements: other,Arithmetic/Commerce | Instruments/Measurement | Cosmos/Earth | Applied Mechanics/Military,2,533,0.00375234521575985
+subject family,Non-Elements: other,Arithmetic/Commerce | Visual/Spatial Arts | Cosmos/Earth,2,533,0.00375234521575985
+subject family,Non-Elements: other,Arithmetic/Commerce | Music,2,533,0.00375234521575985
+subject family,Non-Elements: other,Geometry/Theory | Visual/Spatial Arts | Instruments/Measurement | Applied Mechanics/Military,2,533,0.00375234521575985
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Visual/Spatial Arts | Applied Mechanics/Military,2,533,0.00375234521575985
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Instruments/Measurement | Cosmos/Earth,2,533,0.00375234521575985
+subject family,Non-Elements: other,Geometry/Theory | Instruments/Measurement | Applied Mechanics/Military,2,533,0.00375234521575985
+subject family,Non-Elements: other,Visual/Spatial Arts | Instruments/Measurement,1,533,0.001876172607879925
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Instruments/Measurement | Applied Mechanics/Military,1,533,0.001876172607879925
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Music,1,533,0.001876172607879925
+subject family,Non-Elements: other,Instruments/Measurement | Applied Mechanics/Military,1,533,0.001876172607879925
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Cosmos/Earth | Music,1,533,0.001876172607879925
+subject family,Non-Elements: other,Arithmetic/Commerce | Cosmos/Earth | Music,1,533,0.001876172607879925
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Cosmos/Earth,1,533,0.001876172607879925
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Applied Mechanics/Military,1,533,0.001876172607879925
+subject family,Non-Elements: other,Visual/Spatial Arts | Cosmos/Earth,1,533,0.001876172607879925
+subject family,Non-Elements: other,Geometry/Theory | Arithmetic/Commerce | Cosmos/Earth | Applied Mechanics/Military,1,533,0.001876172607879925
+subject family,Non-Elements: other,Arithmetic/Commerce | Cosmos/Earth | Applied Mechanics/Military,1,533,0.001876172607879925
+language,Elements: Jesuit-marked,LATIN,16,24,0.6666666666666666
+language,Elements: Jesuit-marked,FRENCH,5,24,0.20833333333333334
+language,Elements: Jesuit-marked,ENGLISH,3,24,0.125
+language,Elements: other,LATIN,117,235,0.4978723404255319
+language,Elements: other,FRENCH,45,235,0.19148936170212766
+language,Elements: other,DUTCH,20,235,0.0851063829787234
+language,Elements: other,GREEK,14,235,0.059574468085106386
+language,Elements: other,ITALIAN,10,235,0.0425531914893617
+language,Elements: other,GERMAN,10,235,0.0425531914893617
+language,Elements: other,ENGLISH,10,235,0.0425531914893617
+language,Elements: other,SPANISH,6,235,0.02553191489361702
+language,Elements: other,CHINESE,2,235,0.00851063829787234
+language,Elements: other,ARABIC,1,235,0.00425531914893617
+language,Non-Elements: Jesuit-marked,LATIN,11,17,0.6470588235294118
+language,Non-Elements: Jesuit-marked,FRENCH,4,17,0.23529411764705882
+language,Non-Elements: Jesuit-marked,ITALIAN,2,17,0.11764705882352941
+language,Non-Elements: other,FRENCH,203,533,0.3808630393996248
+language,Non-Elements: other,LATIN,156,533,0.2926829268292683
+language,Non-Elements: other,ITALIAN,49,533,0.09193245778611632
+language,Non-Elements: other,GERMAN,45,533,0.08442776735459662
+language,Non-Elements: other,ENGLISH,44,533,0.0825515947467167
+language,Non-Elements: other,DUTCH,29,533,0.054409005628517824
+language,Non-Elements: other,SPANISH,6,533,0.01125703564727955
+language,Non-Elements: other,Dutch,1,533,0.001876172607879925
+period,Elements: Jesuit-marked,1650-1699,16,24,0.6666666666666666
+period,Elements: Jesuit-marked,1700+,4,24,0.16666666666666666
+period,Elements: Jesuit-marked,1600-1649,4,24,0.16666666666666666
+period,Elements: other,1600-1649,70,235,0.2978723404255319
+period,Elements: other,1650-1699,66,235,0.28085106382978725
+period,Elements: other,1550-1599,55,235,0.23404255319148937
+period,Elements: other,pre-1550,32,235,0.13617021276595745
+period,Elements: other,1700+,12,235,0.05106382978723404
+period,Non-Elements: Jesuit-marked,1600-1649,7,17,0.4117647058823529
+period,Non-Elements: Jesuit-marked,1650-1699,7,17,0.4117647058823529
+period,Non-Elements: Jesuit-marked,1550-1599,3,17,0.17647058823529413
+period,Non-Elements: other,1600-1649,241,533,0.4521575984990619
+period,Non-Elements: other,1550-1599,122,533,0.22889305816135083
+period,Non-Elements: other,1650-1699,113,533,0.21200750469043153
+period,Non-Elements: other,pre-1550,48,533,0.0900562851782364
+period,Non-Elements: other,1700+,9,533,0.016885553470919325
+city,Elements: Jesuit-marked,Paris,4,24,0.16666666666666666
+city,Elements: Jesuit-marked,Amsterdam,3,24,0.125
+city,Elements: Jesuit-marked,Lyon,3,24,0.125
+city,Elements: Jesuit-marked,Cambridge,2,24,0.08333333333333333
+city,Elements: Jesuit-marked,Cologne,2,24,0.08333333333333333
+city,Elements: Jesuit-marked,Frankfurt,2,24,0.08333333333333333
+city,Elements: Jesuit-marked,London,2,24,0.08333333333333333
+city,Elements: Jesuit-marked,Bamberg,1,24,0.041666666666666664
+city,Elements: Jesuit-marked,Graz,1,24,0.041666666666666664
+city,Elements: Jesuit-marked,Oxford,1,24,0.041666666666666664
+city,Elements: Jesuit-marked,"Oxford, London",1,24,0.041666666666666664
+city,Elements: Jesuit-marked,Venice,1,24,0.041666666666666664
+city,Elements: Jesuit-marked,Würzburg,1,24,0.041666666666666664
+city,Elements: other,Paris,62,235,0.26382978723404255
+city,Elements: other,Rome,14,235,0.059574468085106386
+city,Elements: other,Strasbourg,13,235,0.05531914893617021
+city,Elements: other,London,13,235,0.05531914893617021
+city,Elements: other,Amsterdam,12,235,0.05106382978723404
+city,Elements: other,Venice,12,235,0.05106382978723404
+city,Elements: other,Basel,8,235,0.03404255319148936
+city,Elements: other,Cologne,7,235,0.029787234042553193
+city,Elements: other,Lyon,7,235,0.029787234042553193
+city,Elements: other,Leiden,6,235,0.02553191489361702
+city,Elements: other,Bologna,5,235,0.02127659574468085
+city,Elements: other,Rotterdam,4,235,0.01702127659574468
+city,Elements: other,Leipzig,4,235,0.01702127659574468
+city,Elements: other,Antwerp,4,235,0.01702127659574468
+city,Elements: other,Naples,3,235,0.01276595744680851
+city,Elements: other,Arnhem,3,235,0.01276595744680851
+city,Elements: other,Brussels,3,235,0.01276595744680851
+city,Elements: other,Wittenberg,3,235,0.01276595744680851
+city,Elements: other,"Rouen, Paris",3,235,0.01276595744680851
+city,Elements: other,Oxford,3,235,0.01276595744680851
+city,Elements: other,Vienna,2,235,0.00851063829787234
+city,Elements: other,Rouen,2,235,0.00851063829787234
+city,Elements: other,Pesaro,2,235,0.00851063829787234
+city,Elements: other,Douai,2,235,0.00851063829787234
+city,Elements: other,Milan,2,235,0.00851063829787234
+city,Elements: other,Madrid,2,235,0.00851063829787234
+city,Elements: other,Cambridge,2,235,0.00851063829787234
+city,Elements: other,Florence,2,235,0.00851063829787234
+city,Elements: other,Beijing,2,235,0.00851063829787234
+city,Elements: other,Hamburg,2,235,0.00851063829787234
+city,Elements: other,Frankfurt,2,235,0.00851063829787234
+city,Elements: other,Augsburg,1,235,0.00425531914893617
+city,Elements: other,Geneva,1,235,0.00425531914893617
+city,Elements: other,Ferrara,1,235,0.00425531914893617
+city,Elements: other,Leuven,1,235,0.00425531914893617
+city,Elements: other,Vicenza,1,235,0.00425531914893617
+city,Elements: other,Urbino,1,235,0.00425531914893617
+city,Elements: other,Uppsala,1,235,0.00425531914893617
+city,Elements: other,The Hague,1,235,0.00425531914893617
+city,Elements: other,Alcala,1,235,0.00425531914893617
+city,Elements: other,Siena,1,235,0.00425531914893617
+city,Elements: other,Seville,1,235,0.00425531914893617
+city,Elements: other,Ansbach,1,235,0.00425531914893617
+city,Elements: other,"Leiden, Amsterdam",1,235,0.00425531914893617
+city,Elements: other,Padua,1,235,0.00425531914893617
+city,Elements: other,Ingolstadt,1,235,0.00425531914893617
+city,Elements: other,Osnabrück,1,235,0.00425531914893617
+city,Elements: other,Nuremberg,1,235,0.00425531914893617
+city,Elements: other,"Hamburg, Leipzig",1,235,0.00425531914893617
+city,Elements: other,"Kiel, Leipzig",1,235,0.00425531914893617
+city,Elements: other,Messina,1,235,0.00425531914893617
+city,Elements: other,Lausanne,1,235,0.00425531914893617
+city,Elements: other,"Lübeck, Frankfurt",1,235,0.00425531914893617
+city,Elements: other,Le Mans,1,235,0.00425531914893617
+city,Elements: other,missing,1,235,0.00425531914893617
+city,Non-Elements: Jesuit-marked,Paris,7,17,0.4117647058823529
+city,Non-Elements: Jesuit-marked,Bologna,4,17,0.23529411764705882
+city,Non-Elements: Jesuit-marked,Lyon,1,17,0.058823529411764705
+city,Non-Elements: Jesuit-marked,Tournon,1,17,0.058823529411764705
+city,Non-Elements: Jesuit-marked,Rome,1,17,0.058823529411764705
+city,Non-Elements: Jesuit-marked,Tours,1,17,0.058823529411764705
+city,Non-Elements: Jesuit-marked,Cambridge,1,17,0.058823529411764705
+city,Non-Elements: Jesuit-marked,Caen,1,17,0.058823529411764705
+city,Non-Elements: other,Paris,206,533,0.38649155722326456
+city,Non-Elements: other,London,45,533,0.08442776735459662
+city,Non-Elements: other,Venice,27,533,0.05065666041275797
+city,Non-Elements: other,Nuremberg,23,533,0.043151969981238276
+city,Non-Elements: other,Leiden,21,533,0.039399624765478425
+city,Non-Elements: other,Amsterdam,15,533,0.028142589118198873
+city,Non-Elements: other,Rome,13,533,0.024390243902439025
+city,Non-Elements: other,Lyon,11,533,0.020637898686679174
+city,Non-Elements: other,The Hague,10,533,0.01876172607879925
+city,Non-Elements: other,Augsburg,10,533,0.01876172607879925
+city,Non-Elements: other,Antwerp,9,533,0.016885553470919325
+city,Non-Elements: other,Frankfurt,8,533,0.0150093808630394
+city,Non-Elements: other,Basel,6,533,0.01125703564727955
+city,Non-Elements: other,Bologna,5,533,0.009380863039399626
+city,Non-Elements: other,Strasbourg,5,533,0.009380863039399626
+city,Non-Elements: other,Oxford,5,533,0.009380863039399626
+city,Non-Elements: other,Florence,4,533,0.0075046904315197
+city,Non-Elements: other,Milan,4,533,0.0075046904315197
+city,Non-Elements: other,missing,4,533,0.0075046904315197
+city,Non-Elements: other,Arnhem,4,533,0.0075046904315197
+city,Non-Elements: other,Dordrecht,4,533,0.0075046904315197
+city,Non-Elements: other,Padua,4,533,0.0075046904315197
+city,Non-Elements: other,Brescia,3,533,0.005628517823639775
+city,Non-Elements: other,Bordeaux,3,533,0.005628517823639775
+city,Non-Elements: other,Middelburg,3,533,0.005628517823639775
+city,Non-Elements: other,Tours,3,533,0.005628517823639775
+city,Non-Elements: other,Turin,3,533,0.005628517823639775
+city,Non-Elements: other,Valencia,3,533,0.005628517823639775
+city,Non-Elements: other,Naples,3,533,0.005628517823639775
+city,Non-Elements: other,Zurich,3,533,0.005628517823639775
+city,Non-Elements: other,Cologne,3,533,0.005628517823639775
+city,Non-Elements: other,Jena,3,533,0.005628517823639775
+city,Non-Elements: other,Hanau,2,533,0.00375234521575985
+city,Non-Elements: other,Rotterdam,2,533,0.00375234521575985
+city,Non-Elements: other,Pesaro,2,533,0.00375234521575985
+city,Non-Elements: other,Herborn,2,533,0.00375234521575985
+city,Non-Elements: other,Alcala,2,533,0.00375234521575985
+city,Non-Elements: other,Madrid,2,533,0.00375234521575985
+city,Non-Elements: other,Franeker,2,533,0.00375234521575985
+city,Non-Elements: other,Dijon,2,533,0.00375234521575985
+city,Non-Elements: other,Rouen,2,533,0.00375234521575985
+city,Non-Elements: other,Pont-à-Mousson,2,533,0.00375234521575985
+city,Non-Elements: other,Heidelberg,2,533,0.00375234521575985
+city,Non-Elements: other,Toulouse,2,533,0.00375234521575985
+city,Non-Elements: other,Siena,2,533,0.00375234521575985
+city,Non-Elements: other,Ferrara,2,533,0.00375234521575985
+city,Non-Elements: other,Toul,2,533,0.00375234521575985
+city,Non-Elements: other,Delft,1,533,0.001876172607879925
+city,Non-Elements: other,Cremona,1,533,0.001876172607879925
+city,Non-Elements: other,Firenze,1,533,0.001876172607879925
+city,Non-Elements: other,Vlissingen,1,533,0.001876172607879925
+city,Non-Elements: other,Simmern,1,533,0.001876172607879925
+city,Non-Elements: other,"Paris, Brussels",1,533,0.001876172607879925
+city,Non-Elements: other,"Paris, Amsterdam",1,533,0.001876172607879925
+city,Non-Elements: other,Rees,1,533,0.001876172607879925
+city,Non-Elements: other,"Frankfurt, Leipzig",1,533,0.001876172607879925
+city,Non-Elements: other,Ulm,1,533,0.001876172607879925
+city,Non-Elements: other,Utrecht,1,533,0.001876172607879925
+city,Non-Elements: other,Vienna,1,533,0.001876172607879925
+city,Non-Elements: other,Barcelona,1,533,0.001876172607879925
+city,Non-Elements: other,Edinburgh,1,533,0.001876172607879925
+city,Non-Elements: other,Salamanca,1,533,0.001876172607879925
+city,Non-Elements: other,Haarlem,1,533,0.001876172607879925
+city,Non-Elements: other,Leuven,1,533,0.001876172607879925
+city,Non-Elements: other,La Flèche,1,533,0.001876172607879925
+city,Non-Elements: other,Annecy,1,533,0.001876172607879925
+city,Non-Elements: other,Louvain,1,533,0.001876172607879925
+city,Non-Elements: other,Altdorf,1,533,0.001876172607879925
+city,Non-Elements: other,Leeuwarden,1,533,0.001876172607879925
+city,Non-Elements: other,Ravenna,1,533,0.001876172607879925
+city,Non-Elements: other,"Nuremberg, Leipzig",1,533,0.001876172607879925
+city,Non-Elements: other,Innsbruck,1,533,0.001876172607879925
+city,Non-Elements: other,Poitiers,1,533,0.001876172607879925
+city,Non-Elements: other,Brussels,1,533,0.001876172607879925
+city,Non-Elements: other,Reims,1,533,0.001876172607879925
+city,Non-Elements: other,Mainz,1,533,0.001876172607879925
+city,Non-Elements: other,Freiburg,1,533,0.001876172607879925

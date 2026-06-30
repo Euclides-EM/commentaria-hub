@@ -1,0 +1,63 @@
+city,count,earliest_year,latest_year,languages,authors_editors
+Paris,77,1495.0,1697.0,FRENCH | GREEK | LATIN,"Albrecht Dürer, Joachim Camerarius | Antoine Arnauld | Bernard Lamy | Claude Hardy | Claude-François Milliet Dechales | Denis Henrion | Didier Dounot | Florimond du Puy | François de Foix-Candale | Gemma Frisius, Pierre Forcadel | Georges Fournier | Honorat de Meynier | Jacques Lefèvre d'Étaples | Jacques Ozanam | Jacques Rohault, Claude Clerselier | Jacques-Alexandre Le Tenneur | Jean Errard | Jean Magnien, Étienne Gracile | Jean Prestet | Jean de la Pène | Johannes de Sacrobosco | Marin Mersenne | Marin Mersenne (?) | Oronce Finé | Pierre Bourdín | Pierre Forcadel | Pierre Hérigone | Pierre Le Mardelé | Pierre de Montdoré | Pierre de la Ramée | Thomas Bradwardine, Pedro Ciruelo"
+London,17,1551.0,1705.0,ENGLISH | GREEK | LATIN,"Claude-François Milliet Dechales | Claude-François Milliet Dechales, Reeve Williams | Georges Fournier | Henry Billingsley, John Dee | Henry Briggs | Isaac Barrow | John Leeke, George Serle | Jonas Moore | Robert Recorde | Thomas Rudd"
+Venice,17,1482.0,1647.0,ITALIAN | LATIN,Antonio Possevino | Bartolomeo Zamberti | Caterino Doino | Erhard Ratdolt | Francesco Maurolico | Giorgio Valla | Luca Pacioli | Niccolò Tartaglia
+Amsterdam,15,1616.0,1702.0,DUTCH | FRENCH | GERMAN | LATIN,"André Tacquet | Claas Janszen Vooght | Claude-François Milliet Dechales | Frans van Schooten | Henrick Coets | Jacob Willemsz | Jacques Ozanam | Jan Pietersz Dou | Jan Pietersz Dou, Sebastian Curtius | Marcus Meibom"
+Rome,14,1545.0,1695.0,ARABIC | GREEK | ITALIAN | LATIN,"Angelo Caiani | Antonio Possevino | Christopher Clavius | Christopher Clavius, Christoph Grienberger | Gilles François Gottignies | Giovanni Alfonso Borelli | Guiseppe Auria | Nasir al-Din al-Tusi | Vitale Giordano da Bitonto"
+Strasbourg,13,1538.0,1599.0,GREEK | LATIN,"Conrad Dasypodius | Conrad Dasypodius (?) | Conrad Dasypodius, Christian Herlin | Josias Rihel (?)"
+Cologne,11,1556.0,1627.0,LATIN,"Antonio Possevino | Christopher Clavius | François de Foix-Candale | Jean Magnien, Étienne Gracile | Valentin Naboth | Étienne Gracile"
+Basel,10,1533.0,1570.0,DUTCH | GERMAN | GREEK | LATIN,Bartolomeo Zamberti | Christian Herlin | Johannes Scheubel | Marinus Neapolitanus | Simon Grynaeus | Wilhelm Xylander
+Lyon,10,1557.0,1690.0,FRENCH | LATIN,"Christoffer Dybvad | Claude-François Milliet Dechales | Claude-François Milliet Dechales, Amatus Varcin | Honoré Fabri | Jacques Peletier | Pierre Le Mardelé"
+Bologna,6,1613.0,1686.0,ITALIAN | LATIN,D. Joanni Franciso Polo | Giovanni Ricci | Johann Lanz | Pietro Antonio Cataldi
+Leiden,6,1599.0,1692.0,DUTCH | LATIN,Frans van Schooten | Henrick Coets | Jan Pietersz Dou | Jean de la Pène
+Oxford,5,1685.0,1705.0,ENGLISH | GREEK | LATIN,Claude-François Milliet Dechales | David Gregory | Edmund Scarburgh | John Keill
+Rotterdam,5,1618.0,1681.0,DUTCH | FRENCH,Jan Pietersz Dou | Simon Stevin
+Antwerp,4,1645.0,1672.0,LATIN,André Tacquet | Claude Richard
+Cambridge,4,1655.0,1703.0,LATIN,"André Tacquet, William Whiston | Georges Fournier | Isaac Barrow"
+Frankfurt,4,1506.0,1674.0,LATIN,Ambrosius Lacher | Christopher Clavius | Gaspar Schott
+Leipzig,4,1549.0,1607.0,LATIN,"Christoph Meurer | Joachim Kammermeister, Georg Joachim Rhäticus | Joachim Kammermeister, Moritz Valentin Steinmetz | Michael, Joachim Tancke, Philipp Melanchthon"
+Wittenberg,4,1564.0,1661.0,GREEK | LATIN,Ambrosius Rhode | Joannes Sthen
+Arnhem,3,1603.0,1605.0,LATIN,Christoffer Dybvad
+Beijing,3,1607.0,1629.0,CHINESE,"Xu Guangqi, Matteo Ricci | Xu Guangqi, Matteo Ricci, Li Zhizao"
+Brussels,3,1688.0,1701.0,SPANISH,Jacobo Kresa | Sebastián Fernández de Medrano
+Douai,3,1620.0,1633.0,LATIN,Charles Malapert de Mons
+Geneva,3,1610.0,1628.0,FRENCH | LATIN,"Jacques Peletier | Jacques Peletier, Jean de Tournes"
+Naples,3,1679.0,1702.0,LATIN,Elias Astorinus | Leonardo Fioravanti | Porpora
+Pesaro,3,1572.0,1619.0,ITALIAN | LATIN,"Federico Commandino | Federico Commandino, Valerio Spacciuoli"
+"Rouen, Paris",3,1677.0,1685.0,FRENCH,Denis Henrion
+Florence,2,1573.0,1690.0,ITALIAN,Ignazio Danti | Vincenzio Viviani
+Hamburg,2,1633.0,1638.0,DUTCH,Jacob Willemsz
+Madrid,2,1585.0,1665.0,SPANISH,"Antonio de Nájera, Juan de la Rocha | Pedro Ambrosio Ondériz"
+Milan,2,1671.0,1702.0,ITALIAN,Pietro Paolo Caravaggi
+Rouen,2,1649.0,1676.0,FRENCH,Denis Henrion
+Vienna,2,1528.0,1694.0,GERMAN | LATIN,"Anton Ernst Burckhard von Pirckenstein | Johannes Vögelin, Johann Alexander Brassicanus"
+,1,1650.0,1650.0,LATIN,
+Alcala,1,1637.0,1637.0,DUTCH | LATIN,Luis Carducci
+Ansbach,1,1610.0,1610.0,GERMAN | LATIN,Simon Marius
+Augsburg,1,1555.0,1555.0,GERMAN,Johannes Scheubel
+Bamberg,1,1677.0,1677.0,LATIN,Gaspar Schott
+Ferrara,1,1628.0,1628.0,LATIN,Caterino Doino
+Graz,1,1636.0,1636.0,LATIN,"Christopher Clavius, Christoph Grienberger, Jacobus Honoratus Durandus"
+"Hamburg, Leipzig",1,1697.0,1697.0,GERMAN,Samuel Reyher
+Ingolstadt,1,1617.0,1617.0,LATIN,Johann Lanz
+"Kiel, Leipzig",1,1699.0,1699.0,GERMAN,Samuel Reyher
+Lausanne,1,1683.0,1683.0,FRENCH,Claude-François Milliet Dechales
+Le Mans,1,1663.0,1663.0,FRENCH,Roland Fréart
+"Leiden, Amsterdam",1,1673.0,1673.0,LATIN,Christian Melder
+Leuven,1,1656.0,1656.0,LATIN,André Tacquet
+"Lübeck, Frankfurt",1,1699.0,1699.0,GERMAN,Anton Ernst Burckhard von Pirckenstein
+Mainz,1,1611.0,1611.0,LATIN,Christopher Clavius
+Messina,1,1558.0,1558.0,LATIN,Francesco Maurolico
+Nuremberg,1,1625.0,1625.0,GERMAN,Lucas Brunn
+Osnabrück,1,1676.0,1676.0,LATIN,Isaac Barrow
+"Oxford, London",1,1700.0,1700.0,ENGLISH,Claude-François Milliet Dechales
+Padua,1,1694.0,1694.0,LATIN,André Tacquet
+Pisa,1,1658.0,1658.0,LATIN,Giovanni Alfonso Borelli
+Seville,1,1576.0,1576.0,SPANISH,Rodorigo de Zamorano
+Siena,1,1691.0,1691.0,LATIN,Elias Astorinus
+The Hague,1,1690.0,1690.0,FRENCH,Jacques Rohault
+Uppsala,1,1642.0,1642.0,LATIN,Martinus Erici Gestrinius
+Urbino,1,1575.0,1575.0,ITALIAN,"Federico Commandino, Valerio Spacciuoli"
+Utrecht,1,1647.0,1647.0,DUTCH,Jan Pietersz Dou
+Vicenza,1,1491.0,1491.0,LATIN,Leonardo Achati
+Würzburg,1,1661.0,1661.0,LATIN,Gaspar Schott

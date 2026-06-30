@@ -1,0 +1,121 @@
+author_canonical,edition_count,earliest_year,latest_year,year_span,city_count,cities,language_count,languages,format_count,formats,primary_city,primary_language,primary_format,known_format_count,reprint_edge_count,same_city_reprint_edges,cross_city_reprint_edges,same_language_reprint_edges,cross_language_reprint_edges,translation_case_count,items,is_recurring_3plus
+Claude-François Milliet Dechales,16,1660,1703,43,7,"Amsterdam | Lausanne | London | Lyon | Oxford | Oxford, London | Paris",3,ENGLISH | FRENCH | LATIN,5,12 | 18 | 4 | 6 | 8,Lyon,FRENCH,12,16,0,0,0,0,0,3,Lyon_1660 | Lyon_1672 | Lyon_1674 | Lyon_1675 | Paris_1677a | Paris_1682 | Lausanne_1683 | Paris_1683 | London_1685a | Oxford_1685 | Lyon_1690 | Paris_1690 | London_1696 | Amsterdam_1700 | Oxford_London_1700 | London_1703,True
+Jan Pietersz Dou,11,1606,1701,95,4,Amsterdam | Leiden | Rotterdam | Utrecht,1,DUTCH,2,4 | 8,Rotterdam,DUTCH,8,11,1,0,1,1,0,0,Leiden_1606 | Leiden_1607 | Amsterdam_1616 | Amsterdam_1626 | Rotterdam_1632 | Rotterdam_1647 | Utrecht_1647 | Rotterdam_1661 | Rotterdam_1681 | Amsterdam_1700b | Amsterdam_1701,True
+Denis Henrion,11,1615,1685,70,3,"Paris | Rouen | Rouen, Paris",1,FRENCH,2,4 | 8,Paris,FRENCH,8,11,6,6,0,6,0,6,Paris_1615 | Paris_1621 | Paris_1623 | Paris_1630 | Paris_1631 | Paris_1632 | Rouen_1649 | Rouen_1676 | Rouen_and_Paris_1677 | Rouen_and_Paris_1683 | Rouen_and_Paris_1685,True
+Conrad Dasypodius,11,1557,1599,42,1,Strasbourg,2,GREEK | LATIN,2,4 | 8,Strasbourg,LATIN,8,11,0,0,0,0,0,0,Strasbourg_1557 | Strasbourg_1564 | Strasbourg_1564a | Strasbourg_1564b | Strasbourg_1566 | Strasbourg_1570 | Strasbourg_1570a | Strasbourg_1571 | Strasbourg_1571a | Strasbourg_1572 | Strasbourg_1599,True
+Isaac Barrow,10,1655,1705,50,3,Cambridge | London | Osnabrück,2,ENGLISH | LATIN,4,12 | 6 | 8 | unknown,London,LATIN,8,9,3,3,0,3,0,0,Cambridge_1655 | Cambridge_1657 | London_1659 | London_1660 | Osnabrück_1676 | London_1678 | London_1685 | London_1686 | London_1687 | London_1705,True
+"Jean Magnien, Étienne Gracile",10,1557,1627,70,2,Cologne | Paris,1,LATIN,1,8,Cologne,LATIN,8,10,7,2,5,7,0,0,Paris_1557 | Paris_1558 | Cologne_1564 | Paris_1573 | Cologne_1580 | Cologne_1587 | Paris_1598 | Cologne_1600 | Cologne_1607 | Cologne_1627,True
+Johannes de Sacrobosco,9,1500,1538,38,1,Paris,1,LATIN,1,2,Paris,LATIN,2,9,2,2,0,2,0,0,Paris_1500 | Paris_1507 | Paris_1511 | Paris_1516a | Paris_1521 | Paris_1527 | Paris_1531 | Paris_1534 | Paris_1538,True
+Christopher Clavius,7,1574,1654,80,4,Cologne | Frankfurt | Mainz | Rome,1,LATIN,3,2 | 4 | 8,Rome,LATIN,8,7,1,1,0,1,0,0,Rome_1574 | Rome_1589 | Cologne_1591 | Rome_1603 | Frankfurt_1607 | Mainz_1611_1612 | Frankfurt_1654,True
+André Tacquet,7,1654,1701,47,4,Amsterdam | Antwerp | Leuven | Padua,1,LATIN,1,8,Antwerp,LATIN,8,7,0,0,0,0,0,0,Antwerp_1654 | WWE4ON | Antwerp_1665 | Antwerp_1672 | Amsterdam_1683 | Padua_1694 | Amsterdam_1701b,True
+Georges Fournier,6,1643,1665,22,3,Cambridge | London | Paris,2,FRENCH | LATIN,2,12 | 8,Paris,LATIN,8,6,1,1,0,1,0,0,Paris_1643b | Paris_1644a | London_1654 | Paris_1654 | Paris_1654a | Cambridge_1665,True
+Niccolò Tartaglia,5,1543,1586,43,1,Venice,2,ITALIAN | LATIN,3,2 | 4 | 8,Venice,LATIN,8,5,7,7,0,6,1,0,Venice_1543 | Venice_1565 | Venice_1569 | Venice_1585 | Venice_1586,True
+Pierre Forcadel,5,1564,1566,2,1,Paris,1,FRENCH,2,4 | 8,Paris,FRENCH,4,5,4,4,0,4,0,0,Paris_1564 | Paris_1565 | Paris_1565a | Paris_1566a | Paris_1566b,True
+Jean de la Pène,4,1557,1604,47,2,Leiden | Paris,2,GREEK | LATIN,1,4,Paris,LATIN,4,4,0,0,0,0,0,0,Paris_1557a | Paris_1557b | Leiden_1599 | Paris_1604,True
+Pierre Le Mardelé,4,1622,1646,24,2,Lyon | Paris,2,FRENCH | LATIN,1,8,Paris,FRENCH,8,4,0,0,0,0,0,4,Paris_1622 | Paris_1632a | Lyon_1645 | Lyon_1646,True
+François de Foix-Candale,4,1566,1602,36,2,Cologne | Paris,1,LATIN,1,2,Paris,LATIN,2,4,1,0,1,1,0,0,Paris_1566 | Paris_1578 | Cologne_1602 | Paris_1602,True
+Christoffer Dybvad,4,1603,1605,2,2,Arnhem | Lyon,1,LATIN,1,4,Arnhem,LATIN,4,4,0,0,0,0,0,0,Arnhem_1603 | Lyon_1603 | Arnhem_1605 | Arnhem_1605a,True
+Pierre Hérigone,4,1634,1644,10,1,Paris,2,FRENCH | LATIN,1,8,Paris,FRENCH,8,4,0,0,0,0,0,0,Paris_1634 | Paris_1639 | Paris_1644 | Paris_1644b,True
+Gaspar Schott,3,1661,1677,16,3,Bamberg | Frankfurt | Würzburg,1,LATIN,1,2,Frankfurt,LATIN,2,3,0,0,0,0,0,0,Würzburg_1661 | Frankfurt_1674 | Bamberg_1677,True
+Antonio Possevino,3,1593,1607,14,3,Cologne | Rome | Venice,1,LATIN,1,2,Rome,LATIN,2,3,0,0,0,0,0,0,Rome_1593 | Venice_1603 | Cologne_1607a,True
+"Federico Commandino, Valerio Spacciuoli",3,1575,1619,44,2,Pesaro | Urbino,2,ITALIAN | LATIN,1,2,Pesaro,ITALIAN,2,3,4,0,4,4,0,0,Urbino_1575 | Pesaro_1619 | Pesaro_1619a,True
+Henrick Coets,3,1691,1702,11,2,Amsterdam | Leiden,2,DUTCH | LATIN,2,4 | 8,Leiden,LATIN,4,3,1,1,0,1,0,0,Leiden_1691 | Leiden_1692 | Amsterdam_1702,True
+Jacques Ozanam,3,1693,1697,4,2,Amsterdam | Paris,2,FRENCH | LATIN,1,8,Paris,FRENCH,8,3,0,0,0,0,0,0,Paris_1693 | Amsterdam_1697 | Paris_1697,True
+Bartolomeo Zamberti,3,1505,1537,32,2,Basel | Venice,1,LATIN,2,2 | 4,Venice,LATIN,2,3,4,4,0,4,0,0,Venice_1505 | Venice_1510 | GY5QLD,True
+Jacob Willemsz,3,1633,1660,27,2,Amsterdam | Hamburg,1,DUTCH,1,4,Hamburg,DUTCH,4,3,0,0,0,0,0,0,Hamburg_1633 | Hamburg_1638 | Amsterdam_1660,True
+Caterino Doino,3,1628,1647,19,2,Ferrara | Venice,1,LATIN,2,12 | 8,Venice,LATIN,12,3,0,0,0,0,0,0,Ferrara_1628 | Venice_1641 | Venice_1647,True
+Oronce Finé,3,1536,1551,15,1,Paris,2,GREEK | LATIN,2,2 | 4,Paris,LATIN,2,3,4,4,0,3,1,1,Paris_1536 | Paris_1544 | Paris_1551,True
+Ambrosius Rhode,3,1609,1661,52,1,Wittenberg,1,LATIN,1,8,Wittenberg,LATIN,8,3,1,1,0,1,0,0,Wittenberg_1609 | Wittenberg_1634 | Wittenberg_1661,True
+Giovanni Ricci,3,1651,1686,35,1,Bologna,1,ITALIAN,1,8,Bologna,ITALIAN,8,3,0,0,0,0,0,0,Bologna_1651 | Bologna_1651a | Bologna_1686,True
+Jean Errard,3,1598,1629,31,1,Paris,1,FRENCH,2,4 | 8,Paris,FRENCH,8,3,0,0,0,0,0,0,Paris_1598a | Paris_1605 | Paris_1629,True
+Christian Herlin,3,1537,1558,21,1,Basel,1,LATIN,1,2,Basel,LATIN,2,3,5,5,0,5,0,0,Basel_1537 | Basel_1546 | Basel_1558,True
+Charles Malapert de Mons,3,1620,1633,13,1,Douai,1,LATIN,2,12 | 8,Douai,LATIN,12,3,1,1,0,1,0,0,Douai_1620 | Douai_1625 | Douai_1633,True
+Pierre de la Ramée,3,1545,1558,13,1,Paris,1,LATIN,2,4 | 8,Paris,LATIN,8,3,3,3,0,3,0,0,Paris_1545 | Paris_1549 | Paris_1558a,True
+Didier Dounot,3,1609,1613,4,1,Paris,1,FRENCH,2,4 | unknown,Paris,FRENCH,4,2,3,3,0,3,0,0,Paris_1609 | Paris_1610 | Paris_1613,True
+Giorgio Valla,3,1498,1501,3,1,Venice,1,LATIN,1,2,Venice,LATIN,2,3,0,0,0,0,0,0,Venice_1498 | Venice_1498a | IC4Y79,True
+Johannes Scheubel,2,1550,1555,5,2,Augsburg | Basel,2,GERMAN | LATIN,2,2 | 4,Basel,LATIN,2,2,0,0,0,0,0,2,Basel_1550 | Augsburg_1555,False
+Jacques Peletier,2,1557,1610,53,2,Geneva | Lyon,1,LATIN,2,2 | 4,Lyon,LATIN,2,2,5,0,5,5,0,0,Lyon_1557 | Geneva_1610,False
+Frans van Schooten,2,1617,1662,45,2,Amsterdam | Leiden,1,DUTCH,1,12,Amsterdam,DUTCH,12,2,0,0,0,0,0,0,Leiden_1617 | Amsterdam_1662,False
+Giovanni Alfonso Borelli,2,1658,1695,37,2,Pisa | Rome,1,LATIN,2,12 | 4,Pisa,LATIN,4,2,0,0,0,0,0,0,Pisa_1658 | Rome_1695,False
+Francesco Maurolico,2,1558,1575,17,2,Messina | Venice,1,LATIN,2,2 | 4,Venice,LATIN,4,2,0,0,0,0,0,0,Messina_1558 | Venice_1575,False
+Johann Lanz,2,1617,1629,12,2,Bologna | Ingolstadt,1,LATIN,1,8,Ingolstadt,LATIN,8,2,3,0,3,3,0,0,Ingolstadt_1617 | Bologna_1629,False
+Elias Astorinus,2,1691,1701,10,2,Naples | Siena,1,LATIN,2,12 | 8,Siena,LATIN,12,2,0,0,0,0,0,0,Siena_1691 | Naples_1701,False
+Anton Ernst Burckhard von Pirckenstein,2,1694,1699,5,2,"Lübeck, Frankfurt | Vienna",1,GERMAN,1,4,Vienna,GERMAN,4,2,0,0,0,0,0,0,Vienna_1694 | Lübeck_and_Frankfurt_1699,False
+Samuel Reyher,2,1697,1699,2,2,"Hamburg, Leipzig | Kiel, Leipzig",1,GERMAN,1,4,"Kiel, Leipzig",GERMAN,4,2,0,0,0,0,0,0,Kiel_Hamburg_and_Leipzig_1697 | Kiel_and_Leipzig_1699,False
+"Jan Pietersz Dou, Sebastian Curtius",2,1618,1634,16,1,Amsterdam,2,GERMAN | LATIN,2,4 | 8,Amsterdam,GERMAN,8,2,0,0,0,0,0,0,Amsterdam_1618 | Amsterdam_1634,False
+Angelo Caiani,2,1545,1545,0,1,Rome,2,GREEK | LATIN,1,8,Rome,GREEK,8,2,0,0,0,0,0,0,Rome_1545 | Rome_1545a,False
+Pietro Paolo Caravaggi,2,1671,1702,31,1,Milan,1,ITALIAN,2,12 | 6,Milan,ITALIAN,12,2,0,0,0,0,0,0,Milan_1671 | Milan_1702,False
+Honorat de Meynier,2,1624,1652,28,1,Paris,1,FRENCH,2,12 | 8,Paris,FRENCH,8,2,0,0,0,0,0,0,Paris_1624 | Paris_1652,False
+"Christopher Clavius, Christoph Grienberger",2,1629,1655,26,1,Rome,1,LATIN,1,12,Rome,LATIN,12,2,1,1,0,1,0,0,Rome_1629 | Rome_1655,False
+Guiseppe Auria,2,1591,1609,18,1,Rome,1,LATIN,1,4,Rome,LATIN,4,2,0,0,0,0,0,0,Rome_1591 | Rome_1609,False
+Marin Mersenne,2,1626,1644,18,1,Paris,1,LATIN,2,4 | 8,Paris,LATIN,8,2,0,0,0,0,0,0,Paris_1626a | Paris_1644c,False
+"Jacques Peletier, Jean de Tournes",2,1611,1628,17,1,Geneva,1,FRENCH,2,4 | 8,Geneva,FRENCH,4,2,1,1,0,1,0,0,Geneva_1611 | Geneva_1628,False
+Sebastián Fernández de Medrano,2,1688,1701,13,1,Brussels,1,SPANISH,1,8,Brussels,SPANISH,8,2,0,0,0,0,0,0,Brussels_1688 | Brussels_1701,False
+"Xu Guangqi, Matteo Ricci",2,1607,1611,4,1,Beijing,1,CHINESE,1,unknown,Beijing,CHINESE,unknown,0,1,1,0,1,0,0,Beijing_1607 | Beijing_1611,False
+Pierre de Montdoré,2,1551,1552,1,1,Paris,1,LATIN,1,4,Paris,LATIN,4,2,0,0,0,0,0,0,Paris_1551a | Paris_1552,False
+Edmund Scarburgh,2,1705,1705,0,1,Oxford,1,ENGLISH,2,2 | unknown,Oxford,ENGLISH,unknown,1,1,1,0,1,0,0,F2WVY3 | Oxford_1705,False
+Claude Hardy,1,1625,1625,0,1,Paris,2,GREEK | LATIN,1,4,Paris,GREEK,4,1,0,0,0,0,0,0,Paris_1625,False
+David Gregory,1,1703,1703,0,1,Oxford,2,GREEK | LATIN,1,2,Oxford,LATIN,2,1,0,0,0,0,0,0,Oxford_1703,False
+Henry Briggs,1,1620,1620,0,1,London,2,GREEK | LATIN,1,2,London,GREEK,2,1,0,0,0,0,0,0,London_1620,False
+Joannes Sthen,1,1564,1564,0,1,Wittenberg,2,GREEK | LATIN,1,8,Wittenberg,GREEK,8,1,0,0,0,0,0,0,Wittenberg_1564,False
+Josias Rihel,1,1538,1538,0,1,Strasbourg,2,GREEK | LATIN,1,4,Strasbourg,GREEK,4,1,0,0,0,0,0,0,Strasbourg_1538,False
+Luis Carducci,1,1637,1637,0,1,Alcala,2,DUTCH | LATIN,1,4,Alcala,DUTCH,4,1,0,0,0,0,0,0,Alcala_1637,False
+Nasir al-Din al-Tusi,1,1594,1594,0,1,Rome,2,ARABIC | LATIN,1,2,Rome,ARABIC,2,1,0,0,0,0,0,0,Rome_1594,False
+Simon Grynaeus,1,1533,1533,0,1,Basel,2,GREEK | LATIN,1,2,Basel,GREEK,2,1,0,0,0,0,0,0,Basel_1533,False
+Simon Marius,1,1610,1610,0,1,Ansbach,2,GERMAN | LATIN,1,2,Ansbach,GERMAN,2,1,0,0,0,0,0,0,Ansbach_1610,False
+"Albrecht Dürer, Joachim Camerarius",1,1532,1532,0,1,Paris,1,LATIN,1,2,Paris,LATIN,2,1,0,0,0,0,0,0,JTZKPV,False
+Ambrosius Lacher,1,1506,1506,0,1,Frankfurt,1,LATIN,1,4,Frankfurt,LATIN,4,1,0,0,0,0,0,0,Frankfurt_1506,False
+"André Tacquet, William Whiston",1,1703,1703,0,1,Cambridge,1,LATIN,1,8,Cambridge,LATIN,8,1,0,0,0,0,0,0,Cambridge_1703,False
+Antoine Arnauld,1,1667,1667,0,1,Paris,1,FRENCH,1,4,Paris,FRENCH,4,1,0,0,0,0,0,0,Paris_1667,False
+"Antonio de Nájera, Juan de la Rocha",1,1665,1665,0,1,Madrid,1,SPANISH,1,2,Madrid,SPANISH,2,1,0,0,0,0,0,0,Madrid_1665,False
+Bernard Lamy,1,1685,1685,0,1,Paris,1,FRENCH,1,8,Paris,FRENCH,8,1,0,0,0,0,0,0,Paris_1685,False
+Christian Melder,1,1673,1673,0,1,"Leiden, Amsterdam",1,LATIN,1,6,"Leiden, Amsterdam",LATIN,6,1,0,0,0,0,0,0,Leiden_and_Amsterdam_1673,False
+Christoph Meurer,1,1607,1607,0,1,Leipzig,1,LATIN,1,8,Leipzig,LATIN,8,1,0,0,0,0,0,0,Leipzig_1607,False
+"Christopher Clavius, Christoph Grienberger, Jacobus Honoratus Durandus",1,1636,1636,0,1,Graz,1,LATIN,1,12,Graz,LATIN,12,1,0,0,0,0,0,0,Graz_1636,False
+Claas Janszen Vooght,1,1695,1695,0,1,Amsterdam,1,DUTCH,1,4,Amsterdam,DUTCH,4,1,0,0,0,0,0,0,Amsterdam_1695,False
+Claude Richard,1,1645,1645,0,1,Antwerp,1,LATIN,1,2,Antwerp,LATIN,2,1,0,0,0,0,0,0,Antwerp_1645,False
+D. Joanni Franciso Polo,1,1684,1684,0,1,Bologna,1,LATIN,1,8,Bologna,LATIN,8,1,0,0,0,0,0,0,Bologna_1684,False
+Erhard Ratdolt,1,1482,1482,0,1,Venice,1,LATIN,1,2,Venice,LATIN,2,1,0,0,0,0,0,0,Venice_1482,False
+Federico Commandino,1,1572,1572,0,1,Pesaro,1,LATIN,1,2,Pesaro,LATIN,2,1,0,0,0,0,0,0,Pesaro_1572,False
+Florimond du Puy,1,1612,1612,0,1,Paris,1,LATIN,1,2,Paris,LATIN,2,1,0,0,0,0,0,0,Paris_1612,False
+"Gemma Frisius, Pierre Forcadel",1,1560,1560,0,1,Paris,1,FRENCH,1,4,Paris,FRENCH,4,1,0,0,0,0,0,0,ZNLALU,False
+Gilles François Gottignies,1,1669,1669,0,1,Rome,1,LATIN,1,12,Rome,LATIN,12,1,0,0,0,0,0,0,ZQA6JR,False
+"Henry Billingsley, John Dee",1,1570,1570,0,1,London,1,ENGLISH,1,2,London,ENGLISH,2,1,0,0,0,0,0,0,London_1570,False
+Honoré Fabri,1,1669,1669,0,1,Lyon,1,LATIN,1,12,Lyon,LATIN,12,1,0,0,0,0,0,0,Lyon_1669,False
+Ignazio Danti,1,1573,1573,0,1,Florence,1,ITALIAN,1,4,Florence,ITALIAN,4,1,0,0,0,0,0,0,Florence_1573,False
+Jacobo Kresa,1,1689,1689,0,1,Brussels,1,SPANISH,1,4,Brussels,SPANISH,4,1,0,0,0,0,0,0,Brussels_1689,False
+Jacques Lefèvre d'Étaples,1,1516,1516,0,1,Paris,1,LATIN,1,2,Paris,LATIN,2,1,0,0,0,0,0,0,Paris_1516,False
+Jacques Rohault,1,1690,1690,0,1,The Hague,1,FRENCH,1,12,The Hague,FRENCH,12,1,0,0,0,0,0,0,The_Hague_1690,False
+"Jacques Rohault, Claude Clerselier",1,1682,1682,0,1,Paris,1,FRENCH,1,4,Paris,FRENCH,4,1,0,0,0,0,0,0,Paris_1682a,False
+Jacques-Alexandre Le Tenneur,1,1640,1640,0,1,Paris,1,FRENCH,1,4,Paris,FRENCH,4,1,0,0,0,0,0,0,Paris_1640,False
+Jean Prestet,1,1675,1675,0,1,Paris,1,FRENCH,1,4,Paris,FRENCH,4,1,0,0,0,0,0,0,Paris_1675,False
+"Joachim Kammermeister, Georg Joachim Rhäticus",1,1549,1549,0,1,Leipzig,1,LATIN,1,8,Leipzig,LATIN,8,1,0,0,0,0,0,0,Leipzig_1549,False
+"Joachim Kammermeister, Moritz Valentin Steinmetz",1,1577,1577,0,1,Leipzig,1,LATIN,1,8,Leipzig,LATIN,8,1,0,0,0,0,0,0,Leipzig_1577,False
+"Johannes Vögelin, Johann Alexander Brassicanus",1,1528,1528,0,1,Vienna,1,LATIN,1,4,Vienna,LATIN,4,1,0,0,0,0,0,0,TTORPR,False
+John Keill,1,1701,1701,0,1,Oxford,1,LATIN,1,8,Oxford,LATIN,8,1,0,0,0,0,0,0,Oxford_1701,False
+"John Leeke, George Serle",1,1661,1661,0,1,London,1,ENGLISH,1,2,London,ENGLISH,2,1,0,0,0,0,0,0,London_1661,False
+Jonas Moore,1,1680,1680,0,1,London,1,ENGLISH,1,4,London,ENGLISH,4,1,0,0,0,0,0,0,London_1680–81,False
+Leonardo Achati,1,1491,1491,0,1,Vicenza,1,LATIN,1,2,Vicenza,LATIN,2,1,0,0,0,0,0,0,Vicenza_1491,False
+Leonardo Fioravanti,1,1679,1679,0,1,Naples,1,LATIN,1,8,Naples,LATIN,8,1,0,0,0,0,0,0,Naples_1679,False
+Luca Pacioli,1,1509,1509,0,1,Venice,1,LATIN,1,2,Venice,LATIN,2,1,0,0,0,0,0,0,Venice_1509,False
+Lucas Brunn,1,1625,1625,0,1,Nuremberg,1,GERMAN,1,4,Nuremberg,GERMAN,4,1,0,0,0,0,0,0,Nuremberg_1625,False
+Marcus Meibom,1,1652,1652,0,1,Amsterdam,1,LATIN,1,4,Amsterdam,LATIN,4,1,0,0,0,0,0,0,Amsterdam_1652,False
+Marinus Neapolitanus,1,1558,1558,0,1,Basel,1,LATIN,1,2,Basel,LATIN,2,1,0,0,0,0,0,0,T4DFPF,False
+Martinus Erici Gestrinius,1,1642,1642,0,1,Uppsala,1,LATIN,1,unknown,Uppsala,LATIN,unknown,0,0,0,0,0,0,0,Uppsala_1642,False
+"Michael, Joachim Tancke, Philipp Melanchthon",1,1589,1589,0,1,Leipzig,1,LATIN,1,8,Leipzig,LATIN,8,1,0,0,0,0,0,0,4ZSED7,False
+Pedro Ambrosio Ondériz,1,1585,1585,0,1,Madrid,1,SPANISH,1,4,Madrid,SPANISH,4,1,0,0,0,0,0,0,Madrid_1585,False
+Pierre Bourdín,1,1643,1643,0,1,Paris,1,FRENCH,1,12,Paris,FRENCH,12,1,0,0,0,0,0,0,Paris_1643,False
+Pietro Antonio Cataldi,1,1613,1613,0,1,Bologna,1,ITALIAN,1,unknown,Bologna,ITALIAN,unknown,0,0,0,0,0,0,0,8DP4C1,False
+Porpora,1,1702,1702,0,1,Naples,1,LATIN,1,8,Naples,LATIN,8,1,0,0,0,0,0,0,Naples_1702,False
+Robert Recorde,1,1551,1551,0,1,London,1,ENGLISH,1,4,London,ENGLISH,4,1,0,0,0,0,0,0,FA6MQ0,False
+Rodorigo de Zamorano,1,1576,1576,0,1,Seville,1,SPANISH,1,4,Seville,SPANISH,4,1,0,0,0,0,0,0,Seville_1576,False
+Roland Fréart,1,1663,1663,0,1,Le Mans,1,FRENCH,1,4,Le Mans,FRENCH,4,1,0,0,0,0,0,1,Le_Mans_1663,False
+Simon Stevin,1,1618,1618,0,1,Rotterdam,1,FRENCH,1,2,Rotterdam,FRENCH,2,1,0,0,0,0,0,0,1QQS64,False
+"Thomas Bradwardine, Pedro Ciruelo",1,1495,1495,0,1,Paris,1,LATIN,1,4,Paris,LATIN,4,1,0,0,0,0,0,0,70Q8M8,False
+Thomas Rudd,1,1651,1651,0,1,London,1,ENGLISH,1,4,London,ENGLISH,4,1,0,0,0,0,0,0,London_1651,False
+Valentin Naboth,1,1556,1556,0,1,Cologne,1,LATIN,1,8,Cologne,LATIN,8,1,0,0,0,0,0,0,Cologne_1556,False
+Vincenzio Viviani,1,1690,1690,0,1,Florence,1,ITALIAN,1,12,Florence,ITALIAN,12,1,0,0,0,0,0,0,Florence_1690,False
+Vitale Giordano da Bitonto,1,1680,1680,0,1,Rome,1,ITALIAN,1,2,Rome,ITALIAN,2,1,0,0,0,0,0,0,Rome_1680,False
+Wilhelm Xylander,1,1562,1562,0,1,Basel,1,GERMAN,1,2,Basel,GERMAN,2,1,0,0,0,0,0,0,Basel_1562,False
+"Xu Guangqi, Matteo Ricci, Li Zhizao",1,1629,1629,0,1,Beijing,1,CHINESE,1,unknown,Beijing,CHINESE,unknown,0,0,0,0,0,0,0,Beijing_1629,False
+Étienne Gracile,1,1612,1612,0,1,Cologne,1,LATIN,1,8,Cologne,LATIN,8,1,0,0,0,0,0,0,Cologne_1612,False

@@ -1,0 +1,9 @@
+group,geographic_reach_type,count,denominator,share
+Jesuit-marked,pan_european_multi_region,14,24,0.5833333333333334
+Jesuit-marked,interregional_route,5,24,0.20833333333333334
+Jesuit-marked,single_region,3,24,0.125
+Jesuit-marked,single_city,2,24,0.08333333333333333
+Other Elements,single_city,129,227,0.5682819383259912
+Other Elements,interregional_route,49,227,0.21585903083700442
+Other Elements,single_region,35,227,0.15418502202643172
+Other Elements,pan_european_multi_region,14,227,0.06167400881057269

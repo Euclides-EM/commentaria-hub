@@ -1,0 +1,26 @@
+classification_key,year,city,language_first,author_or_editor,elements_books_group,claim_utility_practice_application,claim_method_demonstration_order,claim_augmentation_enrichment_composition,claim_ancient_authority_restoration,claim_correction_revision_accuracy,institutions_has,inst_jesuit,jesuit_religious
+Venice_1603,1603,Venice,LATIN,Antonio Possevino,unknown_books,False,False,True,False,True,True,True,True
+Cologne_1607,1607,Cologne,LATIN,"Jean Magnien, Étienne Gracile",near_complete_or_expanded_enunciations,False,False,True,True,True,True,True,True
+Cologne_1627,1627,Cologne,LATIN,"Jean Magnien, Étienne Gracile",near_complete_or_expanded,False,False,False,True,True,True,True,True
+Graz_1636,1636,Graz,LATIN,"Christopher Clavius, Christoph Grienberger, Jacobus Honoratus Durandus",books_1_6,False,False,True,True,True,True,True,True
+Frankfurt_1654,1654,Frankfurt,LATIN,Christopher Clavius,near_complete_or_expanded,False,True,True,True,True,True,True,True
+London_1654,1654,London,LATIN,Georges Fournier,books_1_6,False,True,False,True,True,True,True,True
+Lyon_1660,1660,Lyon,LATIN,Claude-François Milliet Dechales,books_1_6_plus_solids,False,False,False,True,False,True,True,True
+Würzburg_1661,1661,Würzburg,LATIN,Gaspar Schott,books_1_6,False,True,True,False,False,True,True,True
+Cambridge_1665,1665,Cambridge,LATIN,Georges Fournier,books_1_6,False,True,True,True,True,True,True,True
+Frankfurt_1674,1674,Frankfurt,LATIN,Gaspar Schott,books_1_6,False,True,True,False,False,True,True,True
+Lyon_1675,1675,Lyon,LATIN,Claude-François Milliet Dechales,books_1_6_plus_solids,False,False,False,True,True,True,True,True
+Bamberg_1677,1677,Bamberg,LATIN,Gaspar Schott,books_1_6,False,True,True,False,False,True,True,True
+Paris_1677a,1677,Paris,FRENCH,Claude-François Milliet Dechales,books_1_6_plus_solids,False,True,False,True,False,True,True,True
+Paris_1682,1682,Paris,FRENCH,Claude-François Milliet Dechales,books_1_6_plus_solids,True,True,True,True,False,True,True,True
+Amsterdam_1683,1683,Amsterdam,LATIN,André Tacquet,books_1_6_plus_solids,False,True,False,True,False,True,True,True
+Paris_1683,1683,Paris,FRENCH,Claude-François Milliet Dechales,books_1_6_plus_solids,True,True,True,True,False,True,True,True
+Oxford_1685,1685,Oxford,ENGLISH,Claude-François Milliet Dechales,books_1_6_plus_solids,True,True,False,True,False,True,True,True
+Lyon_1690,1690,Lyon,LATIN,"Claude-François Milliet Dechales, Amatus Varcin",near_complete_or_expanded,False,False,False,True,False,True,True,True
+Paris_1690,1690,Paris,FRENCH,Claude-François Milliet Dechales,books_1_6_plus_solids,True,True,True,True,True,True,True,True
+London_1696,1696,London,ENGLISH,Claude-François Milliet Dechales,books_1_6_plus_solids,True,True,False,True,False,True,True,True
+Amsterdam_1700,1700,Amsterdam,FRENCH,Claude-François Milliet Dechales,books_1_6_plus_solids,True,True,True,True,True,True,True,True
+Oxford_London_1700,1700,"Oxford, London",ENGLISH,Claude-François Milliet Dechales,books_1_6_plus_solids,True,True,False,True,True,True,True,True
+Amsterdam_1701b,1701,Amsterdam,LATIN,André Tacquet,books_1_6_plus_solids,False,True,False,True,False,True,True,True
+Cambridge_1703,1703,Cambridge,LATIN,"André Tacquet, William Whiston",books_1_6_plus_solids,False,True,False,True,True,True,True,True
+Lisbon_1735,1735,Lisbon,PORTUGUESE,Manoel de Campos,unknown_books,False,True,False,True,False,True,True,True

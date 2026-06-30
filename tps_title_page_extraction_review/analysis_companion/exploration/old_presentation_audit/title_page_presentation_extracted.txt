@@ -1,0 +1,437 @@
+Building a Digital Corpus of Euclid’s Elements Title Pages
+
+                    Methods and Findings
+
+
+                              Mia Joskowicz
+    PhD Student, TAU / Research Engineer, EUCLIDES Project (SPHere, CNRS)
+     Presentation Plan
+1.    Motivation &
+      Research Questions                                  3.   Findings
+
+
+
+
+                           2.   Approach, Methodology &
+                                Platform Walkthrough
+   Motivation &
+Research Questions
+    Why Euclid’s Elements ?
+●   A foundational mathematical text since antiquity.
+●   16th-17th centuries: Held a canonical status in early modern
+    Europe.
+●   Wide circulation across multiple contexts: from highly
+    practical applications to the intellectual milieus of learned
+    Europe.
+●   Translations varied in presentation, commentary, and
+    mathematical content.
+
+
+➔ Oﬀers a window into the broader mathematical landscape of the time.
+A Proliferation
+of Editions
+A Proliferation
+of Editions
+Why Title Pages?
+●   A condensed statement of purpose:
+    exposes multiple layers of information.
+●   Reﬂect how the book was positioned
+    and circulated.
+●   Shed light on the social, intellectual
+    and commercial forces shaping its
+    transmission.
+●   Oﬀer a panoramic overview.
+The Research Question
+
+How the title pages of early modern printed
+editions of Euclid’s Elements reﬂect its
+intellectual and social positioning?
+      Approach,
+   Methodology &
+Platform Walkthrough
+Methodology
+●   Corpus: 219 editions of Elements published before 1700.
+●   Focus: Segmenting the text of each title page into distinct elements to
+    identify patterns and variations.
+●   Theoretical Framework: Based on Gérard Genette’s structuralist ideas
+    about paratexts.
+●   Strategy: Building a reusable researcher-in-the-loop platform that
+    identiﬁes and classiﬁes text parts and enables large scale, systematic and
+    ﬂexible comparison.
+Methodology
+●   Corpus: 219 editions of Elements published before 1700.
+●   Focus: Segmenting the text of each title page into distinct elements to
+    identify patterns and variations.
+●   Theoretical Framework: Based on Gérard Genette’s structuralist ideas
+    about paratexts.
+●   Strategy: Building a reusable researcher-in-the-loop platform that
+    identiﬁes and classiﬁes text parts and enables large scale, systematic
+    and ﬂexible comparison.
+Methodology
+●   Corpus: 219 editions of Elements published before 1700.
+●   Focus: Segmenting the text of each title page into distinct elements to
+    identify patterns and variations.
+●   Theoretical Framework: Based on Gérard Genette’s structuralist ideas
+    about paratexts.
+●   Strategy: Building a reusable researcher-in-the-loop platform that
+    identiﬁes and classiﬁes text parts and enables large scale, systematic and
+    ﬂexible comparison.
+Methodology
+●   Corpus: 219 editions of Elements published before 1700.
+●   Focus: Segmenting the text of each title page into distinct elements to
+    identify patterns and variations.
+●   Theoretical Framework: Based on Gérard Genette’s structuralist ideas
+    about paratexts.
+●   Strategy: Building a reusable researcher-in-the-loop platform that
+    identiﬁes and classiﬁes text parts and enables large scale, systematic
+    and ﬂexible comparison.
+Segmenting the Title Page’s Text
+                                                                                     Base Content
+                                                 THE
+                                             ELEMENTS                                Elements Designation
+                                                 OF
+                                               EUCLID
+                                             Explain’d,                              Base Content
+                                In a New, but most Easie Method:                     Description
+                        Together with The Use of every Proposition through
+                                  all parts of the Mathematicks.                     Adapter action verbs
+
+                               Written in French, by that Excellent
+                                         Mathematician,
+                                                                                     Languages
+                            F. CLAUD. FRANCIS MILLIET de CHALES,
+                                     of the Society of JESUS.                        Institutions
+                   Now made English, and a multitude of Errors Corrected, which
+                                   had escap’d in the Original.
+                                                                                     Adapter Description
+                                          The Third Edition.
+                                                                                     Edition Statement
+                                                OXFORD,
+                    Printed by L.L. for M. Gillyﬂower at the Spread-Eagle in West-
+                                                                                     …
+                     minster-Hall, and W. Freeman at the Bible over-against the
+                             Middle-Temple-Gate, in Fleet-street, 1700.
+Segmenting the Title Page’s Text
+                      THE ELEMENTS OF EUCLID Explain’d                               Base Content
+
+
+                      THE ELEMENTS OF EUCLID                                         Elements Designation
+
+                      In a New, but most Easie Method: Together with The Use of      Base Content
+                      every Proposition through all parts of the Mathematicks.       Description
+
+                      Explain’d, Written                                             Adapter action verbs.
+
+                      French, English                                                Languages
+
+                      the Society of JESUS                                           Institutions
+
+                      Excellent Mathematician, …, of the Society of JESUS            Adapter Description
+
+                      Now made English, and a multitude of Errors Corrected, which
+                                                                                     Edition Statement
+                      had escap’d in the Original. The Third Edition.
+
+                      …                                                              …
+Research Platform                            Title Page Results
+
+
+
+
+https://euclides.huma-num.fr/hub   https://elements-resource-box.netlify.app/titlePages
+
+
+
+         Scan to Follow Along!                ⚠ Work in progress! ⚠
+                                              Might break, disappear, or evolve.
+                                                                  Corpus construction
+                                 Text extraction reﬁnement
+
+   Text extraction (OCR)                                       Text validation & correction
+
+
+
+
+                                                                     Deﬁne features
+                                Feature extraction reﬁnement
+
+Extract feature classiﬁcation                                  Review feature classiﬁcation
+
+
+
+
+        Visualization                                                    Analyze
+   Text extraction (OCR)
+
+
+
+
+Extract feature classiﬁcation
+
+
+
+
+        Visualization
+   Corpus construction
+
+
+Text validation & correction
+
+
+
+
+      Deﬁne features
+
+
+Review feature classiﬁcation
+
+
+
+
+          Analyze
+ Text extraction reﬁnement
+
+
+
+
+Feature extraction reﬁnement
+
+
+
+
+     Informed Analysis
+                                                                  Corpus construction
+                                 Text extraction reﬁnement
+
+   Text extraction (OCR)                                       Text validation & correction
+
+
+
+
+                                                                     Deﬁne features
+                                Feature extraction reﬁnement
+
+Extract feature classiﬁcation                                  Review feature classiﬁcation
+
+
+
+
+        Visualization                                                    Analyze
+Methodology
+●   Corpus: 219 editions of Elements published before 1700.
+●   Focus: Segmenting the text of each title page into distinct elements to
+    identify patterns and variations.
+●   Theoretical Framework: Based on Gérard Genette’s structuralist ideas
+    about paratexts.
+●   Strategy: Building a reusable researcher-in-the-loop platform that
+    identiﬁes and classiﬁes text parts and enables large scale, systematic
+    and ﬂexible comparison.
+                                                                  Corpus construction
+                                 Text extraction reﬁnement
+
+   Text extraction (OCR)                                       Text validation & correction
+
+
+
+
+                                                                     Deﬁne features
+                                Feature extraction reﬁnement
+
+Extract feature classiﬁcation                                  Review feature classiﬁcation
+
+
+
+
+        Visualization                                                    Analyze
+            I have a another research
+            Q (and corpus)!
+                                                 I should add this
+                                                 edition!
+
+  This new OCR method
+  might be interesting…                 What about this feature?
+
+
+
+
+Bug in the code!
+Research Platform                            Title Page Results
+
+
+
+
+https://euclides.huma-num.fr/hub   https://elements-resource-box.netlify.app/titlePages
+
+
+
+
+         Scan to Follow Along!
+                                                                  Corpus construction
+                                 Text extraction reﬁnement
+
+   Text extraction (OCR)                                       Text validation & correction
+
+
+
+
+                                                                     Deﬁne features
+                                Feature extraction reﬁnement
+
+Extract feature classiﬁcation                                  Review feature classiﬁcation
+
+
+
+
+        Visualization                                                    Analyze
+            I have a another research
+            Q (and corpus)!
+                                                 I should add this
+                                                 edition!
+
+  This new OCR method
+  might be interesting…                 What about this feature?
+
+
+
+
+Bug in the code!
+Findings
+A Canonical Text in Motion
+Title pages present the Elements as both a stable, ancient
+authority and an active, evolving text.
+
+ ●     Stable Canon: Base designation is
+       highly consistent: "Euclid's Elements,"
+       "Euclid's Geometry," etc.
+
+
+
+
+Title pages, 1558-1705,
+published across Europe in
+English, Latin, Dutch and
+French
+A Canonical Text in Motion
+●   Text in Motion: Title pages often reference
+    corrections improvements and additions over
+    previous editions and adapters.
+
+
+
+
+➔   A single, ancient, consolidated
+    work that retain its identity as a
+    deﬁnitive mathematical authority.
+
+➔   And an active player of an
+    evolving, contested mathematical
+    landscape.
+Local Roots and Cross-European Circulation
+
+Publishing operated on two scales
+simultaneously:
+
+●   70 of 97 adapters published in only
+    one city.
+●   Title pages reference local intellectual
+    lineages and institutions.
+
+
+
+                                          Title pages of London editions
+                                          published between 1570 and 1651
+                                          that mention John Dee.
+Local Roots and Cross-European Circulation
+ ●   Mathematical publishing operated across national
+     borders.
+ ●   Imprints and references reveal active exchange.
+ ●   The Elements act as a vehicle of continental scholarly
+     dialogue.
+Institutional Afﬁliations and Mentions
+Title pages place editions within speciﬁc institutional contexts, which
+establishes the adapter's authority.
+These contexts were diverse:
+
+
+1. Universities, colleges and     2. Civic, commercial and military   3. The Jesuit
+          schools                             institutions                Order
+
+
+
+
+                                                                           »
+The Jesuit Order: A Pan-European Institution
+●   A prominent pan-European
+    aﬃliation.
+●   Often used as a sole credential of
+    the adapter.
+●   Vernacular title pages mention
+    Jesuit identity far less often,
+    revealing sensitivities tied to local
+    religious and political contexts.
+Between Restoration and Adaptation
+Title pages reveal a tension between two competing values:
+
+Restoration:
+
+●   A focus on philological purity and recovering
+    the "true" ancient text.
+●   Noting translations “from Greek.”
+●   The adapter is presented as a restorer or
+    corrector.
+●   Title pages invoke ancient authorities to
+    situate the edition within the classical
+    tradition.
+    Between Restoration and Adaptation
+●   Many title pages emphasize adaptation: new
+    demonstrations, diagrams, or reorganized content.
+●   Accessibility: Eﬀorts to make content clearer,
+    briefer, and easier to understand through simpliﬁed
+    and expanded content and new notations.
+●   Utility: Increasing attention to practical application,
+    especially in later editions, like surveying and
+    navigation. Some works frame the Elements as part
+    of professional training, especially for military
+    personnel.
+Between Restoration and Adaptation
+ ●   Goals such as accessibility and utility are interconnected, but not
+     reducible to each other.
+ ●   The adaptations respond to emerging pedagogical needs while also
+     reﬂecting contemporary scholarly currents, such as the growing
+     acceptance of symbolic algebra, often associated with greater clarity.
+ ●   The adaptations did not replace the humanist concern with ﬁdelity to
+     Greek sources. The diﬀerent intellectual tendencies coexisted,
+     sometimes within the same edition.
+    Conclusions: Plurality and Variety
+    ●   The title pages present the Elements as a canonical text in motion, preserved
+        as an ancient authority yet continually redeployed and reshaped.
+    ●   They reveal strong local roots set within active pan-European networks.
+    ●   They show a treatise embedded in universities and colleges, but also in civic
+        oﬃces, military settings and professional spheres, with the Jesuit Order
+        serving as a prominent pan-European presence.
+    ●   They display a plurality of coexisting intellectual priorities, including
+        restoration, clarity, accessibility, utility and innovation.
+
+➔    The title pages challenge neat stories of a uniﬁed Euclidean tradition and uncover a
+     lively, varied landscape of mathematical communities and practices.
+Methodological Takeaways
+●   Title pages are a mediating space where multiple intellectual, commercial,
+    and pedagogical priorities intersect that oﬀers a panoramic view.
+●   Paratextual analysis, still relatively uncommon in the history of
+    mathematics, can serve as a tool for reconstructing both the intellectual
+    and the social dimensions of early modern mathematical cultures.
+●   Combined with digital humanities techniques, it allow large-scale
+    comparative analysis across editions and contexts.
+           Thank You
+             Mia Joskowicz,
+
+            Phd Student, TAU
+Research Engineer, EUCLIDES, SPHere, CNRS
+
+
+
+
+https://elements-resource-box.netlify.app
+
+        miajosko@gmail.com
+

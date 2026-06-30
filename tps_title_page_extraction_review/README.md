@@ -1,56 +1,111 @@
 # TPS Title-Page Extraction Review
 
-This folder preserves the human/Codex context for the V8 TPS title-page extraction work. It is no longer a run workspace; transient logs, checkpoints, binaries, and intermediate preview outputs were removed.
+This folder is now organized as a research workspace for looking at the title-page extraction results and rebuilding the historical argument.
 
-## Final Artifacts
+## Analysis Companion
 
-- `v8_results_preview_reviewed.csv`: final reviewed V8 output used to generate the migration.
-- `v8_analysis_report.md`: final V8 coverage/quality summary.
-- `v8_feature_summary.csv`: final feature-level coverage summary.
-- `v8_policy_comparison.csv`: targeted policy comparison against reviewed examples.
-- `v8_policy_decisions.md`: extraction policy decisions made during interactive review.
-- `v8_interactive_review_decisions.md`: final manual review notes, including the two dropped Enriched With rows.
-- `v8_suspicious_rows.csv`: the rows reviewed and intentionally removed from the final CSV.
+The open-ended analysis workspace is:
 
-## Historical Context Kept
+`analysis_companion/`
 
-- `v6_evaluation_report.md` and `v6_diagnostic_review.csv`: baseline failure analysis.
-- `v7_analysis_report.md`, `v7_feature_summary.csv`, `v7_policy_comparison.csv`, and `v7_policy_review.csv`: V7 comparison and policy-review context.
-- `working_final_dataset_orig_rows.csv`: broader source review dataset.
-- `CODEX_CONTEXT.md`: compact handoff notes for future work.
+Start there when working on the conference argument. It contains the high-level plan, data map, companion launch prompt, question log, casebook, and candidate-argument scratchpad.
 
-## Production Shape
+## Start Here
 
-The old production/paper snapshot remains in:
+Open this file first:
 
-- `/Users/mia/dev/personal/elements-dh/ocrflow/internal/migrations/ocrflow/1774207517_tps_feature_results_opt.sql`
+`data/latest_larger_corpus/printed_missing_tps_v8_preview.csv`
 
-That migration still contains the original `ann_1` title-page classification definitions and results used for the paper.
+That is the latest larger-corpus TPS extraction output. It contains 7,169 non-empty feature rows for 650 printed editions. The original target run had 690 keys with title-page transcriptions; 650 produced at least one extracted feature row.
 
-The final reviewed V8 work is collapsed into:
+For the older reviewed Elements-oriented dataset, use:
 
-- `/Users/mia/dev/personal/elements-dh/ocrflow/internal/migrations/ocrflow/1774300009_tps_title_page_latest_revisions.sql`
-- `/Users/mia/dev/personal/elements-dh/ocrflow/internal/migrations/ocrflow/1774300011_tps_title_page_v8_reviewed_results.sql`
+`data/reviewed_elements_v8/v8_results_preview_reviewed.csv`
 
-Intermediate V6/V7/V8 prompt migrations were removed because this branch is local/recreatable and the final state is clearer as a latest revision plus reviewed results.
+That file contains the manually reviewed V8 output for 217 editions.
 
-## Offline Runner
+For genre-aware analysis, first run the full subject classification prepared here:
 
-Use only the DB-free runner for future long TPS extraction runs. It reads metadata CSVs directly and does not initialize the app, run migrations, warm caches, touch SQLite, or store DB results.
+`data/subject_classification/full_run/RUN_COMMANDS.md`
 
-```sh
-cd /Users/mia/dev/personal/elements-dh/ocrflow
+The existing subject classification is only a partial 155-edition archive, so it should not be used as the main basis for the analysis.
 
-go run ./cmd/title-page-extraction-offline \
-  -output-csv ../tps_title_page_extraction_review/v8_offline_results_preview.csv
-```
+## Folder Map
 
-Useful options:
+### `data/latest_larger_corpus/`
 
-- `-keys Amsterdam_1616,Amsterdam_1626` to run selected keys.
-- `-keys-file path/to/keys.csv` to run keys from a CSV or one-key-per-line file.
-- `-features base_content,enriched_with` to run selected features.
-- `-checkpoint-file path/to/file.done` to choose a checkpoint file.
-- `-resume=false` to restart an output file from scratch.
+Current raw data for the broader printed-book corpus.
 
-If interrupted, rerun the same command. Completed keys are skipped from the checkpoint file.
+- `printed_missing_tps_v8_preview.csv`: latest larger-corpus extraction results; this is the main CSV to inspect.
+- `printed_missing_tps_v8_keys.txt`: 690 keys targeted by the run.
+- `printed_missing_tps_without_transcription_keys.txt`: 2 target keys without title-page transcription.
+- `printed_tps_target_counts.txt`: quick accounting of targets, missing values, and run status.
+
+### `data/reviewed_elements_v8/`
+
+Older reviewed TPS output for the Elements-oriented batch.
+
+- `v8_results_preview_reviewed.csv`: final reviewed V8 results for 217 editions.
+- `v8_feature_summary.csv`: feature coverage summary for the reviewed V8 batch.
+- `v7_feature_summary.csv`: previous V7 feature coverage summary, kept for comparison.
+
+### `data/source_review_snapshot/`
+
+Source material from the earlier human/Codex review cycle.
+
+- `working_final_dataset_orig_rows.csv`: broad source review table with original/manual/LLM values and decision tiers.
+
+### `data/subject_classification/`
+
+Subject classification workspace.
+
+- `full_run/`: prepared input key lists and commands for rerunning the classifier over the title-page corpus.
+- `partial_155_archive/`: old partial classification files covering only 155 editions. Keep for provenance; do not use as the main analysis dataset.
+- `README.md`: explanation of the current classification state.
+
+### `reports/`
+
+Narrative reports and working interpretive notes.
+
+- `larger_corpus_reassessment.md`: first-pass reassessment of the old presentation claims against the larger corpus.
+- `v8_analysis_report.md`: final V8 coverage/quality summary for the reviewed Elements batch.
+- `v7_analysis_report.md`: previous V7 analysis.
+- `v6_evaluation_report.md`: older baseline evaluation.
+- `v8_policy_decisions.md`: extraction policy decisions from the V8 review.
+- `v8_interactive_review_decisions.md`: final interactive cleanup notes.
+
+### `review_process/`
+
+Policy-review and QA artifacts. These are useful when checking why an extraction rule exists, but they are not the first place to read raw data.
+
+- `v6_diagnostic_review.csv`
+- `v7_policy_comparison.csv`
+- `v7_policy_review.csv`
+- `v8_policy_comparison.csv`
+- `v8_suspicious_rows.csv`
+- `v8_targeted_review_queue.csv`
+
+### `presentation_context/`
+
+The two documents that frame the current interpretive problem.
+
+- `Title Page Presentation.pdf`: older presentation based on the smaller Elements corpus.
+- `USTC 2026 Abstract.pdf`: abstract for the upcoming presentation.
+
+### `run_artifacts/`
+
+Execution bookkeeping from the latest larger-corpus extraction.
+
+- `printed_missing_tps_v8_preview.csv.done`: checkpoint/completion list from the run.
+- `printed_missing_tps_v8_run.log`: run log with debug lines and grounding warnings.
+
+## Working Notes
+
+For the next phase, the goal is not to force one big conclusion immediately. We can work question by question against the raw CSV, comparing:
+
+- the larger corpus against the older reviewed Elements batch;
+- Euclid/Elements vocabulary against non-Euclidean "elements" and geometry titles;
+- the full subject-classification run output once it is generated in `data/subject_classification/full_run/`;
+- title-page features such as `base_content`, `elements_designation`, `enriched_with`, `bound_with_minimal`, `audience`, `institutions`, and imprint fields.
+
+The current emerging caution is that the older "stable base designation" claim was probably too dependent on the smaller Elements-oriented corpus. The larger dataset suggests a broader ecosystem of elementary mathematical books, practical geometries, institutional textbooks, and professional manuals.
