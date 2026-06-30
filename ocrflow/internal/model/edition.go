@@ -42,10 +42,16 @@ type Edition struct {
 	TitlePageStatus EditionTitlePageStatus `json:"titlePageStatus"`
 
 	// Elements (both)
-	IsElements              bool     `json:"isElements"`
-	Books                   []int    `json:"books"`
-	AdditionalContent       []string `json:"additionalContent"`
-	WardhaughClassification string   `json:"wardhaughClassification"`
+	IsElements              bool                     `json:"isElements"`
+	Books                   []int                    `json:"books"`
+	AdditionalContent       []string                 `json:"additionalContent"`
+	WardhaughClassification string                   `json:"wardhaughClassification"`
+	SubjectCategories       []EditionSubjectCategory `json:"subjectCategories" readonly:"true"`
+}
+
+type EditionSubjectCategory struct {
+	Category       string `json:"category"`
+	Classification string `json:"classification"`
 }
 
 type EditionShelfmark struct {

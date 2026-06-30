@@ -97,7 +97,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
-	editionSvc := service.NewEditionService(editionStore, facsimileStore)
+	editionSvc := service.NewEditionService(editionStore, facsimileStore, featureResultStore)
 	reprintSvc := service.NewReprintService(editionSvc)
 	facsimileSvc := service.NewFacsimileService(
 		facsimileStore,

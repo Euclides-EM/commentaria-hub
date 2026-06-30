@@ -79,6 +79,7 @@ export type { model_Edition } from './models/model_Edition';
 export type { model_EditionListResult } from './models/model_EditionListResult';
 export type { model_EditionLocator } from './models/model_EditionLocator';
 export type { model_EditionShelfmark } from './models/model_EditionShelfmark';
+export type { model_EditionSubjectCategory } from './models/model_EditionSubjectCategory';
 export type { model_EditionTitlePageStatus } from './models/model_EditionTitlePageStatus';
 export type { model_EditionTranscription } from './models/model_EditionTranscription';
 export type { model_EditionTranscriptionPreferredAnnotation } from './models/model_EditionTranscriptionPreferredAnnotation';

@@ -21,6 +21,61 @@ func NewFeatureResultSQL(db *sql.DB) *FeatureResultSql {
 	return &FeatureResultSql{db: db}
 }
 
+// ListEditionFeatureValues returns the current values of an edition-scoped
+// feature, grouped by edition. Edition feature results are upserted when a
+// feature is rerun, so this always reflects the latest persisted result.
+func (s *FeatureResultSql) ListEditionFeatureValues(featureID string, editionIDs []string) (map[string][]string, error) {
+	valuesByEdition := make(map[string][]string, len(editionIDs))
+	const batchSize = 500
+	for start := 0; start < len(editionIDs); start += batchSize {
+		end := min(start+batchSize, len(editionIDs))
+		batch, err := s.listEditionFeatureValuesBatch(featureID, editionIDs[start:end])
+		if err != nil {
+			return nil, err
+		}
+		for editionID, values := range batch {
+			valuesByEdition[editionID] = append(valuesByEdition[editionID], values...)
+		}
+	}
+	return valuesByEdition, nil
+}
+
+func (s *FeatureResultSql) listEditionFeatureValuesBatch(featureID string, editionIDs []string) (map[string][]string, error) {
+	valuesByEdition := make(map[string][]string, len(editionIDs))
+	query := `
+SELECT v.edition_id, v.surface
+FROM edition_feature_result_values v
+JOIN edition_feature_results r
+  ON r.scope = v.scope
+ AND r.edition_id = v.edition_id
+ AND r.feature_id = v.feature_id
+WHERE v.scope = ?
+  AND v.feature_id = ?
+  AND v.edition_id IN (` + strings.TrimSuffix(strings.Repeat("?, ", len(editionIDs)), ", ") + `)
+ORDER BY v.edition_id, v.id
+`
+	args := []any{feature.ScopeTypeEditions, featureID}
+	args = append(args, lo.ToAnySlice(editionIDs)...)
+
+	rows, err := s.db.Query(query, args...)
+	if err != nil {
+		return nil, fmt.Errorf("list edition feature values: query: %w", err)
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		var editionID, surface string
+		if err := rows.Scan(&editionID, &surface); err != nil {
+			return nil, fmt.Errorf("list edition feature values: scan: %w", err)
+		}
+		valuesByEdition[editionID] = append(valuesByEdition[editionID], surface)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("list edition feature values: rows: %w", err)
+	}
+	return valuesByEdition, nil
+}
+
 func (s *FeatureResultSql) listDatasetsQueryFallbackToOrigin(datasetID, annotationID string, keys []string, features []string) (query string, args []any) {
 	query = `
 WITH requested_annotation AS (

@@ -3,25 +3,31 @@ package service
 import (
 	"errors"
 	"fmt"
+	"strings"
 
 	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
 	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/samber/lo"
 )
 
 // todo: add interfaces to all services
 
 var ErrEditionNotFound = errors.New("edition not found")
 
+const subjectCategoriesFeatureID = "m_classifier"
+
 type Edition struct {
-	editionStore   *store.EditionCSV
-	facsimileStore *store.FacsimileSQL
+	editionStore       *store.EditionCSV
+	facsimileStore     *store.FacsimileSQL
+	featureResultStore *store.FeatureResultSql
 }
 
-func NewEditionService(editionStore *store.EditionCSV, facsimileStore *store.FacsimileSQL) *Edition {
+func NewEditionService(editionStore *store.EditionCSV, facsimileStore *store.FacsimileSQL, featureResultStore *store.FeatureResultSql) *Edition {
 	return &Edition{
-		editionStore:   editionStore,
-		facsimileStore: facsimileStore,
+		editionStore:       editionStore,
+		facsimileStore:     facsimileStore,
+		featureResultStore: featureResultStore,
 	}
 }
 
@@ -31,7 +37,37 @@ func (e *Edition) ListEditions(filter func(e any) bool, orderBy func(e1, e2 any)
 	if err != nil {
 		return nil, fmt.Errorf("failed to list editions from store: %w", err)
 	}
+	if err := e.addSubjectCategories(items); err != nil {
+		return nil, err
+	}
 	return &model.EditionListResult{Items: items, Total: total, Offset: offset, Limit: limit}, nil
+}
+
+func (e *Edition) addSubjectCategories(editions []*model.Edition) error {
+	keys := lo.Map(editions, func(edition *model.Edition, _ int) string { return edition.Key })
+	valuesByEdition, err := e.featureResultStore.ListEditionFeatureValues(subjectCategoriesFeatureID, keys)
+	if err != nil {
+		return fmt.Errorf("failed to load edition subject categories: %w", err)
+	}
+	for _, edition := range editions {
+		edition.SubjectCategories = parseSubjectCategories(valuesByEdition[edition.Key])
+	}
+	return nil
+}
+
+func parseSubjectCategories(values []string) []model.EditionSubjectCategory {
+	categories := make([]model.EditionSubjectCategory, 0, len(values))
+	for _, value := range values {
+		category, classification, found := strings.Cut(value, "::")
+		if !found {
+			continue
+		}
+		categories = append(categories, model.EditionSubjectCategory{
+			Category:       category,
+			Classification: classification,
+		})
+	}
+	return categories
 }
 
 func (e *Edition) ListAllEditions() ([]*model.Edition, error) {
@@ -95,6 +131,9 @@ func (e *Edition) GetEditionByID(key string) (*model.Edition, error) {
 	}
 	if ed == nil {
 		return nil, fmt.Errorf("%w: edition with key %s does not exist", ErrEditionNotFound, key)
+	}
+	if err := e.addSubjectCategories([]*model.Edition{ed}); err != nil {
+		return nil, err
 	}
 	return ed, nil
 }
