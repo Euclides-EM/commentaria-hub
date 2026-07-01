@@ -1,7 +1,6 @@
 package service
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"math/rand/v2"
@@ -22,16 +21,18 @@ import (
 )
 
 type AnnotationRuleApplier struct {
-	modelSvc       *Model
-	fileSysMgt     *filesys.Manager
-	roboflowAPIKey string
+	modelSvc        *Model
+	remoteDetectSvc *AnnotationDetectionRemote
+	fileSysMgt      *filesys.Manager
+	roboflowAPIKey  string
 }
 
-func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, roboflowAPIKey string) *AnnotationRuleApplier {
+func NewAnnotationRuleApplier(modelSvc *Model, fileSysMgt *filesys.Manager, roboflowAPIKey string, remoteDetect *AnnotationDetectionRemote) *AnnotationRuleApplier {
 	return &AnnotationRuleApplier{
-		modelSvc:       modelSvc,
-		fileSysMgt:     fileSysMgt,
-		roboflowAPIKey: roboflowAPIKey,
+		modelSvc:        modelSvc,
+		remoteDetectSvc: remoteDetect,
+		fileSysMgt:      fileSysMgt,
+		roboflowAPIKey:  roboflowAPIKey,
 	}
 }
 
@@ -65,8 +66,6 @@ func (a *AnnotationRuleApplier) ApplyRule(imgPath string, ann *annotation.Annota
 		return a.applyModelDetect(imgPath, ann, t)
 	case *annotationrule.TextBlockCorrections:
 		return a.applyTextBlockCorrection(ann, t)
-	case *annotationrule.DetectText:
-		return a.applyDetectText(imgPath, ann, t)
 	}
 
 	// rules that require per-page ALTO processing
@@ -279,6 +278,9 @@ func (a *AnnotationRuleApplier) applyReassignTextLinesByTolerance(af *alto.Alto,
 }
 
 func (a *AnnotationRuleApplier) applyLinesDetectRule(imgPath string, ann *annotation.Annotation, t *annotationrule.LinesDetect) (*annotation.Annotation, error) {
+	if t.UseGPUFarm {
+		return a.applyLinesDetectRuleRemote(imgPath, ann, t)
+	}
 	if err := krakenwrapper.DetectLines(imgPath, a.fileSysMgt.DatasetAnnotationAltoDir(ann), t.IncludeCategories, t.IgnoreCategories); err != nil {
 		return nil, fmt.Errorf("failed to apply lines detect to annotation %s: %w", ann.ID, err)
 	}
@@ -295,14 +297,19 @@ func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation
 	if m.Type != t.ModelType {
 		return nil, fmt.Errorf("model type mismatch for model %s: the model is of type %s but rule requires type %s", t.Model, m.Type, t.ModelType)
 	}
-	if m.Type == common.OCRModelTypeOCR && !ann.Segmented {
-		return nil, fmt.Errorf("cannot apply OCR model detect rule to annotation %s that is not segmented", ann.ID)
+	if m.Type == common.OCRModelTypeOCR && !ann.LinesDetected {
+		return nil, fmt.Errorf("cannot apply OCR model detect rule to annotation %s before text lines are detected", ann.ID)
 	}
 
 	pages, err := pagesparser.IntRange(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
 	}
+
+	if t.UseGPUFarm {
+		return a.applyModelDetectRemote(imgPath, ann, m, pages)
+	}
+
 	var filenames []string
 	for _, p := range pages {
 		filenames = append(filenames, pagesparser.PageToPNGFilename(p))
@@ -365,8 +372,4 @@ func (a *AnnotationRuleApplier) applyModelDetect(imgPath string, ann *annotation
 		ann.Segmented = true
 	}
 	return ann, nil
-}
-
-func (a *AnnotationRuleApplier) applyDetectText(imgPath string, ann *annotation.Annotation, t *annotationrule.DetectText) (*annotation.Annotation, error) {
-	return nil, errors.New("detect text rule applier not implemented")
 }

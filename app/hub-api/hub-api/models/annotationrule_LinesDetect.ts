@@ -17,5 +17,5 @@ export type annotationrule_LinesDetect = {
      */
     include_categories?: Array<string>;
     type?: annotationrule_Type;
+    use_gpu_farm?: boolean;
 };
-

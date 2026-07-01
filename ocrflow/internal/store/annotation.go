@@ -557,7 +557,7 @@ func calculatePipelineStage(a *annotation.Annotation) annotationrule.PipelineSta
 		if rule == nil {
 			continue
 		}
-		minEnsured := annotationrule.MinEnsuredStage(rule.GetType())
+		minEnsured := rule.EnsuredPipelineStage()
 		if minEnsured.After(s) {
 			s = minEnsured
 		}

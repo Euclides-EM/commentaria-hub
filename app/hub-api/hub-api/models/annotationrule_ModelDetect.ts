@@ -10,5 +10,5 @@ export type annotationrule_ModelDetect = {
     model?: string;
     model_type?: common_OCRModelType;
     type?: annotationrule_Type;
+    use_gpu_farm?: boolean;
 };
-

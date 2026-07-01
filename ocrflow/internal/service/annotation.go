@@ -173,7 +173,7 @@ func (a *Annotation) CreateFromZip(aum *annotation.UploadMetadata, save func(dst
 		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewModelDetect(aum.SegmentModelID))
 	}
 	if aum.Ocred && aum.OCRModelID != "" {
-		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewDetectText(aum.OCRModelID))
+		ann.AppliedRules = append(ann.AppliedRules, annotationrule.NewOCRModelDetect(aum.OCRModelID))
 	}
 	dstPath := a.fileSysMgt.DatasetAnnotationAltoDir(ann)
 	if aum.Format == annotation.FormatYolo {
