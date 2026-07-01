@@ -62,6 +62,14 @@ const TableContainer = styled.div`
   overflow-x: auto;
 `;
 
+const CatalogueTableArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: fit-content;
+  max-width: 100%;
+`;
+
 const StyledTable = styled.table`
   table-layout: fixed;
   width: max-content;
@@ -228,6 +236,28 @@ const ViewModeToggle = styled.div`
   gap: 0.5rem;
   align-items: center;
 `;
+
+const CatalogueActions = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+`;
+
+const SecondaryActionButton = styled(ExportButton)`
+  background-color: white;
+  color: ${SEA_COLOR};
+  border: 1px solid ${SEA_COLOR};
+
+  &:hover {
+    background-color: #f3f7fa;
+    opacity: 1;
+  }
+`;
+
+const DetectReprintsButton = styled(SecondaryActionButton)``;
 
 const ExpandIcon = styled.div`
   display: flex;
@@ -793,120 +823,129 @@ export function Catalogue() {
 
       <Stats />
 
-      <Row gap={4}>
-        <ViewModeToggle>
-          <span>View Mode:</span>
-          <Switch>
-            <SwitchOption
-              selected={viewMode === "flat"}
-              onClick={() => setViewMode("flat")}
+      <CatalogueTableArea>
+        <Row gap={4}>
+          <ViewModeToggle>
+            <span>View Mode:</span>
+            <Switch>
+              <SwitchOption
+                selected={viewMode === "flat"}
+                onClick={() => setViewMode("flat")}
+              >
+                Flat
+              </SwitchOption>
+              <SwitchOption
+                selected={viewMode === "reprint"}
+                onClick={() => setViewMode("reprint")}
+              >
+                Group by publication
+              </SwitchOption>
+            </Switch>
+          </ViewModeToggle>
+
+          <CatalogueActions>
+            <SecondaryActionButton
+              onClick={handleExportCitations}
+              disabled={isExporting}
             >
-              Flat
-            </SwitchOption>
-            <SwitchOption
-              selected={viewMode === "reprint"}
-              onClick={() => setViewMode("reprint")}
-            >
-              Group by publication
-            </SwitchOption>
-          </Switch>
-        </ViewModeToggle>
+              {isExporting
+                ? "Exporting citations..."
+                : "Export Citations (Chicago Style)"}
+            </SecondaryActionButton>
+            {token && (
+              <DetectReprintsButton
+                onClick={handleDetectReprints}
+                disabled={isDetectingReprints}
+              >
+                {isDetectingReprints
+                  ? "Detecting reprints..."
+                  : "Detect reprints"}
+              </DetectReprintsButton>
+            )}
+          </CatalogueActions>
+        </Row>
 
-        <ExportButton onClick={handleExportCitations} disabled={isExporting}>
-          {isExporting
-            ? "Exporting citations..."
-            : "Export Citations (Chicago Style)"}
-        </ExportButton>
-        {token && (
-          <ExportButton
-            onClick={handleDetectReprints}
-            disabled={isDetectingReprints}
-          >
-            {isDetectingReprints ? "Detecting reprints..." : "Detect reprints"}
-          </ExportButton>
-        )}
-      </Row>
+        {reprintMessage && <p role="status">{reprintMessage}</p>}
 
-      {reprintMessage && <p role="status">{reprintMessage}</p>}
-
-      <TableContainer>
-        <StyledTable>
-          <thead>
-            {table.getHeaderGroups().map((headerGroup) => (
-              <tr key={headerGroup.id}>
-                {headerGroup.headers.map((header) => (
-                  <th
-                    key={header.id}
-                    colSpan={header.colSpan}
-                    style={{
-                      width: header.getSize(),
-                    }}
-                  >
-                    {header.isPlaceholder ? null : (
-                      <div
-                        onClick={header.column.getToggleSortingHandler()}
-                        style={
-                          header.column.getCanSort()
-                            ? {
-                                display: "inline-flex",
-                                cursor: "pointer",
-                                userSelect: "none",
-                              }
-                            : {}
-                        }
-                      >
-                        {flexRender(
-                          header.column.columnDef.header,
-                          header.getContext(),
-                        )}
-                        {header.column.getCanSort() && (
-                          <SortIndicator>
-                            {{
-                              asc: "↑",
-                              desc: "↓",
-                            }[header.column.getIsSorted() as string] || ""}
-                          </SortIndicator>
-                        )}
-                      </div>
-                    )}
-                    <div
-                      {...{
-                        onMouseDown: header.getResizeHandler(),
-                        onTouchStart: header.getResizeHandler(),
-                        className: `resizer ${header.column.getIsResizing() ? "isResizing" : ""}`,
-                      }}
-                    />
-                  </th>
-                ))}
-              </tr>
-            ))}
-          </thead>
-          <tbody>
-            {table.getRowModel().rows.map((row) => {
-              const isChildRow = row.depth > 0;
-              const RowComponent = isChildRow ? ChildRow : "tr";
-
-              return (
-                <RowComponent key={row.id}>
-                  {row.getVisibleCells().map((cell) => (
-                    <td
-                      key={cell.id}
+        <TableContainer>
+          <StyledTable>
+            <thead>
+              {table.getHeaderGroups().map((headerGroup) => (
+                <tr key={headerGroup.id}>
+                  {headerGroup.headers.map((header) => (
+                    <th
+                      key={header.id}
+                      colSpan={header.colSpan}
                       style={{
-                        width: cell.column.getSize(),
+                        width: header.getSize(),
                       }}
                     >
-                      {flexRender(
-                        cell.column.columnDef.cell,
-                        cell.getContext(),
+                      {header.isPlaceholder ? null : (
+                        <div
+                          onClick={header.column.getToggleSortingHandler()}
+                          style={
+                            header.column.getCanSort()
+                              ? {
+                                  display: "inline-flex",
+                                  cursor: "pointer",
+                                  userSelect: "none",
+                                }
+                              : {}
+                          }
+                        >
+                          {flexRender(
+                            header.column.columnDef.header,
+                            header.getContext(),
+                          )}
+                          {header.column.getCanSort() && (
+                            <SortIndicator>
+                              {{
+                                asc: "↑",
+                                desc: "↓",
+                              }[header.column.getIsSorted() as string] || ""}
+                            </SortIndicator>
+                          )}
+                        </div>
                       )}
-                    </td>
+                      <div
+                        {...{
+                          onMouseDown: header.getResizeHandler(),
+                          onTouchStart: header.getResizeHandler(),
+                          className: `resizer ${header.column.getIsResizing() ? "isResizing" : ""}`,
+                        }}
+                      />
+                    </th>
                   ))}
-                </RowComponent>
-              );
-            })}
-          </tbody>
-        </StyledTable>
-      </TableContainer>
+                </tr>
+              ))}
+            </thead>
+            <tbody>
+              {table.getRowModel().rows.map((row) => {
+                const isChildRow = row.depth > 0;
+                const RowComponent = isChildRow ? ChildRow : "tr";
+
+                return (
+                  <RowComponent key={row.id}>
+                    {row.getVisibleCells().map((cell) => (
+                      <td
+                        key={cell.id}
+                        style={{
+                          width: cell.column.getSize(),
+                        }}
+                      >
+                        {flexRender(
+                          cell.column.columnDef.cell,
+                          cell.getContext(),
+                        )}
+                      </td>
+                    ))}
+                  </RowComponent>
+                );
+              })}
+            </tbody>
+          </StyledTable>
+        </TableContainer>
+      </CatalogueTableArea>
 
       {selectedItem && (
         <ItemModal
