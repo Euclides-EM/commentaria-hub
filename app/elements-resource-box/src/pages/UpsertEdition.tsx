@@ -278,8 +278,8 @@ function toEditionFormData(
 const SUBJECT_CATEGORY_CLASSIFICATIONS = [
   "primary",
   "secondary",
-  "unknown",
   "unrelated",
+  "unknown",
 ] as const;
 
 const normalizeSubjectCategory = (value: string) =>
@@ -669,13 +669,9 @@ const SubjectCategoriesCard = styled.div`
 
 const SubjectCategoryGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.75rem;
   width: 100%;
-
-  @media (max-width: 800px) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 `;
 
 const getSuggestedKey = (): string => {
