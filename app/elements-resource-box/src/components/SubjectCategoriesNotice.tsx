@@ -1,14 +1,19 @@
 import styled from "@emotion/styled";
+import { IoWarning } from "react-icons/io5";
 import { buildCommentariaHubFeatureResultsUrl } from "../utils/commentariaHub";
 import { SEA_COLOR } from "../utils/colors";
 
 const Notice = styled.div`
-  padding: 0.65rem 0.75rem;
-  border-left: 3px solid #d59b24;
-  background: #fff8e6;
-  color: #5b4618;
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  opacity: 0.8;
   font-size: 0.82rem;
   line-height: 1.35;
+
+  svg {
+    flex: 0 0 auto;
+  }
 
   a {
     color: ${SEA_COLOR};
@@ -29,16 +34,18 @@ export const SubjectCategoriesNotice = ({ className, editionKey }: Props) => {
 
   return (
     <Notice className={className}>
-      Some of the subject categories may have been calculated with the
-      assistance of an LLM and may contain errors.{" "}
-      {featureResultsUrl && (
-        <>
+      <IoWarning />
+      <span>
+        <strong>Experimental</strong> Subject categories were generated with
+        LLM assistance and are still being refined. They may contain errors, use
+        with care.{" "}
+        {featureResultsUrl && (
           <a href={featureResultsUrl} target="_blank" rel="noopener noreferrer">
-            Review the Feature Results
+            Review Feature Results
           </a>
-          .
-        </>
-      )}
+        )}
+        {featureResultsUrl && "."}
+      </span>
     </Notice>
   );
 };

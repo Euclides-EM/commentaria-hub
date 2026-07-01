@@ -348,13 +348,6 @@ export function FeatureResultsBrowser() {
     }
   }, [editionKey, editionOptions])
 
-  useEffect(() => {
-    const selectedValue = selectedEditionOption?.value || ''
-    if (selectedValue !== editionKey) {
-      void setEditionKey(selectedValue)
-    }
-  }, [editionKey, selectedEditionOption, setEditionKey])
-
   const sortedRows = useMemo(() => {
     const getSortValue = (row: FeatureResultRow, key: SortKey) => {
       switch (key) {
