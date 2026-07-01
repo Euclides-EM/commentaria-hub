@@ -99,6 +99,10 @@ export function FeatureResultsBrowser() {
     'featureId',
     parseAsString.withDefault('').withOptions({ history: 'replace' }),
   )
+  const [editionKey, setEditionKey] = useQueryState(
+    'editionKey',
+    parseAsString.withDefault('').withOptions({ history: 'replace' }),
+  )
   const [selectedEditionOption, setSelectedEditionOption] =
     useState<EditionFilterOption | null>(null)
   const [sortKey, setSortKey] = useState<SortKey>('editionDetails')
@@ -336,6 +340,21 @@ export function FeatureResultsBrowser() {
     )
   }, [editionDetailsByKey, rows])
 
+  useEffect(() => {
+    if (!editionKey || editionOptions.length === 0) return
+    const option = editionOptions.find((item) => item.value === editionKey)
+    if (option) {
+      setSelectedEditionOption(option)
+    }
+  }, [editionKey, editionOptions])
+
+  useEffect(() => {
+    const selectedValue = selectedEditionOption?.value || ''
+    if (selectedValue !== editionKey) {
+      void setEditionKey(selectedValue)
+    }
+  }, [editionKey, selectedEditionOption, setEditionKey])
+
   const sortedRows = useMemo(() => {
     const getSortValue = (row: FeatureResultRow, key: SortKey) => {
       switch (key) {
@@ -529,6 +548,7 @@ export function FeatureResultsBrowser() {
               setSelectedFeatureOption(null)
               void setFeatureId(null)
               setSelectedEditionOption(null)
+              void setEditionKey(null)
             }}
             className="h-9 px-3 text-sm border border-gray-300 rounded-md bg-white"
           >
@@ -544,6 +564,7 @@ export function FeatureResultsBrowser() {
                 setSelectedFeatureOption(null)
                 void setFeatureId(null)
                 setSelectedEditionOption(null)
+                void setEditionKey(null)
               }}
               options={datasetOptions}
               placeholder="Select dataset..."
@@ -561,6 +582,7 @@ export function FeatureResultsBrowser() {
                 setSelectedFeatureOption(null)
                 void setFeatureId(null)
                 setSelectedEditionOption(null)
+                void setEditionKey(null)
               }}
               options={annotationOptions}
               placeholder="Select annotation..."
@@ -601,7 +623,10 @@ export function FeatureResultsBrowser() {
           />
           <EditionFilterSelect
             value={selectedEditionOption}
-            onChange={setSelectedEditionOption}
+            onChange={(option) => {
+              setSelectedEditionOption(option)
+              void setEditionKey(option?.value || '')
+            }}
             options={editionOptions}
           />
           <div className="text-xs text-gray-500 shrink-0">

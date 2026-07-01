@@ -5,7 +5,13 @@ const getCommentariaAppUrl = () => {
   return typeof baseUrl === "string" && baseUrl.length > 0 ? baseUrl : null;
 };
 
-export const buildCommentariaHubFeatureResultsUrl = (featureId: string) => {
+export const buildCommentariaHubFeatureResultsUrl = ({
+  featureId,
+  editionKey,
+}: {
+  featureId: string;
+  editionKey?: string | null;
+}) => {
   let baseUrl = getCommentariaAppUrl();
   if (!baseUrl) {
     return null;
@@ -18,6 +24,9 @@ export const buildCommentariaHubFeatureResultsUrl = (featureId: string) => {
   url.searchParams.set("viewMode", "features");
   url.searchParams.set("featuresTab", "results");
   url.searchParams.set("featureId", featureId);
+  if (editionKey) {
+    url.searchParams.set("editionKey", editionKey);
+  }
   return url.toString();
 };
 
