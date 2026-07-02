@@ -23,7 +23,6 @@ ocrflow/full_backups
 ocrflow/store/data/*
 !ocrflow/store/data/tps/
 !ocrflow/store/data/transcriptions/
-!ocrflow/store/data/default_models/
 */internal/*/docs
 */internal/docs
 ocrflow/store/items_metadata/diagram-directories.json

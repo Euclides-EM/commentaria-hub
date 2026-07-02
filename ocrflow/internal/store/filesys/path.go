@@ -80,7 +80,7 @@ func (m *Manager) ModelPath(model *model.Model) string {
 }
 
 func (m *Manager) DefaultModelPath() string {
-	return path.Join(m.baseDir, "default_models")
+	return m.defaultModelsDir
 }
 
 func (m *Manager) DiagramCropsMetadataFile(editionKey string) string {

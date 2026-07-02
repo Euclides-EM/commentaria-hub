@@ -14,9 +14,10 @@ import (
 )
 
 type Manager struct {
-	baseDir     string
-	modelsDir   string
-	diagramsDir string
+	baseDir          string
+	modelsDir        string
+	diagramsDir      string
+	defaultModelsDir string
 }
 
 var protectedTopLevelStoreDirs = map[string]struct{}{
@@ -28,11 +29,12 @@ var allowedDatasetEntries = map[string]struct{}{
 	"imgs":        {},
 }
 
-func NewFileSystemManager(baseDir, modelsDir, diagramsDir string) *Manager {
+func NewFileSystemManager(baseDir, modelsDir, diagramsDir string, defaultModelsDir string) *Manager {
 	return &Manager{
-		baseDir:     baseDir,
-		modelsDir:   modelsDir,
-		diagramsDir: diagramsDir,
+		baseDir:          baseDir,
+		modelsDir:        modelsDir,
+		diagramsDir:      diagramsDir,
+		defaultModelsDir: defaultModelsDir,
 	}
 }
 

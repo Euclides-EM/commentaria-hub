@@ -16,7 +16,7 @@ func TestCleanupLocalStorePreservesEditionTranscriptions(t *testing.T) {
 	dataDir := filepath.Join(workDir, "runtime", "data")
 	repoDataDir := filepath.Join(workDir, "repo", "store", "data")
 	require.NoError(t, os.MkdirAll(dataDir, 0o755))
-	m := NewFileSystemManager(dataDir, "", "")
+	m := NewFileSystemManager(dataDir, "", "", "")
 
 	transcriptionPath := filepath.Join(repoDataDir, "transcriptions", "Paris_1615", "page-0001", "original.txt")
 	require.NoError(t, os.MkdirAll(filepath.Dir(transcriptionPath), 0o755))
@@ -36,7 +36,7 @@ func TestCleanupLocalStoreDeletesDatasetFilesByAbsolutePath(t *testing.T) {
 	require.NoError(t, os.MkdirAll(dataDir, 0o755))
 	t.Chdir(workDir)
 
-	m := NewFileSystemManager(dataDir, "", "")
+	m := NewFileSystemManager(dataDir, "", "", "")
 	datasetDir := filepath.Join(dataDir, "ds_keep")
 	strayDatasetFile := filepath.Join(datasetDir, "unexpected.txt")
 	cwdSameNamedFile := filepath.Join(workDir, "unexpected.txt")
@@ -59,7 +59,7 @@ func TestCleanupLocalStorePreservesAllowedDatasetSymlinks(t *testing.T) {
 	dataDir := filepath.Join(workDir, "runtime", "data")
 	repoDataDir := filepath.Join(workDir, "repo", "store", "data")
 	require.NoError(t, os.MkdirAll(dataDir, 0o755))
-	m := NewFileSystemManager(dataDir, "", "")
+	m := NewFileSystemManager(dataDir, "", "", "")
 
 	datasetDir := filepath.Join(dataDir, "tps")
 	imgsTarget := filepath.Join(repoDataDir, "tps", "imgs")

@@ -190,7 +190,7 @@ func (m *Model) InitDefaultModels() error {
 		if defaultModel.IsDir() {
 			continue
 		}
-		if common.OCRModelTypeFromExt(defaultModel.Name()) == common.OCRModelTypeUnknown {
+		if common.OCRModelTypeFromExt(path.Ext(defaultModel.Name())) == common.OCRModelTypeUnknown {
 			continue
 		}
 		if _, err := m.Get(m.calcModelID(defaultModel.Name(), "")); err == nil {

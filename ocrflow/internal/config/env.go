@@ -98,6 +98,10 @@ func (ec *EnvConfig) RestoreDir() string {
 	return filepath.Join(ec.BackupRootDir, "restore")
 }
 
+func (ec *EnvConfig) DefaultModelsDir() string {
+	return filepath.Join(ec.RootDir, "ocrflow", "store", "default_models")
+}
+
 func (ec *EnvConfig) TmpDir() string {
 	return ec.TempDir
 }

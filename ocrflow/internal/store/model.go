@@ -2,6 +2,7 @@ package store
 
 import (
 	"database/sql"
+	"errors"
 	"fmt"
 	"time"
 
@@ -105,6 +106,9 @@ func (s *ModelSQL) GetModelByID(id string) (*model.Model, error) {
 		&m.LocalPath,
 		&baseModelID,
 	); err != nil {
+		if errors.Is(err, sql.ErrNoRows) {
+			return nil, nil
+		}
 		return nil, err
 	}
 	m.AlgorithmFamily = model.OCRModelAlgorithmFamily(algoFamily)
