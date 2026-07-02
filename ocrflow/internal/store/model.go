@@ -84,12 +84,20 @@ func (s *ModelSQL) ListModels() ([]*model.Model, error) {
 }
 
 func (s *ModelSQL) GetModelByID(id string) (*model.Model, error) {
-	row := s.db.QueryRow(`
+	return s.getModel("id", id)
+}
+
+func (s *ModelSQL) GetModelByName(name string) (*model.Model, error) {
+	return s.getModel("name", name)
+}
+
+func (s *ModelSQL) getModel(field, value string) (*model.Model, error) {
+	row := s.db.QueryRow(fmt.Sprintf(`
 		SELECT id, name, description, created_at, updated_at, type, location, algorithm_family, local_path, base_model_id
 		FROM models
-		WHERE id = ?
+		WHERE %s = ?
 		LIMIT 1
-	`, id)
+	`, field), value)
 
 	m := &model.Model{}
 	var algoFamily string

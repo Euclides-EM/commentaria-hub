@@ -69,6 +69,17 @@ func (m *Model) Get(id string) (*model.Model, error) {
 	return retrieved, nil
 }
 
+func (m *Model) GetByName(name string) (*model.Model, error) {
+	retrieved, err := m.modelStore.GetModelByName(name)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get model from store: %w", err)
+	}
+	if retrieved == nil {
+		return nil, ModelNotFoundErr
+	}
+	return retrieved, nil
+}
+
 func (m *Model) Create(mo *model.Model, modelPath string) error {
 	var n *model.Model
 	if err := deepcopy.Copy(&n, &mo); err != nil {
@@ -86,15 +97,6 @@ func (m *Model) Create(mo *model.Model, modelPath string) error {
 	return nil
 }
 
-func (m *Model) calcModelID(filename, name string) string {
-	ext := filepath.Ext(filename)
-	if name == "" {
-		name = strings.TrimSuffix(filename, ext)
-	}
-	id := idgen.Name2ID(store.ModelIDPrefix, name)
-	return id
-}
-
 func (m *Model) Upload(file multipart.File, filename, name, description string, baseAnnotations []*annotation.Reference, baseModelID string) (*model.Model, error) {
 	if filename == "" {
 		return nil, fmt.Errorf("empty filename")
@@ -108,7 +110,7 @@ func (m *Model) Upload(file multipart.File, filename, name, description string, 
 	if name == "" {
 		name = strings.TrimSuffix(filename, ext)
 	}
-	id := m.calcModelID(filename, name)
+	id := idgen.Name2ID(store.ModelIDPrefix, name)
 	dstFilename := fmt.Sprintf("%s%s", id, ext)
 
 	mo := &model.Model{
@@ -193,10 +195,12 @@ func (m *Model) InitDefaultModels() error {
 		if common.OCRModelTypeFromExt(path.Ext(defaultModel.Name())) == common.OCRModelTypeUnknown {
 			continue
 		}
-		if _, err := m.Get(m.calcModelID(defaultModel.Name(), "")); err == nil {
-			continue
-		} else if !errors.Is(err, ModelNotFoundErr) {
+		_, err := m.GetByName(strings.TrimSuffix(defaultModel.Name(), path.Ext(defaultModel.Name())))
+		if err != nil && !errors.Is(err, ModelNotFoundErr) {
 			return fmt.Errorf("failed to get DB entry for default model: %w", err)
+		}
+		if err == nil {
+			continue
 		}
 		modelPath := path.Join(defaultModelPath, defaultModel.Name())
 		log.Printf("importing default model %s...", modelPath)
