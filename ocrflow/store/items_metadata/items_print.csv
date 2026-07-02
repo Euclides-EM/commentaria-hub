@@ -142,7 +142,7 @@ Strasbourg_1570a,ΕΥΚΛΕΙΔΟΥ ΠΡΟΤΑΣΕΙΣ,Specified in source,1570,
 Strasbourg_1571,,,1571,Strasbourg,LATIN,Conrad Dasypodius,,8,1,,,
 Strasbourg_1571a,,,1571,Strasbourg,LATIN,Conrad Dasypodius,,8,1,,,
 Pesaro_1572,Euclidis elementorum libri XV una cum scholiis antiquis,Specified in source,1572,Pesaro,LATIN,Federico Commandino,Camillo Franceschini,2,1,,,
-Paris_1573,,,1573,Paris,LATIN,"Jean Magnien, Étienne Gracile","Jerome de Marnef, William Cauellat",8,1,,,
+Paris_1573,Euclidis Elementorum Libri XV. Graecè & Latinè,Specified in source,1573,Paris,LATIN,"Jean Magnien, Étienne Gracile","Jerome de Marnef, William Cauellat",8,1,,,
 Urbino_1575,De gli elementi d’Euclide libri quindici con gli scolii antichi,Specified in source,1575,Urbino,ITALIAN,"Federico Commandino, Valerio Spacciuoli",Domenico Frisolino,2,1,,,
 Venice_1575,Opuscula mathematica,Specified in source,1575,Venice,LATIN,Francesco Maurolico,Francesco de Franceschi,4,1,,,
 Paris_1578,Elementa libris XV. ad Germanam geometriae intelligentiam è diversis lapsibus temporis iniuria contractis restituta,Specified in source,1578,Paris,LATIN,François de Foix-Candale,Jean di Tournes,2,1,,,
@@ -354,7 +354,7 @@ ustc-42,,,1660,Paris,FRENCH,Jean Leurechon,,,,,,
 Paris_1661,"Le cours de mathématique, contenant en cent figures une idée générale de toutes les parties de cette science",Provided by catalog,1661,Paris,FRENCH,Pierre Bourdín,Simon Bénard,,1,6164257,,
 Le_Mans_1663,,,1663,Le Mans,FRENCH,Roland Fréart,IACQVES YSAMBART,4,,,,
 Bologna_1663,Euclide rinnovato ovvero gli antichi elementi della geometria,Specified in source,1663,Bologna,ITALIAN,Giovanni Alfonso Borelli,,,1,,,True
-Turin_1671,,,1671,Turin,LATIN,Guarino Guarini,,,,,,True
+Turin_1671,Evclides adavctvs et methodicvs Mathematicaq. vniversalis,Specified in source,1671,Turin,LATIN,Guarino Guarini,,,1,,,True
 Amsterdam_1672,,,1672,Amsterdam,DUTCH,Georg Mohr,,,,,,True
 Valencia_1673,,,1673,Valencia,LATIN,José Zaragoza,,,,,,False
 Florence_1674,"Quinto Libro degli Elementi di Euclide, ovvero Scienza Universale delle Proporzioni spiegata colla dottrina del Galileo",Specified in source,1674,Florence,ITALIAN,Vincenzo Viviani,,,1,,,True
