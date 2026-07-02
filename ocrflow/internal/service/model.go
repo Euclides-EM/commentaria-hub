@@ -3,8 +3,10 @@ package service
 import (
 	"errors"
 	"fmt"
+	"log"
 	"mime/multipart"
 	"os"
+	"path"
 	"path/filepath"
 	"strings"
 
@@ -18,6 +20,8 @@ import (
 	"github.com/tiendc/go-deepcopy"
 )
 
+var ModelNotFoundErr = errors.New("model not found")
+
 type Model struct {
 	modelStore *store.ModelSQL
 	fileSysMgt *filesys.Manager
@@ -28,6 +32,22 @@ func NewModelService(modelStore *store.ModelSQL, fileSysMgt *filesys.Manager) *M
 		modelStore: modelStore,
 		fileSysMgt: fileSysMgt,
 	}
+}
+
+// UploadLocalFile imports a model already present on the local filesystem using
+// the same validation and persistence path as a multipart API upload.
+func (m *Model) UploadLocalFile(modelPath, name, description string) (*model.Model, error) {
+	file, err := os.Open(modelPath)
+	if err != nil {
+		return nil, fmt.Errorf("failed to open model file %s: %w", modelPath, err)
+	}
+	defer file.Close()
+
+	created, err := m.Upload(file, filepath.Base(modelPath), name, description, nil, "")
+	if err != nil {
+		return nil, fmt.Errorf("failed to import model file %s: %w", modelPath, err)
+	}
+	return created, nil
 }
 
 func (m *Model) List() ([]*model.Model, error) {
@@ -44,7 +64,7 @@ func (m *Model) Get(id string) (*model.Model, error) {
 		return nil, fmt.Errorf("failed to get model from store: %w", err)
 	}
 	if retrieved == nil {
-		return nil, errors.New("model not found")
+		return nil, ModelNotFoundErr
 	}
 	return retrieved, nil
 }
@@ -66,6 +86,15 @@ func (m *Model) Create(mo *model.Model, modelPath string) error {
 	return nil
 }
 
+func (m *Model) calcModelID(filename, name string) string {
+	ext := filepath.Ext(filename)
+	if name == "" {
+		name = strings.TrimSuffix(filename, ext)
+	}
+	id := idgen.Name2ID(store.ModelIDPrefix, name)
+	return id
+}
+
 func (m *Model) Upload(file multipart.File, filename, name, description string, baseAnnotations []*annotation.Reference, baseModelID string) (*model.Model, error) {
 	if filename == "" {
 		return nil, fmt.Errorf("empty filename")
@@ -79,7 +108,7 @@ func (m *Model) Upload(file multipart.File, filename, name, description string, 
 	if name == "" {
 		name = strings.TrimSuffix(filename, ext)
 	}
-	id := idgen.Name2ID(store.ModelIDPrefix, name)
+	id := m.calcModelID(filename, name)
 	dstFilename := fmt.Sprintf("%s%s", id, ext)
 
 	mo := &model.Model{
@@ -100,7 +129,7 @@ func (m *Model) Upload(file multipart.File, filename, name, description string, 
 	}
 
 	if err := m.modelStore.InsertModel(mo); err != nil {
-		defer os.ReadFile(m.fileSysMgt.ModelPath(mo))
+		defer os.Remove(m.fileSysMgt.ModelPath(mo))
 		return nil, fmt.Errorf("failed to upsert model to store: %w", err)
 	}
 
@@ -149,4 +178,32 @@ func (m *Model) Update(id string, mo *model.Model) (any, error) {
 	}
 
 	return updatedModel, nil
+}
+
+func (m *Model) InitDefaultModels() error {
+	defaultModelPath := m.fileSysMgt.DefaultModelPath()
+	defaultModels, err := os.ReadDir(defaultModelPath)
+	if err != nil {
+		return fmt.Errorf("failed to read default models: %w", err)
+	}
+	for _, defaultModel := range defaultModels {
+		if defaultModel.IsDir() {
+			continue
+		}
+		if common.OCRModelTypeFromExt(defaultModel.Name()) == common.OCRModelTypeUnknown {
+			continue
+		}
+		if _, err := m.Get(m.calcModelID(defaultModel.Name(), "")); err == nil {
+			continue
+		} else if !errors.Is(err, ModelNotFoundErr) {
+			return fmt.Errorf("failed to get DB entry for default model: %w", err)
+		}
+		modelPath := path.Join(defaultModelPath, defaultModel.Name())
+		log.Printf("importing default model %s...", modelPath)
+		if _, err := m.UploadLocalFile(modelPath, "", ""); err != nil {
+			return fmt.Errorf("import default model: %w", err)
+		}
+		log.Printf("imported default model %s", modelPath)
+	}
+	return nil
 }

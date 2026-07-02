@@ -96,6 +96,9 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
+	if err := modelSvc.InitDefaultModels(); err != nil {
+		return nil, fmt.Errorf("init models: %w", err)
+	}
 	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
 	annotationDetectionRemoteSvc := service.NewAnnotationDetectionRemote(fileSystemManager, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc)
 	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey, annotationDetectionRemoteSvc)
