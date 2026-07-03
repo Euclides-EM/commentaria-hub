@@ -1,0 +1,1019 @@
+{
+  "version": 1,
+  "kind": "index",
+  "pages": [
+    {
+      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110007225.jpg",
+      "volume": "vol_1",
+      "provider": "ollama",
+      "model": "qwen3.6:35b",
+      "extracted_at": "2026-07-03T16:01:28.169538Z",
+      "entries": [
+        {
+          "name": "Abano (Pierre d')",
+          "page_number": "38",
+          "is_bold": false
+        },
+        {
+          "name": "Abano (Pierre d')",
+          "page_number": "47",
+          "is_bold": false
+        },
+        {
+          "name": "Abano (Pierre d')",
+          "page_number": "51",
+          "is_bold": false
+        },
+        {
+          "name": "Abbas (schah)",
+          "page_number": "607",
+          "is_bold": false
+        },
+        {
+          "name": "Abraham ibn Esra",
+          "page_number": "41",
+          "is_bold": false
+        },
+        {
+          "name": "Abraham ibn Esra",
+          "page_number": "43",
+          "is_bold": false
+        },
+        {
+          "name": "Absalon",
+          "page_number": "12",
+          "is_bold": true
+        },
+        {
+          "name": "Abulphath d'Ispahan",
+          "page_number": "472",
+          "is_bold": false
+        },
+        {
+          "name": "Achan",
+          "page_number": "4",
+          "is_bold": true
+        },
+        {
+          "name": "Achan",
+          "page_number": "10",
+          "is_bold": false
+        },
+        {
+          "name": "Achillini",
+          "page_number": "70",
+          "is_bold": false
+        },
+        {
+          "name": "Adami (Tobias)",
+          "page_number": "63",
+          "is_bold": false
+        },
+        {
+          "name": "Adami (Tobias)",
+          "page_number": "123",
+          "is_bold": false
+        },
+        {
+          "name": "Adami (Tobias)",
+          "page_number": "148",
+          "is_bold": false
+        },
+        {
+          "name": "Adami (Tobias)",
+          "page_number": "179",
+          "is_bold": false
+        },
+        {
+          "name": "Aemilius (Antonius)",
+          "page_number": "358",
+          "is_bold": false
+        },
+        {
+          "name": "Aetius",
+          "page_number": "26",
+          "is_bold": true
+        },
+        {
+          "name": "Aetius",
+          "page_number": "29",
+          "is_bold": false
+        },
+        {
+          "name": "Agrippa (H.-C.)",
+          "page_number": "16",
+          "is_bold": true
+        },
+        {
+          "name": "Agrippa (H.-C.)",
+          "page_number": "37",
+          "is_bold": false
+        },
+        {
+          "name": "Agrippa (H.-C.)",
+          "page_number": "38",
+          "is_bold": false
+        },
+        {
+          "name": "Agrippa (H.-C.)",
+          "page_number": "47",
+          "is_bold": true
+        },
+        {
+          "name": "Agrippa (H.-C.)",
+          "page_number": "51",
+          "is_bold": false
+        },
+        {
+          "name": "Agrippa (H.-C.)",
+          "page_number": "225",
+          "is_bold": true
+        },
+        {
+          "name": "Agrippa (H.-C.)",
+          "page_number": "232",
+          "is_bold": false
+        },
+        {
+          "name": "Agrippa (H.-C.)",
+          "page_number": "241",
+          "is_bold": false
+        },
+        {
+          "name": "Aguillon (le P.)",
+          "page_number": "473",
+          "is_bold": false
+        },
+        {
+          "name": "Alais (le comte d')",
+          "page_number": "",
+          "reference": "Valois (Emmanuel de)",
+          "is_bold": false
+        },
+        {
+          "name": "Albert le Grand",
+          "page_number": "111",
+          "is_bold": false
+        },
+        {
+          "name": "Albert (Louis-Ch. d')",
+          "page_number": "",
+          "reference": "Luynes",
+          "is_bold": false
+        },
+        {
+          "name": "Alciat",
+          "page_number": "12",
+          "is_bold": true
+        },
+        {
+          "name": "Alciat",
+          "page_number": "186",
+          "is_bold": true
+        },
+        {
+          "name": "Alciat",
+          "page_number": "558",
+          "is_bold": true
+        },
+        {
+          "name": "Aleandro (Jerôme)",
+          "page_number": "248",
+          "is_bold": false
+        },
+        {
+          "name": "Alesso (Antoine d')",
+          "page_number": "105",
+          "is_bold": false
+        },
+        {
+          "name": "Alesso (Jean d')",
+          "page_number": "105",
+          "is_bold": false
+        },
+        {
+          "name": "Alexandre le Grand",
+          "page_number": "201",
+          "is_bold": true
+        },
+        {
+          "name": "Alexandre le Grand",
+          "page_number": "387",
+          "is_bold": true
+        },
+        {
+          "name": "Alexandre le Grand",
+          "page_number": "389",
+          "is_bold": true
+        },
+        {
+          "name": "Alexandre Aphrodisias",
+          "page_number": "20",
+          "is_bold": false
+        },
+        {
+          "name": "Alexandre Aphrodisias",
+          "page_number": "52",
+          "is_bold": false
+        },
+        {
+          "name": "Alexandre Aphrodisias",
+          "page_number": "348",
+          "is_bold": false
+        },
+        {
+          "name": "Alexius",
+          "page_number": "98",
+          "is_bold": true
+        },
+        {
+          "name": "Alexius de Anciaco",
+          "page_number": "303",
+          "is_bold": true
+        },
+        {
+          "name": "Alexius de Anciaco",
+          "page_number": "304",
+          "is_bold": true
+        },
+        {
+          "name": "Alhazen",
+          "page_number": "132",
+          "is_bold": false
+        },
+        {
+          "name": "Alhazen",
+          "page_number": "312",
+          "is_bold": false
+        },
+        {
+          "name": "Alhazen",
+          "page_number": "356",
+          "is_bold": false
+        },
+        {
+          "name": "Alhazen",
+          "page_number": "357",
+          "is_bold": false
+        },
+        {
+          "name": "Alhazen",
+          "page_number": "429",
+          "is_bold": false
+        },
+        {
+          "name": "Alhazen",
+          "page_number": "432",
+          "is_bold": false
+        },
+        {
+          "name": "Alhazen",
+          "page_number": "612",
+          "is_bold": false
+        },
+        {
+          "name": "Allatius (Léon)",
+          "page_number": "233",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "42",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "132",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "184",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "207",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "213",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "234",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "240",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "243",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "248",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "265",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "266",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "292",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "298",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "300",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "314",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "315",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "414",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "420",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "613",
+          "is_bold": true
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "616-617",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "619",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Jacques)",
+          "page_number": "620",
+          "is_bold": false
+        },
+        {
+          "name": "Alleaume (Pierre)",
+          "page_number": "619",
+          "is_bold": false
+        },
+        {
+          "name": "Almeras (Pierre d')",
+          "page_number": "570",
+          "is_bold": false
+        },
+        {
+          "name": "Amama (Sixten)",
+          "page_number": "61",
+          "is_bold": false
+        },
+        {
+          "name": "Amama (Sixten)",
+          "page_number": "62-63",
+          "is_bold": false
+        },
+        {
+          "name": "Amama (Sixten)",
+          "page_number": "470",
+          "is_bold": false
+        },
+        {
+          "name": "Amama (Sixten)",
+          "page_number": "475",
+          "is_bold": true
+        },
+        {
+          "name": "Amama (Sixten)",
+          "page_number": "506",
+          "is_bold": false
+        },
+        {
+          "name": "Amama (Sixten)",
+          "page_number": "524",
+          "is_bold": false
+        },
+        {
+          "name": "Amama (Sixten)",
+          "page_number": "549",
+          "is_bold": false
+        },
+        {
+          "name": "Amasaeus",
+          "page_number": "343",
+          "is_bold": false
+        },
+        {
+          "name": "Amboile (Sr d')",
+          "page_number": "xxxvii",
+          "is_bold": false
+        },
+        {
+          "name": "Amboise (Pierre)",
+          "page_number": "599",
+          "is_bold": false
+        },
+        {
+          "name": "Amboise (Pierre)",
+          "page_number": "615",
+          "is_bold": false
+        },
+        {
+          "name": "Amboise (Jacques-Marie d')",
+          "page_number": "xxii",
+          "is_bold": false
+        },
+        {
+          "name": "Ambroise (St)",
+          "page_number": "4",
+          "is_bold": true
+        },
+        {
+          "name": "Ambroise (St)",
+          "page_number": "48",
+          "is_bold": true
+        },
+        {
+          "name": "Ambroise (St)",
+          "page_number": "628",
+          "is_bold": true
+        },
+        {
+          "name": "Amesius",
+          "page_number": "475",
+          "is_bold": false
+        },
+        {
+          "name": "Ammon",
+          "page_number": "12",
+          "is_bold": false
+        },
+        {
+          "name": "Amyot (Jacques)",
+          "page_number": "557",
+          "is_bold": true
+        },
+        {
+          "name": "Amyot (Jacques)",
+          "page_number": "564",
+          "is_bold": true
+        },
+        {
+          "name": "Amyot (Jacques)",
+          "page_number": "565",
+          "is_bold": true
+        },
+        {
+          "name": "Anaxagore",
+          "page_number": "527",
+          "is_bold": true
+        },
+        {
+          "name": "Anaxagore",
+          "page_number": "574",
+          "is_bold": true
+        },
+        {
+          "name": "Anaximène",
+          "page_number": "574",
+          "is_bold": false
+        },
+        {
+          "name": "Anderson (Alexandre)",
+          "page_number": "184",
+          "is_bold": false
+        },
+        {
+          "name": "Anderson (Alexandre)",
+          "page_number": "619",
+          "is_bold": false
+        },
+        {
+          "name": "Andreae (Jean-Valentin)",
+          "page_number": "37",
+          "is_bold": false
+        },
+        {
+          "name": "Andreae (Jean-Valentin)",
+          "page_number": "63",
+          "is_bold": false
+        },
+        {
+          "name": "Anfonille (St d')",
+          "page_number": "",
+          "reference": "Armoises",
+          "is_bold": false
+        },
+        {
+          "name": "Anne d'Autriche",
+          "page_number": "xxvii",
+          "is_bold": false
+        },
+        {
+          "name": "Anne d'Autriche",
+          "page_number": "82",
+          "is_bold": false
+        },
+        {
+          "name": "Anselme (St)",
+          "page_number": "51",
+          "is_bold": false
+        },
+        {
+          "name": "Antonini (Daniel)",
+          "page_number": "298",
+          "is_bold": false
+        },
+        {
+          "name": "Apelles",
+          "page_number": "384",
+          "is_bold": true
+        },
+        {
+          "name": "Aphroda",
+          "page_number": "30",
+          "is_bold": false
+        },
+        {
+          "name": "Apicius",
+          "page_number": "35",
+          "is_bold": false
+        },
+        {
+          "name": "Apollodore",
+          "page_number": "187",
+          "is_bold": false
+        },
+        {
+          "name": "Apollon",
+          "page_number": "383",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "184",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "236",
+          "is_bold": true
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "260",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "457",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "458",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "461",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "462",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "468",
+          "is_bold": true
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "469",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "472",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "473",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "474",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "483",
+          "is_bold": true
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "497",
+          "is_bold": true
+        },
+        {
+          "name": "Apollonius de Perge",
+          "page_number": "499",
+          "is_bold": true
+        },
+        {
+          "name": "Apollonius de Thyane",
+          "page_number": "48",
+          "is_bold": true
+        },
+        {
+          "name": "Apollonius de Thyane",
+          "page_number": "52",
+          "is_bold": false
+        },
+        {
+          "name": "Apollonius de Thyane",
+          "page_number": "55",
+          "is_bold": false
+        },
+        {
+          "name": "Apulée",
+          "page_number": "35",
+          "is_bold": false
+        },
+        {
+          "name": "Apulée",
+          "page_number": "509",
+          "is_bold": false
+        },
+        {
+          "name": "Aquin (Philippe d')",
+          "page_number": "304",
+          "is_bold": false
+        },
+        {
+          "name": "Aquin (Philippe d')",
+          "page_number": "305",
+          "is_bold": false
+        },
+        {
+          "name": "Aquin (Philippe d')",
+          "page_number": "306",
+          "is_bold": false
+        },
+        {
+          "name": "Aquin (Philippe d')",
+          "page_number": "307",
+          "is_bold": false
+        },
+        {
+          "name": "Arcesilaus",
+          "page_number": "521",
+          "is_bold": true
+        },
+        {
+          "name": "Archelaus",
+          "page_number": "574",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "184",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "206",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "266",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "434",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "457",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "458",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "461",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "473",
+          "is_bold": false
+        },
+        {
+          "name": "Archimède",
+          "page_number": "487",
+          "is_bold": true
+        },
+        {
+          "name": "Archimède",
+          "page_number": "614",
+          "is_bold": false
+        },
+        {
+          "name": "Architas",
+          "page_number": "180",
+          "is_bold": false
+        },
+        {
+          "name": "Ardanne (Sr d')",
+          "page_number": "",
+          "reference": "Coutel (Ant.)",
+          "is_bold": false
+        },
+        {
+          "name": "Aretin (Pierre)",
+          "page_number": "54",
+          "is_bold": false
+        },
+        {
+          "name": "Aristenète",
+          "page_number": "509",
+          "is_bold": false
+        },
+        {
+          "name": "Aristide Quintilien",
+          "page_number": "71",
+          "is_bold": false
+        },
+        {
+          "name": "Aristide Quintilien",
+          "page_number": "78",
+          "is_bold": false
+        },
+        {
+          "name": "Aristide Quintilien",
+          "page_number": "348",
+          "is_bold": false
+        },
+        {
+          "name": "Aristobule",
+          "page_number": "121",
+          "is_bold": false
+        },
+        {
+          "name": "Aristophane",
+          "page_number": "94",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "3",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "9",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "20",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "23",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "29",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "31",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "32",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "44",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "68",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "69",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "74",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "78",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "94",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "133",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "134",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "135",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "146",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "175",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "191",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "219",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "226",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "239",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "299",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "334",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "342",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "348",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "388",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "389",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "434",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "458",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "493",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "527",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "553",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "554",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "574",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "592",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "595",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "596",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "597",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "598",
+          "is_bold": true
+        },
+        {
+          "name": "Aristote",
+          "page_number": "623",
+          "is_bold": true
+        }
+      ]
+    }
+  ]
+}
