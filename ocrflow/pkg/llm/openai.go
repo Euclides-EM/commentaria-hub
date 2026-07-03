@@ -106,15 +106,23 @@ func buildInputPayload(prompt string, attachmentPath string) (any, error) {
 		mimeType = http.DetectContentType(fileData)
 	}
 	encoded := base64.StdEncoding.EncodeToString(fileData)
+	dataURL := fmt.Sprintf("data:%s;base64,%s", mimeType, encoded)
+	attachment := map[string]any{
+		"type":      "input_file",
+		"filename":  filepath.Base(attachmentPath),
+		"file_data": dataURL,
+	}
+	if strings.HasPrefix(mimeType, "image/") {
+		attachment = map[string]any{
+			"type":      "input_image",
+			"image_url": dataURL,
+		}
+	}
 	return []map[string]any{
 		{
 			"role": "user",
 			"content": []map[string]any{
-				{
-					"type":      "input_file",
-					"filename":  filepath.Base(attachmentPath),
-					"file_data": fmt.Sprintf("data:%s;base64,%s", mimeType, encoded),
-				},
+				attachment,
 				{
 					"type": "input_text",
 					"text": prompt,
