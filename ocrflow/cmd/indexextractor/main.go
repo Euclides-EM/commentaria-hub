@@ -19,8 +19,8 @@ import (
 )
 
 const (
-	rawIndexDir        = "cmd/indexextractor/data/raw_test/index"
-	rawLettersTableDir = "cmd/indexextractor/data/raw_test/letters_table"
+	rawIndexDir        = "cmd/indexextractor/data/raw/index"
+	rawLettersTableDir = "cmd/indexextractor/data/raw/letters_table"
 	defaultIndexCSV    = "cmd/indexextractor/data/index.csv"
 	defaultLettersCSV  = "cmd/indexextractor/data/letters_table.csv"
 	defaultAIProvider  = llm.ProviderOllama
