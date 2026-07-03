@@ -17,7 +17,7 @@ import (
 const manifestVersion = 1
 
 var (
-	indexHeader   = []string{"name", "page_number", "is_bold", "volume"}
+	indexHeader   = []string{"name", "page_number", "reference", "is_bold", "volume"}
 	lettersHeader = []string{"letter_number", "letter_name", "page_number", "volume"}
 )
 
@@ -328,7 +328,7 @@ func renderIndexCSV(path string, manifest indexManifest) error {
 	return writeCSVAtomically(path, indexHeader, func(writer *csv.Writer) error {
 		for _, page := range sortIndexPages(manifest.Pages) {
 			for _, entry := range page.Entries {
-				if err := writer.Write([]string{entry.Name, entry.PageNumber, strconv.FormatBool(entry.IsBold), page.Volume}); err != nil {
+				if err := writer.Write([]string{entry.Name, entry.PageNumber, entry.Reference, strconv.FormatBool(entry.IsBold), page.Volume}); err != nil {
 					return err
 				}
 			}
@@ -477,12 +477,30 @@ func validateCSVFile(path string, expectedHeader []string) (int, error) {
 			return 0, fmt.Errorf("%s row %d has %d columns; want %d", path, i+2, len(row), len(expectedHeader))
 		}
 		for column, value := range row {
-			if strings.TrimSpace(value) == "" {
+			if strings.TrimSpace(value) == "" && !isOptionalCSVColumn(expectedHeader, expectedHeader[column]) {
 				return 0, fmt.Errorf("%s row %d column %s is empty", path, i+2, expectedHeader[column])
+			}
+		}
+		if isIndexCSVHeader(expectedHeader) {
+			hasPageNumber := strings.TrimSpace(row[1]) != ""
+			hasReference := strings.TrimSpace(row[2]) != ""
+			if hasPageNumber == hasReference {
+				return 0, fmt.Errorf("%s row %d requires exactly one of page_number or reference", path, i+2)
+			}
+			if hasReference && row[3] != "false" {
+				return 0, fmt.Errorf("%s row %d cross-reference must not be bold", path, i+2)
 			}
 		}
 	}
 	return len(records) - 1, nil
+}
+
+func isOptionalCSVColumn(header []string, column string) bool {
+	return isIndexCSVHeader(header) && (column == "page_number" || column == "reference")
+}
+
+func isIndexCSVHeader(header []string) bool {
+	return strings.Join(header, "\x00") == strings.Join(indexHeader, "\x00")
 }
 
 func validateIndexManifest(manifest indexManifest, csvRows int) error {
@@ -493,7 +511,9 @@ func validateIndexManifest(manifest indexManifest, csvRows int) error {
 			return fmt.Errorf("validate index manifest: %w", err)
 		}
 		for i, entry := range page.Entries {
-			if strings.TrimSpace(entry.Name) == "" || strings.TrimSpace(entry.PageNumber) == "" {
+			hasPageNumber := strings.TrimSpace(entry.PageNumber) != ""
+			hasReference := strings.TrimSpace(entry.Reference) != ""
+			if strings.TrimSpace(entry.Name) == "" || hasPageNumber == hasReference || (hasReference && entry.IsBold) {
 				return fmt.Errorf("validate index manifest: %s entry %d is incomplete", page.ImagePath, i+1)
 			}
 		}
@@ -529,7 +549,7 @@ func validateIndexCSVMatchesManifest(path string, manifest indexManifest) error 
 	expected := [][]string{indexHeader}
 	for _, page := range sortIndexPages(manifest.Pages) {
 		for _, entry := range page.Entries {
-			expected = append(expected, []string{entry.Name, entry.PageNumber, strconv.FormatBool(entry.IsBold), page.Volume})
+			expected = append(expected, []string{entry.Name, entry.PageNumber, entry.Reference, strconv.FormatBool(entry.IsBold), page.Volume})
 		}
 	}
 	return compareCSVRecords(path, expected)

@@ -29,14 +29,16 @@ const (
 
 const indexPrompt = `Extract every entry from this index page.
 Return JSON only, in this exact shape:
-{"entries":[{"name":"entry exactly as printed","page_number":"one page reference exactly as printed","is_bold":false}]}
+{"entries":[{"name":"entry exactly as printed","page_number":"one page reference exactly as printed, or empty for a cross-reference","reference":"cross-reference target without the v. marker, or empty for a page reference","is_bold":false}]}
 
 Rules:
-- Preserve the spelling, punctuation, capitalization, and page reference from the image.
+- Preserve the spelling, punctuation, capitalization, page references, and cross-reference targets from the image.
 - Produce one object per individual page reference. Repeat the same entry name when it has multiple page references.
 - page_number must contain exactly one page reference, never a comma-separated list of references.
+- For a cross-reference such as "La Boderie (Sr de), v. Lefèvre (Guy).", set name to "La Boderie (Sr de)", page_number to "", and reference to "Lefèvre (Guy)". Do not include "v." or the sentence-ending period in reference.
+- Every object must have exactly one of page_number or reference populated, never both.
 - Set is_bold to true only when that page reference is printed in bold type. Ignore whether the entry name is bold.
-- A cross-reference such as "v. Debeaune" is one page reference; do not split it into words.
+- Set is_bold to false for cross-reference entries.
 - Do not infer missing text and do not include headings, running headers, or page numbers of the index itself.
 - Use an empty entries array when there are no index entries.`
 
@@ -81,6 +83,7 @@ type imageInput struct {
 type indexEntry struct {
 	Name       string `json:"name"`
 	PageNumber string `json:"page_number"`
+	Reference  string `json:"reference,omitempty"`
 	IsBold     bool   `json:"is_bold"`
 	Volume     string `json:"-"`
 }
@@ -315,12 +318,16 @@ func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
 		entry := response.Entries[i]
 		entry.Name = strings.TrimSpace(entry.Name)
 		entry.PageNumber = strings.TrimSpace(entry.PageNumber)
+		entry.Reference = strings.TrimSpace(entry.Reference)
 		if isIndexSectionHeading(entry) {
 			continue
 		}
 		entry.Volume = volume
-		if entry.Name == "" || entry.PageNumber == "" {
-			return nil, fmt.Errorf("entry %d requires name and page_number", i+1)
+		if entry.Name == "" || (entry.PageNumber == "") == (entry.Reference == "") {
+			return nil, fmt.Errorf("entry %d requires name and exactly one of page_number or reference", i+1)
+		}
+		if entry.Reference != "" && entry.IsBold {
+			return nil, fmt.Errorf("entry %d cross-reference must not be bold", i+1)
 		}
 		entries = append(entries, entry)
 	}
@@ -328,7 +335,7 @@ func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
 }
 
 func isIndexSectionHeading(entry indexEntry) bool {
-	if entry.PageNumber != "" || utf8.RuneCountInString(entry.Name) != 1 {
+	if entry.PageNumber != "" || entry.Reference != "" || utf8.RuneCountInString(entry.Name) != 1 {
 		return false
 	}
 	r, _ := utf8.DecodeRuneInString(entry.Name)
