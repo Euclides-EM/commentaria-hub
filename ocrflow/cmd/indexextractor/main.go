@@ -24,16 +24,19 @@ const (
 	defaultIndexCSV    = "cmd/indexextractor/data/index.csv"
 	defaultLettersCSV  = "cmd/indexextractor/data/letters_table.csv"
 	defaultAIProvider  = llm.ProviderOllama
-	defaultAIModel     = "qwen3-vl:32b"
+	defaultAIModel     = "qwen3.6:35b"
 )
 
 const indexPrompt = `Extract every entry from this index page.
 Return JSON only, in this exact shape:
-{"entries":[{"name":"entry exactly as printed","page_number":"page reference exactly as printed"}]}
+{"entries":[{"name":"entry exactly as printed","page_number":"one page reference exactly as printed","is_bold":false}]}
 
 Rules:
 - Preserve the spelling, punctuation, capitalization, and page reference from the image.
-- Produce one object per entry. If an entry has multiple page references, keep them together exactly as printed.
+- Produce one object per individual page reference. Repeat the same entry name when it has multiple page references.
+- page_number must contain exactly one page reference, never a comma-separated list of references.
+- Set is_bold to true only when that page reference is printed in bold type. Ignore whether the entry name is bold.
+- A cross-reference such as "v. Debeaune" is one page reference; do not split it into words.
 - Do not infer missing text and do not include headings, running headers, or page numbers of the index itself.
 - Use an empty entries array when there are no index entries.`
 
@@ -78,6 +81,7 @@ type imageInput struct {
 type indexEntry struct {
 	Name       string `json:"name"`
 	PageNumber string `json:"page_number"`
+	IsBold     bool   `json:"is_bold"`
 	Volume     string `json:"-"`
 }
 

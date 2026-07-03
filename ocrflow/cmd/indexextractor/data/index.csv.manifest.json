@@ -5,381 +5,2338 @@
     {
       "image_path": "cmd/indexextractor/data/raw_test/index/vol_1/PXL_20260702_110029040.jpg",
       "volume": "vol_1",
-      "provider": "curated",
-      "model": "gpt-5-mini+qwen3-vl:32b",
-      "extracted_at": "2026-07-03T10:59:02.303392Z",
+      "provider": "ollama",
+      "model": "qwen3.6:35b",
+      "extracted_at": "2026-07-03T11:42:38.419814Z",
       "entries": [
         {
           "name": "Gondy (Jean-François de)",
-          "page_number": "124."
+          "page_number": "124",
+          "is_bold": true
         },
         {
           "name": "Gondy (Pierre de)",
-          "page_number": "130."
+          "page_number": "130",
+          "is_bold": true
         },
         {
           "name": "Gonneau (André)",
-          "page_number": "185, 190, 220."
+          "page_number": "185",
+          "is_bold": false
+        },
+        {
+          "name": "Gonneau (André)",
+          "page_number": "190",
+          "is_bold": false
+        },
+        {
+          "name": "Gonneau (André)",
+          "page_number": "220",
+          "is_bold": false
         },
         {
           "name": "Gonneau (Madame)",
-          "page_number": "185."
+          "page_number": "185",
+          "is_bold": false
         },
         {
           "name": "Gonzague (François de)",
-          "page_number": "144."
+          "page_number": "144",
+          "is_bold": true
         },
         {
           "name": "Gonzague (Louise-Marie)",
-          "page_number": "515."
+          "page_number": "515",
+          "is_bold": false
         },
         {
           "name": "Gorlée",
-          "page_number": "147, 148, 168, 299, 374, 491."
+          "page_number": "147",
+          "is_bold": false
+        },
+        {
+          "name": "Gorlée",
+          "page_number": "148",
+          "is_bold": false
+        },
+        {
+          "name": "Gorlée",
+          "page_number": "168",
+          "is_bold": false
+        },
+        {
+          "name": "Gorlée",
+          "page_number": "299",
+          "is_bold": false
+        },
+        {
+          "name": "Gorlée",
+          "page_number": "374",
+          "is_bold": false
+        },
+        {
+          "name": "Gorlée",
+          "page_number": "491",
+          "is_bold": false
         },
         {
           "name": "Goudimel (Claude)",
-          "page_number": "102."
+          "page_number": "102",
+          "is_bold": false
         },
         {
-          "name": "Gouliou (Sr de)",
-          "page_number": "v. Debeaune."
+          "name": "Goulou (Sr de)",
+          "page_number": "v. Debeaune.",
+          "is_bold": false
         },
         {
           "name": "Gouy",
-          "page_number": "447."
+          "page_number": "447",
+          "is_bold": false
         },
         {
-          "name": "Granon (Sr de)",
-          "page_number": "xxxvii."
+          "name": "Gramon (Sr de)",
+          "page_number": "xxxvii.",
+          "is_bold": false
         },
         {
           "name": "Grandamy (le P.)",
-          "page_number": "209."
+          "page_number": "209",
+          "is_bold": false
         },
         {
           "name": "Grandier (Urbain)",
-          "page_number": "XLI."
+          "page_number": "xli.",
+          "is_bold": false
         },
         {
           "name": "Gratarolo (Gulielmo)",
-          "page_number": "47."
+          "page_number": "47",
+          "is_bold": false
         },
         {
           "name": "Grazia (Vincenzo di)",
-          "page_number": "614."
+          "page_number": "614",
+          "is_bold": false
         },
         {
-          "name": "Grégoire (S') de Nysse",
-          "page_number": "630."
+          "name": "Grégoire (St) de Nysse",
+          "page_number": "630",
+          "is_bold": true
         },
         {
-          "name": "Grégoire (S') de Nazianze",
-          "page_number": "70, 533, 534."
+          "name": "Grégoire (St) de Nazianze",
+          "page_number": "70",
+          "is_bold": false
+        },
+        {
+          "name": "Grégoire (St) de Nazianze",
+          "page_number": "533",
+          "is_bold": true
+        },
+        {
+          "name": "Grégoire (St) de Nazianze",
+          "page_number": "534",
+          "is_bold": true
         },
         {
           "name": "Grégoire le Grand",
-          "page_number": "68."
+          "page_number": "68",
+          "is_bold": true
         },
         {
           "name": "Grégoire (Pierre)",
-          "page_number": "133."
+          "page_number": "133",
+          "is_bold": false
         },
         {
           "name": "Grienberger (le P.)",
-          "page_number": "183, 257."
+          "page_number": "183",
+          "is_bold": false
+        },
+        {
+          "name": "Grienberger (le P.)",
+          "page_number": "257",
+          "is_bold": false
         },
         {
           "name": "Groot (H. de)",
-          "page_number": "XL, 161, 320."
+          "page_number": "xl",
+          "is_bold": false
         },
         {
-          "name": "Groslot (de l'Isle)",
-          "page_number": "298."
+          "name": "Groot (H. de)",
+          "page_number": "161",
+          "is_bold": false
+        },
+        {
+          "name": "Groot (H. de)",
+          "page_number": "320",
+          "is_bold": false
+        },
+        {
+          "name": "Grosset (de l'Isle)",
+          "page_number": "298",
+          "is_bold": false
         },
         {
           "name": "Grotius (Hugo)",
-          "page_number": "v. Groot (de)."
+          "page_number": "v. Groot (de).",
+          "is_bold": false
         },
         {
           "name": "Gruter",
-          "page_number": "492, 615."
+          "page_number": "492",
+          "is_bold": false
+        },
+        {
+          "name": "Gruter",
+          "page_number": "615",
+          "is_bold": false
         },
         {
           "name": "Gualdo (Paolo)",
-          "page_number": "107, 240."
+          "page_number": "107",
+          "is_bold": false
         },
         {
-          "name": "Guédron (Pierre)",
-          "page_number": "82, 585."
+          "name": "Gualdo (Paolo)",
+          "page_number": "240",
+          "is_bold": false
+        },
+        {
+          "name": "Guédon (Pierre)",
+          "page_number": "82",
+          "is_bold": false
+        },
+        {
+          "name": "Guédon (Pierre)",
+          "page_number": "585",
+          "is_bold": false
         },
         {
           "name": "Guéméné (le prince de)",
-          "page_number": "xxxv."
+          "page_number": "xxxv.",
+          "is_bold": false
         },
         {
           "name": "Gueneau",
-          "page_number": "1, 49, 68, 101, 110, 174, 186, 220, 319, 395, 503, 554."
+          "page_number": "1",
+          "is_bold": false
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "49",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "68",
+          "is_bold": false
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "101",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "110",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "174",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "186",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "220",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "319",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "395",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "503",
+          "is_bold": true
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "554",
+          "is_bold": true
         },
         {
           "name": "Guenellus",
-          "page_number": "v. Gueneau."
+          "page_number": "v. Gueneau.",
+          "is_bold": false
         },
         {
-          "name": "Guérin",
-          "page_number": "494."
+          "name": "Guerín",
+          "page_number": "494",
+          "is_bold": false
         },
         {
           "name": "Guériteau (le P. Nicolas)",
-          "page_number": "xxiii."
+          "page_number": "xxiii.",
+          "is_bold": false
         },
         {
           "name": "Guevara (Giovanni di)",
-          "page_number": "248, 249."
+          "page_number": "248",
+          "is_bold": false
+        },
+        {
+          "name": "Guevara (Giovanni di)",
+          "page_number": "249",
+          "is_bold": false
         },
         {
           "name": "Guido d'Arezzo",
-          "page_number": "216."
+          "page_number": "216",
+          "is_bold": false
         },
         {
           "name": "Guido de Pérouse",
-          "page_number": "497."
+          "page_number": "497",
+          "is_bold": false
         },
         {
           "name": "Guidobaldi del Monte",
-          "page_number": "183, 193, 244, 333."
+          "page_number": "183",
+          "is_bold": false
+        },
+        {
+          "name": "Guidobaldi del Monte",
+          "page_number": "193",
+          "is_bold": false
+        },
+        {
+          "name": "Guidobaldi del Monte",
+          "page_number": "244",
+          "is_bold": false
+        },
+        {
+          "name": "Guidobaldi del Monte",
+          "page_number": "333",
+          "is_bold": false
         },
         {
           "name": "Guillaume de St-Faron (le Fr.)",
-          "page_number": "v. Saint-Faron."
+          "page_number": "v. Saint-Faron.",
+          "is_bold": false
         },
         {
-          "name": "Guillemeau (Ch.)",
-          "page_number": "xxxix."
+          "name": "Guilemeau (Ch.)",
+          "page_number": "xxxix.",
+          "is_bold": false
         },
         {
           "name": "Guiot (Jos.-André)",
-          "page_number": "612."
+          "page_number": "612",
+          "is_bold": false
         },
         {
           "name": "Guittaut (de)",
-          "page_number": "325."
+          "page_number": "325",
+          "is_bold": false
         },
         {
           "name": "Gunter (Edmund)",
-          "page_number": "314."
+          "page_number": "314",
+          "is_bold": false
         },
         {
           "name": "Habert (Germain), abbé de Cerisy",
-          "page_number": "xxxiv, 447, 546."
+          "page_number": "xxxiv",
+          "is_bold": false
+        },
+        {
+          "name": "Habert (Germain), abbé de Cerisy",
+          "page_number": "447",
+          "is_bold": false
+        },
+        {
+          "name": "Habert (Germain), abbé de Cerisy",
+          "page_number": "546",
+          "is_bold": false
         },
         {
           "name": "Habert (Isaac)",
-          "page_number": "xxxi."
+          "page_number": "xxxi.",
+          "is_bold": false
         },
         {
           "name": "Habert de Montmor (Henri-Louis)",
-          "page_number": "xxxvii, xliv, n. 1."
+          "page_number": "xxxvii",
+          "is_bold": false
+        },
+        {
+          "name": "Habert de Montmor (Henri-Louis)",
+          "page_number": "xliv",
+          "is_bold": false
+        },
+        {
+          "name": "Habert de Montmor (Henri-Louis)",
+          "page_number": "n. 1.",
+          "is_bold": false
         },
         {
           "name": "Hallé (Claude)",
-          "page_number": "140."
+          "page_number": "140",
+          "is_bold": true
         },
         {
           "name": "Hallé (Jacques)",
-          "page_number": "xxxviii, 112, 139, 141."
+          "page_number": "xxxviii",
+          "is_bold": false
+        },
+        {
+          "name": "Hallé (Jacques)",
+          "page_number": "112",
+          "is_bold": false
+        },
+        {
+          "name": "Hallé (Jacques)",
+          "page_number": "139",
+          "is_bold": true
+        },
+        {
+          "name": "Hallé (Jacques)",
+          "page_number": "141",
+          "is_bold": false
         },
         {
           "name": "Hannier (le Fr. Guillaume)",
-          "page_number": "v. Saint-Faron (de)."
+          "page_number": "v. Saint-Faron",
+          "is_bold": false
+        },
+        {
+          "name": "Hannier (le Fr. Guillaume)",
+          "page_number": "(de).",
+          "is_bold": false
         },
         {
           "name": "Hardy (Claude)",
-          "page_number": "xxxix, xliii, n. 4, 54, 187, 251, 269, 273, 604, 619."
+          "page_number": "xxxix",
+          "is_bold": false
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "xliii",
+          "is_bold": false
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "n. 4",
+          "is_bold": false
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "54",
+          "is_bold": false
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "187",
+          "is_bold": false
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "251",
+          "is_bold": false
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "269",
+          "is_bold": false
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "273",
+          "is_bold": false
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "604",
+          "is_bold": true
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "619",
+          "is_bold": false
         },
         {
           "name": "Hardy (Sébastien)",
-          "page_number": "187, 604."
+          "page_number": "187",
+          "is_bold": false
         },
         {
-          "name": "Harriot",
-          "page_number": "432."
+          "name": "Hardy (Sébastien)",
+          "page_number": "604",
+          "is_bold": true
         },
         {
           "name": "Haultin",
-          "page_number": "111."
+          "page_number": "111",
+          "is_bold": false
         },
         {
           "name": "Hay du Chastelet (Daniel)",
-          "page_number": "xxxi, n. 7."
+          "page_number": "xxxi",
+          "is_bold": false
+        },
+        {
+          "name": "Hay du Chastelet (Daniel)",
+          "page_number": "n. 7.",
+          "is_bold": false
         },
         {
           "name": "Hébert (le P. Pierre)",
-          "page_number": "xxiii, xxvi."
+          "page_number": "xxiii",
+          "is_bold": false
+        },
+        {
+          "name": "Hébert (le P. Pierre)",
+          "page_number": "xxvi.",
+          "is_bold": false
         },
         {
           "name": "Heinsius (Daniel)",
-          "page_number": "346, 476, 506."
+          "page_number": "346",
+          "is_bold": false
+        },
+        {
+          "name": "Heinsius (Daniel)",
+          "page_number": "476",
+          "is_bold": true
+        },
+        {
+          "name": "Heinsius (Daniel)",
+          "page_number": "506",
+          "is_bold": false
         },
         {
           "name": "Helmont (J.-B. van)",
-          "page_number": "XLV, n. 3, 17, 290, 326."
+          "page_number": "xlv",
+          "is_bold": false
+        },
+        {
+          "name": "Helmont (J.-B. van)",
+          "page_number": "n. 3",
+          "is_bold": false
+        },
+        {
+          "name": "Helmont (J.-B. van)",
+          "page_number": "17",
+          "is_bold": false
+        },
+        {
+          "name": "Helmont (J.-B. van)",
+          "page_number": "299",
+          "is_bold": false
+        },
+        {
+          "name": "Helmont (J.-B. van)",
+          "page_number": "326.",
+          "is_bold": false
         },
         {
           "name": "Hennequin",
-          "page_number": "137."
+          "page_number": "137",
+          "is_bold": false
         },
         {
           "name": "Henri III, roi de France",
-          "page_number": "79."
+          "page_number": "79.",
+          "is_bold": false
         },
         {
-          "name": "Henriette-Marie, soeur de Louis XIII",
-          "page_number": "172, 249, 445."
+          "name": "Henriette-Marie, sœur de Louis XIII",
+          "page_number": "172",
+          "is_bold": false
+        },
+        {
+          "name": "Henriette-Marie, sœur de Louis XIII",
+          "page_number": "249",
+          "is_bold": false
+        },
+        {
+          "name": "Henriette-Marie, sœur de Louis XIII",
+          "page_number": "445.",
+          "is_bold": true
         },
         {
           "name": "Henrion (Denis)",
-          "page_number": "423, 600."
+          "page_number": "423",
+          "is_bold": false
+        },
+        {
+          "name": "Henrion (Denis)",
+          "page_number": "600.",
+          "is_bold": false
         },
         {
           "name": "Héraclite",
-          "page_number": "574."
+          "page_number": "574.",
+          "is_bold": false
         },
         {
           "name": "Hérauld (Didier)",
-          "page_number": "36, 107."
+          "page_number": "36",
+          "is_bold": false
+        },
+        {
+          "name": "Hérauld (Didier)",
+          "page_number": "107.",
+          "is_bold": false
         },
         {
           "name": "Herbert de Cherbury",
-          "page_number": "v. Cherbury."
+          "page_number": "v. Cherbury.",
+          "is_bold": false
         },
         {
           "name": "Herigone",
-          "page_number": "248."
+          "page_number": "248.",
+          "is_bold": false
         },
         {
           "name": "Hermes Trismégiste",
-          "page_number": "142, 154, 327."
+          "page_number": "142",
+          "is_bold": false
+        },
+        {
+          "name": "Hermes Trismégiste",
+          "page_number": "154",
+          "is_bold": false
+        },
+        {
+          "name": "Hermes Trismégiste",
+          "page_number": "327.",
+          "is_bold": true
         },
         {
           "name": "Héron",
-          "page_number": "187, 218, 487, 491."
+          "page_number": "187",
+          "is_bold": false
+        },
+        {
+          "name": "Héron",
+          "page_number": "218",
+          "is_bold": false
+        },
+        {
+          "name": "Héron",
+          "page_number": "487",
+          "is_bold": true
+        },
+        {
+          "name": "Héron",
+          "page_number": "491.",
+          "is_bold": false
         },
         {
           "name": "Hésiode",
-          "page_number": "90, 190."
+          "page_number": "90",
+          "is_bold": false
+        },
+        {
+          "name": "Hésiode",
+          "page_number": "190.",
+          "is_bold": true
         },
         {
           "name": "Hill",
-          "page_number": "133, 147, 491."
+          "page_number": "133",
+          "is_bold": false
+        },
+        {
+          "name": "Hill",
+          "page_number": "147",
+          "is_bold": false
+        },
+        {
+          "name": "Hill",
+          "page_number": "491.",
+          "is_bold": false
         },
         {
           "name": "Hippocrate",
-          "page_number": "20."
+          "page_number": "20.",
+          "is_bold": false
         },
         {
           "name": "Hobbes (Th.)",
-          "page_number": "XLVI-XLVII, XLVIII."
+          "page_number": "xlvi-xlvin",
+          "is_bold": false
+        },
+        {
+          "name": "Hobbes (Th.)",
+          "page_number": "xlviii.",
+          "is_bold": false
         },
         {
           "name": "Hoghelande (Thibault de)",
-          "page_number": "287."
+          "page_number": "287.",
+          "is_bold": false
         },
         {
           "name": "Holste (Luc)",
-          "page_number": "188, 602, 605."
+          "page_number": "188",
+          "is_bold": false
+        },
+        {
+          "name": "Holste (Luc)",
+          "page_number": "602",
+          "is_bold": true
+        },
+        {
+          "name": "Holste (Luc)",
+          "page_number": "605.",
+          "is_bold": true
         },
         {
           "name": "Holstenius",
-          "page_number": "v. Holste (Luc)."
+          "page_number": "v. Holste (Luc).",
+          "is_bold": false
         },
         {
           "name": "Homère",
-          "page_number": "92, 190, 384, 529, 535, 561."
+          "page_number": "92",
+          "is_bold": true
+        },
+        {
+          "name": "Homère",
+          "page_number": "190",
+          "is_bold": true
+        },
+        {
+          "name": "Homère",
+          "page_number": "384",
+          "is_bold": false
+        },
+        {
+          "name": "Homère",
+          "page_number": "529",
+          "is_bold": false
+        },
+        {
+          "name": "Homère",
+          "page_number": "535",
+          "is_bold": true
+        },
+        {
+          "name": "Homère",
+          "page_number": "561.",
+          "is_bold": false
         },
         {
           "name": "Hondius (Jacques)",
-          "page_number": "600."
+          "page_number": "600.",
+          "is_bold": false
         },
         {
           "name": "Horace",
-          "page_number": "57, 58, 67, 85, 87, 91, 95, 102, 151, 190, 192, 218, 221, 384, 388, 495, 503, 535, 552, 553, 583, 584, 623."
+          "page_number": "57",
+          "is_bold": false
+        },
+        {
+          "name": "Horace",
+          "page_number": "58",
+          "is_bold": false
+        },
+        {
+          "name": "Horace",
+          "page_number": "67",
+          "is_bold": false
+        },
+        {
+          "name": "Horace",
+          "page_number": "85",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "87",
+          "is_bold": false
+        },
+        {
+          "name": "Horace",
+          "page_number": "94",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "95",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "102",
+          "is_bold": false
+        },
+        {
+          "name": "Horace",
+          "page_number": "154",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "190",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "192",
+          "is_bold": false
+        },
+        {
+          "name": "Horace",
+          "page_number": "218",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "221",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "384",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "388",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "495",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "503",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "535",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "552",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "553",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "583",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "584",
+          "is_bold": true
+        },
+        {
+          "name": "Horace",
+          "page_number": "623.",
+          "is_bold": false
         },
         {
           "name": "Hore Apollon",
-          "page_number": "522."
+          "page_number": "522.",
+          "is_bold": false
         },
         {
-          "name": "Horrewitz (Schephtel)",
-          "page_number": "305."
+          "name": "Horwitz (Schephtel)",
+          "page_number": "305.",
+          "is_bold": false
         },
         {
           "name": "Hozier (Pierre d')",
-          "page_number": "XLII."
+          "page_number": "xlii.",
+          "is_bold": false
         },
         {
           "name": "Hues (Robert)",
-          "page_number": "600."
+          "page_number": "600.",
+          "is_bold": false
         },
         {
           "name": "Huygens (Constantin)",
-          "page_number": "149, 250, 424, 434."
+          "page_number": "149",
+          "is_bold": false
+        },
+        {
+          "name": "Huygens (Constantin)",
+          "page_number": "250",
+          "is_bold": false
+        },
+        {
+          "name": "Huygens (Constantin)",
+          "page_number": "424",
+          "is_bold": false
+        },
+        {
+          "name": "Huygens (Constantin)",
+          "page_number": "434.",
+          "is_bold": false
         },
         {
           "name": "Hypsicles",
-          "page_number": "499."
+          "page_number": "499.",
+          "is_bold": false
         },
         {
           "name": "Jacob",
-          "page_number": "12."
+          "page_number": "12.",
+          "is_bold": true
         },
         {
           "name": "Jacob (le P. Louis)",
-          "page_number": "xxvii, n. 3, xxxiii."
+          "page_number": "xxvii",
+          "is_bold": false
+        },
+        {
+          "name": "Jacob (le P. Louis)",
+          "page_number": "n. 3",
+          "is_bold": false
+        },
+        {
+          "name": "Jacob (le P. Louis)",
+          "page_number": "xxxiii.",
+          "is_bold": false
         },
         {
           "name": "Jacques Ier, roi d'Angleterre",
-          "page_number": "524."
+          "page_number": "524.",
+          "is_bold": false
         },
         {
           "name": "Jacques (le P.) de Saint-Rémy",
-          "page_number": "40."
+          "page_number": "40.",
+          "is_bold": false
         },
         {
           "name": "Jacquinot (Dominique)",
-          "page_number": "132."
+          "page_number": "132.",
+          "is_bold": false
         },
         {
           "name": "Jambe-de-Fer (Philibert)",
-          "page_number": "87."
+          "page_number": "87.",
+          "is_bold": false
         },
         {
           "name": "Jamblique",
-          "page_number": "203."
+          "page_number": "203.",
+          "is_bold": false
         },
         {
           "name": "Jaubert de Barrault (Jean)",
-          "page_number": "xxx."
+          "page_number": "xxx.",
+          "is_bold": false
         },
         {
           "name": "Jay (Le)",
-          "page_number": "xxxii."
+          "page_number": "xxxii.",
+          "is_bold": false
         },
         {
           "name": "Jehaias (rabbi David)",
-          "page_number": "92, 103."
+          "page_number": "92",
+          "is_bold": false
         },
         {
-          "name": "Jephtha",
-          "page_number": "6."
+          "name": "Jehaias (rabbi David)",
+          "page_number": "103.",
+          "is_bold": false
+        },
+        {
+          "name": "Jephta",
+          "page_number": "6.",
+          "is_bold": false
         },
         {
           "name": "Jeroboam",
-          "page_number": "6."
+          "page_number": "6.",
+          "is_bold": false
         },
         {
           "name": "Jérôme (St)",
-          "page_number": "52, 92, 103, 388, 391, 522, 626, 627, 631."
+          "page_number": "52",
+          "is_bold": false
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "92",
+          "is_bold": true
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "103",
+          "is_bold": false
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "388",
+          "is_bold": true
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "391",
+          "is_bold": true
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "522",
+          "is_bold": true
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "626",
+          "is_bold": true
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "627",
+          "is_bold": true
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "631.",
+          "is_bold": true
+        }
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw_test/index/vol_1/PXL_20260702_110034300.MP.jpg",
+      "volume": "vol_1",
+      "provider": "ollama",
+      "model": "qwen3.6:35b",
+      "extracted_at": "2026-07-03T11:26:55.009006Z",
+      "entries": [
+        {
+          "name": "Jésus (le P. Dominique, de),",
+          "page_number": "xxxiii.",
+          "is_bold": false
+        },
+        {
+          "name": "Imperiali,",
+          "page_number": "298.",
+          "is_bold": false
+        },
+        {
+          "name": "Ingoli (Francesco),",
+          "page_number": "606.",
+          "is_bold": false
+        },
+        {
+          "name": "Job,",
+          "page_number": "7.",
+          "is_bold": false
+        },
+        {
+          "name": "Jodelle,",
+          "page_number": "96.",
+          "is_bold": false
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "2",
+          "is_bold": false
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "3",
+          "is_bold": false
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "5",
+          "is_bold": false
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "8",
+          "is_bold": false
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "9",
+          "is_bold": false
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "10",
+          "is_bold": false
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "11",
+          "is_bold": false
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "15",
+          "is_bold": true
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "19",
+          "is_bold": true
+        },
+        {
+          "name": "Jonathas,",
+          "page_number": "20.",
+          "is_bold": false
+        },
+        {
+          "name": "Josaphat",
+          "page_number": "190.",
+          "is_bold": false
+        },
+        {
+          "name": "Josèphe (Flavius),",
+          "page_number": "5",
+          "is_bold": false
+        },
+        {
+          "name": "Josèphe (Flavius),",
+          "page_number": "11",
+          "is_bold": true
+        },
+        {
+          "name": "Josèphe (Flavius),",
+          "page_number": "121.",
+          "is_bold": false
+        },
+        {
+          "name": "Jouyse (David),",
+          "page_number": "222",
+          "is_bold": false
+        },
+        {
+          "name": "Jouyse (David),",
+          "page_number": "324.",
+          "is_bold": false
+        },
+        {
+          "name": "Jouyse (Jean),",
+          "page_number": "324.",
+          "is_bold": false
+        },
+        {
+          "name": "Joyeuse (Anne, duc de),",
+          "page_number": "79.",
+          "is_bold": false
+        },
+        {
+          "name": "Irson (Claude),",
+          "page_number": "620.",
+          "is_bold": false
+        },
+        {
+          "name": "Isaïe,",
+          "page_number": "15",
+          "is_bold": true
+        },
+        {
+          "name": "Isaïe,",
+          "page_number": "227.",
+          "is_bold": false
+        },
+        {
+          "name": "Isambert (Anne),",
+          "page_number": "579.",
+          "is_bold": false
+        },
+        {
+          "name": "Isidore (Sd),",
+          "page_number": "100",
+          "is_bold": true
+        },
+        {
+          "name": "Isidore (Sd),",
+          "page_number": "626.",
+          "is_bold": false
+        },
+        {
+          "name": "Issachar,",
+          "page_number": "559.",
+          "is_bold": false
+        },
+        {
+          "name": "Jubal,",
+          "page_number": "102",
+          "is_bold": false
+        },
+        {
+          "name": "Jubal,",
+          "page_number": "129",
+          "is_bold": true
+        },
+        {
+          "name": "Jubal,",
+          "page_number": "204",
+          "is_bold": false
+        },
+        {
+          "name": "Jubal,",
+          "page_number": "551.",
+          "is_bold": false
+        },
+        {
+          "name": "Jumeau (André),",
+          "page_number": "xliii.",
+          "is_bold": false
+        },
+        {
+          "name": "Justinien,",
+          "page_number": "100.",
+          "is_bold": false
+        },
+        {
+          "name": "Juvénal,",
+          "page_number": "93",
+          "is_bold": true
+        },
+        {
+          "name": "Juvénal,",
+          "page_number": "581.",
+          "is_bold": false
+        },
+        {
+          "name": "Kapsberger (J.-H.),",
+          "page_number": "438.",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "61",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "62",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "64",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "106",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "131",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "132",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "134",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "193",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "194",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "239",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "261",
+          "is_bold": true
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "262",
+          "is_bold": true
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "266",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "290",
+          "is_bold": true
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "291",
+          "is_bold": true
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "298",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "301",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "330",
+          "is_bold": true
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "333",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "355",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "356",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "357",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "414",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "423",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "425",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "426",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "429",
+          "is_bold": true
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "430",
+          "is_bold": true
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "432",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "433",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "458",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "472",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "560",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "596",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "606",
+          "is_bold": false
+        },
+        {
+          "name": "Kepler (Jean),",
+          "page_number": "619.",
+          "is_bold": false
+        },
+        {
+          "name": "Kircher (le P.),",
+          "page_number": "432.",
+          "is_bold": false
+        },
+        {
+          "name": "Krantz (Alb.),",
+          "page_number": "103.",
+          "is_bold": false
+        },
+        {
+          "name": "Kuffer (Jacques),",
+          "page_number": "132.",
+          "is_bold": false
+        },
+        {
+          "name": "Kunrath (Heinrich),",
+          "page_number": "286.",
+          "is_bold": false
+        },
+        {
+          "name": "La Boderie (Sr de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "La Boderie (Sr de),",
+          "page_number": "Lefèvre",
+          "is_bold": false
+        },
+        {
+          "name": "La Boderie (Sr de),",
+          "page_number": "(Guy).",
+          "is_bold": false
+        },
+        {
+          "name": "La Brosse (Sr de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "La Brosse (Sr de),",
+          "page_number": "Leloyer",
+          "is_bold": false
+        },
+        {
+          "name": "La Brosse (Sr de),",
+          "page_number": "(Pierre).",
+          "is_bold": false
+        },
+        {
+          "name": "La Bodinière (Sr de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "La Bodinière (Sr de),",
+          "page_number": "Poisson.",
+          "is_bold": false
+        },
+        {
+          "name": "La Brosse (Guy de),",
+          "page_number": "xxxix.",
+          "is_bold": false
+        },
+        {
+          "name": "La Chambre (Marin Cureau de),",
+          "page_number": "xxxix.",
+          "is_bold": false
+        },
+        {
+          "name": "Lachèvre (Fréd.),",
+          "page_number": "112",
+          "is_bold": false
+        },
+        {
+          "name": "Lachèvre (Fréd.),",
+          "page_number": "137",
+          "is_bold": false
+        },
+        {
+          "name": "Lachèvre (Fréd.),",
+          "page_number": "165",
+          "is_bold": false
+        },
+        {
+          "name": "Lachèvre (Fréd.),",
+          "page_number": "166.",
+          "is_bold": false
+        },
+        {
+          "name": "Lacquehay (Jean),",
+          "page_number": "149.",
+          "is_bold": false
+        },
+        {
+          "name": "Laetus (Jacobus),",
+          "page_number": "461.",
+          "is_bold": false
+        },
+        {
+          "name": "La Garde (Sr de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "La Garde (Sr de),",
+          "page_number": "Hozier",
+          "is_bold": false
+        },
+        {
+          "name": "La Garde (Sr de),",
+          "page_number": "(d').",
+          "is_bold": false
+        },
+        {
+          "name": "La Grange (Jean de),",
+          "page_number": "494.",
+          "is_bold": false
+        },
+        {
+          "name": "La Haye (le P. de),",
+          "page_number": "43.",
+          "is_bold": false
+        },
+        {
+          "name": "La Haye (l'ambassadeur de),",
+          "page_number": "43.",
+          "is_bold": false
+        },
+        {
+          "name": "La Hire (de),",
+          "page_number": "356.",
+          "is_bold": false
+        },
+        {
+          "name": "La Hoguette (Fortin de),",
+          "page_number": "171",
+          "is_bold": false
+        },
+        {
+          "name": "La Hoguette (Fortin de),",
+          "page_number": "324",
+          "is_bold": false
+        },
+        {
+          "name": "La Hoguette (Fortin de),",
+          "page_number": "325",
+          "is_bold": false
+        },
+        {
+          "name": "La Hoguette (Fortin de),",
+          "page_number": "379.",
+          "is_bold": true
+        },
+        {
+          "name": "Laleu (Sr de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "Laleu (Sr de),",
+          "page_number": "Yvon",
+          "is_bold": false
+        },
+        {
+          "name": "Laleu (Sr de),",
+          "page_number": "(Paul).",
+          "is_bold": false
+        },
+        {
+          "name": "La Magdelaine (Sr de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "La Magdelaine (Sr de),",
+          "page_number": "Amboise",
+          "is_bold": false
+        },
+        {
+          "name": "La Magdelaine (Sr de),",
+          "page_number": "(Pierre).",
+          "is_bold": false
+        },
+        {
+          "name": "La Maillardie (Sr de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "La Maillardie (Sr de),",
+          "page_number": "Mydorge.",
+          "is_bold": false
+        },
+        {
+          "name": "La Mirandole (Antoine de),",
+          "page_number": "70.",
+          "is_bold": false
+        },
+        {
+          "name": "La Mirandole (Jean Pic de),",
+          "page_number": "7",
+          "is_bold": false
+        },
+        {
+          "name": "La Mirandole (Jean Pic de),",
+          "page_number": "48",
+          "is_bold": true
+        },
+        {
+          "name": "La Mirandole (Jean Pic de),",
+          "page_number": "49",
+          "is_bold": false
+        },
+        {
+          "name": "La Mirandole (Jean Pic de),",
+          "page_number": "59",
+          "is_bold": false
+        },
+        {
+          "name": "La Mirandole (Jean Pic de),",
+          "page_number": "142",
+          "is_bold": false
+        },
+        {
+          "name": "La Mirandole (Jean Pic de),",
+          "page_number": "230.",
+          "is_bold": false
+        },
+        {
+          "name": "La Mothe du Plessis Hodancourt (Daniel de),",
+          "page_number": "445.",
+          "is_bold": true
+        },
+        {
+          "name": "La Mothe-le Vayer,",
+          "page_number": "xli",
+          "is_bold": false
+        },
+        {
+          "name": "La Mothe-le Vayer,",
+          "page_number": "325",
+          "is_bold": false
+        },
+        {
+          "name": "La Mothe-le Vayer,",
+          "page_number": "379.",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (le P. François de),",
+          "page_number": "13",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (le P. François de),",
+          "page_number": "98",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (le P. François de),",
+          "page_number": "242",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (le P. François de),",
+          "page_number": "306",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (le P. François de),",
+          "page_number": "441",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (le P. François de),",
+          "page_number": "462",
+          "is_bold": true
+        },
+        {
+          "name": "La Noue (le P. François de),",
+          "page_number": "470",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (le P. François de),",
+          "page_number": "549.",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (François de),",
+          "page_number": "81.",
+          "is_bold": false
+        },
+        {
+          "name": "La Noue (Odet de),",
+          "page_number": "81.",
+          "is_bold": false
+        },
+        {
+          "name": "Lanovius,",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "Lanovius,",
+          "page_number": "La",
+          "is_bold": false
+        },
+        {
+          "name": "Lanovius,",
+          "page_number": "Noue",
+          "is_bold": false
+        },
+        {
+          "name": "Lanovius,",
+          "page_number": "(le",
+          "is_bold": false
+        },
+        {
+          "name": "Lanovius,",
+          "page_number": "P.",
+          "is_bold": false
+        },
+        {
+          "name": "Lanovius,",
+          "page_number": "Fr.",
+          "is_bold": false
+        },
+        {
+          "name": "Lanovius,",
+          "page_number": "de).",
+          "is_bold": false
+        },
+        {
+          "name": "La Pause (Jean Plantavit de),",
+          "page_number": "xxxi.",
+          "is_bold": false
+        },
+        {
+          "name": "La Porte (Claude de),",
+          "page_number": "59",
+          "is_bold": false
+        },
+        {
+          "name": "La Porte (Claude de),",
+          "page_number": "60",
+          "is_bold": false
+        },
+        {
+          "name": "La Porte (Claude de),",
+          "page_number": "68.",
+          "is_bold": true
+        },
+        {
+          "name": "La Poterie,",
+          "page_number": "192.",
+          "is_bold": false
+        },
+        {
+          "name": "Larcher (Michel),",
+          "page_number": "xxxvi.",
+          "is_bold": false
+        },
+        {
+          "name": "Lardenois,",
+          "page_number": "447.",
+          "is_bold": false
+        },
+        {
+          "name": "La Rochemaillet (Sd de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "La Rochemaillet (Sd de),",
+          "page_number": "Michel",
+          "is_bold": false
+        },
+        {
+          "name": "La Rochemaillet (Sd de),",
+          "page_number": "(Gabriel).",
+          "is_bold": false
+        },
+        {
+          "name": "La Salle (le P. Louis de la),",
+          "page_number": "xxi.",
+          "is_bold": false
+        },
+        {
+          "name": "La Saussaye (Marie),",
+          "page_number": "105.",
+          "is_bold": false
+        },
+        {
+          "name": "Lassus (Orlando),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "Lassus (Orlando),",
+          "page_number": "Lattre",
+          "is_bold": false
+        },
+        {
+          "name": "Lassus (Orlando),",
+          "page_number": "(Roland",
+          "is_bold": false
+        },
+        {
+          "name": "Lassus (Orlando),",
+          "page_number": "de).",
+          "is_bold": false
+        },
+        {
+          "name": "La Tour (le P. Charles de),",
+          "page_number": "xx",
+          "is_bold": false
+        },
+        {
+          "name": "La Tour (le P. Charles de),",
+          "page_number": "n.",
+          "is_bold": false
+        },
+        {
+          "name": "La Tour (le P. Charles de),",
+          "page_number": "3",
+          "is_bold": false
+        },
+        {
+          "name": "La Tour (le P. Charles de),",
+          "page_number": "197",
+          "is_bold": false
+        },
+        {
+          "name": "La Tour (le P. Charles de),",
+          "page_number": "444.",
+          "is_bold": false
+        },
+        {
+          "name": "La Tour (le P. de),",
+          "page_number": "444.",
+          "is_bold": false
+        },
+        {
+          "name": "Latrecy (Denis),",
+          "page_number": "144.",
+          "is_bold": false
+        },
+        {
+          "name": "Lattre (Roland de),",
+          "page_number": "96",
+          "is_bold": true
+        },
+        {
+          "name": "Lattre (Roland de),",
+          "page_number": "585.",
+          "is_bold": false
+        },
+        {
+          "name": "La Turgère (Sd de),",
+          "page_number": "v.",
+          "is_bold": false
+        },
+        {
+          "name": "La Turgère (Sd de),",
+          "page_number": "Bigot",
+          "is_bold": false
+        },
+        {
+          "name": "La Turgère (Sd de),",
+          "page_number": "(Et).",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "seigneur",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "de",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "Verderonne,",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "xxxvi",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "349.",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "marquis",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "de",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "Châteauneuf,",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Ch. de),",
+          "page_number": "615.",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Claude de),",
+          "page_number": "baron",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Claude de),",
+          "page_number": "de",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Claude de),",
+          "page_number": "Norat,",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Claude de),",
+          "page_number": "xxxvi.",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Gabriel),",
+          "page_number": "xxx",
+          "is_bold": false
+        },
+        {
+          "name": "L'Aubespine (Gabriel),",
+          "page_number": "615.",
+          "is_bold": false
+        },
+        {
+          "name": "Launay (Jean de),",
+          "page_number": "xxxn.",
+          "is_bold": false
+        },
+        {
+          "name": "Launay (l'abbé de),",
+          "page_number": "xxxiv.",
+          "is_bold": false
+        },
+        {
+          "name": "Lauson (le président de),",
+          "page_number": "617.",
+          "is_bold": false
+        },
+        {
+          "name": "La Ville aux Clercs (de),",
+          "page_number": "619.",
+          "is_bold": false
+        },
+        {
+          "name": "Le Febvre,",
+          "page_number": "médecin",
+          "is_bold": false
+        },
+        {
+          "name": "Le Febvre,",
+          "page_number": "à",
+          "is_bold": false
+        },
+        {
+          "name": "Le Febvre,",
+          "page_number": "Rome,",
+          "is_bold": false
+        },
+        {
+          "name": "Le Febvre,",
+          "page_number": "602.",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre (Olivier,",
+          "page_number": "seigneur",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre (Olivier,",
+          "page_number": "d'Ormesson),",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre (Olivier,",
+          "page_number": "105.",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "à",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "Rouen,",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "222",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "237",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "264",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "268",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "274",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "281",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "285",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "287",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "290",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "295",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "297",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "321",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "324",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "360",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "364",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "372",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "427",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "428",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "485.",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "à",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "Rouen,",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "frère",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "du",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "précédent,",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "274",
+          "is_bold": true
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "324",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre,",
+          "page_number": "325.",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre (Messieurs),",
+          "page_number": "à",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre (Messieurs),",
+          "page_number": "Rouen,",
+          "is_bold": false
+        },
+        {
+          "name": "Lefebvre (Messieurs),",
+          "page_number": "263.",
+          "is_bold": false
+        },
+        {
+          "name": "Le Fèvre (André),",
+          "page_number": "xxxvn.",
+          "is_bold": false
+        },
+        {
+          "name": "Le Fèvre (Jacques)",
+          "page_number": "d'Étaples,",
+          "is_bold": false
+        },
+        {
+          "name": "Le Fèvre (Jacques)",
+          "page_number": "386",
+          "is_bold": true
+        },
+        {
+          "name": "Le Fèvre (Jacques)",
+          "page_number": "581",
+          "is_bold": true
+        },
+        {
+          "name": "Le Fèvre (Jacques)",
+          "page_number": "583.",
+          "is_bold": true
+        },
+        {
+          "name": "Lefèvre (Grégoire),",
+          "page_number": "397.",
+          "is_bold": false
+        },
+        {
+          "name": "Lefèvre (Guy)",
+          "page_number": "de",
+          "is_bold": false
+        },
+        {
+          "name": "Lefèvre (Guy)",
+          "page_number": "la",
+          "is_bold": false
+        },
+        {
+          "name": "Lefèvre (Guy)",
+          "page_number": "Boderie,",
+          "is_bold": false
+        },
+        {
+          "name": "Lefèvre (Guy)",
+          "page_number": "7",
+          "is_bold": false
+        },
+        {
+          "name": "Lefèvre (Guy)",
+          "page_number": "142",
+          "is_bold": false
+        },
+        {
+          "name": "Lefèvre (Guy)",
+          "page_number": "349.",
+          "is_bold": false
+        },
+        {
+          "name": "Leibniz,",
+          "page_number": "1",
+          "is_bold": false
+        },
+        {
+          "name": "Leibniz,",
+          "page_number": "n.",
+          "is_bold": false
+        },
+        {
+          "name": "Leibniz,",
+          "page_number": "1.",
+          "is_bold": false
+        },
+        {
+          "name": "Le Jay,",
+          "page_number": "xxxn.",
+          "is_bold": false
+        },
+        {
+          "name": "Le Jeune (Cécile),",
+          "page_number": "81.",
+          "is_bold": false
+        },
+        {
+          "name": "Le Jeune (Claude),",
+          "page_number": "44",
+          "is_bold": true
+        },
+        {
+          "name": "Le Jeune (Claude),",
+          "page_number": "75",
+          "is_bold": true
+        },
+        {
+          "name": "Le Jeune (Claude),",
+          "page_number": "78",
+          "is_bold": true
+        },
+        {
+          "name": "Le Jeune (Claude),",
+          "page_number": "80",
+          "is_bold": true
+        },
+        {
+          "name": "Le Jeune (Claude),",
+          "page_number": "81",
+          "is_bold": true
+        },
+        {
+          "name": "Le Jeune (Claude),",
+          "page_number": "585.",
+          "is_bold": true
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "53",
+          "is_bold": false
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "103-104",
+          "is_bold": false
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "517",
+          "is_bold": true
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "523",
+          "is_bold": true
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "524",
+          "is_bold": true
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "557",
+          "is_bold": true
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "559",
+          "is_bold": true
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "560",
+          "is_bold": true
+        },
+        {
+          "name": "Leloyer (Pierre),",
+          "page_number": "561.",
+          "is_bold": true
         }
       ]
     }

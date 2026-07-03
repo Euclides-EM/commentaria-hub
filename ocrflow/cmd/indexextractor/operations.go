@@ -9,6 +9,7 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -16,7 +17,7 @@ import (
 const manifestVersion = 1
 
 var (
-	indexHeader   = []string{"name", "page_number", "volume"}
+	indexHeader   = []string{"name", "page_number", "is_bold", "volume"}
 	lettersHeader = []string{"letter_number", "letter_name", "page_number", "volume"}
 )
 
@@ -327,7 +328,7 @@ func renderIndexCSV(path string, manifest indexManifest) error {
 	return writeCSVAtomically(path, indexHeader, func(writer *csv.Writer) error {
 		for _, page := range sortIndexPages(manifest.Pages) {
 			for _, entry := range page.Entries {
-				if err := writer.Write([]string{entry.Name, entry.PageNumber, page.Volume}); err != nil {
+				if err := writer.Write([]string{entry.Name, entry.PageNumber, strconv.FormatBool(entry.IsBold), page.Volume}); err != nil {
 					return err
 				}
 			}
@@ -528,7 +529,7 @@ func validateIndexCSVMatchesManifest(path string, manifest indexManifest) error 
 	expected := [][]string{indexHeader}
 	for _, page := range sortIndexPages(manifest.Pages) {
 		for _, entry := range page.Entries {
-			expected = append(expected, []string{entry.Name, entry.PageNumber, page.Volume})
+			expected = append(expected, []string{entry.Name, entry.PageNumber, strconv.FormatBool(entry.IsBold), page.Volume})
 		}
 	}
 	return compareCSVRecords(path, expected)
