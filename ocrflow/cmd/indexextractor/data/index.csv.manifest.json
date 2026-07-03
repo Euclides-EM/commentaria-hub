@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "kind": "index",
+  "pages": [
+    {
+      "image_path": "cmd/indexextractor/data/raw_test/index/vol_1/PXL_20260702_110029040.jpg",
+      "volume": "vol_1",
+      "provider": "curated",
+      "model": "gpt-5-mini+qwen3-vl:32b",
+      "extracted_at": "2026-07-03T10:59:02.303392Z",
+      "entries": [
+        {
+          "name": "Gondy (Jean-François de)",
+          "page_number": "124."
+        },
+        {
+          "name": "Gondy (Pierre de)",
+          "page_number": "130."
+        },
+        {
+          "name": "Gonneau (André)",
+          "page_number": "185, 190, 220."
+        },
+        {
+          "name": "Gonneau (Madame)",
+          "page_number": "185."
+        },
+        {
+          "name": "Gonzague (François de)",
+          "page_number": "144."
+        },
+        {
+          "name": "Gonzague (Louise-Marie)",
+          "page_number": "515."
+        },
+        {
+          "name": "Gorlée",
+          "page_number": "147, 148, 168, 299, 374, 491."
+        },
+        {
+          "name": "Goudimel (Claude)",
+          "page_number": "102."
+        },
+        {
+          "name": "Gouliou (Sr de)",
+          "page_number": "v. Debeaune."
+        },
+        {
+          "name": "Gouy",
+          "page_number": "447."
+        },
+        {
+          "name": "Granon (Sr de)",
+          "page_number": "xxxvii."
+        },
+        {
+          "name": "Grandamy (le P.)",
+          "page_number": "209."
+        },
+        {
+          "name": "Grandier (Urbain)",
+          "page_number": "XLI."
+        },
+        {
+          "name": "Gratarolo (Gulielmo)",
+          "page_number": "47."
+        },
+        {
+          "name": "Grazia (Vincenzo di)",
+          "page_number": "614."
+        },
+        {
+          "name": "Grégoire (S') de Nysse",
+          "page_number": "630."
+        },
+        {
+          "name": "Grégoire (S') de Nazianze",
+          "page_number": "70, 533, 534."
+        },
+        {
+          "name": "Grégoire le Grand",
+          "page_number": "68."
+        },
+        {
+          "name": "Grégoire (Pierre)",
+          "page_number": "133."
+        },
+        {
+          "name": "Grienberger (le P.)",
+          "page_number": "183, 257."
+        },
+        {
+          "name": "Groot (H. de)",
+          "page_number": "XL, 161, 320."
+        },
+        {
+          "name": "Groslot (de l'Isle)",
+          "page_number": "298."
+        },
+        {
+          "name": "Grotius (Hugo)",
+          "page_number": "v. Groot (de)."
+        },
+        {
+          "name": "Gruter",
+          "page_number": "492, 615."
+        },
+        {
+          "name": "Gualdo (Paolo)",
+          "page_number": "107, 240."
+        },
+        {
+          "name": "Guédron (Pierre)",
+          "page_number": "82, 585."
+        },
+        {
+          "name": "Guéméné (le prince de)",
+          "page_number": "xxxv."
+        },
+        {
+          "name": "Gueneau",
+          "page_number": "1, 49, 68, 101, 110, 174, 186, 220, 319, 395, 503, 554."
+        },
+        {
+          "name": "Guenellus",
+          "page_number": "v. Gueneau."
+        },
+        {
+          "name": "Guérin",
+          "page_number": "494."
+        },
+        {
+          "name": "Guériteau (le P. Nicolas)",
+          "page_number": "xxiii."
+        },
+        {
+          "name": "Guevara (Giovanni di)",
+          "page_number": "248, 249."
+        },
+        {
+          "name": "Guido d'Arezzo",
+          "page_number": "216."
+        },
+        {
+          "name": "Guido de Pérouse",
+          "page_number": "497."
+        },
+        {
+          "name": "Guidobaldi del Monte",
+          "page_number": "183, 193, 244, 333."
+        },
+        {
+          "name": "Guillaume de St-Faron (le Fr.)",
+          "page_number": "v. Saint-Faron."
+        },
+        {
+          "name": "Guillemeau (Ch.)",
+          "page_number": "xxxix."
+        },
+        {
+          "name": "Guiot (Jos.-André)",
+          "page_number": "612."
+        },
+        {
+          "name": "Guittaut (de)",
+          "page_number": "325."
+        },
+        {
+          "name": "Gunter (Edmund)",
+          "page_number": "314."
+        },
+        {
+          "name": "Habert (Germain), abbé de Cerisy",
+          "page_number": "xxxiv, 447, 546."
+        },
+        {
+          "name": "Habert (Isaac)",
+          "page_number": "xxxi."
+        },
+        {
+          "name": "Habert de Montmor (Henri-Louis)",
+          "page_number": "xxxvii, xliv, n. 1."
+        },
+        {
+          "name": "Hallé (Claude)",
+          "page_number": "140."
+        },
+        {
+          "name": "Hallé (Jacques)",
+          "page_number": "xxxviii, 112, 139, 141."
+        },
+        {
+          "name": "Hannier (le Fr. Guillaume)",
+          "page_number": "v. Saint-Faron (de)."
+        },
+        {
+          "name": "Hardy (Claude)",
+          "page_number": "xxxix, xliii, n. 4, 54, 187, 251, 269, 273, 604, 619."
+        },
+        {
+          "name": "Hardy (Sébastien)",
+          "page_number": "187, 604."
+        },
+        {
+          "name": "Harriot",
+          "page_number": "432."
+        },
+        {
+          "name": "Haultin",
+          "page_number": "111."
+        },
+        {
+          "name": "Hay du Chastelet (Daniel)",
+          "page_number": "xxxi, n. 7."
+        },
+        {
+          "name": "Hébert (le P. Pierre)",
+          "page_number": "xxiii, xxvi."
+        },
+        {
+          "name": "Heinsius (Daniel)",
+          "page_number": "346, 476, 506."
+        },
+        {
+          "name": "Helmont (J.-B. van)",
+          "page_number": "XLV, n. 3, 17, 290, 326."
+        },
+        {
+          "name": "Hennequin",
+          "page_number": "137."
+        },
+        {
+          "name": "Henri III, roi de France",
+          "page_number": "79."
+        },
+        {
+          "name": "Henriette-Marie, soeur de Louis XIII",
+          "page_number": "172, 249, 445."
+        },
+        {
+          "name": "Henrion (Denis)",
+          "page_number": "423, 600."
+        },
+        {
+          "name": "Héraclite",
+          "page_number": "574."
+        },
+        {
+          "name": "Hérauld (Didier)",
+          "page_number": "36, 107."
+        },
+        {
+          "name": "Herbert de Cherbury",
+          "page_number": "v. Cherbury."
+        },
+        {
+          "name": "Herigone",
+          "page_number": "248."
+        },
+        {
+          "name": "Hermes Trismégiste",
+          "page_number": "142, 154, 327."
+        },
+        {
+          "name": "Héron",
+          "page_number": "187, 218, 487, 491."
+        },
+        {
+          "name": "Hésiode",
+          "page_number": "90, 190."
+        },
+        {
+          "name": "Hill",
+          "page_number": "133, 147, 491."
+        },
+        {
+          "name": "Hippocrate",
+          "page_number": "20."
+        },
+        {
+          "name": "Hobbes (Th.)",
+          "page_number": "XLVI-XLVII, XLVIII."
+        },
+        {
+          "name": "Hoghelande (Thibault de)",
+          "page_number": "287."
+        },
+        {
+          "name": "Holste (Luc)",
+          "page_number": "188, 602, 605."
+        },
+        {
+          "name": "Holstenius",
+          "page_number": "v. Holste (Luc)."
+        },
+        {
+          "name": "Homère",
+          "page_number": "92, 190, 384, 529, 535, 561."
+        },
+        {
+          "name": "Hondius (Jacques)",
+          "page_number": "600."
+        },
+        {
+          "name": "Horace",
+          "page_number": "57, 58, 67, 85, 87, 91, 95, 102, 151, 190, 192, 218, 221, 384, 388, 495, 503, 535, 552, 553, 583, 584, 623."
+        },
+        {
+          "name": "Hore Apollon",
+          "page_number": "522."
+        },
+        {
+          "name": "Horrewitz (Schephtel)",
+          "page_number": "305."
+        },
+        {
+          "name": "Hozier (Pierre d')",
+          "page_number": "XLII."
+        },
+        {
+          "name": "Hues (Robert)",
+          "page_number": "600."
+        },
+        {
+          "name": "Huygens (Constantin)",
+          "page_number": "149, 250, 424, 434."
+        },
+        {
+          "name": "Hypsicles",
+          "page_number": "499."
+        },
+        {
+          "name": "Jacob",
+          "page_number": "12."
+        },
+        {
+          "name": "Jacob (le P. Louis)",
+          "page_number": "xxvii, n. 3, xxxiii."
+        },
+        {
+          "name": "Jacques Ier, roi d'Angleterre",
+          "page_number": "524."
+        },
+        {
+          "name": "Jacques (le P.) de Saint-Rémy",
+          "page_number": "40."
+        },
+        {
+          "name": "Jacquinot (Dominique)",
+          "page_number": "132."
+        },
+        {
+          "name": "Jambe-de-Fer (Philibert)",
+          "page_number": "87."
+        },
+        {
+          "name": "Jamblique",
+          "page_number": "203."
+        },
+        {
+          "name": "Jaubert de Barrault (Jean)",
+          "page_number": "xxx."
+        },
+        {
+          "name": "Jay (Le)",
+          "page_number": "xxxii."
+        },
+        {
+          "name": "Jehaias (rabbi David)",
+          "page_number": "92, 103."
+        },
+        {
+          "name": "Jephtha",
+          "page_number": "6."
+        },
+        {
+          "name": "Jeroboam",
+          "page_number": "6."
+        },
+        {
+          "name": "Jérôme (St)",
+          "page_number": "52, 92, 103, 388, 391, 522, 626, 627, 631."
+        }
+      ]
+    }
+  ]
+}

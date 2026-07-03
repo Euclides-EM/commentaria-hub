@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/csv"
 	"encoding/json"
 	"errors"
 	"flag"
@@ -11,8 +10,9 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
-	"strconv"
 	"strings"
+	"unicode"
+	"unicode/utf8"
 
 	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 	"github.com/joho/godotenv"
@@ -23,18 +23,17 @@ const (
 	rawLettersTableDir = "cmd/indexextractor/data/raw_test/letters_table"
 	defaultIndexCSV    = "cmd/indexextractor/data/index.csv"
 	defaultLettersCSV  = "cmd/indexextractor/data/letters_table.csv"
-	defaultAIProvider  = llm.ProviderOpenAI
-	defaultAIModel     = "gpt-5-mini"
+	defaultAIProvider  = llm.ProviderOllama
+	defaultAIModel     = "qwen3-vl:32b"
 )
 
 const indexPrompt = `Extract every entry from this index page.
 Return JSON only, in this exact shape:
-{"entries":[{"name":"entry exactly as printed","page_number":"page reference exactly as printed","is_bold":false}]}
+{"entries":[{"name":"entry exactly as printed","page_number":"page reference exactly as printed"}]}
 
 Rules:
 - Preserve the spelling, punctuation, capitalization, and page reference from the image.
 - Produce one object per entry. If an entry has multiple page references, keep them together exactly as printed.
-- Set is_bold to true only when the entry name is printed in bold type.
 - Do not infer missing text and do not include headings, running headers, or page numbers of the index itself.
 - Use an empty entries array when there are no index entries.`
 
@@ -49,13 +48,27 @@ Rules:
 - Use an empty entries array when there are no table rows.`
 
 type config struct {
-	indexDir   string
-	lettersDir string
-	indexCSV   string
-	lettersCSV string
-	provider   string
-	model      string
+	command     string
+	kind        string
+	indexDir    string
+	lettersDir  string
+	indexCSV    string
+	lettersCSV  string
+	provider    string
+	model       string
+	resume      bool
+	rerun       bool
+	rerunImages string
 }
+
+const (
+	commandExtract  = "extract"
+	commandValidate = "validate"
+	commandStatus   = "status"
+	kindAll         = "all"
+	kindIndex       = "index"
+	kindLetters     = "letters"
+)
 
 type imageInput struct {
 	Path   string
@@ -65,7 +78,6 @@ type imageInput struct {
 type indexEntry struct {
 	Name       string `json:"name"`
 	PageNumber string `json:"page_number"`
-	IsBold     bool   `json:"is_bold"`
 	Volume     string `json:"-"`
 }
 
@@ -90,87 +102,139 @@ type llmExecutor interface {
 
 func main() {
 	log.SetFlags(0)
-	cfg := parseFlags(os.Args[1:])
-	_ = godotenv.Load(".env")
-	_ = godotenv.Load(".env_private")
-	if err := validateEnvironment(cfg); err != nil {
+	cfg, err := parseCLI(os.Args[1:], os.Stderr)
+	if err != nil {
 		log.Fatal(err)
 	}
+	_ = godotenv.Load(".env")
+	_ = godotenv.Load(".env_private")
+	if cfg.command == commandExtract {
+		if err := validateEnvironment(cfg); err != nil {
+			log.Fatal(err)
+		}
+	}
 
-	if err := run(cfg, llm.NewClient(
-		os.Getenv("OPENAI_API_KEY"),
-		os.Getenv("OLLAMA_BASE_URL"),
-		os.Getenv("OLLAMA_AUTH_TOKEN"),
-	), os.Stdout); err != nil {
+	var client llmExecutor
+	if cfg.command == commandExtract {
+		client = llm.NewClient(
+			os.Getenv("OPENAI_API_KEY"),
+			os.Getenv("OLLAMA_BASE_URL"),
+			os.Getenv("OLLAMA_AUTH_TOKEN"),
+		)
+	}
+	if err := executeCommand(cfg, client, os.Stdout); err != nil {
 		log.Fatal(err)
 	}
 }
 
-func parseFlags(args []string) config {
-	cfg := config{}
-	fs := flag.NewFlagSet("indexextractor", flag.ExitOnError)
+func parseCLI(args []string, errOut io.Writer) (config, error) {
+	cfg := config{command: commandExtract, kind: kindAll, resume: true}
+	if len(args) > 0 && !strings.HasPrefix(args[0], "-") {
+		cfg.command = args[0]
+		args = args[1:]
+	}
+	if cfg.command != commandExtract && cfg.command != commandValidate && cfg.command != commandStatus {
+		return cfg, fmt.Errorf("unknown command %q (want extract, validate, or status)", cfg.command)
+	}
+	fs := flag.NewFlagSet("indexextractor "+cfg.command, flag.ContinueOnError)
+	fs.SetOutput(errOut)
+	fs.StringVar(&cfg.kind, "kind", kindAll, "data kind: index, letters, or all")
 	fs.StringVar(&cfg.indexDir, "index-dir", rawIndexDir, "directory containing index images grouped by volume")
 	fs.StringVar(&cfg.lettersDir, "letters-dir", rawLettersTableDir, "directory containing letters-table images grouped by volume")
 	fs.StringVar(&cfg.indexCSV, "index-output", defaultIndexCSV, "output CSV for index entries")
 	fs.StringVar(&cfg.lettersCSV, "letters-output", defaultLettersCSV, "output CSV for letters-table entries")
 	fs.StringVar(&cfg.provider, "ai-provider", defaultAIProvider, "AI provider: openai or ollama")
 	fs.StringVar(&cfg.model, "ai-model", defaultAIModel, "vision-capable AI model")
-	_ = fs.Parse(args)
-	return cfg
+	fs.BoolVar(&cfg.resume, "resume", true, "skip images already recorded in the output manifest")
+	fs.BoolVar(&cfg.rerun, "rerun", false, "discard the selected manifest and output, then extract every image")
+	fs.StringVar(&cfg.rerunImages, "rerun-images", "", "comma-separated image paths to extract again and replace in the manifest")
+	if err := fs.Parse(args); err != nil {
+		return cfg, err
+	}
+	if fs.NArg() != 0 {
+		return cfg, fmt.Errorf("unexpected arguments: %s", strings.Join(fs.Args(), " "))
+	}
+	if cfg.rerun {
+		cfg.resume = false
+	}
+	if cfg.rerun && strings.TrimSpace(cfg.rerunImages) != "" {
+		return cfg, errors.New("--rerun and --rerun-images cannot be used together")
+	}
+	if cfg.kind == kindAll && strings.TrimSpace(cfg.rerunImages) != "" {
+		return cfg, errors.New("--rerun-images requires --kind index or --kind letters")
+	}
+	return cfg, nil
 }
 
-func run(cfg config, client llmExecutor, out io.Writer) error {
+func executeCommand(cfg config, client llmExecutor, out io.Writer) error {
 	if err := validateConfig(cfg); err != nil {
 		return err
 	}
-	indexImages, err := discoverImages(cfg.indexDir)
-	if err != nil {
-		return fmt.Errorf("discover index images: %w", err)
+	switch cfg.command {
+	case commandExtract:
+		return run(cfg, client, out)
+	case commandValidate:
+		return validateOutputs(cfg, out)
+	case commandStatus:
+		return reportStatus(cfg, out)
+	default:
+		return fmt.Errorf("unknown command %q", cfg.command)
 	}
-	letterImages, err := discoverImages(cfg.lettersDir)
-	if err != nil {
-		return fmt.Errorf("discover letters-table images: %w", err)
-	}
+}
 
-	fmt.Fprintf(out, "Found %d index images and %d letters-table images\n", len(indexImages), len(letterImages))
-	indexEntries, err := extractIndexEntries(cfg, client, indexImages, out)
-	if err != nil {
-		return err
+func run(cfg config, client llmExecutor, out io.Writer) error {
+	if client == nil {
+		return errors.New("extract requires an LLM client")
 	}
-	letterEntries, err := extractLetterEntries(cfg, client, letterImages, out)
-	if err != nil {
-		return err
+	if includesKind(cfg.kind, kindIndex) {
+		if err := runIndexExtraction(cfg, client, out); err != nil {
+			return err
+		}
 	}
-
-	if err := writeIndexCSV(cfg.indexCSV, indexEntries); err != nil {
-		return fmt.Errorf("write index CSV: %w", err)
+	if includesKind(cfg.kind, kindLetters) {
+		if err := runLettersExtraction(cfg, client, out); err != nil {
+			return err
+		}
 	}
-	if err := writeLettersCSV(cfg.lettersCSV, letterEntries); err != nil {
-		return fmt.Errorf("write letters-table CSV: %w", err)
-	}
-	fmt.Fprintf(out, "Wrote %d index entries to %s\n", len(indexEntries), cfg.indexCSV)
-	fmt.Fprintf(out, "Wrote %d letters-table entries to %s\n", len(letterEntries), cfg.lettersCSV)
 	return nil
 }
 
 func validateConfig(cfg config) error {
-	for name, value := range map[string]string{
-		"index directory": cfg.indexDir, "letters-table directory": cfg.lettersDir,
-		"index output": cfg.indexCSV, "letters-table output": cfg.lettersCSV,
-		"AI provider": cfg.provider, "AI model": cfg.model,
-	} {
+	if cfg.kind != kindAll && cfg.kind != kindIndex && cfg.kind != kindLetters {
+		return fmt.Errorf("unsupported kind %q (want index, letters, or all)", cfg.kind)
+	}
+	required := map[string]string{}
+	if includesKind(cfg.kind, kindIndex) {
+		required["index directory"] = cfg.indexDir
+		required["index output"] = cfg.indexCSV
+	}
+	if includesKind(cfg.kind, kindLetters) {
+		required["letters-table directory"] = cfg.lettersDir
+		required["letters-table output"] = cfg.lettersCSV
+	}
+	if cfg.command == commandExtract {
+		required["AI provider"] = cfg.provider
+		required["AI model"] = cfg.model
+	}
+	for name, value := range required {
 		if strings.TrimSpace(value) == "" {
 			return fmt.Errorf("%s must not be empty", name)
 		}
 	}
-	provider := strings.ToLower(strings.TrimSpace(cfg.provider))
-	if provider != llm.ProviderOpenAI && provider != llm.ProviderOllama {
-		return fmt.Errorf("unsupported AI provider %q", cfg.provider)
+	if cfg.command == commandExtract {
+		provider := strings.ToLower(strings.TrimSpace(cfg.provider))
+		if provider != llm.ProviderOpenAI && provider != llm.ProviderOllama {
+			return fmt.Errorf("unsupported AI provider %q", cfg.provider)
+		}
 	}
-	if filepath.Clean(cfg.indexCSV) == filepath.Clean(cfg.lettersCSV) {
+	if cfg.kind == kindAll && filepath.Clean(cfg.indexCSV) == filepath.Clean(cfg.lettersCSV) {
 		return errors.New("index output and letters-table output must be different files")
 	}
 	return nil
+}
+
+func includesKind(selected, candidate string) bool {
+	return selected == kindAll || selected == candidate
 }
 
 func validateEnvironment(cfg config) error {
@@ -234,40 +298,6 @@ func isImagePath(path string) bool {
 	}
 }
 
-func extractIndexEntries(cfg config, client llmExecutor, images []imageInput, out io.Writer) ([]indexEntry, error) {
-	var all []indexEntry
-	for i, image := range images {
-		fmt.Fprintf(out, "[%d/%d] Extracting index page %s\n", i+1, len(images), image.Path)
-		raw, err := client.Exec(cfg.provider, cfg.model, indexPrompt, image.Path)
-		if err != nil {
-			return nil, fmt.Errorf("extract index image %s: %w", image.Path, err)
-		}
-		entries, err := parseIndexResponse(raw, image.Volume)
-		if err != nil {
-			return nil, fmt.Errorf("parse index response for %s: %w", image.Path, err)
-		}
-		all = append(all, entries...)
-	}
-	return all, nil
-}
-
-func extractLetterEntries(cfg config, client llmExecutor, images []imageInput, out io.Writer) ([]letterEntry, error) {
-	var all []letterEntry
-	for i, image := range images {
-		fmt.Fprintf(out, "[%d/%d] Extracting letters-table page %s\n", i+1, len(images), image.Path)
-		raw, err := client.Exec(cfg.provider, cfg.model, lettersTablePrompt, image.Path)
-		if err != nil {
-			return nil, fmt.Errorf("extract letters-table image %s: %w", image.Path, err)
-		}
-		entries, err := parseLettersResponse(raw, image.Volume)
-		if err != nil {
-			return nil, fmt.Errorf("parse letters-table response for %s: %w", image.Path, err)
-		}
-		all = append(all, entries...)
-	}
-	return all, nil
-}
-
 func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
 	response, err := parseStrictJSON[indexResponse](raw)
 	if err != nil {
@@ -276,16 +306,29 @@ func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
 	if response.Entries == nil {
 		return nil, errors.New("response requires an entries array")
 	}
+	entries := make([]indexEntry, 0, len(response.Entries))
 	for i := range response.Entries {
-		entry := &response.Entries[i]
+		entry := response.Entries[i]
 		entry.Name = strings.TrimSpace(entry.Name)
 		entry.PageNumber = strings.TrimSpace(entry.PageNumber)
+		if isIndexSectionHeading(entry) {
+			continue
+		}
 		entry.Volume = volume
 		if entry.Name == "" || entry.PageNumber == "" {
 			return nil, fmt.Errorf("entry %d requires name and page_number", i+1)
 		}
+		entries = append(entries, entry)
 	}
-	return response.Entries, nil
+	return entries, nil
+}
+
+func isIndexSectionHeading(entry indexEntry) bool {
+	if entry.PageNumber != "" || utf8.RuneCountInString(entry.Name) != 1 {
+		return false
+	}
+	r, _ := utf8.DecodeRuneInString(entry.Name)
+	return unicode.IsLetter(r)
 }
 
 func parseLettersResponse(raw, volume string) ([]letterEntry, error) {
@@ -321,59 +364,4 @@ func parseStrictJSON[T any](raw string) (T, error) {
 		return result, fmt.Errorf("decode response: %w", err)
 	}
 	return result, nil
-}
-
-func writeIndexCSV(path string, entries []indexEntry) error {
-	return writeCSVAtomically(path, []string{"name", "page_number", "is_bold", "volume"}, func(writer *csv.Writer) error {
-		for _, entry := range entries {
-			if err := writer.Write([]string{entry.Name, entry.PageNumber, strconv.FormatBool(entry.IsBold), entry.Volume}); err != nil {
-				return err
-			}
-		}
-		return nil
-	})
-}
-
-func writeLettersCSV(path string, entries []letterEntry) error {
-	return writeCSVAtomically(path, []string{"letter_number", "letter_name", "page_number", "volume"}, func(writer *csv.Writer) error {
-		for _, entry := range entries {
-			if err := writer.Write([]string{entry.LetterNumber, entry.LetterName, entry.PageNumber, entry.Volume}); err != nil {
-				return err
-			}
-		}
-		return nil
-	})
-}
-
-func writeCSVAtomically(path string, header []string, writeRows func(*csv.Writer) error) (returnErr error) {
-	dir := filepath.Dir(path)
-	if err := os.MkdirAll(dir, 0o755); err != nil {
-		return err
-	}
-	temporary, err := os.CreateTemp(dir, ".indexextractor-*.csv")
-	if err != nil {
-		return err
-	}
-	temporaryPath := temporary.Name()
-	defer func() {
-		if err := os.Remove(temporaryPath); err != nil && !errors.Is(err, os.ErrNotExist) && returnErr == nil {
-			returnErr = err
-		}
-	}()
-
-	writer := csv.NewWriter(temporary)
-	if err := writer.Write(header); err == nil {
-		err = writeRows(writer)
-	}
-	writer.Flush()
-	if err == nil {
-		err = writer.Error()
-	}
-	if closeErr := temporary.Close(); err == nil {
-		err = closeErr
-	}
-	if err != nil {
-		return err
-	}
-	return os.Rename(temporaryPath, path)
 }
