@@ -16,6 +16,8 @@ import (
 
 const manifestVersion = 1
 
+const responseValidationAttempts = 2
+
 var (
 	indexHeader   = []string{"name", "page_number", "reference", "is_bold", "volume"}
 	lettersHeader = []string{"letter_number", "letter_name", "page_number", "volume"}
@@ -34,6 +36,7 @@ type indexPageResult struct {
 	Model       string       `json:"model"`
 	ExtractedAt time.Time    `json:"extracted_at"`
 	Entries     []indexEntry `json:"entries"`
+	Issues      []string     `json:"issues,omitempty"`
 }
 
 type lettersManifest struct {
@@ -49,6 +52,12 @@ type lettersPageResult struct {
 	Model       string        `json:"model"`
 	ExtractedAt time.Time     `json:"extracted_at"`
 	Entries     []letterEntry `json:"entries"`
+	Issues      []string      `json:"issues,omitempty"`
+}
+
+type pageIssues struct {
+	ImagePath string
+	Issues    []string
 }
 
 func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
@@ -81,17 +90,16 @@ func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
 			continue
 		}
 		fmt.Fprintf(out, "[%d/%d] Extracting index page %s\n", i+1, len(selected), image.Path)
-		raw, err := client.Exec(cfg.provider, cfg.model, indexPrompt, image.Path)
+		entries, issues, err := extractIndexEntriesWithIssues(cfg, client, image, out)
 		if err != nil {
-			return fmt.Errorf("extract index image %s: %w", image.Path, err)
+			return err
 		}
-		entries, err := parseIndexResponse(raw, image.Volume)
-		if err != nil {
-			return fmt.Errorf("parse index response for %s: %w", image.Path, err)
+		for _, issue := range issues {
+			fmt.Fprintf(out, "Warning: index response for %s: %s; skipping entry\n", image.Path, issue)
 		}
 		manifest.Pages = upsertIndexPage(manifest.Pages, indexPageResult{
 			ImagePath: cleanPath(image.Path), Volume: image.Volume, Provider: cfg.provider,
-			Model: cfg.model, ExtractedAt: time.Now().UTC(), Entries: entries,
+			Model: cfg.model, ExtractedAt: time.Now().UTC(), Entries: entries, Issues: issues,
 		})
 		if err := saveJSONAtomically(manifestPath(cfg.indexCSV), manifest); err != nil {
 			return fmt.Errorf("save index manifest after %s: %w", image.Path, err)
@@ -106,6 +114,30 @@ func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
 	}
 	fmt.Fprintf(out, "Index extraction complete: %d rows extracted, %d images skipped; manifest %s; output %s\n", written, skipped, manifestPath(cfg.indexCSV), cfg.indexCSV)
 	return nil
+}
+
+func extractIndexEntries(cfg config, client llmExecutor, image imageInput, out io.Writer) ([]indexEntry, error) {
+	entries, _, err := extractIndexEntriesWithIssues(cfg, client, image, out)
+	return entries, err
+}
+
+func extractIndexEntriesWithIssues(cfg config, client llmExecutor, image imageInput, out io.Writer) ([]indexEntry, []string, error) {
+	var parseErr error
+	for attempt := 1; attempt <= responseValidationAttempts; attempt++ {
+		raw, err := client.Exec(cfg.provider, cfg.model, indexPrompt, image.Path)
+		if err != nil {
+			return nil, nil, fmt.Errorf("extract index image %s: %w", image.Path, err)
+		}
+		entries, issues, err := parseIndexResponseWithIssues(raw, image.Volume)
+		if err == nil {
+			return entries, issues, nil
+		}
+		parseErr = err
+		if attempt < responseValidationAttempts {
+			fmt.Fprintf(out, "Invalid index response for %s (%v); retrying extraction (%d/%d)\n", image.Path, err, attempt+1, responseValidationAttempts)
+		}
+	}
+	return nil, nil, fmt.Errorf("parse index response for %s after %d attempts: %w", image.Path, responseValidationAttempts, parseErr)
 }
 
 func runLettersExtraction(cfg config, client llmExecutor, out io.Writer) error {
@@ -142,13 +174,16 @@ func runLettersExtraction(cfg config, client llmExecutor, out io.Writer) error {
 		if err != nil {
 			return fmt.Errorf("extract letters-table image %s: %w", image.Path, err)
 		}
-		entries, err := parseLettersResponse(raw, image.Volume)
+		entries, issues, err := parseLettersResponseWithIssues(raw, image.Volume)
 		if err != nil {
 			return fmt.Errorf("parse letters-table response for %s: %w", image.Path, err)
 		}
+		for _, issue := range issues {
+			fmt.Fprintf(out, "Warning: letters-table response for %s: %s; skipping entry\n", image.Path, issue)
+		}
 		manifest.Pages = upsertLettersPage(manifest.Pages, lettersPageResult{
 			ImagePath: cleanPath(image.Path), Volume: image.Volume, Provider: cfg.provider,
-			Model: cfg.model, ExtractedAt: time.Now().UTC(), Entries: entries,
+			Model: cfg.model, ExtractedAt: time.Now().UTC(), Entries: entries, Issues: issues,
 		})
 		if err := saveJSONAtomically(manifestPath(cfg.lettersCSV), manifest); err != nil {
 			return fmt.Errorf("save letters-table manifest after %s: %w", image.Path, err)
@@ -431,6 +466,7 @@ func validateOutputs(cfg config, out io.Writer) error {
 				return err
 			}
 			fmt.Fprintf(out, "Valid index dataset: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.indexCSV)
+			reportIssues("index", indexManifestIssues(manifest), out)
 		}
 	}
 	if includesKind(cfg.kind, kindLetters) {
@@ -454,6 +490,7 @@ func validateOutputs(cfg config, out io.Writer) error {
 				return err
 			}
 			fmt.Fprintf(out, "Valid letters-table dataset: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.lettersCSV)
+			reportIssues("letters", lettersManifestIssues(manifest), out)
 		}
 	}
 	return nil
@@ -614,6 +651,7 @@ func reportStatus(cfg config, out io.Writer) error {
 			return err
 		}
 		reportCompletion("index", images, indexCompleted(manifest), cfg.indexCSV, out)
+		reportIssues("index", indexManifestIssues(manifest), out)
 	}
 	if includesKind(cfg.kind, kindLetters) {
 		images, err := discoverImages(cfg.lettersDir)
@@ -625,6 +663,7 @@ func reportStatus(cfg config, out io.Writer) error {
 			return err
 		}
 		reportCompletion("letters", images, lettersCompleted(manifest), cfg.lettersCSV, out)
+		reportIssues("letters", lettersManifestIssues(manifest), out)
 	}
 	return nil
 }
@@ -637,4 +676,37 @@ func reportCompletion(label string, images []imageInput, completed map[string]bo
 		}
 	}
 	fmt.Fprintf(out, "%s: %d/%d images completed, %d pending; manifest %s\n", label, known, len(images), len(images)-known, manifestPath(outputPath))
+}
+
+func indexManifestIssues(manifest indexManifest) []pageIssues {
+	pages := make([]pageIssues, 0)
+	for _, page := range manifest.Pages {
+		if len(page.Issues) > 0 {
+			pages = append(pages, pageIssues{ImagePath: page.ImagePath, Issues: page.Issues})
+		}
+	}
+	return pages
+}
+
+func lettersManifestIssues(manifest lettersManifest) []pageIssues {
+	pages := make([]pageIssues, 0)
+	for _, page := range manifest.Pages {
+		if len(page.Issues) > 0 {
+			pages = append(pages, pageIssues{ImagePath: page.ImagePath, Issues: page.Issues})
+		}
+	}
+	return pages
+}
+
+func reportIssues(label string, pages []pageIssues, out io.Writer) {
+	total := 0
+	for _, page := range pages {
+		total += len(page.Issues)
+	}
+	fmt.Fprintf(out, "%s: %d tolerated parsing issues across %d affected images\n", label, total, len(pages))
+	for _, page := range pages {
+		for _, issue := range page.Issues {
+			fmt.Fprintf(out, "  %s: %s\n", page.ImagePath, issue)
+		}
+	}
 }

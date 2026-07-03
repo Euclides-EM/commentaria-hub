@@ -306,14 +306,20 @@ func isImagePath(path string) bool {
 }
 
 func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
+	entries, _, err := parseIndexResponseWithIssues(raw, volume)
+	return entries, err
+}
+
+func parseIndexResponseWithIssues(raw, volume string) ([]indexEntry, []string, error) {
 	response, err := parseStrictJSON[indexResponse](raw)
 	if err != nil {
-		return nil, err
+		return nil, nil, err
 	}
 	if response.Entries == nil {
-		return nil, errors.New("response requires an entries array")
+		return nil, nil, errors.New("response requires an entries array")
 	}
 	entries := make([]indexEntry, 0, len(response.Entries))
+	issues := make([]string, 0)
 	for i := range response.Entries {
 		entry := response.Entries[i]
 		entry.Name = strings.TrimSpace(entry.Name)
@@ -324,14 +330,19 @@ func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
 		}
 		entry.Volume = volume
 		if entry.Name == "" || (entry.PageNumber == "") == (entry.Reference == "") {
-			return nil, fmt.Errorf("entry %d requires name and exactly one of page_number or reference", i+1)
+			issues = append(issues, fmt.Sprintf(
+				"entry %d requires name and exactly one of page_number or reference (name=%q, page_number=%q, reference=%q)",
+				i+1, entry.Name, entry.PageNumber, entry.Reference,
+			))
+			continue
 		}
 		if entry.Reference != "" && entry.IsBold {
-			return nil, fmt.Errorf("entry %d cross-reference must not be bold", i+1)
+			issues = append(issues, fmt.Sprintf("entry %d cross-reference must not be bold (name=%q, reference=%q)", i+1, entry.Name, entry.Reference))
+			continue
 		}
 		entries = append(entries, entry)
 	}
-	return entries, nil
+	return entries, issues, nil
 }
 
 func isIndexSectionHeading(entry indexEntry) bool {
@@ -343,24 +354,36 @@ func isIndexSectionHeading(entry indexEntry) bool {
 }
 
 func parseLettersResponse(raw, volume string) ([]letterEntry, error) {
+	entries, _, err := parseLettersResponseWithIssues(raw, volume)
+	return entries, err
+}
+
+func parseLettersResponseWithIssues(raw, volume string) ([]letterEntry, []string, error) {
 	response, err := parseStrictJSON[lettersResponse](raw)
 	if err != nil {
-		return nil, err
+		return nil, nil, err
 	}
 	if response.Entries == nil {
-		return nil, errors.New("response requires an entries array")
+		return nil, nil, errors.New("response requires an entries array")
 	}
+	entries := make([]letterEntry, 0, len(response.Entries))
+	issues := make([]string, 0)
 	for i := range response.Entries {
-		entry := &response.Entries[i]
+		entry := response.Entries[i]
 		entry.LetterNumber = strings.TrimSpace(entry.LetterNumber)
 		entry.LetterName = strings.TrimSpace(entry.LetterName)
 		entry.PageNumber = strings.TrimSpace(entry.PageNumber)
 		entry.Volume = volume
 		if entry.LetterNumber == "" || entry.LetterName == "" || entry.PageNumber == "" {
-			return nil, fmt.Errorf("entry %d requires letter_number, letter_name, and page_number", i+1)
+			issues = append(issues, fmt.Sprintf(
+				"entry %d requires letter_number, letter_name, and page_number (letter_number=%q, letter_name=%q, page_number=%q)",
+				i+1, entry.LetterNumber, entry.LetterName, entry.PageNumber,
+			))
+			continue
 		}
+		entries = append(entries, entry)
 	}
-	return response.Entries, nil
+	return entries, issues, nil
 }
 
 func parseStrictJSON[T any](raw string) (T, error) {

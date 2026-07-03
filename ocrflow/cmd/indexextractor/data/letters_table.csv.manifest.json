@@ -1,0 +1,1838 @@
+{
+  "version": 1,
+  "kind": "letters",
+  "pages": [
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_1/PXL_20260702_105943882.jpg",
+      "volume": "vol_1",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:12:30.341354Z",
+      "entries": [
+        {
+          "letter_number": "1.",
+          "letter_name": "Claude Bredeau à Mersenne, 21 octobre 1617",
+          "page_number": "1"
+        },
+        {
+          "letter_number": "2.",
+          "letter_name": "Mersenne au P. Claude Rangueil, automne de 1617",
+          "page_number": "8"
+        },
+        {
+          "letter_number": "3.",
+          "letter_name": "Naquert à Mersenne, automne de 1617",
+          "page_number": "14"
+        },
+        {
+          "letter_number": "4.",
+          "letter_name": "A(rnauld) Bernard à Mersenne, automne de 1617?",
+          "page_number": "18"
+        },
+        {
+          "letter_number": "5.",
+          "letter_name": "Claude Bredeau à Mersenne, 24 novembre 1617",
+          "page_number": "31"
+        },
+        {
+          "letter_number": "6.",
+          "letter_name": "Le P. Jacques Saint-Remy à Mersenne, 3 octobre 1619",
+          "page_number": "40"
+        },
+        {
+          "letter_number": "7.",
+          "letter_name": "Claude Bredeau à Mersenne, 31 décembre 1619",
+          "page_number": "46"
+        },
+        {
+          "letter_number": "8.",
+          "letter_name": "Guillaume Bredeau à Mersenne, 17 août 1621",
+          "page_number": "57"
+        },
+        {
+          "letter_number": "9.",
+          "letter_name": "Claude Bredeau à Mersenne, 21 octobre 1621",
+          "page_number": "66"
+        },
+        {
+          "letter_number": "10",
+          "letter_name": "Jean Titelouze à Mersenne, 2 mars 1622",
+          "page_number": "72"
+        },
+        {
+          "letter_number": "11.",
+          "letter_name": "Claude Bredeau à Mersenne, 9 février-25 mars 1622",
+          "page_number": "84"
+        },
+        {
+          "letter_number": "12.",
+          "letter_name": "Claude Bredeau à Mersenne, 10 juillet 1622",
+          "page_number": "108"
+        },
+        {
+          "letter_number": "13.",
+          "letter_name": "Jean Titelouze à Mersenne, 9 août 1622",
+          "page_number": "113"
+        },
+        {
+          "letter_number": "14.",
+          "letter_name": "Claude Bredeau à Mersenne, 2 novembre 1622",
+          "page_number": "119"
+        },
+        {
+          "letter_number": "15.",
+          "letter_name": "Mersenne à Jean-François de Gondi, janvier 1623",
+          "page_number": "124"
+        },
+        {
+          "letter_number": "16.",
+          "letter_name": "Mersenne à Jacques Halle, janvier 1623",
+          "page_number": "139"
+        },
+        {
+          "letter_number": "17.",
+          "letter_name": "Claude Bredeau à Mersenne, 23 février 1623",
+          "page_number": "143"
+        },
+        {
+          "letter_number": "18.",
+          "letter_name": "Claude Bredeau à Mersenne, 17 octobre 1623",
+          "page_number": "150"
+        },
+        {
+          "letter_number": "19.",
+          "letter_name": "Mersenne à Richelieu, 8 juin 1624",
+          "page_number": "156"
+        },
+        {
+          "letter_number": "20.",
+          "letter_name": "Mersenne à Mathieu Molé, 9 juillet 1624",
+          "page_number": "163"
+        },
+        {
+          "letter_number": "21.",
+          "letter_name": "..... à Mersenne (été de 1624?)",
+          "page_number": "169"
+        },
+        {
+          "letter_number": "22.",
+          "letter_name": "Claude Bredeau à Mersenne, 10 septembre 1624",
+          "page_number": "173"
+        },
+        {
+          "letter_number": "23.",
+          "letter_name": "Le P. Tommaso Campanella à Mersenne, 24 octobre 1624",
+          "page_number": "177"
+        },
+        {
+          "letter_number": "24.",
+          "letter_name": "Claude Bredeau à Mersenne, 24 octobre 1624",
+          "page_number": "181"
+        },
+        {
+          "letter_number": "25.",
+          "letter_name": "Claude Bredeau à Mersenne, 11 décembre 1624",
+          "page_number": "185"
+        },
+        {
+          "letter_number": "26.",
+          "letter_name": "Claude Bredeau à Mersenne, 30 janvier 1625",
+          "page_number": "189"
+        },
+        {
+          "letter_number": "27.",
+          "letter_name": "Le P. Jean Chastelier à Mersenne, 12 avril 1625",
+          "page_number": "197"
+        },
+        {
+          "letter_number": "28.",
+          "letter_name": "Mersenne au P. Denis Petau (1625?)",
+          "page_number": "208"
+        },
+        {
+          "letter_number": "29.",
+          "letter_name": "Claude Bredeau à Mersenne, 16 mai 1625",
+          "page_number": "215"
+        },
+        {
+          "letter_number": "30.",
+          "letter_name": "Jacques Gaffarel contre Mersenne (printemps de 1625)",
+          "page_number": "224"
+        },
+        {
+          "letter_number": "31.",
+          "letter_name": "Nicolas-Claude Fabri de Peiresc à son frère, 10 juillet 1625",
+          "page_number": "234"
+        },
+        {
+          "letter_number": "32.",
+          "letter_name": "(Robert) Cornier à Mersenne, 27 juillet 1625",
+          "page_number": "235"
+        },
+        {
+          "letter_number": "33.",
+          "letter_name": "Mersenne à Gaston d’Orléans, 1er août 1625",
+          "page_number": "251"
+        },
+        {
+          "letter_number": "34.",
+          "letter_name": "René Descartes à Mersenne (?) (été de 1625)",
+          "page_number": "256"
+        }
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_1/PXL_20260702_105953377.jpg",
+      "volume": "vol_1",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:13:03.459851Z",
+      "entries": [
+        {
+          "letter_number": "35.",
+          "letter_name": "(Robert) Cornier à Mersenne (18 août) 1625",
+          "page_number": "260"
+        },
+        {
+          "letter_number": "36.",
+          "letter_name": "Claude Mydorge à ..... (1625)",
+          "page_number": "269"
+        },
+        {
+          "letter_number": "37.",
+          "letter_name": "Henry de Stanihurst à Mersenne, septembre 1625",
+          "page_number": "274"
+        },
+        {
+          "letter_number": "38.",
+          "letter_name": "(Robert) Cornier à Mersenne, 21 septembre 1625",
+          "page_number": "289"
+        },
+        {
+          "letter_number": "39.",
+          "letter_name": "Mersenne à Nicolas-Claude Fabri de Peiresc, 13 novembre 1625",
+          "page_number": "303"
+        },
+        {
+          "letter_number": "40.",
+          "letter_name": "(Robert) Cornier à Mersenne, 23 novembre 1625",
+          "page_number": "308"
+        },
+        {
+          "letter_number": "41.",
+          "letter_name": "Claude Bredeau à Mersenne, 12 décembre 1625",
+          "page_number": "316"
+        },
+        {
+          "letter_number": "42.",
+          "letter_name": "..... Lefebvre à Mersenne, 14 décembre 1625",
+          "page_number": "321"
+        },
+        {
+          "letter_number": "43.",
+          "letter_name": "(Robert) Cornier à Mersenne, 16 janvier 1626",
+          "page_number": "327"
+        },
+        {
+          "letter_number": "44.",
+          "letter_name": "..... à Mersenne (janvier 1626)",
+          "page_number": "337"
+        },
+        {
+          "letter_number": "45.",
+          "letter_name": "(Robert) Cornier à Mersenne, 27 janvier 1626",
+          "page_number": "350"
+        },
+        {
+          "letter_number": "46.",
+          "letter_name": "Nicolas-Claude Fabri de Peiresc à son frère, 28 janvier 1626",
+          "page_number": "359"
+        },
+        {
+          "letter_number": "47.",
+          "letter_name": "Le Fr. Jean François à Mersenne (fin de janvier 1626)",
+          "page_number": "360"
+        },
+        {
+          "letter_number": "48.",
+          "letter_name": "Le Fr. Jean François à Mersenne (fin de janvier 1626)",
+          "page_number": "369"
+        },
+        {
+          "letter_number": "49.",
+          "letter_name": "Philippe Fortin de la Hoguette à Pierre Dupuy, 9 février 1626",
+          "page_number": "379"
+        },
+        {
+          "letter_number": "50.",
+          "letter_name": "Claude Bredeau à Mersenne, 23 février 1626",
+          "page_number": "380"
+        },
+        {
+          "letter_number": "51.",
+          "letter_name": "(René Descartes) à Mersenne (fin de février 1626)",
+          "page_number": "401"
+        },
+        {
+          "letter_number": "52.",
+          "letter_name": "Claude Mydorge à (Mersenne) (février-mars 1626?)",
+          "page_number": "404"
+        },
+        {
+          "letter_number": "53.",
+          "letter_name": "(Robert) Cornier à Mersenne, 16 mars 1626",
+          "page_number": "416"
+        },
+        {
+          "letter_number": "54.",
+          "letter_name": "(Robert) Cornier à Mersenne, 22 mars 1626",
+          "page_number": "427"
+        },
+        {
+          "letter_number": "55.",
+          "letter_name": "Jean-Baptiste Doni à Mersenne (mars ou avril 1626)",
+          "page_number": "437"
+        },
+        {
+          "letter_number": "56.",
+          "letter_name": "Le Fr. Jean François à Mersenne, 5 avril 1626",
+          "page_number": "440"
+        },
+        {
+          "letter_number": "57.",
+          "letter_name": "Le Fr. Jean François à Mersenne, 10 avril 1626",
+          "page_number": "448"
+        },
+        {
+          "letter_number": "58.",
+          "letter_name": "Mersenne au P. Simon Bachelier (avril) 1626",
+          "page_number": "456"
+        },
+        {
+          "letter_number": "59.",
+          "letter_name": "Mersenne à Henri de Refuge (avril) 1626",
+          "page_number": "459"
+        },
+        {
+          "letter_number": "60.",
+          "letter_name": "Mersenne au P. François de la Noue (avril) 1626",
+          "page_number": "462"
+        },
+        {
+          "letter_number": "61.",
+          "letter_name": "Sixten Amama à André Rivet juin, 1626",
+          "page_number": "475"
+        },
+        {
+          "letter_number": "62.",
+          "letter_name": "Le P. Jean Chastelier à Mersenne, 11 juillet 1626",
+          "page_number": "478"
+        },
+        {
+          "letter_number": "63.",
+          "letter_name": "Claude Bredeau à Mersenne, 19 juillet 1626",
+          "page_number": "482"
+        },
+        {
+          "letter_number": "64.",
+          "letter_name": "(Robert) Cornier à Mersenne, 1er septembre 1626?",
+          "page_number": "485"
+        },
+        {
+          "letter_number": "65.",
+          "letter_name": "Claude Bredeau à Mersenne, 15 septembre 1626",
+          "page_number": "495"
+        },
+        {
+          "letter_number": "66.",
+          "letter_name": "Sixten Amama à André Rivet, 6 octobre 1626",
+          "page_number": "506"
+        },
+        {
+          "letter_number": "67.",
+          "letter_name": "..... Faure à Mersenne, 19 décembre 1626",
+          "page_number": "507"
+        },
+        {
+          "letter_number": "68.",
+          "letter_name": "Le Fr. Jean François à Mersenne, 7 janvier 1627",
+          "page_number": "510"
+        },
+        {
+          "letter_number": "69.",
+          "letter_name": "Pierre Leloyer à Mersenne, 13 février 1627",
+          "page_number": "517"
+        },
+        {
+          "letter_number": "70.",
+          "letter_name": "Sixten Amama à Mersenne, 2 mars 1627",
+          "page_number": "525"
+        },
+        {
+          "letter_number": "71.",
+          "letter_name": "Le Fr. Jean François à Mersenne, 4 avril 1627",
+          "page_number": "537"
+        },
+        {
+          "letter_number": "72.",
+          "letter_name": "Mersenne à Henri de Refuge (printemps de 1627)",
+          "page_number": "542"
+        },
+        {
+          "letter_number": "72 bis.",
+          "letter_name": "André Rivet à Sixten Amama, 5 juillet 1627",
+          "page_number": "549"
+        },
+        {
+          "letter_number": "73.",
+          "letter_name": "Claude Bredeau à Mersenne, 5 août 1627",
+          "page_number": "550"
+        },
+        {
+          "letter_number": "74.",
+          "letter_name": "Pierre Leloyer à Mersenne, 23 août 1627",
+          "page_number": "557"
+        },
+        {
+          "letter_number": "75.",
+          "letter_name": "Claude Bredeau à Mersenne, 31 août 1627",
+          "page_number": "562"
+        }
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_1/PXL_20260702_105956903.jpg",
+      "volume": "vol_1",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:14:35.176463Z",
+      "entries": [
+        {
+          "letter_number": "76.",
+          "letter_name": "Mersenne à Antoine Goutel (septembre 1627)",
+          "page_number": "574"
+        },
+        {
+          "letter_number": "77.",
+          "letter_name": "Claude Bredeau à Mersenne, 4 octobre 1627",
+          "page_number": "580"
+        },
+        {
+          "letter_number": "78.",
+          "letter_name": "Jacques Dupuy à Peiresc, 2 novembre 1627",
+          "page_number": "586"
+        },
+        {
+          "letter_number": "79.",
+          "letter_name": "Claude Bredeau à Mersenne, 2 novembre 1627",
+          "page_number": "587"
+        },
+        {
+          "letter_number": "80.",
+          "letter_name": "(Robert) Cornier à Mersenne, 15 novembre 1627",
+          "page_number": "591"
+        },
+        {
+          "letter_number": "81.",
+          "letter_name": "Mersenne à Luc Holste (novembre 1627?)",
+          "page_number": "602"
+        },
+        {
+          "letter_number": "82.",
+          "letter_name": "Nicolas-Claude de Peiresc à Jacques Dupuy, 8 décembre 1627",
+          "page_number": "609"
+        },
+        {
+          "letter_number": "83.",
+          "letter_name": "(Robert) Cornier à Mersenne, 24 décembre 1627",
+          "page_number": "610"
+        },
+        {
+          "letter_number": "84.",
+          "letter_name": "Le P. Nicolas Lesguillier à Mersenne",
+          "page_number": "622"
+        },
+        {
+          "letter_number": "85.",
+          "letter_name": "Le Fr. Guillaume de Saint-Faron à Mersenne",
+          "page_number": "625"
+        },
+        {
+          "letter_number": "86.",
+          "letter_name": "René Moreau à Mersenne",
+          "page_number": "632"
+        }
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_10/PXL_20260702_120346925.jpg",
+      "volume": "vol_10",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:15:58.355283Z",
+      "entries": [
+        {
+          "letter_number": "903.",
+          "letter_name": "André Rivet, de La Haye, à Const. Huygens, (à Rhijnberck), 6 août 1640",
+          "page_number": "1"
+        },
+        {
+          "letter_number": "904.",
+          "letter_name": "Const. Huygens, de Rhijnberck, à J.-A. Ban, à Haarlem, 11 août 1640",
+          "page_number": "2"
+        },
+        {
+          "letter_number": "905.",
+          "letter_name": "J.-A. Ban, de Haarlem, à Const. Huygens, à Rhijnberck, 13 août 1640",
+          "page_number": "3"
+        },
+        {
+          "letter_number": "906.",
+          "letter_name": "Const. Huygens, de Rhijnbeck, à Descartes, à Leyde, 14 août 1640",
+          "page_number": "4"
+        },
+        {
+          "letter_number": "907.",
+          "letter_name": "Le P. Lacombe, de Blaye, à Mersenne, à Paris, 18 août 1640",
+          "page_number": "6"
+        },
+        {
+          "letter_number": "908.",
+          "letter_name": "Const. Huygens, de Rhijnbeck, à A. Rivet, à La Haye, 20 août 1640",
+          "page_number": "17"
+        },
+        {
+          "letter_number": "909.",
+          "letter_name": "J.-A. Ban, de Harlem, à A.-M. van Schuurman, à Utrecht, 20 août 1640",
+          "page_number": "18"
+        },
+        {
+          "letter_number": "910.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 21 août (1640)",
+          "page_number": "47"
+        },
+        {
+          "letter_number": "911.",
+          "letter_name": "Le P. J.-B. Geoffroy, d’Orléans, à Mersenne, à Paris, 24 août 1640",
+          "page_number": "62"
+        },
+        {
+          "letter_number": "912.",
+          "letter_name": "B. Cavalieri, de Bologne, à Giann. Rocca, à Modène, 28 août 1640",
+          "page_number": "67"
+        },
+        {
+          "letter_number": "913.",
+          "letter_name": "Deschamps, de Bergerac, à Mersenne, à Paris, 29 août 1640",
+          "page_number": "70"
+        },
+        {
+          "letter_number": "914.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 30 août 1640",
+          "page_number": "83"
+        },
+        {
+          "letter_number": "915.",
+          "letter_name": "C. Huygens, près de Grave, à Mersenne, à Paris, 31 août 1640",
+          "page_number": "92"
+        },
+        {
+          "letter_number": "916.",
+          "letter_name": "Fermat, de Toulouse, à Bernard Frenicle, (à Paris), (août-sept. 1640)",
+          "page_number": "93"
+        },
+        {
+          "letter_number": "917.",
+          "letter_name": "Ch. Cavendish, de Wellingor, à Mersenne, à Paris, 22 août/1er septem-bre 1640",
+          "page_number": "96"
+        },
+        {
+          "letter_number": "918.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 15 septembre 1640",
+          "page_number": "100"
+        },
+        {
+          "letter_number": "919.",
+          "letter_name": "Cavalieri, de Bologne, à Rocca, à Modène, 23 septembre 1640",
+          "page_number": "108"
+        },
+        {
+          "letter_number": "920.",
+          "letter_name": "J.-A. Ban, de Harlem, à Const. Huygens, à Grave, 23 septembre 1640",
+          "page_number": "112"
+        },
+        {
+          "letter_number": "921.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 30 septembre 1640",
+          "page_number": "115"
+        },
+        {
+          "letter_number": "922.",
+          "letter_name": "J.-B. Baliani, de Gênes, à Mersenne, à Paris, 1er octobre 1640",
+          "page_number": "127"
+        },
+        {
+          "letter_number": "923.",
+          "letter_name": "Le P. Lacombe, de Blaye, à Mersenne, à Paris, 3 octobre 1640",
+          "page_number": "133"
+        },
+        {
+          "letter_number": "924.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 4 octobre 1640",
+          "page_number": "150"
+        },
+        {
+          "letter_number": "925.",
+          "letter_name": "C. Huygens, de La Haye, à Descartes, à Leyde, 8 octobre 1640",
+          "page_number": "160"
+        },
+        {
+          "letter_number": "926.",
+          "letter_name": "Cavalieri, de Bologne, à Galilée, à Arcetri, 23 octobre 1640",
+          "page_number": "162"
+        },
+        {
+          "letter_number": "927.",
+          "letter_name": "Gisbert Voët, d’Utrecht, à Mersenne, à Paris, (fin octobre 1640)",
+          "page_number": "163"
+        },
+        {
+          "letter_number": "928.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 28 octobre 1640",
+          "page_number": "167"
+        },
+        {
+          "letter_number": "929.",
+          "letter_name": "Descartes à Mersenne contre le P. Bourdin, 28 octobre 1640",
+          "page_number": "183"
+        },
+        {
+          "letter_number": "930.",
+          "letter_name": "Const. Huygens, de La Haye, à Descartes, à Leyde, 29 octobre 1640",
+          "page_number": "190"
+        },
+        {
+          "letter_number": "931.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, (fin octobre 1640)",
+          "page_number": "191"
+        },
+        {
+          "letter_number": "932.",
+          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 3 novembre 1640",
+          "page_number": "200"
+        },
+        {
+          "letter_number": "933.",
+          "letter_name": "Mersenne, de Paris, à Huygens, à La Haye, 3 novembre 1640",
+          "page_number": "205"
+        },
+        {
+          "letter_number": "934.",
+          "letter_name": "Const. Huygens, de La Haye, à Ant. Boësset, à Paris, 5 novembre 1640",
+          "page_number": "208"
+        },
+        {
+          "letter_number": "935.",
+          "letter_name": "Th. Hobbes, de Londres, à Mersenne, à Paris, 5 novembre 1640",
+          "page_number": "210"
+        },
+        {
+          "letter_number": "936.",
+          "letter_name": "J. de Beaugrand, de Paris, à B. Cavalieri, à Bologne, 8 novembre 1640",
+          "page_number": "213"
+        },
+        {
+          "letter_number": "937.",
+          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 10 novembre 1640",
+          "page_number": "216"
+        },
+        {
+          "letter_number": "938.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 11 novembre 1640",
+          "page_number": "223"
+        },
+        {
+          "letter_number": "939.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, (11 novembre 1640)",
+          "page_number": "232"
+        },
+        {
+          "letter_number": "940.",
+          "letter_name": "Descartes, de Leyde, à Huygens, à La Haye, 14 novembre 1640",
+          "page_number": "235"
+        },
+        {
+          "letter_number": "941.",
+          "letter_name": "Mersenne, de Paris, à Const. Huygens, à La Haye, 15 novembre 1640",
+          "page_number": "236"
+        },
+        {
+          "letter_number": "942.",
+          "letter_name": "A. Boësset, de Paris, à C. Huygens, à La Haye,",
+          "page_number": "250"
+        }
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_10/PXL_20260702_120353294.jpg",
+      "volume": "vol_10",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:26:56.575816Z",
+      "entries": [
+        {
+          "letter_number": "943.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 18 novembre 1640",
+          "page_number": "254"
+        },
+        {
+          "letter_number": "944.",
+          "letter_name": "J. de Goliÿ, de Paris, à (Mersenne), à Paris, 15 ou 21 novembre 1640",
+          "page_number": "258"
+        },
+        {
+          "letter_number": "945.",
+          "letter_name": "Mersenne, de Paris, à Comenius, à Leszno, 22 novembre 1640",
+          "page_number": "263"
+        },
+        {
+          "letter_number": "946.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 24 (novembre 1640)",
+          "page_number": "275"
+        },
+        {
+          "letter_number": "947.",
+          "letter_name": "A. Rivet, de La Haye, à Mersenne, à Paris, 25 novembre 1640",
+          "page_number": "284"
+        },
+        {
+          "letter_number": "948.",
+          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 25 novembre 1640",
+          "page_number": "293"
+        },
+        {
+          "letter_number": "949.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 3 décembre 1640",
+          "page_number": "297"
+        },
+        {
+          "letter_number": "950.",
+          "letter_name": "J. Hübner, de Londres, à Comenius, à Leszno, 27 novembre/7 décembre 1640",
+          "page_number": "304"
+        },
+        {
+          "letter_number": "951.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 9-10 décembre 1640",
+          "page_number": "307"
+        },
+        {
+          "letter_number": "952.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, (10 ou 17 déc. 1640)",
+          "page_number": "323"
+        },
+        {
+          "letter_number": "953.",
+          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 14 décembre 1640",
+          "page_number": "333"
+        },
+        {
+          "letter_number": "954.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, (24 décembre 1640)",
+          "page_number": "341"
+        },
+        {
+          "letter_number": "955.",
+          "letter_name": "Fermat, de Toulouse, à Mersenne, à Paris, 25 décembre 1640",
+          "page_number": "348"
+        },
+        {
+          "letter_number": "956.",
+          "letter_name": "Descartes, à Leyde, à Mersenne, à Paris, (31 décembre 1640)",
+          "page_number": "356"
+        },
+        {
+          "letter_number": "957.",
+          "letter_name": "Deschamps, de Bergerac, à Mersenne, à Paris, Décembre 1640",
+          "page_number": "364"
+        },
+        {
+          "letter_number": "958.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 3 janvier (1641)",
+          "page_number": "376"
+        },
+        {
+          "letter_number": "958 bis.",
+          "letter_name": "Torricelli, de (Fabriano), à Maggiotti, à Rome, 5 janvier 1641",
+          "page_number": "393"
+        },
+        {
+          "letter_number": "959.",
+          "letter_name": "Borrilly, d’Aix, au P. Niceron, alors à Paris, 8 janvier 1641",
+          "page_number": "395"
+        },
+        {
+          "letter_number": "960.",
+          "letter_name": "J.-A. Ban, de Harlem, à C. Huygens, à La Haye, 12 janvier 1641",
+          "page_number": "398"
+        },
+        {
+          "letter_number": "961.",
+          "letter_name": "J.-A. Ban, de Harlem, à Mersenne, à Paris, 13 janvier 1641",
+          "page_number": "400"
+        },
+        {
+          "letter_number": "962.",
+          "letter_name": "J.-A. Ban, de Harlem, à Const. Huygens, à La Haye, 13 janvier 1641",
+          "page_number": "405"
+        },
+        {
+          "letter_number": "963.",
+          "letter_name": "C. Huygens, de La Haye, à Descartes, à Leyde, 15 janvier 1641",
+          "page_number": "406"
+        },
+        {
+          "letter_number": "964.",
+          "letter_name": "Descartes, de Leyde, à Huygens, à La Haye, 16 janvier 1641",
+          "page_number": "408"
+        },
+        {
+          "letter_number": "965.",
+          "letter_name": "Huygens, de La Haye, à J.-A. Ban, à Harlem, 16 janvier 1641",
+          "page_number": "411"
+        },
+        {
+          "letter_number": "966.",
+          "letter_name": "J.-A. Ban, de Harlem, à C. Huygens, à La Haye, 18 janvier 1641",
+          "page_number": "414"
+        },
+        {
+          "letter_number": "967.",
+          "letter_name": "Huygens, de La Haye, à Ant. Boësset, à Paris, 19 janvier 1641",
+          "page_number": "416"
+        },
+        {
+          "letter_number": "968.",
+          "letter_name": "Huygens, de La Haye, à Ban, à Harlem, 20 janvier 1641",
+          "page_number": "418"
+        },
+        {
+          "letter_number": "969.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, (21 janvier 1641)",
+          "page_number": "420"
+        },
+        {
+          "letter_number": "970.",
+          "letter_name": "Descartes, à Mersenne, pour Hobbes, à Paris (21 janvier 1641)",
+          "page_number": "426"
+        },
+        {
+          "letter_number": "971.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, (28 janvier 1641)",
+          "page_number": "434"
+        },
+        {
+          "letter_number": "972.",
+          "letter_name": "Deschamps, de Bergerac, à Mersenne, à Paris, 31 janvier 1641",
+          "page_number": "447"
+        },
+        {
+          "letter_number": "973.",
+          "letter_name": "J.-A. Ban, de Harlem, à Const. Huygens, à La Haye, 31 janvier 1641",
+          "page_number": "450"
+        },
+        {
+          "letter_number": "974.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 1er février 1641",
+          "page_number": "452"
+        },
+        {
+          "letter_number": "975.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 3 février 1641",
+          "page_number": "469"
+        },
+        {
+          "letter_number": "976.",
+          "letter_name": "Hobbes, de Paris, à Mersenne, pour Descartes en Hollande, 7 février 1641",
+          "page_number": "487"
+        },
+        {
+          "letter_number": "977.",
+          "letter_name": "Hobbes, de Paris, à Ch. Cavendish, à Wellingor, 8 février 1641",
+          "page_number": "501"
+        },
+        {
+          "letter_number": "978.",
+          "letter_name": "Cavalieri, de Bologne, à Galilée, à Arcetri, 12 février 1641",
+          "page_number": "507"
+        },
+        {
+          "letter_number": "979.",
+          "letter_name": "Rivet, de La Haye, à Huygens, même ville, 15 février 1641",
+          "page_number": "508"
+        },
+        {
+          "letter_number": "980.",
+          "letter_name": "G. Naudé, de Rome, à Doni, à Florence, 16 février 1641",
+          "page_number": "509"
+        },
+        {
+          "letter_number": "981.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, pour Hobbes, à Paris, (18 février 1641)",
+          "page_number": "511"
+        },
+        {
+          "letter_number": "982.",
+          "letter_name": "Const. Huygens, de La Haye, à J.-A. Ban, à Harlem, 23 février 1641",
+          "page_number": "517"
+        },
+        {
+          "letter_number": "983.",
+          "letter_name": "J.-A. Ban, de Harlem, à C. Huygens, à La Haye, 24 février 1641",
+          "page_number": "518"
+        },
+        {
+          "letter_number": "984.",
+          "letter_name": "Mersenne, de Paris, à Cavalieri, à Bologne, 1er mars 1641",
+          "page_number": "519"
+        },
+        {
+          "letter_number": "985.",
+          "letter_name": "J.-A. Ban, de Harlem, à Const. Huygens, à La Haye, 3 mars 1641",
+          "page_number": "521"
+        },
+        {
+          "letter_number": "986.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 4 mars 1641",
+          "page_number": "522"
+        },
+        {
+          "letter_number": "987.",
+          "letter_name": "C. Huygens, de La Haye, à J.-A. Ban, à Harlem, 11 mars 1641",
+          "page_number": "537"
+        },
+        {
+          "letter_number": "988.",
+          "letter_name": "P. Gassend, de Paris, à L.-Em. de Valois, à Aix, 15 mars 1641",
+          "page_number": "538"
+        },
+        {
+          "letter_number": "989.",
+          "letter_name": "Saumaise, de Paris, à A. Rivet, à La Haye, 15 mars 1641",
+          "page_number": "539"
+        },
+        {
+          "letter_number": "990.",
+          "letter_name": "G. Naudé, de Rome, à Doni, à Florence, 16 mars 1641",
+          "page_number": "540"
+        }
+      ],
+      "issues": [
+        "entry 19 requires letter_number, letter_name, and page_number (letter_number=\"959 bis.\", letter_name=\"\", page_number=\"397\")"
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_10/PXL_20260702_120357593.jpg",
+      "volume": "vol_10",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:28:57.103854Z",
+      "entries": [
+        {
+          "letter_number": "991.",
+          "letter_name": "Descartes, de Leyde, à Mersenne, à Paris, 18 mars 1641",
+          "page_number": "541"
+        },
+        {
+          "letter_number": "992.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 23 mars 1641",
+          "page_number": "549"
+        },
+        {
+          "letter_number": "993.",
+          "letter_name": "Fermat, de Toulouse, à Mersenne, à Paris, 26 mars 1641",
+          "page_number": "565"
+        },
+        {
+          "letter_number": "994.",
+          "letter_name": "Hobbes, de Paris, à Mersenne, pour Descartes, en Hollande, 30 mars 1641",
+          "page_number": "568"
+        },
+        {
+          "letter_number": "995.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris, 31 mars 1641",
+          "page_number": "578"
+        },
+        {
+          "letter_number": "996.",
+          "letter_name": "G. Naudé, de Rome, à J.-B. Doni, à Florence, 13 avril 1641",
+          "page_number": "581"
+        },
+        {
+          "letter_number": "997.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris, 21 avril 1641",
+          "page_number": "582"
+        },
+        {
+          "letter_number": "998.",
+          "letter_name": "Descartes, à Mersenne, pour Hobbes, à Paris, 21 avril 1641",
+          "page_number": "588"
+        },
+        {
+          "letter_number": "999.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 28 avril 1641",
+          "page_number": "592"
+        },
+        {
+          "letter_number": "1000.",
+          "letter_name": "Mersenne, de Paris, à John Pell, à Londres, 1er mai 1641",
+          "page_number": "610"
+        },
+        {
+          "letter_number": "1001.",
+          "letter_name": "Deschamps, de Bergerac, à Mersenne, à Paris, 2 mai 1641",
+          "page_number": "612"
+        },
+        {
+          "letter_number": "1002.",
+          "letter_name": "P. Gassend, de Paris, à L.-Em. de Valois, à Aix, 3 mai 1641",
+          "page_number": "629"
+        },
+        {
+          "letter_number": "1003.",
+          "letter_name": "G. Wendelin, de Herck, à Const. Huygens, à La Haye, 7 mai 1641",
+          "page_number": "630"
+        },
+        {
+          "letter_number": "1004.",
+          "letter_name": "Const. Huygens, de La Haye, à A. Rivet, à Londres, 9 mai 1641",
+          "page_number": "632"
+        },
+        {
+          "letter_number": "1005.",
+          "letter_name": "J. Pujos, de Lyon, à Mersenne, à Paris, 9 mai 1641",
+          "page_number": "633"
+        },
+        {
+          "letter_number": "1006.",
+          "letter_name": "P. Gassend, de Paris, à Descartes, à Endegeest, 16 mai 1641",
+          "page_number": "640"
+        },
+        {
+          "letter_number": "1007.",
+          "letter_name": "P. Gassend, de Paris, à L. de Valois, à Aix, 17 mai 1641",
+          "page_number": "642"
+        },
+        {
+          "letter_number": "1008.",
+          "letter_name": "X. ?..., de Paris, pour Descartes, à Endegeest, 19 mai 1641",
+          "page_number": "643"
+        },
+        {
+          "letter_number": "1009.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 1er juin 1641",
+          "page_number": "646"
+        },
+        {
+          "letter_number": "1010.",
+          "letter_name": "Fermat, de la campagne, à Mersenne, à Paris, 15 juin (avec appen- dice pour Frenicle)",
+          "page_number": "653"
+        },
+        {
+          "letter_number": "1011.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris, (16 juin 1641) (avec appendice)",
+          "page_number": "662"
+        },
+        {
+          "letter_number": "1012.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris, 23 juin 1641",
+          "page_number": "672"
+        },
+        {
+          "letter_number": "1013.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris, (juillet 1641)",
+          "page_number": "679"
+        },
+        {
+          "letter_number": "1014.",
+          "letter_name": "Const. Huygens, d’Offelen, à Descartes, à Endegeest, 17 juillet 1641",
+          "page_number": "685"
+        },
+        {
+          "letter_number": "1015.",
+          "letter_name": "Gassend, de Paris, à L. de Valois, à Toulon, 19 juillet 1641",
+          "page_number": "687"
+        },
+        {
+          "letter_number": "1016.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris, (22 juillet 1641)",
+          "page_number": "689"
+        },
+        {
+          "letter_number": "1017.",
+          "letter_name": "Descartes, d’(Endegeest), à (J. de Launoy, à Paris), 22 juillet 1641",
+          "page_number": "693"
+        },
+        {
+          "letter_number": "1018.",
+          "letter_name": "Descartes, d’Endegeest, à Huygens, à La Haye, 29 juillet 1641",
+          "page_number": "696"
+        },
+        {
+          "letter_number": "1019.",
+          "letter_name": "J. Pujos, de (Lyon), à Mersenne, à Paris, (juillet-août 1641)",
+          "page_number": "698"
+        },
+        {
+          "letter_number": "1020.",
+          "letter_name": "B. Cavalieri, de Bologne, à Rocca, à Modène, 3 août 1641",
+          "page_number": "707"
+        },
+        {
+          "letter_number": "1021.",
+          "letter_name": "Ch. Cavendish, de Wellingor, à John Pell, à Londres, 24 juillet/(3 août 1641",
+          "page_number": "709"
+        },
+        {
+          "letter_number": "1022.",
+          "letter_name": "C. Huygens, de Gennep, à Ban, à Harlem, 13 août 1641",
+          "page_number": "710"
+        },
+        {
+          "letter_number": "1023.",
+          "letter_name": "B. Cavalieri, de Bologne, à Galilée, à Arcetri, 20 août 1641",
+          "page_number": "711"
+        },
+        {
+          "letter_number": "1024.",
+          "letter_name": "Huygens, de La Haye, à Wendelin, à Herck, 24 août 1641",
+          "page_number": "714"
+        },
+        {
+          "letter_number": "1025.",
+          "letter_name": "Villiers, de Sens, à Mersenne, à Paris, 24 août 1641",
+          "page_number": "715"
+        },
+        {
+          "letter_number": "1026.",
+          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 26 août 1641",
+          "page_number": "718"
+        },
+        {
+          "letter_number": "1027.",
+          "letter_name": "Hübner et Haak, de Londres, à Mersenne, à Paris, 29 août 1641",
+          "page_number": "725"
+        },
+        {
+          "letter_number": "1028.",
+          "letter_name": "Laz. Meyssonnier, de Paris, à J. van Beverwyk, à Dordrecht, 1er sep- tembre 1641",
+          "page_number": "738"
+        },
+        {
+          "letter_number": "1029.",
+          "letter_name": "Le P. Parran, de Pontoise, à Mersenne, à Paris, 7 septembre 1641 (avec",
+          "page_number": "740"
+        },
+        {
+          "letter_number": "1030.",
+          "letter_name": "Martin Ruar, de Danzig, à Mersenne, à Paris, 13 septembre 1641 (avec liste d’ouvrages en appendice)",
+          "page_number": "749"
+        },
+        {
+          "letter_number": "1031.",
+          "letter_name": "Cavalieri, de Bologne, à Rocca, à Modène, 19 septembre 1641",
+          "page_number": "751"
+        },
+        {
+          "letter_number": "1032.",
+          "letter_name": "Le P. Santini, de Gênes, à Galilée, à Arcetri, 21 septembre 1641",
+          "page_number": "753"
+        },
+        {
+          "letter_number": "1033.",
+          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 23 septembre 1641",
+          "page_number": "759"
+        },
+        {
+          "letter_number": "1034.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris (septembre 1641)",
+          "page_number": "763"
+        },
+        {
+          "letter_number": "1035.",
+          "letter_name": "A. Rivet, de La Haye, à Huygens, à Berg-op-Zoom, 1er octobre 1641",
+          "page_number": "765"
+        }
+      ],
+      "issues": [
+        "entry 46 requires letter_number, letter_name, and page_number (letter_number=\"1036.\", letter_name=\"J. van Beverwyck, de Dordrecht, à L. Meyssonnier, à Paris, 6 octobre 1641\", page_number=\"\")"
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_10/PXL_20260702_120402900.jpg",
+      "volume": "vol_10",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:29:38.490003Z",
+      "entries": [
+        {
+          "letter_number": "1037.",
+          "letter_name": "Huygens, de Berg-op-Zoom, à Rivet, à La Haye, 8 octobre 1641",
+          "page_number": "766"
+        },
+        {
+          "letter_number": "1038.",
+          "letter_name": "Wendelin, de Herck, à Huygens, à Dordrecht (?), (26 octobre 1641)",
+          "page_number": "768"
+        },
+        {
+          "letter_number": "1039.",
+          "letter_name": "Cavalieri, de Bologne, à Torricelli, à Florence, 30 octobre 1641",
+          "page_number": "769"
+        },
+        {
+          "letter_number": "1040.",
+          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 1er novembre 1641",
+          "page_number": "771"
+        },
+        {
+          "letter_number": "1041.",
+          "letter_name": "Cavalieri, de Bologne, à Rocca, à Reggio, 1er novembre 1641",
+          "page_number": "777"
+        },
+        {
+          "letter_number": "1042.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris, 17 novembre 1641",
+          "page_number": "779"
+        },
+        {
+          "letter_number": "1043.",
+          "letter_name": "B. Cavalieri, de Bologne, à G. Rocca, à Reggio, 18 novembre 1641",
+          "page_number": "787"
+        },
+        {
+          "letter_number": "1044.",
+          "letter_name": "B. Cavalieri, de Bologne, à Mersenne, à Paris, 23 novembre 1641",
+          "page_number": "788"
+        },
+        {
+          "letter_number": "1045.",
+          "letter_name": "Mersenne, de Paris, à Rivet, à La Haye, 25 novembre 1641",
+          "page_number": "796"
+        },
+        {
+          "letter_number": "1046.",
+          "letter_name": "B. Cavalieri, de Bologne, à G. Rocca, à Reggio, 27 novembre 1641",
+          "page_number": "804"
+        },
+        {
+          "letter_number": "1047.",
+          "letter_name": "Mersenne, de Paris, à M. Ruar, à Dantzig, 1er décembre (1641)",
+          "page_number": "806"
+        },
+        {
+          "letter_number": "1048.",
+          "letter_name": "Le P. François Niceron, de Rome, à Mersenne, à Paris, 8 décembre 1641",
+          "page_number": "811"
+        },
+        {
+          "letter_number": "1049.",
+          "letter_name": "Bauterne, en Hollande, à Huygens, à La Haye, 11 décembre 1671",
+          "page_number": "815"
+        },
+        {
+          "letter_number": "1050.",
+          "letter_name": "Huygens, de La Haye, à Mersenne, à Paris, 15 décembre 1641",
+          "page_number": "816"
+        },
+        {
+          "letter_number": "1051.",
+          "letter_name": "Cavalieri, de Bologne, à Torricelli, à Florence, 17 décembre 1641",
+          "page_number": "819"
+        },
+        {
+          "letter_number": "1052.",
+          "letter_name": "Cavalieri, de Bologne, à Rocca, à Reggio, 18 décembre 1641",
+          "page_number": "821"
+        },
+        {
+          "letter_number": "1053.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, à Paris, 22 décembre 1641",
+          "page_number": "822"
+        },
+        {
+          "letter_number": "1054.",
+          "letter_name": "Descartes, d’Endegeest, à Mersenne, pour les PP. Jésuites, à Paris, (22 décembre 1641)",
+          "page_number": "825"
+        },
+        {
+          "letter_number": "1055.",
+          "letter_name": "F. du Verdus, de Paris, à Mersenne, à Paris, (1641, 1642, ou 1643 ?)",
+          "page_number": "832"
+        },
+        {
+          "letter_number": "Appendice I.",
+          "letter_name": "— Comparaison (résumée) de la Composition de Ban avec celle de Boësset",
+          "page_number": "836"
+        },
+        {
+          "letter_number": "Appendice II.",
+          "letter_name": "— Observation sur l’aimant contrôlée et réfutée (par Pierre Petit ?)",
+          "page_number": "845"
+        }
+      ],
+      "issues": [
+        "entry 22 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Table chronologique des lettres du dixième volume\", page_number=\"857\")",
+        "entry 23 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Table alphabétique des Correspondants\", page_number=\"861\")",
+        "entry 24 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Index\", page_number=\"867\")",
+        "entry 25 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Additions et Corrections\", page_number=\"000\")"
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_11/PXL_20260702_120652703.jpg",
+      "volume": "vol_11",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:30:10.303056Z",
+      "entries": [
+        {
+          "letter_number": "1056.",
+          "letter_name": "Mersenne à Rivet, 16 janvier [1642]",
+          "page_number": "1"
+        },
+        {
+          "letter_number": "1057.",
+          "letter_name": "Cavendish à Pell, 18 janvier 1642",
+          "page_number": "7"
+        },
+        {
+          "letter_number": "1058.",
+          "letter_name": "Descartes à Mersenne, 19 janvier 1642",
+          "page_number": "9"
+        },
+        {
+          "letter_number": "1059.",
+          "letter_name": "Vegilin à Const. Huygens, 10/20 janvier 1642",
+          "page_number": "17"
+        },
+        {
+          "letter_number": "1060.",
+          "letter_name": "Rivet à Cl. Sarrau, 20 janvier 1642",
+          "page_number": "19"
+        },
+        {
+          "letter_number": "1061.",
+          "letter_name": "Descartes à Constantin Huygens, 22 janvier 1642",
+          "page_number": "21"
+        },
+        {
+          "letter_number": "1062.",
+          "letter_name": "Huygens à Descartes, 25 janvier 1642",
+          "page_number": "23"
+        },
+        {
+          "letter_number": "1063.",
+          "letter_name": "Ruarus à Ganovius, 28 janvier 1642",
+          "page_number": "26"
+        },
+        {
+          "letter_number": "1064.",
+          "letter_name": "Descartes à Huygens, 31 janvier 1642",
+          "page_number": "28"
+        },
+        {
+          "letter_number": "1065.",
+          "letter_name": "J. F. Nicéron à Mersenne, 2 février 1642",
+          "page_number": "30"
+        },
+        {
+          "letter_number": "1066.",
+          "letter_name": "Komensky à Hutton, 6 février 1642",
+          "page_number": "35"
+        },
+        {
+          "letter_number": "1067.",
+          "letter_name": "Mersenne à Rivet, 8 février 1642",
+          "page_number": "37"
+        },
+        {
+          "letter_number": "1068.",
+          "letter_name": "Cavendish à Pell, 15 février 1642",
+          "page_number": "42"
+        },
+        {
+          "letter_number": "1069.",
+          "letter_name": "Vegilin à Const. Huygens, 14/24 février 1642",
+          "page_number": "44"
+        },
+        {
+          "letter_number": "1070.",
+          "letter_name": "Le P. J. Durelle à Mersenne, 26 février 1642",
+          "page_number": "45"
+        },
+        {
+          "letter_number": "1071.",
+          "letter_name": "Fermat à Mersenne, (février ou mars 1642)",
+          "page_number": "55"
+        },
+        {
+          "letter_number": "1072.",
+          "letter_name": "M. Ruar à Mersenne, 7 mars 1642",
+          "page_number": "61"
+        },
+        {
+          "letter_number": "1073.",
+          "letter_name": "Mersenne à Rivet, 15 mars [1642]",
+          "page_number": "70"
+        },
+        {
+          "letter_number": "1074.",
+          "letter_name": "Descartes à Mersenne, (mars 1642)",
+          "page_number": "73"
+        },
+        {
+          "letter_number": "1075.",
+          "letter_name": "Deschamps à Mersenne, 26 mars 1642",
+          "page_number": "80"
+        },
+        {
+          "letter_number": "1076.",
+          "letter_name": "Brun à Mersenne, [26 ou 27] mars",
+          "page_number": "95"
+        },
+        {
+          "letter_number": "1077.",
+          "letter_name": "Ban à Huygens, 2 avril 1642",
+          "page_number": "97"
+        },
+        {
+          "letter_number": "1078.",
+          "letter_name": "Huygens à Mersenne, 7 avril 1642",
+          "page_number": "99"
+        },
+        {
+          "letter_number": "1079.",
+          "letter_name": "Heereboord à Colvius, 8 avril 1642",
+          "page_number": "104"
+        },
+        {
+          "letter_number": "1080.",
+          "letter_name": "Sarrau à Rivet, 11 avril 1642",
+          "page_number": "105"
+        },
+        {
+          "letter_number": "1081.",
+          "letter_name": "Mersenne à Martin Ruar, 13 avril 1642",
+          "page_number": "107"
+        },
+        {
+          "letter_number": "1082.",
+          "letter_name": "Vegilin à Mersenne, 4/14 avril 1642",
+          "page_number": "114"
+        },
+        {
+          "letter_number": "1083.",
+          "letter_name": "Mersenne à Rivet, 17 avril [1642]",
+          "page_number": "116"
+        },
+        {
+          "letter_number": "1084.",
+          "letter_name": "Deschamps à Mersenne, 18 avril 1642",
+          "page_number": "120"
+        },
+        {
+          "letter_number": "1085.",
+          "letter_name": "G. Naudé à J. B. Doni, 18 avril 1642",
+          "page_number": "123"
+        },
+        {
+          "letter_number": "1086.",
+          "letter_name": "Rivet à Sarrau, (21 avril 1642)",
+          "page_number": "125"
+        },
+        {
+          "letter_number": "1087.",
+          "letter_name": "Descartes à C. Huygens, [26 avril 1642]",
+          "page_number": "128"
+        },
+        {
+          "letter_number": "1088.",
+          "letter_name": "Descartes à Huygens, 26 avril 1642",
+          "page_number": "130"
+        },
+        {
+          "letter_number": "1089.",
+          "letter_name": "Huygens à Descartes, 27 avril 1642",
+          "page_number": "131"
+        },
+        {
+          "letter_number": "1090.",
+          "letter_name": "Huygens à Ban, 29 avril/3 mai 1642",
+          "page_number": "133"
+        },
+        {
+          "letter_number": "1091.",
+          "letter_name": "A. M. van Schuurman à Rivet, 23 avril/3 mai 1642",
+          "page_number": "135"
+        },
+        {
+          "letter_number": "1092.",
+          "letter_name": "Rivet à Sarrau, 5 mai 1642",
+          "page_number": "136"
+        },
+        {
+          "letter_number": "1093.",
+          "letter_name": "Deschamps à Mersenne, 5 mai 1642",
+          "page_number": "139"
+        },
+        {
+          "letter_number": "1094.",
+          "letter_name": "Grotius à Mersenne, 7 mai 1642",
+          "page_number": "144"
+        },
+        {
+          "letter_number": "1095.",
+          "letter_name": "Mersenne à Rivet, 9 mai 1642",
+          "page_number": "146"
+        },
+        {
+          "letter_number": "1096.",
+          "letter_name": "Rivet à Sarrau, 12 mai 1642",
+          "page_number": "153"
+        }
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_11/PXL_20260702_120703162.jpg",
+      "volume": "vol_11",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:30:45.046705Z",
+      "entries": [
+        {
+          "letter_number": "1097.",
+          "letter_name": "Mersenne à M. Ruar, 15 mai 1642",
+          "page_number": "154"
+        },
+        {
+          "letter_number": "1098.",
+          "letter_name": "Mersenne à Cl. Sarrau, 17 mai [1642]",
+          "page_number": "157"
+        },
+        {
+          "letter_number": "1099.",
+          "letter_name": "Huygens à Descartes, 26 mai 1642",
+          "page_number": "158"
+        },
+        {
+          "letter_number": "1100.",
+          "letter_name": "Mersenne à Samuel Sorbière, 1er juin 1642",
+          "page_number": "160"
+        },
+        {
+          "letter_number": "1101.",
+          "letter_name": "Mersenne à Rivet, 3 juin 1642",
+          "page_number": "166"
+        },
+        {
+          "letter_number": "1102.",
+          "letter_name": "Sorbière à Gassend, 8 juin 1642",
+          "page_number": "170"
+        },
+        {
+          "letter_number": "1103.",
+          "letter_name": "Villiers à Mersenne, 13 juin 1642",
+          "page_number": "174"
+        },
+        {
+          "letter_number": "1104.",
+          "letter_name": "Deschamps à Mersenne, 14 juin 1642",
+          "page_number": "180"
+        },
+        {
+          "letter_number": "1105.",
+          "letter_name": "G. Naudé à van Beverwyck, 21 juin 1642",
+          "page_number": "185"
+        },
+        {
+          "letter_number": "1106.",
+          "letter_name": "Bomot (?) à Mersenne, 29 juin 1642",
+          "page_number": "187"
+        },
+        {
+          "letter_number": "1107.",
+          "letter_name": "Mersenne à M. Ruar, (juin ou juillet 1642)",
+          "page_number": "194"
+        },
+        {
+          "letter_number": "1108.",
+          "letter_name": "Deshommeaux à Mersenne, 7 juillet 1642",
+          "page_number": "198"
+        },
+        {
+          "letter_number": "1109.",
+          "letter_name": "Deschamps à Mersenne, 8 juillet 1642",
+          "page_number": "202"
+        },
+        {
+          "letter_number": "1110.",
+          "letter_name": "Gilles de Sᵗe Vitu à Mersenne, 12 juillet 1642",
+          "page_number": "207"
+        },
+        {
+          "letter_number": "1111.",
+          "letter_name": "Villiers à Mersenne, 14 juillet 1642",
+          "page_number": "210"
+        },
+        {
+          "letter_number": "1112.",
+          "letter_name": "Bomot (?) à Mersenne, (mi-juillet 1642)",
+          "page_number": "218"
+        },
+        {
+          "letter_number": "1113.",
+          "letter_name": "Deschamps à Mersenne, 16 juillet 1642",
+          "page_number": "222"
+        },
+        {
+          "letter_number": "1114.",
+          "letter_name": "Gassend à Louis de Valois, 25 juillet 1642",
+          "page_number": "225"
+        },
+        {
+          "letter_number": "1115.",
+          "letter_name": "Rivet à Huygens, 1er août 1642",
+          "page_number": "227"
+        },
+        {
+          "letter_number": "1116.",
+          "letter_name": "L. de Valois à Gassend, 4 août 1642",
+          "page_number": "228"
+        },
+        {
+          "letter_number": "1117.",
+          "letter_name": "Deschamps à Mersenne, 14 août 1642",
+          "page_number": "229"
+        },
+        {
+          "letter_number": "1118.",
+          "letter_name": "Mersenne à Rivet, (mi-août 1642)",
+          "page_number": "233"
+        },
+        {
+          "letter_number": "1119.",
+          "letter_name": "Gassend à L. de Valois, 15 août 1642",
+          "page_number": "238"
+        },
+        {
+          "letter_number": "1120.",
+          "letter_name": "Huygens à Ban, 19 août 1642",
+          "page_number": "239"
+        },
+        {
+          "letter_number": "1121.",
+          "letter_name": "Sorbière à Mersenne, 25 août 1642",
+          "page_number": "240"
+        },
+        {
+          "letter_number": "1122.",
+          "letter_name": "Pell à Hübner, 17/25 août 1642",
+          "page_number": "244"
+        },
+        {
+          "letter_number": "1123.",
+          "letter_name": "Deschamps à Mersenne, (fin août 1642)",
+          "page_number": "247"
+        },
+        {
+          "letter_number": "1124.",
+          "letter_name": "Descartes à Mersenne (pour Cavendish), (août-septembre 1642 ?)",
+          "page_number": "253"
+        },
+        {
+          "letter_number": "1125.",
+          "letter_name": "Descartes au P. Bourdin, 7 septembre 1642",
+          "page_number": "256"
+        },
+        {
+          "letter_number": "1126.",
+          "letter_name": "Deshommeaux à Mersenne, 10 septembre [1642]",
+          "page_number": "259"
+        },
+        {
+          "letter_number": "1127.",
+          "letter_name": "Mersenne (et Gassend) à Sorbière, 13 septembre 1642",
+          "page_number": "266"
+        },
+        {
+          "letter_number": "1128.",
+          "letter_name": "Villiers à Mersenne, 13 septembre 1642",
+          "page_number": "272"
+        },
+        {
+          "letter_number": "1129.",
+          "letter_name": "Sorbière à Abraham Duprat, (mi-septembre ?) 1642",
+          "page_number": "278"
+        },
+        {
+          "letter_number": "1130.",
+          "letter_name": "J. A. Ban à Const. Huygens, 16 septembre 1642",
+          "page_number": "280"
+        },
+        {
+          "letter_number": "1131.",
+          "letter_name": "Gassend à Sorbière, 27 septembre 1642",
+          "page_number": "282"
+        },
+        {
+          "letter_number": "1132.",
+          "letter_name": "Le P. J. Durelle à Mersenne, 5 octobre 1642",
+          "page_number": "285"
+        },
+        {
+          "letter_number": "1133.",
+          "letter_name": "Const. Huygens à Descartes, 7 octobre 1642",
+          "page_number": "288"
+        },
+        {
+          "letter_number": "1134.",
+          "letter_name": "Deschamps à Mersenne, 8 octobre 1642",
+          "page_number": "290"
+        },
+        {
+          "letter_number": "1135.",
+          "letter_name": "Mersenne à Rivet, 12 octobre 1642",
+          "page_number": "293"
+        },
+        {
+          "letter_number": "1136.",
+          "letter_name": "Descartes à Mersenne, (13 octobre 1642)",
+          "page_number": "298"
+        },
+        {
+          "letter_number": "1137.",
+          "letter_name": "Descartes à Mersenne, 20 octobre 1642",
+          "page_number": "303"
+        },
+        {
+          "letter_number": "1138.",
+          "letter_name": "Pell à S. Hartlib, 12/22 octobre 1642",
+          "page_number": "307"
+        },
+        {
+          "letter_number": "1139.",
+          "letter_name": "Deschamps à Mersenne, 31 octobre 1642",
+          "page_number": "315"
+        },
+        {
+          "letter_number": "1140.",
+          "letter_name": "Le P. de Billy à Mersenne, 10 novembre 1642",
+          "page_number": "324"
+        },
+        {
+          "letter_number": "1141.",
+          "letter_name": "Fermat à Mersenne (avec appendice), 10 novembre 1642",
+          "page_number": "333"
+        },
+        {
+          "letter_number": "1142.",
+          "letter_name": "J. A. Ban à C. Huygens, 11 novembre 1642",
+          "page_number": "345"
+        },
+        {
+          "letter_number": "1143.",
+          "letter_name": "Sorbière à Mersenne, (mi-novembre) 1642",
+          "page_number": "346"
+        },
+        {
+          "letter_number": "1144.",
+          "letter_name": "Descartes à Mersenne, 17 novembre 1642",
+          "page_number": "348"
+        },
+        {
+          "letter_number": "1145.",
+          "letter_name": "Deshommeaux à Mersenne, 20 novembre 1642",
+          "page_number": "353"
+        },
+        {
+          "letter_number": "1146.",
+          "letter_name": "Mersenne à Rivet, 22 novembre 1642",
+          "page_number": "357"
+        },
+        {
+          "letter_number": "1147.",
+          "letter_name": "Descartes à Mersenne, 7 décembre 1642",
+          "page_number": "363"
+        },
+        {
+          "letter_number": "1148.",
+          "letter_name": "Mersenne à G. Voet, 13 décembre 1642",
+          "page_number": "372"
+        },
+        {
+          "letter_number": "1149.",
+          "letter_name": "M. Ruarus à Mersenne, 19 décembre 1642",
+          "page_number": "378"
+        }
+      ]
+    },
+    {
+      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_11/PXL_20260702_120706903.png",
+      "volume": "vol_11",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "extracted_at": "2026-07-03T17:30:57.377218Z",
+      "entries": [
+        {
+          "letter_number": "1150.",
+          "letter_name": "Deschamps à Mersenne, 22 décembre 1642",
+          "page_number": "383"
+        },
+        {
+          "letter_number": "1151.",
+          "letter_name": "Deschamps à Mersenne, 27 décembre 1642",
+          "page_number": "391"
+        },
+        {
+          "letter_number": "836bis.",
+          "letter_name": "Mersenne à Th. Haak, 10 mars 1640",
+          "page_number": "403"
+        },
+        {
+          "letter_number": "839bis.",
+          "letter_name": "— 20 mars 1640",
+          "page_number": "405"
+        },
+        {
+          "letter_number": "917bis.",
+          "letter_name": "— 4 septembre 1640",
+          "page_number": "411"
+        },
+        {
+          "letter_number": "918bis.",
+          "letter_name": "— (mi-septembre 1640)",
+          "page_number": "415"
+        },
+        {
+          "letter_number": "942bis.",
+          "letter_name": "— 16 novembre 1640",
+          "page_number": "419"
+        },
+        {
+          "letter_number": "944bis.",
+          "letter_name": "— s. d. : novembre 1640",
+          "page_number": "425"
+        },
+        {
+          "letter_number": "948bis.",
+          "letter_name": "— 20 novembre 1640",
+          "page_number": "429"
+        },
+        {
+          "letter_number": "952bis.",
+          "letter_name": "— 16 décembre 1640",
+          "page_number": "434"
+        }
+      ]
+    }
+  ]
+}
