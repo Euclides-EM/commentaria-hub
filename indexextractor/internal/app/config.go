@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/indexextractor/internal/llm"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 	"github.com/joho/godotenv"
 )
 

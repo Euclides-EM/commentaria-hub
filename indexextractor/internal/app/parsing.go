@@ -8,7 +8,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/MiaMish/elements-dh/indexextractor/internal/llm"
+	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
 )
 
 func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
