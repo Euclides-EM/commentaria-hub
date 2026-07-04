@@ -231,7 +231,7 @@ func TestReportIssuesIncludesCountImageAndDetail(t *testing.T) {
 }
 
 func TestCleanPathMigratesLegacyProjectLocation(t *testing.T) {
-	legacy := filepath.Join("cmd", "indexextractor", "data", "raw", "index", "vol_1", "page.jpg")
+	legacy := filepath.Join("cmd", "correspondence_ingest", "data", "raw", "index", "vol_1", "page.jpg")
 	want := filepath.Join("data", "raw", "index", "vol_1", "page.jpg")
 	if got := cleanPath(legacy); got != want {
 		t.Fatalf("cleanPath(%q) = %q, want %q", legacy, got, want)

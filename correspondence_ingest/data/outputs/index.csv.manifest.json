@@ -3,7 +3,7 @@
   "kind": "index",
   "pages": [
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110007225.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110007225.jpg",
       "volume": "vol_1",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110011835.MP.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110011835.MP.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -2365,7 +2365,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110014614.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110014614.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -3661,7 +3661,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110019060.MP.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110019060.MP.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -4831,7 +4831,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110021741.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110021741.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -5980,7 +5980,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110026121.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110026121.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -7513,7 +7513,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110029040.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110029040.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -8526,7 +8526,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110034300.MP.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110034300.MP.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -9583,7 +9583,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110036776.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110036776.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -10529,7 +10529,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110042503.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110042503.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -11568,7 +11568,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110045552.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110045552.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -12923,7 +12923,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110049887.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110049887.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -14032,7 +14032,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110052189.MP.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110052189.MP.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -14964,7 +14964,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_1/PXL_20260702_110056366.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_1/PXL_20260702_110056366.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -15744,7 +15744,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120439811.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120439811.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -16647,7 +16647,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120447157.MP.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120447157.MP.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -17672,7 +17672,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120450054.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120450054.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -18681,7 +18681,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120455711.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120455711.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -20078,7 +20078,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120458608.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120458608.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -21360,7 +21360,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120504314.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120504314.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -22544,7 +22544,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120507607.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120507607.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -23416,7 +23416,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120513135.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120513135.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -24349,7 +24349,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120516119.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120516119.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -25525,7 +25525,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120520995.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120520995.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -26457,7 +26457,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_10/PXL_20260702_120525688.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_10/PXL_20260702_120525688.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -26620,7 +26620,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120730023.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120730023.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -27299,7 +27299,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120740417.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120740417.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -28268,7 +28268,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120743308.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120743308.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -29597,7 +29597,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120750492.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120750492.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -30731,7 +30731,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120753540.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120753540.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -31741,7 +31741,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120758609.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120758609.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -32551,7 +32551,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120801552.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120801552.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -33740,7 +33740,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120806690.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120806690.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -34879,7 +34879,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120810532.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120810532.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -35709,7 +35709,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121028749.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121028749.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -36531,7 +36531,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121041172.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121041172.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -37375,7 +37375,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121043846.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121043846.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -38312,7 +38312,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121059944.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121059944.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -39327,7 +39327,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121103158.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121103158.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -40408,7 +40408,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121204725.MP.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121204725.MP.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -41775,7 +41775,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121206977.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121206977.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -42563,7 +42563,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121321138.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121321138.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -43502,7 +43502,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121323815.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121323815.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -44264,7 +44264,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121336729.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121336729.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -45061,7 +45061,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121339017.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121339017.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -46019,7 +46019,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121351541.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121351541.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -47223,7 +47223,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121354493.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121354493.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -48409,7 +48409,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_13/PXL_20260702_121526847.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_13/PXL_20260702_121526847.jpg",
       "volume": "vol_13",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -48587,7 +48587,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114754696.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114754696.jpg",
       "volume": "vol_2",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -49590,7 +49590,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114800223.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114800223.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -51116,7 +51116,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114802695.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114802695.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -52643,7 +52643,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114808666.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114808666.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -54178,7 +54178,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114811331.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114811331.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -55348,7 +55348,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114815475.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114815475.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -56511,7 +56511,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114817678.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114817678.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -57579,7 +57579,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114825555.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114825555.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -58941,7 +58941,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114827998.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114827998.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -60010,7 +60010,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_2/PXL_20260702_114833586.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114833586.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -60674,7 +60674,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115025288.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115025288.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -61505,7 +61505,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115028868.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115028868.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -62770,7 +62770,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115031075.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115031075.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -63681,7 +63681,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115036991.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115036991.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -64666,7 +64666,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115040570.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115040570.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -66026,7 +66026,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115045515.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115045515.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -67048,7 +67048,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115047992.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115047992.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -67908,7 +67908,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115055871.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115055871.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -69131,7 +69131,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115057999.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115057999.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -70140,7 +70140,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115107344.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115107344.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -71015,7 +71015,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115110700.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115110700.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -71955,7 +71955,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_3/PXL_20260702_115117718.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_3/PXL_20260702_115117718.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -72219,7 +72219,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_4/PXL_20260702_115218323.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_4/PXL_20260702_115218323.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -72993,7 +72993,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_4/PXL_20260702_115223850.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_4/PXL_20260702_115223850.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -74064,7 +74064,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_4/PXL_20260702_115226240.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_4/PXL_20260702_115226240.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -75746,7 +75746,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_4/PXL_20260702_115231270.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_4/PXL_20260702_115231270.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -76646,7 +76646,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_4/PXL_20260702_115234726.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_4/PXL_20260702_115234726.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -77660,7 +77660,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_4/PXL_20260702_115240135.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_4/PXL_20260702_115240135.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -78957,7 +78957,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_4/PXL_20260702_115242031.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_4/PXL_20260702_115242031.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -79352,7 +79352,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_5/PXL_20260702_115358991.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_5/PXL_20260702_115358991.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -80214,7 +80214,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_5/PXL_20260702_115405485.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_5/PXL_20260702_115405485.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -81261,7 +81261,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_5/PXL_20260702_115408544.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_5/PXL_20260702_115408544.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -82393,7 +82393,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_5/PXL_20260702_115414413.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_5/PXL_20260702_115414413.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -83814,7 +83814,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_5/PXL_20260702_115418285.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_5/PXL_20260702_115418285.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -84696,7 +84696,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_5/PXL_20260702_115428425.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_5/PXL_20260702_115428425.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -85642,7 +85642,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_5/PXL_20260702_115432131.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_5/PXL_20260702_115432131.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -86448,7 +86448,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_5/PXL_20260702_115438140.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_5/PXL_20260702_115438140.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -86737,7 +86737,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_6/PXL_20260702_115610736.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_6/PXL_20260702_115610736.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -87582,7 +87582,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_6/PXL_20260702_115613961.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_6/PXL_20260702_115613961.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -88681,7 +88681,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_6/PXL_20260702_115619629.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_6/PXL_20260702_115619629.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -89730,7 +89730,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_6/PXL_20260702_115622983.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_6/PXL_20260702_115622983.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -90576,7 +90576,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_6/PXL_20260702_115630671.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_6/PXL_20260702_115630671.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -91347,7 +91347,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_6/PXL_20260702_115636816.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_6/PXL_20260702_115636816.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -92139,7 +92139,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_6/PXL_20260702_115643101.MP.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_6/PXL_20260702_115643101.MP.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -92544,7 +92544,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_7/PXL_20260702_115756145.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_7/PXL_20260702_115756145.jpg",
       "volume": "vol_7",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -93373,7 +93373,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_7/PXL_20260702_115802133.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_7/PXL_20260702_115802133.jpg",
       "volume": "vol_7",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -94387,7 +94387,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_7/PXL_20260702_115804758.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_7/PXL_20260702_115804758.jpg",
       "volume": "vol_7",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -95611,7 +95611,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_7/PXL_20260702_115811680.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_7/PXL_20260702_115811680.jpg",
       "volume": "vol_7",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -96511,7 +96511,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_7/PXL_20260702_115814557.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_7/PXL_20260702_115814557.jpg",
       "volume": "vol_7",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -97630,7 +97630,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_7/PXL_20260702_115822691.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_7/PXL_20260702_115822691.jpg",
       "volume": "vol_7",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -98234,7 +98234,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120011047.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120011047.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -99046,7 +99046,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120019699.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120019699.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -100056,7 +100056,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120023438.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120023438.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -101096,7 +101096,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120030004.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120030004.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -102361,7 +102361,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120032954.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120032954.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -103450,7 +103450,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120039216.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120039216.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -104622,7 +104622,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120042920.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120042920.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -105361,7 +105361,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120048584.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120048584.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -106471,7 +106471,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120053653.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120053653.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -107676,7 +107676,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120059294.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120059294.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -108685,7 +108685,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_8/PXL_20260702_120102035.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_8/PXL_20260702_120102035.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -109526,7 +109526,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120239804.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120239804.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -110271,7 +110271,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120245469.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120245469.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -111201,7 +111201,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120250317.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120250317.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -112456,7 +112456,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120255065.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120255065.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -113655,7 +113655,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120258084.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120258084.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -114635,7 +114635,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120302994.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120302994.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -115651,7 +115651,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120305962.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120305962.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -116712,7 +116712,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120310921.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120310921.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",
@@ -117547,7 +117547,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_9/PXL_20260702_120314880.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_9/PXL_20260702_120314880.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "gpt-oss:120b",

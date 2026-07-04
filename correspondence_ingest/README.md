@@ -1,10 +1,10 @@
-# Index Extractor
+# Correspondence Ingest
 
 Standalone Go command for extracting the correspondence index and letters table from page images with a vision-capable LLM.
 
 ## Layout
 
-- `cmd/indexextractor`: executable entrypoint
+- `cmd/correspondence_ingest`: executable entrypoint
 - `internal/app`: extraction, checkpointing, CSV rendering, status, and validation workflows
 - `internal/llm`: OpenAI and Ollama provider integration
 - `data/raw`: source images grouped by dataset and volume
@@ -14,9 +14,9 @@ Standalone Go command for extracting the correspondence index and letters table 
 Run commands from this directory:
 
 ```sh
-go run ./cmd/indexextractor status
-go run ./cmd/indexextractor validate
-go run ./cmd/indexextractor extract --kind index
+go run ./cmd/correspondence_ingest status
+go run ./cmd/correspondence_ingest validate
+go run ./cmd/correspondence_ingest extract --kind index
 ```
 
 AI commands load `.env` and `.env_private` from this directory. Ollama requires `OLLAMA_BASE_URL` and optionally `OLLAMA_AUTH_TOKEN`; OpenAI requires `OPENAI_API_KEY`.

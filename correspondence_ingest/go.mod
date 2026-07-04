@@ -1,4 +1,4 @@
-module github.com/MiaMish/elements-dh/indexextractor
+module github.com/MiaMish/elements-dh/correspondence_ingest
 
 go 1.25
 

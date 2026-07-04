@@ -1,4 +1,4 @@
-# Index extractor agent guide
+# Correspondence ingest agent guide
 
 This command extracts two datasets from page images with a vision-capable LLM:
 
@@ -7,34 +7,34 @@ This command extracts two datasets from page images with a vision-capable LLM:
 
 Keep discovery, extraction rules, validation, checkpointing, and persistence in Go. Agents may orchestrate commands and investigate flagged pages, but must preserve the manifest-first workflow.
 
-Run commands from the standalone `indexextractor` directory:
+Run commands from the standalone `correspondence_ingest` directory:
 
 ```sh
-go run ./cmd/indexextractor status
-go run ./cmd/indexextractor extract
-go run ./cmd/indexextractor validate
-go run ./cmd/indexextractor validate-transcriptions
-go run ./cmd/indexextractor validate-parsing
+go run ./cmd/correspondence_ingest status
+go run ./cmd/correspondence_ingest extract
+go run ./cmd/correspondence_ingest validate
+go run ./cmd/correspondence_ingest validate-transcriptions
+go run ./cmd/correspondence_ingest validate-parsing
 ```
 
 Extraction defaults to the original single vision call (`--extraction-mode one-pass`). Use `--extraction-mode two-pass` to first create an auditable text transcription from the image and then make a text-only LLM call that converts that transcription to the required JSON:
 
 ```sh
-go run ./cmd/indexextractor extract --kind index --extraction-mode two-pass
+go run ./cmd/correspondence_ingest extract --kind index --extraction-mode two-pass
 ```
 
 In two-pass mode, only the transcription call receives the image attachment. The structured extraction call receives the transcription in its prompt and no attachment. The transcription is checkpointed to the manifest immediately after pass one. If pass two fails, that transcription-only page remains pending; the next two-pass run reuses it and starts at pass two. Rerun a page (or use `--rerun`) when changing modes.
 
-The default command is `extract`; prefer spelling the command out in agent workflows. All commands accept `--kind index`, `--kind letters`, or `--kind all` (the default). Default paths are relative to the `indexextractor` project root, which is why commands must run there.
+The default command is `extract`; prefer spelling the command out in agent workflows. All commands accept `--kind index`, `--kind letters`, or `--kind all` (the default). Default paths are relative to the `correspondence_ingest` project root, which is why commands must run there.
 
 ## AI validation and review files
 
 The two AI validation commands operate on completed two-pass manifest pages because both checks require the checkpointed transcription:
 
 ```sh
-go run ./cmd/indexextractor validate-transcriptions --kind index \
+go run ./cmd/correspondence_ingest validate-transcriptions --kind index \
   --ai-provider ollama --ai-model qwen3.6:35b
-go run ./cmd/indexextractor validate-parsing --kind index \
+go run ./cmd/correspondence_ingest validate-parsing --kind index \
   --ai-provider openai --ai-model gpt-5-mini
 ```
 
@@ -53,7 +53,7 @@ When the provider returns a response that cannot be parsed or fails validation s
 
 Prefer one kind per long agent run. First run `status` and ordinary `validate`, then run transcription validation, then parsing validation. Review the generated Markdown after each resumable batch. A practical agent instruction is:
 
-> From the `indexextractor` directory, run `status --kind <kind>` and `validate --kind <kind>`, then resume `validate-transcriptions --kind <kind>` and `validate-parsing --kind <kind>` with the requested providers/models. Do not delete checkpoints. Inspect the parsing-validation Markdown closely: verify every `REVIEW REQUIRED` item against the manifest transcription and parsed entries, group findings by page, identify false positives, and recommend exact `extract --rerun-images` commands for genuine errors. Do not hand-edit generated CSV or manifest files. Report failures separately. If HumaNum Ollama returns HTTP 502, assume prompt/model timeout first; reduce scope to one kind or targeted pages and avoid blind repeated retries.
+> From the `correspondence_ingest` directory, run `status --kind <kind>` and `validate --kind <kind>`, then resume `validate-transcriptions --kind <kind>` and `validate-parsing --kind <kind>` with the requested providers/models. Do not delete checkpoints. Inspect the parsing-validation Markdown closely: verify every `REVIEW REQUIRED` item against the manifest transcription and parsed entries, group findings by page, identify false positives, and recommend exact `extract --rerun-images` commands for genuine errors. Do not hand-edit generated CSV or manifest files. Report failures separately. If HumaNum Ollama returns HTTP 502, assume prompt/model timeout first; reduce scope to one kind or targeted pages and avoid blind repeated retries.
 
 Raw images live under `data/raw/{index,letters_table}/<volume>/`. Supported extensions are `.jpg`, `.jpeg`, `.png`, and `.webp`, case-insensitively. Every image must be beneath a volume directory; that first relative directory component becomes the CSV `volume` value.
 
@@ -62,15 +62,15 @@ Extraction resumes by default from `<output>.manifest.json`. The manifest is the
 For targeted work, prefer a single kind:
 
 ```sh
-go run ./cmd/indexextractor status --kind index
-go run ./cmd/indexextractor extract --kind index
-go run ./cmd/indexextractor validate --kind index
+go run ./cmd/correspondence_ingest status --kind index
+go run ./cmd/correspondence_ingest extract --kind index
+go run ./cmd/correspondence_ingest validate --kind index
 ```
 
 Rerun one or more pages by using an unambiguous filename or path. Existing page results are replaced in the manifest, then the CSV is regenerated without duplicates:
 
 ```sh
-go run ./cmd/indexextractor extract --kind index --rerun-images vol_1/page01.jpg,vol_1/page02.jpg
+go run ./cmd/correspondence_ingest extract --kind index --rerun-images vol_1/page01.jpg,vol_1/page02.jpg
 ```
 
 `--rerun-images` requires one explicit kind and cannot be combined with `--rerun`. Selectors may be a full path, a unique basename, or a unique path suffix; ambiguous selectors fail. Targeted results replace the matching page records, and the CSV is regenerated without duplicate page records.
@@ -80,7 +80,7 @@ go run ./cmd/indexextractor extract --kind index --rerun-images vol_1/page01.jpg
 The defaults are Ollama with `qwen3.6:35b`, except that `--second-pass-ai-model` defaults to `gpt-oss:120b`. `--ai-provider` and `--ai-model` override the general extraction defaults. In two-pass mode, `--first-pass-ai-provider`/`--first-pass-ai-model` and `--second-pass-ai-provider`/`--second-pass-ai-model` take precedence for their respective passes. Only the effective first-pass model must support image input. For example, use free vision transcription followed by more reliable structured extraction:
 
 ```sh
-go run ./cmd/indexextractor extract --kind index --extraction-mode two-pass \
+go run ./cmd/correspondence_ingest extract --kind index --extraction-mode two-pass \
   --first-pass-ai-provider ollama --first-pass-ai-model qwen3.6:35b \
   --second-pass-ai-provider openai --second-pass-ai-model gpt-5-mini
 ```

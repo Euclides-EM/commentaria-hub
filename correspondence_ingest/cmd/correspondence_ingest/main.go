@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/MiaMish/elements-dh/indexextractor/internal/app"
+	"github.com/MiaMish/elements-dh/correspondence_ingest/internal/app"
 )
 
 func main() {

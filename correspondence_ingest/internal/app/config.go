@@ -128,7 +128,7 @@ type llmExecutor interface {
 	Exec(provider, model, prompt, attachmentPath string) (string, error)
 }
 
-// RunCLI parses and executes an indexextractor command.
+// RunCLI parses and executes an correspondence_ingest command.
 func RunCLI(args []string, out, errOut io.Writer) error {
 	cfg, err := parseCLI(args, errOut)
 	if err != nil {
@@ -162,7 +162,7 @@ func parseCLI(args []string, errOut io.Writer) (config, error) {
 	if cfg.command != commandExtract && cfg.command != commandValidate && cfg.command != commandValidateTranscriptions && cfg.command != commandValidateParsing && cfg.command != commandStatus {
 		return cfg, fmt.Errorf("unknown command %q (want extract, validate, validate-transcriptions, validate-parsing, or status)", cfg.command)
 	}
-	fs := flag.NewFlagSet("indexextractor "+cfg.command, flag.ContinueOnError)
+	fs := flag.NewFlagSet("correspondence_ingest "+cfg.command, flag.ContinueOnError)
 	fs.SetOutput(errOut)
 	fs.StringVar(&cfg.kind, "kind", kindAll, "data kind: index, letters, or all")
 	fs.StringVar(&cfg.indexDir, "index-dir", rawIndexDir, "directory containing index images grouped by volume")

@@ -4,7 +4,7 @@
   "check": "transcriptions",
   "results": [
     {
-      "image_path": "cmd/indexextractor/data/raw/index/vol_11/PXL_20260702_120730023.jpg",
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120730023.jpg",
       "volume": "vol_11",
       "provider": "ollama",
       "model": "qwen3.6:35b",

@@ -229,7 +229,7 @@ func splitCommaList(value string) []string {
 
 func cleanPath(value string) string {
 	cleaned := filepath.Clean(value)
-	legacyRoot := filepath.Clean("cmd/indexextractor/data")
+	legacyRoot := filepath.Clean("cmd/correspondence_ingest/data")
 	if cleaned == legacyRoot {
 		return "data"
 	}
@@ -283,7 +283,7 @@ func writeFileAtomically(path string, write func(*os.File) error) (returnErr err
 	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
 		return err
 	}
-	temporary, err := os.CreateTemp(filepath.Dir(path), ".indexextractor-*")
+	temporary, err := os.CreateTemp(filepath.Dir(path), ".correspondence_ingest-*")
 	if err != nil {
 		return err
 	}

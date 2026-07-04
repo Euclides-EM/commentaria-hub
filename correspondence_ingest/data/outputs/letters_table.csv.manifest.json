@@ -3,7 +3,7 @@
   "kind": "letters",
   "pages": [
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_1/PXL_20260702_105943882.jpg",
+      "image_path": "data/raw/letters_table/vol_1/PXL_20260702_105943882.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_1/PXL_20260702_105953377.jpg",
+      "image_path": "data/raw/letters_table/vol_1/PXL_20260702_105953377.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_1/PXL_20260702_105956903.jpg",
+      "image_path": "data/raw/letters_table/vol_1/PXL_20260702_105956903.jpg",
       "volume": "vol_1",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_10/PXL_20260702_120346925.jpg",
+      "image_path": "data/raw/letters_table/vol_10/PXL_20260702_120346925.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -682,7 +682,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_10/PXL_20260702_120353294.jpg",
+      "image_path": "data/raw/letters_table/vol_10/PXL_20260702_120353294.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -941,7 +941,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_10/PXL_20260702_120357593.jpg",
+      "image_path": "data/raw/letters_table/vol_10/PXL_20260702_120357593.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -1180,7 +1180,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_10/PXL_20260702_120402900.jpg",
+      "image_path": "data/raw/letters_table/vol_10/PXL_20260702_120402900.jpg",
       "volume": "vol_10",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -1302,7 +1302,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_11/PXL_20260702_120652703.jpg",
+      "image_path": "data/raw/letters_table/vol_11/PXL_20260702_120652703.jpg",
       "volume": "vol_11",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -1518,7 +1518,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_11/PXL_20260702_120703162.jpg",
+      "image_path": "data/raw/letters_table/vol_11/PXL_20260702_120703162.jpg",
       "volume": "vol_11",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -1794,7 +1794,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_11/PXL_20260702_120706903.png",
+      "image_path": "data/raw/letters_table/vol_11/PXL_20260702_120706903.png",
       "volume": "vol_11",
       "provider": "openai",
       "model": "gpt-5.5",
@@ -1855,7 +1855,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_13/PXL_20260702_120856378.jpg",
+      "image_path": "data/raw/letters_table/vol_13/PXL_20260702_120856378.jpg",
       "volume": "vol_13",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -2066,7 +2066,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_13/PXL_20260702_120908236.jpg",
+      "image_path": "data/raw/letters_table/vol_13/PXL_20260702_120908236.jpg",
       "volume": "vol_13",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -2337,7 +2337,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_13/PXL_20260702_120911253.jpg",
+      "image_path": "data/raw/letters_table/vol_13/PXL_20260702_120911253.jpg",
       "volume": "vol_13",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -2608,7 +2608,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_13/PXL_20260702_120942174.jpg",
+      "image_path": "data/raw/letters_table/vol_13/PXL_20260702_120942174.jpg",
       "volume": "vol_13",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -2817,7 +2817,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_2/PXL_20260702_114715509.jpg",
+      "image_path": "data/raw/letters_table/vol_2/PXL_20260702_114715509.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -2981,7 +2981,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_2/PXL_20260702_114731308.MP.jpg",
+      "image_path": "data/raw/letters_table/vol_2/PXL_20260702_114731308.MP.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -3187,7 +3187,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_2/PXL_20260702_114734300.jpg",
+      "image_path": "data/raw/letters_table/vol_2/PXL_20260702_114734300.jpg",
       "volume": "vol_2",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -3363,7 +3363,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_3/PXL_20260702_114954912.jpg",
+      "image_path": "data/raw/letters_table/vol_3/PXL_20260702_114954912.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -3579,7 +3579,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_3/PXL_20260702_115003577.jpg",
+      "image_path": "data/raw/letters_table/vol_3/PXL_20260702_115003577.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -3850,7 +3850,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_3/PXL_20260702_115006225.jpg",
+      "image_path": "data/raw/letters_table/vol_3/PXL_20260702_115006225.jpg",
       "volume": "vol_3",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -3956,7 +3956,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_4/PXL_20260702_115149407.jpg",
+      "image_path": "data/raw/letters_table/vol_4/PXL_20260702_115149407.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -4117,7 +4117,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_4/PXL_20260702_115157087.MP.jpg",
+      "image_path": "data/raw/letters_table/vol_4/PXL_20260702_115157087.MP.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -4323,7 +4323,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_4/PXL_20260702_115159686.jpg",
+      "image_path": "data/raw/letters_table/vol_4/PXL_20260702_115159686.jpg",
       "volume": "vol_4",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -4499,7 +4499,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_5/PXL_20260408_165827279.jpg",
+      "image_path": "data/raw/letters_table/vol_5/PXL_20260408_165827279.jpg",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -4720,24 +4720,283 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_5/PXL_20260408_165837604.jpg",
+      "image_path": "data/raw/letters_table/vol_5/PXL_20260408_165837604.jpg",
       "volume": "vol_5",
-      "provider": "",
-      "model": "",
-      "extracted_at": "0001-01-01T00:00:00Z",
+      "provider": "ollama",
+      "model": "qwen3.6:35b",
+      "extracted_at": "2026-07-04T13:37:49.862055Z",
       "extraction_mode": "one-pass",
       "transcribed_at": "0001-01-01T00:00:00Z",
-      "entries": null,
-      "failure": {
-        "phase": "single-pass",
-        "provider": "ollama",
-        "model": "qwen3.6:35b",
-        "error": "extract letters-table image cmd/indexextractor/data/raw/letters_table/vol_5/PXL_20260408_165837604.jpg: llm exec: ollama generate api call failed after 9m38.548456042s: llm exec: ollama generate api returned 502: \u003c!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"\u003e\n\u003chtml\u003e\u003chead\u003e\n\u003ctitle\u003e502 Proxy Error\u003c/title\u003e\n\u003c/head\u003e\u003cbody\u003e\n\u003ch1\u003eProxy Error\u003c/h1\u003e\n\u003cp\u003eThe proxy server received an invalid\r\nresponse from an upstream server.\u003cbr /\u003e\r\nThe proxy server could not handle the request\u003cp\u003eReason: \u003cstrong\u003eError reading from remote server\u003c/strong\u003e\u003c/p\u003e\u003c/p\u003e\n\u003c/body\u003e\u003c/html\u003e",
-        "failed_at": "2026-07-04T11:19:30.877871Z"
-      }
+      "entries": [
+        {
+          "letter_number": "439",
+          "letter_name": "Peiresc à Gassend, 2 juin 1635",
+          "page_number": "221"
+        },
+        {
+          "letter_number": "440",
+          "letter_name": "Le P. Castelli à Galilée, 2 juin 1635",
+          "page_number": "223"
+        },
+        {
+          "letter_number": "441",
+          "letter_name": "Peiresc à Gassend, 3 juin 1635",
+          "page_number": "224"
+        },
+        {
+          "letter_number": "442",
+          "letter_name": "Peiresc à Aubery Du Mesnil, 5 juin 1635",
+          "page_number": "225"
+        },
+        {
+          "letter_number": "443",
+          "letter_name": "Peiresc à Jacques Dupuy, 5 juin 1635",
+          "page_number": "226"
+        },
+        {
+          "letter_number": "444",
+          "letter_name": "Villiers à Mersenne (10 juin 1635)",
+          "page_number": "228"
+        },
+        {
+          "letter_number": "445",
+          "letter_name": "Mersenne à Peiresc, 14 juin 1635",
+          "page_number": "239"
+        },
+        {
+          "letter_number": "446",
+          "letter_name": "Peiresc à Gassend, 18 juin 1635",
+          "page_number": "243"
+        },
+        {
+          "letter_number": "447",
+          "letter_name": "Villiers à Mersenne, 24 juin 1635",
+          "page_number": "245"
+        },
+        {
+          "letter_number": "448",
+          "letter_name": "Peiresc à Aubery Du Mesnil, 26 juin 1635",
+          "page_number": "254"
+        },
+        {
+          "letter_number": "449",
+          "letter_name": "Peiresc à Jacques Dupuy, 26 juin 1635",
+          "page_number": "255"
+        },
+        {
+          "letter_number": "450",
+          "letter_name": "Peiresc à Gassend, 27 juin 1635",
+          "page_number": "257"
+        },
+        {
+          "letter_number": "451",
+          "letter_name": "Peiresc à Naudé, 28 juin 1635",
+          "page_number": "258"
+        },
+        {
+          "letter_number": "452",
+          "letter_name": "La Charlonye à Mersenne, (30 juin) 1635",
+          "page_number": "259"
+        },
+        {
+          "letter_number": "453",
+          "letter_name": "Mersenne à Peiresc, 1er juillet 1635",
+          "page_number": "268"
+        },
+        {
+          "letter_number": "454",
+          "letter_name": "Peiresc à Mersenne, 3 juillet 1635",
+          "page_number": "274"
+        },
+        {
+          "letter_number": "455",
+          "letter_name": "Peiresc à Diodati, 3 juillet 1635",
+          "page_number": "279"
+        },
+        {
+          "letter_number": "456",
+          "letter_name": "Le P. Campanella à Poysson, 7 juillet 1635",
+          "page_number": "283"
+        },
+        {
+          "letter_number": "457",
+          "letter_name": "Peiresc à Luillier, 10 juillet 1635",
+          "page_number": "290"
+        },
+        {
+          "letter_number": "458",
+          "letter_name": "Villiers à Mersenne, 15 juillet 1635",
+          "page_number": "291"
+        },
+        {
+          "letter_number": "459",
+          "letter_name": "Hortensius à Gassend, 15 juillet 1635",
+          "page_number": "297"
+        },
+        {
+          "letter_number": "460",
+          "letter_name": "Mersenne à Peiresc, 15 juillet 1635",
+          "page_number": "299"
+        },
+        {
+          "letter_number": "461",
+          "letter_name": "Cornu à Mersenne, 17 juillet 1635",
+          "page_number": "309"
+        },
+        {
+          "letter_number": "462",
+          "letter_name": "Peiresc à Mersenne, 17 juillet 1635",
+          "page_number": "315"
+        },
+        {
+          "letter_number": "463",
+          "letter_name": "Peiresc à Mersenne, 17 juillet 1635",
+          "page_number": "322"
+        },
+        {
+          "letter_number": "464",
+          "letter_name": "Peiresc au P. de Loches, 17 juillet 1635",
+          "page_number": "325"
+        },
+        {
+          "letter_number": "465",
+          "letter_name": "Peiresc au P. de Loches, 23 juillet 1635",
+          "page_number": "326"
+        },
+        {
+          "letter_number": "466",
+          "letter_name": "Peiresc à Mersenne, 23 juillet 1635",
+          "page_number": "328"
+        },
+        {
+          "letter_number": "467",
+          "letter_name": "Peiresc à Jacques Dupuy, 24 juillet 1635",
+          "page_number": "334"
+        },
+        {
+          "letter_number": "468",
+          "letter_name": "Peiresc à Mydorge, 31 juillet 1635",
+          "page_number": "335"
+        },
+        {
+          "letter_number": "469",
+          "letter_name": "Villiers à Mersenne, (mi-août 1635)",
+          "page_number": "339"
+        },
+        {
+          "letter_number": "470",
+          "letter_name": "Mersenne à Peiresc, 16-25 août 1635",
+          "page_number": "343"
+        },
+        {
+          "letter_number": "471",
+          "letter_name": "Mersenne à Peiresc, 18 août 1635",
+          "page_number": "348"
+        },
+        {
+          "letter_number": "472",
+          "letter_name": "Peiresc à Mersenne, 20 août 1635",
+          "page_number": "352"
+        },
+        {
+          "letter_number": "473",
+          "letter_name": "Peiresc à Luillier, 28 août 1635",
+          "page_number": "363"
+        },
+        {
+          "letter_number": "474",
+          "letter_name": "De Laleu à Mersenne (août 1635)",
+          "page_number": "365"
+        },
+        {
+          "letter_number": "475",
+          "letter_name": "Peiresc à Mersenne (fin d'août ou commencement de septembre 1635)",
+          "page_number": "368"
+        },
+        {
+          "letter_number": "476",
+          "letter_name": "Mersenne à Peiresc (vers le 1er septembre 1635)",
+          "page_number": "370"
+        },
+        {
+          "letter_number": "477",
+          "letter_name": "Villiers à Mersenne, 3 septembre 1635",
+          "page_number": "382"
+        },
+        {
+          "letter_number": "478",
+          "letter_name": "Peiresc à Jacques Dupuy, 4 septembre 1635",
+          "page_number": "385"
+        },
+        {
+          "letter_number": "479",
+          "letter_name": "Doni à Mersenne, 8 septembre 1635",
+          "page_number": "386"
+        },
+        {
+          "letter_number": "480",
+          "letter_name": "Peiresc à Saumaise, 11 septembre 1635",
+          "page_number": "396"
+        },
+        {
+          "letter_number": "481",
+          "letter_name": "Peiresc à Golius, 11 septembre 1635",
+          "page_number": "397"
+        },
+        {
+          "letter_number": "482",
+          "letter_name": "Le P. de Loches à Peiresc, 14 septembre 1635",
+          "page_number": "398"
+        },
+        {
+          "letter_number": "483",
+          "letter_name": "Mersenne à Peiresc, 15 septembre 1635",
+          "page_number": "400"
+        },
+        {
+          "letter_number": "484",
+          "letter_name": "Mersenne à Peiresc, 17 septembre 1635",
+          "page_number": "403"
+        },
+        {
+          "letter_number": "485",
+          "letter_name": "Peiresc à Aubery Du Mesnil, 18 septembre 1635",
+          "page_number": "408"
+        },
+        {
+          "letter_number": "486",
+          "letter_name": "Doni à Mersenne, 30 septembre 1635",
+          "page_number": "409"
+        },
+        {
+          "letter_number": "487",
+          "letter_name": "Peiresc au P. de Loches, 1er octobre 1635",
+          "page_number": "416"
+        },
+        {
+          "letter_number": "488",
+          "letter_name": "Peiresc à Mersenne, 2 octobre 1635",
+          "page_number": "417"
+        },
+        {
+          "letter_number": "489",
+          "letter_name": "Mersenne à Peiresc, 2 octobre 1635",
+          "page_number": "419"
+        },
+        {
+          "letter_number": "490",
+          "letter_name": "Mersenne à Peiresc, 12 octobre 1635",
+          "page_number": "421"
+        },
+        {
+          "letter_number": "491",
+          "letter_name": "Saumaise à Golius, 13 octobre 1635",
+          "page_number": "424"
+        }
+      ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_5/Screenshot 2026-07-03 at 18.20.42.png",
+      "image_path": "data/raw/letters_table/vol_5/Screenshot 2026-07-03 at 18.20.42.png",
       "volume": "vol_5",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -4968,7 +5227,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_6/PXL_20260702_115537287.jpg",
+      "image_path": "data/raw/letters_table/vol_6/PXL_20260702_115537287.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -5189,7 +5448,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_6/PXL_20260702_115543935.jpg",
+      "image_path": "data/raw/letters_table/vol_6/PXL_20260702_115543935.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -5465,7 +5724,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_6/PXL_20260702_115548161.jpg",
+      "image_path": "data/raw/letters_table/vol_6/PXL_20260702_115548161.jpg",
       "volume": "vol_6",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -5526,7 +5785,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_7/PXL_20260702_115735355.jpg",
+      "image_path": "data/raw/letters_table/vol_7/PXL_20260702_115735355.jpg",
       "volume": "vol_7",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -5745,7 +6004,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_7/PXL_20260702_115741367.jpg",
+      "image_path": "data/raw/letters_table/vol_7/PXL_20260702_115741367.jpg",
       "volume": "vol_7",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -5830,7 +6089,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_8/PXL_20260702_115927346.jpg",
+      "image_path": "data/raw/letters_table/vol_8/PXL_20260702_115927346.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -6031,7 +6290,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_8/PXL_20260702_115932705.MP.jpg",
+      "image_path": "data/raw/letters_table/vol_8/PXL_20260702_115932705.MP.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -6285,7 +6544,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_8/PXL_20260702_115936334.jpg",
+      "image_path": "data/raw/letters_table/vol_8/PXL_20260702_115936334.jpg",
       "volume": "vol_8",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -6426,7 +6685,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_9/PXL_20260702_120203594.jpg",
+      "image_path": "data/raw/letters_table/vol_9/PXL_20260702_120203594.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -6632,7 +6891,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_9/PXL_20260702_120209794.jpg",
+      "image_path": "data/raw/letters_table/vol_9/PXL_20260702_120209794.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "qwen3.6:35b",
@@ -6908,7 +7167,7 @@
       ]
     },
     {
-      "image_path": "cmd/indexextractor/data/raw/letters_table/vol_9/PXL_20260702_120214036.jpg",
+      "image_path": "data/raw/letters_table/vol_9/PXL_20260702_120214036.jpg",
       "volume": "vol_9",
       "provider": "ollama",
       "model": "qwen3.6:35b",
