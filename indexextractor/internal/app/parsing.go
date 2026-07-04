@@ -8,7 +8,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 )
 
 func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
