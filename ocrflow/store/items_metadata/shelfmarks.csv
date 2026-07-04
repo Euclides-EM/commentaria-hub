@@ -385,8 +385,9 @@ Lyon_1672,,https://www.google.com/books/edition/Huit_livres_des_Elemens/UHw-AAAA
 Paris_1682,,,,,,,
 Amsterdam_1700,,https://www.google.nl/books/edition/Les_Elemens_d_Euclide/gOfhtmePAx4C,Amsterdam_1700_tp.png,,,,
 Madrid_1665,,https://archive.org/details/HArteR05T12/page/n3/mode/2up,Madrid_1665_tp.png,,,,
-Paris_1566a,,https://www.proquest.com/docview/2090304422?sourcetype=Books&imgSeq=10,Paris_1566a_tp.jpeg,,,,
-Paris_1566a,,https://gallica.bnf.fr/ark:/12148/bpt6k8702020p?rk=64378;0#,Paris_1566a_tp_alt.png,,,,
+Paris_1566a,,https://www.proquest.com/docview/2090304422?sourcetype=Books&imgSeq=10,Paris_1566a_tp.jpeg,,,,unknown
+Paris_1566a,,https://gallica.bnf.fr/ark:/12148/bpt6k8702020p?rk=64378;0#,Paris_1566a_tp_alt.png,,,,unknown
+Paris_1566a,1,https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k8702020p/f5,,,,,unknown - licence-link has error 404
 Amsterdam_1702,,https://www.google.com/books/edition/De_ses_eerste_boeken_der_Beginselen_Eucl/4MI2AAAAMAAJ,Amsterdam_1702_tp.png,Amsterdam_1702_frontispiece.png,,,
 Leiden_1617,,https://www.google.com/books/edition/De_propositien_van_de_XV_boucken_der_ele/qZtpAAAAcAAJ,Leiden_1617_tp.png,,,,
 Siena_1691,,https://www.google.com/books/edition/Elementa_Euclidis_ad_usum_Novae_Academia/gtc4uydqIlYC,Siena_1691_tp.png,,,,
@@ -564,7 +565,8 @@ Geneva_1628,,https://www.google.com/books/edition/Les_Six_premiers_livres_des_El
 Beijing_1629,,,,,,,
 Paris_1630,,,,,,,
 Paris_1631,,https://www.google.com/books/edition/Les_quinze_livres_des_%C3%A9l%C3%A9mens_d_Euclid/ia9BAAAAcAAJ,Paris_1631_tp.png,,,,
-Paris_1632,,https://www.google.com/books/edition/Les_quinze_livres_des_%C3%A9l%C3%A9ments_d_Eucli/TkP-1l5L1lUC,Paris_1632_tp.jpeg,,,,
+Paris_1632,,https://www.google.com/books/edition/Les_quinze_livres_des_%C3%A9l%C3%A9ments_d_Eucli/TkP-1l5L1lUC,Paris_1632_tp.jpeg,,,,unknown
+Paris_1632,1,https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k1510937s/f5,,,,,unknown - licence-link has error 404
 Paris_1632a,,https://www.google.com/books/edition/Les_quinze_livres_des_elemens_geometriqu/dG0-AAAAcAAJ,Paris_1632a_tp.jpeg,,,,
 Rotterdam_1632,,https://www.google.com/books/edition/De_ses_eerste_boecken_Euclidis_van_de_be/oM5mAAAAcAAJ,Rotterdam_1632_tp.png,,,,
 Hamburg_1633,,https://www.google.com/books/edition/Zes_eerste_Boekken_van_de_Beginselen_der/M39ZiFw_Y00C,Hamburg_1633_tp.png,,,,
@@ -583,12 +585,14 @@ Paris_1634,6,https://www.google.com/books/edition/Supplementum_Cursus_mathematic
 Paris_1634,6,https://gallica.bnf.fr/ark:/12148/bpt6k87020213?rk=64378;0,,,,,
 Alcala_1637,,https://www.google.com/books/edition/Elementos_geometricos_de_Euclides_philos/9GH8RqDkKmsC,Alcala_1637_tp.png,,,,
 Hamburg_1638,,https://www.google.com/books/edition/Euklides_zes_eerste_boekken_van_de_begin/iYrka6yi4XQC,Hamburg_1638_tp.png,,,,
-Paris_1639,,https://www.google.com/books/edition/Les_six_premiers_livres_des_%C3%A9l%C3%A9ments_d/q5qYhOGvzP4C,Paris_1639_tp.jpeg,,,,
-Paris_1639,1,https://gallica.bnf.fr/ark:/12148/bpt6k8720488k?rk=107296;4,,,,,
+Paris_1639,,https://www.google.com/books/edition/Les_six_premiers_livres_des_%C3%A9l%C3%A9ments_d/q5qYhOGvzP4C,Paris_1639_tp.jpeg,,,,unknown
+Paris_1639,1,https://gallica.bnf.fr/ark:/12148/bpt6k8720488k?rk=107296;4,,,,,unknown
+Paris_1639,1,https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k8720488k/f5,,,,,unknwon - licence-link has error 404
 Venice_1641,,,,,,,
 Paris_1644,,https://www.google.nl/books/edition/Cvrsvs_mathematicvs_nova_brevi_et_clara/krM4AAAAMAAJ,Paris_1644_tp.jpeg,,,,
 Paris_1644,1,https://www.digitale-sammlungen.de/en/view/bsb10235919,,,,,
 Paris_1644,1,https://gallica.bnf.fr/ark:/12148/bpt6k87205062?rk=85837;2,,,,,
+Paris_1644,1,https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k87205062/f5,,,,,"unknown, Licence-link has error 404"
 Paris_1644b,1,https://www.google.nl/books/edition/Cursus_mathematicus_noua_breui_et_clara/K0myw8QFkgwC,Paris_1644b_tp.jpeg,,,,
 Paris_1644b,3,https://www.digitale-sammlungen.de/en/view/bsb10593925,,,,,
 Paris_1644b,4,https://www.digitale-sammlungen.de/en/view/bsb10593926,,,,,
@@ -1648,3 +1652,5 @@ DJ1VA3,1,https://dlc.mpg.de/!image/868391557/5/-/,dj1va3_tp_xjncj3.png,,,,Public
 4HQWNC,1,https://dlc.mpg.de/!image/868384208/7/,4hqwnc_tp_ehwlov.png,,,,Public Domain
 VQ0ZL6,1,https://dlc.mpg.de/!image/1843612127/5/-/,vq0zl6_tp_1skfnw.png,,,,
 08ZGD8,1,https://digital.slub-dresden.de/werkansicht/dlf/8089/7,08zgd8_tp_3gfc3w.png,,,,Public Domain
+YH90GA,1,https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k61831x/f620,,,,,unknown - licence-link has 404 error
+JCMXU9,1,https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k58324549/f66,,,,,unknown - licence-link has 404 error
