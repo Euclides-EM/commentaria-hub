@@ -74,6 +74,7 @@ type config struct {
 
 const (
 	commandExtract                = "extract"
+	commandBuildCSV               = "build-csv"
 	commandValidate               = "validate"
 	commandValidateTranscriptions = "validate-transcriptions"
 	commandValidateParsing        = "validate-parsing"
@@ -159,16 +160,16 @@ func parseCLI(args []string, errOut io.Writer) (config, error) {
 		cfg.command = args[0]
 		args = args[1:]
 	}
-	if cfg.command != commandExtract && cfg.command != commandValidate && cfg.command != commandValidateTranscriptions && cfg.command != commandValidateParsing && cfg.command != commandStatus {
-		return cfg, fmt.Errorf("unknown command %q (want extract, validate, validate-transcriptions, validate-parsing, or status)", cfg.command)
+	if cfg.command != commandExtract && cfg.command != commandBuildCSV && cfg.command != commandValidate && cfg.command != commandValidateTranscriptions && cfg.command != commandValidateParsing && cfg.command != commandStatus {
+		return cfg, fmt.Errorf("unknown command %q (want extract, build-csv, validate, validate-transcriptions, validate-parsing, or status)", cfg.command)
 	}
 	fs := flag.NewFlagSet("correspondence_ingest "+cfg.command, flag.ContinueOnError)
 	fs.SetOutput(errOut)
 	fs.StringVar(&cfg.kind, "kind", kindAll, "data kind: index, letters, or all")
 	fs.StringVar(&cfg.indexDir, "index-dir", rawIndexDir, "directory containing index images grouped by volume")
 	fs.StringVar(&cfg.lettersDir, "letters-dir", rawLettersTableDir, "directory containing letters-table images grouped by volume")
-	fs.StringVar(&cfg.indexCSV, "index-output", defaultIndexCSV, "output CSV for index entries")
-	fs.StringVar(&cfg.lettersCSV, "letters-output", defaultLettersCSV, "output CSV for letters-table entries")
+	fs.StringVar(&cfg.indexCSV, "index-output", defaultIndexCSV, "CSV export path; extraction state is <path>.manifest.json")
+	fs.StringVar(&cfg.lettersCSV, "letters-output", defaultLettersCSV, "CSV export path; extraction state is <path>.manifest.json")
 	fs.StringVar(&cfg.provider, "ai-provider", defaultAIProvider, "AI provider: openai or ollama")
 	fs.StringVar(&cfg.model, "ai-model", defaultAIModel, "vision-capable AI model")
 	fs.StringVar(&cfg.firstProvider, "first-pass-ai-provider", "", "two-pass transcription provider (defaults to --ai-provider)")
@@ -205,6 +206,8 @@ func executeCommand(cfg config, client llmExecutor, out io.Writer) error {
 	switch cfg.command {
 	case commandExtract:
 		return run(cfg, client, out)
+	case commandBuildCSV:
+		return buildCSVOutputs(cfg, out)
 	case commandValidate:
 		return validateOutputs(cfg, out)
 	case commandValidateTranscriptions:

@@ -2,7 +2,6 @@ package app
 
 import (
 	"encoding/csv"
-	"errors"
 	"fmt"
 	"io"
 	"os"
@@ -14,68 +13,56 @@ import (
 
 func validateOutputs(cfg config, out io.Writer) error {
 	if includesKind(cfg.kind, kindIndex) {
-		rows, err := validateCSVFile(cfg.indexCSV, indexHeader)
+		manifest, err := loadIndexManifest(cfg.indexCSV, true)
 		if err != nil {
-			return fmt.Errorf("validate index output: %w", err)
-		}
-		if _, err := os.Stat(manifestPath(cfg.indexCSV)); errors.Is(err, os.ErrNotExist) {
-			fmt.Fprintf(out, "Valid legacy index CSV: %d rows in %s (no manifest)\n", rows, cfg.indexCSV)
-		} else if err != nil {
 			return err
-		} else {
-			manifest, err := loadIndexManifest(cfg.indexCSV, true)
-			if err != nil {
-				return err
-			}
-			if err := validateIndexManifest(manifest, rows); err != nil {
-				return err
-			}
-			if err := validateIndexCSVMatchesManifest(cfg.indexCSV, manifest); err != nil {
-				return err
-			}
-			fmt.Fprintf(out, "Valid index dataset: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.indexCSV)
-			reportIssues("index", indexManifestIssues(manifest), out)
-			reportFailures("index", indexFailures(manifest), out)
 		}
+		rows := countIndexEntries(manifest)
+		if err := validateIndexManifest(manifest, rows); err != nil {
+			return err
+		}
+		fmt.Fprintf(out, "Valid index manifest: %d rows from %d images in %s\n", rows, len(manifest.Pages), manifestPath(cfg.indexCSV))
+		reportIssues("index", indexManifestIssues(manifest), out)
+		reportFailures("index", indexFailures(manifest), out)
 	}
 	if includesKind(cfg.kind, kindLetters) {
-		rows, err := validateCSVFile(cfg.lettersCSV, lettersHeader)
+		manifest, err := loadLettersManifest(cfg.lettersCSV, true)
 		if err != nil {
-			return fmt.Errorf("validate letters-table output: %w", err)
-		}
-		if _, err := os.Stat(manifestPath(cfg.lettersCSV)); errors.Is(err, os.ErrNotExist) {
-			fmt.Fprintf(out, "Valid legacy letters-table CSV: %d rows in %s (no manifest)\n", rows, cfg.lettersCSV)
-		} else if err != nil {
 			return err
-		} else {
-			manifest, err := loadLettersManifest(cfg.lettersCSV, true)
-			if err != nil {
-				return err
-			}
-			if err := validateLettersManifest(manifest, rows); err != nil {
-				return err
-			}
-			images, err := discoverImages(cfg.lettersDir)
-			if err != nil {
-				return fmt.Errorf("validate completed letters-table volumes: %w", err)
-			}
-			sequenceErr := validateCompletedLetterVolumes(manifest, images)
-			if err := validateLettersCSVMatchesManifest(cfg.lettersCSV, manifest); err != nil {
-				return err
-			}
-			if sequenceErr == nil {
-				fmt.Fprintf(out, "\nValid letters-table dataset: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.lettersCSV)
-			} else {
-				fmt.Fprintf(out, "\nLetters-table dataset structure valid: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.lettersCSV)
-			}
-			reportIssues("letters", lettersManifestIssues(manifest), out)
-			reportFailures("letters", lettersFailures(manifest), out)
-			if sequenceErr != nil {
-				return sequenceErr
-			}
+		}
+		rows := countLettersEntries(manifest)
+		if err := validateLettersManifest(manifest, rows); err != nil {
+			return err
+		}
+		images, err := discoverImages(cfg.lettersDir)
+		if err != nil {
+			return fmt.Errorf("validate completed letters-table volumes: %w", err)
+		}
+		sequenceErr := validateCompletedLetterVolumes(manifest, images)
+		fmt.Fprintf(out, "\nValid letters-table manifest: %d rows from %d images in %s\n", rows, len(manifest.Pages), manifestPath(cfg.lettersCSV))
+		reportIssues("letters", lettersManifestIssues(manifest), out)
+		reportFailures("letters", lettersFailures(manifest), out)
+		if sequenceErr != nil {
+			return sequenceErr
 		}
 	}
 	return nil
+}
+
+func countIndexEntries(manifest indexManifest) int {
+	rows := 0
+	for _, page := range manifest.Pages {
+		rows += len(page.Entries)
+	}
+	return rows
+}
+
+func countLettersEntries(manifest lettersManifest) int {
+	rows := 0
+	for _, page := range manifest.Pages {
+		rows += len(page.Entries)
+	}
+	return rows
 }
 
 func validateCSVFile(path string, expectedHeader []string) (int, error) {

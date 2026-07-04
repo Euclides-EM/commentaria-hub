@@ -258,6 +258,9 @@ func TestIndexExtractionRecordsFailureAndContinues(t *testing.T) {
 	if err := runIndexExtraction(cfg, client, &bytes.Buffer{}); err != nil {
 		t.Fatal(err)
 	}
+	if _, err := os.Stat(cfg.indexCSV); !errors.Is(err, os.ErrNotExist) {
+		t.Fatalf("extraction wrote CSV without build-csv: %v", err)
+	}
 	manifest, err := loadIndexManifest(cfg.indexCSV, true)
 	if err != nil {
 		t.Fatal(err)
@@ -278,6 +281,12 @@ func TestIndexExtractionRecordsFailureAndContinues(t *testing.T) {
 	}
 	if !strings.Contains(validation.String(), "1 failed images") || !strings.Contains(validation.String(), "first-pass") {
 		t.Fatalf("validation omitted failures: %s", validation.String())
+	}
+	if err := buildCSVOutputs(cfg, &bytes.Buffer{}); err != nil {
+		t.Fatal(err)
+	}
+	if rows, err := validateCSVFile(cfg.indexCSV, indexHeader); err != nil || rows != 1 {
+		t.Fatalf("built CSV validation: rows=%d err=%v", rows, err)
 	}
 	cfg.skipFailures = true
 	skipped := &scriptedExecutor{}

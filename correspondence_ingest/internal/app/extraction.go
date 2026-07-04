@@ -25,9 +25,6 @@ func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
 		if err := saveJSONAtomically(manifestPath(cfg.indexCSV), manifest); err != nil {
 			return fmt.Errorf("initialize index manifest: %w", err)
 		}
-		if err := renderIndexCSV(cfg.indexCSV, manifest); err != nil {
-			return fmt.Errorf("initialize index CSV: %w", err)
-		}
 	}
 	completed := indexCompleted(manifest)
 	written, skipped := 0, 0
@@ -55,7 +52,7 @@ func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
 			if err := saveJSONAtomically(manifestPath(cfg.indexCSV), manifest); err != nil {
 				return err
 			}
-			return renderIndexCSV(cfg.indexCSV, manifest)
+			return nil
 		})
 		if err != nil {
 			var checkpointErr checkpointError
@@ -71,9 +68,6 @@ func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
 			}
 			if err := saveJSONAtomically(manifestPath(cfg.indexCSV), manifest); err != nil {
 				return fmt.Errorf("save index failure after %s: %w", image.Path, err)
-			}
-			if err := renderIndexCSV(cfg.indexCSV, manifest); err != nil {
-				return fmt.Errorf("render index CSV after failure %s: %w", image.Path, err)
 			}
 			fmt.Fprintf(out, "Warning: index extraction failed for %s during %s: %v; continuing\n", image.Path, failure.Phase, err)
 			continue
@@ -96,15 +90,9 @@ func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
 		if err := saveJSONAtomically(manifestPath(cfg.indexCSV), manifest); err != nil {
 			return fmt.Errorf("save index manifest after %s: %w", image.Path, err)
 		}
-		if err := renderIndexCSV(cfg.indexCSV, manifest); err != nil {
-			return fmt.Errorf("render index CSV after %s: %w", image.Path, err)
-		}
 		written += len(entries)
 	}
-	if err := renderIndexCSV(cfg.indexCSV, manifest); err != nil {
-		return fmt.Errorf("render index CSV: %w", err)
-	}
-	fmt.Fprintf(out, "Index extraction complete: %d rows extracted, %d images skipped; manifest %s; output %s\n", written, skipped, manifestPath(cfg.indexCSV), cfg.indexCSV)
+	fmt.Fprintf(out, "Index extraction complete: %d rows extracted, %d images skipped; manifest %s\n", written, skipped, manifestPath(cfg.indexCSV))
 	return nil
 }
 
@@ -162,9 +150,6 @@ func runLettersExtraction(cfg config, client llmExecutor, out io.Writer) error {
 		if err := saveJSONAtomically(manifestPath(cfg.lettersCSV), manifest); err != nil {
 			return fmt.Errorf("initialize letters-table manifest: %w", err)
 		}
-		if err := renderLettersCSV(cfg.lettersCSV, manifest); err != nil {
-			return fmt.Errorf("initialize letters-table CSV: %w", err)
-		}
 	}
 	completed := lettersCompleted(manifest)
 	written, skipped := 0, 0
@@ -192,7 +177,7 @@ func runLettersExtraction(cfg config, client llmExecutor, out io.Writer) error {
 			if err := saveJSONAtomically(manifestPath(cfg.lettersCSV), manifest); err != nil {
 				return err
 			}
-			return renderLettersCSV(cfg.lettersCSV, manifest)
+			return nil
 		})
 		if err != nil {
 			var checkpointErr checkpointError
@@ -242,15 +227,9 @@ func runLettersExtraction(cfg config, client llmExecutor, out io.Writer) error {
 		if err := saveJSONAtomically(manifestPath(cfg.lettersCSV), manifest); err != nil {
 			return fmt.Errorf("save letters-table manifest after %s: %w", image.Path, err)
 		}
-		if err := renderLettersCSV(cfg.lettersCSV, manifest); err != nil {
-			return fmt.Errorf("render letters-table CSV after %s: %w", image.Path, err)
-		}
 		written += len(entries)
 	}
-	if err := renderLettersCSV(cfg.lettersCSV, manifest); err != nil {
-		return fmt.Errorf("render letters-table CSV: %w", err)
-	}
-	fmt.Fprintf(out, "Letters-table extraction complete: %d rows extracted, %d images skipped; manifest %s; output %s\n", written, skipped, manifestPath(cfg.lettersCSV), cfg.lettersCSV)
+	fmt.Fprintf(out, "Letters-table extraction complete: %d rows extracted, %d images skipped; manifest %s\n", written, skipped, manifestPath(cfg.lettersCSV))
 	return nil
 }
 
@@ -305,9 +284,6 @@ func recordLettersFailure(cfg config, manifest *lettersManifest, image imageInpu
 	}
 	if err := saveJSONAtomically(manifestPath(cfg.lettersCSV), *manifest); err != nil {
 		return fmt.Errorf("save letters-table failure after %s: %w", image.Path, err)
-	}
-	if err := renderLettersCSV(cfg.lettersCSV, *manifest); err != nil {
-		return fmt.Errorf("render letters-table CSV after failure %s: %w", image.Path, err)
 	}
 	return nil
 }

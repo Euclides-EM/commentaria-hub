@@ -12,6 +12,7 @@ Run commands from the standalone `correspondence_ingest` directory:
 ```sh
 go run ./cmd/correspondence_ingest status
 go run ./cmd/correspondence_ingest extract
+go run ./cmd/correspondence_ingest build-csv
 go run ./cmd/correspondence_ingest validate
 go run ./cmd/correspondence_ingest validate-transcriptions
 go run ./cmd/correspondence_ingest validate-parsing
@@ -57,23 +58,25 @@ Prefer one kind per long agent run. First run `status` and ordinary `validate`, 
 
 Raw images live under `data/raw/{index,letters_table}/<volume>/`. Supported extensions are `.jpg`, `.jpeg`, `.png`, and `.webp`, case-insensitively. Every image must be beneath a volume directory; that first relative directory component becomes the CSV `volume` value.
 
-Extraction resumes by default from `<output>.manifest.json`. The manifest is the source of truth, is checkpointed after pass one and every successfully processed image, and deterministically regenerates the CSV. A page is complete only when it has structured entries (an empty but non-null entries array is a valid completed result); a transcription-only page is pending. Use `extract --rerun` only for an intentional clean rebuild of the selected kind; it discards the selected in-memory manifest state and rewrites its manifest and CSV before extraction begins.
+Extraction resumes by default from `<output>.manifest.json`. The manifest is the only source of truth and is checkpointed after pass one and every attempted image. Extraction never writes a CSV. Run `build-csv` explicitly to create or replace the deterministic CSV export from the manifest. A page is complete only when it has structured entries (an empty but non-null entries array is a valid completed result); a transcription-only page is pending. Use `extract --rerun` only for an intentional clean rebuild of the selected kind; it discards the selected in-memory manifest state and rewrites the manifest before extraction begins.
 
 For targeted work, prefer a single kind:
 
 ```sh
 go run ./cmd/correspondence_ingest status --kind index
 go run ./cmd/correspondence_ingest extract --kind index
+go run ./cmd/correspondence_ingest build-csv --kind index
 go run ./cmd/correspondence_ingest validate --kind index
 ```
 
-Rerun one or more pages by using an unambiguous filename or path. Existing page results are replaced in the manifest, then the CSV is regenerated without duplicates:
+Rerun one or more pages by using an unambiguous filename or path. Existing page results are replaced in the manifest; build a fresh CSV explicitly when needed:
 
 ```sh
 go run ./cmd/correspondence_ingest extract --kind index --rerun-images vol_1/page01.jpg,vol_1/page02.jpg
+go run ./cmd/correspondence_ingest build-csv --kind index
 ```
 
-`--rerun-images` requires one explicit kind and cannot be combined with `--rerun`. Selectors may be a full path, a unique basename, or a unique path suffix; ambiguous selectors fail. Targeted results replace the matching page records, and the CSV is regenerated without duplicate page records.
+`--rerun-images` requires one explicit kind and cannot be combined with `--rerun`. Selectors may be a full path, a unique basename, or a unique path suffix; ambiguous selectors fail. Targeted results replace the matching manifest page records; the next `build-csv` produces an export without duplicates.
 
 ## Providers and configuration
 
@@ -103,14 +106,14 @@ An LLM or response-parsing failure does not stop the batch. It is stored on the 
 
 Single-letter index section headings with no page number or reference are ignored. Every retained index row must have a name and exactly one of `page_number` or `reference`; cross-references must have `is_bold=false`. Every retained letters row must have all three fields populated.
 
-Treat tolerated issues as review work, not as a clean extraction. Both `status` and `validate` report persisted issues by image. `status` compares discovered images with manifest pages and reports completed/pending counts. `validate` checks CSV shape and content against the manifest, but it does not prove that every raw image has been processed; run `status` as well before declaring a dataset complete.
+Treat tolerated issues as review work, not as a clean extraction. Both `status` and `validate` report persisted issues by image. `status` compares discovered images with manifest pages and reports completed/pending counts. `validate` checks manifest structure and content, but it does not prove that every raw image has been processed; run `status` as well before declaring a dataset complete. `build-csv` renders and checks the disposable CSV export.
 
 Before considering a change complete:
 
 1. Run `gofmt` on changed Go files.
 2. Run `go test ./...` (use a workspace-writable `GOCACHE` if required).
 3. Run `status` for each affected kind and investigate pending images or tolerated issues.
-4. Run `validate` against each generated CSV/manifest pair.
-5. Do not edit extraction CSVs or manifests by hand. Rerun the affected page so provenance, issues, and rendered CSV remain synchronized.
+4. Run `validate` against each manifest.
+5. Run `build-csv` when a CSV export is needed; never hand-edit either artifact.
 
 Each manifest page records its source path, volume, extraction mode, structured-pass provider/model/time, structured entries, optional parsing issues, and (for two-pass extraction) the transcription plus its provider/model/time. Failed pages additionally record failure provenance. Loading rejects unknown manifest fields and metadata whose version or kind does not match. Manifest v1 is migrated as legacy `one-pass` data, v2 as completed two-pass data, and v3 as resumable transcription data; newly saved manifests use v4, which adds failure state. If the manifest schema changes, update validation and rendering together and deliberately version or migrate the format; do not silently reinterpret existing manifests.

@@ -20,11 +20,6 @@ func loadIndexManifest(outputPath string, resume bool) (indexManifest, error) {
 		return manifest, nil
 	}
 	if err := loadJSON(manifestPath(outputPath), &manifest); errors.Is(err, os.ErrNotExist) {
-		if hasRows, checkErr := existingCSVHasRows(outputPath); checkErr != nil {
-			return manifest, checkErr
-		} else if hasRows {
-			return manifest, fmt.Errorf("index output %s predates its manifest; use --rerun to create agent-safe state", outputPath)
-		}
 		return manifest, nil
 	} else if err != nil {
 		return manifest, fmt.Errorf("load index manifest: %w", err)
@@ -42,11 +37,6 @@ func loadLettersManifest(outputPath string, resume bool) (lettersManifest, error
 		return manifest, nil
 	}
 	if err := loadJSON(manifestPath(outputPath), &manifest); errors.Is(err, os.ErrNotExist) {
-		if hasRows, checkErr := existingCSVHasRows(outputPath); checkErr != nil {
-			return manifest, checkErr
-		} else if hasRows {
-			return manifest, fmt.Errorf("letters-table output %s predates its manifest; use --rerun to create agent-safe state", outputPath)
-		}
 		return manifest, nil
 	} else if err != nil {
 		return manifest, fmt.Errorf("load letters-table manifest: %w", err)
