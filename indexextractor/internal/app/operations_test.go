@@ -1,4 +1,4 @@
-package main
+package app
 
 import (
 	"bytes"
@@ -128,6 +128,16 @@ func TestPassSpecificSettingsOverrideBaseIndependently(t *testing.T) {
 	}
 }
 
+func TestParseCLIDefaultsSecondPassModel(t *testing.T) {
+	cfg, err := parseCLI([]string{"extract", "--extraction-mode", "two-pass"}, &bytes.Buffer{})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got := secondPassModel(cfg); got != "gpt-oss:120b" {
+		t.Fatalf("second-pass model = %q, want gpt-oss:120b", got)
+	}
+}
+
 func TestParseCLIRejectsUnknownExtractionMode(t *testing.T) {
 	cfg, err := parseCLI([]string{"extract", "--extraction-mode", "three-pass"}, &bytes.Buffer{})
 	if err != nil {
@@ -217,6 +227,14 @@ func TestReportIssuesIncludesCountImageAndDetail(t *testing.T) {
 	if !strings.Contains(output, "index: 2 tolerated parsing issues across 1 affected images") ||
 		!strings.Contains(output, "vol_10/page.jpg: entry 19 is incomplete") {
 		t.Fatalf("unexpected issue report: %q", output)
+	}
+}
+
+func TestCleanPathMigratesLegacyProjectLocation(t *testing.T) {
+	legacy := filepath.Join("cmd", "indexextractor", "data", "raw", "index", "vol_1", "page.jpg")
+	want := filepath.Join("data", "raw", "index", "vol_1", "page.jpg")
+	if got := cleanPath(legacy); got != want {
+		t.Fatalf("cleanPath(%q) = %q, want %q", legacy, got, want)
 	}
 }
 

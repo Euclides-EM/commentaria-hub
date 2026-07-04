@@ -1,30 +1,26 @@
-package main
+package app
 
 import (
-	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
 	"io"
-	"log"
 	"os"
 	"path/filepath"
-	"sort"
 	"strings"
-	"unicode"
-	"unicode/utf8"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/MiaMish/elements-dh/indexextractor/internal/llm"
 	"github.com/joho/godotenv"
 )
 
 const (
-	rawIndexDir        = "cmd/indexextractor/data/raw/index"
-	rawLettersTableDir = "cmd/indexextractor/data/raw/letters_table"
-	defaultIndexCSV    = "cmd/indexextractor/data/index.csv"
-	defaultLettersCSV  = "cmd/indexextractor/data/letters_table.csv"
-	defaultAIProvider  = llm.ProviderOllama
-	defaultAIModel     = "qwen3.6:35b"
+	rawIndexDir              = "data/raw/index"
+	rawLettersTableDir       = "data/raw/letters_table"
+	defaultIndexCSV          = "data/outputs/index.csv"
+	defaultLettersCSV        = "data/outputs/letters_table.csv"
+	defaultAIProvider        = llm.ProviderOllama
+	defaultAIModel           = "qwen3.6:35b"
+	defaultSecondPassAIModel = "gpt-oss:120b"
 )
 
 const indexPrompt = `Extract every entry from this index page.
@@ -77,14 +73,16 @@ type config struct {
 }
 
 const (
-	commandExtract  = "extract"
-	commandValidate = "validate"
-	commandStatus   = "status"
-	kindAll         = "all"
-	kindIndex       = "index"
-	kindLetters     = "letters"
-	modeOnePass     = "one-pass"
-	modeTwoPass     = "two-pass"
+	commandExtract                = "extract"
+	commandValidate               = "validate"
+	commandValidateTranscriptions = "validate-transcriptions"
+	commandValidateParsing        = "validate-parsing"
+	commandStatus                 = "status"
+	kindAll                       = "all"
+	kindIndex                     = "index"
+	kindLetters                   = "letters"
+	modeOnePass                   = "one-pass"
+	modeTwoPass                   = "two-pass"
 )
 
 type imageInput struct {
@@ -130,31 +128,29 @@ type llmExecutor interface {
 	Exec(provider, model, prompt, attachmentPath string) (string, error)
 }
 
-func main() {
-	log.SetFlags(0)
-	cfg, err := parseCLI(os.Args[1:], os.Stderr)
+// RunCLI parses and executes an indexextractor command.
+func RunCLI(args []string, out, errOut io.Writer) error {
+	cfg, err := parseCLI(args, errOut)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 	_ = godotenv.Load(".env")
 	_ = godotenv.Load(".env_private")
-	if cfg.command == commandExtract {
+	if commandUsesAI(cfg.command) {
 		if err := validateEnvironment(cfg); err != nil {
-			log.Fatal(err)
+			return err
 		}
 	}
 
 	var client llmExecutor
-	if cfg.command == commandExtract {
+	if commandUsesAI(cfg.command) {
 		client = llm.NewClient(
 			os.Getenv("OPENAI_API_KEY"),
 			os.Getenv("OLLAMA_BASE_URL"),
 			os.Getenv("OLLAMA_AUTH_TOKEN"),
 		)
 	}
-	if err := executeCommand(cfg, client, os.Stdout); err != nil {
-		log.Fatal(err)
-	}
+	return executeCommand(cfg, client, out)
 }
 
 func parseCLI(args []string, errOut io.Writer) (config, error) {
@@ -163,8 +159,8 @@ func parseCLI(args []string, errOut io.Writer) (config, error) {
 		cfg.command = args[0]
 		args = args[1:]
 	}
-	if cfg.command != commandExtract && cfg.command != commandValidate && cfg.command != commandStatus {
-		return cfg, fmt.Errorf("unknown command %q (want extract, validate, or status)", cfg.command)
+	if cfg.command != commandExtract && cfg.command != commandValidate && cfg.command != commandValidateTranscriptions && cfg.command != commandValidateParsing && cfg.command != commandStatus {
+		return cfg, fmt.Errorf("unknown command %q (want extract, validate, validate-transcriptions, validate-parsing, or status)", cfg.command)
 	}
 	fs := flag.NewFlagSet("indexextractor "+cfg.command, flag.ContinueOnError)
 	fs.SetOutput(errOut)
@@ -178,7 +174,7 @@ func parseCLI(args []string, errOut io.Writer) (config, error) {
 	fs.StringVar(&cfg.firstProvider, "first-pass-ai-provider", "", "two-pass transcription provider (defaults to --ai-provider)")
 	fs.StringVar(&cfg.firstModel, "first-pass-ai-model", "", "two-pass transcription model (defaults to --ai-model)")
 	fs.StringVar(&cfg.secondProvider, "second-pass-ai-provider", "", "two-pass structured extraction provider (defaults to --ai-provider)")
-	fs.StringVar(&cfg.secondModel, "second-pass-ai-model", "", "two-pass structured extraction model (defaults to --ai-model)")
+	fs.StringVar(&cfg.secondModel, "second-pass-ai-model", defaultSecondPassAIModel, "two-pass structured extraction model")
 	fs.BoolVar(&cfg.resume, "resume", true, "skip images already recorded in the output manifest")
 	fs.BoolVar(&cfg.rerun, "rerun", false, "discard the selected manifest and output, then extract every image")
 	fs.StringVar(&cfg.rerunImages, "rerun-images", "", "comma-separated image paths to extract again and replace in the manifest")
@@ -211,11 +207,19 @@ func executeCommand(cfg config, client llmExecutor, out io.Writer) error {
 		return run(cfg, client, out)
 	case commandValidate:
 		return validateOutputs(cfg, out)
+	case commandValidateTranscriptions:
+		return runAIValidation(cfg, client, validationTranscription, out)
+	case commandValidateParsing:
+		return runAIValidation(cfg, client, validationParsing, out)
 	case commandStatus:
 		return reportStatus(cfg, out)
 	default:
 		return fmt.Errorf("unknown command %q", cfg.command)
 	}
+}
+
+func commandUsesAI(command string) bool {
+	return command == commandExtract || command == commandValidateTranscriptions || command == commandValidateParsing
 }
 
 func run(cfg config, client llmExecutor, out io.Writer) error {
@@ -248,8 +252,11 @@ func validateConfig(cfg config) error {
 		required["letters-table directory"] = cfg.lettersDir
 		required["letters-table output"] = cfg.lettersCSV
 	}
-	if cfg.command == commandExtract {
-		if effectiveExtractionMode(cfg) == modeTwoPass {
+	if commandUsesAI(cfg.command) {
+		if cfg.command != commandExtract {
+			required["AI provider"] = cfg.provider
+			required["AI model"] = cfg.model
+		} else if effectiveExtractionMode(cfg) == modeTwoPass {
 			required["first-pass AI provider"] = firstPassProvider(cfg)
 			required["first-pass AI model"] = firstPassModel(cfg)
 			required["second-pass AI provider"] = secondPassProvider(cfg)
@@ -264,9 +271,9 @@ func validateConfig(cfg config) error {
 			return fmt.Errorf("%s must not be empty", name)
 		}
 	}
-	if cfg.command == commandExtract {
+	if commandUsesAI(cfg.command) {
 		providers := map[string]string{"AI": cfg.provider}
-		if effectiveExtractionMode(cfg) == modeTwoPass {
+		if cfg.command == commandExtract && effectiveExtractionMode(cfg) == modeTwoPass {
 			providers = map[string]string{"first-pass AI": firstPassProvider(cfg), "second-pass AI": secondPassProvider(cfg)}
 		}
 		for label, provider := range providers {
@@ -275,7 +282,7 @@ func validateConfig(cfg config) error {
 				return fmt.Errorf("unsupported %s provider %q", label, provider)
 			}
 		}
-		if effectiveExtractionMode(cfg) == modeTwoPass && (strings.TrimSpace(firstPassModel(cfg)) == "" || strings.TrimSpace(secondPassModel(cfg)) == "") {
+		if cfg.command == commandExtract && effectiveExtractionMode(cfg) == modeTwoPass && (strings.TrimSpace(firstPassModel(cfg)) == "" || strings.TrimSpace(secondPassModel(cfg)) == "") {
 			return errors.New("first-pass and second-pass AI models must not be empty")
 		}
 		if cfg.extractionMode != modeOnePass && cfg.extractionMode != modeTwoPass {
@@ -294,7 +301,7 @@ func includesKind(selected, candidate string) bool {
 
 func validateEnvironment(cfg config) error {
 	providers := []string{cfg.provider}
-	if effectiveExtractionMode(cfg) == modeTwoPass {
+	if cfg.command == commandExtract && effectiveExtractionMode(cfg) == modeTwoPass {
 		providers = []string{firstPassProvider(cfg), secondPassProvider(cfg)}
 	}
 	for _, provider := range providers {
@@ -349,152 +356,4 @@ func extractionModel(cfg config) string {
 		return secondPassModel(cfg)
 	}
 	return cfg.model
-}
-
-func discoverImages(root string) ([]imageInput, error) {
-	info, err := os.Stat(root)
-	if err != nil {
-		return nil, err
-	}
-	if !info.IsDir() {
-		return nil, fmt.Errorf("%s is not a directory", root)
-	}
-
-	var images []imageInput
-	err = filepath.WalkDir(root, func(path string, entry os.DirEntry, walkErr error) error {
-		if walkErr != nil {
-			return walkErr
-		}
-		if entry.IsDir() || !isImagePath(path) {
-			return nil
-		}
-		relative, err := filepath.Rel(root, path)
-		if err != nil {
-			return err
-		}
-		parts := strings.Split(filepath.ToSlash(relative), "/")
-		if len(parts) < 2 || strings.TrimSpace(parts[0]) == "" {
-			return fmt.Errorf("image %s must be inside a volume directory", path)
-		}
-		images = append(images, imageInput{Path: path, Volume: parts[0]})
-		return nil
-	})
-	if err != nil {
-		return nil, err
-	}
-	if len(images) == 0 {
-		return nil, fmt.Errorf("no supported images found in %s", root)
-	}
-	sort.Slice(images, func(i, j int) bool { return images[i].Path < images[j].Path })
-	return images, nil
-}
-
-func isImagePath(path string) bool {
-	switch strings.ToLower(filepath.Ext(path)) {
-	case ".jpg", ".jpeg", ".png", ".webp":
-		return true
-	default:
-		return false
-	}
-}
-
-func parseIndexResponse(raw, volume string) ([]indexEntry, error) {
-	entries, _, err := parseIndexResponseWithIssues(raw, volume)
-	return entries, err
-}
-
-func parseIndexResponseWithIssues(raw, volume string) ([]indexEntry, []string, error) {
-	response, err := parseStrictJSON[indexResponse](raw)
-	if err != nil {
-		return nil, nil, err
-	}
-	if response.Entries == nil {
-		return nil, nil, errors.New("response requires an entries array")
-	}
-	entries := make([]indexEntry, 0, len(response.Entries))
-	issues := make([]string, 0)
-	for i := range response.Entries {
-		compact := response.Entries[i]
-		compact.Name = strings.TrimSpace(compact.Name)
-		compact.Reference = strings.TrimSpace(compact.Reference)
-		if isIndexSectionHeading(indexEntry{Name: compact.Name}) && len(compact.PageReferences) == 0 && compact.Reference == "" {
-			continue
-		}
-		if compact.Name == "" || (len(compact.PageReferences) == 0) == (compact.Reference == "") {
-			issues = append(issues, fmt.Sprintf(
-				"entry %d requires name and exactly one of page_references or reference (name=%q, page_references=%d, reference=%q)",
-				i+1, compact.Name, len(compact.PageReferences), compact.Reference,
-			))
-			continue
-		}
-		if compact.Reference != "" {
-			entries = append(entries, indexEntry{Name: compact.Name, Reference: compact.Reference, Volume: volume})
-			continue
-		}
-		for j := range compact.PageReferences {
-			pageRef := compact.PageReferences[j]
-			pageRef.PageNumber = strings.TrimSpace(pageRef.PageNumber)
-			if pageRef.PageNumber == "" {
-				issues = append(issues, fmt.Sprintf("entry %d page reference %d requires page_number (name=%q)", i+1, j+1, compact.Name))
-				continue
-			}
-			entries = append(entries, indexEntry{Name: compact.Name, PageNumber: pageRef.PageNumber, IsBold: pageRef.IsBold, Volume: volume})
-		}
-	}
-	return entries, issues, nil
-}
-
-func isIndexSectionHeading(entry indexEntry) bool {
-	if entry.PageNumber != "" || entry.Reference != "" || utf8.RuneCountInString(entry.Name) != 1 {
-		return false
-	}
-	r, _ := utf8.DecodeRuneInString(entry.Name)
-	return unicode.IsLetter(r)
-}
-
-func parseLettersResponse(raw, volume string) ([]letterEntry, error) {
-	entries, _, err := parseLettersResponseWithIssues(raw, volume)
-	return entries, err
-}
-
-func parseLettersResponseWithIssues(raw, volume string) ([]letterEntry, []string, error) {
-	response, err := parseStrictJSON[lettersResponse](raw)
-	if err != nil {
-		return nil, nil, err
-	}
-	if response.Entries == nil {
-		return nil, nil, errors.New("response requires an entries array")
-	}
-	entries := make([]letterEntry, 0, len(response.Entries))
-	issues := make([]string, 0)
-	for i := range response.Entries {
-		entry := response.Entries[i]
-		entry.LetterNumber = strings.TrimSpace(entry.LetterNumber)
-		entry.LetterName = strings.TrimSpace(entry.LetterName)
-		entry.PageNumber = strings.TrimSpace(entry.PageNumber)
-		entry.Volume = volume
-		if entry.LetterNumber == "" || entry.LetterName == "" || entry.PageNumber == "" {
-			issues = append(issues, fmt.Sprintf(
-				"entry %d requires letter_number, letter_name, and page_number (letter_number=%q, letter_name=%q, page_number=%q)",
-				i+1, entry.LetterNumber, entry.LetterName, entry.PageNumber,
-			))
-			continue
-		}
-		entries = append(entries, entry)
-	}
-	return entries, issues, nil
-}
-
-func parseStrictJSON[T any](raw string) (T, error) {
-	var result T
-	object, err := llm.ParseJSON[json.RawMessage](raw)
-	if err != nil {
-		return result, err
-	}
-	decoder := json.NewDecoder(strings.NewReader(string(object)))
-	decoder.DisallowUnknownFields()
-	if err := decoder.Decode(&result); err != nil {
-		return result, fmt.Errorf("decode response: %w", err)
-	}
-	return result, nil
 }

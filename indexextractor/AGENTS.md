@@ -7,12 +7,14 @@ This command extracts two datasets from page images with a vision-capable LLM:
 
 Keep discovery, extraction rules, validation, checkpointing, and persistence in Go. Agents may orchestrate commands and investigate flagged pages, but must preserve the manifest-first workflow.
 
-Run commands from the `ocrflow` directory:
+Run commands from the standalone `indexextractor` directory:
 
 ```sh
 go run ./cmd/indexextractor status
 go run ./cmd/indexextractor extract
 go run ./cmd/indexextractor validate
+go run ./cmd/indexextractor validate-transcriptions
+go run ./cmd/indexextractor validate-parsing
 ```
 
 Extraction defaults to the original single vision call (`--extraction-mode one-pass`). Use `--extraction-mode two-pass` to first create an auditable text transcription from the image and then make a text-only LLM call that converts that transcription to the required JSON:
@@ -23,9 +25,37 @@ go run ./cmd/indexextractor extract --kind index --extraction-mode two-pass
 
 In two-pass mode, only the transcription call receives the image attachment. The structured extraction call receives the transcription in its prompt and no attachment. The transcription is checkpointed to the manifest immediately after pass one. If pass two fails, that transcription-only page remains pending; the next two-pass run reuses it and starts at pass two. Rerun a page (or use `--rerun`) when changing modes.
 
-The default command is `extract`; prefer spelling the command out in agent workflows. All commands accept `--kind index`, `--kind letters`, or `--kind all` (the default). Default paths are relative to `ocrflow`, which is why commands must run there.
+The default command is `extract`; prefer spelling the command out in agent workflows. All commands accept `--kind index`, `--kind letters`, or `--kind all` (the default). Default paths are relative to the `indexextractor` project root, which is why commands must run there.
 
-Raw images live under `cmd/indexextractor/data/raw/{index,letters_table}/<volume>/`. Supported extensions are `.jpg`, `.jpeg`, `.png`, and `.webp`, case-insensitively. Every image must be beneath a volume directory; that first relative directory component becomes the CSV `volume` value.
+## AI validation and review files
+
+The two AI validation commands operate on completed two-pass manifest pages because both checks require the checkpointed transcription:
+
+```sh
+go run ./cmd/indexextractor validate-transcriptions --kind index \
+  --ai-provider ollama --ai-model qwen3.6:35b
+go run ./cmd/indexextractor validate-parsing --kind index \
+  --ai-provider openai --ai-model gpt-5-mini
+```
+
+`validate-transcriptions` sends the transcription and its underlying image to the selected vision-capable provider/model. It checks exact text, numbers, punctuation, ordering, completeness, and meaningful bold markup. Its differences normally require a human to inspect the image.
+
+`validate-parsing` is text-only: it sends the checkpointed transcription and that page's structured manifest entries, with no image attachment. Its prompt treats the transcription as the source of truth and asks a meticulous machine reviewer to find omissions, duplicates, grouping mistakes, cross-reference errors, page-number errors, name errors, and bold-flag errors. This review is deliberately suitable for Codex to investigate and act on without visually reading every image; do not automatically edit the CSV or manifest from a validator claim. Verify the reported source entry and rerun extraction for the affected page.
+
+For each dataset and check, the command writes two files under `data/reviews/` when using the default outputs:
+
+- `<output>.validate-<check>.json` is machine state and the resume checkpoint.
+- `<output>.validate-<check>.md` is the ordered human review, with accurate pages, failures, and actionable expected/actual differences. For example, `data/reviews/index.csv.validate-parsing.md`.
+
+Both files are atomically rewritten after every attempted page. Normal reruns skip successful validations whose source fingerprint and validator provider/model are unchanged, retry failures, and automatically revalidate pages whose transcription, structured entries, or validator changed. Stop the process at any time and run the same command to resume. `--skip-failures` also skips recorded validation failures. `--rerun` clears the selected validation checkpoint; `--rerun-images` revalidates only named pages and requires one explicit kind. Provider errors are recorded per page and do not erase earlier results.
+
+When the provider returns a response that cannot be parsed or fails validation schema checks, the failed result stores that response as `raw_response` and includes it in the Markdown review. Successful responses and provider errors do not store this field.
+
+Prefer one kind per long agent run. First run `status` and ordinary `validate`, then run transcription validation, then parsing validation. Review the generated Markdown after each resumable batch. A practical agent instruction is:
+
+> From the `indexextractor` directory, run `status --kind <kind>` and `validate --kind <kind>`, then resume `validate-transcriptions --kind <kind>` and `validate-parsing --kind <kind>` with the requested providers/models. Do not delete checkpoints. Inspect the parsing-validation Markdown closely: verify every `REVIEW REQUIRED` item against the manifest transcription and parsed entries, group findings by page, identify false positives, and recommend exact `extract --rerun-images` commands for genuine errors. Do not hand-edit generated CSV or manifest files. Report failures separately. If HumaNum Ollama returns HTTP 502, assume prompt/model timeout first; reduce scope to one kind or targeted pages and avoid blind repeated retries.
+
+Raw images live under `data/raw/{index,letters_table}/<volume>/`. Supported extensions are `.jpg`, `.jpeg`, `.png`, and `.webp`, case-insensitively. Every image must be beneath a volume directory; that first relative directory component becomes the CSV `volume` value.
 
 Extraction resumes by default from `<output>.manifest.json`. The manifest is the source of truth, is checkpointed after pass one and every successfully processed image, and deterministically regenerates the CSV. A page is complete only when it has structured entries (an empty but non-null entries array is a valid completed result); a transcription-only page is pending. Use `extract --rerun` only for an intentional clean rebuild of the selected kind; it discards the selected in-memory manifest state and rewrites its manifest and CSV before extraction begins.
 
@@ -47,7 +77,7 @@ go run ./cmd/indexextractor extract --kind index --rerun-images vol_1/page01.jpg
 
 ## Providers and configuration
 
-The defaults are Ollama with `qwen3.6:35b`. `--ai-provider` and `--ai-model` override those defaults for the whole extraction. In two-pass mode, `--first-pass-ai-provider`/`--first-pass-ai-model` and `--second-pass-ai-provider`/`--second-pass-ai-model` take precedence for their respective passes; any pass-specific flag that is omitted falls back to the corresponding `--ai-*` value. Only the effective first-pass model must support image input. For example, use free vision transcription followed by more reliable structured extraction:
+The defaults are Ollama with `qwen3.6:35b`, except that `--second-pass-ai-model` defaults to `gpt-oss:120b`. `--ai-provider` and `--ai-model` override the general extraction defaults. In two-pass mode, `--first-pass-ai-provider`/`--first-pass-ai-model` and `--second-pass-ai-provider`/`--second-pass-ai-model` take precedence for their respective passes. Only the effective first-pass model must support image input. For example, use free vision transcription followed by more reliable structured extraction:
 
 ```sh
 go run ./cmd/indexextractor extract --kind index --extraction-mode two-pass \
@@ -78,7 +108,7 @@ Treat tolerated issues as review work, not as a clean extraction. Both `status` 
 Before considering a change complete:
 
 1. Run `gofmt` on changed Go files.
-2. Run `go test ./cmd/indexextractor` (use a workspace-writable `GOCACHE` if required).
+2. Run `go test ./...` (use a workspace-writable `GOCACHE` if required).
 3. Run `status` for each affected kind and investigate pending images or tolerated issues.
 4. Run `validate` against each generated CSV/manifest pair.
 5. Do not edit extraction CSVs or manifests by hand. Rerun the affected page so provenance, issues, and rendered CSV remain synchronized.
