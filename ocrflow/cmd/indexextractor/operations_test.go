@@ -7,6 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+	"time"
 )
 
 type sequenceExecutor struct {
@@ -61,7 +62,7 @@ func (e *scriptedExecutor) Exec(_, _, _ string, attachment string) (string, erro
 func TestExtractIndexEntriesTwoPassUsesTranscriptionWithoutSecondAttachment(t *testing.T) {
 	client := &sequenceExecutor{responses: []string{
 		"Durand, **42**",
-		`{"entries":[{"name":"Durand","page_number":"42","reference":"","is_bold":true}]}`,
+		`{"entries":[{"name":"Durand","page_references":[{"page_number":"42","is_bold":true}],"reference":""}]}`,
 	}}
 
 	entries, issues, transcription, err := extractIndexEntriesWithAudit(
@@ -96,7 +97,7 @@ func TestTwoPassCheckpointsAndReusesTranscriptionAfterSecondPassFailure(t *testi
 		t.Fatalf("expected second-pass failure after checkpoint, err=%v checkpoint=%q", err, checkpointed)
 	}
 
-	resumed := &sequenceExecutor{responses: []string{`{"entries":[{"name":"Durand","page_number":"42","reference":"","is_bold":false}]}`}}
+	resumed := &sequenceExecutor{responses: []string{`{"entries":[{"name":"Durand","page_references":[{"page_number":"42","is_bold":false}],"reference":""}]}`}}
 	entries, _, _, err := extractIndexEntriesWithCheckpoint(
 		config{provider: "ollama", model: "vision", secondProvider: "openai", secondModel: "gpt-test", extractionMode: modeTwoPass},
 		resumed, imageInput{Path: "page.jpg", Volume: "vol_1"}, checkpointed, &bytes.Buffer{}, nil,
@@ -139,7 +140,7 @@ func TestParseCLIRejectsUnknownExtractionMode(t *testing.T) {
 
 func TestExtractIndexEntriesSkipsAndReportsInvalidEntries(t *testing.T) {
 	client := &sequenceExecutor{responses: []string{
-		`{"entries":[{"name":"Broken","page_number":"1","reference":"Other","is_bold":false},{"name":"Valid","page_number":"2","reference":"","is_bold":false}]}`,
+		`{"entries":[{"name":"Broken","page_references":[{"page_number":"1","is_bold":false}],"reference":"Other"},{"name":"Valid","page_references":[{"page_number":"2","is_bold":false}],"reference":""}]}`,
 	}}
 	var out bytes.Buffer
 
@@ -155,6 +156,24 @@ func TestExtractIndexEntriesSkipsAndReportsInvalidEntries(t *testing.T) {
 	}
 	if len(issues) != 1 || !strings.Contains(issues[0], `entry 1 requires name`) {
 		t.Fatalf("unexpected issues: %#v", issues)
+	}
+}
+
+func TestParseIndexResponseExpandsCompactPageReferences(t *testing.T) {
+	raw := `{"entries":[{"name":"Durand","page_references":[{"page_number":"12","is_bold":false},{"page_number":"14-15","is_bold":true}],"reference":""},{"name":"Duval","page_references":[],"reference":"Durand"}]}`
+
+	entries, issues, err := parseIndexResponseWithIssues(raw, "vol_2")
+	if err != nil {
+		t.Fatalf("parseIndexResponseWithIssues returned error: %v", err)
+	}
+	if len(issues) != 0 || len(entries) != 3 {
+		t.Fatalf("unexpected entries or issues: entries=%#v issues=%#v", entries, issues)
+	}
+	if entries[0].Name != "Durand" || entries[0].PageNumber != "12" || entries[0].IsBold || entries[1].PageNumber != "14-15" || !entries[1].IsBold {
+		t.Fatalf("page references were not expanded correctly: %#v", entries)
+	}
+	if entries[2].Name != "Duval" || entries[2].Reference != "Durand" || entries[2].PageNumber != "" || entries[2].IsBold || entries[2].Volume != "vol_2" {
+		t.Fatalf("cross-reference was not expanded correctly: %#v", entries[2])
 	}
 }
 
@@ -216,7 +235,7 @@ func TestIndexExtractionRecordsFailureAndContinues(t *testing.T) {
 	client := &scriptedExecutor{results: []scriptedResult{
 		{err: errors.New("502 timeout")},
 		{response: "Durand, 42"},
-		{response: `{"entries":[{"name":"Durand","page_number":"42","reference":"","is_bold":false}]}`},
+		{response: `{"entries":[{"name":"Durand","page_references":[{"page_number":"42","is_bold":false}],"reference":""}]}`},
 	}}
 	if err := runIndexExtraction(cfg, client, &bytes.Buffer{}); err != nil {
 		t.Fatal(err)
@@ -279,5 +298,130 @@ func TestSecondPassFailureResumesWithoutFirstPass(t *testing.T) {
 	}
 	if second.calls != 1 || second.attachments[0] != "" {
 		t.Fatalf("retry repeated first pass: calls=%d attachments=%#v", second.calls, second.attachments)
+	}
+}
+
+func TestValidateCompletedLetterVolumes(t *testing.T) {
+	page := func(path, volume string, entries ...letterEntry) lettersPageResult {
+		return lettersPageResult{ImagePath: path, Volume: volume, Entries: entries}
+	}
+	entry := func(number, page string) letterEntry {
+		return letterEntry{LetterNumber: number, LetterName: "Letter " + number, PageNumber: page}
+	}
+	images := []imageInput{
+		{Path: "raw/vol_3/1.jpg", Volume: "vol_3"},
+		{Path: "raw/vol_3/2.jpg", Volume: "vol_3"},
+		{Path: "raw/vol_4/1.jpg", Volume: "vol_4"},
+	}
+
+	t.Run("valid consecutive completed volumes", func(t *testing.T) {
+		manifest := lettersManifest{Pages: []lettersPageResult{
+			page("raw/vol_3/1.jpg", "vol_3", entry("5.", "10"), entry("6", "10")),
+			page("raw/vol_3/2.jpg", "vol_3", entry("7", "12"), entry("8.", "14"), entry("7bis.", "13")),
+			page("raw/vol_4/1.jpg", "vol_4", entry("9", "2"), entry("10", "3")),
+		}}
+		if err := validateCompletedLetterVolumes(manifest, images); err != nil {
+			t.Fatal(err)
+		}
+	})
+
+	t.Run("missing number", func(t *testing.T) {
+		manifest := lettersManifest{Pages: []lettersPageResult{
+			page("raw/vol_3/1.jpg", "vol_3", entry("5", "10")),
+			page("raw/vol_3/2.jpg", "vol_3", entry("7", "12")),
+		}}
+		err := validateCompletedLetterVolumes(manifest, images)
+		if err == nil || !strings.Contains(err.Error(), "missing letter number 6") {
+			t.Fatalf("unexpected error: %v", err)
+		}
+	})
+
+	t.Run("successive volume boundary", func(t *testing.T) {
+		manifest := lettersManifest{Pages: []lettersPageResult{
+			page("raw/vol_3/1.jpg", "vol_3", entry("5", "10")),
+			page("raw/vol_3/2.jpg", "vol_3", entry("6", "12")),
+			page("raw/vol_4/1.jpg", "vol_4", entry("8", "2")),
+		}}
+		err := validateCompletedLetterVolumes(manifest, images)
+		if err == nil || !strings.Contains(err.Error(), "vol_4 starts at 8") {
+			t.Fatalf("unexpected error: %v", err)
+		}
+	})
+
+	t.Run("page regression", func(t *testing.T) {
+		manifest := lettersManifest{Pages: []lettersPageResult{
+			page("raw/vol_3/1.jpg", "vol_3", entry("5", "10")),
+			page("raw/vol_3/2.jpg", "vol_3", entry("6", "9")),
+		}}
+		err := validateCompletedLetterVolumes(manifest, images)
+		if err == nil || !strings.Contains(err.Error(), "page numbers regress") {
+			t.Fatalf("unexpected error: %v", err)
+		}
+	})
+
+	t.Run("incomplete volume is skipped", func(t *testing.T) {
+		manifest := lettersManifest{Pages: []lettersPageResult{
+			page("raw/vol_3/1.jpg", "vol_3", entry("5", "10"), entry("7", "9")),
+		}}
+		if err := validateCompletedLetterVolumes(manifest, images); err != nil {
+			t.Fatal(err)
+		}
+	})
+
+	t.Run("all problems are reported in order", func(t *testing.T) {
+		manifest := lettersManifest{Pages: []lettersPageResult{
+			page("raw/vol_3/1.jpg", "vol_3", entry("5", "10")),
+			page("raw/vol_3/2.jpg", "vol_3", entry("7", "9")),
+			page("raw/vol_4/1.jpg", "vol_4", entry("9", "2")),
+		}}
+		err := validateCompletedLetterVolumes(manifest, images)
+		if err == nil {
+			t.Fatal("expected multiple validation problems")
+		}
+		message := err.Error()
+		missing := strings.Index(message, "missing letter number 6")
+		regression := strings.Index(message, "page numbers regress")
+		boundary := strings.Index(message, "vol_4 starts at 9")
+		if !strings.Contains(message, "3 problems") || missing < 0 || regression <= missing || boundary <= regression {
+			t.Fatalf("problems were not fully and orderly reported:\n%s", message)
+		}
+	})
+}
+
+func TestValidateOutputsReportsLetterWarningsBeforeSequenceErrors(t *testing.T) {
+	dir := t.TempDir()
+	raw := filepath.Join(dir, "raw", "vol_1")
+	if err := os.MkdirAll(raw, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	image := filepath.Join(raw, "page.jpg")
+	if err := os.WriteFile(image, []byte("test"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	output := filepath.Join(dir, "letters.csv")
+	manifest := lettersManifest{Version: manifestVersion, Kind: kindLetters, Pages: []lettersPageResult{{
+		ImagePath: image, Volume: "vol_1", Provider: "test", Model: "test", ExtractedAt: time.Now().UTC(), ExtractionMode: modeOnePass,
+		Entries: []letterEntry{
+			{LetterNumber: "1", LetterName: "One", PageNumber: "10"},
+			{LetterNumber: "3", LetterName: "Three", PageNumber: "12"},
+		},
+		Issues: []string{"a tolerated extraction issue"},
+	}}}
+	if err := saveJSONAtomically(manifestPath(output), manifest); err != nil {
+		t.Fatal(err)
+	}
+	if err := renderLettersCSV(output, manifest); err != nil {
+		t.Fatal(err)
+	}
+
+	var report bytes.Buffer
+	err := validateOutputs(config{kind: kindLetters, lettersDir: filepath.Join(dir, "raw"), lettersCSV: output}, &report)
+	if err == nil || !strings.Contains(err.Error(), "missing letter number 2") {
+		t.Fatalf("unexpected validation error: %v", err)
+	}
+	text := report.String()
+	warning := strings.Index(text, "a tolerated extraction issue")
+	if warning < 0 || !strings.Contains(text, "letters: 1 tolerated parsing issues") || !strings.Contains(text, "letters: 0 failed images") {
+		t.Fatalf("warning report was suppressed:\n%s", text)
 	}
 }

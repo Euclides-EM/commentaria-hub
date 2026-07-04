@@ -747,12 +747,24 @@ func validateOutputs(cfg config, out io.Writer) error {
 			if err := validateLettersManifest(manifest, rows); err != nil {
 				return err
 			}
+			images, err := discoverImages(cfg.lettersDir)
+			if err != nil {
+				return fmt.Errorf("validate completed letters-table volumes: %w", err)
+			}
+			sequenceErr := validateCompletedLetterVolumes(manifest, images)
 			if err := validateLettersCSVMatchesManifest(cfg.lettersCSV, manifest); err != nil {
 				return err
 			}
-			fmt.Fprintf(out, "Valid letters-table dataset: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.lettersCSV)
+			if sequenceErr == nil {
+				fmt.Fprintf(out, "Valid letters-table dataset: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.lettersCSV)
+			} else {
+				fmt.Fprintf(out, "Letters-table dataset structure valid: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.lettersCSV)
+			}
 			reportIssues("letters", lettersManifestIssues(manifest), out)
 			reportFailures("letters", lettersFailures(manifest), out)
+			if sequenceErr != nil {
+				return sequenceErr
+			}
 		}
 	}
 	return nil
@@ -842,6 +854,148 @@ func validateLettersManifest(manifest lettersManifest, csvRows int) error {
 		return fmt.Errorf("validate letters-table dataset: manifest has %d entries but CSV has %d rows", rows, csvRows)
 	}
 	return nil
+}
+
+type completedLetterVolume struct {
+	name    string
+	number  int
+	minimum int
+	maximum int
+}
+
+// validateCompletedLetterVolumes applies dataset-level sequence checks only to
+// volumes for which every discovered source image has a completed manifest page.
+// Supplemental labels such as "836bis" and "Appendice I" are preserved in the
+// dataset but do not define or interrupt the ordinary integer letter sequence.
+func validateCompletedLetterVolumes(manifest lettersManifest, images []imageInput) error {
+	var validationErrors []error
+	discovered := map[string]map[string]bool{}
+	for _, image := range images {
+		if discovered[image.Volume] == nil {
+			discovered[image.Volume] = map[string]bool{}
+		}
+		discovered[image.Volume][cleanPath(image.Path)] = true
+	}
+	completed := lettersCompleted(manifest)
+	entriesByVolume := map[string][]letterEntry{}
+	for _, page := range manifest.Pages {
+		entriesByVolume[page.Volume] = append(entriesByVolume[page.Volume], page.Entries...)
+	}
+
+	volumeNames := make([]string, 0, len(discovered))
+	for volume := range discovered {
+		volumeNames = append(volumeNames, volume)
+	}
+	sort.Slice(volumeNames, func(i, j int) bool {
+		left, leftOK := parseVolumeNumber(volumeNames[i])
+		right, rightOK := parseVolumeNumber(volumeNames[j])
+		if leftOK && rightOK && left != right {
+			return left < right
+		}
+		return volumeNames[i] < volumeNames[j]
+	})
+
+	var volumes []completedLetterVolume
+	for _, volume := range volumeNames {
+		paths := discovered[volume]
+		complete := true
+		for path := range paths {
+			if !completed[path] {
+				complete = false
+				break
+			}
+		}
+		if !complete {
+			continue
+		}
+
+		volumeNumber, ok := parseVolumeNumber(volume)
+		if !ok {
+			validationErrors = append(validationErrors, fmt.Errorf("completed volume %q does not have a numeric vol_N name", volume))
+			continue
+		}
+		seen := map[int]letterEntry{}
+		pages := map[int]int{}
+		minimum, maximum := 0, 0
+		for _, entry := range entriesByVolume[volume] {
+			number, ordinary := parseOrdinaryLetterNumber(entry.LetterNumber)
+			if !ordinary {
+				continue
+			}
+			page, err := strconv.Atoi(strings.TrimSpace(entry.PageNumber))
+			if err != nil {
+				validationErrors = append(validationErrors, fmt.Errorf("volume %s letter %q has non-numeric page number %q", volume, entry.LetterNumber, entry.PageNumber))
+			}
+			if previous, duplicate := seen[number]; duplicate {
+				validationErrors = append(validationErrors, fmt.Errorf("volume %s has duplicate letter number %d (%q and %q)", volume, number, previous.LetterName, entry.LetterName))
+				continue
+			}
+			seen[number] = entry
+			if err == nil {
+				pages[number] = page
+			}
+			if len(seen) == 1 || number < minimum {
+				minimum = number
+			}
+			if len(seen) == 1 || number > maximum {
+				maximum = number
+			}
+		}
+		if len(seen) == 0 {
+			validationErrors = append(validationErrors, fmt.Errorf("completed volume %s has no ordinary numeric letter numbers", volume))
+			continue
+		}
+		for number := minimum; number <= maximum; number++ {
+			if _, ok := seen[number]; !ok {
+				validationErrors = append(validationErrors, fmt.Errorf("completed volume %s is missing letter number %d (range %d-%d)", volume, number, minimum, maximum))
+			}
+		}
+		numbers := make([]int, 0, len(pages))
+		for number := range pages {
+			numbers = append(numbers, number)
+		}
+		sort.Ints(numbers)
+		for i := 1; i < len(numbers); i++ {
+			previous, current := numbers[i-1], numbers[i]
+			if pages[current] < pages[previous] {
+				validationErrors = append(validationErrors, fmt.Errorf("volume %s page numbers regress from letter %d page %d to letter %d page %d", volume, previous, pages[previous], current, pages[current]))
+			}
+		}
+		volumes = append(volumes, completedLetterVolume{name: volume, number: volumeNumber, minimum: minimum, maximum: maximum})
+	}
+
+	sort.Slice(volumes, func(i, j int) bool { return volumes[i].number < volumes[j].number })
+	for i := 1; i < len(volumes); i++ {
+		previous, current := volumes[i-1], volumes[i]
+		if current.number != previous.number+1 {
+			continue
+		}
+		if current.minimum != previous.maximum+1 {
+			validationErrors = append(validationErrors, fmt.Errorf("completed successive volumes %s and %s are not consecutive: %s ends at %d, %s starts at %d", previous.name, current.name, previous.name, previous.maximum, current.name, current.minimum))
+		}
+	}
+	if len(validationErrors) > 0 {
+		messages := make([]string, len(validationErrors))
+		for i, err := range validationErrors {
+			messages[i] = err.Error()
+		}
+		return fmt.Errorf("validate letters-table dataset: %d problems\n  - %s", len(messages), strings.Join(messages, "\n  - "))
+	}
+	return nil
+}
+
+func parseOrdinaryLetterNumber(value string) (int, bool) {
+	value = strings.TrimSpace(strings.TrimSuffix(strings.TrimSpace(value), "."))
+	number, err := strconv.Atoi(value)
+	return number, err == nil
+}
+
+func parseVolumeNumber(value string) (int, bool) {
+	if !strings.HasPrefix(value, "vol_") {
+		return 0, false
+	}
+	number, err := strconv.Atoi(strings.TrimPrefix(value, "vol_"))
+	return number, err == nil
 }
 
 func validateIndexCSVMatchesManifest(path string, manifest indexManifest) error {

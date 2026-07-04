@@ -29,16 +29,15 @@ const (
 
 const indexPrompt = `Extract every entry from this index page.
 Return JSON only, in this exact shape:
-{"entries":[{"name":"entry exactly as printed","page_number":"one page reference exactly as printed, or empty for a cross-reference","reference":"cross-reference target without the v. marker, or empty for a page reference","is_bold":false}]}
+{"entries":[{"name":"entry exactly as printed","page_references":[{"page_number":"one page reference exactly as printed","is_bold":false}],"reference":"cross-reference target without the v. marker, or empty for page-reference entries"}]}
 
 Rules:
 - Preserve the spelling, punctuation, capitalization, page references, and cross-reference targets from the image.
-- Produce one object per individual page reference. Repeat the same entry name when it has multiple page references.
-- page_number must contain exactly one page reference, never a comma-separated list of references.
-- For a cross-reference such as "La Boderie (Sr de), v. Lefèvre (Guy).", set name to "La Boderie (Sr de)", page_number to "", and reference to "Lefèvre (Guy)". Do not include "v." or the sentence-ending period in reference.
-- Every object must have exactly one of page_number or reference populated, never both.
-- Set is_bold to true only when that page reference is printed in bold type. Ignore whether the entry name is bold.
-- Set is_bold to false for cross-reference entries.
+- Produce one entry object per printed index entry. Put all of its page references in page_references; do not repeat the entry name.
+- Each page_references object must contain exactly one page reference, never a comma-separated list of references.
+- For a cross-reference such as "La Boderie (Sr de), v. Lefèvre (Guy).", set name to "La Boderie (Sr de)", page_references to [], and reference to "Lefèvre (Guy)". Do not include "v." or the sentence-ending period in reference.
+- Every entry must have either a non-empty page_references array or a populated reference, never both. Use an empty page_references array for a cross-reference.
+- Set each page reference's is_bold to true only when that page reference is printed in bold type. Ignore whether the entry name is bold.
 - Do not infer missing text and do not include headings, running headers, or page numbers of the index itself.
 - Use an empty entries array when there are no index entries.`
 
@@ -108,8 +107,19 @@ type letterEntry struct {
 	Volume       string `json:"-"`
 }
 
+type compactPageReference struct {
+	PageNumber string `json:"page_number"`
+	IsBold     bool   `json:"is_bold"`
+}
+
+type compactIndexEntry struct {
+	Name           string                 `json:"name"`
+	PageReferences []compactPageReference `json:"page_references"`
+	Reference      string                 `json:"reference"`
+}
+
 type indexResponse struct {
-	Entries []indexEntry `json:"entries"`
+	Entries []compactIndexEntry `json:"entries"`
 }
 
 type lettersResponse struct {
@@ -404,26 +414,32 @@ func parseIndexResponseWithIssues(raw, volume string) ([]indexEntry, []string, e
 	entries := make([]indexEntry, 0, len(response.Entries))
 	issues := make([]string, 0)
 	for i := range response.Entries {
-		entry := response.Entries[i]
-		entry.Name = strings.TrimSpace(entry.Name)
-		entry.PageNumber = strings.TrimSpace(entry.PageNumber)
-		entry.Reference = strings.TrimSpace(entry.Reference)
-		if isIndexSectionHeading(entry) {
+		compact := response.Entries[i]
+		compact.Name = strings.TrimSpace(compact.Name)
+		compact.Reference = strings.TrimSpace(compact.Reference)
+		if isIndexSectionHeading(indexEntry{Name: compact.Name}) && len(compact.PageReferences) == 0 && compact.Reference == "" {
 			continue
 		}
-		entry.Volume = volume
-		if entry.Name == "" || (entry.PageNumber == "") == (entry.Reference == "") {
+		if compact.Name == "" || (len(compact.PageReferences) == 0) == (compact.Reference == "") {
 			issues = append(issues, fmt.Sprintf(
-				"entry %d requires name and exactly one of page_number or reference (name=%q, page_number=%q, reference=%q)",
-				i+1, entry.Name, entry.PageNumber, entry.Reference,
+				"entry %d requires name and exactly one of page_references or reference (name=%q, page_references=%d, reference=%q)",
+				i+1, compact.Name, len(compact.PageReferences), compact.Reference,
 			))
 			continue
 		}
-		if entry.Reference != "" && entry.IsBold {
-			issues = append(issues, fmt.Sprintf("entry %d cross-reference must not be bold (name=%q, reference=%q)", i+1, entry.Name, entry.Reference))
+		if compact.Reference != "" {
+			entries = append(entries, indexEntry{Name: compact.Name, Reference: compact.Reference, Volume: volume})
 			continue
 		}
-		entries = append(entries, entry)
+		for j := range compact.PageReferences {
+			pageRef := compact.PageReferences[j]
+			pageRef.PageNumber = strings.TrimSpace(pageRef.PageNumber)
+			if pageRef.PageNumber == "" {
+				issues = append(issues, fmt.Sprintf("entry %d page reference %d requires page_number (name=%q)", i+1, j+1, compact.Name))
+				continue
+			}
+			entries = append(entries, indexEntry{Name: compact.Name, PageNumber: pageRef.PageNumber, IsBold: pageRef.IsBold, Volume: volume})
+		}
 	}
 	return entries, issues, nil
 }
