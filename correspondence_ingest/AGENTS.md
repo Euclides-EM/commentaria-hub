@@ -18,6 +18,11 @@ go run ./cmd/correspondence_ingest validate-transcriptions
 go run ./cmd/correspondence_ingest validate-parsing
 ```
 
+Human-verified errors may be corrected with `manual-override --kind <kind>
+--image <selector> --entry <1-based-number> --by <human>` plus corrected field
+flags. This stores a timestamped old/new audit record on the entry. Never
+hand-edit the manifest; run `build-csv` afterward.
+
 Extraction defaults to the original single vision call (`--extraction-mode one-pass`). Use `--extraction-mode two-pass` to first create an auditable text transcription from the image and then make a text-only LLM call that converts that transcription to the required JSON:
 
 ```sh
@@ -116,4 +121,4 @@ Before considering a change complete:
 4. Run `validate` against each manifest.
 5. Run `build-csv` when a CSV export is needed; never hand-edit either artifact.
 
-Each manifest page records its source path, volume, extraction mode, structured-pass provider/model/time, structured entries, optional parsing issues, and (for two-pass extraction) the transcription plus its provider/model/time. Failed pages additionally record failure provenance. Loading rejects unknown manifest fields and metadata whose version or kind does not match. Manifest v1 is migrated as legacy `one-pass` data, v2 as completed two-pass data, and v3 as resumable transcription data; newly saved manifests use v4, which adds failure state. If the manifest schema changes, update validation and rendering together and deliberately version or migrate the format; do not silently reinterpret existing manifests.
+Each manifest page records its source path, volume, extraction mode, structured-pass provider/model/time, structured entries, optional parsing issues, and (for two-pass extraction) the transcription plus its provider/model/time. Failed pages additionally record failure provenance. Loading rejects unknown manifest fields and metadata whose version or kind does not match. Manifest v1 is migrated as legacy `one-pass` data, v2 as completed two-pass data, and v3 as resumable transcription data; v4 adds failure state and newly saved manifests use v5, which adds entry-level manual-override audit trails. If the manifest schema changes, update validation and rendering together and deliberately version or migrate the format; do not silently reinterpret existing manifests.

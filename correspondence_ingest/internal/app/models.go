@@ -2,11 +2,12 @@ package app
 
 import "time"
 
-const manifestVersion = 4
+const manifestVersion = 5
 
 const legacyManifestVersion = 1
 const twoPassManifestVersion = 2
 const resumableManifestVersion = 3
+const failureManifestVersion = 4
 
 const responseValidationAttempts = 2
 
@@ -65,6 +66,18 @@ type pageFailure struct {
 	Model    string    `json:"model"`
 	Error    string    `json:"error"`
 	FailedAt time.Time `json:"failed_at"`
+}
+
+type manualOverride struct {
+	CorrectedBy string                       `json:"corrected_by"`
+	CorrectedAt time.Time                    `json:"corrected_at"`
+	Reason      string                       `json:"reason,omitempty"`
+	Changes     map[string]manualFieldChange `json:"changes"`
+}
+
+type manualFieldChange struct {
+	Old string `json:"old"`
+	New string `json:"new"`
 }
 
 const (

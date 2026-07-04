@@ -452,3 +452,64 @@ func TestValidateOutputsReportsLetterWarningsBeforeSequenceErrors(t *testing.T) 
 		t.Fatalf("warning report was suppressed:\n%s", text)
 	}
 }
+
+func TestManualOverrideLettersUpdatesEntryAndRecordsHumanAudit(t *testing.T) {
+	dir := t.TempDir()
+	output := filepath.Join(dir, "letters.csv")
+	manifest := lettersManifest{Version: failureManifestVersion, Kind: kindLetters, Pages: []lettersPageResult{{
+		ImagePath: "data/raw/letters_table/vol_1/page.jpg", Volume: "vol_1",
+		Entries: []letterEntry{{LetterNumber: "1.", LetterName: "Cloude", PageNumber: "1"}},
+	}}}
+	if err := saveJSONAtomically(manifestPath(output), manifest); err != nil {
+		t.Fatal(err)
+	}
+	cfg, err := parseCLI([]string{"manual-override", "--kind", "letters", "--letters-output", output, "--image", "vol_1/page.jpg", "--entry", "1", "--by", "mia", "--letter-name", "Claude", "--reason", "checked image"}, &bytes.Buffer{})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if err := executeCommand(cfg, nil, &bytes.Buffer{}); err != nil {
+		t.Fatal(err)
+	}
+	got, err := loadLettersManifest(output, true)
+	if err != nil {
+		t.Fatal(err)
+	}
+	entry := got.Pages[0].Entries[0]
+	if entry.LetterName != "Claude" || len(entry.ManualOverrides) != 1 {
+		t.Fatalf("unexpected corrected entry: %#v", entry)
+	}
+	audit := entry.ManualOverrides[0]
+	if audit.CorrectedBy != "mia" || audit.Reason != "checked image" || audit.Changes["letter_name"].Old != "Cloude" || audit.Changes["letter_name"].New != "Claude" || audit.CorrectedAt.IsZero() {
+		t.Fatalf("unexpected audit: %#v", audit)
+	}
+	if got.Version != manifestVersion {
+		t.Fatalf("manifest version = %d, want %d", got.Version, manifestVersion)
+	}
+}
+
+func TestManualOverrideIndexCanSwitchToCrossReference(t *testing.T) {
+	dir := t.TempDir()
+	output := filepath.Join(dir, "index.csv")
+	manifest := indexManifest{Version: manifestVersion, Kind: kindIndex, Pages: []indexPageResult{{
+		ImagePath: "raw/vol_1/page.jpg", Volume: "vol_1",
+		Entries: []indexEntry{{Name: "Abano", PageNumber: "38", IsBold: true}},
+	}}}
+	if err := saveJSONAtomically(manifestPath(output), manifest); err != nil {
+		t.Fatal(err)
+	}
+	cfg, err := parseCLI([]string{"manual-override", "--kind", "index", "--index-output", output, "--image", "page.jpg", "--entry", "1", "--by", "reviewer", "--page-number=", "--reference", "Pierre", "--is-bold=false"}, &bytes.Buffer{})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if err := executeCommand(cfg, nil, &bytes.Buffer{}); err != nil {
+		t.Fatal(err)
+	}
+	got, err := loadIndexManifest(output, true)
+	if err != nil {
+		t.Fatal(err)
+	}
+	entry := got.Pages[0].Entries[0]
+	if entry.PageNumber != "" || entry.Reference != "Pierre" || entry.IsBold || len(entry.ManualOverrides[0].Changes) != 3 {
+		t.Fatalf("unexpected corrected entry: %#v", entry)
+	}
+}

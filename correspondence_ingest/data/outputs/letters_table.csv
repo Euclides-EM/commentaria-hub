@@ -144,6 +144,7 @@ letter_number,letter_name,page_number,volume
 958.,"Villiers, de Sens, à Mersenne, à Paris, 3 janvier (1641)",376,vol_10
 958 bis.,"Torricelli, de (Fabriano), à Maggiotti, à Rome, 5 janvier 1641",393,vol_10
 959.,"Borrilly, d’Aix, au P. Niceron, alors à Paris, 8 janvier 1641",395,vol_10
+959 bis.,(blank),397,vol_10
 960.,"J.-A. Ban, de Harlem, à C. Huygens, à La Haye, 12 janvier 1641",398,vol_10
 961.,"J.-A. Ban, de Harlem, à Mersenne, à Paris, 13 janvier 1641",400,vol_10
 962.,"J.-A. Ban, de Harlem, à Const. Huygens, à La Haye, 13 janvier 1641",405,vol_10
@@ -220,6 +221,7 @@ letter_number,letter_name,page_number,volume
 1033.,"Mersenne, de Paris, à Rivet, à La Haye, 23 septembre 1641",759,vol_10
 1034.,"Descartes, d’Endegeest, à Mersenne, à Paris (septembre 1641)",763,vol_10
 1035.,"A. Rivet, de La Haye, à Huygens, à Berg-op-Zoom, 1er octobre 1641",765,vol_10
+1036.,"J. van Beverwyck, de Dordrecht, à L. Meyssonnier, à Paris, 6 octobre 1641",765,vol_10
 1037.,"Huygens, de Berg-op-Zoom, à Rivet, à La Haye, 8 octobre 1641",766,vol_10
 1038.,"Wendelin, de Herck, à Huygens, à Dordrecht (?), (26 octobre 1641)",768,vol_10
 1039.,"Cavalieri, de Bologne, à Torricelli, à Florence, 30 octobre 1641",769,vol_10
@@ -385,6 +387,7 @@ Appendice II.,— Observation sur l’aimant contrôlée et réfutée (par Pierr
 1268,"Torricelli à Mersenne, 1er mai 1644",111,vol_13
 1269,"Mersenne à A. Rivet, 1er mai 1644",112,vol_13
 1270.,"Deschamps à Mersenne, 8 mai 1644",126,vol_13
+1271,"Deschamps à Mersenne, 8 mai 1644",126,vol_13
 1272.,"Sorbier à Gassend, 10 mai 1644",133,vol_13
 1273.,"Doni à Mersenne, 11 mai 1644",135,vol_13
 1274.,"Du Verdus à Torricelli, 21 mai 1644",139,vol_13
@@ -528,6 +531,7 @@ Appendice II.,— Observation sur l’aimant contrôlée et réfutée (par Pierr
 1412,"Mersenne à Torricelli, 13 décembre 1645",557,vol_13
 1413,"Mersenne à A. Rivet, 19-28 décembre 1645",565,vol_13
 1414,"Pineau à A. Rivet, 21 décembre 1645",569,vol_13
+87.,"(Robert) Cornier à Mersenne, 14 janvier (1628)",1,vol_2
 88.,"Nicolas-Claude Fabri de Peiresc aux frères Dupuy, 15 janvier 1628.",1,vol_2
 89.,"Faure à Mersenne, 25 janvier 1628.",7,vol_2
 90.,"Faure à Mersenne, (1628).",9,vol_2
@@ -597,8 +601,8 @@ Appendice II.,— Observation sur l’aimant contrôlée et réfutée (par Pierr
 154,Pierre Gassend à Nicolas-Claude Fabri de Peiresc (vers le 23 mars 1630),421,vol_2
 155,"René Descartes à Mersen ne, 15 avril 1630",422,vol_2
 156,"Mersen ne à Nicolas de Baugy, 26 avril 1630",438,vol_2
-157.,"Isaac Beeckman à Mersenme, 30 avril 1630",687,vol_2
-158.,"René Descartes à Mersenme, (6 mai 1630)",456,vol_2
+157.,"Isaac Beeckman à Mersenme, 30 avril 1630",456,vol_2
+158.,"René Descartes à Mersenme, (6 mai 1630)",479,vol_2
 159.,"Mersenme à André Rivet, 24 mai 1630",479,vol_2
 160.,"René Descartes à Mersenme, (3 juin 1630)",483,vol_2
 161.,"Pierre Gassend à Nicolas-Claude Fabri de Peiresc, 16 juin 1630",490,vol_2
@@ -723,8 +727,8 @@ IV.,Études de Cornier et de Descartes sur la réfraction,674,vol_2
 276.,"Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 19 septembre 1633",481,vol_3
 277.,"(Christophe) Villiers à Mersenne, (mi-septembre 1633)",482,vol_3
 278.,"Gabriel Naudé à Pierre Gassend, 22 septembre 1633",491,vol_3
-279.,"Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 3 octobre 1633",643,vol_3
-280.,"Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 10 octobre 1633",492,vol_3
+279.,"Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 3 octobre 1633",492,vol_3
+280.,"Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 10 octobre 1633",493,vol_3
 281.,"Nicolas-Claude Fabri de Peiresc au P. Théophile Minuti, 12 octobre 1633",493,vol_3
 282.,"Nicolas-Claude Fabri de Peiresc au P. Jacques de Vendôme, (première moitié d'octobre 1633)",494,vol_3
 283.,"Nicolas-Claude Fabri de Peiresc à Mersenre, 13-15 octobre 1633",496,vol_3
@@ -811,8 +815,8 @@ IV.,Études de Cornier et de Descartes sur la réfraction,674,vol_2
 364.,"Mersenne à Peiresc, 28 juillet 1634",272,vol_4
 365.,"La Charlonye à Mersenne, 30 juillet 1634",277,vol_4
 366.,Schickard à... (fin de juillet 1634,277,vol_4
-367,"Mersenne à Peiresc, 2 août 1634",461,vol_4
-368,"Peiresc à Mersenne, 13 août 1634",278,vol_4
+367,"Mersenne à Peiresc, 2 août 1634",278,vol_4
+368,"Peiresc à Mersenne, 13 août 1634",285,vol_4
 369,"Peiresc à Jacques Dupuy, 14 août 1634",285,vol_4
 370,"Descartes à Mersenne, 14 août 1634",296,vol_4
 371,"Villiers à Mersenne, 17 août 1634",297,vol_4
@@ -1078,8 +1082,8 @@ III,Les études de Mersenne sur le funépendule,444,vol_4
 628.,Descartes à Mersenne (5 ou 12 octobre 1637),314,vol_6
 629.,Descartes à Mersenne pour Fermat (5 ou 12 octobre 1637),316,vol_6
 630.,"Gassend à Boulliaud, 3 novembre 1637",320,vol_6
-631,Fermat à Mersenne (novembre 1637),397,vol_6
-632,"Mersenne à Rivet, 25 novembre 1637",321,vol_6
+631,Fermat à Mersenne (novembre 1637),321,vol_6
+632,"Mersenne à Rivet, 25 novembre 1637",333,vol_6
 633,"Mersenne à Galilée, 27 novembre 1637",333,vol_6
 634,"Naudé à Cassiano dal Pozzo, 4 décembre 1637",339,vol_6
 635,"Roberto Galilei à Galileo Galilei, 23 décembre 1637",341,vol_6
@@ -1129,6 +1133,7 @@ III,Les études de Mersenne sur le funépendule,444,vol_4
 679.,"R. Galilei à Galileo Galilei, 22 juin 1638",288,vol_7
 680.,R. Descartes à Claude Hardy (29 (?) juin) 1638,293,vol_7
 681.,"Descartes à Mersenne (29 juin 1638), avec appendice de Gillet ......",321,vol_7
+682.,"C. Huygens à J.-A. Ban, 30 juin 1638",321,vol_7
 683,"Fermat à Mersenne (fin juin ou début juillet 1638), avec appendice",322,vol_7
 684,"Mersenne à Cl. Saumaise, 8 juillet 1638",336,vol_7
 685,"R. Galilei à Galileo Galilei, 13 juillet 1638",339,vol_7
@@ -1137,7 +1142,7 @@ III,Les études de Mersenne sur le funépendule,444,vol_4
 688,"Doni à Mersenne, 26 juillet 1638 (lettre inédite)",381,vol_7
 689,"Fermat à Mersenne, 27 juillet 1638, avec appendice",397,vol_7
 690,"Descartes à Mersenne, 27 juillet 1638",404,vol_7
-690,Pons et Rossignol à Mersenne (1638),429,vol_7
+690 bis.,Pons et Rossignol à Mersenne (1638),429,vol_7
 I,Descartes à J. W. Eding pour Hartlib,435,vol_7
 II,Descartes à X… pour Hartlib (avril-mai 1638),438,vol_7
 III,Un écrit de Fermat (sur la tangente à l'ellipse),442,vol_7
@@ -1217,6 +1222,7 @@ V,"Problème des quatre globes, par Haestrecht",453,vol_7
 762,"Le P. Lhomme, à Stenay, à Mersenne, à Paris, 6 septembre 1639",504,vol_8
 763,"Mersenne, à Paris, à Rivet, à La Haye, 15 septembre 1639",508,vol_8
 764,"Mersenne, à Paris, à Rivet, à La Haye (avec Appendice) (fin septembre).",513,vol_8
+765,"J.-A. Ban, à Haarlem, à Constantin Huygens, à Berg-op-Zoom, 4 octobre 1639",524,vol_8
 766,"J. Chapelain, à Paris, à Balzac, près d'Angoulême, 9 octobre 1639",524,vol_8
 767,"A. Rivet, à La Haye, à Cl. Saumaise, à Leyde, 9 octobre 1639",528,vol_8
 768,"A. M. van Schuurman, à Utrecht, à Rivet, à La Haye, 15 octobre 1639",529,vol_8
@@ -1229,8 +1235,8 @@ V,"Problème des quatre globes, par Haestrecht",453,vol_7
 775,"Mersenne, à Paris, à J. A. Komenskeho, à Leśna, 1er novembre 1639",558,vol_8
 776,"Mersenne, à Paris, à Th. Haack, à Londres (1er novembre 1639)",575,vol_8
 777,"Paul Pineau, à Paris, à André Rivet, à La Haye, 5 novembre 1639",586,vol_8
-778,"Le P. Phelippeaux, à Paris, à Mersenne, pour Rivet, à Leyde, 10 novembre 1639",767,vol_8
-779,"Mersenne, à Paris, à Rivet, à La Haye, 12 novembre 1639",587,vol_8
+778,"Le P. Phelippeaux, à Paris, à Mersenne, pour Rivet, à Leyde, 10 novembre 1639",587,vol_8
+779,"Mersenne, à Paris, à Rivet, à La Haye, 12 novembre 1639",597,vol_8
 780,"Descartes, à (Santpoort), à Mersenne, à Paris (13 novembre 1639)",597,vol_8
 781,"J. Hübner, à Londres, à J. A. Comenius, à Leśna (mi-novembre)",606,vol_8
 782,"Mersenne, à Paris, à Rivet, à La Haye, 20 novembre 1639",615,vol_8

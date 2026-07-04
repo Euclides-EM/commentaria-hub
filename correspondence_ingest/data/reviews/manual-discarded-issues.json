@@ -1,0 +1,49 @@
+{
+  "reviewed_by": "mia",
+  "reviewed_at": "2026-07-04T14:33:08Z",
+  "reason": "Manual decisions provided during validation review",
+  "discarded_non_letter_entries": [
+    {
+      "image": "data/raw/letters_table/vol_10/PXL_20260702_120402900.jpg",
+      "entry": 22,
+      "letter_name": "Table chronologique des lettres du dixième volume",
+      "page_number": "857"
+    },
+    {
+      "image": "data/raw/letters_table/vol_10/PXL_20260702_120402900.jpg",
+      "entry": 23,
+      "letter_name": "Table alphabétique des Correspondants",
+      "page_number": "861"
+    },
+    {
+      "image": "data/raw/letters_table/vol_10/PXL_20260702_120402900.jpg",
+      "entry": 24,
+      "letter_name": "Index",
+      "page_number": "867"
+    },
+    {
+      "image": "data/raw/letters_table/vol_10/PXL_20260702_120402900.jpg",
+      "entry": 25,
+      "letter_name": "Additions et Corrections",
+      "page_number": "000"
+    },
+    {
+      "image": "data/raw/letters_table/vol_13/PXL_20260702_120942174.jpg",
+      "entry": 40,
+      "letter_name": "Texte sur l'aimantation",
+      "page_number": ""
+    },
+    {
+      "image": "data/raw/letters_table/vol_7/PXL_20260702_115741367.jpg",
+      "entry": 15,
+      "letter_name": "Index",
+      "page_number": "469"
+    },
+    {
+      "image": "data/raw/letters_table/vol_7/PXL_20260702_115741367.jpg",
+      "entry": 16,
+      "letter_name": "Corrections, additions",
+      "page_number": "475"
+    }
+  ]
+}

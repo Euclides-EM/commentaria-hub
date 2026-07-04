@@ -58958,6 +58958,22 @@
           "is_bold": false
         },
         {
+          "name": "Saint-François (le frère Jean de)",
+          "page_number": "",
+          "reference": "Goulu (le P.)",
+          "is_bold": false,
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:08Z",
+              "reason": "Manual correction provided during validation review; restored a parser-dropped entry",
+              "changes": {
+                "reference": { "old": "", "new": "Goulu (le P.)" }
+              }
+            }
+          ]
+        },
+        {
           "name": "Saint-Maur (Dom Jean de)",
           "page_number": "12",
           "is_bold": true
@@ -60004,10 +60020,7 @@
           "is_bold": false
         }
       ],
-      "issues": [
-        "entry 2 requires name and exactly one of page_references or reference (name=\"Saint-François (le frère Jean de)\", page_references=0, reference=\"\")",
-        "entry 3 requires name and exactly one of page_references or reference (name=\"Goulu (le P.)\", page_references=0, reference=\"\")"
-      ]
+      "issues": []
     },
     {
       "image_path": "cmd/correspondence_ingest/data/raw/index/vol_2/PXL_20260702_114833586.jpg",

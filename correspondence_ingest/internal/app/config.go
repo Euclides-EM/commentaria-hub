@@ -53,23 +53,34 @@ Represent bold text with Markdown **bold** markers so that a later text-only ext
 Do not interpret, summarize, normalize, or omit text. Return only the transcription.`
 
 type config struct {
-	command        string
-	kind           string
-	indexDir       string
-	lettersDir     string
-	indexCSV       string
-	lettersCSV     string
-	provider       string
-	model          string
-	firstProvider  string
-	firstModel     string
-	secondProvider string
-	secondModel    string
-	resume         bool
-	rerun          bool
-	rerunImages    string
-	extractionMode string
-	skipFailures   bool
+	command          string
+	kind             string
+	indexDir         string
+	lettersDir       string
+	indexCSV         string
+	lettersCSV       string
+	provider         string
+	model            string
+	firstProvider    string
+	firstModel       string
+	secondProvider   string
+	secondModel      string
+	resume           bool
+	rerun            bool
+	rerunImages      string
+	extractionMode   string
+	skipFailures     bool
+	image            string
+	entryNumber      int
+	correctedBy      string
+	correctionReason string
+	name             string
+	pageNumber       string
+	reference        string
+	isBold           string
+	letterNumber     string
+	letterName       string
+	setFlags         map[string]bool
 }
 
 const (
@@ -79,6 +90,7 @@ const (
 	commandValidateTranscriptions = "validate-transcriptions"
 	commandValidateParsing        = "validate-parsing"
 	commandStatus                 = "status"
+	commandManualOverride         = "manual-override"
 	kindAll                       = "all"
 	kindIndex                     = "index"
 	kindLetters                   = "letters"
@@ -92,18 +104,20 @@ type imageInput struct {
 }
 
 type indexEntry struct {
-	Name       string `json:"name"`
-	PageNumber string `json:"page_number"`
-	Reference  string `json:"reference,omitempty"`
-	IsBold     bool   `json:"is_bold"`
-	Volume     string `json:"-"`
+	Name            string           `json:"name"`
+	PageNumber      string           `json:"page_number"`
+	Reference       string           `json:"reference,omitempty"`
+	IsBold          bool             `json:"is_bold"`
+	Volume          string           `json:"-"`
+	ManualOverrides []manualOverride `json:"manual_overrides,omitempty"`
 }
 
 type letterEntry struct {
-	LetterNumber string `json:"letter_number"`
-	LetterName   string `json:"letter_name"`
-	PageNumber   string `json:"page_number"`
-	Volume       string `json:"-"`
+	LetterNumber    string           `json:"letter_number"`
+	LetterName      string           `json:"letter_name"`
+	PageNumber      string           `json:"page_number"`
+	Volume          string           `json:"-"`
+	ManualOverrides []manualOverride `json:"manual_overrides,omitempty"`
 }
 
 type compactPageReference struct {
@@ -160,8 +174,8 @@ func parseCLI(args []string, errOut io.Writer) (config, error) {
 		cfg.command = args[0]
 		args = args[1:]
 	}
-	if cfg.command != commandExtract && cfg.command != commandBuildCSV && cfg.command != commandValidate && cfg.command != commandValidateTranscriptions && cfg.command != commandValidateParsing && cfg.command != commandStatus {
-		return cfg, fmt.Errorf("unknown command %q (want extract, build-csv, validate, validate-transcriptions, validate-parsing, or status)", cfg.command)
+	if cfg.command != commandExtract && cfg.command != commandBuildCSV && cfg.command != commandValidate && cfg.command != commandValidateTranscriptions && cfg.command != commandValidateParsing && cfg.command != commandStatus && cfg.command != commandManualOverride {
+		return cfg, fmt.Errorf("unknown command %q (want extract, build-csv, manual-override, validate, validate-transcriptions, validate-parsing, or status)", cfg.command)
 	}
 	fs := flag.NewFlagSet("correspondence_ingest "+cfg.command, flag.ContinueOnError)
 	fs.SetOutput(errOut)
@@ -181,12 +195,24 @@ func parseCLI(args []string, errOut io.Writer) (config, error) {
 	fs.StringVar(&cfg.rerunImages, "rerun-images", "", "comma-separated image paths to extract again and replace in the manifest")
 	fs.StringVar(&cfg.extractionMode, "extraction-mode", modeOnePass, "LLM workflow: one-pass or two-pass")
 	fs.BoolVar(&cfg.skipFailures, "skip-failures", false, "do not retry pages whose last extraction attempt failed")
+	fs.StringVar(&cfg.image, "image", "", "manifest image path, basename, or unique path suffix")
+	fs.IntVar(&cfg.entryNumber, "entry", 0, "1-based entry number within the selected image")
+	fs.StringVar(&cfg.correctedBy, "by", "", "name or identifier of the human making the correction")
+	fs.StringVar(&cfg.correctionReason, "reason", "", "optional reason for the correction")
+	fs.StringVar(&cfg.name, "name", "", "corrected index name")
+	fs.StringVar(&cfg.pageNumber, "page-number", "", "corrected page number")
+	fs.StringVar(&cfg.reference, "reference", "", "corrected index cross-reference (empty clears it)")
+	fs.StringVar(&cfg.isBold, "is-bold", "", "corrected index bold state: true or false")
+	fs.StringVar(&cfg.letterNumber, "letter-number", "", "corrected letter number")
+	fs.StringVar(&cfg.letterName, "letter-name", "", "corrected letter name")
 	if err := fs.Parse(args); err != nil {
 		return cfg, err
 	}
 	if fs.NArg() != 0 {
 		return cfg, fmt.Errorf("unexpected arguments: %s", strings.Join(fs.Args(), " "))
 	}
+	cfg.setFlags = map[string]bool{}
+	fs.Visit(func(f *flag.Flag) { cfg.setFlags[f.Name] = true })
 	if cfg.rerun {
 		cfg.resume = false
 	}
@@ -216,6 +242,8 @@ func executeCommand(cfg config, client llmExecutor, out io.Writer) error {
 		return runAIValidation(cfg, client, validationParsing, out)
 	case commandStatus:
 		return reportStatus(cfg, out)
+	case commandManualOverride:
+		return applyManualOverride(cfg, out)
 	default:
 		return fmt.Errorf("unknown command %q", cfg.command)
 	}
@@ -245,6 +273,14 @@ func run(cfg config, client llmExecutor, out io.Writer) error {
 func validateConfig(cfg config) error {
 	if cfg.kind != kindAll && cfg.kind != kindIndex && cfg.kind != kindLetters {
 		return fmt.Errorf("unsupported kind %q (want index, letters, or all)", cfg.kind)
+	}
+	if cfg.command == commandManualOverride {
+		if cfg.kind == kindAll {
+			return errors.New("manual-override requires --kind index or --kind letters")
+		}
+		if strings.TrimSpace(cfg.image) == "" || cfg.entryNumber < 1 || strings.TrimSpace(cfg.correctedBy) == "" {
+			return errors.New("manual-override requires --image, --entry (1 or greater), and --by")
+		}
 	}
 	required := map[string]string{}
 	if includesKind(cfg.kind, kindIndex) {

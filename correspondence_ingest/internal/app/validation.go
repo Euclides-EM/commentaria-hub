@@ -122,6 +122,9 @@ func validateIndexManifest(manifest indexManifest, csvRows int) error {
 			if strings.TrimSpace(entry.Name) == "" || hasPageNumber == hasReference || (hasReference && entry.IsBold) {
 				return fmt.Errorf("validate index manifest: %s entry %d is incomplete", page.ImagePath, i+1)
 			}
+			if err := validateManualOverrides(entry.ManualOverrides); err != nil {
+				return fmt.Errorf("validate index manifest: %s entry %d: %w", page.ImagePath, i+1, err)
+			}
 		}
 		rows += len(page.Entries)
 	}
@@ -142,11 +145,28 @@ func validateLettersManifest(manifest lettersManifest, csvRows int) error {
 			if strings.TrimSpace(entry.LetterNumber) == "" || strings.TrimSpace(entry.LetterName) == "" || strings.TrimSpace(entry.PageNumber) == "" {
 				return fmt.Errorf("validate letters-table manifest: %s entry %d is incomplete", page.ImagePath, i+1)
 			}
+			if err := validateManualOverrides(entry.ManualOverrides); err != nil {
+				return fmt.Errorf("validate letters-table manifest: %s entry %d: %w", page.ImagePath, i+1, err)
+			}
 		}
 		rows += len(page.Entries)
 	}
 	if rows != csvRows {
 		return fmt.Errorf("validate letters-table dataset: manifest has %d entries but CSV has %d rows", rows, csvRows)
+	}
+	return nil
+}
+
+func validateManualOverrides(overrides []manualOverride) error {
+	for i, override := range overrides {
+		if strings.TrimSpace(override.CorrectedBy) == "" || override.CorrectedAt.IsZero() || len(override.Changes) == 0 {
+			return fmt.Errorf("manual override %d requires corrected_by, corrected_at, and changes", i+1)
+		}
+		for field, change := range override.Changes {
+			if strings.TrimSpace(field) == "" || change.Old == change.New {
+				return fmt.Errorf("manual override %d has invalid change for %q", i+1, field)
+			}
+		}
 	}
 	return nil
 }

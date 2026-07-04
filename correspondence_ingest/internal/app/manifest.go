@@ -24,7 +24,7 @@ func loadIndexManifest(outputPath string, resume bool) (indexManifest, error) {
 	} else if err != nil {
 		return manifest, fmt.Errorf("load index manifest: %w", err)
 	}
-	if manifest.Kind != kindIndex || (manifest.Version != legacyManifestVersion && manifest.Version != twoPassManifestVersion && manifest.Version != resumableManifestVersion && manifest.Version != manifestVersion) {
+	if manifest.Kind != kindIndex || (manifest.Version != legacyManifestVersion && manifest.Version != twoPassManifestVersion && manifest.Version != resumableManifestVersion && manifest.Version != failureManifestVersion && manifest.Version != manifestVersion) {
 		return manifest, fmt.Errorf("invalid index manifest metadata in %s", manifestPath(outputPath))
 	}
 	migrateIndexManifest(&manifest)
@@ -41,7 +41,7 @@ func loadLettersManifest(outputPath string, resume bool) (lettersManifest, error
 	} else if err != nil {
 		return manifest, fmt.Errorf("load letters-table manifest: %w", err)
 	}
-	if manifest.Kind != kindLetters || (manifest.Version != legacyManifestVersion && manifest.Version != twoPassManifestVersion && manifest.Version != resumableManifestVersion && manifest.Version != manifestVersion) {
+	if manifest.Kind != kindLetters || (manifest.Version != legacyManifestVersion && manifest.Version != twoPassManifestVersion && manifest.Version != resumableManifestVersion && manifest.Version != failureManifestVersion && manifest.Version != manifestVersion) {
 		return manifest, fmt.Errorf("invalid letters-table manifest metadata in %s", manifestPath(outputPath))
 	}
 	migrateLettersManifest(&manifest)

@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "kind": "letters",
   "pages": [
     {
@@ -781,6 +781,16 @@
           "page_number": "395"
         },
         {
+          "letter_number": "959 bis.",
+          "letter_name": "(blank)",
+          "page_number": "397",
+          "manual_overrides": [{
+            "corrected_by": "mia", "corrected_at": "2026-07-04T14:33:08Z",
+            "reason": "Manual correction provided during validation review; restored a parser-dropped entry",
+            "changes": { "letter_name": { "old": "", "new": "(blank)" } }
+          }]
+        },
+        {
           "letter_number": "960.",
           "letter_name": "J.-A. Ban, de Harlem, à C. Huygens, à La Haye, 12 janvier 1641",
           "page_number": "398"
@@ -935,9 +945,6 @@
           "letter_name": "G. Naudé, de Rome, à Doni, à Florence, 16 mars 1641",
           "page_number": "540"
         }
-      ],
-      "issues": [
-        "entry 19 requires letter_number, letter_name, and page_number (letter_number=\"959 bis.\", letter_name=\"\", page_number=\"397\")"
       ]
     },
     {
@@ -1173,10 +1180,17 @@
           "letter_number": "1035.",
           "letter_name": "A. Rivet, de La Haye, à Huygens, à Berg-op-Zoom, 1er octobre 1641",
           "page_number": "765"
+        },
+        {
+          "letter_number": "1036.",
+          "letter_name": "J. van Beverwyck, de Dordrecht, à L. Meyssonnier, à Paris, 6 octobre 1641",
+          "page_number": "765",
+          "manual_overrides": [{
+            "corrected_by": "mia", "corrected_at": "2026-07-04T14:33:08Z",
+            "reason": "Manual correction provided during validation review; restored a parser-dropped entry",
+            "changes": { "page_number": { "old": "", "new": "765" } }
+          }]
         }
-      ],
-      "issues": [
-        "entry 46 requires letter_number, letter_name, and page_number (letter_number=\"1036.\", letter_name=\"J. van Beverwyck, de Dordrecht, à L. Meyssonnier, à Paris, 6 octobre 1641\", page_number=\"\")"
       ]
     },
     {
@@ -1293,12 +1307,6 @@
           "letter_name": "— Observation sur l’aimant contrôlée et réfutée (par Pierre Petit ?)",
           "page_number": "845"
         }
-      ],
-      "issues": [
-        "entry 22 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Table chronologique des lettres du dixième volume\", page_number=\"857\")",
-        "entry 23 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Table alphabétique des Correspondants\", page_number=\"861\")",
-        "entry 24 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Index\", page_number=\"867\")",
-        "entry 25 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Additions et Corrections\", page_number=\"000\")"
       ]
     },
     {
@@ -2075,6 +2083,20 @@
       "transcribed_at": "0001-01-01T00:00:00Z",
       "entries": [
         {
+          "letter_number": "1271",
+          "letter_name": "Deschamps à Mersenne, 8 mai 1644",
+          "page_number": "126",
+          "manual_overrides": [{
+            "corrected_by": "mia", "corrected_at": "2026-07-04T14:33:08Z",
+            "reason": "Manual correction provided during validation review; restored a missing entry",
+            "changes": {
+              "letter_number": { "old": "", "new": "1271" },
+              "letter_name": { "old": "", "new": "Deschamps à Mersenne, 8 mai 1644" },
+              "page_number": { "old": "", "new": "126" }
+            }
+          }]
+        },
+        {
           "letter_number": "1272.",
           "letter_name": "Sorbier à Gassend, 10 mai 1644",
           "page_number": "133"
@@ -2811,9 +2833,6 @@
           "letter_name": "Pineau à A. Rivet, 21 décembre 1645",
           "page_number": "569"
         }
-      ],
-      "issues": [
-        "entry 40 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Texte sur l'aimantation\", page_number=\"\")"
       ]
     },
     {
@@ -2825,6 +2844,16 @@
       "extraction_mode": "one-pass",
       "transcribed_at": "0001-01-01T00:00:00Z",
       "entries": [
+        {
+          "letter_number": "87.",
+          "letter_name": "(Robert) Cornier à Mersenne, 14 janvier (1628)",
+          "page_number": "1",
+          "manual_overrides": [{
+            "corrected_by": "mia", "corrected_at": "2026-07-04T14:33:08Z",
+            "reason": "Manual correction provided during validation review; restored a parser-dropped entry",
+            "changes": { "page_number": { "old": "", "new": "1" } }
+          }]
+        },
         {
           "letter_number": "88.",
           "letter_name": "Nicolas-Claude Fabri de Peiresc aux frères Dupuy, 15 janvier 1628.",
@@ -2975,9 +3004,6 @@
           "letter_name": "Nicolas-Claude Fabri de Peiresc aux frères Dupuy, 17 novembre 1628",
           "page_number": "131"
         }
-      ],
-      "issues": [
-        "entry 1 requires letter_number, letter_name, and page_number (letter_number=\"87.\", letter_name=\"(Robert) Cornier à Mersenne, 14 janvier (1628)\", page_number=\"\")"
       ]
     },
     {
@@ -3198,12 +3224,38 @@
         {
           "letter_number": "157.",
           "letter_name": "Isaac Beeckman à Mersenme, 30 avril 1630",
-          "page_number": "687"
+          "page_number": "456",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:08.476191Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "687",
+                  "new": "456"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "158.",
           "letter_name": "René Descartes à Mersenme, (6 mai 1630)",
-          "page_number": "456"
+          "page_number": "479",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:08.593027Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "456",
+                  "new": "479"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "159.",
@@ -3861,12 +3913,38 @@
         {
           "letter_number": "279.",
           "letter_name": "Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 3 octobre 1633",
-          "page_number": "643"
+          "page_number": "492",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:08.704949Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "643",
+                  "new": "492"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "280.",
           "letter_name": "Nicolas-Claude Fabri de Peiresc à Pierre Dupuy, 10 octobre 1633",
-          "page_number": "492"
+          "page_number": "493",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:08.817464Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "492",
+                  "new": "493"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "281.",
@@ -4334,12 +4412,38 @@
         {
           "letter_number": "367",
           "letter_name": "Mersenne à Peiresc, 2 août 1634",
-          "page_number": "461"
+          "page_number": "278",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:08.938177Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "461",
+                  "new": "278"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "368",
           "letter_name": "Peiresc à Mersenne, 13 août 1634",
-          "page_number": "278"
+          "page_number": "285",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:09.049441Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "278",
+                  "new": "285"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "369",
@@ -5735,12 +5839,38 @@
         {
           "letter_number": "631",
           "letter_name": "Fermat à Mersenne (novembre 1637)",
-          "page_number": "397"
+          "page_number": "321",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:09.162117Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "397",
+                  "new": "321"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "632",
           "letter_name": "Mersenne à Rivet, 25 novembre 1637",
-          "page_number": "321"
+          "page_number": "333",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:09.27604Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "321",
+                  "new": "333"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "633",
@@ -5997,10 +6127,17 @@
           "letter_number": "681.",
           "letter_name": "Descartes à Mersenne (29 juin 1638), avec appendice de Gillet ......",
           "page_number": "321"
+        },
+        {
+          "letter_number": "682.",
+          "letter_name": "C. Huygens à J.-A. Ban, 30 juin 1638",
+          "page_number": "321",
+          "manual_overrides": [{
+            "corrected_by": "mia", "corrected_at": "2026-07-04T14:33:08Z",
+            "reason": "Manual correction provided during validation review; restored a parser-dropped entry",
+            "changes": { "page_number": { "old": "", "new": "321" } }
+          }]
         }
-      ],
-      "issues": [
-        "entry 42 requires letter_number, letter_name, and page_number (letter_number=\"682.\", letter_name=\"C. Huygens à J.-A. Ban, 30 juin 1638\", page_number=\"\")"
       ]
     },
     {
@@ -6053,9 +6190,22 @@
           "page_number": "404"
         },
         {
-          "letter_number": "690",
+          "letter_number": "690 bis.",
           "letter_name": "Pons et Rossignol à Mersenne (1638)",
-          "page_number": "429"
+          "page_number": "429",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:09.391588Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "letter_number": {
+                  "old": "690",
+                  "new": "690 bis."
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "I",
@@ -6082,10 +6232,6 @@
           "letter_name": "Problème des quatre globes, par Haestrecht",
           "page_number": "453"
         }
-      ],
-      "issues": [
-        "entry 15 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Index\", page_number=\"469\")",
-        "entry 16 requires letter_number, letter_name, and page_number (letter_number=\"\", letter_name=\"Corrections, additions\", page_number=\"475\")"
       ]
     },
     {
@@ -6479,6 +6625,16 @@
           "page_number": "513"
         },
         {
+          "letter_number": "765",
+          "letter_name": "J.-A. Ban, à Haarlem, à Constantin Huygens, à Berg-op-Zoom, 4 octobre 1639",
+          "page_number": "524",
+          "manual_overrides": [{
+            "corrected_by": "mia", "corrected_at": "2026-07-04T14:33:08Z",
+            "reason": "Manual correction provided during validation review; restored a parser-dropped entry",
+            "changes": { "page_number": { "old": "", "new": "524" } }
+          }]
+        },
+        {
           "letter_number": "766",
           "letter_name": "J. Chapelain, à Paris, à Balzac, près d'Angoulême, 9 octobre 1639",
           "page_number": "524"
@@ -6538,9 +6694,6 @@
           "letter_name": "Paul Pineau, à Paris, à André Rivet, à La Haye, 5 novembre 1639",
           "page_number": "586"
         }
-      ],
-      "issues": [
-        "entry 37 requires letter_number, letter_name, and page_number (letter_number=\"765\", letter_name=\"J.-A. Ban, à Haarlem, à Constantin Huygens, à Berg-op-Zoom, 4 octobre 1639\", page_number=\"\")"
       ]
     },
     {
@@ -6555,12 +6708,38 @@
         {
           "letter_number": "778",
           "letter_name": "Le P. Phelippeaux, à Paris, à Mersenne, pour Rivet, à Leyde, 10 novembre 1639",
-          "page_number": "767"
+          "page_number": "587",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:09.502248Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "767",
+                  "new": "587"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "779",
           "letter_name": "Mersenne, à Paris, à Rivet, à La Haye, 12 novembre 1639",
-          "page_number": "587"
+          "page_number": "597",
+          "manual_overrides": [
+            {
+              "corrected_by": "mia",
+              "corrected_at": "2026-07-04T14:33:09.615846Z",
+              "reason": "Manual correction provided during validation review",
+              "changes": {
+                "page_number": {
+                  "old": "587",
+                  "new": "597"
+                }
+              }
+            }
+          ]
         },
         {
           "letter_number": "780",
