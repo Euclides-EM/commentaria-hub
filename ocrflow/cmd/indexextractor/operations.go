@@ -14,7 +14,11 @@ import (
 	"time"
 )
 
-const manifestVersion = 1
+const manifestVersion = 4
+
+const legacyManifestVersion = 1
+const twoPassManifestVersion = 2
+const resumableManifestVersion = 3
 
 const responseValidationAttempts = 2
 
@@ -30,13 +34,19 @@ type indexManifest struct {
 }
 
 type indexPageResult struct {
-	ImagePath   string       `json:"image_path"`
-	Volume      string       `json:"volume"`
-	Provider    string       `json:"provider"`
-	Model       string       `json:"model"`
-	ExtractedAt time.Time    `json:"extracted_at"`
-	Entries     []indexEntry `json:"entries"`
-	Issues      []string     `json:"issues,omitempty"`
+	ImagePath             string       `json:"image_path"`
+	Volume                string       `json:"volume"`
+	Provider              string       `json:"provider"`
+	Model                 string       `json:"model"`
+	ExtractedAt           time.Time    `json:"extracted_at"`
+	ExtractionMode        string       `json:"extraction_mode"`
+	Transcription         string       `json:"transcription,omitempty"`
+	TranscriptionProvider string       `json:"transcription_provider,omitempty"`
+	TranscriptionModel    string       `json:"transcription_model,omitempty"`
+	TranscribedAt         time.Time    `json:"transcribed_at,omitempty"`
+	Entries               []indexEntry `json:"entries"`
+	Issues                []string     `json:"issues,omitempty"`
+	Failure               *pageFailure `json:"failure,omitempty"`
 }
 
 type lettersManifest struct {
@@ -46,18 +56,48 @@ type lettersManifest struct {
 }
 
 type lettersPageResult struct {
-	ImagePath   string        `json:"image_path"`
-	Volume      string        `json:"volume"`
-	Provider    string        `json:"provider"`
-	Model       string        `json:"model"`
-	ExtractedAt time.Time     `json:"extracted_at"`
-	Entries     []letterEntry `json:"entries"`
-	Issues      []string      `json:"issues,omitempty"`
+	ImagePath             string        `json:"image_path"`
+	Volume                string        `json:"volume"`
+	Provider              string        `json:"provider"`
+	Model                 string        `json:"model"`
+	ExtractedAt           time.Time     `json:"extracted_at"`
+	ExtractionMode        string        `json:"extraction_mode"`
+	Transcription         string        `json:"transcription,omitempty"`
+	TranscriptionProvider string        `json:"transcription_provider,omitempty"`
+	TranscriptionModel    string        `json:"transcription_model,omitempty"`
+	TranscribedAt         time.Time     `json:"transcribed_at,omitempty"`
+	Entries               []letterEntry `json:"entries"`
+	Issues                []string      `json:"issues,omitempty"`
+	Failure               *pageFailure  `json:"failure,omitempty"`
 }
+
+type pageFailure struct {
+	Phase    string    `json:"phase"`
+	Provider string    `json:"provider"`
+	Model    string    `json:"model"`
+	Error    string    `json:"error"`
+	FailedAt time.Time `json:"failed_at"`
+}
+
+const (
+	failurePhaseSingle = "single-pass"
+	failurePhaseFirst  = "first-pass"
+	failurePhaseSecond = "second-pass"
+)
+
+type checkpointError struct{ err error }
+
+func (e checkpointError) Error() string { return e.err.Error() }
+func (e checkpointError) Unwrap() error { return e.err }
 
 type pageIssues struct {
 	ImagePath string
 	Issues    []string
+}
+
+type failedPage struct {
+	ImagePath string
+	Failure   *pageFailure
 }
 
 func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
@@ -84,23 +124,67 @@ func runIndexExtraction(cfg config, client llmExecutor, out io.Writer) error {
 	completed := indexCompleted(manifest)
 	written, skipped := 0, 0
 	for i, image := range selected {
-		if cfg.resume && !targeted && completed[cleanPath(image.Path)] {
+		existing := findIndexPage(manifest.Pages, image.Path)
+		if cfg.resume && !targeted && (completed[cleanPath(image.Path)] || (cfg.skipFailures && existing != nil && existing.Failure != nil)) {
 			skipped++
-			fmt.Fprintf(out, "[%d/%d] Skipping completed index page %s\n", i+1, len(selected), image.Path)
+			reason := "completed"
+			if !completed[cleanPath(image.Path)] {
+				reason = "failed"
+			}
+			fmt.Fprintf(out, "[%d/%d] Skipping %s index page %s\n", i+1, len(selected), reason, image.Path)
 			continue
 		}
 		fmt.Fprintf(out, "[%d/%d] Extracting index page %s\n", i+1, len(selected), image.Path)
-		entries, issues, err := extractIndexEntriesWithIssues(cfg, client, image, out)
+		cached := ""
+		if existing != nil && effectiveExtractionMode(cfg) == modeTwoPass {
+			cached = existing.Transcription
+		}
+		entries, issues, transcription, err := extractIndexEntriesWithCheckpoint(cfg, client, image, cached, out, func(value string) error {
+			manifest.Pages = upsertIndexPage(manifest.Pages, indexPageResult{
+				ImagePath: cleanPath(image.Path), Volume: image.Volume, ExtractionMode: modeTwoPass,
+				Transcription: value, TranscriptionProvider: firstPassProvider(cfg), TranscriptionModel: firstPassModel(cfg), TranscribedAt: time.Now().UTC(),
+			})
+			if err := saveJSONAtomically(manifestPath(cfg.indexCSV), manifest); err != nil {
+				return err
+			}
+			return renderIndexCSV(cfg.indexCSV, manifest)
+		})
 		if err != nil {
-			return err
+			var checkpointErr checkpointError
+			if errors.As(err, &checkpointErr) {
+				return err
+			}
+			failure := newPageFailure(cfg, transcription, err)
+			page := findIndexPage(manifest.Pages, image.Path)
+			if page == nil {
+				manifest.Pages = upsertIndexPage(manifest.Pages, indexPageResult{ImagePath: cleanPath(image.Path), Volume: image.Volume, ExtractionMode: effectiveExtractionMode(cfg), Failure: failure})
+			} else {
+				page.Failure = failure
+			}
+			if err := saveJSONAtomically(manifestPath(cfg.indexCSV), manifest); err != nil {
+				return fmt.Errorf("save index failure after %s: %w", image.Path, err)
+			}
+			if err := renderIndexCSV(cfg.indexCSV, manifest); err != nil {
+				return fmt.Errorf("render index CSV after failure %s: %w", image.Path, err)
+			}
+			fmt.Fprintf(out, "Warning: index extraction failed for %s during %s: %v; continuing\n", image.Path, failure.Phase, err)
+			continue
 		}
 		for _, issue := range issues {
 			fmt.Fprintf(out, "Warning: index response for %s: %s; skipping entry\n", image.Path, issue)
 		}
 		manifest.Pages = upsertIndexPage(manifest.Pages, indexPageResult{
-			ImagePath: cleanPath(image.Path), Volume: image.Volume, Provider: cfg.provider,
-			Model: cfg.model, ExtractedAt: time.Now().UTC(), Entries: entries, Issues: issues,
+			ImagePath: cleanPath(image.Path), Volume: image.Volume, Provider: extractionProvider(cfg),
+			Model: extractionModel(cfg), ExtractedAt: time.Now().UTC(), ExtractionMode: effectiveExtractionMode(cfg),
+			Transcription: transcription, Entries: entries, Issues: issues,
 		})
+		if effectiveExtractionMode(cfg) == modeTwoPass {
+			page := findIndexPage(manifest.Pages, image.Path)
+			page.TranscriptionProvider, page.TranscriptionModel = firstPassProvider(cfg), firstPassModel(cfg)
+			if page.TranscribedAt.IsZero() {
+				page.TranscribedAt = time.Now().UTC()
+			}
+		}
 		if err := saveJSONAtomically(manifestPath(cfg.indexCSV), manifest); err != nil {
 			return fmt.Errorf("save index manifest after %s: %w", image.Path, err)
 		}
@@ -122,22 +206,35 @@ func extractIndexEntries(cfg config, client llmExecutor, image imageInput, out i
 }
 
 func extractIndexEntriesWithIssues(cfg config, client llmExecutor, image imageInput, out io.Writer) ([]indexEntry, []string, error) {
+	entries, issues, _, err := extractIndexEntriesWithAudit(cfg, client, image, out)
+	return entries, issues, err
+}
+
+func extractIndexEntriesWithAudit(cfg config, client llmExecutor, image imageInput, out io.Writer) ([]indexEntry, []string, string, error) {
+	return extractIndexEntriesWithCheckpoint(cfg, client, image, "", out, nil)
+}
+
+func extractIndexEntriesWithCheckpoint(cfg config, client llmExecutor, image imageInput, cached string, out io.Writer, checkpoint func(string) error) ([]indexEntry, []string, string, error) {
+	transcription, prompt, attachment, err := extractionInput(cfg, client, image, indexPrompt, cached, checkpoint)
+	if err != nil {
+		return nil, nil, transcription, fmt.Errorf("transcribe index image %s: %w", image.Path, err)
+	}
 	var parseErr error
 	for attempt := 1; attempt <= responseValidationAttempts; attempt++ {
-		raw, err := client.Exec(cfg.provider, cfg.model, indexPrompt, image.Path)
+		raw, err := client.Exec(extractionProvider(cfg), extractionModel(cfg), prompt, attachment)
 		if err != nil {
-			return nil, nil, fmt.Errorf("extract index image %s: %w", image.Path, err)
+			return nil, nil, transcription, fmt.Errorf("extract index image %s: %w", image.Path, err)
 		}
 		entries, issues, err := parseIndexResponseWithIssues(raw, image.Volume)
 		if err == nil {
-			return entries, issues, nil
+			return entries, issues, transcription, nil
 		}
 		parseErr = err
 		if attempt < responseValidationAttempts {
 			fmt.Fprintf(out, "Invalid index response for %s (%v); retrying extraction (%d/%d)\n", image.Path, err, attempt+1, responseValidationAttempts)
 		}
 	}
-	return nil, nil, fmt.Errorf("parse index response for %s after %d attempts: %w", image.Path, responseValidationAttempts, parseErr)
+	return nil, nil, transcription, fmt.Errorf("parse index response for %s after %d attempts: %w", image.Path, responseValidationAttempts, parseErr)
 }
 
 func runLettersExtraction(cfg config, client llmExecutor, out io.Writer) error {
@@ -164,27 +261,76 @@ func runLettersExtraction(cfg config, client llmExecutor, out io.Writer) error {
 	completed := lettersCompleted(manifest)
 	written, skipped := 0, 0
 	for i, image := range selected {
-		if cfg.resume && !targeted && completed[cleanPath(image.Path)] {
+		existing := findLettersPage(manifest.Pages, image.Path)
+		if cfg.resume && !targeted && (completed[cleanPath(image.Path)] || (cfg.skipFailures && existing != nil && existing.Failure != nil)) {
 			skipped++
-			fmt.Fprintf(out, "[%d/%d] Skipping completed letters-table page %s\n", i+1, len(selected), image.Path)
+			reason := "completed"
+			if !completed[cleanPath(image.Path)] {
+				reason = "failed"
+			}
+			fmt.Fprintf(out, "[%d/%d] Skipping %s letters-table page %s\n", i+1, len(selected), reason, image.Path)
 			continue
 		}
 		fmt.Fprintf(out, "[%d/%d] Extracting letters-table page %s\n", i+1, len(selected), image.Path)
-		raw, err := client.Exec(cfg.provider, cfg.model, lettersTablePrompt, image.Path)
+		cached := ""
+		if existing != nil && effectiveExtractionMode(cfg) == modeTwoPass {
+			cached = existing.Transcription
+		}
+		transcription, prompt, attachment, err := extractionInput(cfg, client, image, lettersTablePrompt, cached, func(value string) error {
+			manifest.Pages = upsertLettersPage(manifest.Pages, lettersPageResult{
+				ImagePath: cleanPath(image.Path), Volume: image.Volume, ExtractionMode: modeTwoPass,
+				Transcription: value, TranscriptionProvider: firstPassProvider(cfg), TranscriptionModel: firstPassModel(cfg), TranscribedAt: time.Now().UTC(),
+			})
+			if err := saveJSONAtomically(manifestPath(cfg.lettersCSV), manifest); err != nil {
+				return err
+			}
+			return renderLettersCSV(cfg.lettersCSV, manifest)
+		})
 		if err != nil {
-			return fmt.Errorf("extract letters-table image %s: %w", image.Path, err)
+			var checkpointErr checkpointError
+			if errors.As(err, &checkpointErr) {
+				return err
+			}
+			err = fmt.Errorf("transcribe letters-table image %s: %w", image.Path, err)
+			if persistErr := recordLettersFailure(cfg, &manifest, image, transcription, err); persistErr != nil {
+				return persistErr
+			}
+			fmt.Fprintf(out, "Warning: letters-table extraction failed for %s during %s: %v; continuing\n", image.Path, newPageFailure(cfg, transcription, err).Phase, err)
+			continue
+		}
+		raw, err := client.Exec(extractionProvider(cfg), extractionModel(cfg), prompt, attachment)
+		if err != nil {
+			err = fmt.Errorf("extract letters-table image %s: %w", image.Path, err)
+			if persistErr := recordLettersFailure(cfg, &manifest, image, transcription, err); persistErr != nil {
+				return persistErr
+			}
+			fmt.Fprintf(out, "Warning: letters-table extraction failed for %s during %s: %v; continuing\n", image.Path, newPageFailure(cfg, transcription, err).Phase, err)
+			continue
 		}
 		entries, issues, err := parseLettersResponseWithIssues(raw, image.Volume)
 		if err != nil {
-			return fmt.Errorf("parse letters-table response for %s: %w", image.Path, err)
+			err = fmt.Errorf("parse letters-table response for %s: %w", image.Path, err)
+			if persistErr := recordLettersFailure(cfg, &manifest, image, transcription, err); persistErr != nil {
+				return persistErr
+			}
+			fmt.Fprintf(out, "Warning: letters-table extraction failed for %s during %s: %v; continuing\n", image.Path, newPageFailure(cfg, transcription, err).Phase, err)
+			continue
 		}
 		for _, issue := range issues {
 			fmt.Fprintf(out, "Warning: letters-table response for %s: %s; skipping entry\n", image.Path, issue)
 		}
 		manifest.Pages = upsertLettersPage(manifest.Pages, lettersPageResult{
-			ImagePath: cleanPath(image.Path), Volume: image.Volume, Provider: cfg.provider,
-			Model: cfg.model, ExtractedAt: time.Now().UTC(), Entries: entries, Issues: issues,
+			ImagePath: cleanPath(image.Path), Volume: image.Volume, Provider: extractionProvider(cfg),
+			Model: extractionModel(cfg), ExtractedAt: time.Now().UTC(), ExtractionMode: effectiveExtractionMode(cfg),
+			Transcription: transcription, Entries: entries, Issues: issues,
 		})
+		if effectiveExtractionMode(cfg) == modeTwoPass {
+			page := findLettersPage(manifest.Pages, image.Path)
+			page.TranscriptionProvider, page.TranscriptionModel = firstPassProvider(cfg), firstPassModel(cfg)
+			if page.TranscribedAt.IsZero() {
+				page.TranscribedAt = time.Now().UTC()
+			}
+		}
 		if err := saveJSONAtomically(manifestPath(cfg.lettersCSV), manifest); err != nil {
 			return fmt.Errorf("save letters-table manifest after %s: %w", image.Path, err)
 		}
@@ -197,6 +343,64 @@ func runLettersExtraction(cfg config, client llmExecutor, out io.Writer) error {
 		return fmt.Errorf("render letters-table CSV: %w", err)
 	}
 	fmt.Fprintf(out, "Letters-table extraction complete: %d rows extracted, %d images skipped; manifest %s; output %s\n", written, skipped, manifestPath(cfg.lettersCSV), cfg.lettersCSV)
+	return nil
+}
+
+func effectiveExtractionMode(cfg config) string {
+	if cfg.extractionMode == modeTwoPass {
+		return modeTwoPass
+	}
+	return modeOnePass
+}
+
+func extractionInput(cfg config, client llmExecutor, image imageInput, structuredPrompt, cached string, checkpoint func(string) error) (transcription, prompt, attachment string, err error) {
+	if effectiveExtractionMode(cfg) == modeOnePass {
+		return "", structuredPrompt, image.Path, nil
+	}
+	transcription = cached
+	if strings.TrimSpace(transcription) == "" {
+		transcription, err = client.Exec(firstPassProvider(cfg), firstPassModel(cfg), transcriptionPrompt, image.Path)
+		if err != nil {
+			return "", "", "", err
+		}
+		if strings.TrimSpace(transcription) == "" {
+			return "", "", "", errors.New("LLM returned an empty transcription")
+		}
+		if checkpoint != nil {
+			if err := checkpoint(transcription); err != nil {
+				return transcription, "", "", checkpointError{fmt.Errorf("checkpoint transcription: %w", err)}
+			}
+		}
+	}
+	prompt = structuredPrompt + "\n\nParse the following transcription. It is the only source; do not infer text that is absent. Markdown **bold** markers indicate bold print.\n\n<transcription>\n" + transcription + "\n</transcription>"
+	return transcription, prompt, "", nil
+}
+
+func newPageFailure(cfg config, transcription string, err error) *pageFailure {
+	phase, provider, model := failurePhaseSingle, extractionProvider(cfg), extractionModel(cfg)
+	if effectiveExtractionMode(cfg) == modeTwoPass {
+		phase, provider, model = failurePhaseFirst, firstPassProvider(cfg), firstPassModel(cfg)
+		if strings.TrimSpace(transcription) != "" {
+			phase, provider, model = failurePhaseSecond, secondPassProvider(cfg), secondPassModel(cfg)
+		}
+	}
+	return &pageFailure{Phase: phase, Provider: provider, Model: model, Error: err.Error(), FailedAt: time.Now().UTC()}
+}
+
+func recordLettersFailure(cfg config, manifest *lettersManifest, image imageInput, transcription string, failureErr error) error {
+	failure := newPageFailure(cfg, transcription, failureErr)
+	page := findLettersPage(manifest.Pages, image.Path)
+	if page == nil {
+		manifest.Pages = upsertLettersPage(manifest.Pages, lettersPageResult{ImagePath: cleanPath(image.Path), Volume: image.Volume, ExtractionMode: effectiveExtractionMode(cfg), Failure: failure})
+	} else {
+		page.Failure = failure
+	}
+	if err := saveJSONAtomically(manifestPath(cfg.lettersCSV), *manifest); err != nil {
+		return fmt.Errorf("save letters-table failure after %s: %w", image.Path, err)
+	}
+	if err := renderLettersCSV(cfg.lettersCSV, *manifest); err != nil {
+		return fmt.Errorf("render letters-table CSV after failure %s: %w", image.Path, err)
+	}
 	return nil
 }
 
@@ -217,8 +421,11 @@ func loadIndexManifest(outputPath string, resume bool) (indexManifest, error) {
 	} else if err != nil {
 		return manifest, fmt.Errorf("load index manifest: %w", err)
 	}
-	if manifest.Version != manifestVersion || manifest.Kind != kindIndex {
+	if manifest.Kind != kindIndex || (manifest.Version != legacyManifestVersion && manifest.Version != twoPassManifestVersion && manifest.Version != resumableManifestVersion && manifest.Version != manifestVersion) {
 		return manifest, fmt.Errorf("invalid index manifest metadata in %s", manifestPath(outputPath))
+	}
+	if manifest.Version != manifestVersion {
+		migrateIndexManifest(&manifest)
 	}
 	return manifest, nil
 }
@@ -238,10 +445,43 @@ func loadLettersManifest(outputPath string, resume bool) (lettersManifest, error
 	} else if err != nil {
 		return manifest, fmt.Errorf("load letters-table manifest: %w", err)
 	}
-	if manifest.Version != manifestVersion || manifest.Kind != kindLetters {
+	if manifest.Kind != kindLetters || (manifest.Version != legacyManifestVersion && manifest.Version != twoPassManifestVersion && manifest.Version != resumableManifestVersion && manifest.Version != manifestVersion) {
 		return manifest, fmt.Errorf("invalid letters-table manifest metadata in %s", manifestPath(outputPath))
 	}
+	if manifest.Version != manifestVersion {
+		migrateLettersManifest(&manifest)
+	}
 	return manifest, nil
+}
+
+func migrateIndexManifest(manifest *indexManifest) {
+	oldVersion := manifest.Version
+	manifest.Version = manifestVersion
+	for i := range manifest.Pages {
+		if manifest.Pages[i].ExtractionMode == "" {
+			manifest.Pages[i].ExtractionMode = modeOnePass
+		}
+		if oldVersion <= twoPassManifestVersion && manifest.Pages[i].ExtractionMode == modeTwoPass {
+			manifest.Pages[i].TranscriptionProvider = manifest.Pages[i].Provider
+			manifest.Pages[i].TranscriptionModel = manifest.Pages[i].Model
+			manifest.Pages[i].TranscribedAt = manifest.Pages[i].ExtractedAt
+		}
+	}
+}
+
+func migrateLettersManifest(manifest *lettersManifest) {
+	oldVersion := manifest.Version
+	manifest.Version = manifestVersion
+	for i := range manifest.Pages {
+		if manifest.Pages[i].ExtractionMode == "" {
+			manifest.Pages[i].ExtractionMode = modeOnePass
+		}
+		if oldVersion <= twoPassManifestVersion && manifest.Pages[i].ExtractionMode == modeTwoPass {
+			manifest.Pages[i].TranscriptionProvider = manifest.Pages[i].Provider
+			manifest.Pages[i].TranscriptionModel = manifest.Pages[i].Model
+			manifest.Pages[i].TranscribedAt = manifest.Pages[i].ExtractedAt
+		}
+	}
 }
 
 func loadJSON(path string, destination any) error {
@@ -289,6 +529,26 @@ func upsertLettersPage(pages []lettersPageResult, page lettersPageResult) []lett
 	return sortLettersPages(append(pages, page))
 }
 
+func findIndexPage(pages []indexPageResult, imagePath string) *indexPageResult {
+	path := cleanPath(imagePath)
+	for i := range pages {
+		if cleanPath(pages[i].ImagePath) == path {
+			return &pages[i]
+		}
+	}
+	return nil
+}
+
+func findLettersPage(pages []lettersPageResult, imagePath string) *lettersPageResult {
+	path := cleanPath(imagePath)
+	for i := range pages {
+		if cleanPath(pages[i].ImagePath) == path {
+			return &pages[i]
+		}
+	}
+	return nil
+}
+
 func sortIndexPages(pages []indexPageResult) []indexPageResult {
 	sort.Slice(pages, func(i, j int) bool { return pages[i].ImagePath < pages[j].ImagePath })
 	return pages
@@ -302,7 +562,7 @@ func sortLettersPages(pages []lettersPageResult) []lettersPageResult {
 func indexCompleted(manifest indexManifest) map[string]bool {
 	completed := make(map[string]bool, len(manifest.Pages))
 	for _, page := range manifest.Pages {
-		completed[cleanPath(page.ImagePath)] = true
+		completed[cleanPath(page.ImagePath)] = page.Entries != nil
 	}
 	return completed
 }
@@ -310,7 +570,7 @@ func indexCompleted(manifest indexManifest) map[string]bool {
 func lettersCompleted(manifest lettersManifest) map[string]bool {
 	completed := make(map[string]bool, len(manifest.Pages))
 	for _, page := range manifest.Pages {
-		completed[cleanPath(page.ImagePath)] = true
+		completed[cleanPath(page.ImagePath)] = page.Entries != nil
 	}
 	return completed
 }
@@ -467,6 +727,7 @@ func validateOutputs(cfg config, out io.Writer) error {
 			}
 			fmt.Fprintf(out, "Valid index dataset: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.indexCSV)
 			reportIssues("index", indexManifestIssues(manifest), out)
+			reportFailures("index", indexFailures(manifest), out)
 		}
 	}
 	if includesKind(cfg.kind, kindLetters) {
@@ -491,6 +752,7 @@ func validateOutputs(cfg config, out io.Writer) error {
 			}
 			fmt.Fprintf(out, "Valid letters-table dataset: %d rows from %d images in %s\n", rows, len(manifest.Pages), cfg.lettersCSV)
 			reportIssues("letters", lettersManifestIssues(manifest), out)
+			reportFailures("letters", lettersFailures(manifest), out)
 		}
 	}
 	return nil
@@ -544,7 +806,7 @@ func validateIndexManifest(manifest indexManifest, csvRows int) error {
 	rows := 0
 	seen := map[string]bool{}
 	for _, page := range manifest.Pages {
-		if err := validatePageMetadata(page.ImagePath, page.Volume, page.Provider, page.Model, page.ExtractedAt, seen); err != nil {
+		if err := validatePageMetadata(page.ImagePath, page.Volume, page.Provider, page.Model, page.ExtractionMode, page.Transcription, page.TranscriptionProvider, page.TranscriptionModel, page.ExtractedAt, page.TranscribedAt, page.Entries != nil, page.Failure, seen); err != nil {
 			return fmt.Errorf("validate index manifest: %w", err)
 		}
 		for i, entry := range page.Entries {
@@ -566,7 +828,7 @@ func validateLettersManifest(manifest lettersManifest, csvRows int) error {
 	rows := 0
 	seen := map[string]bool{}
 	for _, page := range manifest.Pages {
-		if err := validatePageMetadata(page.ImagePath, page.Volume, page.Provider, page.Model, page.ExtractedAt, seen); err != nil {
+		if err := validatePageMetadata(page.ImagePath, page.Volume, page.Provider, page.Model, page.ExtractionMode, page.Transcription, page.TranscriptionProvider, page.TranscriptionModel, page.ExtractedAt, page.TranscribedAt, page.Entries != nil, page.Failure, seen); err != nil {
 			return fmt.Errorf("validate letters-table manifest: %w", err)
 		}
 		for i, entry := range page.Entries {
@@ -628,10 +890,37 @@ func compareCSVRecords(path string, expected [][]string) error {
 	return nil
 }
 
-func validatePageMetadata(imagePath, volume, provider, model string, extractedAt time.Time, seen map[string]bool) error {
+func validatePageMetadata(imagePath, volume, provider, model, extractionMode, transcription, transcriptionProvider, transcriptionModel string, extractedAt, transcribedAt time.Time, complete bool, failure *pageFailure, seen map[string]bool) error {
 	path := cleanPath(imagePath)
-	if strings.TrimSpace(imagePath) == "" || strings.TrimSpace(volume) == "" || strings.TrimSpace(provider) == "" || strings.TrimSpace(model) == "" || extractedAt.IsZero() {
+	if strings.TrimSpace(imagePath) == "" || strings.TrimSpace(volume) == "" {
 		return fmt.Errorf("page %q has incomplete provenance", imagePath)
+	}
+	if extractionMode != modeOnePass && extractionMode != modeTwoPass {
+		return fmt.Errorf("page %q has invalid extraction mode %q", imagePath, extractionMode)
+	}
+	if extractionMode == modeTwoPass && strings.TrimSpace(transcription) != "" && (strings.TrimSpace(transcriptionProvider) == "" || strings.TrimSpace(transcriptionModel) == "" || transcribedAt.IsZero()) {
+		return fmt.Errorf("page %q has incomplete transcription provenance", imagePath)
+	}
+	if complete && failure != nil {
+		return fmt.Errorf("page %q is both complete and failed", imagePath)
+	}
+	if !complete && failure == nil && extractionMode != modeTwoPass {
+		return fmt.Errorf("page %q is incomplete without a reusable transcription", imagePath)
+	}
+	if !complete && failure == nil && strings.TrimSpace(transcription) == "" {
+		return fmt.Errorf("page %q is incomplete without a failure or reusable transcription", imagePath)
+	}
+	if failure != nil {
+		if strings.TrimSpace(failure.Error) == "" || strings.TrimSpace(failure.Provider) == "" || strings.TrimSpace(failure.Model) == "" || failure.FailedAt.IsZero() {
+			return fmt.Errorf("page %q has incomplete failure provenance", imagePath)
+		}
+		validPhase := failure.Phase == failurePhaseSingle || failure.Phase == failurePhaseFirst || failure.Phase == failurePhaseSecond
+		if !validPhase || (extractionMode == modeOnePass && failure.Phase != failurePhaseSingle) || (failure.Phase == failurePhaseSecond && strings.TrimSpace(transcription) == "") {
+			return fmt.Errorf("page %q has invalid failure phase %q", imagePath, failure.Phase)
+		}
+	}
+	if complete && (strings.TrimSpace(provider) == "" || strings.TrimSpace(model) == "" || extractedAt.IsZero()) {
+		return fmt.Errorf("page %q has incomplete extraction provenance", imagePath)
 	}
 	if seen[path] {
 		return fmt.Errorf("page %s appears more than once", imagePath)
@@ -652,6 +941,7 @@ func reportStatus(cfg config, out io.Writer) error {
 		}
 		reportCompletion("index", images, indexCompleted(manifest), cfg.indexCSV, out)
 		reportIssues("index", indexManifestIssues(manifest), out)
+		reportFailures("index", indexFailures(manifest), out)
 	}
 	if includesKind(cfg.kind, kindLetters) {
 		images, err := discoverImages(cfg.lettersDir)
@@ -664,6 +954,7 @@ func reportStatus(cfg config, out io.Writer) error {
 		}
 		reportCompletion("letters", images, lettersCompleted(manifest), cfg.lettersCSV, out)
 		reportIssues("letters", lettersManifestIssues(manifest), out)
+		reportFailures("letters", lettersFailures(manifest), out)
 	}
 	return nil
 }
@@ -708,5 +999,32 @@ func reportIssues(label string, pages []pageIssues, out io.Writer) {
 		for _, issue := range page.Issues {
 			fmt.Fprintf(out, "  %s: %s\n", page.ImagePath, issue)
 		}
+	}
+}
+
+func indexFailures(manifest indexManifest) []failedPage {
+	pages := make([]failedPage, 0)
+	for _, page := range manifest.Pages {
+		if page.Failure != nil {
+			pages = append(pages, failedPage{ImagePath: page.ImagePath, Failure: page.Failure})
+		}
+	}
+	return pages
+}
+
+func lettersFailures(manifest lettersManifest) []failedPage {
+	pages := make([]failedPage, 0)
+	for _, page := range manifest.Pages {
+		if page.Failure != nil {
+			pages = append(pages, failedPage{ImagePath: page.ImagePath, Failure: page.Failure})
+		}
+	}
+	return pages
+}
+
+func reportFailures(label string, pages []failedPage, out io.Writer) {
+	fmt.Fprintf(out, "%s: %d failed images\n", label, len(pages))
+	for _, page := range pages {
+		fmt.Fprintf(out, "  %s: %s via %s/%s: %s\n", page.ImagePath, page.Failure.Phase, page.Failure.Provider, page.Failure.Model, page.Failure.Error)
 	}
 }

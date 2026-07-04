@@ -52,18 +52,29 @@ Rules:
 - Do not infer missing text and do not include column headings, running headers, or the page number of the table itself.
 - Use an empty entries array when there are no table rows.`
 
+const transcriptionPrompt = `Transcribe all text in this page image exactly as printed.
+Preserve spelling, punctuation, capitalization, line breaks, page references, and table or index layout as faithfully as possible.
+Represent bold text with Markdown **bold** markers so that a later text-only extraction can identify bold page references.
+Do not interpret, summarize, normalize, or omit text. Return only the transcription.`
+
 type config struct {
-	command     string
-	kind        string
-	indexDir    string
-	lettersDir  string
-	indexCSV    string
-	lettersCSV  string
-	provider    string
-	model       string
-	resume      bool
-	rerun       bool
-	rerunImages string
+	command        string
+	kind           string
+	indexDir       string
+	lettersDir     string
+	indexCSV       string
+	lettersCSV     string
+	provider       string
+	model          string
+	firstProvider  string
+	firstModel     string
+	secondProvider string
+	secondModel    string
+	resume         bool
+	rerun          bool
+	rerunImages    string
+	extractionMode string
+	skipFailures   bool
 }
 
 const (
@@ -73,6 +84,8 @@ const (
 	kindAll         = "all"
 	kindIndex       = "index"
 	kindLetters     = "letters"
+	modeOnePass     = "one-pass"
+	modeTwoPass     = "two-pass"
 )
 
 type imageInput struct {
@@ -135,7 +148,7 @@ func main() {
 }
 
 func parseCLI(args []string, errOut io.Writer) (config, error) {
-	cfg := config{command: commandExtract, kind: kindAll, resume: true}
+	cfg := config{command: commandExtract, kind: kindAll, resume: true, extractionMode: modeOnePass}
 	if len(args) > 0 && !strings.HasPrefix(args[0], "-") {
 		cfg.command = args[0]
 		args = args[1:]
@@ -152,9 +165,15 @@ func parseCLI(args []string, errOut io.Writer) (config, error) {
 	fs.StringVar(&cfg.lettersCSV, "letters-output", defaultLettersCSV, "output CSV for letters-table entries")
 	fs.StringVar(&cfg.provider, "ai-provider", defaultAIProvider, "AI provider: openai or ollama")
 	fs.StringVar(&cfg.model, "ai-model", defaultAIModel, "vision-capable AI model")
+	fs.StringVar(&cfg.firstProvider, "first-pass-ai-provider", "", "two-pass transcription provider (defaults to --ai-provider)")
+	fs.StringVar(&cfg.firstModel, "first-pass-ai-model", "", "two-pass transcription model (defaults to --ai-model)")
+	fs.StringVar(&cfg.secondProvider, "second-pass-ai-provider", "", "two-pass structured extraction provider (defaults to --ai-provider)")
+	fs.StringVar(&cfg.secondModel, "second-pass-ai-model", "", "two-pass structured extraction model (defaults to --ai-model)")
 	fs.BoolVar(&cfg.resume, "resume", true, "skip images already recorded in the output manifest")
 	fs.BoolVar(&cfg.rerun, "rerun", false, "discard the selected manifest and output, then extract every image")
 	fs.StringVar(&cfg.rerunImages, "rerun-images", "", "comma-separated image paths to extract again and replace in the manifest")
+	fs.StringVar(&cfg.extractionMode, "extraction-mode", modeOnePass, "LLM workflow: one-pass or two-pass")
+	fs.BoolVar(&cfg.skipFailures, "skip-failures", false, "do not retry pages whose last extraction attempt failed")
 	if err := fs.Parse(args); err != nil {
 		return cfg, err
 	}
@@ -220,8 +239,15 @@ func validateConfig(cfg config) error {
 		required["letters-table output"] = cfg.lettersCSV
 	}
 	if cfg.command == commandExtract {
-		required["AI provider"] = cfg.provider
-		required["AI model"] = cfg.model
+		if effectiveExtractionMode(cfg) == modeTwoPass {
+			required["first-pass AI provider"] = firstPassProvider(cfg)
+			required["first-pass AI model"] = firstPassModel(cfg)
+			required["second-pass AI provider"] = secondPassProvider(cfg)
+			required["second-pass AI model"] = secondPassModel(cfg)
+		} else {
+			required["AI provider"] = cfg.provider
+			required["AI model"] = cfg.model
+		}
 	}
 	for name, value := range required {
 		if strings.TrimSpace(value) == "" {
@@ -229,9 +255,21 @@ func validateConfig(cfg config) error {
 		}
 	}
 	if cfg.command == commandExtract {
-		provider := strings.ToLower(strings.TrimSpace(cfg.provider))
-		if provider != llm.ProviderOpenAI && provider != llm.ProviderOllama {
-			return fmt.Errorf("unsupported AI provider %q", cfg.provider)
+		providers := map[string]string{"AI": cfg.provider}
+		if effectiveExtractionMode(cfg) == modeTwoPass {
+			providers = map[string]string{"first-pass AI": firstPassProvider(cfg), "second-pass AI": secondPassProvider(cfg)}
+		}
+		for label, provider := range providers {
+			provider = strings.ToLower(strings.TrimSpace(provider))
+			if provider != llm.ProviderOpenAI && provider != llm.ProviderOllama {
+				return fmt.Errorf("unsupported %s provider %q", label, provider)
+			}
+		}
+		if effectiveExtractionMode(cfg) == modeTwoPass && (strings.TrimSpace(firstPassModel(cfg)) == "" || strings.TrimSpace(secondPassModel(cfg)) == "") {
+			return errors.New("first-pass and second-pass AI models must not be empty")
+		}
+		if cfg.extractionMode != modeOnePass && cfg.extractionMode != modeTwoPass {
+			return fmt.Errorf("unsupported extraction mode %q (want one-pass or two-pass)", cfg.extractionMode)
 		}
 	}
 	if cfg.kind == kindAll && filepath.Clean(cfg.indexCSV) == filepath.Clean(cfg.lettersCSV) {
@@ -245,17 +283,62 @@ func includesKind(selected, candidate string) bool {
 }
 
 func validateEnvironment(cfg config) error {
-	switch strings.ToLower(strings.TrimSpace(cfg.provider)) {
-	case llm.ProviderOpenAI:
-		if strings.TrimSpace(os.Getenv("OPENAI_API_KEY")) == "" {
-			return errors.New("OPENAI_API_KEY is required for the openai provider")
-		}
-	case llm.ProviderOllama:
-		if strings.TrimSpace(os.Getenv("OLLAMA_BASE_URL")) == "" {
-			return errors.New("OLLAMA_BASE_URL is required for the ollama provider")
+	providers := []string{cfg.provider}
+	if effectiveExtractionMode(cfg) == modeTwoPass {
+		providers = []string{firstPassProvider(cfg), secondPassProvider(cfg)}
+	}
+	for _, provider := range providers {
+		switch strings.ToLower(strings.TrimSpace(provider)) {
+		case llm.ProviderOpenAI:
+			if strings.TrimSpace(os.Getenv("OPENAI_API_KEY")) == "" {
+				return errors.New("OPENAI_API_KEY is required for the openai provider")
+			}
+		case llm.ProviderOllama:
+			if strings.TrimSpace(os.Getenv("OLLAMA_BASE_URL")) == "" {
+				return errors.New("OLLAMA_BASE_URL is required for the ollama provider")
+			}
 		}
 	}
 	return nil
+}
+
+func firstPassProvider(cfg config) string {
+	if strings.TrimSpace(cfg.firstProvider) != "" {
+		return cfg.firstProvider
+	}
+	return cfg.provider
+}
+func firstPassModel(cfg config) string {
+	if strings.TrimSpace(cfg.firstModel) != "" {
+		return cfg.firstModel
+	}
+	return cfg.model
+}
+func secondPassProvider(cfg config) string {
+	if strings.TrimSpace(cfg.secondProvider) != "" {
+		return cfg.secondProvider
+	}
+	return cfg.provider
+}
+func secondPassModel(cfg config) string {
+	if strings.TrimSpace(cfg.secondModel) != "" {
+		return cfg.secondModel
+	}
+	return cfg.model
+}
+
+func extractionProvider(cfg config) string {
+	if effectiveExtractionMode(cfg) == modeTwoPass {
+		return secondPassProvider(cfg)
+	}
+	return cfg.provider
+}
+
+func extractionModel(cfg config) string {
+	if effectiveExtractionMode(cfg) == modeTwoPass {
+		return secondPassModel(cfg)
+	}
+	return cfg.model
 }
 
 func discoverImages(root string) ([]imageInput, error) {

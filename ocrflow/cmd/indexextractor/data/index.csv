@@ -5243,409 +5243,166 @@ Yves de Paris (le P.),,Boulduc,false,vol_10
 Zarlino,252,,true,vol_10
 Zeltner,740 n.,,false,vol_10
 Zuylichem,,Huygens,false,vol_10
-"1056. Mersenne à Rivet, 16 janvier [1642]",1,,false,vol_11
-"1057. Cavendish à Pell, 18 janvier 1642",11,,false,vol_11
-"1058. Descartes à Mersenne, 19 janvier 1642",17,,false,vol_11
-"1059. Vegilin à Const. Huygens, 10/20 janvier 1642",19,,false,vol_11
-"1060. Rivet à Cl. Sarrau, 20 janvier 1642",21,,false,vol_11
-"1061. Descartes à Constantin Huygens, 22 janvier 1642",23,,false,vol_11
-"1062. Huygens à Descartes, 25 janvier 1642",26,,false,vol_11
-"1063. Ruarrus à Granovius, 28 janvier 1642",28,,false,vol_11
-"1064. Descartes à Huygens, 31 janvier 1642",30,,false,vol_11
-"1065. J.-F. Nicéron à Mersenne, 2 février 1642",35,,false,vol_11
-"1066. Komensky à Hutton, 6 février 1642",37,,false,vol_11
-"1067. Mersenne à Rivet, 8 février 1642",42,,false,vol_11
-"1068. Cavendish à Pell, 15 février 1642",44,,false,vol_11
-"1069. Vegilin à Const. Huygens, 14/24 février 1642",45,,false,vol_11
-"1070. Le P. J. Durelle à Mersenne, 26 février 1642",55,,false,vol_11
-"1071. Fermat à Mersenne, (février ou mars 1642)",61,,false,vol_11
-"1072. M. Ruar à Mersenne, 7 mars 1642",70,,false,vol_11
-"1073. Mersenne à Rivet, 15 mars [1642]",73,,false,vol_11
-"1074. Descartes à Mersenne, (mi-mars 1642)",80,,false,vol_11
-"1075. Deschamps à Mersenne, 26 mars 1642",95,,false,vol_11
-"1076. Brun à Mersenne, [26 ou 27] mars 1642",97,,false,vol_11
-"1077. Ban à Huygens, 2 avril 1642",99,,false,vol_11
-"1078. Huygens à Mersenne, 7 avril 1642",104,,false,vol_11
-"1079. Heereboord à Colvius, 8 avril 1642",105,,false,vol_11
-"1080. Sarrau à Rivet, 11 avril 1642",107,,false,vol_11
-"1081. Mersenne à Martin Ruar, 13 avril 1642",114,,false,vol_11
-"1082. Vegilin à Mersenne, 4/14 avril 1642",116,,false,vol_11
-"1083. Mersenne à Rivet, 17 avril [1642]",120,,false,vol_11
-"1084. Deschamps à Mersenne, 18 avril 1642",123,,false,vol_11
-"1085. G. Naudé à J. B. Doni, 18 avril 1642",125,,false,vol_11
-"1086. Rivet à Sarrau, (21 avril 1642)",128,,false,vol_11
-"1087. Descartes à C. Huygens, [26 avril 1642]",130,,false,vol_11
-"1088. Descartes à Huygens, 26 avril 1642",131,,false,vol_11
-"1089. Huygens à Descartes, 27 avril 1642",133,,false,vol_11
-"1090. Huygens à Ban, 29 avril 1642",135,,false,vol_11
-"1091. A. M. van Schuurman à Rivet, 23 avril/3 mai 1642",136,,false,vol_11
-"1092. Rivet à Sarrau, 5 mai 1642",139,,false,vol_11
-"1093. Deschamps à Mersenne, 7 mai 1642",144,,false,vol_11
-"1094. Grotius à Mersenne, 9 mai 1642",146,,false,vol_11
-"1095. Mersenne à Rivet, 11 mai 1642",153,,false,vol_11
-"1104. Deschamps à Mersenne, 14 juin 1642",180,,false,vol_11
-"1105. G. Naudé à van Berwyck, 21 juin 1642",185,,false,vol_11
-"1106. Bonnot (?) à Mersenne, 29 juin 1642",187,,false,vol_11
-"1107. Mersenne à M. Ruar, (juin ou juillet 1642)",194,,false,vol_11
-"1108. Deshommeaux à Mersenne, 7 juillet 1642",198,,false,vol_11
-"1109. Deschamps à Mersenne, 8 juillet 1642",202,,false,vol_11
-"1110. Gilles de Ste Vitte à Mersenne, 12 juillet 1642",207,,false,vol_11
-"1111. Villiers à Mersenne, 14 juillet 1642",210,,false,vol_11
-"1112. Bonnot (?) à Mersenne, (mi-juillet 1642)",218,,false,vol_11
-"1113. Deschamps à Mersenne, 16 juillet 1642",222,,false,vol_11
-"1114. Gassend à Louis de Valois, 25 juillet 1642",225,,false,vol_11
-"1115. Rivet à Huygens, 1er août 1642",227,,false,vol_11
-"1116. L. de Valois à Gassend, 4 août 1642",228,,false,vol_11
-"1117. Deschamps à Mersenne, 14 août 1642",229,,false,vol_11
-"1118. Mersenne à Rivet, (mi-août 1642)",233,,false,vol_11
-"1119. Gassend à L. de Valois, 15 août 1642",238,,false,vol_11
-"1120. Huygens à Ban, 19 août 1642",239,,false,vol_11
-"1121. Sorbière à Mersenne, 25 août 1642",240,,false,vol_11
-"1122. Pell à Hübner, 17/25 août 1642",244,,false,vol_11
-"1123. Deschamps à Mersenne, (fin août 1642)",247,,false,vol_11
-"1124. Descartes à Mersenne (pour Cavendish), (août-septembre 1642 ?)",253,,false,vol_11
-"1125. Descartes au P. Bourdin, 7 septembre 1642",256,,false,vol_11
-"1126. Deshommeaux à Mersenne, 10 septembre [1642]",259,,false,vol_11
-"1127. Mersenne (et Gassend) à (Sorbière), 13 septembre 1642",266,,false,vol_11
-"1128. Villiers à Mersenne, 13 septembre 1642",272,,false,vol_11
-"1129. Sorbière à Abraham Duprat, (mi-septembre ?) 1642",278,,false,vol_11
-"1130. J. A. Ban à Const. Huygens, 16 septembre 1642",280,,false,vol_11
-"1131. Gassend à Sorbière, 27 septembre 1642",282,,false,vol_11
-"1132. Le P. J. Durelle à Mersenne, 5 octobre 1642",285,,false,vol_11
-"1133. Const. Huygens à Descartes, 7 octobre 1642",288,,false,vol_11
-"1134. Deschamps à Mersenne, 8 octobre 1642",290,,false,vol_11
-"1135. Mersenne à Rivet, 12 octobre 1642",293,,false,vol_11
-"1136. Descartes à Mersenne, (13 octobre 1642)",298,,false,vol_11
-"1137. Descartes à Mersenne, 20 octobre 1642",303,,false,vol_11
-"1138. Pell à S. Hartlib, 12/22 octobre 1642",307,,false,vol_11
-"1139. Deschamps à Mersenne, 31 octobre 1642",315,,false,vol_11
-"1140. Le P. de Billy à Mersenne, 10 novembre 1642",324,,false,vol_11
-"1141. Fermat à Mersenne (avec appendice), 10 novembre 1642",333,,false,vol_11
-"1142. J. A. Ban à C. Huygens, 11 novembre 1642",345,,false,vol_11
-"1143. Sorbière à Mersenne, (mi-novembre) 1642",346,,false,vol_11
-"1144. Descartes à Mersenne, 17 novembre 1642",348,,false,vol_11
-"1145. Deshommeaux à Mersenne, 20 novembre 1642",353,,false,vol_11
-"1146. Mersenne à Rivet, 22 novembre 1642",357,,false,vol_11
-"1147. Descartes à Mersenne, 7 décembre 1642",363,,false,vol_11
-"1148. Mersenne à G. Voet, 13 décembre 1642",372,,false,vol_11
-"1149. M. Ruarus à Mersenne, 19 décembre 1642",378,,false,vol_11
-"1150. Deschamps à Mersenne, 22 décembre 1642",383,,false,vol_11
-"1151. Deschamps à Mersenne, 27 décembre 1642",391,,false,vol_11
-Avertissement,397,,false,vol_11
-"836bis. Mersenne à Th. Haak, 10 mars 1640",403,,false,vol_11
-"839bis. Th. Haak à Mersenne, 20 mars 1640",405,,false,vol_11
-"917bis. Mersenne à Th. Haak, 4 septembre 1640",411,,false,vol_11
-"918bis. Th. Haak à Mersenne, (mi-septembre 1640)",415,,false,vol_11
-"942bis. Mersenne à Th. Haak, 16 novembre 1640",419,,false,vol_11
-"944bis. Mersenne à Th. Haak, s. d. : novembre 1640",425,,false,vol_11
-"948bis. Th. Haak à Mersenne, 20 novembre 1640",429,,false,vol_11
-"952bis. Mersenne à Th. Haak, 16 décembre 1640",434,,false,vol_11
-Table chronologique des lettres du onzième volume,439,,false,vol_11
-Table alphabétique des correspondants,443,,false,vol_11
-Index,447,,false,vol_11
-Additions et corrections,453,,false,vol_11
-"à Huygens, 2 avril",97,,false,vol_11
-"Huygens à Ban, 29 avril",133,,false,vol_11
-"— à —, 19 août",239,,false,vol_11
-"Ban à Huygens, 16 septembre",280,,false,vol_11
-"— à —, 11 novembre",345,,false,vol_11
-"Baudé à J. van Beverwyck, 21 juin",185,,false,vol_11
-"à Mersenne, 10 novembre",324,,false,vol_11
-"à Mersenne, 29 juin",187,,false,vol_11
-"à Mersenne, (mi-juillet)",218,,false,vol_11
-"Descartes au P. Bourdin, 7 septembre",256,,false,vol_11
-"à Mersenne, 26 mars",7,,false,vol_11
-"à John Pell, 18 janvier",42,,false,vol_11
-— 15 février,95,,false,vol_11
-"Descartes pour Cavendish, (1642)",253,,false,vol_11
-"Heereboord à Colvius, 8 avril",104,,false,vol_11
-"à Mersenne, 19 janvier",21,,false,vol_11
-"à C. Huygens, 22 janvier",21,,false,vol_11
-"C. Huygens à Descartes, 25 janvier",23,,false,vol_11
-"— à C. Huygens, 31 janvier",28,,false,vol_11
-"— à Mersenne, (mars 1642)",73,,false,vol_11
-"— à C. Huygens, (26 avril 1642)",128,,false,vol_11
-"— à Mersenne, 26 avril",130,,false,vol_11
-"C. Huygens à Descartes, 27 avril",131,,false,vol_11
-"C. Huygens à Descartes, 26 mai",158,,false,vol_11
-"— à Mersenne (pour Cavendish), (août-septembre 1642)",253,,false,vol_11
-"— au Père Bourdin, 7 septembre",256,,false,vol_11
-"C. Huygens à Descartes, 7 octobre",288,,false,vol_11
-"— à Descartes, (13 octobre 1642)",298,,false,vol_11
-"— à Mersenne, 20 octobre",303,,false,vol_11
-"— à Mersenne, 17 novembre",348,,false,vol_11
-"— à C. Huygens, 7 décembre",363,,false,vol_11
-"à Mersenne, 26 mars",80,,false,vol_11
-— 18 avril,139,,false,vol_11
-— 5 mai,180,,false,vol_11
-— 14 juin,202,,false,vol_11
-— 8 juillet,222,,false,vol_11
-— 16 juillet,229,,false,vol_11
-— 14 août,247,,false,vol_11
-— (fin août 1642),290,,false,vol_11
-— 8 octobre,315,,false,vol_11
-— 31 octobre,333,,false,vol_11
-— 22 décembre,391,,false,vol_11
-"à Mersenne, 7 juillet",198,,false,vol_11
-— 10 septembre,259,,false,vol_11
-— 20 novembre,358,,false,vol_11
-"Naudé à Doni, 18 avril",128,,false,vol_11
-"Sorbière à Dupuy, (sept. ?) 1642",278,,false,vol_11
-"Gassend à L. de Valois, 25 juillet",170,,false,vol_11
-"L. de Valois à Gassend, 4 août",225,,false,vol_11
-"Gassend à L. de Valois, 15 août",228,,false,vol_11
-"Mers. et Gassend à Sorbière, 13 septembre",238,,false,vol_11
-"Gassend à Sorbière, 27 septembre",266,,false,vol_11
-"Gassend à Sorbière, septembre",282,,false,vol_11
-"Ruardus à Ganovius, 28 janvier 1640 (?)",26,,false,vol_11
-"Grotius à Mersenne, 7 mai",144,,false,vol_11
-"Mersenne à Haak, 10 mars 1640",403,,false,vol_11
-"Mersenne à Haak, 20 mars 1640",405,,false,vol_11
-"Mersenne à Haak, 4 septembre 1640",411,,false,vol_11
-"Mersenne à Haak, (mi-septembre 1640)",415,,false,vol_11
-"Mersenne à Haak, 16 novembre 1640",419,,false,vol_11
-"Mersenne à Haak, s.d. (novembre 1640)",425,,false,vol_11
-"Mersenne à Haak, 20 novembre 1640",429,,false,vol_11
-"Mersenne à Haak, (6 décembre 1640)",434,,false,vol_11
-"Pell à Hartlib, 12/22 octobre",307,,false,vol_11
-"Heereboord à Colvius, 8 avril",104,,false,vol_11
-"Pell à Hübner, 17/25 août",244,,false,vol_11
-"Descartes à Huygens, 25 janvier",17,,false,vol_11
-"à Descartes, 26 janvier",21,,false,vol_11
-"à Descartes, 31 janvier",23,,false,vol_11
-"Rivet à Huygens, 14/24 février",44,,false,vol_11
-"Descartes à Huygens, (26 avril)",97,,false,vol_11
-"à Descartes, 27 avril",128,,false,vol_11
-"à Baan, 29 avril",130,,false,vol_11
-"à Descartes, 26 mai",131,,false,vol_11
-"Descartes à Huygens, 1er août",133,,false,vol_11
-"à Baan, 19 août",158,,false,vol_11
-"Ban à Huygens, 16 septembre",280,,false,vol_11
-"Huygens à Descartes, 7 octobre",288,,false,vol_11
-"Ban à Huygens, 11 novembre",345,,false,vol_11
-"Komenský à Hutton, 6 février",35,,false,vol_11
-"à Rivet, 16 janvier",1,,false,vol_11
-"Descartes à Mersenne, 19 janvier",9,,false,vol_11
-"Niceron à Mersenne, 2 février",30,,false,vol_11
-"à Rivet, 8 février",37,,false,vol_11
-"le P. Durelle à Mersenne, 26 février",45,,false,vol_11
-"Ruar à Mersenne, (février ou mars)",55,,false,vol_11
-"à Rivet, 15 mars",61,,false,vol_11
-"Descartes à Mersenne, (mars 1642)",70,,false,vol_11
-"Deschamps à Mersenne, 26 mars",73,,false,vol_11
-"Brun à Mersenne, (26 ou 27) mars",80,,false,vol_11
-"Huygens à Mersenne, 7 avril",95,,false,vol_11
-"à Martin Ruar, 13 avril",99,,false,vol_11
-"Vegilin à Mersenne, 4/14 avril",107,,false,vol_11
-"à Rivet, 17 avril",114,,false,vol_11
-"Deschamps à Mersenne, 18 avril",116,,false,vol_11
-"— à —, 5 mai",120,,false,vol_11
-"Grotius à Mersenne, 7 mai",144,,false,vol_11
-"à Rivet, 9 mai",146,,false,vol_11
-"à Ruar, 15 mai",154,,false,vol_11
-"à Cl. Sarrau, 17 mai",157,,false,vol_11
-"Deschamps à Mersenne, 16 juillet",222,,false,vol_11
-— — — 14 août,229,,false,vol_11
-"Desc. à Mersenne pour Carcavy, (août-septembre)",240,,false,vol_11
-"Sorbière à Mersenne, 25 août",247,,false,vol_11
-"Deschamps à Mersenne, (fin août)",253,,false,vol_11
-"Douruelle à Mersenne, 5 octobre",285,,false,vol_11
-"Deschamps à Mersenne, 8 octobre",290,,false,vol_11
-"Descartes à Mersenne, 12 octobre",293,,false,vol_11
-"Descartes à Mersenne, (13 octobre)",298,,false,vol_11
-"Descartes à Mersenne, 20 octobre",303,,false,vol_11
-"Descartes à Mersenne, 31 octobre",315,,false,vol_11
-"le P. de Billy à Mersenne, 10 novembre",324,,false,vol_11
-"Fermat à Mersenne, 10 novembre",333,,false,vol_11
-"Sorbière à Mersenne, (mi-novembre)",346,,false,vol_11
-"Descartes à Mersenne, 17 novembre",348,,false,vol_11
-"Deshommeaux à Mersenne, 20 novembre",353,,false,vol_11
-"Descartes à Mersenne, 22 novembre",357,,false,vol_11
-"Descartes à Mersenne, 7 décembre",363,,false,vol_11
-"Mersenne à Voet, 13 décembre",372,,false,vol_11
-"Ruar à Mersenne, 19 décembre",378,,false,vol_11
-"Deschamps à Mersenne, 22 décembre",383,,false,vol_11
-"Naudé à Mersenne, 2 février",30,,false,vol_11
-"— à Doni, 18 avril",123,,false,vol_11
-"— à Mersenne, 21 juin",185,,false,vol_11
-"Rivet à Mersenne, 16 janvier",1,,false,vol_11
-"— à Cl. Sarrau, 20 janvier",19,,false,vol_11
-"Mersenne à Rivet, 8 février",37,,false,vol_11
-"— à Cl. Sarrau, 20 mars",70,,false,vol_11
-"Mersenne à Rivet, 15 mars",105,,false,vol_11
-"Sarrau à Rivet, 11 avril",116,,false,vol_11
-"Mersenne à Rivet, 17 avril",125,,false,vol_11
-"Mersenne à Rivet, (21 avril)",135,,false,vol_11
-"A. M. van Schuurman à Rivet, 23 avril/3 mai",136,,false,vol_11
-"— à Cl. Sarrau, 5 mai",146,,false,vol_11
-"Mersenne à Rivet, 9 mai",153,,false,vol_11
-"— à Cl. Sarrau, 12 mai",166,,false,vol_11
-"Mersenne à Rivet, 3 juin",227,,false,vol_11
-"— à Const. Huygens, 1er août",233,,false,vol_11
-"Mersenne à Rivet, (mi-août)",293,,false,vol_11
-"Mersenne à Rivet, 12 octobre",357,,false,vol_11
-"Ruar (Martin) à Mersenne, 28 janvier",26,,false,vol_11
-"— à Gnanovius, 28 janvier",61,,false,vol_11
-"— à Mersenne, 7 mars",107,,false,vol_11
-"Mersenne à Ruar, 13 avril",154,,false,vol_11
-"Rivet à Sarrau, 20 janvier",19,,false,vol_11
-"à Rivet, 11 avril",105,,false,vol_11
-"Rivet à Sarrau, (21 avril)",125,,false,vol_11
-"— à —, 5 mai",136,,false,vol_11
-"— à —, 12 mai",153,,false,vol_11
-"à Mersenne, 12 juillet",207,,false,vol_11
-"Mersenne à Sorbière, 1er juin",160,,false,vol_11
-"à Gassend, 8 juin",170,,false,vol_11
-"à Mersenne, 25 août",240,,false,vol_11
-"Mersenne et Gassend à Sorbière, 13 septembre",266,,false,vol_11
-"Sorbière à Duprat, (mi-septembre ?)",278,,false,vol_11
-"Gassend à Sorbière, 27 septembre",282,,false,vol_11
-"à Mersenne, (mi-novembre)",346,,false,vol_11
-"Sorbière à Voet, 13 décembre",372,,false,vol_11
-"à Const. Huygens, 10/20 janvier",17,,false,vol_11
-"à Mersenne, 4/14 février",44,,false,vol_11
-"à Mersenne, 4/14 avril",114,,false,vol_11
-"à Rivet, 23 avril/3 mai",135,,false,vol_11
-"Gassend à L. de Valois, 25 juillet",225,,false,vol_11
-"à Gassend, 4 août",228,,false,vol_11
-"Gassend à L. de Valois, 15 août",238,,false,vol_11
-"à Mersenne, 13 juin",174,,false,vol_11
-— 14 juillet,210,,false,vol_11
-— 13 septembre,272,,false,vol_11
-Abraham Ecchellensis,360 n.,,false,vol_11
+Abraham Ecchelensis,360 n.,,false,vol_11
 "Adam, premier homme",66 sq.,,true,vol_11
 "Adam, premier homme",194 sq.,,true,vol_11
-Adam (Antoine),72 n.,,false,vol_11
-Adam (Antoine),271 n.,,false,vol_11
-Adam (Antoine),287 n.,,false,vol_11
-"Adam (Charles), éd. de Descartes",15 n.,,false,vol_11
-"Adam (Charles), éd. de Descartes",16 n.,,false,vol_11
-"Adam (Charles), éd. de Descartes",22 n.,,false,vol_11
-"Adam (Charles), éd. de Descartes",52-54,,true,vol_11
-"Adam (Charles), éd. de Descartes",78 n.,,false,vol_11
-"Adam (Charles), éd. de Descartes",101,,true,vol_11
-"Adam (Charles), éd. de Descartes",187,,true,vol_11
-"Adam (Charles), éd. de Descartes",216 n.,,false,vol_11
-"Adam (Charles), éd. de Descartes",283 n.,,false,vol_11
+Adam (Antoine),72 n,,false,vol_11
+Adam (Antoine),271 n,,false,vol_11
+Adam (Antoine),287 n,,false,vol_11
+Adam (Antoine),430 n.,,false,vol_11
+"Adam (Charles), éd. de Descartes",15 n,,false,vol_11
+"Adam (Charles), éd. de Descartes",16 n,,false,vol_11
+"Adam (Charles), éd. de Descartes",22 n,,false,vol_11
+"Adam (Charles), éd. de Descartes",52-54,,false,vol_11
+"Adam (Charles), éd. de Descartes",78 n,,false,vol_11
+"Adam (Charles), éd. de Descartes",101,,false,vol_11
+"Adam (Charles), éd. de Descartes",187,,false,vol_11
+"Adam (Charles), éd. de Descartes",216 n,,false,vol_11
+"Adam (Charles), éd. de Descartes",283 n,,false,vol_11
 "Adam (Charles), éd. de Descartes",375 n.,,false,vol_11
-Adam (Pierre et Jacques),309,,true,vol_11
-Adam (Pierre et Jacques),313,,true,vol_11
+Alhasen,12 n.,,false,vol_11
 Alleaume (Pierre et Jacques),309,,true,vol_11
 Alleaume (Pierre et Jacques),313,,true,vol_11
 Ambroise (Saint),109,,true,vol_11
 Ammien-Marcellin,39,,true,vol_11
-Ammyraut (Moïse),62 n.,,false,vol_11
-Ammyraut (Moïse),106,,true,vol_11
-Ammyraut (Moïse),168 n.,,false,vol_11
+Amyraut (Moïse),62 n,,false,vol_11
+Amyraut (Moïse),106,,true,vol_11
+Amyraut (Moïse),168 n,,false,vol_11
+Amyraut (Moïse),279,,false,vol_11
 Anderson (Alexandre),309,,true,vol_11
-Anderson (Alexandre),312 sq.,,true,vol_11
+Anderson (Alexandre),312 sq.,,false,vol_11
+Anderson (Alexandre),314,,false,vol_11
 Angeloni (François),30,,true,vol_11
 Apollonius de Perga,266,,true,vol_11
 Apollonius de Perga,269,,true,vol_11
 Apollonius de Perga,346,,true,vol_11
-Apollonius de Perga,431 sq.,,true,vol_11
-Arbogast (Louis),55,,true,vol_11
-Arbogast (Louis),333,,true,vol_11
-Arbogast (Louis),335,,true,vol_11
+Apollonius de Perga,431 sq.,,false,vol_11
+Arbogast (Louis),55,,false,vol_11
+Arbogast (Louis),333,,false,vol_11
+Arbogast (Louis),335,,false,vol_11
 Archimède,327,,true,vol_11
 Arétin (Guy),250,,true,vol_11
 Aristide (Aelius),268,,true,vol_11
-Aristote,16,,true,vol_11
-Aristote,47 n.,,false,vol_11
-Aristote,186 n.,,false,vol_11
+Aristote,16,,false,vol_11
+Aristote,47 n,,false,vol_11
+Aristote,186 n,,false,vol_11
 Aristote,250,,true,vol_11
-Aristote,283 n.,,false,vol_11
+Aristote,283 n,,false,vol_11
 Aristote,375,,true,vol_11
 "Aristoxène, musicien grec",183,,true,vol_11
 "Aristoxène, musicien grec",250,,true,vol_11
-Arrius,111 n.,,false,vol_11
-Armitage (prof. W. H.),397,,true,vol_11
-Arnauld (Antoine),51 n.,,false,vol_11
-Arnauld (Antoine),72 n.,,false,vol_11
-Arnauld (Antoine),74 n.,,false,vol_11
-Arnauld (Antoine),347 n.,,false,vol_11
+Arius,111 n.,,false,vol_11
+Armytage (prof. W. H.),397,,false,vol_11
+Arnauld (Antoine),51 n,,false,vol_11
+Arnauld (Antoine),72 n,,false,vol_11
+Arnauld (Antoine),74 n,,false,vol_11
+Arnauld (Antoine),347 n,,false,vol_11
 Arnauld (Antoine),375,,true,vol_11
-Arnauld (Antoine),377,,true,vol_11
+Arnauld (Antoine),377,,false,vol_11
 Arnouville (Mme d'),14 n.,,false,vol_11
-"Arrianus (Flavius), historien d'Épictète, Ier siècle",195,,true,vol_11
-"Arrianus, disciple d'Hiéraclès, ve siècle",111,,true,vol_11
-Artignosc (Jean d'),287 n.,,false,vol_11
-Aubery du Maurier (Daniel),323,,true,vol_11
-Aubrey (J.),77 n.,,false,vol_11
-Aubrey (J.),265 n.,,false,vol_11
+"Arrianus (Flavius), historien d'Épic-tète, IIe siècle",195,,true,vol_11
+"Arrianus, disciple d'Héraclès, ve siècle",111,,true,vol_11
+Artignose (Jean d'),287 n.,,false,vol_11
+Aubery du Maurier (Daniel),323,,false,vol_11
+Aubrey (J.),77 n,,false,vol_11
+Aubrey (J.),265 n,,false,vol_11
 Augustin (Saint),37,,true,vol_11
 Augustin (Saint),39,,true,vol_11
 Augustin (Saint),48,,true,vol_11
 Augustin (Saint),75,,true,vol_11
 Augustin (Saint),108,,true,vol_11
 Augustin (Saint),109,,true,vol_11
-Augustin (Saint),111,,true,vol_11
+Augustin (Saint),119,,false,vol_11
 Augustin (Saint),154,,true,vol_11
 Augustin (Saint),196,,true,vol_11
-Augustin (Saint),359,,true,vol_11
+Augustin (Saint),359,,false,vol_11
 Augustin (Saint),374,,true,vol_11
-Augustin (Saint),375 sq.,,true,vol_11
+Augustin (Saint),376 sq.,,false,vol_11
 Augustin (Saint),430 n.,,false,vol_11
 "Bacchius, musicien grec",208 n.,,false,vol_11
-Bagni (le card. Guidi di Bagno),32 n.,,false,vol_11
-Bagni (le card. Guidi di Bagno),287 n.,,false,vol_11
-Baillet (Adrien),22 n.,,false,vol_11
-Baillet (Adrien),77 n.,,false,vol_11
-Baillet (Adrien),99,,true,vol_11
-Baillet (Adrien),101 sq.,,true,vol_11
-Baillet (Adrien),132 n.,,false,vol_11
-Baillet (Adrien),363 n.,,false,vol_11
-Baillet (Adrien),364 n.,,false,vol_11
-Baillet (Adrien),403 n.,,false,vol_11
+Bagni (le card. Guido di Bagno),32 n,,false,vol_11
+Bagni (le card. Guido di Bagno),287 n.,,false,vol_11
+Baillet (Adrien),22 n,,false,vol_11
+Baillet (Adrien),77 n,,false,vol_11
+Baillet (Adrien),99,,false,vol_11
+Baillet (Adrien),101 sq.,,false,vol_11
+Baillet (Adrien),132 n,,false,vol_11
+Baillet (Adrien),363 n,,false,vol_11
+Baillet (Adrien),364 n,,false,vol_11
+Baillet (Adrien),403 n,,false,vol_11
 Baillet (Adrien),431 n.,,false,vol_11
-"Bakker, histor. sc.",15 n.,,false,vol_11
+"Baker, histor. sc.",15 n.,,false,vol_11
 Balzac (J.-L. Guez de),150,,true,vol_11
 Ban (J.-Albert),97 sq.,,true,vol_11
 Ban (J.-Albert),133 sq.,,true,vol_11
 Ban (J.-Albert),239,,true,vol_11
 Ban (J.-Albert),280 sq.,,true,vol_11
 Ban (J.-Albert),345,,true,vol_11
-Ban (J.-Albert),412 n.,,false,vol_11
+Ban (J.-Albert),412 n,,false,vol_11
 Ban (J.-Albert),422,,true,vol_11
 Barberini (le card. François),32 n.,,false,vol_11
 Barlaeus (J. van Baerle),148,,true,vol_11
 Barlaeus (J. van Baerle),240,,true,vol_11
 Barlaeus (J. van Baerle),283 n.,,false,vol_11
-Barnett (Pamela),397,,true,vol_11
-Bartholin (Caspar),173,,true,vol_11
+Barnett (Pamela),397,,false,vol_11
+Bartholin (Caspar),173,,false,vol_11
 Basile (Saint),39,,true,vol_11
 Basile (Saint),109,,true,vol_11
 Basile (Saint),155,,true,vol_11
 Baudry (L.),268 n.,,false,vol_11
-Baugy (Nicolas de),427 n. et t.,,false,vol_11
-Baugy (Nicolas de),428,,true,vol_11
+Baugy (Nicolas de),427 n. et t,,false,vol_11
+Baugy (Nicolas de),428,,false,vol_11
 Beaugrand (Jean de),56,,true,vol_11
-Beaugrand (Jean de),83 n.,,false,vol_11
+Beaugrand (Jean de),83 n,,false,vol_11
 Beaugrand (Jean de),308,,true,vol_11
 Beaugrand (Jean de),310,,true,vol_11
 Bedell (William),418 n.,,false,vol_11
-Beeckmann (Isaac),81 n.,,false,vol_11
-Beeckmann (Isaac),90 n.,,false,vol_11
-Beeckmann (Isaac),141 n.,,false,vol_11
-Beeckmann (Isaac),254 n.,,false,vol_11
-Beeckmann (Isaac),309 n.,,false,vol_11
+Beeckmann (Isaac),81 n,,false,vol_11
+Beeckmann (Isaac),90 n,,false,vol_11
+Beeckmann (Isaac),141 n,,false,vol_11
+Beeckmann (Isaac),254 n,,false,vol_11
+Beeckmann (Isaac),309 n,,false,vol_11
 Beeckmann (Isaac),408 n.,,false,vol_11
 Bellarmin (le card. Robert),150 n.,,false,vol_11
-"Bérigard (Cl. Guillermet, sr de)",246 n.,,false,vol_11
-"Bérigard (Cl. Guillermet, sr de)",271 n.,,false,vol_11
-Bernhardt (Jean),323 n.,,false,vol_11
-Bernier (François),14,,true,vol_11
-Bernier (François),25 n.,,false,vol_11
-Bernier (François),185 sq.,,true,vol_11
-Beverwyck (Jan van),14,,true,vol_11
-Beverwyck (Jan van),25 n.,,false,vol_11
+"Bérigard (Cl. Guillermet, sr de)",249 n.,,false,vol_11
+Bernhardt (Jean),246 n,,false,vol_11
+Bernhardt (Jean),271 n.,,false,vol_11
+Bernier (François),323 n.,,false,vol_11
+Beverwyck (Jan van),14,,false,vol_11
+Beverwyck (Jan van),25 n,,false,vol_11
 Beverwyck (Jan van),185 sq.,,true,vol_11
-Bickley (Fr.),8,,true,vol_11
-Bierens de Haan (D.),99,,true,vol_11
-Bierens de Haan (D.),103,,true,vol_11
+Bickley (Fr.),8,,false,vol_11
+Bierens de Haan (D.),99,,false,vol_11
+Bierens de Haan (D.),103,,false,vol_11
 Bierens de Haan (D.),423 n.,,false,vol_11
 Billy (le P. Jacques de),324-332,,true,vol_11
-"Bonnefés, dict.",32 n,,false,vol_11
+"Binet (Étienne), jés.",421 n et t.,,false,vol_11
+Bisterfeld (Jean-Henri),26,,true,vol_11
+Bitaud (Jean),284,,false,vol_11
+"Blaeu (Jean), libraire",126,,false,vol_11
+"Blaeu (Jean), libraire",127 n,,false,vol_11
+"Blanc = Bianchi, méd.",45,,false,vol_11
+"Blanc = Bianchi, méd.",48,,true,vol_11
+"Blanc = Bianchi, méd.",49 sq.,,true,vol_11
+"Blanc = Bianchi, méd.",52 sq.,,false,vol_11
+Bloch (Olivier),6,,false,vol_11
+Bloch (Olivier),271 n,,false,vol_11
+Bloch (Olivier),284 n,,false,vol_11
+Bloch (Olivier),456,,false,vol_11
+Blondel (David),149,,true,vol_11
+Blondel (David),153,,true,vol_11
+Blondel (David),167,,true,vol_11
+Blondel (David),235,,true,vol_11
+"Bode, histor. sc.",15 n,,false,vol_11
+Boèce,52,,true,vol_11
+"Boerën (P. C.), conservateur à Leyde",173 n,,false,vol_11
+Boesset (Antoine),134 n,,false,vol_11
+Boesset (Antoine),220,,true,vol_11
+Boesset (Antoine),422,,true,vol_11
+Bomot (?),187-193,,true,vol_11
+Bomot (?),218-221,,true,vol_11
+Bomot (?),249 n,,false,vol_11
+"Bonnafé, dict.",32 n,,false,vol_11
 Borel (Pierre),13 n,,false,vol_11
 Borel (Pierre),303,,false,vol_11
 Borel (Pierre),363,,false,vol_11
@@ -5653,100 +5410,199 @@ Borel (Pierre),364 n,,false,vol_11
 Borelli (Giovanni-Alf.),314 n,,false,vol_11
 Borelli (Giovanni-Alf.),371,,false,vol_11
 Boswell (William),159 n,,false,vol_11
-Boswell (William),422 n et t,,true,vol_11
+Boswell (William),422 n et t.,,false,vol_11
 Botsac (Jean),62,,true,vol_11
 Botsac (Jean),379,,true,vol_11
 Bouillon (le duc de),234,,false,vol_11
 Bouillaud (Ismaël),32 n,,false,vol_11
 Bouillaud (Ismaël),81 n,,false,vol_11
 Bouillaud (Ismaël),313 sq.,,false,vol_11
-Bouillaud (Ismaël),412 n,,true,vol_11
+Bouillaud (Ismaël),412 n,,false,vol_11
 "Bourdelot (Pierre Michon, dit)",362,,false,vol_11
-"Bourdin (le P. Pierre), jés.",9,,false,vol_11
-"Bourdin (le P. Pierre), jés.",10,,false,vol_11
+"Bourdin (le P. Pierre), jés.",9,,true,vol_11
+"Bourdin (le P. Pierre), jés.",10,,true,vol_11
 "Bourdin (le P. Pierre), jés.",21 n,,false,vol_11
 "Bourdin (le P. Pierre), jés.",29 n,,false,vol_11
-"Bourdin (le P. Pierre), jés.",40,,false,vol_11
+"Bourdin (le P. Pierre), jés.",40,,true,vol_11
 "Bourdin (le P. Pierre), jés.",77,,false,vol_11
-"Bourdin (le P. Pierre), jés.",128,,false,vol_11
-"Bourdin (le P. Pierre), jés.",161,,false,vol_11
+"Bourdin (le P. Pierre), jés.",128,,true,vol_11
+"Bourdin (le P. Pierre), jés.",161,,true,vol_11
 "Bourdin (le P. Pierre), jés.",256-258,,true,vol_11
 "Bourdin (le P. Pierre), jés.",298,,true,vol_11
 "Bourdin (le P. Pierre), jés.",301,,true,vol_11
 "Bourdin (le P. Pierre), jés.",306,,true,vol_11
 "Bourdin (le P. Pierre), jés.",348 n,,false,vol_11
 "Bourdin (le P. Pierre), jés.",421 n,,false,vol_11
-Bourlory,435 n,,true,vol_11
+Bourlory,435 n,,false,vol_11
 Boyle (Rob.),115 n,,false,vol_11
 Boyle (Rob.),371,,false,vol_11
 Braithwaite (Will.),412 n et t,,true,vol_11
-Brancker (T.),246,,true,vol_11
-Brémond (Henri),421 n,,true,vol_11
-Briggs (Henri),442,,true,vol_11
-"Brosterhuusy, poète néerl.",239,,true,vol_11
+Braithwaite (Will.),421,,true,vol_11
+Brancker (T.),246,,false,vol_11
+Brémond (Henri),421 n,,false,vol_11
+Briggs (Henri),42,,true,vol_11
+"Brosterhusy, poète néerl.",239,,true,vol_11
 "Brun (Jean), apothicaire",93 n,,false,vol_11
 "Brun (Jean), apothicaire",95 sq.,,false,vol_11
 "Brun (Jean), apothicaire",122,,true,vol_11
 "Brun (Jean), apothicaire",182,,true,vol_11
 "Brun (Jean), apothicaire",203,,true,vol_11
-"Brun (Jean), apothicaire",259,,true,vol_11
+"Brun (Jean), apothicaire",259,,false,vol_11
 "Brun (Jean), apothicaire",383,,true,vol_11
 Bruno (Henri),242 n,,false,vol_11
-"Buon (Nicolas), libr.",70,,true,vol_11
-Burgersdyck (François),70 n sq.,,true,vol_11
-Burnett (G.),418 n,,true,vol_11
+Buon (Nicolas) libr.,70,,true,vol_11
+Burgersdyck (François),70 n sq.,,false,vol_11
+Burnett (G.),418 n,,false,vol_11
 Busson (Henri),20,,false,vol_11
-Buxtorf (Jean),236,,true,vol_11
-Cajori (F.),246,,true,vol_11
+Buxtorf (Jean),236,,false,vol_11
+Cajori (F.),246,,false,vol_11
 "Caleb, person. biblique",176,,true,vol_11
 Calovius (Abraham),26 sq.,,true,vol_11
 Calovius (Abraham),62,,true,vol_11
 Calovius (Abraham),379,,true,vol_11
 Calvin (J.),3,,true,vol_11
-Calvin (J.),40,,true,vol_11
-Calvin (J.),167 n et t,,true,vol_11
-Carcavi (Pierre de),333 sq.,,true,vol_11
+Calvin (J.),40,,false,vol_11
+Calvin (J.),167 n et t.,,false,vol_11
+Carcavi (Pierre de),333 sq.,,false,vol_11
 Cardan (Jér.),371,,false,vol_11
 Cardan (Jér.),409,,true,vol_11
 Cardan (Jér.),426,,true,vol_11
-Carrez (le P.),323 n,,true,vol_11
+Carrez (le P.),323 n,,false,vol_11
 Cassander (Georges),3,,true,vol_11
 Cassander (Georges),37,,true,vol_11
-"Caterus (Jean), d’Alkmaar",51 n et t,,true,vol_11
-Dablillon (André),270,,false,vol_11
-Dailly (Jean) ministre à Charenton,108,,false,vol_11
-Dailly (Jean) ministre à Charenton,168,,false,vol_11
-Dailly (Jean) ministre à Charenton,234 n,,false,vol_11
-Dailly (Jean) ministre à Charenton,278 n,,false,vol_11
-Dailly (Jean) ministre à Charenton,297,,false,vol_11
-Dailly (Jean) ministre à Charenton,361 sq.,,false,vol_11
+"Caterus (Jean), d'Alkmaar",51 n et t.,,true,vol_11
+Cavalieri (Bonaventura),11 n,,false,vol_11
+Cavalieri (Bonaventura),33,,true,vol_11
+Cavalieri (Bonaventura),55-60,,true,vol_11
+Cavendish (sir Charles),7 sq.,,false,vol_11
+Cavendish (sir Charles),42 sq.,,true,vol_11
+Cavendish (sir Charles),253-255,,true,vol_11
+Cavendish (sir Charles),306,,true,vol_11
+Cavendish (sir Charles),410,,false,vol_11
+Cavendish (sir Charles),430 n,,false,vol_11
+"Cavendish (William, comte de New-castle)",8,,false,vol_11
+Cazenave (Madeleine),169 n,,false,vol_11
+Cazenave (Madeleine),361 n,,false,vol_11
+"Ceriziers (le P. René de), jés.",52,,true,vol_11
+"Ceriziers (le P. René de), jés.",270,,false,vol_11
+Cerone (Pietro),183 n,,false,vol_11
+Chabbert (P.),363 n sq,,false,vol_11
+Challain (le Présid. de),265,,true,vol_11
+Challain (le Présid. de),354,,true,vol_11
+Chambon (Mr de),334,,true,vol_11
+Chanut (Hector Pierre),77,,false,vol_11
+Chartier (René),417 n,,false,vol_11
+Chmaj (Louis),241 n,,false,vol_11
+Chorez (Daniel),404,,false,vol_11
+Chrysostome (Saint Jean),109,,true,vol_11
+Cicéron,422,,true,vol_11
+Claves (Étienne de),284,,false,vol_11
+"Clavius (le P. Christophe), jés.",142 n,,false,vol_11
+Clément d'Alexandrie (Saint),196,,true,vol_11
+Clerselier (Claude),9,,false,vol_11
+Clerselier (Claude),10 n,,false,vol_11
+Clerselier (Claude),47 n,,false,vol_11
+Clerselier (Claude),77 n,,false,vol_11
+Clerselier (Claude),289 n,,false,vol_11
+Clerselier (Claude),348,,false,vol_11
+Clerselier (Claude),372,,false,vol_11
+Codurc (Philippe),148,,true,vol_11
+Codurc (Philippe),361,,false,vol_11
+Cohen (Gustave),79 n,,false,vol_11
+Cohen (Gustave),145 n,,false,vol_11
+"Collins (Arthur), historien",8 n,,false,vol_11
+Colomb (Christophe),423 n,,false,vol_11
+"Colomiès (Paul), historien",173 n,,false,vol_11
+Colvius (Andreas),104,,true,vol_11
+Comenius (Jean-Amos Komensky),35 sq.,,false,vol_11
+Comenius (Jean-Amos Komensky),159 n,,false,vol_11
+Comenius (Jean-Amos Komensky),206,,false,vol_11
+Comenius (Jean-Amos Komensky),242,,true,vol_11
+Comenius (Jean-Amos Komensky),243,,true,vol_11
+Comenius (Jean-Amos Komensky),245,,true,vol_11
+Comenius (Jean-Amos Komensky),308 n,,false,vol_11
+Comenius (Jean-Amos Komensky),398,,false,vol_11
+Comenius (Jean-Amos Komensky),405 n,,false,vol_11
+Comenius (Jean-Amos Komensky),408 n,,false,vol_11
+Comenius (Jean-Amos Komensky),419 n,,false,vol_11
+Comenius (Jean-Amos Komensky),420 n,,false,vol_11
+Comenius (Jean-Amos Komensky),422 n,,false,vol_11
+Comenius (Jean-Amos Komensky),424,,true,vol_11
+Comenius (Jean-Amos Komensky),427,,true,vol_11
+Comenius (Jean-Amos Komensky),435,,true,vol_11
+"Commelin, imprimeur à Leyde",2,,true,vol_11
+"Condé (Henri II, prince de)",362,,false,vol_11
+"Condren (le Père Charles de), gén. de l'Oratoire",14,,true,vol_11
+"Condren (le Père Charles de), gén. de l'Oratoire",294,,true,vol_11
+Conrart (Valentin),283,,false,vol_11
+Conselle (Louis),93 n et t,,true,vol_11
+Conselle (Louis),180,,true,vol_11
+Copernic (Nicolas),313,,false,vol_11
+Cornier (Robert),15,,false,vol_11
+"Cornu (?), arpenteur",84 n,,false,vol_11
+"Cornu (?), arpenteur",217,,true,vol_11
+Costabel (Pierre),32 n,,false,vol_11
+Costabel (Pierre),262 n,,false,vol_11
+Costabel (Pierre),457,,false,vol_11
+Costabel (Pierre),458,,false,vol_11
+"Coste (le P. Hilarion de), min.",288 n,,false,vol_11
+Cotin (Ch.),270,,false,vol_11
+"Courbé, libraire",283,,false,vol_11
+Courcelles (Étienne de),126 sq.,,false,vol_11
+Courcelles (Étienne de),160,,false,vol_11
+Courcelles (Étienne de),279,,false,vol_11
+"Cramoisy, libr.",37,,true,vol_11
+"Cramoisy, libr.",69 n,,false,vol_11
+"Cramoisy, libr.",379,,true,vol_11
+"Crellius (Jean), soc.",62,,true,vol_11
+"Crellius (Jean), soc.",110 n,,false,vol_11
+"Crellius (Jean), soc.",126,,false,vol_11
+"Crellius (Jean), soc.",148,,true,vol_11
+"Crellius (Jean), soc.",149 n,,false,vol_11
+"Crellius (Jean), soc.",162,,true,vol_11
+"Crellius (Jean), soc.",236 sq.,,true,vol_11
+"Crellius (Jean), soc.",241 n,,false,vol_11
+"Crellius (Jean), soc.",269,,false,vol_11
+"Crellius (Jean), soc.",279,,false,vol_11
+"Crellius (Jean), soc.",379,,true,vol_11
+Cromwell,245 n,,false,vol_11
+Curabelle (Jacques),431 n,,false,vol_11
+Dabillon (André),270,,false,vol_11
+Daillé (Jean) ministre à Charenton,108,,false,vol_11
+Daillé (Jean) ministre à Charenton,168,,false,vol_11
+Daillé (Jean) ministre à Charenton,234 n,,false,vol_11
+Daillé (Jean) ministre à Charenton,278 n,,false,vol_11
+Daillé (Jean) ministre à Charenton,297,,false,vol_11
+Daillé (Jean) ministre à Charenton,361 sq.,,false,vol_11
 Dal Pozzo (Cassiano),124 n,,false,vol_11
 Dal Pozzo (Cassiano),362,,false,vol_11
 Dal Pozzo (Cassiano),400 n,,false,vol_11
-Davies (H. Nevill),244 n,,false,vol_11
-Debusausse (Florimond),254 n,,false,vol_11
-Debusausse (Florimond),310,,false,vol_11
+Davies (H. Neville),413 n,,false,vol_11
+Debeaune (Florimond),254 n,,false,vol_11
+Debeaune (Florimond),310,,true,vol_11
 Dedron (Pierre),309 n,,false,vol_11
-De Geer (Louis),36 n et t,,false,vol_11
+De Geer (Louis),36 n et t,,true,vol_11
 De la Mare (Philibert),321,,false,vol_11
-De l’Ange (Maximilien),119,,false,vol_11
-De l’Ange (Maximilien),153,,false,vol_11
+De l'Ange (Maximilien),119,,false,vol_11
+De l'Ange (Maximilien),153,,true,vol_11
+Dematius,131 n,,false,vol_11
 Démocrite,73,,false,vol_11
-Démocrite,241,,false,vol_11
+Démocrite,241,,true,vol_11
 Démocrite,243,,false,vol_11
-Démocrite,275,,false,vol_11
-Denys l’Aréopagite (Saint),19,,false,vol_11
-Denys l’Aréopagite (Saint),38,,false,vol_11
-"Deodati (Jean), frère d’Élia",295,,false,vol_11
-De Prè (Abraham),172 n,,false,vol_11
-De Raei (Jean),372,,false,vol_11
+Démocrite,275,,true,vol_11
+Denys l'Aréopagite (Saint),19,,true,vol_11
+Denys l'Aréopagite (Saint),38,,true,vol_11
+Denys l'Aréopagite (Saint),359,,true,vol_11
+"Deodati (Jean), frère d'Élia",295,,false,vol_11
+De Pré (Abraham),172 n,,false,vol_11
+De Raci (Jean),372,,false,vol_11
 Desargues (Girard),80 n et t,,false,vol_11
-Desargues (Girard),305,,false,vol_11
-Desargues (Girard),334,,false,vol_11
-Desargues (Girard),375 n et t,,false,vol_11
-Desargues (Girard),424 n et t,,false,vol_11
+Desargues (Girard),305,,true,vol_11
+Desargues (Girard),334,,true,vol_11
+Desargues (Girard),375 n et t,,true,vol_11
+Desargues (Girard),424 n et t,,true,vol_11
 Desargues (Girard),431 sqq.,,false,vol_11
-Desargues (Girard),434,,false,vol_11
+Desargues (Girard),434,,true,vol_11
 Descartes (R.),9-16,,true,vol_11
 Descartes (R.),21 sq.,,true,vol_11
 Descartes (R.),23-25,,true,vol_11
@@ -5754,7 +5610,7 @@ Descartes (R.),28 sq.,,true,vol_11
 Descartes (R.),39 sq.,,true,vol_11
 Descartes (R.),45,,false,vol_11
 Descartes (R.),46 sq.,,true,vol_11
-Descartes (R.),51,,false,vol_11
+Descartes (R.),51,,true,vol_11
 Descartes (R.),58 n,,false,vol_11
 Descartes (R.),59 n,,false,vol_11
 Descartes (R.),60,,false,vol_11
@@ -5765,7 +5621,7 @@ Descartes (R.),84 n,,false,vol_11
 Descartes (R.),86 sq.,,true,vol_11
 Descartes (R.),88 n,,false,vol_11
 Descartes (R.),89 n,,false,vol_11
-Descartes (R.),97 sq.,,false,vol_11
+Descartes (R.),97 sq.,,true,vol_11
 Descartes (R.),100,,false,vol_11
 Descartes (R.),101 sq.,,false,vol_11
 Descartes (R.),104,,true,vol_11
@@ -5776,27 +5632,27 @@ Descartes (R.),130,,true,vol_11
 Descartes (R.),131 sq.,,true,vol_11
 Descartes (R.),140,,false,vol_11
 Descartes (R.),148 n,,false,vol_11
-Descartes (R.),150,,false,vol_11
+Descartes (R.),150,,true,vol_11
 Descartes (R.),151 sq.,,false,vol_11
 Descartes (R.),158 sq.,,true,vol_11
 Descartes (R.),161 sq.,,true,vol_11
 Descartes (R.),164 sq.,,false,vol_11
 Descartes (R.),171 sq.,,false,vol_11
-Descartes (R.),198,,true,vol_11
+Descartes (R.),198,,false,vol_11
 Descartes (R.),216,,true,vol_11
 Descartes (R.),233 sq.,,true,vol_11
 Descartes (R.),236,,false,vol_11
-Descartes (R.),241,,false,vol_11
+Descartes (R.),241,,true,vol_11
 Descartes (R.),243,,false,vol_11
 Descartes (R.),245 n,,false,vol_11
-Descartes (R.),247 sqq.,,true,vol_11
+Descartes (R.),247 sq.,,true,vol_11
 Descartes (R.),251 n,,false,vol_11
 Descartes (R.),253-255,,true,vol_11
 Descartes (R.),256-258,,true,vol_11
 Descartes (R.),269 n,,false,vol_11
 Descartes (R.),270,,false,vol_11
 Descartes (R.),286,,false,vol_11
-Descartes (R.),288 sq.,,true,vol_11
+Descartes (R.),288 sq.,,false,vol_11
 Descartes (R.),291 n sq.,,false,vol_11
 Descartes (R.),298-302,,true,vol_11
 Descartes (R.),303-306,,true,vol_11
@@ -5812,19 +5668,19 @@ Descartes (R.),416 n,,false,vol_11
 Descartes (R.),419,,true,vol_11
 Descartes (R.),420 n,,false,vol_11
 Descartes (R.),421,,true,vol_11
-Descartes (R.),424,,true,vol_11
-Descartes (R.),431 sq.,,true,vol_11
+Descartes (R.),423,,true,vol_11
+Descartes (R.),431 sq.,,false,vol_11
 Descartes (R.),435,,true,vol_11
 Descartes (R.),456,,false,vol_11
 Deschamps (Théod.),80-94,,true,vol_11
-Deschamps (Théod.),95 sq.,,true,vol_11
+Deschamps (Théod.),95 sq.,,false,vol_11
 Deschamps (Théod.),120-122,,true,vol_11
 Deschamps (Théod.),139-143,,true,vol_11
 Deschamps (Théod.),152,,false,vol_11
 Deschamps (Théod.),158 n,,false,vol_11
 Deschamps (Théod.),202-206,,true,vol_11
 Deschamps (Théod.),216 n,,false,vol_11
-Deschamps (Théod.),222 sq.,,true,vol_11
+Deschamps (Théod.),222 sq.,,false,vol_11
 Deschamps (Théod.),229-232,,true,vol_11
 Deschamps (Théod.),247-252,,true,vol_11
 Deschamps (Théod.),259,,false,vol_11
@@ -5837,127 +5693,349 @@ Deschamps (Théod.),383-390,,true,vol_11
 Deschamps (Théod.),391-393,,true,vol_11
 Deschamps (Théod.),407 n,,false,vol_11
 Deschamps (Théod.),410,,false,vol_11
-Deshommeaux (J.-Bapt. Massoyer),152,,false,vol_11
-Deshommeaux (J.-Bapt. Massoyer),198-201,,true,vol_11
-Deshommeaux (J.-Bapt. Massoyer),259-263,,true,vol_11
-Deshommeaux (J.-Bapt. Massoyer),353-356,,true,vol_11
+Deshommeaux (J.-Bapt. Masoyer),152,,false,vol_11
+Deshommeaux (J.-Bapt. Masoyer),198-201,,true,vol_11
+Deshommeaux (J.-Bapt. Masoyer),259-263,,true,vol_11
+Deshommeaux (J.-Bapt. Masoyer),353-356,,true,vol_11
 Des Maizeaux (Pierre),15,,false,vol_11
-Desmarets (Samuel),71,,false,vol_11
-Desmarets (Samuel),125,,false,vol_11
-Desmarets (Samuel),149,,false,vol_11
+Desmarets (Samuel),71,,true,vol_11
+Desmarets (Samuel),125,,true,vol_11
+Desmarets (Samuel),149,,true,vol_11
 Desmarets (Samuel),169,,false,vol_11
-Desmarets (Samuel),235,,false,vol_11
+Desmarets (Samuel),235,,true,vol_11
 Des Noyers (Pierre),435 n,,false,vol_11
-"Deson (Nicolas), ingénieur",435 n et t,,false,vol_11
+"Deson (Nicolas), ingénieur",435 n et t,,true,vol_11
 "Deson (Nicolas), ingénieur",458,,false,vol_11
-"Deville, prête-nomais",53,,false,vol_11
+"Deville, prêtre lyonnais",53,,false,vol_11
 De Vrijer (M. J. A.),79 n,,false,vol_11
-Febvrot (Annibal),33 n.,,false,vol_11
-Fégon (Guy),416 n.,,false,vol_11
-Féret (Pierre),72 n.,,false,vol_11
+De Waard (Cornelis),14,,false,vol_11
+De Waard (Cornelis),59 n,,false,vol_11
+De Waard (Cornelis),78 n,,false,vol_11
+De Waard (Cornelis),102,,false,vol_11
+De Waard (Cornelis),133 n,,false,vol_11
+De Waard (Cornelis),164 n,,false,vol_11
+De Waard (Cornelis),187,,false,vol_11
+De Waard (Cornelis),239 n,,false,vol_11
+De Waard (Cornelis),244 sq.,,false,vol_11
+De Waard (Cornelis),284,,false,vol_11
+De Waard (Cornelis),302,,false,vol_11
+De Waard (Cornelis),314,,false,vol_11
+De Waard (Cornelis),323,,false,vol_11
+De Waard (Cornelis),334,,false,vol_11
+De Waard (Cornelis),352,,false,vol_11
+De Waard (Cornelis),364 n,,false,vol_11
+De Waard (Cornelis),377,,false,vol_11
+De Waard (Cornelis),398,,false,vol_11
+De Waard (Cornelis),399 n,,false,vol_11
+De Waard (Cornelis),400,,false,vol_11
+De Waard (Cornelis),432 n,,false,vol_11
+Dibon (Paul),104 n,,false,vol_11
+Dibon (Paul),132 n,,false,vol_11
+Dibon (Paul),163 n,,false,vol_11
+Dibon (Paul),362,,false,vol_11
+Dibon (Paul),460,,false,vol_11
+Didot (Firmin),206 n,,false,vol_11
+Dieu (Louis de),242,,false,vol_11
+Digby (Sir Kenelm),7,,false,vol_11
+Digby (Sir Kenelm),12,,true,vol_11
+Digby (Sir Kenelm),14 sq.,,false,vol_11
+Digby (Sir Kenelm),22 n,,false,vol_11
+Digby (Sir Kenelm),151 n,,false,vol_11
+Digby (Sir Kenelm),299,,true,vol_11
+Digby (Sir Kenelm),306,,true,vol_11
+Digby (Sir Kenelm),456,,false,vol_11
+"Dinet (le Père Jacques), jés.",128,,false,vol_11
+"Dinet (le Père Jacques), jés.",162,,true,vol_11
+"Dinet (le Père Jacques), jés.",171,,false,vol_11
+"Dinet (le Père Jacques), jés.",256,,false,vol_11
+"Dinet (le Père Jacques), jés.",364 n,,false,vol_11
+Diophante,246,,false,vol_11
+Diophante,325 sq.,,true,vol_11
+Diserot (?),279,,true,vol_11
+Doni (Jean-Bapt.),123 sq.,,true,vol_11
+Doni (Jean-Bapt.),183 n,,false,vol_11
+Doni (Jean-Bapt.),405,,true,vol_11
+Doni (Jean-Bapt.),407 n,,false,vol_11
+Doni (Jean-Bapt.),412,,true,vol_11
+Doni (Jean-Bapt.),421,,true,vol_11
+Doni (Jean-Bapt.),422 n,,false,vol_11
+"Doni d'Attichy (Louis), év. de Riez",124 n,,false,vol_11
+Doujat (Jean),245 sq.,,false,vol_11
+Dounot (Didier),187,,false,vol_11
+Dounot (Didier),328,,true,vol_11
+Drelbel (Cornelis),408,,false,vol_11
+Drelincourt (Charles),40,,false,vol_11
+Dubarle (le P. Dominique),352,,false,vol_11
+Du Bosc (= Bosch),420,,true,vol_11
+Du Bosc (= Bosch),430,,true,vol_11
+Du Bosc (= Bosch),434,,false,vol_11
+Du Jon (François),295 n,,false,vol_11
+Dumanoir (Guill.),133 n,,false,vol_11
+Dumanoir (Guill.),239 n,,false,vol_11
+Dumanoir (Guill.),280 sq.,,true,vol_11
+Dumanoir (Guill.),345,,true,vol_11
+Dumas (J.-B.),16,,false,vol_11
+Dumay (Paul),321,,false,vol_11
+Du Moulin (Pierre),119,,false,vol_11
+Du Pont de Corlay,265,,true,vol_11
+Du Pont de Corlay,353,,true,vol_11
+Duprat (Abraham),171,,true,vol_11
+Duprat (Abraham),172 sq.,,false,vol_11
+Duprat (Abraham),278-279,,true,vol_11
+Duprat (Abraham),282,,false,vol_11
+Duprat (Pierre),172 sq.,,false,vol_11
+Dupuy (les frères),123,,true,vol_11
+Dupuy (les frères),160,,false,vol_11
+Dupuy (les frères),313,,false,vol_11
+Dupuy (les frères),321,,false,vol_11
+"Durelle (le P. Jean), min.",45-54,,true,vol_11
+"Durelle (le P. Jean), min.",73,,false,vol_11
+"Durelle (le P. Jean), min.",76 n,,false,vol_11
+"Durelle (le P. Jean), min.",78 n,,false,vol_11
+"Durelle (le P. Jean), min.",104 n,,false,vol_11
+"Durelle (le P. Jean), min.",131 n,,false,vol_11
+"Durelle (le P. Jean), min.",285-287,,true,vol_11
+"Durelle (le P. Jean), min.",408 n,,false,vol_11
+"Durelle (le P. Jean), min.",426 n,,false,vol_11
+"Durelle (le P. Jean), min.",428,,false,vol_11
+Dury (John),308 n,,false,vol_11
+Dury (John),397,,false,vol_11
+Du Verdus (Fr.),271,,false,vol_11
+Élisabeth de Bohême (reine mère),347,,true,vol_11
+"Elzévir, impr.",2,,false,vol_11
+"Elzévir, impr.",148,,true,vol_11
+"Elzévir, impr.",161 n,,false,vol_11
+"Elzévir, impr.",166,,false,vol_11
+"Elzévir, impr.",170,,true,vol_11
+"Elzévir, impr.",235,,true,vol_11
+"Elzévir, impr.",307 sq.,,false,vol_11
+"Elzévir, impr.",312,,false,vol_11
+"Elzévir, impr.",314,,false,vol_11
+"Elzévir, impr.",358 sq.,,false,vol_11
+Ennodius,285,,false,vol_11
+Enriques (Federigo),352 n,,false,vol_11
+Épictète,110,,true,vol_11
+Épictète,195,,false,vol_11
+Épicure,3,,false,vol_11
+Épicure,6,,false,vol_11
+Épicure,38,,false,vol_11
+Épicure,84,,false,vol_11
+Épicure,170 n,,false,vol_11
+Épicure,173,,false,vol_11
+Épicure,249 n,,false,vol_11
+Épicure,273,,true,vol_11
+Épicure,282 sqq.,,true,vol_11
+Épicure,421,,true,vol_11
+Espagnet (Étienne d'),80,,false,vol_11
+Espagnet (Étienne d'),310 n sq.,,false,vol_11
+Espagnet (Étienne d'),313 n,,false,vol_11
+Espagnet (Étienne d'),314,,false,vol_11
+"Estienne (Henri), impr.",110 n et t.,,false,vol_11
+Euclide,235,,false,vol_11
+Euclide,268,,false,vol_11
+Euclide,273,,false,vol_11
+Euskercken (Johan van),23 sq.,,false,vol_11
+Eutychius d'Alexandrie,360,,false,vol_11
+Evelyn (Sir John),14 sq.,,false,vol_11
+"Fabricius (Jean), socinien",26,,false,vol_11
+"Fabricius (Jean), socinien",38 n,,false,vol_11
+"Fabricius (Jean), socinien",61,,false,vol_11
+"Fabricius (Jean), socinien",163 n,,false,vol_11
+"Fabricius (Jean), socinien",194,,false,vol_11
+Fabrot (Annibal),3 n.,,false,vol_11
+Fagon (Guy),416 n.,,false,vol_11
+Feret (Pierre),72 n.,,false,vol_11
 Fermat (Pierre de),12 n,,false,vol_11
 Fermat (Pierre de),33 n,,false,vol_11
-Fermat (Pierre de),55-60,,true,vol_11
+Fermat (Pierre de),55-60,,false,vol_11
 Fermat (Pierre de),164 n,,false,vol_11
 Fermat (Pierre de),216 n,,false,vol_11
 Fermat (Pierre de),310,,false,vol_11
-Fermat (Pierre de),324 sq.,,false,vol_11
+Fermat (Pierre de),324 sq,,false,vol_11
 Fermat (Pierre de),332,,false,vol_11
-Fermat (Pierre de),333-344,,true,vol_11
+Fermat (Pierre de),333-344,,false,vol_11
 Ferrier (Jean),254 n.,,false,vol_11
 Ficin (Marsile),268 n.,,false,vol_11
 Fitzgibbon Young (R.),35,,false,vol_11
 Fitzgibbon Young (R.),242 n,,false,vol_11
+Fitzgibbon Young (R.),246 n.,,false,vol_11
 Fludd (Robert),173,,false,vol_11
 Fludd (Robert),282 n,,false,vol_11
 Fludd (Robert),285,,false,vol_11
 Fludd (Robert),408,,false,vol_11
-Fludd (Robert),419,,true,vol_11
+Fludd (Robert),419,,false,vol_11
 Fludd (Robert),420,,false,vol_11
-Fludd (Robert),425 sqq.,,true,vol_11
+Fludd (Robert),425 sqq.,,false,vol_11
 Fludd (Robert),428,,false,vol_11
-"Fontailles (Louis d’Astarac, vicomte de)",296,,false,vol_11
-"Forster, libr. polonais",69,,true,vol_11
-"Forster, libr. polonais",379,,true,vol_11
+"Fontrailles (Louis d'Astarac, vicomte de)",296,,false,vol_11
+"Forster, libr. polonais",69,,false,vol_11
+"Forster, libr. polonais",379,,false,vol_11
 Forton (Jacques),270,,false,vol_11
 Fournier (le P. Georges),22,,false,vol_11
 Fournier (le P. Georges),163 n,,false,vol_11
-Fournier (le P. Georges),379 n et t.,,true,vol_11
-Fracostoro (Jérôme),426,,true,vol_11
-Frénicle de Bessy (Bernard),216 n,,false,vol_11
-Frénicle de Bessy (Bernard),323,,false,vol_11
-Frénicle de Bessy (Bernard),334,,true,vol_11
-Galien,417,,true,vol_11
-Galilée,11 n,,false,vol_11
-Galilée,16,,false,vol_11
-Galilée,30,,false,vol_11
-Galilée,32 sq.,,true,vol_11
-Galilée,44,,true,vol_11
-Galilée,85 n,,false,vol_11
-Galilée,88,,true,vol_11
-Galilée,145 n,,false,vol_11
-Galilée,302,,false,vol_11
-Galilée,321 n,,false,vol_11
-Galilée,322 sq.,,false,vol_11
-Galilée,349 n,,false,vol_11
-Galilée,352,,false,vol_11
-Galilée,370 n,,false,vol_11
-Galilée,371,,false,vol_11
-Galilée,377,,false,vol_11
-Galilée,387,,true,vol_11
-Galilée,427 n,,false,vol_11
-Galilée,457,,false,vol_11
-Ganovius,26 sq.,,true,vol_11
+Fournier (le P. Georges),379 n et t.,,false,vol_11
+Fracastro (Jérôme),426,,false,vol_11
+Frenicle de Bessy (Bernard),216 n,,false,vol_11
+Frenicle de Bessy (Bernard),323,,false,vol_11
+Frenicle de Bessy (Bernard),334,,false,vol_11
+Galien,417,,false,vol_11
+Galilee,11 n,,false,vol_11
+Galilee,16,,false,vol_11
+Galilee,30,,false,vol_11
+Galilee,32 sq.,,false,vol_11
+Galilee,44,,false,vol_11
+Galilee,85 n,,false,vol_11
+Galilee,88,,false,vol_11
+Galilee,145 n,,false,vol_11
+Galilee,302,,false,vol_11
+Galilee,321 n,,false,vol_11
+Galilee,322 sq.,,false,vol_11
+Galilee,349 n,,false,vol_11
+Galilee,352,,false,vol_11
+Galilee,370 n,,false,vol_11
+Galilee,371,,false,vol_11
+Galilee,377,,false,vol_11
+Galilee,387,,false,vol_11
+Galilee,427 n,,false,vol_11
+Galilee,457,,false,vol_11
+Ganovius,26 sq.,,false,vol_11
 Gassend (Pierre),2 sq.,,false,vol_11
 Gassend (Pierre),38,,false,vol_11
 Gassend (Pierre),46 n,,false,vol_11
 Gassend (Pierre),48 n,,false,vol_11
-Gassend (Pierre),50,,true,vol_11
-Gassend (Pierre),66,,true,vol_11
-Gassend (Pierre),84,,true,vol_11
+Gassend (Pierre),50,,false,vol_11
+Gassend (Pierre),66,,false,vol_11
+Gassend (Pierre),84,,false,vol_11
 Gassend (Pierre),88 n,,false,vol_11
 Gassend (Pierre),90 n,,false,vol_11
 Gassend (Pierre),104,,false,vol_11
-Gassend (Pierre),123,,true,vol_11
-Gassend (Pierre),140,,true,vol_11
+Gassend (Pierre),123,,false,vol_11
+Gassend (Pierre),140,,false,vol_11
 Gassend (Pierre),161,,false,vol_11
 Gassend (Pierre),163 n,,false,vol_11
 Gassend (Pierre),165,,false,vol_11
-Gassend (Pierre),170-173,,true,vol_11
+Gassend (Pierre),170-173,,false,vol_11
 Gassend (Pierre),186 n,,false,vol_11
-Gassend (Pierre),225,,true,vol_11
+Gassend (Pierre),225,,false,vol_11
 Gassend (Pierre),237,,false,vol_11
 Gassend (Pierre),238,,false,vol_11
 Gassend (Pierre),240,,false,vol_11
 Gassend (Pierre),242 n,,false,vol_11
 Gassend (Pierre),249 n,,false,vol_11
-Gassend (Pierre),267-269,,true,vol_11
+Gassend (Pierre),267-269,,false,vol_11
 Gassend (Pierre),270 sq.,,false,vol_11
-Gassend (Pierre),274,,true,vol_11
+Gassend (Pierre),274,,false,vol_11
 Gassend (Pierre),278 n,,false,vol_11
 Gassend (Pierre),279,,false,vol_11
-Gassend (Pierre),282-284,,true,vol_11
+Gassend (Pierre),282-284,,false,vol_11
 Gassend (Pierre),286 n,,false,vol_11
 Gassend (Pierre),306 n,,false,vol_11
-Gassend (Pierre),316,,true,vol_11
+Gassend (Pierre),316,,false,vol_11
 Gassend (Pierre),321-323,,false,vol_11
-Gassend (Pierre),347,,true,vol_11
+Gassend (Pierre),347,,false,vol_11
 Gassend (Pierre),352 n,,false,vol_11
 Gassend (Pierre),376 sq.,,false,vol_11
 Gassend (Pierre),414,,false,vol_11
-Gassend (Pierre),420 sq.,,true,vol_11
+Gassend (Pierre),420 sq.,,false,vol_11
 Gassend (Pierre),426 n,,false,vol_11
-Gassend (Pierre),427,,true,vol_11
-Gassend (Pierre),434,,true,vol_11
-Gastines (le Sr de),346,,true,vol_11
+Gassend (Pierre),427,,false,vol_11
+Gassend (Pierre),434,,false,vol_11
+Gastines (le Sr de),346,,false,vol_11
 Gaudais (?),84 n.,,false,vol_11
-Gaulmin (Denis),267,,true,vol_11
-"Gaultier (J.), luthiste",182,,true,vol_11
+Gaulmin (Denis),267,,false,vol_11
+"Gaultier (J.), luthiste",182,,false,vol_11
+"Gaultier (Joseph), prieur de La Valette",321 sq.,,false,vol_11
+"Geoffroy (le P. J.-B.), jés.",413 n.,,false,vol_11
+Ghetaldi (Marin),314,,false,vol_11
+Ghetaldi (Marin),328,,false,vol_11
+"Gibieuf (le P. Guillaume), orat.",9,,false,vol_11
+Gilbert (William),323,,false,vol_11
+Gilbert de Cesena,185,,false,vol_11
+Glargues (Cornelis de),100,,false,vol_11
+Godwin (Francis),412,,false,vol_11
+Godwin (Francis),435 n.,,false,vol_11
+Gohier (P.),236 n.,,false,vol_11
+Golius (Jacobus),38 n,,false,vol_11
+Golius (Jacobus),101 n,,false,vol_11
+Golius (Jacobus),266 sq.,,false,vol_11
+Golius (Jacobus),269,,false,vol_11
+Golius (Jacobus),310 sq.,,false,vol_11
+Golius (Jacobus),314,,false,vol_11
+Golius (Jacobus),346 sq,,false,vol_11
+Gomboust (plan de),206 n.,,false,vol_11
+Gouÿ (Jacques de),417,,false,vol_11
+Grammont (le Maréchal de),167 n.,,false,vol_11
+"Grandamy (le P. Jacques), jés.",24 n.,,false,vol_11
+"Gras (Pierre), conservateur à Dijon",323 n.,,false,vol_11
+Graverol (François),171 n,,false,vol_11
+Graverol (François),283,,false,vol_11
+Grégoire le Grand (Saint),154,,false,vol_11
+Grégoire de Nazianze (Saint),39,,false,vol_11
+Grégoire de Nazianze (Saint),109,,false,vol_11
+Grégoire de Nazianze (Saint),154 n,,false,vol_11
+Grégoire de Nazianze (Saint),155,,false,vol_11
+Gregory (James),8 n.,,false,vol_11
+Grimaldi (Jérôme),287,,false,vol_11
+Grisard (J.),54 n,,false,vol_11
+Grisard (J.),309 n,,false,vol_11
+Grisard (J.),313 n.,,false,vol_11
+Grisio (le P. Salvatore),31,,false,vol_11
+Grmeck (le Dr),53,,false,vol_11
+Grotius (Hugo de Groot),3,,false,vol_11
+Grotius (Hugo de Groot),37,,false,vol_11
+Grotius (Hugo de Groot),40,,false,vol_11
+Grotius (Hugo de Groot),62 sq. (Legatus),,false,vol_11
+Grotius (Hugo de Groot),63 n,,false,vol_11
+Grotius (Hugo de Groot),66,,false,vol_11
+Grotius (Hugo de Groot),70 n,,false,vol_11
+Grotius (Hugo de Groot),71 sq.,,false,vol_11
+Grotius (Hugo de Groot),105 sq.,,false,vol_11
+Grotius (Hugo de Groot),107 n,,false,vol_11
+Grotius (Hugo de Groot),110,,false,vol_11
+Grotius (Hugo de Groot),112,,false,vol_11
+Grotius (Hugo de Groot),116,,false,vol_11
+Grotius (Hugo de Groot),119,,false,vol_11
+Grotius (Hugo de Groot),125,,false,vol_11
+Grotius (Hugo de Groot),126 (le Légat),,false,vol_11
+Grotius (Hugo de Groot),137,,false,vol_11
+Grotius (Hugo de Groot),144 sq.,,false,vol_11
+Grotius (Hugo de Groot),146 sq.,,false,vol_11
+Grotius (Hugo de Groot),149,,false,vol_11
+Grotius (Hugo de Groot),150,,false,vol_11
+Grotius (Hugo de Groot),153,,false,vol_11
+Grotius (Hugo de Groot),156,,false,vol_11
+Grotius (Hugo de Groot),163,,false,vol_11
+Grotius (Hugo de Groot),166,,false,vol_11
+Grotius (Hugo de Groot),168,,false,vol_11
+Grotius (Hugo de Groot),169,,false,vol_11
+Grotius (Hugo de Groot),196,,false,vol_11
+Grotius (Hugo de Groot),222 n,,false,vol_11
+Grotius (Hugo de Groot),235,,false,vol_11
+Grotius (Hugo de Groot),279,,false,vol_11
+Grotius (Hugo de Groot),293,,false,vol_11
+Grotius (Hugo de Groot),297,,false,vol_11
+Grotius (Hugo de Groot),357 n,,false,vol_11
+Grotius (Hugo de Groot),360 sqq.,,false,vol_11
+Grotius (Hugo de Groot),362 (Légat),,false,vol_11
+Grotius (Hugo de Groot),379 sq.,,false,vol_11
+Grotius (Hugo de Groot),381,,false,vol_11
+Gruterus (Jean),416,,false,vol_11
+Gruterus (Jean),422,,false,vol_11
+Guiraud (Claude),80 n et t,,false,vol_11
+Guiraud (Claude),139 n et t,,false,vol_11
+Guiraud (Claude),249 n et t,,false,vol_11
+Guiraud (Claude),386 n.,,false,vol_11
+Gusdorf (G.),4 n,,false,vol_11
+Gusdorf (G.),20,,false,vol_11
+Gusdorf (G.),64 n,,false,vol_11
+Gusdorf (G.),145 n,,false,vol_11
+Gusdorf (G.),284,,false,vol_11
 Haak (Théod.),89 n,,false,vol_11
 Haak (Théod.),231 n,,false,vol_11
 Haak (Théod.),307,,false,vol_11
-Haak (Théod.),397-400,,true,vol_11
-Haak (Théod.),403-436,,true,vol_11
+Haak (Théod.),397-400,,false,vol_11
+Haak (Théod.),et le Suppl.,,false,vol_11
+Haak (Théod.),403-436,,false,vol_11
 Haak (Théod.),456,,false,vol_11
 Habert (Isaac),72 n et t,,false,vol_11
 Habert (Isaac),117 n sq.,,false,vol_11
@@ -5966,630 +6044,16 @@ Halliwell (James Orchard),42 sq.,,false,vol_11
 Halliwell (James Orchard),254 n,,false,vol_11
 Halliwell (James Orchard),308 n sq.,,false,vol_11
 Halliwell (James Orchard),323 n.,,false,vol_11
-Hardy (Claude),33,,true,vol_11
-Hardy (Claude),267,,true,vol_11
+Hardy (Claude),33,,false,vol_11
+Hardy (Claude),267,,false,vol_11
 Hardy (Claude),324,,false,vol_11
 Hardy (Sébastien),158 n.,,false,vol_11
-Harrisson (Thomas),415,,true,vol_11
-Harrisson (Thomas),418,,true,vol_11
-Harvey (William),241,,true,vol_11
-Heereboord (Adrien),104,,false,vol_11
-Heereboord (Adrien),242,,false,vol_11
+Harrisson (Thomas),415,,false,vol_11
+Harrisson (Thomas),418,,false,vol_11
+Harvey (William),241,,false,vol_11
+Heerebord (Adrien),104,,false,vol_11
+Heerebord (Adrien),242,,false,vol_11
 Heidanus (Abraham),242,,false,vol_11
-Hensius (Daniel),240,,true,vol_11
-Hensius (Daniel),283 n,,false,vol_11
-Hensius (Daniel),380,,true,vol_11
-Hevelius,338 n,,false,vol_11
-Heylberger (Anna),242 n,,false,vol_11
-Hiérocles,110,,true,vol_11
-Hiérocles,111,,true,vol_11
-Hiérocles,195,,true,vol_11
-Hiéron de Syracuse,327,,true,vol_11
-Hiiduin,236 n,,false,vol_11
-Hippocrate,200,,true,vol_11
-Hippocrate,273,,true,vol_11
-Hippocrate,417 n,,false,vol_11
-Hobbes (Thomas),8,,true,vol_11
-Hobbes (Thomas),22,,true,vol_11
-Hobbes (Thomas),46 n,,false,vol_11
-Hobbes (Thomas),77,,true,vol_11
-Hobbes (Thomas),151 sqq.,,true,vol_11
-Hobbes (Thomas),161,,true,vol_11
-Hobbes (Thomas),172,,true,vol_11
-Hobbes (Thomas),254 n,,false,vol_11
-Hobbes (Thomas),259,,true,vol_11
-Hobbes (Thomas),264 n et t,,false,vol_11
-Hobbes (Thomas),270 sqq.,,true,vol_11
-Hobbes (Thomas),296,,true,vol_11
-Hobbes (Thomas),334 n,,false,vol_11
-Hobbes (Thomas),365 n,,false,vol_11
-Hobbes (Thomas),404,,true,vol_11
-Hobbes (Thomas),417 n,,false,vol_11
-Hobbes (Thomas),427 n,,false,vol_11
-Hoefer (le Dr),206 n,,false,vol_11
-Hoffmann (le Prof.),314,,true,vol_11
-"Holstenius, bibliothèque de la Vaticane",428,,true,vol_11
-Holwarda (Jean),115,,true,vol_11
-Homère,66,,true,vol_11
-Homère,273,,true,vol_11
-Homère,341 n,,false,vol_11
-Hooft (Pierre C.),97 n,,false,vol_11
-Hooghelande (Cornelis van),21,,true,vol_11
-Hooghelande (Cornelis van),104,,true,vol_11
-Hooghelande (Cornelis van),241,,true,vol_11
-Hooghelande (Cornelis van),372,,true,vol_11
-Hooke (Robert),246 n,,false,vol_11
-Hubault (Pierre),407,,true,vol_11
-Huebner (Joachim) = Fundanius,35,,true,vol_11
-Huebner (Joachim) = Fundanius,231 n,,false,vol_11
-Huebner (Joachim) = Fundanius,245 (?) sqq.,,true,vol_11
-Huebner (Joachim) = Fundanius,307,,true,vol_11
-Huebner (Joachim) = Fundanius,397,,true,vol_11
-Huebner (Joachim) = Fundanius,400,,true,vol_11
-Huebner (Joachim) = Fundanius,426 n,,false,vol_11
-Huebner (Joachim) = Fundanius,pour 425 l. 2,,false,vol_11
-Humbert (Pierre),432 n,,false,vol_11
-Hume (James),312,,true,vol_11
-Hume (James),314,,true,vol_11
-Huss (Jean),47 n,,false,vol_11
-Hutton (Godefroid),35,,true,vol_11
-Huygens (Christiaan),8 n,,false,vol_11
-Huygens (Christiaan),15,,true,vol_11
-Huygens van Zuylichem (Constantin),3,,true,vol_11
-Huygens van Zuylichem (Constantin),5,,true,vol_11
-Huygens van Zuylichem (Constantin),9,,true,vol_11
-Huygens van Zuylichem (Constantin),10,,true,vol_11
-Huygens van Zuylichem (Constantin),15,,true,vol_11
-Huygens van Zuylichem (Constantin),17 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),21 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),23-25,,true,vol_11
-Huygens van Zuylichem (Constantin),28 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),39,,true,vol_11
-Huygens van Zuylichem (Constantin),44,,true,vol_11
-Huygens van Zuylichem (Constantin),49 n,,false,vol_11
-Huygens van Zuylichem (Constantin),71 n,,false,vol_11
-Huygens van Zuylichem (Constantin),76 sq.,,true,vol_11
-Huygens van Zuylichem (Constantin),78 sq.,,true,vol_11
-Huygens van Zuylichem (Constantin),98 n,,false,vol_11
-Huygens van Zuylichem (Constantin),99-103,,true,vol_11
-Huygens van Zuylichem (Constantin),116,,true,vol_11
-Huygens van Zuylichem (Constantin),118,,true,vol_11
-Huygens van Zuylichem (Constantin),128 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),130,,true,vol_11
-Huygens van Zuylichem (Constantin),131 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),133 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),146,,true,vol_11
-Huygens van Zuylichem (Constantin),151,,true,vol_11
-Huygens van Zuylichem (Constantin),153,,true,vol_11
-Huygens van Zuylichem (Constantin),158 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),167,,true,vol_11
-Huygens van Zuylichem (Constantin),226 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),239,,true,vol_11
-Huygens van Zuylichem (Constantin),242 n,,false,vol_11
-Huygens van Zuylichem (Constantin),257 n,,false,vol_11
-Huygens van Zuylichem (Constantin),280 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),288 sqq.,,true,vol_11
-Huygens van Zuylichem (Constantin),295,,true,vol_11
-Huygens van Zuylichem (Constantin),297 n,,false,vol_11
-Huygens van Zuylichem (Constantin),308 n,,false,vol_11
-Huygens van Zuylichem (Constantin),321 n,,false,vol_11
-Huygens van Zuylichem (Constantin),345,,true,vol_11
-Huygens van Zuylichem (Constantin),361 n,,false,vol_11
-Huygens van Zuylichem (Constantin),377,,true,vol_11
-Huygens van Zuylichem (Constantin),403 n,,false,vol_11
-Huygens van Zuylichem (Constantin),422,,true,vol_11
-Huygens van Zuylichem (Constantin),423 n,,false,vol_11
-Lavoisier,260 n.,,true,vol_11
-Le Blond (Michel),280,,true,vol_11
-"Le Cazre (le P. Pierre), jés., card.",313,,true,vol_11
-Leibniz (G. W.),252 n.,,true,vol_11
-Leibniz (G. W.),432 n.,,true,vol_11
-Le Jay (le P. Guy-Michel),264 sq.,,true,vol_11
-"Le Maire (Jean), ingénieur",182,,true,vol_11
-"Le Maire (Jean), ingénieur",203,,true,vol_11
-"Le Maire (Jean), ingénieur",206,,true,vol_11
-"Le Maire (Jean), ingénieur",401,,true,vol_11
-"Le Maire (Jean), ingénieur",407 sq.,,true,vol_11
-"Le Maire (Jean), ingénieur",410,,true,vol_11
-"Le Maire (Jean), ingénieur",412,,true,vol_11
-"Le Maire (Jean), ingénieur",417,,true,vol_11
-"Le Maire (Jean), ingénieur",420,,true,vol_11
-"Le Maire (Jean), ingénieur",421,,true,vol_11
-"Le Maire (Jean), ingénieur",422,,true,vol_11
-Lenoble (Robert),4 n.,,true,vol_11
-Lenoble (Robert),20,,true,vol_11
-Lenoble (Robert),50 n.,,true,vol_11
-Lenoble (Robert),71,,true,vol_11
-Lenoble (Robert),122 n.,,true,vol_11
-Lenoble (Robert),154 n.,,true,vol_11
-Lenoble (Robert),168 n.,,true,vol_11
-Lenoble (Robert),198,,true,vol_11
-Lenoble (Robert),284 n.,,true,vol_11
-Lenoble (Robert),293 n.,,true,vol_11
-Lenoble (Robert),359 n.,,true,vol_11
-Lenoble (Robert),377,,true,vol_11
-Lenoble (Robert),432 n.,,true,vol_11
-"Léon VI le Sage, empereur d’Orient",2 n.,,true,vol_11
-Le Tenneur (Jacq. Alex.),31,,true,vol_11
-Le Tenneur (Jacq. Alex.),411 n et t,,true,vol_11
-Le Tenneur (Jacq. Alex.),420,,true,vol_11
-Le Tenneur (Jacq. Alex.),424,,true,vol_11
-"L’Hôpital (Guill., marquis de)",15,,true,vol_11
-Libri (Guill.),313 sq.,,true,vol_11
-Liceti (Fortunio),185,,true,vol_11
-Littré (Émile),260 n.,,true,vol_11
-Littré (Émile),276 n.,,true,vol_11
-"Longomontanus (Christ. Severin, dit)",142,,true,vol_11
-Loria (Gino),246,,true,vol_11
-Louis XIII,192 n.,,true,vol_11
-Louis XIV,245 n.,,true,vol_11
-Luc (Saint),177,,true,vol_11
-Lucrèce,229,,true,vol_11
-Lucrèce,274 n.,,true,vol_11
-Lucrèce,290,,true,vol_11
-Lucrèce,292 n.,,true,vol_11
-Lullier (François),6,,true,vol_11
-Lullier (François),77,,true,vol_11
-Lullier (François),283,,true,vol_11
-Lullier (François),286 n.,,true,vol_11
-Lullier (François),321 n.,,true,vol_11
-Lulli (Jean-Bapt. de),280 n.,,true,vol_11
-Lumbroso,362 n.,,true,vol_11
-"Lydiat (Thomas), math. anglais",142,,true,vol_11
-"Maire (Jean), libr. à Leyde",161,,true,vol_11
-"Maire (Jean), libr. à Leyde",301,,true,vol_11
-"Maire (Jean), libr. à Leyde",374 n.,,true,vol_11
-Mamoury ?,,Dumanoir,false,vol_11
-Marandé (Léonard de),270,,true,vol_11
-Marandé (Léonard de),412 n.,,true,vol_11
-Marc (Saint),177,,true,vol_11
-Marc-Aurèle,113,,true,vol_11
-Marek (J.),406,,true,vol_11
-Martel (Thomas de),151 n.,,true,vol_11
-Martel (Thomas de),173,,true,vol_11
-Martel (Thomas de),271 n.,,true,vol_11
-Martel (Thomas de),278 sq.,,true,vol_11
-"Martial, poète latin",226 n.,,true,vol_11
-Martianus Capella,222,,true,vol_11
-Martin ?,279,,true,vol_11
-Martini (Magda),195 n.,,true,vol_11
-Matthieu (Saint),177,,true,vol_11
-Matthieu (Saint),178,,true,vol_11
-Matthieu (Saint),182,,true,vol_11
-Matthieu (Saint),214,,true,vol_11
-"Milhaud (G.), éd. des Lettres de D.",15 n.,,true,vol_11
-"Milhaud (G.), éd. des Lettres de D.",79 n.,,true,vol_11
-"Milhaud (G.), éd. des Lettres de D.",375 n.,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",3,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",106,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",119,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",137,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",149 n.,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",167 n.,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",168 sq.,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",226 n.,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",236,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",270 n.,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",297,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",357,,true,vol_11
-"Milletière (Théophile Brachet, sr de la)",361,,true,vol_11
-"Monconys (Balth., de)",8 n.,,true,vol_11
-"Monod (le P.), jés.",286,,true,vol_11
-Monseigny (A.-M.),417 n.,,true,vol_11
-Montmaur (Pierre de),117,,true,vol_11
-Montmaur (Pierre de),147,,true,vol_11
-"Montmor (Henri-Louis Habert, sr de)",117,,true,vol_11
-"Montmor (Henri-Louis Habert, sr de)",147,,true,vol_11
-Moreau (René),185,,true,vol_11
-Morian (Johannes),308,,true,vol_11
-Morian (Johannes),311,,true,vol_11
-Morian (Johannes),401,,true,vol_11
-Morian (Johannes),420,,true,vol_11
-Morian (Johannes),424 sq.,,true,vol_11
-"Morin (Jean-Bapt.), éd.",88 n.,,true,vol_11
-"Morin (Jean-Bapt.), éd.",173 n.,,true,vol_11
-"Morin (Jean-Bapt.), éd.",270,,true,vol_11
-"Morin (Jean-Bapt.), éd.",321 sq.,,true,vol_11
-"Morin (Jean-Bapt.), éd.",334 n.,,true,vol_11
-"Morin (Jean-Bapt.), éd.",414 n et t,,true,vol_11
-"Morin (Jean-Bapt.), éd.",460,,true,vol_11
-Morin (le P. Jean),360 n.,,true,vol_11
-Morlaix (le P. Joseph de),200 sq.,,true,vol_11
-Moscovici (Serge),459,,true,vol_11
-Mydorge (Claude),334,,true,vol_11
-"Nassau (Fréd.-Guill., prince de)",17,,true,vol_11
-"Nassau (Fréd.-Guill., prince de)",71 n.,,true,vol_11
-Naudé (Gabriel),32,,true,vol_11
-Naudé (Gabriel),123 sq.,,true,vol_11
-Naudé (Gabriel),145 n.,,true,vol_11
-Naudé (Gabriel),185 sq.,,true,vol_11
-Naudé (Gabriel),426 n.,,true,vol_11
-Neper (John),42 n.,,true,vol_11
-Niceron (le P. Jean-François),30-34,,true,vol_11
-Niceron (le P. Jean-François),55,,true,vol_11
-Niceron (le P. Jean-François),99 n.,,true,vol_11
-Occam (Guill. d’),268,,true,vol_11
-Occam (Guill. d’),271,,true,vol_11
-"Orange (Fréd.-Henri, prince d’)",71 n.,,true,vol_11
-"Orange (Fréd.-Henri, prince d’)",299,,true,vol_11
-"Orange (Fréd.-Henri, prince d’)",347,,true,vol_11
-Oughtred (William),422,,true,vol_11
-Oughtred (William),310,,true,vol_11
-Ozanam (Jacques),324,,true,vol_11
-Panckoucke (dict),163 n.,,false,vol_11
-Pandallet (B.),183 n.,,false,vol_11
-Pappus,262 n.,,false,vol_11
-Paquot,115 n.,,false,vol_11
-"Paraman (le P.), jés.",220,,false,vol_11
-Paracelse,354 n.,,false,vol_11
-Parkinson (John),416 n et t.,,false,vol_11
-Pascal (Blaise),271,,false,vol_11
-Pascal (Blaise),400,,false,vol_11
-Pascal (Blaise),403,,false,vol_11
-Pascal (Blaise),405,,false,vol_11
-Pascal (Étienne et Gilberte),432,,false,vol_11
-Patin (Guy),161,,false,vol_11
-Patin (Guy),186,,false,vol_11
-Patin (Guy),362 n.,,false,vol_11
-Patin (Guy),427 n.,,false,vol_11
-Paul (Saint),5,,false,vol_11
-Paul (Saint),64,,false,vol_11
-Paul (Saint),110,,false,vol_11
-Paul (Saint),111,,false,vol_11
-Paul (Saint),112,,false,vol_11
-Paul (Saint),177,,false,vol_11
-Paul (Saint),195 sq.,,false,vol_11
-Paul (Saint),430 n et t.,,false,vol_11
-Paul de Samosate,107,,false,vol_11
-Paul de Samosate,116,,false,vol_11
-Paul de Samosate,380 n.,,false,vol_11
-"Payen, méd. à Aix",173,,false,vol_11
-Pecquet (Jean),52,,false,vol_11
-Pecquet (Jean),173 n.,,false,vol_11
-Pecquet (Jean),278,,false,vol_11
-Peiresc (Nic. Fabri de),3,,false,vol_11
-Peiresc (Nic. Fabri de),6,,false,vol_11
-Peiresc (Nic. Fabri de),77 n.,,false,vol_11
-Peiresc (Nic. Fabri de),313,,false,vol_11
-Peiresc (Nic. Fabri de),421,,false,vol_11
-Peiresc (Nic. Fabri de),431,,false,vol_11
-"Pélage, hérésiarque",75,,false,vol_11
-"Pelle, libr.",294,,false,vol_11
-"Pelle, libr.",358,,false,vol_11
-Pell (John),7,,false,vol_11
-Pell (John),42 sq.,,false,vol_11
-Pell (John),244-246,,false,vol_11
-Pell (John),254 n.,,false,vol_11
-Pell (John),307-314,,false,vol_11
-Pell (John),397,,false,vol_11
-Pell (John),403,,false,vol_11
-Pell (John),408,,false,vol_11
-Pell (John),411,,false,vol_11
-Pell (John),414,,false,vol_11
-Pell (John),418,,false,vol_11
-Pell (John),420,,false,vol_11
-Pell (John),429,,false,vol_11
-Pell (John),435 sq.,,false,vol_11
-Petit (Pierre),24 n.,,false,vol_11
-Petit (Pierre),87 n.,,false,vol_11
-Petit (Pierre),164,,false,vol_11
-Petit (Pierre),172,,false,vol_11
-Petit (Pierre),231 n.,,false,vol_11
-Petit (Pierre),247 n.,,false,vol_11
-Petit (Pierre),249 n.,,false,vol_11
-Petit (Pierre),323,,false,vol_11
-Petit (Pierre),386 n et t.,,false,vol_11
-Petit (Samuel),105 sq.,,false,vol_11
-Petit (Samuel),126 n.,,false,vol_11
-Petit (Samuel),137,,false,vol_11
-Petit (Samuel),148 n.,,false,vol_11
-"Phelippeau (le P.), jés.",116,,false,vol_11
-"Phelippeau (le P.), jés.",295,,false,vol_11
-Picot (Claude),241,,false,vol_11
-Picot (Claude),351,,false,vol_11
-Picot (Claude),368,,false,vol_11
-Pineau (André),236 n.,,false,vol_11
-Pintard (René),4 n.,,false,vol_11
-Pintard (René),20,,false,vol_11
-Pintard (René),62 n.,,false,vol_11
-Pintard (René),64 n.,,false,vol_11
-Pintard (René),105 n.,,false,vol_11
-Pintard (René),106 n.,,false,vol_11
-Pintard (René),126 n.,,false,vol_11
-Pintard (René),145 n.,,false,vol_11
-Pintard (René),161,,false,vol_11
-Pintard (René),170 n sq.,,false,vol_11
-Pintard (René),173,,false,vol_11
-Pintard (René),270,,false,vol_11
-Pintard (René),271 n.,,false,vol_11
-Pintard (René),278 n.,,false,vol_11
-Pintard (René),284,,false,vol_11
-Pioli (Giovanni),105 n.,,false,vol_11
-Piveteau (Pierre),32 n.,,false,vol_11
-Platon,48,,false,vol_11
-Platon,67,,false,vol_11
-Platon,110,,false,vol_11
-Platon,200,,false,vol_11
-Platon,375,,false,vol_11
-Platon,411,,false,vol_11
-Plattes (Gabriel),418,,false,vol_11
-Plattes (Gabriel),435 n.,,false,vol_11
-Plaute,63,,false,vol_11
-Plaute,361 n.,,false,vol_11
-Pline,312,,false,vol_11
-Pline,409,,false,vol_11
-Plotin,199,,false,vol_11
-Plotin,268,,false,vol_11
-Plutarque,86,,false,vol_11
-Plutarque,223,,false,vol_11
-Politien (Ange),195 n.,,false,vol_11
-Popkin (Richard),144,,false,vol_11
-Popkin (Richard),400 n.,,false,vol_11
-Porphyre,110,,false,vol_11
-Quintin (José),207,,false,vol_11
-Ramus (J. H.),246,,false,vol_11
-Raue (Christian),140,,false,vol_11
-Ravensperger,163 n.,,false,vol_11
-"Raynaud (le P., Théophile), jés.",286,,false,vol_11
-Reeves (John),8,,false,vol_11
-Reeves (John),42 sq.,,false,vol_11
-Reeves (John),253 n.,,false,vol_11
-"Regius (Henri de Roy, dit)",77,,false,vol_11
-"Regius (Henri de Roy, dit)",78,,false,vol_11
-"Regius (Henri de Roy, dit)",100,,false,vol_11
-"Regius (Henri de Roy, dit)",101 n.,,false,vol_11
-"Regius (Henri de Roy, dit)",162,,false,vol_11
-"Regius (Henri de Roy, dit)",241,,false,vol_11
-"Regius (Henri de Roy, dit)",267,,false,vol_11
-"Regius (Henri de Roy, dit)",283 sq.,,false,vol_11
-Rémusat (Charles de),22 n.,,false,vol_11
-Renaud (David),126 n.,,false,vol_11
-Renaudot (Eusèbe),360 n.,,false,vol_11
-"Renneri (Henri Réginer, dit)",233,,false,vol_11
-"Renneri (Henri Réginer, dit)",300 n.,,false,vol_11
-Rey (Jean),16,,false,vol_11
-Rey (Jean),318 n.,,false,vol_11
-Rey (Jean),368 n.,,false,vol_11
-Rey (Jean),370 n.,,false,vol_11
-Rey (Jean),383,,false,vol_11
-Rey (Jean),409,,false,vol_11
-Ricci (Michelangelo),352 n.,,false,vol_11
-Riccioni (Giov. Bapt.),324,,false,vol_11
-Richelieu (le card. Armand de),113,,false,vol_11
-Richelieu (le card. Armand de),138,,false,vol_11
-Richelieu (le card. Armand de),148,,false,vol_11
-Richelieu (le card. Armand de),169,,false,vol_11
-Richelieu (le card. Armand de),201 n.,,false,vol_11
-Richelieu (le card. Armand de),245 sq.,,false,vol_11
-Richelieu (le card. Armand de),286 n.,,false,vol_11
-Richelieu (le card. Armand de),361 sq.,,false,vol_11
-Rimbault (L.),106 n.,,false,vol_11
-Riolan (Frédéric),12 n.,,false,vol_11
-Riolan (Frédéric),140 n.,,false,vol_11
-Rivaud (Albert),262 n.,,false,vol_11
-Rivaud (Albert),271,,false,vol_11
-Rivault de Fleurance (David),332,,false,vol_11
-Rivet (André),1-6,,false,vol_11
-Rivet (André),19 sq.,,false,vol_11
-Rivet (André),37-41,,false,vol_11
-Rivet (André),64 n.,,false,vol_11
-Rivet (André),70-72,,false,vol_11
-Rivet (André),101,,false,vol_11
-Rivet (André),105 sq.,,false,vol_11
-Rivet (André),110 n.,,false,vol_11
-Rivet (André),116-119,,false,vol_11
-Rivet (André),125-127,,false,vol_11
-Rivet (André),132,,false,vol_11
-Rivet (André),135,,false,vol_11
-Rivet (André),136-138,,false,vol_11
-Rivet (André),146-152,,false,vol_11
-Rivet (André),153,,false,vol_11
-Rivet (André),160,,false,vol_11
-Rivet (André),163,,false,vol_11
-Rivet (André),166-169,,false,vol_11
-Rivet (André),196,,false,vol_11
-Rivet (André),226 sq.,,false,vol_11
-Rivet (André),233-237,,false,vol_11
-Rivet (André),240,,false,vol_11
-Rivet (André),267 n.,,false,vol_11
-Rivet (André),269 n.,,false,vol_11
-Rivet (André),279,,false,vol_11
-Rivet (André),283,,false,vol_11
-Rivet (André),293-297,,false,vol_11
-Rivet (André),299 sq.,,false,vol_11
-Rivet (André),357-362,,false,vol_11
-Rivet (André),375 n.,,false,vol_11
-Rivet (André),412 n.,,false,vol_11
-Rivet (André),419 n.,,false,vol_11
-Rivet (Claude),70,,false,vol_11
-Rivet (Claude),147,,false,vol_11
-Rivet (Claude),297,,false,vol_11
-"Rivet (Guill.), min. à Taillebourg",136 n.,,false,vol_11
-Rivet (Guillaume Louis),71 n.,,false,vol_11
-Rivet (Pierre),280,,false,vol_11
-Sacrobosco (Jean de),142,,true,vol_11
-Salverda de Grave,145 n,,false,vol_11
-Saint-Paul (Mme de),204 sq.,,true,vol_11
-"Sainte-Croix (A. Jumeau, prieur de)",73,,true,vol_11
-Sainte-Vitu (Gilles de),207-209,,true,vol_11
-Salinas (Francisco),208 n,,false,vol_11
-Sallengre (Albert Henri de),117 n,,false,vol_11
-"Salm (Fréd., comte de), le Rhingrave",240,,true,vol_11
-"Salm (Fréd., comte de), le Rhingrave",279,,true,vol_11
-Santra (personnage de Martial),226,,true,vol_11
-Sarrau (Claude),6,,true,vol_11
-Sarrau (Claude),49 sq.,,true,vol_11
-Sarrau (Claude),105 sq.,,true,vol_11
-Sarrau (Claude),116,,true,vol_11
-Sarrau (Claude),118,,true,vol_11
-Sarrau (Claude),125-127,,true,vol_11
-Sarrau (Claude),136-138,,true,vol_11
-Sarrau (Claude),147 n,,false,vol_11
-Sarrau (Claude),148,,true,vol_11
-Sarrau (Claude),153,,true,vol_11
-Sarrau (Claude),157,,true,vol_11
-Sarrau (Claude),361,,true,vol_11
-Saumaise (Claude de),39,,true,vol_11
-Saumaise (Claude de),71,,true,vol_11
-Saumaise (Claude de),113,,true,vol_11
-Saumaise (Claude de),137,,true,vol_11
-Saumaise (Claude de),148,,true,vol_11
-Saumaise (Claude de),150,,true,vol_11
-Saumaise (Claude de),153,,true,vol_11
-Saumaise (Claude de),157,,true,vol_11
-Saumaise (Claude de),235,,true,vol_11
-Saumaise (Claude de),360,,true,vol_11
-Saumaise (Claude de),362,,true,vol_11
-Schlichting (Jean),38 n,,false,vol_11
-Schlichting (Jean),154 sq.,,true,vol_11
-Schlichting (Jean),163 n,,false,vol_11
-Schookius (Martin),102,,true,vol_11
-Schookius (Martin),131 n sq.,,false,vol_11
-Schookius (Martin),364 n,,false,vol_11
-Schookius (Martin),373 n,,false,vol_11
-Schotel (G. D. J.),185,,true,vol_11
-Schott (Caspar),115 n,,false,vol_11
-Séguier (Pierre),3 n,,false,vol_11
-Séguier (Pierre),4,,true,vol_11
-Séguier (Pierre),333,,true,vol_11
-Selden (Jean),360,,true,vol_11
-Selden (Jean),416,,true,vol_11
-Selden (Jean),435,,true,vol_11
-Senaut (le P. Jean-François),2,,true,vol_11
-Senevas (Haroud de),245,,true,vol_11
-Serrat (?),260,,true,vol_11
-Servet (Michel),119,,true,vol_11
-Settala (Ludovico),250,,true,vol_11
-Shelton (Th.),418 n,,false,vol_11
-Talmond (le prince de),227,,true,vol_11
-Tammer (Mistress R. C. H.),311 n,,false,vol_11
-Tannery (Paul),48 n,,false,vol_11
-Tannery (Paul),54,,true,vol_11
-Tannery (Paul),55 et n,,false,vol_11
-Tannery (Paul),77 n,,false,vol_11
-Tannery (Paul),101 sq.,,true,vol_11
-Tannery (Paul),164 n,,false,vol_11
-Tannery (Paul),217 n,,false,vol_11
-Tannery (Paul),253,,true,vol_11
-Tannery (Paul),278 n,,false,vol_11
-Tannery (Paul),324 n sq.,,false,vol_11
-"Tarreneau, avocat",204,,true,vol_11
-"Tarreneau, avocat",250,,true,vol_11
-"Tarreneau, avocat",252,,true,vol_11
-"Tarreneau, avocat",292,,true,vol_11
-"Tarreneau, avocat",316,,true,vol_11
-"Tarreneau, avocat",390,,true,vol_11
-Tassius (Adolphe),245 n,,false,vol_11
-Tassius (Adolphe),310,,true,vol_11
-Taton (René),80 n,,false,vol_11
-Taton (René),424 n,,false,vol_11
-Taton (René),431 n,,false,vol_11
-Taton (René),432 n,,false,vol_11
-Taton (René),458,,true,vol_11
-"Tesselschade, poète néerl.",97 n,,false,vol_11
-Théodoret,3,,true,vol_11
-Théodoret,377,,true,vol_11
-Théon de Smyrne,411 sq.,,true,vol_11
-Thiard (L. Pontus de),143,,true,vol_11
-Thomas (Saint),162,,true,vol_11
-Thomas (Saint),167,,true,vol_11
-Thomas (Saint),359,,true,vol_11
-Thomas (Saint),412,,true,vol_11
-Thou (François-Auguste de),234 n,,false,vol_11
-Thou (le Président Jacques-Aug. de),309,,true,vol_11
-Ussher (James),38 n,,false,vol_11
-Ussher (James),150 n,,false,vol_11
-"Valois (Louis Emmanuel de), comte d'Alais",3 n,,false,vol_11
-"Valois (Louis Emmanuel de), comte d'Alais",6,,false,vol_11
-"Valois (Louis Emmanuel de), comte d'Alais",225,,true,vol_11
-"Valois (Louis Emmanuel de), comte d'Alais",228,,true,vol_11
-"Valois (Louis Emmanuel de), comte d'Alais",238,,true,vol_11
-Van Asshe (Justin),308 n,,false,vol_11
-Van Beverwyck (Jean),14,,false,vol_11
-Van Beverwyck (Jean),25 n,,false,vol_11
-Van Beverwyck (Jean),185 sq.,,true,vol_11
-Van den Bosch (J.),209 n,,false,vol_11
-Van de Pasch (le P. Antoine),209 n,,false,vol_11
-"Van Geer, hist. des sciences",15 n,,false,vol_11
-Van Hoogheland (Cornelis),,Hooghelande,false,vol_11
-Vannini (Lucilio),377,,false,vol_11
-Van Opstal,296 n,,false,vol_11
-Van Schooten (Franz),300 n,,false,vol_11
-Van Schooten (Franz),310 n sq.,,false,vol_11
-Van Schooten (Franz),313 n,,false,vol_11
-Van Schooten (Franz),334,,false,vol_11
-Van Schooten (Franz),338,,false,vol_11
-Van Schooten (Franz),372,,false,vol_11
-Van Schuurmann (Anna-Maria),135,,true,vol_11
-Van Schuurmann (Anna-Maria),185,,true,vol_11
-Van Schuurmann (Anna-Maria),280,,true,vol_11
-Van Schuurmann (Anna-Maria),422 n,,false,vol_11
-Van Schuurmann (Jean-Godsch.),280,,true,vol_11
-Van Surck (Anthonie Studler),130 n,,false,vol_11
-"Vattier (le P. Antoine), jés.",348,,false,vol_11
-"Vattier (le P. Antoine), jés.",410 n,,false,vol_11
-Vaughan (Robert),42 sq.,,false,vol_11
-Vaughan (Robert),307,,false,vol_11
-Vaughan (Robert),308 n,,false,vol_11
-Vedel (Nicolas),114 sq.,,true,vol_11
-Vedel (Nicolas),150 n,,false,vol_11
-Vegilin (Philippe Ernest),17 sq.,,false,vol_11
-Vegilin (Philippe Ernest),44,,true,vol_11
-Vegilin (Philippe Ernest),114 sq.,,true,vol_11
-Vegilin (Philippe Ernest),401,,true,vol_11
-Vegilin (Philippe Ernest),407,,true,vol_11
-Vegilin (Philippe Ernest),410,,true,vol_11
-Vicq d'Azyr (Félix),333,,false,vol_11
-Viète (François),307-314,,true,vol_11
-"Walleus, méd. néerl.",173 n,,false,vol_11
-Ward (Samuel),403,,false,vol_11
-Ward (Samuel),410,,false,vol_11
-Ward (Samuel),411,,true,vol_11
-Ward (Samuel),429,,true,vol_11
-Warmer (Walter),245 n,,false,vol_11
-Warmer (Walter),310,,false,vol_11
-Warmer (Walter),311 n,,false,vol_11
-Wassenaar (Jacob van),79 n,,false,vol_11
-Wassenaar (Jacob van),310,,false,vol_11
-Wassenaar (Jacob van),455,,false,vol_11
-Waterlaet (Lambert van den),100 sqq.,,true,vol_11
-Waterlaet (Lambert van den),131 n sq.,,false,vol_11
-Waterlaet (Lambert van den),150,,false,vol_11
-Waterlaet (Lambert van den),366 n,,false,vol_11
-Whitte (Thomas) = Vitus,11,,true,vol_11
-Whitte (Thomas) = Vitus,12,,true,vol_11
-Whitte (Thomas) = Vitus,15,,true,vol_11
-Whitte (Thomas) = Vitus,22,,true,vol_11
-Whitte (Thomas) = Vitus,52 sq.,,true,vol_11
-Whitte (Thomas) = Vitus,54,,true,vol_11
-Whitte (Thomas) = Vitus,245,,false,vol_11
-Whitte (Thomas) = Vitus,288 n et t sq.,,false,vol_11
-Whitte (Thomas) = Vitus,290,,false,vol_11
-Whitte (Thomas) = Vitus,299,,false,vol_11
-Whitte (Thomas) = Vitus,301 sq.,,false,vol_11
-Whitte (Thomas) = Vitus,315,,false,vol_11
-Whitte (Thomas) = Vitus,323 n,,false,vol_11
-Whitte (Thomas) = Vitus,334 n,,false,vol_11
-Whitte (Thomas) = Vitus,404,,true,vol_11
-Whitte (Thomas) = Vitus,409 sqq.,,true,vol_11
-Whitte (Thomas) = Vitus,417,,true,vol_11
-Whitte (Thomas) = Vitus,456,,true,vol_11
-Wiclef (Jean),47,,true,vol_11
-Wiclef (Jean),73,,true,vol_11
-Wiclef (Jean),76,,true,vol_11
-Wilkins,435 n,,false,vol_11
-Willis (Edmond),"418 (ou ? John Willis, en note)",,true,vol_11
-Wiszowaty (Andreas),38 n,,false,vol_11
-Wiszowaty (Andreas),163 n,,false,vol_11
-Wiszowaty (Andreas),241,,true,vol_11
-Wiszowaty (Andreas),279,,true,vol_11
-Wolf (Jérôme),195 n,,false,vol_11
-Wood (Anthony a),309 n,,false,vol_11
-Worp,227 n,,false,vol_11
-Yves de Paris,270 n,,false,vol_11
-Zarlino (Giuseppe),189,,false,vol_11
-Zénon le Stoïque,2,,false,vol_11
-Zénon le Stoïque,19,,false,vol_11
 "ABBETTI, Giorgio",242 n,,false,vol_13
 "ACHARD, Paul",238 n,,false,vol_13
 "ADAM, premier homme",157,,true,vol_13
