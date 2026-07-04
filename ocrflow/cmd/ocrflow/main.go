@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/app"
-	_ "github.com/MiaMish/elements-dh/ocrflow/internal/docs"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/app"
+	_ "github.com/Euclides-EM/commentaria-hub/ocrflow/internal/docs"
 	"github.com/joho/godotenv"
 )
 

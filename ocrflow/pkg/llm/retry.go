@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"time"
 
-	phttp "github.com/MiaMish/elements-dh/ocrflow/pkg/http"
+	phttp "github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/http"
 	"github.com/avast/retry-go"
 	"github.com/samber/lo"
 )

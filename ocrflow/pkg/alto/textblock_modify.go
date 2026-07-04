@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/editdistance"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/editdistance"
 	"github.com/samber/lo"
 )
 

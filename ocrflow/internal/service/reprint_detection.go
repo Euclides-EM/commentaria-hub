@@ -6,8 +6,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/editdistance"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/editdistance"
 	"github.com/samber/lo"
 )
 

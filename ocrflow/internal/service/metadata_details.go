@@ -3,7 +3,7 @@ package service
 import (
 	"slices"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
 )
 
 type MetadataDetails struct {

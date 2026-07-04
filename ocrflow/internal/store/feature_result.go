@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
 	"github.com/samber/lo"
 )
 

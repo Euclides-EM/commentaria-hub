@@ -3,7 +3,7 @@ package feature
 import (
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 )
 
 type Feature struct {

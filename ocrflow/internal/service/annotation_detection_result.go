@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 )
 
 func (a *Annotation) UploadDetectionResult(datasetID string, id string, mode annotation.DetectionMode, zipReader io.Reader) (*annotation.Annotation, error) {

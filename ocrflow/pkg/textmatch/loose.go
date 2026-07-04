@@ -6,7 +6,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/editdistance"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/editdistance"
 )
 
 func FindLoosePhraseMatches(text string, featureValue string) [][2]int {

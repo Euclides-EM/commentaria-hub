@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/job"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/job"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/cache"
 )
 
 const (

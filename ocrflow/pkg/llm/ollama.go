@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	phttp "github.com/MiaMish/elements-dh/ocrflow/pkg/http"
+	phttp "github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/http"
 )
 
 type OllamaClient struct {

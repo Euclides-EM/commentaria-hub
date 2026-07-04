@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 )
 
 // RecognizeTextWithMapping overwrites existing ALTO files with OCR-ed ALTO output.

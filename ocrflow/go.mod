@@ -1,4 +1,4 @@
-module github.com/MiaMish/elements-dh/ocrflow
+module github.com/Euclides-EM/commentaria-hub/ocrflow
 
 go 1.25
 

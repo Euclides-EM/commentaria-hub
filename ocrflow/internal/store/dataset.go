@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
 )
 
 const DatasetIDPrefix = "ds"

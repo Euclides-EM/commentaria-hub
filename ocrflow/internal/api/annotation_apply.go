@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
 )
 
 // ApplyRules godoc

@@ -1,6 +1,6 @@
 package model
 
-import "github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
+import "github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
 
 // Dataset creation status (async flow).
 const (

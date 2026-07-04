@@ -13,7 +13,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 )
 
 var slurmJobIDPattern = regexp.MustCompile(`Submitted batch job\s+([^\s]+)`)

@@ -3,8 +3,8 @@ package tei
 import (
 	"fmt"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 func buildFacsimileForLines(pageKey, imageUrl string, lines []string) model.Facsimile {

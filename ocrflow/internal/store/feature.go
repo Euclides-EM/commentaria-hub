@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
 )
 
 // FeatureSQL is the SQL store for features (table: features).

@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/config"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/service"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
 	httpSwagger "github.com/swaggo/http-swagger"
 )
 

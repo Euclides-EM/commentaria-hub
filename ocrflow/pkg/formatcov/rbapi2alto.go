@@ -7,8 +7,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/alto"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/rbmodel"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/alto"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/rbmodel"
 )
 
 func Roboflow2ALTO(jsonStr string, imageFileName, pageID string) ([]byte, error) {

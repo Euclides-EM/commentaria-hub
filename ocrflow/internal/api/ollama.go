@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 )
 
 func (h *Handlers) CreateOllamaRequest(r *http.Request) (any, error) {

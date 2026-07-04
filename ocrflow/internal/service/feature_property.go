@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/normalize"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/normalize"
 	"github.com/samber/lo"
 )
 

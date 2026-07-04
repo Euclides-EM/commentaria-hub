@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/stretchr/testify/require"
 )
 

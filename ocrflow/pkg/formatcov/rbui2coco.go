@@ -3,7 +3,7 @@ package formatcov
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/coco"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/coco"
 	"strconv"
 )
 

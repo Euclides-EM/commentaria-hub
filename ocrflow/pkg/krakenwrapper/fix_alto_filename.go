@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	ocrxml "github.com/MiaMish/elements-dh/ocrflow/pkg/xml"
+	ocrxml "github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/xml"
 )
 
 // RemovePathFromAltoImgFileName reads an ALTO XML file from srcPath, modifies the fileName element to contain only the base name of the image file, and writes the modified XML to dstPath.
