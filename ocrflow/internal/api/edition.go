@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/search"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/search"
 )
 
 const (
@@ -39,7 +39,40 @@ func (h *Handlers) ListEditions(r *http.Request) (any, error) {
 	} else if limit > maxListLimit {
 		limit = maxListLimit
 	}
-	return h.deps.EditionSvc.ListEditions(query.FilterFunc(), query.OrderByFunc(), offset, limit)
+	return h.deps.EditionSvc.SearchEditions(query, offset, limit)
+}
+
+// DetectEditionReprints godoc
+// @Summary Detect likely reprints without modifying the catalog
+// @Tags Editions
+// @Produce json
+// @Security BearerAuth
+// @Success 200 {object} model.ReprintDetection
+// @Router /editions/reprints/detect [post]
+func (h *Handlers) DetectEditionReprints(r *http.Request) (any, error) {
+	return h.deps.ReprintSvc.DetectReprints()
+}
+
+// ApplyEditionReprints godoc
+// @Summary Apply reviewed reprint relationships in bulk
+// @Tags Editions
+// @Accept json
+// @Produce json
+// @Param request body model.ApplyReprints true "Approved relationships"
+// @Security BearerAuth
+// @Success 200 {object} model.ApplyReprints
+// @Router /editions/reprints/apply [post]
+func (h *Handlers) ApplyEditionReprints(r *http.Request) (any, error) {
+	var request model.ApplyReprints
+	if err := DecodeBody(r, &request); err != nil {
+		return nil, err
+	}
+	user, _ := r.Context().Value(httpwrapper.GitHubUserKey).(*httpwrapper.GitHubUser)
+	login := ""
+	if user != nil {
+		login = user.Login
+	}
+	return h.deps.ReprintSvc.ApplyReprints(&request, login)
 }
 
 // GetEdition godoc

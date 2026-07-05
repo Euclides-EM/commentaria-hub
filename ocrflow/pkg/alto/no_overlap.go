@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/geo"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/geo"
 )
 
 // FixNoOverlap ensures that for the given category labels, regions from the same category

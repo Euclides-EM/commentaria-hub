@@ -3,20 +3,24 @@ package service
 import (
 	"errors"
 	"fmt"
+	"log"
 	"mime/multipart"
 	"os"
+	"path"
 	"path/filepath"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
 	"github.com/tiendc/go-deepcopy"
 )
+
+var ModelNotFoundErr = errors.New("model not found")
 
 type Model struct {
 	modelStore *store.ModelSQL
@@ -28,6 +32,22 @@ func NewModelService(modelStore *store.ModelSQL, fileSysMgt *filesys.Manager) *M
 		modelStore: modelStore,
 		fileSysMgt: fileSysMgt,
 	}
+}
+
+// UploadLocalFile imports a model already present on the local filesystem using
+// the same validation and persistence path as a multipart API upload.
+func (m *Model) UploadLocalFile(modelPath, name, description string) (*model.Model, error) {
+	file, err := os.Open(modelPath)
+	if err != nil {
+		return nil, fmt.Errorf("failed to open model file %s: %w", modelPath, err)
+	}
+	defer file.Close()
+
+	created, err := m.Upload(file, filepath.Base(modelPath), name, description, nil, "")
+	if err != nil {
+		return nil, fmt.Errorf("failed to import model file %s: %w", modelPath, err)
+	}
+	return created, nil
 }
 
 func (m *Model) List() ([]*model.Model, error) {
@@ -44,7 +64,18 @@ func (m *Model) Get(id string) (*model.Model, error) {
 		return nil, fmt.Errorf("failed to get model from store: %w", err)
 	}
 	if retrieved == nil {
-		return nil, errors.New("model not found")
+		return nil, ModelNotFoundErr
+	}
+	return retrieved, nil
+}
+
+func (m *Model) GetByName(name string) (*model.Model, error) {
+	retrieved, err := m.modelStore.GetModelByName(name)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get model from store: %w", err)
+	}
+	if retrieved == nil {
+		return nil, ModelNotFoundErr
 	}
 	return retrieved, nil
 }
@@ -100,7 +131,7 @@ func (m *Model) Upload(file multipart.File, filename, name, description string, 
 	}
 
 	if err := m.modelStore.InsertModel(mo); err != nil {
-		defer os.ReadFile(m.fileSysMgt.ModelPath(mo))
+		defer os.Remove(m.fileSysMgt.ModelPath(mo))
 		return nil, fmt.Errorf("failed to upsert model to store: %w", err)
 	}
 
@@ -149,4 +180,34 @@ func (m *Model) Update(id string, mo *model.Model) (any, error) {
 	}
 
 	return updatedModel, nil
+}
+
+func (m *Model) InitDefaultModels() error {
+	defaultModelPath := m.fileSysMgt.DefaultModelPath()
+	defaultModels, err := os.ReadDir(defaultModelPath)
+	if err != nil {
+		return fmt.Errorf("failed to read default models: %w", err)
+	}
+	for _, defaultModel := range defaultModels {
+		if defaultModel.IsDir() {
+			continue
+		}
+		if common.OCRModelTypeFromExt(path.Ext(defaultModel.Name())) == common.OCRModelTypeUnknown {
+			continue
+		}
+		_, err := m.GetByName(strings.TrimSuffix(defaultModel.Name(), path.Ext(defaultModel.Name())))
+		if err != nil && !errors.Is(err, ModelNotFoundErr) {
+			return fmt.Errorf("failed to get DB entry for default model: %w", err)
+		}
+		if err == nil {
+			continue
+		}
+		modelPath := path.Join(defaultModelPath, defaultModel.Name())
+		log.Printf("importing default model %s...", modelPath)
+		if _, err := m.UploadLocalFile(modelPath, "", ""); err != nil {
+			return fmt.Errorf("import default model: %w", err)
+		}
+		log.Printf("imported default model %s", modelPath)
+	}
+	return nil
 }

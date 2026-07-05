@@ -1,9 +1,11 @@
 package service
 
 import (
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/job"
+	"fmt"
+
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/job"
 )
 
 type AnnotationRuleExecution struct {
@@ -19,6 +21,12 @@ func NewAnnotationRuleExecution(annotations *Annotation, jobs *Job) *AnnotationR
 }
 
 func (e *AnnotationRuleExecution) ApplyRules(datasetID string, annotationID string, rules *annotationrule.ApplyRules) (any, error) {
+	if rules == nil {
+		return nil, fmt.Errorf("missing annotation rules")
+	}
+	if rules.ExecutionMode != annotationrule.ExecutionModeAsync && rules.AnyRuleRequireGPUFarm() {
+		return nil, fmt.Errorf("GPU farm detection rules must be run with async execution mode")
+	}
 	ann, err := e.annotations.PrepareApplyRules(datasetID, annotationID, rules)
 	if err != nil {
 		return nil, err

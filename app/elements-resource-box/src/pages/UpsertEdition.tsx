@@ -7,6 +7,7 @@ import {
   getEdition,
   listAllEditions,
   searchEditionsPage,
+  updateEditionSubjectCategories,
   upsertEdition,
   ustcLookup,
 } from "../api/editionApi";
@@ -28,6 +29,7 @@ import { useNavigateWithQuery } from "../utils/navigationUtils.ts";
 import { useQuery } from "@tanstack/react-query";
 import { STUDY_CORPUSES } from "../types";
 import { ItemLinksRow } from "../components/ItemLinksRow.tsx";
+import { SubjectCategoriesNotice } from "../components/SubjectCategoriesNotice.tsx";
 import { mapEditionsToItems } from "../utils/dataUtils.ts";
 
 type Locator = model_EditionLocator;
@@ -86,6 +88,10 @@ type EditionFormData = {
   isElements: boolean;
   books?: number[];
   additionalContent?: string[];
+  subjectCategories: {
+    category: string;
+    classification: string;
+  }[];
 };
 
 function toModelEdition(data: EditionFormData): model_Edition {
@@ -262,8 +268,22 @@ function toEditionFormData(
           additionalContent: edition.additionalContent || [],
         }
       : { isElements: false }),
+    subjectCategories: (edition.subjectCategories || []).map((entry) => ({
+      category: entry.category || "",
+      classification: entry.classification || "unknown",
+    })),
   };
 }
+
+const SUBJECT_CATEGORY_CLASSIFICATIONS = [
+  "primary",
+  "secondary",
+  "unrelated",
+  "unknown",
+] as const;
+
+const normalizeSubjectCategory = (value: string) =>
+  value.trim().toLocaleLowerCase();
 
 const SHORT_TITLE_SOURCES = [
   "Specified in source",
@@ -641,6 +661,19 @@ const WarningActions = styled.div`
   margin-top: 1.25rem;
 `;
 
+const SubjectCategoriesCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+`;
+
+const SubjectCategoryGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+`;
+
 const getSuggestedKey = (): string => {
   return Math.random().toString(36).slice(2, 8).toUpperCase();
 };
@@ -723,6 +756,7 @@ const defaultValues = (): EditionFormData => ({
   isElements: false,
   books: [],
   additionalContent: [],
+  subjectCategories: [],
   bibliography: [],
   reprintOf: null,
   visualElements: [],
@@ -745,6 +779,7 @@ type OptionLists = {
   editors: string[];
   publishers: string[];
   additionalContents: string[];
+  subjectCategories: string[];
   cities: string[];
   reprintOptions: { value: string; label: string }[];
   visualElementTypes: string[];
@@ -760,6 +795,13 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
       .map((item) => item.trim())
       .filter(Boolean)
       .sort(),
+  );
+  const subjectCategories = uniq(
+    editions
+      .flatMap((item) => item.subjectCategories || [])
+      .map((item) => item.category?.trim() || "")
+      .filter(Boolean)
+      .sort((a, b) => a.localeCompare(b)),
   );
   const cityNames = uniq(
     editions
@@ -808,6 +850,7 @@ const buildOptionLists = (editions: model_Edition[]): OptionLists => {
     editors,
     publishers,
     additionalContents,
+    subjectCategories,
     cities: cityNames,
     reprintOptions,
     visualElementTypes,
@@ -891,6 +934,25 @@ export const UpsertEdition = () => {
             existingItemQuery.data?.edition.wardhaughClassification;
         }
         await upsertEdition(edition, images, { isNew: !key });
+        try {
+          await updateEditionSubjectCategories(
+            edition.key!,
+            uniqBy(
+              value.subjectCategories
+                .map((entry) => ({
+                  category: entry.category.trim(),
+                  classification: entry.classification,
+                }))
+                .filter((entry) => entry.category),
+              (entry) => entry.category.toLocaleLowerCase(),
+            ),
+          );
+        } catch (err) {
+          console.error("Failed to update subject categories", err);
+          alert(
+            "The edition was saved, but its subject categories could not be updated.",
+          );
+        }
         navigateWithQuery(CATALOGUE_ROUTE);
       } catch (err) {
         console.error(err);
@@ -925,7 +987,6 @@ export const UpsertEdition = () => {
   });
   const isManuscript = useStore(form.store, (s) => s.values.isManuscript);
   const isElements = useStore(form.store, (s) => s.values.isElements);
-
   const fetchAndMergeUstcData = async (ustcId: string) => {
     if (!ustcId || isNaN(Number(ustcId)) || !token) {
       return;
@@ -1825,6 +1886,111 @@ export const UpsertEdition = () => {
                     />
                   )}
                 </form.Field>
+              </FormField>
+
+              <FormField className="full-width">
+                <SubjectCategoriesCard>
+                  <Label isTitle>Subject Categories</Label>
+                  <SubjectCategoriesNotice editionKey={key} />
+
+                  <form.Field
+                    name="subjectCategories"
+                    validators={{
+                      onChange: ({ value }) => {
+                        const normalized = value.map((entry) =>
+                          normalizeSubjectCategory(entry.category),
+                        );
+                        return new Set(normalized).size !== normalized.length
+                          ? "Each subject category can only be added once."
+                          : undefined;
+                      },
+                    }}
+                  >
+                    {(field) => (
+                      <>
+                        <SubjectCategoryGrid>
+                          {SUBJECT_CATEGORY_CLASSIFICATIONS.map(
+                            (classification) => {
+                              const selectedForClassification =
+                                field.state.value
+                                  .filter(
+                                    (entry) =>
+                                      entry.classification === classification &&
+                                      entry.category.trim(),
+                                  )
+                                  .map((entry) => entry.category.trim());
+                              const selectedElsewhere = field.state.value
+                                .filter(
+                                  (entry) =>
+                                    entry.classification !== classification &&
+                                    entry.category.trim(),
+                                )
+                                .map((entry) =>
+                                  normalizeSubjectCategory(entry.category),
+                                );
+                              const categoryOptions = uniq([
+                                ...(lists?.subjectCategories || []),
+                                ...selectedForClassification,
+                              ]).filter(
+                                (category) =>
+                                  category &&
+                                  !selectedElsewhere.includes(
+                                    normalizeSubjectCategory(category),
+                                  ),
+                              );
+
+                              return (
+                                <FormField key={classification}>
+                                  <Label>{startCase(classification)}</Label>
+                                  <MultiSelect
+                                    name={`subject categories ${classification}`}
+                                    options={categoryOptions}
+                                    value={selectedForClassification}
+                                    onChange={(values) => {
+                                      const next = field.state.value.filter(
+                                        (entry) =>
+                                          entry.classification !==
+                                            classification &&
+                                          !values.some(
+                                            (value) =>
+                                              normalizeSubjectCategory(
+                                                value,
+                                              ) ===
+                                              normalizeSubjectCategory(
+                                                entry.category,
+                                              ),
+                                          ),
+                                      );
+
+                                      values.forEach((category) => {
+                                        const trimmed = category.trim();
+                                        if (!trimmed) {
+                                          return;
+                                        }
+                                        next.push({
+                                          category: trimmed,
+                                          classification,
+                                        });
+                                      });
+
+                                      field.handleChange(next);
+                                    }}
+                                    onBlur={field.handleBlur}
+                                    isCreatable
+                                    placeholder={`Choose or add ${classification} categories...`}
+                                  />
+                                </FormField>
+                              );
+                            },
+                          )}
+                        </SubjectCategoryGrid>
+                        {!field.state.meta.isValid && (
+                          <em>{field.state.meta.errors.join(", ")}</em>
+                        )}
+                      </>
+                    )}
+                  </form.Field>
+                </SubjectCategoriesCard>
               </FormField>
 
               <form.Field name="shelfmarks">

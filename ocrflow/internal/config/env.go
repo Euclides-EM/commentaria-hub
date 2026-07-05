@@ -27,7 +27,7 @@ type EnvConfig struct {
 	LogsTailMaxLines         int           `env:"LOGS_TAIL_MAX_LINES" envDefault:"2000"`
 	GPUFarmHost              string        `env:"GPU_FARM_HOST" envDefault:""`
 	GPUFarmJobRoot           string        `env:"GPU_FARM_JOB_ROOT" envDefault:""`
-	ModelTrainUploadURL      string        `env:"MODEL_TRAIN_UPLOAD_URL" envDefault:""`
+	APIURL                   string        `env:"API_URL" envDefault:""`
 
 	RootDir          string `env:"ROOT_DIR" envDefault:"../"`
 	StoreDir         string `env:"STORE_DIR" envDefault:"./store"`
@@ -96,6 +96,10 @@ func (ec *EnvConfig) BackupDir() string {
 
 func (ec *EnvConfig) RestoreDir() string {
 	return filepath.Join(ec.BackupRootDir, "restore")
+}
+
+func (ec *EnvConfig) DefaultModelsDir() string {
+	return filepath.Join(ec.RootDir, "ocrflow", "store", "default_models")
 }
 
 func (ec *EnvConfig) TmpDir() string {

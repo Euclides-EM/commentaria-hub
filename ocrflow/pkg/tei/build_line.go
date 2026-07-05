@@ -3,7 +3,7 @@ package tei
 import (
 	"sort"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 func buildInlineNodesWithAnchors(blockID, lineID, line string, entities []EntityItem) []model.ABNode {

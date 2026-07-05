@@ -1,7 +1,7 @@
 package krakenwrapper
 
 import (
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 	"github.com/samber/lo"
 )
 

@@ -15,7 +15,7 @@ node_modules
 
 .idea
 
-ocrflow/.env_private
+**/.env_private
 
 *.db*
 ocrflow/full_backups
@@ -34,3 +34,4 @@ dh_datasets_create.state.json
 **/testdata/**/*.stage.png
 
 **/imgs/_variants/
+**/.gocache/

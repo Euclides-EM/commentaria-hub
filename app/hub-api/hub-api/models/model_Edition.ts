@@ -3,6 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { model_EditionShelfmark } from './model_EditionShelfmark';
+import type { model_EditionSubjectCategory } from './model_EditionSubjectCategory';
 import type { model_EditionTitlePageStatus } from './model_EditionTitlePageStatus';
 import type { model_EditionVisualElement } from './model_EditionVisualElement';
 export type model_Edition = {
@@ -44,6 +45,7 @@ export type model_Edition = {
     shelfmarks?: Array<model_EditionShelfmark>;
     shortTitle?: string;
     shortTitleSource?: string;
+    readonly subjectCategories?: Array<model_EditionSubjectCategory>;
     title?: string;
     titlePageStatus?: model_EditionTitlePageStatus;
     title_EN?: string;

@@ -44,6 +44,22 @@ type ApplyRules struct {
 	ExecutionMode      ExecutionMode `json:"execution_mode,omitempty"`
 }
 
+func (r *ApplyRules) AnyRuleRequireGPUFarm() bool {
+	for _, rule := range r.Rules {
+		switch t := rule.(type) {
+		case *LinesDetect:
+			if t.UseGPUFarm {
+				return true
+			}
+		case *ModelDetect:
+			if t.UseGPUFarm {
+				return true
+			}
+		}
+	}
+	return false
+}
+
 type ExecutionMode string
 
 const (
@@ -65,6 +81,8 @@ func ToExecutionMode(value string, defaultVal ExecutionMode) ExecutionMode {
 type AnnotationRule interface {
 	GetType() Type
 	SetDefaultValues()
+	ApplicablePipelineStages() []PipelineStage
+	EnsuredPipelineStage() PipelineStage
 }
 
 type Base struct {
@@ -72,11 +90,16 @@ type Base struct {
 	ApplicableStages []PipelineStage `json:"applicable_stages"`
 }
 
-// -- Internal helper for UnmarshalJSON --
+func (b *Base) ruleBase() *Base {
+	return b
+}
 
-type annotationApplyRulesRaw struct {
-	Action ApplyRulesAction  `json:"action"`
-	Rules  []json.RawMessage `json:"rules"`
+func (b *Base) ApplicablePipelineStages() []PipelineStage {
+	return applicableStagesByType[b.Type]
+}
+
+func (b *Base) EnsuredPipelineStage() PipelineStage {
+	return minEnsuredStageByType[b.Type]
 }
 
 func UnmarshalRuleJSON(data []byte) (AnnotationRule, error) {
@@ -94,6 +117,7 @@ func UnmarshalRuleJSON(data []byte) (AnnotationRule, error) {
 	if err := json.Unmarshal(data, rule); err != nil {
 		return nil, fmt.Errorf("unmarshal %s rule: %w", base.Type, err)
 	}
+	HydrateMetadata(rule)
 
 	return rule, nil
 }
@@ -107,12 +131,4 @@ func ToApplyRulesAction(value string, defaultVal ApplyRulesAction) ApplyRulesAct
 	default:
 		return defaultVal
 	}
-}
-
-func GetApplicableStages(t Type) []PipelineStage {
-	return applicableStagesByType[t]
-}
-
-func MinEnsuredStage(t Type) PipelineStage {
-	return minEnsuredStageByType[t]
 }

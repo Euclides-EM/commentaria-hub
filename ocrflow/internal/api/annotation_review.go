@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 )
 
 // CreateAnnotationReview godoc

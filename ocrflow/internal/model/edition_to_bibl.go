@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	teim "github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	teim "github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 func EditionToBiblFull(ed *Edition) *teim.BiblFull {

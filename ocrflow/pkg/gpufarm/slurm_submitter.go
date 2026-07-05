@@ -1,18 +1,52 @@
 package gpufarm
 
 import (
+	"bytes"
+	_ "embed"
 	"fmt"
+	"log"
 	"os/exec"
 	"path"
 	"path/filepath"
 	"regexp"
 	"strings"
+	"text/template"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
 )
 
 var slurmJobIDPattern = regexp.MustCompile(`Submitted batch job\s+([^\s]+)`)
+
+const completedRunsToKeep = 3
+
+//go:embed templates/cleanup_completed_runs.sh
+var cleanupCompletedRunsScript string
+
+//go:embed templates/python_venv_setup.sh
+var pythonVEnvSetupScript string
+
+var cleanupCompletedRunsTemplate = template.
+	Must(template.New("cleanup-completed-gpu-runs").
+		Funcs(template.FuncMap{
+			"shellquote": envexec.ShellQuote,
+		}).Parse(cleanupCompletedRunsScript))
+
+type cleanupCompletedRunsTemplateData struct {
+	JobRoot             string
+	CompletedRunsToKeep int
+}
+
+func renderCleanupCompletedRunsScript(jobRoot string, runsToKeep int) (string, error) {
+	var script bytes.Buffer
+	if err := cleanupCompletedRunsTemplate.Execute(&script, cleanupCompletedRunsTemplateData{
+		JobRoot:             jobRoot,
+		CompletedRunsToKeep: runsToKeep,
+	}); err != nil {
+		return "", err
+	}
+	return script.String(), nil
+}
 
 type SubmitterSlurm struct {
 	host    string
@@ -63,6 +97,25 @@ func (s *SubmitterSlurm) FileExists(remotePath string) (bool, error) {
 	return strings.TrimSpace(output) == "exists", nil
 }
 
+// cleanupCompletedRuns bounds disk usage across every managed job kind. Slurm
+// work directories are protected even when they are older than the retained
+// completed runs.
+func (s *SubmitterSlurm) cleanupCompletedRuns() error {
+	script, err := renderCleanupCompletedRunsScript(s.jobRoot, completedRunsToKeep)
+	if err != nil {
+		return fmt.Errorf("render completed run cleanup script: %w", err)
+	}
+
+	output, err := s.run("bash", "-lc", script)
+	if output != "" {
+		log.Printf("GPU farm cleanup:\n%s", output)
+	}
+	if err != nil {
+		return fmt.Errorf("clean up completed runs in %s: %w", s.jobRoot, err)
+	}
+	return nil
+}
+
 func (s *SubmitterSlurm) PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv, error) {
 	if strings.TrimSpace(request.JobName) == "" {
 		return nil, fmt.Errorf("missing Python job directory")
@@ -76,9 +129,18 @@ func (s *SubmitterSlurm) PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv,
 
 	runID := "run_" + fmt.Sprintf("%s-%d", time.Now().UTC().Format("060102-150405"), time.Now().UnixNano()%100000)
 	remoteRoot := path.Join(s.jobRoot, request.JobName)
+	if _, err := s.run("mkdir", "-p", s.jobRoot); err != nil {
+		return nil, err
+	}
+	if err := s.cleanupCompletedRuns(); err != nil {
+		return nil, err
+	}
+	if _, err := s.run("mkdir", "-p", remoteRoot); err != nil {
+		return nil, err
+	}
 	remoteRunDir := path.Join(remoteRoot, runID)
 	logDir := path.Join(remoteRunDir, "logs")
-	if _, err := s.run("mkdir", "-p", remoteRoot, remoteRunDir, logDir); err != nil {
+	if _, err := s.run("mkdir", "-p", remoteRunDir, logDir); err != nil {
 		return nil, err
 	}
 
@@ -89,21 +151,7 @@ func (s *SubmitterSlurm) PreparePythonEnv(request PythonEnvRequest) (*RemoteEnv,
 		}
 	}
 
-	envScript := fmt.Sprintf(`
-set -euo pipefail
-if command -v module >/dev/null 2>&1; then
-  module purge || true
-fi
-unset PYTHONHOME PYTHONPATH LD_LIBRARY_PATH
-PROJECT_ROOT=%s
-if [[ ! -d "${PROJECT_ROOT}/.venv" ]]; then
-  python3 -m venv "${PROJECT_ROOT}/.venv"
-fi
-source "${PROJECT_ROOT}/.venv/bin/activate"
-python -m pip install -U pip wheel
-python -m pip install -r "${PROJECT_ROOT}/requirements.txt"
-deactivate
-`, envexec.ShellQuote(remoteRoot))
+	envScript := fmt.Sprintf(pythonVEnvSetupScript, envexec.ShellQuote(remoteRoot))
 	if _, err := s.run("bash", "-lc", envScript); err != nil {
 		return nil, err
 	}

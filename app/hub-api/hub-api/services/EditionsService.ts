@@ -2,10 +2,12 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { model_ApplyReprints } from '../models/model_ApplyReprints';
 import type { model_DiagramCrops } from '../models/model_DiagramCrops';
 import type { model_Edition } from '../models/model_Edition';
 import type { model_EditionListResult } from '../models/model_EditionListResult';
 import type { model_Note } from '../models/model_Note';
+import type { model_ReprintDetection } from '../models/model_ReprintDetection';
 import type { search_Query } from '../models/search_Query';
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
@@ -29,6 +31,36 @@ export class EditionsService {
             method: 'POST',
             url: '/editions',
             body: edition,
+        });
+    }
+    /**
+     * Apply reviewed reprint relationships in bulk
+     * @returns model_ApplyReprints OK
+     * @throws ApiError
+     */
+    public static postEditionsReprintsApply({
+        request,
+    }: {
+        /**
+         * Approved relationships
+         */
+        request: model_ApplyReprints,
+    }): CancelablePromise<model_ApplyReprints> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/editions/reprints/apply',
+            body: request,
+        });
+    }
+    /**
+     * Detect likely reprints without modifying the catalog
+     * @returns model_ReprintDetection OK
+     * @throws ApiError
+     */
+    public static postEditionsReprintsDetect(): CancelablePromise<model_ReprintDetection> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/editions/reprints/detect',
         });
     }
     /**

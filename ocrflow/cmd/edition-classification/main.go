@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/app"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/feature"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/app"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/feature"
 	"github.com/joho/godotenv"
 )
 

@@ -3,7 +3,7 @@ package tei
 import (
 	"fmt"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 func CombineTEIsByKey(teis map[string]*model.TEI) (*model.CombinedTEI, error) {

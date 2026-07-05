@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "index",
+  "check": "transcriptions",
+  "results": [
+    {
+      "image_path": "cmd/correspondence_ingest/data/raw/index/vol_11/PXL_20260702_120730023.jpg",
+      "volume": "vol_11",
+      "provider": "ollama",
+      "model": "qwen3.6:35b",
+      "validated_at": "2026-07-04T11:06:08.79608Z",
+      "source_digest": "d31d6a8c27c054acd5d3b8e7532501c5f38edfe9e8cc0e5d489e497aa68e9354",
+      "accurate": false,
+      "summary": "",
+      "differences": null,
+      "failure": "llm exec: ollama generate api call failed after 9m39.871769792s: llm exec: ollama generate api returned 502: \u003c!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"\u003e\n\u003chtml\u003e\u003chead\u003e\n\u003ctitle\u003e502 Proxy Error\u003c/title\u003e\n\u003c/head\u003e\u003cbody\u003e\n\u003ch1\u003eProxy Error\u003c/h1\u003e\n\u003cp\u003eThe proxy server received an invalid\r\nresponse from an upstream server.\u003cbr /\u003e\r\nThe proxy server could not handle the request\u003cp\u003eReason: \u003cstrong\u003eError reading from remote server\u003c/strong\u003e\u003c/p\u003e\u003c/p\u003e\n\u003c/body\u003e\u003c/html\u003e"
+    }
+  ]
+}

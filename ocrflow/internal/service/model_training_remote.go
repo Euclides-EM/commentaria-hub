@@ -8,23 +8,23 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/common"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/gpufarm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/common"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/gpufarm"
 )
 
 type ModelTrainingRemote struct {
-	models                *Model
-	fileSysMgt            *filesys.Manager
-	datasets              *Dataset
-	annotations           *Annotation
-	submitter             gpufarm.Submitter
-	modelTrainUploadURL   string
-	modelTrainUploadToken string
-	rootDir               string
+	models      *Model
+	fileSysMgt  *filesys.Manager
+	datasets    *Dataset
+	annotations *Annotation
+	submitter   gpufarm.Submitter
+	apiURL      string
+	apiToken    string
+	rootDir     string
 }
 
 type trainingRemoteAsset struct {
@@ -48,18 +48,18 @@ func NewModelTrainingRemote(models *Model,
 	datasets *Dataset,
 	annotations *Annotation,
 	rootDir string,
-	modelTrainUploadURL string,
-	modelTrainUploadToken string,
+	apiURL string,
+	apiToken string,
 	submitter gpufarm.Submitter) *ModelTrainingRemote {
 	return &ModelTrainingRemote{
-		models:                models,
-		fileSysMgt:            fileSysMgt,
-		datasets:              datasets,
-		annotations:           annotations,
-		rootDir:               rootDir,
-		modelTrainUploadURL:   modelTrainUploadURL,
-		modelTrainUploadToken: modelTrainUploadToken,
-		submitter:             submitter,
+		models:      models,
+		fileSysMgt:  fileSysMgt,
+		datasets:    datasets,
+		annotations: annotations,
+		rootDir:     rootDir,
+		apiURL:      strings.TrimRight(apiURL, "/"),
+		apiToken:    apiToken,
+		submitter:   submitter,
 	}
 }
 
@@ -183,8 +183,8 @@ func (r *ModelTrainingRemote) trainingStatusDetails(submission *gpufarm.JobSubmi
 		"submit_output":   submission.SubmitOutput,
 		"monitor_command": fmt.Sprintf("ssh %s %s", submission.Host, envexec.ShellQuote("tail -f "+path.Join(remoteEnv.LogsDir, "*.*"))),
 	}
-	if r.modelTrainUploadURL != "" {
-		statusDetails["model_upload_url"] = r.modelTrainUploadURL
+	if r.modelUploadURL() != "" {
+		statusDetails["model_upload_url"] = r.modelUploadURL()
 	}
 	if submission.SchedulerJobID != "" {
 		statusDetails["scheduler_job_id"] = submission.SchedulerJobID
@@ -207,8 +207,8 @@ func (r *ModelTrainingRemote) writeCommonManifest(b *strings.Builder, training *
 	fmt.Fprintf(b, "export WORK_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "workspace")))
 	fmt.Fprintf(b, "export OUTPUT_DIR=%s\n", envexec.ShellQuote(path.Join(remoteEnv.RemoteRunDir, "trained_models")))
 	fmt.Fprintf(b, "export LOGS_DIR=%s\n", envexec.ShellQuote(remoteEnv.LogsDir))
-	fmt.Fprintf(b, "export MODEL_UPLOAD_URL=%s\n", envexec.ShellQuote(r.modelTrainUploadURL))
-	fmt.Fprintf(b, "export MODEL_UPLOAD_TOKEN=%s\n", envexec.ShellQuote(r.modelTrainUploadToken))
+	fmt.Fprintf(b, "export MODEL_UPLOAD_URL=%s\n", envexec.ShellQuote(r.modelUploadURL()))
+	fmt.Fprintf(b, "export MODEL_UPLOAD_TOKEN=%s\n", envexec.ShellQuote(r.apiToken))
 	fmt.Fprintf(b, "export MODEL_NAME=%s\n", envexec.ShellQuote(mo.Name))
 	fmt.Fprintf(b, "export MODEL_DESCRIPTION=%s\n", envexec.ShellQuote(mo.Description))
 	fmt.Fprintf(b, "export MODEL_BASE_MODEL_ID=%s\n", envexec.ShellQuote(mo.BaseModelID))
@@ -218,6 +218,13 @@ func (r *ModelTrainingRemote) writeCommonManifest(b *strings.Builder, training *
 	} else {
 		fmt.Fprintf(b, "export TRAIN_EPOCHS=%s\n", envexec.ShellQuote(""))
 	}
+}
+
+func (r *ModelTrainingRemote) modelUploadURL() string {
+	if r.apiURL == "" {
+		return ""
+	}
+	return r.apiURL + "/models_upload"
 }
 
 func baseAnnotationRefs(refs []*annotation.Reference) string {

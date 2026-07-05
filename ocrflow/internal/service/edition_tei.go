@@ -3,10 +3,10 @@ package service
 import (
 	"fmt"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	tei2 "github.com/MiaMish/elements-dh/ocrflow/pkg/tei"
-	model2 "github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	tei2 "github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei"
+	model2 "github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 )
 
 type EditionTEI struct {

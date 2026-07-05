@@ -2,6 +2,7 @@ package store
 
 import (
 	"database/sql"
+	"errors"
 	"fmt"
 	"log"
 	"os"
@@ -10,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 	"github.com/samber/lo"
 )
 
@@ -75,7 +76,7 @@ func (s *FacsimileSQL) GetFacsimileByID(facsimileID string) (*model.Facsimile, e
 		&f.Description,
 	)
 	if err != nil {
-		if err.Error() == "sql: no rows in result set" {
+		if errors.Is(err, sql.ErrNoRows) {
 			return nil, nil
 		}
 		return nil, err

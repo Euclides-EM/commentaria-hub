@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/geo"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/geo"
 	"github.com/samber/lo"
 )
 

@@ -8,19 +8,19 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/api"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/diagramcrops"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/migrations"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/titlepage"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store/filesys"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/cache"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/db"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/gpufarm"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/llm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/api"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/config"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/diagramcrops"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/migrations"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/titlepage"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/service"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store/filesys"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/cache"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/db"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/gpufarm"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/llm"
 )
 
 type OCRFlowApp struct {
@@ -62,7 +62,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	}
 	log.Printf("finished app for backup/restore if needed")
 
-	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir())
+	fileSystemManager := filesys.NewFileSystemManager(env.DataDir(), env.ModelsDir(), env.DiagramsDir(), env.DefaultModelsDir())
 	geoStore := store.NewGeoCSV(env.ItemsMetadataStoreDir())
 	sqlDB, err = db.InitDB(env.DBPath(), migrations.Migrations, "ocrflow", env.OptionalMigrations())
 	if err != nil {
@@ -96,8 +96,14 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 	logsSvc := service.NewLogsService(env.LogsSystemdUnit, env.LogsTailDefaultLines, env.LogsTailMaxLines)
 	geoSvc := service.NewGeoService(geoStore)
 	modelSvc := service.NewModelService(modelStore, fileSystemManager)
-	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey)
-	editionSvc := service.NewEditionService(editionStore, facsimileStore)
+	if err := modelSvc.InitDefaultModels(); err != nil {
+		return nil, fmt.Errorf("init models: %w", err)
+	}
+	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
+	annotationDetectionRemoteSvc := service.NewAnnotationDetectionRemote(fileSystemManager, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc)
+	ruleApplier := service.NewAnnotationRuleApplier(modelSvc, fileSystemManager, env.RoboflowAPIKey, annotationDetectionRemoteSvc)
+	editionSvc := service.NewEditionService(editionStore, facsimileStore, featureResultStore)
+	reprintSvc := service.NewReprintService(editionSvc)
 	facsimileSvc := service.NewFacsimileService(
 		facsimileStore,
 		env.FacsimilesPDFDir,
@@ -154,8 +160,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		fileSystemManager,
 	)
 	annotationSearch := service.NewAnnotationSearch(annotationSvc, fileSystemManager, featureResultSvc, annotationTEI, datasetImgSvc)
-	slurmSubmitterSvc := gpufarm.NewSubmitterSlurm(env.GPUFarmHost, env.GPUFarmJobRoot)
-	modelTrainRemoteSvc := service.NewModelTrainingRemote(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.ModelTrainUploadURL, env.GithubToken, slurmSubmitterSvc)
+	modelTrainRemoteSvc := service.NewModelTrainingRemote(modelSvc, fileSystemManager, datasetSvc, annotationSvc, env.RootDir, env.APIURL, env.GithubToken, slurmSubmitterSvc)
 	jobSvc := service.NewJob(store.NewJobStore(cache.NewCache()), annotationUploader, annotationSvc, facsimileSvc, bckSvc, modelTrainRemoteSvc)
 	modelTrainingSvc := service.NewModelTraining(jobSvc)
 	annotationRuleExecutionSvc := service.NewAnnotationRuleExecution(annotationSvc, jobSvc)
@@ -195,6 +200,7 @@ func NewOCRFlowApp() (*OCRFlowApp, error) {
 		HealthSvc:               healthSvc,
 		LogsSvc:                 logsSvc,
 		EditionSvc:              editionSvc,
+		ReprintSvc:              reprintSvc,
 		GeoSvc:                  geoSvc,
 		FacsimileSvc:            facsimileSvc,
 		DatasetSvc:              datasetSvc,

@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/pagesparser"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 )
 
 // Dataset storage layout:
@@ -77,6 +77,10 @@ func (m *Manager) DatasetAnnotationYoloDir(ann *annotation.Annotation) string {
 
 func (m *Manager) ModelPath(model *model.Model) string {
 	return path.Join(m.modelsDir, model.LocalPath)
+}
+
+func (m *Manager) DefaultModelPath() string {
+	return m.defaultModelsDir
 }
 
 func (m *Manager) DiagramCropsMetadataFile(editionKey string) string {

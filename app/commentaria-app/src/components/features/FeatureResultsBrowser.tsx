@@ -1,6 +1,7 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import Select from 'react-select'
+import { parseAsString, useQueryState } from 'nuqs'
 import { type feature_Result } from '@hub-api'
 import { useAppState } from '../../context/useAppState'
 import { useAuthStore } from '../../store/authStore'
@@ -94,6 +95,14 @@ export function FeatureResultsBrowser() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedFeatureOption, setSelectedFeatureOption] =
     useState<FeatureOption | null>(null)
+  const [featureId, setFeatureId] = useQueryState(
+    'featureId',
+    parseAsString.withDefault('').withOptions({ history: 'replace' }),
+  )
+  const [editionKey, setEditionKey] = useQueryState(
+    'editionKey',
+    parseAsString.withDefault('').withOptions({ history: 'replace' }),
+  )
   const [selectedEditionOption, setSelectedEditionOption] =
     useState<EditionFilterOption | null>(null)
   const [sortKey, setSortKey] = useState<SortKey>('editionDetails')
@@ -184,6 +193,14 @@ export function FeatureResultsBrowser() {
         })),
     [featureDefinitions],
   )
+
+  useEffect(() => {
+    if (!featureId || featureOptions.length === 0) return
+    const option = featureOptions.find((item) => item.value === featureId)
+    if (option) {
+      setSelectedFeatureOption(option)
+    }
+  }, [featureId, featureOptions])
 
   const featureById = useMemo(() => {
     const map = new Map<
@@ -322,6 +339,14 @@ export function FeatureResultsBrowser() {
       }),
     )
   }, [editionDetailsByKey, rows])
+
+  useEffect(() => {
+    if (!editionKey || editionOptions.length === 0) return
+    const option = editionOptions.find((item) => item.value === editionKey)
+    if (option) {
+      setSelectedEditionOption(option)
+    }
+  }, [editionKey, editionOptions])
 
   const sortedRows = useMemo(() => {
     const getSortValue = (row: FeatureResultRow, key: SortKey) => {
@@ -514,7 +539,9 @@ export function FeatureResultsBrowser() {
               setSelectedDatasetOption(null)
               setSelectedAnnotationOption(null)
               setSelectedFeatureOption(null)
+              void setFeatureId(null)
               setSelectedEditionOption(null)
+              void setEditionKey(null)
             }}
             className="h-9 px-3 text-sm border border-gray-300 rounded-md bg-white"
           >
@@ -528,7 +555,9 @@ export function FeatureResultsBrowser() {
                 setSelectedDatasetOption(option)
                 setSelectedAnnotationOption(null)
                 setSelectedFeatureOption(null)
+                void setFeatureId(null)
                 setSelectedEditionOption(null)
+                void setEditionKey(null)
               }}
               options={datasetOptions}
               placeholder="Select dataset..."
@@ -544,7 +573,9 @@ export function FeatureResultsBrowser() {
               onChange={(option) => {
                 setSelectedAnnotationOption(option)
                 setSelectedFeatureOption(null)
+                void setFeatureId(null)
                 setSelectedEditionOption(null)
+                void setEditionKey(null)
               }}
               options={annotationOptions}
               placeholder="Select annotation..."
@@ -562,7 +593,10 @@ export function FeatureResultsBrowser() {
           />
           <Select
             value={selectedFeatureOption}
-            onChange={(option) => setSelectedFeatureOption(option)}
+            onChange={(option) => {
+              setSelectedFeatureOption(option)
+              void setFeatureId(option?.value || null)
+            }}
             options={featureOptions}
             placeholder="Filter by feature..."
             formatOptionLabel={(option) => (
@@ -582,7 +616,10 @@ export function FeatureResultsBrowser() {
           />
           <EditionFilterSelect
             value={selectedEditionOption}
-            onChange={setSelectedEditionOption}
+            onChange={(option) => {
+              setSelectedEditionOption(option)
+              void setEditionKey(option?.value || '')
+            }}
             options={editionOptions}
           />
           <div className="text-xs text-gray-500 shrink-0">

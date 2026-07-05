@@ -1,7 +1,7 @@
 package alto
 
 import (
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/geo"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/geo"
 )
 
 // ResolveOverlapWithPriority removes zones of suppressedCategory that overlap

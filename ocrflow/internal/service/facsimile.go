@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	diagramcropmetadata "github.com/MiaMish/elements-dh/ocrflow/internal/diagramcrops"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/store"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	diagramcropmetadata "github.com/Euclides-EM/commentaria-hub/ocrflow/internal/diagramcrops"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/store"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
 	"github.com/samber/lo"
 )
 

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotation"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/model/annotationrule"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotationrule"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
 )
 
 const AnnotationIDPrefix = "ann"
@@ -557,7 +557,7 @@ func calculatePipelineStage(a *annotation.Annotation) annotationrule.PipelineSta
 		if rule == nil {
 			continue
 		}
-		minEnsured := annotationrule.MinEnsuredStage(rule.GetType())
+		minEnsured := rule.EnsuredPipelineStage()
 		if minEnsured.After(s) {
 			s = minEnsured
 		}

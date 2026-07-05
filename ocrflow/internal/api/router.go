@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/MiaMish/elements-dh/ocrflow/internal/config"
-	"github.com/MiaMish/elements-dh/ocrflow/internal/service"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/httpwrapper"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/config"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/service"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/httpwrapper"
 	httpSwagger "github.com/swaggo/http-swagger"
 )
 
@@ -15,6 +15,7 @@ type Dependencies struct {
 	HealthSvc               *service.Health
 	LogsSvc                 *service.Logs
 	EditionSvc              *service.Edition
+	ReprintSvc              *service.Reprint
 	FacsimileSvc            *service.Facsimile
 	DatasetSvc              *service.Dataset
 	DatasetImgSvc           *service.DatasetImg
@@ -95,6 +96,7 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/limit_category_zones", httpwrapper.Update(h.ApplyRuleLimitCategoryZones).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/reassign_text_lines_by_tolerance", httpwrapper.Update(h.ApplyRuleReassignTextLinesByTolerance).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/apply/text_block_corrections", httpwrapper.Update(h.ApplyRuleTextBlockCorrections).Build())
+	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/detection_upload", httpwrapper.CreateFile(h.UploadAnnotationDetectionResult).Build())
 
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/review", httpwrapper.Create(h.CreateAnnotationReview).Build())
 	api.HandleFunc("/datasets/{dataSetId}/annotations/{id}/search", httpwrapper.Get(h.SearchAnnotation).Build())
@@ -122,6 +124,8 @@ func NewRouter(deps *Dependencies) http.Handler {
 	api.HandleFunc("/editions", httpwrapper.Create(h.CreateEdition).Build())
 
 	api.HandleFunc("/editions/search", httpwrapper.Create(h.ListEditions).Build())
+	api.HandleFunc("/editions/reprints/detect", httpwrapper.Create(h.DetectEditionReprints).Build())
+	api.HandleFunc("/editions/reprints/apply", httpwrapper.Create(h.ApplyEditionReprints).Build())
 
 	api.HandleFunc("/editions/transcriptions", httpwrapper.Get(h.ListEditionTranscriptionsDetails).Build())
 

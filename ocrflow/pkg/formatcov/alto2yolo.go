@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/envexec"
-	"github.com/MiaMish/elements-dh/ocrflow/pkg/futils"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/envexec"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 )
 
 func Alto2Yolo(imgDir, altoDir, outputDir string, shuffle float64, segmontoGranularity string) error {

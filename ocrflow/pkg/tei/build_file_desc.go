@@ -1,6 +1,6 @@
 package tei
 
-import "github.com/MiaMish/elements-dh/ocrflow/pkg/tei/model"
+import "github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/tei/model"
 
 func buildFileDesc(biblMetadata *model.BiblFull) model.FileDesc {
 	return model.FileDesc{

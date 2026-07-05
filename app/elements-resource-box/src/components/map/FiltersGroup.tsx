@@ -5,6 +5,7 @@ import { Item, STUDY_CORPUSES } from "../../types";
 import { personDisplayName } from "../../utils/dataUtils.ts";
 import { ItemProperty } from "../../constants/itemProperties.ts";
 import styled from "@emotion/styled";
+import { SubjectCategoriesFilter } from "./SubjectCategoriesFilter";
 
 const GroupSeparator = styled.div`
   border-top: 1px solid #e0e0e0;
@@ -105,7 +106,14 @@ export const FiltersGroup = ({
   );
 
   const groupOrder = useMemo(
-    () => ["Common", "Elements", "Title Page", "Material", "Diagrams"],
+    () => [
+      "Common",
+      "Elements",
+      "Subject Categories",
+      "Title Page",
+      "Material",
+      "Diagrams",
+    ],
     [],
   );
   const [collapsedGroups, setCollapsedGroups] = useState<
@@ -196,33 +204,49 @@ export const FiltersGroup = ({
       {sortedGroups.map((groupName, groupIndex) => (
         <div key={groupName}>
           {groupIndex > 0 && <GroupSeparator />}
-          <GroupHeader onClick={() => toggleGroup(groupName)}>
+          <GroupHeader
+            onClick={() => toggleGroup(groupName)}
+            data-filter-group={groupName}
+          >
             <GroupArrow $collapsed={collapsedGroups[groupName]}>▼</GroupArrow>
             {groupName}
           </GroupHeader>
           {!collapsedGroups[groupName] && (
             <GroupContent>
-              {groupedFields[groupName].map(({ field, config }) => (
-                <Filter
-                  field={field}
-                  key={field}
-                  label={config.displayName || startCase(field)}
-                  value={filters[field]}
-                  setValue={(values) =>
-                    setFilters((f) => ({
-                      ...f,
-                      [field]: values ? [...values] : undefined,
-                    }))
-                  }
-                  options={optionsByFilter[field]}
-                  include={
-                    isNil(filtersInclude[field]) ? true : filtersInclude[field]
-                  }
-                  setInclude={(include) =>
-                    setFiltersInclude((f) => ({ ...f, [field]: include }))
-                  }
-                />
-              ))}
+              {groupedFields[groupName].map(({ field, config }) =>
+                field === "subjectCategoryValues" ? (
+                  <SubjectCategoriesFilter
+                    key={field}
+                    data={data}
+                    value={filters[field]}
+                    setValue={(values) =>
+                      setFilters((current) => ({ ...current, [field]: values }))
+                    }
+                  />
+                ) : (
+                  <Filter
+                    field={field}
+                    key={field}
+                    label={config.displayName || startCase(field)}
+                    value={filters[field]}
+                    setValue={(values) =>
+                      setFilters((f) => ({
+                        ...f,
+                        [field]: values ? [...values] : undefined,
+                      }))
+                    }
+                    options={optionsByFilter[field]}
+                    include={
+                      isNil(filtersInclude[field])
+                        ? true
+                        : filtersInclude[field]
+                    }
+                    setInclude={(include) =>
+                      setFiltersInclude((f) => ({ ...f, [field]: include }))
+                    }
+                  />
+                ),
+              )}
             </GroupContent>
           )}
         </div>
