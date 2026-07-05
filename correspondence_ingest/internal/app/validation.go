@@ -2,6 +2,7 @@ package app
 
 import (
 	"encoding/csv"
+	"errors"
 	"fmt"
 	"io"
 	"os"
@@ -90,8 +91,8 @@ func validateCSVFile(path string, expectedHeader []string) (int, error) {
 		if isIndexCSVHeader(expectedHeader) {
 			hasPageNumber := strings.TrimSpace(row[1]) != ""
 			hasReference := strings.TrimSpace(row[2]) != ""
-			if hasPageNumber == hasReference {
-				return 0, fmt.Errorf("%s row %d requires exactly one of page_number or reference", path, i+2)
+			if !hasPageNumber && !hasReference {
+				return 0, fmt.Errorf("%s row %d requires page_number or reference", path, i+2)
 			}
 			if hasReference && row[3] != "false" {
 				return 0, fmt.Errorf("%s row %d cross-reference must not be bold", path, i+2)
@@ -102,7 +103,7 @@ func validateCSVFile(path string, expectedHeader []string) (int, error) {
 }
 
 func isOptionalCSVColumn(header []string, column string) bool {
-	return isIndexCSVHeader(header) && (column == "page_number" || column == "reference")
+	return isIndexCSVHeader(header) && (column == "page_number" || column == "reference" || strings.HasPrefix(column, "letter_"))
 }
 
 func isIndexCSVHeader(header []string) bool {
@@ -110,6 +111,9 @@ func isIndexCSVHeader(header []string) bool {
 }
 
 func validateIndexManifest(manifest indexManifest, csvRows int) error {
+	if err := validateIndexReferences(manifest); err != nil {
+		return fmt.Errorf("validate index manifest: %w", err)
+	}
 	rows := 0
 	seen := map[string]bool{}
 	for _, page := range manifest.Pages {
@@ -132,6 +136,51 @@ func validateIndexManifest(manifest indexManifest, csvRows int) error {
 		return fmt.Errorf("validate index dataset: manifest has %d entries but CSV has %d rows", rows, csvRows)
 	}
 	return nil
+}
+
+func validateIndexReferences(manifest indexManifest) error {
+	entriesByVolumeAndName := map[string]map[string][]indexEntry{}
+	for _, page := range manifest.Pages {
+		if entriesByVolumeAndName[page.Volume] == nil {
+			entriesByVolumeAndName[page.Volume] = map[string][]indexEntry{}
+		}
+		for _, entry := range page.Entries {
+			name := strings.TrimSpace(entry.Name)
+			entriesByVolumeAndName[page.Volume][name] = append(entriesByVolumeAndName[page.Volume][name], entry)
+		}
+	}
+
+	var validationErrors []error
+	for _, page := range manifest.Pages {
+		for i, entry := range page.Entries {
+			reference := strings.TrimSpace(entry.Reference)
+			if reference != "" && len(matchingReferencedEntries(entriesByVolumeAndName[page.Volume], reference)) == 0 && !isSuppressedMissingReference(page.Volume, entry.Name, reference) {
+				validationErrors = append(validationErrors, fmt.Errorf(
+					"%s entry %d (%q) references missing index entry %q in volume %s",
+					page.ImagePath, i+1, entry.Name, reference, page.Volume,
+				))
+			}
+		}
+	}
+	return errors.Join(validationErrors...)
+}
+
+type suppressedIndexReference struct {
+	volume    string
+	name      string
+	reference string
+}
+
+var suppressedMissingIndexReferences = map[suppressedIndexReference]bool{
+	{volume: "vol_1", name: "Effiat (marquis d’)", reference: "Coiffier-Ruzé"}: true, // Typo in the printed index; no target entry exists.
+}
+
+func isSuppressedMissingReference(volume, name, reference string) bool {
+	return suppressedMissingIndexReferences[suppressedIndexReference{
+		volume:    strings.TrimSpace(volume),
+		name:      strings.TrimSpace(name),
+		reference: strings.TrimSpace(reference),
+	}]
 }
 
 func validateLettersManifest(manifest lettersManifest, csvRows int) error {
@@ -315,10 +364,19 @@ func parseVolumeNumber(value string) (int, bool) {
 
 func validateIndexCSVMatchesManifest(path string, manifest indexManifest) error {
 	expected := [][]string{indexHeader}
-	for _, page := range sortIndexPages(manifest.Pages) {
-		for _, entry := range page.Entries {
-			expected = append(expected, []string{entry.Name, entry.PageNumber, entry.Reference, strconv.FormatBool(entry.IsBold), page.Volume})
-		}
+	temporary := path + ".expected"
+	if err := renderIndexCSV(temporary, manifest, lettersManifest{}); err != nil {
+		return err
+	}
+	defer os.Remove(temporary)
+	file, err := os.Open(temporary)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	expected, err = csv.NewReader(file).ReadAll()
+	if err != nil {
+		return err
 	}
 	return compareCSVRecords(path, expected)
 }

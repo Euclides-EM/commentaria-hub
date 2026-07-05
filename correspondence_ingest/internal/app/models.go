@@ -12,7 +12,7 @@ const failureManifestVersion = 4
 const responseValidationAttempts = 2
 
 var (
-	indexHeader   = []string{"name", "page_number", "reference", "is_bold", "volume"}
+	indexHeader   = []string{"name", "page_number", "reference", "is_bold", "volume", "letter_number", "letter_name", "letter_start_at_page", "letter_ends_at_page"}
 	lettersHeader = []string{"letter_number", "letter_name", "page_number", "volume"}
 )
 

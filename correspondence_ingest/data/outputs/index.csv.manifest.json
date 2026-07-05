@@ -772,7 +772,7 @@
         {
           "name": "Ardanne (Sr d')",
           "page_number": "",
-          "reference": "Coutel (Ant.)",
+          "reference": "Coutel (Antoine)",
           "is_bold": false
         },
         {
@@ -1169,7 +1169,7 @@
         {
           "name": "Atri (Acquaviva d’)",
           "page_number": "",
-          "reference": "Châteauvillain",
+          "reference": "Chateauvillain",
           "is_bold": false
         },
         {
@@ -2563,7 +2563,7 @@
         {
           "name": "Bordes (Sr de)",
           "page_number": "",
-          "reference": "Mercier (Jos.)",
+          "reference": "Mercier (Josias)",
           "is_bold": false
         },
         {
@@ -2589,7 +2589,13 @@
         {
           "name": "Boucqueval (Sr de)",
           "page_number": "",
-          "reference": "Hallé (Jacques), et Marcel (Cl.)",
+          "reference": "Hallé (Jacques)",
+          "is_bold": false
+        },
+        {
+          "name": "Boucqueval (Sr de)",
+          "page_number": "",
+          "reference": "Marcel (Claude)",
           "is_bold": false
         },
         {
@@ -3514,7 +3520,7 @@
         {
           "name": "Candale (de)",
           "page_number": "",
-          "reference": "Foix (François de)",
+          "reference": "Foix (Fr. de)",
           "is_bold": false
         },
         {
@@ -4018,27 +4024,27 @@
           "is_bold": false
         },
         {
-          "name": "Chateauvilain (comte de)",
+          "name": "Chateauvillain (comte de)",
           "page_number": "xxix",
           "is_bold": false
         },
         {
-          "name": "Chateauvilain (comte de)",
+          "name": "Chateauvillain (comte de)",
           "page_number": "122-123",
           "is_bold": false
         },
         {
-          "name": "Chateauvilain (comte de)",
+          "name": "Chateauvillain (comte de)",
           "page_number": "177",
           "is_bold": true
         },
         {
-          "name": "Chateauvilain (comte de)",
+          "name": "Chateauvillain (comte de)",
           "page_number": "178",
           "is_bold": true
         },
         {
-          "name": "Chateauvilain (comte de)",
+          "name": "Chateauvillain (comte de)",
           "page_number": "179",
           "is_bold": true
         },
@@ -4310,7 +4316,7 @@
         {
           "name": "Colomby (Sʳ de)",
           "page_number": "",
-          "reference": "Cauvigny (Fr. de)",
+          "reference": "Cauvigny (François de)",
           "is_bold": false
         },
         {
@@ -20108,8 +20114,26 @@
         },
         {
           "name": "Farnezi (le P.)",
-          "page_number": "",
-          "reference": "Fernesi, 149, 396",
+          "page_number": "149",
+          "reference": "",
+          "is_bold": false
+        },
+        {
+          "name": "Farnezi (le P.)",
+          "page_number": "396",
+          "reference": "",
+          "is_bold": false
+        },
+        {
+          "name": "Fernesi",
+          "page_number": "149",
+          "reference": "",
+          "is_bold": false
+        },
+        {
+          "name": "Fernesi",
+          "page_number": "396",
+          "reference": "",
           "is_bold": false
         },
         {
@@ -72545,7 +72569,7 @@
         {
           "name": "Auvray (d')",
           "page_number": "",
-          "reference": "Auvré (d')",
+          "reference": "Auvré",
           "is_bold": false
         },
         {
@@ -76653,7 +76677,7 @@
         {
           "name": "Lanovius",
           "page_number": "",
-          "reference": "La Noüe (de)",
+          "reference": "La Noue (de)",
           "is_bold": false
         }
       ]
@@ -76813,7 +76837,7 @@
         {
           "name": "Lesdiguières (duc de)",
           "page_number": "",
-          "reference": "Crequi (de)",
+          "reference": "Crequy (Ch. de)",
           "is_bold": false
         },
         {

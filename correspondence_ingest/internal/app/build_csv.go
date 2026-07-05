@@ -16,7 +16,17 @@ func buildCSVOutputs(cfg config, out io.Writer) error {
 		if err != nil {
 			return err
 		}
-		if err := renderIndexCSV(cfg.indexCSV, manifest); err != nil {
+		letters := lettersManifest{}
+		if cfg.lettersCSV != "" {
+			if _, err := os.Stat(manifestPath(cfg.lettersCSV)); err != nil {
+				return fmt.Errorf("build index CSV: letters manifest %s: %w", manifestPath(cfg.lettersCSV), err)
+			}
+			letters, err = loadLettersManifest(cfg.lettersCSV, true)
+			if err != nil {
+				return err
+			}
+		}
+		if err := renderIndexCSV(cfg.indexCSV, manifest, letters); err != nil {
 			return fmt.Errorf("build index CSV: %w", err)
 		}
 		if _, err := validateCSVFile(cfg.indexCSV, indexHeader); err != nil {
