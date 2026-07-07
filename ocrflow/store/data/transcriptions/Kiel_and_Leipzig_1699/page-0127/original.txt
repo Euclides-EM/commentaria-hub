@@ -1,0 +1,42 @@
+# Euclidis.
+
+*(Seitenzahl: 109)*
+
+# Nach der Löse-Kunst.
+
+Gegebene. | Begehrtes.
+
+1. a | ab | dd | bb + 4ac
+2. b | ac
+3. c | cb
+4. a | b + c
+5. d | b + 2c
+
+## Beweiß.
+
+d | b + 2c | n. 5. Gegeb.
+dd | bb + 4bc + 4cc | n. 4. II.
+b + c | a n. 4. Gegeb.
+4c | 4c
+4bc + 4cc | 4ac n. 3. II.
+dd + 4bc + 4cc | bb + 4bc + 4cc + 4ac n. 2. Gr. I.
+4bc + 4cc | 4bc + 4cc
+dd | bb + 4ac | n. 3. Gr. I.
+
+W. Z. B.
+
+# Der IX. Vortrag.
+
+## Das 9. Beweiß-Stück.
+
+Wenn man einen geraden Strich in zwey gleiche/ und zwey ungleiche Stücke theilet; So werden der beeden ungleichen Stücke ihre Vierecke/ zweymal so groß/ als das Viereck des halben Striches/ samt dem Vierecke des Mittel-Stückes seyn.
+
+Gegebene. | Begehrtes.
+
+1. Strich ab | □ bd + □ da | 2 □ bc + 2 □ cd.
+2. Getheilet in c
+3. Daß ac | cb
+
+O 3
+
+4. Und

@@ -1,0 +1,35 @@
+# Euclidis.
+
+*(Seitenzahl: 321)*
+
+Verfolg des Beweises.
+
+CDH ⋏ bac
+DCH ⋏ abc   n. Vorber.
+Dw. | CHD ⋏ bca | n. 32. I.
+u. | ab : DC | bc : CH | n. 4. VI.
+| ab : DC | bc : CE | n. 3. Geg.
+Dw. | bc : CH | bc : CE | n. 11. V.
+u. | CH | CE | n. 9. V.
+welches aber unmüglich / n. 9. Gr. I.
+
+II. Ahrt Vorbereitung.
+
+Man setze wiederum auf CD den
+Winckel   CDF ⋏ bac
+und   DCF ⋏ abc   n. 23. I.
+
+*[Figur: zwei Dreiecke, links das Dreieck abc, rechts das Dreieck DCE mit punktierten Linien zu dem unterhalb liegenden Punkt F]*
+
+Beweiß.
+
+CDF ⋏ bac
+DCF ⋏ abc   n. Vorber.
+α Dw. | CFD ⋏ bca | n. 32. I.
+u. | ac : DF | ab : DC | n. 4. VI.
+| ac : DE | ab : DC | n. 4. Geg.
+Dw. | ac : DE | ac : DF | n. 11. V.
+u. | DE | DF | n. 9. V.
+
+Ss
+CFD

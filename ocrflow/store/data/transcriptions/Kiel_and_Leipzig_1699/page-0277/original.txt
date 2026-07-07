@@ -1,0 +1,40 @@
+# Euclidis.
+
+*(Seitenzahl: 259)*
+
+# Der XI. Vortrag.
+
+## Das II. Beweißstück.
+
+Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
+
+Gegebene. | Begehrtes.
+
+A ________ | A : a | B : b.
+a __
+B ________
+b __
+C ________
+c __
+
+*[Figur: Strecken A, a, B, b, C, c von verschiedener Länge]*
+
+A : a | C : c
+B : b | C : c
+
+## Vorbereitung:
+
+1. Nehme man A zweymahl
+2. Deßgleichen auch B zweymahl
+3. Die Grösse a und b aber jedwede viermahl.
+
+2A ________________
+4a ____________
+2B ________________
+4b ____________
+
+*[Figur: Strecken 2A, 4a, 2B, 4b]*
+
+Kk 2
+
+I. Beweiß.

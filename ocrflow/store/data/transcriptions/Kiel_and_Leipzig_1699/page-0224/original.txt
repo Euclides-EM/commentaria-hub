@@ -1,0 +1,42 @@
+# Das IV. Buch
+
+*(Seitenzahl: 206)*
+
+## Vorbereitung.
+
+Aus dem Mittel-Düpffel b werde zu dem einen Winckel g ein gerader Strich bg gezogen.
+
+## I. Beweiß.
+
+beg + bcg ∧ ⌓ n. 18. III.
+Dw. ebg + egb ∧ ∟ }
+und cbg + cgb ∧ ∟ } n. 32. I.
+Dw. ebg + ebg + cbg + cgb ∧ ⌓ n. 2. Gr. I.
+a. oder ebc + egc ∧ ⌓ n. 9. Gr. q. I.
+kim + mil ∧ ⌓ n. 13. I.
+Dw. kim + mil ∧ ebc + egc n. 1. und 10. Gr. I.
+mil ∧ ebc n. 1. Wirck.
+Dw. kim ∧ egc n. 3. Gr. I.
+
+## II. Beweiß.
+
+bda + acb ∧ ⌓ n. 18. III.
+dac + dbc ∧ ⌓ n. 32. I. a.
+hkm + mki ∧ ⌓ n. 13. I.
+Dw. hkm + mki ∧ dac + dbc n. 1. u. 10. Gr. I.
+hkm ∧ dbc n. 4. Wirck.
+Dw. mki ∧ dac n. 3. Gr. I.
+
+## III. Beweiß.
+
+a + g + f ∧ ⌓ }
+i + k + m ∧ ⌓ } n. 32. I.
+Dw. i + k + m ∧ a + g + f n. 1. u. 10. Gr. I.
+i + k ∧ a + g n. 1. u. 2. Bew.
+Dw. kmi ∧ afg n. 3. Gr. I.
+
+## Beschluß.
+
+Ist also das △ afg gleichwincklicht mit △ imk, und ümb den gegebenen Kreyß cde beschrieben. n. 4. Beschr. IV. W. Z. M.
+
+Der

@@ -1,0 +1,33 @@
+# Das I. Buch
+
+*(Seitenzahl: 50)*
+
+         Ad | AC        n. 2. Gegeb.
+β Drw.   bd | BC        n. 4. Vortr.
+         Ab | AB
+         Ac | AB        n. 1. Gegeb.
+Drw.     Ac | Ab        n. 1. Gr-S.
+und      fbc ⋏ ecb      n. 5. Vortr.
+         fbc ⊼ dbc      n. 9. Gr-S.
+Dw.      ecb ⊼ dbc      n. 1. Gr-S. c.
+         ecb ⊼ dcb      n. 9. Gr-S.
+Dw.      dbc ⊼ dcb      n. 1. Gr-S. e.
+und      dc ⊣ db        n. 19. Vortr.
+         db | BC        n. Beweiß β.
+Dw.      BC ⊢ dc.       n. 1. Gr-S. d.
+
+Beschluß.
+
+Ist also allezeit des △es / dessen zwo Seiten / zweyen Seiten eines andern △es gleich sind / aber einen grössern Winckel haben / Grundstrich grösser / als des andern △es / welches einen kleinern Winckel hat.   W. Z. B.
+
+# Der XXV. Vortrag.
+
+Das 16. Beweiß-Stück.
+
+Wenn zwey Dreyecke / zwo Seiten zweyen Seiten/jedwede jedweder/gleich groß/eines aber einen grössern Grundstrich / als das andere hat: So wird selbiges auch einen grössern Winckel/als das andere / zwischen seinen zwo Seiten haben.
+
+Gegebene.                    Begehrte.
+1. Das △ ABC                 BAC ⊼ bac
+2.     △ abc
+
+3.AB

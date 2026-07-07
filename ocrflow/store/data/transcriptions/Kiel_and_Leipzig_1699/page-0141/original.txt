@@ -1,0 +1,41 @@
+# Euclidis
+
+*(Seitenzahl: 123)*
+
+c | cb
+d | bd
+f | cd
+e | ad
+
+## Beweiß.
+
+2be + dd | bb + ee | n. 7. II.
+ff | ff
+2be + dd + ff | bb + ee + ff | n. 2. Gr. I.
+ee + ff | aa n. 47. I.
+2be + dd + ff + (ee + ff) | bb (+ ee + ff) + aa | n. 2. Gr. I.
+2be + dd + ff | bb + aa | n. 3. Gr. I.
+cc | dd + ff n. 47. I.
+2be (+ dd + ff) + cc | bb + aa (+ dd + ff) | n. 2. Gr. I.
+2be + cc | bb + aa
+2be | 2be
+cc | bb + aa + — 2be | n. 3. Gr. I.
+
+W. Z. B.
+
+## Andere Arth.
+
+aa | ff + bb — 2bd + dd | n. 47. I.
+ff + dd | cc
+aa (+ ff + dd) | (ff) + bb — 2bd (+ dd) + cc | n. 2. Gr. I.
+aa | bb — 2bd + cc | n. 3. Gr. I.
+
+W. Z. B.
+
+## Anmerckung.
+
+Dieser Beweiß findet auch auff gewisse Maaß statt bey den recht-und stumpffwincklichten △ △ / wenn man das □ einer Seite/ so einem spitzigen Winckel übergespannet ist / vergleichen wil mit den übrigen beeden Seiten / deren eine dem rechten oder stumpffen Winckel / die andere aber dem übrigen spitzigen Winckel gegenüber stehet.
+
+Q 2
+
+Der

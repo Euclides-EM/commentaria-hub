@@ -1,0 +1,36 @@
+# Das IV. Buch
+
+*(Seitenzahl: 228)*
+
+I. Anhang.
+
+Hierauß erhellet / daß die Seiten des Sechseckes eben so
+groß seyn / als der Strahl oder halbe Durchschlag des Kreyses /
+welchem das Sechseck eingeschrieben ist.
+
+II. Anhang.
+
+Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
+gegebenen Kreyß eingeschrieben werden.
+
+*[Figur: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]*
+
+Wirckung.
+
+1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
+se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
+e und o schneidet.
+2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
+gemacht /welche den Kreyß in d und b schneiden.
+3. Werden die Striche fd und fb gezogen.
+4. Wird der Strich db gezogen.
+
+Beweiß.
+
+fe ⌒ fo
+ed ⌒ ob — n. 15. IV.
+Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
+u. — fd ⌒ fb — n. 9. Gr. q. I.
+Dw. — fd | fb — n. 29. III.
+
+Dw-
