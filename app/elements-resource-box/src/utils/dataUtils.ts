@@ -1,5 +1,5 @@
 import { Item } from "../types";
-import { startCase, uniq } from "lodash";
+import { startCase, uniq, uniqBy } from "lodash";
 import { ItemTypes } from "../constants";
 import type { model_Edition } from "@hub-api";
 import { toItemImageUrl } from "./util.ts";
@@ -9,6 +9,14 @@ type EditionWithVisualElementsTypes = model_Edition & {
 };
 
 const firstOrNull = <T>(arr: T[]): T | null => (arr.length > 0 ? arr[0] : null);
+
+const dedupeShelfmarksByScan = (
+  shelfmarks: NonNullable<model_Edition["shelfmarks"]>,
+) =>
+  uniqBy(
+    shelfmarks.filter((shelfmark) => shelfmark.scan?.trim()),
+    (shelfmark) => shelfmark.scan!.trim(),
+  );
 
 const toBookRanges = (books: number[]) => {
   return Array.from(new Set(books))
@@ -30,7 +38,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
     .map((edition) => {
       const editionWithVisualElementsTypes =
         edition as EditionWithVisualElementsTypes;
-      const shelfmarks = edition.shelfmarks || [];
+      const shelfmarks = dedupeShelfmarksByScan(edition.shelfmarks || []);
       const books = (edition.books || []).filter((value): value is number =>
         Number.isFinite(value),
       );
@@ -61,7 +69,7 @@ export const mapEditionsToItems = (editions: model_Edition[]): Item[] => {
         titleEn: edition.title_EN || null,
         imprint: edition.imprint || null,
         imprintEn: edition.imprint_EN || null,
-        facsimiles: shelfmarks.filter((s) => s.scan),
+        facsimiles: shelfmarks,
         type: edition.isElements ? ItemTypes.elements : ItemTypes.secondary,
         format: edition.format || null,
         elementsBooks: toBookRanges(books),

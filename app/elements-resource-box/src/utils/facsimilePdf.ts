@@ -3,6 +3,33 @@ import { OpenAPI } from "@hub-api";
 const facsimilePDFURL = (editionKey: string) =>
   `${OpenAPI.BASE.replace(/\/$/, "")}/editions/${encodeURIComponent(editionKey)}/facsimile.pdf`;
 
+const writeWindowMessage = (
+  targetWindow: Window,
+  title: string,
+  body: string,
+  options?: { loading?: boolean },
+) => {
+  targetWindow.document.title = title;
+  targetWindow.document.body.innerHTML = `
+    <main style="min-height: 100vh; display: grid; place-items: center; margin: 0; font-family: sans-serif; background: #f8fafc; color: #0f172a;">
+      <section style="display: flex; flex-direction: column; align-items: center; gap: 1rem; padding: 2rem; text-align: center;">
+        ${
+          options?.loading
+            ? '<div style="width: 2.5rem; height: 2.5rem; border: 3px solid #cbd5e1; border-top-color: #0f172a; border-radius: 9999px; animation: facsimile-spin 0.8s linear infinite;" aria-hidden="true"></div>'
+            : ""
+        }
+        <p style="margin: 0; line-height: 1.5;">${body}</p>
+      </section>
+    </main>
+    <style>
+      @keyframes facsimile-spin {
+        to { transform: rotate(360deg); }
+      }
+      body { margin: 0; }
+    </style>
+  `;
+};
+
 export async function openAuthenticatedFacsimilePDF(
   editionKey: string,
   bearerToken: string,
@@ -13,6 +40,9 @@ export async function openAuthenticatedFacsimilePDF(
     throw new Error("The browser blocked the PDF window.");
   }
   pdfWindow.opener = null;
+  writeWindowMessage(pdfWindow, "Opening main scan", "Loading main scan...", {
+    loading: true,
+  });
 
   try {
     const response = await fetch(facsimilePDFURL(editionKey), {
@@ -22,16 +52,28 @@ export async function openAuthenticatedFacsimilePDF(
       },
     });
     if (!response.ok) {
+      writeWindowMessage(
+        pdfWindow,
+        "Main scan unavailable",
+        `Opening the main scan failed (${response.status}).`,
+      );
       throw new Error(`Opening the main scan failed (${response.status}).`);
     }
 
-    const pdfURL = URL.createObjectURL(await response.blob());
+    const pdfBlob = await response.blob();
+    const pdfFile = new File([pdfBlob], `${editionKey}.pdf`, {
+      type: pdfBlob.type || "application/pdf",
+    });
+    const pdfURL = URL.createObjectURL(pdfFile);
     const pageFragment = pageNumber === undefined ? "" : `#page=${pageNumber}`;
     pdfWindow.location.replace(`${pdfURL}${pageFragment}`);
-
     window.setTimeout(() => URL.revokeObjectURL(pdfURL), 60_000);
   } catch (error) {
-    pdfWindow.close();
+    writeWindowMessage(
+      pdfWindow,
+      "Main scan unavailable",
+      error instanceof Error ? error.message : "Failed to open the main scan.",
+    );
     throw error;
   }
 }
