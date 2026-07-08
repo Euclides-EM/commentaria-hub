@@ -1,4 +1,4 @@
-# Vorrede.
+<!-- # Vorrede. -->
 
 Aufkleisterung oder Anleimung der gehörigen Worte können außgebessert werden/ und deßwegen sind selbige also gedruckt/ daß man sie mit einer Schere außschneiden/ und den Fehler durch Aufleimung damit bedecken kan.
 

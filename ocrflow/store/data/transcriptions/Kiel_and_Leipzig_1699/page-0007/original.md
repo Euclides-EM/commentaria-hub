@@ -1,4 +1,4 @@
-# Vorrede.
+<!-- # Vorrede. -->
 
 gen Dingen (A und B) ungleiche Stücke (c und d) abnimmt/ so bleiben ungleiche Stücke (e und f) übrig/ und zwar/ von welchem (A) das kleinere Stück (c) abgehet/ da bleibet das grössere (e) übrig: Wo (B) aber das grössere (d) abgenommen wird / da bleibet das kleinere (f) übrig.
 

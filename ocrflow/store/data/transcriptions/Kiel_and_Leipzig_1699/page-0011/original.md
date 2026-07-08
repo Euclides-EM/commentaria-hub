@@ -1,4 +1,4 @@
-# Vorrede.
+<!-- # Vorrede. -->
 
 die grösseste Deutlichkeit auf dem Zeichen der Gleichmässigkeit beruhe/ welches ein aufrecht stehender gerader Strich ist.
 

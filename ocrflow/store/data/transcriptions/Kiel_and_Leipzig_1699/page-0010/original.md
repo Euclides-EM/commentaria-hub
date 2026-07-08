@@ -1,4 +1,4 @@
-# Vorrede.
+<!-- # Vorrede. -->
 
 (Operatio)/ bißweilen auch die Vorbereitung (Præparatio): und wenn der Beweiß vollführet ist / so wird der Beschluß angehenget.
 

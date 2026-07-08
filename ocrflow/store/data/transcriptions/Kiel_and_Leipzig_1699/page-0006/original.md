@@ -1,4 +1,4 @@
-# Vorrede.
+<!-- # Vorrede. -->
 
 zulänglich sind / so habe ich dahero selbige mit etlichen Zusätzen zu vermehren und zu erläutern für nöthig und nützlich erachtet.
 
