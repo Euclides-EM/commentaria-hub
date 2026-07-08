@@ -20,6 +20,7 @@ import (
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/formatcov"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/futils"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/idgen"
+	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/markdown"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/name"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/pkg/pagesparser"
 	"github.com/samber/lo"
@@ -293,13 +294,22 @@ func (a *Annotation) GetAvailableCategories(datasetID, id string) ([]string, err
 	categorySet := make(map[string]struct{})
 
 	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
-		if err != nil {
-			return nil, err
+		af, _, altoErr := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
+		if altoErr == nil {
+			for _, ot := range af.Tags.OtherTags {
+				categorySet[ot.Label] = struct{}{}
+			}
 		}
 
-		for _, ot := range af.Tags.OtherTags {
-			categorySet[ot.Label] = struct{}{}
+		md, mdErr := a.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, page)
+		if mdErr != nil {
+			if altoErr != nil {
+				return nil, fmt.Errorf("failed to retrieve markdown or ALTO annotation: [ALTO err: %w] [markdown err: %w]", altoErr, mdErr)
+			}
+			continue
+		}
+		for _, ot := range md.GetCategories() {
+			categorySet[ot] = struct{}{}
 		}
 	}
 
@@ -326,52 +336,38 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	if len(pages) == 0 {
 		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
 	}
-	if len(categories) == 0 {
-		categories = []string{"MainZone-Head--Book", "MainZone-Head--Section"}
+
+	categories, allLocs, annAltoErr := a.getIndexFromAnnotationAlto(pages, ann, categories)
+	if annAltoErr == nil {
+		return &annotation.Index{
+			DatasetID:    datasetID,
+			AnnotationID: id,
+			Nodes:        buildNodes(categories, allLocs),
+		}, nil
 	}
 
-	allLocs := make([]categoryPageContent, 0)
+	// todo: add here getIndexFromAnnotationMarkdown
 
-	for _, page := range pages {
-		af, _, err := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
-		if err != nil {
-			return nil, fmt.Errorf("load ALTO: %w", err)
-		}
-
-		headers, err := alto.ExtractCategoryContents(af, categories, " / ")
-		if err != nil {
-			return nil, fmt.Errorf("failed to extract headers from ALTO page %d: %w", page, err)
-		}
-
-		slices.SortFunc(headers, func(a, b *alto.CategoryAndContent) int {
-			if a.VerticalPosition < b.VerticalPosition {
-				return -1
-			}
-			if a.VerticalPosition > b.VerticalPosition {
-				return 1
-			}
-			if a.HorizontalPosition < b.HorizontalPosition {
-				return -1
-			}
-			if a.HorizontalPosition > b.HorizontalPosition {
-				return 1
-			}
-			return 0
-		})
-		for _, h := range headers {
-			allLocs = append(allLocs, categoryPageContent{
-				page:     page,
-				category: h.Category,
-				content:  h.Content,
-			})
-		}
+	ds, err := a.datasetSvc.Get(datasetID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get dataset: %w", err)
+	}
+	if ds.EditionID == "" {
+		return nil, fmt.Errorf("annotation doesn't contain ALTO files for one or more of the pages and dataset doesn't have an edition to extract index from markdown: %w", annAltoErr)
 	}
 
-	return &annotation.Index{
-		DatasetID:    datasetID,
-		AnnotationID: id,
-		Nodes:        buildNodes(categories, allLocs),
-	}, nil
+	// todo: add here getIndexFromEditionAlto
+
+	categories, allLocs, annMdErr := a.getIndexFromEditionMarkdown(pages, ds.EditionID, categories)
+	if annMdErr == nil {
+		return &annotation.Index{
+			DatasetID:    datasetID,
+			AnnotationID: id,
+			Nodes:        buildNodes(categories, allLocs),
+		}, nil
+	}
+
+	return nil, fmt.Errorf("failed to get annotation index, tried to get the index from alto and markdown but both failed: [ALTO err: %w] [markdown err: %w]", annAltoErr, annMdErr)
 }
 
 func (a *Annotation) Delete(datasetID string, annotationID string, fileSysClean bool) error {
@@ -483,6 +479,8 @@ func (a *Annotation) GetReviewByIndex(datasetID string, annotationID string, toR
 		if err != nil {
 			return nil, fmt.Errorf("load ALTO: %w", err)
 		}
+
+		// todo: add support for markdown...
 
 		bp, err := alto.ExtractBlocksByCategory(af, toReview.Category)
 		if err != nil {
@@ -653,6 +651,76 @@ func (a *Annotation) Merge(datasetID string, dstAnnID string, req annotation.Mer
 	}
 
 	return dstAnn, nil
+}
+
+func (a *Annotation) getIndexFromAnnotationAlto(pages []int, ann *annotation.Annotation, categories []string) ([]string, []categoryPageContent, error) {
+	altoCat := categories
+	if len(altoCat) == 0 {
+		altoCat = []string{"MainZone-Head--Book", "MainZone-Head--Section"}
+	}
+	allLocs := make([]categoryPageContent, 0)
+	for _, page := range pages {
+		af, _, altoErr := a.fileSysMgt.RetrieveAnnotationAltoPage(ann, fmt.Sprintf("%d", page))
+		if altoErr != nil {
+			return nil, nil, fmt.Errorf("failed to retrieve annotation alto: %w", altoErr)
+		}
+		headers, err := alto.ExtractCategoryContents(af, altoCat, " / ")
+		if err != nil {
+			return nil, nil, fmt.Errorf("failed to extract headers from ALTO page %d: %w", page, err)
+		}
+
+		slices.SortFunc(headers, func(a, b *alto.CategoryAndContent) int {
+			if a.VerticalPosition < b.VerticalPosition {
+				return -1
+			}
+			if a.VerticalPosition > b.VerticalPosition {
+				return 1
+			}
+			if a.HorizontalPosition < b.HorizontalPosition {
+				return -1
+			}
+			if a.HorizontalPosition > b.HorizontalPosition {
+				return 1
+			}
+			return 0
+		})
+		for _, h := range headers {
+			allLocs = append(allLocs, categoryPageContent{
+				page:     page,
+				category: h.Category,
+				content:  h.Content,
+			})
+		}
+	}
+
+	return altoCat, allLocs, nil
+}
+
+func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string, categories []string) ([]string, []categoryPageContent, error) {
+	allLocs := make([]categoryPageContent, 0)
+	seenCategories := make(map[string]struct{})
+	for _, page := range pages {
+		md, editionMarkdownErr := a.fileSysMgt.RetrieveEditionMarkdownPage(editionKey, page)
+		if editionMarkdownErr != nil {
+			return nil, nil, fmt.Errorf("failed to retrieve edition markdown page: %w", editionMarkdownErr)
+		}
+		headers, err := markdown.ExtractCategoryContentsFromMarkdown(md, categories, " / ")
+		if err != nil {
+			return nil, nil, fmt.Errorf("failed to extract headers from markdown page %d: %w", page, err)
+		}
+		for _, h := range headers {
+			allLocs = append(allLocs, categoryPageContent{
+				page:     page,
+				category: h.Category,
+				content:  h.Content,
+			})
+			seenCategories[h.Category] = struct{}{}
+		}
+	}
+	if len(categories) == 0 {
+		return lo.Keys(seenCategories), allLocs, nil
+	}
+	return categories, allLocs, nil
 }
 
 func buildNodes(remainingCats []string, data []categoryPageContent) []*annotation.IndexNode {

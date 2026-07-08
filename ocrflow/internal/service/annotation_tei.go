@@ -101,7 +101,11 @@ func (t *AnnotationTEI) GetTxt(datasetID string, annotationID string, pageNumOrK
 
 	// 1) Try ALTO page first
 	if a, _, err := t.fileSysMgt.RetrieveAnnotationAltoPage(ann, pageNumOrKey); err == nil {
-		alto.ExtractTextContentsFromAlto(a)
+		return alto.ExtractTextContentsFromAlto(a), nil
+	}
+
+	if md, err := t.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, pageNumOrKey); err == nil {
+		return md.Content, nil
 	}
 
 	// 2) TXT fallback: transcription
@@ -134,6 +138,10 @@ func (t *AnnotationTEI) getTEI(ann *annotation.Annotation, pageNumOrKey string, 
 		imageURL := path.Join(t.fileSysMgt.DatasetImagesDirByID(ann.DatasetID), pagesparser.PageOrKeyToPNGFilename(pageNumOrKey))
 		// todo: support items in alto
 		return tei2.BuildTEIFromALTO(pageNumOrKey, a, nil, imageURL, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
+	}
+
+	if md, err := t.fileSysMgt.RetrieveAnnotationMarkdownPage(ann, pageNumOrKey); err == nil {
+		return tei2.BuildTEIFromMarkdown(pageNumOrKey, md, t.getBibleMetadata(ann.DatasetID, pageNumOrKey))
 	}
 
 	// 2) TXT fallback: transcription + translations + image url

@@ -6,14 +6,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model"
 	"github.com/Euclides-EM/commentaria-hub/ocrflow/internal/model/annotation"
 )
 
-func (m *Manager) RetrieveEditionTXTPage(edition *model.Edition, pageNum string) (lines []string, translationsByLang map[string][]string, error error) {
-	dir := m.EditionTxtPageTranscriptionDir(edition, pageNum)
+func (m *Manager) RetrieveEditionTXTPage(editionKey string, pageNum string) (lines []string, translationsByLang map[string][]string, error error) {
+	dir := m.EditionTxtPageTranscriptionDir(editionKey, pageNum)
 	if _, err := os.Stat(dir); os.IsNotExist(err) {
-		return nil, nil, fmt.Errorf("edition TXT page transcription directory %s does not exist for edition %s", dir, edition.Key)
+		return nil, nil, fmt.Errorf("edition TXT page transcription directory %s does not exist for edition %s", dir, editionKey)
 	}
 
 	return m.extractLinesTranscriptionAndTranslations(dir)

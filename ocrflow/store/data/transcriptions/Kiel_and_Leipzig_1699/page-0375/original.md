@@ -1,0 +1,33 @@
+<!-- # Euclidis. -->
+
+<!-- *(Seitenzahl: 357)* -->
+
+Dw. △ eab : △ kfg ⊐ be : kg n. 19. VI.
+△ bec ähnlich △ kgi n. Bew. δ.
+Dw. △ bec : △ kgi ⊐ be : kg n. 19. VI.
+u. △ eab : △ kfg | △ bec : △ kgi n. 11. V.
+Aus eben diesen Ursachen ist auch
+△ ecd : △ gih | △ bec : △ kgi
+Dw. △ ecd : △ gih | △ eab : △ kfg n. 11. V.
+△ △ △ △ △ △
+eab + bec + ecd : kfg + kgi + gih | △ eab : △ kfg n. 1. V.
+ab : fg = △ eab : △ kfg n. 17. VI.
+Dw. △ △ △ △ △ △
+eab + bec + ecd : kfg + gki + gki = ab : fg n. 11. V.
+△ △ △ △ △ △
+eab + bed + bcd : kfg + gki + ghi | ⬠ cad : ⬠ hfi n. 9. Gr. q. I.
+Dw. ⬠ cad : ⬠ hfi = ab : fg
+u. ⬠ cad : ⬠ hfi | △ eab : △ kfg n. 11. V.
+
+## Beschluß.
+
+Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem gantzen Vieleck Verhältnüß-ähnliche oder ebenmässige Dreyecke abgetheilet werden. Es stehen auch die ähnliche Vielecke gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
+
+# Der XXI. Vortrag.
+
+## Das 15. Beweiß-Stück.
+
+Welche geradstrichichte Gestalte einer einigen Gestalt ähnlich sind/ dieselben sind auch einander selbst ähnlich.
+
+Y y 3
+Gegebe-

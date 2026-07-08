@@ -1,0 +1,30 @@
+<!-- # Euclidis. -->
+
+<!-- *(Seitenzahl: 83)* -->
+
+lichten Dreyeck vermag der/dem rechten Winckel entgegen gesetzte Strich/ so viel/ als die beeden übrigen Seiten.
+
+Gegebenes. | Begehrtes.
+1. Rechtwincklichtes Dreyeck fxg | □ fg | □ xg + □ fx.
+2. fxg ∠ ⌐
+3. Dem rechten Winckel entgegen gesetzte Seite fg.
+4. Die beeden Seiten xg und xf, welche den ⌐ begreiffen.
+
+## Vorbereitung.
+
+Es werden gemacht.
+
+1. Auff den Strich fg das □ fpeg
+2. - - - xf - □ fxlr
+3. - - - xg - □ xgh | n. 46. Vortr.
+4. Aus dem Düttel x der Strich xi = ge = fp n. 31. Vortr.
+5. Aus dem Düttel x der Strich xe
+6. - - - - x - - xp
+7. - - - - f - - fh
+8. - - - - g - - gr
+
+*[Figur: rechtwinckliges Dreyeck fxg mit den drey Vierecken über den Seiten und punktierten Hülfslinien; Punkte r, m, s, k, f, i, o, e, b, a, g, c, x, l, d, h]*
+
+L 2
+
+Beweiß

@@ -205,6 +205,7 @@ const getMatchIdsForElement = (
 const joinLineTexts = (
   lines: LineTextWithAnchors[],
   alignLines: boolean,
+  blockType?: string,
 ): ParagraphTextWithAnchors[] => {
   if (!alignLines) {
     const paragraphs: ParagraphTextWithAnchors[] = []
@@ -220,6 +221,7 @@ const joinLineTexts = (
         text: currentText,
         anchors: currentAnchors,
         lineRanges: currentLineRanges,
+        blockType,
       })
       currentText = ''
       currentAnchors = {}
@@ -254,7 +256,7 @@ const joinLineTexts = (
     pushCurrent()
     return paragraphs.length
       ? paragraphs
-      : [{ text: '', anchors: {}, lineRanges: [] }]
+      : [{ text: '', anchors: {}, lineRanges: [], blockType }]
   }
 
   const paragraphs: ParagraphTextWithAnchors[] = []
@@ -292,6 +294,7 @@ const joinLineTexts = (
       text: currentText,
       anchors: currentAnchors,
       lineRanges: currentLineRanges,
+      blockType,
     })
     currentText = ''
     currentAnchors = {}
@@ -338,8 +341,11 @@ const joinLineTexts = (
   pushCurrent()
   return paragraphs.length
     ? paragraphs
-    : [{ text: '', anchors: {}, lineRanges: [] }]
+    : [{ text: '', anchors: {}, lineRanges: [], blockType }]
 }
+
+const getTeiBlockType = (element: Element) =>
+  getElementAttr(element, 'type') || undefined
 
 export const renderStructuredDivToParagraphs = (
   div: Element,
@@ -351,6 +357,7 @@ export const renderStructuredDivToParagraphs = (
   const paragraphs: ParagraphTextWithAnchors[] = []
 
   for (const container of containers) {
+    const blockType = getTeiBlockType(container)
     const lines = getLineElements(container)
     if (lines.length) {
       const renderedLines = lines.map((line) => {
@@ -367,7 +374,7 @@ export const renderStructuredDivToParagraphs = (
           certaintyDegree: degree,
         } satisfies LineTextWithAnchors
       })
-      const blocks = joinLineTexts(renderedLines, opts.alignLines)
+      const blocks = joinLineTexts(renderedLines, opts.alignLines, blockType)
       for (const block of blocks) {
         paragraphs.push(block)
       }
@@ -393,6 +400,7 @@ export const renderStructuredDivToParagraphs = (
               },
             ]
           : [],
+      blockType,
     })
   }
 
@@ -651,7 +659,10 @@ export const renderStructuredDiv = (
         paragraph.lineRanges,
         !!opts.showCertaintyVisualization,
       )
-      return `<p>${html}</p>`
+      const blockTypeAttr = paragraph.blockType
+        ? ` data-tei-block-type="${escapeHtmlAttr(paragraph.blockType)}"`
+        : ''
+      return `<p${blockTypeAttr}>${html}</p>`
     })
     .join('')
 }
@@ -819,7 +830,10 @@ export const renderOriginalView = (
   const parts = paragraphs.map((paragraph, index) => {
     const spans = paragraphSpans.get(index) || []
     const paragraphTextAttr = escapeHtmlAttr(encodeURIComponent(paragraph.text))
-    return `<p data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}">${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges, !!opts.showCertaintyVisualization)}</p>`
+    const blockTypeAttr = paragraph.blockType
+      ? ` data-tei-block-type="${escapeHtmlAttr(paragraph.blockType)}"`
+      : ''
+    return `<p data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttr}>${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges, !!opts.showCertaintyVisualization)}</p>`
   })
 
   return parts.join('') || '<p></p>'

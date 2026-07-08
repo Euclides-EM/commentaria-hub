@@ -1,0 +1,34 @@
+<!-- *(Seitenzahl: 66)* -->
+
+<!-- # Das I. Buch -->
+
+2. Begebenheit.
+
+Gegebenes. | Begehrtes.
+1. □ ABDC | ABDC ⌻ CDEF
+2. □ CDEF
+3. Grundstrich CD
+4. AE=CD
+
+*[Figur: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, F, B, E oben und C, D unten]*
+
+Beweiß.
+
+AB | CD
+FE | CD } n. 34. Vortr.
+Dw. AB | FE n. 1. Gr:S.
+FB | FB
+AB — FB | FE—FB n. 3. Gr:S.
+oder AF | BE
+AC | BD
+FC | ED } n. 34. Vortr.
+Dw. AEF ⩓ BDE n. Zugab. 8. Vortr.
+BFCD ⩓ BFCD
+Dw. △ BFCD + △ AEF | △ BDE + △ BFCD n. 2. Gr:S
+oder ABDC ⌻ CDEF n. 9. Gr:S. q.
+
+3. Begebenheit.
+
+*[Figur: zwey schraffirte Nebenstrichichte Vierecke auff dem Grundstrich CD, mit den Puncten A, B, F, E oben, G in der Mitte und C, D unten]*
+
+Be-

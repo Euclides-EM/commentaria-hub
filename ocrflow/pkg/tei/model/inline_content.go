@@ -11,7 +11,9 @@ type Inline struct {
 	Corresp string `xml:"corresp,attr,omitempty"`
 	Facs    string `xml:"facs,attr,omitempty"`
 	Ref     string `xml:"ref,attr,omitempty"`
+	Target  string `xml:"target,attr,omitempty"`
 	Ana     string `xml:"ana,attr,omitempty"`
+	Rend    string `xml:"rend,attr,omitempty"`
 }
 
 // MarshalXML implements xml.Marshaler so that plain text (XMLName.Local == "")
@@ -34,8 +36,14 @@ func (i Inline) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	if i.Ref != "" {
 		attrs = append(attrs, xml.Attr{Name: xml.Name{Local: "ref"}, Value: i.Ref})
 	}
+	if i.Target != "" {
+		attrs = append(attrs, xml.Attr{Name: xml.Name{Local: "target"}, Value: i.Target})
+	}
 	if i.Ana != "" {
 		attrs = append(attrs, xml.Attr{Name: xml.Name{Local: "ana"}, Value: i.Ana})
+	}
+	if i.Rend != "" {
+		attrs = append(attrs, xml.Attr{Name: xml.Name{Local: "rend"}, Value: i.Rend})
 	}
 	start.Attr = attrs
 	if err := e.EncodeToken(start); err != nil {
