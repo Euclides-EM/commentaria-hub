@@ -1,0 +1,31 @@
+<!-- # Das I. Buch -->
+
+<!-- *(Seitenzahl: 26)* -->
+
+Vorbereitung.
+
+Man ziehe aus b, wo die ersten beeden Striche sich vereinigen/ zu dem Düttel d, wo die andern beeden Striche zusammen stossen / einen geraden Strich bd.
+
+*[Figur: zwey waagrechte Doppelstriche B–A und C–F–D, darunter ein Dreyeck mit den Düttelen b, d, e und punktierten Strichen]*
+
+Verfolg des Beweises.
+
+da | DE nach angenommenem β.
+AB | DE nach Gegebenen 2.
+Dw. AB | da nach 1. Grund-Satz.
+AB | ab nach Gegebenen 2.
+Dw. da | ab nach 1. Grund-S.
+und abd ⋏ adb nach 5. Vortrag.
+
+cd | DF nach angenommem β.
+CB | DF nach Gegeb. 3.
+Dw. CB | cd nach 1. Grund-S.
+CB | cb nach Gegeb. 3.
+Dw. cd | cb nach 1. Grund-S.
+α und cbd | cdb nach 5. Vortrag.
+
+cbd ⋏ abd nach 9. Grund-S.
+cbd ⋏ cdb nach 5. Beweiß. α
+cdb ⋏ abd nach 1. Grund-S. c.
+
+adb

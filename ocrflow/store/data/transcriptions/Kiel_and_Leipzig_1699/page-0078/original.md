@@ -1,0 +1,40 @@
+<!-- # Das I. Buch. -->
+
+<!-- *(Seitenzahl: 60)* -->
+
+Vorbereitung.
+
+Durch alle drey Striche AB, EF und CD werde der einfallende Strich GH gezogen.
+
+Beweiß.
+
+        BIL ⋏ FLK
+        DKH ⋏ FLK   n. 29. Vortr.
+Dw.   DKH ⋏ BIL     n. 1. Gr-S.
+und     AB ╪ CD     n. 28. Vortr.
+
+Beschluß.
+
+Werden also diejenigen Striche / so neben den dritten in gleicher Weite hinlauffen/ auch Neben-Striche seyn.  W. Z. B.
+
+# Der XXXI. Vortrag.
+
+Das 22. Werck-Stück.
+
+Gegen einen gegebenen geraden Strich/durch den zur Seiten gegebenen Düttel/ einen Neben-Strich zu ziehen.
+
+Gegebene.                    Begehrte.
+1. Der gerade Strich AB      1. CH = AB
+2.  Der Düttel   C           2. CH durch den Düttel C gezogen.
+
+Wirckung.
+
+1. Aus dem gegebenen Düttel C wird ein gerader Strich CD nach dem Strich AB gezogen.
+2. Auff den Strich CD und zwar
+3. Auff den Düttel C setze man den Winckel DCH
+4. DCH ⋏ ADC nach 23. Vortr.
+5. Durch H und C ziehe man den Strich CH.
+
+*[Figur: Strich AB mit den Dütteln E und D, darüber der Strich CH; punktierte Linien verbinden C, D und H]*
+
+Be-

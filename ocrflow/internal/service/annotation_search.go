@@ -195,6 +195,7 @@ func (s *AnnotationSearch) searchWithinByTEIExtractor(ann *annotation.Annotation
 }
 
 func (s *AnnotationSearch) searchWithinCategories(ann *annotation.Annotation, maxResults int, rg *regexp.Regexp, page string, categories []string) ([]*common.ALTOPart, error) {
+	// todo: support markdown and edition level search
 	var results []*common.ALTOPart
 	a, _, err := s.fileSysMgt.RetrieveAnnotationAltoPage(ann, page)
 	if err != nil {

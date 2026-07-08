@@ -1,0 +1,39 @@
+<!-- # Euclidis -->
+
+<!-- *(Seitenzahl: 193)* -->
+
+Vorbereitung.
+
+1. Werde auff den Strich ac aus dem Mittel-Düpffel e ein Senckstrich en gezogen n. 12. I.
+2. Werde auch der Strich ec gezogen.
+
+Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+| α. | ▭ bld + □ le | □ ed |  |
+|  | ▭ cla + □ ln | □ nc | n. 5. II. |
+|  | □ ne | □ ne |  |
+| Dw. | ▭ cla + □ ln + □ ne | □ nc + □ ne | n. 2 Gr. I. |
+|  | □ le | □ ln + □ ne | n. 47. I. |
+| Dw. | ▭ cla + □ ln + □ ne + □ le | □ nc + □ ne + □ ln + □ ne | n. 2. Gr. I |
+| β. | ▭ cla + □ le | □ nc + □ ne | n. 3. Gr. I. |
+|  | ec | ed | n. 15 Beschr. I. |
+|  | □ ec | □ ed | n. 1. Gr. t. II. |
+|  | ▭ bld + □ le | □ ec | α n 1. Gr. I. |
+|  | □ nc + □ ne | □ ec | n. 47. I. |
+| D. | ▭ bld + □ le | □ nc + □ ne |  |
+| und | ▭ bld + □ le | ▭ cla + □ le β | n. 1. Gr. I. |
+| u. | ▭ bld | ▭ cla | n. 3. Gr. I. |
+
+IV. Begebenheit.
+
+Gegebene:
+
+1. Von beeden Strichen bd, ac gehet keiner durch den Mittel-Düpffel.
+2. Der Strich ac ist in zween gleiche Theil al | lc
+3. Der Strich bd aber in ungleiche Theile bl ⊣ ld geschnitten in l.
+
+Bb
+
+Vor-

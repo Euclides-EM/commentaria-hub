@@ -1,0 +1,30 @@
+<!-- *(Seitenzahl: 138)* -->
+
+<!-- # Das III. Buch -->
+
+## Beweiß
+
+ab | ad | af — n. angenom. und n. 15. Beschr. I.
+ab | ac | ag — n. 15. Beschr. I.
+Dw. ad | ac
+und af | ag — n. 1. Gr. I.
+
+Welches unmüglich n. 9. Gr. I.
+
+## Beschluß.
+
+Können also einander inwendig anrührende Kreyse nicht nur einen einigen Mittel-Düpffel haben. W. Z. B.
+
+# Der VII. Vortrag.
+
+## Das 6. Beweiß-Stück.
+
+Wenn man in eines Kreyses Durchschlag einen Düttel erwehlet / welcher nicht der Mittel-Düpffel ist / und von selbigem etliche gerade Striche zu des Kreyses Umfang zeucht: So wird der durch den Mittel-Düpffel gehende Strich/ der grösseste; dessen übriges aber der kleineste seyn: Alle andere aber / je näher sie dem Mittel-Düpffel kommen / werden länger / und je weiter sie von dem Mittel-Düpffel abstehen/ je kützer werden sie seyn: Zwey aber / welche nemlich gleichweit von dem Mittel-Düpffel entfernet sind / werden allezeit gleichlang seyn.
+
+Gegebene. — Begehrte.
+
+1. Der Kreyß bhlc. — 1. ab der längste
+2. Durchschlag bc. — 2. ac der kürtzeste.
+3. Erwehlter Düttel a, — 3. ak ⊣ ag
+
+4. Welcher

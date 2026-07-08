@@ -150,6 +150,7 @@ export type ParagraphTextWithAnchors = {
   text: string
   anchors: Record<string, number>
   lineRanges: ParagraphLineRange[]
+  blockType?: string
 }
 
 export type LineMatchMode = 'none' | 'original-id' | 'corresp'

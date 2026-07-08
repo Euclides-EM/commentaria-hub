@@ -87,20 +87,20 @@ func (m *Manager) DiagramCropsMetadataFile(editionKey string) string {
 	return path.Join(m.diagramsDir, editionKey+".json")
 }
 
-func (m *Manager) EditionTxtTranscriptionDir(ed *model.Edition) string {
-	return path.Join(m.baseDir, "transcriptions", ed.Key)
+func (m *Manager) EditionTxtTranscriptionDir(editionKey string) string {
+	return path.Join(m.baseDir, "transcriptions", editionKey)
 }
 
 func (m *Manager) AnnotationTxtTranscriptionDir(ann *annotation.Annotation) string {
 	return path.Join(m.baseAnnotationPath(ann), "transcriptions")
 }
 
-func (m *Manager) EditionTxtPageTranscriptionDir(ed *model.Edition, key string) string {
+func (m *Manager) EditionTxtPageTranscriptionDir(editionKey, key string) string {
 	var d = key
 	if pageNum, err := strconv.Atoi(key); err == nil {
 		d = pagesparser.PageToFilename(pageNum, "")
 	}
-	return path.Join(m.EditionTxtTranscriptionDir(ed), d)
+	return path.Join(m.EditionTxtTranscriptionDir(editionKey), d)
 }
 
 func (m *Manager) AnnotationTxtPageTranscriptionDir(ann *annotation.Annotation, key string) string {

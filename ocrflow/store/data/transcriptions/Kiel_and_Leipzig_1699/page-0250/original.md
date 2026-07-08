@@ -1,0 +1,35 @@
+<!-- # Das IV. Buch -->
+
+<!-- *(Seitenzahl: 226)* -->
+
+Gegebenes. — Begehrte.
+Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
+licht Sechseck
+2. dem gegebenen Kreyß einge-
+schrieben.
+
+*[Figur: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]*
+
+Wirckung.
+
+1. Wird der Durchschlag fc gezogen.
+2. Nach der Weite ca wird aus dem Düttel c ein Kreyß ge-
+zogen/ welcher den gegebenen Kreyß in den Dütteln d und b schneidet.
+3. Aus dem Düttel f wird nach der Weite fa auch ein Kreyß be-
+schrieben/welcher den gegebenen Kreyß in den Dütteln e und g schneidet.
+4. Werden die Striche bc, cd, de, ef, fg und gb gezogen.
+
+Vorbereitung.
+
+Es werden gezogen die Strahlen ab, ad, ae, ag.
+
+II. Arth.
+
+1. Werde aus dem Düttel c nach der Weite ca ein Kreyß/
+2. aus dieses Kreyses Mitteldüpffel c werde durch den Mittel-
+düpffel a ein gerader Strich cf,
+3. aus den beyden Dütteln b und d werden auch gerade Stri-
+che be, dg durch a, und
+4. die Striche cb, cd, de, ef, fg und gb gezogen.
+
+Be-
