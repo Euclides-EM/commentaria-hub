@@ -326,9 +326,6 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 	if err != nil {
 		return nil, fmt.Errorf("failed to get annotation: %w", err)
 	}
-	if !ann.Segmented {
-		return nil, fmt.Errorf("no ALTO directory found for annotation %s", ann.ID)
-	}
 	pages, err := pagesparser.IntRange(ann.Pages)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse pages for annotation %s: %w", ann.ID, err)
@@ -337,13 +334,19 @@ func (a *Annotation) GetAnnotationIndex(datasetID, id string, categories []strin
 		return nil, fmt.Errorf("no pages found for annotation %s", ann.ID)
 	}
 
-	categories, allLocs, annAltoErr := a.getIndexFromAnnotationAlto(pages, ann, categories)
-	if annAltoErr == nil {
-		return &annotation.Index{
-			DatasetID:    datasetID,
-			AnnotationID: id,
-			Nodes:        buildNodes(categories, allLocs),
-		}, nil
+	var annAltoErr error
+	if ann.Segmented {
+		categories, allLocs, err := a.getIndexFromAnnotationAlto(pages, ann, categories)
+		if err == nil {
+			return &annotation.Index{
+				DatasetID:    datasetID,
+				AnnotationID: id,
+				Nodes:        buildNodes(categories, allLocs),
+			}, nil
+		}
+		annAltoErr = err
+	} else {
+		annAltoErr = fmt.Errorf("annotation %s is not segmented", ann.ID)
 	}
 
 	// todo: add here getIndexFromAnnotationMarkdown
