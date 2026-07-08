@@ -625,7 +625,8 @@ export function TeiPane({
     !hasUnsavedChanges &&
     !isTextEditMode
 
-  const showPane = annotation?.ocred || datasetId === TITLE_PAGES_DATASET_ID
+  const showPane =
+    annotation?.ocred || datasetId === TITLE_PAGES_DATASET_ID || !!editionId
   const annotationSourceFailed =
     segmented && annotationTeiQuery.isError && !annotationTeiQuery.data
   const editionSourceFailed =
