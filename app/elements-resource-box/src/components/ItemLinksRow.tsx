@@ -77,7 +77,7 @@ export const ItemLinksRow = ({
   };
   const shouldShow =
     item.facsimiles.length > 0 ||
-    hasMainScan ||
+    (Boolean(token) && hasMainScan) ||
     (showDiagramsLink && item.diagramCropsAvailable) ||
     (showEditLink && Boolean(token));
 

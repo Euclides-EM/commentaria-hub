@@ -36,8 +36,8 @@ export const SubjectCategoriesNotice = ({ className, editionKey }: Props) => {
     <Notice className={className}>
       <IoWarning />
       <span>
-        <strong>Experimental</strong> Subject categories were generated with
-        LLM assistance and are still being refined. They may contain errors, use
+        <strong>Experimental</strong> Subject categories were generated with LLM
+        assistance and are still being refined. They may contain errors, use
         with care.{" "}
         {featureResultsUrl && (
           <a href={featureResultsUrl} target="_blank" rel="noopener noreferrer">
