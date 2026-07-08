@@ -1,35 +1,20 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 380)* -->
+<!-- *(Seitenzahl: 368)* -->
 
-|  |  |  |  |
-|---|---|---|---|
-|  | □ fo | □ qb | n. 24. VI. |
-|  | □ L ähnlich | □ qb | n. 2. Wirck. |
-| Dw. | □ fo | □ L | n. 21. VI. |
-|  | □ fp — | □ Bp | n. 9. Gr. I. |
-|  | □ fp | □ Bp + □ fo | n. 9. Gr. I. q. |
-| Dw. | ist □ fo der Uberschuß |  | n. 6. Beschr. VI. |
+*[Figur: Fünfeck A mit den Punkten H, I, C, K, D, darunter ein Viereck mit den Punkten c, d, g, m, e, f nebst punctirtem Bogen; rechts oben eine Gestalt B in einem Viereck mit punctirten Linien nach f und c; in der Mitte ein Fünfeck L mit den Punkten D und M; rechts ein hohes Viereck mit den Punkten a, d, k, c, i, d, h und punctirten Linien nach f]*
 
-## Beschluß.
+Wirckung.
 
-Ist also an den gegebenen Strich AB ein übertreffendes □ fp | △ K also angeschlagen/ daß der Uberschuß □ fo ähnlich dem □ L, auch auf gleiche Weise gesetzet seye. W. Z. M.
+1. Werde gemacht ein nebenstrichichtes Viereck de
+2. Auf den Strich DC, welches
+3. □ de | ⬠ A. n. 45. I.
+4. Auch werde ein nebenstrichichtes Viereck gf
+5. Auf den Strich df
+6. Nach dem Winckel fdg und
+7. □ gf | ⬠ B gemacht n. 44. I.
+8. Werde zu den beyden Strichen cd und dg ein mittelebenmässiger Strich dm oder DM gefunden. n. 13. VI.
+9. Auf diesen Strich dm oder DM werde ein Fünfeck L, welches
+10. ⬠ L ähnlich ⬠ A, gemacht. n. 18. VI.
 
-# Der XXX. Vortrag.
-
-## Das 10. Werck-Stück.
-
-Einen gegebenen geraden Strich nach der äusersten und mittelsten Verhältnüß zu theilen.
-
-### Gegebenes.
-
-Gerader Strich ab,
-
-### Begehrte.
-
-1. Strich ab getheilet
-2. Bey 1 nach äuserster und mittelster Verhältnüß.
-
-*[Figur: geometrische Konstruktion aus Quadraten und punktierten Linien mit den Punkten f, a, i, c, b, e, h, g, k, d, m]*
-
-Wir-
+Beweiß.

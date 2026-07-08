@@ -1,33 +1,37 @@
+<!-- *(Seitenzahl: 340)* -->
+
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 352)* -->
+2. auf welchen die Längen der Striche AD und
+3. CD gesetzet werden ad ⊤ AD / cd ⊤ CD   n. 3. I.
+4. Der gantze Strich ac wird in zween gleiche Theile getheilet n. 10. I.
+5. Aus dem Mittel g wird nach der Weite ag ein Halbkreyß beschrieben,
+6. Aus dem Düttel d, wo die beyden Striche zusammen stossen/ werde biß zu dem Kreyßzug ein Senckstrich db gezogen. n. 11. I.
 
-Dw. ist cdefg ähnlich der Gestalt abhik, und eben so gesetzet n. 1. Beschr. VI.
+## Vorbereitung.
 
-## Beschluß.
-
-Ist also ein dem gegebenen Fünfeck abhik, ähnliches und eben so gesetztes Fünfeck cdefg auf den gegebenen Strich cd gesetzet. W. Z. M.
-
-## Des XIIX. Vortrags Anhang.
-
-Vortheilhafftiger kan dieser Aufgabe ein Genügen geschehen/ wenn
-
-1. aus dem Winckel A zu denen gegenstehenden Winckeln C D E gerade Striche gezogen werden.
-
-2. Dem gegebenen geraden Strich ab ein gleichmässiger von der Seiten AB abgeschnitten wird n. 3. I.
-
-3. Aus | b gegen | BC ein Nebenstrich | bc,
-4. | c | CD | cd,
-5. | d | DE | de,
-6. | e | EF | ef gezogen wird n. 31. I.
-
-*[Figur: Sechseck ABCDEF mit einwärts liegendem ähnlichen Sechseck abcdef; von A gehen punktierte Striche zu den Ecken; oben der Strich A a—b B]*
+Es werden die beyden geraden Striche ab und cb gezogen.
 
 ## Beweiß.
 
-BC ∓ bc n. 3. W.
-Dw. ACB ⋏ acb
-u. ABC ⋏ abc n. 29. I.
-CAB ⋏ cab n 8. Gr. I.
+|  |  |  |
+|---|---|---|
+|  | abc ⋏ ∟ | n. 31. III. |
 
-Dw.
+Der Strich bd ist ein aus dem rechten Winckel auf den Grundstrich gezogener Senckstrich n. 6. Wirck.
+
+|  |  |  |
+|---|---|---|
+| Dw. sind | △ abd ähnlich △ cbd | ⟩ |
+| und | △ abd △ abc |  |
+| und | △ cbd △ abc | n. 8. VI. |
+| Dw. | ad : db ⊤ db : cd | n 1. Besch. VI. |
+| oder | AD : db ⊤ db : CD. | n. Anh. 7. V. |
+
+Dw. der Strich db ein Mittel-ebenmässiger Strich.
+
+## Beschluß.
+
+Ist also zu den beyden gegebenen geraden Strichen AB und CD der mittel-ebenmässige Strich db gefunden. W. Z. M.
+
+Der

@@ -1,35 +1,23 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 386)* -->
+<!-- *(Seitenzahl: 374)* -->
 
-wird/ daß die ebenmässigen Seiten nebenstrichicht werden: Alsdenn werden die übrigen Seiten solcher Dreyecke in einem geraden Striche stehen/ (oder einen geraden Strich machen.)
+Begehrtes.
 
-## Gegebene.
+1. Der gerade Strich AB.
+2. Geradstrichichte Gestalt X.
+3. ander nebenstrichichtes Viereck D.
+4. Gestalt X nicht grösser/ als das an den halben Strich angeschlagene Viereck Eg.
+5. Welches dem mangelenden Viereck rs ähnlich ist.
 
-1. Zwey Dreyecke abc und cde, welche
-2. Zwo Seiten ab und ac, zweyen Seiten dc und de, ebenmässig haben. ab : dc | ac : de.
-3. Und mit einem Winckel c zusammen gefüget also/
-4. Daß die ebenmässige Seiten auch nebenstrichicht sind /
+Begehrte.
 
-ab ⧣ dc
-ac ⧣ de
+1. Mangelhafftes □ Ap
+2. □ Ap | △ X.
+3. □ Ap an den Strich AB angeschlagen.
+4. Das mangelende □ pB.
+5. □ pB ähnlich □ D.
 
-## Begehrte.
+*[Figur: oben eine Gestalt X mit Dreieck und Punkt H, daneben ein Viereck D und ein Viereck mit den Punkten A, S, B, g; darunter nochmals die Gestalt X mit den Punkten k, l, q, m, h, daneben Viereck D mit punctirter Diagonale; unten ein Viereck mit den Punkten c, o, g, u, r, q, n, p, A, c, E, s, B, m nebst punctirtem Halbkreis]*
 
-Die übrigen Seiten bc und ce werden einen geraden Strich be machen.
-
-*[Figur: zwei Dreiecke, ein kleineres mit den Punkten d, e, c und ein grösseres mit den Punkten a, c, b]*
-
-## Beweiß.
-
-|  |  |  |
-|---|---|---|
-|  | ab ⧣ dc | n. 4. Geg. |
-| Dw. | bac ⋀ dca |  |
-| und | cde ⋀ dca | n. 29. I. |
-| Dw. | bac ⋀ cde | n. 1. Gr. I. |
-| und | △ abc ähnlich △ cde |  |
-| und | abc ⋀ dce | n. 6. VI. |
-|  | acb + a ⋀ acb + a |  |
-
-Dw.
+Wir-

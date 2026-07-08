@@ -1,36 +1,31 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 290)* -->
+<!-- *(Seitenzahl: 284)* -->
 
-## Der XXIX. Vortrag.
-Das 29. Beweiß-Stück.
+Beweiß.
 
-Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte mit der Vierten zu der Vierten : So wird auch zertheiletermassen die Erste zu der Andern eine grössere Verhältnüß / als die Dritte zu der Vierten haben.
+|  |  |  |
+|---|---|---|
+| A : B | a : b | n. Geg. |
+| Dw. A : a | B : b | n. 16. V. |
+| u. A—a : a | B—b : b | n. 19. V. |
+| Dw. A—a : B—b | a : b | n. 16. V. |
+| u. A—a : B—b | A : B | n. 11. V. |
+| A | ⊣ B | n. Geg. |
+| Dw. A—a | ⊣ B—b | n. 14. V. |
+| oder c | ⊣ d | |
+| e | B | ⌉ n. Vorber. |
+| b | f | |
+| c + e + b | ⊣ B + f + d | n. 4. Gr. I. |
+| A | c + e | n. 9. Gr. q. I. |
+| c + e + A + b | ⊣ B + f + d + c + e | n. 4. Gr. I. |
+| A + b | ⊣ B + f + d | n. 5. Gr. I. |
+| f + d | a | n. 9. Gr. q. I. |
+| f + d + A + b | ⊣ B + a + f + d | n. 4 Gr. I. |
+| A + b | ⊣ B + a | n. 5. Gr. I. |
 
-### Gegebene.
+Beschluß.
 
-*[Figur: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]*
+Werden demnach allezeit aus vier Ebenmässigen Grössen die Grösseste und Kleineste zusammen grösser seyn / als die übrigen beeden zusammen. W. Z. B.
 
-A + a : a ⊣ B + b : b
-
-### Begehrtes.
-A : a ⊣ B : b.
-
-### Beweiß.
-Wenn die Verhältnüß A zu a nicht grösser ist / als B zu b, so
-
-|  |  |  |  |
-|---|---|---|---|
-| sey dann | A : a | \| B : b | n. Ang. |
-| Dw wird | A + a : a | \| B + b : b | n. 28. V. |
-| oder es sey | A : a | ⊢ B : b | n. Angen. |
-| so wird | A + a : a | ⊢ B + b : b | n. 28. V. |
-
-Beydes ist wider das Gegebene
-
-muß Dw. A : a ⊣ B : b
-
-### Beschluß.
-Wenn derowegen die I. und II. zu der II. eine grössere Verhältnüß / als die III. und IV. zu der IV. haben / so wird auch die I. zu der II. eine grössere Verhältnüß / als die III. zu der IV. haben. W. Z. B.
-
-Der
+Anmer-

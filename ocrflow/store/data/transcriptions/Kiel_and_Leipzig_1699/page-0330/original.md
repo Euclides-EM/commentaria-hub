@@ -1,28 +1,33 @@
-<!-- *(Seitenzahl: 312)* -->
+<!-- *(Seitenzahl: 306)* -->
 
 <!-- # Das VI. Buch -->
 
-# Der II. Vortrag.
-
-# Das 2. Beweiß-Stück.
-
-Wenn gegen eines Dreyeckes eine Seite ein gerader Nebenstrich gezogen wird/ so schneidet solcher Strich die übrigen Seiten nach der Ebenmaß. Und wenn ein gerader Strich zwo des Dreyeckes Seiten nach der Ebenmaß schneidet; so wird er ein Nebenstrich des Grundstrichs seyn.
-
-# I. Gegebene.
-
-1. Dreyeck abc.
-2. Strich de
-3. de ⧣ cb.
-4. Das Dreyeck schneidend.
-
 # Begehrtes.
 
-ae : ec | ad : db.
+□ AD : □ BC | ml : gh.
 
-*[Figur: Dreyeck mit Gipffel a und Grundlinie bc, darin der Strich de nebst gestrichelten Strichen be und cd]*
+*[Figur: Zwei nebenstrichichte Vierecke mit den Buchstaben D, A und C, B, Eckpunkte n r o k i oben und m l g h unten, mit gestrichelten Diagonalen]*
 
 # Vorbereitung.
 
-Es werden die geraden Striche be und cd gezogen.
+1. Werden die Zwergstriche mo und gi,
+2. Deßgleichen der Senckstrich rm, gezogen.
 
-Beweiß.
+# Beweiß.
+
+□ AD | 2 △ A — n. 34. I.
+□ BC | □ BC
+Dw. □ AD : □ BC | 2 △ A : □ BC — n. 7. V.
+2 △ B | □ BC — n. 34. V.
+2 △ A | 2 △ A
+Dw. 2 △ A : 2 △ B | 2 △ A : □ BC — n. 7. V.
+u. 2 △ A : 2 △ B | □ AD : □ BC — n. 11. V.
+Dw. △ A : △ B | □ AD : □ BC — n. 15. V.
+△ A : △ B | ml : gh — n. Bew. ∝
+Dw. □ AD : □ BC | ml : gh — n. 11. V.
+
+# Beschluß.
+
+Werden derowegen alle Nebenstrichichte Viercke sich gegen einander also/ wie derselben Grundstriche verhalten. W. Z. B.
+
+Des

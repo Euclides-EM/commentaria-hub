@@ -1,33 +1,43 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 276)* -->
+<!-- *(Seitenzahl: 270)* -->
 
-# Der XXI. Vortrag.
+Gegebene. | Begehrtes.
 
-Das 21. Beweiß-Stück.
+A ________________ | A : a | B : b
+a ____________
+B ________________
+b ________
 
-Wenn man drey Grössen hat / und noch andere drey Grössen sind / welche mit den vorigen Grössen in verwirreter Ebenmaß stehen: Auf gleiche Weise aber die Erste grösser ist / als die Dritte/ so wird auch die Vierte grösser seyn/ als die Sechste: Ist aber die Erste mit der Dritten gleichgroß/ so werden auch die Vierte und Sechste gleichgroß seyn: Und wenn die Erste kleiner/ als die Dritte/ so wird auch die Vierte kleiner seyn/ als die Sechste.
+*[Figur: Strecken A, a, B (mit Theil b), b]*
 
-I. Gegebene.
+A—a : a | B—b : b
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+## Beweiß.
 
-A : B ∷ | b : c
-B : C | a : b
-A | ⊦ C
+Wenn das Begehrte nicht eintreffen solte / so nehme man an statt b das Stück c,
 
-Begehrtes.
+B ________________
+b ________
 
-a ⊦ c
+*[Figur: Strecken B (mit Theil c) und b]*
 
-Beweiß.
+und sey alsdann
 
-|  |  |  |
-|---|---|---|
-| b : c | A : B | ⌉ n. Gegeb. |
-| A | ⊦ C | |
-| B | B | |
-| Dw. A : B | ⊦ C : B | n. 8. V. |
-| u. b : c | ⊦ C : B | n. 13. V. |
+A—a : a | B—b : b — n. Gegeb.
+A—a : a | B—c : c — n. Genom.
+B—b : b | B—c : c — n. 11. V.
+Dw. B : b | B : c — n. 17. V.
+B | B
+Dw. b | c — n. 14. V.
 
-a : b
+Welches aber unmüglich n. 9. Gr. I.
+
+Oder man nehme an statt des Stückes b das Stück d.
+
+B ____________
+b ________
+
+*[Figur: Strecken B (mit Theil d) und b]*
+
+A—

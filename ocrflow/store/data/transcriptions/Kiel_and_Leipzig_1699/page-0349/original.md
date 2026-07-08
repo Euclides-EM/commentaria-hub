@@ -1,33 +1,28 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 331)* -->
+<!-- *(Seitenzahl: 325)* -->
 
-Dw. | ab : db | 6. : 1. | n. Anh. 7. V.
-u. | db | 1/6 ab | n. Anh. 7. V.
+# Der VII. Vortrag.
 
-Beschluß.
+## Das 7. Beweiß-Stück.
 
-Ist also von dem Strich ab desselben Sechster Theil db abgeschnitten. W. Z. M.
+Wenn zwey Dreyecke sind / da des einen Winckel einem des andern Dreyeckes Winckel gleichmässig ist / die übrigen Winckel aber von ebenmässigen Seiten begriffen werden; Solcher beeden Winckel auch jeder entweder kleiner / oder nicht kleiner / als ein rechter Winckel ist : So werden solcher Dreyecke Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / die Dreyecke auch selbst gleichwincklicht seyn.
 
-# Der X. Vortrag.
+I. Gegebene.
 
-## Das 2. Werck-Stück.
+1. Zwey Dreyecke abc, def.
+2. bac ⋏ edf
+3. cba ⋏̸ ∟ (?)
+4. def ⋏̸ ∟ (?)
+5. ac : cb | df : fe.
 
-Einen gegebenen geraden ungetheilten Strich eben so/ wie der gegebene getheilte Strich ist/ abzutheilen.
+Begehrte.
 
-Gegebene.
+abc ⋏ def
+acb ⋏ dfe
+△ abc gleichwincklicht △ def.
 
-1. Ungetheilter gerader Strich ag.
-2. Getheilter Strich AD in B und C.
+*[Figur: zwei Dreiecke, links def, rechts abc mit punktierter Linie von g nach c]*
 
-Begehrtes.
-
-1. Der Strich ag also
-2. wie AD getheilet/ daß
-| AB : BC | ae : df
-u. | BC : CD | ef : fg.
-
-*[Figur: zwei Dreiecksfiguren über der Grundlinie A B C D M L C B A; links Dreieck mit den Punkten a, b, c, d, k und punktierten Linien über e, f, g mit i, h; rechts Dreieck mit den Punkten a, b, c, l, m, d und den Zwischenpunkten g, r, f, e, s sowie h, n, i, o, p, q, t, u, x]*
-
-Tt 2
-I. Ahrt
+Ss 3
+Vorbe-

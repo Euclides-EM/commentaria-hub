@@ -1,39 +1,30 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 227)* -->
+<!-- *(Seitenzahl: 221)* -->
+
+Wirckung.
+
+1. Werde in den Kreyß ein gleichseitiges Fünffeck ghikl ein-
+geschrieben/ n. 11. IV.
+2. Aus des Kreyses Mittel-Düpffel a werden zu allen Ecken
+gerade Striche ag, ah, ai, ak, al gezogen.
+3. Auff solche Striche werden zu beeden Seiten Senckstriche
+gb, gc : hc, hd : id, ie : ke, kf : lf, lb gesetzet/ n. 11. I.
+
+*[Figur: Kreis mit einbeschriebenem Fünffeck g h i k l und umschriebenem Fünffeck b c d e f; aus dem Mittelpunkt a gehen Striche zu den Ecken und Berührungspunkten, teils punktiert]*
+
+Vorbereitung.
+
+Aus dem Mittel-Düpffel a werden zu den Dütteln/ wo die
+Senckstriche einander durchschneiden/ gerade Striche ab, ac, ad,
+ae, af gezogen.
 
 Beweiß.
 
-cb | ca
-ab | ca — n. 15. Besch. I.
-Dw. — ab | cb — n. 1. Gr. I.
-u. — abc | gleichseitig △ — n. 23. Besch. I
-Dw. — acb ∧ abc ∧ bac — n. 8. I.
-u. — acb ∧ ⅓ ⌓ — n. 32. I.
-bac ∧ cad — n. 8. I.
-bac + cad + dae ∧ ⌓ — n. 13. I.
-bac | ⅓ ⌓
-cad | ⅓ ⌓
-Dw. — dae | ⅓ ⌓ — n. 3. Gr. I.
-bac ∧ fae
-cad ∧ fag
-dae ∧ bag — n. 15. I.
-Dw. — bac ∧ cad ∧ dae ∧ fae ∧ fag ∧ bag, n. 11. Gr. I.
-α. u. — bc ⌒ cd ⌒ de ⌒ fe ⌒ fg ⌒ bg — n. 26. III.
-u. — bc | cd | de | fe | fg | bg — n. 29. III.
-bc ⌒ de — n. Bew. α.
-efgb ⌒ efgb
-Dw. — efgb + bc ⌒ de + efgb — n. 1. Gr. I.
-u. — cde ∧ bcd — n. 27. III.
-Gleicher Weise cde ∧ def ∧ efg ∧ fgb ∧ gbc
+cga ∧ cha — n. 3. Wirck u 10. Gr. I.
+ag | ah — n. 15. Beschr. I.
+ac | ac
+Dw. — gc | hc — n. 26. I.
 
-Dw. ist das Sechßeck bcdefg gleichseitig und gleichwincklicht/
-und dem gegebenen Kreyß eingeschrieben/ n. 3. Beschr. IV.
-
-Beschluß.
-
-Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
-licht Sechßeck eingeschrieben. W Z. M.
-
-Ff 2
-I. An-
+Ee 3
+u.

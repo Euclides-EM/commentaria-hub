@@ -1,37 +1,35 @@
-<!-- # Euclidis -->
+<!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 255)* -->
-
-## Des II. Theils
-
-## Gegebene. — Begehrtes.
-
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
-
-A ⊣ B — a : B ⊣ a : A.
-A | 5a
-B | 3a
-
-## Vorbereitung.
-
-1. Man nehme wiederümb a siebenmahl/
-2. Aber A zweymahl/
-3. Und B auch zweymahl.
-
-## Beweiß.
-
-B | 3a — nach Gegeb.
-2B | 6a — n. 6 Gr. i. I.
-7a ⊣ 6a — n. 9. Gr. I.
-Dw. 7a ⊣ 2B — n. 1. Gr. a. I.
-A | 5a
-2A | 10a
-10a ⊣ 7a
-Dw. 2A ⊣ 7a
-Und a : B ⊣ a : A — n. 8. Beschr. V.
+<!-- *(Seitenzahl: 249)* -->
 
 ## Beschluß.
 
-Derowegen ist allezeit die von ungleichen Grössen Grössere gegen die Dritte mehr vierfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vierfältig / als gegen die Grössere. W. Z. B.
+Wenn derowegen aus vier Grössen die I. zu der II. in solcher Verhältnüß / wie die III. zu der IV. stehet; Und die V. zu der I. sich also wie die VI. zu der III. und auch die VII. zu der II. wie die IIX. zu der IV. sich verhält: So wird auch die V. zu der VII. also wie die VI. zu der IIX. sich verhalten. W. Z. B.
 
-Der
+# Der V. Vortrag.
+
+## Das 5. Beweiß-Stück.
+
+Wenn die Erste Grösse eben so vielfältig ist gegen die Andere Grösse / als das von der Ersten abgenommene Stück gegen das von der andern abgenommene Stück: So wird auch das Erste Übergebliebene gegen das Andere Übergebliebene eben so vielfältig seyn / als die Erste gantze Grösse gegen die Andere gantze Grösse.
+
+## Gegebene. — Begehrtes.
+
+*[Figur: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]*
+
+1. A | 2B
+2. a | 2b — A—a : B—b | A : B
+3. A : B | a : b
+
+## Beweiß.
+
+A | 2B — n. 1.
+a | 2b — n. 2. Gegeb.
+A—a | 2B—2b — n. 3. Gr. I.
+2B—2b | Zwiefach B—b
+Dw. A—a | Zwiefach B—b — n. 6. Gr. kk. I.
+und A | Zwiefach B — n. 1. Gegeb.
+Dw. A—a : B—b | A : B. — n 7. Beschr. V.
+
+Ji
+
+Beschluß.

@@ -1,35 +1,35 @@
-<!-- # Das V. Buch -->
+<!-- # Das IV. Buch -->
 
-<!-- *(Seitenzahl: 232)* -->
+<!-- *(Seitenzahl: 226)* -->
 
-VII. Diejenigen Grössen/ welche in gleicher Verhältniß gegen einander stehen/ werden Ebenmässige (proportionales) genennet.
+Gegebenes. — Begehrte.
+Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
+licht Sechseck
+2. dem gegebenen Kreyß einge-
+schrieben.
 
-IIX. Wenn aber unter etlichen vervielfältigten Grössen der Ersten Grösse ihre Vervielfältigung die Vervielfältigung der andern Grösse übertrifft: die Vervielfältigung aber der Dritten Grösse die Vervielfältigung der Vierdten Grösse nicht übertrifft: alsdenn wird die Erste zu der Andern eine grössere Verhältniß haben/ als die Dritte zu der Vierten.
+*[Figur: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]*
 
-6a : 4a ⊣ 3a : 6a
+Wirckung.
 
-IX. Ebenmässigkeit (proportio) erfodert wenigstens drey Grössen.
+1. Wird der Durchschlag fc gezogen.
+2. Nach der Weite ca wird aus dem Düttel c ein Kreyß ge-
+zogen/ welcher den gegebenen Kreyß in den Dütteln d und b schneidet.
+3. Aus dem Düttel f wird nach der Weite fa auch ein Kreyß be-
+schrieben/welcher den gegebenen Kreyß in den Dütteln e und g schneidet.
+4. Werden die Striche bc, cd, de, ef, fg und gb gezogen.
 
-8a : 4a : 2a
+Vorbereitung.
 
-8a : 4a | 4a : 2a
+Es werden gezogen die Strahlen ab, ad, ae, ag.
 
-X. Wenn drey Grössen ebenmässig (proportionales) sind/so hat die Erste eine zwiefach grössere Verhältniß zu der Dritten/ als zu der andern.
+II. Arth.
 
-8a : 4a : 2a
+1. Werde aus dem Düttel c nach der Weite ca ein Kreyß/
+2. aus dieses Kreyses Mitteldüpffel c werde durch den Mittel-
+düpffel a ein gerader Strich cf,
+3. aus den beyden Dütteln b und d werden auch gerade Stri-
+che be, dg durch a, und
+4. die Striche cb, cd, de, ef, fg und gb gezogen.
 
-8a : 2a = | 8a : 4a
-
-Als das Viereck zur Wurtzel 4 | 2.
-
-Aber wenn vier Grössen in ordentlicher Ebenmaß stehen / so wird die Erste zu der Vierten eine dreyfach grössere Verhältniß haben/als zu der andern
-
-16a : 8a : 4a : 2a
-
-16a : 2a = | 16a : 8a
-
-Als der Würffel zur Wurtzel 8 | 2
-
-Und so offt die Anzahl der Grössen ümb eines zunimmt/so offtmals wird auch die Verhältniß der Ersten Grösse zu der letzten ümb eine Stuffe gegen die Verhältniß der Ersten zu der Andern erhöhet.
-
-XI. Ver-
+Be-

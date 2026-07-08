@@ -1,32 +1,33 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 369)* -->
+<!-- *(Seitenzahl: 357)* -->
 
-Beweiß.
+Dw. △ eab : △ kfg ⊐ be : kg n. 19. VI.
+△ bec ähnlich △ kgi n. Bew. δ.
+Dw. △ bec : △ kgi ⊐ be : kg n. 19. VI.
+u. △ eab : △ kfg | △ bec : △ kgi n. 11. V.
+Aus eben diesen Ursachen ist auch
+△ ecd : △ gih | △ bec : △ kgi
+Dw. △ ecd : △ gih | △ eab : △ kfg n. 11. V.
+△ △ △ △ △ △
+eab + bec + ecd : kfg + kgi + gih | △ eab : △ kfg n. 1. V.
+ab : fg = △ eab : △ kfg n. 17. VI.
+Dw. △ △ △ △ △ △
+eab + bec + ecd : kfg + gki + gki = ab : fg n. 11. V.
+△ △ △ △ △ △
+eab + bed + bcd : kfg + gki + ghi | ⬠ cad : ⬠ hfi n. 9. Gr. q. I.
+Dw. ⬠ cad : ⬠ hfi = ab : fg
+u. ⬠ cad : ⬠ hfi | △ eab : △ kfg n. 11. V.
 
-cd : dm | dm : dg n. 8. Wirck.
-oder CD : DM | DM : DG n. Anh. 7. V.
-CD : DG = | CD : DM n. 10. Besch. V.
-⬠ A : ⬠ L = | CD : DM n. 20. VI.
-Dw. CD : DG | ⬠ A : ⬠ L n. 11. V.
-CD : DG | □ DE : □ gf n. 1. VI.
-Dw. □ DE : □ gf | ⬠ A : ⬠ L n. 11. V.
-□ DE | ⬠ A n. 3. Wirck.
-Dw. □ gf | ⬠ L n. 14. V.
-□ gf | △ B n. 7. Wirck.
-Dw. ⬠ L | △ B n. 1. Gr. I.
-⬠ L ähnlich ⬠ A n. 10. Wirck.
-u. Eben so gesetzet.
+## Beschluß.
 
-Beschluß.
+Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem gantzen Vieleck Verhältnüß-ähnliche oder ebenmässige Dreyecke abgetheilet werden. Es stehen auch die ähnliche Vielecke gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
-Ist also ein Fünfeck L, welches der Gestalt B gleichmässig/ dem Fünfeck A ähnlich/ und auch eben so gesetzet/ verfertiget. W. Z. M.
+# Der XXI. Vortrag.
 
-# Der XXVI. Vortrag.
+## Das 15. Beweiß-Stück.
 
-Das 19. Beweiß-Stück.
+Welche geradstrichichte Gestalte einer einigen Gestalt ähnlich sind/ dieselben sind auch einander selbst ähnlich.
 
-Wenn von einem nebenstrichichten Viereck ein ander nebenstrichichtes Viereck abgenomen wird/ welches dem gantzen Viereck ähnlich/ gleicher Weise gesetzet ist/ und einen gleichmässigen Winckel mit dem gantzen Viereck hat / so werden solche Vierecke üm einen einigen Zwergstrich stehen.
-
-Aaa
-Gege-
+Y y 3
+Gegebe-

@@ -1,31 +1,32 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 381)* -->
-
-## Wirckung.
-
-1. An den Strich ab werde ein übertreffendes nebenstrichichtes Viereck/ welches dem gleichseitigen Viereck des Striches ab sampt dem gleichseitigen Viereck des halben Striches bc gleichmässig sey/ also angeschlagen/ daß der Uberschuß □ be ähnlich sey dem □ ab. n. 29. VI.
-
-2. Von dem Strich ba werde das Stück bi gleichmässig dem überflüssigen Stück be. abgeschnitten n. 3. I. bi | be
-
-Die Anschlagung kan also verrichtet werden.
-
-1. Der Strich ab wird in zween gleiche Theile ac | cb getheilet. n. 10. I.
-
-2. Auf die Helffte bc wird ein gleichseitiges □ gesetzet. n. 46. I.
-
-3. Werde ein denen beyden □ ab + □ bc gleichmässiges und
-
-4. Dem □ bc ähnliches Viereck gemacht. n. 25. VI.
-
-(nemlich man verwandele (1) das □ bc in ein □ nach einem rechten Winckel/ und nach dem Strich ab. n. 43. I. damit man es dem □ ab beyfügen könne (2) findet man zwischen der Länge ab + ½bc nnd der Breite ab des zusammengesetzten Viereckes den mitlern ebenmässigen Strich ce n. 13. VI. (3) auf diesen Strich ce wird ein gleichseitiges Viereck gesetzet n. 46. I.)
-
-5. Solch dem □ bc ähnlich gemachtes □ ce wird an den halben Strich nemlich cb also angeschlagen/ daß der Uberschuß dem Viereck ab ähnlich sey. n. 29. VI. nemlich man setzet die Länge f biß g, und setzet auf den Strich fg ein gleichseitiges Viereck. n. 46. I.
-
-6. Den Strich ab verlänget man biß e.
-
-7. Die Länge be schneidet man von dem Strich ba ab n. 3. I. so bekommt man den Düttel i, welcher den Strich ab begehrter massen theilet.
-
-Bbb 3
+<!-- *(Seitenzahl: 369)* -->
 
 Beweiß.
+
+cd : dm | dm : dg n. 8. Wirck.
+oder CD : DM | DM : DG n. Anh. 7. V.
+CD : DG = | CD : DM n. 10. Besch. V.
+⬠ A : ⬠ L = | CD : DM n. 20. VI.
+Dw. CD : DG | ⬠ A : ⬠ L n. 11. V.
+CD : DG | □ DE : □ gf n. 1. VI.
+Dw. □ DE : □ gf | ⬠ A : ⬠ L n. 11. V.
+□ DE | ⬠ A n. 3. Wirck.
+Dw. □ gf | ⬠ L n. 14. V.
+□ gf | △ B n. 7. Wirck.
+Dw. ⬠ L | △ B n. 1. Gr. I.
+⬠ L ähnlich ⬠ A n. 10. Wirck.
+u. Eben so gesetzet.
+
+Beschluß.
+
+Ist also ein Fünfeck L, welches der Gestalt B gleichmässig/ dem Fünfeck A ähnlich/ und auch eben so gesetzet/ verfertiget. W. Z. M.
+
+# Der XXVI. Vortrag.
+
+Das 19. Beweiß-Stück.
+
+Wenn von einem nebenstrichichten Viereck ein ander nebenstrichichtes Viereck abgenomen wird/ welches dem gantzen Viereck ähnlich/ gleicher Weise gesetzet ist/ und einen gleichmässigen Winckel mit dem gantzen Viereck hat / so werden solche Vierecke üm einen einigen Zwergstrich stehen.
+
+Aaa
+Gege-

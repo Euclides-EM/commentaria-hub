@@ -1,36 +1,49 @@
-<!-- *(Seitenzahl: 307)* -->
-
 <!-- # Euclidis. -->
 
-# Des I. Vortrags I. Zugabe.
+<!-- *(Seitenzahl: 301)* -->
 
-Diejenigen Dreyecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ haben auch gleichmässige Höhen.
+## I. Gegebene.
 
-# I. Gegebene.
+*[Figur: zwei waagerechte Linien A und B mit angesetzten Stücken a]*
 
-ab : ed | △ abc : △ def
+A ⊣ B
+a | a
 
-# Begehrtes.
+## Begehrtes.
+A + a : B + a ⊢ A : B
 
-Höhen cq | fp.
+## Beweiß.
 
-*[Figur: Zwei Dreiecke, links mit Gipffel f über der Grundlinie e p d a, rechts mit Gipffel c und Punkt r über der Grundlinie a q b, mit gestrichelten Höhen und Strichen]*
+|  |  |  |  |
+|---|---|---|---|
+|  | A | ⊣ B | n. Geg. |
+|  | a | \| a |  |
+| Dw. | A + a | ⊣ B + a | n. 4. Gr. I. |
+|  | a \| | a |  |
+| Dw. | A + a : a | ⊣ B + a : a, | n. 8. V. |
+|  | A + a : A | ⊢ B + a : B | n. 30. V. |
+|  | A + a : B + a | ⊢ A : B | n. Anh. 28. V. |
 
-# Vorbereitung.
+## II. Gegebene
 
-Wenn die Höhe cq länger were/ als die Höhe fp, so schneide man ab ein Stück rq | fp.
-2. Ziehe man die Striche ra und rb.
+*[Figur: zwei waagerechte Linien A und B mit abgeteilten Stücken]*
 
-# Beweiß.
+A ⊣ B
+a | a
 
-weil cq ⊣ fp. — n. Angenom.
-und rq | fp — n. Vorber.
-Dw. ab : ed | △ arb : △ def — n. 1. VI.
-ab : ed | △ acb : △ def — n. Gegeb.
-Dw. △ arb : △ def | △ acb : △ def — n. 11. V.
-u. △ arb | △ acb — n. 9. V.
+## Begehrtes.
+A — a : B — a ⊣ A : B
 
-welches aber unmüglich n. 9. Gr. I.
+## Beweiß.
 
-Qq 2
-Gleiche
+|  |  |  |  |
+|---|---|---|---|
+|  | A | ⊣ B | n. Geg. |
+|  | a \| | a |  |
+| Dw. | A : a | ⊣ B : a | n. 8. V. |
+|  | A : B | \| a : a | n. 27. V. |
+| Dw. | A — a : B — a | ⊣ A : B | n. 33. V. |
+
+Pp 3
+
+oder:

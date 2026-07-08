@@ -1,35 +1,35 @@
+<!-- *(Seitenzahl: 343)* -->
+
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 355)* -->
+II. Vorbereitung ist wie die I. Vorher.
 
-Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
-u. △ abc : △ def ⊐ bc : ef n. 11. V.
+## II. Beweiß.
+
+|  |  |  |
+|---|---|---|
+|  | ab : eh ⊤ fe : db | n. 4. Geg. |
+| oder | AB : BI ⊤ FE : EB | n. Anh. 7. V. |
+|  | AB : BI ⊤ □ AD : □ EI | n. 1. VI. |
+| Dw. | FE : EB ⊤ □ AD : □ EI | n. 11. V. |
+|  | FE : EB ⊤ □ FH : □ EI | n. 1. VI. |
+| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 11. V. |
+|  | □ EI ⊤ □ EI |  |
+| Dw. | □ AD ⊤ □ FH | n 9. V. |
+| oder | □ ad ⊤ □ fh | n 1. Vorb. |
 
 ## Beschluß.
 
-Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
+Wenn derowegen gleichmässige oder gleichgrosse Nebenstrichichte Vierecke / welche einen gleichmässigen Winckel haben/ gegeben werden/ so haben dieselben auch bey den gleichmässigen Winckeln wechselmässige Seiten.
 
-# Der XX. Vortrag.
+Und welche Vierecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ die sind gleichmässig oder gleichgroß. W.Z.B.
 
-## Das 14. Beweiß-Stück.
+# Der XV. Vortrag.
 
-Aehnliche Vielecke können in ähnliche/ und gleichviele/ und mit denen Gantzen Verhältniß-ähnliche oder ebenmässige Dreyecke abgetheilet werden.
+## Das 10. Beweiß-Stück.
 
-Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältniß-ähnliche Seiten.
+Gleichmässige/ und einen gleichmässigen Winckel habende Dreyecke/ haben auch bey dem gleichmässigen Winckel wechselmässige Seiten.
 
-### Gegebene.
+Und welche Dreyecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ dieselben sind gleichmässig.
 
-1. Fünfeck cad
-2. u. hfi
-3. cad ähnlich hfi.
-
-### I. Begehrte.
-
-1. Beyde Fünfecke in ähnliche/ und
-2. Gleichviele/ und
-3. mit denen Fünfecken/ Verhältnüß-ähnliche Dreyecke abgetheilet.
-
-*[Figur: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]*
-
-Y y 2
-Vorbe-
+I. Gegebene.

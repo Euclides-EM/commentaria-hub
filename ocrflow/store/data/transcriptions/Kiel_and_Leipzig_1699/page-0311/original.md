@@ -1,41 +1,38 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 293)* -->
+<!-- *(Seitenzahl: 287)* -->
 
-## Vorbereitung.
-1. Nehme man eine Grösse D darzu / welche zu C sich also / wie b zu c verhalte.
+Begehrtes.
 
-*[Figur: drei waagerechte Linien d, D, C von unterschiedlicher Länge]*
+A : B ⊣ a : b
 
-D : C | b : c
+Vorbereitung.
 
-2. Auch nehme man eine Grösse d, welche sich zu D also / wie a : b verhalte.
+Man nehme noch eine Grösse nemlich c darzu/welche sich zu a, wie B zu b, verhalte.
 
-d : D | a : b
+c : a | B : b
 
-## Beweiß.
+Beweiß.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | D : C | \| b : c | n. 1. Vorb. |
-|  | B : C | ⊣ b : c | n. Geg. |
-| Dw. | B : C | ⊣ D : C | n. Anh. 13. V. |
-| u. | D | ⊢ B | n. 10. V. |
-|  | A | \| A |  |
-| Dw. | A : D | ⊣ A : B | n. 8. V. |
-|  | a : b | ⊢ A : B | n Geg. |
-| a Dw. | A : D | ⊣ a : b | n. 2. Anh. 13. V. |
-|  | d : D | \| a : b | n. 2. Vorb. |
-|  | A : D | ⊣ a : b | n. Bew. a |
-| Dw. | A : D | ⊣ d : D | n. Anh. 13. V. |
-| und | A | ⊣ d | n. 10. V. |
-|  | C \| | C |  |
-| ß Dw. | A : C | ⊣ d : C | n. 8. V. |
-|  | d : D | \| a b |  |
-|  | D : C \| | b : c | } Vorber. |
-| Dw. | d : C | \| a : c | n. 22. V. |
-| und | A : C | ⊣ a : c | n. Bew. ß. u. Anh. 13. V. |
-
-Oo 3
+|  |  |  |
+|---|---|---|
+| c : a | B : b | n. Vorber. |
+| A : a | ⊣ B : b | n Gegeb. |
+| A : a | ⊣ c : a | n. Anh. 13. V. |
+| u. A | ⊣ c | n. 10. V. |
+| B | B | |
+| Dw. A : B | ⊣ c : B | n. 8. V. |
+| a : b | c : B | n. 16. V. |
+| Dw. A : B | ⊣ a : b | n. Anh. 13. V. |
 
 Beschluß.
+
+Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat/ als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß/ als die II. zu der IV. haben. W. Z. B.
+
+# Der XXIIX. Vortrag.
+
+Das 28. Beweiß-Stück.
+
+Wenn vier Grössen gegeben werden/ deren die Erste zu der Andern eine grössere Verhältnüß hat/ als die Dritte zu der Vierten; So wird auch die Erste mit der Andern zusammen/ zu der Andern eine grössere Verhältnüß / als die Dritte und Vierte zusammen zu der Vierten/ haben.
+
+Gege-

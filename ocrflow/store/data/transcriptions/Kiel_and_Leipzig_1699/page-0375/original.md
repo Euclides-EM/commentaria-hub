@@ -1,33 +1,45 @@
+<!-- *(Seitenzahl: 345)* -->
+
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 357)* -->
+|  |  |  |
+|---|---|---|
+| Dw. | △ efd ⊤ △ ABC | n. 1. Gr. I. |
+| u. | △ efd ⊤ △ abc | n. Bew. α |
+|  | △ edc ⊤ △ edc |  |
+| Dw. | △ efd : △ edc ⊤ △ abc : △ edc | n. 7. V. |
+|  | ab : ed ⊤ △ abc : △ edc | n. 1. VI. |
+| Dw. | ab : ed ⊤ ef : bc | n. 11. V. n. B. β |
+| oder | AB : DE ⊤ EF : BC | n. Anh. 7. V. |
 
-Dw. △ eab : △ kfg ⊐ be : kg n. 19. VI.
-△ bec ähnlich △ kgi n. Bew. δ.
-Dw. △ bec : △ kgi ⊐ be : kg n. 19. VI.
-u. △ eab : △ kfg | △ bec : △ kgi n. 11. V.
-Aus eben diesen Ursachen ist auch
-△ ecd : △ gih | △ bec : △ kgi
-Dw. △ ecd : △ gih | △ eab : △ kfg n. 11. V.
-△ △ △ △ △ △
-eab + bec + ecd : kfg + kgi + gih | △ eab : △ kfg n. 1. V.
-ab : fg = △ eab : △ kfg n. 17. VI.
-Dw. △ △ △ △ △ △
-eab + bec + ecd : kfg + gki + gki = ab : fg n. 11. V.
-△ △ △ △ △ △
-eab + bed + bcd : kfg + gki + ghi | ⬠ cad : ⬠ hfi n. 9. Gr. q. I.
-Dw. ⬠ cad : ⬠ hfi = ab : fg
-u. ⬠ cad : ⬠ hfi | △ eab : △ kfg n. 11. V.
+## II. Gegebene.
 
-## Beschluß.
+1. △. ABC
+2. △. EFD
+3. ABC ⋏ DEF.
+4. AB : DE ⊤ EF : BC.
 
-Können derowegen ähnliche Vielecke in ähnliche und gleichviele/ auch mit dem gantzen Vieleck Verhältnüß-ähnliche oder ebenmässige Dreyecke abgetheilet werden. Es stehen auch die ähnliche Vielecke gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
+## II. Begehrtes.
 
-# Der XXI. Vortrag.
+△ ABC ⊤ △ EFD.
 
-## Das 15. Beweiß-Stück.
+## II. Vorbereitung wie die I.
 
-Welche geradstrichichte Gestalte einer einigen Gestalt ähnlich sind/ dieselben sind auch einander selbst ähnlich.
+## II. Beweiß.
 
-Y y 3
-Gegebe-
+|  |  |  |
+|---|---|---|
+|  | △ edc gleichmässiger Höhe △ efd | n. 4. Besch. VI. |
+| α Dw. | ef : bc ⊤ △ efd : △ bcd | n. 1. VI. |
+|  | △ abc gleichmässiger Höhe △ bdc | n. 4. Besch. VI. |
+| Dw. | ab : de ⊤ △ abc : △ bdc | n. 1 VI. |
+|  | ab : de ⊤ ef : bc | n 4 Geg. |
+| Dw. | △ abc : △ bcd ⊤ ef : bc | n. 11. V. |
+| u. | △ abc : △ bcd ⊤ △ efd : △ bcd | n. Bew. α |
+|  | △ bcd ⊤ △ bcd |  |
+| Dw. | △ abc ⊤ △ efd | n. 9. V. |
+| oder | △ ABC ⊤ △ EFD | n. Anh. 7. V. |
+
+Xx
+
+Beschluß.

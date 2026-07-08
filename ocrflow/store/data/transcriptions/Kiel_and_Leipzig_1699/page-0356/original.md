@@ -1,35 +1,37 @@
-<!-- *(Seitenzahl: 338)* -->
+<!-- *(Seitenzahl: 332)* -->
 
 <!-- # Das VI. Buch -->
 
-# Der XII. Vortrag.
+I. Ahrt.
 
-## Das 4. Werck-Stück.
+Wirckung.
 
-Zu dreyen geraden Strichen den Vierten ebenmässigen geraden Strich zu finden.
+1. Auf des Striches ag Endedüttel a werde nach beliebigem Winckel ein gerader Strich ak gezogen.
+2. Von diesem Strich ak werden abgeschnitten drey Striche | ab | AB
+| bc | BC
+| cd | CD | n. 3. I.
+3. Aus d werde zu g der gerade Strich dg gezogen.
+4. Aus b und c werden gegen dg gerade Nebenstriche be und cf gezogen. n. 31. I.
 
-### Gegebene.
+Vorbereitung.
 
-1. Der Strich AB
-2. AC
-3. BD
-
-### Begehrtes.
-
-Vierte ebenmässige Strich ce
-
-AB : AC ⊤ BD : ce.
-
-*[Figur: Striche A—B und A—B—D—C mit g; darunter ein Winkel aus a mit den Punkten c, e oben und b, d, f auf dem unteren Schenkel]*
-
-### Wirckung.
-
-1. Werde ein gerader Strich af gezogen.
-2. Von welchem abgeschnitten werden ab ⊤ AB
-3. Und bd ⊤ BD   n. 3. I.
-4. Aus a wird nach belibigem Winckel der Strich ag gezogen.
-5. Von welchem ac ⊤ AC abgeschnitten wird. n. 3. I.
-6. Werde der gerade Strich bc,
-7. Und gegen diesen Strich bc aus d der gerade Nebenstrich de gezogen. n. 31. I.
+Aus den Düttteln b und c werden gegen ag gerade Nebenstriche bh und co, gezogen. n. 31. I.
 
 Beweiß.
+
+| ab | AB |
+| bc | BC |
+| cd | CD | n. 1. Wirck.
+| be ⧣ dg |
+| cf ⧣ dg | n. 4. Wirck.
+| cf ⧣ be | n. 30. I.
+Dw. | ab : bc | ae : ef | n. 2. V.
+u. | ab : bc | AB : BC | n. 7. V.
+Dw. | AB : BC | ae : ef | n. 11. V.
+| bh ⧣ eg | n. Vorber.
+| be ⧣ hg | n. 4. Wirck.
+Dw. | bi | ef |
+u. | ih | fg | n. 34. I.
+| ci ⧣ dh | n. 4. Wirck.
+
+Dw.

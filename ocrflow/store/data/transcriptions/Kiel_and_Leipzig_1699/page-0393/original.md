@@ -1,31 +1,35 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 375)* -->
+<!-- *(Seitenzahl: 363)* -->
 
-Wirckung.
+*[Figur: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]*
 
-1. Der Strich AB werde in zween gleiche Theile AE | EB getheilet. n. 10. I.
-2. An den halben Strich EB werde das □ Eg angeschlagen.
-3. □ Eg ähnlich □ D n. 18. VI.
-4. Welche gleicher Weise gesetzet.
-5. Aus A werde gegen Ec ein Nebenstrich Ah gezogen n. 31. I.
-6. Der Strich gc werde biß h verlängert.
-7. Diese Anmerckungen sind zu beobachten.
+## Beweiß.
 
-(1) Wenn □ Eh | △ X so ist das Werckstück vollzogen.
-(2) Wann □ Eh ⊢ △ X so ist unmüglich/ daß man aus demselben ein Stück könne abschneiden/ so dem △ X gleichmässig/
-(3) Ist aber □ Eh ⊣ △ X so
+▭ el ähnlich ▭ st n. 3. Vorb.
+▭ el - - - ▭ gi n. 3. Geg. I.
+Dw. ▭ st - - - ▭ gi n. 21. VI.
+△ abo : △ cdn | ▭ el : ▭ st 1. Th. dies. Vort.
+△ abo : △ cdn | ▭ el : ▭ gi n 1. Geg.
+Dw. ▭ el : ▭ gi | ▭ el : ▭ st n. 11. V.
+u. ▭ gi | ▭ st n 9 V.
+gh | rs n. Vorsatz. γ
+ef | ef
+ef : gh | ef : rs n. 7. V.
+ab : cd | ef : rs n. 1. Vorb.
+Dw. ab : cd | ef : gh n. 11. V.
 
-8. Mache man nach dem Winckel cEB, und
-9. Nach dem Strich cg
-10. Ein □ klm | △ X. n. 44. I.
-11. Dieses □ klm werde von dem □ Eg abgeschnitten.
-12. Das übergebliebene □ Eu werde in ein □ no ähnlich dem □ Eg verwandelt. n. 25. VI.
+## Beschluß.
 
-nemlich man findet zu Ah oder Bg und Bu einen mittel-ebenmässigen Strich An n. 13. VI.
+Werden derowegen aus vier ebenmässigen Strichen/ auch ebenmässige Vielecke beschrieben.
 
-13. Das □ no werde von den □ Eg abgeschnitten. Das ist. Es werde von cE abgeschnitten cn | An. n. 3. I.
+Und derer ebenmässigen Vielecke Seiten oder Striche sind auch ebenmässig. W. Z. B.
 
-Durch n werde gegen AB ein gerader Nebenstrich qr, n. 31. I. und aus B zu c ein gerader Strich Bc, auch durch p gegen Bg ein gerader Nebenstrich so gezogen/ n. 31. I. so bleibet übrig das ⊾ BgopnE.
+# Der XXIII. Vortrag.
 
-Beweiß.
+## Das 17. Beweiß-Stück.
+
+Gleichwincklichte nebenstrichichte Vierecke ha-
+
+Z z 2
+ben

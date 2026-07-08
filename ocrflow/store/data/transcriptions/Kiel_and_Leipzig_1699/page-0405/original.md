@@ -1,36 +1,31 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 387)* -->
+<!-- *(Seitenzahl: 375)* -->
 
-|  |  |  |
-|---|---|---|
-| Dw. | abc + acb + a ⋀ dce + acb + a | n. 2. Gr. I. |
-|  | abc + acb + a ⋀ ⏊ | n. 32. I. |
-| Dw. | dce + acb + a ⋀ ⏊ | n. 1. Gr. I. |
-| oder | dce + dcb ⋀ ⏊ | n 9. Gr. I. q. |
-| Dw. | bc und ca, oder ba ein gerader Strich. | n. 14. I. |
+Wirckung.
 
-## Beschluß.
+1. Der Strich AB werde in zween gleiche Theile AE | EB getheilet. n. 10. I.
+2. An den halben Strich EB werde das □ Eg angeschlagen.
+3. □ Eg ähnlich □ D n. 18. VI.
+4. Welche gleicher Weise gesetzet.
+5. Aus A werde gegen Ec ein Nebenstrich Ah gezogen n. 31. I.
+6. Der Strich gc werde biß h verlängert.
+7. Diese Anmerckungen sind zu beobachten.
 
-Wenn derowegen zwey Dreyecke / derer zwo Seiten zweyen Seiten ebenmässig sind/ also zusammen gesetzet werden/ daß die ebenmässigen Seiten auch nebenstrichicht werden/ so machen die übrigen beyden Seiten einen geraden Strich. W. Z. B.
+(1) Wenn □ Eh | △ X so ist das Werckstück vollzogen.
+(2) Wann □ Eh ⊢ △ X so ist unmüglich/ daß man aus demselben ein Stück könne abschneiden/ so dem △ X gleichmässig/
+(3) Ist aber □ Eh ⊣ △ X so
 
-# Der XXXIII. Vortrag.
+8. Mache man nach dem Winckel cEB, und
+9. Nach dem Strich cg
+10. Ein □ klm | △ X. n. 44. I.
+11. Dieses □ klm werde von dem □ Eg abgeschnitten.
+12. Das übergebliebene □ Eu werde in ein □ no ähnlich dem □ Eg verwandelt. n. 25. VI.
 
-## Das 23. Beweiß-Stück.
+nemlich man findet zu Ah oder Bg und Bu einen mittel-ebenmässigen Strich An n. 13. VI.
 
-In gleichmässigen Kreysen haben die Winckel/ sie mögen Mittel-Düpffels- oder Kreyßzugs-Winckel seyn/ eben solche Verhältnüß zu einander/ als die Kreyßstücke/ auf welchen sie stehen:
+13. Das □ no werde von den □ Eg abgeschnitten. Das ist. Es werde von cE abgeschnitten cn | An. n. 3. I.
 
-Auch haben die Kreyßschnitte gleiche Verhältnüß/ weil sie aus Mittel-Düpffels-Winckeln bestehen.
+Durch n werde gegen AB ein gerader Nebenstrich qr, n. 31. I. und aus B zu c ein gerader Strich Bc, auch durch p gegen Bg ein gerader Nebenstrich so gezogen/ n. 31. I. so bleibet übrig das ⊾ BgopnE.
 
-## 1. Gegebene.
-
-1. Zween gleichmässige Kreyse abc und feg.
-2. Beyde Mittel-Düpffele d und e.
-3. Zween in Kreyßstücken stehende Winckel bac und feg.
-4. Mittel-Düpffels-Winckel bdc und fhg.
-5. Zwey Kreyßstücke bc und fg.
-6. Zween Kreyßschnitte bdc und fhg.
-
-Ccc 2
-
-I. Be-
+Beweiß.

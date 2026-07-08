@@ -1,33 +1,28 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 376)* -->
+<!-- *(Seitenzahl: 364)* -->
 
-Beweiß.
+ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüssen zusammen gesetzet ist.
 
-□ no | □ Eg — △ X n. 11. Wirck.
-□ no + △ X | □ Eg n. 2. Gr. I.
-□ no + ⊾ Epg | □ Eg n. 9. Gr. I. q.
-Dw. □ no + ⊾ Epg | □ no + △ X n. 1. Gr. I.
-α u. ⊾ Epg | △ X n. 3. Gr. I.
-□ Ep | □ gp n. 43. I.
-□ sr | □ sr
-Dw. □ Ep + □ sr | □ gp + □ sr n. 2. Gr. I.
-oder □ Er | □ gs n. 9. Gr. I. q.
-□ Er | □ An n. 36. I.
-Dw. □ An | □ gs n. 1. Gr. I.
-□ Ep | □ Ep
-Dw. □ An + □ Ep | □ gs + □ Ep n. 2. Gr. I.
-oder □ Ap | ⊾ Epg n. 9. Gr. I. q.
-△ X | ⊾ Epg n. Bew. α.
-Dw. △ X | □ Ap n. 1. Gr. I.
+Gegebene.
 
-welches angeschlagen ist an den Strich AB also/ daß überbleibe □ sr, welches ähnlich dem □ Eg n. 26. VI.
+1. Nebenstrichichte Vierecke ao, und df.
+2. □ ac gleichwincklicht dem □ df.
 
-□ Eg ähnlich □ D n. 3. Wirck.
-Dw. □ sr ähnlich □ D n. 21. VI.
+Begehrtes.
 
-Beschluß.
+□ ac : □ df | ad, dc : gd, de.
 
-Ist also an den Strich AB ein mangelhafftes □ Ap, welches gleichmässig dem △ X angeschlagen ulso/ daß das mangelende □ sr dem □ D ähnlich sey. W. Z. M.
+*[Figur: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]*
 
-Der
+Vorbereitung.
+
+1. Werden die beyden Vierecke bey dem Winckel d also zusammen gefüget/ daß ad und dg, wie auch cd und de zween gerade Striche machen.
+
+2. Die Seiten bc und fg werden fort gezogen/ biß sie in h zusammen kommen.
+
+3. Werden zween gerade Striche i und k, gefunden/ welche eben solche Verhältnüß haben / als ad : dg.
+
+ad : dg | i : k, n. 12. VI.
+
+4. Werde

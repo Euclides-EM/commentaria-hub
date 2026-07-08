@@ -1,25 +1,29 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 229)* -->
+<!-- *(Seitenzahl: 223)* -->
 
-|  |  |  |  |
-|---|---|---|---|
-| Dw. | fd | bd | n. 15. IV. |
-| | fd | bd | n. 29. III. |
-| und | fdb | Gleichseitiges △ | n. 23. Besch. I. W. Z. M. |
+# Der XIII. Vortrag.
 
-# Der XVI. Vortrag.
+Das 13. Werckstück.
 
-## Das 16. Werckstück.
-
-Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzuschreiben.
+Einem gegebenen gleichseitigen und gleich-
+wincklichten Fünffeck einen Kreyß einzuschreiben.
 
 Gegebenes. — Begehrte.
+Fünffeck bcdef. — 1. Kreyß ghikl
+2. in das Fünffeck eingeschrieben.
 
-Kreyß abfdea. — 1. Funffzehn-Eck dgafe 2. dem Kreyß eingeschrieben.
+*[Figur: Fünffeck b c d e f mit einbeschriebenem Kreis; die Berührungspunkte g, h, i, k, l liegen in den Seitenmitten, aus dem Mittelpunkt a laufen punktierte Striche zu den Ecken und Seitenmitten]*
 
-*[Figur: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]*
+Wirckung.
 
-Ff 3
+1. Werden alle Winckel in zween gleiche Theile getheilet/mit
+den Strichen ba, ca, da, ea, fa, n. 9. I.
+2. Die Seiten werden auch in zween gleiche Theile getheilet/
+n. 10. I.
+3. Aus dem Mittel der Seiten werden Senckstriche ga, ha,
+ia, ka, la gezogen/ n. 11. I.
+4. Aus dem Düttel a, wo alle Striche zusammen lauffen /
+werde nach der Weite ag oder ah ein Kreyß beschrieben.
 
-Wir-
+Be-

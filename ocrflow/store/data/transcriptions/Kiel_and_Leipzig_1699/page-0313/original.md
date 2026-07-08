@@ -1,41 +1,44 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 295)* -->
+<!-- *(Seitenzahl: 289)* -->
 
-## Begehrtes.
-A : C ⊣ a : c
+## Der Anhang.
+Dieses gehet auch auf verkehrte Weise an.
 
-## Vorbereitung.
-1. Man nehme eine Grösse D darzu / welche sich zu C wie a zu b verhalte.
+### Gegebenes.
 
-D : C | a : b
+*[Figur: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]*
 
-2. Auch nehme man die Grösse d, welche sich zu D, wie b zu c verhalte.
+A : a ⊢ B : b
 
-d : D | b : c.
+### Begehrtes.
+A + a : a ⊢ B + b : b.
 
-*[Figur: drei waagerechte Linien C, D, d von unterschiedlicher Länge]*
+### Vorbereitung.
+Man nehme die Grösse c, welche sich zu a also / wie B zu b verhalte.
 
-## Beweiß.
+c : a | B : b.
+
+### Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | D : C | \| a : b | n 1. Vorb. |
-|  | B : C | ⊣ a : b | n. Geg. |
-| Dw. | B : C | ⊣ D : C | n. Anh. 13. V. |
-| u. | D | ⊢ B | n. 10. V. |
-|  | A | \| A |  |
-| Dw. | A : D | ⊣ A : B | n. 8. V. |
-|  | b : c | ⊢ A : B | n. Gegeb. |
-| Dw. | A : D | ⊣ b : c | n. 2. Anh. 13. |
-|  | d : D | \| b : c | n 2. Vorb. |
-| Dw. | A : D | ⊣ d : D | n. Anh. 13. V. |
-| u. | A | ⊣ d | n. 10. V. |
-|  | C \| | C |  |
-| Dw. | A : C | ⊣ d : C | n 8. V. |
-|  | d : D : | \| b : c |  |
-|  | D : C | \| a : b | } n Vorb. |
-| Dw. | d : C | \| a : c | n. 22 V. |
-| u. | A : C | ⊣ a : c | n. Anh. 13. V. |
+|  | c : a | \| B : b | n. Vorber. |
+|  | A : a | ⊢ B : b | n. Gegeb. |
+| Dw. | A : a | ⊢ c : a | n. 13. V. |
+| u. | A | ⊢ c | n. 10. V. |
+|  | a | \| a |  |
+| Dw. | A + a | ⊢ c + a | n. 4. Gr. I. |
+|  | : a \| | a |  |
+| a Dw. | A + a : a | ⊢ c + a : a | n. 8. V. |
+|  | B : b | \| c : a | n. Vorber. |
+| Dw. | B + b : b | \| c + a : a | n. 18. V. |
+|  | A + a : a | ⊢ c + a : a | n. Bew. a |
+| Dw. | A + a : a | ⊢ B + b : b | n. 13. V. |
 
-Be-
+### Beschluß.
+Wenn derowegen die I. zu der II. eine kleinere Verhältnüß / als die III. zu der IV. hat : So wird auch die I. und II. zu der II, eine kleinere Verhältnüß / als die III. und IV. zu der IV. haben. W. Z B.
+
+Oo
+
+Der

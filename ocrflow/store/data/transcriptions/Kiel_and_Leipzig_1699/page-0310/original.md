@@ -1,20 +1,33 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 292)* -->
+<!-- *(Seitenzahl: 286)* -->
 
-## Der XXXI. Vortrag.
-Das 31. Beweiß-Stück.
+Beweiß.
 
-Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden: Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Erste zu der Andern: Deßgleichen die Andere zu der Dritten in der ersten Ahrt / eine grössere Verhältnüß hat / als die Andere zu der Dritten in der andern Ahrt : So wird auch nach der Gleichheit die Erste der ersten Ahrt / zu der Dritten derselben Ahrt / eine grössere Verhältnüß / als die Erste von der andern Ahrt / zu der Dritten solcher Ahrt haben.
+|  |  |  |
+|---|---|---|
+| B : c | A : a | n. Vorbereit. |
+| A : a | ⊣ B : b | n Gegeb. |
+| Dw. B : c | ⊣ B : b | n. 13. V. |
+| und c | ⊦ b | n 10. V. |
+| a : A | c : B | n. Anh. 4. V. |
+| c : B | ⊦ b : B | n. 8. V. |
+| Dw. a : A | ⊦ b : B | n. Anh. 13. V. |
 
-### Gegebene.
+Beschluß.
 
-*[Figur: sechs waagerechte Linien A, a, B, b, C, c von unterschiedlicher Länge]*
+Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auf umgekehrte Weise die II. zu der I. eine kleinere Verhältnüß / als die IV. zu der III. haben/ W. Z. B.
 
-A B ⊣ a : b
-B : C ⊣ b : c
+# Der XXVII. Vortrag.
 
-### Begehrtes.
-A : C ⊣ a : c
+Das 27. Beweiß-Stück.
 
-Vor-
+Wenn man vier Grössen hat/ deren Erste zu der Andern eine grössere Verhältnüß hat / als die Dritte zu der Vierten: So wird auch hinwiederum die Erste zu der Dritten eine grössere Verhältnüß haben/ als die Andere zu der Vierten.
+
+Gegebene.
+
+*[Figur: fünf Linien A, c, a, B, b von verschiedener Länge am linken Rand]*
+
+A : a ⊣ B : b
+
+Begehrtes.

@@ -1,40 +1,42 @@
-<!-- *(Seitenzahl: 342)* -->
+<!-- *(Seitenzahl: 336)* -->
 
 <!-- # Das VI. Buch -->
 
-3. werde DH ⊤ eh
-4. und DF ⊤ ef   n. 3. I.
-5. Gegen EF werde gezogen der Nebenstrich Hd
-6. u. EH Fd   n. 31. I.
-7. Die Nebenstriche AB und dH werden fortgezogen/biß sie in dem Düttel I zusammen kommen.
-
-## I. Beweiß.
+## Beweiß.
 
 |  |  |  |
 |---|---|---|
-| α. | □ AD : □ EI ⊤ CD : EH | ⟩ n. 1. VI. |
-| β. | □ FH : □ EI ⊤ FE : EB |  |
-|  | □ ad ⊤ □ fh | n. Gegeb. |
-|  | □ AD ⊤ □ FH | n. Vorb. |
-|  | □ EI ⊤ □ EI |  |
-| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 7. V. |
-|  | □ AD : □ EI ⊤ CD : EH | n. Bew. α. |
-| Dw. | □ FH : □ EI ⊤ CD : EH | n. 11. V. |
-|  | □ FH : □ EI ⊤ FE : EB | n. Bew. β. |
-| Dw. | CD : EH ⊤ FE : EB | n. 11. V. |
-| u. | □ AD wechselmässig □ FH | n. 2. Beschr. VI. |
-| oder | □ ad □ fh | n. 1. Vorb. V. |
+|  | b1 ⊤ o1 | n. 2. Wirck. |
+|  | b1 ⊤ o1 | n 3. und 4. Wirck. |
+| Dw. | ob ⊤ 11 | n. 33. I. |
+|  | cbo ⋏ ca1 | ⟩ n. 29. I. |
+|  | cob ⋏ c1a |  |
+|  | bco ⋏ ac1 | n. 8. Gr. I. |
+| Dw. | △ boc ähnlich △ ac1 | n 1. Besch. VI. |
+| u. | oc : o1 ⊤ bc : ba | n. 4. VI. |
 
-## II. Gegebene.
+Gleicher Gestalt kan auch dargethan werden/ daß die übrigen Theile des gegebenen Striches / mit den andern Theilen des getheilten Striches / in richtiger Ebenmaß stehen.
 
-1. □ ad
-2. □ fh
-3. d ⋏ e
-4. ab : eh ⊤ fe : db.
-5. □ ad wechselmässig □ fh.
+## Beschluß.
 
-## II. Begehrtes.
+Ist also der gegebene Ungetheilte Strich ag, oder FG oder BC also / wie der getheilte Strich AD, AG oder o4 getheilet/ W. Z. M.
 
-ad ⌻ fh
+# Der XI. Vortrag.
 
-II. Vor-
+## Das 3. Werck-Stück.
+
+Zu zweyen gegebenen geraden Strichen den dritten ebenmässigen Strich zu finden.
+
+### Gegebene.
+
+1. Strich AB.
+2. AC.
+
+### Begehrtes.
+
+1. Der dritte Strich cd.
+2. Ebenmässig gegen die beyden
+
+AB : AC ⊤ AC : cd.
+
+Wir-

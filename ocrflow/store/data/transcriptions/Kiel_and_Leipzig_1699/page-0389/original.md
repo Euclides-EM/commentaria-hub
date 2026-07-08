@@ -1,33 +1,27 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 371)* -->
+<!-- *(Seitenzahl: 359)* -->
 
-Beschluß.
+che gegeben werden/ so werden auch die von solchen Strichen beschriebene Vielecke ebenmässig seyn.
 
-Müssen derowegen die ähnliche/ gleicherweiß gesetzte/ und gleichmässigen Winckel habende abgenommene Vierecke mit dem gantzen ac üm einen einigen Zwergstrich stehen. W. Z. B.
+Und wenn von etlichen geraden Strichen ähnliche oder ebenmässige Vielecke beschrieben werden/ so werden dieselben Striche auch in Ebenmaß stehen.
 
-# Der XXVII. Vortrag.
+## I. Gegebene. I. Begehrtes.
 
-Das 20. Beweiß-Stück.
+1. Vier gerade Striche
+ab, cd, ef, gh. △ aob : △ cnd | □ el : □ gi.
+2. Welche in Ebenmaß stehen.
+ab : cd | ef : gh
+3. Geradstrichichte ähnliche Vielecke
+△ aob ähnlich △ cnd
+□ el ähnlich □ gi
+4. Gleicher weise gesetzet.
 
-Wenn an einen gegebenen geraden Strich ein gegebenes nebenstrichichtes und mangelhafftes Viereck angeschlagen wird: So wird unter allen nebenstrichichten und dem mangelenden Viereck ähnlichen Vierecken dasjenige / welches an die Helffte des gegebenen geraden Striches angeschlagen wird/ das Grösseste seyn.
+*[Figur: grosses Dreyeck a o b, daneben kleineres Dreyeck c n d mit Strich p, dann Viereck e m l f und kleineres Viereck g k i h mit Strich q; darunter zwey Striche a b e h mit punktierten Linien und den Bezeichnungen d p, c, d, g, hq]*
 
-Gegebene.
+## Vorbereitung.
 
-1. Gerader Strich ab
-2. Nebenstrichichtes Viereck ai
-3. □ ai an den Strich ab angeschlagen.
-4. Doch mangelhafft
-5. Uberschuß gb
-6. Mangelendes Viereck gc.
-7. bp die Helffte des Striches ab ap | bp.
-8. Viereck pe.
-9. an des Striches ab Helffte pb angeschlagen.
-10. □ pe ähnlich □ gc
+1. Es werde zu denen beyden Strichen ab und cd der dritte ebenmässige Strich p gefunden n. 11. VI.
+ab : cd | cd : p.
 
-Begehrte.
-
-1. □ pe ⊣ □ ai
-
-Aaa 2
-2. Unter
+2. Auch

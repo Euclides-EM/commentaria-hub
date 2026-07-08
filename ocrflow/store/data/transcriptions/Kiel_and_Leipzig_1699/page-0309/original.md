@@ -1,33 +1,33 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 291)* -->
+<!-- *(Seitenzahl: 285)* -->
 
-## Der XXX. Vortrag.
-Das 30. Beweiß-Stück.
+Anmerckung.
 
-Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte sampt der Vierten zu der Vierten: So wird hingegen ümgekehrt die Erste sampt der Andern / zu der Ersten eine kleinere Verhältnüß / als die Dritte sampt der Vierten zu der Dritten haben.
+Dieses ist der letzte Vortrag des V. Buchs Euclidis, die Nachfolgenden sind aus dem Pappo Alexandrino entlehnet/ weil sie öffters von den besten Mathematicis, um etwas darmit zu beweisen / angezogen werden.
 
-### Gegebene.
+# Der XXVI. Vortrag.
 
-*[Figur: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]*
+Das 26. Beweiß-Stück.
 
-A + a : a ⊣ B + b : b
+Wenn man vier Grössen hat / deren Erste zu der Andern eine grössere Verhältnüß hat/als die Dritte zu der Vierten: So wird auf umgekehrte Weise die Andere zu der Ersten eine kleinere Verhältnüß/ als die Vierte zu der Dritten/ haben.
 
-### Begehrtes.
-A + a : A ⊢ B + b : B.
+Gegebene.
 
-### Beweiß.
+*[Figur: fünf Linien A, a, B, b, c von verschiedener Länge am linken Rand]*
 
-|  |  |  |  |
-|---|---|---|---|
-|  | A + a : a ⊣ B + b : b | | n. Geg. |
-| Dw. | A : a ⊣ B : b | | n. 29. V. |
-| und | a : A ⊢ b : B | | n 26. V. |
-| Dw. | a + A : A ⊢ b + B : B | | n. Anh. 28. V. |
+A : a ⊣ B : b
 
-### Beschluß.
-Wenn derowegen die I. sampt der II. zu der II. eine grössere Verhältnüß hat / als die III. sampt der IV. zu der IV. So wird auf verkehrte Art die I. sampt der II. zu der I. eine kleinere Verhältnüß / als die III. und IV. zu der III. haben. W. Z. B.
+Begehrtes.
 
-Oo 2
+a : A ⊦ b : B
 
-Der
+Vorbereitung.
+
+Man nehme darzu eine Grösse c, zu welcher sich B also verhalte/wie A zu a.
+
+B : c | A : a.
+
+Nn 3
+
+Beweiß.

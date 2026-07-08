@@ -1,47 +1,45 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 273)* -->
+<!-- *(Seitenzahl: 267)* -->
 
-## I. Gegebene.
+Gegebene. | Begehrtes.
 
-A ________ | A : B : C
-B ______ | a : b : c
-C ____
-a ______ | A : B | a : b
-b ____ | B : C | b : c
-c __ | A ⊣ C
+a ____
+b ______ | a : b | A : B.
+A __c__d__e__f__
+B __g__h__i__k__
 
-*[Figur: Strecken A, B, C, a, b, c]*
+*[Figur: Strecken a, b; Strecke A in Theile c, d, e, f getheilet; Strecke B in Theile g, h, i, k getheilet]*
 
-## Begehrtes.
+4a | A
+4a | B
 
-a ⊣ c
+## Vorbereitung.
+
+1. Es werde A in vier gleiche Theile getheilet/ daß c | a, d | a, e | a und f | a, n. 3. I.
+2. Auch werde B also getheilet/ daß g | b, h | b, i | b, und k | b, werde. n. 3. I.
 
 ## Beweiß.
 
-a : b | A : C
-A ⊣ C — n. Geg.
-B | B
-Dw. A : B ⊣ C : B — n. 8. V.
-α und a : b ⊣ C : B — n. 13. V.
-b : c | B : C — n. Geg.
-c : b | C : B — n. 16. V.
-a : b ⊣ C : B — n. Bew. α
-Dw. a : b ⊣ c | b — n. 13. V.
-b | b
-u. a ⊣ c — n. 10. V.
+a | c | d | e | f — n. 1.
+b | g | h | i | k — n. 2. Vorb.
 
-## II. Gegebene.
+Dw. c ⁘ g
+d ⁘ h | a : b — n. Anh. 7. V.
+e ⁘ i
+f ⁘ k
 
-A ________________ | A : B | a : b
-B ______ | B : C | b : c
-C ________________ | A | C
-a ______
-b ____
-c ______
+und c + d + e + f : g + h + i + k | a : b — n. 12. V.
+c + d + e + f | A — n. 9. Gr. q. I.
+Dw. c + d + e + f : g + h + i + k | A : g + h + i + k, n. 7. V.
+g + h + i + k | B — n. 9. Gr. q. I.
+Dw. c + d + e + f : g + h + i + k | A : B — n. Anh. 7. V.
+und a : b | A : B — n. 11. V.
 
-*[Figur: Strecken A, B, C, a, b, c]*
+## Beschluß.
 
-Mm
+Müssen also allezeit die Theile sich also / wie die vielfache Gantzen zu einander verhalten/ W. Z. B.
 
-Begehr-
+Ll 2
+
+Der

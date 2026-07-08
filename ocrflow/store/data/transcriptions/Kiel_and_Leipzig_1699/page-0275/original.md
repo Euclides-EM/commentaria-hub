@@ -1,33 +1,42 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 257)* -->
+<!-- *(Seitenzahl: 251)* -->
 
-## Beweiß.
+## I. Beweiß.
 
-a | 3b
-A | 2b
-B | 2b — n. Gegebenen.
-Dw. A | B — n. 6. Gr. I.
+Grösse mehr vielfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vielfältig / als gegen die Grössere.
 
-Oder also:
+A | 5a — n. 1. Geg.
+c | 4a — n. 2. Geg.
+Dw. A—c | a — n. 3. Gr. I.
+B | 5b — n. 3. Geg.
+d | 4b — n 4. Geg.
+Dw. B—d | b — n. 3. Gr. I.
 
-Wenn A ⊣ B — so muß
-auch a : A ⊢ a : B — n. 8. V.
-ist aber A ⊢ B — so muß
-auch a : A ⊣ a : B — n. 8. V.
+## Gegebene. — Begehrtes.
 
-Welches aber beedes wider das Gegebene.
+I. A ______ — A—c : a | B—d : b
+II. a ___
+III. B ______
+IV. b ___
 
-## Beschluß.
+*[Figur: Vier waagerechte Linien mit Teilstrichen, bezeichnet I. A, II. a, III. B, IV. b]*
 
-Müssen also diejenigen Grössen / welche zu einer einigen Grösse gleiche Verhältnüß haben / gleich groß seyn: Und diejenigen Grössen/ zu welchen eine einige Grösse gleiche Verhältnüß hat/ müssen auch gleich groß seyn. W. Z. B.
+1. A | 5a
+2. c | 3a
+3. B | 5b
+4. d | 3b
 
-# Der X. Vortrag.
+## II. Beweiß.
 
-## Das 10. Beweiß-Stück.
+A | 5a — n 1. Geg.
+c | 3a — n. 2. Geg.
+Dw. A—c | 2a — n. 3. Gr. I.
+B | 5b — n 3. Geg.
+d | 3b — n. 4. Geg.
+Dw. B—d | 2b — n. 3. Gr. I.
+Und A—c : a | B—d : b — n 7. Beschr. V.
 
-Welche aus zwo Grössen zu einer einigen Grösse die Grössere Verhältnüß hat / dieselbige wird auch die Grösseste seyn: Und zu welcher Grösse eine einige Grösse die grössere Verhältnüß hat / dieselbige wird am kleinesten seyn.
+Ji 2
 
-Kk
-
-Gege-
+Beschluß.

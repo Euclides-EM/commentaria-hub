@@ -1,34 +1,42 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 283)* -->
+<!-- *(Seitenzahl: 277)* -->
 
-Gegebene.
+|  |  |  |
+|---|---|---|
+| a : b | B : C | n. Gegeb. |
+| Dw. b : a | C : B | n. 16. V. |
+| u. b : a | ⊦ b : c | n. 13. V. |
+| b | b | |
+| Dw. a | ⊦ c | n. 10. V. |
 
-*[Figur: vier Linien A, B, a, b von verschiedener Länge; auf der Linie a sind die Stücke f und d bezeichnet]*
+II. Gegebene.
 
-A : B | a : b
-A ⊣ B
-B ⊣ a
-a ⊣ b
+*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+
+A : B | b : c
+B : C | a : b
+A | C
 
 Begehrtes.
 
-A + b ⊣ B + a
-
-Vorbereitung.
-
-1. Von der Grössesten und Ersten Grösse A werde ein Stück e, welches so groß sey / als die Andere Grösse B, abgeschnitten e | B n. 3. I.
-
-2. Von der dritten Grösse a werde auch ein Stück f, so groß/ als die vierte Grösse b, abgenommen/ f | b n. 3. I.
-
-3. Dem erst abgeschnittenen Stück e werde die Vierte Grösse beygefüget. e + b
-
-4. Dem andern abgenommenen Stück f werde die Andere Grösse B beygesetzet. f + B
-
-5. Zu denen Ersten beeden e + b werde noch hinzu gethan das Stück/so zuerst übergeblieben/nemlich c e + c + b.
-
-6. Zu denen andern beeden f + B werde das andere übergebliebene d beygethan B + f + d.
-
-Nn 2
+a | c
 
 Beweiß.
+
+|  |  |  |
+|---|---|---|
+| b : a | A : B | ⌉ n. Gegeb. |
+| A | C | |
+| B | B | |
+| Dw. A : B | C : B | n. 7. V. |
+| und b : c | C : B | n. 11. V. |
+| a : b | B : C | n. Gegeb. |
+| b : a | C : B | n. 16. V. |
+| Dw. b : a | b : c | n. 11. V. |
+| b | b | |
+| u. a | c | n. 9. V. |
+
+Mm 3
+
+III. Gege-

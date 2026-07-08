@@ -1,28 +1,41 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 247)* -->
+<!-- *(Seitenzahl: 241)* -->
 
-*[Figur: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 10a, C, B, 10b, D]*
+## Beweiß.
 
-## III. Beweiß.
+|  |  |  |  |
+|---|---|---|---|
+| | c | a | |
+| | d | a | n. 2. Vorber. |
+| Dw. | c + d | 2a | n. 2. Gr. I. |
+| | c + d | A | n. 9. Gr. q. I. |
+| α (?) Dw. | A. | 2a | n. 1. Gr. I. |
+| | e | a | |
+| | f | a | |
+| | g | a | n. 6. Vorb. |
+| Dw. | e + f + g | 3a | n. 2. Gr. I. |
+| | e + f + g | C | n. 9. Gr. q. I. |
+| Dw. | C | 3a | n. 1. Gr. I. |
+| und | A + C | 5a | n. 2. Gr. I. |
+| | h. | b | |
+| | k | b | |
+| | h + k | 2b | |
+| | h + k | B | |
+| θ (?) Dw. | B | 2b | |
+| | l | b | |
+| | m | b | |
+| | n | b | |
+| Dw. | l + m + n | 3b | |
+| | l + m + n | D | |
+| Dw. | D | 3b | |
+| β u. | B + D | 5b. | |
 
-9a | C — n. Bew. α
-9a ⊢ 10a — n. 9. Gr. I.
-κ Dw. 10a ⊣ C — n. 1. Gr. c. I.
-9b | D — n. Bew. β
-9b ⊢ 10b — n. 9. Gr. I.
-λ Dw. 10b ⊣ D — n. 1. Gr. c. I.
-Weil nun (1) C | 9a — n. Bew. α
-und D | 9b — n. Bew. β
-(2) 2C ⊣ 4a — n. Bew. γ
-und 2D ⊣ 4b — n. Bew. φ
-(3) 10a ⊣ C — n. Bew. κ
-und 10b ⊣ D — n. Bew. λ
+## Vorbereitung.
 
-Derowegen muß auch C : a | D : b — n. 6. Beschr. V.
+1. Es werde die Grösse a sechsmahl/ und
+2. Die Grösse b auch sechsmahl genommen.
 
-## Beschluß.
+Hh
 
-Wenn derowegen vier Grössen gegeben werden / deren Erste zu der Andern sich also / wie die Dritte zu der Vierten verhält: und noch zwo Grossen darzu genommen werden / da die Fünffte zu der Ersten sich also verhält / wie die Sechste zu der Vierten / so muß die Fünffte zu der Andern sich also verhalten / wie die Sechste zu der Vierten/ W. Z. B.
-
-Der
+A

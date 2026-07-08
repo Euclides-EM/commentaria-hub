@@ -1,39 +1,36 @@
-<!-- # Das V. Buch -->
+<!-- # Das IV. Buch -->
 
-<!-- *(Seitenzahl: 234)* -->
+<!-- *(Seitenzahl: 228)* -->
 
-XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/womit die Vorgehenden die Nachgehenden übertroffen / hält.
+I. Anhang.
 
-6a : 4a | 3a : 2a
+Hierauß erhellet / daß die Seiten des Sechseckes eben so
+groß seyn / als der Strahl oder halbe Durchschlag des Kreyses /
+welchem das Sechseck eingeschrieben ist.
 
-6a : 6a — 4a | 3a : 3a — 2a
+II. Anhang.
 
-oder 6a : 2a | 3a : a.
+Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
+gegebenen Kreyß eingeschrieben werden.
 
-XVII. Verhältniß aus der Gleichheit (ex æqualitate ratio) ist/ wenn man mehr/als zwo in Verhältniß stehende Grössen hat: und darnach wiederümb eben so viel Grössen / so in gleichmässiger Verhältniß stehen/nimt: so wird in der ersten Ordnung die Erste Grösse sich zu der Letzten eben so/ wie in der andern Ordnung die Erste zu der Letzten verhalten.
+*[Figur: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]*
 
-Oder:
+Wirckung.
 
-Wenn man die Mittelsten wegwirfft/und die Ersten und Letzten gegen einander hält.
+1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
+se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
+e und o schneidet.
+2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
+gemacht /welche den Kreyß in d und b schneiden.
+3. Werden die Striche fd und fb gezogen.
+4. Wird der Strich db gezogen.
 
-9a : 6a : 4a
+Beweiß.
 
-18b : 12b : 8b
+fe ⌒ fo
+ed ⌒ ob — n. 15. IV.
+Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
+u. — fd ⌒ fb — n. 9. Gr. q. I.
+Dw. — fd | fb — n. 29. III.
 
-9a : 4a | 18b : 8b
-
-Oder
-
-16a : 8a : 4a : 2a
-
-24b : 12b : 6b : 3b
-
-16a : 2a | 24b : 3b
-
-XIIX. Ordentliche Ebenmässigkeit ist/ wenn in der ersten Ordnung die Vorgehende zu der Nachgehenden/wie die Vorgehende zu der Nachgehenden in der andern Ordnung sich verhält. Und ferner die Nachgehende in der ersten Ordnung zu etwas Anders/wie die Nachgehende der andern Ordnung zu etwas Anders.
-
-4a : 2a | 2a : (a)
-
-8b : 4b | 4b : (2b.)
-
-XIX.
+Dw-

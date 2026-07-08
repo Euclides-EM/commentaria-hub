@@ -1,45 +1,33 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 263)* -->
-
-Gegebene. | Begehrtes.
-
-A ________ | A : a ⊣ C : c
-a ____
-B ________
-b ____
-C ________
-c ____
-
-*[Figur: Strecken A, a, B, b, C, c]*
-
-1. A : a | B : b
-2. B : b ⊣ C : c
+<!-- *(Seitenzahl: 257)* -->
 
 ## Beweiß.
 
-Wenn A : a | C : c — n. Genom.
-und A : a | B : b — n. Gegeb.
-so muß B : b | C : c — n. 11. V.
+a | 3b
+A | 2b
+B | 2b — n. Gegebenen.
+Dw. A | B — n. 6. Gr. I.
 
-Welches wider das andere Gegebene.
+Oder also:
 
-Wenn aber A : a ⊢ C : c — n. Genom.
-und A : a | B : b — n. Gegeb.
-so muß B : b ⊢ C : c — welches wider das Gegeb.
+Wenn A ⊣ B — so muß
+auch a : A ⊢ a : B — n. 8. V.
+ist aber A ⊢ B — so muß
+auch a : A ⊣ a : B — n. 8. V.
 
-Weil dieser letzte Schluß nicht schlechter Dinges kan bestätiget werden/ So
+Welches aber beedes wider das Gegebene.
 
-## Vorbereitung.
+## Beschluß.
 
-Nehme man A, wie auch C zweymahl.
-Die Grössen a und c aber dreymahl.
+Müssen also diejenigen Grössen / welche zu einer einigen Grösse gleiche Verhältnüß haben / gleich groß seyn: Und diejenigen Grössen/ zu welchen eine einige Grösse gleiche Verhältnüß hat/ müssen auch gleich groß seyn. W. Z. B.
 
-2A ________________
-3a ____________
-2C ________________
-3c ________________
+# Der X. Vortrag.
 
-*[Figur: Strecken 2A, 3a, 2C, 3c]*
+## Das 10. Beweiß-Stück.
 
-Beweiß.
+Welche aus zwo Grössen zu einer einigen Grösse die Grössere Verhältnüß hat / dieselbige wird auch die Grösseste seyn: Und zu welcher Grösse eine einige Grösse die grössere Verhältnüß hat / dieselbige wird am kleinesten seyn.
+
+Kk
+
+Gege-

@@ -1,37 +1,39 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 274)* -->
+<!-- *(Seitenzahl: 268)* -->
 
-Begehrtes.
+# Der XVI. Vortrag.
 
-a | c
+## Das 16. Beweiß-Stück.
 
-Beweiß.
+Vier Ebenmässige Grössen sind auch wechselweiß genommen Ebenmässig.
 
-|  |  |  |
-|---|---|---|
-| a : b | A : B | ⌉ n. Geg. |
-| A | C | |
-| B | B | |
-| A : B | C : B | n. 7. V. |
-| β Dw. a : b | C : B | n. 11. V. |
-| b : c | B : C | n. Geg: |
-| Dw. c : b | C : B | n. 16. V. |
-| a : b | C : B | n. Bew. β |
-| Dw. a : b | c : b | n. 11. V. |
-| b | b | |
-| und a | c | n. 9. V. |
+Gegebene. | Begehrtes.
 
-III. Gegebene.
+A ____________
+B ________ | A : a | B : b
+a ____
+b __
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+*[Figur: Strecken A, B, a, b]*
 
 A : B | a : b
-B : C | b : c
-A | ⊦ C
+A | 4a
+B | 4b
 
-Begehrtes.
+## Beweiß.
 
-a ⊦ c
+A | 4a
+B | 4b — n Gegeb.
+Dw. A : B | 4a : 4b — n. Anh. 7. V.
+4a ⁘ a | 4b : b — n. 7. Besch. V.
+4a ⁘ a | A : a — n. 7. V.
+Dw. A ⁘ a | 4b : b — n. 11. V.
+B : b | 4b : b — n. 7. V.
+Dw. A : a | B : b — n. 11. V.
 
-Beweiß.
+## Beschluß.
+
+Werden derowegen Ebenmässige Grössen auch wechselweiß genommen Ebenmässig seyn. W. Z. B.
+
+Der

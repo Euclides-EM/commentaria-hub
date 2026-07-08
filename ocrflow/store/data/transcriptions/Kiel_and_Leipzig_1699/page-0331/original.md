@@ -1,39 +1,36 @@
-<!-- *(Seitenzahl: 313)* -->
+<!-- *(Seitenzahl: 307)* -->
 
 <!-- # Euclidis. -->
 
-# I. Beweiß.
+# Des I. Vortrags I. Zugabe.
 
-de ⧣ cb — n. Gegeb.
-Dw. △ bde | △ cde — n. 37. I.
-△ ade | △ ade
-Dw. △ ade : △ bde | △ ade : △ cde — n. 7. V.
-△ ade gleichmässiger Höhe △ bde — n. 4. Besch. VI.
-∝ Dw. △ ade : △ bde | ad : db — n. 1. VI.
-△ ade : gleichmässiger Höhe △ cde — n. 4. Besch. VI
-Dw. △ ade : △ cde | ae : ec — n. 1. VI.
-u. △ ade : △ bde | ae : ec — n. 11. V.
-△ ade : △ bde | ad : db — n. Bew. ∝
-Dw. ae : ec | ad : db — n. 11. V.
+Diejenigen Dreyecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ haben auch gleichmässige Höhen.
 
-# I. Beschluß.
+# I. Gegebene.
 
-Wenn derowegen eines Dreyeckes zwo Seiten von des Grundstriches Nebenstrich geschnitten werden/ so stehen die Stücke der Seiten in ebenmässiger Verhältnüß gegen einander. W. Z. B.
-
-# Des II. Vortrags II. Gegebene.
-
-1. Dreyecke abc
-2. Strich de
-3. Welcher die Seiten schneidet.
-4. Also daß ae : ec | ad : db.
+ab : ed | △ abc : △ def
 
 # Begehrtes.
 
-de ⧣ cb.
+Höhen cq | fp.
+
+*[Figur: Zwei Dreiecke, links mit Gipffel f über der Grundlinie e p d a, rechts mit Gipffel c und Punkt r über der Grundlinie a q b, mit gestrichelten Höhen und Strichen]*
 
 # Vorbereitung.
 
-Es werden die geraden Striche be und cd gezogen.
+Wenn die Höhe cq länger were/ als die Höhe fp, so schneide man ab ein Stück rq | fp.
+2. Ziehe man die Striche ra und rb.
 
-Rr
-II. Beweiß.
+# Beweiß.
+
+weil cq ⊣ fp. — n. Angenom.
+und rq | fp — n. Vorber.
+Dw. ab : ed | △ arb : △ def — n. 1. VI.
+ab : ed | △ acb : △ def — n. Gegeb.
+Dw. △ arb : △ def | △ acb : △ def — n. 11. V.
+u. △ arb | △ acb — n. 9. V.
+
+welches aber unmüglich n. 9. Gr. I.
+
+Qq 2
+Gleiche

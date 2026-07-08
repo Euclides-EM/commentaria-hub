@@ -1,36 +1,25 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 385)* -->
+<!-- *(Seitenzahl: 373)* -->
 
-## Beweiß.
+Dw. □ pq + □ pi | □ ge + □ pi n. 2. Gr. I.
+oder □ ai | ⊾ eip n. 9. Gr. I. q.
+□ pe - | ⊾ eip n. 9. Gr. I.
+Dw. □ pe - | □ ai n. 1. Gr. I. a.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | BC : CA | CA : CK | n. 8. VI. |
-| Dw. | BC : CK = | BC : CA | n. 10. Bes. V. |
-|  | □ BD : □ AI = | BC : CA | n. 19. VI. |
-| Dw. | BC : CK | □ BD : □ AI | n. 11. VI. |
-| α und | CK : BC | □ AI : □ BD | verkehret |
-|  | BC : BA | BA : BK | n. 8. VI. |
-| Dw. | BC : BK | □ BD : □ AF | n. 19. VI. |
-| β und | BK : BC | □ AF : □ BD | verkehret |
-|  | CK : | □ AI : | n. Bew. α |
-|  | BC | □ BD |  |
-|  | BK : | □ AF : | n. Bew. β |
-| Dw. | CK + BK : BC | □ AI + □ AF : □ BD | n. 24. V. |
-|  | CK + BK | BC | n. 9. Gr. I. q. |
-| Dw. | □ AI + □ AF | □ BD | n. 14. V. |
+Auch alle andere mangelhaffte Vierecke sind kleiner/ als das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck.
 
-## Beschluß.
+Beschluß.
 
-Sind derowegen allezeit die beyden/ auf denen beyden/ den rechten Winckel begreiffenden Seiten stehende/ und einander ähnliche Gestalte/ derjenigen Gestalt/ welche auch diesen beyden Gestalten ähnlich/ und auf der dem rechten Winckel übergespanneten Seite stehet/ gleichmässig. W. Z. B.
+Ist derowegen das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck grösser/ als alle andere mangelhaffte an den gegeben Strich angeschlagene Vierecke. W. Z. B.
 
-# Der XXXII. Vortrag.
+# Der XXIIX. Vortrag.
 
-## Das 22. Beweiß-Stück.
+Das 8. Werck-Stück.
 
-Wenn zwey Dreyecke gegeben werden/ deren eins zwo Seiten/ zweyen Seiten des andern ebenmässig sind, und das eine Dreyeck mit seinem Winckel an des andern Dreyeck Winckels also gestossen
+An einen gegebenen geraden Strich ein nebenstrichichtes Viereck/ welches einer gegebenen geradstrichichten Gestalt gleichmässig sey/ also anzuschlagen/ daß es mangelhaft/ und das mangelende nebenstrichichte Viereck einem andern gegebenen nebenstrichichten Viereck ähnlich sey.
 
-Ccc
+Es muß aber die gegebene geradstrichichte Gestalt / welcher das nebenstrichichte Viereck / so anzuschlagen ist / gleichmässig seyn sol/ nicht grösser seyn / als dasjenige Viereck / welches an die Helffte des gegebenen Striches kan angeschlagen werden: und solches an die Helffte des Striches angeschlagene Viereck / wie auch das mangelende / und die andere gegebene nebenstrichichte Viereck sind alle einander ähnlich.
 
-wird/
+Aaa 3
+Begehr-

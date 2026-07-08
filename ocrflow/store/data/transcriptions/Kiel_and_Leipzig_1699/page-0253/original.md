@@ -1,29 +1,25 @@
-<!-- # Euclidis -->
+<!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 235)* -->
+<!-- *(Seitenzahl: 229)* -->
 
-XIX. Verwirrete Ebenmässigkeit ist / wenn man drey Grössen in der ersten Ordnung / und eben so viel in der andern Ordnung hat/da die Vorgehende zu der Nachgehenden in der I. Ordnung sich eben so / wie die Vorgehende zu der Nachgehenden in der II. Ordnung hält: Darnach aber die Nachgehende der I. Ordnung zu etwas Anders: wie etwas Anders zu der Vorgehenden in der II. Ordnung.
+|  |  |  |  |
+|---|---|---|---|
+| Dw. | fd | bd | n. 15. IV. |
+| | fd | bd | n. 29. III. |
+| und | fdb | Gleichseitiges △ | n. 23. Besch. I. W. Z. M. |
 
-4a : 2a : (a)
+# Der XVI. Vortrag.
 
-(4b): 2b : b
+## Das 16. Werckstück.
 
-# Der I. Vortrag.
+Dem gegebenen Kreyß ein gleichseitig und gleichwincklicht Funffzehen-Eck einzuschreiben.
 
-## Das 1. Beweiß-Stück.
+Gegebenes. — Begehrte.
 
-Wann etliche Grössen (und zwar so viel man derer wil) anderer eben so viel Grössen gleichmässig vielfältige (multiplices) sind/so werden die ersten Grössen alle zusammen genommen/derer Anderen allen zusammen genommenen Grössen eben so vielfältig seyn / als eine derer Ersten zu einer deren Anderen in richtiger Ordnung genommenen Grössen.
+Kreyß abfdea. — 1. Funffzehn-Eck dgafe 2. dem Kreyß eingeschrieben.
 
-## Gegebene.
+*[Figur: Kreis mit einbeschriebenem Fünfzehneck, darin punktiert ein Dreieck und ein Fünfeck; Punkte a, b, e, f, g, c, d, n, m]*
 
-*[Figur: vier waagerechte Linien verschiedener Länge, bezeichnet A, a, B, b]*
+Ff 3
 
-A : a | B : b
-
-## Begehrtes.
-
-A + B : a + b | A : a — B : b
-
-Gg 2
-
-Vor-
+Wir-

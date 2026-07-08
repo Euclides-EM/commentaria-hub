@@ -1,24 +1,34 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 384)* -->
+<!-- *(Seitenzahl: 372)* -->
 
-## Gegebene.
+2. Unter allen an den Strich ab angeschlagenen nebenstrichichten Vierecken/ das an den halben Strich pb angeschlagene Viereck pe grösser/ als alle andere mangelhaffte an den Strich ap angeschlagene Vierecke.
 
-1. Dreyeck ABC, welches
-2. Rechtwincklicht und
-3. Auf der dem rechten Winckel A übergespanneten Seite BC stehende □ Bd oder △ BCD.
-4. Zwey Dreyeck AHC und AFB, oder □ AI + □ AF, welche
-5. Auf den beyden Seiten AB und AC, so den rechten Winckel A begreiffen/ stehen.
+*[Figur: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]*
 
-## Begehrtes.
+Vorbereitung.
 
-△ DBC | △ AHC + △ AFB.
-□ BD | □ AI + □ AF.
+1. Aus dem Düttel b werde gegen aq ein gerader Nebenstrich be gezogen. n. 31. I.
 
-*[Figur: zwei Konstruktionszeichnungen; links Dreieck ABC mit Punkten F, A, H, B, K, C und D; rechts Figur mit Punkten I, H, A, G, C, F, K, B, D, E]*
+2. Biß zu diesem Strich be werde fortgezogen der Strich qic.
 
-## Vorbereitung.
+3. Aus p werde auch ein Nebenstrich pd gegen aq gezogen. n. 31. I.
 
-Aus dem rechten Winckel A werde auf den Strich BC ein Senckstrich AK gezogen. n. 12. I.
+4. Biß zu diesem Strich pd werde aus b durch i der Strich bd gezogen.
+
+5. Aus d werde gegen qc ein Nebenstrich biß an den Strich be, nemlich de gezogen. n. 31. I.
+
+6. Endlich werde der Strich gi biß zu dem Strich de verlängert.
 
 Beweiß.
+
+□ pi | □ ie n. 43. I.
+□ gc | □ gc
+Dw. □ pi + □ gc | □ ie + □ gc n. 2. Gr. I.
+oder □ pc | □ ge n. 9. Gr. I. q.
+ap | pb n. 7. Geg.
+Dw. □ pq | □ pc n. 1. VI.
+u. □ pq | □ ge n. 1. Gr. I.
+□ pi | □ pi
+
+Dw.

@@ -1,34 +1,36 @@
-<!-- *(Seitenzahl: 324)* -->
+<!-- *(Seitenzahl: 318)* -->
 
-<!-- # Das VI. Buch -->
+<!-- # Das V. Buch -->
 
-Beweiß.
+# Vorbereitung.
 
-deg ⋏ bac
-gde ⋏ abc   n. Vorber.
-α Dw. | egd ⋏ acb | n. 26. I.
-u. | ba : ac | de : eg | n. 4. VI.
-| ba : ac | de : ef | n. 3. Geg.
-Dw. | de : ef | de : eg | n. 11. V.
-β u. | ef | eg | n. 9. V.
+1. Der Grundstrich bc werde nach Nothdurfft gegen g verlängert.
+2. Von cg werde abgeschnitten das Stück ce | CE — n. 3. I.
+3. Es werde gemacht △ ced | △ CED — n. 22. I.
+4. Der Strich ba werde biß f, und
+5. Der Strich ed auch biß f verlängert.
 
-| deg ⋏ bac | n. Vorber.
-| def ⋏ bac | n. Geg.
-Dw. | deg ⋏ def | n. 1. Gr. I.
-| ef | eg | n. Bew. β.
-| de | de |
-Dw. | ef + de | eg + de | n. 2. Gr. I.
-u. | egd ⋏ efd |
-γ u. | gde ⋏ edf | n. 4. I.
-| egd ⋏ acb | n. Bew. α
-Dw. | acb ⋏ efd | n. 1. Gr. I.
-| gde ⋏ abc | n. Vorber.
-| gde ⋏ edf | n. Bew. γ
-Dw. | abc ⋏ edf | n. 1. Gr. I.
-u. | △ abc gleichwincklicht △ edf | n. 1. Beschr. VI.
+# Beweiß.
 
-Beschluß.
+DEC ⋏ dec — n. 3. Vorb.
+Dw. DEC ⋏ dec — n. 8. I.
+DEC ⋏ acb — n. 3. Gegeb.
+Dw. dec ⋏ acb — n. 1. Gr. I.
+u. de ⧣ ac — n. 28. I.
+dce ⋏ abc — n. 8. I.
+Dw. bf ⧣ dc — n. 28. I.
+u. facd ein nebenstrichichtes Viereck — n. 35. Beschr. I.
 
-Wenn derowegen in zweyen Dreyecken zweene gleichmässige Winckel befindlich / und des einen Winckels Seiten mit den beyden Seiten des andern Winckels ebenmässig sind / so werden solche Dreyecke auch im übrigen gleichmässige Winckel / welche ebenmässigen Seiten gegen überstehen / haben / und durchaus gleichwincklicht seyn. W. Z. B.
+∝ ba : af | bc : ce — n. 2. VI.
+β af | cd — n. 34. I.
+ba : | ba
+Dw. ba : af | ba : cd — n. 7. V.
+ba : cd | bc : ce — n. 11. V.
+ce | CE — n. 2. Vorb.
+bc | bc
+Dw. bc : ce | bc : CE — n. 7. V.
+u. ba : cd | bc : CE — n. 11. V.
+cd | CD — n. 3. Vorb.
+ba | ba
 
-Der
+Dw.

@@ -1,36 +1,28 @@
-<!-- *(Seitenzahl: 318)* -->
+<!-- *(Seitenzahl: 312)* -->
 
-<!-- # Das V. Buch -->
+<!-- # Das VI. Buch -->
+
+# Der II. Vortrag.
+
+# Das 2. Beweiß-Stück.
+
+Wenn gegen eines Dreyeckes eine Seite ein gerader Nebenstrich gezogen wird/ so schneidet solcher Strich die übrigen Seiten nach der Ebenmaß. Und wenn ein gerader Strich zwo des Dreyeckes Seiten nach der Ebenmaß schneidet; so wird er ein Nebenstrich des Grundstrichs seyn.
+
+# I. Gegebene.
+
+1. Dreyeck abc.
+2. Strich de
+3. de ⧣ cb.
+4. Das Dreyeck schneidend.
+
+# Begehrtes.
+
+ae : ec | ad : db.
+
+*[Figur: Dreyeck mit Gipffel a und Grundlinie bc, darin der Strich de nebst gestrichelten Strichen be und cd]*
 
 # Vorbereitung.
 
-1. Der Grundstrich bc werde nach Nothdurfft gegen g verlängert.
-2. Von cg werde abgeschnitten das Stück ce | CE — n. 3. I.
-3. Es werde gemacht △ ced | △ CED — n. 22. I.
-4. Der Strich ba werde biß f, und
-5. Der Strich ed auch biß f verlängert.
+Es werden die geraden Striche be und cd gezogen.
 
-# Beweiß.
-
-DEC ⋏ dec — n. 3. Vorb.
-Dw. DEC ⋏ dec — n. 8. I.
-DEC ⋏ acb — n. 3. Gegeb.
-Dw. dec ⋏ acb — n. 1. Gr. I.
-u. de ⧣ ac — n. 28. I.
-dce ⋏ abc — n. 8. I.
-Dw. bf ⧣ dc — n. 28. I.
-u. facd ein nebenstrichichtes Viereck — n. 35. Beschr. I.
-
-∝ ba : af | bc : ce — n. 2. VI.
-β af | cd — n. 34. I.
-ba : | ba
-Dw. ba : af | ba : cd — n. 7. V.
-ba : cd | bc : ce — n. 11. V.
-ce | CE — n. 2. Vorb.
-bc | bc
-Dw. bc : ce | bc : CE — n. 7. V.
-u. ba : cd | bc : CE — n. 11. V.
-cd | CD — n. 3. Vorb.
-ba | ba
-
-Dw.
+Beweiß.

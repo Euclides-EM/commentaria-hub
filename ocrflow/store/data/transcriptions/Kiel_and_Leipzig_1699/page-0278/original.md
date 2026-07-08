@@ -1,42 +1,35 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 260)* -->
+<!-- *(Seitenzahl: 254)* -->
 
-## I. Beweiß.
+## Gegebene. — Begehrtes.
 
-A | 3a — n. Gegeb.
-2A | 6a — n. 6. Gr. i. I.
-6a ⊣ 4a — n. 9. Gr. I.
-α (?) Dw. 2A ⊣ 4a — n. 1. Gr. c. I.
-B | 3b — n. Gegeb.
-2B | 6b — n. 6. Gr. i. I.
-6b ⊣ 4b — n. 9. Gr. I.
-β Dw. 2B ⊣ 4b — n. 1. Gr. c. I.
+*[Figur: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]*
+
+A ⊣ B — A : a ⊣ B : a
+A | 5a
+B | 3a
 
 ## Vorbereitung.
 
-Man nehme 1. A und B jedwedes einmahl/
-Darnach 2. Die Grössen a und b jedwede dreymahl.
+## Des I. Theils.
 
-A ____________
-3a ____________
-B ____________
-3b ____________
+1. Man nehme A zweymahl
+2. Wie auch B zweymahl
+3. Aber a siebenmahl.
 
-*[Figur: Strecken A, 3a, B, 3b]*
+*[Figur: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]*
 
-## II. Beweiß.
+## Beweiß.
 
-A | 3a — n. Gegeb.
-3a | 3a — n. Vorber.
-γ Dw. A | 3a — n. 1. Gr. I.
-B | 3b — n Geg.
-3b | 3b — n. Vorber.
-δ Dw. B | 3b — n. 1. Gr. I.
+A | 5a — n. Geg.
+2A | 10a — n. Vorber. u. 6. Gr. i. I.
+B | 3a — n. Geg.
+2B | 6a — n. Vorber. u. 6. Gr. i. I.
+7a ⊢ 10a — n. 9. Grund. I.
+2A ⊣ 7a — n. 1. Gr. c. I.
+7a ⊣ 6a — n 9. Grund. I.
+Dw. 2B ⊢ 7a — n. 1. Gr. a. I.
+Und A : a ⊣ B : a — n. 8. Beschr. V.
 
-## Vorbereitung.
-
-Man nehme 1. A und B jedwedes einmahl/
-Darnach 2. die Grössen a und b jedwedes viermahl.
-
-A—
+Des

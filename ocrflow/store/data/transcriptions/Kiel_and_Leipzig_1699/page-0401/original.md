@@ -1,28 +1,33 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 383)* -->
+<!-- *(Seitenzahl: 371)* -->
 
-## Andere Ahrt.
+Beschluß.
 
-Noch leichter geschicht diese Theilung nach dem XI. Vortrag des II. Buchs.
+Müssen derowegen die ähnliche/ gleicherweiß gesetzte/ und gleichmässigen Winckel habende abgenommene Vierecke mit dem gantzen ac üm einen einigen Zwergstrich stehen. W. Z. B.
 
-*[Figur: Rechteck mit punktierten Bogenlinien und den Punkten b, a, g, c, h, f, a, d, e]*
+# Der XXVII. Vortrag.
 
-## Beweiß.
+Das 20. Beweiß-Stück.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | □ ac | □ abc | n. 11. II. |
-|  | acg ⋀ | hcb | n. 13. I. |
-| Dw. | □ ac wechselmässig □ abc |  |  |
-| und | ab : ac | ac : cb | n. 14. VI. |
-
-Dw. ist ab im c nach der äusersten und mittelsten Verhältnüß getheilet. W. Z. M.
-
-# Der XXXI. Vortrag.
-
-## Das 21. Beweiß-Stück.
-
-In allen rechtwincklichten Dreyecken ist allezeit diejenige geradstrichichte Gestalt/ welche auf die/ dem rechten Winckel gegen überstehende/ Seite gesetzet wird/ denen beyden Gestalten/ so auf den übrigen beyden/ den rechten Winckel begreiffenden/ Seiten stehen/ und der ersten Gestalt ähnlich/ auch gleicher weise gesetzt sind/ gleichmässig.
+Wenn an einen gegebenen geraden Strich ein gegebenes nebenstrichichtes und mangelhafftes Viereck angeschlagen wird: So wird unter allen nebenstrichichten und dem mangelenden Viereck ähnlichen Vierecken dasjenige / welches an die Helffte des gegebenen geraden Striches angeschlagen wird/ das Grösseste seyn.
 
 Gegebene.
+
+1. Gerader Strich ab
+2. Nebenstrichichtes Viereck ai
+3. □ ai an den Strich ab angeschlagen.
+4. Doch mangelhafft
+5. Uberschuß gb
+6. Mangelendes Viereck gc.
+7. bp die Helffte des Striches ab ap | bp.
+8. Viereck pe.
+9. an des Striches ab Helffte pb angeschlagen.
+10. □ pe ähnlich □ gc
+
+Begehrte.
+
+1. □ pe ⊣ □ ai
+
+Aaa 2
+2. Unter

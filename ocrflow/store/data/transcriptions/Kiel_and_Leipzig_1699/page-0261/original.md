@@ -1,40 +1,32 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 243)* -->
+<!-- *(Seitenzahl: 237)* -->
 
-## III. Beweiß.
+*[Figur: vier waagerechte Linien, bezeichnet 2A, 4a, 2B, 4b]*
 
-|  |  |  |  |
-|---|---|---|---|
-| | A + C | 5a | n. Bew. α |
-| | 3 | 3 | |
-| | 3A + 3C | 15a | n. Gr. 6. l. I. |
-| | 2a | ⊢ 15a | n. Gr. 9. I. |
-| Dw. | 3A + 3C ⊣ | 2a | n. Gr. 1. c. I. |
-| | B + D | 5b | n. Bew. β |
-| | 3 | 3 | |
-| | 3B + 3D | 15b | n. Gr. 6. l. I. |
-| | 2b | ⊢ 15b | n. Gr. 9. I. |
-| Dw. | 3B + 3D ⊣ | 2a | n. Gr. 1. d. I. |
-| Weil nun 1. | A + C | 5a | n. Bew. α |
-| und | B + D | 5b | n. Bew. β |
-| 2. | A + C ⊢ | 6a | n. Bew. γ |
-| und | B + D ⊢ | 6b | n. Bew. δ |
-| 3. | A + C ⊣ | 2a | n. Bew. ε |
-| und | B + D ⊣ | 2b | n Bew. η |
+## II. Beweiß.
 
-So ist auch A + C : a | B + D : b, n. 6. Beschr. V.
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | A | 3a | n. Bew. | ι |
+| | A | a | n. 9. Gr. I. | |
+| Dw. | 2A | 4a | n. 4. Gr. I. | |
+| | B | 3b | n. Bew. | θ |
+| | B | b | n. 9. Gr. I. | |
+| Dw. | 2B | 4b | n. 4. Gr. I. | |
+| κ (?) Und. | 2A + 2B | 4a + 4b | n. 4. Gr. g. (?) I. | |
 
-## Beschluß.
+Oder also:
 
-Wenn derohalben die 1. Grösse der 2. gleichvielfältig/ auch die 3. der 4. gleichvielfältig ist. Darnach auch die 5 Grösse zu der 2. so vielfältig ist/als die 6. Grösse zu der 4. So müssen auch die 1. und 5 zusammen genommen/ zu der 2. eben so vielfältig seyn/als die 3. und 6. Grössen zusammen genommen zu der 4. Grösse sind/ W. Z. B.
+## Vorbereitung.
 
-# Der III. Vortrag.
+1. A Werde zweymahl/
+2. deßgleichen B zweymahl/ und
+3. a üm die Helffte.
+4. wie auch b üm die Helffte vergrössert.
 
-## Das 3. Beweiß-Stück.
+*[Figur: vier waagerechte Linien, bezeichnet 2A, 1½a, 2B, 1½b]*
 
-Wenn (unter den vier gegebenen Grössen) die Erste vielfäl-
+Gg 3
 
-Hh 2
-
-tig
+Beweiß

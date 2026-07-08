@@ -1,27 +1,37 @@
-<!-- *(Seitenzahl: 314)* -->
+<!-- *(Seitenzahl: 308)* -->
 
 <!-- # Das VI. Buch -->
 
-# II. Beweiß.
+Gleiche Bewandnüß hat es/ wenn man sagen wolte/ daß
+cq ⊢ fp were.
+Muß derowegen cq | fp.
 
-ae : ec | ad : db — n. Geg.
-△ ade : △ dbe | ad : db — n. 1. VI.
-Dw. △ ade : △ bde | ac : ec — n. 11. V.
-△ ade : △ cde | ae : ec — n. 1. VI.
-Dw. △ ade : △ cde | △ ade : △ bde — n. 11. V.
-u. △ cde | △ bde — n. 9. V.
-Dw. de ⧣ bc — n. 39. I.
+# Beschluß.
 
-# II. Beschluß.
+Wenn derohalben zwey nebenstrichichte Dreyecke sich also/ wie ihre Grundstriche gegen einander verhalten/ so werden sie auch gleichmässige Höhen haben. W. Z. B.
 
-Wenn derowegen ein gerader Strich zwo des Dreyeckes Seiten also schneidet/ daß die Stücke in ebenmässiger Verhältnüß stehen/ so wird der schneidende Strich ein Nebenstrich des Grundstrichs seyn. W. Z. B.
+# II. Gegebenes.
 
-# Der III. Vortrag.
+ab : de | □ ah : □ dg.
 
-# Das 3. Beweiß-Stück.
+# Begehrtes.
 
-Wenn eines Dreyecks Winckel in zween gleiche Theile/ durch einen geraden Strich/ welcher den Grundstrich auch schneidet/ getheilet wird/ so stehen die Stücke des Grundstriches in ebenmässiger Verhältnüß mit den beyden Seiten des Dreyeckes.
+Höhen gp | hq.
 
-Und wenn ein gerader Strich aus der Spitze des Dreyeckes gezogen/ den Grundstrich also schneidet/ daß dessen Stücke mit denen Seiten in ebenmässiger Verhältnüß stehen/ so theilet der Strich auch den Winckel in zweene gleiche Theile.
+*[Figur: Zwei Parallelogramme, links mit den Ecken g f d e und Punkt p, rechts mit den Ecken c h b a nebst den Punkten s, r und p, mit gestrichelten Senckstrichen]*
 
-I. Gege-
+# Vorbereitung.
+
+Wenn gp ⊢ hp so schneide man von hq ein Stück ab/ nemlich rp | gp n. 3. I.
+
+2. Ziehe man den Strich sr ⧣ ab.
+
+# Beweiß.
+
+gp | rp — n. Vorber.
+Dw. de : ab | □ dg : □ ar — n. 1. VI.
+de : ab | □ dg : □ ah — n. Geg.
+Dw. □ dg : □ ar | □ dg : □ ah — n. 11. V.
+u. □ ar | □ ah — n. 9. V.
+
+Welches

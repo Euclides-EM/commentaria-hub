@@ -1,35 +1,32 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 362)* -->
+<!-- *(Seitenzahl: 350)* -->
 
-## Vorbereitung.
+## Beschluß.
 
-Wenn gh ⊣ rs
-so werde zu diesen beyden gh und rs der dritte ebenmässige Strich x gefunden. n. 11. VI.
-gh : rs | rs : x.
+Wenn derowegen drey ebenmässige Striche gegeben werden/ so ist das von den äusersten Strichen gemachte Viereck dem gleichseitigen Viereck des mittelsten Striches gleichgroß.
 
-## Beweiß.
+Und wenn der beyden äusersten Striche Viereck dem gleichseitigen Viereck des mittelsten Striches gleichmässig ist/ so stehen die drey Striche in unzertrennter (continua) Ebenmaß. W. Z. B.
 
-gh : rs | rs : x n. Vorb.
-gh ⊣ rs n. Ang.
-Dw. rs ⊣ x n. 14. V.
-α u. gh ⊣ x n. 1 Gr. e. l.
-gh : x ⊐ gh : rs n. 10. Besch V.
-□ gi : □ rt ⊐ gh : rs n. 19. V.
-Dw. □ gi : □ rt | gh : x n. 11. V.
-u. □ gi ⊣ □ rt n. Bew. α. u. n. 14. V.
+# Der XIIX. Vortrag.
 
-Welches aber wider das 1. Gegeb.
-Eben so wenig kan auch gh ⊢ rs
-γ Müssen derowegen gh | rs. seyn/ W. Z. B.
+## Das 6. Werck-Stück.
 
-## Andere Ahrt.
+Auf einen gegebenen geraden Strich eine der gegebenen geradstrichichten Gestalt ähnliche und ebener massen gesetzte Gestalt zu verfertigen.
 
-## Vorbereitung.
+### Gegebene.
 
-1. Zu den drey geraden Strichen ab, cd und ef werde der vierte ebenmässige Strich rs gefunden. n. 12. VI.
-2. Auf den Strich rs werde ein geradstrichichtes Vieleck rsut gesetzet/ welches
-3. Vieleck st ähnlich sey dem Vieleck el, n 18. VI. und auch
-4. Auf gleiche Weise gesetzet sey.
+1. Gestalt abhik
+2. Gerader Strich cd
 
-Beweiß.
+### Begehrtes.
+
+1. cdefg ähnlich der Gestalt abhik
+2. cdefg eben so gesetzt als abhik
+
+*[Figur: zwei fünfeckige Gestalten nebeneinander; die grössere mit den Ecken a, k, i, h, b und punktierten Diagonalen; die kleinere mit den Ecken c, g, f, e, d und punktierten Diagonalen]*
+
+### Wirckung.
+
+1. Aus h zu denen gegen überstehenden Winckeln a und k werden gerade Striche ha, hk gezogen.
+2. werden auf den Strich cd Winckel gesetzet

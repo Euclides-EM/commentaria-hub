@@ -1,20 +1,39 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 294)* -->
+<!-- *(Seitenzahl: 288)* -->
 
-## Beschluß.
-Wenn derowegen VI. Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die IV. zu der V. auch die II. zu der III. eine grössere Verhältnüß / als die V. zu der Sechsten hat: So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
+Gegebene.
 
-## Der XXXII. Vortrag.
-Das 32. Beweiß-Stück.
+*[Figur: zwey Linien A und B; auf der Linie A sind die Stücke a und c, auf der Linie B das Stück b bezeichnet]*
 
-Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden. Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Andere zu der Dritten. Deßgleichen unter der Ersten die Andere zu der Dritten eine grössere Verhältnüß hat / als unter den Andern die Erste zu der Andern; So wird auch nach der Gleichheit die Erste der ersten Ahrt zu der Dritten selbiger Ahrt eine grössere Verhältnüß haben / als die Erste der andern Ahrt zu der Dritten solcher Ahrt.
-
-### Gegebene.
-
-*[Figur: sechs waagerechte Linien A, B, C, a, b, c von unterschiedlicher Länge]*
-
-A : B ⊣ b : c
-B : C ⊣ a : b
+A : a ⊣ B : b
 
 Begehrtes.
+
+A + a : a ⊣ B + b : b
+
+Vorbereitung.
+
+Man nehme noch eine Grösse/ nemlich c darzu/ welche sich zu a also/wie B zu b, verhalte. c : a | B : b.
+
+Beweiß.
+
+|  |  |  |
+|---|---|---|
+| c : a | B : b | n Vorber. |
+| A : a | ⊣ B : b | n. Geg. |
+| Dw. A : a | ⊣ c : a | n. Anh. 13. V. |
+| u. A | ⊣ c | n. 10. V. |
+| a | a | |
+| A + a | ⊣ c + a | n. 4 Gr. I. |
+| a | a | |
+| Dw. A + a : a | ⊣ c + a : a | n. 8. V. |
+| c : a | B : b | n. Geg. |
+| Dw. c + a : a | B + b : b | n. 18. V. |
+| u. A + a : a | ⊣ B + b : b | n. Anh. 13. V. |
+
+Beschluß.
+
+Wenn derowegen die I. zu der II. Grösse eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. mit der II. zu der II. eine grössere Verhältnüß/ als die III. und IV. zusammen/ zu der IV. haben. W. Z. B.
+
+Der

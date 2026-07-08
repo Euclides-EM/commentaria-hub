@@ -1,33 +1,43 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 361)* -->
+<!-- *(Seitenzahl: 349)* -->
 
-## II. Beweiß.
+## Vorbereitung.
 
-△ aob : △ cnd | □ el : □ gi n 1. Geg.
-ab : cd | cd : p n. 1. Vorb.
-α Dw. ab : p = ab : cd n. 10. Besch. V.
-△ aob : △ cnd = ab : cd n. 19. VI.
-Dw. △ aob : △ cnd | ab : p
-β u. □ el : □ gi | ab : p n. 11. V.
-ef : gh | gh : q n. 2. Vorb.
-Dw. ef : q = ef : gh n. 10. Beschr. V.
-□ el : □ gi = ef : gh n. 20. VI.
-Dw. □ el : □ gi | ef : q.
-u. ab : p | ef : q n. 11. V u. Bew. β
-u. ab : p = ef : gh
-Dw. ab : cd | ef : gh n. Bew. α | n. 11. V.
+1. Man nehme noch darzu d | b n. 2. I.
+2. werde gemacht ▭ ac
+3. Deßgleichen ▭ bd.
+4. Und zwar nach rechten Winckeln.
 
-## Vorsatz. (Lemma)
+## I. Beweiß.
 
-Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässigen geraden Strichen.
+b | d n. 1. Vorb.
+a | a
+Dw. a : b | a : d n. 7. V.
+a : b | b : c n. 2. Geg.
+Dw. a : d | b : c n. 11. V.
+u. ▭ ac | ▭ db n. 16. VI.
+▭ db | gleichseitig □ bb n 29. Besch. I.
+Dw. ▭ ac | □ bb
 
-### Gegebene. Begehrtes.
+## II. Gegebenes. Begehrte.
 
-1. □ gi | □ rt gh | rs
-2. □ gi ähnlich □ rt
+▭ ac | □ bb 1. a : b | b : c
 
-*[Figur: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]*
+2. in ungertrennter Ebenmaß stehend.
 
-Z z
-Vorbe-
+## Beweiß.
+
+*[Figur: geometrische Skizze mit punktierten Linien, hinter dem Text durchscheinend]*
+
+b | d
+b | b
+□ bb | ▭ bd n. 1. Gr. II.
+□ bb | ▭ ac n Gegeb.
+Dw. ▭ bd | ▭ ac n. 1. Gr. I.
+ac ⋏ bd n. 4. Vorb.
+Dw. a : b | d : c n 16. VI.
+oder a : b | b : d n. Anh. 7. V.
+
+X x 3
+Beschluß.

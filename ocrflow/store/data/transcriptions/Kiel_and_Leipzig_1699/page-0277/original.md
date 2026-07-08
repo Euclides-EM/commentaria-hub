@@ -1,40 +1,48 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 259)* -->
+<!-- *(Seitenzahl: 253)* -->
 
-# Der XI. Vortrag.
+## Gegebene. — Begehrtes.
 
-## Das II. Beweißstück.
+*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
 
-Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
+A | B — a : A | a : B
+a | 4A
+a | 4B
 
-Gegebene. | Begehrtes.
+## II. Beweiß.
 
-A ________ | A : a | B : b.
-a __
-B ________
-b __
-C ________
-c __
+a | a
+A | B
+4A | 4B — n. Geg.
+Dw. a : 4A | a : 4B
+Und a : A | a : B — n. 7. Besch. V.
 
-*[Figur: Strecken A, a, B, b, C, c von verschiedener Länge]*
+## Beschluß.
 
-A : a | C : c
-B : b | C : c
+Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: Und eine einige Grösse ist gegen zwo (oder mehr) gleiche Grössen auch gleichvielfältig. W. Z. B.
 
-## Vorbereitung:
+## Anhang.
 
-1. Nehme man A zweymahl
-2. Deßgleichen auch B zweymahl
-3. Die Grösse a und b aber jedwede viermahl.
+Ebener Gestalt sind gleichgrosse Grössen gegen gleichgrosse Grössen gleichvielfältig.
 
-2A ________________
-4a ____________
-2B ________________
-4b ____________
+## Gegebene. — Begehrte.
 
-*[Figur: Strecken 2A, 4a, 2B, 4b]*
+A B — A : B | a : b
+a / b
 
-Kk 2
+## Beweiß.
 
-I. Beweiß.
+A | B
+a | b — n. Gegeb.
+A : a | B : b — n. 7. Besch. V. W. Z. B.
+
+# Der VIII. Vortrag.
+
+## Das 8. Beweiß-Stück.
+
+Von ungleichen Grössen ist die Grössere gegen eine einige
+
+Ji 3
+
+Grösse

@@ -1,42 +1,32 @@
-<!-- *(Seitenzahl: 336)* -->
+<!-- *(Seitenzahl: 330)* -->
 
 <!-- # Das VI. Buch -->
 
-## Beweiß.
+Gegebene.
 
-|  |  |  |
-|---|---|---|
-|  | b1 ⊤ o1 | n. 2. Wirck. |
-|  | b1 ⊤ o1 | n 3. und 4. Wirck. |
-| Dw. | ob ⊤ 11 | n. 33. I. |
-|  | cbo ⋏ ca1 | ⟩ n. 29. I. |
-|  | cob ⋏ c1a |  |
-|  | bco ⋏ ac1 | n. 8. Gr. I. |
-| Dw. | △ boc ähnlich △ ac1 | n 1. Besch. VI. |
-| u. | oc : o1 ⊤ bc : ba | n. 4. VI. |
+1. Der gerade Strich ac.
+2. Der begehrte Theil/und zwar allhier 1/6.
 
-Gleicher Gestalt kan auch dargethan werden/ daß die übrigen Theile des gegebenen Striches / mit den andern Theilen des getheilten Striches / in richtiger Ebenmaß stehen.
+Begehrtes.
 
-## Beschluß.
+Der sechste Theil ec des Striches ac.
 
-Ist also der gegebene Ungetheilte Strich ag, oder FG oder BC also / wie der getheilte Strich AD, AG oder o4 getheilet/ W. Z. M.
+*[Figur: Dreieck aus dem Strich ac und dem schräg gezogenen Strich af mit den Punkten d, b, f; punktierte Linien verbinden die Theilpunkte mit der Grundlinie, darauf e nahe c]*
 
-# Der XI. Vortrag.
+Wirckung.
 
-## Das 3. Werck-Stück.
+1. Aus einem der beyden Endcüttele des Striches ac werde der Strich af nach Nothdurfft gezogen.
+2. Auf diesen Strich af werden aus a ordentlich nacheinander sechs gleiche Theile gesetzet n. 3. I.
+3. Aus dem Düttel b, wo der letzte Sechste Theil sich endet/ werde biß c ein gerader Strich bc gezogen.
+4. Aus dem Düttel d, wo das letzte Sechste Theil anfänget/ wird biß an den Strich ac gegen bc ein gerader Nebenstrich de gezogen. n. 31. I.
 
-Zu zweyen gegebenen geraden Strichen den dritten ebenmässigen Strich zu finden.
+Beweiß.
 
-### Gegebene.
+| de ⧣ bc | n. 4. Werck.
+Dw. | ad : db | ae : ec | n. 2. VI.
+| ad + db : db | ae + ec : ec | n. 18. V.
+oder | ab : db | ac : ec | n. 9. Gr. q. I.
+| ab | 6 |
+| db | 1 | n. 2. Wirck.
 
-1. Strich AB.
-2. AC.
-
-### Begehrtes.
-
-1. Der dritte Strich cd.
-2. Ebenmässig gegen die beyden
-
-AB : AC ⊤ AC : cd.
-
-Wir-
+Dw.

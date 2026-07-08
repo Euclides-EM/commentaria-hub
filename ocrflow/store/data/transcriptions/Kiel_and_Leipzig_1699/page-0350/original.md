@@ -1,37 +1,38 @@
-<!-- *(Seitenzahl: 332)* -->
+<!-- *(Seitenzahl: 326)* -->
 
 <!-- # Das VI. Buch -->
 
-I. Ahrt.
-
-Wirckung.
-
-1. Auf des Striches ag Endedüttel a werde nach beliebigem Winckel ein gerader Strich ak gezogen.
-2. Von diesem Strich ak werden abgeschnitten drey Striche | ab | AB
-| bc | BC
-| cd | CD | n. 3. I.
-3. Aus d werde zu g der gerade Strich dg gezogen.
-4. Aus b und c werden gegen dg gerade Nebenstriche be und cf gezogen. n. 31. I.
-
 Vorbereitung.
 
-Aus den Düttteln b und c werden gegen ag gerade Nebenstriche bh und co, gezogen. n. 31. I.
+Wenn man | acb ⋏ dfe, | so mache
+| acg ⋏ dfe | n. 23. I.
 
-Beweiß.
+I. Beweiß.
 
-| ab | AB |
-| bc | BC |
-| cd | CD | n. 1. Wirck.
-| be ⧣ dg |
-| cf ⧣ dg | n. 4. Wirck.
-| cf ⧣ be | n. 30. I.
-Dw. | ab : bc | ae : ef | n. 2. V.
-u. | ab : bc | AB : BC | n. 7. V.
-Dw. | AB : BC | ae : ef | n. 11. V.
-| bh ⧣ eg | n. Vorber.
-| be ⧣ hg | n. 4. Wirck.
-Dw. | bi | ef |
-u. | ih | fg | n. 34. I.
-| ci ⧣ dh | n. 4. Wirck.
+| acg ⋏ dfe | n. Vorber.
+| bac ⋏ edf | n. 2. Geg.
+α Dw. | agc ⋏ def | n. 32. I.
+u. | ac : cg | df : fe | n. 4. VI.
+| ac : cb | df : fe | n. 5. Geg.
+Dw. | ac : cb | ac : cg | n. 11. V.
+u. | cb | cg | n. 9. V.
+Dw. | cbg ⋏ bgc | n. 5. I.
+| cbg ⋏̸ ∟ (?) | n. 3. Geg.
+Dw. | bgc ⋏̸ ∟ (?) | n. 1. Gr. d. I.
+| agc + bgc ⋏ ⌓ (?) | n. 13. I.
+Dw. | agc ⋏̸ ∟ (?) | n. 5. Gr. I.
+| agc ⋏ def | n. Bew. α.
+Dw. | def ⋏̸ ∟ (?) | n. 1. Gr. c. I.
 
-Dw.
+welches aber wider das 4. Gegebene.
+
+Des VII. Vortrags II. Gegebene.
+
+1 abc oder gbc ⋏ nicht kleiner als ∟,
+2. def ⋏ nicht kleiner als ∟.
+3. cag ⋏ fde
+4. ac : cb | df : fe
+
+*[Figur: zwei Dreiecke, links Dreieck abc mit punktierter Linie von c nach g, rechts Dreieck def]*
+
+Vor-

@@ -1,34 +1,36 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 296)* -->
+<!-- *(Seitenzahl: 290)* -->
 
-## Beschluß.
-Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die V. zu der VI. Auch die II. zu der III. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
+## Der XXIX. Vortrag.
+Das 29. Beweiß-Stück.
 
-## Der XXXIII. Vortrag.
-Das 33. Beweiß-Stück.
-
-Wenn das Gantze zu dem Gantzen eine grössere Verhältnüß hat / als das Abgenommene zu dem Abgenommenen: So wird das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen haben.
+Wenn vier Grössen gegeben werden / deren Erste mit der Andern zu der Andern eine grössere Verhältnüß hat / als die Dritte mit der Vierten zu der Vierten : So wird auch zertheiletermassen die Erste zu der Andern eine grössere Verhältnüß / als die Dritte zu der Vierten haben.
 
 ### Gegebene.
 
-*[Figur: zwei waagerechte Linien A und B, jeweils durch Striche unterteilt]*
+*[Figur: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]*
 
-A : B ⊣ a : b
+A + a : a ⊣ B + b : b
 
 ### Begehrtes.
-A : B ⊢ A — a : B — b
+A : a ⊣ B : b.
 
 ### Beweiß.
+Wenn die Verhältnüß A zu a nicht grösser ist / als B zu b, so
 
 |  |  |  |  |
 |---|---|---|---|
-|  | A | \| a + c |  |
-|  | B | \| b + d |  |
-|  | a + c : b + d | ⊣ a : b | n Geg. |
-| Dw. | a + c : a | ⊣ b + d : b | n. 27. V. |
-| und | a + c : c | ⊢ b + d : d | n. 30. V. |
-| Dw. | a + c : b + d | ⊢ c : d | n. 27. V. |
-| oder | A : B | ⊢ A — a : B — b |  |
+| sey dann | A : a | \| B : b | n. Ang. |
+| Dw wird | A + a : a | \| B + b : b | n. 28. V. |
+| oder es sey | A : a | ⊢ B : b | n. Angen. |
+| so wird | A + a : a | ⊢ B + b : b | n. 28. V. |
 
-Beschluß.
+Beydes ist wider das Gegebene
+
+muß Dw. A : a ⊣ B : b
+
+### Beschluß.
+Wenn derowegen die I. und II. zu der II. eine grössere Verhältnüß / als die III. und IV. zu der IV. haben / so wird auch die I. zu der II. eine grössere Verhältnüß / als die III. zu der IV. haben. W. Z. B.
+
+Der

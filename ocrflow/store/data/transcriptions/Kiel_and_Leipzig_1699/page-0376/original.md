@@ -1,35 +1,30 @@
+<!-- *(Seitenzahl: 346)* -->
+
 <!-- # Das VI. Buch -->
-
-<!-- *(Seitenzahl: 358)* -->
-
-## Gegebene. Begehrte.
-
-1. △ abc \ △ abc ähnlich △ efg
-2. △ efg / ähnlich △ cde
-
-*[Figur: drey Dreyecke auf einer gemeinsamen Grundlinie b c e g mit den Spitzen a, d und f]*
-
-## Beweiß.
-
-△ abc ähnlich △ cde n. 1. Geg.
-Dw. abc ⋏ dce n. 1. Besch. VI.
-△ efg ähnlich △ cde n. 2 Geg.
-Dw. feg ⋏ dce n. 1. Beschr. VI.
-u. abc ⋏ feg n. 1. Gr. I.
-Aus gleichen Ursachen ist auch
-a ⋏ f
-Dw. acb ⋏ fge n. 32. I.
-u. ab : bc | fe : eg
-u. ab : ac | fe : fg n. 4. VI.
-Dw. △ abc ähnlich △ efg n. 1. Besch. VI.
 
 ## Beschluß.
 
-Sind derowegen diejenigen Vielecke / welche einem einigen Vieleck ähnlich sind/ auch unter einander selbst ähnlich. W. Z. B.
+Haben derowegen gleichmässige Dreyecke bey einem gleichmässigen Winckel wechselweiß stehende Seiten. Und die Dreyecke/ welche bey einem gleichmässigen Winckel wechselweiß stehende Seiten haben/ sind gleichmässig. W. Z. B.
 
-# Der XXII. Vortrag.
+# Der XVI. Vortrag.
 
-## Das 16. Beweiß-Stück.
+## Das 11. Beweiß-Stück.
 
-Wenn vier in Ebenmaß stehende gerade Stri-
-che
+Wenn vier ebenmässige Striche gegeben werden/ so ist das von dem ersten und letzten Strich begriffene nebenstrichichte Viereck/ dem von den beyden mitlern Strichen begriffenen Viereck gleichmässig.
+
+Und wann das von zweyen äusersten Strichen begriffene/ dem von beyden mittelsten Strichen begriffenen Viereck gleichmässig ist/ so stehen auch solche vier Striche in richtiger Ebenmaß.
+
+## I. Gegebene.
+
+1. Vier Striche
+a, b, c, d.
+2. Welche ebenmässig
+a : b ⊤ c : d.
+
+## I. Begehrtes.
+
+ad ⌻ bc.
+
+*[Figur: Zwey Rechtecke; das lincke mit den Seiten a, e, d, daneben die einzelnen Striche d, b, c, a; das rechte Rechteck mit den Seiten e, b, f]*
+
+Vorbe-

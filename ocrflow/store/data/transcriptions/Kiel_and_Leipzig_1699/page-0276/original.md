@@ -1,42 +1,32 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 258)* -->
-
-## Gegebene. — Begehrtes.
-
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
-
-A ⊣ B
-
-A : a ⊣ B : a
-
-## I. Beweiß.
-
-Wenn A | B — so wird
-auch A : a | B : a — n. 7. V.
-
-Oder:
-
-Wenn A ⊢ B — so wird
-auch A : a ⊢ B : a — n. 8. V.
-
-Beedes ist wider das Gegebene.
-
-## Gegebenes. — Begehrtes.
-
-a : B ⊣ a : A — B ⊢ A.
-
-## II. Beweiß.
-
-Wenn B | A — so wird
-auch a : B | a : A — n. 7. V.
-oder wenn B ⊣ A — so wird
-auch a : B ⊢ a : A — n. 8. V.
-
-Beedes ist wiederum gegen das Gegebene.
-
-muß dw. A ⊣ B.
+<!-- *(Seitenzahl: 252)* -->
 
 ## Beschluß.
 
-Wenn derowegen aus zwo Grössen die erste Grösse zu einer einigen Grösse eine grössere Verhältnüß hat / so wird solche erste Grösse grösser seyn/ als die andere: Und dieselbige Grösse zu welcher aus zwo Grössen eine einige Grösse eine grössere Verhältnüß hat / wird die kleineste seyn. W. Z. B.
+Wenn derowegen die I. Grösse der III. und die II. Grösse der IV. gleichvielfältig sind; darnach das von der I. abgenommene Stück zu der III. eben so vielfältig ist / als das von der II. abgenommene Stück zu der IV. So wird das Erste übergebliebene der III. und das Andere übergebliebene der IV. Grösse gleichgroß / oder die übergebliebenen werden gegen die II. und IV. Grössen gleichvielfältig seyn. W. Z. B.
+
+# Der VII. Vortrag.
+
+## Das 7. Beweiß-Stück.
+
+Gleichgrosse Grössen sind gegen eine einige Grösse gleichvielfältig: Und eine einige Grösse ist auch gegen gleichgrosse Grössen gleichvielfältig.
+
+## Gegebene. — Begehrtes.
+
+*[Figur: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]*
+
+A : a | B : a.
+
+A | B
+A | 3a
+B | 3a
+
+## I. Beweiß.
+
+A | B
+3a | 3a — n. Gegeb.
+Dw. A : 3a | B : 3a
+Und A : a | B : a — n. 7. Besch. V.
+
+Gege-

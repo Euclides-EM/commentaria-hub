@@ -1,28 +1,39 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 377)* -->
+<!-- *(Seitenzahl: 365)* -->
 
-# Der XXIX. Vortrag.
+4. Werde noch ein Strich l gefunden/ zu welchem sich k also / wie cd zu de verhalte.
 
-Das 9. Werckstück.
+cd : de | k : l n. 12. VI.
 
-An einen gegebenen geraden Strich ein nebenstrichichtes übertreffendes/ und der gegebenen Gestalt gleichmässiges Viereck anzuschlagen / dessen Uberschuß einem gegebenen nebenstrichichten Viereck ähnlich sey.
+Beweiß.
 
-Gegebene.
+ad : dg | □ ac : □ dh n. 1. VI.
+ad : dg | i : k n. 3. Vorb.
+α Dw. □ ac : □ dh | i : k n. 11. V.
+cd : de | k : l n. 4. Vorb.
+cd : de | □ dh : □ df n. 1. VI.
+β Dw. □ dh : □ df | k : l n. 11. V.
+u. □ ac : □ dh | i : k n. Bew. α
+□ dh , □ df | k : l n. Bew. β
+Dw. □ ac : □ df | i : l n. 22. V.
+i : l | i,k : k,l n. 5. Besch. VI.
+γ Dw. □ ac : □ df | i,k : k,l n. 11. V.
+ad : gd | i : k n. 3. Vorb.
+cd : de | k : l n. 4. Vorb.
+Dw. ad : de | i : l n. 22. V.
+ad, dc : gd, de | i,k : k,l n. 5. Besch. VI.
+Dw. □ ac : □ df | ad, dc : gd, de n. Bw. γ. 11. V.
 
-1. Gerader Strich AB
-2. Geradstrichichte Gestalt K
-3. Nebenstrichichtes Viereck L.
+Beschluß.
 
-Begehrte.
+Haben derowegen gleichwincklichte Nebenstrichichte Vierecke eine solche Verhältnüß zusammen / als diejenige / welche aus ihren Seiten zusammen gesetzet ist. W Z B.
 
-1. Nebenstrichichtes □ Am.
-2. □ Am | △ K.
-3. □ Am an den geraden Strich AB angeschlagen/
-4. Und denselben übertreffend
-5. mit dem □ Bm,
-6. □ Bm ähnlich □ L,
-7. Auf gleiche Weise gesetze.
+# Der XXIV. Vortrag.
 
-Bbb
-Wirckung.
+Das 18. Beweiß-Stück.
+
+In jedwedem nebenstrichichten Viereck sind die
+
+Zz 3
+üm

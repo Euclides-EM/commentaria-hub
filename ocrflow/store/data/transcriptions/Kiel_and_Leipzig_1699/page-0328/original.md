@@ -1,36 +1,30 @@
-<!-- *(Seitenzahl: 310)* -->
+<!-- *(Seitenzahl: 304)* -->
 
 <!-- # Das VI. Buch -->
 
-# Beweiß.
+I. Gegebene. — Begehrtes.
 
-ab | ef — n. 2. Geg.
-Dw. △ A : △ efg | cb : eg — n. 1. VI.
-u. △ A : cb | △ efg : eg — n. 16. V.
-cb | eg — n. 2. Vorb.
-Dw. △ A | △ efg — n. 14. V.
-△ B — △ B
-Dw. △ A : △ B | △ efg : △ B — n. 7. V.
-△ A : △ B | bc : de — n. 1. VI.
-bc : de | ge : de — n. 7. V.
-Dw. bc : de | △ A : △ B — n. 11. V.
+1. Dreyeck abc
+2. Dreyeck def — ab : de | △ abc : △ def.
+3. Die Höhen cq | fq
+4. Grundstriche ab | 3 db
 
-Auf gleiche weise kan auch bewiesen werden/ daß
+*[Figur: Zwei Dreiecke mit gemeinsamer Grundlinie u t d q e q a r s b, aus den Gipffeln f und c gehen gestrichelte und ausgezogene Striche auf die Grundlinie herab]*
 
-□ abc : □ def | bc : de.
+# Vorbereitung.
 
-# Beschluß.
+1. Des grössern Dreyecks abc Grundstrich ab, welcher dreyfach gegen des kleinern Dreyecks def Grundstrich de ist/ werde in solche Stücke getheilet/ welche dem Grundstrich de gleichmässig sind n. 3. I.
 
-Werden derowegen allezeit die Dreyecke und nebenstrichichte Vierecke/ welche auf gleichmässigen Grundstrichen stehen/ sich also/ wie ihre Höhen/ gegen einander verhalten. W. Z. B.
+de|ar|rs|sb.
 
-# Des I. Vortrags III. Zugabe.
+2. Aus dem Gipffel c werden gerade Striche auf des Grundstrichs Abtheilungen gezogen/ nemlich cr und cs.
 
-Diejenigen Dreyecke und nebenstrichichte Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ stehen auf gleichmässigen/ oder auf einem einigen Grundstriche.
+3. Der Grundstrich de des kleinern Dreyecks werde verlängert.
 
-# Gegebene.
+4. Von diesem verlängeten Strich werde ein Stück eu|ab abgeschnitten n. 3. I.
 
-1. Zwey Dreyecke A und B
-2. Derselben Höhen bc und ed
-3. bc : ed | △ A : △ B.
+5. Auf diesen Strich ab werden auch gesetzet die Längen dt|tu|de n. 3. I.
 
-Begehrtes.
+6. Werden die Striche ft und fu gezogen.
+
+Beweiß-

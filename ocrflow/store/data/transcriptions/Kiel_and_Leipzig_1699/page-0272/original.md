@@ -1,35 +1,34 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 254)* -->
+<!-- *(Seitenzahl: 248)* -->
 
-## Gegebene. — Begehrtes.
+# Der IV. Vortrag.
 
-*[Figur: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]*
+## Das 4. Beweiß-Stück.
 
-A ⊣ B — A : a ⊣ B : a
-A | 5a
-B | 3a
+Wenn man vier Grössen nimmt / deren die Erste zu der Andern eben solche Verhältnüß hat / als die Dritte zu der Vierten; So werden auch diejenigen (Grössen) welche gleich-vielfältig sind gegen die Ersten und Dritten (Grössen) zu denjenigen Grössen / welche gleich-vielfältig sind gegen die Andern und Vierten (Grössen) nach allerley Vervielfältigung/ gleiche Verhältnüß haben / wenn man sie also / wie sie gegen einander stehen / nimmet.
+
+## Gegebene.
+
+1. 2a : a | 6a : 3a.
+2. 4a : 2a : | 12a : 6a :
+3. 3a : a | 9a : 3a.
+
+## Begehrtes.
+
+4a : 3a | 12a : 9a.
 
 ## Vorbereitung.
 
-## Des I. Theils.
+Man nehme zu der Ersten und Dritten (Grösse) noch zwo gleich-grosse / und also in gleicher Verhältnüß mit selbigen stehende Grössen.
 
-1. Man nehme A zweymahl
-2. Wie auch B zweymahl
-3. Aber a siebenmahl.
-
-*[Figur: Drey waagerechte Linien, bezeichnet 2A, 7a, 2B]*
+2a : 2a | 6a : 6a.
 
 ## Beweiß.
 
-A | 5a — n. Geg.
-2A | 10a — n. Vorber. u. 6. Gr. i. I.
-B | 3a — n. Geg.
-2B | 6a — n. Vorber. u. 6. Gr. i. I.
-7a ⊢ 10a — n. 9. Grund. I.
-2A ⊣ 7a — n. 1. Gr. c. I.
-7a ⊣ 6a — n 9. Grund. I.
-Dw. 2B ⊢ 7a — n. 1. Gr. a. I.
-Und A : a ⊣ B : a — n. 8. Beschr. V.
+2a : a | 6a : 3a — n. 1. Geg.
+2a : 2a | 6a : 6a — n. Vorber.
+Dw. 2a + 2a : 2a + a | 6a + 6a : 6a + 3a — n. 1. V.
+oder 4a : 3a | 12a : 9a
 
-Des
+Beschluß.

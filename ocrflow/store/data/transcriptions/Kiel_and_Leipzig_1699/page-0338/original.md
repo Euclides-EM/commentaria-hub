@@ -1,37 +1,27 @@
-<!-- *(Seitenzahl: 320)* -->
+<!-- *(Seitenzahl: 314)* -->
 
 <!-- # Das VI. Buch -->
 
-# Der V. Vortrag.
+# II. Beweiß.
 
-## Das 5. Beweiß-Stück.
+ae : ec | ad : db — n. Geg.
+△ ade : △ dbe | ad : db — n. 1. VI.
+Dw. △ ade : △ bde | ac : ec — n. 11. V.
+△ ade : △ cde | ae : ec — n. 1. VI.
+Dw. △ ade : △ cde | △ ade : △ bde — n. 11. V.
+u. △ cde | △ bde — n. 9. V.
+Dw. de ⧣ bc — n. 39. I.
 
-Wenn die Seiten zweyer Dreyecke in ebenmässiger Verhältnüß stehen / so sind solche Dreyecke gleichwincklicht / und denen ebenmässigen Seiten stehen gleichmässige Winckel gegen über.
+# II. Beschluß.
 
-Gegebene.
+Wenn derowegen ein gerader Strich zwo des Dreyeckes Seiten also schneidet/ daß die Stücke in ebenmässiger Verhältnüß stehen/ so wird der schneidende Strich ein Nebenstrich des Grundstrichs seyn. W. Z. B.
 
-1. Zwey Dreyecke abc und DCE, deren Seiten in richtiger Ebenmaß stehen.
+# Der III. Vortrag.
 
-2. | ac : DE | bC : CE
-3. | ab : DC | bC : CE
-4. | ab : DC | aC : DE.
+# Das 3. Beweiß-Stück.
 
-Begehrte.
+Wenn eines Dreyecks Winckel in zween gleiche Theile/ durch einen geraden Strich/ welcher den Grundstrich auch schneidet/ getheilet wird/ so stehen die Stücke des Grundstriches in ebenmässiger Verhältnüß mit den beyden Seiten des Dreyeckes.
 
-C ⋏ b
-DCE ⋏ aCb
-a ⋏ D.
+Und wenn ein gerader Strich aus der Spitze des Dreyeckes gezogen/ den Grundstrich also schneidet/ daß dessen Stücke mit denen Seiten in ebenmässiger Verhältnüß stehen/ so theilet der Strich auch den Winckel in zweene gleiche Theile.
 
-*[Figur: zwei Dreiecke, ein kleineres abc und ein grösseres DCE mit punktierter Linie DH und Punkten H und E auf der Grundlinie]*
-
-Beweiß.
-
-Wenn die gegebenen Dreyeck nicht gleichwincklicht sind.
-
-Vorbereitung.
-
-So setze man auf den Strich CD und zwar
-auf den Düttel D den Winckel CDH ⋏ baC
-und auf C den Winckel DCH ⋏ abC   n. 32. I.
-
-Ver-
+I. Gege-

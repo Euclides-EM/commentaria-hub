@@ -1,1 +1,36 @@
-<!-- Mock page -->
+<!-- # Euclidis. -->
+
+<!-- *(Seitenzahl: 385)* -->
+
+## Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | BC : CA | CA : CK | n. 8. VI. |
+| Dw. | BC : CK = | BC : CA | n. 10. Bes. V. |
+|  | □ BD : □ AI = | BC : CA | n. 19. VI. |
+| Dw. | BC : CK | □ BD : □ AI | n. 11. VI. |
+| α und | CK : BC | □ AI : □ BD | verkehret |
+|  | BC : BA | BA : BK | n. 8. VI. |
+| Dw. | BC : BK | □ BD : □ AF | n. 19. VI. |
+| β und | BK : BC | □ AF : □ BD | verkehret |
+|  | CK : | □ AI : | n. Bew. α |
+|  | BC | □ BD |  |
+|  | BK : | □ AF : | n. Bew. β |
+| Dw. | CK + BK : BC | □ AI + □ AF : □ BD | n. 24. V. |
+|  | CK + BK | BC | n. 9. Gr. I. q. |
+| Dw. | □ AI + □ AF | □ BD | n. 14. V. |
+
+## Beschluß.
+
+Sind derowegen allezeit die beyden/ auf denen beyden/ den rechten Winckel begreiffenden Seiten stehende/ und einander ähnliche Gestalte/ derjenigen Gestalt/ welche auch diesen beyden Gestalten ähnlich/ und auf der dem rechten Winckel übergespanneten Seite stehet/ gleichmässig. W. Z. B.
+
+# Der XXXII. Vortrag.
+
+## Das 22. Beweiß-Stück.
+
+Wenn zwey Dreyecke gegeben werden/ deren eins zwo Seiten/ zweyen Seiten des andern ebenmässig sind, und das eine Dreyeck mit seinem Winckel an des andern Dreyeck Winckels also gestossen
+
+Ccc
+
+wird/

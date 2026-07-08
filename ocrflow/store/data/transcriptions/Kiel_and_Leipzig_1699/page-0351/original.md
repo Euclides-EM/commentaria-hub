@@ -1,33 +1,34 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 333)* -->
+<!-- *(Seitenzahl: 327)* -->
 
-Dw. | bc : cd | bi : ih | n. Anh. 7. V.
-| bc : cd | BC : CD | n. 7. V.
-Dw. | BC : CD | bi : ih | n. 11. V.
-| ef : fg | bi : ih | n. Anh. 7. V.
-Dw. | BC : CD | ef : fg | n. 11. V.
+Vorbereitung.
 
-Des X. Vortrags II. Ahrt.
+Wenn man | acb ⋏ dfe | so mache
+| acg ⋏ dfe | n. 23. I.
 
-Gegebene.
+II. Beweiß.
 
-1. Ungetheilter Strich FG.
-2. Getheilter Strich AG.
+| acg ⋏ dfe | n. Vorber.
+| cag ⋏ fde | n. 3. Geg.
+Dw. | cga ⋏ def | n. 32. I.
+u. | ac : cg | df : fe | n. 4. VI.
+| ac : cb | df : fe | n. 4. Geg.
+Dw. | ac : cb | ac : cg | n. 11. I.
+u. | cb | cg | n. 9. V.
+Dw. | cgb ⋏ cbg | n. 5. I.
+| cbg ⋏ nicht kleiner als ∟ | n. 1. Geg.
+Dw. auch | cgb ⋏ nicht kleiner als ∟ | n. 1. Gr. d. I.
+u. | cbg + cgb ⋏ nicht kleiner als ⌓ (?) | n. 2. Gr. I.
+welches aber unmüglich n. 17. I.
 
-Begehrtes.
+Derowegen muß | abc ⋏ def
+Und ebener Gestalt | bca ⋏ efd
+| bac ⋏ edf | n. 1. Geg.
+Dw. △ abc gleichwincklicht △ def n. 1. Beschr. VI.
 
-Der Strich FG getheilet in b, c, d, e. und t also
-daß | fb : bc | AB : BC.
-| bc : cd | BC : CD
-| de : et | DE : ET
-| tg : TG | et : ET. &c.
+Beschluß.
 
-*[Figur: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]*
+Wenn derowegen zwey Dreyecke einen gleimässigen Winckel haben / die übrigen Winckel aber von ebenmässigen Seiten begriffen sind / und derer übrigen Winckel allezeit von zweyen jedweder kleiner / oder auch nicht kleiner / als ein rechter Winckel ist: So sind diejenigen Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / beyde Dreyecke auch gleichwincklicht. W. Z. B.
 
-Wirckung.
-
-1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
-
-Tt 3
-2. Von
+Der

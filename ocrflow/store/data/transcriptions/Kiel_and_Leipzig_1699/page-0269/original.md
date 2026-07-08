@@ -1,42 +1,39 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 251)* -->
+<!-- *(Seitenzahl: 245)* -->
 
 ## I. Beweiß.
 
-Grösse mehr vielfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vielfältig / als gegen die Grössere.
+l | a
+c | a
+d | a — n. 1. Vorb.
+l + c + d | 3a — n. 2. Gr. I.
+l + c + d | A — n. 9. Gr. I.
+δ Dw. A | 3a — n. 1. Gr. I.
+und 3A | 9a — n. 6. Gr. I.
+h | A
+k | A
+m | A — n. 3. Vorb.
+h + k + m | 3A — n. 2. Gr. I.
+h + k + m | C — n. 9. Gr. I.
+δ Dw. C | 3A
+α und C | 9a — n. 1. Gr. I.
+e | b
+f | b
+g | b
+e + f + g | 3b
+e + f + g | B
+B | 3b
+3B | 9b
+n | B
+p | B
+q | B
+n + p + q | 3B
+n + p + q | D
+D | 3B
+3B | 9b
+β (?) D | 9b
 
-A | 5a — n. 1. Geg.
-c | 4a — n. 2. Geg.
-Dw. A—c | a — n. 3. Gr. I.
-B | 5b — n. 3. Geg.
-d | 4b — n 4. Geg.
-Dw. B—d | b — n. 3. Gr. I.
+Hh 3
 
-## Gegebene. — Begehrtes.
-
-I. A ______ — A—c : a | B—d : b
-II. a ___
-III. B ______
-IV. b ___
-
-*[Figur: Vier waagerechte Linien mit Teilstrichen, bezeichnet I. A, II. a, III. B, IV. b]*
-
-1. A | 5a
-2. c | 3a
-3. B | 5b
-4. d | 3b
-
-## II. Beweiß.
-
-A | 5a — n 1. Geg.
-c | 3a — n. 2. Geg.
-Dw. A—c | 2a — n. 3. Gr. I.
-B | 5b — n 3. Geg.
-d | 3b — n. 4. Geg.
-Dw. B—d | 2b — n. 3. Gr. I.
-Und A—c : a | B—d : b — n 7. Beschr. V.
-
-Ji 2
-
-Beschluß.
+Vorbe-

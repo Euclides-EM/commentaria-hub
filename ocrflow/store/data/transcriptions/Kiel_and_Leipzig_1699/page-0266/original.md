@@ -1,34 +1,27 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 248)* -->
+<!-- *(Seitenzahl: 242)* -->
 
-# Der IV. Vortrag.
+*[Figur: sechs waagerechte Linien, bezeichnet A, 6a, C, B, 6b, D]*
 
-## Das 4. Beweiß-Stück.
+## II. Beweiß.
 
-Wenn man vier Grössen nimmt / deren die Erste zu der Andern eben solche Verhältnüß hat / als die Dritte zu der Vierten; So werden auch diejenigen (Grössen) welche gleich-vielfältig sind gegen die Ersten und Dritten (Grössen) zu denjenigen Grössen / welche gleich-vielfältig sind gegen die Andern und Vierten (Grössen) nach allerley Vervielfältigung/ gleiche Verhältnüß haben / wenn man sie also / wie sie gegen einander stehen / nimmet.
-
-## Gegebene.
-
-1. 2a : a | 6a : 3a.
-2. 4a : 2a : | 12a : 6a :
-3. 3a : a | 9a : 3a.
-
-## Begehrtes.
-
-4a : 3a | 12a : 9a.
+|  |  |  |  |
+|---|---|---|---|
+| | A + C | 5a | n. Bew. α |
+| | 5a | ⊢ 6a | n. 9. Gr. I. |
+| γ Dw. | A + C | ⊢ 6a | n. 4. Gr. I. |
+| | B + D | 5b | n. Bew. β |
+| | 5b | ⊢ 6b | |
+| δ Dw. | B + D | ⊢ 6b. | |
 
 ## Vorbereitung.
 
-Man nehme zu der Ersten und Dritten (Grösse) noch zwo gleich-grosse / und also in gleicher Verhältnüß mit selbigen stehende Grössen.
+1. Man nehme A + C 3 mahl/
+2. Und B + D auch 3 mahl/
+3. Die Grösse a aber 2 mahl
+4. Und b auch 2 mahl.
 
-2a : 2a | 6a : 6a.
+*[Figur: sechs waagerechte Linien, bezeichnet 3A, 2a, 3C, 3B, 2b, 3D]*
 
-## Beweiß.
-
-2a : a | 6a : 3a — n. 1. Geg.
-2a : 2a | 6a : 6a — n. Vorber.
-Dw. 2a + 2a : 2a + a | 6a + 6a : 6a + 3a — n. 1. V.
-oder 4a : 3a | 12a : 9a
-
-Beschluß.
+III. Beweiß.

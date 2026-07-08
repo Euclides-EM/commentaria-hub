@@ -1,40 +1,42 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 329)* -->
+<!-- *(Seitenzahl: 323)* -->
 
-I. Beweiß.
-
-| bac ⋏ ∟ | n. 2. Gegeb.
-| adb ⋏ ∟ | n. 10. Beschr. I.
-Dw. | adb ⋏ bac | n. 10. Gr. I.
-| abd ⋏ abc | n. 8 Gr. I.
-α Dw. | bad ⋏ acb | n. 32. I.
-u. | △ abd ähnlich △ abc. | n. 1. Beschr. VI.
-
-II. Beweiß.
-
-| bac ⋏ ∟ | n. 2. Geg.
-| adc ⋏ ∟ | n. 10. Beschr.
-| c ⋏ c |
-β Dw. | abc ⋏ adc | n. 32. I.
-u. | △ abc ähnlich △ adc | n. 1. Beschr. VI.
-
-III. Beweiß.
-
-| adb ⋏ adc | n. 10. Beschr. I.
-| bad ⋏ acb | n. Bew. α.
-| abc ⋏ dac | n. Bew. β.
-Dw. | △ abd ähnlich △ adc | n. 1. Beschr. VI.
+Dw. | a ⋏ D
+u. | ECD ⋏ abc
+u. | DEC ⋏ acb | n. Zugab 8. I.
 
 Beschluß.
 
-Sind derowegen die beyden durch den Senckstrich gemachte Dreyecke dem gantzen rechtwincklichten Dreyecke nicht allein/ sondern auch unter sich gleichähnlich. W. Z. B.
+Müssen derowegen diejenigen Dreyecke / deren Seiten in richtiger Ebenmaß stehen / gleichwincklicht seyn. W. Z. B.
 
-# Der IX. Vortrag.
+# Der VI. Vortrag.
 
-## Das 1. Werck-Stück.
+## Das 6. Beweiß-Stück.
 
-Von dem gegebenen geraden Strich/ den bebegehrten Theil abzuschneiden.
+Wenn in zweyen Dreyecken zweene gleichmässige winckel gefunden werden / deren Seiten ebenmässig sind : So sind diese Dreyecke durchaus gleichwincklicht / und dererselben ebenmässige Seiten überspannen gleichmässige Winckel.
 
-T t
-Gege-
+Gegebene.
+
+1. △ abc und △ edf.
+2. bac ⋏ def.
+3. ba : ac | de : ef
+
+Begehrte.
+
+1. acb ⋏ efd.
+2. abc ⋏ edf.
+3. △ abc gleichwincklicht △ edf.
+
+*[Figur: zwei Dreiecke, links abc, rechts edf mit punktierten Linien zu einem Punkt g oberhalb]*
+
+Vorbereitung.
+
+Auf den Strich ed werden gesetzet
+
+1. deg ⋏ bac
+2. gde ⋏ abc | n. 23. I.
+3. werden gezogen eg und dg.
+
+Ss 2
+Beweiß.

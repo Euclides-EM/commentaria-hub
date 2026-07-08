@@ -1,42 +1,31 @@
+<!-- *(Seitenzahl: 317)* -->
+
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 323)* -->
+Und wenn der aus der Spitze des Dreyeckes gezogene Strich den Grundstrich also schneidet/ daß dessen Stücke in ebenmässiger Verhältnüß mit den Seiten stehn/ so theilet derselbe Strich den Winckel des Dreyeckes in zweene gleiche Theile. W. Z. B.
 
-Dw. | a ⋏ D
-u. | ECD ⋏ abc
-u. | DEC ⋏ acb | n. Zugab 8. I.
+# Der IV. Vortrag.
 
-Beschluß.
+# Das 4. Beweiß-Stück.
 
-Müssen derowegen diejenigen Dreyecke / deren Seiten in richtiger Ebenmaß stehen / gleichwincklicht seyn. W. Z. B.
+Gleichwincklichte Dreyecke haben in ebenmässiger Verhältnüß stehende Seiten/ welche nemlich gleichmässige Winckel einschrencken; und diejenigen Seiten/ welche gleichmässige Winckel überspannen/ sind auch ebenmässig.
 
-# Der VI. Vortrag.
+# Gegebene.
 
-## Das 6. Beweiß-Stück.
+1. Zwey Dreyecke abc und CDE,
+2. Welche gleichmässige Winckel haben/
 
-Wenn in zweyen Dreyecken zweene gleichmässige winckel gefunden werden / deren Seiten ebenmässig sind : So sind diese Dreyecke durchaus gleichwincklicht / und dererselben ebenmässige Seiten überspannen gleichmässige Winckel.
+nemlich C ⋏ abc
+D ⋏ bac
+u. DEC ⋏ acb
 
-Gegebene.
+# Begehrte.
 
-1. △ abc und △ edf.
-2. bac ⋏ def.
-3. ba : ac | de : ef
+1. ba : CD | bc : CE
+2. bc : CE | ac : DE
+3. ab : DC | ac : DE.
 
-Begehrte.
+*[Figur: Zwey Dreyecke, oben das kleinere Dreyeck CDE, darunter das grössere Dreyeck abc, dessen Seiten gestrichelt gegen f, d und e verlängert sind]*
 
-1. acb ⋏ efd.
-2. abc ⋏ edf.
-3. △ abc gleichwincklicht △ edf.
-
-*[Figur: zwei Dreiecke, links abc, rechts edf mit punktierten Linien zu einem Punkt g oberhalb]*
-
-Vorbereitung.
-
-Auf den Strich ed werden gesetzet
-
-1. deg ⋏ bac
-2. gde ⋏ abc | n. 23. I.
-3. werden gezogen eg und dg.
-
-Ss 2
-Beweiß.
+g
+Vor-

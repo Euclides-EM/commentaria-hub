@@ -1,30 +1,39 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 221)* -->
+<!-- *(Seitenzahl: 215)* -->
+
+Welcher das □ bcde anrühret/n. 17. III.
+Und dem □ eingeschrieben ist/ n. 5. Beschr. IV.
+
+Beschluß.
+
+Ist also dem gegebenen Viereck bcde ein Kreyß fghi einge-
+schrieben. W. Z. M.
+
+# Der IX. Vortrag.
+
+Das 9. Werckstück.
+
+Umb ein gegebenes Viereck einen Kreyß zube-
+schreiben.
+
+Gegebenes. — Begehrte.
+Viereck bcde. — 1. Kreyß cdeb
+2. Umb das Viereck beschrieben.
 
 Wirckung.
 
-1. Werde in den Kreyß ein gleichseitiges Fünffeck ghikl ein-
-geschrieben/ n. 11. IV.
-2. Aus des Kreyses Mittel-Düpffel a werden zu allen Ecken
-gerade Striche ag, ah, ai, ak, al gezogen.
-3. Auff solche Striche werden zu beeden Seiten Senckstriche
-gb, gc : hc, hd : id, ie : ke, kf : lf, lb gesetzet/ n. 11. I.
+1. Werden die Zwergstriche bd, ec gezogen.
+2. Aus dem Düttel a, wo diese Zwergstriche einander durch-
+schneiden/ werde nach der Weite ab ein Kreyß beschrieben.
 
-*[Figur: Kreis mit einbeschriebenem Fünffeck g h i k l und umschriebenem Fünffeck b c d e f; aus dem Mittelpunkt a gehen Striche zu den Ecken und Berührungspunkten, teils punktiert]*
-
-Vorbereitung.
-
-Aus dem Mittel-Düpffel a werden zu den Dütteln/ wo die
-Senckstriche einander durchschneiden/ gerade Striche ab, ac, ad,
-ae, af gezogen.
+*[Figur: Quadrat b c d e mit gezogenen Diagonalen, die sich im Mittelpunkt a schneiden, umschrieben von einem Kreis]*
 
 Beweiß.
 
-cga ∧ cha — n. 3. Wirck u 10. Gr. I.
-ag | ah — n. 15. Beschr. I.
-ac | ac
-Dw. — gc | hc — n. 26. I.
+a. — dcb ∧ ∟
+bc | dc — n. 1. Geg. u. 29. Besch. I.
+ß. Dw. — dbc ∧ bdc — n. 5. I.
+dcb + dbc + bdc ∧ ⌓ — n. 32. I.
 
-Ee 3
-u.
+Dw.

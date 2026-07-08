@@ -1,37 +1,29 @@
-<!-- *(Seitenzahl: 334)* -->
+<!-- *(Seitenzahl: 328)* -->
 
 <!-- # Das VI. Buch -->
 
-2. Von dem ungeendeten Strich hg werde fg ⊤ FG abgeschnitten. n 3. I.
+# Der IIX. Vortrag.
 
-3. Aus A durch f werde ein gerader Strich Ak nach Nothdurfft gezogen.
+## Das 8. Beweiß-Stück.
 
-4. Desgleichen ein gerader Strich aus G durch g, biß er dem Strich Ak in dem Düttel k aufstosse.
+Wenn aus dem rechten Winckel eines rechtwincklichten Dreyecks ein bleyrechter Senckstrich auf den (dem rechten Winckel gegen über stehenden) Grundstrich gezogen wird; So sind durch diesen Senckstrich gemachte beyde Dreyecke / so wol unter sich / als auch dem gantzen Dreyecke gleichähnlich.
 
-5. Aus diesem Düttel k werden gerade Striche biß auf den getheilten Strich GA gezogen/nemlich kB, kC, kD, kE und kT, welche den ungetheilten Strich fg in b, c, d, e, und t schneiden.
+Gegebenes.
 
-## Beweiß.
+1. Dreyecke abc
+2. Welches rechtwincklicht/
+3. Aus dessen rechten Winckel a
+4. Ein Strich d
+5. Auf den Grundstrich bc
+6. Bleyrecht gezogen ist.
 
-|  |  |  |
-|---|---|---|
-|  | fb ⊤ AB | n. 1. Wirck. |
-| Dw. | kfd ⋏ kAB | ⟩ n. 29. I. |
-| u. | kbf ⋏ kBA |  |
-|  | fkb ⋏ AkB | n. 8. Gr. I. |
-| Dw. | △ fkb ähnlich △ AkB | n. 1. Besch. VI. |
-| u. | fb : AB ⊤ bc : BC | n. 4. VI. |
-| Dw. | fb : bc ⊤ AB : BC | n. 16. V. |
-|  | bc ⊤ BC | n. 1. Wirck. |
-| Dw. | kbc ⋏ kBC | ⟩ n. 29. I. |
-| u. | kcb ⋏ kCB |  |
-|  | ckb ⋏ CkB | n. 8. Gr. I. |
-| Dw. | △ ckb ähnlich △ CkB | n. 1. Besch. VI. |
-| u. | bc : BC ⊤ cd : CD | n. 4. VI. |
-| Dw. | bc : cd ⊤ BC : CD | n. 16. V. |
+Begehrtes.
 
-Gleicher weise kan auch bewiesen werden/
+△ | | △
+abc | | abd
+abc | ähnlich | adc
+abd | | adc
 
-Daß de : et ⊤ DE : ET.
-und tg : TG ⊤ et : ET.
+*[Figur: rechtwinkliges Dreieck abc mit punktierter Senkrechte ad auf die Grundlinie cb]*
 
-Des
+I. Beweiß.

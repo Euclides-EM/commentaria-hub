@@ -1,34 +1,35 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 327)* -->
+<!-- *(Seitenzahl: 321)* -->
 
-Vorbereitung.
+Verfolg des Beweises.
 
-Wenn man | acb ⋏ dfe | so mache
-| acg ⋏ dfe | n. 23. I.
+CDH ⋏ bac
+DCH ⋏ abc   n. Vorber.
+Dw. | CHD ⋏ bca | n. 32. I.
+u. | ab : DC | bc : CH | n. 4. VI.
+| ab : DC | bc : CE | n. 3. Geg.
+Dw. | bc : CH | bc : CE | n. 11. V.
+u. | CH | CE | n. 9. V.
+welches aber unmüglich / n. 9. Gr. I.
 
-II. Beweiß.
+II. Ahrt Vorbereitung.
 
-| acg ⋏ dfe | n. Vorber.
-| cag ⋏ fde | n. 3. Geg.
-Dw. | cga ⋏ def | n. 32. I.
-u. | ac : cg | df : fe | n. 4. VI.
-| ac : cb | df : fe | n. 4. Geg.
-Dw. | ac : cb | ac : cg | n. 11. I.
-u. | cb | cg | n. 9. V.
-Dw. | cgb ⋏ cbg | n. 5. I.
-| cbg ⋏ nicht kleiner als ∟ | n. 1. Geg.
-Dw. auch | cgb ⋏ nicht kleiner als ∟ | n. 1. Gr. d. I.
-u. | cbg + cgb ⋏ nicht kleiner als ⌓ (?) | n. 2. Gr. I.
-welches aber unmüglich n. 17. I.
+Man setze wiederum auf CD den
+Winckel   CDF ⋏ bac
+und   DCF ⋏ abc   n. 23. I.
 
-Derowegen muß | abc ⋏ def
-Und ebener Gestalt | bca ⋏ efd
-| bac ⋏ edf | n. 1. Geg.
-Dw. △ abc gleichwincklicht △ def n. 1. Beschr. VI.
+*[Figur: zwei Dreiecke, links das Dreieck abc, rechts das Dreieck DCE mit punktierten Linien zu dem unterhalb liegenden Punkt F]*
 
-Beschluß.
+Beweiß.
 
-Wenn derowegen zwey Dreyecke einen gleimässigen Winckel haben / die übrigen Winckel aber von ebenmässigen Seiten begriffen sind / und derer übrigen Winckel allezeit von zweyen jedweder kleiner / oder auch nicht kleiner / als ein rechter Winckel ist: So sind diejenigen Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / beyde Dreyecke auch gleichwincklicht. W. Z. B.
+CDF ⋏ bac
+DCF ⋏ abc   n. Vorber.
+α Dw. | CFD ⋏ bca | n. 32. I.
+u. | ac : DF | ab : DC | n. 4. VI.
+| ac : DE | ab : DC | n. 4. Geg.
+Dw. | ac : DE | ac : DF | n. 11. V.
+u. | DE | DF | n. 9. V.
 
-Der
+Ss
+CFD

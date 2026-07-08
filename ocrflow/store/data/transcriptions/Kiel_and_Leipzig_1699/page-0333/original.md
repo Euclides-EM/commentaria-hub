@@ -1,34 +1,33 @@
-<!-- *(Seitenzahl: 315)* -->
+<!-- *(Seitenzahl: 309)* -->
 
 <!-- # Euclidis. -->
 
-# I. Gegebene.
+Welches aber unmüglich n. 9. Gr. I.
+Dergleichen wird auch folgen/ wenn man sagen wolte
+gp ⊣ hp
+muß derowegen gp | hp seyn. II.
 
-1. Dreyeck abc
-2. Gerader Strich bd,
-3. Welcher den Winckel b theilet
-4. Also/ daß abd ⋏ cbd
-5. Und auch den Grundstrich ac in ad und cd theilet.
+# Beschluß.
 
-# Begehrtes.
+Werden derowegen allezeit solche nebenstrichichte Vierecke/ welche sich also/ wie ihre Grundstriche gegen einander verhalten/ auch gleichmässige Höhen haben. W. Z. B.
 
-cd : da | cb : ba.
+# Des I. Vortrags II. Zugabe.
 
-*[Figur: Dreyeck abc mit dem Strich bd auf den Grundstrich ac, die Seite ab ist gestrichelt gegen e verlängert und der gestrichelte Strich ce gezogen]*
+Diejenigen Dreyecke / und nebenstrichichte Vierecke/ welche gleichmässige Grundstriche haben/ verhalten sich also/ wie ihre Höhen/ zusammen.
 
-1. Der Strich oder Seite ab werde nach Nothdurfft verlänget gegen e.
-2. Aus dem Düttel c werde ein Nebenstrich gegen bd gezogen/ biß er dem verlängerten Strich in e aufstösset/ nemlich ce. n. 31. I.
+# Gegebene.
 
-# I. Beweiß.
+1. Zwey Dreyecke A und B.
+2. Beyde Grundstriche ab | ef
+3. Beyde Höhen de ⊣ bc
 
-bd ⧣ ec — n. 2. Vorb.
-Dw. bec ⋏ abd
-u. cbd ⋏ bce — n. 29. I.
-cbd ⋏ abd — n. 4. Gegeb.
-Dw. abd ⋏ bce — n. 1. Gr.
-u. cbd ⋏ bce — n. 29. I.
-Dw. be | cb — n. 6. I.
-ba | ba
+*[Figur: Zwei Dreyecke A und B mit den Punkten a, b, c, d, e, g, f, links das Dreyeck A über der Grundlinie ab, rechts das Dreyeck B über ef, mit gestrichelten Hülffslinien]*
 
-Rr 2
-Dw.
+# Vorbereitung.
+
+1. Weil die Höhe de ⊣ bc — n. 3. Gegeb.
+2. so werde ge | bc — n. 3. I.
+3. werde der gerade Strich gf gezogen.
+
+Qq 3
+Beweiß.

@@ -1,37 +1,49 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 271)* -->
+<!-- *(Seitenzahl: 265)* -->
 
-A—a : a | B—b : b, — n. Gegeb.
-A—a : a | B—d : d, — n. Genom.
-Dw. B—b : b | B—d : d, — n. 11. V.
-u. B : b | B : d — n. 17. V.
-B | B
-Dw. b | d — n. 14. V.
+I. Gegebene. | Begehrtes.
 
-Welches aber auch unmüglich n. 9. Gr. I.
+A ________ | a ⊣ b.
+a ____
+B ______
+b __
 
-Muß Dw. sich A : a | B : b,
+*[Figur: Strecken A, a, B, b]*
 
-## Beschluß.
+A : a | B : b
+A ⊣ B
 
-Wenn derowegen zertheilte Grössen Ebenmässig sind/ so werden dieselben auch zusammen gesetzt Ebenmässig seyn. W. Z. B.
+## Beweiß.
 
-# Der XIX. Vortrag.
+A | 3a
+B | 3b
+A ⊣ B — n. Gegeb.
+Dw. 3a ⊣ B — n. 1. Gr. c. I.
+und 3a ⊣ 3b — n. 1. Gr. a. I.
+Dw. a ⊣ b — n. 7. Gr. p. I.
 
-## Das 19. Beweiß-Stück.
+II. Gegebene. | Begehrte.
 
-Wenn eine Gantze Grösse zu einer andern Gantzen Grösse sich also verhält/ wie das von der Ersten abgenommene Stück/ zu dem von der Andern abgenommene Stück: So wird auch das von der Ersten übergebliebene sich zu dem von der Andern übergebliebenen also/ wie das Erste Gantze zu dem Andern Gantzen verhalten.
+A ________ | a | b
+a ____
+B ________
+b ____
 
-Gegebene. | Begehrtes.
+*[Figur: Strecken A, a, B, b]*
 
-A __a__c__ | a : b | A : B.
-B __b__d__
+A : a | B : b
+A | B
 
-*[Figur: Strecken A (mit Theilen a, c) und B (mit Theilen b, d)]*
+## Beweiß.
 
-A : B | c : d.
-A | a + c.
-B | b + d.
+A | 3a
+B | 3b — nach Gegeb.
+A | B
+Dw. 3a | B
+und 3a | 3b — n. 1. Gr. I.
+Dw. a | b — n. 7. Gr. p. I.
 
-Beweiß.
+Ll
+
+Gege-

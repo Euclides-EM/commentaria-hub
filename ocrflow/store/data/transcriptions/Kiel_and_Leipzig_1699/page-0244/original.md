@@ -1,35 +1,45 @@
 <!-- # Das IV. Buch -->
 
-<!-- *(Seitenzahl: 226)* -->
+<!-- *(Seitenzahl: 220)* -->
+
+3. Der Winckel bca werde in zween gleiche Theile getheilet
+durch den Strich ce. n. 9. I.
+4. Der Winckel cba werde gleicher Weise in zween gleiche
+Theile getheilet/ durch den Strich db. n. 9. I.
+5. Werden die geraden Striche be. ea. ad. dc. gezogen.
+
+Beweiß
+
+△ abc gleichwincklicht dem ABC (?) — n. 2. Wirck.
+bce ∧ eca — n. 3. Wirck.
+α. — cbd ∧ dba — n. 4. Wirck.
+cba ∧ 2dba — n. 9. Gr. q. I.
+cba ∧ 2bac — n. 10. IV.
+Dw. — 2dba ∧ 2bac — n. 1. Gr. I.
+u. — dba ∧ bac — n. 7. Gr. o. I.
+u. — bac ∧ cbd — α. — n. 1. Gr. I.
+Dw. — bc ⌒ cd
+bc ⌒ da — n. 26. III.
+Gleicher Weise be ⌒ ea ⌒ bc ⌒ dc ⌒ ad
+u. — be | ea | bc | dc | ad — n. 29. III.
+Dw. ist aebcd ein gleichseitiges Fünffeck/ — n. 22. Beschr. I.
+und dem Kreyß eingeschrieben/ — n. 3. Beschr. IV.
+
+Beschluß.
+
+Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
+lichtes Fünffeck eingeschrieben. W. Z. M.
+
+# Der XII. Vortrag.
+
+Das 12. Werckstück.
+
+Umb einen gegebenen Kreyß ein gleichseitig
+und gleichwincklicht Fünffeck zubeschreiben.
 
 Gegebenes. — Begehrte.
-Kreyß bcdefg — 1. Gleichseitig und gleichschenck-
-licht Sechseck
-2. dem gegebenen Kreyß einge-
+Kreyß ghikl — 1. Fünffeck bcdef
+2. dem gegebenen Kreyß ümb-
 schrieben.
 
-*[Figur: drei sich schneidende Kreise; im mittleren Kreis ein einbeschriebenes Sechseck g b c d e f mit Mittelpunkt a, punktierte Striche zu den Ecken]*
-
-Wirckung.
-
-1. Wird der Durchschlag fc gezogen.
-2. Nach der Weite ca wird aus dem Düttel c ein Kreyß ge-
-zogen/ welcher den gegebenen Kreyß in den Dütteln d und b schneidet.
-3. Aus dem Düttel f wird nach der Weite fa auch ein Kreyß be-
-schrieben/welcher den gegebenen Kreyß in den Dütteln e und g schneidet.
-4. Werden die Striche bc, cd, de, ef, fg und gb gezogen.
-
-Vorbereitung.
-
-Es werden gezogen die Strahlen ab, ad, ae, ag.
-
-II. Arth.
-
-1. Werde aus dem Düttel c nach der Weite ca ein Kreyß/
-2. aus dieses Kreyses Mitteldüpffel c werde durch den Mittel-
-düpffel a ein gerader Strich cf,
-3. aus den beyden Dütteln b und d werden auch gerade Stri-
-che be, dg durch a, und
-4. die Striche cb, cd, de, ef, fg und gb gezogen.
-
-Be-
+Wir-

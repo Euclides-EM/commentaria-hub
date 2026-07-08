@@ -1,34 +1,30 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 246)* -->
+<!-- *(Seitenzahl: 240)* -->
+
+# Der II. Vortrag.
+
+## Das 2. Beweißstück.
+
+Wenn die Erste Grösse der Andern / und die Dritte der Vierten gleichmäßig vielfältig sind; darnach auch die Fünffte der Andern und die Sechste der Vierten gleichmäßig vielfältig sind: so werden auch die Erste und Fünffte zusammen genommen der Andern eben so vielfältig seyn / als die Dritte und Sechste zusammen genommen der Vierten sind.
+
+## Gegebene. — Begehrtes.
+
+*[Figur: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]*
+
+II. A : a | B : b — V. C : a | D : b
+
+A + C : a | B + D : b
 
 ## Vorbereitung.
 
-1. Die Grösse C werde zweymahl /
-2. Deßgleichen die Grösse D auch zweymahl genommen.
-3. Die Grösse a aber viermahl /
-4. Und b auch viermahl genommen.
+1. Es werde A getheilet in c, d, also daß
+2. c|a und d|a n. 3. I.
+3. Auch werde B getheilet in h, k, also daß
+4. h|b und k|b n. 3. I.
+5. Deßgleichen C in e, f, g, also daß
+6. e|a, f|a und g|a n. 3. I.
+7. Und D in l, m, n, also daß
+8. l|b, m|b und n|b n. 3. I.
 
-*[Figur: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 4a, 2C, B, 4b, 2D]*
-
-## II. Beweiß.
-
-9a ⊣ 4a — n. 9. Gr. I.
-9a | C — n. Bew. δ
-Dw. C ⊣ 4a — n 1. Gr. c. I.
-2C ⊣ C — n. 9. Gr. I.
-γ Dw. 2C ⊣ 4a — n. 1. Gr. e. I.
-9b ⊣ 4b — n. Bew. ζ
-9b | D
-Dw. D ⊣ 4b
-2D ⊣ D
-φ Dw. 2D ⊣ 4b
-
-Oder auch also:
-
-## Vorbereitung.
-
-1. Es werde a zehen mahl /
-2. Und auch b zehen mahl genommen.
-
-A—
+Beweiß

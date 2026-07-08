@@ -1,29 +1,33 @@
-<!-- *(Seitenzahl: 328)* -->
+<!-- *(Seitenzahl: 322)* -->
 
 <!-- # Das VI. Buch -->
 
-# Der IIX. Vortrag.
+| CFD ⋏ bca | n. Bew. α.
+Dw. | bc : CF | ab : CD | n. 4. VI.
+| bc : CE | ab : CD | n. 3. Geg.
+Dw. | bc : CE | bc : CF | n. 11. V.
+u. | CE | CF | n. 9. V.
+Dw. | CDE ⋏ CDF | n. 8. I.
+welches unmüglich n. 9. Gr. I.
 
-## Das 8. Beweiß-Stück.
+III. Ahrt Vorbereitung.
 
-Wenn aus dem rechten Winckel eines rechtwincklichten Dreyecks ein bleyrechter Senckstrich auf den (dem rechten Winckel gegen über stehenden) Grundstrich gezogen wird; So sind durch diesen Senckstrich gemachte beyde Dreyecke / so wol unter sich / als auch dem gantzen Dreyecke gleichähnlich.
+Es werde 1. CEG ⋏ bca
+und 2. ECG ⋏ abc   n. 23. I.
 
-Gegebenes.
+*[Figur: links Dreieck CDE mit punktierten Linien zu einem Punkt G unterhalb; rechts grösseres Dreieck abC]*
 
-1. Dreyecke abc
-2. Welches rechtwincklicht/
-3. Aus dessen rechten Winckel a
-4. Ein Strich d
-5. Auf den Grundstrich bc
-6. Bleyrecht gezogen ist.
+Beweiß.
 
-Begehrtes.
+CEG ⋏ bca
+ECG ⋏ abc   n. Vorber.
+α Dw. | G ⋏ a | n. 32. I.
+u. | ab : bc | CG : CE | n. 4. VI.
+| ab : bc | CD : CE | n. 3. Geg.
+Dw. | CD : CE | CG : CE | n. 11. V.
+u. | CD | CG | n. 9. V.
+u. | DE | EG | n. gleichen Bew.
+Dw. | G ⋏ D | n. 32. I.
+| D ⋏ a | n. Bew. α.
 
-△ | | △
-abc | | abd
-abc | ähnlich | adc
-abd | | adc
-
-*[Figur: rechtwinkliges Dreieck abc mit punktierter Senkrechte ad auf die Grundlinie cb]*
-
-I. Beweiß.
+Dw.

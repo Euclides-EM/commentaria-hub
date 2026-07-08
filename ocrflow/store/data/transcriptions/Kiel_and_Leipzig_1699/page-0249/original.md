@@ -1,27 +1,45 @@
-<!-- *(Seitenzahl: 231)* -->
+<!-- # Euclidis. -->
 
-# Das V. Buch Euclidis.
+<!-- *(Seitenzahl: 225)* -->
 
-## Beschreibungen.
+Wirckung.
 
-I. Ein Theil (Pars) ist ein Stück einer grösseren Grösse/wenn nemlich das Stück die grössere Grösse ohne Bruch (oder also daß nichts überbleibet) theilet. a : 3a
+1. Zweene des Fünffeckes Winckele / als e und f, werden in
+zween gleiche Theile gea ∧ fea
+efa ∧ dfa — getheilet/n. 9. I.
+2. Werden die Winckeltheilende Striche fa und ea so weit
+verlängert/ biß sie einander in a schneiden.
+3. Nach der Weite ae werde der Kreyß bgefd gezogen.
 
-II. Vielfältig oder vielfach (multiplex) wird genennet die grössere Grösse/ welche von dem Theil oder Stück ohne Bruch getheilet wird. 3a : a
+Vorbereitung.
 
-III. Verhältniß (Ratio) ist eine Bewandniß zweyer Grössen / deren jedwede durch ihre Vervielfältigung die andere (wenn sie unvergrössert bleibet) übertreffen kan a : b
+Aus den übrigen Winckeln werden gerade Striche zu dem
+Düttel a gezogen.
 
-IV. Ebenmaaß (Proportio) ist zweyer oder mehrer Verhältnisse Gleichheit. 2a : 2b | a : b
+Beweiß.
 
-V. Diejenigen Grössen können eine Verhältniß zu einander haben/welche nach Belieben vervielfältiget einander an Grösse übertreffen können. 2a : a.
+efa ∧ dfa — n. 1. Wirck.
+fe | fd — n. Gegeb.
+af | af
+fe + af | af + fd — n. 2. Gr. I.
+Dw. — ae | ad
+u. — aef ∧ adf — n. 4. I.
+Gleicher Weise — ad | af | ae | ag | ab
+Dw. — a | Mitteldüpffel — n. 9. III.
+und der Kreyß aus solchem Mitteldüpffel a nach der Weite
+af gezogen/ begreifft das Fünffeck in sich/n. 6. Besch. IV.
 
-2a ⊣ a
+Beschluß.
 
-2a ⊢ 6a.
+Ist also umb das gegebene gleichseitige und gleichwincklichte
+Fünffeck ein Kreyß umbgeschrieben. W. Z. M.
 
-VI. In gleicher Verhältniß stehende Grössen werden genennet (nemlich die Erste zu der Andern/und die Dritte zu der Vierten) wenn der Ersten und Dritten auff waserley Weise Vervielfältigung von derer Andern und Vierten Vervielfältigung entweder übertroffen werden / oder denenselbigen an Grösse gleich sind / oder auch dieselbigen übertreffen: Wenn nemlich die Grössen gehöriger Massen gegen einander gehalten werden.
+# Der XV. Vortrag.
 
-3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a. Oder 3a : 2a | 6a : 4a.
-5. 3. 5. 3. — 2. 3. 2. 3. — 2. 5. 2. 5.
-15a : 6a | 30a : 12a. — 6q (?) : 6a | 12a : 12a. — 6a : 10a | 12a : 20a.
+Das 15. Werckstück.
 
-VII.
+Einem gegebenen Kreyß ein gleichseitig und
+gleichwincklichtes Sechseck einzuschreiben.
+
+Ff
+Ge-

@@ -1,45 +1,25 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 390)* -->
+<!-- *(Seitenzahl: 378)* -->
 
-|  |  |  |  |
-|---|---|---|---|
-| Dw. | 2 ∧ bac : ⌒ bc | ∧ bdc : ⌒ bc | n. 7. V. |
-| γ und | ∧ fhg : ⌒ fg | 2 ∧ bac : ⌒ bc | n. 11. V. u. Bew. β |
-|  | ∧ fhg | 2 ∧ feg | n. 20. III. |
-|  | ⌒ fg | ⌒ fg |  |
-| Dw. | ∧ fhg : ⌒ fg | 2 ∧ feg : ⌒ fg | n. 7. V. |
-| und | 2 ∧ bac : ⌒ bc | 2 ∧ feg : ⌒ fg | n. 11. V. u. Bew. γ. |
-|  | ∧ bac : 2 ∧ bac | ∧ feg : 2 ∧ feg | n. 6. Besch. V. |
-| Dw. | ∧ bac : 2 ∧ bac : ⌒ bc | ∧ feg : 2 ∧ feg : ⌒ fg | n. 4. V. |
-| und | ∧ bac : ⌒ bc | ∧ feg : ⌒ fg | n. 22. V. |
+*[Figur: oben eine Gestalt K mit den Punkten i und h nebst punctirten Linien, daneben ein Viereck L; darunter ein grosses Viereck mit den Punkten b, n, d, g oben, B, C, A in der Mitte, f, m, o, q, p unten, nebst punctirtem Kreisbogen]*
 
-## II. Gegebene.
+Wirckung.
 
-1. Gleichmässige Kreyse abm und efl.
-2. Kreißstücke bdc und fhg.
+1. Der gegebene Strich AB werde in zween gleiche Theile in C geschnitten. n. 10. I.
 
-## II. Begehrtes.
+2. Auf die Helffte AC werde ein dem Viereck L ähnliches nebenstrichichtes Viereck Ad gesetzet. n. 18. VI.
 
-⌒ bc : ⌒ fg | ⌓ bdc : ⌓ fhg.
+3. Die Gestalt K werde in ein nebenstrichichtes Viereck hi, welches dem Viereck L gleichwincklicht/ und
 
-## II. Vorbereitung.
+4. Dessen Seite dem Strich Ac gleichmässig. n. 44. I.
 
-1. Werden in dem Kreyß abm zweene dem ⌒ bc gleichmässige Bogen ci und cm,
+5. Dem □ Ad werde das □ dg | □ hi beygefüget.
 
-2. Deßgleichen dem Bogen fg zweene gleichmässige ⌒ gk und ⌒ kl abgeschnitten/ n. 1. IV.
+6. Die Vierecke Ad + dg werden in ein dem Viereck L ähnliches nebenstrichichtes Viereck qb verwandelt. n. 25. VI.
 
-3. Werde der Bogen fg in zweene gleiche Theile fn | ng.
+7. Dieses Viereck qb werde an den halben Strich CB also gesetzet/ daß es nicht höher komme/ als der Strich db, so wird ein Ende q unter C fallen. n. 28. VI.
 
-4. Wie auch ⌒ gk in zween gleiche Theile go | ok getheilet.
+8. Durch q werde der Nebenstrich mp gegen AB gezogen. n. 31. I.
 
-5. Werden die Striche fm, mg, gn, nk gezogen.
-
-## Beweiß.
-
-|  |  |  |
-|---|---|---|
-| fh + hg | gh + hk | n. 15. Besch. I. |
-| fg | gk | n. 1. Vorb. |
-
-Dw.
+9. Aus

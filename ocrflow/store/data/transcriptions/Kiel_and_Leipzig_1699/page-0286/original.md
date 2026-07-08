@@ -1,39 +1,35 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 268)* -->
-
-# Der XVI. Vortrag.
-
-## Das 16. Beweiß-Stück.
-
-Vier Ebenmässige Grössen sind auch wechselweiß genommen Ebenmässig.
+<!-- *(Seitenzahl: 262)* -->
 
 Gegebene. | Begehrtes.
 
-A ____________
-B ________ | A : a | B : b
-a ____
+A ______ | A + B + C : a + b + c | A : a
+a __
+B ______
 b __
+C ______
+c __
 
-*[Figur: Strecken A, B, a, b]*
+*[Figur: Strecken A, a, B, b, C, c]*
 
-A : B | a : b
-A | 4a
-B | 4b
+A : a | B : b | C : c
 
 ## Beweiß.
 
-A | 4a
-B | 4b — n Gegeb.
-Dw. A : B | 4a : 4b — n. Anh. 7. V.
-4a ⁘ a | 4b : b — n. 7. Besch. V.
-4a ⁘ a | A : a — n. 7. V.
-Dw. A ⁘ a | 4b : b — n. 11. V.
-B : b | 4b : b — n. 7. V.
-Dw. A : a | B : b — n. 11. V.
+A ⁘ a
+B ⁘ b | A : a — n. Gegeb.
+C ⁘ c
+Dw. A + B + C : a + b + c | A : a — n. 1. V.
 
 ## Beschluß.
 
-Werden derowegen Ebenmässige Grössen auch wechselweiß genommen Ebenmässig seyn. W. Z. B.
+Müssen derowegen alle etlicher ebenmässigen Grössen vorgehende zusammen-genommene Grössen zu allen Nachgehenden zusammen-genommenen Grössen sich also verhalten / wie eine der gegebenen Vorgehenden Grössen zu ihrer eigenen Nachgehenden Grösse. W. Z. B.
 
-Der
+# Der XIII. Vortrag.
+
+## Das 13. Beweiß-Stück.
+
+Wenn die Erste zu der Andern eben solche Verhältnüß hat/ wie die Dritte zu der Vierten. Die Dritte aber zu der Vierten eine grössere Verhältnüß hat/ als die Fünffte zu der Sechsten: So wird auch die Erste zu der Andern eine grössere Verhältnüß haben/ als die Fünffte zu der Sechsten.
+
+Gegebene.

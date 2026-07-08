@@ -1,32 +1,34 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 252)* -->
+<!-- *(Seitenzahl: 246)* -->
 
-## Beschluß.
+## Vorbereitung.
 
-Wenn derowegen die I. Grösse der III. und die II. Grösse der IV. gleichvielfältig sind; darnach das von der I. abgenommene Stück zu der III. eben so vielfältig ist / als das von der II. abgenommene Stück zu der IV. So wird das Erste übergebliebene der III. und das Andere übergebliebene der IV. Grösse gleichgroß / oder die übergebliebenen werden gegen die II. und IV. Grössen gleichvielfältig seyn. W. Z. B.
+1. Die Grösse C werde zweymahl /
+2. Deßgleichen die Grösse D auch zweymahl genommen.
+3. Die Grösse a aber viermahl /
+4. Und b auch viermahl genommen.
 
-# Der VII. Vortrag.
+*[Figur: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 4a, 2C, B, 4b, 2D]*
 
-## Das 7. Beweiß-Stück.
+## II. Beweiß.
 
-Gleichgrosse Grössen sind gegen eine einige Grösse gleichvielfältig: Und eine einige Grösse ist auch gegen gleichgrosse Grössen gleichvielfältig.
+9a ⊣ 4a — n. 9. Gr. I.
+9a | C — n. Bew. δ
+Dw. C ⊣ 4a — n 1. Gr. c. I.
+2C ⊣ C — n. 9. Gr. I.
+γ Dw. 2C ⊣ 4a — n. 1. Gr. e. I.
+9b ⊣ 4b — n. Bew. ζ
+9b | D
+Dw. D ⊣ 4b
+2D ⊣ D
+φ Dw. 2D ⊣ 4b
 
-## Gegebene. — Begehrtes.
+Oder auch also:
 
-*[Figur: Drey waagerechte Linien mit Teilstrichen, bezeichnet A, a, B]*
+## Vorbereitung.
 
-A : a | B : a.
+1. Es werde a zehen mahl /
+2. Und auch b zehen mahl genommen.
 
-A | B
-A | 3a
-B | 3a
-
-## I. Beweiß.
-
-A | B
-3a | 3a — n. Gegeb.
-Dw. A : 3a | B : 3a
-Und A : a | B : a — n. 7. Besch. V.
-
-Gege-
+A—

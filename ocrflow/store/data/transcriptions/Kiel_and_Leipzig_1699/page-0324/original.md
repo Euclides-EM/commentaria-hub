@@ -1,33 +1,29 @@
-<!-- *(Seitenzahl: 306)* -->
+<!-- # Das V. Buch -->
 
-<!-- # Das VI. Buch -->
+<!-- *(Seitenzahl: 300)* -->
 
-# Begehrtes.
+|  |  |  |  |
+|---|---|---|---|
+| Dw. | D : d | ⊣ A + B + C : a + b + c | n. Anh. 13. V. |
+|  | D : A + B + C | ⊣ d : a + b + c | n. 27. V. |
+|  | D + A + B + C : A + B + C | ⊣ d + a + b + c : a + b + c | n. 28. V. |
+|  | D + A + B + C : d + a + b + c | ⊣ A + B + C : a + b + c | n. 27. V. |
+|  | D : d | ⊣ D + A + B + C : d + a + b + c | n. 33. V. |
+|  | A + B + C : a + b + c | \| C : c | n. Bew. II. |
+|  | D + A + B + C : d + a + b + c | ⊣ C : c | n. Anh. 13. V. |
 
-□ AD : □ BC | ml : gh.
+## Beschluß.
+Sind derowegen nunmehro
 
-*[Figur: Zwei nebenstrichichte Vierecke mit den Buchstaben D, A und C, B, Eckpunkte n r o k i oben und m l g h unten, mit gestrichelten Diagonalen]*
+1. D + A + B + C : d + a + b + c ⊣ A + B + C : a + b + c
+2. D + A + B + C : d + a + b + c ⊣ D : d
+3. D + A + B + C : d + a + b + c ⊣ C : c.
 
-# Vorbereitung.
+W. Z. B.
 
-1. Werden die Zwergstriche mo und gi,
-2. Deßgleichen der Senckstrich rm, gezogen.
+## Der XXXV. Vortrag.
+Das 35. Beweiß-Stück.
 
-# Beweiß.
+Wann zu zwo Grössen / welche ungleicher Grösse sind / zwey gleichmässige Stücke beygefüget werden / so werden die zusammengesetzten eine kleinere Verhältnüß / als die Erstgegebenen / haben: wenn aber gleichgrosse Stücke von selbigen abgeschnitten werden / so werden die übergebliebene Stücke eine grössere Verhältnüß / als die ersten Grössen gehabt / erlangen.
 
-□ AD | 2 △ A — n. 34. I.
-□ BC | □ BC
-Dw. □ AD : □ BC | 2 △ A : □ BC — n. 7. V.
-2 △ B | □ BC — n. 34. V.
-2 △ A | 2 △ A
-Dw. 2 △ A : 2 △ B | 2 △ A : □ BC — n. 7. V.
-u. 2 △ A : 2 △ B | □ AD : □ BC — n. 11. V.
-Dw. △ A : △ B | □ AD : □ BC — n. 15. V.
-△ A : △ B | ml : gh — n. Bew. ∝
-Dw. □ AD : □ BC | ml : gh — n. 11. V.
-
-# Beschluß.
-
-Werden derowegen alle Nebenstrichichte Viercke sich gegen einander also/ wie derselben Grundstriche verhalten. W. Z. B.
-
-Des
+I. Ge-

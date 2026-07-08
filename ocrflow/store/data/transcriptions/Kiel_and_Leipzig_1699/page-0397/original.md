@@ -1,39 +1,34 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 379)* -->
+<!-- *(Seitenzahl: 367)* -->
 
-9. Aus d werde durch B ein gerader Strich dm gezogen/ welcher den Strich mp in m schneide.
+Dw. AC : CB | AF : FE n. 2. VI.
+u. □ DC ähnlich □ FG n. 1. Besch. VI.
 
-10. Aus m werde gegen pg der Nebenstrich mb gezogen. n. 31. I.
+Gleicher Gestalt sind auch
 
-11. Durch B werde auch gegen dq der Nebenstrich on gezogen. n. 31. I.
+□ DC ähnlich □ HI
+□ FG - - □ HI. n. 21. VI.
 
-12. Der Strich AB werde biß f verlängert.
+Beschluß.
 
-## Beweiß.
+Sind also in jedwedem Nebenstrichichten Viereck die üm den Zwergstrich stehende Vierecke nicht allein unter sich/ sondern auch dem grossen Viereck ähnlich. W. Z. B.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | □ dg | □ ih | n. 5. Wirck. |
-|  | △ K | □ ih | n. 3. Wirck. |
-| Dw. | △ K | □ dg | n. 1. Gr. I. |
-|  | □ cn | □ Ad | n. 36. I. |
-| Dw. | □ cn + △ K | □ Ad + □ dg | n. 2. Gr. I. |
-|  | □ dm | □ Ad + □ dg | n. 24. VI. |
-| Dw. | □ cn + △ K | □ dm | n. 1. Gr. I. |
-|  | □ cn | □ cn |  |
-| Dw. | △ K | □ dm — □ cn | n. 3. Gr. I. |
-| oder | ⊡ qBb | □ dm — □ cn | n. 2. Besch. II. |
-| a Dw. | ⊡ qBb | △ K | n. 1. Gr. I. |
-|  | □ fn | □ oC | n. 43. I. |
-|  | □ Cp | □ oC | n. 36. I. |
-| Dw. | □ Cp | □ fn | n. 1. Gr. I. |
-|  | □ oC | □ oC |  |
-|  | □ fo | □ fo |  |
-| Dw. | □ Cp + oC + fo | □ fn + □ oC + □ fo | n. 2. Gr. I. |
-| oder | □ fp | ⊡ qBb | n. 9. Gr. I. q. |
-| Dw. | □ fp | △ K | n. Bew. a. u. 1. Gr. I. |
+# Der XXV. Vortrag.
 
-Bbb 2
+Das 7. Werck-Stück.
 
-□ fo
+Einer gegebenen geradstrichichten Gestalt eine ähnliche und eben so gesetzte Gestalt/ die auch einer andern gegebenen Gestalt gleichmässige sey/ zu verfertigen.
+
+Gegebene.
+
+1. Geradstrichichte Gestalt B
+2. und A
+
+Begehrte.
+
+1. Die Gestalt L | B
+2. ⬠ L ähnlich ⬠ A
+3. und eben so gesetzt.
+
+Wirckung.

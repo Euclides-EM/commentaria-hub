@@ -1,44 +1,33 @@
-<!-- *(Seitenzahl: 339)* -->
-
 <!-- # Euclidis. -->
 
-## Beweiß.
+<!-- *(Seitenzahl: 333)* -->
 
-|  |  |  |
-|---|---|---|
-|  | bc ⊤ de | n. 7. Wirck. |
-| Dw. | ab : bd ⊤ ac : ce | n 2. VI. |
-| und | ab : ac ⊤ bd : ce | n. 16. V. |
-| oder | AB : AC ⊤ BD : ce | n. Anh. 7. V. |
+Dw. | bc : cd | bi : ih | n. Anh. 7. V.
+| bc : cd | BC : CD | n. 7. V.
+Dw. | BC : CD | bi : ih | n. 11. V.
+| ef : fg | bi : ih | n. Anh. 7. V.
+Dw. | BC : CD | ef : fg | n. 11. V.
 
-Dw. der Strich ce der vierte ebenmässige Strich.
+Des X. Vortrags II. Ahrt.
 
-## Beschluß.
+Gegebene.
 
-Ist also zu den drey gegebenen Strichen AB, AC, AD der vierte ebenmässige Strich ce gefunden. W. Z. M.
+1. Ungetheilter Strich FG.
+2. Getheilter Strich AG.
 
-# Der XIII. Vortrag.
+Begehrtes.
 
-## Das 5. Werck-Stück.
+Der Strich FG getheilet in b, c, d, e. und t also
+daß | fb : bc | AB : BC.
+| bc : cd | BC : CD
+| de : et | DE : ET
+| tg : TG | et : ET. &c.
 
-Zu zweyen gegebenen geraden Strichen einen mitlern ebenmässigen (mediam proportionalem) Strich zu finden.
+*[Figur: von einem Punkt k oben laufen punktierte Linien zu der getheilten Linie G T E D C B A; dazwischen die parallele Linie g t e d c b f h; darunter die Striche F G und G A]*
 
-### Gegebene.
+Wirckung.
 
-1. Der Strich AD
-2. CD
+1. Gegen den getheilten Strich AG werde ein Nebenstrich hg nach Nothdurfft gezogen. n. 31. I.
 
-### Begehrte.
-
-1. Der Strich db
-2. AD : db ⊤ db : CD.
-
-*[Figur: Striche A—D und C—D; darunter ein Halbkreis über der Grundlinie a d g e mit Scheitelpunkt b und Strichen von a und e nach b]*
-
-### Wirckung.
-
-1. Werde gezogen der Strich ae.
-
-Uu 2
-
-2. auf
+Tt 3
+2. Von

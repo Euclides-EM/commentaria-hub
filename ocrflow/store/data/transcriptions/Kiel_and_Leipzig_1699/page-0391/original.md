@@ -1,25 +1,33 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 373)* -->
+<!-- *(Seitenzahl: 361)* -->
 
-Dw. □ pq + □ pi | □ ge + □ pi n. 2. Gr. I.
-oder □ ai | ⊾ eip n. 9. Gr. I. q.
-□ pe - | ⊾ eip n. 9. Gr. I.
-Dw. □ pe - | □ ai n. 1. Gr. I. a.
+## II. Beweiß.
 
-Auch alle andere mangelhaffte Vierecke sind kleiner/ als das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck.
+△ aob : △ cnd | □ el : □ gi n 1. Geg.
+ab : cd | cd : p n. 1. Vorb.
+α Dw. ab : p = ab : cd n. 10. Besch. V.
+△ aob : △ cnd = ab : cd n. 19. VI.
+Dw. △ aob : △ cnd | ab : p
+β u. □ el : □ gi | ab : p n. 11. V.
+ef : gh | gh : q n. 2. Vorb.
+Dw. ef : q = ef : gh n. 10. Beschr. V.
+□ el : □ gi = ef : gh n. 20. VI.
+Dw. □ el : □ gi | ef : q.
+u. ab : p | ef : q n. 11. V u. Bew. β
+u. ab : p = ef : gh
+Dw. ab : cd | ef : gh n. Bew. α | n. 11. V.
 
-Beschluß.
+## Vorsatz. (Lemma)
 
-Ist derowegen das an die Helffte des gegebenen Striches angeschlagene/ und dem mangelenden ähnliche Viereck grösser/ als alle andere mangelhaffte an den gegeben Strich angeschlagene Vierecke. W. Z. B.
+Gleichmässige und ähnliche geradstrichichte Gestalte stehen auf gleichmässigen geraden Strichen.
 
-# Der XXIIX. Vortrag.
+### Gegebene. Begehrtes.
 
-Das 8. Werck-Stück.
+1. □ gi | □ rt gh | rs
+2. □ gi ähnlich □ rt
 
-An einen gegebenen geraden Strich ein nebenstrichichtes Viereck/ welches einer gegebenen geradstrichichten Gestalt gleichmässig sey/ also anzuschlagen/ daß es mangelhaft/ und das mangelende nebenstrichichte Viereck einem andern gegebenen nebenstrichichten Viereck ähnlich sey.
+*[Figur: zwey Vierecke g k i h und u t s r nebeneinander; darunter ein Strich x und eine Figur mit den Punkten g, s, x, h r und punktiertem Strich nach s]*
 
-Es muß aber die gegebene geradstrichichte Gestalt / welcher das nebenstrichichte Viereck / so anzuschlagen ist / gleichmässig seyn sol/ nicht grösser seyn / als dasjenige Viereck / welches an die Helffte des gegebenen Striches kan angeschlagen werden: und solches an die Helffte des Striches angeschlagene Viereck / wie auch das mangelende / und die andere gegebene nebenstrichichte Viereck sind alle einander ähnlich.
-
-Aaa 3
-Begehr-
+Z z
+Vorbe-

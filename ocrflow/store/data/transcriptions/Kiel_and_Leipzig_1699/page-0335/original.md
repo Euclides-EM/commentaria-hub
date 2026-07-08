@@ -1,31 +1,33 @@
-<!-- *(Seitenzahl: 317)* -->
+<!-- *(Seitenzahl: 311)* -->
 
 <!-- # Euclidis. -->
 
-Und wenn der aus der Spitze des Dreyeckes gezogene Strich den Grundstrich also schneidet/ daß dessen Stücke in ebenmässiger Verhältnüß mit den Seiten stehn/ so theilet derselbe Strich den Winckel des Dreyeckes in zweene gleiche Theile. W. Z. B.
+# Begehrtes.
 
-# Der IV. Vortrag.
+Grundstriche ab | ef.
 
-# Das 4. Beweiß-Stück.
+*[Figur: Zwei Dreyecke A und B mit den Punkten a, g, b, c, d, e, f, links das Dreyeck A über der Grundlinie a g b, rechts das Dreyeck B über e f, mit gestrichelten Hülffslinien]*
 
-Gleichwincklichte Dreyecke haben in ebenmässiger Verhältnüß stehende Seiten/ welche nemlich gleichmässige Winckel einschrencken; und diejenigen Seiten/ welche gleichmässige Winckel überspannen/ sind auch ebenmässig.
+# Vorbereitung.
 
-# Gegebene.
+Wenn ab ⊣ ef — so mache man
+bg | ef — n. 3. I.
 
-1. Zwey Dreyecke abc und CDE,
-2. Welche gleichmässige Winckel haben/
+und ziehe den Strich cg.
 
-nemlich C ⋏ abc
-D ⋏ bac
-u. DEC ⋏ acb
+# Beweiß.
 
-# Begehrte.
+bg | ef — n. Vorb.
+Dw. bc : ed | △ gbc : △ B — n. 1. VI.
+bc : ed | △ abc : △ B — n. Gegeb.
+Dw. △ gbc : △ B | △ abc : △ B — n. 1. V.
+u. △ gbc | △ abc oder △ A — n. 14. V.
 
-1. ba : CD | bc : CE
-2. bc : CE | ac : DE
-3. ab : DC | ac : DE.
+Welches aber unmüglich n. 9. Gr. I.
+Eben dergleichen würde folgen/ wenn man sagen wolte
 
-*[Figur: Zwey Dreyecke, oben das kleinere Dreyeck CDE, darunter das grössere Dreyeck abc, dessen Seiten gestrichelt gegen f, d und e verlängert sind]*
+ab ⊢ ef
 
-g
-Vor-
+Gleicher Gestalt kan auch erwiesen werden/ daß derer nebenstrichichten Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ ihre Grundstriche gleicher Grösse seyn müssen. W. Z. B.
+
+Der

@@ -1,36 +1,40 @@
-<!-- *(Seitenzahl: 335)* -->
-
 <!-- # Euclidis. -->
 
-## Des X. Vortrags III. Ahrt.
+<!-- *(Seitenzahl: 329)* -->
 
-### Gegebene.
+I. Beweiß.
 
-1. Ungetheilter Strich BC.
-2. Getheilter Strich. o4.
+| bac ⋏ ∟ | n. 2. Gegeb.
+| adb ⋏ ∟ | n. 10. Beschr. I.
+Dw. | adb ⋏ bac | n. 10. Gr. I.
+| abd ⋏ abc | n. 8 Gr. I.
+α Dw. | bad ⋏ acb | n. 32. I.
+u. | △ abd ähnlich △ abc. | n. 1. Beschr. VI.
 
-### Begehrtes.
+II. Beweiß.
 
-Der Strich BC getheilet in 1. 2. 3. also / daß
-oc : oi ⊤ bc : ba.
+| bac ⋏ ∟ | n. 2. Geg.
+| adc ⋏ ∟ | n. 10. Beschr.
+| c ⋏ c |
+β Dw. | abc ⋏ adc | n. 32. I.
+u. | △ abc ähnlich △ adc | n. 1. Beschr. VI.
 
-*[Figur: Geometrische Zeichnung mit den Punkten h, o, b, a, c, den Ziffern 1 2 3 auf schrägen Strichen, sowie unten der Strich B C mit den Theilpunkten o 1 2 3 4 und g]*
+III. Beweiß.
 
-### Wirckung.
+| adb ⋏ adc | n. 10. Beschr. I.
+| bad ⋏ acb | n. Bew. α.
+| abc ⋏ dac | n. Bew. β.
+Dw. | △ abd ähnlich △ adc | n. 1. Beschr. VI.
 
-1. Aus b werde nach beliebigem Winckel ein unendlicher Strich bg,
+Beschluß.
 
-2. Und aus dem Düttel c ein mit bg gerader Nebenstrich ch gezogen. n. 31. I.
+Sind derowegen die beyden durch den Senckstrich gemachte Dreyecke dem gantzen rechtwincklichten Dreyecke nicht allein/ sondern auch unter sich gleichähnlich. W. Z. B.
 
-3. Auf den Strich bg werden die Theile des getheilten Striches nacheinander gesetzet. n. 3. I.
+# Der IX. Vortrag.
 
-4. Auf den Strich ch werden eben solche Theile / doch also gesetzet / daß man von c anfange und c 3 ⊤ 4 3.
-Und so ferner n. 3. I.
+## Das 1. Werck-Stück.
 
-5. Es werden die Striche 11. 22. 33. gezogen.
+Von dem gegebenen geraden Strich/ den bebegehrten Theil abzuschneiden.
 
-### Vorbereitung.
-
-Es werden auch o b und c 4 gezogen.
-
-Beweiß.
+T t
+Gege-

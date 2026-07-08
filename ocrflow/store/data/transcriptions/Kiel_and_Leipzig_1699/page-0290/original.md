@@ -1,25 +1,34 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 272)* -->
+<!-- *(Seitenzahl: 266)* -->
+
+Gegebene. | Begehrtes.
+
+A ________ | a ⊢ b
+a ____
+B ________
+b ____
+
+*[Figur: Strecken A, a, B, b]*
+
+A : a | B : b
+A ⊢ B
 
 ## Beweiß.
 
-A | a + c
-B | b + d — n. Gegeb.
-A : B | a + c : b + d — n. Anh. 7. V.
-A : B | c : d — n. Gegeb.
-Dw. a + c : b + d | c : d — n. 11. V.
-und a : b | c : d — n. 17. V.
-Dw. a : b | A : B — n. 11. V.
+A | 3a
+B | 3b
+A ⊢ B — n. Gegeb.
+Dw. 3a ⊢ B — n. 1. Gr. d. I.
+und 3a ⊢ 3b — n. 1. Gr. b. I.
+Dw. a ⊢ b — n. 7. Gr. p. I.
 
-## Beschluß.
+Wenn derowegen aus Vier Ebenmässigen Grössen die Erste grösser/ als die Dritte/ so ist die Andere auch grösser/ als die Vierte: Und wenn die Erste eben so groß/ als die Dritte/ so ist auch die Andere eben so groß/ als die Vierte: wenn aber die Erste kleiner/ als die Dritte/ so ist die Andere auch kleiner/ als die Vierte. W. Z. B.
 
-Wenn derowegen die Gantzen sich zu einander also/ wie die abgenommenen Stücke zu einander verhalten: So werden die übergeblieben Stücke sich auch also/ wie die Gantzen zu einander verhalten. W. Z. B.
+# Der XV. Vortrag.
 
-# Der XX. Vortrag.
+## Das 15. Beweiß-Stück.
 
-## Das 20. Beweiß-Stück.
+Die Theile verhalten sich eben so gegen einander/ wie derselben vielfältige Gantzen: wenn sie nemlich in richtiger Ordnung genommen werden.
 
-Wenn man drey Grössen hat/ welche mit andern drey Grössen in richtiger Ebenmaß stehen/ und die Erste der Ersten Ahrt grösser ist/ als die Dritte selbiger Ahrt/ so wird auch die Erste der andern Ahrt grösser seyn/ als die Dritte derselbē Ahrt: Ist aber die Erste gleichgroß mit der Dritten/ so ist auch in der andern Ahrt die Erste der Dritten gleicher Grösse: Und wenn die Erste kleiner/ als die Dritte/ so ist auch in der andern Ahrt die Erste kleiner/ als die Dritte.
-
-I. Gegebene.
+Gege-

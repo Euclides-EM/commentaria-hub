@@ -1,29 +1,20 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 300)* -->
-
-|  |  |  |  |
-|---|---|---|---|
-| Dw. | D : d | ⊣ A + B + C : a + b + c | n. Anh. 13. V. |
-|  | D : A + B + C | ⊣ d : a + b + c | n. 27. V. |
-|  | D + A + B + C : A + B + C | ⊣ d + a + b + c : a + b + c | n. 28. V. |
-|  | D + A + B + C : d + a + b + c | ⊣ A + B + C : a + b + c | n. 27. V. |
-|  | D : d | ⊣ D + A + B + C : d + a + b + c | n. 33. V. |
-|  | A + B + C : a + b + c | \| C : c | n. Bew. II. |
-|  | D + A + B + C : d + a + b + c | ⊣ C : c | n. Anh. 13. V. |
+<!-- *(Seitenzahl: 294)* -->
 
 ## Beschluß.
-Sind derowegen nunmehro
+Wenn derowegen VI. Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die IV. zu der V. auch die II. zu der III. eine grössere Verhältnüß / als die V. zu der Sechsten hat: So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
 
-1. D + A + B + C : d + a + b + c ⊣ A + B + C : a + b + c
-2. D + A + B + C : d + a + b + c ⊣ D : d
-3. D + A + B + C : d + a + b + c ⊣ C : c.
+## Der XXXII. Vortrag.
+Das 32. Beweiß-Stück.
 
-W. Z. B.
+Wenn erstlich drey Grössen gegeben / und darnach noch andere drey Grössen darzu genommen werden. Unter den Ersten dreyen aber die Erste zu der Andern eine grössere Verhältnüß hat / als in der andern Ahrt die Andere zu der Dritten. Deßgleichen unter der Ersten die Andere zu der Dritten eine grössere Verhältnüß hat / als unter den Andern die Erste zu der Andern; So wird auch nach der Gleichheit die Erste der ersten Ahrt zu der Dritten selbiger Ahrt eine grössere Verhältnüß haben / als die Erste der andern Ahrt zu der Dritten solcher Ahrt.
 
-## Der XXXV. Vortrag.
-Das 35. Beweiß-Stück.
+### Gegebene.
 
-Wann zu zwo Grössen / welche ungleicher Grösse sind / zwey gleichmässige Stücke beygefüget werden / so werden die zusammengesetzten eine kleinere Verhältnüß / als die Erstgegebenen / haben: wenn aber gleichgrosse Stücke von selbigen abgeschnitten werden / so werden die übergebliebene Stücke eine grössere Verhältnüß / als die ersten Grössen gehabt / erlangen.
+*[Figur: sechs waagerechte Linien A, B, C, a, b, c von unterschiedlicher Länge]*
 
-I. Ge-
+A : B ⊣ b : c
+B : C ⊣ a : b
+
+Begehrtes.

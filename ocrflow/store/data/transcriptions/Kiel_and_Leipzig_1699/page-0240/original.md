@@ -1,36 +1,34 @@
 <!-- # Das IV. Buch -->
 
-<!-- *(Seitenzahl: 222)* -->
+<!-- *(Seitenzahl: 216)* -->
 
-u. — gca ∧ hca
-u. — cag ∧ cah — n. 4. I.
-α. Dw. — gab ∧ 2gac — n. 9. Gr. q. I.
-Gleicher Weise — gal ∧ 2gab
-gh | gl — n. 1. Wirck.
-Dw — gh ⌒ gl — n. 28. III.
-u. — gab ∧ gal — n. 26. III.
-gac ∧ gab — α. n. 7. Gr. n. I.
-cga ∧ bga — n. 10. Gr. I.
-ga | ga
-Dw. — gca ∧ gba — n. 26. I.
-u. — gc | bg — n. 4. I.
-Gleicher Weise gb | bl | lf | fk | ke | ei | id | dh | hc | cg
-und — gb + gc | bc
-dh + hc | cd — n. 9. Gr. q. I.
-Dw. — bc | cd | de | ef | fb — n. 2. Gr. I.
-Deßgleiche gba ∧ lba ∧ lfa ∧ kfa ∧ kea ∧ iea
-u. — iea ∧ ida ∧ hda ∧ hca ∧ gca ∧ gba
-gba + lba ∧ gal
-lfa + kfa ∧ lak — n. 9. Gr. q. I.
-Dw. gal ∧ lak ∧ kai ∧ iah ∧ hag — n. 2. Gr. I.
-u. — bcdef ein gleichseitig und gleichwincklicht Fünffeck /
-n. 22. Beschr. I.
-Welches ümb den gegebenen Kreyß ghikl beschrieben/
-n. 4. Beschr. I.
+dcb ∧ ∟ ω.
+Dw. — dbc + bdc ∧ ∟ — n. 3. Gr. I.
+u. — dbc ∧ bdc ∧ ½ ∟ — ß. n. 7. Gr. n. I.
+Gleicher Weise ebd ∧ bec ∧ dec ∧ edb ∧ ½ ∟
+Dw. — ab | ae | ac | ad — n. 6. I.
+u. — a | Mittel-Düpffel des Kreyses edcb, n. 9. III.
+
+Welcher umb das Viereck beschrieben/ n. 6. Besch. IV.
 
 Beschluß.
 
-Ist also ein gleichseitiges und gleichwincklichtes Fünffeck umb
-den gegebenen Kreyß beschrieben. W. Z. M.
+Ist also umb das gegebene □ bcde ein Kreyß edcb beschrieben.
+W. Z. M.
 
-Der
+# Der X. Vortrag.
+
+Das 10. Werck-Stück.
+
+Ein gleichschenckliches Dreyeck zu machen/
+dessen jeder Grundwinckel noch einmahl so groß/
+als der Gipffelwinckel.
+
+Gegebene. — Begehrte.
+1. Gleichgrosse Schenckel — 1. Gleichschencklichtes Dreyeck
+2. jedweder Grundwinckel noch einmahl so groß als der Gipffelwinckel. — 2. in welchem der Gipffelwinckel halb so groß als ein Grund-
+winckel.
+
+*[Figur: links ein Quadrat mit Punkten A, C, B auf der Grundlinie und einem Kreisbogen; rechts ein punktierter großer Kreis mit einbeschriebenem gleichschencklichem Dreyeck a b d, kleinerem punktierten Kreis durch c und d]*
+
+Wir-

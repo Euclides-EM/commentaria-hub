@@ -1,34 +1,35 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 367)* -->
+<!-- *(Seitenzahl: 355)* -->
 
-Dw. AC : CB | AF : FE n. 2. VI.
-u. □ DC ähnlich □ FG n. 1. Besch. VI.
+Dw. △ abc : △ abg | △ abc : △ def n. 7. V.
+u. △ abc : △ def ⊐ bc : ef n. 11. V.
 
-Gleicher Gestalt sind auch
+## Beschluß.
 
-□ DC ähnlich □ HI
-□ FG - - □ HI. n. 21. VI.
+Haben derowegen ähnliche Dreyecke zu einander zwiefach grössere Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. W. Z. B.
 
-Beschluß.
+# Der XX. Vortrag.
 
-Sind also in jedwedem Nebenstrichichten Viereck die üm den Zwergstrich stehende Vierecke nicht allein unter sich/ sondern auch dem grossen Viereck ähnlich. W. Z. B.
+## Das 14. Beweiß-Stück.
 
-# Der XXV. Vortrag.
+Aehnliche Vielecke können in ähnliche/ und gleichviele/ und mit denen Gantzen Verhältniß-ähnliche oder ebenmässige Dreyecke abgetheilet werden.
 
-Das 7. Werck-Stück.
+Die ähnlichen Vielecke stehen auch gegen einander in zwiefach grösserer Ebenmaß/ als ihre Verhältniß-ähnliche Seiten.
 
-Einer gegebenen geradstrichichten Gestalt eine ähnliche und eben so gesetzte Gestalt/ die auch einer andern gegebenen Gestalt gleichmässige sey/ zu verfertigen.
+### Gegebene.
 
-Gegebene.
+1. Fünfeck cad
+2. u. hfi
+3. cad ähnlich hfi.
 
-1. Geradstrichichte Gestalt B
-2. und A
+### I. Begehrte.
 
-Begehrte.
+1. Beyde Fünfecke in ähnliche/ und
+2. Gleichviele/ und
+3. mit denen Fünfecken/ Verhältnüß-ähnliche Dreyecke abgetheilet.
 
-1. Die Gestalt L | B
-2. ⬠ L ähnlich ⬠ A
-3. und eben so gesetzt.
+*[Figur: zwei Fünfecke; das kleinere mit den Ecken f, g, k, h, i und punktierten Diagonalen; das grössere mit den Ecken a, b, e, c, d und punktierten Diagonalen]*
 
-Wirckung.
+Y y 2
+Vorbe-

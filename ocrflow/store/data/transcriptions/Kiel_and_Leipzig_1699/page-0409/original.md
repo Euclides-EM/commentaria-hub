@@ -1,52 +1,39 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 391)* -->
+<!-- *(Seitenzahl: 379)* -->
+
+9. Aus d werde durch B ein gerader Strich dm gezogen/ welcher den Strich mp in m schneide.
+
+10. Aus m werde gegen pg der Nebenstrich mb gezogen. n. 31. I.
+
+11. Durch B werde auch gegen dq der Nebenstrich on gezogen. n. 31. I.
+
+12. Der Strich AB werde biß f verlängert.
+
+## Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-| Dw. | fha | ⋀ ghk | n. 27. III. |
-| α und | fg | gk |  |
-| β Dw. | △ fhg | △ ghk | n. 4. I. |
-|  | ⌒ fg | ⌒ gk | n 1. Vorb. |
-| Dw. | fhg ⋀ | ghk | n. 27. III. |
-| und | ⌒ fg ähnlich | ⌒ gk | n. 11. Besch. III. |
-|  | fg | gk | n. Bew. α |
-| Dw. | ⌓ fng | ⌓ gok | n. 24. III. |
-| und | △ fhg + ⌓ fng | △ ghk + ⌓ gok | n. 2 Gr. I. |
-| Dw. | ⌓ fhgn | ⌓ ghko | n. 9. Gr. I. q. |
+|  | □ dg | □ ih | n. 5. Wirck. |
+|  | △ K | □ ih | n. 3. Wirck. |
+| Dw. | △ K | □ dg | n. 1. Gr. I. |
+|  | □ cn | □ Ad | n. 36. I. |
+| Dw. | □ cn + △ K | □ Ad + □ dg | n. 2. Gr. I. |
+|  | □ dm | □ Ad + □ dg | n. 24. VI. |
+| Dw. | □ cn + △ K | □ dm | n. 1. Gr. I. |
+|  | □ cn | □ cn |  |
+| Dw. | △ K | □ dm — □ cn | n. 3. Gr. I. |
+| oder | ⊡ qBb | □ dm — □ cn | n. 2. Besch. II. |
+| a Dw. | ⊡ qBb | △ K | n. 1. Gr. I. |
+|  | □ fn | □ oC | n. 43. I. |
+|  | □ Cp | □ oC | n. 36. I. |
+| Dw. | □ Cp | □ fn | n. 1. Gr. I. |
+|  | □ oC | □ oC |  |
+|  | □ fo | □ fo |  |
+| Dw. | □ Cp + oC + fo | □ fn + □ oC + □ fo | n. 2. Gr. I. |
+| oder | □ fp | ⊡ qBb | n. 9. Gr. I. q. |
+| Dw. | □ fp | △ K | n. Bew. a. u. 1. Gr. I. |
 
-Gleicher Gestalt sind auch
+Bbb 2
 
-⌓ hkl | ⌓ ghk
-und ⌓ bdc | ⌓ cdi | ⌓ idm
-
-Wie vielfältig nun der Bogen fl des Bogens fg, so vielfältig ist der Kreißschnitt / fhl des Kreißschnitts fhg.
-
-⌒ fl : ⌒ fg | ⌓ fhl : ⌓ fhg.
-
-Gleicher Gestalt / wie vielfältig der Bogen bm des Bogens bc, so vielfältig ist auch der Kreißschnitt bdm des Kreißschnitts bdc.
-
-⌒ bm : ⌒ bc | ⌓ bdm : ⌓ bdc
-
-|  |  |
-|---|---|
-| Ist nun | ⌒ fl ⊣ ⌒ bm |
-| so ist auch | ⌓ fhl ⊣ ⌓ bdm |
-
-oder:
-
-|  |  |
-|---|---|
-| Ist | ⌒ fl \| ⌒ bm |
-| so ist auch | ⌓ fhl \| ⌓ bdm |
-
-oder:
-
-|  |  |  |
-|---|---|---|
-| Ist | ⌒ fl ⊢ ⌒ bm |  |
-| so ist auch | ⌓ fhl ⊢ ⌓ bdm |  |
-| Dw. | ⌒ fg : ⌒ bc \| ⌓ fhg : ⌓ bdc | n. 6. Besch. V. |
-| und | ∧ fhg : ∧ bdc \| ⌓ fhg : ⌓ bdc | n. 11. V. |
-
-Beschluß
+□ fo

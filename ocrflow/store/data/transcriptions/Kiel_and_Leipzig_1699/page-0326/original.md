@@ -1,37 +1,30 @@
-<!-- *(Seitenzahl: 308)* -->
+<!-- # Das V. Buch -->
 
-<!-- # Das VI. Buch -->
+<!-- *(Seitenzahl: 302)* -->
 
-Gleiche Bewandnüß hat es/ wenn man sagen wolte/ daß
-cq ⊢ fp were.
-Muß derowegen cq | fp.
+## Oder:
 
-# Beschluß.
+|  |  |  |
+|---|---|---|
+| b + a | ⊣ c + a | n. Geg. |
+| a \| | a |  |
+| b + a : a | ⊣ c + a : a | n. 8. V. |
+| b + a : c + a | ⊣ a a | n. 27. V. |
+| b : c | ⊣ b + a : c + a | n. 33. V. |
 
-Wenn derohalben zwey nebenstrichichte Dreyecke sich also/ wie ihre Grundstriche gegen einander verhalten/ so werden sie auch gleichmässige Höhen haben. W. Z. B.
+## Beschluß.
+Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so werden die zusammengesetzte Grössen eine kleinere Verhältnüß zu einander haben / als die Ersten beyden Grössen. Schneidet man aber zwey gleiche Stücke von denselben ab / so werden die Ubergebliebene eine grössere Verhältnüß haben / als die Ersten beyden ungleichen Grössen. W. Z. B.
 
-# II. Gegebenes.
+---
 
-ab : de | □ ah : □ dg.
+# Das VI. Buch Euclidis.
 
-# Begehrtes.
+## Beschreibungen.
 
-Höhen gp | hq.
+I. Gleichähnliche geradstrichichte ( Similes rectilineæ ) Gestalte sind / welche gleichmässige Winckel und ebenmässige Seiten haben.
 
-*[Figur: Zwei Parallelogramme, links mit den Ecken g f d e und Punkt p, rechts mit den Ecken c h b a nebst den Punkten s, r und p, mit gestrichelten Senckstrichen]*
+II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und nachgehende ebenmässige Striche sich befinden.
 
-# Vorbereitung.
+III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
 
-Wenn gp ⊢ hp so schneide man von hq ein Stück ab/ nemlich rp | gp n. 3. I.
-
-2. Ziehe man den Strich sr ⧣ ab.
-
-# Beweiß.
-
-gp | rp — n. Vorber.
-Dw. de : ab | □ dg : □ ar — n. 1. VI.
-de : ab | □ dg : □ ah — n. Geg.
-Dw. □ dg : □ ar | □ dg : □ ah — n. 11. V.
-u. □ ar | □ ah — n. 9. V.
-
-Welches
+IV. Die

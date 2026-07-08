@@ -1,30 +1,39 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 240)* -->
+<!-- *(Seitenzahl: 234)* -->
 
-# Der II. Vortrag.
+XVI. Verwendete Verhältniß ist/ wenn man die Vorgehenden gegen den Uberschuß/womit die Vorgehenden die Nachgehenden übertroffen / hält.
 
-## Das 2. Beweißstück.
+6a : 4a | 3a : 2a
 
-Wenn die Erste Grösse der Andern / und die Dritte der Vierten gleichmäßig vielfältig sind; darnach auch die Fünffte der Andern und die Sechste der Vierten gleichmäßig vielfältig sind: so werden auch die Erste und Fünffte zusammen genommen der Andern eben so vielfältig seyn / als die Dritte und Sechste zusammen genommen der Vierten sind.
+6a : 6a — 4a | 3a : 3a — 2a
 
-## Gegebene. — Begehrtes.
+oder 6a : 2a | 3a : a.
 
-*[Figur: sechs waagerechte Linien, bezeichnet A (getheilet in c, d), a, C (getheilet in e, f, g), B (getheilet in h, k), b, D (getheilet in l, m, n); daneben die Ziffern I. II. V. III. IV. VI.]*
+XVII. Verhältniß aus der Gleichheit (ex æqualitate ratio) ist/ wenn man mehr/als zwo in Verhältniß stehende Grössen hat: und darnach wiederümb eben so viel Grössen / so in gleichmässiger Verhältniß stehen/nimt: so wird in der ersten Ordnung die Erste Grösse sich zu der Letzten eben so/ wie in der andern Ordnung die Erste zu der Letzten verhalten.
 
-II. A : a | B : b — V. C : a | D : b
+Oder:
 
-A + C : a | B + D : b
+Wenn man die Mittelsten wegwirfft/und die Ersten und Letzten gegen einander hält.
 
-## Vorbereitung.
+9a : 6a : 4a
 
-1. Es werde A getheilet in c, d, also daß
-2. c|a und d|a n. 3. I.
-3. Auch werde B getheilet in h, k, also daß
-4. h|b und k|b n. 3. I.
-5. Deßgleichen C in e, f, g, also daß
-6. e|a, f|a und g|a n. 3. I.
-7. Und D in l, m, n, also daß
-8. l|b, m|b und n|b n. 3. I.
+18b : 12b : 8b
 
-Beweiß
+9a : 4a | 18b : 8b
+
+Oder
+
+16a : 8a : 4a : 2a
+
+24b : 12b : 6b : 3b
+
+16a : 2a | 24b : 3b
+
+XIIX. Ordentliche Ebenmässigkeit ist/ wenn in der ersten Ordnung die Vorgehende zu der Nachgehenden/wie die Vorgehende zu der Nachgehenden in der andern Ordnung sich verhält. Und ferner die Nachgehende in der ersten Ordnung zu etwas Anders/wie die Nachgehende der andern Ordnung zu etwas Anders.
+
+4a : 2a | 2a : (a)
+
+8b : 4b | 4b : (2b.)
+
+XIX.

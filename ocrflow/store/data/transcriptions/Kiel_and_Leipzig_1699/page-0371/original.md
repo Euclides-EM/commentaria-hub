@@ -1,33 +1,34 @@
+<!-- *(Seitenzahl: 341)* -->
+
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 353)* -->
+# Der XIV. Vortrag.
 
-Dw. △ ABC ähnlich dem △ abc n. 1. Beschr. VI.
-u. AB : BC | ab : bc n. 4. VI.
-Aus eben denen Ursachen sind auch
-BC : CD | bc : cd
-u. CD : DE | cd : de
-u. DE : EF | de : ef
+## Das 9. Beweiß-Stück.
 
-Und ist also abcdef ähnlich der Gestalt ABCDEF n. der 1. Beschr. VI. und auf den gegebenen Strich ab gesetzet n. 2. Wirck. W. Z. M.
+Gleichmässige Nebenstrichichte Vierecke/ welche einen gleichmässigen oder gleichgrossen Winckel haben/ dieselbigen haben auch bey dem gleichmässigen Winckel wechselmässige (reciproca) Seiten.
 
-# Der XIX. Vortrag.
+Und diejenigen Nebenstrichichten Vierecke/ welche bey dem gleichmässigen Winckel wechselmässige Seiten haben/ sind gleichmässig oder gleichgroß.
 
-## Das 13. Beweiß-Stück.
+### I. Gegebene.
 
-Aehnliche Dreyecke stehen gegen einander in zwiefach grösserer (duplicata) Verhältnüß/ als ihre Verhältnüß-ähnliche Seiten. (homologa latera.)
-
-### Gegebene.
-
-1. Dreyeck a b c.
-2. und d e f
-3. △ abc ähnlich dem △ def.
+1. Nebenstrichichte Viereck ad
+2. und fh
+3. ad ⌻ fh
+4. d ⋏ e.
 
 ### Begehrte.
 
-| ab : de
-△ abc : △ def ⊐ | bc : ef
-| ca : fd.
+ab : eh ⊤ fe : db.
+□ ad wechselmässig □ fh.
 
-Y y
-Vorbe-
+*[Figur: Zwei kleine Parallelogramme mit den Ecken h, g, a, b, c, d, e, f; darunter grössere Vierecke mit den Ecken F, D, E, H, C, A, B, I, wobei B—I punktiert]*
+
+### Vorbereitung.
+
+1. Es werde gemacht ABDC ⌻ abdc. n. 46. I.
+2. Verlänget man nach Nothdurfft die Striche CD und BD gegen H und F.
+
+Uu 3
+
+3. werde

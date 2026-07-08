@@ -1,34 +1,39 @@
+<!-- *(Seitenzahl: 313)* -->
+
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 319)* -->
+# I. Beweiß.
 
-Dw. | ba : cd | ba : CD | n. 7. V.
-1. u. | ba : CD | bc : CE | n. 11. V.
-γ | bc : ce | fd : de | n. 2. VI.
-δ | fd | ac | n. 34. I.
-| DE | DE |
-Dw. | fd : DE | ac : DE | n. 7. V.
-| fd | fd |
-| DE | de | n. 3. Vorb.
-Dw. | fd : DE | fd : de | n. 7. V.
-u. | bc : ce | ac : DE | n. 11. V.
-| CE | ce | n. 2. Vorb.
-2. Dw. | bc : CE | ac : DE | n. 7. V.
+de ⧣ cb — n. Gegeb.
+Dw. △ bde | △ cde — n. 37. I.
+△ ade | △ ade
+Dw. △ ade : △ bde | △ ade : △ cde — n. 7. V.
+△ ade gleichmässiger Höhe △ bde — n. 4. Besch. VI.
+∝ Dw. △ ade : △ bde | ad : db — n. 1. VI.
+△ ade : gleichmässiger Höhe △ cde — n. 4. Besch. VI
+Dw. △ ade : △ cde | ae : ec — n. 1. VI.
+u. △ ade : △ bde | ae : ec — n. 11. V.
+△ ade : △ bde | ad : db — n. Bew. ∝
+Dw. ae : ec | ad : db — n. 11. V.
 
-| ba : af | bc : ce | n. Bew. α
-| bc : ce | fd : de | n. Bew. γ
-Dw. | ba : af | fd : de | n. 11. V.
-| cd | af | n. Bew. β
-| fd | ac | n. Bew. δ
-Dw. | ba : cd | ac : de | n. Anh. 7. V.
-| DC | cd |
-| de | DE | n. 3. Vorb.
-Dw. | ba : DC | ac : DE | n. Anh. 7. V.
+# I. Beschluß.
 
-*[Figur: kleines Dreieck, blass im Hintergrund der Tabelle]*
+Wenn derowegen eines Dreyeckes zwo Seiten von des Grundstriches Nebenstrich geschnitten werden/ so stehen die Stücke der Seiten in ebenmässiger Verhältnüß gegen einander. W. Z. B.
 
-Beschluß.
+# Des II. Vortrags II. Gegebene.
 
-So stehen derowegen aller gleichwincklichten Dreyecke Seiten in ebenmässiger Verhällnüß / so ferne sie gleichmässige Winckel einschrencken / oder gleichmässigen Winckeln gegen über stehen. W. Z. B.
+1. Dreyecke abc
+2. Strich de
+3. Welcher die Seiten schneidet.
+4. Also daß ae : ec | ad : db.
 
-Der
+# Begehrtes.
+
+de ⧣ cb.
+
+# Vorbereitung.
+
+Es werden die geraden Striche be und cd gezogen.
+
+Rr
+II. Beweiß.

@@ -1,38 +1,37 @@
-<!-- *(Seitenzahl: 326)* -->
+<!-- *(Seitenzahl: 320)* -->
 
 <!-- # Das VI. Buch -->
 
+# Der V. Vortrag.
+
+## Das 5. Beweiß-Stück.
+
+Wenn die Seiten zweyer Dreyecke in ebenmässiger Verhältnüß stehen / so sind solche Dreyecke gleichwincklicht / und denen ebenmässigen Seiten stehen gleichmässige Winckel gegen über.
+
+Gegebene.
+
+1. Zwey Dreyecke abc und DCE, deren Seiten in richtiger Ebenmaß stehen.
+
+2. | ac : DE | bC : CE
+3. | ab : DC | bC : CE
+4. | ab : DC | aC : DE.
+
+Begehrte.
+
+C ⋏ b
+DCE ⋏ aCb
+a ⋏ D.
+
+*[Figur: zwei Dreiecke, ein kleineres abc und ein grösseres DCE mit punktierter Linie DH und Punkten H und E auf der Grundlinie]*
+
+Beweiß.
+
+Wenn die gegebenen Dreyeck nicht gleichwincklicht sind.
+
 Vorbereitung.
 
-Wenn man | acb ⋏ dfe, | so mache
-| acg ⋏ dfe | n. 23. I.
+So setze man auf den Strich CD und zwar
+auf den Düttel D den Winckel CDH ⋏ baC
+und auf C den Winckel DCH ⋏ abC   n. 32. I.
 
-I. Beweiß.
-
-| acg ⋏ dfe | n. Vorber.
-| bac ⋏ edf | n. 2. Geg.
-α Dw. | agc ⋏ def | n. 32. I.
-u. | ac : cg | df : fe | n. 4. VI.
-| ac : cb | df : fe | n. 5. Geg.
-Dw. | ac : cb | ac : cg | n. 11. V.
-u. | cb | cg | n. 9. V.
-Dw. | cbg ⋏ bgc | n. 5. I.
-| cbg ⋏̸ ∟ (?) | n. 3. Geg.
-Dw. | bgc ⋏̸ ∟ (?) | n. 1. Gr. d. I.
-| agc + bgc ⋏ ⌓ (?) | n. 13. I.
-Dw. | agc ⋏̸ ∟ (?) | n. 5. Gr. I.
-| agc ⋏ def | n. Bew. α.
-Dw. | def ⋏̸ ∟ (?) | n. 1. Gr. c. I.
-
-welches aber wider das 4. Gegebene.
-
-Des VII. Vortrags II. Gegebene.
-
-1 abc oder gbc ⋏ nicht kleiner als ∟,
-2. def ⋏ nicht kleiner als ∟.
-3. cag ⋏ fde
-4. ac : cb | df : fe
-
-*[Figur: zwei Dreiecke, links Dreieck abc mit punktierter Linie von c nach g, rechts Dreieck def]*
-
-Vor-
+Ver-

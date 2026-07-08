@@ -1,36 +1,25 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 278)* -->
+<!-- *(Seitenzahl: 272)* -->
 
-III. Gegebene.
+## Beweiß.
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+A | a + c
+B | b + d — n. Gegeb.
+A : B | a + c : b + d — n. Anh. 7. V.
+A : B | c : d — n. Gegeb.
+Dw. a + c : b + d | c : d — n. 11. V.
+und a : b | c : d — n. 17. V.
+Dw. a : b | A : B — n. 11. V.
 
-A : B | b : c
-B : C | a : b
-A ⊦ C
+## Beschluß.
 
-Begehrtes.
+Wenn derowegen die Gantzen sich zu einander also/ wie die abgenommenen Stücke zu einander verhalten: So werden die übergeblieben Stücke sich auch also/ wie die Gantzen zu einander verhalten. W. Z. B.
 
-a ⊦ c
+# Der XX. Vortrag.
 
-Beweiß.
+## Das 20. Beweiß-Stück.
 
-|  |  |  |
-|---|---|---|
-| b : c | A : B | ⌉ n. Geg. |
-| A : | ⊦ C | |
-| B | B | |
-| Dw. A : B | ⊦ C : B | n. 8. V. |
-| u. b : c | ⊦ C : B | n. Anh. 13. V. |
-| a : b | B : C | n Gegeb. |
-| Dw. ⌠ b : a | C : B | n. 16. V. |
-| u. b : a | ⊣ b : c | n. 13. V. |
-| b | b | |
-| Dw. a ⊦ | c | n. 10. V. |
+Wenn man drey Grössen hat/ welche mit andern drey Grössen in richtiger Ebenmaß stehen/ und die Erste der Ersten Ahrt grösser ist/ als die Dritte selbiger Ahrt/ so wird auch die Erste der andern Ahrt grösser seyn/ als die Dritte derselbē Ahrt: Ist aber die Erste gleichgroß mit der Dritten/ so ist auch in der andern Ahrt die Erste der Dritten gleicher Grösse: Und wenn die Erste kleiner/ als die Dritte/ so ist auch in der andern Ahrt die Erste kleiner/ als die Dritte.
 
-Beschluß.
-
-Wenn derowegen Sechs Grössen in verwirreter Ebenmaß stehen/ und die I. grösser ist / als die III. so wird auch die IV. grösser seyn/ als die VI. Ist aber die I. eben so groß/als die III. so ist auch die IV. eben so groß/als die VI. Und wenn die I. kleiner ist/als die III. so ist auch die IV. kleiner/als die VI. W. Z. B.
-
-Der
+I. Gegebene.

@@ -1,39 +1,35 @@
-<!-- *(Seitenzahl: 344)* -->
+<!-- *(Seitenzahl: 338)* -->
 
 <!-- # Das VI. Buch -->
 
-## I. Gegebene.
+# Der XII. Vortrag.
 
-1. Dreyeck ABC
-2. u. DFE
-3. ABC ⋏ DEF
-4. ABC ⩓ EFD.
+## Das 4. Werck-Stück.
 
-## Begehrtes.
+Zu dreyen geraden Strichen den Vierten ebenmässigen geraden Strich zu finden.
 
-AB : DE ⊤ EF : BC.
+### Gegebene.
 
-*[Figur: Dreyecke D E A, F B C oben; darunter die Punkte d, e, b, a und der punktierte Strich nach c]*
+1. Der Strich AB
+2. AC
+3. BD
 
-## I. Vorbereitung.
+### Begehrtes.
 
-1. Es werde gemacht abc ⩓ ABC n. 22. I.
-2. Die Seiten ab und ce werden gegen d und f verlängert.
-3. Es werde ed ⊤ ED
-4. und ef ⊤ EF   n. 3. I.
-5. Auch werde df
-6. Wie auch dc gezogen.
+Vierte ebenmässige Strich ce
 
-## Beweiß.
+AB : AC ⊤ BD : ce.
 
-|  |  |  |
-|---|---|---|
-| α | △ abc ⊤ △ ABC | n. 1. Vorb. |
-|  | △ efd gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
-| Dw. | △ efd : △ edc ⊤ ef : ec | n. 1. VI. |
-|  | △ eac gleichmässiger Höhe △ edc | n. 4. Beschr. VI. |
-| β Dw. | △ eac : △ edc ⊤ ab : ed | n. 1. VI. |
-|  | △ efd ⊤ △ FED | n. 4. I. |
-|  | △ ABC ⊤ △ EFD | n. 4. Gegeb. |
+*[Figur: Striche A—B und A—B—D—C mit g; darunter ein Winkel aus a mit den Punkten c, e oben und b, d, f auf dem unteren Schenkel]*
 
-Dw.
+### Wirckung.
+
+1. Werde ein gerader Strich af gezogen.
+2. Von welchem abgeschnitten werden ab ⊤ AB
+3. Und bd ⊤ BD   n. 3. I.
+4. Aus a wird nach belibigem Winckel der Strich ag gezogen.
+5. Von welchem ac ⊤ AC abgeschnitten wird. n. 3. I.
+6. Werde der gerade Strich bc,
+7. Und gegen diesen Strich bc aus d der gerade Nebenstrich de gezogen. n. 31. I.
+
+Beweiß.

@@ -1,38 +1,36 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 382)* -->
+<!-- *(Seitenzahl: 370)* -->
 
-## Beweiß.
+Gegebene.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | □ ad | □ am | n. 1. Wirck. |
-|  | □ ak | □ ak |  |
-| Dw. | □ ad — □ ak | □ m — □ ak | n. 3. Gr. |
-| oder | □ bd | □ hm |  |
-|  | bkd | ⋀ (?) hkm | n. 13. I. |
-| Dw. | □ hm wechselmässig □ bd |  |  |
-| und | hk : kd | bk : km | n. 14. VI. |
-|  | kd | be | n. 34. I. |
-|  | bi | be | n. 7. Wirck. |
-| Dw. | bi | kd | n. 1. Gr. I. |
-| und | hk : bi | bk : km | n. Anh. 7. V. |
-|  | be | bk | n. 29. Beschr. I. |
-|  | be | bi | n. 7. Wirck. |
-| Dw. | bi | bk | n. 1. Gr. I. |
-| und | hk : bi | bi : km | n. Anh. 7. V. |
-|  | hk | ab | n. 34. I. |
-| Dw. | ab : bi | bi : km | n. Anh. 7. V. |
-|  | bm | ba | n. 29. Besch. I. |
-|  | bk | bi | n. 7. Wirck. |
-| Dw. | bm — bk | ba — bi | n. 3. Gr. I. |
-| oder | km | ia |  |
-| und | ab : bi | bi : ia | n. Anh. 7. V. |
+1. Nebenstrichichtes Viereck bd
+2. Abgenommenes Viereck eg
+3. □ eg ⎫ ähnlich ⎧ □ bd.
+4. ⎬ gleicher Weise gesetzt ⎨
+5. ⎭ gleichmässige Winckel habend ⎩
 
-Dw. ist ab im i nach der äusersten und mittelsten Verhältnüß getheilet. n. 3. Beschr. VI.
+Begehrtes.
 
-## Beschluß.
+*[Figur: Viereck a, g, i, b oben, e und f in der Mitte, d und c unten, mit Diagonalen und punctirten Linien]*
 
-Ist also der Strich ab nach äuserster und mittelsten (secundùm mediam & extremam) Verhältnüß getheilet. W. Z. M.
+□ eg üm einen einigen Zwergstrich stehende mit □ bd.
 
-Andere
+Vorbereitung.
+
+Wenn □ eg nicht üm denselben Zwergstrich stehet/ so nehme man das □ ei, welches üm denselben Zwergstrich stehen sol.
+
+Beweiß.
+
+□ ei stehet üm einen einigen Zwergstrich mit □ bd n. Angen.
+Dw. ist □ ei ähnlich □ bd n. 24. VI.
+u. ae : ai | ad : ab n. 1. Besch. VI.
+□ eg ähnlich □ bd n. 3. Geg.
+Dw. ae : ag | ad : ab n. 1. Besch. VI.
+u. ae : ag | ae : ai n. 11. V.
+ae | ae
+Dw. ag | ai n. 9. V.
+
+Welches aber unmüglich n. 9. Gr. I.
+
+Beschluß-

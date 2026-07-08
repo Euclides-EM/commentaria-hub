@@ -1,34 +1,42 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 266)* -->
+<!-- *(Seitenzahl: 260)* -->
 
-Gegebene. | Begehrtes.
+## I. Beweiß.
 
-A ________ | a ⊢ b
-a ____
-B ________
-b ____
+A | 3a — n. Gegeb.
+2A | 6a — n. 6. Gr. i. I.
+6a ⊣ 4a — n. 9. Gr. I.
+α (?) Dw. 2A ⊣ 4a — n. 1. Gr. c. I.
+B | 3b — n. Gegeb.
+2B | 6b — n. 6. Gr. i. I.
+6b ⊣ 4b — n. 9. Gr. I.
+β Dw. 2B ⊣ 4b — n. 1. Gr. c. I.
 
-*[Figur: Strecken A, a, B, b]*
+## Vorbereitung.
 
-A : a | B : b
-A ⊢ B
+Man nehme 1. A und B jedwedes einmahl/
+Darnach 2. Die Grössen a und b jedwede dreymahl.
 
-## Beweiß.
+A ____________
+3a ____________
+B ____________
+3b ____________
 
-A | 3a
-B | 3b
-A ⊢ B — n. Gegeb.
-Dw. 3a ⊢ B — n. 1. Gr. d. I.
-und 3a ⊢ 3b — n. 1. Gr. b. I.
-Dw. a ⊢ b — n. 7. Gr. p. I.
+*[Figur: Strecken A, 3a, B, 3b]*
 
-Wenn derowegen aus Vier Ebenmässigen Grössen die Erste grösser/ als die Dritte/ so ist die Andere auch grösser/ als die Vierte: Und wenn die Erste eben so groß/ als die Dritte/ so ist auch die Andere eben so groß/ als die Vierte: wenn aber die Erste kleiner/ als die Dritte/ so ist die Andere auch kleiner/ als die Vierte. W. Z. B.
+## II. Beweiß.
 
-# Der XV. Vortrag.
+A | 3a — n. Gegeb.
+3a | 3a — n. Vorber.
+γ Dw. A | 3a — n. 1. Gr. I.
+B | 3b — n Geg.
+3b | 3b — n. Vorber.
+δ Dw. B | 3b — n. 1. Gr. I.
 
-## Das 15. Beweiß-Stück.
+## Vorbereitung.
 
-Die Theile verhalten sich eben so gegen einander/ wie derselben vielfältige Gantzen: wenn sie nemlich in richtiger Ordnung genommen werden.
+Man nehme 1. A und B jedwedes einmahl/
+Darnach 2. die Grössen a und b jedwedes viermahl.
 
-Gege-
+A—

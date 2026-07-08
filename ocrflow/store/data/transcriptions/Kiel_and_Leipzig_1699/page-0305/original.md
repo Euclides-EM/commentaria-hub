@@ -1,38 +1,31 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 287)* -->
-
-Begehrtes.
-
-A : B ⊣ a : b
-
-Vorbereitung.
-
-Man nehme noch eine Grösse nemlich c darzu/welche sich zu a, wie B zu b, verhalte.
-
-c : a | B : b
+<!-- *(Seitenzahl: 281)* -->
 
 Beweiß.
 
 |  |  |  |
 |---|---|---|
-| c : a | B : b | n. Vorber. |
-| A : a | ⊣ B : b | n Gegeb. |
-| A : a | ⊣ c : a | n. Anh. 13. V. |
-| u. A | ⊣ c | n. 10. V. |
-| B | B | |
-| Dw. A : B | ⊣ c : B | n. 8. V. |
-| a : b | c : B | n. 16. V. |
-| Dw. A : B | ⊣ a : b | n. Anh. 13. V. |
+| B : C | a : b | n. Geg. |
+| B : C | c : d | n. Vorb. |
+| Dw. a : b | c : d | n. 11. V. |
+| α a : c | b : d | n. 16. V. |
+| b : c | A : B | n Geg. |
+| c : d | B : C | n. Vorb. |
+| b : d | A : C | n. 22. V. |
+| b : d | a : c | n. Bew. α |
+| Dw. A : C | a : c | |
 
 Beschluß.
 
-Wenn derowegen die I. zu der II. eine grössere Verhältnüß hat/ als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß/ als die II. zu der IV. haben. W. Z. B.
+Werden derowegen Sechs in verwirreter Ebenmaß stehende Grössen auch ein ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
 
-# Der XXIIX. Vortrag.
+# Der XXIV. Vortrag.
 
-Das 28. Beweiß-Stück.
+Das 24. Beweiß-Stück.
 
-Wenn vier Grössen gegeben werden/ deren die Erste zu der Andern eine grössere Verhältnüß hat/ als die Dritte zu der Vierten; So wird auch die Erste mit der Andern zusammen/ zu der Andern eine grössere Verhältnüß / als die Dritte und Vierte zusammen zu der Vierten/ haben.
+Wenn man Sechs Grössen hat/ deren Erste zu der Andern eine solche Verhältnüß hat/ als die Dritte zu der Vierten: darnach auch die Fünffte zu der Andern eine solche Verhältnüß hat / wie die Sechste zu der Vierten: So wird auch die Erste mit der Fünfften zu der Andern/ eine solche Verhältnüß/ wie die Dritte mit der Sechsten zu der Vierten haben.
 
-Gege-
+Nn
+
+A—

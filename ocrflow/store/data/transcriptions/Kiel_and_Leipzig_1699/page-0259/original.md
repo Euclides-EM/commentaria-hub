@@ -1,41 +1,29 @@
-<!-- # Euclidis. -->
+<!-- # Euclidis -->
 
-<!-- *(Seitenzahl: 241)* -->
+<!-- *(Seitenzahl: 235)* -->
 
-## Beweiß.
+XIX. Verwirrete Ebenmässigkeit ist / wenn man drey Grössen in der ersten Ordnung / und eben so viel in der andern Ordnung hat/da die Vorgehende zu der Nachgehenden in der I. Ordnung sich eben so / wie die Vorgehende zu der Nachgehenden in der II. Ordnung hält: Darnach aber die Nachgehende der I. Ordnung zu etwas Anders: wie etwas Anders zu der Vorgehenden in der II. Ordnung.
 
-|  |  |  |  |
-|---|---|---|---|
-| | c | a | |
-| | d | a | n. 2. Vorber. |
-| Dw. | c + d | 2a | n. 2. Gr. I. |
-| | c + d | A | n. 9. Gr. q. I. |
-| α (?) Dw. | A. | 2a | n. 1. Gr. I. |
-| | e | a | |
-| | f | a | |
-| | g | a | n. 6. Vorb. |
-| Dw. | e + f + g | 3a | n. 2. Gr. I. |
-| | e + f + g | C | n. 9. Gr. q. I. |
-| Dw. | C | 3a | n. 1. Gr. I. |
-| und | A + C | 5a | n. 2. Gr. I. |
-| | h. | b | |
-| | k | b | |
-| | h + k | 2b | |
-| | h + k | B | |
-| θ (?) Dw. | B | 2b | |
-| | l | b | |
-| | m | b | |
-| | n | b | |
-| Dw. | l + m + n | 3b | |
-| | l + m + n | D | |
-| Dw. | D | 3b | |
-| β u. | B + D | 5b. | |
+4a : 2a : (a)
 
-## Vorbereitung.
+(4b): 2b : b
 
-1. Es werde die Grösse a sechsmahl/ und
-2. Die Grösse b auch sechsmahl genommen.
+# Der I. Vortrag.
 
-Hh
+## Das 1. Beweiß-Stück.
 
-A
+Wann etliche Grössen (und zwar so viel man derer wil) anderer eben so viel Grössen gleichmässig vielfältige (multiplices) sind/so werden die ersten Grössen alle zusammen genommen/derer Anderen allen zusammen genommenen Grössen eben so vielfältig seyn / als eine derer Ersten zu einer deren Anderen in richtiger Ordnung genommenen Grössen.
+
+## Gegebene.
+
+*[Figur: vier waagerechte Linien verschiedener Länge, bezeichnet A, a, B, b]*
+
+A : a | B : b
+
+## Begehrtes.
+
+A + B : a + b | A : a — B : b
+
+Gg 2
+
+Vor-

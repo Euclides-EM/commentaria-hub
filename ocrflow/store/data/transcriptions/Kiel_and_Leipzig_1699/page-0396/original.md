@@ -1,25 +1,38 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 378)* -->
+<!-- *(Seitenzahl: 366)* -->
 
-*[Figur: oben eine Gestalt K mit den Punkten i und h nebst punctirten Linien, daneben ein Viereck L; darunter ein grosses Viereck mit den Punkten b, n, d, g oben, B, C, A in der Mitte, f, m, o, q, p unten, nebst punctirtem Kreisbogen]*
+üm den Zwerg-strich stehende Viereck so wol dem Gantzen/ als auch unter sich gleichähnlich.
 
-Wirckung.
+Gegebene.
 
-1. Der gegebene Strich AB werde in zween gleiche Theile in C geschnitten. n. 10. I.
+1. □ ADBC
+2. Um den Zwergstrich stehende □ FG und □ HI.
 
-2. Auf die Helffte AC werde ein dem Viereck L ähnliches nebenstrichichtes Viereck Ad gesetzet. n. 18. VI.
+Begehrte.
 
-3. Die Gestalt K werde in ein nebenstrichichtes Viereck hi, welches dem Viereck L gleichwincklicht/ und
+1. □ DC ⎫ ⎧ □ FG
+2. □ DC ⎬ ähnlich ⎨ □ HI
+3. □ FG ⎭ ⎩ □ HI
 
-4. Dessen Seite dem Strich Ac gleichmässig. n. 44. I.
+*[Figur: schiefwinckliges Viereck ADBC mit den Punkten A, F, C oben, G, E, H in der Mitte, D, I, B unten, nebst Diagonale und inneren Linien]*
 
-5. Dem □ Ad werde das □ dg | □ hi beygefüget.
+Beweiß.
 
-6. Die Vierecke Ad + dg werden in ein dem Viereck L ähnliches nebenstrichichtes Viereck qb verwandelt. n. 25. VI.
+DAC ⋀ GAF n. 8. Gr. I.
+ADB ⋀ AGE
+ACB ⋀ AFE n. 29. I.
+DAC ⋀ CBD
+DAC ⋀ GEF n. 34. I.
+CBD ⋀ GEF n. 1. Gr. I.
+Dw.
+u. □ DC gleichwincklicht □ FG
 
-7. Dieses Viereck qb werde an den halben Strich CB also gesetzet/ daß es nicht höher komme/ als der Strich db, so wird ein Ende q unter C fallen. n. 28. VI.
+Gleicher Gestalt ist auch
 
-8. Durch q werde der Nebenstrich mp gegen AB gezogen. n. 31. I.
+□ DC gleichwincklicht □ HI
+GE ⧧ DB n. Geg. u. n. 30. Besch. I.
+Dw. AG : AD | GE : DB n. 2. VI.
+AC ⧧ EH n. Geg.
 
-9. Aus
+Dw.

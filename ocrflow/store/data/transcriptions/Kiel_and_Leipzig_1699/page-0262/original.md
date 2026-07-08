@@ -1,25 +1,44 @@
-<!-- # Das V. Buch -->
+<!-- # Das IV. Buch -->
 
-<!-- *(Seitenzahl: 244)* -->
+<!-- *(Seitenzahl: 238)* -->
 
-tig gegen die Andere / und die Dritte eben so vielfältig gegen die Vierte ist (als nemlich die Erste war gegen die Andere; und man noch nimmt zwo Grössen / deren Erste zu der gegebenen Ersten / und die Andere zu der gegebenen Dritten gleichvielfältig sind: So wird die Erste von denen zwo letzt-genommenen eben so viefältig seyn gegen die Andere (von denen erst gegebenen/) als die Andere von denen Letzt-genommenen ist gegen die Vierte (von denen erst-gegebenen.)
+## Beweiß.
 
-## Gegebene.
-
-*[Figur: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, a, C, B, b, D]*
-
-A : a | B : b
-C : A | D : B
-
-## Begehrtes.
-
-C : a | D : b
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | 3a | A | n. Bew. | ε. |
+| | 3a | 1½a | n. 9. Gr. I. | |
+| Dw. | A | 1½a | n. 1. Gr. c. I. | |
+| | 2A | A | n. 9. Gr. I. | |
+| Dw. | 2A | 1½a | n. 1. Gr. e. I. | |
+| | 3b | B | n. Bew. | θ |
+| | 3b | 1½b | n. 9. Gr. I. | |
+| Dw. | B | 1½b | n. 2. Gr. c. I. | |
+| | 2B | B | n. 9. Gr. I. | |
+| Dw. | 2B | 1½b | n. 1. Gr. e. I. | |
+| κ (?) Und | 2A + 2B | 1½a + 1½b | n. 4. Gr. g. I. | |
 
 ## Vorbereitung.
 
-1. Die Grösse A werde in l, c, d, also getheilet / daß l | a, c | a und d | a werde. n. 3. I.
-2. Deßgleichen werde B in e, f, g, getheilet / daß e | b, f | b und g | b werde. n. 3. I.
-3. Es werde auch C in h, k, m, also getheilet / daß h | A k | A und m | A werde. n. 3. I.
-4. Und D werde in n, p, q, getheilet / daß n | B, p | B q | B werde. n. 3. I.
+1. Zu der Grösse A werde noch die Helffte derselben/
+2. u. zu der Grösse B werde gleichfals die Helffte derselben beygefüget/
+3. a werde fünf mahl/und 4. b auch fünfmahl/ genommen.
 
-I. Be-
+*[Figur: vier waagerechte Linien, bezeichnet 1½A, 5a, 1½B, 5b]*
+
+## III. Beweiß.
+
+|  |  |  |  |  |
+|---|---|---|---|---|
+| | 3a | A | n. Bew. | ε. α |
+| | 1½a | ½A | n. 7. Gr. n. I. | β |
+| | 2a | 1½a | n. 9 Gr. I. | γ |
+| Dw. | 2a | ½A | n. 1. Gr. a. I. | δ |
+| und | 3a + 2a | 1½A (?) | n. 4. Gr. I. | γ |
+| oder | 5a | 1½A | | |
+| | 3b | B | n. Bew. | θ. α |
+| | 1½b | ½B | | β |
+| | 2b | 1½b | | γ |
+| Dw. | 2b | ½B | | δ |
+| und | 5b | 1½B | | γ |
+| λ Dw. | 5a + 5b | 1½A + 1½B | n. 4. Gr. g. I. | |

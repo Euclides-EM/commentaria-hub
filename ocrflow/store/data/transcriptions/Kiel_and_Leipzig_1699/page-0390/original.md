@@ -1,34 +1,36 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 372)* -->
+<!-- *(Seitenzahl: 360)* -->
 
-2. Unter allen an den Strich ab angeschlagenen nebenstrichichten Vierecken/ das an den halben Strich pb angeschlagene Viereck pe grösser/ als alle andere mangelhaffte an den Strich ap angeschlagene Vierecke.
+2. Auch werde zu den Strichen ef und gh und der Dritte ebenmässige Strich q gefunden n. 11. VI. ef : gh | gh : q.
 
-*[Figur: Viereck q, a, p, g unten mit den Punkten d, e, c, i, b, teils mit punctirten Linien gezeichnet]*
+## I. Beweiß.
 
-Vorbereitung.
+ab : cd | ef : gh n. 2. Geg.
+ab : cd | cd : p n. 1. Vorb.
+Dw. ef : gh | cd : p n. 11. V.
+ef : gh | gh : q n 2. Vorb.
+Dw. cd : p | gh : q n. 11. V.
+ab : cd | fe : gh n. 2. Geg.
+Dw. ab : cd : p | fe : gh : q
+u. ab : p | fe : q n. 22. V.
+ab : p = ab : cd n. 10. Besch. V.
+△ aob : △ cdn = ab : cd n. 19. VI.
+Dw. △ aob : △ cdn | ab : p
+u. △ aob : △ cdn | fe : q n. 11. V.
+fe : q = fe : gh n. 10. Besch. V.
+□ el : □ gi = fe : gh n. 20. VI.
+Dw. □ el : □ gi | fe : q
+γ u. △ aob : △ cde | □ el : □ gi n. 11. V.
 
-1. Aus dem Düttel b werde gegen aq ein gerader Nebenstrich be gezogen. n. 31. I.
+## II. Gegebene.
 
-2. Biß zu diesem Strich be werde fortgezogen der Strich qic.
+1. △ aob : △ cnd | □ el : □ gi
+2. △ aob ähnlich △ cnd
+3. □ el ähnlich □ gi
 
-3. Aus p werde auch ein Nebenstrich pd gegen aq gezogen. n. 31. I.
+## II. Begehrtes.
 
-4. Biß zu diesem Strich pd werde aus b durch i der Strich bd gezogen.
+ab : cd | ef : gh.
 
-5. Aus d werde gegen qc ein Nebenstrich biß an den Strich be, nemlich de gezogen. n. 31. I.
-
-6. Endlich werde der Strich gi biß zu dem Strich de verlängert.
-
-Beweiß.
-
-□ pi | □ ie n. 43. I.
-□ gc | □ gc
-Dw. □ pi + □ gc | □ ie + □ gc n. 2. Gr. I.
-oder □ pc | □ ge n. 9. Gr. I. q.
-ap | pb n. 7. Geg.
-Dw. □ pq | □ pc n. 1. VI.
-u. □ pq | □ ge n. 1. Gr. I.
-□ pi | □ pi
-
-Dw.
+II. Beweiß.

@@ -1,27 +1,42 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 275)* -->
+<!-- *(Seitenzahl: 269)* -->
 
-Beweiß.
+# Der XVII. Vortrag.
 
-|  |  |  |
-|---|---|---|
-| a : b | A : B | ⌉ n. Geg. |
-| A | ⊦ C | |
-| B | B | |
-| A : B | ⊦ C : B | n. 8. V. |
-| γ Dw. a : b | ⊦ C : B | n. 13. V. |
-| b : c | B : C | n. Geg. |
-| Dw. c : b | C : B | n. 16. V. |
-| a : b | ⊦ C : B | n. Bew. γ. |
-| Dw. a : b | ⊦ c : b | n. 13. V. |
-| b | b | |
-| und a | ⊦ c | n. 10. V. |
+## Das 17. Beweiß-Stück.
 
-Beschluß.
+Wenn zusammengesetzte Grössen Ebenmässig sind / so werden sie auch zertheilet Ebenmässig bleiben.
 
-Wenn man derowegen drey Grössen hat / und noch drey andere Grössen sind / welche mit denen vorigen in richtiger Ebenmaß stehen; und alsdann die I. der vorigen Ahrt grösser ist / als die III. selbiger Ahrt/ so ist auch die I. der andern Ahrt grösser/als die III. der andern Ahrt; Ist aber die I. der Ersten Ahrt gleich groß oder kleiner/als die III. derselbigen Ahrt / so ist auch die I. der andern Ahrt gleich groß/ oder kleiner/als die III. der Andern Ahrt. W. Z. B.
+Gegebene. | Begehrtes.
 
-Mm 2
+A ________________
+a ______ | A—a : a | B—b : b.
+B __________
+b ____
 
-Der
+*[Figur: Strecken A (mit Theil a), a, B (mit Theil b), b]*
+
+A : a | B : b
+
+## Beweiß.
+
+A : a | B : b — n. Geg.
+Dw. A : B | a : b — n. 16. V.
+a : b | a : b — n. Anh. 7. V.
+Dw. A—a : B—b | a : b — n. 6. V.
+und A—a : a | B—b : b — n. 16. V.
+
+## Beschluß.
+
+Werden derowegen allezeit zusammengesetzte Ebenmässige Grössen/ wenn sie zertheilet werden / auch Ebenmässig bleiben. W. Z. B.
+
+# Der XVIII. Vortrag.
+
+## Das 18. Beweiß-Stück.
+
+Welche Grössen zertheilet Ebenmässig sind/ die werden auch/ wenn sie zusammen gesetzet sind / Ebenmässig bleiben.
+
+Ll 3
+
+Gege-

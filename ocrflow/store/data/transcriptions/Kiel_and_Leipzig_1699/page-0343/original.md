@@ -1,28 +1,34 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 325)* -->
+<!-- *(Seitenzahl: 319)* -->
 
-# Der VII. Vortrag.
+Dw. | ba : cd | ba : CD | n. 7. V.
+1. u. | ba : CD | bc : CE | n. 11. V.
+γ | bc : ce | fd : de | n. 2. VI.
+δ | fd | ac | n. 34. I.
+| DE | DE |
+Dw. | fd : DE | ac : DE | n. 7. V.
+| fd | fd |
+| DE | de | n. 3. Vorb.
+Dw. | fd : DE | fd : de | n. 7. V.
+u. | bc : ce | ac : DE | n. 11. V.
+| CE | ce | n. 2. Vorb.
+2. Dw. | bc : CE | ac : DE | n. 7. V.
 
-## Das 7. Beweiß-Stück.
+| ba : af | bc : ce | n. Bew. α
+| bc : ce | fd : de | n. Bew. γ
+Dw. | ba : af | fd : de | n. 11. V.
+| cd | af | n. Bew. β
+| fd | ac | n. Bew. δ
+Dw. | ba : cd | ac : de | n. Anh. 7. V.
+| DC | cd |
+| de | DE | n. 3. Vorb.
+Dw. | ba : DC | ac : DE | n. Anh. 7. V.
 
-Wenn zwey Dreyecke sind / da des einen Winckel einem des andern Dreyeckes Winckel gleichmässig ist / die übrigen Winckel aber von ebenmässigen Seiten begriffen werden; Solcher beeden Winckel auch jeder entweder kleiner / oder nicht kleiner / als ein rechter Winckel ist : So werden solcher Dreyecke Winckel / welche von ebenmässigen Seiten begriffen werden / gleichgroß / die Dreyecke auch selbst gleichwincklicht seyn.
+*[Figur: kleines Dreieck, blass im Hintergrund der Tabelle]*
 
-I. Gegebene.
+Beschluß.
 
-1. Zwey Dreyecke abc, def.
-2. bac ⋏ edf
-3. cba ⋏̸ ∟ (?)
-4. def ⋏̸ ∟ (?)
-5. ac : cb | df : fe.
+So stehen derowegen aller gleichwincklichten Dreyecke Seiten in ebenmässiger Verhällnüß / so ferne sie gleichmässige Winckel einschrencken / oder gleichmässigen Winckeln gegen über stehen. W. Z. B.
 
-Begehrte.
-
-abc ⋏ def
-acb ⋏ dfe
-△ abc gleichwincklicht △ def.
-
-*[Figur: zwei Dreiecke, links def, rechts abc mit punktierter Linie von g nach c]*
-
-Ss 3
-Vorbe-
+Der

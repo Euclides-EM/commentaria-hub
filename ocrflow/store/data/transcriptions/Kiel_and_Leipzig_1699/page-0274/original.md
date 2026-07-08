@@ -1,41 +1,27 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 256)* -->
+<!-- *(Seitenzahl: 250)* -->
 
-# Der IX. Vortrag.
+## Beschluß.
 
-## Das 9. Beweiß-Stück.
+Wann derowegen das I. Gantze zu dem II. Gantzen sich also verhält / wie das von dem Ersten Gantzen abgenommene / zu dem vom Andern abgenommenen; So wird auch das Erste übergebliebene zu dem Andern übergebliebenen sich also / wie das Erste Gantze zu dem Andern Gantzen verhalten.
 
-Welche Grössen zu einer einigen Grösse gleiche Verhältnüß haben / dieselbigen sind gleich groß; Und zu welchen Grössen eine einige Grösse gleiche Verhältnüß hat / dieselbigen sind gleich groß.
+# Der VI. Vortrag.
 
-## Gegebene. — Begehrtes.
+## Das 6. Beweiß-Stück.
 
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+Wenn zwo Grössen zweyer Andern Grössen gleichvielfältig sind; darnach zwey von denen Ersten Grössen abgenommene Stücke auch so vielfältig zu denen zwo Andern Grössen sind: So werden die übergebliebene Stücke denen andern zwo Grössen gleich an Grösse / oder gegen dieselben gleichvielfältig seyn.
 
-A : a | B : a — A | B.
+## Gegebene. — Begehrte.
 
-## Beweiß.
+*[Figur: Vier waagerechte Linien mit Teilstrichen, bezeichnet A, a, B, b]*
 
-A | 3a
-B | 3a — n. Gegebene.
-Dw. A | B — n. 6. Gr. I.
+A—c | a
+B—d | b
 
-Oder also:
+1 A | 5a
+2 c | 4a
+3 B | 5b
+4 d | 4b
 
-Wenn A ⊣ B — so muß
-auch A : a ⊣ B : a — n. 8. V.
-ist aber A ⊢ B — so muß
-A : a ⊢ B : a — n 8. V.
-
-Beedes aber ist wider das Gegebene: müssen derowegen A und B gleichgroß seyn.
-
-## Beweiß des II. Theils.
-
-## Gegebene. — Begehrtes.
-
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
-
-a : A | a : B — A | B
-B
-
-Beweiß.
+I. Beweiß.

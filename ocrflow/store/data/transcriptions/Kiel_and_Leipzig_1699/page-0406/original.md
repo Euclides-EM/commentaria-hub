@@ -1,37 +1,33 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 388)* -->
+<!-- *(Seitenzahl: 376)* -->
 
-## I. Begehrte.
+Beweiß.
 
-∧ bac : ∧ feg | ⌒ bc : ⌒ fg.
-∧ bdc : fhg | ⌒ bc : ⌒ fg.
-△ bdc : △ fhg | ⌒ bc : ⌒ fg.
+□ no | □ Eg — △ X n. 11. Wirck.
+□ no + △ X | □ Eg n. 2. Gr. I.
+□ no + ⊾ Epg | □ Eg n. 9. Gr. I. q.
+Dw. □ no + ⊾ Epg | □ no + △ X n. 1. Gr. I.
+α u. ⊾ Epg | △ X n. 3. Gr. I.
+□ Ep | □ gp n. 43. I.
+□ sr | □ sr
+Dw. □ Ep + □ sr | □ gp + □ sr n. 2. Gr. I.
+oder □ Er | □ gs n. 9. Gr. I. q.
+□ Er | □ An n. 36. I.
+Dw. □ An | □ gs n. 1. Gr. I.
+□ Ep | □ Ep
+Dw. □ An + □ Ep | □ gs + □ Ep n. 2. Gr. I.
+oder □ Ap | ⊾ Epg n. 9. Gr. I. q.
+△ X | ⊾ Epg n. Bew. α.
+Dw. △ X | □ Ap n. 1. Gr. I.
 
-*[Figur: zwei punktierte Kreise mit einbeschriebenen Linien und Dreiecken; links die Punkte a, m, d, i, c, b; rechts die Punkte e, l, h, k, f, g]*
+welches angeschlagen ist an den Strich AB also/ daß überbleibe □ sr, welches ähnlich dem □ Eg n. 26. VI.
 
-## Vorbereitung.
+□ Eg ähnlich □ D n. 3. Wirck.
+Dw. □ sr ähnlich □ D n. 21. VI.
 
-1. Es werden die beyden geraden Striche bc und fg gezogen.
+Beschluß.
 
-2. Werden dem Kreyß abm die beyden geraden Striche ci und im eingefüget. n. 1. IV.
+Ist also an den Strich AB ein mangelhafftes □ Ap, welches gleichmässig dem △ X angeschlagen ulso/ daß das mangelende □ sr dem □ D ähnlich sey. W. Z. M.
 
-3. Welche dem Strich bc gleichmässig.
-
-bc | ci
-bc | im
-
-4. Es werden auch dem Kreyß efm eingefüget die Striche gk und kl. n. 1. IV.
-
-5.
-
-gk | fg
-kl | fg
-
-6. Aus dem Mittel-Düpffel d werden die geraden Striche di und dm, und
-
-7. Aus dem Mittel-Düpffel h werden auch zween Striche hk und hl.
-
-8. Desgleichen die geraden Striche bi und fl gezogen.
-
-I. Beweiß.
+Der

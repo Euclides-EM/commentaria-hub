@@ -1,48 +1,28 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 253)* -->
+<!-- *(Seitenzahl: 247)* -->
 
-## Gegebene. — Begehrtes.
+*[Figur: Sechs waagerechte Linien mit Teilstrichen, bezeichnet A, 10a, C, B, 10b, D]*
 
-*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+## III. Beweiß.
 
-A | B — a : A | a : B
-a | 4A
-a | 4B
+9a | C — n. Bew. α
+9a ⊢ 10a — n. 9. Gr. I.
+κ Dw. 10a ⊣ C — n. 1. Gr. c. I.
+9b | D — n. Bew. β
+9b ⊢ 10b — n. 9. Gr. I.
+λ Dw. 10b ⊣ D — n. 1. Gr. c. I.
+Weil nun (1) C | 9a — n. Bew. α
+und D | 9b — n. Bew. β
+(2) 2C ⊣ 4a — n. Bew. γ
+und 2D ⊣ 4b — n. Bew. φ
+(3) 10a ⊣ C — n. Bew. κ
+und 10b ⊣ D — n. Bew. λ
 
-## II. Beweiß.
-
-a | a
-A | B
-4A | 4B — n. Geg.
-Dw. a : 4A | a : 4B
-Und a : A | a : B — n. 7. Besch. V.
+Derowegen muß auch C : a | D : b — n. 6. Beschr. V.
 
 ## Beschluß.
 
-Sind derowegen gleiche Grössen gegen eine Grösse allezeit gleichvielfältig: Und eine einige Grösse ist gegen zwo (oder mehr) gleiche Grössen auch gleichvielfältig. W. Z. B.
+Wenn derowegen vier Grössen gegeben werden / deren Erste zu der Andern sich also / wie die Dritte zu der Vierten verhält: und noch zwo Grossen darzu genommen werden / da die Fünffte zu der Ersten sich also verhält / wie die Sechste zu der Vierten / so muß die Fünffte zu der Andern sich also verhalten / wie die Sechste zu der Vierten/ W. Z. B.
 
-## Anhang.
-
-Ebener Gestalt sind gleichgrosse Grössen gegen gleichgrosse Grössen gleichvielfältig.
-
-## Gegebene. — Begehrte.
-
-A B — A : B | a : b
-a / b
-
-## Beweiß.
-
-A | B
-a | b — n. Gegeb.
-A : a | B : b — n. 7. Besch. V. W. Z. B.
-
-# Der VIII. Vortrag.
-
-## Das 8. Beweiß-Stück.
-
-Von ungleichen Grössen ist die Grössere gegen eine einige
-
-Ji 3
-
-Grösse
+Der

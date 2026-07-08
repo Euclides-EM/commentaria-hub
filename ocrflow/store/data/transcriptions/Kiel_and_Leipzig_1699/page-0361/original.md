@@ -1,35 +1,40 @@
-<!-- *(Seitenzahl: 343)* -->
+<!-- *(Seitenzahl: 337)* -->
 
 <!-- # Euclidis. -->
 
-II. Vorbereitung ist wie die I. Vorher.
+*[Figur: Strich A—C—B; darunter ein Winkel aus a mit den Punkten c, d oben und b, e, f auf dem unteren Schenkel]*
 
-## II. Beweiß.
+## Wirckung.
+
+1. Man ziehe den Strich af.
+2. Von diesem Strich werde abgeschnitten
+ab ⊤ AB
+3. Deßgleichen be ⊤ AC   n. 3. I.
+4. Aus a werde nach belibigem Winckel gezogen der Strich
+ad
+5. Von diesem Strich werde abgeschnitten
+ac ⊤ AC   n. 3. I.
+6. Es werde der Strich bc gezogen.
+7. Aus e werde gegen den Strich bc der gerade Nebenstrich ed gezogen n. 31. I.
+
+## Beweiß.
 
 |  |  |  |
 |---|---|---|
-|  | ab : eh ⊤ fe : db | n. 4. Geg. |
-| oder | AB : BI ⊤ FE : EB | n. Anh. 7. V. |
-|  | AB : BI ⊤ □ AD : □ EI | n. 1. VI. |
-| Dw. | FE : EB ⊤ □ AD : □ EI | n. 11. V. |
-|  | FE : EB ⊤ □ FH : □ EI | n. 1. VI. |
-| Dw. | □ AD : □ EI ⊤ □ FH : □ EI | n. 11. V. |
-|  | □ EI ⊤ □ EI |  |
-| Dw. | □ AD ⊤ □ FH | n 9. V. |
-| oder | □ ad ⊤ □ fh | n 1. Vorb. |
+|  | bc ⊤ ed | n. 7. Wirck. |
+| Dw. | ab : be ⊤ ac : cd | n. 2. VI. |
+|  | ac ⊤ be | n. 5. Wirck. |
+|  | ab ⊤ ab |  |
+| Dw. | ab : ac ⊤ ab : be | n. 7. V. |
+| u. | ab : ac ⊤ ac : cd | n. 11. V. |
+| oder | AB : AC ⊤ AC : cd | n. Anh. 7. V. |
+
+Dw. ist ce der dritte ebenmässige Strich.
 
 ## Beschluß.
 
-Wenn derowegen gleichmässige oder gleichgrosse Nebenstrichichte Vierecke / welche einen gleichmässigen Winckel haben/ gegeben werden/ so haben dieselben auch bey den gleichmässigen Winckeln wechselmässige Seiten.
+Ist also zu denen zweyen geraden Strichen ab und ac, oder AB und AC, der Dritte ebenmässige Strich cd gefunden. W. Z. M.
 
-Und welche Vierecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ die sind gleichmässig oder gleichgroß. W.Z.B.
+Uu
 
-# Der XV. Vortrag.
-
-## Das 10. Beweiß-Stück.
-
-Gleichmässige/ und einen gleichmässigen Winckel habende Dreyecke/ haben auch bey dem gleichmässigen Winckel wechselmässige Seiten.
-
-Und welche Dreyecke bey gleichmässigen Winckeln wechselmässige Seiten haben/ dieselben sind gleichmässig.
-
-I. Gegebene.
+Der

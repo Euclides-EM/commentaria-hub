@@ -1,42 +1,45 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 269)* -->
-
-# Der XVII. Vortrag.
-
-## Das 17. Beweiß-Stück.
-
-Wenn zusammengesetzte Grössen Ebenmässig sind / so werden sie auch zertheilet Ebenmässig bleiben.
+<!-- *(Seitenzahl: 263)* -->
 
 Gegebene. | Begehrtes.
 
-A ________________
-a ______ | A—a : a | B—b : b.
-B __________
+A ________ | A : a ⊣ C : c
+a ____
+B ________
 b ____
+C ________
+c ____
 
-*[Figur: Strecken A (mit Theil a), a, B (mit Theil b), b]*
+*[Figur: Strecken A, a, B, b, C, c]*
 
-A : a | B : b
+1. A : a | B : b
+2. B : b ⊣ C : c
 
 ## Beweiß.
 
-A : a | B : b — n. Geg.
-Dw. A : B | a : b — n. 16. V.
-a : b | a : b — n. Anh. 7. V.
-Dw. A—a : B—b | a : b — n. 6. V.
-und A—a : a | B—b : b — n. 16. V.
+Wenn A : a | C : c — n. Genom.
+und A : a | B : b — n. Gegeb.
+so muß B : b | C : c — n. 11. V.
 
-## Beschluß.
+Welches wider das andere Gegebene.
 
-Werden derowegen allezeit zusammengesetzte Ebenmässige Grössen/ wenn sie zertheilet werden / auch Ebenmässig bleiben. W. Z. B.
+Wenn aber A : a ⊢ C : c — n. Genom.
+und A : a | B : b — n. Gegeb.
+so muß B : b ⊢ C : c — welches wider das Gegeb.
 
-# Der XVIII. Vortrag.
+Weil dieser letzte Schluß nicht schlechter Dinges kan bestätiget werden/ So
 
-## Das 18. Beweiß-Stück.
+## Vorbereitung.
 
-Welche Grössen zertheilet Ebenmässig sind/ die werden auch/ wenn sie zusammen gesetzet sind / Ebenmässig bleiben.
+Nehme man A, wie auch C zweymahl.
+Die Grössen a und c aber dreymahl.
 
-Ll 3
+2A ________________
+3a ____________
+2C ________________
+3c ________________
 
-Gege-
+*[Figur: Strecken 2A, 3a, 2C, 3c]*
+
+Beweiß.

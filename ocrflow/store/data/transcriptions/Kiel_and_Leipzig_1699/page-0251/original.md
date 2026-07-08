@@ -1,39 +1,39 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 233)* -->
+<!-- *(Seitenzahl: 227)* -->
 
-XI. Verhältniß-ähnliche (Homologæ s. similes ratione) Grössen werden genennet die in der Ebenmaß stehende Vorgehende zu den Vorgehenden/u Nachgehende zu den Nachgehenden Grössen.
+Beweiß.
 
-3a : 3b | a : b
+cb | ca
+ab | ca — n. 15. Besch. I.
+Dw. — ab | cb — n. 1. Gr. I.
+u. — abc | gleichseitig △ — n. 23. Besch. I
+Dw. — acb ∧ abc ∧ bac — n. 8. I.
+u. — acb ∧ ⅓ ⌓ — n. 32. I.
+bac ∧ cad — n. 8. I.
+bac + cad + dae ∧ ⌓ — n. 13. I.
+bac | ⅓ ⌓
+cad | ⅓ ⌓
+Dw. — dae | ⅓ ⌓ — n. 3. Gr. I.
+bac ∧ fae
+cad ∧ fag
+dae ∧ bag — n. 15. I.
+Dw. — bac ∧ cad ∧ dae ∧ fae ∧ fag ∧ bag, n. 11. Gr. I.
+α. u. — bc ⌒ cd ⌒ de ⌒ fe ⌒ fg ⌒ bg — n. 26. III.
+u. — bc | cd | de | fe | fg | bg — n. 29. III.
+bc ⌒ de — n. Bew. α.
+efgb ⌒ efgb
+Dw. — efgb + bc ⌒ de + efgb — n. 1. Gr. I.
+u. — cde ∧ bcd — n. 27. III.
+Gleicher Weise cde ∧ def ∧ efg ∧ fgb ∧ gbc
 
-3a und a) 3b und b) verhältniß-ähnliche Grössen.
+Dw. ist das Sechßeck bcdefg gleichseitig und gleichwincklicht/
+und dem gegebenen Kreyß eingeschrieben/ n. 3. Beschr. IV.
 
-XII. Verwechselte Verhältnissen sind/ wenn man die Erste Vorhergehende gegen die Andere Vorgehende/ und die Erste Nachgehende gegen die Andere Nachgehende hält.
+Beschluß.
 
-3a : 3b | a : b
+Ist also dem gegebenen Kreyß ein gleichseitig und gleichwinck-
+licht Sechßeck eingeschrieben. W Z. M.
 
-3a : a | 3b . b.
-
-XIII. Verkehrte Verhältniß ist/wenn man die Nachgehenden an die Stelle der Vorgehenden/ und die Vorgehenden an die Stelle der Nachgehenden setzet.
-
-3a : 3b | a : b
-
-3b : 3a | b : a.
-
-XIV. Zusammen gesetzte Verhältniß entstehet/wenn man die Vorgehende und Nachgehende zusammen nimt/ und gegen die Nachgehenden hält.
-
-3a : 3b | a : b
-
-3a + 3b : 3b | a + b : b.
-
-XV. Zertheilte Verhältniß ist/wenn man den überschuß / womit die Vorgehenden die Nachgehenden übertreffen/ gegen die Nachgehenden hält.
-
-6a : 4a | 3a : 2a
-
-6a — 4a : 4a | 3a — 2a : 2a
-
-oder 2a : 4a | a : 2a.
-
-Gg
-
-XVI. Ver-
+Ff 2
+I. An-

@@ -1,33 +1,34 @@
-<!-- *(Seitenzahl: 311)* -->
+<!-- *(Seitenzahl: 305)* -->
 
 <!-- # Euclidis. -->
 
-# Begehrtes.
-
-Grundstriche ab | ef.
-
-*[Figur: Zwei Dreyecke A und B mit den Punkten a, g, b, c, d, e, f, links das Dreyeck A über der Grundlinie a g b, rechts das Dreyeck B über e f, mit gestrichelten Hülffslinien]*
-
-# Vorbereitung.
-
-Wenn ab ⊣ ef — so mache man
-bg | ef — n. 3. I.
-
-und ziehe den Strich cg.
-
 # Beweiß.
 
-bg | ef — n. Vorb.
-Dw. bc : ed | △ gbc : △ B — n. 1. VI.
-bc : ed | △ abc : △ B — n. Gegeb.
-Dw. △ gbc : △ B | △ abc : △ B — n. 1. V.
-u. △ gbc | △ abc oder △ A — n. 14. V.
+eu | ab — n. 5. Vorb.
+fq | cq — n. 3. Geg.
+Dw. efu △ acb — n. 38. I.
+△ efd + △ dfl + △ lfu | △ efu — n. 9. Gr. q. I.
+oder 3 △ efd | △ efu
+∝ Dw. 3 △ efd | △ abc — n. Gr. I.
+ab | 3de — n. 4. Geg.
+△ acb — △ acb
+Dw. ab : △ acb | 3de : △ acb — n. 7. V.
+3de | 3de
+3 △ efd — △ abc n. Bew. ∝
+Dw. 3de : 3 △ efd | 3de : △ abc — n. 7. V.
+u. 3de : 3 △ efd | ab : △ abc — n. 11. V.
+de : △ efd | 3de : 3 △ efd — n. 15. V.
+Dw. de : △ efd | ab : △ abc — n. 11. V.
+β u. de : ab | △ efd : △ abc — n. 16. V.
 
-Welches aber unmüglich n. 9. Gr. I.
-Eben dergleichen würde folgen/ wenn man sagen wolte
+# Beschluß.
 
-ab ⊢ ef
+Alle Dreyecke/ welche gleichmässige Höhen haben / verhalten sich also/ wie ihre Grundstriche gegen einander. W. Z. B.
 
-Gleicher Gestalt kan auch erwiesen werden/ daß derer nebenstrichichten Vierecke/ welche sich also/ wie ihre Höhen gegen einander verhalten/ ihre Grundstriche gleicher Grösse seyn müssen. W. Z. B.
+# Des I. Vortrags II. Gegebene.
 
-Der
+1. Zwey nebenstrichichte Vierecke ln. und hk.
+2. Gleichmässige Höhen rm|kg.
+
+Qq
+Begehrtes.

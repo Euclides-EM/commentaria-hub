@@ -1,31 +1,36 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 284)* -->
+<!-- *(Seitenzahl: 278)* -->
+
+III. Gegebene.
+
+*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+
+A : B | b : c
+B : C | a : b
+A ⊦ C
+
+Begehrtes.
+
+a ⊦ c
 
 Beweiß.
 
 |  |  |  |
 |---|---|---|
-| A : B | a : b | n. Geg. |
-| Dw. A : a | B : b | n. 16. V. |
-| u. A—a : a | B—b : b | n. 19. V. |
-| Dw. A—a : B—b | a : b | n. 16. V. |
-| u. A—a : B—b | A : B | n. 11. V. |
-| A | ⊣ B | n. Geg. |
-| Dw. A—a | ⊣ B—b | n. 14. V. |
-| oder c | ⊣ d | |
-| e | B | ⌉ n. Vorber. |
-| b | f | |
-| c + e + b | ⊣ B + f + d | n. 4. Gr. I. |
-| A | c + e | n. 9. Gr. q. I. |
-| c + e + A + b | ⊣ B + f + d + c + e | n. 4. Gr. I. |
-| A + b | ⊣ B + f + d | n. 5. Gr. I. |
-| f + d | a | n. 9. Gr. q. I. |
-| f + d + A + b | ⊣ B + a + f + d | n. 4 Gr. I. |
-| A + b | ⊣ B + a | n. 5. Gr. I. |
+| b : c | A : B | ⌉ n. Geg. |
+| A : | ⊦ C | |
+| B | B | |
+| Dw. A : B | ⊦ C : B | n. 8. V. |
+| u. b : c | ⊦ C : B | n. Anh. 13. V. |
+| a : b | B : C | n Gegeb. |
+| Dw. ⌠ b : a | C : B | n. 16. V. |
+| u. b : a | ⊣ b : c | n. 13. V. |
+| b | b | |
+| Dw. a ⊦ | c | n. 10. V. |
 
 Beschluß.
 
-Werden demnach allezeit aus vier Ebenmässigen Grössen die Grösseste und Kleineste zusammen grösser seyn / als die übrigen beeden zusammen. W. Z. B.
+Wenn derowegen Sechs Grössen in verwirreter Ebenmaß stehen/ und die I. grösser ist / als die III. so wird auch die IV. grösser seyn/ als die VI. Ist aber die I. eben so groß/als die III. so ist auch die IV. eben so groß/als die VI. Und wenn die I. kleiner ist/als die III. so ist auch die IV. kleiner/als die VI. W. Z. B.
 
-Anmer-
+Der

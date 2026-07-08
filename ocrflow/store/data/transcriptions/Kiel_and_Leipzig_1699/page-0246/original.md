@@ -1,36 +1,36 @@
 <!-- # Das IV. Buch -->
 
-<!-- *(Seitenzahl: 228)* -->
+<!-- *(Seitenzahl: 222)* -->
 
-I. Anhang.
+u. — gca ∧ hca
+u. — cag ∧ cah — n. 4. I.
+α. Dw. — gab ∧ 2gac — n. 9. Gr. q. I.
+Gleicher Weise — gal ∧ 2gab
+gh | gl — n. 1. Wirck.
+Dw — gh ⌒ gl — n. 28. III.
+u. — gab ∧ gal — n. 26. III.
+gac ∧ gab — α. n. 7. Gr. n. I.
+cga ∧ bga — n. 10. Gr. I.
+ga | ga
+Dw. — gca ∧ gba — n. 26. I.
+u. — gc | bg — n. 4. I.
+Gleicher Weise gb | bl | lf | fk | ke | ei | id | dh | hc | cg
+und — gb + gc | bc
+dh + hc | cd — n. 9. Gr. q. I.
+Dw. — bc | cd | de | ef | fb — n. 2. Gr. I.
+Deßgleiche gba ∧ lba ∧ lfa ∧ kfa ∧ kea ∧ iea
+u. — iea ∧ ida ∧ hda ∧ hca ∧ gca ∧ gba
+gba + lba ∧ gal
+lfa + kfa ∧ lak — n. 9. Gr. q. I.
+Dw. gal ∧ lak ∧ kai ∧ iah ∧ hag — n. 2. Gr. I.
+u. — bcdef ein gleichseitig und gleichwincklicht Fünffeck /
+n. 22. Beschr. I.
+Welches ümb den gegebenen Kreyß ghikl beschrieben/
+n. 4. Beschr. I.
 
-Hierauß erhellet / daß die Seiten des Sechseckes eben so
-groß seyn / als der Strahl oder halbe Durchschlag des Kreyses /
-welchem das Sechseck eingeschrieben ist.
+Beschluß.
 
-II. Anhang.
+Ist also ein gleichseitiges und gleichwincklichtes Fünffeck umb
+den gegebenen Kreyß beschrieben. W. Z. M.
 
-Fast auff gleiche Weise kan ein gleichseitiges Dreyeck einem
-gegebenen Kreyß eingeschrieben werden.
-
-*[Figur: zwei sich schneidende Kreise; im rechten Kreis ein einbeschriebenes Dreyeck b e d mit Mittelpunkt e und Punkt f als Mittelpunkt des linken Kreises, punktierte Bögen durch o und d]*
-
-Wirckung.
-
-1. Aus f wird ein Kreyß nach der Weite fe dem gegebenen Krey-
-se eingeschrieben / welcher den gegebenen Kreyß in denen Dütteln
-e und o schneidet.
-2. Aus e und o werden nach selbiger Weite zwey Kreyßstücke
-gemacht /welche den Kreyß in d und b schneiden.
-3. Werden die Striche fd und fb gezogen.
-4. Wird der Strich db gezogen.
-
-Beweiß.
-
-fe ⌒ fo
-ed ⌒ ob — n. 15. IV.
-Dw. — fe + ed ⌒ fo + ob — n. 2. Gr. I.
-u. — fd ⌒ fb — n. 9. Gr. q. I.
-Dw. — fd | fb — n. 29. III.
-
-Dw-
+Der

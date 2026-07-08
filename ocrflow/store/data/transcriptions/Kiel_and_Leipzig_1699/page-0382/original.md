@@ -1,28 +1,33 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 364)* -->
+<!-- *(Seitenzahl: 352)* -->
 
-ben eine solche Verhältnüß zu einander / welche aus ihrer Seiten Verhältnüssen zusammen gesetzet ist.
+Dw. ist cdefg ähnlich der Gestalt abhik, und eben so gesetzet n. 1. Beschr. VI.
 
-Gegebene.
+## Beschluß.
 
-1. Nebenstrichichte Vierecke ao, und df.
-2. □ ac gleichwincklicht dem □ df.
+Ist also ein dem gegebenen Fünfeck abhik, ähnliches und eben so gesetztes Fünfeck cdefg auf den gegebenen Strich cd gesetzet. W. Z. M.
 
-Begehrtes.
+## Des XIIX. Vortrags Anhang.
 
-□ ac : □ df | ad, dc : gd, de.
+Vortheilhafftiger kan dieser Aufgabe ein Genügen geschehen/ wenn
 
-*[Figur: zwey aneinander gefügte Vierecke mit den Punkten b, c, h, a, d, g, e, f nebst den Linien i, k, l; darunter zwey Dreiecksfiguren mit punctirten Linien und den Buchstaben k, g, l, c, d, k, e, d]*
+1. aus dem Winckel A zu denen gegenstehenden Winckeln C D E gerade Striche gezogen werden.
 
-Vorbereitung.
+2. Dem gegebenen geraden Strich ab ein gleichmässiger von der Seiten AB abgeschnitten wird n. 3. I.
 
-1. Werden die beyden Vierecke bey dem Winckel d also zusammen gefüget/ daß ad und dg, wie auch cd und de zween gerade Striche machen.
+3. Aus | b gegen | BC ein Nebenstrich | bc,
+4. | c | CD | cd,
+5. | d | DE | de,
+6. | e | EF | ef gezogen wird n. 31. I.
 
-2. Die Seiten bc und fg werden fort gezogen/ biß sie in h zusammen kommen.
+*[Figur: Sechseck ABCDEF mit einwärts liegendem ähnlichen Sechseck abcdef; von A gehen punktierte Striche zu den Ecken; oben der Strich A a—b B]*
 
-3. Werden zween gerade Striche i und k, gefunden/ welche eben solche Verhältnüß haben / als ad : dg.
+## Beweiß.
 
-ad : dg | i : k, n. 12. VI.
+BC ∓ bc n. 3. W.
+Dw. ACB ⋏ acb
+u. ABC ⋏ abc n. 29. I.
+CAB ⋏ cab n 8. Gr. I.
 
-4. Werde
+Dw.

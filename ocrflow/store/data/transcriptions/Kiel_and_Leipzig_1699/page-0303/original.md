@@ -1,33 +1,35 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 285)* -->
+<!-- *(Seitenzahl: 279)* -->
 
-Anmerckung.
+# Der XXII. Vortrag.
 
-Dieses ist der letzte Vortrag des V. Buchs Euclidis, die Nachfolgenden sind aus dem Pappo Alexandrino entlehnet/ weil sie öffters von den besten Mathematicis, um etwas darmit zu beweisen / angezogen werden.
+Das 22. Beweiß-Stück.
 
-# Der XXVI. Vortrag.
-
-Das 26. Beweiß-Stück.
-
-Wenn man vier Grössen hat / deren Erste zu der Andern eine grössere Verhältnüß hat/als die Dritte zu der Vierten: So wird auf umgekehrte Weise die Andere zu der Ersten eine kleinere Verhältnüß/ als die Vierte zu der Dritten/ haben.
+Es werden Grössen gegeben so viel man wil/ und werden eben so viel darzu genommen/ welche mit denen Ersten in richtiger Ordnung stehen; So werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
 
 Gegebene.
 
-*[Figur: fünf Linien A, a, B, b, c von verschiedener Länge am linken Rand]*
+*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
 
-A : a ⊣ B : b
+1. A : B : C | a : b : c
+2. A : B | a : b :
+3. B : C | b : c
 
 Begehrtes.
 
-a : A ⊦ b : B
-
-Vorbereitung.
-
-Man nehme darzu eine Grösse c, zu welcher sich B also verhalte/wie A zu a.
-
-B : c | A : a.
-
-Nn 3
+A : C | a : c
 
 Beweiß.
+
+|  |  |  |
+|---|---|---|
+| B : C | b : c | n. 3. ⌉ Geg. |
+| A : B | a : b | n. 2. ⌡ |
+| Dw. A : C | a : c | n. 3. V. |
+
+Beschluß.
+
+Wenn derowegen zweyerley Ahrt Grössen gegeben werden/ welche in richtiger Ordnung Ebenmässig sind/ so müssen sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
+
+Der

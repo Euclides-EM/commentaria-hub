@@ -1,35 +1,47 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 279)* -->
+<!-- *(Seitenzahl: 273)* -->
 
-# Der XXII. Vortrag.
+## I. Gegebene.
 
-Das 22. Beweiß-Stück.
+A ________ | A : B : C
+B ______ | a : b : c
+C ____
+a ______ | A : B | a : b
+b ____ | B : C | b : c
+c __ | A ⊣ C
 
-Es werden Grössen gegeben so viel man wil/ und werden eben so viel darzu genommen/ welche mit denen Ersten in richtiger Ordnung stehen; So werden sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben.
+*[Figur: Strecken A, B, C, a, b, c]*
 
-Gegebene.
+## Begehrtes.
 
-*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+a ⊣ c
 
-1. A : B : C | a : b : c
-2. A : B | a : b :
-3. B : C | b : c
+## Beweiß.
 
-Begehrtes.
+a : b | A : C
+A ⊣ C — n. Geg.
+B | B
+Dw. A : B ⊣ C : B — n. 8. V.
+α und a : b ⊣ C : B — n. 13. V.
+b : c | B : C — n. Geg.
+c : b | C : B — n. 16. V.
+a : b ⊣ C : B — n. Bew. α
+Dw. a : b ⊣ c | b — n. 13. V.
+b | b
+u. a ⊣ c — n. 10. V.
 
-A : C | a : c
+## II. Gegebene.
 
-Beweiß.
+A ________________ | A : B | a : b
+B ______ | B : C | b : c
+C ________________ | A | C
+a ______
+b ____
+c ______
 
-|  |  |  |
-|---|---|---|
-| B : C | b : c | n. 3. ⌉ Geg. |
-| A : B | a : b | n. 2. ⌡ |
-| Dw. A : C | a : c | n. 3. V. |
+*[Figur: Strecken A, B, C, a, b, c]*
 
-Beschluß.
+Mm
 
-Wenn derowegen zweyerley Ahrt Grössen gegeben werden/ welche in richtiger Ordnung Ebenmässig sind/ so müssen sie auch eine ebenmässige Verhältnüß aus der Gleichheit haben. W. Z. B.
-
-Der
+Begehr-

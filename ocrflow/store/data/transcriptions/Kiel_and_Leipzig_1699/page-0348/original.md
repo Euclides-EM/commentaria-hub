@@ -1,32 +1,34 @@
-<!-- *(Seitenzahl: 330)* -->
+<!-- *(Seitenzahl: 324)* -->
 
 <!-- # Das VI. Buch -->
 
-Gegebene.
-
-1. Der gerade Strich ac.
-2. Der begehrte Theil/und zwar allhier 1/6.
-
-Begehrtes.
-
-Der sechste Theil ec des Striches ac.
-
-*[Figur: Dreieck aus dem Strich ac und dem schräg gezogenen Strich af mit den Punkten d, b, f; punktierte Linien verbinden die Theilpunkte mit der Grundlinie, darauf e nahe c]*
-
-Wirckung.
-
-1. Aus einem der beyden Endcüttele des Striches ac werde der Strich af nach Nothdurfft gezogen.
-2. Auf diesen Strich af werden aus a ordentlich nacheinander sechs gleiche Theile gesetzet n. 3. I.
-3. Aus dem Düttel b, wo der letzte Sechste Theil sich endet/ werde biß c ein gerader Strich bc gezogen.
-4. Aus dem Düttel d, wo das letzte Sechste Theil anfänget/ wird biß an den Strich ac gegen bc ein gerader Nebenstrich de gezogen. n. 31. I.
-
 Beweiß.
 
-| de ⧣ bc | n. 4. Werck.
-Dw. | ad : db | ae : ec | n. 2. VI.
-| ad + db : db | ae + ec : ec | n. 18. V.
-oder | ab : db | ac : ec | n. 9. Gr. q. I.
-| ab | 6 |
-| db | 1 | n. 2. Wirck.
+deg ⋏ bac
+gde ⋏ abc   n. Vorber.
+α Dw. | egd ⋏ acb | n. 26. I.
+u. | ba : ac | de : eg | n. 4. VI.
+| ba : ac | de : ef | n. 3. Geg.
+Dw. | de : ef | de : eg | n. 11. V.
+β u. | ef | eg | n. 9. V.
 
-Dw.
+| deg ⋏ bac | n. Vorber.
+| def ⋏ bac | n. Geg.
+Dw. | deg ⋏ def | n. 1. Gr. I.
+| ef | eg | n. Bew. β.
+| de | de |
+Dw. | ef + de | eg + de | n. 2. Gr. I.
+u. | egd ⋏ efd |
+γ u. | gde ⋏ edf | n. 4. I.
+| egd ⋏ acb | n. Bew. α
+Dw. | acb ⋏ efd | n. 1. Gr. I.
+| gde ⋏ abc | n. Vorber.
+| gde ⋏ edf | n. Bew. γ
+Dw. | abc ⋏ edf | n. 1. Gr. I.
+u. | △ abc gleichwincklicht △ edf | n. 1. Beschr. VI.
+
+Beschluß.
+
+Wenn derowegen in zweyen Dreyecken zweene gleichmässige Winckel befindlich / und des einen Winckels Seiten mit den beyden Seiten des andern Winckels ebenmässig sind / so werden solche Dreyecke auch im übrigen gleichmässige Winckel / welche ebenmässigen Seiten gegen überstehen / haben / und durchaus gleichwincklicht seyn. W. Z. B.
+
+Der

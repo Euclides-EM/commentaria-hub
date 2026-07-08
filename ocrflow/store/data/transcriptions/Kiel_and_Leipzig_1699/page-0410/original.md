@@ -1,56 +1,35 @@
-# Das VI. Buch Euclidis.
+<!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 392)* -->
+<!-- *(Seitenzahl: 380)* -->
+
+|  |  |  |  |
+|---|---|---|---|
+|  | □ fo | □ qb | n. 24. VI. |
+|  | □ L ähnlich | □ qb | n. 2. Wirck. |
+| Dw. | □ fo | □ L | n. 21. VI. |
+|  | □ fp — | □ Bp | n. 9. Gr. I. |
+|  | □ fp | □ Bp + □ fo | n. 9. Gr. I. q. |
+| Dw. | ist □ fo der Uberschuß |  | n. 6. Beschr. VI. |
 
 ## Beschluß.
 
-Verhalten sich derowegen in gleichmässigen Kreisen/ die Winckel also gegen einander/ wie die Bogen / auf welchen dieselben Winckel stehen. Und also verhalten sich auch die Kreißschnitte gegen einander/ nemlich/ wie ihre Mittel-Düpffels-Winckel. W. Z. B.
+Ist also an den gegebenen Strich AB ein übertreffendes □ fp | △ K also angeschlagen/ daß der Uberschuß □ fo ähnlich dem □ L, auch auf gleiche Weise gesetzet seye. W. Z. M.
 
-# ENDE
-Des VI. Buchs Euclidis.
+# Der XXX. Vortrag.
 
----
+## Das 10. Werck-Stück.
 
-## Druckfehler / welche mit der Feder zu verbessern.
+Einen gegebenen geraden Strich nach der äusersten und mittelsten Verhältnüß zu theilen.
 
-Pag. 21. lin. 20. pro gleichseitig. leg. gleichschencklicht.
+### Gegebenes.
 
-24. l. 11. pro AD | AC l. BD | AC
+Gerader Strich ab,
 
-29. l. 17. pro ABC l. BAC
+### Begehrte.
 
-46. 13. FED FEG
+1. Strich ab getheilet
+2. Bey 1 nach äuserster und mittelster Verhältnüß.
 
-47. 5. lege FEG ⋀ ICK
+*[Figur: geometrische Konstruktion aus Quadraten und punktierten Linien mit den Punkten f, a, i, c, b, e, h, g, k, d, m]*
 
-20. pro ⊣ DB lege ⊣ CB
-
-51. 11. lege, ist aber BAC ⋀̸ (?) bac
-
-58. 2. lege, entgegen stehenden Winckel gleichgroß.
-
-3. lege, Winckele zweyen rechten Winckeln gleich.
-
-20. pro stehen leg. seyn.
-
-88. l. 16. pro Viereck leg. Seiten.
-
-post l. 16. inseratur : Beschreibungen.
-
-90. l. 16. pro und ah. leg. und eh
-
-96. l. 10. pro □ AB | AC leg. □ AB | □ AC
-
-100. l. 5. pro n. 1. Gr. leg. n. 2. Gr.
-
-105. l. 18. pro | □ abc leg. 2 □ abc
-
-109. l. 23. pro das Viereck leg. das zwiefache Viereck.
-
-24. dem Viereck dem zwiefachen Viereck.
-
-119. l. 6. pro + 2 □ bc leg. + □ bc
-
-13. pro ab □ bd leg. ab + bd
-
-121. l.
+Wir-

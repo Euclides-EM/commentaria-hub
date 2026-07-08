@@ -1,39 +1,33 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 282)* -->
+<!-- *(Seitenzahl: 276)* -->
 
-Gegebene.
+# Der XXI. Vortrag.
 
-*[Figur: vier Linien mit den Bezeichnungen A und c, B, a, b am linken Rand]*
+Das 21. Beweiß-Stück.
 
-A : | a :
-: B | : b
-C : | c :
+Wenn man drey Grössen hat / und noch andere drey Grössen sind / welche mit den vorigen Grössen in verwirreter Ebenmaß stehen: Auf gleiche Weise aber die Erste grösser ist / als die Dritte/ so wird auch die Vierte grösser seyn/ als die Sechste: Ist aber die Erste mit der Dritten gleichgroß/ so werden auch die Vierte und Sechste gleichgroß seyn: Und wenn die Erste kleiner/ als die Dritte/ so wird auch die Vierte kleiner seyn/ als die Sechste.
+
+I. Gegebene.
+
+*[Figur: sechs Linien A, B, C, a, b, c von verschiedener Länge am linken Rand]*
+
+A : B ∷ | b : c
+B : C | a : b
+A | ⊦ C
 
 Begehrtes.
 
-A + C : B | a + c : b.
+a ⊦ c
 
 Beweiß.
 
 |  |  |  |
 |---|---|---|
-| C : B | c : b | n Geg. |
-| B : C | b : c | n. 4. V. |
-| A : B | a : b | n. Geg. |
-| Dw. A : C | a : c | n. 22. V. |
-| u. A + C : C | a + c : c | n. 18. V. |
-| C : B | c : b, | n Gegeb. |
-| Dw. A + C : B | a + c : b | n. 22. V. |
+| b : c | A : B | ⌉ n. Gegeb. |
+| A | ⊦ C | |
+| B | B | |
+| Dw. A : B | ⊦ C : B | n. 8. V. |
+| u. b : c | ⊦ C : B | n. 13. V. |
 
-Beschluß.
-
-Wenn derowegen Sechs Grössen gegeben werden/deren I. zu der II. sich also verhält/ wie die III. zu der IV. darnach auch die V. zu der II. wie die VI. zu der III. So müssen auch die I. und V. zusammen sich zu der II. also wie III. und VI. zusammen genommen sich zu der IV. verhalten.
-
-# Der XXV. Vortrag.
-
-Das 25. Beweiß-Stück.
-
-Wenn vier Ebenmässige Grössen gegeben werden/ so sind die Grösseste und Kleineste derselben grösser / als die beeden übrigen.
-
-Gegebene-
+a : b

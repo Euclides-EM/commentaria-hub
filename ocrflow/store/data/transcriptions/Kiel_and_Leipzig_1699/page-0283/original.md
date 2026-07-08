@@ -1,49 +1,40 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 265)* -->
+<!-- *(Seitenzahl: 259)* -->
 
-I. Gegebene. | Begehrtes.
+# Der XI. Vortrag.
 
-A ________ | a ⊣ b.
-a ____
-B ______
-b __
+## Das II. Beweißstück.
 
-*[Figur: Strecken A, a, B, b]*
+Welche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind / dieselbigen Verhältnüsse sind auch unter sich gleichhaltig.
 
-A : a | B : b
-A ⊣ B
+Gegebene. | Begehrtes.
 
-## Beweiß.
-
-A | 3a
-B | 3b
-A ⊣ B — n. Gegeb.
-Dw. 3a ⊣ B — n. 1. Gr. c. I.
-und 3a ⊣ 3b — n. 1. Gr. a. I.
-Dw. a ⊣ b — n. 7. Gr. p. I.
-
-II. Gegebene. | Begehrte.
-
-A ________ | a | b
-a ____
+A ________ | A : a | B : b.
+a __
 B ________
-b ____
+b __
+C ________
+c __
 
-*[Figur: Strecken A, a, B, b]*
+*[Figur: Strecken A, a, B, b, C, c von verschiedener Länge]*
 
-A : a | B : b
-A | B
+A : a | C : c
+B : b | C : c
 
-## Beweiß.
+## Vorbereitung:
 
-A | 3a
-B | 3b — nach Gegeb.
-A | B
-Dw. 3a | B
-und 3a | 3b — n. 1. Gr. I.
-Dw. a | b — n. 7. Gr. p. I.
+1. Nehme man A zweymahl
+2. Deßgleichen auch B zweymahl
+3. Die Grösse a und b aber jedwede viermahl.
 
-Ll
+2A ________________
+4a ____________
+2B ________________
+4b ____________
 
-Gege-
+*[Figur: Strecken 2A, 4a, 2B, 4b]*
+
+Kk 2
+
+I. Beweiß.

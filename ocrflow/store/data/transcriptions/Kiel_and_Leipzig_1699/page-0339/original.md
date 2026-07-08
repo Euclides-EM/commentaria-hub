@@ -1,35 +1,34 @@
+<!-- *(Seitenzahl: 315)* -->
+
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 321)* -->
+# I. Gegebene.
 
-Verfolg des Beweises.
+1. Dreyeck abc
+2. Gerader Strich bd,
+3. Welcher den Winckel b theilet
+4. Also/ daß abd ⋏ cbd
+5. Und auch den Grundstrich ac in ad und cd theilet.
 
-CDH ⋏ bac
-DCH ⋏ abc   n. Vorber.
-Dw. | CHD ⋏ bca | n. 32. I.
-u. | ab : DC | bc : CH | n. 4. VI.
-| ab : DC | bc : CE | n. 3. Geg.
-Dw. | bc : CH | bc : CE | n. 11. V.
-u. | CH | CE | n. 9. V.
-welches aber unmüglich / n. 9. Gr. I.
+# Begehrtes.
 
-II. Ahrt Vorbereitung.
+cd : da | cb : ba.
 
-Man setze wiederum auf CD den
-Winckel   CDF ⋏ bac
-und   DCF ⋏ abc   n. 23. I.
+*[Figur: Dreyeck abc mit dem Strich bd auf den Grundstrich ac, die Seite ab ist gestrichelt gegen e verlängert und der gestrichelte Strich ce gezogen]*
 
-*[Figur: zwei Dreiecke, links das Dreieck abc, rechts das Dreieck DCE mit punktierten Linien zu dem unterhalb liegenden Punkt F]*
+1. Der Strich oder Seite ab werde nach Nothdurfft verlänget gegen e.
+2. Aus dem Düttel c werde ein Nebenstrich gegen bd gezogen/ biß er dem verlängerten Strich in e aufstösset/ nemlich ce. n. 31. I.
 
-Beweiß.
+# I. Beweiß.
 
-CDF ⋏ bac
-DCF ⋏ abc   n. Vorber.
-α Dw. | CFD ⋏ bca | n. 32. I.
-u. | ac : DF | ab : DC | n. 4. VI.
-| ac : DE | ab : DC | n. 4. Geg.
-Dw. | ac : DE | ac : DF | n. 11. V.
-u. | DE | DF | n. 9. V.
+bd ⧣ ec — n. 2. Vorb.
+Dw. bec ⋏ abd
+u. cbd ⋏ bce — n. 29. I.
+cbd ⋏ abd — n. 4. Gegeb.
+Dw. abd ⋏ bce — n. 1. Gr.
+u. cbd ⋏ bce — n. 29. I.
+Dw. be | cb — n. 6. I.
+ba | ba
 
-Ss
-CFD
+Rr 2
+Dw.

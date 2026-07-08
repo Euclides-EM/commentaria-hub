@@ -1,23 +1,35 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 374)* -->
+<!-- *(Seitenzahl: 362)* -->
 
-Begehrtes.
+## Vorbereitung.
 
-1. Der gerade Strich AB.
-2. Geradstrichichte Gestalt X.
-3. ander nebenstrichichtes Viereck D.
-4. Gestalt X nicht grösser/ als das an den halben Strich angeschlagene Viereck Eg.
-5. Welches dem mangelenden Viereck rs ähnlich ist.
+Wenn gh ⊣ rs
+so werde zu diesen beyden gh und rs der dritte ebenmässige Strich x gefunden. n. 11. VI.
+gh : rs | rs : x.
 
-Begehrte.
+## Beweiß.
 
-1. Mangelhafftes □ Ap
-2. □ Ap | △ X.
-3. □ Ap an den Strich AB angeschlagen.
-4. Das mangelende □ pB.
-5. □ pB ähnlich □ D.
+gh : rs | rs : x n. Vorb.
+gh ⊣ rs n. Ang.
+Dw. rs ⊣ x n. 14. V.
+α u. gh ⊣ x n. 1 Gr. e. l.
+gh : x ⊐ gh : rs n. 10. Besch V.
+□ gi : □ rt ⊐ gh : rs n. 19. V.
+Dw. □ gi : □ rt | gh : x n. 11. V.
+u. □ gi ⊣ □ rt n. Bew. α. u. n. 14. V.
 
-*[Figur: oben eine Gestalt X mit Dreieck und Punkt H, daneben ein Viereck D und ein Viereck mit den Punkten A, S, B, g; darunter nochmals die Gestalt X mit den Punkten k, l, q, m, h, daneben Viereck D mit punctirter Diagonale; unten ein Viereck mit den Punkten c, o, g, u, r, q, n, p, A, c, E, s, B, m nebst punctirtem Halbkreis]*
+Welches aber wider das 1. Gegeb.
+Eben so wenig kan auch gh ⊢ rs
+γ Müssen derowegen gh | rs. seyn/ W. Z. B.
 
-Wir-
+## Andere Ahrt.
+
+## Vorbereitung.
+
+1. Zu den drey geraden Strichen ab, cd und ef werde der vierte ebenmässige Strich rs gefunden. n. 12. VI.
+2. Auf den Strich rs werde ein geradstrichichtes Vieleck rsut gesetzet/ welches
+3. Vieleck st ähnlich sey dem Vieleck el, n 18. VI. und auch
+4. Auf gleiche Weise gesetzet sey.
+
+Beweiß.

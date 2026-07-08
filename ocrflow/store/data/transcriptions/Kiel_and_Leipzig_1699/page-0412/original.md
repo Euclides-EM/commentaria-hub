@@ -1,29 +1,38 @@
-# Druckfheler/welche mit der Feder zu verbessern.
+<!-- # Das VI. Buch -->
 
-Pag. 121. l. 10. *pro* hende Winckel *lege* henden Winckel.
-123. l. 16. *pro* aa + — 2bc. *leg.* aa — 2bc.
-128. l. 6. *pro* wird es stehender *lege* wird es ein auff solchem Kreiß stehender.
-131. l. 15. *lege* gerader Strich.
-163. l. 3. *lege* RührStrich.
-165. l. *ult. lege* 2 acb n. 9. Gr. q. I.
-251. Werden die 2te und 3te Zeilen außgelöschet/ oder ein weiß Papier darüber geleimet.
-253. l. 22. A | a
-23. B | b
-24. A | a
-25. B | b
-26. A : B | a : b.
-271. l. 17. *lege* abgenommenen Stück:
+<!-- *(Seitenzahl: 382)* -->
 
-# Druckfehler/welche leicht können durch aufkleistern geändert werden.
+## Beweiß.
 
-p. 21. lin. 11. pro abc. ABC. leg. bc. BC
-p. 37. lin. 5. 6. pro CA in zween gleiche Theil bey H, bey E,
-BA
-lege CA in zween gleiche Theile bey E
-BA - - - - - bey H
+|  |  |  |  |
+|---|---|---|---|
+|  | □ ad | □ am | n. 1. Wirck. |
+|  | □ ak | □ ak |  |
+| Dw. | □ ad — □ ak | □ m — □ ak | n. 3. Gr. |
+| oder | □ bd | □ hm |  |
+|  | bkd | ⋀ (?) hkm | n. 13. I. |
+| Dw. | □ hm wechselmässig □ bd |  |  |
+| und | hk : kd | bk : km | n. 14. VI. |
+|  | kd | be | n. 34. I. |
+|  | bi | be | n. 7. Wirck. |
+| Dw. | bi | kd | n. 1. Gr. I. |
+| und | hk : bi | bk : km | n. Anh. 7. V. |
+|  | be | bk | n. 29. Beschr. I. |
+|  | be | bi | n. 7. Wirck. |
+| Dw. | bi | bk | n. 1. Gr. I. |
+| und | hk : bi | bi : km | n. Anh. 7. V. |
+|  | hk | ab | n. 34. I. |
+| Dw. | ab : bi | bi : km | n. Anh. 7. V. |
+|  | bm | ba | n. 29. Besch. I. |
+|  | bk | bi | n. 7. Wirck. |
+| Dw. | bm — bk | ba — bi | n. 3. Gr. I. |
+| oder | km | ia |  |
+| und | ab : bi | bi : ia | n. Anh. 7. V. |
 
-p. 37.
+Dw. ist ab im i nach der äusersten und mittelsten Verhältnüß getheilet. n. 3. Beschr. VI.
 
-*[Figur: Dreieck B C mit Spitze oben; oberhalb der Spitze der Punkt D, an der Spitze die Punkte G und A, links davon I, rechts F; auf den Seiten die Punkte H und E; punktierte Linien verbinden I, F, B und C.]*
+## Beschluß.
 
-p. 41.
+Ist also der Strich ab nach äuserster und mittelsten (secundùm mediam & extremam) Verhältnüß getheilet. W. Z. M.
+
+Andere

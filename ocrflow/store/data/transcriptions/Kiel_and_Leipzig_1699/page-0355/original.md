@@ -1,40 +1,33 @@
-<!-- *(Seitenzahl: 337)* -->
-
 <!-- # Euclidis. -->
 
-*[Figur: Strich A—C—B; darunter ein Winkel aus a mit den Punkten c, d oben und b, e, f auf dem unteren Schenkel]*
+<!-- *(Seitenzahl: 331)* -->
 
-## Wirckung.
+Dw. | ab : db | 6. : 1. | n. Anh. 7. V.
+u. | db | 1/6 ab | n. Anh. 7. V.
 
-1. Man ziehe den Strich af.
-2. Von diesem Strich werde abgeschnitten
-ab ⊤ AB
-3. Deßgleichen be ⊤ AC   n. 3. I.
-4. Aus a werde nach belibigem Winckel gezogen der Strich
-ad
-5. Von diesem Strich werde abgeschnitten
-ac ⊤ AC   n. 3. I.
-6. Es werde der Strich bc gezogen.
-7. Aus e werde gegen den Strich bc der gerade Nebenstrich ed gezogen n. 31. I.
+Beschluß.
 
-## Beweiß.
+Ist also von dem Strich ab desselben Sechster Theil db abgeschnitten. W. Z. M.
 
-|  |  |  |
-|---|---|---|
-|  | bc ⊤ ed | n. 7. Wirck. |
-| Dw. | ab : be ⊤ ac : cd | n. 2. VI. |
-|  | ac ⊤ be | n. 5. Wirck. |
-|  | ab ⊤ ab |  |
-| Dw. | ab : ac ⊤ ab : be | n. 7. V. |
-| u. | ab : ac ⊤ ac : cd | n. 11. V. |
-| oder | AB : AC ⊤ AC : cd | n. Anh. 7. V. |
+# Der X. Vortrag.
 
-Dw. ist ce der dritte ebenmässige Strich.
+## Das 2. Werck-Stück.
 
-## Beschluß.
+Einen gegebenen geraden ungetheilten Strich eben so/ wie der gegebene getheilte Strich ist/ abzutheilen.
 
-Ist also zu denen zweyen geraden Strichen ab und ac, oder AB und AC, der Dritte ebenmässige Strich cd gefunden. W. Z. M.
+Gegebene.
 
-Uu
+1. Ungetheilter gerader Strich ag.
+2. Getheilter Strich AD in B und C.
 
-Der
+Begehrtes.
+
+1. Der Strich ag also
+2. wie AD getheilet/ daß
+| AB : BC | ae : df
+u. | BC : CD | ef : fg.
+
+*[Figur: zwei Dreiecksfiguren über der Grundlinie A B C D M L C B A; links Dreieck mit den Punkten a, b, c, d, k und punktierten Linien über e, f, g mit i, h; rechts Dreieck mit den Punkten a, b, c, l, m, d und den Zwischenpunkten g, r, f, e, s sowie h, n, i, o, p, q, t, u, x]*
+
+Tt 2
+I. Ahrt

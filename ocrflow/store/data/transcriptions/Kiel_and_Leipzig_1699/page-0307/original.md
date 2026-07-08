@@ -1,44 +1,34 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 289)* -->
+<!-- *(Seitenzahl: 283)* -->
 
-## Der Anhang.
-Dieses gehet auch auf verkehrte Weise an.
+Gegebene.
 
-### Gegebenes.
+*[Figur: vier Linien A, B, a, b von verschiedener Länge; auf der Linie a sind die Stücke f und d bezeichnet]*
 
-*[Figur: vier waagerechte Linien A, a, B, b von unterschiedlicher Länge]*
+A : B | a : b
+A ⊣ B
+B ⊣ a
+a ⊣ b
 
-A : a ⊢ B : b
+Begehrtes.
 
-### Begehrtes.
-A + a : a ⊢ B + b : b.
+A + b ⊣ B + a
 
-### Vorbereitung.
-Man nehme die Grösse c, welche sich zu a also / wie B zu b verhalte.
+Vorbereitung.
 
-c : a | B : b.
+1. Von der Grössesten und Ersten Grösse A werde ein Stück e, welches so groß sey / als die Andere Grösse B, abgeschnitten e | B n. 3. I.
 
-### Beweiß.
+2. Von der dritten Grösse a werde auch ein Stück f, so groß/ als die vierte Grösse b, abgenommen/ f | b n. 3. I.
 
-|  |  |  |  |
-|---|---|---|---|
-|  | c : a | \| B : b | n. Vorber. |
-|  | A : a | ⊢ B : b | n. Gegeb. |
-| Dw. | A : a | ⊢ c : a | n. 13. V. |
-| u. | A | ⊢ c | n. 10. V. |
-|  | a | \| a |  |
-| Dw. | A + a | ⊢ c + a | n. 4. Gr. I. |
-|  | : a \| | a |  |
-| a Dw. | A + a : a | ⊢ c + a : a | n. 8. V. |
-|  | B : b | \| c : a | n. Vorber. |
-| Dw. | B + b : b | \| c + a : a | n. 18. V. |
-|  | A + a : a | ⊢ c + a : a | n. Bew. a |
-| Dw. | A + a : a | ⊢ B + b : b | n. 13. V. |
+3. Dem erst abgeschnittenen Stück e werde die Vierte Grösse beygefüget. e + b
 
-### Beschluß.
-Wenn derowegen die I. zu der II. eine kleinere Verhältnüß / als die III. zu der IV. hat : So wird auch die I. und II. zu der II, eine kleinere Verhältnüß / als die III. und IV. zu der IV. haben. W. Z B.
+4. Dem andern abgenommenen Stück f werde die Andere Grösse B beygesetzet. f + B
 
-Oo
+5. Zu denen Ersten beeden e + b werde noch hinzu gethan das Stück/so zuerst übergeblieben/nemlich c e + c + b.
 
-Der
+6. Zu denen andern beeden f + B werde das andere übergebliebene d beygethan B + f + d.
+
+Nn 2
+
+Beweiß.

@@ -1,35 +1,41 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 262)* -->
+<!-- *(Seitenzahl: 256)* -->
 
-Gegebene. | Begehrtes.
+# Der IX. Vortrag.
 
-A ______ | A + B + C : a + b + c | A : a
-a __
-B ______
-b __
-C ______
-c __
+## Das 9. Beweiß-Stück.
 
-*[Figur: Strecken A, a, B, b, C, c]*
+Welche Grössen zu einer einigen Grösse gleiche Verhältnüß haben / dieselbigen sind gleich groß; Und zu welchen Grössen eine einige Grösse gleiche Verhältnüß hat / dieselbigen sind gleich groß.
 
-A : a | B : b | C : c
+## Gegebene. — Begehrtes.
+
+*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+
+A : a | B : a — A | B.
 
 ## Beweiß.
 
-A ⁘ a
-B ⁘ b | A : a — n. Gegeb.
-C ⁘ c
-Dw. A + B + C : a + b + c | A : a — n. 1. V.
+A | 3a
+B | 3a — n. Gegebene.
+Dw. A | B — n. 6. Gr. I.
 
-## Beschluß.
+Oder also:
 
-Müssen derowegen alle etlicher ebenmässigen Grössen vorgehende zusammen-genommene Grössen zu allen Nachgehenden zusammen-genommenen Grössen sich also verhalten / wie eine der gegebenen Vorgehenden Grössen zu ihrer eigenen Nachgehenden Grösse. W. Z. B.
+Wenn A ⊣ B — so muß
+auch A : a ⊣ B : a — n. 8. V.
+ist aber A ⊢ B — so muß
+A : a ⊢ B : a — n 8. V.
 
-# Der XIII. Vortrag.
+Beedes aber ist wider das Gegebene: müssen derowegen A und B gleichgroß seyn.
 
-## Das 13. Beweiß-Stück.
+## Beweiß des II. Theils.
 
-Wenn die Erste zu der Andern eben solche Verhältnüß hat/ wie die Dritte zu der Vierten. Die Dritte aber zu der Vierten eine grössere Verhältnüß hat/ als die Fünffte zu der Sechsten: So wird auch die Erste zu der Andern eine grössere Verhältnüß haben/ als die Fünffte zu der Sechsten.
+## Gegebene. — Begehrtes.
 
-Gegebene.
+*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
+
+a : A | a : B — A | B
+B
+
+Beweiß.

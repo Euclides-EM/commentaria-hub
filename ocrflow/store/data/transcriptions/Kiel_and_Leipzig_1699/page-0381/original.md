@@ -1,35 +1,41 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 363)* -->
+<!-- *(Seitenzahl: 351)* -->
 
-*[Figur: grösseres Viereck m l f e, daneben kleiner Strich t s und kleineres Viereck t w r s; darunter Striche a e, c d r s mit punktierter Linie]*
+edc ⋏ abh
+3. und dec ⋏ ahb
+4. Auf den Strich ah aber gce ⋏ hak
+5. und gec ⋏ ahk
+6. Endlich auf den Strich eg, gef ⋏ khi
+7. und egf ⋏ hki n. 23. I.
 
-## Beweiß.
+## I. Beweiß.
 
-▭ el ähnlich ▭ st n. 3. Vorb.
-▭ el - - - ▭ gi n. 3. Geg. I.
-Dw. ▭ st - - - ▭ gi n. 21. VI.
-△ abo : △ cdn | ▭ el : ▭ st 1. Th. dies. Vort.
-△ abo : △ cdn | ▭ el : ▭ gi n 1. Geg.
-Dw. ▭ el : ▭ gi | ▭ el : ▭ st n. 11. V.
-u. ▭ gi | ▭ st n 9 V.
-gh | rs n. Vorsatz. γ
-ef | ef
-ef : gh | ef : rs n. 7. V.
-ab : cd | ef : rs n. 1. Vorb.
-Dw. ab : cd | ef : gh n. 11. V.
+cde ⋏ abh n. 2. Wirck.
+dec ⋏ abh n. 3. Wirck.
+α Dw. ecd ⋏ hab n. 32. I.
+Und sind die Seiten beyder Dreyeck ebenmässig n. 4. VI.
+Dw. △ edc ähnlich dem △ abh n. 1. Besch. VI.
+Ebener massen sind auch die übrigen
+△ gce ähnlich dem △ hak
+und △ egf △ hki n. 1. Besch. VI.
+Dw. ab : cd | ah : ce
+u. ak : cg | ah : ce n. 4. VI.
+Dw. ak : cg | ab : cd n. 11. V.
+Ebener massen sind auch
+bh : ab | de : cd
+u. hi : ef | ik : fg n. 11. V.
 
-## Beschluß.
+## II. Beweiß.
 
-Werden derowegen aus vier ebenmässigen Strichen/ auch ebenmässige Vielecke beschrieben.
+b ⋏ d n. 1. Winck.
+hab ⋏ ecd n. Bew. α.
+hak ⋏ gce
+Dw. hab + hak ⋏ ecd + gce n 2. Gr. I.
+oder a ⋏ c n. 9. Gr. I. q.
+Ebener massen sind auch die übrigen Winckel
+k ⋏ g
+i ⋏ f
+h ⋏ e
 
-Und derer ebenmässigen Vielecke Seiten oder Striche sind auch ebenmässig. W. Z. B.
-
-# Der XXIII. Vortrag.
-
-## Das 17. Beweiß-Stück.
-
-Gleichwincklichte nebenstrichichte Vierecke ha-
-
-Z z 2
-ben
+Dw.

@@ -1,36 +1,35 @@
 <!-- # Das VI. Buch -->
 
-<!-- *(Seitenzahl: 370)* -->
+<!-- *(Seitenzahl: 358)* -->
 
-Gegebene.
+## Gegebene. Begehrte.
 
-1. Nebenstrichichtes Viereck bd
-2. Abgenommenes Viereck eg
-3. □ eg ⎫ ähnlich ⎧ □ bd.
-4. ⎬ gleicher Weise gesetzt ⎨
-5. ⎭ gleichmässige Winckel habend ⎩
+1. △ abc \ △ abc ähnlich △ efg
+2. △ efg / ähnlich △ cde
 
-Begehrtes.
+*[Figur: drey Dreyecke auf einer gemeinsamen Grundlinie b c e g mit den Spitzen a, d und f]*
 
-*[Figur: Viereck a, g, i, b oben, e und f in der Mitte, d und c unten, mit Diagonalen und punctirten Linien]*
+## Beweiß.
 
-□ eg üm einen einigen Zwergstrich stehende mit □ bd.
+△ abc ähnlich △ cde n. 1. Geg.
+Dw. abc ⋏ dce n. 1. Besch. VI.
+△ efg ähnlich △ cde n. 2 Geg.
+Dw. feg ⋏ dce n. 1. Beschr. VI.
+u. abc ⋏ feg n. 1. Gr. I.
+Aus gleichen Ursachen ist auch
+a ⋏ f
+Dw. acb ⋏ fge n. 32. I.
+u. ab : bc | fe : eg
+u. ab : ac | fe : fg n. 4. VI.
+Dw. △ abc ähnlich △ efg n. 1. Besch. VI.
 
-Vorbereitung.
+## Beschluß.
 
-Wenn □ eg nicht üm denselben Zwergstrich stehet/ so nehme man das □ ei, welches üm denselben Zwergstrich stehen sol.
+Sind derowegen diejenigen Vielecke / welche einem einigen Vieleck ähnlich sind/ auch unter einander selbst ähnlich. W. Z. B.
 
-Beweiß.
+# Der XXII. Vortrag.
 
-□ ei stehet üm einen einigen Zwergstrich mit □ bd n. Angen.
-Dw. ist □ ei ähnlich □ bd n. 24. VI.
-u. ae : ai | ad : ab n. 1. Besch. VI.
-□ eg ähnlich □ bd n. 3. Geg.
-Dw. ae : ag | ad : ab n. 1. Besch. VI.
-u. ae : ag | ae : ai n. 11. V.
-ae | ae
-Dw. ag | ai n. 9. V.
+## Das 16. Beweiß-Stück.
 
-Welches aber unmüglich n. 9. Gr. I.
-
-Beschluß-
+Wenn vier in Ebenmaß stehende gerade Stri-
+che

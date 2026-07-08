@@ -1,30 +1,34 @@
 <!-- # Das V. Buch -->
 
-<!-- *(Seitenzahl: 302)* -->
-
-## Oder:
-
-|  |  |  |
-|---|---|---|
-| b + a | ⊣ c + a | n. Geg. |
-| a \| | a |  |
-| b + a : a | ⊣ c + a : a | n. 8. V. |
-| b + a : c + a | ⊣ a a | n. 27. V. |
-| b : c | ⊣ b + a : c + a | n. 33. V. |
+<!-- *(Seitenzahl: 296)* -->
 
 ## Beschluß.
-Wenn man derowegen zu zwo ungleichen Grössen zwey gleiche Stücke thut / so werden die zusammengesetzte Grössen eine kleinere Verhältnüß zu einander haben / als die Ersten beyden Grössen. Schneidet man aber zwey gleiche Stücke von denselben ab / so werden die Ubergebliebene eine grössere Verhältnüß haben / als die Ersten beyden ungleichen Grössen. W. Z. B.
+Wenn derowegen Sechs Grössen gegeben werden / deren I. zu der II. eine grössere Verhältnüß hat / als die V. zu der VI. Auch die II. zu der III. eine grössere Verhältnüß hat / als die III. zu der IV. So wird auch die I. zu der III. eine grössere Verhältnüß haben / als die IV. zu der VI. W. Z. B.
 
----
+## Der XXXIII. Vortrag.
+Das 33. Beweiß-Stück.
 
-# Das VI. Buch Euclidis.
+Wenn das Gantze zu dem Gantzen eine grössere Verhältnüß hat / als das Abgenommene zu dem Abgenommenen: So wird das Ubergebliebene zu dem Ubergebliebenen eine grössere Verhältnüß / als das Gantze zu dem Gantzen haben.
 
-## Beschreibungen.
+### Gegebene.
 
-I. Gleichähnliche geradstrichichte ( Similes rectilineæ ) Gestalte sind / welche gleichmässige Winckel und ebenmässige Seiten haben.
+*[Figur: zwei waagerechte Linien A und B, jeweils durch Striche unterteilt]*
 
-II. Wechselmässige (Reciprocæ) Gestalte sind / in welchen beyderseits vor- und nachgehende ebenmässige Striche sich befinden.
+A : B ⊣ a : b
 
-III. Ein nach der äusersten und mittelsten Verhältnüß (secundùm mediam & extremam rationem) getheilter Strich wird genennet / welcher sich zu seinem grösseren Stück also / wie solch grössestes Stück zu dem kleinern / verhält.
+### Begehrtes.
+A : B ⊢ A — a : B — b
 
-IV. Die
+### Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+|  | A | \| a + c |  |
+|  | B | \| b + d |  |
+|  | a + c : b + d | ⊣ a : b | n Geg. |
+| Dw. | a + c : a | ⊣ b + d : b | n. 27. V. |
+| und | a + c : c | ⊢ b + d : d | n. 30. V. |
+| Dw. | a + c : b + d | ⊢ c : d | n. 27. V. |
+| oder | A : B | ⊢ A — a : B — b |  |
+
+Beschluß.

@@ -1,35 +1,40 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 249)* -->
+<!-- *(Seitenzahl: 243)* -->
+
+## III. Beweiß.
+
+|  |  |  |  |
+|---|---|---|---|
+| | A + C | 5a | n. Bew. α |
+| | 3 | 3 | |
+| | 3A + 3C | 15a | n. Gr. 6. l. I. |
+| | 2a | ⊢ 15a | n. Gr. 9. I. |
+| Dw. | 3A + 3C ⊣ | 2a | n. Gr. 1. c. I. |
+| | B + D | 5b | n. Bew. β |
+| | 3 | 3 | |
+| | 3B + 3D | 15b | n. Gr. 6. l. I. |
+| | 2b | ⊢ 15b | n. Gr. 9. I. |
+| Dw. | 3B + 3D ⊣ | 2a | n. Gr. 1. d. I. |
+| Weil nun 1. | A + C | 5a | n. Bew. α |
+| und | B + D | 5b | n. Bew. β |
+| 2. | A + C ⊢ | 6a | n. Bew. γ |
+| und | B + D ⊢ | 6b | n. Bew. δ |
+| 3. | A + C ⊣ | 2a | n. Bew. ε |
+| und | B + D ⊣ | 2b | n Bew. η |
+
+So ist auch A + C : a | B + D : b, n. 6. Beschr. V.
 
 ## Beschluß.
 
-Wenn derowegen aus vier Grössen die I. zu der II. in solcher Verhältnüß / wie die III. zu der IV. stehet; Und die V. zu der I. sich also wie die VI. zu der III. und auch die VII. zu der II. wie die IIX. zu der IV. sich verhält: So wird auch die V. zu der VII. also wie die VI. zu der IIX. sich verhalten. W. Z. B.
+Wenn derohalben die 1. Grösse der 2. gleichvielfältig/ auch die 3. der 4. gleichvielfältig ist. Darnach auch die 5 Grösse zu der 2. so vielfältig ist/als die 6. Grösse zu der 4. So müssen auch die 1. und 5 zusammen genommen/ zu der 2. eben so vielfältig seyn/als die 3. und 6. Grössen zusammen genommen zu der 4. Grösse sind/ W. Z. B.
 
-# Der V. Vortrag.
+# Der III. Vortrag.
 
-## Das 5. Beweiß-Stück.
+## Das 3. Beweiß-Stück.
 
-Wenn die Erste Grösse eben so vielfältig ist gegen die Andere Grösse / als das von der Ersten abgenommene Stück gegen das von der andern abgenommene Stück: So wird auch das Erste Übergebliebene gegen das Andere Übergebliebene eben so vielfältig seyn / als die Erste gantze Grösse gegen die Andere gantze Grösse.
+Wenn (unter den vier gegebenen Grössen) die Erste vielfäl-
 
-## Gegebene. — Begehrtes.
+Hh 2
 
-*[Figur: Zwey waagerechte Linien mit Teilstrichen, bezeichnet A und B]*
-
-1. A | 2B
-2. a | 2b — A—a : B—b | A : B
-3. A : B | a : b
-
-## Beweiß.
-
-A | 2B — n. 1.
-a | 2b — n. 2. Gegeb.
-A—a | 2B—2b — n. 3. Gr. I.
-2B—2b | Zwiefach B—b
-Dw. A—a | Zwiefach B—b — n. 6. Gr. kk. I.
-und A | Zwiefach B — n. 1. Gegeb.
-Dw. A—a : B—b | A : B. — n 7. Beschr. V.
-
-Ji
-
-Beschluß.
+tig

@@ -1,35 +1,37 @@
-<!-- # Euclidis. -->
+<!-- # Euclidis -->
 
-<!-- *(Seitenzahl: 261)* -->
+<!-- *(Seitenzahl: 255)* -->
 
-A ____________
-4a ____________
-B ____________
-4b ____________
+## Des II. Theils
 
-*[Figur: Strecken A, 4a, B, 4b]*
+## Gegebene. — Begehrtes.
 
-A | 3a — n. Gegeb.
-4a ⊣ 3a — n. 9. Gr. I.
-ε Dw. A ⊢ 4a — n. 1. Gr. d. I.
-B | 3b — n. Geg.
-4b ⊣ 3b — n. 9. Gr. I.
-ζ Dw. B ⊢ 4b — n. 1. Gr. d. I.
+*[Figur: Drey waagerechte Linien, bezeichnet A, a, B]*
 
-Weil nun I. die Vervielfältigungen der Grössen A u. B. grösser/ als die Vervielfältigungen der Grössen a u. b. n. I. Bew. α. und β. II. die Vervielfältigten A und B gleichgroß denen Vervielfältigten a und b, n. Bw. γ u. δ III. Die Vervielfältigungen A u. B kleiner/ als die Vervielfältigung a u. b, n. III. Bew. ε u. ζ.
+A ⊣ B — a : B ⊣ a : A.
+A | 5a
+B | 3a
 
-Dw. müssen auch A : a | B : b — n. 6. Besch. V.
+## Vorbereitung.
+
+1. Man nehme wiederümb a siebenmahl/
+2. Aber A zweymahl/
+3. Und B auch zweymahl.
+
+## Beweiß.
+
+B | 3a — nach Gegeb.
+2B | 6a — n. 6 Gr. i. I.
+7a ⊣ 6a — n. 9. Gr. I.
+Dw. 7a ⊣ 2B — n. 1. Gr. a. I.
+A | 5a
+2A | 10a
+10a ⊣ 7a
+Dw. 2A ⊣ 7a
+Und a : B ⊣ a : A — n. 8. Beschr. V.
 
 ## Beschluß.
 
-Wenn derowegen etliche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind/ so sind solche Verhältnüsse auch unter sich selbst gleichhaltig. W. Z. B.
+Derowegen ist allezeit die von ungleichen Grössen Grössere gegen die Dritte mehr vierfältig / als die Kleinere: Und eine einige Grösse ist gegen die Kleinere mehr vierfältig / als gegen die Grössere. W. Z. B.
 
-# Der XII. Vortrag.
-
-## Das 12. Beweiß-Stück.
-
-Wenn man etliche ebenmässige (und zwar so viel man deren wil) Grössen hat/ so werden/ wie sich eine Vorgehende zu ihrer Nachgehenden hält/ auch alle Vorgehende zusammen genommen zu allen Nachgehenden zusammen verhalten.
-
-Kk 3
-
-Gegebene.
+Der

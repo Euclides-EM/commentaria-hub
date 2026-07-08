@@ -1,45 +1,33 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 225)* -->
-
-Wirckung.
-
-1. Zweene des Fünffeckes Winckele / als e und f, werden in
-zween gleiche Theile gea ∧ fea
-efa ∧ dfa — getheilet/n. 9. I.
-2. Werden die Winckeltheilende Striche fa und ea so weit
-verlängert/ biß sie einander in a schneiden.
-3. Nach der Weite ae werde der Kreyß bgefd gezogen.
-
-Vorbereitung.
-
-Aus den übrigen Winckeln werden gerade Striche zu dem
-Düttel a gezogen.
-
-Beweiß.
-
-efa ∧ dfa — n. 1. Wirck.
-fe | fd — n. Gegeb.
-af | af
-fe + af | af + fd — n. 2. Gr. I.
-Dw. — ae | ad
-u. — aef ∧ adf — n. 4. I.
-Gleicher Weise — ad | af | ae | ag | ab
-Dw. — a | Mitteldüpffel — n. 9. III.
-und der Kreyß aus solchem Mitteldüpffel a nach der Weite
-af gezogen/ begreifft das Fünffeck in sich/n. 6. Besch. IV.
+<!-- *(Seitenzahl: 219)* -->
 
 Beschluß.
 
-Ist also umb das gegebene gleichseitige und gleichwincklichte
-Fünffeck ein Kreyß umbgeschrieben. W. Z. M.
+Ist also ein gleichschencklichtes Dreyeck abd verfertiget/dessen
+Gipffelswinckel dab halb so groß/als einer von den Grundwinckeln
+dba oder bda. W. Z. M.
 
-# Der XV. Vortrag.
+# Der XI. Vortrag.
 
-Das 15. Werckstück.
+Das 11. Werck-Stück.
 
-Einem gegebenen Kreyß ein gleichseitig und
-gleichwincklichtes Sechseck einzuschreiben.
+In den gegebenen Kreyß ein gleichseitig und
+gleichwincklicht Fünffeck einzuschreiben.
 
-Ff
-Ge-
+Gegebenes. — Begehrte.
+Kreyß bcdae. — 1. Gleichseitig- und gleichwincklicht Fünffeck
+2. dem Kreyß eingeschrieben.
+
+*[Figur: links ein gleichschencklichtes Dreyeck A B C mit punktierten Bögen; rechts ein Kreis mit einbeschriebenem Fünffeck b c d a e, dessen Ecken durch Zwergstriche (Pentagramm) verbunden sind, unten punktierte Bögen]*
+
+Wirckung.
+
+1. Werde ein gleichschencklicht Dreyeck ABC gemachet/ dessen
+Gipffelwinckel A halb so groß sey/ als einer von den Grundwin-
+ckeln B oder C, n. 10. IV.
+2. Dem gegebenen Kreyß werde ein Dreyeck abc gleichwinck-
+licht dem Dreyeck ABC eingeschrieben/ n. 2. IV.
+
+Ee 2
+3. Der

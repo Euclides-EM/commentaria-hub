@@ -1,45 +1,35 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 267)* -->
+<!-- *(Seitenzahl: 261)* -->
 
-Gegebene. | Begehrtes.
+A ____________
+4a ____________
+B ____________
+4b ____________
 
-a ____
-b ______ | a : b | A : B.
-A __c__d__e__f__
-B __g__h__i__k__
+*[Figur: Strecken A, 4a, B, 4b]*
 
-*[Figur: Strecken a, b; Strecke A in Theile c, d, e, f getheilet; Strecke B in Theile g, h, i, k getheilet]*
+A | 3a — n. Gegeb.
+4a ⊣ 3a — n. 9. Gr. I.
+ε Dw. A ⊢ 4a — n. 1. Gr. d. I.
+B | 3b — n. Geg.
+4b ⊣ 3b — n. 9. Gr. I.
+ζ Dw. B ⊢ 4b — n. 1. Gr. d. I.
 
-4a | A
-4a | B
+Weil nun I. die Vervielfältigungen der Grössen A u. B. grösser/ als die Vervielfältigungen der Grössen a u. b. n. I. Bew. α. und β. II. die Vervielfältigten A und B gleichgroß denen Vervielfältigten a und b, n. Bw. γ u. δ III. Die Vervielfältigungen A u. B kleiner/ als die Vervielfältigung a u. b, n. III. Bew. ε u. ζ.
 
-## Vorbereitung.
-
-1. Es werde A in vier gleiche Theile getheilet/ daß c | a, d | a, e | a und f | a, n. 3. I.
-2. Auch werde B also getheilet/ daß g | b, h | b, i | b, und k | b, werde. n. 3. I.
-
-## Beweiß.
-
-a | c | d | e | f — n. 1.
-b | g | h | i | k — n. 2. Vorb.
-
-Dw. c ⁘ g
-d ⁘ h | a : b — n. Anh. 7. V.
-e ⁘ i
-f ⁘ k
-
-und c + d + e + f : g + h + i + k | a : b — n. 12. V.
-c + d + e + f | A — n. 9. Gr. q. I.
-Dw. c + d + e + f : g + h + i + k | A : g + h + i + k, n. 7. V.
-g + h + i + k | B — n. 9. Gr. q. I.
-Dw. c + d + e + f : g + h + i + k | A : B — n. Anh. 7. V.
-und a : b | A : B — n. 11. V.
+Dw. müssen auch A : a | B : b — n. 6. Besch. V.
 
 ## Beschluß.
 
-Müssen also allezeit die Theile sich also / wie die vielfache Gantzen zu einander verhalten/ W. Z. B.
+Wenn derowegen etliche Verhältnüsse gegen eine einige Verhältnüß gleichhaltig sind/ so sind solche Verhältnüsse auch unter sich selbst gleichhaltig. W. Z. B.
 
-Ll 2
+# Der XII. Vortrag.
 
-Der
+## Das 12. Beweiß-Stück.
+
+Wenn man etliche ebenmässige (und zwar so viel man deren wil) Grössen hat/ so werden/ wie sich eine Vorgehende zu ihrer Nachgehenden hält/ auch alle Vorgehende zusammen genommen zu allen Nachgehenden zusammen verhalten.
+
+Kk 3
+
+Gegebene.

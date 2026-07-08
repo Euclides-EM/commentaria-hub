@@ -1,38 +1,39 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 239)* -->
+<!-- *(Seitenzahl: 233)* -->
 
-Oder auch also:
+XI. Verhältniß-ähnliche (Homologæ s. similes ratione) Grössen werden genennet die in der Ebenmaß stehende Vorgehende zu den Vorgehenden/u Nachgehende zu den Nachgehenden Grössen.
 
-## Vorbereitung.
+3a : 3b | a : b
 
-1. Die grösse a werde vier mahl/
-2. wie auch b vier mahl genommen:
+3a und a) 3b und b) verhältniß-ähnliche Grössen.
 
-*[Figur: vier waagerechte Linien, bezeichnet A, 4a, B, 4b]*
+XII. Verwechselte Verhältnissen sind/ wenn man die Erste Vorhergehende gegen die Andere Vorgehende/ und die Erste Nachgehende gegen die Andere Nachgehende hält.
 
-## Beweiß.
+3a : 3b | a : b
 
-|  |  |  |  |  |
-|---|---|---|---|---|
-| | 3a | A | n. Beweiß. | ε |
-| | 4a | 3a | n. 9. Gr. I. | |
-| Dw. | 4a | A | n. 1. Gr. a. I. | |
-| | 3b | B | | |
-| | 4b | 3b | | |
-| Dw. | 4b | B | | |
-| λ und | 4a + 4b | A + B | n. 4. Gr. g. I. | |
+3a : a | 3b . b.
 
-Weil nun (1) 3a + 3b | A + B, n. Bew. η
+XIII. Verkehrte Verhältniß ist/wenn man die Nachgehenden an die Stelle der Vorgehenden/ und die Vorgehenden an die Stelle der Nachgehenden setzet.
 
-(2) 2a + 2b ⊢ A + B, n. Bew. κ
+3a : 3b | a : b
 
-und (3) 4a + 4b ⊣ A + B, n. Bew. λ
+3b : 3a | b : a.
 
-Dw. A + B : a + b | A : B, n. 6. Beschr. V.
+XIV. Zusammen gesetzte Verhältniß entstehet/wenn man die Vorgehende und Nachgehende zusammen nimt/ und gegen die Nachgehenden hält.
 
-## Beschluß.
+3a : 3b | a : b
 
-Wenn derowegen die 1. zu der 2. Grösse/ und die 3. zu der 4. gleich-vielfältig sind/ so werden auch die 1. und 3. zusammen genommen / zu denen 2. und 4. zusammen genommenen Grössen eben so vielfältig seyn / als die 1. zu der 2. oder die 3. zu der 4. Grössen sind. W. Z. B.
+3a + 3b : 3b | a + b : b.
 
-Der
+XV. Zertheilte Verhältniß ist/wenn man den überschuß / womit die Vorgehenden die Nachgehenden übertreffen/ gegen die Nachgehenden hält.
+
+6a : 4a | 3a : 2a
+
+6a — 4a : 4a | 3a — 2a : 2a
+
+oder 2a : 4a | a : 2a.
+
+Gg
+
+XVI. Ver-

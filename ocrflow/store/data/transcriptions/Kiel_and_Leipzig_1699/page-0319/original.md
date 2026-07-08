@@ -1,49 +1,41 @@
 <!-- # Euclidis. -->
 
-<!-- *(Seitenzahl: 301)* -->
-
-## I. Gegebene.
-
-*[Figur: zwei waagerechte Linien A und B mit angesetzten Stücken a]*
-
-A ⊣ B
-a | a
+<!-- *(Seitenzahl: 295)* -->
 
 ## Begehrtes.
-A + a : B + a ⊢ A : B
+A : C ⊣ a : c
+
+## Vorbereitung.
+1. Man nehme eine Grösse D darzu / welche sich zu C wie a zu b verhalte.
+
+D : C | a : b
+
+2. Auch nehme man die Grösse d, welche sich zu D, wie b zu c verhalte.
+
+d : D | b : c.
+
+*[Figur: drei waagerechte Linien C, D, d von unterschiedlicher Länge]*
 
 ## Beweiß.
 
 |  |  |  |  |
 |---|---|---|---|
-|  | A | ⊣ B | n. Geg. |
-|  | a | \| a |  |
-| Dw. | A + a | ⊣ B + a | n. 4. Gr. I. |
-|  | a \| | a |  |
-| Dw. | A + a : a | ⊣ B + a : a, | n. 8. V. |
-|  | A + a : A | ⊢ B + a : B | n. 30. V. |
-|  | A + a : B + a | ⊢ A : B | n. Anh. 28. V. |
+|  | D : C | \| a : b | n 1. Vorb. |
+|  | B : C | ⊣ a : b | n. Geg. |
+| Dw. | B : C | ⊣ D : C | n. Anh. 13. V. |
+| u. | D | ⊢ B | n. 10. V. |
+|  | A | \| A |  |
+| Dw. | A : D | ⊣ A : B | n. 8. V. |
+|  | b : c | ⊢ A : B | n. Gegeb. |
+| Dw. | A : D | ⊣ b : c | n. 2. Anh. 13. |
+|  | d : D | \| b : c | n 2. Vorb. |
+| Dw. | A : D | ⊣ d : D | n. Anh. 13. V. |
+| u. | A | ⊣ d | n. 10. V. |
+|  | C \| | C |  |
+| Dw. | A : C | ⊣ d : C | n 8. V. |
+|  | d : D : | \| b : c |  |
+|  | D : C | \| a : b | } n Vorb. |
+| Dw. | d : C | \| a : c | n. 22 V. |
+| u. | A : C | ⊣ a : c | n. Anh. 13. V. |
 
-## II. Gegebene
-
-*[Figur: zwei waagerechte Linien A und B mit abgeteilten Stücken]*
-
-A ⊣ B
-a | a
-
-## Begehrtes.
-A — a : B — a ⊣ A : B
-
-## Beweiß.
-
-|  |  |  |  |
-|---|---|---|---|
-|  | A | ⊣ B | n. Geg. |
-|  | a \| | a |  |
-| Dw. | A : a | ⊣ B : a | n. 8. V. |
-|  | A : B | \| a : a | n. 27. V. |
-| Dw. | A — a : B — a | ⊣ A : B | n. 33. V. |
-
-Pp 3
-
-oder:
+Be-
