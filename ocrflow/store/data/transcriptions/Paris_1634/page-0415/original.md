@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 29.1 | Δagb, Δheb, Δhfa snt æquiang.
 4.6 | ag π gb 2|2 hf π fa,

@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 *[Figur: deux cercles auec les poincts N, B, F, G, L, A, E, C, D, H]*
 

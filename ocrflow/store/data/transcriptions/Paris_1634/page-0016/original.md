@@ -1,5 +1,5 @@
 
-# PROLEGOMENA.
+<!-- # PROLEGOMENA. -->
 
 <!-- (colonne gauche, latin) -->
 Nos autem, vt quam quisque partem sibi necessariam ducit, seorsim habere possit, partiemur hunc Cursum Mathematicum in quinque tomos, in quorum prioribus traduntur partes, quæ ad intelligentiam posteriorum sunt necessariæ, vt ordo doctrinæ postulat, in singulisque tomis continentur cognatæ partes, eadem serie qua addiscendæ sunt, videlicet hoc ordine.

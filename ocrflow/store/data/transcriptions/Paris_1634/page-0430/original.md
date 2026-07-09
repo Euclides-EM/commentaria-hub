@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 15.3 | gi 3|2 gk,
 38.app. | gi π id 3|2 <kdg π <kgd,

@@ -7,6 +7,8 @@ import (
 	"os"
 	"path"
 	"slices"
+	"strconv"
+	"strings"
 	"sync"
 	"time"
 
@@ -721,9 +723,25 @@ func (a *Annotation) getIndexFromEditionMarkdown(pages []int, editionKey string,
 		}
 	}
 	if len(categories) == 0 {
-		return lo.Keys(seenCategories), allLocs, nil
+		return orderedMarkdownHeaderCategories(seenCategories), allLocs, nil
 	}
 	return categories, allLocs, nil
+}
+
+func orderedMarkdownHeaderCategories(seenCategories map[string]struct{}) []string {
+	categories := lo.Keys(seenCategories)
+	slices.SortFunc(categories, func(a, b string) int {
+		return markdownHeaderLevel(a) - markdownHeaderLevel(b)
+	})
+	return categories
+}
+
+func markdownHeaderLevel(category string) int {
+	level, err := strconv.Atoi(strings.TrimPrefix(category, markdown.HeaderPrefix))
+	if err != nil || level < 1 || level > 6 || !strings.HasPrefix(category, markdown.HeaderPrefix) {
+		return 7
+	}
+	return level
 }
 
 func buildNodes(remainingCats []string, data []categoryPageContent) []*annotation.IndexNode {

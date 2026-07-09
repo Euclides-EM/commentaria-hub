@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 4.6 | el π lh 2|2 bl π li,
 19.5 | ce π kh 2|2 eb π hi.

@@ -1,5 +1,5 @@
 
-# EXPLICATIO NOTARVM.
+<!-- # EXPLICATIO NOTARVM. -->
 
 req. requisitum, le requis.
 resid. residuum, le residu ou reste.

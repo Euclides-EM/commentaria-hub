@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 gc est tangen. β
 

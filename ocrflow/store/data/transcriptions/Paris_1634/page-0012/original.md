@@ -1,8 +1,8 @@
 
-## AD LECTOREM.
+<!--  ## AD LECTOREM. -->
 <!-- (colonne gauche, latin) -->
 disciplinis, quæ teste Cicerone, in maxima versantur difficultate. Quæ cum animo perpenderem, perspectumque haberem, difficultates quæ in erudito Mathematicorum puluere plus negotij facessunt, consistere in demonstrationibus, ex quarum intelligentia Mathematicarum disciplinarum omnis omnino pendet cognitio : excogitaui nouam methodum demonstrandi breuem, & citra vllius idiomatis vsum intellectu facilem. Breuem esse, nec vllo idiomate indigere, vel prima fronte intuenti apparebit. Intellectu verò facilem, perspicuum erit iis, qui perspectas, planeque cognitas habebunt Notas nostras : & vnam aut alteram propositionem earum adminiculo demonstratam intellexerint. Intellectu quoque faciliorem esse, quàm vulgaris ratio demonstrandi, non dubium est : cùm in hac methodo
 
-## AV LECTEVR.
+<!--  ## AV LECTEVR. -->
 <!-- (colonne droite, français) -->
 comme tesmoigne Ciceron, sont grandement obscures. Ce que considerant en moy-mesme, & voyant que les plus grandes difficultez estoiët aux demonstrations, de l'intelligence desquelles dépend la cognoissance de toutes les parties des Mathematiques : i'ay inuenté vne nouuelle methode de faire les demonstratiös, briefue & intelligible, sans l'vsage d'aucune langue. Qu'elle soit briefue & intelligible sans l'vsage d'aucune langue, il appert à l'ouuerture du liure. Qu'elle soit bien intelligible, il sera manifeste à ceux qui auront l'intelligence de mes NOTES, & qui auront entendu quelques demonstrations faites par le moyen d'icelles. Il n'y a point de doute aussi qu'elle ne soit plus intelligible que la methode ordinaire, veu qu'en ceste methode on n'affirme rien qu'il ne soit confirmé par quelque citation : ce que les autres autheurs n'obseruent pas exactement, mais chacun mesurant la necessité des citations,

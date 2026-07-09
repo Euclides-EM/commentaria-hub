@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 32.1 | Δabe æquiang. Δcad, β
 α.2.a.1 | <ead 2|2 <bac,

@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 15.1 | <fed 2|2 <beh,
 β.6.6 | <dfe 2|2 <ebh,

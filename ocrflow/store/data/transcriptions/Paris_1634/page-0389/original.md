@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 1.concl. constr. | bd est ▭.bc,cd,
 constr. | bc π a 2|2 a π cd,

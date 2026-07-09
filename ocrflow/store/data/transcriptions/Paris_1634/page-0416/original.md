@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 1.6 | ▭.gca π □.ac, 36.3 | ▭.bcd 2|2 ▭.gca,
 1.6 | ▭.fea π □.ea, 36.3 | ▭.bed 2|2 ▭.fea,

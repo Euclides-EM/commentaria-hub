@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 γ | ▭.hai 2|2 ▭.bad,
 1.2 | ▭.ch,ef 2|2 ▭ ch,ei + ▭ ch,if,

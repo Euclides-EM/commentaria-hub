@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 L'addition des semblables plans se fait par la cinquiesme de l'appendix.
 

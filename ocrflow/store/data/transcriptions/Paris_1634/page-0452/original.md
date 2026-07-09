@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. VII. -->
 
-## IX.
+### IX.
 
 Si numerus numerum metiēs, multiplicet eum, per quem metitur, vel ab eo multiplicetur, illum quem metitur producit.
 
@@ -10,7 +10,7 @@ Si numerus numerum metiēs, multiplicet eum, per quem metitur, vel ab eo multipl
 hyp. | a, msur: b ꝑ c, A,3. B,15. C,5.
 9.a.7 | ▭.c,a 2|2 b.
 
-## X.
+### X.
 
 Numerus quotcunque numeros metiens, compositum quoque ex ipsis metitur.
 
@@ -20,7 +20,7 @@ hyp. | a + b + c 2|2 d, A,9. B,12. C,15. D,36. E,3.
 hyp. | e, msur: a, b, c,
 10.a.7 | e, msur: d.
 
-## XI.
+### XI.
 
 Numerus quemcunque numerum metiens, metitur quoque omnem numerū, quem ille metitur.
 

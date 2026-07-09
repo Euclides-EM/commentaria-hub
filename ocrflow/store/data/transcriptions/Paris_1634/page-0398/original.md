@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 1.a.1 | ▭.ab,ac 2|2 ▭.dea + □.ae,
 35.3 | ▭.bec 2|2 ▭.dea,

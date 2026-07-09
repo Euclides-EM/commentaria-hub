@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 16.6 | cf π fh 2|2 ge π eb,
 17. & 18.5 | ch π hf 2|2 gb π be,

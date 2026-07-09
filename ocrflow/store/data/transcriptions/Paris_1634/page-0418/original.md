@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 36.3 | ▭.ebd 2|2 ▭.abf,
 concl. 11.5 | □.ac π □.ab 2|2 ▭.dce π ▭.ebd.

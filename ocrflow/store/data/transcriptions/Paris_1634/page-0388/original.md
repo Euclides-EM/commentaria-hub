@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 *[Figur: triangle A, C, B auec E, G, H, F, le demicercle A, N, M, L & le quarré B, N, M]*
 

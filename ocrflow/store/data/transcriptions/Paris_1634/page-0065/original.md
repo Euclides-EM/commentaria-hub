@@ -7,9 +7,9 @@ DA, descriptus est circulus ABC, per tertium postulatum. | DA, a esté descrit l
 
 Item quacunque magnitudine data sumi posse aliam magnitudinem, vel æqualem, vel maiorem vel minorem. | Semblablement quelconque grandeur estant donnee, pouuoir prendre vne autre plus grande ou plus petite.
 
-# COMMVNES NOTIONES SIVE axiomata, quæ & pronunciata dici solent, vel dignitates.
+## COMMVNES NOTIONES SIVE axiomata, quæ & pronunciata dici solent, vel dignitates.
 
-# COMMVNES NOTIONS OV sentences, qui s'appellent außi maximes.
+## COMMVNES NOTIONS OV sentences, qui s'appellent außi maximes.
 
 ### I. a. 1.
 

@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM. PLAN.
+<!-- # APPEND.. GEOM. PLAN. -->
 
 ◠ab π ◠bc 3|2 ab π bc,
 

@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM. PLAN.
+<!-- # APPEND.. GEOM. PLAN. -->
 
 Estant donnee l'hypothenuse d'vn triangle rectangle, & la moyenne proportionnelle entre la base & la perpendiculaire, trouuer le triangle.
 

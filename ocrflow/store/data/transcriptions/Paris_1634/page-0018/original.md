@@ -1,5 +1,5 @@
 
-# PROLEGOMENA.
+<!-- # PROLEGOMENA. -->
 
 <!-- (colonne gauche, latin) -->
 rum quidem priores tredecim, sine vlla controuersia Euclidi ascribuntur ab omnibus ; posteriores verò duo à nonnullis Hypsiclis Alexandrini esse creduntur) secari rectè poterit in quatuor partes, quarum prima pars contenta sex prioribus libris agit de planis.

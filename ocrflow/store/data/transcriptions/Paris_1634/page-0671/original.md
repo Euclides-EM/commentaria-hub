@@ -8,7 +8,7 @@ suppos. | cf 3|2 fк..□.——, incomm. cf,
 6d48.10 | ck, est binom. 6.
 2 concl. 60.10 | h, est ——po. 2; medi;
 
-# PRINCIPIVM SENARIORVM per detractionem.
+## PRINCIPIVM SENARIORVM per detractionem.
 
 *JCY COMMENCENT LES SIXAINES des lignes irrationelles par le retranchement.*
 

@@ -1,5 +1,5 @@
 
-# EXPLICATIO NOTARVM.
+<!-- # EXPLICATIO NOTARVM. -->
 
 <!-- (colonne gauche, latin) -->
 mus, vt possint citari vbi opus erit : & ne series axiomatum Euclidis mutaretur, quæ adiunximus axiomata, præter vltimum, subiecimus iis, cum quibus habent maiorem cognitionem, cum litteris alphabeti, vt distinguantur ab aliis quæ sunt Euclidis, vel adiecta à Clauio, cuius translationem & ordinem secuti sumus.

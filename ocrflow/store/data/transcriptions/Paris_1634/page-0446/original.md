@@ -28,11 +28,11 @@ Termini siue radices proportionis dicuntur duo numeri, quibus in eadem proportio
 
 *Deux nombres sont dits termes ou racines de la proportion, ausquels on n'en peut trouuer deux autres plus petits en la mesme raison ou proportion.*
 
-# POSTVLATA, SIVE PETITIONES.
+## POSTVLATA, SIVE PETITIONES.
 
-# PETITIONS, OV DEMANDES.
+## PETITIONS, OV DEMANDES.
 
-## I.
+### I.
 
 Postuletur, cuilibet
 

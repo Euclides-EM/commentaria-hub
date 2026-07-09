@@ -5,7 +5,7 @@ merus B, est minimus communis diuiduus numerorum C & D.
 
 *le nombre B, est le moindre commun partissable par les nombres C & D.*
 
-## II.
+### II.
 
 Partes eidem parti, vel iisdem partibus eædem, sunt quoque inter se eædem.
 

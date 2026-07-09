@@ -1,5 +1,5 @@
 
-# EXPLICATIO NOTARVM.
+<!-- # EXPLICATIO NOTARVM. -->
 
 a,b, Ⅱ ab { rectangulum quod fit ductu A in B. / le rectangle qui se fait en multipliät A par B.
 • est punctum, est vn poinct.
@@ -15,7 +15,7 @@ a,b, Ⅱ ab { rectangulum quod fit ductu A in B. / le rectangle qui se fait en m
 ◇ est parallelogrammum, est vn parallelogramme.
 ◇piped. est parallelepipedum, est vn parallelipipede.
 
-## Exempla. Exemples.
+### Exempla. Exemples.
 
 a 2|2 b { A est æqualis B. / A est égal à B.
 a 3|2 b { A est maior B. / A est plus grand que B.

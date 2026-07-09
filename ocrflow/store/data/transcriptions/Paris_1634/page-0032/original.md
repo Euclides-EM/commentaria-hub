@@ -1,5 +1,5 @@
 
-# EXPLICATIO CITATIONVM.
+<!-- # EXPLICATIO CITATIONVM. -->
 
 c.l.60.10 { Corollarium lemmatis sexagesimæ decimi. / Corollaire du lemme de la soixantiéme du dixiéme.
 
@@ -27,7 +27,7 @@ Symperasma est finis constructionis, qua peracta, asserimus constructum aut inue
 <!-- (colonne droite, français) -->
 Symperasme est la fin de la construction, laquelle estant acheuée, on affirme qu'on a construict ou inuenté ce que demande le probleme, partant au symperasme on parle ainsi.
 
-## Propos. 1. libr. 1.
+### Propos. 1. libr. 1.
 
 symp. | △abc est æquilat.
 

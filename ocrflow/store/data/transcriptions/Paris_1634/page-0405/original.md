@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 32.1 | <fea + <efa 2|2 ⌐,
 3.a.1 | <ceb 2|2 <efa,

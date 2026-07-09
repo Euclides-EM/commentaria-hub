@@ -1,5 +1,5 @@
 
-# PROLEGOMENES.
+<!-- # PROLEGOMENES. -->
 
 <!-- (colonne gauche, latin) -->
 Tertius, constructionem ac vsum Canonis sinuum & logarithmorum : Geometriam practicam : Artem muniendi : Militiam : & Mechanicas.

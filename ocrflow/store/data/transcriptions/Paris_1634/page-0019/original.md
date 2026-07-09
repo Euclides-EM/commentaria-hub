@@ -1,5 +1,5 @@
 
-# PROLEGOMENES.
+<!-- # PROLEGOMENES. -->
 
 <!-- (colonne gauche, latin) -->
 proportiones figurarum planarum discutiuntur.

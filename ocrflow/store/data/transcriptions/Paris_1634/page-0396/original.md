@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 Entre deux figures rectilignes, dont l'vne soit inscrite & l'autre circonscrite ; l'inscrite qui aura deux fois autant de costez sera moyenne proportionelle.
 

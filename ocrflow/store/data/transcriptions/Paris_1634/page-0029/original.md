@@ -1,5 +1,5 @@
 
-# EXPLICATION DES NOTES.
+<!-- # EXPLICATION DES NOTES. -->
 
 a 2|2 ⅔b { A est æqualis duabus tertiis B. / A est égale aux deux tiers de B.
 

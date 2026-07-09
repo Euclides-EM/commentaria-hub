@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM. PLAN.
+<!-- # APPEND.. GEOM. PLAN. -->
 
 *[Figur: rectiligne B, C, D, E sur la base L, A, F, G, H, avec lignes ponctuées ioignant D aux poincts de la base]*
 

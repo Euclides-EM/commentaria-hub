@@ -1,5 +1,5 @@
 
-# PROLEGOMENES.
+<!-- # PROLEGOMENES. -->
 
 <!-- (colonne gauche, latin) -->
 des eiusque Interpretes, absque vlla ipsorum in præmissis explicatione vtuntur, quæ nisi concederentur, nihil illorum demonstrationes probarent. Nostra verò methodus, in qua nihil dici potest, nisi fuerit in præmissis explicatum, nihilque asseritur, nisi ex prius explicatorum & concessorum citatione confirmetur, postulat, vt præmittantur ea omnia ex quibus deducenda est demonstrationis conclusio. Itaque quamuis ex iis quæ tradita sunt ab Euclide, cætera axiomata facilè percipi ac intelligi possint : & sint pleraque ipsorum quæ desunt manifestiora quàm vlla explicatione indigeant, nihilominus, omnia axiomata, quæ in demonstrationibus Euclidis, eiusque Interpretum, absque vlla præmissa explicatione, tanquam conspicua & per se nota assumuntur, in ordinem axiomatum redegi-

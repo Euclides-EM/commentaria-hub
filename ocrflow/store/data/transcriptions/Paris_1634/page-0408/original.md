@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 32.1 | Δmic est æquiang. Δmhg,
 4.6 | mh π mg 2|2 mi π mc, δ

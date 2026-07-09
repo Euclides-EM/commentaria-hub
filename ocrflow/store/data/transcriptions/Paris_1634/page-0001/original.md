@@ -1,8 +1,8 @@
-# Transcription Conventions
+<!--  Transcription Conventions -->
 
 This directory contains a page-by-page transcription of Pierre Hérigone, *Cursus Mathematicus* (1634) — the bilingual Latin/French edition of Euclid's Elements in Hérigone's symbolic notation. Files are named `<N>.md` where N is the **PDF page number** (11–882). The printed page number is N − 82 (e.g. `882.md` = printed page 800). The transcription was produced by visually reading each page image (150 DPI renders; 300 DPI + deskew for skewed photos) — no OCR software was used.
 
-## File structure
+<!-- ## File structure -->
 
 - `# Page <N>` — PDF page number.
 - `# <running head>` — exactly as printed, e.g. `# ELEM.. EVCLID. LI. XV.` (double periods and spelling variants preserved).
@@ -17,7 +17,7 @@ This directory contains a page-by-page transcription of Pierre Hérigone, *Cursu
 - Printer's ornaments are rendered `(ornament)`.
 - Catchwords and signature marks (e.g. `Ddd iij`) are omitted.
 
-## Typography
+<!-- ## Typography -->
 
 - Long s (ſ) is normalized to `s` in ordinary Latin/French prose, but **preserved** in the symbolic proof lines and abbreviations: `ſnt`, `ſymp.`, `ſuppoſ.`, `conſtr.`, `ſ.46.1`, `ſphær.`, `ſuperfic..`, `ſemidiamet..`, `ſectr.`, `ſemic.`, `circſcri.`, `inſcri.`, and in French italic passages.
 - Period spelling, accents, and abbreviation periods (including inconsistent single/double periods like `pyram..`, `diamet.` vs `diamet..`) are kept exactly as printed.
@@ -25,7 +25,7 @@ This directory contains a page-by-page transcription of Pierre Hérigone, *Cursu
 - The book mixes a Latin `k` and a Cyrillic-looking `к` glyph, sometimes within one line (`nk 2|2 ko` vs `hк, кi`); each occurrence is transcribed as the glyph actually printed.
 - Printing errors and anomalies are **not** corrected (e.g. `docaedr.`, `ratiöne`, `parellelogramme`, `incommensubilis`, wrong margin citations, Latin/French mismatches in enunciations).
 
-## Hérigone's special symbols
+<!-- ## Hérigone's special symbols -->
 
 | Symbol | Meaning |
 |---|---|
@@ -60,7 +60,7 @@ This directory contains a page-by-page transcription of Pierre Hérigone, *Cursu
 | `req.` | quæsitum — the thing required |
 | `commun.` | common (shared element in a proof step) |
 
-## Margin citations
+<!-- ## Margin citations -->
 
 The left margin cites the justification for each proof line:
 
@@ -75,6 +75,6 @@ The left margin cites the justification for each proof line:
 - `ſuppoſ.` — by supposition/hypothesis; `conſtr.` — by construction; `arbitr.` — arbitrarily chosen; `ſymp.` — symperasma (statement of what results/is required); `d. α` — by the earlier conclusion marked α.
 - Compound cites joined as printed: `1&2.p.1`, `5.&6 12`, `7.a.1, & 4. 1`; stacked cites joined with ` / `.
 
-## Book layout of the files
+<!-- ## Book layout of the files -->
 
 11–14 Ad Lectorem; 15–21 Prolegomena; 22–29 Explicatio Notarum; 30–33 Explicatio Citationum; 34–139 Book I; 140–182 Book II; 183–229 Book III; 230–264 Book IV; 265–332 Book V; 333–384 Book VI; 385–430 Appendix; 431–491 Book VII; 492–527 Book VIII; 528–567 Book IX; 568–726 Book X; 727–780 Book XI; 781–823 Book XII; 824–863 Book XIII; 864–874 Book XIV; 875–882 Book XV.

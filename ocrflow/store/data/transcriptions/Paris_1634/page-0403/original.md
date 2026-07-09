@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 α | 2▭.aeb 2|2, 2▭.adb + 2▭.ced,
 2.concl. 3.a.1 | □.ad + □.db 2|2 □.ae + □.eb + 2▭.ced.

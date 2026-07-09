@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 A vn rectiligne donné descrire vn rectiligne semblable, plus grand ou plus petit, selon la raison donnee.
 

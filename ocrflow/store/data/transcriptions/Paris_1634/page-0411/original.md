@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 1.2 | ▭.cb,ef 2|2 ▭.cb,ed + ▭.cb,df,
 concl. 1.a.f | ▭.cae 2|2 bad + ▭.cb,ed + ▭.cb,df + ▭.bg,ed. β

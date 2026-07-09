@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. VII. -->
 
-## XII.
+### XII.
 
 Numerus metiens totum & ablatum, metitur & reliquum.
 

@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 47.1 | □.ab 2|2 □.ad + □.bd u □.cf,
 □.cf commun. subtr.

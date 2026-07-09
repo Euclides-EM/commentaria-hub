@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 acutos ad punctum C æquiualere vni recto, non opus esset alia demōstratione, ad demonstranda primum & secundum theorema angularium sectionum Francisci Vietæ : conclusiones enim huius à conclusionibus illorum non differunt, triangula primi theorematis Vietæ sunt EFC primum, ECB secundum, FCD tertium : acuti anguli sunt EFC, ECB & FCD. Triangula secundi theorematis sunt, FEC primum, AFE secundum, FCD tertium : acuti anguli sunt FCE, FEA, CFD.
 

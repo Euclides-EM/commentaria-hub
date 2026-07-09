@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. VII. -->
 
-## III.
+### III.
 
 Qui numeri æqualium numerorū, vel eiusdem eædem partes fuerint, æquales inter se sunt.
 
@@ -10,7 +10,7 @@ Qui numeri æqualium numerorū, vel eiusdem eædem partes fuerint, æquales inte
 hyp. | a, part.. c 2|2 b, part.. c, A,4. B,4. C,6.
 3.a.7 | a 2|2 b.
 
-## IV.
+### IV.
 
 Quorum idem numerus, vel æquales, eædem partes fuerint, æquales inter se sunt.
 
@@ -19,13 +19,13 @@ Quorum idem numerus, vel æquales, eædem partes fuerint, æquales inter se sunt
 hyp. | c, part.. a 2|2 c, part. b, C,4. A,6. B,6.
 4.d.7 | a 2|2 b.
 
-## V.
+### V.
 
 Vnitas omnem numerum per vnitates, quæ in ipso sunt, hoc est, per ipsummet numerum metitur.
 
 *L'vnité mesure tout nōbre, par les vnitez qui sont en iceluy, c'est à dire, par le mesme nombre.*
 
-## VI.
+### VI.
 
 Omnis numerus seipsum metitur per vnitatem.
 

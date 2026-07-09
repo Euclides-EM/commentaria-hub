@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 β | <cga 2|2 <cgh,
 4.1 | <chg 2|2 <cag, u <eca,

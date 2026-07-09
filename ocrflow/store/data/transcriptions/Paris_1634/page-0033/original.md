@@ -1,7 +1,7 @@
 
-# EXPLICATION DES CITATIONS.
+<!-- # EXPLICATION DES CITATIONS. -->
 
-## Propos. 2. libr. 1.
+### Propos. 2. libr. 1.
 
 symp. | ac 2|2 bc.
 

@@ -1,5 +1,5 @@
 
-# APPEND.. GEOM.. PLAN.
+<!-- # APPEND.. GEOM.. PLAN. -->
 
 *[Figur: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]*
 

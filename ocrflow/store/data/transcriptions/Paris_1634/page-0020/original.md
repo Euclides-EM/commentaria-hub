@@ -1,5 +1,5 @@
 
-# PROLEGOMENA.
+<!-- # PROLEGOMENA. -->
 
 <!-- (colonne gauche, latin) -->
 sum exposcant, ne vlla sit in demonstrando hæsitatio, aut difficultas.

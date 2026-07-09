@@ -1,5 +1,5 @@
 
-# EXPLICATION DES NOTES.
+<!-- # EXPLICATION DES NOTES. -->
 
 nr. numerus, le nombre.
 o, in regula trium significat numerum ignotum siue quæsitum.
