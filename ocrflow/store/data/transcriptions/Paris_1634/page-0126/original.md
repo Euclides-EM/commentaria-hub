@@ -16,7 +16,7 @@ Omne quadrilaterum habens angulos oppositos æquales, est parallegrammum.
 
 Tout quadrilatere qui a les angles opposez égaux, est parallelogramme.
 
-(figure : quadrilatere ABCD, B & C en haut, A & D en bas)
+*[Figur: quadrilatere ABCD, B & C en haut, A & D en bas]*
 
 Hypoth.
 

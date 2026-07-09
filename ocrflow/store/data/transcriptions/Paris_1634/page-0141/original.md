@@ -11,7 +11,7 @@ Cognitis lateribus rectanguli inuenire aream.
 
 Les costez d'vn rectangle estans cognus trouuer l'aire.
 
-(figure : deux rectangles quadrillez ; le premier A—B en haut, C—D en bas, 3 au dessus, 3 à gauche, 9 au milieu ; le second E—G en haut, F—H en bas, 5 au dessus, 3 à droicte, 15 au milieu)
+*[Figur: deux rectangles quadrillez ; le premier A—B en haut, C—D en bas, 3 au dessus, 3 à gauche, 9 au milieu ; le second E—G en haut, F—H en bas, 5 au dessus, 3 à droicte, 15 au milieu]*
 
 Producitur area rectanguli, ex multiplicatione numeri vnius lateris in numerum alterius lateris circa eundem angulum e.g. numerus lateris EG, 5, ductus in
 

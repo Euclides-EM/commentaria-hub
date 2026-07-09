@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. III.
 
-(figure : arc A—B—C sur la base A—D—C, lignes A—B, B—C, B—D)
+*[Figur: arc A—B—C sur la base A—D—C, lignes A—B, B—C, B—D]*
 
 Constr.
 

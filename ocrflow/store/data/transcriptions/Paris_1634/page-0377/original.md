@@ -5,7 +5,7 @@ rallelogramma, quæ similis sit parallelogrammo alteri dato.
 
 A vne ligne droicte donnee appliquer vn parallelogramme egal à vne figure rectiligne donnee, excedant icelle d'vn parallelogramme semblable à vn autre donné.
 
-(figure : parallelogramme D ; parallelogramme A, F, G auec poincts E, B, P, M sur la base R, L, O, N ; triangle C ; parallelogramme I, K, H, S)
+*[Figur: parallelogramme D ; parallelogramme A, F, G auec poincts E, B, P, M sur la base R, L, O, N ; triangle C ; parallelogramme I, K, H, S]*
 
 Hypoth.
 

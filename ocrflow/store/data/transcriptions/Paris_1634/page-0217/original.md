@@ -3,7 +3,7 @@
 
 Aux cercles égaux les angles appuyez sur circonferences égales sont égaux entr'eux; soit qu'ils y soient appuyez estant constituez aux centres, ou bien estant constituez aux circonferences.
 
-(figures : deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—B, B—C, B—I, A—C, G—A, G—I, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F)
+*[Figur: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—B, B—C, B—I, A—C, G—A, G—I, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]*
 
 Hypoth.
 
@@ -37,4 +37,4 @@ ac 2|2 df, α
 
 Req. π. demonstr.
 
-(figures : deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—C, G—A, G—C ; le second D—E—F, H au dedans, K en bas, lignes D—F, H—D, H—F)
+*[Figur: deux cercles ; le premier A—B—C, G au dedans, I en bas, lignes A—C, G—A, G—C ; le second D—E—F, H au dedans, K en bas, lignes D—F, H—D, H—F]*

@@ -11,7 +11,7 @@ Omne parallelogrammum rectangulum contineri dicitur sub rectis duabus lineis, qu
 
 Tovt parallelogramme rectangle est dit estre contenu sous deux lignes droictes, qui contiennent l'angle droict.
 
-(figure : parallelogramme rectangle ABCD, B & C en haut, A & D en bas)
+*[Figur: parallelogramme rectangle ABCD, B & C en haut, A & D en bas]*
 
 Parallelogrammum rectangulum AC, dicitur contineri sub
 

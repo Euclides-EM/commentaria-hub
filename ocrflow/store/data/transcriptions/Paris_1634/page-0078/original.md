@@ -3,7 +3,7 @@
 
 faciat, duæ illæ rectæ lineæ in infinitum productæ, sibi mutuò incident ad eas partes vbi sunt anguli duobus rectis minores. | droicts, icelles deux lignes droictes estant prolongees infiniment, se coupperont l'vne l'autre de la part où les deux angles sont moindres que deux droicts.
 
-(figure : ligne horizontale AD en bas, ligne verticale AB, ligne oblique BCD descendant de B vers D, ligne pointillée BF horizontale vers la droite)
+*[Figur: ligne horizontale AD en bas, ligne verticale AB, ligne oblique BCD descendant de B vers D, ligne pointillée BF horizontale vers la droite]*
 
 hyp. | <bad + <abc snt 2|3 2∟.
 13.a.1 | ad & bc ñ snt == ꝗe.

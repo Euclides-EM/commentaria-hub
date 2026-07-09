@@ -23,7 +23,7 @@ Demonstr.
 8.1. | <dca 2|2 <dcb,
 concl. 4.1. | ae 2|2 eb.
 
-(figure : ligne A—E—B horizontale, arcs s'entrecoupans en C au dessus et en D au dessous, ligne pointillée CD passant par E)
+*[Figur: ligne A—E—B horizontale, arcs s'entrecoupans en C au dessus et en D au dessous, ligne pointillée CD passant par E]*
 
 ## PROBL. VI. PROPOS. XI.
 
@@ -31,7 +31,7 @@ Data recta linea, à puncto in ea dato, rectam lineam ad angulos rectos excitare
 
 Sur vne ligne droicte donnée, & d'vn poinct donné en icelle éleuer vne ligne droicte perpendiculaire.
 
-(figure : ligne A—D—C—E—B horizontale, triangle DEF, F au sommet, ligne verticale FC)
+*[Figur: ligne A—D—C—E—B horizontale, triangle DEF, F au sommet, ligne verticale FC]*
 
 Hypoth.
 

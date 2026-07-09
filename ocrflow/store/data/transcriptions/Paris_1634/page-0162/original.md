@@ -3,7 +3,7 @@
 
 Si vne quantité excede vne quantité, la moitié de celle-la surpassera la moitié de celle-cy de la moitié de l'excez.
 
-(figure : demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D)
+*[Figur: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]*
 
 hyp. | ac 2|2 cb,
 hyp. | fc 2|2 cd,

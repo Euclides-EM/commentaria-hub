@@ -3,7 +3,7 @@
 
 ▭.ab 2|2 ▭.bad + ▭.abd.
 
-(figure : quarré C—F—G en haut, A—D—B en bas, ligne F—D)
+*[Figur: quarré C—F—G en haut, A—D—B en bas, ligne F—D]*
 
 Præpar.
 

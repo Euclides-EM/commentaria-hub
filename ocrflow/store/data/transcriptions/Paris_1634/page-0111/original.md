@@ -16,7 +16,7 @@ Si duo triangula duo latera duobus lateribus æqualia habuerint, vtrumque vtriqu
 
 Si deux triangles ont deux costez égaux à deux costez chacun au sien, & la base plus grande que la base ; ils auront außi l'angle contenu d'iceux plus grand que l'angle.
 
-(figure : deux triangles ABC & DEF, A & D en haut)
+*[Figur: deux triangles ABC & DEF, A & D en haut]*
 
 Hypoth.
 

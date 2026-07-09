@@ -5,7 +5,7 @@ sub æqualibus rectis lineis contentum angulo æqualem habebunt.
 
 Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & qu'ils ayent la base égale à la base, ils auront außi l'angle contenu d'iceux costez égaux égal à l'angle.
 
-(figure : deux triangles, ABC à gauche et DEF à droite)
+*[Figur: deux triangles, ABC à gauche et DEF à droite]*
 
 Hypoth.
 

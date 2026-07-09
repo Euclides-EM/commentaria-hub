@@ -20,7 +20,7 @@ Req. π. demonstr.
 
 bc 3|2 e.
 
-(figure : lignes verticales C—F et A, B, D, E)
+*[Figur: lignes verticales C—F et A, B, D, E]*
 
 Demonstr.
 

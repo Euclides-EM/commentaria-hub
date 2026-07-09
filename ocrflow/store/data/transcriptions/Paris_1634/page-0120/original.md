@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA)
+*[Figur: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]*
 
 Demonstr.
 

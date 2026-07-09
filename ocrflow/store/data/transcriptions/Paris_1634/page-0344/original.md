@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. VI.
 
-(figure : triangles A, B, C et D, G avec E, F)
+*[Figur: triangles A, B, C et D, G avec E, F]*
 
 Hypoth.
 

@@ -15,7 +15,7 @@ Cognitis lateribus trianguli, inuenire segmentum inter perpendicularem & acutum 
 
 Estans cognus les costez d'vn triangle, trouuer le segment compris entre la perpendiculaire & l'angle aigu.
 
-(figure : triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D)
+*[Figur: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]*
 
 hyp. | ab est 8,
 hyp. | ac est 5,

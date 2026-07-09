@@ -5,7 +5,7 @@ quàm secundæ posteriorum ad tertiam : Erit quoque ex æqualitate maior proport
 
 S'il y a trois grandeurs, & d'autres egales à icelles en nombre, & qu'il y ait plus grande raison de la premiere des premieres à la seconde, que de la premiere des dernieres à la seconde ; pareillement qu'il y ait plus grande raison de la seconde des premieres à la tierce, que de la seconde des dernieres à la tierce : En raison egale, il y aura aussi plus grande raison de la premiere des premieres à la tierce, que de la premiere des dernieres à la tierce.
 
-(figure : lignes A ; B ; C ; G ; H ; D ; E ; F)
+*[Figur: lignes A ; B ; C ; G ; H ; D ; E ; F]*
 
 Hypoth.
 

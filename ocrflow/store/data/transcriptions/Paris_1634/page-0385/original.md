@@ -11,7 +11,7 @@ Descrire vn triangle egal à vn rectiligne donné.
 
 Bagdedinus de diuisionibus superficierum propositione 17.
 
-(figure : rectiligne B, C, D, E sur la base L, A, F, G, H ; en marge : abcdef, abcdg, abch, lch)
+*[Figur: rectiligne B, C, D, E sur la base L, A, F, G, H ; en marge : abcdef, abcdg, abch, lch]*
 
 Hypoth.
 

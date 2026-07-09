@@ -12,7 +12,7 @@ Super æqualibus rectis lineis, similia circulorum segmenta sunt inter se æqual
 
 Semblables segments de cercles, constituez sur lignes droictes égales, sont égaux entr'eux.
 
-(figures : quatre segments ; le premier A—B—C sur la base A—C ; le second D—E—F sur la base D—F ; le troisiesme et le quatriesme superposez A/D—B—E—C/F, G en haut à droicte)
+*[Figur: quatre segments ; le premier A—B—C sur la base A—C ; le second D—E—F sur la base D—F ; le troisiesme et le quatriesme superposez A/D—B—E—C/F, G en haut à droicte]*
 
 Hypoth.
 

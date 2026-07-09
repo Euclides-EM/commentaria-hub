@@ -5,7 +5,7 @@ rectum angulum subtēdente descripta, æqualis est figuris, quæ priori illi sim
 
 Aux triangles rectangles, la figure descrite sur le costé qui soustient l'angle droict, est egale aux deux figures des costez qui contiennent l'angle droict, semblables à icelle, & semblablement descrites.
 
-(figure : triangle B, A, C auec poinct D, parallelogrammes G, H et I, L sur les costez, et rectangle E, F sous la base)
+*[Figur: triangle B, A, C auec poinct D, parallelogrammes G, H et I, L sur les costez, et rectangle E, F sous la base]*
 
 Hypoth.
 

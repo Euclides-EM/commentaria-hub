@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : ligne G—A—D—H en haut, ligne B—C—E—F en bas ; triangles BCA & EFD dans le trapeze GBFH)
+*[Figur: ligne G—A—D—H en haut, ligne B—C—E—F en bas ; triangles BCA & EFD dans le trapeze GBFH]*
 
 Hypoth.
 
@@ -30,7 +30,7 @@ Triägula æqualia super eadem basi, & ad easdem partes constituta; & in eisdem 
 
 Les triangles égaux constituez sur mesme base, & de mesme part, sont entre mesmes paralleles.
 
-(figure : A en haut à gauche, D & F en haut à droicte, E entre deux, B & C en bas ; triangles BCA & BCD, lignes B—D, B—F, C—F, A—C)
+*[Figur: A en haut à gauche, D & F en haut à droicte, E entre deux, B & C en bas ; triangles BCA & BCD, lignes B—D, B—F, C—F, A—C]*
 
 Hypoth.
 

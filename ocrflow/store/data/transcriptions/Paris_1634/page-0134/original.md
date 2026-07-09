@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : à gauche triangle B auec base A & l'angle C ; à droicte figure D—E—I en haut, G—F—H au milieu, K—M—L en bas ; diametre K—F—I, lignes E—M & G—H se coupans en F)
+*[Figur: à gauche triangle B auec base A & l'angle C ; à droicte figure D—E—I en haut, G—F—H au milieu, K—M—L en bas ; diametre K—F—I, lignes E—M & G—H se coupans en F]*
 
 fh 2|2 a,
 <mfh 2|2 <c,

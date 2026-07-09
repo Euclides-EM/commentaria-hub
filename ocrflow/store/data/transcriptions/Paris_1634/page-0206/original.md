@@ -1,7 +1,7 @@
 
 # ELEM.. EVDLID. LI. III.
 
-(figure : cercle G—I—L—H, B au centre, ligne C—F—A—D tangente en haut, E au dedans, lignes B—G, B—E, B—H, A—I, A—L)
+*[Figur: cercle G—I—L—H, B au centre, ligne C—F—A—D tangente en haut, E au dedans, lignes B—G, B—E, B—H, A—I, A—L]*
 
 arbitr. | f, est • in ac,
 1.p.1 | bf est —,

@@ -8,13 +8,13 @@ hyp. | df 3|2 ½de.
 hyp. | hl 2|2 ⅓gl.
 3.a.b. | gh 2|2 ⅔gl.
 
-(figure : trois lignes horizontales, ACB en haut, DFE au milieu, GHL au dessous)
+*[Figur: trois lignes horizontales, ACB en haut, DFE au milieu, GHL au dessous]*
 
 ### 4. a. 1.
 
 Et si inæqualibus æqualia adiecta sint, tota sunt inæqualia. | Et si à choses inegales on adiouste choses egales, les tous sont inegaux.
 
-(figure : ligne ABE en haut, ligne CDF au dessous)
+*[Figur: ligne ABE en haut, ligne CDF au dessous]*
 
 hyp. | ab 3|2 cd.
 hyp. | be 2|2 df.
@@ -24,7 +24,7 @@ hyp. | be 2|2 df.
 
 Et si æqualibus inæqualia adiecta sint, tota sunt inæqualia. | Et si à choses egales on adjouste choses inegales, les tous sont inegaux.
 
-(figure : ligne ABE en haut, ligne CDF au dessous)
+*[Figur: ligne ABE en haut, ligne CDF au dessous]*
 
 hyp. | ab 2|2 cd.
 hyp. | be 3|2 df.

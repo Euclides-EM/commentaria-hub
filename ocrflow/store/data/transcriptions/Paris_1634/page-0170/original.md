@@ -7,7 +7,7 @@ concl. 1.a.1. | ▭.ad + ▭.db 2|2, 2▭.ce + 2▭.cd.
 
 Explicat. p nr.
 
-(figure : demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D)
+*[Figur: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]*
 
 hypoth. | ab est 10,
 | ac u ce est 5,

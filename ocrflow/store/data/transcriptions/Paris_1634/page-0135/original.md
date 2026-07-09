@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : à gauche quadrilatere ABCD, B & C en haut, A & D en bas, diagonale poinctée B—D ; l'angle E ; à droicte parallelogramme F—G—H—L en haut, F—I—K en bas, ligne H—I)
+*[Figur: à gauche quadrilatere ABCD, B & C en haut, A & D en bas, diagonale poinctée B—D ; l'angle E ; à droicte parallelogramme F—G—H—L en haut, F—I—K en bas, ligne H—I]*
 
 Req. π. fa,
 
@@ -34,7 +34,7 @@ Datis duobus rectilineis inæqualibus, excessum maioris supra minus inquirere.
 
 Deux figures rectilignes estans proposées, trouuer l'excez dont la plus grande excede la plus petite.
 
-(figure : deux figures rectilignes A & B ; à droicte rectangle C—H—F en haut, D—G—E en bas, ligne H—G)
+*[Figur: deux figures rectilignes A & B ; à droicte rectangle C—H—F en haut, D—G—E en bas, ligne H—G]*
 
 Hypoth.
 

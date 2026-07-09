@@ -5,7 +5,7 @@
 
 Demonstr.. composit.. raō. conuers.
 
-(figure : ligne A—B—C et ligne D—E—F)
+*[Figur: ligne A—B—C et ligne D—E—F]*
 
 hypoth. | ab π bc 2|2 de π ef.
 

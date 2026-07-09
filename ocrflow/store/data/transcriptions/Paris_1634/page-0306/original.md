@@ -7,7 +7,7 @@ Partes cum pariter multiplicibus in eadem sunt ratione, si provt sibi mutuò res
 
 Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre-respondent.
 
-(figure : lignes verticales B—G—A, E—H, C, D, F)
+*[Figur: lignes verticales B—G—A, E—H, C, D, F]*
 
 Hypoth.
 

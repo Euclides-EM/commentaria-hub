@@ -43,7 +43,7 @@ Descrire vn quarré egal à vn triangle donné.
 
 14.2.Elem.
 
-(figure : triangle A, C, B auec E, G, H, F & le quarré N, M sous la base, & le demicercle passant par N, M iusques à I)
+*[Figur: triangle A, C, B auec E, G, H, F & le quarré N, M sous la base, & le demicercle passant par N, M iusques à I]*
 
 Hypoth.
 

@@ -11,7 +11,7 @@ Inuenire rectam lineam, ad quam data recta, sit in ratione similium datorum rect
 
 Trouuer vne ligne droicte, à laquelle vne ligne droicte donnee, soit en la raison de deux rectilignes semblables donnez.
 
-(figure : pentagone A, B, C, D, E ; pentagone F, G, H, I, K ; lignes L, M, N à part)
+*[Figur: pentagone A, B, C, D, E ; pentagone F, G, H, I, K ; lignes L, M, N à part]*
 
 Hypoth.
 

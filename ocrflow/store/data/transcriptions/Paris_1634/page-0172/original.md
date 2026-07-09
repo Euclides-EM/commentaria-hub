@@ -19,7 +19,7 @@ constr. | <ecb est ∟,
 s.46.1 47.1 47.1 47.1 | ▭.ad + ▭.bd, ▭.ad + ▭.dg, ▭.ag, ▭.ae + ▭.eg, 2▭.ac + 2▭.cd, snt 2|2 ⁊e,
 concl. 1.a.1 | ▭.ad + ▭.bd 2|2 2▭.ac + 2.▭cd.
 
-(figure : triangle A—E—B avec E au sommet, F en haut à droite, C, B sur la base, D à droite, G en bas à droite, lignes E—F, F—D, A—G, E—G)
+*[Figur: triangle A—E—B avec E au sommet, F en haut à droite, C, B sur la base, D à droite, G en bas à droite, lignes E—F, F—D, A—G, E—G]*
 
 ## PROPOS. X. ALITER. — AVTREMENT.
 

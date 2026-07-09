@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : trois triangles sur bases AB, avec poincts C, D au sommet ; au milieu lignes E, F, G, D s'entrecroisant ; à droite C, D au sommet)
+*[Figur: trois triangles sur bases AB, avec poincts C, D au sommet ; au milieu lignes E, F, G, D s'entrecroisant ; à droite C, D au sommet]*
 
 Hypoth.
 

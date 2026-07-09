@@ -5,7 +5,7 @@ sextam : prima quoque ad secundam maiorem rationem habebit, quàm quinta ad sext
 
 Si la premiere a mesme raison à la seconde que la troisiesme à la quatriesme ; mais la troisiesme a plus grande raison à la quatriesme, que la cinquiesme à la sixiesme : aussi la premiere aura plus grande raison à la seconde, que la cinquiesme à la sixiesme.
 
-(figure : lignes G, A, B, K ; H, C, D, L ; I, E, F, M)
+*[Figur: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]*
 
 Hypoth.
 

@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : trois lignes A, B, C en haut ; deux cercles s'entrecoupans en K & I, centres F & G, ligne D—F—M—L—G—H—E, triangle FGK)
+*[Figur: trois lignes A, B, C en haut ; deux cercles s'entrecoupans en K & I, centres F & G, ligne D—F—M—L—G—H—E, triangle FGK]*
 
 3.p.1. | ghkm est ⊙,
 1.p.1. | fk & gk snt —,
@@ -23,7 +23,7 @@ Ad datam rectam lineam, datúmque in ea punctum, dato angulo rectilineo æqualem
 
 A vne ligne droicte donnée, & à vn poinct donné en icelle, faire vn angle rectiligne égal à vn angle rectiligne donné.
 
-(figure : angle DCE auec poincts F, E ; triangle AGH auec poinct B, G & H sur la base)
+*[Figur: angle DCE auec poincts F, E ; triangle AGH auec poinct B, G & H sur la base]*
 
 Hypoth.
 

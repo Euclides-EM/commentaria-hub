@@ -13,7 +13,7 @@ A dato puncto, datæ rectæ lineæ parallelam rectam lineam ducere.
 
 D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donnée.
 
-(figure : ligne E—A—F en haut, ligne B—D—C en bas, ligne A—D)
+*[Figur: ligne E—A—F en haut, ligne B—D—C en bas, ligne A—D]*
 
 Hypoth.
 

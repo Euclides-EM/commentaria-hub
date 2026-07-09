@@ -11,7 +11,7 @@ Omnes anguli figuræ rectilineæ cuiusuis æquales sunt bis tot rectis angulis, 
 
 Tous les angles de quelconque figure rectiligne, sont égaux à deux fois autant d'angles droicts, quatre estant ostez, qu'elle a de costez ou d'angles.
 
-(figure : vn quadrilatere, vn pentagone & vn hexagone, chacun diuisé en triangles par des lignes menées d'vn poinct au dedans à tous les angles)
+*[Figur: vn quadrilatere, vn pentagone & vn hexagone, chacun diuisé en triangles par des lignes menées d'vn poinct au dedans à tous les angles]*
 
 Si enim, à quocunque puncto intra figuram assumpto, ad omnes angulos rectæ lineæ ducantur, efficientur tot triangula,
 

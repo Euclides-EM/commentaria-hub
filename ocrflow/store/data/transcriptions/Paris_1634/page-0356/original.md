@@ -5,7 +5,7 @@ extremis comprehenditur rectangulum, æquale est ei, quod à media describitur, 
 
 Si trois lignes droictes sont proportionelles : le rectangle contenu sous les extremes est egal au quarré de la moyenne : Et si le rectangle contenu sous les extremes est egal au quarré de la moyenne, les trois lignes droictes seront proportionelles.
 
-(figure : lignes A—B ; E—F ; F—G ; C—B et rectangle A, B, D, C ; quarré E, F, H, G)
+*[Figur: lignes A—B ; E—F ; F—G ; C—B et rectangle A, B, D, C ; quarré E, F, H, G]*
 
 Hypoth. 1.
 

@@ -3,7 +3,7 @@
 
 angle, & les costez qui sont autour des angles egaux reciproques sont egaux.
 
-(figure : triangles A, B, C et D, B, E croisez en B)
+*[Figur: triangles A, B, C et D, B, E croisez en B]*
 
 Hypoth. commun.
 

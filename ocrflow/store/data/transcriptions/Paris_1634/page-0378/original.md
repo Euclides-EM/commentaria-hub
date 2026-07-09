@@ -23,7 +23,7 @@ Data media trium proportionalium, & differentia extremarum, inuenire extremas.
 
 Estant donné la moyenne de trois proportionnelles, & la difference des extremes, trouuer les extremes.
 
-(figure : demi-cercle E sur la base A, F, C, D, B)
+*[Figur: demi-cercle E sur la base A, F, C, D, B]*
 
 Hypoth.
 

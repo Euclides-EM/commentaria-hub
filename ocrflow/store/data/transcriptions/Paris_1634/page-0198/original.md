@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. III.
 
-(figure : cercle L—E—F—G—H—I, K au centre, A au dessus du cercle, B, C, D entre L et E, lignes de A vers L, B, C, D, E, K, F, G, lignes de K vers E, F, G, H)
+*[Figur: cercle L—E—F—G—H—I, K au centre, A au dessus du cercle, B, C, D entre L et E, lignes de A vers L, B, C, D, E, K, F, G, lignes de K vers E, F, G, H]*
 
 ah 3|2 ag,
 ag 3|2 af,

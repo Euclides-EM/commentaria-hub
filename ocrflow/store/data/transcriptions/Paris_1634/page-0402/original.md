@@ -11,7 +11,7 @@ concl. 29.1 | bc == ef.
 
 Pappus lib. 7. propos. 57.
 
-(figure : deux demicercles sur A B & sur C D, auec les poincts A, C, F, E, D, B, & les lignes F G, E L)
+*[Figur: deux demicercles sur A B & sur C D, auec les poincts A, C, F, E, D, B, & les lignes F G, E L]*
 
 Hypoth.
 

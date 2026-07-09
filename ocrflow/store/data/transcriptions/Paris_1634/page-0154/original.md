@@ -11,7 +11,7 @@ Si cuius quadrato numero addatur quadratus numerus cum duplo plani sub lateribus
 
 Si à quelque nombre quarré est adiousté vn nombre quarré auec le double du plan contenu sous les costez des quarrez, la somme sera vn nombre quarré.
 
-(figure : quarré A—G—D en haut, B—H—C en bas, E—I—F au milieu, diagonale A—I—C, ligne G—I—H)
+*[Figur: quarré A—G—D en haut, B—H—C en bas, E—I—F au milieu, diagonale A—I—C, ligne G—I—H]*
 
 Demonstr.
 

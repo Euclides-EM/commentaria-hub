@@ -7,7 +7,7 @@ Altitudo cuiusque figuræ est linea perpendicularis à vertice ad basin deducta.
 
 La hauteur de quelconque figure est la ligne perpendiculaire menee du sommet sur la base.
 
-(figure : triangle A, B, C avec perpendiculaire A—D)
+*[Figur: triangle A, B, C avec perpendiculaire A—D]*
 
 hyp. | ad ⊥ bc,
 4.d.5 | ad est alt.. Δabc, α

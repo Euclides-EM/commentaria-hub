@@ -37,7 +37,7 @@ Ex hoc scholio perspicua est demonstratio methodi qua expeditus recta linea, per
 
 De cet scholie est manifeste la demonstration d'vne methode plus briefue de mener vne ligne droicte, par vn poinct donné, parallele à vne ligne droicte donnée.
 
-(figure : ligne A—E—F—B en haut, ligne C—D en bas, arcs se coupans en D)
+*[Figur: ligne A—E—F—B en haut, ligne C—D en bas, arcs se coupans en D]*
 
 Hypoth.
 

@@ -7,7 +7,7 @@ SVper data recta linea terminata, triangulum æquilaterum constituere.
 
 Sur vne ligne droicte donnée & terminée, descrire vn triangle equilateral.
 
-(figure : deux cercles s'entrecoupant, centres A et B, points D, C, E en haut, triangle ABC inscrit)
+*[Figur: deux cercles s'entrecoupant, centres A et B, points D, C, E en haut, triangle ABC inscrit]*
 
 Hypoth.
 

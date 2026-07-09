@@ -14,7 +14,7 @@ Req. π. demonstr.
 
 ▭.ab 2|2 ▭.ac + ▭.cb + 2▭.acb,
 
-(figure : quarré E—F—D en haut, A—C—B en bas, H—G—I au milieu, diagonale E—G—B, ligne F—G—C)
+*[Figur: quarré E—F—D en haut, A—C—B en bas, H—G—I au milieu, diagonale E—G—B, ligne F—G—C]*
 
 Præpar.
 

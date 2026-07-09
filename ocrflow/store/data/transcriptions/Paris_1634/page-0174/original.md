@@ -9,7 +9,7 @@ Hypoth.
 
 ab est — D.
 
-(figure : quarré C—B—A—D, ligne I—G—H, D, E, A, F en bas, G sous B, ligne oblique E—B, rectangle G—H—F—A à droite)
+*[Figur: quarré C—B—A—D, ligne I—G—H, D, E, A, F en bas, G sous B, ligne oblique E—B, rectangle G—H—F—A à droite]*
 
 Req. π. fa.
 

@@ -11,7 +11,7 @@ Cognita area rectanguli & vno laterum, inuenire alterum latus.
 
 L'aire d'vn rectangle estant cogneuë, & l'vn des costez trouuer l'autre costé.
 
-(figure : deux rectangles quadrillez ; le premier A—B en haut, C—D en bas, 3 au dessus, 3 à gauche, 9 au milieu ; le second E—G en haut, F—H en bas, 5 au dessus, 3 à droicte, 15 au milieu)
+*[Figur: deux rectangles quadrillez ; le premier A—B en haut, C—D en bas, 3 au dessus, 3 à gauche, 9 au milieu ; le second E—G en haut, F—H en bas, 5 au dessus, 3 à droicte, 15 au milieu]*
 
 Diuidatur numerus areæ per numerum lateris dati, quotiens erit quæsitus numerus e.g. numerus areæ EH, 15. diuisus per numerum lateris EG. 5, dat. 3, pro numero alterius lateris GH.
 

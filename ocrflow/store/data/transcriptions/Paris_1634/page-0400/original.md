@@ -1,7 +1,7 @@
 
 # APPEND.. GEOM.. PLAN.
 
-(figure : demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E)
+*[Figur: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]*
 
 α | ▭.adf 2|2 ▭.edh,
 1.a.1 | ▭.edi 2|2 ▭.edh,

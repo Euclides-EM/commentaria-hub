@@ -23,7 +23,7 @@ Triangula super eadem basi constituta, & in eisdem parallelis, inter se sunt æq
 
 Les triangles constituez sur mesme base, & entre mesmes paralleles, sont égaux entr'eux.
 
-(figure : ligne E—A—D—F en haut, ligne B—C en bas ; triangles BCA & BCD, lignes E—B, E—C, F—B, F—C)
+*[Figur: ligne E—A—D—F en haut, ligne B—C en bas ; triangles BCA & BCD, lignes E—B, E—C, F—B, F—C]*
 
 Hypoth.
 

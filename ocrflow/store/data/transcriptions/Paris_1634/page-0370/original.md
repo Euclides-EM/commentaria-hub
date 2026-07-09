@@ -9,7 +9,7 @@ In omni parallelogrammo, quæ circa diametrum sunt parallelogrāma & toti, & int
 
 En tout parallelogramme, les parallelogrammes qui sont à l'entour du diametre, sont semblables à leur tout, & entr'eux.
 
-(figure : parallelogramme A, B, C, D auec diametre A—C, points E, G, I, H, F)
+*[Figur: parallelogramme A, B, C, D auec diametre A—C, points E, G, I, H, F]*
 
 Hypoth.
 

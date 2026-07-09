@@ -13,7 +13,7 @@ Estant donnee la base d'vn triangle rectangle, & la moyenne proportionnelle entr
 
 Vieta in effectionibus Geometricis.
 
-(figure : cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part)
+*[Figur: cercle auec les poincts F, A, D, B, E, G, C ; ligne H à part]*
 
 Hypoth.
 

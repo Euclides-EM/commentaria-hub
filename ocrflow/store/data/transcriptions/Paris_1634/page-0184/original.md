@@ -10,7 +10,7 @@ touchant le cercle, si elle est prolongée, ne le couppe point.
 2.d.3 | eb est tangen.
 2.d.3 | fg est secan.
 
-(figure : cercle C—F—D, ligne A—E—G—B tangente en bas, ligne C—E verticale, lignes F—D et F—G)
+*[Figur: cercle C—F—D, ligne A—E—G—B tangente en bas, ligne C—E verticale, lignes F—D et F—G]*
 
 Explicatio notarum.
 
@@ -32,7 +32,7 @@ Circuli se mutuo tangere dicuntur, qui se mutuo tangétes sese mutuo non secant.
 
 Les cercles sont dits se toucher l'vn l'autre, lesquels en se touchant l'vn l'autre, ne se couppent point.
 
-(figure : trois cercles, le premier A—C—E contenant vn petit cercle D—A—C touchant par dedans en A, le second cercle B—G—F touchant le premier en B, le troisiesme cercle G—F—H couppant le second en G et F)
+*[Figur: trois cercles, le premier A—C—E contenant vn petit cercle D—A—C touchant par dedans en A, le second cercle B—G—F touchant le premier en B, le troisiesme cercle G—F—H couppant le second en G et F]*
 
 Circulus DAC tangit circulum ABE interius in A.
 

@@ -14,7 +14,7 @@ Secteur du cercle est vne figure, contenuë sous deux lignes droictes qui consti
 hypoth. | d est centr.. ⊙,
 9.d.3 | adb est sectr.. ⊙,
 
-(figure : cercle avec A et B en haut, C en bas, D au centre, lignes D—A et D—B)
+*[Figur: cercle avec A et B en haut, C en bas, D au centre, lignes D—A et D—B]*
 
 Explicatio notarum.
 

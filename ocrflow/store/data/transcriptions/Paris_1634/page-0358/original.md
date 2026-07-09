@@ -32,7 +32,7 @@ Req. π. demonstr.
 
 raō.. Δabc π Δdef 2|2, 2 raō.. bc π ef.
 
-(figure : triangles A, B, G, C et D, E, F)
+*[Figur: triangles A, B, G, C et D, E, F]*
 
 Præpar.
 

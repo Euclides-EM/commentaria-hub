@@ -4,7 +4,7 @@
 31.1 | fh == ed,
 31.1 | dh == ef.
 
-(figure : parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H)
+*[Figur: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]*
 
 Demonstr.
 

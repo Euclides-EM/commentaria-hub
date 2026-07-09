@@ -8,7 +8,7 @@ Hypoth. 1.
 eabc est ⊙,
 ad 2|2 bc,
 
-(figure : cercle A—B—C—D, E au centre, F et G au dedans, lignes A—D, B—C, E—A, E—B, E—F, E—G)
+*[Figur: cercle A—B—C—D, E au centre, F et G au dedans, lignes A—D, B—C, E—A, E—B, E—F, E—G]*
 
 Præpar.
 

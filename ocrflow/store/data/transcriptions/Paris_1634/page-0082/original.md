@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : ligne A—E—B en haut, ligne C—F—D au dessous)
+*[Figur: ligne A—E—B en haut, ligne C—F—D au dessous]*
 
 hyp. | ab 2|2 2cd.
 hyp. | ae 2|2 2cf.
@@ -11,7 +11,7 @@ hyp. | ae 2|2 2cf.
 
 Si singulæ partes primæ magnitudinis sint duplæ singularum partium secundæ magnitudinis, prima magnitudo erit dupla secundæ magnitudinis. | Si chaque partie de la premiere grandeur est double de chaque partie de la seconde grandeur, la premiere grandeur sera double de la seconde.
 
-(figure : ligne A—E—B en haut, ligne C—F—D au dessous)
+*[Figur: ligne A—E—B en haut, ligne C—F—D au dessous]*
 
 hyp. | ae 2|2 2cf.
 hyp. | eb 2|2 2fd.
@@ -21,7 +21,7 @@ hyp. | eb 2|2 2fd.
 
 Omnis magnitudo est talis qualis dicitur esse, si aliter esse non potest. | Toute grandeur est telle qu'elle se dit, si elle ne peut estre autrement.
 
-(figure : ligne A en haut, ligne B plus courte au dessous)
+*[Figur: ligne A en haut, ligne B plus courte au dessous]*
 
 hyp. | a ñ est 3|2 b.
 hyp. | a ñ est 2|3 b.

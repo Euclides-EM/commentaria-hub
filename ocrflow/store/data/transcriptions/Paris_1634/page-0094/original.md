@@ -15,7 +15,7 @@ concl. 10.d.1. | fc ⊥ ab.
 
 CONSTR.. PRA.
 
-(figure : à gauche, ligne B—A—C, arcs D et G, ligne verticale AE, arcs s'entrecoupans en E ; à droite, ligne D—A—C, trois cercles s'entrecoupans, poincts E en haut, G à droite, A en bas)
+*[Figur: à gauche, ligne B—A—C, arcs D et G, ligne verticale AE, arcs s'entrecoupans en E ; à droite, ligne D—A—C, trois cercles s'entrecoupans, poincts E en haut, G à droite, A en bas]*
 
 hyp. | a est • D. ⟨n bc,
 3.p.1. | acgd, cg, gde, dge snt ⊙ 2|2 ꝗe arbitr.

@@ -7,7 +7,7 @@ Sequitur ex hac propositione omnium rectarum ex quouis puncto ad rectam quamcumq
 
 Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne ligne droicte tant de lignes droictes qu'on voudra, l'vne desquelles soit perpendiculaire, icelle perpendiculaire sera la plus petite de toutes.
 
-(figure : triangle ABC, poinct A en haut, ligne AD perpendiculaire sur BC, D entre B et C)
+*[Figur: triangle ABC, poinct A en haut, ligne AD perpendiculaire sur BC, D entre B et C]*
 
 Hypoth.
 
@@ -31,7 +31,7 @@ Omnis trianguli duo latera reliquo sunt maiora, quomodocunque assumpta.
 
 De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient pris.
 
-(figure : triangle ABC, costé BA prolongé vers D en haut, ligne DC)
+*[Figur: triangle ABC, costé BA prolongé vers D en haut, ligne DC]*
 
 Hypoth.
 

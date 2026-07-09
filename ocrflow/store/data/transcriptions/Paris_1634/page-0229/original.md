@@ -3,7 +3,7 @@
 
 Si hors le cercle on prend quelque poinct, & d'iceluy poinct, tombent au cercle deux lignes droictes, vne desquelles couppe le cercle & l'autre l'atteint. Et que le rectangle contenu sous toute la couppante, & sa partie de dehors, prise entre le poinct & la circonference conuexe soit égal au quarré de l'atteignante, icelle atteignante touchera le cercle.
 
-(figure : cercle B—F—A, C et E au dedans, D au dehors en haut, lignes D—B, D—C—E—A, D—F, B—E, F—E)
+*[Figur: cercle B—F—A, C et E au dedans, D au dehors en haut, lignes D—B, D—C—E—A, D—F, B—E, F—E]*
 
 Hypoth.
 

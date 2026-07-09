@@ -34,7 +34,7 @@ in 3. & 4. figur.
 
 Pappus lib. 7. propos. 108.
 
-(figure : cercle auec les poincts A, D, F, E, B, C, G ; ligne H E F, & tangente H B)
+*[Figur: cercle auec les poincts A, D, F, E, B, C, G ; ligne H E F, & tangente H B]*
 
 Hypoth.
 

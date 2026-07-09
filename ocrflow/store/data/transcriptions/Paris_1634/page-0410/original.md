@@ -24,7 +24,7 @@ concl. 31.6 | ▭.cae 2|2 ▭.bad + ▭.cb,ed. α
 
 Hypoth.. 2. cas.
 
-(figure auec les poincts F, D, E, A, C, B, G)
+*[Figur: auec les poincts F, D, E, A, C, B, G]*
 
 Δabc sml. Δade,
 

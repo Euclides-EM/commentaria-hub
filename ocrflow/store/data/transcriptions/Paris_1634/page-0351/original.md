@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. VI.
 
-(figure : demi-cercle A, E, B avec point F)
+*[Figur: demi-cercle A, E, B avec point F]*
 
 Hypoth.
 

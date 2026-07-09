@@ -5,7 +5,7 @@ hyp. | <bcd 2|2 <ecg,
 1.s.1.51 | dce est —,
 2.p.1 | adh & fgh snt —.
 
-(figure : parallelogrammes A, B, C, D, H, G et C, E, F, G se touchant en C)
+*[Figur: parallelogrammes A, B, C, D, H, G et C, E, F, G se touchant en C]*
 
 Demonstr.
 
@@ -20,7 +20,7 @@ Triangula, quæ vnum angulum vni angulo æqualem habent, eandem proportionem hab
 
 Les triangles qui ont vn angle egal à vn angle, sont en mesme raison, que les rectangles contenus sous les costez comprenans l'angle egal.
 
-(figure : triangles A, B, C auec poinct G et D, E, F auec poinct H)
+*[Figur: triangles A, B, C auec poinct G et D, E, F auec poinct H]*
 
 Hypoth.
 

@@ -10,7 +10,7 @@ Quæ ad eandem, eandem habent rationem, æquales sunt inter se : Et ad quas eade
 
 Les grandeurs qui ont mesme raison à vne mesme grandeur, sont égales entr'elles : Et celles-là ausquelles vne mesme grandeur a mesme raison, sont aussi égales entr'elles.
 
-(figure : trois lignes verticales A, B, C)
+*[Figur: trois lignes verticales A, B, C]*
 
 Hypoth. 1.
 

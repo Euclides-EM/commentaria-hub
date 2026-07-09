@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. III.
 
-(figure : cercle A—B—E—F—C, D au dedans, E au dehors en haut, lignes A—C, B—E, B—F, B—C, B—D, F—C)
+*[Figur: cercle A—B—E—F—C, D au dedans, E au dehors en haut, lignes A—C, B—E, B—F, B—C, B—D, F—C]*
 
 <abc est ∟,
 <cab 2|3 ∟,

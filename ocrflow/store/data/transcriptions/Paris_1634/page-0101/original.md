@@ -33,7 +33,7 @@ Ab eodem puncto ad vnam eandemque lineam rectam, non possunt duci plures lineas 
 
 D'vn poinct sur vne mesme ligne droicte, on ne peut mener, plus de deux lignes droictes égales entr'elles.
 
-(figure : triangle ACB, poinct D sur AB entre A et B, ligne CD)
+*[Figur: triangle ACB, poinct D sur AB entre A et B, ligne CD]*
 
 Hypoth.
 

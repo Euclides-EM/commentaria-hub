@@ -9,7 +9,7 @@ SIMILES figuræ rectilineæ sunt, quæ & angulos singulos singulis æquales habe
 
 SEMBLABLES figures rectilignes, sont celles qui ont les angles egaux, vn chacun au sien, & les costez qui sont à l'entour des angles egaux, proportionaux.
 
-(figure : triangles A, B, C et D, C, E)
+*[Figur: triangles A, B, C et D, C, E]*
 
 hypoth. | <a 2|2 <d,
 hyp. | <b 2|2 <dce,

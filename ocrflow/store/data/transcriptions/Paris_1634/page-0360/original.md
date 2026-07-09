@@ -3,7 +3,7 @@
 
 Et les polygones sont l'vn à l'autre en raison doublee de leurs costez de mesme raison.
 
-(figure : pentagones A, B, C, D, E et F, G, H, I, K)
+*[Figur: pentagones A, B, C, D, E et F, G, H, I, K]*
 
 Hypoth.
 

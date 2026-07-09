@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. III.
 
-(figure : deux cercles s'entrecouppans en B et C, E au dedans, A et D à gauche, lignes B—E et E—D—A)
+*[Figur: deux cercles s'entrecouppans en B et C, E au dedans, A et D à gauche, lignes B—E et E—D—A]*
 
 15.d.1 | ed 2|2 eb,
 15.d.1 | ea 2|2 eb,
@@ -14,7 +14,7 @@ Si duo circuli sese mutuò interius tangant; eorum non erit idem centrum.
 
 Si deux cercles se touchent l'vn l'autre au dedans, ils n'auront pas mesme centre.
 
-(figure : deux cercles se touchans en B, le petit au dedans du grand, F au dedans, E à droite, A et D à gauche, C en bas à droite, lignes B—F et F—D—A)
+*[Figur: deux cercles se touchans en B, le petit au dedans du grand, F au dedans, E à droite, A et D à gauche, C en bas à droite, lignes B—F et F—D—A]*
 
 Hypoth.
 

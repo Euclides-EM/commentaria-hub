@@ -49,4 +49,4 @@ Constr.
 3.1 | fg 2|2 c,
 1.p.1 | eg est —,
 
-(figure : lignes E D, D F, F G, G E & le quarré G, H sur E G ; lignes A, B, C à part)
+*[Figur: lignes E D, D F, F G, G E & le quarré G, H sur E G ; lignes A, B, C à part]*

@@ -11,7 +11,7 @@ Si duæ rectæ lineæ se mutuo secuerint, angulos ad verticem æquales inter se 
 
 Si deux lignes droictes se couppent l'vne l'autre, elles feront les angles au sommet égaux entr'eux.
 
-(figure : ligne A—E—B horizontale, ligne oblique C—E—D)
+*[Figur: ligne A—E—B horizontale, ligne oblique C—E—D]*
 
 Hypoth.
 

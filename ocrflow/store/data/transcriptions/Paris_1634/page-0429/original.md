@@ -9,7 +9,7 @@ Præpar.
 2.p.1 | gbl est —,
 1.p.1 | cl est —.
 
-(figure : cercle auec les poincts A, E, C, I, L, F, B, G, D)
+*[Figur: cercle auec les poincts A, E, C, I, L, F, B, G, D]*
 
 Demonstr.
 
@@ -33,7 +33,7 @@ arbitr. | d, est • in bd,
 
 dg & dh snt —.
 
-(figure : cercle auec les poincts A, L, G, C, H, F, E, B, I, K, D)
+*[Figur: cercle auec les poincts A, L, G, C, H, F, E, B, I, K, D]*
 
 Req. π. demonstr.
 

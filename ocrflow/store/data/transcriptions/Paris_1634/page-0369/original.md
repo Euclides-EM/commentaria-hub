@@ -10,7 +10,7 @@ Triangula & parallelogramma inter se proportionem habent compositam ex proportio
 
 Les triangles & les parallelogrammes sont entr'eux, en raison composee, de la raison des bases, & de la raison des hauteurs.
 
-(figure : triangles et parallelogrammes A, G, M, L, N, H, D sur la base B, I, C, E, F, K)
+*[Figur: triangles et parallelogrammes A, G, M, L, N, H, D sur la base B, I, C, E, F, K]*
 
 Hypoth.
 

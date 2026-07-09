@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. V.
 
-(figure : lignes verticales A, B, C, D, E, F ; G, H, K, I, L, M)
+*[Figur: lignes verticales A, B, C, D, E, F ; G, H, K, I, L, M]*
 
 3.1 | g, multipl.. | a,
 | h, multipl.. | b,

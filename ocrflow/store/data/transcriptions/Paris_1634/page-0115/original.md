@@ -13,7 +13,7 @@ In parallelas rectas lineas recta incidens linea ; & alternatim angulos inter se
 
 Si vne ligne droicte tombe sur deux lignes droictes paralleles; elle fera les angles alternes égaux entr'eux, & l'externe égal à son interne & opposé de mesme part ; & les deux internes de mesme part, égaux à deux droicts.
 
-(figure : ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche)
+*[Figur: ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche]*
 
 Hypoth.
 

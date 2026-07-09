@@ -17,7 +17,7 @@ Præpar.
 2.p.1 | cbd est —,
 12.1 | ad ⊥ cd.
 
-(figure : triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D)
+*[Figur: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]*
 
 Req. π. demonstr.
 

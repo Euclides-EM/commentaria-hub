@@ -9,7 +9,7 @@ s.12.4 | f, est intersect.
 3.p.1 | fabcde est ⊙,
 symp. | ⊙abcde est req.
 
-(figure : pentagone A—E—D—C—B inscrit dans vn cercle, F au centre, auec les lignes menées du centre)
+*[Figur: pentagone A—E—D—C—B inscrit dans vn cercle, F au centre, auec les lignes menées du centre]*
 
 Præpar.
 

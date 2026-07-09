@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. VI.
 
-(figure : triangle A, F, G, B avec points C, E, D, H, I)
+*[Figur: triangle A, F, G, B avec points C, E, D, H, I]*
 
 Hypoth.
 
@@ -32,7 +32,7 @@ Datam rectam lineam finitam in quotlibet partes æquales secare.
 
 Coupper vne ligne droicte finie en tant de parties egales qu'on voudra.
 
-(figure : ligne A—B avec lignes H, L, T, G, X, Z, M, O, C, F, P, Q, R, S, E, V, N, D)
+*[Figur: ligne A—B avec lignes H, L, T, G, X, Z, M, O, C, F, P, Q, R, S, E, V, N, D]*
 
 Hypoth.
 

@@ -3,7 +3,7 @@
 
 Les rectilignes semblables à vne mesme figure rectiligne, sont außi semblables entr'elles.
 
-(figure : trois triangles A, B, C ; H, F, G ; D, I, E)
+*[Figur: trois triangles A, B, C ; H, F, G ; D, I, E]*
 
 Hypoth.
 

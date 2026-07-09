@@ -5,7 +5,7 @@ numero, sitque maior proportio primæ priorum ad secundam, quàm secundæ poster
 
 S'il y a trois grandeurs, & d'autres egales à icelles en nombre, & qu'il y ait plus grande raison de la premiere des premieres à la seconde, que de la seconde des dernieres à la tierce ; pareillement qu'il y ait plus grande raison de la seconde des premieres à la tierce, que de la premiere des dernieres à la seconde : En raison egale, il y aura aussi plus grande raison de la premiere des premieres à la tierce, que de la premiere des dernieres à la tierce.
 
-(figure : lignes A ; B ; G ; G ; H ; D ; E ; F)
+*[Figur: lignes A ; B ; G ; G ; H ; D ; E ; F]*
 
 Hypoth.
 

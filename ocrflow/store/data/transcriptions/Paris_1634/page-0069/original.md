@@ -5,7 +5,7 @@
 
 Et si æqualibus æqualia adiecta sint, tota sunt æqualia. | Et si à choses egales on adiouste choses egales, les tous sont egaux.
 
-(figure : ligne ABF en haut, ligne CDG au dessous)
+*[Figur: ligne ABF en haut, ligne CDG au dessous]*
 
 hyp. | ab 2|2 cd.
 hyp. | bf 2|2 dg.
@@ -15,7 +15,7 @@ hyp. | bf 2|2 dg.
 
 Et si ab æqualibus æqualia ablata sint, quæ relinquuntur sunt æqualia. | Et si des choses egales on retranche choses egales, les restes sont egaux.
 
-(figure : ligne AEB en haut, ligne CFD au dessous)
+*[Figur: ligne AEB en haut, ligne CFD au dessous]*
 
 hyp. | ab 2|2 cd.
 hyp. | ae 2|2 cf.

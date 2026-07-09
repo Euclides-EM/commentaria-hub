@@ -3,7 +3,7 @@
 
 Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par le centre, elles ne se coupperont point l'vne l'autre en deux également.
 
-(figure : cercle A—C—B—D, E au dedans, F au croisement, lignes A—B et C—D se couppant en F, ligne E—F)
+*[Figur: cercle A—C—B—D, E au dedans, F au croisement, lignes A—B et C—D se couppant en F, ligne E—F]*
 
 Hypoth.
 
@@ -33,7 +33,7 @@ Si duo circuli sese mutuò secent; non erit illorum idem centrum.
 
 Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
 
-(figure : deux cercles s'entrecouppans en B et C, E au dedans, A et D à gauche, lignes B—E et E—D—A)
+*[Figur: deux cercles s'entrecouppans en B et C, E au dedans, A et D à gauche, lignes B—E et E—D—A]*
 
 hyp. | bac & bdc snt ⊙.
 

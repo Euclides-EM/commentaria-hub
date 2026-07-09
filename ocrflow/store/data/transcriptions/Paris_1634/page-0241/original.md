@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. IV.
 
-(figure : quarré A—D—C—B auec cercle inscrit, I au centre, lignes H—F et E—G)
+*[Figur: quarré A—D—C—B auec cercle inscrit, I au centre, lignes H—F et E—G]*
 
 10.1 | dg 2|2 gc,
 1.p.1 | hf & eg snt —,
@@ -40,7 +40,7 @@ Constr.
 3.p.1 | eabcd est ⊙,
 symp. | ⊙eabcd est req.
 
-(figure : cercle auec quarré A—B—C—D inscrit, E au centre, diagonales A—C et B—D)
+*[Figur: cercle auec quarré A—B—C—D inscrit, E au centre, diagonales A—C et B—D]*
 
 Demonstr.
 

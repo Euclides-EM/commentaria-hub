@@ -11,7 +11,7 @@
 
 Pappus lib. 7. propos. 75. & 76.
 
-(figure : cercle sur le diametre A B auec les poincts G, C, H, R, M, S, D, E, F, L, N, O, I, P)
+*[Figur: cercle sur le diametre A B auec les poincts G, C, H, R, M, S, D, E, F, L, N, O, I, P]*
 
 Hypoth.
 

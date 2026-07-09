@@ -3,7 +3,7 @@
 
 A l'entour d'vn cercle donné, descrire vn triangle, equiangle à vn triangle donné.
 
-(figures : triangle D—E—F auec la base prolongée en la ligne G—E—F—H ; triangle L—M—N auec cercle A—C—B au dedans, I au centre, lignes I—A, I—C, I—B)
+*[Figur: triangle D—E—F auec la base prolongée en la ligne G—E—F—H ; triangle L—M—N auec cercle A—C—B au dedans, I au centre, lignes I—A, I—C, I—B]*
 
 Hypoth.
 

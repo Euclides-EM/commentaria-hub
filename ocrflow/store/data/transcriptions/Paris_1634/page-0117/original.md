@@ -7,7 +7,7 @@ Omne parallelogrammum, habens vnum angulum rectum, est parallelogrammum rectangu
 
 Tout parallelogramme, qui a vn angle droict, est parallelogramme rectangle.
 
-(figure : parallelogramme BCDA, B & C en haut, A & D en bas)
+*[Figur: parallelogramme BCDA, B & C en haut, A & D en bas]*
 
 Hypoth.
 
@@ -33,7 +33,7 @@ Quæ eidem rectæ lineæ parallelæ, & inter se sunt parallelæ.
 
 Les lignes droictes paralleles à vne mesme ligne droicte, sont außi paralleles entr'elles.
 
-(figure : trois lignes A—G—B, E—H—F, C—I—D, transversale passant par G, H & I)
+*[Figur: trois lignes A—G—B, E—H—F, C—I—D, transversale passant par G, H & I]*
 
 Hypoth.
 

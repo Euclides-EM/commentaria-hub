@@ -7,7 +7,7 @@ Circa datum circulum quadratum describere.
 
 A l'entour d'vn cercle donné, descrire vn quarré.
 
-(figure : cercle E au centre, quarré F—G—I—H circonscrit, A en haut, B à gauche, D à droicte, C en bas, lignes A—C et B—D)
+*[Figur: cercle E au centre, quarré F—G—I—H circonscrit, A en haut, B à gauche, D à droicte, C en bas, lignes A—C et B—D]*
 
 Hypoth.
 

@@ -15,7 +15,7 @@ Reciprocæ autem figuræ sunt cùm in vtraque figura antecedentes & consequentes
 
 Les figures sont reciproques, quand les termes antecedens & consequens des raisons sont en l'vne & en l'autre figure.
 
-(figure : parallelogrammes A, B, C, D et E, B, G, H, F)
+*[Figur: parallelogrammes A, B, C, D et E, B, G, H, F]*
 
 hyp. | abcd & ebgf snt ◇,
 hyp. | ab π bg 2|2 eb π bc,
@@ -27,7 +27,7 @@ Secūdum extremam & mediam rationem recta linea secta esse dicitur, cùm vt tota
 
 Vne ligne droicte est dite estre couppee selon la moyenne & extreme raison, quād la toute est au plus grand segment, comme le plus grād segment est au moindre.
 
-(figure : ligne A—C—B)
+*[Figur: ligne A—C—B]*
 
 hyp. | ab π ac 2|2 ac π cb.
 3.d.6 | AB est secta secūdum extremā ac mediā rationem.

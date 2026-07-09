@@ -21,7 +21,7 @@ Req. π. demonstr.
 
 abcde est æquiang.
 
-(figure : pentagone A—B—C—D—E inscrit dans vn cercle)
+*[Figur: pentagone A—B—C—D—E inscrit dans vn cercle]*
 
 Demonstr.
 
@@ -33,7 +33,7 @@ Hypoth. 2.
 fghi est rhomb.
 <fgh 3|2 <gfi,
 
-(figure : rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle)
+*[Figur: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]*
 
 Præpar.
 

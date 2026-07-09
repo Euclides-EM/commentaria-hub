@@ -12,7 +12,7 @@ Dato rectilineo æquale quadratum constituere.
 
 Descrire vn quarré égal à vn rectiligne donné.
 
-(figure : rectiligne A à gauche, quarré M—N—L—I au milieu, demi-cercle D—H—F sur le diametre D—F, rectangle D—E—B—F dessous, G et C sur le diametre, lignes G—H, C—H)
+*[Figur: rectiligne A à gauche, quarré M—N—L—I au milieu, demi-cercle D—H—F sur le diametre D—F, rectangle D—E—B—F dessous, G et C sur le diametre, lignes G—H, C—H]*
 
 Hypoth.
 

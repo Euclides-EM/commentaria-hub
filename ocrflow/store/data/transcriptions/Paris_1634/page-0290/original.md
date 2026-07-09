@@ -12,7 +12,7 @@ Hypoth.
 a, multipl.. b 2|2 c, multipl.. d,
 ei, multipl.. a 2|2 fm, multipl.. c, α
 
-(figure : lignes verticales E—G—H—I auec A, B ; F—K—L—M auec C, D)
+*[Figur: lignes verticales E—G—H—I auec A, B ; F—K—L—M auec C, D]*
 
 Req. π. demonstr.
 

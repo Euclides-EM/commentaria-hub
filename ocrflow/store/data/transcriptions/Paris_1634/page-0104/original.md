@@ -3,7 +3,7 @@
 
 De tout triangle, le plus grand costé soustient le plus grand angle.
 
-(figure : triangle ABC, poinct D sur AC, ligne BD)
+*[Figur: triangle ABC, poinct D sur AC, ligne BD]*
 
 Hypoth.
 
@@ -33,7 +33,7 @@ Omnis trianguli maior angulus maiori lateri subtenditur.
 
 De tout triangle, le plus grand angle est soustenu du plus grand costé.
 
-(figure : triangle ABC, poinct B en haut, A à gauche, C à droicte)
+*[Figur: triangle ABC, poinct B en haut, A à gauche, C à droicte]*
 
 Hypoth.
 

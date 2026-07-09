@@ -5,7 +5,7 @@ cio triangulorum isoscelium, quorum anguli æquales ad basim multiplices sunt eo
 
 Les figures de costez impairs sont inscrites dans le cercle par le moyen des triangles isosceles, desquels les angles égaux à la base sont multiples des angles du sommet : Mais les figures de costez pairs sont inscrites dans le cercle par le moyen des triangles dont les angles à la base sont multiples sesquialteres des angles du sommet.
 
-(figure : triangle isoscele A—B—C, le sommet en C)
+*[Figur: triangle isoscele A—B—C, le sommet en C]*
 
 hyp. | ca 2|2 cb,
 suppos. | <a & <b 2|2 <c,

@@ -3,7 +3,7 @@
 
 costez du triangle, la ligne droicte menée du sommet au poinct de la section, couppe l'angle du triangle en deux egalement.
 
-(figure : triangle B, D, C avec sommet A et ligne A—E)
+*[Figur: triangle B, D, C avec sommet A et ligne A—E]*
 
 Hypoth. 1.
 

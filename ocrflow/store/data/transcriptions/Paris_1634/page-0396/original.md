@@ -5,7 +5,7 @@ Entre deux figures rectilignes, dont l'vne soit inscrite & l'autre circonscrite 
 
 Snelius in Cyclometria.
 
-(figure : quarré K, M, L auec le cercle inscrit, l'octogone A, P, D, G, B, O, N, R, E, & le quarré A, D, B, E ; poincts C, H au dedans)
+*[Figur: quarré K, M, L auec le cercle inscrit, l'octogone A, P, D, G, B, O, N, R, E, & le quarré A, D, B, E ; poincts C, H au dedans]*
 
 Hypoth.
 

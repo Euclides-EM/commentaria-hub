@@ -5,7 +5,7 @@ triangulorum latera in rectam lineam collocata reperientur.
 
 Si deux triangles, qui ont deux costez proportionaux à deux costez, sont disposez selon vn angle, en sorte que leurs costez de mesme raison soient außi paralleles : les autres costez d'iceux triangles se rencontreront directement.
 
-(figure : triangles A, B, C et D, C, E)
+*[Figur: triangles A, B, C et D, C, E]*
 
 Hypoth.
 

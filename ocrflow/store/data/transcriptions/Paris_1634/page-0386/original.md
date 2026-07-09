@@ -1,7 +1,7 @@
 
 # APPEND.. GEOM. PLAN.
 
-(figure : rectiligne B, C, D, E sur la base L, A, F, G, H, avec lignes ponctuées ioignant D aux poincts de la base)
+*[Figur: rectiligne B, C, D, E sur la base L, A, F, G, H, avec lignes ponctuées ioignant D aux poincts de la base]*
 
 1.p.1 | dg est —,
 1.p.1 | cg est —,
@@ -33,7 +33,7 @@ Descrire vn rectangle egal à vn triangle donné.
 
 42.1.Elem.
 
-(figure : triangle A, C, B auec E, H, L, F, G & le poinct D en la base ; rectangle N, O, P, C sur la base A, M, B)
+*[Figur: triangle A, C, B auec E, H, L, F, G & le poinct D en la base ; rectangle N, O, P, C sur la base A, M, B]*
 
 Hypoth.
 

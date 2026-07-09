@@ -5,7 +5,7 @@
 
 Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez égaux, égal à l'angle. Ils auront la base égale à la base, & le triangle sera égal au triangle, & les autres angles soustendans iceux costez égaux, seront égaux aux autres angles chacun au sien.
 
-(figure : deux triangles, ABC à gauche et DEF à droite)
+*[Figur: deux triangles, ABC à gauche et DEF à droite]*
 
 Hypoth.
 

@@ -14,7 +14,7 @@ A data recta linea imperatam partem auferre.
 
 D'vne ligne droicte dōnee en oster vne partie demādee.
 
-(figure : ligne A—G—B avec ligne oblique A, D, E, F, C)
+*[Figur: ligne A—G—B avec ligne oblique A, D, E, F, C]*
 
 Hypoth.
 

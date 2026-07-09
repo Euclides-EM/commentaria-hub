@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. VI.
 
-(figure : triangles A, B, C et D, G avec E, F)
+*[Figur: triangles A, B, C et D, G avec E, F]*
 
 <a 2|2 <d,
 <b 2|2 <def,

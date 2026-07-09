@@ -1,7 +1,7 @@
 
 # ELEM.. EVDLID. LI. IV.
 
-(figure : triangle rectangle A—B—E, l'angle droict en B, auec les poincts C, D sur la base B—E et les lignes A—C, A—D)
+*[Figur: triangle rectangle A—B—E, l'angle droict en B, auec les poincts C, D sur la base B—E et les lignes A—C, A—D]*
 
 | ae est 4 3702/3864.
 

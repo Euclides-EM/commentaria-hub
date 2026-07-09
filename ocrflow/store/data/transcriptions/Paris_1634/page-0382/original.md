@@ -7,7 +7,7 @@ In æqualibus circulis, anguli eandem habēt rationem cum peripheriis, quibus in
 
 Aux cercles egaux, les angles ont mesme raison entr'eux, que les circonferences sur lesquelles ils sont appuyez, soit qu'ils soient appuyez estant constituez aux centres ou aux circonferences : les secteurs sont außi de mesme entr'eux, d'autant qu'ils sont constituez au centre.
 
-(figure : cercle A, D, I, N, C, M, B et cercle E, H, P, L, G, F)
+*[Figur: cercle A, D, I, N, C, M, B et cercle E, H, P, L, G, F]*
 
 Hypoth.
 

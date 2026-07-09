@@ -5,7 +5,7 @@ rum, maiorem denique etiam, quàm vltima priorum ad vltimam posteriorum.
 
 S'il y a tant de grandeurs qu'on voudra, & d'autres egales à icelles en nombre, & qu'il y ait plus grande raison de la premiere des premieres à la premiere des dernieres, que de la seconde à la seconde, & de la seconde à la seconde, que de la tierce à la tierce ; & ainsi de suite ; toutes les premieres ensemble auront plus grande raison à toutes les dernieres ensemble, que toutes les premieres, la premiere ostee à toutes les dernieres, la premiere aussi ostée, mais moindre raison que la premiere des premieres, à la premiere des dernieres : & finalement aussi plus grande raison que la derniere des premieres à la derniere des dernieres.
 
-(figure : lignes A ; B ; C ; G ; D ; E ; F ; H)
+*[Figur: lignes A ; B ; C ; G ; D ; E ; F ; H]*
 
 Hypoth.
 

@@ -11,7 +11,7 @@ Triangula & parallelogramma, quorum æquales sunt bases, vel eadem ; ita se habe
 
 Les triangles & les parallelogrammes constituez sur bases egales, ou sur vne mesme base ; sont entr'eux comme leurs hauteurs.
 
-(figure : triangles et parallelogrammes G, A ; B, L, C, I, K, E ; D, H ; M, F)
+*[Figur: triangles et parallelogrammes G, A ; B, L, C, I, K, E ; D, H ; M, F]*
 
 Hypoth.
 

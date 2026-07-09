@@ -11,7 +11,7 @@ Si prima ad secundam habuerit maiorem proportionem quàm tertia ad quartam : hab
 
 Si la premiere a plus grande raison à la seconde, que la troisiesme à la quatriesme ; par raison inuerse la seconde aura moindre raison à la premiere, que la quatriesme à la troisiesme.
 
-(figure : lignes A ; B ; E ; C ; D)
+*[Figur: lignes A ; B ; E ; C ; D]*
 
 Hypoth.
 

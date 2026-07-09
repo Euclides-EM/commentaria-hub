@@ -7,7 +7,7 @@ Si in duas rectas lineas recta incidens linea externum angulum interno, & opposi
 
 Si vne ligne droicte tombant sur deux lignes droictes, faict l'angle externe égal à l'interne, & opposé & de mesme part ; où les internes de mesme part égaux à deux droicts, icelles lignes droictes seront paralleles entr'elles.
 
-(figure : ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche)
+*[Figur: ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche]*
 
 Hypoth. 1.
 

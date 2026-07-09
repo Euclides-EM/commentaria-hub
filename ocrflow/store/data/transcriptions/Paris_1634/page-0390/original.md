@@ -16,7 +16,7 @@ Propositis duobus quadratis inæqualibus, inuenire quadratum, quo maius excedit 
 
 Estant proposez deux quarrez inegaux, trouuer vn quarré egal à l'exces, par lequel le plus grand excede le plus petit.
 
-(figure : demicercle A, D, B, le quarré E sur A D, & la ligne C F à part)
+*[Figur: demicercle A, D, B, le quarré E sur A D, & la ligne C F à part]*
 
 Hypoth.
 

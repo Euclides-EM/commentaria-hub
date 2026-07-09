@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. V.
 
-(figure : lignes E, A, B, F ; G, C, D, H)
+*[Figur: lignes E, A, B, F ; G, C, D, H]*
 
 Demonstr.
 

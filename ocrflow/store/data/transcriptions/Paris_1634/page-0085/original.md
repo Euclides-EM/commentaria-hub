@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : deux cercles, triangle DAC au centre, points H, F, G à droite, B à gauche, E en bas)
+*[Figur: deux cercles, triangle DAC au centre, points H, F, G à droite, B à gauche, E en bas]*
 
 1.1. | cad est △ æquilat.
 2.p.1. | dce est —,
@@ -23,7 +23,7 @@ Duabus datis rectis lineis inæqualibus, de majore æqualem minori rectam lineam
 
 Deux lignes droictes inégales estans données, oster de la plus grande vne ligne droicte égale à la plus petite.
 
-(figure : cercle de centre B, ligne A verticale à gauche, points D, E, C à droite)
+*[Figur: cercle de centre B, ligne A verticale à gauche, points D, E, C à droite]*
 
 Hypoth.
 

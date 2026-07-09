@@ -3,7 +3,7 @@
 
 Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.
 
-(figures : deux cercles ; le premier A—B—C—D, E au dedans, lignes A—C, A—D, B—D, B—C, D—C, E—D, E—C ; le second A—B—C—D, F au dedans, E au dessous, lignes A—B, A—C, B—D, B—C, D—C)
+*[Figur: deux cercles ; le premier A—B—C—D, E au dedans, lignes A—C, A—D, B—D, B—C, D—C, E—D, E—C ; le second A—B—C—D, F au dedans, E au dessous, lignes A—B, A—C, B—D, B—C, D—C]*
 
 Hypoth.
 

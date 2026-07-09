@@ -5,7 +5,7 @@
 
 S'il y a tant de grandeurs qu'on voudra, & d'autres egales à icelles en nombre, lesquelles soient prises de deux en deux, & en mesme raison : icelles en raison egale seront proportionnelles.
 
-(figure : lignes verticales A, B, C, N ; D, E, F, O ; G, I, L ; H, K, M)
+*[Figur: lignes verticales A, B, C, N ; D, E, F, O ; G, I, L ; H, K, M]*
 
 hypoth. | a π b 2|2 d π e,
 hyp. | b π c 2|2 e π f,

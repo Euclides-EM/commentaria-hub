@@ -3,7 +3,7 @@
 
 face vn angle égal à vn angle rectiligne donné.
 
-(figure : ligne E—A—F en haut, angle G à droicte, ligne B—D—C en bas, ligne A—D)
+*[Figur: ligne E—A—F en haut, angle G à droicte, ligne B—D—C en bas, ligne A—D]*
 
 Hypoth.
 
@@ -34,7 +34,7 @@ Cuiuscunque trianguli vno latere producto: Externus angulus duobus internis, & o
 
 De tout triangle, l'vn des costez estant prolongé, l'angle externe est égal aux deux internes & opposez: & les trois angles internes de tout triangle, sont égaux à deux droicts.
 
-(figure : triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA)
+*[Figur: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]*
 
 Hypoth.
 

@@ -1,7 +1,7 @@
 
 # ELEM. EVCLID. LI. I.
 
-(figure : lignes A et B courtes à gauche, ligne C longue à droite)
+*[Figur: lignes A et B courtes à gauche, ligne C longue à droite]*
 
 hyp. | a 2|2 ½c.
 hyp. | b 2|2 ½c.
@@ -11,7 +11,7 @@ hyp. | b 2|2 ½c.
 
 Dimidium maioris maius est dimidio minoris. | La moitié du plus grand excede la moitié du plus petit.
 
-(figure : lignes A et B à gauche, lignes C et D à droite)
+*[Figur: lignes A et B à gauche, lignes C et D à droite]*
 
 hyp. | c 3|2 d.
 hyp. | a 2|2 ½c.
@@ -22,7 +22,7 @@ hyp. | b 2|2 ½d.
 
 Et quod vnius æqualium dimidium est, alterius quoque æqualiü est dimidium. | Et ce qui est moitié de l'vn des egaux, est außi moitié de l'autre des egaux.
 
-(figure : ligne A courte à gauche, lignes B et C longues à droite)
+*[Figur: ligne A courte à gauche, lignes B et C longues à droite]*
 
 hyp. | b 2|2 c.
 hyp. | a 2|2 ½b.

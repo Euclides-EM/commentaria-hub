@@ -8,7 +8,7 @@ symp. | df est √.5< inscri. in ⊙adbn.
 
 Demonstr. est in schol. 10..13.
 
-(figure : cercle auec D en haut, A à gauche, points F, C, E sur le diametre, H, K, L, O au dedans, G, M, N, P vers le bas)
+*[Figur: cercle auec D en haut, A à gauche, points F, C, E sur le diametre, H, K, L, O au dedans, G, M, N, P vers le bas]*
 
 Explicat. p̄ nr.
 
@@ -34,7 +34,7 @@ Req. π. fa.
 
 circscri. π. ⊙abcde 5<ghikl æquilat. & æquiang.
 
-(figure : pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, auec toutes les lignes menées du centre)
+*[Figur: pentagone G—E—L—D—K—C—I—B—H—A circonscrit à vn cercle, auec toutes les lignes menées du centre]*
 
 Constr.
 

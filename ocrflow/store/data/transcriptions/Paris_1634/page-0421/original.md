@@ -1,7 +1,7 @@
 
 # APPEND.. GEOM.. PLAN.
 
-(figure : demicercle auec les poincts G, F, H, A, E, D, C, B, L)
+*[Figur: demicercle auec les poincts G, F, H, A, E, D, C, B, L]*
 
 dhb est semic.
 

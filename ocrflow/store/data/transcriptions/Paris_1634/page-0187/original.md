@@ -7,7 +7,7 @@ est la base du segment, & c'est celuy-là, dis-ie, qui est contenu sous icelles 
 
 7.d.3 | <abc est in segm. abc.
 
-(figure : segment de cercle sur la base A—C, B et D sur l'arc, lignes A—B, A—D, B—C, D—C)
+*[Figur: segment de cercle sur la base A—C, B et D sur l'arc, lignes A—B, A—D, B—C, D—C]*
 
 Explicatio notarum.
 
@@ -23,7 +23,7 @@ Cùm verò comprehendentes angulum rectæ lineæ aliquam assumunt peripheriam, i
 
 Mais quand les lignes droictes qui contiennent l'angle, embrassent quelque circonference, l'angle est dit s'appuyer sur icelle.
 
-(figure : cercle avec B en haut, A à gauche, C à droite, D en bas, lignes A—B, B—C, A—C, A—D, D—C)
+*[Figur: cercle avec B en haut, A à gauche, C à droite, D en bas, lignes A—B, B—C, A—C, A—D, D—C]*
 
 Angulus ABC est in segmento ABC per præcedentem definitionem, &
 

@@ -5,7 +5,7 @@
 
 Si quatre lignes droictes sont proportionelles, le rectangle contenu sous les extremes, est egal au rectangle contenu sous les moyennes : Et si le rectangle contenu sous les extremes est egal au rectangle contenu sous les moyennes, icelles quatre lignes droictes seront proportionelles.
 
-(figure : lignes A—B, F—G, E—B, C et rectangles A, D, C, B, E ; H, G, F)
+*[Figur: lignes A—B, F—G, E—B, C et rectangles A, D, C, B, E ; H, G, F]*
 
 Hypoth. 1.
 

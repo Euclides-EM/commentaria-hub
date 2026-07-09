@@ -10,7 +10,7 @@ Req. π. demonstr.
 
 Δadb, Δadc, Δabc snt æquiang. ⁊e,
 
-(figure : triangle B, A, C avec perpendiculaire A—D)
+*[Figur: triangle B, A, C avec perpendiculaire A—D]*
 
 Demonstr.
 

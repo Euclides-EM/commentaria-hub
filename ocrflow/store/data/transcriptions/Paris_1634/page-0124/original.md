@@ -1,7 +1,7 @@
 
 # ELEM.. EVCLID. LI. I.
 
-(figure : parallelogramme ABDC, A & B en haut, C & D en bas, diagonale C—B)
+*[Figur: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale C—B]*
 
 ac 2|2 & == bd.
 

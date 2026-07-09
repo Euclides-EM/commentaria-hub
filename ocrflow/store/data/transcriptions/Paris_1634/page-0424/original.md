@@ -24,7 +24,7 @@ Si in circulo quadrilaterum describatur; erit rectangulum sub diametris comprehe
 
 Ptolomeus lib. 1. Almagesti.
 
-(figure : cercle auec le quadrilatere A, D, E, B, C)
+*[Figur: cercle auec le quadrilatere A, D, E, B, C]*
 
 Hypoth.
 

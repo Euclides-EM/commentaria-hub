@@ -3,7 +3,7 @@
 
 A vn rectiligne donné descrire vn rectiligne semblable, plus grand ou plus petit, selon la raison donnee.
 
-(figure : quadrilatere G, H, A, B ; quadrilatere E, F, C, D ; lignes R, M, S à part)
+*[Figur: quadrilatere G, H, A, B ; quadrilatere E, F, C, D ; lignes R, M, S à part]*
 
 Hypoth.
 

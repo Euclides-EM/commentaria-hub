@@ -22,7 +22,7 @@ Si super trianguli vno latere, ab extremitatibus duæ rectæ lineæ interius con
 
 Si des extremitez d'vn costé de quelque triangle, on mene deux lignes droictes se rencontrans au dedans d'iceluy ; icelles seront plus petites que les deux autres costez du triangle, mais elles contiendront vn plus grand angle.
 
-(figure : triangle ABC, poincts D & E au dedans, D sur BE, lignes BD, DC, BE prolongée iusques à E sur AC)
+*[Figur: triangle ABC, poincts D & E au dedans, D sur BE, lignes BD, DC, BE prolongée iusques à E sur AC]*
 
 Hypoth.
 
