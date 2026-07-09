@@ -1,0 +1,9 @@
+# Page 13
+
+## AD LECTOREM. (colonne gauche, latin)
+
+nihil asseratur, nisi aliqua citatione corroboretur, quod cæteri authores non exactè obseruant, sed ex iis quæ sibi apperta aut obscura videntur, citationum necessitatem metientes, pluribus vtuntur consequentiis absque vllis citationibus, quas tamen rudioribus, & parùm exercitatis, magno esse adiumento nemo nescit. Huc etiam accedit, quòd in vulgari & communi docendi ratione, plurima proferantur vocabula, & axiomata absque vlla illorum in præmissis explicatione : sed in hac methodo nihil adfertur, nisi fuerit in præmissis explicatum & concessum. Quum etiam longiores occurrunt demonstrationes, quæ iam in serie demonstrationis sunt probata, litteris Græcis citantur. Et quoniam singulæ consequentiæ ex propositionibus allegatis immediatè pendent, demonstratio ab initio ad finem, serie continua,
+
+## AV LECTEVR. (colonne droite, français)
+
+par ce qui leur est manifeste, ou obscur, vsent de beaucoup de consequences sans citations, qui neantmoins seroiët necessaires à ceux qui sont moins aduancez. Ioint aussi qu'en la methode ordinaire on se sert de beaucoup de mots & d'axiomes sans les auoir premierement expliquez, mais en ceste methode on ne dit rien qui n'aye esté expliqué & concedé aux premices : mesme aux demonstrations, qui sont quelque peu longues, on cite par lettres Grecques, ce qui a esté demonstré en la suite de la demonstration. Et parce que chaque consequence depend immediatement de la proposition citée, la demonstration s'entretient depuis son commencemët iusques à la conclusion, par vne suite continuë de consequences legitimes, necessaires & immediates, contenuës chacune en vne petite ligne, lesquelles se peuuent resoudre facilement en syllogismes, à cause qu'en la proposition citée, & en celle qui correspond à la citation, se

@@ -1,1 +1,1 @@
-<!-- Mock page -->
+<!-- Skipped -->

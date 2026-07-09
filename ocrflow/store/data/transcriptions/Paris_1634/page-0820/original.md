@@ -1,0 +1,11 @@
+# Page 820
+
+# ELEM.. EVCLID. LI. XII.
+
+c. 15. d. 1 | plan; ſpqt, tqrγ, γro, &c. n̄. tang; Ⅱ ſecat; ſphær. efgh.
+
+In figura huius demonstrationis plana polyedri sphæræ inscripti sunt 128. | *En la figure de ceste demonstration le solide polyedre inscrit en la sphere a 128. plans.*
+
+## COROLL.
+
+Ex iis quæ dēmonstrata sunt, manifestum est, si in quauis alia sphæra describatur solidum polyedrum simile prædicto solido polyedro, proportionem polyedri in vna sphæra ad polyedrum in altera sphæra esse triplicatam eius, quam habent sphærarum diametri. Nam si ex centris sphærarum ad omnes angulos basium dictorum polyedrorum rectæ lineæ ducantur, distribuentur polyedra in pyramides numero æquales, & similes, quarum homologa latera sunt semidiametri sphærarum, vt constat, si intelligatur harum sphærarum minor intra majorem circa idem centrum descripta. Congruent enim sibi mutuo lineæ rectæ ductæ à centro sphæræ ad basium angulos, ob similitudinem basium: Ac propterea pyramides efficientur similes. Quare cum singulæ pyramides in vna sphæra ad singulas pyramides illis similes in | *Des choses cy dessus demonstrees est manifeste, si en quelconque autre sphere est descrit vn solide polyedre semblable au susdit polyedre, que la proportion du solide polyedre de l'vne des spheres au polyedre de l'autre sphere sera la triplee de celle des diametres des spheres: Car si des centres des spheres sont tirees des lignes droictes à tous les angles des bases des polyedres, les polyedres seront diuisez en autant de pyramides l'vn que l'autre, semblables les costez homologues, desquels sont les semidiametres des spheres; comme il appert, si on imagine que la moindre sphere est en la plus grande à l'entour du mesme centre. Car les lignes droictes menees du centre de la sphere aux angles des bases conuiendront entre elles à cause de la similitude des bases. Partant chaque pyramide de l'vne des spheres aux pyramides semblables de l'autre sphere ayant la proportion triplee des costez homologues, c'est à dire des semidia-*
