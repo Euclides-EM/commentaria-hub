@@ -1,4 +1,3 @@
-# Page 169
 
 # ELEM.. EVDLID. LI. II.
 

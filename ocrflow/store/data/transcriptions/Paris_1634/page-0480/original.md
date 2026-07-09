@@ -1,4 +1,3 @@
-# Page 480
 
 # ELEM.. EVCLD. LI. VII.
 

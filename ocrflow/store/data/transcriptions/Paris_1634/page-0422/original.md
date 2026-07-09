@@ -1,4 +1,3 @@
-# Page 422
 
 # APPEND.. GEOM.. PLAN.
 

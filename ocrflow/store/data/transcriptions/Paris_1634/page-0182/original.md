@@ -1,4 +1,3 @@
-# Page 182
 
 # ELEM.. EVCLID. LI. II.
 

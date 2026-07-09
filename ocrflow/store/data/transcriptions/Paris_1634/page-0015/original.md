@@ -1,4 +1,3 @@
-# Page 15
 
 # PROLEGOMENA.
 

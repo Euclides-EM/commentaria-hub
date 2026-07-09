@@ -1,4 +1,3 @@
-# Page 641
 
 # ELEM.. EVCLID. LI. X.
 

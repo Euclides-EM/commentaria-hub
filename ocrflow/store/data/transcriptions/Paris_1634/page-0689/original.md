@@ -1,4 +1,3 @@
-# Page 689
 
 # ELEM.. EVCLID. LI. X.
 

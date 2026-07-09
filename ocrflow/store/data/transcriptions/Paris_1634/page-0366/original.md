@@ -1,4 +1,3 @@
-# Page 366
 
 # ELEM.. EVCLID. LI. VI.
 

@@ -1,4 +1,3 @@
-# Page 120
 
 # ELEM.. EVCLID. LI. I.
 

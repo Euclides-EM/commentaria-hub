@@ -1,4 +1,3 @@
-# Page 236
 
 # ELEM.. EVCLID. LI. IV.
 

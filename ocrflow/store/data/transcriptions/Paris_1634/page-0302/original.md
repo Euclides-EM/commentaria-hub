@@ -1,4 +1,3 @@
-# Page 302
 
 # ELEM.. EVCLID. LI. V.
 

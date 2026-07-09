@@ -1,4 +1,3 @@
-# Page 25
 
 # EXPLICATION DES NOTES.
 

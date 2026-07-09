@@ -1,4 +1,3 @@
-# Page 374
 
 # ELEM.. EVCLID. LI. VI.
 

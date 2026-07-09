@@ -1,4 +1,3 @@
-# Page 775
 
 # ELEM.. EVCLID. LI. XI.
 

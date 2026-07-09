@@ -1,4 +1,3 @@
-# Page 385
 
 # APPENDIX GEOMETRIÆ PLANORVM.
 

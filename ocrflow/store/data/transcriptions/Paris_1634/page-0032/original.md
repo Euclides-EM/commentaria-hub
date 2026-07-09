@@ -1,4 +1,3 @@
-# Page 32
 
 # EXPLICATIO CITATIONVM.
 

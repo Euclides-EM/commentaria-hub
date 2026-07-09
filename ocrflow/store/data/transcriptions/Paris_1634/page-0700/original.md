@@ -1,4 +1,3 @@
-# Page 700
 
 # ELEM.. EVCLID. LI. X.
 

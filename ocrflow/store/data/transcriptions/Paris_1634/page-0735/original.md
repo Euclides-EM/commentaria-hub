@@ -1,4 +1,3 @@
-# Page 735
 
 # ELEM.. EVCLID. LI. XI.
 

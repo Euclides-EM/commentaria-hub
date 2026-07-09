@@ -1,4 +1,3 @@
-# Page 728
 
 # ELEM.. EVCLD. LI. XI.
 

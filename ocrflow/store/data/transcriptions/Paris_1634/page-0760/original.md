@@ -1,4 +1,3 @@
-# Page 760
 
 # ELEM.. EVCLD. LI. XI.
 

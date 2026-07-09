@@ -1,4 +1,3 @@
-# Page 767
 
 # ELEM.. EVCLID. LI. XI.
 

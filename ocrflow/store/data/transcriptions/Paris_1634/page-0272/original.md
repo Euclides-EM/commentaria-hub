@@ -1,4 +1,3 @@
-# Page 272
 
 # ELEM.. EVCLID. LI. V.
 

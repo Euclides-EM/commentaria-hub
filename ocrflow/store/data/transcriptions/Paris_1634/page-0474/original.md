@@ -1,4 +1,3 @@
-# Page 474
 
 # ELEM.. EVCLID. LI. VII.
 

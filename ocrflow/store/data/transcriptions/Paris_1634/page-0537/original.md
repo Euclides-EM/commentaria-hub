@@ -1,4 +1,3 @@
-# Page 537
 
 # ELEM.. EVCLID. LI. IX.
 

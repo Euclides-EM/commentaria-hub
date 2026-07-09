@@ -1,4 +1,3 @@
-# Page 664
 
 # ELEM.. EVCLID. LI. X.
 

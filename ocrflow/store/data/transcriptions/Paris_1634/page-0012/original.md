@@ -1,4 +1,3 @@
-# Page 12
 
 ## AD LECTOREM. (colonne gauche, latin)
 

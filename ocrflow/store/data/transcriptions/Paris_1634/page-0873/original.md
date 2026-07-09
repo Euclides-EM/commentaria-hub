@@ -1,4 +1,3 @@
-# Page 873
 
 # ELEM.. EVCLID. LI. XIV.
 

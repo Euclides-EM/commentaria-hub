@@ -1,4 +1,3 @@
-# Page 560
 
 # ELEM.. EVCLID. LI. IX.
 

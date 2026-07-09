@@ -1,4 +1,3 @@
-# Page 788
 
 # ELEM.. EVCLD. LI. XII.
 

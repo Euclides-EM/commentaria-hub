@@ -1,4 +1,3 @@
-# Page 202
 
 # ELEM.. EVCLID. LI. III.
 

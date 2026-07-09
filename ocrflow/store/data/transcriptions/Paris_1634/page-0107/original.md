@@ -1,4 +1,3 @@
-# Page 107
 
 # ELEM.. EVCLID. LI. I.
 

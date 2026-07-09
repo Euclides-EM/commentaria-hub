@@ -1,4 +1,3 @@
-# Page 194
 
 # ELEM.. EVCLID. LI. III.
 

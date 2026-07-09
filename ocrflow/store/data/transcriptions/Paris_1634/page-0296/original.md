@@ -1,4 +1,3 @@
-# Page 296
 
 # ELEM.. EVCLID. LI. V.
 

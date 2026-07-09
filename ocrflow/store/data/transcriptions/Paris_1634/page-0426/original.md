@@ -1,4 +1,3 @@
-# Page 426
 
 # APPEND.. GEOM. PLAN.
 

@@ -1,4 +1,3 @@
-# Page 834
 
 # ELEM.. EVCLID. LI. XIII.
 

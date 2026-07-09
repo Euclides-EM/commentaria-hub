@@ -1,4 +1,3 @@
-# Page 677
 
 # ELEM.. EVCLID. LI. X.
 

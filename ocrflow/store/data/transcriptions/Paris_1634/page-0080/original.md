@@ -1,4 +1,3 @@
-# Page 80
 
 # ELEM. EVCLID. LI. I.
 

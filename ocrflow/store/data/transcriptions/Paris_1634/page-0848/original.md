@@ -1,4 +1,3 @@
-# Page 848
 
 # ELEM.. EVCLID. LI. XIII.
 

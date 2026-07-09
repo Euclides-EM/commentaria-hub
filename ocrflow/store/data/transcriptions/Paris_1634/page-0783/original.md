@@ -1,4 +1,3 @@
-# Page 783
 
 # ELEM.. EVCLID. LI. XII.
 

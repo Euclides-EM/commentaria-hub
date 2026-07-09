@@ -1,4 +1,3 @@
-# Page 516
 
 # ELEM.. EVCLID. LI. VIII.
 

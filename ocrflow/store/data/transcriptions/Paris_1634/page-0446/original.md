@@ -1,4 +1,3 @@
-# Page 446
 
 # ELEM.. EVCLD. LI. VII.
 

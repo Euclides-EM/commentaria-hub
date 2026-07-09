@@ -1,4 +1,3 @@
-# Page 33
 
 # EXPLICATION DES CITATIONS.
 

@@ -1,4 +1,3 @@
-# Page 882
 
 # ELEM.. EVCLID. LI. XV.
 

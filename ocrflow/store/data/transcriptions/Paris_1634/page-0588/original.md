@@ -1,4 +1,3 @@
-# Page 588
 
 # ELEM.. EVCLID. LI. X.
 

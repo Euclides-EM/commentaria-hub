@@ -1,4 +1,3 @@
-# Page 574
 
 # ELEM.. EVCLD. LI. X.
 

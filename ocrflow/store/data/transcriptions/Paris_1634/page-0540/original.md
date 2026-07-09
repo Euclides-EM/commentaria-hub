@@ -1,4 +1,3 @@
-# Page 540
 
 # ELEM.. EVCLD. LI. IX.
 

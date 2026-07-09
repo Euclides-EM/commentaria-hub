@@ -1,4 +1,3 @@
-# Page 879
 
 # ELEM.. EVCLID. LI. XV.
 

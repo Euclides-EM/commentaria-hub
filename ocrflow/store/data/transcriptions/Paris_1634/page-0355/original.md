@@ -1,4 +1,3 @@
-# Page 355
 
 # ELEM.. EVCLID. LI. VI.
 

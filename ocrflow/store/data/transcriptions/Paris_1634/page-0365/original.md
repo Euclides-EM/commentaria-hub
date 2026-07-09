@@ -1,4 +1,3 @@
-# Page 365
 
 # ELEM.. EVCLID. LI. VI.
 

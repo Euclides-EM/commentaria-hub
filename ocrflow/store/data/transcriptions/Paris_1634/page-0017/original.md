@@ -1,4 +1,3 @@
-# Page 17
 
 # PROLEGOMENES.
 

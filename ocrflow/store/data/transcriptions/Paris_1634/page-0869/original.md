@@ -1,4 +1,3 @@
-# Page 869
 
 # ELEM.. EVCLID. LI. XIV.
 

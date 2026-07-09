@@ -1,4 +1,3 @@
-# Page 812
 
 # ELEM.. EVCLID. LI. XII.
 

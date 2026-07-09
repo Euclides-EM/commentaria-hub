@@ -1,4 +1,3 @@
-# Page 26
 
 # EXPLICATIO NOTARVM.
 
