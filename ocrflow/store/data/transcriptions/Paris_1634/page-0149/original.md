@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 rectangle contenu sous la toute & vne des parties, est égal au rectangle contenu sous icelles parties, & au quarré de la partie premierement prise.
 

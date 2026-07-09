@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *Partant on trouuera facilement deux nombres quarrez, l'exces desquels soit nombre quarré ou nombre non quarré.*
 

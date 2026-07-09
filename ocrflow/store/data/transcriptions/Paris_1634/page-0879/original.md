@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XV.
+<!-- # ELEM.. EVCLID. LI. XV. -->
 
 ## PROBL. V. PROPOS. V.
 
@@ -22,7 +22,7 @@ Præpar.
 1. p. 1 | fgm, fhn, fio, fкp, flq ſnt ——
 1. p. 1 | mn, no, op, pq, qm ſnt ——,
 
-(figure) A / M Q / G I / B E / D / H / N K P / I / C Q D
+<!-- (figure) A / M Q / G I / B E / D / H / N K P / I / C Q D -->
 
 Demonſtr.
 

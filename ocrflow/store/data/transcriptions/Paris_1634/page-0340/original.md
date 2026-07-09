@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 costez du triangle, la ligne droicte menée du sommet au poinct de la section, couppe l'angle du triangle en deux egalement.
 

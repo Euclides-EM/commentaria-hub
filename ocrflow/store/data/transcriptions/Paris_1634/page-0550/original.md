@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 19.4 | ▭.a,d 2|2 ▭.b,c u e
 7.a.7 | a, msur: ▭.ad, u e

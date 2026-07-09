@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: ligne G—A—D—H en haut, ligne B—C—E—F en bas ; triangles BCA & EFD dans le trapeze GBFH]*
 

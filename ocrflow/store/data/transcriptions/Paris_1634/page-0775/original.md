@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
-A B C D / G H / F M / D E / N / L / I K (figure)
+<!-- A B C D / G H / F M / D E / N / L / I K (figure) -->
 
 efgh, est ◇piped.
 <iklm 2|2 <defg,

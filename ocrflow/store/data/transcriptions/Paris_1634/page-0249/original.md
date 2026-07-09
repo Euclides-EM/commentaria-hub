@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 En vn pentagone donné, equilateral & equiangle inscrire vn cercle.
 

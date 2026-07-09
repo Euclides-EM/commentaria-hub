@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
-A F G E / B C D (figure)
+<!-- A F G E / B C D (figure) -->
 
 bc, est apotom.
 cd, est congruen.

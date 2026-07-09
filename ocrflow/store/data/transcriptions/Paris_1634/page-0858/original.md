@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 Ex duobus triangulis, vel ex duabus figuris aliis, solidus angulus constitui non potest, cùm saltem tres anguli plani requirantur ad solidi anguli constitutionem. | *On ne peut constituer vn angle solide de deux triangles, ou de deux autres plans, veu qu'il faut à tout le moins trois plans pour faire vn angle solide.*
 

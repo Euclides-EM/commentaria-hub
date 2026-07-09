@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
-K A / H M / I / B E / F / C D / G (figure)
+<!-- K A / H M / I / B E / F / C D / G (figure) -->
 
 1. a. 1 | <bfк 2|2 <bag,
 <fba, eſt commun.

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 31.1 | fh == ed,
 31.1 | dh == ef.

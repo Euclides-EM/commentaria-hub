@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 & eorum pyramides earundem altitudinum cum ipsis, & super easdem bases, æquales; cum sint eorum tertiæ partes, ex coroll. propos. 7. huius lib. Quare vt modo demonstrauimus, bases harum pyramidum atque altitudines reciprocantur. Cum ergo hæ bases & altitudines eædem sint, quæ prismatum; reciprocabuntur quoque bases prismatum atque altitudines. | *mesme hauteur qu'iceux ayant mesme base seront egales entr'elles, estant les tierces parties des prismes par le corollaire de la septiesme proposition de ce liure. Donc comme nous venons de demonstrer les bases & hauteurs d'icelles pyramides seront reciproques: & ces bases & hauteurs estans les mesmes que de prismes, les bases & les hauteurs des prismes seront reciproques.*
 

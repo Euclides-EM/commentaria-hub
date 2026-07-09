@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 ræ sunt, triangulum, quadratum, cubus, pyramis, &c. | le triangle, le quarré, le cube, la pyramide, &c.
 

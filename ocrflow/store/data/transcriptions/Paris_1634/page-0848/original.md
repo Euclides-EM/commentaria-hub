@@ -1,9 +1,9 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
-B / D C / A (figure)
+<!-- B / D C / A (figure) -->
 
-R F X / L P / G K / Z E Q Y / M O / S H I V / N / T (figure)
+<!-- R F X / L P / G K / Z E Q Y / M O / S H I V / N / T (figure) -->
 
 1. a. 1 | □.fr 2|2 □.fg, & fr 2|2 fg,
 δ. 1.a.b | rſ, fg, fr, rg, gſ, gh, ſh, ſt, &c. ſnt 2|2 ꝗe,

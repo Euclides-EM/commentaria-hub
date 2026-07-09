@@ -1,12 +1,12 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 ma prima; recta linea spatium potens apotome est.
 
 *Si vn espace est contenu sous vne ligne rationelle, & vn apotome premier; la ligne droicte qui peut iceluy espace, est apotome.*
 
-A D F G E / B L C N K H I (figure)
-N P / T S O / V X / Q R M (figure)
+<!-- A D F G E / B L C N K H I (figure) -->
+<!-- N P / T S O / V X / Q R M (figure) -->
 
 Hypoth.
 

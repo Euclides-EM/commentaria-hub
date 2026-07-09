@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 A G E F C / E H I K D (rectangle) S R N / O M P / L Q T (square)
 

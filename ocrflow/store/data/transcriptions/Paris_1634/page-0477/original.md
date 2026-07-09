@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 c, est pr. π. d.
 

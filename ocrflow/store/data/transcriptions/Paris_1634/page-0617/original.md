@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 A B (demi-cercle F) C......E...D
 

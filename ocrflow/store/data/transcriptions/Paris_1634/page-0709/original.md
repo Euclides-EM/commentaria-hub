@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 apot.3. 14. 10 | df & fe, incomm, ration. expos.
 suppos 15. 10 | ac 3|2 bc.. □. ——, incomm ac,
@@ -17,7 +17,7 @@ Recta linea mediæ apotomæ commensurabilis, & ipsa mediæ apotomæ est, atque o
 
 *La ligne droicte commensurable à vn apotome medial; est aussi apotome medial & de mesme ordre.*
 
-A B C / D E F (figure)
+<!-- A B C / D E F (figure) -->
 
 Hypoth.
 

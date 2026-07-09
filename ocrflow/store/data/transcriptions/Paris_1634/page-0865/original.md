@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XIV.
+<!-- # ELEM.. EVCLID. LI. XIV. -->
 
-(figure) E / B G C / D / A
+<!-- (figure) E / B G C / D / A -->
 
 3. 1 | fg 2|2 fe, β
 1. p. 1 | ce & cg ſnt ——.

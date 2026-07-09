@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 æquales numero, quæ binæ in eadem ratione sumantur: Et ex æqualitate in eadem ratione erunt.
 

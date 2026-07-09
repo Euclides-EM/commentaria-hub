@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 Hypoth.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 ♪ε 3.concl 10. 10 | ▭dk, incomm. ▭gk, / dl, incomm. gl.
 
@@ -25,7 +25,7 @@ Quadratum apotomæ ad rationalem applicatum, latitudinem facit apotomen primam.
 
 *Le quarré d'vn apotome appliqué à vne ligne rationelle, fait la latitude apotome premier.*
 
-A B C / D G M I L / E F N H K (figure)
+<!-- A B C / D G M I L / E F N H K (figure) -->
 
 Hypoth.
 

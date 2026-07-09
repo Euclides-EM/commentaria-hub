@@ -1,9 +1,9 @@
 
-# ELEM.. EVCLID. LI. XV.
+<!-- # ELEM.. EVCLID. LI. XV. -->
 
 Aliter. | *Autrement.*
 
-(figure) B / H G / F / A C / D / E
+<!-- (figure) B / H G / F / A C / D / E -->
 
 Hypoth.
 abce, eſt □,

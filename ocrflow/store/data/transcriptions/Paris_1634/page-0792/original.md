@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
-X / A Y E / M S / I L P R / D H V / B K C F Q G (figure)
+<!-- X / A Y E / M S / I L P R / D H V / B K C F Q G (figure) -->
 
 4. 12 | △abc π △efg, / ibklmn + кlcnmo π pfqrſt + qrgtſu,
 9. a. 1 | pyram. abcd 3|2 prism. ibкlmn + prism. кlcnmo,

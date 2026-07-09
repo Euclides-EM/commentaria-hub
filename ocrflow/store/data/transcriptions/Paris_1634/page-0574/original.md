@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLD. LI. X.
+<!-- # ELEM.. EVCLD. LI. X. -->
 
 β | BP & AB, sunt rationales primi generis.
 γ | CE & AB, sunt rationales secundi generis.

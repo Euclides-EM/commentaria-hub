@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 36.3 | ▭.caf 2|2 □.ad,
 concl. 1.a.1 | ▭.bae 2|2 ▭.caf.

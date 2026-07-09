@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 De tout triangle, le plus grand costé soustient le plus grand angle.
 

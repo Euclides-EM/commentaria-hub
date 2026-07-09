@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 suppos. | a, comm. e,
 1.concl. 10.10 | c, comm. f,

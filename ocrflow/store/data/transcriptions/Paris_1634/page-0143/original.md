@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 *[Figur: deux rectangles auec diagonales ; le premier A—B en haut, D—C en bas, diagonale A—C ; le second E—F en haut, H—G en bas, diagonale E—G]*
 

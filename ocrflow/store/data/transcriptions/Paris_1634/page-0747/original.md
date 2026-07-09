@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 Demonstr.
 
@@ -10,7 +10,7 @@ suppos. | cd & ce snt ⊥ plan. ab, α
 12. a. 1 | <ecg 2|2 <dcg,
 contr. 9. a. 1.
 
-F D E / A / H C G / B (figure)
+<!-- F D E / A / H C G / B (figure) -->
 
 ## THEOR. XII. PROPOS. XIV.
 
@@ -18,7 +18,7 @@ Ad quæ plana, eadem recta linea recta est; illa sunt parallela.
 
 *Les plans ausquels vne mesme ligne droicte est à angles droicts, iceux sont paralleles.*
 
-G / I / C H E / A B / D F (figure)
+<!-- G / I / C H E / A B / D F (figure) -->
 
 Hypoth.
 

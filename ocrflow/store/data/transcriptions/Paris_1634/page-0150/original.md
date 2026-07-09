@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 tis describuntur, quadratis, & ei, quod bis sub segmentis comprehenditur, rectangulo.
 

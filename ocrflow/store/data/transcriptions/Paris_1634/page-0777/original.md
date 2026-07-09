@@ -1,11 +1,11 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 puncto eorum, quæ in vno sunt planorum, ad alterum planum perpendicularis ducta fuerit: in communem sectionem cadet planorum ducta perpendicularis.
 
 *Si vn plan est perpendiculaire à vn plan; & de quelque poinct de ceux qui sont en l'vn des plans, on mene vne ligne perpendiculaire à l'autre plan : la perpendiculaire menee tombera sur la commune section des plans.*
 
-A / G E / F / B / D / C (figure)
+<!-- A / G E / F / B / D / C (figure) -->
 
 Hypoth.
 

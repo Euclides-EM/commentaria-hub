@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
-F H G E / N K Q O / R / L T I M / P / S / A D C B (figure)
+<!-- F H G E / N K Q O / R / L T I M / P / S / A D C B (figure) -->
 
 Præpar.
 

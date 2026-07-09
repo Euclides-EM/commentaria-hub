@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 A,3. B,12. C,4.
 

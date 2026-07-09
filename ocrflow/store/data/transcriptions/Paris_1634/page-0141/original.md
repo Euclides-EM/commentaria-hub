@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 rectis AB & AD, rectum angulum BAD comprehendentibus, quod conficiatur ex motu imaginario lineæ AB in lineam AD, vel lineæ AD in lineam AB. Si namque animo concipiatur recta AB, secundum rectam AD, moueri in transuersum, ita vt semper angulum rectum cum AD constituat, donec punctum A, ad punctum D, & punctum B, ad punctum C, perueniat, descriptum erit parallelogrammum ABCD. Idem fiet, si AD ponatur moueri in transuersum secundum rectam AB, & c. quamobrem optimo iure, parallelogrammum AC sub rectis lineis AB & AD contineri dicitur.
 

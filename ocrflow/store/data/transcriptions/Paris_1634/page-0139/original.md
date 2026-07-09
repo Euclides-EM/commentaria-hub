@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: triangle BAC, B à gauche, C à droicte, A au milieu ; ligne A—D vers le haut à droicte, ligne D—C]*
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 hyp. | <bcd 2|2 <ecg,
 1.s.1.51 | dce est —,

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 2 concl. ſ. 46.1 | ba 2|2 el, Ⅱ fm,
 3.concl αβ | □.el, Ⅱ ba 2|2, 3□.ef.

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 æquales EFGDL & EFGDK quarum basis communis est quadratum EFGD.
 

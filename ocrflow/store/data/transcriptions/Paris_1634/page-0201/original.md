@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'vn centre à l'autre, passera par l'attouchement.
 

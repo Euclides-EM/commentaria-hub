@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: trois lignes A, B, C en haut ; deux cercles s'entrecoupans en K & I, centres F & G, ligne D—F—M—L—G—H—E, triangle FGK]*
 

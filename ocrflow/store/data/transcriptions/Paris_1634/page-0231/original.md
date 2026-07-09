@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 tera singulos eius figuræ angulos tetigerint, circū quam illa describitur.
 

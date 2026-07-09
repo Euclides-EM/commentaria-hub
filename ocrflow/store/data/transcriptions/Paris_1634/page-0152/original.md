@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 descriptum, quadruplum est quadrati ex hac descripti.
 

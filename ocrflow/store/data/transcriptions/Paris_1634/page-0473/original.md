@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID.. LI. VII.
+<!-- # ELEM.. EVCLID.. LI. VII. -->
 
 hyp. | ab π cd 2|2 e π f,
 13.7 | ab π e 2|2 cd π f,

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 *D'icy il est manifeste, que si le nombre qui mesure quelqu'vn des proportionaux n'est l'vn des proportionaux, le nombre par lequel il mesurera ne sera pas aussi aucun des proportionaux.*
 

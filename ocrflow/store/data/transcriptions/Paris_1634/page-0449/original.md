@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 merus B, est minimus communis diuiduus numerorum C & D.
 

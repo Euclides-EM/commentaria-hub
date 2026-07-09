@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 cio triangulorum isoscelium, quorum anguli æquales ad basim multiplices sunt eorum qui ad verticem sunt angulorum, parium verò laterum figuræ in circulo inscribuntur, beneficio isoscelium triangulorum, quorum anguli ad basim multiplices sesquialteri sunt eorum, qui ad verticem sunt angulorum.
 

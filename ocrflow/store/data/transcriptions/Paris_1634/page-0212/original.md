@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 *[Figur: cercle A—B—C—D, E au dehors à gauche, lignes E—C, E—A—B, A—C, A—D, B—C, B—D, D—C]*
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 numerum lateris GH, 3, facit 15, pro area rectanguli EH.
 

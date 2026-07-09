@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 1.a.1 | 3<cbe 2|2, 2∟,
 7.a.1 | <cbe 2|2, ⅓..2∟,

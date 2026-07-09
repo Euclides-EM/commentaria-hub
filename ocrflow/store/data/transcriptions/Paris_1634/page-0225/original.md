@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 tombent deux lignes droictes au cercle, l'vne desquelles couppe le cercle & l'autre le touche ; le rectangle contenu sous toute la couppante, & sa partie de dehors pris entre le poinct, & la circonference conuexe, est égal au quarré de la touchante.
 

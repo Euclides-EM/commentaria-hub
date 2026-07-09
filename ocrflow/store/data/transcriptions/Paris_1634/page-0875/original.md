@@ -17,7 +17,7 @@ Conſtr.
 1. p. 1 | ca, cg, ce, ag, ge, ea ſnt ——;
 ſymp. | Req. eſt pyram. agec.
 
-(figure) E F / D C / H / G / A B
+<!-- (figure) E F / D C / H / G / A B -->
 
 Demonſtr.
 

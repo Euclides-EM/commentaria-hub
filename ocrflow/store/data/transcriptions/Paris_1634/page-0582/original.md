@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *Si deux grandeurs n'ont mesme raison entr'elles que nombre à nombre ; icelles grandeurs seront incommensurables.*
 

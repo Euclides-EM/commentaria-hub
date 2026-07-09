@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI, XII.
+<!-- # ELEM.. EVCLID. LI, XII. -->
 
-A K E M / T Y P S / B I D F L H / V X Q R / C G / O N (figure)
+<!-- A K E M / T Y P S / B I D F L H / V X Q R / C G / O N (figure) -->
 
 pyram. abuyк π pyram. epfqſm / 6. 12 | polyg. atbuy π polyg. epfqgr / c. 2. 12 | ⊙abx π ⊙efr / α | con. abxк π ſolid. n, ſnt raō; 2|2 ꝗe,
 11. 5 | pyram. atbuyк π con. abxk 2|2 pyram. ebfqſm, π ſolid. n,

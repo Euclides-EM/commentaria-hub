@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 sextam : prima quoque ad secundam maiorem rationem habebit, quàm quinta ad sextam.
 

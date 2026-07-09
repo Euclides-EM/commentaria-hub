@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
-L A / F I / K / B D / E / G H / C (figure)
+<!-- L A / F I / K / B D / E / G H / C (figure) -->
 
 Demonstr.
 

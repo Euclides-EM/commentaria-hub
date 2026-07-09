@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 Si chaque nombre de ces quatre progressions est diuisé en deux parties, dont la moindre soit l'vnité, & que les angles aigus d'vn triangle rectangle soient en mesme raison que les deux parties de quelqu'vn de ces nombres, la raison des angles du triangle estant donnée, la raison des costez se trouuera par la methode suiuante.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 æqualem habentium reciproca sunt latera, quæ circum æquales angulos, illa sunt æqualia.
 

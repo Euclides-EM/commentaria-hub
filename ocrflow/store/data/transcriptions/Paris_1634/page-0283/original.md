@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 dentis ad antecedentem & consequētem, ceu ad vnam.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 6<abcde est inscrit. π ⊙abcde.
 

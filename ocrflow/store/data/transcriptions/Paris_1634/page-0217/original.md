@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 Aux cercles égaux les angles appuyez sur circonferences égales sont égaux entr'eux; soit qu'ils y soient appuyez estant constituez aux centres, ou bien estant constituez aux circonferences.
 

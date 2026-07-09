@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 hyp. | bc π ca 2|2 ce π ed,
 1.d.6 | Δabc sml. Δdce. α

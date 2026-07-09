@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 extremis comprehenditur rectangulum, æquale est ei, quod à media describitur, quadrato. Et si sub extremis comprehensum rectangulum æquale sit ei, quod à media describitur, quadrato : illæ tres rectæ lineæ proportionales erunt.
 

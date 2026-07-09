@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 γ. icoſaedr. eſt 105146'''',
 ſuperfic.. icoſaedr. eſt 957454'''',

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLD. LI. VII.
+<!-- # ELEM.. EVCLD. LI. VII. -->
 
 *tre ensemble sera premier à chacun d'iceux : Et si l'vn & l'autre ensemble est premier à quelqu'vn d'iceux, les nombres proposez au commencement seront aussi premiers entr'eux.*
 

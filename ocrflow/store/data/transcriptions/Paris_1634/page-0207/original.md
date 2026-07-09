@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 D'vn poinct donné mener vne ligne droicte, qui touche vn cercle donné.
 

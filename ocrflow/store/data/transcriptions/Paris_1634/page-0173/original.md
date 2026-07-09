@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 Si vne ligne droicte est couppée en deux parties inégales, les quarrez descrits de la toute & de la difference des parties, sont doubles de ceux qui sont faicts des deux parties de la toute.
 

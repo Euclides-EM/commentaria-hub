@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 guras rectilineas, quæ pluribus quam quatuor rectis lineis circumscribuntur generali vocabulo multilateras. | toutes autres figures rectilignes, circonscriptes de plus de quatre lignes, d'vn nom general multilateres.
 

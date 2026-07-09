@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID.. LI. XV.
+<!-- # ELEM.. EVCLID.. LI. XV. -->
 
 4. 1 | gh, hi, iк, kl, lg ſnt 2|2 ꝗe,
 31.d.11 | ghiкl, eſt pentagon. req.

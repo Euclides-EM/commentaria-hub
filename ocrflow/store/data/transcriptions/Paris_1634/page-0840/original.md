@@ -1,11 +1,11 @@
 
-# ELEM.. EVCLID.. LI. XIII.
+<!-- # ELEM.. EVCLID.. LI. XIII. -->
 
 baſin pyramidis deſcripti.
 
 *De cecy on peut colliger que le diametre de la sphere est quadruple sesquialtere en puissance du demidiametre du cercle descrit à l'entour de la base de la pyramide.*
 
-D / A C E / I F / H / E K G (figure)
+<!-- D / A C E / I F / H / E K G (figure) -->
 
 Req. π. demonstr.
 

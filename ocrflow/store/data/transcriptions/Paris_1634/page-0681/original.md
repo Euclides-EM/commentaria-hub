@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 suppos. | ef, est ration. expos.
 4.app. | ▭eg 2|2 □.ac + □.bc,

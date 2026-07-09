@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 s.12.10 | ▭.aeb ∼ ▭.adb, est ration.
 α | contr. 27.10.

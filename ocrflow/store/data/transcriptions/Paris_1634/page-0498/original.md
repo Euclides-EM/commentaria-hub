@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VIII.
+<!-- # ELEM.. EVCLID. LI. VIII. -->
 
 constr. | k,l,m,n snt mi. ꝗn raō. e π f,
 hyp. | a, b, c, d snt mi. ꝗn raō. e π f,

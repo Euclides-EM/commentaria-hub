@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 c.1.13 | • o, est centr.. ⊙ iak &.. ⊙ iek. contr. 5.3.
 21.a.1 | i, k, l, ñ snt intersect.

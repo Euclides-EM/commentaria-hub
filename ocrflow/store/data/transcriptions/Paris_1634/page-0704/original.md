@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID.. LI. X.
+<!-- # ELEM.. EVCLID.. LI. X. -->
 
 ## THEOR. LXXVI. PROPOS. C.
 
@@ -7,7 +7,7 @@ Quadratum mediæ apotomæ secundæ ad rationalem applicatum, latitudinem facit a
 
 *Le quarré d'vn apotome medial second appliqué à vne ligne rationelle, fait la latitude apotome troisiesme.*
 
-A B C / D G M I L / E F N H K (figure)
+<!-- A B C / D G M I L / E F N H K (figure) -->
 
 Hypoth.
 

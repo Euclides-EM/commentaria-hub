@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 β.3.3 | cg 2|2 gd, γ
 | ▭.aeb + □.fe

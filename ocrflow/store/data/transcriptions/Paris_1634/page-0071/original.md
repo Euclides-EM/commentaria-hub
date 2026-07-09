@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 sunt inæqualia, illud nimirùm maius & hoc minus. | & à la plus petite la plus petite, les tous sont inegaux, celuy-là plus grand & cestuy-cy plus petit.
 

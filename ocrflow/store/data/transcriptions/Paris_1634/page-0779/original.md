@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 ## COROLL.
 
@@ -13,7 +13,7 @@ Si fuerint duo prismata æqualis altitudinis, quorum hoc quidem habeat basin, pa
 
 *Si deux prismes sont de mesme hauteur, desquels l'vn ait vn parallelogramme pour base, & l'autre vn triangle, & que le parellelogramme soit double du triangle, iceux prismes seront egaux.*
 
-O / N K / E / D / L / M / I / P / F / C / α / A / B / G / H (figure)
+<!-- O / N K / E / D / L / M / I / P / F / C / α / A / B / G / H (figure) -->
 
 Hypoth.
 

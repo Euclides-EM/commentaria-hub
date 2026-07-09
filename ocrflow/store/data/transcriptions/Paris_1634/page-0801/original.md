@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 d. α | pyram. acdf ſml. pyram. gikm,
 d. α | pyram. adef ſml. pyram. gкlm,

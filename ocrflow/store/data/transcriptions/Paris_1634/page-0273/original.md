@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 dicitur tripla super tripartiens quartas.
 

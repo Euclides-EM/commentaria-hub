@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 βs.12.10 | □.ef, est irration.
 concl. 11.d.10 | ef, est irration.

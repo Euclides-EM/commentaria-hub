@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 *bres proposez au commencement, multiplians iceux produicts en font quelques vns, iceux seront aussi premiers entr'eux : & cecy aduiendra tousiours enuiron les extremes.*
 

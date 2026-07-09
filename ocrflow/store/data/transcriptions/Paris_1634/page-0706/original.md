@@ -1,9 +1,9 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *Le quarré d'vne ligne, laquelle auec vn espace rationel fait vn tout medial, appliqué à vne ligne rationelle, fait la latitude, apotome cinquiesme.*
 
-A B C / D G M I L / E F N H K (figure)
+<!-- A B C / D G M I L / E F N H K (figure) -->
 
 Hypoth.
 

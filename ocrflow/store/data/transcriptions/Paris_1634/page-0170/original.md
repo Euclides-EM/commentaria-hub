@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 3.s.1.d.2 | ▭.daf 2|2 ▭.adb, α
 s.46.1 7.2 α.1.a.s. 5.2 1.s.4.2 47.1 | ▭.ad + ▭.db, ▭.ad + ▭.af, 2▭.daf + ▭.fd, 2▭.adb + ▭.fd, 2▭.ed + ▭.fd, 2▭.ed + 4▭.cd, 2▭.ce + 2▭.cd, snt 2|2 ⁊e,

@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XIV.
+<!-- # ELEM.. EVCLID. LI. XIV. -->
 
-(figure) B / C I E / D — F / K / G H / A
+<!-- (figure) B / C I E / D — F / K / G H / A -->
 
 Req. π. demonſtr.
 ⊙cbed 2|2 ⊙gfh.

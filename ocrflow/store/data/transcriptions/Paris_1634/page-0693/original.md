@@ -1,8 +1,8 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
-A D F G E / B L C N K H I (figure)
-N P / T S O / V X / Q R M (figure)
+<!-- A D F G E / B L C N K H I (figure) -->
+<!-- N P / T S O / V X / Q R M (figure) -->
 
 s.28.6 | ▭.age 2|2 □.fe, α
 2.p.1 | bci, est ——,

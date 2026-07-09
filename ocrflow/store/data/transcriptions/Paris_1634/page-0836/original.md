@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
-A / E F / F L / K / M / H / P —— / N —— / C I D / G / N (figure)
+<!-- A / E F / F L / K / M / H / P —— / N —— / C I D / G / N (figure) -->
 
 diamet. ag, eſt ration.
 abcde, eſt 5< inſcri. ꝗn ⊙.

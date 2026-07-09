@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 11.5 | ab π de 2|2 ef π bg,
 hyp. | <b 2|2 <e,

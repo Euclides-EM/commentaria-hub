@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 Si quatre lignes droictes sont proportionelles, les figures rectilignes semblables & semblablement descrites sur icelles seront proportionelles : Et si les figures rectilignes semblables & semblablement descrites sur lignes droictes sont proportionelles, icelles lignes droictes seront außi proportionelles.
 

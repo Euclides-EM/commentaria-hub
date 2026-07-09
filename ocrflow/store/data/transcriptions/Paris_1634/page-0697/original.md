@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 ε.l.91.10 | to & so, snt medi. comm. ꝗn □,
 α. hyp. | de, est ration. cōm. ab

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 11, 1 | dce ⊥ cf,
 11. 1 | ad & be ⊥ ab.
@@ -19,7 +19,7 @@ Spatium à duabus ex eodem puncto tangentibus & periphæria comprehensum, minus 
 
 *L'espace compris de la peripherie, & de deux touchantes menees d'vn mesme poinct, est moindre que le double du triangle isoscele des segments des mesmes touchantes, & d'vne troisiesme ligne qui touche la mesme peripherie.*
 
-A / D O G F / N / B H C (figure)
+<!-- A / D O G F / N / B H C (figure) -->
 
 Hypoth.
 

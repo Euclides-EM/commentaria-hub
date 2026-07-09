@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: à gauche quadrilatere ABCD, B & C en haut, A & D en bas, diagonale poinctée B—D ; l'angle E ; à droicte parallelogramme F—G—H—L en haut, F—I—K en bas, ligne H—I]*
 

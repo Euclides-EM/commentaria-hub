@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 parallelogrammum applicare deficiens figura parallelogramma, quæ similis sit alteri parallelagrammo dato. Oportet autem datum rectilineum cui æquale applicandum est, non maius esse eo, quod ad dimidiam applicatur similibus existentibus defectibus, & eius, quod ad dimidiam applicatur, & eius, cui simile deesse debet.
 

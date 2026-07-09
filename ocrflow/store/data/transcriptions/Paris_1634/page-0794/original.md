@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID.. LI. XII.
+<!-- # ELEM.. EVCLID.. LI. XII. -->
 
-F M / A G / E L / B H / C D I K (figure)
+<!-- F M / A G / E L / B H / C D I K (figure) -->
 
 Præpar.
 
@@ -21,7 +21,7 @@ c. 4. 5 | gкl π ghiкl 2|2 gкlm π ghiкlm,
 
 Si bases non habent latera multitudine æqualia, demonstratio fiet vt sequitur. | *Si les bases n'ont les costez egaux en multitude, la demonstration se fera comme s'ensuit.*
 
-F K / A / G / B E / C DH I (figure)
+<!-- F K / A / G / B E / C DH I (figure) -->
 
 γ | abc π ghi 2|2 abcf π ghiк,
 γ | acd π ghi 2|2 acdf π ghiк,

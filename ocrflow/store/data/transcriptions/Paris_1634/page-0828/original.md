@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID.. LI. XIII.
+<!-- # ELEM.. EVCLID.. LI. XIII. -->
 
-A G D / E I F / B H C (figure)
+<!-- A G D / E I F / B H C (figure) -->
 
 1. p. 1 | ac, eſt diamet.
 31. 1 | gih == ab,
@@ -20,7 +20,7 @@ Si recta linea secundum extremam & mediam rationem secetur, apponatúrque ei æq
 
 *Si vne ligne droicte est couppee selon la moyenne & extreme raison, & qu'on adjouste à icelle vne ligne egale au plus grand segment: la totale est couppee en la moyenne & extreme raison, & le plus grand segment est la ligne droicte, qui estoit proposee au commencement.*
 
-D A C B (figure)
+<!-- D A C B (figure) -->
 
 Hypoth.
 

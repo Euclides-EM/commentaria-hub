@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 2.a.1. | gnom. kdg + ▭kg 2|2 ai ▭.adb + kg ▭.cb,
 19.a.1. | gnom. kdg + ▭kg, 2|2 ce ▭.cb,

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: deux cercles, triangle DAC au centre, points H, F, G à droite, B à gauche, E en bas]*
 

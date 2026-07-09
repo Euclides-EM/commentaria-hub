@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 interponitur; aliarum autem ea, quæ propinquior est minimæ, remotiore semper minor est. Duæ autem tantùm rectæ lineæ æquales ab eo puncto in ipsum circulum cadunt, ad vtrasque partes minimæ, vel maximæ.
 

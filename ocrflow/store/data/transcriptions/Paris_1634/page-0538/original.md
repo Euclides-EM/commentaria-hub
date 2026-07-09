@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 proportionales fuerint, qui verò post vnitatem, non sit quadratus, neque alius vllus quadratus erit, præter tertium ab vnitate, & vnum intermittentes omnes. At si, qui post vnitatem, non sit cubus, neque alius vllus cubus erit, præter quartum ab vnitate, & duos intermittentes omnes.
 

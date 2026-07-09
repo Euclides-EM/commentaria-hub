@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 mero vnitatum constant, sunt inter se æquales.
 

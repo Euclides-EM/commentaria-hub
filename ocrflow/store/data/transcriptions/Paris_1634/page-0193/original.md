@@ -1,5 +1,5 @@
 
-# ELEM.. EVDLID. LI. III.
+<!-- # ELEM.. EVDLID. LI. III. -->
 
 Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par le centre, elles ne se coupperont point l'vne l'autre en deux également.
 

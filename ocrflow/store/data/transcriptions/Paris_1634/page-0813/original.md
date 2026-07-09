@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 Demonstr.
 
@@ -24,7 +24,7 @@ abe & cdf ſnt con;
 baſ; ab & cd ſnt ⊙ 2|2 ꝗe,
 me & nf ſnt alt;
 
-G E H / A M B F K / O L P C N L (figure)
+<!-- G E H / A M B F K / O L P C N L (figure) -->
 
 Req. π. demonstr.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 10.4 | △fgh est isosc.
 | <gu<h 2|2, 2<f, α

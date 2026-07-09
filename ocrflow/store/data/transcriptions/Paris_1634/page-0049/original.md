@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 *[Figur: triangle rectangle A, triangle obtusangle B]*
 

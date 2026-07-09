@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 *[Figur: ligne BD horizontale passant par C, ligne CA oblique montant vers la droite]*
 

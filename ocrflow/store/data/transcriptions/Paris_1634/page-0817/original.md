@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
-O R / B Q / α F τ δ / A E D S P / ζ C / H y N / V M L (figure)
+<!-- O R / B Q / α F τ δ / A E D S P / ζ C / H y N / V M L (figure) -->
 
 Hypoth.
 

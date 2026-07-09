@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VIII.
+<!-- # ELEM.. EVCLID. LI. VIII. -->
 
 primus autem sit quadratus, & tertius quadratus erit.
 

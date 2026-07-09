@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 sunt latera, quæ circum æquales angulos, & homologa sunt latera, quæ æqualibus angulis subtenduntur.
 

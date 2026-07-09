@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 l.54.10 | ef, fc, ec snt comm. ꝗe,
 α.hyp. | ec, est ration.

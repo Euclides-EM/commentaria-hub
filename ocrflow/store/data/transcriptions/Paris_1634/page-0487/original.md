@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 λ.2c.20 d.7 | e, msur: f,
 contr. suppos. μ

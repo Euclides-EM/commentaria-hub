@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 ſ,46.1 | dr 2|2 rſ, β
 d. α 1.concl | □.cſ 2|2 4□.pſ, □.ct 2|2, 4□.tq, &c.

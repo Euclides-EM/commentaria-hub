@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 24.10 | ▭.cf, est medi.
 23.10 | cb, est ration.

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 ## THEOR. LXXXIX. PROPOS. CXIII.
 
@@ -7,7 +7,7 @@ Quadratum rationalis ad eam, quæ ex binis nominibus, applicatum, latitudinem fa
 
 *Le quarré d'vne rationelle estant appliqué à vne ligne binome, fait la latitude apotome, de laquelle les noms sont commensurables & proportionaux aux noms du binome, & en outre l'apotome est de mesme ordre que le binome.*
 
-H C E G F / D / A B (figure)
+<!-- H C E G F / D / A B (figure) -->
 
 Hypoth.
 

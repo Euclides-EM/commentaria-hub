@@ -1,8 +1,7 @@
 
 # PROLEGOMENA.
 
-### (colonne gauche, latin)
-
+<!-- (colonne gauche, latin) -->
 rum quidem priores tredecim, sine vlla controuersia Euclidi ascribuntur ab omnibus ; posteriores verò duo à nonnullis Hypsiclis Alexandrini esse creduntur) secari rectè poterit in quatuor partes, quarum prima pars contenta sex prioribus libris agit de planis.
 
 Secunda, tres sequentes complectens, passiones numerorum perscrutatur.
@@ -13,8 +12,7 @@ Quarta denique, reliquis quinque libris absoluta sciëtiam solidorum siue corpor
 
 Prima pars rursum triplex est, nam in prioribus quatuor libris agitur de planis absolutè, inuestigando eorum æqualitatem & inæqualitatem. In quinto verò libro de proportionibus magnitudinum in genere disputatur : in sexto denique
 
-### (colonne droite, français)
-
+<!-- (colonne droite, français) -->
 attribuez à Euclide sans aucune controuerse ; mais les deux derniers sont estimez par quelques-vns estre à Hypsile Alexandrin) pourra estre diuisé en quatre parties, dont la premiere contiendra les six premiers Liures qui traictent des plans.
 
 La seconde, les trois suiuants laquelle recherche les passions & proprietez des nombres.

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 ∩abc 2|2 ∩def,
 ∪ aic 2|2 ∪ dkf.

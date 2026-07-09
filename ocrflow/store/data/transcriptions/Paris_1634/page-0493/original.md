@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VIII.
+<!-- # ELEM.. EVCLID. LI. VIII. -->
 
 Req. π. demonstr.
 

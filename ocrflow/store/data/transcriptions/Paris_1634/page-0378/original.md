@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 3.a.1 | gnom. eng 2|2 c, β
 α.36.1 | ◇al 2|2 ◇eo u ◇bm,

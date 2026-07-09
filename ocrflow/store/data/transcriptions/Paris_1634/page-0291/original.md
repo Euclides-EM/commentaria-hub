@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 hypoth. | hiua, multipl.. b, 2|2, lm, uc, multipl.. d,
 concl. β.2.5 | ei, multipl.. b, 2|2, fm, multipl.. d.

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 ter se commensurabilium ; aut enim duarum linearum rationalium longitudine inter se commensurabilium, altera æqualis est expositæ rationali ; aut neutra rationali expositæ æqualis est, longitudine tamen ei vtraque est commensurabilis : aut denique vtraque expositæ rationali commensurabilis est solùm potentia.
 

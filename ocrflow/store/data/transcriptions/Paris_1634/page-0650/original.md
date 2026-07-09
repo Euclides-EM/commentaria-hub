@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 12.10 | ef & fc snt comm. ab,
 20.10 | ▭ek & ▭fd snt ration.

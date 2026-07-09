@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 | ▭.dg commun. subtr.
 concl. 3.a.1 | ah ▭.ag 2|2 gc ▭.abg.

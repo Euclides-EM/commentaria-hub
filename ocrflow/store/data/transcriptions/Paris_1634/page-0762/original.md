@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
-D C I K / P / E H / F B M L / N / A G (figure)
+<!-- D C I K / P / E H / F B M L / N / A G (figure) -->
 
 Demonstr.
 
@@ -18,7 +18,7 @@ Solida parallelepipeda super eandem basin constituta, & in eadem altitudine, quo
 
 *Les solides parallelipipedes, constituez sur vne mesme base, & de mesme hauteur, & desquels les plans opposez à leur base ne sont entre mesmes lignes droictes, sont egaux entr'eux.*
 
-K L / M N / G F I Q / B E C / H P O / A D (figure)
+<!-- K L / M N / G F I Q / B E C / H P O / A D (figure) -->
 
 Hypoth.
 

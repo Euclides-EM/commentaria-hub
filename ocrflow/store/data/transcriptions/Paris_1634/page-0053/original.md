@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 *[Figur: parallelogramme GLMH, H en haut à gauche, M en haut à droite, G en bas à gauche, L en bas à droite]*
 

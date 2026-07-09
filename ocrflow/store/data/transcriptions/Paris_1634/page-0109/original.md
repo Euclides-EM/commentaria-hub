@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 22.1. | △agh & △dcf snt æquil.
 symp. | <a 2|2 <d.

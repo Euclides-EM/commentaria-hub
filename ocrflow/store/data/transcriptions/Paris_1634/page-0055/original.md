@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 ab hisce parallelis in quatuor distribuatur parallelogramma : appellantur duo illa, per quæ diameter non transit, complementa ; duo verò reliqua, per quæ diameter incedit, circa diametrum consistere dicuntur. | rallelogramme soit diuisé par icelles lignes paralleles, en quatre parallelogrammes ; les deux par où le diametre ne passe, sont appellez complements : mais les deux autres, par lesquels le diametre passe, sont dits estre à l'entour du diametre.
 

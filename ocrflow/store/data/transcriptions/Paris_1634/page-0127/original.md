@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 qu'elle soit æquilateral & æquiangle : les costez opposez seront paralleles entr'eux.
 

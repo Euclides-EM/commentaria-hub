@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 4.cōcl. 10.10 | aggreg..□.ac + □.cb, comm. aggreg..□.df + □.fe.
 

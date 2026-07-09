@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 cet angulis, seu quod vni æqualium angulorum subtenditur : reliqua latera reliquis lateribus æqualia, vtrumque vtrique, & reliquum angulum reliquo angulo æqualem habebunt.
 

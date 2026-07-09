@@ -1,11 +1,11 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 & altitudines reciprocantur; & quorum solidorum parallelepipedorum bases, & altitudines reciprocantur, illa sunt æqualia.
 
 *Les bases & les hauteurs des solides parallelipipedes egaux, sont reciproques; & les solides parallelipipedes desquels les bases & les hauteurs sont reciproques, sont egaux.*
 
-B F / G K / C I / D / L H / A E (figure)
+<!-- B F / G K / C I / D / L H / A E (figure) -->
 
 Hypoth. 1.
 

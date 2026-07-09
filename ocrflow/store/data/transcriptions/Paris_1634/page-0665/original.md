@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 suppos. | ac 3|2 cb..□.——, comm. ac,
 15.10 | df 3|2 fe..□.——, comm. df,

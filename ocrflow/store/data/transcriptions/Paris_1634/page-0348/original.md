@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 *[Figur: triangle A, F, G, B avec points C, E, D, H, I]*
 

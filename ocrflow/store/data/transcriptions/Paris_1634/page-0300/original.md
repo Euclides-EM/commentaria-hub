@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 les : quemadmodum se habuerit vna antecedentium ad vnam consequentium, ita se habebunt omnes antecedentes ad omnes consequentes.
 

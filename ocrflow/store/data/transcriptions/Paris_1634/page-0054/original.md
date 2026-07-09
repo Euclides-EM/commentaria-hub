@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 Trapezium scalenum est, cuius duo latera opposita sunt parallela, & reliqua duo latera inter se inæqualia, vt DHFK. | Trapeze scale est celuy qui a deux costez opposez paralleles, & les deux autres costez inegaux entr'eux, cöme DHFK.
 

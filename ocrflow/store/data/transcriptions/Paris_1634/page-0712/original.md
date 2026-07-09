@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 α. hyp | ▭.acb, est ration.
 l.66 10 | ▭.dfe, comm. ▭.acb,
@@ -18,7 +18,7 @@ ab, est ——, fa. 2; medi. α
 bc, est congruen.
 de, comm. ab.
 
-A B C / D E F (figure)
+<!-- A B C / D E F (figure) -->
 
 Req. π. demonstr.
 

@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 faciat, duæ illæ rectæ lineæ in infinitum productæ, sibi mutuò incident ad eas partes vbi sunt anguli duobus rectis minores. | droicts, icelles deux lignes droictes estant prolongees infiniment, se coupperont l'vne l'autre de la part où les deux angles sont moindres que deux droicts.
 

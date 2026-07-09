@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: triangle ABC, A en haut, costé BC prolongé vers D, ligne C—E parallele à BA]*
 

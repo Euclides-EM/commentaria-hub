@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 2.c.17.1 | perpendic. ad est vers. d,
 4.2 | ▭.cd 2|2 ▭.cb + ▭.bd + 2▭.cbd,

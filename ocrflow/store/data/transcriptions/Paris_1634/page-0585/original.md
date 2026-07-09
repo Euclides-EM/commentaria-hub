@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 Quæ vero potentia commensurabiles, non omnino & longitudine. Et quæ longitudine incommensurabiles sunt, non omnino & potentia incommensurabiles esse : Quæ vero potentia incommensurabiles sunt, omnino & longitudine incommensurabiles esse.
 

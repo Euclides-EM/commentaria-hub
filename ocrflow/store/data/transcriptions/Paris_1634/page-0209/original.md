@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 12.a.1 | <fcb 2|2 <ecb, contr. 9.a.1.
 concl. 21.a.1 | centr.. ⊙ est in ec.

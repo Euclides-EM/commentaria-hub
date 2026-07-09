@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 32. 11 | ◇piped. adcb π ◇piped. ehiк 2|2 bas. ad π bas. eh,
 hyp. | bas. ad π bas. eh 2|2 alt. eg π alt. ei,

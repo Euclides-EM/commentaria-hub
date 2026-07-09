@@ -1,9 +1,9 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 *uent; icelles se couppent l'vne l'autre en la moyenne & extreme raison, & les plus grands segments d'icelles sont egaux du costé du pentagone.*
 
-A / B E / F / C D (figure)
+<!-- A / B E / F / C D (figure) -->
 
 Hypoth.
 

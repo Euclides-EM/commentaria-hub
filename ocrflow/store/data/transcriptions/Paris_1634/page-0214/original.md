@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 partim intra; si cadat extra aut intra, segmenta erunt dissimilia per præcedentem, quod est contra hypothesim. Si cadat partim extra, partim intra, sese mutuò secabunt in pluribus punctis quàm duobus, nimirum in A, F, G, quod est impossibile per decimam tertij, congruet igitur segmentum ABC segmento DEF, atque adeo ipsa inter se æqualia erunt per 8. ax. 1.
 

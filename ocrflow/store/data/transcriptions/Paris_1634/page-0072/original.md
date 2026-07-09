@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 iori minus, & à minori maius, reliqua sunt inæqualia, illud nimirùm maius & hoc minus. | de la plus grande moins, & de la plus petite plus, les restes sont inegaux, sçauoir est celuy-là plus grand & celuy-cy plus petit.
 

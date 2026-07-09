@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 Si vne quantité excede vne quantité, la moitié de celle-la surpassera la moitié de celle-cy de la moitié de l'excez.
 

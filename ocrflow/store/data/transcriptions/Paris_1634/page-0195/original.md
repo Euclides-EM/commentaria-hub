@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 ma quidem erit ea, in qua centrum, minima vero reliqua; aliarum vero propinquior illi, quæ per centrum ducitur, remotiore semper maior est: Duæ autem solum rectæ lineæ æquales ab eodem puncto in circulum cadunt, ad vtrasque partes minimæ, vel maximæ.
 

@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
-A / K V P E / L O / Q / B D F H / I / K / S T / M N / C G (figure)
+<!-- A / K V P E / L O / Q / B D F H / I / K / S T / M N / C G (figure) -->
 
 β. 4.a.b | plan. i, 2|3 polyg. gmfleohn, γ
 constr. | polyg. absctdu, sml. polyg. elfmgnho,

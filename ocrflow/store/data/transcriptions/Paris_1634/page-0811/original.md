@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 22. 5 | uc π uк 2|2 qg π qm,
 δ. 7. 5 | uk π ck 2|2 qm π mg,

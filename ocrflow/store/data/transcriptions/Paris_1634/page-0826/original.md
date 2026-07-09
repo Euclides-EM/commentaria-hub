@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
-E G F / I O H K / P / D A C B / L N M (figure)
+<!-- E G F / I O H K / P / D A C B / L N M (figure) -->
 
 præpar. eſt ſml. præpar.. propoſ. præced.
 

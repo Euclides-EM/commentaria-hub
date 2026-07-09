@@ -1,7 +1,7 @@
 
-# ELEM. EVCLID. LI. XI.
+<!-- # ELEM. EVCLID. LI. XI. -->
 
-A / B / C / D (figure)
+<!-- A / B / C / D (figure) -->
 
 a π b 2|2 c π d,
 ◇piped. a, sml. ◇piped. b,

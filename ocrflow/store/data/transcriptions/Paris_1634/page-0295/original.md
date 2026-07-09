@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
 

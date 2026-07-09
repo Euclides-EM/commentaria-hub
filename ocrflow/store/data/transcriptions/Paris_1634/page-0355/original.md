@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 æquale est ei, quod sub mediis, comprehenditur, rectangulo. Et si sub extremis comprehensum rectangulum æquale fuerit ei, quod sub mediis continetur, rectangulo : illæ quatuor rectæ lineæ proportionales erunt.
 

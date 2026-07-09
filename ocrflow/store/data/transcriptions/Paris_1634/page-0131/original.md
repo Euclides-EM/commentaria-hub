@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 Les triangles égaux constituez sur bases égales, & de mesme part; sont entre mesmes paralleles.
 

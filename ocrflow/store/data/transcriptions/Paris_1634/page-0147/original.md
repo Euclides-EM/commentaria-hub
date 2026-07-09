@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 3.s.1.d.2 | ▭oh 2|2 ▭.eb,gc,
 2.a.1. | ▭ah 2|2 ▭an + ▭do + ▭el + ▭gi + ▭nk + oh,

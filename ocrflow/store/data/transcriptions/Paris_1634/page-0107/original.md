@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 | bd commun. add.
 4.a.1. | bd + dc 2|3 be + ec, α

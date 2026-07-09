@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLD. LI. IX.
+<!-- # ELEM.. EVCLD. LI. IX. -->
 
 *Si depuis l'vnité il y a tant de nombres qu'on voudra continuellement proportionaux ; le plus petit mesure le plus grand par quelqu'vn de ceux qui sont entre les nombres proportionaux.*
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 c.17.ap. | □.ad + □.db ∼ □.ae ∼ □.eb 2|2, 2▭.aeb ∼ 2▭.adb
 s.12.10 | □.ad + □.db ∼ □.ae ∼ □.eb, est ration.

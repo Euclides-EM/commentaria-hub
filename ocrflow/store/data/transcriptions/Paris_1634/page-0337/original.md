@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 41.1 | ◇ce 2|2, 2Δacb,
 41.1 | ◇cf 2|2, 2Δacd,

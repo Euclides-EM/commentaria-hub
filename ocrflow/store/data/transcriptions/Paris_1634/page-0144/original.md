@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 De tout espace parallelogramme, lequel on voudra des parallelogrammes à l'entour du diametre, auec les deux complements, soit appellé Gnomon.
 

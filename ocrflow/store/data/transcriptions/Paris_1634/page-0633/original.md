@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 2s.27.10 | aggreg..□.ae + □.eb, est ration.
 1s.27.10 | □.ad + □.db ∼ □.ae ∼ □.eb, est ration.

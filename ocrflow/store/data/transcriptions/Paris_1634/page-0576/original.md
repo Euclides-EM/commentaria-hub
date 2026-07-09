@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *continuant, il demeurera en fin quelque grandeur, plus petite que la moindre grandeur proposee.*
 

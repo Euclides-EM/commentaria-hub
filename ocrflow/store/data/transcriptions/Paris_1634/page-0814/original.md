@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID.. LI. XII.
+<!-- # ELEM.. EVCLID.. LI. XII. -->
 
 3. 1 | mf 2|2 fn,
 
@@ -22,7 +22,7 @@ Hypoth. 1.
 bh & ek ſnt cylindr; 2|2 ꝗe,
 bca & efo ſnt con; 2|2 ꝗe,
 
-N I D K / G A H P Q / E L C F M (figure)
+<!-- N I D K / G A H P Q / E L C F M (figure) -->
 
 Req. π. demonstr.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *Deux grandeurs commensurables estant donnees, trouuer la plus grande commune mesure d'icelles.*
 

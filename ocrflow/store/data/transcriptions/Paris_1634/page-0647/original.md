@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 γ♪14.10 | ef, incomm. eg,
 10.10 | ▭ek, incomm. ▭gi,

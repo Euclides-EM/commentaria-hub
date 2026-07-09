@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 Des grandeurs qui ont raison à vne mesme grandeur, celle-là qui a plus grande raison, est la plus grande : Mais celle-là à laquelle vne mesme grandeur a plus grande raison, est la plus petite.
 

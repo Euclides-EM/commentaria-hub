@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XV.
+<!-- # ELEM.. EVCLID. LI. XV. -->
 
 conſtr. | ge, eſt diamet. □.hgfe, / ea, eſt diamet.. □.ahed,
 47. 1 | ca, cg, ce, ag, ge, ea ſnt 2|2 ꝗe,
@@ -20,7 +20,7 @@ Conſtr.
 1. p. 1 | ef, fg, ge, ei, ih, he, fк, кi, if, gh, hк, kg ſnt ——,
 ſymp. | Req. eſt octaedr. egkifh.
 
-(figure) A / H / E G / K / I / B F C
+<!-- (figure) A / H / E G / K / I / B F C -->
 
 Demonſtr.
 

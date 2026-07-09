@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 2.c.32.1 | <cea est ½ ∟,
 constr. | cb 2|2 ce,

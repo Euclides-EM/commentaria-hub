@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 bases, in triplicata sunt homologorum laterum ratione.
 
@@ -12,7 +12,7 @@ abc & efg ſnt baſ;
 ab π ac 2|2 ef π eg, α
 ab π ad 2|2 ef π eh. α
 
-M K Q O / D L H P / I N / B F / C E G (figure)
+<!-- M K Q O / D L H P / I N / B F / C E G (figure) -->
 
 Req. π. demonstr.
 

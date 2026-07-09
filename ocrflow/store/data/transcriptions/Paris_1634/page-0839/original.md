@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
-D / A C E / I F / H / E K G (figure)
+<!-- D / A C E / I F / H / E K G (figure) -->
 
 3. 1 | hi 2|2 ca,
 2. p. 1 | ihк, eſt ——,

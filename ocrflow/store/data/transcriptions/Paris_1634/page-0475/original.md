@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 c.23.d.7 | g, msur: e 2|2 c, msur: a,
 15.7 | g, msur: c 2|2 e, msur: a, α

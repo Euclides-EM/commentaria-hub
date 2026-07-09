@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 Il s'ensuit außi que tous les angles constituez alentour d'vn mesme poinct, sont tant seulement égaux à quatre angles droicts.
 

@@ -1,9 +1,9 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *apotome, est aussi apotome, & de mesme ordre.*
 
-A B C / D E F (figure)
+<!-- A B C / D E F (figure) -->
 
 Hypoth.
 

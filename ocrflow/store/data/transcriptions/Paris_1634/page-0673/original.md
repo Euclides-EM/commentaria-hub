@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 dium contineat, reliqua irrationalis est: vocetur autem mediæ apotome secunda.
 

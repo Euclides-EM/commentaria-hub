@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 De cette proposition s'ensuit que tout triangle qui a vn angle droict ou obtus, a les autres aigus.
 

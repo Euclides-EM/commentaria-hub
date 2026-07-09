@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *quarré à nombre quarré : & les quarrez qui ont mesme raison entr'eux que nombre quarré à nombre quarré, auront aussi les costez commensurables en longitude. Mais les quarrez descrits de lignes droictes incommensurables en longitude, n'ont mesme raison entr'eux que nombre quarré à nombre quarré : & les quarrez qui n'ont mesme raison entr'eux que nombre quarré à nombre quarré, n'auront les costez commensurables en longitude.*
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 l'vnité sont gnomons : Et tous les aggregez des gnomons qui s'entresuiuent commençant à l'vnité sont nombres quarrez ; Et tout nombre quarré est composé d'autant de nombres impairs qu'il y a d'vnitez en son costé.
 

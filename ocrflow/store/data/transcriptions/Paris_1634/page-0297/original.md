@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 β.cōstr | ik 3|2 hg & ik 2|3 hf,
 2.concl. 8.d.5 | raō. d π c 3|2 raō. d π ab.

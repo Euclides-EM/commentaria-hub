@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 stantes du centre : Et celles qui sont également distantes du centre, sont égales entr'elles.
 

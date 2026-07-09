@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 quod à composita ex dimidia & adiuncta, tāquam ab vna, descriptum sit quadrati.
 

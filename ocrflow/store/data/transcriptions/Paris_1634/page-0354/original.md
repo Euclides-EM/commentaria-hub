@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 angle, & les costez qui sont autour des angles egaux reciproques sont egaux.
 

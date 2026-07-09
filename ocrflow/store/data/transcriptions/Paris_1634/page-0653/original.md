@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 nominibus quinta; recta linea spatium potens irrationalis est, quæ rationale & medium potens appellatur.
 

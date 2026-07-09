@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 *[Figur: demy cercle ABC, diametre AC horizontal, B au sommet de l'arc]*
 

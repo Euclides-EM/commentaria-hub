@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 21. 10 | ck, est ration. comm. cd, γ
 hyp. | ▭b, est medi.

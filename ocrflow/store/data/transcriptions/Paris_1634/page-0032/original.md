@@ -21,12 +21,10 @@ constr. { Constructio, id est, per constructionem. / Construction, c'est à dire
 
 symp. Symperasma, symperasme.
 
-### (colonne gauche, latin)
-
+<!-- (colonne gauche, latin) -->
 Symperasma est finis constructionis, qua peracta, asserimus constructum aut inuentum esse quod iubet problema, itaque in symperasmate loquimur sic.
 
-### (colonne droite, français)
-
+<!-- (colonne droite, français) -->
 Symperasme est la fin de la construction, laquelle estant acheuée, on affirme qu'on a construict ou inuenté ce que demande le probleme, partant au symperasme on parle ainsi.
 
 ## Propos. 1. libr. 1.

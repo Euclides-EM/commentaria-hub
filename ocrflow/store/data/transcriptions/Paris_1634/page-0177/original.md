@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 laterum, quæ sunt circa acutum angulum, in quod perpendicularis cadit, & ab assumpta interius linea sub perpendiculari prope acutum angulum.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 16. 5 | △abc π △efg / △lкc π △rqg / β | prism. кlcnmo π prism. qrgtsu / 7. 5 | prism. ibklmn π prism. pfqrst / 12. 5 | кlcnmo + ibklmn π qrgtsu + pfqrst, snt raō; 2|2 ꝗe,
 concl. 11. 5 | △abc π △efg, / кlcnmo + ibкlmn π qrgtsu + pfqrst.
@@ -10,7 +10,7 @@ Sub eadem altitudine existentes pyramides, & triangulares habentes bases; inter 
 
 *Les pyramides de mesme hauteur ayans bases triangulaires, sont l'vne à l'autre comme leurs bases.*
 
-X / A Y E / M S / I L P R / D H V / B K C F Q G (figure)
+<!-- X / A Y E / M S / I L P R / D H V / B K C F Q G (figure) -->
 
 Hypoth.
 

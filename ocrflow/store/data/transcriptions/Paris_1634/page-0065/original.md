@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 DA, descriptus est circulus ABC, per tertium postulatum. | DA, a esté descrit le cercle ABC, par la troisiesme demande.
 

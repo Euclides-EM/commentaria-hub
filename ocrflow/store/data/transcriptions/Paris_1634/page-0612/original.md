@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *Trouuer deux lignes mediales, commensurables en puissance seulement, qui contiennent vn rectangle rationel.*
 

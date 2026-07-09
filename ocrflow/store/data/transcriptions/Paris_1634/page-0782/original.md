@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
-A / B E G R / C D H M / L (figure)
+<!-- A / B E G R / C D H M / L (figure) -->
 
 Præpar.
 
@@ -30,7 +30,7 @@ Sectio semicirculo non major cedit trianguli æquicruri sibi inscripti duplo.
 
 *Vn segment qui n'excede le demy cercle est moindre que le double du triangle isoscele qui luy est inscrit.*
 
-D C E / A F B (figure)
+<!-- D C E / A F B (figure) -->
 
 Hypoth.
 

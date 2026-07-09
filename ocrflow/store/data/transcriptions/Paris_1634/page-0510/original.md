@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VIII.
+<!-- # ELEM.. EVCLID. LI. VIII. -->
 
 A,2. B,4. C,8.
 D,4. N,8. E.16. O,32. F,6.

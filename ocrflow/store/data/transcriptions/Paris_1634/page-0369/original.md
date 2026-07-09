@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 1.s.23.6 | Δabc π Δdef 2|2 ▭.ab,bc π ▭.de,ef,
 concl. 11.5 | ◇bg π ◇eh 2|2 ▭.ab,bc π ▭.de,ef.

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 2.concl. α.15.5 | raō.. ◇bg π ◇hf 2|2 raō.. ai π dk + raō.. bc π ef.
 

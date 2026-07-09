@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID.. LI. VII.
+<!-- # ELEM.. EVCLID.. LI. VII. -->
 
 δ | a & b msur: f,
 ε.37.7 | d, msur: f,

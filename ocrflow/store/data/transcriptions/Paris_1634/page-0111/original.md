@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 α | bc 2|2 eg,
 2.concl. 1.a.d. | bc 3|2 ef,

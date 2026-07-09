@@ -1,9 +1,9 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 *Si vn solide parallelipipede est couppé par vn plan mené par les lignes diagonales des plans opposez: le solide sera couppé par ce plan, en deux egalement.*
 
-E B / D C / F G / A H (figure)
+<!-- E B / D C / F G / A H (figure) -->
 
 Hypoth.
 

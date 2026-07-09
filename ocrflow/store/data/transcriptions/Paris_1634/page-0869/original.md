@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIV.
+<!-- # ELEM.. EVCLID. LI. XIV. -->
 
 concl. 1. a. 1 | 30▭.cd, fg 2|2 ſuperfic. dodecaedr.
 
@@ -9,7 +9,7 @@ lihк, eſt ⊙ cirſcri.
 li, lh, lк ſnt ——,
 lm ⊥ hк.
 
-(figure) A / B F E / C G D — I / L / H M K
+<!-- (figure) A / B F E / C G D — I / L / H M K -->
 
 Req. π. demonſtr.
 30▭.hк, lm 2|2 ſuperfic.. icoſaedr.

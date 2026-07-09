@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 θк. 14. 5 | ſphær. h 2|3 ſphær. bac,
 θλ. 11. 5 | ſphær. edf π ſphær. h, / 3; raō; diamet. ef π diamet. bc,

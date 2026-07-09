@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 1.concl. 11. 5 | alt. md π alt. la 2|2 baſ. bc π baſ. ef.
 

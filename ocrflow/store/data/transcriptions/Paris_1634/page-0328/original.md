@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 numero, sitque maior proportio primæ priorum ad secundam, quàm secundæ posteriorum ad tertiam ; item secundæ priorum ad tertiam maior, quàm primæ posteriorum ad secūdam : erit quoque ex æqualitate, maior proportio primæ priorum ad tertiam, quàm primæ posteriorum ad tertiam.
 

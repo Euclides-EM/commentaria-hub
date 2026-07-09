@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 *Tout nombre premier est premier à tout autre nombre, lequel il ne mesure point.*
 

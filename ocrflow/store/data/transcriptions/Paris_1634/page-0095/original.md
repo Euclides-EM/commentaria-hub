@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: arc de cercle, ligne A—E—G—F—B horizontale, poinct C au sommet, D sous la ligne, triangle ECF]*
 

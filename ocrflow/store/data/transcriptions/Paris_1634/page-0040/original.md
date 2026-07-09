@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 super rectam consistens lineam eos, qui sunt deinceps angulos æquales inter se fecerit, rectus est vterque æqualium angulorum, & quæ insistit recta linea, perpendicularis vocatur eius, cui insistit. | tombant sur vne autre ligne droicte, fait les angles de suite, ou d'vne part & d'autre, egaux entre eux, l'vn & l'autre d'iceux angles egaux est droict : & la ligne droite tombante est dite perpendiculaire à celle-là sur laquelle elle tombe.
 

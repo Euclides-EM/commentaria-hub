@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 2.a.1. | ▭bg + ▭af snt 20,
 concl. 3.a.1. | ▭hf est 9,

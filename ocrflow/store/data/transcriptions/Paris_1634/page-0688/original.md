@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. X.
+<!-- # ELEM. EVCLID. LI. X. -->
 
 erit apotome prima: similiter si ex secundo binomio, 10 + √.180 subducatur minus nomen, residuum, népe √.180 ∼ 10 erit apotome secunda, & sic de cæteris.
 

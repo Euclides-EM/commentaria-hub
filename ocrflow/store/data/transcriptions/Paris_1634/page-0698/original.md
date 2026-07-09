@@ -1,12 +1,12 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 ma quarta; recta linea spatium potens minor est.
 
 *Si vn espace est contenu sous vne ligne rationelle & vn apotome quatriesme, la ligne droicte pouuant iceluy espace, est ligne mineure.*
 
-A D F G E / B C K H I (figure)
-L N P / T S O / V X / Q R M (figure)
+<!-- A D F G E / B C K H I (figure) -->
+<!-- L N P / T S O / V X / Q R M (figure) -->
 
 Hypoth.
 

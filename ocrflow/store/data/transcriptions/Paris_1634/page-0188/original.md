@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 per hanct octauam definitionem insistit siue opponitur peripheriæ ADC.
 

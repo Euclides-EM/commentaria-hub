@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VIII.
+<!-- # ELEM.. EVCLID. LI. VIII. -->
 
 αγ. 17.7 | c π e 2|2 a π g, ε
 βγδ 17.7 | g π b 2|2 d π f, u c π e,

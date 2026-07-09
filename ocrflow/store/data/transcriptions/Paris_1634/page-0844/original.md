@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 12. 11 | ei, fк, hm, gl ſnt 2|2 ef & ⊥ □efgh,
 1.p.1 | iк, кl, lm, im ſnt ——;
@@ -11,7 +11,7 @@ Præpar.
 1p1 &3.1 | on, eſt ——, & op 2|2 pn,
 1. p. 1 | pf, pк, pi, pe, pg, pl, pm, ph ſnt ——.
 
-B / M I / H N G / D C I P / A E Q F / K (figure)
+<!-- B / M I / H N G / D C I P / A E Q F / K (figure) -->
 
 Demonstr.
 

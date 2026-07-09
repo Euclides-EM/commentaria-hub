@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 Et les polygones sont l'vn à l'autre en raison doublee de leurs costez de mesme raison.
 

@@ -1,8 +1,7 @@
 
 # PROLEGOMENA.
 
-### (colonne gauche, latin)
-
+<!-- (colonne gauche, latin) -->
 sum exposcant, ne vlla sit in demonstrando hæsitatio, aut difficultas.
 
 Ad tertium genus referuntur axiomata, seu communes animi notiones, quæ non solùm in scientia proposita, sed etiam in omnibus aliis ita manifesta sunt & euidentia, vt ab eis nulla ratione dissentire queat is, qui ipsa vocabula rectè perceperit.
@@ -11,8 +10,7 @@ Porrò in huiusmodi principiis tradendis hic ordo ab Euclide seruatur, vt in ips
 
 Neque verò omnia principia Geometrica ab Euclide in his elementis sunt explicata, sed plurima sunt pronuntiata, quibus Eucli-
 
-### (colonne droite, français)
-
+<!-- (colonne droite, français) -->
 afin qu'il n'y ait aucune hesitation ou difficulté en la demonstration.
 
 Au troisieme sont les axiomes ou maximes & communes notions de l'esprit, lesquelles non seulement en la science proposée, mais aussi en toutes les autres, sont tellement manifestes & euidentes, que celuy qui entendra bien les termes, ne pourra en aucune façon douter de leur verité.

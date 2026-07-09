@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale C—B]*
 

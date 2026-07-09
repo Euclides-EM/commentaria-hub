@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
-B H / E / A D M F L C / G K (figure)
+<!-- B H / E / A D M F L C / G K (figure) -->
 
 Req. π. fa.
 

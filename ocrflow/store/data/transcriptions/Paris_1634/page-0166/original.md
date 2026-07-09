@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 hyp. | cb 2|2 bd,
 s.46.1. | ▭ch, ▭bm, ▭nq, ▭hp, snt 2|2 ⁊e,

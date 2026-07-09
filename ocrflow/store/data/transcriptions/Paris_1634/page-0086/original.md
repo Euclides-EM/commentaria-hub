@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 & angulum angulo æqualem sub æqualibus rectis lineis contentum : Et basim basi æqualem habebunt : eritque triangulum triangulo æquale ; ac reliqui anguli reliquis angulis æquales erunt, vterque vtrique, sub quibus æqualia latera subtëdütur.
 

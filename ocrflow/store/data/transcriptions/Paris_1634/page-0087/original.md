@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 1.concl. 8.a.1. | bc 2|2 ef,
 2.concl. 8.a.1. | △abc 2|2 △def,

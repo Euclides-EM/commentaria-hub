@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 *[Figur: quarré A—D—C—B auec cercle inscrit, I au centre, lignes H—F et E—G]*
 

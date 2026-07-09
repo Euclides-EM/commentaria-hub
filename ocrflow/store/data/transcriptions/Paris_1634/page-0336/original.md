@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 15.5 | ab/bc 2|2 a/c,
 concl. s3.d.5 | a/c est quantit. raō.. a π c,

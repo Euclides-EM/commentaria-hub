@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 Vt si in recta AB, sumendum sit aliquod punctum arbitrarium, quodcunque sumatur erit punctum arbitrarium. | Comme s'il est besoin de prendre quelque poinct arbitraire en la ligne droite AB, quelconque poinct on prenne il sera arbitraire.
 

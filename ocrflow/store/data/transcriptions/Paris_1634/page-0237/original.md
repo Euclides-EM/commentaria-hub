@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 hyp. | acuag + fc 2|2, 18,
 3.a.1 | be + bf 2|2, 10,

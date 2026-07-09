@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 1.6 | ▭.bg,ac π ▭.ab,ac 2|2 bg π ab,
 4.6 | bg π ab 2|2 eh π de,

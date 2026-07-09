@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
-A K E M / T Y P S / B I D F L H N / V X Q R O / C G (figure)
+<!-- A K E M / T Y P S / B I D F L H N / V X Q R O / C G (figure) -->
 
 iк & lm ſnt alt; Ⅱ axes, ⊥ π baſ; abcd & efgh.
 

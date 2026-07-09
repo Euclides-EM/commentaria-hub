@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 lelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
 

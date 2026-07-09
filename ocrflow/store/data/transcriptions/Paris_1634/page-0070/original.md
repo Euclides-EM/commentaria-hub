@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 hyp. | ac 2|2 ½ab,
 3.a.b. | cb 2|2 ½ab.

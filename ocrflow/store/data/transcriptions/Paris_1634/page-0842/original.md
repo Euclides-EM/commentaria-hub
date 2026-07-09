@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 4. 1 | eg, Ⅱ fd 2|2 ah,
 15.d.1,& conſtr. | ab, bh, bc, ie, if, ig, id, il, iк ſnt 2|2 ꝗe,
@@ -12,7 +12,7 @@
 2 concl. c.15. ſt.1 | ●c, eſt ∩.. ⊙ efgd,
 3.concl. 47. 1 | □.ah, Ⅱ □.lк 2|2, 2□.ld, Ⅱ 2□.ac.
 
-H L / F G / B C I / E D / A K (figure)
+<!-- H L / F G / B C I / E D / A K (figure) -->
 
 ## COROLL. I.
 

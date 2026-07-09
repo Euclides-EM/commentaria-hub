@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 Les rectilignes semblables à vne mesme figure rectiligne, sont außi semblables entr'elles.
 

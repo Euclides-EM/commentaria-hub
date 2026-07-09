@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 Circulus FBG tāgit eumdem circulum ABE exterius in B.
 

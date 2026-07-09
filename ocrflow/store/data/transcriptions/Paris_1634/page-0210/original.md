@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.
 

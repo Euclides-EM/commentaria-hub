@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 rum, cum eo, quod à reliquo segmento fit, quadrato, æquale est ei, quod à tota, & dicto segmento, tanquam ab vna linea describitur, quadrato.
 

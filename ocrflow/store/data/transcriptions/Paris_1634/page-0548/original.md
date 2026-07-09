@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 *S'il y a tant de nombres qu'on voudra continuellement proportionaux, & que les extremes soient premiers entre eux : comme le premier sera au second, ainsi le dernier ne sera à quelque autre.*
 

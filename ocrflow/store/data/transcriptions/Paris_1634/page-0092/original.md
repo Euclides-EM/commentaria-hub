@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 *[Figur: angle en A, poincts D et E sur les costez, F en bas, triangle DEF]*
 

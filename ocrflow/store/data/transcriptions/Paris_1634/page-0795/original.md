@@ -1,9 +1,9 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 2 concl. 24. 5 | abcde π ghi 2|2 abcdef π ghiк, δ
 
-F L / A / E G K / B / C DH I (figure)
+<!-- F L / A / E G K / B / C DH I (figure) -->
 
 γ | abcd π ghiк 2|2 abcdf π ghikl,
 δ | ade π ghiк 2|2 adef π ghikl,

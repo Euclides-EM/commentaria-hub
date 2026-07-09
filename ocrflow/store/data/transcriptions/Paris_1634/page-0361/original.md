@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 8.concl. 12.5 | abcde π fghik,
 | Δabc π Δfgh,

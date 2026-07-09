@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 A l'entour d'vn cercle donné, descrire vn triangle, equiangle à vn triangle donné.
 

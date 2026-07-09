@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID.. LI. VII.
+<!-- # ELEM.. EVCLID.. LI. VII. -->
 
 5, 15, sunt numeri impares.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 12. 10 | hi, comm. ce,
 10. 10 | bh, comm. ac,
@@ -19,7 +19,7 @@ A media infinitæ irrationales fiunt, & nulla alicui antecedentium est eadem.
 
 *De la ligne mediale se font infinies irrationelles, & aucune n'est la mesme que quelqu'vne des antecedentes.*
 
-A B E F / C D (figure)
+<!-- A B E F / C D (figure) -->
 
 Sit media AB, dico ex illa fieri irrationales infinitas, quarum nulla eadem sit alicui tredecim antecedentium irrationalium.
 

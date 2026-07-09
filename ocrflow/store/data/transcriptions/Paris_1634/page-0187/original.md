@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 neæ: is, inquam, angulus ab adiunctis illis lineis comprehensus.
 

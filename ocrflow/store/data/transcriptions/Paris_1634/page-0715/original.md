@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 Præpar.
 
@@ -7,7 +7,7 @@ suppos. | cd, est ration. expos.
 4.app. | ▭ci 2|2 ▭a + b, α
 4.app. | ▭fi 2|2 ▭b, β
 
-H A B C D / F K E I (figure)
+<!-- H A B C D / F K E I (figure) -->
 
 Demonstr.
 

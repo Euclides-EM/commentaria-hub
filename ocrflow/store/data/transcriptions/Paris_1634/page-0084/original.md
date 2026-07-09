@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 Sed rectæ AC & AB ducuntur à centro ad circunferentiam. | Mais les lignes droictes AC & AB sont menées du centre à la circonference.
 

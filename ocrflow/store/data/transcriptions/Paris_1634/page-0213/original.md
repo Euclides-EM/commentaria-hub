@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 arbitr. | b est • in ∩ abc,
 1.p.1 | cb, ab, ad snt —,

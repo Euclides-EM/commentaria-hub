@@ -1,11 +1,11 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 fuerint; æquiangulum erit ipsum pentagonum.
 
 *Si trois angles d'vn pentagone equilateral, pris comme on voudra sont egaux; il sera equiangle.*
 
-A / E B / C D (figure)
+<!-- A / E B / C D (figure) -->
 
 Hypoth.
 

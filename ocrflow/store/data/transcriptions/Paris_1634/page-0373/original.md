@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 figuris parallelogrammis similibus similiterque positis, ei, quod à dimidia describitur, maximum est quod ad dimidiam est applicatum simile existens defectui.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 vtrumque, primi fuerint ; & qui ex eis gignentur, primi inter se erunt.
 

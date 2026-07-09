@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 erit, planus appellabitur. Qui verò numeri mutuò sese multiplicarint, latera illius dicentur.
 

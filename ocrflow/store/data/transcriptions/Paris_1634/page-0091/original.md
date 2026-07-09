@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 sub æqualibus rectis lineis contentum angulo æqualem habebunt.
 

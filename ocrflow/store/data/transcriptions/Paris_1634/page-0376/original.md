@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 De trois proportionnelles estant donnee la moyenne & la somme des extremes trouuer les extremes.
 

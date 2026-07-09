@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 quàm secundæ posteriorum ad tertiam : Erit quoque ex æqualitate maior proportio primæ priorum ad tertiam, quàm primæ posteriorum ad tertiam.
 

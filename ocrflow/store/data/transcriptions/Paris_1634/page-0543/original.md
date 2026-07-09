@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 *Si le nombre prochain à l'vnité est nombre premier, il n'y aura point d'autre nombre premier qui mesure le dernier.*
 

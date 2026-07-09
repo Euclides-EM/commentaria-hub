@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
-G R / H F S Q / I K T V / A L / M / B E P / C D N O (figure)
+<!-- G R / H F S Q / I K T V / A L / M / B E P / C D N O (figure) -->
 
 α | prism. nq 2|2, 3; pyram. mnoplſ,
 hyp. | alt.. prism. bf 2|2 alt.. prism. nq,

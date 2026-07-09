@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 suppos. | fк 3|2 cf..□..——, incomm. fк,
 5d48.10 | ck, est binom. 5.

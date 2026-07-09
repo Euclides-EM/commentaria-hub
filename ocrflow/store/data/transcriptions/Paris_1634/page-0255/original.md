@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IV.
+<!-- # ELEM.. EVCLID. LI. IV. -->
 
 *[Figur: cercle auec D en haut, A—B diametre, F, C, E sur le diametre, H, K, G, L, O au dedans, M, N, P vers le bas]*
 

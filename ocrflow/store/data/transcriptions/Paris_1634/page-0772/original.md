@@ -1,9 +1,9 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 *soient eleuees deux lignes droictes en l'air, contenant angles egaux auec les lignes premierement posees, chacun au sien; & d'vn poinct pris en chacune des lignes esleuees sont menees des perpendiculaires aux plans où sont les angles premierement posez; & des poincts où tombent icelles perpendiculaires, sont menees des lignes droictes aux sommets des angles premierement posez : icelles contiendront angles egaux auec les lignes menees en l'air.*
 
-A / B C / E F / D / M / L / H K / G (figure)
+<!-- A / B C / E F / D / M / L / H K / G (figure) -->
 
 Hypoth.
 

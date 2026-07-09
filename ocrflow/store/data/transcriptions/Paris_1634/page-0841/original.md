@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 ## COROLL. III.
 
@@ -15,7 +15,7 @@ Octaedrum constituere, & sphæra complecti, qua & pyramidem; & demonstrare, quod
 
 *Descrire vn octaedre, & l'enuironner d'vne mesme sphere que la pyramide, & monstrer que le diametre de la sphere est double en puissance, du costé d'iceluy octaedre.*
 
-H L / F G / B C I / E D / A K (figure)
+<!-- H L / F G / B C I / E D / A K (figure) -->
 
 Hypoth.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 sunt inter se æquales ; & rationes quarum quantitates sunt æquales, dicuntur eædem seu æquales inter se.
 

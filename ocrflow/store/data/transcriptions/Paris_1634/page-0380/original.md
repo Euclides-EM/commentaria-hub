@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 rectum angulum subtēdente descripta, æqualis est figuris, quæ priori illi similes, & similiter positæ à lateribus rectum angulū continētibus describūtur.
 

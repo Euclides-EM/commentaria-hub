@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 vel duplam, vel etiam duo quiuis numeri primi : nam huiusmodi numeri non sunt similes plani numeri, vt demonstrauimus in scholiis ad 27. propos. lib. 8.
 

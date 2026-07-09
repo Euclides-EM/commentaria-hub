@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 β.6.10 | ef, comm. fg ꝗn □,
 2 concl. s.12.10 | fg, est ration.

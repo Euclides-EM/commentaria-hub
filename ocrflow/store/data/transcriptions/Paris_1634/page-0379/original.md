@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 constr. | fc 2|2 cd,
 3.a.1 | af 2|2 db,

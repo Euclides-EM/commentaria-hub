@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 Req. π. demonstr.
 
@@ -13,7 +13,7 @@ suppos. | hei & fgi snt ——,
 α | i, est ꝗn plan; ab & cd,
 contr. hypoth.
 
-I / A E C G / H B F D (figure)
+<!-- I / A E C G / H B F D (figure) -->
 
 ## THEOR. XV. PROPOS. XVII.
 
@@ -21,7 +21,7 @@ Si duæ rectæ lineæ parallelis planis secentur; in easdem rationes secabuntur.
 
 *Si deux lignes droictes sont couppees par des plans paralleles; icelles seront couppees proportionellement.*
 
-A C F / E / L N M H / G / B D K / I (figure)
+<!-- A C F / E / L N M H / G / B D K / I (figure) -->
 
 Hypoth.
 

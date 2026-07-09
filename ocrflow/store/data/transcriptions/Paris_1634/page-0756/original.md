@@ -1,11 +1,11 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 illius plana, parallelogramma sunt similia, & æqualia.
 
 *Si vn solide est contenu sous des plans paralleles; les plans opposez d'iceluy sont parallelogrammes semblables & egaux.*
 
-E B / D C / F G / A H (figure)
+<!-- E B / D C / F G / A H (figure) -->
 
 Hypoth.
 

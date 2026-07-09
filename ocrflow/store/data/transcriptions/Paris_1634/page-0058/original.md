@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 sumpta reliquo sunt maiora. | stez sont plus grands que l'autre, en quelque façon qu'ils soient pris.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 cunque segmenta: Rectangulum comprehensum sub illis duabus rectis lineis, æquale est eis, quæ sub singulis segmentis vnius, & quolibet segmentorum alterius continentur rectangulis.
 

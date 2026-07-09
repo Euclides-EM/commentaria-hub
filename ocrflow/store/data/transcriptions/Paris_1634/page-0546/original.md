@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 speciem nobis exhibent qua theorematis demonstratio in memoriam reuocetur.
 

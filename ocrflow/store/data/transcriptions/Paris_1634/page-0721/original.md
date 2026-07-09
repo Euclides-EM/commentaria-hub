@@ -1,7 +1,7 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
-H C E G F / D / A B (figure)
+<!-- H C E G F / D / A B (figure) -->
 
 ——, incomm. bd,
 θк.15.10 | □.eh 3|2 □.ch..□. ——, incomm. eh,

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 21.10 | lg, est ration. comm. de,
 γ.13.10 | dl, incomm. lg,

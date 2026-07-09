@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 suppos. | a, par. u part.. b,
 ɔ.20.d7 | c, par. u part.. d,

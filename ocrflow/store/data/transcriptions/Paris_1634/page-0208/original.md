@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 *[Figur: cercle C—D, F au centre, ligne A—E—G—B tangente en bas, lignes C—E, F—D]*
 

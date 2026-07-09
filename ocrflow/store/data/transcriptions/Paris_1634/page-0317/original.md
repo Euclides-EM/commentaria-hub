@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 4.cōcl. θ.22.5 | a+b+c π a 2|2 e+f+g π e, θ
 5.concl. c.19.5 | a+b+c π b+c 2|2 e+f+g π f+g,

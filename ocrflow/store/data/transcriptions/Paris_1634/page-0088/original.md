@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 β | <bdc 2|2 <cfb,
 1.concl. 4.1. | <dbc 2|2 <fcb,

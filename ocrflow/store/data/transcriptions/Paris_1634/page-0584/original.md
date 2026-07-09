@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 11.8 | raō. g π h 2|2, 2raō; e π f,
 γ.2s23.5 | ab π cd 2|2 nr. e π nr. f, β

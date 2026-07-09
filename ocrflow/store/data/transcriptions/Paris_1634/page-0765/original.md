@@ -1,12 +1,12 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 suppos. | ch, pq, fd, on, n̄ snt ⊥ ◇ cpfo,
 11. 11 | gt, mu, bs, ir snt ⊥ plan. aleк,
 11. 11 | hy, qε, dz, nx snt ⊥ plan. cpfo
 1. p. 1 | rt, su, xy, zε snt ——;
 
-I B N D / G M H Q / K R E S X O Z F / A T L V Y C ε P (figure)
+<!-- I B N D / G M H Q / K R E S X O Z F / A T L V Y C ε P (figure) -->
 
 Demonstr.
 
@@ -21,7 +21,7 @@ Solida parallelepipeda sub eadem altitudine, inter se sunt vt bases.
 
 *Les solides parallelipipedes de mesmè hauteur, sont entr'eux comme leurs bases.*
 
-C G M K / B F / L N / A D E H I (figure)
+<!-- C G M K / B F / L N / A D E H I (figure) -->
 
 Hypoth.
 

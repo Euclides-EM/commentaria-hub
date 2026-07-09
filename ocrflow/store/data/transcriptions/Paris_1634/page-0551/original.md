@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 *Si tant de nombres pairs que l'on voudra sont adioustez, le tout sera pair.*
 

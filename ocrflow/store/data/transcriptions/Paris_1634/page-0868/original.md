@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIV.
+<!-- # ELEM.. EVCLID. LI. XIV. -->
 
 ## THEOR. IV. PROPOS. IV.
 

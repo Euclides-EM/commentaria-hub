@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *laquelle mesure deux grandeurs, mesure aussi leur plus grande commune mesure.*
 

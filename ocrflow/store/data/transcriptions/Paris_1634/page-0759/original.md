@@ -1,11 +1,11 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 gulum solidum constituere solido angulo dato æqualem.
 
 *A vne ligne droicte donnee, & à vn poinct en icelle, construire vn angle solide, egal à vn angle solide donné.*
 
-A C / H K I D G E / B L F (figure)
+<!-- A C / H K I D G E / B L F (figure) -->
 
 Hypoth.
 

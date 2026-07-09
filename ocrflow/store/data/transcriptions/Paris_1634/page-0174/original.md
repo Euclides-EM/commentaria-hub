@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 sub tota, & altero segmentorum rectangulum, æquale sit ei, quod à reliquo segmēto fit, quadrato.
 

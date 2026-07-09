@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 | ▭.abf commun. add.
 2.a.1. | ▭.ac + ▭.abf u ▭.abc 2|2 ▭.af + 2▭.abf,

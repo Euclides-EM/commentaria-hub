@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. II.
+<!-- # ELEM.. EVCLID. LI. II. -->
 
 dam linea in directum adiiciatur : Rectangulum comprehensum sub tota cum adiecta, & adiecta, vnà cum quadrato à dimidia, æquale est quadrato à linea, quæ tum ex dimidia, tum ex adiecta componitur, tanquam ab vna, descripto.
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 1.concl. 21.a.1. | <agh + <chg 2|2 2∟,
 13.1. | <dhg + <chg 2|2 2∟,

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 *Si vne superficie mediale est retranchee d'vne superficie mediale, incommensurable à la toute; il se fait les deux autres irrationelles, sçauoir l'apotome medial second, ou la ligne faisant auec vne superficie mediale vn tout medial.*
 

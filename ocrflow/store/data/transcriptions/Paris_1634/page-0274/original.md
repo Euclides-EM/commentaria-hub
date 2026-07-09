@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 nullaque quantitas sit antecedens & consequens, sed antecedens tantùm vel consequens tantùm, vt si dicatur quæ est proportio 4. ad 6. ea est 10. ad 15. appellabitur hæc proportionalitas, discreta siue non continua.
 

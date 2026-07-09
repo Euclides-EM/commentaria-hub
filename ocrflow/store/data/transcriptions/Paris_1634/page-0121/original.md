@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. I.
+<!-- # ELEM.. EVCLID. LI. I. -->
 
 simul conficiunt vnum rectum cùm omnes simul sint æquales duobus rectis & tertius ille ponatur rectus; quare cum duo reliqui inter se sint æquales, erit quilibet eorum semirectus.
 

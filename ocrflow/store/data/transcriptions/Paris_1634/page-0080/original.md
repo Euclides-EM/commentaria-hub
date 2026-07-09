@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 *[Figur: ligne A—G—B—E en haut, ligne C—D—F au dessous]*
 

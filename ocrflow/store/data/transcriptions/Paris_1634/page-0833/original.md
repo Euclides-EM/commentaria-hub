@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XIII.
+<!-- # ELEM.. EVCLID. LI. XIII. -->
 
 Præpar.
 
@@ -16,7 +16,7 @@ Si in circulo pentagonum æquilaterum describatur; pentagoni latus potest & latu
 
 *Si vn pentagone equilateral est inscrit au cercle; le costé du pentagone, peut le costé de l'hexagone, & le costé du decagone inscrits au mesme cercle.*
 
-K A / H L / M / I / B E / F / C D / G (figure)
+<!-- K A / H L / M / I / B E / F / C D / G (figure) -->
 
 Hypoth.
 

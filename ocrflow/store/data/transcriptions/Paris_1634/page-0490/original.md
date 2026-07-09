@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VII.
+<!-- # ELEM.. EVCLID. LI. VII. -->
 
 5.7 | d π b 2|2 c π a,
 6.a.7 | d, est par.. nr. b, denom. ꝑ b,

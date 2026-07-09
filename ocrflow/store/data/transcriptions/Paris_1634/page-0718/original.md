@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. X.
+<!-- # ELEM.. EVCLID. LI. X. -->
 
 37. 10 | bf & fd snt ration. comm. ꝗn □, γ
 1d48.10 | bf, comm. bc,

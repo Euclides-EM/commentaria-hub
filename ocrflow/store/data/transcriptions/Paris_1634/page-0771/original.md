@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 dem laterum homologorum, quæ quoque sunt latera homologa prismatum.
 

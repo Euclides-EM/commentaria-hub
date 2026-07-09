@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 2.concl. β.27.7 | b + c est pr. π.a,
 δ.26.7 | b, est pr. π. d + e,

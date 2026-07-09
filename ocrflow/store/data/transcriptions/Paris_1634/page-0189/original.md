@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. III.
+<!-- # ELEM.. EVCLID. LI. III. -->
 
 *[Figur: deux cercles, le premier A—B—C avec centre G et lignes A—B, B—C, G—A, G—C, le second D—E—F avec centre H et lignes D—E, E—F, H—D, H—F]*
 

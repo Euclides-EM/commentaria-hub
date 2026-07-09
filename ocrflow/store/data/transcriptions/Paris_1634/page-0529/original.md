@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. IX.
+<!-- # ELEM.. EVCLID. LI. IX. -->
 
 8.8 | ꝗntr. d & c est vn. medi. proport.
 constr. | d, est nr. □,

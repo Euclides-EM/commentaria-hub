@@ -1,5 +1,5 @@
 
-# ELEM. EVCLID. LI. I.
+<!-- # ELEM. EVCLID. LI. I. -->
 
 *[Figur: trapeze GNDH, H en haut à gauche, D en haut à droite, G en bas à gauche, N en bas]*
 

@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. VI.
+<!-- # ELEM.. EVCLID. LI. VI. -->
 
 38.1 | Δdkm 2|2 Δdef,
 7.5 | Δabc π Δdef 2|2 Δali π Δdkm,

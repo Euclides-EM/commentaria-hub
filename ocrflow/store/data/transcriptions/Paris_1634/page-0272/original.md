@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. V.
+<!-- # ELEM.. EVCLID. LI. V. -->
 
 quotam qualis est proportio 3. ad 2. quæ sesquialtera vocatur 9. à 8. dicitur sesquioctaua.
 

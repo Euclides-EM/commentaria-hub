@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XII.
+<!-- # ELEM.. EVCLID. LI. XII. -->
 
 c. 15. d. 1 | plan; ſpqt, tqrγ, γro, &c. n̄. tang; Ⅱ ſecat; ſphær. efgh.
 

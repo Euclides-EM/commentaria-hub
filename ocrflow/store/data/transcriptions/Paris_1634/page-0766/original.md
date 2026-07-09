@@ -1,5 +1,5 @@
 
-# ELEM.. EVCLID. LI. XI.
+<!-- # ELEM.. EVCLID. LI. XI. -->
 
 1&.2p.1 & 31.1 | finm, est ◇piped.
 
@@ -16,7 +16,7 @@ Similia solida parallelepipeda, inter se sunt in triplicata ratione homologorum 
 
 *Les solides semblables parallelipipedes sont l'vn à l'autre en raison triplee de leurs costez homologues, ou de mesme raison.*
 
-C Q θ / B Y / D Z ε / A I L P / G R N X / V M / S F T ω / E K (figure)
+<!-- C Q θ / B Y / D Z ε / A I L P / G R N X / V M / S F T ω / E K (figure) -->
 
 Hypoth.
 
