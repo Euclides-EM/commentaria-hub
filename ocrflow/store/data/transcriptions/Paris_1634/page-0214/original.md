@@ -19,7 +19,7 @@ Circuli segmento dato, describere circulum, cuius est segmentum.
 
 Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
 
-*[Figur: arc A—B—C, D et E au dedans, F en bas, lignes A—B, B—C, D—F, E—F]*
+*[Figure: arc A—B—C, D et E au dedans, F en bas, lignes A—B, B—C, D—F, E—F]*
 
 Hypoth.
 

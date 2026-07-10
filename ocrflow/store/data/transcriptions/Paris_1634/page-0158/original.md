@@ -13,7 +13,7 @@ caeb est semic.
 ab est diamet.
 ed ⊥ ab.
 
-*[Figur: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]*
+*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]*
 
 Req. π. demonstr.
 

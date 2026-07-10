@@ -5,7 +5,7 @@ sunt latera, quæ circum æquales angulos, & homologa sunt latera, quæ æqualib
 
 Des triangles equiangles les costez qui sont autour des angles egaux, sont proportionaux : Et les costez qui soustiennent les angles egaux, sont homologues, ou de mesme raison.
 
-*[Figur: triangles A, B, C et D, C, E avec F au sommet]*
+*[Figure: triangles A, B, C et D, C, E avec F au sommet]*
 
 Hypoth.
 

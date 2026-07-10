@@ -13,7 +13,7 @@ concl. 10.5 | <bdg 3|2 <adg.
 
 Theon in tertium lib. Almagesti.
 
-*[Figur: cercle auec les poincts A, L, G, C, H, F, E, B, K, D]*
+*[Figure: cercle auec les poincts A, L, G, C, H, F, E, B, K, D]*
 
 Hypoth.
 

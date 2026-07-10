@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. IV. -->
 
-*[Figur: cercle auec D en haut, A—B diametre, F, C, E sur le diametre, H, K, G, L, O au dedans, M, N, P vers le bas]*
+*[Figure: cercle auec D en haut, A—B diametre, F, C, E sur le diametre, H, K, G, L, O au dedans, M, N, P vers le bas]*
 
 3.3 | ak 2|2 kp,
 3.3 | gl 2|2 ln,

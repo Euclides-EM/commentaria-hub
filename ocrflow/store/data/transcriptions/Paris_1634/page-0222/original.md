@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. III. -->
 
-*[Figur: cercle A—I—E—B, F au dedans, H au dehors à gauche, D en bas, lignes A—B, A—E, F—I, F—A, F—B, A—D, H—A ; angle G—C à part]*
+*[Figure: cercle A—I—E—B, F au dedans, H au dehors à gauche, D en bas, lignes A—B, A—E, F—I, F—A, F—B, A—D, H—A ; angle G—C à part]*
 
 23.1 | <abf 2|2 <baf,
 3.p.1 | faib est ⊙,
@@ -20,7 +20,7 @@ A dato circulo segmentum abscindere capiens angulum æqualem dato angulo rectili
 
 D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn angle rectiligne donné.
 
-*[Figur: cercle B—C—A, lignes B—C, B—A, C—A, ligne E—A—F tangente en bas ; angle D à part]*
+*[Figure: cercle B—C—A, lignes B—C, B—A, C—A, ligne E—A—F tangente en bas ; angle D à part]*
 
 Hypoth.
 

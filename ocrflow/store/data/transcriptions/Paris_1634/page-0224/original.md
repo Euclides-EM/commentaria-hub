@@ -20,7 +20,7 @@ d.κ | ▭.aeb 2|2 ▭.geh,
 d.κ | ▭.dec 2|2 ▭.geh,
 4.concl. 1.a.1 | ▭.aeb 2|2 ▭.dec.
 
-*[Figur: quatre cercles marquez 1, 2, 3, 4 ; le premier A—C—B—D, E au dedans, lignes A—B, C—D ; le second A—C—D, F au dedans, E et B en bas, lignes A—E—B, C—D, F—D ; le troisiesme A—C—D—B, F au dedans, G et E en bas, lignes A—B, C—D, F—G, F—D ; le quatriesme G—A—C—B—H—D, F et E au dedans, lignes G—H, A—C, D—C, D—B]*
+*[Figure: quatre cercles marquez 1, 2, 3, 4 ; le premier A—C—B—D, E au dedans, lignes A—B, C—D ; le second A—C—D, F au dedans, E et B en bas, lignes A—E—B, C—D, F—D ; le troisiesme A—C—D—B, F au dedans, G et E en bas, lignes A—B, C—D, F—G, F—D ; le quatriesme G—A—C—B—H—D, F et E au dedans, lignes G—H, A—C, D—C, D—B]*
 
 ## THEOR. XXX. PROPOS. XXXVI.
 

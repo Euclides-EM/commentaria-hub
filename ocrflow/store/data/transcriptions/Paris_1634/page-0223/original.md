@@ -5,7 +5,7 @@
 
 Si au cercle deux lignes droictes se couppent l'vne l'autre; le rectangle contenu sous les deux parties de l'vne, est égal au rectangle contenu sous les deux parties de l'autre.
 
-*[Figur: quatre cercles marquez 1, 2, 3, 4 ; le premier A—C—B—D, E au dedans, lignes A—B, C—D ; le second A—C—D, F au dedans, E et B en bas, lignes A—E—B, C—D, F—D ; le troisiesme A—C—D—B, F au dedans, G et E en bas, lignes A—B, C—D, F—G, F—D ; le quatriesme G—A—C—B—H—D, F et E au dedans, lignes G—H, A—C, D—C, D—B]*
+*[Figure: quatre cercles marquez 1, 2, 3, 4 ; le premier A—C—B—D, E au dedans, lignes A—B, C—D ; le second A—C—D, F au dedans, E et B en bas, lignes A—E—B, C—D, F—D ; le troisiesme A—C—D—B, F au dedans, G et E en bas, lignes A—B, C—D, F—G, F—D ; le quatriesme G—A—C—B—H—D, F et E au dedans, lignes G—H, A—C, D—C, D—B]*
 
 Hypoth.
 

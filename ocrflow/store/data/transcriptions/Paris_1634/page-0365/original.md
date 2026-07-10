@@ -21,7 +21,7 @@ c.8.6 | ba π ae 2|2 ae π ad,
 
 Les parallelogrammes equiangles, sont l'vn à l'autre en raison composee de celle de leurs costez.
 
-*[Figur: parallelogrammes A, B, C, D, H, G et C, E, F, G se touchant en C]*
+*[Figure: parallelogrammes A, B, C, D, H, G et C, E, F, G se touchant en C]*
 
 Hypoth.
 

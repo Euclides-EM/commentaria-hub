@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. IV. -->
 
-*[Figur: trois cercles auec triangle A—B—C, D et E au dedans, F au centre ; au premier F dedans le triangle, au second F hors du triangle, au troisiesme F sur le costé B—C]*
+*[Figure: trois cercles auec triangle A—B—C, D et E au dedans, F au centre ; au premier F dedans le triangle, au second F hors du triangle, au troisiesme F sur le costé B—C]*
 
 1.p.1 | fb, fc snt —.
 

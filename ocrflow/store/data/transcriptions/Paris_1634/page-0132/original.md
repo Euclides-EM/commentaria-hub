@@ -7,7 +7,7 @@ Dato triangulo æquale parallelogrammum constituere in dato angulo rectilineo.
 
 Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donné.
 
-*[Figur: ligne A—F—G en haut, ligne B—E—C en bas ; triangle ABC, lignes poinctées A—E, lignes A—C, F—E, F—C, G—C ; à droicte l'angle D]*
+*[Figure: ligne A—F—G en haut, ligne B—E—C en bas ; triangle ABC, lignes poinctées A—E, lignes A—C, F—E, F—C, G—C ; à droicte l'angle D]*
 
 Hypoth.
 

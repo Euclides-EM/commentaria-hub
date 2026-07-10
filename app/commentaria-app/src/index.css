@@ -87,7 +87,7 @@ em {
 }
 
 .tei-readable p[data-tei-block-type='figure']::before {
-  content: 'Figure';
+  content: 'Visual Element';
   display: block;
   margin-bottom: 0.2rem;
   color: #0f766e;

@@ -3,7 +3,7 @@
 
 lelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
 
-*[Figur: parallelogramme ABCD, A & E & B en haut, H & D à gauche, I & C à droicte, F en bas ; diametre A—C, lignes E—F & H—I se coupans en G sur le diametre]*
+*[Figure: parallelogramme ABCD, A & E & B en haut, H & D à gauche, I & C à droicte, F en bas ; diametre A—C, lignes E—F & H—I se coupans en G sur le diametre]*
 
 Hypoth.
 
@@ -28,7 +28,7 @@ Ad datam rectam lineam, dato triangulo æquale parallelogrammum applicare in dat
 
 Sur vne ligne droicte donnée, descrire vn parallelogramme égal à vn triangle donné, en vn angle rectiligne donné.
 
-*[Figur: à gauche triangle B auec base A & l'angle C ; à droicte figure D—E—I en haut, G—F—H au milieu, K—M—L en bas ; diametre K—F—I, lignes E—M & G—H se coupans en F]*
+*[Figure: à gauche triangle B auec base A & l'angle C ; à droicte figure D—E—I en haut, G—F—H au milieu, K—M—L en bas ; diametre K—F—I, lignes E—M & G—H se coupans en F]*
 
 Hypoth.
 

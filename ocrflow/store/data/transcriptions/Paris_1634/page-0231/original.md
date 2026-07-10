@@ -5,7 +5,7 @@ tera singulos eius figuræ angulos tetigerint, circū quam illa describitur.
 
 te, touche chacun angle, de celle à l'entour de laquelle elle est descrite.
 
-*[Figur: triangle A—B—C auec triangle D—E—F inscrit dedans, F sur B—C ; triangle G—H—I auec triangle L—M—N, N au dedans ne touchant pas H—I]*
+*[Figure: triangle A—B—C auec triangle D—E—F inscrit dedans, F sur B—C ; triangle G—H—I auec triangle L—M—N, N au dedans ne touchant pas H—I]*
 
 Vt triangulum DEF est inscriptū in triangulo ABC, quia singuli anguli inscripti DEF tangunt singula latera circumscripti ABC ; è contrario triangulum ABC est descriptum circa triangulum DEF, quoniam singula latera illius singulos angulos huius tangunt : Triangulum verò LMN non est inscriptum in triangulo GHI propterea quòd angulus N non tangat latus HI.
 

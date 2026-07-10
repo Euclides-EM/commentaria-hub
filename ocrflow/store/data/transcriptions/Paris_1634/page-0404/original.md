@@ -5,7 +5,7 @@ Req. π. demonstr.
 
 ▭.ac,bd 2|2 ▭.ad,bc + ▭.ab,cd,
 
-*[Figur: ligne A B C D]*
+*[Figure: ligne A B C D]*
 
 Demonstr.
 
@@ -17,7 +17,7 @@ concl. 1.a.f | ▭.ac,bd 2|2 ▭.ab,cd + ▭.ad,bc.
 
 Vaulezard sur la 2. du 4. liure des Zetetiques de Viette.
 
-*[Figur: rectangle B, C, D, A auec les poincts E sur A B & F sur A D, & les lignes E C, F C, E F]*
+*[Figure: rectangle B, C, D, A auec les poincts E sur A B & F sur A D, & les lignes E C, F C, E F]*
 
 Hypoth.
 

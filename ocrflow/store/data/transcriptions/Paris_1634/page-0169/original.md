@@ -20,7 +20,7 @@ ac u ce est ½ ab,
 ad 3|2 db,
 ad ~ db 2|2 fd,
 
-*[Figur: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]*
+*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C, E—D]*
 
 Req. π. demonst.
 

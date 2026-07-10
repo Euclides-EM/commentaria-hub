@@ -10,7 +10,7 @@ part..nr..2.progress. 1π2, 1π5, 1π11, 1π23, 1π47, &c.
 part..nr..3.progress. 2π3, 1π4, 1π9, 1π19, 1π39, &c.
 part..nr.4.progress. 2π13, 1π14, 1π29, 1π59, 1π119, &c.
 
-*[Figur: triangle rectangle A—B—E, l'angle droict en B, auec les poincts C, D sur la base B—E et les lignes A—C, A—D]*
+*[Figure: triangle rectangle A—B—E, l'angle droict en B, auec les poincts C, D sur la base B—E et les lignes A—C, A—D]*
 
 Hypoth.
 

@@ -3,7 +3,7 @@
 
 guras rectilineas, quæ pluribus quam quatuor rectis lineis circumscribuntur generali vocabulo multilateras. | toutes autres figures rectilignes, circonscriptes de plus de quatre lignes, d'vn nom general multilateres.
 
-*[Figur: triangle equilateral A]*
+*[Figure: triangle equilateral A]*
 
 ### XXIII.
 

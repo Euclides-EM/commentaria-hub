@@ -5,7 +5,7 @@ que vicissim prima ad tertiam maiorem proportionem, quàm secunda ad quartam.
 
 Si la premiere a plus grande raison à la seconde que la tierce à la quarte ; aussi en changeant la premiere aura plus grande raison à la tierce que la seconde à la quarte.
 
-*[Figur: lignes A ; B ; E ; C ; D]*
+*[Figure: lignes A ; B ; E ; C ; D]*
 
 Hypoth.
 

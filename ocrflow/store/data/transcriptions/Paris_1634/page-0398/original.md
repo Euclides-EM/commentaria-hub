@@ -13,7 +13,7 @@ Estant donnee la base d'vn triangle, l'angle du sommet, & la raison des costez q
 
 Pappus lib. 7. propos. 155.
 
-*[Figur: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas ; l'angle G & les lignes L, M à part]*
+*[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas ; l'angle G & les lignes L, M à part]*
 
 Hypoth.
 

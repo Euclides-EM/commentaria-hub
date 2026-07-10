@@ -5,7 +5,7 @@
 
 Et rectam lineam terminatam in continuum recta producere. | Et de prolonger directement vne ligne droite donnee & terminee.
 
-*[Figur: ligne droicte horizontale de A à C, B marqué entre A et C]*
+*[Figure: ligne droicte horizontale de A à C, B marqué entre A et C]*
 
 2.p.1 | abc est —.
 
@@ -17,7 +17,7 @@ Recta AB est in continuum producta ad punctum C, per secundum postulatum. | La l
 
 Item quouis centro, & interuallo circulum describere. | Semblablement de quelconque centre & interualle descrire vn cercle.
 
-*[Figur: cercle de centre D, rayon DA vertical vers le haut, ligne DB du centre vers B en haut à droite, C au bas du cercle]*
+*[Figure: cercle de centre D, rayon DA vertical vers le haut, ligne DB du centre vers B en haut à droite, C au bas du cercle]*
 
 3.p.1 | dabc est ⊙.
 

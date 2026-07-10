@@ -11,7 +11,7 @@ Hyppoth.
 
 ab 3|2 c.
 
-*[Figur: lignes verticales B—E—A, C, D et H—G—F, I—K]*
+*[Figure: lignes verticales B—E—A, C, D et H—G—F, I—K]*
 
 Req. π. demonstr.
 

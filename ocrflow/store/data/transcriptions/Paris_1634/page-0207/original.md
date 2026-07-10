@@ -3,7 +3,7 @@
 
 D'vn poinct donné mener vne ligne droicte, qui touche vn cercle donné.
 
-*[Figur: deux cercles concentriques, D au centre, E en haut, A à gauche, B et C au dedans, lignes A—E, A—C, D—E, D—B, E—B]*
+*[Figure: deux cercles concentriques, D au centre, E en haut, A à gauche, B et C au dedans, lignes A—E, A—C, D—E, D—B, E—B]*
 
 Hypoth.
 

@@ -7,7 +7,7 @@ Parallelogramma super eadem basi, & in eisdem parallelis constituta, inter se su
 
 Les parallelogrammes constituez sur vne mesme base, & entre mesmes paralleles, sont égaux entr'eux.
 
-*[Figur: ligne A—D—E—F en haut, poinct G entre D & E vn peu plus bas, ligne B—C en bas ; parallelogrammes BCDA & BCFE, lignes B—E & C—F se coupans en G]*
+*[Figure: ligne A—D—E—F en haut, poinct G entre D & E vn peu plus bas, ligne B—C en bas ; parallelogrammes BCDA & BCFE, lignes B—E & C—F se coupans en G]*
 
 Hypoth.
 
@@ -39,7 +39,7 @@ Parallelogramma super æqualibus basibus, & in eisdem parallelis constituta, int
 
 Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles sont égaux entr'eux.
 
-*[Figur: ligne A—D—E—F en haut, ligne B—C—G—H en bas ; parallelogrammes BCDA & GHFE, lignes diagonales B—D & C—E & G—F]*
+*[Figure: ligne A—D—E—F en haut, ligne B—C—G—H en bas ; parallelogrammes BCDA & GHFE, lignes diagonales B—D & C—E & G—F]*
 
 Hypoth.
 

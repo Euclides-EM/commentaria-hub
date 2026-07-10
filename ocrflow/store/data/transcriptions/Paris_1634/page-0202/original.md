@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. III. -->
 
-*[Figur: deux cercles se touchans en A au dedans, B et C au milieu, D à gauche, H en bas, lignes A—H, D—B, D—C, et vn troisiesme cercle E—F—G touchant au dehors, lignes E—F]*
+*[Figure: deux cercles se touchans en A au dedans, B et C au milieu, D à gauche, H en bas, lignes A—H, D—B, D—C, et vn troisiesme cercle E—F—G touchant au dehors, lignes E—F]*
 
 1.p.1 | bd, cd snt —.
 

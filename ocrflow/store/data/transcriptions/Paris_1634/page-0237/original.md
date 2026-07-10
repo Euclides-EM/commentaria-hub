@@ -19,7 +19,7 @@ Circa datum triangulum, circulum describere.
 
 A l'entour d'vn triangle donné, descrire vn cercle.
 
-*[Figur: trois cercles auec triangle A—B—C inscrit, D et E au dedans, F au dessous du triangle ; au premier F dedans le triangle, au second F hors du triangle, au troisiesme F sur le costé B—C]*
+*[Figure: trois cercles auec triangle A—B—C inscrit, D et E au dedans, F au dessous du triangle ; au premier F dedans le triangle, au second F hors du triangle, au troisiesme F sur le costé B—C]*
 
 Hypoth.
 

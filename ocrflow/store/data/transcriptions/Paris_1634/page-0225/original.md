@@ -3,7 +3,7 @@
 
 tombent deux lignes droictes au cercle, l'vne desquelles couppe le cercle & l'autre le touche ; le rectangle contenu sous toute la couppante, & sa partie de dehors pris entre le poinct, & la circonference conuexe, est égal au quarré de la touchante.
 
-*[Figur: deux cercles ; le premier B—C—A, E au dedans, D au dehors en haut, lignes D—B, D—C—E—A, B—E ; le second B—C—A, F au dedans, D au dehors en haut, E à droicte, lignes D—B, D—C, D—E, B—E, F—E, A—E]*
+*[Figure: deux cercles ; le premier B—C—A, E au dedans, D au dehors en haut, lignes D—B, D—C—E—A, B—E ; le second B—C—A, F au dedans, D au dehors en haut, E à droicte, lignes D—B, D—C, D—E, B—E, F—E, A—E]*
 
 Hypoth.
 

@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. III. -->
 
-*[Figur: arc A—B—C sur la base A—D—C, lignes A—B, B—C, B—D]*
+*[Figure: arc A—B—C sur la base A—D—C, lignes A—B, B—C, B—D]*
 
 Constr.
 

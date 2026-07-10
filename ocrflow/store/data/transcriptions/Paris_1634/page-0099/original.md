@@ -9,7 +9,7 @@ Si ad aliquam rectam lineam, atque ad eius punctum, duæ rectæ lineæ non ad ea
 
 Si à quelque ligne droicte ; & a vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles opposez au sommet égaux entr'eux : icelles lignes droictes se rentreront directement.
 
-*[Figur: lignes E—A—F et G—A—H s'entrecoupans en A, poincts D, B, C autour de A]*
+*[Figure: lignes E—A—F et G—A—H s'entrecoupans en A, poincts D, B, C autour de A]*
 
 Hypoth.
 

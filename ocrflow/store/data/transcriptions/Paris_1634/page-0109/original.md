@@ -13,7 +13,7 @@ concl. 8.1. | <gah 2|2 <cdf.
 
 ## CONSTR.. PRA.
 
-*[Figur: triangle BAC, A en haut, poincts F & G sur les costez ; ligne verticale N—D—H—E, poinct L à droicte, arcs se coupans en L]*
+*[Figure: triangle BAC, A en haut, poincts F & G sur les costez ; ligne verticale N—D—H—E, poinct L à droicte, arcs se coupans en L]*
 
 Hypoth.
 

@@ -11,7 +11,7 @@ Præpar.
 10.1 | af 2|2 fc,
 2.p.1 | dfh est —.
 
-*[Figur: cercle auec les poincts A, B, H, E, C, F, G, D]*
+*[Figure: cercle auec les poincts A, B, H, E, C, F, G, D]*
 
 Demonstr.
 

@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. V. -->
 
-*[Figur: lignes verticales A, B, C, D, E, F, avec L, H, L marquées sur la ligne B]*
+*[Figure: lignes verticales A, B, C, D, E, F, avec L, H, L marquées sur la ligne B]*
 
 Req. π. demonstr.
 

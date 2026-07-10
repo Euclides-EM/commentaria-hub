@@ -1,7 +1,7 @@
 
 <!-- # ELEM. EVCLID. LI. I. -->
 
-*[Figur: lignes A et B longues à gauche, lignes C et D courtes à droite]*
+*[Figure: lignes A et B longues à gauche, lignes C et D courtes à droite]*
 
 hyp. | c 3|2 d.
 hyp. | a 2|2 2c.
@@ -12,7 +12,7 @@ hyp. | b 2|2 2d.
 
 Et quod vnius æqualium duplum est, duplum est & alterius æqualium. | Et ce qui est double de l'vn des egaux, est außi double de l'autre des egaux.
 
-*[Figur: ligne A longue à gauche, lignes B et C courtes à droite]*
+*[Figure: ligne A longue à gauche, lignes B et C courtes à droite]*
 
 hyp. | b 2|2 c.
 hyp. | a 2|2 2b.
@@ -22,7 +22,7 @@ hyp. | a 2|2 2b.
 
 Et si vnum æqualium duplum est cuiuspiam magnitudinis, alterum quoque æqualium duplum est eiusdem magnitudinis. | Et si l'vn des egaux est double de quelque grandeur, l'autre des egaux sera außi double de la mesme grandeur.
 
-*[Figur: lignes A et B longues à gauche, ligne C courte à droite]*
+*[Figure: lignes A et B longues à gauche, ligne C courte à droite]*
 
 hyp. | a 2|2 b.
 hyp. | a 2|2 2c.

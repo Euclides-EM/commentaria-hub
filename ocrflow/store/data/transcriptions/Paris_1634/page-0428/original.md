@@ -11,7 +11,7 @@ supposi. | cd 2|2 ca,
 2.p.1 | cef & baf snt —
 3.p.1 | aceg est ⊙.
 
-*[Figur: triangle auec les poincts G, F, A, E, B, H, D, C]*
+*[Figure: triangle auec les poincts G, F, A, E, B, H, D, C]*
 
 Demonstr.
 

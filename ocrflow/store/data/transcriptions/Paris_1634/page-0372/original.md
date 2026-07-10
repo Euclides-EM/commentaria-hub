@@ -7,7 +7,7 @@ Si à parallelogrammo parallelogrammum ablatum sit, & simile toti, & similiter p
 
 Si d'vn parallelogramme on retranche vn parallelogramme semblable au tout, & semblablement posé, ayant vn angle commun auec le tout ; le retranché est à l'entour d'vn mesme diametre auec le tout.
 
-*[Figur: parallelogramme A, B, C, D auec poincts I, G, E, H, F et diametre A—C]*
+*[Figure: parallelogramme A, B, C, D auec poincts I, G, E, H, F et diametre A—C]*
 
 Hypoth.
 

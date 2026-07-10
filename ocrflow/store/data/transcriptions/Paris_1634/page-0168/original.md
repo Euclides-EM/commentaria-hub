@@ -9,7 +9,7 @@ ab est —,
 ac 2|2 cb,
 ad 3|2 db.
 
-*[Figur: triangle A—E—B, E au sommet, C, D sur la base, F au dessus de D, G au milieu, lignes E—C, F—D, A—F, G—F]*
+*[Figure: triangle A—E—B, E au sommet, C, D sur la base, F au dessus de D, G au milieu, lignes E—C, F—D, A—F, G—F]*
 
 Req. π. demonstr.
 

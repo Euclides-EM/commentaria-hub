@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. I. -->
 
-*[Figur: à gauche deux quarrez auec diagonales, E—F en haut & A—B—C en bas pour le premier, F—H—G en haut & C—D en bas pour le second ; à droicte deux quarrez N—O—P—Q en haut, I—K—L—T—M en bas, ligne poinctée R—S]*
+*[Figure: à gauche deux quarrez auec diagonales, E—F en haut & A—B—C en bas pour le premier, F—H—G en haut & C—D en bas pour le second ; à droicte deux quarrez N—O—P—Q en haut, I—K—L—T—M en bas, ligne poinctée R—S]*
 
 Præpar.
 

@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. III. -->
 
-*[Figur: cercle A—C—D—E—B—H, F au centre, G sous F, lignes de G vers C, D, E, H, diametre A—B, lignes F—C, F—D, F—E]*
+*[Figure: cercle A—C—D—E—B—H, F au centre, G sous F, lignes de G vers C, D, E, H, diametre A—B, lignes F—C, F—D, F—E]*
 
 gh, ge, gd ñ snt 2|2 ⁊e
 

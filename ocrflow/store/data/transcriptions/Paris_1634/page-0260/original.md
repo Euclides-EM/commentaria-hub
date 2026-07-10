@@ -7,7 +7,7 @@ Req. π. demonstr.
 
 rhomb. fghi est circscri. π. ⊙mlp.
 
-*[Figur: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]*
+*[Figure: rhombe F—G—H—I auec cercle inscrit, O au centre, les poincts L, M, N, P sur le cercle]*
 
 Demonstr.
 
@@ -21,7 +21,7 @@ constr. | <m, <l, <n, <p snt ∟,
 26.1 & 1.a.1 | op, om, ol, on snt 2|2 ⁊e,
 concl. 4.d.4 | rhomb. fghi est circscri. π. ⊙omlnp.
 
-*[Figur: pentagone A—B—C—D—E circonscrit au cercle, F au centre, les poincts G, L, H, N, I sur le cercle]*
+*[Figure: pentagone A—B—C—D—E circonscrit au cercle, F au centre, les poincts G, L, H, N, I sur le cercle]*
 
 Hypoth. 3.
 

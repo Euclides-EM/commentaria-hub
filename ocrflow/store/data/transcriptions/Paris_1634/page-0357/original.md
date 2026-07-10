@@ -13,7 +13,7 @@ A data recta linea dato rectilineo simile, similiterque positum rectilineum desc
 
 Sur vne ligne droicte donnee, descrire vne figure rectiligne semblable, & semblablement posee à vne figure rectiligne donnee.
 
-*[Figur: quadrilatere A, G, H, B et quadrilatere C, E, F, D]*
+*[Figure: quadrilatere A, G, H, B et quadrilatere C, E, F, D]*
 
 Hypoth.
 

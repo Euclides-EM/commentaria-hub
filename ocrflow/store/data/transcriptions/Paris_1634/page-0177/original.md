@@ -9,7 +9,7 @@ Hypoth.
 
 <acb 2|3 ∟,
 
-*[Figur: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]*
+*[Figure: triangle B—A—C, A au sommet, B, D, C en bas, ligne A—D]*
 
 Req. π. demonstr.
 

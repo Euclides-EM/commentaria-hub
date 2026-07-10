@@ -5,7 +5,7 @@
 
 Permutatio æqualium non immutat æqualitatem. | Le changement des choses egales n'oste pas l'egalité.
 
-*[Figur: lignes A et C longues en haut, lignes B et D courtes au dessous]*
+*[Figure: lignes A et C longues en haut, lignes B et D courtes au dessous]*
 
 hyp. | a + b 2|2 c + d.
 hyp. | b 2|2 d.
@@ -15,7 +15,7 @@ hyp. | b 2|2 d.
 
 Interpretatio non immutat æqualitatem. | L'interpretation ne change point l'egalité.
 
-*[Figur: deux quarrez auec diagonales, ABFE à gauche, diagonale de E à B ; CDGH à droite, diagonale de H à D]*
+*[Figure: deux quarrez auec diagonales, ABFE à gauche, diagonale de E à B ; CDGH à droite, diagonale de H à D]*
 
 hyp. | □af 2|2 □cg.
 hyp. | af est □.ab.

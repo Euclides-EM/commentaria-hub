@@ -9,7 +9,7 @@ Præpar.
 10.1 | bd 2|2 df,
 1.p.1 | cf & cd snt —,
 
-*[Figur: triangle A—C—B, C au sommet, A, F, D, B en bas, lignes C—F, C—D]*
+*[Figure: triangle A—C—B, C au sommet, A, F, D, B en bas, lignes C—F, C—D]*
 
 Demonstr.
 

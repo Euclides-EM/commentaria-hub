@@ -7,7 +7,7 @@ Si composita prima cum secunda, ad secundam habuerit maiorem proportionem, quàm
 
 Si la composee de la premiere auec la seconde, a plus grande raison à la seconde, que la composee de la tierce auec la quarte, à la quarte. Par conuersion de raison, la premiere auec la seconde aura moindre raison à la premiere, que la tierce auec la quarte à la tierce.
 
-*[Figur: lignes A—B—C ; D—E—F]*
+*[Figure: lignes A—B—C ; D—E—F]*
 
 Hypoth.
 

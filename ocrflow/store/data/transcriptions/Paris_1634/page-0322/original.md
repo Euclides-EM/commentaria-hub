@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. V. -->
 
-*[Figur: lignes verticales A—G—B ; C—H—D ; E ; F]*
+*[Figure: lignes verticales A—G—B ; C—H—D ; E ; F]*
 
 Hypoth.
 

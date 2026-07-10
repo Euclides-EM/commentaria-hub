@@ -16,7 +16,7 @@ Si externus angulus sit æqualis interno & opposito ad easdem partes, linea inci
 
 Si l'angle externe est égal à l'interne & opposé de mesme part, la ligne tombant sur lignes droictes paralleles est droicte.
 
-*[Figur: ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche]*
+*[Figure: ligne A—G—B, ligne C—H—D, ligne transversale E—G—H—F, E en haut à droicte, F en bas à gauche]*
 
 Hypoth.
 

@@ -13,7 +13,7 @@ Isosceles triangulum constituere, quod habeat vtrumque eorum, qui ad basim sunt 
 
 Descrire vn triangle isoscele, qui ait vn chacun des angles qui sont à la base, double de l'autre.
 
-*[Figur: grand cercle auec triangle A—B—D inscrit, C sur A—B, petit cercle A—C—D passant par le dedans]*
+*[Figure: grand cercle auec triangle A—B—D inscrit, C sur A—B, petit cercle A—C—D passant par le dedans]*
 
 11.2 | ▭.abc 2|2 □.ac,
 1.4 | bd 2|2 ac,

@@ -12,7 +12,7 @@ Hyoth.
 ab, multipl.. e, 2|2, cd multipl.. f,
 ag, multipl.. e, 2|2, ch, multipl. f.
 
-*[Figur: lignes verticales B—G—A et D—H—C, auec E, F]*
+*[Figure: lignes verticales B—G—A et D—H—C, auec E, F]*
 
 Req. π. demonstr.
 

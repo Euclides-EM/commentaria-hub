@@ -9,7 +9,7 @@ ad est —,
 ac 3|2 cd,
 ac ~ cd est af,
 
-*[Figur: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—A, E—F, E—C, E—D, E—B]*
+*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—A, E—F, E—C, E—D, E—B]*
 
 Req. π. demonstr.
 

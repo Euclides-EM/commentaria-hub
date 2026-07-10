@@ -9,7 +9,7 @@ Sequitur etiam si linea recta cum alia recta angulos inæquales faciat vnum acut
 
 Il s'ensuit außi que si vne ligne droicte faict deux angles inégaux auec vne autre ligne droicte, l'vn obtus & l'autre aigu, que la ligne perpendiculaire tirée de quelconque poinct d'icelle sur cette autre ligne, tombera de la part de l'angle aigu.
 
-*[Figur: triangle rectangle, poinct A en haut, ligne C—E—D en bas, lignes AC, AE, AD]*
+*[Figure: triangle rectangle, poinct A en haut, ligne C—E—D en bas, lignes AC, AE, AD]*
 
 Hypoth.
 

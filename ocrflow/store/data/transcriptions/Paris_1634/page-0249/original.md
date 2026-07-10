@@ -3,7 +3,7 @@
 
 En vn pentagone donné, equilateral & equiangle inscrire vn cercle.
 
-*[Figur: pentagone A—L—E—K—D—I—C—H—B—G auec cercle inscrit, F au centre, et toutes les lignes menées du centre]*
+*[Figure: pentagone A—L—E—K—D—I—C—H—B—G auec cercle inscrit, F au centre, et toutes les lignes menées du centre]*
 
 Hypoth.
 

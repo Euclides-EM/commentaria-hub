@@ -10,7 +10,7 @@ Triangula & parallelogramma, quorum eadem fuerit altitudo, ita se habent inter s
 
 Les triangles & les parallelogrammes qui ont mesme hauteur, sont entr'eux comme leurs bases.
 
-*[Figur: triangles et parallelogrammes E, A, F ; H, G, B, C, D, I]*
+*[Figure: triangles et parallelogrammes E, A, F ; H, G, B, C, D, I]*
 
 Hypoth.
 

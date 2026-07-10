@@ -7,7 +7,7 @@ Cum recta linea super rectam consistens lineam angulos facit, aut duos rectos, a
 
 Quand vne ligne droicte tombant sur vne ligne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux droicts.
 
-*[Figur: ligne horizontale C—B—D, ligne verticale BE, ligne oblique BA]*
+*[Figure: ligne horizontale C—B—D, ligne verticale BE, ligne oblique BA]*
 
 Hypoth.
 

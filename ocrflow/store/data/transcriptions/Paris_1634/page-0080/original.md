@@ -1,7 +1,7 @@
 
 <!-- # ELEM. EVCLID. LI. I. -->
 
-*[Figur: ligne A—G—B—E en haut, ligne C—D—F au dessous]*
+*[Figure: ligne A—G—B—E en haut, ligne C—D—F au dessous]*
 
 hyp. | ag 2|2 ab~cd.
 hyp. | be 2|2 df.
@@ -11,7 +11,7 @@ hyp. | be 2|2 df.
 
 Si ab æqualibus inæqualia demantur, erit residuorum excessus excessui ablatorum æqualis. | Si de choses egales on retranche choses inegales, l'excez des restantes sera egal à l'excez des retranchees.
 
-*[Figur: ligne A—E—B en haut, ligne C—F—G—D au dessous]*
+*[Figure: ligne A—E—B en haut, ligne C—F—G—D au dessous]*
 
 hyp. | ab 2|2 cd.
 hyp. | fg 2|2 ae~cf.
@@ -21,7 +21,7 @@ hyp. | fg 2|2 ae~cf.
 
 Si ab inæqualibus æqualia demantur, erit residuorum excessus excessui totorum æqualis. | Si de choses inegales on retranche choses egales, l'excez des restantes sera egal à l'excez des toutes.
 
-*[Figur: ligne A—G—E—B en haut, ligne C—F—D au dessous]*
+*[Figure: ligne A—G—E—B en haut, ligne C—F—D au dessous]*
 
 hyp. | ag 2|2 ab~cd.
 hyp. | eb 2|2 fd.

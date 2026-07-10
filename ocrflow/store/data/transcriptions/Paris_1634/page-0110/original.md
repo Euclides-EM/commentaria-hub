@@ -3,7 +3,7 @@
 
 grand que l'angle, ils auront außi la base plus grande que la base.
 
-*[Figur: triangle ABC, A en haut, B & C en bas ; triangle DEF auec poinct G, D en haut, E, F & G en bas, lignes DG & EG]*
+*[Figure: triangle ABC, A en haut, B & C en bas ; triangle DEF auec poinct G, D en haut, E, F & G en bas, lignes DG & EG]*
 
 Hypoth.
 
@@ -39,7 +39,7 @@ constr. | dg 2|2 ac,
 19.1. 1.concl. | eg 3|2 ef,
 α 1.a.d. | bc 3|2 ef.
 
-*[Figur: quatre triangles : triangle ABC auec triangle DEG, poinct F sur la base entre E & G ; triangle ABC auec triangle DEG, poinct F au dedans, lignes EF & FG]*
+*[Figure: quatre triangles : triangle ABC auec triangle DEG, poinct F sur la base entre E & G ; triangle ABC auec triangle DEG, poinct F au dedans, lignes EF & FG]*
 
 Demonstr. 2. cas.
 

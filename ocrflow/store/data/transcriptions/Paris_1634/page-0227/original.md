@@ -10,7 +10,7 @@ Constat etiam, duas rectas ab eodem puncto ductas, quæ circulum tangant, inter 
 
 Il est manifeste aussi, que si deux lignes droictes menées d'vn mesme poinct, touchent le cercle, qu'elles sont égales entr'elles.
 
-*[Figur: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]*
+*[Figure: cercle B—E—C marqué 2, D et F au dedans, A au dehors en haut, lignes A—B, A—C, A—D—E, F sur A—E]*
 
 Hypoth.
 

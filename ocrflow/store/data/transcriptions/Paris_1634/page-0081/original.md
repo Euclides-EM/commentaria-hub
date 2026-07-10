@@ -5,7 +5,7 @@
 
 Omne totum æquale est omnibus suis partibus simul sumptis. | Le tout est egal à toutes ses parties prises ensemble.
 
-*[Figur: ligne A—C—D—B]*
+*[Figure: ligne A—C—D—B]*
 
 hyp. | ac, cd, db, snt part;.ab.
 19.a.1. | ab 2|2 ac + cd + db.

@@ -3,7 +3,7 @@
 
 De tout espace parallelogramme, lequel on voudra des parallelogrammes à l'entour du diametre, auec les deux complements, soit appellé Gnomon.
 
-*[Figur: parallelogramme F—E—K en haut, H—A—I en bas, G & M aux costez, B au milieu ; diametre H—B—K, lignes E—B—A & G—B—M]*
+*[Figure: parallelogramme F—E—K en haut, H—A—I en bas, G & M aux costez, B au milieu ; diametre H—B—K, lignes E—B—A & G—B—M]*
 
 hyp. | fhik est ◊,
 hyp. | hk est diametr.
@@ -19,7 +19,7 @@ Si fuerint duæ rectæ lineæ, seceturque ipsarum altera in quotcunque segmenta 
 
 S'il y a deux lignes droictes, & que l'vne d'icelles soit couppée en tant de parties que l'on voudra, le rectangle contenu sous icelles deux lignes droictes, est égal au rectangle contenu sous la non couppée, & sous chacune des parties de la couppée.
 
-*[Figur: rectangle F—H—I—G en haut, A—D—E—B en bas, lignes H—D & I—E ; à droicte ligne C]*
+*[Figure: rectangle F—H—I—G en haut, A—D—E—B en bas, lignes H—D & I—E ; à droicte ligne C]*
 
 Hypoth.
 

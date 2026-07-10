@@ -1,7 +1,7 @@
 
 <!-- # APPEND.. GEOM.. PLAN. -->
 
-*[Figur: deux cercles auec les poincts N, B, F, G, L, A, E, C, D, H]*
+*[Figure: deux cercles auec les poincts N, B, F, G, L, A, E, C, D, H]*
 
 Req. π. demonstr.
 

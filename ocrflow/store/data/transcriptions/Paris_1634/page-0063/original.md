@@ -9,7 +9,7 @@
 
 Postuletur, vt à quouis puncto in quoduis punctum, rectam lineam ducere, concedatur. | Soit demandé, de tout poinct donné, à tout autre poinct donné, mener vne ligne droicte, soit concedé.
 
-*[Figur: ligne droicte horizontale de A à B]*
+*[Figure: ligne droicte horizontale de A à B]*
 
 1.p.1 | ab est —.
 

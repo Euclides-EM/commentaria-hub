@@ -7,7 +7,7 @@ Cuiuscunque trianguli duo anguli, duobus rectis sunt minores, omnifariam sumpti.
 
 De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
 
-*[Figur: triangle ABC, costé BC prolongé vers D]*
+*[Figure: triangle ABC, costé BC prolongé vers D]*
 
 Hypoth.
 

@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. V. -->
 
-*[Figur: lignes A ; B ; C ; G ; D ; E ; F ; H]*
+*[Figure: lignes A ; B ; C ; G ; D ; E ; F ; H]*
 
 27.5 | a π b+c+g 3|2 d π e+f+h,
 28.5 | a+b+c+g π b+c+g 3|2 d+e+f+h π e+f+h,

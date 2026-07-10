@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. I. -->
 
-*[Figur: arc de cercle, ligne A—E—G—F—B horizontale, poinct C au sommet, D sous la ligne, triangle ECF]*
+*[Figure: arc de cercle, ligne A—E—G—F—B horizontale, poinct C au sommet, D sous la ligne, triangle ECF]*
 
 Hypoth.
 
@@ -35,7 +35,7 @@ concl. 10.d.1. | cg ⊥ ab.
 
 CONSTR.. PRA.
 
-*[Figur: poinct C en haut, ligne A—D—G—E—B horizontale, arcs D et E, arcs s'entrecoupans en F au dessous, ligne pointillée GF]*
+*[Figure: poinct C en haut, ligne A—D—G—E—B horizontale, arcs D et E, arcs s'entrecoupans en F au dessous, ligne pointillée GF]*
 
 hyp. | ab est — D.
 | c est • D.

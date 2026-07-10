@@ -7,7 +7,7 @@ Tribus datis rectis lineis, quartam proportionalem inuenire.
 
 A trois lignes droictes donnees, trouuer la quatriesme proportionelle.
 
-*[Figur: lignes A ; B ; C et triangle D, E, F avec G, H]*
+*[Figure: lignes A ; B ; C et triangle D, E, F avec G, H]*
 
 Hypoth.
 

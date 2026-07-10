@@ -5,7 +5,7 @@
 
 Demonstr.. diuis.. raō. contr. & inuers. contr.
 
-*[Figur: ligne A—C—B et ligne D—F—E]*
+*[Figure: ligne A—C—B et ligne D—F—E]*
 
 Hypoth.
 
@@ -29,7 +29,7 @@ Si diuisæ magnitudines sint proportionales, hæ quoque compositæ proportionale
 
 Si les grandeurs diuisées sont proportionnelles : estant composées, elles seront aussi proportionnelles.
 
-*[Figur: lignes verticales C—B—A et F—G—E—D]*
+*[Figure: lignes verticales C—B—A et F—G—E—D]*
 
 Hypoth.
 

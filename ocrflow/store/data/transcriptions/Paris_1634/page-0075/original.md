@@ -1,7 +1,7 @@
 
 <!-- # ELEM. EVCLID. LI. I. -->
 
-*[Figur: lignes A et B courtes à gauche, ligne C longue à droite]*
+*[Figure: lignes A et B courtes à gauche, ligne C longue à droite]*
 
 hyp. | a 2|2 b.
 hyp. | a 2|2 ½c.

@@ -7,7 +7,7 @@ Req. π. demonstr.
 
 5<abcde est æquilat.
 
-*[Figur: pentagone A—B—C—D—E inscrit dans vn cercle, F au centre, auec les lignes menées de F et les diagonales]*
+*[Figure: pentagone A—B—C—D—E inscrit dans vn cercle, F au centre, auec les lignes menées de F et les diagonales]*
 
 Demonstr.
 

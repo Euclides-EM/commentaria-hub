@@ -7,7 +7,7 @@ In omni triangulo, tres perpendiculares, ab angulis ad opposita latera ductæ, i
 
 En tout triangle, les trois perpendiculaires, tirees de trois angles sur les costez opposez, s'entrecouppent en vn mesme poinct.
 
-*[Figur: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]*
+*[Figure: demicercle sur A B auec le triangle A, D, B, les poincts F, C, G, I, H, E]*
 
 Hypoth. 1.
 

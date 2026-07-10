@@ -15,7 +15,7 @@ A data recta linea quadratum describere.
 
 D'vne ligne droicte donnée, descrire vn quarré.
 
-*[Figur: quarré ABCD, B & C en haut, A & D en bas]*
+*[Figure: quarré ABCD, B & C en haut, A & D en bas]*
 
 Hypoth.
 

@@ -20,7 +20,7 @@ Duabus datis rectis lineis tertiam proportionalem adinuenire.
 
 A deux lignes droictes donnees, trouuer la troisiesme proportionelle.
 
-*[Figur: triangle A, B, C avec D, E]*
+*[Figure: triangle A, B, C avec D, E]*
 
 Hypoth.
 

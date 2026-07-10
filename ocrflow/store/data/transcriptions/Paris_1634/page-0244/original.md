@@ -10,7 +10,7 @@
 1.p.1 | ab, bc, de, ea snt —,
 symp. | 5<abcde est req.
 
-*[Figur: cercle auec pentagone A—B—C—D—E inscrit et toutes ses diagonales ; à droicte triangle isoscele F—G—H]*
+*[Figure: cercle auec pentagone A—B—C—D—E inscrit et toutes ses diagonales ; à droicte triangle isoscele F—G—H]*
 
 Demonstr.
 

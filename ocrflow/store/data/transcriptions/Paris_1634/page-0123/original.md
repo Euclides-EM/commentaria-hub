@@ -11,7 +11,7 @@ Rectæ lineæ, quæ æquales, & parallelas lineas ad partes easdem coniungunt ; 
 
 Les lignes droictes qui conioignent deux lignes droictes égales & paralleles, & de mesme part ; sont außi égales & paralleles.
 
-*[Figur: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale B—C]*
+*[Figure: parallelogramme ABDC, A & B en haut, C & D en bas, diagonale B—C]*
 
 Hypoth.
 

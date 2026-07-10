@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. IV. -->
 
-*[Figur: triangle A—B—C auec cercle E—G—F inscrit, D au centre, lignes B—D—G, A—D—C prolongées, D—E, D—F, D—G]*
+*[Figure: triangle A—B—C auec cercle E—G—F inscrit, D au centre, lignes B—D—G, A—D—C prolongées, D—E, D—F, D—G]*
 
 Hypoth.
 

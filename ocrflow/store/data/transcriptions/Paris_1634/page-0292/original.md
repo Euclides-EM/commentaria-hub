@@ -33,7 +33,7 @@ f, multipl.. | c,
 g, multipl.. | b,
 h, multipl.. | d.
 
-*[Figur: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]*
+*[Figure: lignes verticales I—E—A—B—G—L et K—F—C—D—H—M]*
 
 Demonstr.
 

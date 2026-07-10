@@ -5,7 +5,7 @@
 
 Des parallelogrammes egaux qui ont vn angle egal à vn angle, les costez qui sont au tour des angles egaux sont reciproques : Et les parallelogrammes qui ont vn angle egal à vn angle, & les costez autour des angles egaux reciproques, sont egaux.
 
-*[Figur: parallelogrammes D, C, H ; A, B, G ; E, F]*
+*[Figure: parallelogrammes D, C, H ; A, B, G ; E, F]*
 
 Hypoth. commun.
 

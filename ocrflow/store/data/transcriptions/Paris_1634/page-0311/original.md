@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. V. -->
 
-*[Figur: ligne A—C—B et ligne D—F—E]*
+*[Figure: ligne A—C—B et ligne D—F—E]*
 
 Demonstr.
 

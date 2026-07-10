@@ -3,7 +3,7 @@
 
 qu'elle soit æquilateral & æquiangle : les costez opposez seront paralleles entr'eux.
 
-*[Figur: octogone ABCDEFGH, A & B en haut, H & C aux costez, G & D plus bas, F & E en bas, ligne poinctée B—E]*
+*[Figure: octogone ABCDEFGH, A & B en haut, H & C aux costez, G & D plus bas, F & E en bas, ligne poinctée B—E]*
 
 Hypoth.
 

@@ -3,7 +3,7 @@
 
 De trois proportionnelles estant donnee la moyenne & la somme des extremes trouuer les extremes.
 
-*[Figur: demi-cercle H, G, E sur la base A, F, C, D, B, auec ligne K]*
+*[Figure: demi-cercle H, G, E sur la base A, F, C, D, B, auec ligne K]*
 
 Hypoth.
 

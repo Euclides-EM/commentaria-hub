@@ -7,7 +7,7 @@ Parallelogramma vnum angulum vni angulo æqualem habentia sunt inter se æquiang
 
 Les parallelogrammes qui ont vn angle egal à vn angle sont equiangles entr'eux.
 
-*[Figur: parallelogrammes A, B, H, G avec D, C, E, F, I, K, L]*
+*[Figure: parallelogrammes A, B, H, G avec D, C, E, F, I, K, L]*
 
 Hypoth.
 

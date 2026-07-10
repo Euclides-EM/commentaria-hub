@@ -5,7 +5,7 @@ dam linea in directum adiiciatur : Rectangulum comprehensum sub tota cum adiecta
 
 Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adiouste quelque ligne droicte directement, le rectangle contenu sous la toute auec l'adioustée, & l'adioustée auec le quarré de la moitié, est égal au quarré descrit de la ligne composée de la moitié, & de l'adioustée comme d'vne.
 
-*[Figur: rectangle L—I—D—A, quarré F—E au dessus, G, M, K, O, H au milieu, N, A—C—B—D en bas, diagonale F—H—D, demi-cercle au milieu]*
+*[Figure: rectangle L—I—D—A, quarré F—E au dessus, G, M, K, O, H au milieu, N, A—C—B—D en bas, diagonale F—H—D, demi-cercle au milieu]*
 
 Hypoth.
 

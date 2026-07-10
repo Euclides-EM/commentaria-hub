@@ -3,7 +3,7 @@
 
 Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'vn centre à l'autre, passera par l'attouchement.
 
-*[Figur: deux cercles se touchans en C, D et E en haut, A centre du premier, B centre du second, ligne A—C—B, arcs D—C et E—C]*
+*[Figure: deux cercles se touchans en C, D et E en haut, A centre du premier, B centre du second, ligne A—C—B, arcs D—C et E—C]*
 
 Hypoth.
 
@@ -29,7 +29,7 @@ Circulus circulum non tangit in pluribus punctis, quàm vno, siue intus, siue ex
 
 Vn cercle ne touche point vn cercle à plus d'vn poinct: soit qu'il le touche au dedans, ou au dehors.
 
-*[Figur: deux cercles se touchans en A au dedans, B et C au milieu, D à gauche, H en bas, lignes A—H, D—B, D—C, et vn troisiesme cercle E—F—G touchant au dehors, lignes E—F]*
+*[Figure: deux cercles se touchans en A au dedans, B et C au milieu, D à gauche, H en bas, lignes A—H, D—B, D—C, et vn troisiesme cercle E—F—G touchant au dehors, lignes E—F]*
 
 Hypoth. 1.
 

@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. III. -->
 
-*[Figur: cercle A—B—C—D, lignes A—B, B—C, A—C, A—D, D—C, B—D]*
+*[Figure: cercle A—B—C—D, lignes A—B, B—C, A—C, A—D, D—C, B—D]*
 
 Demonstr.
 

@@ -17,7 +17,7 @@ Si ad aliquam rectam lineam, atque ad eius punctum, duæ rectæ lineæ non ad ea
 
 Si à quelque ligne droicte ; & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles de part & d'autre égaux à deux droicts : icelles lignes droictes se rencontreront directement l'vne l'autre.
 
-*[Figur: ligne horizontale C—B—D, ligne verticale BA, ligne oblique BE vers la droite]*
+*[Figure: ligne horizontale C—B—D, ligne verticale BA, ligne oblique BE vers la droite]*
 
 Hypoth.
 

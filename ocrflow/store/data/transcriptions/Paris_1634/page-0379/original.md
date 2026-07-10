@@ -26,7 +26,7 @@ Propositam rectam lineam terminatam extrema, ac media ratione secare.
 
 Coupper vne ligne droicte proposee & terminee, selon la moyenne & extreme raison.
 
-*[Figur: rectangle C, B, I, G, H sur la base D, E, A, F]*
+*[Figure: rectangle C, B, I, G, H sur la base D, E, A, F]*
 
 Hypoth.
 

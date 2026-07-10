@@ -13,7 +13,7 @@ arbitr. | ad est diamet.
 1.p.1 | ab, bc, cd, de, ef, fa snt —,
 symp. | 6<abcde est req.
 
-*[Figur: cercle auec hexagone A—F—E—D—C—B inscrit, G au centre, diametres A—D, B—E, C—F ; second cercle au dessous passant par G]*
+*[Figure: cercle auec hexagone A—F—E—D—C—B inscrit, G au centre, diametres A—D, B—E, C—F ; second cercle au dessous passant par G]*
 
 Demonstr.
 

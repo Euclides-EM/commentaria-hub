@@ -13,7 +13,7 @@ A est maior C, per primum axioma C. | A est plus grand que C, par le premier axi
 
 Et si vnum æqualium maius est, aut minus magnitudine quapiam, alterum quoque æqualium eadem magnitudine maius est aut minus. | Et si l'vn des egaux est plus grand ou plus petit que quelque grandeur, l'autre des egaux sera außi plus grand ou plus petit que la mesme grandeur.
 
-*[Figur: lignes A et B egales à gauche, ligne C plus courte à droite]*
+*[Figure: lignes A et B egales à gauche, ligne C plus courte à droite]*
 
 hyp. | a 2|2 b.
 hyp. | a 3|2 c.
@@ -23,7 +23,7 @@ hyp. | a 3|2 c.
 
 Et quod est maius maiore est etiam maius minore, & quod est minus minore est etiam minus maiore. | Et ce qui est plus grand que le plus grand, est außi plus grand que le plus petit, & ce qui est plus petit que le plus petit, est außi plus petit que le plus grand.
 
-*[Figur: trois lignes, A la plus longue, B moyenne, C la plus courte]*
+*[Figure: trois lignes, A la plus longue, B moyenne, C la plus courte]*
 
 hyp. | b 3|2 c.
 hyp. | a 3|2 b.

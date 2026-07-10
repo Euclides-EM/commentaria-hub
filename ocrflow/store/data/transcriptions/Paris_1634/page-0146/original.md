@@ -15,7 +15,7 @@ Req. π. demonstr.
 
 ▭.ab,ac 2|2 ▭.ad,ag + ▭.de,ag, + ▭.eb,ag + ▭.ad,gc, + ▭.de,gc + ▭.eb,gc,
 
-*[Figur: rectangle C—I—K—H en haut, A—D—E—B en bas, G & L aux costez, N & O au milieu]*
+*[Figure: rectangle C—I—K—H en haut, A—D—E—B en bas, G & L aux costez, N & O au milieu]*
 
 Præpar.
 

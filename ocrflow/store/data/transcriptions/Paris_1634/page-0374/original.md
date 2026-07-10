@@ -5,7 +5,7 @@ parallelogrammum applicare deficiens figura parallelogramma, quæ similis sit al
 
 A vne ligne droicte donnee appliquer vn parallelogramme egal à vne figure rectiligne donnee ; defaillant d'vne figure parallelogramme, laquelle soit semblable à vn autre parallelogramme donné. Mais il faut que la figure rectiligne donnee, à laquelle il en faut appliquer vne egale, ne soit plus grande que celle qui est appliquee à la moitié de la ligne donnee ; les defauts estans semblables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir d'vn semblable.
 
-*[Figur: quarré K, T, N, M ; triangle I ; parallelogramme D ; triangle C, S ; parallelogramme H, F, Q, G auec poincts O, P, R sur la base A, E, Z, B]*
+*[Figure: quarré K, T, N, M ; triangle I ; parallelogramme D ; triangle C, S ; parallelogramme H, F, Q, G auec poincts O, P, R sur la base A, E, Z, B]*
 
 Hypoth.
 

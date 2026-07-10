@@ -5,7 +5,7 @@ figuris parallelogrammis similibus similiterque positis, ei, quod à dimidia des
 
 De tous les parallelogrammes appliquez selon vne mesme ligne droicte, & defaillans de figures parallelogrammes semblables, & semblablement posees à celuy qui est descrit sur la moitié, le plus grand est celuy qui est appliqué à la moitié estant semblable au defaut.
 
-*[Figur: parallelogramme A, B, D, H auec poincts E, F, L, M, G, N, I, C, K et diametre D—B]*
+*[Figure: parallelogramme A, B, D, H auec poincts E, F, L, M, G, N, I, C, K et diametre D—B]*
 
 Hypoth.
 

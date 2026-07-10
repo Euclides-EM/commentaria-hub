@@ -1,7 +1,7 @@
 
 <!-- # APPEND.. GEOM.. PLAN. -->
 
-*[Figur: triangle A, C, B auec E, G, H, F, le demicercle A, N, M, L & le quarré B, N, M]*
+*[Figure: triangle A, C, B auec E, G, H, F, le demicercle A, N, M, L & le quarré B, N, M]*
 
 12.1 | cd ⊥ ab,
 arbitr. | def & cef snt ⊙ 2|2 ⁊e,
@@ -27,7 +27,7 @@ A vne ligne droicte donnee, appliquer vn quarré, ou rectangle donné.
 
 45.1.Elem.
 
-*[Figur: quarré D, B, C ; ligne A ; rectangle G, E, F]*
+*[Figure: quarré D, B, C ; ligne A ; rectangle G, E, F]*
 
 Hypoth. I.
 

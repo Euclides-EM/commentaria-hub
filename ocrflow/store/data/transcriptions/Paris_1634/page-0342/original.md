@@ -7,7 +7,7 @@ Coroll.
 
 ## SCHOL.
 
-*[Figur: triangles C, B, G, C, B, G avec lignes F, D, E, E, A, F]*
+*[Figure: triangles C, B, G, C, B, G avec lignes F, D, E, E, A, F]*
 
 Hypoth.
 

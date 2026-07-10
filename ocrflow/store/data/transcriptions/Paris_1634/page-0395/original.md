@@ -5,7 +5,7 @@ Estant donnee l'hypothenuse d'vn triangle rectangle, & la moyenne proportionnell
 
 Vieta in effectionibus Geometricis.
 
-*[Figur: deux demicercles sur D B, auec les poincts C, F, A, E ; ligne G à part]*
+*[Figure: deux demicercles sur D B, auec les poincts C, F, A, E ; ligne G à part]*
 
 Hypoth.
 

@@ -14,7 +14,7 @@ Si recta linea secetur in æqualia, & non æqualia : Rectangulum sub inæqualibu
 
 Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales, le rectangle contenu des parties inégales de la toute, auec le quarré de la section du milieu, est égal au quarré de la moitié de la toute.
 
-*[Figur: rectangle L—I—B—A en bas, quarré E—F au dessus, G, M, K, O, H au milieu, N en bas, A—C—D—B en bas, diagonale E—H—B]*
+*[Figure: rectangle L—I—B—A en bas, quarré E—F au dessus, G, M, K, O, H au milieu, N en bas, A—C—D—B en bas, diagonale E—H—B]*
 
 Hypoth.
 

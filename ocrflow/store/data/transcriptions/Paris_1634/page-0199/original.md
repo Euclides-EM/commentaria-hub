@@ -3,7 +3,7 @@
 
 les à la circonference: le poinct pris est le centre du cercle.
 
-*[Figur: cercle B—C—K, A au dedans, lignes A—B, A—C, A—K]*
+*[Figure: cercle B—C—K, A au dedans, lignes A—B, A—C, A—K]*
 
 Hypoth.
 
@@ -26,7 +26,7 @@ Circulus circulum in pluribus, quàm duobus punctis non secat.
 
 Vn cercle ne couppe pas vn cercle, à plus de deux poincts.
 
-*[Figur: deux cercles s'entrecouppans, A en haut, C en bas, I, E, M, K en haut au dedans, H, D, O, N, B, F sur la ligne horizontale, G et L en bas, lignes I—K, H—F, A—C]*
+*[Figure: deux cercles s'entrecouppans, A en haut, C en bas, I, E, M, K en haut au dedans, H, D, O, N, B, F sur la ligne horizontale, G et L en bas, lignes I—K, H—F, A—C]*
 
 Hypoth.
 

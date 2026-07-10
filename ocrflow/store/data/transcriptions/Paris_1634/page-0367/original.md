@@ -18,7 +18,7 @@ Triangula, quæ vnum angulum vni angulo æqualem habent, proportionem habent ex 
 
 Les triangles qui ont vn angle egal à vn angle, sont en raison composee des costez qui contiennent l'angle egal.
 
-*[Figur: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]*
+*[Figure: parallelogramme A, B, C, G auec triangle et parallelogramme D, E, F, H]*
 
 Hypoth.
 

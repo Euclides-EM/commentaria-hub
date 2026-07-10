@@ -23,7 +23,7 @@ In æqualibus circulis, æquales anguli æqualibus peripheriis insistunt, siue a
 
 Aux cercles égaux, les angles égaux s'appuyent sur circonferences égales, soit qu'ils s'appuyent, estant constituez aux centres, ou aux circonferences.
 
-*[Figur: deux cercles ; le premier A—B—C, G au dedans, lignes A—B, B—C, A—C, G—A, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]*
+*[Figure: deux cercles ; le premier A—B—C, G au dedans, lignes A—B, B—C, A—C, G—A, G—C ; le second D—E—F, H au dedans, lignes D—E, E—F, D—F, H—D, H—F]*
 
 Hypoth.
 

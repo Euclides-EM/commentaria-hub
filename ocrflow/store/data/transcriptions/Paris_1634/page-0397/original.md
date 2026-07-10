@@ -22,7 +22,7 @@ Præpar.
 5.4 | bacd est ⊙,
 1&2.p.1 | aed & cd snt —,
 
-*[Figur: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas]*
+*[Figure: cercle auec le triangle A, B, C, les poincts E, F sur B C, & le poinct D au bas]*
 
 Demonstr.
 

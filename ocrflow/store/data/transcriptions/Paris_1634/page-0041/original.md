@@ -1,7 +1,7 @@
 
 <!-- # ELEM. EVCLID. LI. I. -->
 
-*[Figur: ligne BD horizontale passant par C, ligne CA oblique montant vers la droite]*
+*[Figure: ligne BD horizontale passant par C, ligne CA oblique montant vers la droite]*
 
 ### XI.
 

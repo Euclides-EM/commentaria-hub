@@ -15,7 +15,7 @@ Item quacunque magnitudine data sumi posse aliam magnitudinem, vel æqualem, vel
 
 Quæ eidem æqualia, & inter se sunt æqualia. | Les choses egales à vne mesme, sont außi egales entr'elles.
 
-*[Figur: trois lignes droictes horizontales, AB en haut à gauche, EF à droite, CD au dessous de AB]*
+*[Figure: trois lignes droictes horizontales, AB en haut à gauche, EF à droite, CD au dessous de AB]*
 
 hyp. | ab 2|2 ef,
 hyp. | cd 2|2 ef,

@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. V. -->
 
-*[Figur: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]*
+*[Figure: lignes G, A, B, K ; H, C, D, L ; I, E, F, M]*
 
 3.1 | k, multipl.. | b,
 | l, multipl.. | d,

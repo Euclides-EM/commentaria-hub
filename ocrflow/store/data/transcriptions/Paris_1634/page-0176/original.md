@@ -14,7 +14,7 @@ Cognitis lateribus trianguli amblygonij inuenire segmentum inter perpendicularem
 
 Estans cognus les costez d'vn triangle obtusangle, trouuer le segment comprins entre la perpendiculaire & l'angle obtus.
 
-*[Figur: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]*
+*[Figure: triangle C—A—B, A au sommet, C, B, D en bas, ligne A—D]*
 
 hypoth. | ac est 10,
 hyp. | ab est 7,

@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. VI. -->
 
-*[Figur: demi-cercle A, E, B avec point F]*
+*[Figure: demi-cercle A, E, B avec point F]*
 
 Hypoth.
 

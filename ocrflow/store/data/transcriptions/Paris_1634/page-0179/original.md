@@ -23,7 +23,7 @@ Præpar.
 10.1 | bd 2|2 de,
 1.p.1 | cd, & ce snt —.
 
-*[Figur: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]*
+*[Figure: triangle A—C—E, C au sommet, A, B, D, E en bas, lignes C—B, C—D, C—E]*
 
 Demonstr.
 

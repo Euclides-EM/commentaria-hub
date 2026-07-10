@@ -18,7 +18,7 @@ Si sint tres magnitudines, & aliæ ipsis æquales numero, quæ binæ, & in eadem
 
 S'il y a trois grandeurs, & d'autres egales à icelles en nombre, lesquelles soient prises de deux en deux ; & en mesme raison : Et qu'en raison egale la premiere soit plus grande que la troisiesme, aussi la quatriesme sera plus grande que la sixiesme ; & si egale, egale ; & si plus petite, plus petite.
 
-*[Figur: six lignes verticales A, B, C, D, E, F]*
+*[Figure: six lignes verticales A, B, C, D, E, F]*
 
 Hypoth. commun.
 

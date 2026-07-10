@@ -1,7 +1,7 @@
 
 <!-- # ELEM.. EVCLID. LI. V. -->
 
-*[Figur: lignes A—B—G ; C ; D—E—H ; F]*
+*[Figure: lignes A—B—G ; C ; D—E—H ; F]*
 
 hyp. | ab π c 2|2 de π f,
 α.c.4.5 | c π bg 2|2 f π eh,

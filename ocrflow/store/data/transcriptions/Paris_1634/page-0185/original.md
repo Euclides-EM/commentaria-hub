@@ -15,7 +15,7 @@ In circulo æqualiter distare à centro rectæ lineæ dicuntur, cùm perpendicul
 
 Au cercle, les lignes droictes sont dites estre également distantes du centre, quand les perpendiculaires, qui sont menées du centre sur icelles sont égales. Mais celle-là est dite estre plus esloignée du centre sur laquelle tombe la plus grande perpendiculaire.
 
-*[Figur: cercle avec F, A, K, B en haut, E, D, L, C en bas, centre G, ligne H—I horizontale par le centre, N sous I, cordes F—E, A—D, K—L, B—C, lignes du centre G vers K, B et N]*
+*[Figure: cercle avec F, A, K, B en haut, E, D, L, C en bas, centre G, ligne H—I horizontale par le centre, N sous I, cordes F—E, A—D, K—L, B—C, lignes du centre G vers K, B et N]*
 
 ## DEFINIT. V.
 

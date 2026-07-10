@@ -13,7 +13,7 @@ Si vne grandeur est autant multiple d'vne grandeur, que la retranchée l'est de 
 
 Hypoth.
 
-*[Figur: ligne G—A—E—B et ligne C—F—D]*
+*[Figure: ligne G—A—E—B et ligne C—F—D]*
 
 ab multipl.. cd 2|2 ae multipl.. cf.
 

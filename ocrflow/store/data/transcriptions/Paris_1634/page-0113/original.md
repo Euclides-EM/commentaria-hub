@@ -37,7 +37,7 @@ Si in duas rectas lineas recta incidens linea alternatim angulos æquales inter 
 
 Si vne ligne droicte tombant sur deux autres lignes droictes, faict les angles alternes égaux entr'eux : icelles lignes droictes seront paralleles entr'elles.
 
-*[Figur: ligne A—E—B, ligne C—F—D, ligne transversale passant par E & F, poinct G à droicte]*
+*[Figure: ligne A—E—B, ligne C—F—D, ligne transversale passant par E & F, poinct G à droicte]*
 
 Hypoth.
 

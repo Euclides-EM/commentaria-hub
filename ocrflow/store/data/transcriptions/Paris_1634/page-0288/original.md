@@ -12,7 +12,7 @@ Hypoth.
 ab multipl.. | e,
 cd multipl.. | f. α
 
-*[Figur: deux lignes A—G—H—B et E ; C—I—K—D et F]*
+*[Figure: deux lignes A—G—H—B et E ; C—I—K—D et F]*
 
 Req. π. demonstr.
 

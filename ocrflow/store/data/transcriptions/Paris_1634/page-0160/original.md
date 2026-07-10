@@ -7,7 +7,7 @@ concl. 1.a.g. | ▭.adb + ▭.cb 2|2 ▭.cd,
 
 Explicat. p nr.
 
-*[Figur: rectangle L—I—D—A, quarré F—E au dessus, G, M, K, O, H au milieu, N, A—C—B—D en bas, diagonale F—H—D, demi-cercle au milieu]*
+*[Figure: rectangle L—I—D—A, quarré F—E au dessus, G, M, K, O, H au milieu, N, A—C—B—D en bas, diagonale F—H—D, demi-cercle au milieu]*
 
 hyp. | ac est 3,
 hyp. | cb est 3,
@@ -24,7 +24,7 @@ Si recta linea secetur in duo segmenta inæqualia, rectangulum comprehensum sub 
 
 Si vne ligne droicte est couppée en deux parties inégales, le rectangle contenu sous la toute & la difference des parties, auec le quarré de la moindre partie, est égal au quarré de la plus grande partie.
 
-*[Figur: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]*
+*[Figure: demi-cercle sur A—B, E au sommet, F, C, D sur le diametre, lignes E—C & E—D]*
 
 Hypoth.
 
