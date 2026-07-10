@@ -13,7 +13,7 @@ Dato circulo, & duobus punctis in eius circumferentia signatis, inuenire diametr
 
 Vieta in appendice apollonij galli.
 
-(deux figures : cercles auec les poincts B, L, C, M, D, E, K, A, I, F, Z et L, B, M, D, C, E, A, K, F, Z)
+*[Figure: deux figures : cercles auec les poincts B, L, C, M, D, E, K, A, I, F, Z et L, B, M, D, C, E, A, K, F, Z]*
 
 Hypoth.
 

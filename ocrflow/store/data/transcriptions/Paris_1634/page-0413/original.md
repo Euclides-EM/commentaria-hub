@@ -9,7 +9,7 @@ concl. 16.5 | ch π gb 2|2 hf π be,
 
 Snelius in Cyclometria.
 
-(demicercle auec les poincts D, C, A, E, F, G, B, H)
+*[Figure: demicercle auec les poincts D, C, A, E, F, G, B, H]*
 
 Hypoth.
 

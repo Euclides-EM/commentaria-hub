@@ -16,7 +16,7 @@ ac π cb, γ
 
 Pappus lib. 7. propos. 175.
 
-(deux figures : triangles auec les poincts D, F, A, L, H, B, E, G, C, K)
+*[Figure: deux figures : triangles auec les poincts D, F, A, L, H, B, E, G, C, K]*
 
 Hypoth.
 

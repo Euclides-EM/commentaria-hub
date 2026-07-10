@@ -10,7 +10,7 @@
 
 Pappus lib. 7. propos. 28.
 
-(triangle auec les poincts F, B, A, D, E, C, G)
+*[Figure: triangle auec les poincts F, B, A, D, E, C, G]*
 
 Hypoth.
 

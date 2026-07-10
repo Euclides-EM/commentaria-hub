@@ -7,7 +7,7 @@ Snelius in Apollonio Batauo.
 
 Hypoth.. 1. cas.
 
-(deux figures auec les poincts A, D, E, C, B)
+*[Figure: deux figures auec les poincts A, D, E, C, B]*
 
 Δabc sml. Δade,
 

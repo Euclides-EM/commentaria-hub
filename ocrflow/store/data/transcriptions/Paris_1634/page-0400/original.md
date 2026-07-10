@@ -30,7 +30,7 @@ Commandinus ad 62. propos. lib. 7. Pappi adfert demonstrationem ostensiuam huius
 
 ## THEOR. IV. PROPOS. XV.
 
-(quatre figures numerotees 1, 2, 3, 4 : cercles auec les poincts A, B, C, D & les lignes E, F, G au bas)
+*[Figure: quatre figures numerotees 1, 2, 3, 4 : cercles auec les poincts A, B, C, D & les lignes E, F, G au bas]*
 
 Pappus lib. 7. propos. 107.
 

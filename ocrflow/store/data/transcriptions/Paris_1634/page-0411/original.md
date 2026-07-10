@@ -6,7 +6,7 @@ concl. 1.a.f | ▭.cae 2|2 bad + ▭.cb,ed + ▭.cb,df + ▭.bg,ed. β
 
 Hypoth. 3. cas.
 
-(deux figures auec les poincts D, F, I, E, A, C, H, G, B)
+*[Figure: deux figures auec les poincts D, F, I, E, A, C, H, G, B]*
 
 Δabc sml. Δade,
 

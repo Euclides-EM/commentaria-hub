@@ -13,7 +13,7 @@ concl. 11.5 | □.ag π ▭.bgc 2|2 ▭.dfh π fa.
 
 Pappus lib. 7. propos. 28.
 
-(cercle auec les poincts G, F, A, B, D, E, C)
+*[Figure: cercle auec les poincts G, F, A, B, D, E, C]*
 
 Hypoth.
 

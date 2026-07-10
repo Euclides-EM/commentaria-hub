@@ -12,7 +12,7 @@ concl. ε.1.a.f | ▭.cae 2|2 ▭.bad + ▭.ch,ed u ▭bc,ei.
 
 Snelius in Apollonio Batauo.
 
-(six figures auec les poincts B, N, E, D, G, A, F, H, C, M)
+*[Figure: six figures auec les poincts B, N, E, D, G, A, F, H, C, M]*
 
 Hypoth.
 

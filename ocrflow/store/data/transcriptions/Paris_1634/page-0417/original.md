@@ -10,7 +10,7 @@ concl. 11.5 | ▭.bce π ▭.bde 2|2 □.ac π □.ad.
 
 Pappus lib. 6. propos. 12.
 
-(cercle auec les poincts A, F, G, B, D, E, C)
+*[Figure: cercle auec les poincts A, F, G, B, D, E, C]*
 
 Hypoth.
 

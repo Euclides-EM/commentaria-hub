@@ -9,7 +9,7 @@ Si la demonstration de ce theoreme ne supposoit point que les trois angles du po
 
 Io. Baptista Benedictus in Epistolis.
 
-(deux figures : demicercle sur A B auec les poincts E, D, F, C ; & demicercle sur A B auec les poincts E, D, C)
+*[Figure: deux figures : demicercle sur A B auec les poincts E, D, F, C ; & demicercle sur A B auec les poincts E, D, C]*
 
 Hypoth.
 

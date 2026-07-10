@@ -10,4 +10,4 @@
 ω | b+c+g π e+f+h 3|2 g π h,
 6.concl. τ.13.5 | a+b+c+g π d+e+f+h 3|2 g π h.
 
-(vignette)
+*[Ornament: vignette]*

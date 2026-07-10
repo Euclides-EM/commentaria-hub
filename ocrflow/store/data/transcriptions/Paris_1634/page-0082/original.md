@@ -27,6 +27,6 @@ hyp. | a ñ est 3|2 b.
 hyp. | a ñ est 2|3 b.
 21.a.1 | a 2|2 b.
 
-(cul-de-lampe)
+*[Ornament: cul-de-lampe]*
 
 EVCLIDIS

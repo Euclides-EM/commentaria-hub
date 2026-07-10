@@ -8,7 +8,7 @@ concl. 11.5 | □.ac π □.ab 2|2 ▭.dce π ▭.ebd.
 
 Pappus lib. 7. propos. 119.
 
-(triangle auec les poincts A, B, C, D)
+*[Figure: triangle auec les poincts A, B, C, D]*
 
 Hypoth.
 

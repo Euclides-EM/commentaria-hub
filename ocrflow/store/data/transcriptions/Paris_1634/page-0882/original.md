@@ -26,4 +26,4 @@ Inuentio quadraturæ huius lunulæ, quæ est circulorum in ratione dupla existen
 
 Finis decimiquinti & vltimi Elementorum Euclidis. | *Fin du quinzieſme & dernier liure des Elements d'Euclide.*
 
-(ornament)
+*[Ornament]*

@@ -19,4 +19,4 @@ Demonſtr.
 ſ.46.1 | bi 2|2 fк,
 concl. 1. d. 3 | ⊙cbed 2|2 ⊙gfh.
 
-(ornament)
+*[Ornament]*
