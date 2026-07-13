@@ -1,7 +1,7 @@
 key,elements_books,additional_content,wardhaugh_classification
 London_1685a,"1–6, 11–12",,CLAVIUS
 London_1703,"1–6, 11–12",,CLAVIUS
-Leipzig_1577,,,ZAMBERTI/GRYNAEUS (THEON)
+Leipzig_1577,1-6,Books 4-6 include only the enunciations,ZAMBERTI/GRYNAEUS (THEON)
 Strasbourg_1570,1,,MAGNIENUS/GRACILIS and DASYPODIUS
 Strasbourg_1599,1 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
 Wittenberg_1609,1-13,,CLAVIUS
@@ -47,7 +47,7 @@ Lyon_1672,"1-6, 11-12",,CLAVIUS
 Paris_1682,"1–6, 11–12",,CLAVIUS
 Amsterdam_1700,"1–6, 11–12",,CLAVIUS
 Madrid_1665,"5, 7",,COMMANDINO
-Paris_1566a,,,MAGNIENUS/GRACILIS and DASYPODIUS
+Paris_1566a,1-6,Includes only the enunciations,MAGNIENUS/GRACILIS and DASYPODIUS
 Amsterdam_1702,1–6,,CLAVIUS
 Leiden_1617,1–15 (enunciations),,COMMANDINO
 Siena_1691,1–15,,CLAVIUS
@@ -57,7 +57,7 @@ Paris_1544,1-6,,ZAMBERTI/GRYNAEUS (THEON)
 London_1680–81,"1–6, 11–12",,HÉRIGONE/BARROW
 Pesaro_1619,1–15,,COMMANDINO
 Strasbourg_1564,1,,MAGNIENUS/GRACILIS and DASYPODIUS
-Strasbourg_1564b,,,MAGNIENUS/GRACILIS and DASYPODIUS
+Strasbourg_1564b,3-13,Includes only the enunciations,MAGNIENUS/GRACILIS and DASYPODIUS
 Strasbourg_1566,1-6,,MAGNIENUS/GRACILIS and DASYPODIUS
 Strasbourg_1564a,2,,MAGNIENUS/GRACILIS and DASYPODIUS
 Bologna_1651,1–6,,MAGNIENUS/GRACILIS and DASYPODIUS
@@ -117,11 +117,11 @@ Basel_1537,1-15,"Phaenomena, Catoptrica, Optica, Data, De levi et ponderoso",D�
 Strasbourg_1538,1,,ZAMBERTI/GRYNAEUS (THEON)
 Venice_1543,1-15,,D’ÉTAPLES
 Paris_1545,1-15,,ZAMBERTI/GRYNAEUS (THEON)
-Rome_1545,,,ZAMBERTI/GRYNAEUS (THEON)
+Rome_1545,1-15,Includes only the enunciations,ZAMBERTI/GRYNAEUS (THEON)
 Rome_1545a,1-15,,ZAMBERTI/GRYNAEUS (THEON)
 Basel_1546,1-15,"Phaenomena, Catoptrica, Optica, Data, De levi et ponderoso",D’ÉTAPLES
 Leipzig_1549,1-6,,ZAMBERTI/GRYNAEUS (THEON)
-Paris_1549,,,ZAMBERTI/GRYNAEUS (THEON)
+Paris_1549,1-15,Includes only the enunciations,ZAMBERTI/GRYNAEUS (THEON)
 Paris_1551a,10,,MONTDORÉ
 Paris_1552,10,,MONTDORÉ
 Cologne_1556,1-15,,D’ÉTAPLES
@@ -129,10 +129,10 @@ Lyon_1557,1-6,,D’ÉTAPLES
 Paris_1557,1-15,,MAGNIENUS/GRACILIS and DASYPODIUS
 Basel_1558,1-15,"Phaenomena, Catoptrica, Optica, Data, De levi et ponderoso",D’ÉTAPLES
 Paris_1558,1–15 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
-Paris_1558a,,,ZAMBERTI/GRYNAEUS (THEON)
+Paris_1558a,1-15,Includes only the enunciations,ZAMBERTI/GRYNAEUS (THEON)
 Strasbourg_1559,1,,ZAMBERTI/GRYNAEUS (THEON)
 Basel_1562,1-6,,ZAMBERTI/GRYNAEUS (THEON)
-Cologne_1564,,,MAGNIENUS/GRACILIS and DASYPODIUS
+Cologne_1564,1-15,Includes only the enunciations,MAGNIENUS/GRACILIS and DASYPODIUS
 Wittenberg_1564,7,,ZAMBERTI/GRYNAEUS (THEON)
 Venice_1565,1-15,De levi et ponderoso,D’ÉTAPLES
 Paris_1566,1-16,,FOIX
@@ -142,17 +142,17 @@ Strasbourg_1570a,1-15,"Optica, Catoptrica, Introductio harmonica, Sectio canonis
 Strasbourg_1571,1,,MAGNIENUS/GRACILIS and DASYPODIUS
 Strasbourg_1571a,1–15,"Optica, Catoptrica, Introductio harmonica, Sectio canonis, Phaenomena, Data (enunciations)",MAGNIENUS/GRACILIS and DASYPODIUS
 Pesaro_1572,1-15,,COMMANDINO
-Paris_1573,1-15,,MAGNIENUS/GRACILIS and DASYPODIUS
+Paris_1573,1-15,Includes only the enunciations,MAGNIENUS/GRACILIS and DASYPODIUS
 Urbino_1575,1-15,,COMMANDINO
 Venice_1575,13-15,,MAUROLICUS
 Paris_1578,1-18,,FOIX
-Cologne_1580,,,MAGNIENUS/GRACILIS and DASYPODIUS
+Cologne_1580,1-15,Includes only the enunciations,MAGNIENUS/GRACILIS and DASYPODIUS
 Venice_1585,1-15,De levi et ponderoso,D’ÉTAPLES
 Venice_1586,1-15,De levi et ponderoso,D’ÉTAPLES
 Cologne_1587,1–15 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
 Rome_1594,1-13,,ps-TUSI
 Paris_1598,1–15 (enunciations),,MAGNIENUS/GRACILIS and DASYPODIUS
-Cologne_1600,,,MAGNIENUS/GRACILIS and DASYPODIUS
+Cologne_1600,1-15,Includes only the enunciations,MAGNIENUS/GRACILIS and DASYPODIUS
 Cologne_1602,1–18,,FOIX
 Paris_1602,1–18,,FOIX
 Arnhem_1603,1-6,,MAGNIENUS/GRACILIS and DASYPODIUS
