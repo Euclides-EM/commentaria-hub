@@ -6,7 +6,7 @@ hyp. | b 2|2 ½c,
 
 *[Figure]*
 
-7. a. b.
+### 7. a. b.
 
 La moitié du plus grand excede la moitié du plus petit.
 
@@ -17,7 +17,7 @@ hyp. | b 2|2 ½d,
 
 *[Figure]*
 
-7. a. c.
+### 7. a. c.
 
 Et ce qui est moitié de l'vn des égaux, est aussi moitié de l'autre des égaux.
 
@@ -27,7 +27,7 @@ hyp. | a 2|2 ½b,
 
 *[Figure]*
 
-7. a. d.
+### 7. a. d.
 
 Et si l'vn des égaux est moitié de quelque grandeur, l'autre des égaux sera aussi moitié de la mesme grandeur.
 

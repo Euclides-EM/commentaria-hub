@@ -8,7 +8,7 @@ La 4. demande a esté adjoustée par Clauius aux trois precedentes, qui sont d'E
 
 ## COMMVNES NOTIONS, AXIOMES *ou Sentences, qui s'appellent auſſi Maximes.*
 
-1. a. 1.
+### 1. a. 1.
 
 Les choses égales à vne mesme, sont aussi égales entr'elles.
 
@@ -20,7 +20,7 @@ hyp. | cd 2|2 ef,
 
 Les six axiomes suiuants distinguez par les lettres b, c, d, e, f, g, se rapportent à ce premier ; & ne sont pas d'Euclide, non plus que les autres qui sont distinguez par lettres.
 
-1. a. b.
+### 1. a. b.
 
 Les choses égales aux choses égales, sont aussi égales entr'elles.
 

@@ -9,7 +9,7 @@ hyp. | hl 2|2 ⅓gl,
 
 *[Figure]*
 
-4. a. 1.
+### 4. a. 1.
 
 Et si à choses inégales on adiouste choses égales, les tous sont inégaux.
 
@@ -19,7 +19,7 @@ hyp. | be 2|2 df,
 
 *[Figure]*
 
-4. a. b.
+### 4. a. b.
 
 Et si à choses égales on adjouste choses inégales, les tous sont inégaux.
 
@@ -29,7 +29,7 @@ hyp. | be 3|2 df,
 
 *[Figure]*
 
-4. a. c.
+### 4. a. c.
 
 Et si à choses inégales on adjouste choses inégales, à la plus grande la plus grande, & à la plus petite la plus petite, les tous sont inégaux, celuy-là plus grand, & celuy-cy plus petit.
 

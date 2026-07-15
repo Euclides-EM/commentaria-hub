@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-20. a. b.
+### 20. a. b.
 
 Si chaque partie de la premiere grandeur est double de chaque partie de la seconde grandeur, la premiere grandeur sera double de la seconde.
 
@@ -12,7 +12,7 @@ hyp: | eb 2|2 2fd,
 
 I'ay adjousté l'axiome suiuant, à cause qu'il est necessaire aux demonstrations, qui conduisent à l'impossible.
 
-21. a. 1.
+### 21. a. 1.
 
 Toute grandeur est telle qu'elle se dit, si elle ne peut estre autrement.
 

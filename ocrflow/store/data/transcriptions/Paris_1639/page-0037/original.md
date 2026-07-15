@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-1. a. c.
+### 1. a. c.
 
 Et ce qui est plus grand ou plus petit que l'vn des égaux, est aussi plus grand' ou plus petit que l'autre des égaux.
 
@@ -10,7 +10,7 @@ hyp. | a 3|2 b,
 
 *[Figure]*
 
-1. a. d.
+### 1. a. d.
 
 Et si l'vn des égaux est plus grand ou plus petit que quelque grandeur, l'autre des égaux sera aussi plus grand ou plus petit que la mesme grandeur.
 
@@ -20,7 +20,7 @@ hyp. | a 3|2 c,
 
 *[Figure]*
 
-1. a. e.
+### 1. a. e.
 
 Et ce qui est plus grand que le plus grand, est aussi plus grand que le plus petit, & ce qui est plus petit que le plus petit, est aussi plus petit que le plus grand.
 
@@ -30,7 +30,7 @@ hyp. | a 3|2 b,
 
 *[Figure]*
 
-1. a. f.
+### 1. a. f.
 
 Le changement des choses égales n'oste pas l'égalité.
 

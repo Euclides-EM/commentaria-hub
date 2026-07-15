@@ -6,7 +6,7 @@ hyp. | b 2|2 2c,
 
 *[Figure]*
 
-6. a. b.
+### 6. a. b.
 
 Le double du plus grand est plus grand que le double du plus petit.
 
@@ -17,7 +17,7 @@ hyp. | b 2|2 2d,
 
 *[Figure]*
 
-6. a. c.
+### 6. a. c.
 
 Et ce qui est double de l'vn des égaux, est aussi double de l'autre des égaux.
 
@@ -27,7 +27,7 @@ hyp. | a 2|2 2b,
 
 *[Figure]*
 
-6. a. d.
+### 6. a. d.
 
 Et si l'vn des égaux est double de quelque grandeur, l'autre des égaux sera aussi double de la mesme grandeur.
 
@@ -37,6 +37,6 @@ hyp. | a 2|2 2c,
 
 *[Figure]*
 
-7. a. 1.
+### 7. a. 1.
 
 Et les choses qui sont moitiés d'vne mesme, sont égales entr'elles.
