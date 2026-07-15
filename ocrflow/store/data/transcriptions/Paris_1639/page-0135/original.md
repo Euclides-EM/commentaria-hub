@@ -4,7 +4,7 @@ X.
 
 Semblables segments ou sections de cercles sont celles, qui reçoiuent angles égaux ; ou esquels les angles sont égaux entr'eux.
 
-(figure)
+*[Figure]*
 
 hyp. | ∠abc 2|2 ∠def,
 10.d.1 | *ſegm.* abc *ſml. ſegm* def.
@@ -15,7 +15,7 @@ THEOR. I. PROPOS. I.
 
 Trouuer le centre d'vn cercle donné.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -19,7 +19,7 @@ SCHOLIE.
 edbc *eſt* ⊙,
 ∩ad 2|2 ∩bc. α
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 
@@ -43,4 +43,4 @@ Aux cercles égaux, les lignes droictes égales ostent circonferences égales, s
 gabc & hdef *ſnt* ⊙ 2|2 đe. α
 ac 2|2 df. α
 
-(figure)
+*[Figure]*

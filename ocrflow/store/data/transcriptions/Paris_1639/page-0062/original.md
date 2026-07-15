@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -44,7 +44,7 @@ c *eſt* • D.
 
 8.& 4.1 | cg ⊥ ab.
 
-(figure)
+*[Figure]*
 
 THEOR. VI. PROPOS. XIII.
 

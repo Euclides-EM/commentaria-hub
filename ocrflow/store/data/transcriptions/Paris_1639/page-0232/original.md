@@ -4,7 +4,7 @@ THEOR. XV. PROPOS. XV.
 
 Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre respondent.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -28,7 +28,7 @@ THEOR. XVI. PROPOS. XVI.
 
 Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement proportionelles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

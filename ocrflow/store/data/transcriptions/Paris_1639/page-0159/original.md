@@ -10,7 +10,7 @@ THEOR. XXI. PROPOS. XXIII.
 
 Sur vne mesme ligne droicte, on ne pourra constituer deux segments de cercles semblables & inégaux, & de mesme part.
 
-(figure)
+*[Figure]*
 
 *Hypotheſe.*
 

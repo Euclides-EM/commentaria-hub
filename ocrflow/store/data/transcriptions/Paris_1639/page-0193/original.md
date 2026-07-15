@@ -20,7 +20,7 @@ gabcdef *eſt* ⊙ D.
 
 *inſcrire au* ⊙abdf, 6∠abcdef *equilat. & equiangle.*
 
-(figure)
+*[Figure]*
 
 *Conſtr.*
 

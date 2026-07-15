@@ -6,7 +6,7 @@
 62 deg. —— 20 toises —— 28 deg.   R. 10 5/8.
 994593   130103   967161   102671
 
-(figure)
+*[Figure]*
 
 & viendra 10 2671/4139, qui font enuiron 10 5/8 pour BC, à laquelle adioûtant EA ou son égal DB, on aura toute la hauteur DC.
 

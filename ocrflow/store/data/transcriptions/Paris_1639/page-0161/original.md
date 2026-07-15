@@ -4,7 +4,7 @@ PROBL. III. PROPOS. XXV.
 
 Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -32,7 +32,7 @@ THEOR. XXIII. PROPOS. XXVI.
 
 Aux cercles égaux, les angles égaux s'appuyent sur circonferences égales, soit qu'ils s'appuyent, estant constituez aux centres, ou aux circonferences.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

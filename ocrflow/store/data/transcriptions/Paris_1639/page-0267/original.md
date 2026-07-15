@@ -30,7 +30,7 @@ ab π ef 2|2 ef π cb.
 ▭ab, cb 2|2 □.ef,
 Ⅱ ▭ac 2|2 □eg.
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

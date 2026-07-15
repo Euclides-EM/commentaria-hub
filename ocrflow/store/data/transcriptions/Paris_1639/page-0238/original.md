@@ -24,7 +24,7 @@ THEOR. XX. PROPOS. XX.
 
 S'il y a trois grandeurs, & d'autres égales à icelles en nombre, lesquelles soient prises de deux en deux, & en mesme raison: Et qu'en raison égale la premiere soit plus grande que la troisiesme, aussi la quatriesme. sera plus grande que la sixiesme; & si égale, égale; & si plus petite, plus petite.
 
-(figure)
+*[Figure]*
 
 *Hypoth. commun.*
 

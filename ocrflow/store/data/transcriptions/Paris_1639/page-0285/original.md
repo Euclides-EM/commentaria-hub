@@ -11,7 +11,7 @@ PROBL. X. PROPOS. XXX.
 
 Coupper vne ligne droicte proposée & terminée, selon la moyenne & extréme raison.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

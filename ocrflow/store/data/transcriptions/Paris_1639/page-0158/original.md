@@ -8,7 +8,7 @@
 21.3 | ∠dbc 2|2 ∠dac, ∠bdc 2|2 ∠bac,
 2 concl. 1.a.f | ∠dcb + ∠dab 2|2 2┘.
 
-(figure)
+*[Figure]*
 
 *Corollaire 1.*
 
@@ -24,7 +24,7 @@ SCHOLIE.
 
 Si vn costé d'vn quadrilatere inscrit dans le cercle, est prolongé, l'angle externe sera égal à l'interne, qui est opposé à celuy qui est de suite à l'externe.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

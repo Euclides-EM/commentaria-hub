@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. II. -->
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -2,7 +2,7 @@
 
 SCHOLIE.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -27,7 +27,7 @@ THEOR. V. PROPOS. V.
 
 Si deux triangles ont les costez proportionaux, iceux triangles seront equiangles, & auront les angles égaux, sous lesquels les costez de mesme raison sont soustendus.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

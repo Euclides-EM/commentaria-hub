@@ -4,4 +4,4 @@ Ces six liures des Elements d'Euclide sont necessaires non seulement pour appren
 
 *Fin des ſix premiers liures des Elements d'Euclide.*
 
-(ornament)
+*[Ornament]*

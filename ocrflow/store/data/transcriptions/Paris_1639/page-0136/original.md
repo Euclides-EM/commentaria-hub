@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 eg *eſt commun.*
 
@@ -20,7 +20,7 @@ THEOR. I. PROPOS. II.
 
 Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra ; la ligne droicte conjointe à iceux poincts tombera dedans le cercle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -4,7 +4,7 @@ PROBL. I. PROPOS. XI.
 
 Coupper vne ligne droicte donnée de telle sorte, que le rectangle contenu sous la toute & l'vn des segments, soit égal au quarré de l'autre segment.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -15,7 +15,7 @@ S'il y a tant de grandeurs qu'on voudra equimultiples d'autant d'autres grandeur
 ab *multipl..* | e,
 cd *multipl..* | f. α
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtrer.*
 

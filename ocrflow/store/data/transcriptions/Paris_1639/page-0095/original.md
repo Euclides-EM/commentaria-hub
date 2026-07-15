@@ -10,7 +10,7 @@ THEOR. XXXII. PROPOS. XLIII.
 
 En tout parallelogramme, les complements des parallelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

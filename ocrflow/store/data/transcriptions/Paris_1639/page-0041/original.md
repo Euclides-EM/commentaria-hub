@@ -4,7 +4,7 @@ hyp. | a 2|2 2c,
 hyp. | b 2|2 2c,
 6.a.1. | a 2|2 b.
 
-(figure)
+*[Figure]*
 
 6. a. b.
 
@@ -15,7 +15,7 @@ hyp. | a 2|2 2c,
 hyp. | b 2|2 2d,
 6.a.b. | a 3|2 b.
 
-(figure)
+*[Figure]*
 
 6. a. c.
 
@@ -25,7 +25,7 @@ hyp. | b 2|2 c,
 hyp. | a 2|2 2b,
 6.a.c. | a 2|2 2c.
 
-(figure)
+*[Figure]*
 
 6. a. d.
 
@@ -35,7 +35,7 @@ hyp. | a 2|2 b,
 hyp. | a 2|2 2c,
 6.a.d. | b 2|2 2c.
 
-(figure)
+*[Figure]*
 
 7. a. 1.
 

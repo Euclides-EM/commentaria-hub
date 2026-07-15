@@ -6,7 +6,7 @@ Faisant les deux stations en C & D, il faut obseruer les quantitez des angles AC
 
 *Voyez, la premiere des 4 figures suiuantes.*
 
-(figure)
+*[Figure]*
 
 ∠CAD   CD   ∠CDA   CA
 41 deg. —— 38 toises —— 36 deg.   R. 34 46/1000.

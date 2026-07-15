@@ -4,7 +4,7 @@ XVII.
 
 Le diametre du cercle est vne ligne droicte menée par le centre, & terminée de part & d'autre à la circonference du cercle, laquelle diuise le cercle en deux également.
 
-(figure)
+*[Figure]*
 
 ABCD est vn cercle. / E est le centre du cercle. / AC est le diametre du cercle.
 
@@ -12,7 +12,7 @@ XVIII.
 
 Le demy-cercle est vne figure, contenuë sous le diametre, & sous la ligne retranchée de la circonference du cercle, comme ABC.
 
-(figure)
+*[Figure]*
 
 XIX.
 

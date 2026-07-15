@@ -11,7 +11,7 @@ ad~db Ⅱ af *eſt* fd,
 
 4▭.adb + □.fd 2|2 □.ab.
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

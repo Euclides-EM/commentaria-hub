@@ -8,7 +8,7 @@ PROBL. X. PROPOS. X.
 
 Descrire vn triangle isoscele, qui ait vn chacun des angles qui sont à la base, double de l'autre.
 
-(figure)
+*[Figure]*
 
 *Requis à faire.*
 

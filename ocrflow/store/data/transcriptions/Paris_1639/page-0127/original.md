@@ -4,7 +4,7 @@ quarrez des costez qui contiennent l'angle obtus, de deux fois le rectangle cont
 
 *Hypoth.*
 
-(figure)
+*[Figure]*
 
 ∠abc 3|2 ┘.
 

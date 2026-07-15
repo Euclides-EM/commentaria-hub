@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 
@@ -16,7 +16,7 @@ SCHOL. I.
 
 *Demonſtr.. compoſit.. raō. conuerſe.*
 
-(figure)
+*[Figure]*
 
 hyp. | ab π bc 2|2 de π ef.
 

@@ -12,7 +12,7 @@ Et de plus, vn petit Dictionnaire, contenant les etymologies & significations de
 
 Par PIERRE HERIGONE, *Professeur és Mathematiques.*
 
-(ornament)
+*[Ornament]*
 
 A PARIS. M. DC. XXXIX.
 

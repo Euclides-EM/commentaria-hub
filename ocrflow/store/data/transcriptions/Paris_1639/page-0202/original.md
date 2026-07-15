@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(ornament)
+*[Ornament]*
 
 LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.
 

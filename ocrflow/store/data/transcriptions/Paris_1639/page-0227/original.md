@@ -10,7 +10,7 @@ THEOR. XI. PROPOS. XI.
 
 Les raisons qui sont de mesme à vne mesme raison, sont aussi de mesme entr'elles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

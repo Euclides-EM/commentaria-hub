@@ -12,7 +12,7 @@ a π b 2|2 c π d,
 e *multipl..* a 2|2 f *multipl..* c,
 g *multipl..* b 2|2 h *multipl..* d.
 
-(figure)
+*[Figure]*
 
 *Requis à demonſtrer.*
 

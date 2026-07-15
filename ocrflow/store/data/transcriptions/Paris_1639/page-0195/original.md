@@ -12,7 +12,7 @@ aebc *eſt* ⊙ D.
 
 *inſcrire au* ⊙aebc *le* 15∠ *equilat. & equiangle.*
 
-(figure)
+*[Figure]*
 
 *Conſtruction.*
 

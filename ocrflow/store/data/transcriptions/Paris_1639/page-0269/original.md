@@ -6,7 +6,7 @@ THEOR. XIII. PROPOS. XIX.
 
 Les triangles semblables sont entr'eux en raison doublée de leurs costez de mesme raison.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

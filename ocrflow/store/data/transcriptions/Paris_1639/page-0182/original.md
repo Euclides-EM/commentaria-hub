@@ -4,7 +4,7 @@
 
 *inſcrire au* ⊙abcd *le* □abcd.
 
-(figure)
+*[Figure]*
 
 *Conſtruction.*
 

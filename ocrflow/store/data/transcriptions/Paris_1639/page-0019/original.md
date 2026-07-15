@@ -20,6 +20,6 @@ IV.
 
 La ligne droicte est, celle qui est également estenduë entre ses poincts.
 
-(figure)
+*[Figure]*
 
 Les Mathematiciens considerent trois sortes de lignes, la droite comme AB, la circulaire ou courbe, comme CD, & la mixte, qui est composée de l'vne & de l'autre. Euclide descrit en ce lieu la droite, en laquelle il n'y a rien de courbe, & n'est point plus abaissé

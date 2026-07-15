@@ -1,18 +1,18 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 XXX.
 
 Le quarré long ou rectangle est, vne figure qui a les angles droicts, mais qui n'est pas equilateral, comme ABCD.
 
-(figure)
+*[Figure]*
 
 XXXI.
 
 Rhombe est vne figure equilatere, mais n'est pas rectangle, comme A.
 
-(figure)
+*[Figure]*
 
 XXXII.
 

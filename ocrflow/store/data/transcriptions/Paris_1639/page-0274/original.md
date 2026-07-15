@@ -21,7 +21,7 @@ arbitr. | ad & db *ſnt part..* ab.
 11.1 | de ⊥ ab,
 1.p.1 | ae & be *ſnt* ——.
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 

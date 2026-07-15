@@ -12,7 +12,7 @@ ab & ac *touchent le* ⊙.
 
 ab 2|2 ac.
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 

@@ -4,7 +4,7 @@ D'où s'ensuit, que AD est la toute : BD la difference des parties CD & AC : & q
 
 *Hypoth.*
 
-(figure)
+*[Figure]*
 
 ad *eſt* ——,
 ac 3|2 cd,

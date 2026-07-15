@@ -4,7 +4,7 @@ PROBL. X. PROPOS. XXXI.
 
 D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donnée.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -30,7 +30,7 @@ SCHOLIE.
 
 Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle, mener vne ligne droicte qui auec la ligne donnée, face vn angle égal à vn angle rectiligne donné,
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

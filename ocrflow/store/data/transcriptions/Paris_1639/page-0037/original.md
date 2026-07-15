@@ -8,7 +8,7 @@ hyp. | b 2|2 c,
 hyp. | a 3|2 b,
 1.a.c. | a 3|2 c.
 
-(figure)
+*[Figure]*
 
 1. a. d.
 
@@ -18,7 +18,7 @@ hyp. | a 2|2 b,
 hyp. | a 3|2 c,
 1.a.d. | b 3|2 c.
 
-(figure)
+*[Figure]*
 
 1. a. e.
 
@@ -28,7 +28,7 @@ hyp. | b 3|2 c,
 hyp. | a 3|2 b,
 1. a. 1. | a 3|2 c.
 
-(figure)
+*[Figure]*
 
 1. a. f.
 
@@ -38,4 +38,4 @@ hyp. | a + c 2|2 b + d,
 hyp. | c 2|2 d.
 1.a.f. | a + d 2|2 b + c.
 
-(figure)
+*[Figure]*

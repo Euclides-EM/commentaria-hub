@@ -11,7 +11,7 @@ Si la premiere est autant multiple de la seconde, que la troisiesme l'est de la 
 ab *multipl..* c 2|2 de *multipl..* f, α
 bg *multipl..* c 2|2 eh *multipl..* f, β
 
-(figure)
+*[Figure]*
 
 *Requis à demonſtr.*
 

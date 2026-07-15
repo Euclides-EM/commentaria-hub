@@ -4,7 +4,7 @@
 
 *circonſcrire au* ⊙abc *le* □fhig.
 
-(figure)
+*[Figure]*
 
 *Conſtruction.*
 
@@ -30,7 +30,7 @@ PROBL. VIII. PROPOS. VIII.
 
 Dans vn quarré donné, inscrire vn cercle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

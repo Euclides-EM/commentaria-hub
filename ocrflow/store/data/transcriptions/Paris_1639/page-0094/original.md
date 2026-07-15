@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -26,7 +26,7 @@ PROBL. XI. PROPOS. XLII.
 
 Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donné.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

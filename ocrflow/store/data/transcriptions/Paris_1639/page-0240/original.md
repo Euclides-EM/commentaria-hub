@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Hypoth. commun.*
 

@@ -2,7 +2,7 @@
 
 *Demonſtration.*
 
-(figure)
+*[Figure]*
 
 β.29.1 | ∠a, ∠hdb, ∠ieb *ſnt* 2|2 đe.
 α.cōſtr. | ∠a *eſt* ┘,

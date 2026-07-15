@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Req. à faire.*
 
@@ -32,7 +32,7 @@ THEOR. XVI. PROPOS. XVIII.
 
 Si quelque ligne droicte touche vn cercle, & du centre à l'attouchement on mene vne ligne droite, elle sera perpendiculaire à la touchante.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

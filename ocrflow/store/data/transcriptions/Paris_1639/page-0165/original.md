@@ -31,7 +31,7 @@ Au cercle, l'angle qui est au demy cercle est droict: mais celuy qui est au plus
 dabf *eſt* ⊙,
 adc *eſt diametre*,
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

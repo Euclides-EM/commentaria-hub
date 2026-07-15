@@ -10,7 +10,7 @@ Les polygones semblables se diuisent en nombre égal de triangles semblables, & 
 
 abcde *ſml.* fghiκ, α
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 

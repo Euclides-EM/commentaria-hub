@@ -23,7 +23,7 @@ THEOR. X. PROPOS. XV.
 
 Des triangles égaux, & qui ont vn angle égal à vn angle, les costez qui sont autour des angles égaux sont reciproques: Et les triangles qui ont vn angle égal à vn angle, & les costez qui sont autour des angles égaux reciproques sont égaux.
 
-(figure)
+*[Figure]*
 
 *Hypoth. commun.*
 

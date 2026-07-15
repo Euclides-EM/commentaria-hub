@@ -19,7 +19,7 @@ D'icy il s'ensuit, que l'angle du pentagone equilateral & equiangle, est les tro
 
 *Conſtruction de la practique.*
 
-(figure)
+*[Figure]*
 
 hyp. | cadbn *eſt* ⊙,
 1.p.1 | ab *eſt diametre*,

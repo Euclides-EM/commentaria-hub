@@ -4,7 +4,7 @@ THEOR. VI. PROPOS. VI.
 
 Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adjouste quelque ligne droicte directement, le rectangle contenu sous la toute auec l'adjoustée, & l'adjoustée, auec le quarré de la moitié, est égal au quatré descrit de la ligne composée de la moitié, & de l'adjoustée comme d'vne.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -29,7 +29,7 @@ ad *touche le* ⊙.
 
 ▭.bae 2|2 ▭.caf.
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 

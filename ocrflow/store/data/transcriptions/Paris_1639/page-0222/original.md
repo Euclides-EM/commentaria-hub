@@ -2,7 +2,7 @@
 
 le reste sera autant multiple du reste, comme la toute l'est de la toute.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

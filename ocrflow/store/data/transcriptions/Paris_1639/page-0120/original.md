@@ -4,7 +4,7 @@ THEOR. IX. PROPOS. IX.
 
 Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales: les quarrez des segments inégaux de la toute, sont doubles du quarré de la moitié, & du quarré de la section du milieu.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

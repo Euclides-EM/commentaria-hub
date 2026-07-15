@@ -33,7 +33,7 @@ THEOR. XIII. PROPOS. XIV.
 
 Au cercle les lignes droictes égales sont également distantes du centre: & celles qui sont également distantes du centre, sont égales entr'elles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

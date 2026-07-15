@@ -2,7 +2,7 @@
 
 *Explication par nombres.*
 
-(figure)
+*[Figure]*
 
 hyp. | ab *eſt* 10,
 ac Ⅱ ce *eſt* 5. α
@@ -23,7 +23,7 @@ THEOR. X. PROPOS. X.
 
 Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adjouste directement quelque ligne droicte : les deux quarrez ensemble de la toute auec l'adjoustée, & de l'adjoustée, sont doubles, du quarré descrit de la moitié, & du quarré de la ligne composée de la moitié, & de l'adjoustée, comme d'vne.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

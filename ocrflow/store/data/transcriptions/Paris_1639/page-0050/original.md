@@ -6,7 +6,7 @@ PROBL. II. PROPOS. II.
 
 A vn poinct donné, poser vne ligne droicte, égale à vne ligne droicte donnée.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

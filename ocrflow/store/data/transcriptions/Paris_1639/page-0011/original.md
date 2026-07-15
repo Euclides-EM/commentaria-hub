@@ -1,4 +1,4 @@
-(ornament)
+*[Ornament]*
 
 DE LA DIVISION
 

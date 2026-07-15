@@ -11,11 +11,11 @@ Si vne ligne droicte est couppée en deux parties inégales, le rectangle conten
 ad *eſt* ——: cd *eſt* 3|2 ac:
 cb *eſt* 2|2 ac: bd *eſt excez.*
 
-(figure)
+*[Figure]*
 
 D'où il appert, que AI est le rectangle contenu sous la toute AD & BD qui est la difference des parties AC & CD : que KG est le quarré de la moindre partie AC, ou de son égale CB : & que CE est le quarré de la plus grande partie CD : & par consequent ce scholie ne differe de la 6. proposition que de nom : & se pouuoit aussi demonstrer ainsi.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

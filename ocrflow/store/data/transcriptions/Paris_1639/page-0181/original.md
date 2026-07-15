@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. IV. -->
 
-(figure)
+*[Figure]*
 
 3.p.1 | fa *eſt* ——,
 ſymp. | ⊙fabc *eſt le req.*

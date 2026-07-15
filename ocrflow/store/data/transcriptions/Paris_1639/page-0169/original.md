@@ -2,7 +2,7 @@
 
 ties de l'vne, est égal au rectangle contenu sous les deux parties de l'autre.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

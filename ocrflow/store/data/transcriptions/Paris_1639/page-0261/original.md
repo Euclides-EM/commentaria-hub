@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. VI. -->
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -28,7 +28,7 @@ SCHOLIE.
 
 Coupper vne ligne droicte finie en tant de parties égales qu'on voudra.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

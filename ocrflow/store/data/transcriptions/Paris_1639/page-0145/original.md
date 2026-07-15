@@ -14,7 +14,7 @@ THEOR. XI. PROPOS. XII.
 
 Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'vn centre à l'autre, passera par l'attouchement.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -36,7 +36,7 @@ concl. 21.a.1 | acb *eſt* ——.
 
 Pelletier demonstre cette 12. proposition ainsi.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

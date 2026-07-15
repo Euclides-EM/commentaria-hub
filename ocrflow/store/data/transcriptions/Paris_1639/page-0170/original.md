@@ -20,7 +20,7 @@ ebc *eſt* ⊙, d *eſt* • D. db *touche le* ⊙.
 
 ▭.adc 2|2 □.db.
 
-(figure)
+*[Figure]*
 
 *Demonſtr.du 1.cas.*
 

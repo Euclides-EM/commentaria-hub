@@ -9,7 +9,7 @@ PROBL. III. PROPOS. XI.
 
 A deux lignes droictes données, trouuer la troisiesme proportionelle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -8,7 +8,7 @@
 
 *Explication par nombres.*
 
-(figure)
+*[Figure]*
 
 hyp. | cadp *eſt* ⊙,
 1.c.15.4 | bp 2|2 bc *eſt* √.6∠,

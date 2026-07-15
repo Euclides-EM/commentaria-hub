@@ -12,7 +12,7 @@ Cross-references of the form `t. N. p. NNN.` (and `alg.` for the algebra) cite t
 - Proposition headings are plain lines as printed (`THEOR. I. PROPOS. I.`, `PROBL. II. PROPOS. XIV.`), followed by the French enunciation.
 - Proof-section keywords in italics as printed: `*Hypoth.*`, `*Constr.*`, `*Preparation.*`, `*Req. à demonstr.*`, `*Demonstr.*`, `SCHOLIE.` lines.
 - Symbolic proof lines are rendered `margin citation | body`, one printed line per transcript line, e.g. `α.47.1 | □.ac 2|2 □.ad + □.dc,`. Brace-grouped multi-line statements and stacked double margin citations are flattened onto one line with ` / ` between the printed lines (e.g. `α | □ak, □kf, / ſ.46.1 | □ci, □hg, *ſnt* 2|2 đe.`).
-- Diagrams are rendered `(figure)` (label letters are not transcribed); printer's ornaments `(ornament)`; blank pages `(blank page)`.
+- Diagrams are rendered `*[Figure]*` (label letters are not transcribed); printer's ornaments `*[Ornament]*`; blank pages `*[blank page]*`.
 - Printed tables (trigonometric examples, fortification calculations, the Maurolicus hour table on PDF 457, the errata leaf) are rendered as Markdown tables with the printed column heads.
 - Fractions are transcribed `N M/D` (`5 1/2`, `84 944/1000`); sexagesimal/decimal primes kept (`36 deg. 37″.`, `57009792″`); the rule-of-three chains and logarithm columns follow the printed line breaks.
 - Italic type is wrapped in `*asterisks*`. In the Etymologie each entry is one paragraph; the Greek/Latin etyma printed in italics are asterisked, roman glosses are not, and the closing tome/page citation is set off with a double space (`...vne mesure.  t. 3. p. 99.`).

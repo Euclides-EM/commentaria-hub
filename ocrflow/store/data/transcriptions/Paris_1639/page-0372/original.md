@@ -19,7 +19,7 @@ Pour trouuer le costé DC par logarithme, l'operation se fera ainsi :
 
 Estant donnez deux costez & l'angle compris d'iceux, trouuer les deux autres angles & le troisiesme costé.
 
-(figure)
+*[Figure]*
 
 20   20   180
 12   12   117

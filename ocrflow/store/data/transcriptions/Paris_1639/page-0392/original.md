@@ -4,7 +4,7 @@ par tout le diametre, & du produict en prenant le quart : ce faisant on trouuera
 
 *Trouuer l'aire d'vn secteur de cercle.*
 
-(figure)
+*[Figure]*
 
 Soit le secteur proposé AECDA, il faut mesurer le costé AE & la circonference ADC, & les multiplier l'vn par l'autre, & du produict en prendre la moitié, qui sera le contenu du secteur AECDA, ce faisant on trouuera que si AE vaut 12, & la circonference ADC 23, que le secteur AECDA vaudra 138. Car 23 estant multiplié par 12 fait 276, dont la moitié est 138.
 

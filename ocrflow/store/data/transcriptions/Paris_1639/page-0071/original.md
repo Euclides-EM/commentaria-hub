@@ -12,7 +12,7 @@ THEOR. XII. PROPOS. XIX.
 
 De tout triangle, le plus grand angle est soustenu du plus grand costé.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -40,7 +40,7 @@ Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne li
 
 ad ⊥ bc,
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 

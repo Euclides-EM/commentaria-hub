@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtrer.*
 
@@ -44,4 +44,4 @@ De cette cinquiesme proposition il s'ensuit que tout triangle equilateral est au
 
 abc *eſt* △ *equilat.*
 
-(figure)
+*[Figure]*

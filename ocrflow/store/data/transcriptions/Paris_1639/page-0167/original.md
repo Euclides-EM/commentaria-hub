@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-(figure)
+*[Figure]*
 
 ∠ecb 2|2 ∠edc,
 ∠eca 2|2 ∠efc.
@@ -30,7 +30,7 @@ PROBL. V. PROPOS. XXXIII
 
 Sur vne ligne droicte donnée, descrire vn segment de cercle, lequel reçoiue vn angle égal à vn angle rectiligne donné.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

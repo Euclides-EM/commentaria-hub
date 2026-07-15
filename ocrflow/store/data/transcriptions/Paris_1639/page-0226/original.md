@@ -2,7 +2,7 @@
 
 ausquelles vne mesme grandeur a mesme raison, sont aussi égales entr'elles.
 
-(figure)
+*[Figure]*
 
 *Hypoth. 1.*
 

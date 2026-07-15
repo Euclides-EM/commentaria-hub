@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 
@@ -16,7 +16,7 @@ PROBL. IX. PROPOS. XXIII.
 
 A vne ligne droicte donnée, & à vn poinct donné en icelle, faire vn angle rectiligne égal à vn angle rectiligne donné.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

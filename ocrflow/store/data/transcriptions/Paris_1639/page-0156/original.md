@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Hypotheſe.*
 
@@ -38,4 +38,4 @@ THEOR. XIX. PROPOS. XXI.
 
 Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.
 
-(figure)
+*[Figure]*

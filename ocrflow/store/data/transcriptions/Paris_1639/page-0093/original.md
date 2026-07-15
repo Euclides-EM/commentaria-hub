@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 
@@ -20,7 +20,7 @@ THEOR. XXX. PROPOS. XL.
 
 Les triangles égaux constituez sur bases égales, & de mesme part, sont entre mesmes paralleles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

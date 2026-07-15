@@ -2,7 +2,7 @@
 
 grande raison à la seconde, que la cinquiesme à la sixiesme.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

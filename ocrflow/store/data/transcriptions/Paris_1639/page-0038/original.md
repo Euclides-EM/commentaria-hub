@@ -9,7 +9,7 @@ hyp. | af *eſt* □.ab,
 hyp. | cg *eſt* □.cd.
 1.a.g. | □.ab 2|2 □.cd.
 
-(figure)
+*[Figure]*
 
 C'est à dire, que si le quarré AF est égal au quarré CG, & que AF soit le quarré de AB, & CG le quarré de CD : la consequence sera, que le quarré de AB est égal au quarré de CD.
 
@@ -21,7 +21,7 @@ hyp. | ab 2|2 cd,
 hyp. | bf 2|2 dg,
 2.a.1. | af 2|2 cg.
 
-(figure)
+*[Figure]*
 
 3. a. 1.
 
@@ -31,7 +31,7 @@ hyp. | ab 2|2 cd,
 hyp. | ae 2|2 cf,
 3.a.1. | eb 2|2 fd.
 
-(figure)
+*[Figure]*
 
 3. a. b.
 

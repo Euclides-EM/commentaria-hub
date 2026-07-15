@@ -7,7 +7,7 @@ gne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux dr
 cbd *eſt* ——,
 ab *eſt* ——,
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 

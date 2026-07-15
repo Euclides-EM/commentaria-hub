@@ -5,7 +5,7 @@
 ab *multipl..* e 2|2 cd *multipl..* f.
 ag *multipl..* e 2|2 ch *multipl..* f.
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtrer.*
 
@@ -26,7 +26,7 @@ THEOR. VII. PROPOS. VII.
 
 Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
 
-(figure)
+*[Figure]*
 
 hyp. | a 2|2 b.
 

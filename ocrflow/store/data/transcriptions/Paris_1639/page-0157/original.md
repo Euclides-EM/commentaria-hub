@@ -32,7 +32,7 @@ THEOR. XX. PROPOS. XXII.
 
 Les figures de quatre costez inscrites au cercle, ont les angles opposez égaux à deux angles droits.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

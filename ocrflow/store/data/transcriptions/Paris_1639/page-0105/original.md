@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. II. -->
 
-(figure)
+*[Figure]*
 
 hyp. | fhik *eſt* ◊,
 hyp. | hk *eſt diamet.*
@@ -19,7 +19,7 @@ S'il y a deux lignes droictes, & que l'vne d'icelles soit couppée en tant de pa
 af & ab *ſont données.*
 ad, de, eb, *ſont parties de* ab.
 
-(figure)
+*[Figure]*
 
 *Requis à demonſtr.*
 

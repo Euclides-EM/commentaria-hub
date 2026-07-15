@@ -6,6 +6,6 @@ En la page 717 du 5 tome, nous auons mis vne table pour descrire l'arc diurne du
 
 *Des quadrans Antiques.* page 795.
 
-(figure)
+*[Figure]*
 
 Les lignes horaires des quadrans antiques couppent la ligne equinoctiale aux mesmes poincts que les lignes horaires astronomiques.  Partant si en la ligne equinoctiale HL, on trouue les poincts des lignes horaires astronomiques, & en l'arc PR du tropique de Capricorne ceux des lignes horaires antiques du plus court iour de l'année,

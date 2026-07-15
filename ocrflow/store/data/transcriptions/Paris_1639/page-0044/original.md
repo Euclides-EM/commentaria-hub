@@ -8,7 +8,7 @@ hyp. | ∠a *eſt* ┘,
 hyp. | ∠b *eſt* ┘,
 12.a.1 | ∠a 2|2 ∠b.
 
-(figure)
+*[Figure]*
 
 12. a. b.
 
@@ -18,7 +18,7 @@ hyp. | a, b, c, *ſnt* ∠; 2|2 đe.
 hyp. | ∠a *eſt* ┘,
 12.a.b. | ∠b & ∠c *ſnt* ┘.
 
-(figure)
+*[Figure]*
 
 *Explication des notes.*
 
@@ -35,4 +35,4 @@ Et si sur deux lignes droictes tombe vne autre ligne droicte, faisant les angles
 hyp. | ∠bad + ∠abc *ſnt* 2|3 2┘.
 13.a.1 | ad & bc *ñ ſnt* == đe.
 
-(figure)
+*[Figure]*

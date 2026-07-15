@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 
@@ -21,7 +21,7 @@ SCHOL. II.
 
 De ce scholie est manifeste la demonstration d'vne methode plus brieue de mener vne ligne droicte, par vn poinct donné, parallele à vne ligne droicte donnée.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

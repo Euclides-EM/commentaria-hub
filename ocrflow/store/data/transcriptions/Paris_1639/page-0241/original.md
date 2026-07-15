@@ -28,7 +28,7 @@ hyp. | b π c 2|2 e π f,
 hyp. | c π n 2|2 f π o,
 2 concl. d. α | a π n 2|2 d π o.
 
-(figure)
+*[Figure]*
 
 THEOR. XXIII. PROPOS. XXIII.
 

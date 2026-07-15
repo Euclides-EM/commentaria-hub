@@ -7,7 +7,7 @@ ab 2|2 de,
 ac 2|2 df,
 bc 2|2 ef.
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 

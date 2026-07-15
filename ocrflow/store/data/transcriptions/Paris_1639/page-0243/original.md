@@ -24,7 +24,7 @@ SCHOL. III.
 
 Des raisons égales les mesmes parties sont égales entr'elles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

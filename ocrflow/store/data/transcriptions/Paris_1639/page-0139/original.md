@@ -18,7 +18,7 @@ THEOR. IV. PROPOS. V.
 
 Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -4,7 +4,7 @@ THEOR. XVIII. PROPOS. XXVII.
 
 Si vne ligne droicte tombante sur deux autres lignes droictes, fait les angles alternes égaux entr'eux : icelles lignes droictes seront paralleles entr'elles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

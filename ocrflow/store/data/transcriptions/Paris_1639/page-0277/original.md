@@ -4,7 +4,7 @@
 
 ◊eg, ◊hf, ◊bd *ſnt ſml.* đe.
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 
@@ -31,4 +31,4 @@ abedc & f *ſnt* D.
 
 *rectili.* p *ſml. rectili.* abedc, & 2|2 *rectili.* f.
 
-(figure)
+*[Figure]*

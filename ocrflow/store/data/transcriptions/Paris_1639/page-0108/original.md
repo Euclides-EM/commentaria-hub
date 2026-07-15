@@ -5,7 +5,7 @@
 ab *eſt* ——,
 ac & cb *ſnt parties de* ab.
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 

@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 
@@ -13,7 +13,7 @@ THEOR. XXVIII. PROPOS. XXXVIII.
 
 Les triangles constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux..
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -14,7 +14,7 @@ SCHOLIE I.
 
 Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles opposez au sommet égaux entr'eux : icelles lignes droictes se rencontreront directement.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

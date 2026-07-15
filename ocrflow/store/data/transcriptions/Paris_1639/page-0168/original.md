@@ -9,13 +9,13 @@ c.16.3 | had *touche le* ⊙,
 conſtr. | ∠c 2|2 ∠bad,
 concl. 1.a.1 | ∠aib 2|2 ∠c.
 
-(figure)
+*[Figure]*
 
 PROBL. VI. PROPOS. XXXXIV.
 
 D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn angle rectiligne donné.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

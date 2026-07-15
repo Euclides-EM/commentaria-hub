@@ -14,7 +14,7 @@ PROBL. XIV. PROPOS. XLVI.
 
 D'vne ligne droicte donnée, descrire vn quarré.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

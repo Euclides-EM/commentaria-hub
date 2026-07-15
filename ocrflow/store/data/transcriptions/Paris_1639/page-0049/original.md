@@ -4,7 +4,7 @@ PROBLEME I. PROPOSITION I.
 
 SVr vne ligne droicte donnée & terminée, descrire vn triangle equilateral.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

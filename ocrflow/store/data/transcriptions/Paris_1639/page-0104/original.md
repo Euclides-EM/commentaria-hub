@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 
@@ -21,7 +21,7 @@ LEMME.
 
 Descrire vn rectangle qui soit contenu sous deux lignes droictes données.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

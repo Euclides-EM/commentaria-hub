@@ -14,7 +14,7 @@ Cette proposition est la conuerse de la precedente, car en icelle on a demonstr�
 
 ∠abc + ∠abd *ſnt* 2|2 2┘.
 
-(figure)
+*[Figure]*
 
 *Req. à demonſt.*
 

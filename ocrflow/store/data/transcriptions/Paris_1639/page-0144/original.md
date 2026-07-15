@@ -4,7 +4,7 @@ THEOR. IX. PROPOS. X.
 
 Vn cercle ne couppe pas vn cercle à plus de deux poincts.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -28,7 +28,7 @@ THEOR. X. PROPOS. XI.
 
 Si deux cercles se touchent l'vn l'autre au dedans, & qu'on prenne les centres d'iceux, la ligne droicte conioignant iceux centres, estant prolongée, tombera à l'attouchement des cercles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

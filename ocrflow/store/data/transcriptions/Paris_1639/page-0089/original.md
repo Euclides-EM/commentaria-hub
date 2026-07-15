@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -33,7 +33,7 @@ abdf *eſt eſt rectili. equilat. & equiang.* α
 
 ab == fe, bc == gf, &c.
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

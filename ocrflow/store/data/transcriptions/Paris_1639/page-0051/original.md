@@ -4,7 +4,7 @@ PROBL. III. PROPOS. III.
 
 Deux lignes droictes inégales estans données, oster de la plus grande vne ligne droicte égale à la plus petite.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

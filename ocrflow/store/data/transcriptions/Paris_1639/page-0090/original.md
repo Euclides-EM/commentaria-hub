@@ -10,7 +10,7 @@ THEOR. XXV. PROPOS. XXXV.
 
 Les parallelogrammes constituez sur vne mesme base, & entre mesme paralleles, sont égaux entr'eux.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

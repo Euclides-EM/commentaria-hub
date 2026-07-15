@@ -4,7 +4,7 @@ THEOR. XV. PROPOS. XXI.
 
 Les rectilignes semblables à vne mesme figure rectiligne, sont aussi semblables entr'elles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

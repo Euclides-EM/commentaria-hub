@@ -27,7 +27,7 @@ THEOR. XVII. PROPOS. XXIII.
 
 Les parallelogrammes equiangles, son l'vn à l'autre en raison composée de celle de leurs costez.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

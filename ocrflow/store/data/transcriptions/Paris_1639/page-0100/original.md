@@ -4,7 +4,7 @@ SCHOLIE.
 
 Deux costez d'vn triangle rectangle estant cognus, trouuer le troisiesme costé.
 
-(figure)
+*[Figure]*
 
 *Exemple 1.*
 

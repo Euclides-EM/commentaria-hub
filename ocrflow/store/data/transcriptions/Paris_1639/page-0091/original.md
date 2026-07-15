@@ -4,7 +4,7 @@ THEOR. XXVI. PROPOS. XXXVI.
 
 Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -35,7 +35,7 @@ THEOR. XXVII. PROPOS. XXXVII.
 
 Les triangles constituez sur mesme base, & entre mesmes paralleles, sont égaux entr'eux.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

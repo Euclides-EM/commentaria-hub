@@ -5,7 +5,7 @@
 raō.. ab π d 3|2 raō.. c π d,
 raō.. d π c 3|2 raō.. d π ab.
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

@@ -26,7 +26,7 @@ abcde *eſt* 5∠ *equilat. & equiangle.*
 3.p.1 | fabcde *eſt* ⊙,
 ſymp. | ⊙abcde *eſt le requis.*
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

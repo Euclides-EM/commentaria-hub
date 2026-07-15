@@ -27,7 +27,7 @@ THEOR. VIII. PROPOS. IX.
 
 Si au dedans du cercle on prend quelque poinct, & d'iceluy poinct tombent plus de deux lignes droictes égales à la circonference: le poinct pris est le centre du cercle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

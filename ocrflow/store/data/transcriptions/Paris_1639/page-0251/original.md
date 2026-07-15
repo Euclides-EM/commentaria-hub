@@ -6,7 +6,7 @@ THEOR. I. PROPOS. I.
 
 Les triangles & les parallelogrammes qui ont mesme hauteur, sont entr'eux comme leurs bases.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

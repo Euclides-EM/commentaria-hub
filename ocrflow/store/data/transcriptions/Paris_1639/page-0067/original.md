@@ -5,7 +5,7 @@
 ∠aed 2|2 ∠ceb, α
 ∠aec 2|2 ∠deb. α
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtr.*
 

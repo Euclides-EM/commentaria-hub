@@ -17,7 +17,7 @@ abcde *eſt equilat.*
 
 abcde *eſt equiangle.*
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 
@@ -29,7 +29,7 @@ concl. 27.3 | ∠;abc, bcd, cde, dea, eab *ſnt* 2|2 đe.
 fghi *eſt vn rhomhe*,
 ∠fgh 3|2 ∠gfi.
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

@@ -2,7 +2,7 @@
 
 costez chacun au sien, & la base plus grande que la base ; ils auront aussi l'angle contenu d'iceux plus grand que l'angle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

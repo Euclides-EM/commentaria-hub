@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. VI. -->
 
-(figure)
+*[Figure]*
 
 ab == dc : ac == de,
 
@@ -26,4 +26,4 @@ THEOR. XXIII. PROPOS. XXXIII.
 
 Aux cercles égaux, les angles ont mesme raison entr'eux, que les circonferences sur lesquelles ils sont appuyez, soit qu'ils soient appuyez estant constituez aux centres ou aux circonferences : les secteurs sont aussi de mesme entr'eux, d'autant qu'ils sont constituez au centre.
 
-(figure)
+*[Figure]*

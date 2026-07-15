@@ -4,7 +4,7 @@ hyp. | a 2|2 ½c.
 hyp. | b 2|2 ½c,
 7.a.1. | a 2|2 b.
 
-(figure)
+*[Figure]*
 
 7. a. b.
 
@@ -15,7 +15,7 @@ hyp. | a 2|2 ½c,
 hyp. | b 2|2 ½d,
 7.a.b. | a 3|2 b.
 
-(figure)
+*[Figure]*
 
 7. a. c.
 
@@ -25,7 +25,7 @@ hyp. | b 2|2 c,
 hyp. | a 2|2 ½b,
 7.a.c. | a 2|2 ½c.
 
-(figure)
+*[Figure]*
 
 7. a. d.
 
@@ -35,6 +35,6 @@ hyp. | a 2|2 b,
 hyp. | a 2|2 ½c,
 7.a.d. | b 2|2 ½c.
 
-(figure)
+*[Figure]*
 
 Aux sixiesme & septiesmes axiomes, les choses qui ont esté dites du double, & de la moitié, se peuuent aussi entendre du triple, quadruple, quintuple, &c. & des tierces, quartes, quintes, &c.

@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-(figure)
+*[Figure]*
 
 *Explication des notes.*
 

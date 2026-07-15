@@ -1,4 +1,4 @@
-(ornament)
+*[Ornament]*
 
 BRIEF TRAICTÉ DE L'ARITHMETIQVE PRACTIQVE.
 

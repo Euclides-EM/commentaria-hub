@@ -15,7 +15,7 @@ ae & eb *ſont parties de* ab.
 1.p.1 | ac *eſt diametre*,
 31.1 | ef == ad, hig == ab.
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 
@@ -35,4 +35,4 @@ ab *eſt* ——,
 ad 3|2 db,
 ad ~ db 2|2 fd.
 
-(figure)
+*[Figure]*

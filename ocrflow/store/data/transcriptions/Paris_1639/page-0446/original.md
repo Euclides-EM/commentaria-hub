@@ -10,6 +10,6 @@ Propos. 4. pag. 757.
 
 *Descrire vn quadrant polaire, c'est à dire, sur vn plan lequel passant par les poles du monde, couppe le meridien à angles droicts.*
 
-(figure)
+*[Figure]*
 
 Sur le plan proposé ayant tiré la meridienne CA, & DN, qui le couppe à angles droicts en T, prenez TC pour la longueur du stile de telle grandeur que vous voudrez, puis descriuez le cercle CBG

@@ -17,7 +17,7 @@ THEOR. X. PROPOS. XVII.
 
 De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

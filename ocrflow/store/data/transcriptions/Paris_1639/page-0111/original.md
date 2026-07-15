@@ -10,7 +10,7 @@ THEOR. V. PROPOS. V.
 
 Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales, le rectangle contenu des parties inégales de la toute, auec le quarré de la section du milieu, est égal au quarré de la moitié de la toute.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

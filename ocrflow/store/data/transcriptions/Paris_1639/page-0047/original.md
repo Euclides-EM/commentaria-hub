@@ -11,13 +11,13 @@ Le tout est égal à toutes ses parties prises ensemble.
 hyp. | ac, cd, db, *ſont parties de* ab.
 19.a.1 | ab 2|2 ac + cd + db.
 
-(figure)
+*[Figure]*
 
 19. a. b.
 
 Si les parties d'vn tout sont égales entr'elles, le tout sera autant multiple de chaque partie : qu'il y aura de parties : & chaque partie sera denommée du nombre des parties.
 
-(figure)
+*[Figure]*
 
 hyp. | ab, bc, cd, de *ſont* 2|2 đe.
 19.a.b. | AE *eſt quadruple de* AB.
@@ -31,4 +31,4 @@ hyp. | ab 2|2 2cd,
 hyp. | ae 2|2 2cf,
 20.a.1 | eb 2|2 2fd.
 
-(figure)
+*[Figure]*

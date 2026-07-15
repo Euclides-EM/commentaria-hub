@@ -15,7 +15,7 @@ ne *eſt* —— D.
 d *eſt* • D.
 a *eſt* ∠ D.
 
-(figure)
+*[Figure]*
 
 *Conſtr.*
 

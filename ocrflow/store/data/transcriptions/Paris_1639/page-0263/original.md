@@ -10,7 +10,7 @@
 31.1 | fh == eg,
 ſymp. | gh *eſt le requis.*
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 
@@ -20,7 +20,7 @@ PROBL. V. PROPOS. XIII.
 
 A deux lignes droictes données, trouuer la moyenne proportionelle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

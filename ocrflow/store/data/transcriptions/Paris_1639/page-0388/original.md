@@ -2,7 +2,7 @@
 
 8 vient 7056, dont la racine quarrée est 84, pour le contenu du triangle ABC. Que s'il y a fraction, on operera par la dixme.
 
-(figure)
+*[Figure]*
 
 21
 15 —— 6
@@ -26,7 +26,7 @@
 
 *Trouuer l'aire d'vn quadrilatere qui a deux costez opposez paralleles.*
 
-(figure)
+*[Figure]*
 
 Soit à trouuer le contenu du quadrilatere ABCD, pour ce faire on mesurera les deux costez paralleles BC & AD, & aussi la perpendiculaire BE menée de l'vne des paralleles sur l'autre : puis si on multiplie la somme des deux paralleles, par la perpendiculaire BE, la moitié du produict sera le contenu du quadrilatere ABCD : ce faisant on trouuera que si BC est 12, AD 18, & BE 7, que le quadrilatere ABCD vaudra 105 : car multipliant 30, qui est la somme de BC & AD par 7 viendra 210, dont la moitié est 105.
 

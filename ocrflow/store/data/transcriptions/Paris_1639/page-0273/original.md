@@ -2,7 +2,7 @@
 
 tionelles, icelles lignes droictes seront aussi proportionelles.
 
-(figure)
+*[Figure]*
 
 *Hypoth. 1.*
 

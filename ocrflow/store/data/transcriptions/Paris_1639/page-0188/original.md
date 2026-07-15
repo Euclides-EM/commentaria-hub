@@ -24,7 +24,7 @@ fabcde *eſt* ⊙ D.
 
 *circonſcrire au* ⊙abcde *le* 5∠ ghikl *equilat. & equiangle.*
 
-(figure)
+*[Figure]*
 
 *Conſtr.*
 

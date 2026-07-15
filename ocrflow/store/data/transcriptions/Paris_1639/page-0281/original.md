@@ -2,7 +2,7 @@
 
 blables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir d'vn semblable.
 
-(figure)
+*[Figure]*
 
 *Hypotheſe.*
 

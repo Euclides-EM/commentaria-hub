@@ -4,7 +4,7 @@
 
 *Hypoth.*
 
-(figure)
+*[Figure]*
 
 fd *eſt* ——,
 fc 2|2 cd,
@@ -31,7 +31,7 @@ Si vne ligne droicte est couppée en deux parties inégales, les quarrez descrit
 
 *Hypotheſe.*
 
-(figure)
+*[Figure]*
 
 ad *eſt* —— : cd *eſt* 3|2 ac :
 cb *eſt* 2|2 ac : bd *eſt excez.*

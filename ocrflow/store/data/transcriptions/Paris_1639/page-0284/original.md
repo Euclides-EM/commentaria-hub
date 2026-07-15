@@ -12,7 +12,7 @@ Si à la ligne donnée il faut appliquer vn parallelogramme excedant d'vn quarr�
 
 Estant donnée la moyenne de trois proportionelles, & la difference des extrémes, trouuer les extrémes.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

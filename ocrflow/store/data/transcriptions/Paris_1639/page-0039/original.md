@@ -7,7 +7,7 @@ hyp. | df 3|2 ½de,
 hyp. | hl 2|2 ⅓gl,
 3.a.b | gh 2|2 ⅔gl.
 
-(figure)
+*[Figure]*
 
 4. a. 1.
 
@@ -17,7 +17,7 @@ hyp. | ab 3|2 cd,
 hyp. | be 2|2 df,
 4.a.1. | ae 3|2 cf.
 
-(figure)
+*[Figure]*
 
 4. a. b.
 
@@ -27,7 +27,7 @@ hyp. | ab 2|2 cd,
 hyp. | be 3|2 df,
 4. a. b. | ae 3|2 ef.
 
-(figure)
+*[Figure]*
 
 4. a. c.
 
@@ -37,4 +37,4 @@ hyp. | ab 3|2 cd,
 hyp. | be 3|2 df,
 4.a.c. | ae 3|2 cf.
 
-(figure)
+*[Figure]*

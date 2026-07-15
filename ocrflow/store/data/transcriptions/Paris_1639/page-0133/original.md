@@ -2,13 +2,13 @@
 
 gnée du centre sur laquelle tombe la plus grande perpendiculaire.
 
-(figure)
+*[Figure]*
 
 V.
 
 Segment ou section de cercle, est vne figure comprise sous vne ligne droicte, & la circonference du cercle.
 
-(figure)
+*[Figure]*
 
 5.d.3 | abc & def *ſnt* ⌓.
 

@@ -19,7 +19,7 @@ THEOR. XXVI. PROPOS. XXIX.
 
 Aux cercles égaux, les circonferences égales, soustendent lignes droictes égales.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -49,4 +49,4 @@ Coupper en deux également vne circonference donnée.
 
 acb *eſt* ∩ D.
 
-(figure)
+*[Figure]*

@@ -6,7 +6,7 @@ SCHOLIE.
 
 De trois lignes proportionelles estant donnée la moyenne & la somme des extrémes trouuer les extrémes.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

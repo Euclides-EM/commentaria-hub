@@ -13,7 +13,7 @@ THEOR. XXV. PROPOS. XXV.
 
 Si quatre grandeurs sont proportionelles, la plus grande & la plus petite sont plus grandes que les deux autres.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

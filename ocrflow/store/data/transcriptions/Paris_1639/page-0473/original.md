@@ -30,4 +30,4 @@ Zone, en Grec signifie ceinture, d'où vient les noms des cinq zones.  t. 4. p. 
 
 F I N.
 
-(ornament)
+*[Ornament]*

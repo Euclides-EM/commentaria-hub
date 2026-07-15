@@ -7,7 +7,7 @@
 5.1 | ∠cad 2|2 ∠cda, δ
 2 concl. δ.32.1 | ∠bcd / & ∠cbd / & ∠bda 2|2 2∠bad.
 
-(figure)
+*[Figure]*
 
 COROLLAIRE.
 
@@ -17,7 +17,7 @@ PROBL. XI. PROPOS. XI.
 
 En vn cercle donné, inscrire vn pentagone, equilateral & equiangle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

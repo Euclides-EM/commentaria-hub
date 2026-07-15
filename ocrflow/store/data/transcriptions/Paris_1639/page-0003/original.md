@@ -1,1 +1,1 @@
-(blank page)
+*[blank page]*

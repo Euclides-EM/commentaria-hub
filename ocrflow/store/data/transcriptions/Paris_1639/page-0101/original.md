@@ -9,7 +9,7 @@
 
 ∠bac *eſt* ┘.
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 
@@ -30,4 +30,4 @@ conſtr. | ∠cad *eſt* ┘,
 conſtr. | ∠cad *eſt* ┘,
 concl. 12.a.b | ∠cab *eſt* ┘.
 
-(ornament)
+*[Ornament]*

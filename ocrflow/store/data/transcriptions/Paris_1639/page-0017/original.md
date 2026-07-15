@@ -40,4 +40,4 @@ d. α. *Par la meſme demonſtration qu'a eſté prouué la concluſion α.*
 
 α. *eſt la citation de ce qui a eſté deſia demonſtré en la demonſtration.*
 
-(ornament)
+*[Ornament]*

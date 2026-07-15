@@ -6,7 +6,7 @@
 β.3.a.1 | □.fe 2|2 □.ge,
 1.concl. ſ.46.1 | fe 2|2 ge.
 
-(figure)
+*[Figure]*
 
 *Hypoth. 2.*
 

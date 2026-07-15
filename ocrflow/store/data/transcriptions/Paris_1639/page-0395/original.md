@@ -2,7 +2,7 @@
 
 *Trouuer le contenu d'vne pyramide ou cone.*
 
-(figure)
+*[Figure]*
 
 Il faut trouuer le contenu de sa base, & le multiplier par le tiers de la perpendiculaire, qui tombe du sommet sur la base, continuée si besoin est, & le produict sera le requis : ce faisant on trouuera, que si la base DBCD du cone ABCDE vaut 962 1/2, & la hauteur EF 8, qui tombe sur la continuation de la base DBC, que le contenu du cone vaudra 2566 ⅔ : Car 962 1/2 estant multipliez par 8 font 7700, dont le tiers est 2566 ⅔.
 

@@ -13,7 +13,7 @@ ei *multipl..* a 2|2 fm *multipl..* c, α
 
 ei *multipl..* b 2|2 fm *multipl..* d.
 
-(figure)
+*[Figure]*
 
 *Demonſtr.*
 

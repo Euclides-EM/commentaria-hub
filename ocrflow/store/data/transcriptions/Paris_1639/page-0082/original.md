@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -24,7 +24,7 @@ THEOR. XXI. PROPOS. XXX.
 
 Les lignes droictes paralleles à vne mesme ligne droicte, sont aussi paralleles entr'elles.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

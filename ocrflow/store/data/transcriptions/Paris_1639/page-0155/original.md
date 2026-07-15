@@ -13,7 +13,7 @@ THEOR. XVII. PROPOS. XIX.
 
 Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne droicte à angles droicts à la touchante, en icelle menée sera le centre du cercle.
 
-(figure)
+*[Figure]*
 
 *Hypotheſe.*
 

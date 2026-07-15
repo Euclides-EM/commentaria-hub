@@ -8,6 +8,6 @@ Propos. 5. pag. 758.
 
 *Estant donnée la hauteur du pole, par exemple, de 48 degrez 40′, descrire vn quadrant en la face orientale du meridien.*
 
-(figure)
+*[Figure]*
 
 Ayant tiré XY parallele à l'horizon, & fait l'angle YTC égal à l'éleuation du pole, à sçauoir de 48. d. & 40′, on prendra TC à discretion pour la longueur du stile : puis si on conti-

@@ -8,7 +8,7 @@ hyp. | ae 2|2 2cf,
 hyp: | eb 2|2 2fd,
 20.a.b. | ab 2|2 2cd.
 
-(figure)
+*[Figure]*
 
 I'ay adjousté l'axiome suiuant, à cause qu'il est necessaire aux demonstrations, qui conduisent à l'impossible.
 
@@ -20,6 +20,6 @@ hyp. | a *ñ eſt* 3|2 b,
 hyp. | a *ñ eſt* 2|3 b,
 21.a.1. | a 2|2 b.
 
-(figure)
+*[Figure]*
 
-(ornament)
+*[Ornament]*

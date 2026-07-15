@@ -12,9 +12,9 @@ dh 2|2 he,
 
 ∠hab 2|2 ∠hag.
 
-(figure)
+*[Figure]*
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

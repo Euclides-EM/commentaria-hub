@@ -8,7 +8,7 @@ a π b 2|2 e π f, b π c 2|2 d π e.
 
 a π c 2|2 d π f.
 
-(figure)
+*[Figure]*
 
 *Prepar.*
 

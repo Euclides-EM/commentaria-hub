@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 1.6 | △dbe π △cbe,
 | db π bc,
@@ -33,7 +33,7 @@ Si quatre lignes droictes sont proportionelles, le rectangle contenu sous les ex
 
 ab π fg 2|2 ef π cb.
 
-(figure)
+*[Figure]*
 
 *Req. à demonſtrer.*
 

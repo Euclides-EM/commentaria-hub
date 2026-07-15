@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(ornament)
+*[Ornament]*
 
 PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
 

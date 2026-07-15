@@ -18,7 +18,7 @@ ab *eſt* ——.
 
 □.ad + □.db 2|2 2□.ce + 2□.cd.
 
-(figure)
+*[Figure]*
 
 *Preparation.*
 

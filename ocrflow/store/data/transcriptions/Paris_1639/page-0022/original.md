@@ -4,7 +4,7 @@ XI.
 
 L'angle obtus est, celuy qui est plus grand qu'vn droict, comme ACB.
 
-(figure)
+*[Figure]*
 
 XII.
 

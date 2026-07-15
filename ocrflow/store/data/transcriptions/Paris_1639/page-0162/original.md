@@ -4,7 +4,7 @@
 
 ∪ ac 2|2 ∪ df,
 
-(figure)
+*[Figure]*
 
 *Prepar.*
 
@@ -38,4 +38,4 @@ gabc & hdef *ſnt* ⊙ 2|2 đe.
 ∠agc 2|2 ∠dhf,
 ∠abc. 2|2 ∠def.
 
-(figure)
+*[Figure]*

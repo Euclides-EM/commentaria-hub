@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 hyp. | ac *eſt* 10, α
 hyp. | ab *eſt* 7, β
@@ -21,7 +21,7 @@ Aux triangles oxygones, le quarré du costé qui soustient l'angle aigu, est moi
 
 *Hypoth.*
 
-(figure)
+*[Figure]*
 
 ∠acb 2|3 ┘.
 

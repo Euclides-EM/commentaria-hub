@@ -12,7 +12,7 @@ PROBL. II. PROPOS. XVII.
 
 D'vn poinct donné, mener vne ligne droicte, qui touche vn cercle donné.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

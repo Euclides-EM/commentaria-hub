@@ -6,7 +6,7 @@ SCHOLIE I.
 
 Les costez d'vn rectangle estans cognus trouuer l'aire.
 
-(figure)
+*[Figure]*
 
 L'aire d'vn rectangle se trouue par la multiplication du nombre de l'vn des costez, par le nombre de l'autre costé, qui sera à l'entour du mesme angle : Par exemple, le nombre du costé EG, 5. estant multiplié par le nombre du costé GH, 3. fait 15, pour l'aire du rectangle EH,
 

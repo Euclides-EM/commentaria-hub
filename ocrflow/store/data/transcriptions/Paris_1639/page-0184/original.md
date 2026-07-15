@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-(figure)
+*[Figure]*
 
 *Conſtruction.*
 
@@ -24,7 +24,7 @@ PROBL. IX. PROPOS. IX.
 
 A l'entour d'vn quarré donné, descrire vn cercle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

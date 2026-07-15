@@ -6,13 +6,13 @@ VII.
 
 Vne ligne droicte est dite estre accommodée ou adaptée au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
 
-(figure)
+*[Figure]*
 
 PROBL. I. PROPOS. I.
 
 Au cercle donné, accommoder vne ligne droite, égale à vne ligne droicte donnée, laquelle ne soit pas plus grande que le diametre du cercle.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

@@ -6,7 +6,7 @@ V.
 
 La Superficie est, ce qui a tant seulement longueur & largeur, comme ABCD.
 
-(figure)
+*[Figure]*
 
 VI.
 

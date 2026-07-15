@@ -6,7 +6,7 @@ SCHOLIE I.
 
 *Demonſtration de la diuiſion de raiſon inuerſe.*
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -26,7 +26,7 @@ SCHOLIE II.
 
 *Demonſtr. de la diuiſ.. raō. contr. & inuerſ. contraire.*
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

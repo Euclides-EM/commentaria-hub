@@ -12,7 +12,7 @@ THEOR. XIII. PROPOS. XX.
 
 De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient prins.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

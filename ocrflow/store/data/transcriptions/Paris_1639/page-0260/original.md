@@ -11,7 +11,7 @@ PROBL. I. PROPOS. IX.
 
 D'vne ligne droicte donnée en oster vne partie demandée.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

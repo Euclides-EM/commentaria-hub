@@ -10,7 +10,7 @@ PROBL. II. PROPOS. II.
 
 Dedans vn cercle donné, inscrire vn triangle equiangle à vn triangle donné.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

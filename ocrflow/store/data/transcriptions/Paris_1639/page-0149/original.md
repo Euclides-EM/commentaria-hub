@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-(figure)
+*[Figure]*
 
 *Prepar.*
 

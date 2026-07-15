@@ -6,16 +6,16 @@ XXIII.
 
 Or des figures trilateres, celle qui a trois costez égaux, s'appelle triangle Equilateral, comme A.
 
-(figure)
+*[Figure]*
 
 XXIV.
 
 Mais le triangle Isoscele est, celuy qui a seulement deux costez égaux, comme le triangle B.
 
-(figure)
+*[Figure]*
 
 XXV.
 
 Et le Scalene qui a les trois costez inégaux, comme le triangle DIE.
 
-(figure)
+*[Figure]*

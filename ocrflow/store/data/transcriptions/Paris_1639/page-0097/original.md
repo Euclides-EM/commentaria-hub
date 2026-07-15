@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 
@@ -38,7 +38,7 @@ SCHOLIE.
 
 Deux figures rectilignes estans proposées, trouuer l'excez dont la plus grande excede la plus petite.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

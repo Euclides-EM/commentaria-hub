@@ -24,7 +24,7 @@ SCHOLIE.
 
 Le quarré de la toute est quadruple du quarré de la moitié.
 
-(figure)
+*[Figure]*
 
 *Hypoth.*
 

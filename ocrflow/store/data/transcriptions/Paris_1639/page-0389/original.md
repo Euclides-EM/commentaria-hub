@@ -2,7 +2,7 @@
 
 gé de ces trois triangles : ce faisant on trouuera que si AC vant 12, AD 15, BF 5, CG 7, EH 6, que le polygone ABCDE vaudra 127 1/2.
 
-(figure)
+*[Figure]*
 
 AC, 12   12   15   15   60
 AD, 15   5   7   6   105
@@ -14,7 +14,7 @@ EH, 6   255
 
 *Trouuer l'aire d'vn polygone regulier.*
 
-(figure)
+*[Figure]*
 
 Si on multiplie le circuit du polygone proposé par le nombre de la perpendiculaire, qui tombe du centre sur l'vn des costez, la moitié du produict sera le contenu du polygone : ce faisant on trouuera que si le costé CD vaut 12, & la perpendiculaire FI 8 1/4, que le pentagone regulier ABCDE vaudra 247 1/2. Car cinq fois 12 font 60 pour le circuit ABCDE, & 60 multiplié par 8 1/4 fait 495, dont la moitié est 247 1/2.
 
