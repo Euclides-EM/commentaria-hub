@@ -1,0 +1,11 @@
+# Page 408
+
+# DES FORTIFICATIONS.
+
+Or les proportions & mesures données cy dessus ne sont pas tellement limitées, qu'il ne se puisse rien changer : Car afin que la ligne de defense soit plus courte, au quarré & au pentagone, la proportion du pan à la courtine de 4 à 5, & en l'hexagone de 3 à 4, doit estre preferée à la proportion de 2 à 3, qui est la meilleure pour les figures qui sont au dessus l'hexagone.
+
+Les talus se doiuent aussi faire selon la nature de la terre ; car si elle est sablonneuse, le talu externe ne pourra estre gueres moindre que la hauteur.
+
+Quant aux ramparts, les plus hauts ne sont pas les meilleurs, car l'ennemy estant proche d'iceux, on le descouurira ; & offensera d'autant moins qu'ils seront esleuez : partant s'il n'y a quelque coline proche d'iceux, on ne les doit esleuer au dessus de 14 ou 15 pieds, qui font 20 ou 21 pieds auec les parapets. Mais s'il y a quelque coline ou montagne proche d'iceux, il faudra esleuer la courtine qui sera de ce costé là, autant qu'il sera necessaire pour se couurir d'icelle coline ou montagne.
+
+Le parapet doit auoir vne espesseur suffisante pour resister à vn coup de canon, qu'il ne puisse passer au trauers. Et se cognoist par experience qu'vn canon tiré de la distance de 100 toises, perce dans vne muraille dure, comme grez ou caillou, enuiron 3 pieds : dans les murailles de brique nouuellement cuite, de tuffe ou pierre de ponce, 5 pieds : en terre à potier seiche & affermie, 8 pieds : en argille battuë & serrée, 10 pieds : en terre ferme rassise & grasse, serrée de long temps, 12 pieds : & dans les ouurages nouuellement faits de terre pure, ou de terre & fascines, 18 pieds. On a aussi recognu par experience, qu'vn pied de terre bien foulée & battuë soustient vn coup de mousquet ; ce qu'vn pied de laine bien foulée peut aussi faire. Quant à la portée de poinct en blanc d'vn canon en l'esleuation de 45 degrez (suiuant les obseruations du sieur Coignet) est enuiron quadruple de la portée horizõtale ou de niueau : & la plus grãde portée morte ou totale, qui est celle de l'éleuation de 45 degrez, est enuiron decuple de la portée de poinct en blanc horizontale : & pour les autres portées mortes ou totales, depuis l'horizontale iusques à l'esleuation de 45 degrez, s'augmentent comme s'ensuit. Si la bale du canon pese 38 liures, la portée de

@@ -1,0 +1,13 @@
+# Page 427
+
+# DES FORTIFICATIONS.
+
+re & superieure du rampart, la sixiesme partie des superficies TQXG, CRMS, & NDX, qui sont aux angles rentrans G, C, D : puis de la somme de cette addition, qui est 33544009‴ pieds en nôtre exemple, on soustraict la sixiesme partie des superficies BYLZ, PαFβ, & OEγ, qui sont aux angles saillans B, E, F, & multipliant le reste de la soustraction, qui est 33472588‴ pieds par la hauteur du rampart, qui est 14 pieds, vient 468616232‴ pour le contenu de la solidité du rampart.
+
+En la seconde methode, on multiplie le profil du rampart, qui en nostre exemple est 826 pieds, par le quart de l'aggregé des quatre lignes des superficies inferieure & superieure de la portion du rampart, qui est depuis le milieu de la courtine AH, iusques à la ligne capitale ED, lequel quart vaut 5675′ pieds, par lequel multipliant 826 pieds, vient 468755 pieds pour le contenu de ladite proportion du rampart.
+
+Les contenus corporels des parapets se trouuent aussi par la mesme methode, en multipliant la superficie de leur profil par la ligne mediocre, qu'il y a depuis le milieu de la courtine iusques à la ligne capitale : ce faisant on trouuera que le parapet du rampart vaut 5896877″ pieds, & le parapet de la fausse-braye 6583686″ pieds, & le parapet du corridor 11920038″ pieds, lesquels adioustez ensemble font 71262224″ pieds, pour la huictiesme partie des soliditez du rampart & parapets de la fortification de 4 bastions, & par consequent multipliant ce nombre par 8, viendra 570097792″ ou 5700977 92/100 pieds, pour le contenu du rampart & parapets de toute la fortification.  De ce nombre 57009792″ il faut soustraire les contenus des ouuertures & passages qu'on laisse pour les portes & sorties : les portes, comme nous auons desia dit, sont au milieu des courtines, ayans 10 ou 12 pieds de largeur, & 14 ou 15 pieds de hauteur.
+
+Les poternes & sorties, tant à la fausse-braye qu'au fossé, se font ordinairement aux flancs : Fritach neantmoins est d'auis qu'on les face au milieu de la courtine, de 6 ou 7 pieds de largeur, & de 7 ou 8 pieds de hauteur.
+
+Pour auoir le contenu ou solidité du fossé assez precisément, il faut trouuer les deux superficies du fossé, à sçauoir la superieure

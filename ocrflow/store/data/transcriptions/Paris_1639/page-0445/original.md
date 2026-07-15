@@ -1,0 +1,11 @@
+# Page 444
+
+# DE LA GNOMONIQVE.
+
+meridionale du plan, & l'autre en la face Septẽtrionale, ils montreront l'heure de toute l'année.  Et encore qu'il ne soit necessaire que la longueur du stile de chaque costé excede le quart du diametre AB ; neantmoins afin de pouuoir mettre plus facilement le quadrant en la situation qu'il doit auoir, la longueur du stile de la face meridionale doit auoir mesme proportion à la distance du centre C iusques au bord du quadrant A, que le sinus du complement de la hauteur du pole, au sinus de la hauteur du pole : laquelle proportion se trouuera, ou par le moyen des tables des sinus, ou en faisant vn triangle rectangle, dont l'vn des angles aigus soit égal à l'esleuation du pole, sçauoir celuy qui est opposé à la ligne AC.  Or supposant que le stile CV de la face meridionale soit perpendiculaire au plan du quadrant, & qu'il aye ladite proportion à la meridienne CA perpendiculaire au costé du quadrant qui passe par le poinct A, on trouuera la situation qu'il doit auoir, en mettant ledit costé A, & le sommet du stile V sur vn plan horizontal, en sorte que l'ombre du stile CV tombe sur la mesme ligne horaire, que l'ombre du stile d'vn autre quadrant, qui sera en sa vraye situation.
+
+Propos. 2. pag. 751.
+
+*Descrire vn quadrant horizontal pour l'esleuation du pole, que nous supposons en cet exemple estre de 48 degrez 40′.*
+
+Sur le plan proposé parallele à l'horizon, descriuez le cercle CKBEF de telle grandeur que voudrez (lequel en ce quadrant & aux suiuants, representera le quadrant equinoctial ou equatorial) & le diuisez en 24 parties égales, commençant à la meridienne AC, que vous coupperez à angles droicts en tels endroits que vous voudrez, par la ligne DN, qui represente l'intersection de l'equateur & de l'horizon, sur laquelle ligne DN vous terminerez toutes les lignes menées du centre C aux poincti des diuisions du cercle KBEF : puis ayant fait l'angle QCZ égal à l'esleuation du pole, à sçauoir de 48 degrez 40′, ou l'angle ACZ égal au complement de l'esleuation du pole, à sçauoir de 41 degrez 20′, vous fe-

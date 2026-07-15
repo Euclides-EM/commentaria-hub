@@ -1,0 +1,9 @@
+# Page 456
+
+# DE LA GNOMONIQVE.
+
+## Methode vniuerselle & facile de descrire vn quadrant Italique en tout plan qui ne soit parallele à l'horizon.
+
+(figure)
+
+Sur le plan proposé soit premierement descrit le quadrant astronomique CFHRB, qui monstre les heures & demy-heures, par les methodes données cy dessus, & soit adiousté à ce quadrãt (outre la ligne equinoctiale FG, qui se trouue en faisant la construction par le moyen du stile perpendiculaire à son plan, que l'on prend à discretion) la ligne EB de la 24 heure Italique, laquelle aux plans verticaux, passant par le pied au stile perpendiculaire au plan du quadrant, est tousiours parallele à l'horizon : & aux quadrants descrits sur des plans inclinez, elle est l'intersection, par laquelle vn plan parallele à l'horizon passant par le sommet du stile perpendiculaire au plan du quadrant couppe le plan proposé.  Ayant ainsi descrites la ligne equinoctiale, & celle de la 24 heure Italique, par le moyen des nombres de la premiere & troisiesme colomne de la table suiuante, pour chaque ligne horaire Italique, on trouuera vn poinct en la ligne equinoctiale, & vn autre en la ligne de la vingt-quatriesme heure Italique, & la ligne droite tirée par ces deux poincts, sera vne ligne horaire Italique.  Par exemple, pour descrire la ligne de la 23 heure Italique, ie cherche 23 en la premiere colomne de ladite table, & trouué vis à vis 5 heures astronomiques, qui signifient que la ligne de la 23 heure Italique doit passer par l'intersection de la ligne equinoctiale, & de la 5 heure astro-

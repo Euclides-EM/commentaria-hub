@@ -1,0 +1,11 @@
+# Page 437
+
+# DES FORTIFICATIONS.
+
+les flancs : On se pourra aussi seruir à l'assaut des feux d'artifices, comme grenades & autres, pour repousser l'ennemy, si on iuge qu'il en soit besoin.
+
+L'on estime que la bresche se doit faire dans le pan du bastion, ou à tout le moins dans la pointe, plustost que dans la courtine : pource principalement que la bresche estant faite dans la courtine, elle est defenduë des deux flancs des bastions voisins, & aussi qu'elle donne la corde aux assaillans, & l'arc aux assaillis, qui est vn grand desaduantage pour les assaillans.
+
+*Des mines.*
+
+Pour conduire vne mine sous le fondement d'vn bastion, ou de quelque autre partie de la foretresse, il faut premierement choisir vn lieu caché & retiré, d'où l'ennemy ne se puisse défier, & estant descouuert estre battu d'iceluy.  Ayanr choisi le lieu pour commencer la mine, il faut prendre la distance du lieu où on la veut faire par le moyen de quelque instrument geometrique, & aussi l'angle de posirion par le moyen de la boussole : puis ayant creusé tant bas, que l'on iugera estre aussi bas, ou plus bas que le lieu de la mine, au fond de ce concauement il faudra faire vn chemin vers le lieu de la mine de 4 pieds de haut & 3 de large, & le destourner de costé en angle droict, puis reprenant le premier chemin on arriuera au lieu de la mine : & lors qu'on sera arriué audit lieu, on fera vne petite montée plus droicte que faire se pourra, & au dessus de cette montée vne caue, pour mettre la poudre, haute de 4 ou 5 pieds, large de 3 ou 4 pieds, & longue de 6 pieds ou plus, selon la quantité de la poudre qu'on y veut mettre : & si le fond est humide, on le pauera de gros ais, puis l'ayant garny de poudre à suffisance, mettant de la plus fine à l'entrée sur lesdits ais, il faudra fermer l'entrée le mieux qu'il sera possible : premierement auec gros ais entrelassez, puis de bonne terre, laissant vne mesche de coton boüilly en selnitre, si longue qu'elle arriue iusques à l'entrée du chemin de la mine : & deuant que donner le feu à la mine, on tiendra les soldats prests à donner l'assaut, en lieu toutefois qu'ils ne puissent estre offensez des ruines de la mine.  Que si on est en soupçon de contremine, auparauant que d'auancer beaucoup il

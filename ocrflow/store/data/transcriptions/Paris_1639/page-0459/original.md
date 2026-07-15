@@ -1,0 +1,13 @@
+# Page 458
+
+# DE LA GNOMONIQVE.
+
+de la 24 heure Italique, & de la 11 1/2 astronomique.  Par la mesme methode on trouuera, que la ligne de la 16 heure Italique doit passer par l'intersection de la ligne equinoctiale & de la 10 heure astronomique : & aussi par l'intersection de la ligne de la 24 heure Italique, & de la 8 heure astronomique : & ainsi continuant on trouuera toutes les lignes horaires Italiques.
+
+Pour descrire vn quadrant Babylonique, il faut operer de mesme, en nous seruant des nõbres de la 1 & 3 colomne de la mesme table.
+
+La table precedente est de l'inuention de Maurolicus, & peut seruir à trouuer les lignes horaires des heures Italiques & Babyloniques, qui se peuuent aussi trouuer par celle qui est en la page 705 du 5 tome, en laquelle nous auons mis les heures astronomiques aux lieux de celles qui commencent à midy ou à minuict, afin de retenir par cœur plus facilement les lignes des heures astronomiques, Italiques, & Babyloniques, qui s'entrecoupent en vn mesme poinct : Par consequent la table des heures Babyloniques de la page 708 du 5 tome, que i'ay du depuis osté auec les propositions qui en dependoient, & mis en sa place celle de Maurolicus, estoit inutile, ayant erreur en ses titres, à cause de la transposition de 12 & 24, & aussi de 6 & 24.
+
+Or les 12 lignes de 24 heures astronomiques couppent la ligne equinoctiale en 11 ou 12 poincts, par chacun desquels passe vne ligne horaire Italique, & vne Babylonique : & n'y aura pas beaucoup de difficulté à distinguer les Italiques des Babyloniques, si on considere que des heures qui arriuent durant le iour, l'vnité, qui est la premiere des Babyloniques, finit vne heure apres le leuer du Soleil : & 24, qui est au haut de la mesme colomne, est la derniere Italique finissant auec le iour.  Et suiuant la suite de ces deux commencements, les heures Babyloniques vont en augmentant, & les Italiques en diminuant.
+
+Que si on descrit les heures Italiques & Babyloniques en vn mesme quadrant, celles qui seront differentes de 12 heures s'entrecouperont en vn mesme poinct de la ligne equinoctiale : & celles qui auront le mesme nombre d'heures, comme la 14 heure Italique & la 14 Babylonique, se trouueront en vne mesme ligne droite, à sçauoir l'Italique en vn bout, & la Babylonique en l'autre bout.
