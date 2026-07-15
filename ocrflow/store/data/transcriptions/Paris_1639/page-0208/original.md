@@ -11,10 +11,10 @@ f | 2, 3, 4 | 3. h.
 
 De laquelle note, G & H, qui sont les equimultiples des consequens, ont chacun 3: & E & F, qui sont les equimultiples des antecedens, ont chacun 2, ou 3, ou 4: pour monstrer qu'ils sont ou ensemble plus petits que G & H: ou ensemble égaux à G & H: ou ensemble plus grands que G & H. Laquelle similitude des equimultiples E & F, nous ne pouuons pas prouuer icy; mais aux demonstrations, la citation donnera à cognoistre, que les equimultiples E & F au respect des equimultiples G & H, ne pourront estre dissemblables.
 
-VII.
+### VII.
 
 Les grandeurs qui ont mesme raison, soient appellées proportionnelles.
 
-VIII.
+### VIII.
 
 Mais quand des equimultiples, le multiple de la

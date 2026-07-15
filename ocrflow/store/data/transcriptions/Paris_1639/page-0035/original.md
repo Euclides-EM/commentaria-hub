@@ -2,7 +2,7 @@
 
 ## PETITIONS OV DEMANDES.
 
-I.
+### I.
 
 Soit demandé, de tout poinct donné, à tout autre poinct donné, mener vne ligne droicte, soit concedé.
 
@@ -10,7 +10,7 @@ Soit demandé, de tout poinct donné, à tout autre poinct donné, mener vne lig
 
 Comme s'il faut tirer vne ligne droicte du poinct A au poinct B, Euclide suppose que cela se puisse faire, & ne donne pas la methode de la tirer.
 
-II.
+### II.
 
 Et de prolonger directement vne ligne droite donnée & terminée.
 
@@ -18,7 +18,7 @@ Et de prolonger directement vne ligne droite donnée & terminée.
 
 Icy Euclide demande, qu'il luy soit concedé, qu'on puisse continuer vne ligne directement, comme la ligne AB iusques en C.
 
-III.
+### III.
 
 Semblablement de quelconque centre & interualle descrire vn cercle.
 

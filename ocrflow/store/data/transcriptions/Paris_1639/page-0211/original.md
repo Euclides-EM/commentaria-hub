@@ -4,13 +4,13 @@ voudra continuellement proportionnelles, la raison de la premiere à la quatries
 
 Pareillement la raison de la premiere à la cinquiesme est sesquitierce de la raison de la premiere à la quatriesme, &c.
 
-XI.
+### XI.
 
 Les grandeurs sont dites homologues, ou de semblable raison, les antecedentes aux antecedentes, & les consequentes aux consequentes.
 
 C'est à dire, que si plusieurs antecedens ont mesme raison à leurs consequens, tous les antecedens seront homologues entr'eux, & aussi les consequens entr'eux: mais vn antecedent & vn consequẽt ne sont pas homologues entr'eux.
 
-XII.
+### XII.
 
 La raison alterne, est prendre l'antecedent pour le comparer à l'antecedent, & le consequent au consequent.
 

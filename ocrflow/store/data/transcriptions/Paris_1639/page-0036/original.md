@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-IV.
+### IV.
 
 Semblablement quelconque grandeur estant donnée, pouuoir prendre vne autre plus grande ou plus petite.
 

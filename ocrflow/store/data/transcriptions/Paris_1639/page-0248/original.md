@@ -9,7 +9,7 @@ cd *eſt la hauteur des* △; abc & bce, *au reſpect des baſes* ab & be.
 
 D'où s'ensuit, que si les trois perpendiculaires tirées de trois angles d'vn triangle sur les costez opposez, continuez directemẽt, si besoin est, sont inégales, le triangle aura trois hauteurs differẽtes.
 
-V.
+### V.
 
 Vne raison est dite estre composée de raisons, quand les quantitez des raisons multipliées entr'elles font quelque raison.
 

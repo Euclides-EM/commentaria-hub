@@ -2,7 +2,7 @@
 
 touche chacun angle de la figure à l'entour de laquelle il est descrit.
 
-VII.
+### VII.
 
 Vne ligne droicte est dite estre accommodée ou adaptée au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
 

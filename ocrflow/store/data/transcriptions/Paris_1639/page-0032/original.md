@@ -1,16 +1,16 @@
 <!-- # LES ELEMENTS -->
 
-XXXIX.
+### XXXIX.
 
 En la Geometrie (sçauoir) est mesurer par vne mesure cognuë, ou d'exprimer chaque partie de la figure proposée par nombres.
 
 La construction represente vne figure en sa vraye forme. Mais la cognoissance, la represente mesurée d'vne mesure cognuë, & exprimée par ses nombres.
 
-XL.
+### XL.
 
 Probleme est, quand on propose quelque chose à faire, ou à cognoistre,
 
-XLI.
+### XLI.
 
 Theoreme est, quand on propose quelque chose à demonstrer.
 

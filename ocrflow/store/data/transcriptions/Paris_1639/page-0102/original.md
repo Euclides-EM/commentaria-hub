@@ -6,7 +6,7 @@
 
 ## DEFINITIONS.
 
-I.
+### I.
 
 TOVT parallelogramme rectangle est dit estre contenu sous deux lignes droictes, qui contiennent l'angle droict.
 

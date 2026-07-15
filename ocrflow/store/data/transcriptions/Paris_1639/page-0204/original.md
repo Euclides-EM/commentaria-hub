@@ -2,7 +2,7 @@
 
 son par son consequent: par exemple, la quantité de la raison de 12 à 4 est 3, à cause que ce nombre 3 monstre combien de fois l'antecedent 12 contient son consequent 4.
 
-IV.
+### IV.
 
 Mais proportion est vne similitude de raisons.
 

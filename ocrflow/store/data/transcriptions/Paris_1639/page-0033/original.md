@@ -10,10 +10,10 @@ En l'ostensiue, la suite des consequences se fait de l'hypothese au requis.
 
 Et au contraire, en celle qui nous conduit à l'impossible, la suite des consequences se fait, du contraire de ce qui est à conclure vers l'hypothese, ou vers ce qui est donné & concedé iusques à ce que nous tombions en quelque absurdité ; d'où on conclud, que ce qui a esté supposé contraire au requis est faux, & par consequent que le requis est vray.
 
-XLII.
+### XLII.
 
 Corollaire est vne consequence, outre le requis qu'on infere de la demonstration.
 
-XLIII.
+### XLIII.
 
 Lemme est vne demonstration qu'on fait se-

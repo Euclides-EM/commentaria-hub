@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-X.
+### X.
 
 Semblables segments ou sections de cercles sont celles, qui reçoiuent angles égaux ; ou esquels les angles sont égaux entr'eux.
 

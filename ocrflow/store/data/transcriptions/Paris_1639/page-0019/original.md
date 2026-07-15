@@ -4,19 +4,19 @@ Or les Mathematiciens, qui considerent les grandeurs separées de toute matiere,
 
 • A
 
-II.
+### II.
 
 La Ligne est vne longueur sans largeur.
 
 La ligne se definit aussi estre le flux ou coulement d'vn poinct, parce qu'elle n'a aucune grosseur.
 
-III.
+### III.
 
 Les extremitez de la ligne sont poincts.
 
 Toute ligne, & toute grandeur, est terminée actuellement, & le Mathematicien ne considere aucune quantité qu'elle ne soit terminée : & quand Euclide parle de la ligne infinie, il entend qu'elle n'est point terminée, & quelle a telle longueur qu'on voudra.
 
-IV.
+### IV.
 
 La ligne droicte est, celle qui est également estenduë entre ses poincts.
 

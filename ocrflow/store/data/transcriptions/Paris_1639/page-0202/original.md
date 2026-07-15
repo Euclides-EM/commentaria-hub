@@ -6,7 +6,7 @@
 
 ## DEFINITIONS.
 
-I.
+### I.
 
 PARTIE est vne grandeur d'vne grandeur, la plus petite de la plus grande, lors que la plus petite mesure la plus grande.
 

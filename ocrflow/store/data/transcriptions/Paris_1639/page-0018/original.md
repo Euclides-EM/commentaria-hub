@@ -6,7 +6,7 @@
 
 ## DEFINITIONS.
 
-I.
+### I.
 
 LE Poinct est, ce qui n'a aucune partie.
 

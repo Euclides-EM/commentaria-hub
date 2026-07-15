@@ -18,6 +18,6 @@ La progression arithmetique est vne suite de plusieurs grandeurs qui s'excedent 
 
 1. 2. 3. 4. 5. 6. 7. 8. &c. ou, 1. 3. 5. 7. 9. 11. 13. 15. &c.
 
-V.
+### V.
 
 Les grandeurs sont dites auoir raison l'vne à l'autre, lesquelles estans multipliées, se peuuent exceder l'vne l'autre.

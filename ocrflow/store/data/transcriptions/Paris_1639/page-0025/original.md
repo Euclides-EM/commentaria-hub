@@ -6,15 +6,15 @@ Toutes les figures planes encloses de tous costez de lignes droites, sont appell
 
 Comme la figure A est rectiligne : B, curuiligne : & C est mixte.
 
-XX.
+### XX.
 
 Figures Trilateres sont, celles qui sont contenuës sous trois costez.
 
-XXI.
+### XXI.
 
 Les figures Quadrilateres sont, celles qui sont contenuës sous quatre costez.
 
-XXII.
+### XXII.
 
 Les figures Multilateres, ou de plusieurs costez, sont celles qui sont contenuës sous plus de quatre lignes droites.
 

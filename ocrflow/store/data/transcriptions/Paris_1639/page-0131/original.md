@@ -6,7 +6,7 @@
 
 ## DEFINITIONS.
 
-I.
+### I.
 
 CERCLES égaux sont ceux desquels les diametres sont égaux ; ou desquels les lignes droictes menées des centres aux circonferences sont égales.
 
@@ -15,6 +15,6 @@ CERCLES égaux sont ceux desquels les diametres sont égaux ; ou desquels les li
 hyp. | *ſemidiamet.* ga 2|2 *ſemidiamet.* hd,
 3.d.3 | ⊙gabc 2|2 ⊙hdef.
 
-II.
+### II.
 
 Vne ligne droicte est dite toucher le cercle, laquelle touchant le cercle, si elle est prolongée, ne le couppe point.

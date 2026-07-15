@@ -23,7 +23,7 @@ A, 4. B, 6. C, 8. D, 12.
 hyp. | a π b 2|2 c π d, 3ſ.17.d5 | b~a π a 2|2 d~c π c.
 4 6 8 12 2 4 4 8
 
-XVI.
+### XVI.
 
 Conuersion de raison est, prendre l'antecedent pour le comparer à l'excez, par lequel l'antecedent surpasse le mesme consequent.
 

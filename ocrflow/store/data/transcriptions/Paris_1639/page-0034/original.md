@@ -2,7 +2,7 @@
 
 parément, pour rendre la demonstration du requis plus briefue.
 
-XLIV.
+### XLIV.
 
 Arbitraire est ce qui est pris ou faict à la volonté.
 
