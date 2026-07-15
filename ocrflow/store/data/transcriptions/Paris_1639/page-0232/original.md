@@ -1,5 +1,3 @@
-# Page 232
-
 # LES ELEMENTS
 
 THEOR. XV. PROPOS. XV.

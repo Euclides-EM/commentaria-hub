@@ -1,5 +1,3 @@
-# Page 314
-
 # ARITHMETIQVE
 
 1 3 7 8′

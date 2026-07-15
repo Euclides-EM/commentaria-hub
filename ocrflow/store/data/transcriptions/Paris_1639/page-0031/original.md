@@ -1,5 +1,3 @@
-# Page 31
-
 # D'EVCLIDE, LIV. I.
 
 (figure)

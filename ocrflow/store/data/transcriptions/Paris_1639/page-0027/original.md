@@ -1,5 +1,3 @@
-# Page 27
-
 # D'EVCLIDE, LIV. I.
 
 XXVI.

@@ -1,5 +1,3 @@
-# Page 53
-
 # D'EVCLIDE, LIV. I.
 
 SCHOLIE.

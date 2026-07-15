@@ -1,5 +1,3 @@
-# Page 44
-
 # LES ELEMENTS
 
 12. a. 1.

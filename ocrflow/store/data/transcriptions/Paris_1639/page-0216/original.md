@@ -1,5 +1,3 @@
-# Page 216
-
 # LES ELEMENTS
 
 quent: mais comme aux premieres grandeurs le consequent est à quelque autre, ainsi aux secondes grandeurs quelqu'autre est à l'antecedent.

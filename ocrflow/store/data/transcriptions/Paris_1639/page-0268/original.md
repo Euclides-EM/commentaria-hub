@@ -1,5 +1,3 @@
-# Page 268
-
 # LES ELEMENTS
 
 PROBL. VI. PROPOS. XVIII.

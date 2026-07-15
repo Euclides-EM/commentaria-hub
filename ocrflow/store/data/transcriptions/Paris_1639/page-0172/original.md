@@ -1,5 +1,3 @@
-# Page 172
-
 # LES ELEMENTS
 
 COROLL. II.

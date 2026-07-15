@@ -1,5 +1,3 @@
-# Page 267
-
 # D'EVCLIDE, LIV. VI.
 
 *Demonſtration.*

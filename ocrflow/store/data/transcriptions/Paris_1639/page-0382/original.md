@@ -1,5 +1,3 @@
-# Page 382
-
 # GEOMETRIE
 
 dre costé des grands triangles : & aussi comme le plus grand costé des petits triangles, au plus grand costé des grands triangles. *Que si le moindre triangle des petits se rencontre en la mesme station que le moindre triangle des grands, comme en la 3 propos. page 126.* le costé égal des petits triangles sera aussi au costé égal des grands triangles, comme la difference des costez inégaux des petits triangles à la difference des costez inégaux des grands triangles.

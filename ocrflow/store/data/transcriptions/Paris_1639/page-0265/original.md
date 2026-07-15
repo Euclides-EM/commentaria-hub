@@ -1,5 +1,3 @@
-# Page 265
-
 # D'EVCLIDE, LIV. VI.
 
 1.6 | bf π bh 2|2 eb π bc,

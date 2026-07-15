@@ -1,5 +1,3 @@
-# Page 397
-
 # DES FORTIFICATIONS.
 
 Nostre dessein n'est pas de mettre icy vn traicté entier des Fortifications, mais seulement d'expliquer plus au long les constructions & calculs des fortifications, que nous auons mis au 3 tome, & d'adiouster quelque chose de l'art d'assaillir, & defendre.

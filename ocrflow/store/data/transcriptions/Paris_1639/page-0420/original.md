@@ -1,5 +1,3 @@
-# Page 420
-
 # DES FORTIFICATIONS.
 
 Partant ordonnant la regle de trois ainsi,

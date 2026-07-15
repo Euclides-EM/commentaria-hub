@@ -1,5 +1,3 @@
-# Page 169
-
 # D'EVCLIDE, LIV. III.
 
 ties de l'vne, est égal au rectangle contenu sous les deux parties de l'autre.

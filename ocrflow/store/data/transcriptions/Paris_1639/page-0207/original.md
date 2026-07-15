@@ -1,5 +1,3 @@
-# Page 207
-
 # D'EVCLIDE, LIV. V.
 
 VI.

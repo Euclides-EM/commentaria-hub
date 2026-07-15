@@ -1,5 +1,3 @@
-# Page 83
-
 # D'EVCLIDE, LIV. I.
 
 PROBL. X. PROPOS. XXXI.

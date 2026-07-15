@@ -1,5 +1,3 @@
-# Page 457
-
 # DE LA GNOMONIQVE.
 
 | Æquinoct. |  | 12 h. Ital. |  | 24 h. Ital. |  | 6 h. Astron. |  | 24 h. Astron. |  |

@@ -1,5 +1,3 @@
-# Page 175
-
 # D'EVCLIDE, LIV. IV.
 
 (ornament)

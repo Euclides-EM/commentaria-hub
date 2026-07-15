@@ -1,5 +1,3 @@
-# Page 400
-
 # DES FORTIFICATIONS.
 
 *Considerations que l'on doit auoir auparauant que commencer la forteresse.*

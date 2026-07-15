@@ -1,5 +1,3 @@
-# Page 473
-
 # ETYMOLOGIE.
 
 Systeme vient de *systema*, qui en Grec signifie vne chose composée de plusieurs parties.  t. 5. p. 502. & 819.

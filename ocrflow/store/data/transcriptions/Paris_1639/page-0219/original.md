@@ -1,5 +1,3 @@
-# Page 219
-
 # D'EVCLIDE, LIV. V.
 
 THEOR. III. PROPOS. III.

@@ -1,5 +1,3 @@
-# Page 227
-
 # D'EVCLIDE, LIV. V.
 
 7.5 | c π a 2|2 c π b,

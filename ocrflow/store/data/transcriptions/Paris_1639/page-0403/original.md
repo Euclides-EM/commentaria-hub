@@ -1,5 +1,3 @@
-# Page 403
-
 # DES FORTIFICATIONS.
 
 faces des bastions BH, BK, &c. égales à la face CD. Pour construire le fossé, le rampart, & autres parties de la fortification, Errard se sert de l'eschelle, la quantité de laquelle il prend de la ligne du flanc ND, à laquelle il attribuë en l'hexagone 16 ou 20 toises : en l'heptagone, 19⅓ ou 23⅓, &c. comme on peut voir vis à vis de ED, en la table qui est en la page 196 du 3 tome. Pour faire l'eschelle n de cette figure, on attribuera au flanc ND 19⅓ toises : & parce que ny le triple ny le sextuple de 19⅓, qui sont 58 & 116, n'ont point de fractions, repetant ND sur EA, i'ay trouué Er égale au sextuple de ND, que i'ay mis sur le compas de proportion à l'ouuerture de 116 des parties égales, & le compas demeurant en cette ouuerture, i'ay pris l'ouuerture de 20 parties, que i'ay mis sur la ligne n 5 fois de suite, pour auoir vne eschelle de 100 toises, diuisée en 5 parties égales, desquelles la moitié de la premiere partie doit estre subdiuisée en 10 parties égales, afin de pouuoir prendre tel nombre de toises qu'on voudra.

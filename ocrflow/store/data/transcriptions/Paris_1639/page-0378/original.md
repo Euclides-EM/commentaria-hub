@@ -1,5 +1,3 @@
-# Page 378
-
 # GEOMETRIE
 
 (figure)

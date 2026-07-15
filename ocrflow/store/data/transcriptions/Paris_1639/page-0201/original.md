@@ -1,5 +1,3 @@
-# Page 201
-
 # D'EVCLIDE, LIV. IV.
 
 *Hypoth. 3.*

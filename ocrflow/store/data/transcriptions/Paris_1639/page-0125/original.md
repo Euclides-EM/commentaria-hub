@@ -1,5 +1,3 @@
-# Page 125
-
 # D'EVCLIDE, LIV. II.
 
 D'où s'ensuit, que AD est la toute : BD la difference des parties CD & AC : & que AC & CD sont les parties inégales : & par consequét ce scholie ne differe de la 10. proposition que de nom : & se pouuoit aussi demonstrer ainsi.

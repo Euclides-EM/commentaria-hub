@@ -1,5 +1,3 @@
-# Page 157
-
 # D'EVCLIDE, LIV. III.
 
 *Hypoth.*

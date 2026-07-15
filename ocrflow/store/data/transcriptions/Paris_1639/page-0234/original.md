@@ -1,5 +1,3 @@
-# Page 234
-
 # LES ELEMENTS
 
 *Demonſtration.*

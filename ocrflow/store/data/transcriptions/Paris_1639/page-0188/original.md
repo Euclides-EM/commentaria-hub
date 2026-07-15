@@ -1,5 +1,3 @@
-# Page 188
-
 # LES ELEMENTS
 
 *Explication par nombres.*

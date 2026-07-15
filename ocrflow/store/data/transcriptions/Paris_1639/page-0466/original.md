@@ -1,5 +1,3 @@
-# Page 466
-
 # ETYMOLOGIE.
 
 Glacis, vient de la *glace*, à cause que le dessus des murailles ou terrasses, qui sont en glacis, & non à niueau & parallels à l'horizon, sont coulant comme la glace.  t. 3. p. 181.

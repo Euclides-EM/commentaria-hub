@@ -1,5 +1,3 @@
-# Page 247
-
 # D'EVCLIDE, LIV. VI.
 
 II.

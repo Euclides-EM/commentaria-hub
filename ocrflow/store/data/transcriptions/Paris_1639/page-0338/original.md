@@ -1,5 +1,3 @@
-# Page 338
-
 # ARITHMETIQVE
 
 Que si pour faire la premiere regle de trois on eust pris ces trois nombres cy,

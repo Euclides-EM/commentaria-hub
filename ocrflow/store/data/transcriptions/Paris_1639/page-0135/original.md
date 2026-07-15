@@ -1,5 +1,3 @@
-# Page 135
-
 # D'EVCLIDE, LIV. III.
 
 X.

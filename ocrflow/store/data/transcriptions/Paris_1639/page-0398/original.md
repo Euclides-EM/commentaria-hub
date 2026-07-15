@@ -1,5 +1,3 @@
-# Page 398
-
 # DES FORTIFICATIONS.
 
 *De la montagne.*

@@ -1,5 +1,3 @@
-# Page 339
-
 # PRACTIQVE.
 
 la regle sera directe, & donnera 423/23 lt.

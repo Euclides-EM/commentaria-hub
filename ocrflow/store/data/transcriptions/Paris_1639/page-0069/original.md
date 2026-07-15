@@ -1,5 +1,3 @@
-# Page 69
-
 # D'EVCLIDE, LIV. I.
 
 *Req. à demonſtrer.*

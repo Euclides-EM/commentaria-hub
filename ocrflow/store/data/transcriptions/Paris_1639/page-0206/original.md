@@ -1,5 +1,3 @@
-# Page 206
-
 # LES ELEMENTS
 
 La proportion que definit icy Euclide, & de laquelle seulement il traicte en ce liure, est la geometrique, & y en a de deux sortes, l'vne continuë, en laquelle les quantitez entremoyennes sont prises deux fois, en sorte qu'il ne se faict aucune interruption de proportions, mais chaque quantité entremoyenne est consequente de la quantité precedente, & antecedente de la suiuante, comme si on dit, qu'il y a mesme raison de 4 à 6, que de 6 à 9. ceste proportion s'appellera contiuuë: mais l'autre se dit discrete ou discontinuë, en laquelle chaque quantité entremoyenne est prise vne fois seulement; en sorte qu'il se faict interruption des proportions, & aucune quantité n'est antecedente & consequente, mais antecedente seulement, ou consequente; comme si on dit qu'il y a mesme raison de 4 à 6, que de 10 à 15, ceste proportion sera appellée discrete ou discontinuë.

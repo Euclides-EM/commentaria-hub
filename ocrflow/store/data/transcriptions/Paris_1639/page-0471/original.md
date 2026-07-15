@@ -1,5 +1,3 @@
-# Page 471
-
 # ETYMOLOGIE.
 
 Perisciens, sont ceux qui demeurent aux Zones froides, ainsi nommez de *peri*, qui en Grec signifie à l'entour, & *scia* l'ombre.  t. 4. p. 94.

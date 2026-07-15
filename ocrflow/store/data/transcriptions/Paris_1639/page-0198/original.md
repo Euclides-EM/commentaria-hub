@@ -1,5 +1,3 @@
-# Page 198
-
 # LES ELEMENTS
 
 3.p.1 | oml *eſt* ⊙.

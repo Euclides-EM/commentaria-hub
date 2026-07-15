@@ -1,5 +1,3 @@
-# Page 164
-
 # LES ELEMENTS
 
 *Req.à demonſtr.*

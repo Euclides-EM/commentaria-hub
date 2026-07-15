@@ -1,5 +1,3 @@
-# Page 361
-
 # PRACTIQVE.
 
 partant estant donné le moindre nombre 3, l'excez 2, & le nombre des termes 7, on trouuera le plus grand nombre 15, en multipliant l'excez 2 par le nõbre des excez, qui en cet exemple est 6, & adioutant au produict 12, le moindre nombre qui est 3, & viendra 15 pour le plus grand nombre. Ayant ainsi trouué le plus grand 15, pour auoir la somme de tous les nombres, on adioustera ensemble le premier & dernier terme, à sçauoir 3 & 15, & viendra 18, qu'on multipliera par le nombre des termes qui est 7, & le produict sera 126, dont la moitié 63 est la somme de tous les nombres de la progression.

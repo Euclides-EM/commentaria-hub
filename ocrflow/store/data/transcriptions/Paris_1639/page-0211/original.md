@@ -1,5 +1,3 @@
-# Page 211
-
 # D'EVCLIDE, LIV. V.
 
 voudra continuellement proportionnelles, la raison de la premiere à la quatriesme est sesquialtere de la raison de la premiere à la troisiesme: à cause qu'il y a trois raisons entre la premiere & la quatriesme, & deux seulement entre la premiere & troisiesme.

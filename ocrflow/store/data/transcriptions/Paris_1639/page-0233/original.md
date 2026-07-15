@@ -1,5 +1,3 @@
-# Page 233
-
 # D'EVCLIDE, LIV. V.
 
 *Demonſtration.*

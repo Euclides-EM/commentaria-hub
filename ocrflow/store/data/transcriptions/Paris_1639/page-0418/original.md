@@ -1,5 +1,3 @@
-# Page 418
-
 # DES FORTIFICATIONS.
 
 Les nombres de cette table a raison de leurs grandeurs s'entresuiuent ainsi.

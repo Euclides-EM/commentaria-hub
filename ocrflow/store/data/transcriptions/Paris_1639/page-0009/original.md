@@ -1,5 +1,3 @@
-# Page 9
-
 *Annotation ſur l'Altimetrie.*
 
 La distance de la premiere station iusques à la seconde se peut faire égale à la distance, hauteur, ou interualle à mesurer, non seulement en l'vsage du baston de Iacob, comme nous auons monstré au 3.t. p. 131. mais aussi au graphometre, compas de proportion, & autres instruments propres à obseruer les quantitez des angles. Par exemple, afin que la ligne des stations AC, de la figure de la page 366 de ce liure, soit égale à la distance AB, qu'on desire trouuer, on fera l'angle BAC de la premiere station, de telle grādeur qu'on voudra, comme en cet exemple de 82 deg. qu'on soustraira de 180 deg. & restera 98 deg. dont la moitié est 49. Partant, si auparauant que de partir du poinct A, on faict l'angle ACB de l'instrument de 49 deg. & sans changer cet angle, on chemine vers C, iusques à ce qu'on voye les poincts A & B par les pinulles CF & CG, par la 6 du 1 des elem. la ligne des stations CA sera égale à la distāce requise AB.

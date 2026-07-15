@@ -1,5 +1,3 @@
-# Page 129
-
 # D'EVCLIDE, LIV. II.
 
 *Demonſtration.*

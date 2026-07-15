@@ -1,5 +1,3 @@
-# Page 150
-
 # LES ELEMENTS
 
 (figure)

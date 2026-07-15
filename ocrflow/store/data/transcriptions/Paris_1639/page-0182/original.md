@@ -1,5 +1,3 @@
-# Page 182
-
 # LES ELEMENTS
 
 *Requis à faire.*

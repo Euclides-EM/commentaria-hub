@@ -1,5 +1,3 @@
-# Page 465
-
 # ETYMOLOGIE.
 
 superficie plate, & *metron* vne mesure.  t. 3. p. 152.

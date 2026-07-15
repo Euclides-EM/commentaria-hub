@@ -1,5 +1,3 @@
-# Page 376
-
 # GEOMETRIE
 
 moyen de quelque instrument geometrique diuisé en degrez : ou sans Trigonometrie, en obseruant les proportions des costez des triangles rectangles, par le moyen d'vn quarré geometrique ou autre instrument, puis ordonnant les regles de trois, comme il est enseigné au 2 & 3 chapitre de la Geometrie practique du 3 tome.

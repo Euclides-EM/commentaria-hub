@@ -1,5 +1,3 @@
-# Page 26
-
 # LES ELEMENTS
 
 poursuiure ceste infinité, il appelle toutes autres figures rectilignes, circonscrites de plus de quatre lignes, d'vn nom general Multilateres.

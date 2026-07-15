@@ -1,5 +1,3 @@
-# Page 276
-
 # LES ELEMENTS
 
 *Req. à demonſtr.*

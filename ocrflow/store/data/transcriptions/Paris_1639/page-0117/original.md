@@ -1,5 +1,3 @@
-# Page 117
-
 # D'EVCLIDE, LIV. II.
 
 *Req. à demonſtr.*

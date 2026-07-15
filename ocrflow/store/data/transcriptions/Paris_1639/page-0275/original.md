@@ -1,5 +1,3 @@
-# Page 275
-
 # D'EVCLIDE, LIV. VI.
 
 c.8.6 | ba π ae 2|2 ae π ad, γ

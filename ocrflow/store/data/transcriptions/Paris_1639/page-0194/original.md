@@ -1,5 +1,3 @@
-# Page 194
-
 # LES ELEMENTS
 
 αβ.15.1 | ∠; fga,agb, / bgc,cgd, / dge, egf, *ſnt* 2|2 đe.

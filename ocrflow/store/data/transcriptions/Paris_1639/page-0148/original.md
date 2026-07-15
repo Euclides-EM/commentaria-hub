@@ -1,5 +1,3 @@
-# Page 148
-
 # LES ELEMENTS
 
 ſ.46.1 | □.af 2|2 □.bg, □.ae 2|2 □.eb. β

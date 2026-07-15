@@ -1,5 +1,3 @@
-# Page 116
-
 # LES ELEMENTS
 
 *Hypoth.*

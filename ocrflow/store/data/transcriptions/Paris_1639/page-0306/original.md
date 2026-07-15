@@ -1,5 +1,3 @@
-# Page 306
-
 # ARITHMETIQVE
 
 diuiser par 20 pour les reduire en liures, & ce faisant on aura pour 6480 deniers 540 sols, qui valent 27 liures.

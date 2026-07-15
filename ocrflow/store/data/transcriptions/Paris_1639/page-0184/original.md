@@ -1,5 +1,3 @@
-# Page 184
-
 # LES ELEMENTS
 
 (figure)

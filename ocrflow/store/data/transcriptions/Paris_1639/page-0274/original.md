@@ -1,5 +1,3 @@
-# Page 274
-
 # LES ELEMENTS
 
 SCHOLIE.

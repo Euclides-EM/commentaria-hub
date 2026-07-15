@@ -1,5 +1,3 @@
-# Page 443
-
 # DE LA GNOMONIQVE, OV HOROLOGEOGRAPHIE.
 
 Propos. 1. pag. 750. du 5.

@@ -1,5 +1,3 @@
-# Page 146
-
 # LES ELEMENTS
 
 *Demonſtration.*

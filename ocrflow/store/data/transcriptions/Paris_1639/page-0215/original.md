@@ -1,5 +1,3 @@
-# Page 215
-
 # D'EVCLIDE, LIV. V.
 
 XVII.

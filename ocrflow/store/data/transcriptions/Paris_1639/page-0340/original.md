@@ -1,5 +1,3 @@
-# Page 340
-
 # ARITHMETIQVE
 
 taine somme en la communauté. Pour la faire, il faut adiouster toutes les mises ensemble, & mettre la somme au premier lieu de la regle de trois ; le gain ou la perte au second lieu ; & au troisiesme, les mises de chacun : puis on fait autant de regles de trois qu'il y aura de mises.

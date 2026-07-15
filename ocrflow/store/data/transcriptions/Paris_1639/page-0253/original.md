@@ -1,5 +1,3 @@
-# Page 253
-
 # D'EVCLIDE, LIV. VI.
 
 α.7.5 | △ade π △dbe 2|2 △ade π △edc,

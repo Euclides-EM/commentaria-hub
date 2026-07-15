@@ -1,5 +1,3 @@
-# Page 79
-
 # D'EVCLIDE, LIV. I.
 
 THEOR. XVIII. PROPOS. XXVII.

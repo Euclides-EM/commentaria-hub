@@ -1,5 +1,3 @@
-# Page 337
-
 # PRACTIQVE.
 
 DE LA REGLE DE TROIS, *double ou composée.*

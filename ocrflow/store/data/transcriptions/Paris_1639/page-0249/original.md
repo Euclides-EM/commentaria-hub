@@ -1,5 +1,3 @@
-# Page 249
-
 # D'EVCLIDE, LIV. V.
 
 supposent qu'il y aye des nombres qui s'entresuiuent continuëment.

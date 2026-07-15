@@ -1,5 +1,3 @@
-# Page 417
-
 # DES FORTIFICATIONS.
 
 ∠AbL   AL   ∠bAL   bL

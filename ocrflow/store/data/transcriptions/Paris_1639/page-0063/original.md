@@ -1,5 +1,3 @@
-# Page 63
-
 # D'EVCLIDE, LIV. I.
 
 gne droicte, fait angles, ou elle fera deux angles droicts, ou égaux à deux droicts.

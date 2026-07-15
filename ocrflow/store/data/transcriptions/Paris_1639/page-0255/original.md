@@ -1,5 +1,3 @@
-# Page 255
-
 # D'EVCLIDE, LIV. VI.
 
 (figure)

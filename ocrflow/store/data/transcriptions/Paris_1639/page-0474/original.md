@@ -1,5 +1,3 @@
-# Page 474
-
 ## Fautes à corriger dans l'impression.
 
 | Page. | Ligne. | Erreur. | Correction. |

@@ -1,5 +1,3 @@
-# Page 37
-
 # D'EVCLIDE, LIV. I.
 
 1. a. c.

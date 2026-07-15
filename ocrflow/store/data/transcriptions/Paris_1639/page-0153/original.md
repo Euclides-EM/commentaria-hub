@@ -1,5 +1,3 @@
-# Page 153
-
 # D'EVCLIDE, LIV. III.
 
 SCHOL. V.

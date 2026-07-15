@@ -1,5 +1,3 @@
-# Page 48
-
 # LES ELEMENTS
 
 20. a. b.

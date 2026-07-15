@@ -1,5 +1,3 @@
-# Page 17
-
 # EXPLICATION DES CITATIONS.
 
 *Explication des Citations.*

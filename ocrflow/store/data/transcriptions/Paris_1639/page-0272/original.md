@@ -1,5 +1,3 @@
-# Page 272
-
 # LES ELEMENTS
 
 THEOR. XV. PROPOS. XXI.

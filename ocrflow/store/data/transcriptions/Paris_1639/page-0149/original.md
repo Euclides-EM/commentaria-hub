@@ -1,5 +1,3 @@
-# Page 149
-
 # D'EVCLIDE, LIV. III.
 
 (figure)

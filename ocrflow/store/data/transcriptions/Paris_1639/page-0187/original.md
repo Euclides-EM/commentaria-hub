@@ -1,5 +1,3 @@
-# Page 187
-
 # D'EVCLIDE, LIV. IV.
 
 2.4 | △acd *eſt equiangle* △fgh. α

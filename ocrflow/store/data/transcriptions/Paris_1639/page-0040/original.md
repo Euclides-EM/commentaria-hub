@@ -1,5 +1,3 @@
-# Page 40
-
 # LES ELEMENTS
 
 5. a. 1.

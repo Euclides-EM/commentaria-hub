@@ -1,5 +1,3 @@
-# Page 311
-
 # PRACTIQVE.
 
 *Trouuer des liures en multipliant vn nombre donné par ſols.*

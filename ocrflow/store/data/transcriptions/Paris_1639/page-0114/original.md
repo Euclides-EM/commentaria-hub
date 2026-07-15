@@ -1,5 +1,3 @@
-# Page 114
-
 # LES ELEMENTS
 
 SCHOL. I.

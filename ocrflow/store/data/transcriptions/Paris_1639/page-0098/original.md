@@ -1,5 +1,3 @@
-# Page 98
-
 # LES ELEMENTS
 
 45.1 | ◊cdef 2|2 a,

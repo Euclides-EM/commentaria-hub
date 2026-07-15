@@ -1,5 +1,3 @@
-# Page 123
-
 # D'EVCLIDE, LIV. II.
 
 *Req. à demonſtr.*

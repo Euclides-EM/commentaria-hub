@@ -1,5 +1,3 @@
-# Page 284
-
 # LES ELEMENTS
 
 3.a.1 | *gnom.* eng 2|2 c, β

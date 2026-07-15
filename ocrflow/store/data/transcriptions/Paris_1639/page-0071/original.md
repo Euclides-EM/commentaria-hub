@@ -1,5 +1,3 @@
-# Page 71
-
 # D'EVCLIDE, LIV. I.
 
 *Demonſtr.*

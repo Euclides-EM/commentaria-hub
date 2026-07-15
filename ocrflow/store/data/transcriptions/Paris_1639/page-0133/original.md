@@ -1,5 +1,3 @@
-# Page 133
-
 # D'EVCLIDE, LIV. III.
 
 gnée du centre sur laquelle tombe la plus grande perpendiculaire.

@@ -1,5 +1,3 @@
-# Page 352
-
 # ARITHMETIQVE
 
 Pour sçauoir en combien de temps il les pourra faire moudre, ie suppose 30 heures & trouue que le premier moulin en 30 heures en moudra 60 boisseaux, le second 45, le troisiesme 40, & le quatriesme 36, qui adioustez ensemble font 181 ; partant ordonnant la regle de trois ainsi, si

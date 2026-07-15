@@ -1,5 +1,3 @@
-# Page 256
-
 # LES ELEMENTS
 
 SCHOLIE.

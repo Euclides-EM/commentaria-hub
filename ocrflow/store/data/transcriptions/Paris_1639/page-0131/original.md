@@ -1,5 +1,3 @@
-# Page 131
-
 # D'EVCLIDE, LIV. III.
 
 (ornament)

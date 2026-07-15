@@ -1,5 +1,3 @@
-# Page 22
-
 # LES ELEMENTS
 
 XI.

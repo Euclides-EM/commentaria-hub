@@ -1,5 +1,3 @@
-# Page 462
-
 # ETYMOLOGIE.
 
 ou loy qu'on doit obseruer : d'où vient que les tables des sinus s'appellent canon mathematique, à cause qu'elles contiennét les proportions des costez des triangles rectilignes, à raison de leurs angles, & sont le fondement des calculs mathematiques.  t. 3, p. 5.

@@ -1,5 +1,3 @@
-# Page 336
-
 # ARITHMETIQVE
 
 Vne toise contient en longueur 72 poulces, & en quarré 5184 poulces. Vne aulne contient en longueur 43⅔ poulces, & en quarré 17161/9 poulces ; partant on dira, si

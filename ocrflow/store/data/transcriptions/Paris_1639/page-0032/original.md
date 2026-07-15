@@ -1,5 +1,3 @@
-# Page 32
-
 # LES ELEMENTS
 
 XXXIX.

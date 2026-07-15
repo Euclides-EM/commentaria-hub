@@ -1,5 +1,3 @@
-# Page 47
-
 # D'EVCLIDE, LIV. I.
 
 hyp. | 18 3|2 12 *l'excez des toutes eſt 6.*

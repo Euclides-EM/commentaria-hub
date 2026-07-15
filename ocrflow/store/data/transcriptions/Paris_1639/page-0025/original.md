@@ -1,5 +1,3 @@
-# Page 25
-
 # D'EVCLIDE, LIV. I.
 
 Toutes les figures planes encloses de tous costez de lignes droites, sont appellées figures Rectilignes, & aussi Polygones : d'où il appert que les figures planes enuironnées des lignes courbes sont appellées Curuilignes : mais celles qui sont circonscrites en partie de lignes droites, & en partie de courbes, sont appellées Mixtes.

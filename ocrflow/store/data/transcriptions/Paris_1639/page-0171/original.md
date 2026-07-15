@@ -1,5 +1,3 @@
-# Page 171
-
 # D'EVCLIDE, LIV. III.
 
 *Demonſtration du 2. cas.*

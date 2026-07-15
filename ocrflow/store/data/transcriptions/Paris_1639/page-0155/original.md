@@ -1,5 +1,3 @@
-# Page 155
-
 # D'EVCLIDE, LIV. III.
 
 1.c.17.1 | ∠feg 2|3 ┘,

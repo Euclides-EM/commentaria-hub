@@ -1,5 +1,3 @@
-# Page 333
-
 # PRACTIQVE.
 
 en quel degré du Zodiaque se fera leur conionction, on dira, si

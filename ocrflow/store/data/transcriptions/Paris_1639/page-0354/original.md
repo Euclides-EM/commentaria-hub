@@ -1,5 +1,3 @@
-# Page 354
-
 # ARITHMETIQVE
 
 16, & pour le second 10, tous deux auec le signe de moins ; puis faisant l'operation comme s'ensuit, viendra le mesme nombre 7⅔, pour le premier des incognus.

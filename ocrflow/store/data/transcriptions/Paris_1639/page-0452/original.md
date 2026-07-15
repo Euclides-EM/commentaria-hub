@@ -1,5 +1,3 @@
-# Page 452
-
 # DE LA GNOMONIQVE.
 
 (figure)

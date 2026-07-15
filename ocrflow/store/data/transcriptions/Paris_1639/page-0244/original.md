@@ -1,5 +1,3 @@
-# Page 244
-
 # LES ELEMENTS
 
 THEOR. XXIV. PROPOS. XXIV.

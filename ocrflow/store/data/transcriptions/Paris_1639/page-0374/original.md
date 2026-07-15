@@ -1,5 +1,3 @@
-# Page 374
-
 # TRIGONOMETRIE.
 
 *De la regle des trois costez.*

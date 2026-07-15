@@ -1,5 +1,3 @@
-# Page 65
-
 # D'EVCLIDE, LIV. I.
 
 *Demonſt.*

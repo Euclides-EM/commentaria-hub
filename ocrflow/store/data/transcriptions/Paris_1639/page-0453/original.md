@@ -1,5 +1,3 @@
-# Page 453
-
 # DE LA GNOMONIQVE.
 
 meridienne FA, les lignes horaires seront paralleles entr'elles, & par consequent des poincts Z, R, & autres de la ligne equinoctiale YS, on les tirera paralleles à la meridienne AXF.

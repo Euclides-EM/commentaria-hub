@@ -1,5 +1,3 @@
-# Page 371
-
 # TRIGONOMETRIE.
 
 AB —— ſ. de ∠C —— BC —— ſ. de ∠A

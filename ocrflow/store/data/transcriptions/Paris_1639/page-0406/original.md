@@ -1,5 +1,3 @@
-# Page 406
-
 # DES FORTIFICATIONS.
 
 le centre A, duquel, & de l'interualle AB, on descrira le cercle BGTQ, qu'on diuisera en parties égales par le moyen de BG, qui se trouuera en sa circonference autant de fois, qu'il y aura de costez au polygone proposé : comme en cet exemple, BG se trouuant cinq fois en la circonference, diuisera le cercle BGTQ en cinq parties égales.  Ayant ainsi diuisé le cercle, & mené les semi-diametres AB, AG, AT, &c. on fera tousiours l'angle HCF de 50 degrez : BI, TV, &c. égales à GE : GL, Tx, &c. égales à BF.  Puis ayant tiré GI, GV, TE, &c. & aussi FL, Lx, &c. si on fait les lignes des gorges LM, LY, &c. égales à la ligne de gorge FH : & les faces des bastions GN, GZ, &c. égales à la face BC, la construction de l'enceinte de la fortification BCHMNGZTQK sera acheué, de laquelle il faudra diuiser en deux parties égales vn chacun des angles B, C, H, M, N, &c. afin de pouuoir descrire plus facilement au dedans le rampart auec son parapet, & au dehors, la fausse-braye auec son parapet.

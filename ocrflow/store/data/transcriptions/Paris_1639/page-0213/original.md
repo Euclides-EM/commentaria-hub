@@ -1,5 +1,3 @@
-# Page 213
-
 # D'EVCLIDE, LIV. V.
 
 cedent, pour le comparer à l'antecedent & consequent, comme à vn seul.

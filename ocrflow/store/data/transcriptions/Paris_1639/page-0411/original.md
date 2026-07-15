@@ -1,5 +1,3 @@
-# Page 411
-
 # DES FORTIFICATIONS.
 
 tome en la page 194, exprimez par les lettres de la figure qui est en la page 192 : & aussi celles qui sont en la page 205 du mesme tome.

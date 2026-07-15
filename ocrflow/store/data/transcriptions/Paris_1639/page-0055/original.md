@@ -1,5 +1,3 @@
-# Page 55
-
 # D'EVCLIDE, LIV. I.
 
 *Req. à demonſtr.*

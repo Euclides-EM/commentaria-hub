@@ -1,5 +1,3 @@
-# Page 282
-
 # LES ELEMENTS
 
 faillant d'vn quarré, la solution se trouuera plus briefuement par ja methode suiuante, proposant le probleme ainsi.

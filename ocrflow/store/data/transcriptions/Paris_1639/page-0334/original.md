@@ -1,5 +1,3 @@
-# Page 334
-
 # ARITHMETIQVE
 
 6 *eſcus*, 10 *onc.* 4 *eſcus*. R. 10 *onc.*

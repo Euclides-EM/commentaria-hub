@@ -1,5 +1,3 @@
-# Page 186
-
 # LES ELEMENTS
 
 α.1.a.f | ∠cdb / +∠cda 2|2 ∠cad / +∠cda.

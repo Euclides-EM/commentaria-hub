@@ -1,5 +1,3 @@
-# Page 273
-
 # D'EVCLIDE, LIV. VI.
 
 tionelles, icelles lignes droictes seront aussi proportionelles.

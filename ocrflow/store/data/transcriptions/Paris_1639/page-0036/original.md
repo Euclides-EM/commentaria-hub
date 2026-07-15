@@ -1,5 +1,3 @@
-# Page 36
-
 # LES ELEMENTS
 
 IV.

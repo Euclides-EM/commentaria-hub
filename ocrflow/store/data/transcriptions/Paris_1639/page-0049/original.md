@@ -1,5 +1,3 @@
-# Page 49
-
 # D'EVCLIDE, LIV. I.
 
 PROBLEME I. PROPOSITION I.

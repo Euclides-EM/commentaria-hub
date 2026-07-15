@@ -1,5 +1,3 @@
-# Page 298
-
 # ARITHMETIQVE
 
 3 6 5 *multiplicande.*

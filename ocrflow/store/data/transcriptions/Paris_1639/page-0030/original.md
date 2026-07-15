@@ -1,5 +1,3 @@
-# Page 30
-
 # LES ELEMENTS
 
 (figure)

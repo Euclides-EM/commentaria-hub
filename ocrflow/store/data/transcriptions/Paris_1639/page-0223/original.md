@@ -1,5 +1,3 @@
-# Page 223
-
 # D'EVCLIDE, LIV. V.
 
 *Hypoth.*

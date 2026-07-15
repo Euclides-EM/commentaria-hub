@@ -1,5 +1,3 @@
-# Page 87
-
 # D'EVCLIDE, LIV. I.
 
 bc *commun.*

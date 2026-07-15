@@ -1,5 +1,3 @@
-# Page 210
-
 # LES ELEMENTS
 
 quatre grandeurs sont proportionnelles, la premiere à la quatriesme est dite auoir la raison triplée de la premiere a la seconde, & tousiours de mesme ordre, vne de plus, iusques à ce que la proportion soit acheuée.

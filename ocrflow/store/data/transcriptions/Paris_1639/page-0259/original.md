@@ -1,5 +1,3 @@
-# Page 259
-
 # D'EVCLIDE, LIV. VI.
 
 THEOR. VIII. PROPOS. VIII.

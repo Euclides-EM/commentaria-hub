@@ -1,5 +1,3 @@
-# Page 151
-
 # D'EVCLIDE, LIV. III.
 
 SCHOLIE II.

@@ -1,5 +1,3 @@
-# Page 239
-
 # D'EVCLIDE, LIV. V.
 
 *Hypoth. 1.*

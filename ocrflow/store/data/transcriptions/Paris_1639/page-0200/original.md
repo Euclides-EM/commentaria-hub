@@ -1,5 +1,3 @@
-# Page 200
-
 # LES ELEMENTS
 
 *Demonſtr.*

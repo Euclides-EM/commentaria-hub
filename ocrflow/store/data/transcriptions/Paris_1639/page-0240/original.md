@@ -1,5 +1,3 @@
-# Page 240
-
 # LES ELEMENTS
 
 (figure)

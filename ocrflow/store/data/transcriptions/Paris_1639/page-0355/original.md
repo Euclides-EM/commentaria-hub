@@ -1,5 +1,3 @@
-# Page 355
-
 # PRACTIQVE.
 
 que la grande tasse vaille 20 escus, ie diray que 20 escus, auec 100 escus que vaut le couuercle, font 120 escus ; & par consequent la petite tasse vaudra 40 escus, puis qu'elle vaut le tiers de ce que vaut la grande & le couuercle ensemble.

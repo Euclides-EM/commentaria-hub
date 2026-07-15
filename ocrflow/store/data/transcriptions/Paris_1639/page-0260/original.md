@@ -1,5 +1,3 @@
-# Page 260
-
 # LES ELEMENTS
 
 *Demonſtr.*

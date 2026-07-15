@@ -1,5 +1,3 @@
-# Page 145
-
 # D'EVCLIDE, LIV. III.
 
 *Demonſtr.*

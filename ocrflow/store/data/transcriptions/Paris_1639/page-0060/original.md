@@ -1,5 +1,3 @@
-# Page 60
-
 # LES ELEMENTS
 
 *Demonſtr.*

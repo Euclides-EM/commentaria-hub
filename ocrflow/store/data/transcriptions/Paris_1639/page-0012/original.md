@@ -1,5 +1,3 @@
-# Page 12
-
 # PROLEGOMENES.
 
 *Des principes des Mathematiques.*

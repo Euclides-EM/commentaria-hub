@@ -1,5 +1,3 @@
-# Page 317
-
 # PRACTIQVE.
 
 13 sols & ⅔. En quoy nous noterons que ⅔ d'vne liure, valent autant que le tiers de 2 liures.

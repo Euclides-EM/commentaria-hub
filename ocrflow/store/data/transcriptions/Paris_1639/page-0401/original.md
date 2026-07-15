@@ -1,5 +1,3 @@
-# Page 401
-
 # DES FORTIFICATIONS.
 
 *Methode de fortifier selon Errard.*

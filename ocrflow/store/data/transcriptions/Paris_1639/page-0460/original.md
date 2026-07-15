@@ -1,5 +1,3 @@
-# Page 460
-
 # ETYMOLOGIE.
 
 les lignes droictes menées des poincts trouuez en l'arc du tropique par ceux de la ligne equinoctiale, seront les lignes horaires requises du quadrant antique : le stile duquel doit estre perpendiculaire au plan du quadrant, de mesme qu'aux quadrants Italiques & Babyloniques.

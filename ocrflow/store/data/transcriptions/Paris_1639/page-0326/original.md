@@ -1,5 +1,3 @@
-# Page 326
-
 # ARITHMETIQVE
 
 *Exemple 5.*

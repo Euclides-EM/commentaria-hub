@@ -1,5 +1,3 @@
-# Page 23
-
 # D'EVCLIDE, LIV. I.
 
 XIV.

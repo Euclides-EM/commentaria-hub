@@ -1,5 +1,3 @@
-# Page 360
-
 # ARITHMETIQVE
 
 faire, comme en la diuision, en prenant la racine qu'on aura trouué pour quotient & pour diuiseur : comme en l'exemple suiuant la preuue du quotient est 7, que ie pose aux costé gauche & droict

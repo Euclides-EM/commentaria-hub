@@ -1,5 +1,3 @@
-# Page 357
-
 # PRACTIQVE.
 
 sé s'il est quarré, ou s'il n'est quarré, le plus grand nombre quarré contenu en iceluy. Or tout nombre se multipliant soy-mesme engendre son quarré, & multipliant son quarré il produict son cube : par exemple, 10 se multipliant engendre 100, qui est son quarré, & le mesme 10 multipliant son quarré 100, produist 1000, qui est son cube. Et parce qu'il n'y a point de precepte d'extraire la racine quarrée ny cube d'aucun nombre moindre que 100, on doit apprendre par cœur les quarrez & cubes des 9 premieres figures, qui sont les suiuantes.

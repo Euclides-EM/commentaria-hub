@@ -1,5 +1,3 @@
-# Page 303
-
 # PRACTIQVE.
 
 2 8 1

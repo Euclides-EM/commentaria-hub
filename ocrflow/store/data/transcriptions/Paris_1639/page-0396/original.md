@@ -1,5 +1,3 @@
-# Page 396
-
 # GEOMETRIE PRACTIQVE.
 
 *Trouuer le contenu d'vne sphere.*

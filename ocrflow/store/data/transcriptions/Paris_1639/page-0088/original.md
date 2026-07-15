@@ -1,5 +1,3 @@
-# Page 88
-
 # LES ELEMENTS
 
 (figure)

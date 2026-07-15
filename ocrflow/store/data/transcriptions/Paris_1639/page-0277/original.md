@@ -1,5 +1,3 @@
-# Page 277
-
 # D'EVCLIDE, LIV. VI.
 
 *Req. à demonſtr.*

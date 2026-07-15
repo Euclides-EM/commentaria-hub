@@ -1,5 +1,3 @@
-# Page 335
-
 # PRACTIQVE.
 
 DE LA REGLE DE TROIS *inuerse des fractions.*

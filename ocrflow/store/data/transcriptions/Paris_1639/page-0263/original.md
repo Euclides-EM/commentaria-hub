@@ -1,5 +1,3 @@
-# Page 263
-
 # D'EVCLIDE, LIV. VI.
 
 *Conſtr.*

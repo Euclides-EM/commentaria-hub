@@ -1,5 +1,3 @@
-# Page 228
-
 # LES ELEMENTS
 
 THEOR. XII. PROPOS. XII.

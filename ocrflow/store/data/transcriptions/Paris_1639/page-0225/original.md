@@ -1,5 +1,3 @@
-# Page 225
-
 # D'EVCLIDE, LIV. V.
 
 *Req. à demonſtr.*

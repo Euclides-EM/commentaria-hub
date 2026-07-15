@@ -1,5 +1,3 @@
-# Page 43
-
 # D'EVCLIDE, LIV. I.
 
 8. a. 1.

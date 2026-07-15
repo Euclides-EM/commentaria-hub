@@ -1,5 +1,3 @@
-# Page 415
-
 # DES FORTIFICATIONS.
 
 auec BD 4525″ & RG 4525″, fera 16250″ ou 162 1/2 toises pour BG costé du polygone externe  Et la moitié de BG est 81 1/4 pour BS ou SG.  Ostant la demie courtine Hr 36 de Hn 4947″, restera 1347 ou 13 47/100 toises, pour rn ou son égale rd.

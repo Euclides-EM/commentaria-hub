@@ -1,5 +1,3 @@
-# Page 130
-
 # LES ELEMENTS
 
 PROBL. II. PROPOS. XIV.

@@ -1,5 +1,3 @@
-# Page 323
-
 # PRACTIQVE.
 
 12 estant diuisé par ⅔ donne 18, & 3/4 estant diuisé par 2 donne 3/8 : pour faire l'operation les nombres se couchent ainsi.

@@ -1,5 +1,3 @@
-# Page 161
-
 # D'EVCLIDE, LIV. III.
 
 PROBL. III. PROPOS. XXV.

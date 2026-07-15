@@ -1,5 +1,3 @@
-# Page 165
-
 # D'EVCLIDE, LIV. III.
 
 *Requis à faire.*

@@ -1,5 +1,3 @@
-# Page 57
-
 # D'EVCLIDE, LIV. I.
 
 conuenient qui arriueroit, si ce concours se faisoit ailleurs, comme en la premiere figure sur le costé AC : en la seconde figure, au dedans du triangle ABC : & en la troisiesme figure, au dehors du triangle ABC.

@@ -1,5 +1,3 @@
-# Page 112
-
 # LES ELEMENTS
 
 *Explication par nombres.*

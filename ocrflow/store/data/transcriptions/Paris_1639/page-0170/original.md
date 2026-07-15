@@ -1,5 +1,3 @@
-# Page 170
-
 # LES ELEMENTS
 
 *Demonſtr. du 4.cas.*

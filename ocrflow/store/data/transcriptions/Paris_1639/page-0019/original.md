@@ -1,5 +1,3 @@
-# Page 19
-
 # D'EVCLIDE, LIV. I.
 
 Or les Mathematiciens, qui considerent les grandeurs separées de toute matiere, ne les peuuent exposer à la veuë que physiquement : comme en ceste definition, ils representent le poinct Mathematique par vn poinct Physique, tel qu'est le poinct A.

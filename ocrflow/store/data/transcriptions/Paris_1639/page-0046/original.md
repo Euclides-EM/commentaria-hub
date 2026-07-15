@@ -1,5 +1,3 @@
-# Page 46
-
 # LES ELEMENTS
 
 hyp. | 16 2|2 16,

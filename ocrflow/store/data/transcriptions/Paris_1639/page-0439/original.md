@@ -1,5 +1,3 @@
-# Page 439
-
 # DES FORTIFICATIONS.
 
 ## DE LA DEFENSE.

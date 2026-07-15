@@ -1,5 +1,3 @@
-# Page 280
-
 # LES ELEMENTS
 
 KI, par la 24. du 6. sont semblables entr'eux, & faut demonstrer que le parallelogramme AD, descrit sur AC, qui est la moitié de AB, est plus grand que le parallelogramme AG, descrit sur AK, ou autre partie de AB, plus grande ou plus petite que la moitié AC.

@@ -1,5 +1,3 @@
-# Page 14
-
 # EXPLICATION DES NOTES.
 
 *Explication des Notes.*

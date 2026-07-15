@@ -1,5 +1,3 @@
-# Page 343
-
 # PRACTIQVE.
 
 En cette question la mise du premier multipliée par son temps fait 2800 : & celle du second multipliée aussi par son temps faict 200 ; & à cause que le troisiesme doit auoir autant que le premier & second ensemble, i'adiouste ces deux produicts ensemble, & la somme est 3000, à laquelle doit estre égal le produict de la mise du troisiéme multipliée par son temps : & parce que sa mise est 500 lt. diuisant 3000 par 500, viendra 6 mois pour le temps du troisiesme.

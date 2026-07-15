@@ -1,5 +1,3 @@
-# Page 288
-
 # LES ELEMENTS
 
 (figure)

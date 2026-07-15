@@ -1,5 +1,3 @@
-# Page 95
-
 # D'EVCLIDE, LIV. I.
 
 conſtr. | be 2|2 ec,

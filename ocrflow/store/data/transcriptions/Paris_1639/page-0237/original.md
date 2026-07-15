@@ -1,5 +1,3 @@
-# Page 237
-
 # D'EVCLIDE, LIV. V.
 
 THEOR. XIX. PROPOS. XIX.

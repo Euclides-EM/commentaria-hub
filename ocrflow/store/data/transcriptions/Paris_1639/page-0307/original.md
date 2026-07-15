@@ -1,5 +1,3 @@
-# Page 307
-
 # PRACTIQVE.
 
 *De la ſouſtraction.*

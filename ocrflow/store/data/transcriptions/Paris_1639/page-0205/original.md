@@ -1,5 +1,3 @@
-# Page 205
-
 # D'EVCLIDE, LIV. V.
 
 superpartiente, multiple superparticuliere, & multiple superpartiente.

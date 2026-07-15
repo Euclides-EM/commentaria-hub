@@ -1,5 +1,3 @@
-# Page 193
-
 # D'EVCLIDE; LIV. IV.
 
 c.13 4. & 7.a.1 | ∠fab, ∠fba, ∠fbc, ∠fcb, ∠fcd, &c. *ſnt* 2|2 đe.

@@ -1,5 +1,3 @@
-# Page 179
-
 # D'EVCLIDE, LIV. IV.
 
 (figure)

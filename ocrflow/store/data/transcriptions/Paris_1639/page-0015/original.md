@@ -1,5 +1,3 @@
-# Page 15
-
 # EXPLICATION DES NOTES.
 
 Ɔ, ∪, *eſt vne circonference*.

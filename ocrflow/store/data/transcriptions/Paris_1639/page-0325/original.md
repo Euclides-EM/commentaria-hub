@@ -1,5 +1,3 @@
-# Page 325
-
 # PRACTIQVE.
 
 mier qui est 100 ; ce qui se faict facilement en retranchant 2 figures du costé droict, & trouue 58 32/100 ou 8/25 pour le requis.

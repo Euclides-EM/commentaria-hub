@@ -1,5 +1,3 @@
-# Page 41
-
 # D'EVCLIDE, LIV. I.
 
 hyp. | a 2|2 2c,

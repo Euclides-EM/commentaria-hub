@@ -1,5 +1,3 @@
-# Page 84
-
 # LES ELEMENTS
 
 THEOR. XXII. PROPOS. XXXII.

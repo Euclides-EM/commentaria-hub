@@ -1,5 +1,3 @@
-# Page 291
-
 (ornament)
 
 BRIEF TRAICTÉ DE L'ARITHMETIQVE PRACTIQVE.

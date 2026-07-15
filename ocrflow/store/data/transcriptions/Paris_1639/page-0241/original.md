@@ -1,5 +1,3 @@
-# Page 241
-
 # D'EVCLIDE, LIV. V.
 
 en raison égale seront proportionelles.

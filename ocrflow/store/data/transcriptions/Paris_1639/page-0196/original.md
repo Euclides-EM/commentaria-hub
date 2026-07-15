@@ -1,5 +1,3 @@
-# Page 196
-
 # LES ELEMENTS
 
 7.a.1 | ∩ae 2|2 3 *parties du* ⊙,

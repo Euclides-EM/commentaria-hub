@@ -1,5 +1,3 @@
-# Page 379
-
 # PRACTIQVE.
 
 *Mesurer vn interualle, comme AB.*

@@ -1,5 +1,3 @@
-# Page 287
-
 # D'EVCLIDE, LIV. VI.
 
 (figure)

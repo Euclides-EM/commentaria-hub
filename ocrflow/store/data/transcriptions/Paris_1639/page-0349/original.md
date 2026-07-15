@@ -1,5 +1,3 @@
-# Page 349
-
 # PRACTIQVE.
 
 *Exemple 3.*

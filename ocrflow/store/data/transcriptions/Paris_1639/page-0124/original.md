@@ -1,5 +1,3 @@
-# Page 124
-
 # LES ELEMENTS
 
 *La meſme demonſtration ſe peut faire ainſi.*

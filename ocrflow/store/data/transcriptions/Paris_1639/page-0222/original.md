@@ -1,5 +1,3 @@
-# Page 222
-
 # LES ELEMENTS
 
 le reste sera autant multiple du reste, comme la toute l'est de la toute.

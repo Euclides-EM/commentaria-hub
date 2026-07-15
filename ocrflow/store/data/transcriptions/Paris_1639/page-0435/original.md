@@ -1,5 +1,3 @@
-# Page 435
-
 # DES FORTIFICATIONS.
 
 On bat les places hautes des flancs pour oster les defenses ; cela se dit battre les defenses couuertes, cependant on gagne le fossé.

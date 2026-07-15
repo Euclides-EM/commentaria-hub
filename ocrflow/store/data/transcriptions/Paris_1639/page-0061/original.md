@@ -1,5 +1,3 @@
-# Page 61
-
 # D'EVCLIDE, LIV. I.
 
 *Demonſtr.*

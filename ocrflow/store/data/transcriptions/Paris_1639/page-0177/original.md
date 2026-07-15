@@ -1,5 +1,3 @@
-# Page 177
-
 # D'EVCLIDE, LIV. IV.
 
 touche chacun angle de la figure à l'entour de laquelle il est descrit.

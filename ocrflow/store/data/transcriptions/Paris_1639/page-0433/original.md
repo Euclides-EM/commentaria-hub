@@ -1,5 +1,3 @@
-# Page 433
-
 # DES FORTIFICATIONS.
 
 raisons, dont la premiere est, pour faire preuue du chemin & du passage, descouurant par ce moyen les dangers, mauuais pas & fondriers : la seconde est, afin que s'il suruient quelque alarme, ou accident inopiné, les petits canons soient les plus propres pour les faire auancer, & enuoyer là où sera le danger.  Au fond de chacun lict ou caisse de canon il y aura vn coffret plein de sacs remplis de balles & poudres, afin qu'on puisse tirer quelque coup aux cas inopinez : il faudra que les canonniers prennent bien garde de ne laisser entrer l'eau par la lumiere ou par la bouche du canon.  Quand il se rencontrera quelque mauuais passage, les Commissaires retiendront les pionniers iusques à ce que toute l'artillerie soit passée ; & quand quelque piece s'arrestera, il faudra faire arrester toutes les autres, afin que tous marchent ensemble.

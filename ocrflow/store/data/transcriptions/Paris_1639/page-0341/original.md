@@ -1,5 +1,3 @@
-# Page 341
-
 # PRACTIQVE.
 
 fait perte de 600 lt. par la mesme methode on eust trouué 75 lt. pour la perte du premier : 125 pour le second : 150 pour le troisiesme : & 250 pour le quatriesme.

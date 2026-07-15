@@ -1,5 +1,3 @@
-# Page 356
-
 # ARITHMETIQVE
 
 3 du second, deuienne égal au reste du second : & que le second prenant 2 du premier, soit triple du reste du premier.

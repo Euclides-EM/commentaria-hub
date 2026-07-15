@@ -1,5 +1,3 @@
-# Page 375
-
 # TRIGONOMETRIE.
 
 ple, ayant soustrait la somme des quarrez des deux costez ED & DI, qui est 544, du quarré de la base EI, qui vaut 900, restera 356, qu'on mettra au troisiesme lieu ; partant la regle de trois se fera ainsi par sinus,

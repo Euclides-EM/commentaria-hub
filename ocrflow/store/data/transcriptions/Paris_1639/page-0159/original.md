@@ -1,5 +1,3 @@
-# Page 159
-
 # D'EVCLIDE, LIV. III.
 
 1.a.1 | ∠cae + ∠cad 2|2 ∠dbc + ∠cad,

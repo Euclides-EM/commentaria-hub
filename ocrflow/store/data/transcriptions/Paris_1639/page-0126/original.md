@@ -1,5 +1,3 @@
-# Page 126
-
 # LES ELEMENTS
 
 PROBL. I. PROPOS. XI.

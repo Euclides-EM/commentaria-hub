@@ -1,5 +1,3 @@
-# Page 90
-
 # LES ELEMENTS
 
 7.a.1 | ∠abc + ∠c + ∠d + ∠def 2|2 6┘,

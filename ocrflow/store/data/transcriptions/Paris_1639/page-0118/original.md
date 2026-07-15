@@ -1,5 +1,3 @@
-# Page 118
-
 # LES ELEMENTS
 
 *Req. à demonſtrer.*

@@ -1,5 +1,3 @@
-# Page 16
-
 # EXPLICATION DES NOTES:
 
 multd..part.. a 2|2 multd..part.. c, *La multitude des parties de A eſt égale à la multitude des parties de C.*

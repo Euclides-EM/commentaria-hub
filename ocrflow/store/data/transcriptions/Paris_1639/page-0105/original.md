@@ -1,5 +1,3 @@
-# Page 105
-
 # D'EVCLIDE, LIV. II.
 
 (figure)

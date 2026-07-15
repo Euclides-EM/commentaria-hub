@@ -1,5 +1,3 @@
-# Page 407
-
 # DES FORTIFICATIONS.
 
 pieds, mais nous luy auons donné 8 pieds de hauteur, afin que toutes les parties plus internes de la figure qui est en la page 198, à laquelle appartient ledit profil, commandent à celles qui sont plus externes : la largeur ou espesseur de son rampart est de 60 pieds : son parapet est égal & semblable à celuy du rampart, (car tous les parapets sont egaux & semblables entr'eux, horsmis celuy du corridor, qui est en glacis) la largeur de sa lisiere doit estre de 5 ou 6 pieds : son fossé a 80 pieds de largeur, 10 pieds de profondeur, & 10 pieds de talu de chaque costé, & luy reste 60 pieds de largeur au fonds.

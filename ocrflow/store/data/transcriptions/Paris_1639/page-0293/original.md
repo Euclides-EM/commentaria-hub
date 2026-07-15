@@ -1,5 +1,3 @@
-# Page 293
-
 # PRACTIQVE.
 
 sous le 5, & ne restera rien : & parce qu'il ne reste rien, ie conclus qu'il n'y a point d'erreur en l'addition des quatre nombres du second exemple.

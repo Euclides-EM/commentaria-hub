@@ -1,5 +1,3 @@
-# Page 113
-
 # D'EVCLIDE, LIV. II.
 
 THEOR. VI. PROPOS. VI.

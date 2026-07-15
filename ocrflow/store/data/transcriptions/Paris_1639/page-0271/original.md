@@ -1,5 +1,3 @@
-# Page 271
-
 # D'EVCLIDE, LIV. VI.
 
 6.6 | ∠cad 2|2 ∠hfi,

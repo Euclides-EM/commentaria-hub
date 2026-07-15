@@ -1,5 +1,3 @@
-# Page 387
-
 # PRACTIQVE.
 
 (figure)

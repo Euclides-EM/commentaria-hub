@@ -1,5 +1,3 @@
-# Page 35
-
 # D'EVCLIDE, LIV. I.
 
 # PETITIONS OV DEMANDES.

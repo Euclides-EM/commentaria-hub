@@ -1,5 +1,3 @@
-# Page 296
-
 # ARITHMETIQVE
 
 6 fois 6 sont 36, & 6 & 6 sont 48, pour 6 fois 8.

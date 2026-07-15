@@ -1,5 +1,3 @@
-# Page 252
-
 # LES ELEMENTS
 
 THEOR. II. PROPOS. II.

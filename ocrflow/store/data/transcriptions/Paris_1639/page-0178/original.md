@@ -1,5 +1,3 @@
-# Page 178
-
 # LES ELEMENTS
 
 *Demonſtration.*

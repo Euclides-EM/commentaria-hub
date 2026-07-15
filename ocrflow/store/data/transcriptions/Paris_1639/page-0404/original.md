@@ -1,5 +1,3 @@
-# Page 404
-
 # DES FORTIFICATIONS.
 
 (figure)

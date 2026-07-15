@@ -1,5 +1,3 @@
-# Page 51
-
 # D'EVCLIDE, LIV. I.
 
 PROBL. III. PROPOS. III.

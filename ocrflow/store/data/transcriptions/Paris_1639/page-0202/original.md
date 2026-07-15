@@ -1,5 +1,3 @@
-# Page 202
-
 # LES ELEMENTS
 
 (ornament)

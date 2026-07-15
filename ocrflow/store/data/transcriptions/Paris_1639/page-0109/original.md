@@ -1,5 +1,3 @@
-# Page 109
-
 # D'EVCLIDE, LIV. II.
 
 *Hypoth.*

@@ -1,5 +1,3 @@
-# Page 238
-
 # LES ELEMENTS
 
 A, 21. B, 7. C, 12. D, 4.

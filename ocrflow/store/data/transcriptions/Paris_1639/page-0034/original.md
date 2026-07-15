@@ -1,5 +1,3 @@
-# Page 34
-
 # LES ELEMENTS
 
 parément, pour rendre la demonstration du requis plus briefue.

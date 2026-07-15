@@ -1,5 +1,3 @@
-# Page 304
-
 # ARITHMETIQVE
 
 1

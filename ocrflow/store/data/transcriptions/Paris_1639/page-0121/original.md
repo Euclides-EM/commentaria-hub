@@ -1,5 +1,3 @@
-# Page 121
-
 # D'EVCLIDE, LIV. II.
 
 1.a.f | □ad + □.db 2|2 □.ad + □.df. λ

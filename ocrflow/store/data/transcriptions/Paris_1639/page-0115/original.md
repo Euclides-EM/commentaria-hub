@@ -1,5 +1,3 @@
-# Page 115
-
 # D'EVCLIDE, LIV. II.
 
 *Explication par nombres*

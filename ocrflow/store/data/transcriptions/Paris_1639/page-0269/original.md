@@ -1,5 +1,3 @@
-# Page 269
-
 # D'EVCLIDE, LIV. VI.
 
 Les figures ABHG & CDFE sont posées semblablement sur AB & CD, à cause que les lignes AB & CD sont homologues, c'est à dire que l'vne n'est pas antecedent & l'autre consequent.

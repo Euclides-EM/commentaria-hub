@@ -1,5 +1,3 @@
-# Page 139
-
 # D'EVCLIDE, LIV. III.
 
 *Preparation.*

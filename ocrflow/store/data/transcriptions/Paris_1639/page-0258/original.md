@@ -1,5 +1,3 @@
-# Page 258
-
 # LES ELEMENTS
 
 THEOR. VII. PROPOS. VII.

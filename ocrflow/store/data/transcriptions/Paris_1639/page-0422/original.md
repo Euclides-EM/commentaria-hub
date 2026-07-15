@@ -1,5 +1,3 @@
-# Page 422
-
 # DES FORTIFICATIONS.
 
 ∠m   BC   ∠mBC   mC

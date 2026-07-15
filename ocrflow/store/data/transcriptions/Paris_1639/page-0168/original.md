@@ -1,5 +1,3 @@
-# Page 168
-
 # LES ELEMENTS
 
 ſymp. | aib *eſt* ⌓ *req.*

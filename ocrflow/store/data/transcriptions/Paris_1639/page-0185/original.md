@@ -1,5 +1,3 @@
-# Page 185
-
 # D'EVCLIDE, LIV. IV.
 
 7.a.1 | ∠dac,∠cab,∠abd,∠dbc, / ∠bca,∠acd,∠cdb,∠bda, *ſnt* 2|2 đe.

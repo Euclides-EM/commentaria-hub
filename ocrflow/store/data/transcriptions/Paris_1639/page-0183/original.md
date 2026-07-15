@@ -1,5 +1,3 @@
-# Page 183
-
 # D'EVCLIDE, LIV. IV.
 
 *Requis à faire.*

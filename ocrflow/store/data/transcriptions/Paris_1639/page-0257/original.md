@@ -1,5 +1,3 @@
-# Page 257
-
 # D'EVCLIDE, LIV. VI.
 
 *Demonſtr.*

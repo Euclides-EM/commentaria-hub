@@ -1,5 +1,3 @@
-# Page 144
-
 # LES ELEMENTS
 
 THEOR. IX. PROPOS. X.

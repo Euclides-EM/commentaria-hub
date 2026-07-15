@@ -1,5 +1,3 @@
-# Page 231
-
 # D'EVCLIDE, LIV. V.
 
 THEOR. XIV. PROPOS. XIV.

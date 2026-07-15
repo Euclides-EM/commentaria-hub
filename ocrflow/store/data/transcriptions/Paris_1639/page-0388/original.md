@@ -1,5 +1,3 @@
-# Page 388
-
 # GEOMETRIE
 
 8 vient 7056, dont la racine quarrée est 84, pour le contenu du triangle ABC. Que s'il y a fraction, on operera par la dixme.

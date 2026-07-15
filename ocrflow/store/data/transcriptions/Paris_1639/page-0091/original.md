@@ -1,5 +1,3 @@
-# Page 91
-
 # D'EVCLIDE, LIV. I.
 
 THEOR. XXVI. PROPOS. XXXVI.

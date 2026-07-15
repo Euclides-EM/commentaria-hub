@@ -1,5 +1,3 @@
-# Page 97
-
 # D'EVCLIDE, LIV. I.
 
 (figure)

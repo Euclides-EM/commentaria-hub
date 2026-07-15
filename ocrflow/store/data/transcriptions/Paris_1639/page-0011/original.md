@@ -1,5 +1,3 @@
-# Page 11
-
 (ornament)
 
 DE LA DIVISION

@@ -1,5 +1,3 @@
-# Page 221
-
 # D'EVCLIDE, LIV. V.
 
 3.5 | l *multipl..* b 2|2 m *multipl..* d,

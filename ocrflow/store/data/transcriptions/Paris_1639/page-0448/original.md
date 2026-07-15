@@ -1,5 +1,3 @@
-# Page 448
-
 # DE LA GNOMONIQVE.
 
 nuë la construction, comme en la precedente, ayant mené DN perpendiculaire à CTA, on aura le quadrant requis, qui aura PZ pour la ligne de 5 heures, AC pour 6 heures, LI pour 7 heures, &c.

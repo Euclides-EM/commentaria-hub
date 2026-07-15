@@ -1,5 +1,3 @@
-# Page 212
-
 # LES ELEMENTS
 
 XIII.

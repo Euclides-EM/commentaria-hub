@@ -1,5 +1,3 @@
-# Page 218
-
 # LES ELEMENTS
 
 aussi la composée de E & F, autant de fois qu'il y a de parties en AB égales à E: il est manifeste, que la composée de AB & CD, contient la composée de E & F, autant de fois que AB contient E: ce qu'il falloit demonstrer.

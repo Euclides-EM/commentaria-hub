@@ -1,5 +1,3 @@
-# Page 147
-
 # D'EVCLIDE, LIV. III.
 
 ſuppoſ. | d *eſt* • *d'attouch.* γ

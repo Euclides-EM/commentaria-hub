@@ -1,5 +1,3 @@
-# Page 305
-
 # PRACTIQVE.
 
 *Sçauoir quel nombre doit eſtre diuiſé par 6, afin que le quotient ſoit 17?*

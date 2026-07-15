@@ -1,5 +1,3 @@
-# Page 199
-
 # D'EVCLIDE, LIV. IV.
 
 4.1 | ∠abf 2|2 ∠aef, α

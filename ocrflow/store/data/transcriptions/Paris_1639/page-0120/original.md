@@ -1,5 +1,3 @@
-# Page 120
-
 # LES ELEMENTS
 
 THEOR. IX. PROPOS. IX.

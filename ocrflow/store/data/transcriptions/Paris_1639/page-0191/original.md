@@ -1,5 +1,3 @@
-# Page 191
-
 # D'EVCLIDE, LIV. IV.
 
 (figure)

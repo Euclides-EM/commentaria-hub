@@ -1,5 +1,3 @@
-# Page 283
-
 # D'EVCLIDE, LIV. VI.
 
 PROBL. IX. PROPOS. XXIX.

@@ -1,5 +1,3 @@
-# Page 399
-
 # DES FORTIFICATIONS.
 
 Ses defaux seront, qu'elle sera exposée aux courses des ennemis par la riuiere, & principalement si elle se gele : elle pourra estre surprise par icelle, on luy pourra aussi destourner le cours de la riuiere, ou bien luy empescher son cours pour la noyer.

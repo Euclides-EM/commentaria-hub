@@ -1,5 +1,3 @@
-# Page 111
-
 # D'EVCLIDE, LIV. II.
 
 1.c.4.2 | hg *eſt* □.ac,

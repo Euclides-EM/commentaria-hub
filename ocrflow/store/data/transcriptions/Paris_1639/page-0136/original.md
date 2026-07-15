@@ -1,5 +1,3 @@
-# Page 136
-
 # LES ELEMENTS
 
 (figure)

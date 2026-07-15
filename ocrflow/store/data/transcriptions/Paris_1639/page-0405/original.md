@@ -1,5 +1,3 @@
-# Page 405
-
 # DES FORTIFICATIONS.
 
 de quelque rapporteur, ou du compas de proportion : puis posant depuis B iusques à C 48 parties de telle eschelle qu'on voudra, pour la longueur de la face du bastion, on abbaissera DCH perpendiculaire à BP, & ayant mis 72 parties depuis D iusques à R,

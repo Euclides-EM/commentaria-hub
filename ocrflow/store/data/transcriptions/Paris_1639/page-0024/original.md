@@ -1,5 +1,3 @@
-# Page 24
-
 # LES ELEMENTS
 
 XVII.

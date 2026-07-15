@@ -1,5 +1,3 @@
-# Page 173
-
 # D'EVCLIDE, LIV. III.
 
 COROLL. IV.

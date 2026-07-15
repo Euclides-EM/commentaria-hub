@@ -1,5 +1,3 @@
-# Page 347
-
 # PRACTIQVE.
 
 6 { 9, a | 6 —— 54

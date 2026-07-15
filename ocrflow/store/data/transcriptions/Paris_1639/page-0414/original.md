@@ -1,5 +1,3 @@
-# Page 414
-
 # DES FORTIFICATIONS.
 
 donné 27 toises & 26″, il est manifeste que le logarithme de 27 toises & 26″ est 143539, que nous auons mis en cette regle.

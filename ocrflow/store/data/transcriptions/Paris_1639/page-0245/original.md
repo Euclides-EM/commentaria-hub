@@ -1,5 +1,3 @@
-# Page 245
-
 # D'EVCLIDE, LIV. V.
 
 *Demonſtr.*

@@ -1,5 +1,3 @@
-# Page 438
-
 # DES FORTIFICATIONS.
 
 (figure)

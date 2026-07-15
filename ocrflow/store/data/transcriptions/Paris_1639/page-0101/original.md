@@ -1,5 +1,3 @@
-# Page 101
-
 # D'EVCLIDE, LIV. I.
 
 *Hypoth.*

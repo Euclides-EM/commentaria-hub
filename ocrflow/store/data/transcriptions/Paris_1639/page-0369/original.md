@@ -1,5 +1,3 @@
-# Page 369
-
 # TRIGONOMETRIE.
 
 *Pour trouuer le mesme costé AB par logarithmes, l'operation se fera ainsi*

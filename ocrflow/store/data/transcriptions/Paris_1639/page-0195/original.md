@@ -1,5 +1,3 @@
-# Page 195
-
 # D'EVCLIDE, LIV. IV.
 
 PROBL. XVI. PROPOS. XVI.

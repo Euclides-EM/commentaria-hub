@@ -1,5 +1,3 @@
-# Page 137
-
 # D'EVCLIDE, LIV. III.
 
 15.d.1 | ca 2|2 cb,

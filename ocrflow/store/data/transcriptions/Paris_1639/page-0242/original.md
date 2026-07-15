@@ -1,5 +1,3 @@
-# Page 242
-
 # LES ELEMENTS
 
 *Hypoth.*

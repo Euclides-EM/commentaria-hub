@@ -1,5 +1,3 @@
-# Page 446
-
 # DE LA GNOMONIQVE.
 
 Propos. 3. pag. 754.

@@ -1,5 +1,3 @@
-# Page 313
-
 # PRACTIQVE.
 
 posées de sols, ou liures & sols, qu'on doit faire la diuision. Le tout comme on peut voir aux exemples precedens & suiuans.

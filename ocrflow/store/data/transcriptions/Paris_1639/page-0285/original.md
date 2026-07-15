@@ -1,5 +1,3 @@
-# Page 285
-
 # D'EVCLIDE, LIV. VI.
 
 1.ſ.1.d.2 | □.cd *eſt* 25,

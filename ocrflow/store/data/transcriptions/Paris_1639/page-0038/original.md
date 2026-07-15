@@ -1,5 +1,3 @@
-# Page 38
-
 # LES ELEMENTS
 
 1. a. g.

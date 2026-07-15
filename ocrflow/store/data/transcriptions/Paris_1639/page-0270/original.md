@@ -1,5 +1,3 @@
-# Page 270
-
 # LES ELEMENTS
 
 tion des raisons, & aussi de ces trois nombres proportionaux 9, 6, 4 ; dont la raison entremoyenne 9 à 6, ou 3 à 2 est repetée deux fois.

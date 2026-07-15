@@ -1,5 +1,3 @@
-# Page 81
-
 # D'EVCLIDE, LIV. I.
 
 opposé de mesme part ; & les deux internes de mesme part, égaux à deux droicts.

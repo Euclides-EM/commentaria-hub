@@ -1,5 +1,3 @@
-# Page 20
-
 # LES ELEMENTS
 
 ou esleué en vn endroit qu'en vn autre, mais elle est la plus courte de celles qui ont mesmes extremitez.

@@ -1,5 +1,3 @@
-# Page 99
-
 # D'EVCLIDE, LIV. I.
 
 THEOR. XXXIII. PROPOS. XLVII.

@@ -1,5 +1,3 @@
-# Page 29
-
 # D'EVCLIDE, LIV. I.
 
 égaux, mais n'est pas equilatere ny rectangle, comme GLMH.

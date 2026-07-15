@@ -1,5 +1,3 @@
-# Page 320
-
 # ARITHMETIQVE
 
 Les fractions de cet exemple se peuuent reduire en douziesmes, excepté 4/7, partant laissant 4/7, i'adiouste toutes les autres, & trouue 2 3/4 : puis i'adiouste les 4/7 auec 3/4, qui ensemble font 1 9/28, auec lesquels adioustant les 2 on aura 3 9/28, pour la somme des cinq fractions proposées.

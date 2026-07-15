@@ -1,5 +1,3 @@
-# Page 33
-
 # D'EVCLIDE, LIV. I.
 
 Le Postulat differe du Probleme de la seule facilité de construire, car il n'y a aucune difficulté d'exhiber le requis du postulat, & n'est pas besoin de monstrer que le requis se peut faire, ny comment, & par quelle methode il se peut faire : parce qu'au postulat la construction du requis, & la demonstration de la construction, sont d'elles-mesmes manifestes : mais au probleme, la construction du requis n'est pas si manifeste, qu'elle n'aye besoin de demonstration.
