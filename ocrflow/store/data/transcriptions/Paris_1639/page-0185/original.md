@@ -4,7 +4,7 @@
 6.1.& 1.a.1 | ea, ed, eb, ec *ſnt* 2|2 đe.
 concl. 6.d.4 | ⊙abcd *eſt circonſcrit au* □abcd.
 
-PROBL. X. PROPOS. X.
+## PROBL. X. PROPOS. X.
 
 Descrire vn triangle isoscele, qui ait vn chacun des angles qui sont à la base, double de l'autre.
 

@@ -30,7 +30,7 @@ SCHOLIE.
 
 Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts donnez A, B, C, qui ne soient en vne ligne droicte.
 
-PROBL. VI. PROPOS. VI.
+## PROBL. VI. PROPOS. VI.
 
 Dans vn cercle donné, inscrire vn quarré.
 

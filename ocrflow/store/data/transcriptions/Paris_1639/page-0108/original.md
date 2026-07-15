@@ -38,6 +38,6 @@ hyp. | cb *eſt* 5, β
 α | ad □.ac *eſt* 4,
 19.a.1 | cf + ad *ſnt* 14.
 
-THEOR. IV. PROPOS. IV.
+## THEOR. IV. PROPOS. IV.
 
 Si vne ligne droicte est couppée comme on voudra : le quarré de la toute est égal aux quarrez des parties, & a deux fois le rectangle contenu sous icelles parties.

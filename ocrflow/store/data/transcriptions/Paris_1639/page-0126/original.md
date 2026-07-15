@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-PROBL. I. PROPOS. XI.
+## PROBL. I. PROPOS. XI.
 
 Coupper vne ligne droicte donnée de telle sorte, que le rectangle contenu sous la toute & l'vn des segments, soit égal au quarré de l'autre segment.
 
@@ -38,6 +38,6 @@ conſtr. | de 2|2 ea.
 ▭.dg *commun. ſubtr.*
 concl. 3.a.1 | ah □.ag 2|2 gc ▭.abg.
 
-THEOR. XI. PROPOS. XII.
+## THEOR. XI. PROPOS. XII.
 
 Aux triangles amblygones, le quarré du costé qui soustient l'angle obtus, est plus grand que les

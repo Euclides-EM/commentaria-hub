@@ -10,7 +10,7 @@ conſtr. | ◊df 2|2 a,
 conſtr. | ◊dh 2|2 b,
 concl. 3.a.1 | ◊gf 2|2 a~b.
 
-PROBL. XIV. PROPOS. XLVI.
+## PROBL. XIV. PROPOS. XLVI.
 
 D'vne ligne droicte donnée, descrire vn quarré.
 

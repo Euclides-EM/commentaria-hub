@@ -41,7 +41,7 @@ conſtr. | ∠bic 2|2 ∠dfh,
 4 concl. α.c.16.3 | nl,nm,lm *touchent le* ⊙abc,
 5.concl 4 d.5 | △lmn *eſt circonſcrite au* ⊙abc.
 
-PROBL. IV. PROPOS. IV.
+## PROBL. IV. PROPOS. IV.
 
 Dans vn triangle donné descrire vn cercle.
 

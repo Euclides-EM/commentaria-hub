@@ -20,7 +20,7 @@ hyp. | ▭ac 2|2 ▭eg.
 12.a.1 | ∠abc 2|2 ∠efg,
 2 concl. 14.6 | ab π fg 2|2 ef π cb.
 
-THEOR. XII. PROPOS. XVII.
+## THEOR. XII. PROPOS. XVII.
 
 Si trois lignes droictes sont proportionelles, le rectangle contenu sous les extremes est égal au quarré de la moyenne: Et si le rectangle contenu sous les extrémes est égal au quarré de la moyenne, les trois lignes droictes seront proportionelles.
 

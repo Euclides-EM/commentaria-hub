@@ -11,7 +11,7 @@ hyp. | ∠abc 2|2 ∠def,
 
 De cette definition s'ensuit, que les segments semblables sont pareilles parties de leur tout, cōme le segment qui est le quart d'vn petit cercle est sēblable au segmēt qui est le quart d'vn grād cercle.
 
-THEOR. I. PROPOS. I.
+## THEOR. I. PROPOS. I.
 
 Trouuer le centre d'vn cercle donné.
 

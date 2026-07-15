@@ -13,7 +13,7 @@ ca,cd,cb n̄.ſnt 2|2 đe.
 *contr. 16. 1.*
 concl. 21.a.1 | ca,cd,cb n̄.ſnt 2|2 đe.
 
-THEOR. X. PROPOS. XVII.
+## THEOR. X. PROPOS. XVII.
 
 De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
 

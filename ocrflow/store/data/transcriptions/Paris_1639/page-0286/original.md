@@ -23,7 +23,7 @@ concl. ſ.14.5 | al + bg 2|2 bf.
 
 La premiere DC est à la seconde BC, comme la troisiesme AL à la quatriesme BF : & la cinquiesme BD est à la seconde BC, comme la sixiesme BG à la quatriesme BF : Mais la premiere DC & la cinquiesme BD ensemble font la seconde BC : partant la troisiesme AL & la sixiesme BG ensemble seront égaux à la quatriesme BF : ce qu'il falloit demonstrer.
 
-THEOR. XXII, PROPOS. XXXII.
+## THEOR. XXII, PROPOS. XXXII.
 
 Si deux triangles, qui ont deux costez proportionaux à deux costez, sont disposez selon vn angle, en sorte que leurs costez de mesme raison soient aussi paralleles : les autres costez d'iceux triangles se rencontreront directement.
 

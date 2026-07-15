@@ -28,7 +28,7 @@ ec *commun. add.*
 16.1 | ∠bec 3|2 ∠a,
 2.concl. 1.a.c | ∠bdc 3|2 ∠a.
 
-PROBL. VIII. PROPOS. XXII.
+## PROBL. VIII. PROPOS. XXII.
 
 De trois lignes droictes égales à trois lignes droictes données, descrire vn triangle : mais il faut que deux, de quelque façon qu'elles soient prises, soient plus grandes que l'autre ; d'autant que de tout triangle deux costez de quelque façon qu'ils soient prins, sont plus grands que l'autre.
 

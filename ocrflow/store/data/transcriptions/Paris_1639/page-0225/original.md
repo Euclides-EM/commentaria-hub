@@ -25,6 +25,6 @@ raō.. d π c 3|2 raō.. d π ab.
 
 En ceste demonstration, il est manifeste que IK, qui est multiple de D, se peut prendre en sorte, qu'elle soit plus grande que GH, & plus petite que HF. Car si, par exemple, on a pris HG plus grande que 6 D, & plus petite que 8 D, & HF plus grande que 12 D: pourueu que IK n'excede 12 D, & ne soit plus petite que 8 D, elle sera plus grande que HG, & plus petite que HF.
 
-THEOR. IX. PROPOS. IX.
+## THEOR. IX. PROPOS. IX.
 
 Les grandeurs qui ont mesme raison à vne mesme grandeur, sont égales entr'elles: Et celles-là

@@ -28,6 +28,6 @@ hyp. | fd 2|2 2fc,
 3.a.1 | af 2|2 db,
 concl. 19.a.d | af + db 2|2 2af.
 
-THEOR. VII. PROPOS. VII.
+## THEOR. VII. PROPOS. VII.
 
 Si vne ligne droicte est couppée comme l'on voudra: Les deux quarrez ensemble, sçauoir celuy de la toute, & celuy de l'vn des segments, sont égaux à deux fois le rectãgle contenu sous la toute & ledit segment, & au quarré de l'autre segment.

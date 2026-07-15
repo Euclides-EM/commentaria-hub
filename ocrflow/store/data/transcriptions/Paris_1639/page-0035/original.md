@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-# PETITIONS OV DEMANDES.
+## PETITIONS OV DEMANDES.
 
 I.
 

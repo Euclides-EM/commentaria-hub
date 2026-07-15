@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-THEOR. VII. PROPOS. VII.
+## THEOR. VII. PROPOS. VII.
 
 Si deux triangles ont vn angle égal à vn angle, & à l'entour d'vn autre angle les costez proportionaux, estans les troisiesmes angles de mesme espece: les triangles seront equiangles, & auront les angles égaux à l'entour desquels les costez sont proportionaux.
 

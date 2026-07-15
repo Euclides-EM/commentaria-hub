@@ -23,7 +23,7 @@ c.8.6 | ab π be 2|2 be π bd, ε
 4.6 | ba π ae 2|2 be π ed,
 concl. 16.6 | ▭.ab, ed 2|2 ▭.ae, eb.
 
-THEOR. XVII. PROPOS. XXIII.
+## THEOR. XVII. PROPOS. XXIII.
 
 Les parallelogrammes equiangles, son l'vn à l'autre en raison composée de celle de leurs costez.
 

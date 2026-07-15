@@ -13,7 +13,7 @@ hyp. 2.concl. | bc 2|2 ba,
 3.concl. α.1,a.1 | ∠a 2|2 ∠b,
 f.28 d.1 | △abc *eſt equiang.*
 
-THEOR. III. PROPOS. VI.
+## THEOR. III. PROPOS. VI.
 
 Si deux angles d'vn triangle sont égaux entr'eux, les costez soustendans iceux angles égaux, seront aussi égaux entr'eux.
 

@@ -36,6 +36,6 @@ hyp. | db *eſt* 2, β
 γβ | dg ▭.abd *eſt* 14,
 19.a.1 | ▭af + ▭dg *ſnt* 49.
 
-THEOR. III. PROPOS. III.
+## THEOR. III. PROPOS. III.
 
 Si vne ligne droicte est couppée comme on voudra : le rectangle contenu sous la toute & vne des parties, est égal au rectangle contenu sous icelles parties, & au quarré de la partie premierement prise.

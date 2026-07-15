@@ -22,7 +22,7 @@ concl. ergo | Ⅱ, gb 2|2 e, & hd 2|2 f,
 
 Ceste demonstration est manifeste du 3. ax. 1. car si des multitudes égales AB & CD, on oste multitudes égales AG & CH, par le 3. ax. du 1. les restes GB & HD seront multitudes égales: ce qu'il falloit demonstrer.
 
-THEOR. VII. PROPOS. VII.
+## THEOR. VII. PROPOS. VII.
 
 Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
 

@@ -7,7 +7,7 @@
 2 concl. 4.6 | bc π ac 2|2 ac π dc,
 3.concl. 4.6 | cb π ab 2|2 ab π bd.
 
-PROBL. I. PROPOS. IX.
+## PROBL. I. PROPOS. IX.
 
 D'vne ligne droicte donnée en oster vne partie demandée.
 
@@ -36,6 +36,6 @@ ag 2|2 ⅓ab.
 conſtr. | ad 2|2 ⅓af,
 concl. 4.d.5 | ag 2|2 ⅓ab.
 
-PROBL. II. PROPOS. X.
+## PROBL. II. PROPOS. X.
 
 Coupper vne ligne droicte donnée non couppée semblablement à vne ligne droicte donnée & couppée.

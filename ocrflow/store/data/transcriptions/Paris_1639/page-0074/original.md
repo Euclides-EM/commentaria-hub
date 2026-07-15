@@ -12,7 +12,7 @@ conſtr. | a 2|2 fd,
 conſtr. | c 2|2 gh,
 3.concl. 1.a.1 | gk 2|2 c.
 
-PROBL. IX. PROPOS. XXIII.
+## PROBL. IX. PROPOS. XXIII.
 
 A vne ligne droicte donnée, & à vn poinct donné en icelle, faire vn angle rectiligne égal à vn angle rectiligne donné.
 

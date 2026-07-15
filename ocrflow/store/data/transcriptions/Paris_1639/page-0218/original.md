@@ -2,7 +2,7 @@
 
 aussi la composée de E & F, autant de fois qu'il y a de parties en AB égales à E: il est manifeste, que la composée de AB & CD, contient la composée de E & F, autant de fois que AB contient E: ce qu'il falloit demonstrer.
 
-THEOR. II. PROPOS. II.
+## THEOR. II. PROPOS. II.
 
 Si la premiere est autant multiple de la seconde, que la troisiesme l'est de la quatriesme, & que la cinquiesme soit aussi autant multiple de la seconde que la sixiesme l'est de la quatriesme; la composée de la premiere, & de la cinquiesme, sera autant multiple de la seconde, que la composée de la troisiesme & de la sixiesme l'est de la quatriesme.
 

@@ -16,7 +16,7 @@ COROLLAIRE.
 
 De cette proposition il est euident, que si au cercle, vne ligne droicte est couppée en deux également & à angles droicts, par vne autre ligne droicte, le centre du cetcle sera en icelle couppante.
 
-THEOR. I. PROPOS. II.
+## THEOR. I. PROPOS. II.
 
 Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra ; la ligne droicte conjointe à iceux poincts tombera dedans le cercle.
 

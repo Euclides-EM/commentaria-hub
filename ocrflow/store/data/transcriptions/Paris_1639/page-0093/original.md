@@ -16,7 +16,7 @@ hyp. | △bcd 2|2 △bca,
 *contr. 9. a. 1.*
 concl. 21.a.1 | ad == bc.
 
-THEOR. XXX. PROPOS. XL.
+## THEOR. XXX. PROPOS. XL.
 
 Les triangles égaux constituez sur bases égales, & de mesme part, sont entre mesmes paralleles.
 
@@ -42,6 +42,6 @@ hyp. | △efd 2|2 △bca,
 *contr. 9. a. 1.*
 concl. 21.a.1 | ad == bf.
 
-THEOR. XXXI. PROPOS. XLI.
+## THEOR. XXXI. PROPOS. XLI.
 
 Si vn parallelogramme, & vn triangle ont vne mesme base, & sont entre mesmes paralleles; le parallelogramme sera double du triangle.

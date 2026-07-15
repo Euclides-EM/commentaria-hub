@@ -28,7 +28,7 @@ d.α | ∠adb 2|2 ∠acb,
 15.1 | ∠afd 2|2 ∠bfc,
 2 concl. 1 c.32.1 | ∠dac 2|2 ∠dbc.
 
-THEOR. XX. PROPOS. XXII.
+## THEOR. XX. PROPOS. XXII.
 
 Les figures de quatre costez inscrites au cercle, ont les angles opposez égaux à deux angles droits.
 

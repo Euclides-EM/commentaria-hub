@@ -22,7 +22,7 @@ concl. 4.1 | ae 2|2 eb.
 
 *[Figure]*
 
-PROBL. VI. PROPOS. XI.
+## PROBL. VI. PROPOS. XI.
 
 Sur vne ligne droicte donnée, & d'vn poinct donné en icelle, éleuer vne ligne droicte perpendiculaire.
 

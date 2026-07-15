@@ -5,7 +5,7 @@ conſtr. | ar 2|2 rs,
 14.5 | am 2|2 mo, γ
 concl. d.γ | am, mo, op, pq, qb *ſnt* 2|2 đe.
 
-PROBL. III. PROPOS. XI.
+## PROBL. III. PROPOS. XI.
 
 A deux lignes droictes données, trouuer la troisiesme proportionelle.
 
@@ -33,7 +33,7 @@ ab π bc 2|2 bc Ⅱ ad π de.
 concl. α.4.6 | ab π bc,
 | ad Ⅱ bc π de.
 
-PROBL. IV. PROPOS. XII.
+## PROBL. IV. PROPOS. XII.
 
 A trois lignes droictes données, trouuer la quatriesme proportionelle.
 

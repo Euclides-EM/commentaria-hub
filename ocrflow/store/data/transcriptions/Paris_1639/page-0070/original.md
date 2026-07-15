@@ -27,7 +27,7 @@ COROLL. III.
 
 Semblablement il est manifeste de cette proposition, que tous les angles d'vn triangle equilateral, & deux angles sur la base d'vn triangle isoscele, sont aigus.
 
-THEOR. XI. PROPOS. XVIII.
+## THEOR. XI. PROPOS. XVIII.
 
 De tout triangle, le plus grand costé soustient le plus grand angle.
 

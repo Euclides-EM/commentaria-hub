@@ -15,7 +15,7 @@
 1.concl. 26.3 | ∪ aic 2|2 ∪ dkf,
 2 concl. 3.a.1 | ∩abc 2|2 ∩def.
 
-THEOR. XXVI. PROPOS. XXIX.
+## THEOR. XXVI. PROPOS. XXIX.
 
 Aux cercles égaux, les circonferences égales, soustendent lignes droictes égales.
 
@@ -41,7 +41,7 @@ concl. 4.1 | ac 2|2 df.
 
 En cette proposition, & aux trois precedentes, ce qui est dit des cercles égaux, doit aussi estre entendu d'vn mesme cercle: car ce sera la mesme demonstration.
 
-PROBL. IV. PROPOS. XXX.
+## PROBL. IV. PROPOS. XXX.
 
 Coupper en deux également vne circonference donnée.
 

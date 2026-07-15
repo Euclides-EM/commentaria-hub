@@ -21,6 +21,6 @@ hyp. | a *eſt* • D. *en* bc,
 
 *Demonſtr. eſt au ſchol. 15.4.*
 
-PROBL. VII. PROPOS. XII.
+## PROBL. VII. PROPOS. XII.
 
 Sur vn ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle abaisser vne ligne perpendiculaire.

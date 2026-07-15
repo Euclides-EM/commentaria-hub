@@ -6,7 +6,7 @@ Semblablement quelconque grandeur estant donnée, pouuoir prendre vne autre plus
 
 La 4. demande a esté adjoustée par Clauius aux trois precedentes, qui sont d'Euclide
 
-# COMMVNES NOTIONS, AXIOMES *ou Sentences, qui s'appellent auſſi Maximes.*
+## COMMVNES NOTIONS, AXIOMES *ou Sentences, qui s'appellent auſſi Maximes.*
 
 1. a. 1.
 

@@ -4,7 +4,7 @@ Cette proposition est de soy manifeste, car de la mesme quantité que l'angle ob
 
 ∠ebc *commun. add.* Cette ligne & autres semblables, où il y aura *commun. add.* ou *commun. ſubtr.*, qui est à dire, commun adjoustez, ou commun ostez, on les peut sauter, & ne seruent qu'à monstrer, la quantité exprimée en cette ligne a esté adjoustée ou soustraicte des deux quantitez de la ligne prochaine superieure.
 
-THEOR. VII. PROPOS. XIV.
+## THEOR. VII. PROPOS. XIV.
 
 Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles de part & d'autre égaux à deux droicts : icelles lignes droictes se rencontreront directement l'vne l'autre.
 

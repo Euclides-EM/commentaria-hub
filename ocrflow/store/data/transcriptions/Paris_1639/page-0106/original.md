@@ -27,6 +27,6 @@ hyp. | eb *eſt* 4, δ
 αδ | ▭eg *eſt* 24,
 19.a.1 | 30, 18, 24, *ſnt* 72.
 
-THEOR. II. PROPOS. II.
+## THEOR. II. PROPOS. II.
 
 Si vne ligne droicte est couppée comme on voudra, les rectangles contenus sous la toute & chacune des parties, sont égaux au quarré de la toute.

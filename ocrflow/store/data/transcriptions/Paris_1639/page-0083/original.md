@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. I. -->
 
-PROBL. X. PROPOS. XXXI.
+## PROBL. X. PROPOS. XXXI.
 
 D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donnée.
 

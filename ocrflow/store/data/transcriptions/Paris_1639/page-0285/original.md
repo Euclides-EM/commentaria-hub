@@ -7,7 +7,7 @@
 β.2.a.1 | ad *eſt* 18,
 β.3.a.1 | db *eſt* 8.
 
-PROBL. X. PROPOS. XXX.
+## PROBL. X. PROPOS. XXX.
 
 Coupper vne ligne droicte proposée & terminée, selon la moyenne & extréme raison.
 
@@ -30,7 +30,7 @@ ba π ag 2|2 ag π gb.
 conſtr. | ▭.abg 2|2 □.ag,
 concl. 14.6 | ab π ag 2|2 ag π bg.
 
-THEOR. XXI. PROPOS. XXXI.
+## THEOR. XXI. PROPOS. XXXI.
 
 Aux triangles rectangles, la figure descrire sur le costé qui soustient l'angle droict, est égale aux deux figures des costez qui contiennent l'angle droict, semblables à icelle, & semblablement descrites.
 

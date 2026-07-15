@@ -20,7 +20,7 @@
 9.a.1 | ∠lgk 3|2 ∠cgb,
 2.concl. β.24.1 | kl Ⅱ fe 3|2 bc.
 
-THEOR. XV. PROPOS. XVI.
+## THEOR. XV. PROPOS. XVI.
 
 La ligne droite menée de l'extremité du diametre d'vn cercle, à angles droicts à iceluy diametre, tombera hors le cercle; & en l'espace compris entre icelle ligne droicte & la circonference ne tombera pas d'autre ligne droicte: & l'angle du demy cercle est plus grand que tout angle rectiligne aigu, mais le reste est plus petit.
 

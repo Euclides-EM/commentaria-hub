@@ -6,7 +6,7 @@
 conſtr. | d 2|2 ae,
 concl. 1.a.1 | ab 2|2 d.
 
-PROBL. II. PROPOS. II.
+## PROBL. II. PROPOS. II.
 
 Dedans vn cercle donné, inscrire vn triangle equiangle à vn triangle donné.
 
@@ -42,6 +42,6 @@ conſtr. | ∠e 2|2 ∠hac,
 conſtr. | ∠f 2|2 ∠gab,
 3.concl. 1.a.1 | ∠acb 2|2 ∠f.
 
-PROBL. III. PROPOS. III.
+## PROBL. III. PROPOS. III.
 
 A l'entour d'vn cercle donné, descrire vn triangle equiangle à vn triangle donné.

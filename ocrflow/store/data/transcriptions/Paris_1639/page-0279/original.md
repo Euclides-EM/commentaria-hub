@@ -26,7 +26,7 @@ hyp. | aefg *ſml.* abcd,
 | *contr. 9.a.1.*
 3.concl. 21.a.1 | afc *eſt* ——.
 
-THEOR. XX. PROPOS. XXVII.
+## THEOR. XX. PROPOS. XXVII.
 
 De tous les parallelogrammes appliquez selon vne mesme ligne droicte, & defaillans de figures parallelogrammes semblables, & semblablement posées à celuy qui est descrit sur la moitié, le plus grand est celuy qui est appliqué à la moitié estant semblable au defaut.
 

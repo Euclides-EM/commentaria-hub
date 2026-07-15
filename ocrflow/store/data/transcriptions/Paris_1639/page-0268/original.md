@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-PROBL. VI. PROPOS. XVIII.
+## PROBL. VI. PROPOS. XVIII.
 
 Sur vne ligne droicte donnée, descrire vne figure rectiligne semblable, & semblablement posée à vne figure rectiligne donnée.
 

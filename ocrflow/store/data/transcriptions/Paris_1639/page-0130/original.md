@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-PROBL. II. PROPOS. XIV.
+## PROBL. II. PROPOS. XIV.
 
 Descrire vn quarré égal à vn rectiligne donné.
 

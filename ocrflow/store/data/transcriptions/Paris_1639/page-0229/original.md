@@ -33,6 +33,6 @@ l π m 2|2 n π p.
 hyp. | a π b 2|2 c π d,
 concl. ſ.11.5 | l π m 2|2 n π p.
 
-THEOR. XIII. PROPOS. XIII.
+## THEOR. XIII. PROPOS. XIII.
 
 Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme; mais la troisiesme a plus grande raison à la quatriesme, que la cinquiesme à la sixiesme: aussi la premiere aura plus

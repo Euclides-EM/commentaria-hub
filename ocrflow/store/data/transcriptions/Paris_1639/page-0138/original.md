@@ -25,7 +25,7 @@ COROLLAIRE.
 
 De cette demonstration s'ensuit, qu'en tout triangle isoscele ou equilateral, la ligne menée de l'angle du sommet au milieu de la base est perpendiculaire à la base : & au contraire la ligne perpendiculaire à la base, menée de l'angle opposé, la couppera en deux également.
 
-THEOR. III. PROPOS. IV.
+## THEOR. III. PROPOS. IV.
 
 Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par le centre, elles ne se coupperont point l'vne l'autre en deux égalemēt.
 

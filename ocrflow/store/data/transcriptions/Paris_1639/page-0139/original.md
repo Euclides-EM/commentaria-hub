@@ -14,7 +14,7 @@ hyp. | af 2|2 fb,
 *contr. 9. a.. 1*
 concl. 21.a.1 | cf n̄. *eſt* 2|2 fd.
 
-THEOR. IV. PROPOS. V.
+## THEOR. IV. PROPOS. V.
 
 Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
 
@@ -38,6 +38,6 @@ e n̄. *eſt centr. du* ⊙bac, & *du* ⊙bdc.
 *contr. 9. a. 1.*
 concl. 21,a.1 | e n̄ *eſt centr. du* ⊙bac, & *du* ⊙bdc.
 
-THEOR. V. PROPOS. VI.
+## THEOR. V. PROPOS. VI.
 
 Si deux cercles se touchent l'vn l'autre au dedans, ils n'auront pas mesme centre.

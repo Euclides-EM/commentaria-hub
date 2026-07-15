@@ -9,7 +9,7 @@
 
 2 concl. 21.a.1 | fe ⊥ ab.
 
-THEOR. XVII. PROPOS. XIX.
+## THEOR. XVII. PROPOS. XIX.
 
 Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne droicte à angles droicts à la touchante, en icelle menée sera le centre du cercle.
 
@@ -38,6 +38,6 @@ hyp. | ∠ecb *eſt* ┘,
 
 concl. 21.a.1 | *centre du* ⊙ *eſt en* ec.
 
-THEOR. XVIII. PROPOS. XX.
+## THEOR. XVIII. PROPOS. XX.
 
 Au cercle, l'angle qui est au centre, est double de l'angle qui est à la circonference, quand ils ont pour leur base vne mesme circonference.

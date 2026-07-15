@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. V. -->
 
-THEOR. III. PROPOS. III.
+## THEOR. III. PROPOS. III.
 
 Si la premiere est autant multiple de la seconde, comme la troisiesme l'est de la quatriesme, & on prend les equimultiples de la premiere & de la troisiesme: en raison égale, la multiple de la premiere sera autant multiple de la seconde, que la multiple de la troisiesme le sera de la quatriesme.
 

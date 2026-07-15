@@ -15,7 +15,7 @@ hyp. | cb *eſt* 5, γ
 hyp. | cb *eſt* 5,
 concl. 1.ſ.1.d.2 | bd *eſt* 2⅗.
 
-THEOR. XII. PROPOS. XIII.
+## THEOR. XII. PROPOS. XIII.
 
 Aux triangles oxygones, le quarré du costé qui soustient l'angle aigu, est moindre que les quarrez des costez qui le contiennent, de deux fois le rectangle contenu sous l'vn des costez qui sont autour de l'angle aigu, sçauoir celuy sur lequel tombe la perpendiculaire, & de la ligne prise au dedans entre la perpendiculaire & l'angle aigu.
 

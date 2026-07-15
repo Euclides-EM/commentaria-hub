@@ -15,7 +15,7 @@ SCHOLIE.
 
 Or ceste demonstration a lieu seulement quand les quatre grandeurs sont de mesme genre; car la raison ne se trouue point aux grandeurs homogenes.
 
-THEOR. XVII. PROPOS. XVII,
+## THEOR. XVII. PROPOS. XVII,
 
 Si les grandeurs composées sont proportionelles, aussi estant diuisées elles seront proportionelles.
 

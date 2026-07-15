@@ -8,7 +8,7 @@ SCHOLIE.
 
 Par la mesme methode sera descrit le cercle à l'entour de quelconque figure equilaterale & equiangle.
 
-PROBL. XV. PROPOS. XV.
+## PROBL. XV. PROPOS. XV.
 
 En vn cercle donné, inscrire vn hexagone equilateral & equiangle.
 

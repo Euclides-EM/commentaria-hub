@@ -6,7 +6,7 @@ hyp. | a *multipl..* b 2|2 e *multipl..* f.
 hyp. | c *multipl..* d 2|2 e *multipl..* f,
 a.5 | a *multipl..* b 2|2 c *multipl..* d.
 
-THEOR. I. PROPOS. I.
+## THEOR. I. PROPOS. I.
 
 S'il y a tant de grandeurs qu'on voudra equimultiples d'autant d'autres grandeurs, chacune de la sienne; comme l'vne des grandeurs sera multiple d'vne; ainsi les toutes seront multiples des toutes.
 

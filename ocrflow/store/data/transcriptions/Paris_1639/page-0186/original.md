@@ -13,7 +13,7 @@ COROLLAIRE.
 
 Veu que les trois angles d'vn triangle sont égaux à deux droicts, il est manifeste que l'angle BAD est la cinquiesme partie de deux droicts.
 
-PROBL. XI. PROPOS. XI.
+## PROBL. XI. PROPOS. XI.
 
 En vn cercle donné, inscrire vn pentagone, equilateral & equiangle.
 

@@ -11,7 +11,7 @@ concl. 1.a.1 | ∠aib 2|2 ∠c.
 
 *[Figure]*
 
-PROBL. VI. PROPOS. XXXXIV.
+## PROBL. VI. PROPOS. XXXXIV.
 
 D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn angle rectiligne donné.
 
@@ -40,6 +40,6 @@ arbitr. | • b *eſt en la* ∩abc,
 conſtr. | ∠d 2|2 ∠caf,
 concl. 1.a.1 | ∠abc 2|2 ∠d,
 
-THEOR. XXIX. PROPOS. XXXXV.
+## THEOR. XXIX. PROPOS. XXXXV.
 
 Si au cercle deux lignes droites se coupent l'vne l'autre; le rectangle contenu sous les deux par-

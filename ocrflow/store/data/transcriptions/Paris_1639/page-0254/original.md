@@ -48,6 +48,6 @@ nota. 9.5 | ac 2|2 ac,
 29.1 | ∠dac 2|2 ∠ace,
 2 concl. 1.a.b | ∠dab 2|2 ∠dac.
 
-THEOR. IV. PROPOS. IV.
+## THEOR. IV. PROPOS. IV.
 
 Des triangles equiangles les costez qui sont autour des angles égaux, sont proportionaux: Et les costez qui soustiennent les angles égaux, sont homologues, ou de mesme raison.

@@ -5,7 +5,7 @@ SCHOLIE.
 Par cette demonstration il est manifeste, que la ligne droicte menée de quelconque poinct du diametre du cercle à la circonference, perpendiculaire à iceluy diametre, est moyenne proportionelle entre les segmens du diametre faits par la perpẽdiculaire, c'est à dire, que
 ae π ef 2|2 ef π eb.
 
-THEOR. IX. PROPOS. XIV.
+## THEOR. IX. PROPOS. XIV.
 
 Des parallelogrammes égaux qui ont vn angle égal à vn angle, les costez qui sont autour des angles égaux sont reciproques : Et les parallelogrammes qui ont vn angle égal à vn angle, & les costez autour des angles égaux reciproques, sont égaux.
 

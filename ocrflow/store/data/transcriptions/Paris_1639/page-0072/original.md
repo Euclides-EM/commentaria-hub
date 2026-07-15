@@ -8,7 +8,7 @@ hyp. | ∠adb *eſt* ┘,
 1.concl. 19.1 | ad 2|3 ab, α
 2.concl. d.α | ad 2|3 ac.
 
-THEOR. XIII. PROPOS. XX.
+## THEOR. XIII. PROPOS. XX.
 
 De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient prins.
 
@@ -40,6 +40,6 @@ ba *commun. add.*
 2.a.1 | ba + ac 2|2 bd,
 α.1.a.d | ba + ac 3|2 bc.
 
-THEOR. XIV. PROPOS. XXI.
+## THEOR. XIV. PROPOS. XXI.
 
 Si des extremitez d'vn costé de quelque triangle, on mene deux lignes droictes se rencontrans au dedans d'iceluy ; icelles seront plus petites que les deux autres costez du triangle, mais elles contiendront vn plus grand angle.

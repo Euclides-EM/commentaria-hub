@@ -35,6 +35,6 @@ hyp. | ∠agh + ∠chg 2|2 2┘.
 
 De cette proposition, & de la precedente, est manifeste, que les angles que fait vne ligne droicte, en couppant deux lignes droictes paralleles, sont respectiuement de trois denominations differentes, à sçauoir alternes, qui sont de diuers costez de la ligne couppante, comme AGH est alterne à DHG, & BGH est aussi alterne à CHG : L'externe & l'interne opposé de mesme part, comme BGE est externe, & son interne & opposé est DHG ; pareillement les externes DHF, FHC, & EGA, les internes & opposez de mesme part sont BGH, AGH, & EHC, chacun au sien : Les internes de mesme part sont, BGH & DHG, & aussi AGH & CHG.
 
-THEOR. XX. PROPOS. XXIX.
+## THEOR. XX. PROPOS. XXIX.
 
 Si vne ligne droicte tombe sur deux lignes droictes paralleles ; elle fera les angles alternes égaux entr'eux, & l'externe égal à son interne &

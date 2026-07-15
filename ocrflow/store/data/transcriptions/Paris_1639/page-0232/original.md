@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-THEOR. XV. PROPOS. XV.
+## THEOR. XV. PROPOS. XV.
 
 Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre respondent.
 
@@ -24,7 +24,7 @@ hyp. | f, dh, he *ſnt* 2|2 đe.
 ſ.7.5 | gb π he 2|2 c π f.
 concl. 12.5 | ab π de 2|2 c π f.
 
-THEOR. XVI. PROPOS. XVI.
+## THEOR. XVI. PROPOS. XVI.
 
 Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement proportionelles.
 

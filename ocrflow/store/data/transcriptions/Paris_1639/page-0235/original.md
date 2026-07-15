@@ -44,7 +44,7 @@ c.4.5 | ab π ac 2|2 de π df,
 1.concl. 17.5 | cb π ac 2|2 fe π df,
 2 concl. c.4.5 | ac π cb 2|2 df π fe.
 
-THEOR. XVIII. PROPOS. XVIII.
+## THEOR. XVIII. PROPOS. XVIII.
 
 Si les grandeurs diuisées sont proportionelles, estant composées, elles seront aussi proportionelles.
 

@@ -6,7 +6,7 @@ SCHOLIE.
 
 Par la mesme methode en toute figure equilaterale & equiangle se descrira le cercle.
 
-PROBL. XIV. PROPOS. XIV.
+## PROBL. XIV. PROPOS. XIV.
 
 A l'entour d'vn pentagone donné, equilateral & equiangle, descrire vn cercle.
 

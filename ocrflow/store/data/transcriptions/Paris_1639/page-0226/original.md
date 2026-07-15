@@ -33,7 +33,7 @@ a 2|2 b.
 | *contr. hyp.*
 concl. 21.a.1 | a 2|2 b.
 
-THEOR. X. PROPOS. X.
+## THEOR. X. PROPOS. X.
 
 Des grandeurs qui ont raison à vne mesme grandeur, celle-là qui a plus grande raison, est la plus grande: Mais celle-là à laquelle vne mesme grandeur a plus grande raison, est la plus petite.
 

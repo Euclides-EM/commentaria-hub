@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. IV. -->
 
-PROBL. XVI. PROPOS. XVI.
+## PROBL. XVI. PROPOS. XVI.
 
 En vn cercle donné, inscrire vn quintidecagone equilateral & equiangle.
 

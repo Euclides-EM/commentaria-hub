@@ -10,7 +10,7 @@ hyp. | abe == hf Ⅱ ik,
 2.d.2 | ehm 2|2 ◊bf + ◊bi + ◊ga *eſt gnomon.*
 2.d.2 | *Item* gka 2|2 ◊bf + ◊bi + ◊em *eſt gnomon.*
 
-THEOR. I. PROPOS. I.
+## THEOR. I. PROPOS. I.
 
 S'il y a deux lignes droictes, & que l'vne d'icelles soit couppée en tant de parties que l'on voudra, le rectangle contenu sous icelles deux lignes droites, est égal aux rectangles contenus sous la non couppée, & sous chacune des parties de la couppée.
 

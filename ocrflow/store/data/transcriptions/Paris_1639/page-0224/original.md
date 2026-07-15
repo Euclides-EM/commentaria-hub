@@ -22,7 +22,7 @@ SCHOLIE.
 
 Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par la mesme methode que les grandeurs égales ont mesme raison à d'autres grandeurs égales.
 
-THEOR. VIII. PROPOS. VIII.
+## THEOR. VIII. PROPOS. VIII.
 
 Des grandeurs inégales, la plus grande a plus grande raison à vne mesme que la plus petite: Et vne mesme grandeur a plus grande raison à la plus petite grandeur qu'à la plus grande.
 

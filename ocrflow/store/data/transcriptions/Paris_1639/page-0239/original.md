@@ -46,6 +46,6 @@ d 2|3 f.
 α.13.5 | f π e 3|2 a π b, Ⅱ d π e,
 3 concl. 10.5 | d 2|3 f.
 
-THEOR. XXI. PROPOS. XXI.
+## THEOR. XXI. PROPOS. XXI.
 
 S'il y a trois grandeurs, & d'autres égales à icelles en nombre, lesquelles soient prises deux à deux, & en mesme raison; & que leur proportion soit troublée, ou sans ordre: mais qu'en raison égale la premiere soit plus grande que la troisiesme; la quatriesme sera aussi plus grande que la sixiesme; & si égale, égale; & si plus petite, plus petite.

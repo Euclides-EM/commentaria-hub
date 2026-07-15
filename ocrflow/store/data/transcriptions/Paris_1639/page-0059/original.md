@@ -27,7 +27,7 @@ hyp. | bac *eſt* ∠D.
 
 *[Figure]*
 
-PROBL. V. PROPOS. X.
+## PROBL. V. PROPOS. X.
 
 Couper vne ligne droicte donnée & terminée en deux parties égales.
 

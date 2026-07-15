@@ -23,7 +23,7 @@ conſtr. | ∠akl 2|2 ∠akc,
 α | ad 3|2 ac. β
 7 concl. β | al, ac, ad n̄ *ſnt* 2|2 đe.
 
-THEOR. VIII. PROPOS. IX.
+## THEOR. VIII. PROPOS. IX.
 
 Si au dedans du cercle on prend quelque poinct, & d'iceluy poinct tombent plus de deux lignes droictes égales à la circonference: le poinct pris est le centre du cercle.
 

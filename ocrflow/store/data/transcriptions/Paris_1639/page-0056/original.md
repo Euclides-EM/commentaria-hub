@@ -19,7 +19,7 @@ hyp. 2.concl. | ∠bac 2|2 ∠bca,
 α.1.a.1 | ac 2|2 bc,
 23.d.1 | △abc *eſt equilat.*
 
-THEOR. IV. PROPOS. VII.
+## THEOR. IV. PROPOS. VII.
 
 Si des extremitez de quelque ligne droicte on meine deux lignes droictes, se rencontrant à vn poinct, des mesmes extremitez on n'en pourra pas mener deux autres égales à icelles, chacune à la sienne, & de mesme part, se rencontrant à vn autre poinct.
 

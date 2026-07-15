@@ -24,7 +24,7 @@ bc 3|2 ef.
 *contr. hypoth.*
 conel. 21.a.1 | ∠bac 3|2 ∠edf.
 
-THEOR. XVII. PROPOS. XXVI.
+## THEOR. XVII. PROPOS. XXVI.
 
 Si deux triangles ont deux angles égaux à deux angles, chacun au sien, & vn costé égal à vn costé; sçauoir est, ou celuy qui est adjacent à iceux angles égaux, ou bien celuy qui soustient l'vn d'iceux angles égaux : ils auront les autres costez égaux aux autres costez, chacun au sien, & l'autre angle égal à l'autre angle.
 

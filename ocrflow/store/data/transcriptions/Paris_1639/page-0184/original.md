@@ -20,7 +20,7 @@ ergo | ∠; e, h, g, f *ſnt* ┘;
 34.1.& 1.a.1 | ie,ih,ig,if *ſnt* 2|2 đe.
 concl. 5.d.4 | ⊙efg *eſt inſcrit au* □bd.
 
-PROBL. IX. PROPOS. IX.
+## PROBL. IX. PROPOS. IX.
 
 A l'entour d'vn quarré donné, descrire vn cercle.
 

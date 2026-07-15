@@ -25,7 +25,7 @@ hyp. | ab π be 2|2 db π bc,
 | △dbe π △dbe,
 2 concl. 9.5 | △abc 2|2 △dbe.
 
-THEOR. XI. PROPOS. XVI.
+## THEOR. XI. PROPOS. XVI.
 
 Si quatre lignes droictes sont proportionelles, le rectangle contenu sous les extrémes, est égal au rectangle contenu sous les moyennes: Et si le rectangle contenu sous les extrémes est égal au rectangle contenu sous les moyennes ; icelles quatre lignes droictes seront proportionelles.
 

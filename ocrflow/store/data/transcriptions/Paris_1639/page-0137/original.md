@@ -11,7 +11,7 @@ COROLLAIRE.
 
 De la demonstration de cette proposition il est manifeste, que la ligne droicte qui touche le cercle, en sorte qu'elle ne le couppe point, qu'elle le touche seulement à vn poinct.
 
-THEOR. II. PROPOS. III.
+## THEOR. II. PROPOS. III.
 
 Si dans le cercle quelque ligne droicte passant par le centre, couppe quelqu'autre ligne droicte, qui ne passe point par le centre, en deux également, elle la couppera aussi à angles droicts. Et si elle la couppe à angles droicts, elle la couppera aussi en deux également.
 

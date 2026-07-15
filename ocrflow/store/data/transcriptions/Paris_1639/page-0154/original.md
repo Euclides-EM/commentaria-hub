@@ -28,7 +28,7 @@ eonſtr. | ∠dbe *eſt* ┘,
 12.a.b | ∠dca *eſt* ┘,
 concl. c.16.3 | ac *touche le* ⊙dbc.
 
-THEOR. XVI. PROPOS. XVIII.
+## THEOR. XVI. PROPOS. XVIII.
 
 Si quelque ligne droicte touche vn cercle, & du centre à l'attouchement on mene vne ligne droite, elle sera perpendiculaire à la touchante.
 

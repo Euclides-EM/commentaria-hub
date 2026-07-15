@@ -6,7 +6,7 @@ hyp. | ac 2|2 cb, α
 α | □ak, □kf, / ſ.46.1 | □ci, □hg, *ſnt* 2|2 đe.
 concl. 19.a.b | □af 2|2 4□ac Ⅱ cb.
 
-THEOR. V. PROPOS. V.
+## THEOR. V. PROPOS. V.
 
 Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales, le rectangle contenu des parties inégales de la toute, auec le quarré de la section du milieu, est égal au quarré de la moitié de la toute.
 

@@ -29,7 +29,7 @@ acfb *eſt* 4∠,
 hyp. | af 3|2 ab,
 9.a.1 | ∠acf 3|2 ∠acb.
 
-THEOR. XXVIII, PROPOS. XXXII.
+## THEOR. XXVIII, PROPOS. XXXII.
 
 Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene quelque ligne droicte au cercle, le couppant; les angles qu'elle fait auec l'attouchante seront égaux aux angles qui sont aux segments alternes.
 

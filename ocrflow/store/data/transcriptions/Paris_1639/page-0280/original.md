@@ -27,6 +27,6 @@ c.43.1 | ◊κe 2|2 ◊ci,
 9.a.1 | ◊ce 3|2 *gnom.* mbn,
 2 concl. 1.a.c | ◊ce Ⅱ ◊ad 3|2 ◊ag.
 
-PROBL. VIII. PROPOS. XXVIII.
+## PROBL. VIII. PROPOS. XXVIII.
 
 A vne ligne droicte donnée appliquer vn parallelogramme égal à vne figure rectiligne donnée; defaillant d'vne figure parallelogramme, laquelle soit semblable à vn autre parallelogramme donné. Mais il faut que la figure rectiligne donnée, à laquelle il en faut appliquer vne égale, ne soit plus grande que celle qui est appliquée à la moitié de la ligne donnée; les defauts estans ſem-

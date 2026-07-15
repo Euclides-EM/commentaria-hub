@@ -12,7 +12,7 @@ hyp. | cd Ⅱ cb *eſt* 2,
 47.1 | □ fd *eſt* 10~√.20,
 ſ.46.1 | fd *eſt* √..10~√.20.
 
-PROBL. XII. PROPOS. XII.
+## PROBL. XII. PROPOS. XII.
 
 A l'entour d'vn cercle donné, descrire vn pentagone, equilateral & equiangle.
 

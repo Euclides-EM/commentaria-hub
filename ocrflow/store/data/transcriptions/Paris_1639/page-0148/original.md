@@ -24,7 +24,7 @@ ad 2|2 bc.
 ſ.46.1 | af 2|2 gb,
 2 concl. 6.a.1 | 2af Ⅱ ad 2|2 2gb Ⅱ bc.
 
-THEOR. XIV. PROPOS. XV.
+## THEOR. XIV. PROPOS. XV.
 
 Au cercle la plus grande ligne est le diametre; mais des autres, tousiours celle qui est plus proche du centre, est plus grande que celle qui en est plus esloignée.
 

@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-THEOR. XV. PROPOS. XXI.
+## THEOR. XV. PROPOS. XXI.
 
 Les rectilignes semblables à vne mesme figure rectiligne, sont aussi semblables entr'elles.
 
@@ -25,6 +25,6 @@ abc *ſml.* die.
 2.concl. 11.5 | ab π ac 2|2 di π de, γ
 3.concl. 6.6 | △abc *ſml.* △die,
 
-THEOR. XVI. PROPOS. XXII.
+## THEOR. XVI. PROPOS. XXII.
 
 Si quatre lignes droictes sont proportionelles, les figures rectilignes semblables, & semblablement descrites sur icelles, seront proportionelles: Et si les figures rectilignes semblables, & semblablement descrites sur lignes droictes sont propor-

@@ -24,7 +24,7 @@ hyp. | ⊙abc 2|2 ⊙def,
 β.3.a.1 | ∪ac 2|2 ∪df,
 concl. ſ.24.3 | ∪ ac 2|2 ∪ df.
 
-THEOR. XXIV. PROPOS. XXVII.
+## THEOR. XXIV. PROPOS. XXVII.
 
 Aux cercles égaux les angles appuyez sur circonferences égales sont égaux entr'eux; soit qu'ils y soient appuyez estant constituez aux centres, ou bien estant constituez aux circonferences.
 

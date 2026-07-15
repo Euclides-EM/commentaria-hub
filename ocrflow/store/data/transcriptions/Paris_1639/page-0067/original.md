@@ -19,7 +19,7 @@ aeb & ced *ſnt* ——.
 1.concl. 14.1 | ced *eſt* ——,
 2.concl. 1.ſ.15.1 | aeb *eſt* ——.
 
-THEOR. IX. PROPOS. XVI.
+## THEOR. IX. PROPOS. XVI.
 
 De tout triangle, vn costé estant prolongé, l'angle externe est plus grand que chacun des internes & opposez.
 

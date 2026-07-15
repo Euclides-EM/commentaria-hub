@@ -31,7 +31,7 @@ hyp. | ae Ⅱ eb *eſt* 2,
 9.a.1 | □.ab *eſt* 8,
 ſ.46.1 | ab *eſt* √.8.
 
-PROBL. VII. PROPOS. VII.
+## PROBL. VII. PROPOS. VII.
 
 A l'entour d'vn cercle donné, descrire vn quarré.
 

@@ -8,7 +8,7 @@ d.κ | ▭.aeb 2|2 ▭.geh,
 d.κ | ▭.dec 2|2 ▭.geh,
 4 concl. 1.a.1 | ▭.aeb 2|2 ▭.dec.
 
-THEOR. XXX. PROPOS. XXXVI.
+## THEOR. XXX. PROPOS. XXXVI.
 
 Si on prend quelque poinct hors le cercle, & d'iceluy tombent deux lignes droictes au cercle, l'vne desquelles couppe le cercle & l'autre le touche; le rectangle contenu sous toute la couppante, & sa partie de dehors pris entre le poinct & la circonference conuexe, est égal au quarré de la touchante.
 

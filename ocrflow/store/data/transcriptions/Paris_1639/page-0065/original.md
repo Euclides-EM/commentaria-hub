@@ -10,7 +10,7 @@ hyp. | ∠abd + ∠abc 2|2 2┘. α
 *contr. 9. a. 1.*
 concl. 21.a.1 | cbd *eſt* ——.
 
-THEOR. VIII. PROPOS. XV.
+## THEOR. VIII. PROPOS. XV.
 
 Si deux lignes droictes se coupent l'vne l'autre, elles feront les angles au sommet égaux entr'eux.
 

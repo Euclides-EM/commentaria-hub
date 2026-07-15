@@ -39,6 +39,6 @@ hyp. 2.nota | bd 2|2 bc,
 *contr. 9. a. 1.*
 concl. 21.a.1. | •d *eſt en* c.
 
-THEOR. V. PROPOS. VIII.
+## THEOR. V. PROPOS. VIII.
 
 Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & qu'ils ayent la base égale à la base, ils auront aussi l'angle contenu d'iceux costez égaux égal à l'angle.

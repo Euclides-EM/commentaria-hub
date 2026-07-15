@@ -46,6 +46,6 @@ c *eſt* • D.
 
 *[Figure]*
 
-THEOR. VI. PROPOS. XIII.
+## THEOR. VI. PROPOS. XIII.
 
 Quand vne ligne droicte tombant sur vne li-

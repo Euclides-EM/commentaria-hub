@@ -19,7 +19,7 @@ conſtr. | ∠b 2|2 ∠feg,
 2 concl. 1.a.1 | ∠b 2|2 fed,
 3.concl. 32.1 | ∠c 2|2 ∠efd.
 
-THEOR. VI. PROPOS. VI.
+## THEOR. VI. PROPOS. VI.
 
 Si deux triangles ont vn angle égal à vn angle, & les costez autour d'iceux angles égaux proportionaux, iceux triangles seront equiangles, & auront les angles égaux, sous lesquels les costez de mesme raison sont soustendus.
 
