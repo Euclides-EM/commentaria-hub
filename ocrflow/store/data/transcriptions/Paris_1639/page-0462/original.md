@@ -1,33 +1,31 @@
-# Page 461
+# Page 462
 
 # ETYMOLOGIE.
 
-*pho*, signifie renuerser, & mettre au rebours, & se prend pour vn changement d'ordre en son contraire.  t. 2, p. 75. alg.
+ou loy qu'on doit obseruer : d'où vient que les tables des sinus s'appellent canon mathematique, à cause qu'elles contiennét les proportions des costez des triangles rectilignes, à raison de leurs angles, & sont le fondement des calculs mathematiques.  t. 3, p. 5.
 
-Antarctique, *opposé à l'arctique*, vient de *anti*, qui en Grec signifie opposé, & *arctos*, vne ourse.  t. 4. p. 7.
+Castrametation, *logement d'armée*, vient de *castrametor*, qui en Latin signifie mesurer le camp.  t. 3. p. 258.
 
-Anteciens, en Grec *anti*, sign. opposé, & *oicos* maison : d'où vient le nom d'anteciens, qui signifie ceux qui sont sous vn mesme meridien, esloignez de l'equateur également vers diuers poles.  t. 4. p. 95.
+Catoptrique, en Grec *catoptron*, sign. vn miroir, d'ou vient la catoptrique, qui est la partie de l'optique qui traicte de la vision, qui se fait par le moyen des miroirs.  t. 5. p. 1. & 89.
 
-Antithese, *transposition*, vient de *anti*, qui en Grec sign. opposé, & *thesis*, position.  t. 2. p. 89. alg,
+Casemates, sont chambres ou espaces aux flancs des bastions, d'où auec canons & harquebuses on defend la ville, & s'appellent ainsi de *casa*, qui en Espagnol sign. maison, & *matar*, tuer.
 
-Antipodes, en Grec *anti*, sign. opposé, & *podos* du pied, d'où vient le nom d'antipodes, qui signifie estre opposé par le diametre de la terre.  t. 4. p. 95.
+Censique, *quarré*, vient de *census*, qui en Latin signifie rente.
 
-Apocatastase, est vn mot Grec, qui signifie restitution, & se prend pour le temps que mettent plusieurs planetes à retourner à la mesme situation où elles auoient esté auparauant.  t. 5. p. 455.
+Chiromance vient de *cheir*, qui en Grec signifie la main, & *mantis* deuineur.
 
-Apogée, en Grec *apo* signifie *de*, & *ge* la terre : d'où vient apogée, qui sign. l'endroit du ciel plus esloigné de la terre.  t. 5. p. 271.
+Chorographie, *description de region*, vient de *chora*, qui en Grec sign. region, & *graphia*, description.  t. 4. p. 3.
 
-Aranée, ainsi nommée de *aranea*, qui en Latin sign. vne araigne, & aussi la toile d'araigne, est vne pellicule composée des ciliaires, & de crystalloïdes, qui est la pellicule qui enuironne l'humeur crystalline.  t. 5. p. 5.
+Choroïde, vient de *chora*, qui en Grec sign. region, & aussi vn lieu ou espace à contenir quelque chose.  t. 5. p. 6.
 
-Arctique, vient de *arctos*, qui en Grec signifie vne ourse.  t. 4. p. 7.
+Chronologie, *traicté de la suite du temps*, est composé de *chronos*, qui en Grec signifie le temps, & *logos* discours ou raison.  t. 2. p. 138, & t. 5. p. 456.
 
-Astrolabe, en Grec *astron* sign. astre, & *labe* vne anse : d'où vient le nom d'astrolabe, qui est vn instrument plat & rond, propre à obseruer les astres.
+Chrome vient de *chroma*, qui en Grec signifie couleur, & aussi qualité ou douceur du chant.  t. 5. p. 817.
 
-Astrologie, est composé de *astron*, & de *logos*, qui en Grec sign. parole ou discours.  t. 4. p. 3.
+Cissoïde, en Grec *cissos*, sign. du lierre, & *eidos* espece ou figure, d'où vient le nom d'vne ligne courbe, semblable à vne anse de panier.  t. 2. p. 3. alg.
 
-Astronomie, est composé de *astron* & de *nomos*, qui en Grec signifie loy ou maniere de faire.  t. 4. p. 2.
+Climat, en Grec *climax*, sign. eschelle, & aussi les degrez d'vne montée : d'où vient le nom des climats, qui sont comme des degrez d'vn escalier, pour descendre de l'equateur vers les deux poles de la terre, chacun desquels l'enuironnant, est parallele à l'equateur, & sont de diuers temperaments.  t. 4. p. 87.
 
-Barypicni, *frequence des graues*, vient de *barys*, qui en Grec sign. pesant & graue, & *pycnos*, dru & frequent.  t. 5. p. 823.
+Coëfficient, en Latin *con*. sign. auec, & *efficio* faire : d'où vient *coëfficient*, qui signifie vne chose, laquelle auec vne autre fait quelque chose.  t. 2. p. 7. alg.
 
-Bissexte, en Latin *bis*, sign. deux fois, & *sextum* sixiesme : d'où vient le nom de l'année bissexte, en laquelle le sixiesme des Calendes de Mars, se conte deux fois.  t. 2. p. 142.
-
-Canon, en Grec sign. regle à tirer lignes droictes, & aussi la regle
+Comma vient de *copto*, qui en Grec sign. coupper.  t. 5. p. 805.

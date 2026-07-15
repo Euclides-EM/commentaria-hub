@@ -1,48 +1,42 @@
-# Page 184
+# Page 185
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. IV.
 
-(figure)
+7.a.1 | ∠dac,∠cab,∠abd,∠dbc, / ∠bca,∠acd,∠cdb,∠bda, *ſnt* 2|2 đe.
+6.1.& 1.a.1 | ea, ed, eb, ec *ſnt* 2|2 đe.
+concl. 6.d.4 | ⊙abcd *eſt circonſcrit au* □abcd.
 
-*Conſtruction.*
+PROBL. X. PROPOS. X.
 
-10.1 | ah 2|2 hd, bf 2|2 fc,
-0.1 | ae 2|2 eb, dg 2|2 gc,
-1.p.1 | hf & eg *ſnt* ——,
-3:p.1 | iefgh *eſt* ⊙,
-ſymp. | ⊙efgh *eſt le requis.*
-
-*Demonſtr.*
-
-7.a.1 | ah, hd, bf, fc, ae, eb, dg, gc *ſnt* 2|2 đe.
-33.1 | hf == ab & dc,
-33.1 | eg == ad & bc,
-2.ſ.29.1 | ia,id,ib,ic *ſnt* ▭,
-ergo | ∠; e, h, g, f *ſnt* ┘;
-34.1.& 1.a.1 | ie,ih,ig,if *ſnt* 2|2 đe.
-concl. 5.d.4 | ⊙efg *eſt inſcrit au* □bd.
-
-PROBL. IX. PROPOS. IX.
-
-A l'entour d'vn quarré donné, descrire vn cercle.
+Descrire vn triangle isoscele, qui ait vn chacun des angles qui sont à la base, double de l'autre.
 
 (figure)
 
-*Hypoth.*
+*Requis à faire.*
 
-abcd *eſt* □ D.
-
-*Req. à faire.*
-
-*circõſcrire au* □abcd *le* ⊙abcd,
+△abd *iſoſcele*,
+∠abd 2|2 2∠bad,
+∠adb 2|2 2∠bad.
 
 *Conſtr.*
 
-1.p.1. | ac & bd *ſnt* ——,
-3.p.1 | eabcd *eſt* ⊙,
-ſymp. | ⊙eabcd *eſt le requis.*
+arbitr. | ab *eſt* ——,
+3.p.1 | abd *eſt* ⊙,
+11.2 | ▭.abc 2|2 □.ac,
+1.4 | bd 2|2 ac,
+1.p.1. | ad *eſt* ——,
+ſymp. | △abd *eſt le requis.*
+
+*Preparation.*
+
+1.p.1 | dc *eſt* ——,
+5.4 | acd *eſt* ⊙ *circonſcrit au* △acd.
 
 *Demonſtr.*
 
-2.c.4.2 | ∠cab 2|2 ∠cad, ∠dba 2|2 ∠dbc,
-29.d.1 | ∠; dab, abc, bcd, cda *ſnt* ┘;
+1.concl. 15.d.1 | ab 2|2 ad,
+conſtr. | ▭.abc 2|2 □.ac, / Ⅱ □.bd,
+37.3 | bd *touche le* ⊙acd,
+1.nota 32.3 | ∠cad 2|2 ∠cdb. α
+5.1 | ∠abd 2|2 ∠adb. β
+19.a.1 | ∠adb2|2 ∠cdb + ∠cda

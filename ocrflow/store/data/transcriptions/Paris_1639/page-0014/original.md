@@ -1,5 +1,111 @@
-# Page 13
+# Page 14
 
-# PROLEGOMENES.
+# EXPLICATION DES NOTES.
 
-Et n'a pas expliqué en ces Elements tous les principes Geometriques, ains il y a beaucoup d'autres Axiomes, desquels Euclide & ses Interpreses se seruent sans les auoir expliqué aux premices, lesquels s'ils n'estoient concedez, leurs demonstrations ne prouueroient rien. Mais nostre methode, en laquelle on ne peut rien dire qu'il n'aye esté expliqué aux premices, ny rien affirmer qu'il ne soit confirmé par la citation de ce qui a esté expliqué & concedé auparauant, requiert que tous les principes dont on se veut seruir aux demonstrations soient premierement expliquez : partant, encore que les autres Axiomes se puissent entendre facilement de ceux qu'a expliqué Euclide, & que la pluspart d'iceux sont si manifestes, qu'ils n'ont besoin d'aucune explication, neantmoins nous auons mis au rang des Axiomes, afin de les pouuoir citer au besoin, tous ceux dont Euclide & ses Interpretes se seruent comme de choses manifestes, sans les auoir premierement expliqué : Et afin de ne changer point l'ordre des Axiomes d'Euclide, ceux que nous auons adjousté, horsmis le dernier, nous les auons mis en suite de ceux auec lesquels ils ont plus d'affinité & similitude, auec des lettres de l'alphabet, pour les distinguer des autres, qui sont d'Euclide, ou adjoustez par Clauius, la version & ordre duquel nous auons suiui.
+*Explication des Notes.*
+
+add. adde, *adjouſtez*.
+
+arbitr. *arbitraire*.
+
+attouch. *attouchement*.
+
+circſcr. *circonſcrite*.
+
+commun. *commune*.
+
+contr. *contraire*.
+
+D. *donné*.
+
+demonſtr. *demonſtration*.
+
+diamet. *diametre*.
+
+elem. *elements*.
+
+equiang. *equiangle*.
+
+equilat. *equilateral*.
+
+gnom. *gnomon*.
+
+interſect. *interſection*.
+
+magd. *magnitude*.
+
+mſur: *meſure*.
+
+multd. *multitude*.
+
+multipl. *multiple*.
+
+ñ. *non*.
+
+par. *partie*.
+
+part. *parties*.
+
+prepar. *preparation*.
+
+propoſ. *propoſition*.
+
+raõ. *raiſon*.
+
+req. *requis*.
+
+req. π. demonſtr. *Requis à demonſtrer*.
+
+ſemic. *demy-cercle*.
+
+ſml. *ſemblable*.
+
+ſnt. *ſont*.
+
+ſubtr. ſubtrahe, *oſtez*.
+
+γ. *racine ou coſté*.
+
++. *plus*.
+
+~. *moins*.
+
+.~: *difference*.
+
+ꝗe. *entr'elles, ou entr'eux*.
+
+Ⅱ, *ou*.
+
+π, *a*.
+
+5∠. *pentagone*.
+
+6∠. *hexagone, &c*.
+
+==, *parallele*.
+
+⊥, *perpendiculaire*.
+
+.. *de*
+
+; *ſignifie le plurier*.
+
+2|2 *egale*.
+
+3|2 *plus grande*.
+
+2|3 *plus petite*.
+
+¼ *vn quart*.
+
+⅔ *deux tiers*.
+
+• *eſt vn poinct*.
+
+—— *eſt vne ligne droicte*.
+
+<, ∠, *eſt vn angle*.
+
+⌐ *eſt vn angle droict*.
+
+⊙ *eſt vn cercle*.

@@ -1,42 +1,42 @@
-# Page 136
+# Page 137
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-(figure)
-
-eg *eſt commun.*
-
-α.15.d.1 | ga 2|2 gc,
-8.1 | ∠ceg 2|2 ∠aeg,
-10.d.1 | ∠ceg *eſt* ┘,
-conſtr. | ∠ceb *eſt* ┘,
-12.a.1 | ∠ceg 2|2 ∠ceb,
-*contr. 9. a. 1.*
-concl. 21.a.1 | •f *eſt centr..* ⊙.
+15.d.1 | ca 2|2 cb,
+5.1 | ∠cab 2|2 ∠cba,
+16.1 | ∠cdb 3|2 ∠cab,
+1.a.c | ∠cdb 3|2 ∠cba,
+19.1 | cd 2|3 cb,
+concl. c.15.d.1 | •d *eſt dans le* ⊙.
 
 COROLLAIRE.
 
-De cette proposition il est euident, que si au cercle, vne ligne droicte est couppée en deux également & à angles droicts, par vne autre ligne droicte, le centre du cetcle sera en icelle couppante.
+De la demonstration de cette proposition il est manifeste, que la ligne droicte qui touche le cercle, en sorte qu'elle ne le couppe point, qu'elle le touche seulement à vn poinct.
 
-THEOR. I. PROPOS. II.
+THEOR. II. PROPOS. III.
 
-Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra ; la ligne droicte conjointe à iceux poincts tombera dedans le cercle.
+Si dans le cercle quelque ligne droicte passant par le centre, couppe quelqu'autre ligne droicte, qui ne passe point par le centre, en deux également, elle la couppera aussi à angles droicts. Et si elle la couppe à angles droicts, elle la couppera aussi en deux également.
 
 (figure)
 
-*Hypoth.*
+*Hypoth. commun.*
 
-cab *eſt* ⊙,
-arbitr. | a & b *ſnt* • *dās la* ⊙.
-ab *eſt* ——,
+ebac *eſt* ⊙,
+bd *eſt diametre.*
+
+*Hypoth. 1.*
+
+af 2|2 fc.
 
 *Req. à demonſtr.*
 
-ab *eſt dans le* ⊙.
+ef *eſt* ⊥ ac.
 
-*Prepar.*
+*Preparation.*
 
-arbitr. | d *eſt* • *en* ab,
-1.p.1 | ca, cb, cd *ſnt* ——.
+1.p.1 | ea, ec, *ſnt* ——.
 
 *Demonſtr.*
+
+hyp. | af 2|2 fc,
+fe *eſt commun.*

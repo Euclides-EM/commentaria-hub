@@ -1,42 +1,45 @@
-# Page 125
+# Page 126
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-D'où s'ensuit, que AD est la toute : BD la difference des parties CD & AC : & que AC & CD sont les parties inégales : & par consequét ce scholie ne differe de la 10. proposition que de nom : & se pouuoit aussi demonstrer ainsi.
+PROBL. I. PROPOS. XI.
 
-*Hypoth.*
+Coupper vne ligne droicte donnée de telle sorte, que le rectangle contenu sous la toute & l'vn des segments, soit égal au quarré de l'autre segment.
 
 (figure)
 
-ad *eſt* ——,
-ac 3|2 cd,
-ac~cd *eſt* af.
+*Hypoth.*
 
-*Req. à demonſtrer.*
+ab *eſt* —— D.
 
-□.ad + □.af 2|2 2□.ac + 2□.cd.
+*Requis à faire.*
+
+▭.abg 2|2 □.ag.
+
+*Conſtr.*
+
+46.1 | ac *eſt* □.ab,
+10.1 | ae 2|2 ed,
+1.p.1 | be *eſt* ——,
+3.1 | eaf 2|2 eb,
+46.1 | ah *eſt* □.af,
+ſymp. | ▭.abg 2|2 □.ag.
 
 *Preparation.*
 
-aeb *eſt la figure du ſcholie de la 6. du 2.*
+2.p.1 | hgi *eſt* ——.
 
 *Demonſtr.*
 
-conſtr. | cf 2|2 cd, & ac 2|2 cb,
-3.a.1 | af 2|2 db,
-concl. 9.2 | □.ad + □.db Ⅱ □.af 2|2 2□.ac + 2□.cd.
+conſtr. | de 2|2 ea.
+6.2 | dh ▭.dfa / + □.ea 2|2 □.ef, / Ⅱ □.eb,
+47.1 | ac □.ab + □.ea 2|2 □.eb
+1.a.1 | ▭.dfa, / + □.ea 2|2 ac □.ab, / + □.ea,
+□.ea *commun. ſubtr.*
+3.a.1 | dh ▭.dfa 2|2 ac □.ab,
+▭.dg *commun. ſubtr.*
+concl. 3.a.1 | ah □.ag 2|2 gc ▭.abg.
 
-*Explication par nombres.*
+THEOR. XI. PROPOS. XII.
 
-hyp. | ad *eſt* 10, α
-hyp. | ac *eſt* 7, β
-3.a.1 | cd Ⅱ cf *eſt* 3, γ
-3.a.1 | af Ⅱ db *eſt* 4, δ
-α | □.ad *eſt* 100.
-δ | □.af *eſt* 16,
-1.concl. 19.a.1 | □.ad + □.af *ſnt* 116,
-β | □.ac *eſt* 49,
-6.a.1 | 2□.ac *ſnt* 98,
-γ | □.cd *eſt* 9,
-6.a.1 | 2□.cd *ſnt* 18,
-2 concl. 19.a.1 | 2□.ac + 2□.cd *ſnt* 116.
+Aux triangles amblygones, le quarré du costé qui soustient l'angle obtus, est plus grand que les

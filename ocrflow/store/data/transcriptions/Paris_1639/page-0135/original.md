@@ -1,28 +1,40 @@
-# Page 134
+# Page 135
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-dis-je, qui est contenu sous icelles lignes droictes menées.
+X.
 
-(figure)
-
-7.d.3 | ∠abc *eſt au ſegment* abc.
-
-L'angle au segment est rectiligne, mais celuy du segment n'est pas rectiligne.
-
-VIII.
-
-Mais quand les lignes droictes qui contiennent l'angle, embrassent quelque circonference, l'angle est dit s'appuyer sur icelle.
+Semblables segments ou sections de cercles sont celles, qui reçoiuent angles égaux ; ou esquels les angles sont égaux entr'eux.
 
 (figure)
 
-L'angle ABC est au segment ABC par la definition precedente, & par cette huictiesme définition il s'appuye ou est opposé à la circonference ADG.
+hyp. | ∠abc 2|2 ∠def,
+10.d.1 | *ſegm.* abc *ſml. ſegm* def.
 
-IX.
+De cette definition s'ensuit, que les segments semblables sont pareilles parties de leur tout, cōme le segment qui est le quart d'vn petit cercle est sēblable au segmēt qui est le quart d'vn grād cercle.
 
-Secteur du cercle est vne figure, contenuë sous deux lignes droictes qui constituent vn angle au centre, & de la circonference comprise entre icelles lignes.
+THEOR. I. PROPOS. I.
+
+Trouuer le centre d'vn cercle donné.
 
 (figure)
 
-hyp. | d *eſt centre du* ⊙,
-9.d.3 | adb *eſt ſecteur de* ⊙.
+*Hypoth.*
+
+abc *eſt* ⊙ D.
+
+*Conſtruction.*
+
+1.p.1 | ac *eſt* —— *arbitr.*
+10.1 | ae 2|2 ec,
+11.1 | eb ⊥ ac,
+2.p.1 | bed *eſt* ——,
+10.1 | df 2|2 fb,
+ſymp. | •f *eſt centre du* ⊙.
+
+*Demonſtr.*
+
+ſuppoſ | g *eſt centr..* ⊙, α
+1.p.1 | ga, gc, ge *ſnt* ——,
+*aux* △;gea & gec
+conſtr. | ae 2|2 ec,

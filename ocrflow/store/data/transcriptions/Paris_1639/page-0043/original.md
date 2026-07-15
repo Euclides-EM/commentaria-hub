@@ -1,42 +1,34 @@
-# Page 42
+# Page 43
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-hyp. | a 2|2 ½c.
-hyp. | b 2|2 ½c,
-7.a.1. | a 2|2 b.
+8. a. 1.
 
-(figure)
+Et les choses qui conuiennent entr'elles, sont égales entr'elles.
 
-7. a. b.
+Les grandeurs qui conuiennent sont celles, dont les parties estans mises l'vne sur l'autre, occupent espace égal, ou vn mesme lieu.
 
-La moitié du plus grand excede la moitié du plus petit.
+9. a. 1.
 
-hyp. | c 3|2 d,
-hyp. | a 2|2 ½c,
-hyp. | b 2|2 ½d,
-7.a.b. | a 3|2 b.
+Et le tout est plus grand que sa partie.
 
-(figure)
+9. a. b.
 
-7. a. c.
+La mesure n'est pas plus grande que la chose mesurée.
 
-Et ce qui est moitié de l'vn des égaux, est aussi moitié de l'autre des égaux.
+Les deux axiomes suiuants 10. & 11. ont esté adjoustez par Clauius.
 
-hyp. | b 2|2 c,
-hyp. | a 2|2 ½b,
-7.a.c. | a 2|2 ½c.
+10. a. 1.
+
+Deux lignes droictes n'ont pas vn mesme segment commun.
+
+hyp. | abc *eſt* ——,
+10 a.1. | gbc *ñ eſt* ——.
 
 (figure)
 
-7. a. d.
+Par exemple, il est impossible qu'en vne fourche, le manche auec chaque fourchon face ligne droicte.
 
-Et si l'vn des égaux est moitié de quelque grandeur, l'autre des égaux sera aussi moitié de la mesme grandeur.
+11. a. 1.
 
-hyp. | a 2|2 b,
-hyp. | a 2|2 ½c,
-7.a.d. | b 2|2 ½c.
-
-(figure)
-
-Aux sixiesme & septiesmes axiomes, les choses qui ont esté dites du double, & de la moitié, se peuuent aussi entendre du triple, quadruple, quintuple, &c. & des tierces, quartes, quintes, &c.
+Deux lignes droites se rencontrant à vn poinct, si elles sont toutes deux prolongées, elles s'entrecouperont necessairement au mesme poinct.

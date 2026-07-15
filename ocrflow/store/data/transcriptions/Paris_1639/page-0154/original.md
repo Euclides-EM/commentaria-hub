@@ -1,22 +1,53 @@
-# Page 153
+# Page 154
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-SCHOL. V.
+(figure)
 
-Il est possible que deux lignes s'approchent eternellement l'vne de l'autre, sans qu'elles se touchent ny couppent iamais l'vne l'autre.
+*Req. à faire.*
 
-Car en la figure precedente, si sur la ligne infinie BE, le poinct C va tousiours vers E, emportant auec soy la ligne infinie CA, qui passe tousiours par le poinct A: & que le poinct H de la ligne AC, laissant ses vestiges par où elle passe, marque la ligne HPL: Il sera manifeste que la ligne HPL s'approchera tousiours de la ligne BE, & neantmoins elle ne paruiendra iamais iusques à la ligne BE.
+ac *tangente du* ⊙dbc.
 
-*Or de ces scholies ne s'ensuit pas que le nombre des parties égales ou inégales d'vne ligne, d'vn angle, ou d'autre quantité finie soit infini: Car si le nombre des parties estoit infini, la quantité composee d'icelles seroit infinie. Et encore qu'en vne ligne on puisse trouuer tant de parties égales ou inégales qu'on voudra, ne s'ensuit pas que ladite ligne soit infinie. Par exemple, si on diuise vne ligne en la premiere heure en dix parties égales: & en la seconde heure, chaque partie soit subdiuisee en dix autres parties égales: & qu'on continuë eternellement à subdiuiser ainsi en chaque heure chaque partie en dix autres parties égales: le nombre des parties qu'on fera s'augmentera eternellement, & neantmoins il ne sera iamais infini, ains se pourra tousiours exprimer par vn nombre, qui aura l'vnité, auec autant de zero, qu'il y aura d'heures depuis la premiere iusqu'à celle qu'on voudra.*
+*Conſtr.*
 
-PROBL. II. PROPOS. XVII.
+1.p.1 | ad *eſt* ——,
+3.p.1 | dae *eſt* ⊙,
+11.1 | be ⊥ ad,
+1.p.1 | de & ac *ſnt* ——,
+ſymp. | ac *touche le* ⊙dbc.
 
-D'vn poinct donné, mener vne ligne droicte, qui touche vn cercle donné.
+*Demonſtr.*
+
+*aux* △;adc & edb
+
+15.d.1 | da 2|2 de,
+15.d.1 | dc 2|2 db,
+
+∠adc *eſt commun.*
+
+4.1 | ∠dca 2|2 ∠dbe,
+eonſtr. | ∠dbe *eſt* ┘,
+12.a.b | ∠dca *eſt* ┘,
+concl. c.16.3 | ac *touche le* ⊙dbc.
+
+THEOR. XVI. PROPOS. XVIII.
+
+Si quelque ligne droicte touche vn cercle, & du centre à l'attouchement on mene vne ligne droite, elle sera perpendiculaire à la touchante.
 
 (figure)
 
 *Hypoth.*
 
-a *eſt* • D.
-dbc *eſt* ⊙ D.
+fedc *eſt* ⊙,
+ab *touche le* ⊙fed,
+e *eſt* • *d'attouchement*,
+efc *eſt diametre*.
+
+*Req.à demonſtrer:*
+
+fe ⊥ ab.
+
+*Demonſtr.*
+
+ſuppoſ. | fg ⊥ ab,
+conſtr. | ∠fge *eſt* ┘,

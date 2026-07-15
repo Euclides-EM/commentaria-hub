@@ -1,48 +1,52 @@
-# Page 281
+# Page 282
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-blables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir d'vn semblable.
+faillant d'vn quarré, la solution se trouuera plus briefuement par ja methode suiuante, proposant le probleme ainsi.
+
+SCHOLIE.
+
+De trois lignes proportionelles estant donnée la moyenne & la somme des extrémes trouuer les extrémes.
 
 (figure)
 
-*Hypotheſe.*
+*Hypoth.*
 
 ab *eſt* —— D.
-c *eſt rectili.* D.
-d *eſt* ◊ D.
+κ *eſt la moyenne* D.
 
-*Req. à faire.*
+*Requis à faire.*
 
-◊ap 2|2 *rectili.* c,
-◊zr *ſml.* ◊d.
+*trouuer* ad & db.
 
 *Conſtr.*
 
-10.1 | ae 2|2 eb, α
-18.1 | ◊eg *ſml.* ◊d,
-1.p.1 | fb *eſt* ——,
-31.1 | ah == ef,
-2.p.1 | gfh *eſt* ——,
-hyp. | c *ñ eſt* 3|2 ◊af, Ⅱ eg,
-c.45.1 | ◊eg 2|2 c + i, β
-25.6 | ◊nt 2|2 i, & *ſml.* d. γ
-3.1 | fo 2|2 κn,
-3.1 | fq 2|2 κt,
-31.1 | sor == ab,
-31.1 | zpq == ef,
-ſymp. | ◊ap *eſt le requis.*
+10.1 | ac 2|2 cb,
+3.p.1 | cahb *eſt ſemic.*
+11.1 | ch ⊥ ab,
+3.1 | cg 2|2 κ,
+31.1 | ge == ab,
+12.1 | ed ⊥ ab, α
+ſymp. | ad & db *ſnt req.*
 
 *Demonſtr.*
 
-conſtr. 24.6 | ◊;d, eg, oq, zr, nt *ſnt ſml.* đe. δ
-βγcõſtr. | ◊eg 2|2 ◊nt + c,
-2.c.20.6 | ◊oq 2|2 ◊nt,
-3.a.1 | *gnom.* obq 2|2 c, ε
-α.36.1 | ◊ao 2|2 ◊er. Ⅱ ◊zg,
-| ◊ep *commun. add.*
-2.a.1 | *gnom.* obq 2|2 ◊ap,
-1.concl. ε.1.a.1 | ◊ap 2|2 c,
-2 concl. δ | zr *ſml.* ◊d.
+1.concl. 19.a.1 | ad + db 2|2 ab,
+α.ſ.13.6 | ad π de 2|2 de π db,
+2.concl. 17.6 | ▭.adb 2|2 □.de,
+34.1 | de 2|2 cg,
+conſtr. | κ 2|2 cg,
+3.concl. 1.a.1 | de 2|2 κ.
 
-Si à la ligne donnée il faut appliquer vn parallelogramme de-
+*Explication par nombres.*
+
+hyp. | ab *eſt* 26,
+hyp. | de *eſt* 12, α
+| ad & db *ſnt req.*
+25.d.1 | ac Ⅱ cb Ⅱ ce *eſt* 13,
+1.ſ.1.d.2 | □.ce *eſt* 169,
+α.1.ſ.1.d.2 | □.ed *eſt* 144,
+47.1 | □.cd *eſt* 25,
+ſ.46.3 | cd *eſt* 5,
+1.concl. 2.a.1 | ad *eſt* 18,
+2 concl. 3.a.1 | db *eſt* 8.

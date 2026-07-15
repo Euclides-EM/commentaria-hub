@@ -1,34 +1,40 @@
-# Page 43
+# Page 44
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-8. a. 1.
+12. a. 1.
 
-Et les choses qui conuiennent entr'elles, sont égales entr'elles.
+Tous les angles droicts sont égaux entr'eux.
 
-Les grandeurs qui conuiennent sont celles, dont les parties estans mises l'vne sur l'autre, occupent espace égal, ou vn mesme lieu.
-
-9. a. 1.
-
-Et le tout est plus grand que sa partie.
-
-9. a. b.
-
-La mesure n'est pas plus grande que la chose mesurée.
-
-Les deux axiomes suiuants 10. & 11. ont esté adjoustez par Clauius.
-
-10. a. 1.
-
-Deux lignes droictes n'ont pas vn mesme segment commun.
-
-hyp. | abc *eſt* ——,
-10 a.1. | gbc *ñ eſt* ——.
+hyp. | ∠a *eſt* ┘,
+hyp. | ∠b *eſt* ┘,
+12.a.1 | ∠a 2|2 ∠b.
 
 (figure)
 
-Par exemple, il est impossible qu'en vne fourche, le manche auec chaque fourchon face ligne droicte.
+12. a. b.
 
-11. a. 1.
+Si vn des angles égaux est droict, vn chacun des autres est aussi droict.
 
-Deux lignes droites se rencontrant à vn poinct, si elles sont toutes deux prolongées, elles s'entrecouperont necessairement au mesme poinct.
+hyp. | a, b, c, *ſnt* ∠; 2|2 đe.
+hyp. | ∠a *eſt* ┘,
+12.a.b. | ∠b & ∠c *ſnt* ┘.
+
+(figure)
+
+*Explication des notes.*
+
+A,B,C sont angles égaux entr'eux.
+
+L'angle A est droict, par l'hypothese.
+
+Partant les angles B & C sont droicts, par le 12. a. b.
+
+13. a. 1.
+
+Et si sur deux lignes droictes tombe vne autre ligne droicte, faisant les angles internes & de mesme part moindres que deux droicts, icelles deux lignes droictes estant prolongées infiniment, se couperont l'vne l'autre de la part où les deux angles sont moindres que deux droicts.
+
+hyp. | ∠bad + ∠abc *ſnt* 2|3 2┘.
+13.a.1 | ad & bc *ñ ſnt* == đe.
+
+(figure)

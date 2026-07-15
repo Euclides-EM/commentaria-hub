@@ -1,25 +1,33 @@
-# Page 331
+# Page 332
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-ie multiplie 50 par 4 & vient 200 pour numerateur (car le troisiesme nombre qui est 1, ne multiplie point) puis ie multiplie le numerateur de la premiere qui est 3 par les denominateurs de la seconde & troisiesme, & vient 3 pour denominateur ou diuiseur, par lequel ie diuise le numerateur 200, & vient au quotient 66⅔ pour le prix de l'aulne.
+Ayant ainsi trouué 9/7 lt. au lieu de 3/7 d'escus, pour auoir le requis on dira,
 
-*Exemple 3.*
+2 *lt.* X 7 *aulnes* —— 9 *lt.* R. 189/14. [13 1/2 *aulnes*.
+3   1 —— 7
 
-A 12 4/5 liures les 6⅔ d'aulnes, sçauoir combien vaudront 23 aulnes & demie ?
+*Exemple 5.*
 
-Ayant conioincts les entiers auec leurs fractions, & disposé les nombres ainsi :
+A 17 1/2 les ⅔, sçauoir combien vaut le tout ?
 
-20 *auln.* X 64 *lt.* —— 47 *auln.* | 9024/200 [45 3/25 *lt.*
-3   5 —— 2
+Mettant l'vnité pour l'entier ou le tout, & adioustant 17 auec 1/2 qui luy est adiointe, ordonnant ainsi la regle de trois, on trouuera 26 1/4 pour le tout.
 
-ie multiplie 64 par 3 & vient 192, que ie multiplie par 47 & vient 9024 pour numerateur. Puis ie multiplie 20 par 5 & vient 100, que ie multiplie par 2 & vient 200 pour denominateur : par lequel ie diuise 9024, & trouue 45 3/25 lt. pour le prix de 23 aulnes & demie.
+2 X 35 —— 1 | 105/4 [26 1/4.
+3   2 —— 1
 
-*Exemple 4.*
+Supposant que Mars acheue son cours en 2 ans, & Iupiter en 12 ans, & qu'ils soient au premier degré d'Aries, sçauoir en quel degré du Zodiaque se fera leur prochaine conionction ?
 
-A ⅔ d'vne liure les 7 aulnes, sçauoir combien d'aulnes on aura pour 2/7 d'escu ?
+Pour trouuer dans combien de temps arriuera leur premiere conionction, on dira pour Mars, si
 
-En cette question, il faut premierement reduire les 3/7 d'escu en liures, ou les ⅔ de liures en escus. Pour reduire les 3/7 d'escus en liures, on dira si
+2 ans donnẽt 360 deg. combien dõnera 1 an. R. 180 deg.
 
-1 *eſcus* X 3 *lt.* —— 3 *eſcus* | 9/7 *lt.*
-1   1 —— 7
+Puis pour Iupiter on dira, si
+
+12 ans donnẽt 360 deg. combien dõnera 1 an. R. 30 deg.
+
+Ayant ainsi trouué 180 degrez pour Mars, & 30 degrez pour Iupiter, i'oste les 30 degrez de 180 deg & reste 150 degrez qu'aura fait Mars plus que Iupiter.
+
+Maintenant pour trouuer le temps ; ie dis, si 150 degr. donnent 1 an, combien donneront 360 deg. R. 360/150 ou 12/5.
+
+Ayant ainsi trouué la fraction 360/150 ou 12/5, pour sçauoir

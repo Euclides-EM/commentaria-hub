@@ -1,18 +1,17 @@
-# Page 423
+# Page 424
 
 # DES FORTIFICATIONS.
 
-Par la construction AC est de 24 toises, CD de 48, & DG de 120 : AB est égale à AC, & EB à ED, & par consequent les angles EDB, EBD & ACB sont demy-droicts : & à cause que le quarré de DC vaut deux quarrez de EA, & quatre quarrez de CA, qui sont deux quarrez de CB, la ligne EA sera égale à la ligne CB.  Ce qu'estant ainsi, si on multiplie CA 24 par soy-mesme viendra 576, dont le double est 1152 pour le quarré de CB, & la racine quarrée de 1152, est 3394″ ou 33 94/100 pour CB, ou son égale EA.  Et adjoustant CB 3394″ auec les 48 toises de CD, viendra 8194″ ou 81 94/100 pour la ligne de defense razante BD.  Et adjoustant aussi EA 3394 auec les 24 toises du flanc AC, ou de son égale AB, viendra 5794″ ou 57 94/100 pour EB, ou son égale ED, qui est la ligne capitale.
+toises de longueur, à cause que dans la table 27804″ est le nombre plus proche de 300, on conclura, que sur la ligne proposée il ne faut mettre qu'vn bastion au milieu, & deux demy-bastions aux extremitez.  Et pour trouuer les quantitez des lignes, on mettra au premier lieu de la regle de trois 27804″, qui se trouue dãs la table, & au troisiesme lieu le nombre donné 300, & au second, le nombre qui est dans la table, pour la ligne dont on desire trouuer la quantité : comme en cet exemple, pour sçauoir de quelle longueur sera la defense fichante DG, on dira, si
 
-Pour auoir EG, on multipliera DG 120 par soy-mesme, & viendra 14400, puis multipliant aussi ED 5794″ par soy-mesme, viendra 33570436″″ pour le quarré de ED, lequel estant soustraict de 14400 quarré de DG, restera 110429564″″ pour le quarré de EG, dont la racine quarrée est 10508″ ou 105 2/25 pour EG, de qui ostant EA 3394″, restera 7114″ ou 71 14/100 pour la courtine AG : & adioustant la mesme EA, ou son égale GK, auec EG, viendra 13902″ pour EK, & par consequent son double EL aura 27804″, son triple 41706″, & son quadruple 55608″ toises, que nous mettrons en la table suiuante.
+*27804″ donne 120 combien 300.   R. 12948″.*
 
-*Table des quantitez des lignes de la figure precedente.*
+& viendra enuiron 129 1/2 pour la defense fichante DG, & faut operer de mesme pour trouuer les quantitez des autres lignes.
 
-AC le flanc.  24. | ED ligne capitale.  5794″.
-CD la face.  48. | EK distance simple.  13902″.
-AG la courtine.  7114″. | EL distance double.  27804″.
-DG def. fichante.  120. | distance triple.  41706″.
-DB def. razante.  8194″. | distance quadruple.  55608″.
-EA ligne de gorge.  3394″. | distance quintuple,  6951′.
+Diuerses methodes de tracer vne fortification sur terre.
 
-Cette table pourra seruir à iuger combien de bastions on pourra mettre sur vne ligne droicte donnée, & à trouuer de combien chaque ligne se deura augmenter ou diminuer, à raison de la grandeur de la ligne donnée.  Par exemple, si la ligne proposée a 300
+*Premiere methode.*
+
+Ayant fait la figure sur le papier, & trouué les quantitez de tous les angles & lignes, il faut mettre vn compas de proportion, graphometre, ou autre instrument geometrique diuisé en degrez, au centre A sur son pied ; en sorte que regardant par deux de ses pinules vers B, & par les deux autres vers G, l'angle BAG soit égal à l'angle du centre du polygone proposé, à sçauoir au pentagone de 72 degrez : puis l'instrument demeurant en cette ouuerture, & mesurant actuellement les quantitez que doiuent auoir les lignes AF, AL, FB, & LG, on mettra des picquets aux poincts F, L, B & G : ce fait on tournera l'instrument sur son pied en A, en sorte que par les pinules qu'on voyoit B, on voye maintenant G, & les deux autres pinules nous conduiront vers X & T, qu'il faudra marquer auec des picquets en mesurant les quantitez que doiuent auoir les lignes AX & XT : & ainsi continuant on marquera tous les angles du polygone tant interne qu'externe.
+
+Puis mesurant les quantitez que doiuent auoir les lignes FH, ML, LY, &c. on marquera les angles des flancs H, M, Y, &c. & aussi les angles des espaules C, N, z, &c. faisant les angles droits H, M, Y,

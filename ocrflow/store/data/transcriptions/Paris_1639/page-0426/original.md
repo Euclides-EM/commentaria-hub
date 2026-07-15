@@ -1,17 +1,13 @@
-# Page 425
+# Page 426
 
 # DES FORTIFICATIONS.
 
-par le moyen de l'instrument, & mesurant les quantitez des flancs HC, MN, Yz, &c.  Que si on marque premierement les seconds flancs d, n, &c. leur donnant leurs quantitez cognuës Hd, Mn, &c. on pourra aussi par le moyen d'iceux marquer les angles des espaules C, N, z, &c. car ils nous seruiront de visée pour mesurer depuis G iusques à N la quantité de la face GN ; & de mesme de B vers n, on mesurera la quantité de la face BC, & ainsi des autres.
+du polygone interne F, L, X, &c. & que nous ne voulions point nous seruir d'autres angles de nostre instrument que du droict, qui est le plus iuste de tous, on pourra premierement marquer les extremitez de la courtine H & M : puis en faisant des perpendiculaires sur la courtine HM, & mesurant les quantitez que doiuent auoir HC, CD, MN, & NR on pourra marquer les espaules C, N, & aussi les poincts D & R ; & en apres les poincts B, G & P, en mesurant les quantitez qu'on a trouué par le calcul, pour DB, RG, & GP : puis mettant l'instrument à angles droicts au poinct P, & mesurant depuis P iusques à T, la quantité que doit auoir PT, on aura le poinct T, lequel estant trouué, il sera facile de marquer q, z, Y, en faisant Gq égale à GR, qz égale à RN, &c.
 
-*Seconde methode.*
+*Cinquiesme methode.*
 
-On pourra aussi tracer vne petite fortification en vne rase campagne, qui sera sans aucun empeschement, par le moyen de trois cordes de mesme longueur que les costez du triangle AFL : car ayant attaché deux d'icelles au centre A, à sçauoir AF & AL, qui sont de mesme longueur, les tirant par les extremitez F & L, on formera le triangle AFL, qui nous donnera les poincts F & L, ausquels ayant mis des picquets, on cheminera vers X, iusques à ce que celuy qui estoit en F soit paruenu en L : & lors bendans les trois cordes, celuy qui estoit en L se trouuera en l'angle X, qu'il faudra aussi marquer par vn picquet ; & ainsi continuant on marquera tous les angles du polygone interne, & puis apres les autres, comme en la premiere methode.
+Ayant descrit en vne figure tant le plan du lieu à fortifier, que le dessein de la fortification qu'on veut faire, & trouué par calcul les quantitez de tous les angles & lignes, il sera facile de marquer sur le lieu proposé ce qui est à faire.  Par exemple, pour tracer sur terre les deux bastions MO & RS, de la figure qui est en la page 401, on marquera premierement les poincts F, Z, G, N, P, T, & Q, en mesurant les quantitez qu'on a trouué par le calcul pour BF, BZ, CG, FN, FP, GT, & GQ : puis il sera facile de trouuer, par les methodes precedentes, les autres poincts M, H, O, R, K, S.
 
-*Troisiesme methode.*
+*Du calcul des contenus corporels du rampart, des parapets, & du fossé.*
 
-S'il y a quelque chose qui nous empesche d'aller au centre A, on marquera les deux angles F & L, esloignez l'vn de l'autre de la quantité que doit auoir FL : puis mettant l'instrument au poinct L, & l'ouurant d'vn angle égal à l'angle du polygone FLx, si sans changer cette ouuerture on regarde par deux pinules le poinct F, les deux autres nous conduiront vers X, qui se trouuera en mesurant depuis L iusques à X, la quantité que doit auoir LX : & ainsi continuant, on trouuera tous les angles du polygone interne, & en suite les autres, operant comme en la premiere methode.
-
-*Quatriesme methode.*
-
-Que s'il y a quelque chose qui nous empesche d'aller aux angles
+Ce calcul est necessaire pour pouuoir iuger du prix, & combien il faut d'ouuriers pour acheuer la fortification en vn certain temps limité : & aussi pour sçauoir, si la terre que fournira le fossé, suiuant la largeur & profondeur qu'on luy veut donner, sera suffisante pour faire le rãpart, parapets, & autres ouurages.  Or pour trouuer le contenu du rampart, ayant premierement trouué les quantitez des lignes, nous auons donné deux methodes assez briefues à la fin de nos fortifications.  En la premiere methode, qui est exacte & geometrique, on adiouste à la moitié des deux superficies, inferieu

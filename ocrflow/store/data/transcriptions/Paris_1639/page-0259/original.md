@@ -1,41 +1,34 @@
-# Page 258
+# Page 259
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-THEOR. VII. PROPOS. VII.
+THEOR. VIII. PROPOS. VIII.
 
-Si deux triangles ont vn angle égal à vn angle, & à l'entour d'vn autre angle les costez proportionaux, estans les troisiesmes angles de mesme espece: les triangles seront equiangles, & auront les angles égaux à l'entour desquels les costez sont proportionaux.
+Si en vn triangle rectangle on mene vne ligne perpendiculaire de l'angle droict sur la base, les triangles qui sont de part & d'autre de la perpendiculaire, sont semblables au tout & entr'eux.
 
 (figure)
 
 *Hypoth.*
 
-abc & def *ſnt* △,
-∠a 2|2 ∠d,
-ab π bc 2|2 de π ef.
-∠c *eſt de meſme eſpece que* ∠f. α
+∠bac *eſt* ┘.
+ad ⊥ bc.
 
-*Req. à demonſtr.*
+*Requis à demonſtrer.*
 
-△abc & △def *ſnt equiangles.*
-∠abc 2|2 ∠e, ∠c 2|2 ∠f.
+△adb, △adc, △abc *ſnt equiang.* đe.
 
 *Demonſtr.*
 
-ſuppoſ. | ∠abg 2|2 ∠e,
-hyp. | ∠a 2|2 ∠d,
-32.1 | ∠agb 2|2 ∠f. β
-4.6 | ab π bg 2|2 de π ef,
-hyp. | ab π bc 2|2 de π ef,
-11.5 | ab π bg 2|2 ab π bc,
-9.5 | bg 2|2 bc,
-5.1 | ∠bgc 2|2 ∠bcg. γ
-ſuppoſ. | ∠f 2|3 ┘. δ
-β | ∠agb 2|3 ┘,
-γ.13.1 | ∠bgc Ⅱ ∠c 3|2 ┘,
-δ | *contr. hyp.* α
-ſuppoſ. | ∠f 3|2 ┘. ε
-β | ∠agb 3|2 ┘,
-γ.13.1 | ∠bgc Ⅱ ∠c 2|3 ┘,
-ε | *contr. hyp.* α
-concl. 21.a.1 | △abc *eſt ſml.* △def.
+| *aux* △;abc & abd
+12.a.1 | ∠bac 2|2 ∠adb. α
+| ∠b *eſt commun.*
+1.concl. α.32.1 | ∠bad 2|2 ∠acb, β
+| *aux* △; abc & adc
+12.a.1 | ∠bac 2|2 ∠adc,
+| ∠c *eſt commun.*
+2 concl. 32.1 | ∠dac 2|2 ∠abc, γ
+3.concl. βγ | △abd *eſt equiãg.* △adc
+
+COROLLAIRE.
+
+De cette proposition il est euident que la perpendiculaire menée de l'angle droict sur la base, ou triangle rectangle, est moyenne proportionelle entre les deux segments de la base : Semblablement vn chacun des costez qui contiennent l'angle droict, est moyen proportionel entre toute la base, & le segment de la base qui est adjacent à iceluy costé.

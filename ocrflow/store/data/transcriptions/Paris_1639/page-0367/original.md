@@ -1,27 +1,18 @@
-# Page 366
+# Page 367
 
-# DE LA TRIGONOMETRIE.
+# TRIGONOMETRIE.
 
-AV 6 chapitre de la Trigonometrie, nous auons demonstré trois theoremes pour l'intelligence du calcul des triangles rectilignes, & donné en suite les exemples aux 4, 5, & 6 propositions. Mais icy nous mettrons les mesmes exemples distinguez en trois regles, en sorte que par le moyen d'icelles, sans l'intelligence de ces trois theoremes, on pourra resoudre toutes sortes de triangles rectilignes.
+l'angle A donne 40 toises pour son costé opposé BC, combien donnera le sinus de l'angle C pour son costé opposé AB. Et de mesme, pour auoir le costé AC, on dira, si le sinus de l'angle A donne 40 toises pour son costé opposé BC, combien donnera le sinus de l'angle B pour son costé opposé AC Tellement qu'en cette regle, que ie nomme des opposez, le premier & second nombre de la regle de trois doiuent tousiours appartenir au costé & angle du triangle, qui sont cognus & opposez l'vn à l'autre : & le troisiesme & le quatriesme, qui est le requis, doiuent aussi estre opposez l'vn à l'autre dans le triangle.
 
-*Regle des costez & angles opposez.*
+En la regle de trois des sinus les toises ou autres mesures y demeurent, & n'y a que les angles ou degrez & minutes qui se changent, pour mettre en leurs places leurs sinus, tangentes ou secantes : Mais en la regle de trois des logarithmes, faut changer tant les toises ou autres mesures que les degrez & minutes, & mettre en leurs places leurs logarithmes.
 
-*Exemple 1.*
+La regle de trois des sinus se faict à l'ordinaire, en multipliant le second nombre & le troisiesme l'vn par l'autre, & diuisant leur produict par le premier. Mais pour faire la regle de trois des logarithmes, on adiouste le second & troisiesme nombre ensemble, & de leur somme on soustraict le premier, le tout comme on peut voir aux exemples suiuants.
 
-Estant donnez deux angles d'vn triangle & vn costé, trouuer le troisiesme angle, & les deux autres costez.
+*Inuention du costé AB par sinus.*
 
-(figure)
+ſ. ∠A —— BC —— ſ. ∠C —— AB
+116 deg. 5′.   37 deg. 12′   toises
+supplem. 63 deg. 55   toises
+89816 —— 40 —— 60460. R. 26 83184/89816.
 
-Au triangle ABC soient donnez l'angle B de 26 degrez 43′, l'angle C de 37 degrez 12′, & le costé BC de 40 toises, & qu'il faille trouuer le troisiesme angle A, & les deux autres costez AB & AC.
-
-2 6. 4 3′
-3 7. 1 2′
-——
-1 8 0
-6 3. 5 5′
-——
-1 1 5. 5′.
-
-Pour trouuer l'angle A, il faut adiouster ensemble les deux angles donnez B & C, & soustraire des 180 degrez leur somme, qui est 63 degrez & 55′, & restera 116 degrez 5′ pour l'angle A : car les trois angles de tout triangle rectiligne valent 180 degrez.
-
-Puis pour auoir le costé AB on dira, si le sinus de
+Pour auoir le sinus de l'angle A, qui excede 90 degrez, il faut le soustraire de 180 degrez, & prendre dans les tables le sinus du reste 63 degrez 55′, qui est 89816, pour le premier nombre de la regle de trois. Puis ayant

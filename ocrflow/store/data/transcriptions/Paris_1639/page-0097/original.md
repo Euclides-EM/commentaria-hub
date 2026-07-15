@@ -1,42 +1,57 @@
-# Page 96
+# Page 97
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
 (figure)
 
 *Hypoth.*
 
-a *eſt* —— D.
-b *eſt* △ D.
-c *eſt* ∠ D.
+fg *eſt* —— D.
+abcd *eſt rectili.* D.
+e *eſt* ∠ D.
 
-*Req. à faire.*
+*Requis à faire.*
 
-◊fl 2|2 △b,
-fh 2|2 a,
-∠mfh 2|2 ∠c.
+◊fl 2|2 abcd.
 
 *Conſtr.*
 
-42.1 | ◊fd 2|2 △b, / ∠gfe 2|2 ∠c,
-2.p.1 | gfh *eſt* ——,
-3.1 | fh 2|2 a,
-2.p.1 | dei *eſt* ——,
-31.1 | ihl == ef,
-2.p.1 | dgk & ifk *ſnt* ——,
-31.1 | kl == gh,
-ſymp. | ◊fhlm *eſt le req.*
+1.p.1 | bd *eſt* ——,
+20.d.1 | dba & dbc *ſnt* △,
+44.1 | ◊gfih 2|2 △abd,
+44.1 | ∠gfi 2|2 ∠e,
+44.1 | ◊hikl 2|2 △dbc,
+44.1 | ∠hik 2|2 ∠e,
+ſymp. | ◊fl *eſt le req.*
 
 *Demonſtr.*
 
-1.concl. conſtr. | fh 2|2 a,
-15.1 | ∠mfh 2|2 ∠gfe,
-conſtr. | ∠c 2|2 ∠gfe,
-2.concl. 1.a.1 | ∠mfh 2|2 ∠c,
-43.1 | ◊fl 2|2 ◊fd,
-conſtr. | △b 2|2 ◊fd,
-3.concl. 1.a.1 | ◊fl 2|2 △b.
+conſtr. | ◊gfih 2|2 △dba,
+conſtr. | ◊hikl 2|2 △dbc,
+1.concl. 2.a.1 | ◊fh + ◊il 2|2 abcd,
+2.concl. conſtr. | ∠f 2|2 ∠e,
+conſtr. | ∠hik 2|2 ∠e,
+1.a.1 | ∠hik 2|2 ∠f,
+1.ſ.29.1 | fik *eſt* ——,
+ſ.30.1 | ghl *eſt* ——,
+3.concl. 35.d.1 | fl *eſt* ◊.
 
-PROBL. XIII. PROPOS. XLV.
+SCHOLIE.
 
-A vne ligne droicte donnée appliquer vn parallelogramme égal à vne figure rectiligne donnée, en vn angle rectiligne donné.
+Deux figures rectilignes estans proposées, trouuer l'excez dont la plus grande excede la plus petite.
+
+(figure)
+
+*Hypoth.*
+
+a & b *ſnt rectili.* D.
+a 3|2 b.
+
+*Req. à faire.*
+
+◊ghfe 2|2 a~b.
+
+*Conſtr.*
+
+∠cde *eſt arbitr.*
+cd *eſt arbitr.*

@@ -1,48 +1,36 @@
-# Page 268
+# Page 269
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-PROBL. VI. PROPOS. XVIII.
+Les figures ABHG & CDFE sont posées semblablement sur AB & CD, à cause que les lignes AB & CD sont homologues, c'est à dire que l'vne n'est pas antecedent & l'autre consequent.
 
-Sur vne ligne droicte donnée, descrire vne figure rectiligne semblable, & semblablement posée à vne figure rectiligne donnée.
+THEOR. XIII. PROPOS. XIX.
+
+Les triangles semblables sont entr'eux en raison doublée de leurs costez de mesme raison.
 
 (figure)
 
 *Hypoth.*
 
-ab *eſt* —— D.
-cefd *eſt rectiligne* D.
+△abc *eſt ſml.* △def,
+∠b 2|2 ∠e, ∠c 2|2 f.
 
-*Requis à faire.*
+*Preparation.*
 
-abhg *ſml.* cefd, ab *homolog.* cd.
+11.6 | bc π ef 2|2 ef π bg,
+1.p.1 | ag *eſt* ——.
 
-*Conſtruction.*
+*Requis à demonſtrer.*
 
-Soit premierement reduict le rectiligne donné en triangles, tirant des lignes droictes de l'vn de ses angles à tous les autres, comme icy la ligne C F, puis la construction du requis se fera ainsi.
-
-1.p.1 | cf *eſt* ——,
-23.1 | ∠abh 2|2 ∠d,
-23.1 | ∠bah 2|2 ∠dcf,
-23.1 | ∠ahg 2|2 ∠cfe,
-23.1 | ∠hag 2|2 ∠fce.
-ſymp. | abhg *ſml.* cefd.
+△abc π △def 2|2 bc π bg.
 
 *Demonſtr.*
 
-conſtr. | ∠b 2|2 ∠d,
-conſtr. | ∠bah 2|2 ∠dcf,
-32.1 | ∠ahb 2|2 ∠cfd,
-conſtr. | ∠hag 2|2 ∠fce,
-conſtr. | ∠ahg 2|2 ∠cfe,
-32.1 | ∠g 2|2 ∠e,
-2.a.1 | ∠bag 2|2 ∠dce,
-2.a.1 | ∠bhg 2|2 ∠dfe,
-4.6 | ab π bh 2|2 cd π df. α
-4.6 | ag π gh 2|2 ce π ef,
-4.6 | ag π ah 2|2 ce π cf,
-4.6 | ah π ab 2|2 cf π cd,
-22.5 | ag π ab 2|2 ce π cd. β
-1.concl. d.β | gh π hb 2|2 ef π fd,
-1.d.5 | abhg *ſml.* cdfe,
-2 concl. α | ab *eſt homolog.* cf.
+c.4.6 | ab π de 2|2 bc π ef,
+conſtr. | bc π ef 2|2 ef π bg,
+11.5 | ab π de 2|2 ef π bg,
+hyp. | ∠b 2|2 ∠e,
+15.6 | △abg 2|2 △def,
+concl. 1.6 | △abc π △abg Ⅱ π △def 2|2 bc π bg.
+
+De cette proposition s'ensuit, que si BC à EF est, par exemple, comme 3 à 2, le triangle ABC sera au triangle DEF, comme 9 à 4, car la raison de 3 à 2 estant doublée, ce qui se fait en quarrant 3 & 2, faict la raison de 9 à 4 : comme il appert de la regle de multiplica-

@@ -1,20 +1,31 @@
-# GEOMET. ELEMENT.
+# LIBER II.
 
-vnà cum quadrato quod ex d/c, æquum est gnomoni g/a/l,atque ipsi quadrato h/f.
-Ipsis demum g/a/l/gnomoni & quadrato h/f, æquum est a/c/e/f,quod à dimidia a/c/descriptum est quadratum.Rectangulum igitur comprehēsum sub a/d/ & d/b/ inæqualibus sectionibus,vnà cum quadrato quod à medio sectionū d/c, æquum est ei quod ex a/b/dimidia fit quadrato. Si recta igitur linea,& quæ sequūtur reliqua: vt in theoremate.Quod ostendendum susceperamus.
+Θεώρημα ζ, Πρόθεσις ζ.
 
-Θεώρημα ς, Πρόθεσις ς.
+Εὰν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε,τὸ ἀπὸ τῆς ὅλης καὶ ἀφ' ἑνὸς τῶν τμημάτων τὰ συναμφότερα τετράγωνα ἴσα ἐστὶ τῷ τε δὶς ὑπὸ τῆς ὅλης καὶ τοῦ εἰρημένου τμήματος περιεχομένῳ ὀρθογωνίῳ,καὶ τῷ ἀπὸ τοῦ λοιποῦ τμήματος τετραγώνῳ.
 
-Εὰν εὐθεῖα γραμμὴ τμηθῇ δίχα,προστεθῇ δέ τις αὐτῇ εὐθεῖα ἐπ' εὐθείας,τὸ ἀπὸ τῆς ὅλης σὺν τῇ προσκειμένῃ,καὶ τῆς προσκειμένης περιεχόμενον ὀρθογώνιον,μετὰ τοῦ ἀπὸ τῆς ἡμισείας τετραγώνου,ἴσον ἐστὶ τῷ ἀπὸ τῆς συγκειμένης ἔκ τε τῆς ἡμισείας καὶ τῆς προσκειμένης ὡς ἀπὸ μιᾶς ἀναγραφέντι τετραγώνῳ.
+## Theorema 7, Propositio 7.
 
-## Theorema 6, Propositio 6.
+SI recta linea secetur vtcunque:quod à tota & ab vno segmentorum vtraque fiunt quadrata,æqualia sunt rectangulo comprehenso bis sub tota & dicto segmento, & ei quod à reliquo segmento fit quadrato.
 
-SI recta linea bifariam secetur,adijciatúrque ei aliqua recta linea in rectum:rectangulum comprehensum sub tota cum apposita & apposita,vnà cum quadrato quod fit à dimidia, æquum est ei quod ex coniecta ex dimidia & apposita, tāquàm ex vna descripto quadrato.
+ORONTIVS.¶Data enim recta linea a/b, vtcunq; secetur in puncto c. Aio ex tota a/b, & vno segmentorū,vtpote a/c,vtraq; descripta quadrata:æqualia fore ei.quod bis sub a/b/& a/c/cótinetur rectangulo, & ei quod ex c/b/fit quadrato. Ex ipsa enim a/b,describatur quadratum a/b/d/e,per quadragesimamsextam primi:& connectatur a/e/dimetiens, per primum postulatum.Per punctum deinde c, ducatur c/f/ipsis a/d/& b/e/parallela,secans a/e/dimetientem in g. & per idem punctū g,vtrique a/b/& d/e/ parallela rursum ducatur h/k: per trigesimamprimam primi.
 
-ORONTIVS. ¶Esto a/b/linea recta,secta bifariā in puncto c: cui recta quædam linea b/d/in directum adijciatur.Dico,quod sub a/d,& d/b/ comprehensum rectāgulum,vnà cum eo quod ex c/b/quadrato:æquū est quadrato quod ex c/d. Fiat enim ex c/d/quadratum c/d/e/f,per quadragesimamsextam primi: & connectatur e/d/per primum postulatum.Per punctum insuper b, vtrique c/e/& d/f,per trigesimamprimam eiusdem primi,parallela ducatur b/g,quæ secet dimetientem e/d/in puncto h. Rursum per punctum h,ducatur k/l/m,ipsis a/d/& e/f/parallela: necnon per a/punctū, vtriq; c/l/& d/m/ parallela a/k, per eandem trigesimamprimam primi. Cùm igitur a/c/æqualis sit ipsi c/b/per hypothesin, & a/d/ipsi k/m/parallela: æquum est a/l/parallelogrammum,ipsi c/h/parallelogrammo, per trigesimamsextam primi. Eidem porrò c/h, æquum est h/f/ supplemētum: per quadragesimamtertiam eiusdem primi.Et a/l/ igitur ipsi h/f, per primam communem sententiam est æquale. Addatur vtrique æqualium commune c/m.totum igitur a/m/ rectangulum, gnomoni l/d/g, per secundam communem sententiam æquabitur.Atqui a/m/ est æquale ei,quod sub a/d/ & d/b/ comprehenditur rectangulo: continetur enim sub a/d/& d/m,quæ est æqualis ipsi d/b, nam b/m/ quadratū est,per corollarium quartæ huius secundi.Comprehensum igitur sub a/d/& d/b/rectangulum, æquum est gnomoni l/d/g.commune rursum addatur l/g,quod per idem corollarium quartæ huius est quadratum.Quod igitur sub a/d/& d/b/cótinetur rectangulum,vnà cum l/g/quadrato:æquū est gnomoni l/d/g,& eidem quadrato l/g. Ipsis porrò gnomoni l/d/g, & quadrato l/g: æquum est c/d/e/f/ quadratum.& quadratum l/g, æquū est ei quod ex c/b: est enim l/h/(ex qua fit ipsum l/g/ quadratum)æqualis ipsi c/b,per trigesimamquartā primi. Rectangulū igitur sub a/d,hoc est sub tota a/b/cum adposita b/d,& ipsa b/d/adposita comprehensum,vnà cum quadrato quod fit à dimidia c/b: æquū ei est quod fit ex c/d,hoc est ex dimidia c/b, & adposita b/d, tanquàm ex vna descripto quadrato. Quod demonstrare fuerat operæpretium.
+Erunt igitur h/c/& f/k/parallelogramma,circa dimetientem a/e/cōsistentia,quadrata:per quartæ huius corollarium. Et quoniam c/k/& h/f/supplementa,sunt per quadragesimamtertiam ipsius primi adinuicem æqualia. addatur vtrique,commune quadratum h/c.Totum igitur a/k,toti a/f,per secundam communem sententiam erit æquale.Est autem a/k/ æquum ei quod sub tota a/b,& segmento a/c/continetur rectangulo:nam a/c,ipsi a/h, per quadrati diffinitionem est æqualis.Rectangulis itaque a/k/& a/f/æquum est id, quod bis sub a/b/& a/c/ continetur rectangulum. Eisdē porrò a/k/& a/f/rectangulis, æquatur gnomon f/a/k, & quadratū insuper h/c(bis enim cum ipsis a/k/& a/f/rectangulis,includitur quadratum h/c)gnomon igitur f/a/k,vnà cū quadrato h/c, æqualis est ei quod bis sub a/b/ & a/c/comprehēditur rectangulo.Addatur rursum cómune quadratum f/k. Gnomon igitur f/a/k,vnà cum quadratis h/c/& f/k:ei quod bis sub a/b/& a/c/cótinetur rectangulo,& ipsi quadrato f/k/est æqualis. Atqui f/a/k/gnomoni, & quadrato f/k: æquum est a/b/d/e/quadratum.Igitur quadratum a/b/d/e,vnà cum quadrato h/c: æquum est cōprehenso bis sub a/b/& a/c/rectangulo,& ipsi f/k/quadrato.Sed a/b/d/e/quadratū,ex tota a/b/descriptū est.& h/c/quadratum,id quod sub a/c/segmento.f/k/autem æquale ei, quod fit ex reliquo segmento c/b: fit enim ex g/k,quæ ipsi c/b,per trigesimamquartā primi est æqualis. Quod igitur ex tota a/b/& segmento a/c/vtraq; fiunt quadrata:æqualia sunt rectangulo comprehenso bis sub tota a/b, & dicto segmēto a/c,& ei quod sub reliquo segmento c/b/fit quadrato. Si recta igitur linea:&c. vt in theoremate. Quod oportuit ostendisse.
 
-*[diagram: a c b d / k l h m / e g f]*
+*[diagram: a c b / h g k / d f e]*
 
-> Figuræ compositio.
+> Figuræ præparatio.
 
-> Ostensionis deductio.
+> Demōstratio theorematis.
+
+Θεώρημα η, Πρόθεσις η.
+
+Εὰν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε, τὸ τετράκις ὑπὸ τῆς ὅλης καὶ ἑνὸς τῶν τμημάτων περιεχόμενον ὀρθογώνιον μετὰ τοῦ ἀπὸ λοιποῦ τμήματος τετραγώνου,ἴσον ἐστὶ τῷ τε ἀπὸ τῆς ὅλης καὶ τοῦ εἰρημένου τμήματος,ὡς ἀπὸ μιᾶς ἀναγραφέντι τετραγώνῳ.
+
+## Theorema 8, Propositio 8.
+
+SI recta linea secetur vtcunque : rectangulum comprehensum quater sub tota & vno segmentorum, cū eo quod ex reliquo
+
+> Bifariam potest demonstrari *(manu scripta)*
+
+e.j.

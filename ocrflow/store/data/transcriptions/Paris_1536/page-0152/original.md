@@ -1,32 +1,39 @@
-# LIBER V.
+# GEOMET. ELEMENT.
 
-*125*
+*136*
 
-| g. | l. | g,h,k. | l, m, n. |
-| --- | --- | --- | --- |
-| a. | b. | a,c, e. | b, d, f. |
-| prima. | secunda. | tertia. | quarta. |
+Exempli gratia, trianguli a/ b/ c/ altitudo erit a/ d/ recta linea, ab a/ vertice ad basin b/c/ perpendiculariter incidens. Et hexagoni e/f/g/altitudinem ostendet perpendicularis e/h, quę ab e/vertice, in basin f/g/deducitur.
 
-magnitudo, hoc est g/ipsius a, totuplices sunt & omnes g/h/k, omniū a/c/e, per primā eiusdem quinti. Et proinde quotuplex est l/ipsius b, totuplices sunt l/m/n/ipsarum b/d/f. Sunt itaque g/& g/h/k, ipsarū a/& a/c/e, hoc est, primæ & tertiæ magnitudinis æquè multiplicia: l/autem/& l/m/n/secūdæ. b/& tertiæ b/d/f, æquè itidē multiplicia. Et ostēsum est, q̄ si g/multiplex excedit l, excedit & g/h/k/proportionaliter ipsum l/m/n: etsi æquale, æquale: si verò minus, itidem proportionaliter minus. Est igitur per sextam huius quinti diffinitionem, sicut a/ad b, sic a/c/e/composita ad b/d/f/compositam: hoc est, sicut vna antecedentium ad vnam consequentium, sic omnes antecedentes ad omnes consequentes. Quod demonstrandum susceperamus.
+*[diagram: a b d c; e f h g]*
 
-> Sūmaria theorematis ostēsio.
+Λόγος ἐκ λόγων συγκεῖσθαι λέγεται, ὅταν αἱ τῶν λόγων πηλικότητες ἐφ' ἑαυτὰς πολλαπλασιασθεῖσαι, ποιῶσι τινάς.
 
-## Θεώρημα ιγ, Πρόθεσις ιγ.
+## Ratio ex duabus rationibus, aut ex pluribus cōstare dicitur: quādo rationū quātitates multiplicatæ, aliquam efficiunt quātitatem.
 
-Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, τρίτον δὲ πρὸς τέταρτον μείζονα λόγον ἔχῃ, ἤπερ πέμπτον πρὸς ἕκτον: καὶ πρῶτον πρὸς δεύτερον μείζονα λόγον ἕξει, ἤπερ πέμπτον πρὸς ἕκτον.
+> De cōpositione rationum, interpretatio notanda.
 
-## Theorema 13, Propositio 13.
+Expressimus diffinitione tertia libri quinti, quidnā rationē adpellemus: quot insuper rationū fuerint species siue differentiæ, atq́ue singula in vniuersum comprehensa rationū discrimina. Nunc porrò diffinit Euclides, quonā modo ratio ex rationibus cōponi, seu constare dicatur. Ea nanq́ue ratio ex rationibus constat, siue cōponitur: quarū quantitates inuicē multiplicatæ illam efficere vidētur. De ea rationis cōpositione, seu rationalium terminorū illatione, hic minimè velim intelligas: quam decimaquarta libri quinti diffinitione, cōpositam rationem adpellauimus: acceptionem videlicet antecedentis cum consequente, sicut vnius, ad ipsum consequens. Aliud siquidem est, rationē ex rationibus cōponere: aliud verò in proportionibus, à diuisis rationum terminis ad coniunctos siue compositos, rationum subinferre similitudinem.
 
-> 13
+> Diffinitionis interpretatio
 
-SI prima ad secundam eandem habuerit rationem, & tertia ad quartam, tertia autem ad quartam maiorem rationē habeat quàm quinta ad sextam: prima quoque ad secundam maiorem rationem habebit, quàm quinta ad sextam.
+¶Ait igitur Euclides, rationem ex binis aut pluribus rationibus componi, siue constare: cùm datarū rationum quantitates fuerint adinuicē multiplicatæ, & aliam quampiam genuerint rationis quantitatem. Ea enim quantitas, rationem exprimit, quæ ex datis rationibus procreatur. Fit autem huiuscemodi quātitatum multiplicatio, inter duarum tantummodò rationum quantitates.
 
-ORONTIVS. ¶ Habeat enim prima magnitudo a/ad secundam b/eandem rationem, quam tertia c/ad quartam d: ipsa porrò tertia c/ad eandem quartam d/maiorem rationē habeat, quàm e/quinta ad f/sextam magnitudinem. Aio quòd & a/prima magnitudo ad secundam b/maiorem itidem rationem habebit, quàm ipsa e/quinta ad eandem sextam f. Multiplicetur enim vtraque ipsarum a, b: sintq́; earundem a,b, vtcunq; multiplicia g,h, sed g/maius ipso h. potest enim a/toties multiplicari, quousq; multiplex ipsius a/superet multiplex eiusdem b. Quàmmultiplex insuper est g/ipsius a, tam multiplex detur k/ipsius c, & l/ipsius e. Rursum q̄ multiplex est h/ipsius b, tam multiplex esto m/ipsius d, & n/ipsius f. Cùm igitur a/ad b/eandem rationē habeat, quam c/ad d, sintq́; g/& k/primæ & tertiæ æquè multiplicia, h/autem & m/secundæ & quartæ æquè itidem multiplicia: si g/itaque excedit h, excedit & k/ipsum m, per sextæ diffinitionis huius quinti cōuersionem. Atqui g/superat h, per constructionem: & k/igitur superat m. Rursum quoniā c/ad d/maiorem rationem habet, q̄ e/ad f, & ipsarū c/& e/primæ inquàm & tertiæ magnitudinis, æquè multiplicia sunt k,l, secūdæ porrò d/& quartæ f/alia vtcunq; æquè multiplicia m, n: si k/igitur excedit m, non excedit l/ipsum n, per conuersionem octauæ diffinitionis eiusdem quinti. Porrò k (vti nunc ostensum est) excedit m: & l/igitur non excedit n. Excedit autem & g/ipsum h, suntq́; g/& l/ipsarum a/& e, hoc est, primæ & tertiæ magnitudinis æquè multiplicia, per constructionem: h/rursum & n/ipsarū b/& f, vtpote secundæ & quartæ alia vtcunque æquè multiplicia: & g/multiplex primæ excedit multiplex secundæ, l/autem multiplex tertiæ nō excedit n/multiplex quartæ. prima igitur a/ad secundam b/maiorem rationem habet, quàm e/tertia ad quartam f, per octauam huius quinti
+> Vbi plures duabus extiterit rationes.
 
-> Discurs⁹ multiplicium ad theorematis illationē nos perducentiū.
+Nam vbi plures sese obtulerint rationes: ea in primis colligatur ratio, quæ ex multiplicatione duarum primarum quantitatū generatur. Ex hac postmodùm ratione & sequente tertia, alia ratio procreanda est. Hinc rursum, per quantitatū huiusce rationis & succedentis quartæ multiplicationem, consurgēs ratio tandem eliciatur. Idque deinceps, pro datarum rationum multitudine: siue datæ rationes eiusdem, aut diuersæ fuerint speciei, & sub continua aut discontinua, ordinatáve seu perturbata proportione constitutæ.
 
-*[diagram: g h k m l n]*
+> Notandum.
 
-*[diagram: a b c d e f]*
+Adde quòd hæc intelligenda sunt de rationibus omnino maioris, vel omnino minoris inæqualitatis. Nam si vna propositarum rationum foret maioris, altera verò minoris inæqualitatis (de quibus tertia diffinitione libri quinti) tunc quantitas maioris, per quantitatem minoris veniret diuidenda: resultans enim quantitas, procreatam inde rationem ostendet.
 
-l.iij.
+> Quęnam sint rationū quantitates.
+
+¶Quantitates autem rationum hic vocat Euclides, non eas quæ sub datis continentur rationibus: sed numeros, à quibus rationes ipsæ denominantur. Vt duo, à quibus dupla: tria, à quibus tripla: & quatuor, vnde quadrupla ratio in multiplicibus exprimitur. Aut in superparticularibus vnum & dimidium, à quo sesqualtera: vnum & tertium, à quo sesquitertia: vnum insuper & quartum, vnde sesquiquarta ratio nomenclaturam accipit. Item vnum & duo tertia, vnde rationem superbipartientem tertias: atque vnum & tria quarta, ex quibus supertripartientem quartas in superpartientibus adpellamus. Haud alienum habeto iudicium, de rationibus ex multiplici & superparticulari ratione, aut ex multiplici & superpartiente compositis: & datis quibuscunque singularum quinq́ue rationalium specierum differentijs.
+
+> Exēplū vbi ratio multiplex ex binis cōponiť rationib9.
+
+¶ESTO, LVCIDIORIS INTELLIGENTIAE GRATIA, DAta in exemplum ratio multiplex, ipsius inquàm a/ad b/dupla: ponatúrq́ue inter a/ & b, alia quædā magnitudo c, subsesquitertia ipsius a, & sesqualtera ipsius b. Aio rationem a/ad b, componi siue constare, ex ratione a/ ad c, & ratione c/ad b. Nam si quantitas rationis a/ad c, vtpote vnum & tertium, per rationis quantitatem ipsius c/ad b, vnum inquàm & dimidium multiplicetur: prouenient duo, à quibus dupla ratio (quā habet a/ad b) nominatur. Cùm enim c/magnitudo ad a/magnitudinem sit subsesquitertia, ad b/autem sesqualtera: qualium igitur partium c/est trium, talium necessum est a/fore quatuor, & b/duarū similium. Habet igitur a/ad b/rationem, quam quatuor ad duo: & proinde duplam, ex sesquitertia ipsius a/ad c,
+
+> Exēpli demōstratio.
+
+*[diagram: 4 3 2, a 1⅓ c 1½ b, 2]*

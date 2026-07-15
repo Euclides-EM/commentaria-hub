@@ -1,21 +1,31 @@
-# Page 85
+# Page 86
 
-# D'EVCLIDE, LIV. I.
-
-troisiesme est posé droict ; partant puis que les deux restans sont égaux entr'eux, vn chacun d'eux sera demy droict.
-
-COROLL. III.
-
-Il est manifeste aussi que si vn angle d'vn triangle est égal aux deux autres, que le triangle est rectangle.
-
-SCHOLIE I.
-
-Si du nombre des angles d'vn rectiligne on oste deux, le reste estant doublé, monstrera combien d'angles droicts vallent tous les angles du rectiligne.
+# LES ELEMENTS
 
 (figure)
 
-Car toute figure rectiligne se resout en triangles, à cause qu'il n'y a aucune figure de moins de costez que le triangle. Or chaque figure rectiligne se diuise en triangles, qui sont en moindre nombre de deux, que les costez de la figure ; comme si elle a quatre costez, elle se diuisera en deux triangles ; si cinq en trois, si six en quatre, & de mesme les autres. Et à cause que de tout triangle les trois angles sont égaux à deux droicts, le nombre des triangles, dont chaque figure est composée, estant doublé, donnera le nombre des angles droicts, auquel tous les angles de la figure proposée sont égaux. Partant toute figure quadrilatere estant composée de deux triangles a ses angles égaux à quatre droicts, & tout pentagone a ses angles égaux à six droicts ; & ainsi des autres.
+Car si de quelconque poinct pris en la figure on mene des lignes droictes à tous les angles, il s'en fera autant de triangles, que ladite figure a de costez ou d'angles, mais les angles de ces triangles, lesquels sont constituez à l'entour du poinct prins au dedans de la figure, n'appartiennent pas aux angles de la figure rectiligne proposée, comme il appert. Parquoy si ces angles là sont ostez, les autres angles des triangles, constituant les angles de la figure proposée, seront égaux à deux fois autant de droicts, ceux qui sont constituez autour du poinct prins au dedans de la figure estant ostez, que la figure a d'angles on de costez. Or tous ces angles là constituez à l'entour de ce poinct prins en la figure, en quelque nombre qu'ils soient, sont égaux à quatre droicts tant seulement, comme nous auons colligé de la 15. proposition. Donc tous les angles, &c.
 
-SCHOLIE II.
+PROBL. XXIII. PROPOS. XXXIII.
 
-Si du double du nombre des angles d'vn rectiligne on oste quatre, le reste monstrera combien d'angles droicts vallent tous les angles du rectiligne.
+Les lignes droictes qui conioignent deux lignes droictes égales & paralleles, & de mesme part, sont aussi égales & paralleles.
+
+(figure)
+
+*Hypoth.*
+
+ab 2|2 & == cd.
+
+*Req. à demonſtrer.*
+
+ac 2|2 & == bd.
+
+*Preparation.*
+
+1.p.1 | bc *eſt* ——.
+
+*Demonſtr.*
+
+hyp. | ab == cd,
+29.1 | ∠abc 2|2 ∠bcd,
+hyp. | ab 2|2 cd,

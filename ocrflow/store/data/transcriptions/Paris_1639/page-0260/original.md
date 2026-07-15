@@ -1,34 +1,43 @@
-# Page 259
+# Page 260
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-THEOR. VIII. PROPOS. VIII.
+*Demonſtr.*
 
-Si en vn triangle rectangle on mene vne ligne perpendiculaire de l'angle droict sur la base, les triangles qui sont de part & d'autre de la perpendiculaire, sont semblables au tout & entr'eux.
+8.6 | △abc, △adb, △adc *ſnt equiangl.*
+1.concl. 4.6 | bd π da 2|2 da π dc,
+2 concl. 4.6 | bc π ac 2|2 ac π dc,
+3.concl. 4.6 | cb π ab 2|2 ab π bd.
+
+PROBL. I. PROPOS. IX.
+
+D'vne ligne droicte donnée en oster vne partie demandée.
 
 (figure)
 
 *Hypoth.*
 
-∠bac *eſt* ┘.
-ad ⊥ bc.
+ab *eſt* —— D.
 
-*Requis à demonſtrer.*
+*Requis à faire.*
 
-△adb, △adc, △abc *ſnt equiang.* đe.
+ag 2|2 ⅓ab.
+
+*Conſtruction.*
+
+| ∠baf *eſt arbitr.*
+3.1 | ad, de, ef *ſnt* 2|2 đe.
+1.p.1 | fb *eſt* ——,
+31.1 | dg == fb,
+ſymp. | ag 2|2 ⅓ab.
 
 *Demonſtr.*
 
-| *aux* △;abc & abd
-12.a.1 | ∠bac 2|2 ∠adb. α
-| ∠b *eſt commun.*
-1.concl. α.32.1 | ∠bad 2|2 ∠acb, β
-| *aux* △; abc & adc
-12.a.1 | ∠bac 2|2 ∠adc,
-| ∠c *eſt commun.*
-2 concl. 32.1 | ∠dac 2|2 ∠abc, γ
-3.concl. βγ | △abd *eſt equiãg.* △adc
+α.2.6 | ag π gb 2|2 ad π df,
+2.ſ.18.5 | ag π ab 2|2 ad π af,
+conſtr. | ad 2|2 ⅓af,
+concl. 4.d.5 | ag 2|2 ⅓ab.
 
-COROLLAIRE.
+PROBL. II. PROPOS. X.
 
-De cette proposition il est euident que la perpendiculaire menée de l'angle droict sur la base, ou triangle rectangle, est moyenne proportionelle entre les deux segments de la base : Semblablement vn chacun des costez qui contiennent l'angle droict, est moyen proportionel entre toute la base, & le segment de la base qui est adjacent à iceluy costé.
+Coupper vne ligne droicte donnée non couppée semblablement à vne ligne droicte donnée & couppée.

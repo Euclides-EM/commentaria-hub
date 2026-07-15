@@ -1,43 +1,35 @@
-# LIBER VI.
+# GEOMET. ELEMENT.
 
-*137*
+*138*
 
-& sesqualtera ipsius c/ad b/resultantem. ¶Sit rursum in maiorem expressionem, inter c/ & b/alia quædam magnitudo d, subtripla ipsius c, ipsius autem b/subdupla. Aio quoq́ue rationē a/ad b, ex rationibus a/ad c, & c/ad d, atque d/ad b/constare. Duco enim vnum & tertiū rationis a/ ad c/ denominatorem, in tria denominatorem triplæ, quæ est c/ad d: fient quatuor, ostēdentia a/ad d/quadruplam obtinere rationem. Et quoniā d/ad b/ ratio minoris est inæqualitatis, nempe subdupla: diuidam quatuor, à quibus nominatur quadrupla, per duo ipsius subduplæ denominatorem: prouenient enim duo, duplā (quæ est ipsius a/ad b) rationem denominantia. Nam cum d/ subduplum sit ipsius b, & subtriplum ipsius c: qualium igitur d/est vnum, talium b/est duorum, & c/trium similium. Item quoniam a/ad c/est sesquitertiū: qualium propterea c/ est trium, a/erit quatuor. Sed qualium c/est trium, b/duorum esse deductum est: qualium itaq́ue b/est duorum, a/quatuor erit similium. Quatuor rursum ad duo, rationem habent duplam, qualem a/ad b/obtinere supposuimus.
+quinta. Diuido ergo decem per sex: proueniunt vnum & duo tertia, à quibus ratio a/ad b/ denominanda est, quæ superbipartiens tertias adpellatur. Idem quoque per superius expressam partium cum rationibus datis, & rationū cum partibus respondentiam, deducere vel facilè licebit: qualium enim partium c/fuerit quatuor, & d/sex, talium b/erit trium, & a/ quinque similium. Hinc rursum cōsurgit a/ad b/ratio, vt quinque ad tria.
 
-> Exemplū vbi tres rationes (quarum vna minoris est inæqualitatis) eandem cōponunt multiplicem.
+> Sūmaria exēpli recollectio
 
-> Ostensio eiusdem exēpli.
+> Notandum.
 
-*[diagram: 4 3 2 1, a 1⅓ c 3 d 2 b, 4 1½ 2]*
+¶Porrò si forsitan in hac partium quotarum, seu fractionum vulgarium multiplicatione minus fueris exercitatus: cōsulito librū secundū nostræ Arithmeticæ practicæ. Nec volumus te latere, huiuscemodi quantitatum (à quibus datæ rationes nominantur) tum expressionem, tum etiā multiplicationem, per astronomicas, hoc est sexagenarias integrorum fractiones (quæ scrupula, seu minuta vocant) indifferenter absolui posse: de quibus libro tertio eiusdem Arithmeticę nostræ abundè tractauimus. Est enim sexagenarius numerus, propter partiū quotarum in eo contentarum multitudinem, omnibus rerum supputationibus indifferenter adcōmodus.
 
-¶Sed demus exemplum in ratione superparticulari: sítq́ue a/ad b/sesqualtera, ad c/autem sesquiquinta, & c/ad b/sesquiquarta. Dico rationem sesqualteram, ex sesquiquarta & sesquiquinta resultare. Si nanque multiplicaueris vnum & quartum, per vnū & quintum: proueniet vnum & dimidium, à quibus sesqualtera ratio denominatur. Cùm enim c/subsesquiquintum sit ipsius a, & sesquiquartū ipsius b: qualiū ergo partiū c/est quinq́ue, talium a/erit sex, & b/quatuor similiū. habent autem sex ad quatuor, veluti a/ad b/rationem sesqualteram
+> De fractionū astronomicarū cōmoditate in rationū cōpositionib9
 
-> Exemplū de ratione superparticulari.
+¶Conferamus in exemplum vtrunq́ue calculum: & primam rationis compositionem, vbi rationem a/ad b/duplam, ex sesqualtera & sesquitertia cōstare monstrāuimus, rursum examinemus. Multiplico itaque vnum & dimidium, per vnum & tertiū, in hunc qui sequitur modum. Duco primùm integra in sese: fit vnum integrū. Deinde numeratorem fractionis multiplicandæ, in integrum multiplicantis: atque numeratorem multiplicātis, per integrū multiplicandæ: procreabuntur enim fractiones prioribus haud dissimiles, vtpote dimidiū, & vnum tertium, quę reducta ad vnam fractionem simplicem, efficiunt quinque sexta. Tandem multiplico fractiones ipsas adinuicem, numeratores quidem per sese, atque denominatores: fiet vnum tantummodò sextum. Compono vnū sextum & quinque sexta: consurgunt sexta sex, quæ vnum valet integrum priori integro adijciendum. Resultabunt itaq́ue duo integra, à quibus proposita ratio dupla denominatur.
 
-> Inductio.
+> Primi exēpli supputatio, p fractiones vulgares.
 
-*[diagram: 6 5 4, a 1⅕ c 1¼ b, 1½]*
+*[diagram: 1 ½ × 1 ⅓ | ⅚ | ⅙ | ⅚ ⅙ | 2]*
 
-¶Quòd si c/magnitudo fuerit ipsius a/sesquitertia, & dupla ipsius b, vt in secūda figura: nō multiplicabis vnum & tertium subsesquitertiæ (quæ est a/ad c) denominatorem, per duo, à quibus dupla ratio ipsius c/ ad b/denominatur. Diuides itaque duo, per vnū & tertium: propterea quòd a/ad c/ratio minoris sit inæqualitatis. Vnum igitur & tertium, efficiunt quatuor tertia: duo autem, tertia sex. Diuide itaque sex per quatuor: proueniet vnum & dimidium, sesqualteræ rationis (quæ est a/ad b) denominator. Nam cùm c/ ad a/ sit sesquitertium, ad b/ autem duplum: qualium proinde partium c/est quatuor, talium a/est trium, & b/duarum similium. Ratio igitur a/ad b, est vt tria ad duo, quæ sesqualtera nuncupatur.
+¶Verùm idē per astronomica inquiramus scrupula siue minuta. Denominator itaque sesqualteræ rationis, erit vnum integrum, & triginta integri minuta: ipsius verò sesquitertiæ rationis denominator, vnum itidem integrum & minuta viginti. Sunt enim triginta, dimidium: viginti autem, tertiū sexagenarij numeri. Duco igitur triginta minuta, in minuta viginti: fiunt secūda sexcēta, quæ diuisa per sexaginta, restituunt decē minuta. hæc subscribo suo loco. Deinde multiplico vnū integrū per ipsa viginti minuta: redeunt minuta viginti. hæc noto sub priorib9 decem minutis. Postea duco triginta minuta in vnum integrū: restituuntur minuta triginta (nam fractio per integra multiplicata, similem videtur producere fractionē) Quibus subnotatis, multiplico integra adinuicē, & vnū tantummodò restituitur integrum. Compōno tādem decem, viginti & triginta minuta, consurgūt sexaginta, quæ vnum valent integrum priori demum adiungendum. Proueniunt igitur ex hac quātitatum multiplicatione duo integra, à quibus dupla ratio (quæ erat a/ad b) venit denominanda. In cæteris respondenter facito, siue vulgaribus, siue astronomicis iuuet vti fractionibus.
 
-> Aliud exēplū superparticularis, vbi vna rationū minoris est inęqualitatis.
+> Eiusdē exempli supputatio, p fractiones astronomicas.
 
-> Exēpli declaratio.
+*[table: Integra. Minuta. Secūda. | 1 30 00 | 1 20 00 | 10 600 | 20 10 | 1 30 600 | 2 6]*
 
-*[diagram: 3 4 2, a 1⅓ c 2 b, 1½]*
+¶EST ET ALIVS RATIONALIVM QVANTITATVM multiplicandi modus, ipsis potissimum numeris, ad numerúmve relatis quantitatibus peculiaris: siue numeri ipsi in maioris aut minoris inæqualitatis ratione proponantur. Nam ex eorundem numerorum sub datis rationibus constitutorum multiplicatione, numeri procreantur, sub composita, vel inde constante ratione se habentes. Multiplicandi sunt itaq́ue primū antecedentes numeri adinuicem, & antecedens ipsius compositæ rationis efficietur. Deinde consequentes itidem inter sese ducendi, vt consequens eiusdem rationis generetur.
 
-¶Idem in superpartiente ratione tandē obseruari videbis. Sit enim a/ ad b/ superbipartiens tertias: & inter a/ & b/incidat c, subsesquiquartum ipsius a, & sesquitertium ipsius b. Dico iam rationē a/ad b, componi ex ratione a/ad c/sesquiquarta, & sesquitertia ipsius c/ad b. Multiplicetur enim vnum & quartum, per vnum & tertium: fiet vnū & duo tertia, vnde superbipartiēs tertias (quæ est ipsius a/ad b) denominatur. Oportet enim propter rationum hypotheses, qualium partium c/ fuerit quatuor, talium b/fore trium, & a/quinque similium. Quinque porrò ad tria, eam seruant rationē, quam a/ad b: nēpe superbipartiētem tertias.
+> Alius modus cōponēdi rationes adinuicem.
 
-> Exēplū de superpartientis cōpositione.
+¶Repetatur in maiorem singulorum euidentiam, antecedentis primæ compositionis exemplum: sintq́ue rursum numeri, tria ad duo in ratione sesqualtera, & quatuor ad tria in sesquitertia ratione constituti. Duc igitur anntecedentes numeros inter sese, vtpote quatuor in tria: fient duodecim, quæ pro generatæ rationis antecedente subnotabis. Postea consequentes, hoc est tria & duo, inuicem mulplicato:
 
-> Ostensio exēpli.
+> Primū exemplū de cōpositione multiplicis.
 
-*[diagram: 5 4 3, a 1¼ c 1⅓ b, 1⅔]*
-
-¶Quòd si inter a/& c/inciderit magnitudo d, sesquiquinta ipsius a, & ipsius c/sesqualtera. Ratio a/ad b, ex rationibus a/ ad d, & d/ad c, atq́ue c/ad b/itidem componetur. Duco enim vnum & tertium rationis c/ad b/denominatorem, in vnum & dimidium denominatorē rationis quam habet d/ad c: fient duo, à quibus ratio d/ad b/denominatur, vtpote dupla. At quoniā a/ad d/ratio minoris est inæqualitatis, nēpe subsesquiquinta: diuidam ipsa duo per vnum & quintum, in hunc modum. vnum & quintum, efficiunt quinta sex: & duo, vertuntur in decem
-
-> Aliud superpartiētis exēplum, vbi vna rationū minoris est inęqualitatis.
-
-*[diagram: 6 5 4 3, a 1⅕ d 1½ c 1⅓ b, 1¼ 2 1⅔]*
-
-m.iij.
+*[table: Ratio { sesqualtera. 3——2 | sesquitertia. 4——3 | Dupla ex eisdē cōposita. 12——6]*

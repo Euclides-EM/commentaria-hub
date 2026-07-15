@@ -1,58 +1,44 @@
-# Page 157
+# Page 158
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-*Hypoth.*
+1.concl. 1.a.f | ∠abc + ∠adc 2|2 2┘,
 
-edac *eſt* ⊙.
+*au* △dcb
 
-*Req. à demonſtr.*
+32.1 | ∠dcb + ∠dbc + ∠bdc 2|2 2┘,
+21.3 | ∠dbc 2|2 ∠dac, ∠bdc 2|2 ∠bac,
+2 concl. 1.a.f | ∠dcb + ∠dab 2|2 2┘.
 
-∠dac 2|2 ∠dbc.
+(figure)
 
-*Prepar. du 1.cas.*
+*Corollaire 1.*
 
-1.p.1 | ed & ec *ſnt* ——.
+hyp. | ∠dab *eſt* ┘,
+1.c.22.3 | ∠dcb *eſt* ┘.
 
-*Demonſtr.*
+*Corollaire 2.*
 
-20.1 | ∠dac 2|2 ½∠dec,
-20.1 | ∠dbc 2|2 ½∠dec,
-1.concl. 7.a.1 | ∠dac 2|2 ∠dbc. α
+hyp. | ∠abc 2|3 ┘,
+2.c.22.3 | ∠adc 3|2 ┘.
 
-*Prepar.du 2.cas.*
+SCHOLIE.
 
-1.p.1 | ab *eſt* ——.
-
-*Demonſtr.*
-
-d.α | ∠adb 2|2 ∠acb,
-15.1 | ∠afd 2|2 ∠bfc,
-2 concl. 1 c.32.1 | ∠dac 2|2 ∠dbc.
-
-THEOR. XX. PROPOS. XXII.
-
-Les figures de quatre costez inscrites au cercle, ont les angles opposez égaux à deux angles droits.
+Si vn costé d'vn quadrilatere inscrit dans le cercle, est prolongé, l'angle externe sera égal à l'interne, qui est opposé à celuy qui est de suite à l'externe.
 
 (figure)
 
 *Hypoth.*
 
-abcd *eſt* ⊙,
-abcd *eſt* 4∠.
+acbd *eſt* ⊙,
+acbd *eſt* 4∠ *en* ⊙,
+dae *eſt* ——.
 
 *Req. à demonſtrer.*
 
-∠adc + ∠abc 2|2 2┘,
-∠dab + ∠dcb 2|2 2┘.
+∠cae 2|2 ∠dbc.
 
-*Preparation.*
+*Demonſtr.*
 
-1.p.1 | ac & bd *ſnt* ——.
-
-*Demonſtration.*
-
-*au* △abc,
-
-32.1 | ∠abc + ∠bac + ∠bca 2|2 2┘,
-21.3 | ∠bac 2|2 ∠bdc, ∠bca 2|2 ∠bda,
+13.1 | ∠cae + ∠cad 2|2 2┘,
+22.3 | ∠dbc + ∠cad 2|2 2┘,

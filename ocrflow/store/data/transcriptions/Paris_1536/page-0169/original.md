@@ -1,37 +1,33 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-*152*
+*153*
 
-> Eiusdem primæ partis oſtensio.
+b/c,ei qui sub d/b/& b/e/continetur æqualem habentia.Dico latera ipsorum a/b/c/ & d/b/e/ triangulorum, quæ circum eosdem æquales sunt angulos, fore reciprocè proportionalia:sicut quidem a/b/ad b/e, sic d/b/ad b/c. Collocentur enim a/b/ & b/e/latera in directum, & d/b/ ipsi b/c: quemadmodùm præcedenti demonſtratione, ex decimaquarta primi, de parallelogrammorũ deductum eſt lateribus. Connectatur demũ recta a/d, per primum poſtulatum.Et quoniam per hypothesin, æquũ eſt a/b/c/triangulum,ipsi triangulo d/b/e: & a/b/d/aliud quoddam vtriq; comparabile triangulum.Et sicut igitur a/b/d/triangulum ad triangulum a/b/c, sic idem triãgulum a/b/d/ ad triangulum d/b/e: eadem enim magnitudo,ad æquales eandem habet rationem,per septimam quinti.Sicut porrò triangulum a/b/d/ad triangulum d/b/e,sic per primam huius sexti, a/b/ad b/e.Et sicut igitur per vndecimam quinti,a/b/ad b/e, sic a/b/d/ triangulum ad triangulum a/b/c.
 
 *[diagram: a b c d e]*
 
-rectúmq; datorum parallelogrammorũ lateribus, per secundum poſtulatũ. Cùm igitur a/b/c/parallelogrammũ, æquale sit per hypothesin ipsi d/b/e/parallelográmo, & c/b/e/ aliud quoddam vtrique comparabile parallelogrammum:erit proinde vt a/b/c/ parallelogrammum,ad parallelogrammum c/b/e, sic parallelogrammum d/b/e/ ad idem c/b/e/ parallelogrammũ. Aequales enim magnitudines ad eandem magnitudinem, eandem habent rationem,per septimam quinti. Sicut porrò a/b/c/ parallelogrammũ,ad parallelogrammũ c/b/e, sic per primã huius sexti,basis a/b/ ad basin b/e. sub eadẽ enim sunt altitudine ipsa a/b/c/ & c/b/e/ parallelogramma. Et sicut igitur basis a/b/ ad basin b/e, sic per vndecimam quinti,d/b/e/parallelogrammum, ad parallelogrammum c/b/e. Sicut rursum per eandem primam huius sexti, d/b/e/parallelogrammum, ad ipsum parallelogrammum c/b/e , sic basis d/b/ ad basin b/c.
+*[diagram: |a/b/d.a/b/c|a/b/d.d/b/e|a/b.b/e|]*
 
-*[diagram: |a/b.b/e|a/b/c.c/b/e|d/b/e.c/b/e|]*
+Rursum vt triãgulum a/b/d/ ad triangulum a/b/c,sic per eandem primam huius sexti,d/b/ad b/c.Ergo sicut a/b/ad b/e,sic d/b/ad b/c,per ipsam vndecimam quinti. triangulorũ itaq; a/b/c/ & d/b/e, latera quæ circũ æquales angulos reciprocè sunt proportionalia: per secundã huius sexti diffinitionem.
 
-Et sicut igitur per ipsam vndecimam quinti a/b/ad b/e, sic d/b/ ad b/c. Datorum itaque parallelogrammorum a/b/c/& d/b/e, reciproca sunt latera quæ circum æquales angulos: per secundam huius sexti diffinitionem.
+*[diagram: |a/b.b/e|a/b/d.a/b/c| d/b.b/c|]*
 
-*[diagram: |a/b.b/e| d/b/e.c/b/e| d/b.b/c|]*
+> Pars secunda conuersa primæ.
 
-> Secunda pars theorematis, conuersa primæ.
+¶Sed receptum sit angulos qui ad b/fore inuicem æquales, & quæ circum eosdem æquales angulos latera reciprocè proportionalia : sicut a/b/ad b/e,sic d/b/ad b/c.Aio q̃ a/b/c/triangulum,æquum eſt ipsi d/b/e/triangulo. Eſt enim ex hypothesi sicut a/b/ad b/e, sic d/b/ad b/c.Sed sicut a/b/ad b/e,sic a/b/d/ triangulum ad triangulũ d/b/e:per primam huius sexti.Et sicut igitur d/b/ad b/c,sic per vndecimam quinti, a/b/d/triangulum ad triangulum d/b/e. Sicut rursum d/b/ad b/c,sic triangulum a/b/d/ad triangulum a/b/c, per sæpius allegatam primã huius sexti.Et proinde sicut a/b/d/ triangulum ad triangulum a/b/c,sic per vndecimam ipsius quinti,idem a/b/d/triangulum ad triangulum d/b/e.Ad quas porrò magnitudines, eadẽ magnitudo eandem habet rationem:ipsæ per nonam eiusdem quinti,sunt æquales.
 
-¶Sed eſto vt qui ad b/ sunt anguli æquales sint adinuicem, & circũ eosdem æquales angulos latera reciprocè proportionalia,sicut a/b/ad b/e, sic d/b/ad b/c.Aio versa vice,q̃ a/b/c/parallelogrammum,æquum eſt ipsi d/b/e/parallelogrammo. Receptum eſt enim ex hypothesi,vt a/b/ad b/e, sic d/b/ ad b/c.Sed sicut a/b/ ad b/e/ sic per primam huius sexti, parallelogrammum a/b/c/ ad c/b/e/parallelogrammum.Et sicut igitur a/b/c/parallelogrammũ,ad parallelogrammum c/b/e,sic per vndecimam quinti d/b/ ad b/c. Sicut rursum d/b/ ad b/c, sic per eandem primam huius sexti, parallelogrammum d/b/e/ad c/b/e/parallelogrammum.Et sicut igitur per ipsam vndecimam quinti a/b/c/ parallelogrammum,ad c/b/e/ parallelogrãmum, sic paral-
+*[diagram: |a/b/d. d/b/e |a/b.b/e| d/b. b/c|]*
 
-*[diagram: |a/b/c.c/b/e| a/b.b/e | d/b. b/c|]*
+*[diagram: |a/b/d.a/b/c|d/b.b/c|a/b/d.d/b/e|]*
 
-*[diagram: |a/b/c.c/b/e|d/b.b/c|d/b/e.c/b/e|]*
+Aequum eſt igitur a/b/c/triangulum,ipsi triangulo d/b/e. Aequalium itaq; & vnũ vni æqualẽ habentiũ angulũ:&c.vt in theoremate.Quod oportebat demonſtrare.
 
-lelogrammũ d/b/e/ ad idẽ c/b/e/ parallelogrammũ.Vtrunq; igitur a/b/c/ & d/b/e/ parallelogrãmum,ad idem parallelogrammũ c/b/e/ habet eandẽ rationem. æquũ eſt itaq; a/b/c/parallelogrammũ ipsi d/b/e/ parallelogrãmo, per nonã ipsius quinti. Aequaliũ igitur & vnum vni æqualem habẽtium angulum parallelogrammorum:& quæ sequuntur reliqua.Quod oſtendendum fuerat.
+Θεώρημα ια, Πρόθεσις 15.
 
-Θεώρημα ι, Πρόθεσις ιε.
+Εὰν τέσσαρες εὐθεῖαι ἀνάλογον ὦσι, τὸ ὑπὸ τῶν ἄκρων περιεχόμενον ὀρθογώνιον, ἴσον ἐστὶ τῷ ὑπὸ τῶν μέσων περιεχομένῳ ὀρθογωνίῳ.καὶ ἐὰν τὸ ὑπὸ τῶν ἄκρων περιεχόμενον ὀρθογώνιον,ἴσον ᾖ τῷ ὑπὸ τῶν μέσων περιεχομένῳ ὀρθογωνίῳ, αἱ τέσσαρες εὐθεῖαι , ἀνάλογον ἔσονται.
 
-Τῶν ἴσων ϗ̃ μίαν μιᾷ ἴσην ἐχόντων γωνίαν τριγώνων, ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας: καὶ ὧν μίαν μιᾷ ἴσην ἐχόντων γωνίαν ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας, ἴσα ὑπὶν ἐκεῖνα.
+## Theorema 11, Propositio 16.
 
-## Theorema 10, Propositio 15.
+SI quatuor rectæ lineæ proportionales fuerint : quod sub extremis comprehensum rectangulum, æquum eſt ei, quod sub medijs continetur rectangulo. Et si sub extremis comprehensum rectangulum, æquum fuerit ei, quod sub medijs continetur rectangulo:quatuor rectæ lineæ proportionales erunt.
 
-AEqualium & vnũ vni æqualem habentium angulum triangulorum:reciproca sunt latera,quæ circum æquales angulos.Et quorum vnum vni angulum æqualem habentium triangulorum reciproca sunt latera,quæ circum æquales angulos: ea quoq; sunt æqualia,
-
-> Prima theorematis pars.
-
-ORONTIVS. ¶Sint bina triangula a/b/c/& d/b/e, angulum qui sub a/b/ &
+ORONTIVS. ¶Sint datæ quatuor rectæ lineæ discontinuè proportionales

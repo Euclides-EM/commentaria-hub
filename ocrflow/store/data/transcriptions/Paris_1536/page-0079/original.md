@@ -1,23 +1,31 @@
-# GEOMET. ELEMENT.
+# LIBER III.
 
-eam ſimul diſpeſcit angulos.Connectantur enim d/b/& d/c/rectæ,per primum poſtulatum.Cùm igitur ex hypotheſi recta b/e/ſit æqualis e/c,& e/d/vtriq; communis:binæ igitur b/e/ & e/d/trianguli b/e/d, duabus d/e/& e/c/ trianguli d/e/c/ ſunt æquales altera alteri.baſis quoq; b/d,baſi d/c/eſt æqualis,per decimamquintā diffinitionem primi.Angulus ergo b/e/d,angulo d/e/c/ſub æquis lateribus comprehenſo,per octauam ipſius primi,eſt æqualis.Recta itaq; d/e/conſiſtens ſuper rectā b/c, efficit vtrobiq; angulos adinuicem æquales:ergo rectos,per decimam eiuſdem primi diffinitionem. Rectus eſt igitur vterque angulorum qui ſub b/ e/ d/ & d/ e/ c.
+ſuæ parti a/e/f/erit æqualis: quod per nonā cōmunē ſententiā eſt impoſſibile . Si in circulo igitur a/b/c/d/binæ rectæ lineæ a/c/& b/d,ſeſe inuicē ſecuerint nō per centrum extēſæ:ſeſe inuicē bifariā non ſecabunt. Quod oſtendere fuerat operæpretiū.
 
-Secet rurſum eadem a/f,datam ipſam b/c/ ad rectos angulos. Dico, q̄ & bifariam eandem verſa vice diuidet. Eadem nanque figuræ manente diſpoſitione , quoniam vterq; angulorum qui circa e/rectus eſt, per hypotheſin: rectangula igitur ſunt b/e/d/& d/e/c/triangula. quæ igitur ex b/e/& e/d/vtraq; fiūt quadrata,æqua ſunt ei quod ex b/d : ſimiliter & quæ ex d/e/& e/c, ei quod fit ex d/c, per quadrageſimamſeptimā primi. Quadrata porrò quæ fiunt ex b/d/& d/c,æqualia ſunt adinuicem,per quadrageſimæſextæ primi libri corollarium:recta enim b/d,ipſi d/c/eſt æqualis,per decimamquintam ipſius primi diffinitionem. Quæ autem æqualibus æqualia ſunt: ea ſunt inuicem æqualia,per primam communem ſententiam. Quæ igitur ex b/e/ & e/d/fiunt quadrata,æqua ſunt eis, quæ ex d/e/& e/c. Tollatur cōmune quadratum quod fit ex e/d:reliquum ergo quadratum quod ex b/e,reliquo quod fit ex e/c,per tertiam communem ſententiam eſt æquale. Aequalia porrò quadrata ſunt,quæ ab æqualibus rectis deſcribuntur:per idem corollarium quadrageſimæſextæ primi libri.Aequalis eſt igitur b/e/ipſi e/c. Itaq; ſi in circulo recta linea quædam: & quæ ſequuntur reliqua.Quod demonſtrare oportebat.
+Θεώρημα δ, Πρόθεσις ε.
 
-> Pars ſecūda conuerſa præcedentis.
+Ἐὰν δύο κύκλοι τέμνωσιν ἀλλήλους,οὐκ ἴσαι αὐτῶν ἔσονται τὸ αὐτὸ κέντρον.
 
-*[diagram: a d b e c f]*
+## Theorema 4, Propoſitio 5.
 
-Θεώρημα γ, Πρόθεσις δ.
+SI bini circuli ſeſe inuicem ſecuerint : non erit eorum idem centrum.
 
-Ἐὰν ἐν κύκλῳ δύο εὐθεῖαι τέμνωσιν ἀλλήλας,μὴ διὰ τοῦ κέντρου οὖσαι,οὐ τέμνουσιν ἀλλήλας δίχα.
+ORONTIVS.Bini enim circuli a/b/c/& d/b/e, ſeſe inuicem ſecent in duobus punctis,quorum alterum ſit b.Dico quòd ipſorum circulorū non eſt idem centrum. Si enim fuerit poſſibile,vt idem habeant centrum:eſto illud f. & connectantur f/b/& f/c,per primum poſtulatum:extēdātúrq; per ſecundum poſtulatum,eadē f/c/in rectum vſq; ad e. Si igitur f/punctum,fuerit centrū circuli a/b/c: erit f/c/ipſi f/b/æqualis, per decimamquintam diffinitionem primi.Si idem quoque punctum f, centrum extiterit ipſius d/b/e/circuli:æqualis rurſum erit f/e/eidem f/b, per eandem decimamquintam diffinitionē.Binæ igitur f/c/& f/e,eidem f/b/erūt æquales:& æquales propterea adinuicē,per primā communē ſentētiā.Aequalis igitur erit f/e/ipſi f/c.atqui f/c/pars eſt ipſius f/e:totū igitur eſſet æquale ſuæ parti.Omne porrò totū eſt ſua parte maius,per nonam communem ſententiam: igitur punctum f, non eſt commune centrum datorum a/b/c/& d/b/e/circulorū. Si bini itaq; circuli:& quæ ſequūtur reliqua. Quod receperamus oſtendendum.
 
-## Theorema 3, Propoſitio 4.
+> Oſtenſio rurſum ab impoſſibili.
 
-SI in circulo binæ rectæ lineæ ſeſe inuicem ſecuerint non per centrum extenſæ:ſeſe inuicem bifariam non ſecabunt.
+*[diagram: b a d f c e]*
 
-ORONTIVS. Eſto datus a/b/d/ circulus:in quo binæ rectæ lineæ a/c/ & b/d,non per centrum extenſæ, ſeſe inuicē ſecent in puncto e.Aio q̄ altera alteram bifariam non ſecat in eodem puncto e. Inueniatur enim centrū dati circuli a/b/c/d, ſitq́; illud f,per primam huius:& connectatur e/f/recta,per primum poſtulatum.Si igitur a/e/ipſi e/c/fuerit æqualis:recta e/f/per centrum extenſa,eandem a/c/nō ductam per centrum bifariam ſecabit, & ad rectos igitur angulos, per tertiam huius. Rectus erit itaq; a/e/f/angulus.Haud diſſimiliter ſi b/e/ſit æqualis ipſi e/d: eadem e/f/per centrum educta,ipſam b/d/non per centrum extenſam,bifariā & ad rectos quoq; ſecabit angulos,per eādem tertiam huius.Rectus erit igitur angulus b/e/f.Atqui rectum itidem fore monſtrauimus a/e/ f/ angulum: ſuntq́; recti omnes inuicē æquales, per quartum poſtulatū.Aequus erit igitur b/e/f/angulus, ipſi angulo a/e/f. Angulus porrò a/e/f, eſt pars ipſius b/e/f/ anguli: recta ſiquidem e/a,cadit inter b/e/& e/f/rectas, diuiditq́; propterea ipſum angulum b/e/f.Totus itaq; b/e/f/angulus,
+Θεώρημα ε, Πρόθεσις ς.
 
-> Demōſtratio ab impoſſibili
+Ἐὰν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐντὸς,οὐκ ἴσαι αὐτῶν τὸ αὐτὸ κέντρον.
 
-*[diagram: a d f e b c]*
+## Theorema 5, Propoſitio 6.
+
+SI duo circuli ſe adinuicem tetigerint : eorum non eſt idem centrum.
+
+ORONTIVS. De circulis potiſſimùm intelligit Euclides,quorum vnus intra aliū collocatur.Tangāt igitur ſe bini circuli a/b/c/& d/b/e,in pūcto b.Dico rurſum,quòd ipſorum circulorum non eſt idem commune centrum.Si id enim fuerit poſſibile:eſto illud f.& connectantur f/b/& f/e,per primū poſtulatum: & per ſecundum poſtulatum extendatur in rectum f/e/in punctum c. Si f/igitur punctum,ſit centrum a/ b/ c/ circuli : æqualis erit f/ e/ ipſi f/ b , per decimamquintam diffinitionem primi Item ſi idem punctū f,centrum fuerit circuli d/b/e:æqualis rurſum erit f/e/eidem f/b, per eādem decimamquintam ipſius primi diffinitionē . Binæ igitur f/c/& f/e,eidem f/b/erunt æquales:& propterea æquales adinuicem,per primam communē ſententiam. Ergo f/c, æqualis erit ipſi f/e. eſt autem f/e,pàrs ipſius f/c:tota igitur f/c,ſuæ parti f/e/coæquabitur. quod per nonam communē ſententiam non videtur eſſe poſſibile. Ergo punctum f, non eſt idem commune centrum eorundem circulorum a/b/c/& d/b/e,intus ſe adinuicem tangentium(nam de ijs qui ſe tangunt extra,per ſe fit manifeſtum)Si duo igitur circuli:&c.vt in theoremate.Quod oportuit oſtendiſſe.
+
+> Idem qui pri⁹ arguendi modus ab impoſſibili.
+
+*[diagram: b a f d e c]*

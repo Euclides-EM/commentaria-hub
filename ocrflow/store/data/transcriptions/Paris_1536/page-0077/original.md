@@ -1,31 +1,25 @@
-# GEOMET. ELEMENT.
+# LIBER III.
 
-comprehenſa figura ſub angulum comprehendentibus rectis lineis, & aſſumpta ſub eis circunferentia.
+Θεώρημα α, Πρόθεσις β.
 
-Cuiuſmodi eſſe videtur figura r/s/t/antecedentis deſcriptionis,ſub rectis lineis r/s/& s/t/ angulum qui ad centrum s, conſtituentibus, & circunferentia r/t/comprehenſa. Differt igitur ſector à ſectione circuli.
+Ἐὰν κύκλου ἐπὶ τῆς περιφερείας ληφθῇ δύο τυχόντα σημεῖα,ἡ ἐπὶ τὰ αὐτὰ σημεῖα ἐπιζευγνυμένη εὐθεῖα ἐντὸς πεσεῖται τοῦ κύκλου.
 
-Ὅμοια τμήματα κύκλου ἐστὶ, τὰ δεχόμενα γωνίας ἴσας, ἢ ἐν οἷς αἱ γωνίαι ἴσαι ἀλλήλαις ἐισίν.
+## Theorema 1, Propoſitio 2.
 
-Similes ſectiones circuli : ſunt quæ angulos æquos ſuſcipiunt, vel in quibus anguli ſibi inuicem ſunt æquales.
+SI in circuli circunferentia duo fuerint puncta vtcunque contingentia : ad ea puncta applicata recta linea, intra ipſum circulum cadit.
 
-Vti ſubiectæ circuli ſectiones a/b/c/ & d/e/f:in quibus anguli qui ad b/& e,ſunt inuicem æquales.Quanuis itaq̄ circuli ſectiones fuerint inæquales, poſſunt nihilominus eſſe ſimiles.Nam ſimilitudo ſectionum reſpicit tātummodò ſuſceptorū angulorum æqualitatē:nō autem datarum ſectionum magnitudinem. quēadmodum angulorū magnitudo, non linearum angulos ipſos comprehendentium quātitatem: ſed earundem linearum ſolam reſpicit inclinationem.
+ORONTIVS. Sit a/b/c/circulus:in cuius circunferentia ſint b/& c/vtcunq; contingentia puncta. Aio q̄ cōnexa ex b/in c/recta linea,cadit intra circulum a/b/c. Si enim non cadit intra:coincidit igitur in comprehenſam circunferentiam, vel cadit extra circulum.Atqui recta ipſa, cum ipſius circuli circunferētia minimè poteſt conuenire:non differret enim rectum à curuo.Cadat igitur,ſi poſſibile ſit,extra circulum a/b/c.& inuento ipſius circuli centro d,per primam huius, ſuſceptóq; pūcto e/in b/c/circūferentia:connectantur d/b,d/e,& d/c/rectæ lineæ,per primum poſtulatum: producatúrq; per ſecundum poſtulatū, recta d/e/ in directum vſque ad f,hoc eſt, in eam quæ extra cadere conceſſa eſt.Erunt igitur d/b,d/e,& d/c,adinuicem æquales,per decimamquintam diffinitionem primi: & d/f/inſuper maior ipſa d/e,per nonam communem ſententiā. Triangulum igitur erit d/b/f/c,atq; iſoſceles : quoniam d/b/ æqualis eſt ipſi d/c. Vnde per quintā primi, anguli d/b/c/& d/c/b,qui ad baſin b/f/c:erunt adinuicem æquales.Triangulū inſuper erit d/b/f,& ipſum b/f/latus,productum in c.exterior igitur angulus d/f/c, maior erit interiore & ex oppoſito d/ b/ f, per decimamſextam ipſius primi . Ipſi porrò d/b/f/ angulo,oſtenſus eſt æqualis d/c/f:& d/f/c/ igitur angulus, ipſo d/c/f/ angulo maior erit:quæ enim ſunt æqualia eiuſdem ſunt æquè minora,per ſeptimæ cōmunis ſententiæ conuerſionem.In triangulo igitur d/c/f,angulus qui ad f,maior erit angulo qui ad c.Omnis porrò trianguli maius latus,ſub maiori angulo ſubtenditur,per decimamoctauam eiuſdem primi.maius igitur erit latus d/c, ipſo d/f. Ipſi autem d/c, æqualis eſt d/e,vti nuper oſtendimus.Et d/e/igitur maior erit ipſa d/f,minor videlicet maiore,ſeu pars toto:quod per nonam communem ſentētiam eſt impoſſibile. Non cadit igitur connexa ex b/in c/recta,extra circulum a/b/c, neq; in circunferentiam b/e/c: igitur intra. Quod oſtendendum fuerat.
 
-*[diagram: b a c / e d f]*
+> Oſtenſio rurſum per impoſſibile.
 
-Πρόβλημα α, Πρόθεσις α.
+*[diagram: a d b c e f]*
 
-Τοῦ δοθέντος κύκλου τὸ κέντρον εὑρεῖν.
+Θεώρημα β, Πρόθεσις γ.
 
-## Problema 1, Propoſitio 1.
+Ἐὰν ἐν κύκλῳ εὐθεῖά τις διὰ τοῦ κέντρου,εὐθεῖάν τινα μὴ διὰ τοῦ κέντρου δίχα τέμνῃ,καὶ πρὸς ὀρθὰς αὐτὴν τεμεῖ:καὶ ἐὰν πρὸς ὀρθὰς αὐτὴν τέμνῃ,καὶ δίχα αὐτὴν τεμεῖ.
 
-Dati circuli,centrum inuenire.
+## Theorema 2, Propoſitio 3.
 
-ORONTIVS.Eſto datus a/b/c/circulus:cuius oporteat inuenire centrum.Ducatur in ipſo a/b/c/circulo,recta quædam linea b/c : quæ bifariam ſecetur in d,per decimam primi.Et à puncto d,datæ rectæ lineæ b/c,ad angulos rectos excitetur d/a,per vndecimam eiuſdem primi : producatúrq; in rectum vſque ad e,per ſecundum poſtulatum. Secetur tandem a/e/ bifariam in puncto f,per ipſam decimam primi.Dico,q̄ f/punctū,centrum eſt ipſius dati a/b/c/ circuli. Si enim non fuerit in a/e/linea recta,erit igitur extra eam.eſto (ſi poſſibile ſit)in g:& connectātur g/b,g/d,& g/c/rectæ,per primum poſtulatum. Et quoniam b/d,ipſi d/c/eſt æqualis,& vtriq; cōmunis d/g:binæ igitur b/d/& d/g/triāguli b/d/g, duabus g/d/& d/c/ trianguli g/d/c, ſunt altera alteri æquales. Baſis quoq;b/g, baſi g/c (ſi g/foret centrum circuli) per decimāquintam primi diffinitionem eſſet æqualis . Per octauā igitur ipſius primi, angulus b/d/g, angulo g/d/c/ ſub æquis lateribus comprehenſo,reſpondenter æquaretur.Recta itaq; linea g/d,incidēs in rectā b/c,efficeret vtrobiq; angulos æquales:ergo rectos,per decimam primi diffinitionē. Rectus igitur eſſet b/d/g/ angulus. Atqui b/d/a/ rectus eſt, per conſtructionem:ſuntq; recti omnes æquales adinuicem, per quartum poſtulatum.Et b/d/g/itaq; angulus, æquus eſſet angulo b/d/a:totus videlicet ſuæ parti,contra nonā communē ſententiam.Recta enim d/a/cadit inter b/d/& d/g: diuiditq; propterea angulum b/d/g.Non eſt igitur centrū a/b/c/circuli in g.Haud diſſimiliter oſtendemus,q̄ nec alibi q̄ in pūcto f.Igitur f/centrū eſt dati circuli a/b/c. Quod inueniendū fuerat.
+SI in circulo recta linea quædam per centrum extenſa, quandam non per centrum extenſam rectam lineam bifariam ſecuerit : & ad angulos rectos ipſam diſpeſcet. Et ſi ad angulos rectos ipſam diſpeſcat:bifariam quoq; ipſam ſecabit.
 
-> Demōſtratio ab impoſſibili
-
-*[diagram: a f g b d c e]*
-
-## Corollarium.
-
-Si igitur in circulo recta linea,aliam quandam rectam lineam bifariam,& ad rectos ſecuerit angulos:in ipſa diuidente erit centrum dati circuli.
+ORONTIVS. Sit datus a/ b/c/ circulus, & illius centrum d : recta verò linea per idem centrum extenſa ſit a/f,quæ aliam quandam rectam lineam b/c/non ductam per centrum, bifariam in primis ſecet, in puncto e. Aio quòd & ad rectos

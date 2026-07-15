@@ -1,41 +1,36 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-114
+115
 
-> Exemplum.
+Hæc diffinitio tam lucida est, vt ampliori non videatur indigere declaratione. Non grauaberis tamen exemplarem intelligere formulam. Sint igitur rursum a/b/c, & d/e/f/gemini numerorum ordines: sítque a/ad b/sicut e/ ad f, & b/ad c/veluti d/ad e.
 
-veluti a/b/ad b, ita c/d/ad d: & conuertamus in hunc modū. Ergo sicut a/b/ ad a, ita c/d/ ad c. Sunt enim a/ & c/differentiæ, quibus c/& d/ab ipsis a/b/& c/d/superantur. In composita igi-
+> Exēplū perturbatę rationis.
+
+*[table: a b c — d e f / 8 6 4 — 6 4 3]*
+
+Hunc itaq̄ inuersum proportionis ordinē, perturbatam proportionē adpellamus. ¶Præter has autē, Zābertus Venetus adiecit extensæ atq̄ inordinatæ proportionis diffinitiones, ab ipsius ordinatæ atq̄ perturbatæ proportionis diffinitionibus minimè discrepātes: quas tum quia in græcis nusquàm reperi exemplaribus, tum quòd mihi superabundare videantur, cōsultò prætermisi. Omnis siquidem extensa proportio, ordinata est: & inordinata, eadē quę perturbata. Ni forsitan voluerimus extensam proportionem, terminorum vtriusq̄ ordinis continuatam præsupponere relationem: cùm scilicet præcedentium rationum cōsequentia, fiunt antecedentia succedentium. Vt extensa proportio, continuè proportionalium solummodò respiciat magnitudinum habitudinē: ordinata verò, tam continuè, quàm discontinuè proportionata. Et sic extensa proportio, simul erit ordinata: sed non omnis ordinata, extensa vocabitur. Idem velim habeas iudicium, de inordinata atq̄ perturbata proportione.
+
+> De extensa, atq̄ inordinata ratione.
 
 > Notandum.
 
-*[diagram: 12. ab — 8. b — 4. a — 6. cd — 4. d — 2. c]*
+Θεώρημα α, Πρόθεσις α.
+Ἐὰν ᾖ ὁποσαοῦν μεγέθη, ὁποσωνοῦν μεγεθῶν ἴσων τὸ πλῆθος, ἕκαστον ἑκάστου ἰσάκις πολλαπλάσιον, ὁσαπλάσιον ἐστὶν ἓν τῶν μεγεθῶν ἑνὸς, τοσαυταπλάσια ἔσται καὶ τὰ πάντα τῶν πάντων.
 
-tur, & diuisa ratione, ac conuersione rationis, quanquàm nihil sumatur extrinsecum: alterantur nihilominus termini, ijdem secundum substantiam minimè permanentes.
+## Theorema 1, Propositio 1.
 
-¶Δι᾽ ἴσου λόγος ἐστὶ, πλειόνων ὄντων μεγεθῶν, καὶ ἄλλων αὐτοῖς ἴσων τὸ πλῆθος, σὺν δύο λαμβανομένων, καὶ ἐν τῷ αὐτῷ λόγῳ: ὅταν ᾖ ὡς ἐν τοῖς πρώτοις μεγέθεσι, τὸ πρῶτον πρὸς τὸ ἔσχατον, οὕτως ἐν τοῖς δευτέροις μεγέθεσι, τὸ πρῶτον πρὸς τὸ ἔσχατον: ἢ ἄλλως, λῆψις τῶν ἄκρων, καθ᾽ ὑπεξαίρεσιν τῶν μέσων.
+SI fuerint quælibet magnitudines quarumlibet magnitudinum æqualium numero, singulæ singularū æquè multiplices: quotuplex est vnius vna magnitudo, totuplices erunt & omnes omnium.
 
-## 16 Aequa ratio, est pluribus existentibus magnitudinibus, & alijs eis æqualibus multitudine, cum duabus sumptis & in eadem ratione: quando fuerit sicut in primis magnitudinibus primum ad vltimum, sic in secundis magnitudinibus primū ad vltimum. Vel aliter. acceptio extremorum, per subtractionem mediorum.
+ORONTIVS. ¶Sint a/b/ & c/d/quælibet magnitudines, ipsarum e/ & f/magnitudinum, æqualium numero, singulæ singularum æquè multiplices: vtpote, a/b/ ipsius e, & c/d/ipsius f. Aio, a/b/ & c/d/magnitudines, totuplices fore ipsarum e/& f/ magnitudinum, quotuplex est a/b/ipsius e, vel c/d/ipsius f. Nam ex hypothesi, tot sunt magnitudines in a/b, æquales ipsi e: quot in c/d/magnitudine, æquales ipsi f. Sit vtraque multitudo, æqualis numero g. Et distingantur (exēpli gratia) in a/b, magnitudines æquales ipsi e, iuxta numerū g, sintq́; a/h, h/k, & k/b: in ipsa porrò c/d, æquales ipsi f, quæ sint c/l, l/m, & m/d. Cuilibet enim magnitudini, quotlibet dari,
 
-Exempli gratia, sint primi ordinis quantitates a, b, c, secundi verò d, e, f: sitq̄ a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f: vel a/ad b/sicut e/ad f, & b/ad c/veluti d/ad e: & concludendo sub-
+> Notandum.
 
-> Inferendi modus ex æqua ratione.
+*[diagram: a h k b — 12 / e 4 — c l m d — 9 / f 3 — g.3]*
 
-*[diagram: 6 3 2 / 9. a — 6. b — 3. c — 12. d — 8. e — 4. f]*
+vel adsignari posse æquales, recipiendū est. Omnis præterea magnitudo, in determinatas quotlibet, & adinuicē æquales partes (etsi forsitan nondum præostensum fuerit, quanam ratione id exæquatur) abstractiuè saltē partibilis est. Cùm igitur a/h/æqualis sit ipsi e, & c/l/ipsi f:
 
-inferamus. Igitur sicut a/ad c, ita d/ad f. Hunc modum arguēdi, ex æquali, aut ex æqua ratione vocitamus. Vt si a ad b/& d/ad e/sesqualteram, b/autem ad c/& e/ ad f/duplam obtinuerit rationem: vel a/ad b/& e/ad f/dupla, b/ autem ad c/atque d/ ad e/sesqualtera ratione proportionetur: necessum est a/ ad c, atque d/ad f, triplam obseruare rationem. vt ex ipsa numerorum potes elicere formula.
+> Deductio theorematis.
 
-¶Τεταγμένη ἀναλογία ἐστὶν, ὅταν ᾖ ὡς ἡγούμενον πρὸς ἑπόμενον, οὕτως ἡγούμενον πρὸς τὸ ἑπόμενον: ἢ δὲ καὶ ὡς ἑπόμενον πρὸς ἄλλο τι, οὕτως ἑπόμενον πρὸς ἄλλο τι.
+æquales erunt a/h/& c/l, ipsis e/& f/magnitudinibus, per secundam communē sententiam. Rursum quoniā æqualis est h/k/ipsi e, & l/m/ipsi f: æquales rursum erūt, per eandem communem sententiam, h/k/& l/m, ipsis e/& f. Haud dissimiliter ostēdetur, quòd & cæteræ k/b/ & m/d, eisdem e/& f/ coæquantur. Quoties igitur a/b/ continet ipsam e, aut c/d/ipsam f: toties a/b/& c/d, easdem e/& f/simul comprehendunt, nempe secundum eundem numerum g. Quotuplex igitur est a/b/ipsius e, vel c/d/ipsius f: totuplices sunt a/b/& c/d, ipsarū e/& f. Hoc autem in discretis euidētius manifestatur: quemadmodùm subiecti formulæ videntur indicare numeri. Si fuerint igitur quælibet magnitudines quarumlibet magnitudinum: &c, vt in theoremate. Quod oportebat demonstrare.
 
-## 17 Ordinata proportio, est cùm fuerit antecedens ad consequens, sicut antecedens ad consequēs: & consequēs ad rem aliam, sicut consequens ad rem aliam.
-
-Expeditis quæ ex eadem proportione subinferuntur rationum comparationibus: diffinit tandem Euclides, binas proportionum species, inter geminos proportionalium magnitudinum ordines accidentes. Ordinatam itaque proportionem adpellamus, quando antecedentium & cōsequētium ordinatim fit comparatio. Vt si bini (verbi gratia) fuerint numerorum ordines, a/b/c/inquā primus, & d/e/f/secūdus: fueritq̄
-
-> Exēplū ordinatæ proportionis.
-
-a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f. Hāc rationū identitatem, ordinatam solemus vocitare proportionem. Huic contraria est perturbata, quæ sic diffinitur,
-
-*[table: a b c — d e f / 9 6 3 — 12 8 4]*
-
-¶Τεταραγμένη δὲ ἀναλογία ἐστὶν, ὅταν τριῶν ὄντων μεγεθῶν, καὶ ἄλλων ἴσων αὐτοῖς τὸ πλῆθος γίνεται: ὡς μὲν ἐν τοῖς πρώτοις μεγέθεσιν ἡγούμενον, πρὸς τὸ ἑπόμενον, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς τὸ ἑπόμενον: ὡς δὲ ἐν τοῖς πρώτοις μεγέθεσιν ἑπόμενον πρὸς ἄλλο τι, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς ἄλλο τι.
-
-## 18 Perturbata autē proportio, est quando tribus existentibus magnitudinibus, & alijs eis æqualibus multitudine: fit sicut quidē in primis magnitudinibus antecedens ad cōsequens, sic in secundis magnitudinibus antecedens ad consequens: sicut autē in primis magnitudinibus consequens ad rem aliam, sic in secundis res alia ad antecedens.
+k.iiij.

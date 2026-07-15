@@ -1,45 +1,23 @@
-# Page 17
+# Page 18
 
-# EXPLICATION DES CITATIONS.
-
-*Explication des Citations.*
-
-15. d. 1. *Quinzieſme definition du premier liure.*
-
-1. p. 1. *Premier poſtulat ou demande du premier liure.*
-
-3. a. 1. *Troiſieſme axiome du premier liure.*
-
-3. 1. *Troiſieſme propoſition du premier liure.*
-
-c. 17. 1. *Corollaire de la dixſeptieſme du premier.*
-
-1. c. 4. 2. *Premier corollaire de la 4. propoſ. du ſecond liure.*
-
-3. ſ. 1. d. 2. *Troiſieſme ſcholie de la premiere definition du ſecond liure.*
-
-Ɔ. 34. 1. *Conuerſe de la trente-quatrieſme du premier liure.*
-
-a. 5. *Axiome du 5. liure.*
-
-hyp. *Hypotheſe.*
-
-conſtr. *Conſtruction.*
-
-concl. *Concluſion.*
-
-1. concl. *Premiere concluſion.*
-
-ſuppoſ. *Suppoſition.*
-
-2. ſuppoſ. *Seconde ſuppoſition.*
-
-ſymp. *Symperaſme.*
-
-1. nota, *premiere note ou remarque.*
-
-d. α. *Par la meſme demonſtration qu'a eſté prouué la concluſion α.*
-
-α. *eſt la citation de ce qui a eſté deſia demonſtré en la demonſtration.*
+# LES ELEMENTS
 
 (ornament)
+
+PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
+
+# DEFINITIONS.
+
+I.
+
+LE Poinct est, ce qui n'a aucune partie.
+
+Il y a deux sortes de poincts, à sçauoir le Physique & le Mathematique.
+
+Le poinct Physique est le moindre object de la veuë, comme la pointe d'vne aiguille tres-pointuë.
+
+Le poinct Mathematique est le moindre object de l'intellect, ce n'est pas vne grandeur, mais il est commencement de toute grandeur.
+
+Le poinct conuient auec l'vnité en quelques choses, & differe en d'autres : Car comme l'vnité est le principe & le commencement de tout nombre, ainsi le poinct est le principe de toute grandeur : mais ils different aussi en ce que, l'vnité est partie du nombre; mais le poinct, encore qu'il soit le commencement & la fin de la ligne, il n'est pas neantmoins partie de la ligne. Ils different aussi en ce que l'vnité ne requiert aucune position ny situation au nombre. mais le poinct a sa situation & position en la grandeur.
+
+Le poinct a quelque similitude, auec le son en la musique, auec l'instant au temps, & auec le changement de lieu au mouuement.

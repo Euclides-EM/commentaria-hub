@@ -1,33 +1,23 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-*[diagram: k e a b g m l f c d h n]*
+e/b, ipsius f/d tam multiplex est, quàm multiplex est ipsa a/e eiusdem c/f. Atqui per hypothesin a/e totuplex est ipsius c/f, quotuplex est tota a/b totius c/d. Et reliqua igitur e/b, reliquæ f/d æquè multiplex est, atq; tota a/b totius c/d. Ergo si magnitudo magnitudinis æquè fuerit multiplex & ablata ablatæ, & reliqua reliquæ: &c. vt in theoremate. Quod ostendere fuerat operæpretium.
 
-ex ipsarum magnitudinū habitudine proportionata, eorundem æquè multiplicium rationis versa vice concluditur identitas. tanta est æquè multiplicium cum submultiplicibus necessitudo. Est igitur vt k ad m, ita l, ad n: hoc est, sicut multiplex primi ad multiplex secūdi, ita multiplex tertij ad multiplex quarti. Ipsa porrò k & l, ipsorū e & f sunt æquè multiplicia: m verò & n æquè multiplicia ipsorū g & h, per constructionem. Est igitur vt e ad g, sic f ad h: per sextam huius quinti diffinitionem. Atqui e & f, sunt æquè multiplicia primi & tertij: g autem & h, secundi & quarti alia itidem æquè multiplicia. Si primū igitur ad secundū eandem habuerit rationē: & quæ sequuntur reliqua. Quod demōstrandum susceperamus.
+## Θεώρημα ϛ, Πρόθεσις ϛ.
 
-## Lemma, siue assumptum.
+Ἐὰν δύο μεγέθη δύο μεγεθῶν ἰσάκις ᾖ πολλαπλάσια, καὶ ἀφαιρεθέντα τινὰ τῶν αὐτῶν ἰσάκις ᾖ πολλαπλάσια, καὶ τὰ λοιπὰ τοῖς αὐτοῖς ἤτοι ἴσα ἐσὶν, ἢ ἰσάκις αὐτῶν πολλαπλάσια.
 
-¶Et quoniā ostēsum est, quòd multiplex k ad multiplex m se habet, vt multiplex l ad multiplex n. si igitur k excedit m, & l proportionaliter excedit n: & si æquale, æquale: & si minus, itidem proportionaliter minus. Quare & versa vice, si m excedit k, & n proportionaliter excedit l: & si æquale, æquale: si autem minus, & proportionaliter denique minus. Et proinde, per sextam huius quinti diffinitionem, erit vt g ad e, sic h ad f: atque respondenter sicut b ad a, ita d ad c.
+## Theorema 6, Propositio 6.
 
-## Corollarium.
+SI duæ magnitudines duarū magnitudinū æquè fuerint multiplices, & ablatæ aliquæ earum æquè fuerint multiplices: & reliquæ eisdem vel æquales sunt, vel æquè ipsarum multiplices.
 
-¶Si quatuor igitur magnitudines fuerint proportionales: & ècontra, seu à cōuersa ratione proportionales erunt: facta videlicet consequentium tanquàm antecedentium, ad antecedentia tanquàm ad consequentia relatione.
+ORONTIVS. ¶Sit a/b magnitudo tam multiplex ipsius c, q̄ multiplex est d/e ipsius f: æquè insuper multiplex esto ablata a/g eiusdem c, vt ablata h/e ipsius f. Aio q̄ reliquæ g/b & d/h, ipsis c & f aut sunt æquales altera alteri: vel earundem c & f æquè multiplices. Esto primū vt g/b sit æqualis ipsi c: dico quòd & d/h ipsi f est æqualis. Detur enim e/k ipsi f æqualis. Cū igitur a/g æquè multiplex sit ipsius c, vt h/e ipsius f, per hypothesin. Porrò g/b æqualis est ipsi c, per hypothesin: & e/k ipsi f, per cōstructionē. Et æquè igitur multiplex est a/b ipsius c, & h/k ipsius f. Ponitur autem ex hypothesi, a/b æquè multiplex ipsius c, vt d/e ipsius f. Et vtraq; igitur d/e & h/k, æquè est multiplex ipsius f: nempe vt a/b ipsius c. Quæ autem eiusdem sunt æquè multiplicia, æqualia sunt adinuicem, per sextæ communis sententiæ interpretationem. Aequalis est ergo d/e ipsi h/k, & vtriq; communis h/e: ea itaque dempta, reliqua d/h reliquæ e/k erit per tertiam communem sententiā æqualis. Eidem porrò e/k, æqualis est per constructionē ipsa f magnitudo. Binæ igitur magnitudines d/h & f, eidem e/k sunt æquales: & proinde æquales adinuicē, per primā cōmunē sententiā. Si reliqua igitur g/b, sit æqualis ipsi c: & reliqua d/h, ipsi f erit æqualis.
 
-> Conuersa ratio.
+> Prima theorematis differētia.
 
-## Θεώρημα ε, Πρόθεσις ε.
+*[diagram: a g b / c / d h e k / f]*
 
-Ἐὰν μέγεθος μεγέθους ἰσάκις ᾖ πολλαπλάσιον, ὅπερ ἀφαιρεθὲν ἀφαιρεθέντος, καὶ τὸ λοιπὸν τοῦ λοιποῦ ἰσάκις ἔσαι πολλαπλάσιον, ὁσαπλάσιόν ἐσι τὸ ὅλον τοῦ ὅλου.
+¶Q̄ si g/b fuerit multiplex ipsius c: aio respondenter d/h, æquè multiplicē fore ipsius f. Quotuplex est enim g/b ipsius c, totuplex assumatur e/k ipsius f. Et quoniam per hypothesin, a/g prima secundæ c æquè est multiplex, ac tertia h/e quartæ f: quinta rursum g/b eiusdem secundæ c tam multiplex est per constructionē, q̄ multiplex est sexta e/k eiusdem quartæ f. Et composita igitur prima & quinta a/b, eiusdem secūdæ c æquè erit multiplex, ac tertia & sexta h/k ipsius quartæ f, per secūdā huius quinti. Quo tuplex est autē a/b ipsius c, totuplex data est d/e ipsius f, per hypothesin. Et vtraque igitur d/e & h/k, æquè est multiplex ipsius f, vt a/b ipsius c. Hinc per sextam communem sentētiam, æqualis rursum est d/e ipsi h/k, & vtriq; communis h/e: qua subtracta, reliqua d/h reliquæ e/k, per ipsam tertiam cōmunem sententiam, est æqualis. Aequalia porrò eiusdem sunt æquè multiplicia, per ipsius sextæ communis sententiæ cōuersionem. Et d/h igitur & e/k eiusdem f æquè multiplicia sunt. At e/k ipsius f tā multiplex est per constructionem, quàm multiplex est g/b ipsius c. Et reliqua igitur d/h æquè est multiplex ipsius f, quotuplex est reliqua g/b ipsius c. Hæc autē omnia subsequēs numerorū, ad faciliorē demōstrationis intelligentiā adiuncta, corroborat formula.
 
-## Theorema 5, Propositio 5.
+> Secūda theorematis differentia.
 
-SI magnitudo magnitudinis æquè fuerit multiplex, & ablata ablatæ: & reliqua reliquæ erit multiplex, quotuplex tota totius est multiplex.
-
-ORONTIVS. ¶Esto magnitudo a/b magnitudinis c/d tam multiplex, quàm multiplex est ablata a/e ablatæ c/f. Dico reliquam e/b, reliquæ f/d totuplicem fore, quotuplex est tota a/b totius c/d. Ponatur enim e/b æquè multiplex ipsius g/c, vt a/e ipsius c/f. Cùm igitur tū per hypothesin, tum per constructionē, totuplex sit a/e ipsius c/f, quotuplex est e/b ipsius g/c: quotuplex autem est vna vnius, totuplices sunt & omnes omnium, per primā huius quinti. Quotuplex est itaq; a/e ipsius c/f, totuplex est & tota a/b totius g/f. At quotuplex est a/e ipsius c/f, totuplex est & eadem a/b ipsius c/d, per hypothesin. Et a/b igitur vtriusque & g/f & c/d est
-
-> Assumptum.
-
-> Demōstratio theorematis.
-
-*[diagram: a e b / g c f d]*
-
-æquè multiplex: & proinde vtraque g/f & c/d, eiusdem a/b æquè submultiplex est. Quæ autem eiusdem sunt æquè submultiplicia, æqualia sunt adinuicem, per septimam communem sententiam. Aequalis est igitur g/f ipsi c/d, & vtrique communis c/f: qua dempta, reliqua g/c reliquæ f/d, per tertiam cōmunem sententiā est æqualis. Aequalia rursum eiusdem sunt æquè submultiplicia, per ipsius septimæ communis sententiæ conuersionem. Et g/c igitur atque f/d, eiusdem a/b sunt æquè submultiplices: & proinde a/b vtriusque & g/c & f/d æquè est multiplex. Porrò e/b æquè multiplex est ipsius g/c, per constructionē, vt a/e ipsius c/f. Et eadē propterea
+*[diagram: a g b / c / d h e k / f]*

@@ -1,39 +1,21 @@
-# Page 84
+# Page 85
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-THEOR. XXII. PROPOS. XXXII.
+troisiesme est posé droict ; partant puis que les deux restans sont égaux entr'eux, vn chacun d'eux sera demy droict.
 
-De tout triangle, l'vn des costez estant prolongé, l'angle externe est égal aux deux internes & opposez: & les trois angles internes de tout triangle, sont égaux à deux droicts.
+COROLL. III.
+
+Il est manifeste aussi que si vn angle d'vn triangle est égal aux deux autres, que le triangle est rectangle.
+
+SCHOLIE I.
+
+Si du nombre des angles d'vn rectiligne on oste deux, le reste estant doublé, monstrera combien d'angles droicts vallent tous les angles du rectiligne.
 
 (figure)
 
-*Hypoth.*
+Car toute figure rectiligne se resout en triangles, à cause qu'il n'y a aucune figure de moins de costez que le triangle. Or chaque figure rectiligne se diuise en triangles, qui sont en moindre nombre de deux, que les costez de la figure ; comme si elle a quatre costez, elle se diuisera en deux triangles ; si cinq en trois, si six en quatre, & de mesme les autres. Et à cause que de tout triangle les trois angles sont égaux à deux droicts, le nombre des triangles, dont chaque figure est composée, estant doublé, donnera le nombre des angles droicts, auquel tous les angles de la figure proposée sont égaux. Partant toute figure quadrilatere estant composée de deux triangles a ses angles égaux à quatre droicts, & tout pentagone a ses angles égaux à six droicts ; & ainsi des autres.
 
-abc *eſt* △,
-bcd *eſt* ——.
+SCHOLIE II.
 
-*Req. à demonſtr.*
-
-∠acd 2|2 ∠a + ∠b.
-∠a + ∠b + ∠acb 2|2 2┘;
-
-*Prepar.*
-
-31.1 | ce == ba. α
-
-*Demonſtr.*
-
-α.29.1 | ∠a 2|2 ∠ace,
-α.29.1 | ∠b 2|2 ∠ecd,
-1.concl. 2.a.1 | ∠a + ∠b 2|2 ∠acd. β
-13.1 | ∠acb + ∠acd 2|2 2┘,
-2.concl. β.1.a.f | ∠a + ∠b + ∠acb 2|2 2┘.
-
-COROLLAIRE I.
-
-De cette proposition se collige, que les trois angles de quelconque triangle prins ensemble, sont égaux aux trois angles prins ensemble de quelconque autre triangle : D'autant que les trois angles, tant de l'vn que de l'autre, sont égaux à deux droicts. Donc si deux angles d'vn triangle sont égaux à deux angles d'vn autre triangle, le troisiesme de l'vn sera aussi égal au troisiesme de l'autre.
-
-COROLL. II.
-
-Il est aussi euident qu'en tout triangle isoscele, duquel l'angle contenu des costez égaux est droict, qu'vn chacun des autres qui sont sur la base est demy droict. Car ces deux ensemble constituent vn droict : puis que les trois sont égaux à deux droicts, & que le
+Si du double du nombre des angles d'vn rectiligne on oste quatre, le reste monstrera combien d'angles droicts vallent tous les angles du rectiligne.

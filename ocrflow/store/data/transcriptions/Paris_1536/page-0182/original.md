@@ -1,29 +1,21 @@
-# LIBER VI.
+# GEOMET. ELEMENT.
 
-*165*
+*(pagina 166)*
 
-parallelogrammo,per vigesimamquartam huius sexti.Eidem porrò a/b/c/d parallelogrammo,simile eſt per hypothesin,ipsum e/f/g/parallelogrammum. Quæ autem eidem rectilineo similia,& adinuicem similia sunt,per vigesimamprimam huius sexti.Simile erit itaque e/l/parallelogrammum,ipsi e/f/g/parallelogrammo.Similia porrò parallelogramma sunt, quæ angulos æquales habent ad vnum,& quæ circa angulos æquales latera proportionalia,per primæ diffinitionis huius sexti conuersionẽ.Et sicut igitur e/a/ ad a/g,sic e/a/ad e/l.Ad quas autẽ eadem, eandẽ habet rationem,ipsæ sunt æquales,per nonam quinti.Aequalis foret igitur a/g,ipsi a/l,totum suæ parti:quod per nonam communẽ sententiam eſt impossibile.Idem etiam subsequetur incóueniens,vbi posueris eundẽ a/c/dimetientẽ secare latus f/g.Transit igitur a/c/totius a/b/c/d/ parallelogrammi dimetiens,per angulum atq; punctũ f: & proinde ipsum a/e/f/g/ parallelogrammum,circum eundem dimetientem eſt toti a/b/c/d/ parallelogrammo. Igitur si à parallelogrammo parallelogrammum auferatur: &c.vt in theoremate.Quod demonſtrare fuerat operæpretium.
+vsque ad latus e/d, per secũdum postulatum. Parallelogrãmi igitur c/d, eorum quæ circa dimetientem sunt parallelogrammorum supplementa c/f/& f/d, sunt per quadragesimamtertiam primi adinuicem æqualia. Addatur vtrique commune g/h. totum ergo c/h, toti g/d, per secundam communem sententiã est æquale. Eidem porrò c/h, æquum est c/l, per trigesimamsextam primi: sunt enim in basibus æqualibus a/c/& c/b, in eisdémque parallelis a/b/& l/h. Et g/d/itaque, ipsi c/l/per primam communem sententiam æquum est. Commune rursum addatur c/f. totus igitur gnomon c/b/d, toti a/f/ parallelogrammo est æquale. Sed totum parallelogrãmum c/d, maius est per nonam communem sententiam, ipso gnomone c/b/d: & proinde ipso a/f/maius. Aequum est porrò a/e/parallelogrammum, ipsi c/d/ parallelogrammo, per eandem trigesimamsextam primi: in basibus enim sunt æqualibus a/c/& c/b, atq; in eisdem parallelis a/b/& e/d. Quæ autẽ sunt æqualia, eiusdem sunt æquè maiora: per sextæ communis sententiæ cõuersionem. Maius est itaque parallelogrammum a/e, ipso a/f/parallelogrammo. ¶ Sed esto a/f/parallelogrammum, proiectum super a/g, minore dimidia ipsius a/b/lineæ datæ, & egrediens ipsum a/e/parallelogrãmum: deficiens rursum specie ipso f/b/parallelogrammo, simili similitérque posito ipsi c/d, quod à dimidia c/b/descriptum est, ad complendum totum a/m/parallelogrammum. Aio quòd & a/e/parallelogrammum, maius est ipso a/f/parallelogrãmo. Cùm enim ex hypothesi c/d/& f/b/parallelogramma, similia sint: circum eundem propterea dimetientẽ f/e/b, per vigesimamsextam huius sexti constituentur. Compleantur itaque, per trigesimamprimam primi, & secundum postulatum, h/l/ & a/m/parallelogramma: vt in ipsa continetur figura. Et quoniam parallelogramma sunt a/l/& c/m: sunt igitur per trigesimamquartã primi, n/l/& l/m/ ipsis a/c/ & c/b/ quæ ex opposito, atque inuicem æquales. Et proinde n/e/ parallelogrammum, ipsi e/m/parallelogrammo, per trigesimãsextam primi æquale. Eidem porrò e/m, æquũ est e/g, per quadragesimamtertiam ipsius primi. Et n/e/itaque ipsi e/g, per primam communem sententiam est æquale. Subducto igitur h/l:, reliquum e/g, reliquo n/h/ maius est. Si autem inæqualibus e/g/& n/h/æqualia vel idem commune a/h/ apponatur: omnia, per quartam communem sententiam, erunt inæqualia. consurget igitur a/e/parallelogrammum, maius ipso a/f/parallelogrammo. Omnium itaq; parallelogrammorum iuxta eandem lineam consistentium, & deficientium specie: & quæ sequuntur reliqua. Quod ostendendum receperamus.
 
-*[diagram: b c e h f a l g d]*
+> Secunda theorematis differentia.
 
-Θεώρημα κ, Πρόθεσις κζ.
+*[diagram: e d l f h a c g b]*
 
-Πάντων τῶν παρὰ τὴν αὐτὴν εὐθεῖαν παραβαλλομένων παραλληλογράμμων,καὶ ἐλλειπόντων εἴδεσι παραλληλογράμμοις ὁμοίοις τε ϗ̃ ὁμοίως κειμένοις τῷ ἀπὸ τῆς ἡμισείας ἀναγραφομένῳ:μέγιστόν ἐστι,τὸ ἀπὸ τῆς ἡμισείας παραβαλλόμενον παραλληλόγραμμον, ὅμοιον ὂν τῷ ἐλλείμματι.
+> Demõstratio.
 
-## Theorema 20, Propositio 27.
+*[diagram: n f l m h e d a g c b]*
 
-OMnium parallelogrãmorum circum eandem rectam lineam proiectorum, deficientiúmq; specie parallelogrammis similibus similitérque positis ei quod à dimidia descriptum eſt : maximum eſt quod à dimidia proiectum parallelogrammum,simile exiſtens sumpto.
+Πρόβλημα η, Πρόθεσις κη.
 
-> Quomodo parallelogrãmũ deficiat specie dato parallelogrammo.
+Παρὰ τὴν δοθεῖσαν εὐθεῖαν τῷ δοθέντι εὐθυγράμμῳ ἴσον παραλληλόγραμμον παραβαλεῖν, ἐλλεῖπον εἴδει παραλληλογράμμῳ, ὁμοίῳ ὄντι τῷ δοθέντι. Δεῖ δὴ τὸ διδόμενον εὐθύγραμμον, ᾧ δεῖ ἴσον παραβαλεῖν, μὴ μεῖζον εἶναι τοῦ ἀπὸ τῆς ἡμισείας παραβαλλομένου, ὁμοίων ὄντων τῶν ἐλλειμμάτων, τοῦ τε ἀπὸ τῆς ἡμισείας, καὶ ᾧ δεῖ ὅμοιον ἐλλείπειν.
 
-ORONTIVS. ¶Deficere specie dicitur parallelogrammum , dato parallelogrammo:quando vtrunque parallelogrammum super eadem recta linea consiſtẽs, alterum deeſt alteri, ad complendum similis speciei parallelogrammum super totam datam rectam lineam coextẽsum. Vel dum cõparatum parallelogrammum, reliquo deficit ab ipso similis speciei parallelogrammo, super totam ipsam rectam lineam conſtituto.
+## Problema 8, Propositio 28.
 
-> Prima theorematis differẽtia.
-
-Sit igitur data recta linea a/b,secta bifariam in c,per decimam primi:describatúrque à dimidia c/b,contingens parallelogrammum c/d.Iuxta verò datam rectam lineam a/b, gemina comparentur parallelogramma. alterum proiectum à reliqua dimidia a/c,vtpote a/e, simile similitérq; descriptũ exiſtens sumpto c/d,& deficiẽs specie ipso c/d/à toto a/d/ parallelogrammo:alterum autem a/f,super a/ g/ comparatum maiore dimidia ipsius a/ b, & proinde subingrediens ipsum parallelogrãmum c/d, deficiénsque specie parallelogrammo g/h,simili similitérque posito ipsi c/d/ quod à dimidia c/b/descriptum eſt,ad complendum ipsum a/h/parallelogrammum. Dico quòd a/e/parallelogrammum,maius eſt e/f/parallelogrammo.
-
-> Demõſtratio.
-
-Cùm enim ex hypothesi g/h/ parallelogrammum, simile sit ipsi parallelogrammo c/d:circum igitur eundem sunt dimetientem e/f/b, per vigesimamsextam huius sexti . Producatur ergo g/ f/ in rectum & continuum
-
-*[diagram: e d i f h a c g b]*
+AD datam rectam lineam, dato rectilineo æquale parallelogrammum comparare, deficiens specie parallelogrammo simili dato. Oportet iam datum rectilineum, cui expedit æquum comparare, nõ maius esse eo quod à dimidia comparatũ, similibus

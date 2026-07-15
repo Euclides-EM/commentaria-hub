@@ -1,35 +1,13 @@
-# LIBER V.
+# GEOMET. ELEMENT. LIB. V.
 
-*133*
+*134*
 
-sic k/ad m, per quartam huius quinti propositionem. Ostensum est autem, quòd sicut g/ad h, sic m/ad n. Sunt itaque g,h,l, tres magnitudines, & k,m,n, aliæ eisdem æquales numero, cum duabus in eadem ratione perturbatim coassumptis: sicut quidem g/ad h, sic m/ad n, sicut rursum h/ad l, sic k/ad m. Ergo si g/fuerit maior l, erit ex æquali k/maior n: & si æqualis, æqualis: si autem minor, itidem minor, per vigesimamprimam huius quinti. Porrò g,k/sunt æquè multiplices ipsarum a,d, primæ & tertiæ magnitudinis (seruato illationis ordine) l/autem & n/secundæ & quartæ, hoc est ipsarum c,f/æquè rursum multiplices, per constructionem. Est igitur vt prima a/ad secundam c, sic tertia d/ad quartam f: per sextam eiusdem quinti diffinitionem. Si fuerint igitur tres magnitudines, aliæq́; eisdem æquales: &c. vt in theoremate. Quod oportuit ostendisse.
+ORONTIVS. ¶ Sint quatuor eiusdem generis magnitudines a/b, c/d/e, & f, inuicem proportionales, sicut quidem a/b/ad c/d, sic e/ad f: sit'q; a/b/omnium maxima, f/verò minima. Dico quòd a/b/& f, reliquis c/d/& e/sunt maiores. Quoniam enim a/b/omnium quatuor supponitur maxima: maior est igitur a/b, ipsa e/magnitudine. A maiori itaq; a/b, secetur æqualis ipsi e/minori, per tertiam primi: sit'q; a/g. Rursum, quoniā est vt a/b/ad c/d, sic e/ad f, prima autem a/b, maior est tertia e: & secunda igitur c/d, ipsa f/quarta maior erit, per decimāquartam huius quinti. A maiori rursum c/d, secetur ipsi f/æqualis, per eandem tertiam primi: sit'que c/h. Cùm igitur sit vt a/b/ad c/d, sic e/ad f, & æqualis sit a/g/ipsi e, & c/h/ipsi f: est igitur vt a/b/ad c/d, sic a/g/ad c/h, hoc est, sicut totum a/b/ad totum c/d, sic ablatum a/g/ad ablatum c/h. Et reliquum itaque g/b/ad reliquum h/d/erit sicut totum a/b/ad totum c/d: per decimamnonam ipsius quinti. Prima autem a/b/maior est tertia c/d: & secunda itaque g/b, maior erit quarta h/d, per ipsam decimamquartam eiusdem quinti. Porrò a/g/æqualis est ipsi e: & c/h/ipsi f, per constructionem. Binæ igitur a/g/& f, duabus c/h/& e, sunt per secundam communem sententiam æquales. Si autem inæqualia æqualibus adiungantur, omnia erunt inæqualia: per quartam communem sentētiam. Et quoniam ipsis a/g/& f/additur g/b, ipsis autem c/h/& e/additur h/d, & maior est g/b/ipsa h/d: maiores ergo sunt a/b/maxima & f/minima, reliquis c/d/& e/magnitudinibus. Quod receperamus ostendendum.
 
-## Θεώρημα κδ, Πρόθεσις κδ.
+*[diagram: a g b / c h d / e / f]*
 
-Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, ἔχῃ δὲ καὶ πέμπτον πρὸς δεύτερον τὸν αὐτὸν λόγον, καὶ ἕκτον πρὸς τέταρτον, καὶ συντεθὲν πρῶτον καὶ πέμπτον πρὸς δεύτερον, τὸν αὐτὸν ἕξει λόγον, καὶ τρίτον καὶ ἕκτον πρὸς τέταρτον.
+∴ ∴ ∴
 
-## Theorema 24, Propositio 24.
+## Quinti Libri Geometricorum Elementorum
 
-> 24
-
-SI primum ad secundum eandem habuerit rationem, & tertium ad quartum, habuerit autem & quintum ad secundum eandem rationem & sextum ad quartum: & composita primùm & quintum ad secundum eandem habebunt rationem, & tertium & sextum ad quartum.
-
-ORONTIVS. ¶ Habeat primùm a/b/ad secundū c/eandem rationem, quam tertium d/e/ad quartam f: quintum rursus b/g/ad secundum c, eandem quoq; rationem habeat, quam sextum e/h/ad ipsum f/quartum. Aio, quòd & composita primū & quintum a/g, eandem rationem habebūt ad idem secundum c, quam tertium & sextum d/h/ad idem quartum f. Cùm enim sit ex hypothesi, vt b/g/ad c, sic e/h/ad f: & à conuersa itaq; ratione, erit vt c/ad b/g, sic f/ad e/h, per corollariū quartæ huius quinti. Præterea quoniam ex ipsa hypothesi, est sicut a/b/ad c, sic d/e/ad f: sicut rursum c/ad b/g, sic f/ad e/h. Et ex æquali igitur, sicut a/b/ad b/g, sic d/e/ad e/h: per vigesimāsecūdam huius quinti. Diuisæ itaq; magnitudines a/b, b/g, d/e, & e/h, sunt proportionales. Et compositæ igitur, per decimam octauam ipsius quinti, proportionales erunt: vt a/g/ad b/g, sic d/h/ad e/h. Receptum est autē, sicut b/g/ad c, sic e/h/ad f. Et ex æquali igitur, per eandem vigesimamsecundam quinti, sicut a/g/ad c, sic d/h/ad f. Ergo si primum ad secundum eandem habuerit rationem, & tertium ad quartum: & quæ sequuntur reliqua. Quod expediebat demonstrare.
-
-*[diagram: a b g / c e h / d f]*
-
-*[diagram: a, b. c. b, g. — d, e. f. e,h.]*
-
-*[diagram: a,g,b,c. — d,h,e,f.]*
-
-## Θεώρημα κε, Πρόθεσις κε.
-
-Εαν τέσσαρα μεγέθη ἀνάλογον ᾖ, τὸ μέγιστον καὶ τὸ ἐλάχιστον, δύο τῶν λοιπῶν μείζονά ἐστιν.
-
-## Theorema 25, Propositio 25.
-
-> 25
-
-SI quatuor magnitudines proportionales fuerint, maxima & minima reliquis maiores erunt.
-
-m.j.
+## FINIS.

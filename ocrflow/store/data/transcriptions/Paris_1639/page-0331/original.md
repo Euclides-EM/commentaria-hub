@@ -1,25 +1,25 @@
-# Page 330
+# Page 331
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-l'vn par l'autre, & du produict en faire vn numerateur : Puis on multipliera le numerateur de la premiere fraction, & les denominateurs de la seconde & troisiesme aussi l'vn par l'autre, & du produict on fera vn denominateur, par lequel on diuisera le numerateur, si faire se peut, sinon on mettra vne ligne entre deux, pour auoir le requis en fraction.
+ie multiplie 50 par 4 & vient 200 pour numerateur (car le troisiesme nombre qui est 1, ne multiplie point) puis ie multiplie le numerateur de la premiere qui est 3 par les denominateurs de la seconde & troisiesme, & vient 3 pour denominateur ou diuiseur, par lequel ie diuise le numerateur 200, & vient au quotient 66⅔ pour le prix de l'aulne.
 
-*Exemple 1.*
+*Exemple 3.*
 
-A 3/4 d'vne liure les ⅚ d'aulne, sçauoir combien cousteront les 7/8 d'aulne ?
+A 12 4/5 liures les 6⅔ d'aulnes, sçauoir combien vaudront 23 aulnes & demie ?
 
-Ayant disposé les nombres comme s'ensuit,
+Ayant conioincts les entiers auec leurs fractions, & disposé les nombres ainsi :
 
-5 X 3 *lt.* —— 7 | 126/160 *lt.* ou 15 ſ. 9 d.
-6   4 —— 8
+20 *auln.* X 64 *lt.* —— 47 *auln.* | 9024/200 [45 3/25 *lt.*
+3   5 —— 2
 
-ie multiplie 6 par 3, & vient 18, que ie multiplie par 7, & vient 126 pour numerateur. Puis ie multiplie 5 par 4, & vient 20, que ie multiplie par 8, & vient 160 pour denominateur : & par ainsi le requis est la fraction 126/160 lt. & pour eualuer cette fraction, ie multiplie 126 par 20 sols, & vient 2520 ſ. que ie diuise par 160. & trouue 15 ſ. & reste 120 ſ. que ie multiplie par 12 pour les reduire en deniers, & vient 1440 d. que ie diuise par 160, & trouue 9 d. partãt ie conclus que les 7/8 d'aulnes vaudront 15 ſ. 9 d.
+ie multiplie 64 par 3 & vient 192, que ie multiplie par 47 & vient 9024 pour numerateur. Puis ie multiplie 20 par 5 & vient 100, que ie multiplie par 2 & vient 200 pour denominateur : par lequel ie diuise 9024, & trouue 45 3/25 lt. pour le prix de 23 aulnes & demie.
 
-*Exemple 2.*
+*Exemple 4.*
 
-A 50 sols les 3/4 d'aulne, sçauoir combien vaut l'aulne ?
+A ⅔ d'vne liure les 7 aulnes, sçauoir combien d'aulnes on aura pour 2/7 d'escu ?
 
-Aux entiers 50 & 1 il faut donner 1 pour denominateur, puis les nombres estant ainsi disposez,
+En cette question, il faut premierement reduire les 3/7 d'escu en liures, ou les ⅔ de liures en escus. Pour reduire les 3/7 d'escus en liures, on dira si
 
-3 X 50 ſ. —— 1 | 200/3 [66 ⅔ ſ.
-4   1 —— 1
+1 *eſcus* X 3 *lt.* —— 3 *eſcus* | 9/7 *lt.*
+1   1 —— 7

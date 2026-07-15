@@ -1,29 +1,15 @@
-# Page 201
+# Page 202
 
-# D'EVCLIDE, LIV. IV.
-
-*Hypoth. 3.*
-
-5∠abcde *eſt equiangle.*
-5∠abcde *eſt inſcrit au* ⊙abcde.
-
-*Req. à demonſtr.*
-
-5∠abcde *eſt equilat.*
-
-*Demonſtr.*
-
-*Voyez la figure de la 14. propoſ. de ce liure.*
-
-hyp. | ∠abc 2|2 ∠bcd,
-26.3. | ∩aedc 2|2 ∩baed,
-∩aed *commun ſubtr.*
-3.a.1 | ∩cd 2|2 ∩ab, αβ
-d. α | ∩;cd, ab, ed, bc, ae *ſnt* 2|2 đe. γ
-concl. γ | abcde *eſt equilateral.*
-
-SCHOL. V.
-
-Si le nombre des angles de la figure proposée est pair, par la mesme demonstration sera demonstré que tous les costez distans d'vn nombre pair seront égaux entre eux: par exemple, commençant par tel costé qu'on voudra le 1. 3. 5. 7. &c. seront égaux entr'eux, & aussi le 2. 4. 6. 8. &c.
+# LES ELEMENTS
 
 (ornament)
+
+LE CINQVIESME LIVRE DES ELEMENTS D'EVCLIDE.
+
+# DEFINITIONS.
+
+I.
+
+PARTIE est vne grandeur d'vne grandeur, la plus petite de la plus grande, lors que la plus petite mesure la plus grande.
+
+Euclide a traicté aux quatre liures precedens de la quantité continuë considerée absolument: mais aux deux suiuants, il traicte de la mesme quantité non absolument, mais en tant qu'estant comparée auec vne autre, elle a quelque raison. En ce cinquiesme liure il traicte des proportions des quantitez en general, ne les referans à aucune espece de quantité, comme à vne ligne, superficie, ou à quelque corps. Mais au sixiesme, il monstre specialement, quelle raison ont les lignes entr'elles, les angles, les cercles, les triangles, & autres figures planes. Et suiuant sa methode il definit premierement les termes dont il a besoin aux demonstrations. Or il definit en cette premiere definition la partie aliquote, qui est celle qui mesure son tout, & non la partie aliquante, qui ne mesure pas son tout; partant selon cette definition, 4. par exemple, sera

@@ -1,45 +1,35 @@
-# Page 100
+# Page 101
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-SCHOLIE.
+*Hypoth.*
 
-Deux costez d'vn triangle rectangle estant cognus, trouuer le troisiesme costé.
+*au* △abc
+□.bc 2|2 □.ab + □.ac;
+
+*Req. à demonſtrer.*
+
+∠bac *eſt* ┘.
 
 (figure)
 
-*Exemple 1.*
+*Preparation.*
 
-ab *eſt* 8. α
-ac *eſt* 6. β
+11.1 | ∠cad *eſt* ┘,
+3.1 | ad 2|2 ab,
+1.p.1 | cd *eſt* ——.
 
-*Req. eſt* bc.
+*Demonſtr.*
 
-*Operation.*
+conſtr. | ad 2|2 ab,
+ſ.46.1 | □.ad 2|2 □.ab,
+hyp. | □.bc 2|2 □.ab + □.ac. α
+conſtr. | ∠cad *eſt* ┘,
+47.1 | □.cd 2|2 □.ac + □.ad, Ⅱ □.ab,
+α.1.a.1 | □.bc 2|2 □.cd,
+ſ.46.1 | bc 2|2 cd,
+8.1 | ∠cab 2|2 ∠cad,
+conſtr. | ∠cad *eſt* ┘,
+concl. 12.a.b | ∠cab *eſt* ┘.
 
-α | □.ab *eſt* 64.
-β | □.ac *eſt* 36.
-64 + 36 *ſnt* 100.
-ergo | □.bc *eſt* 100.
-conel. | √.100. *eſt* 10.
-ergo | bc *eſt* 10.
-
-*Exemple 2.*
-
-ab *eſt* 12. γ
-bc *eſt* 13. δ
-
-*Req. eſt* ac.
-
-*Operation.*
-
-δ | □.bc *eſt* 169.
-γ | □.ab *eſt* 144.
-169~144 *ſnt* 25.
-ergo | □.ac *eſt* 25.
-concl. | √.25 *eſt* 5.
-ergo | ac *eſt* 5.
-
-THEOR. XXXIV. PROPOS. XLVIII.
-
-Si le quarré de l'vn des costez d'vn triangle, est égal aux quarrez des deux autres costez ; le triangle sera rectangle.
+(ornament)

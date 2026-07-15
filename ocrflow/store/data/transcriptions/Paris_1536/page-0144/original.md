@@ -1,37 +1,43 @@
-# LIBER V.
+# GEOMET. ELEMENT.
 
-*127*
+*128*
 
-sententiam. & proinde c/m, & m/l, l/d, sunt quoque adinuicem æquales. Aequales porrò ad eandem, vel æquales, eandem habent rationem, & eadem ad æquales: per septimam huius quinti. Est igitur vt a/h/ad c/m, sic h/k/ad m/l, & k/b/ad l/d. Proportionales igitur sunt ipsæ a/h, h/k, & k/b, ipsis c/m, & m/l, l/d. Et sicut igitur vna antecedentium ad vnam consequentium, sic omnes antecedentes ad omnes consequentes, per duodecimam ipsius quinti. Ergo sicut a/h/ad c/m, sic tota a/b/ad totam c/d. æqualis porrò est a/h/ipsi e, & c/m/ipsi f. Et sicut igitur pars e/ad partē f, sic a/b/ multiplex ad c/d/multiplicem. Partes itaq̄; eodem modo multipliciū, eandem rationem habent sumptæ adinuicem. Quod ostendendum fuerat.
+æquè multiplices g/h, h/k, l/m, & m/n. ipsarum rursum b/c/& e/f, aliæ itidem æquè multiplices k/o, & n/p. His ita constructis, quoniam g/h/& h/ k/ magnitudines,
 
-Θεώρημα ις, Πρόθεσις ις.
+*[diagram: g h k q a c b d f e l m n p]*
 
-EΑν τέσσαρα μεγέθη ἀνάλογον ᾖ, καὶ ἐναλλὰξ ἀνάλογον ἔσαι.
+ipsarum a/c/& c/b/magnitudinū æqualium numero singulæ singularum, per constructionē, sunt æquè multiplices: quotuplex igitur est vna g/h/ vnius a/c, totuplex est & tota g/k/totius a/b, per primam huius quinti. Quotuplex autem est g/h/ipsius a/c, totuplex est l/m, ipsius d/f, per constructionē: tam multiplex est igitur g/k/ipsius a/b, quàm multiplex est l/m/ ipsius d/f, per vndecimam ipsius quinti. Rursum quoniam l/m/& m/n/ipsarum d/f/
 
-## Theorema 16, Propositio 16.
+*[diagram: g/k. | g/h. | l/m. — a/b. | a/c. | d/f.]*
 
-SI quatuor magnitudines proportionales fuerint: & permutatim proportionales erunt.
+& f/e/ æqualium numero singulæ singularū æquè sunt multiplices, per ipsam constructionē: quotuplex igitur est vna l/m/vnius d/f, totuplex est tota l/n/ totius d/ e, per eandem primam huius quinti. Quotuplex autem est l/m/ipsius d/f, totuplicem ostendimus g/k/ipsius a/b: quotuplex est igitur g/k/ipsius a/b, totuplex est l/n/ipsius d/e, per ipsam vndecimā
 
-ORONTIVS. ¶Sint verbi gratia quatuor magnitudines a,b,c,d, inuicē proportionales: sicut a/ ad b, sic c/ ad d. Dico quòd & vicissim, hoc est, permutatim proportionales existunt: sicut quidem a/ad c, sic b/ad d. Accipiantur enim ipsarum a, b, æquè multiplices e, f: ipsarū quoq̄; c,d, aliæ vtcūq̄; æquè multiplices g,h. Cùm igitur æquè multiplex sit e/ipsius a, vt f/ipsius b: erit vt a/ad b, sic e/ad f: nā partes eodem
+*[diagram: g/k. | l/m. | l/n. — a/b. | d/f. | d/e.]*
 
-> Permutatȩ rationis demonstratio.
+eiusdem quinti. Sunt itaq̄; g/k/& l/n, ipsarū a/b/& d/e/æquè multiplices. Item quoniā æquè multiplex est h/k/ipsius b/c: vt m/n/ ipsius e/f: quinta rursum k/o, eiusdem b/c/æquè multiplex est, vt sexta n/p/ eiusdem e/f. Et composita igitur h/o, eiusdem b/c/ æquè erit multiplex, ac tota m/p/eiusdem e/f, per secundam huius quinti. Et proinde h/o/& m/p, ipsarū b/c/& e/f/sunt æquè multiplices. Insuper quoniam ex hypothesi, sicut a/b, ad b/c, sic d/e/ad e/f: & ipsarum a/b/& d/e, primæ inquàm & tertiæ æquè multiplices sunt g/ k/& l/ n: ipsarum rursum b/ c/ & e/ f, hoc est secundæ & quartæ, æquè itidem multiplices h/o/& m/p. Est igitur vt g/k/ad h/o, sic l/n/ad m/p, per quartam huius
 
-*[diagram: e a b f g c d h]*
+*[diagram: g/k. | h/o. | l/n. | m/p. — a/b. | b/c. | d/e. | e/f.]*
 
-modo multiplicium, eandem rationem habent sumptæ adinuicem, per antecedentem decimamquintam propositionem. Vt autem a/ad b, sic se habet c/ad d, per hypothesin. & sicut igitur e/ad f, sic c/ad d: nā quæ eidem sunt eædem rationes, & adinuicem sunt eædem, per vndecimam huius quinti. Insuper quoniam æquè multiplex est g/ipsius c, vt h/ipsius d: erit rursum vt c/ad d, sic g/ad h, per eandem quindecimam huius quinti. sicut porrò c/ad d, sic e/ad f/ se habere præostensum est. & sicut igitur e/ ad f, sic g/ ad h, per ipsum vndecimam ipsius quinti.
+quinti. Auferantur vtrisque cómunes h/k, & m/n: vt reliqua igitur g/h/ad reliquam k/o, sic l/m/reliqua ad reliquam n/p, per tertiam & quintam cómunem sententiā. Igitur si g/h/excedit k/o, excedit & l/m/ proportionaliter ipsam n/ p: etsi æqualis, æqualis: si autē minor, itidem proportionaliter minor. Atqui g/h/& l/m, primæ & tertiæ magnitudinis (iuxta ordinem illationis) hoc est, ipsarū a/c/& d/f/datæ sunt
 
-Quatuor itaq̄; magnitudines e,f,g,h, sunt inuicem proportionales: habétque prima e/ad secundam f/eam rationem, quam tertia g/ad quartā h. Si prima igitur e, fuerit maior tertia g: & secūda f, ipsa h/quarta maior erit: etsi æqualis, æqualis: etsi minor, minor, per decimamquartā eiusdem quinti. Atqui e/& f, ipsarum a/& b, hoc est primæ & tertiæ magnitudinis (de illationis ordine velim intelligas) sunt æquè multiplices: g/autem & h, secundæ & quartæ, vtpote ipsarum c/& d/ æquè rursum multiplices. Est igitur per sextam huius quinti diffinitionem, vt prima a/ad secundam c, sic tertia b, ad quartā d. Si quatuor igitur magnitudines proportionales fuerint: & permutatim seu vicissim proportionales erunt. Quod erat demonstrandum.
+*[diagram: g/h. | k/o. | l/m. | n/p — a/c. | c/b. | d/f. | f/e.]*
 
-Θεώρημα ιζ, Πρόθεσις ιζ.
+æquè multiplices: k/o/verò & n/p, ipsarum c/b/ & f/e, secundæ inquàm & quartæ magnitudinis æquè itidem multiplices. Prima igitur a/c, ad secundam c/b/eam rationem habet: quam tertia d/f, ad quartam f/e, per sextā huius quinti diffinitionē. Si compositæ itaque magnitudines proportionales fuerint, diuisæ quoque proportionales erunt. Quod susceperamus ostendendum.
 
-EΑν συγκείμενα μεγέθη ἀνάλογον ᾖ, καὶ διαιρεθέντα ἀνάλογον ἔσαι.
+Θεώρημα ιη, Πρόθεσις ιη.
 
-## Theorema 17, Propositio 17.
+EΑν διῃρημένα μεγέθη ἀνάλογον ᾖ, ὃ συντιθέντα ἀνάλογον ἔσαι.
 
-SI cōpositæ magnitudines proportionales fuerint: diuisæ quoque proportionales erunt.
+## Theorema 18, Propositio 18.
 
-ORONTIVS. ¶Sint cōpositæ magnitudines a/b, b/c, d/e, & e/f, inuicem proportionales: sicut a/b/ad b/c, sic d/e/ad e/f. Aio quòd & diuisæ proportionales erūt: sicut quidem a/c/ad c/b, sic d/f/ad f/e. Accipiantur enim ipsarum a/c, c/b, d/f, & f/e,
+SI diuisæ magnitudines proportionales fuerint: cōpositæ quoque proportionales erunt.
 
-> Diuisa ratio, siue modus arguendi à compositis ad diuisa.
+ORONTIVS. ¶Sint diuisæ magnitudines a/c, c/b, d/f, & f/e, inuicem proportionales: sicut a/c/ad c/b, sic d/f/ad f/e. Aio quòd & compositæ, erunt versa vice proportionales: sicut quidem a/b/ad b/c, sic d/e/ad e/f. Sicut enim a/b/ad b/c, sic d/e/ ad aliam quādam magnitudinem se habere necessum est. Hæc autem magnitudo, si nō fuerit e/f: erit vel ipsa e/f/maior, aut eadem minor. Esto primū a/b/ad b/c, sicut d/e/
 
-l.iiij.
+> Compositaratio, siue arguendi modus à diuisis ad coniuncta.
+
+> Prima ostensionis differētia.
+
+*[diagram: a c b d f e g h]*
+
+ad maiorē (si possibile fuerit) ipsa e/f: vtpote ad e/g. Erit igitur sicut a/b/ad b/c, sic d/ e/ ad e/ g. Si compositæ autem magnitudines proportionales fuerint: diuisæ quoq̄;

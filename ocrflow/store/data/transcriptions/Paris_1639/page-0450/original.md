@@ -1,17 +1,9 @@
-# Page 449
+# Page 450
 
 # DE LA GNOMONIQVE.
 
-ction de la ligne equinoctiale SQ, & de la meridienne AR : Finalement les lignes droictes menées du centre G aux poincts des diuisions du cercle HEL, vous donneront en la ligne equinoctiale SQ des poincts, ausquels si vous tirez des lignes droites du centre A, le quadrant sera acheué, qui doit auoir pour stile oblique la ligne AB, tirée du centre A au sommet de CB, perpendiculaire au plan du quadrant au poinct C.
+*qu'il fait auec l'horizon, en passant par les deux intersections de l'horizon & du meridien.*
 
-SCHOLIE I.
+(figure)
 
-Si la declinaison est Zephyr-boreale la ligne DE, qui fait l'angle de declinaison auec CD, deura estre vers H.
-
-SCHOLIE II.
-
-Ce quadrant declinant se pourra faire sans obseruer la declinaison du plan proposé, si à l'heure de midy on obserue l'extremité de l'ombre du stile CB perpendiculaire au plan du quadrant, qui donnera en la meridienne AR vn poinct : par exemple en R, duquel tirant RA perpendiculaire à l'horizontale HF, on aura la meridienne AR : puis faisant EF égale à la distance du poinct E iusques au sommet du stile perpendiculaire CB, & l'angle EFA égal à l'esleuation du pole, FA couppant la meridienne RA donnera le centre A, duquel ayant tiré la substilaire ACG, & fait CB perpendiculaire à AG, & égale à la longueur du stile, continuant l'operation comme cy dessus, on acheuera le quadrant.  Or cette methode de faire vn quadrant, estant donné le stile perpendiculaire, & l'extremité de son ombre meridienne, est generale, & se peut practiquer en toute sorte de quadrans.  Et se pourra trouuer l'heure de midy bien seurement, sans l'aide d'aucun quadrant ny monstre, en mettant vn stile perpendiculaire en vn plan horizontal, & trouuant la ligne meridienne par la methode que nous auons donnée en la 26 propos. du 5 tome, page 728.
-
-Propos. 7. pag. 762.
-
-*Descrire vn quadrant en la face Occidentale d'vn plan incliné vers l'Orient, d'vn angle de 30 degrez*
+Sur le plan proposé par le moyen d'vn niueau, tirez BM parallele à l'horizon, & la couppez à angles droicts par HE, qui sera la ligne d'inclination : puis ayant pris CB à discretion pour la longueur du stile perpendiculaire, faites l'angle CBF égal à l'inclination donnée, à sçauoir de 30 deg. FH égale à FB : GFN perpendiculaire à HE : & l'angle FHG égal au complement de l'esleuation du pole, à sçauoir de 41 deg. 20′, qui donnera le poinct G en la meridienne NG pour le centre du quadrant.  Ayant ainsi trouué le centre G, menez par le poinct C la substilaire GCA : & faites les perpendiculaires CL à la substilaire GE, & égale à CB ; LI à GL ; QIT à GA.  Puis prenant IA égale à IL, descriuez le cercle ART de telle grandeur que vous voudrez, & le diuisez en 24 parties égales, commençant par la ligne AR, qui passe par N, qui est l'intersection de GN, & de la ligne equinoctiale QT : & les lignes tirées du centre A, aux poincts des diuisions du cercle RT, vous donneront en la ligne equinoctiale QT, les poincts Q, S, &c. ausquels menant du centre G les lignes horaires GQ, GS, &c. le quadrant requis QGT sera acheué, duquel la ligne de midy sera

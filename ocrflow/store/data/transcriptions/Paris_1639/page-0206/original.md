@@ -1,19 +1,25 @@
-# Page 205
+# Page 206
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-superpartiente, multiple superparticuliere, & multiple superpartiente.
+La proportion que definit icy Euclide, & de laquelle seulement il traicte en ce liure, est la geometrique, & y en a de deux sortes, l'vne continuë, en laquelle les quantitez entremoyennes sont prises deux fois, en sorte qu'il ne se faict aucune interruption de proportions, mais chaque quantité entremoyenne est consequente de la quantité precedente, & antecedente de la suiuante, comme si on dit, qu'il y a mesme raison de 4 à 6, que de 6 à 9. ceste proportion s'appellera contiuuë: mais l'autre se dit discrete ou discontinuë, en laquelle chaque quantité entremoyenne est prise vne fois seulement; en sorte qu'il se faict interruption des proportions, & aucune quantité n'est antecedente & consequente, mais antecedente seulement, ou consequente; comme si on dit qu'il y a mesme raison de 4 à 6, que de 10 à 15, ceste proportion sera appellée discrete ou discontinuë.
 
-Proportion multiple est vne habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite, certain nombre de fois precisément, comme 20 à 4, qui s'appelle quintuple, & 15 à 5 triple.
+Proportion arithmetique est quand trois ou plusieurs grandeurs s'excedent également, comme
 
-La proportion superparticuliere est vne habitude d'vne plus grande quantité à vne moindre,, quand la plus grande contient la plus petite vne fois seulement, & en outre vne partie aliquote d'icelle moindre, comme est la proportion de 3 à 2, qui s'appelle sesquiseconde, & de 9 à 8 sesquioctaue.
+4 à 6, ainsi 6 à 8, continuë.
 
-La proportion superpartiente est l'habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite vne fois seulement, & en outre, quelques parties aliquotes d'icelle moindre, lesquelles prises ensemble, ne font pas vne partie aliquote, comme est la proportion de 8 à 5, qui s'appelle proportion supertripartiente quintes, & 5 à 3 superbipartiente tierces.
+4 à 6, ainsi 20 à 22, discrete.
 
-La proportion multiple superparticuliere est l'habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite certain nombre de fois, & en outre vne partie aliquote de la moindre, comme est la proportion de 5 à 2, qui s'appelle double sesquiseconde, & 26 à 8 triple sesquiquarte.
+La proportion musique ou harmonique est, quand de trois grandeurs la premiere est à la seconde, comme la difference de la premiere & seconde à la difference de la seconde & troisiesme: comme 3, 4, 6, sont en proportion musique, à cause qu'il y a mesme proportion du premier nombre 3, au troisiesme 6, que de la difference du premier & second, qui est 1, à la difference du second & troisiesme, qui est 2.
 
-Finalement la proportion multiple superpartiente, est l'habitude d'vne plus grande quantité à vne moindre, quand la plus grande contient la moindre certain nombre de fois, & en outre quelques parties aliquotes de la moindre, lesquelles prises ensemble ne font pas vne partie aliquote, comme est la proportion de 8 à 3, qui s'appelle double superbipartiente tierces, & 30 à 8 triple supertripartiente quartes.
+La progression geometrique est vne suite de plusieurs grandeurs qui s'excedent en mesme raison, comme il appert en ces nombres.
 
-Tout ce qui a esté dit iusques icy des cinq genres des proportions rationnelles de l'inégalité majeure, doit pareillement estre entendu des cinq genres correspondans de l'inégalité mineure, apposant neantmoins tousiours ceste preposition (*ſub*) qui signifie, sous, comme il a esté dit.
+1. 2. 4. 8. 16. 32. 64. 128. &c. ou, 1. 3. 9. 27. 81. 243. 729. &c.
 
-Or la proportion, la prenant pour proportionalité, se diuise en geometrique, arithmetique, & musique.
+La progression arithmetique est vne suite de plusieurs grandeurs qui s'excedent également, comme il appert en ces nombres,
+
+1. 2. 3. 4. 5. 6. 7. 8. &c. ou, 1. 3. 5. 7. 9. 11. 13. 15. &c.
+
+V.
+
+Les grandeurs sont dites auoir raison l'vne à l'autre, lesquelles estans multipliées, se peuuent exceder l'vne l'autre.

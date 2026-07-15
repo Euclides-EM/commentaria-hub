@@ -1,35 +1,37 @@
-# LIBER VI. 151
+# GEOMET. ELEMENT.
 
-Tribus itaq; rectis lineis datis,a,b,c,quartam inuenimus proportionalē h/f.Quod faciendum fuerat.
+*152*
 
-Πρόβλημα ε, Πρόθεσις ιγ.
+> Eiusdem primæ partis oſtensio.
 
-ΔΥο Δοθεισῶν εὐθειῶν,μέσην ἀνάλογον προσευρεῖν.
+*[diagram: a b c d e]*
 
-## Problema 5, Propoſitio 13.
+rectúmq; datorum parallelogrammorũ lateribus, per secundum poſtulatũ. Cùm igitur a/b/c/parallelogrammũ, æquale sit per hypothesin ipsi d/b/e/parallelográmo, & c/b/e/ aliud quoddam vtrique comparabile parallelogrammum:erit proinde vt a/b/c/ parallelogrammum,ad parallelogrammum c/b/e, sic parallelogrammum d/b/e/ ad idem c/b/e/ parallelogrammũ. Aequales enim magnitudines ad eandem magnitudinem, eandem habent rationem,per septimam quinti. Sicut porrò a/b/c/ parallelogrammũ,ad parallelogrammũ c/b/e, sic per primã huius sexti,basis a/b/ ad basin b/e. sub eadẽ enim sunt altitudine ipsa a/b/c/ & c/b/e/ parallelogramma. Et sicut igitur basis a/b/ ad basin b/e, sic per vndecimam quinti,d/b/e/parallelogrammum, ad parallelogrammum c/b/e. Sicut rursum per eandem primam huius sexti, d/b/e/parallelogrammum, ad ipsum parallelogrammum c/b/e , sic basis d/b/ ad basin b/c.
 
-DVabus datis rectis lineis,mediam proportionalem inuenire.
+*[diagram: |a/b.b/e|a/b/c.c/b/e|d/b/e.c/b/e|]*
 
-ORONTIVS.¶Sint datæ binæ rectæ lineæ a/b/& c/d, inter quas receptū ſit mediam inuenire proportionalem.Producatur ergo altera earū,vtpote a/b/in rectum & continuū verſus e,per ſecūdum poſtulatū:& abſcindatur b/e/ipſi c/d/æqualis,per tertiam primi.Et diuiſa a/e/bifariam,per decimā ipſius primi : deſcribatur ad alterutrius partis interuallum ſemicirculus a/f/e,per tertium poſtulatum.A puncto deniq; b,perpendicularis excitetur b/f, per vndecimam primi: & connectantur a/f/& f/e/ lineæ rectæ, per primū poſtulatum. His ita conſtructis,quoniam triāguli a/f/e/ angulus qui ad f/ eſt in ſemicirculo : is propterea rectus eſt,per trigeſimāprimam tertij. Rectāgulum eſt itaq; a/f/e/triangulum,& ab angulo recto qui ad f/in baſin a/e/perpēdicularis demittitur f/b.Eſt igitur ipſa perpēdicularis f/b/media proportionalis inter a/b/& b/e/ ipſius baſis ſegmenta, per primam partem corollarij octauæ huius ſexti.Eſt igitur vt a/b/ ad b/f, ſic b/f/ad b/e.Ipſi porrò b/e/æqualis eſt c/d,per conſtructionem: & æquales ad eādem,eandem habēt rationem, & eadem ad æquales, per ſeptimam quinti. Et ſicut igitur a/b/ ad b/f, ſic b/f/ad/c/d. Binis itaq; rectis lineis datis, a/b/& c/d, media proportionalis inuenta eſt b/f.Quod oportebat facere.
+Et sicut igitur per ipsam vndecimam quinti a/b/ad b/e, sic d/b/ ad b/c. Datorum itaque parallelogrammorum a/b/c/& d/b/e, reciproca sunt latera quæ circum æquales angulos: per secundam huius sexti diffinitionem.
 
-> Conſtructio figuræ.
+*[diagram: |a/b.b/e| d/b/e.c/b/e| d/b.b/c|]*
 
-*[diagram: a b e f c d]*
+> Secunda pars theorematis, conuersa primæ.
 
-> Sūmaria problematis oſtēſio.
+¶Sed eſto vt qui ad b/ sunt anguli æquales sint adinuicem, & circũ eosdem æquales angulos latera reciprocè proportionalia,sicut a/b/ad b/e, sic d/b/ad b/c.Aio versa vice,q̃ a/b/c/parallelogrammum,æquum eſt ipsi d/b/e/parallelogrammo. Receptum eſt enim ex hypothesi,vt a/b/ad b/e, sic d/b/ ad b/c.Sed sicut a/b/ ad b/e/ sic per primam huius sexti, parallelogrammum a/b/c/ ad c/b/e/parallelogrammum.Et sicut igitur a/b/c/parallelogrammũ,ad parallelogrammum c/b/e,sic per vndecimam quinti d/b/ ad b/c. Sicut rursum d/b/ ad b/c, sic per eandem primam huius sexti, parallelogrammum d/b/e/ad c/b/e/parallelogrammum.Et sicut igitur per ipsam vndecimam quinti a/b/c/ parallelogrammum,ad c/b/e/ parallelogrãmum, sic paral-
 
-Θεώρημα θ, Πρόθεσις ιδ.
+*[diagram: |a/b/c.c/b/e| a/b.b/e | d/b. b/c|]*
 
-ΤΩν ἴσων τε καὶ μίαν μιᾷ ἴσην ἐχόντων γωνίαν παραλληλογράμμων, ἀντιπεπόνθασιν αἱ πλευραὶ,αἱ περὶ τὰς ἴσας γωνίας: καὶ ὧν παραλληλογράμμων μίαν μιᾷ ἴσην ἐχόντων γωνίαν,ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας, ἴσα ἐστὶν ἐκεῖνα.
+*[diagram: |a/b/c.c/b/e|d/b.b/c|d/b/e.c/b/e|]*
 
-## Theorema 9, Propoſitio 14.
+lelogrammũ d/b/e/ ad idẽ c/b/e/ parallelogrammũ.Vtrunq; igitur a/b/c/ & d/b/e/ parallelogrãmum,ad idem parallelogrammũ c/b/e/ habet eandẽ rationem. æquũ eſt itaq; a/b/c/parallelogrammũ ipsi d/b/e/ parallelogrãmo, per nonã ipsius quinti. Aequaliũ igitur & vnum vni æqualem habẽtium angulum parallelogrammorum:& quæ sequuntur reliqua.Quod oſtendendum fuerat.
 
-AEqualium & vnum vni æqualem habētium angulum parallelogrammorum: reciproca ſunt latera,quæ circum æquales angulos . Et quorum parallelogrammorum vnum angulum vni angulo æqualem habentium , reciproca ſunt latera , quæ circum æquales angulos:ea quoque ſunt æqualia.
+Θεώρημα ι, Πρόθεσις ιε.
 
-ORONTIVS. ¶Sint bina parallelogramma inuicem æqualia, a/b/c/& d/b/e, angulum qui ſub a/b/& b/c,ei qui ſub d/b/& b/e/continetur æqualē habentia. Dico quòd ipſorum parallelogrammorum a/b/c/& d/b/e/ reciproca ſunt latera,quæ circum æquales angulos:ſicut quidem a/b/ad b/e, ſic d/b/ad b/c. Conſtituantur enim a/b/& b/e/latera in directum:hoc autem fiet,cùm anguli a/b/c/& c/b/e/ fuerint æquales duobus rectis,per decimamquartam primi. In directum quoq; tunc erit d/b/ ipſi b/c,per eandem propoſitionem: anguli enim d/b/e/ & e/b/c, binis itidem rectis,per primam & ſecundam communē ſententiam , erunt æquales.Compleatur tandem c/b/e/parallelogrammum: productis in continuum
+Τῶν ἴσων ϗ̃ μίαν μιᾷ ἴσην ἐχόντων γωνίαν τριγώνων, ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας: καὶ ὧν μίαν μιᾷ ἴσην ἐχόντων γωνίαν ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας, ἴσα ὑπὶν ἐκεῖνα.
 
-> Pars prima theorematis.
+## Theorema 10, Propositio 15.
 
-*[diagram: a b e c d]*
+AEqualium & vnũ vni æqualem habentium angulum triangulorum:reciproca sunt latera,quæ circum æquales angulos.Et quorum vnum vni angulum æqualem habentium triangulorum reciproca sunt latera,quæ circum æquales angulos: ea quoq; sunt æqualia,
 
-n.iiij.
+> Prima theorematis pars.
+
+ORONTIVS. ¶Sint bina triangula a/b/c/& d/b/e, angulum qui sub a/b/ &

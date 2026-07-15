@@ -1,22 +1,25 @@
-# Page 208
+# Page 209
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-faudroit prouuer que les equimultiples des antecedens E 28 & F 70, au respect des equimultiples des consequens G 18 & H 45, ne peuuent estre dissemblables: c'est à dire, que si E excede G, F ne pourra pas estre égal ny moindre que H. Et à cause qu'on ne peut prouuer, sans vne hypothese concedée, que les equimultiples E & F au respect des equimultiples G & H, ne peussent estre dissemblables: on ne pourra pas aussi demonstrer, sans hypothese, qu'il y a mesme proportion de A à B, que de C à D.
+premiere grandeur excedera celuy de la seconde, mais le multiple de la troisiesme grandeur n'excedera pas celuy de la quatriesme; alors la premiere grandeur sera dite auoir plus grande raison à la seconde, que la troisiesme à la quatriesme.
 
-Que si par hypothese, les antecedens A & C ont mesme proportion à leurs consequens B & D, la consequence seroit, que les equimultiples des antecedens E & F, au respect des equimultiples des consequens G & H, ne pourroient estre dissemblables: Car si les equimultiples E & F pouuoient estre dissemblables (c'est à dire, l'vn excedant l'equimultiple de son consequent, & l'autre égal ou moindre que l'equimultiple de son consequent) il seroit manifeste par la 8. definition, qu'il n'y auroit pas mesme raison de A à B, que de C à D, ce qui repugne à l'hypothese.
+E, 30. | A, 6. B, 4. | G, 28.
+F, 60. | C, 12. D, 9. | H, 63.
 
-La note par laquelle s'exprime la similitude des equimultiples des antecedens, est celle-cy:
+hyp. | e *multiple de* a 2|2 f *multiple de* c,
+hyp. | g *multiple de* b 2|2 h *multiple de* d,
+hyp. | e *eſt* 3|2 g, f *eſt* 2|3 h,
+8.d.5 | a π b 3|2 c π d,
 
-e | 2, 3, 4 | 3. g.
-f | 2, 3, 4 | 3. h.
+La conuerse de la 8. definition est, que si A a plus grande raison à B, que C à D: qu'il est possible que l'equimultiple de A excede l'equimultiple de B, & que l'equimultiple de C n'excede pas l'equimultiple de D.
 
-De laquelle note, G & H, qui sont les equimultiples des consequens, ont chacun 3: & E & F, qui sont les equimultiples des antecedens, ont chacun 2, ou 3, ou 4: pour monstrer qu'ils sont ou ensemble plus petits que G & H: ou ensemble égaux à G & H: ou ensemble plus grands que G & H. Laquelle similitude des equimultiples E & F, nous ne pouuons pas prouuer icy; mais aux demonstrations, la citation donnera à cognoistre, que les equimultiples E & F au respect des equimultiples G & H, ne pourront estre dissemblables.
+IX.
 
-VII.
+La proportion ne peut estre constituée en moins de trois termes.
 
-Les grandeurs qui ont mesme raison, soient appellées proportionnelles.
+La raison a deux termes, la proportion ou proportionalité deux raisons; que si elle est continuë, il y aura trois termes; mais si elle n'est continuë, il y aura quatre termes,
 
-VIII.
+X.
 
-Mais quand des equimultiples, le multiple de la
+Quand il y a trois grandeurs proportionnelles, la premiere à la troisiesme est dite auoir la raison doublée de la premiere à la seconde: mais quand

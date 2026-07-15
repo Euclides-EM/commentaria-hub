@@ -1,23 +1,23 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-*[page number: 23]*
+*[page number: 24]*
 
-propositionem.& connectatur b/d/recta,per primū postulatum. Cùm igitur a/b, sit æqualis ipsi a/d,per constructionem:qui ad basin b/d/sunt anguli,æquales adinuicem erunt, per quintam propositionem, vtpote,a/b/d, ipsi a/d/b.Angulus porrò d/b/c,maior est angulo a/b/d, per nonam communem sententiam: igitur & angulo a/d/b/maior.Triangulum igitur d/b/c,habet angulum d/b/c/maiorē angulo b/d/c. Omnis autē trianguli maior angulus sub maiori latere subtenditur,per decimamnonam propositionem.maius est itaq d/c/latus,ipso latere d/b. Atqui latus d/c, æquū est ipsis a/b/ & a/c/lateribus: data est enim a/d, ipsi a/b/ æqualis, & vtrique iungitur a/c. Duo igitur latera a/b/& a/c,sunt maiora reliquo b/c.Similiter ostendemus,quòd a/b/& b/c latera,maiora sunt reliquo a/c:atq a/c/& c/b, reliquo a/b, itidem maiora. Omnis itaque trianguli duo latera, reliquo sunt maiora, quomodocunq assumpta. Quod oportuit ostendere.
+Πρόβλημα η, Πρόθεσις κβ.
 
-*[diagram: triangle b c with points a d]*
+Ἐκ τριῶν εὐθειῶν αἵ ἐισιν ἴσαι τρισὶ ταῖς δοθείσαις εὐθείαις,τρίγωνον συστήσασθαι.δεῖ δὴ τὰς δύο τῆς λοιπῆς μείζονας εἶναι, πάντη μεταλαμβανομένας,διὰ τὸ καὶ παντὸς τριγώνου τὰς δύο πλευρὰς τῆς λοιπῆς μείζονας εἶναι,πάντη μεταλαμβανομένας.
 
-Θεώρημα ιδ, Πρόθεσις κα.
+## Problema 8, Propositio 22.
 
-Ἐὰν τριγώνου ἐπὶ μιᾶς τῶν πλευρῶν ἀπὸ τῶν περάτων δύο εὐθεῖαι ἐντὸς συσταθῶσιν,αἱ συσταθεῖσαι,τῶν λοιπῶν τῶν τριγώνου δύο πλευρῶν,ἐλάττονες μὲν ἔσονται, μείζονα δὲ γωνίαν περιέξουσι.
+22 EX tribus rectis lineis,quæ sunt tribus datis rectis lineis æquales,triangulum cōstruere. Oportet autem duo latera, reliquo esse maiora quomodocunque assumpta : quoniam trianguli bina latera quomodocunque assumpta,reliquo sunt maiora.
 
-## Theorema 14, Propositio 21.
+ORONTIVS.Dentur ergo tres lineæ rectæ a, b,& c, adinuicem ita proportionatæ,vt duæ quomodocunque assumptæ,sint maiores reliqua:vtpote,a/& b/ipsa c,atq b/& c/ipsa a, denique a/& c/ipsa b/maiores.Oportet enim ipsius trianguli,ex tribus rectis lineis,quæ sunt tribus datis æquales,cōstruendi duo latera,reliquo esse maiora,per vigesimam propositionem. Assumatur itaque recta quædam linea,ex altera parte puncto d/limitata:infinita verò secundum reliquam.à qua secētur tres rectæ lineæ, ipsis datis singulatim æquales,per tertiam propositionē: d/e/quidem æqualis ipsi a, e/f/autem ipsi b,& f/g/ipsi c.Et centro e,interuallo autē e/d, circulus describatur d/h/k:centro rursum f,& interuallo f/g,alius describatur circulus g/h/l, per tertium postulatum.Et quoniam circuli d/h/k/ & g/h/l,in eodem sunt plano,& e/f/recta,ab vnius circuli centro,ad centrum alterius producitur:necessum est, eosdem circulos d/h/k/& g/h/l/sese mutuo intersecare.Si nanque minimè se secarent, sed sese adinuicem tangerent,vtpote in puncto h:tūc recta e/f/ ipsi b/ æqualis,vtriusque circuli semidiametrum necessario contineret. quapropter & duarum rectarum a/& c/magnitudinē.Esset enim e/h/pars ipsius e/f,æqualis d/e,& propterea ipsi a:pars quoque h/f,ipsi f/g, & ipsi ergo c/æqualis.quemadmodùm ex decimaquinta diffinitione,& prima cómuni sententia deducere vel facilè est. Bina ergo triāguli latera, essent æqualia reliquo:contra datam hypothesin,& vigesimam propositionē. Longè item maius inconueniēs sequeretur:vbi circuli ipsi vtcunque distare ponerētur. Secat igitur circulus d/h/k,circulum g/h/l.esto sectionum altera in puncto h: & cónectātur rectæ e/h/& h/f,per primum postulatum. Triangulū est igitur e/h/ f: dico quòd ex tribus rectis lineis cóstructū,quæ sunt tribus datis æquales.Cùm enim punctum e/sit centrum circuli d/h/k:æqualis est d/e/ipsi e/h, per decimamquintam diffinitionē. ipsa porrò d/ e, secta est æqualis ipsi a.Binæ igitur, hoc est a/& e/h, eidem rectæ d/e/sunt æquales:quapropter & æquales adinuicem, per primam communem sententiam.e/f/autem, ipsi b/ data est æqualis,per constructionem. Rursum quoniam punctum f,centrum est circuli g/h/l:æqualis est f/h/ipsi f/g,per eandem decimamquintam diffinitionem. ipsa autem f/g, secta est æqualis ipsi c.Ergo f/h/ &c, eidem f/g/sunt æquales:igitur & æquales adinuicem,per eandem primam cómunem sententiam.Tres igitur rectæ lineæ e/h,e/f,& f/h,tribus datis a,b, & c,sunt adinuicem æquales:& constituunt triangulum e/h/f. Ex tribus igitur rectis lineis e/h,e/f, & f/h,quæ tribus datis,hoc est,a,b,& c,sunt æquales,cōstructum est triangulum e/h/f. Quod faciendum susceperamus.
 
-21 SI trianguli à limitibus vnius lateris, binæ rectæ lineæ introrsum constituantur : quæ constituuntur, reliquis trianguli binis lateribus minores quidem erunt, maiorémque angulum continebunt.
+> Constructio figuræ.
 
-ORONTIVS.In triangulo enim a/b/c,à limitibus lateris b/c, duæ rectæ lineæ d/b/& d/c/introrsum,ad punctum d, constituantur. Aio itaque primùm, ipsas d/b/& d/c/ lineas rectas, minores esse reliquis a/b/& a/c/lateribus. Producta nanq c/d,quousq secet latus a/b,in puncto quidem e,per secundum postulatum: erūt bina latera a/e/& a/c/triāguli a/e/c,maiora reliquo e/c,per vigesimam propositionē. Addatur ipsis a/e/& a/c,atq ipsi e/c, communis e/b. & composita igitur a/b/ & a/c/ latera,ipsis e/b/& e/c/lateribus, per quartam cómunem sententiam,erunt maiora.Bina rursum latera e/b/& e/d/ trianguli e/b/d,sunt maiora reliquo b/d,per eandem vigesimam propositionē.Addatur ipsis inæqualibus, communis d/c.ergo bina latera e/b/& e/c,binis d/b/ & d/c/lineis rectis sunt maiora,per eandem quartam cómunem sentētiam. Ostensum est autem, quòd a/b/& a/c/ latera, eisdem e/b/& e/c/sunt maiora.Multò igitur maiora sunt eadem a/b/& a/c/latera, ipsis d/b/& d/c/lineis rectis, à limitibus b/& c/ introrsum constitutis. Dico præterea, quòd angulus b/ d/ c, maior est angulo b/a/c.Trianguli enim e/b/d, exterior angulus b/d/c, maior est interiore & ex opposito b/e/d: idem quoque angulus b/e/d, interiore &/ex opposito e/a/c, ipsius a/e/c/ trianguli maior,per decimamsextam propositionem.Longè itaque maior est angulus b/d/c, ipso e/a/c,hoc est,b/ a/ c/ angulo. Igitur si triāguli à limitibus vnius lateris, binæ rectæ lineæ,& quæ sequuntur reliqua,vt in theoremate. Quod demonstrare oportebat.
+*[diagram: two tangent circles d e h f g k l]*
 
-*[diagram: triangle a b c with interior point d and point e]*
+*[diagram: lines a b c]*
 
-> Primæ partis ostensio.
+> Problematis ostensio.
 
-> Secunda pars
+*[diagram: two intersecting circles d e f g h k l]*

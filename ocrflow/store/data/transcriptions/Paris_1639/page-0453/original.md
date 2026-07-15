@@ -1,11 +1,21 @@
-# Page 452
+# Page 453
 
 # DE LA GNOMONIQVE.
 
-(figure)
+meridienne FA, les lignes horaires seront paralleles entr'elles, & par consequent des poincts Z, R, & autres de la ligne equinoctiale YS, on les tirera paralleles à la meridienne AXF.
 
-qui vous donnera en la ligne ET le poinct G : puis ayant tiré BD perpendiculaire à GB, & fait DV parallele à KM, & DE égale à DB, vous ferez l'angle DEF égal à la declinaison donnée, à sçauoir de 40 degrez, qui vous donnera en DV le poinct F, duquel ayant tiré la meridienne FGA, & faict le triangle FGH, qui aye FH égale à FE, & GH égale à GB, vous ferez l'angle FHM égale à l'esleuation du pole, à sçauoir en cet exemple de 48 degrez 40′, & MH estant continuée directement vous donnera en FGA le centre du quadrant A, duquel par le poinct C menez la substilaire ACN, & faites CL perpendiculaire à la substilaire AN, & égale à CB : puis ayant tiré AL, vous ferez LO perpendiculaire à AL, qui vous donnera en la substilaire AN le poinct O, par lequel vous tirerez la ligne equinoctiale YS perpendiculaire à la substilaire AN, & ferez ON égale à OL, & du centre N descrirez le eercle NKPS de telle grandeur que vous voudrez, & le diuiserez en 24 parties égales, commençant à la ligne NP, qui passe par X, qui est l'intersection de la meridienne AF, & de l'equinoctiale YS : & les lignes tirées du centre N, aux poincts des diuisions du cercle KPS, vous donneront en la ligne equinoctiale YS les poincts Z, R, &c. ausquels menant du centre A, les lignes horaires AZ, AR, &c. le quadrant requis YAS sera paracheué, qui doit auoir pour stile la ligne AL, tirée du centre A au sommet de CL, perpendiculaire au plan du quadrant en C,
+SCHOLIE II.
 
-SCHOLIE I.
+Si à l'heure de midy on obserue l'extremité de l'ombre du stile CL, perpendiculaire au plan proposé, on aura vn poinct dans la meridienne AGF, par le moyen duquel on pourra descrire le quadrant, sans obseruer la declinaison ny inclinaison du plan proposé : Car dans la mesme meridienne AF on poutra trouuer le poinct G par le moyen d'vne perpendicule ou filet soustenant vn plomb attaché au sommet du mesme stile CL, & la ligne droicte menée par ces deux poincts sera la meridienne AF : & la ligne tirée du poinct G par le pied du stile C, sera perpendiculaire à la ligne horizontale KCM : puis pour trouuer le poinct F, on fera CB égale à CL, BD perpendiculaire à GB, & DV parallele à KM, laquelle couppant la meridienne AGF donnera le poinct F.  Et le centre A se trouuera comme cy dessus, en prenant au lieu de FE, la distance du poinct F, iusques au sommet du stile perpendiculaire ; puis continuant la construction comme cy dessus, on acheuera le quadrant.
 
-Si la ligne MH estant continuée directement ne rencontre la
+## DES QVADRANS ITALIQVES, Babyloniques & antiques.
+
+Les heures des quadrans astronomiques, Italiques, & Babyloniques vont iusques à 24 heures, & les antiques iusques à 12 heures.
+
+Les heures astronomiques commencent à midy, & finissent au midy du lendemain, & ont les mesmes lignes horaires que celles de France, & par consequent ces deux sortes d'heures conuiennent iusques à minuict ; mais apres minuict les heures astronomiques excedent celles de France de 12 heures.
+
+La premiere heure Italique commence le soir au coucher du Soleil, & la 24 finit le lendemain au eoucher du Soleil.
+
+La premiere heure Babylonique commence le matin au leuer du Soleil, & la 24 finit le lendemain au leuer du Soleil.
+
+Les heures antiques ou inégales commencent & finissent tous-

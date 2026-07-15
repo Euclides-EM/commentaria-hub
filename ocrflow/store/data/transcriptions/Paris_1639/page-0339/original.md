@@ -1,37 +1,37 @@
-# Page 338
+# Page 339
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-Que si pour faire la premiere regle de trois on eust pris ces trois nombres cy,
+la regle sera directe, & donnera 423/23 lt.
 
-23 *lt.* —— 7 *ans* —— 47 *lt.* —— R. 161/47 *ans*.
+Puis pour faire la seconde regle de trois, on dira, si
 
-il eust fallu operer par l'inuerse, qui eust donné 161/4 d'ans, puis faisant la seconde regle de trois selon celle des fractions, ainsi,
+423 *lt.* X 7 *ans* —— 2115 *lt.* | 340515/68103 [5 *ans*.
+23   1 —— 23
 
-161 *ans* X 9 *lt.* —— 5 *ans* | 2115/161 ou [13 22/161 *lt.*
-47   1 —— 1
+& viendra pour le nombre requis 5 ans.
 
-on eust encore trouué 13 22/161 lt.
+Notez que cet exemple est la preuue du precedent.
 
-La premiere regle de trois se pouuoit encores faire ainsi,
+*Exemple 3.*
 
-7 *ans* —— 9 *lt.* —— 5 *ans*. R. 45/7 *lt.*
+A 8 liures d'interest pour 100 liures en 9 mois, sçauoir à quel denier est l'interest ?
 
-Cette regle, qui est directe, donne 45/7 lt. puis pour faire la seconde regle, on dira, si
+Les cinq nombres de cette question sont ceux-cy,
 
-23 *lt.* X 45 *lt.* —— 47 *lt.* | 2115/161 ou 13 22/161.
-1   7 —— 1
+100 *lt.* — 8 *lt.* — 9 *mois* — 1 *lt.* — 12 *mois*. R. 9 3/8.
 
-& viendra encore 13 22/161 pour le requis.
+De ces cinq nombres, si on prend pour faire la premiere regle, ces trois cy,
 
-*Exemple 2.*
+8 *lt.* —— 100 *lt.* —— 1 *lt.* R. 100/8 *lt.*
 
-Si 23 liures en 7 ans gagnent 9 liures, sçauoir en combien d'ans 47 liures gagneront 13 22/161 liures ?
+la regle sera directe, & viendra 100/8 lt. pour le quatriesme : puis pour faire la seconde regle, on dira, si
 
-Mettant les 13 liures & sa fraction 22/161 en vne fraction, les cinq nombres de cette fraction seront ceux-cy,
+9 *mois* — 100 *lt.* X 12 *mois* | 900/96 ou (9 3/8 *lt.*
+1 —— 8   1
 
-23 *lt.* —— 7 *ans* —— 9 *lt.* —— 47 *lt.* — 2115/161 *lt.* R. 5 *ans*.
+Cette regle est inuerse, & donne 9 3/8 lt. c'est à dire, à raison que 8 liures sont gagnées par 100 liur. en 8 mois, qn'vne liure sera gagnée de 9 3/8 liures en 12 mois.
 
-De ces cinq nombres si on prend pour faire la premiere regle de trois ces trois cy,
+DE LA REGLE DE COMPAGNIE *ou de societé.*
 
-23 *lt.* —— 9 *lt.* —— 47 *lt.* R. 423/23 *lt.*
+L'vsage de cette regle arriue, quand plusieurs se mettent à trafiquer ensemble, chacun apportant vne cer-

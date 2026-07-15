@@ -1,63 +1,77 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-limite, ſuccedunt rectilineæ, hoc eſt, rectis lineis terminatæ figuræ, variam quidem, pro laterũ numero, angulorúmve qualitate, denominationẽ obtinẽtes: quæ ita ab Euclide diffiniũtur,
+Ετι δὲ τῶν τριπλεύρων σχημάτων, ὀρθογώνιον μὲν τρίγωνόν ἐστι, τὸ ἔχον ὀρθὴν γωνίαν.
 
-Ευθύγραμμα σχήματα, τὰ ὑπὸ ευθειῶν περιεχόμενα.
+> Trilaterarũ figurarum ab angulis differentiæ.
 
-> Rectilineæ figuræ
+## 27 Amplius trilaterarum figurarum, rectangulum triangulum eſt, quod rectum angulum habet.
 
-## Rectilineæ figuræ, ſunt quæ ſub rectis lineis continentur. 20
+Vt iſoſceles b, vel ſcalenum triangulum e, proxima diffinitione deſcriptum.
 
-> Trilatera figura rectilinearũ prima.
+Αμβλυγώνιον δὲ, τὸ ἔχον ἀμβλεῖαν γωνίαν.
 
-Porrò inter rectilineas figuras, primum locum ſibi vendicant trilateræ, ſub tribus rectis lineis comprehenſæ. Quoniam ſub duabus lineis rectis non poteſt cõtineri figura, per ipſius lineæ rectæ deſcriptionem. Subiungit itaq̃ generalem trilaterarum figurarũ diffinitionem.
+> Amblygoniũ
 
-Τρίπλευρα μὲν, τὰ ὑπὸ τριῶν.
+## 28 Amblygonium autem, quod obtuſum angulum habet.
 
-> Trilateræ figuræ
+Veluti antecedens iſoſceles d, ſcalenúmve triangulum g.
 
-## Trilateræ figuræ, ſunt quæ ſub tribus rectis continentur lineis. 21
+Οξυγώνιον δὲ, τὸ τρεῖς ὀξείας ἔχον γωνίας.
 
-His ſuccedunt quadrilateræ, à quaternario laterum numero denominatæ.
+> Oxygoniũ
 
-Τετράπλευρα δὲ, τὰ ὑπὸ τεσσάρων.
+## 29 Oxygonium verò, quod tres habet acutos angulos.
 
-> Quadrilateræ
+> Baſis triãguli
 
-## Quadrilateræ figuræ ſunt, quæ ſub quatuor comprehẽduntur rectis lineis. 22
+Cuiuſmodi ſunt æquilaterum a, & iſoſceles c, atq̃ triangulum ſcalenum f: & quæ eis ſimilia ſunt triangula. Omnis porrò trianguli vnumquodque latus, cæteris duobus expreſſis, baſis vocitatur. Sequitur itaq̃, rectãgula & amblygonia triangula: fore tantummodò iſoſcelia, vel ſcalena. Oxygonium autem: & æquilaterum, & iſoſceles, & ſcalenum offenditur triãgulum. Quemadmodùm ex ſupraſcriptis triangulorum licet elicere figuris. Haud diſſimiliter quadrilaterarum figurarum, tum ab angulorũ rectitudine vel obliquitate, tum ab æqualitate vel inæqualitate laterum, ſuccedentia colliguntur diſcrimina.
 
-Et quoniam rectilinearum figurarum ſupra quadrilateras per cõtinuam laterum additionem, infinita videtur excreſcere multitudo, quam ſingulatim deſcribere, longum nimis vel impoſſibile foret: idcirco reliquas omnes multilateras adpellauit Euclides, & ſub hac diffinitione complexus eſt,
+> Quadrilaterarum figurarũ diſcrimina
 
-Πολύπλευρα δὲ, τὰ ὑπὸ πλειόνων ἢ τεσσάρων ευθειῶν περιεχόμενα.
+Τῶν δὲ τετραπλεύρων σχημάτων, τετράγωνον μὲν ἐστιν, ὃ ἰσόπλευρόν τέ ἐστι καὶ ὀρθογώνιον.
 
-> Multilateræ
+> Quadratum eſt equilaterum et rectãgulũ
 
-## Multilateræ figuræ, ſunt quæ ſub pluribus quàm quatuor rectis lineis comprehenduntur. 23
+## 30 Quadrilaterarum autem figurarum, quadratũ quidem eſt, quod & æquilaterum & rectangulum eſt.
 
-Quæ quidem multilateræ figuræ, longè faciliorẽ ab angulis, q̃ ab ipſa laterũ multitudine, ſortiuntur nomẽclaturã: vtpote, pentagona, hexagona, heptagona, octogona, &c. Sunt enim in rectilinea quacunq̃ figura tot anguli, quot & latera. Cùm autem omnis multilatera figura immediate reſoluatur in trilateras, vel partim in trilateras, partim verò in quadrilateras: ſubiungit propterea primùm trilaterarũ, deinde quadrilaterarum figurarum, tum ab ipſis lateribus, tum ab angulis ſumpta diſcrimina. Omnis itaque trilateræ figuræ, aut tria latera ſunt adinuicem æqualia, vel duo tantùm, aut nulla.
+> Radix quadrati.
 
-> Trilaterarũ figurarũ à lateribus diſcrimina.
+*[diagram: h k]*
 
-Τῶν δὲ τριπλεύρων σχημάτων, ἰσόπλευρον μὲν τρίγωνόν ἐστι, ὃ τρεῖς ἴσας ἔχον πλευράς.
+Veluti quadratum h. Omnnis itaq̃ quadrati vnumquodque latus, radix eiuſdem indifferenter adpellatur. Fit enim quadratum, ex data linea recta abſtractiuè in ſeipſam rectiſſimè ducta: quemadmodùm numerus in ſeipſum ductus, quadratum efficit numerum.
 
-## Trilaterarum porrò figurarum, æquilaterũ eſt triangulum, quod tria continet æqualia latera. 24
+> Quatuor ſequẽtia ſunt parallelogrammata
 
-Veluti ſubſcripta in exemplum trianguli figura a/ & quæ illi ſimiles.
+Επρόμηκες δὲ, ὃ ὀρθογώνιον μὲν ὀυκ ἰσόπλευρον δὲ.
 
-Ισοσκελὲς δὲ, ὃ τὰς δύο μόνας ἴσας ἔχον πλευράς.
+## 31 Altera parte longius, eſt quod rectangulum quidem, at æquilaterum non eſt.
 
-> Iſosceles
+Quemadmodũ ſupraſcripa figura k, quoad angulorum rectitudinem conueniẽs cum ipſo quadrato, diſſidens autem ex parte laterum.
 
-## Iſoſceles autẽ, eſt quod ſub binis tantũ ęqualibus lateribus cõtinet. 25
+Ρόμβος δὲ, ὃ ἰσόπλευρον μὲν οὐκ ὀρθογώνιον δὲ.
 
-Cuiuſmodi ſunt triangula b,c,d, ad clariorem ſingulorum euidentiam depicta.
+> Rhombus
 
-Σκαληνὸν δὲ, ὃ τὰς τρεῖς ἀνίσας ἔχον πλευράς.
+## 32 Rhombus, eſt quæ æquilatera, at rectangula non eſt.
 
-> Scalenum
+*[diagram: l m]*
 
-## Scalenum verò, eſt quod ſub tribus inæqualibus lateribus continetur. 26
+Cuiuſmodi eſt figura l. Cõuenit itaque rhombus cum ipſo quadrato, in ſola laterũ æqualitate: habet enim duos obtuſos, & totidem acutos angulos, quatuor rectorum ſimul efficientes quantitatem.
 
-Vt obiecta e,f,g, triangula: & quæ ſunt eiuſcemodi. Ab angulis autem totidem differentias nanciſcũtur ipſa triangula. Omnis ſiquidem trianguli, vel tres anguli ſunt acuti, vel vnus rectus & cæteri duo acuti, aut denique vnus obtuſus & reliqui itidem acuti: duos enim rectos aut duos obtuſos, vel vnum rectũ & vnum obtuſum angulũ in triangulo offendere nõ eſt poſſibile. Hanc igitur angularem trilaterarum differentiam, ita ſubſcribit Euclides,
+Ρομβοειδὲς δὲ, τὸ τὰς ἀπεναντίον πλευράς τε καὶ γωνίας ἴσας ἀλλήλαις ἔχον, ὃ ουτε ἰσόπλευρόν ἐστιν, ὄυτε ὀρθογώνιον.
 
-*[diagram: TRIANGULA — Aequilatera a; Rectangula b; Iſoſceles c; Scalena e, f; Amblygonia d, g]*
+> Rhomboides
+
+## 33 Rhomboides verò, eſt quæ ex oppoſito latera & angulos habens æquales, neque æquilatera, neque rectangula eſt.
+
+> Parallelogramma.
+
+Quemadmodùm ſuprà depicta figura m/ repræſentat. Súntque hæc omnia nuper enarrata quadrilatera, parallelogramma: id eſt, quorum oppoſita latera ſunt adinuicem parallela, ſeu æquidiſtantia. Neque plures quadrilaterarum & regularium figurarum contingit inueniri differentias: hinc dicit Euclides,
+
+Τὰ δὲ παρὰ ταῦτα τετράπλευρα, τραπέζια καλείσθω.
+
+> Trapezia
+
+## 34 Præter hæc autem reliqua quadrilatera, trapezia adpellantur.
+
+a.iiij.

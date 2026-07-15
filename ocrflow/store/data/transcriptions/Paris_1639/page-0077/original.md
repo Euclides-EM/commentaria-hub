@@ -1,50 +1,40 @@
-# Page 76
+# Page 77
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
+
+costez chacun au sien, & la base plus grande que la base ; ils auront aussi l'angle contenu d'iceux plus grand que l'angle.
 
 (figure)
 
-*Req. à demonſtr.*
+*Hypoth.*
 
+ab 2|2 de, α
+ac 2|2 df, α
 bc 3|2 ef.
 
-*Preparation.*
+*Requis à demonſtr.*
 
-23.1 | ∠edg 2|2 bac,
-3.1 | dg 2|2 ac,
-1.p.1 | eg & fg *ſnt* ——.
+∠bac 3|2 ∠edf.
 
-*Demonſt. du 1.cas.*
+*Demonſtr.*
 
-hyp. | de 2|2 ab,
-conſtr. | dg 2|2 ac,
-conſtr. | ∠edg 2|2 ∠a,
-4.1 | eg 2|2 bc, α
-hyp. | df 2|2 ac,
-conſtr. | dg 2|2 ac,
-1.a.1 | df 2|2 dg, β
-5.1 | ∠dfg 2|2 ∠dgf,
-9.a.1 | ∠dgf 3|2 ∠egf,
-1.a.d | ∠dfg 3|2 ∠egf,
-9.a.1 | ∠efg 3|2 ∠dfg,
-1.a.e | ∠efg 3|2 ∠egf,
-19.1 | eg 3|2 ef,
-concl. α.1.a.d | bc 3|2 ef.
+ſuppoſ. | ∠bac 2|2 ∠edf,
+α.4.1 | bc 2|2 ef,
+*contr. hypoth.*
+ſuppoſ. | ∠bac 2|3 ∠edf,
+α.24.1 | bc 2|3 ef,
+*contr. hypoth.*
+conel. 21.a.1 | ∠bac 3|2 ∠edf.
 
-(figure)
+THEOR. XVII. PROPOS. XXVI.
 
-*Demonſtr. du 2.cas.*
+Si deux triangles ont deux angles égaux à deux angles, chacun au sien, & vn costé égal à vn costé; sçauoir est, ou celuy qui est adjacent à iceux angles égaux, ou bien celuy qui soustient l'vn d'iceux angles égaux : ils auront les autres costez égaux aux autres costez, chacun au sien, & l'autre angle égal à l'autre angle.
 
-9.a.1 | eg 3|2 ef,
-α | bc 2|2 eg,
-concl. 1.a.d | bc 3|2 ef.
+*Hypoth. commune.*
 
-*Demonſtr. du 3.cas.*
+∠e 2|2 ∠b,
+∠dge 2|2 ∠acb.
 
-11.1 | eg + dg 3|2 ef + df,
-β | dg 2|2 df,
-concl. 5.a.1 | eg Ⅱ bc 3|2 ef.
+*Hypoth. 1.*
 
-THEOR. XVI. PROPOS. XXV.
-
-Si deux triangles ont deux costez égaux à deux
+eg 2|2 bc.

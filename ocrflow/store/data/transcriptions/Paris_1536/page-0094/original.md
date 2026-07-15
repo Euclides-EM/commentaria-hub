@@ -1,33 +1,31 @@
-# LIBER III.
+# GEOMET. ELEMENT.
 
-> 77
+> 78
 
-per octauæ cómunis sententiæ conuersionem. Conueniente autem recta c/d/ ipsi a/b, conueniet & c/f/d/ circunferentia ipsi a/e/b: & illi consequenter erit æqualis. Tunc enim super eadem recta & communi linea a/b/vel c/d, duæ circulorum sectiones constituentur similes:igitur & æquales, per vigesimam tertiam huius. Aequalis est igitur a/e/b/ipsi c/f/d. ¶Quòd si non fueris contentus hac demonstratione, & dixeris forsan circunferentiam c/f/d, ipsi a/e/b/ minimè conuenire:tunc vel altera alteram secabit, vel vna cadet intra reliquam. Secent se primùm (si possibile sit) in puncto g. Et quoniam se secant iam, in communibus pũctis a, b/vel c, d:secabunt sese inuicẽ circuli, quorũ sunt sectiones, in pluribus duobus pũctis. quod per decimam huius tertij, est impossibile. Quòd si vna ceciderit intra reliquam, vtpote c/f/d/intra a/e/b:idẽ quod in proxima sequetur inconueniẽs, velut ex ipsa potes elicere figura.
+in eadem parte angulos, duobus rectis minores: conuenient igitur a/e/& b/d/in rectum productæ, per quintum postulatum. conueniãt ergo ad punctum e: & connectatur e/c/ recta, per primum postulatum. Cùm igitur angulus e/a/b, æquus sit angulo a/b/e:æqualis est a/e, ipsi e/b, per sextam primi. Rursum quoniam a/d, ipsi d/c/ est æqualis, & d/e/ vtrique communis: bina igitur latera a/ d/ & d/e/ trianguli a/d/e, binis lateribus e/d/& d/c/trianguli e/d/c, sunt æqualia alterũ alteri: & æquales comprehendunt angulos, nempe rectos qui circa d. Basis igitur e/c, basi a/e, per quartam primi est æqualis. Eidem porrò a/e, æqualis ostensa est e/b:tres igitur a/e, e/b, & e/c, sunt adinuicem æquales. Quare rursum, ex nona huius tertij, punctum e/centrum erit circuli, cuius a/b/c/est sectio. ¶Quòd si idem angulus b/a/d, maior extiterit ipso d/b/a:idem respondenter concludetur. Dato enim rursum angulo b/a/e, ipsi d/b/a, per vigesimam tertiam primi, æquali:cõcludemus (veluti suprà) ex sexta primi, e/b/fore æqualem ipsi a/e:ac eidem a/e, ipsam e/c, per quartam ipsius primi, consequenter æquari. Et proinde punctum e, centrum erit circuli/cuius a/b/c/ est sectio:per nonam huius tertij.
 
-> Alia eiusdem theorematis ostensio.
+*[diagram: a b d c e]*
 
-*[diagram: e f a b c d]*
+> Tertia differentia.
 
-*[diagram: e g f — ac bd ac bd]*
+*[diagram: b e a d c]*
 
-Exterior enim angulus qui ad f, trianguli c/f/b/ aut c/f/d, maior erit intrinseco & ex opposito qui ad e, per decimãsextã primi:ac eidem æqualis, per similiũ sectionũ diffinitionẽ, quod non est possibile. Congruit itaque circunferentia c/f/d, ipsi a/e/b: quemadmodùm & recta c/d/ipsi a/b. quæ autem sibimetipsis conueniunt, æqualia sunt adinuicem:per octauam cómunem sententiam. Aequalis est igitur sectio a/e/b, ipsi c/f/d. Igitur super æqualibus rectis lineis, similes circulorum sectiones cõstitutæ, sibi inuicem sunt æquales. Quod receperamus ostendendum.
+## Corollarium.
 
-Γρόβλημα γ, Γρόθεσις κε.
+¶Hinc fit manifestũ, in semicirculo angulum b/a/d, fore æqualẽ ipsi d/b/a:in sectione autẽ semicirculo minore, minorẽ:& in maiore maiorẽ.
 
-Κύκλου τμήματος δοθέντ⊕, προσαναγράψαι τὸρ κύκλορ οὗπερ ἐςὶ τμῆμα.
+¶EST ET ALIVS modus vniuersalis inueniendi præfatũ centrũ, cuicunq; sectioni datæ indifferenter adcommodus. Assumantur itaque in data circunferentia siue sectione a/b/c, tria vtcunque contingentia puncta: sint'q; a, b, c. Connectantur deinde a/b, & b/c/rectæ, per primum postulatum. vtraq; postmodùm bifariam diuidatur, per decimã primi:a/b/quidem in puncto d, & b/c/ in puncto e. A punctis autem d/& e, in easdem a/b/& b/c, perpendiculares excitentur d/f/& e/f, per vndecimam eiusdem primi. Cùm igitur vterque angulorum b/d/f/& b/e/f/sit rectus:recta quæ ex puncto d/in pũctũ e/producetur, vtrũq; diuidet angulum. quæ cùm incidat in d/f/& e/f/rectas, efficiet propterea interiores & in eadem parte angulos d/e/f/ & e/d/f/ duobus rectis minores. Cõcurrent igitur d/f/& e/f/productæ, per quintum postulatum, & sese tandem intersecabunt in eodem puncto f. Et quoniam recta quædam linea d/f, quandam rectam lineam a/b, bifariam & ad rectos dispescit angulos:in ipsa igitur d/f/est centrũ circuli. & proinde in e/f/recta, erit eiusdem circuli centrum:per corollarium primæ huius tertij. Est igitur cẽtrũ circuli, cuius sectio est a/b/c, in puncto f, vtriq; & d/f/& e/f/cómuni. Data igitur circuli sectione a/b/c, describitur circulus cuius est sectio. Quod oportuit ostẽdisse.
 
-## Problema 3, Propositio 25.
+> Alia & vniuersalior eiusdẽ problematis ostensio.
 
-CIrculi sectione data:describere circulum, cuius est sectio.
+*[diagram: b d e f a c]*
 
-ORONTIVS. ¶Esto data circuli sectio a/b/c, cuius centrum oporteat inuenire:hoc est, circulum cuius est sectio describere. Secetur itaque a/c/recta bifariam in puncto d, per decimam primi. & per vndecimam eiusdem primi, à puncto d/ipsius a/c/rectæ lineæ, perpendicularis excitetur d/b:& cõnectatur a/b/ recta, per primum postulatum. Triangulum erit igitur a/b/d: cuius angulus b/a/d, ipsi angulo d/b/a/erit æqualis, aut eo minor, vel eodẽ angulo maior. Si æqualis (vt in hac prima figura) æqualis erit a/d, ipsi d/b, per sextã primi. Eidem porrò a/d, æqualis est d/c, per constructionem: & d/b/igitur ipsi d/c, per primam communem sententiam erit æqualis. Tres itaque a/d, d/b, & d/c, erunt inuicem æquales. Cadet ergo à puncto d, in circũferentiã a/b/c, plures quàm duæ rectæ lineæ æquales:erit igitur punctum d, centrum circuli, cuius a/b/c/est sectio, per nonam huius tertij. ¶At si angulus b/a/d, minor fuerit angulo d/b/a (vt in secunda figuræ dispositione) cõstituatur ad datum punctum a/datæ rectæ lineæ a/b, dato angulo rectilineo d/b/a, æqualis angulus rectilineus b/a/e: per vigesimamtertiam primi. Et quoniam trianguli a/b/d, angulus qui ad d/rectus est:igitur & qui ad b/ minor est recto, per trigesimamsecundam primi. Angulo autẽ d/b/a, datus est æqualis b/a/e:& b/a/e/igitur angulus recto minor est. incidit itaq; recta linea a/b, in a/e/& b/d/rectas, efficiens interiores &
+Θεώρημα κγ, Γρόθεσις κς.
 
-> Prima huius ostẽsionis differentia.
+Εν τοῖς ἴσοις κύκλοις αἱ ἴσαι γωνίαι ἐπὶ ἴσωρ περιφερειῶρ βεβήκασι, ἐάντε πρὸς τοῖς κέντροις, ἐάντε πρὸς ταῖς περιφερείαις ὦσι βεβηκῦαι.
 
-*[diagram: b a d c]*
+## Theorema 23, Propositio 26.
 
-> Secunda differentia.
+IN æqualibus circulis æquales anguli, in æqualibus circunferentijs subtenduntur: etsi ad centra, etsi ad circunferentias deducti fuerint.
 
-*[diagram: b a d c e]*
-
-g.iij.
+ORONTIVS. ¶Sint bini circuli a/b/c/d/ & e/f/g/h/ inuicem æquales:in qui-

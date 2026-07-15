@@ -1,15 +1,17 @@
-# Page 448
+# Page 449
 
 # DE LA GNOMONIQVE.
 
-nuë la construction, comme en la precedente, ayant mené DN perpendiculaire à CTA, on aura le quadrant requis, qui aura PZ pour la ligne de 5 heures, AC pour 6 heures, LI pour 7 heures, &c.
+ction de la ligne equinoctiale SQ, & de la meridienne AR : Finalement les lignes droictes menées du centre G aux poincts des diuisions du cercle HEL, vous donneront en la ligne equinoctiale SQ des poincts, ausquels si vous tirez des lignes droites du centre A, le quadrant sera acheué, qui doit auoir pour stile oblique la ligne AB, tirée du centre A au sommet de CB, perpendiculaire au plan du quadrant au poinct C.
 
-Il faut operer de mesme pour descrire vn quadrant en la face occidentale du meridien.
+SCHOLIE I.
 
-Propos. 6. pag. 759.
+Si la declinaison est Zephyr-boreale la ligne DE, qui fait l'angle de declinaison auec CD, deura estre vers H.
 
-*Descrire vn quadrant sur vn plan vertical, dont la declinaison Zephyr-Australe soit, par exemple, de 46 degrez.*
+SCHOLIE II.
 
-(figure)
+Ce quadrant declinant se pourra faire sans obseruer la declinaison du plan proposé, si à l'heure de midy on obserue l'extremité de l'ombre du stile CB perpendiculaire au plan du quadrant, qui donnera en la meridienne AR vn poinct : par exemple en R, duquel tirant RA perpendiculaire à l'horizontale HF, on aura la meridienne AR : puis faisant EF égale à la distance du poinct E iusques au sommet du stile perpendiculaire CB, & l'angle EFA égal à l'esleuation du pole, FA couppant la meridienne RA donnera le centre A, duquel ayant tiré la substilaire ACG, & fait CB perpendiculaire à AG, & égale à la longueur du stile, continuant l'operation comme cy dessus, on acheuera le quadrant.  Or cette methode de faire vn quadrant, estant donné le stile perpendiculaire, & l'extremité de son ombre meridienne, est generale, & se peut practiquer en toute sorte de quadrans.  Et se pourra trouuer l'heure de midy bien seurement, sans l'aide d'aucun quadrant ny monstre, en mettant vn stile perpendiculaire en vn plan horizontal, & trouuant la ligne meridienne par la methode que nous auons donnée en la 26 propos. du 5 tome, page 728.
 
-Sur le plan proposé ayant tiré DT perpendiculaire à l'horizon, & HF qui la coupe à angles droits en C ; prenez CD de telle grandeur que vous voudrez, pour la longueur du stile perpendiculaire, & faites l'angle CDE égal à la declinaison donnée, à sçauoir de 46 degrez ; puis ayant esleué REA perpendiculaire sur HF, vous ferez EF égale à ED, & l'angle EFA égal à l'esleuation du pole, à sçauoir de 48 deg. 40′, qui vous donnera en la meridienne RA, le poinct A pour le centre du quadrant requis : ce faict, du centre A par le pied du stile C menez la substilaire ACG, & du poinct C esleuez CB égale à CD, & perpendiculaire à AG, puis faites BO perpendiculaire à la ligne AB, & aussi SQ à la ligne AG, & OG égale à OB, & diuisez le cercle GHL, descrit à discretion du centre G, en 24 parties égales, commençant à la ligne GL, qui passe par le poinct R, qui est l'interse-
+Propos. 7. pag. 762.
+
+*Descrire vn quadrant en la face Occidentale d'vn plan incliné vers l'Orient, d'vn angle de 30 degrez*

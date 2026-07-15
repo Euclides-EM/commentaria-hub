@@ -1,15 +1,22 @@
-# Page 351
+# Page 352
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-par 3, 4, & 5, tels que sont 60 & 120 : & parce que l'operation se faict plus facilement auec les plus petits, ie suppose que 60 soit le nombre requis, lequel ie diuise par 3, 4, & 5, & les quotiens sont 20, 15, & 12, que i'adiouste ensemble & trouue 47, qui n'est pas le nombre donné 4700 : partant pour auoir le requis ie dis, si 47 vient de la supposition de 60, de quelle supposition viendra 4700, & faisant la regle de trois ie trouue 6000, qui est le nombre requis pour lequel i'auois supposé. Car si on diuise 6000 par 3, 4, & 5, les quotiens seront 2000, 1500, & 1200, qui adioustez ensemble font 4700.
+Pour sçauoir en combien de temps il les pourra faire moudre, ie suppose 30 heures & trouue que le premier moulin en 30 heures en moudra 60 boisseaux, le second 45, le troisiesme 40, & le quatriesme 36, qui adioustez ensemble font 181 ; partant ordonnant la regle de trois ainsi, si
 
-*Exemple 3.*
+181 —— 30 *h.* —— 200. R. 33 27/181.
 
-Vn homme mourant & laissant sa femme grosse, luy donne par testament, si elle accouche d'vne fille, les ⅔ de son bien, qui valoit 1400 liures, & à la fille ⅓ : & si elle accouche d'vn fils, il veut que le fils aye les ⅔ & la mere ⅓ : mais elle a accouché d'vn fils & d'vne fille, sçauoir combien appartient à chacun selon le vouloir du testateur.
+on trouuera 33 27/181, qui font 33 heures & prés de 9 minutes d'heure.
 
-Si on suppose 2 liures pour la fille, la mere en aura 4, & le fils 8, qui ensemble feront 14 liures : Partant on dira, si 14 vient de la supposition de 2, de quelle supposition viendra 1400 liures ; faisant la regle de trois on trouuera 200 liures pour la fille, & par consequent la mere en aura 400, & le fils 800, qui ensemble font 1400 liures.
+Pour sçauoir combien il faut donner à chaque moulin, on ordonnera les regles de trois comme s'ensuit :
 
-*Exemple 4.*
+181 { 60 —— 200 { 66 54/181,
+45 —— 49 131/181,
+40 —— 44 36/181,
+36 —— 39 141/181.
 
-Vn homme voulant faire moudre 200 boisseaux de bled va à vn meusnier qui a quatre moulins, le premier desquels peut moudre en vne heure 2 boisseaux : le second, en 2 heures 3 boisseaux : le troisiesme, en 3 heures 4 boisseaux ; & le quatriesme, en 5 heures 6 boisseaux : sçauoir en combien de temps il les pourra faire moudre en les distribuant à tous les moulins, & combien il faudra donner à chaque moulin ?
+*La somme est 200 boisseaux.*
+
+DE LA REGLE DE DEVX *fausses positions.*
+
+Il faut supposer deux fois pour le mesme nombre incognu, en faisant la seconde supposition plus grande que la premiere, & marquer l'excez par le signe de plus, & le defaut par le signe de moins : puis soit mise au premier lieu de la regle de trois la somme ou la difference des erreurs, à sçauoir la somme, si les signes sont differens, & la difference s'ils sont semblables : au second lieu de la regle de trois on mettra tousiours le premier erreur, & au troisiesme la difference des nombres supposez. Et le nombre qu'on trouuera par la regle de trois estant adiousté auec le nombre de la premiere supposition, donnera tousiours le requis, si les erreurs estant marquez par mesme signe le second n'est plus grand que le premier : car en ce cas il faudra soustraire le nombre trouué par la regle de trois du nombre de la premiere supposition.

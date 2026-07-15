@@ -1,5 +1,3 @@
-*[spine of the binding, red leather with gilt lettering and ornaments]*
+*[blank page]*
 
-# FINEVS IN SEX PRIORES LIBROS EVCLIDI
-
-## PARISIIS. 1536
+*[photograph of the book edge (text block), no text]*

@@ -1,29 +1,38 @@
-# Page 250
+# Page 251
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-cubiquement: & ce faisant on trouuera que la raison de 2 à 3 estant multiplié par 2 fait la raison 4 à 9: & estant multiplié par 3, elle fait la raison de 8 à 27.
+tient huict fois autant qu'vn sac d'vne aulne, pourueu qu'ils soient semblables, c'est à dire de pareille forme: & aussi que le tonneau ou muid qui sera faict de deux muids, y employant toutes les douues de longueur, contiendra autant que 4 muids.
 
-*Raiſons continuës du 1.exemple.*
+THEOR. I. PROPOS. I.
 
-4. 6. 9.
+Les triangles & les parallelogrammes qui ont mesme hauteur, sont entr'eux comme leurs bases.
 
-*Raiſons continuës du 2.exemple.*
+(figure)
 
-8. 12. 18. 27.
+*Hypoth.*
 
-*De la diuiſion.*
+abc & acd *ſont* △;
+bcae & cdfa *ſont* ◊;
+eaf == hci,
+bc & cd *ſont baſes.*
 
-Diuiser est trouuer la raison du premier au second, estant donnée la raison des extrémes de plusieurs nombres continuellement proportionnaux: & se fait en prenant les racines denommées du diuiseur. C'est à dire, que pour diuiser par 2, il faudra extraire les racines quarrées de deux termes de la raison donnée: pour diuiser par 3, on deura prendre les racines cubes, & ainsi des autres: ce faisant on trouuera que la raison de 4 à 9 estant diuisée par 2, fait la raison de 2 à 3: & la raison de 8 à 27, estant diuisée par 3, donne aussi la mesme raison de 2 à 3.
+*Req. à demonſtrer.*
 
-*Raiſons continuës du 1.exemple.*
+△abc π △acd 2|2 bc π cd,
+◊acbe π ◊acdf 2|2 bc π cd.
 
-4. 6. 9.
+*Preparation.*
 
-*Raiſons continuës du 2.exemple.*
+3.1 | cb, bg, gh *ſont* 2|2 đe. di 2|2 de. α
+1.p.1 | ag, ah, ai *ſont* ——.
 
-8. 12. 18. 27.
+*Demonſtr.*
 
-SCHOLIE.
-
-A cause que la raison des lignes homologues de deux corps semblables est contenu deux fois en la raison des superficies des mesmes corps, & trois fois en la raison des soliditez de la multiplication & diuision des raisons s'ensuit, que si le diametre d'vne boule est contenu dix fois, par exemple, dans le diametre d'vne autre boule, que la superficie de la plus petite boule sera contenuë 100 fois dans la superficie de la plus grande: & la solidité de la plus petite 1000 fois dans la solidité de la plus grande. Il s'ensuit aussi qu'en vn pain de huict sols il y a quatre fois autant de crouste qu'en vn pain d'vn sol: & qu'vn sac de 4 aulnes con-
+α.38.1 | △acb, △abg, △agh *ſont* 2|2 đe.
+α.38.1 | △acd 2|2 △adi,
+nota 38.1 | hc, 2, 3, 4 | 3, ci,
+| △ach, 2, 3, 4 | 3, △aci,
+1.concl. 6.d.5 | △abc π △acd 2|2 bc π cd, γ
+41.1 | ◊ce 2|2 2△acb, ◊cf 2|2 2△acd,
+2 concl. γ.15.5 | ◊ce π ◊cf 2|2 △acb π △acd Ⅱ bc π cd.

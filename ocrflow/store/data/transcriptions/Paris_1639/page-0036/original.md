@@ -1,31 +1,34 @@
-# Page 35
+# Page 36
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-# PETITIONS OV DEMANDES.
+IV.
 
-I.
+Semblablement quelconque grandeur estant donnée, pouuoir prendre vne autre plus grande ou plus petite.
 
-Soit demandé, de tout poinct donné, à tout autre poinct donné, mener vne ligne droicte, soit concedé.
+La 4. demande a esté adjoustée par Clauius aux trois precedentes, qui sont d'Euclide
 
-(figure) | 1.p.1 | ab *eſt* —— .
+# COMMVNES NOTIONS, AXIOMES *ou Sentences, qui s'appellent auſſi Maximes.*
 
-Comme s'il faut tirer vne ligne droicte du poinct A au poinct B, Euclide suppose que cela se puisse faire, & ne donne pas la methode de la tirer.
+1. a. 1.
 
-II.
+Les choses égales à vne mesme, sont aussi égales entr'elles.
 
-Et de prolonger directement vne ligne droite donnée & terminée.
-
-(figure) | 2.p.1 | abc *eſt* ——.
-
-Icy Euclide demande, qu'il luy soit concedé, qu'on puisse continuer vne ligne directement, comme la ligne AB iusques en C.
-
-III.
-
-Semblablement de quelconque centre & interualle descrire vn cercle.
+hyp. | ab 2|2 ef,
+hyp. | cd 2|2 ef,
+1.a.1 | ab 2|2 cd.
 
 (figure)
 
-2.p.1 | fda *eſt* ⊙.
+Les six axiomes suiuants distinguez par les lettres b, c, d, e, f, g, se rapportent à ce premier ; & ne sont pas d'Euclide, non plus que les autres qui sont distinguez par lettres.
 
-Comme s'il faut descrire le cercle FDA du centre F, & interualle FD, Euclide veut qu'on luy concede, que cela se puisse faire.
+1. a. b.
+
+Les choses égales aux choses égales, sont aussi égales entr'elles.
+
+hyp, | c 2|2 d,
+hyp. | a 2|2 c,
+hyp. | b 2|2 d,
+1.a.b, | a 2|2 b.
+
+(figure)

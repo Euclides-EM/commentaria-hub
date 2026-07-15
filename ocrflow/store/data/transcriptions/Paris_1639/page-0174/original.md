@@ -1,37 +1,29 @@
-# Page 173
+# Page 174
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-COROLL. IV.
+(figure)
 
-Il est finalement euident, que si deux lignes droites égales, sont menées de quelconque poinct à la circonference conuexe, & que l'vne d'icelles touche le cercle, l'autre aussi le touchera.
+*Preparation.*
 
-*Hypoth.*
-
-ab 2|2 ac,
-ac *touche le* ⊙bdc.
-
-*Req. à demonſtr.*
-
-ab *touche le* ⊙bdc.
+27.3 | df *touche le* ⊙abf,
+1.p.1. | ed,eb,ef *ſnt* ——.
 
 *Demonſtr.*
 
-ſuppoſ. | ad *touche le* ⊙bdc,
-2.c.36.3 | ad 2|2 ac,
-hyp. | ab 2|2 ac,
-3.a.1 | ab,ad,ac *ſnt* 2|2 đe.
-*contr. 8. 3.*
+36.1 | □.df 2|2 ▭,adc,
+hyp. | □.db 2|2 ▭.adc,
+1.a.1 | □.df 2|2 □.db,
+ſ.46.1 | df 2|2 db,
+15 d.1 | eb 2|2 ef,
+ed *eſt commun.*
+8 1 | ∠ebd 2|2 ∠efd. α
+18.3. | ∠efd *eſt* ┘,
+12.a.b | ∠ebd *eſt* ┘,
+c.16.3 | db *touche le* ⊙abf.
 
-THEOR. XXXI. PROPOS. XXXVII.
+*Coroll.*
 
-Si hors le cercle on prend quelque poinct, & d'iceluy poinct, tombent au cercle deux lignes droictes, vne desquelles couppe le cercle, & l'autre l'atteint: Et que le rectangle contenu sous toute la couppante, & sa partie de dehors, prise entre le poinct & la circonference conuexe, soit égal au quarré de l'atteignante, icelle atteignante touchera le cercle.
+α.8.1 | ∠edb 2|2 ∠edf.
 
-*Hypoth.*
-
-ebf *eſt* ⊙,
-▭.adc 2|2 □.db.
-
-*Requis à demonſtr.*
-
-db *touche le* ⊙abf.
+(ornament)

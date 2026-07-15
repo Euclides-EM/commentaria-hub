@@ -1,23 +1,23 @@
-# Page 25
+# Page 26
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-Toutes les figures planes encloses de tous costez de lignes droites, sont appellées figures Rectilignes, & aussi Polygones : d'où il appert que les figures planes enuironnées des lignes courbes sont appellées Curuilignes : mais celles qui sont circonscrites en partie de lignes droites, & en partie de courbes, sont appellées Mixtes.
+poursuiure ceste infinité, il appelle toutes autres figures rectilignes, circonscrites de plus de quatre lignes, d'vn nom general Multilateres.
+
+XXIII.
+
+Or des figures trilateres, celle qui a trois costez égaux, s'appelle triangle Equilateral, comme A.
 
 (figure)
 
-Comme la figure A est rectiligne : B, curuiligne : & C est mixte.
+XXIV.
 
-XX.
+Mais le triangle Isoscele est, celuy qui a seulement deux costez égaux, comme le triangle B.
 
-Figures Trilateres sont, celles qui sont contenuës sous trois costez.
+(figure)
 
-XXI.
+XXV.
 
-Les figures Quadrilateres sont, celles qui sont contenuës sous quatre costez.
+Et le Scalene qui a les trois costez inégaux, comme le triangle DIE.
 
-XXII.
-
-Les figures Multilateres, ou de plusieurs costez, sont celles qui sont contenuës sous plus de quatre lignes droites.
-
-Les especes des figures rectilignes sont innumerables, à cause du progrez infiny des nombres : car trois lignes droites enuironnant vne figure, constituent la premiere espece : quatre lignes droites, la seconde espece : cinq lignes droites, la troisiesme espece, & ainsi de suite à l'infiny. Or Euclide afin de n'estre contraint de
+(figure)

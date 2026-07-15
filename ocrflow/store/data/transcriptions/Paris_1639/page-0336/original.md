@@ -1,22 +1,34 @@
-# Page 335
+# Page 336
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-DE LA REGLE DE TROIS *inuerse des fractions.*
+Vne toise contient en longueur 72 poulces, & en quarré 5184 poulces. Vne aulne contient en longueur 43⅔ poulces, & en quarré 17161/9 poulces ; partant on dira, si
 
-Il faut multiplier les numerateurs de la premiere & seconde fraction, & le denominateur de la troisiesme l'vn par l'autre, & du produict en faire vn numerateur : puis on multipliera les denominateurs de la premiere & seconde fraction, & le numerateur de la troisiesme aussi l'vn par l'autre, & du produict on fera vn denominateur, par lequel on diuisera le numerateur, si faire se peut, sinon on mettra vne ligne entre deux pour auoir le requis en fraction.
+5184 —— 22 X 17161 | 1026432/17161 (59 13933/17181.
+1 —— 1   9
 
-*Exemple 1.*
+multipliãt 5184, 22 & 9 l'vn par l'autre viẽdra 1026432, puis multipliant 1, 1, & 17161 vient 17161, par lequel diuisant 1026432 vient au quotient 59 13933/17161 ou 59 3/4 toises qu'il faut pour tapisser ladite chambre.
 
-Si de l'estofe qui a 3/4 d'aulne de large il faut 10 aulnes pour faire vn habit, sçauoir combien il en faudra de celle qui aura 5/6 de large pour faire le mesme habit.
+*Preuues des regles de trois tant directe qu'inuerse.*
 
-Ordonnant ainsi la regle, on multipliera 3, 10 & 6 l'vn
+La preuue de la regle de trois se doit faire par le moyen d'vne autre regle de trois : disant, si le troisiesme donne le quatriesme, combien le premier : si on trouue le second, il n'y auoit point d'erreur en la regle.
 
-3 —— 10 *auln.* X 5 | 180/20 (9 *aulnes*.
-4 —— 1   6
+*Exemple de la directe.*
 
-par l'autre, & viendra 180 pour le numerateur, puis on multipliera 4, 1 & 5 l'vn par l'autre, & viendra 20 pour denominateur, par lequel diuisant 180, on trouuera 9 aulnes pour le requis.
+si 4 donnent 6, combien donneront 10. R. 15.
 
-*Exemple 2.*
+Pour sçauoir s'il n'y a point d'erreur, on dira, si
 
-S'il faut 22 toises de natte pour natter vne chambre, sçauoir combien d'aulnes de tapisserie il faudra pour tapisser la mesme chambre ?
+10 donnent 15, combien donneront 4. R. 6.
+
+que si on trouue 6, qui est le second nombre de la precedente, il n'y aura point d'erreur en la precedente.
+
+*Exemple de l'inuerse.*
+
+si 5 donnent 12, combien donneront 10. R. 6.
+
+Pour sçauoir s'il n'y a point d'erreur, on dira, si
+
+10 donnent 6, combien donneront 5. R. 12.
+
+Si on trouue 12, qui est le second nombre de la precedente, il n'y aura point d'erreur en la precedente.

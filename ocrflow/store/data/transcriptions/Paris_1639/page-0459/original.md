@@ -1,13 +1,13 @@
-# Page 458
+# Page 459
 
 # DE LA GNOMONIQVE.
 
-de la 24 heure Italique, & de la 11 1/2 astronomique.  Par la mesme methode on trouuera, que la ligne de la 16 heure Italique doit passer par l'intersection de la ligne equinoctiale & de la 10 heure astronomique : & aussi par l'intersection de la ligne de la 24 heure Italique, & de la 8 heure astronomique : & ainsi continuant on trouuera toutes les lignes horaires Italiques.
+Ordinairement les quadrants Italiques & Babyloniques sont terminez du Septentrion & du Midy par les deux tropiques, de l'Orient par la ligne horaire de la 23 heure Italique, & de l'Occident par la premiere Babylonique.
 
-Pour descrire vn quadrant Babylonique, il faut operer de mesme, en nous seruant des nõbres de la 1 & 3 colomne de la mesme table.
+En la page 717 du 5 tome, nous auons mis vne table pour descrire l'arc diurne du tropique de Cancer en vn quadrant horizontal, & vne autre table en la page suiuante pour descrire celuy de Capricorne : mais afin que ces deux tables puissent seruir à descrire les arcs diurnes en toutes sortes de plans, on attribuera la premiere table au tropique qui sera plus proche du pole du plan du quadrant, & la seconde au tropique qui sera plus esloigné dudit pole.  Et faut aussi noter, que les vsages de ces deux tables presupposent que la ligne substilaire soit la meridienne du quadrant Astronomique : partant, si la substilaire est ligne horaire d'vne autre heure que de midy, pour descrire les arcs des deux tropiques par le moyen desdites deux tables, on attribuera à la substilaire l'heure de midy, & aux autres lignes les heures qu'elles peuuent auoir au respect de 12 heures de la substilaire.
 
-La table precedente est de l'inuention de Maurolicus, & peut seruir à trouuer les lignes horaires des heures Italiques & Babyloniques, qui se peuuent aussi trouuer par celle qui est en la page 705 du 5 tome, en laquelle nous auons mis les heures astronomiques aux lieux de celles qui commencent à midy ou à minuict, afin de retenir par cœur plus facilement les lignes des heures astronomiques, Italiques, & Babyloniques, qui s'entrecoupent en vn mesme poinct : Par consequent la table des heures Babyloniques de la page 708 du 5 tome, que i'ay du depuis osté auec les propositions qui en dependoient, & mis en sa place celle de Maurolicus, estoit inutile, ayant erreur en ses titres, à cause de la transposition de 12 & 24, & aussi de 6 & 24.
+*Des quadrans Antiques.* page 795.
 
-Or les 12 lignes de 24 heures astronomiques couppent la ligne equinoctiale en 11 ou 12 poincts, par chacun desquels passe vne ligne horaire Italique, & vne Babylonique : & n'y aura pas beaucoup de difficulté à distinguer les Italiques des Babyloniques, si on considere que des heures qui arriuent durant le iour, l'vnité, qui est la premiere des Babyloniques, finit vne heure apres le leuer du Soleil : & 24, qui est au haut de la mesme colomne, est la derniere Italique finissant auec le iour.  Et suiuant la suite de ces deux commencements, les heures Babyloniques vont en augmentant, & les Italiques en diminuant.
+(figure)
 
-Que si on descrit les heures Italiques & Babyloniques en vn mesme quadrant, celles qui seront differentes de 12 heures s'entrecouperont en vn mesme poinct de la ligne equinoctiale : & celles qui auront le mesme nombre d'heures, comme la 14 heure Italique & la 14 Babylonique, se trouueront en vne mesme ligne droite, à sçauoir l'Italique en vn bout, & la Babylonique en l'autre bout.
+Les lignes horaires des quadrans antiques couppent la ligne equinoctiale aux mesmes poincts que les lignes horaires astronomiques.  Partant si en la ligne equinoctiale HL, on trouue les poincts des lignes horaires astronomiques, & en l'arc PR du tropique de Capricorne ceux des lignes horaires antiques du plus court iour de l'année,

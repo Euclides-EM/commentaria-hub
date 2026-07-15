@@ -1,57 +1,42 @@
-# Page 94
+# Page 95
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
+
+conſtr. | be 2|2 ec,
+38.1 | △abc 2|2 2△aec,
+41.1 | ◊eg 2|2 2△aec,
+1.concl. 6.a.1 | ◊eg 2|2 △abc,
+2.concl. conſtr. | ∠ecg 2|2 ∠d.
+
+THEOR. XXXII. PROPOS. XLIII.
+
+En tout parallelogramme, les complements des parallelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
 
 (figure)
 
 *Hypoth.*
 
-ae == bc.
-bc *eſt baſe commune.*
+abcd *eſt* ◊,
+ef == bc Ⅱ ad,
+ac *eſt diamet.*
+hgi == ab Ⅱ dc.
 
 *Req. à demonſtr.*
 
-◊abcd 2|2 2△bce.
-
-*Prepar.*
-
-1.p.1 | ac *eſt* ——.
+◊dg 2|2 ◊gb.
 
 *Demonſtr.*
 
-hyp. | ae == bc,
-37.1 | △bca 2|2 △bce,
-34.1 | ◊abcd 2|2 2△bca,
-concl. 6.a.c | ◊abcd 2|2 2△bce.
+34.1 | △acd 2|2 △acb,
+34.1 | △agh 2|2 △age,
+34.1 | △gcf 2|2 △gci,
+concl. 3.a.1 | ◊dg 2|2 ◊gb. α
 
-PROBL. XI. PROPOS. XLII.
+*Coroll.*
 
-Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donné.
+α.2.a.1 | ◊dcih 2|2 ◊febc,
+α.2.a.1 | ◊dfea 2|2 ◊hiba.
 
-(figure)
+PROBL. XII. PROPOS. XLIV.
 
-*Hypoth.*
-
-△abc *eſt* D.
-∠d *eſt* D.
-
-*Req. à faire.*
-
-◊ecgf 2|2 △abc.
-∠ecg 2|2 ∠d,
-
-*Conſtr.*
-
-31.1 | ag == bc,
-23.1 | ∠bcg 2|2 ∠d,
-10.1 | be 2|2 ec,
-31.1 | ef == cg,
-ſymp. | ◊efgc *eſt le req.*
-
-*Prepar.*
-
-1.p.1 | ae *eſt* ——.
-
-*Demonſtr.*
-
-conſtr. | ag == bc,
+Sur vne ligne droicte donnée, descrire vn parallelogramme égal à vn triangle donné, en vn angle rectiligne donné.

@@ -1,25 +1,28 @@
-# Page 133
+# Page 134
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-gnée du centre sur laquelle tombe la plus grande perpendiculaire.
-
-(figure)
-
-V.
-
-Segment ou section de cercle, est vne figure comprise sous vne ligne droicte, & la circonference du cercle.
+dis-je, qui est contenu sous icelles lignes droictes menées.
 
 (figure)
 
-5.d.3 | abc & def *ſnt* ⌓.
+7.d.3 | ∠abc *eſt au ſegment* abc.
 
-VI.
+L'angle au segment est rectiligne, mais celuy du segment n'est pas rectiligne.
 
-L'angle du segment ou de la section, est celuy qui est compris sous vne ligne droicte, & la circonference du cercle.
+VIII.
 
-6.d.3 | cab *eſt* ∠ *du ſegment* ABC.
+Mais quand les lignes droictes qui contiennent l'angle, embrassent quelque circonference, l'angle est dit s'appuyer sur icelle.
 
-VII.
+(figure)
 
-Mais vn angle est au segment ou en la section, lors qu'on prend quelque poinct en la circonference du segment, & d'iceluy sont menées deux lignes droictes sur les extremitez de la ligne droicte, laquelle est la base du segment, & c'est celuy-là,
+L'angle ABC est au segment ABC par la definition precedente, & par cette huictiesme définition il s'appuye ou est opposé à la circonference ADG.
+
+IX.
+
+Secteur du cercle est vne figure, contenuë sous deux lignes droictes qui constituent vn angle au centre, & de la circonference comprise entre icelles lignes.
+
+(figure)
+
+hyp. | d *eſt centre du* ⊙,
+9.d.3 | adb *eſt ſecteur de* ⊙.

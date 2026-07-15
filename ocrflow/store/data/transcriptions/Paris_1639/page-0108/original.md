@@ -1,43 +1,45 @@
-# Page 107
+# Page 108
 
-# D'EVCLIDE, LIV. II.
-
-(figure)
+# LES ELEMENTS
 
 *Hypoth.*
 
 ab *eſt* ——,
-ad & db *ſnt parties de* ab.
+ac & cb *ſnt parties de* ab.
 
-*Requis à demonſtr.*
+(figure)
 
-□.ab 2|2 ▭.bad + ▭.abd.
+*Req. à demonſtr.*
 
-*Prepar.*
+▭.bac 2|2 ▭.bca + □.ac.
 
-46.1 | ag *eſt* □.ab,
-31.1 | df == ac Ⅱ bg. α
+*Preparation.*
+
+46.1 | ad *eſt* □.ac,
+31.1 | bf == cd,
+2.p.1 | edf *eſt* ——.
 
 *Demonſtr.*
 
-conſtr. | ag *eſt* □.ab,
-α.35.d.1 | af & dg *ſnt* ◊,
-2.ſ.29.1 | af & dg *ſnt* ▭;
-3.ſ.1.d.2 | ▭af 2|2 ▭bad,
-3.ſ.1.d.2 | ▭dg 2|2 ▭.abd,
-19.a.1 | □ag 2|2 ▭af + ▭dg,
-concl. 1.a.g | □.ab 2|2 ▭.bad, / + ▭.abd
+α.29.d.1 | ac, ae, cd *ſnt* 2|2 đe.
+2.ſ.29.1 | af *eſt* ▭,
+2.ſ.29.1 | cf *eſt* ▭,
+3.ſ.1.d.2 | ▭af 2|2 ▭.bac,
+3.ſ.1.d.2 | ▭cf 2|2 ▭.bca,
+conſtr. | ad *eſt* □ac,
+19.a.1 | ▭af 2|2 ▭cf + □ad,
+concl. 1.a.g | ▭.bac 2|2 ▭.bca, / + □.ac.
 
 *Explication par nombres.*
 
-hyp. | ad *eſt* 5, α
-hyp. | db *eſt* 2, β
+hyp. | ac *eſt* 2, α
+hyp. | cb *eſt* 5, β
 19.a.1 | ab *eſt* 7, γ
-γ | ag □.ab *eſt* 49.
-γα | af ▭.bad *eſt* 35,
-γβ | dg ▭.abd *eſt* 14,
-19.a.1 | ▭af + ▭dg *ſnt* 49.
+γα | af ▭.bac *eſt* 14,
+βα | cf ▭.bca *eſt* 10,
+α | ad □.ac *eſt* 4,
+19.a.1 | cf + ad *ſnt* 14.
 
-THEOR. III. PROPOS. III.
+THEOR. IV. PROPOS. IV.
 
-Si vne ligne droicte est couppée comme on voudra : le rectangle contenu sous la toute & vne des parties, est égal au rectangle contenu sous icelles parties, & au quarré de la partie premierement prise.
+Si vne ligne droicte est couppée comme on voudra : le quarré de la toute est égal aux quarrez des parties, & a deux fois le rectangle contenu sous icelles parties.

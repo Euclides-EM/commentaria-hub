@@ -1,27 +1,27 @@
-# Page 328
+# Page 329
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-soit composée de l'argent qu'on preste, & de son interest annuel : & parce que le denier 16 signifie 1 pour 16 par an, c'est à dire, que 16 liures auec son interest faict 17 liures par an, ordonnant la regle ainsi : si pour auoir 17 liures au bout de l'an, il faut donner 16 liures, sçauoir cõbien il faut dõner pour auoir 1000 lt. au bout de l'an,
+Par la mesme methode on trouuera, que si quelqu'vn auoit vendu sa marchandise 1000 liures, & qu'il eust gagné 6 pour 1000, qu'elle luy auoit cousté 943 21/53 liures.
 
-17 —— 16 —— 1000 R. 941 3/17.
+*Exemple 11.*
 
-faisant l'operation à l'ordinaire, on trouuera 941 3/17 liures qu'il faut prester, pour auoir 1000 liures au bout de l'an.
+Que si ladite promesse de 1000 liures pour prest, à interest à 6 pour 100, n'est payable que dans 4 ans, pour sçauoir combien on doit prester sur cette promesse, on dira si
 
-*Exemple 9.*
+124 —— 100 —— 1000 R. 806 14/31.
 
-Sçauoir combien on doit prester au denier 16 sur vne promesse de 1000 liures payable dans 4 ans ?
+faisant la regle de trois, on trouuera 806 14/31 liures qu'il faut prester à interest à 6 pour 100 par an, pour auoir 1000 liures au bout de 4 ans.
 
-A cause que la somme 16 liures, auec son interest au denier 16 en 4 ans, monte à 20 liures, ordonnant la regle de trois ainsi, si 20 liures viennent de 16 liures, de combien viendront 1000 liures,
+*Exemple 12.*
 
-20 —— 16 —— 1000 R. 800.
+Si quelqu'vn doit 15000 liures, & n'a vallant que 6000 liures, sçauoir combien de sols les creanciers receuront pour chaque liure de leur deub ?
 
-on trouuera 800 liures, qu'il faut prester à interest au denier 16, pour auoir 1000 liures au bout de 4 ans.
+En cette question il y doit auoir mesme proportion de 20 sols, au nombre des sols qu'auront les creanciers pour chaque liure de leur deub, que de 15000 liures à 6000 liures, partant ordonnant la regle ainsi,
 
-*Exemple 10.*
+15000 —— 6000 —— 20 ſ. R. 8 ſ.
 
-Si l'interest est à 6 pour 100 par an, pour sçauoir combien on doit prester sur ladite promesse de 1000 liures, payable dans vn an, on dira si 106 liures viennent de 100 liures, de combien viendront 1000 liures :
+on trouuera 8 sols, qu'aura chaque creancier pour vne liure de son deub : tellement que celuy à qui il estoit deub 10 liures, par exemple, il aura 4 liures pour sa part.
 
-106 —— 100 —— 1000 R. 943 42/106 ou 21/53.
+REGLE DE TROIS *des fractions.*
 
-faisant la regle de trois on trouuera 943 21/53 liures, qu'il faut prester pour auoir 1000 liures au bout de l'an.
+Il faut multiplier le denominateur de la premiere fraction, & les numerateurs de la seconde & troisiesme

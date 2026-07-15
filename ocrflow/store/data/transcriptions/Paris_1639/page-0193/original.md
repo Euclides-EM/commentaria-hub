@@ -1,39 +1,41 @@
-# Page 192
+# Page 193
 
-# LES ELEMENTS
+# D'EVCLIDE; LIV. IV.
 
-equiangle sont diuisez chacun en deux parties égales, & du poinct où se rencontrent les deux lignes qui diuisent les angles également soient menées des lignes droictes à tous les autres angles de la figure, tous les angles de la figure seront diuisez également.
+c.13 4. & 7.a.1 | ∠fab, ∠fba, ∠fbc, ∠fcb, ∠fcd, &c. *ſnt* 2|2 đe.
+6.1 | fa, fb, fc, fd, fe *ſnt* 2|2 đe.
+concl. 6.d.4 | ⊙abcd *eſt circonſcrit au* 5∠abcde.
 
 SCHOLIE.
 
-Par la mesme methode en toute figure equilaterale & equiangle se descrira le cercle.
+Par la mesme methode sera descrit le cercle à l'entour de quelconque figure equilaterale & equiangle.
 
-PROBL. XIV. PROPOS. XIV.
+PROBL. XV. PROPOS. XV.
 
-A l'entour d'vn pentagone donné, equilateral & equiangle, descrire vn cercle.
+En vn cercle donné, inscrire vn hexagone equilateral & equiangle.
 
-*Hypoth.*
+*Hypotheſe.*
 
-abcde *eſt* 5∠ *equilat. & equiangle.*
+gabcdef *eſt* ⊙ D.
 
-*Req. à faire.*
+*Req. à faire*
 
-*circonſcrire au* ⊙abcde *le* 5∠abcde.
-
-*Conſtruction.*
-
-9.1 | ∠fab 2|2 ∠fae,
-9.1 | ∠fba 2|2 ∠fbc,
-ſ.12.4 | f *eſt interſect.*
-3.p.1 | fabcde *eſt* ⊙,
-ſymp. | ⊙abcde *eſt le requis.*
+*inſcrire au* ⊙abdf, 6∠abcdef *equilat. & equiangle.*
 
 (figure)
 
-*Preparation.*
+*Conſtr.*
 
-1.p.1 | fc, fd, fe *ſnt* ——,
+arbitr. | ad *eſt diametre*,
+3.p.1 | dgce *eſt* ⊙,
+1&2.p.1 | cgf *&* egb *ſnt* ——,
+1.p.1 | ab, bc, cd, de, ef, fa *ſnt* ——,
+ſymp. | 6∠abcde *eſt le requis.*
 
 *Demonſtr.*
 
-hyp. | ∠eab, ∠abc, ∠bcd, ∠cde, ∠dea *ſnt* 2|2 đe.
+15.d.1 | △gcd *eſt equilat.*
+c.5.1 | △gcd *eſt equiang.*
+32.1 | ∠dgc 2|2 ⅓..2┘, α
+d. α | ∠dge 2|2 ⅓..2┘, β
+13.1 | ∠egf 2|2 ⅓..2┘, β

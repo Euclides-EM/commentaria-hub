@@ -1,30 +1,42 @@
-# Page 220
+# Page 221
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-est multiple de la 4 D: partant par la 2 du 5, EH, composée de la premiere & 5, sera autant multiple de la 2 B que FL, composée de la 3 & 6, est multiple de la 4 D. Pareillement, la premiere EH est autant multiple de la 2 B, que la 3 FL est multiple de la 4 D: & la 5 HI est autant multiple de la 2 B, que la 6 LM est multiple de la 4 D: par consequent, par la 2 du 5, EI composée de la premiere & 5, sera autant multiple de la 2 B, que FM, composée de la 3 & 6, est multiple de la 4 D: ce qu'il falloit demonstrer.
+3.5 | l *multipl..* b 2|2 m *multipl..* d,
+hyp. | a π b 2|2 c π d,
+c.6.d.5 | i, 2, 3, 4 | 3, l,
+| k, 2, 3, 4 | 3, m,
+concl. α.6.d.5 | e π g 2|2 f π h.
 
-THEOR. IV. PROPOS. IV.
+En cette demonstration I & K ne peuuent estre dissemblables au respect de L & M, à cause qu'elles sont equimultiples des antecedens A & C, qui ont mesme raison à leurs consequens B & D: Et parce que I & K ne peuuent estre dissemblables au respect de L & M, & qu'elles sont equimultiples de E & F, il y aura mesme raison de E à G, que de F à H: ce qu'il falloit demonstrer.
 
-Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme; aussi les equimultiples de la premiere & de la troisiesme auront mesme raison aux equimultiples de la seconde & de la quatriesme, selon quelque multiplication que ce soit, si elles sont prises ainsi qu'elles s'entre respondent.
+COROLLAIRE.
 
-*Hypoth.*
+Par cette demonstration est manifeste la preuue de la raison inuerse.
 
-a π b 2|2 c π d,
-e *multipl..* a 2|2 f *multipl..* c,
-g *multipl..* b 2|2 h *multipl..* d.
+*Hypotheſe.*
 
-(figure)
+a π b 2|2 c π d. α
 
-*Requis à demonſtrer.*
+*Req. à demonſtrer.*
 
-e π g 2|2 f π h.
+b π a 2|2 d π c.
 
 *Preparation.*
 
-3.1 | i *multipl..* e 2|2 k *multipl..* f. α
-3.1 | l *multipl..* g 2|2 m *multipl..* h. α
+3.1 | e *multipl..* | a,
+3.1 | f *multipl..* | c,
+3.1 | g *multipl..* | b,
+3.1 | h *multipl..* | d.
 
 *Demonſtr.*
 
-3.5 | i *multipl..* a 2|2 k *multipl..* c,
+α.c.6.d.5 | e, 2, 3, 4 | 3, g,
+| f, 2, 3, 4 | 3, h, β
+β | g, 2, 3, 4 | 3, e,
+| h, 2, 3, 4 | 3, f,
+concl. 6.d.5 | b π a 2|2 d π c.
+
+THEOR. V. PROPOS. V.
+
+Si vne grandeur est autant multiple d'vne grandeur, que la retranchée l'est de la retranchée; aussi

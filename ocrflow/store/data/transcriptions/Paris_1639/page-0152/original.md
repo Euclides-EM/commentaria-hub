@@ -1,13 +1,13 @@
-# Page 151
+# Page 152
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-SCHOLIE II.
+(figure)
 
-Il est manifeste aussi, que l'espace IAD, compris entre la touchante AD, & la circonference AI, est si estroit pres du poinct d'attouchement A, qu'il n'est pas assez large pour y mettre vne ligne droite qui se termine audit poinct d'attouchement A, encore que la ligne droicte qu'on y veut mettre n'aye aucune grosseur. Car si du centre B on abbaisse vne perpendiculaire sur la ligne droicte, qu'on imagine en cet espace IAD, on demonstrera qu'icelle perpendiculaire est plus petite que le demi-diametre BA, par la mesme methode qu'a esté prouué, que la perpendiculaire BE est plus petite, que le mesme demy-diametre BA: & par consequent, vne partie de la ligne que nous imaginons en l'espace IAD, sera dans le cercle, à sçauoir celle où tombe la perpendiculaire menée du centre B sur icelle. Or la raison pourquoy l'espace IAD n'est pas capable de receuoir la grosseur d'vne ligne droicte est, que les quantitez indiuisibles, comme sont les lignes considerées selon leurs grosseurs, ne se peuuent mettre si pres l'vne de l'autre, qu'il n'y aye espace entre deux, si elles n'occupent le mesme lieu: & que l'espace compris entre la touchante AD & la circonferéce AIL, pres du poinct d'attouchement A, est plus estroit que le moindre espace compris entre deux lignes droictes. Mais Pelletier, ne pouuant conceuoir qu'il y aye aucune quantité plus petite, que le moindre espace compris entre deux lignes droictes, a dit, que l'angle d'attouchement IAD n'à aucune quantité, & par consequent, l'angle du demy-cercle HAI, n'est pas moindre que l'angle droict HAD.
+Car supposant que l'angle ABE soit droict, & la ligne BE infinie vers E, si on imagine que le poinct C se meuue eternellement sur la ligne BE vers E, sans quitter la ligne CA infinie vers A, qui est vn poinct par lequel elle passe tousiours, l'angle que fera AB auec ladite ligne droicte AC, s'augmentera eternellemét, pourueu que le mouuement du poinct C vers E continnë tousiouis: & neantmoins, à cause que l'angle B est droict, l'angle BAC, BAD, BAE, &c. sera tousiours aigu, ce qu'il falloit demonstrer.
 
-Ces choses admirables qui se trouuent en cette proposition, m'ont donné subiect d'adjouster les trois scholies suiuants, qui ne sont gueres moins admirables.
+SCHOL. IV.
 
-SCHOL. III.
+Il est possible, qu'vn poinct se meuue eternellement de l'extremité d'vne petite ligne vers l'autre extremité, sans qu'il y paruienne iamais.
 
-Il est possible d'augmenter eternellement vn angle aigu, sans qu'il paruienne à la grandeur d'vn angle droict.
+Car en la figure precedente, la section O que faict la ligne infinie AC, en couppant GF parallele à AB, s'approche continuellement vers l'extremité G, sans qu'elle puisse iamais paruenir iusques à l'extremité G, que nous supposons estre en la ligne AM parallele à BE. D'où s'ensuit, que si vn poinct se meut en la ligne FG, de l'extremité O vers G, auec pareille vistesse, que ladite intersection O, qu'il ne pourra iamais paruenir iusques au poinct G, car s'il paruenoit iusques au poinct G, le poinct C, que nous auons supposé faire tousiours son mouuement en la ligne BE vsrs E, se trouueroit en fin en la ligne AM parallele à BE; ce qui est contre l'hypothese.

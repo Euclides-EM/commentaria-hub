@@ -1,37 +1,29 @@
-# Page 339
+# Page 340
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-la regle sera directe, & donnera 423/23 lt.
+taine somme en la communauté. Pour la faire, il faut adiouster toutes les mises ensemble, & mettre la somme au premier lieu de la regle de trois ; le gain ou la perte au second lieu ; & au troisiesme, les mises de chacun : puis on fait autant de regles de trois qu'il y aura de mises.
 
-Puis pour faire la seconde regle de trois, on dira, si
+*Exemple 1.*
 
-423 *lt.* X 7 *ans* —— 2115 *lt.* | 340515/68103 [5 *ans*.
-23   1 —— 23
+Quatre marchands trafiquans ensemble ont gagné en certaines foires 600 liures : le premier a apporté en la communauté 60 lt. le second 100 lt. le troisiesme 120 lt. & le quatriesme 200 lt. sçauoir combien de ce gain appartient à chacun à raison de sa mise ?
 
-& viendra pour le nombre requis 5 ans.
+Soient adioustez toutes les mises ensemble, & viendra 480 lt. qu'il faut mettre au premier lieu de la regle de trois, au second lieu le gain, qui est 600 liures, & au troisiesme la mise de chaque marchand : partant pour auoir le gain du premier, on dira, si
 
-Notez que cet exemple est la preuue du precedent.
+480 *lt.* —— 600 —— 60 *lt.* R. 75 *lt.*
 
-*Exemple 3.*
+Pour le second, on dira, si
 
-A 8 liures d'interest pour 100 liures en 9 mois, sçauoir à quel denier est l'interest ?
+480 *lt.* —— 600 —— 100 *lt.* R. 125 *lt.*
 
-Les cinq nombres de cette question sont ceux-cy,
+Pour le troisiesme, on dira, si
 
-100 *lt.* — 8 *lt.* — 9 *mois* — 1 *lt.* — 12 *mois*. R. 9 3/8.
+480 *lt.* —— 600 *lt.* —— 120 *lt.* R. 150 *lt.*
 
-De ces cinq nombres, si on prend pour faire la premiere regle, ces trois cy,
+Pour le quatriesme, on dira, si
 
-8 *lt.* —— 100 *lt.* —— 1 *lt.* R. 100/8 *lt.*
+480 *lt.* —— 600 *lt.* —— 200 *lt.* R. 250.
 
-la regle sera directe, & viendra 100/8 lt. pour le quatriesme : puis pour faire la seconde regle, on dira, si
+Pour la preuue, il faut que la somme ou addition de tous les gains face 600 lt.
 
-9 *mois* — 100 *lt.* X 12 *mois* | 900/96 ou (9 3/8 *lt.*
-1 —— 8   1
-
-Cette regle est inuerse, & donne 9 3/8 lt. c'est à dire, à raison que 8 liures sont gagnées par 100 liur. en 8 mois, qn'vne liure sera gagnée de 9 3/8 liures en 12 mois.
-
-DE LA REGLE DE COMPAGNIE *ou de societé.*
-
-L'vsage de cette regle arriue, quand plusieurs se mettent à trafiquer ensemble, chacun apportant vne cer-
+Que si ces quatre marchands au lieu de gagner eussent

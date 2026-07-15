@@ -1,37 +1,33 @@
-# GEOMET. ELEMENT.
+# LIBER II.
 
-ORONTIVS. ¶ Quanquàm gnomonem propriè intelligamus rectangulum: accipitur tamen ſuprà ſcripta gnomonis diffinitio, pro quacunq; figura ex duobus cuiuſuis oblati parallelogrammi ſupplementis, & altero eorum quæ circa dimetiētem illius ſunt parallelogrammorū comprehenſa. Diximus autem quadrageſimatertia propoſitione primi libri, quænam ſint parallelogramma circa dimetientem alicuius conſiſtentia parallelogrammi: quæ item ſint eorundem parallelogrammorum ſupplementa. ¶ Sit igitur a b c d parallelogrammum, & illius dimetiens a d: circa verò dimetientem conſiſtant g e & f h parallelogramma, atque illorum ſup-
+Θεώρημα β, Πρόθεσις β.
 
-> Vide 43 primi
+ΕΑν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε, τὰ ὑπὸ τῆς ὅλης καὶ ἑκατέρου τῶν τμημάτων περιεχόμενα ὀρθογώνια, ἴσα ἐστὶ τῷ ἀπὸ τῆς ὅλης τετραγώνῳ.
 
-> Gnomonis exemplum.
+## Theorema 2, Propoſitio 2.
 
-*[diagram: a e b / g h / c f d]*
+SI recta linea ſecetur vtcunq;: quæ ſub tota & quolibet ſegmétorum rectangula comprehenduntur, æqualia ſunt ei quod ex tota eſt quadrato.
 
-plementa g f & e h. Dico itaque g e parallelogrammū, vnà cum binis ſupplementis g f & e h: gnomonem efficere f g e h, ſeu f a h. Cui ſi addatur f h parallelogrammum: totum integrabitur a b c d. aut ſi eidem f h parallelogrammo, gnomon circumponatur f g e h: nó mutabitur, ſed augmentabitur figura. Eſt autem eiuſcemodi gnomonum tradita deſcriptio, in partium oblatorum
+> Quid rectam lineam vtcūque ſecari.
 
-> Cur tales aſſumpti gnomones.
+ORONTIVS. ¶ Recta linea vtcunque ſecari dicitur, quæ in quouis dato illius puncto, abſq; partiū determinata ratione, indifferenter diuiditur. Sit igitur a b linea recta, quæ vtcunq; ſecetur in c. Dico q̊ ſub a b & a c, atq; ſub eadem a b & c b cóprehenſa rectangula: æqua ſunt ei, quod ex tota a b fit quadrato. Ex data nanq; a b, quadratum deſcribatur a b d e: per quadrageſimamſextā primi. Et per datum punctum c, vtriq; & a d & b e parallela ducatur c f: per trigeſimamprimam eiuſdem primi libri propoſitionem. Rectangula igitur ſunt a f & c e parallelográma:
 
-in demonſtrationibus parallelogrammorum expeditiorem expreſſionem, principaliter excogitata.
+*[diagram: a c b / d f e; manuscript numerals 7 4 3, 49 25 21]*
 
-Θεώρημα α, Πρόθεσις α.
+atque ipſum a f ſub a d & a c, ipſum verò c e ſub c b & b e, per primam huius diffinitionem comprehenſum. Et quoniam a b & a d ſunt binæ quædam lineæ rectæ: & ipſarū altera, ſcilicet a b, ſecta eſt in a c & c b ſegmēta, ex hypotheſi. Quæ igitur ab inſecta a d, & vtroque ſegmento a c & c b continētur rectangula: æqua ſunt ei, quod ſub duabus lineis rectis a b & a d cóprehenditur rectangulo, per primam huius ſecundi propoſitionem. Atqui b e ipſi a d, & vtraque ipſi a b, per trigeſimam diffinitionem primi eſt æqualis: necnon a b d e rectangulum, id quod ex ipſa a b fit quadratū. Quæ ſub tota igitur a b, & quolibet ſegmento a c & c b, rectangula comprehenduntur: æqualia ſunt ei quod ex tota a b eſt quadrato. Quod erat oſtendendum.
 
-ΕΑν ὦσι δύο εὐθεῖαι, τμηθῇ δὲ ἡ ἑτέρα αὐτῶν, εἰς ὅσα δηποτοῦν τμήματα, τὸ περιεχόμενον ὀρθογώνιον ὑπὸ τῶν δύο εὐθειῶν ἴσον ἐστὶ τοῖς ὑπό τε τῆς ἀτμήτου καὶ ἑκάστου τῶν τμημάτων περιεχομένοις ὀρθογωνίοις.
+Θεώρημα γ, Πρόθεσις γ.
 
-## Theorema 1, Propoſitio 1.
+ΕΑν εὐθεῖα γραμμὴ ὡς ἔτυχε τμηθῇ, τὸ ὑπὸ τῆς ὅλης καὶ ἑνὸς τῶν τμημάτων περιεχόμενον ὀρθογώνιον ἴσον ἐστὶ τῷ τε ὑπὸ τῶν τμημάτων περιεχομένῳ ὀρθογωνίῳ, καὶ τῷ ἀπὸ τοῦ προειρημένου τμήματος τετραγώνῳ.
 
-SI fuerint binæ rectæ lineæ, ſecetúrq; ipſarum altera in quotcunque ſegmenta: rectangulum comprehenſum ſub duabus rectis lineis, æquum eſt eis quæ ab inſecta & quolibet ſegmento rectangulis comprehenduntur.
+## Theorema 3, Propoſitio 3.
 
-> Ex hac propoſitione pendet arithmetica ars multiplicationis. *[manuscript note]*
+SI recta linea ſecetur vtcunque: rectangulum ſub tota & vno ſegmentorum cóprehenſum, æquum eſt ei quod ſub ſegmentis comprehenditur rectangulo, & ei quod ex prædicto ſegmento fit quadrato.
 
-> Hic totus 2ᵘˢ liber [?] [?] demonſtrari poteſt [?] Orontius [?] [?] Anno 1542 *[manuscript note]*
+ORONTIVS. ¶ Eſto a b recta linea, vtcunq; ſecta in puncto c. Aio quòd ſub tota a b & altero ſegmentorum, vtpote a c, comprehenſum rectangulum: æquum eſt ei quod ſub a c & c b ſegmētis rectāgulo cótinetur, & ei quod ex eodē ſegmento a c fit quadrato. Deſcribatur enim ex a c, quadratū a c d e: per quadrageſimāſextam primi. & producatur d e in directū vſq; ad f, per ſecundum poſtulatū. Per
 
-ORONTIVS. ¶ Sint binæ rectæ lineæ a b & c: quarum altera, vtpote a b, ſecetur in a d, d e, & e b ſegmenta. Aio quòd ſub a b & ipſa c comprehenſum rectāgulum: æquum eſt eis, quæ ſub c & a d, & d e, atque e b comprehenduntur rectangulis. A dato enim puncto a, datæ rectæ lineæ a b, recta quædam, per vndecimā primi libri propoſitionem, ad rectos excitetur angulos, excedens datam lineā c: à qua ſecetur æqualis eidem c, per tertiā eiuſdem primi, ſítq; a f. Per datū inſuper pun-
+> 46.1. Ex data recta linea quadratum deſcribere. *[manuscript note]*
 
-*[diagram: a d e b / f h c k g]*
+*[diagram: a c b / d e f; manuscript numerals 10 6 4, 60 36 24]*
 
-ctum f, ipſi a b parallela ducatur f g: atque per b, d, & e puncta ipſi a f, atque inuicem parallelæ ducantur b g, d h, & e k, per trigeſimamprimā eiuſdē primi. Rectangula igitur ſunt a b f g, a h, d k, & e g parallelográma. Quælibet inſuper & b g & d h & e k, ipſi a f eſt æqualis, per trigeſimamquartā eiuſdē primi. eidē quoq; a f eſt æqualis c. ommes igitur adinuicē, atq; ipſi c ſunt æqua-
-
-> Ex hac propoſitione, numerorum ab Arithmeticis tradita colligitur multiplicatio.
-
-les: per primam communem ſententiam. Quod igitur ſub c & a d continetur rectangulum, æquum eſt ipſi a h: & quod ſub c & d e, ipſi d k: atq; id quod ſub eadem c & e b, ipſi e g rectangulo æquale. Ipſis porrò a h, d k, & e g rectangulis, æquum eſt a b f g rectangulum (nempe totum ſuis partibus integralibus ſimul ſumptis) continetúrq; ſub a b & a f, quæ ipſi c data eſt æqualis. Datis igitur binis lineis rectis a b & c, quod ſub eiſdem continetur rectangulum, æquum eſt eis quæ ſub inſecta c, & quolibet ipſius a b ſegmento comprehenduntur rectangulis. Quod oportebat demonſtrare.
+punctum deniq; b, vtriq; & a d & c e parallela ducatur b f: per trigeſimamprimam ipſius primi. Rectāgula igitur ſunt a f & c f parallelogramma, per primam huius difnitionē. Et quoniam a b & a d binæ quædam videntur eſſe lineæ rectæ: quarū altera, vtpote a b, ſecta eſt per hypotheſin in a c & c b ſegmēta. Sub duabus igitur lineis

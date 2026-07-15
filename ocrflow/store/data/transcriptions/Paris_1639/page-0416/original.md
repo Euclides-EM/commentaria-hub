@@ -1,29 +1,29 @@
-# Page 415
+# Page 416
 
 # DES FORTIFICATIONS.
 
-auec BD 4525″ & RG 4525″, fera 16250″ ou 162 1/2 toises pour BG costé du polygone externe  Et la moitié de BG est 81 1/4 pour BS ou SG.  Ostant la demie courtine Hr 36 de Hn 4947″, restera 1347 ou 13 47/100 toises, pour rn ou son égale rd.
+ou 112 49/100 toises pour AS : Et adioustant aussi AF 9758″ auec BF 4146″, viendra 13904″, ou 139 4/100 toises pour AB.  Et ostant OS 2886″ de rS 3354″, restera 468″, ou 4 68/100 pour rO.
 
-Pour trouuer OS au triangls BSO, on dira. si
+Pour trouuer la ligne de defense fichante HG, il faut premierement trouuer l'angle DGH au triangle rectangle HDG, par la regle des tangentes, ordonnant la regle de trois ainsi,
 
-∠BOS   BS   ∠SBO   OS
-70 deg. 30′   81 1/2   19 deg. 30′.   R. 28:86
-997435   191114   952350   146029
+DG + DH   tangente   DG ~ DH   tangente
+15099″   45 deg.   8371″   29 deg.
+217891   1000000   192277   974386
 
-En cette regle pour auoir le logarithme de 81 1/2 toises, on a adioûté au logarithme de 81, qui est 190848, la moitié de la difference 533, qui se trouue entre les logarithmes de 81 & 82 toises.
+on trouuera 29 degrez, qu'il faut soustraire de 45 degrez, qui est la moitié de la somme de deux angles DGH & DHG, & restera 16 degrez pour l'angle DGH.  Ayant ainsi trouué l'angle HGD, pour trouuer la quantité de HG, on dira, si
 
-Pour trouuer Ar au triangle ArF, on dira, si
+∠HGD   DH   ∠HDG   HG
+16 deg.   3354″   90 deg.   12167″
+944034 —— 152551 —— 1000000 —— 208517
 
-∠FAr   Fr   ∠AFr   Ar
-36 deg.   5736″   54 deg.   R. 7895″
-976922   175859   990796   189733
+La mesme HG se pouuoit aussi trouuer en quarrant les deux costez DH & DG, & de la somme de leurs quarrez tirant la racine quarrée.
 
-En cette regle pour auoir le logarithme de 57 36/100, on a pris le logarithme de 57 toises, qui est 175587, puis pour auoir le logarithme de la fraction 36/100, on a multiplié par 36 le nombre interlinaire 755, qui se trouue dans la table entre les logarithmes de 57 & 58 toises, & du produict 27180, ayant retranché deux figures, à cause du diuiseur 100, il en est resté 271, qui a esté augmenté d'vne vnité, parce que les deux figures retranchées valent 80, qui excede la moitié de 100 ; & par ainsi, adioustant 272 auec 175587, il en est venu 175859, pour le logarithme de 5736″.
+Pour auoir KG, qui est la subtendante des deux costez du polygone externe, il faut trouuer fG au triangle AGf, ordonnant la regle ainsi :
 
-Pour trouuer AF, on dira, si
+∠AfG   AG   ∠fAG   fG
+90 deg.   13904″   72 deg.   R. 132:23
+1000000 —— 214313 —— 997821 —— 212134
 
-∠FAR   Fr   ∠ArF   AF ou AL
-36 deg.   5736″   90 deg.   R. 97:58
-976922 —— 175859 —— 1000000 —— 198937
+on trouuera 13223″ pour fG, dont le double est 26446″ ou 264 46/100 pour KG.
 
-Maintenant adioustant Ar 7895″ auec rS 3354″, viendra 11249″
+Pour auoir gL, qui est la subtendante des deux costez du polygone interne, il faut trouuer bL au triangle AbL, ordonnant la regle ainsi,

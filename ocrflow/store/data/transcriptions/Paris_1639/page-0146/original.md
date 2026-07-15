@@ -1,50 +1,46 @@
-# Page 145
+# Page 146
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-*Demonſtr.*
+*Demonſtration.*
 
-ſuppoſ. | cfgb *eſt* ——,
-ergo | cfgb *eſt diametre du* ⊙cab. α
-15.d.1 | gd 2|2 ga, β
-α.7.3 | ga 3|2 gb,
-β.1.a.d | gd 3|2 gb,
-*contr. 9. a. 1.*
-concl. 21.a.1 | cfga *eſt* ——,
-
-THEOR. XI. PROPOS. XII.
-
-Si deux cercles se touchent l'vn l'autre, au dehors, la ligne droicte menée d'vn centre à l'autre, passera par l'attouchement.
+ſuppoſ. | *le centre du* ⊙ced *eſt en* f. α
+1.p.1 | aigfe *eſt* ——,
+α15.d.1 | ge *eſt diamet.*
+15.d.1 | ai 2|2 ac,
+α.8.3 | ac 3|2 ag,
+1.a.d | ai 3|2 ag, *c.9.a.1.*
 
 (figure)
 
-*Hypoth.*
+THEOR. XII. PROPOS. XIII.
 
-acd & bce *ſnt* ⊙,
-c *eſt* • *d'attouchement.*
-
-*Req. à demonſtrer.*
-
-acb *eſt* ——.
-
-*Demonſtr.*
-
-ſuppoſ. | adeb *eſt* ——,
-20.1 | ac + cb 3|2 adeb,
-15.d.1 | ac 2|2 ad, bc 2|2 be,
-1.a.c | ad + be 3|2 adeb,
-*contr. 9. a. 1.*
-concl. 21.a.1 | acb *eſt* ——.
-
-Pelletier demonstre cette 12. proposition ainsi.
+Vn cercle ne touche point vn cercle à plus d'vn poinct: soit qu'il le touche au dedans, ou au dehors.
 
 (figure)
 
-*Hypoth.*
+*Hypoth. 1.*
 
-aci & bcgd *ſnt* ⊙;
-c *eſt* • *d'attouchement.*
+caf, bad *ſnt* ⊙;
+a *eſt* • *d'attouchement.* α
 
 *Req. à demonſtr.*
 
-Que le centre du cercle CED est en la ligne droicte ACD.
+hud *n'eſt* • *d'attouch.*
+
+*Preparation.*
+
+1&2.p.1 | ab & bch *ſnt* ——,
+d *eſt* • *arbitr.*
+1.p.1 | bd, cd *ſnt* ——.
+
+*Demonſtr.*
+
+ſuppoſ. | h *eſt* • *d'attouch.* β
+11.3 | abc *eſt* ——,
+β17.d.1 | abch *eſt diametre des* ⊙;bad & caf,
+15.d.1 | ah 2|2 2ab,
+15.d.1 | ah 2|2 2ac,
+α 7.a.1 | 2ab 2|2 2ac,
+*contr. 9. a. 1.*
+1.concl. 21.a.1 | h *n'eſt* • *d'attouch.*

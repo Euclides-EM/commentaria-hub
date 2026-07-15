@@ -1,9 +1,37 @@
-# 90 GEOMET. ELEMENT. LIB. III.
+# 91
 
-*[diagram: a b c d e f]*
+*[ornamental headpiece]*
 
-rectus. Cũ igitur à puncto d/ cadant binæ lineæ rectæ d/a/c/ & d/e, quarum altera, vtpote d/a/c, circulum secat, reliqua verò d/e/ ipsum tangit circulum: quod igitur ex d/e/ fit quadratum, æquum est comprehenso sub c/d/ & d/a/ rectangulo, per antecedẽtem trigesimamsextã propositionem. Eidem porrò quod ex c/d/ in d/a/ fit rectangulo, æquum est per hypothesin, quod ex d/b/ fit quadratum. quæ igitur ex d/b/ & d/e/ fiunt quadrata, sunt per primam communẽ sententiam inuicem æqualia. Et proinde recta d/b, æqualis ipsi d/e, per corollarij quadragesimæsextæ primi conuersionẽ. Aequalis rursum est f/e/ ipsi f/b, per sæpius allegatam circuli diffinitionem. Binæ igitur d/b/ & b/f/ trianguli d/b/f, duabus d/e/ & e/f/ trianguli d/e/f/ sunt æquales altera alteri: habéntque eandem basin communem d/f. Angulus itaque d/b/f, ipsi angulo d/e/f, per octauam primi est æqualis. Atqui d/e/f/ angulus est rectus: & qui sub d/b/f/ igitur continetur angulus, rectus est. Est autem f/b/ semidiameter circuli, & altera igitur pars diametri, à cuius extremitate b, ad angulos rectos excitatur b/d: tangit igitur b/d/ circulum ipsum a/b/c, per corollarium decimæsextæ huius tertij. Idem quoq; deducetur, vbi d/a/c/ recta per centrum ipsius transibit circuli. Si extra circulum igitur sumatur punctũ aliquod: &c. vt in ipso theoremate. Quod tandem fuerat ostendendum.
+# Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quartum elementorum Euclidis, Demonstrationes.
 
-## Tertij Libri Geometricorum Elementorum
+## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΕΤΑΡΤΟΝ
 
-# FINIS.
+Περὶ τοῦ ἐγγράφεσθαι καὶ περιγράφεσθαι σχῆμα, ὅροι ζ.
+
+Σχῆμα εὐθύγραμμον εἰς σχῆμα εὐθύγραμμον ἐγγράφεσθαι λέγεται, ὅταν ἑκάστη τῶν τοῦ ἐγγραφομένου σχήματος γωνιῶν, ἑκάστης πλευρᾶς τοῦ εἰς ὃ ἐγγράφεται ἅπτηται.
+
+## ¶ De inscriptione ac circunscriptione figurarum, Diffinitiones 7.
+
+FIgura rectilinea, in figura rectilinea describi dicitur: quando vnusquisque inscriptæ figurę angulus, vnumquodque latus eius in qua describitur tãgit.
+
+¶ Σχῆμα δὲ ὁμοίως περὶ σχῆμα περιγράφεσθαι λέγεται, ὅταν ἑκάστη πλευρὰ τοῦ περιγραφομένου, ἑκάστης γωνίας τοῦ περὶ ὃ περιγράφεται ἅπτηται.
+
+Figura autem similiter circa figuram describi dicitur: quando vnumquodq; latus circunscriptæ, vnumquenq; angulum eius circum quam describitur tangit.
+
+ORONTIVS. ¶ Huiuscemodi figurarum inscriptiones ac circunscriptiones, de regularibus, hoc est, æqualia latera, & angulos inuicè æquales habentibus (exceptis forsitan triangulis, in quæ cæteræ resoluuntur rectilineæ figuræ) veniunt potissimùm intelligendæ. Inscribuntur præterea, atque inuicem circunscribuntur rectilineę tantũmodò figuræ, quæ eiusdem sunt speciei: vtpote, triangulũ triãgulo, quadratũ quadrato, pẽtagonũ pẽtagono: &c. Oportet enim tot esse latera circũscriptæ, quot ipsius inscriptę sunt anguli. Quanquàm porrò circulus non sit figura rectilinea: propter illius tamen regularitatem, possunt & ipsæ rectilineæ ac æquilateræ figuræ, circulo inscribi ac circunscribi, & è diuerso.
+
+> Quæ figuræ inscribátur & circũscribantur adinuicẽ.
+
+*[diagram: a b c d e f, 1 2]*
+
+In exẽplum igitur primæ ac secundæ diffinitionis, habes obiectum a/b/c/ triangulum æquilaterum, descriptũ in d/e/f/ triangulo: vel ipsum d/e/f/ triangulum, ipsi a/b/c/ triangulo respondenter circunscriptum.
+
+¶ Σχῆμα δὲ εὐθύγραμμον εἰς κύκλον ἐγγράφεσθαι λέγεται, ὅταν ἑκάστη γωνία τοῦ ἐγγραφομένου, ἅπτηται τῆς τοῦ κύκλου περιφερείας.
+
+Figura rectilinea, in circulo describi dicitur: quando vnusquisque angulus inscriptæ, circuli circunferentiam tangit.
+
+¶ Κύκλος δὲ περὶ σχῆμα περιγράφεσθαι λέγεται, ὅταν ἡ τοῦ κύκλου περιφέρεια ἑκάστης γωνίας, τοῦ περὶ ὃ περιγράφεται ἅπτηται.
+
+Circulus verò, circa figuram rectilineam describi dicitur: quando
+
+h.iiij.

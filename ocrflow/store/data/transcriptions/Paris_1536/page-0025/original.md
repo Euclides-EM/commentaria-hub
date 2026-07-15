@@ -1,51 +1,55 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-In quibus videlicet nulla oppoſitorum vel laterum, vel angulorũ ſimul obſeruatur æqualitas, ſiue reſpõdentia: veluti ſunt n/ & o, & quæcunque eis ſimiles quadrilaterorum deſcriptiones.
+Cùm enim dati cuiuſlibet anguli recti magnitudo quadrans exiſtat circuli, eiuſdémq̃ circuli quardrantes ſint adinuicem æquales: fit vt inter quoſuis angulos rectos nulla poſſit eſſe differentia, ſed omnes ſint adinuicẽ æquales. Quemadmodùm ex his quæ ſeptima, nona, & decima præmiſimus diffinitionibus, elicere vel facilè potes.
 
-*[diagram: n o]*
+Καὶ ἐὰν εἰς δύο ευθείας, ευθεῖα ἐμπίπτουσα, τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας, δύο ὀρθῶν ἐλάσσονας ποιῇ, ἐκβαλλόμεναι αἱ δύο αὗται ευθεῖαι ἐπ' ἄπειρον, συμπεσοῦνται ἀλλήλαις, ἐφ' ἃ μέρη ἐισὶν αἱ τῶν δύο ὀρθῶν ἐλάσσονες γωνίαι.
 
-## Parallelarum linearum diffinitio vltima.
+## 5 Si in duas rectas lineas recta linea incidens, interiores & in eadem parte angulos duobus rectis minores fecerit: rectas lineas in infinitum productas concurrere neceſſe eſt, ad eas partes in quibus anguli duobus rectis minores exiſtunt.
 
-Παράλληλοί εἰσιν ευθεῖαι αἵ τινες ἐν τῷ αὐτῷ ἐπιπέδῳ ὄυσαι, καὶ ἐκβαλλόμεναι ἐπ' ἄπειρον ἐφ' ἑκάτερα τὰ μέρη ἐπὶ μηδέτερα συμπίπτωσι ἀλλήλαις.
+Vtpote, ſi in rectas a/b/ & c/d, recta incidens e/f, interiores angulos b/e/f/ & d/f/e/ ſimul cõparatos, duobus rectis minores fecerit: ipſæ lineæ a/b/ & c/d, in infinitũ productæ, conueniẽt
 
-## Parallelæ rectæ lineæ ſunt quæ in eodem exiſtentes plano, & ex vtraque parte in infinitum productæ, in nulla parte concurrunt. 35
+*[diagram: a e b, c f d, g]*
 
-*[diagram: a e b / c f d]*
+tandem in g, ad partes quidem b/ & d. Quoniam plus inclinãtur adinuicem partes b/d, quàm a/c. Vnde quantò magis producentur b/e, & d/f, partes, tantò propiores efficientur, in vnũ tandem ſignum (vtpote g) concurrentes. Secus eſt de a/e, & c/f/ partibus: propterea quòd anguli a/e/f/ & c/f/e/ ſunt duobus angulis rectis tantò maiores, quantò eiſdem rectis minores fuerint ipſi b/e/f/ atq̃ d/f/e/ anguli. Poſſent & alia his haud diſſimilia ſubrogari poſtulata: quæ cùm ſunt omnibus (etiam rudiſſimis) per ſeſe manifeſta, vel quæ recenſeantur indigna, hoc quinario cum Euclide contenti erimus numero.
 
-Quales tibi repræſentant a/b/ & c/d/ lineæ rectæ. In quarum videlicet alteram, vtpote a/b, recta linea e/f/ad æquales ſeu rectos incidẽs angulos: & cũ reliqua c/d/rectos itidem vel æquales angulos efficit. Ex eo enim, alterius in alterã æqualis vtrobiq̃ ſurgit inclinatio: vnde fit, vt ipſæ datæ lineæ in infinitũ ex vtraq̃ parte productæ, æqualiter ſeu parallelicè diſtent, nuſquam adinuicem concurrentes.
+> De cęteris poſtulatis.
 
-## Αἰτήματα. Poſtulata.
+## Κοιναὶ ἔννοιαι. Communes ſententiæ.
 
 ### ORONTIVS.
 
-> Poſtulata quę
+> Axiomata, effata, ſeu communes ſententiæ.
 
-SECVNDO LOCO, SESE OFFERVNT POSTVLATA: QVAE petitiones à nõnullis adpellãtur. Sunt autem poſtulata, generales quędam propoſitiones, ex ipſis collectæ diffinitionibus: quæ pendenter ab auditore conceſſæ, poſtulantur aſſumuntúrve in ordinem ſeu rationem principij. Primum itaq̃ poſtulatum, eſt huiuſmodi,
+RELIQVVM EST TANDEM, COMMVNES ELVCIDARE ſententias: quas græci axiomata, latini verò effata ſolent adpellare. Sũt igitur cõmunes ſentẽtiæ, generales quædã ac per ſeſe manifeſtę propoſitiones, cõmunitérve ſcitæ ab omnibus, & in principij rationem vel ordinem coaſſumptæ. Quarum prima eſt hæc.
 
-Ητήσθω, ἀπὸ παντὸς σημείου ἐπὶ πᾶν σημεῖον ευθεῖαν γραμμὴν ἀγαγεῖν.
+> 5. communes ſententiæ ratione æqualitatis reſpiciẽtes.
 
-## Ab omni puncto in omne punctum, rectam lineam dúcere 1
+Τὰ τῷ αὐτῷ ἴσα, καὶ ἀλλήλοις ἐστὶν ἴσα.
 
-*[diagram]*
+## 1 Quæ eidem æqualia, & adinuicem ſunt æqualia,
 
-Poteſt enim datum quodcunq̃ punctum, in aliud quodlibet punctum, etiam vbilibet imaginatũ, per viam abſtractiuè fluẽdo breuiſſimam: rectam deſcribere lineam. quemadmodùm ex quatuor primis licet elicere diffinitionibus. Admittẽda eſt itaq̃ linea recta quantalibet, ac quibus voluerimus punctis, vbilibet indifferenter terminata.
+*[diagram: a b c]*
 
-Καὶ πεπερασμένην ευθεῖαν κατὰ τὸ συνεχὲς ἐπ' ευθείας ἐκβάλλειν.
+Vtpote, ſi a/ magnitudo ſit æqualis b/ magnitudini, eidem quoque b/ ſit æqualis magnitudo: neceſſum eſt a/ & c/ magnitudines fore adinuicem æquales. Idem habeto iudicium de numeris, atque cæteris eiuſdem generis adinuicem comparabilibus.
 
-## Rectam lineam terminatã, in continuum rectúmq; producere. 2
+Καὶ ἐὰν ἴσα ἴσοις προστεθῇ, τὰ ὅλα ἐστὶν ἴσα.
 
-*[diagram: A B C]*
+## 2 Et ſi æqualibus æqualia adijciantur, omnia erunt æqualia.
 
-Nam vtrunq̃ punctum ipſius datæ rectæ lineæ terminatiuum, per rectum eiuſdem puncti defluxũ, quantumlibet abſtractiuè continuatũ: poteſt ipſam datam lineam rectã efficere lõgiorem. quemadmodùm ex data linearum rectarum colligitur deſcriptione.
+Καὶ ἐὰν ἀπὸ ἴσων ἴσα ἀφαιρεθῇ, τὰ καταλειπόμενα ἐστὶν ἴσα.
 
-Καὶ παντὶ κέντρῳ καὶ διαστήματι κύκλον γράφεσθαι.
+## 3 Et ſi ab æqualibus æqualia auferãtur, quę relinquẽtur æqualia erũt.
 
-## Omni centro & interuallo circulum deſcribere. 3
+Vt ſi d/ & e/ magnitudinibus inuicẽ æqualibus, æquales addantur magnitudines f/ & g: con-
 
-*[diagram]*
+*[diagram: d f, e g]*
 
-Hoc eſt, licet vbicunque volueris centrum deſignare circuli, & circa idem centrum, ad liberam ſemidiametri quantitatem, ipſum figurare circulum. Aut (ſi velis) ex data quacunque linea recta terminata, altero eiuſdem lineæ termino vbiuis collocato, per completam ipſius lineæ circunductionem, circulum deſcribere. Admittendi igitur ſunt, liberæ quantitatis circuli, pro data ſemidiametri vel interualli magnitudine.
+ſurgent d/f/ & e/g/ magnitudines adinuicem pariter æquales. Quòd ſi verſavice ab ipſis d/f/ & e/g/ magnitudinibus inuicem æqualibus, æquales tollantur f/ quidẽ & g/ magnitudines: relinquentur d/ & e/ magnitudines rurſum adinuicem æquales.
 
-Καὶ πάσαι αἱ ὀρθαὶ γωνίαι ἴσαι ἀλλήλαις ἐισί.
+Καὶ ἐὰν ἀνίσοις ἴσα προστεθῇ, τὰ ὅλα ἐστὶν ἄνισα.
 
-## Omnes angulos rectos adinuicẽ æquales eſſe. 4
+## 4 Et ſi inæqualibus æqualia adiungantur, omnia inæqualia erunt.
+
+Καὶ ἐὰν ἀπὸ ἀνίσων ἴσα ἀφαιρεθῇ, τὰ λοιπὰ ἐστὶν ἄνισα.
+
+## 5 Et ſi ab inæqualibus æqualia auferantur, reliqua inæqualia erunt.

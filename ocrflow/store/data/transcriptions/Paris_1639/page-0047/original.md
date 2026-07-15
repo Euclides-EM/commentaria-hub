@@ -1,27 +1,36 @@
-# Page 46
+# Page 47
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-hyp. | 16 2|2 16,
-hyp. | 12 3|2 7, *l'excez des adjouſtées eſt 5.*
-15.a.1 | 28 3|2 23, *l'excez des toutes eſt 5.*
+hyp. | 18 3|2 12 *l'excez des toutes eſt 6.*
+hyp. | 7 2|2 7 *les retranchées.*
+18.a.1 | 11 3|2 5 *l'excez des reſtantes eſt 6.*
 
-16. a. 1.
+19. a. 1.
 
-Si à choses inégales on adjouste choses égales, l'excez des toutes sera égal à l'excez de celles qui estoient au commencement.
+Le tout est égal à toutes ses parties prises ensemble.
 
-hyp | 18 3|2 12 *l'excez eſt 6.*
-hyp. | 7 2|2 7 *les adiouſtées.*
-16.a.1 | 25 3|2 19 *l'excez des toutes eſt 6.*
+hyp. | ac, cd, db, *ſont parties de* ab.
+19.a.1 | ab 2|2 ac + cd + db.
 
-17. a. 1.
+(figure)
 
-Si de choses égales on retranche choses inégales, l'excez des restantes sera égal à l'excez des retranchées.
+19. a. b.
 
-hyp. | 16 2|2 16,
-hyp. | 12 3|2 7 *l'excez des retranchées eſt 5.*
-17.a.1 | 4 2|3 9 *l'excez des reſtantes eſt 5.*
+Si les parties d'vn tout sont égales entr'elles, le tout sera autant multiple de chaque partie : qu'il y aura de parties : & chaque partie sera denommée du nombre des parties.
 
-18. a. 1.
+(figure)
 
-Si de choses inégales on retranche choses égales, l'excez des restantes sera égal à l'excez des toutes.
+hyp. | ab, bc, cd, de *ſont* 2|2 đe.
+19.a.b. | AE *eſt quadruple de* AB.
+19.a.b. | AB *eſt le quart de* AE.
+
+20. a. 1.
+
+Si vn tout est double d'vn tout, & le retranché du retranché, le reste sera aussi double du reste.
+
+hyp. | ab 2|2 2cd,
+hyp. | ae 2|2 2cf,
+20.a.1 | eb 2|2 2fd.
+
+(figure)

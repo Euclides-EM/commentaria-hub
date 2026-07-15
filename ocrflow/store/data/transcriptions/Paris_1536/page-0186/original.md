@@ -1,33 +1,31 @@
-# LIBER VI.
+# GEOMET. ELEMENT.
 
-*(pagina 169)*
+*(pagina 170)*
 
-h/k/ipso e/f/maius: necnon & k/l/maius ipso f/g. Producantur itaque in rectum & continuum, f/e/& f/g/versus m/& n, per secundum postulatum: secetúrque ipsi h/k/ æqualis f/m, ipsi autem k/l/æqualis f/n, per tertiã primi. Compleatur deinde m/n/ parallelogrãmum, per trigesimãprimã ipsius primi, vnà cum r/s, atq; cæteris quæ in figura sunt parallelogrammis. Parallelogrammum itaq; m/n, æquum est & simile ipsi h/l. sed eidem h/l/ simile ostensum est e/g: simile est igitur m/n, ipsi e/g, per vigesimamprimã huius sexti. & proinde ipsa e/g/& m/n/ parallelogrãma, circa eundem dimetientẽ f/b/o, per vigesimamsextàm ipsius sexti sunt constituta. Rursum quoniam e/g/& r/s/parallelogramma, circa eundem sunt dimetientem f/b/o: simile est propterea, per vigesimamquartam eiusdem sexti, r/s/parallelogrammũ, ipsi e/g, atq; toti m/n, & proinde ipsi d/parallelogrammo.
+Data ergo recta linea a/b, per extremam & mediam rationem secatur in c, & illius segmentum maius est b/c.
 
-*[diagram: k l h c d f g n a e b m r o]*
+> Idem alia ratione demonstrare.
 
-> Discursus prĩcipalis demõstrationis.
+¶ Aut si velis describatur ex a/b/recta linea data, quadratum a/b/c, per quadragesimamsextam primi. Et ad datam rectam lineam b/c, dato quadrato a/b/c, æquum parallelogrammum comparetur c/d, excedens similis speciei parallelogrammum c/e/super totam b/c/comparatum, ipso d/b/parallelogrammo simili a/b/c/dato: per antecedentem vigesimamnonam propositionem. Et quoniam simile est a/b/c, ipsi d/b, & quadratum est a/b/c: & d/b/igitur est quadratum. Rursum quoniam c/d/ parallelogrammum, æquum est quadrato a/b/c/& vtrique commune c/e: ablato itaque c/e, reliquum a/f/reliquo d/b, per tertiam communem sententiam est æquale. & qui circa e/sunt anguli, æquales sunt adinuicem, per decimamquintam primi, vel quartum postulatum. Aequalium porrò & vnum vni æqualem habentium angulum parallelogrãmorum, reciproca sunt latera quæ circum æquales angulos: per decimãquartam huius sexti. Et sicut igitur e/f/ad e/d, sic b/e/ad e/a. Sed b/e/æqualis est e/d, & a/b/ipsi b/c, per quadrati diffinitionem: eidem rursum b/c, æqualis est e/f, per trigesimamquartam primi. Et e/f/igitur, ipsi a/b, per primã communem sententiam est æqualis. Aequales autem ad eandem, eandem habent rationem, & eadem ad æquales: per septimam quinti. Et sicut igitur a/b/ad b/e, sic b/e/ad e/a. Data igitur recta linea a/b, per extremam & mediam rationem, in puncto e/dispescitur. Quod oportuit fecisse.
 
-His ita præmissis, quoniã m/n, æquum est ipsi h/l, & ipsum h/l/vtrisq; & e/g/parallelogrãmo & c/rectilineo æquale: & m/n/igitur, eisdẽ e/g/parallelogrãmo & c/rectilineo est æquale. quæ enim inuicẽ æqualia, eisdẽ æqualia sunt: per primæ cómunis sententiæ conuersionẽ. Subducto igitur cómuni/e/g: reliquum c/rectilineũ, reliquo gnomoni e/o/g, per tertiã cõmunẽ sententiã, est æquale. Et quoniam g/s/supplementum, ipsi e/r/supplemento, per quadragesimamtertiam primi est æquale: & eidẽ e/r, æquum est a/m, per trigesimamsextam eiusdem primi, nempe in æquali basi, ac in eisdem parallelis constituto. Et a/m/igitur ipsi g/s, per primam communẽ sententiam æquum est. Commune adponatur e/o: consurget itaq; a/o/ parallelogrammum, ipsi e/o/g/gnomoni, per secundam communẽ sententiam, æquale. Sed eidem gnomoni e/o/g, æquũ est rectilineũ c: & quæ eidem æqualia, adinuicem sunt æqualia, per primã communem sentẽtiam. Et a/o/igitur parallelogrammũ, æquum est ipsi dato rectilineo c: exceditq́; similis speciei parallelogrammum a/r/super totam rectam a/b/comparatum, ipso parallelogrammo r/s, quod ipsi d/simile ostensum est. Ad datam igitur rectam lineam a/b, dato rectilineo c, æquale comparatum est parallelogrammum a/o, excedẽs similis speciei parallelogrammum a/r/ super totam a/b/comparatum, parallelogrammo r/s, simili dato parallelogrammo d. Quod faciendum receperamus.
+*[diagram: d a e b f c]*
 
-Πρόβλημα ι, Πρόθεσις λ.
+Θεώρημα κα, Πρόθεσις λα.
 
-Τὴν τεθεῖσαν εὐθεῖαν πεπερασμένην, ἄκρον καὶ μέσον λόγον τεμεῖν.
+Ἐν τοῖς ὀρθογωνίοις τριγώνοις, τὸ ἀπὸ τῆς τὴν ὀρθὴν γωνίαν ὑποτεινούσης πλευρᾶς εἶδος, ἴσον ἐστὶ τοῖς ἀπὸ τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν πλευρῶν εἴδεσι, τοῖς ὁμοίοις τε καὶ ὁμοίως ἀναγραφομένοις.
 
-## Problema 10, Propositio 30.
+## Theorema 21, Propositio 31.
 
-DAtam rectam lineam terminatam, per extremam ac mediã rationem dispescere.
+IN rectangulis triangulis, quæ ab rectum angulum subtendente latere species: æqualis est eis, quæ ab rectũ angulum comprehendentibus lateribus speciebus similibus, similitérq; descriptis.
 
-> Problematis interpretatio
+> Interpretatio theorematis cũ partiũ figurę descriptione.
 
-ORONTIVS. ¶ Recta linea per extremam & mediam rationem secari dicitur: quãdo sic dispescitur, vt tota ad vnum segmentorum eandem habeat rationem, quam idem segmentum ad reliquum.
+ORONTIVS. ¶ Quod de quadratis superficiebus, proposuit quadragesimaseptima primi: hic de quibuscunq; rectilineorum speciebus, proponit Euclides. Esto igitur datum rectangulum triangulum a/b/c, rectũ habens angulum qui ad a. Dico quòd species rectilinei, quæ describitur ex b/c/rectum angulum subtendente: æqualis est ambabus similibus similitérque descriptis speciebus, ab ipsis a/b/& a/c/ rectum angulum continentibus.
 
-> Executio demonstratiua problematis.
+*[diagram: a f g b d c e]*
 
-Esto igitur data recta linea terminata a/b, quam oporteat per extremam & mediam dispescere rationem. Secetur itaque a/b/ recta in puncto c, per vndecimam secundi: vt quod sub tota a/b/ & altero segmento a/c/ comprehenditur rectangulum, æquum sit ei quod à c/b/ reliquo segmento fit quadrato.
+A dato enim puncto a, super datam rectam lineã b/c, perpendicularis deducatur a/d, per duodecimam primi: quæ per octauam huius sexti, cadet intra datum a/b/c/ triangulum, ipsúmque in bina diuidet triãgula a/b/d/ & a/d/c, toti a/b/c/atque adinuicem similia. Describatur insuper ex b/c, contingens, & cuiuscunque libuerit speciei rectilineum b/e: & à datis rectis lineis a/b/& a/c, dato rectilineo b/e, similia similitérque posita rectilinea describantur a/f/& a/g, per decimamoctauã ipsius sexti.
 
-*[diagram: a c b]*
+> Demõstratio ipsius theorematis.
 
-Propositis itaque tribus rectis lineis a/b, b/c/ & c/a, quod sub extremis a/b/& c/a/continetur rectangulum, æquum erit ei quod à media b/c/fit quadrato. Ipsæ igitur tres rectæ lineæ proportionales erunt, per decimãseptimam huius sexti, sicut a/b/ ad b/c, sic b/c/ad c/a.
-
-P.j.
+Et quoniã simile est a/b/c/ triangulum ipsi a/b/d/triangulo, & qui ad b/angulus vtrique communis: est igitur

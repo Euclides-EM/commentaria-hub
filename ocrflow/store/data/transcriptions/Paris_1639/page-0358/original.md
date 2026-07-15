@@ -1,27 +1,5 @@
-# Page 357
+# Page 358
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-sé s'il est quarré, ou s'il n'est quarré, le plus grand nombre quarré contenu en iceluy. Or tout nombre se multipliant soy-mesme engendre son quarré, & multipliant son quarré il produict son cube : par exemple, 10 se multipliant engendre 100, qui est son quarré, & le mesme 10 multipliant son quarré 100, produist 1000, qui est son cube. Et parce qu'il n'y a point de precepte d'extraire la racine quarrée ny cube d'aucun nombre moindre que 100, on doit apprendre par cœur les quarrez & cubes des 9 premieres figures, qui sont les suiuantes.
-
-1 | 1 | 1
-2 | 4 | 8
-3 | 9 | 27
-4 | 16 | 64
-5 | 25 | 125
-6 | 36 | 216
-7 | 49 | 343
-8 | 64 | 512
-9 | 81 | 729
-
-Les quarrez de ces 9 nombres estant cognus, pour extraire les racines des autres nombres plus grands, il faut premierement separer les figures du nombre proposé deux à deux, commençant à la main droicte. Puis ayant pris la racine de la premiere partie du costé gauche, & escrit le reste au dessus, en tranchant les figures comme en la diuision : Pour chaque partie ou section de nostre nombre, il faut trouuer nouueau diuiseur à mesure qu'on aduance, & mettre la figure qui monstre combien de fois il est contenu au nombre superieur correspondant, non seulement au quotient, mais aussi au costé droict du diuiseur ; le tout comme on peut voir aux exemples suiuants.
-
-2 | 1
-8 | 4 4
-5 7 | 8 0 | 5 6 | 0 9 | 47 [76030.
-——
-7 | 4 6 | 2 0 | 0 3 | 6 0
-1 | 1 5 | 5 2 | 2 0
-1 | 1 5
-
-Soit à extraire la racine de 5780560947, premierement ie separe les figures du nombre proposé deux à deux, commençant à la main droicte, puis ayant mis la racine de 57, qui est 7, au quotient, &
+aussi sous 57, ie dis 7 fois 7 sont 49, que i'oste de 57, & reste 8, que ie pose sur 7, en tranchant 5 & 7 : Ce faict, pour auoir le diuiseur de la section suiuãte, ie multiplie le quotient 7 par 2, & vient 14 pour mon diuiseur, que i'escris en mettant le 4 sous le 8, & 1 sous le reste 8 de la section precedente : & ie regarde combien de fois 1 du diuiseur est contenu dans 8 qui est au dessus, & encore qu'il se trouue 8 fois, ie ne mets que 6 fois au quotient afin qu'il en reste assez, pour les figures suiuantes du diuiseur, & pose aussi le mesme 6 au costé droict du diuiseur sous le zero : puis ie dis, 6 fois 1 sont 6, que i'oste de 8 qui est au dessus, & reste 2. que ie pose au dessus de 8, en tranchant les figures comme en la diuision : ce faict, ie dis 6 fois 4 sont 24, que i'oste de 28 & reste 4, que ie pose au dessus du 8 : & de mesme ie multiplie 6 par 6, & vient 36 que i'oste de 40, & reste 4 que ie pose au dessus du zero. Maintenant pour auoir le diuiseur de la section 56, ie multiplie tout le quotient 76 par 2, en disant 2 fois 6 sont 12, & pose 2 sous le 5, & 2 fois 7 sont 14, & 1 que ie garde sont 15, que ie pose tirant vers la main gauche, & trouue 152 pour mon diuiseur : & parce que mon diuiseur 152 n'est pas contenu au nombre superieur correspondant qui est 45, ie pose vn zero au quotient, & aussi au costé droict du diuiseur, & sans rien multiplier ny soustraire, ie cherche vn diuiseur pour la section suiuante, en multipliant par 2 le quotient 760, & vient 1520, que ie pose sous 4560 : puis ie regarde combien de fois 1 est contenu au nombre superieur correspondant 4, & trouuant qu'il est contenu 3 fois, ie pose 3 au quotient, & aussi au costé droict du diuiseur, & faisant les multiplications & soustractions comme en la diuision, ll ne reste rien au dessus. Finalement ie cherche vn diuiseur pour la derniere section 47, en multipliant par 2 le quotient 7603, & vient 15206 pour diuiseur, que ie pose sous le 4, & parce que 15206 n'est pas contenu en 4, ie pose vn zero au quotiẽt, & aussi au costé droict du diuiseur : & ne pouuant plus auancer plus auant, ie conclus que la racine de 5780560947 est 76030, & qu'il en reste 47, auquel si on donne pour denominateur le double du quotient, ce sera trop peu, & si on luy donne le double du quotient auec 1, ce sera trop ; neantmoins on luy donne ordinairement le double du quotient augmenté d'vne vnité : de sorte que la racine du nombre proposé

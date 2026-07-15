@@ -1,47 +1,65 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-*[page number: 3]*
+*[page number: 4]*
 
-*[diagram: circle with points a b c d e]*
+Cuiusmodi sunt anguli a/b/c/ & a/b/d, à recta a/b/ super rectam c/d/ ad perpendiculum incidente, causati. Fit enim recta c/d, in quam cadit a/b,dimetiens circuli, à circunducta b/a,circa punctum b/descripti. Nec possunt ijdem anguli a/b/c/ & a/b/d/ adinuicem æquales esse, quin vterque quadrantem includat circuli: & a/b/ recta,super rectam c/d/ perpendicularis existat. Ex quibus infert consequenter,quod
 
-in b,circum idem punctum a,completè reuoluatur: describens planum circulare b/c/d/e. Nam punctum b/ hoc modo circūductum, lineam efficit orbicularem,quæ circunferentia dicitur:& immotum punctum a, medium,siue centrum eiusdem vocatur circuli.Hinc orta est subscripta circuli,& in ordine decimaquinta diffinitio . Prius quàm autem eiuscemodi linea vniuersum compleuerit orbē, diuersas cum prima & relicta linea facit inclinationes, nusquā ab immoto recedendo pūcto. Hæc igitur linearum super eodem plano sese ita contingētium inclinatio mutua,vel inclinationis habitudo (vt linearum a/ b/ & a/e/ vel a/e/& a/d) & non in directum constitutarum,hoc est,vnam eandémque rectam lineam minimè efficientium (cuiusmodi sunt a/b/& a/d,vel a/c/& a/e)planus vocitatur angulus:qui ab ipso Euclide,hoc modo consequenter diffinitur,
+*[diagram: circle with points a b c d]*
 
-Ἐπίπεδος δὲ γωνία,ἐστὶν ἡ ἐν ἐπιπέδῳ δύο γραμμῶν ἁπτομένων ἀλλήλων, καὶ μὴ ἐπ᾽ εὐθείας κειμένων πρὸς ἀλλήλας τῶν γραμμῶν κλίσις.
+Ἀμβλεῖα γωνία ἐστίν,ἡ μείζων ὀρθῆς.
 
-## 8 Planus angulus,est duarum linearum in plano sese tangentium, & non in directo iacentium,ad alterutram inclinatio.
+## 11 Obtusus angulus,maior est recto
 
-> Planus angulus
+> Obtusus angulus
 
-Hæc autem inclinatio de rectis lineis potissimùm venit intelligenda: tales enim anguli in his primis sex libris geometricorū elementorū præcipuè considerātur.Hinc dicit Euclides,
+Vt angulus e/ f/ g,includens arcum e/ g, quadrante maiorem, descripti circa punctum f/ circuli. Dicitur autem idem angulus e/f/g/obtusus: quoniam e/f/ & f/g/lineæ rectæ,obtusam extrinsecus faciunt inclinationem.
 
-Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν γραμμαὶ εὐθεῖαι ὦσιν,εὐθύγραμμος καλεῖται ἡ γωνία.
+Ὀξεῖα δέ,ἡ ἐλάσσων ὀρθῆς.
 
-## 9 Quando autem quæ angulum continent rectæ lineæ fuerint,rectilineus angulus nuncupatur.
+## 12 Acutus verò,minor est recto.
 
-> Angulus Rectilineus
+> Acutus
 
-Quòd si eædem lineæ datum efficientes angulum fuerint obliquæ,siue curuæ:curuilineus dicetur angulus.quales sunt qui à circunferentiarum causantur intersectionibus. Si autem ex recta & curua angulus ipse cōficiatur: is mixtus venit adpellandus . Veluti sunt anguli ex dimetiēte,seu chorda,& arcubus circulorū comprehensi. Potissima tamen inter planos angulos,rectilineorū apud Geometras ( vti supra diximus) habetur consideratio.
+Veluti angulus e/f/h:cuius arcus e/h/eodem circuli quadrante minor est. Vnde fit,vt e/f/& f/h/ rectarum linearum inclinatio, in acutam conueniat habitudinem.Quanto igitur obtusus angulus e/f/g/maior extiterit,tanto minor erit acutus e/f/h: ipsa porrò linea e/f,incidens in g/h/vocitetur. Et quoniā eiusdem circuli quadrantes sunt adinuicē æquales:non datur propterea rectus angul⁹ altero rectior angulo.Secus,de obtusis,vel acutis angulis:quoniā arcus circuli quadrāte maiores, eodémve quadrante minores varij sunt,atque infiniti.Linearum itaq maior aut minor longitudo,quemadmodùm nec magnitudo circuli,angulū non immutat:hoc est, neque maiorem,neque minorem eundem efficit angulum.
 
-> Planorum angulorū diuersitas.
+*[diagram: circle with points e f g h]*
 
-**A N G V L I.**
-Rectilinei. Curuilinei. Mixti.
+> Cur ōnes anguli recti inuicē æquales.
+> Acutorum & obtusoruman gulorū diuersitas.
+> Linearū quātitas angulū nō immutat.
 
-*[diagram: rectilinear, curvilinear and mixed angles]*
+## De termino & figura.
 
-## Penes quid rectilineorum angulorum attendenda magnitudo.
+CVM AVTEM OMNIS MAGNITVDO FINITA SIT, ET terminata:diffinit cōsequēter Euclides ipsi⁹ magnitudinis terminū,in hūc qui sequitur modū,
 
-CVIVSLIBET IGITVR ANGVLI PLANI RECTILINEI MAgnitudo siue quantitas,dicitur arcus circuli,ab ipsis lineis rectis datū efficientibus angulum comprehēsus:circuli inquā,cuius centrū ad concursum dictarum linearū imaginatur,& qui ad completam minoris earundem linearum reuolutionem describitur. Si datæ itaque lineæ rectæ angulum continentes,quadrantē adamussim comprehendant ipsius circuli: huiusmodi angulus rectus dicitur. Si verò arcum includant quadrante minorem:acutus.Quoties autem idem arcus,quadrantem exuperauerit circuli:datus angulus nominatur obtusus.Quod ex ipso facile colligitur Euclide,cùm dicit,
+Ὅρος ἐστίν,ὅ τινός ἐστι πέρας.
 
-> Angulus, Rectus, Acutus, Obtusus.
+## 13 Terminus est,quod cuiusque finis est.
 
-Ὅταν δὲ εὐθεῖα ἐπ᾽ εὐθεῖαν σταθεῖσα τὰς ἐφεξῆς γωνίας ἴσας ἀλλήλαις ποιῇ, ὀρθή ἐστιν ἑκατέρα τῶν ἴσων γωνιῶν.καὶ ἡ ἐφεστηκυῖα εὐθεῖα,κάθετος καλεῖται ἐφ᾽ ἣν ἐφέστηκεν.
+> Terminus
 
-## 10 Cùm verò recta linea super rectam consistens lineam, vtrobique angulos adinuicem æquales fecerit:rectus est vterque æqualium angulorum.Et quæ superstat recta linea,perpendicularis vocitatur,super quam steterit.
+Vtpote,punctum ipsius lineæ,linea superficiei, superficies denique solidi:quemadmodùm ex eorundem abstractiua descriptione facilè colligitur. Itaque
 
-> Anguli recti diffinitio.
-> Linea perpendicularis.
+Σχῆμά ἐστι,τὸ ὑπό τινος ἢ τινῶν ὅρων περιεχόμενον.
 
-> *[handwritten: vero; basis vocatur. Legitur in veteri exemplari romano D. Danesio. Auth.]*
+## 14 Figura sub aliquo,vel aliquibus terminis comprehenditur.
 
-a.ij.
+> figura
+
+Sub aliquo quidem,vt planū circulare,vel solidum sphæricum:sub aliquibus verò,vt triāgulum vel quadrangulū inter planas,& cubū aut pyramis inter solidas,& quæ sunt eiuscemodi. Sed de planis figuris,atq de lineis & angulis in eodē plano constitutis,his sex prioribus libris determinandum.
+
+> Notandum.
+
+## De circulo,eiúsque partibus.
+
+INTER FIGVRAS, QVAE PLANAE VOCANTVR, EA DICItur esse simplicissima,quæ vnico comprehenditur termino:cuiusmodi videtur esse circulus. Hunc itaque primùm diffinit Euclides,
+
+> *[handwritten: Planarū figurarū simplicissima circulus est]*
+
+Κύκλος ἐστὶ σχῆμα ἐπίπεδον, ὑπὸ μιᾶς γραμμῆς περιεχόμενον, ἣ καλεῖται περιφέρεια, πρὸς ἣν ἀφ᾽ ἑνὸς σημείου τῶν ἐντὸς τοῦ σχήματος κειμένου, πᾶσαι αἱ προσπίπτουσαι εὐθεῖαι, ἴσαι ἀλλήλαις εἰσί.
+
+## 15 Circulus, est figura plana, vna linea contenta , quæ circunferentia adpellatur:ad quam ab vno puncto introrsum medio existēte,
+
+> Circulus
+
+> *[handwritten marginal note, largely illegible]*

@@ -1,37 +1,37 @@
-# 91
+# 92 GEOMET. ELEMENT.
 
-*[ornamental headpiece]*
+circuli circunferentia, vnumquenque eius, circum quam describitur, angulum tangit.
 
-# Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quartum elementorum Euclidis, Demonstrationes.
+Figura circularis, ob vniformem & regulatam circunferentiæ à cẽtro distantiam, rectilineas omnes ac regulares figuras, tum intra, tũ extra facilè capit: singulos angulos inscriptæ, vel omnia circunscriptæ contingẽs latera. Quẽadmodùm in præcedentium tertiæ & quartæ diffinitionum elucidationẽ, ostendit descriptum in a/b/c/d/ circulo quadratum: vel idem circulus, quadrato a/b/c/d/ circunscriptus.
 
-## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΕΤΑΡΤΟΝ
+*[diagram: a b c d, 3 4]*
 
-Περὶ τοῦ ἐγγράφεσθαι καὶ περιγράφεσθαι σχῆμα, ὅροι ζ.
+¶ Κύκλος δὲ ὁμοίως εἰς σχῆμα λέγεται ἐγγράφεσθαι, ὅταν ἡ τοῦ κύκλου περιφέρεια ἑκάστης πλευρᾶς, τοῦ εἰς ὃ ἐγγράφεται ἅπτηται.
 
-Σχῆμα εὐθύγραμμον εἰς σχῆμα εὐθύγραμμον ἐγγράφεσθαι λέγεται, ὅταν ἑκάστη τῶν τοῦ ἐγγραφομένου σχήματος γωνιῶν, ἑκάστης πλευρᾶς τοῦ εἰς ὃ ἐγγράφεται ἅπτηται.
+Circulus autem in figura rectilinea describi dicitur: quãdo circuli circunferentia, vnumquodq; latus eius in qua describitur tãgit.
 
-## ¶ De inscriptione ac circunscriptione figurarum, Diffinitiones 7.
+¶ Σχῆμα δὲ εὐθύγραμμον περὶ κύκλον περιγράφεσθαι λέγεται, ὅταν ἑκάστη πλευρὰ τῆς τοῦ κύκλου περιφερείας, τοῦ περιγραφομένου ἐφάπτηται.
 
-FIgura rectilinea, in figura rectilinea describi dicitur: quando vnusquisque inscriptæ figurę angulus, vnumquodque latus eius in qua describitur tãgit.
+Figura verò rectilinea, circa circulũ describi dicitur: quando vnũquodque latus circunscriptæ, circuli circunferentiam tangit.
 
-¶ Σχῆμα δὲ ὁμοίως περὶ σχῆμα περιγράφεσθαι λέγεται, ὅταν ἑκάστη πλευρὰ τοῦ περιγραφομένου, ἑκάστης γωνίας τοῦ περὶ ὃ περιγράφεται ἅπτηται.
+In exemplum, habes circulum a/b/c/d, in quadrato e/f/g/h/ descriptum: atque idem quadratum e/ f/ g/ h, descriptum circa eundem circulum a/b/c/d. Idem respondenter velim intelligas de cæteris quibuscunque regularibus figuris, in circulo, vel circa eundem circulum, prius diffinita ratione descriptis.
 
-Figura autem similiter circa figuram describi dicitur: quando vnumquodq; latus circunscriptæ, vnumquenq; angulum eius circum quam describitur tangit.
+*[diagram: a b c d e f g h, 5 6]*
 
-ORONTIVS. ¶ Huiuscemodi figurarum inscriptiones ac circunscriptiones, de regularibus, hoc est, æqualia latera, & angulos inuicè æquales habentibus (exceptis forsitan triangulis, in quæ cæteræ resoluuntur rectilineæ figuræ) veniunt potissimùm intelligendæ. Inscribuntur præterea, atque inuicem circunscribuntur rectilineę tantũmodò figuræ, quæ eiusdem sunt speciei: vtpote, triangulũ triãgulo, quadratũ quadrato, pẽtagonũ pẽtagono: &c. Oportet enim tot esse latera circũscriptæ, quot ipsius inscriptę sunt anguli. Quanquàm porrò circulus non sit figura rectilinea: propter illius tamen regularitatem, possunt & ipsæ rectilineæ ac æquilateræ figuræ, circulo inscribi ac circunscribi, & è diuerso.
+¶ Εὐθεῖα εἰς κύκλον ἐναρμόζεσθαι λέγεται, ὅταν τὰ πέρατα αὐτῆς, ᾖ ἐπὶ τῆς περιφερείας τοῦ κύκλου.
 
-> Quæ figuræ inscribátur & circũscribantur adinuicẽ.
+Recta linea circulo congruere dicitur: quando eius extrema, in circuli circunferentiam cadunt.
 
-*[diagram: a b c d e f, 1 2]*
+Quanquàm hæc vltima diffinitio, tam de circuli dimetientibus, quàm de cæteris rectis non per cẽtrum eductis (quas vocant chordas) sit intelligenda: ipsas tamen rectas circuli dimetiente minores potissimùm respicere videtur, quę sunt videlicet latera inscribendarum intra circulum rectilinearum figurarum. Cuiusmodi videtur esse recta b/c: cuius extrema, siue limites b/ & c, in dati circuli a/b/c/ circunferentiam cadunt.
 
-In exẽplum igitur primæ ac secundæ diffinitionis, habes obiectum a/b/c/ triangulum æquilaterum, descriptũ in d/e/f/ triangulo: vel ipsum d/e/f/ triangulum, ipsi a/b/c/ triangulo respondenter circunscriptum.
+*[diagram: a b c, 7]*
 
-¶ Σχῆμα δὲ εὐθύγραμμον εἰς κύκλον ἐγγράφεσθαι λέγεται, ὅταν ἑκάστη γωνία τοῦ ἐγγραφομένου, ἅπτηται τῆς τοῦ κύκλου περιφερείας.
+Πρόβλημα α, Πρόθεσις α.
 
-Figura rectilinea, in circulo describi dicitur: quando vnusquisque angulus inscriptæ, circuli circunferentiam tangit.
+Εἰς τὸν δοθέντα κύκλον τῇ δοθείσῃ εὐθείᾳ μὴ μείζονι οὔσῃ τῆς τοῦ κύκλου διαμέτρου, ἴσην εὐθεῖαν ἐναρμόσαι.
 
-¶ Κύκλος δὲ περὶ σχῆμα περιγράφεσθαι λέγεται, ὅταν ἡ τοῦ κύκλου περιφέρεια ἑκάστης γωνίας, τοῦ περὶ ὃ περιγράφεται ἅπτηται.
+## Problema 1, Propositio 1.
 
-Circulus verò, circa figuram rectilineam describi dicitur: quando
+IN dato circulo, datæ rectæ lineæ minimè maiori circuli diametro existenti: æqualem rectam lineam coaptare.
 
-h.iiij.
+ORONTIVS. ¶ Sit data recta linea a, non maior dimetiente dati circuli b/c/d/ (non intraret enim circulum, si foret maior: quoniam in circulo maximus est dimetiens, per decimamquintam tertij) in quo quidem circulo oporteat ipsi datæ rectæ lineæ a, æqualẽ rectã lineã coaptare. Producatur ergo circuli b/c/d,

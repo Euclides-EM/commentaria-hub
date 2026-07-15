@@ -1,65 +1,59 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-*[page number: 4]*
+*[page number: 5]*
 
-Cuiusmodi sunt anguli a/b/c/ & a/b/d, à recta a/b/ super rectam c/d/ ad perpendiculum incidente, causati. Fit enim recta c/d, in quam cadit a/b,dimetiens circuli, à circunducta b/a,circa punctum b/descripti. Nec possunt ijdem anguli a/b/c/ & a/b/d/ adinuicem æquales esse, quin vterque quadrantem includat circuli: & a/b/ recta,super rectam c/d/ perpendicularis existat. Ex quibus infert consequenter,quod
+omnes prodeuntes lineæ,in ipsius circuli circunferētiam incidentes,adinuicem sunt æquales.
 
-*[diagram: circle with points a b c d]*
+> *[handwritten above line: rectæ]*
 
-Ἀμβλεῖα γωνία ἐστίν,ἡ μείζων ὀρθῆς.
+Hęc diffinitio,ex data nuper(cùm de planis loqueremur angulis)abstractiua circuli descriptione fit manifesta. Cùm enim a/b/recta linea data, circum a/ punctum completè reuoluitur : punctum b/ suo motu circunferentiam causat, & immotum punctum a/ in circuli centrum permutatur.Hoc itaq circuli centrum,secundum longitudinē ipsius a/b/rectæ lineæ datæ, ex omni parte distabit à circunferentia. Ex quo necessum est,omnes rectas lineas ab ipsius circuli centro in circunferentiam eiusdem incidentes, fore eidem a/b (ex qua circulus describitur) atque adinuicem æquales. Hoc est , eiusdem circuli circunferentiam à suo cētro æqualiter vndiquaq distare Hinc dicit consequenter,
 
-## 11 Obtusus angulus,maior est recto
+*[diagram: circle with points a b c d e]*
 
-> Obtusus angulus
+Κέντρον δὲ τοῦ κύκλου,τὸ σημεῖον καλεῖται.
 
-Vt angulus e/ f/ g,includens arcum e/ g, quadrante maiorem, descripti circa punctum f/ circuli. Dicitur autem idem angulus e/f/g/obtusus: quoniam e/f/ & f/g/lineæ rectæ,obtusam extrinsecus faciunt inclinationem.
+## 16 Centrum verò ipsius circuli, punctum adpellatur.
 
-Ὀξεῖα δέ,ἡ ἐλάσσων ὀρθῆς.
+> Centrū
 
-## 12 Acutus verò,minor est recto.
+> *[handwritten above line: nempe [?] a b]*
 
-> Acutus
+De puncto medio velim intelligas: vt punctum a, in obiecta circuli figura b/c/d/e. Lineæ nanque limites sunt puncta : quorum immotum(circa quod videlicet alterum in circuli descriptione circunducitur)in medio permanet,& centrum efficitur circuli.
 
-Veluti angulus e/f/h:cuius arcus e/h/eodem circuli quadrante minor est. Vnde fit,vt e/f/& f/h/ rectarum linearum inclinatio, in acutam conueniat habitudinem.Quanto igitur obtusus angulus e/f/g/maior extiterit,tanto minor erit acutus e/f/h: ipsa porrò linea e/f,incidens in g/h/vocitetur. Et quoniā eiusdem circuli quadrantes sunt adinuicē æquales:non datur propterea rectus angul⁹ altero rectior angulo.Secus,de obtusis,vel acutis angulis:quoniā arcus circuli quadrāte maiores, eodémve quadrante minores varij sunt,atque infiniti.Linearum itaq maior aut minor longitudo,quemadmodùm nec magnitudo circuli,angulū non immutat:hoc est, neque maiorem,neque minorem eundem efficit angulum.
+Διάμετρος δὲ τοῦ κύκλου,ἐστὶν εὐθεῖά τις,διὰ τοῦ κέντρου ἠγμένη,καὶ περατουμένη ἐφ᾽ ἑκάτερα τὰ μέρη ὑπὸ τῆς τοῦ κύκλου περιφερείας,ἥτις καὶ δίχα τέμνει τὸν κύκλον.
 
-*[diagram: circle with points e f g h]*
+## 17 Dimetiens circuli,est recta quædam linea per centrum acta,& ex vtraque parte in circuli circunferētiam terminata, quæ circulum bifariam dispescit.
 
-> Cur ōnes anguli recti inuicē æquales.
-> Acutorum & obtusoruman gulorū diuersitas.
-> Linearū quātitas angulū nō immutat.
+> Diameter
 
-## De termino & figura.
+Cuiusmodi est linea b/d/supra scripti circuli b/c/d/e,per a/centrum vtrinque producta: & quæcunque illi similis.Dimetiens enim,siue diameter, propriè circulorum esse videtur:diagonius autem,rectilinearum figurarum:axis verò,solidorum.
 
-CVM AVTEM OMNIS MAGNITVDO FINITA SIT, ET terminata:diffinit cōsequēter Euclides ipsi⁹ magnitudinis terminū,in hūc qui sequitur modū,
+> Dimetiētis à diagonio & axe differētia.
 
-Ὅρος ἐστίν,ὅ τινός ἐστι πέρας.
+Ἡμικύκλιον δέ,ἐστὶ τὸ περιεχόμενον σχῆμα ὑπό τε τῆς,διαμέτρου καὶ τῆς ἀπολαμβανομένης ὑπὸ τῆς τοῦ κύκλου περιφερείας.
 
-## 13 Terminus est,quod cuiusque finis est.
+## 18 Semicirculus,est figura quæ sub dimetiente,& ea quæ ex ipsa circuli circunferentia sublata est,cōtinetur.
 
-> Terminus
+> Semicirculus
 
-Vtpote,punctum ipsius lineæ,linea superficiei, superficies denique solidi:quemadmodùm ex eorundem abstractiua descriptione facilè colligitur. Itaque
+Vt ea figura , quæ ex f/h/ dimetiente , & dimidia circuli circunferentia f/ g/ h/ comprehenditur . Semicirculus enim cùm sit dimidium circuli: non potest alijs lineis quàm dimetiente, & media claudi circunferentia.
 
-Σχῆμά ἐστι,τὸ ὑπό τινος ἢ τινῶν ὅρων περιεχόμενον.
+*[diagram: semicircle with points f g h]*
 
-## 14 Figura sub aliquo,vel aliquibus terminis comprehenditur.
+Τμῆμα κύκλου,ἐστὶ τὸ περιεχόμενον ὑπό τε εὐθείας καὶ κύκλου περιφερείας.
 
-> figura
+## 19 Sectio circuli,est figura quæ sub recta linea,& circuli circunferentia aut maiore aut minore semicirculo,continetur.
 
-Sub aliquo quidem,vt planū circulare,vel solidum sphæricum:sub aliquibus verò,vt triāgulum vel quadrangulū inter planas,& cubū aut pyramis inter solidas,& quæ sunt eiuscemodi. Sed de planis figuris,atq de lineis & angulis in eodē plano constitutis,his sex prioribus libris determinandum.
+> Sectio circuli
 
-> Notandum.
+Cùm enim recta linea per circuli centrum minimè ducitur, vtrinque tamen in circunferentiam terminatur:ea circulum ipsum in binas partes dispescit inæquales , quæ circuli sectiones adpellantur . Quarum ea quæ centrum includit circuli, vt k/l/m/obiectæ descriptionis,maior dicitur: reliqua verò, vt k/n/m,minor adpellatur.Ipsa porrò linea recta k/m,chorda siue subtensa: & comprehensa circunferentiæ pars, arcus respondenter nominatur.
 
-## De circulo,eiúsque partibus.
+*[diagram: circle with points k l m n]*
 
-INTER FIGVRAS, QVAE PLANAE VOCANTVR, EA DICItur esse simplicissima,quæ vnico comprehenditur termino:cuiusmodi videtur esse circulus. Hunc itaque primùm diffinit Euclides,
+> Chorda. Arcus.
 
-> *[handwritten: Planarū figurarū simplicissima circulus est]*
+## De rectilineis figuris.
 
-Κύκλος ἐστὶ σχῆμα ἐπίπεδον, ὑπὸ μιᾶς γραμμῆς περιεχόμενον, ἣ καλεῖται περιφέρεια, πρὸς ἣν ἀφ᾽ ἑνὸς σημείου τῶν ἐντὸς τοῦ σχήματος κειμένου, πᾶσαι αἱ προσπίπτουσαι εὐθεῖαι, ἴσαι ἀλλήλαις εἰσί.
+POST CIRCVLAREM FIGVRAM, QVAE VNICO CLAVDITVR
 
-## 15 Circulus, est figura plana, vna linea contenta , quæ circunferentia adpellatur:ad quam ab vno puncto introrsum medio existēte,
-
-> Circulus
-
-> *[handwritten marginal note, largely illegible]*
+a.iij.

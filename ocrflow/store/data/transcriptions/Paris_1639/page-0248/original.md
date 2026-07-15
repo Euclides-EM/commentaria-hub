@@ -1,30 +1,22 @@
-# Page 247
+# Page 248
 
-# D'EVCLIDE, LIV. VI.
-
-II.
-
-Les figures sont reciproques, quand les termes antecedens & consequens des raisons sont en l'vne & en l'autre figure.
+# LES ELEMENTS
 
 (figure)
 
-hyp. | abcd & ebgf *ſnt* ◊,
-hyp. | ab π bg 2|2 eb π bc,
-2.d.6 | abcd & ebgh *ſnt figures reciproques.*
+abce & bce *ſont* △;
+abe *eſt* ——,
+cd ⊥ ae,
+cd *eſt la hauteur des* △; abc & bce, *au reſpect des baſes* ab & be.
 
-Aux figures semblables le premier & quatriesme termes ne peuuent estre en la mesme figure: mais aux figures reciproques le premier & quatriesme termes sont tousiours en la mesme figure.
+D'où s'ensuit, que si les trois perpendiculaires tirées de trois angles d'vn triangle sur les costez opposez, continuez directemẽt, si besoin est, sont inégales, le triangle aura trois hauteurs differẽtes.
 
-III.
+V.
 
-Vne ligne droicte est dite estre coupée selon la moyenne & extréme raison, quand la toute est au plus grand segment, comme le plus grand segment est au moindre.
+Vne raison est dite estre composée de raisons, quand les quantitez des raisons multipliées entr'elles font quelque raison.
 
-(figure)
+Les quantitez de deux raisons multipliées l'vne par l'autre, produisent la quantité ou denomination de la raison composée d'icelles, & non la raison composée d'icelles. Et est manifeste de la 20. def. du 5. que la composition ou addition des raisons se doit faire par la multiplication, comme il est dit en cette 5. definition: Car si le premier terme contient le second, par exemple, quatre fois: & le second le troisiesme, cinq fois: le premier contiendra le troisiesme vingt fois, qui se trouue en multipliant 4 par 5, comme il appert aux trois nombres suiuants.
 
-hyp. | ab π ac 2|2 ac π cb.
-3.d.5 | *AB eſt coupée en la moyenne & extréme raiſon.*
+60 —— 15 —— 3
 
-Cette section en la moyenne & extréme raison, est nommée proportion diuine par quelques Mathematiciens, à cause qu'elle est fort frequente en la stereometrie, principalement au 13. des elem.
-
-IV.
-
-La hauteur de quelconque figure est la ligne perpendiculaire menée du sommet sur la base.
+Or pour plus grande intelligence de la composition des raisons, nous mettrons icy la logistique des raisons, c'est à dire, l'addition, soustraction, multiplication, & diuisions des raisons, l'intelligence desquelles dependent des quantitez ou nombres qui s'entresuiuent, & se referent les vns aux autres continuëment: Car le fondement de l'addition & soustraction est la 20 definition du 5. & de la multiplication & diuision, la 10 def. du mesme 5 liure, qui pre-

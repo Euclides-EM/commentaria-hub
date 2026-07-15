@@ -1,22 +1,24 @@
-# Page 352
+# Page 353
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-Pour sçauoir en combien de temps il les pourra faire moudre, ie suppose 30 heures & trouue que le premier moulin en 30 heures en moudra 60 boisseaux, le second 45, le troisiesme 40, & le quatriesme 36, qui adioustez ensemble font 181 ; partant ordonnant la regle de trois ainsi, si
+*Exemple 1.*
 
-181 —— 30 *h.* —— 200. R. 33 27/181.
+Trouuer trois nombres, qui adioustez ensemble facent 60, & que le second excede le double du premier de 4, & le troisiesme surpasse la somme du premier & second de 6.
 
-on trouuera 33 27/181, qui font 33 heures & prés de 9 minutes d'heure.
+Si on suppose que le premier nombre soit 6, le second sera 16, & le troisiesme 28, qui adioustez ensemble font 50, qui differe du nombre donné 60 de 10, partant ie pose l'erreur 10 vis à vis du nombre supposé 6 auec le signe de moins.
 
-Pour sçauoir combien il faut donner à chaque moulin, on ordonnera les regles de trois comme s'ensuit :
+Puis si on suppose que le premier nombre soit 8, le second sera 20, & le troisiesme 34, qui adioustez ensemble font 62, qui differe du nombre donné 60 de 2 : partant ie pose l'erreur 2 vis à vis du nombre supposé 8, auec le signe de plus.
 
-181 { 60 —— 200 { 66 54/181,
-45 —— 49 131/181,
-40 —— 44 36/181,
-36 —— 39 141/181.
+Maintenant pour venir à la regle de trois, i'adiouste les erreurs 10 & 2 ensemble, à cause que leurs signes sont dissemblables, à sçauoir l'vne de moins, & l'autre de plus, & ie mets la somme 12 au premier lieu de la regle de trois, le premier erreur 10 au second, & la difference des nombres supposez qui est 2 au troisiesme, & trouue par la regle de trois 1 1/2 que i'adiouste auec 6, qui est la premiere supposition, la somme 7⅔ est le premier nombre des incognus pour lequel ont esté faites les suppositions : & par consequent le second sera 19⅓, & le troisiesme 33, qui adioustez ensemble font le nombre donné 60.
 
-*La somme est 200 boisseaux.*
+Pour faire l'operation, on a couché les nombres ainsi,
 
-DE LA REGLE DE DEVX *fausses positions.*
+6 ~ 10
+8 + 2   6
+——
+12 —— 10 —— 2. R. 1⅔.
+——
+*Somme pour le premier 7⅔.*
 
-Il faut supposer deux fois pour le mesme nombre incognu, en faisant la seconde supposition plus grande que la premiere, & marquer l'excez par le signe de plus, & le defaut par le signe de moins : puis soit mise au premier lieu de la regle de trois la somme ou la difference des erreurs, à sçauoir la somme, si les signes sont differens, & la difference s'ils sont semblables : au second lieu de la regle de trois on mettra tousiours le premier erreur, & au troisiesme la difference des nombres supposez. Et le nombre qu'on trouuera par la regle de trois estant adiousté auec le nombre de la premiere supposition, donnera tousiours le requis, si les erreurs estant marquez par mesme signe le second n'est plus grand que le premier : car en ce cas il faudra soustraire le nombre trouué par la regle de trois du nombre de la premiere supposition.
+Que si on eust supposé pour le premier nombre des incognus 5, puis 6, on eust trouué pour l'erreur de la premiere supposition

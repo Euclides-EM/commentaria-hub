@@ -1,45 +1,45 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-*[page number: 14]*
+*[page number: 15]*
 
-> *[handwritten: Rectam lineam terminatam in continuū rectum q̄ producere.]*
-> *[handwritten: Duabus datis rectis lineis inequalibus a maiori minorē equā rectam lineam abscindere]*
-> *[handwritten: Que eidem equalia adminicem sunt equalia]*
+c/b/ trianguli a/c/b, æqualia binis lateribus c/b/ & b/d/ ipsius trianguli c/b/d.quæ cùm æquales adinuicem comprehendant angulos a/b/c/& a/c/b,per hypothesin:basis a/b/dati a/c/b/trianguli,foret æqualis basi c/d/ipsius triāguli c/b/d,per quartam propositionem:ipsum deniq triangulum a/b/c,ipsi triangulo d/b/c/æquale, totum videlicet suæ parti.quod per nonam communem sententiā est impossibile.Non est igitur a/b/latus,maius a/c.Similiter ostendetur,quòd neq minus.Aequū est itaq latus a/b,ipsi lateri a/c. Si trianguli itaq duo anguli æquales adinuicem fuerint,æquales quoq angulos subtendentia latera æqualia adinuicem erunt.Quod fuerat ostendendum.
 
-per secundum postulatum. Aio itaque primùm, angulos a/b/c/ & a/c/b, qui ad basin b/c,fore adinuicē æquales:angulum præterea d/b/c,angulo b/c/e/sub eadē basi b/c/cōstituto,itidem coæquari. Suscipiatur enim in b/d/recta cótingens punctū, sitq illud d:& data recta b/d,secetur ei æqualis c/e,per tertiam propositionem:connectantúrq b/e,& c/d,lineæ rectæ,per primū postulatū. Cùm igitur a/b/sit æqualis a/c,per hypothesin,& b/d/ipsi c/e,per cōstructionē:erit & a/d/ipsi a/e,per secundam communē sententiā,æqualis.Bina ergo latera a/b/& a/e/trianguli a/b/e,sunt æqualia duobus a/c/& a/d/triāguli a/c/d,alterum alteri: est́q angulus qui ad a/sub æquis lateribus comprehēsus,vtriq triāgulo communis.Basis igitur b/e/ basi c/d/ est æqualis,& totū triangulum a/b/e/ toti triāgulo a/c/d/æquale,atq reliqui anguli reliquis angulis, sub quibus æqualia subtenduntur latera,respódenter æquales,vtpote,a/b/e/ipsi a/c/d,& a/d/c/ipsi a e b:per quartā propositionem. Rursum,quoniā b/d/ipsi c/e/per constructionē est æqualis,& b/e/ ipsi c/d/æqualis ostensa est:bina propterea latera d/b/& d/c/ triāguli d/b/c,duobus e/b/& e/c/ipsius e/b/c/ triāguli laterib⁹ sunt alternatim æqualia.& cōtētos sub ipsis æqualibus lateribus angulos,vtpote,qui ad d/& e/monstrauimus æquales:eandémq basin subtendunt b/c.Triangulū igitur d/b/c,triangulo e/b/c/est æquale, & reliqui anguli reliquis angulis,sub quibus æqualia subtenduntur latera,adinuicē æquales:per eandem quartā propositionē.Angulus itaq d/b/c, angulo b/c/e/est æqualis: necnō angulus b/c/d, ipsi angulo b/c/e. Totus porrò angulus a/b/e,toti angulo a/c/d/æqualis nuper ostēsus est.Igitur si ab eisdem æqualibus angulis a/b/e/& a/c/d, æquales auferantur anguli b/c/d/& c/b/e:qui relinquentur anguli a/b/c/ & a/ c/ b/ ad basin b/c,erunt per tertiam communem sententiam adinuicem æquales.Et qui sub eadē basi b/c/sunt anguli,vtpote,d/b/c/& b/c/e,nunc quoq móstrati sunt æquales. Isosceliū ergo triangulorū,qui ad basin sunt anguli &c.vt in theoremate.Quod demonstrare oportebat.
+*[diagram: triangle a b c with point d]*
 
-*[diagram: isosceles triangle a b c with lines to d and e]*
+> *[handwritten: Si duo triangula duo latera duobus lateribus &c.]*
 
-> Primus ostensionis discursus.
-
-> Secundus.
-
-> *[handwritten: Si duo triangula duo latera duobus lateribus equalia habuerint... vtrūq alterum angulum equalem sub equalibus rectis lineis...]*
-
-> Recollectio demonstrationis.
-
-> *[handwritten: Si ab equalibus equalia aufferantur que relinquuntur equalia erunt.]*
-
-> *[handwritten: ad inuicem sunt equales & productis equalibus rectis lineis qui sub basi sūt anguli adinuicem equales erūt]*
+> *[handwritten: Totum est sua parte maius.]*
 
 ## Corollarium.
 
-Hinc manifestum est,triangulum æquilaterum tres angulos adinuicem æquales continere. Quoniam binatim sumpta latera, semper offenduntur æqualia: & duo quoq anguli omnifariam sumpti consequenter æquales.
+Et proinde fit manifestum, triangulum æquiangulum, fore versa vice æquilaterum.anguli enim binatim sumpti,semper offenduntur æquales: & duo quoq latera omnifariam sumpta,respondenter æqualia.
 
-Θεώρημα γ, Πρόθεσις ς.
+Θεώρημα δ, Πρόθεσις ζ.
 
-Ἐὰν τριγώνου αἱ δύο γωνίαι ἴσαι ἀλλήλαις ὦσι,καὶ αἱ ὑπὸ τὰς ἴσας γωνίας ὑποτείνουσαι πλευραὶ ἴσαι ἀλλήλαις ἔσονται.
+Ἐπὶ τῆς αὐτῆς εὐθείας δυσὶ ταῖς αὐταῖς εὐθείαις, ἄλλαι δύο εὐθεῖαι ἴσαι ἑκατέρα ἑκατέρᾳ οὐ συσταθήσονται,πρὸς ἄλλῳ καὶ ἄλλῳ σημείῳ ἐπὶ τὰ αὐτὰ μέρη τὰ αὐτὰ πέρατα ἔχουσαι ταῖς ἐξ ἀρχῆς εὐθείαις.
 
-## Theorema 3, Propositio 6.
+## Theorema 4, Propositio 7.
 
-6 SI trianguli duo anguli , æquales adinuicem fuerint: æquales quoq angulos subtendentia latera æqualia adinuicem erunt.
+7 SVper eadem recta linea, duabus eisdem rectis lineis,aliæ duæ rectæ lineæ æquales altera alteri non constituentur,ad aliud atque aliud punctum, ad easdem partes, eosdem fines primis rectis lineis possidentes.
 
-ORONTIVS.Esto a/b/c/triāgulū,cuius anguli a/b/c/& a/c/b/sint adinuicē æquales.Dico propterea,quòd latus a/b/æquū est lateri a/c.Si nanq a/b/ & a/c/latera forent inæqualia,alterum esset maius:vtpote, a/b.Posset itaq à maiori a/b,secari ipsi a/c/minori æqualis,per tertiā propositionē.esto igitur b/d: & connectatur c/d/ recta,per primum postulatum.Cadet igitur recta c/d/ intra triangulum a/b/c:diuidétq latus a/b,& angulum a/c/b/in duos angulos,atq datum a/b/c/triangulum in bina triangula a/c/d/ & d/b/c.Atqui a/b/c/triangulum,ipso d/b/c/triangulo(nempe totum sua parte)maius est:per nonam communem sententiam.Quòd si a/c/recta foret æqualis ipsi b/d,& b/c/sit vtriq triangulo communis:essent bina latera a/c/&
+> *[handwritten above line: productis]*
 
-> *[handwritten: Duabus datis rectis lineis inequalibus a maiori minorē equā rectam lineam abscindere.]*
+ORONTIVS. Super data inquàm recta linea a/b, duæ rectæ lineæ a/c/& b/c,à limitibus a/& b,ad datum punctum c/constituantur. Dico quòd super eadem a/b,aliæ duæ rectæ lineæ,vtpote a/d/& b/d,ad aliud punctum,hoc est d, ad easdem quoq partes,non constituentur eisdem a/c/&b/c/altera alteri æquales,vtpote a/d/ ipsi a/c,& b/d/ ipsi b/c, eosdem fines a/& b,cum eisdem primis rectis lineis a/c/& b/c/possidentes. Aut enim punctum d/ cadet in alterutram linearum a/c/& b/c,vel intra easdem,aut extra.Atqui in alterutram datarum linearum,ipsum d/punctum minimè potest incidere . Cadat enim (si possibile sit) in rectam b/c.coincidet igitur b/d/recta,super rectam b/c: & cùm d/sit aliud pūctum quàm c, erit eadem b/d/pars ipsius b/c. Non erit igitur b/d,æqualis b/c: totum enim foret æquale suæ parti,contra nonā communem sententiam. Similiter ostendetur, ꝗ neq in a/c/rectam,neq in alterutrā aut a/c/aut b/c/in continuū rectúmq producta,cadet idem punctū d.Dico præterea,ꝗ neq intra easdē lineas a/c/ & b/c, ipsum d/pūctū potest incidere.Esto enim(si fuerit possibile)vt in subscripta figura.& cónexa c/d/ recta,per primū postulatū,vtraq a/c/& a/d, per secundū postulatū,in continuū rectúmq,vsq ad e/& f/ signa producatur.Triāgula igitur a/c/d/& b/c/d/super eadē basi c/d/cōstituta,foret isoscelia.& angulus propterea a/c/d,æquus esset angulo a/d/c:necnō b/c/d/ angulus, ipsi b/d/c/respondenter æqualis,per primā partē quintæ propositionis:& per secundā eiusdem propositionis partem,qui sub eadem basi c/d/fiunt anguli,adinuicē quoq
 
-> Demōstratio ab impossibili
+*[diagram: triangle a b with points c d]*
+
+> Prima figuræ dispositio.
+
+> *[handwritten: Totum ē sua parte maius.]*
+
+> Secunda.
 
 > *[handwritten: Ab oī puncto in oē punctum rectam lineam ducere.]*
 
-> *[handwritten: Totum est sua parte maius.]*
+> *[handwritten: Rectam lineam terminatam in continuum rectum q̄ producere.]*
+
+*[diagram: triangles a b with points c d e f]*
+
+> *[handwritten: 5 propositiō Isoscelium triangulorū qui ad bazim sunt anguli ad inuicem sunt equales & productis equalibus rectis lineis qui sub bazi sunt anguli ad muicem equales &c.]*
+
+b.ij.

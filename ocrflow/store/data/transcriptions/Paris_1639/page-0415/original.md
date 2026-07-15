@@ -1,33 +1,29 @@
-# Page 414
+# Page 415
 
 # DES FORTIFICATIONS.
 
-donné 27 toises & 26″, il est manifeste que le logarithme de 27 toises & 26″ est 143539, que nous auons mis en cette regle.
+auec BD 4525″ & RG 4525″, fera 16250″ ou 162 1/2 toises pour BG costé du polygone externe  Et la moitié de BG est 81 1/4 pour BS ou SG.  Ostant la demie courtine Hr 36 de Hn 4947″, restera 1347 ou 13 47/100 toises, pour rn ou son égale rd.
 
-Pour auoir le flanc CH, on dit, si
+Pour trouuer OS au triangls BSO, on dira. si
 
-∠CHF   CF   ∠HFC   CH
-90 deg. —— 27:26 —— 40 deg.   R. 17:52
-1000000   143539   980807   124346
+∠BOS   BS   ∠SBO   OS
+70 deg. 30′   81 1/2   19 deg. 30′.   R. 28:86
+997435   191114   952350   146029
 
-Pour trouuer Hn, au triangle HnC, on dira, si
+En cette regle pour auoir le logarithme de 81 1/2 toises, on a adioûté au logarithme de 81, qui est 190848, la moitié de la difference 533, qui se trouue entre les logarithmes de 81 & 82 toises.
 
-∠HnC   HC   ∠HCn   Hn
-19 deg. 30′   17:52   70 deg. 30   R. 49:47
-952350   124346   997435   169431
+Pour trouuer Ar au triangle ArF, on dira, si
 
-En cette regle nous auons pris pour le logarithme de 17 toises 52″ 124346, qui nous a donné en la precedente les 17 toises 52″.
+∠FAr   Fr   ∠AFr   Ar
+36 deg.   5736″   54 deg.   R. 7895″
+976922   175859   990796   189733
 
-Pour auoir Cn, on dira, si
+En cette regle pour auoir le logarithme de 57 36/100, on a pris le logarithme de 57 toises, qui est 175587, puis pour auoir le logarithme de la fraction 36/100, on a multiplié par 36 le nombre interlinaire 755, qui se trouue dans la table entre les logarithmes de 57 & 58 toises, & du produict 27180, ayant retranché deux figures, à cause du diuiseur 100, il en est resté 271, qui a esté augmenté d'vne vnité, parce que les deux figures retranchées valent 80, qui excede la moitié de 100 ; & par ainsi, adioustant 272 auec 175587, il en est venu 175859, pour le logarithme de 5736″.
 
-∠HnC   HC   ∠CHn   Cn
-19 deg. 30′   17:52   90 deg.   R. 52:48
-952350   124346   1000000   171996
+Pour trouuer AF, on dira, si
 
-Que si le pan à la courtine est comme 2 à 3, ordonnant la regle de trois ainsi, si
+∠FAR   Fr   ∠ArF   AF ou AL
+36 deg.   5736″   90 deg.   R. 97:58
+976922 —— 175859 —— 1000000 —— 198937
 
-2 —— 3 —— 48 —— R. 72.
-
-on trouuera 72 toises pour la courtine MH.
-
-Maintenant adjoustant CD 1602″ auec CH 1752″, viendra 3354″, ou 33 54/100 toises, pour DH ou son égale Sr.  Adioustant aussi BC 48, auec Cn 5248″, viendra 10048″, ou 100 48/100 toises pour la ligne de defense razante Bn.  Ostant Hn 4947″ de la courtine HM 72, restera 2253″, ou 22 53/100 toises, pour le second flanc Mn ou son égal Hd.  La courtine HM 72 estant adioustée auec les lignes de gorges FH 2136″ & LM 2136″, fera 11472″ ou 114 72/100 toises, pour FL costé du polygone interne.  La mesme courtine HL 72 estant adioustée
+Maintenant adioustant Ar 7895″ auec rS 3354″, viendra 11249″

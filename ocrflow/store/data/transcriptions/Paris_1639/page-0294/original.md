@@ -1,33 +1,25 @@
-# Page 293
+# Page 294
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-sous le 5, & ne restera rien : & parce qu'il ne reste rien, ie conclus qu'il n'y a point d'erreur en l'addition des quatre nombres du second exemple.
+rang, i'oste 4 de 7, & reste 3, que ie pose au dessous : & ainsi ie trouue qu'ayant osté 432 de 796 restera 364. S'il arriue que quelque figure du nombre inferieur excede la figure superieure correspondante, on empruntera 1 qui vaudra 10, de la premiere figure des superieures vers senestre qui aura quelque valeur (n'oubliant que tous les zero, qui seront entre la figure de qui on emprunte, & celle pour qui on a emprunté, apres cet emprunt, vaudront chacun 9) & ayant adiousté la dixaine qu'on aura emprunté, auec celle de qui il falloit oster, on fera la soustration escriuant le reste au dessous : comme en l'exemple suiuant.
 
-La preuue de l'addition se fait aussi en rejettant 9 tant que faire se peut, mais elle n'est pas si seure que la precedente, qui se faict par soustraction.
+*Exemple 2.*
 
-4 3 8
-5 9 6
-1 7
-4 3 2
+7 0 0 4
+4 9 6 8
 ——
-1 4 8 3
+2 0 3 6
 
-F7 7G
+Soit à soustraire 4968 de 7004, ayant couché le moindre nombre sous le plus grand, & tiré vne ligne au dessous, ie veux soustraire 8 de 4, mais d'autant que cela ne se peut faire, ie prẽs 1 de 7, premiere des superieures vers senestre qui a valeur, & faisant valoir cette vnité que i'ay emprunté 10, auec le 4 fera 14, & de 14 i'oste 8, & reste 6, que ie pose au dessous : & à cause que l'vnité que ie pris du 7 valoit 1000 & non 10, pour recompenser cette valeur de 1000, on fera valoir les zero qui sont entre 7 & 4 chacun 9, & par ainsi pour continuer la soustration au second rang, i'oste 6 de 9 & reste 3, que ie pose au dessous : au troisiesme rang, i'oste 9 de 9 & reste 0, que i'escris au dessous : au quatriesme rang, i'oste 4 de 6, qui restent au 7, de qui i'auois emprunté 1, & reste 2 que ie mets au dessous, & ce faisant ie trouue 2036 pour le reste de la soustraction. Autre exemple.
 
-Comme en cet exemple, pour faire la preuue en rejettant 9 tant que faire se peut, commençant au premier nombre superieur, on dira, 4 & 3 sont 7, & 8 sont 15, qui surpasse 9, partant i'oste 9 de 15, & reste 6 : puis i'adiouste le reste 6 auec 5 du prochain nombre inferieur, la somme est 11, de qui i'oste 9, & reste 2, que i'adiouste auec le 6 & 1 qui suiuent, sautant le 9 qu'il ne faut pas prendre, & rejettant la somme 9 ne reste rien : & ainsi continuant, ie dis 7 & 4 sont 11, ostez 9, reste 2 : 2 de reste, auec 3, & 2 qui suiuent sont 7, que i'escris à part en F.
+*Exemple 3.*
 
-Puis i'oste aussi les 9 de la somme 1483, en disant 1 & 4 sont 5, & 8 sont 13, ostez 9 de 13 reste 4, & le reste 4 auec 3 fait 7, que ie mets vis à vis du premier reste en G : & parce que le premier reste estoit aussi 7, ie conclus, qu'il n'y point d'erreur en l'addition.
-
-*De la ſouſtraction.*
-
-La soustraction est oster vn petit nombre d'vn plus grand, ou de son égal. Pour la faire, il faut mettre le nombre à soustraite sous celuy duquel on le veut soustraire, en la maniere qu'il a esté dit en l'addition, c'est à dire, les digites sous les digites, les centaines sous les centaines, &c. Puis tirant vne ligne sous ces deux nombres, & commençant à la main droicte, la soustraction se fera comme s'ensuit.
-
-*Exemple 1.*
-
-D. 7 9 6
-P. 4 3 2
+7 0 1 0 0 3
+9 1 0 8 8
 ——
-R. 3 6 4
+6 0 9 9 1 5
+——
+*Preuue.* 7 0 1 0 0 3
 
-Pour oster 432, qui s'appelle ordinairement le paye de 796, qui s'appelle la debte, on escrira 432 sous 796, comme il appert icy, puis ayant tiré vne ligne au dessous, i'oste 2 de 6 & reste 4, que ie pose directemẽt au dessous : puis venant au second rang, i'oste 3 de 9, & reste 6, que ie mets au dessous de la ligne : en apres au troisiesme
+Soit à soustraire 91088 de 701003, ayant couchez les deux nombres, comme il appert icy, & tiré vne ligne au dessous, i'oste 8 de 13, & mets le reste 5 au dessous, puis prenant les deux zero, qui sont entre 1 & 3, pour chacun 9, au second rang, i'oste 8 de 9, & pose le reste 1 au dessous : au troisiesme rang, i'oste 0 de 9, & mets le reste 9 au dessous : au quatriesme rang, l'vnité superieure, de qui on a emprunté 1 pour donner au 3, ne vaut plus rien, & par consequent ie prens vne dixaine du 7 qui est vers senestre, & de cette dixaine, ayant osté l'vnité à soustraire qui est au dessous,

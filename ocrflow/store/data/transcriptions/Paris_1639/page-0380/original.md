@@ -1,27 +1,29 @@
-# Page 379
+# Page 380
 
-# PRACTIQVE.
+# GEOMETRIE
 
-*Mesurer vn interualle, comme AB.*
+pour auoir l'angle CBA, qui est le moindre des angles incognus du triangle ACB, on fera l'addition & les soustractions ainsi,
 
-Faisant les deux stations en C & D, il faut obseruer les quantitez des angles ACB, DCB, CDA & ADB, & mesurer la ligne des stations CD, que nous supposons auoir 38 toises, l'angle ACB 55 degrez, DCB 48 degrez, CDA 36 degrez, & ADB 28 degrez. Puis ostant de 180 degrez la somme des deux angles ACD & ADC, restera 41 degrez pour l'angle CAD. Pareillement ostant la somme des angles CDB & DCB de 180 degrez, restera 68 degrez pour l'angle CBD. Maintenant au triangle ACD, ordonnant la regle de trois ainsi,
+CB, 36836   CB, 36836   180
+CA, 34046   CA, 34046   ∠CB. 55
+——   ——   ——
+*Somme* 70882.   *Reste* 2790.   *Reste* 125.
+——
+62 d. 30′
 
-*Voyez, la premiere des 4 figures suiuantes.*
+Ayant ainsi adiousté, soustraict, & biparti, on dira suiuant la regle des tangentes,
 
-(figure)
+tangente   tangente
+708|82   62 deg. 30′.   27|90.   R. 4 deg. 19′.
+285053   1028352   143136   887859
+1421
+62 deg. 30′   1028352
+4 deg. 19′   ——
+——   1172909
+58 deg. 11.   285053
+——
+887856
 
-∠CAD   CD   ∠CDA   CA
-41 deg. —— 38 toises —— 36 deg.   R. 34 46/1000.
-981694   157978   976922   153206
+& on trouuera 4 degrez 19′, qu'il faut soustraire de 62 deg. 30′, qui ont esté mis au second lieu de la regle de trois, & restera 58 degrez 11′, pour l'angle CBA, qui est le moindre des incognus.
 
-on trouuera pour le costé CA 34 toises, & la fraction 58/1259, qui en dixme vaut 46‴ ou 46/1000.
-
-Puis au triangle BCD, ordonnant la regle de trois ainsi, si
-
-∠CBD   CD   ∠CDB   CB
-68 deg. —— 38 toises —— 64 deg.   R. 36 836/1000.
-996717   157978   995366   156627
-
-on trouuera pour CB 36 toises, & la fraction 997/1190, qui en dixme vaut 836‴ ou 836/1000.
-
-Ayant ainsi trouué pour le costé CA 34046, & pour CB 36836‴
+En cette regle, pour auoir les logarithmes du premier & troisiéme nombre, qui excedent 1000, qui est le plus grand nombre de la table, on leur a retranché chacun deux figures du costé droict, à sçauoir 82 & 90, & des restes qui sont 708 & 27, les logarithmes sont 285003 & 143136, & le nombre d'entre-ligne du premier est 61, & du troisiesme 1579, qu'il les faut multiplier par les figures retranchées, à sçauoir 61 par 82, & 1579 par 90, & vient aux produicts 5002 & 112110, des costez droicts desquels retranchant chacun deux figures, à cause qu'on a retranché deux figures, restera 50

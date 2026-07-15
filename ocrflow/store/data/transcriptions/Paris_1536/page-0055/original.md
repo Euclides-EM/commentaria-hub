@@ -1,29 +1,21 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-Θεώρημα λβ, Πρόθεσις μγ.
+trigesimam primam propositionem: connectatúrq;, per primum postulatum, dimetiens h/b. Et quoniam in rectas g/e/ & h/b, recta incidens h/g/interiores angulos & ad easdem partes g/h/b/& h/g/e, duobus rectis minores efficit (nempe minores ipsis g/h/a/& h/g/e, qui binis rectis per vltimam partem vigesimænonæ propositionis sunt æquales) concurrent ergo tandem g/e/& h/b, in infinitum ad partes b/ & e/ productæ, per quintum postulatum. Producátur igitur, per secundum postulatum: & concurrant in pũcto k. Per idem rursum postulatum, extendantur f/b/& h/a/vsque ad puncta l, & m: & per datum punctum k, vtrique h/g/ & a/e/parallela ducatur l/k, per trigesimamprimam propositionem. ¶His ita constructis, quoniam h/g/l/k/ parallelogrammi , eorum quæ circa dimetientem h/k/ sunt parallelogrammorum supplementa, sibi inuicem sunt æqualia, per quadragesimamtertiam propositionem : æquum est supplementum seu parallelogrammum a/b/m/l/ipsi f/g/e/b/parallelográmo. Eidem porrò f/g/e/b/parallelográmo, æquũ est datum c/triangulum, per quadragesimamsecundam propositionẽ: ita enim constructum est. Igitur parallelogrammum a/b/m/l, ipsi triangulo c/per primam communem sententiam coæquatur. Est autem & a/b/m/angulus, ei qui ad d/ æqualis: vterque enim æquatur ipsi f/b/e, a/b/m/quidem per decimamquintã propositionẽ, qui ad d/verò per vigesimamtertiã. Coassumitur præterea data linea recta a/b, in latus ipsius a/b/l/m/parallelográmi. Ad datam igitur lineã rectam a/b, dato triangulo c, æquale parallelogrammum construitur a/b/m/ l, in dato angulo rectilineo a/b/m, ei qui ad d/æquali. Quod facere oportebat.
 
-ΠΑντὸς παραλληλογράμμου τῶν περὶ τὴν διάμετρον παραλληλογράμμων τὰ παραπληρώματα, ἴσα ἀλλήλοις ὅτι.
+> Demõstrationis resolutio.
 
-## Theorema 32, Propositio 43.
+*[diagram: d h a l f b m c g e k]*
 
-OMnis parallelogrammi eorum quæ circa dimetientem sunt parallelogrammorũ supplementa, sibi inuicẽ sunt æqualia.
+Πρόβλημα ιγ, Πρόθεσις με.
 
-ORONTIVS. ¶Parallelogramma circa dimetientem alicuius dicuntur esse parallelogrammi, quando eundem cum toto possident dimetientem. Supplementa autem, vocantur reliqua parallelogramma extra communem dimetientem constituta. Sit igitur a/b/c/d/ parallelogrammum, cuius dimetiens a/d, & circa ipsum dimetientẽ sint e/g/& h/f/parallelogramma, supplementa verò sint e/h/& g/f: quæ dico fore adinuicem æqualia. Parallelogrammum enim a/b/c/d, bifariam secatur à dimetiente a/d, per trigesimamquartam propositionem: igitur a/b/d/triangulum, æquum est ipsi triangulo a/c/d. Dimetiens insuper a/k, bifariam secat e/g/parallelogrammum, necnon & k/d/ ipsum h/f, per eandem trigesimamquartam propositionem. æquum est igitur a/e/k/ triãgulum, ipsi a/g/k : atq; triangulum k/h/d, ipsi k/f/d/ triangulo. Si autem æqualibus triãgulis æqualia iungantur triangula: omnia erũt æqualia, per secundam commu nem sententiam. Triangula itaq; a/e/k/& k/h/d, triangulis a/g/k/& k/f/d/sunt æqualia. Patuit autem q̃ & totũ a/b/d/triangulum, toti triangulo a/c/d/itidem coæquatur. Porrò si ab æqualibus triangulis, æqualia subducantur triangula: quæ relinquentur, æqualia erũt, per tertiam communem sententiam. Subductis itaq; triangulis a/g/k/& k/f/d/ab ipso a/b/d/triãgulo, atq; a/e/k & k/h/d/ triangulis, ab ipso triangulo a/c/d: relinquentur g/f/& e/h/supplementa adinuicem æqualia. Omnis ergo parallelogrammi: &c. vt in theoremate. Quod demonstrare fuerat operæpretium.
+ΤΩ δοθέντι εὐθυγράμμῳ , ἴσον παραλληλόγραμμον συστήσασθαι ἐν τῇ δοθείσῃ εὐθυγράμμῳ γωνίᾳ.
 
-> Parallelogrãma circa dimetientem. Supplemẽta.
+## Problema 13, Propositio 45.
 
-*[diagram: a g b e k f c h d]*
+DAto rectilineo, æquale parallelogrammum cõstituere, in dato angulo rectilineo.
 
-Πρόβλημα ιβ, Πρόθεσις μδ.
+ORONTIVS. ¶Sit datum rectilineũ a/b/c/d: cui oporteat construere æquale parallelogrammum, in dato angulo rectilineo qui ad e. Cónectatur ergo b/c/recta, per primum postulatum. & dato a/b/c/triangulo, æquale parallelogrammum constituatur f/g/h/k, in dato angulo rectilineo f/h/ k, ei qui ad e/æquali: per quadragesimamsecundam propositionem. Ad datam insuper rectam lineã g/k, dato b/c/d/ triangulo, æquum construatur parallelogrammũ g/k/l/m, in dato angulo rectilineo g/k/ m, æquali eidem qui ad e : per antecedentẽ quadragesimamquartam propositionem. Ostendendum est itaque primùm, hæc duo parallelogrãma vnum efficere parallelogrammum: quod ita fit manifestum. Quoniam anguli f/h/k/ & g/k/ m, eidem angulo qui ad e/sunt æquales, per cõstructionem: sunt igitur æquales adinuicem, per primam communem sententiam. Addatur vtriq; cómunis angulus g/k/h: igitur anguli g/k/h/& g/k/m, sunt per primam communem sententiam, æquales angulis f/h/k/& g/k/h. Eisdẽ porrò angulis f/h/k/& g/k/h, duo recti sunt æquales anguli , per vltimã partẽ vigesimænonæ propositionis: anguli igitur g/k/h/& g/k/m, binis sunt rectis æquales, per eandẽ primã communẽ sententiam. In directũ est igitur h/k/ipsi k/m, per decimamquartã propositionẽ. Rursum quoniã angulus f/g/ k, opposito qui ad h/ per trigesimamquartã propositionẽ
 
-ΠΑρὰ τὴν δοθεῖσαν εὐθεῖαν τῷ δοθέντι τριγώνῳ, ἴσον παραλληλόγραμμον παραβαλεῖν ἐν τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ.
+> Quòd cõstructa parallelogrãma vnum efficiãt parallelogrammũ.
 
-## Problema 12, Propositio 44.
-
-AD datam rectam lineam: dato triangulo, æquale parallelogrammum construere, in dato angulo rectilineo.
-
-ORONTIVS. ¶Construere parallelogrammum ad datam lineam rectam & in dato angulo rectilineo, est ipsam lineam datam coassumere in latus eiusdem parallelogrammi: sic vt eadem linea cum altero adiacentium laterum, angulum comprehendat æqualem ipsi angulo dato. Esto igitur data linea recta a/b: ad quã oporteat construere parallelogrammum, dato triangulo c/æquale, & in angulo æquali ei qui ad d. Producatur in primis a/b/ recta in directum vsque ad punctum e, per secundum postulatum : & ad datam rectam lineam b/e, ad datúmq; in ea punctum b, dato angulo rectilineo qui ad d, æqualis angulus rectilineus constituatur f/b/e, per vigesimamtertiam propositionem. In ipso consequenter angulo f/b/e, dato triangulo c, æquale cõstruatur parallelogrãmum f/g/e/b, per quadragesimãsecundam propositionem: extendatúrque g/f/in directum vsque ad h, per secundum postulatum. Per datum insuper punctum a, vtrique & f/ b/ & g/ e/ parallela ducatur h/ a, per
-
-> Problematis interpretatio
-
-> Cõstructio figuræ.
+*[diagram: a e f h b d c g k l m]*

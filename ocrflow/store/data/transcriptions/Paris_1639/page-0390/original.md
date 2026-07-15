@@ -1,23 +1,20 @@
-# Page 389
+# Page 390
 
-# PRACTIQVE.
+# GEOMETRIE
 
-gé de ces trois triangles : ce faisant on trouuera que si AC vant 12, AD 15, BF 5, CG 7, EH 6, que le polygone ABCDE vaudra 127 1/2.
+*Table des superficies de dix polygones reguliers, les costez desquels sont 1, & aussi du cercle qui a vn pour son semidiametre.*
 
-(figure)
+*figures regulieres.*   *logarithme des superficies.*
+△   ~36350
+□   0
+5<   23566
+6<   41465
+7<   56038
+8<   68380
+9<   79111
+10<   88616
+11<   96135
+12<   104907
+⊙   49715
 
-AC, 12   12   15   15   60
-AD, 15   5   7   6   105
-BF, 5   ——   ——   ——   90
-CG, 7   60   105   90   ——
-EH, 6   255
-——
-127 1/2.
-
-*Trouuer l'aire d'vn polygone regulier.*
-
-(figure)
-
-Si on multiplie le circuit du polygone proposé par le nombre de la perpendiculaire, qui tombe du centre sur l'vn des costez, la moitié du produict sera le contenu du polygone : ce faisant on trouuera que si le costé CD vaut 12, & la perpendiculaire FI 8 1/4, que le pentagone regulier ABCDE vaudra 247 1/2. Car cinq fois 12 font 60 pour le circuit ABCDE, & 60 multiplié par 8 1/4 fait 495, dont la moitié est 247 1/2.
-
-L'aire de ce pentagone, & de toutes figures regulieres qui n'ont plus de 12 costez, se pourront trouuer plus briefuement par le moyen des logarithmes des superficies des figures regulieres contenuës en la table suiuante, qui est calculée plus precisément que celle qui est en la page 159 du 3 tome.
+Le costé d'vne figure reguliere estant donné, pour trouuer le contenu de sa superficie par le moyen de cette table, il faut prendre le logarithme du nombre du costé donné dans la table des logarithmes des nombres ou toises, & adiouster à son double le logarithme qui se trouue en cette table cy pour le polygone proposé, & la somme de ces deux logarithmes donnera dans ladite table des nombres le contenu de la figure proposée. Ce faisant on trouuera que le pentagone regulier, qui a 12 toises en chacun de ses costez, est 247 & enuiron 3/4. Car le logarithme de 12 est 107918, & son double est 215836, qui adiousté auec 23566, logarithme de la superficie du pentagone, qui se trouue en cette table cy, fait 239402, qui donne dans la table des nombres 247 132/176 pour le contenu du pentagone. Par la mesme methode on trouuera que si le costé d'vn heptagone regulier vaut 120 1/2 toises, sa superficie vaudra 52765 : Car le double du logarithme de 120 1/2 estant adiousté auec 56038, qui se trouue en

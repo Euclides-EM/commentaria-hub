@@ -1,54 +1,28 @@
-# Page 307
+# Page 308
 
-# PRACTIQVE.
-
-*De la ſouſtraction.*
-
-Il faut escrire les nombres de mesme denomination l'vn sur l'autre, puis faire la soustraction à l'ordinaire.
+# ARITHMETIQVE
 
 *Exemple 1.*
 
-7 3 3′ *Debte*
-2 6 0 0 9‴ *Payé*
+*Diuidende* 3 0 8 2″
 ——
-4 7 2 9 1‴ *Reſte*
-Ou 47 291/1000.
+*Diuiſeur* 2 3′ [*quotient* 1 3 4′ ou 13 4/10.
 
 *Exemple 2.*
 
-3 4 0 0 7‴ *Debte*
-6 0 4″ *Payé*
+*Diuidende* 2 5 6′
 ——
-2 7 9 6 7‴ *Reſte*
-Ou 27 967/1000.
+*Diuiſeur* 8′ [*quotient* 3 2.
 
-*De la multiplication.*
+Si le nombre des accens du diuiseur excede le nombre des accens du diuidende, afin qu'on puisse soustraire les accens du diuiseur de ceux du diuidende, il faudra adiouster des zero au diuidende, & augmenter le nombre de ses accens selon le nombre des zero qu'on aura adiousté.
 
-Il faut faire la multiplication à l'ordinaire, & donner au produict pour denomination la somme ou addition des accens du nombre multiplié & du multiplicateur.
+Par exemple, estant proposé à diuiser 376′ par 8‴, à cause que les trois accens du diuiseur ne se peuuent soustraire d'vn accent du diuidende, pour rendre le nombre des accens du diuidende aussi grand que celuy du diuiseur, on adioustera deux zero au diuidende 376′, augmentant le nombre de ses accens de deux accens, & viendra 37600‴, lequel estant diuisè par 8‴, donnera 4700, qui est vn nombre entier, à cause qu'ayant soustraict les trois accens du diuiseur des trois accens du diuidende, il ne reste rien.
 
-*Exemple 1.*
+S'il y a quelque reste en la diuision, il la faudra continuer en adjoustant des zero au diuidende iusques à ce qu'il ne reste rien, ou que le quotient soit assez iuste, encore qu'il y ait du reste : ce qui se doit aussi pratiquer aux nombres entiers, si on ne veut point auoir d'autres nombres rompus que ceux de la dixme. Par exemple, estant proposé à diuiser 145′ par 8′, il me reste 1, puis à mesure que i'ay aduancé mon diuiseur 8, i'ay adiousté vn zero au diuidende, & mettant fin à la diuision au troisiesme zero que i'ay adiousté, à cause qu'il n'est rien resté, i'ay trouué 1 que 145 estant diuisé par 8 donne 18125‴, ou 18 126/1000.
 
-3 0 7 4 0 3‴ *multiplicande.*
-2 6 0 8″ *multiplicateur.*
-——
-2 4 5 9 2 2 4
-1 8 4 4 4 1 8
-6 1 4 8 0 6
-——
-8 0 1 7 0 7 0 2 4⁗′ *produict.*
-Ou 8017 7024/100000.
+6 1 2 4
+1 4 5 0 0 0
+—— [1 8 1 2 5‴
+8 8 8 8 8
 
-*Exemple 2.*
-
-1 7 4′ *multiplicande.*
-8 0 0 6‴ *multiplicateur.*
-——
-1 0 4 4
-1 3 9 2
-——
-1 3 9 3 0 4 4⁗ *produict.*
-Ou 139 3044/10000.
-
-*De la diuiſion.*
-
-Il faut faire la diuision à l'ordinaire, & donner au quotient pour denomination les accens qui resteront, ayant soustrait ceux du diuiseur de ceux du diuidende.
+Car les 3 zero que i'ay adiousté ont augmenté la denomination de 145′ de 3 accens, de sorte que le nombre 145000 qui a esté diuisé auoit 4 accens, desquels ostant l'accent du diuiseur, reste 3 accens pour le quotient.

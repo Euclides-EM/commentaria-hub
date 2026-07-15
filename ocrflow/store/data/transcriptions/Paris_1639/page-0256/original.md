@@ -1,48 +1,47 @@
-# Page 255
+# Page 256
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
+
+SCHOLIE.
 
 (figure)
 
 *Hypoth.*
 
-△abc & △dce *ſnt equiang.*
-∠b 2|2 ∠dce,
-∠acb 2|2 ∠e,
-∠bac 2|2 ∠cde.
+agc *eſt* △,
+dab, gaf, cae *ſnt* ——.
+ef == gc. α
 
-*Req. à demonſtr.*
+*Req. à demonſtrer.*
 
-ab π bc 2|2 dc π ce,
-bc π ca 2|2 ce π ed,
-ab π ac 2|2 dc π de.
-
-*Preparation.*
-
-3.1 | bce *eſt* ——,
-2.p.1 | baf & edf *ſnt* ——.
+ed π df 2|2 cb π bg.
 
 *Demonſtr.*
 
-hyp. | ∠b 2|2 ∠ecd,
-29.1 | bf == cd. α
-17.1 | ∠ecd + ∠e 2|3 2┘,
-1.a.d | ∠b + ∠e 2|3 2┘,
-13.a.1 | bef *eſt* △,
-hyp. | ∠bca 2|2 ∠ced,
-28.1 | ca == ef β
-35.d.1 | cafd *eſt* ◊,
-nota 34.1 | af 2|2 cd, ca 2|2 df,
-β.2.6 | ab π af Ⅱ dc,
-| bc π ce, γ
-1.concl. 16.5 | ab π bc 2|2 dc π ce,
-α.2.6 | bc π ce,
-| fd Ⅱ ac π de, γ
-2 concl. 16.5 | bc π ac 2|2 ce π de,
-3.concl. 22.5 | ab π ac 2|2 dc π de.
+α.29.1 | △ade *ſml.* △abc,
+α.29.1 | △adf *ſml.* △abg,
+c.4.6 | cb π ed 2|2 ab π ad,
+c.4.6 | bg π df 2|2 ab π ad,
+11.5 | cb π ed 2|2 bg π df,
+concl. 16.5 | cb π bg 2|2 ed π df.
 
-Il appert des analogies de cette demonstration, que les costez homologues, c'est à dire les termes antecedens ou consequens des raisons, sont ceux qui sont opposez aux angles égaux, & que ny les deux antecedens, ny les deux consequens d'vne analogie ne peuuent estre opposez à deux angles inégaux.
+THEOR. V. PROPOS. V.
 
-Coroll.
+Si deux triangles ont les costez proportionaux, iceux triangles seront equiangles, & auront les angles égaux, sous lesquels les costez de mesme raison sont soustendus.
 
-γ | ab π dc 2|2 bc π ce, Ⅱ ac π de.
+(figure)
+
+*Hypoth.*
+
+ab π bc 2|2 de π ef,
+ac π bc 2|2 df π fe,
+ab π ac 2|2 de π df.
+
+*Req. à demonſtr.*
+
+△abc & △def *ſont equiangles.*
+∠a 2|2 ∠d, ∠b 2|2 ∠def, ∠c 2|2 ∠dfe.
+
+*Prepar.*
+
+23.1 | ∠feg 2|2 ∠b, ∠efg 2|2 ∠c.

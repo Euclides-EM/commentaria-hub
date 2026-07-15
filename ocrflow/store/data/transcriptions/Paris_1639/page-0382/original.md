@@ -1,23 +1,9 @@
-# Page 381
+# Page 382
 
-# PRACTIQVE.
+# GEOMETRIE
 
-pour le premier, lesquels auec 285003 ont fait 285053, qui a esté mis sous le premier nombre, & 1421 qui ont esté mis sous le troisiesme nombre au dessous de son logarithme 143136.
+dre costé des grands triangles : & aussi comme le plus grand costé des petits triangles, au plus grand costé des grands triangles. *Que si le moindre triangle des petits se rencontre en la mesme station que le moindre triangle des grands, comme en la 3 propos. page 126.* le costé égal des petits triangles sera aussi au costé égal des grands triangles, comme la difference des costez inégaux des petits triangles à la difference des costez inégaux des grands triangles.
 
-Ayant ainsi trouué l'angle CBA de 58 degrez 11′, on trouuera le costé AB par la regle des opposez, en disant, si
+Notez qu'en cette regle on ne considere pas l'hypothenuse, qui est le costé qui soustient l'angle droict, & que les noms du plus grand costé, du plus petit, ou de l'égal, appartiennent seulement à ceux qui comprennét les angles droicts : comme en la figure qui est en la 3 prop. pag. 126 du 3 tome, les deux petits triãgles sont ADE, & FGH, & les grands sont ABC semblable à ADE, & FBC semblable à FGH : Les costez inégaux des petits triangles sont GH & DE, & leur difference qui est 30, est marqué au dessus par le nombre qui est en la lettre P. Les costez inégaux des grands triangles sont BF & BA, & leur difference AF est aussi la difference des stations, ou distance d'vne station à l'autre. Le costé égal des petits triangles est FG, ou son égal AD, & des grands est BC, lequel en cette figure est commun aux deux grands triangles CBA & CBF. Partant suiuant cette regle, on dira, comme 30, difference de GH & DE, est à AF 20, difference des stations, ainsi le moindre costé DE 60, au moindre costé ou distance AB 40 : & aussi le plus grand costé GH 90, au plus grand costé ou distance FB. Et parce que le moindre triangle des petits, à sçauoir ADE, est auec le moindre des grands, qui est ABC, on pourra aussi dire, comme 30 est à AF 20, ainsi FG ou AD 100, est au costé égal ou hauteur BC 66⅔.
 
-∠CBA   CA   ∠ACB   AB
-58 deg. 11′   34046‴   55 deg.   R. 32 1098/1336.
-992929   153206   991336   151613
-
-& viendra 32 1098/1338, qui font enuiron 32 3/4 pour l'interualle requis AB.
-
-En cette regle, pour auoir le logarithme du second nombre 34046, on a pris le logarithme de 34, qui est 153148, puis on a multiplié le numerateur 46, par le nombre d'entre ligne qui est 1259, & du produict retranchant trois figures du costé droict, à cause des trois figures du numerateur, est venu enuiron 58, qui adiousté à 153148 a fait 153206, qui est le logarithme de 34 46/1000.
-
-# REGLE GENERALE POVR L'VSAGE
-
-*du quarré geometrique, & autres instrumens geometriques.*
-
-La science de mesurer les lignes droictes geometriquement, sans l'aide des tablés des sinus & logarithmes, est fondée sur la quatriesme du 6 des elem. & du lemme qui est demonstré en la page 125 du 3 tome, lequel accommodé à la practique, on le pourra enoncer ainsi.
-
-La difference des costez inégaux des petits triangles, est à la difference des costez inégaux des grands triangles (qui est tousiours égale à la difference des stations) comme le moindre costé des petits triangles au moin-
+En la figure suiuante de la page 127, à cause que le moindre triangle des petits, à sçauoir FGH, n'est pas auec le moindre triangle des grands, qui est ABC, pour auoir la hauteur BC, il a fallu premierement trouuer la distance AB ou FB, puis par la 4 du 6 des elem. en disant si AD donne DE, combien donnera AB, on a trouué 14⅔ pour la hauteur BC.

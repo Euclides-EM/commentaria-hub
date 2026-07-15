@@ -1,33 +1,27 @@
-# LIBER III.
+# 86 GEOMET. ELEMENT.
 
-85
+angulus, æqualis ipsi angulo d, per primam communem sententiam. A dato itaque circulo a/b/c, segmentum abscinditur b/a/c, capiens angulum qui ad a/ æqualem dato angulo rectilineo d. Quod oportuit fecisse.
 
-> Quādo idem angulus dat⁹ est obtusus.
+Θεώρημα κθ, Πρόθεσις λε.
 
-Super data itaq; recta linea a/b, descriptum est circuli segmentum a/e/b, suscipiens angulum qui ad e, dato angulo c/æqualem. ¶Quòd si datus angulus c/fuerit obtusus: haud dissimili via propopositionis intentum perficietur. Dato enim rursum angulo b/a/d, ipsi angulo c/æquali, per vigesimātertiā primi: & a/b/ recta diuisa bifariam in puncto f/per decimā, excitatáq; perpendiculari f/g/ per vndecimā eiusdem primi: conuenient rursum a/e/ & f/g/ in rectum extensæ, per quintum postulatum (anguli enim a/f/g/& g/a/f/ sunt minores duobus rectis) conueniant ergo ad punctum g. & sumpto puncto h, prout in a/b/circunferentia contigerit: cónectantur a/h, h/b, & b/g/lineæ rectæ, per primū postulatum.
+Ἐὰν ἐν κύκλῳ δύο εὐθεῖαι τέμνωσιν ἀλλήλας, τὸ ὑπὸ τῶν τῆς μιᾶς τμημάτων περιεχόμενον ὀρθογώνιον, ἴσον ἐστὶ τῷ ὑπὸ τῶν τῆς ἑτέρας τμημάτων περιεχομένῳ ὀρθογωνίῳ.
 
-*[diagram: a b c d e f g h]*
+## Theorema 29, Propositio 35.
 
-> Resolutio demōstrationis priori similis.
+SI in circulo duæ rectæ lineæ se adinuicem secuerint: rectangulum comprehensum sub sectionibus vnius, æquũ est ei quod sub segmentis alterius comprehenditur rectangulo.
 
-Cùm igitur a/f/sit æqualis f/b, & f/g/vtriq; communis: duo latera a/f/ & f/g/ trianguli a/f/g, duobus lateribus g/f/ & f/b/ trianguli g/f/b, sunt æqualia alterū alteri: & æquales inuicem continent angulos, vtpote rectos qui circa punctū f. Basis igitur a/g, basi g/b, per quartā primi est æqualis. Centro itaque g, interuallo autē g/a/vel g/b, describatur a/e/b/circulus, per tertium postulatū. trāsibit ergo circulus ipse, per limites datæ rectæ lineæ a/b. Hinc rursum quoniam recta a/d/ab extremitate dimetientis a/e/ad rectos excitata est angulos: tangit igitur a/d/ipsum a/e/b/circulum, per corollarium decimæsextæ huius tertij. Item quoniam a/d/recta tangit a/e/b/circulum, à cótactu autem extensa est a/b/recta, circulum dispescens: angulus igitur qui ad h/consistēs in alterno circuli segmento a/h/b, angulo b/a/d/sub contingente d/a/& extensa a/b/comprehenso, per trigesimamsecundam huius tertij est æqualis. Eidem quoq; angulo b/a/d, æquus est per constructionem angulus qui ad c. Qui igitur ad c/& h/puncta consistunt anguli, per primam communem sententiam, sunt inuicem æquales. Itaq; super data recta linea a/b, describitur sectio circuli a/h/b/capiens angulū qui ad h/æqualem dato angulo rectilineo qui ad c. Quod facere oportebat.
+ORONTIVS. ¶ In dato enim circulo a/b/c/d, binæ rectæ lineæ a/c/ & b/d, se inuicem secent in puncto e. Aio quòd rectangulum comprehensum sub a/e/ & e/c, æquum est comprehenso sub b/e/ & e/d/ rectangulo. In primis itaq;, vel vtraque linearum transit per centrum circuli, vel vna tantùm, aut neutra. Transeat primùm vtraque per centrum e, vt in prima figura. Erunt igitur, per decimamquintam diffinitionem primi, a/e, e/c, b/e, & e/d/ inuicem æquales: nempe eiusdẽ circuli semidiametri. Quod igitur sub a/e/ in e/c/ fit rectangulum, æquum est ei, quod sub b/e/ & e/d/ continetur rectangulo, per corollarium quadragesimæsextæ primi libri: sunt enim ambo rectangula quadrata, & sub æqualibus rectis cõprehensa. ¶ Sed iã altera tantũmodò
 
-Πρόβλημα ς, Πρόθεσις λδ.
+> Prima linearũ sese inuicẽ secãtiũ dispositio.
 
-Απὸ τοῦ δοθέντος κύκλου, τμῆμα ἀφελεῖν δεχόμενον γωνίαν ἴσην τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ.
+*[diagram: a b c d e]*
 
-## Problema 6, Propositio 34.
+linearum, vtpote a/c, transeat per centrũ, quod sit f: secétq; reliquam b/d/ in eodem puncto e. Secabit igitur a/c, ipsam b/d/ in duo æqualia, vel in duo nó æqualia. Secet primùm bifariam: & ad rectos igitur eam secabit angulos, per tertiam huius tertij. Connectatur ergo recta b/f, per primum postulatum. Rectãgulum erit itaq; triangulum b/e/f. Et quoniam recta a/c/ secatur in æqualia in puncto f, & in non æqualia in puncto e: quod igitur sub a/e/ & e/c/ continetur rectangulum, vnà cum quadrato quod ex e/f, æquum est ei, per quintam secundi, quod ab f/c/ fit quadrato. Ei porrò quod ab f/c/ fit quadrato, æquum est id quod ex b/f, per corollariũ quadragesimæsextæ primi: æqualis siquidem est b/f/ ipsi f/c. Comprehẽsum igitur sub a/e/ & e/c/ rectangulum vnà cum quadrato quod ex e/f: æquum est quadrato quod fit ex b/f. Quadrato autem quod fit ex b/f, æqualia sunt per quadragesimamseptimã primi, quæ ex b/e/ & e/f/ describuntur quadrata. Cõprehensum itaq; sub a/e/ & e/c/ rectangulum, vnà cum quadrato quod fit ex e/f: æquum est quadratis quæ fiũt ex b/e/ & e/f. Ablato igitur communi quadrato quod ex e/f: reliquum sub
 
-A Dato circulo, segmentum abscindere, capiēs angulum æqualem dato angulo rectilineo.
-
-> Constructio figuræ.
-
-ORONTIVS. ¶Sit datus circulus a/b/c: à quo oporteat segmētum abscindere, capiens angulum æqualem dato angulo qui ad d. A dato igitur puncto e, ducatur recta linea e/f/contingēs ipsum a/b/c/circulum in puncto b, per decimamseptimam huius tertij. & ad datā rectam lineam b/f, datúmq; in ea punctum b, dato angulo rectilineo qui ad d, æqualis angulus rectilineus constituatur c/b/f, per vigesimātertiam primi. & per primū postulatum, coniungantur a/b/ & a/ c/ lineæ rectæ comprehendentes angulum qui ad a.
+> Secũda linearũ supradictarũ dispositio.
 
 *[diagram: a b c d e f]*
 
-> Demōstratio problematis.
+a/e/ & e/c/ comprehensum rectãgulum: æquum erit, per tertiam communem sententiã, reliquo quod ex b/e/ describitur quadrato. Quod autem ex b/e/ fit quadratum, idem est quod sub b/e & e/d/ comprehensum rectangulum: est enim per hypothesin b/e/ ipsi e/d/ æqualis. Comprehensum igitur sub a/e/ & e/c/ rectangulũ, æquũ est rectangulo, quod sub b/e/ & e/d/ continetur. ¶ Quòd si a/c/ per f/ centrum educta, ipsam b/d/ non ductam per centrũ secuerit inæqualiter: idem non minus facilè concludetur. A dato enim puncto f, in ipsam b/d, perpendicularis ducatur f/g, per duodecimam primi: & connectatur f/d, per primũ postulatum. Cùm igitur f/g/ per centrum educta, ipsam b/d/ non ductam per centrum ad rectos diuidat angulos: &
 
-Cùm igitur recta quædā linea b/f/tangat circulū a /b/c, & à contactu b/alia quædā linea recta b/c/ extensa est, circulum dispescēs: angulus igitur qui ad a/ existens in alterno segmēto b/a/c, æquus est ipsi angulo c/b/f, quem efficit recta b/c/cum tangēte b/f, per trigesimamsecundam huius tertij. Eidem porrò c/b/f/angulo, æquus est per cōstructionem angulus d. Est igitur sub b/ a/ c/ contentus
-
-h.j.
+> Earundem linearum dispositio tertia.

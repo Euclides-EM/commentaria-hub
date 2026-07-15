@@ -1,60 +1,37 @@
-# Page 240
+# Page 241
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
+
+en raison égale seront proportionelles.
+
+*Hypoth.*
+
+a π b 2|2 d π e, b π c 2|2 e π f, c π n 2|2 f π o.
+
+*Requis à demonſtrer.*
+
+a π c 2|2 d π f, a π n 2|2 d π o.
+
+*Preparation.*
+
+3.1 | g *multipl..* a 2|2 h *multipl..* d,
+3.1 | i *multipl..* b 2|2 K *multipl..* e,
+3.1 | l *multipl..* c 2|2 m *multipl..* f.
+
+*Demonſtr.*
+
+hyp. | a π b 2|2 d π e,
+4.5 | g π i 2|2 h π k,
+hyp. | b π c 2|2 e π f,
+4.5 | i π l 2|2 k π m,
+20.5 | g, 2, 3, 4 | 3, l,
+| h, 2, 3, 4 | 3, m.
+1.concl. 6.d.5 | a π c 2|2 d π f, α
+hyp. | c π n 2|2 f π o,
+2 concl. d. α | a π n 2|2 d π o.
 
 (figure)
 
-*Hypoth. commun.*
+THEOR. XXIII. PROPOS. XXIII.
 
-a π b 2|2 e π f, α
-b π c 2|2 d π e. α
-
-*Hypoth. 1.*
-
-a 3|2 c. β
-
-*Requis à demonſtr.*
-
-d 3|2 f.
-
-*Demonſtr.*
-
-hyp. | d π e 2|2 b π c,
-c.4.5 | e π d 2|2 c π b, γ
-β.8.5 | c π b 2|3 a π b,
-αγſ13.5 | e π d 2|3 a π b, Ⅱ e π f,
-1.concl. 10.5 | d 3|2 f.
-
-*Hypoth. 2.*
-
-a 2|2 c. δ
-
-*Req. à demonſtr.*
-
-d 2|2 f.
-
-*Demonſtr.*
-
-α.c.4.5 | e π d 2|2 c π b,
-δ.7.5 | a π b 2|2 c π b,
-α.11.5 | e π d 2|2 a π b, Ⅱ e π f,
-2 concl. 9.5 | d 2|2 f.
-
-*Hypoth. 3.*
-
-a 2|3 c.
-
-*Req. à demonſtr.*
-
-d 2|3 f.
-
-*Demonſtr.*
-
-α.c.4.5 | e π d 2|2 c π b,
-8.5 | c π b 3|2 a π b,
-α.13.5 | e π d 3|2 a π b, Ⅱ e π f,
-3.concl. 10.5 | d 2|3 f.
-
-THEOR. XXII. PROPOS. XXII.
-
-S'il y a tant de grandeurs qu'on voudra, & d'autres égales à icelles en nombre, lesquelles soient prises de deux en deux, & en mesme raison: icelles
+S'il y a trois grandeurs, & d'autres égales à icelles en nombre, en mesme raison, prises de deux en deux, & que leur proportion soit troublée: icelles en raison égale seront proportionelles.

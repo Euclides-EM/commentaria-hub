@@ -1,41 +1,33 @@
-# Page 193
+# Page 194
 
-# D'EVCLIDE; LIV. IV.
+# LES ELEMENTS
 
-c.13 4. & 7.a.1 | ∠fab, ∠fba, ∠fbc, ∠fcb, ∠fcd, &c. *ſnt* 2|2 đe.
-6.1 | fa, fb, fc, fd, fe *ſnt* 2|2 đe.
-concl. 6.d.4 | ⊙abcd *eſt circonſcrit au* 5∠abcde.
-
-SCHOLIE.
-
-Par la mesme methode sera descrit le cercle à l'entour de quelconque figure equilaterale & equiangle.
-
-PROBL. XV. PROPOS. XV.
-
-En vn cercle donné, inscrire vn hexagone equilateral & equiangle.
-
-*Hypotheſe.*
-
-gabcdef *eſt* ⊙ D.
-
-*Req. à faire*
-
-*inſcrire au* ⊙abdf, 6∠abcdef *equilat. & equiangle.*
+αβ.15.1 | ∠; fga,agb, / bgc,cgd, / dge, egf, *ſnt* 2|2 đe.
+26.3 | ∩;ab,bc, / cd, de, / ef, fa, *ſnt* 2|2 đe.
+1.concl. 29.3 | ab,bc,cd, / de, ef, fa, *ſnt* 2|2 đe.
+2 concl. 27.3 | ∠; abc, bcd, cde, def, efa, fab *ſnt* 2|2 đe.
 
 (figure)
 
-*Conſtr.*
+*Corollaire 1.*
 
-arbitr. | ad *eſt diametre*,
-3.p.1 | dgce *eſt* ⊙,
-1&2.p.1 | cgf *&* egb *ſnt* ——,
-1.p.1 | ab, bc, cd, de, ef, fa *ſnt* ——,
-ſymp. | 6∠abcde *eſt le requis.*
+15.d.1 | cd 2|2 dg.
+
+*Coroll. 2.*
+
+29.3 | ace *eſt* △ *equilat.*
+
+SCHOLIE.
+
+Demonstration de la practique de l'vnziesme proposition du premier liure, que nous auons remise à demonstrer icy.
 
 *Demonſtr.*
 
-15.d.1 | △gcd *eſt equilat.*
-c.5.1 | △gcd *eſt equiang.*
-32.1 | ∠dgc 2|2 ⅓..2┘, α
-d. α | ∠dge 2|2 ⅓..2┘, β
-13.1 | ∠egf 2|2 ⅓..2┘, β
+conſtr. | acgd,gcad, dgae *ſnt* ⊙ 2|2 đe.
+15.4 | cade *eſt ſemic.*
+31.3 | ∠cad *eſt* ┘,
+concl. 10.d.1 | ea ⊥ ac.
+
+(figure)
+
+(figure)

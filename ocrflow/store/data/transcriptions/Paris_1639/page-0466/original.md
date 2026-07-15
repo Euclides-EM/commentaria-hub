@@ -1,29 +1,33 @@
-# Page 465
+# Page 466
 
 # ETYMOLOGIE.
 
-superficie plate, & *metron* vne mesure.  t. 3. p. 152.
+Glacis, vient de la *glace*, à cause que le dessus des murailles ou terrasses, qui sont en glacis, & non à niueau & parallels à l'horizon, sont coulant comme la glace.  t. 3. p. 181.
 
-Epoche, *ære*, en Grec *epecho*, sign. retenir & arrester, d'où vient le nom d'epoche, qui signifie vn principe du temps.  t. 2. p. 138. & t. 5. p. 456.
+Gnomonique, *horologiographie*, vient de *gnomon*, qui en Grec signifie vne esquierre : à cause, qu'aux quadrans le stile perpendiculaire auec l'oblique fait vn angle.  t. 5. p. 682.
 
-Equateur, *equinoctial*, vient du verbe Latin *æquare*, qui sign. rendre égal, à cause que le Soleil estant en ce cercle, les iours sont égaux aux nuicts par tout le monde.  t. 4. p. 12.
+Graphometre, *instrument à mesurer*, vient de *grapho*, qui en Grec signifie descrire, & *metron* mesure.  t. 3. p. 115.
 
-Equinoctial, *equateur*, en Latin *equi* sign. égal, & *nox* la nuict d'où vient le nom d'equinoctiale, qui signifie vn cercle, où le Soleil estant, le iour est égal à la nuict.  t. 4. p. 12.
+Harmonie, *accord*, *musique*, vient de *harmozo*, qui en Grec signifie conuenir, & mettre chaque chose où elle s'accommode mieux.  t. 5. p. 802.
 
-Etymologie vient de *etymos*, qui en Grec sign. vray, & *logos* parole & raison.
+Hegire, est l'epoche qui est en vsage parmy les Turcs, laquelle commence le 16. de Iuillet de l'an 622. de nostre Seigneur.  t. 5 p. 457.
 
-Euthymetrie, *altimetrie*, vient de *eythys*, qui en Grec sign. ligne droite, & *metron* vne mesure.
+Heliaque, *solaire*, vient de *helios*, qui en Grec sign. le Soleil.  t. 4. p. 63.
 
-Exegetique vient de *exegetice*, qui en Grec signifie explication.  t. 2. p. 95. alg.
+Helix, *ligne spirale*, vient de *eilisso*, qui en Grec signifie tourner à l'entour.  t. 2. p. 3.
 
-Faussebraye, *chemin des rondes*, le pied du mur d'vne ville ou forteresse s'appelle scarpe de *scarpa*, qui en Italien signifie soulier.  Que si au dessus il y a double mur l'vn deuant l'autre, l'exterieur, qui ordinairement n'est qu'vn parapet, s'appelle faussebraye, de *braye*, qui en ancien Gaulois signifie chausse, & *fausse*, qui siguifie qu'il n'est pas le principal mur.  t. 3. p. 181.
+Hemisphere vient de *hemisys*, qui en Grec sign. la moitié, & *sphaira* globe ou boule.
 
-Gabions, sont especes de grandes corbeilles remplies de terre, qui seruent à nous couurir contre le canon de l'ennemy, & sont ainsi nommées de *gabbano*, qui en Italien signifie vn manteau de feutre bon contre la pluye.
+Heterogene, *de diuers genre*, vient de *heteros*, qui en Grec signifie autre, & *genos* genre.
 
-Geodesie, science de diuiser & partager les heritages vient de *ge*, qui en Grec signifie la terre, & *daiomai* diuiser.
+Heterosciens, en Grec *heteros*, sign. l'vn, & *scia* ombre : d'où vient le nom de heterosciens, qui signifie ceux qui ont à midy tousiours l'ombre septentrionale ou meridionale.  t. 4. p. 94.
 
-Geographie, *description de la terre*, vient de *ge*, qui en Grec signifie la terre, & *graphia* description.  t. 4. p. 3.
+Hexachorde maieur ou mineur, *sexte maieur ou mineur*, vient de *hex*, qui en Grec sign. six, & *chorde* vne chorde de boyau.  t. 5. p. 803.
 
-Geomance, vient de *ge*, qui en Grec signifie la terre, & *mantis* vn diuineur, & a esté ainsi nommée à cause qu'anciennement pour deuiner par ceste science, au lieu de marquer les poincts sur le papier on les marquoit sur la terre.
+Holometre, *instrument à mesurer*, vient de *holos*, qui en Grec signifie tout, & *metron* vne mesure.
 
-Geometrie, science de mesurer, vient de *ge*, qui en Grec signifie la terre, & *metron* vne mesure.  t. 3. p. 114.
+Homogene, en Grec *homoios*, signifie semblable, & *genos* genre : d'où vient le nom de homogene, qui signifie les choses qui ne sont composées de diuers genres.  t. 2. p. 6. alg.
+
+Homologue, *de mesme raison*, vient de *homoios*, qui en Grec signifie semblable, & *logos* raison.  t. 1. p. 198.
+
+Horizon, *horizo*, en Grec signifie borner : d'où vient le nom d'horizon, qui est vn cercle qui borne nostre veuë, & distingue l'hemisphere superieur que nous voyons, de l'inferieur que nous ne voyons pas.  t. 4. p. 10.

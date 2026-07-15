@@ -1,33 +1,5 @@
-# Page 418
+# Page 419
 
 # DES FORTIFICATIONS.
 
-Les nombres de cette table a raison de leurs grandeurs s'entresuiuent ainsi.
-
-4   5   6   7   8   9   10   11
-109,   114 3/4,   117 1/2,   120 2/3,   122 4/5,   124 4/5,   126 3/5,   128,
-
-12   12   11   10   9   8   7   6
-129 1/4,   155 2/3,   155 7/10,   156 2/3,   157 1/5,   158,   159 1/4,   160 7/10,
-
-5   4   5   6   7   8   9   6
-162 1/2,   164 3/4,   185,   203 1/2,   217,   227,   234,   235,
-
-10   11   12   5   7   6   7   8
-240 3/4,   245 3/5,   249,   262 1/2,   270 1/2,   277,   287,   292,
-
-9   8   10   11   12   9   8   6
-295,   296 1/2,   297,   298 1/4,   299 1/2,   316,   320 1/2,   321 1/4,
-
-10   11   12   7   9   8   10   9
-331 1/2,   344 3/4,   352,   357,   358 1/2,   381,   389 3/4,   393,
-
-10   10   8   11   11   12   12   9
-409,   409 3/5,   412 4/5,   413 1/4,   417,   423 2/5,   431 1/5,   452,
-
-11   10   12   11   10   12   11   12
-453 4/5,   480 2/5,   480 3/4,   502,   505,   519,   547,   578 4/5.
-
-*Estant donnée la quantité d'vne ligne droicte, trouuer de combien de costez elle peut estre subtendante, & de quel polygone.*
-
-Nous auons donné la methode de resoudre ce probleme au 2 probleme du 2 liure des Fortifications, par le moyen de la figure qui est en la page qui suit, mais par le moyen des nombres de la table precedente la solution se pourra trouuer plus precisément.
+Car si le nombre donné est 240 toises, par exemple, on le cherchera aux nombres precedens, qui s'entresuiuent selon leurs grandeurs, & parce qu'il ne s'y trouue pas, on prendra le plus prochain, qui est 240 3/4, duquel le nombre 10 qu'il a au dessus, signifie qu'il faut chercher ce nombre 240 3/4 en la colomne du decagone, qui a 10 pour tiltre, & on trouuera en icelle colomne qui est subtendante de 2 costez du decagone interne, & par consequent imaginant que la ligne droite donnée soit la subtendante HK du decagone, qui est en la page 212 du 3 tome, pour la fortifier, il faudra faire au milieu le bastion B, & aux deux extremitez les demy-bastions A & C.  Par la mesme methode on trouuera, que si la ligne proposée contient 360 toises, que les nombres plus approchans sont 358 1/2, 357, & 352, dont le premier est la subtendante de 4 costez internes de l'enneagone : le second, est la subtendante de trois costez externes de l'heptagone : & le troisiesme, la subtendante de trois costez internes du dodecagone, comme il appert des nombres des colomnes 9, 7, 12.  Que si on veut qu'elle soit la subtendante de 3 costez du dodecagone, imaginant que la ligne droicte donnée soit la subtendante HL du dodecagone, qui est en ladite page 212, pour la fortifier, il faudra construire aux extremitez d'icelle les demy bastions H & L, & au milieu les deux bastions IB & KC.  Et ne faut point d'autre methode pour faire la figure sur le papier, que celle que nous auons donnée selon Errard, ou plustost selon Marolois, qui est plus en vsage.  Car en ayant descrit les 4 bastions A, B, C, D du dodecagone, à la Holandoise, & tiré vne ligne droicte de H en L, si pour faire vne eschelle on diuise HL en 360 parties égales, ou plustost son tiers en 120 parties, HL representera la ligne donnée de 360 toises, & se pourront trouuer les quantitez des faces, flancs, courtines, & des autres lignes, en les rapportant sur ladite eschelle de 120 parties, mais on les pourra aussi trouuer plus precisément par la regle de trois, en mettant au premier lieu le nombre qu'on a trouué dans la table pour la subtendante HL du dodecagone, à sçauoir 352 : au troisiesme lieu le nombre donné, qui en cet exemple est 360 : & au second lieu, le nombre qui se trouuera pour la ligne dont on demande la quantité, en la table qui est en la page 207 du 3 tome.

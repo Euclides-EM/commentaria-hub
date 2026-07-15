@@ -1,37 +1,34 @@
-# Page 279
+# Page 280
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-C'est à dire, que si le parallelogramme AEFG est semblable au parallelogramme total ADCB, le diametre AF sera partie du diametre total AC.
+KI, par la 24. du 6. sont semblables entr'eux, & faut demonstrer que le parallelogramme AD, descrit sur AC, qui est la moitié de AB, est plus grand que le parallelogramme AG, descrit sur AK, ou autre partie de AB, plus grande ou plus petite que la moitié AC.
 
 (figure)
 
 *Hypoth.*
 
-◊agfe *ſml.* ◊abcd,
-∠eag *eſt commun.*
-ag *homolog.* ab.
+ac 2|2 cb, α
+◊acdh *ſml.* ◊cbed,
+cb *eſt diametr.*
+κ *en* ab *eſt arbitr.*
+κgn == be, fgi == ab.
 
-*Req. à demonſtrer.*
+*Req. à demonſtr.*
 
-afc *eſt* ——,
+◊acdh 3|2 ◊aκgf.
 
 *Demonſtr.*
 
-ſuppoſ. | ahc *eſt* ——,
-31.1 | hi == ae,
-24.6 | aehi *ſml.* abcd,
-hyp. | aefg *ſml.* abcd,
-21.6 | aehi *ſml.* aefg.
-11.5 | ae π eh 2|2 ae π ef,
-9.5 | eh 2|2 ef,
-| *contr. 9.a.1.*
-3.concl. 21.a.1 | afc *eſt* ——.
+1.concl. 24.6 | ◊κi *ſml.* ◊ce,
+c.43.1 | ◊κe 2|2 ◊ci,
+α.36.1 | ◊am 2|2 ◊ci,
+1.a.1 | ◊κe 2|2 ◊am,
+| ◊cg *commun. add.*
+2.a.1 | ◊ag 2|2 *gnom.* mbn,
+9.a.1 | ◊ce 3|2 *gnom.* mbn,
+2 concl. 1.a.c | ◊ce Ⅱ ◊ad 3|2 ◊ag.
 
-THEOR. XX. PROPOS. XXVII.
+PROBL. VIII. PROPOS. XXVIII.
 
-De tous les parallelogrammes appliquez selon vne mesme ligne droicte, & defaillans de figures parallelogrammes semblables, & semblablement posées à celuy qui est descrit sur la moitié, le plus grand est celuy qui est appliqué à la moitié estant semblable au defaut.
-
-La ligne proposée à laquelle il faut appliquer les parallelogrammes AD & AG est AB, le defaut du parallelogramme ACDH est CBED, & le defaut du parallelogramme AKGF est KBIG, ces deux defaux CE &
-
-(figure)
+A vne ligne droicte donnée appliquer vn parallelogramme égal à vne figure rectiligne donnée; defaillant d'vne figure parallelogramme, laquelle soit semblable à vn autre parallelogramme donné. Mais il faut que la figure rectiligne donnée, à laquelle il en faut appliquer vne égale, ne soit plus grande que celle qui est appliquée à la moitié de la ligne donnée; les defauts estans ſem-

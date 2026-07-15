@@ -1,31 +1,29 @@
-# Page 464
+# Page 465
 
 # ETYMOLOGIE.
 
-des sons des deux extremes de quatre chordes.  t. 5. p. 803.
+superficie plate, & *metron* vne mesure.  t. 3. p. 152.
 
-Diese vient de *diesis*, qui en Grec sign. diuision & separation.  t. 5. p. 805.
+Epoche, *ære*, en Grec *epecho*, sign. retenir & arrester, d'où vient le nom d'epoche, qui signifie vn principe du temps.  t. 2. p. 138. & t. 5. p. 456.
 
-Diezeugmena, *disioinctes*, en Grec *zeugnymi*, signifie ioindre, & *diazeugnymi*, disioindre; d'où vient diezeugmena, qui sign. disiointes,  t. 5. p. 809.
+Equateur, *equinoctial*, vient du verbe Latin *æquare*, qui sign. rendre égal, à cause que le Soleil estant en ce cercle, les iours sont égaux aux nuicts par tout le monde.  t. 4. p. 12.
 
-Dioptrique vient de *dioptra*, qui en Grec sign. vne pinulle, au trauers de laquelle on regarde pour mesurer quelque chose.  t. 5. p. 1. & 126.
+Equinoctial, *equateur*, en Latin *equi* sign. égal, & *nox* la nuict d'où vient le nom d'equinoctiale, qui signifie vn cercle, où le Soleil estant, le iour est égal à la nuict.  t. 4. p. 12.
 
-Dodecaedre vient de *dodeca*, qui en Grec sign. douze, & *hedra* siege.  t. 1. p. 653.
+Etymologie vient de *etymos*, qui en Grec sign. vray, & *logos* parole & raison.
 
-Diton, *tierce maieur*, vient de *dis*, qui en Grec sign. deux fois, & *tonos* vn ton : à cause qu'il est composé de deux tons, dont l'vn est maieur, & l'autre mineur.  t. 5. p. 803.
+Euthymetrie, *altimetrie*, vient de *eythys*, qui en Grec sign. ligne droite, & *metron* vne mesure.
 
-Eccentrique, qui vient de *extra*, qui en Latin sign. hors, & *centrum* le centre, est vn cercle ou orbe, qui a son centre hors le centre de la terre.  t. 5. p. 469.
+Exegetique vient de *exegetice*, qui en Grec signifie explication.  t. 2. p. 95. alg.
 
-Eclipse, vient du verbe Grec *ecleipo*, qui sign. defaillir.  t. 4. p. 469.
+Faussebraye, *chemin des rondes*, le pied du mur d'vne ville ou forteresse s'appelle scarpe de *scarpa*, qui en Italien signifie soulier.  Que si au dessus il y a double mur l'vn deuant l'autre, l'exterieur, qui ordinairement n'est qu'vn parapet, s'appelle faussebraye, de *braye*, qui en ancien Gaulois signifie chausse, & *fausse*, qui siguifie qu'il n'est pas le principal mur.  t. 3. p. 181.
 
-Ellipse, *ouale*, en Grec *elleipo*, sign. laisser & obmettre, & *elleipsis* obmission & defaut : d'où vient, que la section conique, qui a les quarrez des moitiez de ses ordonnées defaillants, s'appelle ellipse.  t. 5. p. 690.
+Gabions, sont especes de grandes corbeilles remplies de terre, qui seruent à nous couurir contre le canon de l'ennemy, & sont ainsi nommées de *gabbano*, qui en Italien signifie vn manteau de feutre bon contre la pluye.
 
-Embrazures, vient d'embrasser & contenir, & se font non seulement aux cazemates & canonnieres, mais aussi aux fenestres des chambres, qui ont leurs murs espais, afin d'auoir plus de lumiere dans la chambre, & d'espace pour s'approcher des fenestres.
+Geodesie, science de diuiser & partager les heritages vient de *ge*, qui en Grec signifie la terre, & *daiomai* diuiser.
 
-Epacte, qui est vn certain nombre de iours qu'on prend en chaque année pour trouuer l'aage de la Lune, vient de *epagomai*, qui en Grec sign. introduire.  t. 2. p. 145.
+Geographie, *description de la terre*, vient de *ge*, qui en Grec signifie la terre, & *graphia* description.  t. 4. p. 3.
 
-Ephemerides, en Grec *ephemeris*, sign. iournalier, d'où vient le nom du liure qui contient les lieux des planetes pour chaque iour de l'année.
+Geomance, vient de *ge*, qui en Grec signifie la terre, & *mantis* vn diuineur, & a esté ainsi nommée à cause qu'anciennement pour deuiner par ceste science, au lieu de marquer les poincts sur le papier on les marquoit sur la terre.
 
-Epicycle vient de *epi*, qui en Grec signifie en ou dedans, & *cyclos* cercle.  t. 5. p. 470.
-
-Epipedometrie, *planimetrie*, vient de *epipedos*, qui en Grec signifie
+Geometrie, science de mesurer, vient de *ge*, qui en Grec signifie la terre, & *metron* vne mesure.  t. 3. p. 114.

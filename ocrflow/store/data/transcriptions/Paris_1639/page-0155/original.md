@@ -1,53 +1,45 @@
-# Page 154
+# Page 155
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-(figure)
+1.c.17.1 | ∠feg 2|3 ┘,
+19.1 | fe 3|2 fg,
+15.d.1 | fd 2|2 fe,
+1.a.d. | fd 3|2 fg,
 
-*Req. à faire.*
+*contr. 9. a. 1.*
 
-ac *tangente du* ⊙dbc.
+2 concl. 21.a.1 | fe ⊥ ab.
 
-*Conſtr.*
+THEOR. XVII. PROPOS. XIX.
 
-1.p.1 | ad *eſt* ——,
-3.p.1 | dae *eſt* ⊙,
-11.1 | be ⊥ ad,
-1.p.1 | de & ac *ſnt* ——,
-ſymp. | ac *touche le* ⊙dbc.
-
-*Demonſtr.*
-
-*aux* △;adc & edb
-
-15.d.1 | da 2|2 de,
-15.d.1 | dc 2|2 db,
-
-∠adc *eſt commun.*
-
-4.1 | ∠dca 2|2 ∠dbe,
-eonſtr. | ∠dbe *eſt* ┘,
-12.a.b | ∠dca *eſt* ┘,
-concl. c.16.3 | ac *touche le* ⊙dbc.
-
-THEOR. XVI. PROPOS. XVIII.
-
-Si quelque ligne droicte touche vn cercle, & du centre à l'attouchement on mene vne ligne droite, elle sera perpendiculaire à la touchante.
+Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne droicte à angles droicts à la touchante, en icelle menée sera le centre du cercle.
 
 (figure)
 
-*Hypoth.*
+*Hypotheſe.*
 
-fedc *eſt* ⊙,
-ab *touche le* ⊙fed,
-e *eſt* • *d'attouchement*,
-efc *eſt diametre*.
+ce *eſt* ⊙,
+ab *touche le* ⊙cde,
+c *eſt* • *d'attouchement.*
+ec ⊥ ab.
 
-*Req.à demonſtrer:*
+*Req.à demonſtrer.*
 
-fe ⊥ ab.
+*centre du* ⊙ *eſt en* ec.
 
 *Demonſtr.*
 
-ſuppoſ. | fg ⊥ ab,
-conſtr. | ∠fge *eſt* ┘,
+ſuppoſ. | •f *eſt centre du* ⊙.
+1.p.1 | fc *eſt* ——,
+18.3 | ∠fcb *eſt* ┘,
+hyp. | ∠ecb *eſt* ┘,
+12.a.1. | ∠fcb 2|2 ∠ecb,
+
+*contr. 9. a. 1.*
+
+concl. 21.a.1 | *centre du* ⊙ *eſt en* ec.
+
+THEOR. XVIII. PROPOS. XX.
+
+Au cercle, l'angle qui est au centre, est double de l'angle qui est à la circonference, quand ils ont pour leur base vne mesme circonference.

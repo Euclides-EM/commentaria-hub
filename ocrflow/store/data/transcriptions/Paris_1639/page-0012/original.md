@@ -1,15 +1,15 @@
-# Page 11
+# Page 12
 
-(ornament)
+# PROLEGOMENES.
 
-DE LA DIVISION
+*Des principes des Mathematiques.*
 
-DES MATHEMATIQVES.
+LEs principes sont les sources & origines de toute cognoissance, & ne reçoiuent point de preuue, mais ils sont les fondemens de toutes preuues : Il y en a de trois genres aux Mathematiques.
 
-LEs Mathematiques sont ainsi nommées du mot Grec *Manthano*, qui signifie *apprendre*, à cause qu'elles s'apprennent, auec plus de certitude & euidence, que les autres parties de la Philosophie. Les Pythagoriciens, qu'on estime estre les premiers inuenteurs d'icelles, les ont toutes diuisées en quatre parties, sçauoir en l'Arithmetique, la Geometrie, l'Astronomie, & la Musique.
+Au premier, se trouuent toutes les Definitions, que quelques-vns appellent Suppositions, par icelles sont expliquées les termes de l'Art, afin qu'au traicté de la Science ne soyons trompez par l'ambiguité & obscurité des noms, & ne tombions en des parallogismes.
 
-D'autres diuisent plus subtilement tout le corps Mathematique en deux especes, sçauoir en Pure & Mixte, dont celle là considere la quantité separée de toute matiere : & parce qu'il y a deux genres de quantité, sçauoir la Continuë & la Discrete, la Mathematique Pure à raison de son object est diuisée en la Geometrie & Arithmetique.
+Au second genre sont les Petitions ou Demandes, lesquelles sont tellement claires & manifestes en ceste science, qu'elles n'ont besoin d'aucune preuue : mais demandent seulement le consentement de l'Auditeur, afin qu'il n'y ait aucune hesitation ou difficulté en la demonstration.
 
-La Mathematique Mixte considere la quantité conjointe & meslée auec la matiere, & se subdiuise en l'Optique, la Mechanique, l'Astronomie, & la Musique.
+Au troisiesme sont les Axiomes ou Maximes, & communes notions de l'esprit, lesquelles non seulement en la science proposée, mais aussi en toutes les autres, sont tellement manifestes & euidentes, que celuy qui entendra bien les termes, ne pourra en aucune façon douter de leur verité.
 
-Vne chacune de ces six parties des Mathematiques est subdiuisée en la Theorique & Practique, comme on peut voir en leurs traictez particuliers, qui sont dans mon Cours Mathematique.
+Or Euclide en la tradition de ces principes a obserué cet ordre, qu'il met en l'entrée de la Science les principes communs à toute la Geometrie, puis aux commencemens des autres Liures, selon que la chose requiert, il explique les principes, lesquels proprement & pour certaine raison particuliere, semblent appartenir à la matiere dont il s'agist en iceux.

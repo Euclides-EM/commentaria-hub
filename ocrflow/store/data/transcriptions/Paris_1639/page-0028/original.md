@@ -1,27 +1,21 @@
-# Page 27
+# Page 28
 
-# D'EVCLIDE, LIV. I.
-
-XXVI.
-
-Au surplus des figures trilateres, le triangle ortogone ou rectangle est, celuy qui a vn angle droict, comme le triangle ABC.
+# LES ELEMENTS
 
 (figure)
 
-XXVII.
+XXX.
 
-L'Amblygone est celuy qui a vn angle obtus ou moussu, comme le triangle HFG.
-
-(figure)
-
-XXVIII.
-
-L'Oxygone est celuy qui a tous les trois angles aigus, comme le triangle C.
+Le quarré long ou rectangle est, vne figure qui a les angles droicts, mais qui n'est pas equilateral, comme ABCD.
 
 (figure)
 
-*Vne figure est equiangle, si tous ses angles sont égaux entr'eux : mais deux figures sont equiangles, si chaque angle de l'vne est égal à chaque angle de l'autre.*
+XXXI.
 
-XXIX.
+Rhombe est vne figure equilatere, mais n'est pas rectangle, comme A.
 
-Or des figures quadrilateres, le quarré est celuy qui est equilatere & rectangle, comme ABCD.
+(figure)
+
+XXXII.
+
+Rhomboïde est vne figure, laquelle a les costez opposez égaux, & les angles opposez aussi

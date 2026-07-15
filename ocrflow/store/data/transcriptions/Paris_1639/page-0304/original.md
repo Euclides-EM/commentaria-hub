@@ -1,39 +1,26 @@
-# Page 303
+# Page 304
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-2 8 1
-2 0
-——
-5 6 2 0
+1
+2 3 1
+1 8 1 7
+—— [4 3 11/42.
+4 2 2
+4
 
-6 8
-1 2
-——
-1 3 6
-6 8
-——
-8 1 6
+8
+6——7
+8
 
-cun de 281 liures qui restent encore à partir, on reduira les 281 liures en sols, en les multipliant par 20 sols, qui est la valeur d'vne liure, le produict sera 5620 sols, qu'il faut diuiser par 347, & viendra 16 sols pour chacun, & restera encore 68 sols qu'il faudra mettre en deniers, en multipliant par 12 deniers, qui est la valeur d'vn sols, & viendra au produict 816 deniers, qu'il faut aussi diuiser par 347, & viendra à chacun 2 deniers, & restera encore 122 deniers à partir à 347, qui est presque vn tiers de denier pour chacun ; partant on conclura que chacun aura 899 liures 16 sols 2 deniers, & enuiron le tiers d'vn denier.
+a point d'erreur en la diuision, ie dis que 4 & 2 du diuiseur sõt 6, que ie pose au costé gauche de la croix, puis ie dis aussi que 4 & 3 du quotient sont 7, que ie pose au costé droict de la croix, ce faict, ie multiplie 6 par 7 & vient 42, dont la preuue est 6, que i'adiouste auec la preuue du reste 11, qui est 2, la somme est 8, que ie pose au haut de la croix : finalement, pour auoir la preuue de 1817 qui a esté diuisé, ie dis 1 & 8 sont 9, que ie rejette, & reste 1 & 7 qui font 8 que ie pose au bas de la croix : & parce que le mesme nombre se trouue au haut & bas de la croix, ie conclus qu'il n'y a point d'erreur en la diuision.
 
-*Diuiſions brieues.*
+Questions necessaires pour distinguer l'vsage des quatre regles precedentes.
 
-Pour multiplier par vn nombre qui aye des zero à son costé droit, il faut les retrancher, & aussi autant de figures du costé droict du nombre à diuiser, puis diuiser les figures du diuidende par les figures restantes du diuiseur : Ce qui se fait ordinairement en mettant les zero, qui sont au costé droict du diuiseur, sous les figures qui sont au costé droict du diuidende ; comme on peut voir aux exemples suiuants.
+*Sçauoir de quel nombre il faut ſouſtraire 72, afin que le reſte ſoit 53?*
 
-3 4 6
-1 0 [3 4 6/10.
+A cause qu'en toute soustraction le nombre soustrait & le reste font ensemble le nombre de qui on a soustrait, il est manifeste que le nombre requis est 125, qui se trouue adioustant 72 auec 53.
 
-2 7 4 8
-1 0 0 [2 7 48/100.
+*Sçauoir quel nombre il faut ſouſtraire de 137, afin que le reſte ſoit 86?*
 
-1 2 6 4 8
-4 0 0 [3 1 248/400.
-
-*De la preuue de la diuiſion.*
-
-Il faut multiplier le quotient par le diuiseur, & adiouster au produict le reste s'il y en a, & ce faisant, si on trouue le nombre qu'on a diuisé il n'y aura point d'erreur en la diuision : par exemple, 17 diuisé par 3 donne 5⅔ : & 5 estant multiplié par 3 fait 15, auquel si on adiouste le reste de la diuision qui est 2, on aura 17, qui est le nombre diuisé.
-
-*Autre preuue par le moyen du 9.*
-
-Ayant diuisé 1817 par 42, ie trouue 43 11/42, & pour sçauoir s'il n'y
+En cette question, à cause que le tout est 137, & l'vne de ses deux parties 86, il est euident que pour auoir l'autre partie, il faut soustraire 86 de 137, & restera 51 pour l'autre partie.

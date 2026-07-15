@@ -1,35 +1,28 @@
-# Page 473
+# Page 474
 
-# ETYMOLOGIE.
+## Fautes à corriger dans l'impression.
 
-Systeme vient de *systema*, qui en Grec signifie vne chose composée de plusieurs parties.  t. 5. p. 502. & 819.
-
-Systole, *contraction ou estrecissement*, vient de *systole*, qui en Grec signifie estrecir.
-
-Talu vient de talon, à cause qu'il sert de talon à la muraille, pour empescher qu'elle ne se renuerse.  t. 3. p. 181.
-
-Telescope, *lunette à longue veuë*, vient de *tele*, qui-en Grec signifie loin, & *scopeo* voir & obseruer.  t. 5. p. 127.
-
-Tetraedre vient de *tetra*, qui en Grec signifie quatre, & *hedra* siege.  t. 1. p. 635.
-
-Theoreme, vient de *theoreo*, qui en Grec signifie voir, considerer, & contempler.  t. 1. def. 41.
-
-Topographie, vient de *topos*, qui en Grec signifie vn lieu, & *grapha* description.  t. 4. p. 3.
-
-Trapeze, vient de *trapeza*, qui en Grec signifie vne table. t. 1. def 33.
-
-Trigonomerrie, vient de *trigonon*, qui en Grec signifie vn triangle, & *metron* vne mesure.  t. 3. p. 99.
-
-Tropique, vient de *trepo*, qui en Grec signifie retourner.  t. 4. p. 17.
-
-Vuea, vient de *vua*, qui en Latin signifie grappe de raisin : à cause que cette pellicule est noire comme le raisin.
-
-Zetetique, *question*, vient de *zeteo*, qui en Grec signifie chercher.
-
-Zodiaque vient de *zodion*, qui en Grec signifie animal.  t. 4. p 12.
-
-Zone, en Grec signifie ceinture, d'où vient les noms des cinq zones.  t. 4. p. 85.
-
-F I N.
-
-(ornament)
+| Page. | Ligne. | Erreur. | Correction. |
+|---|---|---|---|
+| 40 | 21 | ag 2\|2 b | ag 2\|2 bc |
+| 44 | 16 | 5. a. 1 | 3. a. 1 |
+| 62 | 1 | ∠b 2\|2 ∠adb | ∠b 2\|3 ∠adb |
+| 70 | 18 | les externes | des externes |
+| 79 | 2 | 2 ⌐ | 4 ⌐ |
+| 111 | 3 | 49. 1 | 47· 1 |
+| 157 | 6 | 15. d. 1 | 19. a. 1 |
+| 204 | 16 | 3. ſ. 17. d. 5 | 2. ſ. 17. 5 |
+| 223 | 8 | homogenes | heterogenes |
+| 224 | 23 | LO & MO | LN & MO |
+| 249 | 17 | ou triangle | au triangle |
+| 256 | 9 | △dbe π △dbe | △dbe π △cbe |
+| 321 | 22 | 2/7 d'escu | 3/7 d'escu |
+| 324 | 1 | R. 10 onc. | R. 15 onc. |
+| 336 | 3 | de renuoyer | de renuoyez |
+| 370 | 4 | ∠CB | ∠ACB |
+| 392 | 5 | EF, &c. | BF, &c. |
+| 394 | 15 | 9 degrez | 90 degrez |
+| 401 | 27 | & FGD | & FGC |
+| 426 | 24 | presis | pres |
+| 434 | 2 | de toute | en toute |
+| 446 | 9 | au stile | du stile |

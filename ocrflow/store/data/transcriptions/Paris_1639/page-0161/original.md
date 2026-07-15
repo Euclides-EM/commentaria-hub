@@ -1,22 +1,43 @@
-# Page 160
+# Page 161
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
+
+PROBL. III. PROPOS. XXV.
+
+Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
 
 (figure)
 
 *Hypoth.*
 
-ac 2|2 df,
-⌓ abc & ⌓ def *ſont ſemblables.*
+abc *eſt ſegment* D.
 
-*Req. à demonſtrer.*
+*Req. à faire.*
 
-⌓ abc 2|2 ⌓ def.
+*trouuer le centre* f.
 
-*Demonſtration.*
+*Conſtr.*
 
-Les bases AC & DF, estans égales, conuiendront entr'elles si on entend que l'vne soit posée sur l'autre, & le segment ABC conuiendra aussi auec le segment DEF; car s'il ne conuient point il tombera au dehors, ou au dedans, ou partie dehors, & partie dedans: s'il tombe au dedors ou au dedans, les segments seront dissemblables par la precedente, ce qui est contre l'hypothese. S'il tombe en partie au dedãs, & en partie au dehors, ils s'entrecouperont en plus de deux poincts, à sçauoir en A, F, G, ce qui est impossible par la 10. du 3. donc le segment ABC conuiēdra auec le segment DEF. & par consequent seront égaux entr'eux, par le 8.ax.1.
+arbitr. | a, b, c *ſnt* • *en* ∩,
+1.p.1 | ab & bc *ſnt* ——,
+10.1 | ad 2|2 db, be 2|2 ec,
+11.1. | df ⊥ ab, ef ⊥ bc,
+ſymp. | *interſect.* f, *eſt centre.*
 
-SCHOLIE.
+*Demonſtr.*
 
-Veu que les circonferences ABC, DEF conuiennent entr'elles, elles seront aussi égales.
+c.1.3 | *centre eſt en* df,
+c.1.3 | *centre eſt en* ef,
+concl. 14.a.b | *centre eſt en* f.
+
+THEOR. XXIII. PROPOS. XXVI.
+
+Aux cercles égaux, les angles égaux s'appuyent sur circonferences égales, soit qu'ils s'appuyent, estant constituez aux centres, ou aux circonferences.
+
+(figure)
+
+*Hypoth.*
+
+gabc & hdef *ſnt* ⊙ 2|2 đe.
+∠agc 2|2 ∠dhf,
+Ⅱ, ∠abc 2|2 ∠def.

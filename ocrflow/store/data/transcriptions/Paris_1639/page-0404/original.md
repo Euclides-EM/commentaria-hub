@@ -1,11 +1,25 @@
-# Page 403
+# Page 404
 
 # DES FORTIFICATIONS.
 
-faces des bastions BH, BK, &c. égales à la face CD. Pour construire le fossé, le rampart, & autres parties de la fortification, Errard se sert de l'eschelle, la quantité de laquelle il prend de la ligne du flanc ND, à laquelle il attribuë en l'hexagone 16 ou 20 toises : en l'heptagone, 19⅓ ou 23⅓, &c. comme on peut voir vis à vis de ED, en la table qui est en la page 196 du 3 tome. Pour faire l'eschelle n de cette figure, on attribuera au flanc ND 19⅓ toises : & parce que ny le triple ny le sextuple de 19⅓, qui sont 58 & 116, n'ont point de fractions, repetant ND sur EA, i'ay trouué Er égale au sextuple de ND, que i'ay mis sur le compas de proportion à l'ouuerture de 116 des parties égales, & le compas demeurant en cette ouuerture, i'ay pris l'ouuerture de 20 parties, que i'ay mis sur la ligne n 5 fois de suite, pour auoir vne eschelle de 100 toises, diuisée en 5 parties égales, desquelles la moitié de la premiere partie doit estre subdiuisée en 10 parties égales, afin de pouuoir prendre tel nombre de toises qu'on voudra.
+(figure)
 
-Ayant ainsi diuisé l'eschelle, on prendra d'icelle 15 ou 16 parties, qui signifieront 15 ou 16 toises pour les semidiametres des arcs O & X, &c. descrits des centres C & b, &c. & 11 ou 12 parties pour les largeurs Sq, Tm, &c. Puis mettant la regle sur les conuexitez des arcs Oq & qx, on tirera les lignes de la contrescarpe Oqx, &c. Par le moyen de l'eschelle on donnera aussi leurs mesures aux ramparts & aux autres parties de la fortification.
+gne BV, on aura l'angle EBV de 39 degrez pour le demy-angle flanqué : Car OH, qui est la cinquiesme partie du cercle, vaut 72 degrez : & par consequent EH sera de 36 degrez, & EM de 18 degrez : & parce que par la 15 du 4 des elem. le semidiametre d'vn cercle est égal à la subtendante de 60 degrez ; MV vaudra 60 degrez, & par ainsi la circonference EMV sera de 78 degrez, & par la 20 du 3 des elem. le demy-angle flanqué EBV vaudra 9 degrez.  Le reste de la construction se doit continuer, comme nous auons fait, en l'heptagone precedent.
 
-Cette methode de construire est generale pour les polygones qui ont plus de cinq bastions, & n'y a rien à changer en ceux qui ont moins de six bastions que la quantité du demy angle flanqué, qui se fait au triangle en diuisant le quart du cercle EV en deux parties égales en L, & tirant la ligne BL : au quarré, faisant Ed égale au semidiametre EA, & tirant Bd, on aura l'angle EBd de 30 degrez pour le demy-angle flanqué. Au pentagone, la construction du demy-angle flanqué se fera comme s'ensuit.
+*Methode de fortifier selon Marolois, ou à la Holandoise.*
 
-Ayant diuisé le cercle en cinq parties égales aux poincts B, C, O, H, L, & prolongé le semidiametre BA iusques à la circonference E, si on diuise, par la 30 du 3 des elem. la circonference EH en deux parties égales en M, & faisant MV égale à MA, on tire la li-
+Selon Marolois vne fortification reguliere doit auoir les cinq conditions suiuantes.
+
+1. Que l'angle flanqué, s'il y a moins de 13 bastions, excede la moitié de l'angle du polygone de 15 degrez, & au dessus de 12 bastions soit tousiours droict.
+
+2. Que le pan à la courtine soit comme 2 à 3.
+
+3. Que le flanc soit tousiours perpendiculaire à la courtine.
+
+4. Que le flanc à la ligne de gorge soit comme le sinus de 40 degrez au sinus de 50 degrez.
+
+5. Que les contr'escarpes soient paralleles aux faces des bastions.
+
+*La construction se fait ainsi.*
+
+Premierement, soit tiré la ligne droicte interminée BP, en l'vne des extremitez de laquelle, comme en B, on fera l'angle PBE égal à l'angle diminué de la fortification proposée, comme en cet exemple, qui est vn pentagone, vn angle de 19 1/2 degrez, pour le moyen

@@ -1,43 +1,23 @@
-# Page 245
+# Page 246
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-*Demonſtr.*
+(ornament)
 
-hyp. | ag π c 2|2 dh π f,
-α.c.4.5 | c π ab 2|2 f π de,
-22.5 | ag π ab 2|2 dh π de,
-17.5 | bg π ab 2|2 eh π de,
-hyp. | ab π c 2|2 de π f,
-concl. 22.5 | bg π c 2|2 eh π f.
+LE SIXIESME LIVRE DES ELEMENTS D'EVCLIDE.
 
-THEOR. XXV. PROPOS. XXV.
+# DEFINITIONS.
 
-Si quatre grandeurs sont proportionelles, la plus grande & la plus petite sont plus grandes que les deux autres.
+I.
+
+SEMBLABLES figures rectilignes, sont celles qui ont les angles égaux, vn chacun au sien, & les costez qui sont à l'entour des angles égaux, proportionaux.
 
 (figure)
 
-*Hypoth.*
-
-ab π cd 2|2 e π f,
-ab *eſt la plus grãde*
-f *eſt la plus petite.*
-
-*Req. à demonſtr.*
-
-ab + f 3|2 cd + e.
-
-*Preparation.*
-
-3.1 | ag 2|2 e, ch 2|2 f, α
-
-*Demonſtr.*
-
-hyp. | ab π cd 2|2 e π f,
-α.7.5 | Ⅱ ag π ch,
-19.5 | gb π hd 2|2 ab π cd,
-hyp. nota. | ab 3|2 cd,
-14.5 | gb 3|2 hd, β
-conſtr. | ag 2|2 e, f 2|2 ch,
-2.a.1 | ag + f 2|2 e + ch,
-concl. β 4.a.b | ag + f + gb 3|2 e + ch + hd.
+hyp. | ∠a 2|2 ∠d,
+hyp. | ∠b 2|2 ∠dce,
+hyp. | ∠bca 2|2 ∠e,
+hyp. | ba π ac 2|2 cd π de,
+hyp. | ab π bc 2|2 dc π ce,
+hyp. | bc π ca 2|2 ce π ed,
+1.d.6 | △abc *ſml.* △dce.

@@ -1,5 +1,31 @@
-# Page 419
+# Page 420
 
 # DES FORTIFICATIONS.
 
-Car si le nombre donné est 240 toises, par exemple, on le cherchera aux nombres precedens, qui s'entresuiuent selon leurs grandeurs, & parce qu'il ne s'y trouue pas, on prendra le plus prochain, qui est 240 3/4, duquel le nombre 10 qu'il a au dessus, signifie qu'il faut chercher ce nombre 240 3/4 en la colomne du decagone, qui a 10 pour tiltre, & on trouuera en icelle colomne qui est subtendante de 2 costez du decagone interne, & par consequent imaginant que la ligne droite donnée soit la subtendante HK du decagone, qui est en la page 212 du 3 tome, pour la fortifier, il faudra faire au milieu le bastion B, & aux deux extremitez les demy-bastions A & C.  Par la mesme methode on trouuera, que si la ligne proposée contient 360 toises, que les nombres plus approchans sont 358 1/2, 357, & 352, dont le premier est la subtendante de 4 costez internes de l'enneagone : le second, est la subtendante de trois costez externes de l'heptagone : & le troisiesme, la subtendante de trois costez internes du dodecagone, comme il appert des nombres des colomnes 9, 7, 12.  Que si on veut qu'elle soit la subtendante de 3 costez du dodecagone, imaginant que la ligne droicte donnée soit la subtendante HL du dodecagone, qui est en ladite page 212, pour la fortifier, il faudra construire aux extremitez d'icelle les demy bastions H & L, & au milieu les deux bastions IB & KC.  Et ne faut point d'autre methode pour faire la figure sur le papier, que celle que nous auons donnée selon Errard, ou plustost selon Marolois, qui est plus en vsage.  Car en ayant descrit les 4 bastions A, B, C, D du dodecagone, à la Holandoise, & tiré vne ligne droicte de H en L, si pour faire vne eschelle on diuise HL en 360 parties égales, ou plustost son tiers en 120 parties, HL representera la ligne donnée de 360 toises, & se pourront trouuer les quantitez des faces, flancs, courtines, & des autres lignes, en les rapportant sur ladite eschelle de 120 parties, mais on les pourra aussi trouuer plus precisément par la regle de trois, en mettant au premier lieu le nombre qu'on a trouué dans la table pour la subtendante HL du dodecagone, à sçauoir 352 : au troisiesme lieu le nombre donné, qui en cet exemple est 360 : & au second lieu, le nombre qui se trouuera pour la ligne dont on demande la quantité, en la table qui est en la page 207 du 3 tome.
+Partant ordonnant la regle de trois ainsi,
+
+352 —— 48 —— 360 —— R. 49 32/352.
+
+on trouuera 49 32/352 pour la face du bastion.
+
+Ordonnant la regle ainsi, si
+
+352 —— 72 —— 360.   R. 73 424/352.
+
+on trouuera 73 224/352 pour la courtine.
+
+En la table, pour le flanc au dodecagone, se trouue 24 3/11 ou 267/11, partant ordonnant la regle ainsi, si
+
+352/1 X 267/11   360/8 | 96120/3872 [ 24 3192/3872.
+
+viendra 24 3192/3872, ou 2482″ pour le flanc.
+
+En la table, le second flanc au decagone, à 30 1/2 ou 305′, partant ordonnant la regle de trois ainsi,
+
+352 —— 305′ —— 360.   R. 3119″.
+
+viendra enuiron 3119″ au 31 19/100, pour le second flanc.  Et ainsi ordonnant les regles de trois, on trouuera les quantitez de toutes les lignes.
+
+Pour trouuer les quantitez des mesmes lignes par le compas de proportion, il faudroit mettre sur la ligne des parties égales le nombre donné 360 en l'ouuerture de 352 qui est le nombre de la table : mais à cause que la ligne des parties égales n'a que 200 parties, on mettra le tiers de 360, qui est 120, en l'ouuerture du tiers de 352, qui est 117 1/3, & le compas demeurant ainsi ouuert, pour auoir la face du bastion, on prendra l'ouuerture de 48 : pour auoir la courtine, l'ouuerture de 72 : pour auoir le flanc, l'ouuerture de 24 3/11 : & ainsi des autres, en les mettant en l'ouuerture de leur nombre, qui se trouue dans la table, & rapportant cette ouuerture de long sur la ligne des parties égales, qui est celle de 200, on aura promptement les quantitez de toutes les lignes, à proportion de la grandeur de la ligne donnée, à sçauoir pour la face enuiron 49 toises, pour la courtine 73 5/8, &c.
+
+Pour trouuer les quantitez des lignes BF & CG, de la figure qui

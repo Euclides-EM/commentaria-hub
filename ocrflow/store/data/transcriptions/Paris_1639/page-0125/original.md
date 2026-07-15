@@ -1,39 +1,42 @@
-# Page 124
+# Page 125
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. II.
 
-*La meſme demonſtration ſe peut faire ainſi.*
+D'où s'ensuit, que AD est la toute : BD la difference des parties CD & AC : & que AC & CD sont les parties inégales : & par consequét ce scholie ne differe de la 10. proposition que de nom : & se pouuoit aussi demonstrer ainsi.
 
 *Hypoth.*
 
 (figure)
 
-fd *eſt* ——,
-fc 2|2 cd,
-fa *eſt arbitrairè.*
-caeb *eſt la figure du ſcholie de la 6. du 2.*
+ad *eſt* ——,
+ac 3|2 cd,
+ac~cd *eſt* af.
 
 *Req. à demonſtrer.*
 
-□.da + □.af 2|2 2□.ac Ⅱ ce + 2□.cd.
+□.ad + □.af 2|2 2□.ac + 2□.cd.
 
-*Demonſtration.*
+*Preparation.*
 
-ſ5.2 | □.de 2|2 ▭.adb Ⅱ ▭.daf. α
-α.4.2 | □.ad + □.db + 2▭.adb, Ⅱ 2□.de 2|2 □.ab,
-1.ſ.4.5 & 47.1 | 2□.ce + 2□.cd + 2□.de 2|2 □.ab,
-2□.de *commun. ſubtr.*
-concl. 31a.1 | □.ad + □db, Ⅱ af 2|2 2□.ce + 2□.cd.
+aeb *eſt la figure du ſcholie de la 6. du 2.*
 
-SCHOLIE.
+*Demonſtr.*
 
-*Cette 10. propoſition ſe peut auſsi propoſer ainſi.*
+conſtr. | cf 2|2 cd, & ac 2|2 cb,
+3.a.1 | af 2|2 db,
+concl. 9.2 | □.ad + □.db Ⅱ □.af 2|2 2□.ac + 2□.cd.
 
-Si vne ligne droicte est couppée en deux parties inégales, les quarrez descrits de la toute & de la difference des parties, sont doubles des quarrez qui sont faicts des deux parties de la toute.
+*Explication par nombres.*
 
-*Hypotheſe.*
-
-(figure)
-
-ad *eſt* —— : cd *eſt* 3|2 ac :
-cb *eſt* 2|2 ac : bd *eſt excez.*
+hyp. | ad *eſt* 10, α
+hyp. | ac *eſt* 7, β
+3.a.1 | cd Ⅱ cf *eſt* 3, γ
+3.a.1 | af Ⅱ db *eſt* 4, δ
+α | □.ad *eſt* 100.
+δ | □.af *eſt* 16,
+1.concl. 19.a.1 | □.ad + □.af *ſnt* 116,
+β | □.ac *eſt* 49,
+6.a.1 | 2□.ac *ſnt* 98,
+γ | □.cd *eſt* 9,
+6.a.1 | 2□.cd *ſnt* 18,
+2 concl. 19.a.1 | 2□.ac + 2□.cd *ſnt* 116.

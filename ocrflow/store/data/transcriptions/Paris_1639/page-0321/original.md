@@ -1,21 +1,25 @@
-# Page 320
+# Page 321
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-Les fractions de cet exemple se peuuent reduire en douziesmes, excepté 4/7, partant laissant 4/7, i'adiouste toutes les autres, & trouue 2 3/4 : puis i'adiouste les 4/7 auec 3/4, qui ensemble font 1 9/28, auec lesquels adioustant les 2 on aura 3 9/28, pour la somme des cinq fractions proposées.
+*Operation.*
 
-Pour adiouster les trois fractions suiuantes ensemble, ie trouue leur commun denominateur 105, en multipliant tous les denominateurs l'vn par l'autre : puis pour auoir les numerateurs 70, 84, 90, ie multiplie chaque numerateur par les denominateurs des autres, comme il a esté dit cy dessus, lesquels numerateurs adioustez ensemble font 244. que ie diuise par le denominateur trouué 105, & vient au quotient 2 34/105, pour la somme requise des trois fractions.
-
-2 4 6 | 70 84 90 } 105
-3 5 7
+4 X 2 | 12 } 15 2/15.
+5   3 | 10
 ——
-244
+2 *reſte.*
 
-3 4
-2 4 4
+Aux soustractions des exemples suiuans, i'emprunte vn de l'entier, que ie fais valoir autant que le denominateur de la fraction à soustraire : Par exemple, pour soustraire 9/16 de 7, ie prens vn de 7, que ie fais valoir 16, de qui i'oste le numerateur 9, & reste 6 7/16. Pour soustraire 8 3/4 de 23⅔, ie reduits premierement ⅔ & 3/4 en mesme denomination, & trouue au lieu d'icelles 8/12 & 9/12, puis à cause que 9 ne se peut soustraire de 8, i'emprunte vn de 23, que ie fais valoir autant que le denominateur commun, à sçauoir 12, & ostant le numerateur 9 de 12, ou de 12 & 8, qui font 20, reste 11 ou 11/12, & ostant aussi 8 de 22 qui restent en 23, le reste de la soustraction sera 14 11/12.
+
+7
+9/16
+*Reſte* 6 7/16.
+
+23⅔ | 8 } 12
+8 3/4 | 9
 ——
-1 0 5 [2 34/105,
+14 12/12 *Reſte* | 11 *Reſte*.
 
-*De la ſouſtraction.*
+*De la multiplication.*
 
-Si les fractions sont en mesme denomination, la soustraction se fera en ostant.le moindre numerateur du plus grand, & donnant au reste le denominateur commun. Par exemple, pour soustraire 5/17 de 8/17, i'oste 5 de 8 & reste 3, c'est à dire 3/17. Mais si les fractions proposées ne sont en mesme denomination, il faudra premierement les reduire, puis faire la soustraction : ce faisant on trouuera que si on oste ⅔ de 4/5, le reste sera 2/15.
+Soit que les fractions soient en mesme denomination ou non, multipliant les numerateurs l'vn par l'autre, & aussi les denominateurs, on aura le produict de la multiplication : ce faisant on trouuera que 2/5 estant multipliez par 2/5 font 6/25 : & aussi 4/5 multipliez par 2/3 font 8/15. Pour multiplier vn nombre entier par entier & rompu, par exemple, 12 par 7⅔, ie multiplie premierement 12 par 7, & vient 84, puis ie multiplie 12 par le numerateur 2, & vient 24/3, qui valent 8, & 84 auec 8 font 92, pour le produict requis.

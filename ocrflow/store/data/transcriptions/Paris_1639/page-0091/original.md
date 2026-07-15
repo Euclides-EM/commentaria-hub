@@ -1,42 +1,54 @@
-# Page 90
+# Page 91
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-7.a.1 | ∠abc + ∠c + ∠d + ∠def 2|2 6┘,
-ſ.32.1 | ∠ebc + ∠c + ∠d + ∠deb 2|2 4┘,
-3.a.1 | ∠abe + ∠bef 2|2 2┘,
-1.concl. 28.1 | ab == fe, γ
-2.concl. d.γ | bc == gf.
+THEOR. XXVI. PROPOS. XXXVI.
 
-THEOR. XXV. PROPOS. XXXV.
-
-Les parallelogrammes constituez sur vne mesme base, & entre mesme paralleles, sont égaux entr'eux.
+Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux.
 
 (figure)
 
 *Hypoth.*
 
-af == bc,
-bcda & bcfe *ſnt* ◊. α
+af == bh,
+*baſe* bc 2|2 *baſe* gh.
+
+*Req. à demonſtr.*
+
+◊bcda 2|2 ◊ghfe.
+
+*Preparation.*
+
+1.p.1 | be & cf *ſnt* ——.
+
+*Demonſtr.*
+
+hyp. | bc 2|2 gh,
+34.1 | ef 2|2 gh,
+1.a.1 | bc 2|2 ef,
+hyp. | bc == ef,
+33.1 | be == cf,
+35.d.1 | bcfe *eſt* ◊,
+35.1 | ◊bcda 2|2 ◊bcfe,
+35.1 | ◊eghf 2|2 ◊bcfe,
+concl. 1.a.1 | ◊bcda 2|2 ◊eghf.
+
+THEOR. XXVII. PROPOS. XXXVII.
+
+Les triangles constituez sur mesme base, & entre mesmes paralleles, sont égaux entr'eux.
+
+(figure)
+
+*Hypoth.*
+
+ef == bc.
 bc *eſt baſe commune.*
 
 *Req. à demonſtr.*
 
-◊bcda 2|2 ◊bcfe.
+△bca 2|2 △bcd.
 
-*Demonſtr.*
+*Preparation.*
 
-α.34.1 | ad 2|2 bc,
-α.34.1 | ef 2|2 bc,
-1.a.1 | ad 2|2 ef,
-de *commun. add.*
-2.a.1 | ae 2|2 df. β
-*aux* △;abe & dcf
-β | ae 2|2 df,
-α.34.1 | ab 2|2 dc,
-α.29.1 | ∠bae 2|2 ∠cdf,
-nota. 4.1 | △bae 2|2 △cdf,
-gde *commun. ſubtr.*
-3.a.1 | badg 2|2 cgef,
-bgc *commun. add.*
-concl. 2.a.1 | ◊badc 2|2 ◊bcfe.
+31.1 | be == ca,
+31.1 | cf == bd.

@@ -1,39 +1,43 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-*136*
+*137*
 
-Exempli gratia, trianguli a/ b/ c/ altitudo erit a/ d/ recta linea, ab a/ vertice ad basin b/c/ perpendiculariter incidens. Et hexagoni e/f/g/altitudinem ostendet perpendicularis e/h, quę ab e/vertice, in basin f/g/deducitur.
+& sesqualtera ipsius c/ad b/resultantem. ¶Sit rursum in maiorem expressionem, inter c/ & b/alia quædam magnitudo d, subtripla ipsius c, ipsius autem b/subdupla. Aio quoq́ue rationē a/ad b, ex rationibus a/ad c, & c/ad d, atque d/ad b/constare. Duco enim vnum & tertiū rationis a/ ad c/ denominatorem, in tria denominatorem triplæ, quæ est c/ad d: fient quatuor, ostēdentia a/ad d/quadruplam obtinere rationem. Et quoniā d/ad b/ ratio minoris est inæqualitatis, nempe subdupla: diuidam quatuor, à quibus nominatur quadrupla, per duo ipsius subduplæ denominatorem: prouenient enim duo, duplā (quæ est ipsius a/ad b) rationem denominantia. Nam cum d/ subduplum sit ipsius b, & subtriplum ipsius c: qualium igitur d/est vnum, talium b/est duorum, & c/trium similium. Item quoniam a/ad c/est sesquitertiū: qualium propterea c/ est trium, a/erit quatuor. Sed qualium c/est trium, b/duorum esse deductum est: qualium itaq́ue b/est duorum, a/quatuor erit similium. Quatuor rursum ad duo, rationem habent duplam, qualem a/ad b/obtinere supposuimus.
 
-*[diagram: a b d c; e f h g]*
+> Exemplū vbi tres rationes (quarum vna minoris est inæqualitatis) eandem cōponunt multiplicem.
 
-Λόγος ἐκ λόγων συγκεῖσθαι λέγεται, ὅταν αἱ τῶν λόγων πηλικότητες ἐφ' ἑαυτὰς πολλαπλασιασθεῖσαι, ποιῶσι τινάς.
+> Ostensio eiusdem exēpli.
 
-## Ratio ex duabus rationibus, aut ex pluribus cōstare dicitur: quādo rationū quātitates multiplicatæ, aliquam efficiunt quātitatem.
+*[diagram: 4 3 2 1, a 1⅓ c 3 d 2 b, 4 1½ 2]*
 
-> De cōpositione rationum, interpretatio notanda.
+¶Sed demus exemplum in ratione superparticulari: sítq́ue a/ad b/sesqualtera, ad c/autem sesquiquinta, & c/ad b/sesquiquarta. Dico rationem sesqualteram, ex sesquiquarta & sesquiquinta resultare. Si nanque multiplicaueris vnum & quartum, per vnū & quintum: proueniet vnum & dimidium, à quibus sesqualtera ratio denominatur. Cùm enim c/subsesquiquintum sit ipsius a, & sesquiquartū ipsius b: qualiū ergo partiū c/est quinq́ue, talium a/erit sex, & b/quatuor similiū. habent autem sex ad quatuor, veluti a/ad b/rationem sesqualteram
 
-Expressimus diffinitione tertia libri quinti, quidnā rationē adpellemus: quot insuper rationū fuerint species siue differentiæ, atq́ue singula in vniuersum comprehensa rationū discrimina. Nunc porrò diffinit Euclides, quonā modo ratio ex rationibus cōponi, seu constare dicatur. Ea nanq́ue ratio ex rationibus constat, siue cōponitur: quarū quantitates inuicē multiplicatæ illam efficere vidētur. De ea rationis cōpositione, seu rationalium terminorū illatione, hic minimè velim intelligas: quam decimaquarta libri quinti diffinitione, cōpositam rationem adpellauimus: acceptionem videlicet antecedentis cum consequente, sicut vnius, ad ipsum consequens. Aliud siquidem est, rationē ex rationibus cōponere: aliud verò in proportionibus, à diuisis rationum terminis ad coniunctos siue compositos, rationum subinferre similitudinem.
+> Exemplū de ratione superparticulari.
 
-> Diffinitionis interpretatio
+> Inductio.
 
-¶Ait igitur Euclides, rationem ex binis aut pluribus rationibus componi, siue constare: cùm datarū rationum quantitates fuerint adinuicē multiplicatæ, & aliam quampiam genuerint rationis quantitatem. Ea enim quantitas, rationem exprimit, quæ ex datis rationibus procreatur. Fit autem huiuscemodi quātitatum multiplicatio, inter duarum tantummodò rationum quantitates.
+*[diagram: 6 5 4, a 1⅕ c 1¼ b, 1½]*
 
-> Vbi plures duabus extiterit rationes.
+¶Quòd si c/magnitudo fuerit ipsius a/sesquitertia, & dupla ipsius b, vt in secūda figura: nō multiplicabis vnum & tertium subsesquitertiæ (quæ est a/ad c) denominatorem, per duo, à quibus dupla ratio ipsius c/ ad b/denominatur. Diuides itaque duo, per vnū & tertium: propterea quòd a/ad c/ratio minoris sit inæqualitatis. Vnum igitur & tertium, efficiunt quatuor tertia: duo autem, tertia sex. Diuide itaque sex per quatuor: proueniet vnum & dimidium, sesqualteræ rationis (quæ est a/ad b) denominator. Nam cùm c/ ad a/ sit sesquitertium, ad b/ autem duplum: qualium proinde partium c/est quatuor, talium a/est trium, & b/duarum similium. Ratio igitur a/ad b, est vt tria ad duo, quæ sesqualtera nuncupatur.
 
-Nam vbi plures sese obtulerint rationes: ea in primis colligatur ratio, quæ ex multiplicatione duarum primarum quantitatū generatur. Ex hac postmodùm ratione & sequente tertia, alia ratio procreanda est. Hinc rursum, per quantitatū huiusce rationis & succedentis quartæ multiplicationem, consurgēs ratio tandem eliciatur. Idque deinceps, pro datarum rationum multitudine: siue datæ rationes eiusdem, aut diuersæ fuerint speciei, & sub continua aut discontinua, ordinatáve seu perturbata proportione constitutæ.
+> Aliud exēplū superparticularis, vbi vna rationū minoris est inęqualitatis.
 
-> Notandum.
+> Exēpli declaratio.
 
-Adde quòd hæc intelligenda sunt de rationibus omnino maioris, vel omnino minoris inæqualitatis. Nam si vna propositarum rationum foret maioris, altera verò minoris inæqualitatis (de quibus tertia diffinitione libri quinti) tunc quantitas maioris, per quantitatem minoris veniret diuidenda: resultans enim quantitas, procreatam inde rationem ostendet.
+*[diagram: 3 4 2, a 1⅓ c 2 b, 1½]*
 
-> Quęnam sint rationū quantitates.
+¶Idem in superpartiente ratione tandē obseruari videbis. Sit enim a/ ad b/ superbipartiens tertias: & inter a/ & b/incidat c, subsesquiquartum ipsius a, & sesquitertium ipsius b. Dico iam rationē a/ad b, componi ex ratione a/ad c/sesquiquarta, & sesquitertia ipsius c/ad b. Multiplicetur enim vnum & quartum, per vnum & tertium: fiet vnū & duo tertia, vnde superbipartiēs tertias (quæ est ipsius a/ad b) denominatur. Oportet enim propter rationum hypotheses, qualium partium c/ fuerit quatuor, talium b/fore trium, & a/quinque similium. Quinque porrò ad tria, eam seruant rationē, quam a/ad b: nēpe superbipartiētem tertias.
 
-¶Quantitates autem rationum hic vocat Euclides, non eas quæ sub datis continentur rationibus: sed numeros, à quibus rationes ipsæ denominantur. Vt duo, à quibus dupla: tria, à quibus tripla: & quatuor, vnde quadrupla ratio in multiplicibus exprimitur. Aut in superparticularibus vnum & dimidium, à quo sesqualtera: vnum & tertium, à quo sesquitertia: vnum insuper & quartum, vnde sesquiquarta ratio nomenclaturam accipit. Item vnum & duo tertia, vnde rationem superbipartientem tertias: atque vnum & tria quarta, ex quibus supertripartientem quartas in superpartientibus adpellamus. Haud alienum habeto iudicium, de rationibus ex multiplici & superparticulari ratione, aut ex multiplici & superpartiente compositis: & datis quibuscunque singularum quinq́ue rationalium specierum differentijs.
+> Exēplū de superpartientis cōpositione.
 
-> Exēplū vbi ratio multiplex ex binis cōponiť rationib9.
+> Ostensio exēpli.
 
-¶ESTO, LVCIDIORIS INTELLIGENTIAE GRATIA, DAta in exemplum ratio multiplex, ipsius inquàm a/ad b/dupla: ponatúrq́ue inter a/ & b, alia quædā magnitudo c, subsesquitertia ipsius a, & sesqualtera ipsius b. Aio rationem a/ad b, componi siue constare, ex ratione a/ ad c, & ratione c/ad b. Nam si quantitas rationis a/ad c, vtpote vnum & tertium, per rationis quantitatem ipsius c/ad b, vnum inquàm & dimidium multiplicetur: prouenient duo, à quibus dupla ratio (quā habet a/ad b) nominatur. Cùm enim c/magnitudo ad a/magnitudinem sit subsesquitertia, ad b/autem sesqualtera: qualium igitur partium c/est trium, talium necessum est a/fore quatuor, & b/duarū similium. Habet igitur a/ad b/rationem, quam quatuor ad duo: & proinde duplam, ex sesquitertia ipsius a/ad c,
+*[diagram: 5 4 3, a 1¼ c 1⅓ b, 1⅔]*
 
-> Exēpli demōstratio.
+¶Quòd si inter a/& c/inciderit magnitudo d, sesquiquinta ipsius a, & ipsius c/sesqualtera. Ratio a/ad b, ex rationibus a/ ad d, & d/ad c, atq́ue c/ad b/itidem componetur. Duco enim vnum & tertium rationis c/ad b/denominatorem, in vnum & dimidium denominatorē rationis quam habet d/ad c: fient duo, à quibus ratio d/ad b/denominatur, vtpote dupla. At quoniā a/ad d/ratio minoris est inæqualitatis, nēpe subsesquiquinta: diuidam ipsa duo per vnum & quintum, in hunc modum. vnum & quintum, efficiunt quinta sex: & duo, vertuntur in decem
 
-*[diagram: 4 3 2, a 1⅓ c 1½ b, 2]*
+> Aliud superpartiētis exēplum, vbi vna rationū minoris est inęqualitatis.
+
+*[diagram: 6 5 4 3, a 1⅕ d 1½ c 1⅓ b, 1¼ 2 1⅔]*
+
+m.iij.

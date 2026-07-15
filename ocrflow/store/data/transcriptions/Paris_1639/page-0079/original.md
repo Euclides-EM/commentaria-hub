@@ -1,53 +1,31 @@
-# Page 78
+# Page 79
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
+
+THEOR. XVIII. PROPOS. XXVII.
+
+Si vne ligne droicte tombante sur deux autres lignes droictes, fait les angles alternes égaux entr'eux : icelles lignes droictes seront paralleles entr'elles.
 
 (figure)
 
-*Req. à demonſtrer.*
+*Hypoth.*
 
-de 2|2 ab,
-dg 2|2 ac,
-∠edg 2|2 ∠bac.
+∠aef 2|2 ∠dfe.
 
-*Demonſtr.*
+*Requis à demonſtr.*
 
-ſuppoſ. | eh 2|2 ba,
-1.p.1 | gh *eſt* ——,
-hyp. | eg 2|2 bc,
-hyp. | ∠e 2|2 ∠b, α
-4.1 | ∠egh 2|2 ∠c,
-hyp. | ∠egd 2|2 ∠c,
-1.a.1 | ∠egh 2|2 ∠egd.
-*contr. 9 a. 1.*
-1.concl. 21.a.1 | ed 2|2 ba, β
-αβ.4.1 | gd 2|2 ca,
-αβ.4.1 | ∠edg 2|2 ∠a.
-
-*Hypoth. 2.*
-
-ed 2|2 ba,
-
-*Req. à demonſtr.*
-
-eg 2|2 bc,
-gd 2|2 ca,
-∠edg 2|2 ∠a.
+ab == cd.
 
 *Demonſtr.*
 
-ſuppoſ. | ei 2|2 bc,
-1.p.1 | di *eſt* ——,
-hyp. | ed 2|2 ba, γ
-hyp. | ∠e 2|2 ∠b,
-4.1 | ∠eid 2|2 ∠c,
-hyp. | ∠egd 2|2 ∠c,
-1.a.1 | ∠eid 2|2 ∠egd,
-*contr. 16. 1.*
-2.concl. 21.a.1 | eg 2|2 bc, δ
-γδ.4.1 | gd 2|2 ca,
-γδ.4.1 | ∠edg 2|2 ∠bac.
+ſuppoſ. | ab n̄. *eſt* == cd,
+2.34.d.1 | egf *eſt* △,
+16.1 | ∠aef 3|2 dfe,
+*contr. hypoth.*
+concl. 21.a.1 | ab == cd.
 
-*Coroll.*
+En cette demonstration, pour monstrer l'inconuenient qui en arriueroit, on suppose que EB & FD continuées directement se rencontrent en G : d'où s'ensuit, que la figure EFG est vn triangle rectiligne, & par consequent par la 16. du 1. l'angle externe AEF est plus grand que son interne & opposé EFG, ce qu'estant contre l'hypothese, il est manifeste que les lignes EB & FD continuées directement ne se peuuent rencontrer, & par consequent qu'elles sont paralleles entr'elles.
 
-4.1 | △egd 2|2 △bca.
+THEOR. XIX. PROPOS. XXVIII.
+
+Si vne ligne droicte tombant sur deux lignes droictes, fait l'angle externe égal à l'interne, & opposé, & de mesme part ; ou les internes de mesme part égaux à deux droicts, icelles lignes droictes seront paralleles entr'elles.

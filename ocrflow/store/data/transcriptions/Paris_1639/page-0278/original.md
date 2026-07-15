@@ -1,36 +1,32 @@
-# Page 277
+# Page 278
 
-# D'EVCLIDE, LIV. VI.
-
-*Req. à demonſtr.*
-
-◊eg, ◊hf, ◊bd *ſnt ſml.* đe.
+# LES ELEMENTS
 
 (figure)
+
+*Conſtr.*
+
+45.1 | ▭abli 2|2 abcdc,
+44.1 | ▭bhml 2|2 *rectili.* f,
+14.1 | abh *eſt* ——,
+3.p.1 | agh *eſt ſemic.*
+2.p.1 | lbg *eſt* ——,
+3.1 | no 2|2 bg,
+18.6 | *rectili.* p *ſml.* abedc,
+ſymp. | *req. eſt rectili.* p.
 
 *Demonſtr.*
 
-hyp. | ef == bc, & gih == ab,
-15.1 | ∠eig 2|2 ∠hif.
-ſ.14.6 | ◊eg, ◊hf, ◊bd *ſnt equiang.* đe.
-29.1 | △;abc, aei, ihc, adc, agi, ifc *ſnt equiang.* đe.
-4.6 | ae π ei 2|2 ab π bc, ae π ai 2|2 ab π ac,
-4.6 | ai π ag 2|2 ac π ad,
-22.5 | ae π ag 2|2 ab π ad, &c.
-concl. 1.d.6 | ◊eg, ◊bd, ◊hf *ſnt ſml.* đe.
+10.d.1 | gb ⊥ ah,
+c.13.6 | ab π bg,
+| bg Ⅱ no π bh,
+c.20.6 | abedc π p 2|2 ab π bh
+1.6 | ab π bh 2|2 al π bm,
+11.5 | abedc π p 2|2 al π bm
+conſtr. | abedc 2|2 ▭al,
+1.concl. 14.5 | *rectili.* p 2|2 bm Ⅱ f,
+2 concl. conſtr. | *rectili.* p *ſml.* abedc.
 
-PROBL. VII. PROPOS. XXV.
+THEOR. XIX. PROPOS. XXVI.
 
-Descrire vne figure rectiligne, semblable à vne figure rectiligne donnée, laquelle soit égale à vne autre proposée.
-
-Notez qu'en cette demonstration & aux suiuantes, ce mot *rectili.* signifie *rectiligne*.
-
-*Hypoth.*
-
-abedc & f *ſnt* D.
-
-*Req. à faire.*
-
-*rectili.* p *ſml. rectili.* abedc, & 2|2 *rectili.* f.
-
-(figure)
+Si d'vn parallelogramme on retranche vn parallelogramme semblable au tout, & semblablement posé, ayant vn angle commun auec le tout; le retranché est à l'entour d'vn mesme diametre auec le tout.

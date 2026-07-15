@@ -1,33 +1,31 @@
-# Page 463
+# Page 464
 
 # ETYMOLOGIE.
 
-Concentrique, vient du Latin *concentricum*, qui sign. auoir mesme centre que la terre.  t. 5. p. 469.
+des sons des deux extremes de quatre chordes.  t. 5. p. 803.
 
-Conchoïde, en Grec *concha*, sign. escaille, & *eidos* figure, idée, espece : d'où vient le nom d'vne ligne courbe, qui ne differe pas beaucoup de l'hyperbole.  t. 2. p. 3.
+Diese vient de *diesis*, qui en Grec sign. diuision & separation.  t. 5. p. 805.
 
-Conoïde, en Grec *conos*, signifie vn cone, & *eidos* figure : d'ou vient le nom d'vn solide contenu sous deux superficies, dont l'vne est spherique, & l'autre plane, comme est vn pain de succre.
+Diezeugmena, *disioinctes*, en Grec *zeugnymi*, signifie ioindre, & *diazeugnymi*, disioindre; d'où vient diezeugmena, qui sign. disiointes,  t. 5. p. 809.
 
-Contrescarpe, *bort exterieur du fossé*, vient de *contre*, qui sig. opposé, & *scarpe*, le pied du mur de la ville.  t. 3. p. 181.
+Dioptrique vient de *dioptra*, qui en Grec sign. vne pinulle, au trauers de laquelle on regarde pour mesurer quelque chose.  t. 5. p. 1. & 126.
 
-Corollaire, *consequence*, vient de *corolla*, qui en Latin signifie petite couronne.  t. 1. def. 42.
+Dodecaedre vient de *dodeca*, qui en Grec sign. douze, & *hedra* siege.  t. 1. p. 653.
 
-Corridor, *chemin conuert*, est vn espace qu'on fait sur le bord exterieur du fossé tout à l'entour de la ville auec vn parapet, & vient de *correre*, qui en Italien sign courir.  t. 3. p. 181.
+Diton, *tierce maieur*, vient de *dis*, qui en Grec sign. deux fois, & *tonos* vn ton : à cause qu'il est composé de deux tons, dont l'vn est maieur, & l'autre mineur.  t. 5. p. 803.
 
-Cosmographie, *description du monde*, vient de *cosmos*, qui en Grec signifie le monde, & *graphia* description.  t. 4. p. 1.
+Eccentrique, qui vient de *extra*, qui en Latin sign. hors, & *centrum* le centre, est vn cercle ou orbe, qui a son centre hors le centre de la terre.  t. 5. p. 469.
 
-Cossique, *denommé*, vient de *cosa*, qui en Italien sign. vne chose.  t. 2. p. 3. alg.
+Eclipse, vient du verbe Grec *ecleipo*, qui sign. defaillir.  t. 4. p. 469.
 
-Cycle, *reuolution*, vient de *cyclos*, qui en Grec signifie reuolution.  t. 2. p. 149.
+Ellipse, *ouale*, en Grec *elleipo*, sign. laisser & obmettre, & *elleipsis* obmission & defaut : d'où vient, que la section conique, qui a les quarrez des moitiez de ses ordonnées defaillants, s'appelle ellipse.  t. 5. p. 690.
 
-Cylindre, *vne colomne ou pilier rond*, d'égale grosseur, vient de *cylindromai*, qui en Grec sign. rouler.  t. 1. p. 651.
+Embrazures, vient d'embrasser & contenir, & se font non seulement aux cazemates & canonnieres, mais aussi aux fenestres des chambres, qui ont leurs murs espais, afin d'auoir plus de lumiere dans la chambre, & d'espace pour s'approcher des fenestres.
 
-Diagramme, *figure*, vient de *dia*, qui en Grec sign. par, & *gramme* ligne.  t. 5. p. 835.
+Epacte, qui est vn certain nombre de iours qu'on prend en chaque année pour trouuer l'aage de la Lune, vient de *epagomai*, qui en Grec sign. introduire.  t. 2. p. 145.
 
-Diapason vient de *dia*, qui en Grec sign. par, & *pas* tout : & s'appelle vulgairement *octaue*, à cause que son interualle, qui est double, est composé des sons des extremes de huict chordes.  t. 5. p. 803.
+Ephemerides, en Grec *ephemeris*, sign. iournalier, d'où vient le nom du liure qui contient les lieux des planetes pour chaque iour de l'année.
 
-Diapente, *la quinte*, vient de *dia*, qui en Grec sign. par, & *pente* cinq : à cause que son interualle, qui est comme 2 à 3, est composé des sons des extremes de cinq chordes.
+Epicycle vient de *epi*, qui en Grec signifie en ou dedans, & *cyclos* cercle.  t. 5. p. 470.
 
-Diastole, *dilatation*, vient du verbe Grec *diastello*, qui sign. ouurir & eslargir.
-
-Diatessaron, *la quarte*, vient de *dia*, qui en Grec sign. par, & *tessares* quatre : à cause que son interualle, qui est comme 3 à 4, est faict
+Epipedometrie, *planimetrie*, vient de *epipedos*, qui en Grec signifie

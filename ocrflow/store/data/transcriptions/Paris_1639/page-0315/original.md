@@ -1,26 +1,27 @@
-# Page 314
+# Page 315
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-1 3 7 8′
-2 3 an. 7 m. 2 5 iours.
+en estofes de 8 liures 10 sols l'aulne, encore que les 8 lt. 10 ſ. se reduisent en 85′, il faut les reduire en secondes, afin que le diuiseur aye mesme denomination que le diuidende, qui est 34645″, partant adioustant vn zero à 85′, on aura pour diuiseur 850″, par lequel diuisant 34645″, viendra au quotient 40, & restera 645″, ou 6 lt. 4′, 5″ qui valent 6 lt. 9 sols : tellement que pour payer les 346 liures 9 sols en estofes de 8 liures 10 sols l'aulne, il en faudra 40 aulnes, & 6 liures 9 sols, outre les 40 aulnes. Par la mesme methode on trouuera, que pour payer 1000 liures en patagons de 58 sols piece, il faut 344 patagons auec 2 liures 8 sols.
+
+*Les nombres de la diuiſion ſont ceux-cy.*
+
+1 0 0 0 0′
 ——
-4 1 3 4′
-2 7 5 6
-6 8 9
-1 1 4——1 ſ. 8 d.
-5 7——1 0 d.
-1 9——3⅓,
-1 9——3⅓,
-——
-3 2 5 9|2′ 3 ſ. ⅔ d.
-——
-3 2 5 9 lt. 7 ſ. ⅔ d.
+2 9′ [3 4 4 24′/
 
-*Diuiſer par liures, ou par liures & ſols, vne ſomme donnée de liures, ou de liures & ſols.*
+DES FRACTIONS *ou nombres rompus.*
 
-Par exemple, s'il faut payer 468 liures en pieces de 16 sols, ou en estoffe qui vaille 16 sols l'aulne, le requis se trouuera en diuisant 468 liures par 16 sols : & pour faire cette diuision, on reduira le diuidende 468 & le diuiseur 16 sols en dixme de mesme denomination, comme en cet exemple, à cause que les 8 sols se reduisent 8′, on adioustera vn zero à 468 liures pour les reduire en minutes de liure, puis diuisant 4680′ par 8′, on trouuera 585 pieces de 16 sols, qu'il faut pour payer les 468 liures. Par la mesme methode on trouuera, que pour payer 346 liures 9 sols en estoffes de 7 liures 7 sols l'aulne, qu'il en faudra 47 aulnes & vne liure de plus, car 346 lt. 9 ſ. en dixme font 34645″, & & 7 lt. 7 ſ. font 735″, & diuisant 34645″ par 735″, le quotient est 47, & reste 100″, qui valent vne liure. Que si on veut payer la mesme somme de 346 liures 9 sols
+La fraction ou nombre rompu est vne ou plusieurs parties de l'entier diuisé en plusieurs parties égales.
 
-3 4 6 4 5″
+Toute fraction a deux nombres couchez l'vn sur l'autre auec vne ligne entre deux.
+
+Le premier de ces deux nombres qui est au dessus de la ligne s'appelle numerateur, parce qu'il monstre combien de parties de l'entier contient la fraction.
+
+L'autre nombre qui est sous la ligne s'appelle denominateur, & monstre en combien de parties égales l'entier est diuisé : & se peut tousiours prendre pour le tout ou l'entier, à cause qu'il contient toutes les parties de l'entier.
+
+1 2 3 8 *numerateurs.*
 ——
-7 3 5″ [4 7
+2, 3, 4, 12, *denominateurs.*
+
+Or la valeur de la fraction consiste en la proportion du numerateur au denominateur, & non en la grandeur des nombres : d'où s'ensuit que la multiplication ou diuision de deux nombres de la fraction par vn mesme nombre ne change pas la valeur de la fra-

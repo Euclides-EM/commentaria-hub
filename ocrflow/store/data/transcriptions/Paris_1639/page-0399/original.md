@@ -1,21 +1,21 @@
-# Page 398
+# Page 399
 
 # DES FORTIFICATIONS.
 
-*De la montagne.*
+Ses defaux seront, qu'elle sera exposée aux courses des ennemis par la riuiere, & principalement si elle se gele : elle pourra estre surprise par icelle, on luy pourra aussi destourner le cours de la riuiere, ou bien luy empescher son cours pour la noyer.
 
-Il y a cinq sortes de montagnes, à sçauoir, de roc fort dur, de pierre tendre & facile à cauer, de terre & pierre ensemble, de sable, & de terre seule. Si elle est de pierre tendre, elle sera subiecte à la ruine du canon, à la mine, & à la sappe : mais si elle est de roc fort dur, elle en sera exempte.
+*Des lieux marescageux & humides.*
 
-Les aduantages des montagnes sont, qu'elles descouurent ordinairement par tout, qu'elles sont fort meurtrieres, & hors de commandement, qu'on ne peut commencer les approches de pres, à cause du canon qui descouure loing ; qu'elles sont difficiles à battre, & estant battuës difficiles à l'assaut ; qu'elles sont de petite garde, & saines tant pour les habitans que pour les munitions.
+L'on ne peut approcher qu'auec beaucoup de temps, à cause du manquement de bonne terre, qu'aura l'ennemy pour éleuer ses batteries, l'on ne peut assieger pour long temps, pource que l'air qui est gros & mal sain, fait autant de mal aux assaillans qu'aux assaillis : ceux de dedans peuuent quelquefois lascher l'eau au païs, qui empeschera les approches : elle sera exempte des mines, & de difficile accez pour faire la bresche & venir à l'assaut.
 
-Ses defaux sont, qu'elles manquent ordinairement d'eau, qu'elles ont faute de bonne terre pour se fortifier, & estant battuës, pour se retrancher. Qu'elles sont faciles à estre bien tost serrées, & les passages & aduenuës pour leurs secours, aisées à estre coupées : & par consequent, qu'elles ne pourront receuoir secours d'hommes, ny de viures. Que le charroy est difficile, que la caualerie n'y peut loger aisément, & y estant logée, pourroit seruir de peu à cause de la descente.
+Ses incommoditez seront, qu'elle sera facile à inuestir, que le temps d'hyuer y sera nuisible, à cause des gelées, qui donnent commodité aux ennemis de s'approcher : que l'air est mal sain : que les marests se peuuent tarir : qu'on peut apporter de la terre, & éleuer des plates-formes pour la ruiner.
 
-*De la plaine ou campagne.*
+*Du riuage de la mer.*
 
-L'edifice en vne plaine se peut fortifier selon tous les preceptes de l'art militaire, on peut receuoir secours, & se retrancher facilement, on peut faire sortie, & faut vne grande armée pour l'assieger.
+Les riuages de la mer sont estimez les plus commodes pour la fortification, à cause qu'il faut deux armées pour l'assieger, vne par terre & vne autre par mer : qu'il est difficile d'empescher le secours, & qu'elle est exempte des mines.
 
-Ses defaux sont, qu'il est subiect à la batterie, à l'escalade, à la sappe, & à la mine : qu'on luy peut destourner ses eaux, si elles y viennent de dehors, & aussi qu'on peut éleuer des grands caualiers par dehors pour le ruiner ; c'est pourquoy il seroit desirable que le lieu fust vn peu éleué.
+Ses incommoditez sont, qu'elle est subiecte à se tenir tousiours sur ses gardes, pource que de loing & en peu de temps on peut venir l'assaillir ; que si elle prend l'eau douce de la terre, on la luy pourra destourner ; qu'elle pourra aussi estre subiecte aux glaces.
 
-*De la plaine auec riuiere.*
+*Des lieux mixtes.*
 
-La forteresse qui a vne riuiere est difficile à inuestir, à cause qu'il faut diuiser l'armée à tout le moins en deux.
+Reste à parler des lieux mixtes, c'est à dire, participans de toutes les situations cy dessus dites : comme en vn vallon, ou en vne campagne qui auroit des terres éleuées, ou bien en vn païs montagneux, & autres lieux qui se trouuent presque en toutes places, lesquels faut considerer par les raisons de chacune situation particuliere, pour y remedier ainsi que l'on iugera estre necessaire.

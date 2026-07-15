@@ -1,35 +1,40 @@
-# Page 115
+# Page 116
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-*Explication par nombres*
+*Hypoth.*
 
-hyp. | fc *eſt* 3, α
-hyp. | cd *eſt* 3, α
-arbitr. | fa Ⅱ db *eſt* 4. β
-19.a.1 | ad *eſt* 10. γ
-αβ | ac *eſt* 7. δ
-γβ | ▭.daf *eſt* 40,
-α | □.cd *eſt* 9.
-19.a.1 | 40 + 9 *ſnt* 49.
-δ | □.ac *eſt* 49.
+ab *eſt* ——,
+ae & eb *ſont parties de* ab.
 
-SCHOL. II.
+*Requis à demonſtrer.*
 
-Si trois lignes droictes sont en proportion arithmetique, le rectangle compris sous les extremes, auec le quarré de l'excez, sera égal au quarré de la moyenne.
+□.ab + □.ae 2|2 2▭.bae + □.be.
 
-ſ.4.d.5 | af, ac, ad, *ſnt en proport. arithm.*
-concl. 6.2 | ▭.af, ad + □.cd Ⅱ fc 2|2 □.ac.
+*Preparation.*
 
-SCHOL. III.
+46.1 | bd *eſt* □.ab,
+1.p.1 | ac *eſt diametre*,
+31.1 | ef == ad, hig == ab.
 
-La difference de deux grandeurs contient deux fois la difference de leurs moitiez.
+(figure)
 
-hyp. | ab 2|2 2ac,
-hyp. | fd 2|2 2fc,
-3.a.1 | af 2|2 db,
-concl. 19.a.d | af + db 2|2 2af.
+*Demonſtr.*
 
-THEOR. VII. PROPOS. VII.
+1.c.4.2 | eg *eſt* □.ae, hf *eſt* □.eb,
+3.ſ.1.d.2 | ▭.bae 2|2 ▭bg, Ⅱ ▭ed,
+2.a.1 | 2▭.bae 2|2 *gnom.* haf + □eg,
+□hf *commun. add.*
+concl. 2.a.1 | 2▭.bae + hf □.be 2|2 bd □.ab + eg □.ae.
 
-Si vne ligne droicte est couppée comme l'on voudra: Les deux quarrez ensemble, sçauoir celuy de la toute, & celuy de l'vn des segments, sont égaux à deux fois le rectãgle contenu sous la toute & ledit segment, & au quarré de l'autre segment.
+SCHOLIE.
+
+Si vne ligne droicte est couppée en deux parties inégales, le rectangle compris deux fois sous les parties auec le quarré de la difference des parties, est égal à l'aggregé des quarrez descrits de deux parties.
+
+*Hypoth.*
+
+ab *eſt* ——,
+ad 3|2 db,
+ad ~ db 2|2 fd.
+
+(figure)

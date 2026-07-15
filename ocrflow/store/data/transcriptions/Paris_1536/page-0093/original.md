@@ -1,29 +1,33 @@
-# GEOMET. ELEMENT.
+# LIBER III.
 
-> 76
+> 77
 
-vigesimamprimam huius tertij:sunt enim in eodem segmẽto b/a/d/c. Angulo rursum a/c/b, æqualis est angulus b/d/a, per eandem vigesimãprimam huius tertij: in eodẽ nanq; segmẽto consistunt a/d/c/b. Totus igitur qui sub a/d/c/cõtinetur angulus, binis angulis b/a/c/& a/c/b (nempe suis partib⁹ integralibus) coæquatur. Adijciatur vtrisq; æqualibus, cómunis angulus a/b/c. duo igitur anguli a/b/c/& c/d/a, tribus angulis b/a/c, a/c/b, & c/b/a, ipsius a/b/c/ trianguli, sunt per secundam communem sententiam æquales. Eisdem porrò tribus angulis eiusdẽ a/b/c/trianguli, duo recti sunt æquales anguli:omnis siquidem triãguli, tres interiores anguli binis sunt rectis æquales, per trigesimamsecundã primi. Qui igitur ex opposito sunt anguli a/b/c, & c/d/a, per primam communem sentẽtiam, sunt æquales duobus rectis. Nec dissimiliter ostẽdemus, quòd anguli b/a/d/& d/c/b, duobus itidem rectis coæquantur. Igitur in circulis quadrilaterorum existentiũ anguli, qui ex opposito:duobus rectis sunt æquales. Quod demonstrare oportebat.
+per octauæ cómunis sententiæ conuersionem. Conueniente autem recta c/d/ ipsi a/b, conueniet & c/f/d/ circunferentia ipsi a/e/b: & illi consequenter erit æqualis. Tunc enim super eadem recta & communi linea a/b/vel c/d, duæ circulorum sectiones constituentur similes:igitur & æquales, per vigesimam tertiam huius. Aequalis est igitur a/e/b/ipsi c/f/d. ¶Quòd si non fueris contentus hac demonstratione, & dixeris forsan circunferentiam c/f/d, ipsi a/e/b/ minimè conuenire:tunc vel altera alteram secabit, vel vna cadet intra reliquam. Secent se primùm (si possibile sit) in puncto g. Et quoniam se secant iam, in communibus pũctis a, b/vel c, d:secabunt sese inuicẽ circuli, quorũ sunt sectiones, in pluribus duobus pũctis. quod per decimam huius tertij, est impossibile. Quòd si vna ceciderit intra reliquam, vtpote c/f/d/intra a/e/b:idẽ quod in proxima sequetur inconueniẽs, velut ex ipsa potes elicere figura.
 
-*[diagram: b c a d]*
+> Alia eiusdem theorematis ostensio.
 
-Θεώρημα κα, Γρόθεσις κγ.
+*[diagram: e f a b c d]*
 
-Επὶ τῆς ἀυτῆς ἐυθείασ' δύο τμήματα κύκλωρ ὅμοια καὶ ἄνισα, ὀυ συσαθήσονται ἐπὶ τὰ ἀυτὰ μέρη.
+*[diagram: e g f — ac bd ac bd]*
 
-## Theorema 21, Propositio 23.
+Exterior enim angulus qui ad f, trianguli c/f/b/ aut c/f/d, maior erit intrinseco & ex opposito qui ad e, per decimãsextã primi:ac eidem æqualis, per similiũ sectionũ diffinitionẽ, quod non est possibile. Congruit itaque circunferentia c/f/d, ipsi a/e/b: quemadmodùm & recta c/d/ipsi a/b. quæ autem sibimetipsis conueniunt, æqualia sunt adinuicem:per octauam cómunem sententiam. Aequalis est igitur sectio a/e/b, ipsi c/f/d. Igitur super æqualibus rectis lineis, similes circulorum sectiones cõstitutæ, sibi inuicem sunt æquales. Quod receperamus ostendendum.
 
-SVper eadem recta linea, duæ sectiones circulorum similes, & inæquales non constituentur ad easdem partes.
+Γρόβλημα γ, Γρόθεσις κε.
 
-ORONTIVS. ¶Super eadem nanque recta linea a/c, binæ & inæquales circulorum sectiones, a/b/c/quidem maior, minor autem a/d/c, ad easdem partes b, d/constituantur. Dico q̃ ipsæ sectiones nó sunt similes, & simul inæquales. Si enim id fuerit possibile: extendatur recta quædam linea a/d/b, quæ secet vtranq; sectionem, maiorem quidem in b, & ipsam minorẽ in d:& connectantur b/c, & c/d/rectæ, per primum postulatũ. Triangulum erit igitur b/c/d: cuius vnum latus b/d, producitur in a. exterior igitur angulus a/d/c, interiore & ex opposito c/b/d/maior est, per decimamsextam primi. Quòd si segmentum a/d/c/, fuerit ipsi a/b/c/simile:æquus erit angulus a/d/c, eidem angulo c/b/d, per vltimam huius tertij diffinitionem. similes nanq; sectiones circuli sunt, quæ angulos æquos suscipiũt. Esset igitur angulus a/d/c, maior angulo c/b/d, atq; eidem æqualis:quod est impossibile. Super eadem itaq; recta linea, duæ sectiones circulorum similes, & inæquales non constituẽtur ad easdem partes. Quod ostendere fuerat operæpretium.
+Κύκλου τμήματος δοθέντ⊕, προσαναγράψαι τὸρ κύκλορ οὗπερ ἐςὶ τμῆμα.
 
-*[diagram: a b d c]*
+## Problema 3, Propositio 25.
 
-Θεώρημα κβ, Γρόθεσις κδ.
+CIrculi sectione data:describere circulum, cuius est sectio.
 
-Τὰ ἐπὶ ἴσωρ ἐυθειῶρ ὅμοια τμήματα κύκλωρ, ἴσα ἀλλήλοις ἐσίρ
+ORONTIVS. ¶Esto data circuli sectio a/b/c, cuius centrum oporteat inuenire:hoc est, circulum cuius est sectio describere. Secetur itaque a/c/recta bifariam in puncto d, per decimam primi. & per vndecimam eiusdem primi, à puncto d/ipsius a/c/rectæ lineæ, perpendicularis excitetur d/b:& cõnectatur a/b/ recta, per primum postulatum. Triangulum erit igitur a/b/d: cuius angulus b/a/d, ipsi angulo d/b/a/erit æqualis, aut eo minor, vel eodẽ angulo maior. Si æqualis (vt in hac prima figura) æqualis erit a/d, ipsi d/b, per sextã primi. Eidem porrò a/d, æqualis est d/c, per constructionem: & d/b/igitur ipsi d/c, per primam communem sententiam erit æqualis. Tres itaque a/d, d/b, & d/c, erunt inuicem æquales. Cadet ergo à puncto d, in circũferentiã a/b/c, plures quàm duæ rectæ lineæ æquales:erit igitur punctum d, centrum circuli, cuius a/b/c/est sectio, per nonam huius tertij. ¶At si angulus b/a/d, minor fuerit angulo d/b/a (vt in secunda figuræ dispositione) cõstituatur ad datum punctum a/datæ rectæ lineæ a/b, dato angulo rectilineo d/b/a, æqualis angulus rectilineus b/a/e: per vigesimamtertiam primi. Et quoniam trianguli a/b/d, angulus qui ad d/rectus est:igitur & qui ad b/ minor est recto, per trigesimamsecundam primi. Angulo autẽ d/b/a, datus est æqualis b/a/e:& b/a/e/igitur angulus recto minor est. incidit itaq; recta linea a/b, in a/e/& b/d/rectas, efficiens interiores &
 
-## Theorema 22, Propositio 24.
+> Prima huius ostẽsionis differentia.
 
-SVper æqualibus rectis lineis similes circulorum sectiones constitutæ, sibi inuicem sunt æquales.
+*[diagram: b a d c]*
 
-ORONTIVS. ¶Constituantur enim super æqualibus rectis lineis a/b, & c, d, similes circulorum sectiones a/e/b, & c/f/d. Dico q̃ sectio a/e/b, sectioni c/f/d/ est æqualis. Comparatis nanque adinuicem ipsis a/e/b/ & c/f/d/sectionibus, & puncto c/supra punctum a/ collocato, extensaq; recta linea c/d/in directum ipsius a/b:congruet punctum d, ipsi puncto b. quæ enim sunt æqualia, sibimetipsis conueniunt,
+> Secunda differentia.
+
+*[diagram: b a d c e]*
+
+g.iij.

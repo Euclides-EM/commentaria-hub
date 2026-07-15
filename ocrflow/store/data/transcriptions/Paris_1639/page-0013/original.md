@@ -1,15 +1,5 @@
-# Page 12
+# Page 13
 
 # PROLEGOMENES.
 
-*Des principes des Mathematiques.*
-
-LEs principes sont les sources & origines de toute cognoissance, & ne reçoiuent point de preuue, mais ils sont les fondemens de toutes preuues : Il y en a de trois genres aux Mathematiques.
-
-Au premier, se trouuent toutes les Definitions, que quelques-vns appellent Suppositions, par icelles sont expliquées les termes de l'Art, afin qu'au traicté de la Science ne soyons trompez par l'ambiguité & obscurité des noms, & ne tombions en des parallogismes.
-
-Au second genre sont les Petitions ou Demandes, lesquelles sont tellement claires & manifestes en ceste science, qu'elles n'ont besoin d'aucune preuue : mais demandent seulement le consentement de l'Auditeur, afin qu'il n'y ait aucune hesitation ou difficulté en la demonstration.
-
-Au troisiesme sont les Axiomes ou Maximes, & communes notions de l'esprit, lesquelles non seulement en la science proposée, mais aussi en toutes les autres, sont tellement manifestes & euidentes, que celuy qui entendra bien les termes, ne pourra en aucune façon douter de leur verité.
-
-Or Euclide en la tradition de ces principes a obserué cet ordre, qu'il met en l'entrée de la Science les principes communs à toute la Geometrie, puis aux commencemens des autres Liures, selon que la chose requiert, il explique les principes, lesquels proprement & pour certaine raison particuliere, semblent appartenir à la matiere dont il s'agist en iceux.
+Et n'a pas expliqué en ces Elements tous les principes Geometriques, ains il y a beaucoup d'autres Axiomes, desquels Euclide & ses Interpreses se seruent sans les auoir expliqué aux premices, lesquels s'ils n'estoient concedez, leurs demonstrations ne prouueroient rien. Mais nostre methode, en laquelle on ne peut rien dire qu'il n'aye esté expliqué aux premices, ny rien affirmer qu'il ne soit confirmé par la citation de ce qui a esté expliqué & concedé auparauant, requiert que tous les principes dont on se veut seruir aux demonstrations soient premierement expliquez : partant, encore que les autres Axiomes se puissent entendre facilement de ceux qu'a expliqué Euclide, & que la pluspart d'iceux sont si manifestes, qu'ils n'ont besoin d'aucune explication, neantmoins nous auons mis au rang des Axiomes, afin de les pouuoir citer au besoin, tous ceux dont Euclide & ses Interpretes se seruent comme de choses manifestes, sans les auoir premierement expliqué : Et afin de ne changer point l'ordre des Axiomes d'Euclide, ceux que nous auons adjousté, horsmis le dernier, nous les auons mis en suite de ceux auec lesquels ils ont plus d'affinité & similitude, auec des lettres de l'alphabet, pour les distinguer des autres, qui sont d'Euclide, ou adjoustez par Clauius, la version & ordre duquel nous auons suiui.

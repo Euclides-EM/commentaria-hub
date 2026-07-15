@@ -1,39 +1,39 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-> Tertia pars.
+*[diagram: a e / b d c]*
 
-*[diagram: e a g b / c h d f]*
+conſtituatur d a e: per vigeſimátertiam propoſitionem. Et quoniam in rectas a e atq; b c recta incidit a d, efficiens alternos angulos æquales, hoc eſt a d b ipſi d a e: parallela eſt igitur a e ipſi b c, per vigeſimamſeptimam propoſitionem. Per datum itaque punctum a, datæ rectæ lineæ b c, parallelam duximus a e. Quod expediebat facere.
 
-quòd & g/h/d. Bini itaq; anguli e/g/b/& g/h/d, eidem a/g/h/sunt æquales: quapropter & æquales adinuicē, per primam communē sententiam. ⁋ Dico tandem, quòd & interiores & ad easdem partes sumptos angulos, vtpote, a/g/h/& g/h/c, binis rectis æquales efficit. Ostensum est enim, quòd angulus a/g/h, alterno g/h/d/est æqualis. cómunis vtriq; æqualium addatur angulus g/h/c. Bini igitur anguli a/g/h/& g/h/c, duobus angulis g/h/c/& g/h/d, per secundam communem sentētiam adæquantur. Eisdem quoq; angulis g/h/c/& g/h/d, bini recti sunt æquales: per decimamtertiam propositionem. Et a/g/h/igitur atq; g/h/c/anguli, duobus rectis, per primam cómunem sententiā coæquantur. In parallelas igitur rectas lineas, recta incidens linea: & alternatim angulos: & quæ sequuntur reliqua, vt in theoremate. Quod oportuit demonstrasse.
+Θεώρημα κβ, Πρόθεσις λβ.
 
-## Corollarium.
+ΠΑντὸς τριγώνου μιᾶς τῶν πλευρῶν προσεκβληθείσης, ἡ ἐκτὸς γωνία δυσὶ ταῖς ἐντὸς καὶ ἀπεναντίον ἴση ἐστί. καὶ αἱ ἐντὸς τοῦ τριγώνου τρεῖς γωνίαι, δυσὶ ὀρθαῖς ἴσαι ἐισί.
 
-⁋ Quæ igitur in parallelas rectas lineas incidit, & in alteram perpendicularis existit: cum reliqua itidem cadit ad perpendiculum.
+## Theorema 22, Propoſitio 32.
 
-Θεώρημα κα, Πρόθεσις λ.
+OMnis trianguli, vno latere producto, exterior angulus binis interioribus & ex oppoſito eſt æqualis: & trianguli tres interiores anguli, binis ſunt rectis æquales.
 
-Αἱ τῇ αὐτῇ εὐθείᾳ παράλληλοι, καὶ ἀλλήλαις εἰσὶ παράλληλοι.
+> Primæ illationis demōſtratio.
 
-## Theorema 21, Propositio 30.
+ORONTIVS. ¶ Sit triangulum a b c: cuius vnum latus, vtpote b c, producatur in d, per ſecūdum poſtulatū. Aio primūm quòd exterior angulus a c d, binis interioribus & ex oppoſito, hoc eſt a b c, & b a c angulis eſt æqualis. Ducatur enim per datum punctum c, datæ rectæ lineæ a b, parallela c e: per trigeſimamprimam propoſitionem. Quoniam igitur in a b & c e parallelas, recta incidit a c: æquus eſt angulus b a c, alterno a c e, per primā partem vigeſimænonæ propoſitionis. Rurſum, quoniam in eaſdem parallelas a b & c e, coincidit recta b d: exterior angulus e c d, æqualis eſt interiori & oppoſito, & ad eaſdem partes a b c, per ſecundā par-
 
-QVæ eidem rectæ lineæ paralleli: & adinuicem sunt paralleli.
+*[diagram: a e / b c d]*
 
-ORONTIVS. ⁋ Sit vtraq; a/b/& c/d/recta, eidem e/f/parallela. Dico a/b/ipsi c/d/fore itidem parallelas. Coincidat enim in ipsas lineas, recta quædā g/h/k. Cùm igitur præfatæ lineæ in eodem existant plano, & recta g/h/ incidat in a/b/& c/e/parallelas: erit angulus a/g/h, alterno g/h/f/æqualis, per primam partem vigesimænonæ propositionis. Rursum, quoniam recta g/k/ incidit in e/f/& c/d/parallelas: æquus erit interior & oppositus angulus h/k/d, exteriori & ad easdem partes, hoc est, eidem g/h/f/ angulo, per secundam partem
+tē eiuſdem vigeſimænonæ propoſitionis. Porrò ſi æqualibus angulis, æquales addātur anguli: qui inde cóſurgēt erunt adinuicem æquales, per ſecundam cómunem ſentētiam. Totus igitur angulus a c d, binis interioribus & oppoſitis a b c & b a c angulis eſt æqualis. ¶ Dico inſuper, quòd eiuſdem trianguli tres interiores anguli, binis ſunt rectis æquales. Patuit enim exteriorem angulum a c d, æquū eſſe duobus angulis a b c & b a c. Quibus æqualibus angulis, ſi idem communis addatur angulus a c b: erunt per ſecundam communem ſententiam, tres anguli a b c, b a c, & a c b, æquales binis angulis a c b & a c d. Eiſdem porrò angulis a c b & a c d, duo recti itidem æquātur anguli, per decimamtertiā propoſitionē. Tres igitur anguli a b c, b a c, & a c b, trianguli a b c, per primam communem ſententiam, binis ſunt rectis æquales. Omnis itaque triāguli, vno latere producto: & reliqua, vt in theoremate. Quod oportuit demonſtraſſe.
 
-*[diagram: a g b / e h f / c k d]*
-
-eiusdē vigesimænonæ propositionis. Duo itaq; anguli a/g/h/& h/k/d, hoc est, a/g/k/& g/k/d, eidē angulo g/h/f/ sunt æquales: & æquales igitur adinuicem, per primam communem sententiam. Sunt autem a/g/k/& g/k/d/anguli alterni, à recta g/k/in a/b/& c/d/rectas incidēte causati. Parallela est igitur a/b/ipsi c/d, per vigesimamseptimam propositionē. Quæ eidem igitur rectæ lineæ parallelæ: & adinuicem sunt parallelæ. Quod oportebat ostendere.
+> Secundæ partis vel illationis oſtenſio.
 
 ## Corollarium.
 
-⁋ Quæ vni igitur parallelarum est parallela: alteri quoque parallela est.
+¶ Hinc fit manifeſtum, cuiuslibet trianguli tres angulos, æquales eſſe tribus angulis alterius cuiuſcunq; trianguli: nempe quòd eiſdem, vtpote binis rectis vtrobique ſint æquales.
 
-Πρόβλημα ι, Πρόθεσις λα.
+Θεώρημα κγ, Πρόθεσις λγ.
 
-Απὸ τοῦ δοθέντος σημείου, τῇ δοθείσῃ εὐθείᾳ παράλληλον εὐθεῖαν γραμμὴν ἀγαγεῖν.
+ΑΙ τὰς ἴσας καὶ παραλλήλας ἐπὶ τὰ αὐτὰ μέρη ἐπιζευγνύουσαι εὐθεῖαι, καὶ αὐταὶ ἴσαι τε καὶ παράλληλοι ἐισί.
 
-## Problema 10, Propositio 31.
+## Theorema 23, Propoſitio 33.
 
-PEr datum punctum, datæ rectæ lineæ parallelam rectam lineam ducere.
+ÆQuas & parallelos, ad eaſdem partes rectæ lineæ coniungétes: & ipſæ æquales & parallelæ ſunt.
 
-ORONTIVS. ⁋ Esto datum punctū a: data verò linea recta, cui per a/ punctū oporteat ducere parallelā, sit b/c. Suscipiatur ergo in b/c/recta, cōtingens punctū d: & connectatur a/d/recta, per primum postulatum. Ad datam insuper lineam a/d, & in ea datum punctum a, dato angulo rectilineo a/d/b, æqualis angulus rectilineus
+ORONTIVS. ¶ Sint æquales & adinuicem parallelæ rectæ lineæ a b, & c d:
+
+c.iiij.

@@ -1,25 +1,18 @@
-# Page 209
+# Page 210
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-premiere grandeur excedera celuy de la seconde, mais le multiple de la troisiesme grandeur n'excedera pas celuy de la quatriesme; alors la premiere grandeur sera dite auoir plus grande raison à la seconde, que la troisiesme à la quatriesme.
+quatre grandeurs sont proportionnelles, la premiere à la quatriesme est dite auoir la raison triplée de la premiere a la seconde, & tousiours de mesme ordre, vne de plus, iusques à ce que la proportion soit acheuée.
 
-E, 30. | A, 6. B, 4. | G, 28.
-F, 60. | C, 12. D, 9. | H, 63.
+Vne raison est double, triple, &c. Quand l'antecedent contient son consequent deux fois, trois fois, &c. & en cette signification vne raison triple est tousiours plus grande qu'vne raison double. Mais quand vne mesme raison est repetée continuëment plusieurs fois, la raison des extremes la contient autant de fois qu'elle se trouue entre les extremes: & en cette signification si l'antecedent est plus petit que le consequent, la raison qui contient trois fois vne raison, est plus petite, que celle qui ne contient que deux fois la mesme raison: comme aux nombres suiuants, la raison de 2 à 54 contient trois fois la raison de 2 à 6 (c'est à dire que la raison de 2 à 6 se trouue trois fois entre deux & 54) & la raison de 2 à 18 ne contient que deux fois la mesme raison de 2 à 6 (veu qu'elle ne se trouue que deux fois entre 2 & 18) neantmoins la raison de 2 à 18 est plus grande, que celle de 2 à 54, comme il appert de la 8. definition de ce liure. Et en cette signification, si vne raison mineure contient deux fois, par exemple, vne raison, elle sera deux fois plus petite que celle qui sera contenuë.
 
-hyp. | e *multiple de* a 2|2 f *multiple de* c,
-hyp. | g *multiple de* b 2|2 h *multiple de* d,
-hyp. | e *eſt* 3|2 g, f *eſt* 2|3 h,
-8.d.5 | a π b 3|2 c π d,
+A, 2. B, 6. C, 18. D, 54. E, 162.
 
-La conuerse de la 8. definition est, que si A a plus grande raison à B, que C à D: qu'il est possible que l'equimultiple de A excede l'equimultiple de B, & que l'equimultiple de C n'excede pas l'equimultiple de D.
+hyp. | a, b, c, d, e *ſont en proportion continuë*,
+10.d.5 | raō.. a π c 2|2 2 raō.. a π b,
+10.d.5 | raō.. a π d 2|2 3 raō.. a π b,
+10.d.5 | raō.. a π e 2|2 4 raō.. a π b.
 
-IX.
+SCHOLIE.
 
-La proportion ne peut estre constituée en moins de trois termes.
-
-La raison a deux termes, la proportion ou proportionalité deux raisons; que si elle est continuë, il y aura trois termes; mais si elle n'est continuë, il y aura quatre termes,
-
-X.
-
-Quand il y a trois grandeurs proportionnelles, la premiere à la troisiesme est dite auoir la raison doublée de la premiere à la seconde: mais quand
+Pour la mesme raison s'il y a tant de grandeurs qu'on

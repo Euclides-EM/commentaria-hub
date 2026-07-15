@@ -1,27 +1,37 @@
-# Page 203
+# Page 204
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-partie de 12, mais 5 qui ne mesure pas 12, s'appelle parties de 12, & non partie, comme il appert des definitions du 7. liure. Tout nombre plus petit au respect d'vn plus grand, se nomme aussi partie integrante, soit qu'il mesure, ou non.
+son par son consequent: par exemple, la quantité de la raison de 12 à 4 est 3, à cause que ce nombre 3 monstre combien de fois l'antecedent 12 contient son consequent 4.
 
-II.
+IV.
 
-Mais multiple est la plus grande de la plus petite, quand la plus petite mesure la plus grande.
+Mais proportion est vne similitude de raisons.
 
-Pour la mesme raison que 4 est partie de 12, aussi 12 est multiple de 4.
+*De la diuiſion des Raiſons & Proportions.*
 
-SCHOLIE.
+Raison est l'habitude de deux grandeurs.
 
-Les grandeurs equimultiples sont celles, qui sont mesurées également, chacune par sa partie.
+Proportionalité ou analogie est vne similitude de raisons.
 
-Comme 12 & 21 sont equimultiples de 4 & 7, à cause que 4 mesure 12 autant de fois, que 7 mesure 21. Partant, si 12 & 21 sont equimultiples de 4 & 7, la consequence sera, qu'en 12 il y a autant de parties égales à 4, qu'en 21 d'égales à 7: & au contraire, si en 12 il y a autant de parties égales à 4, qu'en 21 d égales à 7: la consequence sera, que 12 & 21 sont equimultiples de 4 & 7.
+Proportion se prend en l'vne & l'autre signification.
 
-III.
+La proportion geometrique, la prenant pour raison, se diuise en proportion rationnelle & irrationnelle.
 
-Raison est vne habitude de deux grandeurs de mesme genre, comparées l'vne à l'autre selon la quantité.
+La rationnelle est celle-là, laquelle peut estre exprimée par nombres, comme est la proportion de 6 à 4.
 
-En toute raison la quantité qui se refere à vne autre, est dite antecedent de la raison; mais celle-là à laquelle vne autre se refere, est dite consequent de la raison: comme en la raison de 6 à 4, l'antecedent est 6, & le consequent 4.
+L'irrationnelle est celle-là, laquelle ne peut estre exprimée par nombres, comme est la proportion du diametre d'vn quarré au costé du mesme quarré; car ceste raison ne se peut exprimer par nombres rationaux.
 
-SCHOLIE.
+La proportion se diuise aussi en proportion d'égalité & d'inégalité.
 
-Le denominateur ou quantité d'vne raison est le nombre qui se trouue en diuisant l'antecedent de la rai-
+La proportion d'égalité est celle qui est entre deux quantitez égales, comme est la proportion de 6 à 6.
+
+La proportion d'inégalité est celle qui est entre deux quantitez inégales, comme est la proportion de 6 à 4.
+
+La proportion d'inégalité est subdiuisée en proportion d'inégalité majeure, & d'inégalité mineure.
+
+La proportion d'inégalité majeure est quand la plus grande quantité est comparée à la plus petite, comme est la proportion de 6 à 4.
+
+La proportion d'inégalité mineure est quand la moindre quantité est comparée à la plus grãde, comme est la proportion de 4 à 6.
+
+La proportion rationnelle d'inégalité majeure est diuisée en cinq genres, sçauoir en la proportion multiple, superparticuliere,

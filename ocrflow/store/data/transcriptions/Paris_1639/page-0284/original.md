@@ -1,47 +1,51 @@
-# Page 283
+# Page 284
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-PROBL. IX. PROPOS. XXIX.
+3.a.1 | *gnom.* eng 2|2 c, β
+α.36.1 | ◊al 2|2 ◊co Ⅱ ◊bm,
+| ◊lp *commun. add.*
+2.a.1 | ◊an 2|2 *gnom.* eng,
+2 concl. β.1.a.1 | ◊an 2|2 *rectili.* c.
 
-A vne ligne droicte donnée appliquer vn parallelogramme égal a vne figure rectiligne donnée, excedant icelle d'vn parallelogramme semblable à vn autre donné.
+SCHOLIE.
+
+Si à la ligne donnée il faut appliquer vn parallelogramme excedant d'vn quarré, la solution se trouuera plus briefuement par la methode suiuante, proposant ainsi.
+
+Estant donnée la moyenne de trois proportionelles, & la difference des extrémes, trouuer les extrémes.
 
 (figure)
 
 *Hypoth.*
 
-ab *eſt* —— D.
-c *eſt rectili.* D.
-d *eſt* ◊ D.
+fd *eſt differ.* D.
+de *eſt la moyenne* D.
 
 *Requis à faire.*
 
-◊an 2|2 *rectili.* c,
-◊op *ſml.* ◊d.
+*trouuer* ad & db.
 
-*Conſtruction.*
+*Conſtr.*
 
-10.1 | ae 2|2 eb, α
-18.6 | ◊eg *ſml.* ◊d,
-25.6 | ◊hκ 2|2 ◊eg + c,
-25.6 | ◊hκ *ſml.* ◊d Ⅱ ◊eg,
-3.1 | fel 2|2 ih,
-3.1 | fgm 2|2 iκ,
-31.1 | rln == fm,
-31.1 | mn == fl,
-31.1 | ar == fl,
-2.p.1 | abp & gbo *ſnt* ——;
-1.p.1 | fb & bn *ſnt* ——,
-ſymp. | ◊an *eſt le requis.*
+11.1 | ∠fde *eſt* ┘,
+10.1 | fc 2|2 cd,
+1.p.1 | ce *eſt* ——,
+3.p.1 | ceab *eſt ſemic.*
+2.p.1 | afdb *eſt diamet.*
+ſymp. | ad & db *ſnt req.*
 
 *Demonſtr.*
 
-conſtr. | ◊;d, eg, hκ *ſnt ſml.* đe
-1.nota conſtr. | ◊lm 2|2 & *ſml.* ◊hκ
-conſtr. | ◊eg *ſml.* ◊hκ;
-21.6 | ◊lm *ſml.* ◊eg,
-26.6 | fbn *eſt* ——,
-1.concl. 24.6 | ◊op *ſml.* ◊eg Ⅱ ◊d,
-2.nota conſtr. | ◊hκ 2|2 ◊eg + c,
-1.a.1 | ◊lm 2|2 ◊eg + c,
-| ◊eg *commun. ſubtr.*
+15.d.1 | ac 2|2 cb,
+conſtr. | fc 2|2 cd,
+3.a.1 | af 2|2 db,
+1.concl. 19.a.1 | ad~af Ⅱ db *eſt* fd,
+ſ.13.6 | ad π de 2|2 de π db,
+2 concl. 17.6 | ▭.adb 2|2 □.de.
+
+*Explication par nombres.*
+
+hyp. | de *eſt* 12,
+hyp. | fd *eſt* 10, α
+| ad & db *ſnt req.*
+α | cd *eſt* 5, β

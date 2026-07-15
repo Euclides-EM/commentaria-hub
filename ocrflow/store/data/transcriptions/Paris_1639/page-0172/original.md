@@ -1,40 +1,42 @@
-# Page 171
+# Page 172
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-*Demonſtration du 2. cas.*
+COROLL. II.
 
-1.p.1 | ec & eb *ſnt* ——,
-12.1 | ef ⊥ da,
-18.3 | ∠ebd *eſt* ┘, β
-3.3 | af 2|2 fe,
-□.bd + □.eb γ
-β.47.1 | □.de
-47.1 | □.ef + □.fd
-6.2 | □.ef + ▭.adc + □.fc
-47.1 | ▭.adc + □.ec Ⅱ □.eb
-*ſnt* 2|2 đe,
-γ.1.a.1 | ▭.adc + □.eb 2|2 □.bd + □.eb,
-□,eb *commun. ſubtr.*,
-concl. 3.a.1 | ▭.adc 2|2 □.bd.
-
-COROLL. I.
-
-De cette proposition il est manifeste, que si de quelconque poinct pris hors le cercle, on mene plusieurs lignes droictes couppant le cercle; les rectangles compris sous chacune de toutes, & sa partie externe sont égaux entr'eux.
+Il est manifeste aussi, que si deux lignes droites menées d'vn mesme poinct, touchent le cercle, qu'elles sont égales entr'elles.
 
 *Hypoth.*
 
-a *eſt* • D.
-ad *touche le* ⊙.
+ab & ac *touchent le* ⊙.
 
-*Req. à demonſtr.*
+*Req. à demonſtrer.*
 
-▭.bae 2|2 ▭.caf.
+ab 2|2 ac.
 
 (figure)
 
 *Demonſtr.*
 
-36.3 | ▭.bae 2|2 □.ad,
-36.3 | ▭.caf 2|2 □.ad,
-concl. 1.a.1 | ▭.bae 2|2 ▭.caf,
+36.3 | □.ab 2|2 ▭.eaf,
+36.3 | □.ac 2|2 ▭.eaf,
+1.a.1 | □.ab 2|2 □.ac,
+concl. ſ.46.1 | ab 2|2 ac.
+
+COROLL. III.
+
+Semblablement il est manifeste, que d'vn poinct pris hors le cercle, on peut mener seulement deux lignes droites qui touchent le cercle.
+
+*Hypoth.*
+
+ab & ac *touchent le* ⊙bdc.
+
+*Req. à demonſtrer.*
+
+ad *ne touche le* ⊙bdc.
+
+*Demonſtr.*
+
+ſuppoſ. | ad *touche le* ⊙,
+2.c.36.3 | ab,ad,ac *ſnt* 2|2 đe.
+*contr. 8. 3.*

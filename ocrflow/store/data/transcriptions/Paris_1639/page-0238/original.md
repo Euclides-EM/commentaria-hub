@@ -1,48 +1,39 @@
-# Page 237
+# Page 238
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-THEOR. XIX. PROPOS. XIX.
-
-Si le tout est au tout, comme le retranché au retranché; le reste sera aussi au reste, comme le tout est au tout.
-
-(figure)
+A, 21. B, 7. C, 12. D, 4.
+E, 15. F, 5. G, 3. H, 1.
+L, 6. M, 2. N, 9. P, 3.
 
 *Hypoth.*
 
-ab π de 2|2 ac π df, α
+a π b, c π d, e π f, g π h, *ſnt raō.* 2|2 đe.
+l 2|2 a~e, m 2|2 b~f, n 2|2 c~g, p 2|2 d~h,
 
-*Req. à demonſtrer.*
+*Req. à demonſtr.*
 
-cb π fe 2|2 ab π de.
-
-*Demonſtration.*
-
-hyp. | ab π de 2|2 ac π df,
-16.5 | ab π ac 2|2 de π df,
-17.5 | cb π ac 2|2 fe π df,
-concl. 16.5 | cb π fe 2|2 ac π df,
-α | Ⅱ ab π de.
-
-COROLL. I.
-
-D'icy sera facile à demonstrer la raison conuerse.
-
-*Hypotheſe.*
-
-ab π cb 2|2 de π fe.
-
-*Req. à demonſtrer.*
-
-ab π ac 2|2 de π df.
+l π m 2|2 n π p.
 
 *Demonſtr.*
 
-hyp. | ab π cb 2|2 de π fe,
-17.5 | ac π cb 2|2 df π fe,
-c.4.5 | cb π ac 2|2 fe π df,
-concl. 18.5 | ab π ac 2|2 de π df,
+19.5 | l π m 2|2 a π b,
+19.5 | n π p 2|2 c π d,
+hyp. | a π b 2|2 c π d,
+concl. 11.5 | l π m 2|2 n π p.
 
-COROLL. II.
+THEOR. XX. PROPOS. XX.
 
-De cette proposition est manifeste, que si proportionaux semblables sont soustraits des proportionaux semblables, les restes sont proportionaux.
+S'il y a trois grandeurs, & d'autres égales à icelles en nombre, lesquelles soient prises de deux en deux, & en mesme raison: Et qu'en raison égale la premiere soit plus grande que la troisiesme, aussi la quatriesme. sera plus grande que la sixiesme; & si égale, égale; & si plus petite, plus petite.
+
+(figure)
+
+*Hypoth. commun.*
+
+a π b 2|2 d π e, α
+b π c 2|2 e π f. α
+
+*Requis à demonſtrer.*
+
+a, 2, 3, 4 | 3, c,
+d, 2, 3, 4 | 3, f.

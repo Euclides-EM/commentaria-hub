@@ -1,17 +1,34 @@
-# Page 260
+# Page 261
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
+
+(figure)
+
+*Hypoth.*
+
+ab & ac *ſnt* —— D.
+*les parties de* ac *ſnt* ad, de, ec.
+
+*Conſtruction.*
+
+∠bac *eſt arbitr.*
+1.p.1 | bc *eſt* ——,
+31.1 | df == cb, eg == cb,
+ſymp. | af, fg, gb *ſnt les requis.*
+
+*Prepar.*
+
+31.1 | dh == ab.
 
 *Demonſtr.*
 
-8.6 | △abc, △adb, △adc *ſnt equiangl.*
-1.concl. 4.6 | bd π da 2|2 da π dc,
-2 concl. 4.6 | bc π ac 2|2 ac π dc,
-3.concl. 4.6 | cb π ab 2|2 ab π bd.
+1.concl. 2.6 | ad π de 2|2 af π fg,
+2 concl. 2.6 | de π ec 2|2 di π ih,
+34.1 | Ⅱ fg π gb.
 
-PROBL. I. PROPOS. IX.
+SCHOLIE.
 
-D'vne ligne droicte donnée en oster vne partie demandée.
+Coupper vne ligne droicte finie en tant de parties égales qu'on voudra.
 
 (figure)
 
@@ -19,25 +36,21 @@ D'vne ligne droicte donnée en oster vne partie demandée.
 
 ab *eſt* —— D.
 
-*Requis à faire.*
+*Req. à faire.*
 
-ag 2|2 ⅓ab.
+diuiſ..ab en 5 part. 2|2 đe.
 
-*Conſtruction.*
+*Conſtr.*
 
-| ∠baf *eſt arbitr.*
-3.1 | ad, de, ef *ſnt* 2|2 đe.
-1.p.1 | fb *eſt* ——,
-31.1 | dg == fb,
-ſymp. | ag 2|2 ⅓ab.
+arbitr. | ∠bad 2|2 ∠abh, α
+arbitr. | ar, rs, sv, vn, bz, zx, xt, tl *ſnt* 2|2 đe.
+1 p.1 | lr, ts, xv, zn *ſnt* ——.
+ſymp. | am, mo,
+| op, pq, qb *ſnt* 2|2 đe
 
 *Demonſtr.*
 
-α.2.6 | ag π gb 2|2 ad π df,
-2.ſ.18.5 | ag π ab 2|2 ad π af,
-conſtr. | ad 2|2 ⅓af,
-concl. 4.d.5 | ag 2|2 ⅓ab.
-
-PROBL. II. PROPOS. X.
-
-Coupper vne ligne droicte donnée non couppée semblablement à vne ligne droicte donnée & couppée.
+α.27.1 | bh == ad,
+conſtr. | lt 2|2 & == rs,
+33.1 | lr == ts. β
+d.β | lr, ts, xv, zn *ſnt* == đe.

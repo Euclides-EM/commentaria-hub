@@ -1,47 +1,36 @@
-# Page 120
+# Page 121
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. II.
 
-THEOR. IX. PROPOS. IX.
+1.a.f | □ad + □.db 2|2 □.ad + □.df. λ
+47.1 | □.ad + □.df 2|2 □.af,
+γ.49.1 | □.af 2|2 □.ae + □.ef,
+1.a.1 | □.ad + □.db 2|2 □.ae + □.ef: μ
+α.47.1 | □.ae 2|2 □.ac + □.ce, Ⅱ 2□.ac,
+ε.47.1 | □.ef 2|2 □eg, + □.gf, Ⅱ 2□.cd,
+concl. μ | □.ad + □db 2|2 2□.ac + 2□.cd.
 
-Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales: les quarrez des segments inégaux de la toute, sont doubles du quarré de la moitié, & du quarré de la section du milieu.
-
-(figure)
+*La meſme demonſtration ſe peut faire ainſi.*
 
 *Hypoth.*
 
-ab *eſt* ——,
-ac 2|2 cb,
-ad 3|2 db.
+ab *eſt* ——.
 
-*Req. à demonſtr.*
+*Req. à demonſtrer.*
 
-□.ad / + □.db 2|2 2□.ac, / + 2□.cd.
+□.ad + □.db 2|2 2□.ce + 2□.cd.
+
+(figure)
 
 *Preparation.*
 
-11.1 1.nota | ce ⊥ ab,
-3.1 | ce 2|2 ca Ⅱ cb,
-1.p.1 | ae & be *ſnt* ——,
-31.1 | df == ce, fg == ab,
-1.p.1 | af *eſt* ——.
+aeb *eſt la figure du ſcholie de la 6. du 2.*
 
-*Demonſtr.*
+*Demonſtration.*
 
-conſtr. | ac 2|2 ce. α
-conſtr. | ∠ace *eſt* ┘,
-2.c.32.1 | ∠cea *eſt* ½┘,
-conſtr. | cb 2|2 ce,
-conſtr. | ∠bce *eſt* ┘, β
-2.c.32.1 2.nota | ∠ceb *eſt* ½┘,
-19.a.1 | ∠aef *eſt* ┘, γ
-32.1 | ∠cbe *eſt* ½┘, δ
-29.1 | ∠bdf 2|2 ∠bce,
-β.12.a.1 | ∠bdf *eſt* ┘,
-δ.32.1 3.nota | ∠bfd *eſt* ½┘,
-6.1 | bd 2|2 fd,
-29.1 | ∠fge 2|2 ∠bce,
-conſtr. | ∠bce *eſt* ┘,
-12.a.b | ∠fge *eſt* ┘,
-32.1 4.nota | ∠efg *eſt* ½┘,
-6.1 | eg 2|2 gf Ⅱ cd. ε
+ſ.5.2 | □.de 2|2 ▭.adb. α
+1.ſ.4.2 | □.ab 2|2 4□.ce, Ⅱ 2□.ce + 2□.cd + 2□.de. β
+α.4.2 | □.ad + □.db + 2▭.adb Ⅱ 2□.de 2|2 □.ab,
+β | 2□.ce + 2□.cd + 2□.de 2|2 □.ab,
+2□.de *commun. ſubtr.*
+concl. 3.a.1 | □.ad + □db 2|2 2□.ce + 2□.cd.

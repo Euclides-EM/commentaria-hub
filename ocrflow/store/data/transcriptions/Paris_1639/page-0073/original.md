@@ -1,18 +1,6 @@
-# Page 72
+# Page 73
 
-# LES ELEMENTS
-
-*Demonſtr.*
-
-hyp. | ∠adb *eſt* ┘,
-1.c.17.1 | ∠b 2|3 ┘,
-12.d.1 | ∠b 2|2 ∠adb,
-1.concl. 19.1 | ad 2|3 ab, α
-2.concl. d.α | ad 2|3 ac.
-
-THEOR. XIII. PROPOS. XX.
-
-De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient prins.
+# D'EVCLIDE, LIV. I.
 
 (figure)
 
@@ -22,26 +10,41 @@ abc *eſt* △.
 
 *Req. à demonſtr.*
 
-ba + ac 3|2 bc.
+bd + cd 2|3 ba + ca,
+∠bdc 3|2 ∠bac.
 
-*Prepar.*
+*Preparation.*
 
-2.p.1 | bad *eſt* ——,
-3.1 | ad 2|2 ac.
-1.p.1 | cd *eſt* ——.
+2.p.1 | bde *eſt* ——.
 
 *Demonſtr.*
 
-conſtr. | ad 2|2 ac,
-5.1 | ∠acd 2|2 ∠d,
-9.a.1 | ∠bcd 3|2 ∠acd,
-1.a.c | ∠bcd 3|2 ∠d,
-19.1 | bd 3|2 bc, α
-conſtr. | ac 2|2 ad,
-ba *commun. add.*
-2.a.1 | ba + ac 2|2 bd,
-α.1.a.d | ba + ac 3|2 bc.
+20.1 | cd 2|3 ce + ed,
+bd *commun. add.*
+4.a.1 | bd + dc 2|3 be + ec, α
+4.a.1 | be 2|3 ab + ae,
+ec *commun. add.*
+4.a.1 1.concl. | be + ec 2|3 ba + ac,
+α.1.a.e | bd + dc 2|3 ba + ac,
+16.1 | ∠bdc 3|2 ∠bec,
+16.1 | ∠bec 3|2 ∠a,
+2.concl. 1.a.c | ∠bdc 3|2 ∠a.
 
-THEOR. XIV. PROPOS. XXI.
+PROBL. VIII. PROPOS. XXII.
 
-Si des extremitez d'vn costé de quelque triangle, on mene deux lignes droictes se rencontrans au dedans d'iceluy ; icelles seront plus petites que les deux autres costez du triangle, mais elles contiendront vn plus grand angle.
+De trois lignes droictes égales à trois lignes droictes données, descrire vn triangle : mais il faut que deux, de quelque façon qu'elles soient prises, soient plus grandes que l'autre ; d'autant que de tout triangle deux costez de quelque façon qu'ils soient prins, sont plus grands que l'autre.
+
+*Hypoth.*
+
+a,b,c, *ſnt* —— D.
+
+*Conſtr.*
+
+arbitr. | de 3|2 a + b + c,
+3.1 | df 2|2 a,
+3.1 | fg 2|2 b,
+3.1 | gh 2|2 c,
+3.p.1 | fdkl *eſt* ⊙,
+3.p.1 | ghkm *eſt* ⊙,
+1.p.1 | fk & gk *ſnt* ——,
+ſymp. | △fgk *eſt req.*

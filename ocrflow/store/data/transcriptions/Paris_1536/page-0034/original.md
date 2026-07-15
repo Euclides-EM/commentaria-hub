@@ -1,39 +1,41 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-eosdem deniq; fines b/ & c/vel e/ & f/primis rectis lineis possidentes, altera alteri constituerétur æquales.quod per antecedenté septimã propositioné demonstratú est impossibile.Cógruit igitur d/punctú,ipsi puncto a: quapropter & angulú b/a/c, angulo e/d/f,congruere necessum est,foréq; illi æqualé.Cógruentibus enim terminis:congruút & ipsæ lineæ rectæ.ex rectarú porrò cóuenientia,sub quibus ipsi continétur anguli:eadem surgit inclinatio.ex qua demum pari linearum inclinatione: eorundem angulorú conuincitur æqualitas.Ergo si bina triangula, duo latera duobus lateribus &c.vt in theoremate.Quod oportuit demonstrasse.
+Πρόβλημα ς, Πρόθεσις ια.
 
-> Super eadem recta linea duabus ijsdem rectis lineis alie due recte lineæ equales altera alteri nó constituuntur ad aliud atq; aliud punctú ad easdem partes eosdem fines primis rectis lineis possidentes.
+Τῇ δοθείσῃ εὐθείᾳ,ἀπὸ τοῦ πρὸς αὐτῇ δοθέντος σημείου, πρὸς ὀρθὰς γωνίας εὐθεῖαν γραμμὴν ἀγαγεῖν.
 
-Πρόβλημα δ, Πρόθεσις θ.
+## Problema 6, Propositio 11.
 
-Τὴν δοθεῖσαν γωνίαν εὐθύγραμμον δίχα τεμεῖν.
+DAta recta linea,à púcto in ea dato, rectam lineam ad angulos rectos excitare.
 
-## Problema 4, Propositio 9.
+ORONTIVS.¶Esto recta linea data a/b,datúmq; in ea púctú c:à quo oporteat rectã lineã ad angulos rectos excitare. Suscipiat̃ igitur in a/c/recta,cótingés punctú: sitq́; illud d.secetur præterea à recta c/b,ipsi d/c/æqualis, per tertiã propositioné,vtpote c/e.deniq; super recta d/e, triágulú æquilaterú cóstituat̃ d/f/e, per primã propositioné:cónectaturq́; recta c/f,per primú postulatú. Dico c/f/rectã,ad rectos angulos cósistere super datã rectã a/b.Quoniã d/c/est æqualis ipsi c/e,cómunis auté c/f/diuidés d/f/e/triágulú.Duæ igitur f/c/& c/d/triáguli f/c/d, duabus f/c/& c/e/trianguli f/c/e,sunt altera alteri æquales:& basis d/f/basi f/e,per constructionem æqualis. Angulus itaq; f/c/d,angulo f/c/e/sub æqualibus rectis lineis cótento,per octauam propositionem est æqualis. Recta igitur c/f/consistens super recta a/b,æquales vtrobique facit angulos: ergo rectos, per decimam diffinitionem.A dato igitur púcto c,datæ rectæ lineæ a/b, recta linea c/f/ad rectos excitata est angulos.Quod faciendum susceperamus.
 
-DAtum angulum rectilineum,bifariam secare.
+*[diagram: f a d c e b]*
 
-ORONTIVS. ¶Esto datus rectilineus angulus a/b/c:quem oporteat bifariam secare.Suscipiatur igitur in a/b/recta contingens punctum d:seceturq́; à reliqua b/c, ipsi b/d/æqualis, per tertiã propositionem, sitq́; illa b/e.Et per primú postulatum,connectatur recta d/e:super quã triangulum æquilaterú d/e/f, per primã propositionem constituatur.connectatur tandem recta b/f, per idem primum postulatum.Manifestum est igitur,rectam b/f/secare datum angulum a/b/c:protrahitur enim ab angulo qui ad b,ad oppositum angulum qui ad f/in b/d/f/e/quadrilatero.Aio quòd & ipsa b/f,datum a/b/c/angulum bifariã secat.Cùm enim b/d/per constructioné sit æqualis ipsi b/e,cómunis autem b/f:bina itaq; latera d/b/& b/f/trianguli d/b/f,duobus lateribus f/b/& b/e/trianguli f/b/e/ sunt alternatim æqualia.Est insuper basis d/f,basi e/f/itidem æqualis:sunt enim latera triáguli æquilateri d/e/f.Angulus igitur d/b/f,angulo f/b/e,per octauam propositionem est æqualis.Datus itaq; rectilineus angulus a/b/c,bifariam à recta b/f/secatur.Quod facere oportebat.
+> 1 propo. Super datam rectam lineam terminatam triangulum equilaterum constituere.
 
-*[diagram: b d e f a c]*
+> 8 prop. Si bina triangula duo latera, duobus lateribus altera alteri equales habuerint: basim quoq; basi equalem, angulum quoq; sub equalibus rectis lineis contentum equalem habebunt.
 
-> 3 Propositio. Duabus datis rectis lineis inæqualibus a maiori minori equalem rectam lineam abscindere.
+> 1 postul. Ab oi puncto ad oé punctum rectam lineam ducere.
 
-> Si bina triangula duo latera duobus lateribus [?] altera alteri equalia habuerint basim quoq; basi equalem angulum quoq; sub equalibus rectis lineis contentum equalem habebunt.
+Πρόβλημα ζ, Πρόθεσις ιβ.
 
-Πρόβλημα ε, Πρόθεσις ι.
+Ἐπὶ τὴν δοθεῖσαν εὐθεῖαν ἄπειρον, ἀπὸ τοῦ δοθέντος σημείου, ὃ μή ἐστιν ἐπ' αὐτῆς, κάθετον εὐθεῖαν γραμμὴν ἀγαγεῖν.
 
-Τὴν δοθεῖσαν εὐθεῖαν πεπερασμένην δίχα τεμεῖν.
+## Problema 7, Propositio 12.
 
-## Problema 5, Propositio 10.
+SVper datam rectam lineam infinitam, à dato puncto quod in ea non est,perpendicularem rectam lineam deducere.
 
-DAtam rectam lineam terminatam bifariam secare.
+ORONTIVS.¶Sit data recta linea infinita a/b,datum verò púctum quod in ea non est c:à quo,in ipsam a/b,perpendicularem rectã lineam deducere sit operæpretium. In eodem itaque plano, in quo data a/b/ recta linea infinita, & datum punctum c,ex altera quidem parte ipsius a/b,contingens punctú suscipiatur: sitq́; illud d.Erit igitur c/d/interuallum,dirimétq; ipsam a/b/rectam.Centro ergo c, interuallo autem c/d, circulus describatur e/f/g, per tertium postulatum. Hic porrò circulus e/f/g,cùm in eodem sit plano in quo & recta a/b, sitq́; finitus, eadem verò a/b/infinita,& dirempta ab interuallo c/d:subtendet propterea idem e/f/g/circulus partem ipsius a/b,egredieturq́; eadem a/b,recta circúferentiam ipsius e/f/g/ circuli,eandémque circunferétiam egrediendo secabit.Secet igitur in e/& f/punctis:diuidaturq́; recta & subtensa e/f/bifariam,in puncto quidem h, per decimã propositionem.& connectantur tandem c/e, c/h,atq; c/f/rectæ,per primum postulatú. Dico itaq;reactã c/h/perpendiculariter incidere super datã,rectã a/b. Quoniam e/h/ æqualis est ipsi h/f, per constructionem: c/h/ verò dirimens c/e/f/ triangulum, vtrique communis. Binæ igitur c/h/& h/e/ trianguli c/h/e, duabus c/h/ & h/f/ trianguli c/h/f/ sunt altera alteri æquales : basis quoq; c/e, basi c/f/ æqualis, per decimamquintam diffinitionem. Aequus est igitur angulus c/h/e,angulo c/h/f/sub æquis lateribus cótento, per octauã propositioné.
 
-ORONTIVS.¶Sit data recta linea terminata a/b,quam bifariã secare sit operæpretium. Constituatur igitur super eadem a/b, triangulum æquilaterum a/c/b,per primam propositionem : seceturq́; per antecedentem nonam propositionem angulus a/c/b/bifariam,recta quidem c/d,à puncto c/in d/punctum ipsius lateris a/b/ coextensa.Dico lineã a/b/datam,secari bifariam in púcto d. Cùm enim a/c/b/ triangulum sit æquilaterum,æqualis est a/c/ ipsi c/b: cómunis verò c/d.Binæ igitur a/c/& c/d/ trianguli a/c/d, duabus d/c/& c/b/triáguli d/c/b,sunt altera alteri æquales : & qui sub ipsis æquis lateribus continentur anguli, per constructioné sunt adinuicem æquales,hoc est,a/c/d, ipsi d/c/b.Basis igitur a/d,basi d/b/est æqualis,per quartam propositionem.Data igitur recta linea terminata a/b,bifariam secta est in puncto d.Quod oportuit fecisse.
+*[diagram: g c a e h f b d]*
 
-*[diagram: c a d b]*
+> Constructio figuræ.
 
-> 9 propositio. Datum angulum rectilineum bifariam secare.
+> Ostensio problematis.
 
-> 4 propositio. Si bina triangula duo latera duobus [?]
+> 10 propo. Datam rectam lineam terminatam bifariam secare.
 
-b.iij.
+> 1 postul. Ab oi puncto ad oé punctum rectam lineam ducere.
+
+> 15 Diffinitio. Circulus ẽ figura plana vna linea contenta que circumferentia appellatur ad quam ab vno introrsum medio existente oẽs producentes lineæ in ipsius circuli circumferentiam incidentes ad inuicem sunt equales.

@@ -1,31 +1,42 @@
-# Page 79
+# Page 80
 
-# D'EVCLIDE, LIV. I.
-
-THEOR. XVIII. PROPOS. XXVII.
-
-Si vne ligne droicte tombante sur deux autres lignes droictes, fait les angles alternes égaux entr'eux : icelles lignes droictes seront paralleles entr'elles.
+# LES ELEMENTS
 
 (figure)
 
-*Hypoth.*
+*Hypoth. 1.*
 
-∠aef 2|2 ∠dfe.
+∠ega 2|2 ∠ghc.
 
-*Requis à demonſtr.*
+*Req. à demonſtr.*
 
 ab == cd.
 
 *Demonſtr.*
 
-ſuppoſ. | ab n̄. *eſt* == cd,
-2.34.d.1 | egf *eſt* △,
-16.1 | ∠aef 3|2 dfe,
-*contr. hypoth.*
-concl. 21.a.1 | ab == cd.
+15.1 | ∠hgb 2|2 ∠ega,
+hyp. | ∠ghc 2|2 ∠ega,
+1.a.1 | ∠hgb 2|2 ∠ghc,
+1.concl. 27.1 | ab == cd.
 
-En cette demonstration, pour monstrer l'inconuenient qui en arriueroit, on suppose que EB & FD continuées directement se rencontrent en G : d'où s'ensuit, que la figure EFG est vn triangle rectiligne, & par consequent par la 16. du 1. l'angle externe AEF est plus grand que son interne & opposé EFG, ce qu'estant contre l'hypothese, il est manifeste que les lignes EB & FD continuées directement ne se peuuent rencontrer, & par consequent qu'elles sont paralleles entr'elles.
+*Hypoth. 2.*
 
-THEOR. XIX. PROPOS. XXVIII.
+∠agh + ∠chg 2|2 2┘.
 
-Si vne ligne droicte tombant sur deux lignes droictes, fait l'angle externe égal à l'interne, & opposé, & de mesme part ; ou les internes de mesme part égaux à deux droicts, icelles lignes droictes seront paralleles entr'elles.
+*Req. à demonſtr.*
+
+ab == cd.
+
+*Demonſtr.*
+
+hyp. | ∠agh + ∠chg 2|2 2┘.
+13.1 | ∠agh + ∠bgh 2|2 2┘,
+∠agh *commun. ſubtr.*
+3.a.1 | ∠chg 2|2 ∠bgh,
+2.concl. 27.1 | ab == cd.
+
+De cette proposition, & de la precedente, est manifeste, que les angles que fait vne ligne droicte, en couppant deux lignes droictes paralleles, sont respectiuement de trois denominations differentes, à sçauoir alternes, qui sont de diuers costez de la ligne couppante, comme AGH est alterne à DHG, & BGH est aussi alterne à CHG : L'externe & l'interne opposé de mesme part, comme BGE est externe, & son interne & opposé est DHG ; pareillement les externes DHF, FHC, & EGA, les internes & opposez de mesme part sont BGH, AGH, & EHC, chacun au sien : Les internes de mesme part sont, BGH & DHG, & aussi AGH & CHG.
+
+THEOR. XX. PROPOS. XXIX.
+
+Si vne ligne droicte tombe sur deux lignes droictes paralleles ; elle fera les angles alternes égaux entr'eux, & l'externe égal à son interne &

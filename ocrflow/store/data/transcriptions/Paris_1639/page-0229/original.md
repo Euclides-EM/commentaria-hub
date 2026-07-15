@@ -1,37 +1,40 @@
-# Page 228
+# Page 229
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-THEOR. XII. PROPOS. XII.
+En ceste demonstration G & GHI equimultiples des antecedens A & ACE, ne peuuent estre dissemblables au respect de K & KLM equimultiples des consequens B & BDF; par consequent, par la 6. definition du 5. A est à B, comme la composée de A, C, E, est à la composée de B, D, F: ce qu'il falloit demonstrer.
 
-Si tant de grandeurs qu'on voudra sont proportionelles: comme l'vne des antecedentes sera à l'vne des consequentes, ainsi toutes les antecedentes seront à toutes les consequentes.
+COROLLAIRE.
 
-(figure)
+De ceste proposition est manifeste, que si à proportionaux semblables sont adjoustez proportionaux semblables, les tous sont proportionaux.
+
+A, 6. B, 2. C, 9. D, 3.
+E, 15. F, 5. G, 3. H, 1.
+L, 21. M, 7. N, 12. P, 4.
 
 *Hypoth.*
 
-a π b, c π d, e π f, *ſnt raō* 2|2 đe. α
+a π b
+c π d
+e π f
+g π h
+*ſnt raō* 2|2 đe.
+l 2|2 a + e,
+m 2|2 b + f,
+n 2|2 c + g,
+p 2|2 d + h.
 
-*Requis à demonſtrer.*
+*Req. à demonſtr.*
 
-a π b 2|2 a + c + e π b + d + f.
-
-*Preparation.*
-
-| g *multipl..* | a,
-3.1 | h *multipl..* | c,
-| i *multipl..* | e,
-| k *multipl..* | b,
-3.1 | l *multipl..* | d,
-| m *multipl..* | f.
+l π m 2|2 n π p.
 
 *Demonſtr.*
 
-1.5 | g + h + i *multipl..* a + c + e 2|2 g *multipl..* a,
-1.5 | k + l + m *multipl..* b + d + f 2|2 k *multipl..* b,
-| g, 2, 3, 4 | 3, k,
-α.c6.d5 | h, 2, 3, 4 | 3, l,
-| i. 2, 3, 4 | 3, m,
-4.a.c | g, 2, 3, 4 | 3, k,
-| g + h + i, 2, 3, 4 | 3, k + l + m,
-6.d.5 | a π b 2|2 a + c + e π b + d + f.
+α.12.5 | l π m 2|2 a π b,
+α.12.5 | n π p 2|2 c π d,
+hyp. | a π b 2|2 c π d,
+concl. ſ.11.5 | l π m 2|2 n π p.
+
+THEOR. XIII. PROPOS. XIII.
+
+Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme; mais la troisiesme a plus grande raison à la quatriesme, que la cinquiesme à la sixiesme: aussi la premiere aura plus

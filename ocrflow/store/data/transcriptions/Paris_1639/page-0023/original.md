@@ -1,21 +1,21 @@
-# Page 22
+# Page 23
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-XI.
+XIV.
 
-L'angle obtus est, celuy qui est plus grand qu'vn droict, comme ACB.
+Figure est, ce qui est contenu sous vn ou plusieurs termes.
 
-(figure)
+Toute quantité terminée ne peut pas estre appellée figure, mais seulement les grandeurs qui sont enuironnées de leurs termes : partant la ligne qui est terminée par deux poincts, n'est pas vne figure, à cause que les poincts n'enuironnent pas la ligne : aussi les superficies infinies, ou les corps infinis, n'estant enclos d'aucun terme, ne doiuent aucunement estre appellez figures. Les figures contenuës d'vn seul terme sont le Cercle, l'Ellipse, la Sphere, la Spheroïde, & autres semblables : & les figures encloses de plusieurs termes, sont le Triangle, le Quarré, le Cube, la Pyramide, &c.
 
-XII.
+XV.
 
-Mais l'aigu est, celuy qui est plus petit qu'vn droict, comme ACD.
+Le Cercle est vne figure plane, contenuë sous vne seule ligne, appellée Circonference, à laquelle toutes les lignes droictes menées d'vn seul poinct, de ceux qui sont posez au dedans de la figure, sont égales entr'elles.
 
-Nous noterons icy que plusieurs angles estans à vn poinct, il faut trois lettres pour nommer celuy qu'on veut d'iceux, lequel se trouue tousiours au poinct de la lettre du milieu : comme en ceste figure, pour nommer l'angle obtus du poinct C, on dira ACB, ou BCA : & l'aigu s'appellera ACD ou DCA.
+COROLLAIRE.
 
-XIII.
+De ceste definition s'ensuit, que ce qui est esloigné du centre du cercle de la quantité du semidiametre est en la circonference; si moins, dans le cercle; si plus, hors du cercle, pourueu qu'ils soient en mesme plan que le cercle.
 
-Terme, est l'extremité de quelque chose.
+XVI.
 
-Il y a trois sortes de termes selon ceste definition; car le poinct est le terme ou l'extremité de la ligne; la ligne est le terme de la superficie ; & la superficie, du corps; mais le corps ne peut rien terminer, d'autant qu'il ne se trouue aucune quantité qui ait plus de trois dimensions : & toute chose terminée excede son terme d'vne dimension, comme il est manifeste par les exemples proposez.
+Mais ce poinct est appellé Centre du cercle.

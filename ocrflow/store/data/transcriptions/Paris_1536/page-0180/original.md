@@ -1,31 +1,25 @@
-# LIBER VI.
+# GEOMET. ELEMENT.
 
-*163*
+*164*
 
-*[diagram: |b/a | a/f. | d/a | a/e. |]*
+& f/c/g/ duobus angulis e/b/c/ & c/b/f, sunt per secundam communem sententiam æquales.sed anguli e/b/c/& b/c/f,sunt æquales duobus rectis,per vigesimamnonam ipsius primi.Et duo igitur anguli b/c/f/& f/c/g,binis itidem rectis sunt æquales. In directum eſt igitur b/c,ipsi c/g,per decimamquartam eiusdem primi: & e/f/consequenter ipsi f/h. Binis insuper datis rectis lineis b/c/& c/g,media proportionalis inueniatur l/m,per decimamtertiam huius sexti.Et per decimamoctauam eiusdem sexti, super data recta linea l/m, dato rectilineo a/ b/ c, simile similitérque positum rectilineum describatur,n/l/m. Aio rectilineum n/l/m, æquum fore ipsi d.Cùm enim tres lineæ rectæ b/c,l/m, & c/g,sint per conſtructionem cótinuè proportionales: erit per secundum corollariũ vigesimæ huius sexti , sicut prima ad tertiam,sic species rectilinei quæ à prima, ad similem similitérque positam speciem quæ à secunda.Sicut igitur b/c,ad c/g:sic a/b/c/rectilineum,ad rectilineũ n/l/m.Sicut porrò b/c,ad c/g: sic b/f/ parallelográmum,ad parallelogrammum c/h, per primam huius sexti:sunt enim in eadem altitudine c/f.Ergo sicut a/b/c/rectilineum,ad rectilineum n/l/m:sic per vndecimam quinti,b/f/parallelogrammum,ad parallelogrammum c/h. Sed rectilineum a/b/c,æquum eſt per conſtructionem ipsi b/f/parallelogrãmo:& rectilineũ igitur n/l/m, ipsi parallelogrammo c/h/per decimamquartam quinti eſt æquale.Eidem rursum parallelogrãmo c/h, æquũ eſt d/rectilineum,per conſtructionem:& n/l/m/itaq; rectilineum, ipsi d/rectilineo, per primam communem sentẽtiam eſt æquale. Conſtructũ eſt autem & ipsi a/b/c/ simile. Idem itaque rectilineum n/l/m,ipsi dato rectilineo a/b/c/simile,& alij dato scilicet d/æquale conſtitutum eſt.Quod efficere oportebat.
 
-decimamsextam eiusdem quinti,sicut b/a/ad a/d,sic f/a/ ad a/e. Proportionalia itaq; sunt latera, quæ circum angulum qui ad a/vtrique parallelogrammo communem. Insuper,quoniam parallela eſt f/l/ ipsi b/c: æqualis eſt angulus a/f/l,ipsi angulo a/b/c:necnó & a/l/f,ipsi a/c/b,per vigesimamnonam primi.Angulus porrò qui sub f/a/l/ aut b/a/c,vtrique triangulo a/b/c/ & a/f/l/ communis eſt.Aequiangulũ eſt itaque triangulũ a/f/l,triãgulo a/b/c Haud dissimiliter triãgulum a/e/l,triãgulo a/d/c/ oſtendetur æquiangulũ:& angulus a/e/l/angulo a/d/c/ æqualis,atque a/l/e/ipsi angulo a/c/d.Si autem æquales anguli,æqualibus cóponantur angulis:consurgent per secundam cómunem sententiã, æquales anguli.Aequus eſt igitur angulus f/ l/ e, ipsi b/ c/ d: & totum proinde parallelogrammum e/f, toti a/b/c/d/æquiangulum.Rursum quoniam a/f/l/ & a/b/c/triangula,similiter & a/e/l/ atque a/d/c,sunt inuicem æquiangula : proportionalia itaque sunt latera, quæ circũ æquales angulos, per quartam huius sexti. Sicut igitur a/b/ad b/c, sic a/f/ad f/l: sicútque b/c/ad c/a,sic f/l/ad l/a.Sicut rursum a/c/ad c/d, sic a/l/ad l/e: sicut denique c/d/ad d/a, sic l/e/ ad e/a. Et quoniam oſtensum eſt,vt b/c/ad c/a, sic f/l/ad l/a: sicut præterea a/c/ad c/d,sic a/l/ad l/e.Et ex æqua igitur ratione,per vigesimamsecũdam quinti,sicut b/c/ad c/d,sic f/l/ad l/e.
-
-*[diagram: | a/b/ | b/c/ | c/a/ | c/d/ | d/a/ | — | a/f/ | f/l/ | l/a/ | l/e/ | e/a/ |]*
-
-Aequiangulorum itaque parallelogrammorum a/ b/ c/ d/ & e/f,proportionalia sunt latera quæ circum æquales angulos . Simile eſt igitur e/ f/ parallelogrammum, ipsi a/b/c/d/ parallelogrammo : per primam huius sexti diffinitionem. Haud dissimili via,g/h/parallelogrammum,ipsi a/b/c/d/ parallelogrammo simile fore conuincetur: eundem qui prius,versús angulum c,& ipsum g/h/ parallelogrammum respondenter iterando discursum. Et proinde vtrunque ipsorum e/f/& g/h/parallelogrammorum,simile eſt eidem a/b/c/d/parallelogrammo.Omne autem parallelogrammum, rectilineum eſt:& quæ eidem rectilineo sunt similia, & adinuicem similia sunt, per vigesimamprimam huius sexti.Simile eſt igitur e/f/parallelogrammum,ipsi g/h/parallelogrammo. Omnis itaque parallelogrammi,quæ circa dimetientẽ parallelogramma,similia sunt toti,& adinuicem.Quod oportuit oſtendisse.
-
-> Quòd g,h,parallelogrãmũ eidẽ a,b,c,d, sit simile.
-
-> Quòd e,f, & g,h , similia sint adinuicẽ.
-
-Πρόβλημα ξ, Πρόθεσις κε.
-
-Τῷ δοθέντι εὐθυγράμμῳ ὅμοιον,καὶ ἄλλῳ τῷ δοθέντι ἴσον,τὸ αὐτὸ συστήσασθαι.
-
-## Problema 7, Propositio 25.
-
-DAto rectilineo simile,& alij dato æquale,idem conſtituere.
-
-ORONTIVS. ¶Sint bina rectilinea, a/b/c/inquàm & d : sitq́; receptum, ipsi dato a/ b/ c/ rectilineo simile, ipsi verò d/ æquale , idem rectilineum cõſtituere. Ad datam itaque rectam lineam b/c,& in dato angulo qui sub e/b/c, dato rectilineo a/b/c, æquale conſtruatur parallelogrammum b/ f: similiter & ad rectam lineam f/c,atque in dato angulo qui sub f/c/g/ ei qui sub e/b/c/æquali, dato rectilineo d,æquale rursum parallelogrammum conſtituatur c/h,per quadragesimã quartam,& quadragesimamquintam primi,vtroque rectilineo(si expediat)in triãgula diſtributo . Et quoniam angulus f/c/g,æquus eſt angulo e/b/c,per cõſtructionem, vtrique autem communis b/c/f: anguli propterea b/c/f,
-
-> Partium figuræ præmittẽda descriptio.
+> Demonſtratiua problematis resolutio.
 
 *[diagram: a d b c g e f h n l m]*
 
-o.iiij.
+*[diagram: |a/b/c. n/l/m|b/c.c/g| b/f. c/h.|]*
+
+Θεώρημα ιθ, Πρόθεσις κς.
+
+Εὰν ἀπὸ παραλληλογράμμου παραλληλόγραμμον ἀφαιρεθῇ ὅμοιόν τε τῷ ὅλῳ καὶ ὁμοίως κείμενον,κοινὴν γωνίαν ἔχον αὐτῷ,περὶ τὴν αὐτὴν διάμετρόν ἐστι τῷ ὅλῳ.
+
+## Theorema 19, Propositio 26.
+
+SI à parallelogrammo parallelogrammum auferatur, & simile toti & similiter positum,communem angulum habens ei:circum eundem dimetientem eſt toti.
+
+ORONTIVS. ¶Eſto datum parallelogrammum a/b/c/d : à quo simile similitérque positum,& communem illi habens angulum qui ad a, auferatur diſtinguatúrve parallelogrammum a/e/f/g. Dico ipsa a/b/c/d/ & a/e/f/g/ parallelogramma, circa eundem fore dimetientem a/f/c:hoc eſt dimetientem a/ f/ c/ totius parallelogrammi a/b/c/d,transire per angulum qui ad f,& vtriq; parallelogrammo fore communem. Si enim a/c/non transierit per f: transeat (si possibile sit)vt a/h/c. secabit igitur a/h/c,aut e/f,aut f/g/latus ipsius a/e/f/g/parallelogrammi.Secet ipsum latus e/f,in puncto h.& per punctum h,vtrique ipsarũ a/e/& f/g/parallela ducatur h/l, per trigesimamprimam primi. Erit itaque e/l/ parallelogrammum , & circa eundem dimetientem cum ipso a/b/c/d/parallelogrammo.Simile erit igitur e/l/ parallelogrammum, ipsi a/b/c/d/
+
+> Oſtẽsio theorematis ab impossibili.
+
+*[diagram: b c e h f a l g d]*

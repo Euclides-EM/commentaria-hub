@@ -1,49 +1,40 @@
-# Page 55
+# Page 56
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-*Req. à demonſtr.*
+*Hypoth.*
 
 abc *eſt* △ *equiang.*
 
+(figure)
+
+*Req. à demonſt.*
+
+abc *eſt* △ *equilat.*
+
 *Demonſtr.*
 
-hyp. 1.concl. | ac 2|2 ab,
-5.1 | ∠b 2|2 ∠c,
-hyp. 2.concl. | bc 2|2 ba,
-5.1 | ∠a 2|2 ∠c,
-3.concl. α.1,a.1 | ∠a 2|2 ∠b,
-f.28 d.1 | △abc *eſt equiang.*
+hyp. | ∠abc 2|2 ∠acb.
+1.concl. 6.1 | ac 2|2 ab, α
+hyp. 2.concl. | ∠bac 2|2 ∠bca,
+6.1 | bc 2|2 ab,
+α.1.a.1 | ac 2|2 bc,
+23.d.1 | △abc *eſt equilat.*
 
-THEOR. III. PROPOS. VI.
+THEOR. IV. PROPOS. VII.
 
-Si deux angles d'vn triangle sont égaux entr'eux, les costez soustendans iceux angles égaux, seront aussi égaux entr'eux.
-
-Cette proposition est la conuerse de la precedente, car l'hypothese de la precedente est en celle-cy le requis à demonstrer : Et le requis à demonstrer de la precedente est l'hypothese de celle-cy.
+Si des extremitez de quelque ligne droicte on meine deux lignes droictes, se rencontrant à vn poinct, des mesmes extremitez on n'en pourra pas mener deux autres égales à icelles, chacune à la sienne, & de mesme part, se rencontrant à vn autre poinct.
 
 (figure)
 
 *Hypoth.*
 
-*au* △abc.
-∠abc 2|2 ∠acb.
+abc *eſt* △,
+ad 2|2 ac,
+bd 2|2 bc.
 
-*Req. à demonſtr.*
+*Requis à demonſtr.*
 
-ab 2|2 ac.
+•d *eſt en* c.
 
-*Demonſtr.*
-
-ſuppoſ. | db 2|2 ac, α
-1.p.1 | cd *eſt* ——,
-*aux* △;dbc & acb
-hyp. | ∠dbc 2|2 ∠acb,
-α | db 2|2 ac,
-bc *eſt commun.*
-4.1 | △dbc 2|2 △acb,
-*contr. 9. a. 1.*
-concl. 21.a.1 | ab 2|2 ac.
-
-COROLLAIRE.
-
-Il s'ensuit de cette proposition que tout triangle equiangle est aussi equilateral.
+C'est à dire, que le concours des deux lignes AD & BD ne se peut faire ailleurs qu'en C. Ce qui se prouue, en monstrant l'in-

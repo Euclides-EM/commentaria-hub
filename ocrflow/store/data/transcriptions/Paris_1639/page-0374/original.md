@@ -1,25 +1,21 @@
-# Page 373
+# Page 374
 
 # TRIGONOMETRIE.
 
-restera 8 qu'on mettra au troisiesme lieu de la regle de trois : & pour auoir le second nombre, on soustraira l'angle donné de 180 degrez, & restera 63 degrez, & la tangente de la moitié de ce reste sera le second nombre. Partant la regle de trois se fera par logarithmes ainsi,
+*De la regle des trois costez.*
 
-toises.   tangen.   toises   tangen.
-32 —— 31 d. 30 —— 8 —— 8 deg. 43.
-150515 —— 978732 —— 90309
-90309
-——
-1069041
-150515
-——
-918526 —— 8 degrez 43′.
+Les trois costez d'vn triangle estant donnez, trouuer lequel on voudra des angles.
 
-on trouuera 918526, qu'il faut chercher dans les tables au rang des tangentes, & parce qu'il ne se trouue pas on prendra le plus prochain, qui est 918560, auquel correspondent 8 degrez 43, qv'il faut soustraire de 31 degrez 30′, qui ont esté mis au second lieu de la regle de trois, & restera 22 degrez 47′, pour le moindre angle F : & adioustant les 8 degrez 43′ auec les 31 degrez 30′, on aura 40 degrez 13′ pour le plus grand angle G.
+(figure)
 
-Notez que cette regle des tangentes ne se peut faire que par logarithmes par les tables qui sont au troisiesme tome, à cause qu'en icelles il n'y a point d'autres tangentes que des logarithmes.
+Au triangle EDI soient donnez ED de 12 toises, DI de 20 toises, & EI de 30 toises, & qu'il faille trouuer l'angle D.
 
-Ayant ainsi trouué les angles, pour trouuer le troisiesme costé FG par logarithmes, on dira suiuant la regle des opposez, si
+12   12   20   30
+20   12   20   30
+——   ——   ——   ——
+240   24   400   900
+2   12   144   544
+——   ——   ——   ——
+480   144   544   356
 
-ſ. de ∠F —— HG —— ſ. de ∠H —— FG.
-22 deg. 47′   12 toises   117 d. ou 63 d.   R. 27 3/5 toises
-958799 —— 107918 —— 994988 —— 144107
+Pour ce faire, on multipliera ED & DI, qui comprennent l'angle requis D, l'vn par l'autre, & viendra 240, dont le double, qui est 480, on mettra au premier lieu de la regle trois, & le rayon ou sinus de 90 degrez au second lieu. Pour auoir le troisiesme nombre, on multipliera chaque costé par soy-mesme : à sçauoir 12 par 12 qui feront 144 : 20 par 20 feront 400 : & 30 par 30 feront 900. Puis on adioustera ensemble les quarrez des deux costez comprenant l'angle requis D, à sçauoir 144 & 400, & leur somme qui est 544, faudra comparer auec le quarré de la base EI : que si cette somme est égale au quarré de la base EI, l'angle D sera droict, & en ce cas, il ne sera pas besoin de regle de trois pour trouuer l'angle D, puis qu'il sera droict : Mais si ladite somme n'est égale au quarré de la base EI, on soustraira le moindre du plus grand, & le reste on mettra au troisiesme lieu de la regle de trois : comme en cet exem-

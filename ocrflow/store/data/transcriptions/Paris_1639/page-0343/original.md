@@ -1,25 +1,17 @@
-# Page 342
+# Page 343
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-*Exemple 1.*
+En cette question la mise du premier multipliée par son temps fait 2800 : & celle du second multipliée aussi par son temps faict 200 ; & à cause que le troisiesme doit auoir autant que le premier & second ensemble, i'adiouste ces deux produicts ensemble, & la somme est 3000, à laquelle doit estre égal le produict de la mise du troisiéme multipliée par son temps : & parce que sa mise est 500 lt. diuisant 3000 par 500, viendra 6 mois pour le temps du troisiesme.
 
-Trois marchands ayans trafiqué ensemble ont gagné 1000 liures. Le premier a mis en communauté 200 lt. & les a repris au bout de 8 mois : Le second a apporté 450 lt. & les a repris 6 mois apres : Le troisiesme a apporté 500 lt. qui ont demeuré 10 mois, sçauoir combien chacun doit receuoir, tant à raison de sa mise que du temps ?
+*Exemple 3.*
 
-Multipliant chaque mise par son temps viendra 1600 pour le premier : 2700 pour le second : 5000 pour le troisiesme, qui adioustez ensemble font 9300 : Partant pour auoir le gain du premier, on dira, si
+Vn homme emprunte en mesme temps 400 liures pour 7 mois, & 100 liures pour 2 mois : sçauoir combien de temps il doit retenir ces deux sommes, afin que l'anticipation du terme de 7 mois recompense le retardement du terme d'vn mois ?
 
-9300 —— 1000 —— 1600. R. 172 4/93.
+La solution de cette question ne differe pas de la solution de la precedente, & se trouuera par la mesme methode, qu'il doit rendre les deux sommes au bout de 6 mois.
 
-Pour auoir le gain du second, on dira, si
+*Exemple 4.*
 
-9300 —— 1000 —— 2700. R. 290 30/93.
+Trois marchands de 222 liures qu'il auoient mis en communauté ont gagné 217 liures : La mise du premier a demeuré en communauté 9 mois : du second 12 mois : du troisiesme 16 mois. Le premier a eu pour sa part du gain 69 liures : le second 76 lt. & le troisiesme 72 liures, sçauoir quelle estoit la mise de chacun.
 
-Pour trouuer le gain du troisiesme, on dira, si
-
-9300 —— 1000 —— 5000. R. 537 59/93.
-
-Pour la preuue, on trouuera que 172 4/93, 290 30/93, & 537 59/93 adioustez ensemble, font 1000 lt.
-
-*Exemple 2.*
-
-Trois marchands se mettent à trafiquer ensemble, le premier desquels apporte 400 liures pour 7 mois : le second 100 liures pour 2 mois : si la mise du troisiesme est égale à la mise du premier & second, sçauoir combien elle doit demeurer en la communauté, afin qu'il aye la moitié du gain ?
+Pour resoudre cette question, il faut diuiser les sommes des gains 69, 76, & 72 par leurs temps 9, 12, & 16, & les numerateurs des quotiens reduicts en mesme denomination (qui en cet exemple sont sixiesme) seront

@@ -1,46 +1,49 @@
-# Page 111
+# Page 112
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-1.c.4.2 | hg *eſt* □.ac,
-hyp. | ac 2|2 cb, α
-29.d.1 | ak & kf *ſnt* □;
-α | □ak, □kf, / ſ.46.1 | □ci, □hg, *ſnt* 2|2 đe.
-concl. 19.a.b | □af 2|2 4□ac Ⅱ cb.
+*Explication par nombres.*
 
-THEOR. V. PROPOS. V.
+hyp. | ac *eſt* 5,
+hyp. | cb *eſt* 5, α
+19.a.1 | ab *eſt* 10, β
+hyp. | ad *eſt* 8, γ
+3.a.1 | db *eſt* 2, δ
+3.a.1 | cd *eſt* 3, ε
+γδ | ah ▭.adb *eſt* 16,
 
-Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales, le rectangle contenu des parties inégales de la toute, auec le quarré de la section du milieu, est égal au quarré de la moitié de la toute.
+(figure)
+
+ε | kg □.cd *eſt* 9,
+19.a.1 | ah + kg *ſnt* 25,
+concl. α | cf □.cb *eſt* 25.
+
+SCHOLIE.
+
+Le quarré de la perpendiculaire, qui tombe de la circonference sur le diametre; est égal au rectangle compris sous les segments du diametre faits par icelle perpendiculaire.
 
 (figure)
 
 *Hypoth.*
 
-ab *eſt* ——,
-ac 2|2 cb,
-ad 3|2 db.
+caeb *eſt ſemic.*
+ab *eſt diamet.*
+ed ⊥ ab.
 
 *Req. à demonſtr.*
 
-▭.adb + □.cd 2|2 □.cb.
+□.ed 2|2 ▭.adb.
 
 *Preparation.*
 
-46.1 | cf *eſt* □.cb,
-1.p.1 | eb *eſt diametre*,
-31.1 | dg == bf Ⅱ ce,
-31.1 | al == ce,
-31.1 | lhi == ab.
+1.p.1 | ec *eſt* ——.
 
 *Demonſtr.*
 
-1.c.4.2 | kg & di *ſnt* □,
-2.ſ.29.1 | ak, ci, df *ſont* ▭;
-hyp. | ac 2|2 cb,
-36.1 | ▭ak 2|2 ▭ci,
-c.43.1 | ▭df 2|2 ▭ci,
-nota 1.a.1 | ▭df 2|2 ▭ak,
-▭ch *commun add.*
-2.a.1 | *gnom.* kbg 2|2 ▭ah α
-19.a.1 | □cf 2|2 *gnom.* kbg / + □kg,
-concl. α.1.a.f | □cf 2|2 ▭ah, / + kg □.cd.
+hyp. | ∠edc *eſt* ┘,
+15.d.1 | ac 2|2 cb,
+5.2 | ▭.adb / + □.cd 2|2 □.cb Ⅱ ce
+47.1 | □.ed + □.cd 2|2 □.ce,
+1.a.1 | ▭.adb / + □.cd 2|2 □.ed + □.cd
+□.cd *commun. ſubtr.*
+concl. 3.a.1 | ▭.adb 2|2 □.ed.

@@ -1,23 +1,39 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-*[page number: 24]*
+*[page number: 25]*
 
-Πρόβλημα η, Πρόθεσις κβ.
+Πρόβλημα θ, Πρόθεσις κγ.
 
-Ἐκ τριῶν εὐθειῶν αἵ ἐισιν ἴσαι τρισὶ ταῖς δοθείσαις εὐθείαις,τρίγωνον συστήσασθαι.δεῖ δὴ τὰς δύο τῆς λοιπῆς μείζονας εἶναι, πάντη μεταλαμβανομένας,διὰ τὸ καὶ παντὸς τριγώνου τὰς δύο πλευρὰς τῆς λοιπῆς μείζονας εἶναι,πάντη μεταλαμβανομένας.
+Πρὸς τῇ δοθείσῃ εὐθείᾳ καὶ τῷ πρὸς αὐτῇ σημείῳ, τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ,ἴσην γωνίαν εὐθύγραμμον συστήσασθαι.
 
-## Problema 8, Propositio 22.
+## Problema 9, Propositio 23.
 
-22 EX tribus rectis lineis,quæ sunt tribus datis rectis lineis æquales,triangulum cōstruere. Oportet autem duo latera, reliquo esse maiora quomodocunque assumpta : quoniam trianguli bina latera quomodocunque assumpta,reliquo sunt maiora.
+23 AD datam rectam lineam,ad datúmque in ea punctum, dato angulo rectilineo,æqualem angulum rectilineū constituere.
 
-ORONTIVS.Dentur ergo tres lineæ rectæ a, b,& c, adinuicem ita proportionatæ,vt duæ quomodocunque assumptæ,sint maiores reliqua:vtpote,a/& b/ipsa c,atq b/& c/ipsa a, denique a/& c/ipsa b/maiores.Oportet enim ipsius trianguli,ex tribus rectis lineis,quæ sunt tribus datis æquales,cōstruendi duo latera,reliquo esse maiora,per vigesimam propositionem. Assumatur itaque recta quædam linea,ex altera parte puncto d/limitata:infinita verò secundum reliquam.à qua secētur tres rectæ lineæ, ipsis datis singulatim æquales,per tertiam propositionē: d/e/quidem æqualis ipsi a, e/f/autem ipsi b,& f/g/ipsi c.Et centro e,interuallo autē e/d, circulus describatur d/h/k:centro rursum f,& interuallo f/g,alius describatur circulus g/h/l, per tertium postulatum.Et quoniam circuli d/h/k/ & g/h/l,in eodem sunt plano,& e/f/recta,ab vnius circuli centro,ad centrum alterius producitur:necessum est, eosdem circulos d/h/k/& g/h/l/sese mutuo intersecare.Si nanque minimè se secarent, sed sese adinuicem tangerent,vtpote in puncto h:tūc recta e/f/ ipsi b/ æqualis,vtriusque circuli semidiametrum necessario contineret. quapropter & duarum rectarum a/& c/magnitudinē.Esset enim e/h/pars ipsius e/f,æqualis d/e,& propterea ipsi a:pars quoque h/f,ipsi f/g, & ipsi ergo c/æqualis.quemadmodùm ex decimaquinta diffinitione,& prima cómuni sententia deducere vel facilè est. Bina ergo triāguli latera, essent æqualia reliquo:contra datam hypothesin,& vigesimam propositionē. Longè item maius inconueniēs sequeretur:vbi circuli ipsi vtcunque distare ponerētur. Secat igitur circulus d/h/k,circulum g/h/l.esto sectionum altera in puncto h: & cónectātur rectæ e/h/& h/f,per primum postulatum. Triangulū est igitur e/h/ f: dico quòd ex tribus rectis lineis cóstructū,quæ sunt tribus datis æquales.Cùm enim punctum e/sit centrum circuli d/h/k:æqualis est d/e/ipsi e/h, per decimamquintam diffinitionē. ipsa porrò d/ e, secta est æqualis ipsi a.Binæ igitur, hoc est a/& e/h, eidem rectæ d/e/sunt æquales:quapropter & æquales adinuicem, per primam communem sententiam.e/f/autem, ipsi b/ data est æqualis,per constructionem. Rursum quoniam punctum f,centrum est circuli g/h/l:æqualis est f/h/ipsi f/g,per eandem decimamquintam diffinitionem. ipsa autem f/g, secta est æqualis ipsi c.Ergo f/h/ &c, eidem f/g/sunt æquales:igitur & æquales adinuicem,per eandem primam cómunem sententiam.Tres igitur rectæ lineæ e/h,e/f,& f/h,tribus datis a,b, & c,sunt adinuicem æquales:& constituunt triangulum e/h/f. Ex tribus igitur rectis lineis e/h,e/f, & f/h,quæ tribus datis,hoc est,a,b,& c,sunt æquales,cōstructum est triangulum e/h/f. Quod faciendum susceperamus.
+ORONTIVS.Sit data recta linea a/b,& datum in ea punctum b,rectilineus porrò angulus c/d/e:cui receptum sit, ad datum punctum b, datæ rectæ lineæ a/b, æquum angulum rectilineum constituere. Suscipiatur itaq in c/d/recta contingēs punctum,sit́q illud c:in d/e/quoque recta,contingens punctum, & illud sit e.cónectatur deinde recta c/e, per primum postulatum.Ex tribus deniq lineis rectis a/b, b/f,& f/a, quæ sint tribus datis,hoc est,ipsius c/d/e trianguli lateribus æquales, vtpote a/b/ipsi c/d,& b/f/ipsi d/e,atque f/a/ipsi e/c,triangulum cōstruatur a/b/f, per præcedētē vigesimāsecundā propositionē. Dico angulū a/b/f,æquū fore ipsi angulo dato c/d/e. Cùm enim binæ lineæ rectæ a/b/& b/f/triāguli a/b/f,duabus lineis rectis c/d/& d/e/trianguli c/d/e,sint altera alteri æquales,basis quoque a/f,basi c/e/per constructionem æqualis:erit angulus a/b/f,angulo c/d/e/sub æqualibus rectis lineis contento,per octauam propositionē, æqualis.Ad datam ergo lineam rectam a/b,& datum in ea punctū b,dato angulo rectilineo c/d/e,æqualis angulus rectilineus a/b/f/constitutus est.Quod fecisse oportuit.
 
-> Constructio figuræ.
+> Figurę constitutio.
 
-*[diagram: two tangent circles d e h f g k l]*
+*[diagram: triangles a b f and c d e]*
 
-*[diagram: lines a b c]*
+> Cōclusio problematis.
 
-> Problematis ostensio.
+Θεώρημα ιε, Πρόθεσις κδ.
 
-*[diagram: two intersecting circles d e f g h k l]*
+Ἐὰν δύο τρίγωνα τὰς δύο πλευρὰς ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, τὴν δὲ γωνίαν τῆς γωνίας μείζονα ἔχῃ τὴν ὑπὸ τῶν ἴσων εὐθειῶν περιεχομένην,καὶ τὴν βάσιν τῆς βάσεως μείζονα ἕξῃ.
+
+## Theorema 15, Propositio 24.
+
+24 SI bina triangula,duo latera duobus lateribus æqualia habuerint alterum alteri,angulum verò angulo maiorem sub æquis rectis lineis contentum:basin quoq basi maiorem habebunt.
+
+ORONTIVS. Sint bina triangula a/b/c, & d/e/f, habentia duo latera duobus lateribus alterum alteri æqualia,vtpote,a/b/ipsi d/e,& a/c/ipsi d/f: sit'que angulus qui ad a, maior angulo qui ad d / sub æquis lateribus contento. Aio itaque, basin b/c/trianguli a/b/c,maiorem esse basi e/f/triāguli d/e/f. Quoniam angulus b/a/c,maior est angulo e/d/f,per hypothesin:ad datam ergo lineam rectam e/d,ad datúmque in ea punctū d,dato angulo rectilineo b/a/c,æqualis angulus rectilineus constituatur e/d/g, per vigesimamtertiā propositionem.Vtriq demum a/c/ & d/f, æqualis ponatur d/g,per secūdam aut tertiam propositionem:cónectantúrq rectæ e/g/& g/f,per secūdum postulatū. Erunt itaq bina latera a/b/& a/c/triāguli a/b/c, æqualia duobus lateribus d/e/& d/g/trianguli d/e/g/alterum alteri:& qui sub eisdē lateribus continentur anguli adinuicem æquales,per constructionem. Basis igitur b/c, basi e/g, per quartam propositionem est æqualis.
+
+> Cōstructio figuræ generalis.
+
+His ita præmissis,quoniam triangulorum adinuicem comparatorum, varia contingit habitudo:poterit itaque recta e/g,diuersis incidere modis,vtpote, aut in directū ipsius e/f, aut supra,vel infra.Cadat ergo primùm in rectam e/f,vt in hac prima figuræ dispositione.Igitur cùm
+
+*[diagram: triangles a b c and d e f g]*
+
+> Primus inferendi modus.
+
+c.j.

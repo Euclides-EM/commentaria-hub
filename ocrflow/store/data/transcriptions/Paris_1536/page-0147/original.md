@@ -1,39 +1,29 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-*130*
+*131*
 
-decimamsextā huius quinti. Fit igitur vt sicut a/b/ad a/e, sic c/d/ad e/f: atq̄; rursum velut idem a/b/ad e/b, sic idem c/d/ad f/d.
+earū proportio: ex æquali verò prima tertia maior fuerit, & quarta sexta maior erit: etsi æqualis, æqualis: etsi minor, minor.
 
-## Corollarium.
+ORONTIVS. ¶Sint tres magnitudines a,b,c, & rursum aliæ tres d, e, f, cum duabus perturbatim in eadem ratione coassumptis: vtpote, sicut a/ ad b, sic e/ad f, sicútq̄; b/ad c, sic d/ad e. Dico quòd si a/fuerit maior c, erit ex æquali d/maior f: etsi æqualis, æqualis: etsi minor, minor. Sit primùm a/maior c: iam recipio probandum, quòd d/sit maior f. Et quoniā est sicut b/ad c, sic d/ad e, per hypothesin: erit à conuersa ratione, vt c/ad b, sic e/ad d, per quartæ huius quinti corollariū. Rursum quoniam a/maior est c, & b/alia quædam magnitudo: habet igitur a/ ad b/maiorem rationem, quàm c/ad eandem b, per primam partem octauæ huius quinti. Sicut porrò a/ ad b, sic ex hypothesi e/ad f: sicútq̄; c/ad b, sic e/ad d (vti nunc ostensum est). & e/propterea ad f/maiorem rationē habet, q̄ ad d. Ad quā autē eadem magnitudo maiorē ratione habet, & illa minor est: per secundā partē decimæ ipsius quinti. Est igitur f, ipsa d/minor: & d/propterea maior f. ¶Haud dissimiliter si a/fuerit æqualis ipsi c: ostendetur & d/æqualis ipsi f. Nam a/& c, ad eandem b/eandem rationē habebūt: per primā partem septimæ huius quinti. Et quoniā est sicut a/ad b, sic e/ ad f, sicútq̄; c/ad b, sic e/ad d: & e/ igitur ad vtranq̄; d/& f/eādem rationē habebit. Ad quas autē eadem eandem habet rationē, ipsæ sunt æquales: per secundam partem nonæ ipsius quinti. Aequalis erit igitur d, ipsi f. ¶Item si a/fuerit minor c: dico tandem, q̄ & d/minor erit f. Tunc enim c/ad b maiorem rationē habebit, quàm a/ad eandem b: per eandem octauā huius quinti. Et cùm sit velut c/ad b, sic e/ad d, sicútq̄; a/ad b, sic e/ad f (veluti suprà deductum est) habebit consequenter e/ad d/maiorē rationem, q̄ e/ad f. Ad quam autē eadem maiorem rationem habet, & illa minor est: per secundam partem decimæ eiusdem quinti. Est itaq̄; d/ipsa f/minor. Ergo si fuerint tres magnitudines: &c. vt in theoremate. Quod ostendendum fuerat.
 
-¶Et proinde cóuersio rationis, hoc est, acceptio antecedētis ad excessum quo antecedens ipsum excedit consequens, fit manifesta.
+> Æquā rationem respicientia in perturbatis.
 
-> Conuersio rationis.
+> Quando prima maior est tertia.
 
-Θεώρημα κ, Πρόθεσις κ.
+*[diagram: a b c c c d d e f]*
 
-EΑν ᾖ τρία μεγέθη, καὶ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα, καὶ ἐν τῷ αὐτῷ λόγῳ, δι' ἴσου δὲ τὸ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ τέταρτον τοῦ ἕκτου μεῖζον ἔσαι, κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
+> Vbi prima æquatur tertiȩ.
 
-## Theorema 20, Propositio 20.
+> Quando prima minor est tertia.
 
-SI fuerint tres magnitudines, & aliæ eisdem æquales numero, binatim sumptæ, & in eadem ratione, ex æquali autem prima tertia maior fuerit: & quarta sexta maior erit: etsi æqualis, æqualis: etsi minor, minor.
+Θεώρημα κβ, Πρόθεσις κβ.
 
-ORONTIVS. ¶Sint tres magnitudines a,b,c, & rursum aliæ tres d/e/f, cum duabus ordinatim sumptis in eadē ratione: vtpote, sicut a/ad b, sic d/ad e, sicut item b/ad c, sic e/ad f. Aio quòd si a/fuerit maior ipsa c, erit ex æquali d/maior ipsa f: etsi æqualis, æqualis: si autē minor, itidem minor. Sit primùm a, maior ipsa c. Et quoniā est sicut b/ad c, sic e/ad f: erit & à conuersa ratione, sicut c/ad b, sic f/ad e, per corollariū quartæ huius quinti. verū c/minor est a, per hypothesin, & b/alia quædam magnitudo: habet igitur a/ad b/maiorem rationem, quàm c/ad eandem b, per primam partē octauæ huius quinti. Sicut porrò c/ ad b, sic f/ad e: & a/igitur ad b/maiorem rationem habet, quàm f/ad e. Sicut rursum a/ad b, sic d/ad e, per hypothesin: & d/ igitur ad e/ maiorem rationem habet, quàm f/ad ipsam e. Ad eandem autem rationē habentium, maiorem rationem habens illa maior est, per decimam ipsius quinti. Et d/igitur, ipsa f/maior est. ¶Quòd si a/ sit æqualis ipsi c: erit & d/æqualis ipsi f. habebunt enim a/& c/ ad eandem b/ eandem rationem, per primam partem septimæ huius quinti. Et quoniam est sicut a/ad b, sic d/ad e, sicútq̄; c/ad b, sic f/ad ipsam e: habebunt quoq̄; d/& f/ eandem rationem ad ipsam e. Quæ autem ad eandem eandem habent rationem, æquales adinuicem sunt, per primam partem nonæ ipsius quinti. Aequalis est igitur d, ipsi f. ¶Haud dissimiliter ostēdetur, quòd si a/ fuerit minor ipsa c: erit consequenter d/ minor ipsa f. Tunc enim c/ ad b/ maiorem rationem habebit, quàm a/ad ipsam b, per eandem octauam huius quinti. Est autē vt a/ad b, sic d/ad e, per hypothesin: sicútq; c/ad b, sic f/ad e/se habere præostensum est. Et proinde f/ad e/maiorem rationem habebit, quàm d/ad ipsam e. Hinc rursum per primam partem decimæ eiusdem quinti, f/ipsa d/maior erit: & d/propterea ipsa f/minor. Itaq; si fuerint tres magnitudines, & aliæ eisdē æquales numero: & quæ sequuntur reliqua. Quod oportuit demonstrasse.
+EΑν ᾖ ὁποσαοῦν μεγέθη καὶ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα ἐν τῷ αὐτῷ λόγῳ, καὶ δι' ἴσου ἐν τῷ αὐτῷ λόγῳ ἔσαι.
 
-> Æquam rationē respiciētia in ordinatis.
+## Theorema 22, Propositio. 22.
 
-> Prima differētia.
+SI fuerint quælibet magnitudines, & aliȩ eisdem æquales numero, binatim sumptæ in eadem ratione: & ex æquali in eadem ratione erunt.
 
-*[diagram: a b c c c d e f f f]*
+ORONTIVS. ¶Sint verbi gratia tres magnitudines a,b,c, & aliæ eisdem numero æquales d,e,f, cum duabus ordinatim sumptis in eadem ratione: vtpote, sicut a/ad b, sic d/ad e, sicut autē b/ad c, sic e/ad f. Dico quòd extremæ vtriusque ordinis magnitudines, ex æquali in eadem ratione erunt: sicut quidē a/ad c, sic d/ad f. Accipiantur enim ipsarum a,d/æquè multiplices g,h: ipsarū verò b,e, aliæ itidem æquè multiplices k,l: ipsarū deniq̄; c,f, vtcunq̄; etiam multiplices m, n. Cùm sit igitur vt a/ad b, sic d/ad e: & ipsarum a,d, hoc est primæ & tertiæ, æquè multiplices sint g,h: secūdæ autem & quartæ, vtpote ipsarū b,e, aliæ itidem æquè multiplices k,l. Est igitur sicut g/ multiplex ad k/multiplicē, sic h/ad l: per quartam huius quinti. Et proinde erit, vt k/ad m, sic l/ad n: est enim ex hypothesi, vt b/ad c, sic e/ad f, & ipsarum b,e, æquè multiplices k,l: ipsarū autē c,f, æquè rursum multiplices m,n, per cōstructionē.
 
-> Secūda differentia.
-
-> Tertia differentia.
-
-Θεώρημα κα, Πρόθεσις κα.
-
-EΑν ᾖ τρία μεγέθη, καὶ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα, καὶ ἐν τῷ αὐτῷ λόγῳ, ᾖ δὲ τεταραγμένη αὐτῶν ἡ ἀναλογία, δι' ἴσου δὲ τὸ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ τέταρτον τοῦ ἕκτου μεῖζον ἔσαι: κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
-
-## Theorema 21, Propositio 21.
-
-SI fuerint tres magnitudines, & aliæ eisdem æquales numero, bintim sumptæ, & in eadem ratione, fuerit autem perturbata
+> Æqua ratio in ordinatis.

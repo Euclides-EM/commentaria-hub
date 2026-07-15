@@ -1,37 +1,29 @@
-# Page 188
+# Page 189
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. IV.
 
-*Explication par nombres.*
+ſymp. | 5∠ghikl *eſt le requis.*
 
-*Voyez la figure precedente.*
+*Prepar.*
 
-hyp. | cd Ⅱ cb *eſt* 2,
-7.a.1 | ce *eſt* 1,
-47 1 | □.ed *eſt* 5,
-ſ.46.1 | ed Ⅱ ef *eſt* √.5,
-3 a.b | cf *eſt* √.5~1,
-47.1 | □ fd *eſt* 10~√.20,
-ſ.46.1 | fd *eſt* √..10~√.20.
+1.p.1 | fg, fh, fi, fk, fl *ſnt* ——,
 
-PROBL. XII. PROPOS. XII.
+*Demonſtr.*
 
-A l'entour d'vn cercle donné, descrire vn pentagone, equilateral & equiangle.
+1.concl. c.16.3 | gh, hi, ik, kl, lg *touchent le* ⊙abcde,
+2.c.36 3 | ga 2|2 ge, ha 2|2 hb, ib 2|2 ic, α
+2.c.36.3 | kc 2|2 kd, ld 2|2 le, α
+8.1 | ∠gfa 2|2 ∠gfe, ∠hfa 2|2 ∠hfb, β
+27.3 | ∠afe 2|2 ∠afb, ∠afb 2|2 ∠bfc, &c.
+7.a.1 | ∠gfa,∠afh,∠hfb,∠bfi,∠ifc,&c. *ſnt* 2|2 đe.
+26.1 | ag 2|2 ah, hb 2|2 bi, δ
+2 concl. αδ2.a.1 | gh, hi, ik, kl, lg *ſnt* 2|2 đe.
+3.concl. β.ſ.32.1 | ∠ahb,∠bic,∠ckd,∠dle,∠ega *ſnt* 2|2 đe.
 
-*Hypoth.*
+COROLL.
 
-fabcde *eſt* ⊙ D.
+Il s'ensuit de la demonstration de ce probleme, que si dans le cercle est descrit vne figure equilaterale & equiangle, & aux extremitez des semidiametres, menez du centre aux angles, soient faites des perpendiculaires: ces perpendiculaires feront vne figure circonscrite au cercle equilateral & equiangle, qui aura autant de costez & angles que l'inscrite.
 
-*Requis à faire:*
+SCHOLIE.
 
-*circonſcrire au* ⊙abcde *le* 5∠ ghikl *equilat. & equiangle.*
-
-(figure)
-
-*Conſtr.*
-
-11.1 | 5∠abcde *eſt inſcrit au* ⊙fabd,
-1.p.1 | fa, fb, fc, fd, fe *ſnt* ——,
-11.1 | gah ⊥ fa, hbi ⊥ fb, ick ⊥ fc,
-11.1 | kdl ⊥ fd, leg ⊥ fe,
-13.a.1 | ahb, bic, ckd, dle, ega *ſnt* △;
+En vne figure equilaterale & equiangle, si le nombre des angles est impair, la ligne droicte menée de quelconque angle au milieu du costé opposé, diuise aussi l'angle en deux parties égales: Mais si le nombre des

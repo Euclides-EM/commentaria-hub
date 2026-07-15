@@ -1,31 +1,11 @@
-# LIBER II.
+# GEOMET. ELEMENT.
 
-Θεώρημα ζ, Πρόθεσις ζ.
+segmento est quadrato,æquum est ei quod fit ex tota & prædicto segmento tanquam ab vna descripto quadrato.
 
-Εὰν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε,τὸ ἀπὸ τῆς ὅλης καὶ ἀφ' ἑνὸς τῶν τμημάτων τὰ συναμφότερα τετράγωνα ἴσα ἐστὶ τῷ τε δὶς ὑπὸ τῆς ὅλης καὶ τοῦ εἰρημένου τμήματος περιεχομένῳ ὀρθογωνίῳ,καὶ τῷ ἀπὸ τοῦ λοιποῦ τμήματος τετραγώνῳ.
+ORONTIVS.¶Esto a/b/recta linea,vcunque secta in puncto c. dico quòd rectangulum quater sub tota a/b,& vno segmentorū,vtpote b/c/comprehensum,vnà cum quadrato quod fit ex a/c:æquum est ei,quod ex a/b/& eodem segmento b/c, tanquam ab vna describitur quadrato. Producatur enim a/b/in directum versus d,per secundum postulatum:& ponatur b/d/æqualis ipsi b/c,per tertiam primi. Ex a/d/ autem describatur quadratū a/d/e/f, per quadragesimamsextam eiusdem primi:& connectatur dimetiens e/d,per primum postulatum.Per trigesimamprimam deinde ipsius primi,per c/& b/puncta,ipsis a/e/& d/f/parallelæ ducātur c/g/& b/k, dimetiētem e/d/secantes in pūctis h,l:& per eandem trigesimāprimam,per puncta h/& l,ipsis a/d/& e/f/parallelæ rursum ducantur m/n/o/& p/q/r. Et quoniam per constructionem c/b/ipsi b/d/est æqualis:& q/l/ipsi c/b,necnon l/r,ipsi b/d,per trigesimamquartam primi.Est igitur q/l/æqualis ipsi l/r, per primam communem sententiam:quæ enim æqualibus æqualia sunt,ea sunt æqualia adinuicem.& h/n/cōsequenter,ipsi n/o/itidem concludetur æqualis.Parallelogrammum itaque b/r/æquū est ipsi c/l,& proinde q/n/ipsi l/o/parallelogrammo æquale,per trigesimamsextam ipsius primi: sunt enim b/r/ & c/l/in æqualibus basibus, ac in eisdem parallelis constituta,similiter & q/n/ atque l/o.Atqui c/l/& l/o/supplemēta eorum quæ circa dimetientem h/d/sunt parallelogrammorum, per quadragesimamtertiam eiusdem primi æqualia sunt adinuicem. Igitur b/r/& q/n/parallelogramma, æquis sunt æqualia parallelogrammis:& æqua propterea adinuicē,per eandem primam communem sententiam. Quatuor igitur b/r,c/l,l/o,& q/n,sunt adinuicem æqualia: & quadrupla consequenter ipsius c/l. Insuper quoniam b/r/& q/n/parallelogrāma,per corollarium quartæ huius sunt quadrata:æqualis est b/l/ipsi b/d,& q/h/ipsi q/l,per ipsius quadrati diffinitionem.Eidem porrò b/d/æqualis est c/b,per cōstructionem:& b/l/ igitur ipsi c/b,per primā communem sententiā est æqualis.Ipsi rursum c/b/æqualis est q/l,necnon c/q/ipsi b/l/æqualis, per trigesimamquartam primi:& c/q/igitur ipsi q/l,per eandem cómunem sententiā est æqualis.at q/h,eidem q/l/æqualis præostensa est:& c/q/igitur,ipsi q/h,per ipsam primam communē sententiam est æqualis. Patuit autē,quòd & h/n/ipsi n/o/itidem æqualis est. Parallelogrammum igitur a/q/ipsi p/h,necnon h/k/ipsi n/f,per trigesimamsextā primi coæquatur:sunt enim a/q & p/h/in basibus æqualibus/ac in eisdē parallelis,similiter & h/k/atq; n/f/constituta. Ipsa verò p/h/& h/k,sunt rursum adinuicē æqualia,per quadragesimātertiam ipsius primi:nempe supplementa eorū,quæ circa dimetientē e/l/sunt parallelogrammorum.Et a/q/igitur & n/f/ parallelogramma,æqualibus sunt æqualia parallelogrāmis:& æqualia propterea adinuicē,per primā communē sententiā. Quatuor igitur a/q,p/h,h/k,& n/f, æqualia sunt adinuicem: & quadrupla consequenter ipsius a/q/parallelogrāmi.Ostensum est autem,q̄ & b/r,c/l,l/o, & q/n, quadruplū sunt ipsius c/l.Octo igitur parallelogrāma,m/d/g/gnomonē constituentia,quadruplum efficiunt totius a/l/parallelogrāmi.Est autē a/l/ parallelogrāmū,ei quod sub a/b/& b/c/cótinetur rectangulo æquale:nam b/l,ipsi b/c,æqualis ostēsa est.Rectangulum igitur quater sub a/b/& b/c/cōprehensum,æquum est gnomoni m/d/g. Addatur commune quadratum m/g.Quater igitur sub a/b/& b/c/comprehensum rectangulū,vnà cū quadrato m/g:æquatur gnomoni m/d/g,& eidem m/g/ quadrato·
 
-## Theorema 7, Propositio 7.
+*[diagram: a c b d / p q l r / m h n o / e g k f]*
 
-SI recta linea secetur vtcunque:quod à tota & ab vno segmentorum vtraque fiunt quadrata,æqualia sunt rectangulo comprehenso bis sub tota & dicto segmento, & ei quod à reliquo segmento fit quadrato.
-
-ORONTIVS.¶Data enim recta linea a/b, vtcunq; secetur in puncto c. Aio ex tota a/b, & vno segmentorū,vtpote a/c,vtraq; descripta quadrata:æqualia fore ei.quod bis sub a/b/& a/c/cótinetur rectangulo, & ei quod ex c/b/fit quadrato. Ex ipsa enim a/b,describatur quadratum a/b/d/e,per quadragesimamsextam primi:& connectatur a/e/dimetiens, per primum postulatum.Per punctum deinde c, ducatur c/f/ipsis a/d/& b/e/parallela,secans a/e/dimetientem in g. & per idem punctū g,vtrique a/b/& d/e/ parallela rursum ducatur h/k: per trigesimamprimam primi.
-
-Erunt igitur h/c/& f/k/parallelogramma,circa dimetientem a/e/cōsistentia,quadrata:per quartæ huius corollarium. Et quoniam c/k/& h/f/supplementa,sunt per quadragesimamtertiam ipsius primi adinuicem æqualia. addatur vtrique,commune quadratum h/c.Totum igitur a/k,toti a/f,per secundam communem sententiam erit æquale.Est autem a/k/ æquum ei quod sub tota a/b,& segmento a/c/continetur rectangulo:nam a/c,ipsi a/h, per quadrati diffinitionem est æqualis.Rectangulis itaque a/k/& a/f/æquum est id, quod bis sub a/b/& a/c/ continetur rectangulum. Eisdē porrò a/k/& a/f/rectangulis, æquatur gnomon f/a/k, & quadratū insuper h/c(bis enim cum ipsis a/k/& a/f/rectangulis,includitur quadratum h/c)gnomon igitur f/a/k,vnà cū quadrato h/c, æqualis est ei quod bis sub a/b/ & a/c/comprehēditur rectangulo.Addatur rursum cómune quadratum f/k. Gnomon igitur f/a/k,vnà cum quadratis h/c/& f/k:ei quod bis sub a/b/& a/c/cótinetur rectangulo,& ipsi quadrato f/k/est æqualis. Atqui f/a/k/gnomoni, & quadrato f/k: æquum est a/b/d/e/quadratum.Igitur quadratum a/b/d/e,vnà cum quadrato h/c: æquum est cōprehenso bis sub a/b/& a/c/rectangulo,& ipsi f/k/quadrato.Sed a/b/d/e/quadratū,ex tota a/b/descriptū est.& h/c/quadratum,id quod sub a/c/segmento.f/k/autem æquale ei, quod fit ex reliquo segmento c/b: fit enim ex g/k,quæ ipsi c/b,per trigesimamquartā primi est æqualis. Quod igitur ex tota a/b/& segmento a/c/vtraq; fiunt quadrata:æqualia sunt rectangulo comprehenso bis sub tota a/b, & dicto segmēto a/c,& ei quod sub reliquo segmento c/b/fit quadrato. Si recta igitur linea:&c. vt in theoremate. Quod oportuit ostendisse.
-
-*[diagram: a c b / h g k / d f e]*
-
-> Figuræ præparatio.
+> Figurę cōstructio.
 
 > Demōstratio theorematis.
-
-Θεώρημα η, Πρόθεσις η.
-
-Εὰν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε, τὸ τετράκις ὑπὸ τῆς ὅλης καὶ ἑνὸς τῶν τμημάτων περιεχόμενον ὀρθογώνιον μετὰ τοῦ ἀπὸ λοιποῦ τμήματος τετραγώνου,ἴσον ἐστὶ τῷ τε ἀπὸ τῆς ὅλης καὶ τοῦ εἰρημένου τμήματος,ὡς ἀπὸ μιᾶς ἀναγραφέντι τετραγώνῳ.
-
-## Theorema 8, Propositio 8.
-
-SI recta linea secetur vtcunque : rectangulum comprehensum quater sub tota & vno segmentorum, cū eo quod ex reliquo
-
-> Bifariam potest demonstrari *(manu scripta)*
-
-e.j.

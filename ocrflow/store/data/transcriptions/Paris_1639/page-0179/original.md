@@ -1,49 +1,52 @@
-# Page 178
+# Page 179
 
-# LES ELEMENTS
-
-*Demonſtration.*
-
-15.d.1 | ab 2|2 ae,
-conſtr. | d 2|2 ae,
-concl. 1.a.1 | ab 2|2 d.
-
-PROBL. II. PROPOS. II.
-
-Dedans vn cercle donné, inscrire vn triangle equiangle à vn triangle donné.
+# D'EVCLIDE, LIV. IV.
 
 (figure)
 
 *Hypoth.*
 
-abc *eſt* ⊙ D.
+iacb *eſt* ⊙ D.
 def *eſt* △ D.
 
 *Requis à faire.*
 
-*inſcrire au* ⊙abc *le* △,
-abc *equiang.* △def.
+*circonſcrire au* ⊙abc *le* △,
+lmn *equiangle au* △efd.
 
 *Conſtr.*
 
-17.3 | hg *touche le* ⊙acb, / a *eſt* • *d'attouch.*
-23.1 | ∠hac 2|2 ∠e,
-23.1 | ∠gab 2|2 ∠f,
-1.p.1 | bc *eſt* ——,
-ſymp. | △abc *eſt le requis.*
+2.p.1 | gefh *eſt* ——,
+arbitr. | a *eſt* • *en la* ∩acb,
+1.p.1. | ai *eſt* ——,
+23.1 | ∠aib 2|2 ∠deg,
+23.1 | ∠bic 2|2 ∠dfh,
+11.1 | ln ⊥ ai, lm ⊥ ib, α
+11.1 | mn ⊥ ic, α
+ſymp. | △lmn *eſt le requis.*
 
 *Demonſtr.*
 
-conſtr. | ∠hac 2|2 ∠e,
-conſtr. | ∠gab 2|2 ∠f,
-1.concl. 3 a.1 | ∠bac 2|2 ∠d,
-32.3 | ∠abc 2|2 ∠hac,
-conſtr. | ∠e 2|2 ∠hac,
-2 concl. 1.a.1 | ∠abc 2|2 ∠e,
-32.3 | ∠acb 2|2 ∠gab,
-conſtr. | ∠f 2|2 ∠gab,
-3.concl. 1.a.1 | ∠acb 2|2 ∠f.
+21.d.1 | aibl *eſt* 4∠,
+α.ſ.32.1 | ∠aib + ∠l 2|2 2┘,
+13.1. | ∠deg + ∠def 2|2 2┘,
+conſtr. | ∠aib 2|2 ∠deg,
+1.concl. 3.a.1 | ∠l 2|2 def, β
+α.ſ.32,1 | ∠bic + ∠m 2|2 2┘,
+13.1 | ∠dfh + ∠dfe 2|2 2┘,
+conſtr. | ∠bic 2|2 ∠dfh,
+2 concl. 3 a.1 | ∠m 2|2 ∠dfe, γ
+17.1 | ∠def + ∠dfe 2|3 2┘;
+βγ | ∠l + ∠m 2|3 2┘;
+13.a.1 | lmn *eſt* △,
+3 concl. βγc.32 1 | ∠n 2|2 ∠d,
+4 concl. α.c.16.3 | nl,nm,lm *touchent le* ⊙abc,
+5.concl 4 d.5 | △lmn *eſt circonſcrite au* ⊙abc.
 
-PROBL. III. PROPOS. III.
+PROBL. IV. PROPOS. IV.
 
-A l'entour d'vn cercle donné, descrire vn triangle equiangle à vn triangle donné.
+Dans vn triangle donné descrire vn cercle.
+
+*Hypoth.*
+
+abc *eſt* △ D.

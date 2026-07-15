@@ -1,45 +1,33 @@
-# Page 126
+# Page 127
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. II.
 
-PROBL. I. PROPOS. XI.
-
-Coupper vne ligne droicte donnée de telle sorte, que le rectangle contenu sous la toute & l'vn des segments, soit égal au quarré de l'autre segment.
-
-(figure)
+quarrez des costez qui contiennent l'angle obtus, de deux fois le rectangle contenu sous l'vn des costez qui sont à l'entour de l'angle obtus, sçauoir celuy, sur lequel estant prolongé, tombe la perpendiculaire, & de la ligne prise au dehors entre la perpendiculaire & l'angle obtus.
 
 *Hypoth.*
 
-ab *eſt* —— D.
+(figure)
 
-*Requis à faire.*
-
-▭.abg 2|2 □.ag.
-
-*Conſtr.*
-
-46.1 | ac *eſt* □.ab,
-10.1 | ae 2|2 ed,
-1.p.1 | be *eſt* ——,
-3.1 | eaf 2|2 eb,
-46.1 | ah *eſt* □.af,
-ſymp. | ▭.abg 2|2 □.ag.
+∠abc 3|2 ┘.
 
 *Preparation.*
 
-2.p.1 | hgi *eſt* ——.
+1.p.1 | cbd *eſt* ——.
+12.1 | ad ⊥ cd. α
+
+*Req. à demonſtrer.*
+
+□.ac 2|2 □.ab + □.bc + 2▭.cbd.
 
 *Demonſtr.*
 
-conſtr. | de 2|2 ea.
-6.2 | dh ▭.dfa / + □.ea 2|2 □.ef, / Ⅱ □.eb,
-47.1 | ac □.ab + □.ea 2|2 □.eb
-1.a.1 | ▭.dfa, / + □.ea 2|2 ac □.ab, / + □.ea,
-□.ea *commun. ſubtr.*
-3.a.1 | dh ▭.dfa 2|2 ac □.ab,
-▭.dg *commun. ſubtr.*
-concl. 3.a.1 | ah □.ag 2|2 gc ▭.abg.
+2.c.17.1 | *perpendic.* ad *tombe du coſté de* d,
+α.47.1 | □.ac 2|2 □.ad + □.cd, β
+4.2 | □.cd 2|2 □.cb + □.bd + 2▭.cbd,
+β.1.a.f | □.ac 2|2 □.ad + □.cb + □.bd + 2▭.cbd, δ
+47.1 | □.ad + □.bd 2|2 □.ab,
+concl. δ.1.a.f | □.ac 2|2 □.cb + □.ab, 2▭.cbd.
 
-THEOR. XI. PROPOS. XII.
+SCHOLIE.
 
-Aux triangles amblygones, le quarré du costé qui soustient l'angle obtus, est plus grand que les
+Estans cognus les costez d'vn triangle obtusangle, trouuer le segment comprins entre la perpendiculaire & l'angle obtus.

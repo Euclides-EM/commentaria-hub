@@ -1,37 +1,19 @@
-# Page 204
+# Page 205
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-son par son consequent: par exemple, la quantité de la raison de 12 à 4 est 3, à cause que ce nombre 3 monstre combien de fois l'antecedent 12 contient son consequent 4.
+superpartiente, multiple superparticuliere, & multiple superpartiente.
 
-IV.
+Proportion multiple est vne habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite, certain nombre de fois precisément, comme 20 à 4, qui s'appelle quintuple, & 15 à 5 triple.
 
-Mais proportion est vne similitude de raisons.
+La proportion superparticuliere est vne habitude d'vne plus grande quantité à vne moindre,, quand la plus grande contient la plus petite vne fois seulement, & en outre vne partie aliquote d'icelle moindre, comme est la proportion de 3 à 2, qui s'appelle sesquiseconde, & de 9 à 8 sesquioctaue.
 
-*De la diuiſion des Raiſons & Proportions.*
+La proportion superpartiente est l'habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite vne fois seulement, & en outre, quelques parties aliquotes d'icelle moindre, lesquelles prises ensemble, ne font pas vne partie aliquote, comme est la proportion de 8 à 5, qui s'appelle proportion supertripartiente quintes, & 5 à 3 superbipartiente tierces.
 
-Raison est l'habitude de deux grandeurs.
+La proportion multiple superparticuliere est l'habitude d'vne plus grande quantité à vne plus petite, quand la plus grande contient la plus petite certain nombre de fois, & en outre vne partie aliquote de la moindre, comme est la proportion de 5 à 2, qui s'appelle double sesquiseconde, & 26 à 8 triple sesquiquarte.
 
-Proportionalité ou analogie est vne similitude de raisons.
+Finalement la proportion multiple superpartiente, est l'habitude d'vne plus grande quantité à vne moindre, quand la plus grande contient la moindre certain nombre de fois, & en outre quelques parties aliquotes de la moindre, lesquelles prises ensemble ne font pas vne partie aliquote, comme est la proportion de 8 à 3, qui s'appelle double superbipartiente tierces, & 30 à 8 triple supertripartiente quartes.
 
-Proportion se prend en l'vne & l'autre signification.
+Tout ce qui a esté dit iusques icy des cinq genres des proportions rationnelles de l'inégalité majeure, doit pareillement estre entendu des cinq genres correspondans de l'inégalité mineure, apposant neantmoins tousiours ceste preposition (*ſub*) qui signifie, sous, comme il a esté dit.
 
-La proportion geometrique, la prenant pour raison, se diuise en proportion rationnelle & irrationnelle.
-
-La rationnelle est celle-là, laquelle peut estre exprimée par nombres, comme est la proportion de 6 à 4.
-
-L'irrationnelle est celle-là, laquelle ne peut estre exprimée par nombres, comme est la proportion du diametre d'vn quarré au costé du mesme quarré; car ceste raison ne se peut exprimer par nombres rationaux.
-
-La proportion se diuise aussi en proportion d'égalité & d'inégalité.
-
-La proportion d'égalité est celle qui est entre deux quantitez égales, comme est la proportion de 6 à 6.
-
-La proportion d'inégalité est celle qui est entre deux quantitez inégales, comme est la proportion de 6 à 4.
-
-La proportion d'inégalité est subdiuisée en proportion d'inégalité majeure, & d'inégalité mineure.
-
-La proportion d'inégalité majeure est quand la plus grande quantité est comparée à la plus petite, comme est la proportion de 6 à 4.
-
-La proportion d'inégalité mineure est quand la moindre quantité est comparée à la plus grãde, comme est la proportion de 4 à 6.
-
-La proportion rationnelle d'inégalité majeure est diuisée en cinq genres, sçauoir en la proportion multiple, superparticuliere,
+Or la proportion, la prenant pour proportionalité, se diuise en geometrique, arithmetique, & musique.

@@ -1,35 +1,40 @@
-# Page 129
+# Page 130
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-*Demonſtration.*
+PROBL. II. PROPOS. XIV.
 
-α.47.1 | □.ac 2|2 □.ad + □.dc,
-□.bc *commun. add.*
-2.a.1 | □.ac + □.bc 2|2 □.ad + □dc + □bc, β
-7.2 | □.dc + □.bc 2|2 □.bd + 2▭.bcd,
-β.1.a.f | □.ac + □.bc 2|2 □.ad + □.bd + 2▭.bcd,
-α.47.1 | □.ad + □.bd 2|2 □.ab,
-concl. 1.a.f | □.ac + □.bc 2|2 □.ab + 2▭.bcd.
+Descrire vn quarré égal à vn rectiligne donné.
 
-En cette proposition il n'est pas necessaire que tous les angles du triangle soient aigus, mais il suffit que l'angle soustenu du costé dont le quarré est comparé aux quarrez de deux autres, soit aigu.
+(figure)
 
-Or il est manifeste de la 47. du premier, que la perpendiculaire menée de l'angle du sommet à la ligne de la base ne tombe point hors le triangle, si le quarré de l'vn des costez de l'angle du sommet n'excede l'aggregé des quarrez de deux autres costez.
+*Hypotheſe.*
 
-SCHOLIE I.
+a *eſt rectili.* D.
 
-Estans cognus les costez d'vn triangle, trouuer le segment compris entre la perpendiculaire & l'angle aigu.
+*Requis à faire.*
 
-hyp. | ab *eſt* 8, α
-hyp. | ac *eſt* 5, β
-hyp. | bc *eſt* 7, γ
-*le requis eſt* cd.
-β | □.ac *eſt* 25,
-γ | □.bc *eſt* 49,
-19.a.1 | □.ac / + □.bc *ſnt* 74
-α | □.ab *eſt* 64,
-13.2 | □.ac + □.bc / ~□.ab 2|2 2▭.bcd
-3.a.1 | 2▭.bcd Ⅱ 74~64 *ſnt* 10,
-7.a.1 | ▭.bcd *eſt* 5,
-hyp. | bc *eſt* 7,
-conel. 1.ſ.1.d.2 | cd *eſt* ⁵⁄₇.
+□.ml 2|2 *rectili.* a,
+
+*Conſtr.*
+
+45.1 | ▭db 2|2 *rectili.* a,
+2.p.1 | dcf *eſt* ——,
+3.1 | cf 2|2 cb,
+10.1 | dg 2|2 gf,
+3.p.1 | gdhf *eſt ſemic.*
+2.p.1 | bch *eſt* ——,
+3.1 | il 2|2 ch,
+46.1 | in *eſt* □.il,
+ſymp. | □in *eſt requis.*
+
+*Preparation.*
+
+1.p.1 | gh *eſt* ——.
+
+*Demonſtr.*
+
+a / conſtr. | ▭.db / 3.ſ.1.d.2 | ▭.dcf / ſ.5.2 | □.ch / ſ.46.1 | □.ml *ſnt* 2|2 đe.
+eoncl. 1.a.1 | □ml 2|2 *rectili.* a.
+
+(ornament)

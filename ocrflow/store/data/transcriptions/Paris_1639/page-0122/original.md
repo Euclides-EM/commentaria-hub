@@ -1,36 +1,34 @@
-# Page 121
+# Page 122
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-1.a.f | □ad + □.db 2|2 □.ad + □.df. λ
-47.1 | □.ad + □.df 2|2 □.af,
-γ.49.1 | □.af 2|2 □.ae + □.ef,
-1.a.1 | □.ad + □.db 2|2 □.ae + □.ef: μ
-α.47.1 | □.ae 2|2 □.ac + □.ce, Ⅱ 2□.ac,
-ε.47.1 | □.ef 2|2 □eg, + □.gf, Ⅱ 2□.cd,
-concl. μ | □.ad + □db 2|2 2□.ac + 2□.cd.
-
-*La meſme demonſtration ſe peut faire ainſi.*
-
-*Hypoth.*
-
-ab *eſt* ——.
-
-*Req. à demonſtrer.*
-
-□.ad + □.db 2|2 2□.ce + 2□.cd.
+*Explication par nombres.*
 
 (figure)
 
-*Preparation.*
+hyp. | ab *eſt* 10,
+ac Ⅱ ce *eſt* 5. α
+hyp. | ad *eſt* 7. β
+db Ⅱ af *eſt* 3. γ
+3.a.1 | fd *eſt* 4,
+3.a.1 | cd *eſt* 2. δ
+β | □.ad *eſt* 49. ε
+γ | □.db *eſt* 9. ε
+1.concl. ε | □.ad + □.db *ſnt* 58,
+α | □ce *eſt* 25, θ
+δ | □cd *eſt* 4, λ
+θ | 2□.ce *ſnt* 50,
+λ | 2□.cd *ſnt* 8,
+2 concl. 19.a.1 | 2□.ce + 2□.cd *ſnt* 58.
 
-aeb *eſt la figure du ſcholie de la 6. du 2.*
+THEOR. X. PROPOS. X.
 
-*Demonſtration.*
+Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adjouste directement quelque ligne droicte : les deux quarrez ensemble de la toute auec l'adjoustée, & de l'adjoustée, sont doubles, du quarré descrit de la moitié, & du quarré de la ligne composée de la moitié, & de l'adjoustée, comme d'vne.
 
-ſ.5.2 | □.de 2|2 ▭.adb. α
-1.ſ.4.2 | □.ab 2|2 4□.ce, Ⅱ 2□.ce + 2□.cd + 2□.de. β
-α.4.2 | □.ad + □.db + 2▭.adb Ⅱ 2□.de 2|2 □.ab,
-β | 2□.ce + 2□.cd + 2□.de 2|2 □.ab,
-2□.de *commun. ſubtr.*
-concl. 3.a.1 | □.ad + □db 2|2 2□.ce + 2□.cd.
+(figure)
+
+*Hypoth.*
+
+ac 2|2 cb,
+bd *eſt arbitr.*
+abd *eſt* ——.

@@ -1,23 +1,27 @@
-# Page 18
+# Page 19
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-(ornament)
+Or les Mathematiciens, qui considerent les grandeurs separées de toute matiere, ne les peuuent exposer à la veuë que physiquement : comme en ceste definition, ils representent le poinct Mathematique par vn poinct Physique, tel qu'est le poinct A.
 
-PREMIER LIVRE DES ELEMENTS D'EVCLIDE.
+• A
 
-# DEFINITIONS.
+II.
 
-I.
+La Ligne est vne longueur sans largeur.
 
-LE Poinct est, ce qui n'a aucune partie.
+La ligne se definit aussi estre le flux ou coulement d'vn poinct, parce qu'elle n'a aucune grosseur.
 
-Il y a deux sortes de poincts, à sçauoir le Physique & le Mathematique.
+III.
 
-Le poinct Physique est le moindre object de la veuë, comme la pointe d'vne aiguille tres-pointuë.
+Les extremitez de la ligne sont poincts.
 
-Le poinct Mathematique est le moindre object de l'intellect, ce n'est pas vne grandeur, mais il est commencement de toute grandeur.
+Toute ligne, & toute grandeur, est terminée actuellement, & le Mathematicien ne considere aucune quantité qu'elle ne soit terminée : & quand Euclide parle de la ligne infinie, il entend qu'elle n'est point terminée, & quelle a telle longueur qu'on voudra.
 
-Le poinct conuient auec l'vnité en quelques choses, & differe en d'autres : Car comme l'vnité est le principe & le commencement de tout nombre, ainsi le poinct est le principe de toute grandeur : mais ils different aussi en ce que, l'vnité est partie du nombre; mais le poinct, encore qu'il soit le commencement & la fin de la ligne, il n'est pas neantmoins partie de la ligne. Ils different aussi en ce que l'vnité ne requiert aucune position ny situation au nombre. mais le poinct a sa situation & position en la grandeur.
+IV.
 
-Le poinct a quelque similitude, auec le son en la musique, auec l'instant au temps, & auec le changement de lieu au mouuement.
+La ligne droicte est, celle qui est également estenduë entre ses poincts.
+
+(figure)
+
+Les Mathematiciens considerent trois sortes de lignes, la droite comme AB, la circulaire ou courbe, comme CD, & la mixte, qui est composée de l'vne & de l'autre. Euclide descrit en ce lieu la droite, en laquelle il n'y a rien de courbe, & n'est point plus abaissé

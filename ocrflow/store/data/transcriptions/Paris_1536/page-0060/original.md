@@ -1,35 +1,37 @@
-*[ornamental headpiece]*
+# GEOMET. ELEMENT.
 
-# Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Secundum elementorum Euclidis, Demonstrationes.
+ORONTIVS. ¶ Quanquàm gnomonem propriè intelligamus rectangulum: accipitur tamen ſuprà ſcripta gnomonis diffinitio, pro quacunq; figura ex duobus cuiuſuis oblati parallelogrammi ſupplementis, & altero eorum quæ circa dimetiētem illius ſunt parallelogrammorū comprehenſa. Diximus autem quadrageſimatertia propoſitione primi libri, quænam ſint parallelogramma circa dimetientem alicuius conſiſtentia parallelogrammi: quæ item ſint eorundem parallelogrammorum ſupplementa. ¶ Sit igitur a b c d parallelogrammum, & illius dimetiens a d: circa verò dimetientem conſiſtant g e & f h parallelogramma, atque illorum ſup-
 
-ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΔΕΥΤΕΡΟΝ.
+> Vide 43 primi
 
-Παραλληλόγραμμον ὀρθογώνιον.
+> Gnomonis exemplum.
 
-ΠΑν παραλληλόγραμμον ὀρθογώνιον περιέχεσθαι λέγεται ὑπὸ δύο τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν εὐθειῶν.
+*[diagram: a e b / g h / c f d]*
 
-## Parallelogrammum rectangulum.
+plementa g f & e h. Dico itaque g e parallelogrammū, vnà cum binis ſupplementis g f & e h: gnomonem efficere f g e h, ſeu f a h. Cui ſi addatur f h parallelogrammum: totum integrabitur a b c d. aut ſi eidem f h parallelogrammo, gnomon circumponatur f g e h: nó mutabitur, ſed augmentabitur figura. Eſt autem eiuſcemodi gnomonum tradita deſcriptio, in partium oblatorum
 
-OMne parallelogrammum rectangulum, sub duabus rectum angulum comprehendentibus rectis lineis dicitur contineri.
+> Cur tales aſſumpti gnomones.
 
-> Oẽ quadratum est parallelogrãmum et non contra. *[marginal manuscript note]*
+in demonſtrationibus parallelogrammorum expeditiorem expreſſionem, principaliter excogitata.
 
-ORONTIVS. ¶Parallelogrammum, dicitur figura quadrilatera, ex oppositis lateribus adinuicem æqualibus comprehensa. Sunt autem parallelogrammorũ quatuor tantummodò genera: vtpote, quadratũ, altera parte longius, rhombus, & rhomboides: quemadmodùm trigesimatertia primi libri antè monuimus diffinitione. Vtrunq; porrò & quadratum & altera parte longius, rectangulum adpellatur: cótinetúrq; sub duabus lineis rectis ad rectum conuenientibus angulum , quarum altera in reliquam abstractiuè ducta, ipsum efficit parallelogrammum. ¶Vt ex a/b/c/d/potes elicere parallelogrammo: quod sub a/b/& a/c/lateribus, rectum qui ad a/cónprehendentibus angulum, continetur. Non potest enim angulus qui ad a/fore rectus , quin per vigesimamnonam & trigesimamquartam propositionẽ libri primi, reliqui tres anguli sint itidem recti. Imaginanda est igitur a/b/ recta, fluere directa via in c: & punctũ b/describere latus b/d. vel a/c/rectam, venire recto fluxu in b: atq; punctum c/ efficere latus c/d. Ita enim abstractiuè describuntur parallelogramma rectangula. Ad quorum similitudinem, numerus per alium quenuis munerum multiplicatus, planum atq; rectãgulum efficit numerũ: vti subiecta videtur indicare figura, in qua 6/vnitates per 5/multiplicatæ, reddunt 30/planum & rectangulum numerum.
+Θεώρημα α, Πρόθεσις α.
 
-> Quid parallelogrãmum.
+ΕΑν ὦσι δύο εὐθεῖαι, τμηθῇ δὲ ἡ ἑτέρα αὐτῶν, εἰς ὅσα δηποτοῦν τμήματα, τὸ περιεχόμενον ὀρθογώνιον ὑπὸ τῶν δύο εὐθειῶν ἴσον ἐστὶ τοῖς ὑπό τε τῆς ἀτμήτου καὶ ἑκάστου τῶν τμημάτων περιεχομένοις ὀρθογωνίοις.
 
-> Quot parallelogrammorũ genera.
+## Theorema 1, Propoſitio 1.
 
-> Exemplum.
+SI fuerint binæ rectæ lineæ, ſecetúrq; ipſarum altera in quotcunque ſegmenta: rectangulum comprehenſum ſub duabus rectis lineis, æquum eſt eis quæ ab inſecta & quolibet ſegmento rectangulis comprehenduntur.
 
-> Corrollarium. *[marginal manuscript note, partly illegible: Que sub aqualib. rectis Lineis compre... quadratum rectum ... equalia sunt ad inuicem e contrario.]*
+> Ex hac propoſitione pendet arithmetica ars multiplicationis. *[manuscript note]*
 
-*[diagram: dot array 6 by 5, labelled 5, 6, 30; and rectangle a b c d]*
+> Hic totus 2ᵘˢ liber [?] [?] demonſtrari poteſt [?] Orontius [?] [?] Anno 1542 *[manuscript note]*
 
-Γνώμων τί.
+ORONTIVS. ¶ Sint binæ rectæ lineæ a b & c: quarum altera, vtpote a b, ſecetur in a d, d e, & e b ſegmenta. Aio quòd ſub a b & ipſa c comprehenſum rectāgulum: æquum eſt eis, quæ ſub c & a d, & d e, atque e b comprehenduntur rectangulis. A dato enim puncto a, datæ rectæ lineæ a b, recta quædam, per vndecimā primi libri propoſitionem, ad rectos excitetur angulos, excedens datam lineā c: à qua ſecetur æqualis eidem c, per tertiā eiuſdem primi, ſítq; a f. Per datū inſuper pun-
 
-ΠΑντὸς δὲ παραλληλογράμμου χωρίον τῶν περὶ τὴν διάμετρον αὐτῶν ἓν παραλληλογράμμων ὁποιονοῦν σὺν τοῖς δυσὶ παραπληρώμασι, γνώμων καλείσθω.
+*[diagram: a d e b / f h c k g]*
 
-## Quid gnomon.
+ctum f, ipſi a b parallela ducatur f g: atque per b, d, & e puncta ipſi a f, atque inuicem parallelæ ducantur b g, d h, & e k, per trigeſimamprimā eiuſdē primi. Rectangula igitur ſunt a b f g, a h, d k, & e g parallelográma. Quælibet inſuper & b g & d h & e k, ipſi a f eſt æqualis, per trigeſimamquartā eiuſdē primi. eidē quoq; a f eſt æqualis c. ommes igitur adinuicē, atq; ipſi c ſunt æqua-
 
-OMnis parallelográmi loci eorum quæ circa dimetientẽ illius sunt parallelogrammorum, vnumquodq; eorum cum binis supplementis, gnomon vocetur.
+> Ex hac propoſitione, numerorum ab Arithmeticis tradita colligitur multiplicatio.
+
+les: per primam communem ſententiam. Quod igitur ſub c & a d continetur rectangulum, æquum eſt ipſi a h: & quod ſub c & d e, ipſi d k: atq; id quod ſub eadem c & e b, ipſi e g rectangulo æquale. Ipſis porrò a h, d k, & e g rectangulis, æquum eſt a b f g rectangulum (nempe totum ſuis partibus integralibus ſimul ſumptis) continetúrq; ſub a b & a f, quæ ipſi c data eſt æqualis. Datis igitur binis lineis rectis a b & c, quod ſub eiſdem continetur rectangulum, æquum eſt eis quæ ſub inſecta c, & quolibet ipſius a b ſegmento comprehenduntur rectangulis. Quod oportebat demonſtrare.

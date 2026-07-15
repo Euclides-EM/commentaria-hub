@@ -1,29 +1,27 @@
-# Page 45
+# Page 46
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-(figure)
+hyp. | 16 2|2 16,
+hyp. | 12 3|2 7, *l'excez des adjouſtées eſt 5.*
+15.a.1 | 28 3|2 23, *l'excez des toutes eſt 5.*
 
-*Explication des notes.*
+16. a. 1.
 
-L'angle BAD, plus l'angle ABC, sont plus petits que deux angles droicts, par l'hypothese.
+Si à choses inégales on adjouste choses égales, l'excez des toutes sera égal à l'excez de celles qui estoient au commencement.
 
-Partant les lignes AD & BC ne sont point paralleles entr'elles, ains estant continuées vers D, se rencontreront l'vne l'autre, par le 13. ax. du 1.
+hyp | 18 3|2 12 *l'excez eſt 6.*
+hyp. | 7 2|2 7 *les adiouſtées.*
+16.a.1 | 25 3|2 19 *l'excez des toutes eſt 6.*
 
-14. a. 1.
+17. a. 1.
 
-Deux lignes droictes ne contiennent pas vn espace.
+Si de choses égales on retranche choses inégales, l'excez des restantes sera égal à l'excez des retranchées.
 
-C'est à dire, que deux lignes droites n'enuirõnent pas vn espace.
+hyp. | 16 2|2 16,
+hyp. | 12 3|2 7 *l'excez des retranchées eſt 5.*
+17.a.1 | 4 2|3 9 *l'excez des reſtantes eſt 5.*
 
-14. a. b.
+18. a. 1.
 
-Si vn poinct est en deux lignes droictes, il sera en leur intersection, ou attouchement.
-
-14. a. c.
-
-Si deux poincts sont en vn mesme plan, la ligne droite qui les conjoinct sera aussi au mesme plan : & si vne partie d'vne ligne droicte est en vn plan, toute la ligne sera dans le mesme plan.
-
-15. a. 1.
-
-Si à choses égales on adjouste choses inégales, l'excez des toutes sera égal à l'excez des adjoustées.
+Si de choses inégales on retranche choses égales, l'excez des restantes sera égal à l'excez des toutes.

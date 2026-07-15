@@ -1,31 +1,25 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-**144**
+**145**
 
-sunt minores : & angulus d/e/c/angulo a/c/b/ per hypothesin est æqualis. Ex quo fit, vt anguli a/b/e/ & d/e/b, eisdem angulis a/b/c/ & a/c/ b/ sint æquales : & proinde binis rectis itidem minores.  Et quoniam ex hypothesi angulus d/ c/ e , interiori & opposito ad easdem partes a/b/c/ est æqualis angulo, necnon & a/c/b/ipsi d/e/c/ itidem interiori & opposito æqualis : parallela est igitur c/d/ipsi b/f,& a/c/ipsi f/e,per vigesimamoctauam primi. Parallelogrammum est itaq; a/c/d/f: & proinde a/c/latus opposito f/d/ æquale, similiter & a/f/ipsi c/d,per trigesimamquartā eiusdē primi.His ita constructis,quoniā trianguli b/f/e, ad latus f/e,acta est parallelus a/c:secat igitur a/c,ipsius trianguli latera proportionaliter,per secundā huius sexti,sicut quidem b/a/ad a/f, sic b/c/ad c/e.& æqualis ostensa est a/f,ipsi c/d.æquales autem ad eandem, eandem habent rationē:& eadem ad æquales, per septimā quinti.  Et sicut igitur a/b, ad d/c:sic b/c,ad c/e. Et permutatim insuper,sicut a/b,ad b/c:sic d/c,ad c/e,per decimamsextam eiusdem quinti . Item quoniam ipsius trianguli b/f/e, ad latus b/f, acta est parallelus c/d :secat rursum eadem c/d,eiusdem trianguli latera proportionaliter,per eandem secundam huius sexti,sicut quidē b/c,ad c/e:sic f/d,ad d/e. Ipsi porrò f/ d, ostēsa est æqualis a/c. Et sicut igitur b/c,ad c/e:sic c/a/ ad e/d,per eandē septimā quinti. atq; rursum permutatim,per ipsius quinti decimamsextā,sicut b/c/ ad c/a:sic c/e/ad e/d.Iam itaq; ostēsum est,sicut a/b/ad b/c/sic d/c/ad c/e:sicútq; b/c/ad c/a,sic & c/e/ad e/d.  Sunt igitur tres magnitudines a/b,b/c,& c/a:& aliæ eisdē æquales numero d/c,c/e,& e/d, cū duab⁹ sumptis in eadē ratione.& ex æqua igitur ratione,erit sicut b/a, ad a/c: sic etiā c/d, ad d/e.Aequiangulorū itaq; triangulorū a/b/c/& d/c/e, proportionalia sunt latera quæ circū æquales angulos:& similis sunt rationis quæ æqualibus angulis latera subtenduntur Quod demonstrandum fuerat.
+anguli constituātur,per vigesimamtertiam primi: f/e/g/quidem ipsi a/b/c,& e/f/g/ ipsi a/c/ b.  Et quoniam anguli a/b/c/ & a/c/b, per decimamseptimam ipsius primi, binis rectis sunt minores:& f/ e/ g/ itaque ac e/f/g/ anguli binis itidem rectis minores erunt.Conuenient ergo tandem e/g/& f/g/rectæ lineæ,per quintum postulatum. Conueniant ad punctum g. triangulum erit igitur e/f/g:& reliquus angulus qui ad g,reliquo qui ad a/æqualis,per corollariū trigesimæsecundæ eiusdem primi, vnà cum ipsā tertia communi sententia. Aequiangula sunt itaque a/b/ c/ & e/f/g/ triangula,& proinde latera ipsorum proportionalia, quæ circum æquales angulos: & similis sunt rationis,quæ æqualibus angulis latera subtēduntur,per quartā huius sexti.  Est igitur sicut a/b/ad b/c/sic g/e/ad e/f.sicut porrò a/b/ad b/c, sic est per hypothesin d/e/ ad ipsam e/f. Et sicut igitur d/e/ad e/f,sic g/e/ad eandem e/f, per vndecimam quinti.Quæ autem ad eandem eandē habent rationem,æquales sunt adinuicē,per nonam quinti: æqualis est igitur d/e, ipsi e/ g. Haud dissimiliter ostendemus d/f, ipsi f/g/æqualem.eadem enim e/f/ad vtranque, tum ex hypothesi,tum ex quarta huius sexti,eandem habet rationem:nēpe quam b/c/ad c/a. Ad quas porrò magnitudines, eadem magnitudo eandē habet rationē, ipsæ sunt æquales,per eandem nonam quinti.  Et quoniā æqualis est d/e/ipsi e/g, vtrique autem cómunis e/f:binæ itaq; d/e/& e/f/trianguli d/e/f,duabus f/e/& e/g/ trianguli e/ f/ g/ sunt æquales altera alteri.& basis d/f,basi f/g/ æqualis. Angulus igitur d/e/f, angulo f/e/g/sub æqualibus rectis comprehenso, per octauam primi, est æqualis.  Nec dissimili via demonstrabimus,angulum e/d/f, angulo e/g/f æqualem:atq; e/f/d,ipsi e/f/g.semper enim ipsorum triangulorum bina latera,binis lateribus alterum alteri offendentur æqualia:necnon & basis,basi æqualis.Et cōtentos propterea sub æqualibus lineis rectis angulos,æquales habebunt : per eandē octauam primi.His præostensis,quoniam angulus d/e/f,æqualis est angulo f/e/g: eidē quoq; angulo f/e/g,æquus est per constructionem angulus a/b/c.Duo itaq; anguli a/b/c/& d/e/f,eidem angulo f/e/g/sunt æquales:& proinde æquales adinuicem,per primam communem sententiam.Pari discursu angulus a/c/b,angulo d/f/e:necnon & b/a/c/angulus,ipsi e/d/f/angulo cōcludetur æqualis. Aequiāgula sunt itaq; a/b/c, & d/e/f/ triangula.  Si bina ergo triangula: &c. vt in theoremate. Quod oportuit ostendisse.
 
-> Demōstratio theorematis.
+> Ostēsionis deductio.
 
-*[diagram: f a d b c e]*
+*[diagram: d/e. e/f |a/b. b/c | g/e. e/f.]*
 
-*[diagram: a/b. d/c. b/c. c/e.]*
+> Resolutio theorematis.
 
-*[diagram: b/c. c/e. c/a. e/d.]*
+Θεώρημα ς, Πρόθεσις ς.
 
-*[diagram: a/b,b/c,c/a. d/c,c/e,e/d.]*
+Ἐὰμ δύο τρίγωνα μίαμ γωνίαμ μιᾷ γωνίᾳ ἴσηυ ἔχῃ, περὶ δὲ τὰς ἴσας γωνίας τὰς πλευρὰς ἀνάλογομ:ἰσογώνια ἔσαι τὰ τρίγωνα,& ἴσας ἕξει τὰς γωνίας, ὑφ᾽ ἃς αἱ ὁμόλογοι πλευραὶ ὑποτείνουσιμ.
 
-Θεώρημα ε, Πρόθεσις ε.
+## Theorema 6, Propositio 6.
 
-Ἐὰμ δύο τρίγωνα τὰς πλευρὰς ἀνάλογομ ἔχῃ,ἰσογώνια ἔσαι τὰ τρίγωνα,καὶ ἴσας ἕξει τὰς γωνίας ὑφ᾽ ἃς αἱ ὁμόλογοι πλευραὶ ὑποτείνουσιμ.
+SI bina triangula vnum angulum vni angulo æqualem habuerint, & circum æquales angulos latera proportionalia: æquiangula erunt triangula, & æquales habebunt angulos,sub quibus eiusdem rationis latera subtenduntur.
 
-## Theorema 5, Propositio 5.
+ORONTIVS.¶Sint rursum bina triangula a/b/c/& d/e/f,habētia vnum angulum vni angulo æqualem,vtpote eum qui ad b/ei qui ad e:atque circum eosdem æquales angulos latera proportionalia,sicut a/b/ad b/c,sic d/e/ad e/f.Dico ipsa triāgula a/b/c/& d/e/f,fore æquiangula: & angulum b/a/c/ angulo e/d/f,atq; a/c/b, ipsi d/f/e/ respondenter coæquari.  Ad datam enim rectam lineam d/e, datúmq; illius punctum e,vtriq; æqualium qui ad b/& e/sunt angulorū,æqualis angulus constituatur d/e/g,per vigesimamtertiā primi:& per eandem,ad punctū d,ipsi angulo b/a/c/
 
-SI duo triangula,latera proportionalia habuerint:æquiangula erunt triangula,& æquales habebunt angulos sub quibus eiusdem rationis latera subtenduntur.
+> Figuræ compositio.
 
-ORONTIVS. ¶Hæc est conuersa præcedentis: quæ non potuit eadem figura,vel deductione(quemadmodùm secunda & tertia obseruauimus propositione) demonstrari.  Sint igitur bina triangula a/b/c/& d/e/f, habentia latera proportionalia:sicut quidem a/b,ad b/c,sic d/e/ad e/f,sicútq; b/c/ad c/a,sic e/f/ ad f/d.Aio triangula ipsa a/b/c/& d/e/f, fore æquiangula : & æquales angulos comprehendere , sub quibus eiusdem rationis latera subtenduntur : vtpote, angulum a/b/c,æquum fore angulo d/e/ f, & angulum b/c/a/angulo e/f/d, atque angulum b/a/c/angulo e/d/f.
-
-Ad datam enim rectam lineam e/f,& data illius puncta e/& f,datis angulis rectilineis a/b/c/& a/c/b,æquales
-
-> Cōstructio figuræ.
-
-*[diagram: a b c | d e f g]*
+n.j.

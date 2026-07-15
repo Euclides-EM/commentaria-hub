@@ -1,21 +1,23 @@
-# Page 24
+# Page 25
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-XVII.
-
-Le diametre du cercle est vne ligne droicte menée par le centre, & terminée de part & d'autre à la circonference du cercle, laquelle diuise le cercle en deux également.
+Toutes les figures planes encloses de tous costez de lignes droites, sont appellées figures Rectilignes, & aussi Polygones : d'où il appert que les figures planes enuironnées des lignes courbes sont appellées Curuilignes : mais celles qui sont circonscrites en partie de lignes droites, & en partie de courbes, sont appellées Mixtes.
 
 (figure)
 
-ABCD est vn cercle. / E est le centre du cercle. / AC est le diametre du cercle.
+Comme la figure A est rectiligne : B, curuiligne : & C est mixte.
 
-XVIII.
+XX.
 
-Le demy-cercle est vne figure, contenuë sous le diametre, & sous la ligne retranchée de la circonference du cercle, comme ABC.
+Figures Trilateres sont, celles qui sont contenuës sous trois costez.
 
-(figure)
+XXI.
 
-XIX.
+Les figures Quadrilateres sont, celles qui sont contenuës sous quatre costez.
 
-Figures rectilignes sont celles qui sont contenuës sous des lignes droictes.
+XXII.
+
+Les figures Multilateres, ou de plusieurs costez, sont celles qui sont contenuës sous plus de quatre lignes droites.
+
+Les especes des figures rectilignes sont innumerables, à cause du progrez infiny des nombres : car trois lignes droites enuironnant vne figure, constituent la premiere espece : quatre lignes droites, la seconde espece : cinq lignes droites, la troisiesme espece, & ainsi de suite à l'infiny. Or Euclide afin de n'estre contraint de

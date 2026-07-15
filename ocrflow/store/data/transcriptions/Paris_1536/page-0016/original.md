@@ -1,53 +1,9 @@
-# INDEX OPERVM, AB ORONTIO FINEO Delphinate, Regio Mathematicarum professore, in gratiam studiosorum omnium hactenus conscriptorum.
+# ¶ Coppie du priuilege de ce present liure, & aultres oeuures contenues en icelluy.
 
-## ¶ Quæ ab eo ædita & iam impressa sunt.
+**Francoys** Par la grace de Dieu Roy de France, au preuost de Paris, Bailly de Rouen, Seneschal de Lyon. Et a tous noz aultes iusticiers, officiers, ou a leurs lieuxtenãs quil appartiẽdra, salut. Nostre cher & bien ame maistre Oronce Fine, lecteur ordinaire de par nous es sciẽces Mathematicques, en nostre ville & vniuersite dudict Paris: Nous a faict entẽdre, que auec grãt peine & labeur, Il a faict & cõpille plusieurs liures & cartes, intitulez ainsi ql sensuit, assauoir. Les cõmẽtaires sur les six premiers, & dixiesme liures de Euclide: & sur la perspectiue dicelluy. Trois liures, touchãt lart de scauoir mesurer toutes lõgueurs, plates formes, & corps solides. Cinq liures, sur la Cosmographie ou Sphere du Mõde, concernans la premiere & principalle partie Dastronomie. Vng Astrolabe nouueau, auec le liure de la declaration dicelluy. Vng quadrant representãt ledit Astrolabe, auec sa declaratiõ, tant en Latin que en langaige Frãcoys. Vne oeuure tresutile sur la theoricque des Planettes, auec les tables & instrumens a ce requis. Vng Aequatoire, pour scauoir le cours & mouuement desdictz Planettes: auec vng Directoire. Le tout nouuellement excogite, par ledict Oronce: & les liures declaratifz diceulx. Vng almanach a plusieurs annees, fort vtile. Plus oultre lesdictz liures, a redigez en forme de deux grãs rondeaulx hemisphericques, la description geographicque de tout le Mõde. Aussi la descriptiõ & Carte de Europe, le plus au vray distincte quil luy a este possible. En tous lesquelz liures & cartes susdictes, sont contenues plusieurs bonnes oeuures de tresgrant prouffit & vtilite: a linstruction, edification, & recreation des bons esperitz, qui se vouldront applicquer a les veoir & entẽdre. Nous suppliant & requerant, que a ceste cause luy vueillons permettre la publication desdictz liures & cartes, par nostre Royaulme. ¶ Pource est il, que nous ce considere, desirans fauoriser & gratiffier au labeur dudict Oronce Fine. A icelluy auõs permis & octroye, permectons & octroyõs, voulons, & nous plaist: Que par tel ou telz des imprimeurs iurez de nostredict Royaulme que bõ luy semblera, il puisse & luy loise faire imprimer lesdictz liures & cartes des intitulations dessusdictes. En deffendãt tresexpressemẽt a tous aultres libraires & imprimeurs de noz villes & vniuersitez quelz quilz soient, sinon celluy ou celux qui en auront charge de par luy. Que durãt le tẽps & terme de dix ans prochain venãs, Ilz nayẽt a imprimer ou faire imprimer, vendre ne lucider lesdictz liures & cartes susdictes, sur peine damende arbitraire & de cõfiscation diceulx liures & cartes. Si voulons, vous mandons, & a chascun de vous en droict soy & si comme a luy appartiendra, Que de noz present grace conge permission & octroy, vous faictes souffrez & laissez ledict Oronce Fine, iouyr & vser, Et icelles nosdictes deffenses entretenir, garder, & obseruer de poinct en poinct, selon & ainsi que dict est cy dessus. Cessans tous aultres empeschemens au contraire. Car tel est nostre plaisir. Donne a Valence, le cinquiesme iour de Septembre, Lan de grace mil cinq cens trente six. Et de nostre regne le vingtdeuxiesme. Ainsi signe
 
-¶ Protomathesis, ingens volumen: in quo hæc continentur.
+Par le Roy, monseigneur le Cardinal de Lorraine, & aultres presens.
 
-De Arithmetica practica, libri quatuor: his qui ad mathematicam adspirant philosophiam haud parum conducentes.
+Preudomme.
 
-De Geometria libri duo: vbi de longitudinũ, planorum, & solidorũ dimensionibus.
-
-De Mundi sphæra, siue Cosmographia, primáve Astronomiæ parte, libri quinque: proprijs eiusdem Orontij commentarijs elucidati.
-
-De Quadrantibus & solaribus horologijs, libri quatuor: in quibus præter aliorum emendatas inuentiones, plurima suo excogitauit ingenio scitu dignissima, à Mustero quodam statim inciuiliter vsurpata.
-
-¶ Arithmeticæ practicæ æditio secunda, ab ipso authore castigata, aucta, & recognita, & in suum candorem restituta, ac seorsum impressa.
-
-Quadrans vniuersalis astrolabicus, omnibus Europæ regionibus inseruiẽs, eiusdem & amplioris cum ipso Astrolabio commoditatis.
-
-Commentaria, siue demonstrationes in sex priores libros elementorum Euclidis, præsenti contenta volumine.
-
-Aequatorium Planetarũ, instrumento quadrangulari & altera parte longiori comprehensum.
-
-¶ Almanach cõiunctionum & oppositionum Luminarium, cum ijs quæ ad ecclesiasticum pertinent computum: xxxv. annis inseruiens.
-
-Aliud item almanach vniuersale, vtilissimis refertum cõmoditatibus: ad plures annos inuiolabile, & tam latinè quàm gallicè conscriptum.
-
-¶ Charta siue Chorographia Galliarum, elegantissimè depicta.
-
-Vniuersi orbis descriptio, gemina cordis humani figura, & vnico papiri folio comprehensa.
-
-Eadem orbis designatio, ampliore & vnica humani itidem cordis effigie coextensa.
-
-Viaticum diui Pauli: siue terrarum ad sacræ scripturæ intelligentiam necessariarũ Chorographiam primus ædidit.
-
-Nunc verò promissa Terræ sanctæ Chorographia, ad verum (quoad fieri potuit) descripta sculpitur: & propediem emittetur.
-
-Aedidit & alia quàmplurima minutiora opuscula (etiam gallica) quæ longum esset recensere. Singula quoq; figuris elegãtissimis, propria manu depictis, illustrauit.
-
-## ¶ Aliena per eundem Orontium emendata.
-
-Compendium sphæræ Ioannis à Sacrobo. annotationibus & figuris ornauit.
-
-Theoricas planetarum Georgij Purbachij, scholijs, ac figuris non aspernandis clariores reddidit.
-
-Arithmeticen Ioannis Martini Blasij, primus in suam redegit harmoniam, & figuras admodùm necessarias cum numeris adiunxit.
-
-Margaritam insuper philosophicum F. Gregorij Resch. Cartusiani, suæ integritati restituit: & non aspernandis illustrauit appendicibus.
-
-Emendauit & varios sub prælo authores: quos data prætermittimus opera.
-
-## ¶ Quę nũc autẽ ipse moliatur Orontius, sequẽti disces priuilegio.
-
-Proximo disticho, corrige. & non legis ista libenter.
+Et seelle a simple queue de cire Iaulne.

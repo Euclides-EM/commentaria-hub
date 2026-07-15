@@ -1,56 +1,40 @@
-# Page 243
+# Page 244
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-*Hypoth.*
+THEOR. XXIV. PROPOS. XXIV.
 
-a π b 2|2 g π h, α
-b π c 2|2 f π g, α
-c π d 2|2 e π f.
-
-*Req. à demonſtr.*
-
-a π d 2|2 e π h.
-
-*Demonſtr.*
-
-α.23.5 | a π c 2|2 f π h, β
-hyp. | c π d 2|2 e π f,
-concl. β.23.5 | a π d 2|2 e π h.
-
-SCHOLIE II.
-
-Il est manifeste de la 22. & 23. que les raisons composées de mesmes raisons, sont de mesme ou égales entr'elles.
-
-SCHOL. III.
-
-Des raisons égales les mesmes parties sont égales entr'elles.
+Si la premiere a mesme raison à la seconde que la troisiesme à la quatriesme, & que la cinquiesme ait aussi mesme raison à la seconde, que la sixiesme à la quatriesme: Aussi la composée de la premiere & de la cinquiesme aura mesme raison à la seconde, que la composée de la troisiesme & de la sixiesme à la quatriesme.
 
 (figure)
 
 *Hypoth.*
 
-a π bh 2|2 bh π c,
-d π e 2|2 e π f,
-a π c 2|2 d π f.
+ab π c 2|2 de π f,
+bg π c 2|2 eh π f. α
 
-*Requis à demonſtr.*
+*Req. à demonſtr.*
 
-a π bh 2|2 d π e.
+ag π c 2|2 dh π f.
 
 *Demonſtr.*
 
-ſuppoſ. | a π bl 2|2 d π e, α
-hyp. | a π c 2|2 d π f,
-c.4.5 | c π a 2|2 f π d,
-α.22.5 | c π bl 2|2 f π e,
-c.4.5 | bl π c 2|2 e π f,
-hyp. | d π e 2|2 e π f,
-11.5 | bl π c 2|2 d π e,
-α.11.5 | a π bl 2|2 bl π c, β
-hyp. | a π bh 2|2 bh π c, γ
-8.5 | a π bl 3|2 a π bh,
-βγ13.5 | bl π c 3|2 bh π c, δ
-δ.10.5 | bl 3|2 bh,
-| *contr. 9.a.1.*
-concl. 21.a.1 | a π bh 2|2 d π e.
+hyp. | ab π c 2|2 de π f,
+α.c.4.5 | c π bg 2|2 f π eh,
+22.5 | ab π bg 2|2 de π eh,
+18.5 | ag π bg 2|2 dh π eh,
+hyp. | bg π c 2|2 eh π f,
+concl. 22.5 | ag π c 2|2 dh π f.
+
+SCHOLIE.
+
+Si deux grandeurs ont mesme proportion à deux autres grandeurs, & d'icelles on retranche des grandeurs, qui ayent mesme proportion aux mesmes grandeurs, les restantes auront aussi mesme proportion à icelles.
+
+*Hypoth.*
+
+ag π c 2|2 dh π f,
+ab π c 2|2 de π f. α
+
+*Req. à demonſtr.*
+
+bg π c 2|2 eh π f.

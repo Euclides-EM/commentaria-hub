@@ -1,43 +1,58 @@
-# Page 156
+# Page 157
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-(figure)
+*Hypoth.*
 
-*Hypotheſe.*
-
-dabc *eſt* ⊙.
+edac *eſt* ⊙.
 
 *Req. à demonſtr.*
 
-∠bdc 2|2 2∠bac.
+∠dac 2|2 ∠dbc.
+
+*Prepar. du 1.cas.*
+
+1.p.1 | ed & ec *ſnt* ——.
+
+*Demonſtr.*
+
+20.1 | ∠dac 2|2 ½∠dec,
+20.1 | ∠dbc 2|2 ½∠dec,
+1.concl. 7.a.1 | ∠dac 2|2 ∠dbc. α
+
+*Prepar.du 2.cas.*
+
+1.p.1 | ab *eſt* ——.
+
+*Demonſtr.*
+
+d.α | ∠adb 2|2 ∠acb,
+15.1 | ∠afd 2|2 ∠bfc,
+2 concl. 1 c.32.1 | ∠dac 2|2 ∠dbc.
+
+THEOR. XX. PROPOS. XXII.
+
+Les figures de quatre costez inscrites au cercle, ont les angles opposez égaux à deux angles droits.
+
+(figure)
+
+*Hypoth.*
+
+abcd *eſt* ⊙,
+abcd *eſt* 4∠.
+
+*Req. à demonſtrer.*
+
+∠adc + ∠abc 2|2 2┘,
+∠dab + ∠dcb 2|2 2┘.
 
 *Preparation.*
 
-2.p.1 | ade *eſt* ——.
+1.p.1 | ac & bd *ſnt* ——.
 
-*Demonſtr.du 1.cas.*
+*Demonſtration.*
 
-32.1 | ∠bde 2|2 ∠dab / + ∠dba,
-5.1 | ∠dab 2|2 dba,
-1.a.f | ∠bde 2|2 2∠dab. α
-d.α | ∠edc 2|2 2∠dac,
-concl. 20.a.b | ∠bdc 2|2 2∠bac.
+*au* △abc,
 
-*Demonſtr.du 2.cas.*
-
-32.1 | ∠bdc 2|2 ∠a + ∠c,
-5.1 | ∠a 2|2 ∠c,
-concl. 1.a.f | ∠bdc 2|2 2∠bac. β
-
-*Demonſtr.du 3.cas.*
-
-d.β | ∠edc 2|2 2∠dac,
-d.β | ∠edb 2|2 2∠dab,
-concl. 20.a.1 | ∠bdc 2|2 2∠bac.
-
-THEOR. XIX. PROPOS. XXI.
-
-Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.
-
-(figure)
+32.1 | ∠abc + ∠bac + ∠bca 2|2 2┘,
+21.3 | ∠bac 2|2 ∠bdc, ∠bca 2|2 ∠bda,

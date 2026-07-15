@@ -1,45 +1,27 @@
-# Page 141
+# Page 142
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
+
+qui tombent en la circonference concaue; la plus grande est celle qui passe par le centre; mais des autres, tousiours la plus proche de celle qui passe par le centre, sera plus grande que celle qui en est plus esloignée : mais de celles qui tombent à la circonference conuexe, la plus petite est celle qui est comprise entre le poinct & le diametre ; & des autres, celle-là laquelle est plus proche de la plus petite est tousiours moindre, que celle qui en est plus esloignée; & de ce poinct, seront menées au cercle tant seulement deux lignes droictes égales entr'elles de part & d'autre, de la plus petite, ou de la plus grande.
 
 (figure)
 
-*Prepar.*
+*Hypoth.*
 
-g *eſt* • *arbitr. en* fb,
-1.p.1 | gc, gd, ge *ſnt* ——,
-1.p.1 | fc, fd, fe *ſnt* ——,
-23.1 | ∠gfh 2|2 ∠gfe,
-1.p.1 | gh *eſt* ——.
+kbfh *eſt* ⊙,
+•a *eſt hors le* ⊙.
 
-*Req. à demonſtr.*
+*Preparation.*
 
-ga 3|2 gc,
-gc 3|2 gd,
-ge 3|2 gb,
-gh, ge, gd n̄ *ſnt* 2|2 đe.
+1.p.1 | aki, ah, ag, af *ſnt* ——,
+1.p.1 | kh, kg, kf / kc, kd, ke *ſnt* ——,
+23.1 | ∠akl 2|2 ∠akc.
 
-*Demonſtr.*
+*Req. à demonſtrer.*
 
-15.d.1 | fa 2|2 fc,
-gf *commun. add.*
-1.a.1 | ga 2|2 gf + fc,
-20.1 | gf + fc 3|2 gc,
-1.concl. 1.a.e | ga 3|2 gc,
-9.a.1 | ∠gfc 3|2 ∠gfd,
-2 concl. 24.1 | gc 3|2 gd.
-9.a.1 | ∠gfd 3|2 ∠gfe,
-3.concl. 24.1 | gd 3|2 ge. α
-15.d.1 | fe 2|2 fb,
-20.1 | fg + ge 3|2 fe,
-1.a.c | fg + ge 3|2 fb,
-fg *commun. ſubtr.*
-4 concl. 5.a.1 | ge 3|2 gb,
-conſtr. | ∠gfh 2|2 ∠gfe,
-4.1 | gh 2|2 ge,
-α | gd 3|2 ge. β
-5.concl. β | gh, ge, gd n̄ *ſnt* 2|2 đe.
-
-THEOR. VII. PROPOS. VIII.
-
-Si hors le cercle on prend quelque poinct, & d'iceluy poinct on mene quelques lignes droictes au cercle, l'vne desquelles passe par le centre, & les autres où l'on voudra : de toutes les lignes droictes
+ai 3|2 ah,
+ah 3|2 ag,
+ag 3|2 af,
+ab 2|3 ac,
+ad 2|3 ae,
+al, ac, ad n̄ *ſnt* 2|2 đe.

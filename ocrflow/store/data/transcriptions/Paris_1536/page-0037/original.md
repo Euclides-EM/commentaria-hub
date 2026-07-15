@@ -1,33 +1,27 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-b,duæ rectæ lineæ b/c, & b/d, altera quidem ad læuam c, reliqua verò ad dextram parté d/conueniétes,angulos efficiant a/b/c/& a/b/d, aut rectos,aut duobus rectis æquales. Aio propterea,rectam lineam b/d,in directum ipsius b/c/fore cóstitutam, hoc est, vnam eandémq; rectam efficere lineá. Nam si recta b/d,non fuerit in directum ipsius b/c/constituta:producta b/c/in continuú rectúmq;,ab ipso b/versus e, per secundum postulatum,non cadet ipsa b/e/cum b/d. Cadat ergo(si possibile sit) inter a/b/& b/d. Recta igitur a/b,incideret super rectam c/e/ad angulos a/b/c/& a/b/e,aut rectos, vel duobus rectis æquales,per decimãtertiam propositioné.Atqui duo anguli a/b/c/ & a/b/d/ aut recti sunt,aut binis itidem rectis æquales,per hypothesin.Anguli itaq; a/b/c/& a/b/d,angulis a/b/c/& a/b/e, forent per primam communé sententiã æquales.Dempto igitur communi angulo a/b/c:reliquus a/b/d/ reliquo a/b/e,per tertiam communem sententiam æquaretur,maior minori,hoc est,totú suæ parti:quod per nonam communem sententiam est impossibile.Idem quoq; deducetur inconueniens,si producta b/e,detur incidere sub ipsa b/d.In directum est igitur b/d/ipsi b/c.quod demonstrandum fuerat.Si ad aliquã igitur rectam lineam, atq; ad eius púctum duæ rectæ lineæ,&c.vt in theoremate.
+producatur in directum ad punctum vsq; d, per secundum postulatum. Aio itaq; primùm,exteriorem angulum a/c/d,maiorem esse intrinseco & ex opposito b/a/c. Secetur enim a/c/bifariam in púcto e,per decimam propositionem:& connectatur b/e/recta,per primú postulatum.quæ per secundum postulatum, extendatur in directum versus f:seceturq́; recta e/f/æqualis ipsi b/e, per tertiã propositionem.tandem connectatur recta c/f,per idem primú postulatum. Cùm igitur a/e/sit æqualis e/c,& b/e/ipsi e/f/itidem æqualis,per constructionem:binæ itaq; a/e/& e/b/trianguli a/e/b,duabus c/e/& e/f/trianguli c/e/f, sunt altera alteri æquales.& æquos adinuicé efficiunt angulos a/e/b/& c/e/f, per decimamquintam propositionem,nempe qui circa e/verticem. Basis igitur a/b,basi c/f/est æqualis:& triangulum a/e/b, æquale triangulo c/e/f,atque reliquus angulus b/a/e,reliquo e/c/f/æqualis, per quartã propositionem.Angulus porrò a/c/d,maior est angulo a/c/f,per nonam communem sentétiam:quapropter & ipso b/a/c/angulo maior.æquales enim anguli,eiusdem sunt æquè minores.
 
-> Demóstratio ab impossibili
+> Prima demonstratióis pars.
 
-*[diagram: a c b e d]*
+*[diagram: a f e b g c d h k]*
 
-Θεώρημα η, Πρόθεσις ιε.
+> Secunda pars
 
-Ἐὰν δύο εὐθεῖαι τέμνωσιν ἀλλήλας, τὰς κατὰ κορυφὴν γωνίας ἴσας ἀλλήλαις ποιήσουσιν.
+¶Dico insuper,quòd idem angulus a/c/d,maior est a/b/c/angulo. Diuisa nanq; b/c/ bifariam in puncto g,& connexa a/g/ recta,productáq; ipsi a/g/æquali g/h,connexa item c/h,atq; tandem producta a/c/ in k,per nunc expressa postulata,citatásq; propositiones:haud dissimili discursu colligemus, angulum a/b/g,æquum esse angulo g/c/h. Et quoniam angulus b/c/k,angulo b/c/h/maior est, per nonã communem sententiã:erit & idem angulus b/c/k/ ipso a/b/c/angulo maior.Aequus est autem a/c/d/angulus ipsi b/c/k,per decimamquintam propositioné:& angulus igitur a/c/d/eodé angulo a/b/c/maior est.Omnis itaq; trianguli vno latere producto, exterior angulus vtrisq; interioribus & ex opposito maior est.Quod erat demonstrandum.
 
-## Theorema 8, Propositio 15.
+Θεώρημα ι, Πρόθεσις ιζ.
 
-SI duæ rectæ lineæ se adinuicé secuerint:angulos qui circa verticem sunt æquos adinuicem efficient.
+Παντὸς τριγώνου αἱ δύο γωνίαι,δύο ὀρθῶν ἐλάσσονές εἰσι, πάντη μεταλαμβανόμεναι.
 
-ORONTIVS.¶Secent se adinuicem binæ rectæ lineæ a/b,& c/d,in púcto quidem e:dico quòd angulus a/e/c, æquus est angulo b/e/d,circa e/verticem posito.Incidit enim recta c/e /in rectam a/b,efficiens angulos a/e/c/& c/e/b/duobus rectis æquales : per decimamtertiam propositionem.Recta insuper b/e/ incidens super rectam c/d,facit angulos c/e/b/& b/e/d/binis itidem rectis æquales:per eãdem decimamtertiam propositioné. Anguli porrò qui eisdem,vtpote binis rectis æquantur: & hi quoq; sunt adinuicem æquales, per primã communem sententiam.Et duo igitur anguli a/e/c/& c/e/b,duobus angulis c/e/b/& b/e/d/ sunt æquales. Dempto itaque communi c/e/b:reliquus a/e/c/reliquo b/e/d,per tertiam communem sentétiam est æqualis.Simili discursu monstrabitur,q̃ anguli a/e/d/& c/e/b/sunt æquales adinuicem. Si duæ igitur rectæ lineæ se adinuicem secuerint,angulos qui circa verticem sunt, æquos adinuicem efficient.Quod oportebat ostendere.
+## Theorema 10, Propositio 17.
 
-*[diagram: c b e a d]*
+OMnis trianguli,duo anguli duobus rectis sunt minores,omnifariam sumpti.
 
-## Corollarium.
+ORONTIVS. ¶Sit triangulum a/b/c. Dico in primis,duos angulos a/b/c/& a/c/b,duobus rectis esse minores. Producatur enim b/c/ latus in directum vsq; ad punctum d:per secundum postulatum. Exterior igitur angulus a/c/d,maior est interiore & ex opposito a/b/c,per decimamsextam propositionem.Addatur vtrique eorundem angulorum,communis a/c/b. Duo igitur anguli a/b/c/& a/c/ b, duobus angulis a/c/b/ & a/c/d/ sunt minores , per quartam communem sententiam. Anguli porrò a/c/b/& a/c/d,duobus rectis sunt æquales,per decimamtertiam propositioné.Et duo igitur anguli a/b/c/ & a/c/b,eisdem binis rectis sunt minores:ijdem nanq;anguli,æqualium angulorú æquè minores existunt. ¶Nec dissimili via, anguli b/a/c/ & a/c/b,duobus itidem rectis ostendentur esse minores:necnon a/b/c/ & c/a/b/anguli,producto a/b/vel a/c/latere.Omnis itaq; trianguli,duo anguli duobus rectis sunt minores,omnifariam sumpti.Quod expediebat demonstrare.
 
-¶Hinc manifestum est,quotlibet rectas lineas in eodem púcto sese adinuicem intersecantes,angulos efficere quatuor rectis æquales.
+> Pręcipua ostésionis pars.
 
-Θεώρημα θ, Πρόθεσις ις.
+*[diagram: a b c d]*
 
-Παντὸς τριγώνου μιᾶς τῶν πλευρῶν ἐκβληθείσης,ἡ ἐκτὸς γωνία, ἑκατέρας τῶν ἐντὸς καὶ ἀπ' ἐναντίον μείζων ἐστί.
-
-## Theorema 9, Propositio 16.
-
-OMnis triáguli vno latere producto,exterior angulus vtrisq; interioribus & ex opposito maior est.
-
-ORONTIVS. ¶Esto datum a/b/c/triágulum,cuius vnum latus,vtpote b/c,
+> De cęteris angulorum combinationibus.

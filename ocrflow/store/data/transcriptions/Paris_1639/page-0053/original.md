@@ -1,25 +1,19 @@
-# Page 52
+# Page 53
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-autres angles soustendans iceux costez égaux, seront égaux aux autres angles chacun au sien.
+SCHOLIE.
 
-(figure)
+Quelques Interpretes (entre lesquels est Pelletier) estiment, que cette demonstration & autres, qui se font par la congruence, sont mechaniques : Mais on leur respond, que si on appliquoit reellement des triangles, ou autres quantitez materielles, l'vne contre l'autre, pour iuger à la veuë si elles conuiennent, ou non, la demonstration seroit mechanique : Mais en cette demonstration, les triangles ne s'appliquent pas l'vn contre l'autre, que par imagination : & par consequent, puis que l'intellect seul est iuge de leur congruence, & que la veuë n'y sert de rien, la demonstration est geometrique. En quoy nous noterons, que toute consequence necessaire se peut prendre pour demonstration geometrique : Et qu'vne consequence est necessaire, quand il n'y a point d'erreur ny aux principes, ny au raisonnement, l'erreur duquel est nommé par les Grecs, Parallogisme : Que si les principes sont seulement vray-semblables, la consequence ne pourra estre necessaire, veu qu'il n'y peut auoir plus de certitude en la consequence, qu'aux principes, d'où elle depend.
+
+THEOR. II. PROPOS. V.
+
+Des triangles isosceles, les angles qui sont à la base, sont égaux entr'eux : Et les lignes droictes égales estans prolongées, les angles qui sont sous la base, seront égaux entr'eux.
+
+Les demonstrations de ceste proposition, & des deux suiuantes, sont des plus difficiles, pour ceux qui commencent : Mais si pour la premiere fois on se contente d'apprendre seulement le sens, on pourra entendre facilement les demonstrations, apres qu'on aura appris celles des autres propositions du premier liure.
 
 *Hypoth.*
 
-*aux* △;abc & def,
-ab 2|2 de,
-ac 2|2 df,
-∠bac 2|2 ∠edf.
-
-*Requis à demonſtrer.*
-
-bc 2|2 ef,
-△abc 2|2 △def,
-∠b 2|2 ∠e,
-∠c 2|2 ∠f.
-
-*Demonſtration.*
-
-Car si on suppose que le poinct A soit mis sur le poinct D, & la ligne AB sur la ligne DE, le poinct B tombera sur le poinct E : Car si suiuant cette supposition, le poinct B ne tomboit sur le poinct E, il seroit manifeste par le 9. ax. du 1. que le costé AB ne seroit pas égal au costé DE, mais par l'hypothese il est égal ; il est donc necessaire que le poinct B tombe sur le poinct E. Par la mesme methode on demonstrera que AC tombera sur DF, & le poinct C sur le poinct F : Car il seroit euident par le 9. ax. du 1. que si AC ne tomboit sur DF, que l'angle A ne seroit égal à l'angle D : & si C ne tomboit en F, le costé AC ne seroit égal au costé DF : ce qu'estant, contre l'hypothese, il est necessaire, que AC tombe sur DF, & le poinct C sur F. Ayant ainsi demonstré que AB & AC conuiennent, & peuuent estre en mesme lieu que DE & DF, il sera manifeste par le 14. ax. du 1. que la base BC conuiendra aussi auec la base EF, & par consequent le triangle ABC conuiendra auec le triangle DEF, & par le 8. ax. du 1. la base BC sera égale à la base EF : & le triangle ABC au triangle DEF : l'angle B à l'angle E : & l'angle C à l'angle F : ce qu'il falloit demonstrer.
+*au* △abc
+ab 2|2 ac,
+abd & ace *ſnt* ——.

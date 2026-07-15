@@ -1,39 +1,32 @@
-# Page 326
+# Page 327
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-*Exemple 5.*
+1200 *lt.* —— 35000 —— 1 R. 29 1/6.
 
-A 4 liures 15 sols & 8 deniers les 7 aulnes, sçauoir combien vaudront les 5 aulnes ?
+35000/1200 [29 1/6.
 
-7 *aulnes* —— 4 *lt.* 15 ſ. 8 *d.* —— 5 *auln.* R. 3 *lt.* 8. ſ. 4 *d.*
+faisant la regle de trois à l'ordinaire, on trouuera qu'vne liure est gagnée par an de 29 1/6 liures, & par consequent, le reuenu de la maison est au denier 29 1/6.
 
-5
+*Exemple 7.*
+
+Pour constituer vne rente de 450 liures par an, sçauoir combien il faut d'argent ?
+
+Ordonnant la regle ainsi, si vne liure est gagnée de 18 liures, de combien seront gagnées 450 liures :
+
+1 —— 18 —— 450 —— R. 8100.
+
+1 8
 ——
-20 lt. 75 ſ. 40 d.
-120 ſ. 72 d.
+3 6 0 0
+4 5 0
 ——
-195 ſ. 112 d.
+8 1 0 0
 
-6
-2 0
-——
-7 [2 lt.
+on trouuera qu'il faut 8100 liures pour gagner 450 liures par an au denier 18.
 
-6
-1 9 5
-——
-7 7 (27 ſ.
+*Exemple 8.*
 
-4
-1 1 2
-——
-7 7 (16 d.
+Sçauoir combien on doit prester au denier 16, sur vne promesse de 1000 liures payable dans vn an ?
 
-Ayant disposé les trois nombres ainsi, ie multiplie 4 lt. 15 ſ. 8 d. separément par le troisiesme nombre 5, & vient au produict 20 lt. 75 ſ. 40 d. Puis par le premier nombre 7 ie diuise premierement les 20 lt. & trouue 2 lt. & reste 6 lt. que ie reduits en sols, en multipliant par 20 ſ. & trouue 120 ſ. que i'adiouste auec 75 ſ. la somme est 195 ſ. que ie diuise par 7, le quotient est 27 ſ. & reste 6 ſ. qui font 72 deniers, que i'adiouste auec 40 d. la somme est 112 d. que ie diuise par 7, & vient au quotient 16 d. Partant ie conclus que les 5 aulnes vaudront 2 lt. 27 ſ. 16 d. qui font 3 lt. 8 ſ. 4 d.
-
-*Exemple 6.*
-
-Si on veut vendre 35000 liures vne maison qui vaut 1200 liures par an, sçauoir à quel denier est sa vente ?
-
-Pour auoir le requis, on dira si 1200 lt. sont gagnées par 35000 liures, de combien sera gagnée vne liure :
+A cause qu'il n'est pas permis de prester à interest, & que celuy qui preste 1000 l. pour vn an, par exemple, ne peut demãder au bout de l'an que les 1000 liu. qui sont compris dans la promesse, il faut que la somme prestée

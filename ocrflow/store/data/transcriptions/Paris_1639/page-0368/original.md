@@ -1,18 +1,11 @@
-# Page 367
+# Page 368
 
 # TRIGONOMETRIE.
 
-l'angle A donne 40 toises pour son costé opposé BC, combien donnera le sinus de l'angle C pour son costé opposé AB. Et de mesme, pour auoir le costé AC, on dira, si le sinus de l'angle A donne 40 toises pour son costé opposé BC, combien donnera le sinus de l'angle B pour son costé opposé AC Tellement qu'en cette regle, que ie nomme des opposez, le premier & second nombre de la regle de trois doiuent tousiours appartenir au costé & angle du triangle, qui sont cognus & opposez l'vn à l'autre : & le troisiesme & le quatriesme, qui est le requis, doiuent aussi estre opposez l'vn à l'autre dans le triangle.
+multiplié 60460, qui est le sinus de 37 degrez 12′ par 40, & diuisé le produict par 89816, il en est venu 26 83184/89816 toises pour le costé AB.
 
-En la regle de trois des sinus les toises ou autres mesures y demeurent, & n'y a que les angles ou degrez & minutes qui se changent, pour mettre en leurs places leurs sinus, tangentes ou secantes : Mais en la regle de trois des logarithmes, faut changer tant les toises ou autres mesures que les degrez & minutes, & mettre en leurs places leurs logarithmes.
+Pour iuger à peu pres combien vaut la fraction 83184/89816, il faut retrancher du costé droict des deux nombres de la fraction tant de figures, que le denominateur restant n'excede 100. comme en cet exemple, retranchant de chacun trois figures, reste 83/89, qui est moins que l'entier d'enuiron 1/15 d'vne toise, ou d'autre mesure dont on se sert.
 
-La regle de trois des sinus se faict à l'ordinaire, en multipliant le second nombre & le troisiesme l'vn par l'autre, & diuisant leur produict par le premier. Mais pour faire la regle de trois des logarithmes, on adiouste le second & troisiesme nombre ensemble, & de leur somme on soustraict le premier, le tout comme on peut voir aux exemples suiuants.
+Pour auoir en pieds & pouces la valeur de la fraction, il faut multiplier le numerateur par 6 pieds, qui est la valeur de la toise, & viendra 499.04 pieds, lesquels estant diuisez par le denominateur 89816 donnent 5 50024/89816 pieds : Puis pour sçauoir combien de pouces donnera ce reste, on multipliera le numerateur 50024 par 12 pouces qui est la valeur d'vn pied, & viendra 600288 pouces, qu'il faut diuiser par le mesme denominateur 898.6, & viendra 6 61392/89816 pouces, & par ainsi le costé AB vaut 26 toises, 5 pieds, 6 pouces, & enuiron ⅔ d'vn pouce, que i'attribuë à la fraction 61/89 qui restent, ayant retranché trois figures de chaque nombre de la fraction 61392/89816.
 
-*Inuention du costé AB par sinus.*
-
-ſ. ∠A —— BC —— ſ. ∠C —— AB
-116 deg. 5′.   37 deg. 12′   toises
-supplem. 63 deg. 55   toises
-89816 —— 40 —— 60460. R. 26 83184/89816.
-
-Pour auoir le sinus de l'angle A, qui excede 90 degrez, il faut le soustraire de 180 degrez, & prendre dans les tables le sinus du reste 63 degrez 55′, qui est 89816, pour le premier nombre de la regle de trois. Puis ayant
+Pour reduire la mesme fraction 83184/89816 en dixme, on donnera au numerateur autant de zero qu'on veut que la fraction de la dixme aye d'accens : puis diuisant par le denominateur, on trouuera le requis à peu pres. Cõme en cet exemple, adioustant 3 zero au numerateur, puis diuisant le prouenant 8,184000 par le denominateur, viendra au quotient 926‴, ou 926/1000, qui est si proche du iuste, qu'il n'y peut auoir erreur d'vn milliesme.

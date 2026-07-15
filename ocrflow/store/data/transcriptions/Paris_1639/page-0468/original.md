@@ -1,35 +1,27 @@
-# Page 467
+# Page 468
 
 # ETYMOLOGIE.
 
-Horoscope, en Grec *hora*, sign. le temps, & *scopeo* obseruer : d'où vient le nom d'horoscope, qui sign. la figure de la constitution du ciel pour l'heure proposée.  t. 4. p. 137.
+l'iris, ainsi nommée à cause de la diuersité de ses couleurs, de l'arc en ciel, qui en Latin s'appelle *Iris*, touche le blanc de l'œil qui l'enuironne.  La prunelle est le noir de l'œil qui paroist au milieu de l'iris, correspondant directement au trou de l'vuée.  t. 5. p. 5.
 
-Hyaloïdes, qui est la pellicule qui contient l'humeur vitrée, vient de *hyalos*, qui en Grec signifie le vitre.  t. 5. p. 6.
+Isoscele vient de *Isos*, qui en Grec signifie égal, & *scelos* la iambe.  t. 1. def. 24.
 
-Hydraulique, *spiritale*, vient de *hydor*, qui en Grec signifie l'eau, & *aylos* vn tuyau.
+Isomerie vient de *Isos*, qui en Grec signifie égal, & *meros* partie.  t. 2. p. 83. alg.
 
-Hydrographie, *description des mers*, vient de *hydor*, qui en Grec sign. l'eau, & *graphia* description.  t. 4. p 3.
+Isoperimetre, *égales en circuits*, vient de *Isos*, qui en Grec sign. égal, *peri* à l'entour, & *metron* vne mesure.  t. 4. p. 44.
 
-Hypate, en Grec *hypertatos*, sign. supreme, d'où par syncope vient hypate.  t. 5. p. 809.
+Istiodromie, *l'art de nauiger*, vient de *Istion*, qui en Grec signifie nauire, & *dromos* course.  t. 4. p. 400.
 
-Hypauge, signifie estre sous les rayons, car en Grec *hyp*, sign. estre sous, & *ayge* lumiere.  t. 5. p. 482.
+Kalendrier vient de *Kalendæ*, qui en Latin signifie le premier iour du mois.  Or les Calendes de Mars, May, Iuilet, & Octobre vont iusques au seiziesme du mois precedent : Les 8 iours, qui sont depuis le quinziesme iusques au huictiesme, sont attribuez aux Ides : & les 6 iours qui sont depuis le septiesme iusques au second, aux Nones.  Aux autres mois, les Calendes vont iusques au quatorziesme du mois precedent : Les Ides, qui ont tousiours 8 iours, depuis le treiziesme iusques au sixiesme : & les 4 iours, qui sont depuis le 5 iusques au second, sont attribuez aux Nones.  D'où s'ensuit qu'au mois d'Auril, par exemple, le quatriesme iour est le second des Nones : le dixiesme, le quatriesme des Ides : & le vingtiesme, est le douziesme des Calendes de May.  t. 2. p. 142.
 
-Hyperbole, en Grec *hyperballo*, sign. exceder, & *hyperbole* excez : d'où vient que la section conique, qui a les quarrez des moitiez de ses ordonnées excedants s'appelle hyperbole.  t. 5. p. 690.
+Lemme vient de *lambano*, qui en Grec sign. prendre.  t. 1. def. 43.
 
-Hypobibasme, vient de *hypobibazo*, qui en Grec sign. faire descendre & diminuer.  t. 2. p. 86. alg.
+Lichanos, est vn mot Grec qui signifie le doigt de la main qui est le plus proche du pouce, nommé en Latin *Index*, & signifie aussi vne chorde ou voix de la musique.  t. 5. p. 809.
 
-Hypostase, vient de *hypostasis*, qui en Grec signifie subsistance.  t. 2. p. 79. alg.
+Limeneuretique, *l'art de nauiger*, vient de *limen*, qui en Grec signifie vn port, & *eurisco* trouuer.
 
-Hypothenuse, qui est le costé qui soustient l'angle droict d'vn triangle, vient de *hypoteino*, qui en Grec signifie subtendre.
+Limma vient de *leimma*, qui en Grec signifie reste.  t. 5. p. 805.
 
-Hypothese, est la chose qu'on concede pour fondement de la consequence qu'on veut tirer, & vient de *hypothesis*, qui en Grec signifie supposition.  t. 1. p. 801.
+Logarithme, vient de *logos*, qui en Grec sign. raison ou proportion, & *arithmos* nombre.  t. 3. p. 13.
 
-Icnograghie, *plan geometrique*, vient de *Ichnos*, qui en Grec signifie vestige de la plante du pied, & *graphia* description.  t. 5. p. 190.
-
-Icosaedre, vient de *eicosi*, qui en Grec signifie vingt, & *hedra* siege.  t. 1. p. 653.
-
-Iezdagird est l'epoche qui est en vsage parmy les Perses, laquelle commence le 16 de Iuin de l'an 632 de nostre Seigneur.  t. 5. p. 457.
-
-Indiction est vn espace de quinze ans, institué par les anciens Romains pour monstrer les années ausquelles on deuoit payer le tribut, & vient du verbe Latin *indicere*, qui signifie denoncer.  t. 2. p. 152.
-
-Iris ou Soleil, la cornée est distinguée en l'iris & en la prunelle :
+Logistique vient de *logizomai*, qui en Grec sign. calculer.  t. 2. p. 11.

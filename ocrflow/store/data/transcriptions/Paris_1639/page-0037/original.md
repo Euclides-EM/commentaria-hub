@@ -1,34 +1,43 @@
-# Page 36
+# Page 37
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-IV.
+1. a. c.
 
-Semblablement quelconque grandeur estant donnée, pouuoir prendre vne autre plus grande ou plus petite.
+Et ce qui est plus grand ou plus petit que l'vn des égaux, est aussi plus grand' ou plus petit que l'autre des égaux.
 
-La 4. demande a esté adjoustée par Clauius aux trois precedentes, qui sont d'Euclide
-
-# COMMVNES NOTIONS, AXIOMES *ou Sentences, qui s'appellent auſſi Maximes.*
-
-1. a. 1.
-
-Les choses égales à vne mesme, sont aussi égales entr'elles.
-
-hyp. | ab 2|2 ef,
-hyp. | cd 2|2 ef,
-1.a.1 | ab 2|2 cd.
+hyp. | b 2|2 c,
+hyp. | a 3|2 b,
+1.a.c. | a 3|2 c.
 
 (figure)
 
-Les six axiomes suiuants distinguez par les lettres b, c, d, e, f, g, se rapportent à ce premier ; & ne sont pas d'Euclide, non plus que les autres qui sont distinguez par lettres.
+1. a. d.
 
-1. a. b.
+Et si l'vn des égaux est plus grand ou plus petit que quelque grandeur, l'autre des égaux sera aussi plus grand ou plus petit que la mesme grandeur.
 
-Les choses égales aux choses égales, sont aussi égales entr'elles.
+hyp. | a 2|2 b,
+hyp. | a 3|2 c,
+1.a.d. | b 3|2 c.
 
-hyp, | c 2|2 d,
-hyp. | a 2|2 c,
-hyp. | b 2|2 d,
-1.a.b, | a 2|2 b.
+(figure)
+
+1. a. e.
+
+Et ce qui est plus grand que le plus grand, est aussi plus grand que le plus petit, & ce qui est plus petit que le plus petit, est aussi plus petit que le plus grand.
+
+hyp. | b 3|2 c,
+hyp. | a 3|2 b,
+1. a. 1. | a 3|2 c.
+
+(figure)
+
+1. a. f.
+
+Le changement des choses égales n'oste pas l'égalité.
+
+hyp. | a + c 2|2 b + d,
+hyp. | c 2|2 d.
+1.a.f. | a + d 2|2 b + c.
 
 (figure)

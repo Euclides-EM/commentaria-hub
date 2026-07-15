@@ -1,23 +1,29 @@
-# LIBER III.
+# GEOMET. ELEMENT.
 
-> 79
+> 80
 
-bus æquales deducantur anguli, ad eorum quidem centra k, l, anguli b/k/d, & f/l/h: ad circunferentias autem, b/a/d/& f/e/h. Dico quòd b/c/d/circunferẽtia, æqualis est f/g/h/circunferentiæ. Connectantur enim in primis b/d/& f/h/rectæ, per primum postulatũ. Et quoniam per hypothesin circuli a/b/c/d/& e/f/g/h/sunt inuicẽ æquales:quæ igitur ex eorum centris prodeũt rectæ lineæ, sunt æquales adinuicem, per primã huius tertij diffinitionem. Duæ igitur b/ k/ & k/ d/ trianguli b/k/d, duabus f/l/& l/h/triãguli f/l/h/ sũt æquales altera/alteri: & æquos inuicẽ, qui ad k/& l/cõprehẽdunt angulos. Basis itaq; b/d, basi f/h, per quartã primi est æqualis. Rursum quoniã angulus qui ad a, æquus est angulo qui ad e, similis est sectio b/a/d, sectioni f/e/h, per decimam huius tertij diffinitionẽ: & super æqualibus rectis cõsistunt b/d/& f/h. Aequalis est igitur sectio b/a/d, ipsi f/e/h: super æqualibus enim rectis lineis similes circulorum sectiones constitutæ, sibi inuicem sunt æquales, per vigesimamquartam huius tertij. Atqui totus a/b/c/d/ circulus, toti e/f/g/h/circulo est æqualis. si ab æqualibus autem circulis, æquales auferantur circunferentiæ:quæ relinquentur æquales erunt, per tertiam cómunem sententiam. Aequalis est igitur circunferentia b/c/d, ipsi f/g/h. In æqualibus ergo circulis:&c. vt in theoremate. Quod demonstrandum fuerat.
+circunferentiæ e/f, æqualis est per hypothesin circunferentia b/c. & b/c/ igitur circunferentia, ipsi k/c, per primam communem sententiam erit æqualis:maior videlicet minori, totúmve suæ parti. quod per nonam cómunẽ sententiã est impossibile. Non est igitur angulus b/g/c, maior ipso e/h/f: similiter ostendemus, quòd neq; minor. Est igitur æqualis. Et quoniam per vigesimam huius tertij, angulus b/a/c, dimidius est eius qui ad centrum g:necnon & e/d/f/angulus, illius qui ad centrum h/dimidius. quæ autẽ eiusdem vel æqualium sunt dimidiũ, æqualia sunt adinuicem: per septimam communem sententiã. Et angulus igitur b/a/c, angulo e/d/f/est æqualis. In æqualibus ergo circulis, anguli qui super æquales circunferentias:& quæ sequuntur reliqua. Quod erat ostendendum.
+
+Θεώρημα κε, Γρόθεσις κη.
+
+Εν τοῖς ἴσοις κύκλοις αἱ ἴσαι ἐυθεῖαι, ἴσας περιφερείασ' ἀφαιρῶσι. τὴν μὲν μείζονα, τῇ μείζονι:τὴν δὲ ἐλάττονα, τῇ ἐλάττονι.
+
+## Theorema 25, Propositio 28.
+
+IN æqualibus circulis æquales rectæ lineæ, æquales circunferentias auferunt:maiorem maiori, minorem autem minori.
+
+ORONTIVS. ¶Sint bini circuli a/b/c/d/& e/f/g/h/inuicem æquales, quorum centra k, l:in ipsis verò æqualibus circulis, æquales sint rectæ lineæ b/d, & f/h, auferentes circunferentes b/a/d/quidem & f/e/h maiores, minores autem b/c/d/& f/g/h. Aio quòd circunferentia b/a/d, circunferentiæ f/e/h/est æqualis:necnon & b/c/d, ipsi f/g/h. Connectantur enim b/k/& k/d, atque f/l/& l/h/ rectæ, per prímũ postulatum. Cũ igitur ex hypothesi circuli a/b/c/ d/ & e/ f/ g/ h/ sint æquales:& æquales quoq; adinuicẽ erunt quæ ex eorum cẽtris deducẽtur lineæ rectæ, per primam huius tertij diffinitionem. Duæ itaq; b/k/& k/d/trianguli b/k/d, binis f/ l/ & l/h/trianguli f/l/h, sunt æquales altera alteri: basis quoq; b/c, basi f/h, per hypothesin æqualis. Angulus igitur b/k/d, angulo f/l/h, per octauam primi est æqualis. In æqualibus porrò circulis æquales anguli, & ad centra deducti, in æqualibus circunferentijs subtenduntur:per allegatam vigesimamsextam huius tertij. Et b/c/d/igitur circunferentia, ipsi f/g/h/circunferẽtiæ est æqualis. Atqui totus a/b/c/d/circulus, toti e/f/g/h/ circulo per hypothesin æquatur : & si ab æqualibus circulis æquales auferantur circunferentiæ, quæ relinquentur æquales erunt, per tertiam communem sententiam. Reliqua igitur circunferentia b/a/d, reliquæ f/e/h/est æqualis. Igitur in circulis æqualibus æquales rectæ lineæ, æquales circũferentias auferunt:maiorem maiori, minorẽ autem minori. Quod demõstrare fuerat operæpretium.
 
 *[diagram: a k b d c — e l f h g]*
 
-Θεώρημα κδ, Γρόθεσις κζ.
+Θεώρημα κς, Γρόθεσις κθ.
 
-Εν τοῖς ἴσοις κύκλοις, αἱ ἐπὶ ἴσωρ περιφερειῶρ βεβηκῦαι γωνίαι, ἴσαι ἀλλήλαις ἐσίρ, ἐάντε πρὸς τοῖς κέντροις, ἐάντε πρὸς ταῖς περιφερείαις ὦσι βεβηκῦαι.
+Εν τοῖς ἴσοις κύκλοις ὑπὸ τὰς ἴσας περιφερείασ', ἴσαι ἐυθεῖαι ὑποτείνουσιν.
 
-## Theorema 24, Propositio 27.
+## Theorema 26, Propositio 29.
 
-IN æqualibus circulis, anguli qui super æquales circunferentias deducuntur, sibi inuicem sunt æquales : etsi ad centra, etsi ad circunferentias fuerint deducti.
+IN æqualibus circulis: sub æqualibus circunferẽtijs, æquales rectæ lineæ subtenduntur.
 
-ORONTIVS. ¶Hæc est cóuersa præcedentis. Sint ergo in circulis æqualibus a/b/c/& d/e/f, super æqualibus circunferẽtijs b/c/& e/f, anguli b/g/c/& e/h/f, ad eorum centra g, h: ad circunferentias autem b/a/c/& e/d/f. Aio quòd angulus qui ad g, æquus est angulo qui ad h:necnon qui ad a, æqualis ei qui ad d. In primis enim, si angulus b/g/c/angulo e/h/f/nó fuerit æqualis:alter eorum erit maior. Esto maior (si possibile sit) b/g/c:& ad datam rectam lineam g/c, ad datúmq; in ea punctum g, dato angulo rectilineo e/h/f, æqualis angulus rectilineus constituatur k/g/c, per vigesimamtertiam primi. Maior erit itaque angulus b/g/c, ipso k/g/c/angulo: incidétque propterea recta g/k, inter b/g/ & g/c/rectas, & proinde secabit circũferentiã k/c/ipsa b/c/ minorẽ. At quoniã in circulis æqualibus æquales anguli, in æqualibus circunferẽtijs subtẽduntur, per antecedentẽ vigesimamsextã propositionem:æqualis erit circunferentia k/c, ipsi e/f. Eidem porrõ
+> Cóuersa proximæ, 28.
 
-> Cóuersa præcedentis, 26.
-
-*[diagram: a g b k c — d h e f]*
-
-g.iiij.
+ORONTIVS. ¶Hæc est conuersa proximè antecedentis propositionis. Sint

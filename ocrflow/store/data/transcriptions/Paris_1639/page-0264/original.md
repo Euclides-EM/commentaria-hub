@@ -1,51 +1,41 @@
-# Page 263
+# Page 264
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-*Conſtr.*
+SCHOLIE.
 
-| ∠fdh *eſt arbitr.*
-3.1 | de 2|2 a,
-3.1 | ef 2|2 b,
-3.1 | dg 2|2 c,
-1.p.1 | ge *eſt* ——,
-31.1 | fh == eg,
-ſymp. | gh *eſt le requis.*
-
-(figure)
-
-*Demonſtr.*
-
-concl. 2.6 | de Ⅱ a π ef Ⅱ b 2|2 dg Ⅱ c π gh.
-
-PROBL. V. PROPOS. XIII.
-
-A deux lignes droictes données, trouuer la moyenne proportionelle.
-
-(figure)
-
-*Hypoth.*
-
-ae & eb *ſnt* —— D.
-
-*Req. à faire.*
-
+Par cette demonstration il est manifeste, que la ligne droicte menée de quelconque poinct du diametre du cercle à la circonference, perpendiculaire à iceluy diametre, est moyenne proportionelle entre les segmens du diametre faits par la perpẽdiculaire, c'est à dire, que
 ae π ef 2|2 ef π eb.
 
-*Conſtr.*
+THEOR. IX. PROPOS. XIV.
 
-3.1 | aeb *eſt* ——,
-3.p.1 | afb *eſt ſemic.*
-11.1 | ef ⊥ ab,
-ſymp. | ef *eſt le requis.*
+Des parallelogrammes égaux qui ont vn angle égal à vn angle, les costez qui sont autour des angles égaux sont reciproques : Et les parallelogrammes qui ont vn angle égal à vn angle, & les costez autour des angles égaux reciproques, sont égaux.
+
+(figure)
+
+*Hypoth. commun.*
+
+∠abc 2|2 ∠ebg.
+
+*Hypoth. 1.*
+
+◊abcd 2|2 ◊befg.
+
+*Req. à demonſtr.*
+
+ab π bg 2|2 eb π bc.
 
 *Prepar.*
 
-1.p.1 | af & bf *ſnt* ——.
+3.1 | abg *eſt* ——,
+2.p.1 | dch & fgh *ſnt* ——;
 
 *Demonſtr.*
 
-31.3 | ∠afb *eſt* ┘,
-conſtr. | fe ⊥ ab,
-8.6 | △aef *ſml.* △feb,
-concl. 4.6 | ae π ef 2|2 ef π eb.
+conſtr. | abg *eſt* ——,
+hyp. | ∠abc 2|2 ∠ebg,
+1.ſ.15.1 | ebc *eſt* ——,
+35.d.1 | bchg *eſt* ◊,
+hyp. | ◊abcd 2|2 ◊befg,
+1.6 | ab π bg 2|2 ac π bh,
+7.5 | ac π bh 2|2 bf π bh,

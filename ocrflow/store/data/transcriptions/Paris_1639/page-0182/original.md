@@ -1,40 +1,41 @@
-# Page 181
+# Page 182
 
-# D'EVCLIDE, LIV. IV.
+# LES ELEMENTS
+
+*Requis à faire.*
+
+*inſcrire au* ⊙abcd *le* □abcd.
 
 (figure)
 
-3.p.1 | fa *eſt* ——,
-ſymp. | ⊙fabc *eſt le req.*
+*Conſtruction.*
 
-*Preparation.*
+1.p.1 | ac *eſt diametre*,
+11.1 | bed ⊥ ac,
+1.p.1 | ab, bc, ad, dc *ſnt* ——,
+ſymp. | □abcd *eſt le requis.*
 
-1.p.1. | fb, fc *ſnt* ——.
+*Demonſtration.*
 
-*Demonſtr.*
+conſtr. | abcd *eſt* 4∠,
+conſtr. | ∠bea, ∠bec, ∠aed, ∠ced *ſnt* 2|2 đe.
+1.concl. 26.3 | ∩ab, ∩bc, ∩ad, ∩dc *ſnt* 2|2 đe.
+2 concl. 29.3 | ab, bc, ad, dc *ſnt* 2|2 đe.
+31.3 | ∠bad, ∠abc, ∠adc, ∠bcd *ſnt* ┘,
+29.d.1 | abcd *eſt* □,
+3.concl. 3.d.4 | □.abc *eſt inſcrit au* ⊙abcd.
 
-conſtr. | ad 2|2 db,
-fd *eſt commun.*
-conſtr. | ∠fda 2|2 ∠fdb,
-4.1 | fb 2|2 fa, α
-conſtr. | ce 2|2 ea,
-fe *eſt commun.*
-conſtr. | ∠fec 2|2 ∠fea,
-4.1 | fc 2|2 fa,
-α.1.a.1 | fc 2|2 fb,
-concl. 6.d.4 | ⊙abc *eſt circonſcrit au* △abc.
+*Explication par nombres.*
 
-COROLLAIRE.
+hyp. | ae Ⅱ eb *eſt* 2,
+1.ſ.1.d.2 | □.ae Ⅱ □.eb *eſt* 4,
+47.1 | □.ab 2|2 □.ae + □.eb,
+9.a.1 | □.ab *eſt* 8,
+ſ.46.1 | ab *eſt* √.8.
 
-Il est manifeste de cette proposition, qùe si le triangle est oxygone, le centre tombera en iceluy: si rectangle, au costé qui soustient l'angle droict: & si amblygone dehors.
+PROBL. VII. PROPOS. VII.
 
-SCHOLIE.
-
-Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts donnez A, B, C, qui ne soient en vne ligne droicte.
-
-PROBL. VI. PROPOS. VI.
-
-Dans vn cercle donné, inscrire vn quarré.
+A l'entour d'vn cercle donné, descrire vn quarré.
 
 *Hypoth.*
 

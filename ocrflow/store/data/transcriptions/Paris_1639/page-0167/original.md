@@ -1,45 +1,50 @@
-# Page 166
+# Page 167
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
 (figure)
 
-*Req. à demonſtr.*
+∠ecb 2|2 ∠edc,
+∠eca 2|2 ∠efc.
 
-∠abc *eſt* ┘,
-∠cab 2|3 ┘,
-cfb 3|2 ┘,
-∠ *du* ⌓ cba 3|2 ┘,
-∠ *du* ⌓ cbf 2|3 ┘.
+*Preparation.*
+
+11.1 | cd ⊥ ab,
+arbitr. | • f *eſt en* ∩cfe,
+1.p.1 | cf,fe,ed *ſnt* ——.
 
 *Demonſtr.*
 
-5.1 | ∠dba 2|2 ∠dab,
-5.1 | ∠dbc 2|2 ∠dcb,
-2.a.1 | ∠abc 2|2 ∠dab + ∠dcb,
-32.1 | ∠cbe 2|2 ∠dab + ∠dcb,
-1.a.1 | ∠abc 2|2 ∠cbe,
-1.concl. 10.d.1 | ∠abc *eſt* ┘,
-2 concl. 1.c.27.1 | ∠cab 2|3 ┘,
-acfb *eſt* 4∠,
-3 concl. 2.c.22.3 | ∠bfc 3|2 ┘,
-4 concl. 9.a.1 | ∠ *du* ⌓ cba 3|2 ┘,
-5.concl. 9.a.1 | ∠ *du* ⌓ cbf 2|3 ┘.
+19.3 | cd *eſt diametre*,
+31.3 | ∠ced *eſt* ┘,
+conſtr. | ∠dcb *eſt* ┘,
+32.1 | ∠edc + ∠ecd 2|2 ┘,
+15.d.1 | ∠bce + ∠ecd 2|2 ┘,
+∠ecd *commun. ſubtr.*
+1.concl. 3.a.1 | ∠ecb 2|2 ∠edc. α
 
-*Scholie.*
+*au* 4∠cfed
+22.3 | ∠efc + ∠edc 2|2 2┘,
+13.1 | ∠eca + ∠ecb 2|2 2┘,
+2 concl. α.3.a.1 | ∠eca 2|2 ∠efc.
 
-hyp. | af 3|2 ab,
-9.a.1 | ∠acf 3|2 ∠acb.
+PROBL. V. PROPOS. XXXIII
 
-THEOR. XXVIII, PROPOS. XXXII.
+Sur vne ligne droicte donnée, descrire vn segment de cercle, lequel reçoiue vn angle égal à vn angle rectiligne donné.
 
-Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene quelque ligne droicte au cercle, le couppant; les angles qu'elle fait auec l'attouchante seront égaux aux angles qui sont aux segments alternes.
+(figure)
 
 *Hypoth.*
 
-cfd *eſt* ⊙,
-ab *touche le* ⊙,
-c *eſt* • *d'attouchement*,
-ce *eſt* —— *arbitraire*.
+ab *eſt* —— D. c *eſt* ∠D.
 
-*Req. à demonſtr.*
+*Req. à faire.*
+
+⌓ aieb *capable.* ∠c.
+
+*Conſtr.*
+
+23.1 | ∠bad 2|2 ∠c,
+11.1 | ae ⊥ hd,
+32.1 | ∠abf 2|2 ∠baf,
+3.p.1 | faib *eſt* ⊙,

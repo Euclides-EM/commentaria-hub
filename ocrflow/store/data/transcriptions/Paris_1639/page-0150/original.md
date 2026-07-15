@@ -1,39 +1,36 @@
-# Page 149
+# Page 150
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
 (figure)
 
-*Prepar.*
+∠iad 2|3 ∠ead.
 
-3.1 | gn 2|2 gh. α
-11.1 | knl ⊥ gi,
-1.p.1 | gk, gb, gc, gl *ſnt* ——.
+*Preparation.*
+
+arbitr. | •f *eſt en* ac,
+1.p.1 | bf *eſt* ——,
+12.1 | be ⊥ al.
 
 *Demonſtr.*
 
-15.d.1 | ga 2|2 gk,
-15.d.1 | gd 2|2 gl,
-2.a.1 | ad 2|2 gk + gl,
-20.1 | gk + gl 3|2 kl,
-1.a.d | ad 3|2 kl,
-α.14.3 | kl 2|2 fe, β
-1.concl. 1.a.c | ad 3|2 fe,
-9.a.1 | ∠lgk 3|2 ∠cgb,
-2.concl. β.24.1 | kl Ⅱ fe 3|2 bc.
+hyp. | ∠baf *eſt* ┘,
+1.c.17.1 | ∠bfa 2|3 ┘,
+19.1 | bf 3|2 ba Ⅱ bg,
+c.15.d.1 | •f *eſt hors le* ⊙,
+1.concl. ergo | ac *eſt hors le* ⊙,
+hyp. | ∠bae 2|3 ┘,
+conſtr. | ∠aeb *eſt* ┘,
+19.1 | be 2|3 ba,
+c.15.d.1 | e *eſt dans le* ⊙,
+2 concl. ergo | al *n'eſt pas hors le* ⊙,
+3.concl. 9.a.1 | ∠bai 3|2 ∠bae,
+4 concl. 9.a.1. | ∠iad 2|3 ∠ead.
 
-THEOR. XV. PROPOS. XVI.
+COROLL.
 
-La ligne droite menée de l'extremité du diametre d'vn cercle, à angles droicts à iceluy diametre, tombera hors le cercle; & en l'espace compris entre icelle ligne droicte & la circonference ne tombera pas d'autre ligne droicte: & l'angle du demy cercle est plus grand que tout angle rectiligne aigu, mais le reste est plus petit.
+Il est d'icy manifeste, que la ligne droicte tirée de l'extremité du diametre à angles droicts, touche le cercle. Car il a esté demonstré qu'elle tombe dehors le cercle. Partant elle atteint le cercle à ce poinct extréme du diametre seulement.
 
-*Hypoth.*
+SCHOLIE I.
 
-balh *eſt* ⊙,
-cad ⊥ ah,
-∠bal 2|3 ┘.
-
-*Req. à demonſtr.*
-
-ac *eſt hors le* ⊙,
-ae *n'eſt hors le* ⊙,
-∠bai 3|2 ∠bae,
+De cette demonstration est manifeste, que si le diametre AH demeurant immobile, on augmente l'angle rectiligne HAL, par le mouuement de la ligne AL à l'entour du poinct A, iusques à ce qu'il soit deuenu droict ou obtus, il excedera l'angle du demi-cercle HAI, sans auoir esté égal à iceluy: ce qu'il seroit impossible, si l'angle du demi-cercle, & l'angle rectiligne estoient de mesme espece.

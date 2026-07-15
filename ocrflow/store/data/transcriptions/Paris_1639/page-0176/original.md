@@ -1,21 +1,23 @@
-# Page 175
+# Page 176
 
-# D'EVCLIDE, LIV. IV.
+# LES ELEMENTS
 
-(ornament)
-
-LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.
-
-# DEFINITIONS.
-
-I.
-
-VNE figure rectiligne est dite estre inscrite en vne figure rectiligne, quand chacun des angles de la figure inscrite, touche chacun costé de celle en laquelle elle est inscrite.
-
-II.
-
-Semblablement vne figure est dite estre inscrite à l'entour d'vne figure, quand chacun costé de la circonscrite, touche chacun angle, de celle à l'entour de laquelle elle est descrite.
-
-Comme le triangle DEF est inscrit dans le triangle ABC, à cause que chacun des angles de l'inscrit DEF touchent chacun
+des costez du circonscrit ABC, & au contraire le triangle ABC est descrit à l'entour du triangle DEF, à cause que chacun des costez de celuy-là touche chacun des angles de celuy-cy: Mais le triangle LMN n'est pas inscrit dans le triangle GHI, à cause que l'angle N ne touche point le costé HI.
 
 (figure)
+
+III.
+
+Vne figure rectiligne est dite estre inscrite en vn cercle, quand vn chacun angle de l'inscrite, touche la circonference du cercle.
+
+IV.
+
+Mais vne figure rectiligne est dite estre descrite à l'entour du cercle, lors que chacun costé de la circonscrite, touche la circonference du cercle.
+
+V.
+
+Semblablement le cercle est dit estre inscrit en vne figure rectiligne, lors que la circonference du cercle touche chacun costé de la figure en laquelle il est inscrit.
+
+VI.
+
+Mais vn cercle est dit estre descrit à l'entour d'vne figure, quand la circonference du cercle

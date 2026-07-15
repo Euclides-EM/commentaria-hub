@@ -1,49 +1,47 @@
-# Page 71
+# Page 72
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
 *Demonſtr.*
 
-conſtr. | ad 2|2 ab,
-5.1 | ∠abd 2|2 ∠adb,
-16.1 | ∠adb 3|2 ∠acb,
-1.a.d | ∠abd 3|2 ∠acb,
-concl. 1.a.e | ∠abc 3|2 ∠acb.
+hyp. | ∠adb *eſt* ┘,
+1.c.17.1 | ∠b 2|3 ┘,
+12.d.1 | ∠b 2|2 ∠adb,
+1.concl. 19.1 | ad 2|3 ab, α
+2.concl. d.α | ad 2|3 ac.
 
-THEOR. XII. PROPOS. XIX.
+THEOR. XIII. PROPOS. XX.
 
-De tout triangle, le plus grand angle est soustenu du plus grand costé.
+De tout triangle deux costez sont plus grands que l'autre, en quelque façon qu'ils soient prins.
 
 (figure)
 
 *Hypoth.*
 
-∠b 3|2 ∠c.
+abc *eſt* △.
 
 *Req. à demonſtr.*
 
-ac 3|2 ab.
+ba + ac 3|2 bc.
+
+*Prepar.*
+
+2.p.1 | bad *eſt* ——,
+3.1 | ad 2|2 ac.
+1.p.1 | cd *eſt* ——.
 
 *Demonſtr.*
 
-ſuppoſ. | ac 2|2 ab,
-5.1 | ∠b 2|2 ∠c,
-*contr. hypoth.*
-ſuppoſ. | ac 2|3 ab,
-18.1 | ∠b 2|3 ∠c,
-*contr. hypoth.*
-concl. 21.a.1 | ac 3|2 ab.
+conſtr. | ad 2|2 ac,
+5.1 | ∠acd 2|2 ∠d,
+9.a.1 | ∠bcd 3|2 ∠acd,
+1.a.c | ∠bcd 3|2 ∠d,
+19.1 | bd 3|2 bc, α
+conſtr. | ac 2|2 ad,
+ba *commun. add.*
+2.a.1 | ba + ac 2|2 bd,
+α.1.a.d | ba + ac 3|2 bc.
 
-COROLLAIRE.
+THEOR. XIV. PROPOS. XXI.
 
-Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne ligne droicte tant de lignes droictes qu'on voudra, l'vne desquelles soit perpendiculaire, icelle perpendiculaire sera la plus petite de toutes.
-
-*Hypoth.*
-
-ad ⊥ bc,
-
-(figure)
-
-*Req. à demonſtr.*
-
-ad 2|3 ab Ⅱ ac.
+Si des extremitez d'vn costé de quelque triangle, on mene deux lignes droictes se rencontrans au dedans d'iceluy ; icelles seront plus petites que les deux autres costez du triangle, mais elles contiendront vn plus grand angle.

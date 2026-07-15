@@ -1,34 +1,34 @@
-# 156 GEOMET. ELEMENT.
+# LIBER VI. 157
 
-vigesimamtertiam primi constituâtur, h/e/g/quidem ipsi d/a/c, & e/g/h/ ipsi a/c/d. & producâtur e/h/ & g/h, per secundum postulatum: donec (veluti priores) congrediantur ad punctum h. Erit itaq; reliquus angulus qui ad h, reliquo qui ad d/consequenter æqualis: & proinde e/g/h/triangulum, ipsi a/c/d/ triangulo æquiangulum.
+Esto b/c, ipsa e/f/ maior. Et ipsis b/c/ & e/f, tertia suscipiatur proportionalis b/g, per vndecimam huius sexti: sicut b/c/ad e/f, sic e/f/ad b/g. & connectatur recta a/g, per primum postulatum. Et quoniā est vt a/b/ad b/c, sic d/e/ad e/f: & permutatim igitur, per sedecimam quinti, sicut a/b/ad d/e, sic b/c/ad e/f. Sicut porrò b/c/ad e/f,
 
-> Problematis ostensiua resolutio.
+> Secūda eiusdem ostensionis differētia.
 
-*[diagram: d c h g / a b e f]*
+*[diagram: a/b. d/e. | b/c. e/f. | e/f. b/g.]*
 
-a/c/ad c/d, sic e/g/ad g/h.
+sic e/f/ad b/g: & proinde sicut a/b/ad d/e, sic per vndecimam quinti e/f/ad b/g. Triangulorum itaq; a/b/g/ & d/e/f, vnū angulum qui ad b/vni angulo qui ad e/æqualem habentium, reciproca sunt latera quæ circū æquales angulos. Aequum est itaq; a/b/g/triangulum, ipsi triangulo d/e/f, per secundam partem quindecimæ huius sexti. Rursum quoniā est sicut b/c/ad e/f, sic e/f/ad b/g:
 
-*[diagram: b/c. a/c. c/d. | f/g. e/g. g/h.]*
+*[diagram: a d / b g c e f]*
 
-Aequiangulum insuper est e/f/g/triangulum, ipsi triangulo a/b/c. Aequiangulorum porrò triangulorum proportionalia sunt latera, quæ circū æquales angulos, per quartam huius sexti. Est igitur vt a/b/ ad b/c, sic e/f/ ad f/g. sicut insuper b/c/ad a/c, sic f/g/ad e/g. sicut præterea Et ex æquali igitur, per vigesimamsecundam quinti, sicut b/c/ ad c/d, sic f/g/ad g/h. Rursum est sicut c/ d/ ad d/a, sic g/h/ ad h/e. Et sicut d/a/ad a/c, sic h/e/ad e/g. sicútq; a/c/ad a/b, sic e/g/ad e/f. Et ex æquali rursum, per eandem vigesimamsecundam quinti, sicut d/a/ad a/b, sic h/e/ad e/f. Et quoniam angulus g/e/f, angulo c/a/b/est æqualis: & h/e/g/ ipsi d/a/c: totus propterea angulus h/e/f, toti d/a/b, per secundam cómunem sententiā æqualis est. Et proinde totus f/g/h, toti b/c/d/ respondenter æqualis. Angulus porrò qui ad f, angulo qui ad b: & reliquus qui ad h, reliquo qui ad d/ æqualis ostensus est.
+tres itaque rectæ lineæ sunt proportionales. Prima igitur ad tertiam, duplicem rationem habet, quam ad secundam: per decimam huius quinti diffinitionem. Sed sicut prima b/c/ad tertiam b/g, sic a/b/c/ triāgulum ad triangulum a/b/g, per primam huius sexti: sub eodem enim sunt vertice, atque in eadem altitudine ipsa triangula. Et triangulum igitur a/b/c/ad triangulum a/b/g, duplam rationē habet quam b/c/ad e/f. Ipsi porrò a/b/g/ triangulo, æquum est triangulum d/e/f: & idem triangulum ad æqualia triangula eandem habet rationem, per septimam quinti. Et triangulum igitur a/b/c/ad triangulum d/e/f, duplicem rationem habet quam b/c/ad e/f. Simila itaq; triangula, in dupla ratione sunt laterū similis rationis. Quod demonstrandum receperamus.
 
-*[diagram: d/a. a/c. a/b. | h/e. e/g. e/f.]*
+## Corollarium.
 
-Aequiangulum est itaque e/f/g/h/ rectilineum, ipsi rectilineo a/b/c/d. Patuit, quòd & latera quæ circū æquales sunt angulos, cum eodem habet proportionalia: sicut a/b/ad b/c, sic e/f/ad f/g: sicut item b/c/ad c/d, sic f/g/ ad g/h: & sicut c/d/ad d/a, sic g/h/ad h/e: sicut denique d/a/ad a/b, sic h/e/ad e/f. Simile est itaq; rectilineum e/f/g/h, ipsi rectilineo a/b/c/d, atq; similiter positū: per primā huius sexti diffinitionem. Super data igitur recta linea e/f, dato rectilineo a/b/c/d, simile similitérq; positum rectilineum descriptū est e/f/g/h. Quod fecisse oportuit.
+¶ Fit proinde manifestū, quòd si tres rectæ lineæ fuerint proportionales: erit sicut prima ad tertiam, sic quod à prima describitur rectangulum, ad simile similitérq; positū rectangulum quod à secunda. Ostensum est enim sicut b/c/ad b/g, sic a/b/c/triangulū ad triāgulum a/b/g. Et sicut igitur b/ c/ ad b/g, sic a/c/ rectangulum ad d/f/ rectangulum.
 
-Θεώρημα ιγ, Πρόθεσις ιθ.
-ΤΑ ὅμοια τρίγωνα, πρὸς ἄλληλα ἐν Διπλασίονι λόγῳ ἐστὶ τῶν ὁμολόγων πλευρῶν.
+*[diagram: a d / b c e f b g]*
 
-## Theorema 13, Propositio 19.
+Θεώρημα ιδ, Πρόθεσις κ.
+ΤΑ ὅμοια πολύγωνα, εἴς τε ὅμοια τρίγωνα διαιρεῖται, καὶ εἰς ἴσα τὸ πλῆθος, καὶ ὁμόλογα τοῖς ὅλοις. καὶ τὸ πολύγωνον διπλασίονα λόγον ἔχει, ἤπερ ἡ ὁμόλογος πλευρὰ πρὸς τὴν ὁμόλογον πλευράν.
 
-SImilia triangula: adinuicem in dupla sunt ratione laterum similis rationis.
+## Theorema 14, Propositio 20.
 
-ORONTIVS. ¶ Sint bina & similia, hoc est æquiangula & proportionalium laterum triangula, a/b/c/ & d/e/f: habentia angulum qui ad b/ æqualem angulo qui ad e, & sicut a/b/ad b/c, sic d/e/ad e/f. Dico triangulum a/b/c/ ad triangulum d/e/f/ duplicem habere rationem, quam latus b/c/ad latus e/f: seu quòd ratio ipsius a/b/c/ trianguli ad triangulum d/e/f, ex lateris b/c/ad latus e/f/ duplata ratione cósurgit.
+SImilia polygona, in similia triangula diuiduntur, & in æqualia numero: & æqua ratione totis. Et polygonum ad polygonum duplicem rationem habet, quàm similis rationis latus ad similis rationis latus.
 
-> Prima ostensionis differētia.
+ORONTIVS. ¶ Sint bina & similia polygona a/b/c/d/e/ & f/g/h/k/l: habentia angulum qui ad f/angulo qui ad a/æqualem, & eum qui ad g/ei qui ad b, & qui ad h/ei qui ad c, & sic de cæteris: sitq́; vt latus a/b/ad b/c, sic f/g/ad g/h, sicútq; b/c/ ad c/d, sic g/h/ad h/k, & deinceps ita, seruata laterū & angulorū respondentia. Dico primū, quòd ipsa a/b/c/d/e/ & f/ g/ h/ k/ l/ polygona, in similia & æqualia numero diuiduntur triangula. Connectātur enim a/c/ & a/d, necnon f/h/ & f/k/lineæ rectæ, per primum postulatum. Et quoniā per hypothesin (hoc est, datam polygonorū similitudinē) angulus qui ad b/æquus est angulo qui ad g,
 
-In primis itaq; aut b/c/est æqualis ipsi e/f, aut inæqualis. Si æqualis: erit sicut a/b/ ad e/f, sic d/e/ad b/c. æquales enim ad eandem, eandem habent rationem, & eadem
+> Prima theorematis pars.
 
-*[diagram: a d / b c e f]*
+*[diagram: a b e f g l / c d h k]*
 
-ad æquales, per septimam quinti. Et proinde triangula a/b/c/ & d/e/f, habebūt vnū angulum vni angulo æqualem: & quæ circū æquales angulos latera reciprocè proportionalia. Aequum erit itaque triangulum a/b/c/ipsi triangulo d/e/f, per secundam partē decimæquintæ huius sexti: sicuti & basis b/c, basi e/f. Atqui ratio æqualitatis eorundem triangulorum, ex ipsa ratione æqualitatis laterū b/c/ & e/f/duplicata, aut quouis alio modo multiplicata cósurgit. Quantitates enim duarum rationum æqualitatis, per quintam diffinitionem huius sexti multiplicatæ: restituunt æqualitatis itidem quātitatem. ¶ At si b/c/fuerit inæqualis ipsi e/f, altera earū erit maior.
+o.j.

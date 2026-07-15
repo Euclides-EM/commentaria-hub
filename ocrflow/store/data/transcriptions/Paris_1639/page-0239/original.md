@@ -1,39 +1,53 @@
-# Page 238
+# Page 239
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-A, 21. B, 7. C, 12. D, 4.
-E, 15. F, 5. G, 3. H, 1.
-L, 6. M, 2. N, 9. P, 3.
+*Hypoth. 1.*
 
-*Hypoth.*
-
-a π b, c π d, e π f, g π h, *ſnt raō.* 2|2 đe.
-l 2|2 a~e, m 2|2 b~f, n 2|2 c~g, p 2|2 d~h,
+a 3|2 c, β
 
 *Req. à demonſtr.*
 
-l π m 2|2 n π p.
+d 3|2 f.
 
 *Demonſtr.*
 
-19.5 | l π m 2|2 a π b,
-19.5 | n π p 2|2 c π d,
-hyp. | a π b 2|2 c π d,
-concl. 11.5 | l π m 2|2 n π p.
+hyp. | e π f 2|2 b π c,
+c.4 5 | f π e 2|2 c π b,
+β.8.5 | c π b 2|3 a π b,
+α.ſ.13.5 | f π e 2|3 a π b, Ⅱ d π e,
+1.concl. 10.5 | d 3|2 f.
 
-THEOR. XX. PROPOS. XX.
+*Hypoth. 2.*
 
-S'il y a trois grandeurs, & d'autres égales à icelles en nombre, lesquelles soient prises de deux en deux, & en mesme raison: Et qu'en raison égale la premiere soit plus grande que la troisiesme, aussi la quatriesme. sera plus grande que la sixiesme; & si égale, égale; & si plus petite, plus petite.
+a 2|2 c.
 
-(figure)
+*Req. à demonſtr.*
 
-*Hypoth. commun.*
+d 2|2 f. δ
 
-a π b 2|2 d π e, α
-b π c 2|2 e π f. α
+*Demonſtr.*
 
-*Requis à demonſtrer.*
+α.c.4.5 | f π e 2|2 c π b,
+δ.7.5 | a π b 2|2 c π b,
+α.11.5 | f π e 2|2 a π b, Ⅱ d π e,
+2 concl. 9.5 | d 2|2 f.
 
-a, 2, 3, 4 | 3, c,
-d, 2, 3, 4 | 3, f.
+*Hypoth. 3.*
+
+a 2|3 c. ε
+
+*Req. à demonſtr.*
+
+d 2|3 f.
+
+*Demonſtr.*
+
+α.c.4.5 | f π e 2|2 c π b,
+ε.8.5 | c π b 3|2 a π b,
+α.13.5 | f π e 3|2 a π b, Ⅱ d π e,
+3 concl. 10.5 | d 2|3 f.
+
+THEOR. XXI. PROPOS. XXI.
+
+S'il y a trois grandeurs, & d'autres égales à icelles en nombre, lesquelles soient prises deux à deux, & en mesme raison; & que leur proportion soit troublée, ou sans ordre: mais qu'en raison égale la premiere soit plus grande que la troisiesme; la quatriesme sera aussi plus grande que la sixiesme; & si égale, égale; & si plus petite, plus petite.

@@ -1,24 +1,27 @@
-# Page 353
+# Page 354
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-*Exemple 1.*
+16, & pour le second 10, tous deux auec le signe de moins ; puis faisant l'operation comme s'ensuit, viendra le mesme nombre 7⅔, pour le premier des incognus.
 
-Trouuer trois nombres, qui adioustez ensemble facent 60, & que le second excede le double du premier de 4, & le troisiesme surpasse la somme du premier & second de 6.
-
-Si on suppose que le premier nombre soit 6, le second sera 16, & le troisiesme 28, qui adioustez ensemble font 50, qui differe du nombre donné 60 de 10, partant ie pose l'erreur 10 vis à vis du nombre supposé 6 auec le signe de moins.
-
-Puis si on suppose que le premier nombre soit 8, le second sera 20, & le troisiesme 34, qui adioustez ensemble font 62, qui differe du nombre donné 60 de 2 : partant ie pose l'erreur 2 vis à vis du nombre supposé 8, auec le signe de plus.
-
-Maintenant pour venir à la regle de trois, i'adiouste les erreurs 10 & 2 ensemble, à cause que leurs signes sont dissemblables, à sçauoir l'vne de moins, & l'autre de plus, & ie mets la somme 12 au premier lieu de la regle de trois, le premier erreur 10 au second, & la difference des nombres supposez qui est 2 au troisiesme, & trouue par la regle de trois 1 1/2 que i'adiouste auec 6, qui est la premiere supposition, la somme 7⅔ est le premier nombre des incognus pour lequel ont esté faites les suppositions : & par consequent le second sera 19⅓, & le troisiesme 33, qui adioustez ensemble font le nombre donné 60.
-
-Pour faire l'operation, on a couché les nombres ainsi,
-
-6 ~ 10
-8 + 2   6
+5 ~ 16
+6 ~ 10   *le premier erreur.*   *difference des nombres supposez.*   5
 ——
-12 —— 10 —— 2. R. 1⅔.
+*Reste* 6 —— 16 —— 1 —— R. 2⅔.
 ——
 *Somme pour le premier 7⅔.*
 
-Que si on eust supposé pour le premier nombre des incognus 5, puis 6, on eust trouué pour l'erreur de la premiere supposition
+Que si les deux suppositions eussent esté 8 & 11, on eust trouué pour l'erreur de la premiere supposition 2, & pour la seconde 20, tous deux auec le signe de plus. Puis faisant l'operation comme s'ensuit, on eust encore trouué 7⅔, pour le premier des incognus.
+
+8 + 2
+11 + 20   *le premier erreur.*   *difference des nombres supposez.*   8
+——
+*Reste* 18 —— 2 —— 3 —— R. 1⅓.
+——
+*Reste pour le premier 7⅔,*
+
+*Exemple 2.*
+
+Vn homme a deux tasses d'or, & vn couuercle de 100 escus, la grande tasse auec le couuercle vaut trois fois autant que la petite sans couuercle : & la petite auec le couuercle deux fois autant que la grande sans couuercle, sçauoir combien vaut chaque tasse ?
+
+En cette regle de deux fausses positions, les plus grandes difficultez consistent à trouuer les erreurs des nombres qu'on suppose au lieu de l'vn des incognus, & ne se peut donner autre precepte pour les trouuer, sinon qu'ayant supposé pour l'vn des incognus, il faut raisonner suiuant la teneur de la question, pour trouuer vn chacun des autres incognus : Comme en cet exemple, supposant

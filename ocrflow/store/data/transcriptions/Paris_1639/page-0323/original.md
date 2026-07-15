@@ -1,16 +1,21 @@
-# Page 322
+# Page 323
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-Pour multiplier entier & rompu par entier & rompu, il faut premierement adiouster les entiers auec leurs fractions, puis faire la multiplication : par exemple, pour multiplier 17 3/4 par 8 5/6, i'adiouste, par la methode donnée cy deuant, 17 auec sa fraction 3/4, & trouue 71/4 : puis i'adiouste aussi 8 auec sa fraction 5/6, & trouue 53/6 : ce faict, multipliant les numerateurs 71 & 53 l'vn par l'autre, & aussi les denominateurs 4 & 6, vient 3763/24, qui donne en diuisant le numerateur par le denominateur 156 19/24 pour le produict de la multiplication.
+12 estant diuisé par ⅔ donne 18, & 3/4 estant diuisé par 2 donne 3/8 : pour faire l'operation les nombres se couchent ainsi.
 
-*De la diuiſion.*
+12 X 2 | 36 [18 || 3 X 2 | 3
+1   3 | 2 || 4   1 | 8
 
-Si les fractions sont en mesme denomination, la diuision se fera en diuisant le numerateur du diuidende par le numerateur du diuiseur : ce faisant on trouuera que 6/7 estant diuisé par 2/7, donne 3 pour le quotient. Et au contraire, 2/7 estant diuisé par 6/7, ne donne que 2/6 ou ⅓. Que si les fractions ne sont en mesme denomination, il faudra premierement les reduire, puis faire la diuision. Mais à cause que les ayant reduict en mesme denomination, il faut quitter les denominateurs, la diuision se fera plus briefuement sans les reduire en mesme denomination, en multipliant le numerateur du diuidende par le denominateur du diuiseur, & le numerateur du diuiseur par le denominateur du diuidende. Ce faisant on trouuera que 2/3 estant diuisé par 4/5 donne 10/12 ou 5/6.
+Pour diuiser entier & fraction par entier & fraction, il faut ioindre les entiers auec leurs fractions, puis faire la diuision ; ce faisant on trouuera que 7 3/4 estant diuisé par 8 5/6, donne 186/212 ou 93/106. L'operation se fait ainsi.
 
-*Operation.*
+7 3/4, 8 5/6 | 31 X 53 | 186/212 ou 93/106.
+4   6
 
-2 X 4 | 10
-3   5 | 12
+*De la regle des fractions des fractions.*
 
-Pour diuiser vn nombre entier par vne fraction, ou vne fraction par vn nombre entier, il faudra donner à l'entier vn pour denominateur ; ce faisant, on trouuera que
+Il faut multiplier tous les numerateurs l'vn par l'autre continuëment, & du produict en faire vn numerateur, dont le denominateur se trouuera en multipliant tous les denominateurs l'vn par l'autre : ce faisant on trouuera que 2/5 de 3/4 valent 6/20 ou 3/10 : & aussi que ⅔ de 3/4 de 1/2 valent 6/24 ou 1/4.
+
+DE LA REGLE DE TROIS, *ou de proportion.*
+
+Cette regle s'appelle ainsi, à cause que de trois nombres donnez elle trouue le quatriesme incognu. Elle s'appelle aussi la regle de proportion, à cause qu'en icelle il y a tousiours mesme proportion du premier nombre au second, que du troisiesme au quatriesme : pour la faire il faut disposer les nombres en sorte, que celuy duquel on demande la valeur soit au troisiesme

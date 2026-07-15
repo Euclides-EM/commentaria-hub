@@ -1,38 +1,30 @@
-# Page 251
+# Page 252
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-tient huict fois autant qu'vn sac d'vne aulne, pourueu qu'ils soient semblables, c'est à dire de pareille forme: & aussi que le tonneau ou muid qui sera faict de deux muids, y employant toutes les douues de longueur, contiendra autant que 4 muids.
+THEOR. II. PROPOS. II.
 
-THEOR. I. PROPOS. I.
-
-Les triangles & les parallelogrammes qui ont mesme hauteur, sont entr'eux comme leurs bases.
+Si à l'vn des costez d'vn triangle on mene quelque ligne droicte parallele, elle coupera les costez du triangle proportionellement: Et si les costez sont couppez proportionellement, la ligne droite conjoignant les poincts des sections, sera parallele à l'autre costé du triangle,
 
 (figure)
 
-*Hypoth.*
+*Hypoth. 1.*
 
-abc & acd *ſont* △;
-bcae & cdfa *ſont* ◊;
-eaf == hci,
-bc & cd *ſont baſes.*
+abc *eſt* △,
+de == bc.
 
 *Req. à demonſtrer.*
 
-△abc π △acd 2|2 bc π cd,
-◊acbe π ◊acdf 2|2 bc π cd.
+ad π db 2|2 ae π ec.
 
-*Preparation.*
+*Prepar.*
 
-3.1 | cb, bg, gh *ſont* 2|2 đe. di 2|2 de. α
-1.p.1 | ag, ah, ai *ſont* ——.
+1.p.1 | cd & be *ſnt* ——.
 
-*Demonſtr.*
+*Demonſtration.*
 
-α.38.1 | △acb, △abg, △agh *ſont* 2|2 đe.
-α.38.1 | △acd 2|2 △adi,
-nota 38.1 | hc, 2, 3, 4 | 3, ci,
-| △ach, 2, 3, 4 | 3, △aci,
-1.concl. 6.d.5 | △abc π △acd 2|2 bc π cd, γ
-41.1 | ◊ce 2|2 2△acb, ◊cf 2|2 2△acd,
-2 concl. γ.15.5 | ◊ce π ◊cf 2|2 △acb π △acd Ⅱ bc π cd.
+hyp. | de == bc,
+37.1 | △deb 2|2 △dec. α
+4.d.6 | △; ade & deb *ſont de meſme hauteur, car leur hauteur commune eſt la perpendiculaire qui tombe du poinct E ſur AB.*
+4.d.6 | △; aed & edc *ſont auſſi de meſme hauteur, car leur commune hauteur eſt la perpendiculaire qui tombe du poinct D ſur AC.*
+1.6 | ad π db 2|2 △ade π △dbe. β

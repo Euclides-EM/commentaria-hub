@@ -1,45 +1,32 @@
-# Page 139
+# Page 140
 
-# D'EVCLIDE, LIV. III.
-
-*Preparation.*
-
-1.p.1 | fe *eſt* ——.
-
-*Demonſtr.*
-
-ſuppoſ. | cf 2|2 fd,
-3.3 | ∠efd *eſt* ┘,
-hyp. | af 2|2 fb,
-3.3 | ∠efb *eſt* ┘,
-12.a.1 | ∠efd 2|2 ∠efb,
-*contr. 9. a.. 1*
-concl. 21.a.1 | cf n̄. *eſt* 2|2 fd.
-
-THEOR. IV. PROPOS. V.
-
-Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
+# LES ELEMENTS
 
 (figure)
 
 *Hypoth.*
 
-bac & bdc *ſnt* ⊙.
+bac & bde *ſnt* ⊙.
 
 *Req. à demonſtr.*
 
-e n̄. *eſt centr. du* ⊙bac, & *du* ⊙bdc.
+f n̄ *eſt centr. du* ⊙bac, & *du* ⊙bde.
 
-*Demonſtration.*
+*Demonſtr.*
 
-ſuppoſ. | e *eſt centr. du* ⊙bac, & *du* ⊙bdc.
-1.p.1 | eda *eſt* ——,
-15.a.1 | ed 2|2 eb,
-15.d.1 | ea 2|2 eb,
-1.a.1 | ed 2|2 ea,
+ſuppoſ. | f *eſt centre du* ⊙bac, & *du* ⊙bde,
+1.p.1 | fa *eſt* ——,
+15.d.1 | fd 2|2 fb,
+15.d.1 | fa 2|2 fb,
+1.a.1 | fd 2|2 fa,
 *contr. 9. a. 1.*
-concl. 21,a.1 | e n̄ *eſt centr. du* ⊙bac, & *du* ⊙bdc.
+concl. 21.a.1 | f n̄ *eſt centr. du* ⊙bac, & *du* ⊙bde.
 
-THEOR. V. PROPOS. VI.
+THEOR. VI. PROPOS. VII.
 
-Si deux cercles se touchent l'vn l'autre au dedans, ils n'auront pas mesme centre.
+Si au diametre d'vn cercle on prend quelque poinct, lequel ne soit point le centre du cercle ; & de ce poinct, à la circonference tombent quelques lignes droictes, la plus grande sera celle-là en laquelle est le centre, mais la plus petite sera celle qui reste; Des autres tousiours la plus proche de celle qui passe par le centre, est plus grande que celle qui en est plus esloignée : & deux lignes droites égales tant seulement tombent d'iceluy poinct au cercle, de part & d'autre de la plus petite, ou de la plus grande.
+
+*Hypoth.*
+
+fadh *eſt* ⊙,
+ab *eſt diametre.*

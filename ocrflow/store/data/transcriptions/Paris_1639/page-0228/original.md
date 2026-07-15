@@ -1,29 +1,22 @@
-# Page 227
+# Page 228
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-7.5 | c π a 2|2 c π b,
-| *contr. hyp.*
-ſuppoſ. | b 3|2 a,
-8.5 | c π a 3|2 c π b,
-| *contr. hyp.*
+THEOR. XII. PROPOS. XII.
 
-THEOR. XI. PROPOS. XI.
-
-Les raisons qui sont de mesme à vne mesme raison, sont aussi de mesme entr'elles.
+Si tant de grandeurs qu'on voudra sont proportionelles: comme l'vne des antecedentes sera à l'vne des consequentes, ainsi toutes les antecedentes seront à toutes les consequentes.
 
 (figure)
 
 *Hypoth.*
 
-a π b 2|2 e π f, α
-c π d 2|2 e π f. β
+a π b, c π d, e π f, *ſnt raō* 2|2 đe. α
 
-*Req. à demonſtrer.*
+*Requis à demonſtrer.*
 
-a π b 2|2 c π d.
+a π b 2|2 a + c + e π b + d + f.
 
-*Prepar.*
+*Preparation.*
 
 | g *multipl..* | a,
 3.1 | h *multipl..* | c,
@@ -32,6 +25,13 @@ a π b 2|2 c π d.
 3.1 | l *multipl..* | d,
 | m *multipl..* | f.
 
-*Demonſtration.*
+*Demonſtr.*
 
-A cause que par l'hypothese, les raisons de A à B & de C à D sont égales à la raison de E à F, par la conuerse de la 6. definition du 5. les equimultiples G & H seront semblables à l'equimultiple I, & par consequent ne pourront estre dissemblables entr'elles; c'est à dire, que si I est plus petite que M, G & H seront plus petites que K & L: mais si I est plus grande que M, G & H seront plus grandes que K & L; d'où s'ensuit par la 6. definition du 5. que A est à B, comme C à D: ce qu'il falloit demonstrer.
+1.5 | g + h + i *multipl..* a + c + e 2|2 g *multipl..* a,
+1.5 | k + l + m *multipl..* b + d + f 2|2 k *multipl..* b,
+| g, 2, 3, 4 | 3, k,
+α.c6.d5 | h, 2, 3, 4 | 3, l,
+| i. 2, 3, 4 | 3, m,
+4.a.c | g, 2, 3, 4 | 3, k,
+| g + h + i, 2, 3, 4 | 3, k + l + m,
+6.d.5 | a π b 2|2 a + c + e π b + d + f.

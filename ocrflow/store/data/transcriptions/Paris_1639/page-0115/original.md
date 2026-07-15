@@ -1,43 +1,35 @@
-# Page 114
+# Page 115
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. II.
 
-SCHOL. I.
+*Explication par nombres*
 
-*Cette 6. propoſition ſe peut außi propoſer ainſi.*
+hyp. | fc *eſt* 3, α
+hyp. | cd *eſt* 3, α
+arbitr. | fa Ⅱ db *eſt* 4. β
+19.a.1 | ad *eſt* 10. γ
+αβ | ac *eſt* 7. δ
+γβ | ▭.daf *eſt* 40,
+α | □.cd *eſt* 9.
+19.a.1 | 40 + 9 *ſnt* 49.
+δ | □.ac *eſt* 49.
 
-Si vne ligne droicte est couppée en deux parties inégales, le rectangle contenu sous la toute & la difference des parties, auec le quarré de la moindre partie, est égal au quarré de la plus grande partie.
+SCHOL. II.
 
-*Hypoth.*
+Si trois lignes droictes sont en proportion arithmetique, le rectangle compris sous les extremes, auec le quarré de l'excez, sera égal au quarré de la moyenne.
 
-ad *eſt* ——: cd *eſt* 3|2 ac:
-cb *eſt* 2|2 ac: bd *eſt excez.*
+ſ.4.d.5 | af, ac, ad, *ſnt en proport. arithm.*
+concl. 6.2 | ▭.af, ad + □.cd Ⅱ fc 2|2 □.ac.
 
-(figure)
+SCHOL. III.
 
-D'où il appert, que AI est le rectangle contenu sous la toute AD & BD qui est la difference des parties AC & CD : que KG est le quarré de la moindre partie AC, ou de son égale CB : & que CE est le quarré de la plus grande partie CD : & par consequent ce scholie ne differe de la 6. proposition que de nom : & se pouuoit aussi demonstrer ainsi.
+La difference de deux grandeurs contient deux fois la difference de leurs moitiez.
 
-(figure)
+hyp. | ab 2|2 2ac,
+hyp. | fd 2|2 2fc,
+3.a.1 | af 2|2 db,
+concl. 19.a.d | af + db 2|2 2af.
 
-*Hypoth.*
+THEOR. VII. PROPOS. VII.
 
-fd *eſt* ——,
-fc 2|2 cd. α
-fa *eſt arbitr.*
-
-*Req. à demonſtr.*
-
-▭.daf + □.cd 2|2 □.ca.
-
-*Preparation.*
-
-3.p.1 | caeb *eſt ſemic.* β
-11.1 | de ⊥ ab. γ
-1.p.1 | ce *eſt* ——.
-
-*Demonſtr.*
-
-αβ.3.a.1 | db 2|2 fa,
-γ.47.1 | □.de + □dc 2|2 □.ce,
-ſ.5.2 | □.de 2|2 ▭.adb Ⅱ daf,
-conel. 1.a.f | ▭.daf / + □.cd 2|2 □.ce Ⅱ □.ca
+Si vne ligne droicte est couppée comme l'on voudra: Les deux quarrez ensemble, sçauoir celuy de la toute, & celuy de l'vn des segments, sont égaux à deux fois le rectãgle contenu sous la toute & ledit segment, & au quarré de l'autre segment.

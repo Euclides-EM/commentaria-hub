@@ -1,36 +1,27 @@
-# Page 47
+# Page 48
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-hyp. | 18 3|2 12 *l'excez des toutes eſt 6.*
-hyp. | 7 2|2 7 *les retranchées.*
-18.a.1 | 11 3|2 5 *l'excez des reſtantes eſt 6.*
+20. a. b.
 
-19. a. 1.
+Si chaque partie de la premiere grandeur est double de chaque partie de la seconde grandeur, la premiere grandeur sera double de la seconde.
 
-Le tout est égal à toutes ses parties prises ensemble.
-
-hyp. | ac, cd, db, *ſont parties de* ab.
-19.a.1 | ab 2|2 ac + cd + db.
-
-(figure)
-
-19. a. b.
-
-Si les parties d'vn tout sont égales entr'elles, le tout sera autant multiple de chaque partie : qu'il y aura de parties : & chaque partie sera denommée du nombre des parties.
-
-(figure)
-
-hyp. | ab, bc, cd, de *ſont* 2|2 đe.
-19.a.b. | AE *eſt quadruple de* AB.
-19.a.b. | AB *eſt le quart de* AE.
-
-20. a. 1.
-
-Si vn tout est double d'vn tout, & le retranché du retranché, le reste sera aussi double du reste.
-
-hyp. | ab 2|2 2cd,
 hyp. | ae 2|2 2cf,
-20.a.1 | eb 2|2 2fd.
+hyp: | eb 2|2 2fd,
+20.a.b. | ab 2|2 2cd.
 
 (figure)
+
+I'ay adjousté l'axiome suiuant, à cause qu'il est necessaire aux demonstrations, qui conduisent à l'impossible.
+
+21. a. 1.
+
+Toute grandeur est telle qu'elle se dit, si elle ne peut estre autrement.
+
+hyp. | a *ñ eſt* 3|2 b,
+hyp. | a *ñ eſt* 2|3 b,
+21.a.1. | a 2|2 b.
+
+(figure)
+
+(ornament)

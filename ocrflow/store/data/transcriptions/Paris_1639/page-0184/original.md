@@ -1,36 +1,30 @@
-# Page 183
+# Page 184
 
-# D'EVCLIDE, LIV. IV.
-
-*Requis à faire.*
-
-*circonſcrire au* ⊙abc *le* □fhig.
+# LES ELEMENTS
 
 (figure)
 
 *Conſtruction.*
 
-1.p.1 | bd *eſt diametre*,
-11.1 | aec ⊥ bd, fbh ⊥ bd, α
-11.1 | gdi ⊥ bd, α
-11.1 | fag ⊥ ac, hci ⊥ ac, β
-ſymp. | □hg *eſt le requis.*
+10.1 | ah 2|2 hd, bf 2|2 fc,
+0.1 | ae 2|2 eb, dg 2|2 gc,
+1.p.1 | hf & eg *ſnt* ——,
+3:p.1 | iefgh *eſt* ⊙,
+ſymp. | ⊙efgh *eſt le requis.*
 
-*Demonſtration.*
+*Demonſtr.*
 
-α.28.1 | fh, ac, gi *ſnt* == đe.
-β.28.1 | fg, bd, hi *ſnt* == đe.
-1.concl. 35.d.1 | fgih *eſt* ◊,
-α2ſ29.1 | ∠f, ∠g, ∠h, ∠i *ſnt* ┘,
-15.d.1 | bd 2|2 ac,
-2 concl. 34.1 | fg, bd, hi, fh, gi *ſnt* 2|2 đe.
-29.d.1 | fhig *eſt* □,
-3.concl. c.16.3 | fh, hi, ig, fg *touchent le* ⊙abcd,
-4 concl. 4.d.4 | □hg *eſt circonſcrite au* ⊙abcd.
+7.a.1 | ah, hd, bf, fc, ae, eb, dg, gc *ſnt* 2|2 đe.
+33.1 | hf == ab & dc,
+33.1 | eg == ad & bc,
+2.ſ.29.1 | ia,id,ib,ic *ſnt* ▭,
+ergo | ∠; e, h, g, f *ſnt* ┘;
+34.1.& 1.a.1 | ie,ih,ig,if *ſnt* 2|2 đe.
+concl. 5.d.4 | ⊙efg *eſt inſcrit au* □bd.
 
-PROBL. VIII. PROPOS. VIII.
+PROBL. IX. PROPOS. IX.
 
-Dans vn quarré donné, inscrire vn cercle.
+A l'entour d'vn quarré donné, descrire vn cercle.
 
 (figure)
 
@@ -38,6 +32,17 @@ Dans vn quarré donné, inscrire vn cercle.
 
 abcd *eſt* □ D.
 
-*Requis à faire.*
+*Req. à faire.*
 
-*inſcrire au* □abcd *le* ⊙efgh.
+*circõſcrire au* □abcd *le* ⊙abcd,
+
+*Conſtr.*
+
+1.p.1. | ac & bd *ſnt* ——,
+3.p.1 | eabcd *eſt* ⊙,
+ſymp. | ⊙eabcd *eſt le requis.*
+
+*Demonſtr.*
+
+2.c.4.2 | ∠cab 2|2 ∠cad, ∠dba 2|2 ∠dbc,
+29.d.1 | ∠; dab, abc, bcd, cda *ſnt* ┘;

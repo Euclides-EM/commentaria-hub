@@ -1,29 +1,44 @@
-# Page 189
+# Page 190
 
-# D'EVCLIDE, LIV. IV.
+# LES ELEMENTS
 
-ſymp. | 5∠ghikl *eſt le requis.*
+angles est pair, la ligne droicte, menée de quelconque angle à l'angle opposé, diuise l'vn & l'autre angle en parties égales.
 
-*Prepar.*
+*Hypoth. du 1. cas.*
 
-1.p.1 | fg, fh, fi, fk, fl *ſnt* ——,
+abcdefg *eſt vne figure equilat. & equiangle.*
 
-*Demonſtr.*
+dh 2|2 he,
 
-1.concl. c.16.3 | gh, hi, ik, kl, lg *touchent le* ⊙abcde,
-2.c.36 3 | ga 2|2 ge, ha 2|2 hb, ib 2|2 ic, α
-2.c.36.3 | kc 2|2 kd, ld 2|2 le, α
-8.1 | ∠gfa 2|2 ∠gfe, ∠hfa 2|2 ∠hfb, β
-27.3 | ∠afe 2|2 ∠afb, ∠afb 2|2 ∠bfc, &c.
-7.a.1 | ∠gfa,∠afh,∠hfb,∠bfi,∠ifc,&c. *ſnt* 2|2 đe.
-26.1 | ag 2|2 ah, hb 2|2 bi, δ
-2 concl. αδ2.a.1 | gh, hi, ik, kl, lg *ſnt* 2|2 đe.
-3.concl. β.ſ.32.1 | ∠ahb,∠bic,∠ckd,∠dle,∠ega *ſnt* 2|2 đe.
+*Req. à demonſtrer.*
 
-COROLL.
+∠hab 2|2 ∠hag.
 
-Il s'ensuit de la demonstration de ce probleme, que si dans le cercle est descrit vne figure equilaterale & equiangle, & aux extremitez des semidiametres, menez du centre aux angles, soient faites des perpendiculaires: ces perpendiculaires feront vne figure circonscrite au cercle equilateral & equiangle, qui aura autant de costez & angles que l'inscrite.
+(figure)
 
-SCHOLIE.
+(figure)
 
-En vne figure equilaterale & equiangle, si le nombre des angles est impair, la ligne droicte menée de quelconque angle au milieu du costé opposé, diuise aussi l'angle en deux parties égales: Mais si le nombre des
+*Preparation.*
+
+1 p.1 | ac, ad, ae, af *ſnt* ——.
+
+*Demonſtration.*
+
+hyp. | ab, ag, bc, gf, cd, fe, de *ſnt* 2|2 đe.
+hyp. | ∠; abc, agf, bcd, gfe, cde, fed *ſnt* 2|2 đe.
+4.1 | ac 2|2 af, ∠bac 2|2 ∠gaf, ∠bca 2|2 ∠gfa,
+3.a.1 | ∠acd 2|2 ∠afe,
+4.1 | ad 2|2 ae, ∠cad 2|2 ∠fae, ∠cda 2|2 ∠fea,
+3.a.1 | ∠adh 2|2 ∠aeh,
+hyp. | dh 2|2 he,
+8.1 | ∠had 2|2 ∠hae,
+concl. 2.a.1 | ∠hab 2|2 ∠hag. α
+
+*Demonſtr. du 2.cas.*
+
+d. α | ∠eab 2|2 ∠eah,
+d. α | ∠aed 2|2 ∠aef.
+
+PROBL. XIII. PROPOS. XIII.
+
+En vn pentagone donné, equilateral & equiangle, inscrire vn cercle.

@@ -1,52 +1,47 @@
-# Page 282
+# Page 283
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-faillant d'vn quarré, la solution se trouuera plus briefuement par ja methode suiuante, proposant le probleme ainsi.
+PROBL. IX. PROPOS. XXIX.
 
-SCHOLIE.
-
-De trois lignes proportionelles estant donnée la moyenne & la somme des extrémes trouuer les extrémes.
+A vne ligne droicte donnée appliquer vn parallelogramme égal a vne figure rectiligne donnée, excedant icelle d'vn parallelogramme semblable à vn autre donné.
 
 (figure)
 
 *Hypoth.*
 
 ab *eſt* —— D.
-κ *eſt la moyenne* D.
+c *eſt rectili.* D.
+d *eſt* ◊ D.
 
 *Requis à faire.*
 
-*trouuer* ad & db.
+◊an 2|2 *rectili.* c,
+◊op *ſml.* ◊d.
 
-*Conſtr.*
+*Conſtruction.*
 
-10.1 | ac 2|2 cb,
-3.p.1 | cahb *eſt ſemic.*
-11.1 | ch ⊥ ab,
-3.1 | cg 2|2 κ,
-31.1 | ge == ab,
-12.1 | ed ⊥ ab, α
-ſymp. | ad & db *ſnt req.*
+10.1 | ae 2|2 eb, α
+18.6 | ◊eg *ſml.* ◊d,
+25.6 | ◊hκ 2|2 ◊eg + c,
+25.6 | ◊hκ *ſml.* ◊d Ⅱ ◊eg,
+3.1 | fel 2|2 ih,
+3.1 | fgm 2|2 iκ,
+31.1 | rln == fm,
+31.1 | mn == fl,
+31.1 | ar == fl,
+2.p.1 | abp & gbo *ſnt* ——;
+1.p.1 | fb & bn *ſnt* ——,
+ſymp. | ◊an *eſt le requis.*
 
 *Demonſtr.*
 
-1.concl. 19.a.1 | ad + db 2|2 ab,
-α.ſ.13.6 | ad π de 2|2 de π db,
-2.concl. 17.6 | ▭.adb 2|2 □.de,
-34.1 | de 2|2 cg,
-conſtr. | κ 2|2 cg,
-3.concl. 1.a.1 | de 2|2 κ.
-
-*Explication par nombres.*
-
-hyp. | ab *eſt* 26,
-hyp. | de *eſt* 12, α
-| ad & db *ſnt req.*
-25.d.1 | ac Ⅱ cb Ⅱ ce *eſt* 13,
-1.ſ.1.d.2 | □.ce *eſt* 169,
-α.1.ſ.1.d.2 | □.ed *eſt* 144,
-47.1 | □.cd *eſt* 25,
-ſ.46.3 | cd *eſt* 5,
-1.concl. 2.a.1 | ad *eſt* 18,
-2 concl. 3.a.1 | db *eſt* 8.
+conſtr. | ◊;d, eg, hκ *ſnt ſml.* đe
+1.nota conſtr. | ◊lm 2|2 & *ſml.* ◊hκ
+conſtr. | ◊eg *ſml.* ◊hκ;
+21.6 | ◊lm *ſml.* ◊eg,
+26.6 | fbn *eſt* ——,
+1.concl. 24.6 | ◊op *ſml.* ◊eg Ⅱ ◊d,
+2.nota conſtr. | ◊hκ 2|2 ◊eg + c,
+1.a.1 | ◊lm 2|2 ◊eg + c,
+| ◊eg *commun. ſubtr.*

@@ -1,29 +1,29 @@
-# LIBER VI.
+# GEOMET. ELEMENT.
 
-**141**
+**142**
 
-igitur prima,ad secundam prædictarum magnitudinum,sic tertia ad quartam: per sextā ipsius quinti diffinitionē. Vt basis ergo b/c, ad basin c/d:sic triangulum a/b/c, ad triangulū a/c/d. Quod prius veniebat ostendendum.¶Insuper quoniam a/b/c/ triangulum,& parallelogrammū e/c,in eadem sunt basi,& in eisdem parallelis constituta:duplum est e/c/parallelogrammum ipsius a/b/c/triāguli, per quadragesimā primam primi:& propterea c/f/parallelogrammum,ipsius trianguli a/c/d/ itidem duplum.Sunt igitur e/c/ & c/f/parallelogramma,ipsorum a/b/c/& a/c/d/triangulorum æquè multiplicia.Partes autem æquè multiplicium,eandem rationem habent sumptæ adinuicem:per decimamquintam quinti.Vt igitur a/b/c/triangulū,ad triāgulum a/c/d: sic parallelogrammum e/c, ad c/f/parallelogrammum.Ostensum est autem a/b/c/triangulum,ad triāgulum a/c/d/ se habere, veluti b/c/basis,ad basin c/d.Binæ itaque rationes,vtpote b/c/basis,ad basin c/d, atque parallelogrammi e/c/ad c/f/parallelogrammum,eædem sunt cum ratione ipsius a/b/c/trianguli,ad triāgulum a/c/d.Quæ autem eidem sunt eædem rationes, & adinuicem sunt eædem: per vndecimā eiusdem quinti. Est igitur vt basis b/c,ad basin c/d:sic parallelogrammum e/c,ad c/f/parallelogrammum. Poterit & ipsorum parallelogrammorum ratio,quemadmodùm & triangulorū,seorsum demonstrari: descriptis super g/b, d/l, & l/h/ basibus, & in eadem altitudine parallelogrammis.
+triangula,sub eodem vertice d:& sub eadem consequēter altitudine. Et sicut igitur a/d/basis,ad basin d/b:sic basis a/e,ad basin e/c,per eandem vndecimam quinti.Secat ergo d/e/ parallela,ipsa a/ b/ & a/ c/latera,in punctis d/& e/ proportionaliter. ¶Sed iam esto vt a/d/ad d/b,sic a/e/ad e/c: & cónectatur recta d/e,per primum postulatum. Aio versa vice,d/e/ipsi b/c/ fore parallelam. Cónexis enim(veluti prius)b/e/atq̃ c/d/rectis,per idem primum postulatum: erit rursum,per primam huius sexti,triangulū a/d/e/ ad triangulum b/d/e, veluti basis a/d/ad basin d/b.At sicut a/d/ad d/b,sic per hypothesin a/e/ad e/c.Et sicut igitur per vndecimam quinti,a/e/ad e/c:sic a/d/e/triangulū,ad triangulū b/d/e.Sicut rursum per eandem primā sexti,a/e/basis,ad basin e/c: sic idem triāgulū a/d/e,ad triangulum c/e/d.Et proinde sicut a/d/e/triangulū,ad triangulum b/d/e:sic idem triangulum a/d/e,ad triangulū c/e/d,per vndecimā ipsius quinti.Idem ergo triangulum a/d/e,ad ipsa b/d/e/ & c/e/d/ triangula,eandem habet rationem. Ad quæ autem triangula,idem triangulum eandem habet rationem:& ipsa sunt inuicem æqualia, per nonam eiusdem quinti.Aequū est igitur b/d/e/triangulum, ipsi c/e/d/triāgulo.Quæ cùm in eadem sint basi d/e,& ad easdem partes:& in eisdem quoque sunt parallelis, per trigesimamnonā primi. Parallela est itaq; d/e, ipsi b/c. Si trianguli ergo ad vnum latus : &c. vt in theoremate. Quod demonstrare oportebat.
 
-> Secunda theorematis resolutio,de parallelogrammis.
+*[diagram: a/d.d/b|a/d/e.c/e/d|a/e.c/e/]*
 
-*[diagram: b/c.c/d|a/b/c.a/c/d|e/c.c/f.]*
+> Partis secūdę demōstratio.
 
-> Notandum.
+*[diagram: a/e.c/e| a/d.d/b |a/d/e.b/d/e]*
 
-Triangula itaque & parallelogramma, quæ sub eadem sunt altitudine:ad se inuicem sunt,vt bases.Quod erat ostendendum.
-
-Θεώρημα β, Πρόθεσις β.
-
-Ἐὰμ τριγώνα παρὰ μίαμ τῶμ πλευρῶμ ἀχθῇ τις εὐθεῖα παράλληλος,ἀνάλογομ τεμεῖ τὰς τοῦ τριγώνου πλευράς : καὶ ἐὰμ αἱ τοῦ τριγώνου πλευραὶ ἀνάλογομ τμηθῶσιμ, ἡ ἐπὶ τὰς τομὰς ἐπιζευγνυμένη εὐθεῖα,παρὰ τὴμ λοιπὴμ ἔσαι τοῦ τριγώνου πλευρὰμ παράλληλος.
-
-## Theorema 2, Propositio 2.
-
-SI trianguli ad vnum laterum acta fuerit aliqua recta linea parallela:proportionaliter secat ipsius triāguli latera.Et si trianguli latera proportionaliter secta fuerint:ad segmenta cónexa recta linea,parallela ad reliquum erit ipsius trianguli latus.
-
-ORONTIVS.¶In triāgulo enim a/b/c,agatur recta d/e, ipsi b/c/lateri parallela.Dico quòd ipsa d/e,secat a/b/& a/c/latera proportionaliter: sicut quidem a/d/ ad d/b,sic a/e/ad e/c.Connectantur enim b/e/& c/d/lineæ rectæ : per primū postulatum. Erunt itaque b/d/e/& c/e/d/triangula, in eadem basi d/e,ac in eisdē parallelis b/c/& d/e: & proinde inuicem æqualia,per trigesimamseptimā primi. Est autē & a/d/e,aliud quoddam triangulum. Idem porrò triangulum,ad æqualia triangula eandem habet rationem:per septimam quinti. Ergo sicut a/d/e/ triangulum, ad triangulum b/d/e : sic idem triangulum a/d/e, ad c/e/d/ triangulum . Est autem a/ d/ e/ triangulum, ad triangulum b/ d/ e , veluti basis a/ d/ ad basin d/ b: per primam huius sexti . sunt enim sub eodem vertice e, & proinde sub eadem altitudine . Et sicut igitur basis a/d, ad basin d/ b : sic a/d/e/triangulum, ad triangulum c/ e/ d, per vndecimam quinti. Sicut rursum a/d/e/triangulum,ad triangulum c/e/d:sic basis a/e,ad basin e/c,per eandem primā huius sexti.sunt enim a/d/e/ & c/e/d/
-
-> Prima theorematis pars.
+*[diagram: a/d/e.b/d/e|a/e.e/c|a/d/e.c/e/d]*
 
 *[diagram: a d e b c]*
 
-*[diagram: a/d.d/b|a/d/e.b/d/e|a/d/e.c/e/d]*
+Θεώρημα γ, Πρόθεσις γ.
+
+Ἐὰμ τριγώνου γωνία δίχα τμηθῇ, ἡ δὲ τέμνουσα τὴμ γωνίαμ εὐθεῖα τέμνει καὶ τὴμ βάσιμ: τὰ τῆς βάσεως τὸμ αὐτὸμ ἕξει λόγομ ταῖς λοιπαῖς τοῦ τριγώνου πλευραῖς.& ἐὰμ τὰ τῆς βάσεως τμήματα, τὸμ αὐτὸμ ἔχει λόγομ ταῖς λοιπαῖς τοῦ τριγώνου πλευραῖς : ἀπὸ τῆς κορυφῆς ἐπὶ τὴμ τομήμ,ἐπιζευγνυμένη εὐθεῖα,δίχα τέμνει τὴμ τοῦ τριγώνου γωνίαμ.
+
+## Theorema 3, Propositio 3.
+
+SI trianguli angulus bifariam secetur,dispescens autem angulum recta linea secuerit & basin : basis segmenta eandem habebunt rationem,reliquis ipsius triāguli lateribus.Et si basis segmenta eandem habuerint rationem,reliquis ipsius trianguli lateribus:à vertice ad basin coniuncta recta linea, bifariam dispescit trianguli angulum.
+
+ORONTIVS. ¶Sit datum a/b/c/ triangulum, cuius angulus b/a/c/bifariam secetur,per nonam primi:recta quidem a/d,basin ipsam b/c/itidem secante in puncto d. Aio quòd b/d/ad d/c/se habet,vt b/a ad a/c.Per datum enim punctum b,datæ rectæ lineæ a/d,parallela ducatur b/e, per trigesimamprimam primi : producatúrque c/a/recta,per secundum postulatū,donec conuenerit in punctū e/cum ipsa b/e,feceritq; triāgulū b/e/c. Conueniet autem c/a/cum b/e, per quintum postulatū: propterea q̃ anguli e/b/c/& b/c/e,duobus rectis sunt minores. nā angulus e/b/c,exteriori & opposito a/d/c,per vigesimamnonam primi est æqualis:& duo anguli a/d/c/ & d/c/a/trianguli a/d/c,binis rectis minores existūt,per
+
+> Figuræ cōpositio.
+
+*[diagram: e a b d c]*

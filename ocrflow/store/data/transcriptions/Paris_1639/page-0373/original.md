@@ -1,33 +1,25 @@
-# Page 372
+# Page 373
 
 # TRIGONOMETRIE.
 
-Pour trouuer le costé DC par logarithme, l'operation se fera ainsi :
+restera 8 qu'on mettra au troisiesme lieu de la regle de trois : & pour auoir le second nombre, on soustraira l'angle donné de 180 degrez, & restera 63 degrez, & la tangente de la moitié de ce reste sera le second nombre. Partant la regle de trois se fera par logarithmes ainsi,
 
-ſ. de ∠C —— BD —— ſ. de ∠DBC —— DC
-27 d. 38′.   8 toises.   16 d. 27′.   toises.
-966634 —— 90309 —— 945206.   R. 4 8/9.
-945206
+toises.   tangen.   toises   tangen.
+32 —— 31 d. 30 —— 8 —— 8 deg. 43.
+150515 —— 978732 —— 90309
+90309
 ——
-1035515
-966634
+1069041
+150515
 ——
-68881
-60206 —— 4 8675/9691 ou 8/9.
-——
-8675
+918526 —— 8 degrez 43′.
 
-*De la regle des tangentes.*
+on trouuera 918526, qu'il faut chercher dans les tables au rang des tangentes, & parce qu'il ne se trouue pas on prendra le plus prochain, qui est 918560, auquel correspondent 8 degrez 43, qv'il faut soustraire de 31 degrez 30′, qui ont esté mis au second lieu de la regle de trois, & restera 22 degrez 47′, pour le moindre angle F : & adioustant les 8 degrez 43′ auec les 31 degrez 30′, on aura 40 degrez 13′ pour le plus grand angle G.
 
-Estant donnez deux costez & l'angle compris d'iceux, trouuer les deux autres angles & le troisiesme costé.
+Notez que cette regle des tangentes ne se peut faire que par logarithmes par les tables qui sont au troisiesme tome, à cause qu'en icelles il n'y a point d'autres tangentes que des logarithmes.
 
-(figure)
+Ayant ainsi trouué les angles, pour trouuer le troisiesme costé FG par logarithmes, on dira suiuant la regle des opposez, si
 
-20   20   180
-12   12   117
-——   ——   ——
-32   8   63
-——
-31 d. 30′,
-
-Au triangle FHG soient donnez le costé FH de 20 toises, le costé HG de 12 toises, & l'angle H de 117 degrez, par le moyen desquels il faille trouuer les autres angles F & G, & le troisiesme costé FG. Pour ce faire, il faut premierement adiouster ensemble les deux costez donnez, & viendra 32 pour le premier nombre de la regle de trois : puis on soustraira le moindre costé donné du plus grand, &
+ſ. de ∠F —— HG —— ſ. de ∠H —— FG.
+22 deg. 47′   12 toises   117 d. ou 63 d.   R. 27 3/5 toises
+958799 —— 107918 —— 994988 —— 144107

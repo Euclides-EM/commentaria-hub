@@ -1,29 +1,21 @@
-# Page 174
+# Page 175
 
-# LES ELEMENTS
-
-(figure)
-
-*Preparation.*
-
-27.3 | df *touche le* ⊙abf,
-1.p.1. | ed,eb,ef *ſnt* ——.
-
-*Demonſtr.*
-
-36.1 | □.df 2|2 ▭,adc,
-hyp. | □.db 2|2 ▭.adc,
-1.a.1 | □.df 2|2 □.db,
-ſ.46.1 | df 2|2 db,
-15 d.1 | eb 2|2 ef,
-ed *eſt commun.*
-8 1 | ∠ebd 2|2 ∠efd. α
-18.3. | ∠efd *eſt* ┘,
-12.a.b | ∠ebd *eſt* ┘,
-c.16.3 | db *touche le* ⊙abf.
-
-*Coroll.*
-
-α.8.1 | ∠edb 2|2 ∠edf.
+# D'EVCLIDE, LIV. IV.
 
 (ornament)
+
+LE QVATRIESME LIVRE DES ELEMENTS D'EVCLIDE.
+
+# DEFINITIONS.
+
+I.
+
+VNE figure rectiligne est dite estre inscrite en vne figure rectiligne, quand chacun des angles de la figure inscrite, touche chacun costé de celle en laquelle elle est inscrite.
+
+II.
+
+Semblablement vne figure est dite estre inscrite à l'entour d'vne figure, quand chacun costé de la circonscrite, touche chacun angle, de celle à l'entour de laquelle elle est descrite.
+
+Comme le triangle DEF est inscrit dans le triangle ABC, à cause que chacun des angles de l'inscrit DEF touchent chacun
+
+(figure)

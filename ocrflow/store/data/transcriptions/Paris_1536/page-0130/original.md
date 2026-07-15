@@ -1,61 +1,41 @@
-# LIBER V.
+# GEOMET. ELEMENT.
 
-113
-
-Id est, similitudo rationum inter easdem magnitudines inuicem proportionales, non solùm inuenitur per relationem antecedentium ad sua consequētia, vel è diuerso: sed tum ex ipsorum antecedentium, tum etiam consequentium inuicem facta comparatione. Ex quibus subscriptæ rationum illationes, speciésve proportionum deriuatæ sunt: quæ primùm diffiniuntur ab Euclide, postea suo elucidantur & ostenduntur ordine.
-
-> De varia rationum similitudine.
-
-¶Ἐναλλὰξ λόγος ἐστὶ, λῆψις τοῦ ἡγουμένου πρὸς τὸ ἡγούμενον, καὶ τοῦ ἑπομένου πρὸς τὸ ἑπόμενον.
-
-## 12 Permutata ratio, est acceptio antecedentis ad antecedens, & consequentis ad consequens.
-
-Vtpote, si fuerint quatuor magnitudines inuicem proportionales a, b, c, d, sicut quidem
-
-*[diagram: 8. a — 4. b — 6. c — 3. d]*
-
-a/ad b, ita c/ad d: inferamus autem, & permutatim igitur sicut a/ad c, ita b/ad d. Hanc rationum illationem, permutatam adpellamus. permutatur enim cōsequens primæ rationis, in antecedens secundæ: & antecedens eiusdem secundæ rationis, in consequens ipsius primæ vertitur. Primæ itaq̄ rationis vterq̄ terminus, antecedentis: & vterq̄ terminus secundæ rationis, consequentis fungitur officio.
-
-> Cur hęc rationis illatio permutata dicatur.
-
-¶Ἀνάπαλιν λόγος ἐστὶ, λῆψις τοῦ ἑπομένου ὡς ἡγουμένου, πρὸς τὸ ἡγούμενον ὡς ἑπόμενον.
-
-## 13 Conuersa ratio, est acceptio consequētis tanquàm antecedentis, ad antecedens tanquàm ad consequens.
-
-Id est, consequentium in antecedentia, & antecedentium in consequentia permutatio: rationem maioris inæqualitatis, in rationem minoris, aut è diuerso, cōuertendo. Vt si a/ad b/ eam habuerit rationem, quam c/ad d: & à cōuersa terminorum ratione inferamus. ergo sicut b/ad a, ita d/ad/c. Igitur in permutata atq̄ conuersa ratione, nulla terminorum subsequitur alteratio: sed & antecedentia, & consequentia manent substantialiter eadem.
-
-> Notandum.
-
-¶Σύνθεσις λόγου ἐστὶ, λῆψις τοῦ ἡγουμένου μετὰ τοῦ ἑπομένου, ὡς ἑνὸς πρὸς αὐτὸ τὸ ἑπόμενον.
-
-## 14 Composita ratio, est acceptio antecedentis cum consequente, sicut vnius, ad ipsum consequens.
-
-Solemus nonnunquàm in proportionibus arguere à diuisis ad coniuncta: vnde huiuscemodi rationis illatio, cōposita, seu coniuncta ratio dicitur. Est enim acceptio cuiuslibet an-
-
-> Illatio rationis à diuisis ad cōiuncta.
-
-*[diagram: 12. ab — 8. a — 4. b — 6. cd — 4. c — 2. d]*
-
-tecedentis cum proprio consequente, tanquàm vnius antecedentis, ad ipsum consequens. Vtpote, si a/ad b/eā habeat rationem, quā c/ad d: & cōiunctim inferamus. Igitur sicut a/b/ ad b, ita c/d/ad d. augentur enim proportionaliter antecedentia, per consequentium ipsorum compositionem. Huic cōtra-
+114
 
 > Exemplum.
 
-ria est diuisa, seu disiuncta ratio: quæ ita diffinitur,
+veluti a/b/ad b, ita c/d/ad d: & conuertamus in hunc modū. Ergo sicut a/b/ ad a, ita c/d/ ad c. Sunt enim a/ & c/differentiæ, quibus c/& d/ab ipsis a/b/& c/d/superantur. In composita igi-
 
-¶Διαίρεσις λόγου ἐστὶ, λῆψις τῆς ὑπεροχῆς, ᾗ ὑπερέχει τὸ ἡγούμενον τοῦ ἑπομένου πρὸς αὐτὸ τὸ ἑπόμενον.
+> Notandum.
 
-## 15 Diuisa ratio, est acceptio excessus, quo excedit antecedens ipsum consequens, ad ipsum consequens.
+*[diagram: 12. ab — 8. b — 4. a — 6. cd — 4. d — 2. c]*
 
-Hoc est, comparatio differentiæ cuiuslibet antecedentis supra consequens proprium, ad ipsum consequens. Veluti si eadē sit ratio a/b/ad b, quæ est c/d/ad d: & diuisim in hunc modum inferatur. Igitur sicut a/ad b, ita c/ad d. Est enim a/differentia, qua tota a/b/ipsam b/superat: & c/itidem differentia, qua tota c/d/excedit ipsam d. Hic autē modus arguendi, à coniunctis ad diuisa nuncupatur.
+tur, & diuisa ratione, ac conuersione rationis, quanquàm nihil sumatur extrinsecum: alterantur nihilominus termini, ijdem secundum substantiam minimè permanentes.
 
-> Illatio rationis à cōiūctis ad diuisa.
+¶Δι᾽ ἴσου λόγος ἐστὶ, πλειόνων ὄντων μεγεθῶν, καὶ ἄλλων αὐτοῖς ἴσων τὸ πλῆθος, σὺν δύο λαμβανομένων, καὶ ἐν τῷ αὐτῷ λόγῳ: ὅταν ᾖ ὡς ἐν τοῖς πρώτοις μεγέθεσι, τὸ πρῶτον πρὸς τὸ ἔσχατον, οὕτως ἐν τοῖς δευτέροις μεγέθεσι, τὸ πρῶτον πρὸς τὸ ἔσχατον: ἢ ἄλλως, λῆψις τῶν ἄκρων, καθ᾽ ὑπεξαίρεσιν τῶν μέσων.
 
-¶Ἀναστροφὴ λόγου ἐστὶ, λῆψις τοῦ ἡγουμένου πρὸς τὴν ὑπεροχὴν, ᾗ ὑπερέχει τὸ ἡγούμενον τοῦ ἑπομένου.
+## 16 Aequa ratio, est pluribus existentibus magnitudinibus, & alijs eis æqualibus multitudine, cum duabus sumptis & in eadem ratione: quando fuerit sicut in primis magnitudinibus primum ad vltimum, sic in secundis magnitudinibus primū ad vltimum. Vel aliter. acceptio extremorum, per subtractionem mediorum.
 
-## 16 Cōuersio rationis, est acceptio antecedentis ad excessum, quo excedit antecedens ipsum consequens.
+Exempli gratia, sint primi ordinis quantitates a, b, c, secundi verò d, e, f: sitq̄ a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f: vel a/ad b/sicut e/ad f, & b/ad c/veluti d/ad e: & concludendo sub-
 
-Hanc euersam rationem pleriq̄ nominant. Est enim comparatio cuiuslibet antecedentis, ad differentiam, qua idem antecedens suum excedit consequens. Exempli gratia. Sit rursum
+> Inferendi modus ex æqua ratione.
 
-> Euersa ratio.
+*[diagram: 6 3 2 / 9. a — 6. b — 3. c — 12. d — 8. e — 4. f]*
 
-k.iij.
+inferamus. Igitur sicut a/ad c, ita d/ad f. Hunc modum arguēdi, ex æquali, aut ex æqua ratione vocitamus. Vt si a ad b/& d/ad e/sesqualteram, b/autem ad c/& e/ ad f/duplam obtinuerit rationem: vel a/ad b/& e/ad f/dupla, b/ autem ad c/atque d/ ad e/sesqualtera ratione proportionetur: necessum est a/ ad c, atque d/ad f, triplam obseruare rationem. vt ex ipsa numerorum potes elicere formula.
+
+¶Τεταγμένη ἀναλογία ἐστὶν, ὅταν ᾖ ὡς ἡγούμενον πρὸς ἑπόμενον, οὕτως ἡγούμενον πρὸς τὸ ἑπόμενον: ἢ δὲ καὶ ὡς ἑπόμενον πρὸς ἄλλο τι, οὕτως ἑπόμενον πρὸς ἄλλο τι.
+
+## 17 Ordinata proportio, est cùm fuerit antecedens ad consequens, sicut antecedens ad consequēs: & consequēs ad rem aliam, sicut consequens ad rem aliam.
+
+Expeditis quæ ex eadem proportione subinferuntur rationum comparationibus: diffinit tandem Euclides, binas proportionum species, inter geminos proportionalium magnitudinum ordines accidentes. Ordinatam itaque proportionem adpellamus, quando antecedentium & cōsequētium ordinatim fit comparatio. Vt si bini (verbi gratia) fuerint numerorum ordines, a/b/c/inquā primus, & d/e/f/secūdus: fueritq̄
+
+> Exēplū ordinatæ proportionis.
+
+a/ad b/veluti d/ad e, & b/ad c/sicut e/ad f. Hāc rationū identitatem, ordinatam solemus vocitare proportionem. Huic contraria est perturbata, quæ sic diffinitur,
+
+*[table: a b c — d e f / 9 6 3 — 12 8 4]*
+
+¶Τεταραγμένη δὲ ἀναλογία ἐστὶν, ὅταν τριῶν ὄντων μεγεθῶν, καὶ ἄλλων ἴσων αὐτοῖς τὸ πλῆθος γίνεται: ὡς μὲν ἐν τοῖς πρώτοις μεγέθεσιν ἡγούμενον, πρὸς τὸ ἑπόμενον, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς τὸ ἑπόμενον: ὡς δὲ ἐν τοῖς πρώτοις μεγέθεσιν ἑπόμενον πρὸς ἄλλο τι, οὕτως ἐν τοῖς δευτέροις μεγέθεσιν ἡγούμενον πρὸς ἄλλο τι.
+
+## 18 Perturbata autē proportio, est quando tribus existentibus magnitudinibus, & alijs eis æqualibus multitudine: fit sicut quidē in primis magnitudinibus antecedens ad cōsequens, sic in secundis magnitudinibus antecedens ad consequens: sicut autē in primis magnitudinibus consequens ad rem aliam, sic in secundis res alia ad antecedens.

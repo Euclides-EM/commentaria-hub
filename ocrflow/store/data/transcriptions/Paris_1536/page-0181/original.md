@@ -1,25 +1,29 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-*164*
+*165*
 
-& f/c/g/ duobus angulis e/b/c/ & c/b/f, sunt per secundam communem sententiam æquales.sed anguli e/b/c/& b/c/f,sunt æquales duobus rectis,per vigesimamnonam ipsius primi.Et duo igitur anguli b/c/f/& f/c/g,binis itidem rectis sunt æquales. In directum eſt igitur b/c,ipsi c/g,per decimamquartam eiusdem primi: & e/f/consequenter ipsi f/h. Binis insuper datis rectis lineis b/c/& c/g,media proportionalis inueniatur l/m,per decimamtertiam huius sexti.Et per decimamoctauam eiusdem sexti, super data recta linea l/m, dato rectilineo a/ b/ c, simile similitérque positum rectilineum describatur,n/l/m. Aio rectilineum n/l/m, æquum fore ipsi d.Cùm enim tres lineæ rectæ b/c,l/m, & c/g,sint per conſtructionem cótinuè proportionales: erit per secundum corollariũ vigesimæ huius sexti , sicut prima ad tertiam,sic species rectilinei quæ à prima, ad similem similitérque positam speciem quæ à secunda.Sicut igitur b/c,ad c/g:sic a/b/c/rectilineum,ad rectilineũ n/l/m.Sicut porrò b/c,ad c/g: sic b/f/ parallelográmum,ad parallelogrammum c/h, per primam huius sexti:sunt enim in eadem altitudine c/f.Ergo sicut a/b/c/rectilineum,ad rectilineum n/l/m:sic per vndecimam quinti,b/f/parallelogrammum,ad parallelogrammum c/h. Sed rectilineum a/b/c,æquum eſt per conſtructionem ipsi b/f/parallelogrãmo:& rectilineũ igitur n/l/m, ipsi parallelogrammo c/h/per decimamquartam quinti eſt æquale.Eidem rursum parallelogrãmo c/h, æquũ eſt d/rectilineum,per conſtructionem:& n/l/m/itaq; rectilineum, ipsi d/rectilineo, per primam communem sentẽtiam eſt æquale. Conſtructũ eſt autem & ipsi a/b/c/ simile. Idem itaque rectilineum n/l/m,ipsi dato rectilineo a/b/c/simile,& alij dato scilicet d/æquale conſtitutum eſt.Quod efficere oportebat.
-
-> Demonſtratiua problematis resolutio.
-
-*[diagram: a d b c g e f h n l m]*
-
-*[diagram: |a/b/c. n/l/m|b/c.c/g| b/f. c/h.|]*
-
-Θεώρημα ιθ, Πρόθεσις κς.
-
-Εὰν ἀπὸ παραλληλογράμμου παραλληλόγραμμον ἀφαιρεθῇ ὅμοιόν τε τῷ ὅλῳ καὶ ὁμοίως κείμενον,κοινὴν γωνίαν ἔχον αὐτῷ,περὶ τὴν αὐτὴν διάμετρόν ἐστι τῷ ὅλῳ.
-
-## Theorema 19, Propositio 26.
-
-SI à parallelogrammo parallelogrammum auferatur, & simile toti & similiter positum,communem angulum habens ei:circum eundem dimetientem eſt toti.
-
-ORONTIVS. ¶Eſto datum parallelogrammum a/b/c/d : à quo simile similitérque positum,& communem illi habens angulum qui ad a, auferatur diſtinguatúrve parallelogrammum a/e/f/g. Dico ipsa a/b/c/d/ & a/e/f/g/ parallelogramma, circa eundem fore dimetientem a/f/c:hoc eſt dimetientem a/ f/ c/ totius parallelogrammi a/b/c/d,transire per angulum qui ad f,& vtriq; parallelogrammo fore communem. Si enim a/c/non transierit per f: transeat (si possibile sit)vt a/h/c. secabit igitur a/h/c,aut e/f,aut f/g/latus ipsius a/e/f/g/parallelogrammi.Secet ipsum latus e/f,in puncto h.& per punctum h,vtrique ipsarũ a/e/& f/g/parallela ducatur h/l, per trigesimamprimam primi. Erit itaque e/l/ parallelogrammum , & circa eundem dimetientem cum ipso a/b/c/d/parallelogrammo.Simile erit igitur e/l/ parallelogrammum, ipsi a/b/c/d/
-
-> Oſtẽsio theorematis ab impossibili.
+parallelogrammo,per vigesimamquartam huius sexti.Eidem porrò a/b/c/d parallelogrammo,simile eſt per hypothesin,ipsum e/f/g/parallelogrammum. Quæ autem eidem rectilineo similia,& adinuicem similia sunt,per vigesimamprimam huius sexti.Simile erit itaque e/l/parallelogrammum,ipsi e/f/g/parallelogrammo.Similia porrò parallelogramma sunt, quæ angulos æquales habent ad vnum,& quæ circa angulos æquales latera proportionalia,per primæ diffinitionis huius sexti conuersionẽ.Et sicut igitur e/a/ ad a/g,sic e/a/ad e/l.Ad quas autẽ eadem, eandẽ habet rationem,ipsæ sunt æquales,per nonam quinti.Aequalis foret igitur a/g,ipsi a/l,totum suæ parti:quod per nonam communẽ sententiam eſt impossibile.Idem etiam subsequetur incóueniens,vbi posueris eundẽ a/c/dimetientẽ secare latus f/g.Transit igitur a/c/totius a/b/c/d/ parallelogrammi dimetiens,per angulum atq; punctũ f: & proinde ipsum a/e/f/g/ parallelogrammum,circum eundem dimetientem eſt toti a/b/c/d/ parallelogrammo. Igitur si à parallelogrammo parallelogrammum auferatur: &c.vt in theoremate.Quod demonſtrare fuerat operæpretium.
 
 *[diagram: b c e h f a l g d]*
+
+Θεώρημα κ, Πρόθεσις κζ.
+
+Πάντων τῶν παρὰ τὴν αὐτὴν εὐθεῖαν παραβαλλομένων παραλληλογράμμων,καὶ ἐλλειπόντων εἴδεσι παραλληλογράμμοις ὁμοίοις τε ϗ̃ ὁμοίως κειμένοις τῷ ἀπὸ τῆς ἡμισείας ἀναγραφομένῳ:μέγιστόν ἐστι,τὸ ἀπὸ τῆς ἡμισείας παραβαλλόμενον παραλληλόγραμμον, ὅμοιον ὂν τῷ ἐλλείμματι.
+
+## Theorema 20, Propositio 27.
+
+OMnium parallelogrãmorum circum eandem rectam lineam proiectorum, deficientiúmq; specie parallelogrammis similibus similitérque positis ei quod à dimidia descriptum eſt : maximum eſt quod à dimidia proiectum parallelogrammum,simile exiſtens sumpto.
+
+> Quomodo parallelogrãmũ deficiat specie dato parallelogrammo.
+
+ORONTIVS. ¶Deficere specie dicitur parallelogrammum , dato parallelogrammo:quando vtrunque parallelogrammum super eadem recta linea consiſtẽs, alterum deeſt alteri, ad complendum similis speciei parallelogrammum super totam datam rectam lineam coextẽsum. Vel dum cõparatum parallelogrammum, reliquo deficit ab ipso similis speciei parallelogrammo, super totam ipsam rectam lineam conſtituto.
+
+> Prima theorematis differẽtia.
+
+Sit igitur data recta linea a/b,secta bifariam in c,per decimam primi:describatúrque à dimidia c/b,contingens parallelogrammum c/d.Iuxta verò datam rectam lineam a/b, gemina comparentur parallelogramma. alterum proiectum à reliqua dimidia a/c,vtpote a/e, simile similitérq; descriptũ exiſtens sumpto c/d,& deficiẽs specie ipso c/d/à toto a/d/ parallelogrammo:alterum autem a/f,super a/ g/ comparatum maiore dimidia ipsius a/ b, & proinde subingrediens ipsum parallelogrãmum c/d, deficiénsque specie parallelogrammo g/h,simili similitérque posito ipsi c/d/ quod à dimidia c/b/descriptum eſt,ad complendum ipsum a/h/parallelogrammum. Dico quòd a/e/parallelogrammum,maius eſt e/f/parallelogrammo.
+
+> Demõſtratio.
+
+Cùm enim ex hypothesi g/h/ parallelogrammum, simile sit ipsi parallelogrammo c/d:circum igitur eundem sunt dimetientem e/f/b, per vigesimamsextam huius sexti . Producatur ergo g/ f/ in rectum & continuum
+
+*[diagram: e d i f h a c g b]*

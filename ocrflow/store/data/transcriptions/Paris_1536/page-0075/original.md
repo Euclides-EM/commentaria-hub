@@ -1,41 +1,47 @@
-# Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Tertium elementorum Euclidis, Demonſtrationes.
+# LIBER III.
 
-## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΡΙΤΟΝ.
+centro in eas perpendiculares ductæ ſunt æquales . Magis autē diſtare dicitur:in quam maior perpendicularis cadit.
 
-Ὅροι.
+*[diagram: a d f g b c / h m o n p k l]*
 
-Ἴσοι κύκλοι ἐισὶν, ὧν αἱ διάμετροι ἰσὶν ἴσαι, ἢ ὧν αἱ ἐκ τῶν κέντρων, ἴσαι ἐισίν.
+Quemadmodùm in a/b/c/d/circulo, cuius centrum e, exiſtētes lineæ rectæ a/b/& c/d,æqualiter ab eodem centro e/diſtare cenſentur:propterea quòd e/f/& e/g/perpendiculares,ſunt inuicem æquales.In circulo porrò h/k/l/m,cuius cētrum n, h/ k/ plus diſtare dicitur à centro n, quàm l/ m : quoniam perpendicularis n/o,maior eſt n/p.
 
-## Diffinitiones.
+Τμῆμα κύκλου,ἐστὶ τὸ περιεχόμενον σχῆμα, ὑπό τε εὐθείας καὶ κύκλου περιφερείας.
 
-Equales circuli: ſunt quorū dimetiētes ſunt æquales, vel quorum quæ ex centris ſunt æquales.
+5 Sectio circuli:eſt figura comprehēſa ſub recta linea, & circuli circunferentia.
 
-Quales tibi repræſentant ſubſcripti a/& b/circuli. Hinc patet circulorum non æqualium diffinitio.quorum enim dimetientes,vel quæ ex centris fuerint inæquales: & ipſi quoque inæquales erunt circuli. Maior autē erit, cuius dimetiens , vel quæ ex centro maior : minor verò, cuius dimetiens,vel quæ ex centro minor extiterit. veluti ſunt c/ & d/circuli:quorum c,maior eſt ipſo d.
+In exemplum habes a/b/c/& d/e/f/circulorum ſectiones:ſub rectis a/ c/ & d/ f, & a/ b/ c/ atque d/ e/ f/ circunferentijs comprehenſas. Quarum a/ b/ c/ centrum iucludens,maior eſt ipſa d/e/f/ extra centrum conſtituta.
 
-> Circulorū inæqualiū contraria diffinitio.
+> Sectio, maior minor.
 
-*[diagram: a b c d]*
+*[diagram: b a c / e d f]*
 
-Εὐθεῖα κύκλου ἐφάπτεσθαι λέγεται, ἥτις ἁπτομένη τοῦ κύκλου καὶ ἐκβαλλομένη οὐ τέμνει τὸν κύκλον.
+Τμήματος δὲ γωνία ἐστὶν,ἡ περιεχομένη ὑπό τε εὐθείας,καὶ κύκλου περιφερείας.
 
-Recta linea circulum tangere dicitur:quæ circulū tangens & eiecta,circulum non ſecat.
+6 Sectionis angulus: eſt qui ſub recta linea,& circuli circunferentia comprehenditur.
 
-Hanc tibi repræſentat e/f, tangens circulum g/ h, in puncto quidem g.Quæ igitur cadit intra circulum:eiecta, circulum ſecare perhibetur . veluti recta k/ l, quæ datum k/ l/ m/circulum interſecat.
+Cuiuſmodi eſt angulus b/a/c,antecedentis deſcriptionis:ſub a/c/recta,& a/b/ circunferentia comprehenſus.aut e/d/f/angulus,qui ſub recta d/f,& d/e/circunferētia continetur.Quos quidem angulos mixtos vocitare ſolemus:id eſt,ſub recta & curua linea comprehenſos.
 
-> Quæ circulū ſecat.
+> Anguli mixti
 
-*[diagram: e f g h k l m]*
+Ἐν τμήματι δὲ γωνία ἐστὶν,ὅταν ἐπὶ τῆς περιφερείας τοῦ τμήματος,ληφθῇ τι σημεῖον,καὶ ἀπ' αὐτοῦ ἐπὶ τὰ πέρατα τῆς εὐθείας,ἥτις ἐστὶ βάσις τοῦ τμήματος,ἐπιζευχθῶσιν εὐθεῖαι. ἡ περιεχομένη γωνία ὑπὸ τῶν ἐπιζευχθεισῶν εὐθειῶν.
 
-Κύκλοι ἐφάπτεσθαι ἀλλήλων λέγονται, οἵτινες ἁπτόμενοι ἀλλήλων,οὐ τέμνουσιν ἀλλήλους.
+7 In ſectione autē angulus eſt:cùm in circunferentia ſectionis contingit aliquod punctum,& ab eo in rectæ lineæ fines,quæ baſis eſt ſectionis,rectæ lineæ coniunguntur. Contentus autē angulus,ſub coniunctis rectis lineis eſt.
 
-Circuli ſeſe tangere adinuicem dicuntur:qui ſeſe inuicem tangētes,ſe non inuicem ſecant.
+Quemadmodùm ex ſubiectę deſcriptionis angulis g/h/k,& l/m/n,deprehendere licet.A pūcto enim h,in fines ipſius rectę g,k(quæ baſis dicitur)rectę lineæ h/g/& h/k/coniunctæ:angulum ipſum g/h/k/in data ſectione,& ad punctum h/conſtituūt. Idem cenſeto de l/m/n/alterius ſectionis angulo.
 
-Quales eſſe videntur n/o/& o/p/circuli,in o/puncto ſeſe inuicem cōtingentes. Cùm porrò vnius circunferentia, alterius ingreditur circūferentiam: tunc huiuſcemodi circuli, ſeſe dicūtur interſecare. Veluti circuli q/ r/ s, & r/s/t, in punctis quidem r/ & s/ ſe mutuo interſecātes.
+*[diagram: h g k / m l n]*
 
-> Circuli ſeſe interſecātes.
+Ὅταν δὲ αἱ περιέχουσαι τὴν γωνίαν εὐθεῖαι ἀπολαμβάνωσί τινα περιφέρειαν, ἐπ' ἐκείνης λέγεται βεβηκέναι ἡ γωνία.
 
-*[diagram: n o p q r s t]*
+8 Cùm verò comprehendentes angulum rectę lineæ,aliquam ſuſcipiunt circunferentiam:in illa angulus eſſe dicitur.
 
-Ἐν κύκλῳ ἴσον ἀπέχειν τοῦ κέντρου εὐθεῖαι λέγονται, ὅταν αἱ ἀπὸ τοῦ κέντρου ἐπ' αὐτὰς κάθετοι ἀγόμεναι ἴσαι ὦσιν.μεῖζον. ἢ ἀπέχειν λέγεται,ἐφ' ἣν ἡ μείζων κάθετος πίπτει.
+Veluti ſunt o/p/& p/q/lineę rectæ,angulū qui ad punctū p/ comprehendentes,& o/p/q/ſuſcipiētes circunferentiā. In ipſa igitur circunferētia o/p/q, comprehenſus angulus eſſe dicitur. Quòd ſi rectæ lineæ angulum conſtituētes,ad centrum conueniant circuli : comprehenſus tūc angulus in centro dicetur eſſe circuli,veluti angulus r/s/t,ſub rectis r/s/& s/t/ex cētro s/prodeuntibus comprehenſus.
 
-In circulo æqualiter diſtare à centro rectæ lineæ dicuntur: cùm à
+> Angulus in cētro.
+
+*[diagram: p o q / s r t]*
+
+Τομεὺς δὲ κύκλου ἐστὶν,ὅταν πρὸς τῷ κέντρῳ αὐτοῦ τοῦ κύκλου σταθῇ ἡ γωνία τὸ περιεχόμενον σχῆμα ὑπό τε τὴν γωνίαν περιεχουσῶν εὐθειῶν,καὶ τῆς ἀπολαμβανομένης ὑπ' αὐτῶν περιφερείας.
+
+9 Sector autem circuli:eſt cùm ad centrum circuli ſteterit angulus,

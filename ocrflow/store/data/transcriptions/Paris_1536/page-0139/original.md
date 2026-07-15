@@ -1,13 +1,49 @@
-# GEOMET. ELEMENT. LIB. V.
+*135*
 
-*134*
+*[ornamental headpiece]*
 
-ORONTIVS. ¶ Sint quatuor eiusdem generis magnitudines a/b, c/d/e, & f, inuicem proportionales, sicut quidem a/b/ad c/d, sic e/ad f: sit'q; a/b/omnium maxima, f/verò minima. Dico quòd a/b/& f, reliquis c/d/& e/sunt maiores. Quoniam enim a/b/omnium quatuor supponitur maxima: maior est igitur a/b, ipsa e/magnitudine. A maiori itaq; a/b, secetur æqualis ipsi e/minori, per tertiam primi: sit'q; a/g. Rursum, quoniā est vt a/b/ad c/d, sic e/ad f, prima autem a/b, maior est tertia e: & secunda igitur c/d, ipsa f/quarta maior erit, per decimāquartam huius quinti. A maiori rursum c/d, secetur ipsi f/æqualis, per eandem tertiam primi: sit'que c/h. Cùm igitur sit vt a/b/ad c/d, sic e/ad f, & æqualis sit a/g/ipsi e, & c/h/ipsi f: est igitur vt a/b/ad c/d, sic a/g/ad c/h, hoc est, sicut totum a/b/ad totum c/d, sic ablatum a/g/ad ablatum c/h. Et reliquum itaque g/b/ad reliquum h/d/erit sicut totum a/b/ad totum c/d: per decimamnonam ipsius quinti. Prima autem a/b/maior est tertia c/d: & secunda itaque g/b, maior erit quarta h/d, per ipsam decimamquartam eiusdem quinti. Porrò a/g/æqualis est ipsi e: & c/h/ipsi f, per constructionem. Binæ igitur a/g/& f, duabus c/h/& e, sunt per secundam communem sententiam æquales. Si autem inæqualia æqualibus adiungantur, omnia erunt inæqualia: per quartam communem sentētiam. Et quoniam ipsis a/g/& f/additur g/b, ipsis autem c/h/& e/additur h/d, & maior est g/b/ipsa h/d: maiores ergo sunt a/b/maxima & f/minima, reliquis c/d/& e/magnitudinibus. Quod receperamus ostendendum.
+# Orontij Finei Delphinatis, Regii mathematicarvm professoris, In Sextum elementorum Euclidis, Demonstrationes.
 
-*[diagram: a g b / c h d / e / f]*
+## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΕΚΤΟΝ.
 
-∴ ∴ ∴
+### Οροι ε.
 
-## Quinti Libri Geometricorum Elementorum
+Ομοια σχήματα εὐθύγραμμα ἐστὶν, ὅσα τάς τε γωνίας ἔχῃ κατὰ μίαν, καὶ τὰς περὶ τὰς ἴσας γωνίας πλευρὰς, ἀνάλογον.
 
-## FINIS.
+## ¶ Diffinitiones 5.
+
+> 1
+
+SImiles figuræ sunt, quæ & angulos æquales habēt ad vnum, & quæ circa angulos æquales sunt latera proportionalia.
+
+Vtpote, si fuerint bina triangula a/b/c, & d/e/f/inuicem æquiangula: fuerítque angulus qui ad a/æqualis angulo qui ad d, & qui ad b/est angulus ei qui ad e, atque is qui ad c/angulo qui ad f/respōdenter æqualis. sítque insu per vt a/b/latus ad b/c, sic d/e/ad e/f: vtq̃; b/c/ad c/a, sic e/f/ad f/d: atque demum sicut c/a/ad a/b, sic f/d/ad d/e. Huiuscemodi nanque triangula, similia nuncupamus: etiam si fuerint inæqualia.
+
+*[diagram: a b c, d e f]*
+
+¶ Αντιπεπονθότα δὲ σχήματά ἐστιν, ὅταν ἑκατέρῳ τῶν σχημάτων ἡγούμενοί τε καὶ ἑπόμενοι λόγοι ὦσιν.
+
+> 2
+
+Reciprocæ autem figuræ sunt, quando in vtraq; figura antecedētes & consequentes termini rationales fuerint.
+
+De rectilineis videtur intelligere figuris. quemadmodùm si duorum rectilineorum & æquiangulorum a/b/c/& d/b/e, angulū qui sub a/b/& b/c, ei qui sub d/b/& b/e/cōtinetur æqua lem habētium: fuerit sicut latus a/b/ad latus b/d, sic latus e/b/ad latus b/c: aut sicut a/b/ad b/e, sic d/b/ad b/c. Tali nanq; modo fit antecedentium & consequentium terminorum, hoc est comparatorum adinuicem laterū, quæ circum æquales angulos, reflexa proportio, reciprocáve rationum similitudo: dicūtúrque eiuscemodi figuræ, cùm adinuicem comparantur, reciprocæ.
+
+*[diagram: a b c d e]*
+
+¶ Ακρον καὶ μέσον λόγον εὐθεῖα τετμῆσθαι λέγεται, ὅταν ᾖ ὡς ἡ ὅλη πρὸς τὸ μεῖζον τμῆμα, οὕτως τὸ μεῖζον πρὸς τὸ ἔλασσον.
+
+> 3
+
+Per extremam & mediam rationē, recta linea diuidi dicitur: quādo fuerit sicut tota ad maius segmentum, sic maius ad minus.
+
+Vtpote, si data recta linea a/b/diuidatur in puncto c: fuerítque vt tota a/b/ad segmentum maius b/c, sic idem segmen tum b/c, ad reliquum c/a.
+
+*[diagram: a c b]*
+
+¶ Υψος ἐστὶ, πάντος σχήματος ἡ ἀπὸ τῆς κορυφῆς ἐπὶ τὴν βάσιν κάθετος ἀγομένη.
+
+> 4
+
+Altitudo est, vniuscuiusque figuræ à vertice ad basin perpendicularis deducta.
+
+m.ij.

@@ -1,45 +1,35 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-> 15 Diffinitio Circulus è figura plana vna linea contenta que circumferẽtia appellatur ad quam ab vno puncto intra eum medio exiſtente oẽs procedentes linee in ipſius circuli circũferentia ĩcidentes ad inuicem ſunt equales.
+*[page number: 13]*
 
-> Rectam lineam terminatam in continuũ rectum q̃ producere.
+lineis contentum:& basin basi æqualem habebunt,& triangulum triangulo æquum erit, & reliqui anguli reliquis angulis æquales erunt alter alteri,sub quibus æqualia latera subtenduntur.
 
-ipſius circuli circunferentiam: ſitq́; d/e. Centro rurſum d, interuallo autẽ d/e, circulus deſcribatur e/g/h, per idem tertium poſtulatũ. Producatúrque tandem recta d/a, in circunferentiam ipſius e/g/h/ circuli, per ſecũdum poſtulatum: ſitq́; d/g. Cùm igitur punctum b, centrũ exiſtat circuli c/e/f: æqualis eſt b/c/ recta ipſi b/e, per decimamquintam diffinitionem. Rurſum quoniam punctum d, cẽtrum eſt e/g/h/ circuli: æqualis eſt, per eandem diffinitionem, recta d/e/ ipſi d/g. A quibus ſi auferãtur a/d, & b/d/ inuicẽ æquales (nempe latera trianguli æquilateri) reliqua a/g, reliquæ b/e, per
+ORONTIVS.Sint bina triangula a/b/c/& d/e/f,habentia duo latera a/b/ & a/c,duobus lateribus d/e/& d/f/alternatim æqualia,hoc est,a/b/ipsi d/e,& a/c/ipsi d/f:atq angulum b/a/c,æqualem angulo e/d/f/ sub æqualibus rectis lineis contento. Dico primùm, quod basis b/c/est æqualis basi e/f. Comparato nanq triangulo a/b/c/ipsi d/e/f,atque puncto a/supra d/pūctum constituto, extensáque recta a/b/ super rectam d/e:conueniet punctū b/ipsi puncto e:nam a/b/ipsi d/e/per hypothesin est æqualis.quæ autem sunt adinuicem æqualia,sibimetipsis conueniunt,per conuersam octauæ communis sententiæ. Et quoniam angulus b/a/c, angulo e/d/f/ per hypothesin quoque est æqualis: cadet igitur,per eandem conuersam,a/c/recta,super rectam d/f.secus enim alter angulorum foret reliquo maior,cótra ipsam hypothesin.At cùm a/c/& d/f/rectæ,sint, ex eadem hypothesi adinuicem æquales: conueniet rursum punctum c/ipsi puncto f,per allegatam octauæ communis sententiæ conuersionem.Binæ igitur rectæ b/c/& e/f, ab eodem communi pūcto,ad idem commune punctum educentur: cóuenient ergo adinuicem,per datam ipsius lineæ rectæ diffinitionem.Conuenientibus enim b,e/& c,f/limitibus,si eædem b/c/& e/f/ rectæ minimè conuenirent: duæ lineæ rectæ includerent superficiem,contra decimam communem sententiam,& diffinitam rectarum linearum descriptionem.conuenit itaq b/c/ipsi e/f.Quæ autem sibimetipsis conueniunt,æqualia sunt adinuicem,per octauam cómunem sententiam.basis ergo b/c,basi e/f/cócluditur æqualis.Dico præterea,ꝗ triangulum a/b/c/triangulo d/e/f/ æquum est.Conueniunt enim singula latera ipsius a/b/c/trianguli, singulis d/e/f/ trianguli lateribus : & triangulum igitur triangulo conuenit. Vnde per eandem octauam communem sentētiam,a/b/c/ triāgulum, ipsi d/e/f/triangulo æquum erit.Aio tādem,reliquos angulos reliquis angulis,sub quibus æqualia subtenduntur latera,fore alterum alteri æquales:vtpote, a/b/c/ipsi d/e/f,sub quibus a/c/& d/f,& a/c/b/ipsi d/f/e,sub quibus a/b/ & d/e/latera subtenduntur æqualia. Conueniunt enim singula latera singulis lateribus, sub quibus ipsi continentur anguli. Ex laterum porrò conuenientia æqualis eorūdem subsequitur inclinatio.ex æquali autē inclinatione laterum,contentorū angulorum cóuincitur æqualitas. Si bina igitur triāgula duo latera duobus lateribus æqualia habuerint &c. vt in theoremate.Quod erat demonstrandum.
 
-*[diagram: circles with h, f, d, a, b, c, g, e]*
+*[diagram: triangles a b c and d e f]*
 
-> Cẽtro & interuallo circulum deſcribere.
+> Pars prima theorematis.
 
-tertiam communem ſentẽtiam erit æqualis. Atqui monſtratum eſt, quòd & b/c/ eidem b/e/ eſt æqualis. Binæ igitur a/g/ & b/c, eidem b/e/ ſunt æquales: quapropter & æquales adinuicem, per primam communem ſententiam. Ad datum ergo pũctum a/ datæ rectæ lineæ b/c, æqualis recta linea poſita eſt a/g. Quod oportuit feciſſe.
+> *[handwritten: Quæ sibimet ipsis conueniunt equalia sunt ad inuicem]*
 
-> Que eidem equalia et ad inuicem ſunt equales
+> *[handwritten: Que ad inuicem equalia sunt,sibimet ipsis cōueniunt/per conuersionē]*
 
-Πρόβλημα γ, Πρόθεσις γ.
+> *[handwritten: Linea est longitudo latitudinis expers.]*
 
-Δύο δοθεισῶν ευθειῶν ἀνίσων, ἀπὸ τῆς μείζονος, τῇ ἐλάσσονι ἴσην ευθεῖαν ἀφελεῖν.
+> *[handwritten: Duæ rectæ lineæ superficiem nō concludunt]*
 
-## Problema 3, Propoſitio 3.
+> Pars secunda
 
-## DVabus datis rectis lineis inæqualibus, à maiori minori æquã 3 rectam lineam abſcindere.
+> Tertia pars.
 
-> Ad datum punctum date recte lineæ equam rectam lineam ponere
+Θεώρημα β, Πρόθεσις ε.
 
-ORONTIVS. Sint datæ binæ rectæ lineæ inæquales, a/b/ quidẽ maior, minor verò c/d: cui receptũ ſit, ab ipſa maiore a/b, æquã lineam rectã abſcindere. Ad datũ ergo punctum a/ alterum ipſius maioris a/b/ limitem, eidem minori c/d/ ponatur æqualis, per ſecundam propoſitionẽ: ſitq́; a/e. Et centro a, interuallo autem a/e, circulus deſcribatur e/f/g, per tertium poſtulatum. Cùm igitur a/e/ recta ſit æqualis ipſi c/d, ſitq́; c/d minor ipſa a/b, per hypotheſin: erit & a/e/ eadem a/b/ minor. quæ enim ſunt æqualia, eiuſdem ſunt æquè minora, per conuerſam ſeptimæ cómunis ſentẽtiæ. Egredietur ergo a/b/ maior ipſa a/e, circunferẽtiã circuli e/f/g, ad interuallum eiuſdem a/e/ deſcripti, candémq; circunferẽtiam egrediendo ſecabit: ſecet igitur in puncto f. Et quoniã punctũ a, centrum eſt circuli e/f/g: æqualis eſt a/f/ recta ipſi a/e, per decimamquintã diffini-
+Τῶν ἰσοσκελῶν τριγώνων αἱ πρὸς τῇ βάσει γωνίαι ἴσαι ἀλλήλαις ἐισί.καὶ προσεκβληθεισῶν τῶν ἴσων εὐθειῶν,αἱ ὑπὸ τὴν βάσιν γωνίαι ἴσαι ἀλλήλαις ἔσονται.
 
-*[diagram: e, a f b, g, c d]*
+## Theorema 2, Propositio 5.
 
-> Cẽtro & interuallo circulum deſcribere
+5 ISoscelium triangulorum qui ad basin sunt anguli,adinuicem sunt æquales : & productis æqualibus rectis lineis , qui sub basi sunt anguli adinuicem æquales erunt.
 
-> Que eidem ſunt equalia ſunt ad inuicem
+ORONTIVS.Sit triangulū isosceles a/b/c: cuius latera a/b/& a/c/sint adinuicem æqualia.Hæc autē versus d,& e,puncta,in cótinuū rectúmq producantur:
 
-tionẽ. Eidẽ porrò a/e, æqualis eſt & recta c/d. Binæ igitur a/f/ & c/d, eidem a/e/ ſunt æquales: & propterea æquales adinuicẽ, per primã cómunem ſentẽtiam. Eſt autẽ & a/f, pars ipſius maioris a/b Duabusergo lineis rectis inæqualibus datis, a/b quidẽ & c/d: à maiori a/b, ſecta eſt a/f/ ipſi c/d/ minori æqualis. Quod oportebat facere.
-
-Θεώρημα α, Πρόθεσις δ.
-
-Εὰν δύο τρίγωνα τὰς δύο πλευρὰς, ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, καὶ τὴν γωνίαν τῇ γωνίᾳ ἴσην ἔχῃ, τὴν ὑπὸ τῶν ἴσων ευθειῶν περιεχομένην, καὶ τὴν βάσιν τῇ βάσει ἴσην ἕξει, καὶ τὸ τρίγωνον τῷ τριγώνῳ ἴσον ἔσται, καὶ αἱ λοιπαὶ γωνίαι ταῖς λοιπαῖς γωνίαις ἴσαι ἔσονται ἑκατέρα ἑκατέρᾳ, ὑφ' ἃς αἱ ἴσαι πλευραὶ ὑποτείνουσι.
-
-> Duæ ſequentes propoſitiones dicta ſunt Elaphuga [?] miſerorum fuga quod ſecus quam nulli aſſequuti ſunt aut rari & precipue quintam.
-
-## Theorema 1, Propoſitio 4.
-
-## SI duo triãgula duo latera duobus lateribus æqualia habuerint 4 alterũ alteri, & angulum angulo æqualem ſub æqualibus rectis
+b.j.

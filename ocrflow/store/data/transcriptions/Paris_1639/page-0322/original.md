@@ -1,25 +1,16 @@
-# Page 321
+# Page 322
 
-# PRACTIQVE.
+# ARITHMETIQVE
+
+Pour multiplier entier & rompu par entier & rompu, il faut premierement adiouster les entiers auec leurs fractions, puis faire la multiplication : par exemple, pour multiplier 17 3/4 par 8 5/6, i'adiouste, par la methode donnée cy deuant, 17 auec sa fraction 3/4, & trouue 71/4 : puis i'adiouste aussi 8 auec sa fraction 5/6, & trouue 53/6 : ce faict, multipliant les numerateurs 71 & 53 l'vn par l'autre, & aussi les denominateurs 4 & 6, vient 3763/24, qui donne en diuisant le numerateur par le denominateur 156 19/24 pour le produict de la multiplication.
+
+*De la diuiſion.*
+
+Si les fractions sont en mesme denomination, la diuision se fera en diuisant le numerateur du diuidende par le numerateur du diuiseur : ce faisant on trouuera que 6/7 estant diuisé par 2/7, donne 3 pour le quotient. Et au contraire, 2/7 estant diuisé par 6/7, ne donne que 2/6 ou ⅓. Que si les fractions ne sont en mesme denomination, il faudra premierement les reduire, puis faire la diuision. Mais à cause que les ayant reduict en mesme denomination, il faut quitter les denominateurs, la diuision se fera plus briefuement sans les reduire en mesme denomination, en multipliant le numerateur du diuidende par le denominateur du diuiseur, & le numerateur du diuiseur par le denominateur du diuidende. Ce faisant on trouuera que 2/3 estant diuisé par 4/5 donne 10/12 ou 5/6.
 
 *Operation.*
 
-4 X 2 | 12 } 15 2/15.
-5   3 | 10
-——
-2 *reſte.*
+2 X 4 | 10
+3   5 | 12
 
-Aux soustractions des exemples suiuans, i'emprunte vn de l'entier, que ie fais valoir autant que le denominateur de la fraction à soustraire : Par exemple, pour soustraire 9/16 de 7, ie prens vn de 7, que ie fais valoir 16, de qui i'oste le numerateur 9, & reste 6 7/16. Pour soustraire 8 3/4 de 23⅔, ie reduits premierement ⅔ & 3/4 en mesme denomination, & trouue au lieu d'icelles 8/12 & 9/12, puis à cause que 9 ne se peut soustraire de 8, i'emprunte vn de 23, que ie fais valoir autant que le denominateur commun, à sçauoir 12, & ostant le numerateur 9 de 12, ou de 12 & 8, qui font 20, reste 11 ou 11/12, & ostant aussi 8 de 22 qui restent en 23, le reste de la soustraction sera 14 11/12.
-
-7
-9/16
-*Reſte* 6 7/16.
-
-23⅔ | 8 } 12
-8 3/4 | 9
-——
-14 12/12 *Reſte* | 11 *Reſte*.
-
-*De la multiplication.*
-
-Soit que les fractions soient en mesme denomination ou non, multipliant les numerateurs l'vn par l'autre, & aussi les denominateurs, on aura le produict de la multiplication : ce faisant on trouuera que 2/5 estant multipliez par 2/5 font 6/25 : & aussi 4/5 multipliez par 2/3 font 8/15. Pour multiplier vn nombre entier par entier & rompu, par exemple, 12 par 7⅔, ie multiplie premierement 12 par 7, & vient 84, puis ie multiplie 12 par le numerateur 2, & vient 24/3, qui valent 8, & 84 auec 8 font 92, pour le produict requis.
+Pour diuiser vn nombre entier par vne fraction, ou vne fraction par vn nombre entier, il faudra donner à l'entier vn pour denominateur ; ce faisant, on trouuera que

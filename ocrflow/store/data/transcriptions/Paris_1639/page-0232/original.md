@@ -1,58 +1,48 @@
-# Page 231
+# Page 232
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-THEOR. XIV. PROPOS. XIV.
+THEOR. XV. PROPOS. XV.
 
-Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme; & que la premiere soit plus grande que la troisiesme, la seconde sera aussi plus grande que la quatriesme. Et si la premiere est égale à la troisiesme, aussi la seconde sera égale à la quatriesme; & si plus petite, plus petite.
+Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre respondent.
 
 (figure)
 
-*Hypoth. commun.*
+*Hypoth.*
+
+ab *multipl..* | c,
+de *multipl..* | f.
+
+*Req. à demonſtr.*
+
+ab π de 2|2 c π f.
+
+*Demonſtr.*
+
+hyp. | c, ag, gb *ſnt* 2|2 đe.
+hyp. | f, dh, he *ſnt* 2|2 đe.
+ſ.2.d.5 | *multd..par..* ab 2|2 *multd..par..* de,
+ſ.7.5 | ag π dh 2|2 c π f,
+ſ.7.5 | gb π he 2|2 c π f.
+concl. 12.5 | ab π de 2|2 c π f.
+
+THEOR. XVI. PROPOS. XVI.
+
+Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement proportionelles.
+
+(figure)
+
+*Hypoth.*
 
 a π b 2|2 c π d,
 
-*Hypoth. 1.*
-
-a 3|2 c, α
-
 *Req. à demonſtr.*
 
-b 3|2 d.
+a π c 2|2 b π d.
 
-*Demonſtr.*
+*Prepar.*
 
-hyp. | c π d 2|2 a π b,
-α.8.5 | a π b 3|2 c π b,
-13.5 | c π d 3|2 c π b,
-1.concl. 10.5 | b 3|2 d.
-
-*Hypoth. 2.*
-
-a 2|2 c, β
-
-*Req. à demonſtr.*
-
-b 2|2 d.
-
-*Demonſtr.*
-
-hyp. | c π d 2|2 a π b,
-β.7.5 | c π b 2|2 a π b,
-11.5 | c π d 2|2 c π b,
-2 concl. 9.5 | b 2|2 d.
-
-*Hypoth. 3.*
-
-a 2|3 c. γ
-
-*Req. à demonſtr.*
-
-b 2|3 d.
-
-*Demonſtr.*
-
-hyp. | c π d 2|2 a π b,
-γ.8.5 | a π b 2|3 c π b,
-13.5 | c π d 2|3 c π b,
-3.concl. 10.5 | b 2|3 d.
+3.1 | e *multipl..* | a,
+| f *multipl..* | b, α
+3.1 | g *multipl..* | c,
+| h *multipl..* | d.

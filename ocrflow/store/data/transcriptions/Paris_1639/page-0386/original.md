@@ -1,11 +1,19 @@
-# Page 385
+# Page 386
 
-# PRACTIQVE.
+# GEOMETRIE
 
-que la premiere, & le plan se peut prendre plus promptement par icelle que par la premiere : Car on a plustost obserué la quantité d'vn angle, que mesuré actuellement les lignes qui le comprennent, principalement si elles sont longues : & se trouuent beaucoup de lieux, les lignes desquels ne se peuuent mesurer actuellement, encore qu'on puisse obseruer les quantitez de leurs angles. Et les plans des lieux montagneux qui se font par le moyen des quantitez de leurs lignes, ne peuuent estre iustes, mais en ceux qui se font par le moyen de leurs angles bien obseruez, il n'y peut auoir guere d'erreur, pourueu qu'on les obserue en tenant l'instrument parallele à l'horizon.
+& autres choses plus notables de la ville, & aussi pour faire vne carte topographique, on se pourra seruir de la 4 methodo à prendre le plan d'vne ville assiegée.
 
-Les manieres de prendre le plan des 1 & 5 exemples de la 3 methode ne sont pas si iustes que celles qui se prennent par le moyen des triangles : à cause qu'il est difficile d'obseruer tous les angles sans aucun erreur, & que l'erreur qu'on aura faict en obseruant, s'augmentant d'autant plus que le circuit de la figure est grand, est cause que la figure ne se pourra clorre en donnant à chaque angle sa quantite obseruée. Or on pourra trouuer combien il y a d'erreur aux quantitez de tous les angles obseruez, en les adioustant ensemble, & comparant leur somme auec le nombre des degrez que doiuent faire tous les angles de la figure proposée, lequel nombre des degrez se pourra trouuer, par le scholie de la 32 du 1 des elem. Par exemple, si tous les angles obseruez d'vn pentagone valent 536 degrez, il y aura erreur de 4 degrez aux quantitez des angles obseruez, veu que tous les angles d'vn pentagone sont égaux à 6 angles droicts, qui valent 540 degrez.
+*De l'Epipedometrie ou Planimetrie.*
 
-La maniere de prendre le plan selon le 3 exemple de la 3 methode est tres bonne, pour prendre le plan d'vne ville qui aura quelque clocher qui puisse estre veu de tous les costez de la ville : Et le plus seur sera d'obseruer les quantitez de tous les angles FBC, FBA, FAB, FAE, FEA, FED, FDE, FDC, FCD, FCB : & de mesurer en chemin faisant les longueurs des ramparts BA, AE, ED, DC, & CB : ce faict, il sera facile de faire le plan, ou par le moyen des seuls angles, ou plustost en employant les angles & les costez, afin que l'vn corrige l'autre s'il y a erreur aux obseruations.
+Trouuer l'aire d'vn rectangle.
 
-La 4 methode est commode pour mettre dans le plan les Eglises,
+(figure)
+
+Il faut mesurer la longueur AD, & la largeur AB, puis les multiplier l'vn par l'autre, & le produict sera le contenu du rectangle AC : ce faisant on trouuera que si la longueur est 12, & la largeur 5, que le contenu sera 60. Que si la longueur vaut 12 toises 7′, ou 127′, & la largeur 5 toises 8″, ou 508″, multipliant 127′ par 508″ viendra 64516‴, pour le contenu du rectangle AC, duquel nombre, si on retranche trois figures du costé droict à cause des trois accents, on aura 64 toises & 516‴, qui en fraction vulgaire font 516/1000 de toise. Et pour sçauoir combien de pieds & pouces vaudra cette fraction, on multipliera le numerateur 516 par 36 pieds, qui est la valeur d'vne toise en superficie, & viendra 18576 du costé droict, duquel retranchant 3 figures, à cause du denominateur ou diuiseur 1000, on aura 18 pieds : & pour les reduire en pouces, les trois figures retranchées 576, on les multipliera par 144 pouces (qui est le quarré de 12) & viendra 82944, qu'on diuisera par le denominateur 1000, en retrãchant seulement trois figures du costé droict, & viẽdra 82 pouces, & la fraction 944/1000, qui vaut enuiron 9/10 d'vn pouce : partant on conclura que le contenu du rectangle AC est 64 toises 18 pieds, & 84 944/1000 pouces.
+
+La demonstration de la mesure du rectangle depend de la premiere definition du second des elements.
+
+*Trouuer l'aire d'vn triangle rectangle.*
+
+Il faut mesurer les deux costez AB & AC comprenans l'angle droict A, puis les multiplier l'vn par l'autre, & la moitié du pro-

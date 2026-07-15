@@ -1,44 +1,55 @@
-# Page 190
+# Page 191
 
-# LES ELEMENTS
-
-angles est pair, la ligne droicte, menée de quelconque angle à l'angle opposé, diuise l'vn & l'autre angle en parties égales.
-
-*Hypoth. du 1. cas.*
-
-abcdefg *eſt vne figure equilat. & equiangle.*
-
-dh 2|2 he,
-
-*Req. à demonſtrer.*
-
-∠hab 2|2 ∠hag.
+# D'EVCLIDE, LIV. IV.
 
 (figure)
 
-(figure)
+*Hypoth.*
+
+abcde *eſt* 5∠ *equilat. & equiangle.*
+
+*Req. à faire.*
+
+*inſcrire au* 5∠. abcde *le* ⊙ghikl.
+
+*Conſtr.*
+
+9.1 | ∠fab 2|2 ∠fae,
+9.1 | ∠ fba 2|2 ∠fbc,
+ſ.12.4 | f *eſt interſect.*
+12.1 | fg ⊥ ab,
+3.p.1 | fghikl *eſt* ⊙,
+ſymp. | ⊙fghikl *eſt le req.*
 
 *Preparation.*
 
-1 p.1 | ac, ad, ae, af *ſnt* ——.
+12.1 | fh ⊥ bc, fi ⊥ cd,
+12.1 | fk ⊥ de, fl ⊥ ae,
+1.p.1 | fc, fd, fe *ſnt* ——;
 
-*Demonſtration.*
+*Demonſtr.*
 
-hyp. | ab, ag, bc, gf, cd, fe, de *ſnt* 2|2 đe.
-hyp. | ∠; abc, agf, bcd, gfe, cde, fed *ſnt* 2|2 đe.
-4.1 | ac 2|2 af, ∠bac 2|2 ∠gaf, ∠bca 2|2 ∠gfa,
-3.a.1 | ∠acd 2|2 ∠afe,
-4.1 | ad 2|2 ae, ∠cad 2|2 ∠fae, ∠cda 2|2 ∠fea,
-3.a.1 | ∠adh 2|2 ∠aeh,
-hyp. | dh 2|2 he,
-8.1 | ∠had 2|2 ∠hae,
-concl. 2.a.1 | ∠hab 2|2 ∠hag. α
+*aux* △;fba *&* fbc
 
-*Demonſtr. du 2.cas.*
+hyp. | ba 2|2 bc,
 
-d. α | ∠eab 2|2 ∠eah,
-d. α | ∠aed 2|2 ∠aef.
+bf *eſt commun.*
 
-PROBL. XIII. PROPOS. XIII.
+conſtr. | ∠fba 2|2 ∠fbc,
+4.1 | ∠fcb 2|2 ∠fab, α
+hyp. | ∠bcd 2|2 ∠bae,
+3 a.1 | ∠fcd 2|2 ∠fae, β
+conſtr. | ∠baf 2|2 ∠fae,
+β.1.a.b | ∠fcb 2|2 ∠fcd, γ
+d. γ | ∠fcd,∠fdc / ∠fde,∠fed / ∠fea, &c. *ſnt* 2|2 đe.
 
-En vn pentagone donné, equilateral & equiangle, inscrire vn cercle.
+*aux* △; fag *&* fal
+
+26.1 | fg 2|2 fl,
+26.1 | fh 2|2 fg, &c. β
+d. β | fg,fh,fi / fk,fl *ſnt* 2|2 đe.
+concl. 5.d.4 | ⊙fghk *eſt inſcrire au* 5∠abd,
+
+COROLL.
+
+Il s'ensuit de la demonstration de ce probleme, que si deux angles prochains d'vne figure equilaterale &

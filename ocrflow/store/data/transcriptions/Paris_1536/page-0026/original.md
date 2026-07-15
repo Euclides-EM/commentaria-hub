@@ -1,55 +1,57 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-Cùm enim dati cuiuſlibet anguli recti magnitudo quadrans exiſtat circuli, eiuſdémq̃ circuli quardrantes ſint adinuicem æquales: fit vt inter quoſuis angulos rectos nulla poſſit eſſe differentia, ſed omnes ſint adinuicẽ æquales. Quemadmodùm ex his quæ ſeptima, nona, & decima præmiſimus diffinitionibus, elicere vel facilè potes.
+Si nanq̃ h,k/ magnitudinibus inæqualibus, æquales adiungantur magnitudines l,m: conſurgent inæquales adinuicem magnitudines h/l/ & k/m. Aut ſi ab eiſdem inæqualibus ma-
 
-Καὶ ἐὰν εἰς δύο ευθείας, ευθεῖα ἐμπίπτουσα, τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας, δύο ὀρθῶν ἐλάσσονας ποιῇ, ἐκβαλλόμεναι αἱ δύο αὗται ευθεῖαι ἐπ' ἄπειρον, συμπεσοῦνται ἀλλήλαις, ἐφ' ἃ μέρη ἐισὶν αἱ τῶν δύο ὀρθῶν ἐλάσσονες γωνίαι.
+*[diagram: h l, k m]*
 
-## 5 Si in duas rectas lineas recta linea incidens, interiores & in eadem parte angulos duobus rectis minores fecerit: rectas lineas in infinitum productas concurrere neceſſe eſt, ad eas partes in quibus anguli duobus rectis minores exiſtunt.
+gnitudinibus datis h/l/ & k/m, æquales auferantur l/ & m, quæ relinquentur h/ & k/ magnitudines, erũt adinuicem inæquales. Vnde & verſa vice, ſi æqualibus inæqualia adiungantur, vel ab æqualibus inæqualia auferantur: conſurgent, aut relinquentur inæqualia. Hæ ſunt igitur quinque præcipuæ communes ſententiæ, rationem æqualitatis inter magnitudines, atq̃ inuicẽ comparabilia, tum facta inuicem comparatione, tum addendo, ſubtrahendóve occurrentem, reſpicientes.
 
-Vtpote, ſi in rectas a/b/ & c/d, recta incidens e/f, interiores angulos b/e/f/ & d/f/e/ ſimul cõparatos, duobus rectis minores fecerit: ipſæ lineæ a/b/ & c/d, in infinitũ productæ, conueniẽt
+Καὶ τὰ τῦ αὐτῦ διπλάσια, ἴσα ἀλλήλοις ἐστίν.
 
-*[diagram: a e b, c f d, g]*
+## Quæ eiuſdem duplicia ſunt, adinuicem ſunt æqualia. 6
 
-tandem in g, ad partes quidem b/ & d. Quoniam plus inclinãtur adinuicem partes b/d, quàm a/c. Vnde quantò magis producentur b/e, & d/f, partes, tantò propiores efficientur, in vnũ tandem ſignum (vtpote g) concurrentes. Secus eſt de a/e, & c/f/ partibus: propterea quòd anguli a/e/f/ & c/f/e/ ſunt duobus angulis rectis tantò maiores, quantò eiſdem rectis minores fuerint ipſi b/e/f/ atq̃ d/f/e/ anguli. Poſſent & alia his haud diſſimilia ſubrogari poſtulata: quæ cùm ſunt omnibus (etiam rudiſſimis) per ſeſe manifeſta, vel quæ recenſeantur indigna, hoc quinario cum Euclide contenti erimus numero.
+> Cõmunis ſentẽtia p ratione maioris inæqualitatis.
 
-> De cęteris poſtulatis.
+Hoc eſt, quę eiuſdem ſunt æquè multiplicia, vel æquè ſuperparticularia, aut æquè ſuperpartientia, vel (vt ſummatim comprehendam) æquè maiora: ea ſunt adinuicẽ æqualia, nempe quòd æquali exceſſu eandem ſuperent magnitudinem. Vt
 
-## Κοιναὶ ἔννοιαι. Communes ſententiæ.
+*[diagram: n p o]*
 
-### ORONTIVS.
+ſi n/ & o/ magnitudines, eiuſdẽ magnitudinis p/ ſint ęquè maiores, vtpote duplæ: neceſſum eſt eaſdẽ magnitudines n/ & o/ fore adinuicem æquales. Nam æqualibus magnitudinibus ipſi p/ in eiſdem n/ & o/ comprehenſis, æquales adduntur exceſſus. Idem cenſeto de numeris, & quibuſcunq̃ inuicem comparabilibus rebus, eandem ad tertiã maioris inæqualitatis rationem obtinentibus.
 
-> Axiomata, effata, ſeu communes ſententiæ.
+Καὶ τὰ τῦ αὐτῦ ἥμισυ, ἴσα ἀλλήλοις ἐστί.
 
-RELIQVVM EST TANDEM, COMMVNES ELVCIDARE ſententias: quas græci axiomata, latini verò effata ſolent adpellare. Sũt igitur cõmunes ſentẽtiæ, generales quædã ac per ſeſe manifeſtę propoſitiones, cõmunitérve ſcitæ ab omnibus, & in principij rationem vel ordinem coaſſumptæ. Quarum prima eſt hæc.
+## Et quæ eiuſdem ſunt dimidium, æqualia ſunt adinuicem. 7
 
-> 5. communes ſententiæ ratione æqualitatis reſpiciẽtes.
+> cõ. ſententia, pro ratiõe minoris inæqualitatis.
 
-Τὰ τῷ αὐτῷ ἴσα, καὶ ἀλλήλοις ἐστὶν ἴσα.
+Hæc communis ſententia, pro magnitudinibus rationẽ minoris inæqualitatis ad eandem tertiam obſeruantibus magnitudinẽ, ita venit intelligenda: vt
 
-## 1 Quæ eidem æqualia, & adinuicem ſunt æqualia,
+*[diagram: q s r]*
 
-*[diagram: a b c]*
+quæcũq̃ eiuſdẽ ſunt ęquè ſubmultiplicia, aut ſubſuperparticularia, vel ſubſuperpartientia, hoc eſt, æquè minora, ea ſunt adinuicem æqualia. Vtpote, ſi q/ & r/ magnitudines, eiuſdem magnitudinis s/ ſint (verbi gratia) ſubduplæ: illæ erunt adinuicem æquales, propterea quòd æquali ab eadem magnitudine ſuperentur exceſſu.
 
-Vtpote, ſi a/ magnitudo ſit æqualis b/ magnitudini, eidem quoque b/ ſit æqualis magnitudo: neceſſum eſt a/ & c/ magnitudines fore adinuicem æquales. Idem habeto iudicium de numeris, atque cæteris eiuſdem generis adinuicem comparabilibus.
+Καὶ τὰ ἐφαρμόζοντα ἐπ' ἄλληλα, ἴσα ἀλλήλοις ἐστίν.
 
-Καὶ ἐὰν ἴσα ἴσοις προστεθῇ, τὰ ὅλα ἐστὶν ἴσα.
+## Et quæ ſibimet ipſis conueniunt, æqualia ſunt adinuicem. 8
 
-## 2 Et ſi æqualibus æqualia adijciantur, omnia erunt æqualia.
+Vtpote, ſi duę rectę lineę in limitib⁹, duæve ſuperficies in terminis, ſeu laterib⁹ & angulis, & quę ſunt ſimilia ſimilibus ex õni parte cõueniãt: ea oportet adinuicẽ ęquari, & ecõtrario.
 
-Καὶ ἐὰν ἀπὸ ἴσων ἴσα ἀφαιρεθῇ, τὰ καταλειπόμενα ἐστὶν ἴσα.
+Καὶ τὸ ὅλον μεῖζον τῦ μέρους ἐστί.
 
-## 3 Et ſi ab æqualibus æqualia auferãtur, quę relinquẽtur æqualia erũt.
+## Totum eſt ſua parte maius. 9
 
-Vt ſi d/ & e/ magnitudinibus inuicẽ æqualibus, æquales addantur magnitudines f/ & g: con-
+Adde quòd & æquale ſuis partibus integralibus, id eſt quæ ſimul ſumptæ ipſum totum videntur integrare.
 
-*[diagram: d f, e g]*
+Καὶ δύο ευθεῖαι χωρίον ὀυ περιέχουσι.
 
-ſurgent d/f/ & e/g/ magnitudines adinuicem pariter æquales. Quòd ſi verſavice ab ipſis d/f/ & e/g/ magnitudinibus inuicem æqualibus, æquales tollantur f/ quidẽ & g/ magnitudines: relinquentur d/ & e/ magnitudines rurſum adinuicem æquales.
+## Duæ rectæ lineæ ſuperficiem non concludunt. 10
 
-Καὶ ἐὰν ἀνίσοις ἴσα προστεθῇ, τὰ ὅλα ἐστὶν ἄνισα.
+Prius q̃ enim ſuperficiẽ cõcludere valerẽt: operępretiũ eſſet, gemina pũcta vtriuſq̃ datarũ linearũ terminos limitãtia mutuo cõuenire. Duæ itaq̃ lineę rectę, à dato pũcto in datũ punctũ producerentur: coinciderẽt igitur in vnã atq̃ eandem lineam rectã, ſuperficiem concludere non valentes. quẽadmodum ex ijs quę quarta prædiximus diffinitione fit manifeſtum.
 
-## 4 Et ſi inæqualibus æqualia adiungantur, omnia inæqualia erunt.
+## De Problemate, Theoremate, atque Hypotheſi.
 
-Καὶ ἐὰν ἀπὸ ἀνίσων ἴσα ἀφαιρεθῇ, τὰ λοιπὰ ἐστὶν ἄνισα.
+> Problemata. Theoremata
 
-## 5 Et ſi ab inæqualibus æqualia auferantur, reliqua inæqualia erunt.
+EX HIS ITAQVE SANE QVAM INTELLECTIS PRINCIpijs, colliguntur problemata: hoc eſt, ambiguæ propoſitiones, ſciſcitationéſve, practicas figurarũ affectiones diſcutiẽtes: & Theoremata, id eſt, ſpeculatiuæ propoſitiones, præceptionis vtcũq̃ participes, quæ ſingulis accidunt figuris ſola inſpectione diiudicãtes. Quæ quidẽ omnia tali ſunt artificio ab Euclide diſtributa, vt ex antecedentibus omnis ſubſequentiũ videatur pendere comprobatio: fiátq̃ mutua ſubminiſtratio ſingulorum inter ſeſe & problematum & theorematum. Quibus ſuffragantur hypotheſes, hoc eſt, ex pręuia ſupradictorum cognitione, aſſumenti conceſſæ ſuppoſitiones.
+
+> Hypotheses.

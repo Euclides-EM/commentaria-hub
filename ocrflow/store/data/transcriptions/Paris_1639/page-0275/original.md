@@ -1,35 +1,37 @@
-# Page 274
+# Page 275
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-SCHOLIE.
+c.8.6 | ba π ae 2|2 ae π ad, γ
+22.6 | □.ba π □.ae 2|2 □.ae π □.ad,
+γ.17.6 | □.ae 2|2 ▭.bad, δ
+2 concl. 1.a.f | □.ba π ▭.bad 2|2 ▭.bad π □.ad,
+c.8.6 | ab π be 2|2 be π bd, ε
+22.6 | □.ab π □.be 2|2 □.be π □.bd,
+ε.17.6 | □.be 2|2 ▭.abd. κ
+3 concl. 1.a.f | □.ab π ▭.abd 2|2 ▭.abd π □.bd,
 
-Si vne ligne droicte est couppée comme on voudra, le rectangle contenu sous les parties, est milieu proportionel, entre les quarrez d'icelles parties : Item le rectangle contenu sous la toute & vne partie, est milieu proportionel entre le quarré de la toute & le quarré de ladite partie.
+*Coroll. 1.*
 
-*Hypoth.*
+βδκ | □.de 2|2 ▭.adb: □.ae 2|2 ▭.bad: □.be 2|2 ▭.abd.
 
-ab *eſt* ——,
-arbitr. | ad & db *ſnt part..* ab.
+*Coroll. 2.*
 
-*Req. à demonſtrer.*
-
-□.ad π ▭.adb 2|2 ▭.adb π □.db,
-□.ab π ▭.bad 2|2 ▭.bad π □.ad,
-□.ab π ▭.abd 2|2 ▭.abd π □.db.
-
-*Prepar.*
-
-3.p.1 | acb *eſt ſemic.*
-11.1 | de ⊥ ab,
-1.p.1 | ae & be *ſnt* ——.
-
-(figure)
+▭.ab, de 2|2 ▭.ae, eb.
 
 *Demonſtr.*
 
-31.3 | ∠aeb *eſt* ┘,
-conſtr. | ed ⊥ ab,
-c.8.6 | ad π de 2|2 de π db, α
-22.6 | □.ad π □.de 2|2 □.de π □.db,
-α.17.6 | □.de 2|2 ▭.adb, β
-1.concl. 1.a.f | □.ad π ▭.adb 2|2 ▭.adb π □.db,
+8.6 | △abe *ſml.* △edb,
+4.6 | ba π ae 2|2 be π ed,
+concl. 16.6 | ▭.ab, ed 2|2 ▭.ae, eb.
+
+THEOR. XVII. PROPOS. XXIII.
+
+Les parallelogrammes equiangles, son l'vn à l'autre en raison composée de celle de leurs costez.
+
+(figure)
+
+*Hypoth.*
+
+◊ac *equiang.* ◊cf,
+∠bcd 2|2 ∠ecg.

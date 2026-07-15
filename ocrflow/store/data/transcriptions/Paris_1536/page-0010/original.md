@@ -1,27 +1,7 @@
-# Orontij Finei Delphinatis, Regii Mathematicarum professoris,
+> A Marco Marcello duce & Consule romano diripienda vrbs Syracusarum militi data est Custodibus diuisis per domos eorum qui intra presidia Romana fuerunt Cum inter diripiendum Syracusas Graecarum vrbium fore opulentissimam multa irae, multa inuidiae, auaritiaeque foeda exempla ederentur Archimedem memoriae proditum est in tanto tumultu quantum captae vrbis in discursum diripientium militum ciere poterant intentum formis quas in puluere descripserat ab ignaro milite quis esset interfectum. Aegreque id Marcellum tulisse sepulturaeque curam habitam & propinquis etiam inquisitis honori presidioque nomen eius ac memoriam fuisse. Liuius 3 Deca. 2 belli punici lib. 5. fol. 141. in fine.
 
-## IN SEX PRIORES LIBROS geometricorum elementorum Euclidis Megarensis Demonstrationes.
+> Grande & archimedi Geometricae ac machinalis scientiae testimonium M. Marcelli contigit interdicto cum Syracusae caperentur ne violaretur vnus nisi fefellisset imperium militaris imprudentia. Plinius Lib. 7 Cap. 37. De artium plurimarum excellentia.
 
-Quibus ipsius Euclidis textus græcus, suis locis insertus est: vnà cum interpretatione latina Bartholamæi Zamberti Veneti, ad fidem geometricā per eundem Orontium recognita.
+> Idem Liuius
 
-*[engraving]*
-
-CVM PRIVILEGIO Regis ad decennium,
-
-PARISIIS.
-Apud Simonem Colinæum.
-1 5 3 6.
-
-Virescit vulnere virtus.
-
-*[engraving]*
-
-> Francoys Desneux
-
-> Emptus [?] a [?]
-
-> D. OR. F. Delphinas est Mathom. professor hos 6 lib est interpretatus anno [?] 1543 12 sump in scholis bel[?] censib.
-
-> Francis Deus a nodis.
-
-> De Bibliotheca Conuentus parisiensis pp. Minimorum ad Circum Regium. 1638.
+> Et habuisset tanto impetu coepta res. Si Leontinis terrorem ac primo impetu captis Oppugnataeque [?] vrbis muris Syracusis admoto fortunam nisi vnus homo Syracusis ea tempestate fuisset Archimedes is erat vnicus spectator caeli syderumque mirabilior tamen inuentor ac machinator bellicorum tormentorum operumque qui ea quae hostes ingenti mole agerent ipse perlevi momento ludificaretur. Murum per inaequales ductum colles pleraque alta & difficilia aditu summissa quaedam & quae planis vallibus adiri possent vt cuicunque aptum visum est loco ita genere tormentorum instruxit. 3 Deca. 2 belli punici Lib. 4 fol. III in fine.

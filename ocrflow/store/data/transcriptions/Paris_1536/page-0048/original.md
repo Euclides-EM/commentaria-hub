@@ -1,39 +1,25 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-*[diagram: a e / b d c]*
+quas ad eaſdem partes coniungant rectæ a c, & b d. Dico a c, & b d rectas fore adinuicem æquales & parallelas. Connectatur enim b c diagonius, per primū poſtulatum. In datas igitur a b & c d parallelas, recta incidens b c, efficit alternos angulos a b c & b c d adinuicem æquales: per primam partem vigeſimænonæ propoſitionis. Eſt autem a b recta æqualis ipſi c d, per hypotheſin: & vtrique cómunis b c. Binæ igitur a b, & b c trianguli a b c, duabus b c & c d trianguli b c d, ſunt altera alteri æquales: & æquos adinuicem continent angulos, nempe alternos a b c & b c d. Per quartam ergo propoſitionem, baſis a c æqualis eſt ipſi b d: atque reli-
 
-conſtituatur d a e: per vigeſimátertiam propoſitionem. Et quoniam in rectas a e atq; b c recta incidit a d, efficiens alternos angulos æquales, hoc eſt a d b ipſi d a e: parallela eſt igitur a e ipſi b c, per vigeſimamſeptimam propoſitionem. Per datum itaque punctum a, datæ rectæ lineæ b c, parallelam duximus a e. Quod expediebat facere.
+*[diagram: a b / c d]*
 
-Θεώρημα κβ, Πρόθεσις λβ.
+quus angulus a c b, reliquo c b d æqualis, vtpote ſub quibus æqualia ſubtenduntur latera. In rectas itaque lineas a c & b d, recta incidens b c, efficit alternos angulos a c b & c b d adinuicem æquales. parallela eſt igitur a c recta ipſi b d, per vigeſimamſeptimam propoſitionem. Patuit autem q̊ & eidem æqualis. Aequas igitur & parallelas: & quæ ſequuntur reliqua. Quod demonſtrandum ſuſceperamus.
 
-ΠΑντὸς τριγώνου μιᾶς τῶν πλευρῶν προσεκβληθείσης, ἡ ἐκτὸς γωνία δυσὶ ταῖς ἐντὸς καὶ ἀπεναντίον ἴση ἐστί. καὶ αἱ ἐντὸς τοῦ τριγώνου τρεῖς γωνίαι, δυσὶ ὀρθαῖς ἴσαι ἐισί.
+Θεώρημα κδ, Πρόθεσις λδ.
 
-## Theorema 22, Propoſitio 32.
+ΤΩν παραλληλογράμμων χωρίων αἱ ἀπεναντίον πλευραί τε καὶ γωνίαι, ἴσαι ἀλλήλαις ἐισί, καὶ ἡ διάμετρος αὐτὰ δίχα τέμνει.
 
-OMnis trianguli, vno latere producto, exterior angulus binis interioribus & ex oppoſito eſt æqualis: & trianguli tres interiores anguli, binis ſunt rectis æquales.
+## Theorema 24, Propoſitio 34.
 
-> Primæ illationis demōſtratio.
+PArallelogrammorum locorum, latera quæ ex oppoſito, & anguli æqualia ſunt adinuicem: & dimetiens ea bifariam ſecat.
 
-ORONTIVS. ¶ Sit triangulum a b c: cuius vnum latus, vtpote b c, producatur in d, per ſecūdum poſtulatū. Aio primūm quòd exterior angulus a c d, binis interioribus & ex oppoſito, hoc eſt a b c, & b a c angulis eſt æqualis. Ducatur enim per datum punctum c, datæ rectæ lineæ a b, parallela c e: per trigeſimamprimam propoſitionem. Quoniam igitur in a b & c e parallelas, recta incidit a c: æquus eſt angulus b a c, alterno a c e, per primā partem vigeſimænonæ propoſitionis. Rurſum, quoniam in eaſdem parallelas a b & c e, coincidit recta b d: exterior angulus e c d, æqualis eſt interiori & oppoſito, & ad eaſdem partes a b c, per ſecundā par-
+> Prima pars.
 
-*[diagram: a e / b c d]*
+ORONTIVS. ¶ Eſto datum parallelogrammum a b c d: illius verò dimetiēs b c. Aio primùm, ipſius a b c d parallelogrammi latera quæ ex oppoſito, & angulos fore adinuicem æqualia. In parallelas enim a b & c d recta incidens b c, facit alternos angulos a b c & b c d æquales adinuicem: per primam partem vigeſimæ nonæ propoſitionis. Eadem quoq; b c incidens in parallelas a c & b d, efficit rurſum alternos angulos a c b & c b d adinuicem æquales, per eandem vigeſimamnonam propoſitionem. Duo itaque triangula a b c & b c d, habent duos angulos duobus angulis æquales alterum alteri: vnúmque latus vni lateri æquale, commune ſcilicet b c, quod æquis adiacet angulis. Reliqua igitur latera reliquis lateribus erūt æqualia alterū alteri, hoc eſt, a b ipſi c d, & a c ipſi b d: atque reliquus angulus qui ad a, reliquo qui ad d æquabitur, per vigeſimamſextam propoſitionem. Monſtrauimus autem binos angulos qui circa b, duobus angulis qui circa c fore alternatim æquales: totus igitur angulus qui ad b, toti qui ad c, per ſecundam communem ſententiam æquabitur. Parallelogrammi igitur a b c d, latera quæ ex oppoſito, & anguli æquantur adinuicem. ¶ Dico præterea, quòd & di-
 
-tē eiuſdem vigeſimænonæ propoſitionis. Porrò ſi æqualibus angulis, æquales addātur anguli: qui inde cóſurgēt erunt adinuicem æquales, per ſecundam cómunem ſentētiam. Totus igitur angulus a c d, binis interioribus & oppoſitis a b c & b a c angulis eſt æqualis. ¶ Dico inſuper, quòd eiuſdem trianguli tres interiores anguli, binis ſunt rectis æquales. Patuit enim exteriorem angulum a c d, æquū eſſe duobus angulis a b c & b a c. Quibus æqualibus angulis, ſi idem communis addatur angulus a c b: erunt per ſecundam communem ſententiam, tres anguli a b c, b a c, & a c b, æquales binis angulis a c b & a c d. Eiſdem porrò angulis a c b & a c d, duo recti itidem æquātur anguli, per decimamtertiā propoſitionē. Tres igitur anguli a b c, b a c, & a c b, trianguli a b c, per primam communem ſententiam, binis ſunt rectis æquales. Omnis itaque triāguli, vno latere producto: & reliqua, vt in theoremate. Quod oportuit demonſtraſſe.
+> Pars ſecūda.
 
-> Secundæ partis vel illationis oſtenſio.
+*[diagram: a b / c d]*
 
-## Corollarium.
-
-¶ Hinc fit manifeſtum, cuiuslibet trianguli tres angulos, æquales eſſe tribus angulis alterius cuiuſcunq; trianguli: nempe quòd eiſdem, vtpote binis rectis vtrobique ſint æquales.
-
-Θεώρημα κγ, Πρόθεσις λγ.
-
-ΑΙ τὰς ἴσας καὶ παραλλήλας ἐπὶ τὰ αὐτὰ μέρη ἐπιζευγνύουσαι εὐθεῖαι, καὶ αὐταὶ ἴσαι τε καὶ παράλληλοι ἐισί.
-
-## Theorema 23, Propoſitio 33.
-
-ÆQuas & parallelos, ad eaſdem partes rectæ lineæ coniungétes: & ipſæ æquales & parallelæ ſunt.
-
-ORONTIVS. ¶ Sint æquales & adinuicem parallelæ rectæ lineæ a b, & c d:
-
-c.iiij.
+metiēs illud bifariam ſecat. Oſtenſa eſt enim a b æqualis ipſi c d, atque a c ipſi b d: éſtque b c communis. Bina itaque triangula a b c & b c d, habent ſingula latera ſingulis lateribus æqualia: & eos qui ſub æqualibus lateribus continentur angulos (vti nunc monſtrauimus) ſingulatim æquales, vtpote a b c ipſi b c d, & a c b ipſi c b d: atque eum qui ad a ei qui ad d æqualem. Conuenit ergo triangulum a b c, triangulo b c d. Quæ autem ſibimetipſis conueniunt, æqualia ſunt adinuicem: per octauam communem ſententiam. Triangulum igitur a b c triangulo b c d eſt æquale. Dimetiens itaque b c, datum parallelogrammum a b c d bifariam ſecat. Quod oſtendendum fuerat.

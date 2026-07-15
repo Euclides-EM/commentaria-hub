@@ -1,31 +1,23 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-*[diagram: a b c / d e f g]*
+propositionem. Atqui data est maior: non est igitur angulus b/a/c, ipso e/d/f/angulo minor. Patuit autē q̄ nec eidem æqualis: ergo maior. Si bina igitur triangula duo latera: & reliqua, vt in theoremate. Quod erat demonstrandum.
 
-in triangulo d/e/g, ab angulo qui ad d/ in oppositum latus e/g, recta producatur d/f, diuidēs tum ex hypothesi, tum ex constructione ipsum e/d/g/angulū: diuidet quoq; ipsa d/f, basin e/g, in puncto quidem f. Est itaque basis e/f, pars ipsius e/g: & propterea ipsa e/g, maior eadem e/f, per nonam communem sententiam. Ipsi porrò e/g, æqualis ostēsa est b/c: & b/c/igitur basis, maior est basi e/f, per conuersam sextæ cōmunis sentētiæ interpretationem. ⁋ Quòd si e/g/recta inciderit supra e/f, velut in secūda figura: fiet triangulū e/f/g, ex tribus basibus cōstitutum. Et quoniā trianguli d/f/g, latus d/f/lateri d/g/est æquale: æquus erit & d/f/g/ angulus, angulo d/g/f, per quintam propositionē. Atqui d/g/f/angulus, maior est angulo e/g/f, per nonam communem sententiam: & d/f/g/itaq; angulus, maior erit eodem angulo e/g/f, per eandem sextæ communis sententiæ conuersionem. Angulo rursum d/f/g, maior est
+Θεώρημα ις, Πρόθεσις κς.
 
-> Secundus modus.
+Εὰν δύο τρίγωνα τὰς δύο γωνίας ταῖς δυσὶ γωνίαις ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, καὶ μίαν πλευρὰν μιᾷ πλευρᾷ ἴσην, ἤτοι τὴν πρὸς ταῖς ἴσαις γωνίαις, ἢ τὴν ὑποτείνουσαν ὑπὸ μίαν τῶν ἴσων γωνιῶν, καὶ τὰς λοιπὰς πλευρὰς ταῖς λοιπαῖς πλευραῖς ἴσας ἕξει ἑκατέραν ἑκατέραν, καὶ τὴν λοιπὴν γωνίαν τῇ λοιπῇ γωνίᾳ.
 
-*[diagram: a b c / d e f g]*
+## Theorema 17, Propositio 26.
 
-angulus e/f/g, nēpe totus sua parte: & propterea ipso angulo e/g/f/tantò maior. Omnis porrò triāguli maius latus, sub maiori angulo subtenditur, per decimamoctauā propositionē: maior est itaq; e/g, ipsa e/f/recta. Præostensum est autē q̄ & b/c/ipsi e/g/coæquatur: basis ergo b/c, basi e/f/consequenter est maior. ⁋ Cùm autē e/g/sub eadem e/f, vt in tertia figuræ dispositione, ceciderit꞉idē etiā concludetur. Nam in triangulo d/e/g, à limitibus lateris d/e, binæ rectæ lineæ d/f/ & e/f/introrsum constituentur: erunt itaq; d/f/& e/f/reliquis ipsius trianguli lateribus d/g/& e/g/minores, per vigesimamprimam propositionem. Subductis ergo
+SI bina triangula, duos angulos duobus angulis alterum alteri æquales habuerint, vnúmq; latus vni lateri æquale, aut quod æquis adiacet angulis, aut quod sub vno æqualium angulorum subtenditur: reliqua quoq; latera reliquis lateribus æqualia alterū alteri, & reliquum angulum reliquo angulo æqualem habebunt.
 
-> Terti⁹modus
+ORONTIVS. ⁋ Sint duo triangula a/b/c/ & d/e/f, habētia duos angulos qui ad latus b/c, duobus angulis qui ad latus e/f/ alterum alteri æquales, vtpote, a/b/c/ ipsi d/e/f, & a/c/b/ipsi d/f/e, vnum præterea latus vni lateri æquale: primò quidem quod æquis adiacet angulis, hoc est b/c/ ipsi e/f. Dico propterea, quòd & reliqua latera reliquis lateribus alterum alteri habebūt æqualia, a/b/quidem ipsi d/e, & a/c/ ipsi d/f: atq; reliquum angulum b/a/c, reliquo e/d/f/ æqualem. Si nanq; a/b/non fuerit æqualis ipsi d/e: altera earum maior erit, vtpote a/b. poterit igitur à maiori a/b, secari, ipsi d/e/minori æqualis, per tertiā propositionē. Abscindatur ergo, sit́q; b/g: & connectatur c/g/recta, per primum postulatum. Bina itaq; latera g/b/& b/c/ trianguli g/b/c, duobus lateribus d/e/& e/f/trianguli d/e/f, erunt alternatim æqualia: & qui ad b/& e/sub æquis lateribus continentur anguli, adinuicem æquales, per hypothesin. Basis igitur c/g, basi d/f, & reliquus angulus g/c/b/reliquo qui ad f (sub quo latus æquale subtenditur) erit per quartā propositionem æqualis. Eidem porrò qui ad f/angulo, æquus est angulus a/c/b, per hypothesin. duo igitur anguli a/c/b/ & g/c/b, eidem qui ad f/angulo erunt æquales: & propterea æquales adinuicem, per
 
-*[diagram: a b c / d e f g]*
+> Primæ partis demōstratio, ex prima hypothesi laterum.
 
-d/f/& d/g/inuicem æqualibus: quæ relinquētur erunt pariter inæquales, e/g/ quidem maior e/f. Ipsi porrò e/g, æqualis mōstrata est b/c: cōcludes ergo rursum, b/c/basin fore maiorē ipsa basi e/f. Igitur si bina triāgula, duo latera duobus lateribus æqualia habuerint alterum alteri, angulum verò: &c. vt in theoremate. Quod ostendere fuerat operæpretium.
+*[diagram: g a b c / d e f]*
 
-Θεώρημα ιε, Πρόθεσις κε.
+primam communem sententiam. totus itaque angulus, suæ parti æquabitur: quod per nonam communem sententiā est impossibile. Non est igitur a/b/maior ipsa d/e. similiter ostendetur, quòd neq; minor. ergo æqualis. Et quoniā b/c/ipsi e/f/per hypothesin est æqualis: bina ideò latera a/b/& b/c/triāguli a/b/c, duob⁹ lateribus d/e/& e/f/triāguli d/e/f, sunt æqualia alterum alteri: & æquales qui ad b/& e/comprehendunt angulos, per hypothesin. basis itaq; a/c, basi d/f (seu reliquum latus, reliquo lateri) atq; reliquus angulus b/a/c, reliquo e/d/f, per quartam propositionem æquatur. ⁋ Sint autē quæ sub altero æqualium subtenduntur angulorum latera adinuicem æqualia: scilicet a/b, ipsi d/e. Aio rursum, quòd & reliqua latera, reliquis lateribus habebunt æqualia, alterū alteri, vtpote a/c/ipsi d/f, & b/c/ipsi e/f: atque reliquum angulum qui ad a/ reliquo qui ad d/æqualem. In primis enim, si b/c/non fuerit æqualis ipsi e/f, altera maior erit: esto verbi gratia e/f. poterit ergo ab eadē maiori e/f, secari æqualis ipsi minori b/c, per tertiā propositionē. Secetur itaq;, & sit e/h: connectatúrq; d/h/recta, per primum postulatum. Erunt igitur bina latera a/b/& b/c/ trianguli a/b/c, æqualia
 
-Εὰν δύο τρίγωνα τὰς δύο πλευρὰς ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, τὴν δὲ βάσιν τῆς βάσεως μείζονα ἔχῃ, καὶ τὴν γωνίαν τῆς γωνίας μείζονα ἕξει τὴν ὑπὸ τῶν ἴσων εὐθειῶν περιεχομένην.
+> Ostensio secūdæ partis, ex secūda hypothesi laterū.
 
-## Theorema 16, Propositio 25.
-
-SI bina triangula duo latera duobus lateribus æqualia habuerint, basin verò basi maiorem: angulum quoq; sub æqualibus rectis lineis contentum, angulo maiorem habebunt.
-
-> [manuscript] Conuersa [?] octaue
-
-ORONTIVS. ⁋ Dentur inquàm bina triangula a/b/c/& d/e/f/, habentia duo latera a/b/& a/c, duobus lateribus d/e/& d/f/æqualia alterum alteri, vtpote, a/b/ipsi d/e, & a/c/ipsi d/f: esto autē b/c/basis, maior ipsa e/f. Aio versa vice, angulum b/a/c, angulo e/d/f/esse maiorem. Quoniam angulus b/a/c/non potest in primis æqualis esse angulo e/d/f: basis enim b/c, basi e/f/per quartam propositionem foret æqualis. Est autem b/c/basis, maior ipsa e/f, per hypothesin. Neq; rursum angulus b/a/c, minor erit eodem angulo e/d/f: quoniā basis b/c, minor itidem foret basi e/f, per antecedentē vigesimamquartā
-
-*[diagram: a b c / d e f]*
+c.ij.

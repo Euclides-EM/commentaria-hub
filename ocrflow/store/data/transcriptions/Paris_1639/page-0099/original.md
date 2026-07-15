@@ -1,50 +1,48 @@
-# Page 98
+# Page 99
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-45.1 | ◊cdef 2|2 a,
-45.1 | ◊cdgh 2|2 b,
-ſymp. | ◊gf *eſt le req.*
+THEOR. XXXIII. PROPOS. XLVII.
 
-*Demonſtr.*
-
-conſtr. | ◊df 2|2 a,
-conſtr. | ◊dh 2|2 b,
-concl. 3.a.1 | ◊gf 2|2 a~b.
-
-PROBL. XIV. PROPOS. XLVI.
-
-D'vne ligne droicte donnée, descrire vn quarré.
+Aux triangles rectangles, le quarré du costé qui soustient l'angle droict, est égal aux quarrez des costez qui contiennent le mesme angle droict.
 
 (figure)
 
 *Hypoth.*
 
-ad *eſt* —— D.
+*au* △abc
+∠bac *eſt* ┘,
 
-*Req. à faire.*
+*Req. à demonſtr.*
 
-ac □.ad.
+□.bc 2|2 □.ab + □.ac.
 
-*Conſtr.*
+*Preparation.*
 
-11.1 | ∠dab *eſt* ┘,
-3.1 | ab 2|2 ad,
-31.1 | bc == ad,
-31.1 | dc == ab,
-ſymp. | □ac *eſt le req.*
+46.1 | be *eſt* □.bc,
+46.1 | af *eſt* □.ab,
+46.1 | ai *eſt* □.ac,
+31.1 | am == bd Ⅱ ce,
+1.p.1 | ad, ae, bi, cf *ſnt* ——.
 
 *Demonſtr.*
 
-conſtr. | ac *eſt* ◊,
-conſtr. | ∠a *eſt* ┘,
-1.concl. 2.ſ.29.1 | ∠b, ∠c, ∠d, *ſnt* ┘;
-conſtr. | ab 2|2 ad,
-34.1 | bc 2|2 ad,
-34.1 | dc 2|2 ab,
-1.a.1 | bc 2|2 dc,
-2.concl. 29.d.1 | ac *eſt* □.ad.
-
-SCHOLIE.
-
-Il est manifeste de l'huictiesme axiome, que les quarrez des lignes égales sont égaux entr'eux : & des quarrez égaux, les lignes sont égales entr'elles.
+hyp. | ∠bac *eſt* ┘,
+conſtr. | ∠bag *eſt* ┘,
+14.1 | gac *eſt* ——. α
+d.α | bah *eſt* ——,
+conſtr. | ∠dbc & abf *ſnt* ┘;
+12.a.1 | ∠dbc 2|2 ∠abf,
+∠abc *commun. add.*
+2.a.1 | ∠abd 2|2 ∠fbc. β
+*aux* △; abd & fbc
+29.d.1 | ab 2|2 bf,
+29.d.1 | bd 2|2 bc,
+β | ∠abd 2|2 ∠fbc,
+4.1 | △abd 2|2 △fbc. γ
+41.1 | ◊blmd 2|2 2△abd,
+41.1 1.nota | □af 2|2 2△fbc,
+6.a.1 | ◊blmd 2|2 □af. δ
+d.γ 2.nota | △ace 2|2 △icb,
+d.δ | ◊clme 2|2 □ch,
+concl. 2.a.1 | □be 2|2 □af + □ai.

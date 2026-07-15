@@ -1,20 +1,27 @@
-# Page 215
+# Page 216
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-XVII.
+quent: mais comme aux premieres grandeurs le consequent est à quelque autre, ainsi aux secondes grandeurs quelqu'autre est à l'antecedent.
 
-Raison égale ou d'égalité, est quand il y a plusieurs grandeurs, & d'autres égales à icelles en multitude, qui soient prises deux à deux, & en mesme raison: & que, comme aux premieres grandeurs la premiere est à la derniere, ainsi aux secondes grandeurs la premiere est à la derniere: autrement, c'est prendre les extrémes par la soustraction des moyennes.
+A, 4. B, 6. C, 3. E, 20. F, 10. G, 15.
 
-XVIII.
+hyp. | a π b 2|2 f π g, b π c 2|2 e π f, 23.5 | a π c 2|2 e π g.
 
-Proportion ordonnée est lors que, comme l'antecedent est au consequent, ainsi l'antecedent est au consequent: & comme le consequent est à quelque autre, ainsi le consequent est aussi à quelque autre.
+A ces 19. definitions d'Euclide, i'adiousteray la definition & l'axiome qui suiuent.
 
-A, 4. B, 6. C, 12. D, 8. E, 10. F, 15. G, 30. H, 20.
+XX.
 
-hyp. | a π b 2|2 e π f, hyp. | c π d 2|2 g π h,
-hyp. | b π c 2|2 f π g, 22.5 | a π d 2|2 e π h.
+S'il y a tant de grandeurs qu'on voudra, la raison de la premiere à la derniere est composée des raisons de la premiere à la seconde, & de la seconde à la troisiesme, & de la troisiesme à la quatriesme; & ainsi d'ordre iusques à ce que la proportion soit acheuée.
 
-XIX.
+Par la dixiesme definition, la raison des extremes contient toutes les raisons entremoyennes, pourueu qu'elles soient égales entr'elles: mais par celle-cy, la raison des extremes contient toutes les raisons entremoyennes, encore qu'elles ne soient pas égales entr'elles.
 
-Proportion perturbée est, lors que trois grandeurs sont posées d'vne part, & d'autres égales en multitude à icelles, & comme aux premieres grandeurs l'antecedent est au consequent, ainsi aux secondes grandeurs l'antecedent est au conse-
+A, 24. B, 12. C, 8. D, 6.
+
+hyp. | a, b, c, d *ſnt magnitud. propoſ.*
+20.d.5 | raō.. a π c 2|2 raō.. a π b + raō.. b π c,
+20.d.5 | raō.. a π d 2|2 raō.. a π b + raō.. b π c + raō.. c π d.
+
+AXIOME.
+
+Les equimultiples à vne mesme multiple, sont aussi equimultiples entr'elles.

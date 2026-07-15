@@ -1,37 +1,36 @@
-# 92 GEOMET. ELEMENT.
+# LIBER IIII.
 
-circuli circunferentia, vnumquenque eius, circum quam describitur, angulum tangit.
+93
 
-Figura circularis, ob vniformem & regulatam circunferentiæ à cẽtro distantiam, rectilineas omnes ac regulares figuras, tum intra, tũ extra facilè capit: singulos angulos inscriptæ, vel omnia circunscriptæ contingẽs latera. Quẽadmodùm in præcedentium tertiæ & quartæ diffinitionum elucidationẽ, ostendit descriptum in a/b/c/d/ circulo quadratum: vel idem circulus, quadrato a/b/c/d/ circunscriptus.
+dimeties c/d. Erit itaq; a/recta linea, aut æqualis ipsi dimietiēti: aut eo minor. Si æqua
+lis: iam coaptata est recta linea c/ d, æqualis ipsi datæ rectæ lineæ a. Quòd si a/recta
 
-*[diagram: a b c d, 3 4]*
+*[diagram: a b c e d f]*
 
-¶ Κύκλος δὲ ὁμοίως εἰς σχῆμα λέγεται ἐγγράφεσθαι, ὅταν ἡ τοῦ κύκλου περιφέρεια ἑκάστης πλευρᾶς, τοῦ εἰς ὃ ἐγγράφεται ἅπτηται.
+linea, fuerit minor dimetiente c/d: secetur à maiori c/d, ipsi a/ minori æqualis, per tertiā primi: sitq́; illa c/e. Et centro c, interuallo autē c/e, describatur circulus b/e/f, per tertium postulatū. Secabit igitur circulus b/e/f, datum b/c/d/circulum: sunt enim in eodem plano, & vnius circunferentia partim intra reliquum, partim verò extra. Secet igitur in pūcto b: & per primum postulatum, connectatur recta b/c. Coaptatur itaq; b/c/recta, in dato b/c/d/circulo: cadunt enim extrema b/& c, in ipsius b/c/d/ circuli circunferentiā. Aio quòd æqualis est ipsi a. Quoniam punctum c/centrum est circuli b/e/f: æqualis est igitur b/c/ipsi c/e, per circuli diffinitionem. Eidem porrò c/e, æqualis est a/recta linea, per constructionem. Duæ igitur, a/inquàm, & b/c, eidem c/e/sunt æquales: & proinde æquales adinuicem, per primam communem sententiā. Datæ igitur rectæ lineæ a, æqualis recta linea b/c, in dato circulo b/c/d/ coaptatur. Quod oportebat facere.
 
-Circulus autem in figura rectilinea describi dicitur: quãdo circuli circunferentia, vnumquodq; latus eius in qua describitur tãgit.
+Πρόβλημα β, Πρόθεσις β.
+Εἰς τὸν δοθέντα κύκλον, τῷ δοθέντι τριγώνῳ, ἰσογώνιον τρίγωνον ἐγγράψαι.
 
-¶ Σχῆμα δὲ εὐθύγραμμον περὶ κύκλον περιγράφεσθαι λέγεται, ὅταν ἑκάστη πλευρὰ τῆς τοῦ κύκλου περιφερείας, τοῦ περιγραφομένου ἐφάπτηται.
+## Problema 2, Propositio 2.
 
-Figura verò rectilinea, circa circulũ describi dicitur: quando vnũquodque latus circunscriptæ, circuli circunferentiam tangit.
+IN dato circulo, dato triangulo, æquiangulum triangulum describere.
 
-In exemplum, habes circulum a/b/c/d, in quadrato e/f/g/h/ descriptum: atque idem quadratum e/ f/ g/ h, descriptum circa eundem circulum a/b/c/d. Idem respondenter velim intelligas de cæteris quibuscunque regularibus figuris, in circulo, vel circa eundem circulum, prius diffinita ratione descriptis.
+ORONTIVS. ¶Esto datum triangulum a/b/c, cui oporteat describere æquiangulum triangulū, in dato circulo d/e/f. A dato igitur puncto g, dato circulo d/e/f: contingens recta linea ducatur g/d/h, tangens ipsum circulū d/e/f/in puncto d, per decimamseptimam tertij. Et ad datam rectam lineam d/h, datūmq́; in ea punctum
 
-*[diagram: a b c d e f g h, 5 6]*
+> Constructio figuræ.
 
-¶ Εὐθεῖα εἰς κύκλον ἐναρμόζεσθαι λέγεται, ὅταν τὰ πέρατα αὐτῆς, ᾖ ἐπὶ τῆς περιφερείας τοῦ κύκλου.
+*[diagram: g d h a e f b c]*
 
-Recta linea circulo congruere dicitur: quando eius extrema, in circuli circunferentiam cadunt.
+d, dato angulo rectilineo qui ad b, æqualis angulus rectilineus cōstituatur f/d/h, per vigesimamtertiam primi: & per eandem, angulo qui ad c, æqualis angulus cōstituatur ad idem pūctum d, datæ rectæ lineæ g/d, sitq́; g/d/e: ipsis d/e/& d/f, circulo d/e/f/ coaptatis. cōnectatur demum e/f/ recta, per primū postulatum. Et quoniam circulū d/e/f, tangit quædam recta linea g/d/h, à cōtactu autem d, recta quædam linea d/f/extenditur,
 
-Quanquàm hæc vltima diffinitio, tam de circuli dimetientibus, quàm de cæteris rectis non per cẽtrum eductis (quas vocant chordas) sit intelligenda: ipsas tamen rectas circuli dimetiente minores potissimùm respicere videtur, quę sunt videlicet latera inscribendarum intra circulum rectilinearum figurarum. Cuiusmodi videtur esse recta b/c: cuius extrema, siue limites b/ & c, in dati circuli a/b/c/ circunferentiam cadunt.
+> Ostensio problematis.
 
-*[diagram: a b c, 7]*
+circulum dispescēs: angulus igitur qui ad e, in alterno segmēto d/e/f, angulo f/d/h, per trigesimamsecundā tertij est æqualis. Eidē porrò angulo f/d/h, datus est æqualis angulus qui ad b: per primam igitur communem sententiam, angulus qui ad b, æquus est angulo qui ad e. Et proinde angulus qui ad f, ipsi angulo qui ad c/æqualis. Reliquus igitur/angulus qui ad a, reliquo qui ad d, per trigesimamsecūdam primi est æqualis. Aequiangulum est itaq; triangulum d/e/f, ipsi a/b/c/ triangulo: describitúrque in dato circulo d/e/f. In dato igitur circulo, dato triangulo, æquiangulum triangulum describitur. Quod fecisse oportuit.
 
-Πρόβλημα α, Πρόθεσις α.
+Πρόβλημα γ, Πρόθεσις γ.
+Περὶ τὸν δοθέντα κύκλον, τῷ δοθέντι τριγώνῳ, ἰσογώνιον τρίγωνον περιγράψαι.
 
-Εἰς τὸν δοθέντα κύκλον τῇ δοθείσῃ εὐθείᾳ μὴ μείζονι οὔσῃ τῆς τοῦ κύκλου διαμέτρου, ἴσην εὐθεῖαν ἐναρμόσαι.
+## Problema 3, Propositio 3.
 
-## Problema 1, Propositio 1.
-
-IN dato circulo, datæ rectæ lineæ minimè maiori circuli diametro existenti: æqualem rectam lineam coaptare.
-
-ORONTIVS. ¶ Sit data recta linea a, non maior dimetiente dati circuli b/c/d/ (non intraret enim circulum, si foret maior: quoniam in circulo maximus est dimetiens, per decimamquintam tertij) in quo quidem circulo oporteat ipsi datæ rectæ lineæ a, æqualẽ rectã lineã coaptare. Producatur ergo circuli b/c/d,
+CIrca datum circulum, dato triangulo, æquiangulum triangulum describere.

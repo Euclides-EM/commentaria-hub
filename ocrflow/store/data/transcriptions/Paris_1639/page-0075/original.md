@@ -1,38 +1,42 @@
-# Page 74
+# Page 75
 
-# LES ELEMENTS
-
-(figure)
+# D'EVCLIDE, LIV. I.
 
 *Demonſtr.*
 
-15.d.1 | fk 2|2 fd,
-conſtr. | a 2|2 fd,
-1.concl. 1.a.1 | fk 2|2 a,
-2.concl. conſtr. | fg 2|2 b,
-15.d.1 | gk 2|2 gh,
-conſtr. | c 2|2 gh,
-3.concl. 1.a.1 | gk 2|2 c.
+conſtr. | ag 2|2 dc,
+conſtr. | ah 2|2 df,
+conſtr. | gh 2|2 cf,
+concl. 8.1 | ∠gah 2|2 ∠cdf.
 
-PROBL. IX. PROPOS. XXIII.
-
-A vne ligne droicte donnée, & à vn poinct donné en icelle, faire vn angle rectiligne égal à vn angle rectiligne donné.
-
-(figure)
+*Practique.*
 
 *Hypoth.*
 
-ab *eſt* —— D.
-a *eſt* • D.
-cde *eſt* ∠ D.
+ne *eſt* —— D.
+d *eſt* • D.
+a *eſt* ∠ D.
 
-*Req. à faire.*
-
-∠a 2|2 ∠d.
+(figure)
 
 *Conſtr.*
 
-c & f *ſnt* • *arbitr.*
-1.p.1 | cf *eſt* ——,
-22.1 | △agh & △dcf *ſnt equil.*
-ſymp. | ∠a 2|2 ∠d.
+3.p.1 | afg & dhl *ſnt* ⊙ 2|2 đe. *arbitr.*
+3.p.1 | ⊙hl 2|2 ⊙fg,
+1.p.1 | dl *eſt* ——,
+ſymp. | ∠hdl 2|2 ∠a.
+
+*Demonſtr.*
+
+8.1 | ∠hdl 2|2 ∠a.
+
+THEOR. XV. PROPOS. XXIV.
+
+Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez plus grand que l'angle, ils auront aussi la base plus grande que la base.
+
+*Hypoth.*
+
+abc & def *ſnt* △,
+ab 2|2 de,
+ac 2|2 df,
+∠bac 3|2 ∠edf.

@@ -1,43 +1,43 @@
-# Page 161
+# Page 162
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-PROBL. III. PROPOS. XXV.
+*Req. à demonſtrer.*
 
-Le segment d'vn cercle estant donné, descrire le cercle duquel il est segment.
+∪ ac 2|2 ∪ df,
 
 (figure)
 
-*Hypoth.*
+*Prepar.*
 
-abc *eſt ſegment* D.
-
-*Req. à faire.*
-
-*trouuer le centre* f.
-
-*Conſtr.*
-
-arbitr. | a, b, c *ſnt* • *en* ∩,
-1.p.1 | ab & bc *ſnt* ——,
-10.1 | ad 2|2 db, be 2|2 ec,
-11.1. | df ⊥ ab, ef ⊥ bc,
-ſymp. | *interſect.* f, *eſt centre.*
+1.p.1 | ac & df *ſnt* ——.
 
 *Demonſtr.*
 
-c.1.3 | *centre eſt en* df,
-c.1.3 | *centre eſt en* ef,
-concl. 14.a.b | *centre eſt en* f.
+1.d.3 | ga, gc, / hd, hf *ſnt* 2|2 đe.
+hyp. | ∠agc 2|2 ∠dhf,
+4.1 | ac 2|2 df, α
+20.3 | ∠b 2|2 ½∠g,
+20.3 | ∠e 2|2 ½∠h,
+7.a.1 | ∠abc 2|2 def,
+10.d.3 | ⌓ abc *ſml.* ⌓ def,
+α.24.3 | ⌓ abc 2|2 ⌓ def, β
+hyp. | ⊙abc 2|2 ⊙def,
+β.3.a.1 | ∪ac 2|2 ∪df,
+concl. ſ.24.3 | ∪ ac 2|2 ∪ df.
 
-THEOR. XXIII. PROPOS. XXVI.
+THEOR. XXIV. PROPOS. XXVII.
 
-Aux cercles égaux, les angles égaux s'appuyent sur circonferences égales, soit qu'ils s'appuyent, estant constituez aux centres, ou aux circonferences.
-
-(figure)
+Aux cercles égaux les angles appuyez sur circonferences égales sont égaux entr'eux; soit qu'ils y soient appuyez estant constituez aux centres, ou bien estant constituez aux circonferences.
 
 *Hypoth.*
 
 gabc & hdef *ſnt* ⊙ 2|2 đe.
+∪ ac 2|2 ∪ df.
+
+*Req. à demonſtrer.*
+
 ∠agc 2|2 ∠dhf,
-Ⅱ, ∠abc 2|2 ∠def.
+∠abc. 2|2 ∠def.
+
+(figure)

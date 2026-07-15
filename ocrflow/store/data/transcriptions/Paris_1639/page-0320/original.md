@@ -1,33 +1,21 @@
-# Page 319
+# Page 320
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-2 4 6 | 70, 80, 90,
+Les fractions de cet exemple se peuuent reduire en douziesmes, excepté 4/7, partant laissant 4/7, i'adiouste toutes les autres, & trouue 2 3/4 : puis i'adiouste les 4/7 auec 3/4, qui ensemble font 1 9/28, auec lesquels adioustant les 2 on aura 3 9/28, pour la somme des cinq fractions proposées.
+
+Pour adiouster les trois fractions suiuantes ensemble, ie trouue leur commun denominateur 105, en multipliant tous les denominateurs l'vn par l'autre : puis pour auoir les numerateurs 70, 84, 90, ie multiplie chaque numerateur par les denominateurs des autres, comme il a esté dit cy dessus, lesquels numerateurs adioustez ensemble font 244. que ie diuise par le denominateur trouué 105, & vient au quotient 2 34/105, pour la somme requise des trois fractions.
+
+2 4 6 | 70 84 90 } 105
+3 5 7
 ——
-3 5 7 | 105.
+244
 
-*De l'addition.*
-
-Si les fractions à adiouster sont en mesme denomination, l'addition se fera en adioustant les numerateurs ensemble, & donnant à la somme le denominateur commun : Mais si elles ne sont en mesme denomination, il faudra premierement les reduire par la methode precedente, puis faire l'addition. Ce faisant 2/12, 3/12, & 6/12, qui sont en mesme denomination, estant adioustez ensemble font 11/12.
-
-2 3 6 | 11
+3 4
+2 4 4
 ——
-12, 12, 12, | 12
+1 0 5 [2 34/105,
 
-Mais pour les fractions ⅔, 3/4, 1/2, 3/8, & ⅚, les reduisant en mesme denomination, par la methode donnée cy dessus, puis faisant l'addition, on trouuera 75/24, qui font 3 1/8.
+*De la ſouſtraction.*
 
-2 3 1 3 5 | 16 18 12 9 20 } 24
-3 4 2 8 6
-——
-75
-
-75/24 [3 3/24, ou 1/8.
-
-*Autre exemple.*
-
-2 3 4 5 1 | 8 9 10 6 } 12
-3 4 7 6 2
-——
-33
-
-23/12 [2 9/12, ou 3/4.
+Si les fractions sont en mesme denomination, la soustraction se fera en ostant.le moindre numerateur du plus grand, & donnant au reste le denominateur commun. Par exemple, pour soustraire 5/17 de 8/17, i'oste 5 de 8 & reste 3, c'est à dire 3/17. Mais si les fractions proposées ne sont en mesme denomination, il faudra premierement les reduire, puis faire la soustraction : ce faisant on trouuera que si on oste ⅔ de 4/5, le reste sera 2/15.

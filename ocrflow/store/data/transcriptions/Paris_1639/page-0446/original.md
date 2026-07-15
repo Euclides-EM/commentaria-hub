@@ -1,15 +1,17 @@
-# Page 445
+# Page 446
 
 # DE LA GNOMONIQVE.
 
+Propos. 3. pag. 754.
+
+*L'esleuation du pole estant donnée, descrire vn quadrant en la face meridionale du principal vertical.*
+
+La construction d'vn quadrant vertical exposé directement au Midy ou au Septentrion, se fait comme celle de l'horizontale, pourueu que l'angle ACZ soit fait égal à l'éleuation du pole, comme en cet exemple, si on eust faict le quadrant horizontal AGT pour 41 deg. & 20′, qui est le complement de l'esleuation du pole, il eust serui en la face Septentrionale du principal vertical, en mettant T au dessus du centre A : & pour le mettre en la face meridionale du mesme vertical, il eust falu seulement changer la suite des nombres, & mettre le centre A au dessus de T, afin que le stile oblique se trouue parallele à l'axe du monde, car il ne doit iamais estre autrement.
+
+Propos. 4. pag. 757.
+
+*Descrire vn quadrant polaire, c'est à dire, sur vn plan lequel passant par les poles du monde, couppe le meridien à angles droicts.*
+
 (figure)
 
-rez TA égale à CZ : HAR parallele à DN : & les lignes droictes tirées du poinct A aux poincts des diuisions de la ligne equinoctiale DN, seront les lignes horaires du quadrant requis, auquel on donnera telle figure qu'on voudra : icy on luy a donné la forme circulaire AGLT, AT est la ligne de 12 heures, AN de 5 heures d'apres midy, AE de 4 heures, &c.
-
-Pour auoir son stile, on fera l'angle TAP égal à l'esleuation du pole, à sçauoir de 48 deg. 40′ : & le costé AP, du triangle TAP esleué à angles droicts au plan du quadrant sur AT, sera le stile oblique parallele à l'axe du monde.  Que si on veut que DN soit la ligne equinoctiale, tirant Tε perpendiculaire à AP, & EV à AT, on aura εV pour le stile perpendiculaire.
-
-SCHOLIE.
-
-Que si on veut premierement descrire le cercle TLG de la grandeur qu'on veut faire le quadrant, pour auoir le centre C du quadrant equatorial, il faudra faire l'angle TAP égal à l'esleuation du pole, & Tε perpendiculaire sur AP, sera égale au semidiametre TC.
-
-Que si au lieu de diuiser le cercle CKBEF en 24 parties, on le diuise en 48 parties égales, le quadrant AGLT monstrera les heures & demy-heures : Ce qu'il faut aussi entendre aux quadrans suiuants.
+Sur le plan proposé ayant tiré la meridienne CA, & DN, qui le couppe à angles droicts en T, prenez TC pour la longueur du stile de telle grandeur que vous voudrez, puis descriuez le cercle CBG

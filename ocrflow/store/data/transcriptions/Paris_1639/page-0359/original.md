@@ -1,5 +1,19 @@
-# Page 358
+# Page 359
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-aussi sous 57, ie dis 7 fois 7 sont 49, que i'oste de 57, & reste 8, que ie pose sur 7, en tranchant 5 & 7 : Ce faict, pour auoir le diuiseur de la section suiuãte, ie multiplie le quotient 7 par 2, & vient 14 pour mon diuiseur, que i'escris en mettant le 4 sous le 8, & 1 sous le reste 8 de la section precedente : & ie regarde combien de fois 1 du diuiseur est contenu dans 8 qui est au dessus, & encore qu'il se trouue 8 fois, ie ne mets que 6 fois au quotient afin qu'il en reste assez, pour les figures suiuantes du diuiseur, & pose aussi le mesme 6 au costé droict du diuiseur sous le zero : puis ie dis, 6 fois 1 sont 6, que i'oste de 8 qui est au dessus, & reste 2. que ie pose au dessus de 8, en tranchant les figures comme en la diuision : ce faict, ie dis 6 fois 4 sont 24, que i'oste de 28 & reste 4, que ie pose au dessus du 8 : & de mesme ie multiplie 6 par 6, & vient 36 que i'oste de 40, & reste 4 que ie pose au dessus du zero. Maintenant pour auoir le diuiseur de la section 56, ie multiplie tout le quotient 76 par 2, en disant 2 fois 6 sont 12, & pose 2 sous le 5, & 2 fois 7 sont 14, & 1 que ie garde sont 15, que ie pose tirant vers la main gauche, & trouue 152 pour mon diuiseur : & parce que mon diuiseur 152 n'est pas contenu au nombre superieur correspondant qui est 45, ie pose vn zero au quotient, & aussi au costé droict du diuiseur, & sans rien multiplier ny soustraire, ie cherche vn diuiseur pour la section suiuante, en multipliant par 2 le quotient 760, & vient 1520, que ie pose sous 4560 : puis ie regarde combien de fois 1 est contenu au nombre superieur correspondant 4, & trouuant qu'il est contenu 3 fois, ie pose 3 au quotient, & aussi au costé droict du diuiseur, & faisant les multiplications & soustractions comme en la diuision, ll ne reste rien au dessus. Finalement ie cherche vn diuiseur pour la derniere section 47, en multipliant par 2 le quotient 7603, & vient 15206 pour diuiseur, que ie pose sous le 4, & parce que 15206 n'est pas contenu en 4, ie pose vn zero au quotiẽt, & aussi au costé droict du diuiseur : & ne pouuant plus auancer plus auant, ie conclus que la racine de 5780560947 est 76030, & qu'il en reste 47, auquel si on donne pour denominateur le double du quotient, ce sera trop peu, & si on luy donne le double du quotient auec 1, ce sera trop ; neantmoins on luy donne ordinairement le double du quotient augmenté d'vne vnité : de sorte que la racine du nombre proposé
+sera 76030, & enuiron 47/152061.
+
+Que si on ne veut point d'autres fractions que celles de la dixme, il faudra adiouster au nombre proposé des zero deux à deux tant qu'on voudra, & continuer l'extraction de la racine quarrée, & le nombre des accens qu'on adioustera au quotient, deura estre égal à la moitié du nombre des zero qu'on aura adiousté au nombre proposé : ce faisant, on trouuera que la racine de 20 est enuiron 4472‴, ou 4 472/1000. Et que la racine de 20 1/2 est enuiron 4527‴, ou 4 527/1000.
+
+20 | 00 | 00 | 00 [4472‴. || 20 | 50 | 00 | 00 [4527‴.
+
+Si le nombre proposé est vne fraction, il faudra extraire la racine de deux nombres de la fraction : ce faisant on aura ⅔ pour la racine de 4/9.
+
+Mais si les deux nombres de la fraction n'ont point de racines, il la faudra reduire en fraction de la dixme, qui aye le nombre de ses accens pair, & la racine du nombre de la dixme sera la racine de la fraction proposée. Par exemple, soit à extraire la racine de 5/8, ie reduis cette fraction en dixme, adioustant des zero au numerateur, & diuisant par le denominateur 8, & trouue 625‴ au lieu de 5/8 : & parce que le nombre des accens de 625‴ est impair, ie le rends pair, en luy adioustant vn zero & vn accent, & de 6250⁗, qui vaut autant que 5/8, ou 625‴, tirant la racine quarrée, ie trouue 79″, ou 79/100, pour la racine de 5/8.
+
+DE LA PREVVE DE LA *racine quarrée.*
+
+La vraye preuue de l'extraction de la racine quarrée se faict en multipliant la racine trouuée par soy-mesme, & adioustant auec le produict de la multiplication le reste de l'extraction s'il y en a : Car si ce produict auec le reste est égal au nombre proposé, il n'y aura point d'erreur en l'extraction. Par exemple, si la racine de 27 est 5, auec 2 de reste fera 27, qui est le nombre proposé.
+
+La preuue de la racine quarrée, par le moyen du 9, se peut aussi

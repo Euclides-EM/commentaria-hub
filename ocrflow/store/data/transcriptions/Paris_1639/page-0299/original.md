@@ -1,21 +1,23 @@
-# Page 298
+# Page 299
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-3 6 5 *multiplicande.*
-2 4 *multiplicateur.*
-——
-1 4 6 0
-7 3 0
-——
-8 7 6 0 *le produict total.*
+tient on multipliera tout le diuiseur, en faisant les soustractions des figures superieures correspondantes, à mesure qu'on faict les multiplications : le tout comme on peut voir aux exemples suiuants.
 
-3
-5——6
-3
+*Exemple 1.*
 
-Pour sçauoir si 365 estant multiplié par 24 fait 8760, ostez tous les 9 du multiplicande 365, & posé le reste 5 au costé gauche d'vne croix : puis de mesme ostez les 9 du multiplicateur 24, & mettez le reste 6 au costé droict de la mesme croix : ce faict, multipliez le reste 5 par le reste 6, & viendra 30, qui a pour preuue 3, qui se trouue aussi en rejettant tous les 9 de 30, & mettez cette preuue ou reste 3 au haut de la croix : finalement ostez tous les 9 du produict total 8760, & escriuez le reste 3 au bas de la croix, & si le mesme nombre se trouue au haut & bas de la croix, comme il arriue en cet exemple, on conclura qu'il n'y a point d'erreur en la multiplication.
+1 3 1
+9 5 3
+—— [2 3 8 ¼.
+4 4 4
 
-*De la Diuiſion.*
+Soit à diuiser 953 par 4, ie pose le diuiseur 4 sous le 9 du diuidende, puis ayant tiré vne ligne droicte entre deux, & descrit vne ligne courbe au costé droict pour le quotient, ie regarde combien de fois 4 est contenu au nombre superieur correspondant 9, & se trouue 2 fois : ie pose donc 2 dans le quotient, puis ie dis, deux fois 4 sont 8, que i'oste de 9, & reste 1 que i'escris au dessus de 9, tranchant tant le 4 que le 9 : ce faict, i'auance le diuiseur sous la figure suiuante 5, & regarde combien de fois iceluy diuiseur 4 est contenu en 15, que font l'vnité restant sur le 9, & le 5 qui suit, & trouuant qu'il est 3 fois, ie pose 3 au quotient, & dis, 3 fois 4 sont 12, que i'oste de 15, & reste 3, que ie pose au dessus de mon diuiseur 4 : Puis i'auance derechef mon diuiseur 4 sous la derniere figure 3, & regarde combien de fois mon diuiseur 4 est contenu au nombre superieur 33, & ie trouue 8 fois, ie pose donc 8 au quotient, & dis, 8 fois 4 sont 32, que i'oste de 33 superieurs correspondans, & reste 1, que i'escris au dessus : & parce que mon diuiseur est paruenu iusques à la derniere figure du nombre à diuiser, ie conclus que le quart de 953 est 238¼.
 
-Diuiser est partir vn nombre en autant de parties égales qu'on voudra : ou bien diuiser est trouuer vn nombre, lequel par ses vnitez monstre combien de fois le diuiseur est contenu au diuidende : & se faict procedant de gauche à droict, au rebours des trois regles precedentes ; en mettant tousiours le diuiseur sous le diuidende, commẽçant à la premiere figure du costé gauche, s'il est contenu au nombre superieur correspondant, mais s'il n'est contenu, on commencera à l'escrire à la seconde figure. Ce faict, on regardera combien de fois la premiere figure du costé gauche du diuiseur est contenuë au nombre superieur correspondant, & le nombre qui monstrera combien de fois elle est contenuë, on le mettra au quotient, s'il en reste assez pour les autres figures du diuiseur : que s'il n'en reste pas assez, on mettra moins dans le quotient, afin qu'il en reste assez pour les autres. Puis par la figure mise dans le quo
+*Exemple 2.*
+
+6
+1 4 3 5 6
+—— [2 0 5 0 6/7.
+7 7 7 7
+
+Soit à diuiser 14356 par 7, parce que le diuiseur 7 n'est pas contenu en la premiere figure du diuidende, qui est 1, ie le pose sous la seconde figure 4 : puis ie regarde combien de fois 7 est contenu en 14, qui est le nombre superieur correspondant, & trouuant qu'il est contenu 2 fois, ie pose 2 au quotient, & dis, 2 fois 7 sont 14, que i'oste de 14 nombre superieur correspondant, en tranchant 1 & 4, & ne reste rien : ce faict, i'auance le diuiseur 7 sous la figure suiuante 3, & parce qu'il n'est pas contenu au nombre correspondant 3, ie pose au quotient zero : & sans rien effacer du nombre à diuiser, i'auance mon diuiseur 7 sous la figure 5, & regarde combien de fois il est contenu au nom-

@@ -1,21 +1,24 @@
-# Page 374
+# Page 375
 
 # TRIGONOMETRIE.
 
-*De la regle des trois costez.*
+ple, ayant soustrait la somme des quarrez des deux costez ED & DI, qui est 544, du quarré de la base EI, qui vaut 900, restera 356, qu'on mettra au troisiesme lieu ; partant la regle de trois se fera ainsi par sinus,
 
-Les trois costez d'vn triangle estant donnez, trouuer lequel on voudra des angles.
+90 deg.
+480 —— 100000 —— 356.   R. 137 deg. 52′.
 
-(figure)
+Multipliant le second & troisiesme l'vn par l'autre, & diuisant le produict par le premier, on aura 74166, qu'il faut chercher dans les tables au rang des sinus, pour auoir les degrez & minutes correspondants, qui sont 47 degrez 52′ pour le complement de l'angle D. Tellement que si l'angle D estoit aigu, il faudroit soustraire de 90 degrez les 47 degrez 52′, & resteroit 41 degrez 8′ pour l'angle D : mais si l'angle D est obtus, comme il est en cet exemple, adioustant auec 90 degrez les 47 degrez 52′, on aura 137 degrez 52′ pour l'angle D. Or l'angle D est aigu, quand le quarré de la base EI est moindre que la somme des quarrez des costez ED & DI : mais il est obtus quand le quarré de la base EI excede la somme des quarrez des costez ED & DI : comme il est arriué en cet exemple.
 
-Au triangle EDI soient donnez ED de 12 toises, DI de 20 toises, & EI de 30 toises, & qu'il faille trouuer l'angle D.
+# DE L'ALTIMETRIE OV SCIENCE
 
-12   12   20   30
-20   12   20   30
-——   ——   ——   ——
-240   24   400   900
-2   12   144   544
-——   ——   ——   ——
-480   144   544   356
+*de mesurer les lignes droictes.*
 
-Pour ce faire, on multipliera ED & DI, qui comprennent l'angle requis D, l'vn par l'autre, & viendra 240, dont le double, qui est 480, on mettra au premier lieu de la regle trois, & le rayon ou sinus de 90 degrez au second lieu. Pour auoir le troisiesme nombre, on multipliera chaque costé par soy-mesme : à sçauoir 12 par 12 qui feront 144 : 20 par 20 feront 400 : & 30 par 30 feront 900. Puis on adioustera ensemble les quarrez des deux costez comprenant l'angle requis D, à sçauoir 144 & 400, & leur somme qui est 544, faudra comparer auec le quarré de la base EI : que si cette somme est égale au quarré de la base EI, l'angle D sera droict, & en ce cas, il ne sera pas besoin de regle de trois pour trouuer l'angle D, puis qu'il sera droict : Mais si ladite somme n'est égale au quarré de la base EI, on soustraira le moindre du plus grand, & le reste on mettra au troisiesme lieu de la regle de trois : comme en cet exem-
+Les lignes droictes, dont les quantitez se trouuent par l'Altimetrie, sans les mesurer actuellement, se pequent distinguer en distances, hauteurs ou profondeurs, & interualles.
+
+La distance est l'esloignement d'vn poinct visible de l'vne des stations.
+
+La hauteur ou profondeur est vne ligne droicte perpendiculaire à l'horizon, qui monstre de combien vn poinct visible est plus haut ou plus bas que le centre de l'instrument.
+
+L'interualle est vne ligne droicte comprise entre deux poincts visibles & inaccessibles.
+
+Les quantitez de ces trois sortes de lignes se trouuent, ou par la Trigonometrie, en obseruant les quantitez des angles par le

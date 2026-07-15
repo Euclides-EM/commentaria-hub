@@ -1,25 +1,23 @@
-# LIBER III.
+# GEOMET. ELEMENT.
 
-Θεώρημα α, Πρόθεσις β.
+eam ſimul diſpeſcit angulos.Connectantur enim d/b/& d/c/rectæ,per primum poſtulatum.Cùm igitur ex hypotheſi recta b/e/ſit æqualis e/c,& e/d/vtriq; communis:binæ igitur b/e/ & e/d/trianguli b/e/d, duabus d/e/& e/c/ trianguli d/e/c/ ſunt æquales altera alteri.baſis quoq; b/d,baſi d/c/eſt æqualis,per decimamquintā diffinitionem primi.Angulus ergo b/e/d,angulo d/e/c/ſub æquis lateribus comprehenſo,per octauam ipſius primi,eſt æqualis.Recta itaq; d/e/conſiſtens ſuper rectā b/c, efficit vtrobiq; angulos adinuicem æquales:ergo rectos,per decimam eiuſdem primi diffinitionem. Rectus eſt igitur vterque angulorum qui ſub b/ e/ d/ & d/ e/ c.
 
-Ἐὰν κύκλου ἐπὶ τῆς περιφερείας ληφθῇ δύο τυχόντα σημεῖα,ἡ ἐπὶ τὰ αὐτὰ σημεῖα ἐπιζευγνυμένη εὐθεῖα ἐντὸς πεσεῖται τοῦ κύκλου.
+Secet rurſum eadem a/f,datam ipſam b/c/ ad rectos angulos. Dico, q̄ & bifariam eandem verſa vice diuidet. Eadem nanque figuræ manente diſpoſitione , quoniam vterq; angulorum qui circa e/rectus eſt, per hypotheſin: rectangula igitur ſunt b/e/d/& d/e/c/triangula. quæ igitur ex b/e/& e/d/vtraq; fiūt quadrata,æqua ſunt ei quod ex b/d : ſimiliter & quæ ex d/e/& e/c, ei quod fit ex d/c, per quadrageſimamſeptimā primi. Quadrata porrò quæ fiunt ex b/d/& d/c,æqualia ſunt adinuicem,per quadrageſimæſextæ primi libri corollarium:recta enim b/d,ipſi d/c/eſt æqualis,per decimamquintam ipſius primi diffinitionem. Quæ autem æqualibus æqualia ſunt: ea ſunt inuicem æqualia,per primam communem ſententiam. Quæ igitur ex b/e/ & e/d/fiunt quadrata,æqua ſunt eis, quæ ex d/e/& e/c. Tollatur cōmune quadratum quod fit ex e/d:reliquum ergo quadratum quod ex b/e,reliquo quod fit ex e/c,per tertiam communem ſententiam eſt æquale. Aequalia porrò quadrata ſunt,quæ ab æqualibus rectis deſcribuntur:per idem corollarium quadrageſimæſextæ primi libri.Aequalis eſt igitur b/e/ipſi e/c. Itaq; ſi in circulo recta linea quædam: & quæ ſequuntur reliqua.Quod demonſtrare oportebat.
 
-## Theorema 1, Propoſitio 2.
+> Pars ſecūda conuerſa præcedentis.
 
-SI in circuli circunferentia duo fuerint puncta vtcunque contingentia : ad ea puncta applicata recta linea, intra ipſum circulum cadit.
+*[diagram: a d b e c f]*
 
-ORONTIVS. Sit a/b/c/circulus:in cuius circunferentia ſint b/& c/vtcunq; contingentia puncta. Aio q̄ cōnexa ex b/in c/recta linea,cadit intra circulum a/b/c. Si enim non cadit intra:coincidit igitur in comprehenſam circunferentiam, vel cadit extra circulum.Atqui recta ipſa, cum ipſius circuli circunferētia minimè poteſt conuenire:non differret enim rectum à curuo.Cadat igitur,ſi poſſibile ſit,extra circulum a/b/c.& inuento ipſius circuli centro d,per primam huius, ſuſceptóq; pūcto e/in b/c/circūferentia:connectantur d/b,d/e,& d/c/rectæ lineæ,per primum poſtulatum: producatúrq; per ſecundum poſtulatū, recta d/e/ in directum vſque ad f,hoc eſt, in eam quæ extra cadere conceſſa eſt.Erunt igitur d/b,d/e,& d/c,adinuicem æquales,per decimamquintam diffinitionem primi: & d/f/inſuper maior ipſa d/e,per nonam communem ſententiā. Triangulum igitur erit d/b/f/c,atq; iſoſceles : quoniam d/b/ æqualis eſt ipſi d/c. Vnde per quintā primi, anguli d/b/c/& d/c/b,qui ad baſin b/f/c:erunt adinuicem æquales.Triangulū inſuper erit d/b/f,& ipſum b/f/latus,productum in c.exterior igitur angulus d/f/c, maior erit interiore & ex oppoſito d/ b/ f, per decimamſextam ipſius primi . Ipſi porrò d/b/f/ angulo,oſtenſus eſt æqualis d/c/f:& d/f/c/ igitur angulus, ipſo d/c/f/ angulo maior erit:quæ enim ſunt æqualia eiuſdem ſunt æquè minora,per ſeptimæ cōmunis ſententiæ conuerſionem.In triangulo igitur d/c/f,angulus qui ad f,maior erit angulo qui ad c.Omnis porrò trianguli maius latus,ſub maiori angulo ſubtenditur,per decimamoctauam eiuſdem primi.maius igitur erit latus d/c, ipſo d/f. Ipſi autem d/c, æqualis eſt d/e,vti nuper oſtendimus.Et d/e/igitur maior erit ipſa d/f,minor videlicet maiore,ſeu pars toto:quod per nonam communem ſentētiam eſt impoſſibile. Non cadit igitur connexa ex b/in c/recta,extra circulum a/b/c, neq; in circunferentiam b/e/c: igitur intra. Quod oſtendendum fuerat.
+Θεώρημα γ, Πρόθεσις δ.
 
-> Oſtenſio rurſum per impoſſibile.
+Ἐὰν ἐν κύκλῳ δύο εὐθεῖαι τέμνωσιν ἀλλήλας,μὴ διὰ τοῦ κέντρου οὖσαι,οὐ τέμνουσιν ἀλλήλας δίχα.
 
-*[diagram: a d b c e f]*
+## Theorema 3, Propoſitio 4.
 
-Θεώρημα β, Πρόθεσις γ.
+SI in circulo binæ rectæ lineæ ſeſe inuicem ſecuerint non per centrum extenſæ:ſeſe inuicem bifariam non ſecabunt.
 
-Ἐὰν ἐν κύκλῳ εὐθεῖά τις διὰ τοῦ κέντρου,εὐθεῖάν τινα μὴ διὰ τοῦ κέντρου δίχα τέμνῃ,καὶ πρὸς ὀρθὰς αὐτὴν τεμεῖ:καὶ ἐὰν πρὸς ὀρθὰς αὐτὴν τέμνῃ,καὶ δίχα αὐτὴν τεμεῖ.
+ORONTIVS. Eſto datus a/b/d/ circulus:in quo binæ rectæ lineæ a/c/ & b/d,non per centrum extenſæ, ſeſe inuicē ſecent in puncto e.Aio q̄ altera alteram bifariam non ſecat in eodem puncto e. Inueniatur enim centrū dati circuli a/b/c/d, ſitq́; illud f,per primam huius:& connectatur e/f/recta,per primum poſtulatum.Si igitur a/e/ipſi e/c/fuerit æqualis:recta e/f/per centrum extenſa,eandem a/c/nō ductam per centrum bifariam ſecabit, & ad rectos igitur angulos, per tertiam huius. Rectus erit itaq; a/e/f/angulus.Haud diſſimiliter ſi b/e/ſit æqualis ipſi e/d: eadem e/f/per centrum educta,ipſam b/d/non per centrum extenſam,bifariā & ad rectos quoq; ſecabit angulos,per eādem tertiam huius.Rectus erit igitur angulus b/e/f.Atqui rectum itidem fore monſtrauimus a/e/ f/ angulum: ſuntq́; recti omnes inuicē æquales, per quartum poſtulatū.Aequus erit igitur b/e/f/angulus, ipſi angulo a/e/f. Angulus porrò a/e/f, eſt pars ipſius b/e/f/ anguli: recta ſiquidem e/a,cadit inter b/e/& e/f/rectas, diuiditq́; propterea ipſum angulum b/e/f.Totus itaq; b/e/f/angulus,
 
-## Theorema 2, Propoſitio 3.
+> Demōſtratio ab impoſſibili
 
-SI in circulo recta linea quædam per centrum extenſa, quandam non per centrum extenſam rectam lineam bifariam ſecuerit : & ad angulos rectos ipſam diſpeſcet. Et ſi ad angulos rectos ipſam diſpeſcat:bifariam quoq; ipſam ſecabit.
-
-ORONTIVS. Sit datus a/ b/c/ circulus, & illius centrum d : recta verò linea per idem centrum extenſa ſit a/f,quæ aliam quandam rectam lineam b/c/non ductam per centrum, bifariam in primis ſecet, in puncto e. Aio quòd & ad rectos
+*[diagram: a d f e b c]*

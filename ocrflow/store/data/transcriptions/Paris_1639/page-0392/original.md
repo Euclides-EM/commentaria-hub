@@ -1,23 +1,25 @@
-# Page 391
+# Page 392
 
-# PRACTIQVE.
+# GEOMETRIE
 
-cette table pour l'heptagone, fera 472234, auquel correspondent 52763 dans la table des logarithmes qui vont iusques à 100000, mais pour trouuer le nombre correspondant à ce logarithme, dans les tables qui ne vont que iusques à 1000, qui a pour logarithme 300000, comme sont celles de mon liure, on soustraira 200000, qui est le logarithme de 100, de 472234, afin que le reste 272234 se trouue dans la table, & le nombre 527 53/82 correspondant dans la table à ce reste, on le multipliera par 100, dont le logarithme 200000 a esté soustraict, & viendra 52700 5300/82, & reduisant la fraction en entier en diuisant par le denominateur 82 fait enuiron 65, qui adioustez auec 52700 font 52765 pour le contenu de l'heptagone, qui n'est pas si iuste que 52763.
+par tout le diametre, & du produict en prenant le quart : ce faisant on trouuera que si le diametre vaut 35, & la circonference 110, que l'aire du cercle vaudra 962 1/2. Car 110 multiplié par 35 fait 3850, dont le quart est 962 1/2.
 
-*Le diametre d'vn cercle estant donné, trouuer la circonference : ou au contraire, la circonference estant donnée trouuer le diametre.*
+*Trouuer l'aire d'vn secteur de cercle.*
 
-La proportion du diametre à la circonference est d'enuiron comme 7 à 22, partant si le diametre est donné, par exemple de 35, pour auoir la circonference on dira, si
+(figure)
 
-*7 donne 22 combien 35.   R. 110.*
+Soit le secteur proposé AECDA, il faut mesurer le costé AE & la circonference ADC, & les multiplier l'vn par l'autre, & du produict en prendre la moitié, qui sera le contenu du secteur AECDA, ce faisant on trouuera que si AE vaut 12, & la circonference ADC 23, que le secteur AECDA vaudra 138. Car 23 estant multiplié par 12 fait 276, dont la moitié est 138.
 
-& viendra 110 pour la circonference.
+*Trouuer l'aire d'vn segment ou section de cercle.*
 
-Que si au contraire, la circonference est donnée de 110, ordonnant la regle de trois ainsi, si
+Soit à trouuer l'aire de la section AFCDA : pour ce faire il faut trouuer par les precedentes les contenus du secteur AECDA, & du triangle AECFA, & ostant le contenu du triangle de celuy du secteur, restera le contenu de la section AFCDA.
 
-*22 donnent 7 combien 110.   R. 35.*
+Voyez en la page 337 du 3 tome, la methode de trouuer le semidiametre AE, & la circonference ADC, estant données AC & FD.
 
-on trouuera 35 pour le diametre.
+*Trouuer l'aire d'vne ouale.*
 
-*Trouuer l'aire d'vn cercle.*
+Il faut premierement trouuer le contenu du cercle, dont le diametre est égal au moindre diametre de l'ouale, puis l'augmenter selon la proportion du moindre ou plus grand diametre de l'ouale : par exemple, si le moindre diametre est 35, & le plus grand 50, le contenu du cercle qui a 35 de diametre, est 9625′ ou 962 1/2, & ordonnant la regle de trois ainsi, si
 
-L'aire ou contenu d'vn cercle se trouue en multipliant la moitié de la circonference par le semidiametre, ou toute la circonference
+*35 donnent 50 combien 9625′.   R. 1375.*
+
+viendra 1375 pour le contenu de l'ouale.

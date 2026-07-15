@@ -1,42 +1,39 @@
-# Page 39
+# Page 40
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-hyp. | ac 2|2 ½ab,
-3.a.b | cb 2|2 ½ab,
-hyp. | df 3|2 ½de,
-3.a.b | fe 2|3 ½de,
-hyp. | hl 2|2 ⅓gl,
-3.a.b | gh 2|2 ⅔gl.
+5. a. 1.
 
-(figure)
-
-4. a. 1.
-
-Et si à choses inégales on adiouste choses égales, les tous sont inégaux.
+Et si de choses inégales on oste choses égales, les restes sont inégaux.
 
 hyp. | ab 3|2 cd,
-hyp. | be 2|2 df,
-4.a.1. | ae 3|2 cf.
+hyp. | eb 2|2 fd,
+5.a.1. | ae 3|2 cf.
 
 (figure)
 
-4. a. b.
+5. a. b.
 
-Et si à choses égales on adjouste choses inégales, les tous sont inégaux.
+Et si de choses égales on oste choses inégales, les restes sont inégaux.
 
 hyp. | ab 2|2 cd,
-hyp. | be 3|2 df,
-4. a. b. | ae 3|2 ef.
+hyp. | ae 3|2 cf,
+5.a.b. | eb 2|3 fd.
 
 (figure)
 
-4. a. c.
+5. a. c.
 
-Et si à choses inégales on adjouste choses inégales, à la plus grande la plus grande, & à la plus petite la plus petite, les tous sont inégaux, celuy-là plus grand, & celuy-cy plus petit.
+Et si de choses inégales on oste choses inégales, sçauoir de la plus grande moins, & de la plus petite plus, les restes sont inégaux, sçauoir est celuy-là plus grand, & celuy-cy plus petit.
 
 hyp. | ab 3|2 cd,
-hyp. | be 3|2 df,
-4.a.c. | ae 3|2 cf.
+hyp. | cf 3|2 ae,
+5.a.c. | eb 3|2 fd.
 
 (figure)
+
+Or en toutes ces notions, excepté la premiere, par le mot de quantitez égales, faut entendre aussi vne mesme, commune à plusieurs.
+
+6. a. 1.
+
+Et les choses qui sont doubles d'vne mesme, sont égales entr'elles.

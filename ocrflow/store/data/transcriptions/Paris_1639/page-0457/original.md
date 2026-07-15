@@ -1,9 +1,35 @@
-# Page 456
+# Page 457
 
 # DE LA GNOMONIQVE.
 
-## Methode vniuerselle & facile de descrire vn quadrant Italique en tout plan qui ne soit parallele à l'horizon.
+| Æquinoct. |  | 12 h. Ital. |  | 24 h. Ital. |  | 6 h. Astron. |  | 24 h. Astron. |  |
+|---|---|---|---|---|---|---|---|---|---|
+| Ital. | Astron. | Ital. | Astron. | Ital. | Astron. | Ital. | Ital. | Ital. | Ital. |
+| 24 | 6 | 24 | 6 | 24 | 12 | 24 | 12 | 24 | 0 |
+| 23 | 5 | 23 | 5 1/2 | 23 | 11 1/2 | 23 | 13 | 23 | 1 |
+| 22 | 4 | 22 | 5 | 22 | 11 | 22 | 14 | 22 | 2 |
+| 21 | 3 | 21 | 4 1/2 | 21 | 10 1/2 | 21 | 15 | 21 | 3 |
+| 20 | 2 | 20 | 4 | 20 | 10 | 20 | 16 | 20 | 4 |
+| 19 | 1 | 19 | 3 1/2 | 19 | 9 1/2 | 19 | 17 | 19 | 5 |
+| 18 | 0 | 18 | 3 | 18 | 9 | 18 | 18 | 18 | 6 |
+| 17 | 11 | 17 | 2 1/2 | 17 | 8 1/2 | 17 | 19 | 17 | 7 |
+| 16 | 10 | 16 | 2 | 16 | 8 | 16 | 20 | 16 | 8 |
+| 15 | 9 | 15 | 1 1/2 | 15 | 7 1/2 | 15 | 21 | 15 | 9 |
+| 14 | 8 | 14 | 1 | 14 | 7 | 14 | 22 | 14 | 10 |
+| 13 | 7 | 13 | 0 1/2 | 13 | 6 1/2 | 13 | 23 | 13 | 11 |
+| 12 | 6 | 12 | 0 | 12 | 6 | 12 | 24 | 12 | 12 |
+| 11 | 5 | 11 | 11 1/2 | 11 | 5 1/2 | 11 | 1 | 11 | 13 |
+| 10 | 4 | 10 | 11 | 10 | 5 | 10 | 2 | 10 | 14 |
+| 9 | 3 | 9 | 10 1/2 | 9 | 4 1/2 | 9 | 3 | 9 | 11 |
+| 8 | 2 | 8 | 10 | 8 | 4 | 8 | 4 | 8 | 16 |
+| 7 | 1 | 7 | 9 1/2 | 7 | 3 1/2 | 7 | 5 | 7 | 17 |
+| 6 | 0 | 6 | 9 | 6 | 3 | 6 | 6 | 6 | 18 |
+| 5 | 11 | 5 | 8 1/2 | 5 | 2 1/2 | 5 | 7 | 5 | 19 |
+| 4 | 10 | 4 | 8 | 4 | 2 | 4 | 8 | 4 | 20 |
+| 3 | 9 | 3 | 7 1/2 | 3 | 1 1/2 | 3 | 9 | 3 | 21 |
+| 2 | 8 | 2 | 7 | 2 | 1 | 2 | 10 | 2 | 22 |
+| 1 | 7 | 1 | 6 1/2 | 1 | 0 1/2 | 1 | 11 | 1 | 23 |
+| Babyl. | Astron. | Babyl. | Astron. | Babyl. | Astron. | Babyl. | Babyl. | Babyl | Babyl. |
+| Æquinoct. |  | 12 h. Babyl. |  | 24 h. Babyl. |  | 6 h. Astren. |  | 24 h. Astron. |  |
 
-(figure)
-
-Sur le plan proposé soit premierement descrit le quadrant astronomique CFHRB, qui monstre les heures & demy-heures, par les methodes données cy dessus, & soit adiousté à ce quadrãt (outre la ligne equinoctiale FG, qui se trouue en faisant la construction par le moyen du stile perpendiculaire à son plan, que l'on prend à discretion) la ligne EB de la 24 heure Italique, laquelle aux plans verticaux, passant par le pied au stile perpendiculaire au plan du quadrant, est tousiours parallele à l'horizon : & aux quadrants descrits sur des plans inclinez, elle est l'intersection, par laquelle vn plan parallele à l'horizon passant par le sommet du stile perpendiculaire au plan du quadrant couppe le plan proposé.  Ayant ainsi descrites la ligne equinoctiale, & celle de la 24 heure Italique, par le moyen des nombres de la premiere & troisiesme colomne de la table suiuante, pour chaque ligne horaire Italique, on trouuera vn poinct en la ligne equinoctiale, & vn autre en la ligne de la vingt-quatriesme heure Italique, & la ligne droite tirée par ces deux poincts, sera vne ligne horaire Italique.  Par exemple, pour descrire la ligne de la 23 heure Italique, ie cherche 23 en la premiere colomne de ladite table, & trouué vis à vis 5 heures astronomiques, qui signifient que la ligne de la 23 heure Italique doit passer par l'intersection de la ligne equinoctiale, & de la 5 heure astro-
+nomique : puis ie cherche en la 3 colomne (qui a pour tiltre 24 h. Ital.) les 23 heures Italiques, & trouue vis à vis 11 1/2, qui signifie que la 23 heure Italique doit passer par l'intersection de la ligne

@@ -1,27 +1,33 @@
-# LIBER V.
+# GEOMET. ELEMENT.
 
-hypothesin, æquè multiplex est a ipsius b, atq; c ipsius d. Est autem e/l ipsi a, & g/n ipsi c per cōstructionem æqualis. Aequalia porrò eiusdē sunt æquè multiplicia, per sextæ diffinitionis primi libri conuersionem. Aequè multiplex igitur est e/l ipsius b, ac g/n ipsius d. Et proinde l/m æquè multiplex itidem est ipsius b, ac n/o ipsius d. Sunt itaque sex magnitudines, quarū prima e/l secundæ b æquè multiplex est, ac tertia g/n ipsius quartæ d: quinta rursum l/m eiusdem secundæ b æquè multiplex est, ac sexta n/o eiusdem quartæ d. Et composita igitur prima & quinta e/m ipsius secundæ d æquè multiplex est, ac tertia & sexta g/o ipsius quartæ d: per antecedentem secūdam propositionem.
+*[diagram: k e a b g m l f c d h n]*
 
-> Primus ostensionis discursus.
+ex ipsarum magnitudinū habitudine proportionata, eorundem æquè multiplicium rationis versa vice concluditur identitas. tanta est æquè multiplicium cum submultiplicibus necessitudo. Est igitur vt k ad m, ita l, ad n: hoc est, sicut multiplex primi ad multiplex secūdi, ita multiplex tertij ad multiplex quarti. Ipsa porrò k & l, ipsorū e & f sunt æquè multiplicia: m verò & n æquè multiplicia ipsorū g & h, per constructionem. Est igitur vt e ad g, sic f ad h: per sextam huius quinti diffinitionem. Atqui e & f, sunt æquè multiplicia primi & tertij: g autem & h, secundi & quarti alia itidem æquè multiplicia. Si primū igitur ad secundū eandem habuerit rationē: & quæ sequuntur reliqua. Quod demōstrandum susceperamus.
 
-Rursum quoniam æqualis est m/f ipsi a, & o/h ipsi c: æquè multiplex itidē erit m/f ipsius b, atq; o/h ipsius d, per eandē sextæ diffinitionis primi libri conuersionem. Ostensum est autem e/m & g/o ipsarum b & d fore æquè multiplices. Sunt itaq; rursum sex magnitudines, quarū prima e/m secundæ b æquè multiplex est, ac tertia g/o ipsius quartæ d: quinta insuper m/f eiusdem secundæ b æquè est multiplex, ac sexta o/h eiusdem quartæ d. Et composita igitur prima & quinta e/f, ipsius secūdæ b æquè multiplex est, ac tertia & sexta g/h eiusdem quartæ d: per allegatam hūius quinti secundam propositionem.
+## Lemma, siue assumptum.
 
-> Secūdus, priori similis, discursus ostensionis.
+¶Et quoniā ostēsum est, quòd multiplex k ad multiplex m se habet, vt multiplex l ad multiplex n. si igitur k excedit m, & l proportionaliter excedit n: & si æquale, æquale: & si minus, itidem proportionaliter minus. Quare & versa vice, si m excedit k, & n proportionaliter excedit l: & si æquale, æquale: si autem minus, & proportionaliter denique minus. Et proinde, per sextam huius quinti diffinitionem, erit vt g ad e, sic h ad f: atque respondenter sicut b ad a, ita d ad c.
 
-Et deinceps ita quantumlibet, prioribus consequentes adiungendo magnitudines, pro contingente ipsorum æquè multiplicium e/f & g/h multitudine. Atqui multitudo e/l, l/m, & m/f, multitudini g/n, n/o, & o/h æqualis est: vtraque enim ipsi k numero æqualis. Si igitur primū secundi æquè fuerit multiplex & tertiū quarti: &c. vt in theoremate. Quod fuerat ostendendum.
+## Corollarium.
 
-## Θεώρημα δ, Πρόθεσις δ.
+¶Si quatuor igitur magnitudines fuerint proportionales: & ècontra, seu à cōuersa ratione proportionales erunt: facta videlicet consequentium tanquàm antecedentium, ad antecedentia tanquàm ad consequentia relatione.
 
-Ἐὰν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, ⁊ τρίτον πρὸς τέταρτον· καὶ τὰ ἰσάκις πολλαπλάσια τοῦ τε πρώτου καὶ τρίτου πρὸς τὰ ἰσάκις πολλαπλάσια τοῦ δευτέρου ⁊ τετάρτου καθ᾽ ὁποιονοῦν πολλαπλασιασμόν, τὸν αὐτὸν ἕξει λόγον ληφθέντα κατάλληλα.
+> Conuersa ratio.
 
-## Theorema 4, Propositio 4.
+## Θεώρημα ε, Πρόθεσις ε.
 
-SI primum ad secundum eandem habuerit rationem, & tertiū ad quartum: & æquè multiplicia primi & tertij ad æquè multiplicia secundi & quarti iuxta quāuis multiplicationem, eandem habebunt rationem sumpta adinuicem.
+Ἐὰν μέγεθος μεγέθους ἰσάκις ᾖ πολλαπλάσιον, ὅπερ ἀφαιρεθὲν ἀφαιρεθέντος, καὶ τὸ λοιπὸν τοῦ λοιποῦ ἰσάκις ἔσαι πολλαπλάσιον, ὁσαπλάσιόν ἐσι τὸ ὅλον τοῦ ὅλου.
 
-ORONTIVS. ¶Esto enim vt primū a ad secundum b eandem habeat rationem, quam c tertium ad quartum d: & accipiantur ipsorum a & c, hoc est, primi & tertij æquè multiplicia e & f, secundi pariter & quarti, vtpote, ipsorum b & d alia itidem æquè multiplicia g & h. Aio quòd e multiplex primi, ad g multiplex secundi eandem habet rationem, quam f multiplex tertij ad h multiplex quarti. Sumantur enim ipsorum e & f, æquè multiplicia k & l: ipsorū porrò g & h, alia similiter æquè multiplicia m & n. Cùm igitur e totuplex sit ipsius a, quotuplex est f ipsius c, & ipsorū e & f sumpta sunt æquè multiplicia k & l: igitur æquè multiplex est k ipsius a, & l ipsius c, per tertiā huius quinti. & per eandem æquè multiplex est m ipsius b, atq; n ipsius d. Est autem ex hypothesi, sicut a ad b, ita c ad d: & ipsorum a & c ostensa sunt æquè multiplicia k & l, necnon ipsorum b & d alia itidem æquè multiplicia m & n. Est igitur sicut k ad m, ita l ad n: per conuersionem sextæ diffinitionis huius quinti. Sicuti enim ex ipsorum æquè multiplicium proportione, datas magnitudines in eadē esse ratione, sexta huius quinti visa est innuere diffinitio: haud dissimiliter
+## Theorema 5, Propositio 5.
+
+SI magnitudo magnitudinis æquè fuerit multiplex, & ablata ablatæ: & reliqua reliquæ erit multiplex, quotuplex tota totius est multiplex.
+
+ORONTIVS. ¶Esto magnitudo a/b magnitudinis c/d tam multiplex, quàm multiplex est ablata a/e ablatæ c/f. Dico reliquam e/b, reliquæ f/d totuplicem fore, quotuplex est tota a/b totius c/d. Ponatur enim e/b æquè multiplex ipsius g/c, vt a/e ipsius c/f. Cùm igitur tū per hypothesin, tum per constructionē, totuplex sit a/e ipsius c/f, quotuplex est e/b ipsius g/c: quotuplex autem est vna vnius, totuplices sunt & omnes omnium, per primā huius quinti. Quotuplex est itaq; a/e ipsius c/f, totuplex est & tota a/b totius g/f. At quotuplex est a/e ipsius c/f, totuplex est & eadem a/b ipsius c/d, per hypothesin. Et a/b igitur vtriusque & g/f & c/d est
+
+> Assumptum.
 
 > Demōstratio theorematis.
 
-> De æquè multipliciū & submultiplicium proportione reciproca.
+*[diagram: a e b / g c f d]*
 
-*[diagram: k e a b g m l f c d h n]*
+æquè multiplex: & proinde vtraque g/f & c/d, eiusdem a/b æquè submultiplex est. Quæ autem eiusdem sunt æquè submultiplicia, æqualia sunt adinuicem, per septimam communem sententiam. Aequalis est igitur g/f ipsi c/d, & vtrique communis c/f: qua dempta, reliqua g/c reliquæ f/d, per tertiam cōmunem sententiā est æqualis. Aequalia rursum eiusdem sunt æquè submultiplicia, per ipsius septimæ communis sententiæ conuersionem. Et g/c igitur atque f/d, eiusdem a/b sunt æquè submultiplices: & proinde a/b vtriusque & g/c & f/d æquè est multiplex. Porrò e/b æquè multiplex est ipsius g/c, per constructionē, vt a/e ipsius c/f. Et eadē propterea

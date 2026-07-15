@@ -1,41 +1,31 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-Πρόβλημα ς, Πρόθεσις ια.
+Recta ergo c/h/consistens super datã rectam lineã a/b,æquales vtrobiq; facit angulos:ergo rectos.Et proinde c/h/perpendicularis est super a/b,per decimam diffinitionem.Super datam itaque rectam lineam infinitã a/b,à dato puncto c/quod in ea non est,deducta est perpendicularis c/h.Quod fecisse oportuit.
 
-Τῇ δοθείσῃ εὐθείᾳ,ἀπὸ τοῦ πρὸς αὐτῇ δοθέντος σημείου, πρὸς ὀρθὰς γωνίας εὐθεῖαν γραμμὴν ἀγαγεῖν.
+> Cum [?] recta linea super rectam consistens lineam [?]
 
-## Problema 6, Propositio 11.
+Θεώρημα ς, Πρόθεσις ιγ.
 
-DAta recta linea,à púcto in ea dato, rectam lineam ad angulos rectos excitare.
+Ὡς ἂν εὐθεῖα ἐπ' εὐθεῖαν σταθεῖσα γωνίας ποιῇ, ἤτοι δύο ὀρθὰς,ἢ δυσὶν ὀρθαῖς ἴσας ποιήσει.
 
-ORONTIVS.¶Esto recta linea data a/b,datúmq; in ea púctú c:à quo oporteat rectã lineã ad angulos rectos excitare. Suscipiat̃ igitur in a/c/recta,cótingés punctú: sitq́; illud d.secetur præterea à recta c/b,ipsi d/c/æqualis, per tertiã propositioné,vtpote c/e.deniq; super recta d/e, triágulú æquilaterú cóstituat̃ d/f/e, per primã propositioné:cónectaturq́; recta c/f,per primú postulatú. Dico c/f/rectã,ad rectos angulos cósistere super datã rectã a/b.Quoniã d/c/est æqualis ipsi c/e,cómunis auté c/f/diuidés d/f/e/triágulú.Duæ igitur f/c/& c/d/triáguli f/c/d, duabus f/c/& c/e/trianguli f/c/e,sunt altera alteri æquales:& basis d/f/basi f/e,per constructionem æqualis. Angulus itaq; f/c/d,angulo f/c/e/sub æqualibus rectis lineis cótento,per octauam propositionem est æqualis. Recta igitur c/f/consistens super recta a/b,æquales vtrobique facit angulos: ergo rectos, per decimam diffinitionem.A dato igitur púcto c,datæ rectæ lineæ a/b, recta linea c/f/ad rectos excitata est angulos.Quod faciendum susceperamus.
+## Theorema 6, Propositio 13.
 
-*[diagram: f a d c e b]*
+CVm recta linea super rectam consistens lineã angulos fecerit: aut duos rectos,aut duobus rectis æquales efficiet.
 
-> 1 propo. Super datam rectam lineam terminatam triangulum equilaterum constituere.
+ORONTIVS. ¶Incidat inquàm a/b/recta,super rectam c/d,efficiens angulos a/b/c/& a/b/d. Anguli itaque a/b/c/& a/b/d,aut sunt æquales adinuicé,aut inæquales.Si æquales,ergo recti,per decimam diffinitioné:prima igitur pars vera. Quòd si inæquales extiterint ipsi a/b/c/& a/b/d/anguli,vtpote,a/b/c/recto minor,& eodé recto maior a/b/d: dico nihilominus eosdé angulos a/b/c/& a/b/d,fore binis rectis angulis æquales.Quoniam a/b/c/& a/b/d/anguli sunt inæquales:non est igitur a/b/ recta,perpendicularis super rectam c/d, per conuersam ipsius decimæ diffinitionis. Excitetur ergo super data recta linea c/d,à dato in ea puncto b, perpédicularis b/e, per vndecimam propositionem.Diuidet itaq; recta b/e/angulum a/b/d/ recto maiorem:necnó recta a/b,ipsum angulum e/b/c/rectú,maiorem acuto a/b/c. Aequus est igitur angulus e/b/c, binis angulis a/b/c/& a/b/e. communis adijciatur angulus e/b/d.bini itaq; anguli e/b/c/& e/b/d,tribus angulis, hoc est a/b/c,a/b/e,& e/b/d,sunt æquales, per secúdam commune sentétiam.Angulus rursum a/b/d,æquus est duobus angulis a/b/e/ & e/b/d. communis addatur angulus a/b/c. Duo igitur anguli a/b/c/& a/b/d, tribus angulis, vtpote,a/b/c,a/b/e,& e/b/d,sunt per eandé secundã commune sententiã æquales.Atqui monstratú est,q̃ & anguli e/b/c/& e/b/d,eisdem tribus æquantur angulis. Anguli porrò qui eisdem sunt æquales angulis, adinuicem quoq; sunt æquales, per primam cómunem sentétiam.Igitur anguli a/b/c/& a/b/d, duobus e/b/c/& e/b/d/sunt æquales.Sút autem per constructionem anguli e/b/c/& e/b/d/recti.& duo igitur anguli a/b/c/& a/b/d, binis sunt rectis æquales.Idem etiã ostendetur,vbi a/b/c/ angulus,fuerit maior ipso a/b/d. Cùm igitur recta linea,super rectam consistens lineam, angulos fecerit:aut duos rectos,aut duobus rectis æquales efficiet. Quod oportebat demonstrare.
 
-> 8 prop. Si bina triangula duo latera, duobus lateribus altera alteri equales habuerint: basim quoq; basi equalem, angulum quoq; sub equalibus rectis lineis contentum equalem habebunt.
+*[diagram: a e c b d]*
 
-> 1 postul. Ab oi puncto ad oé punctum rectam lineam ducere.
+*[diagram: abc. / ebc. abc. abc. / ebd. ebd. abd.]*
 
-Πρόβλημα ζ, Πρόθεσις ιβ.
+Θεώρημα ζ, Πρόθεσις ιδ.
 
-Ἐπὶ τὴν δοθεῖσαν εὐθεῖαν ἄπειρον, ἀπὸ τοῦ δοθέντος σημείου, ὃ μή ἐστιν ἐπ' αὐτῆς, κάθετον εὐθεῖαν γραμμὴν ἀγαγεῖν.
+Ἐὰν πρός τινι εὐθείᾳ καὶ τῷ πρὸς αὐτῇ σημείῳ, δύο εὐθεῖαι μὴ ἐπὶ τὰ αὐτὰ μέρη κείμεναι, τὰς ἐφεξῆς γωνίας δυσὶν ὀρθαῖς ἴσας ποιῶσιν,ἐπ' εὐθείας ἔσονται ἀλλήλαις αἱ εὐθεῖαι.
 
-## Problema 7, Propositio 12.
+## Theorema 7, Propositio 14.
 
-SVper datam rectam lineam infinitam, à dato puncto quod in ea non est,perpendicularem rectam lineam deducere.
+SI ad aliquam rectam lineam, atque ad eius punctum,duæ rectæ lineæ non ad easdem partes ductæ, vtrobique duobus rectis angulos æquales fecerint: ipsæ in directum rectæ lineæ adinuicem erunt.
 
-ORONTIVS.¶Sit data recta linea infinita a/b,datum verò púctum quod in ea non est c:à quo,in ipsam a/b,perpendicularem rectã lineam deducere sit operæpretium. In eodem itaque plano, in quo data a/b/ recta linea infinita, & datum punctum c,ex altera quidem parte ipsius a/b,contingens punctú suscipiatur: sitq́; illud d.Erit igitur c/d/interuallum,dirimétq; ipsam a/b/rectam.Centro ergo c, interuallo autem c/d, circulus describatur e/f/g, per tertium postulatum. Hic porrò circulus e/f/g,cùm in eodem sit plano in quo & recta a/b, sitq́; finitus, eadem verò a/b/infinita,& dirempta ab interuallo c/d:subtendet propterea idem e/f/g/circulus partem ipsius a/b,egredieturq́; eadem a/b,recta circúferentiam ipsius e/f/g/ circuli,eandémque circunferétiam egrediendo secabit.Secet igitur in e/& f/punctis:diuidaturq́; recta & subtensa e/f/bifariam,in puncto quidem h, per decimã propositionem.& connectantur tandem c/e, c/h,atq; c/f/rectæ,per primum postulatú. Dico itaq;reactã c/h/perpendiculariter incidere super datã,rectã a/b. Quoniam e/h/ æqualis est ipsi h/f, per constructionem: c/h/ verò dirimens c/e/f/ triangulum, vtrique communis. Binæ igitur c/h/& h/e/ trianguli c/h/e, duabus c/h/ & h/f/ trianguli c/h/f/ sunt altera alteri æquales : basis quoq; c/e, basi c/f/ æqualis, per decimamquintam diffinitionem. Aequus est igitur angulus c/h/e,angulo c/h/f/sub æquis lateribus cótento, per octauã propositioné.
+ORONTIVS.¶Ad datam enim rectam lineam a/b, atque ad eius punctum
 
-*[diagram: g c a e h f b d]*
-
-> Constructio figuræ.
-
-> Ostensio problematis.
-
-> 10 propo. Datam rectam lineam terminatam bifariam secare.
-
-> 1 postul. Ab oi puncto ad oé punctum rectam lineam ducere.
-
-> 15 Diffinitio. Circulus ẽ figura plana vna linea contenta que circumferentia appellatur ad quam ab vno introrsum medio existente oẽs producentes lineæ in ipsius circuli circumferentiam incidentes ad inuicem sunt equales.
+b.iiij.

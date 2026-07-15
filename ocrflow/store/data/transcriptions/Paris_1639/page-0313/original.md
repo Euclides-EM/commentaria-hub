@@ -1,36 +1,25 @@
-# Page 312
+# Page 313
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-on trouuera que 834 aulnes à 7 liures 16 sols l'aulne vaudront 6505 liures 4 sols : & 377 aulnes à 9 liures 15 sols, valent 3675 liures 15 sols.
+posées de sols, ou liures & sols, qu'on doit faire la diuision. Le tout comme on peut voir aux exemples precedens & suiuans.
 
-*Exemple 1.*
+*Trouuer des liures en multipliant des liures & ſols par ans & mois, ou par ans, mois & iours.*
 
-8 3 4 à 7 lt. 1 6 ſ. ou 7 8′
-7 8′
+Soit à trouuer à combien montera l'interest de 137 liures 16 sols par an, en 23 ans & 7 mois. Les 137 liures 16 sols reduicts en dixme font 1378′, qu'on multipliera par 23 ans & 7 mois, comme s'ensuit.
+
+1 3 7 8′
+2 3
 ——
-6 6 7 2
-5 8 3 8
+4 1 3 4
+2 7 5 6
+6 8 9
+1 1 4——1 ſ. 8 d.
 ——
-6 5 0 5|2′
+3 2 4 9|7
 ——
-6 5 0 5 lt. 4 ſ.
+3 2 4 9 lt. 1 5 ſ. 8 d.
 
-*Exemple 2.*
+Pour auoir l'interest de 7 mois, on prendra premierement l'interest de 6 mois, qui est 689, à sçauoir la moitié de 1378′, qui est l'interest annuel : & pour vn mois on prendra la sixiesme partie de 689′, qui est 114′⅚, & parce qu'vne minute de liure vaut 24 deniers, les ⅚ vaudront 1 sol & 8 deniers, & adioustant tous les produicts ensemble, on aura 32497′ lt. 1 ſ. 8 d. & retranchant vne fignre pour reduire les minutes de liures en liures, le requis sera 3249 lt. 15 ſ. 8 d.
 
-3 7 7 à 9 lt. 1 5 ſ. ou 9 7 5″.
-9 7 5″
-——
-1 8 8 5
-2 6 3 9
-3 3 9 3
-——
-3 6 7 5|7 5″
-——
-3 6 7 5 lt. 1 5 ſ.
-
-Que si au nombre proposé, outre les liures & sols, il y a des deniers, il vaudra mieux multiplier les deniers separément, & reduire leur produict en sols & liures, pour les adiouster auec les liures & sols, qui seront prouenus de la multiplication des liures & sols. Comme en l'exemple precedent, si vne chacune des 377 aulnes valoit 9 liures 15 sols & 7 deniers, ayant trouué 3675 liures 15 sols à raison de 9 liures 15 sols l'aulne, on multipliera 377 par 7 deniers & viendra 2639 deniers, qui font 219 sols & 11 deniers, & les 219 sols reduicts en liures font 10 lt. 19 s. partant, si on adiouste 10 lt. 19 s. 11 d. auec 3675 lt. 15 s. on aura 3686 liures 14 sols 11 deniers, pour le prix de 377 aulnes à 9 liures 15 sols & 7 deniers l'aulne.
-
-Notez que les 219 sols 11 deniers se pouuoient trouuer plus promptement en prenant pour 4 deniers le tiers de 377, qui est 125 sols 8 deniers : & pour 3 deniers, le quart du mesme nombre 377, qui vaut 94 sols & 3 deniers, & les deux ensemble font 219 sols 11 deniers.
-
-Il faut icy noter, que pour reduire en liures les monnoyes composées de sols, ou de liures & de sols, il faut faire la multiplication : & au contraire, pour reduire les liures en monnoyes com-
+Si outre l'interest de 23 ans & 7 mois, on demande encore l'interest de quelques iours, par exemple de 25 iours : ayant operé pour les 23 ans & 7 mois, comme cy dessus, on prendra pour 15 iours la moirié de 114′, 1 ſ. 8 d. qui est 57′, 10 d. : & pour les 10 iours restans on prendra deux fois le tiers de 57′, 10 d. lequel tiers vaut 19′ lt. 3⅓ d. & adioustant tous les produicts ensemble, on aura 52592′ 3. ſ. ⅔ d. & reduisant les minutes en liures en retranchant vne figure, le requis sera 3259 lt. 7 ſ. ⅔ d.

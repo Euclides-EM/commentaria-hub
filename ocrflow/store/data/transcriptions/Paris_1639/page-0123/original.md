@@ -1,34 +1,42 @@
-# Page 122
+# Page 123
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. II.
 
-*Explication par nombres.*
+*Req. à demonſtr.*
 
-(figure)
+□.ad + □.bd 2|2 2□.ac + 2□.cd.
 
-hyp. | ab *eſt* 10,
-ac Ⅱ ce *eſt* 5. α
-hyp. | ad *eſt* 7. β
-db Ⅱ af *eſt* 3. γ
-3.a.1 | fd *eſt* 4,
-3.a.1 | cd *eſt* 2. δ
-β | □.ad *eſt* 49. ε
-γ | □.db *eſt* 9. ε
-1.concl. ε | □.ad + □.db *ſnt* 58,
-α | □ce *eſt* 25, θ
-δ | □cd *eſt* 4, λ
-θ | 2□.ce *ſnt* 50,
-λ | 2□.cd *ſnt* 8,
-2 concl. 19.a.1 | 2□.ce + 2□.cd *ſnt* 58.
+*Preparation.*
 
-THEOR. X. PROPOS. X.
+11.1 1.nota | ec ⊥ ad,
+3.1 | ce 2|2 ac Ⅱ cb,
+1.p.1 | ae *eſt* ——,
+31.1 | ef == ad, fg == ec,
+1&2.p.1 | ebg *eſt* ——,
+1.p.1 | ag *eſt* ——.
 
-Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adjouste directement quelque ligne droicte : les deux quarrez ensemble de la toute auec l'adjoustée, & de l'adjoustée, sont doubles, du quarré descrit de la moitié, & du quarré de la ligne composée de la moitié, & de l'adjoustée, comme d'vne.
+*Demonſtr.*
 
-(figure)
-
-*Hypoth.*
-
-ac 2|2 cb,
-bd *eſt arbitr.*
-abd *eſt* ——.
+conſtr. | ac 2|2 ce,
+conſtr. | ∠ace *eſt* ┘,
+2.c.32.1 | ∠cea *eſt* ½┘, α
+conſtr. | cb 2|2 ce,
+conſtr. | ∠bce *eſt* ┘,
+2.c.32.1 2.nota | ∠ceb *eſt* ½┘,
+α19.a.1 | ∠aeg *eſt* ┘, β
+conſtr. | cefd *eſt* ◊,
+conſtr. | ∠ecd *eſt* ┘,
+2.ſ.29.1 | cefd *eſt* ▭,
+3.a.b | ∠gef *eſt* ½┘,
+32.1 3.nota | ∠fge *eſt* ½┘, γ
+6.1 | fg 2|2 ef Ⅱ cd,
+1.c.13.1 | ∠bdg *eſt* ┘,
+γ.32.1 4.nota | ∠dbg *eſt* ½┘,
+6.1 | bd 2|2 dg,
+1.a.f | □.ad + □.bd 2|2 □.ad + □.dg. δ
+47.1 | □.ad + □.dg 2|2 □.ag,
+β.47.1 | □.ag 2|2 □.ae + □.eg,
+δ.1.a.1 | □.ad + □.bd 2|2 □.ae + □.eg. ε
+47.1 | □.ae 2|2 □.ac + □.ce, Ⅱ 2□.ac,
+47.1 | □.eg 2|2 □.ef Ⅱ cd, + □.fg, Ⅱ 2□.cd,
+concl. ε.1.a.f | □.ad + □.bd 2|2 2□.ac + 2□.cd.

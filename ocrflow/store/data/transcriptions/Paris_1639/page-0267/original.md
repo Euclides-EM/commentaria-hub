@@ -1,42 +1,59 @@
-# Page 266
+# Page 267
 
-# LES ELEMENTS
-
-(figure)
-
-1.6 | △dbe π △cbe,
-| db π bc,
-1 concl. 11.5 | ab π be 2|2 db π bc.
-
-*Hypoth. 2.*
-
-ab π be 2|2 db π bc.
-
-*Req. à demonſtr.*
-
-△abc 2|2 △dbe.
+# D'EVCLIDE, LIV. VI.
 
 *Demonſtration.*
 
-1.6 | △abc π △cbe,
-| ab π be,
-hyp. | ab π be 2|2 db π bc,
-1.6 | db π bc,
-| △dbe π △cbe,
-11.5 | △abc π △cbe,
-| △dbe π △dbe,
-2 concl. 9.5 | △abc 2|2 △dbe.
+conſtr. | ∠b 2|2 ∠f,
+hyp. | ab π fg 2|2 ef π cb,
+1.concl. 14.6 | ▭ac 2|2 ▭eg.
 
-THEOR. XI. PROPOS. XVI.
+*Hypoth. 2.*
 
-Si quatre lignes droictes sont proportionelles, le rectangle contenu sous les extrémes, est égal au rectangle contenu sous les moyennes: Et si le rectangle contenu sous les extrémes est égal au rectangle contenu sous les moyennes ; icelles quatre lignes droictes seront proportionelles.
+▭ac 2|2 ▭eg.
 
-*Hypoth. 1.*
+*Req. à demonſtr.*
 
 ab π fg 2|2 ef π cb.
 
+*Demonſtr.*
+
+hyp. | ▭ac 2|2 ▭eg.
+12.a.1 | ∠abc 2|2 ∠efg,
+2 concl. 14.6 | ab π fg 2|2 ef π cb.
+
+THEOR. XII. PROPOS. XVII.
+
+Si trois lignes droictes sont proportionelles, le rectangle contenu sous les extremes est égal au quarré de la moyenne: Et si le rectangle contenu sous les extrémes est égal au quarré de la moyenne, les trois lignes droictes seront proportionelles.
+
+*Hypoth. 1.*
+
+ab π ef 2|2 ef π cb.
+▭ab, cb 2|2 □.ef,
+Ⅱ ▭ac 2|2 □eg.
+
 (figure)
 
-*Req. à demonſtrer.*
+*Preparation.*
 
-▭.ab,cb 2|2 ▭.fg,ef, Ⅱ ▭ac 2|2 ▭eg.
+3.1 | fg 2|2 ef, α
+hyp. | ab π ef,
+| ef Ⅱ fg π cb,
+16.6 | ▭.ab,cb 2|2 ▭ef,fg
+α.3.ſ.1.d.2 | ▭ef,fg *eſt* □.ef,
+1.concl. 1.a.g | ▭.ab,cb 2|2 □.ef.
+
+*Hypoth. 2.*
+
+▭ac 2|2 □eg.
+
+*Req. à demonſtr.*
+
+ab π ef 2|2 ef π bc.
+
+*Demonſtr.*
+
+hyp. | ▭ac 2|2 □eg,
+12.a.1 | ∠abc 2|2 ∠efg,
+2 concl. 14.6 | ab π ef,
+| fg Ⅱ ef π bc.

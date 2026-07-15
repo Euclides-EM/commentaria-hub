@@ -1,7 +1,41 @@
-# LIBER II.
+# Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Tertium elementorum Euclidis, Demonſtrationes.
 
-æqualia ſunt ea , quæ ex g/e/ & e/h/ deſcribuntur , per quadrageſimamſeptimam primi: rectus eſt enim angulus qui ad e , per decimamtertiam , aut vigeſimamnonam ipſius primi. Comprehenſum igitur ſub c/e/ & e/f/ rectangulum,vnà cum eo quod ex g/e/fit quadrato:æquum eſt ijs, quæ ab eadem g/e/ & ipſa e/h/ fiunt quadratis. Tollatur id quod ex g/ e/ fit quadratum,vtriſque æqualibus commune . Reliquum igitur rectangulum ſub c/ e/ & e/f/comprehenſum,æquum erit deſcripto ex e/h/ quadrato : per tertiam communem ſententiam . Ipſi porrò ſub c/e/& e/f/comprehenſo rectangulo,æquum eſt b/c/d/e/ parallelogrammum: ipſa enim e/f,data eſt æqualis e/ d. Igitur b/c/ d/e/parallelogrammo, æquum eſt id quod ex e/h/fit quadratum, per primam communem ſen tentiam.Eidem rurſum b/c/d/e/ parallelogrammo,æquum eſt datū a/rectilineum,per conſtructionem.Per eandem itaque primam communem ſententiā, dato a/rectilineo:æquū eſt id quod ex e/h/ fit quadratum. Quod fuerat conſtituendum.
+## ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΤΡΙΤΟΝ.
 
-Secundi Libri Geometricorum Elementorum
+Ὅροι.
 
-# FINIS.
+Ἴσοι κύκλοι ἐισὶν, ὧν αἱ διάμετροι ἰσὶν ἴσαι, ἢ ὧν αἱ ἐκ τῶν κέντρων, ἴσαι ἐισίν.
+
+## Diffinitiones.
+
+Equales circuli: ſunt quorū dimetiētes ſunt æquales, vel quorum quæ ex centris ſunt æquales.
+
+Quales tibi repræſentant ſubſcripti a/& b/circuli. Hinc patet circulorum non æqualium diffinitio.quorum enim dimetientes,vel quæ ex centris fuerint inæquales: & ipſi quoque inæquales erunt circuli. Maior autē erit, cuius dimetiens , vel quæ ex centro maior : minor verò, cuius dimetiens,vel quæ ex centro minor extiterit. veluti ſunt c/ & d/circuli:quorum c,maior eſt ipſo d.
+
+> Circulorū inæqualiū contraria diffinitio.
+
+*[diagram: a b c d]*
+
+Εὐθεῖα κύκλου ἐφάπτεσθαι λέγεται, ἥτις ἁπτομένη τοῦ κύκλου καὶ ἐκβαλλομένη οὐ τέμνει τὸν κύκλον.
+
+Recta linea circulum tangere dicitur:quæ circulū tangens & eiecta,circulum non ſecat.
+
+Hanc tibi repræſentat e/f, tangens circulum g/ h, in puncto quidem g.Quæ igitur cadit intra circulum:eiecta, circulum ſecare perhibetur . veluti recta k/ l, quæ datum k/ l/ m/circulum interſecat.
+
+> Quæ circulū ſecat.
+
+*[diagram: e f g h k l m]*
+
+Κύκλοι ἐφάπτεσθαι ἀλλήλων λέγονται, οἵτινες ἁπτόμενοι ἀλλήλων,οὐ τέμνουσιν ἀλλήλους.
+
+Circuli ſeſe tangere adinuicem dicuntur:qui ſeſe inuicem tangētes,ſe non inuicem ſecant.
+
+Quales eſſe videntur n/o/& o/p/circuli,in o/puncto ſeſe inuicem cōtingentes. Cùm porrò vnius circunferentia, alterius ingreditur circūferentiam: tunc huiuſcemodi circuli, ſeſe dicūtur interſecare. Veluti circuli q/ r/ s, & r/s/t, in punctis quidem r/ & s/ ſe mutuo interſecātes.
+
+> Circuli ſeſe interſecātes.
+
+*[diagram: n o p q r s t]*
+
+Ἐν κύκλῳ ἴσον ἀπέχειν τοῦ κέντρου εὐθεῖαι λέγονται, ὅταν αἱ ἀπὸ τοῦ κέντρου ἐπ' αὐτὰς κάθετοι ἀγόμεναι ἴσαι ὦσιν.μεῖζον. ἢ ἀπέχειν λέγεται,ἐφ' ἣν ἡ μείζων κάθετος πίπτει.
+
+In circulo æqualiter diſtare à centro rectæ lineæ dicuntur: cùm à

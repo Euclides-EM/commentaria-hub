@@ -1,32 +1,27 @@
-# Page 327
+# Page 328
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-1200 *lt.* —— 35000 —— 1 R. 29 1/6.
+soit composée de l'argent qu'on preste, & de son interest annuel : & parce que le denier 16 signifie 1 pour 16 par an, c'est à dire, que 16 liures auec son interest faict 17 liures par an, ordonnant la regle ainsi : si pour auoir 17 liures au bout de l'an, il faut donner 16 liures, sçauoir cõbien il faut dõner pour auoir 1000 lt. au bout de l'an,
 
-35000/1200 [29 1/6.
+17 —— 16 —— 1000 R. 941 3/17.
 
-faisant la regle de trois à l'ordinaire, on trouuera qu'vne liure est gagnée par an de 29 1/6 liures, & par consequent, le reuenu de la maison est au denier 29 1/6.
+faisant l'operation à l'ordinaire, on trouuera 941 3/17 liures qu'il faut prester, pour auoir 1000 liures au bout de l'an.
 
-*Exemple 7.*
+*Exemple 9.*
 
-Pour constituer vne rente de 450 liures par an, sçauoir combien il faut d'argent ?
+Sçauoir combien on doit prester au denier 16 sur vne promesse de 1000 liures payable dans 4 ans ?
 
-Ordonnant la regle ainsi, si vne liure est gagnée de 18 liures, de combien seront gagnées 450 liures :
+A cause que la somme 16 liures, auec son interest au denier 16 en 4 ans, monte à 20 liures, ordonnant la regle de trois ainsi, si 20 liures viennent de 16 liures, de combien viendront 1000 liures,
 
-1 —— 18 —— 450 —— R. 8100.
+20 —— 16 —— 1000 R. 800.
 
-1 8
-——
-3 6 0 0
-4 5 0
-——
-8 1 0 0
+on trouuera 800 liures, qu'il faut prester à interest au denier 16, pour auoir 1000 liures au bout de 4 ans.
 
-on trouuera qu'il faut 8100 liures pour gagner 450 liures par an au denier 18.
+*Exemple 10.*
 
-*Exemple 8.*
+Si l'interest est à 6 pour 100 par an, pour sçauoir combien on doit prester sur ladite promesse de 1000 liures, payable dans vn an, on dira si 106 liures viennent de 100 liures, de combien viendront 1000 liures :
 
-Sçauoir combien on doit prester au denier 16, sur vne promesse de 1000 liures payable dans vn an ?
+106 —— 100 —— 1000 R. 943 42/106 ou 21/53.
 
-A cause qu'il n'est pas permis de prester à interest, & que celuy qui preste 1000 l. pour vn an, par exemple, ne peut demãder au bout de l'an que les 1000 liu. qui sont compris dans la promesse, il faut que la somme prestée
+faisant la regle de trois on trouuera 943 21/53 liures, qu'il faut prester pour auoir 1000 liures au bout de l'an.

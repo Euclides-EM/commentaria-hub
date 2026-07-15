@@ -1,43 +1,35 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-¶Magnitudines datæ.
+*133*
 
-> Exemplum in numeris.
+sic k/ad m, per quartam huius quinti propositionem. Ostensum est autem, quòd sicut g/ad h, sic m/ad n. Sunt itaque g,h,l, tres magnitudines, & k,m,n, aliæ eisdem æquales numero, cum duabus in eadem ratione perturbatim coassumptis: sicut quidem g/ad h, sic m/ad n, sicut rursum h/ad l, sic k/ad m. Ergo si g/fuerit maior l, erit ex æquali k/maior n: & si æqualis, æqualis: si autem minor, itidem minor, per vigesimamprimam huius quinti. Porrò g,k/sunt æquè multiplices ipsarum a,d, primæ & tertiæ magnitudinis (seruato illationis ordine) l/autem & n/secundæ & quartæ, hoc est ipsarum c,f/æquè rursum multiplices, per constructionem. Est igitur vt prima a/ad secundam c, sic tertia d/ad quartam f: per sextam eiusdem quinti diffinitionem. Si fuerint igitur tres magnitudines, aliæq́; eisdem æquales: &c. vt in theoremate. Quod oportuit ostendisse.
 
-| prima. | secunda. | tertia. | quarta. | Ablata. | reliqua. | Ablata. | reliqua. | |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| a/b. | c. | d/e. | f. | a/g. | g/b. | h/e. | d/h. | |
-| 12 | 3 | 8 | 2 | 9 | 3 | 6 | 2 | vt in prima figura. |
-| 12 | 3 | 8 | 2 | 6 | 6 | 4 | 4 | vt in secunda figura. |
+## Θεώρημα κδ, Πρόθεσις κδ.
 
-Si duæ itaque magnitudines: & quæ sequūtur reliqua. Quod fuerat ostendendum.
+Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, ἔχῃ δὲ καὶ πέμπτον πρὸς δεύτερον τὸν αὐτὸν λόγον, καὶ ἕκτον πρὸς τέταρτον, καὶ συντεθὲν πρῶτον καὶ πέμπτον πρὸς δεύτερον, τὸν αὐτὸν ἕξει λόγον, καὶ τρίτον καὶ ἕκτον πρὸς τέταρτον.
 
-## Θεώρημα ζ, Πρόθεσις ζ.
+## Theorema 24, Propositio 24.
 
-Τὰ ἴσα πρὸς τὸ αὐτὸ τὸν αὐτὸν ἔχει λόγον, καὶ τὸ αὐτὸ πρὸς τὰ ἴσα.
+> 24
 
-## Theorema 7, Propositio 7.
+SI primum ad secundum eandem habuerit rationem, & tertium ad quartum, habuerit autem & quintum ad secundum eandem rationem & sextum ad quartum: & composita primùm & quintum ad secundum eandem habebunt rationem, & tertium & sextum ad quartum.
 
-AEquales ad eandē, eandē habēt rationē: & eadem ad æquales.
+ORONTIVS. ¶ Habeat primùm a/b/ad secundū c/eandem rationem, quam tertium d/e/ad quartam f: quintum rursus b/g/ad secundum c, eandem quoq; rationem habeat, quam sextum e/h/ad ipsum f/quartum. Aio, quòd & composita primū & quintum a/g, eandem rationem habebūt ad idem secundum c, quam tertium & sextum d/h/ad idem quartum f. Cùm enim sit ex hypothesi, vt b/g/ad c, sic e/h/ad f: & à conuersa itaq; ratione, erit vt c/ad b/g, sic f/ad e/h, per corollariū quartæ huius quinti. Præterea quoniam ex ipsa hypothesi, est sicut a/b/ad c, sic d/e/ad f: sicut rursum c/ad b/g, sic f/ad e/h. Et ex æquali igitur, sicut a/b/ad b/g, sic d/e/ad e/h: per vigesimāsecūdam huius quinti. Diuisæ itaq; magnitudines a/b, b/g, d/e, & e/h, sunt proportionales. Et compositæ igitur, per decimam octauam ipsius quinti, proportionales erunt: vt a/g/ad b/g, sic d/h/ad e/h. Receptum est autē, sicut b/g/ad c, sic e/h/ad f. Et ex æquali igitur, per eandem vigesimamsecundam quinti, sicut a/g/ad c, sic d/h/ad f. Ergo si primum ad secundum eandem habuerit rationem, & tertium ad quartum: & quæ sequuntur reliqua. Quod expediebat demonstrare.
 
-ORONTIVS. ¶Sint binæ & inuicem æquales magnitudines a & b, ad aliam quandam magnitudinem relatæ, vtpote c. Dico primū, a & b ad eandem c eandem habere rationem. Assumantur enim ipsarum a & b æquè multiplices d & e: ipsius autem c, alia vtcunque multiplex f. Cùm igitur æquè multiplex sit d ipsius a, vt e ipsius b, & per hypothesin a & b magnitudines sint adinuicem æquales: erit & d æqualis ipsi e. quæ enim eiusdem vel æqualium sunt æquè multiplicia, æqualia sunt adinuicem, per sextam communem sententiam. Atqui f magnitudo binas ipsius c repræsentans æquè multiplices, sibimet æqualis est. Vt se habet igitur d multiplex
+*[diagram: a b g / c e h / d f]*
 
-> Prima theorematis pars.
+*[diagram: a, b. c. b, g. — d, e. f. e,h.]*
 
-*[diagram: d e / a b / c / f]*
+*[diagram: a,g,b,c. — d,h,e,f.]*
 
-ad f, ita e ad eandem f: nam quæ sunt æqualia eiusdem sunt æquè multiplicia aut submultiplicia, per sextæ aut septimæ communis sententiæ conuersionem. Est autem a prima magnitudo, c secūda, b tertia, & c rursum in ordine quarta: suntq́; d & e ipsarum a & b æquè multiplicia, primæ inquàm & tertiæ magnitudinis: f porrò bis repetita, ipsius c bis repetēdæ, hoc est, secundæ & quartæ alia vtcunq; multiplex. Præostensum est insuper d multiplex primæ ad f multiplex secundæ ita se habere, vt e multiplex tertiæ ad ipsum f multiplex quartæ. Est igitur per sextam huius quinti diffinitionem, vt a ad c, ita b ad eandem c. Aequales igitur magnitudines a & b, ad eandem magnitudinem c, eandem habent rationem. ¶Aio quoq;, eandem magnitudinem c, ad a & b inuicem æquales magnitudines, eandem versa vice obseruare rationem. Hoc autē conuerso licebit ordine concludere. Ostendemus enim (veluti suprà) d & e multiplices, fore rursum inuicē æquales: & f bis coassumpta, geminas æquè multiplices repræsentare non denegabitur. Et proinde d ad f ita se habere concludetur, vt e ad eandem f. hinc per assumptum, siue lemma quartæ propositionis huius quinti, f ad d se habebit, vt eadem f ad e. Est autem f primæ & tertiæ magnitudinis, hoc est, ipsius c bis repetēdæ æquè multiplex: d verò & e secundæ & quartæ, vtpote ipsarum a & b æquè multiplices. Est igitur vt c ad a, sic eadem c ad b, per eandem sextam huius quinti diffinitionem.
+## Θεώρημα κε, Πρόθεσις κε.
 
-> Pars secunda theorematis.
+Εαν τέσσαρα μεγέθη ἀνάλογον ᾖ, τὸ μέγιστον καὶ τὸ ἐλάχιστον, δύο τῶν λοιπῶν μείζονά ἐστιν.
 
-¶Idem quoq; à conuersa ratione, per quartæ propositionis huius quinti corollarium, leuius concludere licebit. Si quatuor enim magnitudines fuerint proportionales, & è contra proportionales erunt. Atqui ostensum est a ad c eandem habere rationem, quam b ad eandem c: & è cōtra igitur, vt c ad a, ita eadem c ad b. Aequales ergo ad eandem, eandem habent rationem: & eadem ad æquales. Quod oportuit ostendisse.
+## Theorema 25, Propositio 25.
 
-> Idem aliter.
+> 25
 
-## Θεώρημα η, Πρόθεσις η.
+SI quatuor magnitudines proportionales fuerint, maxima & minima reliquis maiores erunt.
 
-Τῶν ἀνίσων μεγεθῶν τὸ μεῖζον πρὸς τὸ αὐτὸ μείζονα λόγον ἔχει ἤπερ τὸ ἔλαττον· καὶ τὸ αὐτὸ πρὸς τὸ ἔλαττον, μείζονα λόγον ἔχει ἤπερ πρὸς τὸ μεῖζον.
-
-## Theorema 8, Propositio 8.
-
-INæqualium magnitudinum maior ad eādem, maiorem rationē
+m.j.

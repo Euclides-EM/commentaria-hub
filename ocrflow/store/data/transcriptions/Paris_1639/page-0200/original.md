@@ -1,33 +1,36 @@
-# Page 199
+# Page 200
 
-# D'EVCLIDE, LIV. IV.
+# LES ELEMENTS
 
-4.1 | ∠abf 2|2 ∠aef, α
-c.37.3 | ∠fbc 2|2 ∠fba,
-c.37.3 | ∠fed 2|2 ∠fea,
-α 2.a.1 | ∠abc 2|2 ∠aed, β
+*Demonſtr.*
 
-d. β | ∠bae 2|2 ∠bcd,
-d. β | ∠bcd 2|2 ∠dea,
-concl. 1.a.1 | abcde *eſt equiangle.*
+hyp. | ∠eab, ∠abc, ∠bcd, ∠cde, ∠dea *ſnt* 2|2 đe.
+c.37.3, & 7.a.1 | ∠fae, ∠fab, ∠fba, ∠fbc / ∠fcb, ∠fcd, ∠fdc, &c. *ſnt* 2|2 đe. α
+*aux* △; fab *&* fae
+α | ∠fab 2|2 ∠fae,
+α | ∠fba 2|2 ∠fea,
+af *eſt commun.*
+26.1 | ab 2|2 ae, β
+concl. d. β | abcde *eſt equilateral.*
 
-SCHOL. III.
+(figure)
 
-Par la mesme demonstration on prouuera, que si le nombre des costez de la figure proposée est pair, tous les angles distans. d'vn nombre pair sont égaux entre eux: par exemple, commençant par tel angle qu'on voudra le 1. 3. 5. 7. &c. seront égaux entr'eux: & aussi le 2. 4. 6. 8. &c.
+*Hypoth. 2.*
 
-SCHOL. IV.
+mopq *eſt* ⊙.
 
-Toute figure equiangle descrite à l'entour du cercle, est aussi equilaterale: mais toute figure equiangle inscrite au cercle, n'est pas aussi equilaterale, si le nombre des costez n'est impair.
+*Prepar.*
 
-*Hypoth. 1.*
+1.p.1 | mp *eſt diamet. arbitraire.*
+arbitr. | mo 2|3 op,
+1&2.p.1 | oq *eſt diametre*,
+1.p.1 | mq *&* pq *ſnt* ——;
 
-5∠abcde *eſt equiangle*,
-5∠abcde *eſt circonſcrit au* ⊙fghinl.
+(figure)
 
-*Req. à demonſtrer.*
+*Demonſtr.*
 
-5∠abcde *eſt equilateral.*
-
-*Preparation.*
-
-1.p.1. | fa, fb, fc, fd, fe *ſnt* ——;
+31.3 | ∠mop, ∠opq, ∠mqp, ∠omq *ſnt* ┘;
+12.a.1 | ∠mop, ∠opq, ∠mqp, ∠omq *ſnt* 2|2 đe. β
+β3.ſ.34.1 | mopq *eſt* ◊ *equiangle.*
+concl. α,cõſtr. | mopq *n'eſt* ◊ *equilateral.*

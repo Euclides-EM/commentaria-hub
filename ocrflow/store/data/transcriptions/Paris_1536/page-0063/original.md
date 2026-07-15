@@ -1,23 +1,25 @@
-# GEOMET. ELEMENT.
+# LIBER II.
 
-*[diagram: a e b / d e f]*
+ipsi c/k, per quadragesimamtertiam primi : & c/ k/ id quod sub a/ c/ & c/ b, nam ipsi a/c/ ostensa est æqualis c/g. Rectangula igitur c/k/ & h/f, æqua sunt ei,quod bis sub segmentis comprehenditur,rectangulo. Ostensum est autem a/g/ & g/e/ quadrata,eis fore æqualia/ quæ ab eisdem segmentis fiunt quadratis.Et a/g/igitur & g/e,vnà cum c/k/ & h/f,æqualia sunt quadratis quæ fiunt ex segmétis,& ei quod bis sub segmentis comprehenditur rectangulo. Eisdem porrò a/g, g/e, c/k,& h/f, æquum est quadratum a/b/d/e,ex ipsa a/b/descriptum:nempe totum suis partibus integralibus. Quod igitur ex tota a/b/fit quadratum : æquum est quadratis quæ fiunt ex a/c/& c/b/segmentis,& ei quod bis sub eisdem segmentis comprehenditur rectangulo.Quod fuerat demonstrandum.
 
-rectis a/b/& a/d/comprehēsum rectangulum a/f,æquū est eis quæ ab insecta a/d/ & quolibet segmento a/c/ & c/b/continentur rectangulis : per primam huius secundi propositionem, hoc est rectangulis a/e/ & c/f. Atqui a/f/rectangulum, æquum est ei quod sub tota a/b,& segmento a/c/continetur: nam a/d/ipsi a/c/est æqualis, per trigesimam diffinitionem primi. A/e/porrò quadratū,quod ex eodem segmento a/c/describitur.Rectangulū deniq; c/f,æquū est ei quod sub a/c/& c/b/segmentis cótinetur:est enim c/e/eidē a/c,per ipsius quadrati diffinitionē æqualis. Si recta igitur linea a/b,vtcūq; secetur in puncto c:rectangulū sub tota a/b,& altero segmentorum a/c/cōprehensum,æquū est ei quod sub a/c/& c/b/ segmentis fit rectangulo,& ei quod ex prædicto segmento a/c/ est quadrato. Quod ostendere oportebat.
+## Corollarium.
 
-Θεώρημα δ', Πρόθεσις δ'.
+¶Parallelogramma igitur,quæ circa quadrati dimetientem cósistunt,fore itidem quadrata:relinquitur manifestum.
 
-Εὰν εὐθεῖα γραμμὴ τμηθῇ ὡς ἔτυχε,τὸ ἀπὸ τῆς ὅλης τετράγωνον ἴσον ἔσαι τοῖσε ἀπὸ τῶν τμημάτων τετραγώνοις, καὶ τῷ δὶς ὑπὸ τῶν τμημάτων περιεχομένῳ ὀρθογωνίῳ.
+Θεώρημα ε, Πρόθεσις ε.
 
-## Theorema 4, Propositio 4.
+Εὰν εὐθεῖα γραμμὴ τμηθῇ εἰς ἴσα καὶ ἄνισα,τὸ ὑπὸ τῶν ἀνίσων τῆς ὅλης τμημάτων περιεχόμενον ὀρθογώνιον μετὰ τοῦ ἀπὸ τῆς μεταξὺ τῶν τομῶν τετραγώνου,ἴσον ἐστὶ τῷ ἀπὸ τῆς ἡμισείας τετραγώνῳ.
 
-SI recta linea secetur vtcūq;:quadratum quod fit ex tota,æquū est quadratis quę fiunt ex segmétis,& ei quod bis sub segmentis comprehenditur rectangulo,
+## Theorema 5, Propositio 5.
 
-> Duo in quadrato requiruntur Latera equalia & anguli recti. *(manu scripta)*
+SI recta linea secetur in æqualia,& non æqualia:rectangulum comprehensum ab inæqualibus sectionibus totius, vnà cum quadrato quod à medio sectionum,æquum est ei quod à dimidia fit quadrato.
 
-ORONTIVS.¶Sit a/b/linea recta,quæ secetur vtcunq; in pūcto c. Dico quadratum quod ex tota fit a/b, æquum esse eis quæ ex a/c/& c/b/ describuntur quadratis, & bis sub a/c/ & c/b/ segmentis comprehenso rectangulo. Describatur in primis ex a/b,quadratum a/b/d/e:per quadragesimamsextam primi. Et connectatur a/e/dimetiens,per primum postulatum.& per datum punctum c, vtrique a/d/ & b/e/parallela ducatur c/f/secans a/e/dimetientem in puncto g.Per punctum deniq; g,ipsis a/b/& d/e/parallela ducatur h/k: per trigesimamprimam eiusdem primi. Cùm igitur a/b/d/e/sit quadratū,æqualis est a/b/ipsi b/e:per trigesimā ipsius primi diffinitionem.Isosceles igitur a/b/e/trianguli, qui ad basin a/e/fiunt anguli,hoc est b/a/e/& a/e/b,sunt per quintam primi adinuicē æquales. Eiusdem porrò trianguli a/b/e/tres anguli, binis sunt rectis æquales:per trigesimamsecūdam primi. Rectus est autem angulus qui ad b.reliqui igitur anguli b/a/e/& a/e/b, vni recto sunt æquales.sunt autem & æquales adinuicem:vterq; igitur dimidium est anguli recti. Trianguli rursum a/c/g/ tres anguli, duobus rectis,per eandem trigesimamsecundam primi,coæquantur.a/c/g/porrò angulus, rectus est: nempe æqualis interiori,& ad easdē partes qui ad b,per vigesimamnonā ipsius primi.Ergo reliqui duo anguli c/a/g/& a/g/c,vni recto sunt æquales.sed dimidium recti est c/a/g/angulus:igitur & a/g/c,recti itidem est dimidiū. Aequus est propterea angulus c/a/g/ipsi a/c/g:per primam communem sententiam. Et latus consequenter a/c,lateri c/g,per sextam primi æquale.Est autem & a/h/latus, ipsi c/g, necnon h/g/ipsi a/c/æquale:per trigesimamquartā eiusdem primi. Aequilaterum est itaq; a/c/g/h/ parallelogrammum. aio quòd & rectangulum:nam angulus qui ad/a,rectus est.Rectangulum porrò sub duabus rectis lineis angulum rectū comprehendentibus,per primam huius diffinitionem,cótineri dicitur. Quadratum est igitur a/c/g/h:& æquum ei quod ex a/c. Haud dissimili discursu,f/k/parallelogrammū, quadratū esse conuincetur:& æquale ei quod ex c/b/.Nam æqualis est g/k/eidē a/c, per eandem trigesimamquartā primi. Et quoniam æquum est h/f/supplementū
+ORONTIVS.¶Sit rursum a/b/linea recta:quæ bifariam secetur in puncto c, atque in non æqualia,in puncto d. Aio quod sub a/d/& d/b/comprehensum rectangulū,vnà cum eo quod ex d/c/quadrato: æquum est ei,quod ex a/c/dimidia fit quadrato. Describatur ergo ex a/c,quadratum a/c/e/f:per quadragesimamsextam primi.& connectatur dimetiens a/f,per primum postulatum. per punctum insuper d, vtrique a/e/& c/f/parallela ducatur d/g,secans a/f/ dimetientem in puncto h. Rursum per datum pūctum h,ducatur k/l/m,ipsis a/b/& e/ f/ parallela : per trigesimāprimam ipsius primi.tandem per pūctum b,ipsis a/k/& c/l/ parallela ducatur b/m: per eandem trigesimamprimam primi. His ita constructis,quoniam supplementum g/k,æquum est supplemēto d/l, per quadragesimātertiam ipsius primi:addatur commune a/h.totum ergo a/g,toti a/l/ rectangulo, per secundam communem sententiā erit æquale.At c/m/eidem a/l/est æquale, per trigesimāsextā eiusdē primi : sunt enim in basibus æqualibus a/c/& c/b,& in eisdem parallelis a/b/& k/m. Et a/g/ igitur ipsi c/m, per primam communem sententiam est æquale.Addatur rursum commune rectangulum d/l. Et d/m/ igitur rectangulum, per eandem secundā cómunem sententiam,æquabitur gnomoni g/a/l.Atqui d/m/ rectāgulum æquum est ei quod sub a/d/& d/b/continetur:quadratum est enim a/h, per corollarium quartæ propositionis huius:& æqualis propterea a/d/ ipsi d/h,sub qua & d/b,ipsum d/m/cōprehenditur rectangulū. Quod igitur sub a/d/& d/b/ continetur rectangulum, æquum est gnomoni g/a/l. Addatur tandem commune quadratum h/f. Comprehensum igitur sub a/d/ & d/b/ rectangulum , vnà cum quadrato h/f,æquum est gnomoni g/a/l,atque ipsi quadrato h/f. Quadratū porrò h/f, æquum est ei quod sub d/c/medio sectionum: fit enim ex h/l, quæ ipsi d/c,per trigesimāquartā primi est æqualis. Quod igitur sub a/d/& d/b/cótinetur rectangulū,
 
-*[diagram: a c b / h g k / d f e]*
+*[diagram: a d c b / k h l m / e g f]*
 
-> Hoc theorema à nōnullis aliter demonstrat:sed hæc demonstratio est omniū clarissima.
+> Cōstructio figuræ.
 
-> Legendum demonstrarunt clariore modo [?] Orontius. *(manu scripta)*
+> Demōstratio theorematis.
+
+> Ista hec sunt parallelogramma quia [?] lineis parallelis [?] *(manu scripta)*

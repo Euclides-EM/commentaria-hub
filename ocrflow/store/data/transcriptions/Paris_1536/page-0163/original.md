@@ -1,23 +1,23 @@
-# 146 GEOMET. ELEMENT.
+# LIBER VI. 147
 
-æqualis rurſum conſtituatur angulus e/d/g.Et quoniam duo anguli a/b/c/& b/a/c/ ſunt minores duobus rectis,per decimamſeptimam ipſius primi:erunt & ipſi anguli d/e/g/& e/d/g/binis itidem rectis minores.Conuenient ergo tandem d/g/& e/g/ rectæ in continuum productæ,per quintum poſtulatum:ſit illarū concurſus in puncto g. Triangulum erit itaq; d/e/g: & reliquus angulus qui ad g, reliquo qui ad c/ æqualis,per tertiam communem ſententiam, & ipſius trigeſimæſecundæ primi corollarium.Aequiangula ſunt itaque a/b/c/&d/e/g/triāgula:& proinde latera ipſorum proportionalia,ſimilíſq; rationis erunt quæ æqualibus angulis latera ſubtenduntur,per quartam huius ſexti. Et ſicut igitur a/b/ ad b/c, ſic d/e/ad e/g.Sicut porrò a/b/ad b/c,ſic per hypotheſin d/e/ad e/f.Et ſicut igitur d/e/ad e/f,ſic ipſa d/e/ad e/g: quæ enim eidem ſunt eædem rationes, & adinuicem ſunt eædem, per vndecimam quinti.Eadem itaque d/e,ad ipſas e/f/& e/g/eandem habet rationem:æqualis eſt igitur e/f/ipſi e/g, per nonam ipſius quinti. His ita præoftenſis, quoniam æqualis eſt e/ f/ ipſi e/ g, vtrique autem cómunis d/e:binæ itaq; d/c/& e/f/ trianguli d/ e/ f, duabus d/e/& e/g/ triauguli d/e/g, ſunt æquales altera alteri: & æquos adinuicem continent angulos, per conſtructionem. Baſis ergo d/f, baſi d/g/eſt æqualis,& totum triangulum toti triangulo æquale,reliqui inſuper anguli reliquis angulis æquales ſub quibus æqualia ſubtenduntur latera:per quartam primi.Aequalis eſt igitur angulus e/d/f/ipſi e/d/g,atq; is qui ad f/ei qui ad g,æqualis.Sed eidem angulo e/d/g,æqualis eſt per conſtructionē angulus b/a/c: eidem inſuper qui ad g,is qui ad c/itidem æqualis. quæ autem eidem æqualia & adinuicem ſunt æqualia:per primam communem ſentētiam.Aequus eſt igitur angulus e/d/f, ipſi b/a/c: necnon &/d/f/e,ipſi angulo a/c/b.Reliquū porrò angulum d/e/f, reliquo a/b/c, ex hypotheſi recepimus æqualem. Aequiangula itaque ſunt a/b/c/ & d/e/f/ triangula : & æquales habent angulos, ſub quibus eiuſdem rationis latera ſubtenduntur. Ergo ſi bina triangula:& quæ ſequūtur reliqua.Quod demonſtrare fuerat operæpretium.
+a/b/c/eſt æqualis angulo d/e/f,vel eidē inæqualis.Si æqualis fuerit a/b/c/ipſi d/e/f: reliquus a/c/b reliquo d/f/e, per corollarium trigeſimæſecundæ primi, & tertiam communem ſententiam,erit æqualis.& proinde ipſa triangula a/b/c/& d/e/f/ æquiangula. Quòd ſi angulus a/b/c,non fuerit æqualis ipſi d/e/f:alter eorum,reliquo maior erit.Eſto(ſi poſſibile fuerit)a/b/c/angulus,ipſo d/e/f/angulo maior. & ad datam rectam lineam a/b,& datum in ea punctum b:ipſi angulo d/e/f/æqualis angulus conſtituatur a/b/g, per vigeſimātertiā primi:producatúrq; b/g/in latus a/c.cùm enim angulus a/b/c, datus ſit maior angulo d/e/f, cadet recta b/g/inter a/b/ & b/c/ latera. His ita conſtructis,quoniam æqualis eſt angulus qui ad a/ei qui ad d,& qui ſub a/b/g/ei qui ſub d/e/f/ æqualis : reliquus igitur angulus a/g/b, reliquo d/ f/e, per corollarium trigeſimæſecundæ primi, & tertiam cō munem ſentētiam erit æqualis. Et proinde a/b/g/triāgulum,ipſi d/e/f/triangulo æquiangulū.Hinc per quartam huius ſexti, proportionalia erunt latera quæ æqualibus ſubtenduntur angulis: ſicut quidem d/e/ad e/f,ſic a/b/ad b/g. ſicut porrò d e/ad e/f, ſic receptum eſt a/b/ ad b/c.Et ſicut igitur a/b/ad b/c, ſic a/b/ad b/g, per vndecimam quinti. Eadem itaque a/b,ad vtranq; ipſarum b/c/ & b/g, eandem habet rationem: æqualis erit igitur a/b/ipſi b/g,per nonā ipſius quinti.hinc per quintā primi,angulus b/c/g/angulo b/g/c/erit equalis.Angulus porrò b/c/g, minor recto ſuppoſitus eſt,& b/g/c/propterea angulus recto minor erit. Recta autem b/g, incidēs ſuper latus a/c, efficit a/g/b/& b/g/c/ angulos binis rectis æquales, per decimātertiam primi.Et quoniam b/g/c,recto minor oſtēſus eſt: operæpretium eſt,a/g/b/angulum,recto fore maiorem.Huic autem oſtenſus eſt æqualis d/f/e:& angulus itaq; d/f/e,recto maior erit.Atqui ſupponitur recto minor: quæ ſimul impoſſibilia ſunt. Nō eſt igitur a/b/c/angulus, maior angulo d/e/f.haud diſſimiliter oſtēdetur,q̷ neq; minor. Aequalis igitur eſt angulus a/b/c,ipſi d/e/f. Hinc reliquus qui ad c, reliquo qui ad f/(vti ſuprà)concludetur æqualis : & triangula conſequenter a/b/c, & d/e/f/ inuicem æquiangula.¶Sed eſto ſimul vterq; eorum qui ad c/& f/ ſunt angulorum, non minor recto. Aio rurſum triangula a/b/c/ & d/e/f, eſſe nihilominusæquiangula. Conſtructis nanq;(veluti ſuprà)figuræ partibus: haud diſſimiliter oſtēdemus, b/c/atq; b/g/latera fore inuicem æqualia:& angulū propterea b/c/g, angulo b/g/c/ per quintam primi reſpondenter coæquari. Et quoniam angulus b/c/g/nó minor eſt recto:nec eodem recto minor erit angulus b/g/c.Trianguli itaq; b/g/c/duo anguli qui ad baſin c/g,binis rectis non erunt minores:cótra decimamſeptimā ipſius primi.Non eſt igitur a/b/c/angulus,maior angulo d/e/f:neq; eodem angulo minor. Aequalis eſt propterea angulus a/b/c,ipſi d/e/f:& reliquus a/c/b, reliquo d/f/e/conſequenter æqualis , veluti ſuprà deductum eſt. Aequiangula ſunt igitur a/b/c/ & d/e/f/triangula:& æquales habent angulos,circum quos proportionalia ſunt latera. Quod oſtendendum receperamus.
 
-> Deductio theorematis.
+> Demōſtratio eiuſdē primæ partis, ab impoſſibili.
 
 *[diagram: a b c g d e f]*
 
-> Reſolutio demōſtrationis.
+*[diagram: a/b. b/c | d/e. e/f | a/b. b/g]*
 
-*[diagram: d/e. e/f | a/b. b/c | d/e. e/g.]*
+> Pars ſecunda theorematis, ſiue hypotheſis differētia.
 
-Θεώρημα ξ, Πρόθεσις ξ.
+*[diagram: a b c g d e f]*
 
-ΕΑν δύο τρίγωνα μίαν γωνίαν μιᾷ γωνίᾳ ἴσην ἔχῃ, ὧδὲ δὲ τὰς ἄλλας γωνίας, τὰς πλευρὰς ἀνάλογον, τῶν δὲ λοιπῶν ἑκατέραν ἅμα ἤτοι ἐλάσσονα ἢ μὴ ἐλάσσονα ὀρθῆς : ἰσογώνια ἔσται τὰ τρίγωνα, καὶ ἴσας ἕξει τὰς γωνίας, ὧδὲ ἃς ἀνάλογον εἰσὶν αἱ πλευραί.
+Θεώρημα η, Πρόθεσις η.
 
-## Theorema 7, Propoſitio. 7.
+ΕΑν ἐν ὀρθογωνίῳ τριγώνῳ,ἀπὸ τῆς ὀρθῆς γωνίας ἐπὶ τὴν βάσιν κάθετος ἀχθῇ,τὰ πρὸς τῇ καθέτῳ τρίγωνα ὅμοιά ἐστι τῷ τε ὅλῳ καὶ ἀλλήλοις.
 
-SI bina triāgula vnum angulum vni angulo æqualē habuerint, circum autem alios angulos latera proportionalia, reliquorū verò vtrunq; ſimul aut minorem aut non minorē recto : æquiangula erunt triangula, & æquales habebunt angulos, circum quos proportionalia ſunt latera.
+## Theorema 8, Propoſitio 8.
 
-> Prima theorematis ſiue hypotheſis pars.
+SI in triāgulo rectāgulo,ab angulo recto in baſin perpēdicularis
 
-ORONTIVS.¶Sint bina triangula a/b/c/& d/e/f,vnum angulum vni angulo,vtpote eum qui ad a/ei qui ad d/æqualem habentia:& circum alios angulos, ſcilicet a/b/c/ & d/e/f/latera proportionalia,ſicut quidem a/b/ad b/c, ſic d/e/ad e/f:reliquorū porrò qui ad c & f/ſunt angulorum, vterque primùm ſit recto minor. Aio a/b/c/& d/e/f/triangula,fore æquiangula:& angulum a/b/c/æquū eſſe angulo d/e/f, atque reliquum a/c/b/reliquo d/f/e/ itidem æqualem. In primis enim,vel angulus
+n.ij.

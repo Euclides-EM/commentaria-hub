@@ -1,48 +1,51 @@
-# Page 262
+# Page 263
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-2.6 | am π mo 2|2 ar π rs,
-conſtr. | ar 2|2 rs,
-14.5 | am 2|2 mo, γ
-concl. d.γ | am, mo, op, pq, qb *ſnt* 2|2 đe.
+*Conſtr.*
 
-PROBL. III. PROPOS. XI.
+| ∠fdh *eſt arbitr.*
+3.1 | de 2|2 a,
+3.1 | ef 2|2 b,
+3.1 | dg 2|2 c,
+1.p.1 | ge *eſt* ——,
+31.1 | fh == eg,
+ſymp. | gh *eſt le requis.*
 
-A deux lignes droictes données, trouuer la troisiesme proportionelle.
+(figure)
+
+*Demonſtr.*
+
+concl. 2.6 | de Ⅱ a π ef Ⅱ b 2|2 dg Ⅱ c π gh.
+
+PROBL. V. PROPOS. XIII.
+
+A deux lignes droictes données, trouuer la moyenne proportionelle.
 
 (figure)
 
 *Hypoth.*
 
-ab & bc *ſnt* —— D.
-
-*Requis à faire.*
-
-ab π bc 2|2 bc Ⅱ ad π de.
-
-*Conſtr.*
-
-3.1 | abc *eſt* ——.
-| ∠cae *eſt arbitr.*
-3.1 | ad 2|2 bc. α
-1.p.1 | db *eſt* ——,
-31.1 | ce == bd,
-ſymp. | de *eſt le requis.*
-
-*Demonſtr.*
-
-concl. α.4.6 | ab π bc,
-| ad Ⅱ bc π de.
-
-PROBL. IV. PROPOS. XII.
-
-A trois lignes droictes données, trouuer la quatriesme proportionelle.
-
-*Hypoth.*
-
-a, b, c *ſnt* —— D.
+ae & eb *ſnt* —— D.
 
 *Req. à faire.*
 
-a π b 2|2 c π gh,
+ae π ef 2|2 ef π eb.
+
+*Conſtr.*
+
+3.1 | aeb *eſt* ——,
+3.p.1 | afb *eſt ſemic.*
+11.1 | ef ⊥ ab,
+ſymp. | ef *eſt le requis.*
+
+*Prepar.*
+
+1.p.1 | af & bf *ſnt* ——.
+
+*Demonſtr.*
+
+31.3 | ∠afb *eſt* ┘,
+conſtr. | fe ⊥ ab,
+8.6 | △aef *ſml.* △feb,
+concl. 4.6 | ae π ef 2|2 ef π eb.

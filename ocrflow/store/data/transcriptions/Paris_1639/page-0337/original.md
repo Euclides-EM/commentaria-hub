@@ -1,34 +1,26 @@
-# Page 336
+# Page 337
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-Vne toise contient en longueur 72 poulces, & en quarré 5184 poulces. Vne aulne contient en longueur 43⅔ poulces, & en quarré 17161/9 poulces ; partant on dira, si
+DE LA REGLE DE TROIS, *double ou composée.*
 
-5184 —— 22 X 17161 | 1026432/17161 (59 13933/17181.
-1 —— 1   9
+En cette regle il y a tousiours cinq nombres donnez, trois desquels entrent en la premiere regle de trois, & en la seconde les deux nombres restans, & celuy qu'on a trouué par la premiere regle de trois : & ne faut pas diuiser en la premiere regle de trois, craignant qu'il n'arriue fraction, mais suffit de mettre le diuiseur sous le diuidende, & faire la seconde regle de trois selon celle des fractions, directe ou inuerse selon qu'elle sera, le tout comme on peut voir aux exemples suiuants.
 
-multipliãt 5184, 22 & 9 l'vn par l'autre viẽdra 1026432, puis multipliant 1, 1, & 17161 vient 17161, par lequel diuisant 1026432 vient au quotient 59 13933/17161 ou 59 3/4 toises qu'il faut pour tapisser ladite chambre.
+*Exemple 1.*
 
-*Preuues des regles de trois tant directe qu'inuerse.*
+Si 23 liures en 7 ans gagnent 9 liures, sçauoir combien gagneront 47 liures en 5 ans ?
 
-La preuue de la regle de trois se doit faire par le moyen d'vne autre regle de trois : disant, si le troisiesme donne le quatriesme, combien le premier : si on trouue le second, il n'y auoit point d'erreur en la regle.
+De ces cinq nombres donnez, on en prendra trois
 
-*Exemple de la directe.*
+23 *lt.* —— 7 *ans* —— 9 *lt.* —— 47 *lt.* 5 *ans*. R. 13 22/161.
 
-si 4 donnent 6, combien donneront 10. R. 15.
+tels qu'on voudra pour faire la premiere regle, directe ou inuerse, selon qu'elle sera. Que si on prend ces trois cy,
 
-Pour sçauoir s'il n'y a point d'erreur, on dira, si
+23 *lt.* —— 9 *lt.* —— 47 *lt.* R. 423/23.
 
-10 donnent 15, combien donneront 4. R. 6.
+elle sera directe, & le quatriesme qu'on trouuera sera 423/23 lt. puis pour faire la seconde regle de trois, selon celle des fractions on dira, si
 
-que si on trouue 6, qui est le second nombre de la precedente, il n'y aura point d'erreur en la precedente.
+7 *ans* X 423 *lt.* 5 *ans* R. 2115/161 ou [13 22/161 *lt.*
+1   23 —— 1
 
-*Exemple de l'inuerse.*
-
-si 5 donnent 12, combien donneront 10. R. 6.
-
-Pour sçauoir s'il n'y a point d'erreur, on dira, si
-
-10 donnent 6, combien donneront 5. R. 12.
-
-Si on trouue 12, qui est le second nombre de la precedente, il n'y aura point d'erreur en la precedente.
+& on trouuera 2115/161 ou 13 22/161 lt. qui est le nombre requis.

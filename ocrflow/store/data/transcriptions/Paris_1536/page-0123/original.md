@@ -1,29 +1,42 @@
-# GEOMET. ELEMENT.
+*(pagina 107)*
 
-*(pagina 106)*
+# Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quintum elementorum Euclidis, Demonstrationes.
 
-## Problema 16, Propositio 16.
+## ¶Diffinitionum elucidatio non aspernanda.
 
-IN dato circulo, quintidecagonum æquilaterum & æquiangulum describere.
+### ORONTIVS.
 
-ORONTIVS. ¶Sit datus circulus a/b/c/d/e, in quo receptum sit describere quintidecagonum æquilaterum & æquiangulum. Describatur in primis super data quapiam recta linea terminata triangulum æquilaterum, per primā primi: quod per quintæ eiusdem primi corollarium erit æquiangulum. Huic postmodū triangulo, æquiangulum rursum describatur triangulum in dato circulo a/b/c/d/e, per secundam huius quarti propositionem: sitq́; a/c/e. Item à pūcto a, in eodem circulo a/b/c/d/e, pentagonum æquilaterum & æquiangulum describatur a/b/d/f/g, per vndecimam huius quarti. Erit igitur triangulum a/c/e/æquilaterum, per sextæ primi libri corollarium: cuius latus quodlibet, subtendit tertiam circunferentiæ partem circuli a/b/c/d/e. quodlibet autem ipsius a/b/d/f/g, pentagoni latus subtendit quintam eiusdem circunferētiæ partem.
+POSTQVAM EVCLIDES QVATVOR ANTEcedentibus libris, quantitatis continuæ qualitatem, illiúsq́; dimensiones apertè demonstrauit: iam binis succedentibus libris, magnitudinū rationes, atque proportiones, acutissimis prosequitur ostensionibus. Huius itaq; libri quinti scopus est, de proportionibus in vniuersum pertractare: singula enim quę in eo demōstrātur, nō solùm ad geometricā videntur spectare contēplationē, sed cōmune aliquid habēt cum Arithmetica, & Musica, & cum doctrinis omnibus quę sub mathematica traditione cōprehendūtur.
 
-> Artificiosa lateris quintidecagoni adinuentio.
+> Scopus huius libri quinti.
 
-*[diagram: a b c d e f g]*
+Verùm quoniā de proportionibus futurus est sermo, proportio autē rationū videtur esse similitudo: de rationibus, quibus ipsæ cōponuntur proportiones, in primis tractandū est. prius enim oportet agnoscere simplicia, q̄ cōposita. Cùm igitur binæ magnitudines inuicē cōparantur: hæ proculdubio aut æquales, aut inæquales offendūtur Propriū enim quantitatis esse diffinit Aristoteles, secundū eam æquale, vel inæquale dici. & huiuscemodi cōparatio, habitudo dicitur: quā Euclides, ad veterū imitationem, rationē adpellat.
 
-Qualium igitur partium vel segmētorum, tota circuli a/b/c/d/e/circunferētia est quindecim: talium segmentum a/b/c/erit quinq;, & vtrunque segmētū a/b/ & b/d/ triū, & proinde totū segmētū a/b/d, sex. Et quoniā segmētū a/b/c/est quinq;: erit reliqua pars c/d/sextū ipsius a/b/d, seu tertium ipsius b/d, & totius propterea a/b/c/d/e/circuli quindecimum. Coniuncta igitur c/d/recta, per primū postulatū, erit latus quintidecagoni in dato circulo describendi. Cui si æquales rectas lineas, in dato circulo a/b/c/d/e, ab ipso quidem puncto d/versus e/& a/in c/continuè, per primam huius quarti coaptaueris: erit in eodem circulo descriptum quintidecagonum æquilaterum.
+> De magnitudinum cōparatione.
+> Habitudo. Ratio.
 
-> Idem aliter.
+Ipsæ autē magnitudines, termini tunc vocitātur: illa quidē quæ alteri refertur, antecedēs: reliqua verò, consequens, ad quam scilicet alterius fit cōparatio. Id porrò, quo altera distat à reliqua: differētia propriè dicitur. ¶Quoties itaq; propositæ & adinuicè comparatæ magnitudines, fuerint inæquales, & minor metitur maiorē, hoc est, aliquotiens sumpta, seu per datum aliquem multiplicata numerum, ipsam maiorem restituit magnitudinem: tunc minor magnitudo, pars ipsius maioris dicitur: quam vulgus peculiari nomenclatura, iuxta multiplicationis numerum, multiplicatiuam seu quotam partem eiusdem maioris adpellat. Quæ ab Euclide ita primùm diffinitur,
 
-¶Poterunt & singulorum quindecim segmentorum distinctiones, per ipsius pentagoni æquilateri & æquiāguli, in dato circulo a/b/c/d/e, geminatam rursum descriptionē obtineri, à punctis quidem c/& e: & comparatis inuicem segment s demonstratiuè concludi. Quemadmodùm ex ipsa licet inspicere figura.
+> Quota seu multiplicatiua pars.
 
-> Quòd descriptū quintidecagonum æquilaterū, sit æquiangulū.
+### ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΠΕΜΠΤΟΝ.
 
-¶Aio iam quòd ipsum quintidecagonum æquilaterum, est æquiangulum. Quibuslibet enim angulis, sub duobus quibusuis ipsius quintidecagoni lateribus ad circunferentiam comprehensis, æquales subtenduntur circunferentiæ: nempe segmentorum inuicem æqualium tredecim, qualium totus circulus est quindecim. In eodem porrò circulo, anguli qui super æquales circunferētias deducuntur, sibi inuicem sunt æquales, etsi ad centra, etsi ad circunferentias fuerint deducti, per vigesimamseptimam tertij. Aequiangulū est igitur ipsum a/b/c/d/e/ quintidecagonum. Patuit quòd & æquilaterum, & in dato circulo descriptum. In dato itaque circulo a/b/c/d/e, quintidecagonum æquilaterum & æquiangulum describitur. Quod tandem faciendum receperamus.
+¶Μέρος ἐστὶ μέγεθος μεγέθους, τὸ ἔλασσον τοῦ μείζονος, ὅταν καταμετρῇ τὸ μεῖζον.
 
-## Corollarium.
+## 1 Pars est magnitudo magnitudinis minor maioris, quando minor metitur maiorem.
 
-¶Quòd si per singulas segmentorum & angulorum quintidecagoni distinctiones, rectæ ducātur lineæ circulum ipsum contingentes, & ad rectos angulos cum productis è centro semidiametris conuenientes: quintidecagonum æquilaterum & æquiangulum, circa datum circulū describetur. quemadmodùm duodecima huius quarti propositione, de circunscribendo tradidimus pentagono. ¶Haud dissimiliter, per ea quæ decimatertia & decimaquarta eiusdē quarti propositione, de pētagonis ostensa sunt: in dato quintidecagono æquilatero & æquiangulo, circulum describere, ac circunscribere licebit.
+Vtpote, binis magnitudinibus datis, quarum altera bipedalis, altera verò sextupedalis existat, quoniam bipedalis ter sumpta, seu per tria multiplicata, sextupedalem metitur magnitudinē: idcirco bipedalis magnitudo, pars est ipsius sextupedalis magnitudinis, & tertia pars eiusdem sextupedalis peculiari discretione vocatur.
 
-## Quarti libri geometricorū elementorū, FINIS.
+> Exēplū quotæ partis.
+
+¶Ipsa porrò maior magnitudo, quam minor suprascripta multiplicatione metitur: multiplex ipsius minoris adpellatur magnitudinis, hoc est, multotiens ipsam minorem comprehendens magnitudinem, vel ex multiplici eiusdem minoris repetitione consurgens. Hinc dicit Euclides.
+
+> Multiplex.
+
+¶Πολλαπλάσιον δὲ τὸ μεῖζον τοῦ ἐλάσσονος, ὅταν καταμετρῆται ὑπὸ τοῦ ἐλάσσονος.
+
+## 2 Multiplex autem, maior minore, quando eam metitur minor.
+
+Vt in præassumpto nuper exēplo, sextupedalis magnitudo multiplex dicitͬ ipsius bipedalis
+
+> Exemplū multiplicis.

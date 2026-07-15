@@ -1,15 +1,21 @@
-# Page 400
+# Page 401
 
 # DES FORTIFICATIONS.
 
-*Considerations que l'on doit auoir auparauant que commencer la forteresse.*
+*Methode de fortifier selon Errard.*
 
-Fortifiant en vne montagne qui n'est point dominée, l'on fera les murailles sur les bords des precipices, s'il y en a, n'y laissant aucune place au dehors où les ennemis se puissent loger : & faudra éleuer les courtines si hautes, que du haut d'icelles on puisse descouurir iusqu'au fond du vallon, ou bien il faudra tailler & aplanir la pante du vallon, afin que les pierres, & autres choses qu'on iettera de la forteresse, puissent voler & rouler librement tout le long d'icelle pante sur les ennemis.
+Errard veut qu'vne fortification reguliere aye les cinq conditions suiuantes.
 
-Fortifiant en vne plaine, il faudra premierement obseruer les parties plus hautes éleuées, afin de les enfermer dans la forteresse, si faire se peut. Que si on est contraint de fortifier en vn lieu dominé par quelque montagne, on tournera contre cette montagne qui domine, non la pointe du bastion, mais la longueur de la courtine : car autrement les flancs des bastions opposez pourroient estre embouchez & defaits : & sur cette courtine on éleuera des terrasses si hautes & si grosses, qu'elles couuriront par leur hauteur les habitans de la forteresse, & les defendront des batteries.
+1. Que l'angle flanqué au triangle soit de 45 degrez, au quarré de 60, au pentagone de 78, & en toutes les autres figures de 90 degrez.
 
-Fortifiant au riuage de la mer, on ne prendra point vn lieu trop éleué, mais plustost quelque roche de mediocre hauteur, en laquelle il faudra fortifier en sorte, que le canon puisse essuyer ou raser la mer, & empescher d'approcher les galeres & nauires des ennemis. Que s'il y a quelque havre ou port pour receuoir les nauires & galleres, la forteresse en sera plus à priser.
+2. Que la courtine soit terminée par les deux intersections que font aux lignes de defenses razantes, les lignes qui couppent les moitiés des angles flanquez en deux parties égales : d'où s'ensuit, qu'en cette methode de fortifier il n'y a point de second flanc, ny de ligne de defense fichante.
 
-En fin en quelque lieu qu'on face la forteresse, on prendra garde aux lieux circonuoisins qui pourroient commander à la forteresse, ou qui pourroient seruir de couuerture à l'ennemy pour se cacher : & faudra s'éloigner de ces lieux le plus qu'on pourra, & à tout le moins de 500 pas, ou bien de les mettre dans la forteresse.
+3. Que le flanc, s'il y a moins de 9 bastions, soit perpendiculaire à la ligne de defense ; & s'il y a 9 bastions ou plus, il veut qu'il soit perpendiculaire à la courtine.
 
-S'il faut r'accommoder vne vieille forteresse, il faudra faire seruir le plus qu'on pourra les vieilles courtines, afin de fortifier à moins de frais que faire se pourra, qui est la chose à quoy on doit prendre garde le plus.
+4. Que l'orillon soit fait en sorte, que de l'angle flanqué opposé on ne puisse descouurir que la moitié du flanc ; afin d'y pouuoir mettre vn canon à couuert d'iceluy pour faire son effect à l'heure de l'assaut, & tirer comme en bricolant contre le pan assailly, & dedans les ruines de la bresche.
+
+5. Que le fossé soit plus estroit de 4 toises à l'opposite des espaules, que vis à vis des angles flanquez, où il veut qu'il aye la forme ronde, afin que le boulet du canon bricolant contre cette rondeur, puisse donner sur les ennemis lors qu'ils viendront à l'assaut par l'autre face du bastion, qui ne se peut voir d'iceluy flanc.
+
+*La construction se fera ainsi.*
+
+Descriuez le cercle ABÇEV, de telle grandeur que vous voudrez, & le diuisez en autant de parties égales qu'il y doit auoir de bastions en la fortification : puis ayant tiré du centre A aux poincts des diuisions les semidiametres AB, AC, Ab, &c. pour faire l'angle ABV égal à la moitié de l'angle flanqué, à sçauoir de 45 deg. s'il y a plus de cinq bastions, comme en cet exemple, continuez BA directement iusques à la circonference E, puis diuisant le demy-cercle BVE en deux parties égales en V, tirant BV, vous au-

@@ -1,43 +1,50 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-*128*
+*129*
 
-æquè multiplices g/h, h/k, l/m, & m/n. ipsarum rursum b/c/& e/f, aliæ itidem æquè multiplices k/o, & n/p. His ita constructis, quoniam g/h/& h/ k/ magnitudines,
+proportionales erunt, per antecedentē decimamseptimam propositionem. Erit itaque sicut a/c/ad c/b, sic d/g/ad g/e. Sicut porrò a/c/ad c/b,
 
-*[diagram: g h k q a c b d f e l m n p]*
+*[diagram: d/f. | a/c. | d/g — f/e. | c/b. | g/e]*
 
-ipsarum a/c/& c/b/magnitudinū æqualium numero singulæ singularum, per constructionē, sunt æquè multiplices: quotuplex igitur est vna g/h/ vnius a/c, totuplex est & tota g/k/totius a/b, per primam huius quinti. Quotuplex autem est g/h/ipsius a/c, totuplex est l/m, ipsius d/f, per constructionē: tam multiplex est igitur g/k/ipsius a/b, quàm multiplex est l/m/ ipsius d/f, per vndecimam ipsius quinti. Rursum quoniam l/m/& m/n/ipsarum d/f/
-
-*[diagram: g/k. | g/h. | l/m. — a/b. | a/c. | d/f.]*
-
-& f/e/ æqualium numero singulæ singularū æquè sunt multiplices, per ipsam constructionē: quotuplex igitur est vna l/m/vnius d/f, totuplex est tota l/n/ totius d/ e, per eandem primam huius quinti. Quotuplex autem est l/m/ipsius d/f, totuplicem ostendimus g/k/ipsius a/b: quotuplex est igitur g/k/ipsius a/b, totuplex est l/n/ipsius d/e, per ipsam vndecimā
-
-*[diagram: g/k. | l/m. | l/n. — a/b. | d/f. | d/e.]*
-
-eiusdem quinti. Sunt itaq̄; g/k/& l/n, ipsarū a/b/& d/e/æquè multiplices. Item quoniā æquè multiplex est h/k/ipsius b/c: vt m/n/ ipsius e/f: quinta rursum k/o, eiusdem b/c/æquè multiplex est, vt sexta n/p/ eiusdem e/f. Et composita igitur h/o, eiusdem b/c/ æquè erit multiplex, ac tota m/p/eiusdem e/f, per secundam huius quinti. Et proinde h/o/& m/p, ipsarū b/c/& e/f/sunt æquè multiplices. Insuper quoniam ex hypothesi, sicut a/b, ad b/c, sic d/e/ad e/f: & ipsarum a/b/& d/e, primæ inquàm & tertiæ æquè multiplices sunt g/ k/& l/ n: ipsarum rursum b/ c/ & e/ f, hoc est secundæ & quartæ, æquè itidem multiplices h/o/& m/p. Est igitur vt g/k/ad h/o, sic l/n/ad m/p, per quartam huius
-
-*[diagram: g/k. | h/o. | l/n. | m/p. — a/b. | b/c. | d/e. | e/f.]*
-
-quinti. Auferantur vtrisque cómunes h/k, & m/n: vt reliqua igitur g/h/ad reliquam k/o, sic l/m/reliqua ad reliquam n/p, per tertiam & quintam cómunem sententiā. Igitur si g/h/excedit k/o, excedit & l/m/ proportionaliter ipsam n/ p: etsi æqualis, æqualis: si autē minor, itidem proportionaliter minor. Atqui g/h/& l/m, primæ & tertiæ magnitudinis (iuxta ordinem illationis) hoc est, ipsarū a/c/& d/f/datæ sunt
-
-*[diagram: g/h. | k/o. | l/m. | n/p — a/c. | c/b. | d/f. | f/e.]*
-
-æquè multiplices: k/o/verò & n/p, ipsarum c/b/ & f/e, secundæ inquàm & quartæ magnitudinis æquè itidem multiplices. Prima igitur a/c, ad secundam c/b/eam rationem habet: quam tertia d/f, ad quartam f/e, per sextā huius quinti diffinitionē. Si compositæ itaque magnitudines proportionales fuerint, diuisæ quoque proportionales erunt. Quod susceperamus ostendendum.
-
-Θεώρημα ιη, Πρόθεσις ιη.
-
-EΑν διῃρημένα μεγέθη ἀνάλογον ᾖ, ὃ συντιθέντα ἀνάλογον ἔσαι.
-
-## Theorema 18, Propositio 18.
-
-SI diuisæ magnitudines proportionales fuerint: cōpositæ quoque proportionales erunt.
-
-ORONTIVS. ¶Sint diuisæ magnitudines a/c, c/b, d/f, & f/e, inuicem proportionales: sicut a/c/ad c/b, sic d/f/ad f/e. Aio quòd & compositæ, erunt versa vice proportionales: sicut quidem a/b/ad b/c, sic d/e/ad e/f. Sicut enim a/b/ad b/c, sic d/e/ ad aliam quādam magnitudinem se habere necessum est. Hæc autem magnitudo, si nō fuerit e/f: erit vel ipsa e/f/maior, aut eadem minor. Esto primū a/b/ad b/c, sicut d/e/
-
-> Compositaratio, siue arguendi modus à diuisis ad coniuncta.
-
-> Prima ostensionis differētia.
+sic per hypothesin d/f/ ad f/e. Ergo sicut d/f/ ad f/e, sic d/g/ad g/e: nam quæ eidem sunt eædem rationes, adinuicem sunt eædem, per vndecimam huius quinti. Quatuor itaque magnitudines d/f, f/e, d/g, atq̄; g/e, sunt inuicem proportionales, & prima d/f, maior est tertia d/g: & secunda igitur f/e, maior erit quarta g/e, per decimamquartam eiusdem quinti. Atqui f/e, minor est ipsa g/e, per hypothesin. Erit itaque f/e, minor simul & maior eadem
 
 *[diagram: a c b d f e g h]*
 
-ad maiorē (si possibile fuerit) ipsa e/f: vtpote ad e/g. Erit igitur sicut a/b/ad b/c, sic d/ e/ ad e/ g. Si compositæ autem magnitudines proportionales fuerint: diuisæ quoq̄;
+g/e/magnitudine. quod est impossibile. Non est igitur sicut a/b/ad b/c, sic d/e/ad maiorem ipsa e/f. ¶Aio rursum, quòd neque ad minorem ipsa e/f: vtpote e/h. Concludemus enim iterū ex decimaseptima & vndecima huius quinti, fore sicut d/f/
+
+> Secunda pars siue differentia.
+
+*[diagram: d/f. | a/c. | d/h. — f/e. | c/b. | h/e.]*
+
+ad f/e, sic d/h, ad h/e: vtrobique enim sicut a/c/ad c/b. Et quoniam prima d/f, minor est tertia d/h: erit rursum per ipsam decimamquartam eiusdem quinti, secunda f/e, minor quarta h/e. Supponitur autē maior: quæ simul stare non possunt. Non est ergo sicut a/b/ad b/c, sic d/e/ad minorē e/f. patuit quòd neq; ad maiorem. Et sicut igitur a/b/ad b/c, sic d/e, ad ipsam e/f. Itaque si diuisæ magnitudines proportionales fuerint: compositæ quoq; proportionales erunt. Quod ostendere fuerat operæpretiū.
+
+Θεώρημα ιθ, Πρόθεσις ιθ.
+
+EΑν ᾖ ὡς ὅλον πρὸς ὅλον, οὕτως ἀφαιρεθὲν πρὸς ἀφαιρεθέν, καὶ τὸ λοιπὸν πρὸς τὸ λοιπὸν ἔσαι, ὡς ὅλον πρὸς ὅλον.
+
+## Theorema 19, Propositio 19.
+
+SI fuerit sicut totum ad totum, sic ablatum ad ablatum: & reliquum ad reliquum, erit sicut totum ad totum.
+
+ORONTIVS. ¶Sit inquàm totū a/b/ad totū c/d, velut ablatū a/e/ ad ablatū c/f. Aio reliquum e/b/ad reliquū f/d, fore sicut idem totū a/b/ad idem totum c/d. Cùm enim sit velut a/b/ad c/d, sic a/e/ad c/f, per hypothesin: erit per decimamsextam huius quinti, & permutatim sicut a/ b/ composita ad a/e, sic c/d/composita ad c/f. Cùm autem compositæ magnitudines proportionales sunt, & diuisæ quoque sunt proportionales, per decimamseptimam huius quinti propositionem. Et sicut igitur a/e/ad e/b, sic c/f/ad f/d. & permutatim rursum, per eandem decimamsextam huius quinti, sicut a/e/ ablata, ad ablatā c/f,
+
+*[diagram: a e b — c f d]*
+
+*[diagram: a,b, c,d. a,e, c,f.]*
+
+*[diagram: a,e. e,b. c,f. f,d.]*
+
+> Tota. Ablata. Reliqua.
+> a,b.c,d. a,e.c,f. e,b.f,d.
+
+*[diagram]*
+
+sic reliqua e/b/ad reliquam f/d. Sicut porrò ablata a/e/ ad ablatam c/f, sic totum a/b/ad totum c/d, per hypothesin. Reliquum igitur e/b/ ad reliquum f/d, se habet vt totum a/b/ad totum c/d, per vndecimam eiusdem quinti. Si fuerit ergo sicut totum ad totum: &c. vt in theoremate. Quod expediebat demonstrare.
+
+## Lemma siue assumptum.
+
+¶Et quoniam erat ex hypothesi, vt a/b/ad c/d, sic a/e/ad c/f: & permutatim deinde
+
+*[diagram: a,b. c,d. e,b. f,d.]*
+
+vt a/b/ad a/e, sic c/d/ad c/f. Nunc porrò ostensum est, q̄ sicut a/b/ad c/d, sic e/b/ad f/d. & permutatim itaque rursum, vt a/b/ad e/b, sic c/ d/ad f/d, per sæpius allegatam

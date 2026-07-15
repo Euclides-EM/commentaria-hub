@@ -1,42 +1,54 @@
-# Page 80
+# Page 81
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-(figure)
+opposé de mesme part ; & les deux internes de mesme part, égaux à deux droicts.
 
-*Hypoth. 1.*
-
-∠ega 2|2 ∠ghc.
-
-*Req. à demonſtr.*
+*Hypoth.*
 
 ab == cd.
 
-*Demonſtr.*
+*Req. à demonſtr.*
 
-15.1 | ∠hgb 2|2 ∠ega,
-hyp. | ∠ghc 2|2 ∠ega,
-1.a.1 | ∠hgb 2|2 ∠ghc,
-1.concl. 27.1 | ab == cd.
-
-*Hypoth. 2.*
-
+∠dhg 2|2 ∠agh,
+∠bge 2|2 ∠dhe,
 ∠agh + ∠chg 2|2 2┘.
 
+*Demonſtr.*
+
+ſuppoſ. | ∠agh + ∠chg n̄. *ſnt* 2|2 2┘
+13.a.1 | ab n̄. *eſt* == cd,
+*contr. hypoth.*
+1.concl. 21.a.1 | ∠agh + ∠chg 2|2 2┘
+13.1 | ∠dhg + ∠chg 2|2 2┘
+∠chg *comm. ſubtr.*
+2.concl. 3.a.1 | ∠dhg 2|2 ∠agh β
+15.1 | ∠bge 2|2 ∠agh,
+β | ∠dhg 2|2 ∠agh,
+3.concl. 1.a.1 | ∠bge 2|2 ∠dhg.
+
+SCHOL. I.
+
+Si l'angle externe est égal à l'interne & opposé de mesme part, la ligne tombant sur lignes droictes paralleles est droicte.
+
+*Hypoth.*
+
+ab == cd,
+∠egb 2|2 ∠ghd.
+
 *Req. à demonſtr.*
 
-ab == cd.
+egh *eſt* ——.
 
 *Demonſtr.*
 
-hyp. | ∠agh + ∠chg 2|2 2┘.
-13.1 | ∠agh + ∠bgh 2|2 2┘,
-∠agh *commun. ſubtr.*
-3.a.1 | ∠chg 2|2 ∠bgh,
-2.concl. 27.1 | ab == cd.
+hyp. | ∠egb 2|2 ∠ghd,
+∠bgh *commun. add.*
+2.a.1 | ∠egb + ∠bgh 2|2 ∠ghd + ∠bgh,
+29.1 | ∠ghd + ∠bgh 2|2 2┘,
+1.a.1 | ∠egb + ∠bgh 2|2 2┘,
+concl. 14.1 | egh *eſt* ——.
 
-De cette proposition, & de la precedente, est manifeste, que les angles que fait vne ligne droicte, en couppant deux lignes droictes paralleles, sont respectiuement de trois denominations differentes, à sçauoir alternes, qui sont de diuers costez de la ligne couppante, comme AGH est alterne à DHG, & BGH est aussi alterne à CHG : L'externe & l'interne opposé de mesme part, comme BGE est externe, & son interne & opposé est DHG ; pareillement les externes DHF, FHC, & EGA, les internes & opposez de mesme part sont BGH, AGH, & EHC, chacun au sien : Les internes de mesme part sont, BGH & DHG, & aussi AGH & CHG.
+SCHOL. II.
 
-THEOR. XX. PROPOS. XXIX.
-
-Si vne ligne droicte tombe sur deux lignes droictes paralleles ; elle fera les angles alternes égaux entr'eux, & l'externe égal à son interne &
+Tout parallelogramme, qui a vn angle droict, est parallelogramme rectangle.

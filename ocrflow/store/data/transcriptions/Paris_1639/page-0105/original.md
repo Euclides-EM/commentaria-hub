@@ -1,50 +1,33 @@
-# Page 104
+# Page 105
 
-# LES ELEMENTS
-
-(figure)
-
-*Req. à demonſtr.*
-
-▭db 2|2 ▭hf.
-
-*Prepar.*
-
-1.p.1 | ac & eg *ſnt* ——.
-
-*Demonſtr.*
-
-α.4.1 | △adc 2|2 △ehg,
-34.1 | ▭db 2|2 2△adc,
-34.1 | ▭hf 2|2 2△ehg,
-concl. 6.a.1 | ▭db 2|2 ▭hf.
-
-LEMME.
-
-Descrire vn rectangle qui soit contenu sous deux lignes droictes données.
+# D'EVCLIDE, LIV. II.
 
 (figure)
+
+hyp. | fhik *eſt* ◊,
+hyp. | hk *eſt diamet.*
+hyp. | gbm == fk Ⅱ hi,
+hyp. | abe == hf Ⅱ ik,
+36.d.1 | ◊bf & ◊bi *ſnt complem.*
+2.d.2 | ehm 2|2 ◊bf + ◊bi + ◊ga *eſt gnomon.*
+2.d.2 | *Item* gka 2|2 ◊bf + ◊bi + ◊em *eſt gnomon.*
+
+THEOR. I. PROPOS. I.
+
+S'il y a deux lignes droictes, & que l'vne d'icelles soit couppée en tant de parties que l'on voudra, le rectangle contenu sous icelles deux lignes droites, est égal aux rectangles contenus sous la non couppée, & sous chacune des parties de la couppée.
 
 *Hypoth.*
 
-e & ad *ſnt* D.
+af & ab *ſont données.*
+ad, de, eb, *ſont parties de* ab.
 
-*Conſtr.*
+(figure)
 
-11.1 | ∠dab *eſt* ┘,
-3.1 | ab 2|2 e,
-31.1 | bc == ad,
-31.1 | dc == ab,
-ſymp. | ac *eſt le* ▭ *req.*
+*Requis à demonſtr.*
 
-*Demonſtr.*
+▭.ab,af, *eſt* 2|2 ▭.ad,af: + ▭.de,af: + ▭.eb,af.
 
-conſtr. | ac *eſt* ◊,
-conſtr. | ∠a *eſt* ┘,
-2.ſ.29.1 | ac *eſt* ▭,
-conſtr. | ab 2|2 e,
-concl. 1.d.2 | ac *eſt* ▭.ad, ab Ⅱ e.
+*Preparation.*
 
-II.
-
-De tout espace parallelogramme, lequel on voudra des parallelogrammes à l'entour du diametre, auec les deux complements, soit appellé Gnomon.
+l.1.d.2 | ag *eſt* ▭.ab,af. α
+31.1 | dh == af, ei == af. β

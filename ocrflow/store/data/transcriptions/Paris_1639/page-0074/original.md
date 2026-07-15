@@ -1,50 +1,38 @@
-# Page 73
+# Page 74
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
+
+(figure)
+
+*Demonſtr.*
+
+15.d.1 | fk 2|2 fd,
+conſtr. | a 2|2 fd,
+1.concl. 1.a.1 | fk 2|2 a,
+2.concl. conſtr. | fg 2|2 b,
+15.d.1 | gk 2|2 gh,
+conſtr. | c 2|2 gh,
+3.concl. 1.a.1 | gk 2|2 c.
+
+PROBL. IX. PROPOS. XXIII.
+
+A vne ligne droicte donnée, & à vn poinct donné en icelle, faire vn angle rectiligne égal à vn angle rectiligne donné.
 
 (figure)
 
 *Hypoth.*
 
-abc *eſt* △.
+ab *eſt* —— D.
+a *eſt* • D.
+cde *eſt* ∠ D.
 
-*Req. à demonſtr.*
+*Req. à faire.*
 
-bd + cd 2|3 ba + ca,
-∠bdc 3|2 ∠bac.
-
-*Preparation.*
-
-2.p.1 | bde *eſt* ——.
-
-*Demonſtr.*
-
-20.1 | cd 2|3 ce + ed,
-bd *commun. add.*
-4.a.1 | bd + dc 2|3 be + ec, α
-4.a.1 | be 2|3 ab + ae,
-ec *commun. add.*
-4.a.1 1.concl. | be + ec 2|3 ba + ac,
-α.1.a.e | bd + dc 2|3 ba + ac,
-16.1 | ∠bdc 3|2 ∠bec,
-16.1 | ∠bec 3|2 ∠a,
-2.concl. 1.a.c | ∠bdc 3|2 ∠a.
-
-PROBL. VIII. PROPOS. XXII.
-
-De trois lignes droictes égales à trois lignes droictes données, descrire vn triangle : mais il faut que deux, de quelque façon qu'elles soient prises, soient plus grandes que l'autre ; d'autant que de tout triangle deux costez de quelque façon qu'ils soient prins, sont plus grands que l'autre.
-
-*Hypoth.*
-
-a,b,c, *ſnt* —— D.
+∠a 2|2 ∠d.
 
 *Conſtr.*
 
-arbitr. | de 3|2 a + b + c,
-3.1 | df 2|2 a,
-3.1 | fg 2|2 b,
-3.1 | gh 2|2 c,
-3.p.1 | fdkl *eſt* ⊙,
-3.p.1 | ghkm *eſt* ⊙,
-1.p.1 | fk & gk *ſnt* ——,
-ſymp. | △fgk *eſt req.*
+c & f *ſnt* • *arbitr.*
+1.p.1 | cf *eſt* ——,
+22.1 | △agh & △dcf *ſnt equil.*
+ſymp. | ∠a 2|2 ∠d.

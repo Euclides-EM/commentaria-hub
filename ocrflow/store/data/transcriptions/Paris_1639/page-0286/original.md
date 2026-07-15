@@ -1,43 +1,34 @@
-# Page 285
+# Page 286
 
-# D'EVCLIDE, LIV. VI.
-
-1.ſ.1.d.2 | □.cd *eſt* 25,
-1.ſ.1.d.1 | □.de *eſt* 144,
-47.1 | □.ce *eſt* 169, γ
-γ | ce Ⅱ ac Ⅱ cb *eſt* 13,
-β.2.a.1 | ad *eſt* 18,
-β.3.a.1 | db *eſt* 8.
-
-PROBL. X. PROPOS. XXX.
-
-Coupper vne ligne droicte proposée & terminée, selon la moyenne & extréme raison.
+# LES ELEMENTS
 
 (figure)
 
-*Hypoth.*
+*Req. à demonſtr.*
 
-ab *eſt* —— D.
+bf 2|2 bg + al.
 
-*Requis à faire.*
+*Prepar.*
 
-ba π ag 2|2 ag π gb.
-
-*Conſtr.*
-
-11.2 | ▭.abg 2|2 □.ag, Ⅱ ▭bi 2|2 □ah.
+12.1 | ad ⊥ bc.
 
 *Demonſtr.*
 
-conſtr. | ▭.abg 2|2 □.ag,
-concl. 14.6 | ab π ag 2|2 ag π bg.
+c.8.6,& 4.6 | dc π ca 2|2 ca π cb,
+c.8.6 | db π ba 2|2 ba π bc,
+1.nota c.20.6 | dc π bc 2|2 al π bf,
+2 nota c.20.6 | db π bc 2|2 bg π bf,
+24.5 | al + bg π bf 2|2 bc π bc,
+concl. ſ.14.5 | al + bg 2|2 bf.
 
-THEOR. XXI. PROPOS. XXXI.
+*La 24. du 5 s'applique à cette demonſtration ainſi.*
 
-Aux triangles rectangles, la figure descrire sur le costé qui soustient l'angle droict, est égale aux deux figures des costez qui contiennent l'angle droict, semblables à icelle, & semblablement descrites.
+La premiere DC est à la seconde BC, comme la troisiesme AL à la quatriesme BF : & la cinquiesme BD est à la seconde BC, comme la sixiesme BG à la quatriesme BF : Mais la premiere DC & la cinquiesme BD ensemble font la seconde BC : partant la troisiesme AL & la sixiesme BG ensemble seront égaux à la quatriesme BF : ce qu'il falloit demonstrer.
+
+THEOR. XXII, PROPOS. XXXII.
+
+Si deux triangles, qui ont deux costez proportionaux à deux costez, sont disposez selon vn angle, en sorte que leurs costez de mesme raison soient aussi paralleles : les autres costez d'iceux triangles se rencontreront directement.
 
 *Hypoth.*
 
-∠bac *eſt* ┘,
-bf, bg, al *ſnt ſml.* đe.
-bc, ba, ac *ſnt homolog.*
+ab π ac 2|2 dc π de,

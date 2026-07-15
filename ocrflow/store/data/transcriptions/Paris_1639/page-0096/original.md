@@ -1,42 +1,42 @@
-# Page 95
+# Page 96
 
-# D'EVCLIDE, LIV. I.
-
-conſtr. | be 2|2 ec,
-38.1 | △abc 2|2 2△aec,
-41.1 | ◊eg 2|2 2△aec,
-1.concl. 6.a.1 | ◊eg 2|2 △abc,
-2.concl. conſtr. | ∠ecg 2|2 ∠d.
-
-THEOR. XXXII. PROPOS. XLIII.
-
-En tout parallelogramme, les complements des parallelogrammes qui sont à l'entour du diametre, sont égaux entr'eux.
+# LES ELEMENTS
 
 (figure)
 
 *Hypoth.*
 
-abcd *eſt* ◊,
-ef == bc Ⅱ ad,
-ac *eſt diamet.*
-hgi == ab Ⅱ dc.
+a *eſt* —— D.
+b *eſt* △ D.
+c *eſt* ∠ D.
 
-*Req. à demonſtr.*
+*Req. à faire.*
 
-◊dg 2|2 ◊gb.
+◊fl 2|2 △b,
+fh 2|2 a,
+∠mfh 2|2 ∠c.
+
+*Conſtr.*
+
+42.1 | ◊fd 2|2 △b, / ∠gfe 2|2 ∠c,
+2.p.1 | gfh *eſt* ——,
+3.1 | fh 2|2 a,
+2.p.1 | dei *eſt* ——,
+31.1 | ihl == ef,
+2.p.1 | dgk & ifk *ſnt* ——,
+31.1 | kl == gh,
+ſymp. | ◊fhlm *eſt le req.*
 
 *Demonſtr.*
 
-34.1 | △acd 2|2 △acb,
-34.1 | △agh 2|2 △age,
-34.1 | △gcf 2|2 △gci,
-concl. 3.a.1 | ◊dg 2|2 ◊gb. α
+1.concl. conſtr. | fh 2|2 a,
+15.1 | ∠mfh 2|2 ∠gfe,
+conſtr. | ∠c 2|2 ∠gfe,
+2.concl. 1.a.1 | ∠mfh 2|2 ∠c,
+43.1 | ◊fl 2|2 ◊fd,
+conſtr. | △b 2|2 ◊fd,
+3.concl. 1.a.1 | ◊fl 2|2 △b.
 
-*Coroll.*
+PROBL. XIII. PROPOS. XLV.
 
-α.2.a.1 | ◊dcih 2|2 ◊febc,
-α.2.a.1 | ◊dfea 2|2 ◊hiba.
-
-PROBL. XII. PROPOS. XLIV.
-
-Sur vne ligne droicte donnée, descrire vn parallelogramme égal à vn triangle donné, en vn angle rectiligne donné.
+A vne ligne droicte donnée appliquer vn parallelogramme égal à vne figure rectiligne donnée, en vn angle rectiligne donné.

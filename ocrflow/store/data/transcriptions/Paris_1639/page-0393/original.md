@@ -1,25 +1,21 @@
-# Page 392
+# Page 393
 
-# GEOMETRIE
+# PRACTIQVE.
 
-par tout le diametre, & du produict en prenant le quart : ce faisant on trouuera que si le diametre vaut 35, & la circonference 110, que l'aire du cercle vaudra 962 1/2. Car 110 multiplié par 35 fait 3850, dont le quart est 962 1/2.
+*Trouuer le contenu de la superficie conuexe d'vn cylindre.*
 
-*Trouuer l'aire d'vn secteur de cercle.*
+Il faut mesurer le circuit de la base, & la hauteur du cylindre, puis les multiplier l'vn par l'autre, & le produit sera le requis. Ce faisant on trouuera que si le circuit de la base d'vn cylindre est 8, & la hauteur 10, que la superficie conuexe vaudra 80. La raison de cette operation est, que cette superficie estant desployée & estenduë sur vn plan, deuient parallelogramme rectangle.
 
-(figure)
+*Trouuer le contenu de la superficie conuexe d'vn cone.*
 
-Soit le secteur proposé AECDA, il faut mesurer le costé AE & la circonference ADC, & les multiplier l'vn par l'autre, & du produict en prendre la moitié, qui sera le contenu du secteur AECDA, ce faisant on trouuera que si AE vaut 12, & la circonference ADC 23, que le secteur AECDA vaudra 138. Car 23 estant multiplié par 12 fait 276, dont la moitié est 138.
+Il faut mesurer le circuit de la base du cone, & la distance du sommet du cone à ce circuit, puis les multiplier l'vn par l'autre, la moitié du produict sera le requis. Ce faisant on trouuera, que si le circuit de la base d'vn cone vaut 8, & la distance de ce circuit au sommet 5, que la superficie conuexe du cone vaudra 20 : Car 5 fois 8 font 40, dont la moitié est 20. La raison de cette operation est, que la superficie conuexe d'vn cone estant desployée & estenduë sur vn plan deuient secteur de cercle.
 
-*Trouuer l'aire d'vn segment ou section de cercle.*
+*Trouuer le contenu de la superficie conuexe d'vne sphere.*
 
-Soit à trouuer l'aire de la section AFCDA : pour ce faire il faut trouuer par les precedentes les contenus du secteur AECDA, & du triangle AECFA, & ostant le contenu du triangle de celuy du secteur, restera le contenu de la section AFCDA.
+Il faut multiplier le circuit de la sphere par son diametre, & le produict sera le requis. Ce faisant on trouuera, que si le diametre de la sphere est 35, & par consequent son circuit 110, que sa superficie conuexe vaudra 3850 : car 110 multiplié par 35 fait 3850.
 
-Voyez en la page 337 du 3 tome, la methode de trouuer le semidiametre AE, & la circonference ADC, estant données AC & FD.
+*De la Stereometrie, ou mesure des solides.*
 
-*Trouuer l'aire d'vne ouale.*
+*Trouuer le contenu d'vn parallelipede rectangle, comme d'vne muraille, plate-forme, ou fossé, qui n'ont point de talu.*
 
-Il faut premierement trouuer le contenu du cercle, dont le diametre est égal au moindre diametre de l'ouale, puis l'augmenter selon la proportion du moindre ou plus grand diametre de l'ouale : par exemple, si le moindre diametre est 35, & le plus grand 50, le contenu du cercle qui a 35 de diametre, est 9625′ ou 962 1/2, & ordonnant la regle de trois ainsi, si
-
-*35 donnent 50 combien 9625′.   R. 1375.*
-
-viendra 1375 pour le contenu de l'ouale.
+Il faut mesurer les trois dimensions, à sçauoir la longueur, la largeur, & la hauteur, & le produict qui viendra en les multipliant l'vn par l'autre continuëment sera le requis. Ce faisant on trouuera, que si la longueur d'vne plate-forme ou fossé sans talu est 60,

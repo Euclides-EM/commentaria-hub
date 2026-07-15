@@ -1,35 +1,49 @@
-# Page 177
+# Page 178
 
-# D'EVCLIDE, LIV. IV.
+# LES ELEMENTS
 
-touche chacun angle de la figure à l'entour de laquelle il est descrit.
+*Demonſtration.*
 
-VII.
+15.d.1 | ab 2|2 ae,
+conſtr. | d 2|2 ae,
+concl. 1.a.1 | ab 2|2 d.
 
-Vne ligne droicte est dite estre accommodée ou adaptée au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
+PROBL. II. PROPOS. II.
 
-(figure)
-
-PROBL. I. PROPOS. I.
-
-Au cercle donné, accommoder vne ligne droite, égale à vne ligne droicte donnée, laquelle ne soit pas plus grande que le diametre du cercle.
+Dedans vn cercle donné, inscrire vn triangle equiangle à vn triangle donné.
 
 (figure)
 
 *Hypoth.*
 
 abc *eſt* ⊙ D.
-ac *eſt le diametre*,
-d *eſt* —— D.
-d 2|3 ac.
+def *eſt* △ D.
 
 *Requis à faire.*
 
-*accommoder* ab 2|2 d, *au* ⊙abc.
+*inſcrire au* ⊙abc *le* △,
+abc *equiang.* △def.
 
 *Conſtr.*
 
-3.1 | ae 2|2 d,
-3.p.1. | aeb *eſt* ⊙,
-1.p.1 | ab *eſt* ——,
-ſymp. | ab *eſt le requis.*
+17.3 | hg *touche le* ⊙acb, / a *eſt* • *d'attouch.*
+23.1 | ∠hac 2|2 ∠e,
+23.1 | ∠gab 2|2 ∠f,
+1.p.1 | bc *eſt* ——,
+ſymp. | △abc *eſt le requis.*
+
+*Demonſtr.*
+
+conſtr. | ∠hac 2|2 ∠e,
+conſtr. | ∠gab 2|2 ∠f,
+1.concl. 3 a.1 | ∠bac 2|2 ∠d,
+32.3 | ∠abc 2|2 ∠hac,
+conſtr. | ∠e 2|2 ∠hac,
+2 concl. 1.a.1 | ∠abc 2|2 ∠e,
+32.3 | ∠acb 2|2 ∠gab,
+conſtr. | ∠f 2|2 ∠gab,
+3.concl. 1.a.1 | ∠acb 2|2 ∠f.
+
+PROBL. III. PROPOS. III.
+
+A l'entour d'vn cercle donné, descrire vn triangle equiangle à vn triangle donné.

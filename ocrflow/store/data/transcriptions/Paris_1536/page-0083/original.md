@@ -1,21 +1,33 @@
-# 66 GEOMET. ELEMENT.
+# LIBER III. 67
 
-*[diagram: f e a b l g h c m d]*
+circulum cadant plures quàm duæ rectę lineæ æquales: susceptum punctum, centrum ipsius est circuli.
 
-vtriq; cómunis d/l : binæ igitur d/l/& l/e/ triáguli d/l/e, duabus d/l/& l/f/trianguli d/l/f, sunt æquales altera alteri, per eandem secundam communem sententiam. Angulus porrò d/l/e, maior est ipso d/l/f/ sub æquis lateribus cóprehenso: recta siquidẽ l/f, cadit inter d/l & l/e, diuidítq; propterea ipsum angulum d/l/e. Basis igitur d/e, basi d/f, maior est, per vigesimamquartã primi. Et proinde d/f/maior est ipsa d/b. Igitur d/a/maxima est: & d/e/ ipsa d/f, atq; d/f/ipsa d/b/maior. ¶Dico præterea, q̃ incidentiũ in curuã circunferentiã g/c, minima est d/c: & quæ ipsi d/c/minimæ propinquior, semper remotiore minor, hoc est, d/k/ipsa d/h, & d/h/ipsa d/g. Connectantur enim l/g, l/h, & l/k/rectæ, per primũ postulatũ. Et quoniã trianguli d/k/l, bina latera d/k/ & k/l, reliquo d/l, per vigesimã primi sunt maiora: tollãtur l/c/ & k/l, quæ per decimãquintã ipsius primi diffinitionẽ sunt æquales. Reliqua igitur d/c, reliqua d/k, per quintam communem sententiam erit minor. Item, quoniam trianguli d/h/l, à limitibus lateris d/l, duæ rectæ lineæ d/k/ & k/l/ introrsum constituuntur: ipsæ igitur constitutæ, reliquis ipsius trianguli lateribus d/h & h/l, per vigesimamprimam ipsius primi, sunt minores. Auferátur l/h & l/k, per ipsam decimamquintam diffinitionem primi, adinuicem æquales. Reliqua igitur d/k, reliqua d/h/minor erit, per eandem quintam communẽ sententiam. Et d/h/propterea minor erit ipsa d/g. Minima igitur est d/c: & quæ illi propinquior d/k/ minor ipsa d/h, eadémq; d/h/remotiore d/g/itidem minor. ¶Aio tandem, quòd binæ tantùm æquales, à puncto d, in circulum ipsum a/b/c/cadunt, ad vtrasque partes ipsius d/c/ minimæ: vtpote, ipsi d/h/vna tantùm æqualis, ad alterã partem ipsius d/c, versus m. Ad rectam enim d/l, atque ad datum in ea punctum l, dato angulo rectilineo d/l/h: æqualis angulus rectilineus constituatur d/l/m, per vigesimãtertiam primi. & connectatur d/m, per primum postulatum. Cùm igitur l/h/ipsi l/m/sit æqualis, per decimamquintam ipsius primi diffinitionem, & vtrique cómunis d/l: binæ igitur d/l/ & l/h/trianguli d/l/h, duabus d/l & l/m/ trianguli d/l/m, sunt æquales altera alteri: & æquos inuicem comprehendunt angulos, per constructionem. Basis igitur d/h, basi d/m, per quartã primi est æqualis. Neq; ipsi d/h/alia cadit æqualis, præter d/m, & ediuerso. Aut enim caderet inter h/ & m/puncta: túncq; minor esset vtraq; & d/h/ & d/m, nempe vicinior ipsi d/c/minimæ. vel caderet extra pũcta h/& m/versus a: & tũc remotior esset ab eadem minima, & propterea maior ipsa d/h/vel d/m, per primam partẽ iam demonstratam. Idem quoq;, ac non dissimili via licebit ostendere, de rectis in conuexam eiusdem circuli circunferẽtiam coincidentibus, ad vtrasque partes ipsius d/a/maximæ. Non cadunt igitur ab eodẽ puncto d, in circulũ ipsum a/b/c, plures duabus rectis lineis æquales, ad vtrasq; partes ipsius d/c/ minimæ, aut d/a/maximæ. Si extra igitur circulum : &c, vt in theoremate. Quod tandem erat ostendendum.
+ORONTIVS.¶Sit intra circulum a/b/c/ susceptum pũctum d: à quo in eundem circulum cadant plures quàm duæ rectæ lineæ inuicẽ æquales, d/a, d/b, & d/c. Aio quòd punctum d, est centrum ipsius circuli a/b/c. Connectantur enim a/b/& b/c/rectæ, per primum postulatum: secetúrq; bifariam a/b/in puncto e, & b/c/in pũcto f, per decimam primi. connectantur rursum d/e/& d/f, per idem primum postulatum: & per secundum postulatum, producantur in directum vtrobique ad puncta quidem g, h/& k, l. Cùm igitur a/e/sit æqualis e/b, & vtrique communis e/d: binæ igitur a/e/& e/d/trianguli a/e/d, duabus b/e/& e/d/trianguli b/e/d, sunt æquales altera alteri: basis quoq; d/a, basi d/b, per hypothesin est æqualis. Angulus igitur a/e/d, æquus est per octauam primi, angulo b/e/d: & proinde vterque rectus, per decimam ipsius primi diffinitionem. Recta igitur g/h, rectam a/b, bifariam & ad rectos angulos intersecat: in dispescente itaq; g/h, erit centrum ipsius a/b/c/circuli, per corollarium primæ huius tertij. Haud dissimili via ostendetur, eiusdem circuli cẽtrum fore in recta k/l. In vtraq; igitur & g/h & k/l, est centrum dati circuli a/b/c: & in puncto propterea vtriq; communi. Atqui nullum aliud pũctum habent commune, præter ipsum d: punctum igitur d, centrũ est ipsius a/b/c/ circuli. Si ergo intra circulum suscipiatur punctũ aliquod: & quæ sequuntur reliqua. Quod oportuit demõstrasse.
 
-> Pars secũda.
+> Hoc theorema aliter ostẽdi potest: sed hæc est demõstratio potissima.
 
-> Tertia pars.
+*[diagram: k a g e d h b f c l]*
 
-## Corollarium.
+Θεώρημα θ, Πρόθεσις ι.
 
-¶Quæ igitur à pũcto extra circulũ dato, in circulum ipsum cadunt rectæ lineæ, ab ipsa minima, vel maxima (quæ per centrũ) æquè distãtes: æquales sunt adinuicem, & è diuerso, siue in conuexã, siue in curuã inciderint eiusdem circuli circũferẽtiam.
+ΚΥκλος οὐ τέμνει κύκλον κατὰ πλείονα σημεῖα ἢ δύο.
 
-Θεώρημα η, Πρόθεσις θ.
+## Theorema 9, Propositio 10.
 
-Εὰν κύκλου ληφθῇ τι σημεῖον ἐντός, ἀπὸ δὲ τοῦ σημείου πρὸς τὸν κύκλον προσπίπτωσιν πλείους ἢ δύο εὐθεῖαι ἴσαι, τὸ ληφθὲν σημεῖον, κέντρον ἐστὶ τοῦ κύκλου.
+CIrculus, circulum in pluribus duobus punctis non secat.
 
-## Theorema 8, Propositio 9.
+ORONTIVS.¶Secet enim (si possibile sit) circulus a/b/c, circulum d/e/f, in pluribus duobus punctis, hoc est in punctis b, c, e, f. Et suscipiatur centrum ipsius circuli a/b/c, per primã huius, sítq́; illud g: & cõnectantur g/b, g/c, g/e, & g/f/rectæ, per primum postulatũ. Cùm igitur punctum g, sit centrum circuli a/b/c: erunt g/b, g/c, g/e, & g/f/adinuicẽ æquales, per decimamquintam primi libri diffinitionem. Et quoniam b, c, e, f, sunt communes vtriusque circuli sectiones, per hypothesin: erit punctum g, vtcunq; susceptum intra circulum d/e/f. Ab ipso itaq; puncto g, in eundem circulum d/e/f, cadunt plures q̃ duæ rectæ lineæ inuicem æquales: vtpote g/b, g/c, g/e, & g/f. Erit ergo pũctum g, cẽtrum eiusdem circuli d/e/f, per antecedentẽ nonam propositionẽ. Atqui idem punctum g, centrum est ipsius a/b/c/circuli. Duorum itaque circulorum a/b/c, & d/e/f, sese inuicem secantium, idem erit centrũ: quod per quintam huius tertij, nõ est possibile. Circulus ergo, circulum in pluribus duobus pũctis non secat. Quod ostendere fuerat operæpretium.
 
-SI in circulo suscipiatur punctum aliquod, & ab eo puncto ad
+> Hæc rursum aliter potuisset ostẽdi, sed hanc potiorẽ existimo demõstrationẽ.
+
+*[diagram: a b f d g c e]*
+
+Θεώρημα ι, Πρόθεσις ια.
+
+ΕΑν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐντός, καὶ ληφθῇ αὐτῶν τὰ κέντρα, ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη εὐθεῖα καὶ ἐκβαλλομένη, ἐπὶ τὴν συναφὴν πεσεῖται τῶν κύκλων.
+
+## Theorema 10, Propositio 11.
+
+SI bini orbes se introrsum adinuicem tetigerint, suscipiátúrq;
+
+f.iiij.

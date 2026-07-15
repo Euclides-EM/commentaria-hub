@@ -1,31 +1,43 @@
 # GEOMET. ELEMENT.
 
-*122*
+*126*
 
-propterea lōgè minus. Rursum itaq; multiplex primi excedit multipex secūdi: at multiplex tertij, nō excedit multiplex quarti. Per ipsam igitur octauā huius quinti diffinitionem, primum a/b, ad secundum d/maiorem rationem habet, q̄ tertiū c/ad quartum d. ¶ Porrò cùm a/e, fuerit æqualis ipsi e/b: vtraque erit æqualis ipsi c. Cuiuslibet itaq; ipsarum trium magnitudinum, sumēda sunt æquè multiplicia, ipso d/maiora: f/g/quidem ipsius a/e, & g/h/ipsius e/b, & k/rursum ipsius c. quæ per sextam communem sententiam, erunt adinuicē æqualia. Item n/multiplex ipsius d, quod illorum quolibet proximò maius existat. Quibus constructis, ostendētur rursum f/h/& k, ipsarum a/b/& c/fore æquè multiplicia: & f/h/multiplex primæ magnitudinis, excedere ipsum n/multiplex secundæ: k/autem multiplex tertiæ, non excedere multiplex quartæ. Hinc priori deductione colligemus, a/b/ad d/maiorē habere rationē, quàm c/ad ipsam d.
+diffinitionem. Ergo si prima ad secundam eandem rationē habuerit: &c. vt in theoremate. Quod oportuit ostendisse.
 
-> Tertia eiusdē primæ partis differentia.
+Θεώρημα ιδ', Πρόθεσις ιδ'.
 
-*[diagram: f g h / a e b c / d k / l / m / n]*
+EΑν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, ὃ τρίτον πρὸς τέταρτον: ᾖ δὲ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ δεύτερον τοῦ τετάρτου μεῖζον ἔσαι: κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
 
-¶ Dico insuper, quòd eadem magnitudo d, ad minorem c/maiorem rationē habet, quàm ad maiorem a/b. Hoc autem ex suprascripto discursu, immutato magnitudinū & æquè multiplicium ordine, haud obscurè colligemus. Cùm enim omnibus modis præostēsum sit, f/h/excedere ipsum n, & k/ab eodē n/superari: & cōuersim igitur, n/excedit k, nō excedit autē f/h. Porrò n/est multiplex ipsius d, hoc est, primæ & tertiæ magnitudinis: k/autem multiplex secundæ, vtpote c, & f/h/æquè multiplex quartæ, scilicet a/b. Multiplex insuper primæ, excedit multiplex secundæ: at multiplex tertiæ non excedit multiplex quartæ. Per octauam ergo diffinitionem huius quinti, prima d/ad secundam c/maiorem rationem habet, quàm tertia d/ad quartam a/b. Ergo d/ad minorem c/maiorem rationem habet, quàm ad maiorem a/b. Inæqualium igitur magnitudinum: &c. vt in theoremate. Quod ostendere oportebat.
+## Theorema 14, Propositio 14.
 
-> Pars secunda prīcipalis theorematis.
+SI prima ad secundam eandem habuerit rationem, & tertia ad quartá: prima verò tertia maior fuerit, & secunda quarta maior erit: etsi æqualis, æqualis: etsi minor, minor.
 
-## Θεώρημα θ, Πρόθεσις θ.
+ORONTIVS. ¶Sint verbi gratia quatuor magnitudines a,b,c,d/inuicē proportionales: sicut quidem a/ad b, ita c/ad d. sit autem primùm, a/maior ipsa c: dico q̄ & b, ipsa d/respondenter est maior. Cùm enim ex hypothesi a/ sit maior c: habebit
 
-Τα πρὸς τὸ αὐτὸ τὸν αὐτὸν ἔχοντα λόγον, ἴσα ἀλλήλοις ἐστί: καὶ πρὸς ἃ τὸ αὐτὸ τὸν αὐτὸν ἔχῃ λόγον, κἀκεῖνα ἴσα ἀλλήλοις ἐστίν.
+> Quando prima maior est tertia.
 
-## Theorema 9, Propositio 9.
+*[diagram: a b c d]*
 
-> 9
+igitur a/ad b/ maiorem rationem, quàm c/ ad eandem b, per octauam huius quinti. Est autem ratio a/ad b/ eadem, quæ c/ad d, per hypothesin: & c/igitur ad d/maiorem rationem habet, quàm eadem c/ad b. Ad quam autem eadem maiorem rationem habet: & illa minor est, per secundam partem decimæ propositionis ipsius quinti. Minor est itaque d, ipsa b: & b/propterea ipsa d/maior. ¶Quòd si a/ fuerit minor c: erit & b/ minor ipsa d/ magnitudine. Rursum enim per eandem octauā huius quinti, c/ maior, ad ipsam b/ maiorem rationē habebit, quam a/minor ad eandem b. Quam rationem porrò habet a/ad b, eam seruat ex hypothesi c/ad d. Et c/ igitur ad b/maiorem rationē habet,
 
-QVæ ad eandem, eandem habent rationem, æquales inuicem sunt: & ad quas eadem eandem habet rationem, ipsæ sunt æquales.
+> Quando prima minor est tertia.
 
-ORONTIVS. ¶ Sint binæ magnitudines a/& b, ad tertiam c/eandem rationē obtinentes. Aio quòd æqualis est a, ipsi b. Nam si a/& b/magnitudines, forent inæquales: maior ad eādem c/maiorem rationem haberet, quàm minor, per primam partem antecedentis octauæ propositionis huius quinti. Habet autem vtraq; ipsarum a/& b/eandem rationem ad ipsam c, per hypothesin. Haberent igitur a/& b, eandem, atq; diuersam rationē ad eandem c: quod est impossibile. Aequalis est itaq; a, ipsi b. ¶ Quòd si c/ad easdem a/& b/eandem habuerit rationem: dico rursum, quòd a/& b/æquales sunt adinuicem. Si enim forēt inæquales: eadem c/ad ipsas a/& b/magnitudines eandem non haberet rationem ad minorem enim maiorem rationem obtineret, quàm ad maiorem, per secundam partem eiusdem octauæ propositionis. Supponitur autem, eadem c/ad ipsas a/& b/eandem habere rationem. Eadē itaq; magnitudo c, ad ipsas a/& b/magnitudines, eandem simul atq; diuersam rationem haberet. Quod videtur absurdum. Aequalis est igitur a/ipsi b. Quod susceperamus ostendendum.
+*[diagram: a b c d]*
 
-> Primæ partis ostensio.
+quàm ad d. Est igitur b/minor ipsa d, per ipsam decimā eiusdem quinti. ¶Porrò si a/fuerit æqualis ipsi b: haud dissimiliter ostendemus, b/fore æqualem ipsi d. Aequales enim a/& c/ ad eandem b/ eandem rationem habebunt, per septimam huius quinti. sed quam rationem habet a/ad b, eā rursum habet c/ad d, per hypothesin. Et c/igitur ad vtranque b/ & d, eandem obseruabit rationem. Ad quas autē eadem eandem habet rationem, ipsæ sunt æquales, per nonam ipsius quinti propositionem. Aequalis erit igitur b/ ipsi d. Si prima igitur ad secundā eandem habuerit rationem: & quæ sequuntur reliqua. Quod demonstrare oportebat.
 
-> Pars secunda theorematis.
+> Vbi prima æquatur tertiȩ.
 
-*[diagram: a b / c]*
+Θεώρημα ιε, Πρόθεσις ιε.
+
+TΑ μέρη τοῖς ὡσαύτως πολλαπλασίοις, τὸν αὐτὸν ἔχῃ λόγον, ληφθέντα κατάλληλα.
+
+## Theorema 15, Propositio. 15.
+
+PArtes eodem modo multiplicium, eandem rationem habent sumptæ adinuicem.
+
+ORONTIVS. ¶Sint a/b/& c/d/ipsarum e/& f/æquè multiplices. Aio partem e/ad partem f/eandem rationem habere, quam a/b/multiplex ad c/d/multiplicem. Cùm enim a/b/æquè multiplex sit ipsius e, vt c/d/ipsius f: quot igitur partes sunt in a/b/æquales ipsi e, tot sunt & in c/d/ æquales ipsi f. Sint exēpli gratia iuxta numerū g: & distingatur a/b/in partes æquales ipsi e, sint'q̄; a/h, h/k, & k/b: necnon & c/d/
+
+*[diagram: a h k b e c m l d f]*
+
+in partes æquales ipsi f, vtpote in c/ m, m/ l, & l/d. Erit itaq̄; multitudo ipsarū a/h, h/k, & k/b, multitudini c/ m, m/l, & l/ d/ æqualis: vtraque enim æqualis ipsi numero g. Rursum quoniam a/h, h/k, & k/b/eidem e/sunt æquales: sunt igitur æquales adinuicē, per primam communē

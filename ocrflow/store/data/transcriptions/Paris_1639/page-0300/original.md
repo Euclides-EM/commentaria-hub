@@ -1,23 +1,20 @@
-# Page 299
+# Page 300
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-tient on multipliera tout le diuiseur, en faisant les soustractions des figures superieures correspondantes, à mesure qu'on faict les multiplications : le tout comme on peut voir aux exemples suiuants.
+bre superieur correspondãt 35, & trouuãt qu'il est contenu 5 fois, ie pose 5 au quotiẽt, & puis ie dis 5 fois 7 sont 35, que i'oste de 35, nombre superieur correspondant, & ne reste rien : puis i'auance le diuiseur sous la derniere figure 6 : & parce qu'il n'est pas contenu en 6, ie pose au quotient zero, & ne pouuant plus auancer, ie dis que la septiesme partie de 14356 est 2050 6/7.
 
-*Exemple 1.*
+*Exemple 3.*
 
-1 3 1
-9 5 3
-—— [2 3 8 ¼.
-4 4 4
+2
+3 3
+3 4 7
+4 7 4 8
+7 4 6 4 1
+3 1 2 2 3 4
+—— [8 9 9 282/347.
+3 4 7 7 7
+3 4 4
+3
 
-Soit à diuiser 953 par 4, ie pose le diuiseur 4 sous le 9 du diuidende, puis ayant tiré vne ligne droicte entre deux, & descrit vne ligne courbe au costé droict pour le quotient, ie regarde combien de fois 4 est contenu au nombre superieur correspondant 9, & se trouue 2 fois : ie pose donc 2 dans le quotient, puis ie dis, deux fois 4 sont 8, que i'oste de 9, & reste 1 que i'escris au dessus de 9, tranchant tant le 4 que le 9 : ce faict, i'auance le diuiseur sous la figure suiuante 5, & regarde combien de fois iceluy diuiseur 4 est contenu en 15, que font l'vnité restant sur le 9, & le 5 qui suit, & trouuant qu'il est 3 fois, ie pose 3 au quotient, & dis, 3 fois 4 sont 12, que i'oste de 15, & reste 3, que ie pose au dessus de mon diuiseur 4 : Puis i'auance derechef mon diuiseur 4 sous la derniere figure 3, & regarde combien de fois mon diuiseur 4 est contenu au nombre superieur 33, & ie trouue 8 fois, ie pose donc 8 au quotient, & dis, 8 fois 4 sont 32, que i'oste de 33 superieurs correspondans, & reste 1, que i'escris au dessus : & parce que mon diuiseur est paruenu iusques à la derniere figure du nombre à diuiser, ie conclus que le quart de 953 est 238¼.
-
-*Exemple 2.*
-
-6
-1 4 3 5 6
-—— [2 0 5 0 6/7.
-7 7 7 7
-
-Soit à diuiser 14356 par 7, parce que le diuiseur 7 n'est pas contenu en la premiere figure du diuidende, qui est 1, ie le pose sous la seconde figure 4 : puis ie regarde combien de fois 7 est contenu en 14, qui est le nombre superieur correspondant, & trouuant qu'il est contenu 2 fois, ie pose 2 au quotient, & dis, 2 fois 7 sont 14, que i'oste de 14 nombre superieur correspondant, en tranchant 1 & 4, & ne reste rien : ce faict, i'auance le diuiseur 7 sous la figure suiuante 3, & parce qu'il n'est pas contenu au nombre correspondant 3, ie pose au quotient zero : & sans rien effacer du nombre à diuiser, i'auance mon diuiseur 7 sous la figure 5, & regarde combien de fois il est contenu au nom-
+Soit à diuiser 312234 par 347, parce que ce diuiseur 347 n'est pas contenu en 312, ie le pose sous la seconde figure, à sçauoir sous 312, puis ie regarde combien de fois la premiere figure de mon diuiseur, qui est 3, est contenuë au nombre superieur correspondant 31, & encore qu'elle soit contenuë 10 fois, on ne doit iamais mettre plus de 9 fois : en cet exemple, si on met 9 fois, il ne restera pas assez pour la troisiesme figure du diuiseur, qui est 7 : car c'est vne maxime de la diuision, qu'autant de fois que la premiere figure du diuiseur sera cõtenuë, ou supposé d'estre cõtenuë en son nombre superieur correspondant, les autres figures suiuantes du diuiseur doiuent aussi estre contenuës, à tout le moins autant de fois, en ce qui restera pour icelles, faisant les soustractions des produicts des multiplications des precedentes. Comme en cet exemple, si on suppose que la premiere figure du diuiseur, qui est 3, soit contenuë 9 fois en son nombre correspondant 31, la seconde figure 4 sera aussi contenuë 9 fois en 42, qui restent pour elle, mais la troisiesme figure 7 n'est pas contenuë 9 fois en 62, qu'il y a de reste pour elle. Partant, ie conclus qu'il faut mettre dans le quotient moins de 9. Et ne sera pas aussi bon de mettre 7 fois dans le quotient, à cause que le nombre qui resteroit au dessus du diuiseur seroit 693, plus grand que le diuiseur : Et c'est encore vne maxime de la diuision, que le nombre qui reste au dessus du diuiseur doit tousiours estre plus petit que le diuiseur. Par consequent ie mets 8 au quotient,

@@ -1,29 +1,25 @@
-# LIBER V.
+# GEOMET. ELEMENT.
 
-*131*
+*132*
 
-earū proportio: ex æquali verò prima tertia maior fuerit, & quarta sexta maior erit: etsi æqualis, æqualis: etsi minor, minor.
+Sunt ergo g,k,m, tres magnitudines, & h,l,n, aliæ eisdem numero æquales, cum duabus ordinatim sumptis in eadem ratione: sicut quidem g/ad k, sic h/ad l, sicútq̄; k/ad m, sic l/ad n. Si g/itaq̄; fuerit maior ipsa m, & ex æquali h/ipsa n/maior erit: etsi æqualis, æqualis: etsi minor, minor, per huius quinti vigesimam. Atqui g,h, ipsarū a,d, hoc est primæ & tertiæ magnitudinis (quoad illationis ordinē) datæ sunt æquè multiplices: m,n/autē secundæ & quartæ, vtpote ipsarū c,f/æquè itidē multiplices. Est igitur per sextā huiusce quinti diffinitionē, vt prima a/ad secundā c: sic d/tertia ad quartam f. ¶Idem quoq̄; licebit ostendere, vbi plures tribus in vtroq̄; magnitudinū extiterint ordine. Vtpote si fuerint quatuor a, b,c,d, & aliæ quatuor e,f,g,h: similiter ostendemus cum tribus primis magnitudinibus a,b,c, & e,f,g, fore velut a/ad c, sic e/ad g. Et rursum cum tribus succedentibus (secunda vtrobique prætermissa, & coassumpta quarta) vtpote a,c,d, & e,g,h, concludemus veluti suprà, fore vt a/ad d, sic e/ad h. Et deinceps quantumlibet, pro vtriusque ordinis multitudine. Si fuerint ergo quælibet magnitudines, & aliæ eisdē æquales numero: & quæ sequuntur reliqua. Quod ostendendum proposueramus.
 
-ORONTIVS. ¶Sint tres magnitudines a,b,c, & rursum aliæ tres d, e, f, cum duabus perturbatim in eadem ratione coassumptis: vtpote, sicut a/ ad b, sic e/ad f, sicútq̄; b/ad c, sic d/ad e. Dico quòd si a/fuerit maior c, erit ex æquali d/maior f: etsi æqualis, æqualis: etsi minor, minor. Sit primùm a/maior c: iam recipio probandum, quòd d/sit maior f. Et quoniā est sicut b/ad c, sic d/ad e, per hypothesin: erit à conuersa ratione, vt c/ad b, sic e/ad d, per quartæ huius quinti corollariū. Rursum quoniam a/maior est c, & b/alia quædam magnitudo: habet igitur a/ ad b/maiorem rationem, quàm c/ad eandem b, per primam partem octauæ huius quinti. Sicut porrò a/ ad b, sic ex hypothesi e/ad f: sicútq̄; c/ad b, sic e/ad d (vti nunc ostensum est). & e/propterea ad f/maiorem rationē habet, q̄ ad d. Ad quā autē eadem magnitudo maiorē ratione habet, & illa minor est: per secundā partē decimæ ipsius quinti. Est igitur f, ipsa d/minor: & d/propterea maior f. ¶Haud dissimiliter si a/fuerit æqualis ipsi c: ostendetur & d/æqualis ipsi f. Nam a/& c, ad eandem b/eandem rationē habebūt: per primā partem septimæ huius quinti. Et quoniā est sicut a/ad b, sic e/ ad f, sicútq̄; c/ad b, sic e/ad d: & e/ igitur ad vtranq̄; d/& f/eādem rationē habebit. Ad quas autē eadem eandem habet rationē, ipsæ sunt æquales: per secundam partem nonæ ipsius quinti. Aequalis erit igitur d, ipsi f. ¶Item si a/fuerit minor c: dico tandem, q̄ & d/minor erit f. Tunc enim c/ad b maiorem rationē habebit, quàm a/ad eandem b: per eandem octauā huius quinti. Et cùm sit velut c/ad b, sic e/ad d, sicútq̄; a/ad b, sic e/ad f (veluti suprà deductum est) habebit consequenter e/ad d/maiorē rationem, q̄ e/ad f. Ad quam autē eadem maiorem rationem habet, & illa minor est: per secundam partem decimæ eiusdem quinti. Est itaq̄; d/ipsa f/minor. Ergo si fuerint tres magnitudines: &c. vt in theoremate. Quod ostendendum fuerat.
+> Vbi plures tribus in vtroq̄; magnitudinū extiterint ordine.
 
-> Æquā rationem respicientia in perturbatis.
+*[diagram: a b c d e f — g k m h l n]*
 
-> Quando prima maior est tertia.
+*[diagram: a, b, c, d. e, f, g, h.]*
 
-*[diagram: a b c c c d d e f]*
+Θεώρημα κγ, Πρόθεσις κγ.
 
-> Vbi prima æquatur tertiȩ.
+EΑν ᾖ τρία μεγέθη, ὃ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα ἐν τῷ αὐτῷ λόγῳ, ᾖ δὲ τεταραγμένη αὐτῶν ἡ ἀναλογία, καὶ δι' ἴσου ἐν τῷ αὐτῷ λόγῳ ἔσαι.
 
-> Quando prima minor est tertia.
+## Theorema 23, Propositio 23.
 
-Θεώρημα κβ, Πρόθεσις κβ.
+SI fuerint tres magnitudines, aliæ'que eisdem æquales numero, binatim sumptæ in eadem ratione, fuerit autem perturbata earum proportio: & ex æquali in eadem ratione erunt.
 
-EΑν ᾖ ὁποσαοῦν μεγέθη καὶ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα ἐν τῷ αὐτῷ λόγῳ, καὶ δι' ἴσου ἐν τῷ αὐτῷ λόγῳ ἔσαι.
+ORONTIVS. ¶Sint tres magnitudines a,b,c, & aliæ eisdem numero æquales d,e,f, cum duabus in eadem ratione perturbatim coassumptis: sicut quidem a/ad b, sic e/ ad f, sicútque b/ ad c, sic d/ad e. Aio fore ex æqua ratione, sicut a/ad c, sic d/ad f. Assumantur enim ipsarum a,b,d, æquè multiplices g,h,k: ipsarum porrò c,e,f, aliæ itidem æquè multiplices l,m,n. Cùm ergo g,h, ipsarum a,b, sint per constructionem æquè multiplices, & partes eodem modo multipliciū eandem habeāt rationem sumptæ adinuicem, per quindecimam huius quinti: est igitur vt a/ad b, sic g/ad h. sicut autē a/ad b, sic e/ ad f, per hypothesin: & sicut igitur g/ad h, sic e/ad f, per vndecimam ipsius quinti. Rursum quoniam m,n, ipsarum e,f, sunt æquè multiplices: erit rursum per eandem quindecimam huius quinti, vt e/ad f, sic m/ad n. Sicut porrò e/ad f, sic g/ ad h, se habere monstratum est: & sicut itaque g/ad h, sic m/ad n, per ipsam vndecimam eiusdem quinti. Insuper quoniam est sicut b/ ad c/ sic d/ad e, per hypothesin, & ipsarū b,d/sumptæ sunt æquè multiplices h,k: ipsarū verò c,e, aliæ itidem æquè multiplices l,m. Est igitur vt h/ multiplex, ad l/ multiplicē,
 
-## Theorema 22, Propositio. 22.
+> Æqua ratio in perturbatis.
 
-SI fuerint quælibet magnitudines, & aliȩ eisdem æquales numero, binatim sumptæ in eadem ratione: & ex æquali in eadem ratione erunt.
-
-ORONTIVS. ¶Sint verbi gratia tres magnitudines a,b,c, & aliæ eisdem numero æquales d,e,f, cum duabus ordinatim sumptis in eadem ratione: vtpote, sicut a/ad b, sic d/ad e, sicut autē b/ad c, sic e/ad f. Dico quòd extremæ vtriusque ordinis magnitudines, ex æquali in eadem ratione erunt: sicut quidē a/ad c, sic d/ad f. Accipiantur enim ipsarum a,d/æquè multiplices g,h: ipsarū verò b,e, aliæ itidem æquè multiplices k,l: ipsarū deniq̄; c,f, vtcunq̄; etiam multiplices m, n. Cùm sit igitur vt a/ad b, sic d/ad e: & ipsarum a,d, hoc est primæ & tertiæ, æquè multiplices sint g,h: secūdæ autem & quartæ, vtpote ipsarū b,e, aliæ itidem æquè multiplices k,l. Est igitur sicut g/ multiplex ad k/multiplicē, sic h/ad l: per quartam huius quinti. Et proinde erit, vt k/ad m, sic l/ad n: est enim ex hypothesi, vt b/ad c, sic e/ad f, & ipsarum b,e, æquè multiplices k,l: ipsarū autē c,f, æquè rursum multiplices m,n, per cōstructionē.
-
-> Æqua ratio in ordinatis.
+*[diagram: a b c d e f — g h l k m n]*

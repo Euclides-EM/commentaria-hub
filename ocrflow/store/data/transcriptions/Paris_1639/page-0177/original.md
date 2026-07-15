@@ -1,23 +1,35 @@
-# Page 176
+# Page 177
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. IV.
 
-des costez du circonscrit ABC, & au contraire le triangle ABC est descrit à l'entour du triangle DEF, à cause que chacun des costez de celuy-là touche chacun des angles de celuy-cy: Mais le triangle LMN n'est pas inscrit dans le triangle GHI, à cause que l'angle N ne touche point le costé HI.
+touche chacun angle de la figure à l'entour de laquelle il est descrit.
+
+VII.
+
+Vne ligne droicte est dite estre accommodée ou adaptée au cercle, quand les extremitez d'icelle sont en la circonference du cercle.
 
 (figure)
 
-III.
+PROBL. I. PROPOS. I.
 
-Vne figure rectiligne est dite estre inscrite en vn cercle, quand vn chacun angle de l'inscrite, touche la circonference du cercle.
+Au cercle donné, accommoder vne ligne droite, égale à vne ligne droicte donnée, laquelle ne soit pas plus grande que le diametre du cercle.
 
-IV.
+(figure)
 
-Mais vne figure rectiligne est dite estre descrite à l'entour du cercle, lors que chacun costé de la circonscrite, touche la circonference du cercle.
+*Hypoth.*
 
-V.
+abc *eſt* ⊙ D.
+ac *eſt le diametre*,
+d *eſt* —— D.
+d 2|3 ac.
 
-Semblablement le cercle est dit estre inscrit en vne figure rectiligne, lors que la circonference du cercle touche chacun costé de la figure en laquelle il est inscrit.
+*Requis à faire.*
 
-VI.
+*accommoder* ab 2|2 d, *au* ⊙abc.
 
-Mais vn cercle est dit estre descrit à l'entour d'vne figure, quand la circonference du cercle
+*Conſtr.*
+
+3.1 | ae 2|2 d,
+3.p.1. | aeb *eſt* ⊙,
+1.p.1 | ab *eſt* ——,
+ſymp. | ab *eſt le requis.*

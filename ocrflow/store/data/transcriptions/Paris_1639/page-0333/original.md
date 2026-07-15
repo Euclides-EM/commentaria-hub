@@ -1,33 +1,18 @@
-# Page 332
+# Page 333
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-Ayant ainsi trouué 9/7 lt. au lieu de 3/7 d'escus, pour auoir le requis on dira,
+en quel degré du Zodiaque se fera leur conionction, on dira, si
 
-2 *lt.* X 7 *aulnes* —— 9 *lt.* R. 189/14. [13 1/2 *aulnes*.
-3   1 —— 7
+12 *ans* X 360 *deg.* —— 12 *ans* | 360/5 (72 *degr.*
+1   1 —— 5
 
-*Exemple 5.*
+Ayant ainsi trouué 72 degrez, ie conclus, que Mars r'attrapera Iupiter au bout de 12/5 ou 2 2/5 d'année, au 12 degré des Gemeaux.
 
-A 17 1/2 les ⅔, sçauoir combien vaut le tout ?
+DE LA REGLE DE TROIS *inuerse ou rebourse.*
 
-Mettant l'vnité pour l'entier ou le tout, & adioustant 17 auec 1/2 qui luy est adiointe, ordonnant ainsi la regle de trois, on trouuera 26 1/4 pour le tout.
+Cette regle s'appelle inuerse ou rebourse, à cause qu'elle renuerse l'operation de la precedente, laquelle à comparaison de celle-cy s'appelle directe. Car en celle-cy on multiplie le premier & second nombre l'vn par l'autre, puis on diuise le produict par le troisiesme, d'où vient le nom d'inuerse ou rebourse. Or ayant couché les trois nombres donnez, comme en la directe, & prenant le second nombre pour celuy que donne le premier, on pourra iuger facilement si la regle est directe ou inuerse : Car si le double du premier donne plus que le simple, c'est à dire plus que le premier, la regle sera directe : & au contraire, si le double donne moins que le simple, la regle sera inuerse : comme il sera manifeste aux exemples suiuants.
 
-2 X 35 —— 1 | 105/4 [26 1/4.
-3   2 —— 1
+*Exemple 1.*
 
-Supposant que Mars acheue son cours en 2 ans, & Iupiter en 12 ans, & qu'ils soient au premier degré d'Aries, sçauoir en quel degré du Zodiaque se fera leur prochaine conionction ?
-
-Pour trouuer dans combien de temps arriuera leur premiere conionction, on dira pour Mars, si
-
-2 ans donnẽt 360 deg. combien dõnera 1 an. R. 180 deg.
-
-Puis pour Iupiter on dira, si
-
-12 ans donnẽt 360 deg. combien dõnera 1 an. R. 30 deg.
-
-Ayant ainsi trouué 180 degrez pour Mars, & 30 degrez pour Iupiter, i'oste les 30 degrez de 180 deg & reste 150 degrez qu'aura fait Mars plus que Iupiter.
-
-Maintenant pour trouuer le temps ; ie dis, si 150 degr. donnent 1 an, combien donneront 360 deg. R. 360/150 ou 12/5.
-
-Ayant ainsi trouué la fraction 360/150 ou 12/5, pour sçauoir
+Quand la mesure de bled couste 6 escus, le pain d'vn sol pese 10 onces, sçauoir combien deura peser le mesme pain, quand la mesure du bled coustera 4 escus.

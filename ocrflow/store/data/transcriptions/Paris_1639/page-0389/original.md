@@ -1,37 +1,23 @@
-# Page 388
+# Page 389
 
-# GEOMETRIE
+# PRACTIQVE.
 
-8 vient 7056, dont la racine quarrée est 84, pour le contenu du triangle ABC. Que s'il y a fraction, on operera par la dixme.
-
-(figure)
-
-21
-15 —— 6
-14 —— 7
-13 —— 8
-——
-42
-——
-21
-
-21
-6
-——
-126
-7
-——
-882
-8
-——
-7056
-
-*Trouuer l'aire d'vn quadrilatere qui a deux costez opposez paralleles.*
+gé de ces trois triangles : ce faisant on trouuera que si AC vant 12, AD 15, BF 5, CG 7, EH 6, que le polygone ABCDE vaudra 127 1/2.
 
 (figure)
 
-Soit à trouuer le contenu du quadrilatere ABCD, pour ce faire on mesurera les deux costez paralleles BC & AD, & aussi la perpendiculaire BE menée de l'vne des paralleles sur l'autre : puis si on multiplie la somme des deux paralleles, par la perpendiculaire BE, la moitié du produict sera le contenu du quadrilatere ABCD : ce faisant on trouuera que si BC est 12, AD 18, & BE 7, que le quadrilatere ABCD vaudra 105 : car multipliant 30, qui est la somme de BC & AD par 7 viendra 210, dont la moitié est 105.
+AC, 12   12   15   15   60
+AD, 15   5   7   6   105
+BF, 5   ——   ——   ——   90
+CG, 7   60   105   90   ——
+EH, 6   255
+——
+127 1/2.
 
-*Trouuer l'aire d'vn polygone irregulier.*
+*Trouuer l'aire d'vn polygone regulier.*
 
-Il faut resoudre le polygone proposé ABCDE en triangles, en tirant des lignes d'vn angle à tous les autres, cõme AC & AD, puis si on trouue les contenus des triangles ACB, ACD & ADE, ou aura aussi le contenu du polygone ABCDE, qui est égal à l'aggre-
+(figure)
+
+Si on multiplie le circuit du polygone proposé par le nombre de la perpendiculaire, qui tombe du centre sur l'vn des costez, la moitié du produict sera le contenu du polygone : ce faisant on trouuera que si le costé CD vaut 12, & la perpendiculaire FI 8 1/4, que le pentagone regulier ABCDE vaudra 247 1/2. Car cinq fois 12 font 60 pour le circuit ABCDE, & 60 multiplié par 8 1/4 fait 495, dont la moitié est 247 1/2.
+
+L'aire de ce pentagone, & de toutes figures regulieres qui n'ont plus de 12 costez, se pourront trouuer plus briefuement par le moyen des logarithmes des superficies des figures regulieres contenuës en la table suiuante, qui est calculée plus precisément que celle qui est en la page 159 du 3 tome.

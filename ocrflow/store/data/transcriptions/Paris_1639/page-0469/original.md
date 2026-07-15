@@ -1,27 +1,35 @@
-# Page 468
+# Page 469
 
 # ETYMOLOGIE.
 
-l'iris, ainsi nommée à cause de la diuersité de ses couleurs, de l'arc en ciel, qui en Latin s'appelle *Iris*, touche le blanc de l'œil qui l'enuironne.  La prunelle est le noir de l'œil qui paroist au milieu de l'iris, correspondant directement au trou de l'vuée.  t. 5. p. 5.
+Loxodromie vient de *loxos*, qui en Grec signifie oblique, & *dromos* course.  t. 4. p. 403.
 
-Isoscele vient de *Isos*, qui en Grec signifie égal, & *scelos* la iambe.  t. 1. def. 24.
+Lustre est vn espace de cinq ans, ainsi nommé de *lustrare*, qui en Latin signifie aller à l'entour : à cause qu'anciennement les Romains, par processions, prieres & sacrifices, purgeoiẽt la ville de cinq ans en cinq ans.
 
-Isomerie vient de *Isos*, qui en Grec signifie égal, & *meros* partie.  t. 2. p. 83. alg.
+Mappe-monde est la Carte vniuerselle du monde, ainsi nommée de *mappa*, qui en Latin signifie vne nappe, & *mundi* du monde.  t. 4. p. 156.
 
-Isoperimetre, *égales en circuits*, vient de *Isos*, qui en Grec sign. égal, *peri* à l'entour, & *metron* vne mesure.  t. 4. p. 44.
+Mecometre, *instrument à mesurer*, vient de *mecos*, qui en Grec signifie longueur, & *metron* vne mesure·
 
-Istiodromie, *l'art de nauiger*, vient de *Istion*, qui en Grec signifie nauire, & *dromos* course.  t. 4. p. 400.
+Melodie vient de *melos*, qui en Grec signifie des carmes : il semble aussi que *melos* vienne de *meli*, qui signifie du miel.  t. 5. p. 802.
 
-Kalendrier vient de *Kalendæ*, qui en Latin signifie le premier iour du mois.  Or les Calendes de Mars, May, Iuilet, & Octobre vont iusques au seiziesme du mois precedent : Les 8 iours, qui sont depuis le quinziesme iusques au huictiesme, sont attribuez aux Ides : & les 6 iours qui sont depuis le septiesme iusques au second, aux Nones.  Aux autres mois, les Calendes vont iusques au quatorziesme du mois precedent : Les Ides, qui ont tousiours 8 iours, depuis le treiziesme iusques au sixiesme : & les 4 iours, qui sont depuis le 5 iusques au second, sont attribuez aux Nones.  D'où s'ensuit qu'au mois d'Auril, par exemple, le quatriesme iour est le second des Nones : le dixiesme, le quatriesme des Ides : & le vingtiesme, est le douziesme des Calendes de May.  t. 2. p. 142.
+Melopée vient de *melos*, qui en Grec signifie des carmes, & *poieio* faire : d'où vient aussi *melopoiya*, qni sign. modulation.  t. 5. p. 807.
 
-Lemme vient de *lambano*, qui en Grec sign. prendre.  t. 1. def. 43.
+Meninge, *dure ou tendre mere*, vient de *meninx*, qui en Grec signifie membrane, & particulierement celle qui enuironne le cerueau par dehors.  t. 5. p. 5.
 
-Lichanos, est vn mot Grec qui signifie le doigt de la main qui est le plus proche du pouce, nommé en Latin *Index*, & signifie aussi vne chorde ou voix de la musique.  t. 5. p. 809.
+Meridien vient de *meros*, qui en Grec sign. partie, & de *dies*, qui en Latin signifie le iour.  t. 4. p 11.
 
-Limeneuretique, *l'art de nauiger*, vient de *limen*, qui en Grec signifie vn port, & *eurisco* trouuer.
+Merlon, est le mur qui est entre deux canonnieres, & s'appelle ainsi de *merlo*, qui en Italien sign. carneau.
 
-Limma vient de *leimma*, qui en Grec signifie reste.  t. 5. p. 805.
+Mese, *moyenne*, vient de *mesoo*, qui en Grec signifie estre au milieu.  t. 5. p. 809.
 
-Logarithme, vient de *logos*, qui en Grec sign. raison ou proportion, & *arithmos* nombre.  t. 3. p. 13.
+Meteore vient de *meteoros*, qui en Grec signifie sublime ou haut : d'où vient aussi *meteora*, qui sont les choses qui s'engendrent là haut en l'air.
 
-Logistique vient de *logizomai*, qui en Grec sign. calculer.  t. 2. p. 11.
+Meteorologie est la science qui traicte des meteores.
+
+Metoposcopie vient de *metopon*, qui en Grec signifie le front, & *scopeo* considerer.
+
+Musique vient de *mousa*, qui en Grec signifie muse deesse du chant.  t. 5. p. 802.
+
+Nete, en Grec signifie la derniere.  t. 5. p. 809.
+
+Olympiades, est vn espace de 4 ans, ainsi nommé des ieux & exercices Olympiques, qui se faisoient anciennement de 4 ans en 4 ans en la Peloponnese pres la ville d'Olympe.  t. 5. p. 457.

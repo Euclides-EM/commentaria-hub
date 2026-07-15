@@ -1,47 +1,42 @@
-# Page 89
+# Page 90
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
+
+7.a.1 | ∠abc + ∠c + ∠d + ∠def 2|2 6┘,
+ſ.32.1 | ∠ebc + ∠c + ∠d + ∠deb 2|2 4┘,
+3.a.1 | ∠abe + ∠bef 2|2 2┘,
+1.concl. 28.1 | ab == fe, γ
+2.concl. d.γ | bc == gf.
+
+THEOR. XXV. PROPOS. XXXV.
+
+Les parallelogrammes constituez sur vne mesme base, & entre mesme paralleles, sont égaux entr'eux.
 
 (figure)
 
 *Hypoth.*
 
-∠a 2|2 ∠c. α
-∠b 2|2 ∠d. α
+af == bc,
+bcda & bcfe *ſnt* ◊. α
+bc *eſt baſe commune.*
 
 *Req. à demonſtr.*
 
-abcd *eſt* ◊.
+◊bcda 2|2 ◊bcfe.
 
 *Demonſtr.*
 
-ſ.32.1 | ∠a + ∠b + ∠c + ∠d 2|2 2┘.
-α.2.a.1 | ∠a + ∠b 2|2 ∠c + ∠d,
-19.a.b | ∠a + ∠b 2|2 2┘. β
-28.1 | ad == bc,
-d.β | ∠b + ∠c 2|2 2┘.
-28.1 | ab == dc,
-concl. 35.d.1 | ac *eſt* ◊.
-
-SCHOL. IV.
-
-En toute figure rectiligne si les costez sont en nombre pair, & qu'elle soit equilaterale & equiangle : les costez opposez seront paralleles entr'eux.
-
-*Hypoth.*
-
-abdf *eſt eſt rectili. equilat. & equiang.* α
-
-*Req. à demonſtr.*
-
-ab == fe, bc == gf, &c.
-
-(figure)
-
-*Preparation.*
-
-1.p.1 | be *eſt* ——.
-
-*Demonſtr.*
-
-ſ.32.a.1 | ∠abc + ∠c + ∠d + ∠def + ∠f + ∠g + ∠h + ∠a 2|2 12┘. β
-α.hyp. | ∠abc + ∠c + ∠d + ∠def 2|2 ∠f + ∠g + ∠h + ∠a,
+α.34.1 | ad 2|2 bc,
+α.34.1 | ef 2|2 bc,
+1.a.1 | ad 2|2 ef,
+de *commun. add.*
+2.a.1 | ae 2|2 df. β
+*aux* △;abe & dcf
+β | ae 2|2 df,
+α.34.1 | ab 2|2 dc,
+α.29.1 | ∠bae 2|2 ∠cdf,
+nota. 4.1 | △bae 2|2 △cdf,
+gde *commun. ſubtr.*
+3.a.1 | badg 2|2 cgef,
+bgc *commun. add.*
+concl. 2.a.1 | ◊badc 2|2 ◊bcfe.

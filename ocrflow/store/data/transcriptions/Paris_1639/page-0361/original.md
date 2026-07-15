@@ -1,25 +1,21 @@
-# Page 360
+# Page 361
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-faire, comme en la diuision, en prenant la racine qu'on aura trouué pour quotient & pour diuiseur : comme en l'exemple suiuant la preuue du quotient est 7, que ie pose aux costé gauche & droict
+partant estant donné le moindre nombre 3, l'excez 2, & le nombre des termes 7, on trouuera le plus grand nombre 15, en multipliant l'excez 2 par le nõbre des excez, qui en cet exemple est 6, & adioutant au produict 12, le moindre nombre qui est 3, & viendra 15 pour le plus grand nombre. Ayant ainsi trouué le plus grand 15, pour auoir la somme de tous les nombres, on adioustera ensemble le premier & dernier terme, à sçauoir 3 & 15, & viendra 18, qu'on multipliera par le nombre des termes qui est 7, & le produict sera 126, dont la moitié 63 est la somme de tous les nombres de la progression.
 
-57 | 80 | 56 | 09 | 47 [76030 47/153061.
+*Question 2.*
 
-6
-7——7
-6
+Que si au lieu du moindre nombre 3, le plus grand nombre 15 est donné, auec l'excez 2, & le nombre des termes qui est 7 : pour auoir le moindre nombre 3, on multipliera l'excez 2, par le nombre de la multitude de l'excez qui est 6, & le produict 12 estant soustrait du plus grand nombre 15, restera le moindre nombre requis 3.
 
-d'vne croix, puis ie multiplie 7 par 7 & vient 49, qui a 4 pour preuue, que i'adiouste auec la preuue du reste qui est 47, & vient 6 que ie pose au dessus de la croix, & le mesme 6 se doit trouuer en ostant tous les 9 du nombre proposé 5780560947, que s'il ne se trouue, il y aura erreur en l'extraction de la racine quarrée.
+*Question 3.*
 
-DES PROGRESSIONS ARITH- *metiques & Geometriques.*
+Que si auec le nombre des termes 7 sont donnez le moindre nombre 3, & le plus grand 15 : pour auoir l'excez, on soustraira le moindre nombre 3 du plus grand 15, & le reste 12 estant diuisé par le nombre de la multitude de l'excez qui est 6, donnera l'excez requis 2.
 
-En vne progression il y a cinq termes, trois desquels estant donnez, les deux autres se peuuent trouuer. Ces cinq termes sont le moindre nombre, le plus grand nombre, le nombre des termes, & l'excez ou difference des nombres, laquelle difference en la progression geometrique s'appelle le nombre progressif. De ces cinq termes ou nombres trois se peuuent donner en dix manieres differentes, comme il appert des regles des diuerses conionctions, que nous auons donné au 15 chapitre de l'Arithmetique du second tome. Mais icy nous donnerons seulement les principales questions, commençant par celles d'Arithmetique.
+*Question 4.*
 
-*Question 1.*
+Que si auec l'excez 2 sont donnez le moindre nombre 3, & le plus grand 15 : pour trouuer le moindre des termes, on soustraira le moindre nombre 3 du plus grand 15, & le reste 12 estant diuisé par l'excez 2, viendra au quotient 6, pour le nombre des excez, & par consequent le nombre des termes sera 7.
 
-D'vne progression d'Arithmetique estant donnez le moindre nombre, l'excez, & le nombre des termes, trouuer le plus grand nombre, & la somme de tous les termes ou nombres.
+*Question 5.*
 
-De toute progression Arithmetique le plus grand nombre est composé de toutes les differences ou excez, & du moindre nombre, comme il est manifeste des nombres de la progression suiuãte,
-
-3, 5, 7, 9, 11, 13, 15.   La somme est 63.
+Que si auec l'excez 2, & la multitude des termes 7, est donné la somme de tous les termes, qui est 63 : pour trouuer le moindre nombre, on diuisera la somme donnée 63 par 7, nombre des ter-

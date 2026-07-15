@@ -1,30 +1,28 @@
-# Page 252
+# Page 253
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-THEOR. II. PROPOS. II.
+α.7.5 | △ade π △dbe 2|2 △ade π △edc,
+1.6 | △ade π △edc 2|2 ae π ec,
+1.concl. β.11.5 | ad π db 2|2 ae π ec.
 
-Si à l'vn des costez d'vn triangle on mene quelque ligne droicte parallele, elle coupera les costez du triangle proportionellement: Et si les costez sont couppez proportionellement, la ligne droite conjoignant les poincts des sections, sera parallele à l'autre costé du triangle,
-
-(figure)
-
-*Hypoth. 1.*
-
-abc *eſt* △,
-de == bc.
-
-*Req. à demonſtrer.*
+*Hypoth. 2.*
 
 ad π db 2|2 ae π ec.
 
-*Prepar.*
+*Req. à demonſtrer.*
 
-1.p.1 | cd & be *ſnt* ——.
+de == bc.
 
-*Demonſtration.*
+*Demonſtr.*
 
-hyp. | de == bc,
-37.1 | △deb 2|2 △dec. α
-4.d.6 | △; ade & deb *ſont de meſme hauteur, car leur hauteur commune eſt la perpendiculaire qui tombe du poinct E ſur AB.*
-4.d.6 | △; aed & edc *ſont auſſi de meſme hauteur, car leur commune hauteur eſt la perpendiculaire qui tombe du poinct D ſur AC.*
-1.6 | ad π db 2|2 △ade π △dbe. β
+1.6 | △ade π △dbe 2|2 ad π db. γ
+hyp. | ad π db 2|2 ae π ec,
+1.6 | ae π ec 2|2 △ade π △ecd,
+γ.11.5 | △ade π △dbe 2|2 △ade π △ecd,
+9.5 | △dbe 2|2 △ecd,
+2 concl 39.5 | de == bc.
+
+THEOR. III. PROPOS. III.
+
+Si vn angle d'vn triangle est couppé en deux parties égales, & que la ligne droicte qui couppe l'angle, couppe aussi la base; les segments de la base auront mesme raison entr'eux que les autres costez du triangle: Et si les segments de la base ont mesme raison entr'eux que les autres costez du triangle, la ligne droicte menée du sommet au poinct de la section, couppe l'angle du triangle en deux également.

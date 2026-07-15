@@ -1,49 +1,57 @@
-# Page 93
+# Page 94
 
-# D'EVCLIDE, LIV. I.
-
-(figure)
-
-*Req. à demonſtr.*
-
-ad == bc.
-
-*Demonſtr.*
-
-ſuppoſ. | af == bc,
-1.p.1 | cf *eſt* ——,
-37.1 | △bcf 2|2 △bca,
-hyp. | △bcd 2|2 △bca,
-1.a.1 | △bcf 2|2 △bcd,
-*contr. 9. a. 1.*
-concl. 21.a.1 | ad == bc.
-
-THEOR. XXX. PROPOS. XL.
-
-Les triangles égaux constituez sur bases égales, & de mesme part, sont entre mesmes paralleles.
+# LES ELEMENTS
 
 (figure)
 
 *Hypoth.*
 
-△bca 2|2 △efd,
-*baſe* bc 2|2 *baſe* ef.
+ae == bc.
+bc *eſt baſe commune.*
 
 *Req. à demonſtr.*
 
-ad == bf.
+◊abcd 2|2 2△bce.
+
+*Prepar.*
+
+1.p.1 | ac *eſt* ——.
 
 *Demonſtr.*
 
-ſuppoſ. | ah == bf,
-1.p.1 | fh *eſt* ——,
-hyp. | bc 2|2 ef,
-38.1 | △efh 2|2 △bca,
-hyp. | △efd 2|2 △bca,
-1.a.1 | △efh 2|2 △efd,
-*contr. 9. a. 1.*
-concl. 21.a.1 | ad == bf.
+hyp. | ae == bc,
+37.1 | △bca 2|2 △bce,
+34.1 | ◊abcd 2|2 2△bca,
+concl. 6.a.c | ◊abcd 2|2 2△bce.
 
-THEOR. XXXI. PROPOS. XLI.
+PROBL. XI. PROPOS. XLII.
 
-Si vn parallelogramme, & vn triangle ont vne mesme base, & sont entre mesmes paralleles; le parallelogramme sera double du triangle.
+Faire vn parallelogramme égal à vn triangle donné en vn angle rectiligne donné.
+
+(figure)
+
+*Hypoth.*
+
+△abc *eſt* D.
+∠d *eſt* D.
+
+*Req. à faire.*
+
+◊ecgf 2|2 △abc.
+∠ecg 2|2 ∠d,
+
+*Conſtr.*
+
+31.1 | ag == bc,
+23.1 | ∠bcg 2|2 ∠d,
+10.1 | be 2|2 ec,
+31.1 | ef == cg,
+ſymp. | ◊efgc *eſt le req.*
+
+*Prepar.*
+
+1.p.1 | ae *eſt* ——.
+
+*Demonſtr.*
+
+conſtr. | ag == bc,

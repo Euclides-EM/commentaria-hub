@@ -1,17 +1,15 @@
-# Page 446
+# Page 447
 
 # DE LA GNOMONIQVE.
 
-Propos. 3. pag. 754.
+à discretion, & le diuisez en 24 parties égales, commençant à la meridienne CA, & du centre C, sur DN, par les poincts des diuisions du cercle BAG, tirez les lignes droictes CD, CB, &c.  Finalement, si par les poincts D, B, &c. de la ligne DN, on mene BH, IL, &c. paralleles à la meridienne CA, on aura le quadrant requis, qui aura pour meridienne la ligne CA, & pour vnze heures du matin la ligne ZP, &c.
 
-*L'esleuation du pole estant donnée, descrire vn quadrant en la face meridionale du principal vertical.*
+Le stile doit estre de la longueur de TC esleué perpendiculairement au plan du quadrant au poinct T.  Que si on ne met point d'autre stile que la perpendiculaire TC, il faudra qu'vne chacune des lignes MQ, & HR soit esloignée de la ligne du milieu DN d'enuiron du quintuple de la hauteur du stile TC, afin que l'extremité de l'ombre du stile TC, à 5 heures deuant ou apres midy ne sorte hors des paralleles MQ & HR : Mais si au sommet du stile TC on met vne ligne ou verge parallele à la meridienne AC, qui representera le stile oblique parallele à l'axe du monde, il ne sera pas besoin que les lignes MQ, & HR soient tant esloignées de la ligne DN.
 
-La construction d'vn quadrant vertical exposé directement au Midy ou au Septentrion, se fait comme celle de l'horizontale, pourueu que l'angle ACZ soit fait égal à l'éleuation du pole, comme en cet exemple, si on eust faict le quadrant horizontal AGT pour 41 deg. & 20′, qui est le complement de l'esleuation du pole, il eust serui en la face Septentrionale du principal vertical, en mettant T au dessus du centre A : & pour le mettre en la face meridionale du mesme vertical, il eust falu seulement changer la suite des nombres, & mettre le centre A au dessus de T, afin que le stile oblique se trouue parallele à l'axe du monde, car il ne doit iamais estre autrement.
+Propos. 5. pag. 758.
 
-Propos. 4. pag. 757.
-
-*Descrire vn quadrant polaire, c'est à dire, sur vn plan lequel passant par les poles du monde, couppe le meridien à angles droicts.*
+*Estant donnée la hauteur du pole, par exemple, de 48 degrez 40′, descrire vn quadrant en la face orientale du meridien.*
 
 (figure)
 
-Sur le plan proposé ayant tiré la meridienne CA, & DN, qui le couppe à angles droicts en T, prenez TC pour la longueur du stile de telle grandeur que vous voudrez, puis descriuez le cercle CBG
+Ayant tiré XY parallele à l'horizon, & fait l'angle YTC égal à l'éleuation du pole, à sçauoir de 48. d. & 40′, on prendra TC à discretion pour la longueur du stile : puis si on conti-

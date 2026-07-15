@@ -1,27 +1,33 @@
-# Page 216
+# Page 217
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-quent: mais comme aux premieres grandeurs le consequent est à quelque autre, ainsi aux secondes grandeurs quelqu'autre est à l'antecedent.
+A, 12. B, 4. C, 21. D, 7. E, 15. F, 5.
 
-A, 4. B, 6. C, 3. E, 20. F, 10. G, 15.
+hyp. | a *multipl..* b 2|2 e *multipl..* f.
+hyp. | c *multipl..* d 2|2 e *multipl..* f,
+a.5 | a *multipl..* b 2|2 c *multipl..* d.
 
-hyp. | a π b 2|2 f π g, b π c 2|2 e π f, 23.5 | a π c 2|2 e π g.
+THEOR. I. PROPOS. I.
 
-A ces 19. definitions d'Euclide, i'adiousteray la definition & l'axiome qui suiuent.
+S'il y a tant de grandeurs qu'on voudra equimultiples d'autant d'autres grandeurs, chacune de la sienne; comme l'vne des grandeurs sera multiple d'vne; ainsi les toutes seront multiples des toutes.
 
-XX.
+*Hypoth.*
 
-S'il y a tant de grandeurs qu'on voudra, la raison de la premiere à la derniere est composée des raisons de la premiere à la seconde, & de la seconde à la troisiesme, & de la troisiesme à la quatriesme; & ainsi d'ordre iusques à ce que la proportion soit acheuée.
+ab *multipl..* | e,
+cd *multipl..* | f. α
 
-Par la dixiesme definition, la raison des extremes contient toutes les raisons entremoyennes, pourueu qu'elles soient égales entr'elles: mais par celle-cy, la raison des extremes contient toutes les raisons entremoyennes, encore qu'elles ne soient pas égales entr'elles.
+(figure)
 
-A, 24. B, 12. C, 8. D, 6.
+*Req. à demonſtrer.*
 
-hyp. | a, b, c, d *ſnt magnitud. propoſ.*
-20.d.5 | raō.. a π c 2|2 raō.. a π b + raō.. b π c,
-20.d.5 | raō.. a π d 2|2 raō.. a π b + raō.. b π c + raō.. c π d.
+ab *multipl..* e 2|2 ab + cd *multipl..* e + f.
 
-AXIOME.
+*Demonſtr.*
 
-Les equimultiples à vne mesme multiple, sont aussi equimultiples entr'elles.
+hyp, | e, ag, gh, hb *ſnt* 2|2 đe.
+hyp. | f, ci, ik, kd *ſnt* 2|2 đe.
+α.hyp. | *multd.. part..* ab 2|2 *multd.. part..* cd,
+2.a1 | e + f, ag + ci, gh + ik, hb + kd *ſnt* 2|2 đe.
+
+Partant, puis que AB contient E, autant de fois qu'il y a de parties en AB, égales à E: & que la composée de AB & CD contient

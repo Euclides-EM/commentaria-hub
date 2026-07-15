@@ -1,38 +1,35 @@
-# Page 273
+# Page 274
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-tionelles, icelles lignes droictes seront aussi proportionelles.
+SCHOLIE.
 
-(figure)
+Si vne ligne droicte est couppée comme on voudra, le rectangle contenu sous les parties, est milieu proportionel, entre les quarrez d'icelles parties : Item le rectangle contenu sous la toute & vne partie, est milieu proportionel entre le quarré de la toute & le quarré de ladite partie.
 
-*Hypoth. 1.*
+*Hypoth.*
 
-ab π cd 2|2 ef π gh,
-abi *ſml.* cdκ, efml *ſml.* ghon.
-
-*Requis à demonſtrer.*
-
-abi π cdκ 2|2 em π go.
-
-*Demonſtr.*
-
-hyp. | ab π cd 2|2 ef π gh,
-19.6 | raõ..△abi π △cdκ 2|2 2 raõ..ab π cd Ⅱ ef π gh,
-20.6 | raõ..em π go 2|2 2 raõ..ef π gh,
-1.concl. 1.ſ.23.5 | △abi π △cdκ 2|2 em π go.
-
-*Hypoth. 2.*
-
-△abi π △cdκ 2|2 em π go.
+ab *eſt* ——,
+arbitr. | ad & db *ſnt part..* ab.
 
 *Req. à demonſtrer.*
 
-ab π cd 2|2 ef π gh.
+□.ad π ▭.adb 2|2 ▭.adb π □.db,
+□.ab π ▭.bad 2|2 ▭.bad π □.ad,
+□.ab π ▭.abd 2|2 ▭.abd π □.db.
+
+*Prepar.*
+
+3.p.1 | acb *eſt ſemic.*
+11.1 | de ⊥ ab,
+1.p.1 | ae & be *ſnt* ——.
+
+(figure)
 
 *Demonſtr.*
 
-hyp. | △abi π △cdκ 2|2 em π go,
-19.6 | raõ..△abi π △cdκ 2|2 2 raõ..ab π cd,
-20.6 | raõ..em π go 2|2 2 raõ..ef π gh,
-2 concl. 2.ſ.23.5 | ab π cd 2|2 ef π gh.
+31.3 | ∠aeb *eſt* ┘,
+conſtr. | ed ⊥ ab,
+c.8.6 | ad π de 2|2 de π db, α
+22.6 | □.ad π □.de 2|2 □.de π □.db,
+α.17.6 | □.de 2|2 ▭.adb, β
+1.concl. 1.a.f | □.ad π ▭.adb 2|2 ▭.adb π □.db,

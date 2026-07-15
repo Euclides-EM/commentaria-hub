@@ -1,22 +1,46 @@
-# Page 248
+# Page 249
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-(figure)
+supposent qu'il y aye des nombres qui s'entresuiuent continuëment.
 
-abce & bce *ſont* △;
-abe *eſt* ——,
-cd ⊥ ae,
-cd *eſt la hauteur des* △; abc & bce, *au reſpect des baſes* ab & be.
+*De la compoſition ou addition des raiſons.*
 
-D'où s'ensuit, que si les trois perpendiculaires tirées de trois angles d'vn triangle sur les costez opposez, continuez directemẽt, si besoin est, sont inégales, le triangle aura trois hauteurs differẽtes.
+L'addition des raisons est trouuer la raison des extrémes, toutes les raisons entremoyennes estant données, & se fait en multipliant tous les antecedens l'vn par l'autre continuëment, & aussi les consequens: ce faisant on trouuera que la raison de 2 à 3 auec la raison de 4 à 5, fait la raison de 8 à 15: & que les raisons de 2 à 3, 4 à 5, & 4 à 3, adjoustez ensemble, font la raison de 32 à 45.
 
-V.
+*Raiſons données.*
 
-Vne raison est dite estre composée de raisons, quand les quantitez des raisons multipliées entr'elles font quelque raison.
+2 à 3
+4 à 5
+———
+8 à 15
+———
+2 à 3
+4 à 5
+4 à 3
+———
+32 à 45
 
-Les quantitez de deux raisons multipliées l'vne par l'autre, produisent la quantité ou denomination de la raison composée d'icelles, & non la raison composée d'icelles. Et est manifeste de la 20. def. du 5. que la composition ou addition des raisons se doit faire par la multiplication, comme il est dit en cette 5. definition: Car si le premier terme contient le second, par exemple, quatre fois: & le second le troisiesme, cinq fois: le premier contiendra le troisiesme vingt fois, qui se trouue en multipliant 4 par 5, comme il appert aux trois nombres suiuants.
+*Raiſons continuës du 1.exemple.*
 
-60 —— 15 —— 3
+8. 12. 15.
 
-Or pour plus grande intelligence de la composition des raisons, nous mettrons icy la logistique des raisons, c'est à dire, l'addition, soustraction, multiplication, & diuisions des raisons, l'intelligence desquelles dependent des quantitez ou nombres qui s'entresuiuent, & se referent les vns aux autres continuëment: Car le fondement de l'addition & soustraction est la 20 definition du 5. & de la multiplication & diuision, la 10 def. du mesme 5 liure, qui pre-
+*Raiſons continuës du 2.exemple.*
+
+32. 48. 60. 45.
+
+*De la ſouſtraction.*
+
+Soustraire est oster de la raison du premier au troisiesme, celle du mesme premier au second: que si on met la raison à soustraire en suite de celle de laquelle on la veut soustraire, la raison du produict des extrémes sera le requis: ce faisant on trouuera que de la raison de 3 à 2, ayant osté la raison de 4 à 3, restera la raison de 9 à 8.
+
+*Raiſons données.*
+
+3 à 2. 4 à 3.
+
+*Raiſons continuës.*
+
+12. 9. 8.
+
+*De la multiplication.*
+
+Multiplier est trouuer la raison des extrémes, de plusieurs nombres continuëment proportionaux, la raison du premier au second estant donnée: & se fait en prenant les puissances qui ayent pour exposant le multiplicateur donné. C'est à dire, que si le multiplicateur est 2, il faudra multiplier les deux termes de la raison donnée quarrément: si le multiplicateur est 3, il faudra les multiplier

@@ -1,40 +1,38 @@
-# Page 229
+# Page 230
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-En ceste demonstration G & GHI equimultiples des antecedens A & ACE, ne peuuent estre dissemblables au respect de K & KLM equimultiples des consequens B & BDF; par consequent, par la 6. definition du 5. A est à B, comme la composée de A, C, E, est à la composée de B, D, F: ce qu'il falloit demonstrer.
+grande raison à la seconde, que la cinquiesme à la sixiesme.
 
-COROLLAIRE.
-
-De ceste proposition est manifeste, que si à proportionaux semblables sont adjoustez proportionaux semblables, les tous sont proportionaux.
-
-A, 6. B, 2. C, 9. D, 3.
-E, 15. F, 5. G, 3. H, 1.
-L, 21. M, 7. N, 12. P, 4.
+(figure)
 
 *Hypoth.*
 
-a π b
-c π d
-e π f
-g π h
-*ſnt raō* 2|2 đe.
-l 2|2 a + e,
-m 2|2 b + f,
-n 2|2 c + g,
-p 2|2 d + h.
+a π b 2|2 c π d,
+c π d 3|2 e π f.
 
-*Req. à demonſtr.*
+*Req. à demonſtrer.*
 
-l π m 2|2 n π p.
+a π b 3|2 e π f.
+
+*Prepar.*
+
+| g *multipl..* | a,
+3.1 | h *multipl..* | c,
+| i *multipl..* | e,
+| k *multipl..* | b,
+3.1 | l *multipl..* | d,
+| m *multipl..* | f,
 
 *Demonſtr.*
 
-α.12.5 | l π m 2|2 a π b,
-α.12.5 | n π p 2|2 c π d,
-hyp. | a π b 2|2 c π d,
-concl. ſ.11.5 | l π m 2|2 n π p.
+ſuppoſ. | h 3|2 l,
+c.6.d.5 | g 3|2 k, α
+c.8.d.5 | i 2|3 m, α
+concl. α 8.d.5 | a π b 3|2 e π f.
 
-THEOR. XIII. PROPOS. XIII.
+En ceste demonstration, à cause qu'il y a plus grande raison de C à D, que de E à F, il est possible que I soit plus petite que M, & H plus grande que L: mais H ne peut exceder L, que G n'excede K, veu qu'il y a mesme raison de A à B, que de C à D: partant il est possible que I soit plus petite que M, & G plus grande que K; d'où s'ensuit par la 8. definition du 8. qu'il y a plus grande raison de A à B, que de E à F: ce qu'il falloit demonstrer.
 
-Si la premiere a mesme raison à la seconde, que la troisiesme à la quatriesme; mais la troisiesme a plus grande raison à la quatriesme, que la cinquiesme à la sixiesme: aussi la premiere aura plus
+SCHOLIE.
+
+Que si la raison de la troisiesme à la quatriesme est moindre que celle de la cinquiesme à la sixiesme, il y aura pareillement moindre raison de la premiere à la seconde, que de la cinquiesme à la sixiesme, comme il est manifeste par la mesme demonstration.

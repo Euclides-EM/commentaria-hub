@@ -1,31 +1,33 @@
-# Page 462
+# Page 463
 
 # ETYMOLOGIE.
 
-ou loy qu'on doit obseruer : d'où vient que les tables des sinus s'appellent canon mathematique, à cause qu'elles contiennét les proportions des costez des triangles rectilignes, à raison de leurs angles, & sont le fondement des calculs mathematiques.  t. 3, p. 5.
+Concentrique, vient du Latin *concentricum*, qui sign. auoir mesme centre que la terre.  t. 5. p. 469.
 
-Castrametation, *logement d'armée*, vient de *castrametor*, qui en Latin signifie mesurer le camp.  t. 3. p. 258.
+Conchoïde, en Grec *concha*, sign. escaille, & *eidos* figure, idée, espece : d'où vient le nom d'vne ligne courbe, qui ne differe pas beaucoup de l'hyperbole.  t. 2. p. 3.
 
-Catoptrique, en Grec *catoptron*, sign. vn miroir, d'ou vient la catoptrique, qui est la partie de l'optique qui traicte de la vision, qui se fait par le moyen des miroirs.  t. 5. p. 1. & 89.
+Conoïde, en Grec *conos*, signifie vn cone, & *eidos* figure : d'ou vient le nom d'vn solide contenu sous deux superficies, dont l'vne est spherique, & l'autre plane, comme est vn pain de succre.
 
-Casemates, sont chambres ou espaces aux flancs des bastions, d'où auec canons & harquebuses on defend la ville, & s'appellent ainsi de *casa*, qui en Espagnol sign. maison, & *matar*, tuer.
+Contrescarpe, *bort exterieur du fossé*, vient de *contre*, qui sig. opposé, & *scarpe*, le pied du mur de la ville.  t. 3. p. 181.
 
-Censique, *quarré*, vient de *census*, qui en Latin signifie rente.
+Corollaire, *consequence*, vient de *corolla*, qui en Latin signifie petite couronne.  t. 1. def. 42.
 
-Chiromance vient de *cheir*, qui en Grec signifie la main, & *mantis* deuineur.
+Corridor, *chemin conuert*, est vn espace qu'on fait sur le bord exterieur du fossé tout à l'entour de la ville auec vn parapet, & vient de *correre*, qui en Italien sign courir.  t. 3. p. 181.
 
-Chorographie, *description de region*, vient de *chora*, qui en Grec sign. region, & *graphia*, description.  t. 4. p. 3.
+Cosmographie, *description du monde*, vient de *cosmos*, qui en Grec signifie le monde, & *graphia* description.  t. 4. p. 1.
 
-Choroïde, vient de *chora*, qui en Grec sign. region, & aussi vn lieu ou espace à contenir quelque chose.  t. 5. p. 6.
+Cossique, *denommé*, vient de *cosa*, qui en Italien sign. vne chose.  t. 2. p. 3. alg.
 
-Chronologie, *traicté de la suite du temps*, est composé de *chronos*, qui en Grec signifie le temps, & *logos* discours ou raison.  t. 2. p. 138, & t. 5. p. 456.
+Cycle, *reuolution*, vient de *cyclos*, qui en Grec signifie reuolution.  t. 2. p. 149.
 
-Chrome vient de *chroma*, qui en Grec signifie couleur, & aussi qualité ou douceur du chant.  t. 5. p. 817.
+Cylindre, *vne colomne ou pilier rond*, d'égale grosseur, vient de *cylindromai*, qui en Grec sign. rouler.  t. 1. p. 651.
 
-Cissoïde, en Grec *cissos*, sign. du lierre, & *eidos* espece ou figure, d'où vient le nom d'vne ligne courbe, semblable à vne anse de panier.  t. 2. p. 3. alg.
+Diagramme, *figure*, vient de *dia*, qui en Grec sign. par, & *gramme* ligne.  t. 5. p. 835.
 
-Climat, en Grec *climax*, sign. eschelle, & aussi les degrez d'vne montée : d'où vient le nom des climats, qui sont comme des degrez d'vn escalier, pour descendre de l'equateur vers les deux poles de la terre, chacun desquels l'enuironnant, est parallele à l'equateur, & sont de diuers temperaments.  t. 4. p. 87.
+Diapason vient de *dia*, qui en Grec sign. par, & *pas* tout : & s'appelle vulgairement *octaue*, à cause que son interualle, qui est double, est composé des sons des extremes de huict chordes.  t. 5. p. 803.
 
-Coëfficient, en Latin *con*. sign. auec, & *efficio* faire : d'où vient *coëfficient*, qui signifie vne chose, laquelle auec vne autre fait quelque chose.  t. 2. p. 7. alg.
+Diapente, *la quinte*, vient de *dia*, qui en Grec sign. par, & *pente* cinq : à cause que son interualle, qui est comme 2 à 3, est composé des sons des extremes de cinq chordes.
 
-Comma vient de *copto*, qui en Grec sign. coupper.  t. 5. p. 805.
+Diastole, *dilatation*, vient du verbe Grec *diastello*, qui sign. ouurir & eslargir.
+
+Diatessaron, *la quarte*, vient de *dia*, qui en Grec sign. par, & *tessares* quatre : à cause que son interualle, qui est comme 3 à 4, est faict

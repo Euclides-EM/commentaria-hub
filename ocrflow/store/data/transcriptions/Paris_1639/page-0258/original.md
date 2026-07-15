@@ -1,52 +1,41 @@
-# Page 257
+# Page 258
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-*Demonſtr.*
+THEOR. VII. PROPOS. VII.
 
-32.1 | ∠g 2|2 ∠a. α
-4.6 | ge π ef 2|2 ab π bc,
-hyp. | de π ef 2|2 ab π bc,
-11.5 | ge π ef 2|2 de π ef,
-9.5 | ge 2|2 de,
-4.6 | gf π fe 2|2 ac π cb,
-hyp. | df π fe 2|2 ac π cb,
-11.5 | gf π fe 2|2 df π fe,
-9.5 | gf 2|2 df,
-8.1 | ∠d 2|2 ∠g,
-α | ∠a 2|2 ∠g,
-1.concl. 1.a.1 | ∠a 2|2 ∠d,
-8.1 | ∠fed 2|2 ∠feg,
-conſtr. | ∠b 2|2 ∠feg,
-2 concl. 1.a.1 | ∠b 2|2 fed,
-3.concl. 32.1 | ∠c 2|2 ∠efd.
+Si deux triangles ont vn angle égal à vn angle, & à l'entour d'vn autre angle les costez proportionaux, estans les troisiesmes angles de mesme espece: les triangles seront equiangles, & auront les angles égaux à l'entour desquels les costez sont proportionaux.
 
-THEOR. VI. PROPOS. VI.
-
-Si deux triangles ont vn angle égal à vn angle, & les costez autour d'iceux angles égaux proportionaux, iceux triangles seront equiangles, & auront les angles égaux, sous lesquels les costez de mesme raison sont soustendus.
+(figure)
 
 *Hypoth.*
 
-∠b 2|2 ∠def. α
+abc & def *ſnt* △,
+∠a 2|2 ∠d,
 ab π bc 2|2 de π ef.
+∠c *eſt de meſme eſpece que* ∠f. α
 
-*Req. à demonſtrer.*
+*Req. à demonſtr.*
 
-△abc & △def *ſnt equiang.*
-∠a 2|2 ∠d, ∠c 2|2 ∠dfe.
-
-*Prepar.*
-
-23.1 | ∠feg 2|2 ∠b. β
-23.1 | ∠efg 2|2 ∠c. β
+△abc & △def *ſnt equiangles.*
+∠abc 2|2 ∠e, ∠c 2|2 ∠f.
 
 *Demonſtr.*
 
-β.32.1 | ∠g 2|2 ∠a,
-4.6 | ge π ef 2|2 ab π bc,
-hyp. | de π ef 2|2 ab π bc,
-11.5 | de π ef 2|2 ge π ef,
-9.5 | de 2|2 ge,
-αβ.1.a.1 | ∠def 2|2 ∠gef,
-1.concl. β.4.1 | ∠d 2|2 ∠g Ⅱ ∠a,
-2 concl. 32.1 | ∠efd 2|2 ∠c.
+ſuppoſ. | ∠abg 2|2 ∠e,
+hyp. | ∠a 2|2 ∠d,
+32.1 | ∠agb 2|2 ∠f. β
+4.6 | ab π bg 2|2 de π ef,
+hyp. | ab π bc 2|2 de π ef,
+11.5 | ab π bg 2|2 ab π bc,
+9.5 | bg 2|2 bc,
+5.1 | ∠bgc 2|2 ∠bcg. γ
+ſuppoſ. | ∠f 2|3 ┘. δ
+β | ∠agb 2|3 ┘,
+γ.13.1 | ∠bgc Ⅱ ∠c 3|2 ┘,
+δ | *contr. hyp.* α
+ſuppoſ. | ∠f 3|2 ┘. ε
+β | ∠agb 3|2 ┘,
+γ.13.1 | ∠bgc Ⅱ ∠c 2|3 ┘,
+ε | *contr. hyp.* α
+concl. 21.a.1 | △abc *eſt ſml.* △def.

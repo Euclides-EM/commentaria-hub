@@ -1,33 +1,19 @@
-# Page 421
+# Page 422
 
 # DES FORTIFICATIONS.
 
-est en la page 401 de ce liure, & aussi en la page 216 du 3 tome, le calcul se fera comme s'ensuit, donnant à la face du bastion RK 48 toises, & à la courtine GF 72 toises, suiuant le precepte des regulieres au triangle GRK, pour trouuer GR, on dira, si
+∠m   BC   ∠mBC   mC
+53 deg.   186 —— 103 ou 77 deg.   R. 226:92
+990235   226951   998872   235588
 
-∠KGR   RK   ∠GKR   RG
-81 deg. 45′ —— 48 —— 36 deg. 37″.   R. 28:93
-999548   168124   977558   146134
+on trouuera 22692″ pour mC, duquel ostant mG 13036″, restera 9656″ ou 96 56/100 toises pour CG, qui est l'autre requis.
 
-Ordonnant la regle de trois ainsi,
+Que si on vouloit que la courtine FG n'entrast pas si auant dans la ville ABC, & qu'elle fust plus proche de l'angle m, par exemple, de 20 toises, que nous supposerons qu'il y aye depuis F iusques à D, où on veut mettre le centre F du bastion MO.
 
-∠GQR   RG   ∠QRG   QG
-90 deg.   2893″   50 deg.   R. 22:16
-1000000   146134   988425   134559
+Pour trouuer les quantitez des lignes, on soustraira 20 toises de MF 13036″, & restera 11036″ pour mD : puis pour auoir DX, on dira, Si mF 13036″ donne à FG 11632″, combien donnera mD 11036″ à DX, & viendra 9847″ pour DX.
 
-on trouuera 2216″ ou 22 16/100, pour la ligne de gorge QG, ou son égale FP : partant adioustant le double de 2216″, qui est 4432″ auec les 72 toises de la courtine, viendra 11632″ ou 116 32/100 toises pour FG.  Maintenant au triangle mFG ordonnant la regle de trois ainsi, si
+Pour trouuer la ligne de gorge, on dira, si mF 13036″ donne à la ligne de gorge FP 2216″, combien donnera mD 11036″, & viendra 1876″ ou 18 76/100, pour la ligne de gorge : & ainsi mettant tousiours au premier lieu de la regle de trois 13036″, au troisiesme lieu 11036, & au second lieu, le nombre trouué à raison de 48 toises pour la face du bastion, on trouuera les quantitez de toutes les lignes, qui se diminueront à raison de 13036 à 11036, qui est la proportion de mF à mB, ou de FG à DX, qui a la mesme raison.
 
-∠m   FG   ∠mGF   mF
-53 deg.   11632″   63 deg. 30″.   R. 130:36
-990235 —— 206570 —— 995179 —— 211514
+*Les quantitez des lignes de la figure, qui est en la page 210 du 3 tome, se peuuent trouuer geometriquement, sans tables des sinus ou des logarithmes, comme s'ensuit.*
 
-viendra 13036″ ou 130 36/100 pour mF, ou son égale mG.
-
-Au triangle CBm, pour trouuer mB, on dira, si
-
-∠m   BC   ∠mCB   mB
-53 deg. —— 186 toises.   24 deg.   R. 94:72
-990235 —— 226951 —— 960931 —— 197644
-
-& viendra 9472″ pour mB, lequel estant soustraict de mF 13036″, restera 3564″ ou 35 64/100 pour BF, qui est l'vn des requis.
-
-Ordonnant la regle ainsi, si
+(figure)

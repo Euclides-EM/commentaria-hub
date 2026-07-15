@@ -1,27 +1,26 @@
-# Page 288
+# Page 289
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-(figure)
+nota α.27.3 | ⌒bci, 2, 3, 4|3, ⌒fgp,
+| ∠bdi, 2, 3, 4|3, ∠fhp,
+1.concl. 6.d.5 | ∠bdc π ∠fhg 2|2 ⌒bmc π ⌒fg, β
+20.3 | ∠bdc 2|2 2∠bac : ∠fhg 2|2 2∠feg,
+2.concl. 15.5 β | ∠bac π ∠feg 2|2 ∠bdc π ∠fhg Ⅱ ⌒bmc π ⌒fg, γ
+27.3 | ∠bmc 2|2 ∠cni,
+conſtr. | bc 2|2 ci,
+24.3 | ⌓bcm 2|2 ⌓cni,
+4.1 | △bdc 2|2 △cdi,
+1.a.1 | *ſect.* bdcm 2|2 *ſect.* cdin, δ
+d.δ | *ſect.* fhg, ghl, lhp *ſnt* 2|2 đe.
+d.δ | ⌒bci, 2, 3, 4|3, ⌒fgp,
+| *ſect.* bdi, 2, 3, 4|3, *ſect.* fhp,
+3.concl. 6.6.5 | *ſect.* bdcm π *ſect.* fhg 2|2 ⌒bmc π ⌒fg.
 
-*Hypoth.*
+COROLL. I.
 
-⊙dbca 2|2 ⊙hfgp, α
+γ.11.5 | *ſect.* bdcm π *ſect.* fhg 2|2 ∠bdc π ∠fhg,
 
-*Req. à demonſtrer.*
+COROLL. II.
 
-⌒bmc π ⌒fg, ∠bdc π ∠fhg, ∠bac π ∠feg, *ſect.* bdc π *ſect.* fhg *ſnt raõ.* 2|2 đe.
-
-*Prepar.*
-
-1.p.1 | bc & fg *ſnt* ——,
-2.4 | ci 2|2 bc : fg, gl, lp, *ſnt* 2|2 đe.
-| • m *en* ⌒bmc, & • n *en* ⌒cni *ſnt arbitr.*
-1.p.1 | di, bm, cm, cn, in, hl, hp *ſnt* ——.
-
-*Demonſtr.*
-
-28.3 | ⌒bmc 2|2 ⌒cni,
-α.27.3 | ∠dbc 2|2 ∠cdi,
-28.6 | ⌒fg, ⌒gl, ⌒lp *ſnt* 2|2 đe.
-α.27.3 | ∠fhg, ∠ghl, ∠lhp *ſnt* 2|2 đe.
+Il est manifeste de cecy, que comme l'angle au centre est à quatre droicts, ainsi l'arc qui soustient iceluy angle est à toute la circonference. Et au contraire, comme quatre angles droicts sont à l'angle qui est au centre, ainsi toute la circonference est à l'arc qui soustient ledit angle.

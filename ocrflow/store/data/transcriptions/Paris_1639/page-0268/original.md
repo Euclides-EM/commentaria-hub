@@ -1,59 +1,48 @@
-# Page 267
+# Page 268
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-*Demonſtration.*
+PROBL. VI. PROPOS. XVIII.
 
-conſtr. | ∠b 2|2 ∠f,
-hyp. | ab π fg 2|2 ef π cb,
-1.concl. 14.6 | ▭ac 2|2 ▭eg.
-
-*Hypoth. 2.*
-
-▭ac 2|2 ▭eg.
-
-*Req. à demonſtr.*
-
-ab π fg 2|2 ef π cb.
-
-*Demonſtr.*
-
-hyp. | ▭ac 2|2 ▭eg.
-12.a.1 | ∠abc 2|2 ∠efg,
-2 concl. 14.6 | ab π fg 2|2 ef π cb.
-
-THEOR. XII. PROPOS. XVII.
-
-Si trois lignes droictes sont proportionelles, le rectangle contenu sous les extremes est égal au quarré de la moyenne: Et si le rectangle contenu sous les extrémes est égal au quarré de la moyenne, les trois lignes droictes seront proportionelles.
-
-*Hypoth. 1.*
-
-ab π ef 2|2 ef π cb.
-▭ab, cb 2|2 □.ef,
-Ⅱ ▭ac 2|2 □eg.
+Sur vne ligne droicte donnée, descrire vne figure rectiligne semblable, & semblablement posée à vne figure rectiligne donnée.
 
 (figure)
 
-*Preparation.*
+*Hypoth.*
 
-3.1 | fg 2|2 ef, α
-hyp. | ab π ef,
-| ef Ⅱ fg π cb,
-16.6 | ▭.ab,cb 2|2 ▭ef,fg
-α.3.ſ.1.d.2 | ▭ef,fg *eſt* □.ef,
-1.concl. 1.a.g | ▭.ab,cb 2|2 □.ef.
+ab *eſt* —— D.
+cefd *eſt rectiligne* D.
 
-*Hypoth. 2.*
+*Requis à faire.*
 
-▭ac 2|2 □eg.
+abhg *ſml.* cefd, ab *homolog.* cd.
 
-*Req. à demonſtr.*
+*Conſtruction.*
 
-ab π ef 2|2 ef π bc.
+Soit premierement reduict le rectiligne donné en triangles, tirant des lignes droictes de l'vn de ses angles à tous les autres, comme icy la ligne C F, puis la construction du requis se fera ainsi.
+
+1.p.1 | cf *eſt* ——,
+23.1 | ∠abh 2|2 ∠d,
+23.1 | ∠bah 2|2 ∠dcf,
+23.1 | ∠ahg 2|2 ∠cfe,
+23.1 | ∠hag 2|2 ∠fce.
+ſymp. | abhg *ſml.* cefd.
 
 *Demonſtr.*
 
-hyp. | ▭ac 2|2 □eg,
-12.a.1 | ∠abc 2|2 ∠efg,
-2 concl. 14.6 | ab π ef,
-| fg Ⅱ ef π bc.
+conſtr. | ∠b 2|2 ∠d,
+conſtr. | ∠bah 2|2 ∠dcf,
+32.1 | ∠ahb 2|2 ∠cfd,
+conſtr. | ∠hag 2|2 ∠fce,
+conſtr. | ∠ahg 2|2 ∠cfe,
+32.1 | ∠g 2|2 ∠e,
+2.a.1 | ∠bag 2|2 ∠dce,
+2.a.1 | ∠bhg 2|2 ∠dfe,
+4.6 | ab π bh 2|2 cd π df. α
+4.6 | ag π gh 2|2 ce π ef,
+4.6 | ag π ah 2|2 ce π cf,
+4.6 | ah π ab 2|2 cf π cd,
+22.5 | ag π ab 2|2 ce π cd. β
+1.concl. d.β | gh π hb 2|2 ef π fd,
+1.d.5 | abhg *ſml.* cdfe,
+2 concl. α | ab *eſt homolog.* cf.

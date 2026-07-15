@@ -1,50 +1,47 @@
-# Page 167
+# Page 168
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
+
+ſymp. | aib *eſt* ⌓ *req.*
+
+*Demonſtration.*
+
+c.16.3 | had *touche le* ⊙,
+32.3 | ∠aib 2|2 ∠bad,
+conſtr. | ∠c 2|2 ∠bad,
+concl. 1.a.1 | ∠aib 2|2 ∠c.
 
 (figure)
 
-∠ecb 2|2 ∠edc,
-∠eca 2|2 ∠efc.
+PROBL. VI. PROPOS. XXXXIV.
 
-*Preparation.*
-
-11.1 | cd ⊥ ab,
-arbitr. | • f *eſt en* ∩cfe,
-1.p.1 | cf,fe,ed *ſnt* ——.
-
-*Demonſtr.*
-
-19.3 | cd *eſt diametre*,
-31.3 | ∠ced *eſt* ┘,
-conſtr. | ∠dcb *eſt* ┘,
-32.1 | ∠edc + ∠ecd 2|2 ┘,
-15.d.1 | ∠bce + ∠ecd 2|2 ┘,
-∠ecd *commun. ſubtr.*
-1.concl. 3.a.1 | ∠ecb 2|2 ∠edc. α
-
-*au* 4∠cfed
-22.3 | ∠efc + ∠edc 2|2 2┘,
-13.1 | ∠eca + ∠ecb 2|2 2┘,
-2 concl. α.3.a.1 | ∠eca 2|2 ∠efc.
-
-PROBL. V. PROPOS. XXXIII
-
-Sur vne ligne droicte donnée, descrire vn segment de cercle, lequel reçoiue vn angle égal à vn angle rectiligne donné.
+D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn angle rectiligne donné.
 
 (figure)
 
 *Hypoth.*
 
-ab *eſt* —— D. c *eſt* ∠D.
+abc *eſt* ⊙,
+d *eſt* ∠D.
 
-*Req. à faire.*
+*Conſtruction.*
 
-⌓ aieb *capable.* ∠c.
+17.3 | ef *touche le* ⊙abc. α
+17.3 | a *eſt* • *d'attouch.* α
+23.1 | ∠fac 2|2 ∠d,
+ſymp. | abc *eſt* ⌓ *req.*
 
-*Conſtr.*
+*Preparation.*
 
-23.1 | ∠bad 2|2 ∠c,
-11.1 | ae ⊥ hd,
-32.1 | ∠abf 2|2 ∠baf,
-3.p.1 | faib *eſt* ⊙,
+arbitr. | • b *eſt en la* ∩abc,
+1.p.1 | ab & cb *ſnt* ——.
+
+*Demonſtr.*
+
+α.32.1 | ∠abc 2|2 ∠caf,
+conſtr. | ∠d 2|2 ∠caf,
+concl. 1.a.1 | ∠abc 2|2 ∠d,
+
+THEOR. XXIX. PROPOS. XXXXV.
+
+Si au cercle deux lignes droites se coupent l'vne l'autre; le rectangle contenu sous les deux par-

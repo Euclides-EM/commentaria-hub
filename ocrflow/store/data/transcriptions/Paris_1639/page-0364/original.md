@@ -1,21 +1,17 @@
-# Page 363
+# Page 364
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-progression arithmetique, il faut multiplier 2633 par 7, nombre des années données, & viendra 18431, qu'il faut adiouster auec le logarithme de 500, qui est 269897, la somme sera 288328, qui donne dans la table 764 19/57 ou 1/3, pour le plus grand nombre de la progression, qui est la somme à quoy monteront 500 liures en 7 ans.
+s'oblige de payer 1000 au bout de 9 ans, sçauoir à quel denier est l'interest de l'argent qu'il emprunte?
 
-*Question 2.*
+Il faut soustraire le logarithme de 500 qui est 269897 du logarithme de 1000 qui est 300000, & restera 30103, qu'on diuisera par 9. & le quotient 3345 estant adiousté auec 269897, logarithme de 500, fera 27,242, qui donne dans table 540 pour le second nombre de la progression ; partant, on conclura que l'interest est en la raison de 500 à 540, ou de 25 à 27, c'est à dire, que 2 sont gagnez par 25, & par consequent l'interest est au denier 12 1/2.
 
-Vn homme doit 1000 liures à payer au bout de 7 ans, que si on luy veut rabatre l'interest au denier seize, sçauoir combien il doit donner pour s'acquitter, en payant 7 ans auparauant le terme prescrit?
+*Question 5.*
 
-En cette question, pour trouuer le moindre nombre de la progression qui est le requis, on multipliera, comme en la precedente, par 7 les 2633, & le produict qui est 18432, on le soustraira du logarithme de 1000 qui est 300000, & restera 281569 qui donne dans la table 654 11/66 ou 1/6 pour le premier nombre de la progression, qui est la somme que doit payer celuy qui doit 1000 liures, pour s'acquitter 7 ans auparauant que le terme soit escheu.
+Vn homme doit 35 escus de rente au denier 16, mais celuy à qui il les doit, ayant besoin de 50 escus par an, ils conuiennent ensemble qu'il s'acquittera en luy donnant 50 escus de rente : sçauoir combien d'années deura durer la rente de 50 escus, afin qu'il s'acquitte du capital, qui vaut 560 escus?
 
-*Question 3.*
+En cette question le moindre nombre de la progression est 240, à sçauoir le capital de 15 escus, qui est ce qu'il donne par an, outre les 35 escus qu'il doit : & la difference des extremes de la progression en la raison de 16 à 17 doit estre 560 : partant, pour trouuer le nombre des termes qui est le requis, on adioustera 240 auec 560, & viendra 800 pour le plus grand nombre de la progression, dont le logarithme est 290309, & le logarithme de 240 est 238021, qu'il faut soustraire de 290309, & diuiser le reste 52288 par 2633, difference des logarithmes de 16 & 17, le quotient qui est 19 2261/2633, sera le nombre des ans à la fin desquels la rente finira.
 
-Que si vn homme pour 500 liures qu'il emprunte à interest au denier seize, s'oblige de payer 1000 liures en vne somme, sçauoir quel terme il doit auoir pour s'acquitter de ladite somme de 500 l. en payant 1000 liures?
+*Question 6.*
 
-Il faut soustraire le logarithme de 500, qui est 269897, du logarithme de 1000, qui est 300000, & restera 30103, qu'il faut diuiser par 2633, qui est la difference des logarithmes de 16 & 17, & le quotient 11 1140/2633 sera le nombre des années qu'il doit auoir pour payer ladite somme de 1000 liures.
-
-*Question 4.*
-
-Que si vn homme pour 500 liures qu'il emprunte,
+Si vn homme donne par aduance 560 escus pour estre nourry 8 ans durant, à condition que l'interest de son argent soit estimé au denier 16, sçauoir à combien doit monter sa pension annuelle?

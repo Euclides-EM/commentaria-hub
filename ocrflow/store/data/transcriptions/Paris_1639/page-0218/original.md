@@ -1,33 +1,29 @@
-# Page 217
+# Page 218
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-A, 12. B, 4. C, 21. D, 7. E, 15. F, 5.
+aussi la composée de E & F, autant de fois qu'il y a de parties en AB égales à E: il est manifeste, que la composée de AB & CD, contient la composée de E & F, autant de fois que AB contient E: ce qu'il falloit demonstrer.
 
-hyp. | a *multipl..* b 2|2 e *multipl..* f.
-hyp. | c *multipl..* d 2|2 e *multipl..* f,
-a.5 | a *multipl..* b 2|2 c *multipl..* d.
+THEOR. II. PROPOS. II.
 
-THEOR. I. PROPOS. I.
-
-S'il y a tant de grandeurs qu'on voudra equimultiples d'autant d'autres grandeurs, chacune de la sienne; comme l'vne des grandeurs sera multiple d'vne; ainsi les toutes seront multiples des toutes.
+Si la premiere est autant multiple de la seconde, que la troisiesme l'est de la quatriesme, & que la cinquiesme soit aussi autant multiple de la seconde que la sixiesme l'est de la quatriesme; la composée de la premiere, & de la cinquiesme, sera autant multiple de la seconde, que la composée de la troisiesme & de la sixiesme l'est de la quatriesme.
 
 *Hypoth.*
 
-ab *multipl..* | e,
-cd *multipl..* | f. α
+ab *multipl..* c 2|2 de *multipl..* f, α
+bg *multipl..* c 2|2 eh *multipl..* f, β
 
 (figure)
 
-*Req. à demonſtrer.*
+*Requis à demonſtr.*
 
-ab *multipl..* e 2|2 ab + cd *multipl..* e + f.
+ag *multipl..* c 2|2 dh *multipl..* f.
 
 *Demonſtr.*
 
-hyp, | e, ag, gh, hb *ſnt* 2|2 đe.
-hyp. | f, ci, ik, kd *ſnt* 2|2 đe.
-α.hyp. | *multd.. part..* ab 2|2 *multd.. part..* cd,
-2.a1 | e + f, ag + ci, gh + ik, hb + kd *ſnt* 2|2 đe.
+α.hyp. | *multd.. part..* ab 2|2 *multd.. part..* de,
+β.hyp. | *multd.. part..* bg 2|2 *multd.. part..* eh,
+2.a.1 | *multd.. part,..* ag 2|2 *multd.. part..* dh,
+c.2.d.5 | ag *multipl..* c 2|2 dh *multipl..* f.
 
-Partant, puis que AB contient E, autant de fois qu'il y a de parties en AB, égales à E: & que la composée de AB & CD contient
+Cette demonstration est manifeste du 2. ax. du 1. car si aux multitudes égales AB & DE on adiouste multitudes égales BG & EH, les multitudes AG & DH seront égales entr'elles: ce qu'il falloit demonstrer.

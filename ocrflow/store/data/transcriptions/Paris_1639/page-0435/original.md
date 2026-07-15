@@ -1,11 +1,21 @@
-# Page 434
+# Page 435
 
 # DES FORTIFICATIONS.
 
-& eminent pour la planter, puis l'on ira de nuict, en temps plus obscur qu'il sera possible, au lieu proposé, conduisant l'artillerie à petit bruit, pour n'estre descouuert de ceux de dedans : & afin de mieux couurir le bruit, l'on fera battre les tambours, & sonner toutes les trompetes par tout le camp : & deuant qu'approcher l'artillerie au lieu destiné, il faudra faire rouler aux pionniers vn bon nombre de gabions, au lieu proposé, & faire auancer les soldats qui sont pour la garde d'icelle, le plus pres de la forteresse que faire se pourra, afin de pouuoir repousser les sorties de la forteresse, qui viendroient assaillir le canon ; & cependant les canonniers trauailleront auec leurs piõniers à faire leur defense & rampart, & aussi le plan ou plancher de l'artillerie, lequel doit estre plus esleué au derriere qu'au deuant enuiron d'vn pied, afin que les pieces ne reculent pas tant, & qu'on les puisse remettre plus facilement en leur lieu : & si le lieu est trop mol on le pauera de gros ais, afin de manier & appointer le canon plus librement, & le reste des pionniers trauaillera aux tranchées : en quoy l'on doit estre si diligent, que le tout soit finy auant l'aube du iour, ou à tout le moins, que les tranchées soient desia si profondes, qu'on puisse demeurer & trauailler à couuert : puis si tost que le iour paroistra, & qu'on pourra descouurir la muraille, on commencera la batterie, taschant de preuenir les assiegez de deux ou trois coups de canon, & de démonter leur artillerie.  Et faudra tenir vn rang d'harquebusiers d'eslite tout le long de la tranchée à couuert d'icelle, pour s'oposer aux sorties de la ville.  La batterie sera forte, si elle n'est éloignée de la forteresse que de 200 ou 300 pas : que si elle passe 400 pas, elle sera trop foible, & de peu d'effect : mais les batteries pour leuer & oster les defenses ou parapets peuuent estre vn peu plus esloignées, ioint qu'elles sont plus asseurées, & qu'elles descouurent de plus loin.
+On bat les places hautes des flancs pour oster les defenses ; cela se dit battre les defenses couuertes, cependant on gagne le fossé.
 
-*De diuerses sortes de batteries.*
+On bat les places basses du flanc, & pour ce faire, l'on enterre la batterie iusques au niueau de la place ennemie ; & cela se dit battre les defenses secretes de pres auec l'offense sousterraine : cependant l'on attaque la pointe du bastion.
 
-Si on bat l'habitation, & les parties plus esleuées, cela s'appelle battre en ruine, qui se fait auec les vollées tirées en arcade.
+On bat encore les flancs en tirant contre la courtine en angle aigu, afin que la balle bricole dans le flanc : & cela s'appelle battre en bricolles.
 
-On bat les caualiers & parapets de plus pres, auec des demy-canons, & cela s'appelle battre en barbe : cependant on gagne le chemin couuert par les approches.
+Ou bat la place d'armes & les chemins de terre pleins par caualiers ou plates-formes, esleuées de deux ou trois commandements plus hauts qu'iceux : & cela se dit battre ou foudroyer auec l'offense créee.
+
+On bat la face du bastion, pour faire la bresche propre à donner l'assaut : & cela s'appelle donner la batterie.
+
+Quand la matiere sera de muraille, & qu'estant tombée restera de grosses masses raboteuses & inégales, alors on bat en icelles pour les diminuer : & cela s'appelle battre en bresche.
+
+*Des tranchées, approches, & assauts.*
+
+Les tranchées sont necessaires tant pour s'approcher seurement de iour de la contrescarpe & du fossé, que pour empescher les ennemis de faire sorties, & s'approcher du lieu de la batterie, & les faut conduire en sorte qu'elles ne soient veuës au long, ny enfilées de la ville, en les faisant si profondes, qu'on soit à couuert par leur hauteur iusques au plan, sans conter le rampart qui doit estre vers la ville.  La largeur sera de 10 pieds ou enuiron, afin que les soldats y puissent marcher en ordre, trois à trois pour rang pour le moins, pour defendre lesdites tranchées, & repousser l'ennemy qui les voudroit assaillir.
+
+En celles qui sont pour enclorre, & fortifier le camp, on fait le fossé vers le dehors, en iettant la terre en dedans, laquelle se fortifie auec des petits forts de terre, qu'on appelle redoutes, si pres, qu'elles se puissent defendre l'vne l'autre auec l'harquebuse ou le mousquet : mais en celles qui sont pour gagner le chemin couuert & le fosse, qui se nomment proprement approches, on fair le fossé

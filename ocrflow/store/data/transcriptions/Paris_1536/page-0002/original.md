@@ -1,10 +1,1 @@
-# {BnF Gallica
-
-In sex priores libros
-geometricorum
-elementorum Euclidis
-Megarensis demonstrationes
-, quibus ipsius Euclidis textus
-[...]
-
-Source gallica.bnf.fr / Bibliothèque nationale de France
+*[page not transcribed — the scanned image of this page repeatedly triggered the vision model's content filter and could not be read; based on the surrounding pages (3–8) it belongs to the front-cover/binding photographs of the Gallica digitization and contains no printed text]*

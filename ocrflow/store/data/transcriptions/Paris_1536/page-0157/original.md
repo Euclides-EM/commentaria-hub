@@ -1,31 +1,29 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-**140**
+**141**
 
-in primis sesquitertia, sub eadē ratione dupla. Postea multiplicato duo in tria,hoc est,antecedēs diuidendæ rationis,in consequēs diuidētis:fiēt sex. Rursum ducito vnū in quatuor,vtpote consequēs ipsius diuidendæ rationis,in diuidentis antecedens: fient quatuor. A ratione igitur quam habent sex ad quatuor,relicta ratio denominanda est:quæ rursum offenditur sesqualtera. ¶Subducamus rursum ad maiorem singulorum respondentiam,à sesqualtera ratione,præfatam rationem sesquiquintam. Propone itaque tibi numeros sub datis rationibus constitutos:vtpote,tria ad duo in sesqualtera , & sex ad quinque in sesquiquinta . Et posita sesquiquinta sub sesqualtera,ducito tria in quinque:fient quindecim . postea multiplicato duo per sex,prouenient duodecim . Habent autem quindecim ad duodecim,rationem sesquiquartam, qualem superius offendimus. Haud aliter,de cæteris quibuscunq̃ inuicem subducendis facito rationibus. & si minus in hoc genere calculi fueris exercitatus, ad caput secundum libri quarti ipsius Arithmeticȩ nostræ cōfugito.
+igitur prima,ad secundam prædictarum magnitudinum,sic tertia ad quartam: per sextā ipsius quinti diffinitionē. Vt basis ergo b/c, ad basin c/d:sic triangulum a/b/c, ad triangulū a/c/d. Quod prius veniebat ostendendum.¶Insuper quoniam a/b/c/ triangulum,& parallelogrammū e/c,in eadem sunt basi,& in eisdem parallelis constituta:duplum est e/c/parallelogrammum ipsius a/b/c/triāguli, per quadragesimā primam primi:& propterea c/f/parallelogrammum,ipsius trianguli a/c/d/ itidem duplum.Sunt igitur e/c/ & c/f/parallelogramma,ipsorum a/b/c/& a/c/d/triangulorum æquè multiplicia.Partes autem æquè multiplicium,eandem rationem habent sumptæ adinuicem:per decimamquintam quinti.Vt igitur a/b/c/triangulū,ad triāgulum a/c/d: sic parallelogrammum e/c, ad c/f/parallelogrammum.Ostensum est autem a/b/c/triangulum,ad triāgulum a/c/d/ se habere, veluti b/c/basis,ad basin c/d.Binæ itaque rationes,vtpote b/c/basis,ad basin c/d, atque parallelogrammi e/c/ad c/f/parallelogrammum,eædem sunt cum ratione ipsius a/b/c/trianguli,ad triāgulum a/c/d.Quæ autem eidem sunt eædem rationes, & adinuicem sunt eædem: per vndecimā eiusdem quinti. Est igitur vt basis b/c,ad basin c/d:sic parallelogrammum e/c,ad c/f/parallelogrammum. Poterit & ipsorum parallelogrammorum ratio,quemadmodùm & triangulorū,seorsum demonstrari: descriptis super g/b, d/l, & l/h/ basibus, & in eadem altitudine parallelogrammis.
 
-*[diagram: 2 × 1 Dupla,diuidenda. | 4 × 3 Sesquitertia. | 6——4 Sesqualtera,relicta.]*
+> Secunda theorematis resolutio,de parallelogrammis.
 
-> Aliud exēplū
+*[diagram: b/c.c/d|a/b/c.a/c/d|e/c.c/f.]*
 
-*[diagram: 3 × 2 sesqualtera ratio. | 6 × 5 sesquiquinta. | 15——12 sesquiquarta.]*
+> Notandum.
 
-Θεώρημα α, Πρόθεσις α.
+Triangula itaque & parallelogramma, quæ sub eadem sunt altitudine:ad se inuicem sunt,vt bases.Quod erat ostendendum.
 
-Τὰ τρίγωνα καὶ τὰ παραλληλόγραμμα, τὰ ὑπὸ τὸ αὐτὸ ὕψος ὄντα, πρὸς ἄλληλα ὁξὶμ ὡς αἱ βάσεις.
+Θεώρημα β, Πρόθεσις β.
 
-## Theorema 1, Propositio 1.
+Ἐὰμ τριγώνα παρὰ μίαμ τῶμ πλευρῶμ ἀχθῇ τις εὐθεῖα παράλληλος,ἀνάλογομ τεμεῖ τὰς τοῦ τριγώνου πλευράς : καὶ ἐὰμ αἱ τοῦ τριγώνου πλευραὶ ἀνάλογομ τμηθῶσιμ, ἡ ἐπὶ τὰς τομὰς ἐπιζευγνυμένη εὐθεῖα,παρὰ τὴμ λοιπὴμ ἔσαι τοῦ τριγώνου πλευρὰμ παράλληλος.
 
-TRiangula & parallelogramma, quæ sub eadem sunt altitudine:ad se inuicem sunt,vt bases.
+## Theorema 2, Propositio 2.
 
-ORONTIVS.¶Sint bina triangula a/b/c/& a/c/d,totidémque parallelogramma e/c/quidem atque c/f, sub eadem altitudine, seu perpendiculari ex a/ vertice in b/d/ basin incidente constituta. Aio triangulum a/b/c/ ad triangulum a/c/d/se habere,veluti basis b/c/ad basin c/d. Cùm enim e/c/ & c/f/ parallelogramma,in eadem sint altitudine:in directum est igitur e/a/ipsi a/f,atque b/c/ipsi c/d,& proinde e/f/ipsi b/d/parallela. Producatur igitur recta b/d/ ex vtraque parte in cōtinuum rectúmq̃,ad g/ & h/puncta:per secundum postulatum.Secetur deinde b/g/ æqualis ipsi b/c,necnon d/l/ & l/h/ipsi c/d/æquales:per tertiam primi.& per primū postulatū,connectantur a/g,a/l,& a/h/lineæ rectæ.Cùm itaq̃ g/b,ipsi b/c/ sit æqualis:erunt triangula a/g/b/& a/b/c/in basibus æqualibus,& in eisdem parallelis e/f/& g/h/constituta,& propterea inuicem æqualia:per trigesimamoctauā primi.& proinde a/c/d,a/d/l/& a/l/h/triangula,æqualia quoq; erunt adinuicem. Quotuplex igitur est g/c/basis,ipsius b/c:totuplex est triāgulū a/g/c,ipsius a/b/c/triāguli.quotuplex rursum est c/h/basis ipsius c/d: totuplex est & a/c/h/triangulum, ipsius trianguli a/c/d.
+SI trianguli ad vnum laterum acta fuerit aliqua recta linea parallela:proportionaliter secat ipsius triāguli latera.Et si trianguli latera proportionaliter secta fuerint:ad segmenta cónexa recta linea,parallela ad reliquum erit ipsius trianguli latus.
 
-> Figuræ cōstitutio.
+ORONTIVS.¶In triāgulo enim a/b/c,agatur recta d/e, ipsi b/c/lateri parallela.Dico quòd ipsa d/e,secat a/b/& a/c/latera proportionaliter: sicut quidem a/d/ ad d/b,sic a/e/ad e/c.Connectantur enim b/e/& c/d/lineæ rectæ : per primū postulatum. Erunt itaque b/d/e/& c/e/d/triangula, in eadem basi d/e,ac in eisdē parallelis b/c/& d/e: & proinde inuicem æqualia,per trigesimamseptimā primi. Est autē & a/d/e,aliud quoddam triangulum. Idem porrò triangulum,ad æqualia triangula eandem habet rationem:per septimam quinti. Ergo sicut a/d/e/ triangulum, ad triangulum b/d/e : sic idem triangulum a/d/e, ad c/e/d/ triangulum . Est autem a/ d/ e/ triangulum, ad triangulum b/ d/ e , veluti basis a/ d/ ad basin d/ b: per primam huius sexti . sunt enim sub eodem vertice e, & proinde sub eadem altitudine . Et sicut igitur basis a/d, ad basin d/ b : sic a/d/e/triangulum, ad triangulum c/ e/ d, per vndecimam quinti. Sicut rursum a/d/e/triangulum,ad triangulum c/e/d:sic basis a/e,ad basin e/c,per eandem primā huius sexti.sunt enim a/d/e/ & c/e/d/
 
-> Prima deductio theorematis,de triangulis.
+> Prima theorematis pars.
 
-*[diagram: e a f / g b c d l h]*
+*[diagram: a d e b c]*
 
-Si basis itaq; g/c,maior est basi c/h: erit a/g/c/triangulum,triangulo a/c/h/proportionaliter maius. Et si g/c/& c/h/bases,fuerint inuicem æquales: erunt a/g/c/& a/c/h/triangula,æqualia quoque adinuicem. Quòd si basis g/c,minor extiterit basi c/h: erit & a/ g/ c/ triangulum, ipso a/c/h/ triangulo æquè itidem minus. Quatuor itaque magnitudinum, duarū inquàm basium b/c/& c/d, totidémq; triangulorū a/b/c/& a/c/d, sumpta sunt æquè multiplicia primæ & tertiæ: necnon secundæ & quartæ, alia vtcunque æquè multiplicia . Et sicut multiplex primæ magnitudinis,ad multiplex secundæ,hoc est,g/c/basis,ad basin c/h: sic multiplex tertiæ, ad multiplex quartæ,vtpote a/g/c/triangulum,ad triangulum a/c/h,se habere præostensum est.Sicut
-
-*[diagram: g/c. | c/h. | a/g/c. | a/c/h || b/c. | c/d. | a/b/c. | a/c/d.]*
+*[diagram: a/d.d/b|a/d/e.b/d/e|a/d/e.c/e/d]*

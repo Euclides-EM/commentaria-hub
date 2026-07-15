@@ -1,20 +1,23 @@
-# Page 390
+# Page 391
 
-# GEOMETRIE
+# PRACTIQVE.
 
-*Table des superficies de dix polygones reguliers, les costez desquels sont 1, & aussi du cercle qui a vn pour son semidiametre.*
+cette table pour l'heptagone, fera 472234, auquel correspondent 52763 dans la table des logarithmes qui vont iusques à 100000, mais pour trouuer le nombre correspondant à ce logarithme, dans les tables qui ne vont que iusques à 1000, qui a pour logarithme 300000, comme sont celles de mon liure, on soustraira 200000, qui est le logarithme de 100, de 472234, afin que le reste 272234 se trouue dans la table, & le nombre 527 53/82 correspondant dans la table à ce reste, on le multipliera par 100, dont le logarithme 200000 a esté soustraict, & viendra 52700 5300/82, & reduisant la fraction en entier en diuisant par le denominateur 82 fait enuiron 65, qui adioustez auec 52700 font 52765 pour le contenu de l'heptagone, qui n'est pas si iuste que 52763.
 
-*figures regulieres.*   *logarithme des superficies.*
-△   ~36350
-□   0
-5<   23566
-6<   41465
-7<   56038
-8<   68380
-9<   79111
-10<   88616
-11<   96135
-12<   104907
-⊙   49715
+*Le diametre d'vn cercle estant donné, trouuer la circonference : ou au contraire, la circonference estant donnée trouuer le diametre.*
 
-Le costé d'vne figure reguliere estant donné, pour trouuer le contenu de sa superficie par le moyen de cette table, il faut prendre le logarithme du nombre du costé donné dans la table des logarithmes des nombres ou toises, & adiouster à son double le logarithme qui se trouue en cette table cy pour le polygone proposé, & la somme de ces deux logarithmes donnera dans ladite table des nombres le contenu de la figure proposée. Ce faisant on trouuera que le pentagone regulier, qui a 12 toises en chacun de ses costez, est 247 & enuiron 3/4. Car le logarithme de 12 est 107918, & son double est 215836, qui adiousté auec 23566, logarithme de la superficie du pentagone, qui se trouue en cette table cy, fait 239402, qui donne dans la table des nombres 247 132/176 pour le contenu du pentagone. Par la mesme methode on trouuera que si le costé d'vn heptagone regulier vaut 120 1/2 toises, sa superficie vaudra 52765 : Car le double du logarithme de 120 1/2 estant adiousté auec 56038, qui se trouue en
+La proportion du diametre à la circonference est d'enuiron comme 7 à 22, partant si le diametre est donné, par exemple de 35, pour auoir la circonference on dira, si
+
+*7 donne 22 combien 35.   R. 110.*
+
+& viendra 110 pour la circonference.
+
+Que si au contraire, la circonference est donnée de 110, ordonnant la regle de trois ainsi, si
+
+*22 donnent 7 combien 110.   R. 35.*
+
+on trouuera 35 pour le diametre.
+
+*Trouuer l'aire d'vn cercle.*
+
+L'aire ou contenu d'vn cercle se trouue en multipliant la moitié de la circonference par le semidiametre, ou toute la circonference

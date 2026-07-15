@@ -1,25 +1,32 @@
-# Page 271
+# Page 272
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-6.6 | ∠cad 2|2 ∠hfi,
-3.concl. 32.1 | △acd *ſml.* △fhi,
-4.6 | ab π fg,
-| ac π fh,
-| ad π fi,
-19.6 & 1.ſ.23.5 | △abc π △fgh,
-| △acd π △fhi,
-| △ade π △fiκ,
-4 concl. 12.5 | abcde π fghik,
-| △abc π △fgh,
-5.concl. 19.6 | Ⅱ 2 raõ..ab π fg.
+THEOR. XV. PROPOS. XXI.
 
-COROLL. I.
+Les rectilignes semblables à vne mesme figure rectiligne, sont aussi semblables entr'elles.
 
-De cecy il est manifeste, que s'il y a trois lignes proportionelles, comme la premiere sera à la troisiesme, ainsi le polygone descrit sur la premiere, sera au polygone semblable, & semblablement descrit sur la seconde : ou bien ainsi sera le polygone descrit sur la seconde au poligone semblable, & semblablement descrit sur la troisiesme.
+(figure)
 
-Car la raison de la premiere ligne à la troisiesme proportionelle, par la 10. definition du 5. contient deux fois la raison qu'il y a de la premiere à la seconde, ou de la seconde à la troisiesme : & les polygones semblables descrites sur la premiere & seconde ligne, ou sur la seconde & troisiesme, par la 20. du 5. contiennent aussi deux fois la mesme raison de la premiere à la seconde, ou de la seconde à la troisiesme : partant, par le 2. scholie du 23 du 5. le polygone sera au polygone, comme la premiere ligne à la troisiesme.
+*Hypoth.*
 
-COROLL. II.
+abc *ſml.* hfg, α
+die *ſml.* hfg. β
 
-Il est aussi manifeste, que les rectilignes semblables descrits sur lignes droictes égales, sont égaux entr'eux : & au contraire, les costez de mesme raison des rectilignes égaux & semblables, sont égaux entr'eux.
+*Req. à demonſtr.*
+
+abc *ſml.* die.
+
+*Demonſtr.*
+
+α.1.d.6 | ∠a 2|2 ∠h,
+β.1.d.6 | ∠d 2|2 ∠h,
+1.concl. 1.a.1 | ∠a 2|2 ∠d, γ
+α.1.d.6 | ab π ac 2|2 hf π hg,
+β.1.d.6 | di π de 2|2 hf π hg,
+2.concl. 11.5 | ab π ac 2|2 di π de, γ
+3.concl. 6.6 | △abc *ſml.* △die,
+
+THEOR. XVI. PROPOS. XXII.
+
+Si quatre lignes droictes sont proportionelles, les figures rectilignes semblables, & semblablement descrites sur icelles, seront proportionelles: Et si les figures rectilignes semblables, & semblablement descrites sur lignes droictes sont propor-

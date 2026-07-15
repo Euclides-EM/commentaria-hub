@@ -1,54 +1,48 @@
-# Page 91
+# Page 92
 
-# D'EVCLIDE, LIV. I.
-
-THEOR. XXVI. PROPOS. XXXVI.
-
-Les parallelogrammes constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux.
+# LES ELEMENTS
 
 (figure)
-
-*Hypoth.*
-
-af == bh,
-*baſe* bc 2|2 *baſe* gh.
-
-*Req. à demonſtr.*
-
-◊bcda 2|2 ◊ghfe.
-
-*Preparation.*
-
-1.p.1 | be & cf *ſnt* ——.
 
 *Demonſtr.*
 
-hyp. | bc 2|2 gh,
-34.1 | ef 2|2 gh,
-1.a.1 | bc 2|2 ef,
-hyp. | bc == ef,
-33.1 | be == cf,
-35.d.1 | bcfe *eſt* ◊,
-35.1 | ◊bcda 2|2 ◊bcfe,
-35.1 | ◊eghf 2|2 ◊bcfe,
-concl. 1.a.1 | ◊bcda 2|2 ◊eghf.
+35.1 | ◊bcae 2|2 ◊bdfc,
+34.1 | △bca 2|2 ½◊bcae,
+34.1 | △bcd 2|2 ½◊bdfc,
+concl. 7.a.1 | △bca 2|2 △bcd.
 
-THEOR. XXVII. PROPOS. XXXVII.
+THEOR. XXVIII. PROPOS. XXXVIII.
 
-Les triangles constituez sur mesme base, & entre mesmes paralleles, sont égaux entr'eux.
+Les triangles constituez sur bases égales, & entre mesmes paralleles, sont égaux entr'eux..
 
 (figure)
 
 *Hypoth.*
 
-ef == bc.
-bc *eſt baſe commune.*
+gh == bf. α
+*baſe* bc 2|2 *baſe* ef. α
 
 *Req. à demonſtr.*
 
-△bca 2|2 △bcd.
+△bca 2|2 efd.
 
 *Preparation.*
 
-31.1 | be == ca,
-31.1 | cf == bd.
+31.1 | bg == ca,
+33.1 | fh == ed.
+
+*Demonſtr.*
+
+α.36.1 | ◊bcag 2|2 ◊edhf,
+34.1 | △bca 2|2 ½◊bcag,
+34.1 | △efd 2|2 ½◊edhf,
+concl. 7.a.1 | △bca 2|2 △efd.
+
+THEOR. XXIX. PROPOS. XXXIX.
+
+Les triangles égaux constituez sur mesme base, & de mesme part, sont entre mesme paralleles.
+
+*Hypoth.*
+
+△bca 2|2 △bcd.
+bc *eſt baſe commune.*

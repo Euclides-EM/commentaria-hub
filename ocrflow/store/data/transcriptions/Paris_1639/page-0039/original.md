@@ -1,40 +1,42 @@
-# Page 38
+# Page 39
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-1. a. g.
-
-L'interpretation ne change point l'égalité.
-
-hyp. | □af 2|2 □cg,
-hyp. | af *eſt* □.ab,
-hyp. | cg *eſt* □.cd.
-1.a.g. | □.ab 2|2 □.cd.
+hyp. | ac 2|2 ½ab,
+3.a.b | cb 2|2 ½ab,
+hyp. | df 3|2 ½de,
+3.a.b | fe 2|3 ½de,
+hyp. | hl 2|2 ⅓gl,
+3.a.b | gh 2|2 ⅔gl.
 
 (figure)
 
-C'est à dire, que si le quarré AF est égal au quarré CG, & que AF soit le quarré de AB, & CG le quarré de CD : la consequence sera, que le quarré de AB est égal au quarré de CD.
+4. a. 1.
 
-2. a. 1.
+Et si à choses inégales on adiouste choses égales, les tous sont inégaux.
 
-Et si à choses égales on adjouste choses égales, les tous sont égaux.
+hyp. | ab 3|2 cd,
+hyp. | be 2|2 df,
+4.a.1. | ae 3|2 cf.
+
+(figure)
+
+4. a. b.
+
+Et si à choses égales on adjouste choses inégales, les tous sont inégaux.
 
 hyp. | ab 2|2 cd,
-hyp. | bf 2|2 dg,
-2.a.1. | af 2|2 cg.
+hyp. | be 3|2 df,
+4. a. b. | ae 3|2 ef.
 
 (figure)
 
-3. a. 1.
+4. a. c.
 
-Et si des choses égales on retranche choses égales, les restes sont égaux.
+Et si à choses inégales on adjouste choses inégales, à la plus grande la plus grande, & à la plus petite la plus petite, les tous sont inégaux, celuy-là plus grand, & celuy-cy plus petit.
 
-hyp. | ab 2|2 cd,
-hyp. | ae 2|2 cf,
-3.a.1. | eb 2|2 fd.
+hyp. | ab 3|2 cd,
+hyp. | be 3|2 df,
+4.a.c. | ae 3|2 cf.
 
 (figure)
-
-3. a. b.
-
-Et si d'vn tout on retranche la moitié, restera la moitié : & si on retranche plus de la moitié, restera moins de la moitié : mais si on retranche la troisiesme partie, resteront les deux tiers, &c.

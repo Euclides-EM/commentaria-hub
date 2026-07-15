@@ -1,48 +1,28 @@
-# Page 60
+# Page 61
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
 *Demonſtr.*
 
-*aux* △;dca & dcb
-conſtr. | ca 2|2 cb,
-cd *eſt commun.*
-conſtr. | ∠dca 2|2 ∠dcb,
-concl. 4.1 | ad 2|2 db.
+*aux* △;fcd & fce
+conſtr. | ce 2|2 cd,
+cf *eſt commun.*
+conſtr. | df 2|2 ef,
+8.1 | ∠fcd 2|2 ∠fce,
+10.d.1 | ∠fcd & ∠fce *ſnt* ┘,
+conel. 10.d.1 | fc ⊥ ab.
 
 *Practique.*
 
-hyp. | ab *eſt* —— D.
-3.p.1 | acd & bcd *ſnt* ⊙ 2|2 đe.*arb.*
-1.p.1. | cd *eſt* ——,
-ſymp. | ae 2|2 eb.
-
-*Demonſtr.*
-
-8.1 | ∠dca 2|2 ∠dcb,
-concl. 4.1 | ae 2|2 eb.
-
 (figure)
 
-PROBL. VI. PROPOS. XI.
+hyp. | a *eſt* • D. *en* bc,
+3.p.1 | acgd,cg,gde,dge *ſnt* ⊙ 2|2 đe.*arbitr.*
+1.p.1 | ae *eſt* ——,
+ſymp. | ae ⊥ bc.
 
-Sur vne ligne droicte donnée, & d'vn poinct donné en icelle, éleuer vne ligne droicte perpendiculaire.
+*Demonſtr. eſt au ſchol. 15.4.*
 
-(figure)
+PROBL. VII. PROPOS. XII.
 
-*Hypoth.*
-
-ab *eſt* —— D.
-c *eſt* • D. *en* ab.
-
-*Req. à faire.*
-
-cf ⊥ ab.
-
-*Conſtr.*
-
-d *eſt* • *arbitr.*
-3.1 | ce 2|2 cd,
-1.1 | def *eſt* △ *equilat.*
-1.p.1 | cf *eſt* ——,
-ſymp. | cf ⊥ ab.
+Sur vn ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle abaisser vne ligne perpendiculaire.

@@ -1,27 +1,32 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-*124*
+*125*
 
-videlicet & tertiæ magnitudinis, sumpta sunt æquè multiplicia g/k, secundæ rursum & quartæ, vtpote ipsarum b/& f, alia vtcunq; æquè multiplicia l/n. si itaq; g/excedit l, & k/proportionaliter excedit n: etsi æquale, æquale: si verò minus, itidem proportionaliter minus, per eādem sextæ diffinitionis cōuersionē. Atqui præostēsum est, q̄ si g/excedit l, excedit & h/ipsum m: etsi æquale, æquale: si autem minus, & h/proportionaliter minus est ipso m. Quapropter si h/excedit m, excedit & k/proportionaliter ipsum n: & si h/æquatur ipsi m, coæquatur & k/ipsi n: & si minus fuerit h/ipso m, & k/demum proportionaliter minus est ipso n. Porrò h/& k/ipsarum c/& e, primæ videlicet & tertiæ magnitudinis data sunt æquè multiplicia: ipsarum autem d/& f, hoc est secundæ & quartæ, alia vtcunque æquè multiplicia m/& n. Est igitur per sextā huius quinti diffinitionē, sicut c/ad d, ita e/ad f. Quæ eidem itaq; sunt eædem rationes, & adinuicem sunt eædem. Quod fuerat ostendendum.
+| g. | l. | g,h,k. | l, m, n. |
+| --- | --- | --- | --- |
+| a. | b. | a,c, e. | b, d, f. |
+| prima. | secunda. | tertia. | quarta. |
 
-> Resolutio demōstrationis.
+magnitudo, hoc est g/ipsius a, totuplices sunt & omnes g/h/k, omniū a/c/e, per primā eiusdem quinti. Et proinde quotuplex est l/ipsius b, totuplices sunt l/m/n/ipsarum b/d/f. Sunt itaque g/& g/h/k, ipsarū a/& a/c/e, hoc est, primæ & tertiæ magnitudinis æquè multiplicia: l/autem/& l/m/n/secūdæ. b/& tertiæ b/d/f, æquè itidē multiplicia. Et ostēsum est, q̄ si g/multiplex excedit l, excedit & g/h/k/proportionaliter ipsum l/m/n: etsi æquale, æquale: si verò minus, itidem proportionaliter minus. Est igitur per sextam huius quinti diffinitionem, sicut a/ad b, sic a/c/e/composita ad b/d/f/compositam: hoc est, sicut vna antecedentium ad vnam consequentium, sic omnes antecedentes ad omnes consequentes. Quod demonstrandum susceperamus.
 
-*[diagram: g a b l — h c d m — k e f n]*
+> Sūmaria theorematis ostēsio.
 
-## Θεώρημα ιβ, Πρόθεσις ιβ.
+## Θεώρημα ιγ, Πρόθεσις ιγ.
 
-Εαν ᾖ ὁποσαοῦν μεγέθη ἀνάλογον, ἔσται ὡς ἓν τῶν ἡγουμένων πρὸς ἓν τῶν ἑπομένων, οὕτως ἅπαντα τὰ ἡγούμενα, πρὸς ἅπαντα τὰ ἑπόμενα.
+Εαν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, καὶ τρίτον πρὸς τέταρτον, τρίτον δὲ πρὸς τέταρτον μείζονα λόγον ἔχῃ, ἤπερ πέμπτον πρὸς ἕκτον: καὶ πρῶτον πρὸς δεύτερον μείζονα λόγον ἕξει, ἤπερ πέμπτον πρὸς ἕκτον.
 
-## Theorema 12, Propositio 12.
+## Theorema 13, Propositio 13.
 
-> 12
+> 13
 
-SI fuerint quælibet magnitudines proportionem habentes: erit sicut vna antecedentium ad vnam consequentium, sic omnes antecedentes ad omnes consequentes.
+SI prima ad secundam eandem habuerit rationem, & tertia ad quartam, tertia autem ad quartam maiorem rationē habeat quàm quinta ad sextam: prima quoque ad secundam maiorem rationem habebit, quàm quinta ad sextam.
 
-ORONTIVS. ¶ Sint a,b,c, & d,e,f/quotlibet magnitudines inuicem proportionales: sicut quidem a/ad b, ita c/ad d, sicútq; c/ad d, sic e/ad f. Aio quòd quam rationem habet a/ad b, eam habent & compositæ a/c/e, ad coniunctas b/d/f. Suscipiātur enim ipsarum antecedentium a/c/e, æquè multiplicia g,h,k: & ipsarū consequentium b,d,f, alia quæuis æquè multiplicia l,m,n. Cùm sit igitur vt a/ad b, sic c/ad d, & ipsarum a/& c/æquè multiplicia sunt g,h, ipsarum verò b,d, alia itidem æquè multiplicia l/m: sicut se habet igitur g/ad l, sic h/ad ipsum m, per quartam huius quinti. Rursum quoniam est vt c/ad d, sic e/ad f, & ipsarum c/& e/æquè multiplicia sunt h/k, ipsarum autem d/f, alia vtcunq; æquè multiplicia m,n: sicut se habet igitur h/multiplex ad ipsum m, sic k/ad ipsum n, per eandem quartam ipsius quinti. Vt autem se habet h/ad m, sic g/ad l/se habere præostensum est. Est igitur vt g/ad l, sic k/ad n, per antecedentem vndecimam propositionem. Sunt itaque g,h,k, & l,m,n, multiplicia inuicem proportionalia: sicut quidem g/ad l, sic h/ad m, & k ad n. Igitur si g/multiplex excedit l, excedit & h/proportionaliter ipsum m, necnō & k/ipsum n: & si g/æquatur ipsi l, æquū est & h/ipsi m, & k/respondenter ipsi n: si autem g/minus fuerit ipso l, est & h/proportionaliter minus ipso m, & k/demū ipso n. Et proinde si g/multiplex excedit l, excedunt & g,h,k/multiplicia proportionaliter ipsa l,m,n: & si æquum est g/ipsi l, æqualia sunt & g,h,k/ipsis l,m,n: si autem g/sit minus ipso l, erunt & eadem g,h,k, eisdem l, m, n, tandem æquè minora, per secundam & quartam communem sententiam. Atqui g,h,k/magnitudines, ipsarum a, c, e/magnitudinum sunt per constructionem singulæ singularum æquè multiplices: quotuplex igitur est vnius vna
+ORONTIVS. ¶ Habeat enim prima magnitudo a/ad secundam b/eandem rationem, quam tertia c/ad quartam d: ipsa porrò tertia c/ad eandem quartam d/maiorem rationē habeat, quàm e/quinta ad f/sextam magnitudinem. Aio quòd & a/prima magnitudo ad secundam b/maiorem itidem rationem habebit, quàm ipsa e/quinta ad eandem sextam f. Multiplicetur enim vtraque ipsarum a, b: sintq́; earundem a,b, vtcunq; multiplicia g,h, sed g/maius ipso h. potest enim a/toties multiplicari, quousq; multiplex ipsius a/superet multiplex eiusdem b. Quàmmultiplex insuper est g/ipsius a, tam multiplex detur k/ipsius c, & l/ipsius e. Rursum q̄ multiplex est h/ipsius b, tam multiplex esto m/ipsius d, & n/ipsius f. Cùm igitur a/ad b/eandem rationē habeat, quam c/ad d, sintq́; g/& k/primæ & tertiæ æquè multiplicia, h/autem & m/secundæ & quartæ æquè itidem multiplicia: si g/itaque excedit h, excedit & k/ipsum m, per sextæ diffinitionis huius quinti cōuersionem. Atqui g/superat h, per constructionem: & k/igitur superat m. Rursum quoniā c/ad d/maiorem rationem habet, q̄ e/ad f, & ipsarū c/& e/primæ inquàm & tertiæ magnitudinis, æquè multiplicia sunt k,l, secūdæ porrò d/& quartæ f/alia vtcunq; æquè multiplicia m, n: si k/igitur excedit m, non excedit l/ipsum n, per conuersionem octauæ diffinitionis eiusdem quinti. Porrò k (vti nunc ostensum est) excedit m: & l/igitur non excedit n. Excedit autem & g/ipsum h, suntq́; g/& l/ipsarum a/& e, hoc est, primæ & tertiæ magnitudinis æquè multiplicia, per constructionem: h/rursum & n/ipsarū b/& f, vtpote secundæ & quartæ alia vtcunque æquè multiplicia: & g/multiplex primæ excedit multiplex secundæ, l/autem multiplex tertiæ nō excedit n/multiplex quartæ. prima igitur a/ad secundam b/maiorem rationem habet, quàm e/tertia ad quartam f, per octauam huius quinti
 
-> Quatuor æquè multiplicium inuicem proportionalium, inferendarum magnitudinū, subtilis adinuētio.
+> Discurs⁹ multiplicium ad theorematis illationē nos perducentiū.
 
-*[diagram: g h k l m n]*
+*[diagram: g h k m l n]*
 
-*[diagram: a c e b d f]*
+*[diagram: a b c d e f]*
+
+l.iij.

@@ -1,35 +1,39 @@
-# Page 325
+# Page 326
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-mier qui est 100 ; ce qui se faict facilement en retranchant 2 figures du costé droict, & trouue 58 32/100 ou 8/25 pour le requis.
+*Exemple 5.*
 
-*Exemple 3.*
+A 4 liures 15 sols & 8 deniers les 7 aulnes, sçauoir combien vaudront les 5 aulnes ?
 
-A 10 escus les 12 aulnes, sçauoir combien d'aulnes on aura pour 20 liures ?
+7 *aulnes* —— 4 *lt.* 15 ſ. 8 *d.* —— 5 *auln.* R. 3 *lt.* 8. ſ. 4 *d.*
 
-30 *lt.* —— 12 *aulnes*, —— 20 *lt.* R. 8 *aulnes*.
+5
+——
+20 lt. 75 ſ. 40 d.
+120 ſ. 72 d.
+——
+195 ſ. 112 d.
 
+6
 2 0
 ——
-2 4 0
+7 [2 lt.
 
-240/30 [8,
-
-Ayant reduict le premier nombre en liures, afin qu'il soit de mesme espece que le troisiesme, on dira, si 30 liures donnent 12 aulnes, combien donneront 20 liures : faisant l'operation comme on voit en ces nombres, on trouuera 8 aulnes.
-
-*Exemple 4.*
-
-A 32 liures 15 sols les 8 aulnes, sçauoir combien d'aulnes on aura pour 40 liures 8 sols ?
-
-Les 32 lt. 15 ſ. en dixme font 3275″, & les 40 lt. 8 ſ. font 404′ ; partant on dira, si 3275″ donnent 8 aulnes, combien donneront 4040″, operant comme s'ensuit on trouuera 9 7/8 d'aulnes.
-
-3275″ —— 8 *aulnes*, —— 4040″, R. 9 7/8 *aulnes*.
-
-8
+6
+1 9 5
 ——
-3 2 3 2 0″
+7 7 (27 ſ.
 
-32320″
+4
+1 1 2
 ——
-3275″ [9 2845/3275 ou 7/8.
+7 7 (16 d.
+
+Ayant disposé les trois nombres ainsi, ie multiplie 4 lt. 15 ſ. 8 d. separément par le troisiesme nombre 5, & vient au produict 20 lt. 75 ſ. 40 d. Puis par le premier nombre 7 ie diuise premierement les 20 lt. & trouue 2 lt. & reste 6 lt. que ie reduits en sols, en multipliant par 20 ſ. & trouue 120 ſ. que i'adiouste auec 75 ſ. la somme est 195 ſ. que ie diuise par 7, le quotient est 27 ſ. & reste 6 ſ. qui font 72 deniers, que i'adiouste auec 40 d. la somme est 112 d. que ie diuise par 7, & vient au quotient 16 d. Partant ie conclus que les 5 aulnes vaudront 2 lt. 27 ſ. 16 d. qui font 3 lt. 8 ſ. 4 d.
+
+*Exemple 6.*
+
+Si on veut vendre 35000 liures vne maison qui vaut 1200 liures par an, sçauoir à quel denier est sa vente ?
+
+Pour auoir le requis, on dira si 1200 lt. sont gagnées par 35000 liures, de combien sera gagnée vne liure :

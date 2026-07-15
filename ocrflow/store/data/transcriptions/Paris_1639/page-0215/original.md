@@ -1,35 +1,20 @@
-# Page 214
+# Page 215
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-A, 9. B, 4. C, 8. D, 8.
+XVII.
 
-hyp. | a π b 2|2 c π d, 1.ſ.17.5 | b π a~b 2|2 d π c~d.
-9 4 18 8 4 5 8 10
+Raison égale ou d'égalité, est quand il y a plusieurs grandeurs, & d'autres égales à icelles en multitude, qui soient prises deux à deux, & en mesme raison: & que, comme aux premieres grandeurs la premiere est à la derniere, ainsi aux secondes grandeurs la premiere est à la derniere: autrement, c'est prendre les extrémes par la soustraction des moyennes.
 
-SCHOLIE II.
+XVIII.
 
-Diuision de raison contraire, est prendre l'antecedent pour le comparer à l'excez par lequel le consequent surpasse l'antecedent.
+Proportion ordonnée est lors que, comme l'antecedent est au consequent, ainsi l'antecedent est au consequent: & comme le consequent est à quelque autre, ainsi le consequent est aussi à quelque autre.
 
-A, 4. B, 6. C, 8. D, 12.
+A, 4. B, 6. C, 12. D, 8. E, 10. F, 15. G, 30. H, 20.
 
-hyp. | a π b 2|2 c π d, 2.ſ.17.5 | a π b~a 2|2 c π d~c.
-4 6 8 12 4 2 8 4
+hyp. | a π b 2|2 e π f, hyp. | c π d 2|2 g π h,
+hyp. | b π c 2|2 f π g, 22.5 | a π d 2|2 e π h.
 
-SCHOLIE III.
+XIX.
 
-Diuision de raison inuersement contraire, est prendre l'excez par lequel le consequent surpasse l'antecedent, pour le comparer au mesme antecedent.
-
-A, 4. B, 6. C, 8. D, 12.
-
-hyp. | a π b 2|2 c π d, 3ſ.17.d5 | b~a π a 2|2 d~c π c.
-4 6 8 12 2 4 4 8
-
-XVI.
-
-Conuersion de raison est, prendre l'antecedent pour le comparer à l'excez, par lequel l'antecedent surpasse le mesme consequent.
-
-A, 6. B, 4. C, 12. D, 8.
-
-hyp. | a π b 2|2 c π d, c.19.5 | a π a~b 2|2 c π c~d.
-6 4 12 8 6 2 12 4
+Proportion perturbée est, lors que trois grandeurs sont posées d'vne part, & d'autres égales en multitude à icelles, & comme aux premieres grandeurs l'antecedent est au consequent, ainsi aux secondes grandeurs l'antecedent est au conse-

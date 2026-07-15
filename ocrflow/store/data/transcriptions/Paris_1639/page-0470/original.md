@@ -1,35 +1,33 @@
-# Page 469
+# Page 470
 
 # ETYMOLOGIE.
 
-Loxodromie vient de *loxos*, qui en Grec signifie oblique, & *dromos* course.  t. 4. p. 403.
+Octaedre vient de *octo*, qui en Grec sign. huict, & *hedra* siege.  t. 1. p. 653.
 
-Lustre est vn espace de cinq ans, ainsi nommé de *lustrare*, qui en Latin signifie aller à l'entour : à cause qu'anciennement les Romains, par processions, prieres & sacrifices, purgeoiẽt la ville de cinq ans en cinq ans.
+Ordonnées sont lignes paralleles inscriptes dans les sections coniques, chacune desquelles est couppée en deux parties égales par le diametre de la section, & s'appellent ainsi, à cause qu'elles s'entresuiuent suiuant l'ordre de leurs grandeurs.
 
-Mappe-monde est la Carte vniuerselle du monde, ainsi nommée de *mappa*, qui en Latin signifie vne nappe, & *mundi* du monde.  t. 4. p. 156.
+Organopoëtique, *science de faire des instruments*, vient de *organon*, qui en Grec signifie instrument, & *poieo* faire.
 
-Mecometre, *instrument à mesurer*, vient de *mecos*, qui en Grec signifie longueur, & *metron* vne mesure·
+Optique vient de *optomai*, qui en Grec signifie voir.  t. 5. p. 1.
 
-Melodie vient de *melos*, qui en Grec signifie des carmes : il semble aussi que *melos* vienne de *meli*, qui signifie du miel.  t. 5. p. 802.
+Ouranoscopie, *astronomie*, vient de *ouranos*, qui en Grec signifie le ciel, & *scopeo* obseruer.
 
-Melopée vient de *melos*, qui en Grec signifie des carmes, & *poieio* faire : d'où vient aussi *melopoiya*, qni sign. modulation.  t. 5. p. 807.
+Oxygone vient de *oxys*, qui en Grec signifie aigu, & *gonia* angle.  t. 1. def. 28.
 
-Meninge, *dure ou tendre mere*, vient de *meninx*, qui en Grec signifie membrane, & particulierement celle qui enuironne le cerueau par dehors.  t. 5. p. 5.
+Palissade vient de *palus*, qui en Latin signifie vn pau ou pieu à ficher en terre.
 
-Meridien vient de *meros*, qui en Grec sign. partie, & de *dies*, qui en Latin signifie le iour.  t. 4. p 11.
+Parabole, en Grec signifie comparaison : & parce que la comparaison est bonne aux choses égales, la section conique, les quarrez des moitiez des ordonnées de. laquelle ne sont excedants ny defaillants, s'appelle parabole.  t. 5. p. 690.
 
-Merlon, est le mur qui est entre deux canonnieres, & s'appelle ainsi de *merlo*, qui en Italien sign. carneau.
+Parallaxe, *commutation d'aspect*, vient de *paralatto*, qui en Grec sign. changer.  t. 4. p. 50.
 
-Mese, *moyenne*, vient de *mesoo*, qui en Grec signifie estre au milieu.  t. 5. p. 809.
+Parallelogramme vient de *parallelos*, qui en Grec sign. equidistante, & *gramme* ligne.  t. 1. def. 35.
 
-Meteore vient de *meteoros*, qui en Grec signifie sublime ou haut : d'où vient aussi *meteora*, qui sont les choses qui s'engendrent là haut en l'air.
+Parallelipipede vient de *parallelos*, qui en Grec sign. equidistante. & *epipedos* superficie plane.  t. 1. p. 635.
 
-Meteorologie est la science qui traicte des meteores.
+Paranete, *penultiesme*, vient de *para*, qui en Grec signifie proche, & *nete* la derniere.  t. 5. p. 809.
 
-Metoposcopie vient de *metopon*, qui en Grec signifie le front, & *scopeo* considerer.
+Parapet vient de *para*, qui en Italien signifie parer, & *petto* l'estomac ou poitrine.  t. 3. p. 181.
 
-Musique vient de *mousa*, qui en Grec signifie muse deesse du chant.  t. 5. p. 802.
+Parodique, en Grec *para*, sign. par, & *hodos* chemin : d'où vient que les quantitez qui s'entresuiuent par vne mutation continuelle de genre en genre, se disent estre en diuers degrez parodiques.  t. 2. p. 5. alg.
 
-Nete, en Grec signifie la derniere.  t. 5. p. 809.
-
-Olympiades, est vn espace de 4 ans, ainsi nommé des ieux & exercices Olympiques, qui se faisoient anciennement de 4 ans en 4 ans en la Peloponnese pres la ville d'Olympe.  t. 5. p. 457.
+Perieciens, en Grec *peri* sign. à l'entour, & *oicos* maison : d'où vient que ceux qui demeurent aux deux bouts du diametre d'vn cercle parallele à l'equateur, s'appellent perieciens.  t. 4. p. 94.

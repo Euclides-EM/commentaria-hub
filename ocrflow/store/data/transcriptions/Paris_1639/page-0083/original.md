@@ -1,53 +1,58 @@
-# Page 82
+# Page 83
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
+
+PROBL. X. PROPOS. XXXI.
+
+D'vn poinct donné, mener vne ligne droicte parallele à vne ligne droicte donnée.
 
 (figure)
 
 *Hypoth.*
 
-ac *eſt* ◊, α
-∠a *eſt* ┘.
+a *eſt* • D.
+bc *eſt* —— D.
 
-*Req. à demonſtr.*
+*Req. à faire.*
 
-ac *eſt* ▭.
+ae == bc.
+
+*Conſtr.*
+
+ad *eſt* —— *arbitr.*
+23.1 | ∠dae 2|2 ∠adc,
+ſymp. | ae == bc.
 
 *Demonſtr.*
 
-α.35.d.1 | ad == bc,
-α.35.d.1 | ab == dc,
-29.1 | ∠a + ∠b 2|2 2┘,
-hyp. | ∠a *eſt* ┘;
-3.a.b | ∠b *eſt* ┘ β
-d.β | ∠d & ∠c *ſnt* ┘.
+conſtr. | ∠dae 2|2 ∠adc,
+concl. 27.1 | ae == bc.
 
-THEOR. XXI. PROPOS. XXX.
+SCHOLIE.
 
-Les lignes droictes paralleles à vne mesme ligne droicte, sont aussi paralleles entr'elles.
+Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle, mener vne ligne droicte qui auec la ligne donnée, face vn angle égal à vn angle rectiligne donné,
 
 (figure)
 
 *Hypoth.*
 
-ab == ef,
-cd == ef.
+bc *eſt* —— D.
+a *eſt* • D.
+g *eſt* ∠ D.
 
-*Req. à demonſtr.*
+*Req. à faire.*
 
-ab == cd.
+∠adc 2|2 ∠g.
 
-*Prepar.*
+*Conſtr.*
 
-arbitr. | gi *eſt* ——.
+31.1 | ae == bc,
+23.1 | ∠ead 2|2 ∠g,
+ſymp. | ∠adc 2|2 ∠g.
 
-*Demonſt.*
+*Demonſtr.*
 
-α.29.1 | ∠agi 2|2 ∠ehi,
-β.29.1 | ∠dig 2|2 ∠ehi,
-1.a.1 | ∠agi 2|2 ∠dig,
-concl. 27.1 | ab == cd.
-
-SCHOLIE.
-
-Les lignes droictes paralleles à vne mesme ligne droicte estans continuées directement, si elles se rencontrent : elles seront parties d'vne mesme ligne droicte, comme AG & GB sont parties de la droicte AB.
+conſtr. | ae == bc,
+29.1 | ∠adc 2|2 ∠ead,
+conſtr. | ∠g 2|2 ∠ead,
+concl. 1.a.1 | ∠adc 2|2 ∠g.

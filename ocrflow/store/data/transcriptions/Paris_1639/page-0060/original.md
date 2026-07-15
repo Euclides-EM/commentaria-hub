@@ -1,50 +1,48 @@
-# Page 59
+# Page 60
 
-# D'EVCLIDE, LIV. I.
-
-(figure)
-
-1.1 | def *eſt* △ *equilat.*
-1.p.1. | af *eſt* ——,
-ſymp. | ∠fad 2|2 ∠fae.
+# LES ELEMENTS
 
 *Demonſtr.*
 
-*aux* △;afd & afe
-conſtr. | ad 2|2 ae,
-af *eſt commun.*
-conſtr. | df 2|2 ef,
-concl. 8.1. | ∠fad 2|2 ∠fae.
+*aux* △;dca & dcb
+conſtr. | ca 2|2 cb,
+cd *eſt commun.*
+conſtr. | ∠dca 2|2 ∠dcb,
+concl. 4.1 | ad 2|2 db.
 
 *Practique.*
 
-hyp. | bac *eſt* ∠D.
-3.p.1 | ade,df,ef,*ſnt* ⊙ 2|2 đe.*arbitr.*
-1.p.1 | af *eſt* ——,
-ſymp. | ∠fab 2|2 ∠fac.
+hyp. | ab *eſt* —— D.
+3.p.1 | acd & bcd *ſnt* ⊙ 2|2 đe.*arb.*
+1.p.1. | cd *eſt* ——,
+ſymp. | ae 2|2 eb.
 
 *Demonſtr.*
 
-8.1 | ∠fad 2|2 ∠fae.
+8.1 | ∠dca 2|2 ∠dcb,
+concl. 4.1 | ae 2|2 eb.
 
 (figure)
 
-PROBL. V. PROPOS. X.
+PROBL. VI. PROPOS. XI.
 
-Couper vne ligne droicte donnée & terminée en deux parties égales.
+Sur vne ligne droicte donnée, & d'vn poinct donné en icelle, éleuer vne ligne droicte perpendiculaire.
 
 (figure)
 
 *Hypoth.*
 
 ab *eſt* —— D.
+c *eſt* • D. *en* ab.
 
 *Req. à faire.*
 
-ad 2|2 db,
+cf ⊥ ab.
 
 *Conſtr.*
 
-1.1 | abc *eſt* △ *equilat.*
-9.1 | ∠dca 2|2 ∠dcb,
-ſymp. | ad 2|2 db.
+d *eſt* • *arbitr.*
+3.1 | ce 2|2 cd,
+1.1 | def *eſt* △ *equilat.*
+1.p.1 | cf *eſt* ——,
+ſymp. | cf ⊥ ab.

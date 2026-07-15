@@ -1,23 +1,43 @@
-# LIBER V.
+# GEOMET. ELEMENT.
 
-e/b, ipsius f/d tam multiplex est, quàm multiplex est ipsa a/e eiusdem c/f. Atqui per hypothesin a/e totuplex est ipsius c/f, quotuplex est tota a/b totius c/d. Et reliqua igitur e/b, reliquæ f/d æquè multiplex est, atq; tota a/b totius c/d. Ergo si magnitudo magnitudinis æquè fuerit multiplex & ablata ablatæ, & reliqua reliquæ: &c. vt in theoremate. Quod ostendere fuerat operæpretium.
+¶Magnitudines datæ.
 
-## Θεώρημα ϛ, Πρόθεσις ϛ.
+> Exemplum in numeris.
 
-Ἐὰν δύο μεγέθη δύο μεγεθῶν ἰσάκις ᾖ πολλαπλάσια, καὶ ἀφαιρεθέντα τινὰ τῶν αὐτῶν ἰσάκις ᾖ πολλαπλάσια, καὶ τὰ λοιπὰ τοῖς αὐτοῖς ἤτοι ἴσα ἐσὶν, ἢ ἰσάκις αὐτῶν πολλαπλάσια.
+| prima. | secunda. | tertia. | quarta. | Ablata. | reliqua. | Ablata. | reliqua. | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| a/b. | c. | d/e. | f. | a/g. | g/b. | h/e. | d/h. | |
+| 12 | 3 | 8 | 2 | 9 | 3 | 6 | 2 | vt in prima figura. |
+| 12 | 3 | 8 | 2 | 6 | 6 | 4 | 4 | vt in secunda figura. |
 
-## Theorema 6, Propositio 6.
+Si duæ itaque magnitudines: & quæ sequūtur reliqua. Quod fuerat ostendendum.
 
-SI duæ magnitudines duarū magnitudinū æquè fuerint multiplices, & ablatæ aliquæ earum æquè fuerint multiplices: & reliquæ eisdem vel æquales sunt, vel æquè ipsarum multiplices.
+## Θεώρημα ζ, Πρόθεσις ζ.
 
-ORONTIVS. ¶Sit a/b magnitudo tam multiplex ipsius c, q̄ multiplex est d/e ipsius f: æquè insuper multiplex esto ablata a/g eiusdem c, vt ablata h/e ipsius f. Aio q̄ reliquæ g/b & d/h, ipsis c & f aut sunt æquales altera alteri: vel earundem c & f æquè multiplices. Esto primū vt g/b sit æqualis ipsi c: dico quòd & d/h ipsi f est æqualis. Detur enim e/k ipsi f æqualis. Cū igitur a/g æquè multiplex sit ipsius c, vt h/e ipsius f, per hypothesin. Porrò g/b æqualis est ipsi c, per hypothesin: & e/k ipsi f, per cōstructionē. Et æquè igitur multiplex est a/b ipsius c, & h/k ipsius f. Ponitur autem ex hypothesi, a/b æquè multiplex ipsius c, vt d/e ipsius f. Et vtraq; igitur d/e & h/k, æquè est multiplex ipsius f: nempe vt a/b ipsius c. Quæ autem eiusdem sunt æquè multiplicia, æqualia sunt adinuicem, per sextæ communis sententiæ interpretationem. Aequalis est ergo d/e ipsi h/k, & vtriq; communis h/e: ea itaque dempta, reliqua d/h reliquæ e/k erit per tertiam communem sententiā æqualis. Eidem porrò e/k, æqualis est per constructionē ipsa f magnitudo. Binæ igitur magnitudines d/h & f, eidem e/k sunt æquales: & proinde æquales adinuicē, per primā cōmunē sententiā. Si reliqua igitur g/b, sit æqualis ipsi c: & reliqua d/h, ipsi f erit æqualis.
+Τὰ ἴσα πρὸς τὸ αὐτὸ τὸν αὐτὸν ἔχει λόγον, καὶ τὸ αὐτὸ πρὸς τὰ ἴσα.
 
-> Prima theorematis differētia.
+## Theorema 7, Propositio 7.
 
-*[diagram: a g b / c / d h e k / f]*
+AEquales ad eandē, eandē habēt rationē: & eadem ad æquales.
 
-¶Q̄ si g/b fuerit multiplex ipsius c: aio respondenter d/h, æquè multiplicē fore ipsius f. Quotuplex est enim g/b ipsius c, totuplex assumatur e/k ipsius f. Et quoniam per hypothesin, a/g prima secundæ c æquè est multiplex, ac tertia h/e quartæ f: quinta rursum g/b eiusdem secundæ c tam multiplex est per constructionē, q̄ multiplex est sexta e/k eiusdem quartæ f. Et composita igitur prima & quinta a/b, eiusdem secūdæ c æquè erit multiplex, ac tertia & sexta h/k ipsius quartæ f, per secūdā huius quinti. Quo tuplex est autē a/b ipsius c, totuplex data est d/e ipsius f, per hypothesin. Et vtraque igitur d/e & h/k, æquè est multiplex ipsius f, vt a/b ipsius c. Hinc per sextam communem sentētiam, æqualis rursum est d/e ipsi h/k, & vtriq; communis h/e: qua subtracta, reliqua d/h reliquæ e/k, per ipsam tertiam cōmunem sententiam, est æqualis. Aequalia porrò eiusdem sunt æquè multiplicia, per ipsius sextæ communis sententiæ cōuersionem. Et d/h igitur & e/k eiusdem f æquè multiplicia sunt. At e/k ipsius f tā multiplex est per constructionem, quàm multiplex est g/b ipsius c. Et reliqua igitur d/h æquè est multiplex ipsius f, quotuplex est reliqua g/b ipsius c. Hæc autē omnia subsequēs numerorū, ad faciliorē demōstrationis intelligentiā adiuncta, corroborat formula.
+ORONTIVS. ¶Sint binæ & inuicem æquales magnitudines a & b, ad aliam quandam magnitudinem relatæ, vtpote c. Dico primū, a & b ad eandem c eandem habere rationem. Assumantur enim ipsarum a & b æquè multiplices d & e: ipsius autem c, alia vtcunque multiplex f. Cùm igitur æquè multiplex sit d ipsius a, vt e ipsius b, & per hypothesin a & b magnitudines sint adinuicem æquales: erit & d æqualis ipsi e. quæ enim eiusdem vel æqualium sunt æquè multiplicia, æqualia sunt adinuicem, per sextam communem sententiam. Atqui f magnitudo binas ipsius c repræsentans æquè multiplices, sibimet æqualis est. Vt se habet igitur d multiplex
 
-> Secūda theorematis differentia.
+> Prima theorematis pars.
 
-*[diagram: a g b / c / d h e k / f]*
+*[diagram: d e / a b / c / f]*
+
+ad f, ita e ad eandem f: nam quæ sunt æqualia eiusdem sunt æquè multiplicia aut submultiplicia, per sextæ aut septimæ communis sententiæ conuersionem. Est autem a prima magnitudo, c secūda, b tertia, & c rursum in ordine quarta: suntq́; d & e ipsarum a & b æquè multiplicia, primæ inquàm & tertiæ magnitudinis: f porrò bis repetita, ipsius c bis repetēdæ, hoc est, secundæ & quartæ alia vtcunq; multiplex. Præostensum est insuper d multiplex primæ ad f multiplex secundæ ita se habere, vt e multiplex tertiæ ad ipsum f multiplex quartæ. Est igitur per sextam huius quinti diffinitionem, vt a ad c, ita b ad eandem c. Aequales igitur magnitudines a & b, ad eandem magnitudinem c, eandem habent rationem. ¶Aio quoq;, eandem magnitudinem c, ad a & b inuicem æquales magnitudines, eandem versa vice obseruare rationem. Hoc autē conuerso licebit ordine concludere. Ostendemus enim (veluti suprà) d & e multiplices, fore rursum inuicē æquales: & f bis coassumpta, geminas æquè multiplices repræsentare non denegabitur. Et proinde d ad f ita se habere concludetur, vt e ad eandem f. hinc per assumptum, siue lemma quartæ propositionis huius quinti, f ad d se habebit, vt eadem f ad e. Est autem f primæ & tertiæ magnitudinis, hoc est, ipsius c bis repetēdæ æquè multiplex: d verò & e secundæ & quartæ, vtpote ipsarum a & b æquè multiplices. Est igitur vt c ad a, sic eadem c ad b, per eandem sextam huius quinti diffinitionem.
+
+> Pars secunda theorematis.
+
+¶Idem quoq; à conuersa ratione, per quartæ propositionis huius quinti corollarium, leuius concludere licebit. Si quatuor enim magnitudines fuerint proportionales, & è contra proportionales erunt. Atqui ostensum est a ad c eandem habere rationem, quam b ad eandem c: & è cōtra igitur, vt c ad a, ita eadem c ad b. Aequales ergo ad eandem, eandem habent rationem: & eadem ad æquales. Quod oportuit ostendisse.
+
+> Idem aliter.
+
+## Θεώρημα η, Πρόθεσις η.
+
+Τῶν ἀνίσων μεγεθῶν τὸ μεῖζον πρὸς τὸ αὐτὸ μείζονα λόγον ἔχει ἤπερ τὸ ἔλαττον· καὶ τὸ αὐτὸ πρὸς τὸ ἔλαττον, μείζονα λόγον ἔχει ἤπερ πρὸς τὸ μεῖζον.
+
+## Theorema 8, Propositio 8.
+
+INæqualium magnitudinum maior ad eādem, maiorem rationē

@@ -1,29 +1,27 @@
-# Page 340
+# Page 341
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-taine somme en la communauté. Pour la faire, il faut adiouster toutes les mises ensemble, & mettre la somme au premier lieu de la regle de trois ; le gain ou la perte au second lieu ; & au troisiesme, les mises de chacun : puis on fait autant de regles de trois qu'il y aura de mises.
+fait perte de 600 lt. par la mesme methode on eust trouué 75 lt. pour la perte du premier : 125 pour le second : 150 pour le troisiesme : & 250 pour le quatriesme.
 
-*Exemple 1.*
+*Exemple 2.*
 
-Quatre marchands trafiquans ensemble ont gagné en certaines foires 600 liures : le premier a apporté en la communauté 60 lt. le second 100 lt. le troisiesme 120 lt. & le quatriesme 200 lt. sçauoir combien de ce gain appartient à chacun à raison de sa mise ?
+Trois marchands ayant trafiqué ensemble ont gagné 203 liures, & le premier a eu tant pour sa mise que profit 256 lt. le second, 320 lt. le troisiesme, 352 lt. sçauoir quelle estoit la mise de chacun ?
 
-Soient adioustez toutes les mises ensemble, & viendra 480 lt. qu'il faut mettre au premier lieu de la regle de trois, au second lieu le gain, qui est 600 liures, & au troisiesme la mise de chaque marchand : partant pour auoir le gain du premier, on dira, si
+Il faut adiouster ensemble 256, 320 & 352, & de leur somme, qui est 928, si on soustraict 203 qui est le gain, restera 725 pour la mise de tous, puis pour auoir la mise du premier, on dira, si
 
-480 *lt.* —— 600 —— 60 *lt.* R. 75 *lt.*
+928 —— 725 —— 256. R. 200.
 
-Pour le second, on dira, si
+Pour auoir la mise du second, on dira, si
 
-480 *lt.* —— 600 —— 100 *lt.* R. 125 *lt.*
+928 —— 725 —— 320. R. 250.
 
-Pour le troisiesme, on dira, si
+Pour auoir la mise du troisiesme, on dira, si
 
-480 *lt.* —— 600 *lt.* —— 120 *lt.* R. 150 *lt.*
+928 —— 725 —— 352. R. 275.
 
-Pour le quatriesme, on dira, si
+Pour la premiere, il faut que la somme des trois mises 200, 250, 275, face 725.
 
-480 *lt.* —— 600 *lt.* —— 200 *lt.* R. 250.
+DE LA REGLE DE COMPAGNIE *auec diuersité de temps.*
 
-Pour la preuue, il faut que la somme ou addition de tous les gains face 600 lt.
-
-Que si ces quatre marchands au lieu de gagner eussent
+S'il y a diuersité de temps, il faudra multiplier la mise de chaque marchand par son temps, & mettre la somme des produicts au premier lieu de la regle de trois, le gain ou la perte au second lieu, & chaque produict au troisiesme.

@@ -1,33 +1,35 @@
-# Page 194
+# Page 195
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. IV.
 
-αβ.15.1 | ∠; fga,agb, / bgc,cgd, / dge, egf, *ſnt* 2|2 đe.
-26.3 | ∩;ab,bc, / cd, de, / ef, fa, *ſnt* 2|2 đe.
-1.concl. 29.3 | ab,bc,cd, / de, ef, fa, *ſnt* 2|2 đe.
-2 concl. 27.3 | ∠; abc, bcd, cde, def, efa, fab *ſnt* 2|2 đe.
+PROBL. XVI. PROPOS. XVI.
+
+En vn cercle donné, inscrire vn quintidecagone equilateral & equiangle.
+
+*Hypoth.*
+
+aebc *eſt* ⊙ D.
+
+*Requis à faire.*
+
+*inſcrire au* ⊙aebc *le* 15∠ *equilat. & equiangle.*
 
 (figure)
 
-*Corollaire 1.*
+*Conſtruction.*
 
-15.d.1 | cd 2|2 dg.
-
-*Coroll. 2.*
-
-29.3 | ace *eſt* △ *equilat.*
-
-SCHOLIE.
-
-Demonstration de la practique de l'vnziesme proposition du premier liure, que nous auons remise à demonstrer icy.
+1.1 | d *eſt* △ *equilat.*
+2.4 | △abc *eſt equiang.* △d,
+11.4 | aefgh *eſt* 5∠ *equilat. & equiangle*,
+1.4 | fb, bi, ie, &c. *ſnt* 2|2 đe.
+ſymp. | eibga *eſt le* 15∠ *requis.*
 
 *Demonſtr.*
 
-conſtr. | acgd,gcad, dgae *ſnt* ⊙ 2|2 đe.
-15.4 | cade *eſt ſemic.*
-31.3 | ∠cad *eſt* ┘,
-concl. 10.d.1 | ea ⊥ ac.
-
-(figure)
-
-(figure)
+conſtr. | ab, bc, ca *ſnt* 2|2 đe.
+28.3 | ∩ab, ∩bc, ∩ca *ſnt* 2|2 đe.
+hyp. | ∩ab + ∩bc + ∩ca 2|2 15 *parties du* ⊙.
+7.a.1 | ∩ab 2|2 5 *parties du* ⊙. α
+conſtr. | ae, ef, fg, gh, ha *ſnt* 2|2 đe.
+28.4 | ∩ae, ∩ef, ∩fg, ∩gh, ∩ha *ſnt* 2|2 đe.
+hyp. | ∩ae + ∩ef + ∩fg / + ∩gh + ∩ha *ſnt* 2|2 15 *parties du* ⊙,

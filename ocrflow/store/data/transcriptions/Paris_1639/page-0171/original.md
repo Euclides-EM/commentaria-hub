@@ -1,36 +1,40 @@
-# Page 170
+# Page 171
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-*Demonſtr. du 4.cas.*
+*Demonſtration du 2. cas.*
 
-ab & cd *ñ ſnt diamet.*
-1&2.p.1 | geh *eſt diametre*,
-d.κ | ▭.aeb 2|2 ▭.geh,
-d.κ | ▭.dec 2|2 ▭.geh,
-4 concl. 1.a.1 | ▭.aeb 2|2 ▭.dec.
+1.p.1 | ec & eb *ſnt* ——,
+12.1 | ef ⊥ da,
+18.3 | ∠ebd *eſt* ┘, β
+3.3 | af 2|2 fe,
+□.bd + □.eb γ
+β.47.1 | □.de
+47.1 | □.ef + □.fd
+6.2 | □.ef + ▭.adc + □.fc
+47.1 | ▭.adc + □.ec Ⅱ □.eb
+*ſnt* 2|2 đe,
+γ.1.a.1 | ▭.adc + □.eb 2|2 □.bd + □.eb,
+□,eb *commun. ſubtr.*,
+concl. 3.a.1 | ▭.adc 2|2 □.bd.
 
-THEOR. XXX. PROPOS. XXXVI.
+COROLL. I.
 
-Si on prend quelque poinct hors le cercle, & d'iceluy tombent deux lignes droictes au cercle, l'vne desquelles couppe le cercle & l'autre le touche; le rectangle contenu sous toute la couppante, & sa partie de dehors pris entre le poinct & la circonference conuexe, est égal au quarré de la touchante.
+De cette proposition il est manifeste, que si de quelconque poinct pris hors le cercle, on mene plusieurs lignes droictes couppant le cercle; les rectangles compris sous chacune de toutes, & sa partie externe sont égaux entr'eux.
 
-*Hypotheſe.*
+*Hypoth.*
 
-ebc *eſt* ⊙, d *eſt* • D. db *touche le* ⊙.
+a *eſt* • D.
+ad *touche le* ⊙.
 
-*Req.à demonſtrer.*
+*Req. à demonſtr.*
 
-▭.adc 2|2 □.db.
+▭.bae 2|2 ▭.caf.
 
 (figure)
 
-*Demonſtr.du 1.cas.*
+*Demonſtr.*
 
-1.p.1 | eb *eſt* ——,
-18.3 | ∠ebd *eſt* ┘, α
-15.d.1 | ec 2|2 eb,
-α.47.1 | □.bd + □.be 2|2 □.ed,
-6.2 | ▭.adc + □.ec Ⅱ be 2|2 □.ed,
-1.a.1 | □.bd + □.be 2|2 ▭.adc + □.be,
-□.be *commun. ſubtr.*
-1.concl. 3.a.1 | □.bd 2|2 ▭.adc.
+36.3 | ▭.bae 2|2 □.ad,
+36.3 | ▭.caf 2|2 □.ad,
+concl. 1.a.1 | ▭.bae 2|2 ▭.caf,

@@ -1,57 +1,45 @@
-# GEOMET. ELEMENT.
+# ΕΥΚΛΕΙΔΟΥ ΒΙΒΛΙΟΥ ΠΡΩΤΟΥ
 
-Si nanq̃ h,k/ magnitudinibus inæqualibus, æquales adiungantur magnitudines l,m: conſurgent inæquales adinuicem magnitudines h/l/ & k/m. Aut ſi ab eiſdem inæqualibus ma-
+Πρόβλημα α, Πρόθεσις α.
 
-*[diagram: h l, k m]*
+Επὶ τῆς δοθείσης ευθείας πεπερασμένης, τρίγωνον ἰσόπλευρον σήσασθαι.
 
-gnitudinibus datis h/l/ & k/m, æquales auferantur l/ & m, quæ relinquentur h/ & k/ magnitudines, erũt adinuicem inæquales. Vnde & verſa vice, ſi æqualibus inæqualia adiungantur, vel ab æqualibus inæqualia auferantur: conſurgent, aut relinquentur inæqualia. Hæ ſunt igitur quinque præcipuæ communes ſententiæ, rationem æqualitatis inter magnitudines, atq̃ inuicẽ comparabilia, tum facta inuicem comparatione, tum addendo, ſubtrahendóve occurrentem, reſpicientes.
+# EVCLIDIS LIBRI PRIMI
 
-Καὶ τὰ τῦ αὐτῦ διπλάσια, ἴσα ἀλλήλοις ἐστίν.
+> Quedam propositiones ſunt ſingulares [?] que ſepius in vſum veniunt vt 14, 42, 4 [?]
 
-## Quæ eiuſdem duplicia ſunt, adinuicem ſunt æqualia. 6
+> Ea o[?]a que hic proponuntur demõſtrantur conſtituuntur verum intelligenda de punctis lineis circulis etc. in plano exaratis.
 
-> Cõmunis ſentẽtia p ratione maioris inæqualitatis.
+## Problema 1, Propoſitio 1.
 
-Hoc eſt, quę eiuſdem ſunt æquè multiplicia, vel æquè ſuperparticularia, aut æquè ſuperpartientia, vel (vt ſummatim comprehendam) æquè maiora: ea ſunt adinuicẽ æqualia, nempe quòd æquali exceſſu eandem ſuperent magnitudinem. Vt
+## SVper data linea recta terminata, triangulũ æquilaterum conſtituere
 
-*[diagram: n p o]*
+> Nota propoſitiõis interpretationem.
 
-ſi n/ & o/ magnitudines, eiuſdẽ magnitudinis p/ ſint ęquè maiores, vtpote duplæ: neceſſum eſt eaſdẽ magnitudines n/ & o/ fore adinuicem æquales. Nam æqualibus magnitudinibus ipſi p/ in eiſdem n/ & o/ comprehenſis, æquales adduntur exceſſus. Idem cenſeto de numeris, & quibuſcunq̃ inuicem comparabilibus rebus, eandem ad tertiã maioris inæqualitatis rationem obtinentibus.
+ORONTIVS. Sit data recta linea terminata a/b, cuius limites ſint a/ & b/ pũcta: ſuper quã oporteat triangulũ æquilaterum cõſtituere: hoc eſt, datam lineam rectam terminatam in latus ipſius coaptare triãguli, & reliqua duo latera, quæ ſint eidem lineæ datæ æqualia, ex ſuperius enarratis principijs inueſtigare. Centro igitur a, interuallo autẽ a/b, deſcribatur circulus b/c/d, per tertium poſtulatum. Et per idem poſtulatum, centro rurſum b, eodémq; interuallo b/a, deſcribatur circulus a/c/e. Cùm igitur circuli b/c/d/ & a/c/e/ in eodem ſint plano, & cómunem habeant ſemidiametrum, nempe datam a/b/ rectam, tranſeátque per conſtructionem vnius circunferentia per centrum alterius: neceſſum eſt, b/c/d/ circunferentiã partim eſſe intra circulum a/c/e, partim verò extra, & è contrario, & propterea ſeſe mutuo interſecare. Sit ergo ſectionũ altera in puncto c, & connectantur tandem rectæ lineæ a/c/ & b/c, per primũ poſtulatũ. Triangulũ eſt itaq; a,b,c, (nõ congruũt enim, neq; in directũ cõſtituũtur ipſæ a/b, b/c, & c/a/ lineæ rectæ: ſed trigonã includũt ſuperficiẽ a/b/c) dico q̃ & æquilaterũ. Quoniã punctum a, centrũ eſt circuli b/c/d: æqualis eſt igitur a/c/ recta, ipſi a/b, per decimãquintã diffinitionẽ. Rurſum, quoniã punctum b, centrũ eſt circuli a/c/e: æqualis eſt, per eandẽ diffinitionẽ b/c/ recta, eidẽ a/b. Duæ igitur a/c, & b/c, eidẽ a/b, ſunt æquales: eapropter & æquales adinuicem, per primam communem ſentẽtiam. Tres itaque lineæ a/b, b/c, c/a, ſunt adinuicem æquales. Igitur ſuper data recta linea terminata a/b, conſtitutũ eſt triangulum æquilaterum a/b/c. Quod facere oportebat.
 
-Καὶ τὰ τῦ αὐτῦ ἥμισυ, ἴσα ἀλλήλοις ἐστί.
+*[diagram: c, d a b e — two intersecting circles with equilateral triangle]*
 
-## Et quæ eiuſdem ſunt dimidium, æqualia ſunt adinuicem. 7
+> Cẽtro & interuallo circulum deſcribere.
 
-> cõ. ſententia, pro ratiõe minoris inæqualitatis.
+> Ab õi puncto in õe punctum rectam lineam ducere.
 
-Hæc communis ſententia, pro magnitudinibus rationẽ minoris inæqualitatis ad eandem tertiam obſeruantibus magnitudinẽ, ita venit intelligenda: vt
+> Circulus eſt figura plana vna linea contenta que circũferentia appellatur ad quam ab vno puncto intra eam ſum medio exiſtente oẽs procedentes linee in ipſius circuli circũferentiam incidentes adinuicem ſunt equales.
 
-*[diagram: q s r]*
+> Que eidem equalia et ad inuicem ſunt equalia.
 
-quæcũq̃ eiuſdẽ ſunt ęquè ſubmultiplicia, aut ſubſuperparticularia, vel ſubſuperpartientia, hoc eſt, æquè minora, ea ſunt adinuicem æqualia. Vtpote, ſi q/ & r/ magnitudines, eiuſdem magnitudinis s/ ſint (verbi gratia) ſubduplæ: illæ erunt adinuicem æquales, propterea quòd æquali ab eadem magnitudine ſuperentur exceſſu.
+Πρόβλημα β, Πρόθεσις β.
 
-Καὶ τὰ ἐφαρμόζοντα ἐπ' ἄλληλα, ἴσα ἀλλήλοις ἐστίν.
+Πρὸς τῷ δοθέντι σημείῳ τῇ δοθείσῃ ευθείᾳ ἴσην ευθεῖαν θέσθαι.
 
-## Et quæ ſibimet ipſis conueniunt, æqualia ſunt adinuicem. 8
+## Problema 2, Propoſitio 2.
 
-Vtpote, ſi duę rectę lineę in limitib⁹, duæve ſuperficies in terminis, ſeu laterib⁹ & angulis, & quę ſunt ſimilia ſimilibus ex õni parte cõueniãt: ea oportet adinuicẽ ęquari, & ecõtrario.
+## 2 AD datum punctũ, datæ rectę lineæ æquam rectã lineã ponere.
 
-Καὶ τὸ ὅλον μεῖζον τῦ μέρους ἐστί.
+ORONTIVS. Sit datũ pũctũ a, data verò linea recta b/c: cui expedit, ad ipſum punctum a, æquam rectam lineam ponere. Ducatur itaque recta a/b, per primum poſtulatum: ſuper qua triangulum æquilaterum conſtituatur a/b/d, per primam propoſitionem. Et centro b, interuallo autẽ b/c, circulus deſcribatur c/e/f, per tertium poſtulatum. Atque per ſecũdum poſtulatum, producatur recta b/d/ in
 
-## Totum eſt ſua parte maius. 9
+> Ab õi pũcto in õe puncto [?] rectam lineam ducere.
 
-Adde quòd & æquale ſuis partibus integralibus, id eſt quæ ſimul ſumptæ ipſum totum videntur integrare.
+> Cẽtro & interuallo circulum deſcribere
 
-Καὶ δύο ευθεῖαι χωρίον ὀυ περιέχουσι.
-
-## Duæ rectæ lineæ ſuperficiem non concludunt. 10
-
-Prius q̃ enim ſuperficiẽ cõcludere valerẽt: operępretiũ eſſet, gemina pũcta vtriuſq̃ datarũ linearũ terminos limitãtia mutuo cõuenire. Duæ itaq̃ lineę rectę, à dato pũcto in datũ punctũ producerentur: coinciderẽt igitur in vnã atq̃ eandem lineam rectã, ſuperficiem concludere non valentes. quẽadmodum ex ijs quę quarta prædiximus diffinitione fit manifeſtum.
-
-## De Problemate, Theoremate, atque Hypotheſi.
-
-> Problemata. Theoremata
-
-EX HIS ITAQVE SANE QVAM INTELLECTIS PRINCIpijs, colliguntur problemata: hoc eſt, ambiguæ propoſitiones, ſciſcitationéſve, practicas figurarũ affectiones diſcutiẽtes: & Theoremata, id eſt, ſpeculatiuæ propoſitiones, præceptionis vtcũq̃ participes, quæ ſingulis accidunt figuris ſola inſpectione diiudicãtes. Quæ quidẽ omnia tali ſunt artificio ab Euclide diſtributa, vt ex antecedentibus omnis ſubſequentiũ videatur pendere comprobatio: fiátq̃ mutua ſubminiſtratio ſingulorum inter ſeſe & problematum & theorematum. Quibus ſuffragantur hypotheſes, hoc eſt, ex pręuia ſupradictorum cognitione, aſſumenti conceſſæ ſuppoſitiones.
-
-> Hypotheses.
+> Super data recta linea terminata triangulum equilaterũ conſtituere.

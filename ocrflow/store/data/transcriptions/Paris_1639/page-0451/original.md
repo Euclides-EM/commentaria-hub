@@ -1,9 +1,17 @@
-# Page 450
+# Page 451
 
 # DE LA GNOMONIQVE.
 
-*qu'il fait auec l'horizon, en passant par les deux intersections de l'horizon & du meridien.*
+GN, & GP la ligne d'vne heure d'apres midy, &c.  Et doit auoir pour stile oblique la ligne GL tirée du centre A au sommet de CL, ou d'vne ligne égale à CL perpendiculaire au plan du quadrant en C.
+
+SCHOLIE.
+
+Si le stile CB est perpendiculaire au plan du quadrant en C, & que de son sommet B tombe à plomb la perpendicule ou filet BF l'ombre meridienne du filet BF couurant la ligne FN parallele à l'horizon, donnera à cognoistre que le plan proposé passe par les deux intersections de l'horizon & du meridien, & ne sera besoin d'autres obseruations pour cognoistre la declinaison & inclinaison du plan proposé ; mais faisant FH égale à FB, on continuera le reste de la construction comme cy dessus.
+
+Propos. 8. page 765.
+
+*Descrire vn quadrant en vn plan declinant incliné.*
 
 (figure)
 
-Sur le plan proposé par le moyen d'vn niueau, tirez BM parallele à l'horizon, & la couppez à angles droicts par HE, qui sera la ligne d'inclination : puis ayant pris CB à discretion pour la longueur du stile perpendiculaire, faites l'angle CBF égal à l'inclination donnée, à sçauoir de 30 deg. FH égale à FB : GFN perpendiculaire à HE : & l'angle FHG égal au complement de l'esleuation du pole, à sçauoir de 41 deg. 20′, qui donnera le poinct G en la meridienne NG pour le centre du quadrant.  Ayant ainsi trouué le centre G, menez par le poinct C la substilaire GCA : & faites les perpendiculaires CL à la substilaire GE, & égale à CB ; LI à GL ; QIT à GA.  Puis prenant IA égale à IL, descriuez le cercle ART de telle grandeur que vous voudrez, & le diuisez en 24 parties égales, commençant par la ligne AR, qui passe par N, qui est l'intersection de GN, & de la ligne equinoctiale QT : & les lignes tirées du centre A, aux poincts des diuisions du cercle RT, vous donneront en la ligne equinoctiale QT, les poincts Q, S, &c. ausquels menant du centre G les lignes horaires GQ, GS, &c. le quadrant requis QGT sera acheué, duquel la ligne de midy sera
+Soit à descrire vn quadrant en la face meridionale d'vn plã incliné deuers Septẽtrion de 35 degrez, & qui aye 40 degrez de declinaison Zephyr-australe.  Sur le plan proposé, tirez premierement KM parallele à l'horizon par le moyen d'vn niueau, & la couppez à angles droicts au poinct où vous voulez mettre le stile perpendiculaire, comme en cet exemple au poinct C par la ligne ET : & prenant CB égale à la longueur du stile perpendiculaire en KM, faites l'angle CBG égal à l'inclination donnée, à sçauoir de 35 deg.

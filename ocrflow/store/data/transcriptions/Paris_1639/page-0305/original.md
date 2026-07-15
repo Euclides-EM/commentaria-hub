@@ -1,26 +1,30 @@
-# Page 304
+# Page 305
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-1
-2 3 1
-1 8 1 7
-—— [4 3 11/42.
-4 2 2
-4
+*Sçauoir quel nombre doit eſtre diuiſé par 6, afin que le quotient ſoit 17?*
 
-8
-6——7
-8
+A cause qu'en toute diuision, le quotient estant multiplié par le diuiseur engendre le nombre qui a esté diuisé, il est manifeste que pour auoir le nombre requis, il faut multiplier 17 par 6, & que le produict 102 est le nombre requis.
 
-a point d'erreur en la diuision, ie dis que 4 & 2 du diuiseur sõt 6, que ie pose au costé gauche de la croix, puis ie dis aussi que 4 & 3 du quotient sont 7, que ie pose au costé droict de la croix, ce faict, ie multiplie 6 par 7 & vient 42, dont la preuue est 6, que i'adiouste auec la preuue du reste 11, qui est 2, la somme est 8, que ie pose au haut de la croix : finalement, pour auoir la preuue de 1817 qui a esté diuisé, ie dis 1 & 8 sont 9, que ie rejette, & reste 1 & 7 qui font 8 que ie pose au bas de la croix : & parce que le mesme nombre se trouue au haut & bas de la croix, ie conclus qu'il n'y a point d'erreur en la diuision.
+*Sçauoir combien de ſols & deniers valent 27 liures?*
 
-Questions necessaires pour distinguer l'vsage des quatre regles precedentes.
+2 7
+2 0
+——
+5 4 0 s.
+1 2 d.
+——
+1 0 8 0
+5 4 0
+——
+6 4 8 0 d.
 
-*Sçauoir de quel nombre il faut ſouſtraire 72, afin que le reſte ſoit 53?*
+A cause que pour reduire les monnoyes de plus grande valeur en d'autres de moindre valeur, il faut faire la multiplication, pour reduire les 27 liures en sols, il faut multiplier 27 par 20 sols, qui est la valeur d'vne liure, & viendra 540 sols, qu'il faudra multiplier par 12 deniers, qui est la valeur d'vn sol, & viendra 6480 deniers, qui valent autant que 27 liures ou 540 sols.
 
-A cause qu'en toute soustraction le nombre soustrait & le reste font ensemble le nombre de qui on a soustrait, il est manifeste que le nombre requis est 125, qui se trouue adioustant 72 auec 53.
+*Sçauoir quel nombre il faut multiplier par 9, afin que le produict ſoit 17?*
 
-*Sçauoir quel nombre il faut ſouſtraire de 137, afin que le reſte ſoit 86?*
+A cause qu'en toute multiplication le produict de la multiplication estant diuisé par le multiplicateur, donne au quotient le nombre qui a esté multiplié, il est euident que pour auoir le nombre requis, il faut diuiser 117 par 9, & que le quotient 13 est le requis,
 
-En cette question, à cause que le tout est 137, & l'vne de ses deux parties 86, il est euident que pour auoir l'autre partie, il faut soustraire 86 de 137, & restera 51 pour l'autre partie.
+*Sçauoir combien de ſols & liures valent 6480 deniers.*
+
+Pour reduire les monnoyes de moindre valeur en d'autres de plus grande valeur, il faut tousiours faire la diuision, partant pour reduire les 6480 deniers en sols, on les diuisera par 12, qui est le nombre des deniers que vaut vn sol, & viendra 540 sols, qu'il faut

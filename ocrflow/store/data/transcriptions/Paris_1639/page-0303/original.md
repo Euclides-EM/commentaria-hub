@@ -1,5 +1,39 @@
-# Page 302
+# Page 303
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-correspondant 34, & reste 7 que ie pose au dessus du diuiseur 3, en le tranchant, & aussi 34, de qui i'ay fait la soustraction : puis ie multiplie la seconde figure 4 par 9, & vient 36, que i'oste de la figure qui est au dessus du diuiseur 4, à sçauoir de 6, en luy donnãt 3 dixaines, & ne reste rien, & ayant tranché le 4 & le 6, ie diminuë la prochaine qui est 7, de 3 vnitez, que i'auois donné au 6 & reste 4, que ie pose au dessus du 7 en le tranchant : ie multiplie aussi la troisiesme figure 7 par 9 & vient 63, que i'oste de la figure 3, qui est au dessus du 7, en luy donnant 6 dixaines, & ne reste rien, & tranchant 7 & 3, ie deurois diminuer la prochaine de 6 que i'ay donné au 3 : mais à cause qu'elle n'a rien, ie luy donne vne dixaine, de laquelle i'oste le 6 & reste 4, que ie pose au dessus, & la dixaine que ie luy ay donné ie la prens du 4 qui precede, & mets le reste 3 au dessus : ce faict, i'auance le diuiseur 347 sous la figure suiuante, & regarde combien de fois la premiere figure 3 est contenuë au nombre superieur correspondant 34, & trouuant qu'elle est contenuë 9 fois, ie pose 9 dans le quotient, puis ie dis 9 fois 3 sont 27 que i'oste de 34, & pose le reste 7 au dessus en tranchant le 3 & 34 : puis multipliant la seconde 4 par 9, vient 36 que i'oste de 40, que ie donne à la figure qui est au dessus du 4 qui n'a rien, & pose le reste 4 au dessus, & ie prens le 4 que i'ay donné du 7 qui precede, mettant le reste 3 au dessus en tranchant le 7 : en apres multipliant la troisiesme figure 7 par 9, vient 63 que i'oste de 64, qu'aura le 4 qui est au dessus dudit 7, luy donnant 6 dixaines, afin que la soustraction se puisse faire, & reste 1 que ie pose au dessus du 7 en le tranchant, & aussi le 4 de qui i'ay osté 63 : & parce que ie ne puis oster les 6 dixaines que i'ay donné de la prochaine qui est 4, ie luy donne 1 dixaine, & de 14 ostant 6, reste 8 que ie pose au dessus tranchant le 4, & la dixaine que i'ay donné au 4, ie la prens de la prochaine qui est 3, & reste 2 que ie pose au dessus tranchant le 3 : estant ainsi paruenu iusques a la derniere figure du diuidende, & ne pouuant plus aduancer plus auant, on conclura que la diuision est acheuée, & faudra mettre le reste 281 sur vne ligne en suite du quotient 899, & le diuiseur 347 dessous, pour monstrer que le quotient est 899 auec la fraction 281/347. Que si 312234 est vne somme de liures à partir également à 347 hommes, chacun aura 899 liures, & pour sçauoir combien de sols aura cha-
+2 8 1
+2 0
+——
+5 6 2 0
+
+6 8
+1 2
+——
+1 3 6
+6 8
+——
+8 1 6
+
+cun de 281 liures qui restent encore à partir, on reduira les 281 liures en sols, en les multipliant par 20 sols, qui est la valeur d'vne liure, le produict sera 5620 sols, qu'il faut diuiser par 347, & viendra 16 sols pour chacun, & restera encore 68 sols qu'il faudra mettre en deniers, en multipliant par 12 deniers, qui est la valeur d'vn sols, & viendra au produict 816 deniers, qu'il faut aussi diuiser par 347, & viendra à chacun 2 deniers, & restera encore 122 deniers à partir à 347, qui est presque vn tiers de denier pour chacun ; partant on conclura que chacun aura 899 liures 16 sols 2 deniers, & enuiron le tiers d'vn denier.
+
+*Diuiſions brieues.*
+
+Pour multiplier par vn nombre qui aye des zero à son costé droit, il faut les retrancher, & aussi autant de figures du costé droict du nombre à diuiser, puis diuiser les figures du diuidende par les figures restantes du diuiseur : Ce qui se fait ordinairement en mettant les zero, qui sont au costé droict du diuiseur, sous les figures qui sont au costé droict du diuidende ; comme on peut voir aux exemples suiuants.
+
+3 4 6
+1 0 [3 4 6/10.
+
+2 7 4 8
+1 0 0 [2 7 48/100.
+
+1 2 6 4 8
+4 0 0 [3 1 248/400.
+
+*De la preuue de la diuiſion.*
+
+Il faut multiplier le quotient par le diuiseur, & adiouster au produict le reste s'il y en a, & ce faisant, si on trouue le nombre qu'on a diuisé il n'y aura point d'erreur en la diuision : par exemple, 17 diuisé par 3 donne 5⅔ : & 5 estant multiplié par 3 fait 15, auquel si on adiouste le reste de la diuision qui est 2, on aura 17, qui est le nombre diuisé.
+
+*Autre preuue par le moyen du 9.*
+
+Ayant diuisé 1817 par 42, ie trouue 43 11/42, & pour sçauoir s'il n'y

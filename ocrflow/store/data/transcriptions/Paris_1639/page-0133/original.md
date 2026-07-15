@@ -1,26 +1,25 @@
-# Page 132
+# Page 133
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-(figure)
-
-2.d.3 | ab *touche le* ⊙fed *en* e,
-2.d.3 | fg *couppe le* ⊙fed *en* d,
-2.d.3 | eb *eſt tangente ou touchante,*
-2.d.3 | fg *eſt ſecante ou couppante.*
-
-III.
-
-Les cercles sont dits se toucher l'vn l'autre, lesquels en se touchant l'vn l'autre, ne se couppent point.
+gnée du centre sur laquelle tombe la plus grande perpendiculaire.
 
 (figure)
 
-Le cercle DAC touche le cercle ABE par dedans en A.
+V.
 
-Le cercle FBG touche le mesme cercle ABE par dehors en B.
+Segment ou section de cercle, est vne figure comprise sous vne ligne droicte, & la circonference du cercle.
 
-Les cercles BFG & HFG s'entrecouppent l'vn l'autre en F & G.
+(figure)
 
-IV.
+5.d.3 | abc & def *ſnt* ⌓.
 
-Au cercle, les lignes droictes sont dites estre également distantes du centre, quand les perpendiculaires, qui sont menées du centre sur icelles sont égales. Mais celle-là est dite estre plus esloi-
+VI.
+
+L'angle du segment ou de la section, est celuy qui est compris sous vne ligne droicte, & la circonference du cercle.
+
+6.d.3 | cab *eſt* ∠ *du ſegment* ABC.
+
+VII.
+
+Mais vn angle est au segment ou en la section, lors qu'on prend quelque poinct en la circonference du segment, & d'iceluy sont menées deux lignes droictes sur les extremitez de la ligne droicte, laquelle est la base du segment, & c'est celuy-là,

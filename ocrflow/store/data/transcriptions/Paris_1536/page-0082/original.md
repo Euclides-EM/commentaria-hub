@@ -1,23 +1,21 @@
-# LIBER III.
+# 66 GEOMET. ELEMENT.
 
-65
+*[diagram: f e a b l g h c m d]*
+
+vtriq; cómunis d/l : binæ igitur d/l/& l/e/ triáguli d/l/e, duabus d/l/& l/f/trianguli d/l/f, sunt æquales altera alteri, per eandem secundam communem sententiam. Angulus porrò d/l/e, maior est ipso d/l/f/ sub æquis lateribus cóprehenso: recta siquidẽ l/f, cadit inter d/l & l/e, diuidítq; propterea ipsum angulum d/l/e. Basis igitur d/e, basi d/f, maior est, per vigesimamquartã primi. Et proinde d/f/maior est ipsa d/b. Igitur d/a/maxima est: & d/e/ ipsa d/f, atq; d/f/ipsa d/b/maior. ¶Dico præterea, q̃ incidentiũ in curuã circunferentiã g/c, minima est d/c: & quæ ipsi d/c/minimæ propinquior, semper remotiore minor, hoc est, d/k/ipsa d/h, & d/h/ipsa d/g. Connectantur enim l/g, l/h, & l/k/rectæ, per primũ postulatũ. Et quoniã trianguli d/k/l, bina latera d/k/ & k/l, reliquo d/l, per vigesimã primi sunt maiora: tollãtur l/c/ & k/l, quæ per decimãquintã ipsius primi diffinitionẽ sunt æquales. Reliqua igitur d/c, reliqua d/k, per quintam communem sententiam erit minor. Item, quoniam trianguli d/h/l, à limitibus lateris d/l, duæ rectæ lineæ d/k/ & k/l/ introrsum constituuntur: ipsæ igitur constitutæ, reliquis ipsius trianguli lateribus d/h & h/l, per vigesimamprimam ipsius primi, sunt minores. Auferátur l/h & l/k, per ipsam decimamquintam diffinitionem primi, adinuicem æquales. Reliqua igitur d/k, reliqua d/h/minor erit, per eandem quintam communẽ sententiam. Et d/h/propterea minor erit ipsa d/g. Minima igitur est d/c: & quæ illi propinquior d/k/ minor ipsa d/h, eadémq; d/h/remotiore d/g/itidem minor. ¶Aio tandem, quòd binæ tantùm æquales, à puncto d, in circulum ipsum a/b/c/cadunt, ad vtrasque partes ipsius d/c/ minimæ: vtpote, ipsi d/h/vna tantùm æqualis, ad alterã partem ipsius d/c, versus m. Ad rectam enim d/l, atque ad datum in ea punctum l, dato angulo rectilineo d/l/h: æqualis angulus rectilineus constituatur d/l/m, per vigesimãtertiam primi. & connectatur d/m, per primum postulatum. Cùm igitur l/h/ipsi l/m/sit æqualis, per decimamquintam ipsius primi diffinitionem, & vtrique cómunis d/l: binæ igitur d/l/ & l/h/trianguli d/l/h, duabus d/l & l/m/ trianguli d/l/m, sunt æquales altera alteri: & æquos inuicem comprehendunt angulos, per constructionem. Basis igitur d/h, basi d/m, per quartã primi est æqualis. Neq; ipsi d/h/alia cadit æqualis, præter d/m, & ediuerso. Aut enim caderet inter h/ & m/puncta: túncq; minor esset vtraq; & d/h/ & d/m, nempe vicinior ipsi d/c/minimæ. vel caderet extra pũcta h/& m/versus a: & tũc remotior esset ab eadem minima, & propterea maior ipsa d/h/vel d/m, per primam partẽ iam demonstratam. Idem quoq;, ac non dissimili via licebit ostendere, de rectis in conuexam eiusdem circuli circunferẽtiam coincidentibus, ad vtrasque partes ipsius d/a/maximæ. Non cadunt igitur ab eodẽ puncto d, in circulũ ipsum a/b/c, plures duabus rectis lineis æquales, ad vtrasq; partes ipsius d/c/ minimæ, aut d/a/maximæ. Si extra igitur circulum : &c, vt in theoremate. Quod tandem erat ostendendum.
+
+> Pars secũda.
 
 > Tertia pars.
 
-æqualis. ¶Aio tandem, quòd ipsi g/c, ab eodem puncto g, alia quàm g/h/non cadet æqualis. Si enim id possibile fuerit: aut illa cadet supra punctum h, vel infra. Si ceciderit supra versus a: tunc ipsa erit propinquior ei quæ per centrum, vtpote ipsi g/a, ergo maior ipsa g/h/remotiore, per primam partem iam demonstratam: & maior consequenter ipsa g/c. Quòd si detur incidere infra punctum h, versus e: tunc ipsa linea, remotior erit ab eadem g/a/quæ per centrum. ergo minor ipsa g/h/propinquiore, per eandem præostensam primam partem: & minor igitur ipsa g/c. Similiter ostendemus, q nec ipsi g/h/alia quàm g/c/dabitur æqualis, ab eodem puncto g, & ad partes b/d. De cæteris quibuscunq;, idem respondēter subsequetur. Igitur si in diametro circuli aliquod contingat punctū: & quæ sequuntur reliqua. Quod demonstrandum fuerat.
+## Corollarium.
 
-Θεώρημα ζ, Πρόθεσις η.
+¶Quæ igitur à pũcto extra circulũ dato, in circulum ipsum cadunt rectæ lineæ, ab ipsa minima, vel maxima (quæ per centrũ) æquè distãtes: æquales sunt adinuicem, & è diuerso, siue in conuexã, siue in curuã inciderint eiusdem circuli circũferẽtiam.
 
-Εαν κύκλου ληφθῇ τι σημεῖον ἐκτός, ἀπὸ δὲ τοῦ σημείου πρὸς τὸν κύκλον διαχθῶσιν εὐθεῖαι τινές, ὧν μία μὲν διὰ τοῦ κέντρου, αἱ δὲ λοιπαὶ ὡς ἔτυχε, τῶν μὲν πρὸς τὴν κοίλην περιφέρειαν προσπιπτουσῶν εὐθειῶν, μεγίστη μὲν ἡ διὰ τοῦ κέντρου. τῶν δὲ ἄλλων, ἀεὶ ἡ ἔγγιον τῆς διὰ τοῦ κέντρου, τῆς ἀπώτερον, μείζων ἐστί. τῶν δὲ πρὸς τὴν κυρτὴν περιφέρειαν προσπιπτουσῶν εὐθειῶν, ἐλαχίστη μὲν ἐστὶν ἡ μεταξὺ τοῦ τε σημείου καὶ τῆς διαμέτρου. τῶν δὲ ἄλλων ἀεὶ ἡ ἔγγιον τῆς ἐλαχίστης, τῆς ἀπώτερον ἐστὶν ἐλάττων. δύο δὲ μόνον εὐθεῖαι ἴσαι προσπεσοῦνται ἀπὸ τοῦ σημείου πρὸς τὸν κύκλον ἐφ᾽ ἑκάτερα τῆς ἐλαχίστης.
+Θεώρημα η, Πρόθεσις θ.
 
-## Theorema 7, Propositio 8.
+Εὰν κύκλου ληφθῇ τι σημεῖον ἐντός, ἀπὸ δὲ τοῦ σημείου πρὸς τὸν κύκλον προσπίπτωσιν πλείους ἢ δύο εὐθεῖαι ἴσαι, τὸ ληφθὲν σημεῖον, κέντρον ἐστὶ τοῦ κύκλου.
 
-SI extra circulum suscipiatur aliquod punctum, ab eóque puncto ad circulum deducantur rectæ lineę aliquæ, quarū quidem vna per centrum extendatur, reliquæ verò vtcunque: In cōuexam circunferentiam cadentium rectarum linearum, maxima est, quæ per centrū ducta est: In curuam verò circunferentiam cadentium rectarum linearum, minima est, quæ inter punctum & dimetientē iacet. minimæ verò propinquior: semper remotiore minor est. Duæ autem tantùm rectæ lineæ, ab eo puncto cadunt æquales, ad vtrasque partes minimæ.
+## Theorema 8, Propositio 9.
 
-> Prima pars theorematis.
-
-ORONTIVS. ¶Esto circulus a/b/c, datum vero punctum extra circulum d: à quo in ipsum circulum procidāt rectæ lineæ d/a, d/e, d/f, & d/b, curuam eiusdem circuli circunferentiam in punctis g, h, k, c, dispescētes: quarum d/a/per ipsius circuli centrum (quod sit l) extendatur. Dico primum, q in a/b/ conuexā circunferētiam cadētium rectarum linearum, maxima est d/a, per l/centrum educta: & quæ illi vicinior d/e, remotiore d/f/maior, eademq; d/f/maior ipsa d/b. Connectantur enim l/e, l/f, & l/b/rectæ lineæ, per primum postulatum. Et quoniam æqualis est l/a/ipsi l/e, per decimamquintam diffinitionem primi, & vtriq; communis d/l: tota igitur d/a, ipsis d/l/& l/e, per secundam communem sententiam est æqualis. Atqui d/l, & l/e/bina ipsius d/l/e/ trianguli latera, sunt maiora reliquo d/e, per vigesimam primi: & ipsa igitur d/a, maior est ipsa d/e. æqualia enim eiusdem sunt æquè maiora, per sextæ communis sententiæ cóuersionem. Insuper, quoniam l/e/ipsi l/f, per eandem decimamquintam diffinitionem primi est æqualis, &
-
-*[diagram: a b c d e f g h k l m]*
-
-f.iij.
+SI in circulo suscipiatur punctum aliquod, & ab eo puncto ad

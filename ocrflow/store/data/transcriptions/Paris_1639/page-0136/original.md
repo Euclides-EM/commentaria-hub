@@ -1,40 +1,42 @@
-# Page 135
+# Page 136
 
-# D'EVCLIDE, LIV. III.
-
-X.
-
-Semblables segments ou sections de cercles sont celles, qui reçoiuent angles égaux ; ou esquels les angles sont égaux entr'eux.
+# LES ELEMENTS
 
 (figure)
 
-hyp. | ∠abc 2|2 ∠def,
-10.d.1 | *ſegm.* abc *ſml. ſegm* def.
+eg *eſt commun.*
 
-De cette definition s'ensuit, que les segments semblables sont pareilles parties de leur tout, cōme le segment qui est le quart d'vn petit cercle est sēblable au segmēt qui est le quart d'vn grād cercle.
+α.15.d.1 | ga 2|2 gc,
+8.1 | ∠ceg 2|2 ∠aeg,
+10.d.1 | ∠ceg *eſt* ┘,
+conſtr. | ∠ceb *eſt* ┘,
+12.a.1 | ∠ceg 2|2 ∠ceb,
+*contr. 9. a. 1.*
+concl. 21.a.1 | •f *eſt centr..* ⊙.
 
-THEOR. I. PROPOS. I.
+COROLLAIRE.
 
-Trouuer le centre d'vn cercle donné.
+De cette proposition il est euident, que si au cercle, vne ligne droicte est couppée en deux également & à angles droicts, par vne autre ligne droicte, le centre du cetcle sera en icelle couppante.
+
+THEOR. I. PROPOS. II.
+
+Si en la circonference d'vn cercle on prend deux poincts tels qu'on voudra ; la ligne droicte conjointe à iceux poincts tombera dedans le cercle.
 
 (figure)
 
 *Hypoth.*
 
-abc *eſt* ⊙ D.
+cab *eſt* ⊙,
+arbitr. | a & b *ſnt* • *dās la* ⊙.
+ab *eſt* ——,
 
-*Conſtruction.*
+*Req. à demonſtr.*
 
-1.p.1 | ac *eſt* —— *arbitr.*
-10.1 | ae 2|2 ec,
-11.1 | eb ⊥ ac,
-2.p.1 | bed *eſt* ——,
-10.1 | df 2|2 fb,
-ſymp. | •f *eſt centre du* ⊙.
+ab *eſt dans le* ⊙.
+
+*Prepar.*
+
+arbitr. | d *eſt* • *en* ab,
+1.p.1 | ca, cb, cd *ſnt* ——.
 
 *Demonſtr.*
-
-ſuppoſ | g *eſt centr..* ⊙, α
-1.p.1 | ga, gc, ge *ſnt* ——,
-*aux* △;gea & gec
-conſtr. | ae 2|2 ec,

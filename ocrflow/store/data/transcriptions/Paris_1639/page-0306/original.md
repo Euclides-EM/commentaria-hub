@@ -1,30 +1,37 @@
-# Page 305
+# Page 306
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-*Sçauoir quel nombre doit eſtre diuiſé par 6, afin que le quotient ſoit 17?*
+diuiser par 20 pour les reduire en liures, & ce faisant on aura pour 6480 deniers 540 sols, qui valent 27 liures.
 
-A cause qu'en toute diuision, le quotient estant multiplié par le diuiseur engendre le nombre qui a esté diuisé, il est manifeste que pour auoir le nombre requis, il faut multiplier 17 par 6, & que le produict 102 est le nombre requis.
+*Des nombres de la dixme.*
 
-*Sçauoir combien de ſols & deniers valent 27 liures?*
+Les nombres de la dixme s'appellent ainsi, à cause que l'entier, comme vne toise, est diuisé en 10 parties égales, qui s'appellent minutes, chaque minute en 10 secondes, & chaque seconde en 10 tierces, & ainsi à l'infiny. Tellement qu'vne toise, par exemple, contient 10 minutes, 100 secondes, 1000 tierces, &c. qui se marquent ainsi.
 
-2 7
-2 0
+10′, 100″, 1000‴.
+
+Le propre des nombres de la dixme s'entresuiuants sans interruption, est de signifier la mesme chose estant conjoints & reüuis en vn nombre, qu'estant disioints & separez : par exemple, 27 toises, 8′, 7″, valent 2787″ de toise : & au contraire 2787″ de toise valent 27 toises 8′ & 7″, ou 27 87/100 toises.
+
+Si la suite des nombres de la dixme est interrompuë, pour les reünir en vn nombre, il faut mettre des zero aux endroits que leur suite est interrompuë, ce faisant on trouuera que 4 toises & 8‴ valent 4008‴ de toise.
+
+*De l'addition.*
+
+Il faut escrire les nombres de mesme denomination l'vn sur l'autre, puis faire l'addition à l'ordinaire.
+
+*Exemple 1.*
+
+2 4 6 3″ *Nombres à*
+2 0 2 4″ *adjouſter.*
+8 4′
 ——
-5 4 0 s.
-1 2 d.
+5 3 2 7″ *Somme*
+Ou 5 3 27/100.
+
+*Exemple 2.*
+
+3 6 0 6″ *Nombres à*
+3 0 0 0 7‴ *adiouſter.*
+8′
 ——
-1 0 8 0
-5 4 0
-——
-6 4 8 0 d.
-
-A cause que pour reduire les monnoyes de plus grande valeur en d'autres de moindre valeur, il faut faire la multiplication, pour reduire les 27 liures en sols, il faut multiplier 27 par 20 sols, qui est la valeur d'vne liure, & viendra 540 sols, qu'il faudra multiplier par 12 deniers, qui est la valeur d'vn sol, & viendra 6480 deniers, qui valent autant que 27 liures ou 540 sols.
-
-*Sçauoir quel nombre il faut multiplier par 9, afin que le produict ſoit 17?*
-
-A cause qu'en toute multiplication le produict de la multiplication estant diuisé par le multiplicateur, donne au quotient le nombre qui a esté multiplié, il est euident que pour auoir le nombre requis, il faut diuiser 117 par 9, & que le quotient 13 est le requis,
-
-*Sçauoir combien de ſols & liures valent 6480 deniers.*
-
-Pour reduire les monnoyes de moindre valeur en d'autres de plus grande valeur, il faut tousiours faire la diuision, partant pour reduire les 6480 deniers en sols, on les diuisera par 12, qui est le nombre des deniers que vaut vn sol, & viendra 540 sols, qu'il faut
+6 6 8 6 7‴ *Somme*
+Ou 6 6 867/1000.

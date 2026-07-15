@@ -1,34 +1,31 @@
-# Page 286
+# Page 287
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
 (figure)
 
-*Req. à demonſtr.*
+ab == dc : ac == de,
 
-bf 2|2 bg + al.
+*Requis à demonſtr.*
 
-*Prepar.*
-
-12.1 | ad ⊥ bc.
+bce *eſt* ——.
 
 *Demonſtr.*
 
-c.8.6,& 4.6 | dc π ca 2|2 ca π cb,
-c.8.6 | db π ba 2|2 ba π bc,
-1.nota c.20.6 | dc π bc 2|2 al π bf,
-2 nota c.20.6 | db π bc 2|2 bg π bf,
-24.5 | al + bg π bf 2|2 bc π bc,
-concl. ſ.14.5 | al + bg 2|2 bf.
+29.1 | ∠a 2|2 ∠acd, α
+29.1 | ∠d 2|2 ∠acd,
+1.a.1 | ∠a 2|2 ∠d,
+hyp. | ab π ac 2|2 dc π de,
+6.6 | ∠b 2|2 ∠dce,
+α.2.a.1 | ∠b + ∠a 2|2 ∠ace,
+| ∠acb *commun. add.*
+2.a.1 | ∠b + ∠a + ∠acb 2|2 ∠ace + ∠acb,
+32.1 | ∠b + ∠a + ∠acb 2|2 2┘,
+1.a.1 | ∠ace + ∠acb 2|2 2┘,
+concl. 14.1 | bce *eſt* ——.
 
-*La 24. du 5 s'applique à cette demonſtration ainſi.*
+THEOR. XXIII. PROPOS. XXXIII.
 
-La premiere DC est à la seconde BC, comme la troisiesme AL à la quatriesme BF : & la cinquiesme BD est à la seconde BC, comme la sixiesme BG à la quatriesme BF : Mais la premiere DC & la cinquiesme BD ensemble font la seconde BC : partant la troisiesme AL & la sixiesme BG ensemble seront égaux à la quatriesme BF : ce qu'il falloit demonstrer.
+Aux cercles égaux, les angles ont mesme raison entr'eux, que les circonferences sur lesquelles ils sont appuyez, soit qu'ils soient appuyez estant constituez aux centres ou aux circonferences : les secteurs sont aussi de mesme entr'eux, d'autant qu'ils sont constituez au centre.
 
-THEOR. XXII, PROPOS. XXXII.
-
-Si deux triangles, qui ont deux costez proportionaux à deux costez, sont disposez selon vn angle, en sorte que leurs costez de mesme raison soient aussi paralleles : les autres costez d'iceux triangles se rencontreront directement.
-
-*Hypoth.*
-
-ab π ac 2|2 dc π de,
+(figure)

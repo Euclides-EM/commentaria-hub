@@ -1,3 +1,5 @@
-*[blank page]*
+*[spine of the binding, red leather with gilt lettering and ornaments]*
 
-*[back cover: marbled paper over boards with red leather spine, no text]*
+# FINEVS IN SEX PRIORES LIBROS EVCLIDI
+
+## PARISIIS. 1536

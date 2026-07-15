@@ -1,37 +1,22 @@
-# Page 159
+# Page 160
 
-# D'EVCLIDE, LIV. III.
-
-1.a.1 | ∠cae + ∠cad 2|2 ∠dbc + ∠cad,
-
-∠cad *commun. ſubtr.*
-
-concl. 3.a.1 | ∠cae 2|2 ∠dbc.
-
-THEOR. XXI. PROPOS. XXIII.
-
-Sur vne mesme ligne droicte, on ne pourra constituer deux segments de cercles semblables & inégaux, & de mesme part.
+# LES ELEMENTS
 
 (figure)
 
-*Hypotheſe.*
+*Hypoth.*
 
-abc & adc *ſont ſegments de* ⊙;
-*ſegment* abc 3|2 *ſegment* adc.
+ac 2|2 df,
+⌓ abc & ⌓ def *ſont ſemblables.*
 
-*Requis à demonſtrer.*
+*Req. à demonſtrer.*
 
-*ſegment* abc *n'eſt ſemblable au ſegment* adc.
-
-*Preparation.*
-
-1.p.1 | cb, ab, ad *ſont* ——.
+⌓ abc 2|2 ⌓ def.
 
 *Demonſtration.*
 
-32.1 | ∠adc 3|2 abc,
-concl. 10.d.3 | *ſegment* abc *n'eſt ſemblable au ſegment* adc.
+Les bases AC & DF, estans égales, conuiendront entr'elles si on entend que l'vne soit posée sur l'autre, & le segment ABC conuiendra aussi auec le segment DEF; car s'il ne conuient point il tombera au dehors, ou au dedans, ou partie dehors, & partie dedans: s'il tombe au dedors ou au dedans, les segments seront dissemblables par la precedente, ce qui est contre l'hypothese. S'il tombe en partie au dedãs, & en partie au dehors, ils s'entrecouperont en plus de deux poincts, à sçauoir en A, F, G, ce qui est impossible par la 10. du 3. donc le segment ABC conuiēdra auec le segment DEF. & par consequent seront égaux entr'eux, par le 8.ax.1.
 
-THEOR. XXII. PROPOS. XXIV.
+SCHOLIE.
 
-Semblables segments de cercles, constituez sur lignes droictes égales, sont égaux entr'eux.
+Veu que les circonferences ABC, DEF conuiennent entr'elles, elles seront aussi égales.

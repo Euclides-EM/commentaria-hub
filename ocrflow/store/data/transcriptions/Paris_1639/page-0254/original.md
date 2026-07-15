@@ -1,28 +1,55 @@
-# Page 253
+# Page 254
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-α.7.5 | △ade π △dbe 2|2 △ade π △edc,
-1.6 | △ade π △edc 2|2 ae π ec,
-1.concl. β.11.5 | ad π db 2|2 ae π ec.
+(figure)
 
-*Hypoth. 2.*
+*Hypoth. 1.*
 
-ad π db 2|2 ae π ec.
+abc *eſt* △,
+∠dab 2|2 ∠dac.
 
-*Req. à demonſtrer.*
+*Req. à demonſtr.*
 
-de == bc.
+bd π dc 2|2 ab π ac.
+
+*Prepar.*
+
+31.1 | ce == ad. α
+2.p.1 | bae *eſt* ——.
 
 *Demonſtr.*
 
-1.6 | △ade π △dbe 2|2 ad π db. γ
-hyp. | ad π db 2|2 ae π ec,
-1.6 | ae π ec 2|2 △ade π △ecd,
-γ.11.5 | △ade π △dbe 2|2 △ade π △ecd,
-9.5 | △dbe 2|2 △ecd,
-2 concl 39.5 | de == bc.
+α.29.1 | ∠bda 2|2 ∠bce,
+17.1 | ∠b + ∠bda 2|3 2┘
+1.a.c | ∠b + ∠bce 2|3 2┘
+13.a.1 | bce *eſt* △,
+hyp. | ∠dab 2|2 ∠dac,
+29.1 | ∠e 2|2 ∠dab,
+29.1 | ∠ace 2|2 ∠dac,
+1.a.b | ∠e 2|2 ∠ace,
+nota 6.1 | ae 2|2 ac,
+1.concl. 2.6 | bd π dc 2|2 ba π ae, Ⅱ ac.
 
-THEOR. III. PROPOS. III.
+*Hypoth. 2.*
 
-Si vn angle d'vn triangle est couppé en deux parties égales, & que la ligne droicte qui couppe l'angle, couppe aussi la base; les segments de la base auront mesme raison entr'eux que les autres costez du triangle: Et si les segments de la base ont mesme raison entr'eux que les autres costez du triangle, la ligne droicte menée du sommet au poinct de la section, couppe l'angle du triangle en deux également.
+bd π dc 2|2 ab π ac.
+
+*Req. à demonſtr.*
+
+∠dab 2|2 ∠dac.
+
+*Demonſtr.*
+
+hyp. | ba π ac 2|2 bd π dc,
+α.2.6 | bd π dc 2|2 ba π ae,
+11.5 | ba π ac 2|2 ba π ae,
+nota. 9.5 | ac 2|2 ac,
+5.1 | ∠e 2|2 ∠ace,
+29.1 | ∠dab 2|2 ∠e,
+29.1 | ∠dac 2|2 ∠ace,
+2 concl. 1.a.b | ∠dab 2|2 ∠dac.
+
+THEOR. IV. PROPOS. IV.
+
+Des triangles equiangles les costez qui sont autour des angles égaux, sont proportionaux: Et les costez qui soustiennent les angles égaux, sont homologues, ou de mesme raison.

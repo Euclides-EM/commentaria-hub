@@ -1,25 +1,31 @@
-# Page 29
+# Page 30
 
-# D'EVCLIDE, LIV. I.
-
-égaux, mais n'est pas equilatere ny rectangle, comme GLMH.
+# LES ELEMENTS
 
 (figure)
 
-XXXIII.
+Notez, que pour plus grande briefueté, les Geometres ont de coustume d'exprimer le parallelogramme tant rectangle que non rectangle, par deux lettres seulement, à sçauoir par celles qui sont opposées diametralement : comme celuy-cy se pourra nommer le parallelogramme GM ou HL.
 
-Mais outre ces figures, toutes les autres quadrilateres sont appellées trapezes, comme GNDH.
+Or les figures quadrilateres sont diuisées en parallelogrammes & trapezes.
+
+Il y a quatre especes de parallelogrammes, à sçauoir le quarré, le rectangle, le rhombe, & le rhomboïde.
+
+Il y a aussi trois especes de trapezes, à sçauoir trapeze isoscele, trapeze scalene, & trapeze irregulier.
+
+Trapeze isoscele est celuy qui a deux costez opposez paralleles, & les deux autres costez égaux entr'eux. mais non paralleles, comme ABED.
+
+hyp. | de == ab,
+hyp. | ad 2|2 be,
+ergo | adeb *eſt trapeze iſoſcele.*
 
 (figure)
 
-XXXIV.
+Trapeze scalene est celuy qui a deux costez opposez paralleles, & les deux autres costez inégaux entr'eux, comme DHFK.
 
-Paralleles sont lignes droictes, lesquelles estant en vn mesme plan, & prolongées infiniment de part & d'autre, ne se rencontrent d'vn costé ny d'autre, comme A & B.
+hyp. | dh == kf,
+hyp. | fh 3|2 kd,
+ergo | kdhe *eſt trapeze ſcalene.*
 
 (figure)
 
-*Euclide a icy fini les definitions du premier liure, les deux suiuantes sont de Clauius, & celles qui suiuent nous les auons adioustées.*
-
-XXXV.
-
-Parallelogramme est vne figure quadrilatere, de laquelle les costez opposez sont paralleles ou equidistantes, comme GLMH.
+Trapeze irregulier est celuy qui n'a aucuns costez paralleles, comme ABCD.

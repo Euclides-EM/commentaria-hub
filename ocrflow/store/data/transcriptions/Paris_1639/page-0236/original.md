@@ -1,59 +1,54 @@
-# Page 235
+# Page 236
 
-# D'EVCLIDE, LIV. V.
-
-& MO: partant par la 6. definition du 5. AC est à CB, comme DF à FE; ce qu'il falloit demonstrer.
-
-SCHOLIE I.
-
-*Demonſtration de la diuiſion de raiſon inuerſe.*
+# LES ELEMENTS
 
 (figure)
-
-*Hypoth.*
-
-ab π cb 2|2 de π fe.
-
-*Requis à demonſtr.*
-
-cb π ac 2|2 fe π df.
 
 *Demonſtr.*
 
-hyp. | ab π cb 2|2 de π fe,
-17.5 | ac π cb 2|2 df π fe,
-concl. c.4.5 | cb π ac 2|2 fe π df.
+ſuppoſ | ac π cb 2|2 df π fg,
+17.5 | ab π bc 2|2 dg π gf,
+hyp. | ab π bc 2|2 de π ef,
+11.5 | dg π gf 2|2 de π ef,
+9.a.1 | dg 3|2 de,
+14.5 | gf 3|2 ef,
+| *contr. 9.a.1.*
 
-SCHOLIE II.
+SCHOL. I.
 
-*Demonſtr. de la diuiſ.. raō. contr. & inuerſ. contraire.*
+*Demonſtr.. compoſit.. raō. conuerſe.*
 
 (figure)
 
-*Hypoth.*
-
-ac π ab 2|2 df π de.
+hyp. | ab π bc 2|2 de π ef.
 
 *Req. à demonſtr.*
 
-ac π cb 2|2 df π fe,
-cb π ac 2|2 fe π df.
+ac π ab 2|2 df π de.
 
 *Demonſtr.*
 
-hyp. | ac π ab 2|2 df π de,
-c.4.5 | ab π ac 2|2 de π df,
-1.concl. 17.5 | cb π ac 2|2 fe π df,
-2 concl. c.4.5 | ac π cb 2|2 df π fe.
+hyp. | ab π bc 2|2 de π ef.
+c.4.5 | bc π ab 2|2 ef π de,
+concl. 18.5 | ac π ab 2|2 df π de.
 
-THEOR. XVIII. PROPOS. XVIII.
+SCHOL. II.
 
-Si les grandeurs diuisées sont proportionelles, estant composées, elles seront aussi proportionelles.
+*Demonſtr.. compoſit.. raō. contr. & inuerſ. contraire.*
 
 *Hypoth.*
 
 ab π bc 2|2 de π ef.
 
-*Req. à demonſtr.*
+*Requis à demonſtrer.*
 
-ac π cb 2|2 df π fe.
+ab π ac 2|2 de π df,
+bc π ac 2|2 ef π df,
+
+*Demonſtr.*
+
+hyp. | ab π bc 2|2 de π ef,
+c 4.5 | bc π ab 2|2 ef π de, α
+18 5 | ac π ab 2|2 df π de,
+1.concl. c.4.5 | ab π ac 2|2 de π df,
+2 concl. α 2ſ 18 5 | bc π ac 2|2 ef π df.

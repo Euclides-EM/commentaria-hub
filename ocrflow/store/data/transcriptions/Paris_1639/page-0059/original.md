@@ -1,44 +1,50 @@
-# Page 58
+# Page 59
 
-# LES ELEMENTS
-
-*Hypoth.*
-
-*aux* △;abc & def
-ab 2|2 de,
-ac 2|2 df,
-bc 2|2 ef.
+# D'EVCLIDE, LIV. I.
 
 (figure)
 
-*Req. à demonſtr.*
+1.1 | def *eſt* △ *equilat.*
+1.p.1. | af *eſt* ——,
+ſymp. | ∠fad 2|2 ∠fae.
 
-∠bac 2|2 ∠edf.
+*Demonſtr.*
 
-*Demonſtration.*
+*aux* △;afd & afe
+conſtr. | ad 2|2 ae,
+af *eſt commun.*
+conſtr. | df 2|2 ef,
+concl. 8.1. | ∠fad 2|2 ∠fae.
 
-Car si on suppose que le poinct B soit mis sur le poinct E, & la ligne BC sur la ligne EF, le poinct C tombera sur le poinct F : car si le poinct C ne tomboit sur le poinct F, il seroit manifeste par le 9. ax. que la ligne BC ne seroit pas égale à la ligne EF, mais par l'hypothese la ligne BC est égale à la ligne EF, par consequent le poinct C tombera sur le poinct F : & par la 7. propos. le poinct A tombera aussi sur le poinct D, puisque par l'hypothese BA est égal à ED, & CA à FD : & par le 14. ax. le triangle ABC conuiendra auec le triangle DEF, d'où s'ensuit par le 8. ax. que l'angle A est égal à l'angle D, ce qu'il falloit demonstrer.
+*Practique.*
 
-*Coroll.*
+hyp. | bac *eſt* ∠D.
+3.p.1 | ade,df,ef,*ſnt* ⊙ 2|2 đe.*arbitr.*
+1.p.1 | af *eſt* ——,
+ſymp. | ∠fab 2|2 ∠fac.
 
-1.concl. 8.a.1. | ∠b 2|2 ∠e,
-2.concl. 8.a.1 | ∠c 2|2 ∠f,
-3.concl. 8.a.1. | △abc 2|2 △def.
+*Demonſtr.*
 
-PROBL. IV. PROPOS. IX.
+8.1 | ∠fad 2|2 ∠fae.
 
-Couper en deux également vn angle rectiligne donné.
+(figure)
+
+PROBL. V. PROPOS. X.
+
+Couper vne ligne droicte donnée & terminée en deux parties égales.
+
+(figure)
 
 *Hypoth.*
 
-∠bac *eſt* D.
+ab *eſt* —— D.
 
-*Requis à faire.*
+*Req. à faire.*
 
-∠fab 2|2 ∠fac.
+ad 2|2 db,
 
 *Conſtr.*
 
-ad *eſt arbitr.*
-3.1 | ae 2|2 ad,
-1.p.1. | de *eſt* ——,
+1.1 | abc *eſt* △ *equilat.*
+9.1 | ∠dca 2|2 ∠dcb,
+ſymp. | ad 2|2 db.

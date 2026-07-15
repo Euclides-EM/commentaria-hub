@@ -1,32 +1,38 @@
-# Page 222
+# Page 223
 
-# LES ELEMENTS
-
-le reste sera autant multiple du reste, comme la toute l'est de la toute.
-
-(figure)
+# D'EVCLIDE, LIV. V.
 
 *Hypoth.*
 
-ab *multipl..* cd 2|2 ae *multipl..* cf.
+ab *multipl..* e 2|2 cd *multipl..* f.
+ag *multipl..* e 2|2 ch *multipl..* f.
+
+(figure)
 
 *Req. à demonſtrer.*
 
-eb *multipl..* fd 2|2 ab *multipl..* cd, Ⅱ ae *multipl..* cf.
+gb 2|2 e, & hd 2|2 f,
+Ⅱ, gb *multipl..* e 2|2 hd *multipl..* f.
 
 *Demonſtr.*
 
-ſuppoſ. | ga *multipl..* fd 2|2 ab *multipl..* cd, Ⅱ ae *multipl..* cf,
-1.5 | ge *multipl..* cd 2|2 ae *multipl..* cf,
-hyp | ab *multipl..* cd 2|2 ae *multipl..* cf,
-a.5 | ge *multipl..* cd 2|2 ab *multipl..* cd,
-6.a.1 | ge 2|2 ab,
-| ae *commun. ſubtr.*
-3.a.1 | ga 2|2 eb,
-concl 6.a.d | eb *multipl..* fd 2|2 ga *multipl..* fd, Ⅱ ab *multipl..* cd
+ſ.2.d.5 | *multd..part..* ab 2|2 *multd..part..* cd,
+ſ.2.d5 | *multd..part..* ag 2|2 *multd..part..* ch,
+3.a.1 | *multd..part..* gb 2|2 *multd..part..* hd,
+concl. ergo | Ⅱ, gb 2|2 e, & hd 2|2 f,
+3.a.1 | Ⅱ, gb *multipl..* e 2|2 hd *multipl..* f.
 
-En ceste demonstration GE & AB sont égales entr'elles, à cause que chacune d'icelles contient CD, autant de fois que AE contient CF.
+Ceste demonstration est manifeste du 3. ax. 1. car si des multitudes égales AB & CD, on oste multitudes égales AG & CH, par le 3. ax. du 1. les restes GB & HD seront multitudes égales: ce qu'il falloit demonstrer.
 
-THEOR. VI. PROPOS. VI.
+THEOR. VII. PROPOS. VII.
 
-Si deux grandeurs sont equimultiples de deux autres grandeurs, & quelques retranchées d'icelles soient equimultiples des mesmes grandeurs, ou les restes seront égaux aux mesmes, ou equimultiples d'icelles.
+Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
+
+(figure)
+
+hyp. | a 2|2 b.
+
+*Req. à demonſtr.*
+
+a π c 2|2 b π c,
+c π a 2|2 c π b.

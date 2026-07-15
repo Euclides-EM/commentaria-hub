@@ -1,31 +1,21 @@
-# LIBER III.
+# GEOMET. ELEMENT.
 
-ſuæ parti a/e/f/erit æqualis: quod per nonā cōmunē ſententiā eſt impoſſibile . Si in circulo igitur a/b/c/d/binæ rectæ lineæ a/c/& b/d,ſeſe inuicē ſecuerint nō per centrum extēſæ:ſeſe inuicē bifariā non ſecabunt. Quod oſtendere fuerat operæpretiū.
+64
 
-Θεώρημα δ, Πρόθεσις ε.
+Θεώρημα ς, Πρόθεσις ζ.
 
-Ἐὰν δύο κύκλοι τέμνωσιν ἀλλήλους,οὐκ ἴσαι αὐτῶν ἔσονται τὸ αὐτὸ κέντρον.
+Εαν κύκλου ἐπὶ τῆς διαμέτρου ληφθῇ τι σημεῖον, ὃ μή ἐστι κέντρον τοῦ κύκλου, ἀπὸ δὲ τοῦ σημείου προσπίπτωσιν εὐθεῖαι τινὲς πρὸς τὸν κύκλον, μεγίστη μὲν ἔσται ἐφ᾽ ἧς τὸ κέντρον, ἐλαχίστη δὲ ἡ λοιπή. τῶν δ᾽ ἄλλων ἀεὶ ἡ ἔγγιον τῆς διὰ τοῦ κέντρου, τῆς ἀπώτερον μείζων ἐστί. δύο δὲ μόνον εὐθεῖαι ἴσαι ἀπὸ τοῦ αὐτοῦ σημείου προσπεσοῦνται πρὸς τὸν κύκλον, ἐφ᾽ ἑκάτερα τῆς ἐλαχίστης.
 
-## Theorema 4, Propoſitio 5.
+## Theorema 6, Propositio 7.
 
-SI bini circuli ſeſe inuicem ſecuerint : non erit eorum idem centrum.
+SI in diametro circuli aliquod contingat punctum quod minimè circuli centrum sit, ab eóque puncto in circulum quædam rectæ lineæ procidant: maxima erit in qua centrum, minima verò reliqua. aliarum verò, semper propinquior ei quæ per centrum extenditur, remotiore maior est. Duæ autem solùm rectæ lineæ æquales, ab eodem puncto in circulum cadunt, ad vtrasque partes minimæ.
 
-ORONTIVS.Bini enim circuli a/b/c/& d/b/e, ſeſe inuicem ſecent in duobus punctis,quorum alterum ſit b.Dico quòd ipſorum circulorū non eſt idem centrum. Si enim fuerit poſſibile,vt idem habeant centrum:eſto illud f. & connectantur f/b/& f/c,per primum poſtulatum:extēdātúrq; per ſecundum poſtulatum,eadē f/c/in rectum vſq; ad e. Si igitur f/punctum,fuerit centrū circuli a/b/c: erit f/c/ipſi f/b/æqualis, per decimamquintam diffinitionem primi.Si idem quoque punctum f, centrum extiterit ipſius d/b/e/circuli:æqualis rurſum erit f/e/eidem f/b, per eandem decimamquintam diffinitionē.Binæ igitur f/c/& f/e,eidem f/b/erūt æquales:& æquales propterea adinuicē,per primā communē ſentētiā.Aequalis igitur erit f/e/ipſi f/c.atqui f/c/pars eſt ipſius f/e:totū igitur eſſet æquale ſuæ parti.Omne porrò totū eſt ſua parte maius,per nonam communem ſententiam: igitur punctum f, non eſt commune centrum datorum a/b/c/& d/b/e/circulorū. Si bini itaq; circuli:& quæ ſequūtur reliqua. Quod receperamus oſtendendum.
+> Pars prima theorematis.
 
-> Oſtenſio rurſum ab impoſſibili.
+ORONTIVS. ¶Esto datus circulus a/c/e/h, cuius centrum f, dimetiens verò a/f/e, & contingens in eo punctum g, quod non est circuli centrum: procidentes autem ex eodem puncto g/in ipsius circuli circunferentiam lineæ rectæ, sint g/b, g/c, & g/d. Aio primùm, q g/a/est omnium maxima, & g/e/minima: aliarum porrò, g/b/ipsi g/a/propinquior, maior ipsa g/c, atq; g/c/remotiore g/d/maior. Connectátur enim f/b, f/c, & f/d/rectæ, per primum postulatum. Cùm igitur f/a, ipsi f/b, per decimáquintam diffinitionem primi, sit æqualis, & vtriq; communis f/g: binæ igitur g/f/& f/a, duabus g/f/& f/b/sunt æquales. g/f/porrò & f/b, maiores sunt ipsa g/b: omnis siquidē trianguli bina latera, reliquo sunt maiora quomodocunq; assumpta, per vigesimam primi. Et g/a/igitur, ipsa g/b/maior est: quæ enim sunt æqualia, eiusdem sunt æquè maiora, per ipsius sextæ communis sententiæ conuersionem. Item quoniam æqualis est f/b/ipsi f/c, & g/f/rursum vtriq; communis: binæ igitur g/f/& f/b/trianguli g/f/b, duabus g/f/& f/c/trianguli g/f/c, sunt æquales altera alteri. Atqui g/f/b/angulus, maior est ipso g/f/c/sub æquis lateribus comprehenso: recta enim f/c, cadit inter f/b/& f/g, & diuidit propterea ipsum angulum g/f/b. Basis itaq; g/b, basi g/c/maior est, per vigesimamquartam primi. Simili discursu, g/c/ipsa g/d/maior ostendetur. Insuper quoniam f/g/& g/d/maiores sunt ipsa f/d, per ipsam vigesimam primi, & æqualis est f/e/ipsi f/d, per decimamquintam eiusdem primi diffinitionem: igitur f/g/& g/d, maiores sunt eadem f/e, quæ enim sunt æqualia, eiusdem sunt æquè minora, per septimæ communis sententiæ conuersionem. Tollatur cómunis f/g: ergo reliqua g/d/reliqua g/e, per quintam communem sententiam erit maior. Omnium itaq; maxima est g/a, minima verò reliqua g/e: aliarum porrò, g/b/maior ipsa g/c, & eadē g/c/ipsa g/d/itidem maior.
 
-*[diagram: b a d f c e]*
+*[diagram: a b c d e f g h]*
 
-Θεώρημα ε, Πρόθεσις ς.
+> Secunda pars
 
-Ἐὰν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐντὸς,οὐκ ἴσαι αὐτῶν τὸ αὐτὸ κέντρον.
-
-## Theorema 5, Propoſitio 6.
-
-SI duo circuli ſe adinuicem tetigerint : eorum non eſt idem centrum.
-
-ORONTIVS. De circulis potiſſimùm intelligit Euclides,quorum vnus intra aliū collocatur.Tangāt igitur ſe bini circuli a/b/c/& d/b/e,in pūcto b.Dico rurſum,quòd ipſorum circulorum non eſt idem commune centrum.Si id enim fuerit poſſibile:eſto illud f.& connectantur f/b/& f/e,per primū poſtulatum: & per ſecundum poſtulatum extendatur in rectum f/e/in punctum c. Si f/igitur punctum,ſit centrum a/ b/ c/ circuli : æqualis erit f/ e/ ipſi f/ b , per decimamquintam diffinitionem primi Item ſi idem punctū f,centrum fuerit circuli d/b/e:æqualis rurſum erit f/e/eidem f/b, per eādem decimamquintam ipſius primi diffinitionē . Binæ igitur f/c/& f/e,eidem f/b/erunt æquales:& propterea æquales adinuicem,per primam communē ſententiam. Ergo f/c, æqualis erit ipſi f/e. eſt autem f/e,pàrs ipſius f/c:tota igitur f/c,ſuæ parti f/e/coæquabitur. quod per nonam communē ſententiam non videtur eſſe poſſibile. Ergo punctum f, non eſt idem commune centrum eorundem circulorum a/b/c/& d/b/e,intus ſe adinuicem tangentium(nam de ijs qui ſe tangunt extra,per ſe fit manifeſtum)Si duo igitur circuli:&c.vt in theoremate.Quod oportuit oſtendiſſe.
-
-> Idem qui pri⁹ arguendi modus ab impoſſibili.
-
-*[diagram: b a f d e c]*
+¶Dico præterea quòd ab eodem puncto g, duæ rectæ lineæ coincidunt æquales, ad vtrasq; partes ipsius g/e/minimæ: vtpote ipsi g/c, æqualis versus h. Ad datam enim rectā lineam g/f, datúmq; in ea punctum f, dato angulo rectilineo g/f/c: æqualis angulus rectilineus constituatur g/f/h, per vigesimamtertiam primi. connectatur deinde g/h, per primum postulatum. Cùm igitur f/c, ipsi f/h/sit æqualis, per decimamquintā ipsius primi diffinitionem, & g/f/vtriq; communis: binæ ergo g/f/& f/c/trianguli g/f/c, duabus g/f/& f/h/trianguli g/f/h/sunt altera alteri æquales: & æquos inuicē comprehendunt angulos, per cōstructionem. Basis igitur g/c, basi g/h, per quartam eiusdem primi est

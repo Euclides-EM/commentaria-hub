@@ -1,7 +1,15 @@
-# Page 10
+# Page 11
 
-*Annotation ſur la Gnomonique.*
+(ornament)
 
-Pour plus grande intelligence des quadrans declinans, nous noterons icy, que le plan du quadrant diuise l'axe du monde en deux parties, & que la face meridionale du quadrant est celle, qui a pour stile oblique la partie meridionale de l'axe, qui descend vers le pole antarctique, & l'autre face, qui a pour stile la partie de l'axe qui monte vers le pole arctique, s'appelle Septentrionale : D'où s'ensuit, qu'en la face Meridionale le centre du quadrant est au dessus du stile perpendiculaire & de la ligne horizontale : & qu'au contraire, en la face Septentrionale, le stile perpendiculaire & la ligne horizontale sont au dessus du centre du quadrant : & par consequent, en la 6 propoſ. page 438 de ce liure, pour trouuer le centre du quadrant de la face Septentrionale, on fera l'angle EFR égale à l'eleuation du pole, & non EFA, afin d'auoir le centre du quadrant en la meridienne AR au dessous de la ligne horizontale HF, & du centre qu'on aura trouué, ayant tiré la ligne substilaire par le pied du stile C, on fera la construction, comme il a esté enseigné en ladite 6. prop. page 438. On nottera aussi, que si on ne fait le quadrant sans obseruer la declinaison de son plan, comme nous anons enseigné en ce liure, que l'angle de la declinaison se doit tousiours faire du costé que sera la meridienne ou section, par laquelle le plan du quadrant est couppé par le plan du meridien qui passe par le sommet du stile perpēdiculaire, laquelle en ce plan declinant de 46 degrez est AR, soit que le quadrant se face en la face septentrionale, ou en la meridionale, comme il a esté fait en l'exemple de ladite 6. propoſ.
+DE LA DIVISION
 
-Il faut encore noter, que les stiles perpēdiculaires ne peuuēt bien monstrer les heures, principalement s'ils sont quelque peu grands, à cause que l'extremité de l'ombre obscure, qui est celle qui n'a aucune lumiere, correspond au bort superieur du Soleil, & le commēcement de l'ombre au bort inferieur, & que la vraye heure est en l'ombre correspondant au centre du Soleil, qui ne se peut cognoistre, si le stile perpendiculaire n'a a son sommet vn petit bouton ou globe, comme il a esté dit en la page 694 du 5 tome, le semidiametre duquel globe doit contenir le semidiametre de sa moindre ombre obscure (qui est celle de la premiere heure du matin, ou penultiesme du soir) & de plus la 229 partie de la distance de ladite moindre ombre au sommet du stile perpendiculaire.
+DES MATHEMATIQVES.
+
+LEs Mathematiques sont ainsi nommées du mot Grec *Manthano*, qui signifie *apprendre*, à cause qu'elles s'apprennent, auec plus de certitude & euidence, que les autres parties de la Philosophie. Les Pythagoriciens, qu'on estime estre les premiers inuenteurs d'icelles, les ont toutes diuisées en quatre parties, sçauoir en l'Arithmetique, la Geometrie, l'Astronomie, & la Musique.
+
+D'autres diuisent plus subtilement tout le corps Mathematique en deux especes, sçauoir en Pure & Mixte, dont celle là considere la quantité separée de toute matiere : & parce qu'il y a deux genres de quantité, sçauoir la Continuë & la Discrete, la Mathematique Pure à raison de son object est diuisée en la Geometrie & Arithmetique.
+
+La Mathematique Mixte considere la quantité conjointe & meslée auec la matiere, & se subdiuise en l'Optique, la Mechanique, l'Astronomie, & la Musique.
+
+Vne chacune de ces six parties des Mathematiques est subdiuisée en la Theorique & Practique, comme on peut voir en leurs traictez particuliers, qui sont dans mon Cours Mathematique.

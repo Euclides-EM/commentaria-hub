@@ -1,27 +1,21 @@
-# LIBER III.
+# GEOMET. ELEMENT.
 
-> 81
+> 82
 
-igitur rursum æquales circuli a/b/c/d/& e/f/g/h, quorum cẽtra k, l: sint'q; in eisdem circulis, b/c/d/& f/g/h/circũferentiæ inuicem æquales. Dico quòd connexæ b/d/& f/h/rectæ lineæ, æquales sunt adinuicem. Producãtur enim ex centro k, rectæ lineæ b/k/& k/d:necnon ex centro l, rectæ lineæ f/l/& l/h, per primum postulatũ. Et quoniam ex hypothesi circunferentia b/c/d/æqualis est circunferentiæ f/g/h : æqualis est propterea angulus b/k/d/ angulo f/l/h, per vigesimamseptimam huius tertij. Rursum quoniam dati circuli per hypothesin sunt inuicem æquales: & quæ ex eorum centris igitur k/ & l, per primam huius diffinitionem sunt æquales. Aequales itaque inuicem sunt b/k, k/d, f/l, & l/h. Triangula ergo b/k/d/ & f/l/h, habent duo latera duobus lateribus æqualia alterum alteri: & contentos sub æquis lateribus angulos inuicem æquales. Basis igitur b/d, basi f/h, per quartam primi est æqualis. In æqualibus ergo circulis, sub æqualibus circunferẽtijs, æquales rectæ lineæ subtenduntur. Quod oportuit demonstrasse.
+ORONTIVS. ¶Sit datus circulus a/b/c/d : cuius centrum e, dimetiens verò a/d:descriptus autem in semicirculo angulus, sit a/b/d. & suscipiatur in eodem circulo contingens aliquod punctum, sit'q; illud c:& per primum postulatum, connectantur rectæ lineæ b/c, b/e, & c/d. Dico primùm, quòd angulus a/b/d/ rectus est. Extendatur enim, per secundum postulatum, a/b/recta in directum, versus f. Cùm igitur æqualis sit a/e, ipsi e/b, per circuli diffinitionem: æquus erit angulus e/a/b, ipsi angulo a/b/e, per quintam primi. Et proinde æqualis est angulus e/b/d, ipsi angulo b/d/e:æqualis siquidẽ est e/b/recta ipsi e/d, per eandẽ circuli diffinitionẽ. Totus itaq; angulus a/b/d, binis angulis b/a/d/& a/d/b/est æqualis. Eisdem porrò angulis b/a/d/ & a/d/b, æquus est exterior angulus d/b/f, per trigesimã secundã primi. Duo itaque anguli a/b/d/& d/b/f, eisdem angulis b/a/d/& a/d/b/sunt æquales:igitur & æquales adinuicem, per primam communem sententiam. Recta igitur b/d/incidẽs super a/f, efficit vtrobique angulos adinuicem æquales:ergo rectos, per decimam ipsius primi diffinitionem. Rectus est igitur angulus a/b/c/in dato consistens semicirculo. ¶Dico insuper quòd angulus qui ad a/ existens in maiori segmento b/a/d, recto minor est. Trianguli siquidem a/b/d/tres anguli, binis rectis per trigesimamsecundam primi sunt æquales. Rectus est autem qui ad b (veluti nunc ostendimus) reliqui igitur qui ad a, & qui ad d, vni recto sunt æquales: & proinde vterque recto minor. ¶Aio consequenter quòd & angulus qui ad c/in segmento b/c/d/semicirculo minori, maior est recto. Nam a/b/c/d/quadrilaterũ est, & in dato consistens circulo. In circulis porrò quadrilaterorum existentium, anguli qui ex opposito duobus rectis sunt æquales, per vigesimamsecundam huius tertij. Qui igitur ad a/& c/existunt anguli, binis rectis sunt æquales. Angulus porrò qui ad a, recto minor ostensus est:igitur & qui ad c, hoc est sub b/c/d/cótinetur angulus, recto maior est. ¶Dico tandem, quòd angulus maioris segmenti b/a/d, vtpote a/b/c/d, sub a/b/recta, & circunferentia b/c/d, cóprehensus, maior est recto. Minoris autẽ segmenti angulus, veluti c/b/d, sub eadem b/c/d/circunferentia & recta b/d/comprehensus, recto minor est. Anguli enim rectilinei a/b/d/& d/b/f/recti sunt:cadit'q; b/d/recta intra datum circulum, per secundam huius tertij. Eadem itaq; recta b/d, diuidit ipsum angulum sub a/b/recta, & b/c/d/circũferentia comprehensum : & proinde rectus angulus a/b/d, eiusdem anguli sub a/b/recta & circunferentia b/c/d/comprehensi fit pars. Omne porrò totum, est sua parte maius, per nonam cómunem sententiam. Datus igitur segmenti maioris angulus, sub a/b/recta, & b/c/d/ circunferentia contentus, recto maior est. ¶Rursum, quoniam recta b/d, cadit intra datum circulum, & b f/extra:diuidit itaq; circunferentia b/c/d, ipsum angulum rectum d/b/f. Et proinde datus angulus sub b/d/recta/& eadem circunferentia b/c/d/comprehẽsus, pars est ipsius anguli recti d/b/f. Omnis autem pars minor est toto, per ipsius nonæ communis sententiæ conuersionem. Angulus igitur segmenti minoris, sub d/b/recta & b/c/d/circunferentia comprehensus, minor est recto. In circulo itaq; angulus qui in semicirculo est: & quæ sequuntur reliqua. Quod oportebat ostendere.
 
-*[diagram: a k b d c — e l f h g]*
+> Prima theorematis pars.
 
-Γρόβλημα δ, Γρόθεσις λ.
+*[diagram: f b c a e d]*
 
-Τὴν δοθεῖσαν περιφέρειαν δίχα τέμνειν.
+> Pars secũda.
 
-## Problema 4, Propositio 30.
+> Pars tertia.
 
-DAtam circunferentiam bifariam discindere.
+> Quarta eiusdẽ theorematis pars.
 
-ORONTIVS. ¶Esto data circũferentia a/b/c:quam oporteat bifariam discindere. Connectatur ergo recta linea a/c, per primũ postulatum : quæ bifariam secetur in puncto d, per decimam primi. Et per vndecimam eiusdem primi, à dato puncto d, datæ rectæ lineæ a/c, ad angulos rectos excitetur d/b:connectanturq́; a/b/& b/c/lineæ rectæ, per primum postulatum. Cùm igitur a/d/ipsi d/c/sit æqualis, & d/b/vtriq; communis:bina itaq; latera a/d/& d/b/trianguli a/d/b, duobus lateribus b/d/& d/c/trianguli b/d/c/sunt æqualia alterum alteri:& æquos inuicem comprehendunt angulos, nempe rectos. Basis igitur/a/b, basi b/c, per quartam primi est æqualis. Aequales porrò lineæ in eodẽ circulo, æquales circunferentias auferunt, maiorem maiori, minorem autem minori, per vigesimamoctauã huius tertij. Aequalis est ergo a/b/ circunferentia, ipsi b/c. Data itaq; circunferentia a/b/c, bifariam discinditur in puncto b. Quod facere oportebat.
+> Pars quinta & vltima.
 
-*[diagram: b a d c]*
+## Corollarium primum.
 
-Θεώρημα κζ, Γρόθεσις λα.
-
-Εν κύκλῳ, ἡ μὲν ἐν τῷ ἡμικυκλίῳ γωνία, ὀρθὴ ἐςὶν:ἡ δὲ ἐν τῷ μείζονι τμήματι, ἐλάττωρ ὀρθῆς:ἡ δὲ ἐν τῷ ἐλάττονι, μείζωρ ὀρθῆς. καὶ ἐπὶ ἡ μὲν τῶ μείζον⊕ τμήματ⊕ γωνία, μείζωρ ἐςὶρ ὀρθῆς:ἡ δὲ τῶ ἐλάττονος τμήματ⊕ γωνία, ἐλάττωρ ἐςὶρ ὀρθῆς.
-
-## Theorema 27, Propositio 31.
-
-INn circulo, angulus qui in semicirculo est, rectus est: qui autem in maiori segmento, minor recto: qui verò in minori segmento, maior est recto. Et insuper angulus maioris segmẽti, recto quidem maior est:minoris autem segmenti angulus, minor est recto.
+¶Ex hac, & decimasexta huius tertij propositione fit manifestum, quòd tametsi in mixtis angulis, sub recta linea & circuli circunferentia comprehensis, detur minor atque maior recto: nunquàm tamen dabitur æqualis.

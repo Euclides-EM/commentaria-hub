@@ -1,77 +1,51 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-Ετι δὲ τῶν τριπλεύρων σχημάτων, ὀρθογώνιον μὲν τρίγωνόν ἐστι, τὸ ἔχον ὀρθὴν γωνίαν.
+In quibus videlicet nulla oppoſitorum vel laterum, vel angulorũ ſimul obſeruatur æqualitas, ſiue reſpõdentia: veluti ſunt n/ & o, & quæcunque eis ſimiles quadrilaterorum deſcriptiones.
 
-> Trilaterarũ figurarum ab angulis differentiæ.
+*[diagram: n o]*
 
-## 27 Amplius trilaterarum figurarum, rectangulum triangulum eſt, quod rectum angulum habet.
+## Parallelarum linearum diffinitio vltima.
 
-Vt iſoſceles b, vel ſcalenum triangulum e, proxima diffinitione deſcriptum.
+Παράλληλοί εἰσιν ευθεῖαι αἵ τινες ἐν τῷ αὐτῷ ἐπιπέδῳ ὄυσαι, καὶ ἐκβαλλόμεναι ἐπ' ἄπειρον ἐφ' ἑκάτερα τὰ μέρη ἐπὶ μηδέτερα συμπίπτωσι ἀλλήλαις.
 
-Αμβλυγώνιον δὲ, τὸ ἔχον ἀμβλεῖαν γωνίαν.
+## Parallelæ rectæ lineæ ſunt quæ in eodem exiſtentes plano, & ex vtraque parte in infinitum productæ, in nulla parte concurrunt. 35
 
-> Amblygoniũ
+*[diagram: a e b / c f d]*
 
-## 28 Amblygonium autem, quod obtuſum angulum habet.
+Quales tibi repræſentant a/b/ & c/d/ lineæ rectæ. In quarum videlicet alteram, vtpote a/b, recta linea e/f/ad æquales ſeu rectos incidẽs angulos: & cũ reliqua c/d/rectos itidem vel æquales angulos efficit. Ex eo enim, alterius in alterã æqualis vtrobiq̃ ſurgit inclinatio: vnde fit, vt ipſæ datæ lineæ in infinitũ ex vtraq̃ parte productæ, æqualiter ſeu parallelicè diſtent, nuſquam adinuicem concurrentes.
 
-Veluti antecedens iſoſceles d, ſcalenúmve triangulum g.
+## Αἰτήματα. Poſtulata.
 
-Οξυγώνιον δὲ, τὸ τρεῖς ὀξείας ἔχον γωνίας.
+### ORONTIVS.
 
-> Oxygoniũ
+> Poſtulata quę
 
-## 29 Oxygonium verò, quod tres habet acutos angulos.
+SECVNDO LOCO, SESE OFFERVNT POSTVLATA: QVAE petitiones à nõnullis adpellãtur. Sunt autem poſtulata, generales quędam propoſitiones, ex ipſis collectæ diffinitionibus: quæ pendenter ab auditore conceſſæ, poſtulantur aſſumuntúrve in ordinem ſeu rationem principij. Primum itaq̃ poſtulatum, eſt huiuſmodi,
 
-> Baſis triãguli
+Ητήσθω, ἀπὸ παντὸς σημείου ἐπὶ πᾶν σημεῖον ευθεῖαν γραμμὴν ἀγαγεῖν.
 
-Cuiuſmodi ſunt æquilaterum a, & iſoſceles c, atq̃ triangulum ſcalenum f: & quæ eis ſimilia ſunt triangula. Omnis porrò trianguli vnumquodque latus, cæteris duobus expreſſis, baſis vocitatur. Sequitur itaq̃, rectãgula & amblygonia triangula: fore tantummodò iſoſcelia, vel ſcalena. Oxygonium autem: & æquilaterum, & iſoſceles, & ſcalenum offenditur triãgulum. Quemadmodùm ex ſupraſcriptis triangulorum licet elicere figuris. Haud diſſimiliter quadrilaterarum figurarum, tum ab angulorũ rectitudine vel obliquitate, tum ab æqualitate vel inæqualitate laterum, ſuccedentia colliguntur diſcrimina.
+## Ab omni puncto in omne punctum, rectam lineam dúcere 1
 
-> Quadrilaterarum figurarũ diſcrimina
+*[diagram]*
 
-Τῶν δὲ τετραπλεύρων σχημάτων, τετράγωνον μὲν ἐστιν, ὃ ἰσόπλευρόν τέ ἐστι καὶ ὀρθογώνιον.
+Poteſt enim datum quodcunq̃ punctum, in aliud quodlibet punctum, etiam vbilibet imaginatũ, per viam abſtractiuè fluẽdo breuiſſimam: rectam deſcribere lineam. quemadmodùm ex quatuor primis licet elicere diffinitionibus. Admittẽda eſt itaq̃ linea recta quantalibet, ac quibus voluerimus punctis, vbilibet indifferenter terminata.
 
-> Quadratum eſt equilaterum et rectãgulũ
+Καὶ πεπερασμένην ευθεῖαν κατὰ τὸ συνεχὲς ἐπ' ευθείας ἐκβάλλειν.
 
-## 30 Quadrilaterarum autem figurarum, quadratũ quidem eſt, quod & æquilaterum & rectangulum eſt.
+## Rectam lineam terminatã, in continuum rectúmq; producere. 2
 
-> Radix quadrati.
+*[diagram: A B C]*
 
-*[diagram: h k]*
+Nam vtrunq̃ punctum ipſius datæ rectæ lineæ terminatiuum, per rectum eiuſdem puncti defluxũ, quantumlibet abſtractiuè continuatũ: poteſt ipſam datam lineam rectã efficere lõgiorem. quemadmodùm ex data linearum rectarum colligitur deſcriptione.
 
-Veluti quadratum h. Omnnis itaq̃ quadrati vnumquodque latus, radix eiuſdem indifferenter adpellatur. Fit enim quadratum, ex data linea recta abſtractiuè in ſeipſam rectiſſimè ducta: quemadmodùm numerus in ſeipſum ductus, quadratum efficit numerum.
+Καὶ παντὶ κέντρῳ καὶ διαστήματι κύκλον γράφεσθαι.
 
-> Quatuor ſequẽtia ſunt parallelogrammata
+## Omni centro & interuallo circulum deſcribere. 3
 
-Επρόμηκες δὲ, ὃ ὀρθογώνιον μὲν ὀυκ ἰσόπλευρον δὲ.
+*[diagram]*
 
-## 31 Altera parte longius, eſt quod rectangulum quidem, at æquilaterum non eſt.
+Hoc eſt, licet vbicunque volueris centrum deſignare circuli, & circa idem centrum, ad liberam ſemidiametri quantitatem, ipſum figurare circulum. Aut (ſi velis) ex data quacunque linea recta terminata, altero eiuſdem lineæ termino vbiuis collocato, per completam ipſius lineæ circunductionem, circulum deſcribere. Admittendi igitur ſunt, liberæ quantitatis circuli, pro data ſemidiametri vel interualli magnitudine.
 
-Quemadmodũ ſupraſcripa figura k, quoad angulorum rectitudinem conueniẽs cum ipſo quadrato, diſſidens autem ex parte laterum.
+Καὶ πάσαι αἱ ὀρθαὶ γωνίαι ἴσαι ἀλλήλαις ἐισί.
 
-Ρόμβος δὲ, ὃ ἰσόπλευρον μὲν οὐκ ὀρθογώνιον δὲ.
-
-> Rhombus
-
-## 32 Rhombus, eſt quæ æquilatera, at rectangula non eſt.
-
-*[diagram: l m]*
-
-Cuiuſmodi eſt figura l. Cõuenit itaque rhombus cum ipſo quadrato, in ſola laterũ æqualitate: habet enim duos obtuſos, & totidem acutos angulos, quatuor rectorum ſimul efficientes quantitatem.
-
-Ρομβοειδὲς δὲ, τὸ τὰς ἀπεναντίον πλευράς τε καὶ γωνίας ἴσας ἀλλήλαις ἔχον, ὃ ουτε ἰσόπλευρόν ἐστιν, ὄυτε ὀρθογώνιον.
-
-> Rhomboides
-
-## 33 Rhomboides verò, eſt quæ ex oppoſito latera & angulos habens æquales, neque æquilatera, neque rectangula eſt.
-
-> Parallelogramma.
-
-Quemadmodùm ſuprà depicta figura m/ repræſentat. Súntque hæc omnia nuper enarrata quadrilatera, parallelogramma: id eſt, quorum oppoſita latera ſunt adinuicem parallela, ſeu æquidiſtantia. Neque plures quadrilaterarum & regularium figurarum contingit inueniri differentias: hinc dicit Euclides,
-
-Τὰ δὲ παρὰ ταῦτα τετράπλευρα, τραπέζια καλείσθω.
-
-> Trapezia
-
-## 34 Præter hæc autem reliqua quadrilatera, trapezia adpellantur.
-
-a.iiij.
+## Omnes angulos rectos adinuicẽ æquales eſſe. 4

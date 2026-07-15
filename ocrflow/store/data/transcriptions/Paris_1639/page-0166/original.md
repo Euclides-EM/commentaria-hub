@@ -1,41 +1,45 @@
-# Page 165
+# Page 166
 
-# D'EVCLIDE, LIV. III.
-
-*Requis à faire.*
-
-∩ac 2|2 ∩cb.
-
-*Conſtr.*
-
-1.p.1. | ab *eſt* ——,
-10.1 | af 2|2 fb,
-11.1 | fc ⊥ ab. α
-ſymp. | ∩ac 2|2 ∩cb.
-
-*Preparation.*
-
-1.p.1 | ac & cb *ſnt* ——;
-
-*Demonſtr.*
-
-conſtr. | af 2|2 fb, / fc *eſt commun.*
-α12.a.1 | ∠afc 2|2 ∠bfc,
-4.1 | ac 2|2 cb,
-concl. 28.1 | ∩ac 2|2 ∩cb.
-
-THEOR. XXVII. PROPOS. XXXI.
-
-Au cercle, l'angle qui est au demy cercle est droict: mais celuy qui est au plus grand segment est plus petit qu'vn droict; & celuy qui est au plus petit segment, est plus grand qu'vn droict. Et dauantage, l'angle du plus grand segment, est plus grand qu'vn droict; mais l'angle du plus petit segment, est plus petit qu'vn droict.
-
-*Hypoth.*
-
-dabf *eſt* ⊙,
-adc *eſt diametre*,
+# LES ELEMENTS
 
 (figure)
 
-*Preparation.*
+*Req. à demonſtr.*
 
-arbitr. | b & f *ſnt* • *en* ∩abc,
-1.p.1 | abe, db, cb, bf, cf *ſnt* ——;
+∠abc *eſt* ┘,
+∠cab 2|3 ┘,
+cfb 3|2 ┘,
+∠ *du* ⌓ cba 3|2 ┘,
+∠ *du* ⌓ cbf 2|3 ┘.
+
+*Demonſtr.*
+
+5.1 | ∠dba 2|2 ∠dab,
+5.1 | ∠dbc 2|2 ∠dcb,
+2.a.1 | ∠abc 2|2 ∠dab + ∠dcb,
+32.1 | ∠cbe 2|2 ∠dab + ∠dcb,
+1.a.1 | ∠abc 2|2 ∠cbe,
+1.concl. 10.d.1 | ∠abc *eſt* ┘,
+2 concl. 1.c.27.1 | ∠cab 2|3 ┘,
+acfb *eſt* 4∠,
+3 concl. 2.c.22.3 | ∠bfc 3|2 ┘,
+4 concl. 9.a.1 | ∠ *du* ⌓ cba 3|2 ┘,
+5.concl. 9.a.1 | ∠ *du* ⌓ cbf 2|3 ┘.
+
+*Scholie.*
+
+hyp. | af 3|2 ab,
+9.a.1 | ∠acf 3|2 ∠acb.
+
+THEOR. XXVIII, PROPOS. XXXII.
+
+Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene quelque ligne droicte au cercle, le couppant; les angles qu'elle fait auec l'attouchante seront égaux aux angles qui sont aux segments alternes.
+
+*Hypoth.*
+
+cfd *eſt* ⊙,
+ab *touche le* ⊙,
+c *eſt* • *d'attouchement*,
+ce *eſt* —— *arbitraire*.
+
+*Req. à demonſtr.*

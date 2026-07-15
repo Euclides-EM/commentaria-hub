@@ -1,42 +1,43 @@
-# Page 137
+# Page 138
 
-# D'EVCLIDE, LIV. III.
-
-15.d.1 | ca 2|2 cb,
-5.1 | ∠cab 2|2 ∠cba,
-16.1 | ∠cdb 3|2 ∠cab,
-1.a.c | ∠cdb 3|2 ∠cba,
-19.1 | cd 2|3 cb,
-concl. c.15.d.1 | •d *eſt dans le* ⊙.
-
-COROLLAIRE.
-
-De la demonstration de cette proposition il est manifeste, que la ligne droicte qui touche le cercle, en sorte qu'elle ne le couppe point, qu'elle le touche seulement à vn poinct.
-
-THEOR. II. PROPOS. III.
-
-Si dans le cercle quelque ligne droicte passant par le centre, couppe quelqu'autre ligne droicte, qui ne passe point par le centre, en deux également, elle la couppera aussi à angles droicts. Et si elle la couppe à angles droicts, elle la couppera aussi en deux également.
+# LES ELEMENTS
 
 (figure)
 
-*Hypoth. commun.*
+15.d.1 | ae 2|2 ec,
+8.1 | ∠afe 2|2 ∠cfe,
+1.concl. 10.d.1 | ef ⊥ ac.
 
-ebac *eſt* ⊙,
-bd *eſt diametre.*
+*Hypoth. 2.*
 
-*Hypoth. 1.*
+ef ⊥ ac. α
+
+*Req. à demonſtrer.*
 
 af 2|2 fc.
 
-*Req. à demonſtr.*
-
-ef *eſt* ⊥ ac.
-
-*Preparation.*
-
-1.p.1 | ea, ec, *ſnt* ——.
-
 *Demonſtr.*
 
-hyp. | af 2|2 fc,
-fe *eſt commun.*
+α.12.a.1 | ∠efa 2|2 ∠efc,
+5.1 | ∠eac 2|2 ∠eca,
+ef *eſt commun.*
+2 concl. 26.1 | af 2|2 fc.
+
+COROLLAIRE.
+
+De cette demonstration s'ensuit, qu'en tout triangle isoscele ou equilateral, la ligne menée de l'angle du sommet au milieu de la base est perpendiculaire à la base : & au contraire la ligne perpendiculaire à la base, menée de l'angle opposé, la couppera en deux également.
+
+THEOR. III. PROPOS. IV.
+
+Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par le centre, elles ne se coupperont point l'vne l'autre en deux égalemēt.
+
+(figure)
+
+*Hypotheſe.*
+
+eacd *eſt* ⊙,
+af 2|2 fb.
+
+*Req. à demonſtrer.*
+
+cf n̄. *eſt* 2|2 fd.

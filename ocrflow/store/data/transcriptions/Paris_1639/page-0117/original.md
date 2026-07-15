@@ -1,40 +1,38 @@
-# Page 116
+# Page 117
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. II.
 
-*Hypoth.*
+*Req. à demonſtr.*
 
-ab *eſt* ——,
-ae & eb *ſont parties de* ab.
-
-*Requis à demonſtrer.*
-
-□.ab + □.ae 2|2 2▭.bae + □.be.
+2▭.adb + □.fd 2|2 □.ad + □.db.
 
 *Preparation.*
 
-46.1 | bd *eſt* □.ab,
-1.p.1 | ac *eſt diametre*,
-31.1 | ef == ad, hig == ab.
+aeb *eſt la figure du ſcholie de la 6. du 2.*
 
-(figure)
+*Demonſtration.*
 
-*Demonſtr.*
+hyp. | af 2|2 db,
+concl. 7.2 | □.ad + □.af 2|2 □.fd + 2▭daf Ⅱ adb,
 
-1.c.4.2 | eg *eſt* □.ae, hf *eſt* □.eb,
-3.ſ.1.d.2 | ▭.bae 2|2 ▭bg, Ⅱ ▭ed,
-2.a.1 | 2▭.bae 2|2 *gnom.* haf + □eg,
-□hf *commun. add.*
-concl. 2.a.1 | 2▭.bae + hf □.be 2|2 bd □.ab + eg □.ae.
+*Explication par nombres.*
 
-SCHOLIE.
+hyp. | ad *eſt* 5, α
+hyp. | db *eſt* 2, β
+3.a.1 | fd *eſt* 3, γ
+αβ | 2▭.adb *ſnt* 20,
+γ | □fd *eſt* 9,
+1.concl. 2.a.1 | 2▭.adb + □.fd *ſnt* 29,
+α | □.ad *eſt* 25,
+β | □db *eſt* 4,
+2 concl. 19.4.1 | □.ad + □.db *ſnt* 29.
 
-Si vne ligne droicte est couppée en deux parties inégales, le rectangle compris deux fois sous les parties auec le quarré de la difference des parties, est égal à l'aggregé des quarrez descrits de deux parties.
+THEOR. VIII. PROPOS. VIII.
+
+Si vne ligne droicte est couppée comme on voudra: quatre fois le rectangle, contenu sous la toute & l'vn des segments auec le quarré de l'autre segment, est égal au quarré descrit de la toute & dudit segment, comme d'vne.
 
 *Hypoth.*
 
 ab *eſt* ——,
-ad 3|2 db,
-ad ~ db 2|2 fd.
-
-(figure)
+ac & cb *ſont parties de* ab,
+bd 2|2 cb.

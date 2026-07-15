@@ -1,51 +1,27 @@
-# Page 15
+# Page 16
 
-# EXPLICATION DES NOTES.
+# EXPLICATION DES NOTES:
 
-Ɔ, ∪, *eſt vne circonference*.
+multd..part.. a 2|2 multd..part.. c, *La multitude des parties de A eſt égale à la multitude des parties de C.*
 
-D, ⌓, *eſt vn ſegment de cercle*.
+ab multipl.. e 2|2 cd multipl.. f, *AB eſt multiple de E, comme CD eſt multiple de F : c'eſt à dire, que AB contient E autant de fois que CD contient F : ce qui s'eſcrit auſſi ainſi.*
 
-△, *eſt vn triangle*.
+ab multipl.. / cd multipl.. | e, *AB eſt multiple de E, comme CD eſt multiple de F.*
 
-□, *eſt vn quarré*.
+ab multipl.. e 2|2 ab+cd multipl.. e+f, *AB eſt multiple de E, comme AB plus CD eſt multiple de E plus F : ce qui s'eſcrit auſſi ainſi.*
 
-▭, *eſt vn rectangle*.
+ab multipl.. | e / ab+c multipl.. | e+f, *AB eſt multiple de E, comme AB, plus CD eſt multiple de E plus F.*
 
-◊, *eſt vn parallelogramme*.
+*La ſimilitude des equimultiples des antecedens au reſpect des equimultiples des conſequens ſe marque ainſi.*
 
-a, b : ou ab, *ſignifie A multiplié par B : c'eſt à dire le produict qui vient en multipliant A par B*.
+e, | 2, 3, 4, | 3, g, / f, | 2, 3, 4, | 3, h.
 
-a 2|2 b, *A eſt égal à B*.
+*C'eſt à dire, que E & F au reſpect de G & H, ou defaillent enſemble, ou enſemble ſont égaux, ou enſemble excedent.*
 
-a 3|2 b, *A eſt plus grand que B*.
+*Voyez vne plus ample explication de cette note en la 6. definition du 5. liure.*
 
-a 2|3 b, *A eſt plus petit que B*.
+A. 12. C. 7. / B. 5. D. 5. / E. 5.
 
-a 2|2 5b, *A eſt égal à 5B*.
+a 2|2 c+d. *A eſt égal à C plus D : c'eſt à dire, que A eſt égal à la ſomme de C plus D.*
 
-a 2|2 ½b, *A eſt égal à la moitié de B*.
-
-a mſur: b, *A meſure B*.
-
-a eſt part.. b, *A eſt partie de B*.
-
-b eſt multipl.. a, *B eſt multiple de A*.
-
-a π b 2|2 c π d, *A eſt à B comme C à D*.
-
-raõ.. a π c 2|2 raõ.. a π b + raõ.. b π c, *La raiſon de A à C eſt égale à la raiſon de A à B, plus à la raiſon de B à C*.
-
-a π | b / c π | d, *A eſt à B comme C à D*.
-
-a π b 3|2 c π d, *A à B a plus grande raiſon que C à D*.
-
-a π 3 | b / c π 2 | d, *A à B a plus grande raiſon que C à D*.
-
-a π b 2|3 c π d, *A à B a plus petite raiſon que C à D*.
-
-a π 2 | b / c π 3 | d, *A à B a plus petite raiſon que C à D*.
-
-b mſur: a 2|2 d mſur: c, *B meſure A, autant de fois que D meſure C*.
-
-b mſur: | a / d mſur: | c, *B meſure A, autant de fois que D meſure C*.
+b 2|2 d&e. *B eſt égal à D & E : c'eſt à dire, que B eſt égal à D, & auſſi à E ſeparément.*

@@ -1,21 +1,25 @@
-# Page 28
+# Page 29
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-(figure)
-
-XXX.
-
-Le quarré long ou rectangle est, vne figure qui a les angles droicts, mais qui n'est pas equilateral, comme ABCD.
+égaux, mais n'est pas equilatere ny rectangle, comme GLMH.
 
 (figure)
 
-XXXI.
+XXXIII.
 
-Rhombe est vne figure equilatere, mais n'est pas rectangle, comme A.
+Mais outre ces figures, toutes les autres quadrilateres sont appellées trapezes, comme GNDH.
 
 (figure)
 
-XXXII.
+XXXIV.
 
-Rhomboïde est vne figure, laquelle a les costez opposez égaux, & les angles opposez aussi
+Paralleles sont lignes droictes, lesquelles estant en vn mesme plan, & prolongées infiniment de part & d'autre, ne se rencontrent d'vn costé ny d'autre, comme A & B.
+
+(figure)
+
+*Euclide a icy fini les definitions du premier liure, les deux suiuantes sont de Clauius, & celles qui suiuent nous les auons adioustées.*
+
+XXXV.
+
+Parallelogramme est vne figure quadrilatere, de laquelle les costez opposez sont paralleles ou equidistantes, comme GLMH.

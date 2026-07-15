@@ -1,29 +1,31 @@
-# LIBER VI.
+# GEOMET. ELEMENT.
 
-*161*
+*162*
 
-rectilineum o/g/h,ipsi v/s/t : per nonam quinti. Eſt autẽ & eidem simile,similitérq; positum,per conſtructionem. Similia porrò similitérque posita,& inuicem æqualia rectilinea:ab æqualibus, aut super æqualibus rectis lineis describũtur.Aequalis eſt igitur s/t/ipsi g/h.Eſt autẽ vt a/b/ad c/d,sic e/f/ad s/t. ipsi porrò s/t,æqualis oſtensa eſt g/h:& eadem ad æquales,eandem habet rationem,per septimam quinti Et sicut igitur a/b/ad c/d:sic e/f,ad g/h.Ergo si quatuor rectæ lineæ proportionales fuerint:& quæ sequuntur reliqua.Quod oſtendendum susceperamus.
+> Præcipua demõſtrationis resolutio.
 
-## Lemma siue assumptum.
+ipsius g/ ad h : veluti quinta huius sexti præmissum eſt diffinitione . Et proinde ratio f/ad h, componitur ex ratione laterum a/b/ ad b/e, & c/b/ad b/d. His præoſtẽsis, quoniam a/b/c/ & c/b/e/ parallelogramma sub eadem sunt altitudine:ad se inuicem igitur sunt vt bases, per primam huius sexti. Sicut itaque a/b,ad b/e: sic a/b/c parallelogrammum,ad parallelogrammum c/ b/e. Sicut autem a/b/ ad b/e, sic per conſtructionem f/ ad g. Et sicut igitur f,ad g: sic per vndecimam quinti , a/ b/ c/ parallelogrammum, ad c/b/e/ parallelogrammum . Insuper quoniam c/b/e/& d/ b/ e/ parallelogramma , in eadem sunt altitudine: ad se inuicem rursum sunt vt bases, per eandem primam huius sexti. Sicut ergo c/ b/ ad b/d: sic parallelogrammum c/b/e,ad d/b/e/parallelogrammum. Sicut porrò c/b,ad b/d: sic per conſtructionem g, ad h. Et sicut igitur g/ad h: sic parallelogrammum c/b/e, ad d/b/e/ parallelográmum, per ipsam vndecimam quinti.Et quoniam oſtẽsum eſt, vt f/ ad g,sic a/b/c/parallelogrammũ,ad parallelogrammum c/ b/ e : sicut rursum g/ ad h, sic idem parallelogrammum c/ b/ e, ad d/ b/ e/ parallelogrammum . Et ex æqua igitur ratione, per vigesimamsecũdam eiusdem quinti, sicut f/ad h: sic a/b/c/ parallelogrammum,ad d/b/e/parallelogrammũ. Atqui ratio f/ ad h , composita eſt (vti suprà deduximus) ex ratione laterum a/ b/ ad b/ e, & c/ b/ ad b/d. Et parallelogrammum igitur a/b/c/ad parallelogrammum d/b/e, rationem habet compositam ex ratione laterum a/b/ad b/e, & c/b/ad b/d. Aequiangula itaque parallelogramma, rationem habent compositam ex lateribus , angulos inuicem æquales continentibus.Quod demonſtrandum fuerat.
 
-¶Quòd autem similia, similitérque posita, & inuicem æqualia rectilinea, habeant similis rationis latera inuicem æqualia:sic demonſtratur.Sint rursum æqualia,& similia, similitérque posita rectilinea, o/g/h/& v/s/t: sitq́; vt o/g/ad g/h,sic v/s/ad s/t.Aio quòd g/h/ & s/t,sunt inuicem æquales.Si nanque fuerint inæquales: altera maior erit.Eſto (si possibile sit) g/h, maior s/t.Et quoniam eſt vt o/g/ad g/h,sic v/s/ad s/t:& econtra igitur,vel à conuersa ratione,sicut g/h/ad o/g,sic erit s/t/ad v/s:per corollarium quartæ libri quinti.Sed prima g/h,maior eſt tertia s/t:& secunda itaque o/g,quarta v/s/maior erit, per decimamquartam ipsius quinti.Binæ itaque o/g/& g/h,duabus v/s/& s/t/erunt maiores:& proinde ipsum rectilineũ o/ g/ h, maius rectilineo v/s/t.Eſt autẽ eidem æquale,per hypothesin : quæ simul impossibilia sunt. Non eſt igitur g/h,maior ipsa s/t.Similiter oſtendetur, quòd neq; minor. Aequalis eſt itaq; g/h,eidem s/t. Quod fuerat oſtendendum.
+*[diagram: | f. g |a/b.b/e|a/b/c.c/b/e|]*
 
-*[diagram: o v g h s t]*
+*[diagram: | g. h |c/b.b/d|c/b/e d/b/e|]*
 
-*[diagram: | g/h | o/g | s/t | v/s |]*
-
-Θεώρημα ιζ, Πρόθεσις κγ.
-
-Τὰ ἰσογώνια παραλληλόγραμμα,πρὸς ἄλληλα λόγον ἔχῃ τὸν συγκείμενον ἐκ τῶν πλευρῶν.
-
-## Theorema 17, Propositio 23.
-
-AEquiangula parallelogramma, adinuicem rationem habent compositam ex lateribus.
-
-ORONTIVS. ¶De lateribus velim intelligas, quæ circum æquales sunt angulos.Sint igitur bina parallelogramma inuicẽ æquiangula,a/b/c/& d/b/e: quorum angulus qui sub a/b/ & b/c, angulo qui sub d/b/& b/e/ continetur sit æqualis. Dico a/b/c/parallelogrammum, ad parallelogrammum d/b/e, rationem habere compositam ex ratione laterum a/b/ad b/e,& c/b/ad b/d.Conſtituantur enim a/b/ & b/e/ latera in directum: hoc autem fiet, cùm anguli c/b/a/ & c/b/e/ duobus rectis fuerint æquales, per decimamquartam primi. tunc quoq; in directum erit c/ b/ ipsi b/ d, per eandem propositionem: nam anguli e/b/c/ & e/b/d,per primam & tertiam communem sententiam, duobus itidem rectis æquabũtur . Compleatur denique parallelogrammum c/ b/ e: productis in continuum rectúmque, per secundum poſtulatum,eorundem parallelogrammorum lateribus . Proponatur insuper recta quædam linea f: & tribus datis rectis lineis a/b, b/e , & f: quarta subsumatur proportionalis g , per duodecimam huius sexti . Erit igitur vt a/b,ad b/e : sic f, ad g.Et per eandem duodecimam propositionem, tribus datis rectis lineis c/b, b/d, & g: quarta rursum proportionalis accipiatur h. Erit ergo vt c/b,ad b/d:sic g,ad h. Eſt autem sicut a/ b/ ad b/ e, sic f/ ad g. rationes itaque ipsius f/ ad g, & g/ ad h : eædem sunt ipsis rationibus a/ b/ ad b/e, & c/b/ ad b/d. Ratio porrò f/ ad h,componitur ex ratione ipsius f/ ad g, atque
-
-> Partiũ figuræ præparatio.
+*[diagram: |f. g. h |a/b/c.c/b/e.d/b/e|]*
 
 *[diagram: a b c d e f g h]*
 
-o.iij.
+Θεώρημα ιη, Πρόθεσις κδ.
+
+Παντὸς παραλληλογράμμου, τὰ περὶ τὴν διάμετρον παραλληλόγραμμα,ὅμοια ἐστὶ τῷ τε ὅλῳ καὶ ἀλλήλοις.
+
+## Theorema 18, Propositio 24.
+
+OMnis parallelogrammi,quæ circa dimetiẽtem parallelogrãma:similia sunt toti, & adinuicem.
+
+ORONTIVS. ¶Eſto datum parallelogrammum a/b/c/d,cuius dimetiens sit a/c,& circa ipsum dimetientem parallelogramma,e/f/& g/h.Aio ipsa e/f/ & g/h/parallelogramma,toti parallelogrammo a/b/c/d,atque inuicem fore similia. Trianguli enim a/b/c, ad latus b/ c/ acta eſt parallela f/l:secat igitur f/l/ipsius trianguli latera proportionaliter,per secundam huius sexti, sicut b/f/ ad f/a, sic c/ l/ ad l/ a.Trianguli rursum a/ d/ c, ad latus d/c/acta eſt parallela e/l:secat igitur e/l/ ipsius trianguli latera proportionaliter,per eãdem secundã huius sexti, sicut c/l/ ad l/a, sic d/e/ ad e/a. Sicut porrò c/l/ ad l/a,sic oſtensum eſt b/f/ad f/a.Et sicut igitur b/f/ad f/a, sic per vndecimã quinti, d/e/ad e/a.Si autem diuisæ magnitudines proportionales fuerint:compositæ quoq; proportionales erũt, per decimamoctauam quinti. Et sicut igitur b/a/ad a/f,sic d/a/ad a/e.Et permutatim rursum,per
+
+> Quòd e,f,parallelogrãmũ simile sit toti a,b,c,d.
+
+*[diagram: a e d f l h b g c]*
+
+*[diagram: | b/f. f/a | c/l. l/a | d/e. e/a |]*

@@ -1,37 +1,33 @@
-# Page 413
+# Page 414
 
 # DES FORTIFICATIONS.
 
-Commençant par le triangle BCD, pour trouuer BD, on dira, si
+donné 27 toises & 26″, il est manifeste que le logarithme de 27 toises & 26″ est 143539, que nous auons mis en cette regle.
 
-∠D   BC   ∠BCD   BD
-90 deg. —— 48 tz. —— 70 deg. 30′.   R. 45:25
-1000000   168124   997435   165559
+Pour auoir le flanc CH, on dit, si
 
-faisant la regle de trois des logarithmes, on trouuera 45 toises, & la fraction 238/955 qui a donné 25″, en adioustant deux zero au numerateur 238, & diuisant le prouenant 23800, par le denominateur 955 : & ainsi nous reduirons en dixme toutes les fractions qui arriueront aux regles des trois suiuantes.
+∠CHF   CF   ∠HFC   CH
+90 deg. —— 27:26 —— 40 deg.   R. 17:52
+1000000   143539   980807   124346
 
-Pour auoir CD, on dira, si
+Pour trouuer Hn, au triangle HnC, on dira, si
 
-∠D   BC   ∠CBD   CD
-90 deg. —— 48 tz. —— 19 deg. 30′   R. 16:02
-1000000   168124   952350   120474
+∠HnC   HC   ∠HCn   Hn
+19 deg. 30′   17:52   70 deg. 30   R. 49:47
+952350   124346   997435   169431
 
-Pour trouuer la capitale BF, au triangle BCF, on dira, si
+En cette regle nous auons pris pour le logarithme de 17 toises 52″ 124346, qui nous a donné en la precedente les 17 toises 52″.
 
-∠BFC   BC   ∠BCF   BF
-86 degr. —— 48 tz. —— 59 deg. 30′.   R. 41:46
-999894   168124   993532   161762
+Pour auoir Cn, on dira, si
 
-Pour trouuer CF, on dira, si
+∠HnC   HC   ∠CHn   Cn
+19 deg. 30′   17:52   90 deg.   R. 52:48
+952350   124346   1000000   171996
 
-∠BFC   BC   ∠CBF   CF
-86 deg. —— 48 tz. —— 34 deg. 30′.   R. 27:26
-999894   168124   975313   143539
+Que si le pan à la courtine est comme 2 à 3, ordonnant la regle de trois ainsi, si
 
-Pour trouuer la ligne de gorge HF, au triangle HCF, on dira, si
+2 —— 3 —— 48 —— R. 72.
 
-∠CHF   CF   ∠HCF   HF
-90 deg. —— 27:26 —— 50 deg.   R. 21:36
-1000000   143539   988425   131964
+on trouuera 72 toises pour la courtine MH.
 
-A cause qu'en la regle precedente le logarithme 143539 nous a
+Maintenant adjoustant CD 1602″ auec CH 1752″, viendra 3354″, ou 33 54/100 toises, pour DH ou son égale Sr.  Adioustant aussi BC 48, auec Cn 5248″, viendra 10048″, ou 100 48/100 toises pour la ligne de defense razante Bn.  Ostant Hn 4947″ de la courtine HM 72, restera 2253″, ou 22 53/100 toises, pour le second flanc Mn ou son égal Hd.  La courtine HM 72 estant adioustée auec les lignes de gorges FH 2136″ & LM 2136″, fera 11472″ ou 114 72/100 toises, pour FL costé du polygone interne.  La mesme courtine HL 72 estant adioustée

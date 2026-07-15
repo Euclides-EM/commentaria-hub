@@ -1,43 +1,37 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-*126*
+*127*
 
-diffinitionem. Ergo si prima ad secundam eandem rationē habuerit: &c. vt in theoremate. Quod oportuit ostendisse.
+sententiam. & proinde c/m, & m/l, l/d, sunt quoque adinuicem æquales. Aequales porrò ad eandem, vel æquales, eandem habent rationem, & eadem ad æquales: per septimam huius quinti. Est igitur vt a/h/ad c/m, sic h/k/ad m/l, & k/b/ad l/d. Proportionales igitur sunt ipsæ a/h, h/k, & k/b, ipsis c/m, & m/l, l/d. Et sicut igitur vna antecedentium ad vnam consequentium, sic omnes antecedentes ad omnes consequentes, per duodecimam ipsius quinti. Ergo sicut a/h/ad c/m, sic tota a/b/ad totam c/d. æqualis porrò est a/h/ipsi e, & c/m/ipsi f. Et sicut igitur pars e/ad partē f, sic a/b/ multiplex ad c/d/multiplicem. Partes itaq̄; eodem modo multipliciū, eandem rationem habent sumptæ adinuicem. Quod ostendendum fuerat.
 
-Θεώρημα ιδ', Πρόθεσις ιδ'.
+Θεώρημα ις, Πρόθεσις ις.
 
-EΑν πρῶτον πρὸς δεύτερον τὸν αὐτὸν ἔχῃ λόγον, ὃ τρίτον πρὸς τέταρτον: ᾖ δὲ πρῶτον τοῦ τρίτου μεῖζον ᾖ, καὶ τὸ δεύτερον τοῦ τετάρτου μεῖζον ἔσαι: κἂν ἴσον, ἴσον, κἂν ἔλασσον, ἔλασσον.
+EΑν τέσσαρα μεγέθη ἀνάλογον ᾖ, καὶ ἐναλλὰξ ἀνάλογον ἔσαι.
 
-## Theorema 14, Propositio 14.
+## Theorema 16, Propositio 16.
 
-SI prima ad secundam eandem habuerit rationem, & tertia ad quartá: prima verò tertia maior fuerit, & secunda quarta maior erit: etsi æqualis, æqualis: etsi minor, minor.
+SI quatuor magnitudines proportionales fuerint: & permutatim proportionales erunt.
 
-ORONTIVS. ¶Sint verbi gratia quatuor magnitudines a,b,c,d/inuicē proportionales: sicut quidem a/ad b, ita c/ad d. sit autem primùm, a/maior ipsa c: dico q̄ & b, ipsa d/respondenter est maior. Cùm enim ex hypothesi a/ sit maior c: habebit
+ORONTIVS. ¶Sint verbi gratia quatuor magnitudines a,b,c,d, inuicē proportionales: sicut a/ ad b, sic c/ ad d. Dico quòd & vicissim, hoc est, permutatim proportionales existunt: sicut quidem a/ad c, sic b/ad d. Accipiantur enim ipsarum a, b, æquè multiplices e, f: ipsarū quoq̄; c,d, aliæ vtcūq̄; æquè multiplices g,h. Cùm igitur æquè multiplex sit e/ipsius a, vt f/ipsius b: erit vt a/ad b, sic e/ad f: nā partes eodem
 
-> Quando prima maior est tertia.
+> Permutatȩ rationis demonstratio.
 
-*[diagram: a b c d]*
+*[diagram: e a b f g c d h]*
 
-igitur a/ad b/ maiorem rationem, quàm c/ ad eandem b, per octauam huius quinti. Est autem ratio a/ad b/ eadem, quæ c/ad d, per hypothesin: & c/igitur ad d/maiorem rationem habet, quàm eadem c/ad b. Ad quam autem eadem maiorem rationem habet: & illa minor est, per secundam partem decimæ propositionis ipsius quinti. Minor est itaque d, ipsa b: & b/propterea ipsa d/maior. ¶Quòd si a/ fuerit minor c: erit & b/ minor ipsa d/ magnitudine. Rursum enim per eandem octauā huius quinti, c/ maior, ad ipsam b/ maiorem rationē habebit, quam a/minor ad eandem b. Quam rationem porrò habet a/ad b, eam seruat ex hypothesi c/ad d. Et c/ igitur ad b/maiorem rationē habet,
+modo multiplicium, eandem rationem habent sumptæ adinuicem, per antecedentem decimamquintam propositionem. Vt autem a/ad b, sic se habet c/ad d, per hypothesin. & sicut igitur e/ad f, sic c/ad d: nā quæ eidem sunt eædem rationes, & adinuicem sunt eædem, per vndecimam huius quinti. Insuper quoniam æquè multiplex est g/ipsius c, vt h/ipsius d: erit rursum vt c/ad d, sic g/ad h, per eandem quindecimam huius quinti. sicut porrò c/ad d, sic e/ad f/ se habere præostensum est. & sicut igitur e/ ad f, sic g/ ad h, per ipsum vndecimam ipsius quinti.
 
-> Quando prima minor est tertia.
+Quatuor itaq̄; magnitudines e,f,g,h, sunt inuicem proportionales: habétque prima e/ad secundam f/eam rationem, quam tertia g/ad quartā h. Si prima igitur e, fuerit maior tertia g: & secūda f, ipsa h/quarta maior erit: etsi æqualis, æqualis: etsi minor, minor, per decimamquartā eiusdem quinti. Atqui e/& f, ipsarum a/& b, hoc est primæ & tertiæ magnitudinis (de illationis ordine velim intelligas) sunt æquè multiplices: g/autem & h, secundæ & quartæ, vtpote ipsarum c/& d/ æquè rursum multiplices. Est igitur per sextam huius quinti diffinitionem, vt prima a/ad secundam c, sic tertia b, ad quartā d. Si quatuor igitur magnitudines proportionales fuerint: & permutatim seu vicissim proportionales erunt. Quod erat demonstrandum.
 
-*[diagram: a b c d]*
+Θεώρημα ιζ, Πρόθεσις ιζ.
 
-quàm ad d. Est igitur b/minor ipsa d, per ipsam decimā eiusdem quinti. ¶Porrò si a/fuerit æqualis ipsi b: haud dissimiliter ostendemus, b/fore æqualem ipsi d. Aequales enim a/& c/ ad eandem b/ eandem rationem habebunt, per septimam huius quinti. sed quam rationem habet a/ad b, eā rursum habet c/ad d, per hypothesin. Et c/igitur ad vtranque b/ & d, eandem obseruabit rationem. Ad quas autē eadem eandem habet rationem, ipsæ sunt æquales, per nonam ipsius quinti propositionem. Aequalis erit igitur b/ ipsi d. Si prima igitur ad secundā eandem habuerit rationem: & quæ sequuntur reliqua. Quod demonstrare oportebat.
+EΑν συγκείμενα μεγέθη ἀνάλογον ᾖ, καὶ διαιρεθέντα ἀνάλογον ἔσαι.
 
-> Vbi prima æquatur tertiȩ.
+## Theorema 17, Propositio 17.
 
-Θεώρημα ιε, Πρόθεσις ιε.
+SI cōpositæ magnitudines proportionales fuerint: diuisæ quoque proportionales erunt.
 
-TΑ μέρη τοῖς ὡσαύτως πολλαπλασίοις, τὸν αὐτὸν ἔχῃ λόγον, ληφθέντα κατάλληλα.
+ORONTIVS. ¶Sint cōpositæ magnitudines a/b, b/c, d/e, & e/f, inuicem proportionales: sicut a/b/ad b/c, sic d/e/ad e/f. Aio quòd & diuisæ proportionales erūt: sicut quidem a/c/ad c/b, sic d/f/ad f/e. Accipiantur enim ipsarum a/c, c/b, d/f, & f/e,
 
-## Theorema 15, Propositio. 15.
+> Diuisa ratio, siue modus arguendi à compositis ad diuisa.
 
-PArtes eodem modo multiplicium, eandem rationem habent sumptæ adinuicem.
-
-ORONTIVS. ¶Sint a/b/& c/d/ipsarum e/& f/æquè multiplices. Aio partem e/ad partem f/eandem rationem habere, quam a/b/multiplex ad c/d/multiplicem. Cùm enim a/b/æquè multiplex sit ipsius e, vt c/d/ipsius f: quot igitur partes sunt in a/b/æquales ipsi e, tot sunt & in c/d/ æquales ipsi f. Sint exēpli gratia iuxta numerū g: & distingatur a/b/in partes æquales ipsi e, sint'q̄; a/h, h/k, & k/b: necnon & c/d/
-
-*[diagram: a h k b e c m l d f]*
-
-in partes æquales ipsi f, vtpote in c/ m, m/ l, & l/d. Erit itaq̄; multitudo ipsarū a/h, h/k, & k/b, multitudini c/ m, m/l, & l/ d/ æqualis: vtraque enim æqualis ipsi numero g. Rursum quoniam a/h, h/k, & k/b/eidem e/sunt æquales: sunt igitur æquales adinuicē, per primam communē
+l.iiij.

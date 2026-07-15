@@ -1,29 +1,27 @@
-# Page 416
+# Page 417
 
 # DES FORTIFICATIONS.
 
-ou 112 49/100 toises pour AS : Et adioustant aussi AF 9758″ auec BF 4146″, viendra 13904″, ou 139 4/100 toises pour AB.  Et ostant OS 2886″ de rS 3354″, restera 468″, ou 4 68/100 pour rO.
+∠AbL   AL   ∠bAL   bL
+90 deg.   9758″   72   R. 92:8
+1000000   198935   997821   196756
 
-Pour trouuer la ligne de defense fichante HG, il faut premierement trouuer l'angle DGH au triangle rectangle HDG, par la regle des tangentes, ordonnant la regle de trois ainsi,
+on trouuera 928′ pour bL, dont le double est 1856′ ou 185 6/100 toises pour gL.
 
-DG + DH   tangente   DG ~ DH   tangente
-15099″   45 deg.   8371″   29 deg.
-217891   1000000   192277   974386
+*Adioustez la lettre g au centre du bastion K.*
 
-on trouuera 29 degrez, qu'il faut soustraire de 45 degrez, qui est la moitié de la somme de deux angles DGH & DHG, & restera 16 degrez pour l'angle DGH.  Ayant ainsi trouué l'angle HGD, pour trouuer la quantité de HG, on dira, si
+Par cette methode ont esté calculées les lignes de la table, qui est en la page 207 du 3 tome, & aussi celles de la table suiuante, qui contient les quantitez des costez des 9 premiers polygones, tant internes qu'externes, & de leurs subtendantes.
 
-∠HGD   DH   ∠HDG   HG
-16 deg.   3354″   90 deg.   12167″
-944034 —— 152551 —— 1000000 —— 208517
+*Table des quantitez des costez & subtendantes des fortifications regulieres.*
 
-La mesme HG se pouuoit aussi trouuer en quarrant les deux costez DH & DG, & de la somme de leurs quarrez tirant la racine quarrée.
-
-Pour auoir KG, qui est la subtendante des deux costez du polygone externe, il faut trouuer fG au triangle AGf, ordonnant la regle ainsi :
-
-∠AfG   AG   ∠fAG   fG
-90 deg.   13904″   72 deg.   R. 132:23
-1000000 —— 214313 —— 997821 —— 212134
-
-on trouuera 13223″ pour fG, dont le double est 26446″ ou 264 46/100 pour KG.
-
-Pour auoir gL, qui est la subtendante des deux costez du polygone interne, il faut trouuer bL au triangle AbL, ordonnant la regle ainsi,
+ | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
+cost int | 109 | 114 3/4 | 117 1/2 | 120 2/3 | 122 4/5 | 124 4/5 | 126 3/5 | 128 | 129 1/4
+cost ext. | 164 3/4 | 162 1/2 | 160 7/10 | 159 1/4 | 158 | 157 1/5 | 156 2/5 | 155 7/10 | 155 2/3
+subt. de 2 int | 185 | 203 1/2 | 217 | 227 | 234 | 240 3/4 | 245 3/5 | 249
+subt. de 2 ext | 262 1/2 | 277 | 287 | 292 | 295 | 297 | 298 1/4 | 299 1/2
+subt. de 3 cost. int. | 235 | 270 1/2 | 296 1/2 | 316 | 331 1/2 | 344 3/4 | 352
+subs. de 3 cost. ext. | 321 1/4 | 357 | 381 | 393 | 409 | 417 | 423 2/5
+subtend. de 4 costez internes. | 320 1/2 | 358 1/2 | 389 3/4 | 413 1/4 | 431 1/5
+subtend. de 4 costez externes. | 412 4/5 | 452 | 480 2/5 | 502 | 519
+subtendante de 5 costez internes. | 409 3/5 | 453 4/5 | 480 3/4
+subtendante de 5 costez externes. | 505 | 547 | 578 4/5

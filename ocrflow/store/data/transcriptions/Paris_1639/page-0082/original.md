@@ -1,54 +1,53 @@
-# Page 81
+# Page 82
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-opposé de mesme part ; & les deux internes de mesme part, égaux à deux droicts.
+(figure)
 
 *Hypoth.*
+
+ac *eſt* ◊, α
+∠a *eſt* ┘.
+
+*Req. à demonſtr.*
+
+ac *eſt* ▭.
+
+*Demonſtr.*
+
+α.35.d.1 | ad == bc,
+α.35.d.1 | ab == dc,
+29.1 | ∠a + ∠b 2|2 2┘,
+hyp. | ∠a *eſt* ┘;
+3.a.b | ∠b *eſt* ┘ β
+d.β | ∠d & ∠c *ſnt* ┘.
+
+THEOR. XXI. PROPOS. XXX.
+
+Les lignes droictes paralleles à vne mesme ligne droicte, sont aussi paralleles entr'elles.
+
+(figure)
+
+*Hypoth.*
+
+ab == ef,
+cd == ef.
+
+*Req. à demonſtr.*
 
 ab == cd.
 
-*Req. à demonſtr.*
+*Prepar.*
 
-∠dhg 2|2 ∠agh,
-∠bge 2|2 ∠dhe,
-∠agh + ∠chg 2|2 2┘.
+arbitr. | gi *eſt* ——.
 
-*Demonſtr.*
+*Demonſt.*
 
-ſuppoſ. | ∠agh + ∠chg n̄. *ſnt* 2|2 2┘
-13.a.1 | ab n̄. *eſt* == cd,
-*contr. hypoth.*
-1.concl. 21.a.1 | ∠agh + ∠chg 2|2 2┘
-13.1 | ∠dhg + ∠chg 2|2 2┘
-∠chg *comm. ſubtr.*
-2.concl. 3.a.1 | ∠dhg 2|2 ∠agh β
-15.1 | ∠bge 2|2 ∠agh,
-β | ∠dhg 2|2 ∠agh,
-3.concl. 1.a.1 | ∠bge 2|2 ∠dhg.
+α.29.1 | ∠agi 2|2 ∠ehi,
+β.29.1 | ∠dig 2|2 ∠ehi,
+1.a.1 | ∠agi 2|2 ∠dig,
+concl. 27.1 | ab == cd.
 
-SCHOL. I.
+SCHOLIE.
 
-Si l'angle externe est égal à l'interne & opposé de mesme part, la ligne tombant sur lignes droictes paralleles est droicte.
-
-*Hypoth.*
-
-ab == cd,
-∠egb 2|2 ∠ghd.
-
-*Req. à demonſtr.*
-
-egh *eſt* ——.
-
-*Demonſtr.*
-
-hyp. | ∠egb 2|2 ∠ghd,
-∠bgh *commun. add.*
-2.a.1 | ∠egb + ∠bgh 2|2 ∠ghd + ∠bgh,
-29.1 | ∠ghd + ∠bgh 2|2 2┘,
-1.a.1 | ∠egb + ∠bgh 2|2 2┘,
-concl. 14.1 | egh *eſt* ——.
-
-SCHOL. II.
-
-Tout parallelogramme, qui a vn angle droict, est parallelogramme rectangle.
+Les lignes droictes paralleles à vne mesme ligne droicte estans continuées directement, si elles se rencontrent : elles seront parties d'vne mesme ligne droicte, comme AG & GB sont parties de la droicte AB.

@@ -1,33 +1,25 @@
-# LIBER III. 67
+# 68 GEOMET. ELEMENT.
 
-circulum cadant plures quàm duæ rectę lineæ æquales: susceptum punctum, centrum ipsius est circuli.
+eorum centra: ad eorum centra applicata recta linea & eiecta, in contactum circulorum cadit.
 
-ORONTIVS.¶Sit intra circulum a/b/c/ susceptum pũctum d: à quo in eundem circulum cadant plures quàm duæ rectæ lineæ inuicẽ æquales, d/a, d/b, & d/c. Aio quòd punctum d, est centrum ipsius circuli a/b/c. Connectantur enim a/b/& b/c/rectæ, per primum postulatum: secetúrq; bifariam a/b/in puncto e, & b/c/in pũcto f, per decimam primi. connectantur rursum d/e/& d/f, per idem primum postulatum: & per secundum postulatum, producantur in directum vtrobique ad puncta quidem g, h/& k, l. Cùm igitur a/e/sit æqualis e/b, & vtrique communis e/d: binæ igitur a/e/& e/d/trianguli a/e/d, duabus b/e/& e/d/trianguli b/e/d, sunt æquales altera alteri: basis quoq; d/a, basi d/b, per hypothesin est æqualis. Angulus igitur a/e/d, æquus est per octauam primi, angulo b/e/d: & proinde vterque rectus, per decimam ipsius primi diffinitionem. Recta igitur g/h, rectam a/b, bifariam & ad rectos angulos intersecat: in dispescente itaq; g/h, erit centrum ipsius a/b/c/circuli, per corollarium primæ huius tertij. Haud dissimili via ostendetur, eiusdem circuli cẽtrum fore in recta k/l. In vtraq; igitur & g/h & k/l, est centrum dati circuli a/b/c: & in puncto propterea vtriq; communi. Atqui nullum aliud pũctum habent commune, præter ipsum d: punctum igitur d, centrũ est ipsius a/b/c/ circuli. Si ergo intra circulum suscipiatur punctũ aliquod: & quæ sequuntur reliqua. Quod oportuit demõstrasse.
+ORONTIVS.¶Duo enim circuli a/b/c/ & a/d/e, se introrsum adinuicem tangant, in puncto quidem a: sítq; ipsius a/b/c/circuli centrum f, ipsius verò a/d/e/centrum g. Dico quòd ad centra f/g, applicata recta linea, & eiecta: cadit in contactum a. Si enim non ceciderit in punctum a: cadet igitur alibi. Cadat ergo (si possibile sit) vt eiecta versus g, in d/& b/puncta: & connectatur a/g/ recta, per primum postulatum. Triangulum erit igitur a/g/f: & duo propterea latera a/g/& g/f, erunt maiora reliquo a/f, per vigesimam primi. Atqui ipsi a/f, æqualis est f/b (vtraq; enim à cẽtro f, in circunferentiam circuli a/b/c) & a/g/igitur & g/f, maiores sunt eadem f/b. Tollatur f/g, vtrisque inæqualibus cómunis: reliqua igitur a/g, reliqua g/b/maior erit, per quintam communem sententiam. Ipsi porrò a/g, æqualis est g/d (vtraque enim à centro g, in circunferentiã ipsius a/d/e/circuli) & g/d/igitur maior erit ipsa g/b. quæ enim sunt æqualia, eiusdẽ sunt æquè maiora: per sextæ cómunis sententiæ conuersionem. Ipsa porrò g/d, pars est ipsius g/b: pars igitur erit maior toto, contra nonam communem sententiã. Cadit igitur f/g/eiecta, in contactũ a.
 
-> Hoc theorema aliter ostẽdi potest: sed hæc est demõstratio potissima.
+> Demõstratio ab impossibili
 
-*[diagram: k a g e d h b f c l]*
+*[diagram: a b d g f e c]*
 
-Θεώρημα θ, Πρόθεσις ι.
+> Alia figurę dispositio.
 
-ΚΥκλος οὐ τέμνει κύκλον κατὰ πλείονα σημεῖα ἢ δύο.
+¶Quòd si g/f/connexa, & eiecta versus f, detur incidere veluti g/f/c, & centrum f/ exterioris circuli a/b/c/extra circulum interiorem a/d/e/constituatur: idem nihilominus subsequetur inconueniens. Connexa enim & eiecta g/f/c/ recta, producatur in directum versus g, ad d/& b/puncta, per primum postulatum. Erunt itaque rursum a/g/& g/f, maiores ipsa f/a, per ipsam vigesimã primi libri propositionem. Eidem porrò f/a, æqualis est f/c, per decimamquintam diffinitionem ipsius primi. Igitur a/g/ & g/f, maiores sunt ipsa f/c. Eidem rursum f/c, æqualis est f/b, per eandem decimãquintã primi libri diffinitionẽ. Et a/g/igitur & g/f, maiores sunt ipsa f/b, per septimæ cómunis sententiæ cõuersionẽ. Auferatur f/g/ vtrisq; inæqualibus cómunis. Reliqua igitur a/g, reliqua g/b, per quintam cómunem sententiam maior erit: & multò igitur maior ipsa g/d, quæ pars est ipsius g/b. In circulo itaq; a/d/e, quæ à centro g/in circũferentiã prodeunt lineæ rectæ g/a, & g/d, non erũt inuicẽ æquales: contra decimãquintam diffinitionẽ primi. Cadit igitur f/g/eiecta, in cõtactũ a. Ergo si bini orbes se introrsum: &c. vt in theoremate. Quod ostendendum fuerat.
 
-## Theorema 9, Propositio 10.
+*[diagram: b a d g e f c]*
 
-CIrculus, circulum in pluribus duobus punctis non secat.
+Θεώρημα ια, Πρόθεσις ιβ.
 
-ORONTIVS.¶Secet enim (si possibile sit) circulus a/b/c, circulum d/e/f, in pluribus duobus punctis, hoc est in punctis b, c, e, f. Et suscipiatur centrum ipsius circuli a/b/c, per primã huius, sítq́; illud g: & cõnectantur g/b, g/c, g/e, & g/f/rectæ, per primum postulatũ. Cùm igitur punctum g, sit centrum circuli a/b/c: erunt g/b, g/c, g/e, & g/f/adinuicẽ æquales, per decimamquintam primi libri diffinitionem. Et quoniam b, c, e, f, sunt communes vtriusque circuli sectiones, per hypothesin: erit punctum g, vtcunq; susceptum intra circulum d/e/f. Ab ipso itaq; puncto g, in eundem circulum d/e/f, cadunt plures q̃ duæ rectæ lineæ inuicem æquales: vtpote g/b, g/c, g/e, & g/f. Erit ergo pũctum g, cẽtrum eiusdem circuli d/e/f, per antecedentẽ nonam propositionẽ. Atqui idem punctum g, centrum est ipsius a/b/c/circuli. Duorum itaque circulorum a/b/c, & d/e/f, sese inuicem secantium, idem erit centrũ: quod per quintam huius tertij, nõ est possibile. Circulus ergo, circulum in pluribus duobus pũctis non secat. Quod ostendere fuerat operæpretium.
+ΕΑν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐκτός, ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη, διὰ τῆς ἐπαφῆς ἐλεύσεται.
 
-> Hæc rursum aliter potuisset ostẽdi, sed hanc potiorẽ existimo demõstrationẽ.
+## Theorema 11, Propositio 12.
 
-*[diagram: a b f d g c e]*
+SI duo circuli sese adinuicem exterius tetigerint: ad centra eorum applicata recta linea, per contactum transibit.
 
-Θεώρημα ι, Πρόθεσις ια.
-
-ΕΑν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐντός, καὶ ληφθῇ αὐτῶν τὰ κέντρα, ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη εὐθεῖα καὶ ἐκβαλλομένη, ἐπὶ τὴν συναφὴν πεσεῖται τῶν κύκλων.
-
-## Theorema 10, Propositio 11.
-
-SI bini orbes se introrsum adinuicem tetigerint, suscipiátúrq;
-
-f.iiij.
+ORONTIVS.¶Tangãt se exterius bini circuli a/b/c/ & d/b/e, in pũcto quidẽ b: sítq; ipsius a/b/c/circuli centrum f, & ipsius d/b/e/centrum g. Aio quòd connexa f/g/ recta linea, trãsibit per contactum b. Si enim non transierit per punctum b, transeat (si possibile sit) per c/& e/puncta: & cõnectantur b/f/& b/g/rectæ lineæ, per

@@ -1,33 +1,32 @@
-# Page 224
+# Page 225
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
+
+*Req. à demonſtr.*
+
+raō.. ab π d 3|2 raō.. c π d,
+raō.. d π c 3|2 raō.. d π ab.
 
 (figure)
 
-*Prepar.*
+*Preparation.*
 
-3.1 | d *multipl..* | a,
-| e *multipl..* | b,
-3.1 | f *multipl..* c.
+3.1 | ae 2|2 c,
+3.1 | hg *multipl..* ae Ⅱ c 2|2 gf *multipl..* eb,
+4.p.1 | hg 3|2 d, & gf 3|2 d, α
+3.1 | ik *multipl..* d,
+α.3.1 | ik 3|2 hg, & ik 2|3 hf, β
 
 *Demonſtr.*
 
-6.a.1 | d 2|2 e,
-1.a.d | d, 2, 3, 4 | 3, f,
-| e, 2, 3, 4 | 3, f,
-1.concl. 6.d.5 | a π c 2|2 b π c,
-2 concl c.4.5 | c π a 2|2 c π b.
+1.5 | hf *multipl..* ab 2|2 hg *multipl..* ae Ⅱ gf *multipl..* eb,
+β.cōſtr. | hf 3|2 ik, & hg 2|3 ik,
+1.concl. 8.d.5 | raō.. ab π d 3|2 raō.. c π d,
+β.cōſtr. | ik 3|2 hg, & ik 2|3 hf,
+2 concl. 8.d.5 | raō.. d π c 3|2 raō.. d π ab.
 
-Ceste proposition est de soy manifeste, neantmoins pour la demonstrer par la 6 definition du 5, on dira que D & E, equimultiples des antecedens A & B, à cause qu'elles sont égales entr'elles, ne peuuent estre dissemblables au respect de F, qui est l'equimultiple des consequens C: & que par consequent, par la 6. definition du 5. il y a mesme raison de l'antecedent A au consequent C, que de l'antecedent B au mesme consequent C: ce qu'il falloit demonstrer.
+En ceste demonstration, il est manifeste que IK, qui est multiple de D, se peut prendre en sorte, qu'elle soit plus grande que GH, & plus petite que HF. Car si, par exemple, on a pris HG plus grande que 6 D, & plus petite que 8 D, & HF plus grande que 12 D: pourueu que IK n'excede 12 D, & ne soit plus petite que 8 D, elle sera plus grande que HG, & plus petite que HF.
 
-SCHOLIE.
+THEOR. IX. PROPOS. IX.
 
-Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par la mesme methode que les grandeurs égales ont mesme raison à d'autres grandeurs égales.
-
-THEOR. VIII. PROPOS. VIII.
-
-Des grandeurs inégales, la plus grande a plus grande raison à vne mesme que la plus petite: Et vne mesme grandeur a plus grande raison à la plus petite grandeur qu'à la plus grande.
-
-*Hypoth.*
-
-ab 3|2 c.
+Les grandeurs qui ont mesme raison à vne mesme grandeur, sont égales entr'elles: Et celles-là

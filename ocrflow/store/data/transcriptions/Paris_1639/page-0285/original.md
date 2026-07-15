@@ -1,51 +1,43 @@
-# Page 284
+# Page 285
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-3.a.1 | *gnom.* eng 2|2 c, β
-α.36.1 | ◊al 2|2 ◊co Ⅱ ◊bm,
-| ◊lp *commun. add.*
-2.a.1 | ◊an 2|2 *gnom.* eng,
-2 concl. β.1.a.1 | ◊an 2|2 *rectili.* c.
+1.ſ.1.d.2 | □.cd *eſt* 25,
+1.ſ.1.d.1 | □.de *eſt* 144,
+47.1 | □.ce *eſt* 169, γ
+γ | ce Ⅱ ac Ⅱ cb *eſt* 13,
+β.2.a.1 | ad *eſt* 18,
+β.3.a.1 | db *eſt* 8.
 
-SCHOLIE.
+PROBL. X. PROPOS. XXX.
 
-Si à la ligne donnée il faut appliquer vn parallelogramme excedant d'vn quarré, la solution se trouuera plus briefuement par la methode suiuante, proposant ainsi.
-
-Estant donnée la moyenne de trois proportionelles, & la difference des extrémes, trouuer les extrémes.
+Coupper vne ligne droicte proposée & terminée, selon la moyenne & extréme raison.
 
 (figure)
 
 *Hypoth.*
 
-fd *eſt differ.* D.
-de *eſt la moyenne* D.
+ab *eſt* —— D.
 
 *Requis à faire.*
 
-*trouuer* ad & db.
+ba π ag 2|2 ag π gb.
 
 *Conſtr.*
 
-11.1 | ∠fde *eſt* ┘,
-10.1 | fc 2|2 cd,
-1.p.1 | ce *eſt* ——,
-3.p.1 | ceab *eſt ſemic.*
-2.p.1 | afdb *eſt diamet.*
-ſymp. | ad & db *ſnt req.*
+11.2 | ▭.abg 2|2 □.ag, Ⅱ ▭bi 2|2 □ah.
 
 *Demonſtr.*
 
-15.d.1 | ac 2|2 cb,
-conſtr. | fc 2|2 cd,
-3.a.1 | af 2|2 db,
-1.concl. 19.a.1 | ad~af Ⅱ db *eſt* fd,
-ſ.13.6 | ad π de 2|2 de π db,
-2 concl. 17.6 | ▭.adb 2|2 □.de.
+conſtr. | ▭.abg 2|2 □.ag,
+concl. 14.6 | ab π ag 2|2 ag π bg.
 
-*Explication par nombres.*
+THEOR. XXI. PROPOS. XXXI.
 
-hyp. | de *eſt* 12,
-hyp. | fd *eſt* 10, α
-| ad & db *ſnt req.*
-α | cd *eſt* 5, β
+Aux triangles rectangles, la figure descrire sur le costé qui soustient l'angle droict, est égale aux deux figures des costez qui contiennent l'angle droict, semblables à icelle, & semblablement descrites.
+
+*Hypoth.*
+
+∠bac *eſt* ┘,
+bf, bg, al *ſnt ſml.* đe.
+bc, ba, ac *ſnt homolog.*

@@ -1,33 +1,35 @@
-# Page 466
+# Page 467
 
 # ETYMOLOGIE.
 
-Glacis, vient de la *glace*, à cause que le dessus des murailles ou terrasses, qui sont en glacis, & non à niueau & parallels à l'horizon, sont coulant comme la glace.  t. 3. p. 181.
+Horoscope, en Grec *hora*, sign. le temps, & *scopeo* obseruer : d'où vient le nom d'horoscope, qui sign. la figure de la constitution du ciel pour l'heure proposée.  t. 4. p. 137.
 
-Gnomonique, *horologiographie*, vient de *gnomon*, qui en Grec signifie vne esquierre : à cause, qu'aux quadrans le stile perpendiculaire auec l'oblique fait vn angle.  t. 5. p. 682.
+Hyaloïdes, qui est la pellicule qui contient l'humeur vitrée, vient de *hyalos*, qui en Grec signifie le vitre.  t. 5. p. 6.
 
-Graphometre, *instrument à mesurer*, vient de *grapho*, qui en Grec signifie descrire, & *metron* mesure.  t. 3. p. 115.
+Hydraulique, *spiritale*, vient de *hydor*, qui en Grec signifie l'eau, & *aylos* vn tuyau.
 
-Harmonie, *accord*, *musique*, vient de *harmozo*, qui en Grec signifie conuenir, & mettre chaque chose où elle s'accommode mieux.  t. 5. p. 802.
+Hydrographie, *description des mers*, vient de *hydor*, qui en Grec sign. l'eau, & *graphia* description.  t. 4. p 3.
 
-Hegire, est l'epoche qui est en vsage parmy les Turcs, laquelle commence le 16. de Iuillet de l'an 622. de nostre Seigneur.  t. 5 p. 457.
+Hypate, en Grec *hypertatos*, sign. supreme, d'où par syncope vient hypate.  t. 5. p. 809.
 
-Heliaque, *solaire*, vient de *helios*, qui en Grec sign. le Soleil.  t. 4. p. 63.
+Hypauge, signifie estre sous les rayons, car en Grec *hyp*, sign. estre sous, & *ayge* lumiere.  t. 5. p. 482.
 
-Helix, *ligne spirale*, vient de *eilisso*, qui en Grec signifie tourner à l'entour.  t. 2. p. 3.
+Hyperbole, en Grec *hyperballo*, sign. exceder, & *hyperbole* excez : d'où vient que la section conique, qui a les quarrez des moitiez de ses ordonnées excedants s'appelle hyperbole.  t. 5. p. 690.
 
-Hemisphere vient de *hemisys*, qui en Grec sign. la moitié, & *sphaira* globe ou boule.
+Hypobibasme, vient de *hypobibazo*, qui en Grec sign. faire descendre & diminuer.  t. 2. p. 86. alg.
 
-Heterogene, *de diuers genre*, vient de *heteros*, qui en Grec signifie autre, & *genos* genre.
+Hypostase, vient de *hypostasis*, qui en Grec signifie subsistance.  t. 2. p. 79. alg.
 
-Heterosciens, en Grec *heteros*, sign. l'vn, & *scia* ombre : d'où vient le nom de heterosciens, qui signifie ceux qui ont à midy tousiours l'ombre septentrionale ou meridionale.  t. 4. p. 94.
+Hypothenuse, qui est le costé qui soustient l'angle droict d'vn triangle, vient de *hypoteino*, qui en Grec signifie subtendre.
 
-Hexachorde maieur ou mineur, *sexte maieur ou mineur*, vient de *hex*, qui en Grec sign. six, & *chorde* vne chorde de boyau.  t. 5. p. 803.
+Hypothese, est la chose qu'on concede pour fondement de la consequence qu'on veut tirer, & vient de *hypothesis*, qui en Grec signifie supposition.  t. 1. p. 801.
 
-Holometre, *instrument à mesurer*, vient de *holos*, qui en Grec signifie tout, & *metron* vne mesure.
+Icnograghie, *plan geometrique*, vient de *Ichnos*, qui en Grec signifie vestige de la plante du pied, & *graphia* description.  t. 5. p. 190.
 
-Homogene, en Grec *homoios*, signifie semblable, & *genos* genre : d'où vient le nom de homogene, qui signifie les choses qui ne sont composées de diuers genres.  t. 2. p. 6. alg.
+Icosaedre, vient de *eicosi*, qui en Grec signifie vingt, & *hedra* siege.  t. 1. p. 653.
 
-Homologue, *de mesme raison*, vient de *homoios*, qui en Grec signifie semblable, & *logos* raison.  t. 1. p. 198.
+Iezdagird est l'epoche qui est en vsage parmy les Perses, laquelle commence le 16 de Iuin de l'an 632 de nostre Seigneur.  t. 5. p. 457.
 
-Horizon, *horizo*, en Grec signifie borner : d'où vient le nom d'horizon, qui est vn cercle qui borne nostre veuë, & distingue l'hemisphere superieur que nous voyons, de l'inferieur que nous ne voyons pas.  t. 4. p. 10.
+Indiction est vn espace de quinze ans, institué par les anciens Romains pour monstrer les années ausquelles on deuoit payer le tribut, & vient du verbe Latin *indicere*, qui signifie denoncer.  t. 2. p. 152.
+
+Iris ou Soleil, la cornée est distinguée en l'iris & en la prunelle :

@@ -1,40 +1,46 @@
-# Page 56
+# Page 57
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-*Hypoth.*
-
-abc *eſt* △ *equiang.*
-
-(figure)
-
-*Req. à demonſt.*
-
-abc *eſt* △ *equilat.*
+conuenient qui arriueroit, si ce concours se faisoit ailleurs, comme en la premiere figure sur le costé AC : en la seconde figure, au dedans du triangle ABC : & en la troisiesme figure, au dehors du triangle ABC.
 
 *Demonſtr.*
 
-hyp. | ∠abc 2|2 ∠acb.
-1.concl. 6.1 | ac 2|2 ab, α
-hyp. 2.concl. | ∠bac 2|2 ∠bca,
-6.1 | bc 2|2 ab,
-α.1.a.1 | ac 2|2 bc,
-23.d.1 | △abc *eſt equilat.*
+*Cas de la 1.figure.*
 
-THEOR. IV. PROPOS. VII.
+ſuppoſ. | •d *eſt en* ac,
+hyp. | ad 2|2 ac,
+*contr. 9. a. 1.*
 
-Si des extremitez de quelque ligne droicte on meine deux lignes droictes, se rencontrant à vn poinct, des mesmes extremitez on n'en pourra pas mener deux autres égales à icelles, chacune à la sienne, & de mesme part, se rencontrant à vn autre poinct.
+*Cas de la 2.figure.*
 
-(figure)
+ſuppoſ. | •d *eſt dans le* △acb,
+1.p.1 | cd *eſt* ——,
+2.p.1. | bdf & bce *ſnt* ——,
+hyp. 1.nota | ad 2|2 ac,
+5.1 | ∠adc 2|2 ∠acd, α
+hyp. 2.nota | bd 2|2 bc,
+5.1 | ∠fdc 2|2 ∠ecd. β
+9.a.1. | ∠ecd 3|2 ∠acd,
+α.1.a.c | ∠ecd 3|2 ∠adc,
+β.1.a.d | ∠fdc 3|2 ∠adc,
+*contr. 9. a. 1.*
 
-*Hypoth.*
+*Cas de la 3.figure.*
 
-abc *eſt* △,
-ad 2|2 ac,
-bd 2|2 bc.
+ſuppoſ. | •d *eſt hors le* △acb,
+1.p.1. | cd *eſt* ——,
+hyp. 1.nota | ad 2|2 ac,
+5.1 | ∠acd 2|2 ∠adc. γ
+hyp. 2.nota | bd 2|2 bc,
+5.1 | ∠bcd 2|2 ∠bdc,
+9.a.1. | ∠bdc 3|2 ∠adc,
+1.a.d. | ∠bcd 3|2 ∠adc,
+γ. | ∠adc 2|2 ∠acd,
+1 a.d. | ∠bcd 3|2 ∠acd,
+*contr. 9. a. 1.*
+concl. 21.a.1. | •d *eſt en* c.
 
-*Requis à demonſtr.*
+THEOR. V. PROPOS. VIII.
 
-•d *eſt en* c.
-
-C'est à dire, que le concours des deux lignes AD & BD ne se peut faire ailleurs qu'en C. Ce qui se prouue, en monstrant l'in-
+Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & qu'ils ayent la base égale à la base, ils auront aussi l'angle contenu d'iceux costez égaux égal à l'angle.

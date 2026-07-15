@@ -1,40 +1,53 @@
-# Page 77
+# Page 78
 
-# D'EVCLIDE, LIV. I.
-
-costez chacun au sien, & la base plus grande que la base ; ils auront aussi l'angle contenu d'iceux plus grand que l'angle.
+# LES ELEMENTS
 
 (figure)
 
-*Hypoth.*
+*Req. à demonſtrer.*
 
-ab 2|2 de, α
-ac 2|2 df, α
-bc 3|2 ef.
-
-*Requis à demonſtr.*
-
-∠bac 3|2 ∠edf.
+de 2|2 ab,
+dg 2|2 ac,
+∠edg 2|2 ∠bac.
 
 *Demonſtr.*
 
-ſuppoſ. | ∠bac 2|2 ∠edf,
-α.4.1 | bc 2|2 ef,
-*contr. hypoth.*
-ſuppoſ. | ∠bac 2|3 ∠edf,
-α.24.1 | bc 2|3 ef,
-*contr. hypoth.*
-conel. 21.a.1 | ∠bac 3|2 ∠edf.
+ſuppoſ. | eh 2|2 ba,
+1.p.1 | gh *eſt* ——,
+hyp. | eg 2|2 bc,
+hyp. | ∠e 2|2 ∠b, α
+4.1 | ∠egh 2|2 ∠c,
+hyp. | ∠egd 2|2 ∠c,
+1.a.1 | ∠egh 2|2 ∠egd.
+*contr. 9 a. 1.*
+1.concl. 21.a.1 | ed 2|2 ba, β
+αβ.4.1 | gd 2|2 ca,
+αβ.4.1 | ∠edg 2|2 ∠a.
 
-THEOR. XVII. PROPOS. XXVI.
+*Hypoth. 2.*
 
-Si deux triangles ont deux angles égaux à deux angles, chacun au sien, & vn costé égal à vn costé; sçauoir est, ou celuy qui est adjacent à iceux angles égaux, ou bien celuy qui soustient l'vn d'iceux angles égaux : ils auront les autres costez égaux aux autres costez, chacun au sien, & l'autre angle égal à l'autre angle.
+ed 2|2 ba,
 
-*Hypoth. commune.*
+*Req. à demonſtr.*
 
-∠e 2|2 ∠b,
-∠dge 2|2 ∠acb.
+eg 2|2 bc,
+gd 2|2 ca,
+∠edg 2|2 ∠a.
 
-*Hypoth. 1.*
+*Demonſtr.*
 
-eg 2|2 bc.
+ſuppoſ. | ei 2|2 bc,
+1.p.1 | di *eſt* ——,
+hyp. | ed 2|2 ba, γ
+hyp. | ∠e 2|2 ∠b,
+4.1 | ∠eid 2|2 ∠c,
+hyp. | ∠egd 2|2 ∠c,
+1.a.1 | ∠eid 2|2 ∠egd,
+*contr. 16. 1.*
+2.concl. 21.a.1 | eg 2|2 bc, δ
+γδ.4.1 | gd 2|2 ca,
+γδ.4.1 | ∠edg 2|2 ∠bac.
+
+*Coroll.*
+
+4.1 | △egd 2|2 △bca.

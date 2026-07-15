@@ -1,15 +1,21 @@
-# Page 21
+# Page 22
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-(figure)
+XI.
 
-Tout augle plan est faict, ou de deux lignes droites, & est appellé angle Rectiligne, comme A, & d'iceluy traicte seulement icy Euclide : ou de deux lignes courbes, comme B, qui peut estre appellé Curuiligne : ou d'vne ligne droite & d'vne courbe, comme C, qui s'appelle Mixtiligne.
-
-X.
-
-Quand vne ligne droicte tombant sur vne autre ligne droicte, fait les angles de suite, ou d'vne part & d'autre, égaux entr'eux, l'vn & l'autre d'iceux angles égaux est droict : & la ligne droicte tombante est dite Perpendiculaire à celle-là sur laquelle elle tombe.
+L'angle obtus est, celuy qui est plus grand qu'vn droict, comme ACB.
 
 (figure)
 
-Les angles sont droits, quand vne ligne droite tombante sur vne autre ligne droite, n'incline pas dauantage d'vne part que de l'autre : comme si la ligne droite CG, n'incline pas dauantage vers B que vers A, vn chacun des angles CGA & CGB sera droict, & la ligne CG est dite Perpendiculaire à la ligne AB, sur laquelle elle tombe.
+XII.
+
+Mais l'aigu est, celuy qui est plus petit qu'vn droict, comme ACD.
+
+Nous noterons icy que plusieurs angles estans à vn poinct, il faut trois lettres pour nommer celuy qu'on veut d'iceux, lequel se trouue tousiours au poinct de la lettre du milieu : comme en ceste figure, pour nommer l'angle obtus du poinct C, on dira ACB, ou BCA : & l'aigu s'appellera ACD ou DCA.
+
+XIII.
+
+Terme, est l'extremité de quelque chose.
+
+Il y a trois sortes de termes selon ceste definition; car le poinct est le terme ou l'extremité de la ligne; la ligne est le terme de la superficie ; & la superficie, du corps; mais le corps ne peut rien terminer, d'autant qu'il ne se trouue aucune quantité qui ait plus de trois dimensions : & toute chose terminée excede son terme d'vne dimension, comme il est manifeste par les exemples proposez.

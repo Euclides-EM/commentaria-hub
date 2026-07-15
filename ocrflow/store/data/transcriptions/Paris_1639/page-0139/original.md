@@ -1,43 +1,45 @@
-# Page 138
+# Page 139
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-(figure)
+*Preparation.*
 
-15.d.1 | ae 2|2 ec,
-8.1 | ∠afe 2|2 ∠cfe,
-1.concl. 10.d.1 | ef ⊥ ac.
-
-*Hypoth. 2.*
-
-ef ⊥ ac. α
-
-*Req. à demonſtrer.*
-
-af 2|2 fc.
+1.p.1 | fe *eſt* ——.
 
 *Demonſtr.*
 
-α.12.a.1 | ∠efa 2|2 ∠efc,
-5.1 | ∠eac 2|2 ∠eca,
-ef *eſt commun.*
-2 concl. 26.1 | af 2|2 fc.
+ſuppoſ. | cf 2|2 fd,
+3.3 | ∠efd *eſt* ┘,
+hyp. | af 2|2 fb,
+3.3 | ∠efb *eſt* ┘,
+12.a.1 | ∠efd 2|2 ∠efb,
+*contr. 9. a.. 1*
+concl. 21.a.1 | cf n̄. *eſt* 2|2 fd.
 
-COROLLAIRE.
+THEOR. IV. PROPOS. V.
 
-De cette demonstration s'ensuit, qu'en tout triangle isoscele ou equilateral, la ligne menée de l'angle du sommet au milieu de la base est perpendiculaire à la base : & au contraire la ligne perpendiculaire à la base, menée de l'angle opposé, la couppera en deux également.
-
-THEOR. III. PROPOS. IV.
-
-Si au cercle deux lignes se couppent l'vne l'autre, n'estant point menées par le centre, elles ne se coupperont point l'vne l'autre en deux égalemēt.
+Si deux cercles se couppent l'vn l'autre, ils n'auront pas le mesme centre.
 
 (figure)
 
-*Hypotheſe.*
+*Hypoth.*
 
-eacd *eſt* ⊙,
-af 2|2 fb.
+bac & bdc *ſnt* ⊙.
 
-*Req. à demonſtrer.*
+*Req. à demonſtr.*
 
-cf n̄. *eſt* 2|2 fd.
+e n̄. *eſt centr. du* ⊙bac, & *du* ⊙bdc.
+
+*Demonſtration.*
+
+ſuppoſ. | e *eſt centr. du* ⊙bac, & *du* ⊙bdc.
+1.p.1 | eda *eſt* ——,
+15.a.1 | ed 2|2 eb,
+15.d.1 | ea 2|2 eb,
+1.a.1 | ed 2|2 ea,
+*contr. 9. a. 1.*
+concl. 21,a.1 | e n̄ *eſt centr. du* ⊙bac, & *du* ⊙bdc.
+
+THEOR. V. PROPOS. VI.
+
+Si deux cercles se touchent l'vn l'autre au dedans, ils n'auront pas mesme centre.

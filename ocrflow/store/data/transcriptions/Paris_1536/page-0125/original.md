@@ -1,51 +1,53 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-*(pagina 108)*
+*(pagina 109)*
 
-magnitudinis, vtpote, q̄ multotiens, hoc est ter, eandem bipedalem contineat magnitudinē, seu quam bipedalis ter multiplicata metitur. & propterea sextupedalis, triplex ipsius bipedalis peculiari restrictione vocatur. ¶Cùm autem minor magnitudo aliquotiēs sumpta, seu multiplicata, plus aut minus efficit, quàm sit ipsa magnitudo maior: nō quota, sed adgregatiua pars ipsius maioris videtur esse magnitudinis, ex quotis scilicet partibus adgregata, ab ipsarum partium quotarum tum numero, tum qualitate denominanda.
+dicitur, vt quinarij ad ternarium: alia supertripartiens quartas, velut septenarij ad quaternarium: alia verò superquadripartiens quintas, veluti nouenarij ad quinariū, & deinceps ita sine statu, vocitatur. Hinc facilè colligitur, vtriusq̄ cōpositarum rationum diffinitio. Multiplex enim & superparticularis ratio dicitur, cùm maior magnitudo minorē pluries, & quotam insuper eiusdem minoris partem comprehendit. Multiplex deniq̄ & superpartiens ratio nominatur, quoties eadem magnitudo maior, minorem itidem pluries, & partem vltra non quotam, sed ex quotis eiusdem minoris partibus adgregatam continet. Quæ tum pro varietate multiplicis, tum pro vtriusque & superparticularis & superpartientis diuersitate, in varia, & (si liceat dicere) infinita compositarum rationū partiuntur discrimina.
 
-> Pars adgregatiua.
+> Multiplex superparticularis.
+> Multiplex superpartiens.
 
-Veluti quadrupedalis ad sextupedalem relata magnitudinē, adgregatiua pars eiusdem sextupedalis dicenda est magnitudinis. Componitur enim ex geminis bipedalibus magnitudinibus, quarum quęlibet tertiam sextupedalis partem efficit: hinc bipartiens tertias eiusdem sextupedalis denominatur.
+Cæteræ autem ab his magnitudinum habitudines, quarum denominationes ignoramus: surdæ irrationalésve nuncupantur.
 
-> Exemplum.
+> Surdæ rationes.
 
-¶Quæ igitur adinuicem comparatæ magnitudines, cōmuni aliqua metiuntur magnitudine: commensurabiles, seu communicātes, & rationales adpellantur. Cuiusmodi sunt omnes numeri, à binario in infinitum distributi, quos indifferenter metitur vnitas: omnes insuper ad numeros relatæ magnitudines, determinatam inter sese rationem vel habitudinem obtinentes.
+Porrò hæc omnia velim intelligas, dum maiores minoribus comparantur magnitudines: nam si minores ipsis maioribus comparētur magnitudinibus, subrationales erunt minores maioribus. Hinc talium magnitudinum rationes, submultiplices, subsuperparticulares, subsuperpartientes, submultiplices superparticulares, & submultiplices superpartientes, pro ratione atque transpositione terminorū, adpellātur.
 
-> Cōmensurabiles & rationales magnitudines.
+> Notandum.
 
-Quibus autem non accidit aliqua & per numerum expressa mensura: incōmensurabiles, & incommunicātes, irrationalésve dicuntur magnitudines, quarum habitudo determinatis non exprimitur numeris. Veluti sunt diagonius, & latus quadrati geometrici.
+¶Cuiuslibet autem suprascriptarum rationū cum alia quauis simili ratione cōparatio vel habitudo (non vt magnitudo magnitudini, sed vt hæc ratio cum illa ratione comparatur) proportio dicitur: cuius hæc est summaria diffinitio,
 
-> Incommensurabiles & irrationales.
+> De rationum cōparatione.
 
-Illa igitur rationalium vel irrationalium, seu cōmensurabilium & incōmensurabilium magnitudinum comparatio, vel habitudo, ratio (quemadmodùm suprà dictum est) à veteribus adpellatur: quæ ab Euclide in hunc modum diffinitur,
+¶Ἀναλογία δὲ ἐστιν, ἡ τῶν λόγων ὁμοιότης.
 
-¶Λόγος ἐστὶ δύο μεγεθῶν ὁμογενῶν ἡ κατὰ πηλικότητα πρὸς ἄλληλα ποιὰ σχέσις.
+## 4 Proportio verò, est rationum identitas.
 
-## 3 Ratio est duarum magnitudinum eiusdem generis aliquatenus adinuicem quædam habitudo.
+Hoc est, duarū pluriúmve geometricarū rationū similitudo. vt si duplam duplæ, sesqualteram sesqualteræ, plurésve duplas, aut sesqualteras, & alias quascunque similes rationes inuicem comparaueris. Nam de arithmetica ratione, quam vocant æqualium differentiarum inter datos numeros obseruatam progressionem: nihil ad præsentem doctrinam. Neque de ratione musica, quæ potius harmonia quædā esse videtur: vtpote, quæ fit cùm oblatis tribus numeris, quam rationem maximus obtinet ad minimum, eam quoq̄ seruat differentia maximi supra medium ad differentiam medij supra minimum, in suprà scripta rationum similitudine minimè consistens. Sicuti enim arithmetica progressio, à musica differre perhibetur harmonia: sic & geometrica proportio (quæ sola peculiari nomine proportionis venit adpellanda) ab vtraque distinguitur.
 
-Sola enim vniuoca veniunt inter sese comparanda, vtpote, numerus numero, linea lineæ, superficies superficiei, solidum solido, sonus sono, tēpus tempori, velocitas velocitati, & quę sunt huiuscemodi. Inter ea enim quę diuersorum sunt generum, nulla videtur accidere comparatio.
+> De ratione arithmetica.
+> De musica ratione.
 
-> Quę inuicem cōparantur.
+¶Est autem geometrica proportio aut continua, aut discontinua. Continuam adpellamus proportionem, cùm datis quotlibet eiusdem generis quantitatibus, omnium antecedentium ad proximè succedentes cōtinuata seruatur rationis habitudo: sic vt prima solùm antecedentis, vltima verò cōsequentis, intermediæ autem & antecedentis & consequentis fungantur officio. Vtpote cùm prima ad secundam eam seruat rationem, quam secunda ad tertiam, & tertia ad quartam, & deinceps ita quantumlibet. Quæcunq̄ igitur continua proportione ligantur, eiusdem oportet esse generis: propter necessariam cuiuslibet antecedentis cum suo consequente respondentiam, & continuādam inuicem cōparabilium habitudinem, siue relationem.
 
-¶Offenditur autem ratio inter numeros absolutè consideratos, quam arithmeticā nuncupamus rationem: intérve sonoros, hoc est, ad sonorum hormoniam relatos numeros, quæ harmonica ratio dicitur: vel inter abstractas tum à materia, tum à numero magnitudines, quæ ratio geometrica propriè nominatur.
+> Proportio geometrica continua
+> Sola vniuoca cōtinua proportione ligātur.
 
-> Ratio Arithmetica. Harmonica. Geometrica.
+¶Discontinua verò proportio, fit: cùm oblatis quatuor, pluribúsve quantitatibus, prima ad secundā eam habet rationem, quam tertia ad quartam, & quinta ad sextam, & consequentur ita quantumlibet. Huiuscemodi nanq̄ rationū similitudo, vel identitas, proportio, sed discontinua vocitatur. consequens enim primæ rationis, non fit antecedens secundæ: neq̄ item consequens ipsius secundæ, in tertiæ rationis continuatur antecedēs. velut ipsi cōtinuę diximus euenire proportioni.
 
-Quæcunque porrò rationes inter ipsos inueniuntur numeros, eædem inter singula continuorum offenduntur genera: at non è diuerso. Arithmetica siquidem ratio, tantummodò rationalium videtur esse magnitudinum: geometrica verò, tam rationaliū quàm irrationalium contemplatur magnitudinum habitudinem. Quæcunq; insuper rationis diuersitates vni continuorū accidunt generi, vtpote lineis: cæteris continuorū videntur euenire generibus, superficiebus inquam & solidis. quod ipsis non solet accidere numeris. Idcirco de geometrica, & veluti principatum obtinēte ratione, hoc loco tractare principaliter intendit Euclides.
+> Discontinua pportio geometrica.
 
-¶Duplex est autem ratio geometrica: altera quidē æqualitatis, cuius differētia nulla est: altera verò inæqualitatis, cuius rationales species sunt quinq;: tres quidē simplices, vtpote multiplex, superparticularis, & superpartiēs: & duæ ex eis cōpositæ, scilicet multiplex superparticularis, & multiplex superpartiens. Primò igitur doctrina simplicium, postea cætera in vniuersum perscrutātur rationum discrimina: debet enim simplicium doctrina, in omnibus doctrinam præcedere compositorum.
+Possunt itaque genere diuersa, discōtinua inuicem proportione colligari: ob singulorum antecedentium, ad singula consequentia, separatim factam comparationē. Eadem nanque ratio inter duos accidens numeros: potest simul inter duas lineas, binásve superficies, aut alias quasuis inuicem comparabiles inueniri magnitudines. Hinc patet, discontinuam proportionem sub pari semper terminorum comprehendi numero: continuā verò tam parem, quàm imparem admittere terminorum seu quantitatum multitudinem.
 
-> Ratio æqualitatis. inæqualitatis
+> Genere diuersa discōtinuā proportionē obseruant.
+> Corollarium.
 
-¶Multiplicem itaq; solemus adpellare rationem, quoties maior magnitudo minorem (vti suprà dictum est) pluries & adæquatè comprehēdit magnitudinem: quæ in duplam vt quaternarij ad binarium, triplam veluti senarij ad ipsum binarium, quadruplam vt duodenarij ad ternarium, & deinceps ita quantumlibet subdiuiditur, prout maior magnitudo bis, ter, quater, pluriésve minorem comprehendit.
+¶Λόγον ἔχειν πρὸς ἄλληλα μεγέθη λέγεται, ἃ δύναται πολλαπλασιαζόμενα ἀλλήλων ὑπερέχειν.
 
-> Ratio multiplex.
+## 5 Rationem habere adinuicē magnitudines dicuntur, quæ possunt multiplicatæ inuicem excedere.
 
-Superparticularis autē ratio dicitur, cùm maior magnitudo minorem semel, & quotam insuper minoris partem continet: quæ sesqualtera dicitur vt ternarij ad binarium, aut sesquitertia veluti quaternarij ad ternariū, vel sesquiquarta vt quinarij ad quaternarium, & respondenter ita quantumlibet, prout pars ipsa alteram minoris magnitudinis partem, vel tertiam, aut quartam, aliámve quotam partem efficit, à dato quouis numero denominatam.
+Post ipsius rationis, atq̄ proportionis adsignatas diffinitiones: describit cōsequēter Euclides, qualiter inuicem comparatæ magnitudines rationē habere dicātur. Cùm igitur tam
 
-> Superparticularis ratio.
+> Quonam modo magnitudines rationē habere diffiniantur.
 
-Superpartientem verò rationem adpellamus, quoties maior magnitudo minorem itidem semel comprehendit, & contingentem præterea vel adgregatiuam eiusdem minoris partem, ex quotis ipsius minoris partibus compositam: quæ varia, pro numero ac ratione partium, sortitur discrimina. Alia enim superbipartiens tertias
-
-> Ratio superpartiens.
+k.j.

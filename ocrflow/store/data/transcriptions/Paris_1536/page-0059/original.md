@@ -1,28 +1,35 @@
-# GEOMET. ELEMENT. LIB. I.
+*[ornamental headpiece]*
 
-a/c/quadratis. In rectangulis itaq; triangulis: & quæ sequuntur reliqua, vt in theoremate. Quod expediebat demonstrare. ¶Hoc spectabile & semper admirãdum theorema , Pythagoras in his fertur offendisse numeris, 3, 4, 5: velut ex obiecta potes elicere figura. in qua angulus qui ad b/rectus est: & qualium partium a/b/latus est trium, & b/c/quatuor, talium a/c/rectum subtendens angulum 5/reperitur. Quinquies porrò 5, faciunt 25: ter 3 verò/9, & quater 4/sedecim. atqui 9 & 16/cóficiũt 25.
+# Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Secundum elementorum Euclidis, Demonstrationes.
 
-> Notandum.
+ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΔΕΥΤΕΡΟΝ.
 
-*[diagram: a 3 5 b 4 c]*
+Παραλληλόγραμμον ὀρθογώνιον.
 
-## Corollarium.
+ΠΑν παραλληλόγραμμον ὀρθογώνιον περιέχεσθαι λέγεται ὑπὸ δύο τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν εὐθειῶν.
 
-¶In triangulis itaque rectangulis, duobus lateribus datis, ipsorum adminiculo, deuenire licebit in cognitionem reliqui : per quadratorum nempe tum additionem, tum subductionem adinuicem , & lateris seu radicis eorundem inuestigationem. Quemadmodùm in dimetiendis rerum passim offendes magnitudinibus.
+## Parallelogrammum rectangulum.
 
-Θεώρημα λδ, Πρόθεσις μη.
+OMne parallelogrammum rectangulum, sub duabus rectum angulum comprehendentibus rectis lineis dicitur contineri.
 
-ΕΑν τριγώνου τὸ ἀπὸ μιᾶς τῶν πλευρῶν τετράγωνον, ἴσον ᾖ τοῖς ἀπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν τετραγώνοις, ἡ περιεχομένη γωνία ὑπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν ὀρθή ἐστι.
+> Oẽ quadratum est parallelogrãmum et non contra. *[marginal manuscript note]*
 
-## Theorema 34, Propositio 48.
+ORONTIVS. ¶Parallelogrammum, dicitur figura quadrilatera, ex oppositis lateribus adinuicem æqualibus comprehensa. Sunt autem parallelogrammorũ quatuor tantummodò genera: vtpote, quadratũ, altera parte longius, rhombus, & rhomboides: quemadmodùm trigesimatertia primi libri antè monuimus diffinitione. Vtrunq; porrò & quadratum & altera parte longius, rectangulum adpellatur: cótinetúrq; sub duabus lineis rectis ad rectum conuenientibus angulum , quarum altera in reliquam abstractiuè ducta, ipsum efficit parallelogrammum. ¶Vt ex a/b/c/d/potes elicere parallelogrammo: quod sub a/b/& a/c/lateribus, rectum qui ad a/cónprehendentibus angulum, continetur. Non potest enim angulus qui ad a/fore rectus , quin per vigesimamnonam & trigesimamquartam propositionẽ libri primi, reliqui tres anguli sint itidem recti. Imaginanda est igitur a/b/ recta, fluere directa via in c: & punctũ b/describere latus b/d. vel a/c/rectam, venire recto fluxu in b: atq; punctum c/ efficere latus c/d. Ita enim abstractiuè describuntur parallelogramma rectangula. Ad quorum similitudinem, numerus per alium quenuis munerum multiplicatus, planum atq; rectãgulum efficit numerũ: vti subiecta videtur indicare figura, in qua 6/vnitates per 5/multiplicatæ, reddunt 30/planum & rectangulum numerum.
 
-SI trianguli quod ab vno laterum quadratum, æquale fuerit eis quæ reliquis trianguli lateribus quadratis: angulus cóprehensus sub reliquis trianguli duobus lateribus, rectus erit.
+> Quid parallelogrãmum.
 
-> Cóuersa precedentis. 47.
+> Quot parallelogrammorũ genera.
 
-ORONTIVS. ¶Esto a/b/c/trianguli quod ex b/c/quadratum, æquum eis quæ ex a/b/& a/c/lateribus fiũt quadratis: aio propterea, angulũ b/a/c/fore rectũ. A dato enim puncto a, datæ lineæ a/c, perpendicularis excitetur a/d: per vndecimã propositionẽ. Et per tertiam propositionẽ, ponatur a/d/ipsi a/b/æqualis: connectatúrq; c/d/recta, per primũ postulatũ. Cùm igitur a/b/ipsi a/d/sit æqualis: æquũ est quod ex a/b/quadratum, ei quod fit ex a/d, per corollarium quadragesimæsextæ propositionis. Addatur vtriq;, id quod ex a/c/quadratũ. Quæ ex a/b/igitur & a/c/quadrata, æqualia sunt eis quæ ex a/c/& a/d/quadratis: per secundam communẽ sentẽtiam. Eis autem quæ ex a/c/ & a/d/ quadratis, æquum est quod ex c/d, per antecedentẽ quadragesimamseptimã propositionẽ : angulus enim c/a/d/ rectus est. Quadratis porrò quæ ex a/b/& a/c, æquum est quod ex b/c/quadratum : per hypothesin. Quæ autẽ æqualibus sunt æqualia, ea sunt æqualia adinuicẽ, per primã communẽ sententiam. Quadratum igitur quod ex b/c, æquum est ei quod ex c/d/quadrato. Aequalis est ergo b/c/ipsi c/d: æqualia enim quadrata sunt, quæ ab æqualibus describuntur lineis rectis. Posita est autem a/d/ipsi a/b/æqualis, & a/c/vtriq; cómunis. Bina ergo latera a/b/& a/c/trianguli a/b/c, binis lateribus a/c/& a/d/trianguli a/c/d/sunt alternatim æqualia: basis quoq; b/c, basi c/d/æqualis. Angulus igitur b/a/c, angulo c/a/d, per octauã propositionẽ est æqualis. Est autẽ c/a/d, angulus rectus, per constructionẽ: & b/a/c/ igitur angulus rectus est. Si trianguli itaq; quod ab vno laterum quadratum: &c. vt in theoremate. Quod erat ostendendum.
+> Exemplum.
 
-*[diagram: d a b c]*
+> Corrollarium. *[marginal manuscript note, partly illegible: Que sub aqualib. rectis Lineis compre... quadratum rectum ... equalia sunt ad inuicem e contrario.]*
 
-Primi Libri Geometricorum Elementorum,
-FINIS.
+*[diagram: dot array 6 by 5, labelled 5, 6, 30; and rectangle a b c d]*
+
+Γνώμων τί.
+
+ΠΑντὸς δὲ παραλληλογράμμου χωρίον τῶν περὶ τὴν διάμετρον αὐτῶν ἓν παραλληλογράμμων ὁποιονοῦν σὺν τοῖς δυσὶ παραπληρώμασι, γνώμων καλείσθω.
+
+## Quid gnomon.
+
+OMnis parallelográmi loci eorum quæ circa dimetientẽ illius sunt parallelogrammorum, vnumquodq; eorum cum binis supplementis, gnomon vocetur.

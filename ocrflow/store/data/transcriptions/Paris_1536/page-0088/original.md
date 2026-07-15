@@ -1,27 +1,33 @@
-# LIBER III.
+# GEOMET. ELEMENT.
 
-71
+72
 
-> Construitur figura.
+propterea quilibet, ipso qui ad a/recto minor. In triangulo autem maior angulus, sub maiori latere subtenditur, per decimamnonam primi: maior est igitur d/e, ipsa a/d, quæ est ipsius dati circuli semidiameter. Egreditur ergo d/e, circunferentiam ipsius a/b/c/circuli: caditq́; punctum e/extra eundem circulum a/b/c. Haud dissimilis erit, cæterorum punctorū ipsius a/e/demóstratio. Cadit ergo tota a/e, extra datum circulum a/b/c.
 
-centro vicinior b/c, remotior autem f/g. Aio quòd a/d/quæ per centrū, maxima est: b/c/verò maior ipsa f/g. A centro enim e, in easdem rectas b/c/& f/g, perpendiculares deducantur e/h/& e/k: per duodecimam primi. Maior erit itaq; perpendicularis e/k, ipsa e/l: per quintam huius diffinitionē. Secetur itaque à maiori e/k, ipsi e/h/minori æqualis, per tertiam primi: sitq́; e/l. & per datum punctum l, datæ rectæ lineæ f/g, parallela ducatur m/n: per trigesimamprimam primi. cadet igitur e/l/ad perpendiculum super m/n: per corollarium vigesimænonæ ipsius primi. Et quoniā e/h/est æqualis ipsi e/l: distant igitur b/c/& m/n/æqualiter à cētro e, per quartam huius tertij diffinitionem: súntq;, per decimamquartam ipsius tertij, inuicem æquales. Cónectantur demum, per primum postulatū, e/f, e/g, e/m, & e/n: quæ per circuli diffinitionem, æquales sunt adinuicem.
+> Pars secunda
 
-*[diagram: a b c d e f g h k l m n]*
-
-> Demōstratur theorema.
-
-Cùm igitur e/a/ipsi e/m, & e/d/ipsi e/n, per circuli diffinitionē sit æqualis: tota a/d, binis m/e/& e/n, per secundam communem sententiā æquabitur. Binæ porrò m/e/& e/n/trianguli m/e/n, sunt maiores reliqua m/n, per vigesimā primi. & a/d/igitur, maior est eadem m/n: & ipsa consequenter b/c/ maior, per conuersam sextæ atq; septimæ communis sententiæ interpretationem. Rursum quoniam æqualis est e/m/ipsi e/f, & e/n/ipsi e/g: bina igitur latera m/e/& e/n/ trianguli m/e/n, binis lateribus f/e/& e/g/ trianguli f/e/g, sunt æqualia alterum alteri: & qui sub m/e/n/angulus, eo qui sub f/e/g/ maior (rectæ siquidem e/f/& e/g, coincidunt inter e/m/& e/n, ipsum angulū m/e/n/diuidentes) basis igitur m/n, per vigesimamquartā primi, basi f/g/maior est. Ipsi porrò m/n/æqualis est b/c. & b/c/igitur est eadem f/g/maior: quæ enim sunt æqualia, eiusdem sunt æquè maiora. ostensum est autem, quòd & a/d, ipsa b/c/ maior est. Dimetiens itaq; a/d, est omnium maxima: & b/c/centro vicinior, ipsa f/g/remotiore maior. Quod oportuit ostendisse.
-
-Θεώρημα ιε, Πρόθεσις. 15.
-
-Η τῇ διαμέτρῳ τοῦ κύκλου πρὸς ὀρθὰς ἀπ᾽ ἄκρας ἀγομένη, ἐκτὸς πεσεῖται τοῦ κύκλου, καὶ εἰς τὸν μεταξὺ τόπον τῆς τε εὐθείας καὶ τῆς περιφερείας, ἑτέρα εὐθεῖα οὐ παρεμπεσεῖται. καὶ ἡ μὲν τοῦ ἡμικυκλίου γωνία, ἁπάσης ὀξείας γωνίας εὐθυγράμμου μείζων ἐστίν: ἡ δὲ λοιπή, ἐλάττων.
-
-## Theorema 15, Propositio 16.
-
-QVæ à diametri circuli extremitate ad angulos rectos ducitur, extra ipsum circulum cadit: & in locum inter ipsam rectam lineam & circunferentiam, altera recta linea nō cadet. & semicirculi angulus, omni angulo acuto rectilineo maior est: reliquus autem, minor.
-
-> Prima pars theorematis.
-
-ORONTIVS. ¶Esto circulus a/b/c, & illius centrum d, dimetiens verò a/c: & ab a/dimetientis extremitate, ad angulos rectos excitetur a/e, per vndecimā primi. Dico primū, quòd a/e/recta extra ipsum cadit circulum. Suscipiatur enim in ipsa e/a, contingens aliquod punctum: sitq; illud e. & connectatur e/d, per primū postulatum. Triangulū erit igitur e/a/d. omnis porrò trianguli tres interiores anguli, binis rectis sunt æquales: per trigesimamsecundam primi. rectus est autem qui ad a, per constructionem. Reliqui igitur qui ad e/ & d/ sunt anguli, vni recto sunt æquales: & eorum
+> *[manuscript note: Angulus contingentiæ primus / angulus sectionis]*
 
 *[diagram: a b c d e f g]*
+
+¶Aio rursum, quòd inter rectam a/e, & circunferentiam a/b, nō cadit altera recta linea. Si enim id fuerit possibile: esto a/f. & ad datam rectam lineam a/d, ad datúmq; in ea punctum d, dato angulo rectilineo e/a/f, æqualis angulus rectilineus cōstituatur a/d/g: per vigesimamtertiam primi. Vterq; igitur a/d/g, & g/a/d, pars erit ipsius e/a/d: & recto propterea minor. In rectas itaq; a/f/& d/ g, recta incidit a/d, efficiens interiores & in eadem parte angulos binis rectis minores: ipsæ igitur a/f/ & d/g, in infinitum productæ, tandem concurrent, per quintum postulatum, cóueniāt ergo ad punctū g. Triangulū est itaq; a/g/d: cuius tres interiores anguli binis rectis, per eandē trigesimāsecūdā primi, sunt æquales. & qui sub g/a/d/ & a/d/g/ anguli, vni recto, hoc est, ipsi e/a/d/coæquantur (datus est enim a/d/g, æqualis ipsi e/a/f) Reliquus igitur a/g/d, rectus est: & maior propterea vtroq;, & g/a/d/& a/d/g. Vnde rursum a/d/semidiameter, maior est ipsa d/g, per eandem decimamnonam primi. Cadit igitur pūctum g, intra circulum a/b/c: ergo & a/f/recta (in qua punctū g) circulum ipsum intersecat, vtpote in f. Non cadit itaq; a/f/recta, inter rectam a/e, & circunferentiā a/b.
+
+> Tertia pars de angulo cōtingentiæ.
+
+¶Dico tandem, q angulus b/a/d/ipsius a/b/c/semicirculi, omni acuto & rectilineo angulo maior est: reliquus autem (vtpote, b/a/e) minor. Cùm enim angulus e/a/d/sit rectus, & diuisus à sola circunferentia a/b, inter quam & rectam a/e/non cadit altera recta linea (vti nunc ostensum est) non potest ipse angulus b/a/e/bipartiri: & proinde non minuetur neq; augebitur consequēter ipse b/a/d. Igitur angulus b/a/d, sub a/b/circunferētia, & a/d/recta comprehensus, omni acuto rectilineo maior est angulo: b/a/e/ verò, qui sub eadem circunferentia, & a/e/ recta continetur (quem angulum contingētiæ nominare consueuimus) omni itidem acuto & rectilineo angulo minor est. Quæ omnia fuere demonstranda.
+
+## Corollarium.
+
+¶Quæ igitur ab extremitate dimetientis dati circuli, ad rectos ducitur angulos, ipsum circulū tangit, idq́; in vno tantummodo puncto: ad duo enim puncta adplicata recta linea, per secundam huius tertij, cadit intra datum circulum.
+
+Πρόβλημα β, Πρόθεσις ιζ.
+
+Απὸ δοθέντος σημείου, τοῦ δοθέντος κύκλου ἐφαπτομένην εὐθεῖαν γραμμὴν ἀγαγεῖν.
+
+## Problema 2, Propositio 17.
+
+A Dato puncto, dato circulo, contingentē rectā lineam ducere.
+
+> Cōstructio figuræ.
+
+ORONTIVS. ¶Sit a/pūctum datū: à quo oporteat in datum circulum b/c/d/contingentem rectam lineam ducere. Inueniatur ipsius b/c/d/circuli centrū, per primam huius tertij: sitq́; illud e/& connectatur a/e/ recta, per primum postulatum: quæ cùm ab interiore puncto e, ad exterius punctum a/deducatur, secabit b/c/d/circūferentiam. secet igitur in puncto b. & centro e, interuallo autem e/ a, circulus describatur a/f/g, per tertium postulatum. Postmodùm à puncto b, datæ rectæ lineæ a/ e, ad rectos angulos excitetur b/ f: per vndecimam primi. & connectatur e/f, per primum postulatum: quæ eandem circunferentiam b/c/d, secet rursum in

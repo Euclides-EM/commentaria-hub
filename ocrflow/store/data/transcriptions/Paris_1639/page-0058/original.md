@@ -1,46 +1,44 @@
-# Page 57
+# Page 58
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-conuenient qui arriueroit, si ce concours se faisoit ailleurs, comme en la premiere figure sur le costé AC : en la seconde figure, au dedans du triangle ABC : & en la troisiesme figure, au dehors du triangle ABC.
+*Hypoth.*
 
-*Demonſtr.*
+*aux* △;abc & def
+ab 2|2 de,
+ac 2|2 df,
+bc 2|2 ef.
 
-*Cas de la 1.figure.*
+(figure)
 
-ſuppoſ. | •d *eſt en* ac,
-hyp. | ad 2|2 ac,
-*contr. 9. a. 1.*
+*Req. à demonſtr.*
 
-*Cas de la 2.figure.*
+∠bac 2|2 ∠edf.
 
-ſuppoſ. | •d *eſt dans le* △acb,
-1.p.1 | cd *eſt* ——,
-2.p.1. | bdf & bce *ſnt* ——,
-hyp. 1.nota | ad 2|2 ac,
-5.1 | ∠adc 2|2 ∠acd, α
-hyp. 2.nota | bd 2|2 bc,
-5.1 | ∠fdc 2|2 ∠ecd. β
-9.a.1. | ∠ecd 3|2 ∠acd,
-α.1.a.c | ∠ecd 3|2 ∠adc,
-β.1.a.d | ∠fdc 3|2 ∠adc,
-*contr. 9. a. 1.*
+*Demonſtration.*
 
-*Cas de la 3.figure.*
+Car si on suppose que le poinct B soit mis sur le poinct E, & la ligne BC sur la ligne EF, le poinct C tombera sur le poinct F : car si le poinct C ne tomboit sur le poinct F, il seroit manifeste par le 9. ax. que la ligne BC ne seroit pas égale à la ligne EF, mais par l'hypothese la ligne BC est égale à la ligne EF, par consequent le poinct C tombera sur le poinct F : & par la 7. propos. le poinct A tombera aussi sur le poinct D, puisque par l'hypothese BA est égal à ED, & CA à FD : & par le 14. ax. le triangle ABC conuiendra auec le triangle DEF, d'où s'ensuit par le 8. ax. que l'angle A est égal à l'angle D, ce qu'il falloit demonstrer.
 
-ſuppoſ. | •d *eſt hors le* △acb,
-1.p.1. | cd *eſt* ——,
-hyp. 1.nota | ad 2|2 ac,
-5.1 | ∠acd 2|2 ∠adc. γ
-hyp. 2.nota | bd 2|2 bc,
-5.1 | ∠bcd 2|2 ∠bdc,
-9.a.1. | ∠bdc 3|2 ∠adc,
-1.a.d. | ∠bcd 3|2 ∠adc,
-γ. | ∠adc 2|2 ∠acd,
-1 a.d. | ∠bcd 3|2 ∠acd,
-*contr. 9. a. 1.*
-concl. 21.a.1. | •d *eſt en* c.
+*Coroll.*
 
-THEOR. V. PROPOS. VIII.
+1.concl. 8.a.1. | ∠b 2|2 ∠e,
+2.concl. 8.a.1 | ∠c 2|2 ∠f,
+3.concl. 8.a.1. | △abc 2|2 △def.
 
-Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & qu'ils ayent la base égale à la base, ils auront aussi l'angle contenu d'iceux costez égaux égal à l'angle.
+PROBL. IV. PROPOS. IX.
+
+Couper en deux également vn angle rectiligne donné.
+
+*Hypoth.*
+
+∠bac *eſt* D.
+
+*Requis à faire.*
+
+∠fab 2|2 ∠fac.
+
+*Conſtr.*
+
+ad *eſt arbitr.*
+3.1 | ae 2|2 ad,
+1.p.1. | de *eſt* ——,

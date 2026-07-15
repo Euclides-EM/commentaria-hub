@@ -1,34 +1,35 @@
-# Page 324
+# Page 325
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-lieu, & que le premier soit de mesme espece & nature que le troisiesme, & le second, qui est le prix du premier, doit estre semblable au quatriesme, qui est celuy qu'on veut trouuer. Ayant ainsi couchez les nombres, il faut tousiours multiplier le second & troisiesme l'vn par l'autre, mettant le moindre sous le plus grand, pour plus grande facilité, & diuiser le produict de la multiplication par le premier, le quotient sera le quatriesme qu'on cherche.
+mier qui est 100 ; ce qui se faict facilement en retranchant 2 figures du costé droict, & trouue 58 32/100 ou 8/25 pour le requis.
 
-*Exemple 1.*
+*Exemple 3.*
 
-A 8 liures les 12 aulnes, sçauoir combien d'aulnes on aura pour 18 liures ?
+A 10 escus les 12 aulnes, sçauoir combien d'aulnes on aura pour 20 liures ?
 
-8 *lt.* —— 12 *aulnes*, —— 18 *lt.* R. 27 *aulnes*.
+30 *lt.* —— 12 *aulnes*, —— 20 *lt.* R. 8 *aulnes*.
 
-1 2
+2 0
 ——
-3 6
-1 8
-——
-2 1 6
+2 4 0
 
-216/4 [27,
+240/30 [8,
 
-Ayant couché les trois nombres comme s'ensuit, ie multiplie 18 par 12, & vient 216, que ie diuise par le premier nombre 8, & trouue 27 qui est le nombre requis.
+Ayant reduict le premier nombre en liures, afin qu'il soit de mesme espece que le troisiesme, on dira, si 30 liures donnent 12 aulnes, combien donneront 20 liures : faisant l'operation comme on voit en ces nombres, on trouuera 8 aulnes.
 
-*Exemple 2.*
+*Exemple 4.*
 
-A 8 liures d'interest pour 100 liures, sçauoir combien vaudra l'interest 729 liures ?
+A 32 liures 15 sols les 8 aulnes, sçauoir combien d'aulnes on aura pour 40 liures 8 sols ?
 
-100 *lt.* —— 8 *lt.* —— 729 *lt.* R. 58 32/100 *ou* 8/25.
+Les 32 lt. 15 ſ. en dixme font 3275″, & les 40 lt. 8 ſ. font 404′ ; partant on dira, si 3275″ donnent 8 aulnes, combien donneront 4040″, operant comme s'ensuit on trouuera 9 7/8 d'aulnes.
+
+3275″ —— 8 *aulnes*, —— 4040″, R. 9 7/8 *aulnes*.
 
 8
 ——
-5 8|3 2
+3 2 3 2 0″
 
-Ayant couché les trois nombres ainsi, ie multiplie 29 par 8, & diuise le produict 5832 par le pre-
+32320″
+——
+3275″ [9 2845/3275 ou 7/8.

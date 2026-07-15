@@ -1,54 +1,41 @@
-# Page 180
+# Page 181
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. IV.
 
 (figure)
 
-*Requis à faire.*
+3.p.1 | fa *eſt* ——,
+ſymp. | ⊙fabc *eſt le req.*
 
-*inſcrire au* △abc *le* ⊙efg..
+*Preparation.*
 
-*Conſtr.*
-
-9.1 | ∠dba 2|2 ∠dbc,
-9.1 | ∠dcb 2|2 ∠dca,
-11.3 | df ⊥ bc, α
-3.p.1 | dfeg *eſt* ⊙,
-ſymp. | ⊙efg *eſt le req.*
-
-*Prepar.*
-
-12.1 | de ⊥ ab, α
-12.1 | dg ⊥ ac. α
+1.p.1. | fb, fc *ſnt* ——.
 
 *Demonſtr.*
 
-conſtr. | ∠dbe 2|2 ∠dbf,
-12.a.1 | ∠deb 2|2 ∠dfb,
-bd *eſt commun.*
-26.1 | de 2|2 df, β
-conſtr. | ∠dcb 2|2 ∠dca,
-26.1 | dg 2|2 df,
-β.1.a.1 | ed 2|2 dg,
-c.15.d.1 | •; e,f,g *ſnt en la* ∩ *du* ⊙efg,
-1.concl. α c.16.3 | ab,bc,ac *touchent le* ⊙efg,
-2 concl. 5.d.4 | ⊙efg *eſt inſcrit au* △abc.
+conſtr. | ad 2|2 db,
+fd *eſt commun.*
+conſtr. | ∠fda 2|2 ∠fdb,
+4.1 | fb 2|2 fa, α
+conſtr. | ce 2|2 ea,
+fe *eſt commun.*
+conſtr. | ∠fec 2|2 ∠fea,
+4.1 | fc 2|2 fa,
+α.1.a.1 | fc 2|2 fb,
+concl. 6.d.4 | ⊙abc *eſt circonſcrit au* △abc.
 
-PROBL. V. PROPOS. V.
+COROLLAIRE.
 
-A l'entour d'vn triangle donné, descrire vn cercle.
+Il est manifeste de cette proposition, qùe si le triangle est oxygone, le centre tombera en iceluy: si rectangle, au costé qui soustient l'angle droict: & si amblygone dehors.
+
+SCHOLIE.
+
+Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts donnez A, B, C, qui ne soient en vne ligne droicte.
+
+PROBL. VI. PROPOS. VI.
+
+Dans vn cercle donné, inscrire vn quarré.
 
 *Hypoth.*
 
-abc *eſt* △ D.
-
-*Requis à faire.*
-
-*circonſcrire au* △abc *le* ⊙abc.
-
-*Conſtr.*
-
-10.1 | bd 2|2 da,
-10.1 | ae 2|2 ec,
-11.1 | df ⊥ ab,
-11.1 | ef ⊥ ac,
+eabcd *eſt* ⊙ D.

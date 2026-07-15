@@ -1,27 +1,25 @@
-# Page 329
+# Page 330
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-Par la mesme methode on trouuera, que si quelqu'vn auoit vendu sa marchandise 1000 liures, & qu'il eust gagné 6 pour 1000, qu'elle luy auoit cousté 943 21/53 liures.
+l'vn par l'autre, & du produict en faire vn numerateur : Puis on multipliera le numerateur de la premiere fraction, & les denominateurs de la seconde & troisiesme aussi l'vn par l'autre, & du produict on fera vn denominateur, par lequel on diuisera le numerateur, si faire se peut, sinon on mettra vne ligne entre deux, pour auoir le requis en fraction.
 
-*Exemple 11.*
+*Exemple 1.*
 
-Que si ladite promesse de 1000 liures pour prest, à interest à 6 pour 100, n'est payable que dans 4 ans, pour sçauoir combien on doit prester sur cette promesse, on dira si
+A 3/4 d'vne liure les ⅚ d'aulne, sçauoir combien cousteront les 7/8 d'aulne ?
 
-124 —— 100 —— 1000 R. 806 14/31.
+Ayant disposé les nombres comme s'ensuit,
 
-faisant la regle de trois, on trouuera 806 14/31 liures qu'il faut prester à interest à 6 pour 100 par an, pour auoir 1000 liures au bout de 4 ans.
+5 X 3 *lt.* —— 7 | 126/160 *lt.* ou 15 ſ. 9 d.
+6   4 —— 8
 
-*Exemple 12.*
+ie multiplie 6 par 3, & vient 18, que ie multiplie par 7, & vient 126 pour numerateur. Puis ie multiplie 5 par 4, & vient 20, que ie multiplie par 8, & vient 160 pour denominateur : & par ainsi le requis est la fraction 126/160 lt. & pour eualuer cette fraction, ie multiplie 126 par 20 sols, & vient 2520 ſ. que ie diuise par 160. & trouue 15 ſ. & reste 120 ſ. que ie multiplie par 12 pour les reduire en deniers, & vient 1440 d. que ie diuise par 160, & trouue 9 d. partãt ie conclus que les 7/8 d'aulnes vaudront 15 ſ. 9 d.
 
-Si quelqu'vn doit 15000 liures, & n'a vallant que 6000 liures, sçauoir combien de sols les creanciers receuront pour chaque liure de leur deub ?
+*Exemple 2.*
 
-En cette question il y doit auoir mesme proportion de 20 sols, au nombre des sols qu'auront les creanciers pour chaque liure de leur deub, que de 15000 liures à 6000 liures, partant ordonnant la regle ainsi,
+A 50 sols les 3/4 d'aulne, sçauoir combien vaut l'aulne ?
 
-15000 —— 6000 —— 20 ſ. R. 8 ſ.
+Aux entiers 50 & 1 il faut donner 1 pour denominateur, puis les nombres estant ainsi disposez,
 
-on trouuera 8 sols, qu'aura chaque creancier pour vne liure de son deub : tellement que celuy à qui il estoit deub 10 liures, par exemple, il aura 4 liures pour sa part.
-
-REGLE DE TROIS *des fractions.*
-
-Il faut multiplier le denominateur de la premiere fraction, & les numerateurs de la seconde & troisiesme
+3 X 50 ſ. —— 1 | 200/3 [66 ⅔ ſ.
+4   1 —— 1

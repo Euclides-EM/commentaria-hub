@@ -1,17 +1,25 @@
-# Page 343
+# Page 344
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-En cette question la mise du premier multipliée par son temps fait 2800 : & celle du second multipliée aussi par son temps faict 200 ; & à cause que le troisiesme doit auoir autant que le premier & second ensemble, i'adiouste ces deux produicts ensemble, & la somme est 3000, à laquelle doit estre égal le produict de la mise du troisiéme multipliée par son temps : & parce que sa mise est 500 lt. diuisant 3000 par 500, viendra 6 mois pour le temps du troisiesme.
+46, 38, & 27, & leur somme 111, & faut partir 222, qui est la somme de toutes les mises, selon les proportions des numerateurs 46, 38, & 27 : partant pour auoir la mise du premier, on dira, si
 
-*Exemple 3.*
+111 —— 46 —— 222. R. 92.
 
-Vn homme emprunte en mesme temps 400 liures pour 7 mois, & 100 liures pour 2 mois : sçauoir combien de temps il doit retenir ces deux sommes, afin que l'anticipation du terme de 7 mois recompense le retardement du terme d'vn mois ?
+Pour auoir la mise du second, on dira, si
 
-La solution de cette question ne differe pas de la solution de la precedente, & se trouuera par la mesme methode, qu'il doit rendre les deux sommes au bout de 6 mois.
+111 —— 38 —— 222. R. 76.
 
-*Exemple 4.*
+Pour auoir la mise du troisiesme, on dira, si
 
-Trois marchands de 222 liures qu'il auoient mis en communauté ont gagné 217 liures : La mise du premier a demeuré en communauté 9 mois : du second 12 mois : du troisiesme 16 mois. Le premier a eu pour sa part du gain 69 liures : le second 76 lt. & le troisiesme 72 liures, sçauoir quelle estoit la mise de chacun.
+111 —— 27 —— 222. R. 54.
 
-Pour resoudre cette question, il faut diuiser les sommes des gains 69, 76, & 72 par leurs temps 9, 12, & 16, & les numerateurs des quotiens reduicts en mesme denomination (qui en cet exemple sont sixiesme) seront
+Pour la preuue, on trouuera que 92, 76, & 54 adioustez ensemble font 222, qui est la somme de toutes les mises.
+
+DE LA REGLE D'ALLIGATION.
+
+Cette regle est ainsi nommée, à cause que par le moyen d'icelle on reduict les denrées de diuers prix à vn prix requis. Et afin que cela se face plus seurement, ayant mis les prix proposez l'vn sous l'autre, soient tirées des lignes courbes de ceux qui valent moins que le prix commun à ceux qui en valent plus, à discretion. Puis soient mises les differences qu'il y aura entre chaque prix & le prix commun, vis à vis des prix où les lignes courbes conduisent. Le tout comme on peut voir aux exemples suiuants, ausquels on a marqué par mesmes lettres les nombres qui deuoient estre conioints par lignes courbes.
+
+*Exemple 1.*
+
+Vn maistre monnoyeur a quatre sortes d'argent, à

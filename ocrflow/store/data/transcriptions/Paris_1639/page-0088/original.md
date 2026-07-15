@@ -1,54 +1,53 @@
-# Page 87
+# Page 88
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-bc *commun.*
-1.concl. 4.1 | ac 2|2 bd,
-4.1 | ∠acb 2|2 ∠cbd,
-2.concl. 27.1 | ac == bd.
-
-THEOR. XXIII. PROPOS. XXXIV.
-
-Les costez & les angles opposez des figures ou espaces parallelogrammes, sont égaux entr'eux : & le diametre couppe iceux parallelogrammes en deux également.
-
-*Hypoth.*
-
-abdc *eſt* ◊.
-
-*Req. à demonſtr.*
-
-ab 2|2 cd,
-ac 2|2 bd,
-∠a 2|2 ∠d.
-∠abd 2|2 ∠acd,
-△abc 2|2 △cbd.
+(figure)
 
 *Preparation.*
 
-1.p.1 | bc *eſt* ——.
+1.p.1 | bc *eſt* ◊.
 
 *Demonſtr.*
 
-35.d.1 | ab == cd,
-29.1 | ∠abc 2|2 ∠bcd. α
-35.d.1 | ac == bd,
-29.1 | ∠bca 2|2 ∠cbd. α
+hyp. | ab 2|2 cd,
 bc *eſt commun.*
-26.1 | ab 2|2 cd,
-26.1 | ac 2|2 bd,
-26.1 | ∠a 2|2 ∠d,
-α.2.a.1 | ∠abd 2|2 ∠acd,
-26.1 | △abc 2|2 △cbd.
+hyp. | ac 2|2 bd,
+8.1 | ∠abc 2|3 ∠bcd. α
+8.1 | ∠bca 2|2 ∠cbd. β
+α.27.1 | ab == cd,
+β.27.1 | ac == bd,
+concl. 35.d.1 | abdc *eſt* ◊.
 
-SCHOLIE I.
+SCHOL. II.
 
-Tout quadrilatere qui a les costez opposez égaux, est parallelogramme.
+De ce scholie est manifeste la demonstration d'vne methode plus brieue de mener vne ligne droicte, par vn poinct donné, parallele à vne ligne droicte donnée.
+
+(figure)
 
 *Hypoth.*
 
-ab 2|2 cd,
-ac 2|2 bd.
+c *eſt* • D.
+ab *eſt* —— D.
 
-*Req. à demonſtr.*
+*Requis à faire.*
 
-ad *eſt* ◊.
+cd == ab.
+
+*Conſtr.*
+
+arbitr. | ef,cd ſnt ⊙ 2|2 đe.
+3.p.1 | ⊙fd 2|2 ⊙ec,
+1.p.1 | cd *eſt* ——,
+ſymp. | cd == ab.
+
+*Demonſtr.*
+
+conſtr. | cd 2|2 ef.
+conſtr. | fd 2|2 ec,
+1.ſ.14.1 | cefd *eſt* ◊,
+concl. 35.d.1 | cd == ef.
+
+SCHOL. III.
+
+Tout quadrilatere qui a les angles opposez égaux, est parallelogramme.

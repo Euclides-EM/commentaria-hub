@@ -1,35 +1,28 @@
-# Page 296
+# Page 297
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-6 fois 6 sont 36, & 6 & 6 sont 48, pour 6 fois 8.
-7 fois 10 sont 70, moins 7 sont 63, pour 7 fois 9.
+*Exemple 2.*
 
-On pourra aussi trouuer le produict qu'engendrent deux figures multipliées l'vne par l'autre, comme s'ensuit.
-
-7——3
-8——2
+3 0 7 8
+4 0 3
 ——
-5 6
-
-Pour sçauoir combien font 7 fois 8, il faut les escrire l'vn sur l'autre ; & mettre vis à vis leurs complements iusques à 10, à sçauoir 3 & 2 : ce faict on multipliera les complements 3 & 2 l'vn par l'autre, & viendra 6, qu'on escrira au dessous : puis on adioustera 7 & 8 ensemble, & de la somme, qui est 15, on escrira au dessous seulement 5, rejettant la dixaine, & ce faisant on aura 56 pour le produict de la multiplication de 7 par 8.
-
-6——4
-7——3
+9 2 3 4
+1 2 3 1 2
 ——
-4 2
+1 2 4 0 4 3 4
 
-Par la mesme methode on trouuera que 6 fois 7 sont 42 : car les complements 4 & 3 multipliez l'vn par l'autre font 12, & escriuant le 2 au dessous, on adioustera la dixaine auec 6 & 7 & viendra 14, duquel reiettant la dixaine on escrira le 4 au dessous, & par ainsi on aura 42 pour 6 fois 7.
+3 fois 7 sont 21, & 2 que ie garde sont 23, & i'escris le 3 au dessous, gardant les deux dixaines : tiercement, ie dis 3 fois 0 n'est rien, & mets 2 que ie garde au dessous : quartement, ie dis 3 fois 3 sont 9, que pose au dessous. Ayant ainsi multiplié par la premiere figure du diuiseur, qui est 3, il faudroit multiplier par la seconde, mais à cause que cette seconde figure est vn zero, passant outre sans multiplier par le zero, on multipliera par la troisiesme figure qui est 4, disant 4 fois 8 sont 32, & pose le 2 sous le multiplicateur 4, gardant les 3 dixaines : puis ie dis 4 fois 7 sont 28, & 3 que ie garde sont 31, & mets 1 en suite du 2, gardant les 3 dixaines : tiercement, ie dis 4 fois zero n'est rien, & 3 que ie garde sont 3, que ie pose sous la ligne : quartement, ie dis 4 fois 3 sont 12, que i'escris de suite sous la ligne. Ayant ainsi multiplié toutes les figures superieures par chacune des inferieures, ie tire vne ligne au dessous de deux produicts pour les adiouster ensemble, & trouue que ces deux produits adioustez ensemble font 1240432, pour le produict de la multiplication de 3078 par 403.
 
-Maintenant estant proposez deux nombres à multiplier l'vn par l'autre, pour plus grande facilité on escrira le plus petit sous le plus grand, comme en l'addition & soustraction : puis ayant tiré vne ligne sous ces deux nombres, & commençant à la main droicte, on multipliera toutes les figures superieures par chaque figure inferieure, mettant le commencement du produict sous celle qui multiplie le tout, comme on peut voir aux exemples suiuants.
+*Multiplications brieues.*
 
-*Exemple 1.*
+Si au costé droict du multiplicateur il y a des zero, la multiplication se fera plus promptement en les rejettant, puis les adioustant au produict des autres figures : comme on peut voir aux trois exemples suiuants.
 
-3 8 6
-7
+1 7   1 7   3 0 4 0   *multiplicandes.*
+1 0   1 0 0   4 0 0   *multiplicateurs.*
 ——
-2 7 0 2
+1 7 0   1 7 0 0   1 2 1 6 0 0 0   *produicts.*
 
-Soit à multiplier 386 par 7, ayant couché les deux nombres, comme on voit icy, & tiré vne ligne au dessous, ie dis 7 fois 6 sont 42, & pose 2 au dessous, gardant les 4 dixaines : puis ie dis 7 fois 8 sont 56, & 4 que ie garde sont 60, & escris le zero au dessous gardant les 6 dixaines : finalement ie dis 7 fois 3 sont 21, & 6 que ie garde sont 27, que ie pose au dessous, & ce faisant ie trouue 2702 pour le produict de 7 fois 386.
+*De la preuue de la multiplication.*
 
-Soit à multiplier 3078 par 403, ayant escrit les deux nombres, comme il appert icy, & tiré vne ligne au dessous, ie dis 3 fois 8 sont 24, & pose le 4 au dessous du 3, gardant les 2 dixaines : puis ie dis
+La vraye preuue de la multiplication est, que si on diuise le produict de la multiplication par le multiplicateur, le quotient doit estre le nombre qu'on a multiplié. Mais pour plus grãde brieueté, on pratique ordinairement la preuue qui se fait par le moyen du 9, comme s'ensuit.

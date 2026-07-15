@@ -1,19 +1,25 @@
-# Page 359
+# Page 360
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-sera 76030, & enuiron 47/152061.
+faire, comme en la diuision, en prenant la racine qu'on aura trouué pour quotient & pour diuiseur : comme en l'exemple suiuant la preuue du quotient est 7, que ie pose aux costé gauche & droict
 
-Que si on ne veut point d'autres fractions que celles de la dixme, il faudra adiouster au nombre proposé des zero deux à deux tant qu'on voudra, & continuer l'extraction de la racine quarrée, & le nombre des accens qu'on adioustera au quotient, deura estre égal à la moitié du nombre des zero qu'on aura adiousté au nombre proposé : ce faisant, on trouuera que la racine de 20 est enuiron 4472‴, ou 4 472/1000. Et que la racine de 20 1/2 est enuiron 4527‴, ou 4 527/1000.
+57 | 80 | 56 | 09 | 47 [76030 47/153061.
 
-20 | 00 | 00 | 00 [4472‴. || 20 | 50 | 00 | 00 [4527‴.
+6
+7——7
+6
 
-Si le nombre proposé est vne fraction, il faudra extraire la racine de deux nombres de la fraction : ce faisant on aura ⅔ pour la racine de 4/9.
+d'vne croix, puis ie multiplie 7 par 7 & vient 49, qui a 4 pour preuue, que i'adiouste auec la preuue du reste qui est 47, & vient 6 que ie pose au dessus de la croix, & le mesme 6 se doit trouuer en ostant tous les 9 du nombre proposé 5780560947, que s'il ne se trouue, il y aura erreur en l'extraction de la racine quarrée.
 
-Mais si les deux nombres de la fraction n'ont point de racines, il la faudra reduire en fraction de la dixme, qui aye le nombre de ses accens pair, & la racine du nombre de la dixme sera la racine de la fraction proposée. Par exemple, soit à extraire la racine de 5/8, ie reduis cette fraction en dixme, adioustant des zero au numerateur, & diuisant par le denominateur 8, & trouue 625‴ au lieu de 5/8 : & parce que le nombre des accens de 625‴ est impair, ie le rends pair, en luy adioustant vn zero & vn accent, & de 6250⁗, qui vaut autant que 5/8, ou 625‴, tirant la racine quarrée, ie trouue 79″, ou 79/100, pour la racine de 5/8.
+DES PROGRESSIONS ARITH- *metiques & Geometriques.*
 
-DE LA PREVVE DE LA *racine quarrée.*
+En vne progression il y a cinq termes, trois desquels estant donnez, les deux autres se peuuent trouuer. Ces cinq termes sont le moindre nombre, le plus grand nombre, le nombre des termes, & l'excez ou difference des nombres, laquelle difference en la progression geometrique s'appelle le nombre progressif. De ces cinq termes ou nombres trois se peuuent donner en dix manieres differentes, comme il appert des regles des diuerses conionctions, que nous auons donné au 15 chapitre de l'Arithmetique du second tome. Mais icy nous donnerons seulement les principales questions, commençant par celles d'Arithmetique.
 
-La vraye preuue de l'extraction de la racine quarrée se faict en multipliant la racine trouuée par soy-mesme, & adioustant auec le produict de la multiplication le reste de l'extraction s'il y en a : Car si ce produict auec le reste est égal au nombre proposé, il n'y aura point d'erreur en l'extraction. Par exemple, si la racine de 27 est 5, auec 2 de reste fera 27, qui est le nombre proposé.
+*Question 1.*
 
-La preuue de la racine quarrée, par le moyen du 9, se peut aussi
+D'vne progression d'Arithmetique estant donnez le moindre nombre, l'excez, & le nombre des termes, trouuer le plus grand nombre, & la somme de tous les termes ou nombres.
+
+De toute progression Arithmetique le plus grand nombre est composé de toutes les differences ou excez, & du moindre nombre, comme il est manifeste des nombres de la progression suiuãte,
+
+3, 5, 7, 9, 11, 13, 15.   La somme est 63.

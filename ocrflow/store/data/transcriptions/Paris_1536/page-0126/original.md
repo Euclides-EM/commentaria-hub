@@ -1,53 +1,35 @@
-# LIBER V.
+# GEOMET. ELEMENT.
 
-*(pagina 109)*
+*(pagina 110)*
 
-dicitur, vt quinarij ad ternarium: alia supertripartiens quartas, velut septenarij ad quaternarium: alia verò superquadripartiens quintas, veluti nouenarij ad quinariū, & deinceps ita sine statu, vocitatur. Hinc facilè colligitur, vtriusq̄ cōpositarum rationum diffinitio. Multiplex enim & superparticularis ratio dicitur, cùm maior magnitudo minorē pluries, & quotam insuper eiusdem minoris partem comprehendit. Multiplex deniq̄ & superpartiens ratio nominatur, quoties eadem magnitudo maior, minorem itidem pluries, & partem vltra non quotam, sed ex quotis eiusdem minoris partibus adgregatam continet. Quæ tum pro varietate multiplicis, tum pro vtriusque & superparticularis & superpartientis diuersitate, in varia, & (si liceat dicere) infinita compositarum rationū partiuntur discrimina.
+rationalium quàm irrationalium hic perscrutentur magnitudinū habitudines, & ipsa irrationalium magnitudinum habitudo, tum nobis, tum ipsi naturę sit ignota, denominationem ab aliquo non valens accipere numero: coactus est Euclides (vt generalem quandam rationalium & irrationalium præscriberet diffinitionem) ad cōparatarum inuicem magnitudinum confugere multiplicationē, hoc est, per ipsarum magnitudinum æquè multiplicia diffinire, qualiter magnitudo alteri comparata magnitudini rationem habere dicatur. Si igitur magnitudo a/magnitudini b/comparetur, & ambæ æqualiter multiplicentur, hoc est, ambarum sumantur æquè multiplicia, c/quidem ipsius a, & d/ ipsius b: quam rationem habebit multiplex c/ad multiplex d, eam seruabit & a/magnitudo, ad b/magnitudinem. Quasi ignota inter a/& b/differentia, per multiplicationem ipsarū augeatur magnitudinum: & in rationis ignotæ nos inducat agnitionem.
 
-> Multiplex superparticularis.
-> Multiplex superpartiens.
+> Exemplum.
 
-Cæteræ autem ab his magnitudinum habitudines, quarum denominationes ignoramus: surdæ irrationalésve nuncupantur.
+*[diagram: c a b d]*
 
-> Surdæ rationes.
-
-Porrò hæc omnia velim intelligas, dum maiores minoribus comparantur magnitudines: nam si minores ipsis maioribus comparētur magnitudinibus, subrationales erunt minores maioribus. Hinc talium magnitudinum rationes, submultiplices, subsuperparticulares, subsuperpartientes, submultiplices superparticulares, & submultiplices superpartientes, pro ratione atque transpositione terminorū, adpellātur.
+Tanta siquidē multiplicium cū submultiplicibus, seu partibus inuenitur esse fraternitas: vt ipsę æquè multiplices magnitudines nō possint aliquā rationalē aut irrationalē inter sese habitudinē obseruare, quin ea simul partibus accidat submultiplicibus, & è contrario.
 
 > Notandum.
 
-¶Cuiuslibet autem suprascriptarum rationū cum alia quauis simili ratione cōparatio vel habitudo (non vt magnitudo magnitudini, sed vt hæc ratio cum illa ratione comparatur) proportio dicitur: cuius hæc est summaria diffinitio,
+¶Ἐν τῷ αὐτῷ λόγῳ μεγέθη λέγεται εἶναι, πρῶτον πρὸς δεύτερον, καὶ τρίτον πρὸς τέταρτον, ὅταν τὰ τοῦ πρώτου καὶ τρίτου ἰσάκις πολλαπλάσια, τῶν τοῦ δευτέρου καὶ τετάρτου ἰσάκις πολλαπλασίων, καθ᾽ ὁποιονοῦν πολλαπλασιασμὸν ἑκάτερον ἑκατέρου, ἢ ἅμα ἐλλείπῃ, ἢ ἅμα ἴσα ᾖ, ἢ ἅμα ὑπερέχῃ ληφθέντα κατάλληλα.
 
-> De rationum cōparatione.
+## 6 In eadē ratione magnitudines dicūtur esse, prima ad secundā & tertia ad quartā: quādo primę & tertię ęquè multiplicia, secūdę & quartę æquè multiplicia, iuxta quáuis multiplicationē vtráq; vtráq; vel vnà excedūt, vel vnà æquales sunt, vel vnà deficiūt sūptæ adinuicē.
 
-¶Ἀναλογία δὲ ἐστιν, ἡ τῶν λόγων ὁμοιότης.
+Ostenso qualiter magnitudines rationē habere adinuicē iudicentur: diffinit respondenter Euclides, quonam modo magnitudines ipsę similem videātur obtinere rationē, habitudinísve nanciscantur identitatem. Quæ diffinitio non potuit per alicuius præcedentium quinq̄ rationalium specierum ipsius rationis vel habitudinis, vtpote aut multiplicis, aut superparticularis, aut superpartientis, vel multiplicis superparticularis, vel deniq̄ multiplicis superpartientis describi similitudinem: propter surdas (vt vocāt) irrationaliū magnitudinum habitudines, quarum denominationes exprimi non possūt.
 
-## 4 Proportio verò, est rationum identitas.
+> Quæ magnitudines in eadem ratione consistant.
 
-Hoc est, duarū pluriúmve geometricarū rationū similitudo. vt si duplam duplæ, sesqualteram sesqualteræ, plurésve duplas, aut sesqualteras, & alias quascunque similes rationes inuicem comparaueris. Nam de arithmetica ratione, quam vocant æqualium differentiarum inter datos numeros obseruatam progressionem: nihil ad præsentem doctrinam. Neque de ratione musica, quæ potius harmonia quædā esse videtur: vtpote, quæ fit cùm oblatis tribus numeris, quam rationem maximus obtinet ad minimum, eam quoq̄ seruat differentia maximi supra medium ad differentiam medij supra minimum, in suprà scripta rationum similitudine minimè consistens. Sicuti enim arithmetica progressio, à musica differre perhibetur harmonia: sic & geometrica proportio (quæ sola peculiari nomine proportionis venit adpellanda) ab vtraque distinguitur.
+Confugiendum ergo fore existimauit Euclides, ad contingentem æquè multiplicium habitudinem, tam continuè, quàm separatim facta earūdem magnitudinum relatione. Nam in proportionibus sicuti antecedentia adinuicem, & ipsa pariter consequentia, mutuam quandam inter sese vidētur habere relationem: haud dissimiliter ipsorum antecedentium, pariter & cōsequentium æquè multiplicia, iuxta quamuis multiplicationem coassumpta, fraterna quadam rationum colligantur similitudine, atque è diuerso: tametsi alia inter ipsa æquè multiplicia, ab ea quæ inter partes offenditur submultiplices, contingat plerunque rationum identitas. Quòd autē ex multiplicium proportione, earundem partiū, submultipliciúmve magnitudinū proportio, vel è contrario subsequatur: succedentibus ostēdetur propositionibus. prius enim diffinire, quàm diffinitorum concludere necessitatem est operæpretium.
 
-> De ratione arithmetica.
-> De musica ratione.
+> Notandum.
 
-¶Est autem geometrica proportio aut continua, aut discontinua. Continuam adpellamus proportionem, cùm datis quotlibet eiusdem generis quantitatibus, omnium antecedentium ad proximè succedentes cōtinuata seruatur rationis habitudo: sic vt prima solùm antecedentis, vltima verò cōsequentis, intermediæ autem & antecedentis & consequentis fungantur officio. Vtpote cùm prima ad secundam eam seruat rationem, quam secunda ad tertiam, & tertia ad quartam, & deinceps ita quantumlibet. Quæcunq̄ igitur continua proportione ligantur, eiusdem oportet esse generis: propter necessariam cuiuslibet antecedentis cum suo consequente respondentiam, & continuādam inuicem cōparabilium habitudinem, siue relationem.
+¶Cùm itaque similitudo rationis, binarium ad minus rationum, & proinde quaternarium magnitudinum videatur exoptare numerum: ait Euclides, magnitudines in eadem esse ratione, prima quidem ad secundam, & tertia ad quartam: quando primæ & tertiæ, hoc est antecedentiū magnitudinum sumptis æquè multiplicibus, & consequentium itidem magnitudinum, secūdæ videlicet & quartæ, æquè multiplicibus (etiam in alia quauis ab antecedentium multiplicatione) coassumptis, multiplex primæ ad multiplex secūdæ eam seruat rationem, quam multiplex tertiæ ad multiplex quartæ: siue ipsa ratio maioris, aut minoris extiterit inæqualitatis. Hæc enim de excessu, vel defectu proportionali veniūt intelligenda.
 
-> Proportio geometrica continua
-> Sola vniuoca cōtinua proportione ligātur.
+> Diffinitionis elucidatio.
 
-¶Discontinua verò proportio, fit: cùm oblatis quatuor, pluribúsve quantitatibus, prima ad secundā eam habet rationem, quam tertia ad quartam, & quinta ad sextam, & consequentur ita quantumlibet. Huiuscemodi nanq̄ rationū similitudo, vel identitas, proportio, sed discontinua vocitatur. consequens enim primæ rationis, non fit antecedens secundæ: neq̄ item consequens ipsius secundæ, in tertiæ rationis continuatur antecedēs. velut ipsi cōtinuę diximus euenire proportioni.
+Velut ex obiecta numerorum potes colligere formula. In qua numeri dati sint a, b, c, d: & ipsorum a/& c, primi inquàm & tertij æquè multiplices e, f, nempe dupli: numerorum autem b, d,
 
-> Discontinua pportio geometrica.
+> Exemplum.
 
-Possunt itaque genere diuersa, discōtinua inuicem proportione colligari: ob singulorum antecedentium, ad singula consequentia, separatim factam comparationē. Eadem nanque ratio inter duos accidens numeros: potest simul inter duas lineas, binásve superficies, aut alias quasuis inuicem comparabiles inueniri magnitudines. Hinc patet, discontinuam proportionem sub pari semper terminorum comprehendi numero: continuā verò tam parem, quàm imparem admittere terminorum seu quantitatum multitudinem.
-
-> Genere diuersa discōtinuā proportionē obseruant.
-> Corollarium.
-
-¶Λόγον ἔχειν πρὸς ἄλληλα μεγέθη λέγεται, ἃ δύναται πολλαπλασιαζόμενα ἀλλήλων ὑπερέχειν.
-
-## 5 Rationem habere adinuicē magnitudines dicuntur, quæ possunt multiplicatæ inuicem excedere.
-
-Post ipsius rationis, atq̄ proportionis adsignatas diffinitiones: describit cōsequēter Euclides, qualiter inuicem comparatæ magnitudines rationē habere dicātur. Cùm igitur tam
-
-> Quonam modo magnitudines rationē habere diffiniantur.
-
-k.j.
+*[diagram: table — a b c d / 12 6 8 4 Nu. discontinuè proportionales. / e g f h / 24 18 16 12 Aequè multiplices.]*

@@ -1,47 +1,46 @@
-# Page 168
+# Page 169
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-ſymp. | aib *eſt* ⌓ *req.*
-
-*Demonſtration.*
-
-c.16.3 | had *touche le* ⊙,
-32.3 | ∠aib 2|2 ∠bad,
-conſtr. | ∠c 2|2 ∠bad,
-concl. 1.a.1 | ∠aib 2|2 ∠c.
-
-(figure)
-
-PROBL. VI. PROPOS. XXXXIV.
-
-D'vn cercle donné, retrancher vn segment, qui reçoiue vn angle égal à vn angle rectiligne donné.
+ties de l'vne, est égal au rectangle contenu sous les deux parties de l'autre.
 
 (figure)
 
 *Hypoth.*
 
-abc *eſt* ⊙,
-d *eſt* ∠D.
+fbca *eſt* ⊙,
+ab & dc *ſnt* ——.
 
-*Conſtruction.*
+*Req. à demonſtr.*
 
-17.3 | ef *touche le* ⊙abc. α
-17.3 | a *eſt* • *d'attouch.* α
-23.1 | ∠fac 2|2 ∠d,
-ſymp. | abc *eſt* ⌓ *req.*
+▭.aeb 2|2 ▭.ced.
 
-*Preparation.*
+*Demonſtr. du 1.cas.*
 
-arbitr. | • b *eſt en la* ∩abc,
-1.p.1 | ab & cb *ſnt* ——.
+ſuppoſ. | ab & cd *ſnt diametré*,
+15.d.1 | ea,eb,ed,ec *ſnt* 2|2 đe.
+1.concl. 3.ſ.1.d.2 | ▭.aeb 2|2 ▭.ced.
 
-*Demonſtr.*
+*Demonſtr.du 2.cas.*
 
-α.32.1 | ∠abc 2|2 ∠caf,
-conſtr. | ∠d 2|2 ∠caf,
-concl. 1.a.1 | ∠abc 2|2 ∠d,
+ſuppoſ. | ab *eſt diametre*,
+ſuppoſ. | ce 2|2 ed, α
+1.p.1. | fd *eſt* ——,
+α.3.3 | ∠fed *eſt* ┘,
+2 concl. ſ.5.2 | ▭.aeb 2|2 □.ed Ⅱ / ▭.ced
 
-THEOR. XXIX. PROPOS. XXXXV.
+*Demõſtr.du 3.cas.*
 
-Si au cercle deux lignes droites se coupent l'vne l'autre; le rectangle contenu sous les deux par-
+ſuppoſ. | ab *eſt diametre*,
+ſuppoſ. | ce 3|2 ed,
+12.1 | fg ⊥ cd, β
+1.p.1 | fd *eſt* ——,
+β.3.3 | cg 2|2 gd, γ
+
+ſ.2 | ▭.aeb + □.fe 2|2 □.fb Ⅱ □.fd. δ
+β.47.1 | □.fd 2|2 □.fg + □.gd,
+γ.5.2 | □.fg + □.gd 2|2 □.fg + ▭.ced + □.ge,
+47.1 | □.fg + ▭.ced + □.ge 2|2 ▭.ced + □.fe,
+δ.1.a.1 | ▭.aeb + □.fe 2|2 ▭.ced + □.fe.
+□.fe *commun. ſubtr.*
+3.concl. 3.a.1 | ▭.aeb 2|2 ▭.ced. κ

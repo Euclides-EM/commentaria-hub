@@ -1,37 +1,32 @@
-# Page 275
+# Page 276
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-c.8.6 | ba π ae 2|2 ae π ad, γ
-22.6 | □.ba π □.ae 2|2 □.ae π □.ad,
-γ.17.6 | □.ae 2|2 ▭.bad, δ
-2 concl. 1.a.f | □.ba π ▭.bad 2|2 ▭.bad π □.ad,
-c.8.6 | ab π be 2|2 be π bd, ε
-22.6 | □.ab π □.be 2|2 □.be π □.bd,
-ε.17.6 | □.be 2|2 ▭.abd. κ
-3 concl. 1.a.f | □.ab π ▭.abd 2|2 ▭.abd π □.bd,
+*Req. à demonſtr.*
 
-*Coroll. 1.*
+raõ..◊ac π ◊cf 2|2 raõ..bc π cg + raõ..dc π ce.
 
-βδκ | □.de 2|2 ▭.adb: □.ae 2|2 ▭.bad: □.be 2|2 ▭.abd.
+*Prepar.*
 
-*Coroll. 2.*
-
-▭.ab, de 2|2 ▭.ae, eb.
-
-*Demonſtr.*
-
-8.6 | △abe *ſml.* △edb,
-4.6 | ba π ae 2|2 be π ed,
-concl. 16.6 | ▭.ab, ed 2|2 ▭.ae, eb.
-
-THEOR. XVII. PROPOS. XXIII.
-
-Les parallelogrammes equiangles, son l'vn à l'autre en raison composée de celle de leurs costez.
+3.1 | bcg *eſt* ——,
+hyp. | ∠bcd 2|2 ∠ecg,
+1.ſ.15.1 | dce *eſt* ——,
+2.p.1 | adh & fgh *ſnt* ——.
 
 (figure)
 
+*Demonſtr.*
+
+20.d.5 | raõ..ac π cf 2|2 raõ..ac π ch + raõ..ch π cf,
+1.6 | ac π ch 2|2 bc π cg, ch π cf 2|2 dc π ce,
+concl. 23.5 | raõ..ac π cf 2|2 raõ..bc π cg + raõ..dc π ce.
+
+De cette proposition s'ensuit, que si la raison de BC à CG est, par exemple, comme 5 à 2 : & celle de DC à CE, comme 3 à 8, que la raison du parallelogramme AC au parallelogramme CF, sera comme 15 à 16 : Car la raison de 5 à 2 adjoustée auec la raison de 3 à 8, faict la raison de 15 à 16. comme il est euident tant de la regle de l'addition des raisons, que de la raison des extremes de ces trois nombres 15, 6, 16, dont les raisons entremoyennes sont 5 à 2 & 3 à 8.
+
+THEOR. XVIII. PROPOS. XXIV.
+
+En tout parallelogramme, les parallelogrammes qui sont à l'entour du diametre, sont semblables à leur tout, & entr'eux.
+
 *Hypoth.*
 
-◊ac *equiang.* ◊cf,
-∠bcd 2|2 ∠ecg.
+abed *eſt* ◊, ac *eſt diamet.* eg & hf *ſnt* ◊;

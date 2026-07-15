@@ -1,33 +1,36 @@
-# Page 127
+# Page 128
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-quarrez des costez qui contiennent l'angle obtus, de deux fois le rectangle contenu sous l'vn des costez qui sont à l'entour de l'angle obtus, sçauoir celuy, sur lequel estant prolongé, tombe la perpendiculaire, & de la ligne prise au dehors entre la perpendiculaire & l'angle obtus.
+(figure)
+
+hyp. | ac *eſt* 10, α
+hyp. | ab *eſt* 7, β
+hyp. | cb *eſt* 5, γ
+α | □.ac *eſt* 100,
+β | □.ab *eſt* 49,
+γ | □.cb *eſt* 25,
+19.a.1 | □.ab + □.cb *ſnt* 74,
+12.2 | □.ac~□.ab / ~□.cb 2|2 2▭.cbd,
+3.a.1 | 2▭.cbd Ⅱ 100~74 *ſnt* 26,
+7.a.1 | ▭ cbd *eſt* 13,
+hyp. | cb *eſt* 5,
+concl. 1.ſ.1.d.2 | bd *eſt* 2⅗.
+
+THEOR. XII. PROPOS. XIII.
+
+Aux triangles oxygones, le quarré du costé qui soustient l'angle aigu, est moindre que les quarrez des costez qui le contiennent, de deux fois le rectangle contenu sous l'vn des costez qui sont autour de l'angle aigu, sçauoir celuy sur lequel tombe la perpendiculaire, & de la ligne prise au dedans entre la perpendiculaire & l'angle aigu.
 
 *Hypoth.*
 
 (figure)
 
-∠abc 3|2 ┘.
+∠acb 2|3 ┘.
 
 *Preparation.*
 
-1.p.1 | cbd *eſt* ——.
-12.1 | ad ⊥ cd. α
+ad ⊥ bc. α
 
-*Req. à demonſtrer.*
+*Requis à demonſtrer.*
 
-□.ac 2|2 □.ab + □.bc + 2▭.cbd.
-
-*Demonſtr.*
-
-2.c.17.1 | *perpendic.* ad *tombe du coſté de* d,
-α.47.1 | □.ac 2|2 □.ad + □.cd, β
-4.2 | □.cd 2|2 □.cb + □.bd + 2▭.cbd,
-β.1.a.f | □.ac 2|2 □.ad + □.cb + □.bd + 2▭.cbd, δ
-47.1 | □.ad + □.bd 2|2 □.ab,
-concl. δ.1.a.f | □.ac 2|2 □.cb + □.ab, 2▭.cbd.
-
-SCHOLIE.
-
-Estans cognus les costez d'vn triangle obtusangle, trouuer le segment comprins entre la perpendiculaire & l'angle obtus.
+□.ac + □.bc 2|2 □.ab + 2▭.bcd.

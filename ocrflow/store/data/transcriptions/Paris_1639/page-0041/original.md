@@ -1,39 +1,44 @@
-# Page 40
+# Page 41
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-5. a. 1.
-
-Et si de choses inégales on oste choses égales, les restes sont inégaux.
-
-hyp. | ab 3|2 cd,
-hyp. | eb 2|2 fd,
-5.a.1. | ae 3|2 cf.
+hyp. | a 2|2 2c,
+hyp. | b 2|2 2c,
+6.a.1. | a 2|2 b.
 
 (figure)
 
-5. a. b.
+6. a. b.
 
-Et si de choses égales on oste choses inégales, les restes sont inégaux.
+Le double du plus grand est plus grand que le double du plus petit.
 
-hyp. | ab 2|2 cd,
-hyp. | ae 3|2 cf,
-5.a.b. | eb 2|3 fd.
-
-(figure)
-
-5. a. c.
-
-Et si de choses inégales on oste choses inégales, sçauoir de la plus grande moins, & de la plus petite plus, les restes sont inégaux, sçauoir est celuy-là plus grand, & celuy-cy plus petit.
-
-hyp. | ab 3|2 cd,
-hyp. | cf 3|2 ae,
-5.a.c. | eb 3|2 fd.
+hyp. | c 3|2 d,
+hyp. | a 2|2 2c,
+hyp. | b 2|2 2d,
+6.a.b. | a 3|2 b.
 
 (figure)
 
-Or en toutes ces notions, excepté la premiere, par le mot de quantitez égales, faut entendre aussi vne mesme, commune à plusieurs.
+6. a. c.
 
-6. a. 1.
+Et ce qui est double de l'vn des égaux, est aussi double de l'autre des égaux.
 
-Et les choses qui sont doubles d'vne mesme, sont égales entr'elles.
+hyp. | b 2|2 c,
+hyp. | a 2|2 2b,
+6.a.c. | a 2|2 2c.
+
+(figure)
+
+6. a. d.
+
+Et si l'vn des égaux est double de quelque grandeur, l'autre des égaux sera aussi double de la mesme grandeur.
+
+hyp. | a 2|2 b,
+hyp. | a 2|2 2c,
+6.a.d. | b 2|2 2c.
+
+(figure)
+
+7. a. 1.
+
+Et les choses qui sont moitiés d'vne mesme, sont égales entr'elles.

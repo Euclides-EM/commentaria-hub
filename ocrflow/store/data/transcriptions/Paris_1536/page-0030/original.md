@@ -1,35 +1,45 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-*[page number: 13]*
+*[page number: 14]*
 
-lineis contentum:& basin basi æqualem habebunt,& triangulum triangulo æquum erit, & reliqui anguli reliquis angulis æquales erunt alter alteri,sub quibus æqualia latera subtenduntur.
+> *[handwritten: Rectam lineam terminatam in continuū rectum q̄ producere.]*
+> *[handwritten: Duabus datis rectis lineis inequalibus a maiori minorē equā rectam lineam abscindere]*
+> *[handwritten: Que eidem equalia adminicem sunt equalia]*
 
-ORONTIVS.Sint bina triangula a/b/c/& d/e/f,habentia duo latera a/b/ & a/c,duobus lateribus d/e/& d/f/alternatim æqualia,hoc est,a/b/ipsi d/e,& a/c/ipsi d/f:atq angulum b/a/c,æqualem angulo e/d/f/ sub æqualibus rectis lineis contento. Dico primùm, quod basis b/c/est æqualis basi e/f. Comparato nanq triangulo a/b/c/ipsi d/e/f,atque puncto a/supra d/pūctum constituto, extensáque recta a/b/ super rectam d/e:conueniet punctū b/ipsi puncto e:nam a/b/ipsi d/e/per hypothesin est æqualis.quæ autem sunt adinuicem æqualia,sibimetipsis conueniunt,per conuersam octauæ communis sententiæ. Et quoniam angulus b/a/c, angulo e/d/f/ per hypothesin quoque est æqualis: cadet igitur,per eandem conuersam,a/c/recta,super rectam d/f.secus enim alter angulorum foret reliquo maior,cótra ipsam hypothesin.At cùm a/c/& d/f/rectæ,sint, ex eadem hypothesi adinuicem æquales: conueniet rursum punctum c/ipsi puncto f,per allegatam octauæ communis sententiæ conuersionem.Binæ igitur rectæ b/c/& e/f, ab eodem communi pūcto,ad idem commune punctum educentur: cóuenient ergo adinuicem,per datam ipsius lineæ rectæ diffinitionem.Conuenientibus enim b,e/& c,f/limitibus,si eædem b/c/& e/f/ rectæ minimè conuenirent: duæ lineæ rectæ includerent superficiem,contra decimam communem sententiam,& diffinitam rectarum linearum descriptionem.conuenit itaq b/c/ipsi e/f.Quæ autem sibimetipsis conueniunt,æqualia sunt adinuicem,per octauam cómunem sententiam.basis ergo b/c,basi e/f/cócluditur æqualis.Dico præterea,ꝗ triangulum a/b/c/triangulo d/e/f/ æquum est.Conueniunt enim singula latera ipsius a/b/c/trianguli, singulis d/e/f/ trianguli lateribus : & triangulum igitur triangulo conuenit. Vnde per eandem octauam communem sentētiam,a/b/c/ triāgulum, ipsi d/e/f/triangulo æquum erit.Aio tādem,reliquos angulos reliquis angulis,sub quibus æqualia subtenduntur latera,fore alterum alteri æquales:vtpote, a/b/c/ipsi d/e/f,sub quibus a/c/& d/f,& a/c/b/ipsi d/f/e,sub quibus a/b/ & d/e/latera subtenduntur æqualia. Conueniunt enim singula latera singulis lateribus, sub quibus ipsi continentur anguli. Ex laterum porrò conuenientia æqualis eorūdem subsequitur inclinatio.ex æquali autē inclinatione laterum,contentorū angulorum cóuincitur æqualitas. Si bina igitur triāgula duo latera duobus lateribus æqualia habuerint &c. vt in theoremate.Quod erat demonstrandum.
+per secundum postulatum. Aio itaque primùm, angulos a/b/c/ & a/c/b, qui ad basin b/c,fore adinuicē æquales:angulum præterea d/b/c,angulo b/c/e/sub eadē basi b/c/cōstituto,itidem coæquari. Suscipiatur enim in b/d/recta cótingens punctū, sitq illud d:& data recta b/d,secetur ei æqualis c/e,per tertiam propositionem:connectantúrq b/e,& c/d,lineæ rectæ,per primū postulatū. Cùm igitur a/b/sit æqualis a/c,per hypothesin,& b/d/ipsi c/e,per cōstructionē:erit & a/d/ipsi a/e,per secundam communē sententiā,æqualis.Bina ergo latera a/b/& a/e/trianguli a/b/e,sunt æqualia duobus a/c/& a/d/triāguli a/c/d,alterum alteri: est́q angulus qui ad a/sub æquis lateribus comprehēsus,vtriq triāgulo communis.Basis igitur b/e/ basi c/d/ est æqualis,& totū triangulum a/b/e/ toti triāgulo a/c/d/æquale,atq reliqui anguli reliquis angulis, sub quibus æqualia subtenduntur latera,respódenter æquales,vtpote,a/b/e/ipsi a/c/d,& a/d/c/ipsi a e b:per quartā propositionem. Rursum,quoniā b/d/ipsi c/e/per constructionē est æqualis,& b/e/ ipsi c/d/æqualis ostensa est:bina propterea latera d/b/& d/c/ triāguli d/b/c,duobus e/b/& e/c/ipsius e/b/c/ triāguli laterib⁹ sunt alternatim æqualia.& cōtētos sub ipsis æqualibus lateribus angulos,vtpote,qui ad d/& e/monstrauimus æquales:eandémq basin subtendunt b/c.Triangulū igitur d/b/c,triangulo e/b/c/est æquale, & reliqui anguli reliquis angulis,sub quibus æqualia subtenduntur latera,adinuicē æquales:per eandem quartā propositionē.Angulus itaq d/b/c, angulo b/c/e/est æqualis: necnō angulus b/c/d, ipsi angulo b/c/e. Totus porrò angulus a/b/e,toti angulo a/c/d/æqualis nuper ostēsus est.Igitur si ab eisdem æqualibus angulis a/b/e/& a/c/d, æquales auferantur anguli b/c/d/& c/b/e:qui relinquentur anguli a/b/c/ & a/ c/ b/ ad basin b/c,erunt per tertiam communem sententiam adinuicem æquales.Et qui sub eadē basi b/c/sunt anguli,vtpote,d/b/c/& b/c/e,nunc quoq móstrati sunt æquales. Isosceliū ergo triangulorū,qui ad basin sunt anguli &c.vt in theoremate.Quod demonstrare oportebat.
 
-*[diagram: triangles a b c and d e f]*
+*[diagram: isosceles triangle a b c with lines to d and e]*
 
-> Pars prima theorematis.
+> Primus ostensionis discursus.
 
-> *[handwritten: Quæ sibimet ipsis conueniunt equalia sunt ad inuicem]*
+> Secundus.
 
-> *[handwritten: Que ad inuicem equalia sunt,sibimet ipsis cōueniunt/per conuersionē]*
+> *[handwritten: Si duo triangula duo latera duobus lateribus equalia habuerint... vtrūq alterum angulum equalem sub equalibus rectis lineis...]*
 
-> *[handwritten: Linea est longitudo latitudinis expers.]*
+> Recollectio demonstrationis.
 
-> *[handwritten: Duæ rectæ lineæ superficiem nō concludunt]*
+> *[handwritten: Si ab equalibus equalia aufferantur que relinquuntur equalia erunt.]*
 
-> Pars secunda
+> *[handwritten: ad inuicem sunt equales & productis equalibus rectis lineis qui sub basi sūt anguli adinuicem equales erūt]*
 
-> Tertia pars.
+## Corollarium.
 
-Θεώρημα β, Πρόθεσις ε.
+Hinc manifestum est,triangulum æquilaterum tres angulos adinuicem æquales continere. Quoniam binatim sumpta latera, semper offenduntur æqualia: & duo quoq anguli omnifariam sumpti consequenter æquales.
 
-Τῶν ἰσοσκελῶν τριγώνων αἱ πρὸς τῇ βάσει γωνίαι ἴσαι ἀλλήλαις ἐισί.καὶ προσεκβληθεισῶν τῶν ἴσων εὐθειῶν,αἱ ὑπὸ τὴν βάσιν γωνίαι ἴσαι ἀλλήλαις ἔσονται.
+Θεώρημα γ, Πρόθεσις ς.
 
-## Theorema 2, Propositio 5.
+Ἐὰν τριγώνου αἱ δύο γωνίαι ἴσαι ἀλλήλαις ὦσι,καὶ αἱ ὑπὸ τὰς ἴσας γωνίας ὑποτείνουσαι πλευραὶ ἴσαι ἀλλήλαις ἔσονται.
 
-5 ISoscelium triangulorum qui ad basin sunt anguli,adinuicem sunt æquales : & productis æqualibus rectis lineis , qui sub basi sunt anguli adinuicem æquales erunt.
+## Theorema 3, Propositio 6.
 
-ORONTIVS.Sit triangulū isosceles a/b/c: cuius latera a/b/& a/c/sint adinuicem æqualia.Hæc autē versus d,& e,puncta,in cótinuū rectúmq producantur:
+6 SI trianguli duo anguli , æquales adinuicem fuerint: æquales quoq angulos subtendentia latera æqualia adinuicem erunt.
 
-b.j.
+ORONTIVS.Esto a/b/c/triāgulū,cuius anguli a/b/c/& a/c/b/sint adinuicē æquales.Dico propterea,quòd latus a/b/æquū est lateri a/c.Si nanq a/b/ & a/c/latera forent inæqualia,alterum esset maius:vtpote, a/b.Posset itaq à maiori a/b,secari ipsi a/c/minori æqualis,per tertiā propositionē.esto igitur b/d: & connectatur c/d/ recta,per primum postulatum.Cadet igitur recta c/d/ intra triangulum a/b/c:diuidétq latus a/b,& angulum a/c/b/in duos angulos,atq datum a/b/c/triangulum in bina triangula a/c/d/ & d/b/c.Atqui a/b/c/triangulum,ipso d/b/c/triangulo(nempe totum sua parte)maius est:per nonam communem sententiam.Quòd si a/c/recta foret æqualis ipsi b/d,& b/c/sit vtriq triangulo communis:essent bina latera a/c/&
+
+> *[handwritten: Duabus datis rectis lineis inequalibus a maiori minorē equā rectam lineam abscindere.]*
+
+> Demōstratio ab impossibili
+
+> *[handwritten: Ab oī puncto in oē punctum rectam lineam ducere.]*
+
+> *[handwritten: Totum est sua parte maius.]*

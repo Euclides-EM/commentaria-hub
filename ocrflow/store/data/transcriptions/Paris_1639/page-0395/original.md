@@ -1,13 +1,13 @@
-# Page 394
+# Page 395
 
-# GEOMETRIE
+# PRACTIQVE.
 
-la largeur 30, & la hauteur 8, que son contenu corporel sera 14400, Car 30 fois 60 sont 1800, & 8 fois 1800 sont 14400.
-
-*Trouuer le contenu d'vn prisme, ou cylindre, c'est à dire, d'vn solide, qui a deux superficies opposées égales & paralleles.*
-
-Il faut trouuer l'aire de l'vne des superficies paralleles, & la multiplier par la perpendiculaire, qui tombe de l'vne des superficies paralleles sur l'autre, continuée si besoin est, & le produict sera le requis. Ce faisant on trouuera, que si la base du prisme ou cylindre vaut 154. & la hauteur 5, que le contenu corporel sera 770, car 5 fois 154 sont 770. Par la mesme methode se peuuent aussi trouuer les soliditez ou contenus corporels, des digues ou chaussées, fossez & plates-formes, qui n'ont de talu qu'en largeur. Par exemple, soit vne terrasse de 60 pieds de longueur, dont BC ou son égal EN soit la largeur de la superficie superieure de 46 pieds, le talu ND de 18 pieds, le talu AE de 8 pieds, & par consequent la largeur de la base AD sera de 72 pieds, & la hauteur DE soit de 14 pieds.
+*Trouuer le contenu d'vne pyramide ou cone.*
 
 (figure)
 
-Pour auoir le contenu de cette terrasse, il faut premierement trouuer le contenu de la superficie ABCD, que nous supposons estre parallele & égale à son opposée, operant comme a esté monstré cy deuant, c'est à dire, adioustant BC 46, auec AD 72, & de la somme 118, prenant la moitié qui est 59, laquelle estant multipliée par la hauteur BE 14, donne 826 pour le contenu de la superficie ABCD, qu'il faut multiplier par la longueur donnée 60, & viendra 49560 pieds, pour le contenu corporel de la terrasse proposée : Pour reduire les 49560 pieds en toises, on les diuisera par 216, qui est la valeur d'vne toise cube, & viendra 229 toises 96 pieds, au lieu de 49560 pieds.
+Il faut trouuer le contenu de sa base, & le multiplier par le tiers de la perpendiculaire, qui tombe du sommet sur la base, continuée si besoin est, & le produict sera le requis : ce faisant on trouuera, que si la base DBCD du cone ABCDE vaut 962 1/2, & la hauteur EF 8, qui tombe sur la continuation de la base DBC, que le contenu du cone vaudra 2566 ⅔ : Car 962 1/2 estant multipliez par 8 font 7700, dont le tiers est 2566 ⅔.
+
+*Trouuer le contenu d'vn corps regulier estant donné l'vn de ses costez.*
+
+Il faut prendre dans la table des nombres le logarithme du costé donné, & le tripler, & adiouster auec son triple le logarithme de la solidité du corps proposé qui se trouue en la table, qui est en la 174 page du 3 tome, & le nombre correspondant à cette somme en ladite table des nombres, sera le contenu requis : ce faisant on trouuera que si le costé d'vn octaedre est 6, son contenu corporel sera 101 353/428. Car le logarithme de 6 est 77815, & son triple est 233445, & le logarithme de l'octaedre qui se trouue en ladite page 174 est 32660 auec le signe de moins, qui signifie que l'addition se doit faire par soustraction ; partant ostant 32660 de 233445, reste 200785, qui donne dans la table des nombres 101 353/428, pour le contenu corporel de l'octaedre.

@@ -1,35 +1,37 @@
-# Page 187
+# Page 188
 
-# D'EVCLIDE, LIV. IV.
+# LES ELEMENTS
 
-2.4 | △acd *eſt equiangle* △fgh. α
-9.1 | ∠bdc 2|2 ∠bda, ∠ecd 2|2 ∠eca. α
-1.p.1 | ab, bc, de, ea *ſnt* ——,
-ſymp. | 5∠abcde *eſt le requis.*
+*Explication par nombres.*
 
-*Demonſtr.*
+*Voyez la figure precedente.*
 
-α.7.a.1 | ∠cad, ∠cdb, ∠bda, ∠dce, ∠eca *ſnt* 2|2 đe.
-26.3 | ∩cd, ∩de, ∩ea, ∩ab, ∩bc *ſnt* 2|2 đe.
-1.concl. 29.3 | cd, de, ea, ab, bc *ſnt* 2|2 đe.
-2.a.1 | ∩bcde, ∩cdea, ∩deab, ∩eabc, ∩abcd *ſnt* 2|2 đe.
-2 concl. 27.3 | ∠bae, ∠abc, ∠bcd, ∠cde, ∠dea *ſnt* 2|2 đe.
+hyp. | cd Ⅱ cb *eſt* 2,
+7.a.1 | ce *eſt* 1,
+47 1 | □.ed *eſt* 5,
+ſ.46.1 | ed Ⅱ ef *eſt* √.5,
+3 a.b | cf *eſt* √.5~1,
+47.1 | □ fd *eſt* 10~√.20,
+ſ.46.1 | fd *eſt* √..10~√.20.
 
-COROLLAIRE.
+PROBL. XII. PROPOS. XII.
 
-D'icy il s'ensuit, que l'angle du pentagone equilateral & equiangle, est les trois cinquiesmes de deux droits ou les six cinquiesmes d'vn droict.
+A l'entour d'vn cercle donné, descrire vn pentagone, equilateral & equiangle.
 
-*Conſtruction de la practique.*
+*Hypoth.*
+
+fabcde *eſt* ⊙ D.
+
+*Requis à faire:*
+
+*circonſcrire au* ⊙abcde *le* 5∠ ghikl *equilat. & equiangle.*
 
 (figure)
 
-hyp. | cadbn *eſt* ⊙,
-1.p.1 | ab *eſt diametre*,
-11.1 | cd ⊥ ab,
-10.1 | ce 2|2 eb,
-1.p.1 | ed *eſt* ——,
-3.1 | ef 2|2 ed,
-1.p.1 | df *eſt* ——,
-ſymp. | df *eſt le coſté du* 5∠ *inſcrit au* ⊙adbn.
+*Conſtr.*
 
-*Demonſtr. eſt au ſcholie 10. du 13.*
+11.1 | 5∠abcde *eſt inſcrit au* ⊙fabd,
+1.p.1 | fa, fb, fc, fd, fe *ſnt* ——,
+11.1 | gah ⊥ fa, hbi ⊥ fb, ick ⊥ fc,
+11.1 | kdl ⊥ fd, leg ⊥ fe,
+13.a.1 | ahb, bic, ckd, dle, ega *ſnt* △;

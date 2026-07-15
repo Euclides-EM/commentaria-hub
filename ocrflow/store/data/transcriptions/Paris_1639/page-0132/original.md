@@ -1,22 +1,26 @@
-# Page 131
+# Page 132
 
-# D'EVCLIDE, LIV. III.
-
-(ornament)
-
-LE TROISIESME LIVRE DES ELEMENTS D'EVCLIDE.
-
-# DEFINITIONS.
-
-I.
-
-CERCLES égaux sont ceux desquels les diametres sont égaux ; ou desquels les lignes droictes menées des centres aux circonferences sont égales.
+# LES ELEMENTS
 
 (figure)
 
-hyp. | *ſemidiamet.* ga 2|2 *ſemidiamet.* hd,
-3.d.3 | ⊙gabc 2|2 ⊙hdef.
+2.d.3 | ab *touche le* ⊙fed *en* e,
+2.d.3 | fg *couppe le* ⊙fed *en* d,
+2.d.3 | eb *eſt tangente ou touchante,*
+2.d.3 | fg *eſt ſecante ou couppante.*
 
-II.
+III.
 
-Vne ligne droicte est dite toucher le cercle, laquelle touchant le cercle, si elle est prolongée, ne le couppe point.
+Les cercles sont dits se toucher l'vn l'autre, lesquels en se touchant l'vn l'autre, ne se couppent point.
+
+(figure)
+
+Le cercle DAC touche le cercle ABE par dedans en A.
+
+Le cercle FBG touche le mesme cercle ABE par dehors en B.
+
+Les cercles BFG & HFG s'entrecouppent l'vn l'autre en F & G.
+
+IV.
+
+Au cercle, les lignes droictes sont dites estre également distantes du centre, quand les perpendiculaires, qui sont menées du centre sur icelles sont égales. Mais celle-là est dite estre plus esloi-

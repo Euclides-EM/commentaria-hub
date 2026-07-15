@@ -1,38 +1,41 @@
-# Page 65
+# Page 66
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-*Demonſt.*
+d.β. (c'est à dire, demonstration β.) signifie qu'il faut demonstrer que l'angle A est égal à l'angle C, par la mesme methode, qu'il a esté demonstré, que l'angle D est égal à l'angle B.
 
-ſuppoſ. | cbe *eſt* ——,
-13.1 | ∠abe + ∠abc 2|2 2┘. α
-hyp. | ∠abd + ∠abc 2|2 2┘. α
-∠abc *commun. ſubtr.*
-α.3.a.1 | ∠abe 2|2 ∠abd,
-*contr. 9. a. 1.*
-concl. 21.a.1 | cbd *eſt* ——.
+COROLLAIRE I.
 
-THEOR. VIII. PROPOS. XV.
+De cette proposition s'ensuit, que deux lignes droictes s'entrecoupant l'vne l'autre, font quatre angles égaux à quatre angles droicts.
 
-Si deux lignes droictes se coupent l'vne l'autre, elles feront les angles au sommet égaux entr'eux.
+COROLL. II.
 
-Les quatre angles que font deux lignes se couppans l'vne l'autre, se distinguent en deux denominations differentes, à sçauoir en angles contigus ou de suite ; & en angles opposez au sommet. Comme en cette figure les angles de suite sont, A & B; A & D : B & C ; & aussi C & D. Et les angles opposez au sommet, sont A & C ; & aussi D & B.
+Il s'ensuit aussi que tous les angles constituez à l'entour d'vn mesme poinct, sont tant seulement égaux à quatre angles droicts.
+
+SCHOLIE I.
+
+Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles opposez au sommet égaux entr'eux : icelles lignes droictes se rencontreront directement.
 
 (figure)
 
 *Hypoth.*
 
-ef & gh *ſnt* —— ;
+gah *eſt* ——,
+∠d 2|2 ∠b.
 
 *Req. à demonſtr.*
 
-∠d 2|2 ∠b,
-∠a 2|2 ∠c.
+eaf *eſt* ——.
 
 *Demonſtr.*
 
-13.1 | ∠d + ∠a 2|2 2┘. α
-13.1 | ∠b + ∠a 2|2 2┘. α
-∠a *commun. ſubtr.*
-concl. α.3.a.1 | ∠d 2|2 ∠b. β
-d.β | ∠a 2|2 ∠c.
+hyp. | ∠d 2|2 ∠b,
+∠a *commun. add.*
+2.a.1 | ∠d + ∠a 2|2 ∠b + ∠a,
+α.13.1 | ∠d + ∠a 2|2 2┘,
+1.a.1 | ∠b + ∠a 2|2 2┘,
+concl. 14.1 | eaf *eſt* ——.
+
+SCHOL. II.
+
+Si quatre lignes droictes tirées d'vn mesme poinct font les angles opposez au sommet égaux entr'eux, chaque deux lignes opposées seront constituées directement.

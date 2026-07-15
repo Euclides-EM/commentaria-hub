@@ -1,42 +1,51 @@
-*(pagina 107)*
+# GEOMET. ELEMENT.
 
-# Orontij Finei Delphinatis, Regii Mathematicarvm Professoris, In Quintum elementorum Euclidis, Demonstrationes.
+*(pagina 108)*
 
-## ¶Diffinitionum elucidatio non aspernanda.
+magnitudinis, vtpote, q̄ multotiens, hoc est ter, eandem bipedalem contineat magnitudinē, seu quam bipedalis ter multiplicata metitur. & propterea sextupedalis, triplex ipsius bipedalis peculiari restrictione vocatur. ¶Cùm autem minor magnitudo aliquotiēs sumpta, seu multiplicata, plus aut minus efficit, quàm sit ipsa magnitudo maior: nō quota, sed adgregatiua pars ipsius maioris videtur esse magnitudinis, ex quotis scilicet partibus adgregata, ab ipsarum partium quotarum tum numero, tum qualitate denominanda.
 
-### ORONTIVS.
+> Pars adgregatiua.
 
-POSTQVAM EVCLIDES QVATVOR ANTEcedentibus libris, quantitatis continuæ qualitatem, illiúsq́; dimensiones apertè demonstrauit: iam binis succedentibus libris, magnitudinū rationes, atque proportiones, acutissimis prosequitur ostensionibus. Huius itaq; libri quinti scopus est, de proportionibus in vniuersum pertractare: singula enim quę in eo demōstrātur, nō solùm ad geometricā videntur spectare contēplationē, sed cōmune aliquid habēt cum Arithmetica, & Musica, & cum doctrinis omnibus quę sub mathematica traditione cōprehendūtur.
+Veluti quadrupedalis ad sextupedalem relata magnitudinē, adgregatiua pars eiusdem sextupedalis dicenda est magnitudinis. Componitur enim ex geminis bipedalibus magnitudinibus, quarum quęlibet tertiam sextupedalis partem efficit: hinc bipartiens tertias eiusdem sextupedalis denominatur.
 
-> Scopus huius libri quinti.
+> Exemplum.
 
-Verùm quoniā de proportionibus futurus est sermo, proportio autē rationū videtur esse similitudo: de rationibus, quibus ipsæ cōponuntur proportiones, in primis tractandū est. prius enim oportet agnoscere simplicia, q̄ cōposita. Cùm igitur binæ magnitudines inuicē cōparantur: hæ proculdubio aut æquales, aut inæquales offendūtur Propriū enim quantitatis esse diffinit Aristoteles, secundū eam æquale, vel inæquale dici. & huiuscemodi cōparatio, habitudo dicitur: quā Euclides, ad veterū imitationem, rationē adpellat.
+¶Quæ igitur adinuicem comparatæ magnitudines, cōmuni aliqua metiuntur magnitudine: commensurabiles, seu communicātes, & rationales adpellantur. Cuiusmodi sunt omnes numeri, à binario in infinitum distributi, quos indifferenter metitur vnitas: omnes insuper ad numeros relatæ magnitudines, determinatam inter sese rationem vel habitudinem obtinentes.
 
-> De magnitudinum cōparatione.
-> Habitudo. Ratio.
+> Cōmensurabiles & rationales magnitudines.
 
-Ipsæ autē magnitudines, termini tunc vocitātur: illa quidē quæ alteri refertur, antecedēs: reliqua verò, consequens, ad quam scilicet alterius fit cōparatio. Id porrò, quo altera distat à reliqua: differētia propriè dicitur. ¶Quoties itaq; propositæ & adinuicè comparatæ magnitudines, fuerint inæquales, & minor metitur maiorē, hoc est, aliquotiens sumpta, seu per datum aliquem multiplicata numerum, ipsam maiorem restituit magnitudinem: tunc minor magnitudo, pars ipsius maioris dicitur: quam vulgus peculiari nomenclatura, iuxta multiplicationis numerum, multiplicatiuam seu quotam partem eiusdem maioris adpellat. Quæ ab Euclide ita primùm diffinitur,
+Quibus autem non accidit aliqua & per numerum expressa mensura: incōmensurabiles, & incommunicātes, irrationalésve dicuntur magnitudines, quarum habitudo determinatis non exprimitur numeris. Veluti sunt diagonius, & latus quadrati geometrici.
 
-> Quota seu multiplicatiua pars.
+> Incommensurabiles & irrationales.
 
-### ΕΥΚΛΕΙΔΟΥ ΣΤΟΙΧΕΙΟΝ ΠΕΜΠΤΟΝ.
+Illa igitur rationalium vel irrationalium, seu cōmensurabilium & incōmensurabilium magnitudinum comparatio, vel habitudo, ratio (quemadmodùm suprà dictum est) à veteribus adpellatur: quæ ab Euclide in hunc modum diffinitur,
 
-¶Μέρος ἐστὶ μέγεθος μεγέθους, τὸ ἔλασσον τοῦ μείζονος, ὅταν καταμετρῇ τὸ μεῖζον.
+¶Λόγος ἐστὶ δύο μεγεθῶν ὁμογενῶν ἡ κατὰ πηλικότητα πρὸς ἄλληλα ποιὰ σχέσις.
 
-## 1 Pars est magnitudo magnitudinis minor maioris, quando minor metitur maiorem.
+## 3 Ratio est duarum magnitudinum eiusdem generis aliquatenus adinuicem quædam habitudo.
 
-Vtpote, binis magnitudinibus datis, quarum altera bipedalis, altera verò sextupedalis existat, quoniam bipedalis ter sumpta, seu per tria multiplicata, sextupedalem metitur magnitudinē: idcirco bipedalis magnitudo, pars est ipsius sextupedalis magnitudinis, & tertia pars eiusdem sextupedalis peculiari discretione vocatur.
+Sola enim vniuoca veniunt inter sese comparanda, vtpote, numerus numero, linea lineæ, superficies superficiei, solidum solido, sonus sono, tēpus tempori, velocitas velocitati, & quę sunt huiuscemodi. Inter ea enim quę diuersorum sunt generum, nulla videtur accidere comparatio.
 
-> Exēplū quotæ partis.
+> Quę inuicem cōparantur.
 
-¶Ipsa porrò maior magnitudo, quam minor suprascripta multiplicatione metitur: multiplex ipsius minoris adpellatur magnitudinis, hoc est, multotiens ipsam minorem comprehendens magnitudinem, vel ex multiplici eiusdem minoris repetitione consurgens. Hinc dicit Euclides.
+¶Offenditur autem ratio inter numeros absolutè consideratos, quam arithmeticā nuncupamus rationem: intérve sonoros, hoc est, ad sonorum hormoniam relatos numeros, quæ harmonica ratio dicitur: vel inter abstractas tum à materia, tum à numero magnitudines, quæ ratio geometrica propriè nominatur.
 
-> Multiplex.
+> Ratio Arithmetica. Harmonica. Geometrica.
 
-¶Πολλαπλάσιον δὲ τὸ μεῖζον τοῦ ἐλάσσονος, ὅταν καταμετρῆται ὑπὸ τοῦ ἐλάσσονος.
+Quæcunque porrò rationes inter ipsos inueniuntur numeros, eædem inter singula continuorum offenduntur genera: at non è diuerso. Arithmetica siquidem ratio, tantummodò rationalium videtur esse magnitudinum: geometrica verò, tam rationaliū quàm irrationalium contemplatur magnitudinum habitudinem. Quæcunq; insuper rationis diuersitates vni continuorū accidunt generi, vtpote lineis: cæteris continuorū videntur euenire generibus, superficiebus inquam & solidis. quod ipsis non solet accidere numeris. Idcirco de geometrica, & veluti principatum obtinēte ratione, hoc loco tractare principaliter intendit Euclides.
 
-## 2 Multiplex autem, maior minore, quando eam metitur minor.
+¶Duplex est autem ratio geometrica: altera quidē æqualitatis, cuius differētia nulla est: altera verò inæqualitatis, cuius rationales species sunt quinq;: tres quidē simplices, vtpote multiplex, superparticularis, & superpartiēs: & duæ ex eis cōpositæ, scilicet multiplex superparticularis, & multiplex superpartiens. Primò igitur doctrina simplicium, postea cætera in vniuersum perscrutātur rationum discrimina: debet enim simplicium doctrina, in omnibus doctrinam præcedere compositorum.
 
-Vt in præassumpto nuper exēplo, sextupedalis magnitudo multiplex dicitͬ ipsius bipedalis
+> Ratio æqualitatis. inæqualitatis
 
-> Exemplū multiplicis.
+¶Multiplicem itaq; solemus adpellare rationem, quoties maior magnitudo minorem (vti suprà dictum est) pluries & adæquatè comprehēdit magnitudinem: quæ in duplam vt quaternarij ad binarium, triplam veluti senarij ad ipsum binarium, quadruplam vt duodenarij ad ternarium, & deinceps ita quantumlibet subdiuiditur, prout maior magnitudo bis, ter, quater, pluriésve minorem comprehendit.
+
+> Ratio multiplex.
+
+Superparticularis autē ratio dicitur, cùm maior magnitudo minorem semel, & quotam insuper minoris partem continet: quæ sesqualtera dicitur vt ternarij ad binarium, aut sesquitertia veluti quaternarij ad ternariū, vel sesquiquarta vt quinarij ad quaternarium, & respondenter ita quantumlibet, prout pars ipsa alteram minoris magnitudinis partem, vel tertiam, aut quartam, aliámve quotam partem efficit, à dato quouis numero denominatam.
+
+> Superparticularis ratio.
+
+Superpartientem verò rationem adpellamus, quoties maior magnitudo minorem itidem semel comprehendit, & contingentem præterea vel adgregatiuam eiusdem minoris partem, ex quotis ipsius minoris partibus compositam: quæ varia, pro numero ac ratione partium, sortitur discrimina. Alia enim superbipartiens tertias
+
+> Ratio superpartiens.

@@ -1,27 +1,48 @@
-# Page 142
+# Page 143
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-qui tombent en la circonference concaue; la plus grande est celle qui passe par le centre; mais des autres, tousiours la plus proche de celle qui passe par le centre, sera plus grande que celle qui en est plus esloignée : mais de celles qui tombent à la circonference conuexe, la plus petite est celle qui est comprise entre le poinct & le diametre ; & des autres, celle-là laquelle est plus proche de la plus petite est tousiours moindre, que celle qui en est plus esloignée; & de ce poinct, seront menées au cercle tant seulement deux lignes droictes égales entr'elles de part & d'autre, de la plus petite, ou de la plus grande.
+*Demonſtr.*
+
+15.d.1 | ki 2|2 kh,
+ak *commun. add.*
+2.a.1 | ai 2|2 ak + kh,
+20.1 | ak + kh 3|2 ah,
+1.concl. 1.a.c | ai 3|2 ah,
+9.a.1 | ∠akh 3|2 ∠akg,
+2 concl. 24.1 | ah 3|2 ag,
+9.a.1 | ∠akg 3|2 ∠akf,
+3.concl. 24.1 | ag 3|2 af,
+20.1 | ak 2|3 ac + ck,
+15.d.1 | kb 2|2 kc,
+4 concl. 5.a.1 | ab 2|3 ac,
+21.1 | ac + ck 2|3 ad + dk
+15.d.1 | ck 2|2 dk,
+5.concl. 5.a.1 | ac 2|3 ad. α
+6 concl. d.α | ad 2|3 ae,
+conſtr. | ∠akl 2|2 ∠akc,
+4.1 | al 2|2 ac,
+α | ad 3|2 ac. β
+7 concl. β | al, ac, ad n̄ *ſnt* 2|2 đe.
+
+THEOR. VIII. PROPOS. IX.
+
+Si au dedans du cercle on prend quelque poinct, & d'iceluy poinct tombent plus de deux lignes droictes égales à la circonference: le poinct pris est le centre du cercle.
 
 (figure)
 
 *Hypoth.*
 
-kbfh *eſt* ⊙,
-•a *eſt hors le* ⊙.
+bck *eſt* ⊙,
+ab, ac, ak *ſnt* 2|2 đe.
 
-*Preparation.*
+*Requis à demonſtrer.*
 
-1.p.1 | aki, ah, ag, af *ſnt* ——,
-1.p.1 | kh, kg, kf / kc, kd, ke *ſnt* ——,
-23.1 | ∠akl 2|2 ∠akc.
+•a *eſt centre du* ⊙.
 
-*Req. à demonſtrer.*
+*Demonſtr.*
 
-ai 3|2 ah,
-ah 3|2 ag,
-ag 3|2 af,
-ab 2|3 ac,
-ad 2|3 ae,
-al, ac, ad n̄ *ſnt* 2|2 đe.
+ſuppoſ. | a n̄ *eſt centre du* ⊙,
+7.3 | ab, ac, ak n̄ *ſnt* 2|2 đe.
+*contr. hypoth.*
+concl. 21.a.1 | a *eſt centre du* ⊙.

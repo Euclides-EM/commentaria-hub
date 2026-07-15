@@ -1,35 +1,35 @@
-# 150 GEOMET. ELEMENT.
+# LIBER VI. 151
 
-ſicut igitur a/d/ad d/e,ſic a/f/ad f/g:ſicútq; d/e/ad e/c,ſic f/g/ad g/b. Data ergo recta linea inſecta a/b,datæ rectæ lineæ vtcunq; ſectæ a/c,ſimiliter ſecatur.Quod faciendum receperamus.
+Tribus itaq; rectis lineis datis,a,b,c,quartam inuenimus proportionalē h/f.Quod faciendum fuerat.
 
-Πρόβλημα γ, Πρόθεσις ια.
+Πρόβλημα ε, Πρόθεσις ιγ.
 
-ΔΥο δοθεισῶν εὐθειῶν,τρίτην ἀνάλογον προσευρεῖν.
+ΔΥο Δοθεισῶν εὐθειῶν,μέσην ἀνάλογον προσευρεῖν.
 
-## Problema 3, Propoſitio 11.
+## Problema 5, Propoſitio 13.
 
-DVabus datis rectis lineis,tertiam proportionalem inuenire.
+DVabus datis rectis lineis,mediam proportionalem inuenire.
 
-ORONTIVS.¶Sint datæ binæ rectæ lineæ a/b/& c/d,quibus tertiam oporteat inuenire proportionalem.Ad datum itaque punctum a,datæ rectæ lineæ c/d/ æqualis recta linea ponatur a/e, per ſecūdam primi,contingentem qui ſub e/a/b/ efficiens angulum.Et ipſis a/b/& a/e/in continuum rectúmq; ad f/& g/puncta productis:vtriq; ipſarū c/d/ & a/e/ æqualis abſcindatur b/f, per tertiam ipſius primi:cónectatúrq; recta b/e,per primum poſtulatum.Per trigeſimam deinde primā eiuſdē primi:per datū punctū f, ipſi b/e/ parallela ducatur f/g, conueniens cum a/e/ad punctum g.Conuenient enim tandem per quintum poſtulatū: propterea q̷ anguli e/a/b/ & a/b/e/trianguli a/e/b, ſunt per decimamſeptimam primi binis rectis minores, & ipſi angulo a/b/e/interior,& ad eaſdem partes qui ad f/ per vigeſimamnonam ipſius primi æqualis. His ita conſtructis , quoniam trianguli a/g/f/ ad latus f/g/ acta eſt parallela b/e:ſecat igitur b/e/ipſius a/g/f/trianguli latera proportionaliter, per quartam huius ſexti,ſicut quidem a/b/ad b/f,ſic a/e/ad e/g.Aequalis porrò eſt c/d/vtriq; ipſarum a/e/& b/f/per conſtructionem : & æquales ad eandem, eandem habent rationem,& eadem ad æquales,per ſeptimam quinti. Et ſicut igitur a/b/ad c/d,ſic eadem c/d/ad e/g.Datis itaq; binis rectis lineis a/b/& c/d,tertia proportionalis inuenta eſt e/g.Quod oportuit feciſſe.
+ORONTIVS.¶Sint datæ binæ rectæ lineæ a/b/& c/d, inter quas receptū ſit mediam inuenire proportionalem.Producatur ergo altera earū,vtpote a/b/in rectum & continuū verſus e,per ſecūdum poſtulatū:& abſcindatur b/e/ipſi c/d/æqualis,per tertiam primi.Et diuiſa a/e/bifariam,per decimā ipſius primi : deſcribatur ad alterutrius partis interuallum ſemicirculus a/f/e,per tertium poſtulatum.A puncto deniq; b,perpendicularis excitetur b/f, per vndecimam primi: & connectantur a/f/& f/e/ lineæ rectæ, per primū poſtulatum. His ita conſtructis,quoniam triāguli a/f/e/ angulus qui ad f/ eſt in ſemicirculo : is propterea rectus eſt,per trigeſimāprimam tertij. Rectāgulum eſt itaq; a/f/e/triangulum,& ab angulo recto qui ad f/in baſin a/e/perpēdicularis demittitur f/b.Eſt igitur ipſa perpēdicularis f/b/media proportionalis inter a/b/& b/e/ ipſius baſis ſegmenta, per primam partem corollarij octauæ huius ſexti.Eſt igitur vt a/b/ ad b/f, ſic b/f/ad b/e.Ipſi porrò b/e/æqualis eſt c/d,per conſtructionem: & æquales ad eādem,eandem habēt rationem, & eadem ad æquales, per ſeptimam quinti. Et ſicut igitur a/b/ ad b/f, ſic b/f/ad/c/d. Binis itaq; rectis lineis datis, a/b/& c/d, media proportionalis inuenta eſt b/f.Quod oportebat facere.
 
 > Conſtructio figuræ.
 
-*[diagram: a b f e g c d]*
+*[diagram: a b e f c d]*
 
-> Demōſtratio problematis.
+> Sūmaria problematis oſtēſio.
 
-Πρόβλημα δ, Πρόθεσις ιβ.
+Θεώρημα θ, Πρόθεσις ιδ.
 
-ΤΡιῶν δοθεισῶν εὐθειῶν,τετάρτην ἀνάλογον προσευρεῖν.
+ΤΩν ἴσων τε καὶ μίαν μιᾷ ἴσην ἐχόντων γωνίαν παραλληλογράμμων, ἀντιπεπόνθασιν αἱ πλευραὶ,αἱ περὶ τὰς ἴσας γωνίας: καὶ ὧν παραλληλογράμμων μίαν μιᾷ ἴσην ἐχόντων γωνίαν,ἀντιπεπόνθασιν αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας, ἴσα ἐστὶν ἐκεῖνα.
 
-## Problema 4, Propoſitio 12.
+## Theorema 9, Propoſitio 14.
 
-TRibus datis rectis lineis, quartam proportionalem inuenire.
+AEqualium & vnum vni æqualem habētium angulum parallelogrammorum: reciproca ſunt latera,quæ circum æquales angulos . Et quorum parallelogrammorum vnum angulum vni angulo æqualem habentium , reciproca ſunt latera , quæ circum æquales angulos:ea quoque ſunt æqualia.
 
-ORONTIVS.¶Sint datæ tres lineæ rectæ a,b,c,quibus oporteat quartam inuenire proportionalem.Cōſtituantur itaq; binæ quædam rectæ lineæ d/e/atq; d/f, contingentem qui ſub e/d/f/angulum efficientes. Secetúrq; per tertiam primi ipſi a/æqualis d/g,ipſi verò b/æqualis g/e,& ipſi c/æqualis d/h.Et connexa g/h,per primum poſtulatum:ducatur e/f/ ipſi g/h/parallela, per trigeſimamprimā ipſius primi. Per ſecundum tandem poſtulatum ipſæ d/h/& e/f/ in continuum rectumq́;, producantur:donec conueniant ad punctum f.Concurrent enim tādem:quemadmodùm ex præcedenti potes elicere demonſtratione.His in hūc modum præparatis,quoniam triangulum eſt d/f/e,& ad latus e/f/acta eſt parallela g/h: proportionalia itaq; ſunt reliquorum laterum ſegmēta, per quartam huius ſexti, ſicut d/g/ad g/e,ſic d/h/ad h/f.Ipſi porrò d/g/æqualis eſt a,& b/ipſi g/e, atq; c/ ipſi d/h/æqualis,per conſtructionem.Aequales autem ad eandem, eandem habent rationem,& eadem ad æquales,per ſeptimā quinti.Et ſicut igitur a/ad b, ſic c/ad h/f.
+ORONTIVS. ¶Sint bina parallelogramma inuicem æqualia, a/b/c/& d/b/e, angulum qui ſub a/b/& b/c,ei qui ſub d/b/& b/e/continetur æqualē habentia. Dico quòd ipſorum parallelogrammorum a/b/c/& d/b/e/ reciproca ſunt latera,quæ circum æquales angulos:ſicut quidem a/b/ad b/e, ſic d/b/ad b/c. Conſtituantur enim a/b/& b/e/latera in directum:hoc autem fiet,cùm anguli a/b/c/& c/b/e/ fuerint æquales duobus rectis,per decimamquartam primi. In directum quoq; tunc erit d/b/ ipſi b/c,per eandem propoſitionem: anguli enim d/b/e/ & e/b/c, binis itidem rectis,per primam & ſecundam communē ſententiam , erunt æquales.Compleatur tandem c/b/e/parallelogrammum: productis in continuum
 
-> Figuræ præparatio.
+> Pars prima theorematis.
 
-*[diagram: a b c d g e h f]*
+*[diagram: a b e c d]*
 
-> Demōſtrationis reſolutio.
+n.iiij.

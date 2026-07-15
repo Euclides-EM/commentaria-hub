@@ -1,40 +1,46 @@
-# Page 197
+# Page 198
 
-# D'EVCLIDE, LIV. IV.
+# LES ELEMENTS
 
-par la 6. 4. & 9. 1. en parties 4. 8. 16. 32. 64. 128. &c.
-par la 15. 4. & 9. 1. en parties 3. 6. 12. 24. 48. &c.
-par la 11. 4. & 9. 1. en parties 5. 10. 20. 40. 80. &c.
-par la 16. 4. & 9. 1. en parties 15. 30. 60. 120. 240. &c.
+3.p.1 | oml *eſt* ⊙.
 
-SCHOLIE II.
+*Requis à demonſtrer.*
 
-Toute figure equilaterale inscrite au cercle est aussi equiangle: mais toute figure equilaterale circonscrite au cercle n'est pas aussi equiangle, si le nombre de ses angles n'est impair.
-
-*Hypoth. 1.*
-
-abcde *eſt equilat.*
-
-*Req. à demonſtr.*
-
-abcde *eſt equiangle.*
+*le rhombe* fghi *eſt circonſcrit au* ⊙mlp.
 
 (figure)
 
 *Demonſtr.*
 
-α.28.3 | ∩;ab, bc, cd, de, ea *ſnt* 2|2 đe.
-concl. 27.3 | ∠;abc, bcd, cde, dea, eab *ſnt* 2|2 đe.
-
-*Hypoth. 2.*
-
-fghi *eſt vn rhomhe*,
-∠fgh 3|2 ∠gfi.
+conſtr. | ∠ogh 2|2 ∠ogf,
+hyp. | gh 2|2 gf.
+og *eſt commun.*
+4.1 | ∠ohg 2|2 ∠ofg, β
+34.3 | ∠ghi 2|2 ∠gfi, γ
+αβγ | ∠;ofg, ohg, ohi, ofi *ſnt* 2|2 đe.
+conſtr. | ∠m, ∠l, ∠n, ∠p *ſnt* ┘;
+26.1. & 1.a.1 | op, om, ol, on *ſnt* 2|2 đe.
+concl. 4.d.4 | *le rhombe* fghi *eſt circonſcrit au* ⊙omlnp.
 
 (figure)
 
+*Hypoth. 3.*
+
+abcde *eſt* 5∠,
+abcde *eſt equilat.*
+abcde *eſt circõſcrit au* ⊙fghl.
+
+*Req. à demonſtrer.*
+
+abcde *eſt equiangle.*
+
 *Preparation.*
 
-9.1 | ∠ogh 2|2 ∠ogf,
-9.1 | ∠ohg 2|2 ∠ohi, α
-12.1 | om, ol, on, op *ſnt* ⊥,
+1.p.1 | fa, fb, fc, fd, fe *ſnt* ——;
+
+*Demonſtr.*
+
+*aux* △; fab *&* fae
+c.37.3 | ∠fab 2|2 ∠fae,
+hyp. | ab 2|2 ae,
+af *eſt commun.*

@@ -1,19 +1,21 @@
-# Page 362
+# Page 363
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-mes, & viendra 9 au quotient, qu'on mettra à part : puis on multipliera par le mesme nombre 7 l'excez 2, & viendra 14, duquel on soustraira l'excez 2 & restera 12, dont la moitié est 6, qu'il faut soustraire du quotient 9 mis à part, & restera 3 qui est le moindre nombre requis.
+progression arithmetique, il faut multiplier 2633 par 7, nombre des années données, & viendra 18431, qu'il faut adiouster auec le logarithme de 500, qui est 269897, la somme sera 288328, qui donne dans la table 764 19/57 ou 1/3, pour le plus grand nombre de la progression, qui est la somme à quoy monteront 500 liures en 7 ans.
 
-*Question 6.*
+*Question 2.*
 
-Que si auec le moindre nombre 3, & l'excez 2, est donné la somme de tous les termes 63 : pour trouuer le plus grand nombre on multipliera la somme donnée 63, par le double de l'excez qui est 4, & viendra 252 qu'on mettra à part, puis on prendra la difference qu'il y a entre 1, qui est la moitié de l'excez donné, & 3, qui est le moindre nombre donné, laquelle difference est 2, & son quarré 4, qu'il faut adiouster auec 252 mis à part, & de la somme qui est 256, on prendra la racine quarrée qui est 16, de laquelle racine ostant la moitié de l'excez qui est 1, restera 15 pour le plus grand nombre requis.
+Vn homme doit 1000 liures à payer au bout de 7 ans, que si on luy veut rabatre l'interest au denier seize, sçauoir combien il doit donner pour s'acquitter, en payant 7 ans auparauant le terme prescrit?
 
-DES PROGRESSIONS *Geometriques.*
+En cette question, pour trouuer le moindre nombre de la progression qui est le requis, on multipliera, comme en la precedente, par 7 les 2633, & le produict qui est 18432, on le soustraira du logarithme de 1000 qui est 300000, & restera 281569 qui donne dans la table 654 11/66 ou 1/6 pour le premier nombre de la progression, qui est la somme que doit payer celuy qui doit 1000 liures, pour s'acquitter 7 ans auparauant que le terme soit escheu.
 
-Les logarithmes de toutes progressions geometriques sont en progression arithmetique : par consequent, les solutions des questions des progressions geometriques se trouueront plus facilement & plus promptement par le moyen des tables des logarithmes, operant comme on peut voir aux questions suiuantes, des interests qui meritent à chef de terme.
+*Question 3.*
 
-*Question 1.*
+Que si vn homme pour 500 liures qu'il emprunte à interest au denier seize, s'oblige de payer 1000 liures en vne somme, sçauoir quel terme il doit auoir pour s'acquitter de ladite somme de 500 l. en payant 1000 liures?
 
-Sçauoir à combien monteront 500 liures auec les interests des interests au denier seize en 7 ans.
+Il faut soustraire le logarithme de 500, qui est 269897, du logarithme de 1000, qui est 300000, & restera 30103, qu'il faut diuiser par 2633, qui est la difference des logarithmes de 16 & 17, & le quotient 11 1140/2633 sera le nombre des années qu'il doit auoir pour payer ladite somme de 1000 liures.
 
-Le denier 16 signifie que le premier nombre de la progression est au second comme 16 à 17 : partant pour trouuer le plus grand nombre qui est le requis, on prendra dans la table des logarithmes la difference des logarithmes de 16 & 17, à sçauoir 2633, qui se trouue entre les logarithmes de 16 & 17 : & parce que 2633 est l'excex de la
+*Question 4.*
+
+Que si vn homme pour 500 liures qu'il emprunte,

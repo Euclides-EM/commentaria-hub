@@ -1,48 +1,54 @@
-# Page 163
+# Page 164
 
-# D'EVCLIDE, LIV. III.
+# LES ELEMENTS
 
-*Demonſtr.*
+*Req.à demonſtr.*
 
-ſuppoſ. | ∠agi 2|2 ∠dhf,
-26.3 | ∪ ai 2|2 ∪ df,
-hyp. | ∪ ac 2|2 ∪ df,
-1.a.1 | ∪ ai 2|2 ∪ ac,
-
-*contr. 9. a. 1.*
-
-1.concl, 21.a.1. | ∠agc 2|2 ∠dhf. α
-2 concl. α.7.a.1 | ∠abc 2|2 ∠def.
-
-SCHOLIE.
-
-*Hypoth.*
-
-edbc *eſt* ⊙,
-∩ad 2|2 ∩bc. α
-
-(figure)
-
-*Req. à demonſtr.*
-
-ab *eſt* == dc.
+∩abc 2|2 ∩def,
+∪ aic 2|2 ∪ dkf.
 
 *Preparation.*
 
-1.p.1 | ac *eſt* ——.
+1.p.1. | ga,gc,dh,hf *ſnt* ——.
 
 *Demonſtr.*
 
-α.27.3 | ∠acd 2|2 ∠cab,
-concl. 27.1 | ab *eſt* == dc.
+α.8.1 | ∠g 2|2 ∠h,
+1.concl. 26.3 | ∪ aic 2|2 ∪ dkf,
+2 concl. 3.a.1 | ∩abc 2|2 ∩def.
 
-THEOR. XXV. PROPOS. XXVIII.
+THEOR. XXVI. PROPOS. XXIX.
 
-Aux cercles égaux, les lignes droictes égales ostent circonferences égales, sçauoir la plus grande à la plus grande, & la plus petite à la plus petite.
+Aux cercles égaux, les circonferences égales, soustendent lignes droictes égales.
+
+(figure)
 
 *Hypoth.*
 
 gabc & hdef *ſnt* ⊙ 2|2 đe. α
-ac 2|2 df. α
+∩abc 2|2 ∩def.
+
+*Req.à demonſtr.*
+
+ac 2|2 df.
+
+*Preparation.*
+
+1.p.1 | ga,gc,hd,hf *ſnt* ——.
+
+*Demonſtr.*
+
+α.27.1 | ∠g 2|2 ∠h,
+concl. 4.1 | ac 2|2 df.
+
+En cette proposition, & aux trois precedentes, ce qui est dit des cercles égaux, doit aussi estre entendu d'vn mesme cercle: car ce sera la mesme demonstration.
+
+PROBL. IV. PROPOS. XXX.
+
+Coupper en deux également vne circonference donnée.
+
+*Hypoth.*
+
+acb *eſt* ∩ D.
 
 (figure)

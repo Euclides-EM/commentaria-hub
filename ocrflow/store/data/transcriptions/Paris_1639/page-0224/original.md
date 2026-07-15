@@ -1,38 +1,33 @@
-# Page 223
+# Page 224
 
-# D'EVCLIDE, LIV. V.
-
-*Hypoth.*
-
-ab *multipl..* e 2|2 cd *multipl..* f.
-ag *multipl..* e 2|2 ch *multipl..* f.
+# LES ELEMENTS
 
 (figure)
 
-*Req. à demonſtrer.*
+*Prepar.*
 
-gb 2|2 e, & hd 2|2 f,
-Ⅱ, gb *multipl..* e 2|2 hd *multipl..* f.
+3.1 | d *multipl..* | a,
+| e *multipl..* | b,
+3.1 | f *multipl..* c.
 
 *Demonſtr.*
 
-ſ.2.d.5 | *multd..part..* ab 2|2 *multd..part..* cd,
-ſ.2.d5 | *multd..part..* ag 2|2 *multd..part..* ch,
-3.a.1 | *multd..part..* gb 2|2 *multd..part..* hd,
-concl. ergo | Ⅱ, gb 2|2 e, & hd 2|2 f,
-3.a.1 | Ⅱ, gb *multipl..* e 2|2 hd *multipl..* f.
+6.a.1 | d 2|2 e,
+1.a.d | d, 2, 3, 4 | 3, f,
+| e, 2, 3, 4 | 3, f,
+1.concl. 6.d.5 | a π c 2|2 b π c,
+2 concl c.4.5 | c π a 2|2 c π b.
 
-Ceste demonstration est manifeste du 3. ax. 1. car si des multitudes égales AB & CD, on oste multitudes égales AG & CH, par le 3. ax. du 1. les restes GB & HD seront multitudes égales: ce qu'il falloit demonstrer.
+Ceste proposition est de soy manifeste, neantmoins pour la demonstrer par la 6 definition du 5, on dira que D & E, equimultiples des antecedens A & B, à cause qu'elles sont égales entr'elles, ne peuuent estre dissemblables au respect de F, qui est l'equimultiple des consequens C: & que par consequent, par la 6. definition du 5. il y a mesme raison de l'antecedent A au consequent C, que de l'antecedent B au mesme consequent C: ce qu'il falloit demonstrer.
 
-THEOR. VII. PROPOS. VII.
+SCHOLIE.
 
-Les grandeurs égales ont mesme raison à vne mesme grandeur, & vne mesme grandeur a mesme raison aux égales.
+Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par la mesme methode que les grandeurs égales ont mesme raison à d'autres grandeurs égales.
 
-(figure)
+THEOR. VIII. PROPOS. VIII.
 
-hyp. | a 2|2 b.
+Des grandeurs inégales, la plus grande a plus grande raison à vne mesme que la plus petite: Et vne mesme grandeur a plus grande raison à la plus petite grandeur qu'à la plus grande.
 
-*Req. à demonſtr.*
+*Hypoth.*
 
-a π c 2|2 b π c,
-c π a 2|2 c π b.
+ab 3|2 c.

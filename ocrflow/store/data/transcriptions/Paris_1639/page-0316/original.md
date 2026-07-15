@@ -1,27 +1,15 @@
-# Page 315
+# Page 316
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-en estofes de 8 liures 10 sols l'aulne, encore que les 8 lt. 10 ſ. se reduisent en 85′, il faut les reduire en secondes, afin que le diuiseur aye mesme denomination que le diuidende, qui est 34645″, partant adioustant vn zero à 85′, on aura pour diuiseur 850″, par lequel diuisant 34645″, viendra au quotient 40, & restera 645″, ou 6 lt. 4′, 5″ qui valent 6 lt. 9 sols : tellement que pour payer les 346 liures 9 sols en estofes de 8 liures 10 sols l'aulne, il en faudra 40 aulnes, & 6 liures 9 sols, outre les 40 aulnes. Par la mesme methode on trouuera, que pour payer 1000 liures en patagons de 58 sols piece, il faut 344 patagons auec 2 liures 8 sols.
+ction : par exemple, les deux nombres de la fraction ⅔ estant multipliez par vn nombre tel qu'on voudra, comme par 4, donneront 8/12, qui vaut la mesme chose que ⅔, encore que ses nombres soient plus grands que ceux de ⅔.
 
-*Les nombres de la diuiſion ſont ceux-cy.*
+Il y a sept sortes de reductions, dont la premiere est, lors qu'il faut reduire vne fraction qui a son numerateur plus grand que son denominateur en entier : cela se fait en diuisant le numerateur par son denominateur, comme 8/3 se reduisent en 2⅔.
 
-1 0 0 0 0′
-——
-2 9′ [3 4 4 24′/
+La seconde est, lors qu'on veut reduire vne fraction vulgaire en fraction de la dixme, cela se fait en adioustant au numerateur plusieurs zero, & augmentant la denomination ou le nombre des accens, selon le nombre des zero qu'on aura adiousté, puis diuisant par le denominateur : ce faisant on trouuera que 5/8 valent 625‴ : & ⅔ valent enuiron 666‴, & ne se peuuent reduire exactement, à cause qu'il reste tousiours quelque chose.
 
-DES FRACTIONS *ou nombres rompus.*
+La troisiesme est, lors qu'on veut mettre l'entier en forme de fraction, ou le reduire en vne fraction, qui aye telle denomination qu'on voudra. Pour reduire l'entier en forme de fraction, il luy faut seulement donner vn pour denominateur. Mais pour le reduire en tiers, quart, ou autre telle denomination qu'on voudra, on le multipliera par 3, 4, ou autre nombre de la denomination proposée : ce faisant on trouuera que 7 vaut 21/3, & 5 reduict en quart, donne 20/4.
 
-La fraction ou nombre rompu est vne ou plusieurs parties de l'entier diuisé en plusieurs parties égales.
+La quatriesme est, lors qu'il y a vn entier auec vne fraction adjointe, & qu'on les veut reduire en vne fraction ; ce qui se faict en multipliant l'entier par le denominateur de sa fraction, & adioustant au produict le numerateur sans changer le denominateur : ce faisant 8⅔ donnent 26/3, & 4 1/2 donnent 9/2, & 6 3/4 donnent 27/4.
 
-Toute fraction a deux nombres couchez l'vn sur l'autre auec vne ligne entre deux.
-
-Le premier de ces deux nombres qui est au dessus de la ligne s'appelle numerateur, parce qu'il monstre combien de parties de l'entier contient la fraction.
-
-L'autre nombre qui est sous la ligne s'appelle denominateur, & monstre en combien de parties égales l'entier est diuisé : & se peut tousiours prendre pour le tout ou l'entier, à cause qu'il contient toutes les parties de l'entier.
-
-1 2 3 8 *numerateurs.*
-——
-2, 3, 4, 12, *denominateurs.*
-
-Or la valeur de la fraction consiste en la proportion du numerateur au denominateur, & non en la grandeur des nombres : d'où s'ensuit que la multiplication ou diuision de deux nombres de la fraction par vn mesme nombre ne change pas la valeur de la fra-
+La cinquiesme est, lors qu'on veut reduire vne fraction en d'autre monnoye de moindre valeur, comme 4/5 d'vne liure en sols, ce qui s'appelle eualuation, & se faict en multipliant 20 sols, qui est la valeur de la liure, par le numerateur 4, puis diuisant le produict, qui est 80, par le denominateur 5, qui donnera 16 sols pour 4/5 de liure. Par la mesme methode on trouuera, que ⅔ d'vne liure valent

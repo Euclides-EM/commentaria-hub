@@ -1,45 +1,45 @@
-# ΕΥΚΛΕΙΔΟΥ ΒΙΒΛΙΟΥ ΠΡΩΤΟΥ
+# GEOMET. ELEMENT.
 
-Πρόβλημα α, Πρόθεσις α.
+> 15 Diffinitio Circulus è figura plana vna linea contenta que circumferẽtia appellatur ad quam ab vno puncto intra eum medio exiſtente oẽs procedentes linee in ipſius circuli circũferentia ĩcidentes ad inuicem ſunt equales.
 
-Επὶ τῆς δοθείσης ευθείας πεπερασμένης, τρίγωνον ἰσόπλευρον σήσασθαι.
+> Rectam lineam terminatam in continuũ rectum q̃ producere.
 
-# EVCLIDIS LIBRI PRIMI
+ipſius circuli circunferentiam: ſitq́; d/e. Centro rurſum d, interuallo autẽ d/e, circulus deſcribatur e/g/h, per idem tertium poſtulatũ. Producatúrque tandem recta d/a, in circunferentiam ipſius e/g/h/ circuli, per ſecũdum poſtulatum: ſitq́; d/g. Cùm igitur punctum b, centrũ exiſtat circuli c/e/f: æqualis eſt b/c/ recta ipſi b/e, per decimamquintam diffinitionem. Rurſum quoniam punctum d, cẽtrum eſt e/g/h/ circuli: æqualis eſt, per eandem diffinitionem, recta d/e/ ipſi d/g. A quibus ſi auferãtur a/d, & b/d/ inuicẽ æquales (nempe latera trianguli æquilateri) reliqua a/g, reliquæ b/e, per
 
-> Quedam propositiones ſunt ſingulares [?] que ſepius in vſum veniunt vt 14, 42, 4 [?]
-
-> Ea o[?]a que hic proponuntur demõſtrantur conſtituuntur verum intelligenda de punctis lineis circulis etc. in plano exaratis.
-
-## Problema 1, Propoſitio 1.
-
-## SVper data linea recta terminata, triangulũ æquilaterum conſtituere
-
-> Nota propoſitiõis interpretationem.
-
-ORONTIVS. Sit data recta linea terminata a/b, cuius limites ſint a/ & b/ pũcta: ſuper quã oporteat triangulũ æquilaterum cõſtituere: hoc eſt, datam lineam rectam terminatam in latus ipſius coaptare triãguli, & reliqua duo latera, quæ ſint eidem lineæ datæ æqualia, ex ſuperius enarratis principijs inueſtigare. Centro igitur a, interuallo autẽ a/b, deſcribatur circulus b/c/d, per tertium poſtulatum. Et per idem poſtulatum, centro rurſum b, eodémq; interuallo b/a, deſcribatur circulus a/c/e. Cùm igitur circuli b/c/d/ & a/c/e/ in eodem ſint plano, & cómunem habeant ſemidiametrum, nempe datam a/b/ rectam, tranſeátque per conſtructionem vnius circunferentia per centrum alterius: neceſſum eſt, b/c/d/ circunferentiã partim eſſe intra circulum a/c/e, partim verò extra, & è contrario, & propterea ſeſe mutuo interſecare. Sit ergo ſectionũ altera in puncto c, & connectantur tandem rectæ lineæ a/c/ & b/c, per primũ poſtulatũ. Triangulũ eſt itaq; a,b,c, (nõ congruũt enim, neq; in directũ cõſtituũtur ipſæ a/b, b/c, & c/a/ lineæ rectæ: ſed trigonã includũt ſuperficiẽ a/b/c) dico q̃ & æquilaterũ. Quoniã punctum a, centrũ eſt circuli b/c/d: æqualis eſt igitur a/c/ recta, ipſi a/b, per decimãquintã diffinitionẽ. Rurſum, quoniã punctum b, centrũ eſt circuli a/c/e: æqualis eſt, per eandẽ diffinitionẽ b/c/ recta, eidẽ a/b. Duæ igitur a/c, & b/c, eidẽ a/b, ſunt æquales: eapropter & æquales adinuicem, per primam communem ſentẽtiam. Tres itaque lineæ a/b, b/c, c/a, ſunt adinuicem æquales. Igitur ſuper data recta linea terminata a/b, conſtitutũ eſt triangulum æquilaterum a/b/c. Quod facere oportebat.
-
-*[diagram: c, d a b e — two intersecting circles with equilateral triangle]*
+*[diagram: circles with h, f, d, a, b, c, g, e]*
 
 > Cẽtro & interuallo circulum deſcribere.
 
-> Ab õi puncto in õe punctum rectam lineam ducere.
+tertiam communem ſentẽtiam erit æqualis. Atqui monſtratum eſt, quòd & b/c/ eidem b/e/ eſt æqualis. Binæ igitur a/g/ & b/c, eidem b/e/ ſunt æquales: quapropter & æquales adinuicem, per primam communem ſententiam. Ad datum ergo pũctum a/ datæ rectæ lineæ b/c, æqualis recta linea poſita eſt a/g. Quod oportuit feciſſe.
 
-> Circulus eſt figura plana vna linea contenta que circũferentia appellatur ad quam ab vno puncto intra eam ſum medio exiſtente oẽs procedentes linee in ipſius circuli circũferentiam incidentes adinuicem ſunt equales.
+> Que eidem equalia et ad inuicem ſunt equales
 
-> Que eidem equalia et ad inuicem ſunt equalia.
+Πρόβλημα γ, Πρόθεσις γ.
 
-Πρόβλημα β, Πρόθεσις β.
+Δύο δοθεισῶν ευθειῶν ἀνίσων, ἀπὸ τῆς μείζονος, τῇ ἐλάσσονι ἴσην ευθεῖαν ἀφελεῖν.
 
-Πρὸς τῷ δοθέντι σημείῳ τῇ δοθείσῃ ευθείᾳ ἴσην ευθεῖαν θέσθαι.
+## Problema 3, Propoſitio 3.
 
-## Problema 2, Propoſitio 2.
+## DVabus datis rectis lineis inæqualibus, à maiori minori æquã 3 rectam lineam abſcindere.
 
-## 2 AD datum punctũ, datæ rectę lineæ æquam rectã lineã ponere.
+> Ad datum punctum date recte lineæ equam rectam lineam ponere
 
-ORONTIVS. Sit datũ pũctũ a, data verò linea recta b/c: cui expedit, ad ipſum punctum a, æquam rectam lineam ponere. Ducatur itaque recta a/b, per primum poſtulatum: ſuper qua triangulum æquilaterum conſtituatur a/b/d, per primam propoſitionem. Et centro b, interuallo autẽ b/c, circulus deſcribatur c/e/f, per tertium poſtulatum. Atque per ſecũdum poſtulatum, producatur recta b/d/ in
+ORONTIVS. Sint datæ binæ rectæ lineæ inæquales, a/b/ quidẽ maior, minor verò c/d: cui receptũ ſit, ab ipſa maiore a/b, æquã lineam rectã abſcindere. Ad datũ ergo punctum a/ alterum ipſius maioris a/b/ limitem, eidem minori c/d/ ponatur æqualis, per ſecundam propoſitionẽ: ſitq́; a/e. Et centro a, interuallo autem a/e, circulus deſcribatur e/f/g, per tertium poſtulatum. Cùm igitur a/e/ recta ſit æqualis ipſi c/d, ſitq́; c/d minor ipſa a/b, per hypotheſin: erit & a/e/ eadem a/b/ minor. quæ enim ſunt æqualia, eiuſdem ſunt æquè minora, per conuerſam ſeptimæ cómunis ſentẽtiæ. Egredietur ergo a/b/ maior ipſa a/e, circunferẽtiã circuli e/f/g, ad interuallum eiuſdem a/e/ deſcripti, candémq; circunferẽtiam egrediendo ſecabit: ſecet igitur in puncto f. Et quoniã punctũ a, centrum eſt circuli e/f/g: æqualis eſt a/f/ recta ipſi a/e, per decimamquintã diffini-
 
-> Ab õi pũcto in õe puncto [?] rectam lineam ducere.
+*[diagram: e, a f b, g, c d]*
 
 > Cẽtro & interuallo circulum deſcribere
 
-> Super data recta linea terminata triangulum equilaterũ conſtituere.
+> Que eidem ſunt equalia ſunt ad inuicem
+
+tionẽ. Eidẽ porrò a/e, æqualis eſt & recta c/d. Binæ igitur a/f/ & c/d, eidem a/e/ ſunt æquales: & propterea æquales adinuicẽ, per primã cómunem ſentẽtiam. Eſt autẽ & a/f, pars ipſius maioris a/b Duabusergo lineis rectis inæqualibus datis, a/b quidẽ & c/d: à maiori a/b, ſecta eſt a/f/ ipſi c/d/ minori æqualis. Quod oportebat facere.
+
+Θεώρημα α, Πρόθεσις δ.
+
+Εὰν δύο τρίγωνα τὰς δύο πλευρὰς, ταῖς δυσὶ πλευραῖς ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, καὶ τὴν γωνίαν τῇ γωνίᾳ ἴσην ἔχῃ, τὴν ὑπὸ τῶν ἴσων ευθειῶν περιεχομένην, καὶ τὴν βάσιν τῇ βάσει ἴσην ἕξει, καὶ τὸ τρίγωνον τῷ τριγώνῳ ἴσον ἔσται, καὶ αἱ λοιπαὶ γωνίαι ταῖς λοιπαῖς γωνίαις ἴσαι ἔσονται ἑκατέρα ἑκατέρᾳ, ὑφ' ἃς αἱ ἴσαι πλευραὶ ὑποτείνουσι.
+
+> Duæ ſequentes propoſitiones dicta ſunt Elaphuga [?] miſerorum fuga quod ſecus quam nulli aſſequuti ſunt aut rari & precipue quintam.
+
+## Theorema 1, Propoſitio 4.
+
+## SI duo triãgula duo latera duobus lateribus æqualia habuerint 4 alterũ alteri, & angulum angulo æqualem ſub æqualibus rectis

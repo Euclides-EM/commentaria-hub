@@ -1,32 +1,36 @@
-# Page 276
+# Page 277
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
 *Req. à demonſtr.*
 
-raõ..◊ac π ◊cf 2|2 raõ..bc π cg + raõ..dc π ce.
-
-*Prepar.*
-
-3.1 | bcg *eſt* ——,
-hyp. | ∠bcd 2|2 ∠ecg,
-1.ſ.15.1 | dce *eſt* ——,
-2.p.1 | adh & fgh *ſnt* ——.
+◊eg, ◊hf, ◊bd *ſnt ſml.* đe.
 
 (figure)
 
 *Demonſtr.*
 
-20.d.5 | raõ..ac π cf 2|2 raõ..ac π ch + raõ..ch π cf,
-1.6 | ac π ch 2|2 bc π cg, ch π cf 2|2 dc π ce,
-concl. 23.5 | raõ..ac π cf 2|2 raõ..bc π cg + raõ..dc π ce.
+hyp. | ef == bc, & gih == ab,
+15.1 | ∠eig 2|2 ∠hif.
+ſ.14.6 | ◊eg, ◊hf, ◊bd *ſnt equiang.* đe.
+29.1 | △;abc, aei, ihc, adc, agi, ifc *ſnt equiang.* đe.
+4.6 | ae π ei 2|2 ab π bc, ae π ai 2|2 ab π ac,
+4.6 | ai π ag 2|2 ac π ad,
+22.5 | ae π ag 2|2 ab π ad, &c.
+concl. 1.d.6 | ◊eg, ◊bd, ◊hf *ſnt ſml.* đe.
 
-De cette proposition s'ensuit, que si la raison de BC à CG est, par exemple, comme 5 à 2 : & celle de DC à CE, comme 3 à 8, que la raison du parallelogramme AC au parallelogramme CF, sera comme 15 à 16 : Car la raison de 5 à 2 adjoustée auec la raison de 3 à 8, faict la raison de 15 à 16. comme il est euident tant de la regle de l'addition des raisons, que de la raison des extremes de ces trois nombres 15, 6, 16, dont les raisons entremoyennes sont 5 à 2 & 3 à 8.
+PROBL. VII. PROPOS. XXV.
 
-THEOR. XVIII. PROPOS. XXIV.
+Descrire vne figure rectiligne, semblable à vne figure rectiligne donnée, laquelle soit égale à vne autre proposée.
 
-En tout parallelogramme, les parallelogrammes qui sont à l'entour du diametre, sont semblables à leur tout, & entr'eux.
+Notez qu'en cette demonstration & aux suiuantes, ce mot *rectili.* signifie *rectiligne*.
 
 *Hypoth.*
 
-abed *eſt* ◊, ac *eſt diamet.* eg & hf *ſnt* ◊;
+abedc & f *ſnt* D.
+
+*Req. à faire.*
+
+*rectili.* p *ſml. rectili.* abedc, & 2|2 *rectili.* f.
+
+(figure)

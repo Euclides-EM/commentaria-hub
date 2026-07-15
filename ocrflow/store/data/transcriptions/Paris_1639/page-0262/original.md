@@ -1,56 +1,48 @@
-# Page 261
+# Page 262
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
-(figure)
+2.6 | am π mo 2|2 ar π rs,
+conſtr. | ar 2|2 rs,
+14.5 | am 2|2 mo, γ
+concl. d.γ | am, mo, op, pq, qb *ſnt* 2|2 đe.
 
-*Hypoth.*
+PROBL. III. PROPOS. XI.
 
-ab & ac *ſnt* —— D.
-*les parties de* ac *ſnt* ad, de, ec.
-
-*Conſtruction.*
-
-∠bac *eſt arbitr.*
-1.p.1 | bc *eſt* ——,
-31.1 | df == cb, eg == cb,
-ſymp. | af, fg, gb *ſnt les requis.*
-
-*Prepar.*
-
-31.1 | dh == ab.
-
-*Demonſtr.*
-
-1.concl. 2.6 | ad π de 2|2 af π fg,
-2 concl. 2.6 | de π ec 2|2 di π ih,
-34.1 | Ⅱ fg π gb.
-
-SCHOLIE.
-
-Coupper vne ligne droicte finie en tant de parties égales qu'on voudra.
+A deux lignes droictes données, trouuer la troisiesme proportionelle.
 
 (figure)
 
 *Hypoth.*
 
-ab *eſt* —— D.
+ab & bc *ſnt* —— D.
 
-*Req. à faire.*
+*Requis à faire.*
 
-diuiſ..ab en 5 part. 2|2 đe.
+ab π bc 2|2 bc Ⅱ ad π de.
 
 *Conſtr.*
 
-arbitr. | ∠bad 2|2 ∠abh, α
-arbitr. | ar, rs, sv, vn, bz, zx, xt, tl *ſnt* 2|2 đe.
-1 p.1 | lr, ts, xv, zn *ſnt* ——.
-ſymp. | am, mo,
-| op, pq, qb *ſnt* 2|2 đe
+3.1 | abc *eſt* ——.
+| ∠cae *eſt arbitr.*
+3.1 | ad 2|2 bc. α
+1.p.1 | db *eſt* ——,
+31.1 | ce == bd,
+ſymp. | de *eſt le requis.*
 
 *Demonſtr.*
 
-α.27.1 | bh == ad,
-conſtr. | lt 2|2 & == rs,
-33.1 | lr == ts. β
-d.β | lr, ts, xv, zn *ſnt* == đe.
+concl. α.4.6 | ab π bc,
+| ad Ⅱ bc π de.
+
+PROBL. IV. PROPOS. XII.
+
+A trois lignes droictes données, trouuer la quatriesme proportionelle.
+
+*Hypoth.*
+
+a, b, c *ſnt* —— D.
+
+*Req. à faire.*
+
+a π b 2|2 c π gh,

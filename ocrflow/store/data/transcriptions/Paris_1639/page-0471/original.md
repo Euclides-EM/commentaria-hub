@@ -1,33 +1,37 @@
-# Page 470
+# Page 471
 
 # ETYMOLOGIE.
 
-Octaedre vient de *octo*, qui en Grec sign. huict, & *hedra* siege.  t. 1. p. 653.
+Perisciens, sont ceux qui demeurent aux Zones froides, ainsi nommez de *peri*, qui en Grec signifie à l'entour, & *scia* l'ombre.  t. 4. p. 94.
 
-Ordonnées sont lignes paralleles inscriptes dans les sections coniques, chacune desquelles est couppée en deux parties égales par le diametre de la section, & s'appellent ainsi, à cause qu'elles s'entresuiuent suiuant l'ordre de leurs grandeurs.
+Perigée, qui est l'endroit plus proche de la terre de l'orbe ou cercle d'vne planete, vient de *peri*, qui en Grec signifie à l'entour ou proche, & *ge* la terre.  t. 5. p. 471.
 
-Organopoëtique, *science de faire des instruments*, vient de *organon*, qui en Grec signifie instrument, & *poieo* faire.
+Petteia, vient de *peteuo*, qui en Grec signifie ioüer.  t. 5. p. 834.
 
-Optique vient de *optomai*, qui en Grec signifie voir.  t. 5. p. 1.
+Phenomenes, qui vient du Grec, & apparences du Latin, signifient la mesme chose, à sçauoir les choses qui nous paroissent au ciel.
 
-Ouranoscopie, *astronomie*, vient de *ouranos*, qui en Grec signifie le ciel, & *scopeo* obseruer.
+Physiognomie, vient de *physis*, qui en Grec signifie la nature, & *gnomia* cognoissance.
 
-Oxygone vient de *oxys*, qui en Grec signifie aigu, & *gonia* angle.  t. 1. def. 28.
+Planimetrie, en Latin *planum*, signifie vn plan, & en Grec *metron*, vne mesure : d'où vient que la science de mesurer les superficies s'appelle planimetrie.  t. 3. p. 152.
 
-Palissade vient de *palus*, qui en Latin signifie vn pau ou pieu à ficher en terre.
+Ploce, vient de *pleco*, qui en Grec signifie ioindre.  t. 5. p. 834.
 
-Parabole, en Grec signifie comparaison : & parce que la comparaison est bonne aux choses égales, la section conique, les quarrez des moitiez des ordonnées de. laquelle ne sont excedants ny defaillants, s'appelle parabole.  t. 5. p. 690.
+Podomance, vient de *podos*, qui en Grec signifie du pied, & *mantis* diuineur.
 
-Parallaxe, *commutation d'aspect*, vient de *paralatto*, qui en Grec sign. changer.  t. 4. p. 50.
+Polygone, *figure de plusieurs angles*, vient de *poly*, qui en Grec signifie plusieurs, & *gonia* angle.
 
-Parallelogramme vient de *parallelos*, qui en Grec sign. equidistante, & *gramme* ligne.  t. 1. def. 35.
+Polynomie, *de plusieurs noms ou parties*, vient de *poly*, qui en Grec signifie plusieurs, & *onoma* nom.
 
-Parallelipipede vient de *parallelos*, qui en Grec sign. equidistante. & *epipedos* superficie plane.  t. 1. p. 635.
+Porisme, & poristique, *porisma*, en Grec signifie la consequence necessaire qui suit des premices, & *poristices*, d'où vient poristique, signifie vne chose qui se peut obtenir ou trouuer. t. 5. p 801
 
-Paranete, *penultiesme*, vient de *para*, qui en Grec signifie proche, & *nete* la derniere.  t. 5. p. 809.
+Prisme, vient de *prio*, qui en Grec signifie sier.  t. 1. p. 649.
 
-Parapet vient de *para*, qui en Italien signifie parer, & *petto* l'estomac ou poitrine.  t. 3. p. 181.
+Probleme, *question*, en Grec *pro*, signifie deuant, & *ballo* ietter : d'où vient le nom du Probleme, qui signifie vn obstacle, & aussi vne question qu'on prōpose à resoudre.  t. 1. def. 40.
 
-Parodique, en Grec *para*, sign. par, & *hodos* chemin : d'où vient que les quantitez qui s'entresuiuent par vne mutation continuelle de genre en genre, se disent estre en diuers degrez parodiques.  t. 2. p. 5. alg.
+Prototype, *l'original*, vient de *protos*, qui en Grec signifie le premier, & *typos*, impression ou figure, qui se fait en moule.
 
-Perieciens, en Grec *peri* sign. à l'entour, & *oicos* maison : d'où vient que ceux qui demeurent aux deux bouts du diametre d'vn cercle parallele à l'equateur, s'appellent perieciens.  t. 4. p. 94.
+Pyramide, vient de *pyr*, qui en Grec signifie le feu.  t 1. p. 649.
+
+Proslambanomenos, *adiointe*, vient de *proslambano*, qui en Grec sig. adioindre.  t. 5. p. 809.
+
+Prosthapherese, en Grec *prothesis*, signifie l'addition, & *aphairesis* la soustraction : d'où vient que prosthapherese composé de ces

@@ -1,53 +1,50 @@
-# Page 68
+# Page 69
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
+
+*Req. à demonſtrer.*
+
+ca,cd,cb n̄.ſnt 2|2 đe.
+
+*Demonſtr.*
+
+ſuppoſ. | ca,cd,cb ſnt 2|2 đe.
+5.1 | ∠cab 2|2 ∠cba,
+5.1 | ∠cdb 2|2 ∠cba,
+1.a.1 | ∠cab 2|2 ∠cdb,
+*contr. 16. 1.*
+concl. 21.a.1 | ca,cd,cb n̄.ſnt 2|2 đe.
+
+THEOR. X. PROPOS. XVII.
+
+De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
 
 (figure)
-
-*Preparation pour la premiere partie.*
-
-10.1 | ae 2|2 ec,
-1.&2p.1 | bef *eſt* ——,
-3.1 | ef 2|2 be,
-1.p.1 | cf *eſt* ——.
-
-*Demonſtr.*
-
-*aux* △;aeb & cef
-conſtr. | ce 2|2 ea,
-conſtr. | ef 2|2 be,
-15.1 | ∠cef 2|2 ∠bea,
-4.1 | ∠ecf 2|2 ∠eab,
-9.a.1 | ∠ecd 3|2 ∠ecf,
-1.concl. 1.a.e | ∠ecd 2|2 ∠eab.
-
-*Prepar. pour la 2. partie.*
-
-2.p.1 | acg *eſt* ——,
-10.1 | bh 2|2 hc,
-1.&2p.1 | ahi *eſt* ——,
-3.1 | hi 2|2 ah,
-2.p.1 | ci *eſt* ——,
-
-*Demonſtr.*
-
-*aux* △;ahb & chi
-conſtr. | ch 2|2 hb,
-conſtr. | hi 2|2 ha,
-15.1 | ∠chi 2|2 ∠bha,
-4.1 | ∠hci 2|2 hba,
-9.a.1 | ∠bcg 3|2 ∠hci,
-1.a.c | ∠bcg 3|2 ∠cba,
-15.1 | ∠acd 2|2 ∠bcg,
-2.concl. 1.a.d | ∠acd 3|2 ∠cba.
-
-SCHOLIE.
-
-D'vn poinct sur vne mesme ligne droicte, on ne peut mener plus de deux lignes droictes égales entr'elles.
 
 *Hypoth.*
 
-c *eſt* • D.
-ab *eſt* —— D.
+abc *eſt* △.
 
-(figure)
+*Req. à demonſtr.*
+
+∠abc + ∠acb 2|3 2┘,
+∠bac + ∠acb 2|3 2┘.
+∠a + ∠b 2|3 2┘.
+
+*Preparation.*
+
+2.p.1 | bcd *eſt* ——.
+
+*Demonſtr.*
+
+16.1 | ∠b 2|3 ∠acd,
+∠acb *commun. add.*
+4.a.1 | ∠acb + ∠b 2|3 ∠acb + acd
+13.1 | ∠acb + ∠acd 2|2 2┘,
+1.concl. 1.a.c | ∠acb + ∠b 2|3 2┘. α
+2.concl. d.α | ∠acb + ∠a 2|3 2┘,
+3.concl. d.α | ∠a + ∠b 2|3 2┘.
+
+COROLL. I.
+
+De cette proposition s'ensuit, que tout triangle qui a vn angle droict ou obtus, a les autres aigus.

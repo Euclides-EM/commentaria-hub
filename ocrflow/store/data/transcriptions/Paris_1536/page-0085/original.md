@@ -1,25 +1,33 @@
-# 68 GEOMET. ELEMENT.
+# LIBER III. 69
 
-eorum centra: ad eorum centra applicata recta linea & eiecta, in contactum circulorum cadit.
+primum postulatum. Et quoniam punctum f, centrum est circuli a/b/c: æqualis erit f/b/ipsi f/c/, per decimamquintam diffinitionẽ primi. Rursum quoniam g/centrũ est circuli d/b/e: æqualis erit per eandem decimamquintam primi diffinitionem g/b, ipsi g/e. Binæ igitur f/b/& b/g, duabus f/c/& e/g, per secundam communẽ sententiam erunt æquales. Tota porrò f/g, ipsis f/c/& e/g/maior est (nempe c/e/extra circulos incidente particula) Et tota igitur f/g, maior est eisdem f/b/ & b/g. In triangulo itaq; f/b/g, bina latera f/b/ & b/g, erunt minora reliquo f/g: sunt autẽ maiora, per vigesimam primi. quæ simul impossibilia sunt. Igitur à centro f/ad centrum g/adplicata recta linea f/g, transit per contactum b. Si duo igitur circuli: & quæ sequuntur reliqua. Quod demonstrare oportebat.
 
-ORONTIVS.¶Duo enim circuli a/b/c/ & a/d/e, se introrsum adinuicem tangant, in puncto quidem a: sítq; ipsius a/b/c/circuli centrum f, ipsius verò a/d/e/centrum g. Dico quòd ad centra f/g, applicata recta linea, & eiecta: cadit in contactum a. Si enim non ceciderit in punctum a: cadet igitur alibi. Cadat ergo (si possibile sit) vt eiecta versus g, in d/& b/puncta: & connectatur a/g/ recta, per primum postulatum. Triangulum erit igitur a/g/f: & duo propterea latera a/g/& g/f, erunt maiora reliquo a/f, per vigesimam primi. Atqui ipsi a/f, æqualis est f/b (vtraq; enim à cẽtro f, in circunferentiam circuli a/b/c) & a/g/igitur & g/f, maiores sunt eadem f/b. Tollatur f/g, vtrisque inæqualibus cómunis: reliqua igitur a/g, reliqua g/b/maior erit, per quintam communem sententiam. Ipsi porrò a/g, æqualis est g/d (vtraque enim à centro g, in circunferentiã ipsius a/d/e/circuli) & g/d/igitur maior erit ipsa g/b. quæ enim sunt æqualia, eiusdẽ sunt æquè maiora: per sextæ cómunis sententiæ conuersionem. Ipsa porrò g/d, pars est ipsius g/b: pars igitur erit maior toto, contra nonam communem sententiã. Cadit igitur f/g/eiecta, in contactũ a.
+> Idem qui priꝰ ostendẽdi modus ab impossibili.
 
-> Demõstratio ab impossibili
+*[diagram: a d b f c e g]*
 
-*[diagram: a b d g f e c]*
+Θεώρημα ιβ, Πρόθεσις ιγ.
 
-> Alia figurę dispositio.
+ΚΥκλος κύκλου οὐκ ἐφάπτεται κατὰ πλείονα σημεῖα ἢ καθ' ἕν, ἐάν τε ἐντός, ἐάν τε ἐκτὸς ἐφάπτηται.
 
-¶Quòd si g/f/connexa, & eiecta versus f, detur incidere veluti g/f/c, & centrum f/ exterioris circuli a/b/c/extra circulum interiorem a/d/e/constituatur: idem nihilominus subsequetur inconueniens. Connexa enim & eiecta g/f/c/ recta, producatur in directum versus g, ad d/& b/puncta, per primum postulatum. Erunt itaque rursum a/g/& g/f, maiores ipsa f/a, per ipsam vigesimã primi libri propositionem. Eidem porrò f/a, æqualis est f/c, per decimamquintam diffinitionem ipsius primi. Igitur a/g/ & g/f, maiores sunt ipsa f/c. Eidem rursum f/c, æqualis est f/b, per eandem decimãquintã primi libri diffinitionẽ. Et a/g/igitur & g/f, maiores sunt ipsa f/b, per septimæ cómunis sententiæ cõuersionẽ. Auferatur f/g/ vtrisq; inæqualibus cómunis. Reliqua igitur a/g, reliqua g/b, per quintam cómunem sententiam maior erit: & multò igitur maior ipsa g/d, quæ pars est ipsius g/b. In circulo itaq; a/d/e, quæ à centro g/in circũferentiã prodeunt lineæ rectæ g/a, & g/d, non erũt inuicẽ æquales: contra decimãquintam diffinitionẽ primi. Cadit igitur f/g/eiecta, in cõtactũ a. Ergo si bini orbes se introrsum: &c. vt in theoremate. Quod ostendendum fuerat.
+## Theorema 12, Propositio 13.
 
-*[diagram: b a d g e f c]*
+CIrculus circulum non tangit in pluribus punctis vno: & si extra, & si intus tangat.
 
-Θεώρημα ια, Πρόθεσις ιβ.
+ORONTIVS. ¶Tangat in primis circulus a/b/c/d, circulum b/e/d/f, introrsum (si fuerit possibile) in punctis b, d: sítq; ipsius a/b/c/d/ circuli centrum g, circuli autem b/e/d/f, centrum h. Adplicata igitur ex g/ in h/ recta linea, & eiecta: cadet in puncta contactuum b, d, per vndecimam huius secundi libri. Et quoniam g/centrum est circuli a/b/c/d: erit g/b, ipsi g/d, per circuli diffinitionem æqualis. Tollatur g/h, ab ipsa g/d: eadem ergo g/b, reliqua h/d/ maior erit. Rursum quoniam h/ centrum est circuli b/e/d/f: æqualis erit h/b, ipsi h/d, per eandem circuli diffinitionem. Tollatur rursum g/h, ab ipsa h/b: reliqua igitur g/b, minor erit ipsa h/d. Ostensum est autem, quòd & multò maior: quod non est possibile. Non tangit igitur circulus a/b/c/d/circulum b/e/d/f/ introrsum in pluribus pũctis vno. ¶Secet rursum circulus a/b/c, circulum a/c/d/exterius in punctis a/& c/(si id fuerit possibile) & connectatur recta a/c/per primum postulatum. Et quoniã in circunferentia circuli a/b/c, duo sunt accepta puncta a/& c: adplicata igitur recta linea a/c, intra ipsum circulum cadet, per secundam huius: ergo extra circulum a/d/c. Rursum quoniã eadem a/& c/puncta in circunferentia ipsius a/d/c/ circuli coassumpta sunt (vtpote vtrique circulo cómunia) eadem igitur recta a/c, cadet intra circulum a/d/c, per eandem secundam huius: & extra igitur circulum a/b/c. Patuit autem, quòd & intra ipsum a/b/c/circulũ cadit eadem a/c, atque extra ipsum a/d/c/circulum. Cadet igitur intra & extra vtrumq; datorrum circulorum: quod est impossibile. Non tangit ergo circulus a/b/c/circulũ a/d/c/exterius in pluribus pũctis vno. Patuit, q̃ nec introrsum. Quod ostẽdere fuerat operæpretiũ.
 
-ΕΑν δύο κύκλοι ἐφάπτωνται ἀλλήλων ἐκτός, ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη, διὰ τῆς ἐπαφῆς ἐλεύσεται.
+> De circulis se se introrsum tangentibus.
 
-## Theorema 11, Propositio 12.
+*[diagram: a e b g h d f c]*
 
-SI duo circuli sese adinuicem exterius tetigerint: ad centra eorum applicata recta linea, per contactum transibit.
+> De circulis q̃ se tangũt extra.
 
-ORONTIVS.¶Tangãt se exterius bini circuli a/b/c/ & d/b/e, in pũcto quidẽ b: sítq; ipsius a/b/c/circuli centrum f, & ipsius d/b/e/centrum g. Aio quòd connexa f/g/ recta linea, trãsibit per contactum b. Si enim non transierit per punctum b, transeat (si possibile sit) per c/& e/puncta: & cõnectantur b/f/& b/g/rectæ lineæ, per
+*[diagram: a b d c]*
+
+Θεώρημα ιγ, Πρόθεσις ιδ.
+
+ΕΝ κύκλῳ αἱ ἴσαι εὐθεῖαι, ἴσον ἀπέχουσιν ἀπὸ τοῦ κέντρου: καὶ αἱ ἴσον ἀπέχουσαι ἀπὸ τοῦ κέντρου, ἴσαι ἀλλήλαις εἰσίν.
+
+## Theorema 13, Propositio 14.
+
+IN circulo rectæ lineę sunt æquales, quæ æqualiter distãt à cétro:

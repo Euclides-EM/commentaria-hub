@@ -1,31 +1,21 @@
-# Page 30
+# Page 31
 
-# LES ELEMENTS
-
-(figure)
-
-Notez, que pour plus grande briefueté, les Geometres ont de coustume d'exprimer le parallelogramme tant rectangle que non rectangle, par deux lettres seulement, à sçauoir par celles qui sont opposées diametralement : comme celuy-cy se pourra nommer le parallelogramme GM ou HL.
-
-Or les figures quadrilateres sont diuisées en parallelogrammes & trapezes.
-
-Il y a quatre especes de parallelogrammes, à sçauoir le quarré, le rectangle, le rhombe, & le rhomboïde.
-
-Il y a aussi trois especes de trapezes, à sçauoir trapeze isoscele, trapeze scalene, & trapeze irregulier.
-
-Trapeze isoscele est celuy qui a deux costez opposez paralleles, & les deux autres costez égaux entr'eux. mais non paralleles, comme ABED.
-
-hyp. | de == ab,
-hyp. | ad 2|2 be,
-ergo | adeb *eſt trapeze iſoſcele.*
+# D'EVCLIDE, LIV. I.
 
 (figure)
 
-Trapeze scalene est celuy qui a deux costez opposez paralleles, & les deux autres costez inégaux entr'eux, comme DHFK.
+XXXVI.
 
-hyp. | dh == kf,
-hyp. | fh 3|2 kd,
-ergo | kdhe *eſt trapeze ſcalene.*
+Mais quand en vn parallelogramme, on meine vn diametre ou diagonale, & deux lignes droictes paralleles aux costez, coupantes le diametre en vn mesme poinct, en sorte que le parallelogramme soit diuisé par icelles lignes paralleles, en quatre parallelogrammes; les deux par où le diametre ne passe, sont appellez complements : mais les deux autres, par lesquels le diametre passe, sont dits estre à l'entour du diametre.
+
+Les parallelogrammes DG & GB sont complements, mais les parallelogrammes HE & FI sont dits estre à l'entour du diametre.
 
 (figure)
 
-Trapeze irregulier est celuy qui n'a aucuns costez paralleles, comme ABCD.
+XXXVII.
+
+La figure reguliere est, celle qui est equilatere & equiangle.
+
+XXXVIII.
+
+Descrire ou construire vne figure Geometrique, est la representer auec les iustes mesures de toutes ses parties.

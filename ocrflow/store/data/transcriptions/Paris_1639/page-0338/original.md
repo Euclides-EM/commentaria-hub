@@ -1,26 +1,37 @@
-# Page 337
+# Page 338
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-DE LA REGLE DE TROIS, *double ou composée.*
+Que si pour faire la premiere regle de trois on eust pris ces trois nombres cy,
 
-En cette regle il y a tousiours cinq nombres donnez, trois desquels entrent en la premiere regle de trois, & en la seconde les deux nombres restans, & celuy qu'on a trouué par la premiere regle de trois : & ne faut pas diuiser en la premiere regle de trois, craignant qu'il n'arriue fraction, mais suffit de mettre le diuiseur sous le diuidende, & faire la seconde regle de trois selon celle des fractions, directe ou inuerse selon qu'elle sera, le tout comme on peut voir aux exemples suiuants.
+23 *lt.* —— 7 *ans* —— 47 *lt.* —— R. 161/47 *ans*.
 
-*Exemple 1.*
+il eust fallu operer par l'inuerse, qui eust donné 161/4 d'ans, puis faisant la seconde regle de trois selon celle des fractions, ainsi,
 
-Si 23 liures en 7 ans gagnent 9 liures, sçauoir combien gagneront 47 liures en 5 ans ?
+161 *ans* X 9 *lt.* —— 5 *ans* | 2115/161 ou [13 22/161 *lt.*
+47   1 —— 1
 
-De ces cinq nombres donnez, on en prendra trois
+on eust encore trouué 13 22/161 lt.
 
-23 *lt.* —— 7 *ans* —— 9 *lt.* —— 47 *lt.* 5 *ans*. R. 13 22/161.
+La premiere regle de trois se pouuoit encores faire ainsi,
 
-tels qu'on voudra pour faire la premiere regle, directe ou inuerse, selon qu'elle sera. Que si on prend ces trois cy,
+7 *ans* —— 9 *lt.* —— 5 *ans*. R. 45/7 *lt.*
 
-23 *lt.* —— 9 *lt.* —— 47 *lt.* R. 423/23.
+Cette regle, qui est directe, donne 45/7 lt. puis pour faire la seconde regle, on dira, si
 
-elle sera directe, & le quatriesme qu'on trouuera sera 423/23 lt. puis pour faire la seconde regle de trois, selon celle des fractions on dira, si
+23 *lt.* X 45 *lt.* —— 47 *lt.* | 2115/161 ou 13 22/161.
+1   7 —— 1
 
-7 *ans* X 423 *lt.* 5 *ans* R. 2115/161 ou [13 22/161 *lt.*
-1   23 —— 1
+& viendra encore 13 22/161 pour le requis.
 
-& on trouuera 2115/161 ou 13 22/161 lt. qui est le nombre requis.
+*Exemple 2.*
+
+Si 23 liures en 7 ans gagnent 9 liures, sçauoir en combien d'ans 47 liures gagneront 13 22/161 liures ?
+
+Mettant les 13 liures & sa fraction 22/161 en vne fraction, les cinq nombres de cette fraction seront ceux-cy,
+
+23 *lt.* —— 7 *ans* —— 9 *lt.* —— 47 *lt.* — 2115/161 *lt.* R. 5 *ans*.
+
+De ces cinq nombres si on prend pour faire la premiere regle de trois ces trois cy,
+
+23 *lt.* —— 9 *lt.* —— 47 *lt.* R. 423/23 *lt.*

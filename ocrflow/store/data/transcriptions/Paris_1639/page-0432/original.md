@@ -1,19 +1,23 @@
-# Page 431
+# Page 432
 
 # DES FORTIFICATIONS.
 
-2.  En vne bresche faicte en vn angle & extremité de place, l'entrée est égale en estenduë : ou plus grande pour les assaillans que pour les assaillis, à cause que ce qui enferme est plus grand que ce qui est enfermé.
+d'vn angle de 13 degrez pour tirer enuiron deux pieds au dessous des sommets des parapets qu'on veut ruiner.
 
-3.  Vne bresche faite au milieu d'vne ligne droicte est plus difficile à forcer, que sur vn angle saillant, à cause que la forme ne pouuant estre que courbe, rend plus d'estenduë aux assaillis qui en tiennent l'arc, qu'aux assaillants qui n'en ont que la corde.
+10.  Le canon tiré de bas en haut dans vne terrasse fait plus d'effect que de niueau, ou de haut en bas, à cause que ce qui est au dessus l'endroit battu, n'est iamais si bien retenu que le dessous, qui a pour base son fondement ferme & asseuré.
 
-4.  En vn angle rentrant, la bresche est plus difficile à forcer qu'en vn angle saillant, ou au milieu d'vne ligne droicte, pour les mesmes raisons.
+11.  Les batteries qui se croisent font plus d'effect, qu'vne batterie simplement de front.
 
-5.  Les tranchées des assaillans ne doiuent commencer plus pres de la place, que de la portée de l'arquebuse ou du mousquet exclusiuement, à cause de l'offension continuelle de l'arquebuserie, plus dommageable que l'artillerie, laquelle ne se mene pas si facilement.
+12.  Mille coups tirez promptement auec dix canons, font plus de ruine que 1500 tirez auec cinq canons.
 
-6.  Les tranchées doiuent estre conduites en sorte, que de quelque endroict que ce soit de la place assiegée, on ne puisse tirer dedans le long, pour les enfiler d'aucun coup de traict.
+13.  Pour restablir la ruine que fait vn coup de canon bien adressé en vne terrasse, il faut enuiron 50 hottées de terre.
 
-7.  Les tranchées sont plus aisées à conduire, & en moins de temps ; vers les extremitez de la place, qu'au milieu d'vne ligne droicte, ou dans vn angle rentrant, à cause que vers les extremitez elles se peuuent tirer & mener droictes au lieu desiré, sans estre veuës ny endommagées de long ; ce qui ne se peut faire aux autres lieux sans plusieurs tours & détours.
+14.  Vn canon peut estre tiré 100 coups le iour, & ordinairement 80 coups, qui sont enuiron 7 coups par heure.
 
-8.  Vne grande partie de l'artillerie des assaillans doit estre placée en mesme temps qu'on commence les tranchées d'approche, en sorte qu'elle puisse démonter les pieces de dedans, ruiner, ou du moins incommoder, les lieux plus eminents & aduantageux de la place pour fauoriser les approches.
+15.  Vn homme peut de 100 pas porter en vne heure enuiron 30 hottées de terre, & par consequent 12 hommes en vne heure porteront 360 hottées de terre, qui seront suffisantes pour reparer la ruine, que pourront faire les 7 ou 8 coups que tire vn canon en vne heure.  Mais il ne s'ensuit pas que 144 hommes puissent reparer la ruine que pourront faire 12 canons bien placez tirant chacun 1000 coups en 12 iours ; à cause qu'ils ne donneront pas temps aux assaillis pour trauailler sans peril.  Errard estime aussi que 12 canons en 12 iours auec 12000 coups peuuent ruiner vn rampart d'enuiron 12 toises d'espesseur.
 
-9.  Le lieu où sera placée cette premiere artillerie doit estre par nature, ou par art, aucunement esleué, afin que les batteries n'incommodent les tranchées qui seront au deuant.  Cette hauteur est pour la plus part de 4 ou 5 pieds, & aussi quelquefois de 6 pieds : & doit estre d'autant plus esleué, que le canon sera pres du lieu qu'il doit ruiner, à cause que l'on l'esleue ordinairement
+16.  Les retranchemens ne doiuent iamais estre si hauts que les ramparts & terrasses qui seront au deuant, afin que les batteries ne les puissent offenser.
+
+*L'ordre comme marche l'artillerie.*
+
+Il faut premierement que deuant icelle marche le Commissaire general auec son nombre de pionniers, lesquels feront le chemin, esplanaderont les lieux montagneux, rempliront les fossez, tailleront les bois, en sorte qu'il ne puisse arriuer aucun sinistre accident ; en apres suiura le Commissaire de l'artillerie auec vn bon nombre de pionniers, en faisant premierement marcher les plus petits canons & pieces de campagne, puis suiuront les gros, & ce pour deux

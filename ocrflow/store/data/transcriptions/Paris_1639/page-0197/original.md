@@ -1,40 +1,40 @@
-# Page 196
+# Page 197
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. IV.
 
-7.a.1 | ∩ae 2|2 3 *parties du* ⊙,
-6.a.1 | ∩ae + ∩ef 2|2 6 *parties du* ⊙,
-α.3.a.1 | ∩bf 2|2 1 *partie du* ⊙,
-1.concl. conſtr. | 15∠ eibgh *eſt equilateral*,
-2 concl. 27.3 | 15∠ eibga *eſt equiangle.*
+par la 6. 4. & 9. 1. en parties 4. 8. 16. 32. 64. 128. &c.
+par la 15. 4. & 9. 1. en parties 3. 6. 12. 24. 48. &c.
+par la 11. 4. & 9. 1. en parties 5. 10. 20. 40. 80. &c.
+par la 16. 4. & 9. 1. en parties 15. 30. 60. 120. 240. &c.
 
-*Explication par nombres.*
+SCHOLIE II.
+
+Toute figure equilaterale inscrite au cercle est aussi equiangle: mais toute figure equilaterale circonscrite au cercle n'est pas aussi equiangle, si le nombre de ses angles n'est impair.
+
+*Hypoth. 1.*
+
+abcde *eſt equilat.*
+
+*Req. à demonſtr.*
+
+abcde *eſt equiangle.*
 
 (figure)
 
-hyp. | cadp *eſt* ⊙,
-1.c.15.4 | bp 2|2 bc *eſt* √.6∠,
-2.c.15 4 | ap *eſt* √.△ *equilat.*
-12.1. | ckm ⊥ ap *&* gn,
-conſtr. | gn *eſt* √.5∠,
-12.1 | gh ⊥ ap,
-1.p.1 | ag *eſt* ——,
-16.4 | ag *eſt* √.15∠,
+*Demonſtr.*
 
-3.3 | ak 2|2 kp,
-3.3 | gl 2|2 ln,
-hyp. | ab *eſt* 2000,
-1.c.15 4 | cb Ⅱ bp *eſt* 1000,
-47.1 | ap *eſt* 1732,
-7.a.1 | ak *eſt* 866,
-47.1 | ck *eſt* 500,
-11.4 | gn *eſt* 1176,
-7.a.1 | gl *eſt* 588,
-47.1 | cl *eſt* 809,
-3 a.1 | kl Ⅱ gh *eſt* 309,
-3.a.1 | ah *eſt* 278,
-concl. 47.1 | ag *eſt* 415.
+α.28.3 | ∩;ab, bc, cd, de, ea *ſnt* 2|2 đe.
+concl. 27.3 | ∠;abc, bcd, cde, dea, eab *ſnt* 2|2 đe.
 
-SCHOLIE I.
+*Hypoth. 2.*
 
-Les parties égales ausquelles le cercle se peut diuiser geometriquement, sont contenuës aux quatre progressions suiuantes.
+fghi *eſt vn rhomhe*,
+∠fgh 3|2 ∠gfi.
+
+(figure)
+
+*Preparation.*
+
+9.1 | ∠ogh 2|2 ∠ogf,
+9.1 | ∠ohg 2|2 ∠ohi, α
+12.1 | om, ol, on, op *ſnt* ⊥,

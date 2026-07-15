@@ -1,37 +1,39 @@
-# Page 347
+# Page 348
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-6 { 9, a | 6 —— 54
-10, b | 6 —— 60
+semble font 12 liures, & vaudront par consequent chacune 10 sols l'vne portant l'autre.
+
+Que si ledit espicier vouloit que la liure luy reuint à 5 sols l'vne portant l'autre, ordonnant la regle de trois ainsi,
+
+5 *ſ.* —— 1 *lp.* —— 120 *ſ.* R. 24 *lp.*
+
+on trouuera 24 liures, qu'il aura en tout, pour sçauoir combien de liures il aura de chaque sorte, on fera la regle d'alligation ainsi,
+
+5 { 4, a,b —— 1, 9 | 10 *lp.*
+6, a —— 1
+14, b —— 1
 ——
-0, a,b | 3, 4 | 7 —— 0
-—— ——
-19 114
+*Somme* 12 *lp.*
 
-De 9 & 10 i'oste 6, & reste 3 & 4, que ie pose vis à vis du zero ; & la difference du zero à 6 est 6, que ie mets vis à vis de 9 & 10 : puis i'adiouste 3 & 4 ensemble, & trouue 7 pour le zero, qui represente le tare, qui est vne matiere de nulle valeur, estant meslée auec de l'argent. Partant ie conclus, qu'il faut mettre 7 marcs de tare sur 12 marcs d'argent, qui se trouuent en prenant 6 marcs de chaque sorte.
+Maintenant pour auoir 24 liures au lieu de 12 liures, on dira, si
 
-*Exemple 2.*
+12 —— 10 —— 24. R. 20 *lp.*
 
-Vn espicier veut employer deux escus ou 120 ſ. en trois sortes d'espiceries, qui sont à 4 sols, 6 sols, & 14 sols la liure. Pour auoir 12 liures en tout, sçauoir combien il deura prendre de chaque sorte ?
+& viendra 20 liures de la premiere sorte.
 
-Il faut premierement trouuer le prix commun de 12 liures, ordonnant la regle de trois ainsi,
+Pour la seconde & troisiesme sorte, qui ont le mesme nombre, on dira, si
 
-12 *lp.* —— 120 *ſ.* —— 1 *lp.* R. 10 *ſ.*
+12 —— 1 —— 24. R. 2 *lp.*
 
-Ayant ainsi trouué 10 sols pour le prix commun, on fera la regle d'alligation ainsi, laquelle nous donnera 18 liures : mais à cause que nous ne voulons auoir que 12 liures, pour sçauoir combien il en faudra prendre de la premiere & seconde sorte, qui ont le mesme nombre 4, on dira, si
+Partant on conclura qu'afin que la liure reuienne à 5 sols, qu'il en faudra prendre de la premiere sorte 20 liures, de la seconde 2 liures, & de la troisiesme 2 liures, qui ensemble font 24 liures, qui valent l'vne portant l'autre 5 sols la liure.
 
-10 { 4 *ſ.* a | 4 *lp.*
-6 *ſ.* b | 4
-——
-14 *ſ.* a,b | 6, 4 | 10
-——
-*Somme* 18.
+Que si ledit espicier vouloit autant de liures de l'vne que de l'autre, pour sçauoir combien il doit prendre de chaque sorte, on adioustera ensemble tous les prix & viendra 24 sols, puis ordonnant la regle de trois ainsi,
 
-18 —— 4 —— 12. R. 2⅔.
+24 *ſ.* —— 1 *lp.* —— 120 *ſ.* R. 5 *lp.*
 
-Pour sçauoir combien on prendra de la troisiesme sorte, on dira, si
+viendra 5 liures, qu'il faudra prendre de chaque sorte. Puis si on dit,
 
-18 —— 10 —— 12. R. 6⅔.
+15 *lp.* —— 120 *ſ.* —— 1 *lp.* R. 8 *ſ.*
 
-Partant il en faut prendre de la premiere sorte 2⅔ liures, de la seconde, 2⅔ liures : & de la troisiesme, 6⅔ liures : qui adjoustez en-
+on trouuera 8 sols, que vaudra vne chacune des 15 liures qu'on aura, en prenant autant de l'vne que de l'autre.

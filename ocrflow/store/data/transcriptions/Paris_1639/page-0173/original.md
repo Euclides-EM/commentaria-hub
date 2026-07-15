@@ -1,42 +1,37 @@
-# Page 172
+# Page 173
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-COROLL. II.
+COROLL. IV.
 
-Il est manifeste aussi, que si deux lignes droites menées d'vn mesme poinct, touchent le cercle, qu'elles sont égales entr'elles.
-
-*Hypoth.*
-
-ab & ac *touchent le* ⊙.
-
-*Req. à demonſtrer.*
-
-ab 2|2 ac.
-
-(figure)
-
-*Demonſtr.*
-
-36.3 | □.ab 2|2 ▭.eaf,
-36.3 | □.ac 2|2 ▭.eaf,
-1.a.1 | □.ab 2|2 □.ac,
-concl. ſ.46.1 | ab 2|2 ac.
-
-COROLL. III.
-
-Semblablement il est manifeste, que d'vn poinct pris hors le cercle, on peut mener seulement deux lignes droites qui touchent le cercle.
+Il est finalement euident, que si deux lignes droites égales, sont menées de quelconque poinct à la circonference conuexe, & que l'vne d'icelles touche le cercle, l'autre aussi le touchera.
 
 *Hypoth.*
 
-ab & ac *touchent le* ⊙bdc.
+ab 2|2 ac,
+ac *touche le* ⊙bdc.
 
-*Req. à demonſtrer.*
+*Req. à demonſtr.*
 
-ad *ne touche le* ⊙bdc.
+ab *touche le* ⊙bdc.
 
 *Demonſtr.*
 
-ſuppoſ. | ad *touche le* ⊙,
-2.c.36.3 | ab,ad,ac *ſnt* 2|2 đe.
+ſuppoſ. | ad *touche le* ⊙bdc,
+2.c.36.3 | ad 2|2 ac,
+hyp. | ab 2|2 ac,
+3.a.1 | ab,ad,ac *ſnt* 2|2 đe.
 *contr. 8. 3.*
+
+THEOR. XXXI. PROPOS. XXXVII.
+
+Si hors le cercle on prend quelque poinct, & d'iceluy poinct, tombent au cercle deux lignes droictes, vne desquelles couppe le cercle, & l'autre l'atteint: Et que le rectangle contenu sous toute la couppante, & sa partie de dehors, prise entre le poinct & la circonference conuexe, soit égal au quarré de l'atteignante, icelle atteignante touchera le cercle.
+
+*Hypoth.*
+
+ebf *eſt* ⊙,
+▭.adc 2|2 □.db.
+
+*Requis à demonſtr.*
+
+db *touche le* ⊙abf.

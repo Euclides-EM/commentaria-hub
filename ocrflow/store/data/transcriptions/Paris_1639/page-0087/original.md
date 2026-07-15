@@ -1,24 +1,27 @@
-# Page 86
+# Page 87
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-(figure)
+bc *commun.*
+1.concl. 4.1 | ac 2|2 bd,
+4.1 | ∠acb 2|2 ∠cbd,
+2.concl. 27.1 | ac == bd.
 
-Car si de quelconque poinct pris en la figure on mene des lignes droictes à tous les angles, il s'en fera autant de triangles, que ladite figure a de costez ou d'angles, mais les angles de ces triangles, lesquels sont constituez à l'entour du poinct prins au dedans de la figure, n'appartiennent pas aux angles de la figure rectiligne proposée, comme il appert. Parquoy si ces angles là sont ostez, les autres angles des triangles, constituant les angles de la figure proposée, seront égaux à deux fois autant de droicts, ceux qui sont constituez autour du poinct prins au dedans de la figure estant ostez, que la figure a d'angles on de costez. Or tous ces angles là constituez à l'entour de ce poinct prins en la figure, en quelque nombre qu'ils soient, sont égaux à quatre droicts tant seulement, comme nous auons colligé de la 15. proposition. Donc tous les angles, &c.
+THEOR. XXIII. PROPOS. XXXIV.
 
-PROBL. XXIII. PROPOS. XXXIII.
-
-Les lignes droictes qui conioignent deux lignes droictes égales & paralleles, & de mesme part, sont aussi égales & paralleles.
-
-(figure)
+Les costez & les angles opposez des figures ou espaces parallelogrammes, sont égaux entr'eux : & le diametre couppe iceux parallelogrammes en deux également.
 
 *Hypoth.*
 
-ab 2|2 & == cd.
+abdc *eſt* ◊.
 
-*Req. à demonſtrer.*
+*Req. à demonſtr.*
 
-ac 2|2 & == bd.
+ab 2|2 cd,
+ac 2|2 bd,
+∠a 2|2 ∠d.
+∠abd 2|2 ∠acd,
+△abc 2|2 △cbd.
 
 *Preparation.*
 
@@ -26,6 +29,26 @@ ac 2|2 & == bd.
 
 *Demonſtr.*
 
-hyp. | ab == cd,
-29.1 | ∠abc 2|2 ∠bcd,
-hyp. | ab 2|2 cd,
+35.d.1 | ab == cd,
+29.1 | ∠abc 2|2 ∠bcd. α
+35.d.1 | ac == bd,
+29.1 | ∠bca 2|2 ∠cbd. α
+bc *eſt commun.*
+26.1 | ab 2|2 cd,
+26.1 | ac 2|2 bd,
+26.1 | ∠a 2|2 ∠d,
+α.2.a.1 | ∠abd 2|2 ∠acd,
+26.1 | △abc 2|2 △cbd.
+
+SCHOLIE I.
+
+Tout quadrilatere qui a les costez opposez égaux, est parallelogramme.
+
+*Hypoth.*
+
+ab 2|2 cd,
+ac 2|2 bd.
+
+*Req. à demonſtr.*
+
+ad *eſt* ◊.

@@ -1,11 +1,19 @@
-# Page 411
+# Page 412
 
 # DES FORTIFICATIONS.
 
-tome en la page 194, exprimez par les lettres de la figure qui est en la page 192 : & aussi celles qui sont en la page 205 du mesme tome.
+parce que la fortification se doit faire à la Holandoise, adioustant 15 degrez auec 58 1/4 degrez, on aura 73 1/4 degr. pour l'angle flanqué RKS, & pour sa moitié RKG 36 5/8 degrez.  Finalement, si de l'angle nKH, qui a esté trouué de 58 1/4, on oste 36 5/8 degrez pour RKG, restera 21 5/8 degrez pour l'angle diminué HKR : auquel adioustant 90 degrez, viendra 111 5/8 degrez pour l'angle de l'espaule QRK : duquel ostant les 50 degrez de l'angle QRG, restera 61 5/8 pour l'angle GRK : puis adioustant ensemble les deux angles GKR 36 5/8, & GRK 61 5/8, & ostant de 180 degrez leur somme, qui est 98 1/4, restera 81 3/4 pour l'angle KGR.
 
-*Nous auons fait le calcul des angles de la figure irreguliere qui est en la page 216 du 3 tome, estans donnez l'angle ABC de 77 degrez, & BCE de 156 degrez, sans continuer les lignes AB & EC iusques à leur concours m ; mais les ayant continué, ce calcul sera plus intelligible, comme il appert du calcul suiuant des mesmes angles.*
+*Corollaire 1.*
 
-(figure)
+Il est manifeste que les deux angles AFG & FGE sont égaux aux deux angles ABC & BCE : car les complements de ceux-cy, qui sont mBC & mCB, auec l'angle m valent 180 degrez : & les complements de ceux-là, qui sont mFG & mGF, auec le mesme angle m, font aussi 180 degrez.
 
-Soit soustraict vn chacun des angles donnez ABC & BCE de 180 degrez, & restera 103 deg. pour l'angle CBm, & 24 degrez pour l'angle BCm : la somme desquels estant ostée de 180 degrez, restera 53 degrez pour le troisiesme angle m du triangle CBm ; & par consequent les deux autres angles mFG, & mGF du triangle mFG vandront 127 degrez, qui restent ostant 53 degrez de 180 degrez.  Et à cause qu'on veut construire les deux bastions MO & RS sur angles égaux AFG & FGE, l'angle mFG sera égal à l'angle mGF, & vaudront chacun 63 1/2 degrez, qui est la moitié de 127 degrez.  Partant, soustrayant de 180 degrez 63 1/2, restera 116 1/2 degrez pour vn chacun des angles AFG & FGD, & la moitié de 116 1/2 degrez, qui est 58 1/4, sera la quantité de la moitié de l'angle du polygone, à sçauoir de l'angle nGF, ou de son égal nKH, qui vaudra 58 1/4 degrez.  Et
+*Corollaire 2.*
+
+*Il est manifeste aussi, qu'en tout polygone regulier l'angle externe FGm est égal à l'angle du centre FnG.*
+
+Car l'angle externe FGm, auec FGE, qui est l'angle du polygone, fait 180 degrez : & l'angle du centre n, auec le mesme angle du polygone FGE, fait aussi 180 degrez : & par consequent en cette figure l'angle n du centre vaudra 63 1/2, de mesme qu'vn chacun des externes mGF & mFG.
+
+*Estant donnée la quantité de la face d'vn bastion, trouuer les autres lignes, par le moyen des tables des logarithmes.*
+
+Par exemple, soit donné de 48 toises la face du bastion du pentagone precedent fortifié à la Holandoise.

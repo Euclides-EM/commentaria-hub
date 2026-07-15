@@ -1,25 +1,28 @@
-# LIBER I.
+# GEOMET. ELEMENT. LIB. I.
 
-diffinitionem. Ex data igitur linea recta a/b, quadratum descripsimus. Quod oportuit fecisse.
+a/c/quadratis. In rectangulis itaq; triangulis: & quæ sequuntur reliqua, vt in theoremate. Quod expediebat demonstrare. ¶Hoc spectabile & semper admirãdum theorema , Pythagoras in his fertur offendisse numeris, 3, 4, 5: velut ex obiecta potes elicere figura. in qua angulus qui ad b/rectus est: & qualium partium a/b/latus est trium, & b/c/quatuor, talium a/c/rectum subtendens angulum 5/reperitur. Quinquies porrò 5, faciunt 25: ter 3 verò/9, & quater 4/sedecim. atqui 9 & 16/cóficiũt 25.
+
+> Notandum.
+
+*[diagram: a 3 5 b 4 c]*
 
 ## Corollarium.
 
-¶Quæ ab æqualibus igitur lineis rectis quadrata describuntur, æqualia sunt adinuicem: & ediuerso. quæ autem ab inæqualibus fiunt quadrata, sunt inequalia: maius quidem quod à maiore, minus autem quod à minore describitur.
+¶In triangulis itaque rectangulis, duobus lateribus datis, ipsorum adminiculo, deuenire licebit in cognitionem reliqui : per quadratorum nempe tum additionem, tum subductionem adinuicem , & lateris seu radicis eorundem inuestigationem. Quemadmodùm in dimetiendis rerum passim offendes magnitudinibus.
 
-Θεώρημα λγ, Πρόθεσις μζ.
+Θεώρημα λδ, Πρόθεσις μη.
 
-ΕΝ τοῖς ὀρθογωνίοις τριγώνοις, τὸ ἀπὸ τῆς τὴν ὀρθὴν γωνίαν ὑποτεινούσης πλευρᾶς τετράγωνον ἴσον ἐστὶ, τοῖς ἀπὸ τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν πλευρῶν τετραγώνοις.
+ΕΑν τριγώνου τὸ ἀπὸ μιᾶς τῶν πλευρῶν τετράγωνον, ἴσον ᾖ τοῖς ἀπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν τετραγώνοις, ἡ περιεχομένη γωνία ὑπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν ὀρθή ἐστι.
 
-## Theorema 33, Propositio 47.
+## Theorema 34, Propositio 48.
 
-IN rectangulis triangulis, quadratum quod à latere rectum angulum subtendente fit, æquum est quadratis quæ fiunt ex lateribus angulum rectum continentibus.
+SI trianguli quod ab vno laterum quadratum, æquale fuerit eis quæ reliquis trianguli lateribus quadratis: angulus cóprehensus sub reliquis trianguli duobus lateribus, rectus erit.
 
-> Hanc arithmetice muenit 3 lineis Pythagoras. Contenta Inuenta Geometrice ante Pythagoram. Pro Inuentione fertur immolasse 100 boues Dijs Pythagoras. Per numeros maximus rex speculator fuit. *[marginal manuscript note, partly illegible]*
+> Cóuersa precedentis. 47.
 
-ORONTIVS. ¶Sit rectangulum triangulum a/b/c, cuius sub b/a/& a/c/lateribus cótentus angulus, rectus existat. Dico q̃ descriptũ ex b/c/quadratum, ijs quæ ex b/a/& a/c/fiunt quadratis, est æquale. Describãtur ergo quadrata, per quadragesimãsextã propositionẽ: ex b/c/quidem quadratũ b/c/d/e, ex a/b/verò a/b/f/g, & ex ipso a/c/quadratũ a/c/h/k. Deinde per a punctũ, vtriq; b/d/& c/e/parallela ducatur a/l: per trigesimãprimã propositionẽ. Parallelográma igitur erunt b/l/& c/l/ quadrangula. Connectãtur deniq; a/d/& c/f/lineæ rectæ: per primũ postulatum. Et quoniã ad rectam lineã a/b, atq; ad eius punctũ a, duæ rectæ lineæ a/c/ & a/g/nó ad easdem partes ductæ, angulos vtrobiq; rectos efficiunt(recti enim sunt, qui circa punctũ a/ cósistunt anguli)in directũ est igitur a/c/ipsi a/g: & a/b/consequẽter ipsi a/k, per decimãquartã propositionẽ. Parallelæ itaq; sunt b/f/& c/g: similiter & b/k/atq; c/h. Cũ porrò omnes anguli recti sint adinuicẽ æquales, per quartũ postulatum: erit angulus a/b/f, æqualis angulo c/b/d. Communis apponatur angulus a/ b/ c: totus igitur a/b/d, toti f/b/c/ angulo, per secundam cómunẽ sententiam erit æqualis. Rursum, quoniam per trigesimã diffinitionem, æqualis est a/b/ipsi b/f, atque b/c/ipsi b/d: sunt igitur bina latera a/b/& b/d/ trianguli a/b/d, duobus lateribus f/b/& b/c/triãguli f/b/c/ æqualia alterum alteri. & æquales continent angulos a/b/d/& f/b/c. Basis ergo a/d/basi f/c, & triangulũ a/b/d/triangulo f/b/c, per quartã æquatur propositionẽ. Ipsius porrò trianguli a/ b/d, duplum est b/l/parallelográmũ, in eadem basi b/d, atq; in eisdem parallelis a/l/& b/d/constitutum: per quadragesimamprimam propositionem. & per eandem propositionem, a/b/f/g/quadratum, duplum ipsius f/b/c/trianguli : habent enim eandem basin b/f, in eisdémq; consistunt parallelis f/b/& g/c. Quæ autẽ æqualium duplicia sunt, & adinuicẽ sunt æqualia: per sextam cómunem sententiã. Igitur b/l/parallelogrammũ, æquũ est/a/b/f/g/quadrato. Haud dissimili via, ostendetur c/l/parallelogrammũ, æquũ esse a/c/h/k/parallelogrammo siue quadrato. Connexis enim a/e/& b/h/lineis rectis, per primum postulatum: erunt rursum a/c/e/& b/c/h/triãgula adinuicẽ æqualia. Et cùm c/l/parallelográmum duplum sit a/c/e/ trianguli, & quadratum a/c/h/k/ipsius b/c/h/trianguli itidem duplum, per eandem quadragesimãprimam propositionem: concludetur tandem parallelogrammum c/l, æquari quadrato a/c/h/k. Atqui b/l/& c/l/parallelogramma, conficiunt quadratum b/c/d/e, quod fit ex b/c: quadratum ergo b/c/d/e, æquum est a/b/f/g/ & a/c/h/k/ descriptis ex a/b/&
+ORONTIVS. ¶Esto a/b/c/trianguli quod ex b/c/quadratum, æquum eis quæ ex a/b/& a/c/lateribus fiũt quadratis: aio propterea, angulũ b/a/c/fore rectũ. A dato enim puncto a, datæ lineæ a/c, perpendicularis excitetur a/d: per vndecimã propositionẽ. Et per tertiam propositionẽ, ponatur a/d/ipsi a/b/æqualis: connectatúrq; c/d/recta, per primũ postulatũ. Cùm igitur a/b/ipsi a/d/sit æqualis: æquũ est quod ex a/b/quadratum, ei quod fit ex a/d, per corollarium quadragesimæsextæ propositionis. Addatur vtriq;, id quod ex a/c/quadratũ. Quæ ex a/b/igitur & a/c/quadrata, æqualia sunt eis quæ ex a/c/& a/d/quadratis: per secundam communẽ sentẽtiam. Eis autem quæ ex a/c/ & a/d/ quadratis, æquum est quod ex c/d, per antecedentẽ quadragesimamseptimã propositionẽ : angulus enim c/a/d/ rectus est. Quadratis porrò quæ ex a/b/& a/c, æquum est quod ex b/c/quadratum : per hypothesin. Quæ autẽ æqualibus sunt æqualia, ea sunt æqualia adinuicẽ, per primã communẽ sententiam. Quadratum igitur quod ex b/c, æquum est ei quod ex c/d/quadrato. Aequalis est ergo b/c/ipsi c/d: æqualia enim quadrata sunt, quæ ab æqualibus describuntur lineis rectis. Posita est autem a/d/ipsi a/b/æqualis, & a/c/vtriq; cómunis. Bina ergo latera a/b/& a/c/trianguli a/b/c, binis lateribus a/c/& a/d/trianguli a/c/d/sunt alternatim æqualia: basis quoq; b/c, basi c/d/æqualis. Angulus igitur b/a/c, angulo c/a/d, per octauã propositionẽ est æqualis. Est autẽ c/a/d, angulus rectus, per constructionẽ: & b/a/c/ igitur angulus rectus est. Si trianguli itaq; quod ab vno laterum quadratum: &c. vt in theoremate. Quod erat ostendendum.
 
-> Alterius partis demõstratio.
+*[diagram: d a b c]*
 
-> Reliquæ partis ostensio.
-
-*[diagram: g k f a h b c d l e]*
+Primi Libri Geometricorum Elementorum,
+FINIS.

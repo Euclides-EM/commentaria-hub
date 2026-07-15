@@ -1,25 +1,33 @@
-# Page 460
+# Page 461
 
 # ETYMOLOGIE.
 
-les lignes droictes menées des poincts trouuez en l'arc du tropique par ceux de la ligne equinoctiale, seront les lignes horaires requises du quadrant antique : le stile duquel doit estre perpendiculaire au plan du quadrant, de mesme qu'aux quadrants Italiques & Babyloniques.
+*pho*, signifie renuerser, & mettre au rebours, & se prend pour vn changement d'ordre en son contraire.  t. 2, p. 75. alg.
 
-## Etymologie & explication des noms & termes plus obscurs des Mathematiques.
+Antarctique, *opposé à l'arctique*, vient de *anti*, qui en Grec signifie opposé, & *arctos*, vne ourse.  t. 4. p. 7.
 
-ACRONYQVE, en Grec *acros*, signifie sommet ou extremité, & *nyx*, la nuict : d'où vient que les estoilles, durant qu'elles se leuent le soir, ou se couchent le matin, s'appellent acronyques.  tome 4. page 64. & t. 5. p. 482.
+Anteciens, en Grec *anti*, sign. opposé, & *oicos* maison : d'où vient le nom d'anteciens, qui signifie ceux qui sont sous vn mesme meridien, esloignez de l'equateur également vers diuers poles.  t. 4. p. 95.
 
-Ære, *epoche*, vient de *æra*, qui en Latin se prenoit pour vne espece de monnoye de cuiure de peu de valeur, & aussi pour vn nombre ou somme, & maintenant il signifie epoche ou racine du temps.  t. 5. p. 455.
+Antithese, *transposition*, vient de *anti*, qui en Grec sign. opposé, & *thesis*, position.  t. 2. p. 89. alg,
 
-Agoge, *deduction*, vient du verbe Grec *ago*, qui signifie mener & conduire.  t. 5. p. 834.
+Antipodes, en Grec *anti*, sign. opposé, & *podos* du pied, d'où vient le nom d'antipodes, qui signifie estre opposé par le diametre de la terre.  t. 4. p. 95.
 
-Altimetrie, *science de mesurer lignes droictes*, vient de *alti*, qui en Latin signifie hauteur, & de *metron*, qui en Grec signifie vne mesure.  t. 3. p. 114.
+Apocatastase, est vn mot Grec, qui signifie restitution, & se prend pour le temps que mettent plusieurs planetes à retourner à la mesme situation où elles auoient esté auparauant.  t. 5. p. 455.
 
-Amblygone, *obtusangle*, vient de *amblys*, qui en Grec signifie obtus, & de *gonia*, angle.  t. 1. def. 27.
+Apogée, en Grec *apo* signifie *de*, & *ge* la terre : d'où vient apogée, qui sign. l'endroit du ciel plus esloigné de la terre.  t. 5. p. 271.
 
-Amphisciens, en Grec *amphi*, signifie de deux costez, & *scia*, ombre : d'où vient, que ceux qui ont l'ombre meridienne en vne saison de l'année Septentrionale, & en vne autre Meridionale, s'appellent amphisciens.  t. 4. p. 93.
+Aranée, ainsi nommée de *aranea*, qui en Latin sign. vne araigne, & aussi la toile d'araigne, est vne pellicule composée des ciliaires, & de crystalloïdes, qui est la pellicule qui enuironne l'humeur crystalline.  t. 5. p. 5.
 
-Analyse, *resolution*, vient de *analyo*, qui en Grec signifie resoudre.  t. 2. p. 9. de l'algebre.
+Arctique, vient de *arctos*, qui en Grec signifie vne ourse.  t. 4. p. 7.
 
-Anomalie, *irregularité*, en Grec la lettre *a* sign. priuation ou negation, & *homalos*, égal & vniforme : d'où vient le nom d'anomalie, qui sign. ce qui n'est pas égal ny vniforme.  t. 5. p. 474.
+Astrolabe, en Grec *astron* sign. astre, & *labe* vne anse : d'où vient le nom d'astrolabe, qui est vn instrument plat & rond, propre à obseruer les astres.
 
-Anastrophe, *conuersion*, en Grec *anastrepho*, composé de *ana* & de *stre-
+Astrologie, est composé de *astron*, & de *logos*, qui en Grec sign. parole ou discours.  t. 4. p. 3.
+
+Astronomie, est composé de *astron* & de *nomos*, qui en Grec signifie loy ou maniere de faire.  t. 4. p. 2.
+
+Barypicni, *frequence des graues*, vient de *barys*, qui en Grec sign. pesant & graue, & *pycnos*, dru & frequent.  t. 5. p. 823.
+
+Bissexte, en Latin *bis*, sign. deux fois, & *sextum* sixiesme : d'où vient le nom de l'année bissexte, en laquelle le sixiesme des Calendes de Mars, se conte deux fois.  t. 2. p. 142.
+
+Canon, en Grec sign. regle à tirer lignes droictes, & aussi la regle

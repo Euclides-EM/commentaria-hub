@@ -1,15 +1,15 @@
-# Page 447
+# Page 448
 
 # DE LA GNOMONIQVE.
 
-à discretion, & le diuisez en 24 parties égales, commençant à la meridienne CA, & du centre C, sur DN, par les poincts des diuisions du cercle BAG, tirez les lignes droictes CD, CB, &c.  Finalement, si par les poincts D, B, &c. de la ligne DN, on mene BH, IL, &c. paralleles à la meridienne CA, on aura le quadrant requis, qui aura pour meridienne la ligne CA, & pour vnze heures du matin la ligne ZP, &c.
+nuë la construction, comme en la precedente, ayant mené DN perpendiculaire à CTA, on aura le quadrant requis, qui aura PZ pour la ligne de 5 heures, AC pour 6 heures, LI pour 7 heures, &c.
 
-Le stile doit estre de la longueur de TC esleué perpendiculairement au plan du quadrant au poinct T.  Que si on ne met point d'autre stile que la perpendiculaire TC, il faudra qu'vne chacune des lignes MQ, & HR soit esloignée de la ligne du milieu DN d'enuiron du quintuple de la hauteur du stile TC, afin que l'extremité de l'ombre du stile TC, à 5 heures deuant ou apres midy ne sorte hors des paralleles MQ & HR : Mais si au sommet du stile TC on met vne ligne ou verge parallele à la meridienne AC, qui representera le stile oblique parallele à l'axe du monde, il ne sera pas besoin que les lignes MQ, & HR soient tant esloignées de la ligne DN.
+Il faut operer de mesme pour descrire vn quadrant en la face occidentale du meridien.
 
-Propos. 5. pag. 758.
+Propos. 6. pag. 759.
 
-*Estant donnée la hauteur du pole, par exemple, de 48 degrez 40′, descrire vn quadrant en la face orientale du meridien.*
+*Descrire vn quadrant sur vn plan vertical, dont la declinaison Zephyr-Australe soit, par exemple, de 46 degrez.*
 
 (figure)
 
-Ayant tiré XY parallele à l'horizon, & fait l'angle YTC égal à l'éleuation du pole, à sçauoir de 48. d. & 40′, on prendra TC à discretion pour la longueur du stile : puis si on conti-
+Sur le plan proposé ayant tiré DT perpendiculaire à l'horizon, & HF qui la coupe à angles droits en C ; prenez CD de telle grandeur que vous voudrez, pour la longueur du stile perpendiculaire, & faites l'angle CDE égal à la declinaison donnée, à sçauoir de 46 degrez ; puis ayant esleué REA perpendiculaire sur HF, vous ferez EF égale à ED, & l'angle EFA égal à l'esleuation du pole, à sçauoir de 48 deg. 40′, qui vous donnera en la meridienne RA, le poinct A pour le centre du quadrant requis : ce faict, du centre A par le pied du stile C menez la substilaire ACG, & du poinct C esleuez CB égale à CD, & perpendiculaire à AG, puis faites BO perpendiculaire à la ligne AB, & aussi SQ à la ligne AG, & OG égale à OB, & diuisez le cercle GHL, descrit à discretion du centre G, en 24 parties égales, commençant à la ligne GL, qui passe par le poinct R, qui est l'interse-

@@ -1,11 +1,15 @@
-# Page 444
+# Page 445
 
 # DE LA GNOMONIQVE.
 
-meridionale du plan, & l'autre en la face Septẽtrionale, ils montreront l'heure de toute l'année.  Et encore qu'il ne soit necessaire que la longueur du stile de chaque costé excede le quart du diametre AB ; neantmoins afin de pouuoir mettre plus facilement le quadrant en la situation qu'il doit auoir, la longueur du stile de la face meridionale doit auoir mesme proportion à la distance du centre C iusques au bord du quadrant A, que le sinus du complement de la hauteur du pole, au sinus de la hauteur du pole : laquelle proportion se trouuera, ou par le moyen des tables des sinus, ou en faisant vn triangle rectangle, dont l'vn des angles aigus soit égal à l'esleuation du pole, sçauoir celuy qui est opposé à la ligne AC.  Or supposant que le stile CV de la face meridionale soit perpendiculaire au plan du quadrant, & qu'il aye ladite proportion à la meridienne CA perpendiculaire au costé du quadrant qui passe par le poinct A, on trouuera la situation qu'il doit auoir, en mettant ledit costé A, & le sommet du stile V sur vn plan horizontal, en sorte que l'ombre du stile CV tombe sur la mesme ligne horaire, que l'ombre du stile d'vn autre quadrant, qui sera en sa vraye situation.
+(figure)
 
-Propos. 2. pag. 751.
+rez TA égale à CZ : HAR parallele à DN : & les lignes droictes tirées du poinct A aux poincts des diuisions de la ligne equinoctiale DN, seront les lignes horaires du quadrant requis, auquel on donnera telle figure qu'on voudra : icy on luy a donné la forme circulaire AGLT, AT est la ligne de 12 heures, AN de 5 heures d'apres midy, AE de 4 heures, &c.
 
-*Descrire vn quadrant horizontal pour l'esleuation du pole, que nous supposons en cet exemple estre de 48 degrez 40′.*
+Pour auoir son stile, on fera l'angle TAP égal à l'esleuation du pole, à sçauoir de 48 deg. 40′ : & le costé AP, du triangle TAP esleué à angles droicts au plan du quadrant sur AT, sera le stile oblique parallele à l'axe du monde.  Que si on veut que DN soit la ligne equinoctiale, tirant Tε perpendiculaire à AP, & EV à AT, on aura εV pour le stile perpendiculaire.
 
-Sur le plan proposé parallele à l'horizon, descriuez le cercle CKBEF de telle grandeur que voudrez (lequel en ce quadrant & aux suiuants, representera le quadrant equinoctial ou equatorial) & le diuisez en 24 parties égales, commençant à la meridienne AC, que vous coupperez à angles droicts en tels endroits que vous voudrez, par la ligne DN, qui represente l'intersection de l'equateur & de l'horizon, sur laquelle ligne DN vous terminerez toutes les lignes menées du centre C aux poincti des diuisions du cercle KBEF : puis ayant fait l'angle QCZ égal à l'esleuation du pole, à sçauoir de 48 degrez 40′, ou l'angle ACZ égal au complement de l'esleuation du pole, à sçauoir de 41 degrez 20′, vous fe-
+SCHOLIE.
+
+Que si on veut premierement descrire le cercle TLG de la grandeur qu'on veut faire le quadrant, pour auoir le centre C du quadrant equatorial, il faudra faire l'angle TAP égal à l'esleuation du pole, & Tε perpendiculaire sur AP, sera égale au semidiametre TC.
+
+Que si au lieu de diuiser le cercle CKBEF en 24 parties, on le diuise en 48 parties égales, le quadrant AGLT monstrera les heures & demy-heures : Ce qu'il faut aussi entendre aux quadrans suiuants.

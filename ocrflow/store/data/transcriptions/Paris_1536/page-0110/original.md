@@ -1,36 +1,24 @@
-# LIBER IIII.
+# GEOMET. ELEMENT.
 
-93
+94
 
-dimeties c/d. Erit itaq; a/recta linea, aut æqualis ipsi dimietiēti: aut eo minor. Si æqua
-lis: iam coaptata est recta linea c/ d, æqualis ipsi datæ rectæ lineæ a. Quòd si a/recta
+ORONTIVS. ¶Sit datum triangulum a/b/c, datus verò circulus d/e/f, circa quem expediat describere triangulum æquiangulum ipsi a/b/c/triangulo dato. Producatur itaq; in directum ex vtraq; parte latus b/c, in g/& h/ puncta, per secūdum postulatū: sitq́; per primam tertij, ipsius circuli a/b/c/cētrum k, & connectatur d/k/ semidiameter, per primū postulatum. Ad punctum deinde k, datæ rectæ lineæ d/k, ipsi angulo a/b/g/ æqualis angulus constituatur d/k/e, per vigesimamtertiam primi: & per eandem, ad idem punctum k, datæ rectæ lineæ e/k, angulus constituatur e/k/f/ipsi angulo a/c/h/æqualis. A punctis autem d, e, f, ad rectos vtrinq; excitētur anguli d/l, d/m, e/m, e/n, f/n, & f/l, per vndecimam primi: quæ per decimamquartam eiusdem primi, in directum constituentur, atq; per corollarium decimæsextæ tertij, tangent ipsum circulum in punctis d, e, f, conueniéntq́; ad pūcta l, m, n.
 
-*[diagram: a b c e d f]*
+> Quòd l, m, n, sit triangulū.
 
-linea, fuerit minor dimetiente c/d: secetur à maiori c/d, ipsi a/ minori æqualis, per tertiā primi: sitq́; illa c/e. Et centro c, interuallo autē c/e, describatur circulus b/e/f, per tertium postulatū. Secabit igitur circulus b/e/f, datum b/c/d/circulum: sunt enim in eodem plano, & vnius circunferentia partim intra reliquum, partim verò extra. Secet igitur in pūcto b: & per primum postulatum, connectatur recta b/c. Coaptatur itaq; b/c/recta, in dato b/c/d/circulo: cadunt enim extrema b/& c, in ipsius b/c/d/ circuli circunferentiā. Aio quòd æqualis est ipsi a. Quoniam punctum c/centrum est circuli b/e/f: æqualis est igitur b/c/ipsi c/e, per circuli diffinitionem. Eidem porrò c/e, æqualis est a/recta linea, per constructionem. Duæ igitur, a/inquàm, & b/c, eidem c/e/sunt æquales: & proinde æquales adinuicem, per primam communem sententiā. Datæ igitur rectæ lineæ a, æqualis recta linea b/c, in dato circulo b/c/d/ coaptatur. Quod oportebat facere.
+*[diagram: a g b c h l d k f m e n]*
 
-Πρόβλημα β, Πρόθεσις β.
-Εἰς τὸν δοθέντα κύκλον, τῷ δοθέντι τριγώνῳ, ἰσογώνιον τρίγωνον ἐγγράψαι.
+Connexa enim d/e/per primū postulatum, diuidet vtrunq; angulum rectum qui ad d, & qui ad e: efficiétq́; propterea ad easdem partes versus m, interiores angulos m/d/e/ & d/e/m/binis rectis minores. quare per quintum postulatum, conuenient d/m/ & e/m/in punctum m. Et proinde e/n/& f/n, in punctum n: atque d/l/& f/l, ad punctum l. Triangulum erit igitur l/m/n: & circa datum circulum d/e/f, per sextam diffinitionem huius descriptum. Dico, q̄ & a/b/c/triangulo,
 
-## Problema 2, Propositio 2.
+> Quòd triangulum l, m, n, ipsi a, b, c, sit æquiāgulum.
 
-IN dato circulo, dato triangulo, æquiangulum triangulum describere.
+est æquiangulum. Quadrilaterum enim d/m/e/k, cōnexa m/k, in bina triangula diuidetur: & cuiuslibet triāguli tres anguli, binis rectis, per trigesimamsecundam primi, sunt æquales. Et quatuor igitur anguli ipsius quadrilateri d/m/e/k, sunt æquales quatuor rectis. quorum qui ad d/& e, recti sunt per constructionem: reliqui igitur qui ad m/ & k/ puncta consistunt anguli, duobus rectis coæquantur. Eisdem quoq; duobus rectis, æquales sunt per decimamtertiam primi, a/b/g/ & a/b/c/ anguli. Aequales igitur sunt anguli qui ad m/& k/puncta, hoc est d/m/e/& d/k/e, ipsis angulis a/b/g/& a/b/c, per primam communem sententiam. Angulus porrò a/b/g, angulo d/k/e, per constructionem est æqualis: reliquus igitur d/m/e, seu qui ad m/ angulus, reliquo qui sub a/b/c, per tertiam cōmunem sententiā est æqualis. Haud dissimiliter ostendemus angulum qui ad n, æqualem esse angulo a/c/b: atq; reliquū angulum qui ad l, reliquo qui sub b/a/c/tandē coæquari. Aequiangulum est igitur l/m/n/triāgulum, ipsi dato triangulo a/b/c: describitúrq; circa datum circulū d/e/f. Circa datum itaq; circulum, dato triangulo, æquiangulum descriptum est triangulum. Quod faciendum fuerat.
 
-ORONTIVS. ¶Esto datum triangulum a/b/c, cui oporteat describere æquiangulum triangulū, in dato circulo d/e/f. A dato igitur puncto g, dato circulo d/e/f: contingens recta linea ducatur g/d/h, tangens ipsum circulū d/e/f/in puncto d, per decimamseptimam tertij. Et ad datam rectam lineam d/h, datūmq́; in ea punctum
+Πρόβλημα δ, Πρόθεσις δ.
+Εἰς τὸ δοθὲν τρίγωνον κύκλον ἐγγράψαι.
 
-> Constructio figuræ.
+## Problema 4, Propositio 4.
 
-*[diagram: g d h a e f b c]*
+IN dato triangulo, circulum describere.
 
-d, dato angulo rectilineo qui ad b, æqualis angulus rectilineus cōstituatur f/d/h, per vigesimamtertiam primi: & per eandem, angulo qui ad c, æqualis angulus cōstituatur ad idem pūctum d, datæ rectæ lineæ g/d, sitq́; g/d/e: ipsis d/e/& d/f, circulo d/e/f/ coaptatis. cōnectatur demum e/f/ recta, per primū postulatum. Et quoniam circulū d/e/f, tangit quædam recta linea g/d/h, à cōtactu autem d, recta quædam linea d/f/extenditur,
-
-> Ostensio problematis.
-
-circulum dispescēs: angulus igitur qui ad e, in alterno segmēto d/e/f, angulo f/d/h, per trigesimamsecundā tertij est æqualis. Eidē porrò angulo f/d/h, datus est æqualis angulus qui ad b: per primam igitur communem sententiam, angulus qui ad b, æquus est angulo qui ad e. Et proinde angulus qui ad f, ipsi angulo qui ad c/æqualis. Reliquus igitur/angulus qui ad a, reliquo qui ad d, per trigesimamsecūdam primi est æqualis. Aequiangulum est itaq; triangulum d/e/f, ipsi a/b/c/ triangulo: describitúrque in dato circulo d/e/f. In dato igitur circulo, dato triangulo, æquiangulum triangulum describitur. Quod fecisse oportuit.
-
-Πρόβλημα γ, Πρόθεσις γ.
-Περὶ τὸν δοθέντα κύκλον, τῷ δοθέντι τριγώνῳ, ἰσογώνιον τρίγωνον περιγράψαι.
-
-## Problema 3, Propositio 3.
-
-CIrca datum circulum, dato triangulo, æquiangulum triangulum describere.
+ORONTIVS. ¶Esto datum triangulum a/b/c, in quo oporteat circulum describere. Secentur ergo bifariam, per nonam primi, qui sub a/b/c/ & a/c/b/ continentur anguli: rectis quidem lineis b/ d/ & d/ c, in punctum d, per quintum postulatum, tandem conuenientibus. Et à puncto d, in rectas a/b, b/c, & c/a, perpendiculares deducātur d/e, d/f, & d/g, per duodecimam primi. Aio itaq; primùm, d/e, d/f, & d/g, fore inuicem æquales. Triangula enim b/e/d/& d/f/b, habent duos angulos duobus angulis æquales: vtpote, e/b/d/ipsi d/b/f/per cōstructionē, & rectum qui ad e, recto qui ad f, per quartum postulatum. habent insuper vnum latus, vni lateri

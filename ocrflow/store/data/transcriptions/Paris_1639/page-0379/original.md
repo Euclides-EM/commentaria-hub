@@ -1,29 +1,27 @@
-# Page 378
+# Page 379
 
-# GEOMETRIE
+# PRACTIQVE.
+
+*Mesurer vn interualle, comme AB.*
+
+Faisant les deux stations en C & D, il faut obseruer les quantitez des angles ACB, DCB, CDA & ADB, & mesurer la ligne des stations CD, que nous supposons auoir 38 toises, l'angle ACB 55 degrez, DCB 48 degrez, CDA 36 degrez, & ADB 28 degrez. Puis ostant de 180 degrez la somme des deux angles ACD & ADC, restera 41 degrez pour l'angle CAD. Pareillement ostant la somme des angles CDB & DCB de 180 degrez, restera 68 degrez pour l'angle CBD. Maintenant au triangle ACD, ordonnant la regle de trois ainsi,
+
+*Voyez, la premiere des 4 figures suiuantes.*
 
 (figure)
 
-∠ACD   AD   ∠ADC   AC
-37 deg. —— 30 toises —— 63 deg.   R. 44 315/976.
-977946   147712   994994   164760
+∠CAD   CD   ∠CDA   CA
+41 deg. —— 38 toises —— 36 deg.   R. 34 46/1000.
+981694   157978   976922   153206
 
-& viendra pour AC enuiron 44 ⅓ toises.
+on trouuera pour le costé CA 34 toises, & la fraction 58/1259, qui en dixme vaut 46‴ ou 46/1000.
 
-Pour auoir la hauteur BC, on dira, si
+Puis au triangle BCD, ordonnant la regle de trois ainsi, si
 
-∠ABC   AC   ∠BAC   BC
-90 deg. —— 44 ⅓ —— 43 deg.   R. 30 426/1424.
-1000000   164760   983378   148138
+∠CBD   CD   ∠CDB   CB
+68 deg. —— 38 toises —— 64 deg.   R. 36 836/1000.
+996717   157978   995366   156627
 
-& viendra pour la hauteur BC enuiron 30 2/7 toises.
+on trouuera pour CB 36 toises, & la fraction 997/1190, qui en dixme vaut 836‴ ou 836/1000.
 
-En cette regle il ne faut pas chercher d'autre logarithme que 164760 pour 44 ⅓ toises, puis que les 44 ⅓ toises viennent du logarithme 164760.
-
-Pour trouuer la distance AB, on dira, si
-
-∠ABC   AC   ∠ACB   AB
-90 deg.   44 ⅓   47 deg.   R. 32 618/1336.
-1000000   164760   986413   151173
-
-& viendra pour la distance AB enuiron 32 1/2 toises.
+Ayant ainsi trouué pour le costé CA 34046, & pour CB 36836‴

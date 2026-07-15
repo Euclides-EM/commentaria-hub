@@ -1,35 +1,25 @@
-# Page 51
+# Page 52
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-PROBL. III. PROPOS. III.
-
-Deux lignes droictes inégales estans données, oster de la plus grande vne ligne droicte égale à la plus petite.
+autres angles soustendans iceux costez égaux, seront égaux aux autres angles chacun au sien.
 
 (figure)
 
 *Hypoth.*
 
-a & bc *ſnt* —— D.
+*aux* △;abc & def,
+ab 2|2 de,
+ac 2|2 df,
+∠bac 2|2 ∠edf.
 
-*Req. à faire.*
+*Requis à demonſtrer.*
 
-be 2|2 a.
+bc 2|2 ef,
+△abc 2|2 △def,
+∠b 2|2 ∠e,
+∠c 2|2 ∠f.
 
-*Conſtr.*
+*Demonſtration.*
 
-2.1. | bd 2|2 a,
-3.p.1 | bde *eſt* ⊙, α
-ſymp. | be 2|2 a.
-
-*Demonſtr.*
-
-α.15 d.1 | be 2|2 bd,
-conſtr. | a 2|2 bd,
-concl. 1.a.1 | be 2|2 a.
-
-Les lettres Grecques, qui se trouuent aux citations, seruent à citer & remettre en memoire ce qui a esté desia demonstré en la suite de la demonstration ; comme en la premiere ligne de cette demonstration, il y a double citation. Car α nous renuoyant à l'autre α, qui est en la construction, nous monstre que BDE est vn cercle, par la construction : & l'autre partie de la citation, qui est (15. d. 1.) nous donne à cognoistre que BE est égal à BD, par la definition du cercle.
-
-THEOR. I. PROPOS. IV.
-
-Si deux triangles ont deux costez égaux à deux costez, chacun au sien, & l'angle contenu d'iceux costez égaux, égal à l'angle : Ils auront la base égale à la base, & le triangle sera égal au triangle, & les
+Car si on suppose que le poinct A soit mis sur le poinct D, & la ligne AB sur la ligne DE, le poinct B tombera sur le poinct E : Car si suiuant cette supposition, le poinct B ne tomboit sur le poinct E, il seroit manifeste par le 9. ax. du 1. que le costé AB ne seroit pas égal au costé DE, mais par l'hypothese il est égal ; il est donc necessaire que le poinct B tombe sur le poinct E. Par la mesme methode on demonstrera que AC tombera sur DF, & le poinct C sur le poinct F : Car il seroit euident par le 9. ax. du 1. que si AC ne tomboit sur DF, que l'angle A ne seroit égal à l'angle D : & si C ne tomboit en F, le costé AC ne seroit égal au costé DF : ce qu'estant, contre l'hypothese, il est necessaire, que AC tombe sur DF, & le poinct C sur F. Ayant ainsi demonstré que AB & AC conuiennent, & peuuent estre en mesme lieu que DE & DF, il sera manifeste par le 14. ax. du 1. que la base BC conuiendra aussi auec la base EF, & par consequent le triangle ABC conuiendra auec le triangle DEF, & par le 8. ax. du 1. la base BC sera égale à la base EF : & le triangle ABC au triangle DEF : l'angle B à l'angle E : & l'angle C à l'angle F : ce qu'il falloit demonstrer.

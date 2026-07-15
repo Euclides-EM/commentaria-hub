@@ -1,23 +1,21 @@
-# Page 432
+# Page 433
 
 # DES FORTIFICATIONS.
 
-d'vn angle de 13 degrez pour tirer enuiron deux pieds au dessous des sommets des parapets qu'on veut ruiner.
+raisons, dont la premiere est, pour faire preuue du chemin & du passage, descouurant par ce moyen les dangers, mauuais pas & fondriers : la seconde est, afin que s'il suruient quelque alarme, ou accident inopiné, les petits canons soient les plus propres pour les faire auancer, & enuoyer là où sera le danger.  Au fond de chacun lict ou caisse de canon il y aura vn coffret plein de sacs remplis de balles & poudres, afin qu'on puisse tirer quelque coup aux cas inopinez : il faudra que les canonniers prennent bien garde de ne laisser entrer l'eau par la lumiere ou par la bouche du canon.  Quand il se rencontrera quelque mauuais passage, les Commissaires retiendront les pionniers iusques à ce que toute l'artillerie soit passée ; & quand quelque piece s'arrestera, il faudra faire arrester toutes les autres, afin que tous marchent ensemble.
 
-10.  Le canon tiré de bas en haut dans vne terrasse fait plus d'effect que de niueau, ou de haut en bas, à cause que ce qui est au dessus l'endroit battu, n'est iamais si bien retenu que le dessous, qui a pour base son fondement ferme & asseuré.
+Apres l'artillerie suiuront les charrettes de secours, où sont tous les instrumens pour l'vsage d'icelle, comme lanternes, cordages, torches, & toutes sortes d'instruments & outils de charpentiers & ferrons.
 
-11.  Les batteries qui se croisent font plus d'effect, qu'vne batterie simplement de front.
+Apres ces charrettes de secours marcheront les chariots de la poudre, lesquels faut garder d'eau & de feu, & les retirer des harquebusiers.
 
-12.  Mille coups tirez promptement auec dix canons, font plus de ruine que 1500 tirez auec cinq canons.
+Apres les chariots de poudre, suiuront les chariots de balles & de roües, pour monter l'artillerie, & pour secourir celles qui se rompent.
 
-13.  Pour restablir la ruine que fait vn coup de canon bien adressé en vne terrasse, il faut enuiron 50 hottées de terre.
+A la suite d'iceux suiuent ceux qui portent le reste des choses necessaires à l'artillerie, comme gros ais, cordages, & bois, pour faire au besoin eschelles.
 
-14.  Vn canon peut estre tiré 100 coups le iour, & ordinairement 80 coups, qui sont enuiron 7 coups par heure.
+A la queuë de tout cela, il faut qu'il y ait garde, pour empescher que quelque autre sorte de bagages & viuandiers ne s'y meslent.
 
-15.  Vn homme peut de 100 pas porter en vne heure enuiron 30 hottées de terre, & par consequent 12 hommes en vne heure porteront 360 hottées de terre, qui seront suffisantes pour reparer la ruine, que pourront faire les 7 ou 8 coups que tire vn canon en vne heure.  Mais il ne s'ensuit pas que 144 hommes puissent reparer la ruine que pourront faire 12 canons bien placez tirant chacun 1000 coups en 12 iours ; à cause qu'ils ne donneront pas temps aux assaillis pour trauailler sans peril.  Errard estime aussi que 12 canons en 12 iours auec 12000 coups peuuent ruiner vn rampart d'enuiron 12 toises d'espesseur.
+L'ordinaire est de faire marcher l'artillerie auec la bataille, le païs estant large & plain : mais estant estroit, & montagneux, il faudra mettre la plus legere à l'auant-garde, & le reste où l'on coniecturera estre plus de danger.
 
-16.  Les retranchemens ne doiuent iamais estre si hauts que les ramparts & terrasses qui seront au deuant, afin que les batteries ne les puissent offenser.
+*Pour planter l'artillerie.*
 
-*L'ordre comme marche l'artillerie.*
-
-Il faut premierement que deuant icelle marche le Commissaire general auec son nombre de pionniers, lesquels feront le chemin, esplanaderont les lieux montagneux, rempliront les fossez, tailleront les bois, en sorte qu'il ne puisse arriuer aucun sinistre accident ; en apres suiura le Commissaire de l'artillerie auec vn bon nombre de pionniers, en faisant premierement marcher les plus petits canons & pieces de campagne, puis suiuront les gros, & ce pour deux
+Il faut premierement recognoistre la partie la plus foible, pour planter la batterie contre icelle, & choisir le lieu le plus commode

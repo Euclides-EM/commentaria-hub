@@ -1,37 +1,31 @@
-# LIBER VI.
+# GEOMET. ELEMENT.
 
-**139**
+**140**
 
-fient sex,eiusdē productę rationis consequentē exprimētia numerū. Atqui duodecim ad sex, duplam constat obtinere rationem, ex sesqualtera & sesquitertia resultantē. ¶Sint rursum binæ rationes,altera quidem subsesquitertia, vt trium ad quatuor: altera verò dupla,veluti quatuor ad duo. Si compositā ex his volueris obtinere rationem,ducito tria in quatuor, vnum videlicet antecedentium in reliquum: fient duodecim. Postmodùm ipsa consequentia inuicē multiplicato,vtpote quatuor in duo:fient octo.Porrò duodecim ad octo, sesqualterā rationem obseruant,qualem exemplo quarto(denominatorem duplæ, per ipsius subsesquitertiæ denominatorem diuidendo) reperimus. ¶Haud dissimiliter ex sesquiquarta & sesquitertia,veluti quinq̃ ad quatuor,& quatuor ad tria, superbipartiens tertias producetur : quemadmodùm obiecta mōstrat formula. Ex antecedentium nanq̃ multiplicatione,fient viginti:ex multiplicatione verò consequentium,duodecim. continent autē viginti semel duodecim,& duo insuper eorundem tertia. ¶Et proinde non minus facilè colligem⁹,ex quintupla & subdupla ratione, conflari duplam sesqualterā: necnon ex dupla & sesquitertia, duplam superbipartientem tertias resultare. Sed hæc de rationum compositione,siue rationalium quantitatum multiplicatione,sint satis.
+in primis sesquitertia, sub eadē ratione dupla. Postea multiplicato duo in tria,hoc est,antecedēs diuidendæ rationis,in consequēs diuidētis:fiēt sex. Rursum ducito vnū in quatuor,vtpote consequēs ipsius diuidendæ rationis,in diuidentis antecedens: fient quatuor. A ratione igitur quam habent sex ad quatuor,relicta ratio denominanda est:quæ rursum offenditur sesqualtera. ¶Subducamus rursum ad maiorem singulorum respondentiam,à sesqualtera ratione,præfatam rationem sesquiquintam. Propone itaque tibi numeros sub datis rationibus constitutos:vtpote,tria ad duo in sesqualtera , & sex ad quinque in sesquiquinta . Et posita sesquiquinta sub sesqualtera,ducito tria in quinque:fient quindecim . postea multiplicato duo per sex,prouenient duodecim . Habent autem quindecim ad duodecim,rationem sesquiquartam, qualem superius offendimus. Haud aliter,de cæteris quibuscunq̃ inuicem subducendis facito rationibus. & si minus in hoc genere calculi fueris exercitatus, ad caput secundum libri quarti ipsius Arithmeticȩ nostræ cōfugito.
 
-> Secūdū exēplū,de cōpositione superparticularis.
+*[diagram: 2 × 1 Dupla,diuidenda. | 4 × 3 Sesquitertia. | 6——4 Sesqualtera,relicta.]*
 
-*[diagram: Subsesquitertia. 3——4 | Dupla. 4——2 | Sesqualtera ratio. 12——8]*
+> Aliud exēplū
 
-> Tertiū exemplū de cōpositione superpartientis.
+*[diagram: 3 × 2 sesqualtera ratio. | 6 × 5 sesquiquinta. | 15——12 sesquiquarta.]*
 
-*[diagram: Ratio sesquiquarta. 5——4 | sesquitertia. 4——3 | Superbipartiens tertias. 20——12]*
+Θεώρημα α, Πρόθεσις α.
 
-*[diagram: Ratio Quintupla. 5——1 | Subdupla. 2——4 | Dupla sesqualtera. 10——4 || Ratio Dupla. 2——1 | Sesquitertia. 4——3 | Dupla supbiptiēs tertias 8——3]*
+Τὰ τρίγωνα καὶ τὰ παραλληλόγραμμα, τὰ ὑπὸ τὸ αὐτὸ ὕψος ὄντα, πρὸς ἄλληλα ὁξὶμ ὡς αἱ βάσεις.
 
-## Corollarium.
+## Theorema 1, Propositio 1.
 
-¶HINC FIT MANIFESTVM QVOD SI A QVALIBET RAtione composita,vnaquæq̃ componentium subtrahatur : profiliet ipsarum componentium reliqua. Subtrahitur quidem ratio,non omnis indifferenter à qualibet:sed minor tantùm à maiori. Hæc autem rationum disgregatio per diuisionem,sicuti compositio per multiplicationem absoluitur:idq̃ rursum dupliciter.¶In primis enim si compositæ rationis denominatorem,per denominatorem alterius componētium diuiseris:habebis reliquæ rationis denominatorem,siue numeros in relicta ratione cōstitutos. Oportet autē (vbi alterius vel vtriusq̃ rationis denominator,integro & fracto exprimetur numero)ipsa integra ad simile genus denominationis cum propria,vel occurrente fractione reducere:postea numeratorē diuidendæ rationis,per communē multiplicare denominatorem,fiet enim relictæ rationis,numerator . Deinde numeratorem diuidentis , in eundem communem denominatorem ducere, nam eiusdem relictæ rationis prodibit denominator . Quemadmodùm ex secundo libro nostræ deprehendere potes Arithmeticæ. ¶Resumatur in exemplū ratio dupla,ex sesquitertia & sesqualtera resultans: sitq̃ propositam alteram componentium, vtpote sesquitertiam,ab ipsa dupla ratione subducere.Denominator itaq̃ sesquitertiȩ,est vnum & tertium, quę quatuor efficiūt tertia:duo autē,à quibus dupla denominatur ratio, conficiunt tertia sex. Diuide itaq̃ sex tertia,per quatuor tertia,in hunc modū. Duc sex in tria,fient decem & octo:& rursum quatuor per tria multiplicato, fient duodecim. Et quoniam decem & octo continent semel duodecim, & alteram eorundem partem:relicta itaq̃ ratio,sesqualtera est.¶Detur rursum sesqualtera ratio,à qua velis auferre sesquiquintam. Ex vno itaq̃ & dimidio,à quibus sesqualtera denominatur, fiunt tria secūda: ex vno autem & quinto,ipsius sesquiquintæ denominatore , fiunt quinta sex. diuidenda sunt igitur tria secunda, per sex quinta.Duc itaq̃ tria in quinq̃,fient quindecim:postea sex in duo multiplicato,prouenient duodecim. Et quoniam quindecim ad duodecim rationem habent sesquiquartā : idcirco relicta ratio sesquiquarta dicetur. Nam ex sesquiquarta & sesquiquinta ratione, sesqualtera(veluti suprà deduximus)generatur.
+TRiangula & parallelogramma, quæ sub eadem sunt altitudine:ad se inuicem sunt,vt bases.
 
-> De subtractione rationū adinuicē.
+ORONTIVS.¶Sint bina triangula a/b/c/& a/c/d,totidémque parallelogramma e/c/quidem atque c/f, sub eadem altitudine, seu perpendiculari ex a/ vertice in b/d/ basin incidente constituta. Aio triangulum a/b/c/ ad triangulum a/c/d/se habere,veluti basis b/c/ad basin c/d. Cùm enim e/c/ & c/f/ parallelogramma,in eadem sint altitudine:in directum est igitur e/a/ipsi a/f,atque b/c/ipsi c/d,& proinde e/f/ipsi b/d/parallela. Producatur igitur recta b/d/ ex vtraque parte in cōtinuum rectúmq̃,ad g/ & h/puncta:per secundum postulatum.Secetur deinde b/g/ æqualis ipsi b/c,necnon d/l/ & l/h/ipsi c/d/æquales:per tertiam primi.& per primū postulatū,connectantur a/g,a/l,& a/h/lineæ rectæ.Cùm itaq̃ g/b,ipsi b/c/ sit æqualis:erunt triangula a/g/b/& a/b/c/in basibus æqualibus,& in eisdem parallelis e/f/& g/h/constituta,& propterea inuicem æqualia:per trigesimamoctauā primi.& proinde a/c/d,a/d/l/& a/l/h/triangula,æqualia quoq; erunt adinuicem. Quotuplex igitur est g/c/basis,ipsius b/c:totuplex est triāgulū a/g/c,ipsius a/b/c/triāguli.quotuplex rursum est c/h/basis ipsius c/d: totuplex est & a/c/h/triangulum, ipsius trianguli a/c/d.
 
-> Prim⁹ modus
+> Figuræ cōstitutio.
 
-> Primū exemplum.
+> Prima deductio theorematis,de triangulis.
 
-*[diagram: 6/3 × 4/3, 18, 12]*
+*[diagram: e a f / g b c d l h]*
 
-> Secundum exemplum.
+Si basis itaq; g/c,maior est basi c/h: erit a/g/c/triangulum,triangulo a/c/h/proportionaliter maius. Et si g/c/& c/h/bases,fuerint inuicem æquales: erunt a/g/c/& a/c/h/triangula,æqualia quoque adinuicem. Quòd si basis g/c,minor extiterit basi c/h: erit & a/ g/ c/ triangulum, ipso a/c/h/ triangulo æquè itidem minus. Quatuor itaque magnitudinum, duarū inquàm basium b/c/& c/d, totidémq; triangulorū a/b/c/& a/c/d, sumpta sunt æquè multiplicia primæ & tertiæ: necnon secundæ & quartæ, alia vtcunque æquè multiplicia . Et sicut multiplex primæ magnitudinis,ad multiplex secundæ,hoc est,g/c/basis,ad basin c/h: sic multiplex tertiæ, ad multiplex quartæ,vtpote a/g/c/triangulum,ad triangulum a/c/h,se habere præostensum est.Sicut
 
-*[diagram: 3/2 × 6/5, 15, 12]*
-
-¶POTERIS ET IDEM PER NVMEROS IN DATIS RATIOnibus constitutos respondenter absoluere.Dētur enim rursum numeri, sub antecedentibus rationibus cōstituti,vtpote duo ad vnum in dupla,& quatuor ad tria in sesquitertia ratione se habentes:sitque veluti prius,sesquitertia ab ipsa dupla ratione subducēda.  Scribatur
-
-> Alius subtrahendi modus rationes adinuicem.
-
-m.iiij
+*[diagram: g/c. | c/h. | a/g/c. | a/c/h || b/c. | c/d. | a/b/c. | a/c/d.]*

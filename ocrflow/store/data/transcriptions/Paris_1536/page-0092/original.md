@@ -1,37 +1,29 @@
-# LIBER III.
+# GEOMET. ELEMENT.
 
-75
+> 76
 
-est eius qui ad circunferentiam: quando ipsi anguli communem basin eandem circunferentiam habuerint. Quod fuerat ostendendum.
+vigesimamprimam huius tertij:sunt enim in eodem segmẽto b/a/d/c. Angulo rursum a/c/b, æqualis est angulus b/d/a, per eandem vigesimãprimam huius tertij: in eodẽ nanq; segmẽto consistunt a/d/c/b. Totus igitur qui sub a/d/c/cõtinetur angulus, binis angulis b/a/c/& a/c/b (nempe suis partib⁹ integralibus) coæquatur. Adijciatur vtrisq; æqualibus, cómunis angulus a/b/c. duo igitur anguli a/b/c/& c/d/a, tribus angulis b/a/c, a/c/b, & c/b/a, ipsius a/b/c/ trianguli, sunt per secundam communem sententiam æquales. Eisdem porrò tribus angulis eiusdẽ a/b/c/trianguli, duo recti sunt æquales anguli:omnis siquidem triãguli, tres interiores anguli binis sunt rectis æquales, per trigesimamsecundã primi. Qui igitur ex opposito sunt anguli a/b/c, & c/d/a, per primam communem sentẽtiam, sunt æquales duobus rectis. Nec dissimiliter ostẽdemus, quòd anguli b/a/d/& d/c/b, duobus itidem rectis coæquantur. Igitur in circulis quadrilaterorum existentiũ anguli, qui ex opposito:duobus rectis sunt æquales. Quod demonstrare oportebat.
 
-Θεώρημα ιθ, Πρόθεσις κα.
+*[diagram: b c a d]*
 
-Εν κύκλῳ αἱ ἐν τῷ αὐτῷ τμήματι γωνίαι, ἴσαι ἀλλήλαις ἐσίν.
+Θεώρημα κα, Γρόθεσις κγ.
 
-## Theorema 19, Propositio 21.
+Επὶ τῆς ἀυτῆς ἐυθείασ' δύο τμήματα κύκλωρ ὅμοια καὶ ἄνισα, ὀυ συσαθήσονται ἐπὶ τὰ ἀυτὰ μέρη.
 
-IN circulo qui in eodem segmento sunt anguli: sibi inuicem sunt æquales.
+## Theorema 21, Propositio 23.
 
-> De segmento semicirculo maiori.
+SVper eadem recta linea, duæ sectiones circulorum similes, & inæquales non constituentur ad easdem partes.
 
-ORONTIVS. ¶ Sint primùm in segmento semicirculo maiori c/ a/ d/ dati a/b/c/d/circuli: anguli c/a/d/& d/b/c. Dico eosdē angulos c/a/d/& d/b/c, fore adinuicem æquales. Inueniatur enim centrum ipsius a/b/c/d/circuli, per primam huius tertij, sitq́; illud e: & connectantur e/c/& e/d, per primum postulatum. Cùm igitur angulus c/e/d/ad centrum existat circuli, c/a/d/verò angulus ad circunferentiam, habeántq; basin communem eandem circunferentiam c/d: angulus propterea c/e/ d, duplus est, per antecedētem vigesimam propositionem anguli c/a/d. Angulus itaque c/a/ d, dimidius est ipsius anguli c/e/d. Et proinde præfatus angulus c/e/d, duplus est ipsius anguli d/b/c: atq; idem angulus d/b/c, eiusdem c/e/d/anguli dimidius. Quæ autem eiusdem sunt dimidium, ea sunt adinuicem æqualia: per septimam communem sententiā. Aequus est igitur angulus c/a/d, angulo d/b/c.
+ORONTIVS. ¶Super eadem nanque recta linea a/c, binæ & inæquales circulorum sectiones, a/b/c/quidem maior, minor autem a/d/c, ad easdem partes b, d/constituantur. Dico q̃ ipsæ sectiones nó sunt similes, & simul inæquales. Si enim id fuerit possibile: extendatur recta quædam linea a/d/b, quæ secet vtranq; sectionem, maiorem quidem in b, & ipsam minorẽ in d:& connectantur b/c, & c/d/rectæ, per primum postulatũ. Triangulum erit igitur b/c/d: cuius vnum latus b/d, producitur in a. exterior igitur angulus a/d/c, interiore & ex opposito c/b/d/maior est, per decimamsextam primi. Quòd si segmentum a/d/c/, fuerit ipsi a/b/c/simile:æquus erit angulus a/d/c, eidem angulo c/b/d, per vltimam huius tertij diffinitionem. similes nanq; sectiones circuli sunt, quæ angulos æquos suscipiũt. Esset igitur angulus a/d/c, maior angulo c/b/d, atq; eidem æqualis:quod est impossibile. Super eadem itaq; recta linea, duæ sectiones circulorum similes, & inæquales non constituẽtur ad easdem partes. Quod ostendere fuerat operæpretium.
 
-*[diagram: a b c d e]*
+*[diagram: a b d c]*
 
-> De segmento semicirculo minori.
+Θεώρημα κβ, Γρόθεσις κδ.
 
-¶Sint rursum in segmento b/a/d/semicirculo minori, ipsius a/b/c/d/circuli, b/a/d/ & d/ e /b/ anguli. Hos dico fore similiter æquales. Connectatur enim recta a/e, per primum postulatum: sitq́; ipsarum a/d/& b/e/sectio f. Erit igitur a/c/e, segmentum maius: & qui in eodem segmento maiori sunt anguli a/b/ e/ & e/d/a, per primam partem iam demonstratam, adinuicem æquales. Et quoniam trianguli a/b/f, interiores & qui ex opposito sunt anguli a/b/f/& f/a/b, extrinseco b/f/d/coæquantur angulo: necnon & duo anguli e/d/f/ & f/ e/ d/ ipsius e/f/d/trianguli, eidē extrinseco b/f/d/sunt itidē æquales, per trigesimāsecūdam primi. duo igitur anguli a/b/f/& f/a/b, duobus angulis e/d/f/& f/e/d, sunt per primā communem sententiā æquales. A quibus si demantur æquales anguli a/b/f/& e/d/f: reliquus b/a/f, reliquo d/e/f, hoc est, b/a/d/ ipsi d/e/b, per tertiam communem sentētiam erit æqualis. Idem quoque demōstrare licebit in semicirculo. In circulo igitur, qui in eodem segmento sunt anguli, sibi inuicem sunt æquales. Quod receperamus ostendendum.
+Τὰ ἐπὶ ἴσωρ ἐυθειῶρ ὅμοια τμήματα κύκλωρ, ἴσα ἀλλήλοις ἐσίρ
 
-*[diagram: a b c d e f]*
+## Theorema 22, Propositio 24.
 
-Θεώρημα κ, Πρόθεσις κβ.
+SVper æqualibus rectis lineis similes circulorum sectiones constitutæ, sibi inuicem sunt æquales.
 
-Των ἐν τοῖς κύκλοις τετραπλεύρων αἱ ἀπεναντίον γωνίαι, δυσὶν ὀρθαῖς ἴσαι ἐσίν.
-
-## Theorema 20, Propositio 22.
-
-IN circulis quadrilaterorum existentium anguli, qui ex opposito: duobus rectis sunt æquales.
-
-ORONTIVS. ¶Sit in a/b/c/d/ circulo, quadrilaterum a/b/c/d. dico angulos qui ad a/& c, similiter qui ad b/& d/ex opposito cōstituūtur, duobus rectis coæquari. Connectantur enim a/c/& b/d/rectæ, per primùm postulatum. Triangulum est igitur a/b/c. Et quoniam angulo b/a/c, æquus est angulus c/d/b, per antecedentem
-
-g.ij.
+ORONTIVS. ¶Constituantur enim super æqualibus rectis lineis a/b, & c, d, similes circulorum sectiones a/e/b, & c/f/d. Dico q̃ sectio a/e/b, sectioni c/f/d/ est æqualis. Comparatis nanque adinuicem ipsis a/e/b/ & c/f/d/sectionibus, & puncto c/supra punctum a/ collocato, extensaq; recta linea c/d/in directum ipsius a/b:congruet punctum d, ipsi puncto b. quæ enim sunt æqualia, sibimetipsis conueniunt,

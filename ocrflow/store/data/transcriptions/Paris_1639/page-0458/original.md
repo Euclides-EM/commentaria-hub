@@ -1,35 +1,13 @@
-# Page 457
+# Page 458
 
 # DE LA GNOMONIQVE.
 
-| Æquinoct. |  | 12 h. Ital. |  | 24 h. Ital. |  | 6 h. Astron. |  | 24 h. Astron. |  |
-|---|---|---|---|---|---|---|---|---|---|
-| Ital. | Astron. | Ital. | Astron. | Ital. | Astron. | Ital. | Ital. | Ital. | Ital. |
-| 24 | 6 | 24 | 6 | 24 | 12 | 24 | 12 | 24 | 0 |
-| 23 | 5 | 23 | 5 1/2 | 23 | 11 1/2 | 23 | 13 | 23 | 1 |
-| 22 | 4 | 22 | 5 | 22 | 11 | 22 | 14 | 22 | 2 |
-| 21 | 3 | 21 | 4 1/2 | 21 | 10 1/2 | 21 | 15 | 21 | 3 |
-| 20 | 2 | 20 | 4 | 20 | 10 | 20 | 16 | 20 | 4 |
-| 19 | 1 | 19 | 3 1/2 | 19 | 9 1/2 | 19 | 17 | 19 | 5 |
-| 18 | 0 | 18 | 3 | 18 | 9 | 18 | 18 | 18 | 6 |
-| 17 | 11 | 17 | 2 1/2 | 17 | 8 1/2 | 17 | 19 | 17 | 7 |
-| 16 | 10 | 16 | 2 | 16 | 8 | 16 | 20 | 16 | 8 |
-| 15 | 9 | 15 | 1 1/2 | 15 | 7 1/2 | 15 | 21 | 15 | 9 |
-| 14 | 8 | 14 | 1 | 14 | 7 | 14 | 22 | 14 | 10 |
-| 13 | 7 | 13 | 0 1/2 | 13 | 6 1/2 | 13 | 23 | 13 | 11 |
-| 12 | 6 | 12 | 0 | 12 | 6 | 12 | 24 | 12 | 12 |
-| 11 | 5 | 11 | 11 1/2 | 11 | 5 1/2 | 11 | 1 | 11 | 13 |
-| 10 | 4 | 10 | 11 | 10 | 5 | 10 | 2 | 10 | 14 |
-| 9 | 3 | 9 | 10 1/2 | 9 | 4 1/2 | 9 | 3 | 9 | 11 |
-| 8 | 2 | 8 | 10 | 8 | 4 | 8 | 4 | 8 | 16 |
-| 7 | 1 | 7 | 9 1/2 | 7 | 3 1/2 | 7 | 5 | 7 | 17 |
-| 6 | 0 | 6 | 9 | 6 | 3 | 6 | 6 | 6 | 18 |
-| 5 | 11 | 5 | 8 1/2 | 5 | 2 1/2 | 5 | 7 | 5 | 19 |
-| 4 | 10 | 4 | 8 | 4 | 2 | 4 | 8 | 4 | 20 |
-| 3 | 9 | 3 | 7 1/2 | 3 | 1 1/2 | 3 | 9 | 3 | 21 |
-| 2 | 8 | 2 | 7 | 2 | 1 | 2 | 10 | 2 | 22 |
-| 1 | 7 | 1 | 6 1/2 | 1 | 0 1/2 | 1 | 11 | 1 | 23 |
-| Babyl. | Astron. | Babyl. | Astron. | Babyl. | Astron. | Babyl. | Babyl. | Babyl | Babyl. |
-| Æquinoct. |  | 12 h. Babyl. |  | 24 h. Babyl. |  | 6 h. Astren. |  | 24 h. Astron. |  |
+de la 24 heure Italique, & de la 11 1/2 astronomique.  Par la mesme methode on trouuera, que la ligne de la 16 heure Italique doit passer par l'intersection de la ligne equinoctiale & de la 10 heure astronomique : & aussi par l'intersection de la ligne de la 24 heure Italique, & de la 8 heure astronomique : & ainsi continuant on trouuera toutes les lignes horaires Italiques.
 
-nomique : puis ie cherche en la 3 colomne (qui a pour tiltre 24 h. Ital.) les 23 heures Italiques, & trouue vis à vis 11 1/2, qui signifie que la 23 heure Italique doit passer par l'intersection de la ligne
+Pour descrire vn quadrant Babylonique, il faut operer de mesme, en nous seruant des nõbres de la 1 & 3 colomne de la mesme table.
+
+La table precedente est de l'inuention de Maurolicus, & peut seruir à trouuer les lignes horaires des heures Italiques & Babyloniques, qui se peuuent aussi trouuer par celle qui est en la page 705 du 5 tome, en laquelle nous auons mis les heures astronomiques aux lieux de celles qui commencent à midy ou à minuict, afin de retenir par cœur plus facilement les lignes des heures astronomiques, Italiques, & Babyloniques, qui s'entrecoupent en vn mesme poinct : Par consequent la table des heures Babyloniques de la page 708 du 5 tome, que i'ay du depuis osté auec les propositions qui en dependoient, & mis en sa place celle de Maurolicus, estoit inutile, ayant erreur en ses titres, à cause de la transposition de 12 & 24, & aussi de 6 & 24.
+
+Or les 12 lignes de 24 heures astronomiques couppent la ligne equinoctiale en 11 ou 12 poincts, par chacun desquels passe vne ligne horaire Italique, & vne Babylonique : & n'y aura pas beaucoup de difficulté à distinguer les Italiques des Babyloniques, si on considere que des heures qui arriuent durant le iour, l'vnité, qui est la premiere des Babyloniques, finit vne heure apres le leuer du Soleil : & 24, qui est au haut de la mesme colomne, est la derniere Italique finissant auec le iour.  Et suiuant la suite de ces deux commencements, les heures Babyloniques vont en augmentant, & les Italiques en diminuant.
+
+Que si on descrit les heures Italiques & Babyloniques en vn mesme quadrant, celles qui seront differentes de 12 heures s'entrecouperont en vn mesme poinct de la ligne equinoctiale : & celles qui auront le mesme nombre d'heures, comme la 14 heure Italique & la 14 Babylonique, se trouueront en vne mesme ligne droite, à sçauoir l'Italique en vn bout, & la Babylonique en l'autre bout.

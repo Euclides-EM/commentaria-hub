@@ -1,28 +1,18 @@
-# GEOMET. ELEMENT.
+# LIBER IIII.
 
-*[diagram: a b c d e f g]*
+Binæ igitur a/e/ & e/b/trianguli a/e/b, duabus b/e/ & e/c/trianguli b/e/c coæquãtur: & æquos inuicẽ continent angulos, nẽpe rectos qui ad centrũ e. Baſis igitur a/b, baſi b/c, per quartã primi eſt æqualis. Et proinde a/d/ & d/c, tum inuicẽ, tum vtriq; ipſarũ a/b/ & b/c, oſtendentur æquales. Aequilaterum eſt itaq; a/b/c/d/ quadrilaterum. Inſuper, quoniam a/c, dimetiens eſt ipſius dati circuli: vterque propterea angulorũ qui ad b/ & qui ad d, eſt in ſemicirculo, & proinde rectus, per trigeſimamprimã tertij. Et per eandem, qui ad a/ & c/ſunt anguli, itidem recti: dimetiens enim eſt b/d. Rectangulum eſt igitur ipſum a/b/c/d/quadrilaterum. Patuit quòd & æquilaterũ: ergo quadratũ, per trigeſimã ipſius primi diffinitionẽ. In dato igitur circulo a/b/c/d, quadratum deſcribitur. Quod facere oportebat.
 
-iuxta præmiſſam demonſtrationem, colligemus tres rectas lineas f/a, f/b, & f/c, fore inuicem æquales. Quapropter ſi centro f, interuallo autem f/a, vel f/b, aut f/c, circulus per tertiũ deſcribatur poſtulatũ: is per puncta a, b, c, tranſire cogetur. Ipſius itaque circuli circunferentia, tanget vnumquenque angulum ipſius a/b/c/ trianguli: deſcribetúrque propterea circulus ipſe, circa datum triangulum a/b/c, per eandem quartã huius quarti libri diffinitionem. ¶Sed conueniant demum ipſæ d/f/ & e/f/ perpendiculares, extra datum a/b/c/triangulum, vt habet vltima deſcriptionis formula: & connectantur rurſum f/a, f/b, & f/c/lineæ rectæ, per primum poſtulatum. Simili prorſus concludemus oſtenſione, tres rectas lineas f/a, f/b, & f/c, fore rurſum inuicem æquales. habent enim triangula a/d/f/ & f/d/b, duo latera a/d/ & d/f, duobus lateribus f/d/ & d/b/æqualia alterum alteri: & æquos angulos, vtpote rectos qui circa d/continentia. vnde per quartã ipſius primi, baſis a/f,
+Πρόβλημα ξ, Πρόθεσις ξ.
+Περὶ τὸν δοθέντα κύκλον, τετράγωνον περιγράψαι.
 
-> Tertia figurę diſpoſitio.
+## Problema 7, Propoſitio 7.
 
-*[diagram: a b c d e f g]*
+CIrca datum circulum, quadratum deſcribere.
 
-baſi f/b, concludetur æqualis. Et proinde f/c, æqualis eidem f/b. Hinc per primam communem ſententiam f/a, ipſi f/c/æquabitur: tres quoque f/a, f/b, & f/c, tandem conuincentur æquales. Quapropter deſcripto, per tertium poſtulatum, pro centro f, ad ipſius f/a, vel f/b, aut f/c/interuallum circulo: tranſibit ipſius circuli circunferentia, per eadem puncta a, b, c, ad quæ dati trianguli a/b/c/conueniũt latera. Hinc per quartam huius quarti diffinitionem, deſcriptus erit idem circulus, circa datum a/b/c/triangulum. Quod faciendum ſuſceperamus.
+ORONTIVS. ¶Sit datus circulus a/b/c/d: circa quem receptum ſit quadratũ deſcribere. Coextendantur ergo ipſius dati circuli dimetientes a/c/ & b/d, in centro e/ ad rectos ſeſe dirimentes angulos. Et per ipſorum dimetientium extrema puncta a, b, c, d, parallelæ ducãtur, per trigeſimamprimam primi: f/g/quidem & h/k/ipſi b/d, f/k/autem & g/h/ipſi a/c, ad puncta tandem f, g, h, k, inuicẽ(veluti cum ipſis dimetientibus)concurrentes. Quæ autem eidem rectæ lineæ parallelæ: & adinuicem, per trigeſimam ipſius primi, ſunt parallelæ. Parallela eſt igitur f/g/ipſi h/k, & f/k/ ipſi g/h: & proinde quadrilaterum f/g/h/k/parallelogrammum, atq; ſingula in eodem f/g/h/k/cõprehenſa quadrilatera itidẽ parallelográma. Dico ipſum f/g/h/k/ parallelogrammum, fore quadratum: deſcriptúmq; circa datum a/b/c/d/ circulum. Parallelogrammorũ enim locorum latera quæ ex oppoſito, æqualia ſunt adinuicem, per trigeſimamquartã primi. æqualis eſt igitur f/g/ ipſi h/k, & f/k/ ipſi g/h: necnon vtraque f/g/ & h/k/ ipſi b/d, vtraque rurſum f/k/ & g/h/ipſi a/c/æqualis. Porrò a/c/ & b/d, æquales ſunt adinuicem: nempe eiuſdem circuli dimetiẽtes. Quæ autem æqualibus æqualia ſunt, ea quoq; ſunt inuicem æqualia, per primam communem ſententiam. Quatuor igitur f/g, g/h, h/k, & k/f, ſunt adinuicem æquales: & proinde f/g/h/k/parallelogrammum, æquilaterum. Parallelogrammorum rurſum a/b, b/c, c/d, & d/a, qui ex oppoſito ſunt anguli, æquales ſunt adinuicem, per eandem trigeſimamquartam primi: æquales ſunt igitur ſinguli qui ad pũcta f, g, h, k, ſunt anguli, ſingulis qui ad e/ centrum ex oppoſito conſiſtunt angulis. Anguli porrò qui circa e, per cõſtructionẽ recti ſunt: & recti igitur ſunt, qui ad puncta f, g, h, k, continentur. Rectangulum eſt itaque f/g/h/k/parallelogrãmum. Patuit quòd & æquilaterum: eſt igitur quadratum, per trigeſimam ipſius primi diffinitionem. Aio demum, quòd & circa datum circulum a/b/c/d/deſcribitur. In parallelas enim f/g/ & b/d, recta incidens a/e, facit alternos angulos a/e/b/ & e/a/f: ſimiliter & a/e/d/atque e/a/g, inuicem æquales, per vigeſimamnonam primi. Atqui recti ſunt qui ſub a/e/b/ & a/e/d, per conſtructionem: & vterque igitur qui circa a, rectus eſt. Haud aliter oſtendemus, quòd & reliqui circa puncta b, c, d, cõſiſtentes anguli, recti ſunt. Quæ autem à circuli dimetientium extremitatibus, ad rectos ducuntur angulos: ipſum circulum tangunt, per decimæſextæ tertij corollarium. Tangit igitur
 
-## Corollarium.
+*[diagram: a b c d e f g h k]*
 
-¶Ex his, & trigeſimaprima tertij fit manifeſtum, quòd dùm f/centrum circuli cadit intra datum a/b/c/triangulum: angulus qui ad b/recto minor eſt, nempe in ſegmẽto ſemicirculo maiori conſiſtens. Dùm autem cadit in latus b/c: angulus ipſe qui ad b, in ſemicirculo eſt, & proinde rectus. Quãdo verò centrũ ipſum cadit extra datũ triangulum: idem angulus qui ad b/recto maior eſt, vtpote in ſegmento ſemicirculo minori cõſtitutus. Hinc verſa vice ſequitur, quòd in oxygonijs triãgulis circũſcribendi circuli centrũ cadit intra datum triangulum: in rectangulis verò, in medium ſubtenſi lateris: in amblygonijs deniq; triãgulis, extra ipſum triangulũ datum.
+> Quòd deſcriptũ parallelogrammum, ſit quadratum.
 
-Πρόβλημα ς, Πρόθεσις ς.
-Εἰς τὸν δοθέντα κύκλον τετράγωνον ἐγγράψαι.
-
-## Problema 6, Propoſitio 6.
-
-IN dato circulo, quadratum deſcribere.
-
-ORONTIVS. ¶Eſto datus circulus a/b/c/d, cuius centrũ e: in quo quidem circulo oporteat deſcribere quadratum. Coaptentur igitur ipſi a/b/c/d/circulo, dimetientes a/c/ & b/d, ad rectos angulos ſeſe inuicem dirimentes: & coniungantur a/b, b/c, c/d, & d/a/lineæ rectæ, per primũ poſtulatum. Quadrilaterũ erit igitur a/b/c/d: & intra datum circulum, per tertiã huius quarti diffinitionẽ deſcriptum: vnuſquiſq; enim angulus inſcripti quadrilateri, circuli circunferẽtiam tangit. Aio ipſum a/b/c/d/ quadrilaterum, fore quadratum. Nam e/a, e/b, e/c, & e/d/lineæ rectæ, ſunt per circuli diffinitionẽ inuicẽ æquales: ex centro enim in circunferentiã.
-
-*[diagram: a b c d e]*
-
-> Potiſſima demõſtrationis pars.
+> Quòd ipſum quadratũ, circulo circũſcribatur.

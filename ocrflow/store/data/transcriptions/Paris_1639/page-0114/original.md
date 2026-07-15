@@ -1,38 +1,43 @@
-# Page 113
+# Page 114
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-THEOR. VI. PROPOS. VI.
+SCHOL. I.
 
-Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adjouste quelque ligne droicte directement, le rectangle contenu sous la toute auec l'adjoustée, & l'adjoustée, auec le quarré de la moitié, est égal au quatré descrit de la ligne composée de la moitié, & de l'adjoustée comme d'vne.
+*Cette 6. propoſition ſe peut außi propoſer ainſi.*
+
+Si vne ligne droicte est couppée en deux parties inégales, le rectangle contenu sous la toute & la difference des parties, auec le quarré de la moindre partie, est égal au quarré de la plus grande partie.
+
+*Hypoth.*
+
+ad *eſt* ——: cd *eſt* 3|2 ac:
+cb *eſt* 2|2 ac: bd *eſt excez.*
+
+(figure)
+
+D'où il appert, que AI est le rectangle contenu sous la toute AD & BD qui est la difference des parties AC & CD : que KG est le quarré de la moindre partie AC, ou de son égale CB : & que CE est le quarré de la plus grande partie CD : & par consequent ce scholie ne differe de la 6. proposition que de nom : & se pouuoit aussi demonstrer ainsi.
 
 (figure)
 
 *Hypoth.*
 
-ac 2|2 cb, α
-abd *eſt* ——,
+fd *eſt* ——,
+fc 2|2 cd. α
+fa *eſt arbitr.*
 
 *Req. à demonſtr.*
 
-▭.adb / + □.cb 2|2 □cd.
+▭.daf + □.cd 2|2 □.ca.
 
-*Prepar.*
+*Preparation.*
 
-46.1 | ce *eſt* □.cd,
-1.p.1 | fd *eſt diamet.*
-31.1 | bg == cf Ⅱ de,
-31.1 | al == cf, lhi == ad.
+3.p.1 | caeb *eſt ſemic.* β
+11.1 | de ⊥ ab. γ
+1.p.1 | ce *eſt* ——.
 
 *Demonſtr.*
 
-conſtr. | ce *eſt* □.cd,
-1.c.4.2 | kg & bi *ſnt* □;
-43.1 | ▭he 2|2 ▭ch,
-α.36.1 | ▭ak 2|2 ▭ch,
-1.a.1 | ▭he 2|2 ▭ak,
-▭ci *commun. add.*
-2.a.1 | *gnom.* kdg 2|2 ▭.ai. α
-19.a.1 | □ce 2|2 *gnom.* kdg, / + □kg,
-2.a.f | □ce 2|2 ▭ai / + kg □.cb.
-concl. 1.a.g | □.cd 2|2 ▭.adb + □.cb.
+αβ.3.a.1 | db 2|2 fa,
+γ.47.1 | □.de + □dc 2|2 □.ce,
+ſ.5.2 | □.de 2|2 ▭.adb Ⅱ daf,
+conel. 1.a.f | ▭.daf / + □.cd 2|2 □.ce Ⅱ □.ca

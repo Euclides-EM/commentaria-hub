@@ -1,50 +1,50 @@
-# Page 69
+# Page 70
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-*Req. à demonſtrer.*
+COROLL. II.
 
-ca,cd,cb n̄.ſnt 2|2 đe.
-
-*Demonſtr.*
-
-ſuppoſ. | ca,cd,cb ſnt 2|2 đe.
-5.1 | ∠cab 2|2 ∠cba,
-5.1 | ∠cdb 2|2 ∠cba,
-1.a.1 | ∠cab 2|2 ∠cdb,
-*contr. 16. 1.*
-concl. 21.a.1 | ca,cd,cb n̄.ſnt 2|2 đe.
-
-THEOR. X. PROPOS. XVII.
-
-De tout triangle, deux angles, sont plus petits que deux droicts, de quelque façon qu'ils soient prins.
+Il s'ensuit aussi que si vne ligne droicte fait deux angles inégaux auec vne autre ligne droicte, l'vn obtus & l'autre aigu, que la ligne perpendiculaire tirée de quelconque poinct d'icelle sur cette autre ligne, tombera de la part de l'angle aigu.
 
 (figure)
 
 *Hypoth.*
 
-abc *eſt* △.
+∠aed 2|3 ┘,
+a *eſt* • en ae.
 
 *Req. à demonſtr.*
 
-∠abc + ∠acb 2|3 2┘,
-∠bac + ∠acb 2|3 2┘.
-∠a + ∠b 2|3 2┘.
-
-*Preparation.*
-
-2.p.1 | bcd *eſt* ——.
+ac n̄.eſt ⊥ cd.
 
 *Demonſtr.*
 
-16.1 | ∠b 2|3 ∠acd,
-∠acb *commun. add.*
-4.a.1 | ∠acb + ∠b 2|3 ∠acb + acd
-13.1 | ∠acb + ∠acd 2|2 2┘,
-1.concl. 1.a.c | ∠acb + ∠b 2|3 2┘. α
-2.concl. d.α | ∠acb + ∠a 2|3 2┘,
-3.concl. d.α | ∠a + ∠b 2|3 2┘.
+ſuppoſ. | ac ⊥ cd,
+10.d.1 | ∠ace *eſt* ┘,
+hyp. | ∠aec 3|2 ┘,
+4.a.b | ∠ace, + ∠aec 3|2 2┘,
+*contr. 17. 1.*
 
-COROLL. I.
+COROLL. III.
 
-De cette proposition s'ensuit, que tout triangle qui a vn angle droict ou obtus, a les autres aigus.
+Semblablement il est manifeste de cette proposition, que tous les angles d'vn triangle equilateral, & deux angles sur la base d'vn triangle isoscele, sont aigus.
+
+THEOR. XI. PROPOS. XVIII.
+
+De tout triangle, le plus grand costé soustient le plus grand angle.
+
+(figure)
+
+*Hypoth.*
+
+abc *eſt* △,
+ac 3|2 ab.
+
+*Req. à demonſtr.*
+
+∠abc 3|2 ∠acb.
+
+*Preparation.*
+
+3.1 | ad 2|2 ab,
+1.p.1 | bd *eſt* ——.

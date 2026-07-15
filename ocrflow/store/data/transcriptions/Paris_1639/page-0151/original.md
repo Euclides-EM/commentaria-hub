@@ -1,36 +1,13 @@
-# Page 150
+# Page 151
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-(figure)
+SCHOLIE II.
 
-∠iad 2|3 ∠ead.
+Il est manifeste aussi, que l'espace IAD, compris entre la touchante AD, & la circonference AI, est si estroit pres du poinct d'attouchement A, qu'il n'est pas assez large pour y mettre vne ligne droite qui se termine audit poinct d'attouchement A, encore que la ligne droicte qu'on y veut mettre n'aye aucune grosseur. Car si du centre B on abbaisse vne perpendiculaire sur la ligne droicte, qu'on imagine en cet espace IAD, on demonstrera qu'icelle perpendiculaire est plus petite que le demi-diametre BA, par la mesme methode qu'a esté prouué, que la perpendiculaire BE est plus petite, que le mesme demy-diametre BA: & par consequent, vne partie de la ligne que nous imaginons en l'espace IAD, sera dans le cercle, à sçauoir celle où tombe la perpendiculaire menée du centre B sur icelle. Or la raison pourquoy l'espace IAD n'est pas capable de receuoir la grosseur d'vne ligne droicte est, que les quantitez indiuisibles, comme sont les lignes considerées selon leurs grosseurs, ne se peuuent mettre si pres l'vne de l'autre, qu'il n'y aye espace entre deux, si elles n'occupent le mesme lieu: & que l'espace compris entre la touchante AD & la circonferéce AIL, pres du poinct d'attouchement A, est plus estroit que le moindre espace compris entre deux lignes droictes. Mais Pelletier, ne pouuant conceuoir qu'il y aye aucune quantité plus petite, que le moindre espace compris entre deux lignes droictes, a dit, que l'angle d'attouchement IAD n'à aucune quantité, & par consequent, l'angle du demy-cercle HAI, n'est pas moindre que l'angle droict HAD.
 
-*Preparation.*
+Ces choses admirables qui se trouuent en cette proposition, m'ont donné subiect d'adjouster les trois scholies suiuants, qui ne sont gueres moins admirables.
 
-arbitr. | •f *eſt en* ac,
-1.p.1 | bf *eſt* ——,
-12.1 | be ⊥ al.
+SCHOL. III.
 
-*Demonſtr.*
-
-hyp. | ∠baf *eſt* ┘,
-1.c.17.1 | ∠bfa 2|3 ┘,
-19.1 | bf 3|2 ba Ⅱ bg,
-c.15.d.1 | •f *eſt hors le* ⊙,
-1.concl. ergo | ac *eſt hors le* ⊙,
-hyp. | ∠bae 2|3 ┘,
-conſtr. | ∠aeb *eſt* ┘,
-19.1 | be 2|3 ba,
-c.15.d.1 | e *eſt dans le* ⊙,
-2 concl. ergo | al *n'eſt pas hors le* ⊙,
-3.concl. 9.a.1 | ∠bai 3|2 ∠bae,
-4 concl. 9.a.1. | ∠iad 2|3 ∠ead.
-
-COROLL.
-
-Il est d'icy manifeste, que la ligne droicte tirée de l'extremité du diametre à angles droicts, touche le cercle. Car il a esté demonstré qu'elle tombe dehors le cercle. Partant elle atteint le cercle à ce poinct extréme du diametre seulement.
-
-SCHOLIE I.
-
-De cette demonstration est manifeste, que si le diametre AH demeurant immobile, on augmente l'angle rectiligne HAL, par le mouuement de la ligne AL à l'entour du poinct A, iusques à ce qu'il soit deuenu droict ou obtus, il excedera l'angle du demi-cercle HAI, sans auoir esté égal à iceluy: ce qu'il seroit impossible, si l'angle du demi-cercle, & l'angle rectiligne estoient de mesme espece.
+Il est possible d'augmenter eternellement vn angle aigu, sans qu'il paruienne à la grandeur d'vn angle droict.

@@ -1,17 +1,15 @@
-# Page 350
+# Page 351
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-s'il n'est point, on mettra au premier lieu de la regle de trois le nombre trouué par le discours de la question : au second lieu le nombre supposé : & au troisiesme, le nombre donné : ayant ainsi ordonné les nombres, le quatriesme proportionel sera le nombre requis.
+par 3, 4, & 5, tels que sont 60 & 120 : & parce que l'operation se faict plus facilement auec les plus petits, ie suppose que 60 soit le nombre requis, lequel ie diuise par 3, 4, & 5, & les quotiens sont 20, 15, & 12, que i'adiouste ensemble & trouue 47, qui n'est pas le nombre donné 4700 : partant pour auoir le requis ie dis, si 47 vient de la supposition de 60, de quelle supposition viendra 4700, & faisant la regle de trois ie trouue 6000, qui est le nombre requis pour lequel i'auois supposé. Car si on diuise 6000 par 3, 4, & 5, les quotiens seront 2000, 1500, & 1200, qui adioustez ensemble font 4700.
 
-*Exemple 1.*
+*Exemple 3.*
 
-Trois hommes veulent acheter vne maison pour le prix de 2700 liures, à telle condition que le secõd donnera deux fois autant que le premier, & le troisiesme trois fois autant que le second : sçauoir combien doit donner chacun ?
+Vn homme mourant & laissant sa femme grosse, luy donne par testament, si elle accouche d'vne fille, les ⅔ de son bien, qui valoit 1400 liures, & à la fille ⅓ : & si elle accouche d'vn fils, il veut que le fils aye les ⅔ & la mere ⅓ : mais elle a accouché d'vn fils & d'vne fille, sçauoir combien appartient à chacun selon le vouloir du testateur.
 
-Il faut supposer, pour la somme que doit donner le premier, tel nombre qu'on voudra, par exemple, 10 liures, puis suiuant cette supposition, il faut raisonner & trouuer combien vn chacun des deux autres doit donner, & on trouuera que le second, qui doit donner deux fois autant que le premier, donnera 20, qui est le double de 10 que donne le premier, & le troisiesme par consequent, qui doit donner le triple du second, donnera 60, qui est triple de 20, que donne le second : & ces trois nombres 10, 20, 60, adioustez ensemble font 90, qui n'est pas le nombre donné 2700 : partant ordonnant la regle de trois ainsi, si 90 viennent de 10, de quel nombre viendront 2700, on trouuera 300, qui est le nombre des liures que deura donner le premier, pour lequel a esté faict la supposition ; & par consequent, le second donnera 600, & le troisiesme 1800 : la preuue est que les trois nombres trouuez 300, 600, & 1800 adioustez ensemble font 2700, qui est le nombre donné.
+Si on suppose 2 liures pour la fille, la mere en aura 4, & le fils 8, qui ensemble feront 14 liures : Partant on dira, si 14 vient de la supposition de 2, de quelle supposition viendra 1400 liures ; faisant la regle de trois on trouuera 200 liures pour la fille, & par consequent la mere en aura 400, & le fils 800, qui ensemble font 1400 liures.
 
-*Exemple 2.*
+*Exemple 4.*
 
-Trouuer vn nombre, lequel estant diuisé par 3, par 4 & par 5, donne trois quotiens, dont la somme ou addition soit 4700 ?
-
-Pour éuiter les fractions, il faut supposer, pour le nombre incognu ou requis, quelque nombre qui se puisse diuiser sans fraction
+Vn homme voulant faire moudre 200 boisseaux de bled va à vn meusnier qui a quatre moulins, le premier desquels peut moudre en vne heure 2 boisseaux : le second, en 2 heures 3 boisseaux : le troisiesme, en 3 heures 4 boisseaux ; & le quatriesme, en 5 heures 6 boisseaux : sçauoir en combien de temps il les pourra faire moudre en les distribuant à tous les moulins, & combien il faudra donner à chaque moulin ?

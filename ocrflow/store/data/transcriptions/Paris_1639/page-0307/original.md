@@ -1,37 +1,54 @@
-# Page 306
+# Page 307
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-diuiser par 20 pour les reduire en liures, & ce faisant on aura pour 6480 deniers 540 sols, qui valent 27 liures.
+*De la ſouſtraction.*
 
-*Des nombres de la dixme.*
-
-Les nombres de la dixme s'appellent ainsi, à cause que l'entier, comme vne toise, est diuisé en 10 parties égales, qui s'appellent minutes, chaque minute en 10 secondes, & chaque seconde en 10 tierces, & ainsi à l'infiny. Tellement qu'vne toise, par exemple, contient 10 minutes, 100 secondes, 1000 tierces, &c. qui se marquent ainsi.
-
-10′, 100″, 1000‴.
-
-Le propre des nombres de la dixme s'entresuiuants sans interruption, est de signifier la mesme chose estant conjoints & reüuis en vn nombre, qu'estant disioints & separez : par exemple, 27 toises, 8′, 7″, valent 2787″ de toise : & au contraire 2787″ de toise valent 27 toises 8′ & 7″, ou 27 87/100 toises.
-
-Si la suite des nombres de la dixme est interrompuë, pour les reünir en vn nombre, il faut mettre des zero aux endroits que leur suite est interrompuë, ce faisant on trouuera que 4 toises & 8‴ valent 4008‴ de toise.
-
-*De l'addition.*
-
-Il faut escrire les nombres de mesme denomination l'vn sur l'autre, puis faire l'addition à l'ordinaire.
+Il faut escrire les nombres de mesme denomination l'vn sur l'autre, puis faire la soustraction à l'ordinaire.
 
 *Exemple 1.*
 
-2 4 6 3″ *Nombres à*
-2 0 2 4″ *adjouſter.*
-8 4′
+7 3 3′ *Debte*
+2 6 0 0 9‴ *Payé*
 ——
-5 3 2 7″ *Somme*
-Ou 5 3 27/100.
+4 7 2 9 1‴ *Reſte*
+Ou 47 291/1000.
 
 *Exemple 2.*
 
-3 6 0 6″ *Nombres à*
-3 0 0 0 7‴ *adiouſter.*
-8′
+3 4 0 0 7‴ *Debte*
+6 0 4″ *Payé*
 ——
-6 6 8 6 7‴ *Somme*
-Ou 6 6 867/1000.
+2 7 9 6 7‴ *Reſte*
+Ou 27 967/1000.
+
+*De la multiplication.*
+
+Il faut faire la multiplication à l'ordinaire, & donner au produict pour denomination la somme ou addition des accens du nombre multiplié & du multiplicateur.
+
+*Exemple 1.*
+
+3 0 7 4 0 3‴ *multiplicande.*
+2 6 0 8″ *multiplicateur.*
+——
+2 4 5 9 2 2 4
+1 8 4 4 4 1 8
+6 1 4 8 0 6
+——
+8 0 1 7 0 7 0 2 4⁗′ *produict.*
+Ou 8017 7024/100000.
+
+*Exemple 2.*
+
+1 7 4′ *multiplicande.*
+8 0 0 6‴ *multiplicateur.*
+——
+1 0 4 4
+1 3 9 2
+——
+1 3 9 3 0 4 4⁗ *produict.*
+Ou 139 3044/10000.
+
+*De la diuiſion.*
+
+Il faut faire la diuision à l'ordinaire, & donner au quotient pour denomination les accens qui resteront, ayant soustrait ceux du diuiseur de ceux du diuidende.

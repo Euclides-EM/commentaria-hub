@@ -1,31 +1,29 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-*160*
+*161*
 
-Haud dissimiliter oſtendemus , reliquos angulos ipsius a/ b/ c/ rectilinei, reliquis angulis ipsius d/e/f/fore inuicem æquales: & circum eosdem æquales angulos latera proportionalia.Simile eſt itaq; a/b/c/rectilineũ,ipsi rectilineo d/e/f, per primam huius sexti diffinitionem.Quod oportebat demonſtrare.
+rectilineum o/g/h,ipsi v/s/t : per nonam quinti. Eſt autẽ & eidem simile,similitérq; positum,per conſtructionem. Similia porrò similitérque posita,& inuicem æqualia rectilinea:ab æqualibus, aut super æqualibus rectis lineis describũtur.Aequalis eſt igitur s/t/ipsi g/h.Eſt autẽ vt a/b/ad c/d,sic e/f/ad s/t. ipsi porrò s/t,æqualis oſtensa eſt g/h:& eadem ad æquales,eandem habet rationem,per septimam quinti Et sicut igitur a/b/ad c/d:sic e/f,ad g/h.Ergo si quatuor rectæ lineæ proportionales fuerint:& quæ sequuntur reliqua.Quod oſtendendum susceperamus.
 
-Θεώρημα ις, Πρόθεσις κβ.
+## Lemma siue assumptum.
 
-Εὰν τέσσαρες εὐθεῖαι ἀνάλογον ὦσι,καὶ τὰ ἀπ᾽ αὐτῶν εὐθύγραμμα ὅμοιάτε καὶ ὁμοίως ἀναγεγραμμένα,ἀνάλογον ἔσαι . κἂν τὰ ἀπ᾽ αὐτῶν εὐθύγραμμα ὅμοιάτε καὶ ὁμοίως ἀναγεγραμμένα ἀνάλογον ᾖ,καὶ αὐταὶ αἱ εὐθεῖαι ἀνάλογον ἔσονται.
+¶Quòd autem similia, similitérque posita, & inuicem æqualia rectilinea, habeant similis rationis latera inuicem æqualia:sic demonſtratur.Sint rursum æqualia,& similia, similitérque posita rectilinea, o/g/h/& v/s/t: sitq́; vt o/g/ad g/h,sic v/s/ad s/t.Aio quòd g/h/ & s/t,sunt inuicem æquales.Si nanque fuerint inæquales: altera maior erit.Eſto (si possibile sit) g/h, maior s/t.Et quoniam eſt vt o/g/ad g/h,sic v/s/ad s/t:& econtra igitur,vel à conuersa ratione,sicut g/h/ad o/g,sic erit s/t/ad v/s:per corollarium quartæ libri quinti.Sed prima g/h,maior eſt tertia s/t:& secunda itaque o/g,quarta v/s/maior erit, per decimamquartam ipsius quinti.Binæ itaque o/g/& g/h,duabus v/s/& s/t/erunt maiores:& proinde ipsum rectilineũ o/ g/ h, maius rectilineo v/s/t.Eſt autẽ eidem æquale,per hypothesin : quæ simul impossibilia sunt. Non eſt igitur g/h,maior ipsa s/t.Similiter oſtendetur, quòd neq; minor. Aequalis eſt itaq; g/h,eidem s/t. Quod fuerat oſtendendum.
 
-## Theorema 16, Propositio 22.
+*[diagram: o v g h s t]*
 
-SI quatuor rectæ lineæ proportionales fuerint:& ab eis rectilinea similia similitérque descripta, proportionalia erunt. Et si ab ipsis rectilinea similia similitérque descripta,proportionalia fuerint:ipsæ quoque rectæ lineæ proportionales erunt.
+*[diagram: | g/h | o/g | s/t | v/s |]*
 
-> Pars prima theorematis.
+Θεώρημα ιζ, Πρόθεσις κγ.
 
-ORONTIVS.¶Sint quatuor rectæ lineæ discótinuè proportionales a/b,c/d, e/f,& g/h:sicut quidem a/b/ad c/d,sic e/f/ad g/h. Et per decimamoctauam huius sexti,ab ipsis a/b/& c/d,similia similitérq; posita rectilinea describantur,l/a/b/& m/c/d: & per eandem decimamoctauã, ab ipsis e/f/& g/h, alia quædam similia similitérque posita rectilinea, n/e/f/& o/g/h. Aio fore sicut l/a/b/ad m/c/d,sic n/e/f/ ad o/g/h. Inueniatur enim ipsis a/b/ & c/ d, tertia proportionalis p:ipsis autem e/f/& g/h,tertia itidem proportionalis r, per vndecimam huius sexti. Cùm sit igitur ex hypothesi,vt a/b/ ad c/d,sic e/f/ad g/h, & per conſtructionem sicut c/d/ad p,sic g/h/ad r.Et ex æqua igitur ratione, sicut a/b/ ad p:sic e/f/ ad r, per vigesimamsecundam quinti.Sicut porrò a/b/ad p,sic l/a/b/ rectilineum,ad rectilineum m/c/d : per secundum corollarium vigesimæ huius sexti . Et sicut igitur l/ a/ b/ rectilineum, ad rectilineũ m/c/d : sic per vndecimam ipsius quinti,e/f/ ad r. Sicut rursum e/f, ad r : sic, per idem corollarium , rectilineum n/e/f/ ad rectilineum o/g/h. Et sicut itaque l/a/b,ad m/c/d : sic per eandem vndecimam quinti, n/e/f/ ad o/g/h.
+Τὰ ἰσογώνια παραλληλόγραμμα,πρὸς ἄλληλα λόγον ἔχῃ τὸν συγκείμενον ἐκ τῶν πλευρῶν.
 
-*[diagram: l m a b c d p n o v e f g h s r t]*
+## Theorema 17, Propositio 23.
 
-*[diagram: |a/b. c/d. p | e/f. g/h. r |]*
+AEquiangula parallelogramma, adinuicem rationem habent compositam ex lateribus.
 
-*[diagram: |l/a/b.m/c/d| a/b. p |e/f. r|]*
+ORONTIVS. ¶De lateribus velim intelligas, quæ circum æquales sunt angulos.Sint igitur bina parallelogramma inuicẽ æquiangula,a/b/c/& d/b/e: quorum angulus qui sub a/b/ & b/c, angulo qui sub d/b/& b/e/ continetur sit æqualis. Dico a/b/c/parallelogrammum, ad parallelogrammum d/b/e, rationem habere compositam ex ratione laterum a/b/ad b/e,& c/b/ad b/d.Conſtituantur enim a/b/ & b/e/ latera in directum: hoc autem fiet, cùm anguli c/b/a/ & c/b/e/ duobus rectis fuerint æquales, per decimamquartam primi. tunc quoq; in directum erit c/ b/ ipsi b/ d, per eandem propositionem: nam anguli e/b/c/ & e/b/d,per primam & tertiam communem sententiam, duobus itidem rectis æquabũtur . Compleatur denique parallelogrammum c/ b/ e: productis in continuum rectúmque, per secundum poſtulatum,eorundem parallelogrammorum lateribus . Proponatur insuper recta quædam linea f: & tribus datis rectis lineis a/b, b/e , & f: quarta subsumatur proportionalis g , per duodecimam huius sexti . Erit igitur vt a/b,ad b/e : sic f, ad g.Et per eandem duodecimam propositionem, tribus datis rectis lineis c/b, b/d, & g: quarta rursum proportionalis accipiatur h. Erit ergo vt c/b,ad b/d:sic g,ad h. Eſt autem sicut a/ b/ ad b/ e, sic f/ ad g. rationes itaque ipsius f/ ad g, & g/ ad h : eædem sunt ipsis rationibus a/ b/ ad b/e, & c/b/ ad b/d. Ratio porrò f/ ad h,componitur ex ratione ipsius f/ ad g, atque
 
-*[diagram: |l/a/b.m/c/d| e/f. r|n/e/f.o/g/h|]*
+> Partiũ figuræ præparatio.
 
-> Secunda pars conuersa primæ.
+*[diagram: a b c d e f g h]*
 
-¶Si autem fuerit vt l/a/b/ad m/c/d,sic n/e/f/ad o/g/h:dico versa vice,quatuor lineas rectas a/b,c/d,e/f/ & g/h,fore proportionales,sicut a/b/ad c/d,sic e/f/ad g/h. Datis enim tribus rectis lineis a/b,c/d,& e/f:quarta inueniatur proportionalis s/t,per duodecimã huius sexti.Et per decimamoctauam eiusdem,ab eadem s/t,ipsis n/e/f/& o/g/h/simile similitérque positum rectilineum describatur v/s/t.Et quoniam eſt vt a/b/ad c/d,sic e/f/ ad s/t,& ab ipsis a/b/& c/d/similia similitérque posita describuntur rectilinea l/a/b/ & m/c/d,ab ipsis autem e/f/& s/t/similia itidem similitérq; posita rectilinea n/e/f/ & v/s/t: eſt igitur per primam partem iam demonſtratã huius propositionis, sicut l/a/b/ad m/c/d , sic n/e/f/ ad v/s/t. Receptum eſt autem ex hypothesi, vt l/a/b/ad m/c/d , sic n/e/f/ ad o/g/h. Et sicut igitur n/e/f,ad o/g/h:sic per vndecimam quinti,n/e/f/ad v/s/t. Eadem itaque magnitudo n/e/f, ad vtrasq; o/g/h/ & v/s/t, eandem habet rationem. Aequum eſt igitur
-
-*[diagram: |n/e/f.o/g/h|l/a/b.m/c/d|n/e/f.v/s/t|]*
+o.iij.

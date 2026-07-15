@@ -1,45 +1,35 @@
-# Page 108
+# Page 109
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. II.
 
 *Hypoth.*
 
 ab *eſt* ——,
-ac & cb *ſnt parties de* ab.
+ac & cb *ſont parties de* ab.
 
 (figure)
 
-*Req. à demonſtr.*
+*Req. à demonſtrer.*
 
-▭.bac 2|2 ▭.bca + □.ac.
+□.ab *eſt* 2|2 □.ac, + □.cb, + 2▭.acb.
 
 *Preparation.*
 
-46.1 | ad *eſt* □.ac,
-31.1 | bf == cd,
-2.p.1 | edf *eſt* ——.
+46.1 | ad *eſt* □ab. α
+1.p.1 | eb *eſt* ——,
+31.1 | cf == ae, & hgi == ab. β
 
 *Demonſtr.*
 
-α.29.d.1 | ac, ae, cd *ſnt* 2|2 đe.
-2.ſ.29.1 | af *eſt* ▭,
-2.ſ.29.1 | cf *eſt* ▭,
-3.ſ.1.d.2 | ▭af 2|2 ▭.bac,
-3.ſ.1.d.2 | ▭cf 2|2 ▭.bca,
-conſtr. | ad *eſt* □ac,
-19.a.1 | ▭af 2|2 ▭cf + □ad,
-concl. 1.a.g | ▭.bac 2|2 ▭.bca, / + □.ac.
-
-*Explication par nombres.*
-
-hyp. | ac *eſt* 2, α
-hyp. | cb *eſt* 5, β
-19.a.1 | ab *eſt* 7, γ
-γα | af ▭.bac *eſt* 14,
-βα | cf ▭.bca *eſt* 10,
-α | ad □.ac *eſt* 4,
-19.a.1 | cf + ad *ſnt* 14.
-
-THEOR. IV. PROPOS. IV.
-
-Si vne ligne droicte est couppée comme on voudra : le quarré de la toute est égal aux quarrez des parties, & a deux fois le rectangle contenu sous icelles parties.
+β.35.d.1 | ag, hf, ci, gd, *ſont* ◊; γ
+α.29.d.1 | ∠a, ∠aed, ∠d, ∠abd *ſont* ┘; δ
+α.29.d.1 | ae 2|2 ab,
+5.1.&32.1 | ∠; aeb, abe, deb, & dbe *ſont* 2|2 đe. ε
+β.29.1 | ∠cgb 2|2 ∠aeb, ∠hge 2|2 ∠abe, ∠igb 2|2 ∠bed,
+ε.1.a.1 | ∠; cbg, cgb, heg, hge, *ſont* 2|2 đe.
+5.1 | bc 2|2 cg, gh 2|2 he, ε
+γ.34.1 | he 2|2 gf, hg 2|2 ef, cb 2|2 gi, cg 2|2 bi,
+nota. δ.29.d.1 | hgfe *eſt* □.hg, Ⅱ ac : cbig *eſt* □.cb,
+δ.43.1 | ag & gd *ſont* ▭.acb 2|2 đe.
+19.a.1 | □ad 2|2 □hf, + □ci, + ▭ag, + ▭gd,
+concl. 1.a.g | □.ab *eſt* 2|2 □.ac: + □.cb: + 2▭.acb.

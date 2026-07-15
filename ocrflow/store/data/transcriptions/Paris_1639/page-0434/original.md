@@ -1,21 +1,11 @@
-# Page 433
+# Page 434
 
 # DES FORTIFICATIONS.
 
-raisons, dont la premiere est, pour faire preuue du chemin & du passage, descouurant par ce moyen les dangers, mauuais pas & fondriers : la seconde est, afin que s'il suruient quelque alarme, ou accident inopiné, les petits canons soient les plus propres pour les faire auancer, & enuoyer là où sera le danger.  Au fond de chacun lict ou caisse de canon il y aura vn coffret plein de sacs remplis de balles & poudres, afin qu'on puisse tirer quelque coup aux cas inopinez : il faudra que les canonniers prennent bien garde de ne laisser entrer l'eau par la lumiere ou par la bouche du canon.  Quand il se rencontrera quelque mauuais passage, les Commissaires retiendront les pionniers iusques à ce que toute l'artillerie soit passée ; & quand quelque piece s'arrestera, il faudra faire arrester toutes les autres, afin que tous marchent ensemble.
+& eminent pour la planter, puis l'on ira de nuict, en temps plus obscur qu'il sera possible, au lieu proposé, conduisant l'artillerie à petit bruit, pour n'estre descouuert de ceux de dedans : & afin de mieux couurir le bruit, l'on fera battre les tambours, & sonner toutes les trompetes par tout le camp : & deuant qu'approcher l'artillerie au lieu destiné, il faudra faire rouler aux pionniers vn bon nombre de gabions, au lieu proposé, & faire auancer les soldats qui sont pour la garde d'icelle, le plus pres de la forteresse que faire se pourra, afin de pouuoir repousser les sorties de la forteresse, qui viendroient assaillir le canon ; & cependant les canonniers trauailleront auec leurs piõniers à faire leur defense & rampart, & aussi le plan ou plancher de l'artillerie, lequel doit estre plus esleué au derriere qu'au deuant enuiron d'vn pied, afin que les pieces ne reculent pas tant, & qu'on les puisse remettre plus facilement en leur lieu : & si le lieu est trop mol on le pauera de gros ais, afin de manier & appointer le canon plus librement, & le reste des pionniers trauaillera aux tranchées : en quoy l'on doit estre si diligent, que le tout soit finy auant l'aube du iour, ou à tout le moins, que les tranchées soient desia si profondes, qu'on puisse demeurer & trauailler à couuert : puis si tost que le iour paroistra, & qu'on pourra descouurir la muraille, on commencera la batterie, taschant de preuenir les assiegez de deux ou trois coups de canon, & de démonter leur artillerie.  Et faudra tenir vn rang d'harquebusiers d'eslite tout le long de la tranchée à couuert d'icelle, pour s'oposer aux sorties de la ville.  La batterie sera forte, si elle n'est éloignée de la forteresse que de 200 ou 300 pas : que si elle passe 400 pas, elle sera trop foible, & de peu d'effect : mais les batteries pour leuer & oster les defenses ou parapets peuuent estre vn peu plus esloignées, ioint qu'elles sont plus asseurées, & qu'elles descouurent de plus loin.
 
-Apres l'artillerie suiuront les charrettes de secours, où sont tous les instrumens pour l'vsage d'icelle, comme lanternes, cordages, torches, & toutes sortes d'instruments & outils de charpentiers & ferrons.
+*De diuerses sortes de batteries.*
 
-Apres ces charrettes de secours marcheront les chariots de la poudre, lesquels faut garder d'eau & de feu, & les retirer des harquebusiers.
+Si on bat l'habitation, & les parties plus esleuées, cela s'appelle battre en ruine, qui se fait auec les vollées tirées en arcade.
 
-Apres les chariots de poudre, suiuront les chariots de balles & de roües, pour monter l'artillerie, & pour secourir celles qui se rompent.
-
-A la suite d'iceux suiuent ceux qui portent le reste des choses necessaires à l'artillerie, comme gros ais, cordages, & bois, pour faire au besoin eschelles.
-
-A la queuë de tout cela, il faut qu'il y ait garde, pour empescher que quelque autre sorte de bagages & viuandiers ne s'y meslent.
-
-L'ordinaire est de faire marcher l'artillerie auec la bataille, le païs estant large & plain : mais estant estroit, & montagneux, il faudra mettre la plus legere à l'auant-garde, & le reste où l'on coniecturera estre plus de danger.
-
-*Pour planter l'artillerie.*
-
-Il faut premierement recognoistre la partie la plus foible, pour planter la batterie contre icelle, & choisir le lieu le plus commode
+On bat les caualiers & parapets de plus pres, auec des demy-canons, & cela s'appelle battre en barbe : cependant on gagne le chemin couuert par les approches.

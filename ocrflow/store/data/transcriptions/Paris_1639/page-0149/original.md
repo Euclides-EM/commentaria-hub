@@ -1,43 +1,39 @@
-# Page 148
+# Page 149
 
-# LES ELEMENTS
-
-ſ.46.1 | □.af 2|2 □.bg, □.ae 2|2 □.eb. β
-47.1 | □.af + □.fe 2|2 □.ae, □.gb + □.ge 2|2 □.eb,
-1.a.1 | □.af + □.fe 2|2 □.gb + □.ge, [Ⅱ □.ae,
-β.3.a.1 | □.fe 2|2 □.ge,
-1.concl. ſ.46.1 | fe 2|2 ge.
+# D'EVCLIDE, LIV. III.
 
 (figure)
 
-*Hypoth. 2.*
+*Prepar.*
 
-ef 2|2 eg. γ
-
-*Req. à demonſtr.*
-
-ad 2|2 bc.
+3.1 | gn 2|2 gh. α
+11.1 | knl ⊥ gi,
+1.p.1 | gk, gb, gc, gl *ſnt* ——.
 
 *Demonſtr.*
 
-47.1 | □.af + □.fe 2|2 □.ae, □.gb + □.eg 2|2 □.eb,
-1.a.1 | □.af + □.fe 2|2 □.gb + □.eg, [Ⅱ □.ae,
-3.a.1 | □.af 2|2 □.gb,
-ſ.46.1 | af 2|2 gb,
-2 concl. 6.a.1 | 2af Ⅱ ad 2|2 2gb Ⅱ bc.
+15.d.1 | ga 2|2 gk,
+15.d.1 | gd 2|2 gl,
+2.a.1 | ad 2|2 gk + gl,
+20.1 | gk + gl 3|2 kl,
+1.a.d | ad 3|2 kl,
+α.14.3 | kl 2|2 fe, β
+1.concl. 1.a.c | ad 3|2 fe,
+9.a.1 | ∠lgk 3|2 ∠cgb,
+2.concl. β.24.1 | kl Ⅱ fe 3|2 bc.
 
-THEOR. XIV. PROPOS. XV.
+THEOR. XV. PROPOS. XVI.
 
-Au cercle la plus grande ligne est le diametre; mais des autres, tousiours celle qui est plus proche du centre, est plus grande que celle qui en est plus esloignée.
+La ligne droite menée de l'extremité du diametre d'vn cercle, à angles droicts à iceluy diametre, tombera hors le cercle; & en l'espace compris entre icelle ligne droicte & la circonference ne tombera pas d'autre ligne droicte: & l'angle du demy cercle est plus grand que tout angle rectiligne aigu, mais le reste est plus petit.
 
 *Hypoth.*
 
-gabc *eſt* ⊙,
-ad *eſt diametre*,
-gi ⊥ bc, gh ⊥ fe,
-gi 3|2 gh.
+balh *eſt* ⊙,
+cad ⊥ ah,
+∠bal 2|3 ┘.
 
-*Req. à demonſtrer.*
+*Req. à demonſtr.*
 
-ad 3|2 fe,
-fe 3|2 bc.
+ac *eſt hors le* ⊙,
+ae *n'eſt hors le* ⊙,
+∠bai 3|2 ∠bae,

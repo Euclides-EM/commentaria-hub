@@ -1,41 +1,56 @@
-# Page 242
+# Page 243
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
 *Hypoth.*
 
-a π b 2|2 e π f, b π c 2|2 d π e.
+a π b 2|2 g π h, α
+b π c 2|2 f π g, α
+c π d 2|2 e π f.
 
-*Requis à demonſtrer.*
+*Req. à demonſtr.*
 
-a π c 2|2 d π f.
-
-(figure)
-
-*Prepar.*
-
-| g *multipl..* | a,
-3.1 | h *multipl..* | b,
-| i *multipl..* | d,
-| K *multipl..* | c.
-3.1 | l *multipl..* | e,
-| m *multipl..* | f.
+a π d 2|2 e π h.
 
 *Demonſtr.*
 
-15.5 | g π h 2|2 a π b,
-hyp. | a π b 2|2 e π f,
-15.5 | e π f 2|2 l π m,
-11.5 | g π h 2|2 l π m,
-hyp. | b π c 2|2 d π e,
-4.5 | h π K 2|2 i π l,
-21.5 | g, 2, 3, 4 | 3, K,
-| i, 2, 3, 4 | 3, m,
-concl. 6.d.5 | a π c 2|2 d π f.
+α.23.5 | a π c 2|2 f π h, β
+hyp. | c π d 2|2 e π f,
+concl. β.23.5 | a π d 2|2 e π h.
 
-SCHOL. I.
+SCHOLIE II.
 
-Que s'il y a plus de trois grandeurs, & que leur proportion soit troublée, neantmoins en raison égale elles seront proportionelles.
+Il est manifeste de la 22. & 23. que les raisons composées de mesmes raisons, sont de mesme ou égales entr'elles.
 
-A, 4. B, 6. C, 3. D, 12.
-E, 5. F, 20. G, 10. H, 15.
+SCHOL. III.
+
+Des raisons égales les mesmes parties sont égales entr'elles.
+
+(figure)
+
+*Hypoth.*
+
+a π bh 2|2 bh π c,
+d π e 2|2 e π f,
+a π c 2|2 d π f.
+
+*Requis à demonſtr.*
+
+a π bh 2|2 d π e.
+
+*Demonſtr.*
+
+ſuppoſ. | a π bl 2|2 d π e, α
+hyp. | a π c 2|2 d π f,
+c.4.5 | c π a 2|2 f π d,
+α.22.5 | c π bl 2|2 f π e,
+c.4.5 | bl π c 2|2 e π f,
+hyp. | d π e 2|2 e π f,
+11.5 | bl π c 2|2 d π e,
+α.11.5 | a π bl 2|2 bl π c, β
+hyp. | a π bh 2|2 bh π c, γ
+8.5 | a π bl 3|2 a π bh,
+βγ13.5 | bl π c 3|2 bh π c, δ
+δ.10.5 | bl 3|2 bh,
+| *contr. 9.a.1.*
+concl. 21.a.1 | a π bh 2|2 d π e.

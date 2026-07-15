@@ -1,23 +1,38 @@
-# Page 64
+# Page 65
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-Cette proposition est de soy manifeste, car de la mesme quantité que l'angle obtus ABC excede l'angle droict EBC, l'angle aigu ABD est excedé par l'angle droict EBD. Neantmoins pour la demonstrer par les principes donnez cy deuant, le syllogisme ou raisonnement se fait ainsi. Les deux angles droicts EBC & EBD sont égaux aux trois angles EBC, EBA & ABD : mais l'obtus ABC & l'aigu ABD sont aussi égaux aux trois mesmes angles EBC, EBA, & ABD : par consequent l'obtus & l'aigu sont égaux aux deux angles droicts.
+*Demonſt.*
 
-∠ebc *commun. add.* Cette ligne & autres semblables, où il y aura *commun. add.* ou *commun. ſubtr.*, qui est à dire, commun adjoustez, ou commun ostez, on les peut sauter, & ne seruent qu'à monstrer, la quantité exprimée en cette ligne a esté adjoustée ou soustraicte des deux quantitez de la ligne prochaine superieure.
+ſuppoſ. | cbe *eſt* ——,
+13.1 | ∠abe + ∠abc 2|2 2┘. α
+hyp. | ∠abd + ∠abc 2|2 2┘. α
+∠abc *commun. ſubtr.*
+α.3.a.1 | ∠abe 2|2 ∠abd,
+*contr. 9. a. 1.*
+concl. 21.a.1 | cbd *eſt* ——.
 
-THEOR. VII. PROPOS. XIV.
+THEOR. VIII. PROPOS. XV.
 
-Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles de part & d'autre égaux à deux droicts : icelles lignes droictes se rencontreront directement l'vne l'autre.
+Si deux lignes droictes se coupent l'vne l'autre, elles feront les angles au sommet égaux entr'eux.
 
-Cette proposition est la conuerse de la precedente, car en icelle on a demonstré, que si CBD est vne ligne droicte, les deux angles contigus ABC & ABD sont égaux à deux angles droicts : mais en celle-cy il faut demonstrer, que si les deux angles contigus ABC & ABD sont égaux à deux angles droicts, que CBD est vne ligne droicte.
-
-*Hypoth.*
-
-∠abc + ∠abd *ſnt* 2|2 2┘.
+Les quatre angles que font deux lignes se couppans l'vne l'autre, se distinguent en deux denominations differentes, à sçauoir en angles contigus ou de suite ; & en angles opposez au sommet. Comme en cette figure les angles de suite sont, A & B; A & D : B & C ; & aussi C & D. Et les angles opposez au sommet, sont A & C ; & aussi D & B.
 
 (figure)
 
-*Req. à demonſt.*
+*Hypoth.*
 
-cbd *eſt* ——.
+ef & gh *ſnt* —— ;
+
+*Req. à demonſtr.*
+
+∠d 2|2 ∠b,
+∠a 2|2 ∠c.
+
+*Demonſtr.*
+
+13.1 | ∠d + ∠a 2|2 2┘. α
+13.1 | ∠b + ∠a 2|2 2┘. α
+∠a *commun. ſubtr.*
+concl. α.3.a.1 | ∠d 2|2 ∠b. β
+d.β | ∠a 2|2 ∠c.

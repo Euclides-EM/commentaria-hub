@@ -1,44 +1,37 @@
-# Page 158
+# Page 159
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-1.concl. 1.a.f | ∠abc + ∠adc 2|2 2┘,
+1.a.1 | ∠cae + ∠cad 2|2 ∠dbc + ∠cad,
 
-*au* △dcb
+∠cad *commun. ſubtr.*
 
-32.1 | ∠dcb + ∠dbc + ∠bdc 2|2 2┘,
-21.3 | ∠dbc 2|2 ∠dac, ∠bdc 2|2 ∠bac,
-2 concl. 1.a.f | ∠dcb + ∠dab 2|2 2┘.
+concl. 3.a.1 | ∠cae 2|2 ∠dbc.
 
-(figure)
+THEOR. XXI. PROPOS. XXIII.
 
-*Corollaire 1.*
-
-hyp. | ∠dab *eſt* ┘,
-1.c.22.3 | ∠dcb *eſt* ┘.
-
-*Corollaire 2.*
-
-hyp. | ∠abc 2|3 ┘,
-2.c.22.3 | ∠adc 3|2 ┘.
-
-SCHOLIE.
-
-Si vn costé d'vn quadrilatere inscrit dans le cercle, est prolongé, l'angle externe sera égal à l'interne, qui est opposé à celuy qui est de suite à l'externe.
+Sur vne mesme ligne droicte, on ne pourra constituer deux segments de cercles semblables & inégaux, & de mesme part.
 
 (figure)
 
-*Hypoth.*
+*Hypotheſe.*
 
-acbd *eſt* ⊙,
-acbd *eſt* 4∠ *en* ⊙,
-dae *eſt* ——.
+abc & adc *ſont ſegments de* ⊙;
+*ſegment* abc 3|2 *ſegment* adc.
 
-*Req. à demonſtrer.*
+*Requis à demonſtrer.*
 
-∠cae 2|2 ∠dbc.
+*ſegment* abc *n'eſt ſemblable au ſegment* adc.
 
-*Demonſtr.*
+*Preparation.*
 
-13.1 | ∠cae + ∠cad 2|2 2┘,
-22.3 | ∠dbc + ∠cad 2|2 2┘,
+1.p.1 | cb, ab, ad *ſont* ——.
+
+*Demonſtration.*
+
+32.1 | ∠adc 3|2 abc,
+concl. 10.d.3 | *ſegment* abc *n'eſt ſemblable au ſegment* adc.
+
+THEOR. XXII. PROPOS. XXIV.
+
+Semblables segments de cercles, constituez sur lignes droictes égales, sont égaux entr'eux.

@@ -1,29 +1,15 @@
-# Page 20
+# Page 21
 
-# LES ELEMENTS
-
-ou esleué en vn endroit qu'en vn autre, mais elle est la plus courte de celles qui ont mesmes extremitez.
-
-V.
-
-La Superficie est, ce qui a tant seulement longueur & largeur, comme ABCD.
+# D'EVCLIDE, LIV. I.
 
 (figure)
 
-VI.
+Tout augle plan est faict, ou de deux lignes droites, & est appellé angle Rectiligne, comme A, & d'iceluy traicte seulement icy Euclide : ou de deux lignes courbes, comme B, qui peut estre appellé Curuiligne : ou d'vne ligne droite & d'vne courbe, comme C, qui s'appelle Mixtiligne.
 
-Mais les extremitez de la superficie sont lignes.
+X.
 
-VII.
+Quand vne ligne droicte tombant sur vne autre ligne droicte, fait les angles de suite, ou d'vne part & d'autre, égaux entr'eux, l'vn & l'autre d'iceux angles égaux est droict : & la ligne droicte tombante est dite Perpendiculaire à celle-là sur laquelle elle tombe.
 
-Superficie plane, est celle qui est également estenduë entre ses lignes.
+(figure)
 
-VIII.
-
-Angle plan est l'inclination de deux lignes, lesquelles se touchent l'vne l'autre en vn plan, & ne se rencontrent directement.
-
-La quantité de tout angle consiste en la seule inclination, & non en la longueur des lignes, car le prolongement des lignes n'augmente point leur inclination, ny par consequent la quantité de l'angle.
-
-IX.
-
-Or quand les lignes, qui comprennent l'angle, sont droites, l'angle s'appelle Rectiligne.
+Les angles sont droits, quand vne ligne droite tombante sur vne autre ligne droite, n'incline pas dauantage d'vne part que de l'autre : comme si la ligne droite CG, n'incline pas dauantage vers B que vers A, vn chacun des angles CGA & CGB sera droict, & la ligne CG est dite Perpendiculaire à la ligne AB, sur laquelle elle tombe.

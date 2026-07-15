@@ -1,31 +1,29 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-in eisdémq; fuerint parallelis : trianguli parallelogrammum duplum est.
+Θεώρημα λβ, Πρόθεσις μγ.
 
-ORONTIVS. ¶Esto parallelogrammum a/b/c/d, eandem habens basin c/d/ cum triangulo c/d/e, in eisdémq; parallelis a/e/& c/d/constitutum. Aio a/b/c/d/parallelogrammum, fore duplum ipsius trianguli c/d/e. Connectatur enim a/d/recta, per primum postulatum. Triangula igitur a/c/d/& c/d/e/erunt adinuicẽ æqualia, per trigesimamseptimam propositionem: habẽt enim eandem basin c/d, suntq̃;
+ΠΑντὸς παραλληλογράμμου τῶν περὶ τὴν διάμετρον παραλληλογράμμων τὰ παραπληρώματα, ἴσα ἀλλήλοις ὅτι.
 
-*[diagram: a b e c d]*
+## Theorema 32, Propositio 43.
 
-in eisdẽ parallelis a/e/& c/d. Atqui triangulum a/c/d/ dimidiũ est ipsius a/b/c/d/parallelogrammi: secat enim illud bifariam dimetiens a/ d, per trigesimamquartam propositionem. Quæ autem sunt æqualia, eiusdem sunt dimidium: per conuersam septimæ communis sentẽtiæ. Triangulum igitur c/d/e/, dimidium est a/b/c/d/parallelogrammi: & ipsum itaque parallelográmum a/b/c/d, eiusdem c/d/e/trianguli duplum. Si parallelogrammũ igitur & triangulũ: &c. vt in theoremate. Quod oportebat ostẽdere. ¶Idem quoq; demonstrabitur: vbi parallelogrammum & triangulum æquales habuerint bases, in eisdémq; fuerint parallelis.
+OMnis parallelogrammi eorum quæ circa dimetientem sunt parallelogrammorũ supplementa, sibi inuicẽ sunt æqualia.
 
-> Notandum.
+ORONTIVS. ¶Parallelogramma circa dimetientem alicuius dicuntur esse parallelogrammi, quando eundem cum toto possident dimetientem. Supplementa autem, vocantur reliqua parallelogramma extra communem dimetientem constituta. Sit igitur a/b/c/d/ parallelogrammum, cuius dimetiens a/d, & circa ipsum dimetientẽ sint e/g/& h/f/parallelogramma, supplementa verò sint e/h/& g/f: quæ dico fore adinuicem æqualia. Parallelogrammum enim a/b/c/d, bifariam secatur à dimetiente a/d, per trigesimamquartam propositionem: igitur a/b/d/triangulum, æquum est ipsi triangulo a/c/d. Dimetiens insuper a/k, bifariam secat e/g/parallelogrammum, necnon & k/d/ ipsum h/f, per eandem trigesimamquartam propositionem. æquum est igitur a/e/k/ triãgulum, ipsi a/g/k : atq; triangulum k/h/d, ipsi k/f/d/ triangulo. Si autem æqualibus triãgulis æqualia iungantur triangula: omnia erũt æqualia, per secundam commu nem sententiam. Triangula itaq; a/e/k/& k/h/d, triangulis a/g/k/& k/f/d/sunt æqualia. Patuit autem q̃ & totũ a/b/d/triangulum, toti triangulo a/c/d/itidem coæquatur. Porrò si ab æqualibus triangulis, æqualia subducantur triangula: quæ relinquentur, æqualia erũt, per tertiam communem sententiam. Subductis itaq; triangulis a/g/k/& k/f/d/ab ipso a/b/d/triãgulo, atq; a/e/k & k/h/d/ triangulis, ab ipso triangulo a/c/d: relinquentur g/f/& e/h/supplementa adinuicem æqualia. Omnis ergo parallelogrammi: &c. vt in theoremate. Quod demonstrare fuerat operæpretium.
 
-## Corollarium.
+> Parallelogrãma circa dimetientem. Supplemẽta.
 
-¶Hinc fit manifestum, cur in dimetiendis rriangulorum areis, dimidium basis ducatur in perpendicularem: aut ipsius perpendicularis dimidiũ, per basin ipsam multiplicetur. Fit enim hoc modo dimidium parallelógrammi, quod in eadem basi atq; in eisdem collocatur parallelis cum ipso triangulo dato.
+*[diagram: a g b e k f c h d]*
 
-Πρόβλημα ια, Πρόθεσις μβ.
+Πρόβλημα ιβ, Πρόθεσις μδ.
 
-ΤΩ δοθέντι τριγώνῳ ἴσον παραλληλόγραμμον συστήσασθαι ἐν τῇ δοθείσῃ εὐθυγράμμῳ γωνίᾳ.
+ΠΑρὰ τὴν δοθεῖσαν εὐθεῖαν τῷ δοθέντι τριγώνῳ, ἴσον παραλληλόγραμμον παραβαλεῖν ἐν τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ.
 
-## Problema 11, Propositio 42.
+## Problema 12, Propositio 44.
 
-DAto triangulo , æquale parallelogrammum constituere, in dato angulo rectilineo.
+AD datam rectam lineam: dato triangulo, æquale parallelogrammum construere, in dato angulo rectilineo.
 
-ORONTIVS. ¶Sit datum a/b/c/triangulum, cui oporteat in angulo æquali ei qui ad d, æquum parallelogrammum constituere. Diuidatur itaque b/c/latus bifariam in puncto e, per decimam propositionẽ: & connectatur a/e/recta, per primum postulatum. Ad datam insuper lineam rectam e/c, datúmq; in ea punctum e, dato angulo rectilineo qui ad d, æqualis angulus rectilineꝰ cõstituatur f/e/c: per vigesimamtertiam propositionem. Et per punctum a, datæ rectæ lineæ b/c/ parallela ducatur a/g: atq; per punctum c, ipsi e/f parallela c/g, per trigesimamprimam propositionem. Et quoniam a/b/e/ & a/e/c/triangula, in basibus sunt æqualibus b/e/& e/c, atque in eisdem parallelis a/g/& b/c/constituta: ipsa propterea sunt adinuicem æqualia, per trigesimamoctauam propositionem. Triãgulum igitur a/b/c, duplum est a/e/c/ trianguli. Atqui parallelogrammũ f/e/c/g, eiusdem a/e/c/triãguli duplum est, per quadragesimamprimam propositionem: habent nanque eandem basin b/c, in eisdémque sunt parallelis a/g/& b/c. Quæ autem eiusdem sunt duplicia , æqualia sunt adinuicem: per sextam communem sentẽtiam. Parallelogrammũ ergo f/e/c/g, æquum ipsi a/b/c/ triangulo dato : suscipítque angulum f/e/c, æqualem ei qui ad d. Dato itaq; triangulo, æquale parallelogrammum constituitur, in dato angulo rectilineo. Quod faciendum erat.
+ORONTIVS. ¶Construere parallelogrammum ad datam lineam rectam & in dato angulo rectilineo, est ipsam lineam datam coassumere in latus eiusdem parallelogrammi: sic vt eadem linea cum altero adiacentium laterum, angulum comprehendat æqualem ipsi angulo dato. Esto igitur data linea recta a/b: ad quã oporteat construere parallelogrammum, dato triangulo c/æquale, & in angulo æquali ei qui ad d. Producatur in primis a/b/ recta in directum vsque ad punctum e, per secundum postulatum : & ad datam rectam lineam b/e, ad datúmq; in ea punctum b, dato angulo rectilineo qui ad d, æqualis angulus rectilineus constituatur f/b/e, per vigesimamtertiam propositionem. In ipso consequenter angulo f/b/e, dato triangulo c, æquale cõstruatur parallelogrãmum f/g/e/b, per quadragesimãsecundam propositionem: extendatúrque g/f/in directum vsque ad h, per secundum postulatum. Per datum insuper punctum a, vtrique & f/ b/ & g/ e/ parallela ducatur h/ a, per
+
+> Problematis interpretatio
 
 > Cõstructio figuræ.
-
-> Ostensio problematis.
-
-*[diagram: a f g b e c d]*

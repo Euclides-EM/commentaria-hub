@@ -1,27 +1,29 @@
-# Page 19
+# Page 20
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-Or les Mathematiciens, qui considerent les grandeurs separées de toute matiere, ne les peuuent exposer à la veuë que physiquement : comme en ceste definition, ils representent le poinct Mathematique par vn poinct Physique, tel qu'est le poinct A.
+ou esleué en vn endroit qu'en vn autre, mais elle est la plus courte de celles qui ont mesmes extremitez.
 
-• A
+V.
 
-II.
-
-La Ligne est vne longueur sans largeur.
-
-La ligne se definit aussi estre le flux ou coulement d'vn poinct, parce qu'elle n'a aucune grosseur.
-
-III.
-
-Les extremitez de la ligne sont poincts.
-
-Toute ligne, & toute grandeur, est terminée actuellement, & le Mathematicien ne considere aucune quantité qu'elle ne soit terminée : & quand Euclide parle de la ligne infinie, il entend qu'elle n'est point terminée, & quelle a telle longueur qu'on voudra.
-
-IV.
-
-La ligne droicte est, celle qui est également estenduë entre ses poincts.
+La Superficie est, ce qui a tant seulement longueur & largeur, comme ABCD.
 
 (figure)
 
-Les Mathematiciens considerent trois sortes de lignes, la droite comme AB, la circulaire ou courbe, comme CD, & la mixte, qui est composée de l'vne & de l'autre. Euclide descrit en ce lieu la droite, en laquelle il n'y a rien de courbe, & n'est point plus abaissé
+VI.
+
+Mais les extremitez de la superficie sont lignes.
+
+VII.
+
+Superficie plane, est celle qui est également estenduë entre ses lignes.
+
+VIII.
+
+Angle plan est l'inclination de deux lignes, lesquelles se touchent l'vne l'autre en vn plan, & ne se rencontrent directement.
+
+La quantité de tout angle consiste en la seule inclination, & non en la longueur des lignes, car le prolongement des lignes n'augmente point leur inclination, ny par consequent la quantité de l'angle.
+
+IX.
+
+Or quand les lignes, qui comprennent l'angle, sont droites, l'angle s'appelle Rectiligne.

@@ -1,41 +1,38 @@
-# Page 66
+# Page 67
 
-# LES ELEMENTS
-
-d.β. (c'est à dire, demonstration β.) signifie qu'il faut demonstrer que l'angle A est égal à l'angle C, par la mesme methode, qu'il a esté demonstré, que l'angle D est égal à l'angle B.
-
-COROLLAIRE I.
-
-De cette proposition s'ensuit, que deux lignes droictes s'entrecoupant l'vne l'autre, font quatre angles égaux à quatre angles droicts.
-
-COROLL. II.
-
-Il s'ensuit aussi que tous les angles constituez à l'entour d'vn mesme poinct, sont tant seulement égaux à quatre angles droicts.
-
-SCHOLIE I.
-
-Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles opposez au sommet égaux entr'eux : icelles lignes droictes se rencontreront directement.
-
-(figure)
+# D'EVCLIDE, LIV. I.
 
 *Hypoth.*
 
-gah *eſt* ——,
-∠d 2|2 ∠b.
+∠aed 2|2 ∠ceb, α
+∠aec 2|2 ∠deb. α
+
+(figure)
 
 *Req. à demonſtr.*
 
-eaf *eſt* ——.
+aeb & ced *ſnt* ——.
 
 *Demonſtr.*
 
-hyp. | ∠d 2|2 ∠b,
-∠a *commun. add.*
-2.a.1 | ∠d + ∠a 2|2 ∠b + ∠a,
-α.13.1 | ∠d + ∠a 2|2 2┘,
-1.a.1 | ∠b + ∠a 2|2 2┘,
-concl. 14.1 | eaf *eſt* ——.
+2.c.15.1 | ∠aed + ∠aec + ∠ceb + ∠deb 2|2 4┘,
+α.2.a.1 | ∠aed + ∠aec 2|2 ∠ceb + ∠deb,
+19.a.b | ∠aed + ∠aec 2|2 2┘,
+1.concl. 14.1 | ced *eſt* ——,
+2.concl. 1.ſ.15.1 | aeb *eſt* ——.
 
-SCHOL. II.
+THEOR. IX. PROPOS. XVI.
 
-Si quatre lignes droictes tirées d'vn mesme poinct font les angles opposez au sommet égaux entr'eux, chaque deux lignes opposées seront constituées directement.
+De tout triangle, vn costé estant prolongé, l'angle externe est plus grand que chacun des internes & opposez.
+
+Tout angle qui est hors d'vn triangle ne s'appelle pas externe, mais seulement ceux qui sont contigus ou de suite, aux angles internes d'vn triangle se nomment externes. Comme du triangle ABC ayant continuez directement les costez BC & AC iusques en D & G, les angles ACD & BCG sont externes, à cause qu'ils sont de suite à l'interne ACB : mais l'angle GCD, qui n'est pas de suite à vn angle interne, n'est pas externe.
+
+*Hypoth.*
+
+abc *eſt* △,
+bcd *eſt* ——,
+
+*Req. à demonſtr.*
+
+∠acd 3|2 ∠cab,
+∠acd 3|2 ∠cba,

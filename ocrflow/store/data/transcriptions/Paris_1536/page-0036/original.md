@@ -1,31 +1,33 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-Recta ergo c/h/consistens super datã rectam lineã a/b,æquales vtrobiq; facit angulos:ergo rectos.Et proinde c/h/perpendicularis est super a/b,per decimam diffinitionem.Super datam itaque rectam lineam infinitã a/b,à dato puncto c/quod in ea non est,deducta est perpendicularis c/h.Quod fecisse oportuit.
+b,duæ rectæ lineæ b/c, & b/d, altera quidem ad læuam c, reliqua verò ad dextram parté d/conueniétes,angulos efficiant a/b/c/& a/b/d, aut rectos,aut duobus rectis æquales. Aio propterea,rectam lineam b/d,in directum ipsius b/c/fore cóstitutam, hoc est, vnam eandémq; rectam efficere lineá. Nam si recta b/d,non fuerit in directum ipsius b/c/constituta:producta b/c/in continuú rectúmq;,ab ipso b/versus e, per secundum postulatum,non cadet ipsa b/e/cum b/d. Cadat ergo(si possibile sit) inter a/b/& b/d. Recta igitur a/b,incideret super rectam c/e/ad angulos a/b/c/& a/b/e,aut rectos, vel duobus rectis æquales,per decimãtertiam propositioné.Atqui duo anguli a/b/c/ & a/b/d/ aut recti sunt,aut binis itidem rectis æquales,per hypothesin.Anguli itaq; a/b/c/& a/b/d,angulis a/b/c/& a/b/e, forent per primam communé sententiã æquales.Dempto igitur communi angulo a/b/c:reliquus a/b/d/ reliquo a/b/e,per tertiam communem sententiam æquaretur,maior minori,hoc est,totú suæ parti:quod per nonam communem sententiam est impossibile.Idem quoq; deducetur inconueniens,si producta b/e,detur incidere sub ipsa b/d.In directum est igitur b/d/ipsi b/c.quod demonstrandum fuerat.Si ad aliquã igitur rectam lineam, atq; ad eius púctum duæ rectæ lineæ,&c.vt in theoremate.
 
-> Cum [?] recta linea super rectam consistens lineam [?]
+> Demóstratio ab impossibili
 
-Θεώρημα ς, Πρόθεσις ιγ.
+*[diagram: a c b e d]*
 
-Ὡς ἂν εὐθεῖα ἐπ' εὐθεῖαν σταθεῖσα γωνίας ποιῇ, ἤτοι δύο ὀρθὰς,ἢ δυσὶν ὀρθαῖς ἴσας ποιήσει.
+Θεώρημα η, Πρόθεσις ιε.
 
-## Theorema 6, Propositio 13.
+Ἐὰν δύο εὐθεῖαι τέμνωσιν ἀλλήλας, τὰς κατὰ κορυφὴν γωνίας ἴσας ἀλλήλαις ποιήσουσιν.
 
-CVm recta linea super rectam consistens lineã angulos fecerit: aut duos rectos,aut duobus rectis æquales efficiet.
+## Theorema 8, Propositio 15.
 
-ORONTIVS. ¶Incidat inquàm a/b/recta,super rectam c/d,efficiens angulos a/b/c/& a/b/d. Anguli itaque a/b/c/& a/b/d,aut sunt æquales adinuicé,aut inæquales.Si æquales,ergo recti,per decimam diffinitioné:prima igitur pars vera. Quòd si inæquales extiterint ipsi a/b/c/& a/b/d/anguli,vtpote,a/b/c/recto minor,& eodé recto maior a/b/d: dico nihilominus eosdé angulos a/b/c/& a/b/d,fore binis rectis angulis æquales.Quoniam a/b/c/& a/b/d/anguli sunt inæquales:non est igitur a/b/ recta,perpendicularis super rectam c/d, per conuersam ipsius decimæ diffinitionis. Excitetur ergo super data recta linea c/d,à dato in ea puncto b, perpédicularis b/e, per vndecimam propositionem.Diuidet itaq; recta b/e/angulum a/b/d/ recto maiorem:necnó recta a/b,ipsum angulum e/b/c/rectú,maiorem acuto a/b/c. Aequus est igitur angulus e/b/c, binis angulis a/b/c/& a/b/e. communis adijciatur angulus e/b/d.bini itaq; anguli e/b/c/& e/b/d,tribus angulis, hoc est a/b/c,a/b/e,& e/b/d,sunt æquales, per secúdam commune sentétiam.Angulus rursum a/b/d,æquus est duobus angulis a/b/e/ & e/b/d. communis addatur angulus a/b/c. Duo igitur anguli a/b/c/& a/b/d, tribus angulis, vtpote,a/b/c,a/b/e,& e/b/d,sunt per eandé secundã commune sententiã æquales.Atqui monstratú est,q̃ & anguli e/b/c/& e/b/d,eisdem tribus æquantur angulis. Anguli porrò qui eisdem sunt æquales angulis, adinuicem quoq; sunt æquales, per primam cómunem sentétiam.Igitur anguli a/b/c/& a/b/d, duobus e/b/c/& e/b/d/sunt æquales.Sút autem per constructionem anguli e/b/c/& e/b/d/recti.& duo igitur anguli a/b/c/& a/b/d, binis sunt rectis æquales.Idem etiã ostendetur,vbi a/b/c/ angulus,fuerit maior ipso a/b/d. Cùm igitur recta linea,super rectam consistens lineam, angulos fecerit:aut duos rectos,aut duobus rectis æquales efficiet. Quod oportebat demonstrare.
+SI duæ rectæ lineæ se adinuicé secuerint:angulos qui circa verticem sunt æquos adinuicem efficient.
 
-*[diagram: a e c b d]*
+ORONTIVS.¶Secent se adinuicem binæ rectæ lineæ a/b,& c/d,in púcto quidem e:dico quòd angulus a/e/c, æquus est angulo b/e/d,circa e/verticem posito.Incidit enim recta c/e /in rectam a/b,efficiens angulos a/e/c/& c/e/b/duobus rectis æquales : per decimamtertiam propositionem.Recta insuper b/e/ incidens super rectam c/d,facit angulos c/e/b/& b/e/d/binis itidem rectis æquales:per eãdem decimamtertiam propositioné. Anguli porrò qui eisdem,vtpote binis rectis æquantur: & hi quoq; sunt adinuicem æquales, per primã communem sententiam.Et duo igitur anguli a/e/c/& c/e/b,duobus angulis c/e/b/& b/e/d/ sunt æquales. Dempto itaque communi c/e/b:reliquus a/e/c/reliquo b/e/d,per tertiam communem sentétiam est æqualis.Simili discursu monstrabitur,q̃ anguli a/e/d/& c/e/b/sunt æquales adinuicem. Si duæ igitur rectæ lineæ se adinuicem secuerint,angulos qui circa verticem sunt, æquos adinuicem efficient.Quod oportebat ostendere.
 
-*[diagram: abc. / ebc. abc. abc. / ebd. ebd. abd.]*
+*[diagram: c b e a d]*
 
-Θεώρημα ζ, Πρόθεσις ιδ.
+## Corollarium.
 
-Ἐὰν πρός τινι εὐθείᾳ καὶ τῷ πρὸς αὐτῇ σημείῳ, δύο εὐθεῖαι μὴ ἐπὶ τὰ αὐτὰ μέρη κείμεναι, τὰς ἐφεξῆς γωνίας δυσὶν ὀρθαῖς ἴσας ποιῶσιν,ἐπ' εὐθείας ἔσονται ἀλλήλαις αἱ εὐθεῖαι.
+¶Hinc manifestum est,quotlibet rectas lineas in eodem púcto sese adinuicem intersecantes,angulos efficere quatuor rectis æquales.
 
-## Theorema 7, Propositio 14.
+Θεώρημα θ, Πρόθεσις ις.
 
-SI ad aliquam rectam lineam, atque ad eius punctum,duæ rectæ lineæ non ad easdem partes ductæ, vtrobique duobus rectis angulos æquales fecerint: ipsæ in directum rectæ lineæ adinuicem erunt.
+Παντὸς τριγώνου μιᾶς τῶν πλευρῶν ἐκβληθείσης,ἡ ἐκτὸς γωνία, ἑκατέρας τῶν ἐντὸς καὶ ἀπ' ἐναντίον μείζων ἐστί.
 
-ORONTIVS.¶Ad datam enim rectam lineam a/b, atque ad eius punctum
+## Theorema 9, Propositio 16.
 
-b.iiij.
+OMnis triáguli vno latere producto,exterior angulus vtrisq; interioribus & ex opposito maior est.
+
+ORONTIVS. ¶Esto datum a/b/c/triágulum,cuius vnum latus,vtpote b/c,

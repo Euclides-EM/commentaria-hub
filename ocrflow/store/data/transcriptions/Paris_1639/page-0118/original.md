@@ -1,38 +1,39 @@
-# Page 117
+# Page 118
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-*Req. à demonſtr.*
+*Req. à demonſtrer.*
 
-2▭.adb + □.fd 2|2 □.ad + □.db.
+4▭.abc + □.ac 2|2 □.ad,
 
 *Preparation.*
 
-aeb *eſt la figure du ſcholie de la 6. du 2.*
+46.1 | ae *eſt* □.ad,
+1.p.1 | fd *eſt diametre*,
+31.1 | bg == af, ci == af, lhm == ad, okp == ad.
 
-*Demonſtration.*
+(figure)
 
-hyp. | af 2|2 db,
-concl. 7.2 | □.ad + □.af 2|2 □.fd + 2▭daf Ⅱ adb,
+*Demonſtr.*
 
-*Explication par nombres.*
+1.c.4.2 | oi *eſt* □.ac, bm *eſt* □.bd, nq *eſt* □.cb.
+hyp. | cb 2|2 bd. α
+ſ.46.1 | □ch, □bm, □nq, □hp, *ſnt* 2|2 đe.
+3.ſ.1.d.2 | ▭.abc, ▭ah, ▭he, ▭lq, ▭ng, *ſnt* 2|2 đe.
+αſ.46.1 nota | □bm 2|2 □nq,
+2.a.1 | 4▭.abc 2|2 *gnom.* odi,
+concl. 19.a.1 | *gnom.* odi + oi □.ac 2|2 ae □.ad,
+1.a.g | 4▭.abc + □.ac 2|2 □.ad.
 
-hyp. | ad *eſt* 5, α
-hyp. | db *eſt* 2, β
-3.a.1 | fd *eſt* 3, γ
-αβ | 2▭.adb *ſnt* 20,
-γ | □fd *eſt* 9,
-1.concl. 2.a.1 | 2▭.adb + □.fd *ſnt* 29,
-α | □.ad *eſt* 25,
-β | □db *eſt* 4,
-2 concl. 19.4.1 | □.ad + □.db *ſnt* 29.
+SCHOLIE.
 
-THEOR. VIII. PROPOS. VIII.
+*La meſme propoſition ſe peut propoſer ainſi.*
 
-Si vne ligne droicte est couppée comme on voudra: quatre fois le rectangle, contenu sous la toute & l'vn des segments auec le quarré de l'autre segment, est égal au quarré descrit de la toute & dudit segment, comme d'vne.
+Si vne ligne droicte est couppée en deux parties inégales, le rectangle contenu quatre fois sous les deux parties, auec le quarré de la difference des parties, est égal au quarré de la toute.
 
-*Hypoth.*
+*Hypotheſe.*
 
-ab *eſt* ——,
-ac & cb *ſont parties de* ab,
-bd 2|2 cb.
+*Voyez la figure precedente.*
+
+ad *eſt* ——: ab *eſt* 3|2 bd:
+bc *eſt* 2|2 bd: ac *eſt excez.*

@@ -1,29 +1,31 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-ORONTIVS. ¶ Sint a b c d & e f g h parallelogramma, in baſibus æqualibus c d & g h, atque in eiſdem parallelis a f & c h cóſiſtentia. Dico a b c d parallelogrammum, æquari parallelogrammo e f g h. Connectantur enim rectæ c e & d f, per primum poſtulatum. Et quoniam parallelogrammum eſt e f g h, æqualis eſt e f ipſi g h, per trigeſimamquartā propoſitionem. Eidem quoq; g h, æqualis eſt c d, per hypotheſin. Binæ igitur c d & e f, eidem g h ſunt æquales: & propterea æquales adinuicem, per primam communem ſentētiam. ſúntq; adinuicem parallelæ, ex hypotheſi. Quæ autem æquales & parallelas coniungunt lineæ rectæ, æquales ſunt & parallelæ, per trigeſimamtertiam propoſitionem: & c e igitur atque d f æquales ſunt & parallelæ. Parallelogrammum eſt itaque c d e f. Ipſi porrò c d e f parallelogrammo, æquum eſt a b c d parallelogrammum, per trigeſimamquintam propoſitionē: in eadem enim baſi c d, atque in eiſdem parallelis a f & c h conſti-
+ORONTIVS. ¶ Sint a b c & d e f triangula, in baſibus æqualibus b c & e f, in eiſdémq; parallelis a d & b f conſtituta. Aio triangulum a b c, æquū eſſe d e f triangulo. Producatur enim vtrobique in directum & continuum recta a d, vſq; ad g & h puncta, per ſecundum poſtulatum. Et per datum punctum b, datæ rectæ lineæ a c, parallela ducatur b g: atq; per f punctum ipſi d e parallela f h, per trigeſimamprimam propoſitionem. Sunt igitur a c b g & d e f h parallelogramma, in baſibus quidem æqualibus b c & e f, ac in eiſdem parallelis b f & g h per hy-
 
-*[diagram: a b e f / c d g h]*
+*[diagram: g a d h / b c e f]*
 
-tuūtur. Et per eandem trigeſimamquintam propoſitionem, e f g h parallelogrāmum, æquum eſt ipſi c d e f parallelogrammo: ſunt enim in eadem baſi e f, atque in eiſdem parallelis a f & c h. Bina igitur parallelogramma a b c d & e f g h, eidem parallelogrammo c d e f ſunt æqualia: quapropter & æqualia adinuicem, per primam cómunem ſentētiam. Idem etiam oſtendere licebit, de quacunq; parallelogrammorum diſpoſitione: hypotheſi ſeruata. Parallelográma igitur in baſibus æqualibus: & cætera, vt in theoremate. Quod demonſtrare oportebat.
+potheſin conſtituta: & propter id æqualia adinuicem, per trigeſimamſextam propoſitionem. Atqui parallelogramma a c b g & d e f h, à dimetientibus a b & d f bifariam ſecantur, per trigeſimamquartam propoſitionem. Eſt igitur a b c triāgulum dimidiū ipſius a c b g parallelogrammi, atq; triāgulum d e f ipſius d e f h parallelogrammi dimidium. Quæ autē æqualium ſunt dimidium, ea ſunt adinuicē æqualia, per ſeptimam communem ſententiam. æquum eſt igitur triangulum a b c, ipſi d e f triangulo. Triangula itaq; in æqualibus baſibus: &c. vt in theoremate. Quod demonſtrandum erat.
 
-Θεώρημα κζ, Πρόθεσις λζ.
+Θεώρημα κθ, Πρόθεσις λθ.
 
-ΤΑ τρίγωνα τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα καὶ ἐν ταῖς αὐταῖς παραλλήλοις ἴσα ἀλλήλοις ἐστίν.
+ΤΑ ἴσα τρίγωνα τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα καὶ ἐπὶ τὰ αὐτὰ μέρη, καὶ ἐν ταῖς αὐταῖς παραλλήλοις ἐστίν.
 
-## Theorema 27, Propoſitio 37.
+## Theorema 29, Propoſitio 39.
 
-TRiangula in eadem baſi, & in eiſdem parallelis conſtituta: adinuicem ſunt æqualia.
+TRiangulaęqualia, in eadem baſi conſtituta, & ad eaſdem partes: & in eiſdem ſunt parallelis.
 
-ORONTIVS. ¶ Sint triangula a b c & d b c, in eadem baſi b c, atq; in eiſdē parallelis a d & b c exiſtentia. Dico triangulum a b c, æquari propterea triangulo d b c. Producatur enim vtrobique a d recta, vſq; ad puncta e & f, per primum poſtulatum. & per punctum b datæ rectæ lineæ a c, parallela ducatur b e: atq; ipſi b d parallela c f, per trigeſimamprimā propoſitionem. Sunt itaq; a c b e & d b c f
+> Conuerſa 37.
 
-*[diagram: e a d f / b c]*
+ORONTIVS. ¶ Sint in eadem baſi b c, atq; ad eaſdem partes a & d triangula a b c & d b c adinuicem æqualia. Dico q̊ ex a in d cónexa linea recta, ipſi b c eſt parallela. Si nanq; a d non fuerit parallela ipſi b c: poterit per datum punctum a, ipſi b c duci parallela, per trigeſimamprimā propoſitionem. Ducatur igitur, & ſit a e: quæ vel incidet ſub a d, aut ſupra. Cadat primo infra, ſi poſſibile ſit: & per primū poſtulatum cónectatur recta c e. quæ cùm incidat intra d b c triangulum, & ab angulo qui ad c in b d ſubtenſum latus extendatur: diuidet ipſum d b c triangulum.
 
-parallelogramma, & in eadem baſi b c, atque in eiſdem parallelis b c & e f, per hypotheſin cóſtituta: igitur adinuicem æqualia, per trigeſimamquintam propoſitionē. Triangulum porrò a b c, dimidiū eſt parallelogrammi a c b e, atq; d b c, triāgulum dimidiū ipſius d b c f parallelogrammi: dimetientes enim a b & c d, ipſa bifariam ſecant parallelogramma, per trigeſimamquartam propoſitionem. Quæ autem æqualium ſunt dimidiū, æqualia ſunt adinuicem, per ſeptimam communē ſententiam. Igitur a b c triangulum, æquum eſt d b c triāgulo. Ergo triangula in eadem baſi: & quæ ſequūtur reliqua. Quod oſtendendum fuerat.
+> Prima oſtenſionis differētia.
 
-Θεώρημα κη, Πρόθεσις λη.
+Erunt itaq; a b c & e b c triangula in eadem baſi b c, ac in eiſdem parallelis a e & b c conſtituta: æquum erit propterea triangulum e b c, ipſi a b c triangulo, per trigeſimamſeptimā propoſitionem. Eidem porrò a b c triangulo, æquū eſt d b c triangulum, per hypotheſin. Bina itaq; triangula d b c & e b c, eidem a b c trian-
 
-ΤΑ τρίγωνα τὰ ἐπὶ τῶν ἴσων βάσεων ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστίν.
+*[diagram: a d e / b c]*
 
-## Theorema 28, Propoſitio 38.
+gulo erunt æqualia: & proinde æqualia adinuicem, per primam communē ſententiam. Triāgulum ergo d b c, æquum erit ipſi e b c, maius ſcilicet minori, ſeu (mauis) totū ſuæ parti: quod nó eſt poſſibile. Non cadit igitur a e parallela ſub a d. ¶ Idem ſequetur inconueniens, ſi eadē
 
-TRiangula in æqualibus baſibus, & in eiſdem parallelis conſtituta: adinuicem ſunt æqualia.
+> Secūda differentia.
+
+a e detur incidere ſuper a d. Producta enim b d per ſecundum poſtulatum, conueniet tandem cum ipſa a e, per quintum poſtulatum: propterea quòd recta a b, incidens in a e & b d rectas, facit interiores angulos & ad eaſdē partes a b d & b a e minores duobus rectis (nempe minores a b c & b a c angulis, qui per tertiam partem vigeſimænonæ propoſitionis erunt binis rectis æquales) Connexa itaq; c e recta, per primum poſtulatū, ea cadet extra d b c triangulum: fiet propterea triangulum d b c, pars ipſius e b c trianguli. Vtrunque rurſum, ipſi a b c concludetur æquale (e b c quidem per trigeſimamſeptimā propoſitionē, & d b c per hypotheſin) & e b c conſequenter ipſi d b c, totum ſuæ parti: quod rurſum eſt impoſſibile.

@@ -1,32 +1,37 @@
-# Page 278
+# Page 279
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
+
+C'est à dire, que si le parallelogramme AEFG est semblable au parallelogramme total ADCB, le diametre AF sera partie du diametre total AC.
 
 (figure)
 
-*Conſtr.*
+*Hypoth.*
 
-45.1 | ▭abli 2|2 abcdc,
-44.1 | ▭bhml 2|2 *rectili.* f,
-14.1 | abh *eſt* ——,
-3.p.1 | agh *eſt ſemic.*
-2.p.1 | lbg *eſt* ——,
-3.1 | no 2|2 bg,
-18.6 | *rectili.* p *ſml.* abedc,
-ſymp. | *req. eſt rectili.* p.
+◊agfe *ſml.* ◊abcd,
+∠eag *eſt commun.*
+ag *homolog.* ab.
+
+*Req. à demonſtrer.*
+
+afc *eſt* ——,
 
 *Demonſtr.*
 
-10.d.1 | gb ⊥ ah,
-c.13.6 | ab π bg,
-| bg Ⅱ no π bh,
-c.20.6 | abedc π p 2|2 ab π bh
-1.6 | ab π bh 2|2 al π bm,
-11.5 | abedc π p 2|2 al π bm
-conſtr. | abedc 2|2 ▭al,
-1.concl. 14.5 | *rectili.* p 2|2 bm Ⅱ f,
-2 concl. conſtr. | *rectili.* p *ſml.* abedc.
+ſuppoſ. | ahc *eſt* ——,
+31.1 | hi == ae,
+24.6 | aehi *ſml.* abcd,
+hyp. | aefg *ſml.* abcd,
+21.6 | aehi *ſml.* aefg.
+11.5 | ae π eh 2|2 ae π ef,
+9.5 | eh 2|2 ef,
+| *contr. 9.a.1.*
+3.concl. 21.a.1 | afc *eſt* ——.
 
-THEOR. XIX. PROPOS. XXVI.
+THEOR. XX. PROPOS. XXVII.
 
-Si d'vn parallelogramme on retranche vn parallelogramme semblable au tout, & semblablement posé, ayant vn angle commun auec le tout; le retranché est à l'entour d'vn mesme diametre auec le tout.
+De tous les parallelogrammes appliquez selon vne mesme ligne droicte, & defaillans de figures parallelogrammes semblables, & semblablement posées à celuy qui est descrit sur la moitié, le plus grand est celuy qui est appliqué à la moitié estant semblable au defaut.
+
+La ligne proposée à laquelle il faut appliquer les parallelogrammes AD & AG est AB, le defaut du parallelogramme ACDH est CBED, & le defaut du parallelogramme AKGF est KBIG, ces deux defaux CE &
+
+(figure)

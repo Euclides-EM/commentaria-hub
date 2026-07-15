@@ -1,34 +1,48 @@
-# Page 280
+# Page 281
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. VI.
 
-KI, par la 24. du 6. sont semblables entr'eux, & faut demonstrer que le parallelogramme AD, descrit sur AC, qui est la moitié de AB, est plus grand que le parallelogramme AG, descrit sur AK, ou autre partie de AB, plus grande ou plus petite que la moitié AC.
+blables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir d'vn semblable.
 
 (figure)
 
-*Hypoth.*
+*Hypotheſe.*
 
-ac 2|2 cb, α
-◊acdh *ſml.* ◊cbed,
-cb *eſt diametr.*
-κ *en* ab *eſt arbitr.*
-κgn == be, fgi == ab.
+ab *eſt* —— D.
+c *eſt rectili.* D.
+d *eſt* ◊ D.
 
-*Req. à demonſtr.*
+*Req. à faire.*
 
-◊acdh 3|2 ◊aκgf.
+◊ap 2|2 *rectili.* c,
+◊zr *ſml.* ◊d.
+
+*Conſtr.*
+
+10.1 | ae 2|2 eb, α
+18.1 | ◊eg *ſml.* ◊d,
+1.p.1 | fb *eſt* ——,
+31.1 | ah == ef,
+2.p.1 | gfh *eſt* ——,
+hyp. | c *ñ eſt* 3|2 ◊af, Ⅱ eg,
+c.45.1 | ◊eg 2|2 c + i, β
+25.6 | ◊nt 2|2 i, & *ſml.* d. γ
+3.1 | fo 2|2 κn,
+3.1 | fq 2|2 κt,
+31.1 | sor == ab,
+31.1 | zpq == ef,
+ſymp. | ◊ap *eſt le requis.*
 
 *Demonſtr.*
 
-1.concl. 24.6 | ◊κi *ſml.* ◊ce,
-c.43.1 | ◊κe 2|2 ◊ci,
-α.36.1 | ◊am 2|2 ◊ci,
-1.a.1 | ◊κe 2|2 ◊am,
-| ◊cg *commun. add.*
-2.a.1 | ◊ag 2|2 *gnom.* mbn,
-9.a.1 | ◊ce 3|2 *gnom.* mbn,
-2 concl. 1.a.c | ◊ce Ⅱ ◊ad 3|2 ◊ag.
+conſtr. 24.6 | ◊;d, eg, oq, zr, nt *ſnt ſml.* đe. δ
+βγcõſtr. | ◊eg 2|2 ◊nt + c,
+2.c.20.6 | ◊oq 2|2 ◊nt,
+3.a.1 | *gnom.* obq 2|2 c, ε
+α.36.1 | ◊ao 2|2 ◊er. Ⅱ ◊zg,
+| ◊ep *commun. add.*
+2.a.1 | *gnom.* obq 2|2 ◊ap,
+1.concl. ε.1.a.1 | ◊ap 2|2 c,
+2 concl. δ | zr *ſml.* ◊d.
 
-PROBL. VIII. PROPOS. XXVIII.
-
-A vne ligne droicte donnée appliquer vn parallelogramme égal à vne figure rectiligne donnée; defaillant d'vne figure parallelogramme, laquelle soit semblable à vn autre parallelogramme donné. Mais il faut que la figure rectiligne donnée, à laquelle il en faut appliquer vne égale, ne soit plus grande que celle qui est appliquée à la moitié de la ligne donnée; les defauts estans ſem-
+Si à la ligne donnée il faut appliquer vn parallelogramme de-

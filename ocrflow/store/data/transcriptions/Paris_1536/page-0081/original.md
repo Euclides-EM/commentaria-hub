@@ -1,21 +1,23 @@
-# GEOMET. ELEMENT.
+# LIBER III.
 
-64
+65
 
-Θεώρημα ς, Πρόθεσις ζ.
+> Tertia pars.
 
-Εαν κύκλου ἐπὶ τῆς διαμέτρου ληφθῇ τι σημεῖον, ὃ μή ἐστι κέντρον τοῦ κύκλου, ἀπὸ δὲ τοῦ σημείου προσπίπτωσιν εὐθεῖαι τινὲς πρὸς τὸν κύκλον, μεγίστη μὲν ἔσται ἐφ᾽ ἧς τὸ κέντρον, ἐλαχίστη δὲ ἡ λοιπή. τῶν δ᾽ ἄλλων ἀεὶ ἡ ἔγγιον τῆς διὰ τοῦ κέντρου, τῆς ἀπώτερον μείζων ἐστί. δύο δὲ μόνον εὐθεῖαι ἴσαι ἀπὸ τοῦ αὐτοῦ σημείου προσπεσοῦνται πρὸς τὸν κύκλον, ἐφ᾽ ἑκάτερα τῆς ἐλαχίστης.
+æqualis. ¶Aio tandem, quòd ipsi g/c, ab eodem puncto g, alia quàm g/h/non cadet æqualis. Si enim id possibile fuerit: aut illa cadet supra punctum h, vel infra. Si ceciderit supra versus a: tunc ipsa erit propinquior ei quæ per centrum, vtpote ipsi g/a, ergo maior ipsa g/h/remotiore, per primam partem iam demonstratam: & maior consequenter ipsa g/c. Quòd si detur incidere infra punctum h, versus e: tunc ipsa linea, remotior erit ab eadem g/a/quæ per centrum. ergo minor ipsa g/h/propinquiore, per eandem præostensam primam partem: & minor igitur ipsa g/c. Similiter ostendemus, q nec ipsi g/h/alia quàm g/c/dabitur æqualis, ab eodem puncto g, & ad partes b/d. De cæteris quibuscunq;, idem respondēter subsequetur. Igitur si in diametro circuli aliquod contingat punctū: & quæ sequuntur reliqua. Quod demonstrandum fuerat.
 
-## Theorema 6, Propositio 7.
+Θεώρημα ζ, Πρόθεσις η.
 
-SI in diametro circuli aliquod contingat punctum quod minimè circuli centrum sit, ab eóque puncto in circulum quædam rectæ lineæ procidant: maxima erit in qua centrum, minima verò reliqua. aliarum verò, semper propinquior ei quæ per centrum extenditur, remotiore maior est. Duæ autem solùm rectæ lineæ æquales, ab eodem puncto in circulum cadunt, ad vtrasque partes minimæ.
+Εαν κύκλου ληφθῇ τι σημεῖον ἐκτός, ἀπὸ δὲ τοῦ σημείου πρὸς τὸν κύκλον διαχθῶσιν εὐθεῖαι τινές, ὧν μία μὲν διὰ τοῦ κέντρου, αἱ δὲ λοιπαὶ ὡς ἔτυχε, τῶν μὲν πρὸς τὴν κοίλην περιφέρειαν προσπιπτουσῶν εὐθειῶν, μεγίστη μὲν ἡ διὰ τοῦ κέντρου. τῶν δὲ ἄλλων, ἀεὶ ἡ ἔγγιον τῆς διὰ τοῦ κέντρου, τῆς ἀπώτερον, μείζων ἐστί. τῶν δὲ πρὸς τὴν κυρτὴν περιφέρειαν προσπιπτουσῶν εὐθειῶν, ἐλαχίστη μὲν ἐστὶν ἡ μεταξὺ τοῦ τε σημείου καὶ τῆς διαμέτρου. τῶν δὲ ἄλλων ἀεὶ ἡ ἔγγιον τῆς ἐλαχίστης, τῆς ἀπώτερον ἐστὶν ἐλάττων. δύο δὲ μόνον εὐθεῖαι ἴσαι προσπεσοῦνται ἀπὸ τοῦ σημείου πρὸς τὸν κύκλον ἐφ᾽ ἑκάτερα τῆς ἐλαχίστης.
 
-> Pars prima theorematis.
+## Theorema 7, Propositio 8.
 
-ORONTIVS. ¶Esto datus circulus a/c/e/h, cuius centrum f, dimetiens verò a/f/e, & contingens in eo punctum g, quod non est circuli centrum: procidentes autem ex eodem puncto g/in ipsius circuli circunferentiam lineæ rectæ, sint g/b, g/c, & g/d. Aio primùm, q g/a/est omnium maxima, & g/e/minima: aliarum porrò, g/b/ipsi g/a/propinquior, maior ipsa g/c, atq; g/c/remotiore g/d/maior. Connectátur enim f/b, f/c, & f/d/rectæ, per primum postulatum. Cùm igitur f/a, ipsi f/b, per decimáquintam diffinitionem primi, sit æqualis, & vtriq; communis f/g: binæ igitur g/f/& f/a, duabus g/f/& f/b/sunt æquales. g/f/porrò & f/b, maiores sunt ipsa g/b: omnis siquidē trianguli bina latera, reliquo sunt maiora quomodocunq; assumpta, per vigesimam primi. Et g/a/igitur, ipsa g/b/maior est: quæ enim sunt æqualia, eiusdem sunt æquè maiora, per ipsius sextæ communis sententiæ conuersionem. Item quoniam æqualis est f/b/ipsi f/c, & g/f/rursum vtriq; communis: binæ igitur g/f/& f/b/trianguli g/f/b, duabus g/f/& f/c/trianguli g/f/c, sunt æquales altera alteri. Atqui g/f/b/angulus, maior est ipso g/f/c/sub æquis lateribus comprehenso: recta enim f/c, cadit inter f/b/& f/g, & diuidit propterea ipsum angulum g/f/b. Basis itaq; g/b, basi g/c/maior est, per vigesimamquartam primi. Simili discursu, g/c/ipsa g/d/maior ostendetur. Insuper quoniam f/g/& g/d/maiores sunt ipsa f/d, per ipsam vigesimam primi, & æqualis est f/e/ipsi f/d, per decimamquintam eiusdem primi diffinitionem: igitur f/g/& g/d, maiores sunt eadem f/e, quæ enim sunt æqualia, eiusdem sunt æquè minora, per septimæ communis sententiæ conuersionem. Tollatur cómunis f/g: ergo reliqua g/d/reliqua g/e, per quintam communem sententiam erit maior. Omnium itaq; maxima est g/a, minima verò reliqua g/e: aliarum porrò, g/b/maior ipsa g/c, & eadē g/c/ipsa g/d/itidem maior.
+SI extra circulum suscipiatur aliquod punctum, ab eóque puncto ad circulum deducantur rectæ lineę aliquæ, quarū quidem vna per centrum extendatur, reliquæ verò vtcunque: In cōuexam circunferentiam cadentium rectarum linearum, maxima est, quæ per centrū ducta est: In curuam verò circunferentiam cadentium rectarum linearum, minima est, quæ inter punctum & dimetientē iacet. minimæ verò propinquior: semper remotiore minor est. Duæ autem tantùm rectæ lineæ, ab eo puncto cadunt æquales, ad vtrasque partes minimæ.
 
-*[diagram: a b c d e f g h]*
+> Prima pars theorematis.
 
-> Secunda pars
+ORONTIVS. ¶Esto circulus a/b/c, datum vero punctum extra circulum d: à quo in ipsum circulum procidāt rectæ lineæ d/a, d/e, d/f, & d/b, curuam eiusdem circuli circunferentiam in punctis g, h, k, c, dispescētes: quarum d/a/per ipsius circuli centrum (quod sit l) extendatur. Dico primum, q in a/b/ conuexā circunferētiam cadētium rectarum linearum, maxima est d/a, per l/centrum educta: & quæ illi vicinior d/e, remotiore d/f/maior, eademq; d/f/maior ipsa d/b. Connectantur enim l/e, l/f, & l/b/rectæ lineæ, per primum postulatum. Et quoniam æqualis est l/a/ipsi l/e, per decimamquintam diffinitionem primi, & vtriq; communis d/l: tota igitur d/a, ipsis d/l/& l/e, per secundam communem sententiam est æqualis. Atqui d/l, & l/e/bina ipsius d/l/e/ trianguli latera, sunt maiora reliquo d/e, per vigesimam primi: & ipsa igitur d/a, maior est ipsa d/e. æqualia enim eiusdem sunt æquè maiora, per sextæ communis sententiæ cóuersionem. Insuper, quoniam l/e/ipsi l/f, per eandem decimamquintam diffinitionem primi est æqualis, &
 
-¶Dico præterea quòd ab eodem puncto g, duæ rectæ lineæ coincidunt æquales, ad vtrasq; partes ipsius g/e/minimæ: vtpote ipsi g/c, æqualis versus h. Ad datam enim rectā lineam g/f, datúmq; in ea punctum f, dato angulo rectilineo g/f/c: æqualis angulus rectilineus constituatur g/f/h, per vigesimamtertiam primi. connectatur deinde g/h, per primum postulatum. Cùm igitur f/c, ipsi f/h/sit æqualis, per decimamquintā ipsius primi diffinitionem, & g/f/vtriq; communis: binæ ergo g/f/& f/c/trianguli g/f/c, duabus g/f/& f/h/trianguli g/f/h/sunt altera alteri æquales: & æquos inuicē comprehendunt angulos, per cōstructionem. Basis igitur g/c, basi g/h, per quartam eiusdem primi est
+*[diagram: a b c d e f g h k l m]*
+
+f.iij.

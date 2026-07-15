@@ -1,19 +1,15 @@
-# Page 406
+# Page 407
 
 # DES FORTIFICATIONS.
 
-le centre A, duquel, & de l'interualle AB, on descrira le cercle BGTQ, qu'on diuisera en parties égales par le moyen de BG, qui se trouuera en sa circonference autant de fois, qu'il y aura de costez au polygone proposé : comme en cet exemple, BG se trouuant cinq fois en la circonference, diuisera le cercle BGTQ en cinq parties égales.  Ayant ainsi diuisé le cercle, & mené les semi-diametres AB, AG, AT, &c. on fera tousiours l'angle HCF de 50 degrez : BI, TV, &c. égales à GE : GL, Tx, &c. égales à BF.  Puis ayant tiré GI, GV, TE, &c. & aussi FL, Lx, &c. si on fait les lignes des gorges LM, LY, &c. égales à la ligne de gorge FH : & les faces des bastions GN, GZ, &c. égales à la face BC, la construction de l'enceinte de la fortification BCHMNGZTQK sera acheué, de laquelle il faudra diuiser en deux parties égales vn chacun des angles B, C, H, M, N, &c. afin de pouuoir descrire plus facilement au dedans le rampart auec son parapet, & au dehors, la fausse-braye auec son parapet.
+pieds, mais nous luy auons donné 8 pieds de hauteur, afin que toutes les parties plus internes de la figure qui est en la page 198, à laquelle appartient ledit profil, commandent à celles qui sont plus externes : la largeur ou espesseur de son rampart est de 60 pieds : son parapet est égal & semblable à celuy du rampart, (car tous les parapets sont egaux & semblables entr'eux, horsmis celuy du corridor, qui est en glacis) la largeur de sa lisiere doit estre de 5 ou 6 pieds : son fossé a 80 pieds de largeur, 10 pieds de profondeur, & 10 pieds de talu de chaque costé, & luy reste 60 pieds de largeur au fonds.
 
-Or les mesures que doiuent auoir toutes les parties d'vne fortification en largeur, hauteur, & en leurs talus internes & externes, sont exprimées par pieds au profil, qui est au 3 tome, page 203, que nous expliquerons comme s'ensuit.
+Le corridor ou chemin couuert a 20 pieds de largeur, & son parapet 6 pieds de hauteur, & 50 ou 60 pieds de glacis.
 
-Que la largeur ou espesseur du rampart doit estre d'enuiron 68 pieds, sa hauteur de 14 ou 15 pieds, son talu interne égal à la hauteur, & l'externe égal à la moitié de la hauteur.
+Le rampart de la corne a de largeur ou espesseur 58 pieds, de hauteur 5 pieds, son talu interne double de la hauteur, & l'externe égal aux deux tiers de la hauteur : son parapet est égal & semblable à celuy du rampart. La largeur de sa lisiere est de 5 pieds, de son fossé de 52 pieds, la profondeur de 8 pieds, & aussi le talu de chaque costé de 8 pieds, & luy reste 36 pieds de largeur au fonds.
 
-La largeur ou espesseur du parapet du rampart doit estre de 20 pieds, la hauteur interne de 6 pieds, & l'externe de 4 pieds, le talu interne d'vn pied, & l'externe égal à la moitié de la hauteur, à sçauoir de 2 pieds.
+Le rampart du rauelin de la corne a d'espesseur 50 pieds, en hauteur 3 pieds, son talu interne double de la hauteur, & l'externe égal à la hauteur. Sa lisiere est de 3 pieds, son fossé large de 40 pieds, & profond de 8 pieds, auec autant de talu de chaque costé, de sorte qu'il ne luy reste que 24 pieds de largeur au fonds.
 
-La hauteur de la banquette d'vn pied & demy, & sa largeur de 2 ou 3 pieds.
+L'espesseur du rampart de la couronne est de 36 pieds, sa hauteur de 2 pieds, & à l'endroit de son parapet de 7 pieds : son talu interne triple de la hauteur, & l'externe égal à la hauteur : Son fossé a 22 pieds de largeur, & 6 pieds de profondeur : son talu interne de 5 pieds, & l'externe de 2 pieds, ayant vne banquette au fond large de 3 pieds, & haute d'vn pied & demy.
 
-Le chemin des rondes doit auoir en largeur 20 pieds, & son parapet égal & semblable à celuy du rampart.
-
-La largeur de la lisiere doit estre de 5 ou 6 pieds, & celle du fossé de 120 pieds, & 10 pieds en profondeur, auec autant de talu de chaque costé, de sorte qu'elle ne luy reste que 100 pieds de largeur au fonds.
-
-La hauteur du rauelin ou demy-lune est ordinairement de 4
+Des hauteurs de toutes ces parties est manifeste, que le rampart est esleué au dessus de sa demy-lune, de 6 pieds : Sa demy-lune au dessus de la corne, de 3 pieds : la corne au dessus de sa demy-lune, de 2 pieds : la demy-lune de la corne au dessus de la couronne, d'vn pied : & le parapet de la couronne au dessus de l'explanade ou campagne, de 7 pieds.

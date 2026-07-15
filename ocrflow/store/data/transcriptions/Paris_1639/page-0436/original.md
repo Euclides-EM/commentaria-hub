@@ -1,21 +1,7 @@
-# Page 435
+# Page 436
 
 # DES FORTIFICATIONS.
 
-On bat les places hautes des flancs pour oster les defenses ; cela se dit battre les defenses couuertes, cependant on gagne le fossé.
+vers le camp, en iettant la terre vers la ville ; & se doiuent faire lesdites tranchées ou approches auec le moins de détours que faire se pourra, afin qu'elles se puissent mieux garder, & que les munitions & autres choses necessaires à l'artillerie, y puissent estre conduicts plus facilement & seurement.  Car aux détours, elles sont tousiours descouuertes & battuës ; à quoy on remedie par gabions.  Ayant gagné la contrescarpe, si le fossé est sec, il faudra faire la trauerse pour aller au terre-plein ou rampart ; & parce qu'en ce fossé on pourra estre endommagé par les mousquetades, les iets de pierres, & les feux artificiels, on se couurira par le moyen d'vne gallerie haute de 7 ou 8 pieds, & large de 6 & 7 pieds ou plus (car elle sera d'autant meilleure qu'elle sera large) & longue selon la largeur du fossé, laquelle se doit construire & couurir d'vn pied, ou d'vn pied & demy de terre à mesure qu'on la construict, par des ais de chesne qu'on auroit apporté tous preparez pour cet effect.  Mais si le fossé est plein d'eau, il faudra le remplir de terre & fascines à fleur d'eau, puis faire la gallerie qui doit estre defenduë par gabions de ses deux costez, ou à tout le moins du costé du flanc qui la descouure.
 
-On bat les places basses du flanc, & pour ce faire, l'on enterre la batterie iusques au niueau de la place ennemie ; & cela se dit battre les defenses secretes de pres auec l'offense sousterraine : cependant l'on attaque la pointe du bastion.
-
-On bat encore les flancs en tirant contre la courtine en angle aigu, afin que la balle bricole dans le flanc : & cela s'appelle battre en bricolles.
-
-Ou bat la place d'armes & les chemins de terre pleins par caualiers ou plates-formes, esleuées de deux ou trois commandements plus hauts qu'iceux : & cela se dit battre ou foudroyer auec l'offense créee.
-
-On bat la face du bastion, pour faire la bresche propre à donner l'assaut : & cela s'appelle donner la batterie.
-
-Quand la matiere sera de muraille, & qu'estant tombée restera de grosses masses raboteuses & inégales, alors on bat en icelles pour les diminuer : & cela s'appelle battre en bresche.
-
-*Des tranchées, approches, & assauts.*
-
-Les tranchées sont necessaires tant pour s'approcher seurement de iour de la contrescarpe & du fossé, que pour empescher les ennemis de faire sorties, & s'approcher du lieu de la batterie, & les faut conduire en sorte qu'elles ne soient veuës au long, ny enfilées de la ville, en les faisant si profondes, qu'on soit à couuert par leur hauteur iusques au plan, sans conter le rampart qui doit estre vers la ville.  La largeur sera de 10 pieds ou enuiron, afin que les soldats y puissent marcher en ordre, trois à trois pour rang pour le moins, pour defendre lesdites tranchées, & repousser l'ennemy qui les voudroit assaillir.
-
-En celles qui sont pour enclorre, & fortifier le camp, on fait le fossé vers le dehors, en iettant la terre en dedans, laquelle se fortifie auec des petits forts de terre, qu'on appelle redoutes, si pres, qu'elles se puissent defendre l'vne l'autre auec l'harquebuse ou le mousquet : mais en celles qui sont pour gagner le chemin couuert & le fosse, qui se nomment proprement approches, on fair le fossé
+La gallerie estant paruenuë iusques au pan du bastion, on fera la bresche dans ce pan par sappes, par mines, & aussi à coups de canon s'il est reuestu de mur : puis ayant rendu la bresche suffisante pour l'assaillir, & la descente du fossé, & montée de la bresche aisée : & les soldats estans prefis & disposez de se ietter dedans, on fera destourner vn peu à costé l'artillerie qui battoit à la bresche pour l'appointer vers les parapets qui respondent sur les extremitez de la bresche, afin d'empescher que l'ennemy ne nous offense montant sur la bresche : mais l'artillerie qui estoit plantée pour battre & ruiner les defenses, ne se doit changer de sa place, ains on continuera la batterie d'icelle la plus frequente que faire se pourra, pour empescher que l'ennemy ne se puisse presenter durant l'assaut, & faudra continuer de tirer aux ennemis en quelque part qu'ils soient aux defenses, pour ne leur donner temps de nous ofenser ; & combattant à la bresche, on tiendra encore des soldats pour garder les portes par lesquelles les ennemis pourroient sortir ou entrer dans le fossé, & monter sur le corridor pour battre les nostres par

@@ -1,29 +1,25 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-**142**
+**143**
 
-triangula,sub eodem vertice d:& sub eadem consequēter altitudine. Et sicut igitur a/d/basis,ad basin d/b:sic basis a/e,ad basin e/c,per eandem vndecimam quinti.Secat ergo d/e/ parallela,ipsa a/ b/ & a/ c/latera,in punctis d/& e/ proportionaliter. ¶Sed iam esto vt a/d/ad d/b,sic a/e/ad e/c: & cónectatur recta d/e,per primum postulatum. Aio versa vice,d/e/ipsi b/c/ fore parallelam. Cónexis enim(veluti prius)b/e/atq̃ c/d/rectis,per idem primum postulatum: erit rursum,per primam huius sexti,triangulū a/d/e/ ad triangulum b/d/e, veluti basis a/d/ad basin d/b.At sicut a/d/ad d/b,sic per hypothesin a/e/ad e/c.Et sicut igitur per vndecimam quinti,a/e/ad e/c:sic a/d/e/triangulū,ad triangulū b/d/e.Sicut rursum per eandem primā sexti,a/e/basis,ad basin e/c: sic idem triāgulū a/d/e,ad triangulum c/e/d.Et proinde sicut a/d/e/triangulū,ad triangulum b/d/e:sic idem triangulum a/d/e,ad triangulū c/e/d,per vndecimā ipsius quinti.Idem ergo triangulum a/d/e,ad ipsa b/d/e/ & c/e/d/ triangula,eandem habet rationem. Ad quæ autem triangula,idem triangulum eandem habet rationem:& ipsa sunt inuicem æqualia, per nonam eiusdem quinti.Aequū est igitur b/d/e/triangulum, ipsi c/e/d/triāgulo.Quæ cùm in eadem sint basi d/e,& ad easdem partes:& in eisdem quoque sunt parallelis, per trigesimamnonā primi. Parallela est itaq; d/e, ipsi b/c. Si trianguli ergo ad vnum latus : &c. vt in theoremate. Quod demonstrare oportebat.
+ipsius primi decimamseptimā.  His ita constructis, quoniam in parallelas a/d/& b/e,rectæ incidunt a/b/& e/c: æqualis est angulus a/b/e/alterno b/a/d,necnon interior a/e/b/exteriori & ex opposito d/a/c,per vigesimamnonā primi. Atqui b/a/d/ & d/a/c/anguli,sunt inuicē per hypothesin æquales:duo itaq; anguli a/b/e/& a/e/b, æquales proinde sunt adinuicem.hinc latus a/b,lateri a/e,per sextam primi,æquale. Trianguli demū b/e/c,ad latus b/e/acta est parallelus a/d,per constructionē: secat igitur a/d/proportionaliter ipsius trianguli latera,per secundam huius sexti, sicut quidem b/d/ad d/c,sic e/a/ad a/c.Ipsi porrò e/a,ostēsa est æqualis b/a.æquales autē ad eandem,eandem habēt rationem:per septimā quinti.Et sicut igitur b/d,ad d/c: sic b/a,ad a/c.¶Sit autem vt b/d/ad d/c,sic b/a/ad a/c:& connectatur a/d/recta,per primum postulatum. Dico versa vice,quòd a/d/ recta bifariam discindit angulum b/a/c. Constructa enim vt prius figura, quoniam ex hypothesi receptum est,sicut b/d/ad d/c,sic b/a/ad a/c.sed per secundā huius sexti,sicut b/d/ad d/c,sic e/a/ad a/c: in triangulo enim b/e/d , ad latus b/e/acta est parallelus a/d.Binæ itaq; rationes,b/a/inquàm ad a/c, & e/a/ ad a/c, eidem rationi b/d/ad d/c/ sunt eædem : & propterea eædem adinuicem,per vndecimam quinti.Et sicut igitur b/a/ad a/c,sic e/a/ad eandem a/c.Quæ autem ad eandem,eandem habent rationem:æquales sunt adinuicem per nonam ipsius quinti.Aequalis est itaque b/a,ipsi e/a:& proinde qui ad basin b/e/sunt anguli,adinuicem æquales,per quintam primi, hoc est, a/b/e/ipsi a/e/b. Et quoniam parallela est a/d/ipsi b/e, & in eas incidunt a/b/& e/c/lineæ rectæ:æqualis est angulus b/a/d/alterno a/b/e, necnon & exterior angulus d/a/c/interiori & opposito a/e/b, per vigesimamnonā ipsius primi. Ostensum est autē,angulos a/b/e/& a/e/b/fore inuicem æquales. quæ verò æqualibus æqualia sunt,ea quoq; inuicem sunt æqualia:per primæ communis sententiæ interpretationem.Aequalis est igitur angulus b/a/d,angulo d/a/c.Et proinde angulus b/a/c,sub a/d/recta bifariam discinditur.  Si trianguli itaque angulus bifariam secetur:& quæ sequuntur reliqua.Quod demonstrandum susceperamus.
 
-*[diagram: a/d.d/b|a/d/e.c/e/d|a/e.c/e/]*
+> Primæ partis ostensio.
 
-> Partis secūdę demōstratio.
+> Pars secunda theorematis, conuersa primæ.
 
-*[diagram: a/e.c/e| a/d.d/b |a/d/e.b/d/e]*
+*[diagram: b/a.a/c. | b/d.d/c. | e/a.a/c.]*
 
-*[diagram: a/d/e.b/d/e|a/e.e/c|a/d/e.c/e/d]*
+Θεώρημα δ, Πρόθεσις δ.
 
-*[diagram: a d e b c]*
+Τῶμ ἰσογωνίωμ τριγώνωμ,ἀνάλογομ ἐσὶμ αἱ πλευραὶ αἱ περὶ τὰς ἴσας γωνίας: καὶ ὁμόλογοι αἱ ὑπὸ τὰς ἴσας γωνίας ὑποτείνουσαι πλευραί.
 
-Θεώρημα γ, Πρόθεσις γ.
+## Theorema 4, Propositio 4.
 
-Ἐὰμ τριγώνου γωνία δίχα τμηθῇ, ἡ δὲ τέμνουσα τὴμ γωνίαμ εὐθεῖα τέμνει καὶ τὴμ βάσιμ: τὰ τῆς βάσεως τὸμ αὐτὸμ ἕξει λόγομ ταῖς λοιπαῖς τοῦ τριγώνου πλευραῖς.& ἐὰμ τὰ τῆς βάσεως τμήματα, τὸμ αὐτὸμ ἔχει λόγομ ταῖς λοιπαῖς τοῦ τριγώνου πλευραῖς : ἀπὸ τῆς κορυφῆς ἐπὶ τὴμ τομήμ,ἐπιζευγνυμένη εὐθεῖα,δίχα τέμνει τὴμ τοῦ τριγώνου γωνίαμ.
+AEquiangulorum triangulorum , proportionalia sunt latera quæ circū æquales angulos: & similis sunt rationis,quæ æqualibus angulis latera subtenduntur.
 
-## Theorema 3, Propositio 3.
+ORONTIVS. ¶Sint bina triangula inuicem æquiangula,a/b/c/& d/c/e:sit'q; angulus a/b/c/æqualis angulo d/c/e,& b/a/c/angulus ipsi c/d/e,atq; a/c/b/ipsi angulo d/e/c. Aio latera ipsorum triangulorum a/b/c/& d/c/e,quæ circum æquales angulos,fore proportionalia:& quæ angulis subtenduntur æqualibus,eiusdem esse rationis.  Constituatur enim b/c/latus,in directum ipsius c/e:id autem efficietur, cùm anguli b/c/d/& d/c/e/ binis rectis fuerint æquales,per decimamquartā primi. Producantur insuper b/a/& e/d/latera in rectū & continuū ad partes a/& d,per secundum postulatū:donec tandem in vnum congrediantur punctū. Id enim per quintum postulatū euenire necessum est, propterea quòd anguli a/b/c/& a/c/b, duobus rectis per decimāseptimā primi
 
-SI trianguli angulus bifariam secetur,dispescens autem angulum recta linea secuerit & basin : basis segmenta eandem habebunt rationem,reliquis ipsius triāguli lateribus.Et si basis segmenta eandem habuerint rationem,reliquis ipsius trianguli lateribus:à vertice ad basin coniuncta recta linea, bifariam dispescit trianguli angulum.
+> Constructio figuræ.
 
-ORONTIVS. ¶Sit datum a/b/c/ triangulum, cuius angulus b/a/c/bifariam secetur,per nonam primi:recta quidem a/d,basin ipsam b/c/itidem secante in puncto d. Aio quòd b/d/ad d/c/se habet,vt b/a ad a/c.Per datum enim punctum b,datæ rectæ lineæ a/d,parallela ducatur b/e, per trigesimamprimam primi : producatúrque c/a/recta,per secundum postulatū,donec conuenerit in punctū e/cum ipsa b/e,feceritq; triāgulū b/e/c. Conueniet autem c/a/cum b/e, per quintum postulatū: propterea q̃ anguli e/b/c/& b/c/e,duobus rectis sunt minores. nā angulus e/b/c,exteriori & opposito a/d/c,per vigesimamnonam primi est æqualis:& duo anguli a/d/c/ & d/c/a/trianguli a/d/c,binis rectis minores existūt,per
-
-> Figuræ cōpositio.
-
-*[diagram: e a b d c]*
+*[diagram: f a d b c e]*

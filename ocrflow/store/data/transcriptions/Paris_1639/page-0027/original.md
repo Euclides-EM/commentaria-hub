@@ -1,23 +1,27 @@
-# Page 26
+# Page 27
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. I.
 
-poursuiure ceste infinité, il appelle toutes autres figures rectilignes, circonscrites de plus de quatre lignes, d'vn nom general Multilateres.
+XXVI.
 
-XXIII.
-
-Or des figures trilateres, celle qui a trois costez égaux, s'appelle triangle Equilateral, comme A.
+Au surplus des figures trilateres, le triangle ortogone ou rectangle est, celuy qui a vn angle droict, comme le triangle ABC.
 
 (figure)
 
-XXIV.
+XXVII.
 
-Mais le triangle Isoscele est, celuy qui a seulement deux costez égaux, comme le triangle B.
+L'Amblygone est celuy qui a vn angle obtus ou moussu, comme le triangle HFG.
+
+(figure)
+
+XXVIII.
+
+L'Oxygone est celuy qui a tous les trois angles aigus, comme le triangle C.
 
 (figure)
 
-XXV.
+*Vne figure est equiangle, si tous ses angles sont égaux entr'eux : mais deux figures sont equiangles, si chaque angle de l'vne est égal à chaque angle de l'autre.*
 
-Et le Scalene qui a les trois costez inégaux, comme le triangle DIE.
+XXIX.
 
-(figure)
+Or des figures quadrilateres, le quarré est celuy qui est equilatere & rectangle, comme ABCD.

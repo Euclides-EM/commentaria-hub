@@ -1,46 +1,29 @@
-# Page 249
+# Page 250
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-supposent qu'il y aye des nombres qui s'entresuiuent continuëment.
-
-*De la compoſition ou addition des raiſons.*
-
-L'addition des raisons est trouuer la raison des extrémes, toutes les raisons entremoyennes estant données, & se fait en multipliant tous les antecedens l'vn par l'autre continuëment, & aussi les consequens: ce faisant on trouuera que la raison de 2 à 3 auec la raison de 4 à 5, fait la raison de 8 à 15: & que les raisons de 2 à 3, 4 à 5, & 4 à 3, adjoustez ensemble, font la raison de 32 à 45.
-
-*Raiſons données.*
-
-2 à 3
-4 à 5
-———
-8 à 15
-———
-2 à 3
-4 à 5
-4 à 3
-———
-32 à 45
+cubiquement: & ce faisant on trouuera que la raison de 2 à 3 estant multiplié par 2 fait la raison 4 à 9: & estant multiplié par 3, elle fait la raison de 8 à 27.
 
 *Raiſons continuës du 1.exemple.*
 
-8. 12. 15.
+4. 6. 9.
 
 *Raiſons continuës du 2.exemple.*
 
-32. 48. 60. 45.
+8. 12. 18. 27.
 
-*De la ſouſtraction.*
+*De la diuiſion.*
 
-Soustraire est oster de la raison du premier au troisiesme, celle du mesme premier au second: que si on met la raison à soustraire en suite de celle de laquelle on la veut soustraire, la raison du produict des extrémes sera le requis: ce faisant on trouuera que de la raison de 3 à 2, ayant osté la raison de 4 à 3, restera la raison de 9 à 8.
+Diuiser est trouuer la raison du premier au second, estant donnée la raison des extrémes de plusieurs nombres continuellement proportionnaux: & se fait en prenant les racines denommées du diuiseur. C'est à dire, que pour diuiser par 2, il faudra extraire les racines quarrées de deux termes de la raison donnée: pour diuiser par 3, on deura prendre les racines cubes, & ainsi des autres: ce faisant on trouuera que la raison de 4 à 9 estant diuisée par 2, fait la raison de 2 à 3: & la raison de 8 à 27, estant diuisée par 3, donne aussi la mesme raison de 2 à 3.
 
-*Raiſons données.*
+*Raiſons continuës du 1.exemple.*
 
-3 à 2. 4 à 3.
+4. 6. 9.
 
-*Raiſons continuës.*
+*Raiſons continuës du 2.exemple.*
 
-12. 9. 8.
+8. 12. 18. 27.
 
-*De la multiplication.*
+SCHOLIE.
 
-Multiplier est trouuer la raison des extrémes, de plusieurs nombres continuëment proportionaux, la raison du premier au second estant donnée: & se fait en prenant les puissances qui ayent pour exposant le multiplicateur donné. C'est à dire, que si le multiplicateur est 2, il faudra multiplier les deux termes de la raison donnée quarrément: si le multiplicateur est 3, il faudra les multiplier
+A cause que la raison des lignes homologues de deux corps semblables est contenu deux fois en la raison des superficies des mesmes corps, & trois fois en la raison des soliditez de la multiplication & diuision des raisons s'ensuit, que si le diametre d'vne boule est contenu dix fois, par exemple, dans le diametre d'vne autre boule, que la superficie de la plus petite boule sera contenuë 100 fois dans la superficie de la plus grande: & la solidité de la plus petite 1000 fois dans la solidité de la plus grande. Il s'ensuit aussi qu'en vn pain de huict sols il y a quatre fois autant de crouste qu'en vn pain d'vn sol: & qu'vn sac de 4 aulnes con-

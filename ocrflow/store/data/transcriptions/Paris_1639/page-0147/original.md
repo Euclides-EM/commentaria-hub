@@ -1,46 +1,58 @@
-# Page 146
+# Page 147
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. III.
 
-*Demonſtration.*
+ſuppoſ. | d *eſt* • *d'attouch.* γ
+α15.d.1 | bd 2|2 ba,
+cb *commun. add.*
+2.a.1 | cb + bd 2|2 ca,
+γ15.d.1 | cd 2|2 ca,
+1.a.1 | cd 2|2 cb + bd,
+*contr. 20. 1.*
+concl. 21.a.1 | d *n'eſt* • *d'attouch.*
 
-ſuppoſ. | *le centre du* ⊙ced *eſt en* f. α
-1.p.1 | aigfe *eſt* ——,
-α15.d.1 | ge *eſt diamet.*
-15.d.1 | ai 2|2 ac,
-α.8.3 | ac 3|2 ag,
-1.a.d | ai 3|2 ag, *c.9.a.1.*
+*Hypoth. 2.*
 
-(figure)
-
-THEOR. XII. PROPOS. XIII.
-
-Vn cercle ne touche point vn cercle à plus d'vn poinct: soit qu'il le touche au dedans, ou au dehors.
-
-(figure)
-
-*Hypoth. 1.*
-
-caf, bad *ſnt* ⊙;
-a *eſt* • *d'attouchement.* α
+cae & feg *ſnt* ⊙;
+f *eſt* • *d'attouch.* δ
 
 *Req. à demonſtr.*
 
-hud *n'eſt* • *d'attouch.*
+e *n'eſt* • *d'attouch.*
 
 *Preparation.*
 
-1&2.p.1 | ab & bch *ſnt* ——,
-d *eſt* • *arbitr.*
-1.p.1 | bd, cd *ſnt* ——.
+1.p.1 | fe *eſt* ——.
 
 *Demonſtr.*
 
-ſuppoſ. | h *eſt* • *d'attouch.* β
-11.3 | abc *eſt* ——,
-β17.d.1 | abch *eſt diametre des* ⊙;bad & caf,
-15.d.1 | ah 2|2 2ab,
-15.d.1 | ah 2|2 2ac,
-α 7.a.1 | 2ab 2|2 2ac,
-*contr. 9. a. 1.*
-1.concl. 21.a.1 | h *n'eſt* • *d'attouch.*
+2.3 | fe *eſt dans le* ⊙afe, & *dans le* ⊙feg,
+2.3.d.3 | ⊙afe *couppe le* ⊙feg *en* f,
+*contr. hypoth.*
+concl. δ21.a.1 | f *n'eſt* • *d'attouch.*
+
+THEOR. XIII. PROPOS. XIV.
+
+Au cercle les lignes droictes égales sont également distantes du centre: & celles qui sont également distantes du centre, sont égales entr'elles.
+
+(figure)
+
+*Hypoth.*
+
+eabc *eſt* ⊙,
+ad 2|2 bc.
+
+*Preparation.*
+
+1.p.1 | ea & eb *ſnt* ——,
+12.1 | ef ⊥ ad, eg ⊥ bc. α
+
+*Req. à demonſtr.*
+
+ef 2|2 eg,
+
+*Demonſtration.*
+
+hyp. | ad 2|2 bc,
+α.3.3 | af 2|2 fd, bg 2|2 gc,
+7.a.1 | af 2|2 bg,

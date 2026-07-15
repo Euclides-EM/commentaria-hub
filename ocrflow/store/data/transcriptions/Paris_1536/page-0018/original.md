@@ -1,47 +1,61 @@
-*[decorative woodcut border]*
+# 2 &nbsp;&nbsp;&nbsp; GEOMET. ELEMENT.
 
-# Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Primum elementorum Euclidis, Demonstrationes.
+¶ εὐθεῖα γραμμή, ἐστιν ἥτις ἐξίσου τοῖς ἐφ᾽ ἑαυτῆς σημείοις κεῖται.
 
-## ¶ Principiorum Interpretatio.
+**4** Recta linea est, quæ ex æquali sua interiacet puncta.
 
-RECEPTVM EST AB OMNIBVS, VNAMQVANque disciplinã propria sibi vẽdicare principia: quę etsi nulla prorsus videãtur indigere probatione. ex ipsis tamen sanéq; intellectis principijs, ad ea quæ eadem consequũtur principia, deuenire vel facile cõtingit. Idcirco generalẽ principiorũ geometricorũ elucidationẽ, protheoriámve in sex priores libros geometricorũ elementorũ Euclidis Megarensis (quos in gratiam studiosorum omnium suscepimus interpretãdos) præmittere: atq; intellectualem illam magnitudinum, & figurarum cõtemplationem (prius, quàm ad propositionum expositionem deueniamus) rudioribus geometricarum speculationum tyrunculis aperire, non duximus importunum. ¶ Triplicem itaque principiorum offendimus ordinem: vtpote, diffinitiones, terminorum naturam exprimentes: postulata, ex ipsis collecta diffinitionibus: & effata, seu cõmunes sententias, quæ dicuntur axiomata In primis ergo diffinitiones: dein reliqua suo declarabimus ordine. ¶ Animaduertendum est igitur, subiectum ipsius Geometriæ fore magnitudinem, à numero quidem & materia seorsum abstractam. Magnitudinis autem, triplex assignatur dimensio Aut enim magnitudo longa tantùm imaginatur: aut longa, & lata: vel denique longa, & lata, simúlque profunda, siue crassa abstrahitur. Quorum omnium mediatum vel immediatum principiũ, punctum (alias signum) esse dicitur. Fingitur enim magnitudo per continuam suiipsius diuisionem (quãquàm in semper diuisibilia distribuatur) deuenire tandem ad partem minimam, quæ videlicet amplius diuidi non possit, ac si foret omni dimensione priuata: instar quidem vnitatis in discreta quantitate. Vt quemadmodum ex vnitatis multiplicatione, omnis conficitur numerus: haud dissimiliter ex huiuscemodi parte, vel indiuisibili nota, per abstractum seu transsumptiuum eiusdem notulę motum, omnem effingamus oriri seu produci magnitudinẽ. Hanc itaq; magnitudinis partem minimã, siue notulã indiuisibilem seorsum abstractam, punctum adpellamus: & ab Euclide ita primùm describitur,
+Vtpote, quæ à puncto in pũctum breuissimè ducitur, ipsa terminatiua puncta intermedijs æquali positione cõnectens: vti subscripta a/b/c/linea repręsentat. Cùm igitur à dato pũcto, in datum quodcũque punctum vnica sit breuissima via: fit, vt nulla recta linea rectior detur altera, sed quotquot ab eodem puncto ad idem punctum producentur lineæ rectæ, in vnam eandémq; lineam rectam coincidant. Secus est de obliqua: quæ per contrariam ipsius rectæ diffinitionẽ facilè describitur. nam ab eodem puncto ad idem punctum, infinitè producitur obliquæ lineæ, quæ circunferentiarum portiones adpellantur: dantúrque obliquis obliquiores. Veluti, quæ ab eodem pũcto a/ad punctum c/ per ipsum d/ protrahuntur, ostendunt. ¶ Ex lineæ autem imaginario fluxu, ac si succedentium adinuicem linearum vestigium relinqueret, latitudo dimensionum altera respondenter acquiritur, describitúrq; superficies.
 
-## ¶ De puncto, linea, atque superficie, Diffinitiones.
+*[diagram: a b c d]*
 
-¶ σημεῖόν ἐστι, ᾧ μέρος οὐθέν.
+¶ ἐπιφάνεια δ᾽ ἐστὶ, ὃ μῆκος καὶ πλάτος μόνον ἔχει.
 
-> Punctum
+**5** Superficies est, quæ longitudinem, latitudinémq; tantùm habet.
 
-**1** Punctum est, cuius pars nulla.
+Quæ cùm exordiatur à linea, & ipsius lineæ terminatiua puncta, ad motum eiusdem, rectam vel obliquam lineam describant, in eadémque linea mota quiescat ipsa superficies: relinquitur euidens quòd
 
-Id est, quod abstractũ à cõtinuo, velut ipsius cõtinui pars minima, omni dimẽsione priuatũ imaginatur ¶ Ex cuius quidẽ pũcti abstracto defluxu, per infinitã suiipsius multiplicationẽ, longitudo dimensionũ primaria cõficitur: quæ Linea vocitatur, in hunc diffinita modũ,
+¶ ἐπιφανείας πέρατα γραμμαί.
 
-¶ γραμμὴ δ᾽, μῆκος ἀπλατές.
+**6** Superficiei extrema sunt lineæ.
 
-**2** Linea verò, est longitudo latitudinis expers.
+Porrò cùm linea, ad descriptionem mota superficiei, recta fuerit, atq; in longum lineæ rectæ vniformiter, breuissiméque traducta: fit superficies, quæ plana dicitur, & in hunc diffinitur modum,
 
-Hoc est, latitudine priuata. Cũ enim punctũ omni careat dimẽsione: suo fluxu, seu trãssumptiuo motu, causat tantummodò longitudinem.
+¶ ἐπίπεδος ἐπιφάνεια, ἐστιν ἥτις ἐξίσου ταῖς ἐφ᾽ ἑαυτῆς εὐθείας ἔχει.
 
-¶ γραμμῆς δ᾽ πέρατα, σημεῖα.
+**7** Plana superficies est, quæ ex æquali suas interiacet lineas.
 
-**3** Lineæ autem limites, sunt puncta.
+Id est, quæ per totam rectam lineam quaquauersum accommodatur, nullo prorsus inflexa curuamine: veluti obiecta superficies e/f.
 
-Incipit enim à puncto, & ex infinitis conficitur punctis, in punctúmq; terminatur. Omnis porrò linea, vel recta, vel obliqua venit imaginanda.
+*[diagram: e f]*
 
-> Cuiuslibet disciplinæ propria recipienda fore principia
+Hinc curuæ superficiei diffinitio, per contrariam elicitur imaginationem: quæ ex ea parte qua circunflectitur, cõcaua: forinsecus autem, conuexa nominatur. quemadmodùm tibi repręsentat figura g/h.
+
+*[diagram: g h]*
+
+¶ Ex superficiei deniq; fluxu, solidum siue corpus trina dimẽsione, vtpote, longitudine, latitudine, atque profunditate contentũ, abstractiuè describitur. Quod vel vnica tantummodò superficie, vti sphæra k: pluribúsve superficiebus, vt cubum l/terminatur. Sed de his in posterioribus libris ipsius Euclidis tractandum. Igitur pro linearum atque superficierum varietate, diuersóque eorundem motu, seu abstracto defluxu: varia, & penè infinita tum planorum, tum etiam solidorum, hoc est superficierum & corporum abstrahitur multitudo, pro limitum & angulorum varietate, diuersis expressa nominibus.
+
+*[diagram: Sphæra k. Figura cubi l.]*
+
+## ¶ De rectilineis angulis.
+
+¶ ANGVLORVM IGITVR, QVIDAM PLANI: QVIDAM VErò solidi. Planos vocitamus angulos, qui ex mutua concurrentium adinuicem linearum causantur inclinatione. Solidi autem dicuntur anguli, qui ex planorum angulorum cõcursu figurantur: de quibus in postremis elementorum libris. Nunc itaque de planis tractandum angulis. Pro quorũ elucidatione animaduertendum est, quoties linea recta, altero limitum manente fixo, altero autem moto, completè circunducitur: describi superficiem, quæ circulus adpellatur. vtpote, si a/b/ recta, immoto puncto a, ex b/ in c, per d/ & e, rediens tandem
+
+> Recta linea
 >
-> Protheoria
+> Recta linea non datur rectior.
 >
-> Triplex ordo principiorum geometricorum.
+> Obliquarum linearũ infinita diuersitas.
 >
-> Geometriæ subiectum.
+> Supficiei abstractiua descriptio.
 >
-> Triplex in magnitudine dimensio.
+> Superficies
 >
-> Pũctũ omnis magnitudinis principium esse dicitur.
+> Curua superficies.
 >
-> Pũcti cũ vnitate comparatio.
+> Solidorum origo.
 >
-> Vnde linea ex puncto describatur.
-
-a.j.
+> Vnde superficierũ & corporũ tãta diuersitas.
+>
+> Angulus, Planus, Solidus.
+>
+> Angulorũ origo notanda.

@@ -1,25 +1,19 @@
-# Page 429
+# Page 430
 
 # DES FORTIFICATIONS.
 
-## DE L'ART D'ASSAILLIR.
+née ; si elle est marescageuse ou seche ; si elle est de roche, ou de sable, ou de rüffeau ; & s'il y a du bois pour s'en seruir à faire des gabions, saussisses, & autres ouurages.
 
-Les forteresses se peuuent prendre en trois façons, à sçauoir, par batterie, par mines & sappes, & par sieges & famines.
+S'il y a lieu propre pour asseoir le camp à couuert de l'artillerie de la ville, ou si on sera contrainct de se tenir au loin : s'il y a riuiere, & quelle ; si on s'en peut seruir, ou s'il y a crainte d'estre inondé, & si elle est gueable ou nauigable.
 
-Voulant assieger vne place, il faut premierement tascher d'auoir vn plan de la forteresse & de la campagne d'alentour, & estre instruict de la grandeur de la forteresse, de sa capacité, amplitude, & commodité de ses places & ruës, des situations des magasins, maison de ville, logis du Gouuerneur, quels sont ses ramparts & murailles, comme elle est bastionnée, & si les bastions sont grands ou petits, noyez dans le fossé, ou fort releuez, dominez ou dominans, mousses ou poinctus, sans orillons & cazemates, ou auec orillons & cazemates, plains ou vuides, de gorge estroicte ou large, faits de terre ou reuestus auec du mur, de pierre ou de brique, minable ou non.
+Si la situation de la place est proche ou esloignée des autres de son party ; si elle en peut receuoir du secours & des munitions, & en combien de temps ; & si on les peut empescher ou non, & comment.
 
-Si les cazemates sont veuës de la campagne, si elles sont hautes ou basses, simples ou doubles, l'vne sur l'autre, si on les peut battre en droicte ligne ou par bricoles, & si elles ont des fossez au deuant pour receuoir les ruines de la batterie ou non.
+Puis il faut estre instruict des munitions de la ville, du nombre de la garnison, quels chefs, quels soldats : combien d'artillerie tant grosse que menuë : quelle poudre, & combien : quels ingenieurs : quels faiseurs de feu d'artifice, & quels canonniers : s'ils sont vnis dans la place, ou s'il y a de la diuision.
 
-De quelle largeur & profondeur est le fossé, si son fond est de pierre ou de terre, s'il est sec ou auec eau, en tout ou en partie.
+Ayant esté instruict de toutes ces choses, & conferant nos forces auec celles de l'ennemy, nous pourrons iuger si nous pouuons prendre la ville par force ou non ; que si nous iugeons la pouuoir prendre, il faudra enuoyer la cauallerie legere rauager, & faire le degast tout à l'entour d'icelle, & prendre des prisonniers, pour s'informer plus particulierement de l'estat du lieu.
 
-S'il y a des fausses-portes, en quel endroit elles sont, & d'où elles peuuent estre descouuertes.
+Ce faict, il faut enuironner & serrer la place, s'y retranchant tout à l'entour, & se fortifiant tant contre le secours, que contre les sorties de la ville, en sorte que personne ne puisse entrer ny sortir, faisant emprisonnner tous ceux qui leur porteront viures ou aduis : & faudra faire placer le camp au lieu le plus asseuré des traicts de la ville, au meilleur air, & où il y aura plus de commodité d'eaux, & plus belle situation pour faire la place d'armes, ordonnant les quartiers de l'armée.
 
-Si la contrescarpe est de terre simple ou de mur, de pierres seches, ou à chaux & à sable.
+*Maximes de l'art d'assaillir.*
 
-Si le corridor ou chemin couuert de la contrescarpe est large ou estroit, bien ou mal couuert, & flanqué : si son parapet est releué sur l'esplanade ou enfoncé ; s'il est de terre de transport de vieilles ruines, ou simplement de terre ; & s'il est facile ou difficile à trancher, bescher, & percer.
-
-S'il y a des faux-bourgs en la place, & si l'on s'en peut rendre maistre de plain abord, ou s'il les faudra battre d'artillerie.
-
-S'il y a d'autres ouurages au dehors de la contrescarpe, quels & comment ils sont faicts.
-
-Si l'esplanade d'alentour de la ville domine ou si elle est domi-
+1.  Quand le front des assaillans est égal, ou plus grand que celuy des defendans, ceux-cy doiuent estre emportez & vaincus de ceux-là.

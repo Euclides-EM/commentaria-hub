@@ -1,48 +1,41 @@
-# Page 232
+# Page 233
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. V.
 
-THEOR. XV. PROPOS. XV.
+*Demonſtration.*
 
-Les parties sont entr'elles comme sont leurs equimultiples entr'elles, si elles sont prises comme elles s'entre respondent.
+hyp. | c π d 2|2 a π b,
+15.5 | e π f 2|2 a π b,
+11.5 | e π f 2|2 c π d,
+15.5 | g π h 2|2 c π d,
+11.5 | e π f 2|2 g π h,
+14.5 | e, 2, 3, 4 | 3, g,
+| f, 2, 3, 4 | 3, h,
+α.6.d.5 | a π c 2|2 b π d.
 
-(figure)
+SCHOLIE.
 
-*Hypoth.*
+Or ceste demonstration a lieu seulement quand les quatre grandeurs sont de mesme genre; car la raison ne se trouue point aux grandeurs homogenes.
 
-ab *multipl..* | c,
-de *multipl..* | f.
+THEOR. XVII. PROPOS. XVII,
 
-*Req. à demonſtr.*
-
-ab π de 2|2 c π f.
-
-*Demonſtr.*
-
-hyp. | c, ag, gb *ſnt* 2|2 đe.
-hyp. | f, dh, he *ſnt* 2|2 đe.
-ſ.2.d.5 | *multd..par..* ab 2|2 *multd..par..* de,
-ſ.7.5 | ag π dh 2|2 c π f,
-ſ.7.5 | gb π he 2|2 c π f.
-concl. 12.5 | ab π de 2|2 c π f.
-
-THEOR. XVI. PROPOS. XVI.
-
-Si quatre grandeurs sont proportionelles, elles seront aussi alternatiuement proportionelles.
-
-(figure)
+Si les grandeurs composées sont proportionelles, aussi estant diuisées elles seront proportionelles.
 
 *Hypoth.*
 
-a π b 2|2 c π d,
+ab π cb 2|2 de π fe.
 
-*Req. à demonſtr.*
+*Req. à demonſtrer.*
 
-a π c 2|2 b π d.
+ac π cb 2|2 df π fe.
 
-*Prepar.*
+(figure)
 
-3.1 | e *multipl..* | a,
-| f *multipl..* | b, α
-3.1 | g *multipl..* | c,
-| h *multipl..* | d.
+*Preparation.*
+
+3.1 | gh *multipl..* | ac,
+| hl *multipl..* | cb,
+| ik *multipl..* | df,
+| km *multipl..* | fe, α
+3.1 | ln *multipl..* | cb,
+| mo *multipl..* | fe, β

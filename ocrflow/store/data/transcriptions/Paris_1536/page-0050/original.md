@@ -1,37 +1,29 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-Θεώρημα κε, Πρόθεσις λε.
+ORONTIVS. ¶ Sint a b c d & e f g h parallelogramma, in baſibus æqualibus c d & g h, atque in eiſdem parallelis a f & c h cóſiſtentia. Dico a b c d parallelogrammum, æquari parallelogrammo e f g h. Connectantur enim rectæ c e & d f, per primum poſtulatum. Et quoniam parallelogrammum eſt e f g h, æqualis eſt e f ipſi g h, per trigeſimamquartā propoſitionem. Eidem quoq; g h, æqualis eſt c d, per hypotheſin. Binæ igitur c d & e f, eidem g h ſunt æquales: & propterea æquales adinuicem, per primam communem ſentētiam. ſúntq; adinuicem parallelæ, ex hypotheſi. Quæ autem æquales & parallelas coniungunt lineæ rectæ, æquales ſunt & parallelæ, per trigeſimamtertiam propoſitionem: & c e igitur atque d f æquales ſunt & parallelæ. Parallelogrammum eſt itaque c d e f. Ipſi porrò c d e f parallelogrammo, æquum eſt a b c d parallelogrammum, per trigeſimamquintam propoſitionē: in eadem enim baſi c d, atque in eiſdem parallelis a f & c h conſti-
 
-ΤΑ παραλληλόγραμμα, τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστί.
+*[diagram: a b e f / c d g h]*
 
-## Theorema 25, Propoſitio 35.
+tuūtur. Et per eandem trigeſimamquintam propoſitionem, e f g h parallelogrāmum, æquum eſt ipſi c d e f parallelogrammo: ſunt enim in eadem baſi e f, atque in eiſdem parallelis a f & c h. Bina igitur parallelogramma a b c d & e f g h, eidem parallelogrammo c d e f ſunt æqualia: quapropter & æqualia adinuicem, per primam cómunem ſentētiam. Idem etiam oſtendere licebit, de quacunq; parallelogrammorum diſpoſitione: hypotheſi ſeruata. Parallelográma igitur in baſibus æqualibus: & cætera, vt in theoremate. Quod demonſtrare oportebat.
 
-PArallelogramma in eadem baſi & in eiſdem parallelis exiſtētia, adinuicem ſunt æqualia.
+Θεώρημα κζ, Πρόθεσις λζ.
 
-ORONTIVS. ¶ Sint parallelogramma a b c d & c d e f, in eadem baſi c d, atque in eiſdem parallelis a f & c d conſtituta. Dico a b c d parallelogrammum, æquum eſſe c d e f parallelogrammo. Secet enim in primis latus vnius, vtpote c e, alterius latus b d, in puncto quidem g. Et quoniam parallelogrammorum locorum latera quæ ex oppoſito ſunt adinuicem æqualia, per trigeſimāquartam propoſitionem: vtraque igitur a b & e f, æqualis eſt ipſi c d. Quæ autem eidem æqualia, & adinuicem ſunt æqualia, per primam communem ſententiam: æqualis eſt igitur a b ipſi e f. Communis addatur b e: tota igitur a e, toti b f erit æqualis, per ſecundam communem ſententiam. Eſt autem & a c, ipſi b d æqualis, per eandem trigeſimam quartam propoſitionem. Binæ itaque a c & a e, trianguli a c e, duabus b d & b f trianguli b d f æquales ſunt altera alteri: & æquos adinuicem continent angulos, nempe exteriorem d b f interiori qui ad a, per ſecundam partem vigeſimænonæ propoſitionis. Baſis itaq; c e, baſi d f, per
+ΤΑ τρίγωνα τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα καὶ ἐν ταῖς αὐταῖς παραλλήλοις ἴσα ἀλλήλοις ἐστίν.
 
-> Prima theorematis differētia.
+## Theorema 27, Propoſitio 37.
 
-*[diagram: a b e f / g / c d]*
+TRiangula in eadem baſi, & in eiſdem parallelis conſtituta: adinuicem ſunt æqualia.
 
-quartam propoſitionē eſt æqualis: atq; triangulū a c e triangulo b d f. A quibus ſubducto communi triangulo b e g: reliquū trapeziū a b g c, reliquo trapezio e f d g, per tertiam communem ſententiam æquabitur. Eiſdem rurſum æqualibus trapezijs, commune adijciatur triangulum c d g: conſurgent a b c d & c d e f parallelogramma adinuicem æqualia, per ſecundam communem ſententiam. ¶ Quòd ſi latus vnius parallelogrammi, dimetiēs alterius efficiatur, vt in hac ſecunda figura: idem, ſed paulò leuius, con-
+ORONTIVS. ¶ Sint triangula a b c & d b c, in eadem baſi b c, atq; in eiſdē parallelis a d & b c exiſtentia. Dico triangulum a b c, æquari propterea triangulo d b c. Producatur enim vtrobique a d recta, vſq; ad puncta e & f, per primum poſtulatum. & per punctum b datæ rectæ lineæ a c, parallela ducatur b e: atq; ipſi b d parallela c f, per trigeſimamprimā propoſitionem. Sunt itaq; a c b e & d b c f
 
-> Differētia ſecunda.
+*[diagram: e a d f / b c]*
 
-*[diagram: a b e / c d]*
+parallelogramma, & in eadem baſi b c, atque in eiſdem parallelis b c & e f, per hypotheſin cóſtituta: igitur adinuicem æqualia, per trigeſimamquintam propoſitionē. Triangulum porrò a b c, dimidiū eſt parallelogrammi a c b e, atq; d b c, triāgulum dimidiū ipſius d b c f parallelogrammi: dimetientes enim a b & c d, ipſa bifariam ſecant parallelogramma, per trigeſimamquartam propoſitionem. Quæ autem æqualium ſunt dimidiū, æqualia ſunt adinuicem, per ſeptimam communē ſententiam. Igitur a b c triangulum, æquum eſt d b c triāgulo. Ergo triangula in eadem baſi: & quæ ſequūtur reliqua. Quod oſtendendum fuerat.
 
-cludetur. Triāgula enim a b c & b d e, ſupraſcripto diſcurſu oſtendentur æqualia adinuicem. quibus adiuncto communi triangulo b c d: conſurgēt a b c d & b c d e parallelogramma rurſum adinuicem æqualia, per ſecundam cómunem ſententiā. ¶ Nec minus facilè deducetur propoſitionis intelligentia: vbi latus vnius parallelogrāmi, in latus alterius inciderit, velut in tertia figuræ diſpoſitione. Erūt enim rurſum a b & e f æquales adinuicē: à quibus dempta communi b e, reliqua a e reliquæ b f, per tertiā cómunem ſentētiam erit æqualis. Hinc
+Θεώρημα κη, Πρόθεσις λη.
 
-> Tertia differentia.
+ΤΑ τρίγωνα τὰ ἐπὶ τῶν ἴσων βάσεων ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστίν.
 
-*[diagram: a e b f / c d]*
+## Theorema 28, Propoſitio 38.
 
-triangulū a c e, triāgulo b d f, veluti ſuprà mōſtrabitur, æquale. Q₂ ſi vtriq; æqualium angulorū, addatur cómune trapeziū e b c d: reſultabit iterum a b c d parallelográmum, eidem parallelogrāmo c d e f, per ſecundā cómunem ſententiā æquale. Igitur parallelogrāma in eadem baſi, & in eiſdem parallelis exiſtentia, adinuicem ſunt æqualia. Quod erat oſtendendum.
-
-Θεώρημα κς, Πρόθεσις λς.
-
-ΤΑ παραλληλόγραμμα τὰ ἐπὶ τῶν ἴσων βάσεων ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστί.
-
-## Theorema 26, Propoſitio 36.
-
-PArallelogramma in æqualibus baſibus, & in eiſdem parallelis exiſtentia: adinuicem ſunt æqualia.
+TRiangula in æqualibus baſibus, & in eiſdem parallelis conſtituta: adinuicem ſunt æqualia.

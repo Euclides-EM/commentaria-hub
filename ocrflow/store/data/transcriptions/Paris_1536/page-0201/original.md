@@ -1,3 +1,3 @@
 *[blank page]*
 
-*[photograph of the book edge (text block), no text]*
+*[photograph of the book fore-edge, no text]*

@@ -1,21 +1,13 @@
-# Page 393
+# Page 394
 
-# PRACTIQVE.
+# GEOMETRIE
 
-*Trouuer le contenu de la superficie conuexe d'vn cylindre.*
+la largeur 30, & la hauteur 8, que son contenu corporel sera 14400, Car 30 fois 60 sont 1800, & 8 fois 1800 sont 14400.
 
-Il faut mesurer le circuit de la base, & la hauteur du cylindre, puis les multiplier l'vn par l'autre, & le produit sera le requis. Ce faisant on trouuera que si le circuit de la base d'vn cylindre est 8, & la hauteur 10, que la superficie conuexe vaudra 80. La raison de cette operation est, que cette superficie estant desployée & estenduë sur vn plan, deuient parallelogramme rectangle.
+*Trouuer le contenu d'vn prisme, ou cylindre, c'est à dire, d'vn solide, qui a deux superficies opposées égales & paralleles.*
 
-*Trouuer le contenu de la superficie conuexe d'vn cone.*
+Il faut trouuer l'aire de l'vne des superficies paralleles, & la multiplier par la perpendiculaire, qui tombe de l'vne des superficies paralleles sur l'autre, continuée si besoin est, & le produict sera le requis. Ce faisant on trouuera, que si la base du prisme ou cylindre vaut 154. & la hauteur 5, que le contenu corporel sera 770, car 5 fois 154 sont 770. Par la mesme methode se peuuent aussi trouuer les soliditez ou contenus corporels, des digues ou chaussées, fossez & plates-formes, qui n'ont de talu qu'en largeur. Par exemple, soit vne terrasse de 60 pieds de longueur, dont BC ou son égal EN soit la largeur de la superficie superieure de 46 pieds, le talu ND de 18 pieds, le talu AE de 8 pieds, & par consequent la largeur de la base AD sera de 72 pieds, & la hauteur DE soit de 14 pieds.
 
-Il faut mesurer le circuit de la base du cone, & la distance du sommet du cone à ce circuit, puis les multiplier l'vn par l'autre, la moitié du produict sera le requis. Ce faisant on trouuera, que si le circuit de la base d'vn cone vaut 8, & la distance de ce circuit au sommet 5, que la superficie conuexe du cone vaudra 20 : Car 5 fois 8 font 40, dont la moitié est 20. La raison de cette operation est, que la superficie conuexe d'vn cone estant desployée & estenduë sur vn plan deuient secteur de cercle.
+(figure)
 
-*Trouuer le contenu de la superficie conuexe d'vne sphere.*
-
-Il faut multiplier le circuit de la sphere par son diametre, & le produict sera le requis. Ce faisant on trouuera, que si le diametre de la sphere est 35, & par consequent son circuit 110, que sa superficie conuexe vaudra 3850 : car 110 multiplié par 35 fait 3850.
-
-*De la Stereometrie, ou mesure des solides.*
-
-*Trouuer le contenu d'vn parallelipede rectangle, comme d'vne muraille, plate-forme, ou fossé, qui n'ont point de talu.*
-
-Il faut mesurer les trois dimensions, à sçauoir la longueur, la largeur, & la hauteur, & le produict qui viendra en les multipliant l'vn par l'autre continuëment sera le requis. Ce faisant on trouuera, que si la longueur d'vne plate-forme ou fossé sans talu est 60,
+Pour auoir le contenu de cette terrasse, il faut premierement trouuer le contenu de la superficie ABCD, que nous supposons estre parallele & égale à son opposée, operant comme a esté monstré cy deuant, c'est à dire, adioustant BC 46, auec AD 72, & de la somme 118, prenant la moitié qui est 59, laquelle estant multipliée par la hauteur BE 14, donne 826 pour le contenu de la superficie ABCD, qu'il faut multiplier par la longueur donnée 60, & viendra 49560 pieds, pour le contenu corporel de la terrasse proposée : Pour reduire les 49560 pieds en toises, on les diuisera par 216, qui est la valeur d'vne toise cube, & viendra 229 toises 96 pieds, au lieu de 49560 pieds.

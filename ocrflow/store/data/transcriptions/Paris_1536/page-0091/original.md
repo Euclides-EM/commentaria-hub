@@ -1,29 +1,37 @@
-# GEOMET. ELEMENT.
+# LIBER III.
 
-74
+75
 
-> Demōstratio ab impossibili
+est eius qui ad circunferentiam: quando ipsi anguli communem basin eandem circunferentiam habuerint. Quod fuerat ostendendum.
 
-ORONTIVS. ¶Esto circulus a/b/c: quem rursum tangat recta d/e, in puncto c. & à dato pūcto c. datæ rectæ lineæ d/e, ad rectos excitetur angulos c/a: per vndecimam primi. Dico q in c/a, est centrum ipsius dati circuli a/b/c. Si enim non fuerit in recta c/a: erit alicubi. Esto (si possibile sit) in puncto f. & connectatur f/c/recta, per primum postulatum. Et quoniam recta quædam linea d/e, tangit per hypothesin circulum a/b/c, à centro autē f, in contactum c, coniuncta erit f/c/recta linea: coniuncta igitur f/c, perpendicularis erit in contingente d/e, per antecedentem decimamoctauam huius tertij propositionem. Rectus erit igitur vterque angulorum d/c/ f, & f/c/e. Atqui per constructionem, angulus d/c/a/rectus est: suntq́; recti omnes inuicem æquales, per quartum postulatum. Aequus erit igitur angulus d/c/a, ipsi angulo d/c/f. Est autem d/c/f, pars ipsius anguli d/c/a: recta siquidem f/c, cadit intra circulum, ac inter d/c/& c/a/rectas, diuiditq́; propterea ipsum augulum d/c/a. Totus igitur angulus d/c/a, suæ parti d/c/f, æquabitur: quod per nonam communem sentētiam est impossibile. Centrum itaque circuli a/b/c, non est in puncto f. haud dissimiliter ostendemus, q nec alibi: præter q̄ in a/c. Si circulū ergo tetigerit aliqua recta linea: & quæ sequuntur reliqua. Quod oportuit demōstrasse.
+Θεώρημα ιθ, Πρόθεσις κα.
+
+Εν κύκλῳ αἱ ἐν τῷ αὐτῷ τμήματι γωνίαι, ἴσαι ἀλλήλαις ἐσίν.
+
+## Theorema 19, Propositio 21.
+
+IN circulo qui in eodem segmento sunt anguli: sibi inuicem sunt æquales.
+
+> De segmento semicirculo maiori.
+
+ORONTIVS. ¶ Sint primùm in segmento semicirculo maiori c/ a/ d/ dati a/b/c/d/circuli: anguli c/a/d/& d/b/c. Dico eosdē angulos c/a/d/& d/b/c, fore adinuicem æquales. Inueniatur enim centrum ipsius a/b/c/d/circuli, per primam huius tertij, sitq́; illud e: & connectantur e/c/& e/d, per primum postulatum. Cùm igitur angulus c/e/d/ad centrum existat circuli, c/a/d/verò angulus ad circunferentiam, habeántq; basin communem eandem circunferentiam c/d: angulus propterea c/e/ d, duplus est, per antecedētem vigesimam propositionem anguli c/a/d. Angulus itaque c/a/ d, dimidius est ipsius anguli c/e/d. Et proinde præfatus angulus c/e/d, duplus est ipsius anguli d/b/c: atq; idem angulus d/b/c, eiusdem c/e/d/anguli dimidius. Quæ autem eiusdem sunt dimidium, ea sunt adinuicem æqualia: per septimam communem sententiā. Aequus est igitur angulus c/a/d, angulo d/b/c.
+
+*[diagram: a b c d e]*
+
+> De segmento semicirculo minori.
+
+¶Sint rursum in segmento b/a/d/semicirculo minori, ipsius a/b/c/d/circuli, b/a/d/ & d/ e /b/ anguli. Hos dico fore similiter æquales. Connectatur enim recta a/e, per primum postulatum: sitq́; ipsarum a/d/& b/e/sectio f. Erit igitur a/c/e, segmentum maius: & qui in eodem segmento maiori sunt anguli a/b/ e/ & e/d/a, per primam partem iam demonstratam, adinuicem æquales. Et quoniam trianguli a/b/f, interiores & qui ex opposito sunt anguli a/b/f/& f/a/b, extrinseco b/f/d/coæquantur angulo: necnon & duo anguli e/d/f/ & f/ e/ d/ ipsius e/f/d/trianguli, eidē extrinseco b/f/d/sunt itidē æquales, per trigesimāsecūdam primi. duo igitur anguli a/b/f/& f/a/b, duobus angulis e/d/f/& f/e/d, sunt per primā communem sententiā æquales. A quibus si demantur æquales anguli a/b/f/& e/d/f: reliquus b/a/f, reliquo d/e/f, hoc est, b/a/d/ ipsi d/e/b, per tertiam communem sentētiam erit æqualis. Idem quoque demōstrare licebit in semicirculo. In circulo igitur, qui in eodem segmento sunt anguli, sibi inuicem sunt æquales. Quod receperamus ostendendum.
 
 *[diagram: a b c d e f]*
 
-Θεώρημα ιη, Πρόθεσις κ.
+Θεώρημα κ, Πρόθεσις κβ.
 
-Εν κύκλῳ ἡ πρὸς τῷ κέντρῳ γωνία, διπλασίων ἐστὶ τῆς πρὸς τῇ περιφερείᾳ, ὅταν τὴν αὐτὴν περιφέρειαν βάσιν ἔχωσιν αἱ γωνίαι.
+Των ἐν τοῖς κύκλοις τετραπλεύρων αἱ ἀπεναντίον γωνίαι, δυσὶν ὀρθαῖς ἴσαι ἐσίν.
 
-## Theorema 18, Propositio 20.
+## Theorema 20, Propositio 22.
 
-IN circulo angulus qui ad centrū, duplus est eius qui ad circunferentiam: quando anguli eandem circūferentiam habuerint.
+IN circulis quadrilaterorum existentium anguli, qui ex opposito: duobus rectis sunt æquales.
 
-> Quādo angulus qui ad circunferētiam includit centrum.
+ORONTIVS. ¶Sit in a/b/c/d/ circulo, quadrilaterum a/b/c/d. dico angulos qui ad a/& c, similiter qui ad b/& d/ex opposito cōstituūtur, duobus rectis coæquari. Connectantur enim a/c/& b/d/rectæ, per primùm postulatum. Triangulum est igitur a/b/c. Et quoniam angulo b/a/c, æquus est angulus c/d/b, per antecedentem
 
-ORONTIVS. ¶Sit a/b/c/d/ circulus: ad cuius centrum e, sit angulus c/e/d, ad circunferentiam autem c/a/d, & vtriusq; basis eadē circunferentia c/d. Aio quòd angulus c/e/d, ipsius anguli c/a/d/duplus est. Connectatur enim a/e, per primū postulatum: & per secundum postulatum, directè producatur in f. Cùm igitur per circuli diffinitionem, a/e/sit æqualis e/c: æquus est angulus e/a/c, ipsi angulo e/c/a, per quintā primi. Anguli itaq; e/a/c/& e/c/a simul sumpti, alterutrius eorū dupli sunt: vtpote ipsius e/a/c. Exterior porrò angulus c/e/f, binis interioribus & ex opposito e/a/c/& e/c/a, per trigesimamsecundam primi est æqualis. quæ autem sunt æqualia, eiusdem duplicia sunt: per conuersam sextæ communis sententiæ. duplus est igitur c/e/f/angulus, ipsius e/a/c. Et proinde angulus f/e/d/ipsius e/a/d/anguli duplus est. Totus itaq; angulus c/e/d, totius anguli c/ a/ d/ consequenter est duplus. Si enim æquè multiplicibus, addātur æquè multiplicia: æquè itidem multiplicia resultabunt.
-
-> *[manuscript note: Hæc fit per 5 & 32 Primi:-]*
-
-*[diagram: a b c d e f g]*
-
-> Quādo idem angulus qui ad circūferentiā nō capit centrum circuli.
-
-¶Quòd si angulus qui ad circunferentiam, fuerit extra centrum ipsius circuli, veluti c/b/d: idem nihilominus subsequetur. connexa enim recta b/e, per primum postulatū, & directè producta in g/per secundum: concludemus veluti suprà, ex eadem quinta & trigesimasecunda primi, angulum c/e/g, duplum fore ipsius anguli c/b/e. quorum d/e/g/pars ipsius anguli c/e/g, duplus rursum est partis ipsius c/b/e, vtpote anguli e/b/d: reliquus igitur angulus c/e/d/qui ad centrum, duplus itidem est reliqui c/b/d/qui ad circunferentiam dati constituitur circuli. In circulo itaq; angulus qui ad centrum, duplus
+g.ij.

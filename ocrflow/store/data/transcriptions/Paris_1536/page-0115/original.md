@@ -1,29 +1,22 @@
-# GEOMET. ELEMENT.
+# LIBER IIII.
 
-vnumquodque latus ipſius quadrati f/g/h/k, circunferentiam dati a/b/c/d/ circuli. Igitur per ſextam huius quarti diffinitionẽ, circa datum circulum a/b/c/d, quadratũ deſcribitur f/g/h/k. Quod faciendum receperamus.
+*[diagram: a b c d e]*
 
-Πρόβλημα η, Πρόθεσις η.
-Εἰς τὸ δοθὲν τετράγωνον, κύκλον ἐγγράψαι.
+quòd vnuſquiſq; reliquorum angulorum qui ſub b/a/d, b/c/d, & a/d/c, bifariam itidem ſub ipſa b/d, & a/c/ recta diuiditur. Angulus porrò a/b/c, angulo b/a/d, per quartum poſtulatum eſt æqualis: nempe rectus recto. Quæ autem æqualium ſunt dimidium, æqualia ſunt adinuicem, per ſeptimam communem ſententiam. Aequalis eſt igitur angulus a/b/e, angulo e/a/b: & proinde latus e/a, lateri e/b, æquale, per ſextam primi. Eodem prorſus modo oſtendemus, e/c/ & e/d/rectas, tum adinuicem, tum ipſis e/a/ & e/b/ rectis lineis coæquari. Quatuor igitur e/a, e/b, e/c, & e/d, æquales ſunt adinuicem. Cẽtro igitur e, interuallo autem e/a, vel e/b, aut e/c, vel e/d, circulus deſcribatur, per tertium poſtulatum. Tranſibit ergo deſcriptus circulus per puncta a, b, c, d: quapropter & ipſius circuli circunferẽtia tanget vnũquenq; angulum ipſius quadrati a/b/c/d. Per quartã igitur huius quarti diffinitionem: circa datum quadratum a/b/c/d, circulus deſcribitur. Quod oportuit feciſſe.
 
-## Problema 8, Propoſitio 8.
+> Oſtenſio problematis, priori ſimilis.
 
-IN dato quadrato, circulum deſcribere.
+Πρόβλημα ι, Πρόθεσις ι.
+Ἰσοσκελὲς τρίγωνον συστήσασθαι, ἔχον ἑκατέραν τῶν πρὸς τῇ βάσει γωνιῶν διπλασίονα τῆς λοιπῆς.
 
-ORONTIVS. ¶In quadrato enim a/b/c/d, circulum deſcribere ſit operæpretium. Secetur itaque bifariam vtrunq; latus a/b/ & b/c, in punctis quidem e/ & f: per decimam primi. æquales erũt igitur a/e, e/b, b/f, & f/c/adinuicem, per ſeptimã communem ſententiã: nempe æqualium laterum a/b/ & b/c/dimidiæ. Per trigeſimáprimam rurſum eiuſdem primi, per punctũ e, ipſis a/d/ & b/c/parallela ducatur e/g: per f/autem punctum, ipſis a/b/ & c/d/ parallela f/h, ſecans eandem e/g/in puncto k. Parallelogramma ſunt igitur a/f, f/d, d/e, & e/c: necnon e/f, f/g, g/h, & h/e. Parallelogrammorum autem locorum latera quæ ex oppoſito, & anguli, æqualia ſunt adinuicem: per trigeſimamquartam ipſius primi. Parallelogrammi igitur d/e, angulus qui ad e, æqualis eſt oppoſito qui ad d: ipſius item e/c/parallelogrammi angulus qui ad e, oppoſito qui ad c/itidem æqualis. qui autem ad c/ & d/conſiſtunt anguli, recti ſunt, per quadrati diffinitionem. Rectus eſt igitur vterque angulus, qui circa punctum e. Haud diſſimiliter oſtendetur, quòd vterque angulus, qui circa f, aut g, vel h/punctum, rectus eſt. Aequalis inſuper eſt k/h, ipſi a/e, & k/f/ ipſi e/b: item k/e/ ipſi b/f, & k/g/demum ipſi f/c. Atqui a/e, e/b, b/f, & f/c, ſunt æquales adinuicem: quæ autẽ æqualibus ſunt æqualia, & adinuicem æqualia ſunt, per primam communem ſententiam. Quatuor igitur k/e, k/f, k/g, & k/h, æquales ſunt adinuicem. Centro ergo k, interuallo autẽ k/e, vel k/f, aut k/g, ſeu k/h, circulus per tertiũ deſcribatur poſtulatũ e/f/g/h. Tranſibit igitur ipſius circuli circunferentia, per eadem puncta e, f, g, h, ipſorũ e/g/ & f/h/dimetientium extremitates: cum quibus dimetiẽtibus, ipſius a/b/c/d/quadrati latera, ad rectos (vt præoſtenſum eſt) conueniunt angulos. Tangit ergo circuli e/f/g/h/circunferentia, vnũquodq; latus eiuſdem quadrati a/b/c/d, per decimæſextæ tertij corollarium. Hinc per quintam huius quarti diffinitionẽ, in dato quadrato a/b/c/d, circulus deſcribitur e/f/g/h. Quod faciendum fuerat.
+## Problema 10, Propoſitio 10.
 
-*[diagram: a b c d e f g h k]*
+ISoſceles triangulum cõſtituere, habens vnumquenque eorum qui ad baſin ſunt angulorum, duplum reliqui.
 
-> Centri inſcribẽdi circuli inueſtigatio.
+ORONTIVS. ¶Hoc quæſitum, ad ſuccedentiũ propoſitionum demonſtrationem, ita confirmatur. Sit data recta quædam linea a/b: quæ per vndecimam ſecundi ita ſecetur in puncto c, vt comprehenſum ſub tota a/b/ & ſegmento b/c/ rectangulum, æquum ſit ei quod ex reliquo ſegmento a/c/fit quadrato. Et centro a/interuallo autẽ a/b, circulus deſcribatur b/d/e, per tertium poſtulatum. Et per primã huius quarti, in circulo b/d/e, datæ rectæ lineæ a/c/ (quæ non eſt maior ipſius circuli ſemidiametro) æqualis recta linea coaptetur: ſítq; b/d. connectãtúrq; a/d/ & c/d/lineæ rectæ, per primum poſtulatum. Triangulum erit igitur a/b/d, atq; iſoſceles: æqualis eſt enim a/b/ipſi a/d, per quindecimam diffinitionem primi. Dico quòd vnuſquiſq; angulorum qui ad baſin b/d, duplus eſt reliqui anguli qui ad a. Circa enim triangulum a/c/d, per quintam huius quarti, deſcribatur circulus a/c/d/f. Et quoniam per conſtructionem, quod ſub a/b/ & b/c/cõtinetur rectangulum, æquum eſt ei quod ex c/a/fit quadrato: & ipſi c/a/data eſt æqualis b/d, ab æqualibus autem rectis æqualia deſcribũtur quadrata, per corollariũ quadrageſimæſextæ primi. Cõprehenſum igitur ſub a/b/ & b/c/rectangulum, æquum eſt ei, quod ex b/d/fit quadrato. Atqui b/ punctũ extra circulum a/c/d/f/ſuſcipitur, ab eóq; in circulum geminæ procidunt lineæ rectæ a/b/ & b/d, quarũ altera vtpote a/b/circulum ſecat, altera verò b/d/ cadit, eſtq; ſub tota diſpeſcẽte & extrinſecus ſumpta b/c/comprehenſum rectangulũ, æquale ei quod ex cadente b/d/ fit quadrato. Cadens igitur b/d, tangit per vltimam tertij circulum a/c/d/f, in pũcto d/vtriq; circulo communi. Rurſum quoniã b/d/recta tangit circulũ a/c/d/f, & à cõtactu d/extẽditur recta quædã linea d/c/circulum diſpeſcens: angulus igitur b/d/c, angulo c/a/d, (qui in alterno conſiſtit ſegmento) per trigeſimã ſecundam tertij, eſt
 
-> Abſolutio pblematis.
+> Conſtructio figuræ.
 
-Πρόβλημα θ, Πρόθεσις θ.
-Περὶ τὸ δοθὲν τετράγωνον, κύκλον περιγράψαι.
+> Oſtenſio problematis.
 
-## Problema 9, Propoſitio 9.
-
-CIrca datum quadratum, circulum deſcribere.
-
-ORONTIVS. ¶Eſto quadratum a/b/c/d, circa quod oporteat deſcribere circulum. Connectantur igitur a/c/ & b/d/rectæ lineæ, per primũ poſtulatum, in puncto e/ſeſe inuicem dirimentes. Et quoniã per quadrati diffinitionem, æqualis eſt a/b/ipſi b/c, & b/d/vtrique communis: binæ igitur a/b/ & b/d/trianguli a/b/d, duabus d/b/ & b/c/ trianguli d/b/c/ ſunt æquales altera alteri: & baſis a/d, baſi d/c/itidẽ æqualis. Angulus igitur a/b/d, angulo d/b/c, per octauam primi eſt æqualis. Totus itaq; angulus a/b/c, bifariam diuiditur ſub recta b/d. Haud aliter monſtrabimus
-
-> Vt circunſcribendi circuli centrum inueniatur.
+*[diagram: a b c d e f]*

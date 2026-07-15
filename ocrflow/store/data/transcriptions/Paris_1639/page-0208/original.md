@@ -1,20 +1,22 @@
-# Page 207
+# Page 208
 
-# D'EVCLIDE, LIV. V.
+# LES ELEMENTS
 
-VI.
+faudroit prouuer que les equimultiples des antecedens E 28 & F 70, au respect des equimultiples des consequens G 18 & H 45, ne peuuent estre dissemblables: c'est à dire, que si E excede G, F ne pourra pas estre égal ny moindre que H. Et à cause qu'on ne peut prouuer, sans vne hypothese concedée, que les equimultiples E & F au respect des equimultiples G & H, ne peussent estre dissemblables: on ne pourra pas aussi demonstrer, sans hypothese, qu'il y a mesme proportion de A à B, que de C à D.
 
-Les grandeurs sont dites estre en mesme raison, la premiere à la seconde, & la troisiesme à la quatriesme, quand les equimultiples de la premiere & de la troisiesme, aux equimultiples de la seconde & de la quatriesme, par quelque multiplication que ce soit, ou defaillent ensemble, ou ensemble sont égaux, ou excedent ensemble vn chacun à vn chacun, si on prend ceux-là qui s'entre respondent,
+Que si par hypothese, les antecedens A & C ont mesme proportion à leurs consequens B & D, la consequence seroit, que les equimultiples des antecedens E & F, au respect des equimultiples des consequens G & H, ne pourroient estre dissemblables: Car si les equimultiples E & F pouuoient estre dissemblables (c'est à dire, l'vn excedant l'equimultiple de son consequent, & l'autre égal ou moindre que l'equimultiple de son consequent) il seroit manifeste par la 8. definition, qu'il n'y auroit pas mesme raison de A à B, que de C à D, ce qui repugne à l'hypothese.
 
-*Cette 6. definition ſe peut außi énoncer ainſi.*
+La note par laquelle s'exprime la similitude des equimultiples des antecedens, est celle-cy:
 
-Si les equimultiples des antecedens au respect des equimultiples des consequens, ne peuuent estre dissemblables, les antecedens auront mesme proportion à leurs consequens.
+e | 2, 3, 4 | 3. g.
+f | 2, 3, 4 | 3. h.
 
-*La conuerſe de cette 6. definition ſe peut énoncer ainſi.*
+De laquelle note, G & H, qui sont les equimultiples des consequens, ont chacun 3: & E & F, qui sont les equimultiples des antecedens, ont chacun 2, ou 3, ou 4: pour monstrer qu'ils sont ou ensemble plus petits que G & H: ou ensemble égaux à G & H: ou ensemble plus grands que G & H. Laquelle similitude des equimultiples E & F, nous ne pouuons pas prouuer icy; mais aux demonstrations, la citation donnera à cognoistre, que les equimultiples E & F au respect des equimultiples G & H, ne pourront estre dissemblables.
 
-Si les antecedens ont mesme proportion à leurs consequens, leurs equimultiples ne pourront estre dissemblables au respect des equimultiples des consequens.
+VII.
 
-E. 28 | A. 4 —— B. 6 | G. 18
-F. 70 | C. 10 —— D. 15 | H. 45
+Les grandeurs qui ont mesme raison, soient appellées proportionnelles.
 
-De cette 6. definition est manifeste, que la cognoissance de la similitude des raisons depend de la cognoissance de la similitude des equimultiples des antecedens au respect des equimultiples des consequens. Par exemple, pour demonstrer que les antecedens A 4 & C 10, aux consequens B 6 & D 15, ont mesme proportion, il
+VIII.
+
+Mais quand des equimultiples, le multiple de la

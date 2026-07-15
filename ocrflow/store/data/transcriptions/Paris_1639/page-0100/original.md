@@ -1,48 +1,45 @@
-# Page 99
+# Page 100
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-THEOR. XXXIII. PROPOS. XLVII.
+SCHOLIE.
 
-Aux triangles rectangles, le quarré du costé qui soustient l'angle droict, est égal aux quarrez des costez qui contiennent le mesme angle droict.
+Deux costez d'vn triangle rectangle estant cognus, trouuer le troisiesme costé.
 
 (figure)
 
-*Hypoth.*
+*Exemple 1.*
 
-*au* △abc
-∠bac *eſt* ┘,
+ab *eſt* 8. α
+ac *eſt* 6. β
 
-*Req. à demonſtr.*
+*Req. eſt* bc.
 
-□.bc 2|2 □.ab + □.ac.
+*Operation.*
 
-*Preparation.*
+α | □.ab *eſt* 64.
+β | □.ac *eſt* 36.
+64 + 36 *ſnt* 100.
+ergo | □.bc *eſt* 100.
+conel. | √.100. *eſt* 10.
+ergo | bc *eſt* 10.
 
-46.1 | be *eſt* □.bc,
-46.1 | af *eſt* □.ab,
-46.1 | ai *eſt* □.ac,
-31.1 | am == bd Ⅱ ce,
-1.p.1 | ad, ae, bi, cf *ſnt* ——.
+*Exemple 2.*
 
-*Demonſtr.*
+ab *eſt* 12. γ
+bc *eſt* 13. δ
 
-hyp. | ∠bac *eſt* ┘,
-conſtr. | ∠bag *eſt* ┘,
-14.1 | gac *eſt* ——. α
-d.α | bah *eſt* ——,
-conſtr. | ∠dbc & abf *ſnt* ┘;
-12.a.1 | ∠dbc 2|2 ∠abf,
-∠abc *commun. add.*
-2.a.1 | ∠abd 2|2 ∠fbc. β
-*aux* △; abd & fbc
-29.d.1 | ab 2|2 bf,
-29.d.1 | bd 2|2 bc,
-β | ∠abd 2|2 ∠fbc,
-4.1 | △abd 2|2 △fbc. γ
-41.1 | ◊blmd 2|2 2△abd,
-41.1 1.nota | □af 2|2 2△fbc,
-6.a.1 | ◊blmd 2|2 □af. δ
-d.γ 2.nota | △ace 2|2 △icb,
-d.δ | ◊clme 2|2 □ch,
-concl. 2.a.1 | □be 2|2 □af + □ai.
+*Req. eſt* ac.
+
+*Operation.*
+
+δ | □.bc *eſt* 169.
+γ | □.ab *eſt* 144.
+169~144 *ſnt* 25.
+ergo | □.ac *eſt* 25.
+concl. | √.25 *eſt* 5.
+ergo | ac *eſt* 5.
+
+THEOR. XXXIV. PROPOS. XLVIII.
+
+Si le quarré de l'vn des costez d'vn triangle, est égal aux quarrez des deux autres costez ; le triangle sera rectangle.

@@ -1,21 +1,25 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-*(pagina 172)*
+*(pagina 173)*
 
-a/c/d/composita, habẽtia duo latera b/a/ & a/c/duobus lateribus c/d/ & d/e/proportionalia, sicut b/a/ad a/c: ita c/d/ad d/e: sintq́; eiusdem rationis latera inuicem parallela, vtpote a/b/ipsi c/d, & a/c/ipsi d/e. Dico quòd reliqua latera b/c/ & c/e, in rectã lineam sunt constituta. Cùm enim ex hypothesi a/b/ & c/d/ sint parallelæ, & in eas incidat a/c: erit angulus b/a/c/ æqualis alterno a/c/d, per vigesimamnonam primi. Haud dissimiliter quoniam a/c/parallela est ipsi d/e, & in eas incidit recta c/d: erit per eandem vigesimamnonam primi, angulus c/d/e, alterno a/c/d/itidem æqualis. Duo itaq; anguli b/a/c/ & c/d/e, eidem angulo a/c/d/sunt æquales: & proinde æquales adinuicem, per primam communem sententiam. Bina itaque triangula a/b/c/ & d/c/e, habent vnum angulum vni angulo æqualem, & quæ circum æquales angulos latera proportionalia: æquiangula ergo sunt ipsa a/b/c/ & d/c/e/ triangula, & æquales habẽt angulos sub quibus eiusdẽ rationis latera subtenduntur, per sextam huius sexti. Aequus est itaq; angulus c/b/a, angulo d/c/e. Ostensum est autẽ, q̃ b/a/c/ angulus, æqu⁹ est angulo a/c/d. Duo igitur anguli a/c/d/ & d/c/e, duobus angulis b/a/c/ & c/b/a/sunt æquales. Totus rursum qui sub a/c/e/ cõtinetur angulus, eisdem angulis a/c/d/ & d/c/e/æqualis est. Et proinde angul⁹ a/c/e, duobus angulis b/a/c/ & c/b/a/est æqualis. Cómunis addatur angulus a/c/b: duo igitur anguli a/c/b/ & a/c/e, tribus angulis b/a/c, a/c/b, & c/b/a/ipsius a/b/c/ trianguli, sunt per secundam communem sententiam æquales. Sed eisdem tribus angulis ipsius a/b/c/triáguli, sunt æquales duo recti, per trigesimamsecundam primi. Et duo itaque anguli a/c/b/ & a/c/e, duobus rectis per primam communem sententiam coæquantur. Ad datam ergo rectam lineam a/c/atq; ad eius punctum c, duæ rectæ lineæ b/c/ & c/e/ non ad easdem partes ductæ, efficiunt vtrobique angulos a/c/b/ & a/c/e/binis rectis æquales: ipsæ igitur rectæ lineæ b/c/ & c/e, in directũ seu rectam lineam, per decimamquartam ipsius primi sunt constitutæ. Ergo si bina triangula: & quæ sequuntur reliqua. Quod expediebat demonstrasse.
+*[diagram: a l g k r b o c]* *[diagram: d n h m e f]*
 
-> Ostẽsio theorematis.
+per vigesimãseptimã eiusdẽ tertij, anguli b/g/c, c/g/k, & k/g/l, æquales sunt adinuicem. Et proinde anguli e/h/f, f/h/m, & m/h/n, adinuicẽ pariter æquales. Quotuplex igitur est b/c/l/ circunferentia, ipsius circunferentiæ b/c: totuplex est angulus b/g/l, ipsius anguli b/g/c. quotuplex insuper est e/f/n/circunferẽtia, ipsius e/f/circunferẽtiæ: totuplex est & angulus e/h/n, ipsius anguli e/h/f. Si itaq; circunferẽtia b/c/l/ maior est circunferẽtia e/f/n: æquè maior est & angulus b/g/l, ipso angulo e/h/n: & si æqualis, æqualis: si autem minor, itidem proportionaliter minor. Quatuor itaq; magnitudinum, vtpote b/c/ & e/f/circunferẽtiarum, & angulorum b/g/c/ & e/h/f, sumpta sunt æquè multiplicia primæ & tertiæ: necnõ secundæ & quartæ alia vtcunque æquè multiplicia. & sicut multiplex primæ, ad multiplex secundæ: sic multiplex tertiæ, ad multiplex quartæ se habere deductum est. In eadem ratione igitur est prima ad secundam, & tertia ad quartam, per sextam ipsius quinti diffinitionẽ: hoc est, sicut b/c/ circunferentia, ad e/f/circunferentiã: sic angulus b/g/c, ad angulum e/h/f.
 
-*[diagram: a b c d e]*
+| Circunferentiæ | | Anguli. | |
+|---|---|---|---|
+| b/c/l. | e/f/n. | b/g/l | e/h/n. |
+| b/c. | e/f. | b/g/c. | e/h/f. |
 
-## Θεώρημα κγ, πρόθεσις λγ.
+¶ Et quoniã angulus b/g/c/ duplus est anguli b/a/c, & e/h/f/ipsius e/d/f/itidem duplus, per vigesimam tertij. Sunt itaque b/g/c/ & e/h/f/anguli, ipsorum b/a/c/ & e/d/f/qui ad circunferentias sunt angulorũ, æquè multiplices. Partes autẽ eodem modo multiplicium, eandem rationem habent sumptæ adinuicem: per decimamquintam eiusdem quinti. Quam rationẽ igitur habet angulus b/g/c, ad angulum e/h/f: eam habet & angulus b/a/c, ad angulum e/d/f. Ostensum est autem, quòd angulus b/g/c/ad angulum e/h/f/ eam habet rationem: quam b/c/circũferentia, ad circunferentiã e/f. Et b/a/c/igitur angulus, ad angulum e/d/f/ eam habet rationem, per vndecimam quinti: quam b/c/ circunferentia, ad circunferentiam e/f.
 
-Ἐν τοῖς ἴσοις κύκλοις, αἱ γωνίαι τὸν αὐτὸν λόγον ἔχουσι ταῖς περιφερείαις ἐφ' ὧν βεβήκασιν, ἐάν τε πρὸς τοῖς κέντροις, ἐάν τε πρὸς ταῖς περιφερείαις ὦσι βεβηκυῖαι. ἔτι δὲ καὶ οἱ τομεῖς, ἅτε πρὸς τοῖς κέντροις συνιστάμενοι.
+> De angulis q̃ ad circunferẽtiam.
 
-## Theorema 23, Propositio 33.
+| b/c. e/f | b/g/c. e/h/f | b/a/c. e/d/f |
+|---|---|---|
 
-IN æqualibus circulis, anguli eandem habent rationem ipsis circunferẽtijs in quibus deducũtur: etsi ad centra, etsi ad circunferẽtias fuerint deducti. Tum etiã sectores, tanq̃ ad centra cõstituti.
+¶ Dico insuper quòd sicut eadem circunferentia b/c, ad circunferentiã e/f: sic g/b/c/sector, ad sectorem h/e/f. Coassumantur enim in b/c/ & c/k/circunferẽtijs, contingentia signa, o/ & r: & connectantur b/o, o/c, c/r, & r/k/lineæ rectæ, per primum postulatum. Et quoniã trianguli g/b/c/duo latera b/g/ & g/c, sunt æqualia duobus c/g/ & g/k/trianguli c/g/k, per quindecimam diffinitionem primi, & æquos adinuicem continent angulos, basis quoq; b/c/basi c/k/est æqualis: totum itaque triangulum g/b/c, toti triágulo c/g/k, per quartã ipsius primi, est æquale. Rursum quoniam b/c/circunferentia, æqualis est circunferentiæ c/k: si à tota a/b/c/ circunferentia, eædẽ æquales auferantur circunferentiæ, reliqua b/a/c/reliquæ c/a/k, per tertiã communem sententiam, est æqualis. Et proinde anguli b/o/c/ & c/r/k, æquales sunt adinuicem, per vigesimamseptimam tertij. Similis est igitur sectio b/o/c, sectioni c/r/k, per decimam ipsius tertij diffinitionem: & in æqualibus rectis lineis b/c/ & c/k/constitutæ sunt. Aequalis est igitur sectio b/o/c, sectioni c/r/k, per vigesimamquartam eiusdem tertij. Et quoniam æquum est triangulum g/b/c, triangulo c/g/k: totus propterea sector g/b/c, toti c/g/k/sectori, per secundam communem sententiam est æqualis. Et proinde sector g/k/l, vtrique ipsorum g/b/c, & c/g/k/conuincitur æqualis. Tres itaque sectores g/b/c, c/g/k, & g/k/l, sunt æquales adinuicẽ. Haud dissimiliter, sectores h/e/f, f/h/m, & h/m/n, inuicem æquales fore concludentur.
 
-O R O N T I V S. ¶ Sint bini & adinuicẽ æquales circuli, a/b/c/ & d/e/f: ad quorũ centra g/ & h, anguli deducãtur b/g/c/ & e/h/f, ad circunferẽtias autẽ, b/a/c, & e/d/f, circunferentias b/c/ & e/f/comprehendentes. Aio primùm, quòd veluti circunferentia b/c, ad e/f/circunferentiã, sic angulus b/g/c/ ad angulum e/h/f, necnon & angulus b/a/c/ad angulum e/d/f. Connectantur enim per primum postulatum b/c/ & e/f. & in datis circulis a/b/c/ & d/e/f, datis rectis lineis b/c/ & e/f, nõ maioribus eorundem circulorum dimetientibus: quotcunq; æquales rectæ lineæ ordine coaptentur, c/k/ & k/l/ipsi b/c, atq; f/m, & m/n/ipsi e/f/æquales, per primã quarti. & per primum postulatum, connectantur g/k, g/l, h/m, & h/n/rectæ lineæ. Et quoniã æquales sunt b/c, c/k, & k/l/ rectæ lineæ, æquales sunt & circunferentiæ b/c, c/k, & k/l/ easdem rectas inuicem æquales subtendẽtes, per vigesimamoctauam tertij. Hinc
+> De sectorib⁹.
 
-> De angulis q̃ ad centrum.
+p.iij.

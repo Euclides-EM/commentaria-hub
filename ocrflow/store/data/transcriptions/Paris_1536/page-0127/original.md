@@ -1,35 +1,41 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-*(pagina 110)*
+*(pagina 111)*
 
-rationalium quàm irrationalium hic perscrutentur magnitudinū habitudines, & ipsa irrationalium magnitudinum habitudo, tum nobis, tum ipsi naturę sit ignota, denominationem ab aliquo non valens accipere numero: coactus est Euclides (vt generalem quandam rationalium & irrationalium præscriberet diffinitionem) ad cōparatarum inuicem magnitudinum confugere multiplicationē, hoc est, per ipsarum magnitudinum æquè multiplicia diffinire, qualiter magnitudo alteri comparata magnitudini rationem habere dicatur. Si igitur magnitudo a/magnitudini b/comparetur, & ambæ æqualiter multiplicentur, hoc est, ambarum sumantur æquè multiplicia, c/quidem ipsius a, & d/ ipsius b: quam rationem habebit multiplex c/ad multiplex d, eam seruabit & a/magnitudo, ad b/magnitudinem. Quasi ignota inter a/& b/differentia, per multiplicationem ipsarū augeatur magnitudinum: & in rationis ignotæ nos inducat agnitionem.
+hoc est secundi & quarti æquè itidem multiplices g, h, vtpote tripli. Et quoniā multiplex e/ ad multiplicem g/eam habet rationem, quam multiplex f/ad multiplicem h (vtrobiq̄ enim sesquitertia) necessum est primum numerum a/ad secundum numerum b/eam simul obseruare rationem, quam tertius numerus c/ad quartū d, nempe duplam. Haud aliter de magnitudinibus, siue continuis intelligito. ¶Hinc fit, vt in continuè proportionatis, vbi videlicet consequens primæ rationis fit antecedens secundæ, sumenda sint æquè multiplicia singularum magnitudinum iuxta eandem multiplicationem, hoc est, aut simul tripla, aut simul quadrupla, &c. propterea q̄ secūda magnitudo, ipsius tertiæ simul fungatur officio, & geminas potentia magnitudines repræsentet.
 
+> De continuè proportionalibus.
 > Exemplum.
 
-*[diagram: c a b d]*
+Vt datis in exemplum a, b, c, numeris: quorum æquè multiplices sint d, e, f, vtpote tripli, d/quidem ipsius a, & e/ipsius b, atq̄ f/ipsius c. Si multiplex d/ad multiplicē e/ habuerit eam rationem, quam idem e/ ad f: tunc a/primus numerus ad secundum b/ eam simul obseruabit rationem, quam idem numerus b, ad tertiū c. quemadmodùm ex ipsa numerorum potes elicere descriptione: in qua tam dati numeri a, b, c, q̄ eorūdem numerorum æquè multiplices d, e, f, sub dupla inuicem ratione proportionantur.
 
-Tanta siquidē multiplicium cū submultiplicibus, seu partibus inuenitur esse fraternitas: vt ipsę æquè multiplices magnitudines nō possint aliquā rationalē aut irrationalē inter sese habitudinē obseruare, quin ea simul partibus accidat submultiplicibus, & è contrario.
+*[diagram: table — a b c / 8 4 2 Nu. continuè proportionales. / d e f / 24 12 6 Aequè multiplices.]*
 
-> Notandum.
+¶Τὰ δὲ τὸν αὐτὸν ἔχοντα μεγέθη λόγον, ἀνάλογον καλείσθω.
 
-¶Ἐν τῷ αὐτῷ λόγῳ μεγέθη λέγεται εἶναι, πρῶτον πρὸς δεύτερον, καὶ τρίτον πρὸς τέταρτον, ὅταν τὰ τοῦ πρώτου καὶ τρίτου ἰσάκις πολλαπλάσια, τῶν τοῦ δευτέρου καὶ τετάρτου ἰσάκις πολλαπλασίων, καθ᾽ ὁποιονοῦν πολλαπλασιασμὸν ἑκάτερον ἑκατέρου, ἢ ἅμα ἐλλείπῃ, ἢ ἅμα ἴσα ᾖ, ἢ ἅμα ὑπερέχῃ ληφθέντα κατάλληλα.
+## 7 Eandem autem habentes rationem magnitudines, proportionales vocentur.
 
-## 6 In eadē ratione magnitudines dicūtur esse, prima ad secundā & tertia ad quartā: quādo primę & tertię ęquè multiplicia, secūdę & quartę æquè multiplicia, iuxta quáuis multiplicationē vtráq; vtráq; vel vnà excedūt, vel vnà æquales sunt, vel vnà deficiūt sūptæ adinuicē.
+Cùm enim proportio rationum sit idētitas: fit vt magnitudines, quæ in eadem offenduntur esse ratione, vel inter quas rationum offendetur similitudo (siue continua, siue discontinua eiusdem rationis obseruetur identitas) proportionales adpellentur.
 
-Ostenso qualiter magnitudines rationē habere adinuicē iudicentur: diffinit respondenter Euclides, quonam modo magnitudines ipsę similem videātur obtinere rationē, habitudinísve nanciscantur identitatem. Quæ diffinitio non potuit per alicuius præcedentium quinq̄ rationalium specierum ipsius rationis vel habitudinis, vtpote aut multiplicis, aut superparticularis, aut superpartientis, vel multiplicis superparticularis, vel deniq̄ multiplicis superpartientis describi similitudinem: propter surdas (vt vocāt) irrationaliū magnitudinum habitudines, quarum denominationes exprimi non possūt.
+> Diffinitio pportionaliū.
 
-> Quæ magnitudines in eadem ratione consistant.
+¶Ὅταν δὲ τῶν ἰσάκις πολλαπλασίων τὸ μὲν τοῦ πρώτου πολλαπλάσιον ὑπερέχῃ τοῦ τοῦ δευτέρου πολλαπλασίου, τὸ δὲ τοῦ τρίτου πολλαπλάσιον, μὴ ὑπερέχῃ τοῦ τοῦ τετάρτου πολλαπλασίου, τότε τὸ πρῶτον πρὸς τὸ δεύτερον μείζονα λόγον ἔχειν λέγεται, ἤπερ τὸ τρίτον πρὸς τὸ τέταρτον.
 
-Confugiendum ergo fore existimauit Euclides, ad contingentem æquè multiplicium habitudinem, tam continuè, quàm separatim facta earūdem magnitudinum relatione. Nam in proportionibus sicuti antecedentia adinuicem, & ipsa pariter consequentia, mutuam quandam inter sese vidētur habere relationem: haud dissimiliter ipsorum antecedentium, pariter & cōsequentium æquè multiplicia, iuxta quamuis multiplicationem coassumpta, fraterna quadam rationum colligantur similitudine, atque è diuerso: tametsi alia inter ipsa æquè multiplicia, ab ea quæ inter partes offenditur submultiplices, contingat plerunque rationum identitas. Quòd autē ex multiplicium proportione, earundem partiū, submultipliciúmve magnitudinū proportio, vel è contrario subsequatur: succedentibus ostēdetur propositionibus. prius enim diffinire, quàm diffinitorum concludere necessitatem est operæpretium.
+## 8 Quando verò æquè multipliciū multiplex primi excesserit multiplex secundi, multiplex autem tertij non excesserit multiplex quarti: tunc primum ad secundum maiorem rationem habere dicetur, quàm tertium ad quartum.
 
-> Notandum.
+Quemadmodùm datarum magnitudinum continuam vel discontinuam proportionem, ex coassumptorum æquè multiplicium, & ordinatim comparatorum proportione pendere diffinitum est: haud dissimiliter & improportionalium magnitudinum disproportio, ex suprascripto modo sumptorum æquè multipliciū disproportione, versa vice colligitur.
 
-¶Cùm itaque similitudo rationis, binarium ad minus rationum, & proinde quaternarium magnitudinum videatur exoptare numerum: ait Euclides, magnitudines in eadem esse ratione, prima quidem ad secundam, & tertia ad quartam: quando primæ & tertiæ, hoc est antecedentiū magnitudinum sumptis æquè multiplicibus, & consequentium itidem magnitudinum, secūdæ videlicet & quartæ, æquè multiplicibus (etiam in alia quauis ab antecedentium multiplicatione) coassumptis, multiplex primæ ad multiplex secūdæ eam seruat rationem, quam multiplex tertiæ ad multiplex quartæ: siue ipsa ratio maioris, aut minoris extiterit inæqualitatis. Hæc enim de excessu, vel defectu proportionali veniūt intelligenda.
+> Improportionaliū magnitudinum diffinitio.
 
-> Diffinitionis elucidatio.
+Est enim disproportio, rationū dissimilitudo: vtpote, quando prima magnitudo ad secundā maiorem vel minorem rationem habet, q̄ tertia ad quartam. Huius itaque diffinitionis hæc est summa. Si quatuor oblatarum magnitudinū coassumantur æquè multiplicia primæ & tertiæ, atq̄ secundæ & quartæ, & multiplex primæ ad multiplex secundæ maiorem rationem habuerit, q̄ multiplex tertiæ ad multiplex quartæ: tunc prima magnitudo ad secundā maiorem itidem rationem obseruabit, quàm tertia ad quartā: & si minorē, minorē. Et proinde rationum subsequetur dissimilitudo, ergo disproportio: siue ipsæ magnitudines continua, vel discontinua ratione, seu relatione terminorum inuicem conferātur. Quorum exempla dare, inutile iudicamus: vtpote, quæ à contraria proportionalium interpretatione colligi vel facilè possunt.
 
-Velut ex obiecta numerorum potes colligere formula. In qua numeri dati sint a, b, c, d: & ipsorum a/& c, primi inquàm & tertij æquè multiplices e, f, nempe dupli: numerorum autem b, d,
+> Disproportio
+> Diffinitionis interpretatio
 
-> Exemplum.
+¶Ἀναλογία δὲ ἐν τρισὶν ὅροις ἐλαχίστοις ἐστίν.
 
-*[diagram: table — a b c d / 12 6 8 4 Nu. discontinuè proportionales. / e g f h / 24 18 16 12 Aequè multiplices.]*
+## 9 Proportio autem in tribus terminis ad minus est.
+
+De continua velim intelligas proportione. Cùm enim proportio rationū existat similitudo: operæpretium est in ipsa proportione duas ad minus inuicem similes occurrere rationes, & proinde terminos quatuor, duo inquàm antecedentia & totidē cōsequētia. Et quoniam in proportione continua, consequens primæ rationis fit antecedēs secundæ, in discontinua verò minimè: fit vt continua proportio non possit consistere in paucioribus tribus
+
+k.ij.

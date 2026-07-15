@@ -1,28 +1,21 @@
-# Page 297
+# Page 298
 
-# PRACTIQVE.
+# ARITHMETIQVE
 
-*Exemple 2.*
-
-3 0 7 8
-4 0 3
+3 6 5 *multiplicande.*
+2 4 *multiplicateur.*
 ——
-9 2 3 4
-1 2 3 1 2
+1 4 6 0
+7 3 0
 ——
-1 2 4 0 4 3 4
+8 7 6 0 *le produict total.*
 
-3 fois 7 sont 21, & 2 que ie garde sont 23, & i'escris le 3 au dessous, gardant les deux dixaines : tiercement, ie dis 3 fois 0 n'est rien, & mets 2 que ie garde au dessous : quartement, ie dis 3 fois 3 sont 9, que pose au dessous. Ayant ainsi multiplié par la premiere figure du diuiseur, qui est 3, il faudroit multiplier par la seconde, mais à cause que cette seconde figure est vn zero, passant outre sans multiplier par le zero, on multipliera par la troisiesme figure qui est 4, disant 4 fois 8 sont 32, & pose le 2 sous le multiplicateur 4, gardant les 3 dixaines : puis ie dis 4 fois 7 sont 28, & 3 que ie garde sont 31, & mets 1 en suite du 2, gardant les 3 dixaines : tiercement, ie dis 4 fois zero n'est rien, & 3 que ie garde sont 3, que ie pose sous la ligne : quartement, ie dis 4 fois 3 sont 12, que i'escris de suite sous la ligne. Ayant ainsi multiplié toutes les figures superieures par chacune des inferieures, ie tire vne ligne au dessous de deux produicts pour les adiouster ensemble, & trouue que ces deux produits adioustez ensemble font 1240432, pour le produict de la multiplication de 3078 par 403.
+3
+5——6
+3
 
-*Multiplications brieues.*
+Pour sçauoir si 365 estant multiplié par 24 fait 8760, ostez tous les 9 du multiplicande 365, & posé le reste 5 au costé gauche d'vne croix : puis de mesme ostez les 9 du multiplicateur 24, & mettez le reste 6 au costé droict de la mesme croix : ce faict, multipliez le reste 5 par le reste 6, & viendra 30, qui a pour preuue 3, qui se trouue aussi en rejettant tous les 9 de 30, & mettez cette preuue ou reste 3 au haut de la croix : finalement ostez tous les 9 du produict total 8760, & escriuez le reste 3 au bas de la croix, & si le mesme nombre se trouue au haut & bas de la croix, comme il arriue en cet exemple, on conclura qu'il n'y a point d'erreur en la multiplication.
 
-Si au costé droict du multiplicateur il y a des zero, la multiplication se fera plus promptement en les rejettant, puis les adioustant au produict des autres figures : comme on peut voir aux trois exemples suiuants.
+*De la Diuiſion.*
 
-1 7   1 7   3 0 4 0   *multiplicandes.*
-1 0   1 0 0   4 0 0   *multiplicateurs.*
-——
-1 7 0   1 7 0 0   1 2 1 6 0 0 0   *produicts.*
-
-*De la preuue de la multiplication.*
-
-La vraye preuue de la multiplication est, que si on diuise le produict de la multiplication par le multiplicateur, le quotient doit estre le nombre qu'on a multiplié. Mais pour plus grãde brieueté, on pratique ordinairement la preuue qui se fait par le moyen du 9, comme s'ensuit.
+Diuiser est partir vn nombre en autant de parties égales qu'on voudra : ou bien diuiser est trouuer vn nombre, lequel par ses vnitez monstre combien de fois le diuiseur est contenu au diuidende : & se faict procedant de gauche à droict, au rebours des trois regles precedentes ; en mettant tousiours le diuiseur sous le diuidende, commẽçant à la premiere figure du costé gauche, s'il est contenu au nombre superieur correspondant, mais s'il n'est contenu, on commencera à l'escrire à la seconde figure. Ce faict, on regardera combien de fois la premiere figure du costé gauche du diuiseur est contenuë au nombre superieur correspondant, & le nombre qui monstrera combien de fois elle est contenuë, on le mettra au quotient, s'il en reste assez pour les autres figures du diuiseur : que s'il n'en reste pas assez, on mettra moins dans le quotient, afin qu'il en reste assez pour les autres. Puis par la figure mise dans le quo

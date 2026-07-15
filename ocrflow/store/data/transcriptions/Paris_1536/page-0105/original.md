@@ -1,19 +1,23 @@
-# 88 GEOMET. ELEMENT.
+# LIBER III. 89
 
-adinuicem æqualia sunt, per primam communem sententiam. Comprehensum igitur sub a/e/ & e/c/ rectangulum, vnà cum quadrato quod fit ex e/f: æquatur rectangulo, quod sub b/e/ & e/d/ continetur, ac ipsi quadrato quod fit ex e/f. Dempto itaq; cómuni quadrato quod ex e/f: reliquum sub a/e/ & e/c/ comprehensum rectangulum, reliquo quod sub b/e/ & e/d/ continetur rectangulo, per tertiam cómunem sententiã est æquale. Si igitur in circulo duæ rectæ lineæ se adinuicem secuerint: &c. vt in theoremate. Quod demonstrare oportebat.
+*[diagram: a b c d e f]*
 
-Θεώρημα λ, Πρόθεσις λς.
+quod ex a/f/ describitur quadrato: æquũ est, per sextam ipsius secundi, quadrato quod fit ex d/f. Addatur commune quadratum, quod fit ex f/e: comprehensum igitur sub c/d/ & d/a/ rectangulum, vnà cum descriptis ex a/f/ & f/e/ quadratis, æquum est quadratis, quæ ex d/f/ & f/e/ describuntur. Quadratis porrò quæ fiunt ex a/f/ & f/e, æquum est quadratum quod ex a/e: eis item quæ ex d/f/ & f/e, fiunt quadratis, æquũ id quod ex ipsa d/e, per quadragesimamseptimam primi. Quod fit igitur ex c/d/ in d/a, vnà cum eo quod ex a/e/ fit quadrato: æquũ est quadrato, quod fit ex d/e. Quadrato rursum quod fit ex a/e, æquum est id quod ex e/b: æqualis est enim a/e, ipsi e/b, per ipsam circuli diffinitionem. Quod igitur sub c/d/ & d/a/ cótinetur rectangulum, vnà cum quadrato quod fit ex e/b: æquum est quadrato, quod fit ex d/e. Ipsi autem quod ex d/e/ fit quadrato: æqualia sunt, per eandem quadragesimamseptimam primi, descripta ex e/b/ & b/d/ quadrata. Comprehensum igitur ex c/d/ in d/a/ rectãgulum, vnà cum quadrato quod ex e/b: æquũ est eis, quæ ex eadem e/b/ & ipsa b/d/ fiunt quadratis. Ablato itaq; quadrato quod ex e/b/ vtrique æqualium cómuni: reliquum ex c/d/ in d/a/ comprehensum rectangulum, reliquo quod ex tangente b/d/ fit quadrato, per tertiam communem sententiã est æquale. Igitur si extra circulum sumatur punctũ aliquod: & quæ sequuntur reliqua. Quod ostendendum susceperamus.
 
-Ἐὰν κύκλου ληφθῇ τι σημεῖον ἐκτὸς, καὶ ἀπ᾽ αὐτοῦ πρὸς τὸν κύκλον προσπίπτωσι δύο εὐθεῖαι, καὶ ἡ μὲν αὐτῶν τέμνῃ τὸν κύκλον, ἡ δὲ ἐφάπτηται: ἔσται τὸ ὑπὸ ὅλης τῆς τεμνούσης καὶ τῆς ἐκτὸς ἀπολαμβανομένης, μεταξὺ τοῦ τε σημείου καὶ τῆς κυρτῆς περιφερείας, περιεχόμενον ὀρθογώνιον ἴσον τῷ ἀπὸ τῆς ἐφαπτομένης τετραγώνῳ.
+### Corollarium.
 
-## Theorema 30, Propositio 36.
+¶ Quotlibet igitur rectangula, sub rectis singulis ex eodem pũcto extra circulum sumpto deductis, atque circulum ipsum dispescentibus, & extrinsecus sumptis inter punctum & curuam circunferentiam comprehensa: sunt inuicem æqualia. Nam eidem æqualia quadrato, quod ex ipsa tangente describitur.
 
-SI extra circulum sumatur punctum aliquod, ab eóque in circulum cadant duæ rectæ lineæ, & earũ altera circulum dispescat, altera verò tangat: quod sub tota dispescente, & extrinsecus sumpta inter punctum & curuam circunferentiam comprehenditur rectangulum, æquum est ei quod fit ex tangente quadrato.
+Θεώρημα λα, Πρόθεσις λζ.
 
-ORONTIVS. ¶ Esto datus circulus a/b/c, extra quem sumatur punctum d: & à puncto d/ in ipsum circulum cadant binæ rectæ lineæ d/b/ & d/a/c, quarum d/b/ tangat ipsum circulum, d/a/c/ verò eundem circulum dispescat. Aio quòd rectãgulũ sub c/d/ & d/a comprehẽsum: æquum est quadrato, quod fit ex d/b. Aut enim recta linea d/a/c/ transit per circuli centrũ, vel extra. Transeat primò per centrum, sitq́; illud e: & connectatur e/b/ recta, per primum postulatum. Aequalis est igitur a/e, ipsi e/c, per circuli diffinitionem. Discinditur itaque a/c/ bifariam, in puncto e: & illi in rectum adijcitur a/d. Quod igitur sub c/d/ in d/a/ continetur rectãgulũ, vnà cum eo quod ex a/e/ fit quadrato: æquũ est, per sextam secundi, quadrato quod fit ex e/d. Ei porrò quod ex a/e/ fit quadrato, æquum est quadratũ quod ex b/e: sunt enim a/e/ & b/e, per ipsius circuli diffinitionem, inuicem æquales. Comprehensum igitur sub c/d/ & d/a/ rectangulum, vnà cum eo quod ex b/e/ fit quadrato: æquum est quadrato, quod ex e/d. Quadrato rursum quod fit ex e/d, æqualia sunt, quæ ex d/b/ & b/e/ vtraque fiunt quadrata, per quadragesimamseptimam primi: angulus enim qui ad b, per decimamoctauam huius tertij, rectus est. Quod igitur sub c/d/ & d/a/ continetur rectangulum, vnà cum eo, quod ex b/e/ fit quadrato: æquum est eis, quæ ex d/b/ & b/e/ fiunt quadratis. Subducto itaque communi quadrato, quod ex b/e: reliquum quod sub c/d/ & d/a/ continetur rectangulum, æquum est per tertiam cómunem sententiam reliquo, quod ex tangente d/b/ fit quadrato. ¶ Non extendatur autem d/a/c/ recta per centrũ ipsius circuli, quod rursum sit e. & à centro e, in rectam a/c, perpendicularis deducatur e/f, per duodecimam primi: connectantúrque per primum postulatum, e/a, e/b/ & e/d/ lineæ rectæ. Erit igitur vterq; angulorum qui ad b/ & qui ad f/ rectus: diuidetúrque rursum a/c/ bifariam in puncto f, cui in rectum coniuncta est a/d. Quod igitur ex c/d/ in d/a/ continetur rectangulum, vnà cum eo
+Ἐὰν κύκλου ληφθῇ τι σημεῖον ἐκτὸς, ἀπὸ δὲ τοῦ σημείου πρὸς τὸν κύκλον προσπίπτωσιν δύο εὐθεῖαι, καὶ ἡ μὲν αὐτῶν τέμνῃ τὸν κύκλον, ἡ δὲ προσπίπτῃ: ᾖ δὲ τὸ ὑπὸ τῆς ὅλης τεμνούσης, καὶ τῆς ἐκτὸς ἀπολαμβανομένης μεταξὺ τοῦ τε σημείου καὶ τῆς κυρτῆς περιφερείας, ἴσον τῷ ἀπὸ τῆς προσπιπτούσης, ἡ προσπίπτουσα ἐφάψεται τοῦ κύκλου.
 
-> Vbi dispescẽs circulũ trãsit per centrum.
+## Theorema 31, Propositio 37.
 
-*[diagram: a b c d e]*
+SI extra circulum sumatur punctum aliquod, & ab eo puncto in circulum duæ rectæ lineæ ceciderint, & earum altera circulum secet, altera verò cadat: sit autem quod fit sub tota dispescente & extrinsecus sumpta inter punctum & curuam circunferentiam, æquale ei quod fit ex cadente: cadens circulum tanget.
 
-> Quãdo circulũ dispescens nõ transit per centrum.
+> Cóuersa præcedentis.
+
+ORONTIVS. ¶ Hæc est conuersa præcedentis. Sit igitur rursum extra circulum a/b/c/, susceptum punctùm d, à quo in eundem circulum duæ procidant lineæ rectæ, d/b/ quidem in circulum incidens, d/a/c/ verò eundem circulum dispescẽs: sit autem receptum, vt id quod sub c/d/ in d/a/ comprehenditur rectangulum, æquum sit ei quod ex cadente d/b/ fit quadrato. Aio quòd d/b/ tangit circulũ a/b/c. A dato enim puncto d, dato circulo a/b/c, contingens recta linea ducatur, per decimamseptimam huius tertij: sitq; illa d/e. Ipsius autem circuli centrum esto f: & per primũ postulatum connectantur rectæ lineæ f/b, f/d, & f/e. Erit igitur f/e/ perpendicularis in contingente d/e, per decimamoctauam huius tertij: & proinde angulus d/e/f/
+
+h.iij.

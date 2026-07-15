@@ -1,19 +1,19 @@
-# Page 430
+# Page 431
 
 # DES FORTIFICATIONS.
 
-née ; si elle est marescageuse ou seche ; si elle est de roche, ou de sable, ou de rüffeau ; & s'il y a du bois pour s'en seruir à faire des gabions, saussisses, & autres ouurages.
+2.  En vne bresche faicte en vn angle & extremité de place, l'entrée est égale en estenduë : ou plus grande pour les assaillans que pour les assaillis, à cause que ce qui enferme est plus grand que ce qui est enfermé.
 
-S'il y a lieu propre pour asseoir le camp à couuert de l'artillerie de la ville, ou si on sera contrainct de se tenir au loin : s'il y a riuiere, & quelle ; si on s'en peut seruir, ou s'il y a crainte d'estre inondé, & si elle est gueable ou nauigable.
+3.  Vne bresche faite au milieu d'vne ligne droicte est plus difficile à forcer, que sur vn angle saillant, à cause que la forme ne pouuant estre que courbe, rend plus d'estenduë aux assaillis qui en tiennent l'arc, qu'aux assaillants qui n'en ont que la corde.
 
-Si la situation de la place est proche ou esloignée des autres de son party ; si elle en peut receuoir du secours & des munitions, & en combien de temps ; & si on les peut empescher ou non, & comment.
+4.  En vn angle rentrant, la bresche est plus difficile à forcer qu'en vn angle saillant, ou au milieu d'vne ligne droicte, pour les mesmes raisons.
 
-Puis il faut estre instruict des munitions de la ville, du nombre de la garnison, quels chefs, quels soldats : combien d'artillerie tant grosse que menuë : quelle poudre, & combien : quels ingenieurs : quels faiseurs de feu d'artifice, & quels canonniers : s'ils sont vnis dans la place, ou s'il y a de la diuision.
+5.  Les tranchées des assaillans ne doiuent commencer plus pres de la place, que de la portée de l'arquebuse ou du mousquet exclusiuement, à cause de l'offension continuelle de l'arquebuserie, plus dommageable que l'artillerie, laquelle ne se mene pas si facilement.
 
-Ayant esté instruict de toutes ces choses, & conferant nos forces auec celles de l'ennemy, nous pourrons iuger si nous pouuons prendre la ville par force ou non ; que si nous iugeons la pouuoir prendre, il faudra enuoyer la cauallerie legere rauager, & faire le degast tout à l'entour d'icelle, & prendre des prisonniers, pour s'informer plus particulierement de l'estat du lieu.
+6.  Les tranchées doiuent estre conduites en sorte, que de quelque endroict que ce soit de la place assiegée, on ne puisse tirer dedans le long, pour les enfiler d'aucun coup de traict.
 
-Ce faict, il faut enuironner & serrer la place, s'y retranchant tout à l'entour, & se fortifiant tant contre le secours, que contre les sorties de la ville, en sorte que personne ne puisse entrer ny sortir, faisant emprisonnner tous ceux qui leur porteront viures ou aduis : & faudra faire placer le camp au lieu le plus asseuré des traicts de la ville, au meilleur air, & où il y aura plus de commodité d'eaux, & plus belle situation pour faire la place d'armes, ordonnant les quartiers de l'armée.
+7.  Les tranchées sont plus aisées à conduire, & en moins de temps ; vers les extremitez de la place, qu'au milieu d'vne ligne droicte, ou dans vn angle rentrant, à cause que vers les extremitez elles se peuuent tirer & mener droictes au lieu desiré, sans estre veuës ny endommagées de long ; ce qui ne se peut faire aux autres lieux sans plusieurs tours & détours.
 
-*Maximes de l'art d'assaillir.*
+8.  Vne grande partie de l'artillerie des assaillans doit estre placée en mesme temps qu'on commence les tranchées d'approche, en sorte qu'elle puisse démonter les pieces de dedans, ruiner, ou du moins incommoder, les lieux plus eminents & aduantageux de la place pour fauoriser les approches.
 
-1.  Quand le front des assaillans est égal, ou plus grand que celuy des defendans, ceux-cy doiuent estre emportez & vaincus de ceux-là.
+9.  Le lieu où sera placée cette premiere artillerie doit estre par nature, ou par art, aucunement esleué, afin que les batteries n'incommodent les tranchées qui seront au deuant.  Cette hauteur est pour la plus part de 4 ou 5 pieds, & aussi quelquefois de 6 pieds : & doit estre d'autant plus esleué, que le canon sera pres du lieu qu'il doit ruiner, à cause que l'on l'esleue ordinairement

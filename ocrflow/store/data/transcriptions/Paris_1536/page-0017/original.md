@@ -1,9 +1,47 @@
-# ¶ Coppie du priuilege de ce present liure, & aultres oeuures contenues en icelluy.
+*[decorative woodcut border]*
 
-**Francoys** Par la grace de Dieu Roy de France, au preuost de Paris, Bailly de Rouen, Seneschal de Lyon. Et a tous noz aultes iusticiers, officiers, ou a leurs lieuxtenãs quil appartiẽdra, salut. Nostre cher & bien ame maistre Oronce Fine, lecteur ordinaire de par nous es sciẽces Mathematicques, en nostre ville & vniuersite dudict Paris: Nous a faict entẽdre, que auec grãt peine & labeur, Il a faict & cõpille plusieurs liures & cartes, intitulez ainsi ql sensuit, assauoir. Les cõmẽtaires sur les six premiers, & dixiesme liures de Euclide: & sur la perspectiue dicelluy. Trois liures, touchãt lart de scauoir mesurer toutes lõgueurs, plates formes, & corps solides. Cinq liures, sur la Cosmographie ou Sphere du Mõde, concernans la premiere & principalle partie Dastronomie. Vng Astrolabe nouueau, auec le liure de la declaration dicelluy. Vng quadrant representãt ledit Astrolabe, auec sa declaratiõ, tant en Latin que en langaige Frãcoys. Vne oeuure tresutile sur la theoricque des Planettes, auec les tables & instrumens a ce requis. Vng Aequatoire, pour scauoir le cours & mouuement desdictz Planettes: auec vng Directoire. Le tout nouuellement excogite, par ledict Oronce: & les liures declaratifz diceulx. Vng almanach a plusieurs annees, fort vtile. Plus oultre lesdictz liures, a redigez en forme de deux grãs rondeaulx hemisphericques, la description geographicque de tout le Mõde. Aussi la descriptiõ & Carte de Europe, le plus au vray distincte quil luy a este possible. En tous lesquelz liures & cartes susdictes, sont contenues plusieurs bonnes oeuures de tresgrant prouffit & vtilite: a linstruction, edification, & recreation des bons esperitz, qui se vouldront applicquer a les veoir & entẽdre. Nous suppliant & requerant, que a ceste cause luy vueillons permettre la publication desdictz liures & cartes, par nostre Royaulme. ¶ Pource est il, que nous ce considere, desirans fauoriser & gratiffier au labeur dudict Oronce Fine. A icelluy auõs permis & octroye, permectons & octroyõs, voulons, & nous plaist: Que par tel ou telz des imprimeurs iurez de nostredict Royaulme que bõ luy semblera, il puisse & luy loise faire imprimer lesdictz liures & cartes des intitulations dessusdictes. En deffendãt tresexpressemẽt a tous aultres libraires & imprimeurs de noz villes & vniuersitez quelz quilz soient, sinon celluy ou celux qui en auront charge de par luy. Que durãt le tẽps & terme de dix ans prochain venãs, Ilz nayẽt a imprimer ou faire imprimer, vendre ne lucider lesdictz liures & cartes susdictes, sur peine damende arbitraire & de cõfiscation diceulx liures & cartes. Si voulons, vous mandons, & a chascun de vous en droict soy & si comme a luy appartiendra, Que de noz present grace conge permission & octroy, vous faictes souffrez & laissez ledict Oronce Fine, iouyr & vser, Et icelles nosdictes deffenses entretenir, garder, & obseruer de poinct en poinct, selon & ainsi que dict est cy dessus. Cessans tous aultres empeschemens au contraire. Car tel est nostre plaisir. Donne a Valence, le cinquiesme iour de Septembre, Lan de grace mil cinq cens trente six. Et de nostre regne le vingtdeuxiesme. Ainsi signe
+# Orontij Finei Delphinatis, REGII MATHEMATICARVM PROFESSOris, In Primum elementorum Euclidis, Demonstrationes.
 
-Par le Roy, monseigneur le Cardinal de Lorraine, & aultres presens.
+## ¶ Principiorum Interpretatio.
 
-Preudomme.
+RECEPTVM EST AB OMNIBVS, VNAMQVANque disciplinã propria sibi vẽdicare principia: quę etsi nulla prorsus videãtur indigere probatione. ex ipsis tamen sanéq; intellectis principijs, ad ea quæ eadem consequũtur principia, deuenire vel facile cõtingit. Idcirco generalẽ principiorũ geometricorũ elucidationẽ, protheoriámve in sex priores libros geometricorũ elementorũ Euclidis Megarensis (quos in gratiam studiosorum omnium suscepimus interpretãdos) præmittere: atq; intellectualem illam magnitudinum, & figurarum cõtemplationem (prius, quàm ad propositionum expositionem deueniamus) rudioribus geometricarum speculationum tyrunculis aperire, non duximus importunum. ¶ Triplicem itaque principiorum offendimus ordinem: vtpote, diffinitiones, terminorum naturam exprimentes: postulata, ex ipsis collecta diffinitionibus: & effata, seu cõmunes sententias, quæ dicuntur axiomata In primis ergo diffinitiones: dein reliqua suo declarabimus ordine. ¶ Animaduertendum est igitur, subiectum ipsius Geometriæ fore magnitudinem, à numero quidem & materia seorsum abstractam. Magnitudinis autem, triplex assignatur dimensio Aut enim magnitudo longa tantùm imaginatur: aut longa, & lata: vel denique longa, & lata, simúlque profunda, siue crassa abstrahitur. Quorum omnium mediatum vel immediatum principiũ, punctum (alias signum) esse dicitur. Fingitur enim magnitudo per continuam suiipsius diuisionem (quãquàm in semper diuisibilia distribuatur) deuenire tandem ad partem minimam, quæ videlicet amplius diuidi non possit, ac si foret omni dimensione priuata: instar quidem vnitatis in discreta quantitate. Vt quemadmodum ex vnitatis multiplicatione, omnis conficitur numerus: haud dissimiliter ex huiuscemodi parte, vel indiuisibili nota, per abstractum seu transsumptiuum eiusdem notulę motum, omnem effingamus oriri seu produci magnitudinẽ. Hanc itaq; magnitudinis partem minimã, siue notulã indiuisibilem seorsum abstractam, punctum adpellamus: & ab Euclide ita primùm describitur,
 
-Et seelle a simple queue de cire Iaulne.
+## ¶ De puncto, linea, atque superficie, Diffinitiones.
+
+¶ σημεῖόν ἐστι, ᾧ μέρος οὐθέν.
+
+> Punctum
+
+**1** Punctum est, cuius pars nulla.
+
+Id est, quod abstractũ à cõtinuo, velut ipsius cõtinui pars minima, omni dimẽsione priuatũ imaginatur ¶ Ex cuius quidẽ pũcti abstracto defluxu, per infinitã suiipsius multiplicationẽ, longitudo dimensionũ primaria cõficitur: quæ Linea vocitatur, in hunc diffinita modũ,
+
+¶ γραμμὴ δ᾽, μῆκος ἀπλατές.
+
+**2** Linea verò, est longitudo latitudinis expers.
+
+Hoc est, latitudine priuata. Cũ enim punctũ omni careat dimẽsione: suo fluxu, seu trãssumptiuo motu, causat tantummodò longitudinem.
+
+¶ γραμμῆς δ᾽ πέρατα, σημεῖα.
+
+**3** Lineæ autem limites, sunt puncta.
+
+Incipit enim à puncto, & ex infinitis conficitur punctis, in punctúmq; terminatur. Omnis porrò linea, vel recta, vel obliqua venit imaginanda.
+
+> Cuiuslibet disciplinæ propria recipienda fore principia
+>
+> Protheoria
+>
+> Triplex ordo principiorum geometricorum.
+>
+> Geometriæ subiectum.
+>
+> Triplex in magnitudine dimensio.
+>
+> Pũctũ omnis magnitudinis principium esse dicitur.
+>
+> Pũcti cũ vnitate comparatio.
+>
+> Vnde linea ex puncto describatur.
+
+a.j.

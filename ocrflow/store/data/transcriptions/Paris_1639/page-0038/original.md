@@ -1,43 +1,40 @@
-# Page 37
+# Page 38
 
-# D'EVCLIDE, LIV. I.
+# LES ELEMENTS
 
-1. a. c.
+1. a. g.
 
-Et ce qui est plus grand ou plus petit que l'vn des égaux, est aussi plus grand' ou plus petit que l'autre des égaux.
+L'interpretation ne change point l'égalité.
 
-hyp. | b 2|2 c,
-hyp. | a 3|2 b,
-1.a.c. | a 3|2 c.
-
-(figure)
-
-1. a. d.
-
-Et si l'vn des égaux est plus grand ou plus petit que quelque grandeur, l'autre des égaux sera aussi plus grand ou plus petit que la mesme grandeur.
-
-hyp. | a 2|2 b,
-hyp. | a 3|2 c,
-1.a.d. | b 3|2 c.
+hyp. | □af 2|2 □cg,
+hyp. | af *eſt* □.ab,
+hyp. | cg *eſt* □.cd.
+1.a.g. | □.ab 2|2 □.cd.
 
 (figure)
 
-1. a. e.
+C'est à dire, que si le quarré AF est égal au quarré CG, & que AF soit le quarré de AB, & CG le quarré de CD : la consequence sera, que le quarré de AB est égal au quarré de CD.
 
-Et ce qui est plus grand que le plus grand, est aussi plus grand que le plus petit, & ce qui est plus petit que le plus petit, est aussi plus petit que le plus grand.
+2. a. 1.
 
-hyp. | b 3|2 c,
-hyp. | a 3|2 b,
-1. a. 1. | a 3|2 c.
+Et si à choses égales on adjouste choses égales, les tous sont égaux.
+
+hyp. | ab 2|2 cd,
+hyp. | bf 2|2 dg,
+2.a.1. | af 2|2 cg.
+
+(figure)
+
+3. a. 1.
+
+Et si des choses égales on retranche choses égales, les restes sont égaux.
+
+hyp. | ab 2|2 cd,
+hyp. | ae 2|2 cf,
+3.a.1. | eb 2|2 fd.
 
 (figure)
 
-1. a. f.
+3. a. b.
 
-Le changement des choses égales n'oste pas l'égalité.
-
-hyp. | a + c 2|2 b + d,
-hyp. | c 2|2 d.
-1.a.f. | a + d 2|2 b + c.
-
-(figure)
+Et si d'vn tout on retranche la moitié, restera la moitié : & si on retranche plus de la moitié, restera moins de la moitié : mais si on retranche la troisiesme partie, resteront les deux tiers, &c.

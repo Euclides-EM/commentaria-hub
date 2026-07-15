@@ -1,41 +1,47 @@
-# Page 119
+# Page 120
 
-# D'EVCLIDE, LIV. II.
+# LES ELEMENTS
 
-D'où s'ensuit que le rectangle des parties inégales AB & BD est égal au rectangle de AB & BC : que la difference des parties AB & BD est AC, & son quarré OI : & que AE est le quarré de la toute AD. Et par consequent ce scholie ne differe de la 8. proposition que de nom : & se peut aussi demonstrer comme s'ensuit.
+THEOR. IX. PROPOS. IX.
 
-*Hypotheſe.*
-
-ab *eſt* ——: ad *eſt* 3|2 db:
-ad~db Ⅱ af *eſt* fd,
-
-*Req. à demonſtrer.*
-
-4▭.adb + □.fd 2|2 □.ab.
+Si vne ligne droicte est couppée en deux parties égales, & en deux parties inégales: les quarrez des segments inégaux de la toute, sont doubles du quarré de la moitié, & du quarré de la section du milieu.
 
 (figure)
 
+*Hypoth.*
+
+ab *eſt* ——,
+ac 2|2 cb,
+ad 3|2 db.
+
+*Req. à demonſtr.*
+
+□.ad / + □.db 2|2 2□.ac, / + 2□.cd.
+
 *Preparation.*
 
-aeb *eſt la figure du ſcholie de la 6. du 2.*
+11.1 1.nota | ce ⊥ ab,
+3.1 | ce 2|2 ca Ⅱ cb,
+1.p.1 | ae & be *ſnt* ——,
+31.1 | df == ce, fg == ab,
+1.p.1 | af *eſt* ——.
 
-*Demonſtration.*
+*Demonſtr.*
 
-ſ.5.2 | 4□.ed 2|2 4▭.adb. α
-1.ſ.4.2 | □.ab 2|2 4□.ce. β
-47.1 | 4□.ce 2|2 4□.ed + 4□.cd,
-1.ſ.4.2 | 4□.ed + 4□.cd 2|2 4□.ed + □.fd,
-α.1.a.f | 4□.ed + □.fd 2|2 4▭.adb + □.fd,
-concl. β.1.a.1 | □.ab 2|2 4▭.adb + □.fd.
-
-*Explication par nombres.*
-
-hyp. | ad *eſt* 7, α
-hyp. | db *eſt* 3, β
-3.a.1 | fd *eſt* 4, γ
-19.a.1 | ab *eſt* 10, δ
-1.concl. δ | □.ab *eſt* 100,
-αβ | ▭.adb *eſt* 21,
-6.a.1 | 4▭adb *ſnt* 84,
-γ | □.fd *eſt* 16,
-2 concl. 19.a.1 | 4▭.adb / + □.fd 100.
+conſtr. | ac 2|2 ce. α
+conſtr. | ∠ace *eſt* ┘,
+2.c.32.1 | ∠cea *eſt* ½┘,
+conſtr. | cb 2|2 ce,
+conſtr. | ∠bce *eſt* ┘, β
+2.c.32.1 2.nota | ∠ceb *eſt* ½┘,
+19.a.1 | ∠aef *eſt* ┘, γ
+32.1 | ∠cbe *eſt* ½┘, δ
+29.1 | ∠bdf 2|2 ∠bce,
+β.12.a.1 | ∠bdf *eſt* ┘,
+δ.32.1 3.nota | ∠bfd *eſt* ½┘,
+6.1 | bd 2|2 fd,
+29.1 | ∠fge 2|2 ∠bce,
+conſtr. | ∠bce *eſt* ┘,
+12.a.b | ∠fge *eſt* ┘,
+32.1 4.nota | ∠efg *eſt* ½┘,
+6.1 | eg 2|2 gf Ⅱ cd. ε

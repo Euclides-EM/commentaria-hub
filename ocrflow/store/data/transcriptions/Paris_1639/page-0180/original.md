@@ -1,52 +1,54 @@
-# Page 179
+# Page 180
 
-# D'EVCLIDE, LIV. IV.
+# LES ELEMENTS
 
 (figure)
 
-*Hypoth.*
-
-iacb *eſt* ⊙ D.
-def *eſt* △ D.
-
 *Requis à faire.*
 
-*circonſcrire au* ⊙abc *le* △,
-lmn *equiangle au* △efd.
+*inſcrire au* △abc *le* ⊙efg..
 
 *Conſtr.*
 
-2.p.1 | gefh *eſt* ——,
-arbitr. | a *eſt* • *en la* ∩acb,
-1.p.1. | ai *eſt* ——,
-23.1 | ∠aib 2|2 ∠deg,
-23.1 | ∠bic 2|2 ∠dfh,
-11.1 | ln ⊥ ai, lm ⊥ ib, α
-11.1 | mn ⊥ ic, α
-ſymp. | △lmn *eſt le requis.*
+9.1 | ∠dba 2|2 ∠dbc,
+9.1 | ∠dcb 2|2 ∠dca,
+11.3 | df ⊥ bc, α
+3.p.1 | dfeg *eſt* ⊙,
+ſymp. | ⊙efg *eſt le req.*
+
+*Prepar.*
+
+12.1 | de ⊥ ab, α
+12.1 | dg ⊥ ac. α
 
 *Demonſtr.*
 
-21.d.1 | aibl *eſt* 4∠,
-α.ſ.32.1 | ∠aib + ∠l 2|2 2┘,
-13.1. | ∠deg + ∠def 2|2 2┘,
-conſtr. | ∠aib 2|2 ∠deg,
-1.concl. 3.a.1 | ∠l 2|2 def, β
-α.ſ.32,1 | ∠bic + ∠m 2|2 2┘,
-13.1 | ∠dfh + ∠dfe 2|2 2┘,
-conſtr. | ∠bic 2|2 ∠dfh,
-2 concl. 3 a.1 | ∠m 2|2 ∠dfe, γ
-17.1 | ∠def + ∠dfe 2|3 2┘;
-βγ | ∠l + ∠m 2|3 2┘;
-13.a.1 | lmn *eſt* △,
-3 concl. βγc.32 1 | ∠n 2|2 ∠d,
-4 concl. α.c.16.3 | nl,nm,lm *touchent le* ⊙abc,
-5.concl 4 d.5 | △lmn *eſt circonſcrite au* ⊙abc.
+conſtr. | ∠dbe 2|2 ∠dbf,
+12.a.1 | ∠deb 2|2 ∠dfb,
+bd *eſt commun.*
+26.1 | de 2|2 df, β
+conſtr. | ∠dcb 2|2 ∠dca,
+26.1 | dg 2|2 df,
+β.1.a.1 | ed 2|2 dg,
+c.15.d.1 | •; e,f,g *ſnt en la* ∩ *du* ⊙efg,
+1.concl. α c.16.3 | ab,bc,ac *touchent le* ⊙efg,
+2 concl. 5.d.4 | ⊙efg *eſt inſcrit au* △abc.
 
-PROBL. IV. PROPOS. IV.
+PROBL. V. PROPOS. V.
 
-Dans vn triangle donné descrire vn cercle.
+A l'entour d'vn triangle donné, descrire vn cercle.
 
 *Hypoth.*
 
 abc *eſt* △ D.
+
+*Requis à faire.*
+
+*circonſcrire au* △abc *le* ⊙abc.
+
+*Conſtr.*
+
+10.1 | bd 2|2 da,
+10.1 | ae 2|2 ec,
+11.1 | df ⊥ ab,
+11.1 | ef ⊥ ac,

@@ -1,15 +1,13 @@
-# Page 316
+# Page 317
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-ction : par exemple, les deux nombres de la fraction ⅔ estant multipliez par vn nombre tel qu'on voudra, comme par 4, donneront 8/12, qui vaut la mesme chose que ⅔, encore que ses nombres soient plus grands que ceux de ⅔.
+13 sols & ⅔. En quoy nous noterons que ⅔ d'vne liure, valent autant que le tiers de 2 liures.
 
-Il y a sept sortes de reductions, dont la premiere est, lors qu'il faut reduire vne fraction qui a son numerateur plus grand que son denominateur en entier : cela se fait en diuisant le numerateur par son denominateur, comme 8/3 se reduisent en 2⅔.
+La sixiesme est, lors que la fraction est expliquée par grands nombres, & qu'on la veut reduire en plus petits : ce qui se fait en diuisant tant le numerateur que le denominateur, par vn mesme nombre qui les puisse diuiser sans reste : par exemple, les deux nombres de la fraction 36/60 se peuuent diuiser par 2, & vient la fraction 18/30, que ie diuise encore par 2, & vient 9/15, les nombres de laquelle se peuuent diuiser par 3, & vient la fraction 3/5, qui vaut autant que 36/60, encore que ses nombres soient plus petits.
 
-La seconde est, lors qu'on veut reduire vne fraction vulgaire en fraction de la dixme, cela se fait en adioustant au numerateur plusieurs zero, & augmentant la denomination ou le nombre des accens, selon le nombre des zero qu'on aura adiousté, puis diuisant par le denominateur : ce faisant on trouuera que 5/8 valent 625‴ : & ⅔ valent enuiron 666‴, & ne se peuuent reduire exactement, à cause qu'il reste tousiours quelque chose.
+Que si par coniecture on ne peut trouuer vn nombre qui puisse diuiser les deux nombres de la fraction sans reste, on pourra trouuer leur plus grande commune mesure par la methode suiuante. Soit diuisé le plus grand par le plus petit, puis par le reste, s'il y en a, soit diuisé le diuiseur precedent, & ainsi continuant à diuiser par le reste le diuiseur precedent, on trouuera enfin vn reste qui diuisera son diuiseur sans reste, & ce reste sera la commune mesure des deux nombres de la fraction : ce faisant on trouuera que la plus grande commune mesure de 36 & 60 est 12, par lequel diuiseur 36 & 60 viendra 3/5, pour les moindres termes de la fraction 36/60. Par la mesme methode on trouuera aussi que la commune mesure des deux nombres de la fraction 63/288 est 9, par lequel si on diuise 63 & 288, viendra 7/32, pour les moindres termes de la fraction 63/288.
 
-La troisiesme est, lors qu'on veut mettre l'entier en forme de fraction, ou le reduire en vne fraction, qui aye telle denomination qu'on voudra. Pour reduire l'entier en forme de fraction, il luy faut seulement donner vn pour denominateur. Mais pour le reduire en tiers, quart, ou autre telle denomination qu'on voudra, on le multipliera par 3, 4, ou autre nombre de la denomination proposée : ce faisant on trouuera que 7 vaut 21/3, & 5 reduict en quart, donne 20/4.
+Que si la commune mesure trouuée par cette methode est l'vnité, les nombres de la fraction proposée seront premiers entr'eux, & ne se pourra pas trouuer vne autre fraction de mesme valeur, qui aye ses nombres plus petits : comme si la fraction proposée est 16/45, on trouuera que la plus grande commune mesure de 16 & 45 est vn, & par consequent ladite fraction 16/45 est en ses moindres termes, & n'y a point d'autre fraction equiualente qui aye ses nombres plus petits.
 
-La quatriesme est, lors qu'il y a vn entier auec vne fraction adjointe, & qu'on les veut reduire en vne fraction ; ce qui se faict en multipliant l'entier par le denominateur de sa fraction, & adioustant au produict le numerateur sans changer le denominateur : ce faisant 8⅔ donnent 26/3, & 4 1/2 donnent 9/2, & 6 3/4 donnent 27/4.
-
-La cinquiesme est, lors qu'on veut reduire vne fraction en d'autre monnoye de moindre valeur, comme 4/5 d'vne liure en sols, ce qui s'appelle eualuation, & se faict en multipliant 20 sols, qui est la valeur de la liure, par le numerateur 4, puis diuisant le produict, qui est 80, par le denominateur 5, qui donnera 16 sols pour 4/5 de liure. Par la mesme methode on trouuera, que ⅔ d'vne liure valent
+La septiesme est, lors que les denominateurs sont dissemblables, & qu'on les veut reduire en semblables ou égaux : ce qui se faict par coniecture, ou par art sans coniecture. La coniecture a lieu

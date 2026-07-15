@@ -1,45 +1,43 @@
-# Page 155
+# Page 156
 
-# D'EVCLIDE, LIV. III.
-
-1.c.17.1 | ∠feg 2|3 ┘,
-19.1 | fe 3|2 fg,
-15.d.1 | fd 2|2 fe,
-1.a.d. | fd 3|2 fg,
-
-*contr. 9. a. 1.*
-
-2 concl. 21.a.1 | fe ⊥ ab.
-
-THEOR. XVII. PROPOS. XIX.
-
-Si quelque ligne droicte touche vn cercle, & de l'attouchement on mene vne ligne droicte à angles droicts à la touchante, en icelle menée sera le centre du cercle.
+# LES ELEMENTS
 
 (figure)
 
 *Hypotheſe.*
 
-ce *eſt* ⊙,
-ab *touche le* ⊙cde,
-c *eſt* • *d'attouchement.*
-ec ⊥ ab.
+dabc *eſt* ⊙.
 
-*Req.à demonſtrer.*
+*Req. à demonſtr.*
 
-*centre du* ⊙ *eſt en* ec.
+∠bdc 2|2 2∠bac.
 
-*Demonſtr.*
+*Preparation.*
 
-ſuppoſ. | •f *eſt centre du* ⊙.
-1.p.1 | fc *eſt* ——,
-18.3 | ∠fcb *eſt* ┘,
-hyp. | ∠ecb *eſt* ┘,
-12.a.1. | ∠fcb 2|2 ∠ecb,
+2.p.1 | ade *eſt* ——.
 
-*contr. 9. a. 1.*
+*Demonſtr.du 1.cas.*
 
-concl. 21.a.1 | *centre du* ⊙ *eſt en* ec.
+32.1 | ∠bde 2|2 ∠dab / + ∠dba,
+5.1 | ∠dab 2|2 dba,
+1.a.f | ∠bde 2|2 2∠dab. α
+d.α | ∠edc 2|2 2∠dac,
+concl. 20.a.b | ∠bdc 2|2 2∠bac.
 
-THEOR. XVIII. PROPOS. XX.
+*Demonſtr.du 2.cas.*
 
-Au cercle, l'angle qui est au centre, est double de l'angle qui est à la circonference, quand ils ont pour leur base vne mesme circonference.
+32.1 | ∠bdc 2|2 ∠a + ∠c,
+5.1 | ∠a 2|2 ∠c,
+concl. 1.a.f | ∠bdc 2|2 2∠bac. β
+
+*Demonſtr.du 3.cas.*
+
+d.β | ∠edc 2|2 2∠dac,
+d.β | ∠edb 2|2 2∠dab,
+concl. 20.a.1 | ∠bdc 2|2 2∠bac.
+
+THEOR. XIX. PROPOS. XXI.
+
+Au cercle, les angles qui sont en vn mesme segment, sont égaux entr'eux.
+
+(figure)

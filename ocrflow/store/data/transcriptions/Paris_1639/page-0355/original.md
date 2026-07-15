@@ -1,27 +1,20 @@
-# Page 354
+# Page 355
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-16, & pour le second 10, tous deux auec le signe de moins ; puis faisant l'operation comme s'ensuit, viendra le mesme nombre 7⅔, pour le premier des incognus.
+que la grande tasse vaille 20 escus, ie diray que 20 escus, auec 100 escus que vaut le couuercle, font 120 escus ; & par consequent la petite tasse vaudra 40 escus, puis qu'elle vaut le tiers de ce que vaut la grande & le couuercle ensemble.
 
-5 ~ 16
-6 ~ 10   *le premier erreur.*   *difference des nombres supposez.*   5
+Maintenant pour voir si la seconde condition se trouue en ces deux nombres 20 & 40 : ie dis, que 40 escus que i'ay trouué pour la petite tasse, auec 100 escus du couuercle, font 140 escus : & parce que 140 n'est pas le double de 20 escus, qui est la valeur de la grande tasse, ie conclus qu'il y a erreur de 100 en la supposition de 20 escus pour la valeur de la grande tasse. Partant, ie recommence, & suppose 21 escus pour la mesme tasse, & par consequent la petite tasse vaudra 40⅓ escus, qui est le tiers 121 escus, que font les prix de la grande & du couuercle ensemble : puis pour sçauoir si la seconde condition se trouue en ces deux nombres 21 & 40⅓, ie dis que 40⅓ que i'ay trouué pour la petite tasse, auec 100 du couuercle font 140⅓ : & parce que 140⅓ excede de 98⅓ le double de 21, qui est la valeur de la grande tasse, nous dirons qu'il y a erreur de 98⅓, en la supposition 21 pour la valeur de la grande tasse : ayant ainsi trouué les deux erreurs, on fera l'operation suiuant les preceptes donnez cy dessus, ainsi :
+
+20 ~ 100
+21 ~ 98⅓   20
 ——
-*Reste* 6 —— 16 —— 1 —— R. 2⅔.
+*Reste* 1⅔ ou 5/3 X 100/1   1/1 | 300/5 [60
 ——
-*Somme pour le premier 7⅔.*
+*Somme pour la grande tasse 80.*
 
-Que si les deux suppositions eussent esté 8 & 11, on eust trouué pour l'erreur de la premiere supposition 2, & pour la seconde 20, tous deux auec le signe de plus. Puis faisant l'operation comme s'ensuit, on eust encore trouué 7⅔, pour le premier des incognus.
+Ayant ainsi trouué 80 escus pour la plus grande tasse, i'adiousté 80 escus auec 100 du couuercle, & de la somme, qui est 180, ie prens le tiers, qui est 60 escus pour la petite tasse : & par ainsi la plus grande des deux tasses proposées vaut 80 escus, & la plus petite 60 escus.
 
-8 + 2
-11 + 20   *le premier erreur.*   *difference des nombres supposez.*   8
-——
-*Reste* 18 —— 2 —— 3 —— R. 1⅓.
-——
-*Reste pour le premier 7⅔,*
+*Exemple 3.*
 
-*Exemple 2.*
-
-Vn homme a deux tasses d'or, & vn couuercle de 100 escus, la grande tasse auec le couuercle vaut trois fois autant que la petite sans couuercle : & la petite auec le couuercle deux fois autant que la grande sans couuercle, sçauoir combien vaut chaque tasse ?
-
-En cette regle de deux fausses positions, les plus grandes difficultez consistent à trouuer les erreurs des nombres qu'on suppose au lieu de l'vn des incognus, & ne se peut donner autre precepte pour les trouuer, sinon qu'ayant supposé pour l'vn des incognus, il faut raisonner suiuant la teneur de la question, pour trouuer vn chacun des autres incognus : Comme en cet exemple, supposant
+Trouuer deux nombres tels, que le premier prenant

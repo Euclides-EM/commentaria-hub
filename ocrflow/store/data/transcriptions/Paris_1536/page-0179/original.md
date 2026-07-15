@@ -1,31 +1,31 @@
-# GEOMET. ELEMENT.
+# LIBER VI.
 
-*162*
+*163*
 
-> Præcipua demõſtrationis resolutio.
+*[diagram: |b/a | a/f. | d/a | a/e. |]*
 
-ipsius g/ ad h : veluti quinta huius sexti præmissum eſt diffinitione . Et proinde ratio f/ad h, componitur ex ratione laterum a/b/ ad b/e, & c/b/ad b/d. His præoſtẽsis, quoniam a/b/c/ & c/b/e/ parallelogramma sub eadem sunt altitudine:ad se inuicem igitur sunt vt bases, per primam huius sexti. Sicut itaque a/b,ad b/e: sic a/b/c parallelogrammum,ad parallelogrammum c/ b/e. Sicut autem a/b/ ad b/e, sic per conſtructionem f/ ad g. Et sicut igitur f,ad g: sic per vndecimam quinti , a/ b/ c/ parallelogrammum, ad c/b/e/ parallelogrammum . Insuper quoniam c/b/e/& d/ b/ e/ parallelogramma , in eadem sunt altitudine: ad se inuicem rursum sunt vt bases, per eandem primam huius sexti. Sicut ergo c/ b/ ad b/d: sic parallelogrammum c/b/e,ad d/b/e/parallelogrammum. Sicut porrò c/b,ad b/d: sic per conſtructionem g, ad h. Et sicut igitur g/ad h: sic parallelogrammum c/b/e, ad d/b/e/ parallelográmum, per ipsam vndecimam quinti.Et quoniam oſtẽsum eſt, vt f/ ad g,sic a/b/c/parallelogrammũ,ad parallelogrammum c/ b/ e : sicut rursum g/ ad h, sic idem parallelogrammum c/ b/ e, ad d/ b/ e/ parallelogrammum . Et ex æqua igitur ratione, per vigesimamsecũdam eiusdem quinti, sicut f/ad h: sic a/b/c/ parallelogrammum,ad d/b/e/parallelogrammũ. Atqui ratio f/ ad h , composita eſt (vti suprà deduximus) ex ratione laterum a/ b/ ad b/ e, & c/ b/ ad b/d. Et parallelogrammum igitur a/b/c/ad parallelogrammum d/b/e, rationem habet compositam ex ratione laterum a/b/ad b/e, & c/b/ad b/d. Aequiangula itaque parallelogramma, rationem habent compositam ex lateribus , angulos inuicem æquales continentibus.Quod demonſtrandum fuerat.
+decimamsextam eiusdem quinti,sicut b/a/ad a/d,sic f/a/ ad a/e. Proportionalia itaq; sunt latera, quæ circum angulum qui ad a/vtrique parallelogrammo communem. Insuper,quoniam parallela eſt f/l/ ipsi b/c: æqualis eſt angulus a/f/l,ipsi angulo a/b/c:necnó & a/l/f,ipsi a/c/b,per vigesimamnonam primi.Angulus porrò qui sub f/a/l/ aut b/a/c,vtrique triangulo a/b/c/ & a/f/l/ communis eſt.Aequiangulũ eſt itaque triangulũ a/f/l,triãgulo a/b/c Haud dissimiliter triãgulum a/e/l,triãgulo a/d/c/ oſtendetur æquiangulũ:& angulus a/e/l/angulo a/d/c/ æqualis,atque a/l/e/ipsi angulo a/c/d.Si autem æquales anguli,æqualibus cóponantur angulis:consurgent per secundam cómunem sententiã, æquales anguli.Aequus eſt igitur angulus f/ l/ e, ipsi b/ c/ d: & totum proinde parallelogrammum e/f, toti a/b/c/d/æquiangulum.Rursum quoniam a/f/l/ & a/b/c/triangula,similiter & a/e/l/ atque a/d/c,sunt inuicem æquiangula : proportionalia itaque sunt latera, quæ circũ æquales angulos, per quartam huius sexti. Sicut igitur a/b/ad b/c, sic a/f/ad f/l: sicútque b/c/ad c/a,sic f/l/ad l/a.Sicut rursum a/c/ad c/d, sic a/l/ad l/e: sicut denique c/d/ad d/a, sic l/e/ ad e/a. Et quoniam oſtensum eſt,vt b/c/ad c/a, sic f/l/ad l/a: sicut præterea a/c/ad c/d,sic a/l/ad l/e.Et ex æqua igitur ratione,per vigesimamsecũdam quinti,sicut b/c/ad c/d,sic f/l/ad l/e.
 
-*[diagram: | f. g |a/b.b/e|a/b/c.c/b/e|]*
+*[diagram: | a/b/ | b/c/ | c/a/ | c/d/ | d/a/ | — | a/f/ | f/l/ | l/a/ | l/e/ | e/a/ |]*
 
-*[diagram: | g. h |c/b.b/d|c/b/e d/b/e|]*
+Aequiangulorum itaque parallelogrammorum a/ b/ c/ d/ & e/f,proportionalia sunt latera quæ circum æquales angulos . Simile eſt igitur e/ f/ parallelogrammum, ipsi a/b/c/d/ parallelogrammo : per primam huius sexti diffinitionem. Haud dissimili via,g/h/parallelogrammum,ipsi a/b/c/d/ parallelogrammo simile fore conuincetur: eundem qui prius,versús angulum c,& ipsum g/h/ parallelogrammum respondenter iterando discursum. Et proinde vtrunque ipsorum e/f/& g/h/parallelogrammorum,simile eſt eidem a/b/c/d/parallelogrammo.Omne autem parallelogrammum, rectilineum eſt:& quæ eidem rectilineo sunt similia, & adinuicem similia sunt, per vigesimamprimam huius sexti.Simile eſt igitur e/f/parallelogrammum,ipsi g/h/parallelogrammo. Omnis itaque parallelogrammi,quæ circa dimetientẽ parallelogramma,similia sunt toti,& adinuicem.Quod oportuit oſtendisse.
 
-*[diagram: |f. g. h |a/b/c.c/b/e.d/b/e|]*
+> Quòd g,h,parallelogrãmũ eidẽ a,b,c,d, sit simile.
 
-*[diagram: a b c d e f g h]*
+> Quòd e,f, & g,h , similia sint adinuicẽ.
 
-Θεώρημα ιη, Πρόθεσις κδ.
+Πρόβλημα ξ, Πρόθεσις κε.
 
-Παντὸς παραλληλογράμμου, τὰ περὶ τὴν διάμετρον παραλληλόγραμμα,ὅμοια ἐστὶ τῷ τε ὅλῳ καὶ ἀλλήλοις.
+Τῷ δοθέντι εὐθυγράμμῳ ὅμοιον,καὶ ἄλλῳ τῷ δοθέντι ἴσον,τὸ αὐτὸ συστήσασθαι.
 
-## Theorema 18, Propositio 24.
+## Problema 7, Propositio 25.
 
-OMnis parallelogrammi,quæ circa dimetiẽtem parallelogrãma:similia sunt toti, & adinuicem.
+DAto rectilineo simile,& alij dato æquale,idem conſtituere.
 
-ORONTIVS. ¶Eſto datum parallelogrammum a/b/c/d,cuius dimetiens sit a/c,& circa ipsum dimetientem parallelogramma,e/f/& g/h.Aio ipsa e/f/ & g/h/parallelogramma,toti parallelogrammo a/b/c/d,atque inuicem fore similia. Trianguli enim a/b/c, ad latus b/ c/ acta eſt parallela f/l:secat igitur f/l/ipsius trianguli latera proportionaliter,per secundam huius sexti, sicut b/f/ ad f/a, sic c/ l/ ad l/ a.Trianguli rursum a/ d/ c, ad latus d/c/acta eſt parallela e/l:secat igitur e/l/ ipsius trianguli latera proportionaliter,per eãdem secundã huius sexti, sicut c/l/ ad l/a, sic d/e/ ad e/a. Sicut porrò c/l/ ad l/a,sic oſtensum eſt b/f/ad f/a.Et sicut igitur b/f/ad f/a, sic per vndecimã quinti, d/e/ad e/a.Si autem diuisæ magnitudines proportionales fuerint:compositæ quoq; proportionales erũt, per decimamoctauam quinti. Et sicut igitur b/a/ad a/f,sic d/a/ad a/e.Et permutatim rursum,per
+ORONTIVS. ¶Sint bina rectilinea, a/b/c/inquàm & d : sitq́; receptum, ipsi dato a/ b/ c/ rectilineo simile, ipsi verò d/ æquale , idem rectilineum cõſtituere. Ad datam itaque rectam lineam b/c,& in dato angulo qui sub e/b/c, dato rectilineo a/b/c, æquale conſtruatur parallelogrammum b/ f: similiter & ad rectam lineam f/c,atque in dato angulo qui sub f/c/g/ ei qui sub e/b/c/æquali, dato rectilineo d,æquale rursum parallelogrammum conſtituatur c/h,per quadragesimã quartam,& quadragesimamquintam primi,vtroque rectilineo(si expediat)in triãgula diſtributo . Et quoniam angulus f/c/g,æquus eſt angulo e/b/c,per cõſtructionem, vtrique autem communis b/c/f: anguli propterea b/c/f,
 
-> Quòd e,f,parallelogrãmũ simile sit toti a,b,c,d.
+> Partium figuræ præmittẽda descriptio.
 
-*[diagram: a e d f l h b g c]*
+*[diagram: a d b c g e f h n l m]*
 
-*[diagram: | b/f. f/a | c/l. l/a | d/e. e/a |]*
+o.iiij.

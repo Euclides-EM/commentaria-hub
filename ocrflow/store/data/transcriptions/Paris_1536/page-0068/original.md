@@ -1,25 +1,20 @@
-# LIBER II.
-
-Ipsis porrò gnomoni m/d/g,& quadrato m/ g: æquum est quadratū a/d/e/f.Comprehēsum igitur quater sub a/b/& b/d/rectangulū,vnà cum quadrato m/g:æquum est,per primam communem sententiam,ipsi quadrato a/d/e/f.Atqui m/g/quadratum æquum est ei, quod ex a/c: fit enim ex m/h, quæ eidem a/c, per trigesimamquartam primi,est æqualis.Quadratum autē a/d/e/f, æquum est ei,quod ex a/b/& b/c/tanq̄ ex vna describitur quadrato:data est enim b/d,ipsi b/c/æqualis. Si recta igitur linea a/b,secetur vtcunque in puncto c:rectangulum comprehensum quater sub tota a/b/& segmento b/c, cum eo quod ex reliquo segmento a/c/ est quadrato, æquum est ei quod fit sub tota a/b,& prædicto segmento b/c/,tanquam ex vna descripto quadrato.Quod demonstrare fuerat operæpretium.
-
-Θεώρημα θ, Πρόθεσις θ.
-
-Εὰν εὐθεῖα γραμμὴ τμηθῇ εἰς ἴσα καὶ ἄνισα,τὰ ἀπὸ τῶν ἀνίσων τῆς ὅλης τῶν τμημάτων τετράγωνα, διπλάσιά ἐστι τοῦ τε ἀπὸ τῆς ἡμισείας καὶ τοῦ ἀπὸ τῆς μεταξὺ τῶν τομῶν τετραγώνου.
-
-## Theorema 9, Propositio 9.
-
-SI recta linea secetur in æqualia & nō æqualia:quæ ab inæqualibus totius segmenti fiunt quadrata,dupla sunt eius quod à dimidia,& eius quod à medio sectionum fit quadratorum.
-
-> A=Constructionem huiusce Communes sunt propositiones 23.31.11 Primi. *(manu scripta)*
-
-ORONTIVS.¶Secetur enim a/b/recta bifariam,in puncto c:& in non æqualia,in d.Aio quòd descripta ex a/d/& d/b/quadrata,dupla sunt eorum quæ ex a/c/ & c/d fiunt quadratorum. A dato enim puncto c, datæ rectæ lineæ a/b, recta linea c/e/ad rectos excitetur angulos,per vndecimā primi:& vtrique ipsarum a/c/& c/b/ ponatur æqualis,per tertiā eiusdem primi.Connectātur deinde a/e/& e/b, per primum postulatū.Per punctū insuper d,ipsi c/e/ducatur parallella d/f: atq; per punctum f,ipsi a/b/parallela ducatur f/g,per trigesimamprimā ipsius primi.connectatur tandem a/f, per idem primū postulatum. Cùm igitur a/c/sit æqualis ipsi c/e: erit per quintam primi, angulus c/a/e,æqualis angulo a/e/c. Et quoniam trianguli e/a/c/tres anguli,sunt æquales duobus rectis,per trigesimamsecundam ipsius primi,rectus est autē qui ad c:reliqui igitur anguli c/a/e/& a/e/c,vni recto sunt æquales.sunt autē æquales adinuicem,vterque igitur c/a/e/& a/e/c,recti dimidius est.Et proinde vterq; eorū qui ad basin e/b, isoscelis e/c/b, dimidius est recti.Itaq; totus a/e/b/angulus,rectus est.Rursum,quoniam e/g/f/trianguli tres anguli,binis rectis sunt æquales,per eandē trigesimamsecūdam primi. rectus est autem qui ad g: nam æqualis interiori & opposito ad easdem partes,qui ad c, per vigesimamnonam primi.dimidius item recti est,qui sub g/e/f.Reliquus igitur qui sub e/f/g, recti itidem est dimidius.Ambo igitur eidem,vtpote dimidio vnius recti,sunt æquales:& æquales propterea adinuicem,per primam communem sententiam.Et latus consequenter e/g,lateri g/f/æquale,per sextā primi.Haud dissimili via,latus f/d,lateri d/b/cōcluditur æquale. His ita præostensis,quoniam a/c/æqualis est ipsi c/e:æquū est quadratū quod fit ex a/c,ei quod ex c/e/fit quadrato:per corollariū quadragesimæsextæ ipsius primi.Eis porrò quæ ex a/c/ & c/e/fiunt quadratis,æquū est quod ex a/e/ describitur, per quadragesimamseptimam eiusdem primi:& propterea duplū eius quod fit ex a/c. quod enim binis æqualibus est æquale,alterutrius æqualiū duplum est. Item quoniam æqualis est e/g/ipsi g/f:æquum est rursum per idem corollariū, descriptum ex e/g/quadratum,ei quod fit ex g/f. Eisdem porrò quadratis quæ ex e/g/& g/f,æquum est quod fit ex e/f, per eandem penultimam primi.Duplum est
+# GEOMET. ELEMENT.
 
 *[diagram: e / g f / a c d b]*
 
-> Vt construenda figura.
+igitur quod ex e/f/quadratum, eius quod ex g/f/describitur.Atqui g/f/ipsi c/d/est æqualis, per trigesimāquartam primi : & ab æqualibus rectis, æqualia describuntur quadrata, per corollariū ipsius quadragesimæsextæ primi libri. Quod igitur ex e/ f/ quadratum, duplum est eius quod fit ex c/ d. Ostensum est autem, descriptū ex a/e/quadratum,duplum fore eius quod ex a/c. Descripta igitur ex a/e/& e/f/ quadrata, dupla sunt eorum quæ ex a/c/ & c/d/ fiunt quadratorum. Eis porrò quæ ex a/e/& e/f/quadratis,æquum est id quod ex a/f/describitur,per quadragesimamseptimam primi:rectus est enim angulus a/e/ f. Descriptū igitur ex a/f/ quadratum, duplum est eorum quæ ex a/c/& c/d/ fiunt quadratorum. Ei rursum quod ex a/f/ describitur quadrato,æqua sunt quæ ex a/d/& d/f/quadrata,per eandem quadragesimamseptimam primi:rectus est enim angulus qui ad d,per vigesimamnonā ipsius primi.Quæ igitur ex a/d/& d/f/ vtraq; quadrata, dupla sunt eorum quæ ex a/c/& c/d/fiunt quadratorū. Atqui d/f/æqualis est ipsi d/b:& ab æqualibus lineis,æqualia describūtur quadrata,per allegatū quadragesimæsextæ primi corollariū.Descripta igitur ex a/d/& d/b/ quadrata,eorū quæ ex a/c/& c/d/fiunt quadratorū dupla sunt.
+Si recta igitur linea:&c. vt in theoremate. Quod ostendendum susceperamus.
 
-> Primus demōstratiōis progressus.
+Θεώρημα ι, Πρόθεσις ι.
 
-> Secūd⁹ & prīcipalis processus demōstrationis.
+Εὰν εὐθεῖα γραμμὴ τμηθῇ δίχα,προστεθῇ δέ τις αὐτῇ εὐθεῖα ἐπ' εὐθείας,τὸ ἀπὸ τῆς ὅλης σὺν τῇ προσκειμένῃ καὶ τὸ ἀπὸ τῆς προσκειμένης τὰ συναμφότερα τετράγωνα,διπλάσιά ἐστι τοῦ τε ἀπὸ τῆς ἡμισείας καὶ τοῦ ἀπὸ τῆς συγκειμένης, ἔκ τε τῆς ἡμισείας καὶ τῆς προσκειμένης,ὡς ἀπὸ μιᾶς ἀναγραφέντος τετραγώνου.
 
-e.ij.
+## Theorema 10, Propositio 10.
+
+SI recta linea secetur bifariā,apponatur autē ei quæpiā recta linea in rectum:quod ex tota cum apposita,& quod ex apposita vtraq; quadrata, dupla sunt eius quod ex dimidia, & eius quod ex adiacēte dimidia & adiuncta,tanq̄ ex vna descriptorū quadratorū.
+
+ORONTIVS.¶Data enim a/b/recta linea, bifariam secetur in c: addatúrq; ei in directum recta quædam linea b/d.Aio quòd ex a/d/& d/b/vtraque quadrata, dupla sunt eorum quæ ex a/c/& c/d/fiunt quadratorum. Excitetur enim per vndecimam primi,à puncto c/datæ rectæ lineæ a/d, ad angulos rectos c/e: ponatúrque vtriq; a/c/& c/b/æqualis,per tertiam ipsius primi.connectantur deinde a/ e/ & e/b, per primū postulatum.Et per e/punctum,ipsi a/d/parallela ducatur e/ f:necnon & per punctum d,ipsi c/e/parallela/d/f,per trigesimamprimam eiusdem primi.In parallelas igitur c/e/& d/f,recta linea incidens e/f,interiores & ad easdem partes angulos c/e/f/& e/f/d,binis rectis per vigesimamnonam primi, efficit æquales. Atqui b/e/f/angulus,minor est ipso c/e/ f: duo itaque anguli b/e/f/& e/f/d, à recta e/f, in b/e/& d/f/rectas incidente causati,binis rectis sunt minores. Productæ igitur e/b/ & f/d,ad partes b,d,tandem concurrent,per quintum postulatum. Producātur igitur,per secundum postulatū:& conueniant in puncto g.& connectatur a/g,per primum postulatum. Cùm igitur a/c/sit æqualis ipsi c/e: erit per quintam primi angulus c/a/e/æqualis angulo a/e/c.Et quoniam trianguli e/a/c/tres anguli,binis sunt rectis æquales,per trigesimamsecundam primi:rectus est autem,qui ad c.Reliqui igitur c/a/e/& e/a/c/anguli,vni recto sunt æquales: qui cùm sint æquales adinuicē, vterq; dimidius est recti. Et vterq; propterea c/e/b/& e/b/c, qui ad basin e/ b,isoscelis e/c/b,recti dimidius est.Ergo totus a/e/b/angulus est rectus. Insuper, quoniā
+
+> Cōstructio figuræ.
+
+> Ostēsio theorematis.

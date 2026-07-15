@@ -1,23 +1,25 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-est æqualis: patuit autem quòd & g/k/m. Bini itaque anguli f/g/k/& g/k/m, eidẽ qui ad h/sunt æquales: & æquales propterea adinuicem, per primam communem sententiam. Communis rursum addatur angulus k/g/l. erũt igitur f/g/k/& k/g/l/ anguli, binis interioribus & ad easdem partes l/g/k & g/k/m, per secundam cómunem sententiã æquales. Ipsis porrò l/g/k/& g/k/m/ angulis, bini recti coæquãtur, per eandem partem vltimã vigesimænonæ propositionis: per primam ergo cómunem sententiam, anguli f/g/k/ & k/g/l/ sunt æquales duobus rectis. In directum est itaque f/g/ipsi g/l, per ipsam decimamquartam propositionem. Est autem & f/g/ipsi h/k, atq; g/l/ipsi k/m, per trigesimamquartam propositionem æqualis: & vtraque vtriq; parallela. Igitur f/l/ & h/ m, per secundam communem sententiam, sunt æquales adinuicem, atque parallelæ: & eas itaq; coniungentes rectæ lineæ f/h/& l/m, æquales & parallelæ sunt, per trigesimãtertiam propositionem. Parallelogrammum est igitur f/l/h/m. Huius autem pars f/g/h/k/triangulo a/b/c/æquatur: & reliqua g/k/l/m/ipsi triangulo b/c/d, per ipsam constructionem . Totum ergo f/ l/ h/ k/ parallelogrammum , ipsi dato a/ b/ c/ d/ rectilineo est æquale: suscipítque angulum f/h/ m/ æqualem dato qui ad e/ angulo. Dato itaque rectilineo a/b/c/d, æquale construximus parallelogrãmum f/l/h/m, in dato angulo rectilineo qui ad e. Quod faciẽdum proposueramus. ¶Idem quoq; licebit ostendere , vbi datum rectilineum , in plura duobus separabitur triangula. Cuilibet enim triangulo peculiare construetur parallelogrammum, per quadragesimamsecundam & quadragesimamquartam propositionem: quæ simul vnum efficere parallelogrãmũ ipsi dato rectilineo æquale, haud dissimili discursu cóuincẽtur.
+diffinitionem. Ex data igitur linea recta a/b, quadratum descripsimus. Quod oportuit fecisse.
 
-> Demõstrationis resolutio.
+## Corollarium.
 
-> Notandum.
+¶Quæ ab æqualibus igitur lineis rectis quadrata describuntur, æqualia sunt adinuicem: & ediuerso. quæ autem ab inæqualibus fiunt quadrata, sunt inequalia: maius quidem quod à maiore, minus autem quod à minore describitur.
 
-*[diagram: a e f h b d c g k l m]*
+Θεώρημα λγ, Πρόθεσις μζ.
 
-Πρόβλημα ιδ, Πρόθεσις μς.
+ΕΝ τοῖς ὀρθογωνίοις τριγώνοις, τὸ ἀπὸ τῆς τὴν ὀρθὴν γωνίαν ὑποτεινούσης πλευρᾶς τετράγωνον ἴσον ἐστὶ, τοῖς ἀπὸ τῶν τὴν ὀρθὴν γωνίαν περιεχουσῶν πλευρῶν τετραγώνοις.
 
-ΑΠὸ τῆς δοθείσης εὐθείας τετράγωνον ἀναγράψαι.
+## Theorema 33, Propositio 47.
 
-## Problema 14, Propositio 46.
+IN rectangulis triangulis, quadratum quod à latere rectum angulum subtendente fit, æquum est quadratis quæ fiunt ex lateribus angulum rectum continentibus.
 
-EX data recta linea, quadratum describere.
+> Hanc arithmetice muenit 3 lineis Pythagoras. Contenta Inuenta Geometrice ante Pythagoram. Pro Inuentione fertur immolasse 100 boues Dijs Pythagoras. Per numeros maximus rex speculator fuit. *[marginal manuscript note, partly illegible]*
 
-ORONTIVS. ¶Esto data linea recta a/b: ex qua sit operæpretium describere quadratum. A dato itaque puncto a, ipsi rectæ lineæ a/b, ad angulos rectos excitetur a/c, per vndecimam propositionem, indefinitæ quidem quantitatis, donec ipsam superet a/b. A qua secetur æqualis eidem a/b: sitq̃; a/ d, per tertiam propositionem. Rursum per datum punctum d , ipsi a/b/ rectæ parallela ducatur d/e, atque per punctum b / ipsi a / d/ parallela b/ e , per trigesimamprimam propositionem. Parallelogrammum est igitur a/b/d/e: dico quòd & quadratum. Nam parallelogrammorum locorum latera quæ ex opposito, æquantur adinuicem: per trigesimamquartam propositionem. Aequum est igitur latus d/e/ipsi a/b: atque b/e/ipsi a/d. Sũt autem a/b/& a/d, per constructionẽ æquales. Quatuor igitur a/b, a/d, b/e/ & e/d/latera, æqualia sunt adinuicem: quæ enim æqualibus sunt æqualia, & adinuicẽ æqualia sunt, per primam communem sententiam. Aequilaterũ est igitur a/b/d/e/ parallelogrammum. Rursum quoniam in parallelas a/b/& d/e/recta incidit a/c: facit igitur interiores & ad easdem partes angulos b/a/d/& a/d/e, binis rectis æquales, per vltimam partem vigesimænonæ propositionis. Rectus autem est qui ad a/angulus: igitur & qui ad d/rectus. & qui ex opposito consistunt ad b/& e/ anguli, itidem recti sunt: per eandem trigesimãquartam propositionem. Rectangulum est igitur a/b/d/e/parallelogrãmum. Patuit q̃ & æquilaterũ: ergo quadratũ, per trigesimam
+ORONTIVS. ¶Sit rectangulum triangulum a/b/c, cuius sub b/a/& a/c/lateribus cótentus angulus, rectus existat. Dico q̃ descriptũ ex b/c/quadratum, ijs quæ ex b/a/& a/c/fiunt quadratis, est æquale. Describãtur ergo quadrata, per quadragesimãsextã propositionẽ: ex b/c/quidem quadratũ b/c/d/e, ex a/b/verò a/b/f/g, & ex ipso a/c/quadratũ a/c/h/k. Deinde per a punctũ, vtriq; b/d/& c/e/parallela ducatur a/l: per trigesimãprimã propositionẽ. Parallelográma igitur erunt b/l/& c/l/ quadrangula. Connectãtur deniq; a/d/& c/f/lineæ rectæ: per primũ postulatum. Et quoniã ad rectam lineã a/b, atq; ad eius punctũ a, duæ rectæ lineæ a/c/ & a/g/nó ad easdem partes ductæ, angulos vtrobiq; rectos efficiunt(recti enim sunt, qui circa punctũ a/ cósistunt anguli)in directũ est igitur a/c/ipsi a/g: & a/b/consequẽter ipsi a/k, per decimãquartã propositionẽ. Parallelæ itaq; sunt b/f/& c/g: similiter & b/k/atq; c/h. Cũ porrò omnes anguli recti sint adinuicẽ æquales, per quartũ postulatum: erit angulus a/b/f, æqualis angulo c/b/d. Communis apponatur angulus a/ b/ c: totus igitur a/b/d, toti f/b/c/ angulo, per secundam cómunẽ sententiam erit æqualis. Rursum, quoniam per trigesimã diffinitionem, æqualis est a/b/ipsi b/f, atque b/c/ipsi b/d: sunt igitur bina latera a/b/& b/d/ trianguli a/b/d, duobus lateribus f/b/& b/c/triãguli f/b/c/ æqualia alterum alteri. & æquales continent angulos a/b/d/& f/b/c. Basis ergo a/d/basi f/c, & triangulũ a/b/d/triangulo f/b/c, per quartã æquatur propositionẽ. Ipsius porrò trianguli a/ b/d, duplum est b/l/parallelográmũ, in eadem basi b/d, atq; in eisdem parallelis a/l/& b/d/constitutum: per quadragesimamprimam propositionem. & per eandem propositionem, a/b/f/g/quadratum, duplum ipsius f/b/c/trianguli : habent enim eandem basin b/f, in eisdémq; consistunt parallelis f/b/& g/c. Quæ autẽ æqualium duplicia sunt, & adinuicẽ sunt æqualia: per sextam cómunem sententiã. Igitur b/l/parallelogrammũ, æquũ est/a/b/f/g/quadrato. Haud dissimili via, ostendetur c/l/parallelogrammũ, æquũ esse a/c/h/k/parallelogrammo siue quadrato. Connexis enim a/e/& b/h/lineis rectis, per primum postulatum: erunt rursum a/c/e/& b/c/h/triãgula adinuicẽ æqualia. Et cùm c/l/parallelográmum duplum sit a/c/e/ trianguli, & quadratum a/c/h/k/ipsius b/c/h/trianguli itidem duplum, per eandem quadragesimãprimam propositionem: concludetur tandem parallelogrammum c/l, æquari quadrato a/c/h/k. Atqui b/l/& c/l/parallelogramma, conficiunt quadratum b/c/d/e, quod fit ex b/c: quadratum ergo b/c/d/e, æquum est a/b/f/g/ & a/c/h/k/ descriptis ex a/b/&
 
-> Quòd descriptũ parallelogrammum sit quadratum.
+> Alterius partis demõstratio.
 
-*[diagram: a d c b e]*
+> Reliquæ partis ostensio.
+
+*[diagram: g k f a h b c d l e]*

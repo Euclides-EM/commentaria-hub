@@ -1,111 +1,51 @@
-# Page 14
+# Page 15
 
 # EXPLICATION DES NOTES.
 
-*Explication des Notes.*
+Ɔ, ∪, *eſt vne circonference*.
 
-add. adde, *adjouſtez*.
+D, ⌓, *eſt vn ſegment de cercle*.
 
-arbitr. *arbitraire*.
+△, *eſt vn triangle*.
 
-attouch. *attouchement*.
+□, *eſt vn quarré*.
 
-circſcr. *circonſcrite*.
+▭, *eſt vn rectangle*.
 
-commun. *commune*.
+◊, *eſt vn parallelogramme*.
 
-contr. *contraire*.
+a, b : ou ab, *ſignifie A multiplié par B : c'eſt à dire le produict qui vient en multipliant A par B*.
 
-D. *donné*.
+a 2|2 b, *A eſt égal à B*.
 
-demonſtr. *demonſtration*.
+a 3|2 b, *A eſt plus grand que B*.
 
-diamet. *diametre*.
+a 2|3 b, *A eſt plus petit que B*.
 
-elem. *elements*.
+a 2|2 5b, *A eſt égal à 5B*.
 
-equiang. *equiangle*.
+a 2|2 ½b, *A eſt égal à la moitié de B*.
 
-equilat. *equilateral*.
+a mſur: b, *A meſure B*.
 
-gnom. *gnomon*.
+a eſt part.. b, *A eſt partie de B*.
 
-interſect. *interſection*.
+b eſt multipl.. a, *B eſt multiple de A*.
 
-magd. *magnitude*.
+a π b 2|2 c π d, *A eſt à B comme C à D*.
 
-mſur: *meſure*.
+raõ.. a π c 2|2 raõ.. a π b + raõ.. b π c, *La raiſon de A à C eſt égale à la raiſon de A à B, plus à la raiſon de B à C*.
 
-multd. *multitude*.
+a π | b / c π | d, *A eſt à B comme C à D*.
 
-multipl. *multiple*.
+a π b 3|2 c π d, *A à B a plus grande raiſon que C à D*.
 
-ñ. *non*.
+a π 3 | b / c π 2 | d, *A à B a plus grande raiſon que C à D*.
 
-par. *partie*.
+a π b 2|3 c π d, *A à B a plus petite raiſon que C à D*.
 
-part. *parties*.
+a π 2 | b / c π 3 | d, *A à B a plus petite raiſon que C à D*.
 
-prepar. *preparation*.
+b mſur: a 2|2 d mſur: c, *B meſure A, autant de fois que D meſure C*.
 
-propoſ. *propoſition*.
-
-raõ. *raiſon*.
-
-req. *requis*.
-
-req. π. demonſtr. *Requis à demonſtrer*.
-
-ſemic. *demy-cercle*.
-
-ſml. *ſemblable*.
-
-ſnt. *ſont*.
-
-ſubtr. ſubtrahe, *oſtez*.
-
-γ. *racine ou coſté*.
-
-+. *plus*.
-
-~. *moins*.
-
-.~: *difference*.
-
-ꝗe. *entr'elles, ou entr'eux*.
-
-Ⅱ, *ou*.
-
-π, *a*.
-
-5∠. *pentagone*.
-
-6∠. *hexagone, &c*.
-
-==, *parallele*.
-
-⊥, *perpendiculaire*.
-
-.. *de*
-
-; *ſignifie le plurier*.
-
-2|2 *egale*.
-
-3|2 *plus grande*.
-
-2|3 *plus petite*.
-
-¼ *vn quart*.
-
-⅔ *deux tiers*.
-
-• *eſt vn poinct*.
-
-—— *eſt vne ligne droicte*.
-
-<, ∠, *eſt vn angle*.
-
-⌐ *eſt vn angle droict*.
-
-⊙ *eſt vn cercle*.
+b mſur: | a / d mſur: | c, *B meſure A, autant de fois que D meſure C*.

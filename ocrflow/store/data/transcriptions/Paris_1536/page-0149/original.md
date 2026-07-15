@@ -1,25 +1,39 @@
-# GEOMET. ELEMENT.
+# LIBER V.
 
-*132*
+*123*
 
-Sunt ergo g,k,m, tres magnitudines, & h,l,n, aliæ eisdem numero æquales, cum duabus ordinatim sumptis in eadem ratione: sicut quidem g/ad k, sic h/ad l, sicútq̄; k/ad m, sic l/ad n. Si g/itaq̄; fuerit maior ipsa m, & ex æquali h/ipsa n/maior erit: etsi æqualis, æqualis: etsi minor, minor, per huius quinti vigesimam. Atqui g,h, ipsarū a,d, hoc est primæ & tertiæ magnitudinis (quoad illationis ordinē) datæ sunt æquè multiplices: m,n/autē secundæ & quartæ, vtpote ipsarū c,f/æquè itidē multiplices. Est igitur per sextā huiusce quinti diffinitionē, vt prima a/ad secundā c: sic d/tertia ad quartam f. ¶Idem quoq̄; licebit ostendere, vbi plures tribus in vtroq̄; magnitudinū extiterint ordine. Vtpote si fuerint quatuor a, b,c,d, & aliæ quatuor e,f,g,h: similiter ostendemus cum tribus primis magnitudinibus a,b,c, & e,f,g, fore velut a/ad c, sic e/ad g. Et rursum cum tribus succedentibus (secunda vtrobique prætermissa, & coassumpta quarta) vtpote a,c,d, & e,g,h, concludemus veluti suprà, fore vt a/ad d, sic e/ad h. Et deinceps quantumlibet, pro vtriusque ordinis multitudine. Si fuerint ergo quælibet magnitudines, & aliæ eisdē æquales numero: & quæ sequuntur reliqua. Quod ostendendum proposueramus.
+## Θεώρημα ι, Πρόθεσις ι.
 
-> Vbi plures tribus in vtroq̄; magnitudinū extiterint ordine.
+Των πρὸς τὸ αὐτὸ λόγον ἐχόντων, τὸ τὸν μείζονα λόγον ἔχον, ἐκεῖνο μεῖζόν ἐστι: πρὸς ὃ δὲ τὸ αὐτὸ μείζονα λόγον ἔχῃ, ἐκεῖνο ἔλαττόν ἐστιν.
 
-*[diagram: a b c d e f — g k m h l n]*
+## Theorema 10, Propositio 10.
 
-*[diagram: a, b, c, d. e, f, g, h.]*
+> 10
 
-Θεώρημα κγ, Πρόθεσις κγ.
+AD eandem rationem habentium, maiorem rationem habens, illa maior est: ad quam autem eadem maiorem rationem habet, illa minor est.
 
-EΑν ᾖ τρία μεγέθη, ὃ ἄλλα αὐτοῖς ἴσα τὸ πλῆθος σύνδυο λαμβανόμενα ἐν τῷ αὐτῷ λόγῳ, ᾖ δὲ τεταραγμένη αὐτῶν ἡ ἀναλογία, καὶ δι' ἴσου ἐν τῷ αὐτῷ λόγῳ ἔσαι.
+ORONTIVS. ¶ Sint rursum a/& b/magnitudines ad eandem magnitudinē c/comparatæ: habeátq; a/ad c/maiorem rationem, quàm b/ad eandem c. Dico quod a, ipsa b/maior est. Quoniam si non fuerit maior: vel erit æqualis ipsi b, vel eadem minor. Aequalis porrò non est a/ipsi b: haberēt enim a/& b/eandem rationem ad c/magnitudinem, per primam partem septimæ propositionis huius quinti. quod aduersatur hypothesi. Non est igitur a, æqualis ipsi b. Haud dissimiliter ostēdetur, quòd neq; minor est a/ipsa b: quoniam a/magnitudo, minorem rationem haberet ad c/magnitudinem, quàm ipsa b/ad eandem c, per primam partem octauæ propositionis eiusdem quinti. habet autem a, maiorem rationem, quàm b/ad eandem c/per hypothesin. Haberet igitur a/ad c/maiorem & minorem rationem, quàm b/ad ipsam c. Quod non est possibile. Itaque a/non est minor b: neque eidem (vti nunc ostendimus) æqualis. Et a/igitur, ipsa b/maior est. ¶ Quòd si eadem magnitudo c, maiorem rationem habuerit ad b/quàm ad a: dico rursum, a/fore maiorem ipsa b. Non erit enim a/ipsi b/æqualis: quoniā c/ad a, eandem rationem haberet quā ad b, per secundam partē præallegatæ septimæ propositionis. Habet autē c, maiorē ratiōnē ad a, q̄ ad b, ex hypothesi. quæ simul stare non possunt. Non est igitur a, ipsi b/æqualis. Neq; etiā minor: tunc enim c/ad ipsam a/maiorē rationē haberet, q̄ ad b, per secundā partē ipsius octauæ propositionis huius quinti. Habet autē c/minorē rationem ad a, q̄ ad b, ex ipsa hypothesi. Haberet itaq; c/minorem simul atq; maiorē rationem ad a, quàm ad b. quod videtur impossibile. Igitur a/non est minor ipsa b. ostēsum est, quòd nec eidē æqualis. Maior est itaq; rursum a/ipsa b. Ad eandem ergo rationem habentiū: & quæ sequuntur reliqua. Quod oportuit demonstrasse.
 
-## Theorema 23, Propositio 23.
+> Prima theorematis pars.
 
-SI fuerint tres magnitudines, aliæ'que eisdem æquales numero, binatim sumptæ in eadem ratione, fuerit autem perturbata earum proportio: & ex æquali in eadem ratione erunt.
+> Partis secundæ demōstratio.
 
-ORONTIVS. ¶Sint tres magnitudines a,b,c, & aliæ eisdem numero æquales d,e,f, cum duabus in eadem ratione perturbatim coassumptis: sicut quidem a/ad b, sic e/ ad f, sicútque b/ ad c, sic d/ad e. Aio fore ex æqua ratione, sicut a/ad c, sic d/ad f. Assumantur enim ipsarum a,b,d, æquè multiplices g,h,k: ipsarum porrò c,e,f, aliæ itidem æquè multiplices l,m,n. Cùm ergo g,h, ipsarum a,b, sint per constructionem æquè multiplices, & partes eodem modo multipliciū eandem habeāt rationem sumptæ adinuicem, per quindecimam huius quinti: est igitur vt a/ad b, sic g/ad h. sicut autē a/ad b, sic e/ ad f, per hypothesin: & sicut igitur g/ad h, sic e/ad f, per vndecimam ipsius quinti. Rursum quoniam m,n, ipsarum e,f, sunt æquè multiplices: erit rursum per eandem quindecimam huius quinti, vt e/ad f, sic m/ad n. Sicut porrò e/ad f, sic g/ ad h, se habere monstratum est: & sicut itaque g/ad h, sic m/ad n, per ipsam vndecimam eiusdem quinti. Insuper quoniam est sicut b/ ad c/ sic d/ad e, per hypothesin, & ipsarū b,d/sumptæ sunt æquè multiplices h,k: ipsarū verò c,e, aliæ itidem æquè multiplices l,m. Est igitur vt h/ multiplex, ad l/ multiplicē,
+*[diagram: b a / c]*
 
-> Æqua ratio in perturbatis.
+## Θεώρημα ια, Πρόθεσις ια.
 
-*[diagram: a b c d e f — g h l k m n]*
+Οι τῷ αὐτῷ λόγοι οἱ αὐτοὶ, καὶ ἀλλήλοις εἰσὶν οἱ αὐτοί.
+
+## Theorema 11, Propositio 11.
+
+> 11
+
+QVæ eidem sunt eædem rationes, & adinuicem sunt eædem.
+
+ORONTIVS. ¶ Sint eidem rationi quæ a/ad b, eædem rationes quæ c/ad d/& e/ad f. Aio quòd rationes c/ad d/& e/ad f, sunt eædem adinuicem: sicut quidem c/ad d, sic e/ad f. Accipiantur enim ipsarum antecedentium a,c,e, æquè multiplicia g/h/k: ipsarū autē consequētium b,d,f, alia quæuis æquè multiplicia l,m,n. Cùm igitur ex hypothesi a/ad b/eandem habeat rationem, quam c/ad d, & ipsarum a/& c, primæ inquā & tertiæ magnitudinis, sumpta sint æquè multiplicia g, h, secundæ rursum & quartæ, vtpote ipsarum b/& d/alia itidem æquè multiplicia l, m: igitur si g/excedit l, & h/proportionaliter excedit m, & si æquale, æquale: si autem minus, itidem proportionaliter minus, per sextæ diffinitionis huius quinti conuersionem. Insuper quoniam per ipsam hypothesin, sicut a/ad b, ita e/ad f, & ipsarum a/& b, primæ
+
+> Discursus æquè multiplicium.
+
+*[diagram: g a b l — h c d m — k e f n]*
+
+l.ij.

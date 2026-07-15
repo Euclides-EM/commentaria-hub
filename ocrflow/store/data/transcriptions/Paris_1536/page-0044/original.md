@@ -1,23 +1,29 @@
-# LIBER I.
+# GEOMET. ELEMENT.
 
-propositionem. Atqui data est maior: non est igitur angulus b/a/c, ipso e/d/f/angulo minor. Patuit autē q̄ nec eidem æqualis: ergo maior. Si bina igitur triangula duo latera: & reliqua, vt in theoremate. Quod erat demonstrandum.
+duobus lateribus d/e/& e/h/trianguli d/e/h/alterum alteri: & qui ad b/& e/sub eisdē æquis lateribus continentur anguli, sunt per hypothesin adinuicem æquales. Basis ergo a/c, basi d/h: & reliquus angulus a/c/b, reliquo d/h/e (sub quibus æqualia subtendūtur latera) per quartam propositionē æquabitur. Angulus porrò d/f/e, eidem angulo a/c/b, per hypothesin est æqualis. duo itaq; anguli d/f/e/& d/h/e, eidem angulo qui ad c/erunt æquales: & æquales propterea adinuincem, per primam cómu-
 
-Θεώρημα ις, Πρόθεσις κς.
+*[diagram: a b c / d e h f]*
 
-Εὰν δύο τρίγωνα τὰς δύο γωνίας ταῖς δυσὶ γωνίαις ἴσας ἔχῃ ἑκατέραν ἑκατέρᾳ, καὶ μίαν πλευρὰν μιᾷ πλευρᾷ ἴσην, ἤτοι τὴν πρὸς ταῖς ἴσαις γωνίαις, ἢ τὴν ὑποτείνουσαν ὑπὸ μίαν τῶν ἴσων γωνιῶν, καὶ τὰς λοιπὰς πλευρὰς ταῖς λοιπαῖς πλευραῖς ἴσας ἕξει ἑκατέραν ἑκατέραν, καὶ τὴν λοιπὴν γωνίαν τῇ λοιπῇ γωνίᾳ.
+nem sententiam. In triangulo igitur d/f/h, producto f/h/ latere, exterior angulus d/h/e, interiori & ex opposito d/f/h/ æquabitur angulo: quod per decimamsextā propositionē est impossibile. Non est igitur e/f, maior b/c. simili discursu monstrabitur, q̄ nec minor. æqualis est igitur b/c, eidem e/f. est autē & a/b/ipsi d/e/ per hypothesin æqualis. Binæ igitur a/b/& b/c, duabus rursum d/e/& e/f/sunt æquales altera alteri: & æquos adinuicem per eandem hypothesin capiunt angulos. Reliquum ergo latus a/c, reliquo d/f, hoc est basis basi, atq; reliquus angulus qui ad a, reliquo qui ad d, respondenter æquatur, per sæpius allegatam quartam propositionē. Ergo si bina triāgula duos angulos duobus angulis alterum alteri æquales habuerint: & quæ sequuntur reliqua, vt in theoremate. Quod oportuit demonstrasse.
 
-## Theorema 17, Propositio 26.
+Θεώρημα ιη, Πρόθεσις κζ.
 
-SI bina triangula, duos angulos duobus angulis alterum alteri æquales habuerint, vnúmq; latus vni lateri æquale, aut quod æquis adiacet angulis, aut quod sub vno æqualium angulorum subtenditur: reliqua quoq; latera reliquis lateribus æqualia alterū alteri, & reliquum angulum reliquo angulo æqualem habebunt.
+Εὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα τὰς ἐναλλὰξ γωνίας ἴσας ἀλλήλαις ποιῇ, παράλληλοι ἔσονται ἀλλήλαις αἱ εὐθεῖαι.
 
-ORONTIVS. ⁋ Sint duo triangula a/b/c/ & d/e/f, habētia duos angulos qui ad latus b/c, duobus angulis qui ad latus e/f/ alterum alteri æquales, vtpote, a/b/c/ ipsi d/e/f, & a/c/b/ipsi d/f/e, vnum præterea latus vni lateri æquale: primò quidem quod æquis adiacet angulis, hoc est b/c/ ipsi e/f. Dico propterea, quòd & reliqua latera reliquis lateribus alterum alteri habebūt æqualia, a/b/quidem ipsi d/e, & a/c/ ipsi d/f: atq; reliquum angulum b/a/c, reliquo e/d/f/ æqualem. Si nanq; a/b/non fuerit æqualis ipsi d/e: altera earum maior erit, vtpote a/b. poterit igitur à maiori a/b, secari, ipsi d/e/minori æqualis, per tertiā propositionē. Abscindatur ergo, sit́q; b/g: & connectatur c/g/recta, per primum postulatum. Bina itaq; latera g/b/& b/c/ trianguli g/b/c, duobus lateribus d/e/& e/f/trianguli d/e/f, erunt alternatim æqualia: & qui ad b/& e/sub æquis lateribus continentur anguli, adinuicem æquales, per hypothesin. Basis igitur c/g, basi d/f, & reliquus angulus g/c/b/reliquo qui ad f (sub quo latus æquale subtenditur) erit per quartā propositionem æqualis. Eidem porrò qui ad f/angulo, æquus est angulus a/c/b, per hypothesin. duo igitur anguli a/c/b/ & g/c/b, eidem qui ad f/angulo erunt æquales: & propterea æquales adinuicem, per
+## Theorema 18, Propositio 27.
 
-> Primæ partis demōstratio, ex prima hypothesi laterum.
+SI in binas rectas lineas recta incidens linea, alternatim angulos æquos adinuicem fecerit: parallelæ adinuicem ipsæ rectæ lineæ erunt.
 
-*[diagram: g a b c / d e f]*
+ORONTIVS. ⁋ Sint binæ rectæ lineæ a/b, & c/d, & in eas incidat e/f/recta, efficiátq; alternos angulos a/e/f/& e/f/d/æquales adinuicem. Aio quòd a/b/recta, parallela est ipsi c/d. Si nanq; minimè forent parallelæ: productæ tandem in aliqua parte conuenirent, per conuersam vltimæ diffinitionis. Concurrant ergo (si possibile sit) ad partes b, d, in puncto quidem g. Efficietur itaq; triangulum e/f/g, cuius exterior angulus a/e/f, interiori & ex opposito e/f/g/æquabitur: quod per decimā-sextam propositionem non videtur esse possibile. Non cōueniunt igitur a/b, & c/d,
 
-primam communem sententiam. totus itaque angulus, suæ parti æquabitur: quod per nonam communem sententiā est impossibile. Non est igitur a/b/maior ipsa d/e. similiter ostendetur, quòd neq; minor. ergo æqualis. Et quoniā b/c/ipsi e/f/per hypothesin est æqualis: bina ideò latera a/b/& b/c/triāguli a/b/c, duob⁹ lateribus d/e/& e/f/triāguli d/e/f, sunt æqualia alterum alteri: & æquales qui ad b/& e/comprehendunt angulos, per hypothesin. basis itaq; a/c, basi d/f (seu reliquum latus, reliquo lateri) atq; reliquus angulus b/a/c, reliquo e/d/f, per quartam propositionem æquatur. ⁋ Sint autē quæ sub altero æqualium subtenduntur angulorum latera adinuicem æqualia: scilicet a/b, ipsi d/e. Aio rursum, quòd & reliqua latera, reliquis lateribus habebunt æqualia, alterū alteri, vtpote a/c/ipsi d/f, & b/c/ipsi e/f: atque reliquum angulum qui ad a/ reliquo qui ad d/æqualem. In primis enim, si b/c/non fuerit æqualis ipsi e/f, altera maior erit: esto verbi gratia e/f. poterit ergo ab eadē maiori e/f, secari æqualis ipsi minori b/c, per tertiā propositionē. Secetur itaq;, & sit e/h: connectatúrq; d/h/recta, per primum postulatum. Erunt igitur bina latera a/b/& b/c/ trianguli a/b/c, æqualia
+*[diagram: a e b / c f d g]*
 
-> Ostensio secūdæ partis, ex secūda hypothesi laterū.
+ad partes b, d. neque similiter ad partes a, c: idem nāq; sequeretur inconueniens. Quæ autem in nulla parte conueniunt, per vltimam diffinitionē existunt parallelæ. Igitur a/b, parallela est ipsi c/d. Si in binas ergo rectas lineas: & quæ sequuntur reliqua, vt in theoremate. Quod erat ostendendum.
 
-c.ij.
+Θεώρημα ιθ, Πρόθεσις κη.
+
+Εὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα, τὴν ἐκτὸς γωνίαν τῇ ἐντὸς καὶ ἀπεναντίον καὶ ἐπὶ τὰ αὐτὰ μέρη ἴσην ποιῇ, ἢ τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη δυσὶν ὀρθαῖς ἴσας ποιῇ, παράλληλοι ἀλλήλαις ἔσονται αἱ εὐθεῖαι.
+
+## Theorema 19, Propositio 28.
+
+SI in binas rectas lineas recta incidens linea, exteriorem angulum interiori & opposito ad easdem partes æqualem fecerit,

@@ -1,25 +1,37 @@
-# GEOMET. ELEMENT.
+# LIBER I.
 
-quas ad eaſdem partes coniungant rectæ a c, & b d. Dico a c, & b d rectas fore adinuicem æquales & parallelas. Connectatur enim b c diagonius, per primū poſtulatum. In datas igitur a b & c d parallelas, recta incidens b c, efficit alternos angulos a b c & b c d adinuicem æquales: per primam partem vigeſimænonæ propoſitionis. Eſt autem a b recta æqualis ipſi c d, per hypotheſin: & vtrique cómunis b c. Binæ igitur a b, & b c trianguli a b c, duabus b c & c d trianguli b c d, ſunt altera alteri æquales: & æquos adinuicem continent angulos, nempe alternos a b c & b c d. Per quartam ergo propoſitionem, baſis a c æqualis eſt ipſi b d: atque reli-
+Θεώρημα κε, Πρόθεσις λε.
 
-*[diagram: a b / c d]*
+ΤΑ παραλληλόγραμμα, τὰ ἐπὶ τῆς αὐτῆς βάσεως ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστί.
 
-quus angulus a c b, reliquo c b d æqualis, vtpote ſub quibus æqualia ſubtenduntur latera. In rectas itaque lineas a c & b d, recta incidens b c, efficit alternos angulos a c b & c b d adinuicem æquales. parallela eſt igitur a c recta ipſi b d, per vigeſimamſeptimam propoſitionem. Patuit autem q̊ & eidem æqualis. Aequas igitur & parallelas: & quæ ſequuntur reliqua. Quod demonſtrandum ſuſceperamus.
+## Theorema 25, Propoſitio 35.
 
-Θεώρημα κδ, Πρόθεσις λδ.
+PArallelogramma in eadem baſi & in eiſdem parallelis exiſtētia, adinuicem ſunt æqualia.
 
-ΤΩν παραλληλογράμμων χωρίων αἱ ἀπεναντίον πλευραί τε καὶ γωνίαι, ἴσαι ἀλλήλαις ἐισί, καὶ ἡ διάμετρος αὐτὰ δίχα τέμνει.
+ORONTIVS. ¶ Sint parallelogramma a b c d & c d e f, in eadem baſi c d, atque in eiſdem parallelis a f & c d conſtituta. Dico a b c d parallelogrammum, æquum eſſe c d e f parallelogrammo. Secet enim in primis latus vnius, vtpote c e, alterius latus b d, in puncto quidem g. Et quoniam parallelogrammorum locorum latera quæ ex oppoſito ſunt adinuicem æqualia, per trigeſimāquartam propoſitionem: vtraque igitur a b & e f, æqualis eſt ipſi c d. Quæ autem eidem æqualia, & adinuicem ſunt æqualia, per primam communem ſententiam: æqualis eſt igitur a b ipſi e f. Communis addatur b e: tota igitur a e, toti b f erit æqualis, per ſecundam communem ſententiam. Eſt autem & a c, ipſi b d æqualis, per eandem trigeſimam quartam propoſitionem. Binæ itaque a c & a e, trianguli a c e, duabus b d & b f trianguli b d f æquales ſunt altera alteri: & æquos adinuicem continent angulos, nempe exteriorem d b f interiori qui ad a, per ſecundam partem vigeſimænonæ propoſitionis. Baſis itaq; c e, baſi d f, per
 
-## Theorema 24, Propoſitio 34.
+> Prima theorematis differētia.
 
-PArallelogrammorum locorum, latera quæ ex oppoſito, & anguli æqualia ſunt adinuicem: & dimetiens ea bifariam ſecat.
+*[diagram: a b e f / g / c d]*
 
-> Prima pars.
+quartam propoſitionē eſt æqualis: atq; triangulū a c e triangulo b d f. A quibus ſubducto communi triangulo b e g: reliquū trapeziū a b g c, reliquo trapezio e f d g, per tertiam communem ſententiam æquabitur. Eiſdem rurſum æqualibus trapezijs, commune adijciatur triangulum c d g: conſurgent a b c d & c d e f parallelogramma adinuicem æqualia, per ſecundam communem ſententiam. ¶ Quòd ſi latus vnius parallelogrammi, dimetiēs alterius efficiatur, vt in hac ſecunda figura: idem, ſed paulò leuius, con-
 
-ORONTIVS. ¶ Eſto datum parallelogrammum a b c d: illius verò dimetiēs b c. Aio primùm, ipſius a b c d parallelogrammi latera quæ ex oppoſito, & angulos fore adinuicem æqualia. In parallelas enim a b & c d recta incidens b c, facit alternos angulos a b c & b c d æquales adinuicem: per primam partem vigeſimæ nonæ propoſitionis. Eadem quoq; b c incidens in parallelas a c & b d, efficit rurſum alternos angulos a c b & c b d adinuicem æquales, per eandem vigeſimamnonam propoſitionem. Duo itaque triangula a b c & b c d, habent duos angulos duobus angulis æquales alterum alteri: vnúmque latus vni lateri æquale, commune ſcilicet b c, quod æquis adiacet angulis. Reliqua igitur latera reliquis lateribus erūt æqualia alterū alteri, hoc eſt, a b ipſi c d, & a c ipſi b d: atque reliquus angulus qui ad a, reliquo qui ad d æquabitur, per vigeſimamſextam propoſitionem. Monſtrauimus autem binos angulos qui circa b, duobus angulis qui circa c fore alternatim æquales: totus igitur angulus qui ad b, toti qui ad c, per ſecundam communem ſententiam æquabitur. Parallelogrammi igitur a b c d, latera quæ ex oppoſito, & anguli æquantur adinuicem. ¶ Dico præterea, quòd & di-
+> Differētia ſecunda.
 
-> Pars ſecūda.
+*[diagram: a b e / c d]*
 
-*[diagram: a b / c d]*
+cludetur. Triāgula enim a b c & b d e, ſupraſcripto diſcurſu oſtendentur æqualia adinuicem. quibus adiuncto communi triangulo b c d: conſurgēt a b c d & b c d e parallelogramma rurſum adinuicem æqualia, per ſecundam cómunem ſententiā. ¶ Nec minus facilè deducetur propoſitionis intelligentia: vbi latus vnius parallelogrāmi, in latus alterius inciderit, velut in tertia figuræ diſpoſitione. Erūt enim rurſum a b & e f æquales adinuicē: à quibus dempta communi b e, reliqua a e reliquæ b f, per tertiā cómunem ſentētiam erit æqualis. Hinc
 
-metiēs illud bifariam ſecat. Oſtenſa eſt enim a b æqualis ipſi c d, atque a c ipſi b d: éſtque b c communis. Bina itaque triangula a b c & b c d, habent ſingula latera ſingulis lateribus æqualia: & eos qui ſub æqualibus lateribus continentur angulos (vti nunc monſtrauimus) ſingulatim æquales, vtpote a b c ipſi b c d, & a c b ipſi c b d: atque eum qui ad a ei qui ad d æqualem. Conuenit ergo triangulum a b c, triangulo b c d. Quæ autem ſibimetipſis conueniunt, æqualia ſunt adinuicem: per octauam communem ſententiam. Triangulum igitur a b c triangulo b c d eſt æquale. Dimetiens itaque b c, datum parallelogrammum a b c d bifariam ſecat. Quod oſtendendum fuerat.
+> Tertia differentia.
+
+*[diagram: a e b f / c d]*
+
+triangulū a c e, triāgulo b d f, veluti ſuprà mōſtrabitur, æquale. Q₂ ſi vtriq; æqualium angulorū, addatur cómune trapeziū e b c d: reſultabit iterum a b c d parallelográmum, eidem parallelogrāmo c d e f, per ſecundā cómunem ſententiā æquale. Igitur parallelogrāma in eadem baſi, & in eiſdem parallelis exiſtentia, adinuicem ſunt æqualia. Quod erat oſtendendum.
+
+Θεώρημα κς, Πρόθεσις λς.
+
+ΤΑ παραλληλόγραμμα τὰ ἐπὶ τῶν ἴσων βάσεων ὄντα, καὶ ἐν ταῖς αὐταῖς παραλλήλοις, ἴσα ἀλλήλοις ἐστί.
+
+## Theorema 26, Propoſitio 36.
+
+PArallelogramma in æqualibus baſibus, & in eiſdem parallelis exiſtentia: adinuicem ſunt æqualia.

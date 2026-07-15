@@ -1,49 +1,38 @@
-# Page 112
+# Page 113
 
-# LES ELEMENTS
+# D'EVCLIDE, LIV. II.
 
-*Explication par nombres.*
+THEOR. VI. PROPOS. VI.
 
-hyp. | ac *eſt* 5,
-hyp. | cb *eſt* 5, α
-19.a.1 | ab *eſt* 10, β
-hyp. | ad *eſt* 8, γ
-3.a.1 | db *eſt* 2, δ
-3.a.1 | cd *eſt* 3, ε
-γδ | ah ▭.adb *eſt* 16,
-
-(figure)
-
-ε | kg □.cd *eſt* 9,
-19.a.1 | ah + kg *ſnt* 25,
-concl. α | cf □.cb *eſt* 25.
-
-SCHOLIE.
-
-Le quarré de la perpendiculaire, qui tombe de la circonference sur le diametre; est égal au rectangle compris sous les segments du diametre faits par icelle perpendiculaire.
+Si vne ligne droicte est couppée en deux parties égales, & qu'on luy adjouste quelque ligne droicte directement, le rectangle contenu sous la toute auec l'adjoustée, & l'adjoustée, auec le quarré de la moitié, est égal au quatré descrit de la ligne composée de la moitié, & de l'adjoustée comme d'vne.
 
 (figure)
 
 *Hypoth.*
 
-caeb *eſt ſemic.*
-ab *eſt diamet.*
-ed ⊥ ab.
+ac 2|2 cb, α
+abd *eſt* ——,
 
 *Req. à demonſtr.*
 
-□.ed 2|2 ▭.adb.
+▭.adb / + □.cb 2|2 □cd.
 
-*Preparation.*
+*Prepar.*
 
-1.p.1 | ec *eſt* ——.
+46.1 | ce *eſt* □.cd,
+1.p.1 | fd *eſt diamet.*
+31.1 | bg == cf Ⅱ de,
+31.1 | al == cf, lhi == ad.
 
 *Demonſtr.*
 
-hyp. | ∠edc *eſt* ┘,
-15.d.1 | ac 2|2 cb,
-5.2 | ▭.adb / + □.cd 2|2 □.cb Ⅱ ce
-47.1 | □.ed + □.cd 2|2 □.ce,
-1.a.1 | ▭.adb / + □.cd 2|2 □.ed + □.cd
-□.cd *commun. ſubtr.*
-concl. 3.a.1 | ▭.adb 2|2 □.ed.
+conſtr. | ce *eſt* □.cd,
+1.c.4.2 | kg & bi *ſnt* □;
+43.1 | ▭he 2|2 ▭ch,
+α.36.1 | ▭ak 2|2 ▭ch,
+1.a.1 | ▭he 2|2 ▭ak,
+▭ci *commun. add.*
+2.a.1 | *gnom.* kdg 2|2 ▭.ai. α
+19.a.1 | □ce 2|2 *gnom.* kdg, / + □kg,
+2.a.f | □ce 2|2 ▭ai / + kg □.cb.
+concl. 1.a.g | □.cd 2|2 ▭.adb + □.cb.

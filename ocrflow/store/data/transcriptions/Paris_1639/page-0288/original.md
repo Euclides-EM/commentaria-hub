@@ -1,31 +1,27 @@
-# Page 287
+# Page 288
 
-# D'EVCLIDE, LIV. VI.
+# LES ELEMENTS
 
 (figure)
 
-ab == dc : ac == de,
+*Hypoth.*
 
-*Requis à demonſtr.*
+⊙dbca 2|2 ⊙hfgp, α
 
-bce *eſt* ——.
+*Req. à demonſtrer.*
+
+⌒bmc π ⌒fg, ∠bdc π ∠fhg, ∠bac π ∠feg, *ſect.* bdc π *ſect.* fhg *ſnt raõ.* 2|2 đe.
+
+*Prepar.*
+
+1.p.1 | bc & fg *ſnt* ——,
+2.4 | ci 2|2 bc : fg, gl, lp, *ſnt* 2|2 đe.
+| • m *en* ⌒bmc, & • n *en* ⌒cni *ſnt arbitr.*
+1.p.1 | di, bm, cm, cn, in, hl, hp *ſnt* ——.
 
 *Demonſtr.*
 
-29.1 | ∠a 2|2 ∠acd, α
-29.1 | ∠d 2|2 ∠acd,
-1.a.1 | ∠a 2|2 ∠d,
-hyp. | ab π ac 2|2 dc π de,
-6.6 | ∠b 2|2 ∠dce,
-α.2.a.1 | ∠b + ∠a 2|2 ∠ace,
-| ∠acb *commun. add.*
-2.a.1 | ∠b + ∠a + ∠acb 2|2 ∠ace + ∠acb,
-32.1 | ∠b + ∠a + ∠acb 2|2 2┘,
-1.a.1 | ∠ace + ∠acb 2|2 2┘,
-concl. 14.1 | bce *eſt* ——.
-
-THEOR. XXIII. PROPOS. XXXIII.
-
-Aux cercles égaux, les angles ont mesme raison entr'eux, que les circonferences sur lesquelles ils sont appuyez, soit qu'ils soient appuyez estant constituez aux centres ou aux circonferences : les secteurs sont aussi de mesme entr'eux, d'autant qu'ils sont constituez au centre.
-
-(figure)
+28.3 | ⌒bmc 2|2 ⌒cni,
+α.27.3 | ∠dbc 2|2 ∠cdi,
+28.6 | ⌒fg, ⌒gl, ⌒lp *ſnt* 2|2 đe.
+α.27.3 | ∠fhg, ∠ghl, ∠lhp *ſnt* 2|2 đe.

@@ -1,28 +1,33 @@
-# Page 308
+# Page 309
 
-# ARITHMETIQVE
+# PRACTIQVE.
+
+Par la mesme methode on trouuera que le nombre entier 145 estant diuisé par 6″, donnera au quotient enuiron 2416666‴, ou 2416 666/1000, & ne se peut trouuer le iuste en cet exemple, à cause que adjoustant des zero, & continuant la diuision, il y a tousiours quelque reste.
+
+Nous noterons icy que les preceptes que nous auons donné en la multiplication & diuision de la dixme touchãt les denominatiõs ou nombre d'accens, ont aussi lieu en la multiplication & diuision des fractions astronomiques : c'est à dire, que minutes astronomiques estant multipliées par minutes astronomiques font des secondes : & les secondes estant multipliées par des tierces font des quartes, &c. Et en la diuision, les tierces estant diuisez par secondes font des minutes : & les quintes estant diuisez par des tierces donnent des secondes, &c.
+
+*Addition de diuerſes eſpeces.*
+
+En l'addition des liures, sols & deniers, pour chaque 12 deniers on garde vn sol pour mettre auec les sols : & pour chaque 2 dixaines des sols, vne liure pour mettre auec les liures.
+
+En l'addition des fractions astronomiques 6 dixaines de minutes font vn degré, & 6 dixaines de secondes vne minute, & ainsi des autres.
 
 *Exemple 1.*
 
-*Diuidende* 3 0 8 2″
+1 5 lt. 1 7 ſ. 9 d.
+1 3 7 lt. 1 2 ſ. 1 0 d.
+2 4 4 lt. 5 ſ. 1 1 d.
 ——
-*Diuiſeur* 2 3′ [*quotient* 1 3 4′ ou 13 4/10.
+3 9 7 lt. 1 6 ſ. 6 d. *Somme.*
 
 *Exemple 2.*
 
-*Diuidende* 2 5 6′
+3 5 deg. 4 7′, 8″,
+7 deg. 1 8″, 5 6″,
+4 4 deg. 3 2′.
 ——
-*Diuiſeur* 8′ [*quotient* 3 2.
+8 7 deg. 3 8′, 4″, *Somme.*
 
-Si le nombre des accens du diuiseur excede le nombre des accens du diuidende, afin qu'on puisse soustraire les accens du diuiseur de ceux du diuidende, il faudra adiouster des zero au diuidende, & augmenter le nombre de ses accens selon le nombre des zero qu'on aura adiousté.
+*Souſtraction de diuerſes eſpeces.*
 
-Par exemple, estant proposé à diuiser 376′ par 8‴, à cause que les trois accens du diuiseur ne se peuuent soustraire d'vn accent du diuidende, pour rendre le nombre des accens du diuidende aussi grand que celuy du diuiseur, on adioustera deux zero au diuidende 376′, augmentant le nombre de ses accens de deux accens, & viendra 37600‴, lequel estant diuisè par 8‴, donnera 4700, qui est vn nombre entier, à cause qu'ayant soustraict les trois accens du diuiseur des trois accens du diuidende, il ne reste rien.
-
-S'il y a quelque reste en la diuision, il la faudra continuer en adjoustant des zero au diuidende iusques à ce qu'il ne reste rien, ou que le quotient soit assez iuste, encore qu'il y ait du reste : ce qui se doit aussi pratiquer aux nombres entiers, si on ne veut point auoir d'autres nombres rompus que ceux de la dixme. Par exemple, estant proposé à diuiser 145′ par 8′, il me reste 1, puis à mesure que i'ay aduancé mon diuiseur 8, i'ay adiousté vn zero au diuidende, & mettant fin à la diuision au troisiesme zero que i'ay adiousté, à cause qu'il n'est rien resté, i'ay trouué 1 que 145 estant diuisé par 8 donne 18125‴, ou 18 126/1000.
-
-6 1 2 4
-1 4 5 0 0 0
-—— [1 8 1 2 5‴
-8 8 8 8 8
-
-Car les 3 zero que i'ay adiousté ont augmenté la denomination de 145′ de 3 accens, de sorte que le nombre 145000 qui a esté diuisé auoit 4 accens, desquels ostant l'accent du diuiseur, reste 3 accens pour le quotient.
+Si le nombre des deniers à soustraire excede les superieurs de qui on les doit soustraire, on empruntera vn sol qui vaudra 12 deniers : & de mesme aux sols, si on emprunte vne liure, on la fera

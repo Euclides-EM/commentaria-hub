@@ -1,25 +1,32 @@
-# LIBER VI.
+# GEOMET. ELEMENT. LIB. VI.
 
-*(pagina 173)*
+*(pagina 174)*
 
-*[diagram: a l g k r b o c]* *[diagram: d n h m e f]*
+Quotuplex est igitur circunferentia b/c/l, ipsius b/c/ circunferentiæ: totuplex est g/b/l/ sector, ipsius sectoris g/b/c. Et proinde quotuplex est circunferentia e/f/n, ipsius e/f/circunferentiæ: totuplex est & sector h/e/n, ipsius sectoris h/e/f. Ergo si b/c/l/circunferẽtia, maior est ipsa e/f/n: æquè maior est & sector g/b/l, ipsius sectoris h/e/n: & si æqualis, æqualis: & si minor, itidem proportionaliter minor. Quatuor itaque magnitudinum, duarum inquàm circunferẽtiarum b/c/ & e/f, & duorum sectorum g/b/c/ & h/e/f, sumpta sunt æquè multiplicia primæ & tertiæ, necnõ secundæ & quartæ alia vtcunq; æquè multiplicia: & vt multiplex primæ ad multiplex secũdæ, sic multiplex tertiæ ad multiplex quartæ se habere deductũ est. Prima igitur ad secũdam, eandem habet rationẽ, & tertia ad quartam, per sextam diffinitionem quinti. Sicut igitur circunferentia b/c, ad circunferentiam e/f: sic g/b/c/ sector, ad sectorem h/e/f. In æqualibus igitur circulis, anguli eandem habent rationem ipsis circunferentijs in quibus deducuntur: etsi ad centra, etsi ad circunferentias fuerint deducti. Tum etiam sectores, tanquàm ad centra constituti. Quod tandem receperamus ostendendum.
 
-per vigesimãseptimã eiusdẽ tertij, anguli b/g/c, c/g/k, & k/g/l, æquales sunt adinuicem. Et proinde anguli e/h/f, f/h/m, & m/h/n, adinuicẽ pariter æquales. Quotuplex igitur est b/c/l/ circunferentia, ipsius circunferentiæ b/c: totuplex est angulus b/g/l, ipsius anguli b/g/c. quotuplex insuper est e/f/n/circunferẽtia, ipsius e/f/circunferẽtiæ: totuplex est & angulus e/h/n, ipsius anguli e/h/f. Si itaq; circunferẽtia b/c/l/ maior est circunferẽtia e/f/n: æquè maior est & angulus b/g/l, ipso angulo e/h/n: & si æqualis, æqualis: si autem minor, itidem proportionaliter minor. Quatuor itaq; magnitudinum, vtpote b/c/ & e/f/circunferẽtiarum, & angulorum b/g/c/ & e/h/f, sumpta sunt æquè multiplicia primæ & tertiæ: necnõ secundæ & quartæ alia vtcunque æquè multiplicia. & sicut multiplex primæ, ad multiplex secundæ: sic multiplex tertiæ, ad multiplex quartæ se habere deductum est. In eadem ratione igitur est prima ad secundam, & tertia ad quartam, per sextam ipsius quinti diffinitionẽ: hoc est, sicut b/c/ circunferentia, ad e/f/circunferentiã: sic angulus b/g/c, ad angulum e/h/f.
-
-| Circunferentiæ | | Anguli. | |
+| Cicunferentiæ | | Sectores. | |
 |---|---|---|---|
-| b/c/l. | e/f/n. | b/g/l | e/h/n. |
-| b/c. | e/f. | b/g/c. | e/h/f. |
+| b/c/l. | e/f/n. | g/b/l. | h/e/n. |
+| b/c. | e/f. | g/b/c. | h/e/f. |
 
-¶ Et quoniã angulus b/g/c/ duplus est anguli b/a/c, & e/h/f/ipsius e/d/f/itidem duplus, per vigesimam tertij. Sunt itaque b/g/c/ & e/h/f/anguli, ipsorum b/a/c/ & e/d/f/qui ad circunferentias sunt angulorũ, æquè multiplices. Partes autẽ eodem modo multiplicium, eandem rationem habent sumptæ adinuicem: per decimamquintam eiusdem quinti. Quam rationẽ igitur habet angulus b/g/c, ad angulum e/h/f: eam habet & angulus b/a/c, ad angulum e/d/f. Ostensum est autem, quòd angulus b/g/c/ad angulum e/h/f/ eam habet rationem: quam b/c/circũferentia, ad circunferentiã e/f. Et b/a/c/igitur angulus, ad angulum e/d/f/ eam habet rationem, per vndecimam quinti: quam b/c/ circunferentia, ad circunferentiam e/f.
+## Corollarium.
 
-> De angulis q̃ ad circunferẽtiam.
+¶ Et proinde manifestum est, quòd veluti sector ad sectorẽ, sic per vndecimã quinti angulus ad angulum: vtrobique enim ratio offenditur, quæ circunferentiæ ad circunferentiam.
 
-| b/c. e/f | b/g/c. e/h/f | b/a/c. e/d/f |
-|---|---|---|
+# SEXTI LIBRI GEOMETRICOrum Elementorũ Euclidis Megarensis, Ex Orontij Finei Delphinatis, Regij Mathematicarum professoris, traditione,
 
-¶ Dico insuper quòd sicut eadem circunferentia b/c, ad circunferentiã e/f: sic g/b/c/sector, ad sectorem h/e/f. Coassumantur enim in b/c/ & c/k/circunferẽtijs, contingentia signa, o/ & r: & connectantur b/o, o/c, c/r, & r/k/lineæ rectæ, per primum postulatum. Et quoniã trianguli g/b/c/duo latera b/g/ & g/c, sunt æqualia duobus c/g/ & g/k/trianguli c/g/k, per quindecimam diffinitionem primi, & æquos adinuicem continent angulos, basis quoq; b/c/basi c/k/est æqualis: totum itaque triangulum g/b/c, toti triágulo c/g/k, per quartã ipsius primi, est æquale. Rursum quoniam b/c/circunferentia, æqualis est circunferentiæ c/k: si à tota a/b/c/ circunferentia, eædẽ æquales auferantur circunferentiæ, reliqua b/a/c/reliquæ c/a/k, per tertiã communem sententiam, est æqualis. Et proinde anguli b/o/c/ & c/r/k, æquales sunt adinuicem, per vigesimamseptimam tertij. Similis est igitur sectio b/o/c, sectioni c/r/k, per decimam ipsius tertij diffinitionem: & in æqualibus rectis lineis b/c/ & c/k/constitutæ sunt. Aequalis est igitur sectio b/o/c, sectioni c/r/k, per vigesimamquartam eiusdem tertij. Et quoniam æquum est triangulum g/b/c, triangulo c/g/k: totus propterea sector g/b/c, toti c/g/k/sectori, per secundam communem sententiam est æqualis. Et proinde sector g/k/l, vtrique ipsorum g/b/c, & c/g/k/conuincitur æqualis. Tres itaque sectores g/b/c, c/g/k, & g/k/l, sunt æquales adinuicẽ. Haud dissimiliter, sectores h/e/f, f/h/m, & h/m/n, inuicem æquales fore concludentur.
+# FINIS.
 
-> De sectorib⁹.
+Virescit vulnere virtus.
 
-p.iij.
+## Errata quæ in paucis admodùm accidere exemplaribus.
+
+Pagina 9. sub prima cómuni sentẽtia: lege, sit æqualis magnitudo c: necessum est. &c.
+
+Pagina 49. linea prima demonstrationis: tolle quòd, & lege aio ex tota a/b. &c. non, quòd ex tota.
+
+## Registrum.
+
+2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2.
+
+a. b. c. d. e. f. g. h. i. k. l. m. n. o. p.

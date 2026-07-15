@@ -1,35 +1,37 @@
-# Page 346
+# Page 347
 
-# ARITHMETIQVE
+# PRACTIQVE.
 
-& à 10 deniers la pinte, en sorte qu'estant meslez la pinte soit à 6 deniers, la preuue en sera plus intelligible.
-
-6 { 4, a | 4 —— 16 *d.*
-5, b | 3 —— 15
+6 { 9, a | 6 —— 54
+10, b | 6 —— 60
 ——
-9, b | 1 —— 9
-10, a | 2 —— 20
+0, a,b | 3, 4 | 7 —— 0
 —— ——
-10 *m.* 60 *d.*
+19 114
 
-Les lignes de renuoyer de la mesme question se pouuoient encore faire ainsi,
+De 9 & 10 i'oste 6, & reste 3 & 4, que ie pose vis à vis du zero ; & la difference du zero à 6 est 6, que ie mets vis à vis de 9 & 10 : puis i'adiouste 3 & 4 ensemble, & trouue 7 pour le zero, qui represente le tare, qui est vne matiere de nulle valeur, estant meslée auec de l'argent. Partant ie conclus, qu'il faut mettre 7 marcs de tare sur 12 marcs d'argent, qui se trouuent en prenant 6 marcs de chaque sorte.
 
-Que si au lieu de 10 marcs qui se sont trouuez par ces regles d'alligation, on en vouloit, par exemple, vne mixtion de 40 marcs, pour sçauoir combien on en deura prendre de chaque sorte suiuant la premiere mixtion, on fera les regles de trois comme s'ensuit : Pour la premiere sorte, on dira, si
+*Exemple 2.*
 
-10 —— 3 —— 40. R. 12.
+Vn espicier veut employer deux escus ou 120 ſ. en trois sortes d'espiceries, qui sont à 4 sols, 6 sols, & 14 sols la liure. Pour auoir 12 liures en tout, sçauoir combien il deura prendre de chaque sorte ?
 
-Pour la seconde, on dira si
+Il faut premierement trouuer le prix commun de 12 liures, ordonnant la regle de trois ainsi,
 
-10 —— 4 —— 40. R. 16.
+12 *lp.* —— 120 *ſ.* —— 1 *lp.* R. 10 *ſ.*
 
-Pour la troisiesme, on dira, si
+Ayant ainsi trouué 10 sols pour le prix commun, on fera la regle d'alligation ainsi, laquelle nous donnera 18 liures : mais à cause que nous ne voulons auoir que 12 liures, pour sçauoir combien il en faudra prendre de la premiere & seconde sorte, qui ont le mesme nombre 4, on dira, si
 
-10 —— 2 —— 40. R. 8.
+10 { 4 *ſ.* a | 4 *lp.*
+6 *ſ.* b | 4
+——
+14 *ſ.* a,b | 6, 4 | 10
+——
+*Somme* 18.
 
-Pour la quatriesme, on dira, si
+18 —— 4 —— 12. R. 2⅔.
 
-10 —— 1 —— 40, R. 4.
+Pour sçauoir combien on prendra de la troisiesme sorte, on dira, si
 
-Pour la preuue, on trouuera que les 4 nombres 12, 16, 8, & 4, font 40.
+18 —— 10 —— 12. R. 6⅔.
 
-Que si ledit maistre monnoyeur n'auoit que de deux sortes d'argent, à sçauoir à 9 deniers & à 10 deniers, & qu'il en voulust faire vne mixtion, qui fust à 6 deniers, pour sçauoir combien il doit mettre de tare, on fera la regle d'alligation comme s'ensuit, en mettant vn zero pour le tare.
+Partant il en faut prendre de la premiere sorte 2⅔ liures, de la seconde, 2⅔ liures : & de la troisiesme, 6⅔ liures : qui adjoustez en-
