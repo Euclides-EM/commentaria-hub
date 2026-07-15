@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. VI.
+<!-- # D'EVCLIDE, LIV. VI. -->
 
 c.8.6 | ba π ae 2|2 ae π ad, γ
 22.6 | □.ba π □.ae 2|2 □.ae π □.ad,

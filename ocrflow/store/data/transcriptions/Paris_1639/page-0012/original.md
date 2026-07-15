@@ -1,4 +1,4 @@
-# PROLEGOMENES.
+<!-- # PROLEGOMENES. -->
 
 *Des principes des Mathematiques.*
 

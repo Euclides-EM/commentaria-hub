@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. III.
+<!-- # D'EVCLIDE, LIV. III. -->
 
 15.d.1 | ca 2|2 cb,
 5.1 | ∠cab 2|2 ∠cba,

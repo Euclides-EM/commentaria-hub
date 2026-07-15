@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 Ayant ainsi trouué 9/7 lt. au lieu de 3/7 d'escus, pour auoir le requis on dira,
 

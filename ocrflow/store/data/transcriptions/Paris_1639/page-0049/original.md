@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 PROBLEME I. PROPOSITION I.
 

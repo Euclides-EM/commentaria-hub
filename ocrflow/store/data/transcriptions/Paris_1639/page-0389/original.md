@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 gé de ces trois triangles : ce faisant on trouuera que si AC vant 12, AD 15, BF 5, CG 7, EH 6, que le polygone ABCDE vaudra 127 1/2.
 

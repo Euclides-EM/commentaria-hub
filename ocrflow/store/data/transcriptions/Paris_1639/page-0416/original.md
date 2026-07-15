@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 ou 112 49/100 toises pour AS : Et adioustant aussi AF 9758″ auec BF 4146″, viendra 13904″, ou 139 4/100 toises pour AB.  Et ostant OS 2886″ de rS 3354″, restera 468″, ou 4 68/100 pour rO.
 

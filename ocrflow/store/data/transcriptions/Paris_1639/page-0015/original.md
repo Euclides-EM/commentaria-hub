@@ -1,4 +1,4 @@
-# EXPLICATION DES NOTES.
+<!-- # EXPLICATION DES NOTES. -->
 
 Ɔ, ∪, *eſt vne circonference*.
 

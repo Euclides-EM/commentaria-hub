@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 1.concl. 1.a.f | ∠abc + ∠adc 2|2 2┘,
 

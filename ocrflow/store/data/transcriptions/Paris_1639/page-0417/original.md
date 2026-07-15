@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 ∠AbL   AL   ∠bAL   bL
 90 deg.   9758″   72   R. 92:8

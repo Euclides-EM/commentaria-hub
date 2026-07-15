@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 du polygone interne F, L, X, &c. & que nous ne voulions point nous seruir d'autres angles de nostre instrument que du droict, qui est le plus iuste de tous, on pourra premierement marquer les extremitez de la courtine H & M : puis en faisant des perpendiculaires sur la courtine HM, & mesurant les quantitez que doiuent auoir HC, CD, MN, & NR on pourra marquer les espaules C, N, & aussi les poincts D & R ; & en apres les poincts B, G & P, en mesurant les quantitez qu'on a trouué par le calcul, pour DB, RG, & GP : puis mettant l'instrument à angles droicts au poinct P, & mesurant depuis P iusques à T, la quantité que doit auoir PT, on aura le poinct T, lequel estant trouué, il sera facile de marquer q, z, Y, en faisant Gq égale à GR, qz égale à RN, &c.
 

@@ -1,4 +1,4 @@
-# GEOMETRIE
+<!-- # GEOMETRIE -->
 
 (figure)
 

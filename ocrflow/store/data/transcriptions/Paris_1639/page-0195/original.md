@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. IV.
+<!-- # D'EVCLIDE, LIV. IV. -->
 
 PROBL. XVI. PROPOS. XVI.
 

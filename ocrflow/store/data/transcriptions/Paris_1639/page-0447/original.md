@@ -1,4 +1,4 @@
-# DE LA GNOMONIQVE.
+<!-- # DE LA GNOMONIQVE. -->
 
 à discretion, & le diuisez en 24 parties égales, commençant à la meridienne CA, & du centre C, sur DN, par les poincts des diuisions du cercle BAG, tirez les lignes droictes CD, CB, &c.  Finalement, si par les poincts D, B, &c. de la ligne DN, on mene BH, IL, &c. paralleles à la meridienne CA, on aura le quadrant requis, qui aura pour meridienne la ligne CA, & pour vnze heures du matin la ligne ZP, &c.
 

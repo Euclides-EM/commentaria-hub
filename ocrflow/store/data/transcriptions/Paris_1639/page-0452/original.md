@@ -1,4 +1,4 @@
-# DE LA GNOMONIQVE.
+<!-- # DE LA GNOMONIQVE. -->
 
 (figure)
 

@@ -1,4 +1,4 @@
-# TRIGONOMETRIE.
+<!-- # TRIGONOMETRIE. -->
 
 *De la regle des trois costez.*
 

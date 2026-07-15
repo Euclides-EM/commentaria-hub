@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 *Trouuer le contenu d'vne pyramide ou cone.*
 

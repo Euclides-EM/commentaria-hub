@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 mes, & viendra 9 au quotient, qu'on mettra à part : puis on multipliera par le mesme nombre 7 l'excez 2, & viendra 14, duquel on soustraira l'excez 2 & restera 12, dont la moitié est 6, qu'il faut soustraire du quotient 9 mis à part, & restera 3 qui est le moindre nombre requis.
 

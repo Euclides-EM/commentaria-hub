@@ -1,4 +1,4 @@
-# GEOMETRIE
+<!-- # GEOMETRIE -->
 
 la largeur 30, & la hauteur 8, que son contenu corporel sera 14400, Car 30 fois 60 sont 1800, & 8 fois 1800 sont 14400.
 

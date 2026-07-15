@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 THEOR. II. PROPOS. II.
 

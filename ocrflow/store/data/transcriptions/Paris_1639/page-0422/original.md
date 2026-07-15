@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 ∠m   BC   ∠mBC   mC
 53 deg.   186 —— 103 ou 77 deg.   R. 226:92

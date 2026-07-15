@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. IV.
+<!-- # D'EVCLIDE, LIV. IV. -->
 
 7.a.1 | ∠dac,∠cab,∠abd,∠dbc, / ∠bca,∠acd,∠cdb,∠bda, *ſnt* 2|2 đe.
 6.1.& 1.a.1 | ea, ed, eb, ec *ſnt* 2|2 đe.

@@ -1,4 +1,4 @@
-# EXPLICATION DES NOTES.
+<!-- # EXPLICATION DES NOTES. -->
 
 *Explication des Notes.*
 

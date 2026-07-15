@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. III.
+<!-- # D'EVCLIDE, LIV. III. -->
 
 1.c.17.1 | ∠feg 2|3 ┘,
 19.1 | fe 3|2 fg,

@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 bc *commun.*
 1.concl. 4.1 | ac 2|2 bd,

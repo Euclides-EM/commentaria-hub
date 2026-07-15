@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 α.1.a.f | ∠cdb / +∠cda 2|2 ∠cad / +∠cda.
 32.1 | ∠cad+∠cda 2|2 ∠bcd,

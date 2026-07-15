@@ -1,4 +1,4 @@
-# DE LA GNOMONIQVE.
+<!-- # DE LA GNOMONIQVE. -->
 
 *qu'il fait auec l'horizon, en passant par les deux intersections de l'horizon & du meridien.*
 

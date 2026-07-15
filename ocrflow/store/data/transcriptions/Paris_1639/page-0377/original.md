@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 & parce qu'on suppose que l'angle ABC est droict, ostant de 90 degrez l'angle ACB, par exemple de 62 degrez, restera pour l'angle BAC 28 degrez ; partant pour auoir BC suiuant la regle des opposez, on dira, si
 

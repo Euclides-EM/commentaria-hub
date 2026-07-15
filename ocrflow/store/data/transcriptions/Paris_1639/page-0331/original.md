@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 ie multiplie 50 par 4 & vient 200 pour numerateur (car le troisiesme nombre qui est 1, ne multiplie point) puis ie multiplie le numerateur de la premiere qui est 3 par les denominateurs de la seconde & troisiesme, & vient 3 pour denominateur ou diuiseur, par lequel ie diuise le numerateur 200, & vient au quotient 66⅔ pour le prix de l'aulne.
 

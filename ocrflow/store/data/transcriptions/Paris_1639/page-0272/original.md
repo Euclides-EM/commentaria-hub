@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 THEOR. XV. PROPOS. XXI.
 

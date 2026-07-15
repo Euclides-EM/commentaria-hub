@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 Par la mesme methode on trouuera, que si quelqu'vn auoit vendu sa marchandise 1000 liures, & qu'il eust gagné 6 pour 1000, qu'elle luy auoit cousté 943 21/53 liures.
 

@@ -1,4 +1,4 @@
-# TRIGONOMETRIE.
+<!-- # TRIGONOMETRIE. -->
 
 multiplié 60460, qui est le sinus de 37 degrez 12′ par 40, & diuisé le produict par 89816, il en est venu 26 83184/89816 toises pour le costé AB.
 

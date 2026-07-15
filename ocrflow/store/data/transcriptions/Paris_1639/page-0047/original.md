@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 hyp. | 18 3|2 12 *l'excez des toutes eſt 6.*
 hyp. | 7 2|2 7 *les retranchées.*

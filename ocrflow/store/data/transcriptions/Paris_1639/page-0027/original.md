@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 XXVI.
 

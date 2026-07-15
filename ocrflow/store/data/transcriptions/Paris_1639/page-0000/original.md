@@ -1,4 +1,4 @@
-# Transcription Conventions
+<!-- # Transcription Conventions -->
 
 This directory contains a page-by-page transcription of Pierre Hérigone, *Les six premiers livres des Elements d'Euclide, demonstrez par Notes, d'vne methode tres-brieve & intelligible* (Paris, chez l'Autheur & Henry Le Gras, 1639) — the French-only volume giving Euclid I–VI in Hérigone's symbolic notation, followed by practical treatises "sans Notes" (arithmetic, trigonometry, practical geometry, fortifications, gnomonics) and a dictionary of mathematical terms. The source is the Gallica/BnF scan (482 PDF pages). Files are named `<N>.md` where N is the **PDF page number** (7–475). PDF 1–6 (Gallica title cards, front cover, pastedown, flyleaves) and 476–482 (back flyleaf, pastedown, cover, spine and edge photographs) are not transcribed. The printed page number is N − 10 (main text runs PDF 11 = printed 1 through PDF 473 = printed 463; PDF 474 is the unnumbered errata leaf and 475 its blank verso). The transcription was produced by visually reading each page image (150 DPI renders, with 300 DPI zoomed crops to verify doubtful readings) — no OCR software was used.
 

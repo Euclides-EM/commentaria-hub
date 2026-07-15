@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 hyp. | a 2|2 ½c.
 hyp. | b 2|2 ½c,

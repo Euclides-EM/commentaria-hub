@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 & à 10 deniers la pinte, en sorte qu'estant meslez la pinte soit à 6 deniers, la preuue en sera plus intelligible.
 

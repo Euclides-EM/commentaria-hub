@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. VI.
+<!-- # D'EVCLIDE, LIV. VI. -->
 
 blables de celuy qui est appliqué à la moitié, & de celuy qui doit defaillir d'vn semblable.
 

@@ -1,4 +1,4 @@
-# GEOMETRIE
+<!-- # GEOMETRIE -->
 
 & autres choses plus notables de la ville, & aussi pour faire vne carte topographique, on se pourra seruir de la 4 methodo à prendre le plan d'vne ville assiegée.
 

@@ -1,4 +1,4 @@
-# TRIGONOMETRIE.
+<!-- # TRIGONOMETRIE. -->
 
 AB —— ſ. de ∠C —— BC —— ſ. de ∠A
 toises   27 deg. 38′   toises   44 deg. 5′.

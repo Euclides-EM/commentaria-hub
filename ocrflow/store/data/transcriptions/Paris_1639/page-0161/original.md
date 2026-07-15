@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. III.
+<!-- # D'EVCLIDE, LIV. III. -->
 
 PROBL. III. PROPOS. XXV.
 

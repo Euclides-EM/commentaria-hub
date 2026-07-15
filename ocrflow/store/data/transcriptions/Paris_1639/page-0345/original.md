@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 sçauoir à 4 deniers, à 5 deniers, à 9 deniers, & à 10 deniers, & veut faire vne mixtion à 6 deniers, sçauoir combien il doit prendre de chaque sorte d'argent ?
 

@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 Pour multiplier entier & rompu par entier & rompu, il faut premierement adiouster les entiers auec leurs fractions, puis faire la multiplication : par exemple, pour multiplier 17 3/4 par 8 5/6, i'adiouste, par la methode donnée cy deuant, 17 auec sa fraction 3/4, & trouue 71/4 : puis i'adiouste aussi 8 auec sa fraction 5/6, & trouue 53/6 : ce faict, multipliant les numerateurs 71 & 53 l'vn par l'autre, & aussi les denominateurs 4 & 6, vient 3763/24, qui donne en diuisant le numerateur par le denominateur 156 19/24 pour le produict de la multiplication.
 

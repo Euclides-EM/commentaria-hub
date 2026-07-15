@@ -1,4 +1,4 @@
-# ETYMOLOGIE.
+<!-- # ETYMOLOGIE. -->
 
 des sons des deux extremes de quatre chordes.  t. 5. p. 803.
 

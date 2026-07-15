@@ -1,4 +1,4 @@
-# DE LA GNOMONIQVE.
+<!-- # DE LA GNOMONIQVE. -->
 
 Ordinairement les quadrants Italiques & Babyloniques sont terminez du Septentrion & du Midy par les deux tropiques, de l'Orient par la ligne horaire de la 23 heure Italique, & de l'Occident par la premiere Babylonique.
 

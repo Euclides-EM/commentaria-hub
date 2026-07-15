@@ -1,4 +1,4 @@
-# TRIGONOMETRIE.
+<!-- # TRIGONOMETRIE. -->
 
 Le mesme costé AC se trouuera par logarithmes ainsi,
 

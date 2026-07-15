@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. II.
+<!-- # D'EVCLIDE, LIV. II. -->
 
 1.a.f | □ad + □.db 2|2 □.ad + □.df. λ
 47.1 | □.ad + □.df 2|2 □.af,

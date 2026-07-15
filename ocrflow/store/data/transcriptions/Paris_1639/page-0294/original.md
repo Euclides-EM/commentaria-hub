@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 rang, i'oste 4 de 7, & reste 3, que ie pose au dessous : & ainsi ie trouue qu'ayant osté 432 de 796 restera 364. S'il arriue que quelque figure du nombre inferieur excede la figure superieure correspondante, on empruntera 1 qui vaudra 10, de la premiere figure des superieures vers senestre qui aura quelque valeur (n'oubliant que tous les zero, qui seront entre la figure de qui on emprunte, & celle pour qui on a emprunté, apres cet emprunt, vaudront chacun 9) & ayant adiousté la dixaine qu'on aura emprunté, auec celle de qui il falloit oster, on fera la soustration escriuant le reste au dessous : comme en l'exemple suiuant.
 

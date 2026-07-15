@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 2.  En vne bresche faicte en vn angle & extremité de place, l'entrée est égale en estenduë : ou plus grande pour les assaillans que pour les assaillis, à cause que ce qui enferme est plus grand que ce qui est enfermé.
 

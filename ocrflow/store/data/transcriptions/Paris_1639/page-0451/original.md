@@ -1,4 +1,4 @@
-# DE LA GNOMONIQVE.
+<!-- # DE LA GNOMONIQVE. -->
 
 GN, & GP la ligne d'vne heure d'apres midy, &c.  Et doit auoir pour stile oblique la ligne GL tirée du centre A au sommet de CL, ou d'vne ligne égale à CL perpendiculaire au plan du quadrant en C.
 

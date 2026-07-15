@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 conſtr. | be 2|2 ec,
 38.1 | △abc 2|2 2△aec,

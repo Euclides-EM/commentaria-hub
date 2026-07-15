@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. V.
+<!-- # D'EVCLIDE, LIV. V. -->
 
 premiere grandeur excedera celuy de la seconde, mais le multiple de la troisiesme grandeur n'excedera pas celuy de la quatriesme; alors la premiere grandeur sera dite auoir plus grande raison à la seconde, que la troisiesme à la quatriesme.
 

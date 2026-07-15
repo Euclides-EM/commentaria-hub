@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. IV.
+<!-- # D'EVCLIDE, LIV. IV. -->
 
 2.4 | △acd *eſt equiangle* △fgh. α
 9.1 | ∠bdc 2|2 ∠bda, ∠ecd 2|2 ∠eca. α

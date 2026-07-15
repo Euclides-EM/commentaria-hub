@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. V.
+<!-- # D'EVCLIDE, LIV. V. -->
 
 partie de 12, mais 5 qui ne mesure pas 12, s'appelle parties de 12, & non partie, comme il appert des definitions du 7. liure. Tout nombre plus petit au respect d'vn plus grand, se nomme aussi partie integrante, soit qu'il mesure, ou non.
 

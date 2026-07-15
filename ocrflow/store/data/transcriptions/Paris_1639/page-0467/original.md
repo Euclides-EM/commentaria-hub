@@ -1,4 +1,4 @@
-# ETYMOLOGIE.
+<!-- # ETYMOLOGIE. -->
 
 Horoscope, en Grec *hora*, sign. le temps, & *scopeo* obseruer : d'où vient le nom d'horoscope, qui sign. la figure de la constitution du ciel pour l'heure proposée.  t. 4. p. 137.
 

@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. VI.
+<!-- # D'EVCLIDE, LIV. VI. -->
 
 C'est à dire, que si le parallelogramme AEFG est semblable au parallelogramme total ADCB, le diametre AF sera partie du diametre total AC.
 

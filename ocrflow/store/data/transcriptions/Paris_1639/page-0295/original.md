@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 reste 9, que i'escris au dessous : & par consequent, le zero qui est entre 7 & 1 vaudra 9, de qui i'oste 9 qui est au dessous, & reste zero que ie pose au dessous : finalement le 6 qui reste au 7, de qui on a emprunté vn, i'escris au dessous de la ligne, & trouue 609915 pour le reste de la soustraction.
 

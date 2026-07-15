@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 equiangle sont diuisez chacun en deux parties égales, & du poinct où se rencontrent les deux lignes qui diuisent les angles également soient menées des lignes droictes à tous les autres angles de la figure, tous les angles de la figure seront diuisez également.
 

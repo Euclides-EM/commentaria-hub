@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 les flancs : On se pourra aussi seruir à l'assaut des feux d'artifices, comme grenades & autres, pour repousser l'ennemy, si on iuge qu'il en soit besoin.
 

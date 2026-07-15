@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 semble font 12 liures, & vaudront par consequent chacune 10 sols l'vne portant l'autre.
 

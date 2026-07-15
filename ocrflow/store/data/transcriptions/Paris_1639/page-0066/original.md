@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 d.β. (c'est à dire, demonstration β.) signifie qu'il faut demonstrer que l'angle A est égal à l'angle C, par la mesme methode, qu'il a esté demonstré, que l'angle D est égal à l'angle B.
 

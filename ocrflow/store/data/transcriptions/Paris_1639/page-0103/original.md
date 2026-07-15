@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. II.
+<!-- # D'EVCLIDE, LIV. II. -->
 
 ligne droicte AB. Le mesme aduiendra, si AD est posée se mouuoir de trauers selon AB, &c. Donc à bon droict le parallegramme AC est dit estre contenu sous AB & AD.
 

@@ -1,4 +1,4 @@
-# DE LA GNOMONIQVE.
+<!-- # DE LA GNOMONIQVE. -->
 
 de la 24 heure Italique, & de la 11 1/2 astronomique.  Par la mesme methode on trouuera, que la ligne de la 16 heure Italique doit passer par l'intersection de la ligne equinoctiale & de la 10 heure astronomique : & aussi par l'intersection de la ligne de la 24 heure Italique, & de la 8 heure astronomique : & ainsi continuant on trouuera toutes les lignes horaires Italiques.
 

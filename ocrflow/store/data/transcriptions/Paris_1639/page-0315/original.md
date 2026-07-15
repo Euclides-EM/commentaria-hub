@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 en estofes de 8 liures 10 sols l'aulne, encore que les 8 lt. 10 ſ. se reduisent en 85′, il faut les reduire en secondes, afin que le diuiseur aye mesme denomination que le diuidende, qui est 34645″, partant adioustant vn zero à 85′, on aura pour diuiseur 850″, par lequel diuisant 34645″, viendra au quotient 40, & restera 645″, ou 6 lt. 4′, 5″ qui valent 6 lt. 9 sols : tellement que pour payer les 346 liures 9 sols en estofes de 8 liures 10 sols l'aulne, il en faudra 40 aulnes, & 6 liures 9 sols, outre les 40 aulnes. Par la mesme methode on trouuera, que pour payer 1000 liures en patagons de 58 sols piece, il faut 344 patagons auec 2 liures 8 sols.
 

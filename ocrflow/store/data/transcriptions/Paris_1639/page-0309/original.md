@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 Par la mesme methode on trouuera que le nombre entier 145 estant diuisé par 6″, donnera au quotient enuiron 2416666‴, ou 2416 666/1000, & ne se peut trouuer le iuste en cet exemple, à cause que adjoustant des zero, & continuant la diuision, il y a tousiours quelque reste.
 

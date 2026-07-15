@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 lieu, & que le premier soit de mesme espece & nature que le troisiesme, & le second, qui est le prix du premier, doit estre semblable au quatriesme, qui est celuy qu'on veut trouuer. Ayant ainsi couchez les nombres, il faut tousiours multiplier le second & troisiesme l'vn par l'autre, mettant le moindre sous le plus grand, pour plus grande facilité, & diuiser le produict de la multiplication par le premier, le quotient sera le quatriesme qu'on cherche.
 

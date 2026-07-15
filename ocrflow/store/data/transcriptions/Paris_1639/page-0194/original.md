@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 αβ.15.1 | ∠; fga,agb, / bgc,cgd, / dge, egf, *ſnt* 2|2 đe.
 26.3 | ∩;ab,bc, / cd, de, / ef, fa, *ſnt* 2|2 đe.

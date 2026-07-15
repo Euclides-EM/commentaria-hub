@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 angles est pair, la ligne droicte, menée de quelconque angle à l'angle opposé, diuise l'vn & l'autre angle en parties égales.
 

@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 7.a.1 | ∩ae 2|2 3 *parties du* ⊙,
 6.a.1 | ∩ae + ∩ef 2|2 6 *parties du* ⊙,

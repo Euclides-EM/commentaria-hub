@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 autres angles soustendans iceux costez égaux, seront égaux aux autres angles chacun au sien.
 

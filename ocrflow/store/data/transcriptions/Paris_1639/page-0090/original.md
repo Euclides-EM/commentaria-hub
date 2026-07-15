@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 7.a.1 | ∠abc + ∠c + ∠d + ∠def 2|2 6┘,
 ſ.32.1 | ∠ebc + ∠c + ∠d + ∠deb 2|2 4┘,

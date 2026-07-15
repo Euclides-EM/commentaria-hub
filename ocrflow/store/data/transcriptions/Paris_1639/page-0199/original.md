@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. IV.
+<!-- # D'EVCLIDE, LIV. IV. -->
 
 4.1 | ∠abf 2|2 ∠aef, α
 c.37.3 | ∠fbc 2|2 ∠fba,

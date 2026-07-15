@@ -1,4 +1,4 @@
-# GEOMETRIE
+<!-- # GEOMETRIE -->
 
 par tout le diametre, & du produict en prenant le quart : ce faisant on trouuera que si le diametre vaut 35, & la circonference 110, que l'aire du cercle vaudra 962 1/2. Car 110 multiplié par 35 fait 3850, dont le quart est 962 1/2.
 

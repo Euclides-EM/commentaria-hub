@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. IV.
+<!-- # D'EVCLIDE, LIV. IV. -->
 
 par la 6. 4. & 9. 1. en parties 4. 8. 16. 32. 64. 128. &c.
 par la 15. 4. & 9. 1. en parties 3. 6. 12. 24. 48. &c.

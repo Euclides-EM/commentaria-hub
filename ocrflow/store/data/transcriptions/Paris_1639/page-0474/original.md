@@ -1,4 +1,4 @@
-## Fautes à corriger dans l'impression.
+<!-- ## Fautes à corriger dans l'impression. -->
 
 | Page. | Ligne. | Erreur. | Correction. |
 |---|---|---|---|

@@ -1,4 +1,4 @@
-# TRIGONOMETRIE.
+<!-- # TRIGONOMETRIE. -->
 
 Pour trouuer le costé DC par logarithme, l'operation se fera ainsi :
 

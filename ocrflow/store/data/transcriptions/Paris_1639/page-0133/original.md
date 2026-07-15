@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. III.
+<!-- # D'EVCLIDE, LIV. III. -->
 
 gnée du centre sur laquelle tombe la plus grande perpendiculaire.
 

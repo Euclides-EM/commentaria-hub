@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 hyp. | a 2|2 2c,
 hyp. | b 2|2 2c,

@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. III.
+<!-- # D'EVCLIDE, LIV. III. -->
 
 ſuppoſ. | d *eſt* • *d'attouch.* γ
 α15.d.1 | bd 2|2 ba,

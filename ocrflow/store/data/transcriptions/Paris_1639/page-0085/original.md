@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 troisiesme est posé droict ; partant puis que les deux restans sont égaux entr'eux, vn chacun d'eux sera demy droict.
 

@@ -1,4 +1,4 @@
-# TRIGONOMETRIE.
+<!-- # TRIGONOMETRIE. -->
 
 *Pour trouuer le mesme costé AB par logarithmes, l'operation se fera ainsi*
 

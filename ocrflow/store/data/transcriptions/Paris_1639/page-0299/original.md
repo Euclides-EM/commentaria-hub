@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 tient on multipliera tout le diuiseur, en faisant les soustractions des figures superieures correspondantes, à mesure qu'on faict les multiplications : le tout comme on peut voir aux exemples suiuants.
 

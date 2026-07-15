@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. VI.
+<!-- # D'EVCLIDE, LIV. VI. -->
 
 1.6 | bf π bh 2|2 eb π bc,
 2 concl. 11.5 | ab π bg 2|2 eb π bc.

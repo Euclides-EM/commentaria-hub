@@ -1,4 +1,4 @@
-# GEOMETRIE
+<!-- # GEOMETRIE -->
 
 pour auoir l'angle CBA, qui est le moindre des angles incognus du triangle ACB, on fera l'addition & les soustractions ainsi,
 

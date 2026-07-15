@@ -1,4 +1,4 @@
-# DE LA GNOMONIQVE.
+<!-- # DE LA GNOMONIQVE. -->
 
 ## Methode vniuerselle & facile de descrire vn quadrant Italique en tout plan qui ne soit parallele à l'horizon.
 

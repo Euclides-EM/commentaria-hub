@@ -1,4 +1,4 @@
-# DE LA GNOMONIQVE.
+<!-- # DE LA GNOMONIQVE. -->
 
 iours le matin & le soir ; tellement que depuis le matin iusques au soir il y a tousiours 12 heures, & autant depuis le soir iusques au matin du lendemain, & sont appellées inégales, à cause que les heures d'vn iour ne sont pas égales aux heures d'vn autre iour, ny à celles de la nuict.
 

@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 ction : par exemple, les deux nombres de la fraction ⅔ estant multipliez par vn nombre tel qu'on voudra, comme par 4, donneront 8/12, qui vaut la mesme chose que ⅔, encore que ses nombres soient plus grands que ceux de ⅔.
 

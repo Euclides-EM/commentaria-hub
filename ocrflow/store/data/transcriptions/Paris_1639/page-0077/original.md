@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 costez chacun au sien, & la base plus grande que la base ; ils auront aussi l'angle contenu d'iceux plus grand que l'angle.
 

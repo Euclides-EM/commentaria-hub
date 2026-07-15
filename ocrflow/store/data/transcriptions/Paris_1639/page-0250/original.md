@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 cubiquement: & ce faisant on trouuera que la raison de 2 à 3 estant multiplié par 2 fait la raison 4 à 9: & estant multiplié par 3, elle fait la raison de 8 à 27.
 

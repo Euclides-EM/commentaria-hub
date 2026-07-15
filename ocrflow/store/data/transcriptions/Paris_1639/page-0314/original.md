@@ -1,4 +1,4 @@
-# ARITHMETIQVE
+<!-- # ARITHMETIQVE -->
 
 1 3 7 8′
 2 3 an. 7 m. 2 5 iours.

@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 Commençant par le triangle BCD, pour trouuer BD, on dira, si
 

@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 3.a.1 | *gnom.* eng 2|2 c, β
 α.36.1 | ◊al 2|2 ◊co Ⅱ ◊bm,

@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. VI.
+<!-- # D'EVCLIDE, LIV. VI. -->
 
 tient huict fois autant qu'vn sac d'vne aulne, pourueu qu'ils soient semblables, c'est à dire de pareille forme: & aussi que le tonneau ou muid qui sera faict de deux muids, y employant toutes les douues de longueur, contiendra autant que 4 muids.
 

@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 ABCDEF, & l'inferieure GHKLMN, & les adiouster ensemble, puis multipliant la moitié de leur somme, qui en nostre exemple est 69696411″, par la profondeur du fossé, qui est 10, viendra 69696411″, ou 696964 11/100 pieds pour le contenu de la solidité de la portion du fossé, qui est depuis le milieu de la courtine iusques à la ligne capitale, lequel au quarré est la huictiesme partie de toute la solidité ; partant multipliant 69696411″ par 8, viendra 557571288″, ou 5575712 88/100 pieds pour le contenu du fossé de toute la fortification, lequel estant soustraict du contenu du rampart & des parapets, restera 12526504″, ou 125265 4/100 pieds.
 

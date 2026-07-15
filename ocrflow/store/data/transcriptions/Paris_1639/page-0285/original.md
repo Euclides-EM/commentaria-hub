@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. VI.
+<!-- # D'EVCLIDE, LIV. VI. -->
 
 1.ſ.1.d.2 | □.cd *eſt* 25,
 1.ſ.1.d.1 | □.de *eſt* 144,

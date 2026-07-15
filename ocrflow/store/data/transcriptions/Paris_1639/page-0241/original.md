@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. V.
+<!-- # D'EVCLIDE, LIV. V. -->
 
 en raison égale seront proportionelles.
 

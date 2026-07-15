@@ -1,4 +1,4 @@
-# DES FORTIFICATIONS.
+<!-- # DES FORTIFICATIONS. -->
 
 née ; si elle est marescageuse ou seche ; si elle est de roche, ou de sable, ou de rüffeau ; & s'il y a du bois pour s'en seruir à faire des gabions, saussisses, & autres ouurages.
 

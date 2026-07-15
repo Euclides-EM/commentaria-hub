@@ -1,4 +1,4 @@
-# ETYMOLOGIE.
+<!-- # ETYMOLOGIE. -->
 
 Concentrique, vient du Latin *concentricum*, qui sign. auoir mesme centre que la terre.  t. 5. p. 469.
 

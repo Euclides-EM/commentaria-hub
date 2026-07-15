@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. V.
+<!-- # D'EVCLIDE, LIV. V. -->
 
 7.5 | c π a 2|2 c π b,
 | *contr. hyp.*

@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 ausquelles vne mesme grandeur a mesme raison, sont aussi égales entr'elles.
 

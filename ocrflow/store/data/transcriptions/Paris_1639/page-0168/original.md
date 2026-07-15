@@ -1,4 +1,4 @@
-# LES ELEMENTS
+<!-- # LES ELEMENTS -->
 
 ſymp. | aib *eſt* ⌓ *req.*
 

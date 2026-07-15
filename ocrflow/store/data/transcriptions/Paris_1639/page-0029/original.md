@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. I.
+<!-- # D'EVCLIDE, LIV. I. -->
 
 égaux, mais n'est pas equilatere ny rectangle, comme GLMH.
 

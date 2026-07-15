@@ -1,4 +1,4 @@
-# D'EVCLIDE, LIV. II.
+<!-- # D'EVCLIDE, LIV. II. -->
 
 THEOR. VI. PROPOS. VI.
 

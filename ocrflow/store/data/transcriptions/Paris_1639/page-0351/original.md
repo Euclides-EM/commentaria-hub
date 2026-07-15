@@ -1,4 +1,4 @@
-# PRACTIQVE.
+<!-- # PRACTIQVE. -->
 
 par 3, 4, & 5, tels que sont 60 & 120 : & parce que l'operation se faict plus facilement auec les plus petits, ie suppose que 60 soit le nombre requis, lequel ie diuise par 3, 4, & 5, & les quotiens sont 20, 15, & 12, que i'adiouste ensemble & trouue 47, qui n'est pas le nombre donné 4700 : partant pour auoir le requis ie dis, si 47 vient de la supposition de 60, de quelle supposition viendra 4700, & faisant la regle de trois ie trouue 6000, qui est le nombre requis pour lequel i'auois supposé. Car si on diuise 6000 par 3, 4, & 5, les quotiens seront 2000, 1500, & 1200, qui adioustez ensemble font 4700.
 
