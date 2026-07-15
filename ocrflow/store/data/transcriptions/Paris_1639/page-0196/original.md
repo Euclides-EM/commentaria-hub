@@ -33,6 +33,6 @@ hyp. | ab *eſt* 2000,
 3.a.1 | ah *eſt* 278,
 concl. 47.1 | ag *eſt* 415.
 
-SCHOLIE I.
+### SCHOLIE I.
 
 Les parties égales ausquelles le cercle se peut diuiser geometriquement, sont contenuës aux quatre progressions suiuantes.

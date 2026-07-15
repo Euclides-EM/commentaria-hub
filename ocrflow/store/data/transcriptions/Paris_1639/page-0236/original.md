@@ -12,7 +12,7 @@ hyp. | ab π bc 2|2 de π ef,
 14.5 | gf 3|2 ef,
 | *contr. 9.a.1.*
 
-SCHOL. I.
+### SCHOL. I.
 
 *Demonſtr.. compoſit.. raō. conuerſe.*
 
@@ -30,7 +30,7 @@ hyp. | ab π bc 2|2 de π ef.
 c.4.5 | bc π ab 2|2 ef π de,
 concl. 18.5 | ac π ab 2|2 df π de.
 
-SCHOL. II.
+### SCHOL. II.
 
 *Demonſtr.. compoſit.. raō. contr. & inuerſ. contraire.*
 

@@ -4,7 +4,7 @@ c.13 4. & 7.a.1 | ∠fab, ∠fba, ∠fbc, ∠fcb, ∠fcd, &c. *ſnt* 2|2 đe.
 6.1 | fa, fb, fc, fd, fe *ſnt* 2|2 đe.
 concl. 6.d.4 | ⊙abcd *eſt circonſcrit au* 5∠abcde.
 
-SCHOLIE.
+### SCHOLIE.
 
 Par la mesme methode sera descrit le cercle à l'entour de quelconque figure equilaterale & equiangle.
 

@@ -12,15 +12,15 @@ hyp. | cb *eſt* 2, β
 αβ | gd ▭.acb *eſt* 10,
 19.a.1 | 25, 4, 10, 10 *ſnt* 49.
 
-COROLL. I.
+### COROLL. I.
 
 De cette demonstration il s'ensuit que les parallelogrammes descrits à l'entour du diametre d'vn quarré, sont quarrez.
 
-COROLL. II.
+### COROLL. II.
 
 Il s'ensuit aussi que le diametre de quelconque quarré diuise les angles d'iceluy en deux également.
 
-SCHOLIE.
+### SCHOLIE.
 
 Le quarré de la toute est quadruple du quarré de la moitié.
 

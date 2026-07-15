@@ -21,7 +21,7 @@ af 2|2 fc.
 ef *eſt commun.*
 2 concl. 26.1 | af 2|2 fc.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 De cette demonstration s'ensuit, qu'en tout triangle isoscele ou equilateral, la ligne menée de l'angle du sommet au milieu de la base est perpendiculaire à la base : & au contraire la ligne perpendiculaire à la base, menée de l'angle opposé, la couppera en deux également.
 

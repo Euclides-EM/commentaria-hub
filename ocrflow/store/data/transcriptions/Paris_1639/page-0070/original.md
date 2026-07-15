@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-COROLL. II.
+### COROLL. II.
 
 Il s'ensuit aussi que si vne ligne droicte fait deux angles inégaux auec vne autre ligne droicte, l'vn obtus & l'autre aigu, que la ligne perpendiculaire tirée de quelconque poinct d'icelle sur cette autre ligne, tombera de la part de l'angle aigu.
 
@@ -23,7 +23,7 @@ hyp. | ∠aec 3|2 ┘,
 4.a.b | ∠ace, + ∠aec 3|2 2┘,
 *contr. 17. 1.*
 
-COROLL. III.
+### COROLL. III.
 
 Semblablement il est manifeste de cette proposition, que tous les angles d'vn triangle equilateral, & deux angles sur la base d'vn triangle isoscele, sont aigus.
 

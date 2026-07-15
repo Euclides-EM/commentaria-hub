@@ -6,7 +6,7 @@
 2.a.1 | ◊an 2|2 *gnom.* eng,
 2 concl. β.1.a.1 | ◊an 2|2 *rectili.* c.
 
-SCHOLIE.
+### SCHOLIE.
 
 Si à la ligne donnée il faut appliquer vn parallelogramme excedant d'vn quarré, la solution se trouuera plus briefuement par la methode suiuante, proposant ainsi.
 

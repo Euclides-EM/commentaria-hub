@@ -24,7 +24,7 @@ ab & ac *ſnt* —— D.
 2 concl. 2.6 | de π ec 2|2 di π ih,
 34.1 | Ⅱ fg π gb.
 
-SCHOLIE.
+### SCHOLIE.
 
 Coupper vne ligne droicte finie en tant de parties égales qu'on voudra.
 

@@ -32,7 +32,7 @@ ac 3|2 ab.
 *contr. hypoth.*
 concl. 21.a.1 | ac 3|2 ab.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 Il s'ensuit de cette proposition, que si de quelconque poinct on tire sur vne ligne droicte tant de lignes droictes qu'on voudra, l'vne desquelles soit perpendiculaire, icelle perpendiculaire sera la plus petite de toutes.
 

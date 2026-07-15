@@ -5,7 +5,7 @@ par la 15. 4. & 9. 1. en parties 3. 6. 12. 24. 48. &c.
 par la 11. 4. & 9. 1. en parties 5. 10. 20. 40. 80. &c.
 par la 16. 4. & 9. 1. en parties 15. 30. 60. 120. 240. &c.
 
-SCHOLIE II.
+### SCHOLIE II.
 
 Toute figure equilaterale inscrite au cercle est aussi equiangle: mais toute figure equilaterale circonscrite au cercle n'est pas aussi equiangle, si le nombre de ses angles n'est impair.
 

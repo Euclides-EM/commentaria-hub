@@ -29,12 +29,12 @@ ab *eſt* ——,
 α.10.d.1 | ∠ebd + ∠ebc 2|2 2┘,
 eoncl. 1.a.1 | ∠abc + ∠abd 2|2 2┘.
 
-COROLL. I.
+### COROLL. I.
 
 hyp. | ∠ebd *eſt* ┘,
 1.c.13.1 | ∠ebc *eſt* ┘.
 
-COROLL. II.
+### COROLL. II.
 
 hyp. | ∠abd 2|3 ┘,
 2.c.13.1 | ∠abc 3|2 ┘.

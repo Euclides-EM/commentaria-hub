@@ -12,14 +12,14 @@ arbitr. | fa Ⅱ db *eſt* 4. β
 19.a.1 | 40 + 9 *ſnt* 49.
 δ | □.ac *eſt* 49.
 
-SCHOL. II.
+### SCHOL. II.
 
 Si trois lignes droictes sont en proportion arithmetique, le rectangle compris sous les extremes, auec le quarré de l'excez, sera égal au quarré de la moyenne.
 
 ſ.4.d.5 | af, ac, ad, *ſnt en proport. arithm.*
 concl. 6.2 | ▭.af, ad + □.cd Ⅱ fc 2|2 □.ac.
 
-SCHOL. III.
+### SCHOL. III.
 
 La difference de deux grandeurs contient deux fois la difference de leurs moitiez.
 

@@ -15,7 +15,7 @@
 
 29.3 | ace *eſt* △ *equilat.*
 
-SCHOLIE.
+### SCHOLIE.
 
 Demonstration de la practique de l'vnziesme proposition du premier liure, que nous auons remise à demonstrer icy.
 

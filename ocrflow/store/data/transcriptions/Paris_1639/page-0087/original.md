@@ -38,7 +38,7 @@ bc *eſt commun.*
 α.2.a.1 | ∠abd 2|2 ∠acd,
 26.1 | △abc 2|2 △cbd.
 
-SCHOLIE I.
+### SCHOLIE I.
 
 Tout quadrilatere qui a les costez opposez égaux, est parallelogramme.
 

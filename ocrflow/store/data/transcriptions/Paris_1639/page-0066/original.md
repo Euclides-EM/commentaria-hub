@@ -2,15 +2,15 @@
 
 d.β. (c'est à dire, demonstration β.) signifie qu'il faut demonstrer que l'angle A est égal à l'angle C, par la mesme methode, qu'il a esté demonstré, que l'angle D est égal à l'angle B.
 
-COROLLAIRE I.
+### COROLLAIRE I.
 
 De cette proposition s'ensuit, que deux lignes droictes s'entrecoupant l'vne l'autre, font quatre angles égaux à quatre angles droicts.
 
-COROLL. II.
+### COROLL. II.
 
 Il s'ensuit aussi que tous les angles constituez à l'entour d'vn mesme poinct, sont tant seulement égaux à quatre angles droicts.
 
-SCHOLIE I.
+### SCHOLIE I.
 
 Si à quelque ligne droicte, & à vn poinct en icelle, sont menées deux lignes droictes, non de mesme part, faisant les angles opposez au sommet égaux entr'eux : icelles lignes droictes se rencontreront directement.
 
@@ -34,6 +34,6 @@ hyp. | ∠d 2|2 ∠b,
 1.a.1 | ∠b + ∠a 2|2 2┘,
 concl. 14.1 | eaf *eſt* ——.
 
-SCHOL. II.
+### SCHOL. II.
 
 Si quatre lignes droictes tirées d'vn mesme poinct font les angles opposez au sommet égaux entr'eux, chaque deux lignes opposées seront constituées directement.

@@ -34,7 +34,7 @@ conſtr. | ∠hik 2|2 ∠e,
 ſ.30.1 | ghl *eſt* ——,
 3.concl. 35.d.1 | fl *eſt* ◊.
 
-SCHOLIE.
+### SCHOLIE.
 
 Deux figures rectilignes estans proposées, trouuer l'excez dont la plus grande excede la plus petite.
 

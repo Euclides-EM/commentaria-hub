@@ -18,7 +18,7 @@
 
 Ceste proposition est de soy manifeste, neantmoins pour la demonstrer par la 6 definition du 5, on dira que D & E, equimultiples des antecedens A & B, à cause qu'elles sont égales entr'elles, ne peuuent estre dissemblables au respect de F, qui est l'equimultiple des consequens C: & que par consequent, par la 6. definition du 5. il y a mesme raison de l'antecedent A au consequent C, que de l'antecedent B au mesme consequent C: ce qu'il falloit demonstrer.
 
-SCHOLIE.
+### SCHOLIE.
 
 Si au lieu de l'equimultiple F on prend deux equimultiples, on demonstrera par la mesme methode que les grandeurs égales ont mesme raison à d'autres grandeurs égales.
 

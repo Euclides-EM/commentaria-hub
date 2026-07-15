@@ -15,10 +15,10 @@ d.δ | ⌒bci, 2, 3, 4|3, ⌒fgp,
 | *ſect.* bdi, 2, 3, 4|3, *ſect.* fhp,
 3.concl. 6.6.5 | *ſect.* bdcm π *ſect.* fhg 2|2 ⌒bmc π ⌒fg.
 
-COROLL. I.
+### COROLL. I.
 
 γ.11.5 | *ſect.* bdcm π *ſect.* fhg 2|2 ∠bdc π ∠fhg,
 
-COROLL. II.
+### COROLL. II.
 
 Il est manifeste de cecy, que comme l'angle au centre est à quatre droicts, ainsi l'arc qui soustient iceluy angle est à toute la circonference. Et au contraire, comme quatre angles droicts sont à l'angle qui est au centre, ainsi toute la circonference est à l'arc qui soustient ledit angle.

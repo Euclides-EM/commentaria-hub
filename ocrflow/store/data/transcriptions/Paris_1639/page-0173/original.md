@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-COROLL. IV.
+### COROLL. IV.
 
 Il est finalement euident, que si deux lignes droites égales, sont menées de quelconque poinct à la circonference conuexe, & que l'vne d'icelles touche le cercle, l'autre aussi le touchera.
 

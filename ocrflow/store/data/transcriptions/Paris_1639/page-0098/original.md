@@ -43,6 +43,6 @@ conſtr. | ab 2|2 ad,
 1.a.1 | bc 2|2 dc,
 2.concl. 29.d.1 | ac *eſt* □.ad.
 
-SCHOLIE.
+### SCHOLIE.
 
 Il est manifeste de l'huictiesme axiome, que les quarrez des lignes égales sont égaux entr'eux : & des quarrez égaux, les lignes sont égales entr'elles.

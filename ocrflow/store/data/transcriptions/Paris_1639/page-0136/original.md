@@ -12,7 +12,7 @@ conſtr. | ∠ceb *eſt* ┘,
 *contr. 9. a. 1.*
 concl. 21.a.1 | •f *eſt centr..* ⊙.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 De cette proposition il est euident, que si au cercle, vne ligne droicte est couppée en deux également & à angles droicts, par vne autre ligne droicte, le centre du cetcle sera en icelle couppante.
 

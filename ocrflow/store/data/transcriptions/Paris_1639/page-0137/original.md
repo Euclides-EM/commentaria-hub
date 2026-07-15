@@ -7,7 +7,7 @@
 19.1 | cd 2|3 cb,
 concl. c.15.d.1 | •d *eſt dans le* ⊙.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 De la demonstration de cette proposition il est manifeste, que la ligne droicte qui touche le cercle, en sorte qu'elle ne le couppe point, qu'elle le touche seulement à vn poinct.
 

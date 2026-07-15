@@ -24,7 +24,7 @@ hyp. | ab π c 2|2 de π f,
 hyp. | bg π c 2|2 eh π f,
 concl. 22.5 | ag π c 2|2 dh π f.
 
-SCHOLIE.
+### SCHOLIE.
 
 Si deux grandeurs ont mesme proportion à deux autres grandeurs, & d'icelles on retranche des grandeurs, qui ayent mesme proportion aux mesmes grandeurs, les restantes auront aussi mesme proportion à icelles.
 

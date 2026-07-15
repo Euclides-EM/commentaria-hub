@@ -18,10 +18,10 @@
 2 concl. αδ2.a.1 | gh, hi, ik, kl, lg *ſnt* 2|2 đe.
 3.concl. β.ſ.32.1 | ∠ahb,∠bic,∠ckd,∠dle,∠ega *ſnt* 2|2 đe.
 
-COROLL.
+### COROLL.
 
 Il s'ensuit de la demonstration de ce probleme, que si dans le cercle est descrit vne figure equilaterale & equiangle, & aux extremitez des semidiametres, menez du centre aux angles, soient faites des perpendiculaires: ces perpendiculaires feront vne figure circonscrite au cercle equilateral & equiangle, qui aura autant de costez & angles que l'inscrite.
 
-SCHOLIE.
+### SCHOLIE.
 
 En vne figure equilaterale & equiangle, si le nombre des angles est impair, la ligne droicte menée de quelconque angle au milieu du costé opposé, diuise aussi l'angle en deux parties égales: Mais si le nombre des

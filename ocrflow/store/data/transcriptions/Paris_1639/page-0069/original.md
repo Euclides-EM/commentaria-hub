@@ -43,6 +43,6 @@ abc *eſt* △.
 2.concl. d.α | ∠acb + ∠a 2|3 2┘,
 3.concl. d.α | ∠a + ∠b 2|3 2┘.
 
-COROLL. I.
+### COROLL. I.
 
 De cette proposition s'ensuit, que tout triangle qui a vn angle droict ou obtus, a les autres aigus.

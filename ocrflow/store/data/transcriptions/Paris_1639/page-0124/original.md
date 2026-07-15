@@ -23,7 +23,7 @@ caeb *eſt la figure du ſcholie de la 6. du 2.*
 2□.de *commun. ſubtr.*
 concl. 31a.1 | □.ad + □db, Ⅱ af 2|2 2□.ce + 2□.cd.
 
-SCHOLIE.
+### SCHOLIE.
 
 *Cette 10. propoſition ſe peut auſsi propoſer ainſi.*
 

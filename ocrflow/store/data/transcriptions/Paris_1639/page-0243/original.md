@@ -16,11 +16,11 @@ a π d 2|2 e π h.
 hyp. | c π d 2|2 e π f,
 concl. β.23.5 | a π d 2|2 e π h.
 
-SCHOLIE II.
+### SCHOLIE II.
 
 Il est manifeste de la 22. & 23. que les raisons composées de mesmes raisons, sont de mesme ou égales entr'elles.
 
-SCHOL. III.
+### SCHOL. III.
 
 Des raisons égales les mesmes parties sont égales entr'elles.
 

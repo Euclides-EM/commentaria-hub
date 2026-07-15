@@ -31,7 +31,7 @@ hyp. | b π c 2|2 d π e,
 | i, 2, 3, 4 | 3, m,
 concl. 6.d.5 | a π c 2|2 d π f.
 
-SCHOL. I.
+### SCHOL. I.
 
 Que s'il y a plus de trois grandeurs, & que leur proportion soit troublée, neantmoins en raison égale elles seront proportionelles.
 

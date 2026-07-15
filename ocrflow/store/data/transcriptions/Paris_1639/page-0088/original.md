@@ -17,7 +17,7 @@ hyp. | ac 2|2 bd,
 β.27.1 | ac == bd,
 concl. 35.d.1 | abdc *eſt* ◊.
 
-SCHOL. II.
+### SCHOL. II.
 
 De ce scholie est manifeste la demonstration d'vne methode plus brieue de mener vne ligne droicte, par vn poinct donné, parallele à vne ligne droicte donnée.
 
@@ -46,6 +46,6 @@ conſtr. | fd 2|2 ec,
 1.ſ.14.1 | cefd *eſt* ◊,
 concl. 35.d.1 | cd == ef.
 
-SCHOL. III.
+### SCHOL. III.
 
 Tout quadrilatere qui a les angles opposez égaux, est parallelogramme.

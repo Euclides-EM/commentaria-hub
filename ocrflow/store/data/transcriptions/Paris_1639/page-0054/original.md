@@ -36,7 +36,7 @@ hyp. | ab 2|2 ac,
 
 *La eſt commun.* C'est à dire que l'angle A est commun aux deux triangles proposez, ACD & ABF, & s'explique de mesme aux demonstrations suiuantes. Il est manifeste en cette demonstration l'vsage qu'ont les lettres Grecques, à citer ce qui est desia prouué en la demonstration.
 
-COROLL.
+### COROLL.
 
 De cette cinquiesme proposition il s'ensuit que tout triangle equilateral est aussi equiangle.
 

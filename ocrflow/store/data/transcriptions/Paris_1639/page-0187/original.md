@@ -13,7 +13,7 @@
 2.a.1 | ∩bcde, ∩cdea, ∩deab, ∩eabc, ∩abcd *ſnt* 2|2 đe.
 2 concl. 27.3 | ∠bae, ∠abc, ∠bcd, ∠cde, ∠dea *ſnt* 2|2 đe.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 D'icy il s'ensuit, que l'angle du pentagone equilateral & equiangle, est les trois cinquiesmes de deux droits ou les six cinquiesmes d'vn droict.
 

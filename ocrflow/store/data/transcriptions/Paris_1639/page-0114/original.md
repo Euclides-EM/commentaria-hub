@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-SCHOL. I.
+### SCHOL. I.
 
 *Cette 6. propoſition ſe peut außi propoſer ainſi.*
 

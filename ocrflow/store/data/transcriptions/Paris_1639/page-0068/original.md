@@ -39,7 +39,7 @@ conſtr. | hi 2|2 ha,
 15.1 | ∠acd 2|2 ∠bcg,
 2.concl. 1.a.d | ∠acd 3|2 ∠cba.
 
-SCHOLIE.
+### SCHOLIE.
 
 D'vn poinct sur vne mesme ligne droicte, on ne peut mener plus de deux lignes droictes égales entr'elles.
 

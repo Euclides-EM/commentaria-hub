@@ -23,7 +23,7 @@ hyp. | cb 2|2 bd. α
 concl. 19.a.1 | *gnom.* odi + oi □.ac 2|2 ae □.ad,
 1.a.g | 4▭.abc + □.ac 2|2 □.ad.
 
-SCHOLIE.
+### SCHOLIE.
 
 *La meſme propoſition ſe peut propoſer ainſi.*
 

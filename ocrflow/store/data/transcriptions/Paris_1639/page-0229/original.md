@@ -2,7 +2,7 @@
 
 En ceste demonstration G & GHI equimultiples des antecedens A & ACE, ne peuuent estre dissemblables au respect de K & KLM equimultiples des consequens B & BDF; par consequent, par la 6. definition du 5. A est à B, comme la composée de A, C, E, est à la composée de B, D, F: ce qu'il falloit demonstrer.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 De ceste proposition est manifeste, que si à proportionaux semblables sont adjoustez proportionaux semblables, les tous sont proportionaux.
 

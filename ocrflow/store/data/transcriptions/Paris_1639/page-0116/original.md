@@ -25,7 +25,7 @@ ae & eb *ſont parties de* ab.
 □hf *commun. add.*
 concl. 2.a.1 | 2▭.bae + hf □.be 2|2 bd □.ab + eg □.ae.
 
-SCHOLIE.
+### SCHOLIE.
 
 Si vne ligne droicte est couppée en deux parties inégales, le rectangle compris deux fois sous les parties auec le quarré de la difference des parties, est égal à l'aggregé des quarrez descrits de deux parties.
 

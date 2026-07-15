@@ -11,6 +11,6 @@ hyp. | a, b, c, d, e *ſont en proportion continuë*,
 10.d.5 | raō.. a π d 2|2 3 raō.. a π b,
 10.d.5 | raō.. a π e 2|2 4 raō.. a π b.
 
-SCHOLIE.
+### SCHOLIE.
 
 Pour la mesme raison s'il y a tant de grandeurs qu'on

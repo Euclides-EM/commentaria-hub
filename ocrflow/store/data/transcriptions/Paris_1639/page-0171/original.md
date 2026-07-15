@@ -16,7 +16,7 @@
 □,eb *commun. ſubtr.*,
 concl. 3.a.1 | ▭.adc 2|2 □.bd.
 
-COROLL. I.
+### COROLL. I.
 
 De cette proposition il est manifeste, que si de quelconque poinct pris hors le cercle, on mene plusieurs lignes droictes couppant le cercle; les rectangles compris sous chacune de toutes, & sa partie externe sont égaux entr'eux.
 

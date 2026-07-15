@@ -42,6 +42,6 @@ bc *eſt commun.*
 *contr. 9. a. 1.*
 concl. 21.a.1 | ab 2|2 ac.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 Il s'ensuit de cette proposition que tout triangle equiangle est aussi equilateral.

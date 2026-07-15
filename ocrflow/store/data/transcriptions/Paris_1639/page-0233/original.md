@@ -11,7 +11,7 @@ hyp. | c π d 2|2 a π b,
 | f, 2, 3, 4 | 3, h,
 α.6.d.5 | a π c 2|2 b π d.
 
-SCHOLIE.
+### SCHOLIE.
 
 Or ceste demonstration a lieu seulement quand les quatre grandeurs sont de mesme genre; car la raison ne se trouue point aux grandeurs homogenes.
 

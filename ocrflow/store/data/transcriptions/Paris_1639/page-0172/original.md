@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-COROLL. II.
+### COROLL. II.
 
 Il est manifeste aussi, que si deux lignes droites menées d'vn mesme poinct, touchent le cercle, qu'elles sont égales entr'elles.
 
@@ -21,7 +21,7 @@ ab 2|2 ac.
 1.a.1 | □.ab 2|2 □.ac,
 concl. ſ.46.1 | ab 2|2 ac.
 
-COROLL. III.
+### COROLL. III.
 
 Semblablement il est manifeste, que d'vn poinct pris hors le cercle, on peut mener seulement deux lignes droites qui touchent le cercle.
 

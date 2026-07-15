@@ -21,7 +21,7 @@ d.β | ∠b + ∠c 2|2 2┘.
 28.1 | ab == dc,
 concl. 35.d.1 | ac *eſt* ◊.
 
-SCHOL. IV.
+### SCHOL. IV.
 
 En toute figure rectiligne si les costez sont en nombre pair, & qu'elle soit equilaterale & equiangle : les costez opposez seront paralleles entr'eux.
 

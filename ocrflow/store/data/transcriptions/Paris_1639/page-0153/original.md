@@ -1,6 +1,6 @@
 <!-- # D'EVCLIDE, LIV. III. -->
 
-SCHOL. V.
+### SCHOL. V.
 
 Il est possible que deux lignes s'approchent eternellement l'vne de l'autre, sans qu'elles se touchent ny couppent iamais l'vne l'autre.
 

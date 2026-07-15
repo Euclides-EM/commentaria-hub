@@ -26,7 +26,7 @@ ad *eſt* —— *arbitr.*
 conſtr. | ∠dae 2|2 ∠adc,
 concl. 27.1 | ae == bc.
 
-SCHOLIE.
+### SCHOLIE.
 
 Sur vne ligne droicte donnée & infinie, d'vn poinct donné hors d'icelle, mener vne ligne droicte qui auec la ligne donnée, face vn angle égal à vn angle rectiligne donné,
 

@@ -20,7 +20,7 @@ hyp. | ∠abc 2|2 ∠bcd,
 d. α | ∩;cd, ab, ed, bc, ae *ſnt* 2|2 đe. γ
 concl. γ | abcde *eſt equilateral.*
 
-SCHOL. V.
+### SCHOL. V.
 
 Si le nombre des angles de la figure proposée est pair, par la mesme demonstration sera demonstré que tous les costez distans d'vn nombre pair seront égaux entre eux: par exemple, commençant par tel costé qu'on voudra le 1. 3. 5. 7. &c. seront égaux entr'eux, & aussi le 2. 4. 6. 8. &c.
 

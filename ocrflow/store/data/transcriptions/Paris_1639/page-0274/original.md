@@ -1,6 +1,6 @@
 <!-- # LES ELEMENTS -->
 
-SCHOLIE.
+### SCHOLIE.
 
 Si vne ligne droicte est couppée comme on voudra, le rectangle contenu sous les parties, est milieu proportionel, entre les quarrez d'icelles parties : Item le rectangle contenu sous la toute & vne partie, est milieu proportionel entre le quarré de la toute & le quarré de ladite partie.
 

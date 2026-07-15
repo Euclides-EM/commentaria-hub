@@ -6,7 +6,7 @@ rez TA égale à CZ : HAR parallele à DN : & les lignes droictes tirées du poi
 
 Pour auoir son stile, on fera l'angle TAP égal à l'esleuation du pole, à sçauoir de 48 deg. 40′ : & le costé AP, du triangle TAP esleué à angles droicts au plan du quadrant sur AT, sera le stile oblique parallele à l'axe du monde.  Que si on veut que DN soit la ligne equinoctiale, tirant Tε perpendiculaire à AP, & EV à AT, on aura εV pour le stile perpendiculaire.
 
-SCHOLIE.
+### SCHOLIE.
 
 Que si on veut premierement descrire le cercle TLG de la grandeur qu'on veut faire le quadrant, pour auoir le centre C du quadrant equatorial, il faudra faire l'angle TAP égal à l'esleuation du pole, & Tε perpendiculaire sur AP, sera égale au semidiametre TC.
 

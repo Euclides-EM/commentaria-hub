@@ -46,6 +46,6 @@ arbitr. | gi *eſt* ——.
 1.a.1 | ∠agi 2|2 ∠dig,
 concl. 27.1 | ab == cd.
 
-SCHOLIE.
+### SCHOLIE.
 
 Les lignes droictes paralleles à vne mesme ligne droicte estans continuées directement, si elles se rencontrent : elles seront parties d'vne mesme ligne droicte, comme AG & GB sont parties de la droicte AB.

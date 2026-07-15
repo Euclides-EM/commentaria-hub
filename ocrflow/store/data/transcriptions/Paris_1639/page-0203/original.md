@@ -8,7 +8,7 @@ Mais multiple est la plus grande de la plus petite, quand la plus petite mesure 
 
 Pour la mesme raison que 4 est partie de 12, aussi 12 est multiple de 4.
 
-SCHOLIE.
+### SCHOLIE.
 
 Les grandeurs equimultiples sont celles, qui sont mesurées également, chacune par sa partie.
 
@@ -20,6 +20,6 @@ Raison est vne habitude de deux grandeurs de mesme genre, comparées l'vne à l'
 
 En toute raison la quantité qui se refere à vne autre, est dite antecedent de la raison; mais celle-là à laquelle vne autre se refere, est dite consequent de la raison: comme en la raison de 6 à 4, l'antecedent est 6, & le consequent 4.
 
-SCHOLIE.
+### SCHOLIE.
 
 Le denominateur ou quantité d'vne raison est le nombre qui se trouue en diuisant l'antecedent de la rai-

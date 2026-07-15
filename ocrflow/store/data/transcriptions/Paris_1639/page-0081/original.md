@@ -25,7 +25,7 @@ ab == cd.
 β | ∠dhg 2|2 ∠agh,
 3.concl. 1.a.1 | ∠bge 2|2 ∠dhg.
 
-SCHOL. I.
+### SCHOL. I.
 
 Si l'angle externe est égal à l'interne & opposé de mesme part, la ligne tombant sur lignes droictes paralleles est droicte.
 
@@ -47,6 +47,6 @@ hyp. | ∠egb 2|2 ∠ghd,
 1.a.1 | ∠egb + ∠bgh 2|2 2┘,
 concl. 14.1 | egh *eſt* ——.
 
-SCHOL. II.
+### SCHOL. II.
 
 Tout parallelogramme, qui a vn angle droict, est parallelogramme rectangle.

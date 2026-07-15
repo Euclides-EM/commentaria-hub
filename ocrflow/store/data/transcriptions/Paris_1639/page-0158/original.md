@@ -20,7 +20,7 @@ hyp. | ∠dab *eſt* ┘,
 hyp. | ∠abc 2|3 ┘,
 2.c.22.3 | ∠adc 3|2 ┘.
 
-SCHOLIE.
+### SCHOLIE.
 
 Si vn costé d'vn quadrilatere inscrit dans le cercle, est prolongé, l'angle externe sera égal à l'interne, qui est opposé à celuy qui est de suite à l'externe.
 

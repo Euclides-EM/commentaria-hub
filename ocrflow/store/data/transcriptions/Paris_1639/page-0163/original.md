@@ -12,7 +12,7 @@ hyp. | ∪ ac 2|2 ∪ df,
 1.concl, 21.a.1. | ∠agc 2|2 ∠dhf. α
 2 concl. α.7.a.1 | ∠abc 2|2 ∠def.
 
-SCHOLIE.
+### SCHOLIE.
 
 *Hypoth.*
 

@@ -26,6 +26,6 @@ quarrez des costez qui contiennent l'angle obtus, de deux fois le rectangle cont
 47.1 | □.ad + □.bd 2|2 □.ab,
 concl. δ.1.a.f | □.ac 2|2 □.cb + □.ab, 2▭.cbd.
 
-SCHOLIE.
+### SCHOLIE.
 
 Estans cognus les costez d'vn triangle obtusangle, trouuer le segment comprins entre la perpendiculaire & l'angle obtus.

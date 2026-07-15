@@ -22,6 +22,6 @@ Diuiser est trouuer la raison du premier au second, estant donnée la raison des
 
 8. 12. 18. 27.
 
-SCHOLIE.
+### SCHOLIE.
 
 A cause que la raison des lignes homologues de deux corps semblables est contenu deux fois en la raison des superficies des mesmes corps, & trois fois en la raison des soliditez de la multiplication & diuision des raisons s'ensuit, que si le diametre d'vne boule est contenu dix fois, par exemple, dans le diametre d'vne autre boule, que la superficie de la plus petite boule sera contenuë 100 fois dans la superficie de la plus grande: & la solidité de la plus petite 1000 fois dans la solidité de la plus grande. Il s'ensuit aussi qu'en vn pain de huict sols il y a quatre fois autant de crouste qu'en vn pain d'vn sol: & qu'vn sac de 4 aulnes con-

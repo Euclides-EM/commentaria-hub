@@ -10,7 +10,7 @@ Toute quantité terminée ne peut pas estre appellée figure, mais seulement les
 
 Le Cercle est vne figure plane, contenuë sous vne seule ligne, appellée Circonference, à laquelle toutes les lignes droictes menées d'vn seul poinct, de ceux qui sont posez au dedans de la figure, sont égales entr'elles.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 De ceste definition s'ensuit, que ce qui est esloigné du centre du cercle de la quantité du semidiametre est en la circonference; si moins, dans le cercle; si plus, hors du cercle, pourueu qu'ils soient en mesme plan que le cercle.
 

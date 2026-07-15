@@ -48,6 +48,6 @@ d. γ | ∠fcd,∠fdc / ∠fde,∠fed / ∠fea, &c. *ſnt* 2|2 đe.
 d. β | fg,fh,fi / fk,fl *ſnt* 2|2 đe.
 concl. 5.d.4 | ⊙fghk *eſt inſcrire au* 5∠abd,
 
-COROLL.
+### COROLL.
 
 Il s'ensuit de la demonstration de ce probleme, que si deux angles prochains d'vne figure equilaterale &

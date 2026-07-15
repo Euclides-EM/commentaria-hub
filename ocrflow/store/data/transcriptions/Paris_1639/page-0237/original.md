@@ -22,7 +22,7 @@ hyp. | ab π de 2|2 ac π df,
 concl. 16.5 | cb π fe 2|2 ac π df,
 α | Ⅱ ab π de.
 
-COROLL. I.
+### COROLL. I.
 
 D'icy sera facile à demonstrer la raison conuerse.
 
@@ -41,6 +41,6 @@ hyp. | ab π cb 2|2 de π fe,
 c.4.5 | cb π ac 2|2 fe π df,
 concl. 18.5 | ab π ac 2|2 de π df,
 
-COROLL. II.
+### COROLL. II.
 
 De cette proposition est manifeste, que si proportionaux semblables sont soustraits des proportionaux semblables, les restes sont proportionaux.

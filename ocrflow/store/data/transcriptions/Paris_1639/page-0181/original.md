@@ -22,11 +22,11 @@ conſtr. | ∠fec 2|2 ∠fea,
 α.1.a.1 | fc 2|2 fb,
 concl. 6.d.4 | ⊙abc *eſt circonſcrit au* △abc.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 Il est manifeste de cette proposition, qùe si le triangle est oxygone, le centre tombera en iceluy: si rectangle, au costé qui soustient l'angle droict: & si amblygone dehors.
 
-SCHOLIE.
+### SCHOLIE.
 
 Par la mesme methode on pourra descrire vn cercle, qui passe par trois poincts donnez A, B, C, qui ne soient en vne ligne droicte.
 

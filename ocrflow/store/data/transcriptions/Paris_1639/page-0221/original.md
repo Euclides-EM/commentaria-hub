@@ -8,7 +8,7 @@ concl. α.6.d.5 | e π g 2|2 f π h.
 
 En cette demonstration I & K ne peuuent estre dissemblables au respect de L & M, à cause qu'elles sont equimultiples des antecedens A & C, qui ont mesme raison à leurs consequens B & D: Et parce que I & K ne peuuent estre dissemblables au respect de L & M, & qu'elles sont equimultiples de E & F, il y aura mesme raison de E à G, que de F à H: ce qu'il falloit demonstrer.
 
-COROLLAIRE.
+### COROLLAIRE.
 
 Par cette demonstration est manifeste la preuue de la raison inuerse.
 
