@@ -744,42 +744,41 @@ func markdownHeaderLevel(category string) int {
 	return level
 }
 
-func buildNodes(remainingCats []string, data []categoryPageContent) []*annotation.IndexNode {
-	// Base case: if no more categories to nest or no data left
-	if len(remainingCats) == 0 || len(data) == 0 {
-		return nil
+func buildNodes(categories []string, data []categoryPageContent) []*annotation.IndexNode {
+	categoryRank := make(map[string]int, len(categories))
+	for rank, category := range categories {
+		categoryRank[category] = rank
 	}
 
-	currentCat := remainingCats[0]
-	nextCats := remainingCats[1:]
+	type rankedNode struct {
+		rank int
+		node *annotation.IndexNode
+	}
 
 	var nodes []*annotation.IndexNode
-
-	var wipNode *annotation.IndexNode
-	var wipNodeFirstChildIndex int
-
-	for i, item := range data {
-		if item.category == currentCat {
-			if wipNode != nil {
-				if wipNodeFirstChildIndex != i {
-					wipNode.Children = buildNodes(nextCats, data[wipNodeFirstChildIndex:i])
-				}
-				nodes = append(nodes, wipNode)
-			}
-			wipNode = &annotation.IndexNode{
-				Category: item.category,
-				Content:  item.content,
-				Location: common.ALTOLocation{Page: fmt.Sprintf("%d", item.page)},
-			}
-			wipNodeFirstChildIndex = i + 1
+	stack := make([]rankedNode, 0, len(categories))
+	for _, item := range data {
+		rank, ok := categoryRank[item.category]
+		if !ok {
+			continue
 		}
-	}
-	// Handle the last wipNode if exists
-	if wipNode != nil {
-		if wipNodeFirstChildIndex != len(data) {
-			wipNode.Children = buildNodes(nextCats, data[wipNodeFirstChildIndex:])
+
+		node := &annotation.IndexNode{
+			Category: item.category,
+			Content:  item.content,
+			Location: common.ALTOLocation{Page: fmt.Sprintf("%d", item.page)},
 		}
-		nodes = append(nodes, wipNode)
+
+		for len(stack) > 0 && stack[len(stack)-1].rank >= rank {
+			stack = stack[:len(stack)-1]
+		}
+		if len(stack) == 0 {
+			nodes = append(nodes, node)
+		} else {
+			parent := stack[len(stack)-1].node
+			parent.Children = append(parent.Children, node)
+		}
+		stack = append(stack, rankedNode{rank: rank, node: node})
 	}
 
 	return nodes
