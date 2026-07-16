@@ -59,7 +59,7 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 		if jb.Task == job.ModelTrain && jb.ModelTraining != nil {
 			j.runModelTrain(jb)
 		}
-		if jb.Task == job.Export && jb.Target != nil && jb.Target.AnnotationID != "" {
+		if isExportJobReady(jb) {
 			switch jb.Target.Platform {
 			case job.PlatformRoboflow:
 				j.run(jb, "roboflow export", func() (any, error) {
@@ -77,6 +77,10 @@ func (j *Job) CreateJobs(ij *job.Jobs) (*job.Jobs, error) {
 		}
 	}
 	return ij, nil
+}
+
+func isExportJobReady(jb *job.Job) bool {
+	return jb.Task == job.Export && jb.Target != nil && jb.Annotation != nil
 }
 
 func (j *Job) runAnnotationRuleApply(jb *job.Job) {
