@@ -120,6 +120,8 @@ export const itemProperties: {
     customCompareFn: ((a: string, b: string): number => {
       const numA = parseInt(a);
       const numB = parseInt(b);
+      if (Number.isNaN(numA)) return Number.isNaN(numB) ? 0 : 1;
+      if (Number.isNaN(numB)) return -1;
       return numA - numB;
     }) as (a: unknown, b: unknown) => number,
   },

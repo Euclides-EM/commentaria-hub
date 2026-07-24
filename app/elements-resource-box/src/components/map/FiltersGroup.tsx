@@ -6,6 +6,7 @@ import { personDisplayName } from "../../utils/dataUtils.ts";
 import { ItemProperty } from "../../constants/itemProperties.ts";
 import styled from "@emotion/styled";
 import { SubjectCategoriesFilter } from "./SubjectCategoriesFilter";
+import { formatBookFormat } from "../../utils/util";
 
 const GroupSeparator = styled.div`
   border-top: 1px solid #e0e0e0;
@@ -54,13 +55,6 @@ const mapStudyCorpus = (s: string): string => {
   return STUDY_CORPUSES[s] || startCase(s.toLowerCase());
 };
 
-const toFormat = (value: string | undefined) => {
-  if (isNil(value)) {
-    return "";
-  }
-  return `${value}º`;
-};
-
 const optionDisplayName = (
   field: keyof Item,
   value: string | undefined | null,
@@ -78,7 +72,7 @@ const optionDisplayName = (
     return isNil(value) ? "Uncatalogued" : value === "true" ? "Yes" : "No";
   }
   if (field === "format") {
-    return toFormat(value || "");
+    return formatBookFormat(value);
   }
 
   return value?.toString().replace("(?)", "").replace("?", "").trim() || "";

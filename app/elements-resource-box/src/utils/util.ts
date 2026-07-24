@@ -54,6 +54,29 @@ export const formatBookRanges = (ranges: Range[]): string => {
     .join(", ");
 };
 
+const bookFormatNames: Record<string, string> = {
+  "2": "Folio",
+  "4": "Quarto",
+  "6": "Sexto",
+  "8": "Octavo",
+  "12": "Duodecimo",
+  "16": "Sextodecimo",
+  "18": "Octodecimo",
+};
+
+export const formatBookFormat = (value: string | number | null | undefined) => {
+  if (value === null || value === undefined || value === "") {
+    return "";
+  }
+
+  const format = String(value);
+  if (!/^\d+$/.test(format)) {
+    return format;
+  }
+  const name = bookFormatNames[format];
+  return name ? `${format}º (${name})` : `${format}º`;
+};
+
 export function isValidUrl(s: string) {
   try {
     new URL(s);
