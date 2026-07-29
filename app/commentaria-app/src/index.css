@@ -44,6 +44,7 @@ em {
   padding-right: 0.125rem;
 }
 
+/* Readable TEI block styling. */
 .tei-readable p[data-tei-block-type] {
   margin-bottom: 0.7rem;
 }
@@ -51,10 +52,13 @@ em {
 .tei-readable p[data-tei-block-type='header1'] {
   margin-top: 1.05rem;
   margin-bottom: 0.45rem;
+  border-bottom: 1px solid #d1d5db;
   color: #111827;
-  font-size: 0.95rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 750;
+  letter-spacing: -0.01em;
   line-height: 1.25;
+  padding-bottom: 0.25rem;
 }
 
 .tei-readable p[data-tei-block-type='header1']:first-child {
@@ -64,17 +68,19 @@ em {
 .tei-readable p[data-tei-block-type='header2'] {
   margin-top: 0.9rem;
   margin-bottom: 0.4rem;
+  border-left: 2px solid #9ca3af;
   color: #1f2937;
-  font-size: 0.86rem;
-  font-weight: 650;
+  font-size: 0.9rem;
+  font-weight: 700;
   line-height: 1.3;
+  padding-left: 0.45rem;
 }
 
 .tei-readable p[data-tei-block-type='header3'] {
   margin-top: 0.8rem;
   margin-bottom: 0.35rem;
   color: #374151;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 650;
   line-height: 1.35;
 }
@@ -82,9 +88,10 @@ em {
 .tei-readable p[data-tei-block-type='header4'] {
   margin-top: 0.7rem;
   margin-bottom: 0.3rem;
-  color: #374151;
-  font-size: 0.76rem;
+  color: #4b5563;
+  font-size: 0.78rem;
   font-weight: 600;
+  font-style: italic;
   line-height: 1.4;
 }
 
@@ -92,24 +99,30 @@ em {
   margin-top: 0.65rem;
   margin-bottom: 0.25rem;
   color: #4b5563;
-  font-size: 0.72rem;
-  font-weight: 600;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
   line-height: 1.4;
 }
 
 .tei-readable p[data-tei-block-type='header6'] {
   margin-top: 0.6rem;
   margin-bottom: 0.25rem;
-  color: #4b5563;
-  font-size: 0.68rem;
+  color: #6b7280;
+  font-size: 0.7rem;
   font-weight: 600;
+  font-style: italic;
   line-height: 1.45;
 }
 
 .tei-readable p[data-tei-block-type='comment'] {
-  color: #6b7280;
-  font-size: 0.72rem;
-  font-style: italic;
+  border-left: 3px solid #eab308;
+  background: #fefce8;
+  border-radius: 0.35rem;
+  color: #713f12;
+  font-size: 0.74rem;
+  line-height: 1.45;
+  padding: 0.45rem 0.55rem;
 }
 
 .tei-readable p[data-tei-block-type='figure'] {
