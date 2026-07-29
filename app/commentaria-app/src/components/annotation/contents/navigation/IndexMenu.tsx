@@ -95,6 +95,11 @@ const Node = ({
             {isExpandedState ? '▼' : '▶'}
           </button>
         )}
+        {!hasChildren && (
+          <span className="px-1 mr-2 invisible" aria-hidden="true">
+            ▶
+          </span>
+        )}
         <button
           onClick={() => node.location?.page && jumpToPage(node.location.page)}
           className="flex-1 text-left cursor-pointer"
