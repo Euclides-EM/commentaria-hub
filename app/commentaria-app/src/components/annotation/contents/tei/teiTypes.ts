@@ -151,6 +151,17 @@ export type ParagraphTextWithAnchors = {
   anchors: Record<string, number>
   lineRanges: ParagraphLineRange[]
   blockType?: string
+  table?: ParagraphTable
+}
+
+export type ParagraphTableCell = {
+  start: number
+  end: number
+}
+
+export type ParagraphTable = {
+  rows: ParagraphTableCell[][]
+  columnCount: number
 }
 
 export type LineMatchMode = 'none' | 'original-id' | 'corresp'

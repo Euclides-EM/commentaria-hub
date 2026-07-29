@@ -125,8 +125,8 @@ const getSelectionDraft = (
       ? range.endContainer
       : range.endContainer.parentElement
 
-  const startParagraph = startParent?.closest('p[data-tei-paragraph-index]')
-  const endParagraph = endParent?.closest('p[data-tei-paragraph-index]')
+  const startParagraph = startParent?.closest('[data-tei-paragraph-index]')
+  const endParagraph = endParent?.closest('[data-tei-paragraph-index]')
 
   if (!startParagraph || !endParagraph || startParagraph !== endParagraph) {
     return null
@@ -508,7 +508,7 @@ export const TeiContentView = ({
         </div>
       )}
       <div
-        className={`tei-readable text-xs leading-relaxed p-2 ${noFrame ? '' : 'border border-gray-300 rounded-xl bg-gray-50'} ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 ${centerRows ? '[&_p]:text-center' : ''} [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5 [&_[data-tei-corresp-hovered='true']]:bg-teal-100/70 [&_[data-tei-corresp-hovered='true']]:outline [&_[data-tei-corresp-hovered='true']]:outline-1 [&_[data-tei-corresp-hovered='true']]:outline-teal-500/70 [&_[data-tei-corresp-hovered='true']]:rounded-sm`}
+        className={`tei-readable text-xs leading-relaxed p-2 ${noFrame ? '' : 'border border-gray-300 rounded-xl bg-gray-50'} ${showViewLabel ? 'pt-7' : ''} [&_p]:mb-2 [&_p:last-child]:mb-0 ${centerRows ? '[&_p]:text-center [&_table]:text-center' : ''} [&_[data-tei-selected='true']]:bg-yellow-200/70 [&_[data-tei-selected='true']]:text-gray-900 [&_[data-tei-selected='true']]:rounded-sm [&_[data-tei-selected='true']]:px-0.5 [&_[data-tei-corresp-hovered='true']]:bg-teal-100/70 [&_[data-tei-corresp-hovered='true']]:outline [&_[data-tei-corresp-hovered='true']]:outline-1 [&_[data-tei-corresp-hovered='true']]:outline-teal-500/70 [&_[data-tei-corresp-hovered='true']]:rounded-sm`}
         style={{ whiteSpace: 'normal' }}
         dangerouslySetInnerHTML={{ __html: html }}
       />

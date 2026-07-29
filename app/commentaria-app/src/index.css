@@ -49,6 +49,24 @@ em {
   margin-bottom: 0.7rem;
 }
 
+.tei-readable table[data-tei-table='true'] {
+  width: 100%;
+  margin-bottom: 0.7rem;
+  border-collapse: collapse;
+  color: #1f2937;
+}
+
+.tei-readable table[data-tei-table='true'] td {
+  min-width: 3rem;
+  border: 1px solid #d1d5db;
+  padding: 0.25rem 0.4rem;
+  vertical-align: top;
+}
+
+.tei-readable table[data-tei-table='true'] tr:nth-child(even) td {
+  background: rgba(243, 244, 246, 0.65);
+}
+
 .tei-readable p[data-tei-block-type='header1'] {
   margin-top: 1.05rem;
   margin-bottom: 0.45rem;

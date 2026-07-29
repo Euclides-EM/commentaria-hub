@@ -18,6 +18,7 @@ import type {
   ParagraphAnchorLocation,
   ParagraphHighlightSpan,
   ParagraphLineRange,
+  ParagraphTable,
   ParagraphTextWithAnchors,
   ReadingOptions,
   TeiHighlightConfig,
@@ -347,6 +348,64 @@ const joinLineTexts = (
 const getTeiBlockType = (element: Element) =>
   getElementAttr(element, 'type') || undefined
 
+const getParagraphTable = (
+  lines: LineTextWithAnchors[],
+): Pick<
+  ParagraphTextWithAnchors,
+  'text' | 'anchors' | 'lineRanges' | 'table'
+> | null => {
+  const separator = ' | '
+  if (!lines.some((line) => line.text.includes(separator))) {
+    return null
+  }
+
+  const columnCount = Math.max(
+    ...lines.map((line) => line.text.split(separator).length),
+  )
+  let text = ''
+  const anchors: Record<string, number> = {}
+  const lineRanges: ParagraphLineRange[] = []
+  const rows: ParagraphTable['rows'] = []
+
+  for (const [lineIndex, line] of lines.entries()) {
+    if (lineIndex > 0) {
+      text += '\n'
+    }
+    const lineStart = text.length
+    const cells = line.text.split(separator)
+    const row = []
+    let cellStart = lineStart
+
+    for (const cell of cells) {
+      const cellEnd = cellStart + cell.length
+      row.push({ start: cellStart, end: cellEnd })
+      cellStart = cellEnd + separator.length
+    }
+    while (row.length < columnCount) {
+      row.push({
+        start: lineStart + line.text.length,
+        end: lineStart + line.text.length,
+      })
+    }
+    rows.push(row)
+
+    text += line.text
+    if (line.matchIds.length > 0 && line.text.length > 0) {
+      lineRanges.push({
+        start: lineStart,
+        end: text.length,
+        matchIds: line.matchIds,
+        certaintyDegree: line.certaintyDegree,
+      })
+    }
+    for (const [id, position] of Object.entries(line.anchors)) {
+      anchors[id] = lineStart + position
+    }
+  }
+
+  return { text, anchors, lineRanges, table: { rows, columnCount } }
+}
+
 export const renderStructuredDivToParagraphs = (
   div: Element,
   opts: ReadingOptions,
@@ -374,6 +433,14 @@ export const renderStructuredDivToParagraphs = (
           certaintyDegree: degree,
         } satisfies LineTextWithAnchors
       })
+      const table =
+        opts.alignLines && blockType === 'paragraph'
+          ? getParagraphTable(renderedLines)
+          : null
+      if (table) {
+        paragraphs.push({ ...table, blockType })
+        continue
+      }
       const blocks = joinLineTexts(renderedLines, opts.alignLines, blockType)
       for (const block of blocks) {
         paragraphs.push(block)
@@ -644,6 +711,43 @@ export const renderParagraphWithLineRanges = (
   return html || '&nbsp;'
 }
 
+const renderParagraphElement = (
+  paragraph: ParagraphTextWithAnchors,
+  spans: ParagraphHighlightSpan[],
+  paragraphIndex: number,
+  showCertaintyVisualization: boolean,
+  attrs: string,
+) => {
+  if (!paragraph.table) {
+    return `<p${attrs}>${renderParagraphWithLineRanges(paragraph.text, spans, paragraphIndex, paragraph.lineRanges, showCertaintyVisualization)}</p>`
+  }
+
+  const rows = paragraph.table.rows
+    .map((row) => {
+      const cells = row
+        .map((cell) => {
+          const cellText = paragraph.text.slice(cell.start, cell.end)
+          const cellSpans = getParagraphHighlightSlice(
+            spans,
+            cell.start,
+            cell.end,
+          )
+          const cellLineRanges = paragraph.lineRanges
+            .map((range) => ({
+              ...range,
+              start: Math.max(range.start, cell.start) - cell.start,
+              end: Math.min(range.end, cell.end) - cell.start,
+            }))
+            .filter((range) => range.end > range.start)
+          return `<td>${renderParagraphWithLineRanges(cellText, cellSpans, paragraphIndex, cellLineRanges, showCertaintyVisualization)}</td>`
+        })
+        .join('')
+      return `<tr>${cells}</tr>`
+    })
+    .join('')
+  return `<table${attrs} data-tei-table="true"><tbody>${rows}</tbody></table>`
+}
+
 export const renderStructuredDiv = (
   div: Element,
   opts: ReadingOptions,
@@ -652,17 +756,16 @@ export const renderStructuredDiv = (
   const paragraphs = renderStructuredDivToParagraphs(div, opts, lineMatchMode)
   return paragraphs
     .map((paragraph, index) => {
-      const html = renderParagraphWithLineRanges(
-        paragraph.text,
-        [],
-        index,
-        paragraph.lineRanges,
-        !!opts.showCertaintyVisualization,
-      )
       const blockTypeAttr = paragraph.blockType
         ? ` data-tei-block-type="${escapeHtmlAttr(paragraph.blockType)}"`
         : ''
-      return `<p${blockTypeAttr}>${html}</p>`
+      return renderParagraphElement(
+        paragraph,
+        [],
+        index,
+        !!opts.showCertaintyVisualization,
+        blockTypeAttr,
+      )
     })
     .join('')
 }
@@ -833,7 +936,13 @@ export const renderOriginalView = (
     const blockTypeAttr = paragraph.blockType
       ? ` data-tei-block-type="${escapeHtmlAttr(paragraph.blockType)}"`
       : ''
-    return `<p data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttr}>${renderParagraphWithLineRanges(paragraph.text, spans, index, paragraph.lineRanges, !!opts.showCertaintyVisualization)}</p>`
+    return renderParagraphElement(
+      paragraph,
+      spans,
+      index,
+      !!opts.showCertaintyVisualization,
+      ` data-tei-paragraph-index="${index}" data-tei-paragraph-text="${paragraphTextAttr}"${blockTypeAttr}`,
+    )
   })
 
   return parts.join('') || '<p></p>'
