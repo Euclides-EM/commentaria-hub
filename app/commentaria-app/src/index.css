@@ -50,21 +50,21 @@ em {
 }
 
 .tei-readable table[data-tei-table='true'] {
-  width: 100%;
+  width: fit-content;
+  max-width: 100%;
   margin-bottom: 0.7rem;
   border-collapse: collapse;
   color: #1f2937;
 }
 
 .tei-readable table[data-tei-table='true'] td {
-  min-width: 3rem;
-  border: 1px solid #d1d5db;
+  border: 0;
   padding: 0.25rem 0.4rem;
   vertical-align: top;
 }
 
-.tei-readable table[data-tei-table='true'] tr:nth-child(even) td {
-  background: rgba(243, 244, 246, 0.65);
+.tei-readable table[data-tei-table='true'] td + td {
+  border-left: 1px solid #d1d5db;
 }
 
 .tei-readable p[data-tei-block-type='header1'] {
@@ -134,20 +134,17 @@ em {
 }
 
 .tei-readable p[data-tei-block-type='comment'] {
-  border-left: 3px solid #eab308;
-  background: #fefce8;
-  border-radius: 0.35rem;
-  color: #713f12;
-  font-size: 0.74rem;
-  line-height: 1.45;
-  padding: 0.45rem 0.55rem;
+  color: #6b7280;
+  font-size: 0.72rem;
+  font-style: italic;
+  margin-left: 1rem;
 }
 
 .tei-readable p[data-tei-block-type='figure'] {
-  border-left: 3px solid #14b8a6;
-  background: #f0fdfa;
+  border-left: 3px solid #b7791f;
+  background: #fffbeb;
   border-radius: 0.35rem;
-  color: #134e4a;
+  color: #78350f;
   font-size: 0.74rem;
   line-height: 1.45;
   padding: 0.45rem 0.55rem;
@@ -157,7 +154,7 @@ em {
   content: 'Visual Element';
   display: block;
   margin-bottom: 0.2rem;
-  color: #0f766e;
+  color: #92400e;
   font-size: 0.62rem;
   font-style: normal;
   font-weight: 700;
