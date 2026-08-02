@@ -1,6 +1,6 @@
 <!-- # Vorrede. -->
 
-Zu denen 17. Zeichen sind noch diese zusetzen:
+## Zu denen 17. Zeichen sind noch diese zusetzen:
 
 18. ⬠ Fünfeck/ Quinquangulum, Pentagonum.
 19. ◇ Kreißschnitt/ Sector.

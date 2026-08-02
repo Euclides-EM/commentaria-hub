@@ -1,8 +1,8 @@
-Demonstratio II. (Beweiß.)
+### Demonstratio II. (Beweiß.)
 
 Porrò, si linea ab coincidit cum linea AB.
 
-Præparatio II. (Vorbereitung)
+### Præparatio II. (Vorbereitung)
 
 Linea ac vel in ipsam lineam AC, vel intra in Ag, vel extra in Af cadet.
 
@@ -15,7 +15,7 @@ Ergò BAC ⋏ BAg per 1. axioma  BAC ⋏ BAf n. 1. Gr. S.
 
 Neutrum fieri potest. Ergo necessariò cadet linea ac in lineam AC.
 
-Demonstratio III. (Beweiß.)
+### Demonstratio III. (Beweiß.)
 
 Denique: quia lineæ bc ambo termini b & c in ambos lineæ BC terminos B & C cadunt, incidet quoque ipsa linea bc in Basin BC, vel supra, vel infra:
 

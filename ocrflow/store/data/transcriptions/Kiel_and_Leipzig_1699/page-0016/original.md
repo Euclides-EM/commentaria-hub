@@ -1,4 +1,4 @@
-Data (Gegebene.)          Quæsita (Begehrte.)
+### Data (Gegebene.)          Quæsita (Begehrte.)
 
 1. Duo rectilinea triangula
    ABC & abc                    BC | bc
@@ -7,11 +7,11 @@ Data (Gegebene.)          Quæsita (Begehrte.)
 4.      AC |      ac            CBA ⋏ cba
 5. BAC ⋏ bac
 
-Præparatio I. (Vorbereitung.)
+### Præparatio I. (Vorbereitung.)
 
 Tollatur △ abc, & imponatur △ lo. ABC ita, ut punctum a in punctum A, linea ab in lineam AB incidat.
 
-Demonstratio I. (Beweiß.)
+### Demonstratio I. (Beweiß.)
 
 Cadet itaque punctum b aut in punctum B, aut supra illud in punctum d, aut infra in e.
 

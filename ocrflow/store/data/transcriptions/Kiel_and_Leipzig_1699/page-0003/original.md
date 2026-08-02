@@ -6,7 +6,7 @@ Bey der Hoch-Fürstl. Holst. Universität Codic. und Mathematum Prof.
 
 In Teutscher Sprache vorgestellter
 
-# EUCLIDES,
+EUCLIDES,
 
 Dessen VI. erste Bücher
 

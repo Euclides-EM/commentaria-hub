@@ -1,6 +1,6 @@
 <!-- # Vorrede. -->
 
-# Zu dem X. Grundsatz.
+## Zu dem X. Grundsatz.
 
 (qq) Wenn von zweyen gleichmässigen Winckeln (a und b) einer (a) recht ist/ so ist der andere (b) auch recht.
 

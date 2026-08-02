@@ -14,19 +14,43 @@ const getPageNumber = (page: string | undefined): number | undefined => {
   return Number.isNaN(parsedPage) ? undefined : parsedPage
 }
 
+type NavigationIndexNode = Omit<annotation_IndexNode, 'children'> & {
+  navigationKey: string
+  children?: NavigationIndexNode[]
+}
+
+const addNavigationKeys = (
+  nodes: annotation_IndexNode[],
+  parentKey = 'root',
+): NavigationIndexNode[] =>
+  nodes.map((node, index) => {
+    const navigationKey = `${parentKey}.${index}`
+    return {
+      ...node,
+      navigationKey,
+      children: node.children
+        ? addNavigationKeys(node.children, navigationKey)
+        : undefined,
+    }
+  })
+
+const getExpandableNodeKeys = (nodes: NavigationIndexNode[]): string[] =>
+  nodes.flatMap((node) => {
+    if (!node.children?.length) return []
+    return [node.navigationKey, ...getExpandableNodeKeys(node.children)]
+  })
+
 const getFilteredNode = (
   search: string,
-  node: annotation_IndexNode,
-): annotation_IndexNode | null => {
+  node: NavigationIndexNode,
+): NavigationIndexNode | null => {
   if (!search) return node
 
   const normalizedSearch = search.toLowerCase()
   const matchingChildren =
     node.children
-      ?.map((child: annotation_IndexNode) =>
-        getFilteredNode(normalizedSearch, child),
-      )
-      .filter((child): child is annotation_IndexNode => child !== null) ?? []
+      ?.map((child) => getFilteredNode(normalizedSearch, child))
+      .filter((child): child is NavigationIndexNode => child !== null) ?? []
   const matchesSelf = node.content?.toLowerCase().includes(normalizedSearch)
 
   if (matchesSelf || matchingChildren.length > 0) {
@@ -62,17 +86,20 @@ const Node = ({
   currentPage,
   nextSiblingPage,
   forceExpanded,
+  expandedNodeKeys,
+  onExpandedChange,
 }: {
-  node: annotation_IndexNode
+  node: NavigationIndexNode
   jumpToPage: (page: PageOrKey) => void
   level: number
   currentPage: number
   nextSiblingPage?: number
   forceExpanded?: boolean
+  expandedNodeKeys: Set<string>
+  onExpandedChange: (nodeKey: string, expanded: boolean) => void
 }) => {
-  const [isExpanded, setIsExpanded] = useState(false)
   const hasChildren = node.children && node.children.length > 0
-  const isExpandedState = forceExpanded || isExpanded
+  const isExpanded = forceExpanded || expandedNodeKeys.has(node.navigationKey)
   const nodePage = getPageNumber(node.location?.page)
   const isActive =
     nodePage !== undefined &&
@@ -88,11 +115,13 @@ const Node = ({
       >
         {hasChildren && (
           <button
-            title={isExpandedState ? 'Collapse' : 'Expand'}
-            onClick={() => setIsExpanded(!isExpandedState)}
+            title={isExpanded ? 'Collapse' : 'Expand'}
+            aria-label={isExpanded ? 'Collapse entry' : 'Expand entry'}
+            aria-expanded={isExpanded}
+            onClick={() => onExpandedChange(node.navigationKey, !isExpanded)}
             className="px-1 mr-2 hover:bg-gray-200 rounded cursor-pointer"
           >
-            {isExpandedState ? '▼' : '▶'}
+            {isExpanded ? '▼' : '▶'}
           </button>
         )}
         {!hasChildren && (
@@ -107,9 +136,9 @@ const Node = ({
           {node.content} {node.location?.page && `(p. ${node.location.page})`}
         </button>
       </div>
-      {hasChildren && isExpandedState && (
+      {hasChildren && isExpanded && (
         <div>
-          {node.children?.map((child: annotation_IndexNode, idx: number) => (
+          {node.children?.map((child, idx) => (
             <Node
               node={child}
               jumpToPage={jumpToPage}
@@ -125,7 +154,9 @@ const Node = ({
                   : undefined
               }
               forceExpanded={forceExpanded}
-              key={idx}
+              expandedNodeKeys={expandedNodeKeys}
+              onExpandedChange={onExpandedChange}
+              key={child.navigationKey}
             />
           ))}
         </div>
@@ -144,21 +175,49 @@ export function IndexMenu({
     defaultValue: '',
     storageSync: false,
   })
+  const [expandedNodeKeys, setExpandedNodeKeys] = useState<Set<string>>(
+    () => new Set(),
+  )
   const {
     data: annotationIndex,
     isLoading,
     error,
   } = useAnnotationIndexQuery(state.datasetId, state.annotationId)
   const normalizedSearchTerm = searchTerm.trim()
+  const navigationNodes = useMemo(
+    () =>
+      addNavigationKeys(
+        annotationIndex?.nodes ?? [],
+        `${state.datasetId}.${state.annotationId}`,
+      ),
+    [annotationIndex?.nodes, state.annotationId, state.datasetId],
+  )
+  const expandableNodeKeys = useMemo(
+    () => getExpandableNodeKeys(navigationNodes),
+    [navigationNodes],
+  )
   const filteredNodes = useMemo(
     () =>
-      (annotationIndex?.nodes ?? [])
-        .map((node: annotation_IndexNode) =>
-          getFilteredNode(normalizedSearchTerm, node),
-        )
-        .filter((node): node is annotation_IndexNode => node !== null),
-    [annotationIndex?.nodes, normalizedSearchTerm],
+      navigationNodes
+        .map((node) => getFilteredNode(normalizedSearchTerm, node))
+        .filter((node): node is NavigationIndexNode => node !== null),
+    [navigationNodes, normalizedSearchTerm],
   )
+  const allExpanded =
+    expandableNodeKeys.length > 0 &&
+    expandableNodeKeys.every((key) => expandedNodeKeys.has(key))
+  const allCollapsed = !expandableNodeKeys.some((key) =>
+    expandedNodeKeys.has(key),
+  )
+
+  const onExpandedChange = (nodeKey: string, expanded: boolean) => {
+    setExpandedNodeKeys((current) => {
+      const next = new Set(current)
+      if (expanded) next.add(nodeKey)
+      else next.delete(nodeKey)
+      return next
+    })
+  }
 
   return (
     <div className="flex flex-col min-h-0 h-full">
@@ -172,12 +231,47 @@ export function IndexMenu({
         </div>
       ) : (
         <>
-          <div className="px-3">
+          <div className="px-3 space-y-2">
             <SearchInput
               value={searchTerm}
               onChange={setSearchTerm}
               placeholder="Filter..."
             />
+            <div className="flex items-center justify-end gap-2">
+              <button
+                type="button"
+                className="text-xs text-gray-600 hover:text-gray-900 disabled:text-gray-300 disabled:cursor-not-allowed"
+                onClick={() => setExpandedNodeKeys(new Set())}
+                disabled={allCollapsed || normalizedSearchTerm.length > 0}
+                title={
+                  normalizedSearchTerm
+                    ? 'Clear the filter to collapse all entries'
+                    : 'Collapse all index entries'
+                }
+              >
+                Collapse all
+              </button>
+              <span className="text-gray-300" aria-hidden="true">
+                |
+              </span>
+              <button
+                type="button"
+                className="text-xs text-gray-600 hover:text-gray-900 disabled:text-gray-300 disabled:cursor-not-allowed"
+                onClick={() => setExpandedNodeKeys(new Set(expandableNodeKeys))}
+                disabled={
+                  expandableNodeKeys.length === 0 ||
+                  allExpanded ||
+                  normalizedSearchTerm.length > 0
+                }
+                title={
+                  normalizedSearchTerm
+                    ? 'Clear the filter to expand all entries'
+                    : 'Expand all index entries'
+                }
+              >
+                Expand all
+              </button>
+            </div>
           </div>
 
           <div className="overflow-auto p-3 flex-1 min-h-0">
@@ -187,27 +281,27 @@ export function IndexMenu({
               </div>
             ) : (
               <div>
-                {filteredNodes.map(
-                  (item: annotation_IndexNode, idx: number) => (
-                    <Node
-                      node={item}
-                      jumpToPage={jumpToPage}
-                      key={idx}
-                      level={0}
-                      currentPage={
-                        disableHighlight
-                          ? -1
-                          : Number(state.currentPageOrKey) || 0
-                      }
-                      forceExpanded={normalizedSearchTerm.length > 0}
-                      nextSiblingPage={getNextSiblingPage(
-                        filteredNodes,
-                        idx,
-                        getPageNumber(item.location?.page),
-                      )}
-                    />
-                  ),
-                )}
+                {filteredNodes.map((item, idx) => (
+                  <Node
+                    node={item}
+                    jumpToPage={jumpToPage}
+                    key={item.navigationKey}
+                    level={0}
+                    currentPage={
+                      disableHighlight
+                        ? -1
+                        : Number(state.currentPageOrKey) || 0
+                    }
+                    forceExpanded={normalizedSearchTerm.length > 0}
+                    expandedNodeKeys={expandedNodeKeys}
+                    onExpandedChange={onExpandedChange}
+                    nextSiblingPage={getNextSiblingPage(
+                      filteredNodes,
+                      idx,
+                      getPageNumber(item.location?.page),
+                    )}
+                  />
+                ))}
               </div>
             )}
           </div>

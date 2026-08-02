@@ -406,6 +406,42 @@ const getParagraphTable = (
   return { text, anchors, lineRanges, table: { rows, columnCount } }
 }
 
+const appendParagraphLines = (
+  paragraphs: ParagraphTextWithAnchors[],
+  lines: LineTextWithAnchors[],
+  opts: ReadingOptions,
+  blockType: string | undefined,
+) => {
+  const separator = ' | '
+  let run: LineTextWithAnchors[] = []
+  let runIsTable = false
+
+  const pushRun = () => {
+    if (run.length === 0) {
+      return
+    }
+    if (runIsTable) {
+      const table = getParagraphTable(run)
+      if (table) {
+        paragraphs.push({ ...table, blockType })
+      }
+    } else {
+      paragraphs.push(...joinLineTexts(run, opts.alignLines, blockType))
+    }
+    run = []
+  }
+
+  for (const line of lines) {
+    const lineIsTable = line.text.includes(separator)
+    if (run.length > 0 && lineIsTable !== runIsTable) {
+      pushRun()
+    }
+    runIsTable = lineIsTable
+    run.push(line)
+  }
+  pushRun()
+}
+
 export const renderStructuredDivToParagraphs = (
   div: Element,
   opts: ReadingOptions,
@@ -433,10 +469,8 @@ export const renderStructuredDivToParagraphs = (
           certaintyDegree: degree,
         } satisfies LineTextWithAnchors
       })
-      const table =
-        blockType === 'paragraph' ? getParagraphTable(renderedLines) : null
-      if (table) {
-        paragraphs.push({ ...table, blockType })
+      if (blockType === 'paragraph') {
+        appendParagraphLines(paragraphs, renderedLines, opts, blockType)
         continue
       }
       const blocks = joinLineTexts(renderedLines, opts.alignLines, blockType)

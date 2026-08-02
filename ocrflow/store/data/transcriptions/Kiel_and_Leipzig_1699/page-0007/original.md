@@ -5,12 +5,12 @@ gen Dingen (A und B) ungleiche Stücke (c und d) abnimmt/ so bleiben ungleiche S
 *[Figur: schematische Darstellung mit Buchstaben A, B, c, d, e, f und Linien:]*
 
 A | B    A ___e___ ___c___
-c ⊣ d    B ___f___ ___d___
+c ⊢ d    B ___f___ ___d___
 
 Dw.  A--c ⊣ B--d
 oder     e ⊣ f.
 
-# Zu dem VI. Grundsatz.
+## Zu dem VI. Grundsatz.
 
 (kk) Wenn (a) von zwey gleichmässigen Dingen (a und b) zwey- (oder mehr- mahl grösser ist/ als das dritte (c) so ist auch das andere (b) zwey- (oder mehr- mahl) grösser/ als solch drittes (c).
 
